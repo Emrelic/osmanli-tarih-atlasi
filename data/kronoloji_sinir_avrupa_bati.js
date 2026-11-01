@@ -51,7 +51,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Berlin"], t:"1415-01-01", devlet:"isvicre", devletler:["isvicre","almanya"], sinir_id:"",
   b:"İsviçrelilerin Aargau'yu fethi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["konu-siyasi","isvicre","almanya"],
-  d:"İmparatorluktan sürgün edilen Habsburg Dükü IV. Friedrich'in Aargau'daki topraklarını İsviçreliler (Uri hariç) Nisan 1415'te ele geçirdi. Bern iki haftada Aarburg, Aarau, Zofingen, Lenzburg ve Brugg'u aldı; Luzern ve Zürih de birer pay aldı. Tarih YIL düzeyindedir: kaynak ayı veriyor, günü vermiyor.",
+  d:"İmparatorluktan sürgün edilen Habsburg Dükü IV. Friedrich'in Aargau'daki topraklarını İsviçreliler (Uri hariç) Nisan 1415'te ele geçirdi. Bern iki haftada Aarburg, Aarau, Zofingen, Lenzburg ve Brugg'u aldı; Luzern ve Zürih de birer pay aldı. Tarih yıl düzeyindedir: kaynak ayı veriyor, günü vermiyor.",
   kaynak:"Historisches Lexikon der Schweiz 'Aargau'" },
 
 { odak_yer:["Arras"], t:"1482-12-23", devlet:"fransa", devletler:["fransa","almanya"], sinir_id:"",
@@ -81,7 +81,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Bretanya"], t:"1532-01-01", devlet:"fransa", devletler:["fransa","bretanya"], sinir_id:"",
   b:"Bretanya'nın Fransa tacına bağlanması (Birleşme Fermanı)", tur:"bolunme", onem:3, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["konu-siyasi","fransa","bretanya"],
-  d:"Nantes'ta çıkarılan Birleşme Fermanı Bretanya dükalığını Fransa tacına ebediyen bağladı; Bretanya'nın vergi rızası ve adalet düzeni gibi hakları korundu. Kaynak ayı veriyor (Ağustos 1532), günü vermiyor; tarih YIL düzeyindedir.",
+  d:"Nantes'ta çıkarılan Birleşme Fermanı Bretanya dükalığını Fransa tacına ebediyen bağladı; Bretanya'nın vergi rızası ve adalet düzeni gibi hakları korundu. Kaynak ayı veriyor (Ağustos 1532), günü vermiyor; tarih yıl düzeyindedir.",
   kaynak:"Loire-Atlantique Departman Arşivleri 'Édit d'union 1532' (asıl belge: Archives nationales AE/II/587)" },
 
 { odak_yer:["Bern"], t:"1536-01-22", devlet:"isvicre", devletler:["isvicre","savoya"], sinir_id:"dg5-sa-ch-1",
@@ -119,11 +119,12 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 // Roskilde 1658 · Pireneler 1659 · Kopenhag 1660 · Lizbon 1668 · Utrecht 1713 · Rastatt 1714 ·
 // Campo Formio 1797 · Fredrikshamn 1809 · Kiel 1814. Bu dönemin hatlarının çoğu haritada YOK kutusudur.
 
-{ odak_yer:["Östersund"], t:"1645-08-13", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
-  b:"Brömsebro Barışı — Jämtland ve Härjedalen İsveç'e geçti", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ odak_yer:["Östersund","Visby","Halmstad"], t:"1645-08-13", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
+  b:"Brömsebro Barışı — Jämtland, Härjedalen, Gotland ve Ösel İsveç'e geçti; Halland 30 yıllığına İsveç'e bırakıldı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","isvec","danimarka"],
   d:"Uzun müzakerelerin ardından Brömsebro'da imzalanan barışla Danimarka-Norveç, Norveç'in Jämtland ve Härjedalen illerini İsveç'e bıraktı. İki krallık arasındaki kuzey sınırı böylece batıya kaydı; ancak hat 1751'e kadar ayrıntılı olarak çizilmedi.",
-  kaynak:"Den Store Danske (lex.dk) 'Brömsebro' · Store norske leksikon 'riksgrensen'" },
+  ic_not_d:"KRON-ISKANDINAVYA 29 Ekim 2026: aynı barışla Gotland (Visby) ve Ösel de İsveç'e geçti; Halland yalnız 30 yıllığına (rehin/gümrük güvencesi) İsveç'e bırakıldı, kalıcı devir Roskilde'de (1658) oldu — Halmstad zinciri 1645'ten İsveç gösterir (rehin dilimi beyanlıdır). TAKVİM: 13 Ağustos 1645 Jülyen gündür, Gregoryen 23 Ağustos; atlasın 17. yy İskandinav günleri Jülyen tutulmuştur (toplu çeviri Emre kararı).",
+  kaynak:"Den Store Danske (lex.dk) 'Brömsebro' · Store norske leksikon 'riksgrensen' · Store norske leksikon «Brömsebro» https://snl.no/Br%C3%B6msebro ; «Härjedalen» https://snl.no/H%C3%A4rjedalen ; Lex, «Torstenssonfejden» https://lex.dk/Torstenssonfejden" },
 
 { odak_yer:["Paris"], t:"1660-11-12", devlet:"fransa", devletler:["fransa","ispanya"], sinir_id:"d1923-fr-es-llivia",
   b:"Llívia sözleşmesi — Llívia'nın Cerdanya'da İspanyol anklavı olarak kalması", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
@@ -374,13 +375,13 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Tarvis","İtalya"], t:"1920-01-01", devlet:"italya", devletler:["italya","avusturya-cumhuriyet"], sinir_id:"d1923-it-at",
   b:"Saint-Germain Antlaşması yürürlüğe girdi — Güney Tirol ve Tarvis İtalya'ya", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","avusturya-cumhuriyet"],
-  d:"10 Eylül 1919'da imzalanan Saint-Germain Antlaşması'nın 27(2). maddesi Avusturya–İtalya sınırını Reschen, Brenner ve Karn Alpleri boyunca çizdi; Güney Tirol ile Tarvis İtalya'ya geçti. Büyükelçiler Konferansı 22 Temmuz 1920'de demarkasyon talimatını verdi, işaretleme 1924'te bitti. Metnin 'yerinde belirlenecek' dediği üç alt kesim (Reschen, Drava geçişi, Thörl) 1923'te henüz kesinleşmemişti. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
+  d:"10 Eylül 1919'da imzalanan Saint-Germain Antlaşması'nın 27(2). maddesi Avusturya–İtalya sınırını Reschen, Brenner ve Karn Alpleri boyunca çizdi; Güney Tirol ile Tarvis İtalya'ya geçti. Büyükelçiler Konferansı 22 Temmuz 1920'de demarkasyon talimatını verdi, işaretleme 1924'te bitti. Metnin 'yerinde belirlenecek' dediği üç alt kesim (Reschen, Drava geçişi, Thörl) 1923'te henüz kesinleşmemişti. Tarih yalnız yıl düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"IBS No. 58 (Revised) Austria–Italy (md. 27 alıntısı, 1920 talimatı, 1924 demarkasyonu)" },
 
 { odak_yer:["İtalya"], t:"1920-01-01", devlet:"italya", devletler:["italya","isvicre"], sinir_id:"d1923-it-ch-saintgermain",
   b:"Güney Tirol'le birlikte eski Avusturya–İsviçre sınırının bir kesimi İtalya–İsviçre sınırı oldu", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","isvicre"],
-  d:"Saint-Germain Antlaşması'yla Güney Tirol'ün İtalya'ya geçmesi, İtalya–İsviçre sınırını Cima Garibaldi'den Piz Lad'a kadar 53,5 km uzattı. Hat eski Avusturya–İsviçre sınırıydı ve değişmeden devralındı. İki ülke bu kesimi 1920-1927 arasında yeniden işaretledi ve çalışmayı 1927-1928 nota teatisiyle kabul etti. Tarih yalnız YIL düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
+  d:"Saint-Germain Antlaşması'yla Güney Tirol'ün İtalya'ya geçmesi, İtalya–İsviçre sınırını Cima Garibaldi'den Piz Lad'a kadar 53,5 km uzattı. Hat eski Avusturya–İsviçre sınırıydı ve değişmeden devralındı. İki ülke bu kesimi 1920-1927 arasında yeniden işaretledi ve çalışmayı 1927-1928 nota teatisiyle kabul etti. Tarih yalnız yıl düzeyindedir: antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
   kaynak:"IBS No. 12 Italy–Switzerland" },
 
 { odak_yer:["Danimarka","Almanya"], t:"1920-07-05", devlet:"danimarka", devletler:["danimarka","almanya"], sinir_id:"d1923-dk-de",
@@ -737,6 +738,24 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Yugoslavya'nın işgalinde Macar ordusu 11 Nisan 1941'de Subotica'ya girdi; Bačka 1944'e dek Macar işgalinde kaldı. Şehir 10 Ekim 1944'te Kızıl Ordu ve partizanlarca alındı.",
   kaynak:"Encyclopaedia Judaica «Subotica» (encyclopedia.com) · Hrvatska enciklopedija «Subotica» · Sırbistan Savunma Bakanlığı (mod.gov.rs/eng/3280)" },
 
+{ t:"1944-10-10", devlet:"macaristan-naiplik", devletler:["macaristan-naiplik","yugoslavya"], sinir_id:"",
+  b:"Subotica Kızıl Ordu ve partizanlarca alındı — Macar işgalinin sonu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Subotica (Szabadka)",
+  etiket:["konu-siyasi","macaristan-naiplik","yugoslavya"],
+  d:"Bačka'daki Macar işgali Subotica'nın 10 Ekim 1944'te alınmasıyla sona erdi; şehir Yugoslavya yönetimine geçti.",
+  kaynak:"Sırbistan Savunma Bakanlığı (mod.gov.rs/eng/3280) · Hrvatska enciklopedija «Subotica» (enciklopedija.hr/clanak/subotica, 1941-44 Macar işgali, yıl düzeyi)" },
+
+{ t:"1944-10-18", devlet:"hirvatistan-bagimsiz", devletler:["hirvatistan-bagimsiz","yugoslavya"], sinir_id:"",
+  b:"Dubrovnik partizanlarca alındı — NDH şehirden çekildi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Dubrovnik",
+  etiket:["konu-siyasi","hirvatistan-bagimsiz","yugoslavya"],
+  d:"Dubrovnik 10 Nisan 1941'den beri Bağımsız Hırvat Devleti içinde sayılıyordu (fiilen İtalyan, 1943'ten Alman askerî varlığı); 18 Ekim 1944'te partizan birlikleri şehri aldı.",
+  kaynak:"Hrvatska enciklopedija «Dubrovnik» https://www.enciklopedija.hr/clanak/dubrovnik : 'uključen u sastav NDH' (10. IV. 1941); partizanlar 18. X. 1944" },
+
+{ t:"1945-04-22", devlet:"hirvatistan-bagimsiz", devletler:["hirvatistan-bagimsiz","yugoslavya"], sinir_id:"",
+  b:"Banaluka partizan ordusunca alındı — NDH şehri yitirdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Banaluka",
+  etiket:["konu-siyasi","hirvatistan-bagimsiz","yugoslavya"],
+  d:"II. Dünya Savaşı'nda Bağımsız Hırvat Devleti içinde olan Banaluka'ya 22 Nisan 1945'te partizan ordusu girdi.",
+  kaynak:"Hrvatska enciklopedija «Banja Luka» https://www.enciklopedija.hr/clanak/banja-luka : '22. IV. 1945. u grad je ušla partizanska vojska'" },
+
 { t:"1340-01-01", kesinlik:"yil", devlet:"visconti", devletler:["visconti"], sinir_id:"",
   b:"Milano (Visconti) Bellinzona'yı Rusca'lardan aldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Bellinzona",
   etiket:["konu-siyasi","visconti"],
@@ -834,5 +853,19 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   etiket:["konu-siyasi","avusturya","venedik"],
   d:"Cambrai Birliği Savaşı'nda İmparator I. Maximilian 1511'de Venedik'ten Gradisca'yı fethetti; Gradisca o tarihten itibaren Habsburg mülkü kaldı. Aynı yıl Ampezzo vadisi (Cortina d'Ampezzo) de Avusturya idaresine girdi; vadi Tirol hukukuyla değil Kadore Statüsü'yle kendini yönetmeye devam etti. İki yer de 1918'e kadar Avusturya'da kaldı. Kaynaklar yılı veriyor.",
   kaynak:"Treccani «Gradisca d'Isonzo» · P. Giacomel, Ladinia XXXIX (2015) s. 63" },
+
+{ t:"1914-03-31", devlet:"yunanistan", devletler:["yunanistan","arnavutluk-bagimsiz"], sinir_id:"",
+  b:"Yunan kuvvetleri Korçë'den çekildi", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Görice (Korçë)",
+  etiket:["isgal","konu-askeri"],
+  gun:"Mart 1914 sonu (gün: atlas isg: dilimi bitişi; kaynak yalnız «March 1914» der — beyanlı yaklaşıklık)",
+  d:"Büyük devletlerin Floransa Protokolü ile Korçë'yi Arnavutluk'a vermesinin ardından Yunan ordusu Mart 1914'te şehirden çekildi; Korçë yeniden Arnavutluk idaresine geçti.",
+  kaynak:"Orjon Ago – Metin Venxha, «The June 1924 movement in Albania and the neutrality of Korça», Academic Journal of Business, Administration, Law and Social Sciences 11(3), Kasım 2025, DOI 10.2478/ajbals-2025-0032: «...Greek troops, who remained there until March 1914»." },
+
+{ t:"1916-01-13", devlet:"habsburg", devletler:["habsburg","karadag"], sinir_id:"",
+  b:"Avusturya-Macaristan kuvvetleri Cetinje'ye girdi", tur:"isgal", onem:3, dunya:2, kapsam:"dis", yer_id:"Cetinje",
+  etiket:["isgal","konu-askeri"],
+  gun:"13 Ocak 1916",
+  d:"Lovćen'in düşmesinin ardından Avusturya-Macaristan birlikleri Karadağ'ın başkenti Cetinje'ye girdi; Karadağ topraklarının işgali Kasım 1918'e dek sürdü.",
+  kaynak:"1914-1918-online (International Encyclopedia of the First World War), «Montenegro» maddesi (Cetinje'nin 13 Ocak 1916'da işgali)." },
 
 ];

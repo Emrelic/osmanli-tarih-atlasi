@@ -223,7 +223,7 @@ BEKLENEN_YERLESIM = 4299   # 968 -> 4299, 6 Ekim 2026 (ÖLÇÜLDÜ, yazmadan hem
 # 16 EKIM 2026 (DENETIM-K27-1016, Emre karari KARARLAR-EMRE-1015 #13, commit d98dffc38): 310 -> 312 —
 #    Bise + Vadi'd-Devasir (yerlesimler_nokta_ortadogu_0917.js) BEYANLI BOS NOKTA (kasitli_bosluk:true).
 #    Olcum: 1c belgeli 306 -> 308 (TAM +2), BELGESIZ 4 -> 4 (tavan 4) ⇒ ikisi de BELGELI, yeni delik YOK.
-BEKLENEN_SAHIPSIZ = 312   # 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla) · 15 EKIM: +1 Hamade-i Hamra (m.13) · 16 EKIM: +2 Bise/Vadi'd-Devasir (#13)
+BEKLENEN_SAHIPSIZ = 311   # 29 EKIM 2026: 312 -> 311 (olculdu: tam denetle 5400 yerlesim, 311 sahipsiz; Mbandaka 1883-85, Antananarivo, Mapungubwe dilimleri kaynakla dolduruldu) · 13 EYLUL 2026: 314 -> 324, on BELGELI beyan (asagida adiyla) · 15 EKIM: +1 Hamade-i Hamra (m.13) · 16 EKIM: +2 Bise/Vadi'd-Devasir (#13)
 # 🔴 314 -> 324, 13 EYLUL 2026 (1.MURAT, kosu 10 SURERKEN — denetle.py motor_izi'nde DEGIL)
 #    OLCUM, TAHMIN DEGIL: ayni alet c104b61'de (sabitin 314'e cekildigi commit)
 #    ayri worktree'de kosturuldu -> TAM 314 (saglama tuttu), sonra iki ad
@@ -1404,6 +1404,11 @@ BEYAN_EDILEN_BOSLUK = {
     # ve bunu SÖYLEYEN bir dal olmadan bayatlığı görünmez.
     ("Cenne (Djenné)", "1700-01-01", "1818-01-01"),
     ("Cenne (Djenné)", "1591-04-13", "1596-01-01"),
+    # Poti (Faş Kalesi) 1640-1724 — POSTIT-104 (Emre, a seçeneği): TDV fas--gurcistan
+    # kalenin 1640'ta İmereti/Guria/Megrelya birlikleriyle yıkıldığını söyler, yıkanların
+    # orayı aldığını söylemez; inşa kararı 1723-12-23, yeniden inşa Mart 1724. Aralıkta
+    # yerleşim YOK sayıldı (boşluk merdiveni ④), toprak komşu peteklere kalır.
+    ("Poti (Faş Kalesi)", "1640-01-01", "1724-03-01"),
     # 🔴 Timbuktu 1430-1468 — TEVÂRİK (TUAREG) DÖNEMİ, 13.879 gün.
     # Beyan ZATEN YAZILMIŞTI ve kaynaklıydı; düşüren şey kayıt değil ARAÇ oldu.
     #
@@ -1431,6 +1436,15 @@ BEYAN_EDILEN_BOSLUK = {
     # ⇒ BORÇ: `_sahiplik_uygula.py`ye `bos:`/`neden:` alanları eklenecek.
     #   O yapılana kadar beyan BURADA duruyor — beyanın yeri veri olmalıydı.
     ("Timbuktu", "1430-01-01", "1468-01-01"),
+    # Timbuktu 1893-1894 — tekrur künyesi 1893-01-01'de bitiyor, TDV `tinbuktu`
+    # Fransız ilhakını 1894 veriyor; aradaki yıl için kaynak YOK (uydurulmadı).
+    # SAHRA-ALTI-AFRIKA-DENETIM 28 Ekim 2026: kayıp yama yer_yama_timbuktu_tam_0906
+    # yerlesimler.js'e uygulandı; bu bir yıl BEYANDIR, eksik değil.
+    ("Timbuktu", "1893-01-01", "1894-01-01"),
+    # AVUSTURYA-MACAR-1027: Macaristan bölge noktası 796-895 (Avar halkasının düşüşü → Honfoglalás).
+    # Karpat havzasının bu yüzyılı Frank/Bavyera marki, Avar kalıntısı (künye t=822) ve Büyük
+    # Moravya arasında bölünüyor; sahip kaynakla tek kimliğe bağlanamadı (boşluk merdiveni ③).
+    ("Macaristan", "0796-01-01", "0895-01-01"),
     # 🔴 Cizre 1508-1515 — YEREL EMİRLİK, ve künyesi YOK. Beyan, kaynağın
     # kendi cümlesine dayanıyor; boşluk KAZA DEĞİL.
     #
@@ -1491,12 +1505,7 @@ BEYAN_EDILEN_BOSLUK = {
     #   Doha'nın 1193 günlük deliği (1913-1916) `s:{d:"katar"}` ile kapatıldı
     #   (ab1df42) — aynı yol buraya da açık, eksik olan kaynak.
     ("Katar Yarımadası (iç, dolgu)", "1795-04-01", "1868-01-01"),  # 1670-1795 Benî Hâlid (post-it #122)
-    # 🟢 Cibri (Güçlü) 1508-1515 — Cizre beyanının İKİZİ (TR-1923-SINIR, 15 Eylül 2026).
-    # Köy Cizre'nin 10,1 km batısında bir SINIR ÇİFTİ noktası; zinciri Cizre
-    # kaydından birebir (denetim/ARAC-TR1923-YAZ-0914.py). Boşluk aynı TDV `cizre`
-    # hükmüne dayanıyor: Bohtan beyliğinin mahallî idaresi, künyesi yok.
-    # 🔜 `cizre-beyligi` künyesi yazılınca BU SATIR DA silinir ve köy yeniden üretilir.
-    ("Cibri (Güçlü)", "1508-01-01", "1515-09-19"),
+    # (Cibri (Güçlü) 1508-1515 beyanı 29 Ekim 2026'da KALDIRILDI: dönem artık boşluk değil — BAYAT BEYAN uyarısı.)
 }
 
 
@@ -4015,10 +4024,6 @@ BILINEN_AYRI = {
      "Ermenistan Yüksek Konseyi referandum sonucuna dayanarak bağımsızlığı ilan etti; Gümrü ve Eçmiyadzin Ermenistan Cumhuriyeti adına SSCB'den ayrıldı"),
     ("SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodno) Sovyet egemenliğinden çıkıp bağımsız Belarus'a kaldı",
      "SSCB'nin dağılması: Ukrayna (Lvov, Kovel, Lutsk, Rivne, Volodymyr-Volynskyi, Yazlofça) bağımsız Ukrayna'ya kaldı"),
-    ("SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodno) Sovyet egemenliğinden çıkıp bağımsız Belarus'a kaldı",
-     "SSCB'nin feshi: Moskova, St. Petersburg, Kırım (Kefe, Kerç), Kafkasya kıyısı ve Volga havzası dahil Rusya toprakları Rusya Federasyonu'na kaldı"),
-    ("SSCB'nin dağılması: Ukrayna (Lvov, Kovel, Lutsk, Rivne, Volodymyr-Volynskyi, Yazlofça) bağımsız Ukrayna'ya kaldı",
-     "SSCB'nin feshi: Moskova, St. Petersburg, Kırım (Kefe, Kerç), Kafkasya kıyısı ve Volga havzası dahil Rusya toprakları Rusya Federasyonu'na kaldı"),
     ("Çekoslovakya'nın dağılması: Moravya (Olomouc, Brno, Jeseník) Çek Cumhuriyeti'ne kaldı",
      "Çekoslovakya'nın dağılması: Bratislava, Kassa (Košice), Eperjes, Nitra, Komárno, Uyvar dahil Slovak toprakları bağımsız Slovakya'ya geçti"),
     # ⭐ "AYNI ŞEHİR / AYNI FİİL / AYNI GÜN" — 5 Ekim 2026, KASA-POLONYA-1005.
@@ -5206,7 +5211,7 @@ D8_DEGME = 1.0       # km — parçanın hatta değdiği sayılan uzaklık
 #   ⚠️ Gövde hâlâ 2026-10-04 19:17 koşusunun çıktısı; Dobriç henüz gövdede YOK.
 #     Tam inşadan sonra bu üye yeniden ölçülecek — düşebilir de, kalabilir de.
 # ═══════════════════════════════════════════════════════════════════════════
-BEKLENEN_D8A = 180   # 25 EKIM 2026 (Emre onayi, sohbette: "8a tavanini 180'e cikar"): 154 -> 180 (+26) = KOSU 30 tam insa (uret_petek 7a935c02, ~1000 yeni zincir/madde + 110 boya): D hattini asan sehir petekleri artti; 15 YENI birim Tirol/Salzburg/Vorarlberg (Bregenz, Innsbruck, Salzburg, Lienz; d1816-alm-ah, d1844-alm-ah, d1866-it-hab-karn, d1878-de-ah). Veri bu sehirlere dokunmadi: Voronoi komsuluk etkisi, kok neden BULUNAMADI. KOSU 29 notu: 22 EKIM 2026 (Emre onayi, sohbette: "tavani 154'e cikar"): 153 -> 154 (+1 net; 4 YENI birim: Canad 1921, Como 1815/1859/1861 [dg4-*-ch-lombardiya]; KOSU 29 tam insa: MO katmani + KISTAK KOPRUSU + YAKA KILIDI ilk kez devrede; hipotez, nedeni ayrica olculmedi; olcum: KOSU 29 sonrasi denetle, taban 3b50f605a). ONCEKI: 19 EKIM 2026 (Emre onayi, tavan iyilesmesi 156 -> 153; olcum: KOSU 28 sonrasi denetle). ONCEKI: 17 Ekim 2026: 981 → 156, KOŞU 27 (sınır kısıtı ilk tam koşu; defter KOŞU 27 gövdesinde yeniden yazıldı, 37 YENİ KAPSAM birimi evrene alındı) · ÖNCEKİ 15 Ekim 2026 (üçüncü): 1108 → 981, Emre onayı — eşik hattın beyanlı belirsizliğini okur (D8_DERIN + kesinlik_km; null ⇒ 0). 127 birim hattın kendi payı içindeydi. Aynı gövde (KOŞU 25) · ÖNCEKİ 15 Ekim 2026 (ikinci): 1508 → 1108, Emre onayı — BİRİM TANIMI DEĞİŞTİ: (hat, gün, yan, en yakın yer) → (hat, gün, yan, taşma PARÇASI). Aynı gövde (KOŞU 25) eski ölçütle 1508, yeni ölçütle 1108; KUTU-H5 öncesi veride (59bc89d71) de 1108 ⇒ sayı artık nokta yoğunluğundan bağımsız. Defter aynı commit'te yeni anahtarlarla yazıldı, hat evreni AYNI. Sınav: denetim/ARAC-D8A-YOGUNLUK-SINAV-1015.py · ÖNCEKİ 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
+BEKLENEN_D8A = 182   # 1 KASIM 2026 (Emre onayi, sohbette: "Evet, onayliyorum"): 180 -> 182 (+2) = KOSU 31 tam insa (KUR-DEVIR + KUSATMA-BILESEN + TOHUM-YAKA yamalari); yeni birimler yine Tirol/Salzburg/Bregenz/Innsbruck/Lienz hatlari. 8k korluk defterine 4 (hat,gun) eklendi (d1923-iq-necd-tarafsiz-guney, dg3-ch-baden-obersee). KOSU 30 notu: 25 EKIM 2026 (Emre onayi, sohbette: "8a tavanini 180'e cikar"): 154 -> 180 (+26) = KOSU 30 tam insa (uret_petek 7a935c02, ~1000 yeni zincir/madde + 110 boya): D hattini asan sehir petekleri artti; 15 YENI birim Tirol/Salzburg/Vorarlberg (Bregenz, Innsbruck, Salzburg, Lienz; d1816-alm-ah, d1844-alm-ah, d1866-it-hab-karn, d1878-de-ah). Veri bu sehirlere dokunmadi: Voronoi komsuluk etkisi, kok neden BULUNAMADI. KOSU 29 notu: 22 EKIM 2026 (Emre onayi, sohbette: "tavani 154'e cikar"): 153 -> 154 (+1 net; 4 YENI birim: Canad 1921, Como 1815/1859/1861 [dg4-*-ch-lombardiya]; KOSU 29 tam insa: MO katmani + KISTAK KOPRUSU + YAKA KILIDI ilk kez devrede; hipotez, nedeni ayrica olculmedi; olcum: KOSU 29 sonrasi denetle, taban 3b50f605a). ONCEKI: 19 EKIM 2026 (Emre onayi, tavan iyilesmesi 156 -> 153; olcum: KOSU 28 sonrasi denetle). ONCEKI: 17 Ekim 2026: 981 → 156, KOŞU 27 (sınır kısıtı ilk tam koşu; defter KOŞU 27 gövdesinde yeniden yazıldı, 37 YENİ KAPSAM birimi evrene alındı) · ÖNCEKİ 15 Ekim 2026 (üçüncü): 1108 → 981, Emre onayı — eşik hattın beyanlı belirsizliğini okur (D8_DERIN + kesinlik_km; null ⇒ 0). 127 birim hattın kendi payı içindeydi. Aynı gövde (KOŞU 25) · ÖNCEKİ 15 Ekim 2026 (ikinci): 1508 → 1108, Emre onayı — BİRİM TANIMI DEĞİŞTİ: (hat, gün, yan, en yakın yer) → (hat, gün, yan, taşma PARÇASI). Aynı gövde (KOŞU 25) eski ölçütle 1508, yeni ölçütle 1108; KUTU-H5 öncesi veride (59bc89d71) de 1108 ⇒ sayı artık nokta yoğunluğundan bağımsız. Defter aynı commit'te yeni anahtarlarla yazıldı, hat evreni AYNI. Sınav: denetim/ARAC-D8A-YOGUNLUK-SINAV-1015.py · ÖNCEKİ 15 Ekim 2026: 1505 → 1508, Emre onayı (KOŞU 25 gövdesi, taban b0b48774 + KUTU-H5-1015 308429b12 rebase). Taşma GEOMETRİSİ değişmedi: H5 aynı şeritlere yeni noktalar ekledi (Cortina, Locarno, Enschede, Subotica), birim = (hat, gün, yan, EN YAKIN yer) olduğundan aynı taşma daha çok ada bölündü. Sayım kusuru ayrıca düzeltilecek · ÖNCEKİ 13 Ekim: 1508 → 1505 (denetle.py ölçümü, origin/main 122ae588d; Emre tavan onayı) · 1568 → 1508, 6 Ekim 2026 (§3.4③ iyileşme; koordinatör kararı, UMIT ölçtü+yazdı).
 #   🔴 ŞERH: bu sayı MAIN'İN gövdesine aittir (gövde 2026-10-04 11:37 · uret_petek 8b6aaea5,
 #   makine/umit 47290f11'de ölçüldü). KOŞU 20 geometrisi yayınlanırsa (SABAH ⑳, Emre)
 #   YENİDEN ölçülür — HAVVA aynı soruyu koşu gövdesinde başka sayıyla ölçtü. Aynı araç,
@@ -7765,6 +7770,24 @@ def main():
         olculemedi("Değişmez 7e eksklav", "%s (scipy/numpy gerekir)" % e)
     except Exception as e:
         olculemedi("Değişmez 7e eksklav", "%s: %s" % (type(e).__name__, e))
+
+    # ── Değişmez 3b — GÖVDE BİNMESİ (arac/denetle_binme.py) ───────────
+    # Post-it #113 (Zaporojye × Rusya 9 080 km²): iki devletin gövdesi aynı toprağa
+    # girince motor hiçbirini kırpmıyor. Bugünkü ÖRNEK ölçüm TAVAN (denetim/BINME-TAVAN.json,
+    # 61 kırılma günü, ~5 dk); yalnız GERİLEME bloke eder. Tam tarama: --tam (~30 dk).
+    try:
+        import denetle_binme
+        _kb, _ozb = denetle_binme.kapi()
+        if _kb == 1:
+            ihlal = True
+        if _kb == 2:
+            olculemedi("Değişmez 3b binme", _ozb)
+        print(f"Değişmez 3b {'✓' if _kb == 0 else ('✗' if _kb == 1 else '!')}  "
+              f"gövde binmesi: {_ozb}")
+    except ImportError as e:
+        olculemedi("Değişmez 3b binme", "%s (shapely gerekir)" % e)
+    except Exception as e:
+        olculemedi("Değişmez 3b binme", "%s: %s" % (type(e).__name__, e))
 
     print()
     if ZK.get("ozet"):

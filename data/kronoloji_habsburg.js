@@ -136,7 +136,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Eğri kalesi Osmanlı kuşatmasına dayandı ve savunma, Macar-Habsburg tarafında bir kahramanlık anlatısına dönüştü. Kale 1596'ya kadar Habsburg elinde kaldı.",
   kaynak:"depo savaslar.js (1552-09-04)" },
 
-{ t:"1555-01-01", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
+{ t:"1555-09-25", b:"Augsburg Din Barışı — Ferdinand'ın uzlaşması", tur:"antlasma", onem:4, dunya:4, kapsam:"ic", yer_id:"",
   etiket:["din","diplomasi","anayasa","konu-diplomasi","konu-din","konu-islahat","konu-hukuk"],
   d:"Ferdinand'ın imparatorluk meclisiyle müzakere ettiği barış, Protestanlara mülklerini ve serbest ibadeti güvence altına aldı. Ağabeyi Şarlken'in uzlaşmaz çizgisinin aksine Ferdinand pragmatik davrandı; bu tercih Habsburg topraklarında mezhep savaşını yarım yüzyıl erteledi.",
   kaynak:"Die Welt der Habsburger, 'Ferdinand I. als Begründer der österreichischen Monarchie der Habsburger': Ferdinand 1555'te Augsburg barışını müzakere etti, Protestanlara mülk ve serbest ibadet güvencesi · Dikkat: gün DOĞRULANMADI", yer_id:"Augsburg" },
@@ -264,8 +264,8 @@ window.KRONOLOJI_HABSBURG = [
 
 { t:"1664-08-09", b:"Vasvár Antlaşması — zafere rağmen ödün", gun:"16 Muharrem 1075 (9 Ağustos 1664)", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["diplomasi","antlasma","konu-diplomasi"],
-  d:"Sen Gotar zaferinin hemen ardından imzalanan antlaşma, Uyvar'ın Osmanlı'da kalmasını kabul etti. Macar soyluları bunu ihanet saydı; antlaşma, birkaç yıl sonraki Wesselényi tertibinin başlıca sebebi oldu.", ic_not_d:"EK2 §4: t:1664-08-10 yanlış gün. t KORUNDU — ekokuma_antlasma2 '1664-08-10|Vasvár' bağı (D181) · öneri YAMA-KRON2: t→1664-08-09 + bağ güncellemesi (kuyruk dosyası Değişmez 2 evreninde değil) · eski kaynak: depo savaslar.js (1664-08-10) · TDV `vasvar-antlasmasi` slug CANLI · TDV `avusturya`",
-  kaynak:"TDV vasvar-antlasmasi: 16 Muharrem 1075 (9 Ağustos 1664); 10 Ağustos Türkçe metindeki tarihin yanlış çevrilmesinden doğan Batı tarihidir", yer_kon:[47.048,16.804] },
+  d:"Sen Gotar zaferinin hemen ardından imzalanan antlaşma, Uyvar'ın Osmanlı'da kalmasını kabul etti. Antlaşmayla Erdel'e (Osmanlı tâbiî) bağlı Szabolcs ve Szatmár (Satu Mare) toprakları da Habsburg kralına bırakıldı; Szatmár bu günden itibaren Habsburg Macaristanı'nda görünür. Macar soyluları bunu ihanet saydı; antlaşma, birkaç yıl sonraki Wesselényi tertibinin başlıca sebebi oldu.", ic_not_d:"EK2 §4: t:1664-08-10 yanlış gün. t KORUNDU — ekokuma_antlasma2 '1664-08-10|Vasvár' bağı (D181) · öneri YAMA-KRON2: t→1664-08-09 + bağ güncellemesi (kuyruk dosyası Değişmez 2 evreninde değil) · eski kaynak: depo savaslar.js (1664-08-10) · TDV `vasvar-antlasmasi` slug CANLI · TDV `avusturya`",
+  kaynak:"TDV vasvar-antlasmasi: 16 Muharrem 1075 (9 Ağustos 1664); 10 Ağustos Türkçe metindeki tarihin yanlış çevrilmesinden doğan Batı tarihidir · Szabolcs/Szatmár devri: MTA History of Transylvania (mek.oszk.hu/03400/03407/html/228.html) 'The sultan … ceded Szabolcs and Szatmár counties … to the Habsburg king' (POSTIT-109)", yer_kon:[47.048,16.804] },
 
 { t:"1671-04-30", b:"Wesselényi tertibinin bastırılması ve Macar anayasasının askıya alınması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"Viyana",
   etiket:["isyan","anayasa","konu-isyan","konu-islahat","konu-hukuk"],
@@ -526,7 +526,7 @@ window.KRONOLOJI_HABSBURG = [
   d:"Metternich, imparatorun kızını Napolyon'la evlendirerek Avusturya'ya nefes aldıracak bir yakınlık kurdu. Hanedan evliliğinin bir devlet aracı olarak kullanılışının en bilinen örneğidir.",
   kaynak:"bulunamadı — gün DOĞRULANMADI" },
 
-{ t:"1811-06-01", b:"ABGB — Genel Medenî Kanun", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1811-06-01", b:"Abgb — Genel Medenî Kanun", tur:"reform", onem:3, dunya:1, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["reform","anayasa","konu-islahat","konu-hukuk"],
   d:"Aydınlanma hukukçuluğunun ürünü olan Genel Medenî Kanun yürürlüğe girdi ve monarşinin Alman-Slav topraklarında ortak bir özel hukuk kurdu. Kanun bugün hâlâ Avusturya hukukunun omurgasıdır.",
   kaynak:"bulunamadı — gün DOĞRULANMADI", yer_id:"Viyana" },
@@ -631,7 +631,7 @@ window.KRONOLOJI_HABSBURG = [
 // VIII. İKİLİ MONARŞİ VE ÇÖKÜŞ (1867-1918)
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1867-03-30", b:"Ausgleich — Avusturya-Macaristan ikili monarşisi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
+{ t:"1867-05-29", b:"Ausgleich — Avusturya-Macaristan ikili monarşisi", tur:"bolunme", onem:5, dunya:2, kapsam:"ic", yer_id:"", kapsam_genis:true,
   etiket:["anayasa","milliyetcilik","konu-siyasi","konu-islahat","konu-hukuk"],
   d:"Uzlaşma, Habsburg monarşisini iki egemen devletin birliğine dönüştürdü: her iki yarı kendi anayasası, hükûmeti ve meclisiyle donatıldı; ortak kalan yalnız hükümdar, ordu ve dış siyasetti. Königgrätz'in iç siyasî faturası budur ve 1918'e kadar imparatorluğun anayasal çerçevesi olarak kaldı.",
   kaynak:"Die Welt der Habsburger / Der Erste Weltkrieg, 'Die Doppelmonarchie': \"Der Österreichisch-Ungarische Ausgleich 1867 verwandelte die Habsburgermonarchie in eine Verbindung zweier souveräner Staaten\"; her yarı kendi anayasası, hükûmeti ve halk temsiliyle · Dikkat: GÜN DOĞRULANMADI (mevcut künyenin tarihi korundu; kaynak yalnız 1867 diyor)", yer_id:"Viyana" },

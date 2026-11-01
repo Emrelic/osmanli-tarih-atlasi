@@ -636,6 +636,53 @@ function savasBoyuDegisim(Y, k1gun, k3gun, T) {
   });
   return L;
 }
+// 🆕 POSTIT-150 (Emre, 30 Ekim 2026, Karlofça): Pest-Kalocsa, Baranya, Vukovar,
+// Hunedoara dört DELİK olarak boyanmadı. Ölçülen sebep: oradaki noktaların o
+// devirde HİÇ dönemi yok (Vukovar/Ilok/Beli Manastir 1996 UNTAES, "Macaristan"
+// bölge noktası 454'te biter, Sarmizegetusa harabe, Szederkény Neolitik). Motor
+// bu peteği haritada EN YAKIN sahipli peteğe emer (Habsburg boyar), fark katmanı
+// ise yalnız sahibi DEĞİŞEN yerleşimin peteğini çizer ⇒ delik.
+// ⇒ Emilen peteğin her kademedeki sahibi = o gün en yakın sahipli yerleşimin
+// sahibi (motorun emme kuralının nokta yaklaşığı). Yalnız savasBoyuDegisim'in
+// ölçütünü (bir ucu Osmanlı, öbür ucu taraf) geçenler döner. Aday alanı: verilen
+// kümenin kutusu (+0,6°); komşu araması +3°. → [{ i, k1, k2, k3, kaynak }]
+function emilenSahipsizler(Y, kumeIx, k1gun, k2gun, k3gun, T) {
+  var R = [];
+  if (!k1gun || !k3gun || !kumeIx || !kumeIx.length) return R;
+  var x0 = 180, y0 = 90, x1 = -180, y1 = -90;
+  kumeIx.forEach(function (i) {
+    var y = Y[i];
+    if (!y || typeof y.lon !== "number") return;
+    x0 = Math.min(x0, y.lon); x1 = Math.max(x1, y.lon); y0 = Math.min(y0, y.lat); y1 = Math.max(y1, y.lat);
+  });
+  if (x1 < x0) return R;
+  function icinde(y, m) { return typeof y.lon === "number" && y.lon >= x0 - m && y.lon <= x1 + m && y.lat >= y0 - m && y.lat <= y1 + m; }
+  var aday = [], cevre = [];
+  (Y || []).forEach(function (y, i) {
+    if (!y || !icinde(y, 3)) return;
+    cevre.push(i);
+    if (icinde(y, 0.6) && !sahipAnahtari(y, k1gun) && !sahipAnahtari(y, k3gun)) aday.push(i);
+  });
+  function enYakinSahip(j, gs) {
+    var yj = Y[j], c = Math.cos(yj.lat * Math.PI / 180), en = Infinity, sahip = "", kim = -1;
+    cevre.forEach(function (i) {
+      if (i === j) return;
+      var y = Y[i], k = sahipAnahtari(y, gs);
+      if (!k) return;
+      var dx = (y.lon - yj.lon) * c, dy = y.lat - yj.lat, d = dx * dx + dy * dy;
+      if (d < en) { en = d; sahip = k; kim = i; }
+    });
+    return { k: sahip, i: kim };
+  }
+  aday.forEach(function (j) {
+    var a = enYakinSahip(j, k1gun), b = enYakinSahip(j, k3gun);
+    if (!a.k || !b.k || a.k === b.k) return;
+    var oa = _sgOsmTarafi(a.k), ob = _sgOsmTarafi(b.k);
+    if (oa === ob || !sahipIlgiliMi(oa ? b.k : a.k, T)) return;
+    R.push({ i: j, k1: a.k, k2: enYakinSahip(j, k2gun || k3gun).k, k3: b.k, kaynak: b.i });
+  });
+  return R;
+}
 function kademeKumesi(Y, isgListe, degisim, k1gun, k2gun, k3gun, basGun, sonGun, T, ekListe) {
   var kume = {}, sira = [];
   function al(i) { if (!kume[i]) { kume[i] = { i: i, fark: false }; sira.push(kume[i]); } return kume[i]; }
@@ -908,7 +955,8 @@ var _SG_DISA = { KONU_GRUPLARI: KONU_GRUPLARI, suz: suz, maddeGrubu: maddeGrubu,
                  sahipKimlikte: sahipKimlikte, aktifVAdi: aktifVAdi,
                  // DALGA-0074 H-0013 — antlaşmanın üç kademesi
                  isgalAnahtari: isgalAnahtari, isgalliYerlesimler: isgalliYerlesimler,
-                 kademeKumesi: kademeKumesi, savasBoyuDegisim: savasBoyuDegisim, osmTarafi: _sgOsmTarafi,
+                 kademeKumesi: kademeKumesi, savasBoyuDegisim: savasBoyuDegisim,
+                 emilenSahipsizler: emilenSahipsizler, osmTarafi: _sgOsmTarafi,
                  // PAKET-ISYAN
                  isyanAktif: isyanAktif, isyanSecim: isyanSecim,
                  // PAKET-UI3

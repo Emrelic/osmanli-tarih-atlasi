@@ -1,0 +1,4 @@
+kimlik	devlet_adi	bolge	gerekce
+gojoseon	Gojoseon (Eski Joseon)	dogu-asya	Kunye eklendi (f -2332 gelenek, t -0193); harita noktasi yok, boya yalniz kunye/zaman cizelgesi icin gerekli; boya_gerekli:true yazildi
+japon-kore	Japon Kore'si (Chosen Genel Valiligi)	dogu-asya	BOYALAR'da yok ama kunyede harita:"meiji-japonya" ile ayni renkte boyaniyor; ayri renk istenirse eklenmeli (kosu oncesi zorunlu degil)
+japonya-devleti	Japonya Devleti (1947 Anayasasi)	dogu-asya	BOYALAR'da yok; kunyede harita:"meiji-japonya"; ayri renk istenirse eklenmeli

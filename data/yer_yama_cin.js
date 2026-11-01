@@ -94,7 +94,7 @@ window.YER_YAMA_CIN = [
  },
  {
   "dosya": "kronoloji_cin.js",
-  "t": "1392-07-17",
+  "t": "1392-08-05",
   "b": "Goryeo çöktü, Joseon Kore kuruldu — Ming'e tâbi",
   "yer_id": "Kaesong",
   "not": "Goryeo'nun başkenti; Joseon'un kuruluşu burada ilan edildi",
@@ -232,7 +232,7 @@ window.YER_YAMA_CIN = [
  },
  {
   "dosya": "kronoloji_cin.js",
-  "t": "1689-09-07",
+  "t": "1689-09-06",
   "b": "Nerçinsk Antlaşması — Rusya ile sınır çizildi",
   "yer_id": "Nerçinsk",
   "kaynak": "yerleşim havuzunda ad eşleşmesiyle doğrulandı (arac/girdi.py)"

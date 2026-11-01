@@ -1,0 +1,12 @@
+id	ad	f	t	not
+samoa-kralligi	Samoa Krallığı (Berlin Senedi, üçlü gözetim)	1889-01-01	1900-04-17	boya_gerekli:true · Apia 1889-1900 ve Pago Pago 1889-1900 zincirinde kullanılıyor · bagimsiz-samoa renginin yakın tonu önerilir
+yeni-zelanda-birlesik-kabileler	Yeni Zelanda Birleşik Kabileler Konfederasyonu (Te Whakaminenga)	1835-10-28	1840-02-06	boya_gerekli:true · Waitangi (Bay of Islands) zincirinde · maori-kingitanga ile aynı soy renk ailesi önerilir ama yabancı (İngiliz) tonlarından ayrı
+yeni-hebridler-kondominyumu	Yeni Hebridler Anglo-Fransız Kondominyumu	1906-10-20	1980-07-30	boya_gerekli:true · Port Vila zincirinde · ingiltere ve fransa-cumhuriyet renklerinden farklı bir üçüncü ton
+vanuatu	Vanuatu Cumhuriyeti	1980-07-30	2000-12-31	boya_gerekli:true · Port Vila zincirinde (künyede t yok, pencere ucu)
+yeni-guney-galler	Yeni Güney Galler Kolonisi	1788-01-26	1901-01-01	`harita:"ingiltere"` ile ingiltere rengiyle çiziliyor (boya borcu YOK) · koloniler arası sınırın görünmesi istenirse altı koloni için ayrı ton (bkz. altı satır)
+van-diemens-land	Van Diemen's Land (Tazmanya) Kolonisi	1825-12-03	1901-01-01	`harita:"ingiltere"` · ayrı renk isteğe bağlı
+bati-avustralya	Batı Avustralya (Swan River) Kolonisi	1829-06-18	1901-01-01	`harita:"ingiltere"` · ayrı renk isteğe bağlı
+guney-avustralya	Güney Avustralya Kolonisi	1836-12-28	1901-01-01	`harita:"ingiltere"` · ayrı renk isteğe bağlı
+viktorya-kolonisi	Viktorya Kolonisi	1851-07-01	1901-01-01	`harita:"ingiltere"` · ayrı renk isteğe bağlı
+queensland	Queensland Kolonisi	1859-06-06	1901-01-01	`harita:"ingiltere"` · ayrı renk isteğe bağlı
+kuzey-bolgesi-sa	Kuzey Bölgesi (Güney Avustralya'ya bağlı, 1863–1911)	1863-07-06	1911-01-01	`harita:"ingiltere"` · ayrı renk isteğe bağlı · 1901-1911 Kuzey Bölgesi yerleşimleri bu kimlikte kalıyor, avustralya 1911-01-01'den başlıyor

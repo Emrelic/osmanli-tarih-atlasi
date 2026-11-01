@@ -30,12 +30,12 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 
 { t:"1258-05-01", b:"Karydi Dağı Savaşı — Atina'nın Ahaya'ya karşı zaferi", tur:"savas", onem:4, dunya:1, kapsam:"dis", yer_id:"Livadya",
   etiket:["askeri","konu-askeri"],
-  d:"Atina beyi Guy I de la Roche, kendisini vassal sayan Ahaya Prensi II. Guillaume de Villehardouin'e karşı ayaklandı ve Karydi geçidinde yenildi. Yenilgiye rağmen anlaşmazlık Fransa Kralı IX. Louis'nin hakemliğine götürüldü. Latin Yunanistan'ın iç hiyerarşisini bir savaşın değil bir MAHKEMENİN belirlemesi, bu dünyanın ne kadar Batılı kaldığını gösterir.",
+  d:"Atina beyi Guy I de la Roche, kendisini vassal sayan Ahaya Prensi II. Guillaume de Villehardouin'e karşı ayaklandı ve Karydi geçidinde yenildi. Yenilgiye rağmen anlaşmazlık Fransa Kralı IX. Louis'nin hakemliğine götürüldü. Latin Yunanistan'ın iç hiyerarşisini bir savaşın değil bir mahkemenin belirlemesi, bu dünyanın ne kadar Batılı kaldığını gösterir.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 · Jean Longnon, L'Empire latin de Constantinople et la principauté de Morée (Payot, 1949) · gün yaklaşıktır" },
 
 { t:"1260-01-01", b:"IX. Louis'nin Guy I de la Roche'a duka unvanı vermesi", tur:"hukumdar", onem:4, dunya:1, kapsam:"dis", yer_id:"Atina",
   etiket:["siyaset","diplomasi","konu-siyasi","konu-diplomasi","konu-hanedan"],
-  d:"Guy I, davasını Paris'e götürdü ve Fransa Kralı IX. Louis onu bağışlayıp 'Atina Dukası' unvanıyla onurlandırdı. Beylik böylece resmen bir DUKALIK oldu ve Ahaya'ya tâbiliği yumuşadı. Unvanın Fransa'dan gelmesi, Atina'nın hâlâ bir Burgonya beyliği gibi düşünüldüğünün delilidir.",
+  d:"Guy I, davasını Paris'e götürdü ve Fransa Kralı IX. Louis onu bağışlayıp 'Atina Dukası' unvanıyla onurlandırdı. Beylik böylece resmen bir dukalık oldu ve Ahaya'ya tâbiliği yumuşadı. Unvanın Fransa'dan gelmesi, Atina'nın hâlâ bir Burgonya beyliği gibi düşünüldüğünün delilidir.",
   kaynak:"Lock, The Franks in the Aegean 1204-1500 · Setton, The Papacy and the Levant, c. I · gün bilinmiyor" },
 
 { odak_yer:["Atina"], t:"1259-09-01", b:"Pelagonia Savaşı ve Guy I'in esareti", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
@@ -65,12 +65,12 @@ window.KRONOLOJI_ATINA_DUKALIGI = [
 
 { t:"1388-05-02", b:"Nerio Acciaiuoli'nin Atina'yı alması — Floransa devrinin başlaması", tur:"toprak-kazanc", onem:5, dunya:2, kapsam:"dis", yer_id:"Atina",
   etiket:["toprak-kazanc","hanedan","konu-askeri","konu-hanedan"],
-  d:"Floransalı bankacı ailesinden Korinthos derebeyi Nerio Acciaiuoli, uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalan hâkimiyeti Atina'da sona erdi. Yeni efendi bir şövalye değil bir TÜCCAR-BANKACI ailesindendi ve bu, Latin Yunanistan'ın son devrinin karakterini belirledi. Nerio, 1394'te papalıktan duka unvanını da aldı.",
+  d:"Floransalı bankacı ailesinden Korinthos derebeyi Nerio Acciaiuoli, uzun bir kuşatmanın ardından Akropolis'i teslim aldı ve Katalan hâkimiyeti Atina'da sona erdi. Yeni efendi bir şövalye değil bir tüccar-bankacı ailesindendi ve bu, Latin Yunanistan'ın son devrinin karakterini belirledi. Nerio, 1394'te papalıktan duka unvanını da aldı.",
   kaynak:"TDV `atina`: \"1387’de ise çevresindeki Attikê bölgesiyle birlikte Floransalı Korinthos (Gördüs) derebeyi Nerio Acciajuoli tarafından ele geçirildi.\" · Setton, Catalan Domination of Athens 1311-1388 (bu turda doğrulanmadı) · BEYAN — ÇELİŞKİ: kullanılan gün 1388-05-02 (Setton: Akropolis'in teslimi) · kullanılmayan kaynaklı yıl 1387 (TDV) · neden: TDV alt şehir/Akropolis ayrımı yapmıyor; iki kaynak iki yıl veriyor, tek seçilmez (§4 ⑥) · önceki \"1387: …\" tırnağı TDV cümlesinin birebir hâli değildi, düzeltildi · daha önce künyede 1388-01-01 yazılıydı, kaynaksız (yıl hassasiyeti); mükerrer olarak kaldırıldı" },
 
 { t:"1394-09-25", b:"Nerio I'in ölümü ve Partenon'un gümüşlerinin vasiyeti", tur:"olum", onem:4, dunya:1, kapsam:"ic", yer_id:"Atina",
   etiket:["siyaset","din","konu-siyasi","konu-kisiler","konu-din"],
-  d:"Nerio öldü ve vasiyetiyle Atina şehrini Partenon katedraline bıraktı, kapılarının gümüş kaplamalarını sattırıp borçlarının ödenmesini istedi. Vasiyet, dukalığın kimin olacağı konusunda uzun bir çekişme başlattı. Bir şehri bir KİLİSEYE miras bırakmak, Latin Atina'nın hukukî tuhaflıklarının en dikkat çekicisidir.",
+  d:"Nerio öldü ve vasiyetiyle Atina şehrini Partenon katedraline bıraktı, kapılarının gümüş kaplamalarını sattırıp borçlarının ödenmesini istedi. Vasiyet, dukalığın kimin olacağı konusunda uzun bir çekişme başlattı. Bir şehri bir kiliseye miras bırakmak, Latin Atina'nın hukukî tuhaflıklarının en dikkat çekicisidir.",
   kaynak:"Setton, The Papacy and the Levant, c. I · Setton, Catalan Domination of Athens · gün yaklaşıktır" },
 
 { t:"1395-01-01", b:"Venedik'in Atina'yı geçici olarak yönetmeye başlaması", tur:"idari", onem:3, dunya:1, kapsam:"dis", yer_id:"Atina",

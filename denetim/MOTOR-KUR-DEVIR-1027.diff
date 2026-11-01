@@ -1,0 +1,30 @@
+diff --git a/arac/uret_petek.py b/arac/uret_petek.py
+index b95bd613f..511fe5e33 100644
+--- a/arac/uret_petek.py
++++ b/arac/uret_petek.py
+@@ -5557,6 +5557,13 @@ def _merkez_disi(g):
+             if (y.get("k") or 0) >= 4 or ((y.get("k") or 0) == 0 and not MERKEZ_K0)}
+ 
+ 
++# 📌 post-it #51 (İbrail eksklavı): `kur:` ilk yazılı tanık olan ama 1445 öncesi SAHİPSİZ
++# yerleşim (Kalas) sahipli sayılmadığı için devre girmiyor, peteği sahipsiz canlı kalıp
++# İbrail'e giden toprağı tutuyordu. Bayrak açıkken `kur > gün` olan yerleşim sahibi
++# yazılı olmasa da devredilir. Env değişkeni önbellek tuzuna girer.
++MOTOR_KUR_DEVIR = os.environ.get("MOTOR_KUR_DEVIR") == "1"
++
++
+ def devir_kumesi(g):
+     """g tarihinde SAHNEDE OLMAYAN ve peteği devredilecek yerleşimler:
+     (a) veride SAHİBİ YAZILI olanlar, (b) sahibi yazılmamış ama kara
+@@ -5573,8 +5580,9 @@ def devir_kumesi(g):
+         return v
+     yazili = frozenset(
+         i for i, y in enumerate(YERLER)
+-        if ((y.get("kur") and gn(y["kur"]) > gn(g)) or (y.get("bit") and gn(y["bit"]) <= gn(g)))
+-        and _sahipli(y, g))
++        if ((MOTOR_KUR_DEVIR and y.get("kur") and gn(y["kur"]) > gn(g))
++            or (((y.get("kur") and gn(y["kur"]) > gn(g)) or (y.get("bit") and gn(y["bit"]) <= gn(g)))
++                and _sahipli(y, g))))
+     v = yazili | _kusatilmis(g)
+     # 🏺 MO-MOTOR-1020: MÖ sahnesi + tarih başı merkez kuralı (varsayılanda CE günlerinde
+     #    ikisi de boş küme ⇒ CE devir kümesi BİREBİR aynı).

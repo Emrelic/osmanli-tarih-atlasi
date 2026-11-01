@@ -21,7 +21,7 @@ window.OLAYLAR_EK17 = [
   k:"kesif", onem:4, dunya:3, kapsam:"ic", etiket:["bilim","kesif","konu-bilim","konu-kesif"],
   gun:"919 (1513)", ic_not_gun:"TDV yıl verir, ay vermez",
   yer:"Gelibolu", yer_id:"Gelibolu", kisiler:"Pîrî Reis", duygu:["🧭"],
-  d:"Pîrî Reis, Gelibolu'da 919 (1513) tarihli dünya haritasını çizdi; TDV İslâm Ansiklopedisi'ne göre haritanın kaynakları arasında 'Doğu ve Batı dünyasından kendisine ulaşan eski haritalarla Kristof Kolomb'un haritası' da vardır — yani Kolomb'un o dönemde kaybolmuş kabul edilen orijinal seyir haritasının izlerini taşıdığı düşünülür. Haritayı 923'te (1517) Kahire'de Yavuz Sultan Selim'e takdim etti. Günümüze yalnız batı/Atlantik kıyılarını (İspanya, Portekiz, Batı Afrika, Güney Amerika'nın doğu kıyısı) gösteren bir PARÇASI ulaşmıştır; bu parça Topkapı Sarayı'nda 1929'da yeniden gün yüzüne çıkarıldı ve UNESCO Dünya Belleği listesindedir.",
+  d:"Pîrî Reis, Gelibolu'da 919 (1513) tarihli dünya haritasını çizdi; TDV İslâm Ansiklopedisi'ne göre haritanın kaynakları arasında 'Doğu ve Batı dünyasından kendisine ulaşan eski haritalarla Kristof Kolomb'un haritası' da vardır — yani Kolomb'un o dönemde kaybolmuş kabul edilen orijinal seyir haritasının izlerini taşıdığı düşünülür. Haritayı 923'te (1517) Kahire'de Yavuz Sultan Selim'e takdim etti. Günümüze yalnız batı/Atlantik kıyılarını (İspanya, Portekiz, Batı Afrika, Güney Amerika'nın doğu kıyısı) gösteren bir parçası ulaşmıştır; bu parça Topkapı Sarayı'nda 1929'da yeniden gün yüzüne çıkarıldı ve UNESCO Dünya Belleği listesindedir.",
   kaynak:"piri-reis + UNESCO Memory of the World (1929 keşif tarihi, TDV bu ayrıntıya değinmiyor)" },
 
 // ---------- I. Ahmed - III. Mehmed dönemi ----------
@@ -48,10 +48,10 @@ window.OLAYLAR_EK17 = [
 // konağı · TDV'nin 'başı açık, üstü perişan' tasviri · Orta Cami · kulak-burun)
 // kalan kaydın `d:` metnine TAŞINDI. Silinen tek şey mükerrer başlıktır.
 
-{ t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü", ic_not_b:"eski b soneki: — kızlarağası rivayeti doğrulanamadı (H-0003)", tur:"kisi",
+{ t:"1639-01-20", b:"I. Mustafa on beş yıllık unutuluşun ardından öldü", tur:"kisi",
   onem:2, dunya:1, kapsam:"ic", etiket:["saray","kisi","konu-kisiler","konu-hanedan"],
   yer_id:"İstanbul", vefat_id:"mustafa1",
-  d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; bu yıllara dair kaynaklarda hiçbir bilgi yoktur. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer. Halk arasında kızlarağasının onu bir odaya kilitlediği anlatılır; ancak bu rivayet kaynaklarca desteklenmez. Kaynaklar yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtir.", ic_not_d:"eski ifadeler (H-0003): «TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder.» · «⚠️ RİVAYET DOĞRULANAMADI: kızlarağasının … hikâye TDV maddesinde yer almıyor; madde yalnızca ilk hal' kararında Kızlar Ağası Mustafa Ağa'nın etkili olduğunu belirtiyor.»",
+  d:"10 Eylül 1623'te ikinci kez tahttan indirilen I. Mustafa, ölümüne kadar geçen on beş yıl boyunca kapalı tutulduğu bir odada yaşadı; bu yıllara dair kaynaklarda hiçbir bilgi yoktur. 15 Ramazan 1048'de (20 Ocak 1639) vefat etti — kaynakların bir kısmı bunu doğal ölüm sayarken bir kısmı IV. Murad'ın parmağı olduğunu ileri sürer.", ic_not_d:"eski ifadeler (H-0003): «TDV İslâm Ansiklopedisi bu döneme dair 'herhangi bir bilgi bulunmamaktadır' diyerek sessizliği açıkça kaydeder.» · (POSTIT-102, Emre) Kızlarağası/odaya kilitlenme anlatısı bu ölüm maddesinden çıkarıldı: o olay 1617-1618 ilk hal' dönemine aittir; ilk hal'deki Kızlar Ağası Mustafa Ağa rolü 1618-02-26 maddesinde (Hasanbeyzâde'ye dayanan TDV mustafa-i).",
   kaynak:"mustafa-i" },
 
 // ---------- IV. Murad dönemi ----------
@@ -232,12 +232,28 @@ window.OLAYLAR_EK17 = [
   d:"Semendire'nin Ağustos 1738'de geri alınmasıyla Semendire ile Osmanlı ana gövdesi arasında kalan Morava vadisi de Osmanlı idaresine döndü: Yagodina, Kragujevac ve Çaçak bu tarihten itibaren Osmanlı sayılır. Kaynaklar bu üç yerin dönüşünü ayrıca günleyip anmaz; harita Semendire'nin günüyle çalışır. Belgrad Antlaşması (1739-09-18) bu durumu tescil etti.",
   kaynak:"semendire", duygu:["🎉"] },
 
+{ t:"1800-03-21", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
+  b:"Yedi Ada Cumhuriyeti kuruldu — Rus-Osmanlı himayesinde İyon adaları",
+  gun:"21 Mart 1800",
+  yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
+  kisiler:"III. Selim, I. Pavel",
+  d:"1799'da Rus-Osmanlı müşterek donanması Fransızları İyon adalarından çıkarmış (Korfu kalesi 5 Mart 1799'da düştü); 21 Mart 1800 tarihli on iki maddelik sözleşmeyle adalar, iç işlerinde özerk, dış işlerde Osmanlı'ya bağlı Cezâyir-i Seb'a-i Müctemia Cumhuru (Yedi Ada Cumhuriyeti) olarak kuruldu. 1799-03-05 ile bu gün arası müşterek işgal dönemidir.", ic_not_d:"TDV korfu kuruluşu 'Korfu Antlaşması, 3 Nisan 1800' diye anar; TDV yedi-ada-cumhuriyeti 21 Mart 1800 (on iki maddelik sözleşme). Konuyu kapsayan madde yedi-ada olduğundan 21 Mart esas; çelişki iki kaynağıyla beyan edilir.",
+  kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
+
+{ t:"1807-07-07", k:"antlasma", etiket:["antlasma","toprak-kayip","konu-diplomasi"],
+  b:"Tilsit — Yedi Ada Cumhuriyeti'nin üzerindeki Rus hakları Fransa'ya devredildi",
+  gun:"7 Temmuz 1807 (TDV: 9 Temmuz 1807)",
+  yer:"Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), İthaki, Çuha Adası (Kythira), Paksos", yer_id:"Korfu",
+  kisiler:"Napolyon Bonapart, I. Aleksandr",
+  d:"Tilsit'te Rusya ile Fransa arasında varılan anlaşmayla Rusya, Yedi Ada üzerindeki haklarını Fransa'ya bıraktı; Fransız birlikleri 1807 yazında adalara yerleşti ve Yedi Ada Cumhuriyeti ortadan kalktı.", ic_not_d:"Gün çelişkisi: atlas künyesi (septinsular t) 7 Temmuz; TDV yedi-ada-cumhuriyeti '9 Temmuz 1807 tarihinde Rusya ile Fransa arasında Tilsitt Antlaşması imzalandığında' der. Dönem ucu künye ucuyla eş (07-07) bırakıldı; ③ D3'te TDV'ye çekme önerilir. Fiilî Fransız inişi 1807 Ağustos (ikincil kaynak; okunmadı).",
+  kaynak:"yedi-ada-cumhuriyeti", duygu:["⚔️","😔"] },
+
 { t:"1815-11-05", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen",
   gun:"5 Kasım 1815",
   yer:"Ayamavra (Lefkada)", yer_id:"Ayamavra (Lefkada)",
   kisiler:"Robert Stewart (Castlereagh), Klemens von Metternich",
-  d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan AYRI bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"KUTU-H4-1015: önceki not 'TDV kapsamıyor' diyordu — YANLIŞ. TDV 'Yedi Ada Cumhuriyeti' maddesi 5 Kasım'da Paris'te İngiltere, Avusturya, Prusya ve Rusya arasında imzalanan mukavelenâmeyle adaların İngiltere'ye bırakıldığını ve Osmanlı'nın kongreye katılmadığını yazar (15 Ekim 2026'da GET ile okundu).",
+  d:"1797'de Fransa'ya geçen Ayamavra ve öteki İyon adaları, Napolyon'un kesin yenilgisinin ardından 5 Kasım 1815'te Paris'te İngiltere, Rusya, Avusturya ve Prusya arasında imzalanan özel antlaşmayla 'Yedi Ada Birleşik Devletleri' adı altında İngiliz himayesine bırakıldı — bu, 20 Kasım 1815'teki genel Paris Antlaşması'ndan ayrı bir belgedir. Himaye 1864'e kadar sürecek, sonra adalar Yunanistan'a devredilecekti.", ic_not_d:"KUTU-H4-1015: önceki not 'TDV kapsamıyor' diyordu — YANLIŞ. TDV 'Yedi Ada Cumhuriyeti' maddesi 5 Kasım'da Paris'te İngiltere, Avusturya, Prusya ve Rusya arasında imzalanan mukavelenâmeyle adaların İngiltere'ye bırakıldığını ve Osmanlı'nın kongreye katılmadığını yazar (15 Ekim 2026'da GET ile okundu).",
   kaynak:"yedi-ada-cumhuriyeti", duygu:["🏴"] },
 
 { t:"1688-01-17", k:"kayip", etiket:["toprak-kayip","savas","konu-askeri"],

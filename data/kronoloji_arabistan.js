@@ -207,7 +207,7 @@ window.KRONOLOJI_ARABISTAN = [
 { t:"1849-01-01", b:"İkinci Osmanlı dönemi başladı — Tihâme kıyısı yeniden alındı", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"Hudeyde",
-  d:"Osmanlı, 214 yıl aradan sonra Yemen'e döndü ve kıyı şeridini (Hudeyde dahil) yeniden ele geçirdi; ama TDV'nin kendi ifadesiyle San'a'yı ele geçirme çabası bu ilk yılda BAŞARISIZ oldu — iç yayla imametin elinde kalmaya devam etti, tam fetih ancak 1872'de tamamlanacaktı.", ic_not_d:"Tarih yerlesimler.js'teki Hudeyde kaydıyla (1849-01-01) birebir örtüşüyor.",
+  d:"Osmanlı, 214 yıl aradan sonra Yemen'e döndü ve kıyı şeridini (Hudeyde dahil) yeniden ele geçirdi; ama TDV'nin kendi ifadesiyle San'a'yı ele geçirme çabası bu ilk yılda başarısız oldu — iç yayla imametin elinde kalmaya devam etti, tam fetih ancak 1872'de tamamlanacaktı.", ic_not_d:"Tarih yerlesimler.js'teki Hudeyde kaydıyla (1849-01-01) birebir örtüşüyor.",
   kaynak:"TDV `yemen`: 1849: San'a ele geçirme çabası başarısız oldu. — data/yerlesimler.js Hudeyde kaydıyla (1281-1849 'yemen', sonra kayıt yok) çapraz doğrulandı." },
 
 { taraflar:["yemen-zeydi"], t:"1872-04-01", b:"Ahmed Muhtar Paşa San'a'yı aldı — Yemen vilâyeti kuruldu", tur:"toprak-kayip",

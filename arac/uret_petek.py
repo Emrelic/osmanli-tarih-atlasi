@@ -1873,6 +1873,69 @@ def _kk_kara_yolu(lon, lat):
     return f
 
 
+# ═══ 🆕 MOTOR-TOHUM-YAKA-1029 — TOHUM HÜCRESİNİN MERKEZİ NEHRİN ÖTE YAKASINDA ═══
+# KUSUR (post-it #157, Haram/Banatska Palanka 1716, ölçüldü 29 Ekim 2026, KOŞU 30):
+#   Haram noktası (44.8453K 21.3318D) NE Tuna çizgisinin 2,2 km KUZEYİNDE — nokta
+#   doğru yakada, yaka kilidinin (#7) vakası değil. Ama 0,05° ızgarada düştüğü
+#   hücrenin MERKEZİ (44.825K 21.325D) çizginin (44.8253K) ~30 m GÜNEYİNDE. Nehir
+#   bedeli merkezden merkeze adıma yazıldığı için Dijkstra tohumu GÜNEY yakada
+#   sayıyor: güneye bedelsiz, kuzeye 16 saatlik geçişle yayılıyor ⇒ yayındaki
+#   Haram peteği 309 km², tamamı güney yakada (Golubac içinde); kalenin noktası
+#   ve Banat kıyısı Pasarofça peteğinde. 1716-11-16 devri haritada yanlış yakada.
+# ÇARE: nokta ile kendi hücresinin merkezi arasındaki doğru bir NEHİR hattını
+#   kesiyorsa tohum, merkezi noktayla AYNI yakada kalan (doğrusu hiçbir nehri
+#   kesmeyen) en yakın 8-komşu kara hücresine TAŞINIR. Kıyıdaki tohumun su
+#   hücresinden kara hücresine kaydırılması kuralının nehir karşılığı. Tek
+#   sözlük (`_kvtohum`) değiştiği için bütün Dijkstra'lar tutarlı kalır; kıstak
+#   köprüsü bundan SONRA koşar. Uygun komşu yoksa tohum OLDUĞU GİBİ kalır.
+# Bayrak: MOTOR_TOHUM_YAKA=1. Kapalıyken HİÇBİR ŞEY değişmez.
+TOHUM_YAKA = os.environ.get("MOTOR_TOHUM_YAKA") == "1"
+_kvyaka = []                       # (ad, eski hücre, yeni hücre, km)
+if TOHUM_YAKA and _KVNEHIR is not None and NEHIRLER:
+    asama("Kara-kısıtlı sahiplik: tohum yakası (hücre merkezi nehrin öte yakasında)")
+    _ty_hat = [ln for g in NEHIRLER for ln in shapely.get_parts(g) if not ln.is_empty]
+    _ty_agac = STRtree(_ty_hat)
+
+    def _ty_keser(x0, y0, x1, y1):
+        _s = LineString([(x0, y0), (x1, y1)])
+        return any(_ty_hat[int(k)].intersects(_s) for k in _ty_agac.query(_s))
+
+    for _h in list(_kvtohum.keys()):
+        _hj, _hi = divmod(_h, _kvnx)
+        _cx = _kvx0 + (_hi + 0.5) * KV_ADIM
+        _cy = _kvy0 + (_hj + 0.5) * KV_ADIM
+        for _idx in list(_kvtohum[_h]):
+            _y = YERLER[_idx]
+            if not _ty_keser(_y["lon"], _y["lat"], _cx, _cy):
+                continue
+            _en, _ed = None, 9e9
+            for _dj in (-1, 0, 1):
+                for _di in (-1, 0, 1):
+                    _a, _b = _hi + _di, _hj + _dj
+                    if (_di == 0 and _dj == 0) or not (0 <= _a < _kvnx and 0 <= _b < _kvny):
+                        continue
+                    _k = _b * _kvnx + _a
+                    if not _kvkara[_k]:
+                        continue
+                    _ax = _kvx0 + (_a + 0.5) * KV_ADIM
+                    _ay = _kvy0 + (_b + 0.5) * KV_ADIM
+                    if _ty_keser(_y["lon"], _y["lat"], _ax, _ay):
+                        continue
+                    _km = girdi.km(_y["lat"], _y["lon"], _ay, _ax)
+                    if _km < _ed:
+                        _en, _ed = _k, _km
+            if _en is None:
+                continue
+            _kvtohum[_h].remove(_idx)
+            _kvtohum.setdefault(_en, []).append(_idx)
+            _kvyaka.append((_y["ad"], _h, _en, _ed))
+        if not _kvtohum[_h]:
+            del _kvtohum[_h]
+    print(f"  🧭 TOHUM YAKASI: {len(_kvyaka)} tohum hücre merkezi nehrin öte yakasında "
+          f"olduğu için komşu hücreye taşındı"
+          + (": " + ", ".join(f"{a} ({k:.1f} km)" for a, _, _, k in _kvyaka[:40])
+             + (" …" if len(_kvyaka) > 40 else "") if _kvyaka else ""))
+
 if KISTAK_KOPRU:
     asama("Kara-kısıtlı sahiplik: kıstak köprüsü (ızgarada hapis tohum)")
     for _h in list(_kvtohum.keys()):
@@ -5481,9 +5544,96 @@ def _kusatilmis(g):
                 out.add(i)
         except Exception:
             pass
+    if KUSATMA_BILESEN:
+        out |= _kusatma_bilesen(g, out)
     _KUS_ONBELLEK[g] = frozenset(out)
     sayac("kuşatılmışlık (_kusatilmis)", time.time() - _t_kus)
     return _KUS_ONBELLEK[g]
+
+
+# ═══ 🧩 KUŞATMA BİLEŞENİ — post-it #127 (Tiraspol 1676), 27 Ekim 2026, Emre "b" ═══
+# Tek tek sınanan adaylarda BİTİŞİK iki aday birbirini KİLİTLİYOR: komşu aday
+# sahnede değil ve sahipsiz, ortak kenar PAYDADA kalıyor ama PAYA girmiyor ⇒
+# hiçbiri %90'ı tutturamıyor, toprak delik kalıyor. Vakalar: Tiraspol + Slobozia
+# + Dubăsari (üçü kur:1990, Dinyester sol yakası, 1676'da Bender ile Yedisan
+# arasında temiz kenarlı kama) · Uman ↔ Yelisavetgrad (P13B, 14 Eylül 2026,
+# denetim/ARAC-P13B-KUSATMA-0914.py — teşhis edilmiş, koda girmemişti).
+# ÇARE: bitişik adaylar BİRLİKTE sınanır — birleşimin kıyı-dışı dış sınırının
+# ≥ KUSATMA_ESIK'i canlı ve sahipli peteğe değiyorsa bileşenin BÜTÜN üyeleri
+# devredilir. "Kime" sorusu DEĞİŞMEZ: `petek_epok` bitişik ölü hücreleri zaten
+# birlikte (`_olu_bilesenler`) çevredeki canlı komşulara paylaştırır.
+# Tek üyeli bileşende karar ESKİSİYLE AYNIDIR (tanım gereği); eşik ve
+# `kasitli_bosluk:` istisnası AYNEN durur (Kuveyt ≈ %45 sahipli → devredilmez).
+# Ölçüm ve kabul: denetim/MOTOR-KUSATMA-BILESEN-1027.md.
+# MOTOR_KUSATMA_BILESEN=1 değilse HİÇBİR ŞEY değişmez. Env değişkeni önbellek tuzuna girer.
+KUSATMA_BILESEN = os.environ.get("MOTOR_KUSATMA_BILESEN") == "1"
+_KUS_BIL_KARAR = {}      # (üyeler, sahipli komşular) → bool · koşu içi (PETEK_D mühürlü)
+_KUS_BIL_SAYAC = {"bilesen": 0, "uye": 0}
+
+
+def _kusatma_bilesen(g, tek):
+    """g gününde ≥2 üyeli kilitli aday bileşenlerinden kuşatılmış olanların üyeleri
+    (`tek` = tek tek zaten kuşatılmış bulunanlar)."""
+    n = gn(g)
+    aday = [i for i, y in enumerate(YERLER)
+            if not y.get("kasitli_bosluk")
+            and ((y.get("kur") and gn(y["kur"]) > n) or (y.get("bit") and gn(y["bit"]) <= n))
+            and not _sahipli(y, g)
+            and PETEK_D[i] is not None and not PETEK_D[i].is_empty]
+    aset = set(aday)
+    komsu = {i: [j for j in (_KUS_IX[int(q)] for q in _KUS_AGAC.query(_cep(i), predicate="intersects"))
+                 if j != i and j in aset]
+             for i in aday}
+    ek, gor = set(), set()
+    for i in aday:
+        if i in gor or not komsu[i]:
+            continue
+        yig, bil = [i], []
+        gor.add(i)
+        while yig:
+            k = yig.pop()
+            bil.append(k)
+            for j in komsu[k]:
+                if j not in gor:
+                    gor.add(j)
+                    yig.append(j)
+        if len(bil) < 2 or all(k in tek for k in bil):
+            continue
+        bset = frozenset(bil)
+        try:
+            U = unary_union([PETEK_D[k] for k in bil])
+        except Exception:
+            continue                      # birleşim kurulamadı ⇒ eski karar (devretmemek) korunur
+        sj = []
+        for q in _KUS_AGAC.query(U.buffer(0.02), predicate="intersects"):
+            j = _KUS_IX[int(q)]
+            if j in bset:
+                continue
+            yj = YERLER[j]
+            if (yj.get("kur") and gn(yj["kur"]) > n) or (yj.get("bit") and gn(yj["bit"]) <= n):
+                continue
+            if _sahipli(yj, g):
+                sj.append(j)
+        if not sj:
+            continue
+        anah = (bset, tuple(sorted(sj)))
+        kv = _KUS_BIL_KARAR.get(anah)
+        if kv is None:
+            kv = False
+            ic = U.boundary.difference(_KIYI_TAMPON)
+            if ic.length > 1e-9:
+                try:
+                    ort = ic.intersection(unary_union([PETEK_D[j] for j in sj]).buffer(0.002))
+                    kv = bool(not ort.is_empty and min(ort.length / ic.length, 1.0) >= KUSATMA_ESIK)
+                except Exception:
+                    kv = False
+            _KUS_BIL_KARAR[anah] = kv
+            if kv:
+                _KUS_BIL_SAYAC["bilesen"] += 1
+                _KUS_BIL_SAYAC["uye"] += len(bset - set(tek))
+        if kv:
+            ek |= bset
+    return ek
 
 
 _DEVIR_EZBER = _tavanli(EZBER_TAVAN, "_DEVIR_EZBER")   # 🆕 BELLEK-1016
@@ -5557,6 +5707,13 @@ def _merkez_disi(g):
             if (y.get("k") or 0) >= 4 or ((y.get("k") or 0) == 0 and not MERKEZ_K0)}
 
 
+# 📌 post-it #51 (İbrail eksklavı): `kur:` ilk yazılı tanık olan ama 1445 öncesi SAHİPSİZ
+# yerleşim (Kalas) sahipli sayılmadığı için devre girmiyor, peteği sahipsiz canlı kalıp
+# İbrail'e giden toprağı tutuyordu. Bayrak açıkken `kur > gün` olan yerleşim sahibi
+# yazılı olmasa da devredilir. Env değişkeni önbellek tuzuna girer.
+MOTOR_KUR_DEVIR = os.environ.get("MOTOR_KUR_DEVIR") == "1"
+
+
 def devir_kumesi(g):
     """g tarihinde SAHNEDE OLMAYAN ve peteği devredilecek yerleşimler:
     (a) veride SAHİBİ YAZILI olanlar, (b) sahibi yazılmamış ama kara
@@ -5573,8 +5730,9 @@ def devir_kumesi(g):
         return v
     yazili = frozenset(
         i for i, y in enumerate(YERLER)
-        if ((y.get("kur") and gn(y["kur"]) > gn(g)) or (y.get("bit") and gn(y["bit"]) <= gn(g)))
-        and _sahipli(y, g))
+        if ((MOTOR_KUR_DEVIR and y.get("kur") and gn(y["kur"]) > gn(g))
+            or (((y.get("kur") and gn(y["kur"]) > gn(g)) or (y.get("bit") and gn(y["bit"]) <= gn(g)))
+                and _sahipli(y, g))))
     v = yazili | _kusatilmis(g)
     # 🏺 MO-MOTOR-1020: MÖ sahnesi + tarih başı merkez kuralı (varsayılanda CE günlerinde
     #    ikisi de boş küme ⇒ CE devir kümesi BİREBİR aynı).

@@ -114,7 +114,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Kazan merkezli olarak Moskova Knezliği'ne karşı mücadeleyi sürdüren Uluğ Muhammed Han'ın 1439'da düzenlediği ilk sefer sonuç vermedi. Han, Altın Orda'yı yeniden canlandırma hedefiyle Moskova'nın etrafında toplanan Slav beylerinin kendisini hükümdar tanımasını istiyordu; bu hedef beş yıl sonraki ikinci seferin gerekçesi oldu.",
   kaynak:"kazan-hanligi (TDV)" },
 
-{ taraflar:["kazan"], t:"1445-07-07", b:"SUZDAL SAVAŞI — Büyük Knez II. Vasili esir düştü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ taraflar:["kazan"], t:"1445-07-07", b:"Suzdal Savaşı — Büyük Knez II. Vasili esir düştü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","savas","toprak-kazanc","konu-askeri"],
   yer_id:"Suzdal",
   d:"1444 sonbaharında açılan ikinci Moskova seferi 7 Temmuz 1445'te Suzdal civarındaki meydan savaşıyla sonuçlandı: Ruslar yeniden yenildi, Büyük Knez Vasili ve kardeşi Mihail esir düştü. Vasili, o çağ için çok büyük bir yekûn tutan 200.000 ruble fidye ödemek zorunda kaldı. Kazan Hanlığı bu tarihten itibaren bağımsız bir devlet statüsüne kavuşmuş sayılır.",
@@ -156,7 +156,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Rus kuvvetleri, İbrâhim'in Kazan'da bulunmadığı bir sırada âni bir baskın düzenledi. Kuvvetlerini toplayan İbrâhim, Nijni Novgorod'a çekilen Rusları ağır bir yenilgiye uğrattı ve çok sayıda esirle Kazan'a döndü. Ancak III. İvan'ın karşı yürüyüşü üzerine esirleri serbest bırakıp barış istemek zorunda kaldı; bu döngü İbrâhim'in ölümüne kadar sürdü.",
   kaynak:"kazan-hanligi (TDV)" },
 
-{ taraflar:["kazan"], t:"1487-07-09", b:"KAZAN İLK DEFA RUS İŞGALİNE UĞRADI — başşehir düştü", tur:"isgal", onem:5, dunya:3, kapsam:"dis",
+{ taraflar:["kazan"], t:"1487-07-09", b:"Kazan ilk defa Rus işgaline uğradı — başşehir düştü", tur:"isgal", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","isgal","toprak-kayip","konu-askeri"],
   yer_id:"Kazan",
   d:"9 Temmuz 1487'de başşehir Kazan Ruslar tarafından ilk defa işgal edildi. Moskova hanlığı tamamen ortadan kaldıracak güçte olmadığı ya da onu Kāsım Hanlığı gibi tâbi bir devlet olarak tutmayı tercih ettiği için III. İvan, Kazan tahtına Muhammed Emin'i çıkardı. Kazan Hanlığı'nın altmış beş yıl sürecek Moskova nüfuzu devri bu tarihte başlar.",
@@ -356,13 +356,13 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Osmanlı taraftarı Yûsuf Mirza ile Moskova taraftarı kardeşi İsmâil Mirza arasındaki mücadele Yûsuf'un öldürülmesiyle sonuçlandı ve yüzyılın ortasında orda bölünmeye uğradı. Bir bozkır konfederasyonunun iç kavgası, iki büyük devletin dış siyaseti hâline gelmişti; bölünme bir daha onarılamadı.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'yüzyılın ortasında' diyor" },
 
-{ t:"1557-01-01", b:"KÜÇÜK NOGAY ORDASI kuruldu — Kadı Mirza İdil'i geçti", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",
+{ t:"1557-01-01", b:"Küçük Nogay ordası kuruldu — Kadı Mirza İdil'i geçti", tur:"kurulus", onem:4, dunya:2, kapsam:"ic",
   etiket:["siyaset","kurulus","goc","konu-siyasi","konu-demografi"],
   yer_id:"Kuban Nogay bozkırı",
   d:"Nogay uruklarının bir bölümü İsmâil Mirza'nın yanından ayrılarak Kadı (Kazi) Mirza'nın idaresinde 964-965 (1557-1558) yıllarında İdil nehrini geçti. Kırım hanından himaye gören bu grup, Kabarda bölgesiyle Azak denizi arasındaki topraklara yerleştirildi ve burada oluşturulan ordaya Küçük Nogay adı verildi. Böylece tek bir orda yerine iki ayrı Nogay siyasî gövdesi doğdu.",
   kaynak:"nogaylar (TDV)" },
 
-{ taraflar:["nogay"], t:"1560-01-01", b:"BUCAK ORDASI kuruldu — Nogaylar Basarabya'ya taşındı", tur:"kurulus", onem:3, dunya:2, kapsam:"dis",
+{ taraflar:["nogay"], t:"1560-01-01", b:"Bucak ordası kuruldu — Nogaylar Basarabya'ya taşındı", tur:"kurulus", onem:3, dunya:2, kapsam:"dis",
   etiket:["siyaset","kurulus","goc","konu-siyasi","konu-demografi"],
   yer_id:"Akkirman",
   d:"XVI. yüzyıl içinde Nogaylardan bir grup tarafından, adını Basarabya'nın güneyindeki Bucak'tan alan yeni bir orda kuruldu; Ruslar buna Belgorod ordası adını verdi. Ayrıca Aral çevresinde Altavul (Altıulı) ordası bulunuyordu. Nogay adının Tuna ağzından Aral'a kadar dağılması bu parçalanmanın sonucudur.",
@@ -428,7 +428,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"XVIII. yüzyıl başlarında Nogaylar daha da parçalandı: bir kısmı Kırım yarımadasında yaşarken Yedisan, Camboyluk, Bucak ve Kuban Nogayları Kırım Hanlığı'nın hâkimiyeti altındaydı. Osmanlı ile Rusya arasındaki Nogay meselesi bundan sonra Kırım meselesine bağlı olarak yürüdü.",
   kaynak:"nogaylar (TDV) — yıl YAKLAŞIK, kaynak 'XVIII. yüzyıl başlarında' diyor" },
 
-{ t:"1783-07-01", b:"SUVAROV KIYIMI — Nogay direnişi ezildi", tur:"son", onem:5, dunya:3, kapsam:"dis",
+{ t:"1783-07-01", b:"Suvarov kıyımı — Nogay direnişi ezildi", tur:"son", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","isyan","sosyal","konu-askeri","konu-siyasi","konu-isyan","konu-sosyal"],
   yer_id:"Kuban Nogay bozkırı",
   d:"Kırım'ın Rusya denetimine sokulmasından sonra Nogaylar kendilerine yapılan muameleye tepki gösterdiler; 1783'te General Suvarov ve Leontyev kumandasındaki kuvvetler onları ağır bir yenilgiye ve kıyıma uğrattı. Nogay ordası siyasî bir varlık olarak bu tarihte sona erer; bundan sonrası göç tarihidir.",
@@ -479,7 +479,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"İbak Han 1493'te Muhammed Tayboğa tarafından öldürüldü ve Tümen Hanlığı tahtı Şeybânîlerden Tayboğa soyuna mensup hanların eline geçti. Cengiz soyundan olmayan bir hânedanın tahta çıkması, hanlığı Orta Asya'daki Şeybânîlerden nisbeten bağımsız hâle getirdi.",
   kaynak:"sibir-hanligi (TDV)" },
 
-{ taraflar:["sibir-hanligi"], t:"1495-01-01", b:"Başşehir İsker'e taşındı — hanlık artık SİBİR HANLIĞI", tur:"idari", onem:5, dunya:2, kapsam:"ic",
+{ taraflar:["sibir-hanligi"], t:"1495-01-01", b:"Başşehir İsker'e taşındı — hanlık artık Sibir Hanlığı", tur:"idari", onem:5, dunya:2, kapsam:"ic",
   etiket:["idari","siyaset","konu-siyasi","konu-idari"],
   yer_id:"Tobolsk (İsker)",
   d:"Muhammed Tayboğa başşehrini Sibir (Tatarcası İsker, yani eski kale) şehrine taşıyınca hanlık Sibir Hanlığı adıyla anılmaya başlandı. Buradaki halka, hanlığa ve sonradan bütün bölgeye verilen Sibir adı, bir Türk kavmi olan Sabirlerden gelmektedir. Yani bugünkü Sibirya coğrafyasının adı bu başşehir değişikliğinden doğmuştur.",
@@ -491,7 +491,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"1552'de Kazan'ın düşüşünün ardından Ediger (Yâdigâr) Han, bir yandan yaklaşan Rus tehlikesini azaltmak, bir yandan da Şeybânîlerin baskısına karşı koyabilmek için Moskova'ya elçi gönderip Rus çarının hâkimiyetine girmek istediğini bildirdi. IV. İvan teklifi kabul etti ve bölge halkını vergiye bağladı. Çarın yarlığına göre vergiye tâbi nüfus 40.000 kişiydi; hanların askerî birlikleri ise ancak 1000-2000 kişi kadardı.",
   kaynak:"sibir-hanligi (TDV) — ay YAKLAŞIK, kaynak 'daha 1552'de' diyor" },
 
-{ t:"1563-01-01", b:"KÜÇÜM HAN İsker'i ele geçirdi — Şeybânî hânedanı geri döndü", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
+{ t:"1563-01-01", b:"Küçüm Han İsker'i ele geçirdi — Şeybânî hânedanı geri döndü", tur:"hukumdar", onem:5, dunya:2, kapsam:"ic",
   etiket:["hanedan","hukumdar","askeri","konu-askeri","konu-hanedan"],
   yer_id:"Tobolsk (İsker)",
   d:"Ediger Han'ın Moskova'ya tâbiiyet teklifi üzerine 1563'te Şeybânî Küçüm Han, halkın desteğiyle İrtiş üzerindeki İsker şehrinin ve Batı Sibir Hanlığı'nın idaresini ele geçirdi. Tayboğa soyundan gelen hanlara karşı kazandığı bu başarıyla Cengizli hânedanı tahta döndü. Küçüm, İrtiş ve Tobol Tatarlarıyla Baraba çölündeki Tatarları da hâkimiyeti altına aldı.",
@@ -527,7 +527,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Yermak, Karaça Kül gölü yakınındaki Karaça şehrini aldıktan sonra 14 Eylül 1581'de küçük bir şehir olan Atık'ı istilâ etti. Bu ilerleyiş, İrtiş boyundaki yerleşimlerin birbiri ardına düşmesinin başlangıcıdır.",
   kaynak:"kucum-han (TDV)" },
 
-{ taraflar:["sibir-hanligi"], t:"1581-10-23", b:"ÇUAŞ BURNU SAVAŞI — Küçüm'ün ordusu dağıldı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ taraflar:["sibir-hanligi"], t:"1581-10-23", b:"Çuaş Burnu Savaşı — Küçüm'ün ordusu dağıldı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","savas","toprak-kayip","konu-askeri"],
   yer_id:"Tobolsk (İsker)",
   d:"Tobol deltasından 2 km yukarıda, İrtiş'in doğu kıyısındaki Çuaş burnunda iki taraf karşılaştı; ilk çarpışmada üstünlük sağlanamadı, ancak 23 Ekim'deki ikinci savaşta Küçüm'ün kuvvetleri bozguna uğradı ve dağıldı. Han 25 Ekim gecesi ailesiyle İsker'den ayrıldı, Yermak ertesi gün şehre girdi. Rusya'nın Asya'ya açılışı bu muharebeyle başlar.",
@@ -569,7 +569,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"İrtiş'in yukarısında, Küçüm'e daha yakın bir noktada Tara şehrini kuran Ruslar, 17 Mart 1595'te Baraba çölüne asker göndererek hana tâbi o bölgedeki toprakları da işgal ettiler. Hanlığın hareket sahası artık İrtiş'in yukarı kollarıyla sınırlıydı.",
   kaynak:"kucum-han (TDV)" },
 
-{ t:"1598-08-20", b:"KÜÇÜM HAN'IN SON SAVAŞI — Sibir Hanlığı sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis",
+{ t:"1598-08-20", b:"Küçüm Han'ın son Savaşı — Sibir Hanlığı sona erdi", tur:"son", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","savas","son","konu-askeri","konu-siyasi"],
   yer_id:"Baraba bozkırı",
   d:"4 Ağustos 1598'de Tara'dan başlayan harekâtla Küçüm, bugünkü Novosibirsk yakınlarında kuşatıldı; 20 Ağustos'taki son savaşta yenildi ve oğlu Gali ile birkaç taraftarı yanında kaçmayı başardı. Ölenler arasında oğlu Kanay ile iki torunu vardı, esirlerin bir kısmı kurşuna dizildi, kalanları asıldı. Hanın ailesi Moskova'ya gönderildi ve Sibir Hanlığı siyasî bir varlık olarak bitti.",
@@ -618,7 +618,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Burunduk Han (1480-1511) önderliğinde ilk merkezî idare kurma teşebbüsleri başarılı olmadı. Kazaklar bu dönemde ulu cüz, orta cüz ve küçük cüz adlarıyla üç merkezli bir idare sistemini deniyorlardı; Kazak olmayanlar cüz yerine orda kelimesini kullanır.",
   kaynak:"kazakistan (TDV)" },
 
-{ taraflar:["kazak-hanligi"], t:"1503-01-01", b:"KASIM HAN birliği sağladı — ilk birleşik Kazak Hanlığı", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
+{ taraflar:["kazak-hanligi"], t:"1503-01-01", b:"Kasım Han birliği sağladı — ilk birleşik Kazak Hanlığı", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","hukumdar","idari","konu-siyasi","konu-idari","konu-hanedan"],
   yer_id:"Türkistan (Yesi)",
   d:"Kasım Han zamanında (1503-1523) Kazaklar birliği sağladı; ilk birleşik Kazak Hanlığı XVI. yüzyıl başlarında onun tarafından kuruldu. Bu dönemde Kazak nüfusu hızla arttı ve artan nüfusun otlak ihtiyacı sınırların genişlemesini getirdi. Bazı küçük Moğol kabilelerinin katılmasıyla sayıları 1 milyonu aştı.",
@@ -630,7 +630,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Kasım Han'ın yerine geçen oğlu Tâhir Han döneminde (1523-1533) merkezî idare bozuldu ve halk yeniden cüzlerin etrafında toplandı. Prensipte hanlığın birliği devam etse de uygulamada bu tamamen baştaki hanın kabiliyetine bağlıydı; güçlü hanlar arasındaki boşluklarda cüzler müstakil hareket ediyordu.",
   kaynak:"kazakistan (TDV)" },
 
-{ taraflar:["kazak-hanligi"], t:"1538-01-01", b:"HAK NAZAR HAN cüzleri yeniden merkezî otorite altında topladı", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
+{ taraflar:["kazak-hanligi"], t:"1538-01-01", b:"Hak Nazar Han cüzleri yeniden merkezî otorite altında topladı", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
   etiket:["hukumdar","idari","siyaset","konu-siyasi","konu-idari","konu-hanedan"],
   yer_id:"Türkistan (Yesi)",
   d:"Kasım Han'ın küçük oğlu Hak Nazar (1538-1581), Kazakları tekrar bir araya toplamayı ve merkezî otorite altına almayı başardı. Kırk üç yıllık saltanatı, hanlığın en uzun ve en toparlanmış devridir.",
@@ -684,7 +684,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Oyratlar, yeni liderleri Khu Urluk zamanında kalabalık bir Kalmuk kabilesiyle birleşerek yeniden saldırdı ve Kazak bozkırlarını yağmaladı. Aynı istilâ Mangışlak'taki Türkmen boylarını da yerinden etti ve Batı Kazakistan'a kadar uzandı; Kalmuklar Ural ile İdil arasında bir devlet kurdular. Kalmuk saldırılarından zayıf düşen Kazaklarda, liderleri Bolat Han'ın ölümüyle kopmalar başladı ve üç orda ayrı hanlıklara dönüştü.",
   kaynak:"kazakistan (TDV) — yıl YAKLAŞIK; Kalmuk göçünün kendi tarihi bu dosyanın G bölümünde" },
 
-{ taraflar:["kazak-hanligi"], t:"1680-01-02", b:"TAVKE HAN — Jeti Jargı ile Türk töresi yazıya geçirildi", tur:"kanun", onem:4, dunya:2, kapsam:"ic",
+{ taraflar:["kazak-hanligi"], t:"1680-01-02", b:"Tavke Han — Jeti Jargı ile Türk töresi yazıya geçirildi", tur:"kanun", onem:4, dunya:2, kapsam:"ic",
   etiket:["kanun","idari","kultur","konu-idari","konu-kultur","konu-hukuk"],
   yer_id:"Türkistan (Yesi)",
   d:"Tavke Han (1680-1718), jeti jargı (yedi yargı, yedi prensip) denilen Türk töresini yazılı hâle getirdi ve birleşik Kazak halkının son hükümdarı oldu. Sözlü bozkır hukukunun kanunname hâline gelmesi, Kazak siyasî geleneğinin en kalıcı ürünüdür; yüz elli yıl sonra Kenasarı aynı metni yeniden yürürlüğe koyacaktır.",
@@ -696,19 +696,19 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Oyratların Moğolistan'da kalan kısmıyla birleşen Cungarlar, Khungtayji Batur önderliğinde bütün Doğu Türkistan'ı ve Taşkent'i işgal ederek Çin içlerine uzanan bir devlet kurdular. Çin'e hâkim Mançu idaresinin direnişi üzerine batıya, yani Kazakistan'a yöneldiler. Kazaklar başlangıçta başarıyla direndilerse de Cungarlar önce büyük cüzü, ardından orta cüzü hâkimiyetleri altına aldı.",
   kaynak:"kazakistan (TDV) — yıl YAKLAŞIK, kaynak sırayı verip gün vermiyor" },
 
-{ taraflar:["kazak-hanligi"], t:"1723-01-01", b:"BÜYÜK CÜZ Kalmuklara boyun eğdi — Aktaban Şubırındı yılları", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
+{ taraflar:["kazak-hanligi"], t:"1723-01-01", b:"Büyük cüz Kalmuklara boyun eğdi — Aktaban Şubırındı yılları", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak-kayip","sosyal","konu-askeri","konu-sosyal"],
   yer_id:"Almatı (Vernıy)",
   d:"Almatı, Evliyaata, Çimkent, Talas ve Yedisu bölgelerini kapsayan, on bir Kazak boyunu içine alan büyük cüz, Moğolistan sınırına yakınlığı sebebiyle Kalmukların hücumuna uğradı ve 1723'te boyun eğdi. Büyük cüz 1750 başlarına kadar Kalmuk hâkimiyetinde kaldı. Kazak halk hâfızasında bu yıllar büyük felâket dönemi olarak anılır.",
   kaynak:"kazakistan (TDV)" },
 
-{ taraflar:["kazak-hanligi"], t:"1731-10-10", b:"HAN ŞÛRASI — Rus himayesi reddedildi ama kale izni verildi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
+{ taraflar:["kazak-hanligi"], t:"1731-10-10", b:"Han Şûrası — Rus himayesi reddedildi ama kale izni verildi", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["diplomasi","antlasma","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"Uralsk (Yayık)",
   d:"Küçük cüzün başındaki Ebülhayr Han Cungar tehdidine karşı Ruslardan yardım isteyince Rusya, Başkırt mirzalarından Kutlu Muhammed Tevkelev'i fevkalâde elçi olarak gönderdi. 10 Ekim 1731'de toplanan Han Şûrası, Rus himayesi yerine Rusya ile barış içinde yaşanması kararını aldı. Ancak Tevkelev'in tehdidi üzerine bazı liderler sadakat sözü verdi ve Or ile Ural nehirlerinin en çok yaklaştığı noktada bir askerî kale inşasına izin çıktı — Rusya'nın bozkıra girişi bu izinle başlar.",
   kaynak:"kazakistan (TDV)" },
 
-{ taraflar:["kazak-hanligi"], t:"1735-01-01", b:"ORENBURG KALESİ tamamlandı — ve amaç dışı kullanıldı", tur:"idari", onem:4, dunya:3, kapsam:"dis",
+{ taraflar:["kazak-hanligi"], t:"1735-01-01", b:"Orenburg Kalesi tamamlandı — ve amaç dışı kullanıldı", tur:"idari", onem:4, dunya:3, kapsam:"dis",
   etiket:["askeri","idari","toprak-kayip","konu-askeri","konu-idari"],
   yer_id:"Orenburg",
   d:"Or ile Ural nehirleri arasında bir yıl içinde tamamlanan Orenburg Kalesi, verilen izin dışında kullanıldı ve özellikle Rusya'nın Başkırt ülkesini işgalinde önemli rol oynadı. Başkırt ileri gelenleri Kazak cüzlerine elçi gönderip Ruslara topraklarında üs vermemelerini istedi. Ebülhayr Han orta cüz hanını ortak harekete çağırdı, çağrısı reddedilince tek başına savaşmaktan çekindi.",
@@ -762,7 +762,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Orta cüz hanı Abdullah Han, 20 Nisan 1782'de bir seyahat esnasında Ruslar tarafından esir alındı. Bunun üzerine orta cüz hanı olan Veli Han Ruslara karşı açıkça mücadele başlattı ve güney sınırını emniyete almak için Buhara Emirliği ve Çin ile dostane ilişkiler kurdu.",
   kaynak:"kazakistan (TDV)" },
 
-{ taraflar:["kazak-hanligi"], t:"1783-09-01", b:"SIRIM BATUR ayaklanması ilk zaferini kazandı", tur:"isyan", onem:4, dunya:2, kapsam:"dis",
+{ taraflar:["kazak-hanligi"], t:"1783-09-01", b:"Sırım Batur ayaklanması ilk zaferini kazandı", tur:"isyan", onem:4, dunya:2, kapsam:"dis",
   etiket:["isyan","askeri","sosyal","konu-askeri","konu-isyan","konu-sosyal"],
   yer_id:"Uralsk (Yayık)",
   d:"Ruslar en verimli topraklara el koyup buralara Kossakları yerleştirince, ağır vergiler ve anlaşmalara aykırı yeni kaleler tepkiyi isyana çevirdi. Sırım Batur etrafında pek çok kimseyi topladı ve 1783 sonbaharında Rus ve Kossak birliklerine karşı ilk başarısını kazandı. İkinci başarısını Sagız-Uil ve Temi ırmakları çevresini geri alarak elde etti; mücadele Kazaklar arasında millî bir hüviyet kazandı.",
@@ -804,7 +804,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Ruslar Kazakların birleşmesini engellemek için Kıpçak, Argın, Nayman, Kerey, Vak ve Kongırat boyları arasında karışıklık çıkarmaya girişti; nihayet Argın boyu sultanı Bökey 1812'de hanlığını ilân ederek orta cüzü iki hanlı duruma düşürdü. İki hanın mücadelesi Kazaklara büyük zarar verdi; 1817'de Bökey'in, 1819'da Veli Han'ın ölümü bu sıkıntıyı bitirdiyse de yerlerine dirayetli bir han gelmedi.",
   kaynak:"kazakistan (TDV)" },
 
-{ taraflar:["kazak-hanligi"], t:"1822-06-22", b:"SİBİRYA KAZAKLARI NİZAMNAMESİ — 319 madde, hanlık kaldırıldı", tur:"kanun", onem:4, dunya:2, kapsam:"dis",
+{ taraflar:["kazak-hanligi"], t:"1822-06-22", b:"Sibirya Kazakları nizamnamesi — 319 madde, hanlık kaldırıldı", tur:"kanun", onem:4, dunya:2, kapsam:"dis",
   etiket:["kanun","idari","reform","konu-idari","konu-islahat","konu-hukuk"],
   yer_id:"Omsk",
   d:"22 Haziran 1822'de Rus hükümeti, 319 maddeden oluşan Sibirya Kazaklarının statüsünü tebliğ etti. Orta cüzde han ve sultanlar tarafından yürütülen kabile esaslı idare kaldırıldı; yerine kendisine Rus binbaşısı rütbesi verilecek ve Rusların emriyle hareket edecek bir yönetici sultan (ağa sultan) seçme usulü getirildi. 1819'da Veli Han'ın ölümünden sonra zaten yasaklanmış olan han seçimi böylece hukuken de tarihe karıştı.",
@@ -816,7 +816,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"1822'yi izleyen 1824 düzenlemesiyle Rus idaresinin çerçevesi küçük cüze de yayıldı. Kaynak, 1822, 1824, 1867, 1868 ve 1891 düzenlemelerini 1917'ye kadar sürecek Rus yönetiminin temeli olarak sayar. Bu beş metin, bir göçebe siyasî düzenin yerine bir sömürge idaresinin geçişinin belgeleridir.",
   kaynak:"kazaklar (TDV)" },
 
-{ taraflar:["kazak-hanligi"], t:"1837-01-02", b:"KENASARI KASIMOĞLU ayaklanması başladı — 20.000 silâhlı", tur:"isyan", onem:5, dunya:3, kapsam:"dis",
+{ taraflar:["kazak-hanligi"], t:"1837-01-02", b:"Kenasarı Kasımoğlu ayaklanması başladı — 20.000 silâhlı", tur:"isyan", onem:5, dunya:3, kapsam:"dis",
   etiket:["isyan","askeri","siyaset","konu-askeri","konu-siyasi","konu-isyan"],
   yer_id:"Kazak bozkırı (İşim)",
   d:"Orta cüzde verimli toprakların alınması, ağır vergiler ve stratejik noktalara yeni kaleler yapılmak istenmesi üzerine halk ayaklandı; Abılay Han'ın torunu Sultan Kenasarı Kasımoğlu liderliğinde ilk anda 20.000 kişiye yakın silâhlı kuvvet toplandı. Kenasarı, dedesi zamanındaki hanlık sisteminin yeniden tesisini, işgal edilen toprakların boşaltılmasını ve kalelerin yıktırılmasını istedi; Ruslar reddedince mücadele başladı.",
@@ -864,7 +864,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Orenburg ve Sibirya'daki ordularıyla iki koldan saldıran Ruslara 1845 sonbaharına kadar dayanamayan Kenasarı kuvvetleri Karatav bölgesini boşaltarak önce Kök-Köl'e, bir yıl sonra Alatav istikametine çekildi. Kenasarı mücadeleyi bütün çabalarına rağmen üç cüze yayamamış, küçük ve büyük cüz gerekli desteği vermemişti.",
   kaynak:"kazakistan (TDV) — gün YAKLAŞIK, kaynak '1845 sonbaharına kadar' diyor" },
 
-{ t:"1847-01-01", b:"KENASARI KIRGIZLAR TARAFINDAN ÖLDÜRÜLDÜ — Kazak Hanlığı bitti", tur:"son", onem:5, dunya:3, kapsam:"dis",
+{ t:"1847-01-01", b:"Kenasarı Kırgızlar tarafından öldürüldü — Kazak Hanlığı bitti", tur:"son", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","son","siyaset","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"Alatav'a çekilen Kenasarı'nın birliklerine, Rusların kışkırtmasıyla Kırgızlar saldırdı. Böyle bir baskını beklemeyen Kenasarı, Kırgız topraklarını terkedip Çu ırmağının yukarı mecrasındaki Mey-Tuble vahasına çekildi; ikinci bir baskın sonucu adamlarıyla birlikte esir alındı ve öldürüldü. Kazak Hanlığı'nın siyasî varlığı bu tarihte sona erer.", ic_not_d:"⚠️ Mey-Tuble ve Alatav için yerleşim kaydı yok.",
@@ -876,7 +876,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Kenasarı'nın ölümüyle millî mücadele ruhu zayıfladı. Kardeşi Sultan Sâdık, kendisine bağlı 20.000 aile ile Türkistan ve Karatav bölgelerine yerleşip Hokand Hanlığı'nın hâkimiyetine girdi ve Hokand ordusunda pansad unvanıyla hanlığın kuzey sınırını Ruslara karşı savundu. Kazak direnişi böylece başka bir devletin ordusuna taşındı.",
   kaynak:"kazakistan (TDV) — yıl YAKLAŞIK" },
 
-{ t:"1854-06-22", b:"I. NİKOLA FERMANI — bütün Kazak toprakları Rusya'ya bağlandı", tur:"son", onem:5, dunya:3, kapsam:"dis",
+{ t:"1854-06-22", b:"I. Nikola fermanı — bütün Kazak toprakları Rusya'ya bağlandı", tur:"son", onem:5, dunya:3, kapsam:"dis",
   etiket:["idari","kanun","toprak-kayip","konu-askeri","konu-siyasi","konu-idari","konu-hukuk"],
   yer_id:"Orenburg",
   d:"Rus Çarı I. Nikola, 22 Haziran 1854'te bir ferman çıkararak bütün Kazak topraklarının Rusya hâkimiyeti altına geçtiğini ve Kazakların Rus kanunlarına tâbi olduğunu ilân etti. Buna karşılık bazı boy beyleri Rus hâkimiyetini reddederek mücadeleyi sürdürdü; bozkırın hukukî ilhakı ile fiilî teslimi arasındaki fark yıllarca sürdü.",
@@ -912,7 +912,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"1905 Rus devrimi Kazak siyasî hayatına yeni açılımlar getirdi: din adamlarının desteğini alan aydınlar siyasî ve kültürel alanda daha hür hareket etme imtiyazı aldı, siyasî partiler kuruldu, gazete ve dergi neşriyatındaki bazı kısıtlamalar kaldırıldı. Kazaklar İslâm'ın Ortodoksluk ile aynı hukukî çerçevede tanınmasını, topraklarının iadesini ve Kazak topraklarında yalnız Kazakların tam vatandaşlık hakkına sahip olmasını talep etmeye başladı.",
   kaynak:"kazaklar (TDV) — ay YAKLAŞIK" },
 
-{ t:"1916-07-01", b:"1916 AYAKLANMASI — seferberlik fermanı bozkırı ateşe verdi", tur:"isyan", onem:4, dunya:3, kapsam:"dis",
+{ t:"1916-07-01", b:"1916 ayaklanması — seferberlik fermanı bozkırı ateşe verdi", tur:"isyan", onem:4, dunya:3, kapsam:"dis",
   etiket:["isyan","askeri","sosyal","konu-askeri","konu-isyan","konu-sosyal"],
   yer_id:"Kazak bozkırı (Turgay)",
   d:"I. Dünya Savaşı sırasında Rusların on sekiz-kırk üç yaş arası erkekleri askere almak istemesi üzerine 1916'da büyük bir ayaklanma çıktı; arka planda uzun süreli toprak politikası rahatsızlığı, ağır vergiler ve savaş döneminde el konulan Kazak kaynakları vardı. Rus ordusu otoritesini büyük kayıplarla yeniden sağladı, fakat Kazak-Rus ilişkileri bir daha bu gerginlikten kurtulamadı.",
@@ -924,7 +924,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Nisan 1917'de Orenburg'da toplanan ilk umumi Kazak kurultayı resmen siyasî otonomi, idarede ve okullarda Kazak Türkçesinin resmî dil olması taleplerini gündeme getirdi. Birkaç ay sonraki ikinci ve üçüncü kurultaylarda ordu kurma, anayasa hazırlama ve seçim yapma kararı alındı; Alaş Partisi ve ardından Alaş Orda hükümeti bu kararlardan doğdu.",
   kaynak:"kazaklar + kazakistan (TDV)" },
 
-{ t:"1917-12-13", b:"ALAŞ ORDA — Kazakistan muhtariyetini ilân etti", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
+{ t:"1917-12-13", b:"Alaş Orda — Kazakistan muhtariyetini ilân etti", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","kurulus","idari","konu-siyasi","konu-idari"],
   yer_id:"Orenburg",
   d:"Rusya'da iç savaş sürerken Aralık 1917'de Kazakistan muhtariyetini ilân etti; kurulan hükümetin adı Alaş Orda oldu. Bu, Kenasarı'nın 1847'deki ölümünden bu yana Kazakların kendi adına kurduğu ilk siyasî otoritedir ve iki yıl yaşayacaktır.",
@@ -1019,7 +1019,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"1416'da Timur'un torunu Uluğ Bey, Emîrek Ahmed'in idaresindeki Kâşgar'a da hâkim oldu ve aynı yıl Duğlatlar Tarım havzasından tamamen uzaklaştırıldı. Ancak Duğlatlar geri döndü ve Kâşgar'ı tekrar ele geçirerek 1499 veya 1514'e kadar hüküm sürdü.",
   kaynak:"kasgar (TDV)" },
 
-{ taraflar:["mogulistan","yarkent-hanligi"], t:"1514-01-02", b:"SULTAN SAİD HAN Yarkent (Sa'îdiyye) Hanlığı'nı kurdu", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
+{ taraflar:["mogulistan","yarkent-hanligi"], t:"1514-01-02", b:"Sultan Said Han Yarkent (Sa'îdiyye) Hanlığı'nı kurdu", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","hanedan","siyaset","konu-siyasi","konu-hanedan"],
   yer_id:"Yarkent (Şaçe)",
   d:"Sultan Said Han, Moğulistan mirası üzerinde Kâşgar ve Yarkent'i alarak Tarım havzasında bir Çağatay hanlığı kurdu. Başşehri Yarkent olan bu devlet, kaynaklarda Sa'îdiyye Hanlığı diye de anılır ve 1705'e kadar sürecektir.", ic_not_d:"⚠️ TDV'nin kasgar maddesi Yarkent'i ayrı bir siyasî varlık olarak ele almaz, yalnız geçerken anar; hanlığın kendi kuruluş/son tarihleri standart akademik kaynağa dayanır.",
@@ -1031,7 +1031,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"1606'da Çağatay hânedanına mensup Emîr İsmâil Kâşgar'a hâkim oldu. Onun zamanında halk üzerinde büyük nüfuzu bulunan Âfâk Hoca yükselecek ve hanlığın siyasî iradesi hânedandan tarikat şeyhlerine geçecekti.",
   kaynak:"kasgar (TDV)" },
 
-{ t:"1678-01-01", b:"ÂFÂK HOCA Kalmuk desteğiyle emîr oldu — HOCALAR DÖNEMİ başladı", tur:"din", onem:5, dunya:3, kapsam:"dis",
+{ t:"1678-01-01", b:"Âfâk Hoca Kalmuk desteğiyle emîr oldu — hocalar dönemi başladı", tur:"din", onem:5, dunya:3, kapsam:"dis",
   etiket:["din","siyaset","isgal","konu-askeri","konu-siyasi","konu-din"],
   yer_id:"Kaşgar",
   d:"Halk üzerinde büyük nüfuzu bulunan Âfâk (Appak, Abak) Hoca, Kalmukların yardımıyla 1678'de Kâşgar'ın emîri oldu. Böylece başlayan Hocalar dönemi XIX. yüzyıla kadar devam etti. Dinî bir liderliğin yabancı bir göçebe gücün süngüsüyle siyasî iktidara dönüşmesi, Tarım havzasının iki yüz yıllık kaderini belirledi.",
@@ -1055,7 +1055,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"1759'da Çin Tarım havzasının tamamını işgal etti ve merkezi Yârkend olan mahallî bir yönetim kurdu; aynı yıl sürgüne gönderilen Hocalar, bir asır sürecek direnişin liderleri olacaklardı.", ic_not_d:"⚠️ Fethin Çin tarafı kronoloji_cin.js'te 1759-01-01 tarihiyle ZATEN var; bu madde kurulan İDARÎ YAPIdır.",
   kaynak:"kasgar (TDV) — ay YAKLAŞIK" },
 
-{ taraflar:["yakub-beg"], t:"1865-01-15", b:"YÂKUB BEG 1000 kişiyle Kâşgar'a gönderildi", tur:"savas", onem:4, dunya:2, kapsam:"dis",
+{ taraflar:["yakub-beg"], t:"1865-01-15", b:"Yâkub Beg 1000 kişiyle Kâşgar'a gönderildi", tur:"savas", onem:4, dunya:2, kapsam:"dis",
   etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"Kaşgar",
   d:"Kâşgar Hanı Gasıp Sıddık Beg, Kâşgar ve Yenihisar kalelerindeki Çin birliğiyle başa çıkamayınca Hokand Hanlığı'ndan yardım istedi. Hokand'ın fiilî hâkimi başkumandan Âlim Kul, Yâkub Beg'i 1000 kişilik bir kuvvetin başında Ocak 1865'te Kâşgar'a gönderdi. Çinlilere karşı koyan Yâkub Beg halkın takdirini kazandı ve on üç yıl sürecek devletinin ilk adımını attı.",
@@ -1067,7 +1067,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Çarpışmalarda öldürülen Gasıp Sıddık Beg'in yerine han ilân edilen Hoca Büzürg Han Töre, Yâkub Beg'i kumandanlığa getirip geniş yetkiler verdi. Büzürg Han'ın yetersizliğinden faydalanıp askerî ve mülkî kadrolara hâkim olan Yâkub Beg, 1866'da Yenihisar'ı, Kâşgar Yenişehiri'ni, Yârkend ve Hoten'i ele geçirdi.",
   kaynak:"yakub-beg (TDV)" },
 
-{ t:"1867-01-01", b:"Yâkub Beg kendini ATALIK GAZİ BA-DEVLET ilân etti", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
+{ t:"1867-01-01", b:"Yâkub Beg kendini atalık Gazi ba-devlet ilân etti", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["siyaset","kurulus","hukumdar","konu-siyasi","konu-hanedan"],
   yer_id:"Kaşgar",
   d:"Aksu, Kuça ve Karaşehir'i de alarak hâkimiyet alanını genişleten Yâkub Beg, Büzürg Han Töre'nin iktidarına son verip kendisini Atalık Gazi Ba-Devlet (mesut hükümdar) unvanıyla Kâşgar Hanlığı'nın yeni hâkimi ilân etti. Çağdaşlarına göre Orta Asya'da ilk defa yarı modern bir devlet kurulmuştu.",
@@ -1121,7 +1121,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Çin'in Mançu hükümetinin 1877 baharında General Zuo Zongtang ve General Liu Cintang kumandasında yolladığı ordu Kumul ve Urumçi'yi işgal edip Kâşgar'a doğru ilerledi; Aksu etrafındaki Davançıng Geçidi civarında şiddetli çarpışmalar oldu. Sayıca üstün düşman karşısında geri çekilmek zorunda kalan Yâkub Beg antlaşma teklifi gönderdi. Çinliler 16 Mayıs 1877'de Turfan'ı da ele geçirdiler.",
   kaynak:"yakub-beg (TDV)" },
 
-{ t:"1877-05-29", b:"YÂKUB BEG VEFAT ETTİ — cevabı öğrenemeden", tur:"olum", onem:5, dunya:3, kapsam:"ic",
+{ t:"1877-05-29", b:"Yâkub Beg vefat etti — cevabı öğrenemeden", tur:"olum", onem:5, dunya:3, kapsam:"ic",
   etiket:["olum","siyaset","hanedan","konu-siyasi","konu-kisiler","konu-hanedan"],
   yer_id:"Kaşgar",
   d:"Yâkub Beg, antlaşma teklifinin kabul edilip edilmediğini öğrenemeden 29 Mayıs 1877'de vefat etti; bazı kaynaklarda bir suikasta kurban gittiği, Hoten Valisi Niyaz Beg ile yardımcısı Aşur Beg'in yaverine para vererek zehirlettiği kaydedilir. Ölümü üzerine oğulları arasında taht kavgaları ve beylerin kendilerini hükümdar ilân etmeleriyle başlayan iç savaş, Kâşgar Hanlığı'nın çöküşüne zemin hazırladı.",
@@ -1143,7 +1143,7 @@ window.KRONOLOJI_ORTA_ASYA = [
 // 🔴 TDV'de `cungarlar` slug'ı ÖLÜ (302). Konu `kalmuklar` maddesindedir ve
 // Cungar Hanlığı orada "Doğu Kalmukları" başlığı altında anlatılır.
 
-{ t:"1416-01-02", b:"TOGAN HAN bütün Oyratları tek devlet otoritesi altında topladı", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
+{ t:"1416-01-02", b:"Togan Han bütün Oyratları tek devlet otoritesi altında topladı", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","hanedan","askeri","konu-askeri","konu-siyasi","konu-hanedan"],
   yer_id:"Cungarya havzası",
   d:"Yuan hânedanının 1368'de yıkılıp Moğolların Çin'den çıkarılmasından sonra Moğolistan'a dönenler Oyratlar (Batı Moğolları) ve Halhalar (Doğu Moğolları) olmak üzere ikiye ayrılmıştı. Oyrat Hanlığı'nın kurucusu Togan (Togon) Han 1416'da bütün Oyratları bir devlet otoritesi altında topladı. Cengiz Han döneminde ordunun sol kanadını teşkil ettikleri için Moğolca sol el anlamındaki cengi gar denilen bu topluluğun adı sonradan Cungar'a dönüşmüştür.",
@@ -1161,7 +1161,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Togan Han 1434'te devamlı savaştıkları Halhaların lideri Arugtay'ı öldürdüyse de bu halka baş eğdiremedi. Batı ve Doğu Moğolları arasındaki bu bölünme, iki asır boyunca bozkırın en belirleyici siyasî hattı olacaktı.",
   kaynak:"kalmuklar (TDV)" },
 
-{ t:"1439-01-01", b:"ESEN TAYŞİ bütün Moğolları birleştirdi — Oyrat Hanlığı zirvede", tur:"hukumdar", onem:5, dunya:3, kapsam:"ic",
+{ t:"1439-01-01", b:"Esen Tayşi bütün Moğolları birleştirdi — Oyrat Hanlığı zirvede", tur:"hukumdar", onem:5, dunya:3, kapsam:"ic",
   etiket:["hukumdar","askeri","siyaset","konu-askeri","konu-siyasi","konu-hanedan"],
   yer_id:"Cungarya havzası",
   d:"Togan Han'ın yerine 1439'da geçen oğlu Esen Tayşi, babasının başaramadığını başardı ve bütün Moğolları yönetimi altında birleştirerek Oyrat Hanlığı'nı Çin İmparatorluğu karşısındaki en büyük güç hâline getirdi. Devletin sınırları Sinkiang ve Çin Seddi'nden Balkaş gölüne kadar uzandı.",
@@ -1179,7 +1179,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Esen Tayşi'den sonra Oyrat-Halha savaşları yeniden başlamış ve Moğol birliği dağılmıştı. 1604'te Horluk adlı bir Torgut beyi önce Hârizm'i istilâ etti; ardından 1618'den 1632'ye kadar süren göç dalgaları hâlinde kendi ulusunu batıya, İdil boylarına taşıdı. Bu, Moğol kökenli bir halkın Avrupa'ya en yakın noktaya yerleşmesiyle sonuçlanan son büyük bozkır göçüdür.",
   kaynak:"kalmuklar (TDV)" },
 
-{ t:"1632-01-01", b:"İDİL KALMUKLARI HANLIĞI kuruldu", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
+{ t:"1632-01-01", b:"İdil Kalmukları Hanlığı kuruldu", tur:"kurulus", onem:5, dunya:3, kapsam:"ic",
   etiket:["kurulus","goc","siyaset","konu-siyasi","konu-demografi"],
   yer_id:"Kalmuk bozkırı",
   d:"On dört yıl süren göç dalgalarının sonunda Horluk, İdil (Volga) boylarında İdil Kalmukları Hanlığı'nı kurdu (1632). Yaklaşık aynı yıllarda doğuda, Cungarya'da Hara Hula adlı başka bir bey eski Oyrat Hanlığı'nı yeniden canlandırdı. Böylece tek bir halk, biri Hazar'ın kuzeyinde biri Tanrı dağlarının kuzeyinde iki ayrı devlete bölündü.",
@@ -1209,13 +1209,13 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Sevang Rabdan'ın ardından Galdan Sereng (1727-1745) hanlığı devraldı ve devletin en geniş sınırlarını korudu. Onun ölümünden sonra çıkan dâhilî kargaşalık, Çin'in on üç yıl içinde Cungar egemenliğine son vermesinin fırsatı olacaktır.",
   kaynak:"kalmuklar (TDV)" },
 
-{ t:"1758-01-01", b:"CUNGAR HALKININ İMHASI — 500.000'den fazla kişi kılıçtan geçirildi", tur:"son", onem:5, dunya:4, kapsam:"dis",
+{ t:"1758-01-01", b:"Cungar halkının imhası — 500.000'den fazla kişi kılıçtan geçirildi", tur:"son", onem:5, dunya:4, kapsam:"dis",
   etiket:["askeri","son","sosyal","konu-askeri","konu-siyasi","konu-sosyal"],
   yer_id:"Cungarya havzası",
   d:"Galdan Sereng'in ardından ortaya çıkan iç kargaşalıktan faydalanan Çin İmparatoru Çienlong birkaç yıl içinde Cungar egemenliğine son verdi ve asker-sivil 500.000'den fazla kişiyi kılıçtan geçirerek Cungar halkını ortadan kaldırdı (1758). Bu, bir devletin yıkılması değil bir halkın imhasıdır ve Orta Asya'nın demografik haritasını kalıcı olarak değiştirmiştir.", ic_not_d:"⚠️ Seferlerin Çin tarafı kronoloji_cin.js'te 1755-01-01 tarihiyle ZATEN var.",
   kaynak:"kalmuklar (TDV)" },
 
-{ t:"1770-01-01", b:"UBAŞİ GÖÇÜ — 300.000 Kalmuk yola çıktı, 70.000'i vardı", tur:"sosyal", onem:5, dunya:3, kapsam:"dis",
+{ t:"1770-01-01", b:"Ubaşi göçü — 300.000 Kalmuk yola çıktı, 70.000'i vardı", tur:"sosyal", onem:5, dunya:3, kapsam:"dis",
   etiket:["sosyal","goc","askeri","konu-askeri","konu-sosyal","konu-demografi"],
   yer_id:"Kalmuk bozkırı",
   d:"İdil Kalmuklarının 300.000 kadarı, 1770'te siyasî bir oyuna getirilen son hanları Ubaşi'nin önderliğinde eski yurtları Cungarya'ya geri gönderildi. Hareket felâkete dönüştü: yola çıkan Kalmuklar müslüman Kazaklar tarafından Balkaş gölü çevresindeki çöllere sürülerek çetin tabiat şartlarında imha edildi; sadece 70.000 kadarı Cungarya'ya ulaşabildi ve artık buranın hâkimi olan Çinlilerden mülteci muamelesi gördü.",
@@ -1263,7 +1263,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"XVI. yüzyılın ikinci yarısının ortalarında Emba suyu kıyılarında oturan ve kendilerine Nogay da denilen Mangıtların akınlarına dayanamayan Teke ve Yomutlar, Küçük Balhan ile Kızılarvat ortasındaki Küren dağı çevresine göç etti. Türkmen boylarının Mangışlak'tan güneye kayışı bu akınlarla başlar.",
   kaynak:"turkmenler (TDV) — yıl YAKLAŞIK, kaynak 'XVI. yüzyılın ikinci yarısının ortalarında' diyor" },
 
-{ t:"1575-01-01", b:"CEYHUN YATAK DEĞİŞTİRDİ — bütün Türkmenlerin ekonomisi darbe yedi", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic",
+{ t:"1575-01-01", b:"Ceyhun yatak değiştirdi — bütün Türkmenlerin ekonomisi darbe yedi", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic",
   etiket:["ekonomi","sosyal","cografya","konu-darbe","konu-ekonomi","konu-sosyal","konu-kesif"],
   yer_id:"Köhne Ürgenç (Gürgenç)",
   d:"1575-1578 yılları arasında Ceyhun (Amuderya) yeniden yatak değiştirerek Hazar yerine Aral gölüne dökülmeye başladı. Irmak boyunda oturan Adaklı Hızır Eli, Ali Eli ve Teveciler bundan doğrudan etkilendi ve kaynağın ifadesiyle bütün Türkmenlerin ekonomik hayatı darbe yedi. Bir nehrin yatağını değiştirmesi, bir savaş kadar belirleyici bir tarihî olaydır.",
@@ -1287,7 +1287,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"XVIII. yüzyılda Esterâbâd bölgesinde Oklu'ların yerini Salur boyundan gelen Yomutlar aldı; bunlar Afşarlar ve Zendlerle mücadelelerinde Kaçarlara yardım ettiler. İranlı bir tarihçiye göre Kaçar Devleti'nin kurucusu Ağa Muhammed Şah'ın annesi, Yomutların başbuğu Begenç'in kızıydı. İran'da yeni bir hânedanın kuruluşunda Türkmen boylarının payı budur.",
   kaynak:"turkmenler (TDV) — yıl YAKLAŞIK, kaynak 'XVIII. yüzyılda' diyor" },
 
-{ taraflar:["turkmen"], t:"1819-01-01", b:"MURAVYEV LİSTESİ — Türkmen nüfusu 285.000 çadır sayıldı", tur:"sosyal", onem:3, dunya:1, kapsam:"dis",
+{ taraflar:["turkmen"], t:"1819-01-01", b:"Muravyev listesi — Türkmen nüfusu 285.000 çadır sayıldı", tur:"sosyal", onem:3, dunya:1, kapsam:"dis",
   etiket:["sosyal","bilim","ekonomi","konu-bilim","konu-ekonomi","konu-sosyal"],
   yer_id:"Krasnovodsk (Türkmenbaşı)",
   d:"1819'da düzenlenen Muravyev listesine göre Esen Eli 8000, Göklenler 40.000 çadır; Salur'a mensup oymaklardan Teke 50.000, Salur 4000, Ersarı 100.000, Yomut 40.000, Sarık 20.000, Sakar 20.000 çadır gösterilmiştir. Toplam 285.000 çadırlık Türkmen nüfusunun 237.000'i (yüzde 83'ü) Salur boyuna mensuptu. Bu, Türkmen boylarının ilk sistematik sayımıdır.",
@@ -1311,7 +1311,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Teke başbuğu Kuşid Han 1860'ta toplarla mücehhez Kaçar ordusuna karşı parlak bir zafer kazandı. Topsuz bir göçebe boyun modern topçuya sahip bir imparatorluk ordusunu yenmesi, Türkmen atlı taktiğinin son büyük başarısıdır; İran bir daha Merv'e yürümedi.",
   kaynak:"turkmenler (TDV)" },
 
-{ taraflar:["turkmen"], t:"1863-01-01", b:"VÁMBÉRY LİSTESİ — nüfus 196.500 çadıra düşmüştü", tur:"sosyal", onem:2, dunya:1, kapsam:"dis",
+{ taraflar:["turkmen"], t:"1863-01-01", b:"VÁMBÉRY listesi — nüfus 196.500 çadıra düşmüştü", tur:"sosyal", onem:2, dunya:1, kapsam:"dis",
   etiket:["sosyal","bilim","konu-bilim","konu-sosyal"],
   yer_id:"Hîve",
   d:"Macar seyyah Vámbéry'nin 1863 tarihli listesine göre Türkmen nüfusu 196.500 çadırdı ve bunun 172.500'ü (yüzde 87'si) Salur boyundan çıkan oymaklardan oluşuyordu. Kırk dört yılda 285.000'den 196.500'e düşen bu sayı, savaşlar ve göçlerin boy nüfusları üzerindeki etkisini gösterir.",
@@ -1323,7 +1323,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Türkmen boyları, Hîve ile Buhara ile İran arasındaki boşlukta hareket serbestliği bulmuşlardı; 1873'te Rusların Hîve Hanlığı'nı egemenlikleri altına alması bu dengeyi bozdu. Bundan sonra Türkmenlerin karşısında bölgesel hanlıklar değil doğrudan bir imparatorluk ordusu vardı.",
   kaynak:"turkmenler (TDV) — gün YAKLAŞIK; Hîve'nin düşüşü Rus/Özbek dosyalarının konusudur" },
 
-{ t:"1879-09-01", b:"BİRİNCİ GÖKTEPE — Türkmenler Rus ordusunu ağır yenilgiye uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ t:"1879-09-01", b:"Birinci Göktepe — Türkmenler Rus ordusunu ağır yenilgiye uğrattı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","savas","konu-askeri"],
   yer_id:"",
   d:"Türkmenlerin çarın hâkimiyetini kabul etme teklifini şiddetle reddetmesi üzerine 1879'da harekete geçen Ruslar, Göktepe'de ağır bir yenilgiye uğradı (Eylül 1879). Bu, XIX. yüzyılda bir Rus ordusunun Orta Asya'da aldığı en ağır yenilgidir.", ic_not_d:"⚠️ Göktepe için proje yerleşim kümesinde nokta YOK; yer_id boş bırakıldı, uydurulmadı.",
@@ -1355,7 +1355,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Cengiz Han ülkesini oğulları arasında taksim edince Kâşgar Çağatay Han'ın payına düşmüş, ancak idaresi Buhara Emîri Mahmud Yalavaç'a ve ardından oğlu Mesud Yalavaç'a bırakılmıştı. Şehirdeki Mesûdiye Medresesi Mesud Yalavaç tarafından yaptırılmıştır. Moğol idaresi altında Tarım havzasında kurulan bu medrese, bölgenin İslâmî ilim geleneğinin sürdüğünün delilidir.", ic_not_d:"⚠️ Tarih YAKLAŞIKTIR: kaynak yıl vermiyor, Mesud Yalavaç'ın valilik dönemine tarihlenmiştir.",
   kaynak:"kasgar (TDV, madde: kasgar — içerik okundu, 2026-08-22); YIL YAKLAŞIK, kaynak gün/yıl vermiyor" },
 
-{ t:"1733-01-01", b:"MAHTUMKULU doğdu — Türkmen edebî dilinin kurucusu", tur:"kultur", onem:5, dunya:2, kapsam:"ic",
+{ t:"1733-01-01", b:"Mahtumkulu doğdu — Türkmen edebî dilinin kurucusu", tur:"kultur", onem:5, dunya:2, kapsam:"ic",
   etiket:["kultur","edebiyat","din","konu-kisiler","konu-din","konu-kultur"],
   yer_id:"Esterâbâd (Gürgân)",
   d:"Göklen uruğunun Gerkez kabilesinden Mahtumkulu, genellikle kabul edildiğine göre 1146'da (1733) Etrek ile Gürgen nehirleri arasındaki Hacıgovşan'da doğdu. Babası Dövletmemet Azadi de şairdi. Buhara'daki Kükeltaş ve Hîve'deki Şirgazi medreselerinde okudu, Şirgazi'de talebe halifesi oldu ve orada Türkmenler için bir bölüm açıldı. Kendisinden öncekiler gibi klasik Türk edebiyat diliyle değil canlı Türkmen şivesiyle yazarak Türkmen edebî dilinin doğuşunu sağladı.",
@@ -1373,7 +1373,7 @@ window.KRONOLOJI_ORTA_ASYA = [
   d:"Mahtumkulu'nun şiirlerinin yayımlanması işi 1842'de başladı ve XX. yüzyılın başlarından itibaren hakkındaki araştırmalarla birlikte sürdü; Taşkent (1907), Astırhan (1911), Bakü ve Aşkābâd baskıları bunu izledi. Divanının 100'den fazla nüshası bulunmaktadır. Sözlü bir boy edebiyatının matbu bir millî edebiyata dönüşmesi bu yayınlarla başlar.",
   kaynak:"mahtumkulu (TDV)" },
 
-{ t:"1856-01-01", b:"Çokan Velihanoğlu MANAS DESTANI'nın bir varyantını derledi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
+{ t:"1856-01-01", b:"Çokan Velihanoğlu Manas destanı'nın bir varyantını derledi", tur:"kultur", onem:4, dunya:2, kapsam:"ic",
   etiket:["kultur","edebiyat","bilim","konu-bilim","konu-kultur"],
   yer_id:"", odak_yer:["Issık Göl havzası", "Narın (Naryn)"],
   d:"Dünyanın en hacimli destanı olan Manas'ı bilim dünyasına ilk duyuran, Cengiz Han soyundan gelen Kazak bilgini Çokan Velihanoğlu'dur; 1856'da Kırgızistan'da yaptığı gezi sırasında destanın bir varyantını derledi. Destanın 840 civarında Yenisey Kırgızlarının Uygur ve Çinlilerle savaşları sırasında oluşmaya başladığı, XVI-XVII. yüzyıllarda Kırgız-Kalmuk savaşlarıyla zenginleştiği kabul edilir.", ic_not_d:"⚠️ Derlemenin yapıldığı yer için birebir yerleşim kaydı yok.",

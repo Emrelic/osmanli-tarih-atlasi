@@ -147,7 +147,7 @@ window.KRONOLOJI_SIRBISTAN = [
   d:"Stefan Lazareviç'in ölümü üzerine yeğeni Đurađ Branković despot oldu; Osmanlı baskısı karşısında daha savunmaya elverişli Semendire'yi (Smederevo) yeni başkent yaptı ve burada güçlü bir kale inşa ettirdi.",
   kaynak:"TDV `semendire` maddesi genel anlatısı + devletler.js `sirp-despotlugu` künyesi." },
 
-{ taraflar:["sirp-despotlugu"], t:"1439-08-18", b:"Semendire'nin ilk düşüşü", tur:"toprak-kayip",
+{ taraflar:["sirp-despotlugu"], t:"1439-08-27", ic_not_t:"eski gün 1439-08-18 (devletler.js künyesinden devralınmıştı); TDV semendire: 27 Ağustos 1439 (16 Rebîülevvel 843); devletler.js ve yerleşim zincirleri 08-27 (kron-balkan, 28 Eki 2026)", b:"Semendire'nin ilk düşüşü", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","kusatma","konu-askeri"],
   yer_id:"Semendire",
   d:"II. Murad'ın kuşatmasıyla despotluğun başkenti Semendire ilk kez Osmanlı'ya düştü; Sırbistan geçici olarak doğrudan ilhak edildi. Beş yıl sonra Edirne-Segedin Antlaşması'yla iade edilecektir.", ic_not_d:"Gün devletler.js künyesinden alındı; olaylar_ek.js aynı olayı 1439-08-27 olarak veriyor — çelişki bildirildi (M-1021), düzeltme bu dosyanın kapsamı dışında.",
@@ -162,7 +162,7 @@ window.KRONOLOJI_SIRBISTAN = [
 { odak_yer:["Belgrad"], taraflar:["sirp-despotlugu"], t:"1448-10-17", b:"II. Kosova Savaşı — despotluğun tarafsızlığı", tur:"savas",
   onem:2, dunya:3, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"",
-  d:"Hunyadi János'un Osmanlı'ya karşı düzenlediği haçlı seferi, Sırp Despotluğu topraklarından geçerken Đurađ Branković'in desteğini ALAMADI; despotluk, 1444'te iade edilen topraklarını yeniden tehlikeye atmamak için tarafsız kaldı ve hatta bazı kaynaklara göre Macar ordusunun geçişini engelledi.", ic_not_d:"II. Murad'ın zaferiyle Osmanlı'nın Balkanlar'daki konumu kalıcılaştı. dunya puanı kronoloji_macaristan.js'teki aynı olayla eşleştirildi.",
+  d:"Hunyadi János'un Osmanlı'ya karşı düzenlediği haçlı seferi, Sırp Despotluğu topraklarından geçerken Đurađ Branković'in desteğini alamadı; despotluk, 1444'te iade edilen topraklarını yeniden tehlikeye atmamak için tarafsız kaldı ve hatta bazı kaynaklara göre Macar ordusunun geçişini engelledi.", ic_not_d:"II. Murad'ın zaferiyle Osmanlı'nın Balkanlar'daki konumu kalıcılaştı. dunya puanı kronoloji_macaristan.js'teki aynı olayla eşleştirildi.",
   kaynak:"kronoloji_macaristan.js (1448-10-17, dunya:3) + akademik (Fine) — despotluğun tarafsızlığı için." },
 
 { t:"1459-06-20", b:"Semendire'nin düşüşü — Sırp Despotluğu'nun sonu", tur:"son",

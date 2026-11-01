@@ -191,8 +191,8 @@ window.YERLESIMLER_ORTAASYA2 = [
 // Nogay penceresi YOK — bozkırın bu ucu doğrudan Altın Orda'dan Kazak'a geçer.
 { ad:"Aral kuzeyi", tur:"bolge", lat:47.2000, lon:61.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
-     {f:"1500-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1500-01-01", t:"1847-01-01", d:"kazak-hanligi"},
+     {f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Üstyurt platosunun KUZEY ucu — birinci partideki "Üstyurt platosu (batı)"
 // ve "(doğu)" noktalarının kuzeyi. ⚠️ Koordinat tarihî Aral'ın batısında
@@ -205,16 +205,16 @@ window.YERLESIMLER_ORTAASYA2 = [
 { ad:"Üstyurt kuzeyi", tur:"bolge", lat:45.6000, lon:56.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1644-01-01", d:"nogay"},
-     {f:"1644-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1644-01-01", t:"1847-01-01", d:"kazak-hanligi"},
+     {f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Emba (Cem) ırmağı havzası — TDV NOGAYLAR'ın adıyla andığı doğu sınırı.
 // Zincir Üstyurt kuzeyi ile aynıdır.
 { ad:"Emba (Cem)", tur:"bolge", lat:47.5000, lon:57.5000, g:0, k:0, d:[],
   s:[{f:"1281-01-01", t:"1500-01-01", d:"altinorda"},
      {f:"1500-01-01", t:"1644-01-01", d:"nogay"},
-     {f:"1644-01-01", t:"1868-01-01", d:"kazak-hanligi"},
-     {f:"1868-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1644-01-01", t:"1847-01-01", d:"kazak-hanligi"},
+     {f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Aktöbe (Aktyubinsk) — 1869'da Rus bozkır karakolu olarak kuruldu.
 // ⚠️ TDV'de maddesi yok; kuruluş yılı standart akademik referanstan,

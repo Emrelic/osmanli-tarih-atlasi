@@ -16,7 +16,7 @@
 window.YER_YAMA_JAPONYA = [
  {
   "dosya": "kronoloji_japonya.js",
-  "t": "1543-08-25",
+  "t": "1543-09-23",
   "b": "Portekizliler Tanegaşima'ya ulaşıp ateşli silahı Japonya'ya tanıttı",
   "eksik_nokta": {
    "ad": "Tanegaşima (Nişinoomote)",
@@ -28,7 +28,7 @@ window.YER_YAMA_JAPONYA = [
  },
  {
   "dosya": "kronoloji_japonya.js",
-  "t": "1571-10-01",
+  "t": "1571-09-30",
   "b": "Nobunaga, Enryaku-ji manastırını yakıp yıktı",
   "eksik_nokta": {
    "ad": "Enryaku-ji (Hiei Dağı)",
@@ -40,7 +40,7 @@ window.YER_YAMA_JAPONYA = [
  },
  {
   "dosya": "kronoloji_japonya.js",
-  "t": "1575-06-28",
+  "t": "1575-06-29",
   "b": "Nagashino Savaşı: Nobunaga'nın tüfekli piyadesi Takeda süvarisini ezdi",
   "eksik_nokta": {
    "ad": "Nagaşino",
@@ -80,7 +80,7 @@ window.YER_YAMA_JAPONYA = [
  },
  {
   "dosya": "kronoloji_japonya.js",
-  "t": "1637-12-17",
+  "t": "1637-12-11",
   "b": "Shimabara İsyanı patlak verdi",
   "eksik_nokta": {
    "ad": "Şimabara",
@@ -128,7 +128,7 @@ window.YER_YAMA_JAPONYA = [
  },
  {
   "dosya": "kronoloji_japonya.js",
-  "t": "1872-10-04",
+  "t": "1872-11-04",
   "b": "Tomioka İpek Fabrikası açıldı",
   "eksik_nokta": {
    "ad": "Tomioka",
@@ -252,7 +252,7 @@ window.YER_YAMA_JAPONYA = [
  },
  {
   "dosya": "kronoloji_japonya.js",
-  "t": "1919-01-18",
+  "t": "1919-02-13",
   "b": "Japonya, Paris Barış Konferansı'nda ırksal eşitlik önergesini sundu — reddedildi",
   "yer_id": "Paris",
   "kaynak": "bulunamadı (TDV) — dayanak: Marius B. Jansen, a.g.e. Havuzda kayıtlı (48,86 / 2,35)",

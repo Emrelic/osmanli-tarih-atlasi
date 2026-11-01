@@ -687,7 +687,7 @@ window.KRONOLOJI_COK_ONCE1281_ANADOLU = [
   alinti:"İznik’e döndü ve 485 yılı sonlarında (1092 sonu 1093 başları) şehri Ebü’l-Kāsım’ın kardeşi Ebü’l-Gāzî’den teslim aldı.",
   ic_not:"Yıl sınırda: 1092 sonu/1093 başı. 1092-01-01 kaba uç; olay yılın SONUNDADIR." },
 
-{ t:"1097-06-30",
+{ t:"1097-07-01",
   tur:"savas",
   b:"Selçuklu-Dânişmendli ordusu Eskişehir ovasında I. Haçlı ordusuna yenildi",
   gun:"30 Haziran 1097",

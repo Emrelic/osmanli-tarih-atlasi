@@ -540,7 +540,7 @@ window.KRONOLOJI_IRAN_ARDILLARI = [
   d:"Hasan-ı Kûçek, Ebû Said'in kız kardeşi ve Emîr Çoban'ın dul eşi Sâtî Beg Hatun'u 739 (1339) yılında ilhan ilân etti. İlhanlı tahtına oturan tek kadındır ve adına sikke kesilmiştir. Saltanatı bir yıl sürdü; ertesi yıl yerine yine Çobanlı adayı Süleyman geçirildi.", ic_not_d:"⚠️ TARİH HAKKINDA: kaynak hicrî 739 yılını veriyor, gün vermiyor.",
   kaynak:"ilhanlilar" },
 
-{ t:"1340-01-01", b:"CELÂYİRLİ DEVLETİ'NİN KURULUŞU — Hasan-ı Büzürg Bağdat'ta", gun:"1340", ic_not_gun:"1340 — yıl hassasiyeti · TDV `celayirliler`, `ilhanlilar`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"kurulus",
+{ t:"1340-01-01", b:"Celâyirli Devleti'nin kuruluşu — Hasan-ı Büzürg Bağdat'ta", gun:"1340", ic_not_gun:"1340 — yıl hassasiyeti · TDV `celayirliler`, `ilhanlilar`, `muzafferiler`, `serbedariler` … gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"kurulus",
   onem:5, dunya:3, kapsam:"ic", etiket:["kurulus","siyaset","hanedan","konu-siyasi","konu-hanedan"],
   yer_id:"Bağdat",
   d:"Hasan-ı Büzürg 1340'ta Bağdat'ta, büyük dedesi İlkân Noyan'a nisbetle İlkânlılar, kabilesine nisbetle Celâyirliler adıyla anılan bağımsız bir devlet kurdu. Devletin idarî teşkilâtı doğrudan İlhanlı modelinden alınmıştır: dîvân-ı saltanat, dîvân-ı vezâret, dîvân-ı istîfâ, dîvân-ı işrâf, dîvân-ı uluğ bitikçi, dîvân-ı nazar, dîvân-ı kazâ ve dîvân-ı inşâ. Bağdat, Moğol istilâsından beri içinde bulunduğu siyasî ve iktisadî çöküntüden bu devlet sayesinde çıkmıştır.",

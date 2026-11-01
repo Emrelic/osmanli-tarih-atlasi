@@ -64,7 +64,7 @@ window.OLAYLAR_ILIRYA0072 = [
   yer:"Krk (Veglia), Cres (Cherso), Rab (Arbe), Herseknovi (Herceg Novi), Kotor (Cattaro), Boka Kotorska, Kvarner",
   kisiler:"Napolyon Bonapart, Dmitri Senyavin",
   etiket:["siyaset","toprak-kayip","konu-siyasi"],
-  d:"Pojun Antlaşması'ndan sonra Kvarner adaları — Dalmaçya'dan FARKLI olarak — doğrudan Fransa'ya değil Napolyon'un İtalya Krallığı'na bağlandı; İlirya Eyaletleri'ne ancak 1809'da girdiler. Boka Kotorska'da ise Avusturya idaresi sona erdi ve 1806-1807 arasında Rus idaresi kuruldu; Boka Fransa'ya ancak 1807'de geçti. Bu iki ayrım atlasın tek bir 'Fransa' penceresiyle karşılanamaz.",
+  d:"Pojun Antlaşması'ndan sonra Kvarner adaları — Dalmaçya'dan farklı olarak — doğrudan Fransa'ya değil Napolyon'un İtalya Krallığı'na bağlandı; İlirya Eyaletleri'ne ancak 1809'da girdiler. Boka Kotorska'da ise Avusturya idaresi sona erdi ve 1806-1807 arasında Rus idaresi kuruldu; Boka Fransa'ya ancak 1807'de geçti. Bu iki ayrım atlasın tek bir 'Fransa' penceresiyle karşılanamaz.",
   kaynak:"LZMK `krk-otok` — AYNEN: \"Požunskim mirom 1806. ušao u sastav Napoleonove Kraljevine Italije, a 1809. u sastav Ilirskih pokrajina.\" · LZMK `boka-kotorska` — AYNEN: \"prva austrijska 1797-1806; ruska 1806-07. i francuska 1807-13\" · hassasiyet: YIL",
   ic_not_d:"⚠️ ÇELİŞKİ BEYANI: Cres kendi maddesinde \"francuska (1805-14) uprava\", Rab kendi maddesinde \"1805. bio priključen Napoleonovim Ilirskim pokrajinama\" diyor. Rab'ınki ANAKRONİK — aynı yayıncının `ilirske-pokrajine` maddesi eyaletleri 1809'da kurar. Üç adadan YALNIZ Krk'ın anlatısı kendi içinde ve `ilirske-pokrajine` ile tutarlı; bu yüzden bölgesel model Krk'tan alındı ve fark burada YAZILDI." },
 
@@ -86,7 +86,7 @@ window.OLAYLAR_ILIRYA0072 = [
   yer:"Hâil, Cebelişemmer",
   kisiler:"İbn Ali ailesi (Abde aşireti), Abdullah b. Reşîd",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
-  d:"Birinci Suûdî Devleti'nin güçleri Hâil emirliğini ele geçirdiğinde şehrin yönetimi Şemmer kabilesinin Abde aşiretinden İbn Ali ailesindeydi. Bu aile Hâil'i 1835'te Abdullah b. Reşîd'in emirliği ele geçirmesine kadar yönetti; Reşîdîler hanedanı ancak o tarihte kuruldu. Atlasta Hâil bugüne kadar 1836'ya kadar SAHİPSİZ görünüyordu, oysa kaynak 1820'de şehrin emîrini adıyla veriyor.",
+  d:"Birinci Suûdî Devleti'nin güçleri Hâil emirliğini ele geçirdiğinde şehrin yönetimi Şemmer kabilesinin Abde aşiretinden İbn Ali ailesindeydi. Bu aile Hâil'i 1835'te Abdullah b. Reşîd'in emirliği ele geçirmesine kadar yönetti; Reşîdîler hanedanı ancak o tarihte kuruldu. Atlasta Hâil bugüne kadar 1836'ya kadar sahipsiz görünüyordu, oysa kaynak 1820'de şehrin emîrini adıyla veriyor.",
   kaynak:"TDV `residiler` — AYNEN: \"1779'da Suûdî-Vehhâbî güçleri Hâil emirliğini ele geçirdikleri sırada yönetim Abde aşiretinden İbn Ali ailesindeydi.\" ve \"1835'te Abdullah b. Reşîd'in Hâil emirliğini ele geçirmesiyle sonuçlandı.\" · TDV `ibnur-resid` — AYNEN: \"Muhammed b. Abdülmuhsin öldürüldü; yerine kardeşi Sâlih geçti (1820).\" · hassasiyet: YIL",
   ic_not_d:"⚠️ 1779 bir KURULUŞ günü DEĞİLDİR: kaynak 1779'da yönetimin ZATEN İbn Ali ailesinde olduğunu söyler — terminus ante quem. Emirliğin kuruluş yılı BULUNAMADI (D210). ⚠️ ÇELİŞKİ BEYANI: Abdullah b. Reşîd'in Hâil'i alışı `residiler`de 1835, `ibnur-resid`de 1251/1835-36." }
 

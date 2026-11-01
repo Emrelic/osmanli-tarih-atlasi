@@ -151,7 +151,7 @@ window.KRONOLOJI_LEHISTAN = [
 
 
 
-{ t:"1569-07-01", b:"LUBLIN BİRLİĞİ — Rzeczpospolita kuruldu", tur:"birlesme",
+{ t:"1569-07-01", b:"Lublın birliği — Rzeczpospolita kuruldu", tur:"birlesme",
   onem:5, dunya:4, kapsam:"ic", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Polonya Krallığı ile Litvanya Büyük Düklüğü tek bir devlet, tek meclis ve ortak seçilmiş kral altında birleşti; Ukrayna toprakları Litvanya'dan Polonya tacına aktarıldı. Polonya anlatısında Lublin, Avrupa'nın en büyük ve en özgün siyasî yapılarından birinin — İki Ulusun Cumhuriyeti'nin — kuruluş belgesidir ve gönüllü birlik olması özellikle vurgulanır.",
@@ -248,7 +248,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Boğdan'a giren Polonya ordusu Osmanlı ve Tatar kuvvetleri karşısında dağıldı; çekilme sırasında yaşlı hatman Stanisław Żółkiewski öldürüldü ve başı İstanbul'a gönderildi. Bozgun, ertesi yıl Osmanlı'nın büyük seferini davet etti.",
   kaynak:"el-kitabi", yer_kon:[47.133,27.783] },
 
-{ t:"1621-10-09", b:"HOTİN — Osmanlı seferi durduruldu ve antlaşma imzalandı", tur:"savas",
+{ t:"1621-10-09", b:"Hotin — Osmanlı seferi durduruldu ve antlaşma imzalandı", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"Hotin",
   d:"Chodkiewicz kumandasındaki Leh-Litvanya ordusu, Sahaydaçnıy'ın Ukrayna Kazakları'nın yardımıyla II. Osman'ın ordusunu Hotin önünde bir aydan uzun süre durdurdu; 9 Ekim'de imzalanan antlaşmayla Dinyester nehri sınır sayıldı ve Hotin Boğdan voyvodalarının idaresine bırakıldı. Polonya hafızasında Hotin, Hristiyanlığı savunan \"Avrupa'nın kalkanı\" (antemurale christianitatis) anlatısının en güçlü dayanaklarından biridir.",
@@ -278,7 +278,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Kardeşinin ölümü üzerine tahta geçen kral, saltanatı boyunca ayaklanma, işgal ve iç savaşla uğraşacaktı. Dönemi Polonya anlatısında \"tufan\" adıyla anılır.",
   kaynak:"el-kitabi" },
 
-{ t:"1652-03-09", b:"İLK LIBERUM VETO — bir soylu tek başına sejmi dağıttı", tur:"siyaset",
+{ t:"1652-03-09", b:"İlk Liberum veto — bir soylu tek başına sejmi dağıttı", tur:"siyaset",
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi"],
   yer_id:"Varşova",
   d:"Milletvekili Władysław Siciński'nin tek itirazıyla meclis çalışmalarını tamamlayamadan dağıldı ve bu ilk kez bir yasama dönemini bütünüyle geçersiz kıldı. Polonya tarihyazımında liberum veto, soylu hürriyetinin devleti felç eden hâle dönüştüğü noktadır: sonraki yüzyılda sejmlerin çoğu bu yolla dağıtıldı ve devlet karar alamaz oldu.",
@@ -290,7 +290,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Hmelnitski ve Kazak meclisi Moskova çarına bağlılık yemini etti. Polonya için bu, Ukrayna'nın kaybının ve Rusya'nın Avrupa siyasetine kalıcı biçimde girişinin başlangıcıdır; sonraki üç yüzyılın kuzeydoğu meselesi buradan doğar.",
   kaynak:"ukrayna", yer_kon:[50.0667,31.45] },
 
-{ t:"1655-07-21", b:"POTOP — İsveç Tufanı başladı", gun:"21 Temmuz 1655", ic_not_gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil)", tur:"isgal",
+{ t:"1655-07-21", b:"Potop — İsveç Tufanı başladı", gun:"21 Temmuz 1655", ic_not_gun:"21 Temmuz 1655 — İsveç ordusunun sınırı geçişi (MHP) · eski t 1655-07-25 kaynaksızdı (Ujście kapitülasyonunun günü olabilir; bu turda onu yalnız Vikipedi veriyor, dayanak değil)", tur:"isgal",
   onem:5, dunya:3, kapsam:"dis", etiket:["savas","toprak-kayip","konu-askeri"],
   yer_id:"", kapsam_genis:true,
   d:"İsveç orduları kuzeyden girdi, Ujście'de Büyük Polonya soyluları teslim oldu ve birkaç ay içinde Varşova ile Krakov dâhil ülkenin neredeyse tamamı işgal edildi. \"Tufan\" (Potop) adı Polonya hafızasında bir felaketin değil, bir milletin yok olma eşiğinden dönüşünün adıdır; Sienkiewicz'in romanıyla ulusal anlatının merkezine yerleşmiştir.",
@@ -326,7 +326,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Tahtı bırakırken cumhuriyetin komşuları tarafından paylaşılacağını söylediği konuşma, Polonya hafızasında bir kehanet olarak anılır. Yüz yıl sonra taksimler bu sözü doğrulayacaktı.",
   kaynak:"el-kitabi" },
 
-{ t:"1672-08-27", b:"KAMANİÇE DÜŞTÜ — Podolya Osmanlı'ya geçti", tur:"toprak-kayip",
+{ t:"1672-08-27", b:"Kamaniçe düştü — Podolya Osmanlı'ya geçti", tur:"toprak-kayip",
   onem:5, dunya:3, kapsam:"dis", etiket:["toprak-kayip","savas","konu-askeri"],
   yer_id:"Kamaniçe",
   d:"Dokuz günlük kuşatmanın ardından Avrupa'nın en güçlü kalelerinden sayılan Kamaniçe Osmanlılara teslim oldu (3 Cemâziyelevvel 1083). Polonya anlatısında bu, Hristiyan Avrupa'nın kalkanı olma iddiasının en ağır yarası ve cumhuriyetin savunamaz hâle geldiğinin kanıtıdır.",
@@ -343,7 +343,7 @@ window.KRONOLOJI_LEHISTAN = [
 
 // onem:4 — büyük bir zafer ama sınırları değiştirmedi; Polonya anlatısında
 // dönüm noktası olan 1683 Viyana'dır. Aynı sınanabilirlik gerekçesi.
-{ t:"1673-11-11", b:"HOTİN ZAFERİ — Sobieski Osmanlı ordusunu bozguna uğrattı", tur:"savas",
+{ t:"1673-11-11", b:"Hotin zaferi — Sobieski Osmanlı ordusunu bozguna uğrattı", tur:"savas",
   onem:4, dunya:2, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Hotin",
   d:"Hatman Jan Sobieski kumandasındaki kuvvetler Hotin önlerinde Osmanlı ordusunu yendi. Zafer Bucaş'ın utancını silen an olarak karşılandı ve Sobieski'yi altı ay sonra tahta taşıyan siyasî sermaye oldu.",
@@ -367,7 +367,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Osmanlı seferinin hazırlandığı duyulunca Sobieski, İmparator I. Leopold ile karşılıklı yardım antlaşması yaptı. Bu belge altı ay sonra Viyana'ya yürüyüşün hukukî dayanağı oldu.",
   kaynak:"el-kitabi" },
 
-{ t:"1683-09-12", b:"VİYANA — Sobieski'nin Kahlenberg hücumu kuşatmayı kırdı", tur:"savas",
+{ t:"1683-09-12", b:"Viyana — Sobieski'nin Kahlenberg hücumu kuşatmayı kırdı", tur:"savas",
   onem:5, dunya:5, kapsam:"dis", etiket:["savas","konu-askeri"],
   yer_id:"Viyana",
   d:"Kahlenberg tepelerinden inen birleşik ordunun başında Sobieski, tarihin en büyük süvari hücumlarından birini yönetti ve iki aydır süren kuşatma bir günde dağıldı. Polonya ulusal anlatısında Viyana, \"Avrupa'nın kalkanı\" iddiasının doruğudur ve kralın imparatora yazdığı \"geldik, gördük, Tanrı fethetti\" sözü hafızaya kazınmıştır. Aynı gün Osmanlı tarihyazımında bir felaket olarak anılır — bu fark tesadüf değil, iki milletin kendi anlatısıdır.",
@@ -385,7 +385,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Son yerli ve muzaffer kralın ölümüyle taht yeniden açık artırmaya çıktı. Bundan sonraki seçimler komşu devletlerin parasıyla ve ordusuyla belirlenecekti.",
   kaynak:"el-kitabi" },
 
-{ t:"1699-01-26", b:"KARLOFÇA — Podolya, Kamaniçe ve Sağ Yaka Ukrayna geri alındı", tur:"antlasma",
+{ t:"1699-01-26", b:"Karlofça — Podolya, Kamaniçe ve Sağ Yaka Ukrayna geri alındı", tur:"antlasma",
   onem:5, dunya:4, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"],
   yer_id:"",
   d:"On bir maddelik antlaşmayla Osmanlı Devleti Podolya'yı boşalttı, Kamaniçe Kalesi'ni tahliye edip yıktırdı ve Ukrayna'daki Kazak hatmanlığını lağvetti (Braslav, Vinnitsa ve Uman'ın bulunduğu Sağ Yaka Ukrayna böylece Lehistan'a kaldı); karşılığında Boğdan'daki Suçeva, Roman, Nemçe, Soroka ve Kampulek kaleleri Osmanlı'ya döndü (24 Receb 1110). Polonya için Karlofça, 1672'de kaybedilenin geri alınmasıdır — ama zaferi kazanan artık cumhuriyet değil, ittifakın büyük ortaklarıydı.",
@@ -416,7 +416,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"İsveç'in yenilgisiyle II. August tahta döndü ama bu dönüşü Rus ordusuna borçluydu. Polonya tarihyazımı Rusya'nın fiilî vesayetini bu tarihten başlatır.",
   kaynak:"el-kitabi" },
 
-{ t:"1717-02-01", b:"SESSİZ SEJM — Rus vesayetinin başlangıcı", tur:"siyaset",
+{ t:"1717-02-01", b:"Sessiz Sejm — Rus vesayetinin başlangıcı", tur:"siyaset",
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","konu-siyasi"],
   yer_id:"Varşova",
   d:"Rus askerlerinin kuşattığı salonda milletvekillerinin söz alması engellendi ve kararlar tartışmasız kabul edildi; ordu yirmi dört bin kişiyle sınırlandırıldı. Polonya anlatısında \"sessiz sejm\", cumhuriyetin egemenliğini fiilen yitirdiği gündür: bir yabancı devlet artık Polonya'nın ordusunun büyüklüğünü belirliyordu.",
@@ -452,7 +452,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Bar konfederasyonlarını takip eden Rus kuvvetlerinin sınırı geçmesi savaş sebeplerinden biri oldu. Osmanlı, Polonya'nın bağımsızlığını Rus yayılmasına karşı bir tampon olarak görüyordu.",
   kaynak:"polonya" },
 
-{ t:"1772-08-05", b:"BİRİNCİ TAKSİM — Rusya, Prusya ve Avusturya toprak aldı", tur:"toprak-kayip",
+{ t:"1772-08-05", b:"Birinci taksim — Rusya, Prusya ve Avusturya toprak aldı", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Üç komşu devlet, cumhuriyetin yaklaşık üçte birini ve nüfusunun üçte birini aralarında paylaştı; sejm baskı altında paylaşımı onaylamak zorunda kaldı. Polonya anlatısında birinci taksim, hem bir felaket hem de reform hareketini doğuran sarsıntıdır: kaybın ardından ülke kendini kurtarmak için köklü değişime girişti.",
@@ -470,7 +470,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Rusya'nın Osmanlı savaşıyla meşgul olmasından yararlanan meclis, dört yıl boyunca kesintisiz toplanarak devleti yeniden kurmaya girişti. Ordu yüz bine çıkarıldı, şehirlilere haklar verildi.",
   kaynak:"el-kitabi" },
 
-{ t:"1791-05-03", b:"3 MAYIS ANAYASASI — Avrupa'nın ilk yazılı anayasası", tur:"siyaset",
+{ t:"1791-05-03", b:"3 Mayıs anayasası — Avrupa'nın ilk yazılı anayasası", tur:"siyaset",
   onem:5, dunya:4, kapsam:"ic", etiket:["siyaset","islahat","konu-siyasi","konu-islahat"],
   yer_id:"Varşova",
   d:"Liberum veto kaldırıldı, taht irsî hâle getirildi, şehirliler ve köylüler devletin koruması altına alındı. Polonya ulusal anlatısında 3 Mayıs, ülkenin kendi kendini kurtarma iradesinin en yüksek ifadesidir; Avrupa'nın ilk, dünyanın ise Amerika'dan sonraki ikinci yazılı anayasası sayılır ve bugün millî bayramdır.",
@@ -482,13 +482,13 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Anayasaya karşı çıkan büyük toprak sahipleri Rus desteğiyle konfederasyon ilan etti ve Rus ordusu ülkeye girdi. \"Targowica\" kelimesi Polonya dilinde ihanetin eş anlamlısı hâline geldi.",
   kaynak:"el-kitabi", yer_kon:[48.35,30.53] },
 
-{ t:"1793-01-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1793-01-12 (II. Paylaşım; Jülyen günü ÇEVİRİYLE: Gregoryen − 11, Jülyen gün veren birincil kaynak okunamadı) = Gregoryen 1793-01-23", b:"İKİNCİ TAKSİM — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
+{ t:"1793-01-23", ic_not_takvim:"TAKVİM-1015 (Emre #10: atlas günleri Gregoryen; gün DEĞİŞMEDİ, iptal edilen 1e8b2db53'ün hedefiydi): Jülyen 1793-01-12 (II. Paylaşım; Jülyen günü ÇEVİRİYLE: Gregoryen − 11, Jülyen gün veren birincil kaynak okunamadı) = Gregoryen 1793-01-23", b:"İkinci taksim — Rusya ve Prusya yeniden böldü", tur:"toprak-kayip",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"3 Mayıs Anayasası iptal edildi ve ülkenin büyük bölümü Rusya ile Prusya arasında paylaşıldı; geriye küçük ve savunmasız bir kalıntı kaldı. Grodno'da toplanan sejm paylaşımı süngü altında onayladı.",
   kaynak:"el-kitabi", yer_kon:[53.6778,23.8306] },
 
-{ t:"1794-03-24", b:"KOŚCIUSZKO AYAKLANMASI — Krakov'da ant içildi", tur:"isyan",
+{ t:"1794-03-24", b:"KOŚCIUSZKO ayaklanması — Krakov'da ant içildi", tur:"isyan",
   onem:5, dunya:3, kapsam:"ic", etiket:["isyan","savas","konu-askeri","konu-isyan"],
   yer_id:"Krakov",
   d:"Amerikan Bağımsızlık Savaşı'nın generali Tadeusz Kościuszko, Krakov meydanında millete ant içerek ayaklanmayı başlattı ve ilk kez köylüleri de silah altına çağırdı. Polonya anlatısında bu ayaklanma, devletin son savunması ve modern ulusal hareketin doğduğu andır.",
@@ -506,7 +506,7 @@ window.KRONOLOJI_LEHISTAN = [
   d:"Suvorov'un kuvvetleri Varşova'nın Vistül'ün sağ yakasındaki mahallesini ele geçirirken binlerce sivil öldürüldü; şehir iki gün sonra teslim oldu. Ayaklanma bastırıldı ve devletin son direnci kırıldı.",
   kaynak:"el-kitabi" },
 
-{ t:"1795-10-24", b:"ÜÇÜNCÜ TAKSİM — Polonya devleti haritadan silindi", tur:"son",
+{ t:"1795-10-24", b:"Üçüncü taksim — Polonya devleti haritadan silindi", tur:"son",
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-siyasi","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Rusya, Prusya ve Avusturya geriye kalan toprakları da paylaştı ve Polonya-Litvanya Cumhuriyeti sona erdi; kral 25 Kasım'da tahttan çekildi. Devlet 123 yıl boyunca haritada yer almayacaktı. Polonya ulusal anlatısının en belirleyici tarihi budur: bundan sonraki her şey — ayaklanmalar, göç, edebiyat — bu kaybın etrafında kurulur. Osmanlı Devleti taksimi resmen tanımadı.",

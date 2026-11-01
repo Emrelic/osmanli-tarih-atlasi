@@ -73,17 +73,17 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { odak_yer:["Akkâ"], t:"1291-05-18", b:"Akkâ'nın düşüşü — tarikatın Kutsal Topraklar'dan çıkışı", tur:"toprak-kayip", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","toprak-kayip","konu-askeri","konu-din"],
-  d:"Memlük kuşatmasıyla Akkâ düştü ve Hospitalier tarikatı Filistin'deki son üssünü kaybederek Kıbrıs'a çekildi. Bu, tarikatın kara ordusu olmaktan çıkıp bir DENİZ gücüne dönüşmesinin başlangıcıdır. Rodos'un sonradan seçilmesinin sebebi de budur: bir ada, sürgün edilemeyecek bir devlet demekti.",
+  d:"Memlük kuşatmasıyla Akkâ düştü ve Hospitalier tarikatı Filistin'deki son üssünü kaybederek Kıbrıs'a çekildi. Bu, tarikatın kara ordusu olmaktan çıkıp bir deniz gücüne dönüşmesinin başlangıcıdır. Rodos'un sonradan seçilmesinin sebebi de budur: bir ada, sürgün edilemeyecek bir devlet demekti.",
   kaynak:"Jonathan Riley-Smith, The Knights Hospitaller in the Levant c.1070-1309 (Palgrave, 2012) · Dikkat: `dunya:3` — venedik dosyasındaki değerle hizalandı; memluk dosyası 5 diyor, AYRIŞMA BENİM DEĞİL, kayda geçirdim" },
 
 { t:"1306-06-27", b:"Foulques de Villaret'nin Rodos'a çıkarması", tur:"sefer", onem:5, dunya:2, kapsam:"dis", yer_id:"Rodos",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
-  d:"Büyük Üstat Foulques de Villaret, Cenevizli korsan Vignolo de' Vignoli ile anlaşarak Rodos'a çıktı. Ada Bizans'ındı ve şehir dışındaki bölgeler hızla ele geçirildi, ama Rodos şehri dört yıl direndi. Tarikatın Kıbrıs'ta Lüzinyan kralına tâbi bir konuk olmaktan kurtulup KENDİ devletini kurma teşebbüsüdür.",
+  d:"Büyük Üstat Foulques de Villaret, Cenevizli korsan Vignolo de' Vignoli ile anlaşarak Rodos'a çıktı. Ada Bizans'ındı ve şehir dışındaki bölgeler hızla ele geçirildi, ama Rodos şehri dört yıl direndi. Tarikatın Kıbrıs'ta Lüzinyan kralına tâbi bir konuk olmaktan kurtulup kendi devletini kurma teşebbüsüdür.",
   kaynak:"Anthony Luttrell, 'Notes on Foulques de Villaret, Master of the Hospital 1305-1319', The Hospitallers of Rhodes and their Mediterranean World (Variorum, 1992)" },
 
 { t:"1310-08-15", b:"Rodos şehrinin düşüşü — Şövalye Devleti'nin kuruluşu", tur:"kurulus", onem:5, dunya:3, kapsam:"dis", yer_id:"Rodos",
   etiket:["toprak-kazanc","askeri","konu-askeri","konu-siyasi"],
-  d:"Dört yıllık direnişten sonra Rodos şehri teslim oldu ve tarikat merkezini adaya taşıdı. Bundan sonra Hospitalier tarikatı yalnız bir dinî-askerî düzen değil, kendi parasını basan, elçi kabul eden EGEMEN BİR DEVLETTİR. Bu hâl 1798'e kadar 488 yıl sürecektir.",
+  d:"Dört yıllık direnişten sonra Rodos şehri teslim oldu ve tarikat merkezini adaya taşıdı. Bundan sonra Hospitalier tarikatı yalnız bir dinî-askerî düzen değil, kendi parasını basan, elçi kabul eden egemen bir devlettir. Bu hâl 1798'e kadar 488 yıl sürecektir.",
   kaynak:"Anthony Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 (Variorum, 1999) · TDV 'rodos' md.: \"Saint Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçişine kadar\" · 🟢 `dunya:3` — külliyatta bu gün YOK, değeri BEN kuruyorum" },
 
 { odak_yer:["Rodos"], t:"1312-05-03", b:"Tapınak Şövalyeleri'nin mallarının tarikata devri", tur:"ekonomi", onem:5, dunya:3, kapsam:"dis", yer_id:"",
@@ -93,7 +93,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1319-07-01", b:"Foulques de Villaret'ye karşı ayaklanma ve azli", tur:"isyan", onem:4, dunya:1, kapsam:"ic", yer_id:"Rodos",
   etiket:["isyan","siyaset","konu-siyasi","konu-isyan"],
-  d:"Şövalyeler, Villaret'yi savurganlık ve tek adamlıkla suçlayarak ayaklandı; üstat Lindos kalesine sığındı ve papalık müdahalesiyle azledildi. Yerine Hélion de Villeneuve seçildi. Vaka, tarikatın büyük üstadı sınırsız bir hükümdar SAYMADIĞINI gösterir — konvent (genel meclis) gerçek bir denge unsurudur.",
+  d:"Şövalyeler, Villaret'yi savurganlık ve tek adamlıkla suçlayarak ayaklandı; üstat Lindos kalesine sığındı ve papalık müdahalesiyle azledildi. Yerine Hélion de Villeneuve seçildi. Vaka, tarikatın büyük üstadı sınırsız bir hükümdar saymadığını gösterir — konvent (genel meclis) gerçek bir denge unsurudur.",
   kaynak:"Luttrell, 'Notes on Foulques de Villaret' (Variorum, 1992)" },
 
 { t:"1344-10-28", b:"İzmir Limanı Kalesi'nin Haçlı birliğince alınması", tur:"toprak-kazanc", onem:4, dunya:2, kapsam:"dis", yer_id:"İzmir",
@@ -118,17 +118,17 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1377-01-01", b:"Juan Fernández de Heredia'nın büyük üstat seçilmesi", tur:"hukumdar", onem:4, dunya:1, kapsam:"ic", yer_id:"Rodos",
   etiket:["siyaset","kultur","konu-siyasi","konu-hanedan","konu-kultur"],
-  d:"Aragonlu Heredia büyük üstat seçildi ve tarikatı yirmi yıl yönetti. Askerî bir lider olduğu kadar, Rodos'u dönemin en dikkate değer TERCÜME merkezlerinden birine çevirmesiyle anılır. Yunanca eserlerin Aragon diline aktarılmasını bizzat finanse etti.",
+  d:"Aragonlu Heredia büyük üstat seçildi ve tarikatı yirmi yıl yönetti. Askerî bir lider olduğu kadar, Rodos'u dönemin en dikkate değer tercüme merkezlerinden birine çevirmesiyle anılır. Yunanca eserlerin Aragon diline aktarılmasını bizzat finanse etti.",
   kaynak:"Luttrell, 'Juan Fernández de Heredia, Castellan of Amposta', The Hospitallers in Cyprus, Rhodes, Greece and the West (Variorum, 1978) · gün bilinmiyor" },
 
 { t:"1384-01-01", b:"Plutarkhos'un Rodos'ta Aragon diline çevrilmesi", tur:"kultur", onem:3, dunya:2, kapsam:"ic", yer_id:"Rodos",
   etiket:["kultur","bilim","konu-bilim","konu-kultur"],
-  d:"Büyük Üstat Heredia'nın himayesinde Plutarkhos'un Paralel Hayatlar'ı ve Thukydides'in bölümleri Rodos'ta Yunancadan Aragon diline çevrildi. Bunlar, bu eserlerin bir Batı halk diline yapılan İLK çevirileri arasındadır ve İtalyan hümanizmine kaynaklık etti. Şövalye devletinin yalnız bir kale değil, Doğu-Batı arasında bir bilgi geçidi olduğunu gösteren en açık delildir.",
+  d:"Büyük Üstat Heredia'nın himayesinde Plutarkhos'un Paralel Hayatlar'ı ve Thukydides'in bölümleri Rodos'ta Yunancadan Aragon diline çevrildi. Bunlar, bu eserlerin bir Batı halk diline yapılan ilk çevirileri arasındadır ve İtalyan hümanizmine kaynaklık etti. Şövalye devletinin yalnız bir kale değil, Doğu-Batı arasında bir bilgi geçidi olduğunu gösteren en açık delildir.",
   kaynak:"Luttrell, 'Greek Histories translated and compiled for Juan Fernández de Heredia', Speculum 35 (1960) · yıl kesin, gün bilinmiyor" },
 
 { odak_yer:["Niğbolu"], t:"1396-09-25", b:"Niğbolu Savaşı'na katılım ve büyük üstadın esaretten kurtuluşu", tur:"savas", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","ittifak","konu-askeri","konu-diplomasi"],
-  d:"Büyük Üstat Philibert de Naillac, Haçlı ordusuyla Niğbolu'ya katıldı; bozgundan sonra Tuna'dan gemiyle kaçarak kurtuldu. Naillac, esir düşen Haçlı soylularının fidyesinin toplanmasında aracılık etti. Yenilgi, tarikatı Balkan seferlerinden uzaklaştırıp DENİZ savunmasına yoğunlaştırdı.",
+  d:"Büyük Üstat Philibert de Naillac, Haçlı ordusuyla Niğbolu'ya katıldı; bozgundan sonra Tuna'dan gemiyle kaçarak kurtuldu. Naillac, esir düşen Haçlı soylularının fidyesinin toplanmasında aracılık etti. Yenilgi, tarikatı Balkan seferlerinden uzaklaştırıp deniz savunmasına yoğunlaştırdı.",
   kaynak:"Setton, The Papacy and the Levant, c. I · TDV 'nigbolu-savasi' md. · `dunya:3` — macaristan dosyasıyla hizalandı" },
 
 { t:"1402-12-15", b:"Timur'un İzmir Kalesi'ni alması — Anadolu köprübaşının kaybı", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"İzmir",
@@ -168,7 +168,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1461-01-01", b:"Pere Ramon Zacosta'nın seçilmesi ve 'langue'ların yeniden düzenlenmesi", tur:"idari", onem:3, dunya:1, kapsam:"ic", yer_id:"Rodos",
   etiket:["idari","reform","konu-idari","konu-islahat"],
-  d:"Zacosta döneminde tarikatın milletlere göre bölünmüş yapısı (langue) yeniden düzenlendi ve Kastilya ayrı bir langue olarak tanındı; böylece sayı sekize çıktı. Her langue surların belirli bir kesimini savunmakla yükümlüydü, yani idarî bölünme doğrudan bir SAVUNMA planıydı. Bu yapı 1798'e kadar tarikatın anayasası gibi işledi.",
+  d:"Zacosta döneminde tarikatın milletlere göre bölünmüş yapısı (langue) yeniden düzenlendi ve Kastilya ayrı bir langue olarak tanındı; böylece sayı sekize çıktı. Her langue surların belirli bir kesimini savunmakla yükümlüydü, yani idarî bölünme doğrudan bir savunma planıydı. Bu yapı 1798'e kadar tarikatın anayasası gibi işledi.",
   kaynak:"Luttrell, The Hospitaller State on Rhodes 1306-1462 · Nicholson, The Knights Hospitaller · gün bilinmiyor" },
 
 { t:"1476-06-17", b:"Pierre d'Aubusson'un büyük üstat seçilmesi", tur:"hukumdar", onem:5, dunya:1, kapsam:"ic", yer_id:"Rodos",
@@ -193,7 +193,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1481-01-01", b:"Caoursin'in kuşatma anlatısının Avrupa'da basılması", tur:"kultur", onem:3, dunya:2, kapsam:"dis", yer_id:"Rodos",
   etiket:["kultur","teknoloji","konu-bilim","konu-kultur"],
-  d:"Tarikatın vice-chancellor'ı Guillaume Caoursin'in Obsidionis Rhodiae urbis descriptio adlı eseri Venedik ve Ulm'da basıldı ve kısa sürede birçok dile çevrildi. Bu, bir askerî olayın MATBAA aracılığıyla Avrupa kamuoyuna ulaştırıldığı ilk örneklerdendir. Şövalyeler böylece bir savaşı kazandıktan sonra onun anlatısını da kazanmayı öğrendiler.",
+  d:"Tarikatın vice-chancellor'ı Guillaume Caoursin'in Obsidionis Rhodiae urbis descriptio adlı eseri Venedik ve Ulm'da basıldı ve kısa sürede birçok dile çevrildi. Bu, bir askerî olayın matbaa aracılığıyla Avrupa kamuoyuna ulaştırıldığı ilk örneklerdendir. Şövalyeler böylece bir savaşı kazandıktan sonra onun anlatısını da kazanmayı öğrendiler.",
   kaynak:"Setton, The Papacy and the Levant, c. II · Vatin (1994) · basım yılı 1480-1481 arası, gün bilinmiyor" },
 
 { t:"1482-07-29", b:"Cem Sultan'ın Rodos'a sığınması", tur:"diplomasi", onem:5, dunya:3, kapsam:"dis", yer_id:"Rodos",
@@ -357,7 +357,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1608-01-01", b:"Caravaggio'nun 'Vaftizci Yahya'nın Başının Kesilmesi' tablosunu tamamlaması", tur:"kultur", onem:4, dunya:4, kapsam:"ic", yer_id:"Malta",
   etiket:["kultur","kultur","din","konu-din","konu-kultur"],
-  d:"Ressamın Saint John Katedrali'nin ibadethanesi için yaptığı dev tablo tamamlandı; sanatçının imzasını attığı BİLİNEN TEK eserdir ve imza, azizin kanıyla atılmış gibi resmedilmiştir. Yapıt Batı resminin başyapıtları arasında sayılır ve bugün hâlâ yapıldığı yerde durmaktadır. Caravaggio aynı yıl tarikattan ihraç edilip adadan kaçtı.",
+  d:"Ressamın Saint John Katedrali'nin ibadethanesi için yaptığı dev tablo tamamlandı; sanatçının imzasını attığı bilinen tek eserdir ve imza, azizin kanıyla atılmış gibi resmedilmiştir. Yapıt Batı resminin başyapıtları arasında sayılır ve bugün hâlâ yapıldığı yerde durmaktadır. Caravaggio aynı yıl tarikattan ihraç edilip adadan kaçtı.",
   kaynak:"Keith Sciberras, Caravaggio to Mattia Preti: Baroque Painting in Malta (Midsea, 2015) · gün bilinmiyor" },
 
 { t:"1614-07-06", b:"Son büyük Osmanlı çıkarma teşebbüsünün püskürtülmesi", tur:"savas", onem:3, dunya:1, kapsam:"dis", yer_id:"Malta",
@@ -367,7 +367,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1615-04-21", b:"Wignacourt Su Kemeri'nin tamamlanması", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Malta",
   etiket:["mimari","teknoloji","sosyal","imar","konu-bilim","konu-imar","konu-sosyal"],
-  d:"Büyük Üstat Wignacourt, Mdina yakınlarındaki kaynaklardan Valletta'ya su getiren yaklaşık on altı kilometrelik kemeri kendi parasıyla yaptırdı. Başkentin kuşatma sırasında susuz kalma sorunu böylece çözüldü. Yapı, tarikatın Malta'da yalnız kale değil ALTYAPI da kurduğunun en görünür delilidir.",
+  d:"Büyük Üstat Wignacourt, Mdina yakınlarındaki kaynaklardan Valletta'ya su getiren yaklaşık on altı kilometrelik kemeri kendi parasıyla yaptırdı. Başkentin kuşatma sırasında susuz kalma sorunu böylece çözüldü. Yapı, tarikatın Malta'da yalnız kale değil altyapı da kurduğunun en görünür delilidir.",
   kaynak:"Quentin Hughes, The Building of Malta 1530-1795 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün yaklaşıktır" },
 
 { t:"1634-09-18", b:"Baruthane patlaması — Valletta'da büyük felâket", tur:"felaket", onem:2, dunya:1, kapsam:"ic", yer_id:"Malta",
@@ -397,7 +397,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1676-01-01", b:"Anatomi ve Cerrahi Mektebi'nin kurulması", tur:"bilim", onem:4, dunya:3, kapsam:"ic", yer_id:"Malta",
   etiket:["bilim","sosyal","konu-bilim","konu-egitim","konu-sosyal"],
-  d:"Büyük Üstat Nicolas Cotoner, Sacra Infermeria bünyesinde anatomi ve cerrahi okulunu kurdu; ders programı kadavra üzerinde uygulamalı çalışmayı içeriyordu. Okul, Akdeniz'de cerrahi eğitimin kurumsallaştığı erken merkezlerdendir ve mezunları Avrupa'da iş buldu. Tarikatın askerî kimliğinden çok TIBBÎ kimliğini besleyen bir yatırımdır.",
+  d:"Büyük Üstat Nicolas Cotoner, Sacra Infermeria bünyesinde anatomi ve cerrahi okulunu kurdu; ders programı kadavra üzerinde uygulamalı çalışmayı içeriyordu. Okul, Akdeniz'de cerrahi eğitimin kurumsallaştığı erken merkezlerdendir ve mezunları Avrupa'da iş buldu. Tarikatın askerî kimliğinden çok tıbbî kimliğini besleyen bir yatırımdır.",
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · gün bilinmiyor" },
 
 { t:"1693-01-11", b:"Sicilya depreminin Malta'yı vurması", tur:"felaket", onem:3, dunya:2, kapsam:"ic", yer_id:"Malta",
@@ -407,7 +407,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1722-01-01", b:"Manoel de Vilhena döneminde adanın imarı ve Fort Manoel", tur:"mimari", onem:3, dunya:1, kapsam:"ic", yer_id:"Malta",
   etiket:["mimari","idari","konu-idari","konu-imar"],
-  d:"Portekizli Büyük Üstat Manoel de Vilhena seçildi ve döneminde Marsamxett limanındaki Fort Manoel ile Floriana hattı yapıldı. Aynı üstat 1731'de Manoel Tiyatrosu'nu kurdurarak Avrupa'nın hâlâ çalışan en eski tiyatro binalarından birini bıraktı. 18. yüzyılda tarikat artık savaşan değil, İNŞA EDEN bir devlettir.",
+  d:"Portekizli Büyük Üstat Manoel de Vilhena seçildi ve döneminde Marsamxett limanındaki Fort Manoel ile Floriana hattı yapıldı. Aynı üstat 1731'de Manoel Tiyatrosu'nu kurdurarak Avrupa'nın hâlâ çalışan en eski tiyatro binalarından birini bıraktı. 18. yüzyılda tarikat artık savaşan değil, inşa eden bir devlettir.",
   kaynak:"Quentin Hughes, The Building of Malta 1530-1795 · Mallia-Milanes (ed.), Hospitaller Malta 1530-1798 · gün bilinmiyor" },
 
 { t:"1749-06-06", b:"Esirler Ayaklanması'nın (Congiura dei Schiavi) bastırılması", tur:"isyan", onem:3, dunya:1, kapsam:"ic", yer_id:"Malta",
@@ -443,7 +443,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 //    hatanın aynısı. Bu parti onu düzeltmek için yazıldı.
 { t:"1314-01-01", b:"Rodos'ta tarikat parasının basılmaya başlanması", tur:"ekonomi", onem:4, dunya:2, kapsam:"ic", yer_id:"Rodos",
   etiket:["ekonomi","idari","konu-idari","konu-ekonomi","konu-din"],
-  d:"Tarikat, Rodos'ta kendi sikkesini (gigliato) basmaya başladı ve para Doğu Akdeniz ticaretinde yaygın kabul gördü. Kendi parasını basmak, egemenliğin en somut nişanıdır ve tarikatı bir dinî düzenden bir DEVLET'e çeviren adımlardandır. Rodos gigliato'su Anadolu beyliklerinde bile taklit edildi.",
+  d:"Tarikat, Rodos'ta kendi sikkesini (gigliato) basmaya başladı ve para Doğu Akdeniz ticaretinde yaygın kabul gördü. Kendi parasını basmak, egemenliğin en somut nişanıdır ve tarikatı bir dinî düzenden bir devlet'e çeviren adımlardandır. Rodos gigliato'su Anadolu beyliklerinde bile taklit edildi.",
   kaynak:"Luttrell, The Hospitaller State on Rhodes and its Western Provinces 1306-1462 (Variorum, 1999) · yıl yaklaşıktır" },
 
 { t:"1330-01-01", b:"Şövalye Sokağı'nın (Odos Ippoton) ve langue konaklarının kurulması", tur:"mimari", onem:4, dunya:2, kapsam:"ic", yer_id:"Rodos",
@@ -543,7 +543,7 @@ window.KRONOLOJI_RODOS_SOVALYELERI = [
 
 { t:"1764-01-01", b:"Malta limanının Akdeniz karantina merkezi hâline gelmesi", tur:"bilim", onem:4, dunya:3, kapsam:"dis", yer_id:"Malta",
   etiket:["bilim","ekonomi","sosyal","konu-bilim","konu-ekonomi","konu-sosyal"],
-  d:"Lazzaretto'daki karantina rejimi, Avrupa devletlerinin Doğu'dan gelen gemiler için Malta belgesini kabul etmesiyle uluslararası bir standarda dönüştü. Tarikat böylece askerî değil SIHHÎ bir hizmetle Akdeniz ticaretinde vazgeçilmez oldu. Bu, devletin son yüzyılda bulduğu en kalıcı varlık gerekçesidir.",
+  d:"Lazzaretto'daki karantina rejimi, Avrupa devletlerinin Doğu'dan gelen gemiler için Malta belgesini kabul etmesiyle uluslararası bir standarda dönüştü. Tarikat böylece askerî değil sıhhî bir hizmetle Akdeniz ticaretinde vazgeçilmez oldu. Bu, devletin son yüzyılda bulduğu en kalıcı varlık gerekçesidir.",
   kaynak:"Paul Cassar, Medical History of Malta (Wellcome Historical Medical Library, 1964) · yıl yaklaşıktır" },
 
 { odak_yer:["Rodos"], t:"1786-01-01", b:"Tarikat gelirlerinin ve Avrupa'daki mülk ağının son ölçümü", tur:"ekonomi", onem:3, dunya:1, kapsam:"dis", yer_id:"",

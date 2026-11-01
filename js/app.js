@@ -5932,7 +5932,7 @@ function isyanGuncelle(t) {
 //   peteği tâbi kümesinden düşürdüyse (köprü, rötuş) hat dolgudan sapabilir.
 // 🔴 BÜTÇE: kare başına yalnız imza karşılaştırması; kenar hesabı imza (etkin
 //   petek×grup kümesi) değişince. Havuz (~2,2 MB) ilk tâbi günde BİR KEZ iner.
-var VIC = { imza: null, liste: null, yukleniyor: false };
+var VIC = { imza: null, liste: null, yukleniyor: false, sahip: [] };
 function _vicListe() {
   if (VIC.liste) return VIC.liste;
   var petAd = {}, L = [];
@@ -5945,9 +5945,27 @@ function _vicListe() {
       if (!g || !p.f || !p.t) return;
       L.push({ j: j, g: g, fi: gunIdx(p.f), ti: gunIdx(p.t) });
     });
+    // Postit #135: sahiplik aralıkları (d/v/s) — o gün hiçbiri etkin değilse peteği sahipsizdir.
+    var aral = [];
+    ["d", "v", "s"].forEach(function (a) {
+      (y[a] || []).forEach(function (p) { if (p.f && p.t) aral.push([gunIdx(p.f), gunIdx(p.t)]); });
+    });
+    VIC.sahip.push({ j: j, aral: aral });
   });
   VIC.liste = L;
   return L;
+}
+// Postit #135 (Emre: "A seçeneği"): o gün SAHİBİ OLMAYAN yerleşim peteği (bölge etiketi,
+// harabe, henüz kurulmamış şehir) boyada çevresindeki tâbi toprağa emilir; hat da öyle
+// çizilsin diye böyle bir petek, en çok kenar paylaştığı tâbi grubuna katılır. Hiçbir
+// gruba komşu değilse atlanır (tâbi hattı almaz).
+function _vicSahipsiz(t) {
+  var r = [];
+  VIC.sahip.forEach(function (o) {
+    for (var i = 0; i < o.aral.length; i++) if (t >= o.aral[i][0] && t < o.aral[i][1]) return;
+    r.push(o.j);
+  });
+  return r;
 }
 function vassalIcSinirGuncelle(t) {
   if (!haritaHazir || !harita.getSource("vassal-ic")) return;
@@ -5958,7 +5976,8 @@ function vassalIcSinirGuncelle(t) {
       if (t >= L[i].fi && t < L[i].ti) etkin.push(L[i]);
     }
   }
-  var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";");
+  var sahipsiz = etkin.length ? _vicSahipsiz(t) : [];
+  var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";") + "|" + sahipsiz.join(",");
   if (imza === VIC.imza) return;
   if (imza && !window.PETEK_GOVDE) {
     if (_PETEK_GOVDE_YUK.hata) return;
@@ -5970,16 +5989,40 @@ function vassalIcSinirGuncelle(t) {
   }
   VIC.imza = imza;
   var G = window.PETEK_GOVDE, PP = window.PETEK_GOVDE_PARCA, kenar = {}, cizgiler = [];
-  etkin.forEach(function (e) {
-    (G[e.j] || []).forEach(function (pi) {
+  function _vicKenarlar(j, fn) {
+    (G[j] || []).forEach(function (pi) {
       (PP[pi] || []).forEach(function (h) {
         for (var k = 0; k < h.length - 1; k++) {
           var a = h[k][0] + "," + h[k][1], b = h[k + 1][0] + "," + h[k + 1][1];
-          var anh = e.g + "#" + (a < b ? a + "|" + b : b + "|" + a), o = kenar[anh];
-          if (!o) kenar[anh] = { n: 1, p: [h[k], h[k + 1]] };
-          else o.n++;
+          fn(a < b ? a + "|" + b : b + "|" + a, h[k], h[k + 1]);
         }
       });
+    });
+  }
+  var kenarGrup = {};   // kenar → { grup: 1 } (yalnız sahipsiz petek ataması için)
+  etkin.forEach(function (e) {
+    _vicKenarlar(e.j, function (ak, p1, p2) {
+      var anh = e.g + "#" + ak, o = kenar[anh];
+      if (!o) kenar[anh] = { n: 1, p: [p1, p2] };
+      else o.n++;
+      (kenarGrup[ak] = kenarGrup[ak] || {})[e.g] = 1;
+    });
+  });
+  var etkinJ = {};
+  etkin.forEach(function (e) { etkinJ[e.j] = 1; });
+  sahipsiz.forEach(function (j) {
+    if (etkinJ[j]) return;
+    var say = {}, en = null;
+    _vicKenarlar(j, function (ak) {
+      var m = kenarGrup[ak];
+      if (m) for (var g in m) say[g] = (say[g] || 0) + 1;
+    });
+    for (var g in say) if (en === null || say[g] > say[en]) en = g;
+    if (en === null) return;
+    _vicKenarlar(j, function (ak, p1, p2) {
+      var anh = en + "#" + ak, o = kenar[anh];
+      if (!o) kenar[anh] = { n: 1, p: [p1, p2] };
+      else o.n++;
     });
   });
   for (var anh in kenar) if (kenar[anh].n === 1) cizgiler.push(kenar[anh].p);
@@ -7304,9 +7347,115 @@ function koridorTopla() {
   });
 }
 
+// ---------- Eğri yol çizimi (kuş uçuşu cetvel çizgisi YERİNE) ----------
+// Emre (17 Ekim 2026): "kuş uçuşu cetvelle çizilmiş havayolu haritası gibi değil,
+// hangi şehirlerden geçtiğine göre kıvrılan yol haritası".
+// Yol, geçit şehirlerinden SIRAYLA geçen merkezcil Catmull-Rom eğrisidir.
+// ⚠️ Eğri araziyi (dağ, vadi, kıyı) İZLEMEZ — yalnız şehirleri yumuşakça bağlar;
+//    gerçek kıvrım ancak ara geçit (kasaba, boğaz, köprü) eklendikçe gelir.
+//    Veri değişmez: eğri YALNIZ çizimde üretilir.
+function yolEgriParca(a0, a1, a2, a3, n) {
+  var k = Math.cos(a1[1] * Math.PI / 180);
+  function xy(p) { return [p[0] * k, p[1]]; }
+  var P0 = xy(a0), P1 = xy(a1), P2 = xy(a2), P3 = xy(a3);
+  function kd(p, q) { return Math.pow(Math.max(1e-9, Math.hypot(q[0] - p[0], q[1] - p[1])), 0.5); }
+  var t0 = 0, t1 = t0 + kd(P0, P1), t2 = t1 + kd(P1, P2), t3 = t2 + kd(P2, P3);
+  function lerp(p, q, ta, tb, t) {
+    var w = (t - ta) / (tb - ta);
+    return [p[0] + (q[0] - p[0]) * w, p[1] + (q[1] - p[1]) * w];
+  }
+  var out = [];
+  for (var i = 0; i <= n; i++) {
+    var t = t1 + (t2 - t1) * i / n;
+    var A1 = lerp(P0, P1, t0, t1, t), A2 = lerp(P1, P2, t1, t2, t), A3 = lerp(P2, P3, t2, t3, t);
+    var B1 = lerp(A1, A2, t0, t2, t), B2 = lerp(A2, A3, t1, t3, t);
+    var C = lerp(B1, B2, t1, t2, t);
+    out.push([C[0] / k, C[1]]);
+  }
+  return out;
+}
+function _yolAdim(a, b) {                        // iki nokta arası örnek sayısı (~8 km'de bir)
+  var km = Math.hypot((b[0] - a[0]) * Math.cos(a[1] * Math.PI / 180), b[1] - a[1]) * 111.32;
+  return Math.max(4, Math.min(48, Math.round(km / 8)));
+}
+// pts: [[lon,lat],…] — komşusuz uçlar yansıtılır (uçta eğri doğal biter, sapıtmaz)
+function yolEgri(pts) {
+  if (pts.length < 2) return pts;
+  var out = [];
+  for (var i = 0; i < pts.length - 1; i++) {
+    var p1 = pts[i], p2 = pts[i + 1];
+    var p0 = pts[i - 1] || [2 * p1[0] - p2[0], 2 * p1[1] - p2[1]];
+    var p3 = pts[i + 2] || [2 * p2[0] - p1[0], 2 * p2[1] - p1[1]];
+    var seg = yolEgriParca(p0, p1, p2, p3, _yolAdim(p1, p2));
+    if (i > 0) seg.shift();
+    out = out.concat(seg);
+  }
+  return out;
+}
+
+// ---------- Tarihî yollar (ana / tali) — data/yollar_*.js ----------
+var YOLLAR = { liste: [], eksik: [], detay: "hepsi", idx: null };
+
+function yolYerCoz(ad) {
+  if (!YOLLAR.idx) {
+    var tam = {}, govde = {};
+    (window.YERLESIMLER || []).forEach(function (y) {
+      if (!y || !y.ad || y.lat == null || y.lon == null) return;
+      if (!tam[y.ad]) tam[y.ad] = [y.lon, y.lat];
+      var g = String(y.ad).replace(/\s*\(.*$/, "");
+      if (!govde[g]) govde[g] = [y.lon, y.lat];
+    });
+    YOLLAR.idx = { tam: tam, govde: govde };
+  }
+  return YOLLAR.idx.tam[ad] || YOLLAR.idx.govde[ad] || null;
+}
+
+function yolTopla() {
+  YOLLAR.liste = []; YOLLAR.eksik = [];
+  Object.keys(window).forEach(function (k) {
+    if (!/^YOLLAR_[A-Z0-9_]+$/.test(k) || !Array.isArray(window[k])) return;
+    window[k].forEach(function (r) {
+      if (!r || !Array.isArray(r.gecit)) return;
+      var pts = [];
+      r.gecit.forEach(function (ad) {
+        // [lon, lat, "ad"] = atlasın yerleşim verisinde OLMAYAN geçit (açık koordinat)
+        var p = Array.isArray(ad) ? [ad[0], ad[1]] : yolYerCoz(ad);
+        if (p) pts.push(p); else YOLLAR.eksik.push(r.id + ": " + ad);
+      });
+      if (pts.length < 2) { YOLLAR.eksik.push(r.id + ": <2 durak, çizilmedi"); return; }
+      YOLLAR.liste.push({
+        r: r, hat: yolEgri(pts),
+        fi: gunIdx(r.f || "1281-01-01"), ti: gunIdx(r.t || "1923-12-31")
+      });
+    });
+  });
+}
+
+// Eski menzil ağının düz parçalarını da KIVRIT: aynı kol üzerinde komşu kenarla
+// uç uca bağlanan her kenar, komşunun öbür ucunu yönlendirici alır ⇒ zincir
+// boyunca eğri kesintisiz akar, kenarın kendi özellikleri (saat, kaynak) bozulmaz.
+function koridorKenarEgrile() {
+  var bit = {}, bas = {};
+  KORIDOR.kenar.forEach(function (m) {
+    var g = (m.e.kanat || "") + "|" + (m.e.kol || "");
+    if (!bit[g + "|" + m.e.u2]) bit[g + "|" + m.e.u2] = m;
+    if (!bas[g + "|" + m.e.u1]) bas[g + "|" + m.e.u1] = m;
+  });
+  KORIDOR.kenar.forEach(function (m) {
+    var g = (m.e.kanat || "") + "|" + (m.e.kol || "");
+    var A = [m.a.lon, m.a.lat], B = [m.b.lon, m.b.lat];
+    var on = bit[g + "|" + m.e.u1], sn = bas[g + "|" + m.e.u2];
+    var p0 = (on && on !== m) ? [on.a.lon, on.a.lat] : [2 * A[0] - B[0], 2 * A[1] - B[1]];
+    var p3 = (sn && sn !== m) ? [sn.b.lon, sn.b.lat] : [2 * B[0] - A[0], 2 * B[1] - A[1]];
+    m.hat = yolEgriParca(p0, A, B, p3, _yolAdim(A, B));
+  });
+}
+
 function koridorKur() {
   koridorTopla();
-  if (!KORIDOR.kenar.length) { console.log("Atlas: koridor ağı — veri YOK, katman kurulmadı."); return; }
+  yolTopla();
+  if (!KORIDOR.kenar.length && !YOLLAR.liste.length) { console.log("Atlas: koridor ağı — veri YOK, katman kurulmadı."); return; }
+  koridorKenarEgrile();
 
   harita.addSource("koridor-kenar", { type: "geojson", data: bosVeri() });
   harita.addSource("koridor-dugum", { type: "geojson", data: bosVeri() });
@@ -7329,6 +7478,66 @@ function koridorKur() {
       "line-opacity": 0.95
     }
   });
+
+  // TARİHÎ YOLLAR — ana (kalın, dolu) / tali (ince, kesik); menzil boncuklarının ALTINDA.
+  // Kasa (koyu zemin) uydu altlığında da okunsun diye; renkler sınır kırmızısından,
+  // motor camgöbeğinden ve menzil kehribarından ayrı tutuldu.
+  harita.addSource("koridor-yol", { type: "geojson", data: bosVeri() });
+  var _yolOnce = "koridor-kenar-cizgi";
+  harita.addLayer({
+    id: "koridor-yol-kasa", type: "line", source: "koridor-yol",
+    layout: { visibility: "none", "line-cap": "round", "line-join": "round" },
+    paint: {
+      "line-color": "#3b2a12",
+      "line-width": ["interpolate", ["linear"], ["zoom"], 4, ["case", ["==", ["get", "sinif"], "ana"], 3.4, 2.2],
+                     8, ["case", ["==", ["get", "sinif"], "ana"], 5.2, 3.2],
+                     12, ["case", ["==", ["get", "sinif"], "ana"], 8, 5]],
+      "line-opacity": 0.55
+    }
+  }, _yolOnce);
+  harita.addLayer({
+    id: "koridor-yol-ana", type: "line", source: "koridor-yol",
+    filter: ["==", ["get", "sinif"], "ana"],
+    layout: { visibility: "none", "line-cap": "round", "line-join": "round" },
+    paint: {
+      "line-color": "#f2b632",
+      "line-width": ["interpolate", ["linear"], ["zoom"], 4, 1.8, 8, 3.2, 12, 5.4],
+      "line-opacity": 0.97
+    }
+  }, _yolOnce);
+  harita.addLayer({
+    id: "koridor-yol-tali", type: "line", source: "koridor-yol",
+    filter: ["==", ["get", "sinif"], "tali"],
+    layout: { visibility: "none", "line-cap": "butt", "line-join": "round" },
+    paint: {
+      "line-color": "#fff0c2",
+      "line-width": ["interpolate", ["linear"], ["zoom"], 4, 1, 8, 1.7, 12, 3],
+      "line-dasharray": [2.4, 1.4],
+      "line-opacity": 0.97
+    }
+  }, _yolOnce);
+  harita.on("click", "koridor-yol-ana", yolTikla);
+  harita.on("click", "koridor-yol-tali", yolTikla);
+  ["koridor-yol-ana", "koridor-yol-tali"].forEach(function (id) {
+    harita.on("mouseenter", id, function () { harita.getCanvas().style.cursor = "pointer"; });
+    harita.on("mouseleave", id, function () { harita.getCanvas().style.cursor = ""; });
+  });
+  // AYAR — "Yalnız ana / Ana + tali". Seçim tarayıcıda hatırlanır (yoksa varsayılan).
+  var _yds = document.getElementById("yol-detay-sec");
+  if (_yds) {
+    try { var _kay = localStorage.getItem("atlas-yol-detay"); if (_kay === "ana" || _kay === "hepsi") YOLLAR.detay = _kay; } catch (e) { }
+    _yds.value = YOLLAR.detay;
+    _yds.addEventListener("change", function () {
+      YOLLAR.detay = _yds.value === "ana" ? "ana" : "hepsi";
+      try { localStorage.setItem("atlas-yol-detay", YOLLAR.detay); } catch (e) { }
+      try { koridorGuncelle(suanki); } catch (e) { }
+    });
+  }
+  if (YOLLAR.eksik.length)
+    console.warn("Atlas: tarihî yollar — " + YOLLAR.eksik.length + " durak çözülemedi/atlandı: " + YOLLAR.eksik.join(" · "));
+  console.log("Atlas: tarihî yollar — " + YOLLAR.liste.length + " yol kuruldu (" +
+    YOLLAR.liste.filter(function (y) { return y.r.sinif === "ana"; }).length + " ana, " +
+    YOLLAR.liste.filter(function (y) { return y.r.sinif !== "ana"; }).length + " tali).");
 
   // ŞART ③ KAYNAKSIZ DURAK GÖRÜNÜR OLSUN.
   // Duraklara `kaynakli` bayrağı basılıyor ve gösterim ONA göre ayrışıyor:
@@ -7487,8 +7696,36 @@ function koridorKur() {
 // ÇİZİLMEZ — yoksa anakronizm olur ve bu projenin en çok şikâyet edilen
 // hatası tam olarak odur. Süzgeç kenarın KENDİ f/t'sinden okunuyor, sabit
 // tarih GÖMÜLMEDİ: veri bir kolu başka bir aralıkla yazarsa katman ona uyar.
+function yolTikla(ev) {
+  var p = ev.features[0].properties;
+  var govde = "<b>" + String(p.ad).replace(/</g, "&lt;") + "</b><br><i>" +
+    (p.sinif === "ana" ? "ana yol" : "tali yol") + "</i>" +
+    "<p>Geçtiği yerler: " + String(p.gecit).replace(/</g, "&lt;") + "</p>";
+  if (p.ic_not) govde += "<p><i>" + String(p.ic_not).replace(/</g, "&lt;") + "</i></p>";
+  if (p.dogrulandi !== true && p.dogrulandi !== "true")
+    govde += "<p class=\"koridor-uyari\">⚠️ <b>Şehir dizisi ve ana/tali ayrımı henüz kaynakla doğrulanmadı.</b> " +
+      "Çizim şehirleri yumuşak bir eğriyle bağlar; arazi izlenmez.</p>";
+  govde += "<p class=\"koridor-kaynak\">Kaynak: " + String(p.kaynak).replace(/</g, "&lt;") + "</p>";
+  new maplibregl.Popup({ maxWidth: "320px", className: "koridor-popup" })
+    .setLngLat(ev.lngLat).setHTML(govde).addTo(harita);
+}
+
 function koridorGuncelle(t) {
   if (!haritaHazir || !harita.getSource("koridor-kenar")) return;
+  if (harita.getSource("koridor-yol")) {
+    var yf = [];
+    YOLLAR.liste.forEach(function (y) {
+      if (!(y.fi <= t && t < y.ti)) return;
+      if (YOLLAR.detay === "ana" && y.r.sinif !== "ana") return;
+      yf.push({
+        type: "Feature",
+        properties: { ad: y.r.ad, sinif: y.r.sinif, gecit: y.r.gecit.map(function (g) { return Array.isArray(g) ? g[2] : g; }).join(" → "), ic_not: y.r.ic_not || "",
+                      dogrulandi: y.r.dogrulandi === true, kaynak: y.r.kaynak || "bulunamadı" },
+        geometry: { type: "LineString", coordinates: y.hat }
+      });
+    });
+    harita.getSource("koridor-yol").setData({ type: "FeatureCollection", features: yf });
+  }
   var kenarlar = [], canli = {};
   KORIDOR.kenar.forEach(function (m) {
     if (!(m.fi <= t && t < m.ti)) return;
@@ -7501,7 +7738,7 @@ function koridorGuncelle(t) {
         cins: m.e.cins || "menzil",
         saat_cinsi: m.e.saat_cinsi || "olculemedi", kaynak: m.e.kaynak || "bulunamadı"
       },
-      geometry: { type: "LineString", coordinates: [[m.a.lon, m.a.lat], [m.b.lon, m.b.lat]] }
+      geometry: { type: "LineString", coordinates: m.hat || [[m.a.lon, m.a.lat], [m.b.lon, m.b.lat]] }
     });
   });
   // Düğüm yalnız CANLI bir kenara bağlıysa çizilir — tek başına duran bir
@@ -12138,6 +12375,14 @@ function antlasmaFarkiHesapla(o) {
       return !!f;
     });
   }
+  // 🆕 POSTIT-165 (Hemedan 1727) — TANIMA antlaşması: antlaşma günü toprak el
+  // değiştirmez, savaşın fetihlerini tanır. `savas_basi` varsa ve savaş boyunca el
+  // değiştiren toprak varsa kutu yine kurulur; kırılma antlaşma günüdür, fark
+  // listesi boştur, bütün küme `genis` yoluyla gelir (savaştan önce ↔ antlaşmadan sonra).
+  if (!f && kayit && kayit.savas_basi && SG.savasBoyuDegisim && SG.kademeKumesi &&
+      SG.savasBoyuDegisim(Y, SG.gunKaydir(kayit.savas_basi, -1), _khGunStr(o.gi), T).length) {
+    f = { gun: _khGunStr(o.gi), once: _khGunStr(o.gi - 1), degisim: [], teyit: true };
+  }
   var sonIx = f ? Math.max(gunIdx(f.gun), o.gi) : ileriSon;
   // 🆕 DALGA-0074 H-0013 — üç kademe. `savas_basi` YALNIZ `ANTLASMALAR`da var
   // (ölçüldü: 37/41 kayıtta dolu, ama 137 antlaşma maddesinin yalnız 44'ü bir
@@ -12150,7 +12395,10 @@ function antlasmaFarkiHesapla(o) {
     if (!ANT_FARK.isgListe) ANT_FARK.isgListe = SG.isgalliYerlesimler(Y);
     // POSTIT-120: savaş boyunca el değiştiren her şey (bkz. suzgec.js savasBoyuDegisim).
     var genis = (k1gun && SG.savasBoyuDegisim) ? SG.savasBoyuDegisim(Y, k1gun, f.gun, T) : [];
-    kademe = { k1gun: k1gun, k2gun: k2gun, k3gun: f.gun, savasBasi: (kayit && kayit.savas_basi) || "",
+    // POSTIT-150: dönemsiz noktaların petekleri (motorun komşuya emdiği) delik kalmasın.
+    var emilen = (k1gun && SG.emilenSahipsizler)
+      ? SG.emilenSahipsizler(Y, genis.concat(f.degisim.map(function (d) { return d.i; })), k1gun, k2gun, f.gun, T) : [];
+    kademe = { k1gun: k1gun, k2gun: k2gun, k3gun: f.gun, savasBasi: (kayit && kayit.savas_basi) || "", emilen: emilen,
                kume: SG.kademeKumesi(Y, ANT_FARK.isgListe, f.degisim, k1gun, k2gun, f.gun,
                                      _khGunStr(o.gi - 1), _khGunStr(sonIx), T, genis) };
   }
@@ -12171,7 +12419,7 @@ function antlasmaFarkiTemizle() {
   ANT_FARK.madde = null;
   if (haritaHazir && harita.getSource("antlasma-fark")) harita.getSource("antlasma-fark").setData(bosVeri());
 }
-// "once" | "sonra" | "koyu" | "yok" | "savasOncesi" | "fiili"
+// "once" | "sonra" | "koyu" | "koyuSonra" | "yok" | "savasOncesi" | "fiili"
 // 🆕 `koyu` (DALGA-0070 H-0008): el değiştiren bölgenin YENİ sahibinin koyu
 // tonu. Ayrı bir katman/dal AÇILMADI — özellik `_farkKutusuCiz`te her petek
 // için hesaplanıp geometrinin üstüne yazılıyor, burada yalnız `["get", hal]`
@@ -12248,21 +12496,28 @@ function _antlasmaHal(hal) {
 //   kazanç: koyu(eski devlet) → Osmanlı → eski devlet → Osmanlı
 //   kayıp : koyu(Osmanlı)     → karşı taraf → Osmanlı → karşı taraf
 // ⇒ hâl sırası: koyu(once) → sonra → once → sonra → (çözülme)
+// 🔴 DİZİ DEĞİŞTİ — Emre, post-it #144 (Vidin 1690, 27 Ekim 2026), birebir:
+//     3 kaybeden devletin renginin bir ton koyusu · 4 sönerek kaybedenin rengi ·
+//     5 kazananın koyusu · 6 tekrar sönüp kaybedenin rengi · 7 kazananın rengi
+// ⇒ hâl sırası: koyu(once) → once → koyuSonra → once → sonra → (çözülme)
+//   (6. adım "kaybeden devletin koyu rengine" diye yazılmıştı; düzyazıdaki
+//    "sönecek" ve 4. adımın deseni ile düz `once` okundu — post-it'te soruldu.)
 var ELE_GECIRME_DILI = {
-  yanikMs: 450,      // 1: ÖNCEKİ sahibin koyu tonu
-  yeniMs: 330,       // 2: sonraki sahibin rengi
-  eskiMs: 330,       // 3: önceki sahibin rengi
-  sahipMs: 700       // 4: sonraki sahibin rengi — sonra çözülür
+  yanikMs: 450,      // 1: kaybedenin koyu tonu
+  eskiMs: 330,       // 2 ve 4: kaybedenin rengi
+  yeniKoyuMs: 450,   // 3: kazananın koyu tonu
+  sahipMs: 700       // 5: kazananın rengi — sonra çözülür
 };
 // Diziyi ayrı bir fonksiyon üretir ki hem burası hem ölçüm aleti AYNI
 // tablodan okusun (sayıyı iki yere yazmamak — §11).
 function eleGecirmeDizisi() {
   return [
-    { hal: "koyu",  ms: ELE_GECIRME_DILI.yanikMs },
-    { hal: "sonra", ms: ELE_GECIRME_DILI.yeniMs },
-    { hal: "once",  ms: ELE_GECIRME_DILI.eskiMs },
-    { hal: "sonra", ms: ELE_GECIRME_DILI.sahipMs },
-    { hal: "yok",   ms: 0 }                     // çözülme — harita kendi rengini gösterir
+    { hal: "koyu",      ms: ELE_GECIRME_DILI.yanikMs },
+    { hal: "once",      ms: ELE_GECIRME_DILI.eskiMs },
+    { hal: "koyuSonra", ms: ELE_GECIRME_DILI.yeniKoyuMs },
+    { hal: "once",      ms: ELE_GECIRME_DILI.eskiMs },
+    { hal: "sonra",     ms: ELE_GECIRME_DILI.sahipMs },
+    { hal: "yok",       ms: 0 }                 // çözülme — harita kendi rengini gösterir
   ];
 }
 
@@ -12418,6 +12673,13 @@ function antlasmaFarkiGoster(o, ozelEl) {
   var kirilma = gunIdx(r.f.gun);
   var anaMetin = _kirilmaYazisi({ fark: kirilma - o.gi, gi: kirilma }) +   // sürüm 5: geri de olabilir
     " · " + r.f.degisim.length + " yerleşim bölgesi el değiştirdi: " + _farkOzeti(r.f.degisim);
+  // POSTIT-165 — tanıma antlaşması: değişim savaş boyunca oldu, antlaşma onu tanıdı.
+  if (r.f.teyit && r.kademe) {
+    var tD = r.kademe.kume.filter(function (x) { return x.k1 !== x.k3; })
+      .map(function (x) { return { once: x.k1, sonra: x.k3 }; });
+    anaMetin = "Antlaşma günü toprak el değiştirmedi; savaşta el değiştiren " + tD.length +
+      " yerleşim bölgesini tanıdı: " + _farkOzeti(tD);
+  }
   // 🆕 DALGA-0074 H-0013 — fiilî kademenin ne anlattığı METİNDE de söylenir.
   // Katmanda tarama yok (yalnız `fill-color`), o yüzden "hangisi işgal" sorusu
   // renge bırakılmaz: işgal edilen bölgeler burada SAYILIR ve adlandırılır.
@@ -12472,6 +12734,15 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
                  savasOncesi: kademe.k1gun ? _sahipRengi(r.k1) : SAYDAM, fiili: _sahipRengi(r.k2),
                  antSonrasi: _sahipRengi(r.k3), k1: r.k1, k3: r.k3 });
   });
+  // POSTIT-150: dönemi olmayan noktanın peteği haritada en yakın sahipli komşuya
+  // emilir; fark katmanında da o komşunun sahipleriyle boyanır (suzgec.js
+  // emilenSahipsizler). Eski dört hâlde genis satırları gibi SAYDAM.
+  if (kademe && kademe.emilen) kademe.emilen.forEach(function (e) {
+    if (kmIx[e.i]) return;
+    liste.push({ pi: ANT_FARK.petAd[Y[e.i].ad], once: SAYDAM, sonra: SAYDAM, ad: Y[e.i].ad, kenar: 0, saydamKoyu: true,
+                 savasOncesi: _sahipRengi(e.k1), fiili: _sahipRengi(e.k2), antSonrasi: _sahipRengi(e.k3),
+                 k1: e.k1, k3: e.k3 });
+  });
   var fsYerel = [];
   // Bölge geometrisi: PETEK_GOVDE[pi] → PETEK_GOVDE_PARCA poligonları (MultiPolygon).
   function ozellikleriKur() {
@@ -12493,6 +12764,7 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
       // de yanlış anlatırdı.
       fsYerel.push({ type: "Feature",
                      properties: { once: x.once, sonra: x.sonra, koyu: x.saydamKoyu ? x.once : koyuTon(x.once),
+                                   koyuSonra: x.saydamKoyu ? x.sonra : koyuTon(x.sonra),
                                    ad: x.ad, kenar: (x.kenar === undefined ? 1 : x.kenar),
                                    savasOncesi: x.savasOncesi || x.once, fiili: x.fiili || x.once,
                                    antSonrasi: x.antSonrasi || x.sonra, k1: x.k1 || "", k3: x.k3 || "" },
@@ -13683,7 +13955,7 @@ function ekKartHtml(k) {
     if (k.kisa) h += '<p class="ek-alt">' + ekEsc(k.kisa) + "</p>";
     (k.bolumler || []).forEach(function (b) {
       h += "<h5>" + ekEsc(b.baslik) + (b.gun ? ' <span class="ek-alt">(' + ekEsc(b.gun) + ")</span>" : "") + "</h5>";
-      if (b.metin) h += "<p>" + ekEsc(b.metin) + "</p>";
+      if (b.metin) h += _maddeliMetniHtmle(b.metin);
       if (b.kaynak) h += '<p class="ek-alt">Kaynak: ' + ekEsc(b.kaynak) + "</p>";
     });
   } else if (k.tur === "savas-hikayesi") {
@@ -13701,8 +13973,10 @@ function ekKartHtml(k) {
     [["oncesi", "Öncesi"], ["akis", "Muharebe"], ["sonuc", "Sonuç ve etkisi"],
      ["tartisma", "Kaynaklar nerede ayrışıyor"]].forEach(function (b) {
       // H-0096: `tartisma` "ayrışma yok" boyacılığı taşıyorsa hiç basılmaz.
+      // POSTIT-107: ①②③ görüşleri/aşamaları tek `<p>` içinde YIĞILIYORDU; başlık
+      // ayrı satır, her daire rakamlı madde ayrı paragraf (`\n\n` de paragraf).
       if (k[b[0]] && (b[0] !== "tartisma" || _tartismaVarMi(k[b[0]])))
-        h += "<p><b>" + b[1] + ":</b> " + ekEsc(k[b[0]]) + "</p>";
+        h += "<p><b>" + b[1] + ":</b></p>" + _maddeliMetniHtmle(k[b[0]]);
     });
   } else if (!k.tur && (k.ozet || k.topraklar)) {
     // 📜 ANTLAŞMA — `ANTLASMALAR` kaydı, `tur` alanı taşımaz.
@@ -14582,6 +14856,19 @@ function odakZoomAcik() {
   e.addEventListener("change", function () {
     try { localStorage.setItem("odakZoom", e.checked ? "1" : "0"); } catch (eL) { /* özel pencere */ }
   });
+})();
+// Tarihî yollar — ⚙ `ayar-yollari-goster` ⇄ Butonlar'daki `data-katman="yollar"` kutusu.
+// Varsayılan KAPALI, kalıcı değil (Emre, 31 Ekim 2026). Katman mantığı tek yerde kalsın
+// diye ayar kutusu katman kutusuna `click` yollar; katman kutusu değişince ayar eşlenir.
+(function () {
+  var ayar = document.getElementById("ayar-yollari-goster");
+  var kat = document.querySelector('input[data-katman="yollar"]');
+  if (!ayar || !kat) return;
+  ayar.checked = kat.checked;
+  ayar.addEventListener("change", function () {
+    if (kat.checked !== ayar.checked) kat.click();
+  });
+  kat.addEventListener("change", function () { ayar.checked = kat.checked; });
 })();
 // 🆕 İKİNCİ KURAL (Emre, 16 Ekim 2026 — aynı gün netleşti): *"Kronoloji maddesi
 // etraftaki bir devletle ilgiliyse, maddenin ilgili olduğu devlet haritada
@@ -16023,20 +16310,26 @@ function maddeyeDarKirp(o) {
   if (!K) return null;
   var r = K.r, gunR = K.gunR;
   if (!r) return gunR.degisim.length ? "yok" : null;
-  if (!K.fark && r.secilen.length === r.degisim.length) return null;
+  // POSTIT-144 (Vidin 1690-08-29): günün BÜTÜN değişimi bu maddenin olsa da
+  // tam gün kırpmasına (önce↔sonra × 2, koyu ton YOK) düşülmez; el değiştirme
+  // dili (koyu → eski → koyu yeni → eski → yeni) bu örtüde oynar. Tam gün
+  // kırpması yalnız geometri yoksa yedek kalır.
+  var tamGun = !K.fark && r.secilen.length === r.degisim.length;
   function oynat() {
     var G = window.PETEK_GOVDE, P = window.PETEK_GOVDE_PARCA, fs = [];
-    if (!G || !P) return;
+    if (!G || !P) { if (tamGun) oncesiSonrasiKirp(o.gi); return; }
     r.secilen.forEach(function (d) {
       var y = Y[d.i], ix = y ? G[ANT_FARK.petAd[y.ad]] : null;
       if (!ix || !ix.length) return;
       var once = _sahipRengi(d.once), sonra = _sahipRengi(d.sonra);
       fs.push({ type: "Feature",
-                properties: { once: once, sonra: sonra, koyu: koyuTon(sonra), ad: y.ad, kenar: 1,
+                // POSTIT-144: `koyu` burada kazananın tonuydu (antlaşma kutusu kaybedeninkini
+                // veriyordu) — iki yol aynı dili konuşsun.
+                properties: { once: once, sonra: sonra, koyu: koyuTon(once), koyuSonra: koyuTon(sonra), ad: y.ad, kenar: 1,
                               savasOncesi: once, fiili: once },
                 geometry: { type: "MultiPolygon", coordinates: ix.map(function (j) { return P[j]; }) } });
     });
-    if (!fs.length) return;
+    if (!fs.length) { if (tamGun) oncesiSonrasiKirp(o.gi); return; }
     _antlasmaYukle(o, fs);
     antlasmaFarkiKirp(0);
   }

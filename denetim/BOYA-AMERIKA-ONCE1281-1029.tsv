@@ -1,0 +1,63 @@
+id	f	t	BOYALAR	boya_gerekli_bayrak	on1281_yerlesim_penceresi	not
+casma-sechin	-3399-01-01	-1009-01-01	evet		3	
+caral-norte-chico	-2999-01-01	-1999-01-01	evet		1	
+kotosh-dini-gelenek	-2799-01-01	-0549-01-01	evet		1	
+poverty-point-kultur	-1649-01-01	-1149-01-01	evet		1	
+oaxaca-formatif	-1624-01-01	-0499-01-01	evet		1	
+olmek	-1199-01-01	-0399-01-01	evet		2	
+maya-orta-preklasik	-0999-01-01	-0399-01-01	evet		4	
+la-blanca-formatif	-0999-01-01	-0599-01-01	evet		1	
+chavin	-0899-01-01	-0199-01-01	evet		1	
+paracas-kultur	-0789-01-01	-0039-01-01	evet		1	
+zapotek-monte-alban	-0499-01-01	0700-01-01	evet		1	
+kaminaljuyu-providencia	-0349-01-01	-0099-01-01	evet		1	
+nazca	-0199-01-01	0599-01-01	evet		1	
+teotihuacan	-0099-01-01	0550-01-01	evet		1	
+moche	0001-01-01	0799-12-31	evet		1	
+tikal-mutal	0090-01-01	0869-01-01	evet		0	MÜKERRER tikal-mutul
+tikal-mutul	0090-01-01	0869-08-13	evet		1	
+maya-klasik	0250-01-01	0900-01-01	evet		0	çatı künye; nokta yok (devlet-şehir künyeleri boyar)
+hohokam	0300-01-01	1450-01-01	evet		1	
+caracol-maya	0331-01-01	0859-01-01	evet		1	
+yaxchilan	0359-01-01	0808-01-01	evet	true	1	
+ceibal	0411-01-01	0889-01-01	evet	true	0	Ceibal noktası yalnız Orta Preklasik penceresi taşıyor; 411-889 pencere + MÖ-MS arası beyanlı boşluk borç
+copan	0426-01-01	0820-01-01	evet		1	
+quirigua	0426-09-08	0810-01-01	evet	true	1	
+palenque-baak	0431-01-01	0799-01-01	evet		1	
+piedras-negras-yokib	0460-01-01	0810-01-01	evet	true	1	
+tiwanaku-devleti	0500-01-01	1010-01-01	evet		1	
+tiwanaku	0500-01-01	1150-01-01	evet		0	MÜKERRER tiwanaku-devleti (nokta onu kullanır)
+kaanul	0520-01-01	0909-01-01	evet	true	2	
+naranjo-saal	0546-01-01	0810-01-01	evet	true	1	
+wari	0600-01-01	0800-01-01	evet		1	
+el-tajin	0600-01-01	1100-01-01	evet	true	1	
+coba	0613-05-12	0780-12-02	evet	true	1	
+dos-pilas-petexbatun	0648-01-01	0761-01-01	evet	true	1	
+cacaxtla	0650-01-01	0950-01-01	evet	true	1	
+xochicalco	0700-01-01	0900-01-01	evet		1	
+cholula	0700-01-01	1519-01-01	evet	true	1	
+sican	0750-01-01	1375-01-01	evet		2	
+ek-balam	0770-01-01	0840-01-01	evet	true	1	
+tairona	0800-01-01	1600-01-01	evet		1	
+uxmal	0800-01-01	0907-01-01	evet	true	1	
+chichen-itza	0800-01-01	1200-01-01	evet	true	1	
+spiro	0850-01-01	1450-01-01	evet		0	künye kaynağı bulunamadı; nokta var (1281 sonrası pencere), ön-1281 pencere YAZILMADI
+ata-pueblo	0850-01-01	1300-01-01	evet	true	1	
+toltek	0900-01-01	1150-01-01	evet	true	1	
+tilantongo-mixtek	0950-01-01	1521-01-01	evet	true	1	
+norse-gronland	0985-01-01	1450-01-01	evet		0	ön-1281 nokta yok (Brattahlíð/Garðar kaynağı okunmadı)
+inuit	1000-01-01	1880-09-01	evet		0	Thule ön-1281 pencere borç (künye kaynağı bulunamadı)
+maya-sehir-devletleri	1000-01-01	1697-03-13	evet		0	Post-Klasik çatı; 1281 sonrası, noktalar ayrı ajanda
+chimu-krallik	1000-01-01	1470-01-01	evet		1	
+chimu	1000-01-01	1470-01-01	evet		0	MÜKERRER chimu-krallik
+cahokia	1050-01-01	1350-01-01	evet		1	
+etowah	1100-01-01	1550-01-01	evet		1	
+mayapan-birligi	1100-01-01	1450-01-01	evet		1	
+chincha	1100-01-01	1476-01-01	evet	true	1	
+aymara-senyorlukler	1100-01-01	1450-01-01	evet	true	2	
+tututepec	1100-01-01	1522-01-01	evet	true	1	
+moundville	1120-01-01	1450-01-01	evet		1	
+kuzco-krallik	1200-01-01	1438-01-01	evet	true	1	
+taino-seflikleri	1200-01-01	1500-01-01	evet	true	0	1200-1281 penceresi borç (nokta var, pencere 1281'de başlıyor)
+azcapotzalco-tepanek	1230-01-01	1428-01-01	evet	true	0	Azcapotzalco noktasının 1230-1281 penceresi borç
+natchez	1250-01-01	1731-01-01	evet		0	1250-1281 pencere borç

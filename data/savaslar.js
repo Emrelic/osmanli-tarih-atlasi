@@ -478,6 +478,11 @@ window.ANTLASMALAR = [
   taraf:["osmanli","rusya"], topraklar:"Azak Kalesi ve çevresi Rusya'dan Osmanlı'ya geri döndü; Rusya Karadeniz kıyısındaki tahkimatını yıktı." },
 { t:"1718-07-21", ad:"Pasarofça", savas_basi:"1714-12-08",            taraf_metin:"Habsburg-Venedik", ozet:"Belgrad kaybı; Mora geri; Lâle Devri",
   taraf:["osmanli","habsburg","venedik"], topraklar:"Belgrad, Semendire ve kuzey Sırbistan ile Batı Eflak Osmanlı'dan Habsburg'a geçti; buna karşılık Mora Venedik'ten Osmanlı'ya geri alındı." },
+// POSTIT-165 (Emre, 29 Ekim 2026): Hemedan antlaşma günü toprak el değiştirmez (1723-1725
+// fetihlerini tanır) — kayıt olmadan "savaştan önce / antlaşmadan sonra" kutusu çıkmıyordu.
+{ t:"1727-10-04", ad:"Hemedan", savas_basi:"1723-06-15",              taraf_metin:"Afgan (Eşref Şah)", ozet:"1723-1725 fetihleri tanındı; Batı İran Osmanlı'da",
+  savas_basi_kaynak:"Kronoloji maddesi 'Doğu seferi: Tiflis'in alınışı ve İran savaşının başlaması' (kaynak TDV ahmed-iii, gün yalnız 'Haziran 1723'). Antlaşma günü TDV ahmed-iii: “Eşref Han ile imzalanan 4 Ekim 1727 tarihli Hemedan Mukāsemenâmesi”; TDV hemedan ise “17 Safer 1141'de (22 Eylül 1728)” der — çelişki beyanlı, atlas günü değiştirilmedi.",
+  taraf:["osmanli","safevi","galzay"], topraklar:"Antlaşma günü toprak el değiştirmedi: Osmanlı'nın 1723-1725'te Safevî'den aldığı Gürcistan, Revan, Nahçıvan, Gence, Tebriz-Azerbaycan, Erdelan, Kirmanşah ve Hemedan Afgan hükümdarı Eşref Şah tarafından tanındı." },
 { t:"1739-09-18", ad:"Belgrad", savas_basi:"1737-07-01",              taraf_metin:"Habsburg-Rusya",   ozet:"Belgrad geri alındı",
   taraf:["osmanli","habsburg","rusya"], topraklar:"Belgrad ve kuzey Sırbistan ile Batı Eflak Habsburg'dan Osmanlı'ya geri alındı; Rusya'ya Azak yıkılmak şartıyla bırakıldı." },
 { t:"1774-07-21", ad:"Küçük Kaynarca", savas_basi:"1768-10-08",       taraf_metin:"Rusya",            ozet:"Kırım'a 'bağımsızlık'; Karadeniz'de Rusya",

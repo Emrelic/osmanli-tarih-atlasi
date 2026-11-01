@@ -2061,7 +2061,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "ic_not_takvim": "Jülyen: 935 (Taejo 18) 12. ay 壬申 = 936-01-08; Jülyen; sexagenary gün işareti + ortalama yeniay hesabı (±1 gün), KOJA_RAPOR2.md ile aynı sonuç"
  },
  {
-  "t": "0660-08-01",
+  "t": "0660-08-29",
   "devlet": "tang",
   "taraflar": [
    "tang",
@@ -2084,7 +2084,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "gun": "ay hassasiyeti (gün yok)",
   "kesinlik": "ay",
   "sinir_id": [],
-  "ic_not": "Samguk sagi Taejong 7 (660) 7. ay 13-18 (ay-güneş; 7. ay başı ≈ 660-08-11): Uija 13'ünde Ungjin'e kaçtı, 18'inde teslim oldu; Jiu Tangshu 4 haberi 八月庚辰 (= 660-09-21) tarihler. Künye t = 0660-08-01 (ay).",
+  "ic_not": "KORE-JAPONYA 29 Ekim 2026: gün 0660-08-01 (ay başı) → 0660-08-29: Samguk sagi 武烈王 7/7/18 Uija'nın teslimi [O] (Silla 元嘉曆, ±1 gün); Jiu Tangshu 顯慶5/8/庚辰 = 660-09-21 Tang sarayına haber günüdür [O] (çelişki beyanı). Samguk sagi Taejong 7 (660) 7. ay 13-18 (ay-güneş; 7. ay başı ≈ 660-08-11): Uija 13'ünde Ungjin'e kaçtı, 18'inde teslim oldu; Jiu Tangshu 4 haberi 八月庚辰 (= 660-09-21) tarihler. Künye t = 0660-08-01 (ay).",
   "ic_not_takvim": "Ay hassasiyeti: 660 Ağustos (7/18 ≈ 660-08-28 ±1; gün seçilmedi)"
  },
  {
@@ -2142,7 +2142,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "ic_not": "BEYANLI YAKLAŞIKLIK: Samguk sagi j.50 olayı 天祐元年 (904) yılına koyar; Gung Ye'nin ülke adı Majin 904 (künyede Taebong). Hubaekje'nin sonraki Gongju hâkimiyeti dilim olarak yazılmadı (bkz. Gongju BOŞLUK dilimi)."
  },
  {
-  "t": "0936-09-01",
+  "t": "0936-09-26",
   "devlet": "goryeo",
   "taraflar": [
    "goryeo",
@@ -2166,7 +2166,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "gun": "ay hassasiyeti (gün yok)",
   "kesinlik": "ay",
   "sinir_id": [],
-  "ic_not": "Künye t = 0936-09-01 (ay hassasiyeti; KOJA_REF). Goryeosa Taejo 19 9. ay 甲午 = 936-09-26 (Iljecheon). Dilim sınırı künye t'si olan ay başına konuldu (en çok 25 gün erken).",
+  "ic_not": "KORE-JAPONYA 29 Ekim 2026: gün 0936-09-01 (ay başı) → 0936-09-26: Goryeosa 太祖 19/9/甲午 Iljecheon savaşı ve Sin-geom'un teslimi [O]; ay çevirisi şüpheli (astronomik hesap 閏7 verir → 甲午=936-11-25) fakat ZZTJ 卷280 aynı yıl 閏11 kaydeder [O], bu 09-26'yı destekler. Künye t = 0936-09-01 (ay hassasiyeti; KOJA_REF). Goryeosa Taejo 19 9. ay 甲午 = 936-09-26 (Iljecheon). Dilim sınırı künye t'si olan ay başına konuldu (en çok 25 gün erken).",
   "ic_not_takvim": "Jülyen: 936 (Taejo 19) 9. ay 甲午 = 936-09-26; Jülyen; sexagenary gün işareti + ortalama yeniay hesabı (±1 gün), KOJA_RAPOR2.md ile aynı sonuç"
  },
  {

@@ -388,6 +388,12 @@ window.KRONOLOJI_ANADOLU = [
   d:"1474 seferiyle Osmanlı, Karamanoğulları'nın hâlâ direniş gösterdiği dağlık ve kıyı bölgelerini de tam denetim altına aldı.",
   kaynak:"karamanogullari", kapsam_genis:true },
 
+{ odak_yer:["Kayseri"], taraflar:["karaman"], t:"1474-01-01", b:"Gedik Ahmed Paşa Karamanoğulları'nı sona erdirdi; Kayseri'de Osmanlı idaresi kuruldu", tur:"toprak-kayip",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"],
+  yer_id:"Kayseri",
+  d:"15. yüzyılda Dulkadıroğulları, Ramazanoğulları ve Karamanoğulları arasında birkaç kez el değiştiren Kayseri, 879/1474'te Gedik Ahmed Paşa'nın Karamanoğulları'nı sona erdirmesiyle Osmanlı idaresine girdi ve Karaman beylerbeyiliğine bağlı sancak merkezi oldu.",
+  kaynak:"TDV İslâm Ansiklopedisi, «Kayseri» https://islamansiklopedisi.org.tr/kayseri (879/1474) ; «Karamanoğulları» https://islamansiklopedisi.org.tr/karamanogullari", ic_not_t:"TDV yalnız yıl verir (879/1474); 1474-01-01 yıl hassasiyeti" },
+
 { odak_yer:["Ermenek","Silifke"], taraflar:["karaman"], t:"1483-01-01", b:"Kasım Bey öldü; İç İl'de Turgutoğlu Mahmud bey seçildi", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-kisiler","konu-hanedan"],
   yer_id:"",
@@ -523,7 +529,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Danişmendli Gümüştegin Gazi'nin ölümünün ardından I. Kılıcarslan, doğunun mâmur şehirlerinden Malatya'yı 1 Muharrem 500 / 2 Eylül 1106'da ele geçirdi.",
   kaynak:"selcuklular" },
 
-{ taraflar:["selcuklu"], t:"1107-01-01", b:"I. Kılıcarslan'ın Habur Nehri'nde ölümü", tur:"son",
+{ taraflar:["selcuklu"], t:"1107-07-13", b:"I. Kılıcarslan'ın Habur Nehri'nde ölümü", tur:"son",
   onem:3, dunya:2, kapsam:"dis", etiket:["Kılıcarslan", "Muhammed Tapar", "ölüm", "konu-siyasi", "konu-kisiler"],
   yer_id:"Musul",
   d:"Güneydoğu Anadolu beylerine güvenerek Büyük Selçuklu Hükümdarı Muhammed Tapar'ın Musul valisi Çavlı Sakavu ile savaşa giren I. Kılıcarslan, müttefiklerinin ayrılması üzerine esir düşmemek için Habur çayına atını sürdü ve boğularak öldü (500/1107).",
@@ -805,7 +811,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"Malatya doğumlu mutasavvıf Sadreddin Konevî, hocası İbnü'l-Arabî'nin ölümünden sonra yaklaşık 1241'de Konya'ya yerleşti; burada devlet adamları ve âlimlerle yakın ilişkiler kurdu, Mevlânâ Celâleddîn-i Rûmî ile yakın dostluk geliştirdi.",
   kaynak:"sadreddin-konevi" },
 
-{ taraflar:["selcuklu"], t:"1243-06-26", b:"Kösedağ Savaşı'nda Moğollara ağır yenilgi", tur:"savas",
+{ taraflar:["selcuklu"], t:"1243-07-01", b:"Kösedağ Savaşı'nda Moğollara ağır yenilgi", tur:"savas",
   onem:5, dunya:4, kapsam:"dis", etiket:["Kösedağ", "Moğollar", "yenilgi", "konu-askeri"],
   yer_id:"",
   d:"II. Gıyâseddin Keyhusrev komutasındaki Selçuklu ordusu, Sivas-Erzincan arasındaki Kösedağ'da Moğol kumandanı Baycu Noyan'ın kuvvetlerine ağır bir yenilgiye uğradı. Bozgun, Anadolu Selçuklu Devleti'nin bağımsız bir güç olarak sonunun başlangıcı sayılır; ardından gelen tâbiiyet antlaşmasıyla devlet fiilen Moğol/İlhanlı vesayetine girdi.",
@@ -982,7 +988,7 @@ window.KRONOLOJI_ANADOLU = [
   d:"1085 civarında Çubuk Bey tarafından kurulan Çubukoğulları Beyliği'nin merkezi olan Harput, Artuklu beyi Belek b. Behrâm tarafından ele geçirilerek bu küçük beyliğe son verildi. Böylece Harput ve çevresindeki Palu, Çemişkezek toprakları Artuklu hâkimiyetine girdi ve Harput kolunun temeli atıldı.",
   kaynak:"harput" },
 
-{ taraflar:["artuklu"], t:"1117-05-01", b:"İlgazi Halep'in idaresini ele aldı", tur:"toprak-kazanc",
+{ taraflar:["artuklu"], t:"1117-05-05", b:"İlgazi Halep'in idaresini ele aldı", tur:"toprak-kazanc",
   onem:4, dunya:2, kapsam:"dis", etiket:["Halep", "İlgazi", "Selçuklu", "konu-askeri"],
   yer_id:"Halep",
   d:"Haçlı baskısı altında bunalan Halep ileri gelenlerinin daveti üzerine şehre giden Necmeddin İlgazi, Muharrem 511 (Mayıs 1117) tarihinde idareyi ele aldı. Bu adımla Halep'teki Selçuklu meliklik yönetimi fiilen sona erdi ve Mardin Artukluları bölgenin en güçlü Müslüman gücü hâline geldi.",

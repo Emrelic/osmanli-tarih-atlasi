@@ -19,7 +19,10 @@ py arac/not.py al 12 --zorla --model opus   # Emre "/postit 12 zorla" dediyse: b
 ```
 - Bu oturumun zaten bir notu varsa `al` YENİ NOT ALMAZ, kendi notunu basar ("— devam"). Emre
   aynı oturumda "devam" ya da yeniden `/postit` yazdıysa yaptığın budur: notu oku, son yoruma bak.
-- `--zorla` YALNIZ Emre "zorla" yazdıysa ve yalnız numaralı notta kullanılır.
+- `--zorla` YALNIZ Emre "zorla" yazdıysa ve yalnız numaralı notta kullanılır. Tek istisna:
+  oturumu bir Opus oturumu **Sonnet devri** için başlattıysa (ilk mesajı `postit` skill'ini
+  `<no> devral` ile çağırır) `al <no> --zorla --model sonnet` kullanılır — notu devreden oturum
+  kendini emekli etmiştir.
 - Sahipsiz not, son yazan kim olursa olsun alınır. Eski notlarda önceki Claude yorumları vardır;
   onları oku ve **kaldığı yerden devral**. Önceki yorum bir düzeltme önerdiyse yapıldı mı diye
   ölç; yapılmadıysa yap. Emre'nin son yorumu neyi soruyor ya da neyi onaylıyorsa iş odur.
@@ -31,8 +34,11 @@ py arac/not.py al 12 --zorla --model opus   # Emre "/postit 12 zorla" dediyse: b
 
 ### Model kapısı — oturum kendi modeline bakar
 Notu okuyunca, işe girişmeden önce **notun türüne** ve **kendi modeline** (sistem isteminde yazar) bak.
-Oturumun modelini kendin değiştiremezsin; yalnız Emre `/model` yazarak değiştirir. Uyuşmazsa
-Emre'den çevirmesini iste.
+Uygulama bir oturumun kendi modelini değiştirmesine izin vermez (`set_session_model` kendi
+oturumunu reddeder). Bu yüzden **aşağı çevirme (Opus → Sonnet) devirle yapılır ve Emre'nin onayını
+istemez** (Emre'nin kalıcı talimatı, 29 Ekim 2026): Opus oturumu notu Sonnet modelli yeni bir
+oturuma devreder ve kendini emekli eder. **Yukarı çevirme (Sonnet → Opus) devirle yapılamaz**
+(oturum kendinden pahalı model başlatamaz); onu yalnız Emre `/model` ile yapar.
 
 **Opus ister** (motor/geometri notu): zikzak, sivri çıkıntı, ince girinti/koridor, üçgen/üçken
 toprak, katmanların üst üste binmesi, ızgara izi, ya da önceki Claude yorumu teşhisi "motor"
@@ -44,11 +50,30 @@ basit arayüz işleri.
 | Opus | motor | uyuyor, devam et |
 | Sonnet | Sonnet yeter | uyuyor, devam et |
 | **Sonnet** | **motor** | dur. Emre'ye tek satır: `#<no> motor notu, bu oturumu Opus'a çevir: /model opus yaz, sonra "devam" yaz.` 3 beep, bitir. |
-| **Opus** | **Sonnet yeter** | dur. Emre'ye tek satır: `#<no> Sonnet'e yeter, bu oturumu Sonnet'e çevir: /model sonnet yaz, sonra "devam" yaz.` 3 beep, bitir. |
+| **Opus** | **Sonnet yeter** | **Sonnet devri** (aşağıda) — sormadan. |
 
-- Uyuşmazlıkta araştırmaya, yoruma ya da `yanit`e **girişme**. Not bu oturumda kalır
-  (`not.py opus` KULLANMA: o notu bırakır). Emre modeli çevirip "devam" yazınca bu oturum notunu
-  `al --model <yeni model>` ile geri alır, kapı bu kez uyuşur ve iş başlar. Konuşma geçmişi korunur.
+- Uyuşmazlıkta araştırmaya, yoruma ya da `yanit`e **girişme**. `not.py opus` KULLANMA (o notu
+  bırakır ve `model:opus` koyar).
+- **Sonnet → motor:** not bu oturumda kalır. Emre modeli çevirip "devam" yazınca bu oturum notunu
+  `al --model opus` ile geri alır, kapı bu kez uyuşur ve iş başlar. Konuşma geçmişi korunur.
+
+#### Sonnet devri (Opus oturumu + Sonnet'e yeter not)
+1. Oturumu adlandırmış olmalısın (aşağıdaki adım). Not sahipliği şimdilik bu oturumda kalır.
+2. `mcp__ccd_session__start_session` (yüklü değilse `ToolSearch`
+   `select:mcp__ccd_session__start_session`):
+   `initiation: "user_asked"` (Emre bu skill'de kalıcı olarak istedi) · `context: "fresh"` ·
+   `model: "claude-sonnet-5-5"` (sistem istemindeki güncel Sonnet kimliği; yoksa sonuçtaki listeden) ·
+   `title: "#<no> <yer/konu> <yıl> — <iş>"` · `prompt:` `Skill aracıyla postit skill'ini
+   args "<no> devral" ile çağır. Bu oturum #<no> notunun Sonnet devridir; notu
+   "py arac/not.py al <no> --zorla --model sonnet" ile al ve skill'i baştan uygula.` ·
+   `background:` notun bir cümlelik özeti + "Opus oturumu kapıda Sonnet'e yeter hükmü verdi;
+   araştırma yapılmadı."
+3. Başlatma **reddedilirse** (ör. tur bir bekleme betiğiyle uyandıysa uygulama yeni oturuma izin
+   vermez) eski yola dön: Emre'ye tek satır `#<no> Sonnet'e yeter, bu oturumu Sonnet'e çevir:
+   /model sonnet yaz, sonra "devam" yaz.` 3 beep, bitir (not bu oturumda kalır).
+4. Başladıysa: Emre'ye tek satır `#<no> Sonnet'e yeter → Sonnet oturumuna devrettim: [<başlık>](#local_<id>).`
+   ve **5. adım (emekli ol)** — tek satırı `#<no> → Sonnet'e devredildi. Kendimi emekli ediyorum.`
+   olur. Yeni oturum notu `--zorla` ile alır; sen notu bırakma.
 - Emre "bu modelde kal" / "Opus'ta devam" gibi bir şey yazarsa kapıyı bir daha sorma, devam et.
 - İşin ortasında Sonnet motora dayandığını görürse de aynısı: bulguyu bir cümleyle söyle, Opus'a
   çevirmesini iste, `yanit` yazma.
@@ -142,7 +167,7 @@ sitede "🔓 Sahipsiz bırak"a basar; 7 gün hiç ses vermeyen oturumun notu da 
 
 Emre'nin kalıcı talimatı (16 Ekim 2026): **işi biten oturum kendini emekli eder.** İş bitti demek:
 `bekle` 10 (not arşivlendi) ya da 11 (not başka oturuma geçti) verdi · `al` 3 verdi (alınacak not
-yok) · Sonnet notu `opus` ile bıraktı. Sırayla:
+yok) · Sonnet notu `opus` ile bıraktı · Opus notu Sonnet oturumuna devretti. Sırayla:
 1. Kilitleri bırak (`py arac/kilit.py birak-hepsi --kim "oturum-<id>"`); worktree açıksa ve
    push edilmemiş iş yoksa `ExitWorktree` `remove`. Push edilmemiş iş varsa EMEKLİ OLMA, Emre'ye söyle.
 2. Arka planda süreç kalmasın (bekleme betiği bitmiş olmalı; çalışan varsa `TaskStop`).

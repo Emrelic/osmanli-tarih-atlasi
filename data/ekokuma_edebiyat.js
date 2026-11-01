@@ -98,7 +98,7 @@ window.EKOKUMA_EDEBIYAT = [
     sanatci:{ ad:"Nedîm (asıl adı Ahmed)",
       hayat:"İstanbul'da muhtemelen 1092'de (1681) doğdu; babası kazasker torunu Kadı Mehmed Efendi, annesi Karaçelebizâdeler ailesindendi. 1143'te (1730) öldü.",
       onem:"TDV'nin tarifiyle \"divan şiirinde kendi adıyla anılan bir tarz ortaya koyan şair\" — sade ve nükteli üslûbuyla Lâle Devri'nin en tanınmış ismi oldu." },
-    metin:"1730'daki Patrona Halil isyanı sırasında Nedîm hayatını kaybetti; kaynaklara göre ya isyan dehşetinden hastalanarak ya da kaçmaya çalışırken evinin damından düşerek öldü — ölüm şeklinin ayrıntısı kaynaklarda AYRIŞIYOR. Ölümüyle birlikte Lâle Devri'nin şiirdeki en parlak sesi de susmuş oldu; devrin kendisi de aynı isyanla sona erdi.",
+    metin:"1730'daki Patrona Halil isyanı sırasında Nedîm hayatını kaybetti; kaynaklara göre ya isyan dehşetinden hastalanarak ya da kaçmaya çalışırken evinin damından düşerek öldü — ölüm şeklinin ayrıntısı kaynaklarda ayrışıyor. Ölümüyle birlikte Lâle Devri'nin şiirdeki en parlak sesi de susmuş oldu; devrin kendisi de aynı isyanla sona erdi.",
     alinti:{ metin:"bulunamadı — kamu malı doğrulanmış bir neşirden beyit alıntısı yapılmadı", kaynak:null },
     gorsel:null, gorsel_kaynak:"bulunamadı — dönemsel portre yok, görsel taraması yapılmadı",
     kesinlik:"tartismali", olay:["1730-09-25","1730-10-28"],

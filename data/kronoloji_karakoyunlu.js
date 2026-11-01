@@ -117,7 +117,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"776 (1374) yılında Celâyirli Sultan Üveys'in ölümüyle Celâyirli Devleti'nin Doğu Anadolu üzerindeki denetimi zayıfladı. Bayram Hoca'nın kaybettiği toprakları geri alma girişimlerinin önü bu ölümle açıldı.",
   kaynak:"karakoyunlular" },
 
-{ t:"1375-01-01", b:"Bayram Hoca Musul'u dört aylık kuşatmayla geri aldı", gun:"H. 777 / 1375", ic_not_gun:"H. 777 / 1375 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
+{ t:"1375-06-02", b:"Bayram Hoca Musul'u dört aylık kuşatmayla geri aldı", gun:"H. 777 / 1375", ic_not_gun:"H. 777 / 1375 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
   onem:4, dunya:1, kapsam:"dis", etiket:["askeri","toprak","kusatma","konu-askeri"],
   yer_id:"Musul",
   d:"777 (1375) yılında Bayram Hoca, dört ay süren bir kuşatmanın ardından Musul'u yeniden Karakoyunlu topraklarına kattı. Celâyirli iktidarının Üveys'in ölümüyle sarsılmasını fırsata çeviren bu fetih, devletin güney sınırını yeniden Dicle'ye taşıdı.",
@@ -206,7 +206,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"802 (1400) yılında Timur karşısında tutunamayan Kara Yûsuf, Osmanlı topraklarına sığındı. Yıldırım Bayezid'in Kara Yûsuf'u teslim etmeyi reddetmesi, Timur ile Osmanlı arasındaki gerginliğin ve iki yıl sonraki Ankara Savaşı'nın sebeplerinden biri sayılır — yani Karakoyunlu hükümdarının şahsî kaderi, çağın en büyük savaşının fitillerinden biri olmuştur.",
   kaynak:"karakoyunlular" },
 
-{ t:"1402-07-28", b:"ANKARA SAVAŞI — Kara Yûsuf'un sığındığı Osmanlı devleti çöktü", tur:"savas",
+{ t:"1402-07-28", b:"Ankara Savaşı — Kara Yûsuf'un sığındığı Osmanlı devleti çöktü", tur:"savas",
   onem:4, dunya:4, kapsam:"dis", etiket:["askeri","savas","timur","osmanli","konu-askeri"],
   yer_id:"Ankara",
   d:"Timur'un Yıldırım Bayezid'i Ankara'da yenmesi, Kara Yûsuf'un sığındığı gücü ortadan kaldırdı ve onu yeniden yollara düşürdü. Karakoyunlu açısından bu savaş bir yenilgi ya da zafer değil, Timurlu hâkimiyetinin artık Anadolu'yu da kapsadığının ilânıdır.", ic_not_d:"⚠️ `dunya:4` değeri var olan kronoloji dosyalarından DEVRALINDI, bu oturumda yeniden takdir edilmedi.",
@@ -218,13 +218,13 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"Muharrem 805 (Ağustos 1402) ayında Kara Yûsuf, Ankara Savaşı'nın hemen ardından Bursa'dan ayrılıp Irak'taki Hille'ye geçti. Hille, Karakoyunlu hanedanının Irak'taki en kalıcı dayanağı olacak ve devletin sonuna kadar bir hanedan valiliği olarak sürecektir.",
   kaynak:"karakoyunlular" },
 
-{ t:"1403-09-01", b:"Kara Yûsuf Şam'a kaçtı", gun:"Rebîülevvel 806 / Eylül 1403 — ay hassasiyeti · ay TDV'de var, gün yok (`karakoyunlular`, `cihan-sah`, `akkoyunlular`)", tur:"siyaset",
+{ t:"1403-09-18", b:"Kara Yûsuf Şam'a kaçtı", gun:"Rebîülevvel 806 / Eylül 1403 — ay hassasiyeti · ay TDV'de var, gün yok (`karakoyunlular`, `cihan-sah`, `akkoyunlular`)", tur:"siyaset",
   onem:3, dunya:1, kapsam:"dis", etiket:["siyaset","surgun","memluk","konu-siyasi","konu-demografi"],
   yer_id:"Şam",
   d:"Rebîülevvel 806 (Eylül 1403) ayında Kara Yûsuf Memlük idaresindeki Şam'a kaçtı. Sığındığı yerde hapsedilmesi, hanedanın en alçak noktasıdır: Karakoyunlu hükümdarı bu tarihte ne bir toprağa ne de bir orduya sahiptir.",
   kaynak:"karakoyunlular" },
 
-{ t:"1405-01-01", b:"Kara Yûsuf Şam hapsinden çıkarıldı", gun:"H. 807 / 1405", ic_not_gun:"H. 807 / 1405 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"siyaset",
+{ t:"1405-01-03", b:"Kara Yûsuf Şam hapsinden çıkarıldı", gun:"H. 807 / 1405", ic_not_gun:"H. 807 / 1405 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"siyaset",
   onem:4, dunya:1, kapsam:"dis", etiket:["siyaset","memluk","konu-siyasi"],
   yer_id:"Şam",
   d:"Receb 807 (Ocak 1405) ayında Kara Yûsuf Şam'daki hapisten serbest bırakıldı. Aynı yıl Timur'un ölmesiyle Azerbaycan'daki güç boşluğu doğacak ve serbest kalan Kara Yûsuf bu boşluğu dolduran isim olacaktır.",
@@ -268,7 +268,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"28 Rebîülâhir 813 (30 Ağustos 1410) günü Kara Yûsuf, Celâyirli Sultan Ahmed'i Esed mevkiinde yenilgiye uğrattı ve Ahmed idam edildi. Bu, Karakoyunlu'nun altmış yıl boyunca hem tâbi olduğu hem savaştığı Celâyirli Devleti'ni fiilen ortadan kaldıran çarpışmadır.", ic_not_d:"⚠️ Esed mevkiinin atlas kaydı yoktur; `yer_id` çarpışmanın Tebriz civarında geçmesi sebebiyle Tebriz'e verildi.",
   kaynak:"TDV `karakoyunlular`: \"Tebriz civarındaki Esed köyünde onu ağır bir yenilgiye uğrattı (28 Rebîülâhir 813 / 30 Ağustos 1410).\" (künyedeki mükerrer maddeden taşındı; birebirliği sınandı) · daha önce künyede 1410-01-01 yazılıydı, kaynaksızdı; D2'de TDV günü yazılmıştı; mükerrer olarak kaldırıldı" },
 
-{ t:"1411-01-01", b:"Pîr Budak sultan ilân edildi, Bağdat fethedildi", gun:"H. 814 / 1411", ic_not_gun:"H. 814 / 1411 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
+{ t:"1411-04-25", b:"Pîr Budak sultan ilân edildi, Bağdat fethedildi", gun:"H. 814 / 1411", ic_not_gun:"H. 814 / 1411 — yıl hassasiyeti · TDV `karakoyunlular`, `cihan-sah`, `akkoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"fetih",
   onem:5, dunya:2, kapsam:"dis", etiket:["toprak","hukumdar","fetih","konu-askeri","konu-hanedan"],
   yer_id:"Bağdat",
   d:"814 (1411) yılında Kara Yûsuf oğlu Pîr Budak'ı sultan ilân etti ve Şah Mehmed Bağdat'ı fethetti. Kara Yûsuf'un kendisi için değil oğlu adına sultanlık ilân etmesi, hanedanın meşruiyet arayışını gösteren bir tasarruftur; Bağdat'ın alınması ise devleti Irak'a taşıyarak sınırlarını en geniş hâline yaklaştırdı.",
@@ -440,7 +440,7 @@ window.KRONOLOJI_KARAKOYUNLU = [
   d:"1 Zilkade 870 (15 Haziran 1466) günü Bağdat kuşatması sona erdi, Pîr Budak idam edildi ve şehrin valiliğine Tuvacı Alpavut Muhammed getirildi. Cihan Şah kendi oğlunu idam ettirerek isyanı bastırdı, ancak ordusu yıpranmış ve Akkoyunlu tehdidiyle yüzleşeceği anda zayıf düşmüştü.",
   kaynak:"karakoyunlular" },
 
-{ odak_yer:["Tebriz"], t:"1467-11-10", b:"BİNGÖL BASKINI — Cihan Şah öldürüldü", tur:"kayip",
+{ odak_yer:["Tebriz"], t:"1467-11-10", b:"Bingöl baskını — Cihan Şah öldürüldü", tur:"kayip",
   onem:5, dunya:2, kapsam:"dis", etiket:["askeri","savas","olum","akkoyunlu","donum-noktasi","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"",
   d:"12 Rebîülâhir 872 (10 Kasım 1467) günü Cihan Şah, Bingöl-Kiğı arasında Uzun Hasan'ın şafak baskınında öldürüldü; altı bin asker, iki oğlu (Muhammedî ve Yûsuf) ve bütün emîrleri esir düştü. Cesedi Tebriz'de kendi yaptırdığı Muzafferiye Medresesi'ne gömüldü. Yirmi dokuz yıllık saltanatın ve fiilen Karakoyunlu Devleti'nin sonudur: hanedan bundan sonra iki yıl daha yaşayacak ama bir daha toparlanamayacaktır.", ic_not_d:"⚠️ Bingöl ve Kiğı'nın atlas verisinde yerleşim kaydı YOKTUR — bir hanedanın bittiği yerin haritada karşılığı bulunmuyor. `dunya:2` var olan kayıttan DEVRALINDI.",

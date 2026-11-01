@@ -40,7 +40,14 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   konuşması gereken iş için gerekir — o zaman Emre'den iste.
 - Birikmiş maddelerde önce **dokundukları dosyaya göre grupla**; aynı dosyaya dokunanları tek
   elden yap (dosya bir kez okunur).
-- Makineler: **HAVVA** koşu · **UMIT** yazma/denetim/araştırma · **laptop** siteye bakış + kutu.
+- Makineler (Emre, 1 Kasım 2026): **HAVVA** yalnız koşu + yayın inişi · **KASA** tek yazıcı
+  (araştırma, veri, kod, post-it, `main`e push; paralel iş alt ajanla, en çok 2-3 araç koşturan
+  ajan — 4 çekirdek) · **EMRELİC** koordinasyon + siteye bakış · **UMIT**'e dokunulmaz (eczane
+  SQL sunucusu boğulur) · **LAB** zayıf, en çok ufak iş. Dal bir günden uzun yaşamaz; post-it
+  yalnız `not.py al` ile alan oturumda çözülür.
+- 🔴 **Koşu biter bitmez iniş ve yayın** (Emre, 1 Kasım 2026): koşu bitince aynı oturum
+  beklemeden `KOSU-YAYIN.md` iniş zincirini başlatır ve push kapısına kadar götürür; kimseden
+  onay beklemez. (Koşu 31: bitiş 05:13, iniş 12:50 — 7,5 saat boş geçti.)
 - **Onay bekleme, devam et.** Emre hataları numaralı partilerle bildirir — her maddeyi ayrı
   cevapla. "Ayrı madde ile gösterilmeli" = Değişmez 2 ihlalidir: kırılmayı bul, kronolojiye yaz.
 - İş sonunda kısa rapor: ① ne ölçtüm (sayıyla) ② ne bulamadım ③ ne istiyorum (önerinle).
@@ -51,6 +58,15 @@ yok; tarayıcı `data/` altındaki düz JS'i okur. MapLibre GL JS 4.7.1.
   (`py arac/kilit.py birak-hepsi --kim "<kancanın verdiği ad>"`) · worktree kaldırıldı
   (`ExitWorktree` `remove`) · arka planda süreç kalmadı. Sonra oturum olduğu gibi bırakılır.
 - Eski koordinatör/işçi/tahta düzeni yalnız Emre `/koordinator-modu ac` derse o oturum için açılır.
+
+## Kısaltmalar
+
+- **`*yyy`** (Emre, 28 Ekim 2026) = **y**apılanlar, **y**apılmakta olanlar, **y**apılacaklar. Emre
+  bunu yazınca o anki işin üç başlıklı kısa durum brifingi verilir; yeni iş başlatılmaz.
+  ① Yapılanlar (`main`de olanlar ile yalnız yerel commit'te olanlar ayrı) ② Yapılmakta olanlar
+  (çalışan oturumlar, kapıda bekleyenler) ③ Yapılacaklar (başlamayanlar, taranmayanlar, Emre'den
+  bekleyen kararlar). Sayı ve kısa commit kodunu yaz, oturumları ölçüp doğrula; bilinmeyen
+  "ölçülmedi" yazılır.
 
 ## Komutlar
 
@@ -131,7 +147,11 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
   penceresi eksiği, `kd:` çözer). Motor `kd:`yi okumaz — gövde çakışması `kd:` ile düşmez.
 - **8 — şehir bölgesi ülke sınırını aşamaz;** motor çıktısını ölçer, düzeltme koşudan sonra görünür.
 - **Tavanlar (`BEKLENEN_*`):** bugünkü ölçümdür, sabitle aynı commit'te yazılır, yalnız gerileme
-  bloke eder, iyileşince iner. Tavanı oturum önerir, **Emre onaylar.** En iyi istisna yazılmayandır.
+  bloke eder, iyileşince iner. En iyi istisna yazılmayandır.
+  **Tavan onayı sorulmaz** (Emre, 1 Kasım 2026): yayını bir tavan aşımı durduruyorsa oturum önce
+  aşımın kaynağını ölçer (hangi kayıt / hangi yama), sonra tavanı açar ve işe devam eder;
+  açtığı tavanı **sonradan raporlar** — eski/yeni değer, aşan kayıtlar, sebep (commit mesajı +
+  iş sonu raporu). Değişmez 2 ölçütünü gevşetmek tavan açmak değildir, o yine yasak.
 
 ## Kaynak kuralı
 

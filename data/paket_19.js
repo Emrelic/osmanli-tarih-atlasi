@@ -147,6 +147,21 @@ window.YERLESIMLER_EK_BOSLUK = [
  d:[{f:"1455-06-20", t:"1913-05-30"}], isg:[{f:"1912-11-03",t:"1913-05-30",d:"sirbistan-kralligi",kaynak:"Sırp işgali (de facto) · f TEYİT EDİLDİ: Özkan, Tarihin Peşinde 15, s.12 ve s.16: '3 Kasım’da Prizren Sırplara teslim olmuştur' — ÇELİŞKİ BEYANI: Ahbab s.22 ve dergipark 1519426 31 Ekim der (3 gün; bu oturumda yeniden okunmadı) (KUTU-H6-1015) · bitiş 1913-05-30: Londra Antlaşması — Osmanlı Devleti Midye-Enez hattının batısındaki toprakları terk etti (Emre kararı 13 Ekim 2026; atlas Dimetoka/Çirmen/Gümülcine için bu günü zaten kullanıyor) · hüküm SINIR-BERLIN-0076 B2, SIRADA-B-1012 0076/H-0145; TDV londra-antlasmasi günü bu oturumda çekilemedi (bulunamadı) · de jure Osmanlı toprağı Londra'ya dek d: ile kesintisizdir"}],
  kaynak:"TDV `prizren` — gövdesi okundu, 2026-08-28"},
 
+// ── DİMİTROFÇA (SREMSKA MİTROVİCA) — POSTIT #142 ───────────────────────────
+// Emre: "Varadin'in güneyi, Böğürdelen'in doğusu boş görünüyor." Sebep: bu
+// bölgedeki tek aday nokta `Sirmium (Sremska Mitrovica)` antik `bos:"veri-yok"`
+// kaydıdır (bit 1281, dönemi YOK) — çevresindeki Srem toprağı sahipsiz kalıyordu.
+// TDV `srem`: sancağın merkezi Dimitrofça (Mitroviça); "en kalabalık müslüman
+// topluluğu Dimitrofça'da"; 1521'de başlayan Osmanlı hâkimiyeti 1526'ya kadar
+// tamamlandı; Habsburg: Varadin 1687 (atlas kaydı), TDV: "1699'da Habsburg
+// idaresine girmişti" (formel). Antik Sirmium kaydına dokunulmadı.
+// BEYANLI YAKLAŞIKLIK: Mitroviça'ya özgü gün bulunamadı; Varadin kaydının günleri
+// ("gün komşudan: Varadin") alındı.
+{ad:"Dimitrofça (Sremska Mitrovica)", tur:"sehir", lat:44.976, lon:19.612, g:0, k:3, m:"Aquincum-Óbuda-Pest",
+ s:[{f:"1281-01-01",t:"1526-07-27",d:"macaristan",kaynak:"BEYANLI YAKLAŞIKLIK — zincir Varadin kaydından devralındı (Varadin: macaristan → 1526-07-27). TDV srem: Srem despotları (Stefan Lazareviç, Brankoviçler) toprakları 'Macar Krallığı ile anlaşarak idare' etti; Mitroviça'ya özgü iç dönem bulunamadı."},{f:"1687-09-06",t:"1918-11-11",d:"macaristan-habsburg",kaynak:"BEYANLI YAKLAŞIKLIK — gün komşudan: Varadin (atlas kaydı 1687-09-06, kendi kaynağına dayanır). TDV srem: '1699'da Habsburg idaresine girmişti' (formel devir; çelişki beyanı — TDV 1699 der, Varadin kaydı 1687). Dimitrofça'ya özgü işgal günü bulunamadı. ABİ MERKEZ: Varadin (aynı Srem sancağı)."},{f:"1918-11-11",t:"1920-06-04",d:"macaristan-naiplik",kaynak:"Varadin kaydıyla aynı zincir (zincir Varadin'den devralındı)"},{f:"1920-06-04",t:"1945-11-29",d:"yugoslavya",kaynak:"Varadin kaydıyla aynı zincir (zincir Varadin'den devralındı)"},{f:"1945-11-29",t:"1992-04-27",d:"yugoslavya-federal",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"},{f:"1992-04-27",t:"2000-12-31",d:"yugoslavya-federal-cumhuriyeti",kaynak:"Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia)"}],
+ d:[{f:"1526-07-27",t:"1687-09-06"}],
+ kaynak:"TDV `srem` — gövdesi okundu, 30 Ekim 2026: sancak merkezi Dimitrofça/Mitroviça, Osmanlı hâkimiyeti 1521-1526; koordinat Sirmium kaydının GeoNames/Pleiades çift tanığı (44.976, 19.612)"},
+
 ];
 
 ;

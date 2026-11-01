@@ -1,0 +1,6 @@
+devlet_id	sorun	oneri	kaynak/olcum
+norvec-isvec-birligi	isvec ile renk yakinligi dE 11.6 (1814-11-04..1905-06-07 Norvec ve Isvec bitisik, ayirt etmek zor)	norvec-isvec-birligi renginin tonunu isvec'ten >=20 dE uzaklastir (motor dondurma: renkler.py'a dokunulmadi)	arac/renk_olc.py ciktisi, 28 Eki
+schleswig-holstein	BOYALAR'da tanimli (#03a6ff, renkler.py:686); Kiel/Flensburg/Aabenraa/Sonderborg/Haderslev/Tonder 1460-03-05..1864-10-30 bu devlet	yeni boya gerekmez; koşudan sonra danimarka/almanya ile ayirt edilebilirligi renk_olc ile bak	renkler.py
+feroe-adalari	BOYALAR'da tanimli (#5a24cc, renkler.py:4712); Torshavn 1948-04-01..2000-12-31	yeni boya gerekmez	renkler.py
+schleswig-holstein-1848	BOYALAR'da var ama hicbir zincirde yok (1848-51 Gecici Hukumet yazilmadi)	1848-51 dilimi gun kaynagi bulunursa Kiel/Flensburg zincirine yazilir; boya hazir	borc
+gronland / aland	Gronland ve Aland'da yerlesim noktasi yok (boya degil veri borcu)	Nuuk ve Mariehamn noktalari + zincir (Aland: 1809, 1917, 1921 Milletler Cemiyeti karari)	borc

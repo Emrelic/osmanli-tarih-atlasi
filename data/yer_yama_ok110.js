@@ -71,7 +71,7 @@ window.YER_YAMA_OK110 = [
  {ad:"Yagodina (Jagodina)",
   s:[{f:"1281-01-01",t:"1439-08-27",d:"sirbistan"},
      {f:"1444-08-15",t:"1459-06-20",d:"sirp-despotlugu"},
-     {f:"1689-09-24",t:"1690-09-09",d:"avusturya"},
+     {f:"1689-09-24",t:"1690-09-09",d:"macaristan-habsburg"},
      {f:"1717-08-18",t:"1739-09-18",d:"avusturya"},
      {f:"1878-07-13",t:"1882-03-06",d:"sirbistan-prensligi"},
      {f:"1882-03-06",t:"1918-12-01",d:"sirbistan-kralligi"},

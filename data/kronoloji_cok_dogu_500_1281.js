@@ -4619,7 +4619,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "ic_not": "Samguk sagi Seong 16 (538). Gün yok: yıl."
  },
  { "odak_yer":["Xi'an"], 
-  "t": "0660-08-01",
+  "t": "0660-08-29",
   "b": "Sabi ve Ungjin düştü, Kral Uija teslim oldu; Baekje sona erdi",
   "tur": "son",
   "onem": 5,
@@ -4639,7 +4639,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   "kaynak": "Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。»",
   "gun": "Taejong 7 (660) 7. ay 13-18 (ay-güneş)",
   "kesinlik": "ay",
-  "ic_not": "Samguk sagi Taejong 7 (660) 7. ay 13-18 (ay-güneş; 7. ay başı ≈ 660-08-11): Uija 13'ünde Ungjin'e kaçtı, 18'inde teslim oldu; Jiu Tangshu 4 haberi 八月庚辰 (= 660-09-21) tarihler. Künye t = 0660-08-01 (ay).",
+  "ic_not": "KORE-JAPONYA 29 Ekim 2026: gün 0660-08-01 (ay başı) → 0660-08-29: Samguk sagi 武烈王 7/7/18 Uija'nın teslimi [O] (Silla 元嘉曆, ±1 gün); Jiu Tangshu 顯慶5/8/庚辰 = 660-09-21 Tang sarayına haber günüdür [O] (çelişki beyanı). Samguk sagi Taejong 7 (660) 7. ay 13-18 (ay-güneş; 7. ay başı ≈ 660-08-11): Uija 13'ünde Ungjin'e kaçtı, 18'inde teslim oldu; Jiu Tangshu 4 haberi 八月庚辰 (= 660-09-21) tarihler. Künye t = 0660-08-01 (ay).",
   "ic_not_takvim": "Ay hassasiyeti: 660 Ağustos (7/18 ≈ 660-08-28 ±1; gün seçilmedi)"
  },
  { "odak_yer":["Xi'an"], 
