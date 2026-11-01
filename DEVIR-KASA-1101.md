@@ -98,3 +98,33 @@ bekleyen: #100 #113 #132 #133 #135 #138 #151 #152 #172 #173. Yeni post-it yalnı
 - Yıl temsilî borç 382 (izleme tavanı 151) — birleşen kıta işleri `YYYY-01-01` kırılmalarını
   artırdı. Değişmez 2s: 172 açık. Kaynak sınırı 2 Kasım 09:00'da açılınca ilk iş.
 - Değişmez 8a tavanı koşu 31'de 180→182 açıldı (Tirol/Habsburg 1816-78) — koşu 32'de ölç.
+
+## I. UMIT'ten gelen 20 dal (`umit-1102-*`) — YALNIZ LİSTE, birleştirilmedi
+Ölçüm: KASA, 2 Kasım 2026, `origin/main` 9a582db3c. "Önde" = `origin/main..dal` commit sayısı.
+Birleştirme kararı Emre'nin; dal silinmez.
+
+| Dal | Uç | Önde | Son commit |
+|---|---|---|---|
+| `umit-1102-atlas-push-oezbixtv` | 5c3bb311f | 4 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-backup-halef-1013` | ca71840b6 | 2 | 2026-10-13 · HALEF ZINCIRLERI: 3966 yerlesim noktasinin sahipligi 1923-10-29 -> 2000-12-31 |
+| `umit-1102-backup-halef-1013b` | 42f108f3c | 3 | 2026-10-13 · HALEF ZINCIRLERI TAMAMLANDI: yama dizileri ve yorum/JSON-anahtar bicimli kayi |
+| `umit-1102-backup-kunye-1946-2000` | 026d19630 | 4 | 2026-10-13 · DEVLETLER DIZINI: dalga 5 — kalan 49 devlete kronoloji (1755/1761 dolu) |
+| `umit-1102-entegrasyon-1029-asya-gec` | a40373a71 | 2 | 2026-10-29 · index.html: karayip ek yerlesim + 2 kronoloji_sinir adalar dosyasi script sat |
+| `umit-1102-postit-156` | 8b7d8b8ec | 1 | 2026-11-02 · POSTIT-156: Lugos 1716 kalesi Temeşvar'dan sonra düşsün (Emre, a seçeneği) |
+| `umit-1102-t2-kapi-olc` | 8ed2adabe | 2 | 2026-10-31 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye-admiring-chaum-3b91c8` | d23e4a145 | 4 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye-elastic-bhaskara-799828` | 325e447ec | 3 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye-intelligent-newton-56b28c` | e6f44ac7d | 4 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye-nervous-proskuriakova-c27f6d` | 5c3bb311f | 4 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye-postit-133` | a44d48b31 | 2 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye-postit-145` | 05ae18334 | 2 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye-postit-148` | 915ef4ce6 | 2 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye-postit-158` | 8179b5c3e | 2 | 2026-10-30 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-tahliye2-postit-148` | 8ed2adabe | 2 | 2026-10-31 · damga: dosya-basi + genel sürüm damgası (push kapısı) |
+| `umit-1102-umit-tahta-yerel-1006` | 6f7cbc0ee | 15 | 2026-10-06 · TAHTA M-5883 — HAZIR KITA 0510 2217 -> YILDIRIM BAYEZIT |
+| `umit-1102-yedek-atlas-main-oncesi-1006` | c504990d2 | 33 | 2026-10-05 · TAHTA M-5754 — HAZIR KITA 0510 2247 -> YILDIRIM BAYEZIT |
+| `umit-1102-yedek-damga-oncesi` | 9fdfae42c | 4 | 2026-10-13 · PROTOTIP: damga artisi denetimi tembel data/*.js'i kapsar, yayinda olmayan co |
+| `umit-1102-yedek-m5755` | 11e3dd92d | 1 | 2026-10-06 · TAHTA M-5755 — HAZIR KITA 0610 0100 -> YILDIRIM BAYEZIT |
+
+- 🔴 **#156 (8b7d8b8ec, `umit-1102-postit-156`) main'de DEĞİL** — Lugos 1716 kalesi Temeşvar'dan sonra düşsün (Emre, a seçeneği). Ölçüldü: `git merge-base --is-ancestor` → değil.
+- `atlas-push-oezbixtv` ile `tahliye-nervous-proskuriakova-c27f6d` aynı uç (5c3bb311f); `t2-kapi-olc` ile `tahliye2-postit-148` aynı uç (8ed2adabe).
