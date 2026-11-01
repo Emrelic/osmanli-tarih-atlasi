@@ -1052,6 +1052,27 @@ def _gecitleri_oku():
 GECIT_KAYIT, GECIT_IZI = _gecitleri_oku()
 print(f"  geçit: {len(GECIT_KAYIT)} kayıt · data/gecitler.js sha256 {GECIT_IZI[:12]}")
 
+# 🌊 SU GEÇİŞİ (post-it #151) — bayrak açıksa deniz/boğaz geçidi kayıtları da
+#    koşu başında okunur (aynı gerekçe: Dijkstra'da geç okunan dosya sessizce
+#    çıktıya girer). Bayrak kapalıyken dosyaya hiç dokunulmaz.
+SU_GECIS = os.environ.get("MOTOR_SU_GECIS") == "1"
+
+
+def _su_gecitleri_oku():
+    """data/su_gecitleri.js → ([(lon, lat, tur, etki_km, akinti, ad)], sha256)."""
+    import hashlib as _hl
+    _ham = io.open(os.path.join(KOK, "data", "su_gecitleri.js"), "rb").read()
+    _kayit = [(float(g["lon"]), float(g["lat"]), g["tur"], float(g["etki_km"]),
+               float(g.get("akinti", 1.0)), g["ad"])
+              for g in girdi._cevir(_ham.decode("utf-8"), "SU_GECITLERI")]
+    return _kayit, _hl.sha256(_ham).hexdigest()
+
+
+SU_GECIT_KAYIT, SU_GECIT_IZI = ([], "") if not SU_GECIS else _su_gecitleri_oku()
+if SU_GECIS:
+    print(f"  🌊 su geçidi: {len(SU_GECIT_KAYIT)} kayıt · data/su_gecitleri.js "
+          f"sha256 {SU_GECIT_IZI[:12]}")
+
 # ---------------- Dağ sırtları ----------------
 # İki şehir arasında dağ varsa sınır dağın sırtından geçer. Natural Earth dağ
 # sırası poligonlarının orta ekseni (skeleton yerine merkez hattı yaklaşımı:
@@ -1732,7 +1753,53 @@ _KVDY = KV_ADIM * 111.32
 # Yalnız KIYI hücresine (sınırın değdiği hücre) dokunan adımlar sınanır:
 # iç hücreden iç hücreye adım denize değemez.
 # MOTOR_BOGAZ_KAPALI=1 eski davranış (A/B için).
+#
+# ═══ 🌊 SU GEÇİŞİ — post-it #151 (Emre, 1 Kasım 2026: "a seçeneği") ════════
+# MOTOR_SU_GECIS=1 iken yukarıdaki YASAK bir BEDELE döner: suyu kesen adım
+# geçilebilir, ama nehir kenar bedeliyle AYNI birimde (saat × 5,04 km-eşdeğeri)
+# ek bedel öder. Emre'nin kuralı: karşı kıyı, bedeli ödedikten sonra hâlâ en
+# ucuz tohumsa onun olur; kuş uçuşu uzak ama kara bağlantılı yerleşim avantajlı
+# kalır. Bedel = taban(genişlik) × derinlik × akıntı, kale çifti/feribot
+# kaydında taban en çok nehir tablosunun aynı kademesi kadar:
+#   genişlik  adımın SUDAN geçen uzunluğu (11 örnekten su payı × adım km)
+#   derinlik  ETOPO (eğim DEM'inin AYNISI; deniz tabanı eksi yükseklik) — su
+#             örneklerinin EN DERİNİ; DEM yoksa çarpan 1 ve loga basılır
+#   akıntı    data/su_gecitleri.js (yoksa 1)
+# 🔴 KAPSAM: bu yalnız ızgara ADIMLARINI değiştirir (8 komşuda ≤ ~8 km, 16
+#    komşuda ≤ ~12 km su). 15-40 km'lik geçiş (Korint Körfezi'nin geniş kısmı,
+#    Manş'ın dar ucu) tek adıma sığmaz — onun için iki kıyı arasında uzun
+#    "feribot kenarı" gerekir; BU SÜRÜMDE YOK, beyan edilmiş borçtur.
+# Bedel `_KVNEHIR` kenar sözlüğüne EKLENİR ⇒ üretim, iki etiket, epok devri ve
+# saat matrisi Dijkstra'ları kod değişmeden aynı bedeli görür. Nehir A/B'si
+# (`_kv_dijkstra(_kvsurt, None)`) bu bayrakla "nehir+su" farkını ölçer.
+SU_TABAN_SAAT = ((3.0, 8.0), (15.0, 16.0), (40.0, 40.0))   # (≤ km, saat) · ötesi yasak
+SU_DERIN_CARPAN = ((20.0, 0.75), (200.0, 1.0), (float("inf"), 1.25))   # (≤ m, çarpan)
+
+
+def _su_saat(su_km, derin_m, akinti=1.0, kademe_saat=None):
+    """Bir su adımının bedeli (saat) — None ise geçilemez (açık deniz).
+    `kademe_saat`: kale çifti/feribot kaydının nehir tablosundaki bedeli;
+    taban bundan pahalı olamaz. Akıntı en son çarpılır (kayıtlı geçişte de
+    akıntı vardır)."""
+    taban = None
+    for ust, saat in SU_TABAN_SAAT:
+        if su_km <= ust:
+            taban = saat
+            break
+    if taban is None:
+        return None
+    if derin_m is not None:
+        for ust, c in SU_DERIN_CARPAN:
+            if derin_m <= ust:
+                taban *= c
+                break
+    if kademe_saat is not None:
+        taban = min(taban, kademe_saat)
+    return taban * akinti
+
+
 _KVSU = set()
+_su_ad = []                        # SU_GECIS: (kenar anahtarı, adım km, su payı, [(x, y)…])
 if os.environ.get("MOTOR_BOGAZ_KAPALI") != "1":
     asama("Kara-kısıtlı sahiplik: boğaz yasağı (sudan geçen adım)")
     from rasterio import features as _bz_rfe
@@ -1753,14 +1820,85 @@ if os.environ.get("MOTOR_BOGAZ_KAPALI") != "1":
         _bz_x = _kvx0 + (_bz_ii + 0.5) * KV_ADIM
         _bz_y = _kvy0 + (_bz_jj + 0.5) * KV_ADIM
         _bz_su = _np.zeros(len(_bz_ii), dtype=bool)
+        _bz_m = []                                   # her t için su maskesi
         for _t in _bz_t:
-            _bz_su |= ~shapely.contains_xy(KARA, _bz_x + _t * _bz_di * KV_ADIM,
-                                          _bz_y + _t * _bz_dj * KV_ADIM)
+            _m = ~shapely.contains_xy(KARA, _bz_x + _t * _bz_di * KV_ADIM,
+                                      _bz_y + _t * _bz_dj * KV_ADIM)
+            _bz_su |= _m
+            if SU_GECIS:
+                _bz_m.append(_m)
         for _h in (_bz_jj[_bz_su] * _kvnx + _bz_ii[_bz_su]).tolist():
             _KVSU.add(_h * _KV_YS + _bz_yi)
+        if SU_GECIS:
+            _bz_M = _np.stack(_bz_m, axis=1)[_bz_su]           # (kenar, 11)
+            _bz_X, _bz_Y = _bz_x[_bz_su], _bz_y[_bz_su]
+            _bz_H = (_bz_jj[_bz_su] * _kvnx + _bz_ii[_bz_su]).tolist()
+            for _r in range(len(_bz_H)):
+                _cy = _bz_Y[_r]
+                _akm = math.hypot(_KVDY * math.cos(math.radians(_cy)) * _bz_di,
+                                  _KVDY * _bz_dj)
+                _pts = [(float(_bz_X[_r] + _t * _bz_di * KV_ADIM),
+                         float(_cy + _t * _bz_dj * KV_ADIM))
+                        for _t, _w in zip(_bz_t, _bz_M[_r]) if _w]
+                _su_ad.append((_bz_H[_r] * _KV_YS + _bz_yi, _akm,
+                               float(_bz_M[_r].sum()) / len(_bz_t), _pts))
     del _bz_kiyi, _bz_kara
     print(f"  sudan geçen adım YASAK: {len(_KVSU):,} yönlü kenar "
           f"(ÖNGÖRÜ ~101.000 = 2 × 50.617, 8 komşuda; 16 komşuda daha çok)")
+    if SU_GECIS:
+        asama("Kara-kısıtlı sahiplik: su geçiş bedeli (#151)")
+        # ① derinlik — ETOPO'dan, su örneklerinin en derini
+        _su_derin = [None] * len(_su_ad)
+        if EGIM_DEM:
+            import rasterio as _rio_su
+            _su_pt, _su_sahip = [], []
+            for _r, (_, _, _, _pts) in enumerate(_su_ad):
+                _su_pt.extend(_pts)
+                _su_sahip.extend([_r] * len(_pts))
+            with _rio_su.open(EGIM_DEM) as _ds:
+                for _r, _v in zip(_su_sahip, _ds.sample(_su_pt)):
+                    _d = max(0.0, -float(_v[0]))
+                    if _su_derin[_r] is None or _d > _su_derin[_r]:
+                        _su_derin[_r] = _d
+            print(f"  derinlik: {len(_su_pt):,} su örneği ETOPO'dan okundu")
+        else:
+            print("  ⚠️ DERİNLİK YOK (eğim DEM'i yok) — derinlik çarpanı 1")
+        # ② geçit kaydı — adım orta noktası `etki_km` içinde mi
+        _su_kad = NEHIR_BEDEL_SAAT[NEHIR_OZNE]
+        _su_say = {"adim": len(_su_ad), "yasak": 0, "kayitli": 0,
+                   "sig": 0, "derin": 0, "taban": {}}
+        if _KVNEHIR is None:
+            _KVNEHIR = ({}, bytearray(_kvnx * _kvny))
+        _sb, _sbay = _KVNEHIR
+        for _r, (_k, _akm, _pay, _pts) in enumerate(_su_ad):
+            _mx = sum(p[0] for p in _pts) / len(_pts)
+            _my = sum(p[1] for p in _pts) / len(_pts)
+            _ak, _kad = 1.0, None
+            for (glo, gla, tur, etki, akinti, _gad) in SU_GECIT_KAYIT:
+                if abs(gla - _my) < 1.0 and girdi.km(_my, _mx, gla, glo) <= etki:
+                    _ak = max(_ak, akinti)
+                    _kb = _su_kad.get(tur)
+                    if isinstance(_kb, (int, float)):
+                        _kad = _kb if _kad is None else min(_kad, _kb)
+            _skm = _pay * _akm
+            _saat = _su_saat(_skm, _su_derin[_r], _ak, _kad)
+            if _saat is None:
+                _su_say["yasak"] += 1
+                continue
+            _KVSU.discard(_k)
+            _sb[_k] = _sb.get(_k, 0.0) + _saat * NEHIR_KM_SAAT
+            _sbay[_k // _KV_YS] = 1
+            _su_say["kayitli"] += _kad is not None
+            _dr = _su_derin[_r]
+            _su_say["sig"] += _dr is not None and _dr <= SU_DERIN_CARPAN[0][0]
+            _su_say["derin"] += _dr is not None and _dr > SU_DERIN_CARPAN[1][0]
+            _tk = next(u for u, _ in SU_TABAN_SAAT if _skm <= u)
+            _su_say["taban"][_tk] = _su_say["taban"].get(_tk, 0) + 1
+        print(f"  🌊 SU GEÇİŞİ AÇIK: {_su_say['adim']:,} su adımı → bedelli "
+              f"{_su_say['adim'] - _su_say['yasak']:,} · yasak kalan {_su_say['yasak']:,} · "
+              f"kayıtlı geçitte {_su_say['kayitli']:,} · sığ {_su_say['sig']:,} · "
+              f"derin {_su_say['derin']:,} · genişlik sınıfı {_su_say['taban']}")
+        del _su_ad
 else:
     print("  🔴 BOĞAZ YASAĞI KAPALI (MOTOR_BOGAZ_KAPALI=1) — adımlar suyu atlayabilir")
 
