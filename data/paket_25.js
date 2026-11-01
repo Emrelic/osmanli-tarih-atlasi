@@ -77,6 +77,15 @@ window.OLAYLAR_OK104 = [
   d:"Charles Thopia'nın 1368'de aldığı Draç'ı oğlu George Thopia 1392'de Venedik'e bıraktı (TDV Draç: 'Thopia’nın oğlu George tarafından Venedik’e bırakıldı', yılsız); Venedik şehrin statülerini Ağustos 1392'de onayladı. Venedik, Draç'ı 1501'de Osmanlılar alana kadar elinde tuttu. Yalnız yıl bilinir; gün teyitsizdir.",
   kaynak:"drac", duygu:["😐"] },
 
+// ── DRAC-1018 · Draç 1304 — Anjou'ya dönüş. TDV drac/arnavutluk bu aralığı anlatmaz;
+// yıl: Europange / Angevin Studies 'Albania presentation'. Gün teyitsiz → 1304-01-01.
+{ t:"1304-01-01", k:"siyaset", kapsam:"dis", etiket:["toprak-kazanc","konu-siyasi"],
+  b:"Taranto'lu Philip Draç'ı (Durrës) yeniden Anjou yönetimine aldı",
+  gun:"1304", yer:"Draç", yer_id:"Draç",
+  kisiler:"Taranto'lu Philip (I. Philippe d'Anjou-Tarente)",
+  d:"1284'te Bizans'a geçen Draç'ta Napoli Kralı II. Charles'ın oğlu Taranto Prensi Philip 1304'te Anjou yönetimini geri kurdu; Arnavutluk Krallığı (Regnum Albaniae) yeniden ilan edildi, ama Philip'in sağlığında bu şehirle sınırlı kaldı (Europange: 'The kingdom of Albania was re-established in 1304, when Philip of Taranto was able to restore the Angevin regime in Durazzo'). 1332'de oğlu Robert Draç'ı Akhaya Prensliği karşılığında Gravina'lı John'a verdi; Durazzo dükalığı 1368'de Charles Thopia şehri alana kadar Anjou elinde kaldı. Yalnız yıl bilinir; gün teyitsizdir.",
+  kaynak:"Europange / Angevin Studies, 'Albania presentation' (angevine-europe.huma-num.fr/ea/en/albania-presentation) · A. Kiesewetter, Palaver 4 n.s. (2015) 255-298, n. 99 (Draç 1288'de kesin Bizans elinde)", duygu:["😐"] },
+
 ];
 
 ;
