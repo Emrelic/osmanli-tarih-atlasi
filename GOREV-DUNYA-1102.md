@@ -174,8 +174,8 @@ G — Renk ve bölge (senin işin değil)
 ## Hücreler
 | # | Hücre | Durum | Sayılar | Commit |
 |---|---|---|---|---|
-| 1 | Avrupa MÖ 3500–MÖ 500 | başladı | | |
-| 2 | Avrupa MÖ 500–MS 500 | bekliyor | | |
+| 1 | Avrupa MÖ 3500–MÖ 500 | **bitti** (birinci geçiş) | envanter 32 künye · 23 yerleşim · 55 madde. Künye: 12 kaynak düzeltildi, 1 tarih (Sirakuza t), 0 eklendi (18 bekleyen, tavan). Madde: +24, 3 düzeltildi, 0 çıkarıldı. Yerleşim/dönem: 0. D2s 201→201. Bekleyen: `denetim/DUNYA-1102/avrupa-mo3500-500/` | (bu push) |
+| 2 | Avrupa MÖ 500–MS 500 | başladı — envanter 63 künye · 75 yerleşim · 193 madde; 2 ajan | | |
 | 3 | Avrupa 500–1000 | bekliyor | | |
 | 4 | Avrupa 1000–1500 | bekliyor | | |
 | 5 | Avrupa 1500–1800 | bekliyor | | |
