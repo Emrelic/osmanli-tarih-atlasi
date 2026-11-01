@@ -14,7 +14,7 @@
 // 🔴 `kid` YALNIZ KÜNYE PENCERESİ DÖNEMİ KAPSIYORSA YAZILDI (`§3.5.0`).
 //   23 dönem pencereyi AŞIYOR ve onlara `kid` YAZILMADI — yazsaydım
 //   23 adet `4c`/`4d` ihlali doğardı. Üçü de GERÇEK bir tarih sorusu:
-//     eflak/bogdan → 1859-01-24 (iki prensliğin BİRLEŞMESİ) vs veri 1878
+//     eflak/bogdan → 1859-02-05 (iki prensliğin BİRLEŞMESİ) vs veri 1878
 //     erdel        → 1541 Budin'in düşüşü vs künye 1570 Speyer (UNVAN)
 //     Sofya        → 1878-01-04 Ayastefanos vs künye 1878-07-13 Berlin
 //   Ayrıntı: denetim/ESLEME-VASSAL-KUNYE-0906.md §⑨
@@ -311,8 +311,8 @@ window.YER_YAMA_VASSAL_KID_0906 = [
   { ad:"Segesvár (Sighişoara)", v:[{f:"1526-09-01",t:"1541-08-29",statu:"vassal"},{f:"1541-08-29",t:"1687-08-12",statu:"vassal"}] },
   { ad:"Prevadi (Provadia)", v:[{f:"1878-07-13",t:"1908-10-05",statu:"vassal"}] },
   { ad:"Yagodina (Jagodina)", v:[{f:"1830-11-08",t:"1878-07-13",statu:"vassal"}] },
-  { ad:"Delvine", v:[{f:"1430-10-01",t:"1537-08-25",k:"Arvanid sancağı — nominal tâbiiyet, KESİN hâkimiyet yok",statu:"vassal"}] },
-  { ad:"Ayasaranda (Sarandë)", v:[{f:"1430-10-01",t:"1537-08-25",k:"Arvanid sancağı — nominal tâbiiyet",statu:"vassal"}] },
+  { ad:"Delvine", v:[{f:"1430-10-09",t:"1537-08-25",k:"Arvanid sancağı — nominal tâbiiyet, KESİN hâkimiyet yok",statu:"vassal"}] },
+  { ad:"Ayasaranda (Sarandë)", v:[{f:"1430-10-09",t:"1537-08-25",k:"Arvanid sancağı — nominal tâbiiyet",statu:"vassal"}] },
   { ad:"Debrecen", v:[{f:"1526-08-29",t:"1660-08-27",statu:"vassal"}] },
   { ad:"Delgo (Sükkût)", v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },
   { ad:"Abrî (Mahas)", v:[{f:"1821-01-04",t:"1885-01-26",k:"Mısır (Kavalalı)",statu:"vassal",kid:"misir-kavalali"}] },

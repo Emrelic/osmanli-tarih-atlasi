@@ -150,7 +150,7 @@ window.YERLESIMLER_AMERIKA3 = [
 
 { ad:"Culiacán (San Miguel de Culiacán)", tur:"sehir", lat:24.8091, lon:-107.3940, g:0, k:2,
   kur:"1531-01-01",
-  s:[{f:"1531-01-01",t:"1535-04-17",d:"ispanya"},
+  s:[{f:"1531-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
      {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
      {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 1531, Nuño Beltrán de Guzmán; kuzeybatının en eski İspanyol yerleşimi. GÜN BİLİNMİYOR. 1531-1535 arası KASTEN ispanya: yeni-ispanya künyesi devletler.js'te 1535-04-17'de başlıyor, §3.5 hayalet sınavı" },

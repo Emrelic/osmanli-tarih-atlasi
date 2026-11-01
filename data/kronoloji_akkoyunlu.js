@@ -499,7 +499,7 @@ window.KRONOLOJI_AKKOYUNLU = [
   d:"911 (1505) yılında Tebriz'i kaybeden Elvend öldü. Bölünmüş devletin iki kolundan biri böylece sahipsiz kaldı ve geriye yalnız Murad'ın Irak kolu kaldı.",
   kaynak:"akkoyunlular" },
 
-{ t:"1509-01-01", b:"Murad Bağdat'tan kaçtı — Irak da elden çıktı", gun:"H. 915 / 1509", ic_not_gun:"H. 915 / 1509 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"kayip",
+{ t:"1508-05-02", b:"Murad Bağdat'tan kaçtı — Irak da elden çıktı", gun:"H. 915 / 1509", ic_not_gun:"H. 915 / 1509 — yıl hassasiyeti · TDV `akkoyunlular`, `uzun-hasan`, `karakoyunlular` gün/ay vermiyor (KRONO-DOGU-ISLAM-0929 ölçümü)", tur:"kayip",
   onem:4, dunya:1, kapsam:"dis", etiket:["toprak-kayip","safevi","konu-askeri"],
   yer_id:"Bağdat",
   d:"915 (1509) yılında Murad Bağdat'tan kaçtı. Akkoyunlu'nun son toprak parçası da Safevîlerin eline geçti; hanedan bundan sonra beş yıl daha yaşar ama artık bir devlet değil, bir hükümdar adayıdır.",

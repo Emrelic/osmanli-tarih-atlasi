@@ -77,7 +77,7 @@ window.EKOKUMA_P76B = [
     +"■ ÖYLEYSE CEVAP\n"
     +"Romanya, \"Latin kökenli bir halkın Slav ve Macar denizinde ayrı kalma iddiası\" olarak anlatılır; ama devlet olarak var oluşunun somut sebebi, iki ayrı vassal prensliğin kendi meclislerini kullanarak birleşmesi ve bunun büyük devletlerce geri alınamamasıdır. Yani sebep etnik değil kurumsal: ayrı meclisler vardı, o meclisler birleşmeyi seçti.",
   kesinlik:"kesin",
-  olay:["1859-01-24","1862-02-21","1881-03-26"],
+  olay:["1859-02-05","1862-02-21","1881-03-26"],
   kaynak:"TDV: abdulaziz (Cevdet Küçük) · berlin-antlasmasi (Ali İhsan Gencer) · doksanuc-harbi (Mahir Aydın) · sark-meselesi (Kemal Beydilli)" },
 
 { id:"bunv-lubnan-1861", baslik:"Lübnan neden Suriye'den ayrı? 1861 özel statüsü", tur:"bu-ulke-neden-var",

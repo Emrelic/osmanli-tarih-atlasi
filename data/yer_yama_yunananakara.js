@@ -200,10 +200,10 @@ window.YER_YAMA_YUNANANAKARA = [
     ad: "Aydonat (Paramythia)",
     // işgal/teslim: 1913-03-06 (veriden) → Atina 1913-11-14
     d: [
-      { f: "1430-10-01", t: "1913-11-14" }
+      { f: "1430-10-09", t: "1913-11-14" }
     ],
     s: [
-      { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
+      { f: "1281-01-01", t: "1430-10-09", d: "bizans" },
       { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
@@ -214,10 +214,10 @@ window.YER_YAMA_YUNANANAKARA = [
     ad: "Filat (Filiates)",
     // işgal/teslim: 1913-03-06 (veriden) → Atina 1913-11-14
     d: [
-      { f: "1430-10-01", t: "1913-11-14" }
+      { f: "1430-10-09", t: "1913-11-14" }
     ],
     s: [
-      { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
+      { f: "1281-01-01", t: "1430-10-09", d: "bizans" },
       { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
@@ -228,10 +228,10 @@ window.YER_YAMA_YUNANANAKARA = [
     ad: "Margiliç (Margariti)",
     // işgal/teslim: 1913-03-06 (veriden) → Atina 1913-11-14
     d: [
-      { f: "1430-10-01", t: "1913-11-14" }
+      { f: "1430-10-09", t: "1913-11-14" }
     ],
     s: [
-      { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
+      { f: "1281-01-01", t: "1430-10-09", d: "bizans" },
       { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
@@ -259,10 +259,10 @@ window.YER_YAMA_YUNANANAKARA = [
     ad: "Souli (Sûli)",
     // işgal/teslim: 1913-03-06 (veriden) → Atina 1913-11-14
     d: [
-      { f: "1430-10-01", t: "1913-11-14" }
+      { f: "1430-10-09", t: "1913-11-14" }
     ],
     s: [
-      { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
+      { f: "1281-01-01", t: "1430-10-09", d: "bizans" },
       { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],
@@ -287,10 +287,10 @@ window.YER_YAMA_YUNANANAKARA = [
     ad: "İgumenitsa (Gomenice)",
     // işgal/teslim: 1913-03-06 (veriden) → Atina 1913-11-14
     d: [
-      { f: "1430-10-01", t: "1913-11-14" }
+      { f: "1430-10-09", t: "1913-11-14" }
     ],
     s: [
-      { f: "1281-01-01", t: "1430-10-01", d: "bizans" },
+      { f: "1281-01-01", t: "1430-10-09", d: "bizans" },
       { f: "1913-11-14", t: "1973-06-01", d: "yunanistan" },{f:"1973-06-01",t:"2000-12-31",d:"yunanistan-cumhuriyeti",kaynak:"Britannica 'Greece' (1973-06-01 cunta monarsiyi kaldirdi; 1974-12-08 referandum)"}
     ],
     isg: [ { f: "1913-03-06", t: "1913-11-14", d: "yunanistan" } ],

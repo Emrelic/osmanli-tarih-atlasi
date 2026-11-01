@@ -11,7 +11,7 @@
 // Haritada bugün GÖRÜNMEZ: motor ufku 1281 (arac/girdi.py UFUK) — kusur değil.
 // ============================================================================
 window.KRONOLOJI_COK_500_1000 = [
-  { t:"0637-01-01", k:"fetih",tur:"fetih", b:"Halep ve Kuzey Suriye şehirleri müslümanlara geçti",
+  { t:"0637-02-02", k:"fetih",tur:"fetih", b:"Halep ve Kuzey Suriye şehirleri müslümanlara geçti",
     gun:"16 H. / 637 (TDV yıl verir)", yer:"Halep", yer_id:"Halep",
     d:"Yermük zaferinden sonra Suriye Bizans'ın elinden çıktı; 637'de Şeyzer, Kınnesrîn ve Halep, bir yıl sonra Antakya alındı.",
     kaynak:"TDV: hulefa-yi-rasidin — '16’da (637) Şeyzer, Kınnesrîn, Halep, bir yıl sonra Antakya'",
@@ -30,7 +30,7 @@ window.KRONOLOJI_COK_500_1000 = [
     ic_not_t:"Hicrî 32 iki milâdî yıla düşer (652-53); ilk yıl yazıldı.",
     taraflar:["hulefa-yi-rasidin","hazar-kaganligi"], etiket:["konu-askeri"] },
 
-  { t:"0656-01-01", k:"catisma", tur:"askeri", b:"Cemel Vak'ası: Hz. Ali Basra önünde üstün geldi",
+  { t:"0656-12-09", k:"catisma", tur:"askeri", b:"Cemel Vak'ası: Hz. Ali Basra önünde üstün geldi",
     gun:"36 H. / 656 (TDV yıl verir)", yer:"Basra", yer_id:"Basra", kisiler:"Hz. Ali · Hz. Âişe",
     d:"Hz. Âişe'nin liderliğinde Basra'ya giden muhaliflerle Hz. Ali arasındaki çarpışmada birçok müslüman öldü, Hz. Ali galip geldi.",
     kaynak:"TDV: hulefa-yi-rasidin — 'Cemel Vak‘ası vuku buldu (36/656)'",
@@ -85,19 +85,19 @@ window.KRONOLOJI_COK_500_1000 = [
     kaynak:"TDV: saffariler — 'Böylece Saffârîler’in Leysîler denilen kolu sona erdi (Receb 298 / Mart 911)'",
     taraflar:["saffari","samani"], etiket:["toprak-kayip","konu-askeri"] },
 
-  { t:"0946-01-01", k:"hukumdar",tur:"hukumdar", b:"İhşîd Muhammed b. Tuğç Dımaşk'ta öldü",
+  { t:"0946-07-25", k:"hukumdar",tur:"hukumdar", b:"İhşîd Muhammed b. Tuğç Dımaşk'ta öldü",
     gun:"Zilhicce 334 / Temmuz 946 (gün bilinmiyor)", yer:"Dımaşk", yer_id:"Şam", kisiler:"Muhammed b. Tuğç el-İhşîd · Ûnûcûr",
     d:"Kuzey Suriye'nin Hamdânîler'e, güneyin İhşîdîler'e bırakıldığı antlaşmadan sonra Dımaşk'a giden Muhammed b. Tuğç orada öldü; yerine oğlu Ûnûcûr geçti, yönetim fiilen Kâfûr'a kaldı.",
     kaynak:"TDV: ihsidiler — 'Muhammed b. Tuğç Dımaşk’a gitti ve orada öldü (Zilhicce 334 / Temmuz 946)'",
     taraflar:["ihsidi","hamdani-halep"], etiket:["konu-siyasi"] },
 
-  { t:"0958-01-01", k:"toprak-kayip", tur:"siyasi", b:"Büveyhî Muizzüddevle Musul'u aldı; Nâsırüddevle Halep'e sığındı",
+  { t:"0958-03-25", k:"toprak-kayip", tur:"siyasi", b:"Büveyhî Muizzüddevle Musul'u aldı; Nâsırüddevle Halep'e sığındı",
     gun:"347 H. / 958 (TDV yıl verir)", yer:"Musul", yer_id:"Musul", kisiler:"Nâsırüddevle · Muizzüddevle · Seyfüddevle",
     d:"Yıllık vergi konusunda anlaşılamayınca Muizzüddevle Musul ve Nusaybin'i ele geçirdi; Nâsırüddevle kardeşi Seyfüddevle'ye sığındı, vergi taahhüdüyle Musul'a döndü.",
     kaynak:"TDV: hamdaniler — 'Nâsırüddevle Halep emîri olan kardeşi Seyfüddevle’ye sığındı (347/958)'",
     taraflar:["hamdani-musul","buveyhi","hamdani-halep"], etiket:["toprak-kayip","konu-askeri"] },
 
-  { t:"0964-01-01", k:"isgal",tur:"isgal", b:"Musul yeniden Büveyhî işgaline uğradı; yönetim Ebû Tağlib Gazanfer'e verildi",
+  { t:"0964-01-19", k:"isgal",tur:"isgal", b:"Musul yeniden Büveyhî işgaline uğradı; yönetim Ebû Tağlib Gazanfer'e verildi",
     gun:"353 H. / 964 (TDV yıl verir)", yer:"Musul", yer_id:"Musul", kisiler:"Muizzüddevle · Ebû Tağlib Gazanfer · Nâsırüddevle",
     d:"Taahhüt yerine getirilmeyince Muizzüddevle Musul'u tekrar işgal etti; şehrin yönetimi Nâsırüddevle'nin oğlu Ebû Tağlib Gazanfer'e verildi, Nâsırüddevle Erdümüşt'e sürüldü.",
     kaynak:"TDV: hamdaniler — 'Musul Muizzüddevle tarafından tekrar işgal edildi ve şehrin yönetimi … Ebû Tağlib Gazanfer’e verildi (353/964)'",

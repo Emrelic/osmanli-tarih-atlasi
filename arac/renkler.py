@@ -4722,6 +4722,7 @@ BOYALAR = {
     "guatemala-kaptanligi": ("Guatemala Genel Kaptanlığı", "#24cca8"),
     "guney-osetya": ("Güney Osetya (fiilî)", "#2accd8"),
     "guney-sudan-ozerk-bolge": ("Güney Sudan Özerk Bölgesi (Addis Ababa Anlaşması)", "#aecc24"),
+    "glyndwr-galler": ("Galler Prensliği (Owain Glyndŵr ayaklanması)", "#c68a24"),
     "gwynedd": ("Gwynedd Krallığı / Galler Prensliği", "#2454c6"),
     "habsburg-hollandasi": ("Habsburg Hollandası (On Yedi Eyalet)", "#24b4c0"),
     "helvetik-cumhuriyeti": ("Helvetik Cumhuriyeti", "#6624cc"),
@@ -4905,6 +4906,15 @@ BOYALAR = {
     "como-komunu":              ("Como Komünü", "#e412ea"),
     "brescia-komunu":           ("Brescia Komünü", "#0cf06c"),
     "bergamo-komunu":           ("Bergamo Komünü", "#0c72a8"),
+    # BIRLESIM-1029 — haritada kullanilip BOYALAR'da olmayan 7 kimlik (durum_tablosu.harita_delikleri).
+    # renk_olc --oner (denetim/oneri-20261029-161034.txt yerel): GERCEK konum + donem engel kumesi.
+    "frigya":                   ("Frigya Krallığı (Gordion, Midas)", "#d82aba"),
+    "guanche-politileri":       ("Kanarya Adaları yerli politileri (Guanche)", "#d8542a"),
+    "samoa-kralligi":           ("Samoa Krallığı (Berlin Senedi, üçlü gözetim)", "#d85a2a"),
+    "sao-tome-ve-principe":     ("São Tomé ve Príncipe Cumhuriyeti", "#245ade"),
+    "vanuatu":                  ("Vanuatu Cumhuriyeti", "#d82ac0"),
+    "yeni-hebridler-kondominyumu": ("Yeni Hebridler Anglo-Fransız Kondominyumu", "#d82ac6"),
+    "yeni-zelanda-birlesik-kabileler": ("Yeni Zelanda Birleşik Kabileler Konfederasyonu (Te Whakaminenga)", "#d82ad8"),
 }
 
 

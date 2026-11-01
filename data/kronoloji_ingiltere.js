@@ -196,11 +196,11 @@ window.KRONOLOJI_INGILTERE = [
   d:"I. Edward şahsen sevk ettiği orduyla Wallace'ın piyade birliklerini (schiltron) Galler okçularının desteğiyle bozguna uğrattı. Wallace naiplik görevinden çekildi, ama İskoç direnişi kırılmadı.",
   kaynak:"A Dictionary of British History (OUP), «Falkirk, battle of» https://www.oxfordreference.com/display/10.1093/acref/9780191758027.001.0001/acref-9780191758027-e-1306 — «on 22 July 1298 defeated William Wallace's men» ; el-kitabi", yer_kon:[55.9997,-3.783] },
 
-{ t:"1305-01-01", b:"William Wallace idam edildi", tur:"son",
+{ t:"1305-08-23", b:"William Wallace idam edildi", tur:"son",
   onem:5, dunya:1, kapsam:"dis", etiket:["askeri","iskocya","ingiltere","konu-askeri","konu-siyasi","konu-kisiler"],
   yer_id:"Londra",
   d:"Yakalanan Wallace, Londra'da vatana ihanetten yargılanıp asılarak, bağırsakları çıkarılarak ve parçalara ayrılarak idam edildi; parçaları uyarı amacıyla İskoçya ve Kuzey İngiltere'nin farklı şehirlerinde sergilendi. İdam, Wallace'ı İskoç millî hafızasında bir şehide dönüştürdü.",
-  kaynak:"World Encyclopedia (OUP), «Wallace, Sir William» https://www.oxfordreference.com/display/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-12287 — «was eventually captured (1305) and executed» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1305-08-23; güvenilir kaynağın tarihi: 1305; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
+  kaynak:"World Encyclopedia (OUP), «Wallace, Sir William» https://www.oxfordreference.com/display/10.1093/acref/9780199546091.001.0001/acref-9780199546091-e-12287 — «was eventually captured (1305) and executed» ; J. R. Davies, «The Execution of William Wallace», Breaking of Britain (AHRC), Ağustos 2013, https://breakingofbritain.ac.uk/blogs/feature-of-the-month/august-2013/index.html — «died on Monday 23 August 1305» (Pipe Roll 33 Edw I; Flores Historiarum), yakalanma 5 Ağustos 1305 ; Ian Stone (KCL), aynı proje, Kasım 2012: Liber de Antiquis Legibus ve Annales Londonienses 23 Ağustos 1305'te birleşir", ic_not_t:"çift teyit (Davies 2013; Stone 2012): 23 Ağustos 1305. 14 Ekim 2026'daki yıla indirme (TEYIT-KARAR-1014) güvenilir akademik gün kaynağı bulunmadığı içindi; 29 Ekim 2026'da gün iki bağımsız akademik kaynakta bulundu, Emre'nin 'çelişkide en bilimsel seçeneği sen seç' yetkisiyle günlü hâle döndürüldü." },
 
 { t:"1306-03-25", b:"Robert Bruce İskoç kralı olarak taç giydi", tur:"hukumdar",
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","iskocya","konu-siyasi","konu-hanedan"],
@@ -595,19 +595,33 @@ window.KRONOLOJI_INGILTERE = [
   d:"Oliver Cromwell'in de yer aldığı yeni kurulmuş New Model Army, I. Charles'ın ana ordusunu Naseby'de ağır bir yenilgiye uğrattı. Zafer, savaşın gidişatını kalıcı olarak Parlamento lehine çevirdi.",
   kaynak:"A Dictionary of World History (OUP), «Naseby, Battle of (14 June 1645)» https://www.oxfordreference.com/display/10.1093/acref/9780199685691.001.0001/acref-9780199685691-e-2542 — «Naseby, Battle of (14 June 1645)» ; el-kitabi", yer_kon:[52.389,-0.982] },
 
-{ t:"1649-01-30", b:"I. Charles idam edildi, Cumhuriyet ilan edildi", tur:"son",
+{ t:"1649-03-17", b:"Krallık makamı kaldırıldı (Rump Parlamentosu)", tur:"siyaset",
+  onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","anayasa","ingiltere","konu-siyasi","konu-hukuk"],
+  yer_id:"Londra",
+  gun:"17 Mart 1649 JÜLYEN (British History Online: '17 March 1648/9')",
+  d:"İdamdan sekiz hafta sonra Rump Parlamentosu krallık makamını kaldıran yasayı geçirdi; Lordlar Kamarası da 19 Mart'ta kaldırıldı.",
+  kaynak:"British History Online, «Acts and Ordinances of the Interregnum» (Firth & Rait, 1911), tablo 1649 https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum/lxvi-lxxvi — 17 March 1648/9" },
+
+{ t:"1649-05-19", b:"İngiltere Commonwealth (Cumhuriyet) ilan edildi", tur:"kurulus",
+  onem:5, dunya:3, kapsam:"ic", etiket:["siyaset","anayasa","ingiltere","konu-siyasi","konu-hukuk"],
+  yer_id:"Londra",
+  gun:"19 Mayıs 1649 JÜLYEN",
+  d:"Rump Parlamentosu 'An Act declaring England to be a Commonwealth' ile İngiltere'yi kralsız ve Lordlar Kamarasız bir Commonwealth ve Özgür Devlet ilan etti.",
+  kaynak:"The Property Chronicle, «1649: the year England became a republic» https://www.propertychronicle.com/1649-the-year-england-became-a-republic/ ; yasa başlığı 'An Act declaring England to be a Commonwealth' (Firth & Rait) — akademik teyit bekler" },
+
+{ t:"1649-01-30", b:"I. Charles idam edildi", tur:"son",
   onem:5, dunya:4, kapsam:"ic", etiket:["siyaset","kriz","anayasa","ingiltere","konu-siyasi","konu-kisiler","konu-islahat","konu-hukuk"],
   yer_id:"Londra",
   gun:"30 Ocak 1649 JÜLYEN (İngiliz eski takvimi; Gregoryen 9 Şubat 1649) (eski İngiliz yılbaşı 25 Mart: çağdaş kayıtta 1648/49)",
-  d:"Özel bir yüksek mahkeme tarafından vatana ihanetle suçlanan I. Charles, Whitehall'da halkın önünde idam edildi — bir İngiliz kralının yargılanıp infaz edildiği ilk ve tek örnek. İnfazın hemen ardından monarşi kaldırılıp Commonwealth (Cumhuriyet) ilan edildi.",
+  d:"Özel bir yüksek mahkeme tarafından vatana ihanetle suçlanan I. Charles, Whitehall'da halkın önünde idam edildi — bir İngiliz kralının yargılanıp infaz edildiği ilk ve tek örnek. Krallık makamı 17 Mart, Commonwealth 19 Mayıs 1649'da ilan edildi (aşağıdaki iki madde).",
   kaynak:"The Oxford Companion to British History (OUP), «Charles I», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/charles-i-england — «beheaded, in front of the Banqueting House in Whitehall, on 30 January 1649» ; el-kitabi" },
 
-{ t:"1653-01-01", b:"Cromwell Lord Protektör oldu", tur:"hukumdar",
+{ t:"1653-12-16", b:"Cromwell Lord Protektör oldu", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"ic", etiket:["siyaset","ingiltere","konu-siyasi","konu-hanedan"],
   yer_id:"Londra",
-  gun:"1653",
+  gun:"16 Aralık 1653 JÜLYEN (İngiliz eski takvimi; Gregoryen 26 Aralık 1653)",
   d:"İç Savaş'ın askerî lideri Oliver Cromwell, Rump Parlamentosunu dağıttıktan sonra yeni anayasal düzenleme ile Lord Protektör unvanıyla fiilen tek adam yönetimini üstlendi. Yönetimi, cumhuriyetçi görünümlü ama giderek askerî ve kişisel bir iktidara dönüştü.",
-  kaynak:"Encyclopedia of World Biography (Gale), «Oliver Cromwell», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/oliver-cromwell — «by which Cromwell became Protector in December 1653» ; el-kitabi", ic_not_t:"gün yalnız güvensiz kaynakta: 1653-12-16 (gun: «16 Aralık 1653 JÜLYEN (İngiliz eski takvimi; Gregoryen 26 Aralık 1653)»); güvenilir kaynağın tarihi: 1653-12; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
+  kaynak:"Encyclopedia of World Biography (Gale), «Oliver Cromwell», encyclopedia.com https://www.encyclopedia.com/people/history/british-and-irish-history-biographies/oliver-cromwell — «by which Cromwell became Protector in December 1653» ; el-kitabi · gün: UK Parliament Living Heritage, «The Rump dissolved» https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/civilwar/overview/rump-dissolved/ — 16 Aralık 1653 kuruluş (resmî parlamento sitesi; bazı kaynaklar 15 Aralık: Instrument'ın kabulü)", ic_not_t:"28 Ekim 2026: TEYIT-KARAR-1014'te güvensiz kaynak diye yıla inmişti; UK Parliament Living Heritage 16 Aralık 1653'ü veriyor (güvenilir), gün geri yazıldı. 15 Aralık = Subaylar Konseyi'nin Instrument'ı kabulü" },
 
 { t:"1658-09-03", b:"Cromwell öldü", tur:"son",
   onem:3, dunya:1, kapsam:"ic", etiket:["siyaset","ingiltere","konu-siyasi","konu-kisiler"],
@@ -1295,7 +1309,7 @@ window.KRONOLOJI_INGILTERE = [
   d:"Osmanlı Devleti'nin Almanya yanında savaşa girmesi üzerine Britanya, 1878'den beri idaresinde bulunan Kıbrıs'ı resmen ilhak etti ve Osmanlı'ya savaş ilan etti; Mısır'daki nominal Osmanlı bağı ise henüz sona ermemişti. Bu iki adım, Britanya-Osmanlı ilişkisinin üç yüz yıllık ticaret ve diplomasi eksenli tarihini doğrudan bir savaşa dönüştürdü.",
   kaynak:"ingiltere (TDV)" },
 
-{ t:"1914-11-06", b:"Britanya Hint Seferi Kuvveti Basra'ya çıktı", tur:"savas",
+{ t:"1914-11-06", b:"Britanya Hint Seferi Kuvveti Şattülarab ağzında Fâv'a çıktı (Basra 22 Kasım'da işgal edildi)", tur:"savas",
   onem:3, dunya:2, kapsam:"dis", etiket:["askeri","birlesik-krallik","konu-askeri"],
   yer_id:"Basra",
   d:"Petrol sahalarını ve Basra Körfezi'ni güvence altına almak amacıyla gönderilen Britanya Hint Seferi Kuvveti, Basra'ya çıkarak Mezopotamya Cephesi'ni açtı. Cephe, sonraki üç yılda Bağdat'ın alınmasına kadar uzanacak uzun bir kampanyaya dönüşecekti.",
@@ -1763,7 +1777,7 @@ window.KRONOLOJI_INGILTERE = [
   onem:5, dunya:2, kapsam:"dis", etiket:["siyaset","anayasa","irlanda","konu-siyasi","konu-islahat","konu-hukuk"],
   yer_id:"Dublin",
   d:"Dublin'de toplanan İrlanda Parlamentosu, VIII. Henry'yi (önceki 'İrlanda Lordu' unvanı yerine) resmen İrlanda Kralı ilan etti; bu, İngiliz tacının İrlanda üzerindeki iddiasını papalık bağışına değil doğrudan egemenliğe dayandırmasını sağladı. Karar, 'teslim ve yeniden bağış' politikasıyla Gal beylerini İngiliz soyluluk unvanları karşılığında ikna etme stratejisinin de zeminini oluşturdu.",
-  kaynak:"el-kitabi" },
+  kaynak:"Letters and Papers, Foreign and Domestic, Henry VIII, c.16 (1898), no. 901 (Dublin Parlamentosu 13 Haziran-20 Temmuz 1541, 33 Hen. VIII, bölüm 1 «The King to be king of Ireland») ve no. 926 (St Leger, 26 Haziran 1541: kraliyet onayı Cumartesi 18 Haziran, Pazar 19 Haziran'da St Patrick's'te ilan): https://www.british-history.ac.uk/node/66572 , https://www.british-history.ac.uk/node/66573 ; Irish Historical Studies 30/119 (1997): 33 Hen. VIII c.1 (1541)" },
 
 { t:"1601-12-24", b:"Kinsale Savaşı — Dokuz Yıl Savaşı'nda İngiliz zaferi", tur:"savas",
   onem:5, dunya:3, kapsam:"dis", etiket:["askeri","savas","irlanda","konu-askeri"],
@@ -1915,6 +1929,54 @@ window.KRONOLOJI_INGILTERE = [
   onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","iskocya","ingiltere","konu-askeri"],
   yer_id:"",
   d:"Gloucester Dükü Richard (sonradan III. Richard) Ağustos 1482'de Berwick'i İskoçlardan aldı; kent o günden beri kesintisiz İngiliz topraklarıdır.",
-  kaynak:"Newcastle University Special Collections, «Berwick-upon-Tweed: The fortified town» https://blogs.ncl.ac.uk/speccoll/?p=2186 — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.7715,-2.0031], ic_not_t:"gün yalnız Ağustos 1482 (ay) kaynakta; yıla indirildi (TEYIT-KARAR-1014 ilkesi)" }
+  kaynak:"Newcastle University Special Collections, «Berwick-upon-Tweed: The fortified town» https://blogs.ncl.ac.uk/speccoll/?p=2186 — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.7715,-2.0031], ic_not_t:"gün yalnız Ağustos 1482 (ay) kaynakta; yıla indirildi (TEYIT-KARAR-1014 ilkesi)" },
+
+{ t:"1404-01-01", b:"Glyndŵr Aberystwyth ve Harlech kalelerini aldı", tur:"toprak-kazanc",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","ingiltere","galler","konu-askeri"],
+  yer_id:"",
+  d:"Owain Glyndŵr 1404'te Aberystwyth ve Harlech kalelerini ele geçirdi ve batı Galler'in hâkimi oldu; Harlech onun karargâhı ve ailesinin yurdu oldu.",
+  kaynak:"Dictionary of Welsh Biography, 'OWAIN GLYNDWR (c. 1354 - 1416)' https://biography.wales/article/s-OWAI-GLY-1354.html: 'The capture of Aberystwyth and Harlech in 1404 made him master of west Wales from sea to sea' — gün yok", yer_kon:[52.8606,-4.1089], ic_not_t:"yalnız yıl kaynakta; YYYY-01-01 (yıl hassasiyeti)" },
+
+{ t:"1408-01-01", b:"Aberystwyth Kalesi İngilizlere teslim oldu", tur:"toprak-kayip",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","ingiltere","galler","konu-askeri"],
+  yer_id:"",
+  d:"Prens Henry'nin 1407'de başlattığı kuşatmanın ardından Aberystwyth Kalesi 1408 sonbaharında İngilizlere teslim oldu.",
+  kaynak:"owain-glyndwr.wales (Sieges & Castles) 23 Eylül 1408; DWB 'OWAIN GLYNDWR' kaybı yılsız anar — TDV dışı kaynak, akademik teyit bekler (R. R. Davies, The Revolt of Owain Glyn Dŵr, OUP 1995)", yer_kon:[52.4153,-4.0829], ic_not_t:"gün yalnız popüler kaynakta (23 Eylül 1408); yıla indirildi" },
+
+{ t:"1409-01-01", b:"Harlech Kalesi İngilizlerce geri alındı; Glyndŵr son toprağını yitirdi", tur:"toprak-kayip",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","ingiltere","galler","konu-askeri"],
+  yer_id:"",
+  d:"Aylarca süren kuşatma ve sert kışın ardından Harlech Şubat 1409'da teslim oldu; Glyndŵr'ün elinde tuttuğu son kale gitti, ailesi esir düştü.",
+  kaynak:"Dictionary of Welsh Biography, 'OWAIN GLYNDWR' https://biography.wales/article/s-OWAI-GLY-1354.html (kaybı yılsız anar: 'finally the loss of Aberystwyth and Harlech'); 1409 başı ikincil kaynaklardan (owain-glyndwr.wales; bazı kaynaklar 1408) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[52.8606,-4.1089], ic_not_t:"1408 sonu / Şubat 1409 çelişkisi; gün yok, 1409-01-01 BEYANLI YAKLAŞIKLIK" },
+
+{ t:"1296-01-01", b:"Edinburgh Kalesi üç günlük kuşatmanın ardından İngilizlerin eline geçti", tur:"toprak-kayip",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","iskocya","ingiltere","konu-askeri"],
+  yer_id:"",
+  d:"I. Edward İskoçya seferinde Edinburgh Kalesi'ni üç günlük kuşatmadan sonra aldı; İngiliz garnizonu kaleyi 18 yıl elinde tuttu.",
+  kaynak:"World History Encyclopedia, 'Edinburgh Castle' https://www.worldhistory.org/Edinburgh_Castle/ ; Wikipedia 'Edinburgh Castle' — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189], ic_not_t:"kaynak yalnız Haziran 1296 (ay) verir; yıla indirildi (TEYIT-KARAR-1014)" },
+
+{ t:"1314-03-14", b:"Randolph Edinburgh Kalesi'ni gece baskınıyla geri aldı", tur:"toprak-kazanc",
+  onem:3, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","iskocya","konu-askeri"],
+  yer_id:"",
+  d:"Moray Kontu Thomas Randolph, 30 kişilik bir grupla Castle Rock'ın kuzey yamacından tırmanıp Edinburgh Kalesi'ni İngilizlerden geri aldı; Robert Bruce kalenin yıkılmasını emretti.",
+  kaynak:"World History Encyclopedia, 'Edinburgh Castle' https://www.worldhistory.org/Edinburgh_Castle/ (gün 14 Mart 1314, anlatı Barbour'a dayanır) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189] },
+
+{ t:"1335-01-01", b:"İngilizler Edinburgh Kalesi'ni yeniden işgal edip tahkim etti", tur:"toprak-kayip",
+  onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kayip","iskocya","ingiltere","konu-askeri"],
+  yer_id:"",
+  d:"İkinci Bağımsızlık Savaşı'nda III. Edward'ın kuvvetleri Edinburgh Kalesi'ni yeniden işgal edip tahkim etti.",
+  kaynak:"Wikipedia 'Edinburgh Castle' (1335) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189], ic_not_t:"ay/gün kaynakta yok; yıl hassasiyeti" },
+
+{ t:"1341-01-01", b:"William Douglas Edinburgh Kalesi'ni İngilizlerden geri aldı", tur:"toprak-kazanc",
+  onem:2, dunya:1, kapsam:"dis", etiket:["askeri","toprak-kazanc","iskocya","konu-askeri"],
+  yer_id:"",
+  d:"Liddesdale Lordu William Douglas, Edinburgh Kalesi'ni İngilizlerden geri aldı; İngiliz işgali altındaki İskoçya'nın merkezi yeniden İskoç eline geçti.",
+  kaynak:"Wikipedia 'Edinburgh Castle' (1341) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189], ic_not_t:"ay/gün kaynakta yok; yıl hassasiyeti" },
+
+{ t:"1652-02-04", b:"Birlik Teklifi (Tender of Union) Edinburgh'da ilan edildi — İskoçya Cromwell'in Commonwealth'ine katıldı", tur:"siyaset",
+  onem:3, dunya:1, kapsam:"dis", etiket:["siyaset","iskocya","ingiltere","konu-siyaset"],
+  yer_id:"",
+  d:"Dunbar ve Worcester'den sonra İskoçya askerî olarak boyun eğdi; Tender of Union Edinburgh mercat cross'ta ilan edildi. Birleşme ordonansı 12 Nisan 1654'te çıktı, 1660'a dek İskoçya İngiliz Commonwealth'inin parçası sayıldı.",
+  kaynak:"Wikipedia 'Scotland under the Commonwealth' https://en.wikipedia.org/wiki/Scotland_under_the_Commonwealth — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189] }
 
 ];

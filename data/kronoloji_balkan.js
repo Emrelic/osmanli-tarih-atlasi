@@ -357,7 +357,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Bolyar Petar ve Asen kardeşler Tırnova çevresinde ayaklanarak Bizans idaresine son verdi ve Kuzey Bulgaristan'ı ele geçirdi. 1186'da Bizans imparatoru barışa zorlandı, 1187'de de yeni Bulgar devletini resmen tanıdı.", ic_not_d:"Bu tarih devletler.js'teki `bulgar-carligi` künyesinin f: tarihidir.",
   kaynak:"TDV `bulgaristan`: 'Bolyar Petar ve Bolyar Asen kardeşlerin önderlik ettikleri bir başka ayaklanma başladı... 1187'de Bizans, ikinci Bulgar Devleti'ni tanıdı.'" },
 
-{ taraflar:["bulgar-carligi"], t:"1205-04-14", b:"Edirne Savaşı — Çar Kaloyan Latin İmparator Baldwin'i esir aldı", tur:"savas",
+{ taraflar:["bulgar-carligi"], t:"1205-04-15", ic_not_t:"eski gün 1205-04-14; TDV «Edirne»: «15 Nisan 1205’te Latin ordusu Bizans-Bulgar müşterek kuvvetleri tarafından burada mağlûp edildi»; çelişkide TDV esas (kron-balkan, 28 Eki 2026)", b:"Edirne Savaşı — Çar Kaloyan Latin İmparator Baldwin'i esir aldı", tur:"savas",
   onem:4, dunya:3, kapsam:"dis", etiket:["askeri","siyaset","konu-askeri","konu-siyasi"],
   yer_id:"Edirne",
   d:"Kaloyan (1197-1207) Kıpçak müttefikleriyle birlikte İstanbul'u 1204'te ele geçiren IV. Haçlı Seferi'nin Latin İmparatorluğu ordusunu Edirne yakınlarında ağır bir bozguna uğrattı; İmparator I. Baldwin esir düştü ve Tırnova'da hapiste öldü. Zafer, henüz yeni kurulmuş Latin İmparatorluğu'nun Balkanlar'daki genişlemesini durdurdu ve Bulgar Çarlığı'nı bölgenin en güçlü devleti hâline getirdi.",
@@ -533,7 +533,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Ayastefanos'un Avrupa güçlerince revize edilmesiyle imzalanan Berlin Antlaşması, Bulgaristan'ı üçe böldü: Osmanlı'ya tâbi ama iç işlerinde serbest, Sofya-Tırnova-Varna-Şumnu-Rusçuk-Silistre'yi içeren küçültülmüş bir Prenslik; ayrı idareli Doğu Rumeli vilâyeti; ve doğrudan Osmanlı'da kalan Makedonya. dunya puanı dört ayrı kronoloji dosyasıyla (rusya, almanya, habsburg, ingiltere) eşleştirildi — dördü de 4'te birleşiyor.",
   kaynak:"TDV `berlin-antlasmasi`: 'Bulgaristan toprakları üç bölgeye ayrılacaktı. Birinci bölge Osmanlı Devleti'ne tâbi, iç işlerinde serbest, prensi halk tarafından seçilen ... Tuna ile Balkanlar arasında Sofya, Niğbolu, Ziştovi, Rusçuk, Silistre, Varna, Şumnu, Lofça ve Tırnova gibi şehirleri içine alan muhtar bir Bulgaristan Prensliği kuruldu.'" },
 
-{ taraflar:["bulgaristan-prensligi"], t:"1879-04-16", b:"Tırnova Anayasası kabul edildi", tur:"siyaset",
+{ taraflar:["bulgaristan-prensligi"], t:"1879-04-28", ic_not_t:"eski gün 1879-04-16 = Jülyen (16 Nisan O.S.) → Gregoryen 28 Nisan; Prens seçimi 17/29 Nisan 1879 (archontology.org) ile sıra düzeldi; Tarnovo Constitution «28 April [O.S. 16 April] 1879» (kron-balkan, 28 Eki 2026)", b:"Tırnova Anayasası kabul edildi", tur:"siyaset",
   onem:5, dunya:2, kapsam:"ic", etiket:["idari","siyaset","islahat","konu-siyasi","konu-idari","konu-islahat"],
   yer_id:"Tırnova",
   d:"Tırnova'da toplanan Kurucu Millet Meclisi, dönemin Avrupa standartlarına göre son derece liberal sayılan bir anayasa kabul etti; geniş bir Millet Meclisi (Narodno Sıbranie), evrensel erkek oy hakkı ve temel hak-özgürlükler güvence altına alındı. Bu anayasa, genç prensliğin idari-hukuki iskeletini kurdu ve 1947'ye kadar (küçük değişikliklerle) yürürlükte kaldı.",
@@ -895,7 +895,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Millî Meclis, 1844 Anayasası'nı gözden geçirerek daha demokratik yeni bir anayasa hazırladı; kral yetkilerini sınırlayan ve parlamenter sistemi güçlendiren bu metin, sonraki 'krallık demokrasisi' döneminin hukukî zeminini oluşturdu.",
   kaynak:"TDV `yunanistan`: '1864'te meclis daha demokratik yeni bir anayasa hazırladı.' TDV yalnız yıl veriyor, gün/ay yok — kural gereği YYYY-01-01 yazıldı." },
 
-{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1864-05-21", b:"İyon adalarının Yunanistan'a katılması", tur:"savas",
+{ odak_yer:["Atina"], taraflar:["yunanistan"], t:"1864-06-02", ic_not_t:"eski gün 1864-05-21 = Jülyen → Gregoryen 2 Haziran (Archontology; History Today) (kron-balkan, 28 Eki 2026)", b:"İyon adalarının Yunanistan'a katılması", tur:"savas",
   onem:4, dunya:2, kapsam:"ic", etiket:["toprak-kazanc","diplomasi","konu-askeri","konu-diplomasi"], yer_id:"",
   d:"İngiltere'nin 1815'ten beri koruyuculuğunda tuttuğu İyon Adaları (Korfu, Kefalonya, Zanta vd.), Kral Georgios'un tahta çıkışına 'düğün hediyesi' olarak Yunanistan'a devredildi.",
   kaynak:"bulunamadı — TDV `yunanistan` maddesinde İyon adalarının katılımı ayrı bir olay olarak anılmıyor; dayanak: standart akademik kaynak (Treaty of London 1864, antlaşma 29 Mart 1864, yürürlük 21 Mayıs 1864)." },
@@ -1005,7 +1005,7 @@ window.KRONOLOJI_BALKAN = [
   d:"İkinci Balkan Savaşı'nı sona erdiren antlaşmayla Yunanistan'ın Yanya, Selanik, Serez ve Kavala dahil Güney Epir ve Makedonya'nın büyük bölümündeki kazanımları kesinleşti. Yunanistan toprak ve nüfus bakımından iki katına yakın büyüdü.",
   kaynak:"TDV `yunanistan`: '30 Mayıs 1913 Londra ve 10 Ağustos 1913 Bükreş antlaşmaları ile Yunanistan'ın kazanımları tanındı. Yunanistan toprak ve nüfus bakımından iki katına yakın büyüdü.'" },
 
-{ taraflar:["yunanistan"], t:"1913-11-14", b:"Atina Antlaşması — Girit'in resmî ilhakı", tur:"antlasma",
+{ taraflar:["yunanistan"], t:"1913-11-14", b:"Atina Antlaşması — Yunanistan'la barış; Selanik ve Yanya'nın devri, Girit'ten feragatin teyidi", ic_not_b:"eski b: «Atina Antlaşması — Girit'in resmî ilhakı». TEK MODEL: Girit'in hukukî devri 30 Mayıs 1913 Londra (zincirler ve girit-devleti t bu günde; TDV girit: «Londra (30 Mayıs 1913) ve Bükreş (10 Ağustos 1913) muahedeleriyle Girit adası Osmanlı Devleti'nin elinden çıkmış oldu»). 14 Kasım 1913 Atina Antlaşması Osmanlı-Yunan ikili barışıdır, Girit hakkından feragati teyit eder (Yunan kaynaklarında Sultan'ın feragati 1 Kasım 1913 Jülyen = 14 Kasım Gregoryen). Fiilî birleşme 14 Aralık 1913 (1 Aralık Jülyen) bayrak töreni — ayrı madde.", tur:"antlasma",
   onem:5, dunya:2, kapsam:"dis", etiket:["antlasma","toprak-kazanc","konu-askeri","konu-diplomasi"], yer_id:"Atina",
   d:"Osmanlı Devleti ile Yunanistan arasında imzalanan antlaşma, Balkan Savaşı'nda kaybedilen Selanik, Yanya ve Güney Makedonya'nın Yunanistan'a geçişini resmen tanıdı ve Girit üzerindeki Osmanlı haklarından tamamen vazgeçildi.",
   kaynak:"data/olaylar_ek5.js:405 ile birebir aynı olay, 1913-11-14 tarihiyle zaten doğrulanmış." },

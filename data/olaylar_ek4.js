@@ -163,7 +163,7 @@ window.OLAYLAR_EK4 = [
   kisiler:"İbrâhim Paşa (Kavalalı)",
   d:"Son birlikler gemilere bindirildi; yarımada fiilen elden çıktı ve 1830 Londra Protokolü'yle bağımsız Yunanistan'ın çekirdeği oldu. Mehmed Ali ise vaad edilen Mora valiliğini alamamış, karşılığında büyük bir donanma ve ordu kaybetmişti. Aynı tarihte elden çıkan diğer yerleşimler: Modon, Koron.",
   kaynak:"mora", duygu:["😔"] },
-{ t:"1830-11-01", k:"idari", etiket:["siyaset","bilim","konu-siyasi","konu-idari","konu-bilim"], b:"Girit'in idaresi Mehmed Ali'ye bırakıldı", gun:"1830", yer:"Girit", yer_id:"Girit (Resmo)",
+{ t:"1830-11-01", k:"idari", etiket:["siyaset","bilim","konu-siyasi","konu-idari","konu-bilim"], b:"Girit'in idaresi Mehmed Ali'ye bırakıldı", gun:"1830", ic_not_gun:"[yalnız yıl teyitli; gün teyitsiz] TDV girit (Tukin, C.14 s.85-93): Girit valiliği teklifi 1830 ayaklanmasından sonra yapıldı, 'Kendisine yapılan bu tevcihi kabul eden Mehmed Ali Paşa, 1831 yılında isyanı bastırmakla beraber'; tevcih günü TDV'de yok. t:1830-11-01 sınıra bağlı olduğu için kaldı.", yer:"Girit", yer_id:"Girit (Resmo)",
   kisiler:"Kavalalı Mehmed Ali, II. Mahmud",
   d:"Mora kaybının telâfisi olarak Girit valiliği Mehmed Ali'ye verildi. Ada on yıl boyunca Kahire'den yönetildi; haritada bu süre boyunca tâbi tonda görünür. Aynı tarihte katılan öteki yerler: Kandiye (Girit).", ic_not_d:"eski ifade: Aynı tarihte haritaya katılan diğer yerleşimler:",
   statu_vasal:["Hanya","İsfakiye (Sfakia)","Sitiye (Sitia)"],
