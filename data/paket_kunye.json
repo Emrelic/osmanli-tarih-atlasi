@@ -41,8 +41,8 @@
     },
     {
      "yol": "data/olaylar_ek6.js",
-     "sha": "a9038664ba85ae23",
-     "bayt": 49311
+     "sha": "a6afb24a1c517d80",
+     "bayt": 52316
     },
     {
      "yol": "data/olaylar_ilirya_0072.js",
@@ -55,7 +55,7 @@
      "bayt": 111517
     }
    ],
-   "bayt": 974476
+   "bayt": 977481
   },
   {
    "paket": "data/paket_02.js",
@@ -558,8 +558,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler.js",
-     "sha": "ff5274f89b57506d",
-     "bayt": 1908385
+     "sha": "05900cc7be428896",
+     "bayt": 1914486
     },
     {
      "yol": "data/yerlesimler_afrika.js",
@@ -622,7 +622,7 @@
      "bayt": 12545
     }
    ],
-   "bayt": 3803505
+   "bayt": 3809606
   },
   {
    "paket": "data/paket_14.js",
