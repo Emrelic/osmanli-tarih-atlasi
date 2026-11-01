@@ -217,6 +217,29 @@ bit:"1258-02-13",              // yok oluş / terk; sonrasında peteği kalkar
 ```
 Gerekçeler: `MIMARI.md` §3.1 ve §3.4.
 
+### 🟢 `enklav:` ↔ `eksklav:` — `s:` dönemi bayrakları (#151, Emre 30 Ekim 2026)
+```js
+s:[{f:"1415-01-01", t:"1581-04-16", d:"portekiz", enklav:true}]    // Sebte
+s:[{f:"1687-08-01", t:"1715-07-01", d:"venedik",  eksklav:true}]   // Balyabadra
+```
+- **`enklav:true`** — HAKİKİ enklav: tutan devlet yalnız kaleyi/şehri/limanı
+  tutar, **kara tarafı başka devletindir** (presidio, ticaret karakolu, koloni
+  kalesi: Sebte, Melîle, Calais, Kefe, Pondişeri…). Motor (`uret_petek.py`
+  `_ENKLAV`) bu noktaya noktasız (yetim) yüz **devretmez**; D7 sorgusundan muaf.
+- **`eksklav:true`** — ana gövdeden **kopuk ama hinterlandı olan** toprak:
+  denizaşırı ada/yarımada (Venedik Mora'sı, Girit, Kıbrıs, Korfu, Dalmaçya),
+  sömürge gövdesi (Fransız Cezayir'i, İtalyan Libya'sı), kara eksklavı
+  (İspanyol Hollanda'sı, 1919 sonrası Doğu Prusya). Motor bu alanı **okumaz**:
+  nokta çevresindeki yetim yüzü olağan kuralla emer. D7 için `enklav` ile aynı
+  beyandır (`denetle.py` D7 muafiyeti ①).
+- Ölçüt "yabancı hâkimiyet" ya da "denizaşırılık" DEĞİL, **kara tarafında
+  hinterland var mı**. Kıyısı denize açılan, çevresindeki karayı da tutan yer
+  enklav değildir. Yalnız `girdi.py` BILINEN_DONEM_ALANLARI'na henüz kayıtlı
+  değil (tuz dosyası) — yükleyici "bilinmeyen alan" UYARISI basar, hata değil.
+- #151 öncesi 247 dönem yanlışlıkla `enklav:true` taşıyordu (D7'yi susturmak
+  için yazılmıştı); Patras bu yüzden Mora kıyısını ememiyor, toprak karşı
+  kıyıdaki İnebahtı'ya kalıyordu.
+
 ### 🟢 `bos:` ve `kd:` — ARTIK VAR, "planlanan" DEĞİL
 *(7 Eylül 2026'da ölçüldü · `DEGISMEZ3-0907` bu satırın bayat olduğunu buldu)*
 

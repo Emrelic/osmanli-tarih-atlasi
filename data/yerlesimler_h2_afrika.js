@@ -415,19 +415,19 @@ window.YERLESIMLER_H2_AFRIKA = [
 // ===========================================================================
 
 { ad:"Cibûtî", tur:"liman", lat:11.588, lon:43.145, g:1, k:3, kur:"1888-01-01",
-  s:[{f:"1888-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
+  s:[{f:"1888-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",eksklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ⚠️ lat/lon 11,967/43,283'ten 11,993/43,278'e alındı (2,9 km kuzey): ham
 // koordinat Natural Earth 10m kara maskesinin DIŞINDA kalıyordu ve maske
 // dışı nokta HİÇ toprak sahibi olamaz (denetle.py konum denetimi).
 { ad:"Obok", tur:"liman", lat:11.993, lon:43.278, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",eksklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Alî Sabîh", tur:"sehir", lat:11.156, lon:42.712, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",eksklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 { ad:"Dikhil", tur:"sehir", lat:11.104, lon:42.370, g:0, k:3,
-  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",enklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
+  s:[{f:"1281-01-01",t:"1884-01-01",d:"adal"},{f:"1884-01-01",t:"1977-06-27",d:"fransa-cumhuriyet",eksklav:true},{f:"1977-06-27",t:"2000-12-31",d:"cibuti",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}], d:[] },
 
 // ===========================================================================
 // 8) HABEŞİSTAN — kuzey ve orta yayla (Tigre · Begemder · Gocam · Vollo · Şoa)

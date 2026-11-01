@@ -266,8 +266,8 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Gore (Gorée)", tur:"sehir", lat:14.6750, lon:-17.4273, g:0, k:0,
   kur:"1444-01-01",
-  s:[{f:"1444-01-01",t:"1627-01-01",d:"portekiz", enklav: true },
-     {f:"1627-01-01",t:"1677-11-01",d:"hollanda", enklav: true },
+  s:[{f:"1444-01-01",t:"1627-01-01",d:"portekiz", eksklav:true },
+     {f:"1627-01-01",t:"1677-11-01",d:"hollanda", eksklav:true },
      {f:"1677-11-01",t:"1792-09-22",d:"fransa"},
      {f:"1792-09-22",t:"1960-06-20",d:"fransa-cumhuriyet"},{f:"1960-06-20",t:"1960-08-20",d:"mali-federasyonu",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"},{f:"1960-08-20",t:"2000-12-31",d:"senegal",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },

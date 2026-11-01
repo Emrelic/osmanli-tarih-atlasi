@@ -3278,6 +3278,8 @@ def degismez5(Y):
 #
 # BEŞ MUAFİYET — HEPSİ ZORUNLU, ve dördü ÖLÇÜLEREK doğdu:
 #   ① BEYAN            `enklav:true` — soru zaten cevaplanmış
+#                      ya da `eksklav:true` (#151: denizaşırı/kopuk gövde —
+#                      motor onu emmeden alıkoymaz, D7 için aynı beyandır)
 #   ② COĞRAFİ TECRİT   150 km'de <=2 komşusu olan nokta (ada · çöl · step)
 #                      🔴 EN BÜYÜK KOVA. Bu muafiyet olmadan denetim ~2100
 #                      sahte alarm üretir ve okunmaz hâle gelir — `§11`in
@@ -3688,10 +3690,10 @@ def degismez7(Y, isg_kova=None):
             for p in (y.get(kat) or []):
                 if p.get("f") and p.get("t"):
                     # OSMANLI ve tâbi AYNI AİLE (`CLAUDE.md §3`)
-                    d.append((p["f"], p["t"], "OSMANLI", bool(p.get("enklav"))))
+                    d.append((p["f"], p["t"], "OSMANLI", bool(p.get("enklav") or p.get("eksklav"))))
         for p in (y.get("s") or []):
             if p.get("f") and p.get("t") and p.get("d"):
-                d.append((p["f"], p["t"], _d7_aile(p["d"]), bool(p.get("enklav"))))
+                d.append((p["f"], p["t"], _d7_aile(p["d"]), bool(p.get("enklav") or p.get("eksklav"))))
         DON.append(d)
     # 🆕 `isg:` (6 Ekim 2026, UMIT-W8-D7ISG-1006) — İŞGAL ALTINDAKİ TOPRAK,
     #   EGEMENİNİN ADASI SAYILMAZ. O gün `isg:` altındaki kayıt `sahip()`te
