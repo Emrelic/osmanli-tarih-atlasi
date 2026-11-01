@@ -12395,7 +12395,10 @@ function antlasmaFarkiHesapla(o) {
     if (!ANT_FARK.isgListe) ANT_FARK.isgListe = SG.isgalliYerlesimler(Y);
     // POSTIT-120: savaş boyunca el değiştiren her şey (bkz. suzgec.js savasBoyuDegisim).
     var genis = (k1gun && SG.savasBoyuDegisim) ? SG.savasBoyuDegisim(Y, k1gun, f.gun, T) : [];
-    kademe = { k1gun: k1gun, k2gun: k2gun, k3gun: f.gun, savasBasi: (kayit && kayit.savas_basi) || "",
+    // POSTIT-150: dönemsiz noktaların petekleri (motorun komşuya emdiği) delik kalmasın.
+    var emilen = (k1gun && SG.emilenSahipsizler)
+      ? SG.emilenSahipsizler(Y, genis.concat(f.degisim.map(function (d) { return d.i; })), k1gun, k2gun, f.gun, T) : [];
+    kademe = { k1gun: k1gun, k2gun: k2gun, k3gun: f.gun, savasBasi: (kayit && kayit.savas_basi) || "", emilen: emilen,
                kume: SG.kademeKumesi(Y, ANT_FARK.isgListe, f.degisim, k1gun, k2gun, f.gun,
                                      _khGunStr(o.gi - 1), _khGunStr(sonIx), T, genis) };
   }
@@ -12730,6 +12733,15 @@ function _farkKutusuCiz(o, kutuEl, yazi, degisim, anaMetin, onceStr, kirilma, so
     liste.push({ pi: ANT_FARK.petAd[y.ad], once: SAYDAM, sonra: SAYDAM, ad: y.ad, kenar: 0, saydamKoyu: true,
                  savasOncesi: kademe.k1gun ? _sahipRengi(r.k1) : SAYDAM, fiili: _sahipRengi(r.k2),
                  antSonrasi: _sahipRengi(r.k3), k1: r.k1, k3: r.k3 });
+  });
+  // POSTIT-150: dönemi olmayan noktanın peteği haritada en yakın sahipli komşuya
+  // emilir; fark katmanında da o komşunun sahipleriyle boyanır (suzgec.js
+  // emilenSahipsizler). Eski dört hâlde genis satırları gibi SAYDAM.
+  if (kademe && kademe.emilen) kademe.emilen.forEach(function (e) {
+    if (kmIx[e.i]) return;
+    liste.push({ pi: ANT_FARK.petAd[Y[e.i].ad], once: SAYDAM, sonra: SAYDAM, ad: Y[e.i].ad, kenar: 0, saydamKoyu: true,
+                 savasOncesi: _sahipRengi(e.k1), fiili: _sahipRengi(e.k2), antSonrasi: _sahipRengi(e.k3),
+                 k1: e.k1, k3: e.k3 });
   });
   var fsYerel = [];
   // Bölge geometrisi: PETEK_GOVDE[pi] → PETEK_GOVDE_PARCA poligonları (MultiPolygon).
