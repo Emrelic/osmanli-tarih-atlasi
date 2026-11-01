@@ -3678,16 +3678,25 @@ def degismez7(Y, isg_kova=None):
     from collections import deque as _deque
     kom = _d7_komsuluk(Y)
     DON = []
+    # 🆕 POSTIT #151 (1 Kasım 2026, Emre): BEYAN iki alandan okunur.
+    #   `enklav:true`  hinterlandı YOK (presidio) — motor yetim yüz EMDİRMEZ
+    #   `kopuk:"denizasiri"|"eksklav"|"enklav"`  ana gövdeden kopuk ama
+    #                  hinterlandı VAR — motor OKUMAZ, normal emer
+    #   236 dönem (Venedik Mora'sı, Dalmaçya, Fransız Cezayiri…) yalnız bu
+    #   denetimi susturmak için `enklav:` almıştı ve motorda çevresini
+    #   kaybediyordu (#151: Patras'ın toprağı İnebahtı'ya gitti).
+    def _beyan(p):
+        return bool(p.get("enklav") or p.get("kopuk"))
     for y in Y:
         d = []
         for kat in ("d", "v"):
             for p in (y.get(kat) or []):
                 if p.get("f") and p.get("t"):
                     # OSMANLI ve tâbi AYNI AİLE (`CLAUDE.md §3`)
-                    d.append((p["f"], p["t"], "OSMANLI", bool(p.get("enklav"))))
+                    d.append((p["f"], p["t"], "OSMANLI", _beyan(p)))
         for p in (y.get("s") or []):
             if p.get("f") and p.get("t") and p.get("d"):
-                d.append((p["f"], p["t"], _d7_aile(p["d"]), bool(p.get("enklav"))))
+                d.append((p["f"], p["t"], _d7_aile(p["d"]), _beyan(p)))
         DON.append(d)
     # 🆕 `isg:` (6 Ekim 2026, UMIT-W8-D7ISG-1006) — İŞGAL ALTINDAKİ TOPRAK,
     #   EGEMENİNİN ADASI SAYILMAZ. O gün `isg:` altındaki kayıt `sahip()`te

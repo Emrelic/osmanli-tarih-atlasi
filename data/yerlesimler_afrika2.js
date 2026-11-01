@@ -1427,7 +1427,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Massangano", tur:"sehir", lat:-9.5400, lon:14.2000, g:0, k:0,
   kur:"1583-01-01",
-  s:[{f:"1583-01-01",t:"1923-10-29",d:"portekiz", enklav: true },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1583-01-01",t:"1923-10-29",d:"portekiz", kopuk:"denizasiri" },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Malanje", tur:"sehir", lat:-9.5400, lon:16.3400, g:0, k:0,
@@ -1455,7 +1455,7 @@ window.YERLESIMLER_AFRIKA2 = [
 
 { ad:"Kambambe (Cambambe)", tur:"sehir", lat:-9.7500, lon:14.4800, g:0, k:0,
   kur:"1604-01-01",
-  s:[{f:"1604-01-01",t:"1923-10-29",d:"portekiz", enklav: true },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
+  s:[{f:"1604-01-01",t:"1923-10-29",d:"portekiz", kopuk:"denizasiri" },{f:"1923-10-29",t:"1975-11-11",d:"portekiz-angola",kaynak:"Alvor Anlasmasi 1975-01-15; bagimsizlik 1975-11-11 (Britannica Angola)"},{f:"1975-11-11",t:"2000-12-31",d:"angola",kaynak:"Britannica Angola"}],
   kaynak:"bulunamadı — standart akademik el kitabı; TDV bu taneciği kapsamıyor (§4)" },
 
 { ad:"Mvansabombve (Kazembe)", tur:"sehir", lat:-9.8500, lon:28.7500, g:0, k:0,

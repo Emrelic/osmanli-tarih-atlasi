@@ -26,7 +26,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Tengyue (Tengchong)", tur:"sehir", lat:25.02, lon:98.49, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Tengchong fu, Dali lu altında Yuan idaresi); bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-04-07", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷3 洪武十五年閏二月癸丑 (Dali alındı, Jinchi teslim) — KAYIT günü, en geç sınır [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-04-07", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷3 洪武十五年閏二月癸丑 (Dali alındı, Jinchi teslim) — KAYIT günü, en geç sınır [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-04-07", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷3; bitiş Ming künye günü (Kunming emsali)"},
      {f:"1644-04-25", t:"1659-04-22", d:"guney-ming", kesinlik:"ay", kaynak:"清史稿 卷5 順治十六年閏三月 Yongchang–Tengyue alındı (saray kaydı 1659-06-13); ayın ilk günü, gün bulunamadı [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"},
      {f:"1659-04-22", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6 (Wu Sangui isyanı; Kunming emsaliyle aynı gün)"},
@@ -40,7 +40,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Yongchang (Baoshan)", tur:"sehir", lat:25.11, lon:99.16, g:0, k:0,
   s:[{f:"1000-01-01",t:"1253-01-01",d:"dali-kralligi",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«永昌府，唐時蒙氏據其地，歷段氏、高氏皆為永昌府。元憲宗七年，分永昌之永平立千戶» Yuanshi 61 (元史/卷061 地理四, 大理路 永昌府): Yongchang Nanzhao’dan Duan (Dali) ve Gao yönetimleri boyunca 「永昌府」; 1000’de Dali Krallığı’nda. Dilim sonu künye ömrü sınırıdır (dali-kralligi t=1253-01-01). f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1253-01-01",t:"1257-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BEYANLI BOŞLUK (arandı, bulunamadı): Dali Krallığı’nın düşüşü Yuanshi 3: 憲宗三年冬十二月 「大理平」, Yuanshi 121: 甲寅 (1254) Duan Xingzhi yakalandı; Yongchang’ın Moğol idaresine geçiş günü yok (憲宗七年, 1257 ilk Moğol idarî kaydı). 1253-01-01 künye sınırı ile 1257-01-01 arası: arandı, bulunamadı: Yongchang’ın bu dönemde şehir adlı sahibi (Dali künyesi 1253’te biter; Moğol kaydı 1257’de başlar). f: KÜNYE ÖMRÜ SINIRI: devletler.js dali-kralligi t=1253-01-01 (atlas künyesi, DAYANAK DEĞİL). Yuanshi 3 憲宗三年冬十二月 「大理平」 (Aralık 1253) → künye sonu ~11 ay erken; künye düzeltme önerisi aşağıda. · VERI-MS1-1281"},{f:"1257-01-01",t:"1260-01-01",d:"mogol-imparatorlugu",kesinlik:"yil",kaynak:"«元憲宗七年，分永昌之永平立千戶。至元十一年，立永昌州。十五年升為府，隸大理路» Yuanshi 61 (元史/卷061 地理四, 大理路 永昌府): 憲宗七年 (1257) Yongchang’a bağlı Yongping’de Moğol 千戶 kuruldu (ilk Moğol idarî kaydı). f: Yıl hassasiyeti: Yuanshi 61 「元憲宗七年，分永昌之永平立千戶」 → 1257-01-01 (gün yok; ilk Moğol idarî kaydı). · VERI-MS1-1281"},{f:"1260-01-01",t:"1281-01-01",d:"yuan-hanedani",kesinlik:"yil",kaynak:"«元憲宗七年，分永昌之永平立千戶。至元十一年，立永昌州。十五年升為府，隸大理路» Yuanshi 61 (元史/卷061 地理四, 大理路 永昌府): 至元十一年 (1274) 永昌州, 十五年 (1278) 府. f: KÜNYE ÖMRÜ SINIRI: mogol-imparatorlugu t=1260-01-01 = yuan-hanedani f=1260-01-01 (atlas künyesi, DAYANAK DEĞİL): dilim ucu künye ömrü içinde kalsın diye bu güne konuldu. Kubilay’ın tahta çıkışı 中統元年 (Yuanshi 4; Jülyen 1260-05-05) ile künye sınırı hizalanabilir. t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Yongchang fu, Yuan); bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-04-07", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷3 洪武十五年閏二月癸丑 (Jinchi teslim) — KAYIT günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-04-07", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷3 洪武十五年閏二月癸丑 (Jinchi teslim) — KAYIT günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-04-07", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷3; bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-04-22", d:"guney-ming", kesinlik:"ay", kaynak:"清史稿 卷5 順治十六年閏三月 Yongchang alındı (kayıt 1659-06-13); gün bulunamadı [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"},
      {f:"1659-04-22", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
@@ -53,7 +53,7 @@ window.YERLESIMLER_A78_ASYA = [
 { ad:"Shunning (Fengqing)", tur:"sehir", lat:24.58, lon:99.93, g:0, k:0,
   s:[{f:"1281-01-01", t:"1327-01-01", d:"__BOSLUK__", kaynak:"明史 卷46: Yuan Shunning fu 泰定四年 (1327) kuruldu; öncesinde Yuan idaresi belgelenmedi — yerel reisler, künye yok [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"},
      {f:"1327-01-01", t:"1368-09-14", d:"yuan-hanedani", kesinlik:"yil", kaynak:"明史 卷46 泰定四年十一月 (yıl yazıldı); bitiş künye günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"},
-     {f:"1368-09-14", t:"1382-04-14", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷46 洪武十五年三月庚戌 'fu olarak bırakıldı' [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-04-14", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷46 洪武十五年三月庚戌 'fu olarak bırakıldı' [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-04-14", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷46; bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-04-22", d:"guney-ming", kesinlik:"ay", kaynak:"清史稿 卷5 順治十六年閏三月 batı Yunnan seferi (Yongchang ile aynı sefer); Shunning'e özgü gün bulunamadı [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen]"},
      {f:"1659-04-22", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
@@ -66,7 +66,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Mianning (Lincang)", tur:"sehir", lat:23.88, lon:100.09, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Jingdong/Kainan bölgesi, Yuan) — zayıf belgeli; bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-03-16", d:"kuzey-yuan", kesinlik:"ay", enklav:true, kaynak:"明史 卷46 Jingdong 洪武十五年閏二月 (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-03-16", d:"kuzey-yuan", kesinlik:"ay", kopuk:"eksklav", kaynak:"明史 卷46 Jingdong 洪武十五年閏二月 (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-03-16", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷46 (Mengmian 1430'da Jingdong'dan ayrıldı); bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali; Mianning'e özgü gün bulunamadı"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷74 (1747 Mianning ting); 清史稿 卷6"},
@@ -77,7 +77,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Jingdong", tur:"sehir", lat:24.45, lon:100.83, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Kainan zhou, 1331 Jingdong fu); bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-03-16", d:"kuzey-yuan", kesinlik:"ay", enklav:true, kaynak:"明史 卷46 洪武十五年閏二月 'bırakıldı' (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-03-16", d:"kuzey-yuan", kesinlik:"ay", kopuk:"eksklav", kaynak:"明史 卷46 洪武十五年閏二月 'bırakıldı' (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-03-16", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷46; bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali; Jingdong'a özgü gün bulunamadı"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
@@ -88,7 +88,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Chuxiong", tur:"sehir", lat:25.03, lon:101.54, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Weichu Kainan lu); bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-01-15", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷3 洪武十五年正月辛巳 'Weichu lu alındı' (Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-01-15", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷3 洪武十五年正月辛巳 'Weichu lu alındı' (Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-01-15", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷3; bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali; Chuxiong'a özgü gün bulunamadı"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
@@ -99,7 +99,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Yuanjiang", tur:"sehir", lat:23.6, lon:101.99, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Yuanjiang lu); Yuan fethinin yılı bulunamadı; bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-04-14", d:"kuzey-yuan", kesinlik:"ay", enklav:true, kaynak:"明史 卷46 洪武十五年三月 'fu oldu' (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-04-14", d:"kuzey-yuan", kesinlik:"ay", kopuk:"eksklav", kaynak:"明史 卷46 洪武十五年三月 'fu oldu' (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-04-14", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷46; bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
@@ -110,7 +110,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Lin'an (Jianshui)", tur:"sehir", lat:23.62, lon:102.83, g:0, k:0,
   s:[{f:"1000-01-01",t:"1253-01-01",d:"dali-kralligi",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«歷趙、楊、李、段數姓，皆仍舊名，些麼徒蠻所居。內附後，立千戶，隸阿僰萬戶» Yuanshi 61 (元史/卷061 地理四, 臨安路 建水州): Jianshui (建水, 古稱 步頭/巴甸) Zhao-Yang-Li-Duan hanedanları boyunca; 臨安路 genel bölüm: Nanzhao’da 「通海郡」, Duan (Dali) döneminde 「秀山郡」. Atlas adı 「Lin’an (Jianshui)」 = Jianshui (Lin’an Lu merkezi). Dilim sonu künye ömrü sınırıdır (dali-kralligi t=1253-01-01). f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1253-01-01",t:"1256-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BEYANLI BOŞLUK (arandı, bulunamadı): Dali künyesi 1253-01-01’de biter; Yuanshi 3 Dali’nin düşüşünü Aralık 1253 (大理平) verir; Jianshui/Lin’an bölgesinin Moğollara bağlanışı Yuanshi 61: 憲宗六年 (1256). 1253-01-01..1256-01-01 arası: arandı, bulunamadı: Jianshui için şehir adlı sahip (Dali künyesi biter, Moğol kaydı 1256’da başlar). f: KÜNYE ÖMRÜ SINIRI: devletler.js dali-kralligi t=1253-01-01 (atlas künyesi, DAYANAK DEĞİL). Yuanshi 3 憲宗三年冬十二月 「大理平」. · VERI-MS1-1281"},{f:"1256-01-01",t:"1260-01-01",d:"mogol-imparatorlugu",kesinlik:"yil",kaynak:"«阿僰部蠻居之。元憲宗六年內附，以本部為萬戶。至元八年改為南路，十三年又改為臨安路» Yuanshi 61 臨安路: 憲宗六年 (1256) içe katıldı, 萬戶 yapıldı (BÖLGE cümlesi — Jianshui ilçe/千戶 kaydı 「內附後，立千戶，隸阿僰萬戶」). f: Yıl hassasiyeti: Yuanshi 61 「元憲宗六年內附」 → 1256-01-01 (gün yok). · VERI-MS1-1281"},{f:"1260-01-01",t:"1281-01-01",d:"yuan-hanedani",kesinlik:"yil",kaynak:"«內附後，立千戶，隸阿僰萬戶。至元十三年，改建水州，隸臨安路» Yuanshi 61: 至元八年 (1271) 南路, 十三年 (1276) 臨安路; Jianshui 建水州. f: KÜNYE ÖMRÜ SINIRI: mogol-imparatorlugu t=1260-01-01 = yuan-hanedani f=1260-01-01 (atlas künyesi, DAYANAK DEĞİL): dilim ucu künye ömrü içinde kalsın diye bu güne konuldu. Kubilay’ın tahta çıkışı 中統元年 (Yuanshi 4; Jülyen 1260-05-05) ile künye sınırı hizalanabilir. t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Lin'an lu); bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-01-16", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷3 洪武十五年正月壬午 'Yunnan yatıştı' (eyalet özeti, şehre özgü gün yok; Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-01-16", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷3 洪武十五年正月壬午 'Yunnan yatıştı' (eyalet özeti, şehre özgü gün yok; Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-01-16", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷46; bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
@@ -120,7 +120,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Mengzi", tur:"sehir", lat:23.37, lon:103.38, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Lin'an lu altında); bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-01-16", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷3 洪武十五年正月壬午 (eyalet özeti; Lin'an ile aynı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-01-16", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷3 洪武十五年正月壬午 (eyalet özeti; Lin'an ile aynı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-01-16", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷46; bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
@@ -130,7 +130,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Kaihua (Wenshan)", tur:"sehir", lat:23.37, lon:104.25, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 (Lin'an altında Jiaohua); bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-01-16", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷3 洪武十五年正月壬午 (eyalet özeti; Lin'an ile aynı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-01-16", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷3 洪武十五年正月壬午 (eyalet özeti; Lin'an ile aynı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-01-16", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷46 (Jiaohua beyliği Lin'an altında); bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷74 (1667 Kaihua fu — idarî dönüşüm, egemenlik değişimi değil)"},
@@ -152,7 +152,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Lijiang", tur:"sehir", lat:26.87, lon:100.23, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46; bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-04-07", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷3 洪武十五年閏二月癸丑 'Heqing, Lijiang boyun eğdi' (Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-04-07", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷3 洪武十五年閏二月癸丑 'Heqing, Lijiang boyun eğdi' (Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-04-07", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷3; bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali; Lijiang'a özgü gün bulunamadı"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
@@ -255,8 +255,8 @@ window.YERLESIMLER_A78_ASYA = [
 { ad:"Labuan (Victoria)", tur:"liman", lat:5.28, lon:115.24, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-01-01", d:"__BOSLUK__", kaynak:"brunei-sultanligi künyesi 1368'de başlıyor"},
      {f:"1368-01-01", t:"1847-01-01", d:"brunei-sultanligi", kaynak:"IBS 45 s.5"},
-     {f:"1847-01-01", t:"1907-01-01", d:"ingiltere", kesinlik:"yil", enklav:true, kaynak:"IBS 45 s.5: Labuan 1847'de Britanya'ya (ÇELİŞKİ: devir antlaşması 18 Ara 1846, teslim 24 Ara 1846 — yalnız ipucu); 1848 taç kolonisi · enklav: ada koloni"},
-     {f:"1907-01-01", t:"1946-04-01", d:"ingiliz-malaya", kesinlik:"yil", enklav:true, kaynak:"1907'de Straits Settlements'a katıldı (1 Ocak yürürlük — ipucu); 1890–1906 Kuzey Borneo Şirketi idaresi yalnız idarî · enklav: Straits Settlements'ın ada parçası"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
+     {f:"1847-01-01", t:"1907-01-01", d:"ingiltere", kesinlik:"yil", kopuk:"denizasiri", kaynak:"IBS 45 s.5: Labuan 1847'de Britanya'ya (ÇELİŞKİ: devir antlaşması 18 Ara 1846, teslim 24 Ara 1846 — yalnız ipucu); 1848 taç kolonisi · enklav: ada koloni"},
+     {f:"1907-01-01", t:"1946-04-01", d:"ingiliz-malaya", kesinlik:"yil", kopuk:"denizasiri", kaynak:"1907'de Straits Settlements'a katıldı (1 Ocak yürürlük — ipucu); 1890–1906 Kuzey Borneo Şirketi idaresi yalnız idarî · enklav: Straits Settlements'ın ada parçası"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 { ad:"Kudat", tur:"liman", lat:6.8934, lon:116.8463, g:0, k:0, kur:"1881-01-01",
   s:[
@@ -310,7 +310,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Lifau (Oecussi)", tur:"liman", lat:-9.2056, lon:124.3711, g:0, k:0,
   s:[{f:"1281-01-01", t:"1702-01-01", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları (Ambeno)"},
-     {f:"1702-01-01", t:"1923-10-29", d:"portekiz", kesinlik:"yil", enklav:true, kaynak:"Marques dos Santos (FD-ULisboa): 'em 1702 o primeiro governador português António Coelho Guerreiro se instalou' (Gunn 1695 der — ÇELİŞKİ); 1859 antlaşması md.2 'l'enclave d'Oikoussi demeure Portugaise'; 1914 hakem kararı (UN RIAA vol. XI 481–517 'Affaire de l'île de Timor' (1859 · 1893 · 1904 metinleri, 1914 hakem kararı)) Ambeno-Oecussi Portekiz · enklav: Portekiz'in Timor'daki deniz aşırı merkezi, 1859'dan sonra resmen Oecussi enklavı (RIAA XI)"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
+     {f:"1702-01-01", t:"1923-10-29", d:"portekiz", kesinlik:"yil", kopuk:"enklav", kaynak:"Marques dos Santos (FD-ULisboa): 'em 1702 o primeiro governador português António Coelho Guerreiro se instalou' (Gunn 1695 der — ÇELİŞKİ); 1859 antlaşması md.2 'l'enclave d'Oikoussi demeure Portugaise'; 1914 hakem kararı (UN RIAA vol. XI 481–517 'Affaire de l'île de Timor' (1859 · 1893 · 1904 metinleri, 1914 hakem kararı)) Ambeno-Oecussi Portekiz · enklav: Portekiz'in Timor'daki deniz aşırı merkezi, 1859'dan sonra resmen Oecussi enklavı (RIAA XI)"},{f:"1923-10-29",t:"1975-12-07",d:"portekiz-timor",kaynak:"Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"},{f:"1975-12-07",t:"1999-10-25",d:"endonezya-dogu-timor",kaynak:"Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"},{f:"1999-10-25",t:"2000-12-31",d:"untaet",kaynak:"UNSC Resolution 1272 (25 Ekim 1999)"}],
   not:"Portekiz merkezi 1769-08-11'de Dili'ye taşındı (yalnız ipucu); 1769–1859 Topass (da Costa/Hornay) yönetimi sözde Portekiz vasalı. Koordinat denetle.py kara maskesi önerisiyle düzeltildi." },
 
 { ad:"Noemuti", tur:"sehir", lat:-9.547, lon:124.464, g:0, k:0,
@@ -329,7 +329,7 @@ window.YERLESIMLER_A78_ASYA = [
 { ad:"Atapupu", tur:"liman", lat:-9.0, lon:124.86, g:0, k:0,
   s:[{f:"1281-01-01", t:"1769-10-10", d:"timor-beylikleri", kaynak:"Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"},
      {f:"1769-10-10", t:"1818-01-01", d:"__BOSLUK__", kaynak:"timor-beylikleri künyesi kapanıyor; Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: İngiliz ara döneminde (1812–16) Portekiz bayrağı — egemen günü BULUNAMADI"},
-     {f:"1818-01-01", t:"1949-12-27", d:"hollanda-dogu-hint", kesinlik:"yil", enklav:true, kaynak:"Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: Resident Hazaart yeniden işgal etti (1818); s.70: 1890'ların sonunda Hollanda 'Hükûmet Toprağı' · enklav: Kupang'dan bağımsız liurai toprağıyla ayrılmış Hollanda karakolu (Farram s.55–56)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
+     {f:"1818-01-01", t:"1949-12-27", d:"hollanda-dogu-hint", kesinlik:"yil", kopuk:"denizasiri", kaynak:"Farram, From 'Timor Koepang' to 'Timor NTT' (doktora tezi, Charles Darwin Univ. 2004) s.55–56: Resident Hazaart yeniden işgal etti (1818); s.70: 1890'ların sonunda Hollanda 'Hükûmet Toprağı' · enklav: Kupang'dan bağımsız liurai toprağıyla ayrılmış Hollanda karakolu (Farram s.55–56)"},{f:"1949-12-27",t:"2000-12-31",d:"endonezya-cumhuriyeti",kaynak:"Office of the Historian; Britannica Indonesia"}],
   not:"Atambua (1910'da tanıklı, yol kasabası) yerine eski liman seçildi." },
 
 { ad:"Niki-Niki", tur:"sehir", lat:-9.823, lon:124.471, g:0, k:0,
@@ -411,7 +411,7 @@ window.YERLESIMLER_A78_ASYA = [
 
 { ad:"Tonghai", tur:"sehir", lat:24.11, lon:102.76, g:0, k:0,
   s:[{f:"1281-01-01", t:"1368-09-14", d:"yuan-hanedani", kaynak:"明史 卷46 通海: 'aslen Yuan Lin'an lu merkezi' (元臨安路治), Ningzhou'ya bağlı; bitiş künye günü"},
-     {f:"1368-09-14", t:"1382-01-16", d:"kuzey-yuan", enklav:true, kaynak:"明史 卷3 洪武十五年正月壬午 'Yunnan yatıştı' (eyalet özeti, şehre özgü gün yok; Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
+     {f:"1368-09-14", t:"1382-01-16", d:"kuzey-yuan", kopuk:"eksklav", kaynak:"明史 卷3 洪武十五年正月壬午 'Yunnan yatıştı' (eyalet özeti, şehre özgü gün yok; Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jülyen] · enklav: Liang prensi Basalawarmi'nin Yunnan'ı Kuzey Yuan'a bağlı ama Ming toprağıyla Moğolistan'dan AYRI (明史 卷3: 1382'de Ming'in Yunnan seferi)"},
      {f:"1382-01-16", t:"1644-04-25", d:"ming-hanedani", kaynak:"明史 卷46 通海 洪武十五年三月 Lin'an fu'ya bağlandı; Ming fethi 明史 卷3 正月壬午 (Lin'an ile aynı); bitiş Ming künye günü"},
      {f:"1644-04-25", t:"1659-01-07", d:"guney-ming", kaynak:"gün komşudan: Kunming · atlas emsali"},
      {f:"1659-01-07", t:"1673-12-28", d:"qing-hanedani", kaynak:"清史稿 卷6"},
