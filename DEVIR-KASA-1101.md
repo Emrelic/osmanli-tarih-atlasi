@@ -26,26 +26,33 @@ değildir — "ölü" demeden diff'e bak. Her iş aynı gün `main`e girer.
 ## B. Temiz ya da küçük veri — hemen
 | dal | ne |
 |---|---|
-| `emrelic-1101-yollar-pers-afrika` | Pers (22) + Afrika (19) yolu, 31 Eki — yeni dosya, index.html'e script satırı gerekir |
-| `emrelic-1101-drac-1018` | Draç 1282-1368 zinciri (TDV kruya) |
-| `emrelic-1101-ekokuma-makam` | Ek okuma: devlet makamları (js/app.js + yeni dosya) |
+| ~~`emrelic-1101-yollar-pers-afrika`~~ | ✅ main'e girdi (KASA, 1 Kasım, 7a0ac954f) |
+| ~~`emrelic-1101-drac-1018`~~ | ✅ main'e girdi (KASA, 1 Kasım, 7a0ac954f; yerlesimler.js çatışması elle: main'in 1000-1272 ve topia dilimleri korundu) |
+| ~~`emrelic-1101-ekokuma-makam`~~ | ✅ main'e girdi (KASA, 1 Kasım, 7a0ac954f) |
 | `kasa-1101-postit-148` | Basra (yerlesimler.js +2/-2) — yarım, kronoloji maddesi yok |
 | `kasa-1101-postit-132` | Gyula/Yanova/Mohaç — #132 Emre kararı bekliyor |
 | `postit-173-zend` | İran 1747-1751 Zend/Afşar — #173 Emre kararı bekliyor |
 
-## C. Çatışmalı veri — elle ayıkla
-| dal | ne |
+## C. Çatışmalı veri — ayıklandı (KASA, 1 Kasım akşamı)
+Ölçüm: dal başına `git diff origin/main...<dal>` eklenen satırları main'de birebir / kayıt
+(`ad:` + `s:` dilimleri, madde t + yer_id) düzeyinde arandı; iki Sonnet alt ajan, salt okuma.
+Ölü olanlar F'ye taşındı.
+
+**Alındı (main'e girdi):**
+| dal | ne alındı |
 |---|---|
-| `havva-1101-push-0cmqdy57` | İskandinavya/İsveç kronoloji + yerleşim — devletler.js, yerlesimler.js, yerlesimler_ek12.js, kronoloji_sinir_iskandinavya.js çatışır |
-| `kasa-1101-postit-146c` | Lugos — main'deki UMIT #146 ile karşılaştır, fazlası varsa al |
-| `kasa-1101-postit-151` | Rio–Patras — denetle.py + 15 yerlesimler*.js (+210/-201) |
-| `havva-1101-capraz-sorgu` | CAPRAZ-1018 çapraz sorgu defterleri (15 commit) |
-| `havva-1101-degismez2-tarama` | kronolojisiz toprak değişimleri (54 dosya) |
-| `havva-1101-yedek-ms1-1281` | VERİ-MS1-1281 yedeği (16 commit, 32 dosya) |
-| `havva-1101-yedek-postit-117-eski3` | Kutsal İttifak şehir el değişimleri (eski, eski2 bunun öncülleri) |
-| `havva-1101-postit-62` · `-99b` · `-101` · `-104` · `-135-ayna` | eski post-it çözümleri |
-| `havva-1101-w-veri` · `-reverent-visvesvaraya-6b5a52` | şüpheli; önce diff |
-| `emrelic-1101-teyit-dalga-1014` | teyit kampanyası 1.+2. dalga (93 dosya, 15 Eki) — büyük ihtimal sonraki işlerle aşıldı |
+| ~~`havva-1101-push-0cmqdy57`~~ | İskandinavya — zaten main'in atasıydı (0 commit ileri), iş yok |
+| ~~`havva-1101-reverent-visvesvaraya-6b5a52`~~ | `data/sehir_tarihce_k3.js` (282 şehir, hiçbiri main'de yoktu, 282/282 `ilk.kaynak` dolu) + `denetle_yayin.py` "kasıtlı YÜKLENMEZ" kaydı |
+| ~~`havva-1101-postit-62`~~ | Sivrihisar Karaman→Osmanlı 1413-07-05 → 1415-03-01 (TDV sivrihisar) + 1415-03-01 Konya maddesine Sivrihisar; dalın tavan/paket hunk'ları alınmadı |
+
+**Bekler (kaynak/karar/yeniden uygulama ister):**
+| dal | neden |
+|---|---|
+| `havva-1101-degismez2-tarama` | `data/olaylar_2s_1019.js`'in 67 maddesinden 43'ünün main'de eşdeğeri yok (TDV AYNEN) — yer_id eşleşmesi kaba, mükerrer taramasıyla alınmalı; ~1500 satırlık kayıt düzeltmesi + "YAPAY 1923-10-29 halef dikişi" güncel main'le yeniden denetlenmeli |
+| `havva-1101-capraz-sorgu` | `capraz/` defterleri (33 dosya) + `arac/capraz_cikar.js` main'de yok (denetim olarak alınabilir); 155 satırlık tarih düzeltmesi uygulanmamış, tarih kaydırır → Değişmez 2 ile yeniden sınanmalı (909 commit geride) |
+| `emrelic-1101-teyit-dalga-1014` | ÖLÜ DEĞİL: kronoloji dosyalarındaki eski satırlar main'de duruyor = uygulanmamış. Dal değil tablolar (`denetim/TEYIT-DALGA-1014/`, `denetim/TEYIT-KAMPANYA-DEVIR-1014/`) + `kaynak_guven.js` 13 kod alınıp `teyit_uygula.py` ile güncel main'de yeniden uygulanmalı |
+| `kasa-1101-postit-151` | enklav→`kopuk:` şema değişikliği (236 dönem + denetle.py `_beyan`); main'de `kopuk` yok; Emre/HAVVA onayı + betikle yeniden üretim |
+| `havva-1101-postit-101` | antlaşma "bırakılan bölgeler" petek boyama (js/antlasma_harita.js); main POSTIT-120 ile aynı bölgeyi değiştirdi → elle yeniden uygulama + tarayıcıda sına (D'ye de uyar) |
 
 ## D. Kod ve arayüz — Emre'ye göster
 `kasa-1101-postit-duzenle-ekran` (post-it'e ekran görüntüsü + düzenleme) ·
@@ -65,6 +72,18 @@ HAVVA ajanın ayıklaması: 24 dal (`havva-1101-agent-*`, `-w-gece`, `-w-not2`, 
 (`-tablo-1016`, `-tahta-yerel-1017`). `kasa-1101-postit-136` (main'de aynı Orsova maddesi var).
 `devir-1030/*` (16 dal) ve `birlesim-denetim-1028`, `entegrasyon-1029-asya`,
 `worktree-kron-lehistan` birleşimin içinde. Silmeden önce Emre'ye sor.
+
+C ayıklamasından (KASA, 1 Kasım; içerik ölçümü):
+`kasa-1101-postit-146c` (Lugos — main'de UMIT a090268e1, sahiplik özdeş) ·
+`havva-1101-postit-99b` (main aynı maddeye daha geniş terim notu yazmış; yalnız "hatman Türkçe
+taman/ataman kökenli" cümlesi eksik) · `havva-1101-postit-104` (Poti 1640-1724 kırpması main'de) ·
+`havva-1101-postit-135-ayna` (main'de caccb96fc, daha yeni; almak geri adım) ·
+`havva-1101-yedek-ms1-1281` (eklenen 3367 satırın 2332'si birebir, 178/178 devlet id main'de; yalnız
+`kronoloji_sinir_once1281_geriye.js`'te 117 madde main'de yok, toplu alınmaz) ·
+`havva-1101-yedek-postit-117-eski3` (main'de ee8889606, 4 maddeyi bilerek çıkarmış) ·
+`havva-1101-w-veri` (4/5 commit main'de; 5.si Jülyen'e çevirme, Emre #10 TAKVIM-1015 ile ters) ·
+`havva-1101-push-0cmqdy57`, `havva-1101-reverent-visvesvaraya-6b5a52`, `havva-1101-postit-62`
+(alındı).
 
 ## G. Post-it sahipliği
 UMIT oturumlarının elinde: #156 #161 #163 #170 #173 #174 (`not.py bekle` açık). KASA'nın
