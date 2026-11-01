@@ -5870,7 +5870,56 @@ function isyanGuncelle(t) {
 //   peteği tâbi kümesinden düşürdüyse (köprü, rötuş) hat dolgudan sapabilir.
 // 🔴 BÜTÇE: kare başına yalnız imza karşılaştırması; kenar hesabı imza (etkin
 //   petek×grup kümesi) değişince. Havuz (~2,2 MB) ilk tâbi günde BİR KEZ iner.
-var VIC = { imza: null, liste: null, yukleniyor: false };
+var VIC = { imza: null, liste: null, aday: null, yukleniyor: false };
+// 🆕 POSTIT-135 (Emre, 29 Ekim 2026, "A SEÇENEĞİ"): o gün SAHİBİ OLMAYAN (ya da
+//   henüz kurulmamış) noktanın peteği boyada çevredeki tâbi devletin toprağına
+//   katılıyor, ama hat hesabında "grup dışı" sayılıp tâbi toprağın ortasında
+//   kapalı bir hayalet halka çiziyordu (1648-08-08: Karpat havzası, Dacia,
+//   Sarmizegetusa, Rîbnița, Tiraspol, Bolgrad… 9 halka). Düzeltme: sahipsiz
+//   petek, hattın kenarlarının ÇOĞUNU paylaştığı tâbi grubuna katılır (en uzun
+//   ortak sınır) — boya ne gösteriyorsa hat da onu gösterir.
+// ⚠️ Sahipsizlik = o günde `d`/`v`/`s`/`isg` dönemlerinden hiçbiri etkin değil.
+//   Katılma eşiği: petek kenarlarının ≥ %50'si tâbi gruplarla ortak. Başka devlet
+//   (Lehistan, Habsburg) ya da Osmanlı doğrudanıyla da komşu, ağırlığı onlarda
+//   olan sahipsiz petek ATLANIR (boya da onu tâbiye katmıyor olabilir).
+// ⚠️ Aday havuzu: bir kez, `v:` taşıyan herhangi bir yerleşimin ≤ 2° yakınındaki
+//   noktalar — kare başı maliyet yalnız bu kümenin dönem taraması.
+function _vicAday() {
+  if (VIC.aday) return VIC.aday;
+  var petAd = {}, vlar = [], A = [];
+  PETEKLER.forEach(function (q, j) { if (q && q.a) petAd[q.a] = j; });
+  var Y = window.YERLESIMLER || [];
+  Y.forEach(function (y) { if (y.v && y.v.length && y.lat != null) vlar.push([y.lon, y.lat]); });
+  var izgara = {};
+  vlar.forEach(function (c) { var k = Math.floor(c[0] / 2) + "," + Math.floor(c[1] / 2); (izgara[k] = izgara[k] || []).push(c); });
+  Y.forEach(function (y) {
+    var j = petAd[y.ad];
+    if (j === undefined || y.lat == null || y.lon == null || (y.v && y.v.length)) return;
+    var gx = Math.floor(y.lon / 2), gy = Math.floor(y.lat / 2), yakin = false;
+    for (var dx = -1; dx <= 1 && !yakin; dx++) for (var dy = -1; dy <= 1 && !yakin; dy++) {
+      var h = izgara[(gx + dx) + "," + (gy + dy)];
+      if (!h) continue;
+      for (var i = 0; i < h.length; i++) {
+        if (Math.abs(h[i][0] - y.lon) <= 2 && Math.abs(h[i][1] - y.lat) <= 2) { yakin = true; break; }
+      }
+    }
+    if (yakin) A.push({ j: j, y: y });
+  });
+  VIC.aday = A;
+  return A;
+}
+function _vicSahipsiz(y, t) {
+  var T = ["d", "v", "s", "isg"];
+  for (var a = 0; a < T.length; a++) {
+    var L = y[T[a]];
+    if (!L) continue;
+    for (var i = 0; i < L.length; i++) {
+      var p = L[i];
+      if (p && p.f && p.t && aktifAralik(gunIdx(p.f), gunIdx(p.t), t)) return false;
+    }
+  }
+  return true;
+}
 function _vicListe() {
   if (VIC.liste) return VIC.liste;
   var petAd = {}, L = [];
@@ -5896,7 +5945,12 @@ function vassalIcSinirGuncelle(t) {
       if (t >= L[i].fi && t < L[i].ti) etkin.push(L[i]);
     }
   }
-  var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";");
+  var sahipsiz = [];
+  if (etkin.length) {
+    var AD = _vicAday();
+    for (var ai = 0; ai < AD.length; ai++) if (_vicSahipsiz(AD[ai].y, t)) sahipsiz.push(AD[ai].j);
+  }
+  var imza = etkin.map(function (e) { return e.j + ":" + e.g; }).join(";") + "|" + sahipsiz.join(",");
   if (imza === VIC.imza) return;
   if (imza && !window.PETEK_GOVDE) {
     if (_PETEK_GOVDE_YUK.hata) return;
@@ -5908,18 +5962,55 @@ function vassalIcSinirGuncelle(t) {
   }
   VIC.imza = imza;
   var G = window.PETEK_GOVDE, PP = window.PETEK_GOVDE_PARCA, kenar = {}, cizgiler = [];
-  etkin.forEach(function (e) {
-    (G[e.j] || []).forEach(function (pi) {
+  function petekKenarlari(j) {                        // [{a: yönsüz kenar anahtarı, p: [uç, uç]}]
+    var out = [];
+    (G[j] || []).forEach(function (pi) {
       (PP[pi] || []).forEach(function (h) {
         for (var k = 0; k < h.length - 1; k++) {
           var a = h[k][0] + "," + h[k][1], b = h[k + 1][0] + "," + h[k + 1][1];
-          var anh = e.g + "#" + (a < b ? a + "|" + b : b + "|" + a), o = kenar[anh];
-          if (!o) kenar[anh] = { n: 1, p: [h[k], h[k + 1]] };
-          else o.n++;
+          out.push({ a: a < b ? a + "|" + b : b + "|" + a, p: [h[k], h[k + 1]] });
         }
       });
     });
+    return out;
+  }
+  function gruba(g, kl) {
+    kl.forEach(function (e) {
+      var anh = g + "#" + e.a, o = kenar[anh];
+      if (!o) kenar[anh] = { n: 1, p: e.p };
+      else o.n++;
+    });
+  }
+  var grupKenar = {};                                  // grup -> {yönsüz kenar: 1} (komşuluk ölçüsü)
+  etkin.forEach(function (e) {
+    var kl = petekKenarlari(e.j);
+    gruba(e.g, kl);
+    var gk = grupKenar[e.g] = grupKenar[e.g] || {};
+    kl.forEach(function (x) { gk[x.a] = 1; });
   });
+  // POSTIT-135: sahipsiz petekler, kenarlarının çoğunu paylaştığı tâbi gruba katılır.
+  // Zincir (Karpat havzası ↔ Dacia) için katılan petek de gruba sayılır; ≤ 4 geçiş.
+  var bekleyen = sahipsiz.filter(function (j) { return !etkin.some(function (e) { return e.j === j; }); });
+  for (var gecis = 0; gecis < 4 && bekleyen.length; gecis++) {
+    var kalan = [];
+    bekleyen.forEach(function (j) {
+      var kl = petekKenarlari(j);
+      if (!kl.length) return;
+      var en = null, enN = 0, toplamOrtak = 0;
+      for (var g in grupKenar) {
+        var n = 0;
+        kl.forEach(function (x) { if (grupKenar[g][x.a]) n++; });
+        toplamOrtak += n;
+        if (n > enN) { enN = n; en = g; }
+      }
+      if (en && toplamOrtak * 2 >= kl.length) {
+        gruba(en, kl);
+        kl.forEach(function (x) { grupKenar[en][x.a] = 1; });
+      } else kalan.push(j);
+    });
+    if (kalan.length === bekleyen.length) break;
+    bekleyen = kalan;
+  }
   for (var anh in kenar) if (kenar[anh].n === 1) cizgiler.push(kenar[anh].p);
   harita.getSource("vassal-ic").setData({ type: "FeatureCollection",
     features: cizgiler.length ? [{ type: "Feature", properties: {},
