@@ -6648,7 +6648,7 @@ window.ETIKET_YAMA = {
    },
    {
     "dosya": "kronoloji_ingiltere.js",
-    "t": "1845-09-13",
+    "t": "1845-01-01",
     "b": "Patates mildiyösü ilk kez bildirildi — Büyük Kıtlık başladı",
     "etiket_oneri": [
      "afet-kitlik",

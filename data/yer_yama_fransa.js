@@ -67,7 +67,7 @@ window.YER_YAMA_FRANSA = [
 { dosya:"kronoloji_fransa.js", t:"1525-02-24", b:"Pavia Savaşı — I. François'nın esir düşmesi",
   eksik_nokta:{ ad:"Pavia", enlem:45.185, boylam:9.158, kaynak:"yer adı madde başlığında; koordinat: bilinen yerleşim konumu (Lombardiya)" } },
 
-{ dosya:"kronoloji_fransa.js", t:"1539-08-10", b:"Villers-Cotterêts Fermanı — Fransızcanın resmî idare dili olması",
+{ dosya:"kronoloji_fransa.js", t:"1539-01-01", b:"Villers-Cotterêts Fermanı — Fransızcanın resmî idare dili olması",
   eksik_nokta:{ ad:"Villers-Cotterêts", enlem:49.25, boylam:3.086, kaynak:"yer adı madde başlığında; koordinat: bilinen yerleşim konumu (Aisne)" } },
 
 { dosya:"kronoloji_fransa.js", t:"1559-04-03", b:"Cateau-Cambrésis Antlaşması — İtalyan Savaşları'nın sona ermesi",
@@ -97,7 +97,7 @@ window.YER_YAMA_FRANSA = [
 { dosya:"kronoloji_fransa.js", t:"1661-09-05", b:"Maliye Nazırı Fouquet'nin tutuklanması", yer_id:"Nantes",
   kaynak:"madde metninde tarih ('5 Eylül 1661') Fouquet'nin Nantes'ta tutuklanmasıyla birebir örtüşüyor (kralın Nantes ziyareti sırasında) — havuzda birebir nokta var" },
 
-{ dosya:"kronoloji_fransa.js", t:"1667-05-24", b:"Devrolma Savaşı'nın başlaması", kapsam_genis:true,
+{ dosya:"kronoloji_fransa.js", t:"1667-01-01", b:"Devrolma Savaşı'nın başlaması", kapsam_genis:true,
   not:"Devrolma Savaşı, İspanyol Hollandası'nın birçok şehrine yönelen bir işgal seferiydi; tek bir başlangıç noktası yok", kaynak:"akademik: John A. Lynn, The Wars of Louis XIV (1999)" },
 
 { dosya:"kronoloji_fransa.js", t:"1682-05-06", b:"Sarayın Versay'a taşınması",

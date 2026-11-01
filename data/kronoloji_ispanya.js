@@ -562,7 +562,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1761-08-15", b:"Üçüncü Aile Sözleşmesi — Bourbon ittifakı", tur:"ittifak", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi","konu-diplomasi"],
   d:"İspanya ve Fransa Bourbon hanedanları, İngiltere'ye karşı karşılıklı askerî destek taahhüt eden bir ittifak imzaladı; bu antlaşma İspanya'yı Yedi Yıl Savaşları'na (1762) sürükleyecekti.",
-  kaynak:"standart akademik kaynak", yer_id:"Paris" },
+  kaynak:"Gran Enciclopèdia Catalana, «pactes de Família» https://www.enciclopedia.cat/gran-enciclopedia-catalana/pactes-de-familia — «tercer pacte, 15 d’agost de 1761» ; standart akademik kaynak", yer_id:"Paris" },
 
 { t:"1762-08-13", b:"Havana'nın İngilizler tarafından ele geçirilmesi", tur:"toprak-kayip", onem:4, dunya:3, kapsam:"dis", yer_id:"Havana (La Habana)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
@@ -589,10 +589,10 @@ window.KRONOLOJI_ISPANYA = [
   d:"Bourbon reformlarının en önemli iktisadi adımlarından biriyle, Amerika ile ticaret artık yalnız Cádiz üzerinden değil, İspanya'nın on üç limanından yapılabilir hâle geldi; karar, sömürge ekonomisinde canlanma yarattı ama yerel üreticilerin İspanya mallarıyla rekabetini de zorlaştırdı.",
   kaynak:"standart akademik kaynak (Kamen)" },
 
-{ t:"1782-06-02", b:"Banco de San Carlos'un kuruluşu — ilk İspanyol millî bankası", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
+{ t:"1782-01-01", b:"Banco de San Carlos'un kuruluşu — ilk İspanyol millî bankası", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["ekonomi","reform","konu-ekonomi","konu-islahat"],
   d:"Devlet borcunu düzenlemek amacıyla kurulan banka, 1785'te faaliyete geçti ve 19. yüzyılda Banco de España'nın öncülü oldu; kuruluşu, Bourbon reformlarının malî modernleşme çabasının simgesiydi.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"Gran Enciclopèdia Catalana, «Banco de España» https://www.enciclopedia.cat/gran-enciclopedia-catalana/banco-de-espana — «Fins el 1782 hom no aconseguí la fundació … el Banco de San Carlos» ; standart akademik kaynak", ic_not_t:"gün yalnız güvensiz kaynakta: 1782-06-02; güvenilir kaynağın tarihi: 1782; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1782-02-05", b:"Menorca'nın İngilizlerden geri alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Menorka (Mahon)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
@@ -614,30 +614,30 @@ window.KRONOLOJI_ISPANYA = [
   d:"Aydınlanma çağı reformlarının en etkili İspanyol hükümdarı sayılan III. Carlos'un ölümü, yerine geçen zayıf ve kararsız IV. Carlos döneminde reform sürecinin yavaşlamasına ve devrimci Fransa karşısında savrulan bir dış politikaya yol açtı.",
   kaynak:"standart akademik kaynak (Kamen)" },
 
-{ t:"1793-03-23", b:"Devrimci Fransa'ya savaş ilanı — Pireneler Savaşı başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1793-01-01", b:"Devrimci Fransa'ya savaş ilanı — Pireneler Savaşı başladı", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"İspanya, XVI. Louis'nin idamına tepki olarak Birinci Koalisyon'a katılıp devrimci Fransa'ya savaş açtı; savaş İspanya için beklenenin aksine kötü geçti ve Katalonya ile Bask bölgesinden Fransız işgaline uğradı.",
-  kaynak:"standart akademik kaynak", yer_id:"Madrid" },
+  kaynak:"Gran Enciclopèdia Catalana, «Carles IV d’Espanya» https://www.enciclopedia.cat/gran-enciclopedia-catalana/carles-iv-despanya — «executat Lluís XVI (gener del 1793), Carles IV declarà la guerra a la República» ; standart akademik kaynak", yer_id:"Madrid", ic_not_t:"gün yalnız güvensiz kaynakta: 1793-03-23; güvenilir kaynağın tarihi: 1793; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1795-07-22", b:"Basel Barışı — Fransa ile savaş sona erdi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Savaşın kötü gitmesi üzerine İspanya, Fransa ile ayrı bir barış yaparak Santo Domingo'nun (bugünkü Dominik Cumhuriyeti) İspanyol yarısını Fransa'ya bıraktı; barışı müzakere eden Manuel Godoy, \"Barış Prensi\" unvanını bu antlaşmadan aldı.",
-  kaynak:"standart akademik kaynak", yer_id:"Basel" },
+  kaynak:"Gran Enciclopèdia Catalana, «pau de Basilea» https://www.enciclopedia.cat/gran-enciclopedia-catalana/pau-de-basilea — «Pel segon (22 de juliol de 1795), França es retirava de la zona fronterera» ; standart akademik kaynak", yer_id:"Basel" },
 
 { t:"1796-08-19", b:"San Ildefonso Antlaşması — Fransa ile ittifak", tur:"ittifak", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["ittifak","diplomasi","konu-diplomasi"],
   d:"İspanya, eski düşmanı Fransa ile İngiltere'ye karşı bir askerî ittifak imzaladı; bu, İspanya'yı fiilen Napolyon'un uydusu hâline getirecek uzun bir sürecin başlangıcıydı ve İngiltere ile deniz savaşına yol açtı.",
   kaynak:"standart akademik kaynak", yer_kon:[40.8975,-4.0075] },
 
-{ t:"1797-02-14", b:"Aziz Vincent Burnu Savaşı — İspanyol donanmasının yenilgisi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
+{ t:"1797-01-01", b:"Aziz Vincent Burnu Savaşı — İspanyol donanmasının yenilgisi", tur:"savas", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Amiral John Jervis ve komodor Horatio Nelson komutasındaki İngiliz filosu, sayıca üstün İspanyol donanmasını Aziz Vincent Burnu açıklarında yendi; yenilgi, San Ildefonso ittifakının İspanya'ya deniz gücü açısından bedelini gösterdi.",
-  kaynak:"standart akademik kaynak", yer_kon:[37.02,-9] },
+  kaynak:"Gran Enciclopèdia Catalana, «Carles IV d’Espanya» https://www.enciclopedia.cat/gran-enciclopedia-catalana/carles-iv-despanya — «els anglesos, que l’atacaven repetidament (batalla del cap San Vicente, 1797)» ; standart akademik kaynak", yer_kon:[37.02,-9], ic_not_t:"gün yalnız güvensiz kaynakta: 1797-02-14; güvenilir kaynağın tarihi: 1797; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
-{ t:"1800-10-01", b:"Üçüncü San Ildefonso Antlaşması — Louisiana Fransa'ya geri verildi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1800-01-01", b:"Üçüncü San Ildefonso Antlaşması — Louisiana Fransa'ya geri verildi", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Napolyon'un baskısıyla İspanya, 1763'te devraldığı Louisiana'yı gizli bir antlaşmayla Fransa'ya iade etti; toprak üç yıl sonra Fransa tarafından ABD'ye satılacaktı (Louisiana Satın Alımı).",
-  kaynak:"standart akademik kaynak", yer_kon:[40.8975,-4.0075] },
+  kaynak:"Gran Enciclopèdia Catalana, «Louisiana» https://www.enciclopedia.cat/gran-enciclopedia-catalana/louisiana-0 — «França la recuperà el 1800, i el 1803 la vengué als EUA» ; standart akademik kaynak", yer_kon:[40.8975,-4.0075], ic_not_t:"gün yalnız güvensiz kaynakta: 1800-10-01; güvenilir kaynağın tarihi: 1800; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1803-11-30", b:"Balmis Aşı Seferi'nin yola çıkışı", tur:"bilim", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["bilim","teknoloji","sosyal","konu-bilim","konu-sosyal","afet","afet-salgin"],
@@ -656,7 +656,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1808-03-19", b:"Aranjuez Ayaklanması — IV. Carlos tahttan çekildi", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","hanedan","kriz","konu-siyasi","konu-isyan","konu-hanedan"],
   d:"Godoy'un Fransız birliklerini ülkeye sokmasına ve saray yolsuzluğuna öfkelenen halk, Aranjuez'de ayaklandı; IV. Carlos tahtı oğlu VII. Fernando'ya bırakmak zorunda kaldı. Kriz, Napolyon'un İspanya işlerine doğrudan müdahalesine kapı açtı.",
-  kaynak:"standart akademik kaynak", yer_kon:[40.0322,-3.6039] },
+  kaynak:"Gran Enciclopèdia Catalana, «motí d’Aranjuez» https://www.enciclopedia.cat/gran-enciclopedia-catalana/moti-daranjuez — «Godoy fou empresonat i destituït, i Carles IV abdicà (19 de març)» ; standart akademik kaynak", yer_kon:[40.0322,-3.6039] },
 
 { t:"1808-05-02", b:"Dos de Mayo Ayaklanması — Madrid'in Fransız işgaline direnişi", tur:"isyan", onem:5, dunya:4, kapsam:"ic", yer_id:"Madrid",
   etiket:["isyan","askeri","milliyetcilik","konu-askeri","konu-siyasi","konu-isyan"],
@@ -691,7 +691,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1813-06-21", b:"Vitoria Savaşı — Fransızlar İspanya'dan sürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["askeri","konu-askeri"],
   d:"Wellington Dükü komutasındaki İngiliz-Portekiz-İspanyol ordusu, Joseph Bonaparte'ın ordusunu Vitoria'da kesin biçimde yendi; zafer, Fransız kuvvetlerinin İspanya'dan pratik olarak çekilmesini başlattı ve Yarımada Savaşı'nın sonunu getirdi.",
-  kaynak:"standart akademik kaynak", yer_kon:[42.8467,-2.6716] },
+  kaynak:"Gran Enciclopèdia Catalana, «batalla de Vitòria» https://www.enciclopedia.cat/gran-enciclopedia-catalana/batalla-de-vitoria — «Combat que tingué lloc prop de Vitòria, el 21 de juny de 1813» ; standart akademik kaynak", yer_kon:[42.8467,-2.6716] },
 
 { t:"1814-05-04", b:"VII. Fernando'nun mutlakiyeti geri getirmesi", tur:"reform", onem:5, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["reform","anayasa","kriz","konu-siyasi","konu-islahat","konu-hukuk"],
@@ -706,7 +706,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1820-01-01", b:"Riego Ayaklanması — Liberal Üçyıl'ın başlaması", tur:"isyan", onem:4, dunya:2, kapsam:"ic", yer_id:"",
   etiket:["isyan","reform","konu-isyan","konu-islahat"],
   d:"Amerika'ya sevk edilmek üzere toplanan bir ordu birliğinin komutanı Rafael del Riego, birliğini Cádiz yakınında ayaklandırıp 1812 Anayasası'nın yeniden yürürlüğe girmesini talep etti; VII. Fernando kısa süre sonra anayasayı kabul etmek zorunda kaldı. Üç yıl sürecek liberal dönem (Trienio Liberal) böyle başladı.",
-  kaynak:"standart akademik kaynak", yer_kon:[36.98,-5.935] },
+  kaynak:"Gran Enciclopèdia Catalana, «Rafael del Riego» https://www.enciclopedia.cat/gran-enciclopedia-catalana/rafael-del-riego — «L’1 de gener de 1820 … es rebel·là a Cabezas de San Juan» ; standart akademik kaynak", yer_kon:[36.98,-5.935] },
 
 { odak_yer:["Bayonne","Madrid","Cádiz"], t:"1823-04-07", b:"\"Aziz Louis'nin Yüz Bin Oğlu\" Fransız ordusu İspanya'yı işgal etti", tur:"isgal", onem:4, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["isgal","askeri","konu-askeri"],
@@ -838,10 +838,10 @@ window.KRONOLOJI_ISPANYA = [
   d:"Beş yıl önce bir deniz baskınında esir düşüp Cezayir'de tutulan yazar Miguel de Cervantes, Trinitarian tarikatının topladığı fidyeyle serbest bırakıldı; esaret yılları sonraki eserlerinde (Don Kişot içindeki \"Esir'in Hikâyesi\" dahil) doğrudan iz bıraktı.",
   kaynak:"standart akademik kaynak (Kamen, kültür bölümü)", yer_id:"Cezayir" },
 
-{ t:"1622-03-12", b:"Dörtlü kanonizasyon — Ávilalı Teresa ve üç İspanyol azizin törenle azizleştirilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic", yer_id:"",
+{ t:"1622-01-01", b:"Dörtlü kanonizasyon — Ávilalı Teresa ve üç İspanyol azizin törenle azizleştirilmesi", tur:"din", onem:2, dunya:1, kapsam:"ic", yer_id:"",
   etiket:["din","kultur","konu-din","konu-kultur"],
   d:"Papa XV. Gregorius, aynı törende İspanyol Karşı-Reform'unun dört büyük ismini (Ávilalı Teresa, Loyolalı Ignatius, Xavierli Francis, Madridli Isidore) azizleştirdi; tören, İspanyol Katolikliğinin döneme damga vuran dinî özgüveninin bir göstergesiydi.",
-  kaynak:"standart akademik kaynak", yer_id:"Roma" },
+  kaynak:"Gran Enciclopèdia Catalana, «Teresa de Jesús» https://www.enciclopedia.cat/gran-enciclopedia-catalana/teresa-de-jesus — «El 1622 fou canonitzada» ; standart akademik kaynak", yer_id:"Roma", ic_not_t:"gün yalnız güvensiz kaynakta: 1622-03-12; güvenilir kaynağın tarihi: 1622; 14 Ekim 2026 Emre kararıyla yıla indirildi (TEYIT-KARAR-1014)" },
 
 { t:"1627-01-01", b:"Kraliyet hazinesinin iflası (dördüncü büyük iflas)", tur:"ekonomi", onem:3, dunya:2, kapsam:"ic", yer_id:"Madrid",
   etiket:["ekonomi","kriz","konu-siyasi","konu-ekonomi"],
@@ -866,12 +866,12 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1781-01-01", b:"Real Jardín Botánico'nun (Kraliyet Botanik Bahçesi) bugünkü yerine taşınması", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["bilim","konu-bilim"],
   d:"III. Carlos'un emriyle Prado bulvarına taşınan botanik bahçesi, Amerika ve Filipinler'deki bilimsel seferlerden (Mutis, Malaspina) toplanan binlerce bitki örneğinin sınıflandırıldığı merkez hâline geldi; Bourbon aydınlanma reformlarının bilim kurumsallaşmasının somut örneğidir.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"Real Jardín Botánico (CSIC), «Historia del RJB» https://rjb.csic.es/el-rjb/historia/ — «su traslado al actual emplazamiento del paseo del Prado, donde se inaugura en 1781» ; standart akademik kaynak" },
 
 { t:"1786-01-01", b:"Goya birinci saray ressamı oldu", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["kultur","kultur","konu-sanat","konu-kultur","konu-imar"],
   d:"Francisco de Goya, kraliyet gobelin fabrikası için yaptığı kartonlarla dikkat çektikten sonra saray ressamlığına atandı; bu görev, onu hem III. Carlos hem IV. Carlos döneminin resmî portrelerini yapan, hem de Napolyon işgalinin dehşetini kaydeden bir sanatçıya dönüştürecek kariyerin başlangıcıydı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"Gran Enciclopèdia Catalana, «Francisco Goya y Lucientes» https://www.enciclopedia.cat/gran-enciclopedia-catalana/francisco-goya-y-lucientes — «l’any següent ja era pintor fix del rei Carles III» ; standart akademik kaynak" },
 
 { t:"1789-07-30", b:"Malaspina Seferi'nin yola çıkışı — bilimsel dünya turu", tur:"bilim", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["bilim","kesif","konu-bilim","konu-kesif"],
