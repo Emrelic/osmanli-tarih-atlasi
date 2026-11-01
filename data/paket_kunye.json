@@ -181,8 +181,8 @@
    "kaynak": [
     {
      "yol": "data/kronoloji_habsburg.js",
-     "sha": "e3c65d3d809a8281",
-     "bayt": 86976
+     "sha": "26ec93e12734c799",
+     "bayt": 87359
     },
     {
      "yol": "data/kronoloji_rusya.js",
@@ -210,7 +210,7 @@
      "bayt": 72741
     }
    ],
-   "bayt": 450191
+   "bayt": 450574
   },
   {
    "paket": "data/paket_07.js",
