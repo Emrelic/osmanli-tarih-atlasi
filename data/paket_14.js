@@ -4290,7 +4290,7 @@ window.YERLESIMLER_H2_KUZEYAFRIKA = [
 
   { ad:"Şefşâven",neden:"1923-10-29 kesitini ETKİLEMİYOR (olay 1924-1926 arası) — kayıt tamlık için, atlas ufkunun dışı için eklendi.",kaynak:"islamansiklopedisi'de bu tanecik yok; Wikipedia '1924 retreat from Chaoen' — İspanyol tahliyesi 15 Kasım 1924 gecesi. Rif Cumhuriyeti'nin resmî sonu (27 Mayıs 1926) kendi künyesinden.", tur:"sehir", lat:35.171, lon:-5.269, g:0, k:3, m:null,
     kur:"1471-01-01",
-    s:[{f:"1471-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1924-11-15",d:"fas"},{f:"1924-11-15",t:"1926-05-27",d:"rif-cumhuriyeti"},{f:"1926-05-27",t:"9999-01-01",d:"fas"}], d:[], v:[] },
+    s:[{f:"1471-01-01",t:"1549-01-01",d:"merini"},{f:"1549-01-01",t:"1659-01-01",d:"sadi"},{f:"1659-01-01",t:"1924-11-15",d:"fas"},{f:"1924-11-15",t:"1926-05-25",d:"rif-cumhuriyeti",kaynak:"t: TDV Sebte — Abdülkerîm'i esir alıp devletine son verdiler (25 Mayıs 1926); DUNYA-1102 hücre 18"},{f:"1926-05-25",t:"9999-01-01",d:"fas"}], d:[], v:[] },
 
   // Vezzâniyye zâviyesinin merkezi. Kuruluş yılı için güvenilir tarih
   // BULUNAMADI ⇒ `kur` HİÇ YAZILMADI (`VERI-YAPISI.md`: "Bilinmiyorsa alanı

@@ -1,0 +1,104 @@
+# Hücre 15-17 + 18a — Afrika 500–2000 · bekleyen
+
+KASA, 2 Kasım 2026. Künye tavanı 2280 dolu; yeni künye eklenmedi.
+
+## Hücre 15-16 (Afrika 500–1500)
+- Künye: 6 kaynak; ganiyeler f 1126-02-03 (TDV 520/1126, hicrî kural) t 1237-08-31 (TDV: Yahya b. Gâniye ö. 635/1237) · tunus-benihorasan f 1058 → 1062-01-01 (TDV 454/1062; hicrî günü ~1062-01-21 ama yerleşim 1062-01-01'de başlıyor — yıl düzeyinde; TDV iki dönem: 1062-1128 ve 1148-1159).
+- Beyan: bizans-afrika-eksarhligi t 698 (TDV) ↔ Treccani 709; f 591 ↔ Treccani 'Maurizio' 584 · berqavata 744/1149 hakemli teyitsiz · agadez f 1405 okunmadı, TDV Songhay 1515 · 1203 Gâniye maddesi: TDV'de 1203 Mayorka'nın Muvahhidlerce alınışı · Kafsa 591: Kafsa 534'ten beri Bizans · Timbuktu 1468 "Mali nüfuzunun sonu" kaynaksız.
+- Okunmadı: nri, touggourt (TDV'de madde yok), Safi 1488.
+## Hücre 17 (Afrika 1500–1800)
+- Künye: 9 kaynak (UNESCO GHA V PDF, TDV); akwamu t 1730 → 1731 (GHA V: Akyem Abuakwa 1731).
+- Beyan: fezzan t 1812 ↔ TDV 1831; "1574 Osmanlı bağımlılığı" ↔ TDV 1551 Trablusgarp sancağı · denyanke f 1512 ↔ GHA V 1490'lar · dendi 1901'e dek tek krallık desteklenmiyor · kebbi GHA V 1722 · vedday f 1635 (TDV; 1611 rivayeti) · Tanca devri TDV 1661 ↔ 30 Ocak 1662 · Mazagan 1769 yıl çift teyit, 11 Mart gün teyitsiz · Asante-Bono GHA V 1723-4 · Akwamu Ga fethi 1677 ↔ GHA V 1681.
+## Hücre 18 (Afrika 1800–2000) — parti A
+- Künye: 33 kaynak (legislation.gov.uk bağımsızlık yasaları, TDV, history.state.gov); rif-cumhuriyeti t 1926-05-27 → 1926-05-25 (TDV Sebte) — künye + Fas yerleşimi (yerlesimler_h2_kuzeyafrika.js) BİRLİKTE taşındı (ilk kırılma-taşıma).
+- Beyan: anjuan t 2008 ↔ TDV 7 Ocak 2002 birlik · tanzanya adı 26 Nisan 1964 (TDV) · cezayir-gpra t 1962-09-25 kaynaksız · somali-ingiliz-himayesi f 1884 ↔ 1883 · history.state.gov çoğu yerde ABD tanıma günü verir.
+
+## Beyan edilen ama uygulanmayan (karar verilmedi / tek kaynak çelişki)
+- berqavata: TDV Bergavâta devletinin ne kuruluş ne yıkılış gününü verir. f 744: TDV yalnız Tarif ö. 124/742 ve oğlu Sâlih'in halefliğini yazar; 744 (131 H) Brill 'Islam at 250' bölümü ve EI-2 'Barghawata' (le Tourneau) özetinde geçer ama Brill 403 verdi, AÇILMADI. t 1149 (Muvahhid, 1148-49): hakemli sayfa açılamadı (EI-2 403; yalnız Britannica/Wikipedia özeti, yasak); TDV Rabat maddesi Abdülmü'min'in Bergavât
+- okunmadı · nri
+- bizans-afrika-eksarhligi: f 591 Treccani ile uyumlu (Gregorius I mektupları, Ağustos 591, Gennadios'a: Treccani Enciclopedia dei Papi özeti; Roman Letters sayfasında c.591 'patrician and commander in Africa', c.593 'Exarch'). Treccani 'Maurizio' maddesi kuruluşu 584 verir (Leonzio maddesi 591): ÇELİŞKİ-BEYAN, 591 korunur. t: Treccani 709 ↔ TDV 698 (Kartaca/Kafsa); TDV esas -> 698 korunur, 709 ic_not'ta beyan edilir. EBSCO 
+- agadez-sultanligi: t 1906 TDV Nijer ile teyit. f 1405: yalnız Minahan (WebSearch özeti) ve Wikipedia; Rossi, 'The Agadez Chronicles and Y-Tarichi' (History in Africa 2016) özeti açıldı ama tarih içermiyor (tam metin UCL PDF 403). Ayrıntı çelişkileri: merkez önce Tadaliza; Agadez'e taşınma 1413/1430-49/1449 farklı yazımlar (hakemli doğrulanmadı). TDV Nijer: Askiya Muhammed Agadez'i 1515'te Gao'ya bağladı (atlas krono
+- okunmadı · touggourt
+- ganiyeler: HİCRÎ KURALI: f 520 H ∩ 1126 -> 520 H başı ~1126-02-03 (tablo hesabı ±2 gün); atlas 1126-01-01 hicrî yıldan önce. t: künye 1233 'Yahya 1233-34'te öldü' TDV ile ÇELİŞİR: TDV Yahya b. Gāniye ö. 635 (1237-38); 635 H ∩ 1237 = ~1237-08-31 (±2 gün; 1237-38 iki yıl da geçerli, seçim ic_not'ta beyan edilir; ilk gün alındı). 543/1148 ölen Yahyâ b. Ali başka kişidir; Muhammed en-Nâsır Tunus'u 603/1206-07'de
+- tunus-benihorasan: f: atlas 1058 yanlış; TDV 454/1062 (454 H ∩ 1062 -> ~1062-01-21, tablo ±2 gün). t: 554/1159 (554 H başı ~1159-01-30; atlas 1159-01-01 hicrî yıldan önce). ARA DÖNEM: TDV'ye göre hanedan iki dönemli: 1062-1128 ve 1148-1159; 522/1128'de Hammâdî komutanı Mutarraf Tunus'u aldı, 'Tunus 543 (1148) yılına kadar Hammâdî valileri tarafından yönetildi' -> 1128-1148 arası Hammâdî sahipli olmalı (künye ozet 'H
+- trablus-benihazrun: f 1001-01-01: 391 H (1000-12-07..1001-11-26) ∩ 1001 -> 1001-01-01, künye ile aynı. t: 541 H başı ~1146-06-20 (tablo ±2 gün) — yıl-düzeyi uyum, gün tahmini hicrî kuralından; düşük öncelikli, uygulanmayabilir. TDV Trablusgarp '12 yıl sonra halk Normanlar'ı çıkardı' ve Muvahhid 554/1159 diyor: 1146 sonrası Trablus sahipliği (Norman 1146-~1158) ayrı dönem olarak sorgulanmalı. TDV Mağrâve: Fülfül b. Sa
+- bulunamadı: nri f/t (994/1911) akademik
+- bulunamadı: touggourt f/t akademik
+- bulunamadı: berqavata f 744/t 1149 gün-düzeyi hakemli (Brill EI-2 403)
+- bulunamadı: agadez f 1405 hakemli
+- 0591-01-01 Kafsa: Bizans Afrika Eksarhlığı’na bağlandı: EBSCO (yasak) yerine Treccani+TDV konabilir. ÖNEMLİ: TDV Kafsa Bizans hâkimiyetini 534 Belisarios ile başlatır (Byzacena idarî-askerî merkezi); Kafsa 591'de 'bağlanmadı', 591 eksarhlığın kuruluşu. Madde Kafsa'nın yeni bir geçişi gibi okunuyorsa yanlıştır; öneri: başlığı 'Kafsa, Maurikios'un kurduğu Afrika Eksarhlığı'nın parçası oldu (eksarhlık 591)' biçimine çekmek ya da maddeyi çıkarmak (Kafsa 53
+- 1471-08-24 Arzila'nın Portekiz tarafından alınışı — Fas kıyısında ikinc: Gün 24 Ağustos 1471 doğrulandı (yalnız bu kaynakta). İkinci kaynak (Portekiz hakemli) açılamadı: run.unl.pt Anubis bot kontrolü verdi, aşılmaya çalışılmadı. 'İkinci köprübaşı' ifadesi (Ceuta 1415 sonrası) kaynakta okunmadı.
+- okunmadı · 1488-01-01 Safi'nin Portekiz nüfuzuna girmesi
+- 1203-01-01 Gâniyeoğulları Tunus'un denetimini ele geçirir (kaynaklar 11: TDV 1203'ü 'Tunus denetimi' olarak DEĞİL, Muvahhidlerin Mayorka'yı alması (599/1203) olarak verir; Tunus'un Yahyâ'ya geçişi tarihsiz ('Daha sonra Tunus'u istilâ ederek halkı 100.000 dinar vergi ödemek zorunda bıraktı'), Tunus'a ulaşma 582/1186'da; Muvahhid geri alışı 603/1206-07. Madde başlığı ve 1203 tarihi TDV'ye göre desteksiz; öneri: 1203 maddesini 'Muvahhidler Mayorka'yı aldı (599/1203; Gâniy
+- 1468-01-01 Sünnî Ali, Tuareglerin elindeki Timbuktu'yu Songhay'a kattı;: Yıl 1468 TDV ile uyumlu; gün yok (Encyclopedia of World Biography/Gale 'January 1468' der ama yasak kaynak). ÇELİŞKİ-BEYAN: 'Mali'nin nüfuzunun sonu' TDV'de değil; TDV Tuareg'in 1430'da (Gale 1433) şehri aldığını yazar; Mali etkisi o tarihte bitmiş görünür. Başlığın son yarım cümlesi yoruma dayanıyor, kaynaksız; kaldırılması önerilir. Hunwick, 'Songhay, Borno and Hausaland in the sixteenth century
+- bulunamadı: Safi 1488 hakemli
+- bulunamadı: Arzila ikinci kaynak
+- fezzan: ÇELİŞKİ KARARSIZ: TDV sonu 1831 (Evlâd Süleyman) yazar, 1550 gibi kesin bir kuruluş yılı vermez ('XVI. yüzyıl başı'). Irak akademik makalesi başlığı '1550-1813' verir (gövdesi 403 ile açılamadı). Künye 1550-1812: ne f ne t değiştirildi; TDV'nin 1831'ini 1812 ile uzlaştıracak ikinci akademik kaynak okunamadı (Cambridge/EI açılmadı). TDV'ye göre Fizan 1551'de Trablusgarb'a bağlı sancak (kronolojidek
+- okunmadı · touggourt
+- cape-hollanda: f ve t doğrulandı. Elphick-Giliomee açılmadı. Batavya iadesi 1803 (Amiens şartı) Scientia Militaria'da: «returned to the Netherlands for a short while (from 1803 to 1806...)».
+- cape-ingiliz: f 1795-09-16 doğrulandı; 1803-06 boşluğu (Batavya) cape-hollanda/ara dönemle ilgili. t=1910-05-31: Act metni günü kendisi vermez (kral beyannamesi ile 'tayin edilen gün'); 31 Mayıs 1910 yalnız Wikisource sayfa girişinde — bağımsız akademik kaynakta (SAHO 404 verdi) okunmadı, bu yüzden t günü 'tek kaynak/ikincil'.
+- kaabu: f 1537 UNESCO GHA V ile doğrulandı. t 1867-05-24 (Kansala): GHA V 1867'yi kapsamaz; aramalarda yalnız wiki/Grokipedia aynaları çıktı (13-24 Mayıs 1867 öyle veriliyor) — akademik kaynakla teyit EDİLEMEDİ, künye değişmedi.
+- denyanke: ÇELİŞKİ: GHA V kuruluşu '1490'lar' verir, künye 1512 (Tenguella'nın Songhay'a yenilgisi geleneği; Kane 2004 açılmadı). Onyıl hassasiyeti olduğundan değiştirmedim; 1512 yerine '1490'lar' alınırsa Denyanke Jolof çöküşüyle (1549 Danki) ilişkisi bozulmaz. Karar verilmedi. t: 1776 (Torodbe devrimi, Temmuz 1776 olayı) UNESCO ile örtüşür.
+- okunmadı · nri
+- akwamu: t: UNESCO yenilgiyi 1731'e koyar (künye 1730; ozet metni '1730 yıkıldı, 1731 sona erdi' diyor). Öneri t=1731-01-01 (yıl hassasiyeti) — ama bağlı kronoloji/d: kırılması varsa ±30 gün Değişmez 2 gözden geçirilmeli. f=1600 UNESCO'da 'nüfuz yükselişi 17. yy' olarak geçer, kesin yıl okunmadı (Wilks makalesi açılmadı). Kronolojideki 1677 Ga fethi: UNESCO 1681 diyor (tek kaynak, ayrıca denetlenmeli).
+- dendi: f 1591 (Tondibi) yaklaşık doğrulanır; UNESCO Dendi'yi 1592-4 sürdürülen direniş ve 1599 Nuh'un tahttan indirilmesi ile verir, ayrı 'devlet kuruluş günü' vermez. UNESCO: Dendi birliği 17. yy ortasına kadar sürdü, sonra birkaç krallığa bölündü — künyenin tek krallık olarak 1901'e kadar sürmesi bu kaynakla DESTEKLENMEZ; 1901 Fransız fethi akademik kaynakla açılamadı (Wikipedia/Grokipedia aynaları var
+- kebbi: f 1516 doğrulandı (GHA V). ÇELİŞKİ: aynı ciltte Zarma bağlamında 'Kebbi is thought to have been eliminated in 1722' geçer (cümle belirsiz; Argungu'da Kebbi 1831'e dek sürdü, Dan Fodio Birnin Kebbi'yi 1805'te aldı — 13 Nisan günü akademik kaynakla okunamadı; TDV Osman b. Fûdî arama sayfası 1804 başlangıcını doğrular, 1805 yok). Künye değişmedi.
+- vedday-sultanligi: f ve t TDV ile birebir doğrulandı; künye kaynağı Küre Ansiklopedi + Britannica yerine TDV yazılmalı. 1611 alternatifi TDV'de 'söylenir' düzeyinde (ic_not'ta beyan edilebilir).
+- bulunamadı: touggourt: akademik kaynak açılamadı (TDV'de madde yok; HAL Anubis engeli, aşılmadı)
+- bulunamadı: nri: tarih veren akademik kaynak açılamadı
+- bulunamadı: kaabu t (Kansala 1867), dendi t (1901), kebbi t günü (13 Nisan 1805): akademik sayfa bulunamadı
+- bulunamadı: fezzan: TDV 1831 ile 1812/1813 çelişkisi çözülemedi
+- 1522-01-01 Bagirmi Sultanlığı kuruldu: Britannica atıfı çıkarılıp TDV konabilir. TDV 1522'yi Birni Besi'nin liderlik başlangıcı olarak verir (kuruluş yılı ≈ 1522, hassasiyet YIL, 'geleneksel'). Bağlantılı olay: TDV Vedây'ın Masinya'yı alıp yağmalamasını 1806'ya koyar (künye/Vedây kronolojisindeki 1805 ile 1 yıl fark — ayrı bakılmalı).
+- 1662-01-30 Tanca İngiltere'ye devredildi: TDV devri 1661'e koyar (evlilik antlaşması düzeyi); atlasın 30 Ocak 1662'si fiilî devir (Peterborough'un şehri teslim alması) olarak ic_not'ta beyanlı. Bu fiilî gün yalnız ikincil arama özetlerinde (Pepys Diary Encyclopedia 403 verdi, açılamadı) okundu — UYGULANMAZ. TDV ayrıca Tanca'yı Portekiz'in 28 Ağustos 1471'de aldığını ve İngilizlerin 1684'te boşalttığını yazar. Öneri: madde kalır, kaynak ol
+- 1505-01-01 Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portekiz : Yıl doğru, gün yok. Kaynağa TDV ek: Sa'dîlerin Agâdîr'i 1541'de alması (Fas maddesi).
+- 1513-09-03 Azemmûr'un alınışı — Ümmürrebî' ağzının denetimi: Gün (3 Eylül 1513) tarihli olarak doğrulandı; Jülyen. Başlıktaki 'alındı' ile 'şehir direnişsiz alındı' (makale s.4) uyumlu.
+- 1514-01-01 Mazagan kalesinin kurulması — Fas'ta en uzun kalacak Porteki: Yıl 1514 doğrulandı. Atlasın gun alanı '1514 yazı' diyor; makale 'early 1514' (1514 başı) der — 'yazı' ifadesi kaynakla ÇELİŞİR, yıl hassasiyeti bırakılmalı (gün/mevsim yazılmamalı). 'En uzun kalacak' ifadesi 1769 tahliyesi ile tutarlı.
+- 1769-03-11 Mazagan'ın boşaltılması — Portekiz'in Fas'taki son mevzii dü: Yıl 1769 iki akademik kaynakta doğrulandı. 11 Mart günü yalnız ikincil arama özetinde (Azevedo e Silva 'Relação das Famílias' atfı; bir kaynak 10 Mart diyor) göründü, sayfa açılmadı → [yalnız yıl teyitli; gün teyitsiz]. TDV 'son mevzii' ifadesini vermez; Mazagan Portekiz'in son Fas mevzii ifadesi okunmadı.
+- 1723-01-01 Asante Imparatorlugu Opoku Ware onderliginde Bono-Manso'yu (: UNESCO Bono fethini 1723-4 verir; atlasın 'gun' alanındaki '1722-1723' ifadesi UNESCO ile örtüşmez (1722 yok) → yıl 1723 kalır, hassasiyet YIL, '1723-24' beyanı konmalı. Wikipedia/Britannica kaynakları çıkarılıp bu eklenebilir. Opoku Ware'nin kişisel yönetimi bu cümlede yok (UNESCO başka yerde 1744 Dagomba müdahalesi).
+- bulunamadı: Tanca 30 Ocak 1662 fiilî devir günü (akademik kaynak açılamadı)
+- bulunamadı: Mazagan 11 Mart 1769 günü (yalnız ikincil)
+- rif-cumhuriyeti: TDV 'Sebte' bitişi 25 Mayıs 1926 verir; atlas 27 Mayıs. Abdülkerîm el-Hattâbî maddesi yalnız '(1926)' der. Başlangıç 19 Eylül 1921 TDV ile uyuşuyor.
+- ingiliz-tanganika-mandasi: t: yasa metni + TDV 'aynı yılın 9 Aralık günü Tanganyika adıyla bağımsızlığını elde etti'. f 1922-07-20: yalnız WebSearch özetinde Office of the Historian tablosu 'July 20, 1922' gösterdi, sayfa açılmadı; mandanın Konsey onayı ile yürürlük günü ayrı konu (1926 iddiası doğrulanamadı).
+- tanganika: Atlasın Wikipedia/EBSCO/BlackPast dayanağı yerine yasa + TDV.
+- zengibar-halk-cumhuriyeti: Her iki uç TDV ile uyuşuyor.
+- tanzanya: TDV birleşme ile adı aynı cümlede 26 Nisan 1964 verir; atlasın 'ad sonbaharda alındı' notuyla çelişkili. Çelişki: ad günü (29 Eylül/29 Ekim) TDV'ye göre 26 Nisan; kronoloji notu gözden geçirilmeli (ad günü ayrıca Tanzania Act 1969 / BM kaydıyla sınanmadı).
+- fas-ispanyol-himayesi: TDV 1956'da kaldırıldığını verir, gün vermez; 7 Nisan 1956 yalnız Dialnet makale özetinde (WebSearch) göründü, makale açılmadı. 27.11.1912 Madrid antlaşması açılmadı.
+- ifni-ispanyol: t TDV ile doğrulandı. BOE sayfası (Fez antlaşması 4 Ocak 1969) yalnız arama özetinde. f 1934: kaynak açılamadı.
+- okunmadı · cabo-juby-ispanyol
+- okunmadı · ispanyol-sahra
+- okunmadı · tiris-el-garbiyye
+- cezayir-gpra: f doğrulandı. t=1962-09-25 hiçbir okunan kaynakta yok: bağımsızlık referandumu 1 Temmuz 1962, Fransa tanıma ve ABD tanıma 3 Temmuz 1962 (history.state). GPRA'nın tasfiye günü açılmış kaynakta bulunamadı.
+- bingazi-emirligi: Bitiş 24 Aralık 1951 doğrulandı. TDV 'Bingazi emirliği' ifadesini ve 1 Mart 1949'u vermiyor.
+- okunmadı · arap-cumhuriyetleri-federasyonu
+- somali-ingiliz-himayesi: TDV 'Somali': 1883/1884 civarı Zeyla, Berberâ, Tâcûre İngilizlerce Somaliland adıyla sömürgeleştirildi ('aynı yıl' = 1883 bağlamı), TDV birleşme 1 Temmuz 1960. f için yıl farkı (1883 TDV – 1884 atlas) çözülmedi.
+- somali-ingiliz-askeri-idaresi: TDV 1941 ve 1 Nisan 1950 günlerini vermiyor.
+- puntland: TDV yıl açıkça yazmıyor; 1998 çıkarım. Gün teyitsiz.
+- afar-issa-fransiz-bolgesi: TDV yeniden adlandırma gününü vermiyor; 3 Temmuz 1967 (Kanun 67-521) Légifrance'ta açılmadı.
+- cibuti: history.state: diplomatik ilişkiler 27 Haziran 1977.
+- burundi-krallik: Sayfa 1966 darbesini içermiyor.
+- anjuan-devleti: TDV 3 Ağustos 1997 ilanını verir; birliğin yeniden sağlanması için 7 Ocak 2002 yazar (2008 müdahalesinden TDV'de söz yok). Atlas t=2008-03-25 (fiilî Bacar yönetiminin sonu) TDV'nin 2002 anlatımıyla farklı; karar verilmedi, ikinci akademik kaynak aranmalı.
+- mozambik: Lusaka Anlaşması metni açılmadı.
+- okunmadı · bophuthatswana
+- okunmadı · namibya-gecici-ulusal-birlik-hukumeti
+- namibya: Sayfa bağımsızlığın aynı gün olduğunu söyler.
+- ingiliz-basutoland: 1868 uç açılmadı.
+- rodezya-udi: UDI günü ve 1 Haziran 1979 açılmış kaynakta yok.
+- okunmadı · zimbabve-rodezya
+- zimbabve: Yasa sayfasında günün ham metni 'appointed under s.1(1) by S.I. 1980/394' olarak görünüyor.
+- okunmadı · fransiz-birligi
+- gana: Yasa bölüm 5(2).
+- togo: Bağımsızlık günü sayfada ayrıca verilmiyor.
+- gine: Referandum 28 Eylül 1958 (TDV). history.state yalnız ABD tanıması 1 Kasım 1958.
+- mali-federasyonu: 4 Nisan 1959 yalnız Cambridge Africa makale özetinde (WebSearch), makale açılmadı.
+- ingiliz-kuzey-rodezya: f 1890 açılmış kaynakta yok.
+- bulunamadı: cabo-juby-ispanyol
+- bulunamadı: tiris-el-garbiyye
+- bulunamadı: arap-cumhuriyetleri-federasyonu
+- bulunamadı: somali-ingiliz-askeri-idaresi
+- bulunamadı: bophuthatswana
+- bulunamadı: namibya-gecici-ulusal-birlik-hukumeti
+- bulunamadı: rodezya-udi
+- bulunamadı: zimbabve-rodezya
+- bulunamadı: fransiz-birligi
+- bulunamadı: ispanyol-sahra (gün: belge açılmadı)
+- bulunamadı: fas-ispanyol-himayesi (gün: belge açılmadı)

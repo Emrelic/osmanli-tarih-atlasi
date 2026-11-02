@@ -192,7 +192,10 @@ G — Renk ve bölge (senin işin değil)
 | — | **ASYA birinci geçiş bitti** | | | |
 | 13 | Afrika MÖ 3500–MÖ 500 | **bitti** — 24 künye · 8 yerleşim · 74 madde; yasak kaynaklı 6 künye + 7 madde | künye 6 kaynak; Kartaca kuruluşu -0813 (Treccani). 6 madde okunmadı | (bu push) |
 | 14 | Afrika MÖ 500–MS 500 | **bitti** — 18 künye · 12 yerleşim · 58 madde; yasak kaynaklı 6 künye + 13 madde | künye 6 kaynak + 2 tarih (numidia f MÖ 201, mauretania t MS 40); 13 madde kaynak/beyan (Perseus) | (bu push) |
-| 15–18 | Afrika (4 dilim) | bekliyor | | |
+| 15–16 | Afrika 500–1000 · 1000–1500 | **bitti** — yasak kaynaklı 3+7 künye, 1+4 madde | künye 6 kaynak + 3 tarih (ganiyeler f/t, tunus-benihorasan f — TDV); 4 madde kaynak/beyan | (bu push) |
+| 17 | Afrika 1500–1800 | **bitti** — yasak kaynaklı 11 künye + 7 madde | künye 9 kaynak + 1 tarih (akwamu t 1731, UNESCO GHA V); 7 madde | (bu push) |
+| 18 | Afrika 1800–2000 | sürüyor — yasak kaynaklı 82 künye + 43 madde | parti A: 33 künye kaynak; rif-cumhuriyeti t 1926-05-25 (künye+yerleşim birlikte, TDV) | parti A (bu push) |
+| — | Kırılma taşıma işi | ayrı oturum `kirilma-tasima` (Emre onayı, 2 Kasım): kırılma+madde+künye birlikte taşınacak kalemler | | |
 | 19–24 | Amerika (6 dilim) | bekliyor | | |
 | 25–30 | Avustralya ve Okyanusya (6 dilim) | bekliyor | | |
 

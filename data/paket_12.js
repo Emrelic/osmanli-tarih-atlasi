@@ -9623,7 +9623,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1522-01-01", b:"Bagirmi Sultanlığı kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Massenya",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Kenga kabilesi Birni Besi önderliğinde Çad gölünün doğusundaki Masinya (Massenya) merkezli güçlü bir devlet kurdu. Bagirmi hânedanının kuruluşu geleneksel olarak 1522'ye tarihlenir.",
-  kaynak:"TDV `bagirmi` — AYNEN: \"Birni Besi liderliğinde (1522-1536) Çad gölünün 200 km. doğusunda kalan Masinya'da güçlü bir devlet kurdu.\" · Britannica, 'Kingdom of Bagirmi' — AYNEN: \"The Bagirmi dynasty appears to have been established in 1522.\" · hassasiyet: YIL (geleneksel tarih)" },
+  kaynak:"TDV İslâm Ansiklopedisi, BAGİRMİ (islamansiklopedisi.org.tr/bagirmi) — ««Birni Besi liderliğinde (1522-1536) Çad gölünün 200 km. doğusunda kalan Masinya’da güçlü bir devlet kurdu.»»", ic_not_d:"DUNYA-1102 hücre 17 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (TDV `bagirmi` — AYNEN: \\\"Birni Besi liderliğinde (1522-1536) Çad gölünün 200 km.) dayanak olamaz, değiştirildi. Britannica atıfı çıkarılıp TDV konabilir. TDV 1522'yi Birni Besi'nin liderlik başlangıcı olarak verir (kuruluş yılı ≈ 1522, hassasiyet YIL, 'geleneksel'). Bağlantılı olay: TDV Vedây'ın Masinya'yı alıp yağmalamasını 1806'ya koyar (künye/Vedây kronolojisindeki 1805 ile 1 yıl fark — ayrı bakılmalı)." },
 
 // ── 1535-11 ──────────────────────────────────────────────────────────
 { t:"1535-11-01", b:"Son Sforza dükü öldü, Milano V. Karl'a geçti",yer:"Como", tur:"siyaset", onem:3, dunya:4, kapsam:"dis", yer_id:"Milano",
