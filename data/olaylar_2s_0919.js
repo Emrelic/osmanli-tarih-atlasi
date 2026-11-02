@@ -227,7 +227,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1716-01-01", b:"İrtiş-Om kavşağında Rus Omsk kalesi kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Omsk",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Omsk, Tobol ile İrtiş arasındaki İşim tahkimat hattının doğu ucunda bir kale olarak kuruldu; 1804'te şehir oldu.",
-  kaynak:"Britannica, 'Omsk', https://www.britannica.com/place/Omsk-Russia — AYNEN: \"Omsk, founded in 1716 as a stronghold at the eastern end of the Ishim fortified line between the Tobol and the Irtysh\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma)" },
+  kaynak:"Tataurov, Tikhonov, Milishchenko, Vestnik arkheologii, antropologii i etnografii (2024), 'Prehistory of the Omsk fortress' (ipdn.ru/va-en/_private/a67/enga67-3-3.htm) — «ended with the construction of the First Omsk Fortress by I.D. Bukholz in 1716.»", ic_not_d:"DUNYA-1102 hücre 11 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Britannica, 'Omsk', https://www.britannica.com/place/Omsk-Russia — AYNEN: \\\"Omsk) dayanak olamaz, değiştirildi. Yıl 1716 teyit; gün önerilmez (Evseev 1974: birlik Omi ağzına Mayıs'ta vardı, kale güzde tamamlandı; 2 Ağustos yalnız ikincil kaynakta). Tobol-Işım hattı ifadesi doğrulanmadı." },
 
 // ── 1717 ─────────────────────────────────────────────────────────────
 { t:"1717-11-30", b:"Cungarlar Lhasa'yı bastı — Lajang Han öldürüldü, Tibet Cungar işgaline girdi", tur:"fetih", onem:3, dunya:2, kapsam:"dis", yer_id:"Lhasa",

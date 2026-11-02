@@ -186,8 +186,9 @@ G — Renk ve bölge (senin işin değil)
 | 9 | Asya 500–1000 | **bitti** (birinci geçiş) — envanter 277 künye · 165 yerleşim · 497 madde; yasak kaynaklı 66 künye + 3 madde | künye 51 kaynak, 0 tarih (Çin günleri tablosuz, aday olarak ic_not'ta); 3 madde hücre 10'a. Koşu 32 inişi (04125032f) sonrası ölçüldü: D8a 172/172. D2s 201→201 | (bu push) |
 | — | Koşu 32 inişi | main 04125032f (2 Kasım 09:45) — D8a 182→172, 3b tavanı 533842→742525. F adımı (bitmiş hücre maddelerinin haritaya yansıması) bu koşu üzerinden ölçülecek | | |
 | — | Yerel kaynak derlemi | Perseus (Yunanca/Latince tarihçiler) + Çin takvim tablosu D:/kaynak-derlem'e kuruldu; `arac/perseus_ara.py`, `arac/cin_gun.py`; bkz. `denetim/DUNYA-1102/KAYNAK-DERLEM.md`. İlk kullanım: 9 Çin künyesinin f günü (xin 9-01-15, liu-song, sui, kuzey-zhou, dogu-wei, kuzey-qi, sonraki-tang, wu-zhou, kuzey-han) · Perseus turu: 17 antik madde (11 kaynak teyitli) | | (bu push) |
-| 10 | Asya 1000–1500 | sürüyor — envanter 412 künye · 1167 yerleşim · 1430 madde; yasak kaynaklı 35 künye + 41 madde | künye 18 kaynak + 2 tarih (musasa f 1442-01-16, maldivler f 1153-07-07 — TDV; yerleşimler zaten o günde) | |
-| 11–12 | Asya (2 dilim) | bekliyor | | |
+| 10 | Asya 1000–1500 | **bitti** (birinci geçiş) — envanter 412 künye · 1167 yerleşim · 1430 madde; yasak kaynaklı 35 künye + 41 madde | künye 18 kaynak + 2 tarih (musasa, maldivler f — TDV); madde ~27 kaynak/beyan + 1 tarih (Zebîd 1174 yıl). D2s 201→201 | (bu push) |
+| 11 | Asya 1500–1800 | **bitti** (birinci geçiş) — envanter 261 künye · 1229 yerleşim · 549 madde; yasak kaynaklı 42 künye + 25 madde | künye 22 kaynak, 0 tarih; madde 12 kaynak/beyan + 1 tarih (Nobunaga 1573 yıl). Kırılmayla taşınacaklar: Zebîd 1539-02-24, Kafkasya hanlıkları (TDV). D2s 201→201 | (bu push) |
+| 12 | Asya 1800–2000 | bekliyor | | |
 | 13–18 | Afrika (6 dilim) | bekliyor | | |
 | 19–24 | Amerika (6 dilim) | bekliyor | | |
 | 25–30 | Avustralya ve Okyanusya (6 dilim) | bekliyor | | |

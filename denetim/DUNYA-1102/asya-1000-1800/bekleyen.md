@@ -1,0 +1,185 @@
+# Hücre 10-11 — Asya 1000–1800 · bekleyen
+
+KASA, 2 Kasım 2026. Künye tavanı 2280 dolu; yeni künye eklenmedi.
+
+## Hücre 10 (Asya 1000–1500) kararları
+- Künye: 18 kaynak; musasa f 1442-01-16, maldivler f 1153-07-07 (TDV; yerleşimler zaten o günde). Sena t 1260 → 1245 UYGULANMADI (yerleşimler 1260'a uzanıyor).
+- TDV 'Hindistan' hanedan tablosu ↔ atlas: Pratihara 773–1019 ↔ 783–1027 · Paramara 974–1060 ↔ 1000–1305 · Çahamana 973–1193 ↔ 682–1192 · Gahadavala 1090–1193 ↔ 1089–1197 · Tripuri Kalaçuri 950–1105 ↔ 850. ogedey-ulusu ↔ ogedey-ulusu-kaydu MÜKERRER olabilir. abhazya-prensligi t 1864 (TDV Sohum: şehrin bağlanışı; prenslik 1810'da Rusya'ya bağlandı).
+- Madde: ~27 kaynak/beyan; Zebîd 1174 yıl (TDV gün yok). Kaifeng 1127-01-09 ve Hangzhou 1276-02-04 cin_gun.py ile doğrulandı. Japon günleri (Bunji 1185, Yoritomo 1192) Çin tablosuyla tutuyor ama Japon takvimi ±1 — okunmadı.
+- Beyan: Yemen 1223 başlığı TDV'de yok (1229 Atsız'ın ölümü) · Vijayanagara TDV 1339 ↔ 1336 · Hoysala TDV 1327 ↔ 1343 · Kaifeng 1233 teslim ↔ 1234 Jin sonu (madde bölünmeli) · II. Roger 1143 "Sfax" yanlış (1148) · Trablus 1146-06-18 DBI (3 kırılma) · III. Raymond serbest ~1174 · III. Bohemund 1187 desteksiz · Tuğtekin TDV 577/1181 ↔ 1182.
+- madde_uygula.py düzeltmesi: b metni aynı nesnede iki kez (b + ic_not_b) geçince atlıyordu; artık kabul ediyor. ÖNCEKİ HÜCRELERDE bu yüzden atlanmış maddeler olabilir → tarama gerek.
+
+## Hücre 11 (Asya 1500–1800) kararları
+- Künye: 22 kaynak, 0 tarih. Madde: 12 kaynak/beyan; Nobunaga 1573 yıl (2 Eylül kaynaksız, 0 kırılma).
+- 🔴 KIRILMA İLE BİRLİKTE TAŞINMASI GEREKENLER (TDV esas, ama künye/madde ucu yerleşim kırılmasına bağlı): Zebîd Osmanlı 1539-01-01 → 1539-02-24 (TDV iki madde, çift; 17 kırılma) · baku-hanligi t 1806 ↔ TDV 1813 · guria t 1829 ↔ TDV 1804 · svaneti 1858 ↔ TDV 1856 · megrelya t 1857 ↔ TDV 1803 birleşme / Kırım Harbi sonrası fesih.
+- Emre kararı: danimarka-hindistani t 1868 ↔ lex.dk Nikobar fiilî terk 1848, Tranquebar/Serampore satışı 1845.
+- Beyan: bharatpur f 1733 (başkent taşınması; krallık 1722 Deeg) · tay-son f 1778 ↔ 1771 · le-hanedani 1427–1788 ↔ 1428–1789 · portekiz-timor t (Fretilin ilanı, Portekiz çekilişi değil) · Kaçar 1786 ↔ 1796 · Chiang Mai 1558 iki madde mükerrer · Colombo 1656 Codrington alıntısı bulunamadı · Nobunaga maddesinin yer_id'si (Hiraizumi) yanlış.
+
+## Beyan edilen ama uygulanmayan (karar verilmedi / tek kaynak çelişki)
+- ebulhayr-ozbek-ulusu: TDV iki maddede 1428 (831 h.) ve 1429 verir; atlas 1429 (ana madde) tutuyor, karar verilmedi, ic_not'ta iki görüş beyan edilmeli. 1468: han ölümü (872/1468), 'Özbekler' maddesi 1428-1468'i han dönemi olarak verir; ulusun çözülmesi ölümün ardından. Gün yok.
+- musasa: TDV: hanedan 1435-1924 (Hûzistan'da Havîza ve çevresi); Seyyid Muhammed görüşlerini 844/1440'ta yaymaya başladı, Havîza'ya yerleşme 4 Ramazan 845 = 16 Ocak 1442. Atlasın 'Şubat 1441 Hüveyze'yi aldı' kaydı TDV ile çelişir; TDV esas. t: TDV 'Şah İsmâil 914/1508-1509'da bölgeyi idaresine bağladı; Müşa'şa' reisleri Safevîler'e tâbi valiler olarak sürdü' (1924'e dek); t açık/kaynakta bitiş tek net gün 
+- eyyubi-yemen: TDV Resûlîler: 'Yemen Eyyûbîleri'nin son hükümdarı el-Melikü'l-Mes'ûd Selâhaddin Atsız'ın ölümünden (626/1229) sonra' Nûreddin Ömer atabeg; bağımsızlık 632/1235. Turan Şah Yemen'e Receb 569 (Şubat 1174) gönderildi; TDV başka maddede San'a'nın alınışını 570/1174 verir. Gün yok; f yıl hassasiyeti kalır. Resûlî bağımsızlığı 1235'e kadar boşluk (1229-1235) atabeg yönetimi.
+- maldivler-sultanligi: TDV kral Muhammed el-Âdil'in İslâm'a girişini 7 Temmuz 1153 verir (Kâdî Hasan Tâceddin'e dayanarak; geleneksel/rivayet) -> gün önerisi. 1968'de cumhuriyetin yeniden ilânı referandumla; 11 Kasım günü TDV'de yok (gün atlas kaydında kaldı, kaynaksız). Tam bağımsızlık Temmuz 1965 (TDV). 1953'te kısa cumhuriyet, 1954'te sultanlığa dönüş (TDV).
+- kibris-venedik: Atlas f/t günleri TDV ile birebir. 'Venedik'in Kıbrıs'taki hâkimiyeti 1489-1571 yılları arasında kargaşa içinde sürdü.' Lefkoşe 8 Rebîülâhir 978 (9 Eylül 1570) ile fetih başladı.
+- izmir-haclisi: Kıbrıs, Venedik, Cenova ve Rodos gemilerinden müteşekkil donanmanın Aydınoğulları'nı yenip limanı alışı TDV'de 1344; 28 Ekim günü sayfa özetimde 'Oct 1344' olarak döndü, cümlede gün yazısını birebir doğrulayamadım (sayfa 102 bin karakter, son 2 bin okunmadı). t: Aralık 1402 ayı TDV'de, 1 Aralık günü TDV'de yok (atlasta [g?]).
+- cobaniler: TDV'de müstakil Çûbânîler maddesi bulunamadı (ÇOBANOĞULLARI maddesi Anadolu beyliğidir). Iranica 403 verdi, okunamadı. Başlangıç, Ebû Saîd'in ölümü atlas tarafından alınmış; hanedan fiilen Emîr Çoban'dan (öl. 1327) kurulduğundan künye f bir 'varsayım' olarak kalır. t yıl hassasiyeti.
+- guney-saray-nanbokucho: Daijisen yalnız yıl veriyor: 1336 Go-Daigo'nun Yoshino'ya geçişi, 1392 (Meitoku 3) birleşme. Gün için Japon takvim çevirisi gerekir; sayfada 閏10月 geçmez.
+- ming-annam-idaresi: Cambridge bölüm başlığı 1407–1427, JSEAS makalesi özetinde 1407–27 (başlığında 1407–28). Gün hassasiyeti bu sayfalarda yok; atlasın 1407-06-16 ve 1427-11-12 günleri okunamadı. cin_gun.py kullanılmadı.
+- sena: Banglapedia: dynasty c.1097-1225, Vijayasena c.1098-1160; Bakhtiyar Khalji 'final blow' 1204, Laksmanasena ö. 1206, soyundan gelenler Vanga'da 'en az 1245'e dek' (Tabaqat-i Nasiri). encyclopedia.com: Vijayasena 1095-1158, Senalar doğu Bengal'de 1245'e dek. Atlas t=1260 hiçbir kaynakta yok: 1245 önerildi ('en az' ibaresiyle; Banglapedia 'Keshavasena'dan sonra Sena hükümdarı yok' der). f: 1095 (ency
+- gahadavala: Üç aralık: atlas 1089-1197; TDV tablosu 1090-1193; JRAS makale başlığı c.1068-1223. Başlık 'yaklaşık' diyor ve içeriği okunmadı. Değişiklik önerilmedi. Cayanchandra'nın Chandawar yenilgisi (1194) bu sayfalarda okunmadı.
+- cahamana: Atlas t=1192; TDV 1193. Cambridge tanıtımı (Talbot): 'defeated by ... Shihab al-Din of Ghur in 1192 CE'. Tarain II 1192 / Ecmîr'in alınışı 1193 olabilir; iki ucu ayrı kayıt. f=682 hiçbir okunan kaynakta yok (TDV tablosu 973 verir, bu da Şakambhari Çâhamâna için başlangıç değil, 'Ecmîr' kolu başlangıcı olabilir).
+- gurjara-pratihara: TDV tablosu 773-1019; encyclopedia.com Kannauj'un 9. yy'da Pratihara başkenti olduğunu, 1018'de Gazneli Mahmud'a düştüğünü yazar. Atlas 783-1027; 1027 kaynakta yok, 1018/1019 TDV ve encyclopedia.com ile uyumlu. Değişiklik önerisi için hanedanın son hükümdarı Trilocanapâla (c.1027) akademik kaynakla teyit gerekir; yapılmadı.
+- paramara: Atlas künyesinde kaynak boştu. f=1000 dayanaksız: Muñja c.973-95 (JRAS); TDV tablosu 974. t=1305: Cambridge kitabı 1305'te Alauddin Halacî fethini anar ama hükümdar (Rai Mahalak Deo) için 'Paramara' demez; Cambridge JRAS 12. yy'a dek 'flourished'; ~1142-43 Calukya (Gujarat) fethi, Vindhyavarman 1175-94 restorasyonu (arama özeti, sayfa okunmadı). f için 973 önerisi (kaynak 'circa'); karar için bir 
+- hanthawaddy: Sayfa Wareru'yu tarihsiz anar; 1287 ve 6 Mayıs günü sayfada yok. 1757 yılı teyit.
+- abhazya-prensligi: 1864 TDV'de ŞEHRİN (Sohum) Rusya'ya bağlanışı; 17 Şubat 1810'da Rusya Abhazya'nın bağlandığını ilan etti (TDV). Prenslik sonu 1864 (Britannica) TDV ile çelişmiyor ama doğrudan ifade değil. f=1463 okunmadı.
+- ogedey-ulusu-kaydu: TDV: 1269 Talas meclisinden sonra Kaydu Çağatay Hanlığı üzerinde mutlak hâkimiyet kurdu, ö. 1303. TDV Çapar'ı ve 1309'u Ögedey ulusu bağlamında anmaz (1309'da İsen Buka kurultayda han seçilir). Atlas f=1271 TDV'de başlangıç olarak geçmez; f=1269 olabilir. Karar verilmedi; Iranica 403.
+- ogedey-ulusu: ogedey-ulusu ile ogedey-ulusu-kaydu aynı polity iki künye (f 1267 / 1271, ikisi t 1309): mükerrer görünüyor. TDV 1303'te Kaydu'nun ölümünü, 1309'u yalnız İsen Buka'nın seçimi olarak verir; Çapar'ın yenilgisi okunmadı.
+- bulunamadı: Çobânîler için TDV'de müstakil madde (slug cubaniler boş); Iranica 'Chobanids' 403 verdi.
+- bulunamadı: Hanthawaddy TDV maddesi yok.
+- bulunamadı: Svaneti için akademik kaynak.
+- 1362-03-01 Orhan Gazi'nin vefatı — beylikten devlete geçen kırk yılın s: Yıl-ay doğrulandı (Mart 1362). TDV'de Orhan Gazi'nin müstakil maddesi yok (orhan-gazi / orhan-bey adresleri arama sayfasına düşer). Metin 'ölüm HABERİ geldi' der, ölüm günü vermez: 1362-03-01 ay başına genişletilmiştir, gün teyitsiz. Hicrî 763 Cemâziyelevvel başı yaklaşık 26 Şubat 1362 (tablolu, Jülyen) -> Mart ile çelişmez. ic_not'taki İnalcık/Imber/Emecen/Kafadar atıfları sayfa numarasız; TDV Mu
+- 1175-07-22 Eyyûbîler Aden'i fethetti, Aden'deki Zürey'î hâkimiyeti sona: Yıl 1175 TDV ile doğru; t=1175-07-22 hicrî 571 ∩ 1175 ilk günü (571 = 1175-07-22..1176-07-10, tablolu) kuralıyla BEYANLI, TDV günü vermez. TDV ayrıca: «569 (1173) yılında Yemen'e sefer düzenleyen Eyyûbîler iki yıl içerisinde Aden'e doğru ilerleyerek» ve Zürey‘î naibi Cevher'in Dümlüve'de 584 (1188)'e kadar kontrolü elinde tuttuğunu yazar -> Aden sınırı 1175 yaklaşıklıktır. Turan Şah'ın adı bu madd
+- okunmadı · 1185-12-21 Bunji Senedi: Hōjō Tokimasa'nın isteğiyle saray, Yoritomo'ya
+- okunmadı · 1192-08-21 Minamoto no Yoritomo sei-i taishōgun (şogun) unvanını aldı
+- 1143-01-01 II. Roger'in Trablus'u almak için açtığı sefer başarısız olu: 1143 başarısız Trablus seferi doğrulandı. 'Sfax ele geçer' kısmı YANLIŞ yıl: DBI, Sfax'ın 1148 seferinde (Mehdiye 22 Haziran, Susa 1 Temmuz) 12 Temmuz'da düştüğünü yazar («Sfax, invece, resistette più a lungo, ma capitolò il 12 luglio»; bağlam 1148). Metinden 'Sfax ele geçer' çıkarılmalı; Vikipedi dayanağı kaldırılmalı. TDV Trablusgarp maddesi 1143 saldırısını anmaz.
+- 1146-01-01 Kıtlık yüzünden halk Benî Hazrun'u kovar; II. Roger Trablus': TDV Trablusgarp: «541'de (1146) şehir Sicilya'dan gelen Normanlar'ın eline geçtiyse»; TDV ayrıca Ruggiero'nun 541 (1146) ordusunun Benî Hazrûn iktidarına son verdiğini yazar. DBI günü 18 Haziran verir. 'Kıtlık yüzünden halk kovar' anlatısı iki kaynakta da YOK: DBI 'düşmanların kendi aralarındaki ayrılık'tan söz eder; metin gözden geçirilmeli. Bir Libyan Studies makalesi 540/1145 yazıyor (özetten, 
+- 1104-01-01 Esir Bohemund'un yerine vekil olan Tancred, Bohemund'un 1104: DBI Boemondo I: Bohemund 1104'te Levant'tan ayrıldı (özet okundu); DBI Tancredi: Tancred 1104'te Antakya'ya döndü, 1103'te Bohemund salıverilince beyliği geri vermişti; ilk vekâlet 1100-1103. Yıl 1104 DBI ile uyumlu; bazı akademik yayınlar 1105 başı der (Cambridge arama özeti, okunmadı) -> 1104/1105 çekişmeli. Madde 1100-1103 ve 1104-1108 iki ayrı vekâleti tek cümlede birleştiriyor; bölünmesi öner
+- 1108-01-01 Bohemund Bizans İmparatoru Aleksios'a Deabolis (Devol) antla: DBI: Eylül 1108 Devol antlaşması, Bohemund Aleksios'un vasalı; Tancred 1108'de reddetti. Gün verilmedi: 1108-01-01 yıl hassasiyeti kalmalı ya da kesinlik 'ay' (Eylül); ay yazılırsa 1'ine genişler, gün uydurulmasın.
+- 1131-09-14 Anjou Kontu Fulk ile Melisende, Kutsal Kabir Kilisesi'nde kr: Yıl 1131 doğrulandı (Baldwin II m. 1131; Melisende+Fulk halef). 14 Eylül 1131 günü yalnız Gale/encyclopedia.com 'Crusades Reference Library' (dayanak değil) ve Vikipedi'de görüldü; akademik gün kaynağı okunamadı -> gün teyitsiz. Mevcut kaynaklar (Encyclopedia.com/Gale, Vikipedi) yasak sınıfta.
+- 1152-01-01 II. Raymond Haşhaşîler tarafından Trablus kapısında öldürüld: Ölüm yılı 1152 doğru. Treccani'de bu kont 'Raimondo I' sayılır (Ponzio'nun oğlu, 1137'de halef, m. 1152); numaralandırma kaynağa göre I/II değişir. Treccani 'Tripoli yakınında ismailî pususu' der; 'kapısında' ve 'Haşhaşîlerin kaydedilen İLK Hıristiyan kurbanı' iddiaları okunan kaynaklarda YOK -> çıkarılmalı ya da kaynaklanmalı. Oğul III. Raymond'un kont olması okunan Treccani'de yok. Britannica/Me
+- 1164-01-01 III. Raymond, Nûreddin Mahmud Zengî'ye esir düştü (Harim sav: 1164 yılı doğrulandı. TDV Nûreddin md. Harim kalesinin Ramazan 559 (Ağustos 1164)'te alındığını yazar ama III. Raymond'u anmaz; Raymond'un esir düşmesi Hamilton'dan. Maddenin '1172'ye dek esaret' kısmı Hamilton'un ten years ifadesiyle ÇELİŞİR (bkz. sonraki madde); metin düzeltilmeli. Britannica kaldırılsın.
+- 1172-01-01 III. Raymond esaretten serbest bırakıldı; Trablus'ta yönetim: 1164 + 10 yıl esaret = ~1174 (Hamilton); atlasın 1172'si bu kaynakla uyuşmuyor. Maddenin kendi metni 1174'te naiplik talebini yazıyor, 1172 serbest kalış bununla da tutarsız. Serbest kalışın kesin yılı doğrudan cümleyle okunmadı (Hamilton sayfa özetinde yalnız 'ten years'); 1174 türetilmiştir, uygulamadan önce Runciman/Hamilton gövdesinden teyit önerilir.
+- 1174-05-13 Turanşah'ın Eyyûbî kuvvetleri Zebîd'i aldı, Mehdî Abdünnebî : TDV Zebîd: 569/1174; Mehdîler md.: 569/1173-74; Turan Şah md.: Receb 569/Şubat 1174'te Yemen'e yönelip Zebîd'i kontrol altına aldı (gün yok). 13 Mayıs günü TDV'de YOK (yalnız Vikipedi türevi) -> kesinlik 'gun' desteksiz, yıla indirilsin. 'Abdünnebî ile kardeşi Ahmed esir düştü' ayrıntısı TDV'de yok (Mehdîler md.: yalnız hâkimiyet sona erdi); okunmadı. Medieval Worlds PDF (Mahoney) bu olay için tar
+- 1175-01-01 Turanşah yaylalara ilerleyip San'a'yı aldı, Hemdânî sultanı : TDV San'a'nın zaptını doğrular ama yıl vermez; Turan Şah Zilhicce 571/Haziran 1176'da naibler bırakıp Dımaşk'a döndü (TDV Turan Şah; TDV Zebîd: 571 (1175-76)). 1175 yılı bu kaynaklarla çelişmez ama TDV'de doğrulanmadı; Hemdânî Ali b. Hâtim'in kaleye çekilmesi okunmadı. Vikipedi kaldırılsın.
+- 1182-01-01 Turanşah'ın yerine kardeşi Tuğtekin Yemen emiri olur: Atlas 1182; TDV üç maddede 577/1181. Hicrî 577 = 1181-05-17..1182-05-07 (tablolu, Jülyen, ±1 gün) ∩ 1181 -> kesişimin ilk günü 1181-05-17 (CLAUDE.md hicrî kuralı; BEYANLI, kesinlik yıl kalmalı). Turan Şah ayrıldıktan (1176) sonra Yemen valilerle yönetildi (TDV Yemen). TDV Mansûr-Billâh md. ayrıca 'Tuğtegin 585'te (1189) San‘a’ya girince' ve '587'de (1191) Yemen’i kontrol altına alan Tuğtegin 593 (
+- okunmadı · 1187-01-01 III. Bohemund, Selahaddin'in Kudüs Krallığı'nın büyük bölümü
+- 1197-01-01 Emir Tuğtekin Zebîd'de öldü (Ağustos/Eylül 1197), yerine oğl: Yıl 1197 TDV ile doğru (Mansûr-Billâh md.: 593 (1197) yılına kadar Yemen'de kaldı). 'Zebîd'de öldü, Ağustos/Eylül' ayrıntısı TDV'de yok -> okunmadı. Oğlu İsmâil TDV'de anılır (597/1201 olayı).
+- 1198-01-01 Zeydî imam Abdullah b. Hamza San'a ve Dhamar'ı Eyyûbîler'den: TDV Mansûr-Billâh: San'a'ya giriş 594 sonu/595 başı (1198 sonları; 595 başı = 1198-11-03 tablolu). TDV Yemen md. ise 'San'a'yı 595'te (1199) işgal etmesi' der -> TDV içinde 1198/1199 ayrımı (hicrî 595 = 1198-11-03..1199-10-23). Atlas 1198 TDV Mansûr md. ile uyumlu; Dhamar TDV'de okunmadı. Vikipedi kaldırılsın.
+- 1202-01-01 Yemen emiri el-Mu'izz İsmail suikastla öldürüldü.: Mahoney 598/1201 yazar; hicrî 598 = 1201-10-01..1202-09-20 (tablolu), yani hem 1201 sonu hem 1202 içi olabilir: atlas 1202 ile kesin çelişki değil ama belirsiz. TDV Mansûr md.: İsmail 597'de (1201) Mansûr-Billâh'ın karargâhına saldırdı (başka olay). Suikastın Zebîd çevresinde Kürtlerce yapıldığı doğrulandı. Karar verilmedi; ic_not'ta '1201 (Mahoney 598/1201) / 1202 (atlas)' beyanı önerilir. Vikipe
+- bulunamadı: Cambridge History of Japan III sayfası (Bunji Senedi, Yoritomo şogunluk) açılamadı; 11/28 mi 11/29 mu ayrımı çözülmedi
+- bulunamadı: Zebîd 13 Mayıs 1174 günü ve Abdünnebî/Ahmed'in esir düşmesi için akademik kaynak bulunamadı
+- bulunamadı: Fulk-Melisende 14 Eylül 1131 günü için akademik (Mayer 1972) sayfa açılamadı; yalnız Gale/Vikipedi
+- bulunamadı: Bohemund III güvencesi (1187) için kaynak bulunamadı
+- bulunamadı: Hemdânî Ali b. Hâtim'in San'a'da kaleye çekilmesi, Dhamar, Tuğtegin'in ölüm ayı için kaynak bulunamadı
+- bulunamadı: TDV'de Orhan Gazi'nin müstakil maddesi yok (orhan-gazi, orhan-bey arama sayfasına düşüyor)
+- bulunamadı: arac/cin_gun.py kullanıldı: Bunji 1/11/28 -> 1185-12-21 J, Kenkyu 3/7/12 -> 1192-08-21 J (Çin ay-güneş tablosuyla; Japon takvimi 1 gün sapabilir). Hicrî çevirimler tablolu (±1 gün)
+- 1223-01-01 Yemen emiri el-Mes'ûd Yusuf Mısır'a gitmek zorunda kaldı ve : ÇELİŞKİ (TDV esas): atlas 1223'te Mes'ûd Yusuf'un Mısır'a gidip Nûreddin Ömer'i vekil bıraktığını söylüyor; TDV Eyyûbîler/Resûlîler Yemen bölümünde 1215'te Atsız'ın Yemen'e gönderildiğini, 626/1229'da ölümüyle Nûreddin Ömer'in (nâib/atabeg) idareyi aldığını yazar; 1223 Mısır gidişini anmaz. Tarih 1229'a çekilmeli, ancak 'Mısır'a gitti' ifadesi TDV'de yok (TDV: öldü) — başlık yeniden yazılmalı. Day
+- okunmadı · 1226-01-01 Eyyûbî ordusu Zeydîler'e Dhamar'da yenildi.
+- 1287-01-01 Kont VII. Bohemond öldü; kız kardeşi Lucia ile Cenevizlileri: TDV Kalâvûn: Trablus 688/1289'da fethedildi (bu kısım teyitli). VII. Bohemond'un ölümü (19 Ekim 1287 — Britannica/Wikipedia) ve Lucia/komün çekişmesi TDV'de okunmadı; Medievalists.net ve Wikipedia yasak/zayıf. Akademik karşılık (Runciman, History of the Crusades III) açılamadı → 1287 ölüm yılı akademik teyitsiz.
+- 1287-01-01 Wareru Aşağı Birmanya'da Mon bağımsızlığını yeniden kurdu, H: TDV yalnız Pagan'ın 1287 yıkılışını (ardından güneyde Pegu krallığı) doğrular; Wareru'yu ve Hanthawaddy kuruluş yılını ANMAZ. Wareru/1287 bağımsızlık akademik kaynakta (Lieberman 2003; Cambridge Hist. SE Asia) açılamadı. Pagan 1287 kısmı tek kaynak, Wareru kısmı okunmadı.
+- okunmadı · 1292-01-01 Kertanagara öldürüldü, Singhasari Krallığı sona erdi
+- 1336-01-01 Harihara ve Bukka, Tuğluk yönetimine karşı Vijayanagara devl: ÇELİŞKİ beyanı: TDV Hindistan hanedan listesi Vijayanagara'yı '1339-1646' diye verir (okunan ilk 100.000 karakterde), atlas 1336. TDV isyanlar sonucu kuruluşu yılsız anlatır; Harihara/Bukka kuruluş bağlamında adlandırılmaz. 1336 akademik kaynakta (Eaton; Stein) açılamadı; Britannica yasak. Karar verilmedi: 1336 (yaygın) ile TDV 1339 iki görüş olarak ic_not'a yazılmalı. Madde 296 bin karakter, yaln
+- 1343-01-01 III. Ballala Ma'bar sultanınca öldürüldü, Hoysala krallığı ç: ÇELİŞKİ: TDV Hoysalar'ı 1110-1327 verir; atlas Hoysala'nın III. Ballala'nın 1343'te öldürülmesiyle 'çöküşe girdi'ğini anlatıyor. III. Ballala'nın 1343 ölümü (Ma'bar sultanı, Madurai) akademik kaynakta okunmadı; Britannica yasak. 1327 ile 1343 iki görüş olarak beyan edilmeli.
+- 1351-01-01 Ayutthaya Krallığı kuruldu, Sukhothai'nin bölgesel üstünlüğü: TDV esas: Ayutthaya 1350 (atlas 1351, Britannica). Aynı madde Ayutthaya'nın 'önce Sukothai'nin topraklarını, ardından zamanla kuzeydeki Lanna'yı' egemenliği altına aldığını söyler (yılsız). 1351 için akademik kaynak (Wyatt) açılamadı; ic_not'a iki yıl yazılmalı, TDV esas.
+- okunmadı · 1400-01-01 Trần hanedanı devrildi, Hồ Quý Ly Đại Việt tahtını ele geçir
+- okunmadı · 1438-01-01 Zayıflayan Sukhothai, Ayutthaya Krallığı'nın bir eyaletine d
+- 1189-10-03 Minamoto no Yoritomo Oshu Fujiwara'yi yok etti, Hiraizumi'ye: Sayfa açıldı: Yoritomo 8. ayın 22'sinde Hiraizumi'ye girdi; Yasuhira 9/3'te öldürüldü, Oshu Fujiwara yıkıldı. Atlasın 1189-10-03'ü Çin ay-güneş 8/22 ile (cin_gun ay_bas: ay başı 1189-09-12 J + 21 gün = 1189-10-03 J) TUTARLI. Japon takvimi Çin hesabından ±1 gün sapabilir → ic_not'a 'Çin tablosu kullanıldı, ±1 gün beyanlı' yazılsın. Vikipedi dayanaktan çıkarılabilir.
+- 1205-01-01 Bahtiyar Halacî'nin Nadia'yı alması: Sena Devleti'nin Nadia : Banglapedia Nadia: 'towards the end of 1204 or the beginning of 1205' → yıl 1205 beyanlı (1204 sonu olabilir). Bihar 1203. TDV yönlendirme maddesi: Bahtiyar Halacî, 'Leknevtî Halacîleri'nin kurucusu ve ilk hükümdarı (1202-1206)'. Banglapedia birincil kaynak değil; TDV ana madde (Muhammed Bahtiyâr Halacî) açılamadı. Somapura/Paharpur'un Bahtiyar'ca alınışı okunmadı.
+- 1206-03-15 Mu’izzüddin Muhammed Gûrî’nin öldürülmesiyle Gurlu Hindistan: TDV: ölüm 602/1206 — yalnız yıl; 15 Mart günü Britannica'ya dayanıyor (yasak) → gün teyitsiz. Hicrî kuralı: 602 = 1205-08-26..1206-08-15, 1206 ile kesişimin ilk günü 1206-01-01. Aynı madde: 'Kuzey Hindistan ise Kutbüddin Aybeg’in hâkimiyeti altına girdi'. Doğu kesimi (Bihar/Nadia) Bahtiyar'ın Leknevtî Halacîleri'ne (1202-1206) bağlıydı; maddenin Bengal'i doğrudan Delhi'ye geçmiş göstermesi TDV ile
+- okunmadı · 1292-01-01 Mangrai Hariphunchai'yi (Lamphun) fethedip Lan Na'ya kattı
+- okunmadı · 1010-01-01 Lý Thái Tổ Thăng Long’u (Hanoi) başkent seçti — Lý hâkimiyet
+- 1127-01-09 Jurchenler (Jin) Kaifeng’i ele geçirip yağmaladı — Song başk: Sayfa okundu: 靖康元年 閏月壬辰朔 ve 丙辰: Guo Jing'in başarısız vuruşu, 金兵登城, 京城陷. cin_gun: 1126 artık 11. ay, 壬辰=1. gün=1126-12-16 J; 丙辰=25. gün=1127-01-09 J. Birincil neşir; Britannica dayanaktan çıkarılabilir. İkincil akademik teyit (Cambridge Hist. China 5/1) açılmadı.
+- okunmadı · 1225-01-01 Lý hanedanının yerini Trần hanedanı aldı — Thăng Long (Hanoi
+- 1234-01-01 Kaifeng Moğol işgaline girdi — Jin hâkimiyeti sona erdi: ÇELİŞKİ: Jin shi 18, Kaifeng (汴京) komutanı Cui Li'nin 天興二年 (1233) 正月 戊辰'de isyan edip şehri Moğol ordusuna teslim ettiğini yazar; atlas/Britannica 1234. cin_gun: 1233 ay 1 戊辰 = 1233-03-05 J (Jin takvimi ±1 gün, ay ataması aday — gün yazılmasın). Jin'in sonu 天興三年 (1234) 正月 己酉 = 1234-02-09 J (承麟 tahta çıktı; 金亡). Madde başlığı iki olayı karıştırıyor: Kaifeng teslimi 1233, Jin sonu 1234 → ikiye bölün
+- 1276-02-04 Güney Song başkenti Hangzhou (Lin’an) Kubilay’ın Moğol güçle: Sayfa okundu: 德祐二年春正月丁卯朔; 甲申=21. gün. cin_gun: 1276 ay 1 甲申 = 1276-02-04 J (丁卯=1276-01-18 J). Ancak bu gün teslim mührünün sunulduğu gündür (Moğollar Gaoting Dağı'nda); şehre fiilen giriş sonraki aya düşer ve okunmadı. Başlık 'alındı' diyorsa 'teslim oldu/mühür sunuldu' olarak netleştirilmeli.
+- 0907-01-01 Oleg'in Konstantinopolis seferi: Rus kuvvetleri Bizans başke: Encyclopedia of Ukraine 907 kara-deniz seferi der; Primary Chronicle özeti '904-907 (6412-6415) Oleg attacked the Greeks'. UYARI: aynı madde, Dolley/Grégoire/Pritsak'a göre Oleg'in seferinin vakanüvis icadı olabileceğini söyler; Bizans kaynakları anmaz. 'Başkente ulaştı' kronik anlatımıdır → 'kronik anlatımına göre' beyanı. Okunan sayfa Konstantinopolis adını vermiyor (Byzantium).
+- 0911-01-01 Oleg ile Bizans arasında ticaret ve barış antlaşması yapıldı: Antlaşma yılı 911 (kronik 6420=912 işaretler; özetteki not 911 verir). Encyclopedia of Ukraine 907'de ticaret ayrıcalıkları, 911'de ikinci (ticaret dışı) antlaşma der — madde 907 ve 911 olarak ayrışmalı. Tarihçi şüphesi aynı, 911 antlaşmasının varlığı muhtemel kabul ediliyor.
+- okunmadı · 0629-01-01 Songtsen Gampo tahta çıktı: Yarlung krallığı Tibet İmparator
+- bulunamadı: Eyyûbî–Zeydî Dhamar muharebesi 1226 (akademik)
+- bulunamadı: VII. Bohemond 1287 ölümü (akademik)
+- bulunamadı: Wareru/Hanthawaddy 1287
+- bulunamadı: Kertanagara 1292 (Coedès)
+- bulunamadı: III. Ballala 1343
+- bulunamadı: Hồ Quý Ly 1400 / Lý Thăng Long 1010 / Trần 1225 (Taylor, Toàn thư)
+- bulunamadı: Sukhothai 1438 (Wyatt)
+- bulunamadı: Mangrai–Hariphunchai yılı (Wyatt)
+- bulunamadı: Songtsen Gampo 629 yılı
+- zahir-el-omer-seyhligi: f yalnız yıl (TDV 'bilgiler vardır' diyor, beyanlı yaklaşıklık); t günü TDV'de açık. Akkâ'nın kuşatılışı 17 Ağustos 1775.
+- gence-hanligi: TDV 3 Ocak 1804 (Rus Jülyen takvimi; Gregoryen karşılığı 15 Ocak) verir, atlasın 1804-01-15'i ile tutarlı; TDV'de takvim belirtilmemiş, bu yorum bizim. f için TDV yalnız 'XVIII. yy ortası' diyor; 1747 TDV Bakü maddesinden değil Gence'den okunmadı.
+- baku-hanligi: f 1747 TDV ile teyit. t ÇELİŞKİ: atlas 1806-10-03 (Rus fethi), TDV kesin geçişi 1813 Gülistan'a bağlıyor. Karar verilmedi; 1806 için üçüncü akademik kaynak okunmadı (Iranica 403).
+- nahcivan-hanligi: t yalnız yıl teyitli (1828); gün TDV'de yok. f 1747 okunmadı (TDV: 1736 Nadir Şah altında Kengerli idaresi, 1797'den İran'a bağımlı).
+- okunmadı · talis-hanligi
+- megrelya-prensligi: f: Amasya 1555 Osmanlı nüfuz bölgesi (zaten atlas dayanağı). t: TDV hem 1803 Rus birleşmesini hem Kırım Harbi sonrası feshi veriyor; 1857 günü okunmadı. İki olgu ayrı: 1803 himaye/birleşme, fesih Kırım sonrası. Değişiklik önerilmedi.
+- guria-prensligi: f: 1508 itaat teyitli (yıl). t ÇELİŞKİ: TDV Guriya'yı 1804'te Rusya ile birleşmiş gösteriyor, atlas 1829. 1829 için akademik kaynak açılamadı; karar verilmedi.
+- okunmadı · svaneti
+- okunmadı · seylan-sinhala
+- kotte-krallik: t yalnız yıl teyitli (1597); 27 Mayıs günü okunmadı. f 1412 okunmadı.
+- sitavaka-krallik: f 1521 bölünmesi yıl teyitli. t 1593-03-17 okunmadı (kaynak 1582 Kandy ilhakını veriyor).
+- portekiz-seylani: İki yıl teyitli; 22 Haziran günü okunmadı. Not: 1597'de Kotte vasiyeti ile hukuki egemenlik (encyclopedia.com).
+- hollanda-seylani: Yıllar teyitli; Mart 1640 ve 15 Şubat 1796 günleri okunmadı. Amiens Antlaşması (25 Mart 1802) Madde V Hollanda'nın Seylan'ı İngiltere'ye devrini hukukî olarak yazar (Wikisource metni).
+- ingiliz-seylan: f ve t yıl düzeyinde teyitli; 4 Şubat 1948 günü okunmadı. Amiens: 1802 hukukî devir (f için alternatif ölçüt, karar verilmedi).
+- ispanyol-filipinler: t imza günü metinden okundu (devir yürürlüğü onay mübadelesine bağlı, Madde XVII: altı ay içinde; yürürlük tarihi okunmadı). f: Legazpi 1564'te gönderildi, 'accomplished the following year' (1565); Manila başkent 1571 teyitli.
+- okunmadı · kalat-hanligi
+- okunmadı · lahic-sultanligi
+- okunmadı · mahra-sultanligi
+- okunmadı · mogolistan-hanligi
+- okunmadı · kalacuri-tripuri
+- okunmadı · pandya-1
+- okunmadı · bundela-orcha
+- bharatpur-cat: f 1733 yalnız başkentin Deeg'den Bharatpur'a taşınması; Badan Singh krallığı 1722'den (Deeg). t ÇELİŞKİ: kaynak Hindistan'a katılım 1947 diyor, atlas 1948-03-18 (Matsya Birliği). Karar verilmedi; iki olgu farklı (katılım belgesi vs birlik).
+- okunmadı · nagpur-bhonsle
+- okunmadı · sikkim-krallik
+- okunmadı · bhutan
+- portekiz-hindistani-goa: t 19 Aralık 1961 teyitli (aynı sayfa ailesinde 'Dec. 18 annexed' farklı); Goa fethi 25 Kasım 1510 (NCE). f=1505 açılan sayfada yok (Almeida 1509 vurgulu): okunmadı, 1505 viceroy atanması bilgisi doğrulanamadı.
+- okunmadı · fransiz-hindistani
+- danimarka-hindistani: ÇELİŞKİ f: lex.dk aftale 16 Kasım 1620; atlas 19 Kasım (19 Kasım'ı JRAS makalesi verir ama PDF okunamadı). t: Tranquebar+Serampore 1845'te satıldı (lex.dk, gün yok); Nikobarlar lex.dk'ya göre 1848'de Danimarka tarafından terk edildi, 1868'de İngiltere devraldı. Künye t=1868 'Danimarka egemenliği sürüyor' varsayımı bu kaynakla DESTEKLENMİYOR; karar verilmedi, Emre'ye bırakılır.
+- okunmadı · mangkunegaran
+- hollanda-malaka: t günü antlaşma Madde XIII'ten okundu (Madde X: Malacca devredildi). f yıl teyitli, gün yok (atlasta zaten 01-01).
+- portekiz-malaka: Yıllar teyitli; 15 Ağustos günü okunmadı (arama özetleri Temmuz/Ağustos farklı).
+- portekiz-timor: t 28 Kasım 1975 Fretilin ilânı (7 Aralık Endonezya işgali) teyitli; Portekiz'in fiilî çekilişi bu gün değildir. f: metin 'XVIII. yy başı' diyor, 1702 okunmadı.
+- okunmadı · sipsong-panna
+- okunmadı · ispanyol-formosa
+- okunmadı · daxi-zhang
+- okunmadı · ternate-sultanligi
+- le-hanedani: Kaynak 'Lê dynasty (1427–1788)' başlığı kullanıyor; atlas 1428–1789. Yıl farkı kuruluş (1427/1428) ve bitiş (1788/1789) için okundu; karar verilmedi. 1788 Aralık'ı 1789 başına yakın.
+- okunmadı · mac-hanedani
+- nguyen-beyligi: t yıl teyitli (1802, Gia Long); 1558 okunmadı (arama özeti 'Nine Nguyen Lords 1558–1777' Tandfonline makalesi, açılmadı).
+- tay-son: Kaynağa göre ayaklanma 1771'de başladı; atlasın f=1778 (Nhạc'ın imparatorluk ilânı) bu kaynakta yok. t yıl teyitli. Künye tanımı kararı gerekir.
+- trinh-lordlari: Kaynak Trịnh-Nguyễn bölünmesini 1627'den veriyor; 1545 (Trịnh Kiểm'in Lê restorasyonu) okunmadı. t 1786: Tay Son birleşmesi (1786) teyitli, yıl düzeyinde.
+- bulunamadı: kalacuri-tripuri
+- bulunamadı: pandya-1
+- bulunamadı: bundela-orcha
+- bulunamadı: mangkunegaran
+- bulunamadı: ispanyol-formosa
+- bulunamadı: daxi-zhang
+- bulunamadı: bhutan
+- bulunamadı: fransiz-hindistani
+- bulunamadı: nagpur-bhonsle
+- bulunamadı: mac-hanedani
+- bulunamadı: lahic-sultanligi
+- bulunamadı: mahra-sultanligi
+- bulunamadı: kalat-hanligi
+- bulunamadı: mogolistan-hanligi
+- okunmadı · 1631-01-01 Angara boyunda Rus Bratsk kalesi kuruldu
+- 1716-01-01 İrtiş-Om kavşağında Rus Omsk kalesi kuruldu: Yıl 1716 teyit; gün önerilmez (Evseev 1974: birlik Omi ağzına Mayıs'ta vardı, kale güzde tamamlandı; 2 Ağustos yalnız ikincil kaynakta). Tobol-Işım hattı ifadesi doğrulanmadı.
+- okunmadı · 1743-01-01 Uy ırmağı kıyısında Rus Troitsk kalesi kuruldu
+- okunmadı · 1752-01-01 İşim boyunda Rus Petropavlovsk kalesi kuruldu
+- 1539-01-01 Zebîd'in Osmanlı hâkimiyetine kesin girişi: TDV Zebîd maddesi yalnız 945/1539 verir (Osmanlı Yemeni tek sancak); gün Süleyman Paşa maddesinden. Kevkebân maddesi 946 (1539) der (küçük yıl farkı). Mevcut 'üst sınır 10 Mart 1539' ile uyumlu. Hicrî-miladi eşleşmesi TDV'nin kendi beyanı. Öncül/ardıl çakışma kontrolü uygulayıcıya.
+- 1796-01-01 Kaçar hânedanının İran'a hâkim oluşu: TDV Kaçarlar: 1796 taç giyme, 'Kaçar Devleti resmen kurulmuş oldu'; gün yok. ÇELİŞKİ: TDV 'Ağa Muhammed Şah' maddesi Tahran'da tahta oturuşu 11 Cemâziyelevvel 1200 (12 Mart 1786) verir; Kaçarlar maddesi 1786 iddiasını diğer kaynaklarca doğrulanmamış sayar. İki görüş ic_not'ta beyan edilmeli, karar verilmedi. 'Afşar bitişi' notu atlas kaydıdır, dayanak değil.
+- okunmadı · 1527-01-01 Mạc Đăng Dung Lê tahtını gasbederek Mạc hanedanını kurdu
+- okunmadı · 1558-01-01 Lan Na başkenti Chiang Mai Birmanlar'ın eline geçti
+- okunmadı · 1558-01-01 Nguyễn ailesi Huế merkezli güney eyaletlerinin idaresini üst
+- okunmadı · 1568-01-01 Kral Mukunda öldürüldü, Orissa bağımsızlığını Bengal'in Afga
+- 1573-01-01 Oda Nobunaga son Ashikaga şogunu Yoshiaki'yi Kyoto'dan sürdü: Yıl 1573 TDV ile teyit; TDV 1568'de Nobunaga'nın Kyoto'ya girdiğini ve şogunu 'fiilen etkisiz kıldığını' söyler, Yoshiaki'nin sürülmesini açıkça anmaz. Britannica yerine TDV yazılabilir.
+- okunmadı · 1558-04-02 Bayinnaung Chiang Mai'yi aldi; Mekuti teslim oldu, Lan Na (L
+- 1573-09-02 Nobunaga, Makishima'da Ashikaga Yoshiaki'yi surgun ederek Mu: Yalnız yıl akademik kaynakla teyitli; 2 Eylül günü Wikipedia'ya dayanıyor (kaynaklar 15 Ağustos-2 Eylül arası veriyor, açılamadı). Sınıra bağlı değilse YYYY-01-01 + not. Ayrıca yer_id 'Hiraizumi (Ōshū Fujiwara başkenti)' Kyoto/Makishima olayıyla ilgisiz görünüyor; yer eşlemesini kontrol et.
+- 1576-07-12 Rajmahal Savasi: Babur Imparatorlugu (Akbar) Karrani Bengal : Gün 12 Temmuz 1576 teyit (hicrî 15 Rebîülâhir 984). Taraflar: Mugallar ve Afganlar (Karrani). Nadia/Paharpur'un bu savaşla Mugal'a geçtiği ifadesi Banglapedia'da yok; yer geçişi çıkarım.
+- 1603-03-24 Tokugawa Ieyasu şogun ilan edildi, Edo Bakufu kuruldu (Azuch: Yıl 1603 TDV ile uyumlu. 24 Mart günü (Kasaya, Keichō 8/2/12) bu turda açılıp doğrulanmadı; cin_gun ile çevrilmedi. 'Hiraizumi/Yoshino Edo yönetiminde' ifadesi doğrulanmadı.
+- okunmadı · 1662-02-01 Zeelandia Kalesi'nde Hollanda valisi Coyett, Koxinga'ya tesl
+- okunmadı · 1683-10-03 Shi Lang Tayvan'a ulaşıp Zheng Keshuang ve Liu Guoxuan'ın te
+- 1717-01-01 Babur Imparatoru Ferruhsiyer Murshid Quli Han'i Bengal subad: Banglapedia subahdar listesinde Murshid Quli Han 1717-27 verir; 'Ağustos/Eylül 1717' ve 'Ferruhsiyer atadı' ayrıntısı sayfada açıkça yok.
+- 1757-06-23 Plassey Muharebesi: Bengal Nevabı Siraceddevle, Doğu Hindist: Gün ve taraflar teyit; World History Encyclopedia kaynak listesinden çıkarılabilir. Nadia/Paharpur'un Şirket denetimine geçişi çıkarımdır.
+- okunmadı · 1775-01-14 Taksin'in Siyam orduları Lamphun'da Birmanyalıları yendi, Ch
+- okunmadı · 1782-04-06 Chaophraya Chakri Siyam tahtına çıktı (I. Rama): Thonburi de
+- 1593-03-17 I. Rajasinha'nin olumuyle Sitavaka Krallığı coktu; Sitavaka : Codrington ölümü 'early in 1593' diye verir; 17 Mart günü bu kaynakta yok (Wikipedia'ya dayanıyor). Gün teyitsiz: yıl hassasiyeti; sınıra bağlıysa '[yalnız yıl teyitli; gün teyitsiz]'.
+- 1597-05-27 VI. Dharmapala'nin olumuyle Kotte Krallığı, vasiyet/bagis ge: Gün 27 Mayıs 1597 sayfada doğrulandı; 12 Ağustos 1580 bağışı da sayfada: 'by his Donation, dated August 12, 1580, had bequeathed his dominions and the overlordship of Lanka to the king of Portugal.'
+- okunmadı · 1656-05-12 Hollanda VOC, Colombo kalesini Portekiz'den alarak Kotte (Sr
+- 1695-01-01 Ispanyol Validisi Quiroga Tinian'i bastirip Taga'nin bulundu: Quiroga Esplana'nın 1694 ölümünden aylar sonra seferlere çıktı; 'bir yıl sonra' Tinian ve Saipan: 1695 çıkarımsaldır (makale yıl vermez). Tinian halkı Guam'a yerleştirildi, teyit. Sayfada 'Taga' değil 'Tagle' (1720 vali) geçer; Taga Evi bağı açılmadı.
+- bulunamadı: Toàn thư Mạc 1527 günü
+- bulunamadı: Chiang Mai 1558 akademik
+- bulunamadı: Orissa 1568 akademik
+- bulunamadı: Zeelandia 1662 antlaşma sayfası (USC 404)
+- bulunamadı: Colombo 12 Mayıs 1656 Codrington cümlesi
+- bulunamadı: Tungning teslim günü
+- bulunamadı: Troitsk/Petropavlovsk/Bratsk akademik
+- bulunamadı: Siyam Lan Na 1775/1782 akademik
