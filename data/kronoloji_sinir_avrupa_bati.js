@@ -58,7 +58,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   b:"Arras Antlaşması — Burgonya mirasının paylaşılması", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["antlasma","konu-siyasi","fransa","almanya","burgonya"],
   d:"Burgonya Düşesi Marie'nin 27 Mart 1482'deki ölümünün ardından Fransa ile Maximilian arasında imzalanan Arras Antlaşması, Franş-Konte, Artois, Mâconnais ve Auxerrois'yı Marguerite'in çeyizi olarak Fransa'ya bağladı; Pikardiya ile Burgonya dükalığı zımnen XI. Louis'ye bırakıldı. Bir katalog kaydı antlaşmayı 24 Aralık diye tarihliyor. Maximilian'ın tarafı atlasta 'almanya' künyesiyle gösterildi.",
-  kaynak:"Larousse, Dictionnaire de l'Histoire de France · Britannica 'Mary, duchess of Burgundy' · Biblissima kaydı (24 Aralık — ÇELİŞKİ)" },
+  kaynak:"NDB 16 (1990), 'Maximilian I.' (Wiesflecker), deutsche-biographie.de/pnd118579371.html — «wurden im Frieden von Arras (23.12.1482) als Mitgift Margarethes an Frankreich abgetreten»", ic_not_d:"DUNYA-1102 hücre 4 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Larousse, Dictionnaire de l'Histoire de France · Britannica 'Mary, duchess of Bu) dayanak olamaz, değiştirildi. 23 Aralik 1482 NDB ile dogru (Biblissima 24 Aralik'a karsi NDB 23). Encyclopedia.com 'Mary of Burgundy' antlasmayi 1483 yazar: kaynak celiskisi. Icerik: Burgonya, Picardie ve Artois Margarete'nin cehizi olarak Fransa'ya gitti ('Burgonya mirasinin paylasimi' baslik olarak yuvarlak)." },
 
 { odak_yer:["Melîle"], t:"1497-09-17", devlet:"ispanya", devletler:["ispanya","merini"], sinir_id:"dg5-es-ma-melilla",
   b:"Melilla'nın alınması", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
