@@ -74,6 +74,34 @@ macaristan-halk-cumhuriyeti, nitra-prensligi, schleswig-holstein-1848, karakene.
 F (5 tam + 6 kısmi): lupaqa-krallik, ceibal, cholula, chamorro, haudenosaunee; kısmi: ingiliz-guyanasi f, guatemala f,
 sili t, yeni-granada t, rio-de-la-plata t, ispanyol-kuba f.
 
+## Parti G (Afrika + Arabistan + Sibirya/Bozkır + Orta Asya)
+Uygulanan: 11 künye kaynağı + 1 tarih: `kalmuk-hanligi` f 1630 → 1632-01-01 (TDV KALMUKLAR "İdil Kalmukları
+Hanlığı'nı kurdu (1632)"; künyeye bağlı yerleşim dönemi yok).
+
+### Tarih önerileri (uygulanmadı — yerleşim ucuyla birlikte taşınmalı)
+- `lahic-sultanligi` f 1728 → 1729-01-01 (TDV LEHİC 1141/1729, hicrî kural): Lahic (el-Havta) yerleşimi 1728-01-01'de başlıyor.
+- `kilva-sultanligi` f 1000 → 0975 (TDV KİLVE "975'te … Şîrazlılar Kilve adasına yerleştiler"; TDV Zengibar 957, açılmadı):
+  Kilwa Kisiwani yerleşimi 1000'de başlıyor — künye 25 yıl topraksız kalır.
+- `kalmuk-hanligi` t: TDV göç 1770 ↔ atlas 1771-01-05 (gün yok, beyan).
+
+### Çelişki / ayrı araştırma
+- `alas-ozerkligi` t 1920-01-01 ↔ TDV AVEZOV: Semey 4 Aralık 1919'da Bolşeviklerce alındı.
+- `hadramavt`, `ma-in`, `kataban`: TDV YEMEN yalnız yaklaşıklık, kendi içinde çelişkili — beyanlı yaklaşıklık.
+- `lahic-sultanligi` t 1967: TDV federasyonun sonu olarak anar, sultanlığın değil.
+- Arama özeti ipuçları (sayfa açılmadı, uygulanmaz): BMGK 566 19.06.1985 (Namibya geçiş, atlas 17.06.1985); Uzak Doğu
+  Cumhuriyeti sonu 15.11.1922 (atlas 14).
+
+### Okunmadı (27)
+cabo-juby-ispanyol, ispanyol-sahra, tiris-el-garbiyye, touggourt, auris-masties, altava-mauro-roma, fransiz-birligi, biafra,
+nri, fante, bophuthatswana, namibya-gecici-ulusal-birlik-hukumeti, zimbabve-rodezya, alman-guneybati-afrikasi, cad-gunt,
+orta-afrika-imparatorlugu, angola-unita-fnla, italyan-somali, shewa, arap-cumhuriyetleri-federasyonu, arap-birligi-irak-urdun,
+mahra-sultanligi, kolcak-omsk-hukumeti, uzak-dogu-cumhuriyeti, transkaspi-hukumeti, xianbei, mogolistan-hanligi.
+
+## İkinci geçiş künye partileri — toplam (A–G)
+191 yasak kaynaklı künyenin hepsi denendi; 81'ine alıntılı akademik kaynak (A 19 · B 8 · C 11 · D 10 · E 12 · F 10 · G 11),
+1 tarih (kalmuk f). ~110 künye okunmadı ya da kısmen — üçüncü tur ancak yeni erişimle (kurumsal erişim, Iranica, JSTOR)
+anlamlı. Kırılmaya bağlı 11 tarih önerisi yukarıda.
+
 ### Erişim
 - **Brill Iranica açık erişimi de 403** (referenceworks.brill.com madde, arama ve browse) — iki ajan ayrı ayrı denedi,
   atlatılmadı. Iranica için kalan meşru yol: uygulama içi tarayıcıda insan hızında okuma ya da Emre'nin kurumsal erişimi.
