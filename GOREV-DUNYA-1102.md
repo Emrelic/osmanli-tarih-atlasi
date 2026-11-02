@@ -185,7 +185,9 @@ G — Renk ve bölge (senin işin değil)
 | 8 | Asya MÖ 500–MS 500 | **bitti** (birinci geçiş) — envanter 170 künye · 139 yerleşim · 298 madde; yasak kaynaklı 59 künye + 78 madde | künye 28 kaynak + 4 tarih (himyar, part, hasmoni, bitinya f — TDV); madde ~44 kaynak/beyan + 3 tarih (Şapur 256, Issos MÖ 333-11, Part MÖ 250); ~34 madde okunamadı. MÖ yıl kayması örüntüsü (magadha/maurya/sunga/kanva) bekleyen. D2s 201→201 | 818c70a51 → main 3cdda045 |
 | 9 | Asya 500–1000 | **bitti** (birinci geçiş) — envanter 277 künye · 165 yerleşim · 497 madde; yasak kaynaklı 66 künye + 3 madde | künye 51 kaynak, 0 tarih (Çin günleri tablosuz, aday olarak ic_not'ta); 3 madde hücre 10'a. Koşu 32 inişi (04125032f) sonrası ölçüldü: D8a 172/172. D2s 201→201 | (bu push) |
 | — | Koşu 32 inişi | main 04125032f (2 Kasım 09:45) — D8a 182→172, 3b tavanı 533842→742525. F adımı (bitmiş hücre maddelerinin haritaya yansıması) bu koşu üzerinden ölçülecek | | |
-| 10–12 | Asya (3 dilim) | bekliyor | | |
+| — | Yerel kaynak derlemi | Perseus (Yunanca/Latince tarihçiler) + Çin takvim tablosu D:/kaynak-derlem'e kuruldu; `arac/perseus_ara.py`, `arac/cin_gun.py`; bkz. `denetim/DUNYA-1102/KAYNAK-DERLEM.md`. İlk kullanım: 9 Çin künyesinin f günü (xin 9-01-15, liu-song, sui, kuzey-zhou, dogu-wei, kuzey-qi, sonraki-tang, wu-zhou, kuzey-han) · Perseus turu: 17 antik madde (11 kaynak teyitli) | | (bu push) |
+| 10 | Asya 1000–1500 | sürüyor — envanter 412 künye · 1167 yerleşim · 1430 madde; yasak kaynaklı 35 künye + 41 madde | künye 18 kaynak + 2 tarih (musasa f 1442-01-16, maldivler f 1153-07-07 — TDV; yerleşimler zaten o günde) | |
+| 11–12 | Asya (2 dilim) | bekliyor | | |
 | 13–18 | Afrika (6 dilim) | bekliyor | | |
 | 19–24 | Amerika (6 dilim) | bekliyor | | |
 | 25–30 | Avustralya ve Okyanusya (6 dilim) | bekliyor | | |

@@ -202,7 +202,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 331",
   "yer": "Babil / Uruk / Susa",
   "d": "Babil, Uruk noktalarında sahiplik Ahamenis (Pers) Imparatorlugu'dan Buyuk Iskender Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
-  "kaynak": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
+  "kaynak": "Arrianos, Anabasis 3.15.7, 3.16.4 (Perseus, CC BY-SA) — «Ἀλέξανδρος δὲ παρελθὼν εἰς τὴν Βαβυλῶνα τὰ ἱερὰ, ἃ Ξέρξης καθεῖλεν, ἀνοικοδομεῖν προσέταξε»", "ic_not_d":"DUNYA-1102 Perseus turu (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kayna) dayanak olamaz, değiştirildi. Arrianos 3.15.7: Gaugamela, arkon Aristophanes (331/0) Pyanepsion ayı; 3.16.4: ardından İskender Babil'e girdi, Mazaios'u satrap atadı. Yıl MÖ 331 sonu = -0330 uyumlu. Uruk bu metinde geçmez.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -931,7 +931,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 282",
   "yer": "Bergama / Pergamon",
   "d": "Bergama, Pergamon noktalarının s: dizisinde bu uç, sahip künyenin (Bergama (Attalos) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye bergama — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "künye bergama — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js", "ic_not_d":"DUNYA-1102 Perseus turu (KASA, 2 Kasım 2026): teyit tek kaynak. Strabon 13.4.1: Pergamon Lysimakhos'un hazine kalesiydi, bekçisi Tieion'lu Philetairos'tu; Appianos Syr. 63: Philetairos 'Pergamon prensi' olarak Selevkos'un cesedini satın aldı (MÖ 281). 'Attalos Krallığı' MÖ 282 başlangıcı Philetairos'un Lysimakhos'tan kopuşuna dayanır; bu kopuş yılı Perseus metninde okunmadı.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
