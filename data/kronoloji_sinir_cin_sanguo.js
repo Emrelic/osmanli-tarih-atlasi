@@ -30,6 +30,33 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 己未 (建武元年 6. ay) → Jülyen 0025-08-05 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0025-08-03; 1582 öncesi gün Jülyen kalır"
  },
  {
+  "t": "0025-11-05",
+  "devlet": "dogu-han",
+  "taraflar": [
+   "dogu-han",
+   "gengshi"
+  ],
+  "b": "Zhu Wei Luoyang'ı teslim etti: şehir Gengshi'den Doğu Han'a geçti",
+  "tur": "toprak-kazanc",
+  "onem": 3,
+  "dunya": 2,
+  "kapsam": "dis",
+  "yer": "Luoyang",
+  "yer_id": "Luoyang",
+  "etiket": [
+   "toprak-degisimi",
+   "konu-askeri",
+   "cin-sanguo"
+  ],
+  "d": "Gengshi rejiminin Luoyang'daki komutanı Zhu Wei, Guangwu'nun kuşatması sonunda şehri teslim etti; Guangwu 22 gün sonra (癸丑) Luoyang'a girip burayı başkent yaptı.",
+  "kaynak": "Fan Ye, Hou Han shu 1上 (zh.wikisource.org/wiki/後漢書/卷1上, okundu) — 建武元年九月 «辛卯，朱鮪舉城降。» ; «冬十月癸丑，車駕入洛陽，幸南宮却非殿，遂定都焉。»",
+  "gun": "5 Kasım 25 (Jülyen; ganzhi 辛卯)",
+  "kesinlik": "gun",
+  "sinir_id": [],
+  "ic_not": "KIRILMA-TASIMA 3 Kasım 2026 (DUNYA-1102 2. geçiş kalemi): Luoyang ucu 0025-01-01'den taşındı; gengshi künye t ve dogu-han künye f ile birlikte.",
+  "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 辛卯 (建武元年 9. ay) → Jülyen 0025-11-05 (arac/cin_gun.py); 1582 öncesi gün Jülyen kalır"
+ },
+ {
   "t": "0030-05-28",
   "devlet": "dogu-han",
   "taraflar": [

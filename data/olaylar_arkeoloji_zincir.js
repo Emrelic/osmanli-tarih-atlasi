@@ -593,18 +593,18 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   ]
  },
  {
-  "t": "0008-01-01",
+  "t": "0009-01-10",
   "k": "diger",
-  "b": "Dunhuang, Xi'an (Chang'an), Zhangye (Ganzhou): Bati Han Hanedani → sahipsiz aralık",
-  "gun": "MS 8",
-  "yer": "Dunhuang / Xi'an (Chang'an) / Zhangye (Ganzhou)",
-  "d": "Dunhuang, Xi'an (Chang'an), Zhangye (Ganzhou) noktalarında sahiplik Bati Han Hanedani'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: Hanshu 1 (Gaodi ji) 5. yıl: 'o gün arabayla batıya, Chang'an'a başkent geldi'; 7. yıl: Yueyang'dan Chang'an'a başkent taşındı. Han'ın Guanzhong'a hükmü MÖ 206'dan eskidir (Xiang Yu'nun üçe bölmesi) — bu turda okunmadı.",
-  "kaynak": "Hanshu 1 (Gaodi ji) 5. yıl: 'o gün arabayla batıya, Chang'an'a başkent geldi'; 7. yıl: Yueyang'dan Chang'an'a başkent taşındı. Han'ın Guanzhong'a hükmü MÖ 206'dan eskidir (Xiang Yu'nun üçe bölmesi) — bu turda okunmadı.",
+  "b": "Wang Mang tahta çıktı: Dunhuang ve Zhangye (Ganzhou) Batı Han'dan sahipsiz aralığa geçti",
+  "gun": "10 Ocak 9 (Jülyen; 居攝三年/初始元年 11. ay 戊辰)",
+  "yer": "Dunhuang / Zhangye (Ganzhou)",
+  "d": "Wang Mang Han'ın Yüksek Tapınağı'nda altın sandık vasiyetini alıp tahta çıktı ve hanedanın adını Xin koydu; Batı Han sona erdi. Hexi koridorundaki Dunhuang ve Zhangye için Xin dönemine ait sahiplik kaynakta yazılı olmadığından bu noktalar sahipsiz aralığa geçer (beyanlı boşluk). Chang'an doğrudan Xin'e geçti (ayrı madde).",
+  "kaynak": "Ban Gu, Hanshu 99上 (zh.wikisource.org/wiki/漢書/卷099上, okundu) — «戊辰，莽至高廟拜受金匱神嬗。御王冠，謁太后，還坐未央宮前殿» ; «以戊辰直定，御王冠，即真天子位，定有天下之號曰新»; gün: arac/cin_gun.py (8. yıl 11. ay 戊辰 = 0009-01-10 J)",
+  "ic_not": "KIRILMA-TASIMA 3 Kasım 2026 (DUNYA-1102 2. geçiş kalemi): t 0008-01-01 → 0009-01-10, bati-han künye t ve üç yerleşim ucuyla birlikte. Xi'an bu maddeden çıkarıldı (0008-0009 boşluk dilimi kalktı).",
   "kaynak_turu": "yazili",
-  "kesinlik": "yil",
+  "kesinlik": "gun",
   "odak_yer": [
    "Dunhuang",
-   "Xi'an (Chang'an)",
    "Zhangye (Ganzhou)"
   ]
  },
@@ -628,15 +628,14 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "k": "diger",
   "b": "Çengdu (Chengdu): sahipsiz aralık → Chengjia (成家, Gongsun Shu)",
   "gun": "MS 25",
-  "yer": "Çengdu (Chengdu) / Xi'an (Chang'an) / Luoyang",
+  "yer": "Çengdu (Chengdu) / Xi'an (Chang'an)",
   "d": "Çengdu (Chengdu) noktalarında sahiplik sahipsiz aralık'dan Chengjia (成家, Gongsun Shu)'ya geçer. Kaynak geçiş bilgisi: Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).",
   "kaynak": "Hou Han shu 13 (Gongsun Shu): Gengshi döneminde 'Shu Wang' olup Chengdu'yu başkent yaptı; Jianwu 1 (MS 25) 4. ay imparator ilan etti; Jianwu 12'de sonu (Wu Han seferi, Chengdu kuşatması).",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
    "Çengdu (Chengdu)",
-   "Xi'an (Chang'an)",
-   "Luoyang"
+   "Xi'an (Chang'an)"
   ]
  },
  {

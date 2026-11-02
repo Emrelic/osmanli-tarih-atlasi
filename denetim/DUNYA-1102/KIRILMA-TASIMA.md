@@ -86,3 +86,29 @@ Zebîd'e ait 1, Trablus'a ait 1, Teschen'e ait 0 çıktı (öteki uçlar Burma/P
 - **Açık:** Rigsarkivet katalogu ya da Danimarka/Hint hakemli makalesinde teslim günleri (özellikle
   Tranquebar) aranmalı; bulunursa Tranquebar ucu 1845-02-22'den taşınır. Tranquebar'ın 1845-02-22
   kırılmasının ±30 günde maddesi YOK (ölçüldü).
+
+## İkinci geçiş künye partileri — 11 kalem (3 Kasım 2026)
+
+Kaynak liste: `ikinci-gecis-kunye/bekleyen.md`. Her kalemde kırılmalar `kir.py` ile ölçüldü.
+
+### Taşınanlar
+| Kalem | Eski → yeni | Yerleşim | Madde | Künye | Kaynak (yeniden okundu) |
+|---|---|---|---|---|---|
+| bati-han t | 0008-01-01 → 0009-01-10 | Xi'an (0008-09 boşluk dilimi silindi), Zhangye, Dunhuang | olaylar_arkeoloji_zincir (yeniden yazıldı); asya_zincir_1024 gün metni "12. ay"→"11. ay" | bati-han t | Hanshu 99上 十一月 «戊辰，莽至高廟拜受金匱神嬗…即真天子位» → `cin_gun` 0009-01-10. Öneri 01-09 (丁卯) Hanshu 99中 符命 anlatısının günüydü; tahta çıkış 戊辰 |
+| dogu-han f | 0025-01-01 → 0025-08-05 | Luoyang gengshi→dogu-han 0025-01-01 → **0025-11-05** | cin_sanguo'ya yeni madde (Zhu Wei teslimi); arkeoloji_zincir 0025 maddesinden Luoyang çıktı | dogu-han f (+iç kronoloji) · gengshi t → 0025-11-05 (GENİŞLET) | Hou Hanshu 1上 «六月己未，即皇帝位» · 九月 «辛卯，朱鮪舉城降» (0025-11-05) — Luoyang tahta çıkışta değil teslimde el değiştirdi |
+| swat-devleti f | 1915-01-01 → 1915-04-24 | Saidu Sharif, Madyan, Kalam (kur+f) | — (tek uçlu başlangıç) | f + iç kronoloji; Vikipedi kaynağı değişti | R. Khan, *Modern Asian Studies* 57/3 (2023) «came into being in 1915» · «installed as king on 24 April 1915» |
+| lahic-sultanligi f | 1728-01-01 → 1729-01-01 | Lahic yemen→lahic | — | f + iç kronoloji | TDV LEHİC «1141'de (1729) … bağımsızlığını ilân etti»; hicrî 1141 ∩ 1729 → ilk gün |
+| kilva-sultanligi f | 1000-01-01 → 0975-01-01 | Kilwa Kisiwani (tek uç) | — | f + iç kronoloji | TDV KİLVE «975'te İran'dan gelen Şîrazlılar Kilve adasına yerleştiler»; arkeoloji (Horton 2022, 10. yy sonu) çelişkisi beyanlı |
+| talis-hanligi f/t | 1747 → 1736 · 1813-10-24 → 1826-01-01 | **harita değişmedi** | — | f, t + iç kronoloji | TDV Taliş Hanlığı «1736 yılında … kurulmuş» · «hanlık 1826'da ilga edildi». Lenkeran uçları (1747-06-20 bağımsızlık, 1813-01-01 Rus zaptı) TDV'li fiilî sahiplik; künye polity ömrüdür |
+
+### Taşınmadı
+- **dogu-han t 0220-12-10 KALDI:** 乙卯 (0220-11-25) feragat fermanının günü; Sanguozhi 2 «庚午，王升壇即阼»
+  (0220-12-10) ve de Crespigny, *East Asian History* 1 (1991) «on 11 December 220 … received the abdication»
+  devri Aralık'ta tamamlar. Künye ic_not'taki "12-10'un kaynağı bilinmiyor" cümlesi düzeltildi.
+- **rupeniler / kilikya-ermeni 1199-01-06 KALDI:** üçüncü akademik kaynak okunamadı (Kouymjian 1980 PDF TLS
+  sertifika hatası; arama özeti 1198/1199 tartışmalı diyor). Der Nersessian 1198 tek kaynak; künyede beyanlı.
+- **raska-buyuk-prensligi t 1168:** yerleşim kırılması yok; Hrvatska enciklopedija tek, kaynaklar bölünmüş — değişmedi.
+- **anjou-kontlugu t 1203 / f 870:** GEC tek kaynak ve iki GEC maddesi kendi içinde çelişik (1203/1204);
+  f 870 Angers'in 870-1000 zincirini ister (kaynaksız) — değişmedi.
+- **rio-de-la-plata-valiligi f 1776-08-01:** künyeye bağlı yerleşim yok; cédula metni yalnız Wikisource'ta,
+  hakemli neşir bulunamadı (geçici 1776 / kalıcı 1777 sorusu açık) — değişmedi.
