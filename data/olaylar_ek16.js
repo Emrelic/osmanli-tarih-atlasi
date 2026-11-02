@@ -388,7 +388,7 @@ window.OLAYLAR_EK16 = [
   yer:"Ras el-Hayme (Cülfâr), Şârika, Abu Dabi",
   yer_id:"Şârika", kisiler:"Sultan bin Suggur (Şârika-Ras el-Hayme şeyhi)",
   d:"İngiltere, 1819'da Ras el-Hayme'yi bombalayıp 'korsan' Kasımî donanmasını dağıttıktan sonra, 8 Ocak 1820'de başlayıp bölgedeki şeyhliklerle tek tek imzalanarak Mart'a kadar tamamlanan Genel Deniz Antlaşması'nı dayattı; antlaşma korsanlığı ve köleliği yasakladı, gemilerin İngiliz bayrağı benzeri kırmızı-beyaz bayrak taşımasını zorunlu kıldı. Bu antlaşmayla 'Korsan Kıyısı' zamanla 'Mütareke Kıyısı'na (Trucial Coast) dönüştü; 1853 daimî deniz ateşkesi ve 1892 münhasır antlaşmalarıyla derinleşen İngiliz hegemonyası 1971'e kadar sürecek ilişkinin başlangıcıydı.",
-  kaynak:"birlesik-arap-emirlikleri · resulhayme · Aitchison, A Collection of Treaties c. XII No. XXXVIII · Britannica 'United Arab Emirates — History'", duygu:["😔"] },
+  kaynak:"TDV İslâm Ansiklopedisi, Birleşik Arap Emirlikleri maddesi — «Gemilere saldırılmaması konusunda İngilizler'le sahil şeyhleri arasında 1820'de bir antlaşma imzalandı»", ic_not_d:"DUNYA-1102 hücre 12 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (birlesik-arap-emirlikleri · resulhayme · Aitchison, A Collection of Treaties c. ) dayanak olamaz, değiştirildi. TDV yalnız yıl veriyor; 8 Ocak 1820 günü bu kaynakla teyitsiz (Aitchison okunmadı). Madde adı \"Genel Deniz Antlaşması\" TDV'de geçmiyor.", duygu:["😔"] },
 
 { t:"1891-01-01", k:"savas", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", onem:3, b:"Müleydâ Savaşı — İkinci Suud Devleti'nin sonu, Necid Râşidîler'e geçti",

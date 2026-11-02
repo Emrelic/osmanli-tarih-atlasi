@@ -9428,7 +9428,7 @@ window.OLAYLAR_2S_0918 = [
 { t:"1853-07-28", b:"Ak-Meçit Kalesi Rus kuvvetlerince alındı — Hokand Hanlığı'nın Sirderya hattı çöktü", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ak-Meçit (Perovsk)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
   d:"General Vasili Perovski komutasındaki Rus kuvvetleri, Hokand Hanlığı'na ait Sirderya kıyısındaki Ak-Meçit Kalesi'ni Temmuz 1853'te uzun bir kuşatmanın ardından ele geçirdi; kale sonradan Perovsk adıyla Rus Türkistanı'nın ileri karakolu oldu.",
-  kaynak:"standart akademik/ansiklopedik (Fall of Ak-Mechet/Perovsk, Temmuz 1853 — Britannica 'Kyzylorda', MacKenzie, The Lion of Tashkent) — TDV kapsam dışı; veri 1853-07-28 taşıyor, ay/yıl kaynakla uyumlu, gün ayrıca doğrulanmadı" },
+  kaynak:"e-history.kz (Kazakistan devlet tarih portalı) — Ak-Mechet 28 Temmuz 1853 — «on July 28, 1853 Orenburg Governor-General V. Perovsky with Russian troops»", ic_not_d:"DUNYA-1102 hücre 12 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (standart akademik/ansiklopedik (Fall of Ak-Mechet/Perovsk, Temmuz 1853 — Britann) dayanak olamaz, değiştirildi. Tarih kaynakta var ama takvim (Jülyen mi Gregoryen mi) belirtilmemiş; Rus kaynakları Jülyen kullanır, öyleyse Gregoryen karşılığı 9 Ağustos 1853 olur. Takvim çözülmeden günü değiştirme." },
 
 // ── 18. DUBROVNIK'İN MACARİSTAN'A BAĞLANMASI ──────────────────────────
 { t:"1358-02-18", b:"Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Dubrovnik",

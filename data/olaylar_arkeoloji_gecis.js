@@ -161,7 +161,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "gun": "MS 349 (dönem ucu)",
   "yer": "Kush krallığı — Meroe dönemi / Meroe",
   "d": "Meroe noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Kus (Napata–Meroe) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
-  "kaynak": "künye kush-krallik — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak": "Treccani, Enciclopedia Italiana, 'Meroe' — «La fine del regno meroitico va posta probabilmente nella seconda metà del sec. III d. C.»", "ic_not_d":"DUNYA-1102 hücre 14 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye kush-krallik — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak) dayanak olamaz, değiştirildi. Atlas künye aşımı 349 (Aksum fethi ~350 geleneği). Treccani (1935) bitişi MS 3. yy ikinci yarısı verir: çelişki, iki ucu da beyan edilmeli, karar verilmedi. Treccani: Aksumlı bir kral tarafından yıkıldı, adı bilinmiyor. Hakemli güncel kaynak (Ezana yazıtı RIE 189) açılmadı: okunmadı. Madde künye-türevi; yalnız künye kararına bağlı.",
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil",
   "odak_yer": [

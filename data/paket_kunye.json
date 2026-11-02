@@ -113,11 +113,11 @@
     },
     {
      "yol": "data/olaylar_ek16.js",
-     "sha": "41eab57dccc7382e",
-     "bayt": 126575
+     "sha": "0682de206c15b0e1",
+     "bayt": 126962
     }
    ],
-   "bayt": 206835
+   "bayt": 207222
   },
   {
    "paket": "data/paket_04.js",
@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "2c1fa9692a8a02db",
-     "bayt": 6004618
+     "sha": "ed5928fbb1f4acfd",
+     "bayt": 6028806
     }
    ],
-   "bayt": 6198596
+   "bayt": 6222784
   },
   {
    "paket": "data/paket_06.js",
@@ -467,8 +467,8 @@
     },
     {
      "yol": "data/olaylar_2s_0918.js",
-     "sha": "2a85a4406340d528",
-     "bayt": 24366
+     "sha": "c05f5d775a80fbea",
+     "bayt": 24701
     },
     {
      "yol": "data/olaylar_ortadogu_0919.js",
@@ -551,7 +551,7 @@
      "bayt": 172365
     }
    ],
-   "bayt": 2123990
+   "bayt": 2124325
   },
   {
    "paket": "data/paket_13.js",

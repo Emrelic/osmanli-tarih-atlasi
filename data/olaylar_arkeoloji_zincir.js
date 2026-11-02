@@ -860,7 +860,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 146",
   "yer": "Korint / Karthago",
   "d": "Korint noktalarının s: dizisinde bu uç, sahip künyenin (Korint) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Pausanias 2.1.2, 7.16 (Perseus) — «Corinth was laid waste by Mummius ... (Paus. 2.1.2; editör: 146 B.C.)»", "ic_not_d":"DUNYA-1102 hücre 14 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye korint — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Korint'in yıkımı MÖ 146 (-0145) doğru; Pausanias 7.15-16 Mummius'un Akhaia Savaşı'nı anlatır, yıl editör notudur. Madde Afrika hücresinde yer alıyor ama Korint Yunanistan ile ilgili; 'yer' alanında Karthago da yazılmış: aynı yıl, ayrı olay.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -987,7 +987,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 323",
   "yer": "İskenderiye",
   "d": "İskenderiye noktalarının s: dizisinde bu uç, sahip künyenin (Ptolemai (Lagid) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye ptolemai — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Diodoros 18.3.1 (Perseus); Treccani, Enciclopedia Italiana, 'Egitto' — «Πτολεμαίῳ μὲν τῷ Λάγου τὴν Αἴγυπτον ἔδωκεν (Diod. 18.3.1); Treccani: nel 323 ... il generale Tolomeo figlio di Lago obtained Egypt as a satrapy»", "ic_not_d":"DUNYA-1102 hücre 14 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (künye ptolemai — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. MÖ 323 doğru; Pausanias/Diodoros: Babil taksimi. Gün (10 Haziran) İskender'in ölümü, taksimin günü değil: gün/ay beyanı 'komşudan'. Ptolemaios kral unvanı 305 (Treccani). Madde, kaynak künye/atlas: kaynak olarak Diod. 18.3.1 verilir.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [

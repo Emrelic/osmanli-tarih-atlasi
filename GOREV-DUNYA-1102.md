@@ -188,8 +188,11 @@ G — Renk ve bölge (senin işin değil)
 | — | Yerel kaynak derlemi | Perseus (Yunanca/Latince tarihçiler) + Çin takvim tablosu D:/kaynak-derlem'e kuruldu; `arac/perseus_ara.py`, `arac/cin_gun.py`; bkz. `denetim/DUNYA-1102/KAYNAK-DERLEM.md`. İlk kullanım: 9 Çin künyesinin f günü (xin 9-01-15, liu-song, sui, kuzey-zhou, dogu-wei, kuzey-qi, sonraki-tang, wu-zhou, kuzey-han) · Perseus turu: 17 antik madde (11 kaynak teyitli) | | (bu push) |
 | 10 | Asya 1000–1500 | **bitti** (birinci geçiş) — envanter 412 künye · 1167 yerleşim · 1430 madde; yasak kaynaklı 35 künye + 41 madde | künye 18 kaynak + 2 tarih (musasa, maldivler f — TDV); madde ~27 kaynak/beyan + 1 tarih (Zebîd 1174 yıl). D2s 201→201 | (bu push) |
 | 11 | Asya 1500–1800 | **bitti** (birinci geçiş) — envanter 261 künye · 1229 yerleşim · 549 madde; yasak kaynaklı 42 künye + 25 madde | künye 22 kaynak, 0 tarih; madde 12 kaynak/beyan + 1 tarih (Nobunaga 1573 yıl). Kırılmayla taşınacaklar: Zebîd 1539-02-24, Kafkasya hanlıkları (TDV). D2s 201→201 | (bu push) |
-| 12 | Asya 1800–2000 | bekliyor | | |
-| 13–18 | Afrika (6 dilim) | bekliyor | | |
+| 12 | Asya 1800–2000 | **bitti** (birinci geçiş) — envanter 335 künye · 1497 yerleşim · 648 madde; yasak kaynaklı 75 künye + 72 madde | künye 40 kaynak, 0 tarih; madde ~32 kaynak/beyan + 1 tarih (Cidde 1925-12-22, TDV). D2s 201→201 | (bu push) |
+| — | **ASYA birinci geçiş bitti** | | | |
+| 13 | Afrika MÖ 3500–MÖ 500 | **bitti** — 24 künye · 8 yerleşim · 74 madde; yasak kaynaklı 6 künye + 7 madde | künye 6 kaynak; Kartaca kuruluşu -0813 (Treccani). 6 madde okunmadı | (bu push) |
+| 14 | Afrika MÖ 500–MS 500 | **bitti** — 18 künye · 12 yerleşim · 58 madde; yasak kaynaklı 6 künye + 13 madde | künye 6 kaynak + 2 tarih (numidia f MÖ 201, mauretania t MS 40); 13 madde kaynak/beyan (Perseus) | (bu push) |
+| 15–18 | Afrika (4 dilim) | bekliyor | | |
 | 19–24 | Amerika (6 dilim) | bekliyor | | |
 | 25–30 | Avustralya ve Okyanusya (6 dilim) | bekliyor | | |
 

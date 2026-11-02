@@ -1,0 +1,208 @@
+# Hücre 12-14 — Asya 1800–2000 · Afrika MÖ 3500–MS 500 · bekleyen
+
+KASA, 2 Kasım 2026. Künye tavanı 2280 dolu; yeni künye eklenmedi.
+
+## Hücre 12 (Asya 1800–2000)
+- Künye: 40 kaynak, 0 tarih. KIRILMAYLA TAŞINACAK: misir-arap-cumhuriyeti f 1971-09-02 ↔ TDV 1971-09-11 (58 dönem) · etiyopya-derg t / etiyopya-gecis f 1991-05-28 ↔ TDV 1991-05-29 (81/66 dönem). Beyan: buyuk-lubnan f 1920 ↔ TDV Eylül 1921 · birlesik-arap-cumhuriyeti 1 ↔ 22 Şubat 1958 · buhara-halk 6/8 Ekim 1920 · kampucya-hc f 7 Ocak 1979 (Phnom Penh düşüşü; PRK ilanı ~10 Ocak).
+- Madde: ~32 kaynak/beyan; Cidde teslimi 1925-12-19 → 1925-12-22 (TDV; 22 kırılma ±30 gün içinde). Beyan: Pakistan 14 ↔ 15 Ağustos 1947 · Genel Deniz Ant. 1820 [yalnız yıl teyitli; gün teyitsiz] · Haydarabad 13/17 Eylül 1948 · Tuva 17 Ağu / 11 Eki / 13 Eki 1944 · Eritre 11 ↔ 15 Eylül 1952 · Suriye-Mısır 1 ↔ 22 Şubat 1958 (152 kırılma) · İskenderiye 1840 "mukavele" adı TDV'de yok · Mançukuo 17 Ağustos 1945 (Pu Yi çekilişi bu güne bağlanmamalı).
+- Okunmadı: Hint prenslikleri birleşmeleri (Kolhapur, Baroda, Bhopal, Bahawalpur, Swat), ÇHC, Singapur, Mariana, Zakafkasya günü, Kalat günü.
+## Hücre 13 (Afrika MÖ 3500–500)
+- Künye: 6 kaynak, 0 tarih. Sait f MÖ 664 korundu (Mısırbilim standardı; TDV 663 beyanlı — antik Mısır TDV-esas kapsamı dışında). Kush-25 t 653 ↔ TDV ~660.
+- Madde: Kartaca kuruluşu -0812 → -0813 (Treccani 'Cartagine': Timaios 814; künye ve dönemle eşitlendi). 6 madde okunmadı (Met 429, Shaw/Hornung açılmadı).
+## Hücre 14 (Afrika MÖ 500–MS 500)
+- Künye: 6 kaynak; numidia f -0201 → -0200 (Livius 30.44.12; Syphax şehirleri MÖ 201), mauretania-krallik t 0044 → 0040 (Treccani: Ptolemaios'un öldürülmesi). Yerleşimleri yok.
+- Madde: 13 kaynak/beyan (Perseus: Livius, Polybios, Appianos, Diodoros, Dion). Beyan: Zama sonrası barış şartlarında Hispania yok · Syphax 203: Masinissa birleştirmedi · Mısır Pers fethi 342 (Treccani) ↔ 343 (atlas); atlas ic_not'undaki "Diodoros 343/342" Diodoros metniyle uyuşmuyor · Meroe sonu 349 ↔ Treccani 3. yy sonu · Cirta 112 "alındı" ↔ Periocha 64 kuşatma.
+
+## Beyan edilen ama uygulanmayan (karar verilmedi / tek kaynak çelişki)
+- irak-kralligi: f ve t teyitli. TDV 'Kâsım, Abdülkerîm' darbeyi 13-14 Temmuz diye veriyor (arama özeti, sayfası açılmadı).
+- irak-cumhuriyeti: f teyitli (geçici anayasa 27 Temmuz 1958 yalnız arama özetinde, sayfada okunmadı).
+- harezm-halk-cumhuriyeti: f günü teyitli. t yalnız yıl veriyor (1924): atlas t=1924-01-01 'yalnız yıl teyitli' olarak kalmalı. 5 Eylül 1921'de Sovyet S.C. adını aldı (arama özeti, okunmadı).
+- buhara-halk-cumhuriyeti: TDV Buhara sayfası 8 Ekim 1920'yi vermiyor (hanlık 6 Ekim ilga); t için yalnız 'Ekim 1924'. 8 Ekim ve 27 Ekim günleri sayfa alıntısıyla teyit EDİLEMEDİ; günler 'gün teyitsiz' beyanıyla kalmalı. TDV 'Özbekistan': Buhara Halk Sovyet Cumhuriyeti 1920'de (gün yok).
+- turkistan-ossc: Künye f ve t teyitli; ozet'teki 'Vikipedi 27 Ekim 1924 doğrulanmadı, t yıl düzeyinde' notu eskimiş.
+- ickerya: f teyitli. t=2000-02-06 TDV sayfasında yok; okunmadı.
+- zakafkasya-sfsc: f=12 Mart 1922 teyitli. t (5 Aralık 1936) okunmadı.
+- kafkas-imamligi: t=6 Eylül 1859 teyitli. f=1828 hâlâ TDV'de doğrulanmadı (Molla Muhammed 1832'de öldü; imamlık başlangıcı sayfada yok): [f?] beyanı kalmalı. Hamza Bey 19 Eylül 1834.
+- buyuk-lubnan-devleti: t teyitli. f: TDV 'Eylül 1921', atlas 1920-09-01 (Gouraud ilanı). Kural gereği TDV esas, çelişki ic_not'ta iki kaynağıyla beyan edilmeli; 1920'yi destekleyen ikinci akademik kaynak açılmadı, karar verilmedi.
+- misir-sultanligi: t=15 Mart 1922 kral unvanı teyitli (TDV tek taraflı bağımsızlık ilanını 28 Şubat 1922 verir). f 18 Aralık 1914 günü alıntıda yok.
+- birlesik-arap-cumhuriyeti: TDV birleşmeyi 1 Şubat 1958 verir; atlas 22 Şubat (plebisit sonrası yürürlük, Britannica). Neyin tarihlendiği (ilan/yürürlük) belirsiz; karar verilmedi. t: aşağıdaki misir-arap-cumhuriyeti notuna bk. (11 Eylül 1971).
+- misir-arap-cumhuriyeti: TDV 11 Eylül 1971 (esas); atlas 2 Eylül (Britannica+Archontology). Kural: TDV esas, ikisi ic_not'ta beyan. Uygulamadan önce anayasa metni/Resmî Gazete ile sınanmalı.
+- libya-cumhuriyet-cemahiriye: f teyitli. Mart 1977 ad değişikliği TDV'de yok ('cemâhiriye' 1976'da Arapça'da belirdi): okunmadı.
+- etiyopya-derg: TDV 29 Mayıs 1991 (esas), atlas 28 Mayıs (cjids/Wikipedia zinciri). TDV 1974'ü yalnız yıl verir; 12 Eylül 1974 teyit edilmedi. EDHC anayasası 1987 (TDV).
+- etiyopya-gecis-hukumeti: f için aynı çelişki (28/29 Mayıs); t 1995 TDV'de yok, okunmadı.
+- eritre-ingiliz-askeri-idaresi: Yalnız t yılı (1952) teyitli; f=1941 ve t günü okunmadı.
+- trucial-states: f yıl teyitli (gün yok); t günü teyitli. Kaynak Britannica'dan TDV'ye taşınabilir.
+- birlesik-arap-emirlikleri: Teyitli; Ras'ülhayme Şubat 1972 ortasında katıldı.
+- umman-ic-imamlik: TDV 'Uman' Sîb Antlaşması/1913/1955'i vermiyor; yalnız 1957-1959 savaşı. f ve t teyit edilemedi.
+- guney-yemen: t günü teyitli; f TDV'de yalnız yıl (1967), 30 Kasım günü okunmadı.
+- yemen-cumhuriyeti: Teyitli.
+- birlesik-arap-devletleri: TDV yalnız 1961 yılı; 8 Mart 1958 / 26 Aralık 1961 günleri okunmadı. Atlas Britannica'ya dayanıyor.
+- kuayti-sultanligi: TDV 'Hadramut' Kuayti sultanlığı f/t'sini vermiyor; teyit edilemedi.
+- bulunamadı: azerbaycan-cumhuriyeti (TDV 'Azerbaycan' 18 Ekim 1991'i vermiyor; resmî Anayasa Kanunu metni açılmadı)
+- bulunamadı: turkistan-muhtariyeti-hokand (TDV Türkistan/Basmacı maddeleri Hokand Muhtariyeti'ni anmıyor)
+- bulunamadı: transkaspi-hukumeti (TDV Türkistan anmıyor)
+- bulunamadı: yunan-izmir-bolgesi (TDV 'İzmir' slug'ı arama sayfasına düştü)
+- bulunamadı: kilikya-fransiz
+- bulunamadı: antalya-italyan
+- bulunamadı: urdun-hasimi-krallik
+- bulunamadı: arap-birligi-irak-urdun (TDV 'Irak' 100000-200000 aralığında Federasyon geçmedi; 200000+ okunmadı)
+- bulunamadı: mahra-sultanligi
+- bulunamadı: lahic-sultanligi (TDV 'Yemen' yalnız 1913 bağlamında Lahic anar)
+- bulunamadı: kalat-hanligi (TDV 'Belucistan' 1666/1948 vermiyor)
+- bulunamadı: talis-hanligi
+- bulunamadı: svaneti
+- bulunamadı: yunanistan-cumhuriyeti
+- hindistan-cumhuriyeti: Dominyon f teyitli. 26 Ocak 1950 cumhuriyet günü okunamadı (legislative.gov.in 403).
+- abd-ordu-askeri-hukumeti-kore: LoC sayfası Eylül 1945 çıkarmasını ve 15 Ağustos 1948 ROK ilanını verir; 9 Eylül günü ve idarenin sona erme günü sayfada açıkça okunmadı.
+- ezo-cumhuriyeti: Meiji 1.12 ortası ve Meiji 2.5.18 (「18日には開城し」) eski takvimdir; önceki NAOJ çevirisi (1869-01-27 / 1869-06-27) ile çelişmez. 15 Aralık günü kaynakta yok (orta).
+- doguhebei-ozerk: Gün (25 Kasım komite, 25 Aralık hükûmet; 1 Şubat 1938) yalnız Britannica-JP girdisinde; Mainichi Pedia yalnız '1938 Şubat' der. Britannica dayanak olamayacağından gün tek akademik kaynakla teyitsiz.
+- cin-sovyet-cumhuriyeti: Kaynak yalnız ay (1931-11) ve 'nominal feshi 1937, fiilî sonu 1934' verir; 7 Kasım ve 22 Eylül günü okunmadı. Fiilî son 1934 (Uzun Yürüyüş) künyedeki 1937 ile ayrı bir sorudur.
+- mengjiang: Kaynak: 1937-10 Moğol Birleşik (Lianmeng) Özerk Hükûmeti, 1939-09 Birleşik Özerk Hükûmet, sonu 'Japonya'nın yenilgisiyle' (gün yok). 1936 askerî hükûmet ve 19 Ağustos okunmadı.
+- kore-gecici-hukumeti: Yalnız 1919-04 ve 'kurtuluşa kadar' okundu; 11 Nisan ve 23 Kasım günü okunmadı.
+- formosa-cumhuriyeti: t teyitli (Tainan 21 Ekim 1895 ele geçirildi; Liu Yongfu Çin'e kaçtı). f 23 Mayıs okunmadı.
+- filipin-malolos-cumhuriyeti: f=1899-01-23 teyitli. t (23 Mart 1901 yakalanma) sayfada yok; okunmadı.
+- bhutan: Yalnız 1907 krallık ve 8 Ocak 1910 Punakha Antlaşması okundu; f=1616 ve 17 Aralık 1907 günü okunmadı.
+- ingiliz-burma: t teyitli (tanıma günü). Yandabo 24 Şubat 1826 ve 1 Ocak 1886 okunmadı.
+- laos-demokratik-halk-cumhuriyeti: Sayfa 2 Aralık 1975 Ulusal Kongre'yi ve ilk Yüksek Halk Meclisi'ni verir; 'cumhuriyet ilanı' cümlesi açıkça okunmadı (arama özeti ilanı 2 Aralık verir).
+- khmer-cumhuriyeti: t teyitli. f 9 Ekim 1970 sayfada okunamadı (23/24 sayfalarında yok).
+- kampucya-halk-cumhuriyeti: t teyitli (anayasa ilanı, Sihanouk kral seçildi). f: LoC 'KPRC 8 Ocak 1979 kararnamesi; PRK Ocak 1979'da kuruldu' der; 7 Ocak Phnom Penh'in düşüşüdür, PRK ilanı 10 Ocak (arama özeti, sayfa okunmadı). f'yi 1979-01-10'a çekmek için ek okuma gerekir.
+- malezya: Tanıma günü; 16 Eylül 1963 sayfada yok (yalnız 'In 1963'). LoC Singapore: Malezya Anlaşması 9 Temmuz 1963.
+- okunmadı · singapur
+- bulunamadı: ryukyu-abd-idaresi
+- bulunamadı: singapur-kolonisi
+- bulunamadı: vietnam-imparatorlugu-1945
+- bulunamadı: amerikan-filipinleri
+- bulunamadı: sikkim-krallik
+- bulunamadı: fransiz-hindistani
+- bulunamadı: japon-tayvani
+- bulunamadı: cin-halk-cumhuriyeti
+- bulunamadı: kuzey-borneo-tac-kolonisi
+- bulunamadı: sri-lanka (legislation.gov.uk Ceylon Independence Act bağlantı hatası)
+- bulunamadı: mikronezya-federe-devletleri (3 Kasım 1986 yalnız arama özetinde: Reagan bildirisi; sayfa okunmadı)
+- bulunamadı: tannu-tuva (Minpaku PDF 503)
+- bulunamadı: uzak-dogu-cumhuriyeti
+- bulunamadı: nagpur-bhonsle
+- bulunamadı: bundela-orcha
+- bulunamadı: kalacuri-tripuri
+- bulunamadı: mangkunegaran
+- bulunamadı: sipsong-panna
+- bulunamadı: pandya-1
+- okunmadı · 1881-01-24 Göktepe Muharebesi — Ahal Tekke Türkmenleri Rusya'ya yenildi
+- okunmadı · 1889-01-01 İtalya, Asmara ve Keren dahil Eritre yaylasını ilhak etti
+- 1853-07-28 Ak-Meçit Kalesi Rus kuvvetlerince alındı — Hokand Hanlığı'nı: Tarih kaynakta var ama takvim (Jülyen mi Gregoryen mi) belirtilmemiş; Rus kaynakları Jülyen kullanır, öyleyse Gregoryen karşılığı 9 Ağustos 1853 olur. Takvim çözülmeden günü değiştirme.
+- okunmadı · 1915-06-10 Kemeran Adası İngilizlerce işgal edildi
+- 1820-01-08 Genel Deniz Antlaşması — Kavâsım ve öteki Körfez şeyhlikleri: TDV yalnız yıl veriyor; 8 Ocak 1820 günü bu kaynakla teyitsiz (Aitchison okunmadı). Madde adı "Genel Deniz Antlaşması" TDV'de geçmiyor.
+- 1925-12-19 Cidde'nin teslimiyle Hicaz Krallığı Necid Sultanı Abdülaziz : Atlas 19 Aralık diyor; TDV 22 Aralık (esas). TDV Cidde maddesi gün vermiyor. QDL raporu açılamadı (403). TDV "teslim" değil "aldı" diyor.
+- okunmadı · 1936-06-01 İtalya'nın Eritre ve Somali sömürgeleri İtalyan Doğu Afrikas
+- 1943-11-22 Lubnan Fransiz mandasindan bagimsizligini kazandi (Trablusşa: 22 Kasım 1943 TDV'de bağımsızlık günü olarak anılıyor; Fransız askerleri 1946 sonuna kadar tahliye etti (tam bağımsızlık kademeli).
+- okunmadı · 1945-09-09 Japonya Kore'deki teslim belgesini imzaladi; guney Kore (Seu
+- okunmadı · 1945-09-09 Kore'de Japon teslimiyeti: 38. paralelin kuzeyi (Pyongyang, 
+- okunmadı · 1945-10-25 Tayvan ve Penghu Japonya'dan Cin Cumhuriyeti'ne devredildi (
+- okunmadı · 1946-04-01 Malaya Birligi kuruldu; Federe olmayan Malay devletleri (Joh
+- okunmadı · 1946-04-01 Malaya Birligi kuruldu; Federe Malay Devletleri ile Penang v
+- okunmadı · 1946-04-01 Straits Settlements dagitildi; Singapur ayri Tac Kolonisi ol
+- okunmadı · 1946-04-17 Fransiz birlikleri Suriye'den cekildi; Suriye Cumhuriyeti ta
+- 1946-05-25 Seriku'l-Urdun Emirligi bagimsiz Urdun Haşimi Krallığı oldu : Gün TDV ile uyumlu. Hâşimî Ürdün Krallığı adı ve kral unvanı TDV'de Ocak 1949; atlas başlığı 1946 için dikkat.
+- okunmadı · 1946-06-16 Surakarta Ozel Bolgesi dondurularak Surakarta (Solo) Endonez
+- okunmadı · 1946-07-01 Sarawak, Brooke hanedani yonetiminden Ingiliz Tac Kolonisine
+- 1947-05-03 Japonya'da Meiji Anayasasi yerine yeni Anayasa yururluge gir: Madde 100: yayımdan 6 ay sonra yürürlük = 3 Mayıs 1947 (hesap; sayfa açıkça yazmıyor).
+- 1947-08-14 Ingiliz Hindistani'ndan Pakistan Dominyonu ayrildi (Lahor, K: ÇELİŞKİ: Yasa iki Dominyon için de 15 Ağustos 1947 der; TDV "plan 14 Ağustos 1947'de fiilen uygulamaya konuldu" der. Atlas 14 Ağustos (TDV ile uyumlu). Karar verilmedi; ic_not'ta iki görüş beyan edilmeli. Dakka TDV'de yok.
+- 1947-08-15 Ingiliz Hindistani bolundu: Hindistan Dominyonu (Delhi, Agra: Hindistan 15 Ağustos yasa ve atlas ile uyumlu.
+- okunmadı · 1947-08-15 Meysur Racaligi Hindistan Dominyonu'na katildi (Bangalor, Se
+- okunmadı · 1947-08-15 Racput devletleri (Codhpur, Caypur, Bikaner, Caysalmer, Bhuc
+- okunmadı · 1947-09-15 Italya Baris Antlasmasi uyarinca On Iki Ada (Rodos, Istankoy
+- 1947-10-26 Cammu-Kesmir Maharaca'si Hindistan'a katilma belgesini imzal: Atlas günü TDV ile uyumlu.
+- okunmadı · 1947-11-09 Cunagadh Hindistan'a katildi: Hint birlikleri Cunagadh'i dev
+- okunmadı · 1948-01-04 Burma Ingiliz yonetiminden bagimsiz oldu (Rangun, Mandalay, 
+- 1948-02-01 Malaya Birligi yerine Malaya Federasyonu kuruldu (Kuala Lump: TDV 1 Şubat 1948 antlaşmasıyla federasyon (Penang, Malaka, dokuz sultanlık) diyor; atlas günü uyumlu.
+- okunmadı · 1948-02-04 Seylan (Sri Lanka) Ingiltere'den bagimsiz oldu (Kolombo, Kan
+- okunmadı · 1948-03-18 Bharatpur Racaligi Matsya Birligi'ne katilarak Hindistan'a e
+- 1948-05-14 Filistin Mandasi sona erdi, Israil Devleti ilan edildi (Kudu: TDV: İngiltere 15 Mayıs 1948'de manda yönetimine son vereceğini açıkladı; ilan 14 Mayıs.
+- okunmadı · 1948-05-14 Mandanin sonunda Nablus Urdun kontrolune, Gazze ve Han Yunus
+- okunmadı · 1948-05-28 Gvalyar ve Indor devletleri Madhya Bharat Birligi'ne katildi
+- okunmadı · 1948-05-28 Indor Devleti Madhya Bharat Birligi'ne katildi (Indor)
+- okunmadı · 1948-08-15 Guney Kore Cumhuriyeti ilan edildi, ABD ordu hukumeti sona e
+- okunmadı · 1948-09-09 Kuzey Kore (DHKC) ilan edildi, Sovyet yonetimi sona erdi (Py
+- bulunamadı: Gökdepe günü (akademik, açılmış sayfa)
+- bulunamadı: Eritre ilhak günü
+- bulunamadı: Kamaran 1915 gün
+- bulunamadı: Burma/Ceylon/Meysur/Racput/Madhya Bharat/Bharatpur günleri
+- bulunamadı: Kore 1945 ve 1948 günleri
+- bulunamadı: Tayvan 1945
+- bulunamadı: Malaya Birliği 1 Nisan 1946
+- bulunamadı: Sarawak 1 Temmuz 1946
+- bulunamadı: Onikiada antlaşma metni
+- 1958-02-22 Suriye (Halep, Sam, Hama, Humus, Rakka) Misir ile birlesip B: 1 Subat = birlesme ilani; 22 Subat referandum/Nasser secimi gunu (sayfa bu gunu vermiyor, yalniz 'later ratified by a plebiscite'). Hangi gunun tutulacagi Emre'nin karari.
+- 1867-01-04 Megrelya (Odişi) Prensliği'ne Rusya son verdi, Prens I. Niko: Vikipedi bazi yerlerde 1868'i resmi feragat olarak veriyor (celiskili); akademik ucuncu kaynak okunamadi. Tarih degistirilmedi.
+- 1945-08-17 Mancukuo sona erdi: Pu Yi tahttan çekildi, Sovyet Kızıl Ordu: 17 Agustos = dagilma beyani, dogru. Pu Yi'nin tahttan cekilisi kotobank sayfasinda gecmiyor (bilinen tarih 18 Agustos, okunmadi); metindeki 'Pu Yi cekildi' ifadesi 17 Agustos'a baglanmamali.
+- 1840-11-27 Iskenderiye Mukavelesi ile Misir Suriye'yi bosaltti, Tiberya: TDV 27 Kasim'i Mehmed Ali'nin Ibrahim Pasa'ya cekilme emri verdigi gun olarak anlatiyor ve 'Iskenderiye mukavelesi' terimini kullanmiyor; baslik buna gore duzeltilmeli (cekilme emri). Fiili bosaltma sonrasi.
+- bulunamadı: OKUNMADI (sayfa acilmadi, teyit yok; 'dogru' sayilmadi): indeks 36-58 (Haydarabad, Kolhapur, Baroda, Bhopal 1949, Travankur-Koçin, ÇHC, Manipur, Endonezya, Tibet 17 Madde, Libya 1951, Eritre, Laos, Kamboçya, Bahawalpur, Bhopal-MP 1956, Malaya, Irak 1958, Singapur, Kıbrıs, Sabah, Swat, Libya 1969), 5
+- bulunamadı: Orchha/Vindhya Pradesh 1948-03-12: aramada Vindhya Pradesh 12 Mart 1948 kurulus / 4 Nisan 1948 acilis (yalniz Vikipedi/Datia); Orchha'nin kesin katilma gunu akademik kaynakta bulunamadi
+- bulunamadı: LoC India country study (countrystudies.us/india/22.htm) Haydarabad 17 Eylul 1948'i vermiyor, yalniz 'police actions' diyor
+- bulunamadı: TDV/DergiPark/BM belge sayfalari bu turda acilmadi; Cin gunu gerekmedi
+- 1948-09-17 Haydarabad Nizamı Hindistan'ın Polo harekâtı karşısında tesl: TDV Hindistan'ın girişini 13 Eylül 1948 olarak verir; Nizam'ın teslim günü (17 Eylül) ve 'Polo' adı TDV'de YOK, bu gün bu turda akademik kaynakta teyit edilemedi. LoC India study de günü vermiyor. 13 Eylül = girişin başlangıcı, 17 Eylül = teslim (yalnız ikincil kaynaklarda); madde başlığı 'teslim olur' dediği için gün teyitsiz kalır.
+- 1949-10-15 Manipur Devleti Hindistan Birliği'ne katılır; İmphâl Başkomi: 15 Ekim 1949 = yönetimin devir günü, doğru. Antlaşma günü 21 Eylül 1949. Metin Shillong'u imza yeri olarak açıkça vermiyor (yalnız Assam Valisi unvanında). Anlaşmanın hukukî geçerliliği tartışmalı (zorlama iddiası) — veride beyan düşünülebilir.
+- 1949-12-27 Hollanda Doğu Hint Adaları'nın egemenliği Endonezya Birleşik: Tarih doğru; TDV Lahey Yuvarlak Masa Konferansı'nda egemenliğin Endonezya Birleşik Devletleri'ne devrini anlatır; Batı Irian dışta bırakıldı (toprak: Batı Papua madde listesinden çıkarılmalı mı kontrol).
+- 1951-05-23 On Yedi Madde Anlaşması: Tibet, Çin Halk Cumhuriyeti egemenl: TDV 23 Mayıs 1951'i verir ('On Yedi Madde' adını anmıyor, özerklik/tanıma olarak anlatır). Tarih doğru. 1950 Çamdo işgali ayrı olay.
+- 1951-12-24 Libya Birleşik Krallığı bağımsızlığını ilan eder; İngiliz as: Tarih doğru. Ek: BM belgesi (digitallibrary.un.org A/2032) 403 verdi, açılamadı; ikinci kaynak yok.
+- 1953-11-09 Kamboçya Krallığı Fransa'dan tam bağımsızlığını ilan eder; P: 9 Kasım 1953 = askerî yetkilerin devri ve bağımsızlık günü olarak kutlandı. Not: FRUS dipnotu devrin 8 Kasım 1953 Fransız-Kamboçya anlaşmalarına dayandığını söyler; bağımsızlık ilânı tek günde olmayıp Ağustos (polis/yargı), Ekim (ordu) devirleriyle kademelidir.
+- 1957-08-31 Malaya Federasyonu bağımsızlığını kazanır; Malaka, Penang, K: Tarih doğru.
+- 1958-07-14 Irak'ta darbe ile Hasimi Krallik yikildi, Irak Cumhuriyeti i: Tarih doğru. Madde metni doğru ('Haşimî Krallık yıkıldı').
+- 1960-08-16 Britanya Kibrisi (Lefkosa, Magosa, Girne, Limasol, Baf) bagi: Tarih doğru (gece yarısı 15/16 Ağustos). Cyprus Act 1960 (c.52) bağımsızlığı Order in Council ile belirlenen güne bağlar, günün kendisini vermez; gün TDV ve SI 1960/2215 antlaşma atfıyla teyitli. Not: İngiliz Egemen Üs Alanları (Akrotiri/Dhekelia) Kıbrıs Cumhuriyeti'ne dahil değil — taraflar alanı bunu yansıtmalı.
+- 1963-09-16 Kuzey Borneo (Sabah: Kudat, Sandakan, Jesselton) Birlesik Kr: 16 Eylül 1963 doğru. Kuzey Borneo katılım adı 'Sabah'. Singapur 1965'te ayrıldı (TDV: iki yıl sonra) — madde yalnız Sabah için.
+- 1969-09-01 Libya'da Serbest Subaylar darbesi: Senusi monarsisi yikildi,: Tarih doğru. TDV 'Serbest Subaylar' adını ve 'Libya Arap Cumhuriyeti' adını anmıyor ('genç subaylar', 'İhtilâl Kumanda Konseyi'); ad ayrıntısı bu turda teyit edilmedi.
+- 1853-12-11 Nagpur Bhonsle Racası III. Raghuji'nin varissiz ölümüyle Nag: Yıl 1853 teyitli; 11 Aralık günü bu turda akademik kaynakta teyit edilemedi (gün yalnız Vikipedi'de). Bazı eğitim sitelerinde 1854 görülür (ilhakın resmî ilanı Mart 1854) — çelişki, tarih değiştirilmedi. '[yalnız yıl teyitli; gün teyitsiz]'.
+- 1868-01-03 Meiji Restorasyonu: Edo bakufu'nun yerine imparatorluk yönet: Japon takvimi 9 Aralık 1867 (Keiô 3.12.9) = Gregoryen 3 Ocak 1868; kotobank sayfası bu çevirisini vermiyor (çeviri takvim tablosuyla, NAOJ). Atlas t=1868-01-03 tutarlı. Madde 'ilan edildi' = Ōdai-gō-rei günü.
+- 1934-10-10 Çin Sovyet Cumhuriyeti Ruijin'i boşaltmaya başlar (Uzun Yürü: Yalnız ay teyitli (Ekim 1934); '10 Ekim' günü ve 'Ruijin' adı sayfada geçmiyor. Madde başlığı 'boşaltmaya başlar' — gün teyitsiz, ay teyitli.
+- 1879-03-27 Shimajiri-Ōzato Gusuku (Nanzan merkezi, Itoman): Ryukyu Kral: 27 Mart 1879 doğru (Matsuda'nın ilanı). Nuans: sayfada Nipponica'ya göre ilan belgesi 3/11 tarihli; Okinawa Prefecture'nin resmî kuruluş günü 4 Nisan 1879 (arama özeti, ikincil). Gün 27 Mart tutulabilir ama başlıkta 'ilhak' 4 Nisan'a da bağlanır.
+- 1944-08-01 ABD Deniz Piyadeleri Tinian Savasi'ni kazanarak Taga'nin bul: Tarih doğru; örgütlü direniş sonu, direniş cepleri sonra sürdü. 'Taga'nin bulundugu adayi' ifadesi doğrulanmadı.
+- 1944-10-11 Tannu Tuva Halk Cumhuriyeti SSCB'ye katıldı; Kızıl, Tannu Tu: 11 Ekim 1944 SSCB Yüksek Sovyet Presidium kararı. Çelişki: aynı makale başka yazarları anarak 13 Ekim 1944 RSFSR Presidium fermanını verir (kararın yayımı 1 Kasım 1944); ayrıca Küçük Hural bildirgesi 17 Ağustos 1944 (Sat makalesi, izvestiapolit.isu.ru). Karar verilmedi; iki görüş.
+- bulunamadı: OKUNMADI (sayfa acilamadi/akademik kaynak bulunamadi; dogru sayilmadi): 37 Kolhapur 1949-03-01, 38 Baroda 1949-05-01, 39 Bhopal 1949-06-01 (arama ozetleri yalniz Vikipedi/haber), 40 Travankur-Kocin 1949-07-01 (arama ozeti: 1 Temmuz 1949; birincil metin acilmadi), 41 CHC 1949-10-01, 49 Bahawalpur 195
+- bulunamadı: GUN TEYITSIZ (ay/yil teyitli): 62 Zakafkasya 1922-03-12 (encyclopedia.com 'March 1922', LoC Georgia yalniz 1922 - gun yok); 66 Kalat 1948-03-27 (APP ve Cambridge ozeti 'March 1948'; 27 Mart akademik kaynakta acilamadi, TDV Kalat/Pakistan maddeleri Kalat'i icermiyor)
+- bulunamadı: ERITRE 1952-09-15 (46): LoC Ethiopia study (countrystudies.us/ethiopia/24.htm) imparatorun anayasayi 11 Eylul 1952'de onayladigini soyluyor; BM 390 A (V) gecis suresi 15 Eylul 1952'den gec olmamak uzere (refworld 403, yalniz arama ozeti). Gun 11 vs 15 Eylul celiskisi acik; karar verilmedi, madde 'ok
+- bulunamadı: LAOS 1953-10-22 (47): yalniz Royal Ark (royalark.net/Laos/laos2.htm, genealoji sitesi, akademik degil): 'Treaty of Friendship and Association with France by which Laos became a fully independent kingdom, 22nd October 1953' - akademik teyit yok.
+- bulunamadı: TDV 'Pakistan', 'Kalat' ve 'Tibet' aramalarinda Kalat/Bahawalpur/Swat/Orchha/Bhopal icerigi bulunamadi; LoC India study (countrystudies.us/india/22.htm) Haydarabad/Bhopal icin gun vermiyor.
+- kush-25-hanedan: f (MÖ 725 = -0724) TDV ile uyumlu. t: TDV yaklaşık 660 (-0659) verir, atlas -0652 (MÖ 653, Tanutamani sonu; Met Museum sayfası HTTP 429 ile açılamadı, bot engeli atlatılmadı). TDV Mısır: Psamtik 'Asurlular’ı ve Sudanlılar’ı uzaklaştırarak XXVI. hânedanı kurdu (m.ö. 663)'. Fark, Mısır'daki fiilî egemenlik (663/660) ile Tanutamani'nin son direnişi (656-653) arasındadır; TDV tarihi yaklaşık verir. Ho
+- sait-26-hanedan: TDV f=MÖ 663 (=-0662); atlas -0663 (MÖ 664, yaygın Psamtik I başlangıcı; akademik sayfa açılamadı). 1 yıllık fark, çelişki beyanlı; TDV esas kuralıyla -0662 önerilebilir ama Psamtik'in tahta çıkışı (664) ile Asurlular'ı uzaklaştırması (663) farklı olgular olabilir; karar sahibi verir. t: TDV 525 Kambises işgali -> -0524 ile uyumlu. Herodotos 3.91 (yerel Perseus): Mısır Pers eyaletine dahil.
+- ahamenis-misir: f=525 (TDV) uyumlu. t=MÖ 404 (Amyrtaios isyanı): akademik sayfa açılamadı, yalnız ikincil arama özetleri 404/405 diyor (dayanak değil); t 'okunmadı'. Herodotos 3.91.2: Mısır ile Kyrene ve Barka Persler'in aynı vergi bölgesindeydi (kitap.bölüm 3.91).
+- kush-krallik: f=MÖ 750 (-0749): TDV kuruluş yılı vermiyor (yalnız 725-660 Mısır egemenliği); kuruluş tarihi okunmadı (Cambridge History of Africa / UNESCO GHA II açılamadı). t: TDV 'yaklaşık 350' -> 0349 uyumlu. Mevcut künye kaynağında Wikipedia ipucu geçiyor, çıkarılmalı; TDV Nûbe+Sudan konmalı.
+- kyrene: f: MÖ 631 = -0630 teyitli (Smith). Herodotos 4.159: Battus 40 yıl, Arkesilaos 16 yıl hükmetti; 4.161-162 kralın hakları sınırlandı. Smith: kral hanedanı sonrası MÖ ~450 cumhuriyet; Ptolemaios hâkimiyeti sonrası Mısır'a bağlı. t=-0095 (MÖ 96 Ptolemaios Apion vasiyeti): Smith bunu söylemiyor, Apion kaynağı okunamadı -> t okunmadı. Süreklilik uyarısı künyede zaten var.
+- meroe-krallik: TDV: taşınma MÖ 590 saldırısından SONRA (yıl vermez); atlas -0590 (MÖ 591) kabul edilebilir ama ±birkaç yıl belirsiz: f kesinliği 'yil' yerine 'onyil' daha dürüst olur. t ~350 uyumlu. Künye kaynağı Britannica; yerine TDV Sudan konmalı.
+- bulunamadı: Hornung-Krauss-Warburton 2006 / Shaw 2000 (erişilemedi)
+- bulunamadı: Met Museum denemeleri HTTP 429 (bot engeli, atlatılmadı)
+- bulunamadı: UNESCO GHA II / Cambridge History of Africa: açılan sayfa yok
+- bulunamadı: Kush 25. hanedan t ve Kush kuruluş f için akademik yıl; 27. hanedan t (404); Kyrene t (MÖ 96)
+- okunmadı · -0812-01-01 Kartaca'nın geleneksel kuruluşu (Timaios: MÖ 814/813)
+- okunmadı · -0600-01-01 Nabukadnezar Mısır sınırına saldırdı; açık savaşta iki taraf
+- -0670-01-01 Asarhaddon Mısır'a girip Memphis'i aldı; Taharka güneye çeki: TDV Memfis'e girişi doğrular; yıl TDV alıntısında YOK (671 = -0670 ikincil özetlerde, Cambridge Iraq makale özeti). 'Taharka güneye çekildi' TDV'de okunmadı. Tarih değişikliği önerilmez; yıl için akademik sayfa hâlâ gerekli.
+- okunmadı · -0663-01-01 Asurbanipal Teb'i (Thebes) yağmaladı
+- okunmadı · -2203-01-01 Lothagam North: sahip dönemi sona erer — Turkana Pastoral Ne
+- okunmadı · -0813-01-01 Karthago: Kartaca (Pön) Devleti dönemi başlar
+- okunmadı · -2449-01-01 Kerma, Kerma (Kerma / Doukki Gel): sahipsiz aralık dönemi ba
+- bulunamadı: Kartaca/Nabukadnezar/Asurbanipal için akademik sayfa (Treccani boş, Livius dayanak değil)
+- bulunamadı: Met Museum 429, atlatılmadı
+- bulunamadı: Kerma ve Lothagam erken tarihleri
+- misir-28-30-hanedan: f: MÖ 404 = -0403 Treccani ile uyumlu. t: Treccani Nektanebo II'nin yenilgisini 342 verir (astronomik -0341); atlas MÖ 343 (-0342). Çelişki: 343 vs 342; karar verilmedi, beyan edilmeli (ic_not). DİKKAT: atlas ic_not 'Diodoros MÖ 343/342' diyor; yerel Perseus metninde Diodoros 16.46-51 arkhon Apollodoros (350/49) çerçevesindedir (16.46.1), yani Diodoros'un yıl çerçevesi 343/342'yi DESTEKLEMEZ; 343/
+- ahamenis-misir-2: t: İskender'in Mısır'ı alışı MÖ 332 (-0331) Arrianos 3.1 ve Treccani ile uyumlu; Arrianos metni yılı kendisi vermez, MÖ 332 Treccani'den. f: 28-30. hanedan t'siyle aynı 343/342 çelişkisi (Treccani 342 = -0341); beyanlı.
+- ptolemai: Yıllar çift teyit: f MÖ 323 (Diod. 18.3.1 + Treccani), kral unvanı 305 (Treccani), t MÖ 30 (Dio 51.17 + Treccani). GÜN (10 Haziran 323; 1 Ağustos 30) yerel Perseus'ta yok, ic_not'taki Skeat/Orosius/Fasti dayanağı tarafımdan açılmadı: gün 'okunmadı'; kesinlik gün yerine ay/yıl olarak okunmalı.
+- garamant: f MÖ ~500: Herodotos (MÖ 5. yy ortası) Garamantes'i bilir ama kuruluş yılı vermez; -0499 konvansiyoneldir, beyanlı yaklaşıklık. t: Treccani Garamantes'e 5. yy başında hâlâ değinildiğini söyler; TDV 'Libya': Fizan'ın Roma'ya katılışı MÖ 19 (Balbus; Treccani 'ilk kez boyun eğdirildi') ve Vandal işgali 430. 666 üst sınır olarak savunulabilir (atlas ic_not TDV 'fizan' + Britannica'ya dayanır; ben TDV 
+- numidia: t: MÖ 46 (-0045) Treccani ile uyumlu. f: atlas MÖ 202 (-0201), ama Syphax'ın esareti MÖ 203 (Livy 30.13 çevirmen işareti B.C. 203; Treccani: Campi Magni, bahar 203) ve Syphax krallığının Masinissa'ya verilmesi MÖ 201 (Livy 30.44.12, çevirmen işareti B.C. 201). MÖ 202 hiçbir olaya karşılık gelmiyor. ÖNERİ: f = -0200 (MÖ 201), 'Masinissa tüm Numidia kralı' olarak; alternatif MÖ 203 (-0202) 'babasını
+- mauretania-krallik: t: Treccani krallığın sonunu MS 40 (Ptolemaios'un öldürülmesi, ülke imparatorluk malı) verir; MS 42'de Claudius iki eyalete böler (Caesariensis, Tingitana). Atlas 44 hiçbir ucu desteklemiyor (44 = atlas kendi gerekçesi). Öneri: t = 0040-01-01 (siyasi son) ya da 0042 (eyalet kuruluşu); 0040 tercih. f: Treccani ilk kral Bocchus I'i 'MÖ 1. yy başlarına kadar' hüküm süren olarak anar, 105'te Numidia a
+- bulunamadı: ahamenis-misir-2 f gününü gösteren akademik kaynak
+- bulunamadı: ptolemai/garamant gün hassasiyeti (Skeat, Orosius, TDV 'fizan') açılmadı
+- bulunamadı: Mauretania f (MÖ 110) için kaynakta yıl yok
+- -0104-01-01 Bocchus Jugurtha'yı Roma'ya teslim etti; Numidia'nın batısı : Bocchus'un Jugurtha'yı Sulla'ya teslimi Plutarkhos'ta (yıl yok); Treccani 'Bocco I' 105'te Numidia aleyhine genişleme. MÖ 105 (-0104) uyumlu. Teslim edilen Marius/Sulla'ya (Roma adına); 'Roma'ya teslim' yerine 'Sulla aracılığıyla Roma'ya' denebilir. Livy Periocha 66 de vinctus ... Mario traditus est der.
+- -0111-01-01 Jugurtha Cirta'yı aldı: Roma Numidia işlerine müdahale etti: Cirta kuşatması ve Adherbal'ın öldürülmesi ile ardından Roma'nın savaş ilanı Periocha 64'te sıralıdır, yıl verilmez. Treccani yıl vermez (Bestia konsülü 111). MÖ 112 (-0111) kaynakta okunmadı: atlasın gün etiketi 'beyanlı yaklaşıklık'; olay 'Cirta alındı' yerine 'Cirta kuşatıldı, Adherbal öldürüldü' demek daha doğru (şehir 'alındı').
+- -0145-01-01 Üçüncü Pön Savaşı sona erdi: Kartaca yıkıldı, Africa eyaleti: MÖ 146 doğru. Appianos: topraklar Roma'ya haraca bağlandı, Kartaca toprağı Hippo'ya kadar Utica'ya verildi, yıllık praetor. Yani 'Africa eyaleti' kuruluşu Appianos 135'te.
+- -0148-01-01 Roma Kartaca'ya savaş ilan etti: Üçüncü Pön Savaşı başladı: Savaş ilanı konsüller Manlius ve Censorinus yılında = MÖ 149 (-0148) doğru; Appianos yıl numarası editör işaretidir. Livius yok. Dogru, kaynak değiştir.
+- -0149-01-01 Masinissa Kartaca topraklarına saldırdı: Numidia-Kartaca Sav: Y.R. 604 = MÖ 150 (-0149) doğru. Yer Oroscopa (Emporia değil): 'yer' alanı Oroscopa olmalı. Treccani Masinissa'nın 148'de öldüğünü verir (Numidia maddesi).
+- -0200-01-01 Zama sonrası barış: Kartaca Hispania ve Akdeniz adalarını, f: Polybios 15.18 ve Livius 30.37 şartları sayar: Libya şehirleri korunur, gemiler (10 trireme hariç) ve filler teslim, Libya dışında savaş yok, Libya içinde Roma izniyle, Masinissa'ya iade, 10.000 talent/50 yıl, 100 rehine. Hispania ve adalar şartlar arasında YOK (İspanya MÖ 206'da yitirilmişti, adalar önceki antlaşmada); madde başlığı bu hâliyle Polybios/Livius'a dayanmaz. Yıl: şartlar MÖ 202 sonu-
+- -0200-01-01 Roma Masinissa'yı Syphax'ın krallığıyla ödüllendirdi: Cirta ve Syphax'ın öteki şehirleri/toprakları Scipio tarafından Masinissa'ya verildi; Senato onayı sonra (30.44.13). MÖ 201 (-0200) doğru. 'Roma ödüllendirdi' = Scipio komutan olarak; Polybios 15.18'de Masinissa'ya iade şartı da vardır.
+- -0201-01-01 Zama: Scipio ve Masinissa Hannibal'i yendi: Zama MÖ 202 (-0201) doğru. Polybios 15.5: Hannibal Zama'da, Roma Naraggara'da. Gün (19 Ekim 202) atlas ic_not'unda; yerel metinde yok: okunmadı. Masinissa süvarisinin rolü Polybios 15.12-14.
+- -0202-01-01 Syphax yenilip tutsak edildi; Masinissa Numidia'yı birleştir: MÖ 203 (-0202) doğru. Ama 'Masinissa Numidia'yı birleştirdi' Livy'de 203'te değil: 203'te Masinissa 'babasının krallığına' kavuşturuldu (30.17.8); Syphax'ın şehirleri 201'de (30.44.12). Başlık yumuşatılmalı.
+- -0342-01-01 III. Artakserkses Mısır'ı yeniden fethetti; II. Nektanebo Nu: Olay doğru (Pelusium, Memphis; Nektanebo Aithiopia'ya kaçtı). Tarih: atlas MÖ 343 (-0342); Treccani 342 (-0341). Karar verilmedi. ic_not'taki 'Diodoros MÖ 343/342' DÜZELTİLMELİ: Diodoros 16.46.1'de olay arkhon Apollodoros (350/49) altındadır. ABC 9 (Artaxerxes III) yalnız Sidon'u kaydeder. 'Nubya' yerine Diodoros Aithiopia der.
+- 0349-01-01 Meroe: sahip dönemi sona erer — Kus (Napata–Meroe) Krallığı: Atlas künye aşımı 349 (Aksum fethi ~350 geleneği). Treccani (1935) bitişi MS 3. yy ikinci yarısı verir: çelişki, iki ucu da beyan edilmeli, karar verilmedi. Treccani: Aksumlı bir kral tarafından yıkıldı, adı bilinmiyor. Hakemli güncel kaynak (Ezana yazıtı RIE 189) açılmadı: okunmadı. Madde künye-türevi; yalnız künye kararına bağlı.
+- -0145-01-01 Korint: Korint dönemi sona erer: Korint'in yıkımı MÖ 146 (-0145) doğru; Pausanias 7.15-16 Mummius'un Akhaia Savaşı'nı anlatır, yıl editör notudur. Madde Afrika hücresinde yer alıyor ama Korint Yunanistan ile ilgili; 'yer' alanında Karthago da yazılmış: aynı yıl, ayrı olay.
+- -0322-06-10 İskenderiye: Ptolemai (Lagid) Krallığı dönemi başlar: MÖ 323 doğru; Pausanias/Diodoros: Babil taksimi. Gün (10 Haziran) İskender'in ölümü, taksimin günü değil: gün/ay beyanı 'komşudan'. Ptolemaios kral unvanı 305 (Treccani). Madde, kaynak künye/atlas: kaynak olarak Diod. 18.3.1 verilir.
+- bulunamadı: Cirta'nın alınışı yılı (MÖ 112): Perseus'ta Sallustius yok, Livy Periochae yıl vermiyor
+- bulunamadı: Zama günü (19 Ekim 202)
+- bulunamadı: Meroe sonu için güncel hakemli kaynak (Ezana/RIE 189)
