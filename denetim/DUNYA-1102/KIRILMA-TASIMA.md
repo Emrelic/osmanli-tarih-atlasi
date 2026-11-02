@@ -57,3 +57,16 @@ Zebîd'e ait 1, Trablus'a ait 1, Teschen'e ait 0 çıktı (öteki uçlar Burma/P
   sonraki-jin→sonraki-han'ı 947-01-10'da (Kaifeng'in Kitan'a düşüşü) yazıyor; künye ileri alınırsa
   Zhengding Han dönemi künye öncesine düşer. Önce Zhengding'in 947 zinciri kaynakla kurulmalı (Kitan?).
 - **Dahil edilmedi (Emre kararı bekleyen):** bizans t, danimarka-hindistani t.
+
+## Ek parti (hücre 22–24, KASA ana oturumundan)
+
+- **Anchorage TAŞINDI:** madde + yerleşim kur/f 1914-01-01 → 1915-01-01 (yıl). Kaynak: Cook Inlet
+  Historical Society *Anchorage Timeline* («1915, spring: “Tent City” develops…», «1915, April: … assigns
+  the name of Anchorage») + Alaska Railroad Corporation History (1915 çadır kent). 1914 = Alaska Railroad
+  Act (12 Mart 1914), Britannica'nın «founded in 1914»ü bu; çelişki maddede beyanlı. Tek uçlu kırılma,
+  başka kırılmaya dokunulmadı.
+- **muisca-konfederasyonu t TAŞINMADI:** Banrep «El 6 de agosto de 1538 … declaró la conquista» =
+  hukukî ilan; «sólo en enero de 1539, ante la presión de … Sagipa» — toprak devri 1537'de, kaynaklı
+  zapt günleri (Bacatá 1537-04-20, Hunza 1537-08-01) yerleşim uçlarında. Künye `ic_not`una beyan.
+  Açık: Sagipa direnişi (1538-39) toprak olarak modellenecek mi; künye kaynağı yasak listede (WHE/Military
+  History Wiki), değiştirilmeli.
