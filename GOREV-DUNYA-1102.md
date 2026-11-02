@@ -200,7 +200,17 @@ G — Renk ve bölge (senin işin değil)
 | 22–24 | Amerika 1000–1500 · 1500–1800 · 1800–2000 | **bitti** (birinci geçiş) — yasak kaynaklı 38 künye + 13 madde | künye 27 kaynak + 1 tarih (yeni-fransa f 1534-07-24, DCB); madde 7 kaynak + 4 beyan (HBC 1668 anakronizmi, Marquette, Palmares, Batı Hint Fed. fesih çelişkisi). muisca t 1538 ve Anchorage 1915 kırılmaya bağlı → bekleyen. 11 künye + 3 madde okunmadı | (bu push) |
 | — | **AMERİKA birinci geçiş bitti** | | | |
 | 25–30 | Avustralya ve Okyanusya (6 dilim) | **bitti** (birinci geçiş, 6 dilim tek envanter) — 54 künye · 147 yerleşim · 15 madde; yasak kaynaklı 8 künye + 2 madde | künye 8 kaynak (BM, legislation.gov.uk, history.state.gov; Nauru/Kiribati/Samoa çift teyit), 0 tarih; madde 2 kaynak + 1 beyan (Rabaul 12/17 Eylül 1914). Gilbert-Ellice günleri teyitsiz | (bu push) |
-| — | **DÜNYA birinci geçiş bitti** (30 hücre) | | | |
+| — | **DÜNYA birinci geçiş bitti** (30 hücre) — yalnız künye + madde | | | |
+| — | 🔴 **D ADIMI: YAPILMADI** — yerleşim `s:` dönemlerinin yıl yıl kaynakla teyidi birinci geçişte hiçbir hücrede yapılmadı (tablodaki "yerleşim" sayıları yalnız envanterdir). İKİNCİ GEÇİŞ olarak aynı kıta sırasıyla (Avrupa → Asya → Afrika → Amerika → Okyanusya) yapılacak. | | | |
+| — | Emre kararları (2 Kasım, EMRELİC aracılığıyla) | bizans t 1461-08-15 → 1453-05-29 (TDV) + 6 Argolis/Saronik yerleşimi 1349–1460 mora-despotlugu (abi merkez Mora/Tripoliçe) · tikal-mutal → tikal-mutul birleşti (künye silindi) · Chavín t -0399 (zaten) · Danimarka Hindistanı → kirilma-tasima oturumu | | (bu push) |
+
+## İkinci geçiş planı (sıra)
+1. **D adımı** — her kıta × çağ hücresinde yerleşim `s:` dönemleri: uç günü kaynaklı mı, künye ömrüyle tutarlı mı, abi merkez beyanı var mı. Kıta sırası aynı.
+2. **Okunmadı kalemler** — hücre bekleyen.md'lerindeki "okunmadı"lar; Iranica için Brill açık erişimi (brill.com/eiro, referenceworks.brillonline.com) — engellerse atlatma yok, bildir. JSTOR'a bağlı olanlar `JSTOR-LISTE.md`de (Emre elle indirir).
+3. **Eski eşleşme hatası taraması** — madde_uygula'nın eski sürümü ic_not_b'de b kopyası olan maddeleri sessizce atlamış olabilir (hücre 1–9).
+4. **MÖ yıl kayması düzeltmesi** — ölçüm (2 Kasım, KASA, `mo_kayma_olc.py`): SİSTEMATİK DEĞİL. Künye 488 MÖ ucu: 382 doğru · 5 "+1 (MÖ n=-n)" · 9 ±2..10 · 92 metinde yıl yok. Madde 940: 898 doğru · 6 +1 · 5 -1 · 8 ±2..10 · 23 ölçülemedi. Yerleşim 590 MÖ ucu: 8'i künye ucundan 1 yıl farklı. Ölçüt en yakın metin yılını seçtiği için gerçek sayı biraz yüksek (ör. Magadha f −0543 = MÖ 544, metin MÖ 543). Kayıt kayıt okunup düzeltilecek; ayrı iş.
+5. **Değişmez 3b binmeleri (veri işi)** — koşu 32 inişinde tavan 46 → 51 gün: 1160 Rus knezlikleri (Çernigov × Ryazan 80 552 km², × Vladimir-Suzdal, × Smolensk…), 1060 Kiev × Polotsk, 1040 Bohemya × Polonya. Kaynakla çözülecek.
+6. **Mükerrer künye adayları** — chimu ↔ chimu-krallik, ternate ↔ ternate-sultanligi, tidore ↔ tidore-sultanligi, ogedey-ulusu ↔ ogedey-ulusu-kaydu (Emre kararı bekliyor).
 
 ## girdi.py değişikliği gereken (tuz — dokunulmaz, liste)
 - (boş)
