@@ -1,0 +1,87 @@
+# Hücre 9 — Asya 500–1000 · bekleyen
+
+KASA, 2 Kasım 2026. Künye tavanı 2280 dolu; yeni künye eklenmedi.
+
+## Hücre 9 kararları (Asya 500–1000)
+- 51 künyenin kaynağı alıntılı akademik kaynakla değişti; TARİH DEĞİŞMEDİ.
+- Çin ganzhi günleri (sui, tang, wu-zhou, nara-japonya vb.) birincil metinden okundu ama NAOJ/Academia Sinica tablosu açılmadığı için uygulanmadı — aday olarak ic_not'ta. Atlasın 0001-01-01 yıl-düzeyi f'leri (sui, liang-guney, kuzey-qi, dogu-wei, 5 hanedan...) kaynakta ay+gün taşıyor.
+- Çelişkiler: tang f 617-12-12 (Gongdi'nin tahta çıkarılışı) ↔ Jiu Tangshu 618 五月甲子 · funan t / chenla f 550 ↔ Suishu (Sui dönemi ilhak) · gaochang f 501 ↔ ~506 · yang-wu t Kasım ↔ Ekim 937 · balhae t 926-02-28 ↔ encykorea "926 정월" · taebong 918-07-25 ↔ "918년 6월" · pala t 1120 ↔ ~1155 · caulukya t 1297 ↔ ~1242 · gupta t 540 ↔ ~550 · bati-calukya f 975 ↔ ~973 · tiflis-emirligi t 1122 (TDV'de yok; 1121 II. Davit).
+- Okunmadı: cahamana, kalacuri-tripuri, rastrakuta, pandya-1, bati-ganga, yamato, dvaravati, dinh, vaspurakan (Iranica 403), kulasekhara-cera.
+- Kaynağı yasak 3 madde hücre 10 partisine katıldı.
+- Not: bu hücrenin denetle'si koşu 32 inişinden (04125032f) sonra coz-c ile yeniden ölçüldü; D8a 172/172.
+
+## Beyan edilen ama uygulanmayan (karar verilmedi / tek kaynak çelişki)
+- hindu-sahiler: Madde başlığı '850 (?)-1026'; f yaklaşık (yıl hassasiyeti), t kesin yıl.
+- tiflis-emirligi: TDV: Tiflis Hz. Osman döneminde fethedildi (25/645-46); 833-852 İshak b. İsmail emirliği Boğa tarafından sona erdi (852); 'II. Dâvid 1121'de Tiflis'teki Selçuklu hâkimiyetine son verdi; Benî Ca'fer ailesi sürüldü'. Yani TDV 1122 vermiyor, 1121 veriyor (Selçuklu/Ca'ferî dönemi sonu). Kesintisiz tek emirlik mi, yoksa 852 sonrası ara dönem mi olduğu kararı Emre'ye bırakıldı; f=650 için TDV yalnız 645
+- yufiri: 232 H = 847 başlangıç, 391 H = 1001 bitiş; künye ile uyumlu. Ayrı 'Yu'firîler' maddesi TDV'de yok. Madde metninin 100000 karakterden sonrası okunmadı.
+- yenisey-kirgiz: Künyedeki t=1207 artık TDV ile teyitli (önceki not 'Vikipedi düzeyinde' diyordu). Gizli Tarih'ten ayrıca teyit edilmedi.
+- cola: Bitiş 1279 ikinci encyclopedia.com maddesinde (Chola, people/south-asian-history-biographies) de 'declined and ended in 1279'; ikisi aynı yayıncı ailesinden, bağımsız sayılmadı. f 850 yaklaşık (Vijayalaya adı sayfada geçmiyor).
+- bati-calukya: Bu kaynak c.973 verir, künye 975 (Britannica). Oxford Reference tablosu (arama özetinde, sayfa 403) Taila II 973-997 diyor. 973 c.'li olduğu için değişiklik uygulanmasın; 973/975 farkı iki kaynak arasında beyan edilmeli. t 1189 teyitli.
+- dogu-calukya: f 624 teyitli; t için kaynak yalnız '11. yy' diyor, 1070 teyit edilmedi (Kulottunga I'in 1070 tahta çıkışı künyede Britannica'ya dayanıyordu).
+- badami-calukya: 543 Pulakesin I saltanatının başı (dinastinin kuruluşu değil), 757 bitiş. Künye ile uyumlu.
+- pala: f=750 teyitli. t ÇELİŞKİ: kaynak Palaların Senalar tarafından 'around 1155' yenildiğini söylüyor (atlas 1120 = Ramapala saltanat sonu). Arama özeti 'Ramapala 1077–1120' ve 'Pala 750 to the mid-twelfth century' diyor ama sayfa gövdesinde açılmadı. Karar verilmedi; ikinci akademik kaynak (NCHI / Majumdar) gerek.
+- gupta: Başlangıç c.320 teyitli. Bitiş c.550 (künye 540, Kids Britannica); aynı sayfa gövdesinde 'declined at the end of the 5th century under ... the Huns' diyerek kendi içinde çelişiyor. Bu yüzden değişiklik uygulanmasın; t yaklaşık, onyıl hassasiyeti.
+- harsha: 606-647 teyitli; ölümünden sonra imparatorluk dağıldı (halefsiz).
+- caulukya: f 942 teyitli (kuşak ucu değil, kaynak 942 veriyor). t ÇELİŞKİ: kaynak 1242 veriyor; Delhi Sultanlığı Patan'a 1298'de vali atadı. Atlas 1297 (Alâüddin fethi, Vaghela halefleri dahil). 1242 Solanki hanedanının kendi bitişi; 1297 Vaghela (Caulukya halefi) sonu olabilir. Karar verilmedi.
+- candela: f=950 'tenth century middle' ile uyumlu (yaklaşık). t=1309 için kaynakta bitiş yılı YOK (yalnız 12. yy'da Mahoba'ya kayış); okunmadı sayılır.
+- okunmadı · gurjara-pratihara
+- karkota: Yalnız Lalitaditya 724-761 teyitli; hanedanın f/t'si (627/855) TDV'de yok. Sıra: Karkota -> Utpala -> Lohara teyitli (tarihsiz).
+- okunmadı · utpala-kesmir
+- okunmadı · kamarupa
+- okunmadı · pallava
+- aksum: Kaynaklar 3.-7. yy zirve, 6. yy ortasında ekonomik çöküş, 7.-8. yy Müslüman Kızıldeniz hâkimiyeti diyor; net bitiş yılı yok, t boş kalmalı (aday 940 teyitsiz). f=100 için 'By the first century AD, and probably much earlier' (ticaret) — kuruluş yılı değil.
+- vandal: 429 ve 534 yılları teyitli (ay-gün yok; Mayıs ayı Hydatius'a dayanıyor, bu turda açılmadı). 435 antlaşma, 439 Kartaca.
+- dilmun: Kaynak 'about 2000 BCE' verir (-1999 ile uyumlu, yaklaşık). Bitiş: arama sonucu UNESCO dosyasında Geç Dilmun ~MÖ 1000-500 tabakası; tam sayfa alıntısı alınmadı, t boş kalsın.
+- okunmadı · vaspurakan-kralligi
+- okunmadı · kulasekhara-cera
+- bulunamadı: cahamana (f=682 ve t=1192 için hiçbir akademik sayfa açılamadı; encyclopedia.com Gujarat/Khajuraho sayfaları yalnız 10. yy bağımsızlaşma)
+- bulunamadı: kalacuri-tripuri (f=850, t boş; açılabilir akademik sayfa bulunamadı)
+- bulunamadı: rastrakuta (f=755, t=975; encyclopedia.com Rashtrakuta slug'ı 404, Dantidurga/Taila II sayfası bulunamadı)
+- bulunamadı: pandya-1 (601 ve bitiş; encyclopedia.com Madurai 6.-10. yy medieval Pandyas ve 11. yy diyor, hanedan yılı yok)
+- bulunamadı: bati-ganga (350-1004; Talakad/Gangavadi akademik sayfa bulunamadı)
+- bulunamadı: Oxford Reference (Chola, Dynasties of Deccan, Vandal Kingdom), Iranica Artsruni, Brill JESHO, Cambridge MAS PDF: WebFetch 403 ya da ikili; bot engeli aşılmaya çalışılmadı
+- bulunamadı: NCHI ve JSTOR/Cambridge Core monografilerine doğrudan erişilemedi
+- sui: f: 開皇元年 二月甲子 (Mar 581; atlas künyesinin ozeti 581-03-04 diyor, NAOJ ile cevrilmedi: yil duzeyinde kal, f=581-01-01 ay/gun teyitsiz). Chen'in dusmesi: 隋書 卷2 'Han Qinhu Jianye'ye girdi, Chen hukumdari Shubao'yu yakaladi' 開皇九年 春正月 丙子 (Jan 589). t 0619-05-25 (Sui sonu) bu sayfalarda okunmadi.
+- tang: f: Jiu Tangshu 五月 甲子 (618, Gaozu Tang imparatoru olarak) -- atlas 617-12-12 imparatorluk degil Gongdi'yi tahta cikarma gunu; aday 0618-06-18 (甲子, 5. ay) ama NAOJ cevirisi yapilmadi, degisiklik uygulanmadi. t: Jiu Wudaishi 開平元年 四月 戊辰 'Liang imparatoru tahta cikti' (907), atlas t=0907-06-01 ile uyumlu goruniyor, tablo cevirisi yok.
+- sonraki-liang-5hanedan: f: 開平元年 四月 戊辰 (907) -- yil duzeyi 907 dogru; ay/gun NAOJ ile cevrilmedi. t 923: Jiu Wudaishi 卷29 Later Tang 同光元年 四月己巳 Li Cunxu Wei'de tahta cikti; Liang'in dusus gunu okunamadi.
+- sonraki-tang-5hanedan: f: 同光元年 四月 己巳 (923), cevrilmedi. t: atlas 937-01-11 ile atlas ozeti 936 duzeltmesi celisik; 新五代史 卷6 sayfasi 933'te bitiyor, 936 olayi okunamadi.
+- sonraki-han-5hanedan: f: 天福十二年 二月 辛未 (947) -- atlas 01-01 yerine Subat/Mart 947 aday, cevrilmedi. t okunamadi.
+- wu-zhou: f: 天授元年 九月九日壬午 (690); aday 0690-10-16 ama NAOJ cevirisi yapilmadi (yil duzeyi 690). t: 神龍元年 二月甲寅 'Tang adi geri verildi' (705; aday 705-03-03 atlas ile uyumlu), tahtin Zhongzong'a devri ayni kaynakta Ocak 705 ('是日，上傳皇帝位於皇太子，徙居上陽宮'). t=Tang adiyla Tang'in restorasyonu gunu degil mi sorusu: atlas t=705-03-03 restorasyon gunu, devir ~Subat 705'ten onceye gider -- ic_not onerilir.
+- nara-japonya: f: 和銅三年 三月 辛酉 (710) Heijo'ya tasinma; atlas 710-04-13 tablo cevirisiyle ayrica dogrulanmadi ama ganzhi gunu atlas ile celismiyor. t: 794 tasinma (Heian) okunamadi (kan 37/38 sayfasi 404).
+- balhae: f 698 teyit (EKC; 'Ruisong sonra Rui-zong 先天中 (712-713) Bohai Kontu unvani', Xin Tangshu). t: EKC '926 正月' diyor; atlas 926-02-28 ay-gun teyitsiz, 正月 = Ocak-Subat 926 (Liao Shi 卷2 sayfasi 404, gun okunamadi). Atlas t=02-28 yerine '926 정월' ile celismeyen en genis okuma: yil duzeyi.
+- hubaekje: f 892 teyit (EKC; 889 gorusu de var: Samguk Yusa; 'Hubaekje' adi 900 sonrasi). t: 936 teyit; 936 9월 Iljecheon savasi (EKC); 09-26 gunu bu sayfada yok, atlasin ic_not_t'sinde Goryeosa'ya dayali.
+- taebong: f 901 ve t Haziran 918 teyit; atlas 0918-07-25 Haziran 918 ile celisiyor gibi (6월 = lunar/Gregoryen belirsiz); EKC 'Haziran' dedigi icin t gun oneri: 0918-06-01..? tablo cevrimi yok, degisiklik uygulanmadi, ic_not onerilir: 'EKC 918 6월'.
+- liang-guney: f: 天監元年 四月 丙寅 (502; aday 502-05-... NAOJ cevirisi yok); atlas 502-01-01 yil duzeyi dogru. t okunamadi.
+- kuzey-zhou: f: 孝閔帝 元年 正月 辛丑 (557; Western Wei禪位 556 十二月 庚子). t: 大定元年 二月 甲子 (581) -- Suishu 卷1 ile ayni gun (二月甲子), atlas t=581-03-04 ile uyumlu; iki bagimsiz kaynak (Zhoushu + Suishu) ayni ganzhi gununu veriyor.
+- kuzey-qi: f: 天保元年 五月 戊午 (550) -- atlas 01-01 yerine Mayis-Haziran 550; NAOJ cevirisi yok. t: 建德六年 正月 (577): Gao Wei Qingzhou'da yakalandi, 乙亥 Gao Heng'e devir; atlas 577-02-23 ile Zhoushu 正月 (Ocak/Subat 577) arasinda gun cevirisi yapilamadi.
+- dogu-wei: f: 534 十月 丙寅 (Eastern Wei, Xiaojing Di tahta cikisi) -- atlas 534-01-01 yerine Ekim/Kasim 534. NAOJ cevirisi yok; ay duzeyi 'Ekim 534'. t: 550 Kuzey Qi 五月 戊午 (Beiqishu 卷4).
+- bati-wei: t: Wei Gong Di 禪位 十二月 庚子 (556 sonu); atlas t=557-02-15 ile yil duzeyinde uyumsuz olabilir (Zhoushu: 556 十二月 / 557 正月辛丑). Cevrim tablosuz.
+- kuzey-wei: Kuzey Wei kuruluş (386) ve bolunme icin ozel sayfa acilmadi; sadece Weishu 卷12 Eastern Wei tarihi okundu.
+- gaochang: Jiu Tangshu: Qu hanedani 9 kusak, 134 yil (cumle ayri); 640-134 = 506 yaklasik; atlas f=501 (Vikipedi/sikke) ile ~5 yil fark -- f zayif, 506-507 adayi. t: Hou Junji / Zhisheng teslimi gunu bu metinde yok.
+- nanzhao: f 729: 6 zhao birlesmesi metinde tarihsiz; 738 unvani yok. t 902 (Zheng Maisi) metinde yok.
+- chen: t: 開皇九年 春正月 丙子 (589 Ocak/Subat); atlas 589-02-02 ile uyumlu olabilir, cevrim tablosuz. f: Chenshu 卷1-2 sayfasi acilamadi (404).
+- funan: Suishu: Chenla Funan'in bagimli devleti idi; 'Zhishena' (Citrasena) Funan'i ilhak etti -- Sui donemi (581-618) olay; atlas t=550 bu okumaya gore erken. Vickery 'Funan Reviewed' PDF acilamadi. Kesin yil yok; t degisikligi oneri: ~598-615 civari beyanli yaklasiklik (Citrasena donemi) -- degisiklik onerilmedi, ic_not onerilir.
+- chenla: Chenla f=550 Suishu'da dogrulanamadi; Sui kaydina gore Chenla Funan'in vassaliydi, bagimsizligi Funan'i ilhaktan once yaklasik 6. yy sonu. f belirsiz.
+- linyi-champa: Suishu: Qu Lian'in 'Han sonu' kralligi; 192 yili bu metinde yok (Houhanshu sayfasi acilamadi). Xin Tangshu: 至德後 (756-758) 'Huanwang' adi. t=999 atlas siniri.
+- van-xuan: Li Fozi (Ly Phat Tu) teslimi: 仁壽中 (601-604); atlas t=603 ile celismiyor. f 544 bu kaynakta yok.
+- yang-wu: t: 937 Ekim (ayni sayfa: 十月, gun yok); atlas 937-11-10 'Kasim' olarak ay duzeyinde celisebilir (Ekim). f: 天復二年 Yang Xingmi Wu Wang (902) 'Li Yan' 是歲 -- yil teyit.
+- guney-tang: f: 937 Ekim (Qi adi; Tang adi sonra). t: 開寶八年 十二月 Jinling alindi (975 sonu / 976 basi); yil duzeyi 975-976 teyit.
+- onceki-shu: f: 九月 己亥 (907, Wang Jian). t: 同光三年 (925) teyit (gun yok).
+- sonraki-shu: f: 934 (閏正月), t: 乾德三年 正月 (965) teyit.
+- guney-han-10krallik: f: 貞明三年 (917) teyit; t: 開寶四年 (971) teyit.
+- chu-ma: Chu Krali unvani 927; atlas f 894 Ma Yin oncesi (Ma De Sheng/Liu Jianfeng) ayri soru; Britannica 927-951 kaydi vardi. Xin Wudaishi: 乾寧三年 (896) Ma Yin Tanzhou valisi; 897 Wu'an jiedushi. t: 廣順元年 (951) teyit, Kasim ayi okunmadi.
+- wuyue: f: Qian Liu 907 Wuyue Wang (Liang Taizu tahta cikinca); t: 太平興國三年 (978) teyit, ay/gun yok.
+- min-krallik: t: 946 (開運三年 丙午) teyit; Britannica 909-945 zayif. f: Min Wang unvani 'Tang dusunce' tarihsiz.
+- nan-ping-jingnan: Gao Jixing 907'de jiedushi; krallik (Prince of Nanping) 924. t: 乾德元年 九月 (963 Eylul) teyit; atlas t=963-01-01 yil duzeyi, aday ay Eylul 963.
+- kuzey-han-10krallik: f: 廣順元年 正月 戊寅 (951 Ocak/Subat); t: 太平興國四年 (979) teyit, ay yok.
+- okunmadı · dinh
+- tibet-imparatorlugu: Tubo'nun ilk elcisi Zhenguan 8 (634); 629 (Songtsen taht) Xin Tangshu'nda yok; 842 sayfasi (216下) acilmadi. Akademik Tibet monografisi acilmadi.
+- okunmadı · yamato
+- okunmadı · dvaravati
+- okunmadı · yarlung-krallik
+- bulunamadı: yamato
+- bulunamadı: dvaravati
+- bulunamadı: dinh
+- bulunamadı: yarlung-krallik (devletler.js'te yok)
+- bulunamadı: kuzey-wei 386 kurulus
+- bulunamadı: Chenshu f
