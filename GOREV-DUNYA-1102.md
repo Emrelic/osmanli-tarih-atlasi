@@ -219,6 +219,13 @@ G — Renk ve bölge (senin işin değil)
 3. **Eski eşleşme hatası taraması** — madde_uygula'nın eski sürümü ic_not_b'de b kopyası olan maddeleri sessizce atlamış olabilir (hücre 1–9).
 4. **MÖ yıl kayması düzeltmesi** — ölçüm (2 Kasım, KASA, `mo_kayma_olc.py`): SİSTEMATİK DEĞİL. Künye 488 MÖ ucu: 382 doğru · 5 "+1 (MÖ n=-n)" · 9 ±2..10 · 92 metinde yıl yok. Madde 940: 898 doğru · 6 +1 · 5 -1 · 8 ±2..10 · 23 ölçülemedi. Yerleşim 590 MÖ ucu: 8'i künye ucundan 1 yıl farklı. Ölçüt en yakın metin yılını seçtiği için gerçek sayı biraz yüksek (ör. Magadha f −0543 = MÖ 544, metin MÖ 543). Kayıt kayıt okunup düzeltilecek; ayrı iş.
 5. **Değişmez 3b binmeleri (veri işi)** — koşu 32 inişinde tavan 46 → 51 gün: 1160 Rus knezlikleri (Çernigov × Ryazan 80 552 km², × Vladimir-Suzdal, × Smolensk…), 1060 Kiev × Polotsk, 1040 Bohemya × Polonya. Kaynakla çözülecek.
+   **(a) yapıldı** (1c0bc7998 + df2d2b99f, kapı 534a118d7): 2 304 yasak kaynaklı dönem künye kaynağını BEYANLI devraldı.
+   Kalan yasak dönem: iç kırılma 662 · künye kaynağı da yasak 351 · alan sırası farklı ~190 · __BOSLUK__ 53.
+   (b) yalnız-taraf kapanışları ve (c) kaynaksız ~18 000 dönem: koordinatör/Emre onayı bekliyor.
+5b. **Künye kaynak borcu** (2 Kasım, KASA, main 534a118d7; birinci geçiş yalnız hücre öncelik listelerini işledi):
+   hâlâ yasak 191 · "bulunamadı — standart akademik kaynak" 259 · ZAYIF KAYNAK 16 · countrystudies/globalsecurity/
+   archontology 24 · "BRIT" kısaltması 11 (birinci geçiş regex'i kaçırdı). Çıplak anahtar 219 = `data/kimlikler.js`
+   kayıt defterine işaret, zayıf sayılmaz.
 6. **Mükerrer künye adayları** — chimu ↔ chimu-krallik, ternate ↔ ternate-sultanligi, tidore ↔ tidore-sultanligi, ogedey-ulusu ↔ ogedey-ulusu-kaydu (Emre kararı bekliyor).
 
 ## girdi.py değişikliği gereken (tuz — dokunulmaz, liste)
