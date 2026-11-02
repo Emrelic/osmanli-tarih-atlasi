@@ -52,6 +52,28 @@ D (20): likya, sofene, tigran, antigonos, sumer-lagas-1, isin, larsa, esnunna, s
 hun-avrupa, guney-rusya-beyaz, nijni-novgorod-suzdal, beloozero, transdinyester, krakow, polonya-naiplik.
 → Helenistik olanlar (antigonos, likya, sofene, tigran, karakene) yerel Perseus aracıyla (`perseus_ara.py`) denenecek.
 
+## Parti E (Avrupa kalanları + Helenistik) ve F (Amerika + Okyanusya)
+Uygulanan: 22 künye kaynağı (E 12, F 10). Tarih değişikliği yok. Antigonos krallığı yerel Perseus ile çift teyit
+(Diodoros 20.53.2 + Plutarkhos Demetr. 52.3).
+
+### Tarih önerileri (uygulanmadı — tek kaynak ve/veya kırılmaya bağlı)
+- `anjou-kontlugu`: GEC "comtat d'Anjou" — müsadere 1203 (atlas 1204), unvan 870'te Ingelger'e (atlas f 1000).
+- `rio-de-la-plata-valiligi`: f 1776-01-01 → 1776-08-01 (real cédula, San Ildefonso; es.wikisource transkripsiyonu) —
+  Cevallos'a geçici valilik; kalıcı kuruluş 27 Ekim 1777 (yalnız arama özeti). Hakemli ikinci kaynak gerekir.
+
+### Çelişki beyanı gerekenler
+- `peru-bolivya-konfederasyonu` f: resmî ilan 1 Mayıs 1837 ↔ atlas 28 Ekim 1836.
+- `nazca` MÖ ~370–MS 540 ↔ atlas MÖ 200–MS 600 · `chimu`/`chimu-krallik` f 900 ↔ 1000 (mükerrer çift).
+- `rarotonga` f 1250 (sözlü gelenek) ↔ arkeoloji MS 4. yy · `ispanyol-kuba` t 10 ↔ 20 Aralık 1898.
+- `sili-kaptanligi` f 12 Şubat 1541 = Santiago kuruluşu, kurumun değil · `malta` cumhuriyet 1974 ↔ TDV 1979.
+- `karakene` f "141 öncesi" ↔ "c. 138–127" · `hamat` t -0719 teyitsiz.
+
+### Okunmadı
+E (9): karolenj-italya, provence-kontlugu, soissons-devleti, westfalya-krallik, macar-sovyet-cumhuriyeti,
+macaristan-halk-cumhuriyeti, nitra-prensligi, schleswig-holstein-1848, karakene.
+F (5 tam + 6 kısmi): lupaqa-krallik, ceibal, cholula, chamorro, haudenosaunee; kısmi: ingiliz-guyanasi f, guatemala f,
+sili t, yeni-granada t, rio-de-la-plata t, ispanyol-kuba f.
+
 ### Erişim
 - **Brill Iranica açık erişimi de 403** (referenceworks.brill.com madde, arama ve browse) — iki ajan ayrı ayrı denedi,
   atlatılmadı. Iranica için kalan meşru yol: uygulama içi tarayıcıda insan hızında okuma ya da Emre'nin kurumsal erişimi.
