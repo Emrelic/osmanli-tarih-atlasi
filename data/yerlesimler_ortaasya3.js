@@ -202,7 +202,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1758-01-01",t:"1847-01-01",d:"kazak-hanligi"},
      {f:"1847-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // 🟢 Almalık — ÇAĞATAY HANLIĞI'NIN BAŞŞEHRİ, ve atlasta noktası YOKTU.
 // TDV `cagatay-hanligi` gövdesi: "Çünkü Almalığ devletin kuruluşundan beri
@@ -350,7 +350,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1500-01-01",t:"1752-01-01",d:"kazak-hanligi"},
      {f:"1752-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Kökçetav — TDV `kazakistan` ADIYLA anıyor: "Ruslar tarafından Kökçetav ve
 // Akmola civarında inşa edilen kalelere hücum ettiyse de..." (Kenesarı).
@@ -360,7 +360,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1500-01-01",t:"1824-01-01",d:"kazak-hanligi"},
      {f:"1824-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Akmola (Akmolinsk) — TDV `kazakistan` ADIYLA anıyor (yukarıdaki cümle).
 // Orta cüzün kalbi; bugün en yakın nokta 284 km ötede.
@@ -370,7 +370,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1500-01-01",t:"1830-01-01",d:"kazak-hanligi"},
      {f:"1830-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Karkaralinsk — orta cüzün doğu bozkırı. Akmola (327 km) ile
 // Semipalatinsk (328 km) arasındaki üçgenin ortası.
@@ -380,7 +380,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1500-01-01",t:"1824-01-01",d:"kazak-hanligi"},
      {f:"1824-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Ayagöz (Sergiopol) — Semipalatinsk (272 km) ile Kopal (332 km) arasında,
 // Balkaş'ın kuzeydoğusu. Çöçek'e 233 km.
@@ -390,7 +390,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1500-01-01",t:"1831-01-01",d:"kazak-hanligi"},
      {f:"1831-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Irgiz — TDV `kazakistan` bölgeyi ADIYLA anıyor: "Kenasarı 1838'de Rus
 // işgalinde bulunan Irgız ve Turgay bölgelerini geri almayı başardı."
@@ -403,7 +403,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1500-01-01",t:"1847-01-01",d:"kazak-hanligi"},
      {f:"1847-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // Kazalinsk — aşağı Seyhun. Selefi Raim kalesi 1847'de kuruldu; o gün
 // veride zaten var. Aral kuzeyi (167 km) ile Ak-Meçit (284 km) arası.
@@ -413,7 +413,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1500-01-01",t:"1847-01-01",d:"kazak-hanligi"},
      {f:"1847-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── SEYHUN HATTI — ikinci turda eklendi, ve KAPSAYICI MADDE getirdi ──────
 // Birinci turda "TDV kasaba bazında kronoloji vermiyor" diye ERTELEMİŞTİM.
@@ -452,7 +452,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1468-01-01",t:"1847-01-01",d:"kazak-hanligi",kaynak:"KARAR3-1016: f 1465→1468 (öncesi ebulhayr-ozbek-ulusu). ÇELİŞKİ BEYANLI: K. M. Baipakov (UNESCO History of Civilizations of Central Asia V, 2003, 'The Kazakhs' bölümüyle özdeş metin): yüzyıl sonunda Sığnak, Sauran, Suzak Kazak denetiminde · TDV seybani-han: 1468 sonrası Şeybânî 'Arkuk ve Siğnâk (bugünkü Sunak Kurgan harabeleri) gibi kasabaları ele geçirdi' (YILSIZ) — Şeybânî dilimi yılı olmadığı için AÇILMADI · KAYNAK-1015/G3"},
      {f:"1847-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 { ad:"Suzak (Sozak)", tur:"kale", lat:44.1300, lon:68.4700, g:0, k:3,
   kaynak:"ebulhayr-han",
@@ -460,7 +460,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1465-01-01",t:"1847-01-01",d:"kazak-hanligi"},
      {f:"1847-01-01",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 // ⚪ SAURAN (Sabran) YAZILMADI — ve gerekçesi iki katlı: (1) `Türkistan
 //    (Yesi)`ye 33 km, yani 3 km sınavını geçer ama coğrafî katkısı yok;
 //    (2) 43,60K ile ok107'nin cebinin kenarına 5,5 KM. İkisinden biri
@@ -479,7 +479,7 @@ window.YERLESIMLER_ORTAASYA3 = [
      {f:"1815-01-01",t:"1853-07-28",d:"hokand"},
      {f:"1853-07-28",t:"1917-03-15",d:"rusya"},
      {f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},
-     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+     {f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 // ── ARALSK — KUTU-VERI-1015 (parti-emrelic-0052 / H-0103) ─────────────────
 // Aral'ın kuzey kıyısında nokta yoktu (en yakın: 'Aral kuzeyi' yer tutucu 46,6 km,

@@ -161,6 +161,6 @@ window.YERLESIMLER_EK14 = [
 //    `kazak-hanligi` t=1847-01-01 diyor. Kaleyi başlangıç yapsaydım hanlığı
 //    yedi yıl fazla yaşatırdım — Batnoz'un (Patmos) aynısı.
 { ad:"Almatı (Vernıy)", tur:"kale", lat:43.2380, lon:76.8890, g:0, k:4, d:[],
-  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1758-01-01",d:"cungar"},{f:"1758-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
+  s:[{f:"1281-01-01",t:"1347-01-01",d:"cagatay"},{f:"1347-01-01",t:"1634-01-01",d:"mogulistan"},{f:"1634-01-01",t:"1758-01-01",d:"cungar"},{f:"1758-01-01",t:"1847-01-01",d:"kazak-hanligi"},{f:"1847-01-01",t:"1917-03-15",d:"rusya"},{f:"1917-03-15",t:"1917-11-07",d:"rusya-gecici-hukumet"},{f:"1917-11-07",t:"1991-12-16",d:"sovyet-rusya"},{f:"1991-12-16",t:"2000-12-31",d:"kazakistan",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz/en/news/show/8081 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Library of Congress Country Studies / Britannica ilgili ulke maddesi; bagimsizlik ilani gunu devletler dizini f degeri"}] },
 
 ];

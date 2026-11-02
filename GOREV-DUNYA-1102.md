@@ -206,6 +206,15 @@ G — Renk ve bölge (senin işin değil)
 
 ## İkinci geçiş planı (sıra)
 1. **D adımı** — her kıta × çağ hücresinde yerleşim `s:` dönemleri: uç günü kaynaklı mı, künye ömrüyle tutarlı mı, abi merkez beyanı var mı. Kıta sırası aynı.
+   **Kapsam ölçümü** (2 Kasım, KASA, `d_adim.py`; dönemin kendi `kaynak:` alanına göre; çağ sınırını aşan dönem birden çok hücrede sayılır):
+   kaynaksız ~18 350 · yasak ~4 450 · beyanlı ~2 500 · kaynaklı ~6 100 · atlas-içi ~170.
+   Yoğun hücreler: 4–6 Avrupa 1000–2000 (kaynaksız 4 457, yasak 1 520) · 10–12 Asya 1000–2000 (8 169 / 1 253) ·
+   16–18 Afrika 1000–2000 (2 682 / 1 411) · 22–24 Amerika 1000–2000 (2 641 / 59) · 25 Okyanusya (266 / 16).
+   Bu hacim kayıt kayıt ajanla araştırılamaz. **Önerilen ölçüt (koordinatör/Emre kararı bekliyor):** dönem ucu zaten
+   Değişmez 2 ile ±30 günde bir maddeye bağlı; asıl açık, maddenin o yerleşimi ANMAMASI (2sk: 5 579 kapanış "yalnız
+   taraf" ile). D adımı = (a) yasak kaynaklı dönemlerin kaynağını değiştirmek, (b) "yalnız taraf" ile kapanan kırılmalarda
+   maddeye yeri eklemek ya da yer-tanıklı kaynak bulmak, (c) kalan kaynaksız dönemlere madde kaynağını `kaynak:`a
+   devralmak (betikle, "madde X'ten" beyanıyla). Öncelik: Osmanlı çekirdeği değil, yasak oranı yüksek hücreler (6, 12, 18).
 2. **Okunmadı kalemler** — hücre bekleyen.md'lerindeki "okunmadı"lar; Iranica için Brill açık erişimi (brill.com/eiro, referenceworks.brillonline.com) — engellerse atlatma yok, bildir. JSTOR'a bağlı olanlar `JSTOR-LISTE.md`de (Emre elle indirir).
 3. **Eski eşleşme hatası taraması** — madde_uygula'nın eski sürümü ic_not_b'de b kopyası olan maddeleri sessizce atlamış olabilir (hücre 1–9).
 4. **MÖ yıl kayması düzeltmesi** — ölçüm (2 Kasım, KASA, `mo_kayma_olc.py`): SİSTEMATİK DEĞİL. Künye 488 MÖ ucu: 382 doğru · 5 "+1 (MÖ n=-n)" · 9 ±2..10 · 92 metinde yıl yok. Madde 940: 898 doğru · 6 +1 · 5 -1 · 8 ±2..10 · 23 ölçülemedi. Yerleşim 590 MÖ ucu: 8'i künye ucundan 1 yıl farklı. Ölçüt en yakın metin yılını seçtiği için gerçek sayı biraz yüksek (ör. Magadha f −0543 = MÖ 544, metin MÖ 543). Kayıt kayıt okunup düzeltilecek; ayrı iş.

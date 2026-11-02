@@ -44,12 +44,12 @@ window.YERLESIMLER_OKYANUSYA = [
 { ad:"Tulagi", tur:"sehir", lat:-9.0938, lon:160.1497, g:1, k:1,
   kur:"1893-01-01",
   kaynak:"Encyclopaedia Britannica, 'Solomon Islands: History' ve 'Tulagi'; ayrıca Judith Bennett, 'Wealth of the Solomons: a history of trade, plantations and society, Solomon Islands, c.1800-1942' (ANU Open Research): protektora 1893'te ilan edildi, Tulagi 1893'ten itibaren idarî merkezdi.",
-  s:[{f:"1893-01-01",t:"1978-07-07",d:"ingiltere"},{f:"1978-07-07",t:"2000-12-31",d:"solomon-adalari",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
+  s:[{f:"1893-01-01",t:"1978-07-07",d:"ingiltere"},{f:"1978-07-07",t:"2000-12-31",d:"solomon-adalari",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye solomon-adalari f ucunun kaynağı — BM Solomon Adaları ülke bilgisi (un.int/solomonislands) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 { ad:"Gizo", tur:"sehir", lat:-8.1014, lon:156.8364, g:1, k:1,
   kur:"1893-01-01",
   kaynak:"Encyclopaedia Britannica, 'Solomon Islands: History' + Bennett (ANU): İngiliz Solomon Adaları Protektorası 1893. ⚠️ Gizo'nun KENDİ kuruluş yılı ayrıca doğrulanamadı; protektora tarihi kullanıldı.",
-  s:[{f:"1893-01-01",t:"1978-07-07",d:"ingiltere"},{f:"1978-07-07",t:"2000-12-31",d:"solomon-adalari",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
+  s:[{f:"1893-01-01",t:"1978-07-07",d:"ingiltere"},{f:"1978-07-07",t:"2000-12-31",d:"solomon-adalari",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye solomon-adalari f ucunun kaynağı — BM Solomon Adaları ülke bilgisi (un.int/solomonislands) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 { ad:"Levuka", tur:"sehir", lat:-17.6814, lon:178.8327, g:1, k:1,
   kur:"1874-10-10",

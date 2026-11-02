@@ -1180,20 +1180,20 @@ window.YERLESIMLER_AMERIKA = [
 // k gerekçesi: Trinidad'ın idari başkenti (1757'den) — k:1
 
 { ad:"Georgetown (Stabroek)", tur:"sehir", lat:6.8013, lon:-58.1551, g:1, k:1, kur:"1781-01-01",
-  s:[{f:"1781-01-01",t:"1784-01-01",d:"fransa"},{f:"1784-01-01",t:"1796-04-22",d:"hollanda"},{f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1803-09-01",d:"hollanda"},{f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},{f:"1831-01-01",t:"1966-05-26",d:"ingiliz-guyanasi"},{f:"1966-05-26",t:"2000-12-31",d:"guyana",kaynak:"Bagimsizlik 1966-05-26 (Britannica); Cumhuriyet 1970 ayni kimlik"}] },
+  s:[{f:"1781-01-01",t:"1784-01-01",d:"fransa"},{f:"1784-01-01",t:"1796-04-22",d:"hollanda"},{f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1803-09-01",d:"hollanda"},{f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},{f:"1831-01-01",t:"1966-05-26",d:"ingiliz-guyanasi"},{f:"1966-05-26",t:"2000-12-31",d:"guyana",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guyana f ucunun kaynağı — https://revistas.usp.br/revusp/article/view/191462 ; https://atlasocio.com/classements/politique/nations/liste-etats-date-independance-amerique.php · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Bagimsizlik 1966-05-26 (Britannica); Cumhuriyet 1970 ayni kimlik"}] },
 // kaynak: Wikipedia "Essequibo (colony)"/"Demerara" akademik ansiklopedi girişleri (Anglo-Dutch
 //         Treaty of London 1814 ile çapraz doğrulandı); Cornelis Ch. Goslinga, "A Short History
 //         of the Netherlands Antilles and Surinam" (Martinus Nijhoff, 1979).
 // k gerekçesi: Demerara-Essequibo'nun idari merkezi — k:1
 
 { ad:"New Amsterdam (Berbice)", tur:"sehir", lat:6.2495, lon:-57.5207, g:0, k:2, kur:"1627-01-01",
-  s:[{f:"1627-01-01",t:"1796-04-22",d:"hollanda"},{f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1803-09-01",d:"hollanda"},{f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},{f:"1831-01-01",t:"1966-05-26",d:"ingiliz-guyanasi"},{f:"1966-05-26",t:"2000-12-31",d:"guyana",kaynak:"Bagimsizlik 1966-05-26 (Britannica); Cumhuriyet 1970 ayni kimlik"}] },
+  s:[{f:"1627-01-01",t:"1796-04-22",d:"hollanda"},{f:"1796-04-22",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1803-09-01",d:"hollanda"},{f:"1803-09-01",t:"1831-01-01",d:"ingiltere"},{f:"1831-01-01",t:"1966-05-26",d:"ingiliz-guyanasi"},{f:"1966-05-26",t:"2000-12-31",d:"guyana",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guyana f ucunun kaynağı — https://revistas.usp.br/revusp/article/view/191462 ; https://atlasocio.com/classements/politique/nations/liste-etats-date-independance-amerique.php · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Bagimsizlik 1966-05-26 (Britannica); Cumhuriyet 1970 ayni kimlik"}] },
 // kaynak: Britannica "Berbice"; Goslinga (1979) — Berbice kolonisi 1627 kuruluşu (ilk başkent
 //         Fort Nassau; New Amsterdam kasabası 1790'da yeni başkent oldu, basitlik için tek nokta).
 // k gerekçesi: Berbice kolonisinin merkezi — k:2
 
 { ad:"Paramaribo", tur:"sehir", lat:5.8520, lon:-55.2038, g:1, k:1, kur:"1630-01-01",
-  s:[{f:"1630-01-01",t:"1667-07-31",d:"ingiltere"},{f:"1667-07-31",t:"1799-01-01",d:"hollanda-guyanasi"},{f:"1799-01-01",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1804-01-01",d:"hollanda-guyanasi"},{f:"1804-01-01",t:"1816-01-01",d:"ingiltere"},{f:"1816-01-01",t:"1975-11-25",d:"hollanda-guyanasi"},{f:"1975-11-25",t:"2000-12-31",d:"surinam",kaynak:"Britannica (ilgili devlet/ülke maddesi)"}] },
+  s:[{f:"1630-01-01",t:"1667-07-31",d:"ingiltere"},{f:"1667-07-31",t:"1799-01-01",d:"hollanda-guyanasi"},{f:"1799-01-01",t:"1802-03-27",d:"ingiltere"},{f:"1802-03-27",t:"1804-01-01",d:"hollanda-guyanasi"},{f:"1804-01-01",t:"1816-01-01",d:"ingiltere"},{f:"1816-01-01",t:"1975-11-25",d:"hollanda-guyanasi"},{f:"1975-11-25",t:"2000-12-31",d:"surinam",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye surinam f ucunun kaynağı — Parlement.com, Onafhankelijkheid Suriname in 1975 (parlement.com/onafhankelijkheid-suriname-1975); UN GA 2428th plenary (Hollanda ve Surinam beyanları, arama özeti) — «Op 25 november 1975 werd Suriname een onafhankelijk land.» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica (ilgili devlet/ülke maddesi)"}] },
 // kaynak: Wikipedia "Treaty of Breda (1667)"; mapofsuriname.org (Surinam Ulusal Arşivi destekli);
 //         Goslinga (1979) — Breda Antlaşması (31 Temmuz 1667) "uti possidetis" ile Hollanda'ya
 //         bıraktı (İngiltere karşılığında New York'u aldı — ünlü takas).
