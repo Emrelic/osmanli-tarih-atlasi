@@ -26,10 +26,10 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "gun": "MÖ 539",
   "yer": "Bābili / Sippar / Uruk / Ur",
   "d": "Nabonidus'un 17. yilinda (539/538) Ugbaru ve Kyros'un ordusu savassiz Babil'e girer; Kyros 3 Arahsamna'da sehre girer.",
-  "kaynak": "Grayson, ABC 7 (Nabonidus Chronicle), col. iii.18; Livius.org · https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
+  "kaynak": "Grayson, ABC 7 (Nabonid Chronicle) iii.12-18, Livius çevirisi okundu; TDV Babil maddesi — «On the third day of the month Arahsamna, Cyrus entered Babylon.»",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «On the third day of the month Arahsamna, Cyrus entered Babylon.». Gun cevirisi (Arahsamna 3 = 29 Ekim 539 Jülyen) YAPILMADI; yalniz yil: 539. TDV 'Babil' maddesinden arama ozeti: 'Ahamenîler (İran hâkimiyeti, 539-332)' - madde sayfasi acilmadi, yalniz arama parcacigi. Ahamenis son 330/331/332 TDV parcaciklarinda tutarsiz (Erdeşîr: 559-330, Gîlân: 559-331, Bâbil: 539-332).",
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «On the third day of the month Arahsamna, Cyrus entered Babylon.». Gun cevirisi (Arahsamna 3 = 29 Ekim 539 Jülyen) YAPILMADI; yalniz yil: 539. TDV 'Babil' maddesinden arama ozeti: 'Ahamenîler (İran hâkimiyeti, 539-332)' - madde sayfasi acilmadi, yalniz arama parcacigi. Ahamenis son 330/331/332 TDV parcaciklarinda tutarsiz (Erdeşîr: 559-330, Gîlân: 559-331, Bâbil: 539-332). · DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (Grayson, ABC 7 (Nabonidus Chronicle), col. iii.18; Livius.org · https://livius.o) dayanak olamaz, değiştirildi. ABC 7: Nabonid 17. yıl (=539): Sippar 14. gün 'savaşsız' alındı, 16. gün Ugbaru ordusu Babil'e savaşsız girdi (ay adı bu çeviri parçasında okunmadı; Tašritu), Kyros Arahsamna 3'te girdi. TDV Babil: 'Ahamenîler (İran hâkimiyeti, 539-332)'. Yıl doğru; Babil takvimini Jülyen güne çevirmedim (tablo açılmadı), gün önerilmedi.",
   "yer_id": "Ur (Tell al-Muqayyar)"
  },
  {
@@ -40,10 +40,10 @@ window.OLAYLAR_ARKEOLOJI_AFRIKA_IRAN = [
   "gun": "MÖ 550",
   "yer": "Ecbatana / Hagmatāna / Kotosh Dini Gelenegi (Kotosh, Peru) / Hemedan",
   "d": "Nabonidus'un 6. yilinda (MO 550/549) Kyros, Med kralinin 'kral sehri' Ekbatana'ya yurur; Med devletinin Kyros'a gecisi ve Ahamenis imparatorlugunun kurulus tarihi olarak 550 gelenegi bu kayda dayanir.",
-  "kaynak": "Grayson AK, Assyrian and Babylonian Chronicles (ABC 7, Nabonidus Chronicle), col. ii.3; Livius.org'daki gozden gecirilmis ceviri · https://livius.org/sources/content/mesopotamian-chronicles-content/abc-7-nabonidus-chronicle/",
+  "kaynak": "Grayson, ABC 7 (Nabonid Chronicle) col. ii.1-4, Livius çevirisi okundu — «The army rebelled against Astyages and he was taken prisoner. ... Cyrus marched to Ecbatana, the royal city.»",
   "kesinlik": "yil",
   "kaynak_turu": "yazili",
-  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Cyrus <marched> to Ecbatana, the royal city.». Livius.org tek basina dayanak olamaz: burada yalniz Grayson ceviri metninin tasiyicisi; ABC 7 birincil neşir (Grayson 1975) ve BM 35382 numarasi SAYFADA YOK, dogrulanmadi. Vakayiname metninde 'Astyages' adi gecmiyor olabilir (kirik satir) - ozet okuyucunun cikarimi, dogrulanmadi. 'Med devletinin kurulusu (MO 678?)' ve 'Kyros 550 Pers imparatorlugu kuruldu' iddialari icin akademik kaynak bulunamadi (bulunamadi listesinde)."
+  "ic_not_d": "YAZILI KAYIT (kronoloji okulu/kaynak bkz. kaynak alanı); kaynak tek yıl verir. Kaynak sınıfı: akademik-ikincil (birincil kazı yayını okunmadı). Kaynaktan okunan: «Cyrus <marched> to Ecbatana, the royal city.». Livius.org tek basina dayanak olamaz: burada yalniz Grayson ceviri metninin tasiyicisi; ABC 7 birincil neşir (Grayson 1975) ve BM 35382 numarasi SAYFADA YOK, dogrulanmadi. Vakayiname metninde 'Astyages' adi gecmiyor olabilir (kirik satir) - ozet okuyucunun cikarimi, dogrulanmadi. 'Med devletinin kurulusu (MO 678?)' ve 'Kyros 550 Pers imparatorlugu kuruldu' iddialari icin akademik kaynak bulunamadi (bulunamadi listesinde). · DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Grayson AK, Assyrian and Babylonian Chronicles (ABC 7, Nabonidus Chronicle), col) dayanak olamaz, değiştirildi. Kayıt Nabonid'in 6. yılında (550/549). Atlas -0549 = MÖ 550 uyumlu. DİKKAT: envanter 'yer' alanında alakasız 'Kotosh Dini Geleneği (Kotosh, Peru)' kalıntısı var — temizlenmeli. TDV Hemedan: Ekbatana'yı Deiokes (m.ö. 728-673) kurmuş, Kyros sonradan yazlık başşehir seçti (550 alınışı TDV'de yok)."
  },
  {
   "t": "-0944-01-01",

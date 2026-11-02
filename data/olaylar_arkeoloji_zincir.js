@@ -260,7 +260,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 710",
   "yer": "Babil",
   "d": "Babil noktalarında sahiplik sahipsiz aralık'dan Yeni Asur Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org ceviri-tasiyicisi, sütun ii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | «Sargon ascended the throne in Babylon.»",
-  "kaynak": "Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: Grayson, A. K. 1975, Assyrian and Babylonian Chronicles, ABC 1 (Nabu-nasir > Esarhaddon); Livius.org ceviri-tasiyicisi, sütun ii.14 | https://www.livius.org/sources/content/mesopotamian-chronicles-content/abc-1b-from-nabu-nasir-to-esarhaddon/ | «Sargon ascended the throne in Babylon.»",
+  "kaynak": "Grayson, ABC 1 ii.9'-14', Livius çevirisi — «Sargon ascended the throne in Babylon.»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Sargon II Babil tahtına oturur (Marduk-apla-iddina yıl 12 = 710/709) | Kaynak: G) dayanak olamaz, değiştirildi. Marduk-apla-iddina 12. yıl = 710/709 — okundu. Atlas -0709 = MÖ 710 doğru.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1071,7 +1071,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 539",
   "yer": "Ur",
   "d": "Ur noktalarının s: dizisinde bu uç, sahip künyenin (Ahamenis (Pers) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "TDV Babil: Ahamenîler 539-332 (Babil için) — «539 yılında Pers Kralı Kyros (559-530) tarafından yıkılmışlardır»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye ahamenis — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Yıl Babil için doğrulandı (Kyros Babil'i 539). Ur'a özgü kaynak (Ur'un Kyros'a geçişi) bulunamadı; Ur'u Babil'in kaderine bağlama merdiveni ⑤ uygulanabilir (ABİ MERKEZ: Babil — TDV Babil).",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "yer_id": "Ur (Tell al-Muqayyar)"
@@ -1165,7 +1165,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 627",
   "yer": "Babil",
   "d": "Babil noktalarının s: dizisinde bu uç, sahip künyenin (Yeni Asur Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "TDV Babil (Asur hâkimiyeti 745-626); Grayson ABC 2 — «Asur hâkimiyeti (745-626)»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (künye yeni-asur — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Atlas MÖ 627 (-0626); TDV Babil ve ABC 2 Asur hakimiyetinin sonunu Nabopolassar'ın tahta çıkışı 626 (-0625) ile verir. Aynı partide Nabopolassar maddesi -0625 olduğundan çelişki var; -0625'e çekilmeli (yıl farkı 1, iki ucu da ölç). TDV alıntısı, WebFetch'in madde özetinden; birebir madde cümlesi okunmadı.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1179,7 +1179,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 700",
   "yer": "Hemedan",
   "d": "Hemedan noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "TDV Hemedan (okundu) — «Kral Deiokes (m.ö. 728-673) tarafından milâttan önce VII. yüzyılda Med İmparatorluğu'nun başşehri olarak kurulmuştur»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Boşluk merdiveni: TDV Hemedan, Ekbatana'yı VII. yy'da Med başkenti olarak kurulmuş sayar (Deiokes 728-673) => 'sahipsiz' MÖ 700 sonrası için Med sahibi (devlet kimliği 'med' varsa) bağlanabilir; beyanlı yaklaşıklık. Kuruluş tarihi TDV'de kesin yıl değil.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1404,7 +1404,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 1894",
   "yer": "Babil",
   "d": "Babil noktalarının s: dizisinde bu uç, sahip künyenin (Eski Babil (Amorit) Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye babil-eski — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "TDV Babil maddesi (okundu) — «Amurrular (Eski Bâbil Krallığı, m.ö. 1894-1595)»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye babil-eski — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. TDV Babil: Eski Bâbil 1894-1595, Kassitler 1595-1174; atlas başlangıcı MÖ 1894 birebir. Alıntı sayfa özetinden alındı, madde cümlesinin birebir hâli okunmadı. Eski Babil'in bitişi (1595) de TDV ile uyumlu.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [

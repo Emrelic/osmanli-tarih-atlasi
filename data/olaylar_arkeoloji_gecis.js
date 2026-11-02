@@ -7,7 +7,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "gun": "MÖ 2050 (dönem ucu)",
   "yer": "Liangzhu / Liangzhu Kültürü",
   "d": "Liangzhu noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Liangzhu Kültürü) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
-  "kaynak": "künye liangzhu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak": "Long, T. & Taylor, D., 'A revised chronology for the archaeology of the lower Yangtze, China, based on Bayesian statistical modelling', Journal of Archaeological Science 63 (2015) 115-121 — «Liangzhu: ca. 5500-4000 cal BP»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye liangzhu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: al) dayanak olamaz, değiştirildi. Özet sayfası okundu (nottingham/unnc yayın kaydı). 4000 cal BP (1950 tabanı) ≈ MÖ 2050; atlas -2049 (MÖ 2050) birebir. Arkeolojik/aralık maddesi: yöntem değişmedi. Not: başka çalışmalarda Liangzhu'nun şehir evresi c.2300'de biter; 4000 cal BP kültür-geneli ucudur.",
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil",
   "odak_yer": [
@@ -35,7 +35,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "gun": "MÖ 3250 (dönem ucu)",
   "yer": "Hemudu / Hemudu Kültürü",
   "d": "Hemudu noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Hemudu Kültürü) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
-  "kaynak": "künye hemudu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak": "Long & Taylor 2015, Journal of Archaeological Science 63, 115-121 — «Hemudu: ca. 7100-5200 cal BP»", "ic_not_d":"DUNYA-1102 hücre 7 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye hemudu — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alan) dayanak olamaz, değiştirildi. 5200 cal BP (1950 tabanı) ≈ MÖ 3250; atlas -3249 (MÖ 3250) uyumlu. Özet sayfası okundu; makale tam metni açılmadı.",
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil",
   "odak_yer": [
