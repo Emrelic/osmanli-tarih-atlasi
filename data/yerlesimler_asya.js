@@ -229,7 +229,7 @@ window.YERLESIMLER_ASYA = [
 //     hükümdarı tahtta kaldı ama şehir Maratha'nındı. 11 Eylül 1803 Delhi
 //     Muharebesi'nden sonra saray İngiliz himayesine girdi.
 { ad:"Delhi", tur:"sehir", lat:28.6440, lon:77.2160, g:2, k:1,kd:[{f:"1281-01-01",t:"1857-09-21",k:1,m:"Delhi"}], d:[],
-  s:[{f:"0736-01-01",t:"1153-01-01",d:"__BOSLUK__",kesinlik:"yuzyil",kaynak:"BOŞLUK BEYANI: sahip tomara (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tomara\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Tomaras»: \"founded Delhi in A.D. 736\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Tomaras»: \"The Tomaras continued to rule the Hariyana country till the middle of the twelfth century\" | f=0736 GELENEK tarihi (yüzyıl hassasiyeti), 0500 UFUK işareti değil: Delhi'nin 736 öncesi sahibi yazılmadı (kaynak yok). 1011'de Delhi Racası: R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Punjab under the Yamini Dynasty / Ghaznavid Invasion»: \"the Raja of Delhi, in whose kingdom Thaneswar was situat\" | t=1153 üst/alt sınır (IV. Vigraharaja'nın bilinen tarihleri 1153-1163; BEYANLI YAKLAŞIKLIK). · DOGU-500-1281"},{f:"1153-01-01",t:"1192-01-01",d:"cahamana",kesinlik:"onyil",kaynak:"R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Chahamanas of Sakambhari»: \"He conquered Dhillika (Delhi) from the Tomaras\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Foreword»: \"lost the second Battle of Tarain in 1192\" | f=1153 belirsiz (1153-1163 arası); t=1192 II. Tarain. · DOGU-500-1281"},{f:"1192-01-01",d:"gurlu",kaynak:"TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1398-12-17",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1398-12-17",t:"1399-01-01",d:"timurlu",eksklav:true},{f:"1399-01-01",t:"1526-04-21",d:"delhi-sultanligi"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1788-01-01",d:"babur-imparatorlugu"},{f:"1788-01-01",t:"1803-09-11",d:"maratha"},{f:"1803-09-11",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+  s:[{f:"0736-01-01",t:"1153-01-01",d:"__BOSLUK__",kesinlik:"yuzyil",kaynak:"BOŞLUK BEYANI: sahip tomara (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"tomara\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Tomaras»: \"founded Delhi in A.D. 736\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «The Tomaras»: \"The Tomaras continued to rule the Hariyana country till the middle of the twelfth century\" | f=0736 GELENEK tarihi (yüzyıl hassasiyeti), 0500 UFUK işareti değil: Delhi'nin 736 öncesi sahibi yazılmadı (kaynak yok). 1011'de Delhi Racası: R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Punjab under the Yamini Dynasty / Ghaznavid Invasion»: \"the Raja of Delhi, in whose kingdom Thaneswar was situat\" | t=1153 üst/alt sınır (IV. Vigraharaja'nın bilinen tarihleri 1153-1163; BEYANLI YAKLAŞIKLIK). · DOGU-500-1281"},{f:"1153-01-01",t:"1192-01-01",d:"cahamana",kesinlik:"onyil",kaynak:"R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Chahamanas of Sakambhari»: \"He conquered Dhillika (Delhi) from the Tomaras\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Foreword»: \"lost the second Battle of Tarain in 1192\" | f=1153 belirsiz (1153-1163 arası); t=1192 II. Tarain. · DOGU-500-1281"},{f:"1192-01-01",d:"gurlu",kaynak:"TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Aybeg 1192'de Gurlu Muizzüddin'in kumandanıdır · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1398-12-17",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV delhi: 'Buna rağmen Kutbüddin Aybeg şehri ele geçirmeye muvaffak oldu ve 1192’de burada Kuvvetü’l-İslâm Mescidi’ni yaptırdı.' · Gurlu → Delhi Sultanlığı ARDIL YAPI (Aybeg'in bağımsızlığı); geçiş günü kaynakta yok, delhi-sultanligi künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1398-12-17",t:"1399-01-01",d:"timurlu",eksklav:true},{f:"1399-01-01",t:"1526-04-21",d:"delhi-sultanligi"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1788-01-01",d:"babur-imparatorlugu"},{f:"1788-01-01",t:"1803-09-11",d:"maratha"},{f:"1803-09-11",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Agra — Sikender Lodî 1504'te kurdu ve başkent yaptı; Bâbürlü başkenti
 // 1526-1648. kur: bu yüzden yazıldı, 1504 öncesi boşluk KASITLIDIR.
@@ -242,7 +242,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1761-01-14", d:"babur-imparatorlugu"},
      {f:"1761-01-14", t:"1803-10-17", d:"maratha"},
-     {f:"1803-10-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-10-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Mathura — Yamuna'nın kutsal şehri; siyasî olarak hep Delhi/Agra ile aynı
 // eldedir. 1670 Evrengzîb'in mâbed yıkımı sahiplik değiştirmedi.
@@ -252,7 +252,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1770-01-01", d:"babur-imparatorlugu"},
      {f:"1770-01-01", t:"1803-10-17", d:"maratha"},
-     {f:"1803-10-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-10-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Mîrat (Meerut) — Delhi'nin kuzeydoğu kapısı. 1857 ayaklanması burada
 // başladı (10 Mayıs); sahiplik değişmediği için pencere açılmadı.
@@ -262,7 +262,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1788-01-01", d:"babur-imparatorlugu"},
      {f:"1788-01-01", t:"1803-09-11", d:"maratha"},
-     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Pânipat — Hint tarihinin üç dönüm noktasının sahnesi: 21 Nisan 1526
 // (Bâbür–İbrâhîm Lodî), 5 Kasım 1556 (Ekber–Hemû), 14 Ocak 1761
@@ -273,7 +273,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1556-11-05", d:"sur-hanedani"},
      {f:"1556-11-05", t:"1788-01-01", d:"babur-imparatorlugu"},
      {f:"1788-01-01", t:"1803-09-11", d:"maratha"},
-     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Hisâr-ı Fîrûze — Fîrûz Şah Tuğluk'un 1354'te kurduğu şehir; kur: yazıldı.
 { ad:"Hisâr-ı Fîrûze", tur:"kale", lat:29.1530, lon:75.7220, g:0, k:4, d:[],
@@ -282,12 +282,12 @@ window.YERLESIMLER_ASYA = [
      {f:"1526-04-21", t:"1540-05-17", d:"babur-imparatorlugu"},
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1803-09-11", d:"babur-imparatorlugu"},
-     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-09-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Koil (Aligarh) — Doâb'ın ortası. 1757-1803 arası Rohilla, Câtlar ve
 // Maratha arasında elden ele geçti; 4 Eylül 1803'te İngiliz'e düştü.
 { ad:"Koil (Aligarh)", tur:"kale", lat:27.8970, lon:78.0880, g:0, k:4, d:[],
-  s:[{f:"1194-01-01",d:"gurlu",kaynak:"TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · 'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1526-04-21",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · ardıl yapı; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1784-01-01",d:"babur-imparatorlugu"},{f:"1784-01-01",t:"1803-09-04",d:"maratha"},{f:"1803-09-04",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+  s:[{f:"1194-01-01",d:"gurlu",kaynak:"TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · 'Hind-İslâm Devleti’nin ilk hükümdarı' sıfatı sonradandır; 1194'te Aybeg Gurlu kumandanı · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1526-04-21",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV aligarh: 'yüzyılın sonlarına doğru Hind-İslâm Devleti’nin ilk hükümdarı Kutbüddin Aybeg tarafından fethedilmiştir (1194).' · ardıl yapı; künye günü devralındı — kaynaksız gün · ZAMAN-Z6-1008"},{f:"1526-04-21",t:"1540-05-17",d:"babur-imparatorlugu"},{f:"1540-05-17",t:"1555-07-23",d:"sur-hanedani"},{f:"1555-07-23",t:"1784-01-01",d:"babur-imparatorlugu"},{f:"1784-01-01",t:"1803-09-04",d:"maratha"},{f:"1803-09-04",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Etâve (Etawah) — Yamuna-Ganj arası. 1801'de Avad nevâbı tarafından
 // İngilizlere devredilen "Ceded Districts" içindedir.
@@ -297,7 +297,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kannauc — 17 Mayıs 1540'ta Şîr Şah Sûr'un Hümâyûn'u yendiği yer; Sûr
 // hanedanının kuruluş sahnesi. Cavnpur Sultanlığı 1394-1479 arasında
@@ -310,7 +310,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kanpûr — 1778'de İngiliz karargâhı kurulana kadar Ganj kıyısında bir
 // köydür; şehir sonradan büyümüştür. Görev tanımının örnek merkezlerinden
@@ -324,7 +324,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 1b. Avad ve doğu Ganj =====
 //
@@ -343,7 +343,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1856-02-07", d:"avad"},
-     {f:"1856-02-07", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1856-02-07", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Feyzâbâd — Avad'ın 1722-1775 arası ilk başkenti; Ayodhya'nın yanı başında.
 { ad:"Feyzâbâd (Ayodhya)", tur:"sehir", lat:26.7750, lon:82.1450, g:0, k:2,kd:[{f:"1722-01-01",t:"1856-02-07",k:1,m:"Feyzâbâd (Ayodhya)"}], d:[],
@@ -354,7 +354,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1856-02-07", d:"avad"},
-     {f:"1856-02-07", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1856-02-07", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Cavnpur — 1359'da Fîrûz Şah Tuğluk kurdu (kur:); 1394-1479 arasında Şarkî
 // hanedanının başkenti olarak Delhi'den bağımsız bir sultanlıktır. Bu
@@ -368,7 +368,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1775-01-01", d:"avad"},
-     {f:"1775-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1775-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Benâres (Vârânasî) — 1775'te Avad'dan İngilizlere devredildi.
 { ad:"Benâres (Vârânasî)", tur:"sehir", lat:25.3170, lon:83.0060, g:1, k:2,kd:[{f:"1911-01-01",t:"1923-10-29",k:1,m:"Benâres (Vârânasî)"}], d:[],
@@ -379,7 +379,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1775-01-01", d:"avad"},
-     {f:"1775-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1775-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Ilâhâbâd (Prayag) — Ekber 1583'te kaleyi kurdu ve şehre bu adı verdi;
 // yerleşim daha eskidir, bu yüzden kur: YAZILMADI.
@@ -391,7 +391,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1765-08-12", d:"babur-imparatorlugu"},
      {f:"1765-08-12", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Gorakhpûr — Ganj ovasının Nepal eteğindeki kuzey ucu.
 { ad:"Gorakhpûr", tur:"sehir", lat:26.7600, lon:83.3730, g:0, k:3, d:[],
@@ -402,7 +402,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1540-05-17", t:"1555-07-23", d:"sur-hanedani"},
      {f:"1555-07-23", t:"1722-01-01", d:"babur-imparatorlugu"},
      {f:"1722-01-01", t:"1801-11-10", d:"avad"},
-     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1801-11-10", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Katmandu — Nepal. Görev tanımının tablosunda yok; Himalaya'nın güney
 // yamacında 500 km'lik bir boşluk kalmasın diye TEK nokta olarak konuldu
@@ -454,7 +454,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1577-01-01", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
      {f:"1765-04-16", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Sirhind — Delhi ile Lahor arasındaki menzil şehri; 14 Ocak 1764'te Sih
 // misllerince yıkıldı, o tarihten sonra bir daha toparlanamadı.
@@ -465,7 +465,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1764-01-14", d:"afgan-durrani"},
      {f:"1764-01-14", t:"1849-03-29", d:"sih-imparatorlugu"},
-     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1849-03-29", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Câlandhar (Jalandhar)", tur:"sehir", lat:31.3260, lon:75.5760, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -474,7 +474,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
      {f:"1765-04-16", t:"1846-03-09", d:"sih-imparatorlugu"},
-     {f:"1846-03-09", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1846-03-09", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Ludhiyana", tur:"sehir", lat:30.9010, lon:75.8570, g:0, k:3, d:[],
   kur:"1480-01-01",
@@ -484,7 +484,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1555-07-23", t:"1752-04-01", d:"babur-imparatorlugu"},
      {f:"1752-04-01", t:"1765-04-16", d:"afgan-durrani"},
      {f:"1765-04-16", t:"1809-04-25", d:"sih-imparatorlugu"},
-     {f:"1809-04-25", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1809-04-25", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Siyâlkot", tur:"sehir", lat:32.4940, lon:74.5310, g:0, k:3, d:[],
   s:[{f:"0500-01-01",t:"0540-01-01",d:"alkhon",kesinlik:"onyil",kaynak:"SAHİP alkhon: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «The Disintegration of the Empire»: \"According to Hiuen Tsang his capital was Sakala or Sialkot\" | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «The Disintegration of the Empire»: \"The defeat of Mihirakula appears to have finally crushed the Huna political supremacy in India.\" | BEYANLI YAKLAŞIKLIK: Sakala = Mihirakula'nın başkenti (Hiuen Tsang; Majumdar güvenilirliğini sorgular); Toramana 500-515 Pencap'tan geldi (Chenab'da Pavvaiya). t=0540 ONYIL (Mihirakula yenilgisi, yıl yok). | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı) · DOGU-500-1281"},{f:"0540-01-01",t:"0883-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Siyâlkot'un 540-883 arası sahibi (polity/hanedan) kaynaklarda adlandırılmıyor. | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), Önsöz (K. M. Munshi): «Mihirakula then fell back on Kashmir which he captured, and died soon after.» (Alkhon'un Pencap'tan çekilişi; gün yok) | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. III: The Classical Age, Bharatiya Vidya Bhavan, Bombay 1954 (archive.org: classicalage03bhar, tam metin okundu), «Harsha and his time»: «The most important kingdom in the Punjab is called Cheh-ka, which probably stands for Takka. Its capital was near Sialkot and it extended from the Beas in the east to the Sindhu on the west.» (Xuanzang, 630-644 yolculuğu: Takka devleti VAR ama hanedanı/öncesi-sonrası adlandırılmıyor) | TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan (22.10.2026'da okundu): «başşehri Pencap’taki Siyâlkût’un birkaç mil kuzeyinde bulunan Takkadesa (Tâka)» (Arap coğrafyacıları; IX-X. yy) | Takka'nın 633→883 arası hanedan sürekliliği kaynakta kurulamadı ve atlasta Takka künyesi YOK (künye önerisi RAPOR.md). Komşu devletlerin sahipliği (Karkota, Gürcara-Pratihâra, Hindu Şâhî) Siyâlkot için kanıtlanamadı; M3 Lalitaditya'nın seferlerini «conventional» sayar. Ufuk: f=0540 = alkhon künyesi t (onyil). · DOGU-500-1281"},{f:"0883-01-01",t:"0902-01-01",d:"utpala-kesmir",kesinlik:"onyil",kaynak:"BOŞLUK BEYANI: sahip utpala-kesmir (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"utpala-kesmir\" geri yazılır) · R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), «Central and Western India», IX. Shahis: «King Sahkaravarman (A.D. 883- 902) of the Utpala dynasty of Kashmir invaded the kingdom of Alakhana and wrested from him Takka-land, which was the country adjoining the lower hills east of the Chenab.» | BEYANLI YAKLAŞIKLIK: Siyâlkot Chenab'in doğusunda, Takkadesa içinde (TDV Hindistan: Takkadesa Siyâlkût'un kuzeyinde; M3: Cheh-ka başkenti Siyâlkot yakını). Fetih yılı kaynakta yok: f=883 Şankaravarman'ın hükümdarlık başı, t=902 sonu (onyil; M4 başka yerde fetih için «early years of the tenth century» der). · DOGU-500-1281"},{f:"0902-01-01",t:"0991-01-01",d:"__BOSLUK__",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: 902-991 arası Siyâlkot sahibi. | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. IV: The Age of Imperial Kanauj, Bharatiya Vidya Bhavan, Bombay 1955 (archive.org: ageofimperialkan04bhar, tam metin okundu), IX. Shahis: «Sankaravarman, king of Kashmir, deprived the Pratihara Mahendrapala of his territories in the Punjab and handed them over to one of his officers, who belonged to the Thakkiya family.» (Thakkiya idaresinin süresi ve Keşmir'e bağlılığı yazılı değil; Hindu Şâhî yayılmasının Siyâlkot'u kapsayıp kapsamadığı kaynakta yok.) | Lahor (abi merkez adayı) için de 902-982 sahibi TDV'de yok (TDV Lahor: 982'de Mültan emîri); bu yüzden abi merkez zinciri kurulamadı. · DOGU-500-1281"},{f:"0991-01-01",t:"1013-01-01",d:"hindu-sahiler",kesinlik:"yil",kaynak:"BOŞLUK BEYANI: sahip hindu-sahiler (renkler.py BOYALAR'da yok → boya gerekli; boya eklenince d:\"hindu-sahiler\" geri yazılır) · TDV İslâm Ansiklopedisi, «Lahor», https://islamansiklopedisi.org.tr/lahor (22.10.2026'da okundu): «Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.» | BEYANLI YAKLAŞIKLIK — ABİ MERKEZ: Lahor (Pencap'ın siyasî-askerî merkezi; Siyâlkot Lahor'un bağlı toprağı, her iki şehir de 1185-86'da Hüsrev Melik'in elinden Gurlulara geçti: M5 + TDV Hindistan). Siyâlkot'a özgü Hindu Şâhî tanığı YOK. f=991 TDV'nin «991'den sonra»sı (en erken sınır). · DOGU-500-1281"},{f:"1013-01-01",t:"1185-01-01",d:"gazneli",kesinlik:"yil",kaynak:"TDV İslâm Ansiklopedisi, «Lahor», https://islamansiklopedisi.org.tr/lahor (22.10.2026'da okundu): «Şehir 991’den sonra Hindûşâhîler’in, 1013-1014’te Gazneli Mahmud’un eline geçti.» | TDV İslâm Ansiklopedisi, «Gazneliler», https://islamansiklopedisi.org.tr/gazneliler (22.10.2026'da okundu) (Erdoğan Merçil): «Sonuçta Hüsrev Şah Gazne’yi terkederek Lahor şehrine yerleşti. Gazneliler bundan sonra Hindistan’daki topraklar üzerinde hüküm sürdüler.» | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Ghaznavid invasion»: «In 1184 Muhzz-ud-din Muhammad again invaded Lahore but, having failed to capture it, ravaged the neighbouring districts. On his way back he captured the fort of Sialkot» (Siyâlkot kalesi Hüsrev Melik'in elinde idi) | BEYANLI YAKLAŞIKLIK — ABİ MERKEZ: Lahor (1013-14 → Gazneli; TDV). Siyâlkot'a özgü ilk Gazneli tanığı 1184-85 (kale fethi); 1013-1184 arası Siyâlkot'a özgü tanık yok. · DOGU-500-1281"},{f:"1185-01-01",t:"1206-01-01",d:"gurlu",kesinlik:"yil",kaynak:"R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «Muhammad of Ghur»: «Peshawar was taken in A.D. 1178, Sialkot fell in A.D. 1185, and the following year Lahore was captured by treachery from Khusrav Malik, the last of the Ghaznavids» | TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan (22.10.2026'da okundu): «Muizzüddin Muhammed 1186’da Lahor’u zaptederek Hindistan’daki Gazneli hâkimiyetine son verdi» | ÇELİŞKİ (ic_not): M5 Siyâlkot kalesinin alınışını bir yerde 1184'te («In 1184 … captured the fort of Sialkot, and posted there Husain»), başka yerde 1185'te («Sialkot fell in A.D. 1185») verir; gün yok. 1185 alındı (açık «fell in» cümlesi). Kale muhafızı Husayn b. Harmîl (M5); Hüsrev Melik'in karşı hamlesi başarısız. · DOGU-500-1281"},{f:"1206-01-01",t:"1281-01-01",d:"delhi-sultanligi",kesinlik:"yil",kaynak:"TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan (22.10.2026'da okundu): «DELHİ SULTANLIĞI (Kuzey ve Orta Hindistan, 1206-1526)» | R. C. Majumdar (ed.), The History and Culture of the Indian People, Vol. V: The Struggle for Empire, Bharatiya Vidya Bhavan, Bombay 1957 (archive.org: struggleforempir05bhar, tam metin okundu), «The Mamluk Sultans of Delhi»: «Before his death he managed to extend his rule up to Sialkot and Hajner in the north» (İltutmış, ö. 1236) | BEYANLI YAKLAŞIKLIK: (a) 1206-c.1230 arası Siyâlkot'a özgü tanık yok; M5: «Qaba- cha pushed to Multan and extended his hold over Lahore, Bhatinda» (Aram Şah dönemi), Delhi'nin Pencap'taki fiilî hâkimiyeti İltutmış'ın Sialkot'a uzanmasına dek tartışmalı; (b) M5: «tacitly acquiesced in the loss of Sindh and the Punjab west of the Beas line» (1257 sonrası Moğol vasalları) — Siyâlkot adı geçmez, Delhi'de bırakıldı; 1281 mevcut zincir başı delhi-sultanligi ile süreklilik için. · DOGU-500-1281"},{f:"1281-01-01", t:"1526-04-21", d:"delhi-sultanligi"},
@@ -692,7 +692,7 @@ window.YERLESIMLER_ASYA = [
 // 1559'da aldı, 1818'de Maratha'dan İngilizlere geçti ve prens devleti
 // olmadı. Bu yüzden zinciri komşularından ayrılır.
 { ad:"Ecmîr (Ajmer)", tur:"sehir", lat:26.4500, lon:74.6390, g:1, k:3, d:[],
-  s:[{f:"0682-01-01",t:"1192-01-01",d:"cahamana",kesinlik:"yil",kaynak:"«Ecmîr», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ecmir (22.10.2026'da okundu), «Ecmîr»: \"yönetici prensin 682 yılında Lahor racasıyla akrabalık tesis ettiğini\" | «Ecmîr», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ecmir (22.10.2026'da okundu), «Ecmîr»: \"Racpûtlar’ın Cauhan kabilesinin dinî ve siyasî merkezi olarak kurulmuştur (II. yüzyıl)\" | «Ecmîr», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ecmir (22.10.2026'da okundu), «Ecmîr»: \"Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.\" | BEYANLI YAKLAŞIKLIK: f=0682 TDV'nin şehir için verdiği ilk TARİHLİ bilgidir (Târîḫ-i Firişte kaydı), kuruluş değil; TDV 987 ve 1008'de prensin Hindu birliklerine yardımını ve Gazneli Mahmud'un 1024'te şehri yağmalamasını da anar. ÇELİŞKİ: Majumdar V Ajayameru'yu Ajayaraja'nın kurduğunu söyler (Arnoraja 1133'ten önce tahtta, yani 12. yy başı); TDV (esas) şehrin II. yüzyılda kurulduğunu söyler. `cahamana` künyesi f=1000 'kuşak ucu' → f≤0682 genişletme önerisi. · DOGU-500-1281"},{f:"1192-01-01",d:"gurlu",kaynak:"TDV ecmir: 'Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.' · fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi) · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1365-01-01",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV ecmir: 'Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e (ö.' · Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil · ZAMAN-Z6-1008"},{f:"1365-01-01",t:"1559-01-01",d:"racput"},{f:"1559-01-01",t:"1756-01-01",d:"babur-imparatorlugu"},{f:"1756-01-01",t:"1818-06-25",d:"maratha"},{f:"1818-06-25",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+  s:[{f:"0682-01-01",t:"1192-01-01",d:"cahamana",kesinlik:"yil",kaynak:"«Ecmîr», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ecmir (22.10.2026'da okundu), «Ecmîr»: \"yönetici prensin 682 yılında Lahor racasıyla akrabalık tesis ettiğini\" | «Ecmîr», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ecmir (22.10.2026'da okundu), «Ecmîr»: \"Racpûtlar’ın Cauhan kabilesinin dinî ve siyasî merkezi olarak kurulmuştur (II. yüzyıl)\" | «Ecmîr», TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ecmir (22.10.2026'da okundu), «Ecmîr»: \"Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.\" | BEYANLI YAKLAŞIKLIK: f=0682 TDV'nin şehir için verdiği ilk TARİHLİ bilgidir (Târîḫ-i Firişte kaydı), kuruluş değil; TDV 987 ve 1008'de prensin Hindu birliklerine yardımını ve Gazneli Mahmud'un 1024'te şehri yağmalamasını da anar. ÇELİŞKİ: Majumdar V Ajayameru'yu Ajayaraja'nın kurduğunu söyler (Arnoraja 1133'ten önce tahtta, yani 12. yy başı); TDV (esas) şehrin II. yüzyılda kurulduğunu söyler. `cahamana` künyesi f=1000 'kuşak ucu' → f≤0682 genişletme önerisi. · DOGU-500-1281"},{f:"1192-01-01",d:"gurlu",kaynak:"TDV ecmir: 'Şehir 1192’de Muhammed Gūrî tarafından fethedilerek İslâm hâkimiyeti altına alındı.' · fetihten sonra yönetime sultana bağlı Hindu raca getirildi (tâbi, `v:` önerilmedi) · ZAMAN-Z6-1008",t:"1206-01-01",kesinlik:"yil"},{f:"1206-01-01",t:"1365-01-01",d:"delhi-sultanligi",kaynak:"f 1281-01-01'den geri çekildi — TDV ecmir: 'Önceleri yöneticiliğe sultana bağlı kalmak şartıyla son racanın oğlu getirildiyse de bu Hindu hânedanın sık sık isyana kalkışması yüzünden Delhi Sultanlığı’nın kurucusu Kutbüddin Aybeg (1206-1210) tarafından yönetim onlardan alınarak kumandan Seyyid Hüseyin’e (ö.' · Aybeg'in saltanatı 1206'da başlar; künye günü ile aynı — saltanat aralığının başı, kesin gün değil · ZAMAN-Z6-1008"},{f:"1365-01-01",t:"1559-01-01",d:"racput"},{f:"1559-01-01",t:"1756-01-01",d:"babur-imparatorlugu"},{f:"1756-01-01",t:"1818-06-25",d:"maratha"},{f:"1818-06-25",t:"1947-08-15",d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Çitor (Chittorgarh) — Mevar'ın kalesi ve Hint tarihinin üç büyük
 // kuşatmasının sahnesi: Alâeddin Halacî 26 Ağustos 1303, Gucerât sultanı
@@ -713,22 +713,22 @@ window.YERLESIMLER_ASYA = [
   kur:"1459-01-01",
   s:[{f:"1459-01-01", t:"1679-01-01", d:"racput"},
      {f:"1679-01-01", t:"1707-03-03", d:"babur-imparatorlugu"},
-     {f:"1707-03-03", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
+     {f:"1707-03-03", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of …"}] },
 
 // Caypûr — Sevâî Cay Singh 1727'de kurdu (kur:). Öncesinde hânedanın
 // merkezi 9 km kuzeydoğudaki Amber'dir; Amber ayrı nokta olarak EKLENMEDİ
 // (3 km kuralını geçiyor ama aynı peteği paylaşıyorlar).
 { ad:"Caypûr (Jaipur)", tur:"sehir", lat:26.9120, lon:75.7870, g:1, k:1,kd:[{f:"1727-01-01",t:"1923-10-29",k:1,m:"Caypûr (Jaipur)"}], d:[],
   kur:"1727-01-01",
-  s:[{f:"1727-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
+  s:[{f:"1727-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of …"}] },
 
 { ad:"Caysalmer", tur:"kale", lat:26.9150, lon:70.9120, g:0, k:4, d:[],
-  s:[{f:"1281-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
+  s:[{f:"1281-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of …"}] },
 
 // Bikaner — Rao Bika 1488'de kurdu (kur:).
 { ad:"Bikaner", tur:"sehir", lat:28.0220, lon:73.3120, g:0, k:3, d:[],
   kur:"1488-01-01",
-  s:[{f:"1488-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
+  s:[{f:"1488-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of …"}] },
 
 // Bharatpûr — Câtların devleti; Sûrac Mal 1733'te kaleyi kurdu (kur:).
 // Racput değildir, ayrı kimlik: 1761-1774 arasında Agra kalesini de tuttu.
@@ -750,7 +750,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1411-02-26", t:"1572-11-18", d:"gucerat-sultanligi"},
      {f:"1572-11-18", t:"1753-04-01", d:"babur-imparatorlugu"},
      {f:"1753-04-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Sûrat — Hint Okyanusu'nun en büyük Müslüman limanı ve Mekke yolunun
 // çıkış kapısı; Osmanlı ile temasın olduğu tek Hint şehridir (1538 Diu
@@ -762,7 +762,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1759-03-04", d:"babur-imparatorlugu"},
-     {f:"1759-03-04", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1759-03-04", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kanbâyet (Cambay/Khambhat) — Gucerât'ın ortaçağdaki asıl limanı; körfezin
 // dolmasıyla yerini Sûrat'a bıraktı. 1780'den sonra Bâbürlü nevâbının
@@ -773,7 +773,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1753-04-01", d:"babur-imparatorlugu"},
      {f:"1753-04-01", t:"1803-12-30", d:"maratha"},
-     {f:"1803-12-30", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-12-30", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Diu — 1509 Diu deniz savaşı ve 1538 Osmanlı-Gucerât kuşatmasının sahnesi.
 // Portekiz 1535'te kaleyi kurdu ve 1961'e kadar elinde tuttu; bu dosyadaki
@@ -782,7 +782,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1535-10-25", d:"gucerat-sultanligi"},
-     {f:"1535-10-25", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1961-12-19",d:"portekiz-hindistani-goa",kaynak:"Hindistan'in Goa/Daman/Diu ilhaki 19 Aralik 1961 (Britannica Goa)"},{f:"1961-12-19",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Goa"}] },
+     {f:"1535-10-25", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1961-12-19",d:"portekiz-hindistani-goa",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye portekiz-hindistani-goa t ucunun kaynağı — encyclopedia.com 'Portuguese in India'; 'Goa' (New Catholic Encyclopedia) — «On 19 December 1961, Goa was rid of the 450-year Portuguese rule after a thirty-six-hour Indian military operation.» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Hindistan'in Goa/Daman/Diu ilhaki 19 Aralik 1961 (Britannica Goa)"},{f:"1961-12-19",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Goa"}] },
 
 // Cûnâgadh — Girnar eteğindeki racput kalesi; 1472'de Gucerât sultanı
 // Mahmud Begada aldı, 1748'de Bâbürlü nevâbı bağımsızlaşarak prens devleti
@@ -797,7 +797,7 @@ window.YERLESIMLER_ASYA = [
 // himayesine girdi ama taht sürdü.
 { ad:"Bhuc (Kutch)", tur:"sehir", lat:23.2420, lon:69.6670, g:0, k:3, d:[],
   kur:"1510-01-01",
-  s:[{f:"1510-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of Congress Country Studies: India"}] },
+  s:[{f:"1510-01-01", t:"1947-08-15", d:"racput"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Indian Independence Act 1947' ve 'Rajasthan' (Rajput devletleri 1947-48'de Hindistan'a katıldı, 1949 Rajasthan); Library of …"}] },
 
 // Patan (Anhilvâda) — Vâghela başkenti; 1304'te Delhi'ye, 1411'de
 // Ahmedâbâd'ın kurulmasıyla ikinci sıraya düştü.
@@ -807,7 +807,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1407-01-01", t:"1572-11-18", d:"gucerat-sultanligi"},
      {f:"1572-11-18", t:"1753-04-01", d:"babur-imparatorlugu"},
      {f:"1753-04-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Çampâner — Gucerât sultanı Mahmud Begada 1484'te aldı ve 1535'e kadar
 // başkent yaptı; Hümâyûn'un 1535 seferinden sonra terk edildi ve bir daha
@@ -818,14 +818,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1484-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1753-04-01", d:"babur-imparatorlugu"},
      {f:"1753-04-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Broaç (Bharuch)", tur:"liman", lat:21.7153, lon:72.9950, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
      {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
      {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
      {f:"1573-02-26", t:"1772-11-18", d:"babur-imparatorlugu"},
-     {f:"1772-11-18", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1772-11-18", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // MÂLVÂ: Delhi 1305'te aldı; Dilâver Han 1392'de bağımsızlığını ilân etti
 // (TDV MÂLVÂ). Gucerât 1531-1535 arasında işgal etti. Bâz Bahadır'ın
@@ -839,7 +839,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1531-01-01", t:"1535-01-01", d:"gucerat-sultanligi"},
      {f:"1535-01-01", t:"1561-03-29", d:"malva-sultanligi"},
      {f:"1561-03-29", t:"1732-01-01", d:"babur-imparatorlugu"},
-     {f:"1732-01-01", t:"1818-06-03", d:"maratha"},{f:"1818-06-03",t:"1947-08-15",d:"ingiliz-hindistani",kaynak:"Britannica Dhar (Puar hânedanı Maratha konfederasyonu içinde; konfederasyon 1818-06-03'te bitti, Dhar İngiliz himayesinde yerli devlet). GUNEY-ASYA-DENETIM-1027: eski 'maratha → 1923-10-29' bitişi veri ufku yer tutucusuydu, künye (maratha t=1818-06-03) dışına taşıyordu"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica India"}] },
+     {f:"1732-01-01", t:"1818-06-03", d:"maratha"},{f:"1818-06-03",t:"1947-08-15",d:"ingiliz-hindistani",kaynak:"Britannica Dhar (Puar hânedanı Maratha konfederasyonu içinde; konfederasyon 1818-06-03'te bitti, Dhar İngiliz himayesinde yerli devlet). GUNEY-ASYA-DENETIM-1027: eski 'maratha → 1923-10-29' bitişi veri ufku yer tutucusuydu, künye (maratha t=1818-06-03) dışına taşıyordu"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica India"}] },
 
 { ad:"Uccayn (Ujjain)", tur:"sehir", lat:23.1790, lon:75.7850, g:0, k:3, d:[],
   s:[
@@ -908,7 +908,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1702-01-01", t:"1743-01-01", d:"gond-kralliklari"},
      {f:"1743-01-01", t:"1818-06-03", d:"maratha"},
      {f:"1818-06-03", t:"1853-12-11", d:"nagpur-bhonsle", kaynak:"IGI c.21 s.51: 1818-1830 İngiliz Resident idaresi, 1830-1853 Maratha subahları; Britannica 'Nagpur (Indian dynasty)': British clients 1818-1853. maratha künyesi 1818-06-03'te biter, nagpur-bhonsle künyesi 1853-12-11'e dek (GUNEY-ASYA-DENETIM-1027)"},
-     {f:"1853-12-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1853-12-11", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Cabalpûr — Gond Garha-Mandla krallığı; Ekber 1564'te vergiye bağladı ama
 // hânedan sürdü. 1781'de Maratha, 1818'de İngiliz.
@@ -918,7 +918,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1301-01-01", d:"__BOSLUK__"},
      {f:"1301-01-01", t:"1781-01-01", d:"gond-kralliklari"},
      {f:"1781-01-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 1f. Bihâr, Bengal ve Orissa =====
 //
@@ -954,7 +954,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1574-08-03", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
      {f:"1764-10-22", t:"1947-08-15", d:"ingiliz-hindistani"},
-     {f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Gayâ", tur:"sehir", lat:24.7960, lon:85.0010, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1497-01-01", d:"delhi-sultanligi"},
@@ -963,7 +963,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1574-08-03", d:"bengal-sultanligi"},
      {f:"1574-08-03", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
-     {f:"1764-10-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1764-10-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Mungîr (Monghyr)", tur:"kale", lat:25.3750, lon:86.4740, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1340-01-01", d:"delhi-sultanligi"},
@@ -972,7 +972,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1764-10-22", d:"bengal-nevabligi"},
-     {f:"1764-10-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1764-10-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Bhâgalpûr", tur:"sehir", lat:25.2440, lon:86.9820, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1340-01-01", d:"delhi-sultanligi"},
@@ -981,7 +981,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Gaur (Lakhnautî) — Bengal Sultanlığı'nın başkenti. 1575 vebasından sonra
 // terk edildi; bit: bu yüzden yazıldı. Sahiplik zinciri Oturum 4'ün Köhne
@@ -995,7 +995,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Pandua (Hazret Pandua) — Bengal'in 1342-1453 arası başkenti; Gaur'a
 // 30 km, 3 km kuralını rahatça geçiyor.
@@ -1006,7 +1006,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1564-01-01", t:"1576-07-12", d:"bengal-sultanligi"},
      {f:"1576-07-12", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Râcmahal — Man Singh 1592'de Bâbürlü Bengal'inin başkenti yaptı (kur:).
 // 12 Temmuz 1576'daki Râcmahal Muharebesi Bengal Sultanlığı'nı bitirdi.
@@ -1014,7 +1014,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1592-01-01",
   s:[{f:"1592-01-01", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Murşidâbâd — Murşid Kulı Han 1704'te kurdu ve nevâblığın başkenti yaptı
 // (kur:). Palaşi'den sonra da nevâb sarayı burada kaldı ama toprak
@@ -1023,7 +1023,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1704-01-01",
   s:[{f:"1704-01-01", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Dakka (Cihângîrnagar) — İslâm Han 1610'da Bâbürlü Bengal'inin başkenti
 // yaptı; şehir daha eskidir, bu yüzden kur: YAZILMADI.
@@ -1066,7 +1066,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1690-08-24",
   s:[{f:"1690-08-24", t:"1756-06-20", d:"ingiltere"},
      {f:"1756-06-20", t:"1757-01-02", d:"bengal-nevabligi"},
-     {f:"1757-01-02", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-01-02", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Hûglî — Portekiz 1580'de kurdu, Şah Cihan 1632'de zaptetti; Bengal'in
 // ilk Avrupa yerleşimidir.
@@ -1079,7 +1079,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1580-01-01", t:"1632-06-24", d:"portekiz",enklav:true},
      {f:"1632-06-24", t:"1717-01-01", d:"babur-imparatorlugu"},
      {f:"1717-01-01", t:"1757-06-23", d:"bengal-nevabligi"},
-     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Çandernagor — Fransız Bengal'i, 1688'de kuruldu (kur:). Hûglî'ye 5.1 km;
 // 3 km kuralını geçiyor ve iki ayrı devletin toprağı olduğu için ikisi de
@@ -1099,14 +1099,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1568-01-01", t:"1592-01-01", d:"bengal-sultanligi"},
      {f:"1592-01-01", t:"1751-05-17", d:"babur-imparatorlugu"},
      {f:"1751-05-17", t:"1803-10-14", d:"maratha"},
-     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Puri", tur:"sehir", lat:19.8130, lon:85.8310, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1568-01-01", d:"orissa"},
      {f:"1568-01-01", t:"1592-01-01", d:"bengal-sultanligi"},
      {f:"1592-01-01", t:"1751-05-17", d:"babur-imparatorlugu"},
      {f:"1751-05-17", t:"1803-10-14", d:"maratha"},
-     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Bâlâsor — İngiliz Doğu Hindistan Şirketi'nin Bengal'deki İLK fabrikası
 // (1633); Kalküta'dan 57 yıl önce.
@@ -1115,7 +1115,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1568-01-01", t:"1592-01-01", d:"bengal-sultanligi"},
      {f:"1592-01-01", t:"1751-05-17", d:"babur-imparatorlugu"},
      {f:"1751-05-17", t:"1803-10-14", d:"maratha"},
-     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-10-14", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ASSAM — Ahom krallığı 1228'de kuruldu ve altı yüzyıl boyunca hem
 // Bâbürlü hem Bengal saldırılarını püskürttü (1671 Saraighat). Birmanya
@@ -1124,13 +1124,13 @@ window.YERLESIMLER_ASYA = [
 { ad:"Gauhâtî (Guwahati)", tur:"sehir", lat:26.1450, lon:91.7360, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1817-01-01", d:"ahom"},
      {f:"1817-01-01", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1826-02-24", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Rangpûr (Sibsâgar) — Ahom krallığının 1699'dan sonraki başkenti.
 { ad:"Sibsâgar (Rangpûr)", tur:"sehir", lat:26.9850, lon:94.6380, g:0, k:1,kd:[{f:"1281-01-01",t:"1826-01-01",k:1,m:"Sibsâgar (Rangpûr)"}], d:[],
   s:[{f:"1281-01-01", t:"1817-01-01", d:"ahom"},
      {f:"1817-01-01", t:"1826-02-24", d:"konbaung"},
-     {f:"1826-02-24", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1826-02-24", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Manipûr — Ahom ile Birmanya arasındaki dağ krallığı; 1819-1826 Birman
 // işgali, 1826'dan sonra İngiliz himayesinde prens devleti, 1891'de
@@ -1186,7 +1186,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1490-01-01", t:"1600-08-28", d:"ahmednagar"},
      {f:"1600-08-28", t:"1759-01-01", d:"babur-imparatorlugu"},
      {f:"1759-01-01", t:"1803-08-12", d:"maratha"},
-     {f:"1803-08-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1803-08-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Elicpûr (Achalpur) — Berâr'ın İmâdşâhî başkenti; 1574'te Ahmednagar
 // ilhak etti. 1853'te Berâr, Nizam'ın borcuna karşılık İngiliz idaresine
@@ -1200,7 +1200,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1574-01-01", t:"1596-01-01", d:"ahmednagar"},
      {f:"1596-01-01", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1853-05-21", d:"haydarabad-nizam"},
-     {f:"1853-05-21", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1853-05-21", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Bîdar — Behmenî başkenti 1432'den itibaren; 1489'da Barîdşâhî hânedanı
 // bağımsızlaştı, 1619'da Bîcâpur ilhak etti, 1657'de Evrengzîb aldı.
@@ -1234,7 +1234,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1686-09-12", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1760-01-01", d:"haydarabad-nizam"},
      {f:"1760-01-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Golkonda — Kutubşâhî kalesi; Evrengzîb 21 Eylül 1687'de sekiz aylık
 // kuşatmadan sonra aldı ve Dekken'in son bağımsız sultanlığı bitti.
@@ -1286,7 +1286,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1490-01-01", t:"1636-01-01", d:"ahmednagar"},
      {f:"1636-01-01", t:"1674-06-06", d:"bicapur"},
      {f:"1674-06-06", t:"1817-11-17", d:"maratha"},
-     {f:"1817-11-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1817-11-17", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Raygad — Şivâcî'nin başkenti. Evrengzîb 3 Kasım 1689'da aldı, Marathalar
 // 1733'te geri aldı, İngilizler 9 Mayıs 1818'de.
@@ -1299,7 +1299,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1674-06-06", t:"1689-11-03", d:"maratha"},
      {f:"1689-11-03", t:"1733-01-01", d:"babur-imparatorlugu"},
      {f:"1733-01-01", t:"1818-05-09", d:"maratha"},
-     {f:"1818-05-09", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-05-09", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Satâra — 1708-1818 arası Maratha çhatrapatilerinin makamı; 1818'de
 // prens devleti oldu, 1848'de "lapse" doktriniyle ilhak edildi.
@@ -1309,7 +1309,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1674-06-06", d:"bicapur"},
      {f:"1674-06-06", t:"1818-06-03", d:"maratha"},
-     {f:"1818-06-03", t:"1947-08-15", d:"ingiliz-hindistani", kaynak:"Satara 1818'de Peşvâ'nın düşüşüyle İngilizlere geçti; Pratap Singh Bhonsle İngiliz himayesinde yerli racalık olarak 1848-04-05 lapse'ına dek (Doctrine of Lapse) sürdü, sonra doğrudan İngiliz idaresi. maratha künyesi 1818-06-03'te biter (eski 'maratha → 1848' künye dışıydı). GUNEY-ASYA-DENETIM-1027"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-06-03", t:"1947-08-15", d:"ingiliz-hindistani", kaynak:"Satara 1818'de Peşvâ'nın düşüşüyle İngilizlere geçti; Pratap Singh Bhonsle İngiliz himayesinde yerli racalık olarak 1848-04-05 lapse'ına dek (Doctrine of Lapse) sürdü, sonra doğrudan İngiliz idaresi. maratha künyesi 1818-06-03'te biter (eski 'maratha → 1848' künye dışıydı). GUNEY-ASYA-DENETIM-1027"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kolhapûr — Şivâcî soyunun ikinci kolu; 1949'a kadar prens devleti kaldı,
 // bu yüzden 1923'e kadar "maratha".
@@ -1336,7 +1336,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1490-01-01", t:"1636-01-01", d:"ahmednagar"},
      {f:"1636-01-01", t:"1760-01-01", d:"babur-imparatorlugu"},
      {f:"1760-01-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Bombay — yedi adanın Portekiz'e geçişi 23 Aralık 1534 Bassein
 // Antlaşması'yladır. 1661 evlilik antlaşmasıyla İngiltere'ye verildi,
@@ -1347,7 +1347,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1407-01-01", t:"1534-12-23", d:"gucerat-sultanligi"},
      {f:"1534-12-23", t:"1665-02-18", d:"portekiz"},
      {f:"1665-02-18", t:"1757-06-23", d:"ingiltere",enklav:true},
-     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani",eksklav:true},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani",eksklav:true},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Çaul — Portekiz'in Bombay'dan eski limanı (1521); Marathalar 1740'ta
 // aldı. Bombay'a 43 km.
@@ -1358,7 +1358,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1490-01-01", t:"1521-01-01", d:"ahmednagar"},
      {f:"1521-01-01", t:"1740-01-01", d:"portekiz"},
      {f:"1740-01-01", t:"1818-01-01", d:"maratha"},
-     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1818-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Goa — Albuquerque 25 Kasım 1510'da Bîcâpur'dan aldı; Portekiz Hindistanı'nın
 // başkenti ve 1961'e kadar Portekiz toprağı. Bu dosyadaki en uzun ikinci
@@ -1368,14 +1368,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1318-01-01", t:"1347-08-03", d:"delhi-sultanligi"},
      {f:"1347-08-03", t:"1490-01-01", d:"behmeni"},
      {f:"1490-01-01", t:"1510-11-25", d:"bicapur"},
-     {f:"1510-11-25", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1961-12-19",d:"portekiz-hindistani-goa",kaynak:"Hindistan'in Goa/Daman/Diu ilhaki 19 Aralik 1961 (Britannica Goa)"},{f:"1961-12-19",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Goa"}] },
+     {f:"1510-11-25", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1961-12-19",d:"portekiz-hindistani-goa",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye portekiz-hindistani-goa t ucunun kaynağı — encyclopedia.com 'Portuguese in India'; 'Goa' (New Catholic Encyclopedia) — «On 19 December 1961, Goa was rid of the 450-year Portuguese rule after a thirty-six-hour Indian military operation.» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Hindistan'in Goa/Daman/Diu ilhaki 19 Aralik 1961 (Britannica Goa)"},{f:"1961-12-19",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica Goa"}] },
 
 { ad:"Mangalor", tur:"liman", lat:12.9140, lon:74.8560, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1343-01-01", d:"hoysala"},
      {f:"1343-01-01", t:"1565-01-26", d:"vijayanagara"},
      {f:"1565-01-26", t:"1763-01-01", d:"nayak-devletleri"},
      {f:"1763-01-01", t:"1799-05-04", d:"meysur"},
-     {f:"1799-05-04", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1799-05-04", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 2c. Vijayanagara ve Karnataka =====
 
@@ -1389,7 +1389,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1686-09-12", d:"bicapur"},
      {f:"1686-09-12", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1800-10-12", d:"haydarabad-nizam"},
-     {f:"1800-10-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1800-10-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Raycur (Raichur) — Krişna ile Tungabhadra arasındaki "Raycur doâbı",
 // Vijayanagara ile Bîcâpur'un yüz yıllık kavga konusu. Krişnadevarâya
@@ -1414,7 +1414,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1686-09-12", d:"bicapur"},
      {f:"1686-09-12", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1800-10-12", d:"haydarabad-nizam"},
-     {f:"1800-10-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1800-10-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Bangalor — Kempe Gowda 1537'de kurdu (kur:); 1687'de Bîcâpur'dan
 // Meysûr'a satıldı. Cornwallis 21 Mart 1791'de aldı ama 1792 Seringapatam
@@ -1425,7 +1425,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1687-01-01", d:"bicapur"},
      {f:"1687-01-01", t:"1799-05-04", d:"meysur"},
      // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
-     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
+     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
 
 // MEYSÛR — Vodeyar hânedanı 1399'dan beri Vijayanagara'nın tâbiidir;
 // Talikota'dan sonra bağımsızlaştı. Haydar Ali 1761'de, Tipu Sultan
@@ -1439,7 +1439,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1610-01-01", d:"vijayanagara", kaynak:"IGI XXII «Seringapatam Town» (Oxford 1908): 1495'ten itibaren Vijayanagar kralları'nın doğrudan mülkü, Sri Ranga Rayal valisi; Talikota 1565'ten sonra da vali elinde; IGI XVIII «Mysore State»: Raja Wodeyar 1610'da Seringapatam'ı ele geçirdi, vali Tirumala Raja atıldı. GUNEY-ASYA-DENETIM-1029"},
      {f:"1610-01-01", t:"1799-05-04", d:"meysur", kaynak:"IGI XVIII «Mysore State» (1908) s.178: «He contrived in 1610 to gain possession of Seringapatam»; Seringapatam Vodeyar başkenti; Haydar Ali «took possession in 1761» ama «always maintained a royal occupant» (aynı polity: künye meysur f=1610); 4 Mayıs 1799 Tipu düştü (IGI XVIII s.183). GUNEY-ASYA-DENETIM-1029"},
      // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
-     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
+     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
 
 // Meysûr — Seringapatam'a 13 km; 1799'dan sonra krallığın başkenti oldu.
 { ad:"Meysûr (Mysore)", tur:"sehir", lat:12.2950, lon:76.6390, g:1, k:3, d:[],
@@ -1448,7 +1448,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1565-01-26", t:"1610-01-01", d:"vijayanagara", kaynak:"IGI XXII «Seringapatam Town» (Oxford 1908): 1495'ten itibaren Vijayanagar kralları'nın doğrudan mülkü, Sri Ranga Rayal valisi; Talikota 1565'ten sonra da vali elinde; IGI XVIII «Mysore State»: Raja Wodeyar 1610'da Seringapatam'ı ele geçirdi, vali Tirumala Raja atıldı. GUNEY-ASYA-DENETIM-1029"},
      {f:"1610-01-01", t:"1799-05-04", d:"meysur", kaynak:"IGI XVIII «Mysore State» (1908) s.178: «He contrived in 1610 to gain possession of Seringapatam»; Seringapatam Vodeyar başkenti; Haydar Ali «took possession in 1761» ama «always maintained a royal occupant» (aynı polity: künye meysur f=1610); 4 Mayıs 1799 Tipu düştü (IGI XVIII s.183). GUNEY-ASYA-DENETIM-1029"},
      // HAYALET-KUNYE-1008 · TDV `meysur` «eski racalığı tekrar ihdas ettiler» (Mayıs 1799) → ardıl künye.
-     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
+     {f:"1799-05-04", t:"1947-08-15", d:"meysur-racaligi"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica (Indian Independence Act 1947; Constitution of India 1950); LoC Country Studies India"}] },
 
 // ===== 2d. Koromandel ve Tamil ülkesi =====
 
@@ -1460,7 +1460,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1639-08-22", t:"1746-09-21", d:"ingiltere",enklav:true},
      {f:"1746-09-21", t:"1749-08-21", d:"fransa",enklav:true},
      {f:"1749-08-21", t:"1757-06-23", d:"ingiltere",enklav:true},
-     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani",eksklav:true},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1757-06-23", t:"1947-08-15", d:"ingiliz-hindistani",eksklav:true},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Pondişeri — Fransız Hindistanı'nın başkenti, 1674'te kuruldu (kur:).
 // Beş kez el değiştirdi: 1693 Hollanda, 1699 iade; 1761 İngiliz, 1765
@@ -1487,7 +1487,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1554-01-01", d:"vijayanagara"},
      {f:"1554-01-01", t:"1658-01-01", d:"portekiz"},
      {f:"1658-01-01", t:"1781-11-12", d:"hollanda"},
-     {f:"1781-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1781-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Tranquebar — Danimarka Doğu Hindistan Şirketi 19 Kasım 1620'de Tanjur
 // nâyabından kiraladı; 1845'te İngiltere'ye satıldı. Bu coğrafyadaki tek
@@ -1499,7 +1499,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1532-01-01", d:"vijayanagara"},
      {f:"1532-01-01", t:"1620-11-19", d:"nayak-devletleri"},
      {f:"1620-11-19", t:"1845-02-22", d:"danimarka",enklav:true},
-     {f:"1845-02-22", t:"1947-08-15", d:"ingiliz-hindistani",kaynak:"f BEYANLI YAKLAŞIKLIK (KASA-KIRILMA, 2 Kasım 2026): 1845-02-22 satış antlaşmasının imza günüdür (gün yalnız ikincil kaynakta, ör. gktoday); fiilî teslim Emre kararıyla esas olmalı ama akademik kaynakta GÜN YOK — J. Jensen, Handels- og Søfartsmuseets årbog (tidsskrift.dk mfs_aarbog 96448): Tranquebar'ı guvernør Peder Hansen 1845 sonbaharı (Galathea ziyareti) ile 5 Şubat 1846 arasında devretti; Vikipedi valiler listesinin 7 Kasım 1845'i teyitsiz. Yıl: lex.dk 'Tranquebar' «købte Storbritannien den i 1845». Gün bulunursa bu uç ve danimarka-hindistani kronolojisi birlikte taşınır."},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1845-02-22", t:"1947-08-15", d:"ingiliz-hindistani",kaynak:"f BEYANLI YAKLAŞIKLIK (KASA-KIRILMA, 2 Kasım 2026): 1845-02-22 satış antlaşmasının imza günüdür (gün yalnız ikincil kaynakta, ör. gktoday); fiilî teslim Emre kararıyla esas olmalı ama akademik kaynakta GÜN YOK — J. Jensen, Handels- og Søfartsmuseets årbog (tidsskrift.dk mfs_aarbog 96448): Tranquebar'ı guvernør Peder Hansen 1845 sonbaharı (Galathea ziyareti) ile 5 Şubat 1846 arasında devretti; Vikipedi valiler listesinin 7 Kasım 1845'i teyitsiz. Yıl: lex.dk 'Tranquebar' «købte Storbritannien den i 1845». Gün bulunursa bu uç ve danimarka-hindistani kronolojisi birlikte taşınır."},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Tancûr (Thanjavur) — 1674'te Şivâcî'nin üvey kardeşi Venkocî burada
 // Maratha hânedanı kurdu ve 1855'e kadar sürdü; 1799'da toprak idaresi
@@ -1511,7 +1511,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1532-01-01", d:"vijayanagara"},
      {f:"1532-01-01", t:"1676-01-01", d:"nayak-devletleri"},
      {f:"1676-01-01", t:"1799-10-25", d:"tancur-maratha", kaynak:"Tancur Maratha Krallığı (Ekoji/Venkoji Bhonsle) Marathalar Konfederasyonu'ndan ayrı krallıktır: künye tancur-maratha 1676-01-01..1855 (kuruluş: Ekoji'nin Madurai Nayaklarını yıkıp 1676 başında egemenlik ilanı). 1799'da yönetim İngilizlere devredildi (kale ve çevresinde Serfoji kaldı, künye 1855'e dek). Eski maratha kimliği konfederasyon künyesine (1674-06-06..1818-06-03) aittir. GUNEY-ASYA-DENETIM-1029"},
-     {f:"1799-10-25", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1799-10-25", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Madurai — Pândya başkenti; Malik Kâfûr 1311'de yağmaladı, 1335'te
 // Ma'ber (Madurai) Sultanlığı kuruldu ve 1378'de Vijayanagara yıktı.
@@ -1526,7 +1526,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1529-01-01", t:"1736-01-01", d:"nayak-devletleri"},
      {f:"1736-01-01", t:"1801-07-31", d:"karnatik"},
      {f:"1801-07-31", t:"1947-08-15", d:"ingiliz-hindistani"},
-     {f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Trichinopoly (Tiruchirappalli)", tur:"kale", lat:10.7900, lon:78.7040, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1311-01-01", d:"pandya"},
@@ -1535,7 +1535,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1529-01-01", d:"vijayanagara"},
      {f:"1529-01-01", t:"1736-01-01", d:"nayak-devletleri"},
      {f:"1736-01-01", t:"1801-07-31", d:"karnatik"},
-     {f:"1801-07-31", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1801-07-31", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Cinci (Gingee) — Hindistan'ın en sarp kalelerinden; Bîcâpur 1649,
 // Maratha 1677, Bâbürlü 1698 (sekiz yıllık kuşatma), Fransız 1750,
@@ -1549,7 +1549,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1677-05-01", t:"1698-01-08", d:"maratha"},
      {f:"1698-01-08", t:"1750-09-11", d:"babur-imparatorlugu"},
      {f:"1750-09-11", t:"1761-04-05", d:"fransa",enklav:true},
-     {f:"1761-04-05", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1761-04-05", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Vellor — Vijayanagara'nın Talikota sonrası başkenti (1606-1646).
 { ad:"Vellor (Vellore)", tur:"kale", lat:12.9160, lon:79.1320, g:0, k:4, d:[],
@@ -1559,7 +1559,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1656-01-01", t:"1687-09-21", d:"bicapur"},
      {f:"1687-09-21", t:"1714-01-01", d:"babur-imparatorlugu"},
      {f:"1714-01-01", t:"1760-01-01", d:"karnatik"},
-     {f:"1760-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1760-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // KARNÂTİK (Arkot) nevâblığı 1690'da Haydarâbâd Nizamlığı'na bağlı olarak
 // kuruldu, 1710'lardan sonra fiilen bağımsızlaştı; 31 Temmuz 1801'de
@@ -1571,7 +1571,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1656-01-01", t:"1687-09-21", d:"bicapur"},
      {f:"1687-09-21", t:"1714-01-01", d:"babur-imparatorlugu"},
      {f:"1714-01-01", t:"1801-07-31", d:"karnatik"},
-     {f:"1801-07-31", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1801-07-31", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 2e. Malabar ve güneybatı kıyısı =====
 
@@ -1581,7 +1581,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Kalikut (Kozhikode)", tur:"liman", lat:11.2590, lon:75.7800, g:1, k:1,kd:[{f:"1281-01-01",t:"1766-01-01",k:1,m:"Kalikut (Kozhikode)"}], d:[],
   s:[{f:"1281-01-01", t:"1766-01-01", d:"kalikut"},
      {f:"1766-01-01", t:"1792-03-18", d:"meysur"},
-     {f:"1792-03-18", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1792-03-18", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Koçin — Portekiz'in Hindistan'daki İLK kalesi (1503); Hollanda 7 Ocak
 // 1663'te aldı, İngiliz 20 Ekim 1795'te. Koçin krallığı iç kesimde prens
@@ -1591,7 +1591,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1503-09-01", d:"kocin"},
      {f:"1503-09-01", t:"1663-01-07", d:"portekiz"},
      {f:"1663-01-07", t:"1795-10-20", d:"hollanda"},
-     {f:"1795-10-20", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1795-10-20", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Kannûr — Kolathiri racasının limanı; Portekiz 1505'te Sant'Angelo
 // kalesini kurdu, Hollanda 1663'te aldı, 1771'de Arakkal beylerine sattı,
@@ -1601,13 +1601,13 @@ window.YERLESIMLER_ASYA = [
      {f:"1505-01-01", t:"1663-02-15", d:"portekiz"},
      {f:"1663-02-15", t:"1771-01-01", d:"hollanda"},
      {f:"1771-01-01", t:"1790-12-15", d:"meysur"},
-     {f:"1790-12-15", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1790-12-15", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Kolam (Quilon)", tur:"liman", lat:8.8930, lon:76.6140, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1502-01-01", d:"travankur"},
      {f:"1502-01-01", t:"1661-12-08", d:"portekiz"},
      {f:"1661-12-08", t:"1795-01-01", d:"hollanda"},
-     {f:"1795-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1795-01-01", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Travankur — Marthanda Varma 1729'da Venâd'ı genişleterek kurdu; 1741
 // Kolaçel'de Hollanda'yı yenen tek Hint devletidir. 1795'ten sonra İngiliz
@@ -1625,7 +1625,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1512-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1759-04-08", d:"haydarabad-nizam"},
-     {f:"1759-04-08", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1759-04-08", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Râcahmundry", tur:"sehir", lat:17.0050, lon:81.7770, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
@@ -1634,7 +1634,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1512-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1766-11-12", d:"haydarabad-nizam"},
-     {f:"1766-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1766-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 { ad:"Vişâkapatnam", tur:"liman", lat:17.6870, lon:83.2190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1323-01-01", d:"kakatiya"},
@@ -1643,7 +1643,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1512-01-01", t:"1687-09-21", d:"golkonda"},
      {f:"1687-09-21", t:"1724-10-11", d:"babur-imparatorlugu"},
      {f:"1724-10-11", t:"1766-11-12", d:"haydarabad-nizam"},
-     {f:"1766-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1766-11-12", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-11/30/enacted) — «As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // ===== 2g. Seylan (üç nokta) =====
 // Görev tanımının tablosunda YOK. Üç nokta konuldu çünkü ada, kutu
@@ -2360,7 +2360,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Makao (Macau)", tur:"liman", lat:22.1990, lon:113.5440, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1368-04-01", d:"yuan-hanedani"},
      {f:"1368-04-01", t:"1557-01-01", d:"ming-hanedani"},
-     {f:"1557-01-01", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1999-12-20",d:"makao-portekiz",kaynak:"Sino-Portuguese Joint Declaration 1987; devir 1999-12-20 (Britannica Macau)"},{f:"1999-12-20",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Britannica Macau"}] },
+     {f:"1557-01-01", t:"1923-10-29", d:"portekiz"},{f:"1923-10-29",t:"1999-12-20",d:"makao-portekiz",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye makao-portekiz t ucunun kaynağı — Sino-Portuguese Treaty of Peking 1887; Porter, Macau (1996) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Sino-Portuguese Joint Declaration 1987; devir 1999-12-20 (Britannica Macau)"},{f:"1999-12-20",t:"2000-12-31",d:"cin-halk-cumhuriyeti",kaynak:"Britannica Macau"}] },
 
 // Hong Kong — 26 Ocak 1841'de İngiliz çıkarması, 29 Ağustos 1842 Nanking
 // Antlaşması'yla resmen devredildi. Makao'ya 39 km.
@@ -2825,7 +2825,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1911-12-29", t:"1919-11-22", d:"mogolistan"},
      {f:"1919-11-22", t:"1921-07-11", d:"cin-cumhuriyeti"},
      {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},
-     {f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
+     {f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Urga (Ulan Batur) — 1639'da gezici manastır olarak kuruldu (kur:),
 // bugünkü yerine 1778'de yerleşti; Halha Moğollarının dinî ve siyasî
@@ -2836,7 +2836,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1691-05-30", t:"1911-12-29", d:"qing-hanedani"},
      {f:"1911-12-29", t:"1919-11-22", d:"mogolistan"},
      {f:"1919-11-22", t:"1921-07-11", d:"cin-cumhuriyeti"},
-     {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
+     {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Uliastay — Qing 1733'te askerî valilik merkezi olarak kurdu (kur:).
 { ad:"Uliastay", tur:"kale", lat:47.7420, lon:96.8440, g:0, k:4, d:[],
@@ -2844,7 +2844,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1733-01-01", t:"1911-12-29", d:"qing-hanedani"},
      {f:"1911-12-29", t:"1919-11-22", d:"mogolistan"},
      {f:"1919-11-22", t:"1921-07-11", d:"cin-cumhuriyeti"},
-     {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
+     {f:"1921-07-11", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Kobdo (Hovd) — batı Moğolistan'ın Qing garnizonu; Moğol kuvvetleri
 // 20 Ağustos 1912'de aldı ve bu, bağımsızlığın fiilen tamamlandığı andır.
@@ -2853,7 +2853,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1368-09-14", t:"1635-01-01", d:"kuzey-yuan"},
      {f:"1635-01-01", t:"1755-01-01", d:"cungar"},
      {f:"1755-01-01", t:"1912-08-20", d:"qing-hanedani"},
-     {f:"1912-08-20", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
+     {f:"1912-08-20", t:"1924-11-26", d:"mogolistan"},{f:"1924-11-26",t:"2000-12-31",d:"mogolistan-halk-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriyeti ilân edildi' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Encyclopaedia Britannica ilgili ülke/tarih maddesi; Office of the Historian, Milestones; Library of Congress Country Studies"}] },
 
 // Hohhot (Kuku-hoto) — Altan Han 1581'de kurdu (kur:); Tümed Moğollarının
 // merkezi, 1636'da Qing'e bağlandı. İç Moğolistan 1911'den sonra Çin'de
@@ -3127,7 +3127,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Edo (Tokyo) — Tokugawa Ieyasu 1590'da Kantō'ya nakledildiğinde küçük bir
 // kaleydi; 1603'te şogunluk merkezi oldu ve dünyanın en büyük şehirlerinden
@@ -3138,7 +3138,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1457-01-01", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Osaka — Toyotomi Hideyoshi 1583'te kaleyi kurdu; Tokugawa 4 Haziran
 // 1615'te Osaka kuşatmasıyla Toyotomi soyunu bitirdi. Bu yüzden Osaka'nın
@@ -3149,7 +3149,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1615-06-04", d:"azuchi-momoyama"},
      {f:"1615-06-04", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Nara", tur:"sehir", lat:34.6850, lon:135.8050, g:1, k:3, d:[],
   s:[{f:"0710-04-13",t:"0794-11-18",d:"nara-japonya",kesinlik:"gun",kaynak:"SAHİP BEYANLI: nara-japonya (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Shoku Nihongi j.5, Wadō 3 (710) (zh.wikisource.org/wiki/續日本紀/卷第五, okundu): 「三月…辛酉。始遷都于平城。以左大臣正二位石上朝臣麻呂爲留守。」 · Heijō-kyō şehri bu günle kuruldu (kur = 0710-04-13 «kuruluş = saray taşınması»; öncesinde Nara havzasında Asuka bölgesi başka yerleşimdir). · DOGU-500-1281"},{f:"0794-11-18",t:"1185-12-22",d:"heian-japonya",kesinlik:"gun",kaynak:"Nihon Kōki j.3, Enryaku 13 (794) (zh.wikisource.org/wiki/日本後紀/卷第三, okundu): 「十月…辛酉。車駕遷于新京。」 · 「丁丑。詔。…宜改山背国、為山城国。又子来之民、謳歌之輩、異口同辞、号曰平安京。」 · ABİ MERKEZ: Kyoto — saray 794'te Heian-kyō'ya taşındı, Nara eski başkent olarak aynı saray devleti içinde kaldı (kaynak yalnız taşınmayı yazar; Nara'nın sonraki sahibi çıkarımdır) · BEYAN: devir günü saray/hükümdar sürekliliği içindeki atlas dönem adı değişimidir (aynı hanedan/saray; yeni fetih değil). · DOGU-500-1281"},{f:"1185-12-22",t:"1281-01-01",d:"kamakura",kesinlik:"gun",kaynak:"Azuma Kagami j.5, Bunji 1 (1185) (zh.wikisource.org/wiki/吾妻鏡/卷005, okundu): 「十一月大廿八日丁未。補任諸國平均守護地頭。不論權門勢家庄公。」 · 「十一月大廿九日戊申。北條殿所被申之諸國守護地頭兵粮米事。早任申請可有御沙汰之由。被仰下之間。師中納言被傳勅於北條殿云々。」 · BEYANLI YAKLAŞIKLIK: Heian sarayı 1868'e kadar sürer; atlas modeli 1185-12-22'den sonrasını «kamakura» polity'sine yazar (KOJA_REF.json, KOJA_RAPOR2 madde 2). Kyoto'nun fiilî şogunluk denetimine geçişi Jōkyū (1221) sonrasıdır; bu oturumda açılmadı. · DOGU-500-1281"},{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -3157,7 +3157,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Sakai — Muromachi ve Sengoku çağının en zengin liman şehri; tüccar
 // meclisiyle yönetilen fiilî bir serbest şehirdi, Nobunaga 1569'da
@@ -3168,7 +3168,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // ===== 6b. Kantō ve Tōkai =====
 
@@ -3180,7 +3180,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Odawara — Sengoku çağının en güçlü kalelerinden; Hideyoshi'nin 1590
 // kuşatması Japonya'nın birleşmesini tamamladı.
@@ -3190,7 +3190,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Sunpu (Şizuoka) — Ieyasu'nun çocukluğunun ve emekliliğinin şehri;
 // 1605-1616 arasında fiilî iktidar merkezi (ōgosho).
@@ -3200,14 +3200,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Nagoya — Tokugawa Ieyasu 1610'da kaleyi kurdurdu (kur:); üç Tokugawa
 // yan hânedanından Owari kolunun merkezi.
 { ad:"Nagoya", tur:"sehir", lat:35.1810, lon:136.9070, g:1, k:3, d:[],
   kur:"1610-01-01",
   s:[{f:"1610-01-01", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Gifu — Nobunaga'nın 1567'de aldığı ve "tenka fubu" mührünü kullanmaya
 // başladığı şehir; birleşme hareketinin çıkış noktasıdır. Nagoya'ya 30 km.
@@ -3217,7 +3217,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // ===== 6c. Japon Denizi kıyısı ve Hokuriku =====
 
@@ -3226,13 +3226,13 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1546-01-01", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Fukui", tur:"sehir", lat:36.0640, lon:136.2200, g:0, k:3, d:[],
   kur:"1575-01-01",
   s:[{f:"1575-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Niigata", tur:"liman", lat:37.9160, lon:139.0360, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -3240,12 +3240,12 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Matsue", tur:"sehir", lat:35.4680, lon:133.0490, g:0, k:3, d:[],
   kur:"1607-01-01",
   s:[{f:"1607-01-01", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // ===== 6d. Batı Honshu ve Şikoku =====
 
@@ -3255,7 +3255,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Okayama", tur:"sehir", lat:34.6550, lon:133.9190, g:0, k:3, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -3263,14 +3263,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Hiroşima — Mōri Terumoto 1589'da kaleyi kurdu (kur:).
 { ad:"Hiroşima", tur:"liman", lat:34.3850, lon:132.4550, g:1, k:3, d:[],
   kur:"1589-01-01",
   s:[{f:"1589-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Yamaguchi — Ōuchi hânedanının merkezi; XV-XVI. yüzyılda Çin ve Kore
 // ticaretini elinde tutan "batının Kyoto"su. Francis Xavier 1551'de
@@ -3280,19 +3280,19 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1360-01-01", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Matsuyama", tur:"sehir", lat:33.8390, lon:132.7660, g:0, k:3, d:[],
   kur:"1602-01-01",
   s:[{f:"1602-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Kōchi", tur:"liman", lat:33.5600, lon:133.5310, g:0, k:1, d:[],
   kur:"1601-01-01",
   s:[{f:"1601-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // ===== 6e. Kyūşū =====
 
@@ -3305,7 +3305,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Nagazaki — 1571'de Portekiz ticareti için liman olarak açıldı (kur:);
 // 1580-1587 arasında fiilen Cizvitlere devredildi, Hideyoshi 1587'de geri
@@ -3319,7 +3319,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1580-06-09", t:"1587-07-24", d:"portekiz", enklav:true},
      {f:"1587-07-24", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Kumamoto", tur:"kale", lat:32.8030, lon:130.7080, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -3327,7 +3327,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Funai (Ōita) — Ōtomo Sōrin'in Hristiyan daimyō merkezi; Portekiz
 // ticaretinin Kyūşū'daki ilk büyük limanı.
@@ -3337,7 +3337,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Kagoşima — Satsuma'nın Shimazu hânedanı; 1609'da Ryukyu'yu tâbi kıldı,
 // 1868 Meiji restorasyonunun iki motorundan biridir.
@@ -3347,7 +3347,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Tsuşima (İzuhara) — Japonya ile Kore arasındaki tek geçit; Sō hânedanı
 // iki devletin de tanıdığı aracıydı ve Kore ticareti tekelini elinde
@@ -3358,7 +3358,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // ===== 6f. Kuzey Honshu ve Ezo (Hokkaido) =====
 
@@ -3367,7 +3367,7 @@ window.YERLESIMLER_ASYA = [
   kur:"1600-01-01",
   s:[{f:"1600-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Aizu-Wakamatsu", tur:"kale", lat:37.4950, lon:139.9300, g:0, k:4, d:[],
   s:[{f:"1281-01-01", t:"1333-07-04", d:"kamakura"},
@@ -3375,18 +3375,18 @@ window.YERLESIMLER_ASYA = [
      {f:"1336-12-10", t:"1573-08-15", d:"muromachi"},
      {f:"1573-08-15", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Morioka", tur:"sehir", lat:39.7020, lon:141.1550, g:0, k:3, d:[],
   kur:"1597-01-01",
   s:[{f:"1597-01-01", t:"1603-03-24", d:"azuchi-momoyama"},
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 { ad:"Hirosaki", tur:"kale", lat:40.6030, lon:140.4640, g:0, k:4, d:[],
   kur:"1611-01-01",
   s:[{f:"1611-01-01", t:"1868-01-03", d:"edo-bakufu"},
-     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1868-01-03", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // ⚠️ EZO (HOKKAİDO) — bu dosyanın en dikkatli yerlerinden biri.
 // Hokkaido 1869'a kadar Japonya'nın parçası DEĞİLDİR; Ainu halkının
@@ -3408,7 +3408,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1869-01-27", d:"meiji-japonya"},
      {f:"1869-01-27", t:"1869-06-27", d:"ezo-cumhuriyeti", kesinlik:"gun", kaynak:"Ezo Cumhuriyeti künyesi (devletler.js ezo-cumhuriyeti; kaynak: 山川 日本史小辞典 «箱館戦争», kotobank; Britannica Japan «五稜郭の戦い»): cumhuriyet 1869-01-27 ilan, 1869-06-27 Goryōkaku teslimi. KORE-JAPONYA 2. tur: dilim künye f/t'sine bağlandı."},
-     {f:"1869-06-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1869-06-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Hakodate — 1854 Kanagawa Antlaşması'yla yabancı gemilere açılan iki
 // limandan biri; Matsumae'ye 55 km.
@@ -3419,14 +3419,14 @@ window.YERLESIMLER_ASYA = [
      {f:"1603-03-24", t:"1868-01-03", d:"edo-bakufu"},
      {f:"1868-01-03", t:"1869-01-27", d:"meiji-japonya"},
      {f:"1869-01-27", t:"1869-06-27", d:"ezo-cumhuriyeti", kesinlik:"gun", kaynak:"Ezo Cumhuriyeti künyesi (devletler.js ezo-cumhuriyeti; kaynak: 山川 日本史小辞典 «箱館戦争», kotobank; Britannica Japan «五稜郭の戦い»): cumhuriyet 1869-01-27 ilan, 1869-06-27 Goryōkaku teslimi. KORE-JAPONYA 2. tur: dilim künye f/t'sine bağlandı."},
-     {f:"1869-06-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1869-06-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // Sapporo — Kaitakushi 1869'da kurdu (kur:); Hokkaido'nun iç kesiminin
 // ilk Japon şehridir. 1869 öncesi boşluk KASITLIDIR ve komşu Ainu
 // coğrafyasını Matsumae noktası taşır.
 { ad:"Sapporo", tur:"sehir", lat:43.0620, lon:141.3540, g:1, k:3, d:[],
   kur:"1869-01-01",
-  s:[{f:"1869-01-01", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+  s:[{f:"1869-01-01", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // ===== 6g. Ryukyu =====
 //
@@ -3438,7 +3438,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1322-01-01", d:"ryukyu-shunten-eiso", kesinlik:"yil", kaynak:"ABİ MERKEZ: Urasoe Gusuku (Chuzan merkezi) — zincir Urasoe'den devralındı (Chūzan Seikan 1650, ja.wikisource.org/wiki/琉球國中山世鑑/卷一-二, okundu). BEYANLI YAKLAŞIKLIK: Şuri'nin 1322 öncesi sahibi kaynakta yer-özgü verilmez."},
      {f:"1322-01-01", t:"1429-01-01", d:"sanzan", kesinlik:"yil", kaynak:"ABİ MERKEZ: Urasoe Gusuku (Chuzan merkezi) — zincir Urasoe'den devralındı (Chuzan Sanzan dönemi). BEYANLI YAKLAŞIKLIK: Şuri'nin Chuzan başkenti olması 1406 öncesi yer-özgü tanıkla gösterilmedi."},
      {f:"1429-01-01", t:"1879-03-27", d:"ryukyu"},
-     {f:"1879-03-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"Britannica Japan"}] },
+     {f:"1879-03-27", t:"1947-05-03", d:"meiji-japonya"},{f:"1947-05-03",t:"2000-12-31",d:"japonya-devleti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japonya-devleti f ucunun kaynağı — https://www.history.com/this-day-in-history/May-3/new-japanese-constitution-goes-into-effect ; https://www.judiciary.senate.gov/imo/media/doc/Agawa%20Testimony%20062503.pdf · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Japan"}] },
 
 // ###########################################################################
 // BÖLÜM 7 — KORE
@@ -3476,7 +3476,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Seul (Hanyang)", tur:"sehir", lat:37.5660, lon:126.9780, g:2, k:1,kd:[{f:"1392-08-05",t:"1910-08-29",k:1,m:"Seul (Hanyang)"}], d:[],
   s:[{f:"0500-01-01",t:"0551-01-01",d:"goguryeo",kesinlik:"yil",kaynak:"SAHİP BEYANLI: goguryeo (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷18 (zh.wikisource.org/wiki/三國史記/卷18, okundu): «九月，王帥兵三萬，侵百濟，陷王所都漢城，殺其王扶餘慶，虜男女八千而歸。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Seul Goguryeo'da: Hanseong'un 475'te Goguryeo'ya düşüşü (SS18); ufuk işareti: 500 pencere başı. · DOGU-500-1281"},{f:"0551-01-01",t:"0553-01-01",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Nihon Shoki 卷第十九 (zh.wikisource.org/wiki/日本書紀/卷第十九, okundu): «百濟聖明王親率衆及二國兵〈二國謂新羅。任那也。〉往伐高麗。獲漠城之地。又進軍討平壌。凡六郡之地。遂復故地。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «南京留守官楊州本高句麗北漢山郡，百濟近肖古王，取之。二十五年，自南漢山，徙都之。至蓋鹵王二十年，高句麗慈悲王，來圍漢城，蓋鹵出走，爲麗兵所害。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0553-01-01",t:"0901-01-01",d:"silla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «秋七月，取百濟東北鄙，置新州，以阿飡武力爲軍主。» · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «新羅取東北鄙，置新州。» · Nihon Shoki 卷第十九 (zh.wikisource.org/wiki/日本書紀/卷第十九, okundu): «百濟棄漢城與平壤。新羅因此入居漢城。» · Kim Busik, Samguk sagi 卷35 (zh.wikisource.org/wiki/三國史記/卷35, okundu): «漢陽郡，本高句麗北漢山郡（一云平壤），眞興王爲州，置軍主» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0901-01-01",t:"0918-07-25",d:"taebong",kesinlik:"yil",kaynak:"SAHİP BEYANLI: taebong (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «光化元年戊午春二月，葺松岳城。以我太祖為精騎大監，伐楊州、見州。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «天復元年辛酉，善宗自稱王，謂人曰：「徃者新羅請兵於唐，以破高勾麗，故平壤舊都，鞠為茂草。吾必報其讎。」» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0918-07-25",t:"1281-01-01",d:"goryeo",kesinlik:"gun",kaynak:"Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «至六月乙卯，騎將洪儒、裴玄慶、申崇謙、卜智謙等密謀，夜詣太祖第，共言推戴之意。太祖固拒不許，夫人柳氏手提甲領被太祖，諸將扶擁而出。令人馳且呼曰：「王公已擧義旗矣！」於是，奔走來赴者，不可勝記，先至宮門，鼓譟以待者，亦萬餘人。裔聞之驚駭曰：「王公得之，吾事已矣！」乃不知所圖，以微服，出自北門亡去，內人淸宮以迎。裔遁于巖谷，信宿飢甚，偸截麥穗而食，尋爲斧壤民所害。» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。» · DOGU-500-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Pyongyang", tur:"sehir", lat:39.0190, lon:125.7380, g:1, k:3, d:[],
   s:[
@@ -3502,12 +3502,12 @@ window.YERLESIMLER_ASYA = [
      {f:"1392-08-05", t:"1592-05-23", d:"joseon"},
      {f:"1592-05-23", t:"1598-11-24", d:"azuchi-momoyama"},
      {f:"1598-11-24", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"İnçon (Incheon)", tur:"liman", lat:37.4560, lon:126.7050, g:0, k:3, d:[],
   s:[{f:"0500-01-01",t:"0551-01-01",d:"goguryeo",kesinlik:"yil",kaynak:"SAHİP BEYANLI: goguryeo (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «仁州本高句麗買召忽縣» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): İnçon (Michuhol) Goguryeo kökenli (Goryeosa); ufuk işareti 500. · DOGU-500-1281"},{f:"0551-01-01",t:"0553-01-01",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Nihon Shoki 卷第十九 (zh.wikisource.org/wiki/日本書紀/卷第十九, okundu): «百濟聖明王親率衆及二國兵〈二國謂新羅。任那也。〉往伐高麗。獲漠城之地。又進軍討平壌。凡六郡之地。遂復故地。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0553-01-01",t:"0901-01-01",d:"silla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «秋七月，取百濟東北鄙，置新州，以阿飡武力爲軍主。» · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «新羅取東北鄙，置新州。» · Nihon Shoki 卷第十九 (zh.wikisource.org/wiki/日本書紀/卷第十九, okundu): «百濟棄漢城與平壤。新羅因此入居漢城。» · Kim Busik, Samguk sagi 卷35 (zh.wikisource.org/wiki/三國史記/卷35, okundu): «邵城縣，本高句麗買召忽縣，景德王改名» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0901-01-01",t:"0918-07-25",d:"taebong",kesinlik:"yil",kaynak:"SAHİP BEYANLI: taebong (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «光化元年戊午春二月，葺松岳城。以我太祖為精騎大監，伐楊州、見州。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «天復元年辛酉，善宗自稱王，謂人曰：「徃者新羅請兵於唐，以破高勾麗，故平壤舊都，鞠為茂草。吾必報其讎。」» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «擊破孔巖、黔浦、穴口等城。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0918-07-25",t:"1281-01-01",d:"goryeo",kesinlik:"gun",kaynak:"Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «至六月乙卯，騎將洪儒、裴玄慶、申崇謙、卜智謙等密謀，夜詣太祖第，共言推戴之意。太祖固拒不許，夫人柳氏手提甲領被太祖，諸將扶擁而出。令人馳且呼曰：「王公已擧義旗矣！」於是，奔走來赴者，不可勝記，先至宮門，鼓譟以待者，亦萬餘人。裔聞之驚駭曰：「王公得之，吾事已矣！」乃不知所圖，以微服，出自北門亡去，內人淸宮以迎。裔遁于巖谷，信宿飢甚，偸截麥穗而食，尋爲斧壤民所害。» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。» · DOGU-500-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 // Ganghwa — Moğol istilâları sırasında Goryeo sarayının 1232-1270 arası
 // sığınağı; 1866 Fransız, 1871 Amerikan ve 1875 Japon çıkarmalarının
@@ -3515,32 +3515,32 @@ window.YERLESIMLER_ASYA = [
 { ad:"Ganghwa", tur:"kale", lat:37.7470, lon:126.4880, g:0, k:4, d:[],
   s:[{f:"0500-01-01",t:"0551-01-01",d:"goguryeo",kesinlik:"yil",kaynak:"SAHİP BEYANLI: goguryeo (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «江華縣本高句麗穴口郡» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Ganghwa (Hyeolgu-gun) Goguryeo kökenli; ufuk işareti 500. · DOGU-500-1281"},{f:"0551-01-01",t:"0553-01-01",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Nihon Shoki 卷第十九 (zh.wikisource.org/wiki/日本書紀/卷第十九, okundu): «百濟聖明王親率衆及二國兵〈二國謂新羅。任那也。〉往伐高麗。獲漠城之地。又進軍討平壌。凡六郡之地。遂復故地。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0553-01-01",t:"0901-01-01",d:"silla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «秋七月，取百濟東北鄙，置新州，以阿飡武力爲軍主。» · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «新羅取東北鄙，置新州。» · Nihon Shoki 卷第十九 (zh.wikisource.org/wiki/日本書紀/卷第十九, okundu): «百濟棄漢城與平壤。新羅因此入居漢城。» · Kim Busik, Samguk sagi 卷35 (zh.wikisource.org/wiki/三國史記/卷35, okundu): «海口郡，本高句麗穴口郡，在海中，景德王改名，今江華縣» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0901-01-01",t:"0918-07-25",d:"taebong",kesinlik:"yil",kaynak:"SAHİP BEYANLI: taebong (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «光化元年戊午春二月，葺松岳城。以我太祖為精騎大監，伐楊州、見州。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «天復元年辛酉，善宗自稱王，謂人曰：「徃者新羅請兵於唐，以破高勾麗，故平壤舊都，鞠為茂草。吾必報其讎。」» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «擊破孔巖、黔浦、穴口等城。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Hanseong/Han havzası): bu yerin kendi adı kaynakta ayrı geçmez; Han Nehri havzası olayı (Hanseong) bölge sahibini belirler. · DOGU-500-1281"},{f:"0918-07-25",t:"1000-01-01",d:"goryeo",kesinlik:"gun",kaynak:"Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «至六月乙卯，騎將洪儒、裴玄慶、申崇謙、卜智謙等密謀，夜詣太祖第，共言推戴之意。太祖固拒不許，夫人柳氏手提甲領被太祖，諸將扶擁而出。令人馳且呼曰：「王公已擧義旗矣！」於是，奔走來赴者，不可勝記，先至宮門，鼓譟以待者，亦萬餘人。裔聞之驚駭曰：「王公得之，吾事已矣！」乃不知所圖，以微服，出自北門亡去，內人淸宮以迎。裔遁于巖谷，信宿飢甚，偸截麥穗而食，尋爲斧壤民所害。» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。» · DOGU-500-1281"},{f:"1000-01-01",t:"1281-01-01",d:"goryeo",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«顯宗九年，置縣令。高宗十九年，避蒙古兵入都，陞爲郡，號江都。三十七年，築中城，周回二千九百六十餘閒。元宗元年，復還松都» Goryeosa 56 (高麗史/卷五十六 地理志一, 江華縣): Goryeo’nun ilk yıllarından beri Goryeo ilçesi (「高麗初，更今名」); 高宗十九年 (1232) Moğol istilasından saray buraya çekilir (başkent 江都), 元宗元年 (1260) Songdo’ya dönülür. Not: Goryeosa 56’daki 高宗十九年 = 1232, 三十七年 = 1250, 元宗元年 = 1260 (yıl hesabı hükümdar yıllarından). f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Kyongcu (Gyeongju)", tur:"sehir", lat:35.8560, lon:129.2250, g:0, k:3, d:[],
   s:[{f:"0500-01-01",t:"0936-01-08",d:"silla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «'''智證麻立干'''立，姓金氏，諱智大路，奈勿王之曾孫» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «東京留守官慶州本新羅古都。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Gyeongju Silla başkenti; ufuk işareti 500 (Jijeung 500'de tahta çıktı). · DOGU-500-1281"},{f:"0936-01-08",t:"1281-01-01",d:"goryeo",kesinlik:"gun",kaynak:"Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «十二月辛酉，群臣奏曰「天無二日，土無二王，一國二君，民何以堪？願聽羅王之請。」壬申，御天德殿，會百僚曰：「朕與新羅，歃血同盟，庶幾兩國永好，各保社稷。今羅王固請稱臣，卿等亦以爲可，朕心雖愧，衆意難違。」乃受羅王庭見之禮，群臣稱賀，聲動宮掖。於是，拜金傅爲政丞，位太子上，歲給祿千碩，創神鸞宮賜之。其從者並收錄，優賜田祿。除新羅國爲慶州，仍賜爲食邑。» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «太祖十八年，敬順王金傅來降，國除爲慶州。» · DOGU-500-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Taegu (Daegu)", tur:"sehir", lat:35.8720, lon:128.6010, g:0, k:3, d:[],
   s:[{f:"0500-01-01",t:"0936-01-08",d:"silla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «大丘縣本新羅達句火縣。景德王，改今名，爲壽昌郡領縣。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Daegu (Dalgubeol) Silla kökenli; ufuk işareti 500. · DOGU-500-1281"},{f:"0936-01-08",t:"1281-01-01",d:"goryeo",kesinlik:"gun",kaynak:"Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «十二月辛酉，群臣奏曰「天無二日，土無二王，一國二君，民何以堪？願聽羅王之請。」壬申，御天德殿，會百僚曰：「朕與新羅，歃血同盟，庶幾兩國永好，各保社稷。今羅王固請稱臣，卿等亦以爲可，朕心雖愧，衆意難違。」乃受羅王庭見之禮，群臣稱賀，聲動宮掖。於是，拜金傅爲政丞，位太子上，歲給祿千碩，創神鸞宮賜之。其從者並收錄，優賜田祿。除新羅國爲慶州，仍賜爲食邑。» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «太祖十八年，敬順王金傅來降，國除爲慶州。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Gyeongju): Silla'nın çöküşünde (936-01-08) Silla ülkesinin tamamı Goryeo'ya geçti (Goryeosa: «除新羅國爲慶州»); bu yerin kendi adı o günkü kayıtta geçmez. · DOGU-500-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Concu (Jeonju)", tur:"sehir", lat:35.8240, lon:127.1480, g:0, k:3, d:[],
   s:[{f:"0500-01-01",t:"0660-08-29",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «全州牧本百濟完山» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Jeonju (Wansan) Baekje kökenli; ufuk işareti 500. · DOGU-500-1281"},{f:"0660-08-29",t:"0676-02-24",d:"tang",kesinlik:"ay",kaynak:"SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Ungjin/Sabi): Tang beş dudufu kurdu (Jiu Tangshu 4: «以其地分置熊津等五都督府»); Wansan'ın hangi dudufuya bağlandığı okunan kaynakta ayrı yazılı değil. · DOGU-500-1281"},{f:"0676-02-24",t:"0900-01-01",d:"silla",kesinlik:"gun",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Jiu Tangshu 卷5 (zh.wikisource.org/wiki/舊唐書/卷5, okundu): «二月甲戌，移安東都護府於遼東。» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «二月，甲戌，徙安東都護府於遼東故城» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «徙熊津都督府於建安故城» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «全州，本百濟完山，眞興王十六年爲州，二十六年州廢，神文王五年復置完山州，景德王十六年改名» · BEYANLI YAKLAŞIKLIK (ABİ MERKEZ: Ungjin): Wansan'ın Silla'ya geçiş günü kaynakta ayrı yok; Tang'ın Ungjin'den çekildiği gün (676-02-24) alındı; Wansan-ju 685'te (Sinmun 5) Silla eyaleti olarak yeniden kuruldu (SS36). · DOGU-500-1281"},{f:"0900-01-01",t:"0936-09-26",d:"hubaekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: hubaekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «遂自稱後百濟王，設官分職。是唐光化三年，新羅孝恭王四年也。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «今予敢不立都於完山，以雪義慈宿憤乎！» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · DOGU-500-1281"},{f:"0936-09-26",t:"1000-01-01",d:"goryeo",kesinlik:"ay",kaynak:"Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · DOGU-500-1281"},{f:"1000-01-01",t:"1281-01-01",d:"goryeo",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«後甄萱，立都於州，太祖滅之，改安南都護府。二十三年，還爲全州。成宗十二年，稱承化節度安撫使，十四年，置十二州節度使，號順義軍，屬江南道» Goryeosa 57 (高麗史/卷五十七 地理志二, 全州牧): Hubaekje (Gyeon Hwon) başkenti Jeonju’yu Goryeo Taejo 936’da aldı (Goryeosa 57 全羅道: 「太祖十九年，親征克之」); 1000’de Goryeo’nun (成宗 12-14 yıllarında düzenlenen) Jeonju’su. f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Kongcu (Gongju)", tur:"sehir", lat:36.4550, lon:127.1190, g:0, k:3, d:[],
   s:[{f:"0500-01-01",t:"0660-08-29",d:"baekje",kesinlik:"yil",kaynak:"SAHİP BEYANLI: baekje (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷26 (zh.wikisource.org/wiki/三國史記/卷26, okundu): «冬十月，移原本缺刻都於熊津。» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Gongju (Ungjin) Baekje başkenti 475-538; ufuk işareti 500. · DOGU-500-1281"},{f:"0660-08-29",t:"0676-02-24",d:"tang",kesinlik:"ay",kaynak:"SAHİP BEYANLI: tang (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷05 (zh.wikisource.org/wiki/三國史記/卷05, okundu): «十三日，義慈率左右，夜遁走，保熊津城，義慈子隆與大佐平千福等，出降。法敏跪隆於馬前，唾面罵曰：「向者，汝父枉殺我妹，埋之獄中，使我二十年間，痛心疾首，今日汝命在吾手中！」隆伏地無言。十八日，義慈率太子及熊津方領軍等，自熊津城來降。» · Jiu Tangshu 卷4 (zh.wikisource.org/wiki/舊唐書/卷4, okundu): «八月庚辰，蘇定方等討平百濟，面縛其王扶餘義慈。國分為五部，郡三十七，城二百，戶七十六萬，以其地分置熊津等五都督府。» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «熊州，本百濟舊都，唐高宗遣蘇定方平之，置熊津都督府» · DOGU-500-1281"},{f:"0676-02-24",t:"0904-01-01",d:"silla",kesinlik:"gun",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Jiu Tangshu 卷5 (zh.wikisource.org/wiki/舊唐書/卷5, okundu): «二月甲戌，移安東都護府於遼東。» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «二月，甲戌，徙安東都護府於遼東故城» · Sima Guang, Zizhi tongjian 卷202 (zh.wikisource.org/wiki/資治通鑑/卷202, okundu): «徙熊津都督府於建安故城» · Kim Busik, Samguk sagi 卷36 (zh.wikisource.org/wiki/三國史記/卷36, okundu): «新羅文武王取其地有之，神文王改爲熊川州» · DOGU-500-1281"},{f:"0904-01-01",t:"0918-07-25",d:"taebong",kesinlik:"yil",kaynak:"SAHİP BEYANLI: taebong (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «天祐元年甲子，立國號為摩震，年號為武泰。始置廣評省，備員匡治奈、徐事、外書。又置兵部、大龍部、壽春部、奉賔部、義刑臺、納貨府、調位府、內奉省、禁書省、南廂壇、水壇、元鳳省、飛龍省、物藏省。又置史臺、植貨府、障繕府、珠淘省。又設正匡、元輔、大相、元尹、佐尹、正朝、甫尹、軍尹、中尹等品職。秋七月，移青州人戶一千入鐵圓城為京。伐取尙州等三十餘州縣，公州將軍弘竒來降。» · DOGU-500-1281"},{f:"0918-07-25",t:"0936-09-26",d:"__BOSLUK__",kesinlik:"gun",kaynak:"BOŞLUK BEYANI: arandı, bulunamadı: Gongju'nun 918-07-25 ile 936-09 arasındaki sahibi (Goryeosa j.1-2 ve Samguk sagi j.50'de 'Gongju' yalnız 904 teslimi ve Goryeosa j.56 'Taejo 23 (940) yeniden adlandırdı' kayıtlarında geçer; Hubaekje/Goryeo hâkimiyeti dönemi okunmadı). | geçiş kaydı: Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «至六月乙卯，騎將洪儒、裴玄慶、申崇謙、卜智謙等密謀，夜詣太祖第，共言推戴之意。太祖固拒不許，夫人柳氏手提甲領被太祖，諸將扶擁而出。令人馳且呼曰：「王公已擧義旗矣！」於是，奔走來赴者，不可勝記，先至宮門，鼓譟以待者，亦萬餘人。裔聞之驚駭曰：「王公得之，吾事已矣！」乃不知所圖，以微服，出自北門亡去，內人淸宮以迎。裔遁于巖谷，信宿飢甚，偸截麥穗而食，尋爲斧壤民所害。» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。» · DOGU-500-1281"},{f:"0936-09-26",t:"1000-01-01",d:"goryeo",kesinlik:"ay",kaynak:"Goryeosa (Jeong Inji vd.) 卷二 (zh.wikisource.org/wiki/高麗史/卷二, okundu): «秋九月，王率三軍，至天安府合兵，進次一善郡，神劒以兵逆之。甲午，隔一利川而陣» · Goryeosa (Jeong Inji vd.) 卷五十七 (zh.wikisource.org/wiki/高麗史/卷五十七, okundu): «後甄萱，立都於州，太祖滅之，改安南都護府。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «公州本百濟熊川，文周王，自漢城，徙都之，至聖王，又移都南扶餘。新羅與唐，夾攻滅之，唐置熊津都督府，留兵鎭之。唐師旣去，新羅盡有其地。» · BEYANLI YAKLAŞIKLIK: Hubaekje'nin 936'da Goryeo'ya geçişi ülke çapındaydı; Goryeosa j.56: Gongju Taejo 23'te (940) Goryeo adıyla yeniden adlandırıldı (kayıt 940 Goryeo hâkimiyetini gösterir). · DOGU-500-1281"},{f:"1000-01-01",t:"1281-01-01",d:"goryeo",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"«太祖二十三年，更今名。成宗二年，初置十二牧，州其一也。十四年，置十二州節度使，稱安節軍，屬河南道。顯宗三年，廢節度使。九年，降知州事» Goryeosa 56 (高麗史/卷五十六 地理志一, 公州): Gongju Goryeo taşrası olarak kesintisiz (成宗二年 12 mok’tan biri, 成宗十四年 anjeol-gun, 顯宗九年 jisaju); 明宗六年 (1176) Mangi-Mangsoi ayaklanması şehri kısa süre ele geçirdi, devlet sahipliği değişimi saymadım (Goryeosa 56: 「攻陷本州… 尋削之」). f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 { ad:"Çungcu (Chungju)", tur:"sehir", lat:36.9910, lon:127.9260, g:0, k:3, d:[],
   s:[{f:"0500-01-01",t:"0551-01-01",d:"goguryeo",kesinlik:"yil",kaynak:"SAHİP BEYANLI: goguryeo (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «忠州牧本高句麗國原城» | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı; MS 500 öncesinden süren sahiplik): Chungju (Gukwon-seong) Goguryeo kökenli; ufuk işareti 500. · DOGU-500-1281"},{f:"0551-01-01",t:"0901-01-01",d:"silla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: silla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «王命居柒夫等，侵高句麗，乘勝取十郡。» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «忠州牧本高句麗國原城» · Goryeosa (Jeong Inji vd.) 卷五十六 (zh.wikisource.org/wiki/高麗史/卷五十六, okundu): «新羅取之，眞興王，置小京，景德王，改爲中原京。» · Kim Busik, Samguk sagi 卷04 (zh.wikisource.org/wiki/三國史記/卷04, okundu): «十八年，以國原爲小京。» · DOGU-500-1281"},{f:"0901-01-01",t:"0918-07-25",d:"taebong",kesinlik:"yil",kaynak:"SAHİP BEYANLI: taebong (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «光化元年戊午春二月，葺松岳城。以我太祖為精騎大監，伐楊州、見州。» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «天復元年辛酉，善宗自稱王，謂人曰：「徃者新羅請兵於唐，以破高勾麗，故平壤舊都，鞠為茂草。吾必報其讎。」» · Kim Busik, Samguk sagi 卷50 (zh.wikisource.org/wiki/三國史記/卷50, okundu): «又命太祖伐廣州、忠州、唐城、青州、槐壤等，皆平之。» · BEYANLI YAKLAŞIKLIK: Chungju 900'de Wang Geon (Gung Ye adına) tarafından alındı; 892'den beri Yang Gil/Buk-won komutanlığı bölgede etkindi (SS50: «取國原等三十餘城有之»): 'taebong' künye f 901 olduğundan dilim 901'de başlatıldı. · DOGU-500-1281"},{f:"0918-07-25",t:"1281-01-01",d:"goryeo",kesinlik:"gun",kaynak:"Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «至六月乙卯，騎將洪儒、裴玄慶、申崇謙、卜智謙等密謀，夜詣太祖第，共言推戴之意。太祖固拒不許，夫人柳氏手提甲領被太祖，諸將扶擁而出。令人馳且呼曰：「王公已擧義旗矣！」於是，奔走來赴者，不可勝記，先至宮門，鼓譟以待者，亦萬餘人。裔聞之驚駭曰：「王公得之，吾事已矣！」乃不知所圖，以微服，出自北門亡去，內人淸宮以迎。裔遁于巖谷，信宿飢甚，偸截麥穗而食，尋爲斧壤民所害。» · Goryeosa (Jeong Inji vd.) 卷一 (zh.wikisource.org/wiki/高麗史/卷一, okundu): «元年夏六月丙辰，卽位于布政殿，國號高麗，改元天授。» · DOGU-500-1281"},{f:"1281-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 // Ûicu (Uiju) — Yalu üzerindeki Çin kapısı; Kore elçilerinin Pekin yolu
 // buradan geçerdi. 1592'de kral Seonjo buraya kaçtı.
@@ -3578,7 +3578,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"0500-01-01",t:"1000-01-01",d:"tamna",kesinlik:"yil",kaynak:"SAHİP BEYANLI: tamna (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Goryeosa j.57 Jiri-ji: «肅宗十年，改乇羅，爲耽羅郡»; Samguk sagi j.26: Tamna 476/498 haraç; f=0500-01-01 UFUK SINIR İŞARETİDİR (Tamna 476'dan beri tanıklı, pencere başı) · DOGU-500-1281"},{f:"1000-01-01",t:"1105-01-01",d:"__BOSLUK__",kesinlik:{f:"belirsiz",t:"yil"},kaynak:"BEYANLI BOŞLUK (arandı, bulunamadı): Tamna (耽羅/乇羅) Goryeo’nun haraçgüzar, kendi hükümdarı (星主) olan adası; devletler.js’te Tamna künyesi YOK (arandı: tamna, jeju, cheju). Goryeosa 57 (耽羅縣): 太祖二十一年 Tamna prensi Goryeo’ya geldi ve 星主 unvanı aldı; 肅宗十年 (1105) 郡 yapıldı. Yeni künye önerisi yeni_kunye_gerekli alanında. f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor). · VERI-MS1-1281"},{f:"1105-01-01",t:"1273-07-13",d:"goryeo",kesinlik:{f:"yil",t:"gun"},kaynak:"«肅宗十年，改乇羅，爲耽羅郡。毅宗時，爲縣令官。熙宗七年，以縣之石淺村，爲歸德縣» «元宗十一年，逆賊金通精，領三別抄，入據作亂，越四年，王命金方慶，討平之» Goryeosa 57 (高麗史/卷五十七 地理志二, 耽羅縣): 肅宗十年 (1105) Tamna Goryeo’nun Tamna-gun’u; 元宗十一年 (1270) Sambyeolcho (Kim Tong-jeong) adayı ele geçirdi, 4 yıl sonra (1273) Goryeo ve Yuan birlikleri bastırdı — 1270-1273 isyancı işgali bu dilimde Goryeo’ya sayıldı (BEYAN: fiilen isyancı elinde). f: Goryeosa 57 耽羅縣 肅宗十年 (Goryeo 肅宗 hükümdar yılı; 肅宗元年 = 1096): yalnız yıl. · VERI-MS1-1281"},{f:"1273-07-13",t:"1281-01-01",d:"yuan-hanedani",kesinlik:{f:"gun",t:"yil"},kaynak:"«戊申，經略忻都等兵至躭羅，撫定其地，詔以失里伯為躭羅國招討使，尹邦寶副之» «十年正月，命經略使忻都、史樞及洪茶丘等率兵船大小百有八艘，討耽羅賊黨。六月，平之，於其地立耽羅國招討司» Yuanshi 8 (至元十年六月戊申) ve Yuanshi 208 (耽羅): Moğol/Yuan Tamna Zhaotaosi’yi (招討司) kurdu; Goryeosa 57: 忠烈王三年 (1277) Yuan’ın at otlağı (牧馬場); 1294’te (Yuanshi 208 三十一年) Goryeo’ya iade. f: Gün çevirimi: Yuanshi 8 至元十年六月戊申 → Jülyen 1273-07-13 (Academia Sinica 兩千年中西曆轉換 (sinocal.sinica.edu.tw, 西曆->中曆 tablosu, Jülyen); tablo etiketi 元世祖至元10年6月28日; kaynaktaki gan-zhi günü JDN formülüyle hesaplanıp ay-gün tablosuyla eşleşen TEK gün seçildi). t = 1281-01-01: atlastaki mevcut ilk s: döneminin f günüdür (ön ek bitişikliği; atlas kaydı DAYANAK DEĞİL, yalnız bitişiklik). · VERI-MS1-1281"},{f:"1281-01-01", t:"1356-01-01", d:"yuan-hanedani"},
      {f:"1356-01-01", t:"1392-08-05", d:"goryeo"},
      {f:"1392-08-05", t:"1910-08-29", d:"joseon"},
-     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
+     {f:"1910-08-29", t:"1923-10-29", d:"japon-kore"},{f:"1923-10-29",t:"1945-09-09",d:"japon-kore",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye japon-kore t ucunun kaynağı — Chōsen Government Railway (29 Ağustos 1910) ve Geographicus; Duus, Abacus and the Sword; Eckert · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Japon teslimi Seul 1945-09-09 (Britannica Korea)"},{f:"1945-09-09",t:"1948-08-15",d:"abd-ordu-askeri-hukumeti-kore",kaynak:"USAMGIK (Office of the Historian)"},{f:"1948-08-15",t:"2000-12-31",d:"guney-kore",kaynak:"Kore Cumhuriyeti ilani 1948-08-15 (Britannica South Korea)"}] },
 
 // ###########################################################################
 // BÖLÜM 8 — GÜNEYDOĞU ASYA
@@ -3714,7 +3714,7 @@ window.YERLESIMLER_ASYA = [
 // Kengtung — Şan platosunun doğu ucu; sawbwa'ları hem Birmanya'ya hem
 // Çin'e vergi öderdi. İngiliz döneminde de kendi beyleri yönetti.
 { ad:"Kengtung", tur:"sehir", lat:21.2900, lon:99.6050, g:0, k:1,kd:[{f:"1281-01-01",t:"1923-10-29",k:1,m:"Kengtung"}], d:[],
-  s:[{f:"1281-01-01", t:"1923-10-29", d:"san-devletleri"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"tsv: ingiliz-burma t=1948-01-04; Britannica 'Shan States' (Federated Shan States, Burma Frontier Areas)"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"Britannica 'Myanmar' / Panglong Anlaşması 1947; Library of Congress Country Studies: Burma"}] },
+  s:[{f:"1281-01-01", t:"1923-10-29", d:"san-devletleri"},{f:"1923-10-29",t:"1948-01-04",d:"ingiliz-burma",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ingiliz-burma t ucunun kaynağı — US Office of the Historian, Burma (history.state.gov/countries/burma) — «The United States recognized the Union of Burma as an \"independent sovereign state\" on January 4, 1948.» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: tsv: ingiliz-burma t=1948-01-04; Britannica 'Shan States' (Federated Shan States, Burma Frontier Areas)"},{f:"1948-01-04",t:"2000-12-31",d:"myanmar-birmanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye myanmar-birmanya f ucunun kaynağı — https://history.state.gov/countries/burma · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Myanmar' / Panglong Anlaşması 1947; Library of Congress Country Studies: Burma"}] },
 
 // ===== 8b. Siyam =====
 //
@@ -3782,7 +3782,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1353-01-01", d:"__BOSLUK__"},
      {f:"1353-01-01", t:"1707-01-01", d:"lan-xang"},
      {f:"1707-01-01", t:"1893-10-03", d:"laos-kralliklari"},
-     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
+     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye laos-kralligi f ucunun kaynağı — Kingdom of Laos / Royal Lao Government maddeleri; Fransız-Lao Antlaşması kaydı (UW Madison dijital kütüphane) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 
 // Vientiane — 1560'ta Lan Xang'ın başkenti oldu; Siyam 1828'de şehri
 // yıktı ve krallığı kaldırdı, 1893'te Fransa aldı.
@@ -3793,13 +3793,13 @@ window.YERLESIMLER_ASYA = [
      {f:"1353-01-01", t:"1707-01-01", d:"lan-xang"},
      {f:"1707-01-01", t:"1828-11-01", d:"laos-kralliklari"},
      {f:"1828-11-01", t:"1893-10-03", d:"siyam-chakri"},
-     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
+     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye laos-kralligi f ucunun kaynağı — Kingdom of Laos / Royal Lao Government maddeleri; Fransız-Lao Antlaşması kaydı (UW Madison dijital kütüphane) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 
 { ad:"Champasak", tur:"sehir", lat:14.8920, lon:105.8760, g:0, k:2,kd:[{f:"1713-01-01",t:"1893-10-03",k:1,m:"Champasak"}], d:[],
   kur:"1713-01-01",
   s:[{f:"1713-01-01", t:"1778-01-01", d:"laos-kralliklari"},
      {f:"1778-01-01",t:"1782-04-06",d:"tonburi"},{f:"1782-04-06",t:"1893-10-03",d:"siyam-chakri"},
-     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
+     {f:"1893-10-03", t:"1953-10-22", d:"fransiz-cinhindi"},{f:"1953-10-22",t:"1975-12-02",d:"laos-kralligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye laos-kralligi f ucunun kaynağı — Kingdom of Laos / Royal Lao Government maddeleri; Fransız-Lao Antlaşması kaydı (UW Madison dijital kütüphane) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Laos'"},{f:"1975-12-02",t:"2000-12-31",d:"laos-demokratik-halk-cumhuriyeti",kaynak:"Britannica 'Laos' 1975-12-02"}] },
 
 // Angkor — Kmer imparatorluğunun başkenti; 1431'de Ayutthaya aldı ve
 // merkez güneye, Phnom Penh'e taşındı. Şehir tamamen boşalmadığı (Angkor
@@ -3810,26 +3810,26 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"0500-01-01",t:"0550-01-01",d:"funan",kesinlik:"yil",kaynak:"SAHİP: funan (BOYALAR'da mevcut; BOŞLUK BEYANI karşılandı, 27 Ekim 2026 — beyanlı yaklaşıklık aşağıdaki kaynakla) · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-1: Sui tarihi: «It was originally a vassal kingdom of Funan.» | BEYANLI YAKLAŞIKLIK: Chenla künyesi f=0550'den önce bu çevre Funan'ın üst egemenliğindeydi (Sui tarihi: Chenla 'originally a vassal kingdom of Funan'); yerleşim düzeyinde kesin tanık yok | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı: sahiplik öncesinden sürüyor) · DOGU-500-1281"},{f:"0550-01-01",t:"0802-01-01",d:"chenla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: chenla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-1: Bhavapura «must have been located on the northern shore of the Great Lake»; Bölüm VII-1: «This region, where the first city of Angkor would be erected a century later, had constituted the fief of Bhavapura» | t=0802: Chenla künyesi sonu (devletler.js) ve Jayavarman II'nin efektif iktidarı (Coedès Bölüm VII-1: «we have abundant evidence that the effective beginning of the reign was 802»); Jayavarman II ülkeyi aşamalı fethetti ('had to conquer at least part of the kingdom'); bu yerleşimin tam geçiş günü Angkor-Kmer kümesinde (gdasya2) doğrulanmalı — devam_gerekli · DOGU-500-1281"},{f:"0802-01-01",t:"1000-01-01",d:"angkor-kmer",kesinlik:"yil",kaynak:"Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-1: «we have abundant evidence that the effective beginning of the reign was 802» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-1: «Although his effective authority undoubtedly did not extend beyond the region of the Great Lake» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-1: «His authority extended from the region of Chaudoc, where he dedicated a vimana to Siva in the old sanctuary of Phnom Bayang» · «to the region northwest of Ubon» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-1: «the \"Roluos group,\" situated some fifteen kilometers southeast of Siem Reap» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-1: «which remained the capital of the Khmer empire for 600 years» | BEYANLI YAKLAŞIKLIK: Başkent Hariharalaya (Roluos) → Yasodharapura (889) → Koh Ker (921-~944) → Yasodharapura; Siem Reap/Angkor çevresi Khmer çekirdeğidir. Mevcut zincir 1000'den angkor-kmer ile başlar, dikiş yok. · DOGU-500-1281"},{f:"1000-01-01", t:"1431-01-01", d:"angkor-kmer",kaynak:"[ONCE1281-GERIYE f 1281-01-01 → 1000-01-01] Britannica, «Angkor» (britannica.com/place/Angkor; tarayıcıda açıldı ve okundu 18.10.2026): 'Angkor … served as the capital of the Khmer Empire from the 9th to the 15th centuries.' · 'From the last decade of the 9th century, when King Yashovarman I made Angkor his place of residence, until the early years of the 13th century, the kings of Angkor ruled over a territory that extended …' · 'After the Cham sacked Angkor in 1177' (Britannica yalnız YAĞMA der; sahiplik değişimi yazılmadı) · f 1000-01-01 UFUK SINIR İŞARETİDİR (sahiplik öncesinden sürüyor; edinim günü değil, D210) · ONCE1281-GERIYE"},
      {f:"1431-01-01", t:"1795-01-01", d:"kamboc-kralligi"},
      {f:"1795-01-01", t:"1907-03-23", d:"siyam-chakri"},
-     {f:"1907-03-23", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
+     {f:"1907-03-23", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye demokratik-kampucya f ucunun kaynağı — DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni 5.1.1976; History.com · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 
 { ad:"Battambang", tur:"sehir", lat:13.0960, lon:103.2030, g:0, k:3, d:[],
   s:[{f:"0500-01-01",t:"0550-01-01",d:"funan",kesinlik:"yil",kaynak:"SAHİP: funan (BOYALAR'da mevcut; BOŞLUK BEYANI karşılandı, 27 Ekim 2026 — beyanlı yaklaşıklık aşağıdaki kaynakla) · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-1: Sui tarihi: «It was originally a vassal kingdom of Funan.» | BEYANLI YAKLAŞIKLIK: Chenla künyesi f=0550'den önce bu çevre Funan'ın üst egemenliğindeydi (Sui tarihi: Chenla 'originally a vassal kingdom of Funan'); yerleşim düzeyinde kesin tanık yok | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı: sahiplik öncesinden sürüyor) · DOGU-500-1281"},{f:"0550-01-01",t:"0802-01-01",d:"chenla",kesinlik:"yil",kaynak:"SAHİP BEYANLI: chenla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm V-1: «to Mongkolborei west of the Great Lake» | t=0802: Chenla künyesi sonu (devletler.js) ve Jayavarman II'nin efektif iktidarı (Coedès Bölüm VII-1: «we have abundant evidence that the effective beginning of the reign was 802»); Jayavarman II ülkeyi aşamalı fethetti ('had to conquer at least part of the kingdom'); bu yerleşimin tam geçiş günü Angkor-Kmer kümesinde (gdasya2) doğrulanmalı — devam_gerekli · DOGU-500-1281"},{f:"0802-01-01",t:"1281-01-01",d:"angkor-kmer",kesinlik:"yil",kaynak:"Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-1: «we have abundant evidence that the effective beginning of the reign was 802» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-1: «Although his effective authority undoubtedly did not extend beyond the region of the Great Lake» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VIII-1: «His authority extended from the region of Chaudoc, where he dedicated a vimana to Siva in the old sanctuary of Phnom Bayang» · «to the region northwest of Ubon» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm VII-1: «Prithivinarendra, \"burning like fire the troops of the enemies,\" to whom was entrusted the task of reconquering Malyang, i.e., the region south of Battambang» | Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm IX-1: «the monuments of Vat Ek and of Baset near Battambang» | BEYANLI YAKLAŞIKLIK: Malyang (Battambang güneyi) II. Jayavarman döneminde yeniden fethedilir; 1182 civarı Malyang isyanı bastırılır. · DOGU-500-1281"},{f:"1281-01-01", t:"1431-01-01", d:"angkor-kmer"},
      {f:"1431-01-01", t:"1795-01-01", d:"kamboc-kralligi"},
      {f:"1795-01-01", t:"1907-03-23", d:"siyam-chakri"},
-     {f:"1907-03-23", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
+     {f:"1907-03-23", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye demokratik-kampucya f ucunun kaynağı — DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni 5.1.1976; History.com · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 
 // Phnom Penh — 1434'te Kmer başkenti oldu (kur:). Kral Norodom 11 Ağustos
 // 1863'te Fransız himayesini kabul etti.
 { ad:"Phnom Penh", tur:"sehir", lat:11.5620, lon:104.8880, g:1, k:1,kd:[{f:"1434-01-01",t:"1923-10-29",k:1,m:"Phnom Penh"}], d:[],
   kur:"1434-01-01",
   s:[{f:"1434-01-01", t:"1863-08-11", d:"kamboc-kralligi"},
-     {f:"1863-08-11", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
+     {f:"1863-08-11", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye demokratik-kampucya f ucunun kaynağı — DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni 5.1.1976; History.com · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 
 // Oudong — 1618-1866 arası Kamboçya'nın başkenti; Phnom Penh'e 31 km.
 { ad:"Oudong", tur:"sehir", lat:11.8080, lon:104.7440, g:0, k:3, d:[],
   kur:"1618-01-01",
   s:[{f:"1618-01-01", t:"1863-08-11", d:"kamboc-kralligi"},
-     {f:"1863-08-11", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
+     {f:"1863-08-11", t:"1953-11-09", d:"fransiz-cinhindi"},{f:"1953-11-09",t:"1970-10-09",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia'"},{f:"1970-10-09",t:"1975-04-17",d:"khmer-cumhuriyeti",kaynak:"Britannica 'Khmer Republic'"},{f:"1975-04-17",t:"1979-01-07",d:"demokratik-kampucya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye demokratik-kampucya f ucunun kaynağı — DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni 5.1.1976; History.com · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica 'Khmer Rouge'"},{f:"1979-01-07",t:"1993-09-24",d:"kampucya-halk-cumhuriyeti",kaynak:"Britannica 'Cambodia'; LoC Cambodia Country Study (UNTAC atlandi, bkz not)"},{f:"1993-09-24",t:"2000-12-31",d:"kamboc-kralligi",kaynak:"Britannica 'Cambodia' 1993-09-24"}] },
 
 // ===== 8d. Vietnam ve Champa =====
 //
@@ -3986,7 +3986,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1400-01-01", t:"1511-08-10", d:"malaka-sultanligi"},
      {f:"1511-08-10", t:"1641-01-14", d:"portekiz",enklav:true},
      {f:"1641-01-14", t:"1825-03-01", d:"hollanda-dogu-hint",enklav:true},
-     {f:"1825-03-01",t:"1942-02-15",d:"ingiliz-malaya"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): İngiliz Malaya: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
+     {f:"1825-03-01",t:"1942-02-15",d:"ingiliz-malaya"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): İngiliz Malaya: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malaya-birligi f ucunun kaynağı — worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malezya f ucunun kaynağı — US Office of the Historian, Malaysia (history.state.gov/countries/malaysia) — «The United States recognized the Federation of Malaya on August 31, 1957,» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // Singapur — Raffles 29 Ocak 1819'da karaya çıktı ve Johor'dan aldığı
 // izinle ticaret istasyonunu kurdu (kur:). 1819 öncesi boşluk KASITLIDIR:
@@ -4003,14 +4003,14 @@ window.YERLESIMLER_ASYA = [
 { ad:"Johor", tur:"sehir", lat:1.4930, lon:103.7410, g:1, k:1, d:[],
   s:[{f:"1281-01-01", t:"1400-01-01", d:"malay-sultanliklari"},
      {f:"1400-01-01", t:"1528-01-01", d:"malaka-sultanligi"},
-     {f:"1528-01-01", t:"1923-10-29", d:"cohor-sultanligi"},{f:"1923-10-29",t:"1942-02-15",d:"federe-olmayan-malay-devletleri",kaynak:"tsv: Johor Federe Olmayan Malay Devletleri uyesi; Britannica Malaya"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Federe Olmayan Malay Devletleri: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"federe-olmayan-malay-devletleri",kaynak:"tsv: Johor Federe Olmayan Malay Devletleri uyesi; Britannica Malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Malayan Union 1946-04-01..1948 (UK National Archives; Britannica Onn Jaafar)"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Federation of Malaya Agreement 1948-02-01, Britannica"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Malaya bagimsizligi 1957-08-31; Malezya 1963-09-16 ayni kimlik"}] },
+     {f:"1528-01-01", t:"1923-10-29", d:"cohor-sultanligi"},{f:"1923-10-29",t:"1942-02-15",d:"federe-olmayan-malay-devletleri",kaynak:"tsv: Johor Federe Olmayan Malay Devletleri uyesi; Britannica Malaya"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Federe Olmayan Malay Devletleri: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"federe-olmayan-malay-devletleri",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye federe-olmayan-malay-devletleri t ucunun kaynağı — worldstatesmen.org/Malaysia.htm (Malayan Union kapsamı) · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: tsv: Johor Federe Olmayan Malay Devletleri uyesi; Britannica Malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malaya-birligi f ucunun kaynağı — worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Malayan Union 1946-04-01..1948 (UK National Archives; Britannica Onn Jaafar)"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Federation of Malaya Agreement 1948-02-01, Britannica"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Malaya bagimsizligi 1957-08-31; Malezya 1963-09-16 ayni kimlik"}] },
 
 // Penang — Francis Light 11 Ağustos 1786'da Kedah sultanından aldı (kur:);
 // İngiltere'nin yarımadadaki ilk toprağıdır.
 { ad:"Penang (George Town)", tur:"liman", lat:5.4140, lon:100.3290, g:1, k:3, d:[],
   kur:"1786-08-11",
   s:[{f:"1786-08-11", t:"1826-11-27", d:"ingiltere"},
-     {f:"1826-11-27",t:"1942-02-15",d:"ingiliz-malaya"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): İngiliz Malaya: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
+     {f:"1826-11-27",t:"1942-02-15",d:"ingiliz-malaya"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): İngiliz Malaya: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malaya-birligi f ucunun kaynağı — worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malezya f ucunun kaynağı — US Office of the Historian, Malaysia (history.state.gov/countries/malaysia) — «The United States recognized the Federation of Malaya on August 31, 1957,» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // Kedah — 1821'de Siyam işgal etti, 1842'de sultan tahta iade edildi;
 // 10 Temmuz 1909 İngiliz-Siyam antlaşmasıyla İngiliz nüfuz alanına geçti.
@@ -4018,7 +4018,7 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"0500-01-01",t:"1281-01-01",d:"kedah-kadaram",kesinlik:"yil",kaynak:"SAHİP: kedah-kadaram (BOYALAR'da mevcut; BOŞLUK BEYANI karşılandı, 27 Ekim 2026 — beyanlı yaklaşıklık aşağıdaki kaynakla) · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindianizedstatesofsoutheastasia (djvu tam metni bu oturumda okundu), Bölüm III-2: Kedah «attest to the antiquity of this site, which we will hear of again later under its Sanskrit name Kataha and its Chinese name Chieh-ch'a» | Majumdar, R. C., Ancient Indian Colonies in the Far East, cilt II: Suvarnadvipa, Part I: Political History (Dacca, 1937); archive.org/details/Suvarnadvipa (djvu tam metni bu oturumda okundu): Rajendra Chola'nın 13. yıl (MS 1024-5) Malur yazıtı Kadaram'ın alınışını anar; Kadaram'ın '«never ceased to function as a separate state»' (11. yy boyunca Çin'e elçilikler) | BEYANLI YAKLAŞIKLIK: Alor Setar 17. yy kenti, Kedah (Kataha) limanı Bujang vadisindeydi — atlas 'Kedah' noktası bölgeyi temsil eder | f=0500-01-01 UFUK SINIR İŞARETİDİR (pencere başı: sahiplik öncesinden sürüyor) · DOGU-500-1281"},{f:"1281-01-01", t:"1821-11-12", d:"malay-sultanliklari"},
      {f:"1821-11-12", t:"1842-01-01", d:"siyam-chakri"},
      {f:"1842-01-01", t:"1909-07-10", d:"malay-sultanliklari"},
-     {f:"1909-07-10",t:"1942-02-15",d:"ingiliz-malaya"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): İngiliz Malaya: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
+     {f:"1909-07-10",t:"1942-02-15",d:"ingiliz-malaya"},{f:"1942-02-15",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): İngiliz Malaya: Singapur garnizonunun teslimi (15 Şubat 1942; Britannica 'Pacific War': çıkarma 8-9 Şubat, teslim bir hafta sonra); Malaya seferi 8 Aralık 1941'de başladı, yarımadada işgal noktaya göre Aralık 1941-Şubat 1942 arası — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-04-01",d:"ingiliz-malaya"},{f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malaya-birligi f ucunun kaynağı — worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malayan Union 1946"},{f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},{f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malezya f ucunun kaynağı — US Office of the Historian, Malaysia (history.state.gov/countries/malaysia) — «The United States recognized the Federation of Malaya on August 31, 1957,» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // Patani — Malay sultanlıklarının kuzeydeki ucu; Siyam 1786'da ilhak etti
 // ve Bangkok'ta kaldı (1909 antlaşmasında da Siyam'da bırakıldı).
@@ -4033,9 +4033,9 @@ window.YERLESIMLER_ASYA = [
      {f:"1281-01-01", t:"1874-01-20", d:"malay-sultanliklari"},
      {f:"1874-01-20", t:"1896-07-01", d:"ingiliz-malaya"},
      {f:"1896-07-01",t:"1946-04-01",d:"fed-malay-devletleri",kesinlik:{f:"ay",t:"gun"},kaynak:"TDV İslâm Ansiklopedisi, «Malezya» md. (islamansiklopedisi.org.tr/malezya, bu oturumda okundu): «Temmuz 1896’da Kuala Lumpur başşehir olmak üzere dört Malay devleti “Federal Malay eyaletleri” adı altında birleştirilerek merkezî bir idarî sisteme bağlandı.» · Alleyne Ireland, The Far Eastern Tropics, Boston-New York 1905, ss. 113-114 (archive.org: fareasterntropic00ireluoft, tam metin okundu): «in the following year [1896] the four States — Perak, Selangor, the Negri Sembilan, and Pahang — were combined in a Federation»; Swettenham «Resident-General in 1896» · Malayan Union Order in Council 1946 — The Foreign Jurisdiction (Federation of Malaya) Orders in Council 1948, S.I. 1948/108, giriş (legislation.gov.uk/uksi/1948/108): Order in Council «as from the first day of April, 1946, there should be a Union» (Malaya Birliği 1 Nisan 1946; Federe Malay Devletleri bu Birliğe katıldı) | BEYANLI YAKLAŞIKLIK: TDV yalnız ay verir (Temmuz 1896) — dönem başı ayın 1'i, ay hassasiyeti; Ireland yalnız yıl (1896). Üyelik dört eyalet (Perak, Selangor, Negeri Sembilan, Pahang) düzeyinde kaynaklıdır; şehir düzeyinde ek tanık yok, eyalet merkezi/şehri eyaletin içinde sayıldı. Dönem sonu: Malaya Birliği ilanı (1 Nisan 1946) FMS'nin yerini aldı. · ASYA-ZINCIR-1024 (F3)"},
-     {f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},
+     {f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malaya-birligi f ucunun kaynağı — worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malayan Union 1946"},
      {f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},
-     {f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
+     {f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malezya f ucunun kaynağı — US Office of the Historian, Malaysia (history.state.gov/countries/malaysia) — «The United States recognized the Federation of Malaya on August 31, 1957,» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // Kuala Lumpur — 1857'de kalay madencilerinin kurduğu kasaba (kur:);
 // 1896'da Federe Malay Devletleri'nin başkenti oldu.
@@ -4045,9 +4045,9 @@ window.YERLESIMLER_ASYA = [
      {f:"1857-01-01", t:"1874-01-20", d:"malay-sultanliklari"},
      {f:"1874-01-20", t:"1896-07-01", d:"ingiliz-malaya"},
      {f:"1896-07-01",t:"1946-04-01",d:"fed-malay-devletleri",kesinlik:{f:"ay",t:"gun"},kaynak:"TDV İslâm Ansiklopedisi, «Malezya» md. (islamansiklopedisi.org.tr/malezya, bu oturumda okundu): «Temmuz 1896’da Kuala Lumpur başşehir olmak üzere dört Malay devleti “Federal Malay eyaletleri” adı altında birleştirilerek merkezî bir idarî sisteme bağlandı.» · Alleyne Ireland, The Far Eastern Tropics, Boston-New York 1905, ss. 113-114 (archive.org: fareasterntropic00ireluoft, tam metin okundu): «in the following year [1896] the four States — Perak, Selangor, the Negri Sembilan, and Pahang — were combined in a Federation»; Swettenham «Resident-General in 1896» · Malayan Union Order in Council 1946 — The Foreign Jurisdiction (Federation of Malaya) Orders in Council 1948, S.I. 1948/108, giriş (legislation.gov.uk/uksi/1948/108): Order in Council «as from the first day of April, 1946, there should be a Union» (Malaya Birliği 1 Nisan 1946; Federe Malay Devletleri bu Birliğe katıldı) | BEYANLI YAKLAŞIKLIK: TDV yalnız ay verir (Temmuz 1896) — dönem başı ayın 1'i, ay hassasiyeti; Ireland yalnız yıl (1896). Üyelik dört eyalet (Perak, Selangor, Negeri Sembilan, Pahang) düzeyinde kaynaklıdır; şehir düzeyinde ek tanık yok, eyalet merkezi/şehri eyaletin içinde sayıldı. Dönem sonu: Malaya Birliği ilanı (1 Nisan 1946) FMS'nin yerini aldı. · ASYA-ZINCIR-1024 (F3)"},
-     {f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"Britannica Malayan Union 1946"},
+     {f:"1946-04-01",t:"1948-01-31",d:"malaya-birligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malaya-birligi f ucunun kaynağı — worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malayan Union 1946"},
      {f:"1948-01-31",t:"1957-08-31",d:"ingiliz-malaya",kaynak:"Britannica Federation of Malaya 1948"},
-     {f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
+     {f:"1957-08-31",t:"2000-12-31",d:"malezya",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malezya f ucunun kaynağı — US Office of the Historian, Malaysia (history.state.gov/countries/malaysia) — «The United States recognized the Federation of Malaya on August 31, 1957,» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Malaysia: bagimsizlik 31 Agustos 1957, Malezya 16 Eylul 1963"}] },
 
 // ===== 8f. Sumatra =====
 
@@ -4203,7 +4203,7 @@ window.YERLESIMLER_ASYA = [
 { ad:"Kuching (Sarawak)", tur:"liman", lat:1.5530, lon:110.3590, g:1, k:2,kd:[{f:"1841-09-24",t:"1923-10-29",k:1,m:"Kuching (Sarawak)"}], d:[],
   kur:"1827-01-01",
   s:[{f:"1827-01-01", t:"1841-09-24", d:"brunei-sultanligi"},
-     {f:"1841-09-24", t:"1946-07-01", d:"sarawak-brooke"},{f:"1946-07-01",t:"1963-09-16",d:"sarawak-tac-kolonisi",kaynak:"Britannica Sarawak"},{f:"1963-09-16",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: 16 Eylul 1963"}] },
+     {f:"1841-09-24", t:"1946-07-01", d:"sarawak-brooke"},{f:"1946-07-01",t:"1963-09-16",d:"sarawak-tac-kolonisi",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye sarawak-tac-kolonisi f ucunun kaynağı — https://sarawak.gov.my/web/home/article_view/228/244/?id=228 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Britannica Sarawak"},{f:"1963-09-16",t:"2000-12-31",d:"malezya",kaynak:"Britannica Malaysia: 16 Eylul 1963"}] },
 
 // Bancarmasin — 1526'da kurulan sultanlık; Hollanda 11 Haziran 1860'ta
 // kaldırdı ve Banjar savaşı başladı.
@@ -4292,21 +4292,21 @@ window.YERLESIMLER_ASYA = [
      {f:"1571-06-24", t:"1762-10-06", d:"ispanya"},
      {f:"1762-10-06", t:"1764-05-31", d:"ingiltere"},
      {f:"1764-05-31", t:"1898-08-13", d:"ispanya"},
-     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1942-01-02",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1942-01-02",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Filipinler: Japonlar Manila'ya 2 Ocak 1942'de girdi (Britannica 'Pacific War'); Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü, güney adalarda fiilî işgal daha geç — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
+     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1942-01-02",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1942-01-02",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Filipinler: Japonlar Manila'ya 2 Ocak 1942'de girdi (Britannica 'Pacific War'); Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü, güney adalarda fiilî işgal daha geç — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipin-commonwealth t ucunun kaynağı — OH philippines — 'autonomous commonwealth in 1935' (ajan özeti) · 'The United States recognized the Republic of the Philippines as an independent state on July 4, 1946' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipinler-cumhuriyeti f ucunun kaynağı — https://www.govinfo.gov/link/statute/61/1174 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 // Cebu — Magellan 1521'de burada öldürüldü; Legazpi 27 Nisan 1565'te
 // ilk kalıcı İspanyol yerleşimini kurdu.
 { ad:"Cebu", tur:"liman", lat:10.3170, lon:123.8910, g:1, k:3, d:[],
   s:[{f:"1281-01-01", t:"1565-04-27", d:"filipin-racaliklari"},
      {f:"1565-04-27", t:"1898-08-13", d:"ispanya"},
-     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1942-01-02",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1942-01-02",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Filipinler: Japonlar Manila'ya 2 Ocak 1942'de girdi (Britannica 'Pacific War'); Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü, güney adalarda fiilî işgal daha geç — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
+     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1942-01-02",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1942-01-02",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Filipinler: Japonlar Manila'ya 2 Ocak 1942'de girdi (Britannica 'Pacific War'); Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü, güney adalarda fiilî işgal daha geç — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipin-commonwealth t ucunun kaynağı — OH philippines — 'autonomous commonwealth in 1935' (ajan özeti) · 'The United States recognized the Republic of the Philippines as an independent state on July 4, 1946' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipinler-cumhuriyeti f ucunun kaynağı — https://www.govinfo.gov/link/statute/61/1174 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 // Colo (Jolo) — Sulu Sultanlığı; İspanya üç yüz yıl boyunca ilhak
 // edemedi, sultan 22 Mart 1915 Carpenter Antlaşması'yla dünyevî
 // egemenliğini Amerika'ya devretti.
 { ad:"Colo (Jolo)", tur:"liman", lat:6.0530, lon:121.0020, g:1, k:1,kd:[{f:"1457-01-01",t:"1915-03-22",k:1,m:"Colo (Jolo)"}], d:[],
   s:[{f:"1281-01-01", t:"1915-03-22", d:"sulu-sultanligi"},
-     {f:"1915-03-22", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1942-01-02",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1942-01-02",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Filipinler: Japonlar Manila'ya 2 Ocak 1942'de girdi (Britannica 'Pacific War'); Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü, güney adalarda fiilî işgal daha geç — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
+     {f:"1915-03-22", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1942-01-02",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1942-01-02",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Filipinler: Japonlar Manila'ya 2 Ocak 1942'de girdi (Britannica 'Pacific War'); Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü, güney adalarda fiilî işgal daha geç — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipin-commonwealth t ucunun kaynağı — OH philippines — 'autonomous commonwealth in 1935' (ajan özeti) · 'The United States recognized the Republic of the Philippines as an independent state on July 4, 1946' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipinler-cumhuriyeti f ucunun kaynağı — https://www.govinfo.gov/link/statute/61/1174 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 // Kotabato — Magindanao Sultanlığı; Sultan Kudarat XVII. yüzyılda
 // İspanyol seferlerini püskürttü. İspanya 1888'de nihayet bağladı,
@@ -4317,6 +4317,6 @@ window.YERLESIMLER_ASYA = [
   s:[{f:"1281-01-01", t:"1515-01-01", d:"filipin-racaliklari"},
      {f:"1515-01-01", t:"1888-01-01", d:"magindanao-sultanligi"},
      {f:"1888-01-01", t:"1898-08-13", d:"ispanya"},
-     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1942-01-02",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1942-01-02",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Filipinler: Japonlar Manila'ya 2 Ocak 1942'de girdi (Britannica 'Pacific War'); Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü, güney adalarda fiilî işgal daha geç — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
+     {f:"1898-08-13", t:"1923-10-29", d:"abd"},{f:"1923-10-29",t:"1935-11-15",d:"amerikan-filipinleri",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1935-11-15",t:"1942-01-02",d:"filipin-commonwealth",kaynak:"Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1942-01-02",t:"1945-09-02",d:"meiji-japonya",kesinlik:"yil",kaynak:"JAPON ASKERÎ İŞGALİ (ayrı künye yok; meiji-japonya boyasıyla gösterilir — künye 1868-1947 dönemi kapsar): Filipinler: Japonlar Manila'ya 2 Ocak 1942'de girdi (Britannica 'Pacific War'); Bataan 9 Nisan, Corregidor 6 Mayıs 1942'de düştü, güney adalarda fiilî işgal daha geç — noktaya özgü gün teyitsiz, bölgesel tek tarih. Bitiş 1945-09-02: Tokyo Körfezi'nde teslim belgesi (meiji-japonya künye maddesi); yerel teslimler Eylül 1945'te sürdü. Atlas ufkunda bağımsız 'Japon işgal idaresi' künyesi bulunmadığı için meiji-japonya kullanıldı. · GDA-OKYANUSYA ikinci tur, 29 Ekim 2026"},{f:"1945-09-02",t:"1946-07-04",d:"filipin-commonwealth",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipin-commonwealth t ucunun kaynağı — OH philippines — 'autonomous commonwealth in 1935' (ajan özeti) · 'The United States recognized the Republic of the Philippines as an independent state on July 4, 1946' · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"},{f:"1946-07-04",t:"2000-12-31",d:"filipinler-cumhuriyeti",kaynak:"DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipinler-cumhuriyeti f ucunun kaynağı — https://www.govinfo.gov/link/statute/61/1174 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil · önceki kaynak yasak listede, değiştirildi: Office of the Historian, Philippine independence (Treaty of Manila 1946-07-04); Britannica 'Philippines'"}] },
 
 ];
