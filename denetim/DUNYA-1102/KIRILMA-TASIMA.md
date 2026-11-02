@@ -70,3 +70,19 @@ Zebîd'e ait 1, Trablus'a ait 1, Teschen'e ait 0 çıktı (öteki uçlar Burma/P
   zapt günleri (Bacatá 1537-04-20, Hunza 1537-08-01) yerleşim uçlarında. Künye `ic_not`una beyan.
   Açık: Sagipa direnişi (1538-39) toprak olarak modellenecek mi; künye kaynağı yasak listede (WHE/Military
   History Wiki), değiştirilmeli.
+
+## Danimarka Hindistanı (Emre kararı, 2 Kasım 2026)
+
+- **Künye t 1868-10-16 KALDI** (zaten bu gündeydi; Nancowry ucu da). 16 Ekim GÜNÜ akademik kaynakta
+  bulunamadı: lex.dk «Frederiksøerne» yalnız 1868, lex.dk «Nicobarerne» İngiliz tasarrufunu 1869 der.
+- **Nikobar 1848 fiilî terk** künye `ic_not`una + iç kronolojiye yazıldı (lex.dk Halberg; Jensen: GANGES
+  Şubat 1848). Danimarka hukukî sahip kalır, yerleşim verisi değişmedi.
+- **Tranquebar / Serampore teslim günleri BULUNAMADI** — taşınmadı, beyan. Akademik tek tanık
+  J. Jensen, *Handels- og Søfartsmuseets årbog* (tidsskrift.dk mfs_aarbog 96448): Serampore Kasım 1845'ten
+  «birkaç hafta önce» İngilizlere geçti; Tranquebar'ı Peder Hansen sonbahar 1845–5 Şubat 1846 arasında
+  devretti. 11 Ekim / 7 Kasım 1845 günleri yalnız Vikipedi ve aynalarında. lex.dk, danmarkshistorien,
+  tharangampadi.dk yalnız yıl verir; natmus.dk 503 (bot engeli sayıldı, aşılmadı). Serampore'un yerleşim
+  noktası yok. "Serampore 1839" = satış yetkisi yılı (Jensen), devir değil.
+- **Açık:** Rigsarkivet katalogu ya da Danimarka/Hint hakemli makalesinde teslim günleri (özellikle
+  Tranquebar) aranmalı; bulunursa Tranquebar ucu 1845-02-22'den taşınır. Tranquebar'ın 1845-02-22
+  kırılmasının ±30 günde maddesi YOK (ölçüldü).

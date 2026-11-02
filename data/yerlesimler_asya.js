@@ -1499,7 +1499,7 @@ window.YERLESIMLER_ASYA = [
      {f:"1378-01-01", t:"1532-01-01", d:"vijayanagara"},
      {f:"1532-01-01", t:"1620-11-19", d:"nayak-devletleri"},
      {f:"1620-11-19", t:"1845-02-22", d:"danimarka",enklav:true},
-     {f:"1845-02-22", t:"1947-08-15", d:"ingiliz-hindistani"},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
+     {f:"1845-02-22", t:"1947-08-15", d:"ingiliz-hindistani",kaynak:"f BEYANLI YAKLAŞIKLIK (KASA-KIRILMA, 2 Kasım 2026): 1845-02-22 satış antlaşmasının imza günüdür (gün yalnız ikincil kaynakta, ör. gktoday); fiilî teslim Emre kararıyla esas olmalı ama akademik kaynakta GÜN YOK — J. Jensen, Handels- og Søfartsmuseets årbog (tidsskrift.dk mfs_aarbog 96448): Tranquebar'ı guvernør Peder Hansen 1845 sonbaharı (Galathea ziyareti) ile 5 Şubat 1846 arasında devretti; Vikipedi valiler listesinin 7 Kasım 1845'i teyitsiz. Yıl: lex.dk 'Tranquebar' «købte Storbritannien den i 1845». Gün bulunursa bu uç ve danimarka-hindistani kronolojisi birlikte taşınır."},{f:"1947-08-15",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Indian Independence Act 1947; Britannica India (Cumhuriyet 1950-01-26)"}] },
 
 // Tancûr (Thanjavur) — 1674'te Şivâcî'nin üvey kardeşi Venkocî burada
 // Maratha hânedanı kurdu ve 1855'e kadar sürdü; 1799'da toprak idaresi
