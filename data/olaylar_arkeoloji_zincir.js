@@ -129,7 +129,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 311",
   "yer": "Babil / Uruk",
   "d": "Babil, Uruk noktalarında sahiplik sahipsiz aralık'dan Selevkos Imparatorlugu'ya geçer. Kaynak geçiş bilgisi: Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
-  "kaynak": "Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak: Finkel, van der Spek, Pirngruber (BCHP 3, Diadochi Chronicle); Livius.org yeni okuma ve dipnotlari, Rev. iv.10' dipnotu | https://www.livius.org/sources/content/mesopotamian-chronicles-content/bchp-3-diadochi-chronicle/ | «Seleucus had recovered Babylon in May 311»",
+  "kaynak": "Finkel, van der Spek, Pirngruber, Babylonian Chronographic Texts from the Hellenistic Period (BCHP 3, Diadochi Chronicle, Rev. iv.10' notu) — metin livius.org'da okundu — «Seleucus had recovered Babylon in May 311 and was attacked by the satrap of Media»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Seleukos Babil'i geri alır (Mayıs 311); Seleukos Çağı bu tarihle başlar | Kaynak) dayanak olamaz, değiştirildi. Basılı baskı açılmadı, BCHP notu livius.org üzerinden okundu; zayıf tek kaynak. Tarih (Mayıs 311) atlasla uyumlu, ay verilebilir ama gün yok.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -159,7 +159,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 323",
   "yer": "Babil / Ekbatana / Hemedan / Pasargad / Uruk",
   "d": "Babil, Ekbatana, Hemedan, Pasargad, Uruk noktalarında sahiplik Buyuk Iskender Imparatorlugu'dan sahipsiz aralık'ya geçer. Kaynak geçiş bilgisi: İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
-  "kaynak": "İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kaynak: Lendering, J., Livius.org: Babylon | https://www.livius.org/articles/place/babylon/ | «In 331, the Macedonian conqueror Alexander the Great, who was fighting a war against the Persians, captured Babylon»",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Bâbil», islamansiklopedisi.org.tr/babil — «Büyük İskender (336-323) ... bu çalışmalar onun ölümü üzerine durmuştur.»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (İskender Babil'i alır (331); kaynak Livius özeti, Arrianos 3.16 okunmadı | Kayna) dayanak olamaz, değiştirildi. Yalnız ölüm yılı 323 doğrulandı; 10 Haziran günü bu turda kaynakla teyit edilmedi.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -818,7 +818,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 111",
   "yer": "Dunhuang",
   "d": "Dunhuang noktalarının s: dizisinde bu uç, sahip künyenin (Bati Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye bati-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Ban Gu, Hanshu 6 (Wudi ji), 元鼎六年 (MÖ 111); zh.wikisource.org/wiki/漢書/卷006 — «乃分武威、酒泉地置張掖、敦煌郡，徙民以實之。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye bati-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 111 MÖ doğru: -0110 uyumlu. Hanshu 28 (Dili zhi) girişlerinde kuruluş yılı çıkmadı; farklı Dunhuang tarihi (MÖ 88) iddiası bu turda doğrulanmadı.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -832,7 +832,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 121",
   "yer": "Zhangye (Ganzhou)",
   "d": "Zhangye (Ganzhou) noktalarının s: dizisinde bu uç, sahip künyenin (Bati Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye bati-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Hanshu 6, 元狩二年 (MÖ 121) ve 元鼎六年 (MÖ 111) — «秋，匈奴昆邪王殺休屠王，并將其眾合四萬餘人來降，置五屬國以處之。以其地為武威、酒泉郡。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye bati-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Han toprağına katılış MÖ 121 (Hunye/Xiutu toprağı Wuwei-Jiuquan oldu); Zhangye'nin ayrı komutanlık olarak kuruluşu Hanshu'da MÖ 111. Atlas -0120 'Han yönetimi başlar' olarak savunulabilir, ancak Zhangye kuruluşu gibi okunmasın; istenirse -0110.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -875,7 +875,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 168",
   "yer": "Petra",
   "d": "Petra noktalarının s: dizisinde bu uç, sahip künyenin (Nabatiye Krallığı) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye nabatiye — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Nabatîler», islamansiklopedisi.org.tr/nabatiler — «Milâttan önce IV. yüzyılın sonlarından itibaren varlığı bilinen Nabatî Krallığı’nın kesin kuruluş tarihi belli değildir.»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit beyanlı yaklaşıklık. Önceki kaynak (künye nabatiye — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. TDV MÖ 168'i vermez: kuruluş tarihi belirsiz, krallar MÖ 170 sonrası netleşir (I. Aretas). Atlasın -0167 başlangıcı kaynaksız; beyanlı yaklaşıklık olarak etiketlenmeli. Sonu 106 (Trajan): «Devlet, Roma İmparatoru Traianus döneminde başşehri Petra ele geçirilince yıkılmış (106).»",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -903,7 +903,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 256",
   "yer": "Luoyang",
   "d": "Luoyang noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Sima Qian, Shiji 5 (Qin benji), 昭襄王五十一年 (MÖ 256); Shiji 4 (Zhou benji), 赧王五十九年 — «西周君走來自歸，頓首受罪，盡獻其邑三十六城，口三萬。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Batı Zhou'nun Qin'e teslimi MÖ 256 ile uyumlu (-0255). Doğu Zhou ise 莊襄王元年'de (MÖ 249) 'tüm ülkesi' alındı, Sanchuan komutanlığı kuruldu; Luoyang'ın tam geçişi 249 olabilir, tartışma açık.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -959,7 +959,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 316",
   "yer": "Çengdu (Chengdu)",
   "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Shiji 5 (Qin benji), 惠文王更元九年 (MÖ 316) — «九年，司馬錯伐蜀，滅之。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Hükümdar yılı (324 başlangıçlı gengyuan) MÖ 316 eder; MÖ yıl çevirisi benim, kaynak yalnız hükümdar yılı yazar.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1015,7 +1015,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 350",
   "yer": "Xi'an (Chang'an)",
   "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Qin Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Shiji 5, 孝公十二年 (MÖ 350) — «十二年，作為咸陽，筑冀闕，秦徙都之。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye qin-devleti — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Tarih (MÖ 350) uyumlu ama kaynak Xianyang diyor; Xi'an (Chang'an) noktası Xianyang'dan ayrı yerleşim — nokta eşleştirme beyanı gerekir.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1567,7 +1567,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MS 25",
   "yer": "Xi'an (Chang'an)",
   "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Kızıl Kaşlılar Rejimi (Jianshi)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye chimei-jianshi — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Fan Ye, Hou Hanshu 11 (Liu Xuan / Liu Penzi), 更始三年 (MS 25); 六月，遂立盆子為帝，自號建世元年 — «九月，赤眉入城。更始單騎走，從厨城門出。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye chimei-jianshi — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 25 MS uyumlu. Chang'an'ın Chimei'ye geçişi 更始三年 9. ay (Çin takvimi); Penzi'nin ilanı 6. ayda, Chang'an dışında. Gün dönüşümü için Academia Sinica tablosuna ulaşılamadı (401); gün önerilmedi.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1581,7 +1581,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MS 220",
   "yer": "Luoyang",
   "d": "Luoyang noktalarının s: dizisinde bu uç, sahip künyenin (Dogu Han Hanedani) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye dogu-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Chen Shou, Sanguozhi 2 (Wei shu, Wendi ji), 延康元年-黃初元年 (MS 220) — «惟延康元年十月乙卯，皇帝曰：咨爾魏王»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye dogu-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 220 uyumlu. Tahta çıkış töreni 繁陽'de, Luoyang değil. Gün (十月乙卯) tablo olmadan çevrilmedi.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1595,7 +1595,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MS 224",
   "yer": "Babil / Dura-Europos / Ekbatana / Hemedan / Ktesiphon / Seleukeia (Dicle üzerinde) / Uruk",
   "d": "Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia (Dicle üzerinde), Uruk noktalarının s: dizisinde bu uç, sahip künyenin (Part (Arsakid) Imparatorlugu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye part — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "TDV İslâm Ansiklopedisi, «Erdeşîr», islamansiklopedisi.org.tr/erdesir — «28 Nisan 224'te Medler ülkesinde (Medya) Hürmüzcân'da yapılan savaşı kazanır»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye part — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Gün TDV ile birebir uyumlu (28 Nisan 224). TDV aynı maddede 226'yı da (Hatra/saltanat) anar; Part 'sonu' için 224 savaşı esas alınmış.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1628,7 +1628,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MS 265",
   "yer": "Çengdu (Chengdu)",
   "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Cao Wei) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye cao-wei — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Fang Xuanling vd., Jinshu 3 (Wudi ji), 泰始元年 (MS 265); Sanguozhi 33: 炎興元年 Shu'nun teslimi — «冬十二月丙寅，設壇于南郊 ...魏帝稽協皇運，紹天明命以命炎。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye cao-wei — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 265 uyumlu. Jinshu töreni 十二月丙寅 yazar; sık aktarılan 十二月壬戌 bu sayfada yok (gün çelişkisi, çevrilemedi). Chengdu 263'te Shu'dan Wei'ye geçmişti (Sanguozhi 33'te şehir adı geçmez, 'şehrin kuzeyi').",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1642,7 +1642,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MS 347",
   "yer": "Çengdu (Chengdu)",
   "d": "Çengdu (Chengdu) noktalarının s: dizisinde bu uç, sahip künyenin (Cheng-Han (成漢)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye cheng-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Jinshu 121 (Zaiji 21, Li Shi), 永和三年 (MS 347); teslim mektubu: 偽嘉寧二年三月十七日 — «以穆帝永和三年滅»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye cheng-han — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. 347 doğru. Mektup tarihi Çin takvimidir (3. ay 17. gün); Academia Sinica tablosu erişilemediği için gün önerilmedi.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1656,7 +1656,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MS 386",
   "yer": "Xi'an (Chang'an)",
   "d": "Xi'an (Chang'an) noktalarının s: dizisinde bu uç, sahip künyenin (Önceki Qin (前秦)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye onceki-qin — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Jinshu 114 (Fu Jian zaiji) — «是歲太元十年也 ... 慕容沖入據長安，從兵大掠»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye onceki-qin — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Fu Jian'ın ölümü MS 385 (太元十年). Murong Chong'un Chang'an'a girişi sayfada yılsız; atlasın 386'sı doğrulanamadı, 385 olabilir. Ölçülmeden değişiklik önerilmedi.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
@@ -1670,7 +1670,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MS 423",
   "yer": "Dunhuang",
   "d": "Dunhuang noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Jinshu 87 (Liang Wuzhao wang Li Xuansheng, Li Xun'ın Dunhuang'ı) — «玄盛以安帝隆安四年立，至宋少帝景平元年滅，據河右凡二十四年。»", "ic_not_d":"DUNYA-1102 hücre 8 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Jinshu Batı Liang'ın sonunu 景平元年 (MS 423) verir = atlasın 423'ü. Başka literatür 421 diyebilir (okunmadı); çelişki beyanı için not düşülmeli.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [

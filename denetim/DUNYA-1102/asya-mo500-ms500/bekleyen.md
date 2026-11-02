@@ -1,0 +1,187 @@
+# Hücre 8 — Asya MÖ 500–MS 500 · bekleyen
+
+KASA, 2 Kasım 2026. Künye tavanı 2280 dolu; yeni künye eklenmedi.
+
+## Hücre 8 kararları (Asya MÖ 500–MS 500)
+- Uygulanan künye tarihleri (TDV esas; ömür geriye genişledi, yerleşim dönemi taşmıyor): himyar f -0114 (TDV Himyerîler, MÖ 115; saba t ile uyumlu) · part f -0249 (TDV, MÖ 250) · hasmoni f -0142 (TDV, MÖ 143) · bitinya f -0297 (TDV, MÖ 298).
+- Uygulanan madde tarihleri: Şapur I Suriye 253 → 256 (TDV Şâpûr; Antakya yağma yılı ayrıca tartışmalı) · Issos MÖ 333 Kasım (ay; "5 Kasım" kaynaksız; Arrianos II.11 + TDV) · Part kuruluşu -0246 → -0249 (TDV; künye f ile uyumlu).
+- UYGULANMADI: liu-song f 420-07-10 ve sun-wu t 280-04-01 (ajan ganzhi→Jülyen dönüşümünü kendi hesabıyla yaptı; NAOJ/Academia Sinica tablosu açılmadı — kural gereği gün yazılmaz) · maurya/sunga ±2-3 yıl (yalnız bölüm başlığı "c.") · Philetairos TDV MÖ 283 ↔ atlas 281 (kırılma) · II. Demetrios yakalanması MÖ 141/140 ↔ atlas 138 (2 kırılma) · Babil isyanı TDV 478 ↔ 484 · Sayda 351 ↔ 345 · hasmoni t 63 (TDV) ↔ 37 ve herodes f 40 ↔ 37 (birlikte karar).
+- 🔴 YAZIM HATASI ÖRÜNTÜSÜ (MÖ astronomik yıl dönüşümü): magadha (özet 543/321 ↔ veri 544/324), maurya, sunga, kanva (özet 72-28 ↔ -0074/-0029) — künye + yerleşim + madde birlikte düzeltilmeli; ayrı iş.
+- İçerik: Peroz yenilgisi yeri (TDV Ceyhun kıyısı ↔ atlas Merv-Herat) · Nabatî kuruluşu -0167 kaynaksız (TDV "kesin kuruluş tarihi belli değildir") · Luoyang Batı/Doğu Zhou 256/249 · Xi'an ↔ Xianyang noktası · Önceki Qin 386 doğrulanamadı.
+- Erişim: Iranica 403, Academia Sinica sinocal 401, ctext.org bot engeli, penelope.uchicago ECONNREFUSED — atlatılmadı.
+
+## Beyan edilen ama uygulanmayan (karar verilmedi / tek kaynak çelişki)
+- himyar: f: TDV MÖ 115 (=-0114); atlas -0109 Himyar takvimi MÖ 110'a dayanıyordu. TDV esas, çelişki ic_not'ta iki kaynakla beyan edilmeli. t 525 TDV ile teyit (Himyerî Devleti son buldu ve toprakları Habeşistan’a bağlandı).
+- part: f: TDV MÖ 250 (=-0249), atlas MÖ 247 (-0246) ile çelişir; üçüncü bağımsız akademik kaynak gerekir. t: TDV 224'te Hürmüzdegân'da V. Erdevân yenilgisi, 226 taç giyme; t yılı 224 teyitli, 04-28 günü okunmadı.
+- selevkos: TDV yıl tutarsız (Antakya: 69 Roma egemenliği, Pompeius ile son); Part Mithridatis MÖ 141 Selevkos'a tamamen hâkim (İran). f için TDV'de Selevkos I'in devlet kuruluş yılı okunmadı. Kesin hüküm yok.
+- nabatiye: t 106 teyit. f: kesin kuruluş tarihi belli değildir; MÖ 170 sonrası krallar (ilki I. Aretas) belirlenebilir; atlas -0167 beyanlı yaklaşıklık olarak kalır.
+- hasmoni: TDV Hasmoni dönemi MÖ 143-63 (=-0142..-0062), 63'te Yahuda Krallığı sona ermiştir; atlas t MÖ 37 (Antigonos'un Herodes'çe devrilişi). CELISKI: t değişikliği Herodes künyesiyle birlikte karar ister, değiştirmeyi önermiyorum. f -0142 önerisi TDV esaslı.
+- herodes-krallik: TDV Herodes ataması MÖ 40 (=-0039), atlas MÖ 37 (fiilî fetih). t 93 (II. Agrippa) TDV'de okunmadı. Değişiklik önerilmedi; f çelişkisi beyan edilmeli.
+- palmira: Mevcut ic_not ile uyumlu: 272 fetih, yıkım yılsız. Odaenathus öldürülüşü 267/268; f 260 TDV'de bağımsızlık ilanı için yıl vermiyor.
+- bergama: TDV Lysimakhos ölümü (MÖ 281) sonrası Attalos devleti; 133 vasiyet yılı TDV'de yok, eyalet 129. Mevcut kayıtla çelişmiyor.
+- bitinya: f: TDV MÖ 298 (=-0297); atlas MÖ 297 (Zipoites kral ilanı). t MÖ 74 (=-0073) TDV ile uyumlu (TDV III. Nikomedes der, atlas IV.).
+- galatya-keltleri: t MÖ 25 (=-0024) teyit. f (Kelt geçişi 278) TDV'de yok, okunmadı.
+- kapadokya-krallik: t 17 teyit. f (Ariarathes III) okunmadı.
+- antigonos: t: Ipsos MÖ 301 = -0300 teyit. f (MÖ 306 unvan) okunmadı.
+- okunmadı · antigonos-krallik
+- bar-kohba: 132-135 teyit; gün TDV'de yok.
+- okunmadı · iskender-imparatorlugu
+- okunmadı · dilmun
+- okunmadı · karakene
+- okunmadı · hadramavt
+- okunmadı · ma-in
+- okunmadı · kataban
+- okunmadı · artaksiad
+- okunmadı · tigran-imp
+- okunmadı · sofene
+- okunmadı · likya-birligi
+- okunmadı · karya-hekatomnid
+- okunmadı · vandal
+- okunmadı · dogu-jin
+- okunmadı · bati-jin
+- okunmadı · han-zhao
+- bulunamadı: iskender-imparatorlugu
+- bulunamadı: dilmun
+- bulunamadı: karakene
+- bulunamadı: hadramavt
+- bulunamadı: ma-in
+- bulunamadı: kataban
+- bulunamadı: artaksiad
+- bulunamadı: tigran-imp
+- bulunamadı: sofene
+- bulunamadı: likya-birligi
+- bulunamadı: karya-hekatomnid
+- bulunamadı: vandal
+- bulunamadı: dogu-jin
+- bulunamadı: bati-jin
+- bulunamadı: han-zhao
+- hunnu-xiongnu: f: MÖ 209 = -0208 TDV'de teyit. t: TDV'nin kendi içinde çelişki var: «Türk» 93, «Asya» 156 civarı (atlas 155). Karar verilmedi; üçüncü bağımsız akademik kaynak (Cambridge History of Early Inner Asia) açılamadı. Çelişki ic_not'ta iki kaynağıyla beyan edilmeli.
+- okunmadı · xianbei
+- rouran: t=552 TDV'de teyitli (yıl hassasiyeti; Kalıntılar Muqan ile 555'e dek atlas notunda, TDV bu cümlede vermiyor). f=402 (Shelun) TDV'de bulunamadı (Türk ve Asya maddelerinde geçmiyor): okunmadı. Atlas kaynak_yeni olarak Britannica'yı bırakmalı.
+- qin-hanedani: Birleşme ve Ziying'in teslimi metinde teyitli, ama sayfa MÖ yıl vermiyor (hükümdar yılı); MÖ 221 / MÖ 207 dönüşümü kaynaktan değil bilinen kronolojiden. Cambridge History of China cilt 1 yalnız künye sayfasına ulaşıldı, gövde açılamadı. Gün/yıl değişikliği önerilmedi.
+- zhao-devleti: Handan Youmiao 8. yıl 10. ay'da düştü (standart kronolojiyle MÖ 228); Jia'nın Dai'deki 6 yıllık devamı t=MÖ 222 (-0221) ile tutarlı. Atlas Zhao'nun sonunu 222'ye koymuş: Handan'ın düşüşü (228) ile Dai'nin sonu (222) ayrımı kronolojide beyan edilmeli. Yıl dönüşümü kaynakta yok; 403 kuruluşu okunmadı.
+- okunmadı · wei-devleti-zhou
+- okunmadı · bati-han
+- xin: Hanshu 12. ayın yeni ayını (癸酉) Jianguo 1/1 yaptığını teyit ediyor; Julyen karşılığı (atlas 9 Ocak 9) bende hesaplanmadı. t=23 okunmadı.
+- okunmadı · dogu-han
+- cao-wei: 庚午 (Huangchu 1/10) Julyen 220-12-10 (JDN ile hesapladım: tek aday), 丙寅 (Taishi 1/12) 266-02-08. Her iki gün atlasla birebir tutuyor. Gün dönüşümü kendi hesabım; Academia Sinica tablosu açılamadı, bu yüzden 'çift teyit' yazılmadı.
+- shu-han: Yıl düzeyinde doğru: Zhangwu 1 (221) ve Yanxing 1 kışı (263). Alıntılanan 五月辛巳 Liu Bei'nin veliaht tayin fermanıdır, ilk tahta çıkış günü değil; gün düzeyi için Shu shu 2 (Xianzhu zhuan) okunmalı. Gün önerilmedi.
+- sun-wu: Metin Tianji 4 (280) 3. ay girişlerinden (丙寅, 戊辰) hemen sonra 壬申 günü Wang Jun'un Sun Hao'nun teslimini aldığını yazıyor; 壬申 Julyen 280-04-01 (JDN ile hesapladım, 3. ay içindeki tek uyumlu aday). Atlas t=0280-01-01 yıl hassasiyetinde; gün önerildi. UYARI: atlas ozet'i 222-280 diyor ama f=0212-01-01 (MS 212): iç tutarsızlık, f'yi bu oturumda kaynakla açamadım (Sun Quan 222 Wang unvanı / 229 imparat
+- liu-song: f: 丁卯 (Yongchu 1/6) Julyen 420-07-10 (hesapladım) → atlas f yıl hassasiyetinde, gün önerildi. t: Songshu 10'a göre 辛卯 = 479-05-26 禪位 fermanı, 壬辰 = 479-05-27 Shundi'nin tahttan inişi; atlas 05-29 ise 甲午'ya denk (Güney Qi'nin tahta çıkış günü, Nan Qi shu'dan okunmadı). Yani Liu Song t için 05-27 daha doğru görünüyor ama Qi f ile 05-29 sürekliliği bozulur; karar verilmedi, t aynı bırakıldı.
+- guney-qi: Zhonghing 2/3 ay 丙辰 = Julyen 502-04-20 (hesapladım): He Di'nin Liang'a禪位 günü. Atlas t=502-04-30 ile 10 gün fark; atlasın 04-30'u hangi olaya (Liang tahta çıkışı?) dayandığı belirsiz. Nan Qi shu 1'de Gaodi'nin tahta çıkışı (四月甲午 beklenen) bulunamadı: f için okunmadı. Değişiklik önerilmedi, çelişki kronolojide beyan edilmeli.
+- goguryeo: f=MÖ 37 (-0036) ve 668 sonu encykorea ile teyitli; encykorea 9. ay (ay-güneş) veriyor, atlasın gün seçimi (10-22) mevcut ic_not_t beyanıyla çelişmiyor.
+- baekje: MÖ 18 = -0017 ve 660 teyitli. Gün (08-29) encykorea'da yok; aynı sayfa 660 Temmuz'da Sabi düşüşünü yazıyor (ay-güneş) — atlasın ic_not_t'deki gün hesabıyla çelişmiyor ama bu oturumda gün doğrulanmadı.
+- silla: MÖ 57 = -0056 teyitli (geleneksel Samguk sagi yılı; aynı madde 57'yi 'sonradan uydurma' sayan görüşü de anıyor — f gelenek, beyanlı). t: encykorea 935 Kasım (ay-güneş, 11. ay); atlasın 936-01-08'i muhtemelen bu ayın Gregoryen/Julyen karşılığı, bu oturumda doğrulanmadı.
+- okunmadı · yamato
+- okunmadı · funan
+- okunmadı · linyi-champa
+- maurya: Atlas ozet'i 'MÖ 321-185' diyor ama f=-0323 (MÖ 324) ve t=-0186 (MÖ 187): astronomik yıl dönüşümü hatalı görünüyor (MÖ 321 = -0320; MÖ 185 = -0184). Dayanak yalnız başlık olduğundan 'tek kaynak, düşük güven': dönem sonu Sunga f ile birlikte değişmeli.
+- sunga: Sunga f yalnız Maurya t ile bağlantılı olarak -0184'e önerildi (MÖ 185). Sunga t (MÖ 73 / -0072 ya da -0074?) okunmadı: atlas -0074 = MÖ 75, ozet 'yaklaşık MÖ 73' (= -0072) — başka bir iç tutarsızlık, kaynakla çözülmedi.
+- okunmadı · kanva
+- okunmadı · gupta
+- okunmadı · satavahana
+- okunmadı · kuzey-wei
+- okunmadı · bati-ganga
+- okunmadı · pallava
+- okunmadı · kamarupa
+- okunmadı · yarlung-krallik
+- bulunamadı: xianbei (f,t)
+- bulunamadı: rouran f=402
+- bulunamadı: wei-devleti-zhou
+- bulunamadı: bati-han
+- bulunamadı: dogu-han
+- bulunamadı: funan
+- bulunamadı: linyi-champa
+- bulunamadı: kanva
+- bulunamadı: gupta
+- bulunamadı: satavahana
+- bulunamadı: kuzey-wei
+- bulunamadı: bati-ganga
+- bulunamadı: pallava
+- bulunamadı: kamarupa
+- bulunamadı: yarlung-krallik
+- bulunamadı: yamato (Cambridge cümlesi açılamadı)
+- okunmadı · -0046-05-21 Zela: Caesar II. Pharnakes'i yendi ("veni vidi vici")
+- -0073-01-01 Kyrene Roma eyaleti yapıldı (Cyrenaica): Aynı sayfa: Ptolemaios Apion MÖ 96'da ölüp ülkesini Roma'ya bıraktı; kentler özgür kaldı. 74 = -0073 doğru. Kaynak ders-yorum notu (zayıf-orta); Sallustius Hist. 2.43 sayfası açılamadı. Livius dayanağı bırakılabilir. Girit ile birleşme MÖ 67 ayrı olaydır.
+- -0128-01-01 Aristonikos yenildi; Bergama topraklarından Asia eyaleti kur: ÇELİŞKİ/EKSİK: TDV Bergama'nın Roma'ya geçişini MÖ 133 verir, MÖ 129'u (Aristonikos yenilgisi, Asia eyaletinin örgütlenmesi) anmaz; Aristonikos TDV Bergama'da yok. Atlasın -0128 (MÖ 129) tarihi akademik kaynakla okunmadı. Karar vermedim; Magie 'Roman Rule in Asia Minor' gibi bir kaynak gerekir.
+- -0274-01-01 I. Antiokhos "Fil Savaşı"nda Galatları yendi: Akademik literatürde Fil Savaşı MÖ 277-274 arasında tartışmalıdır (Tarn 275, Otto 274). Atlas -0274 (MÖ 275) bu aralıkta; 'beyanlı yaklaşıklık' + yuzyil/onyil değil yıl±2 olarak beyan edilmeli. Yazarın kendi tarihi sayfada (özet) okunamadı.
+- okunmadı · -0277-01-01 I. Nikomedes Galatları Anadolu'ya geçirdi
+- -0280-01-01 Philetairos Korupedion'dan sonra Seleukos'a geçti; Bergama f: ÇELİŞKİ: TDV Philetairos'un otonom Bergama devletini MÖ 283'te kurduğunu söyler (-0282); atlas maddesi 'Korupedion'dan (MÖ 281) sonra' diyor, -0280. TDV Korupedion'u anmaz. Strabon 13.4.1 sırası Korupedion sonrasıdır ama sayfa açılamadı. TDV esas kuralıyla -0282 önerilir; ancak madde başlığı 'Korupedion'dan sonra' ile uyumsuz — karar çağırana (iki görüş: TDV 283 / Strabon sırası 281).
+- -0300-01-01 Lysimakhos hazinesini Bergama'ya koydu; Philetairos kalenin : TDV olayı (Lysimakhos hazineyi Bergama'ya taşıdı, kale komutanı Philetairos) doğrular ama TARİH vermez; atlasın -0300 (MÖ 301) tarihi için akademik kaynak okunmadı. Yıl teyitsiz.
+- okunmadı · -0303-01-01 Demetrios Poliorketes'in Rodos kuşatması başarısızlıkla bitt
+- -0305-01-01 Kıbrıs Salamis'te Demetrios Ptolemaios'u yendi; Antigonos ve: Plutarkhos: Kıbrıs deniz zaferi sonrası Antigonos'a 'kral' selamı. Bagnall/Austin notu: Antigonos'un kral unvanını MÖ 306'da aldığını söyler (Diod. 'sayfada 19.53.2' diye anılıyor, muhtemelen 20.53.2). 306 = -0305 doğru. Plutarkhos alıntısı Salamis adını geçirmiyor.
+- okunmadı · -0308-01-01 Lysimakhos Lysimakheia'yı kurdu: Trakya Khersonesos'unda baş
+- -0310-01-01 Diadokhoslar Barışı: Antigonos Asya'nın, Kassandros Avrupa'n: Sayfa: barış MÖ 311'de (Antigonos - Kassandros, Lysimakhos, Ptolemaios); 311 = -0310 doğru. Not: antlaşmada Lysimakhos Trakya'nın, Kassandros Avrupa'nın (Roksane'nin oğlu ergin olana dek) stratejosudur; Seleukos'un dışlandığı literatürde bilinir (okunmadı). Antlaşma tek tek Diod.19.105.1 ve bir yazıta dayanır.
+- okunmadı · -0313-01-01 Tyros Antigonos'a geçti: Fenike Ptolemaios'tan alındı
+- okunmadı · -0315-01-01 Gabiene: Antigonos Eumenes'i yendi, İran'a kadar uzanan Asya
+- okunmadı · -0319-01-01 Triparadeisos Düzenlemesi: Antigonos Monophthalmos Asya stra
+- -0325-01-01 Hydaspes: Poros yenildi; Pencap İskender'e bağlandı: 326 = -0325 doğru, mevsim ilkbahar sonu/yaz başı. Gün (Livius 'May 326') kaynakta yok. Plutarkhos: Poros'un yenilgisi; 'Pencap İskender'e bağlandı' Arrianos 5.19-20'ye dayanır, ayrıca okunmadı.
+- okunmadı · -0404-01-01 Aigospotamoi: Atina filosu yok edildi; Delos Birliği çöküşün
+- okunmadı · 0272-01-01 Aurelianus Palmira İmparatorluğu'nu yendi: Zenobia'nın Doğu 
+- okunmadı · -0245-01-01 III. Ptolemaios Laodike Savaşı'nda Suriye'yi ve Mezopotamya'
+- okunmadı · -0128-01-01 VII. Antiokhos Sidetes Part’a karşı seferde öldü; Selevkos M
+- -0137-01-01 Part, II. Demetrios Nikator’u esir aldı; Selevkos Babil ve M: Seleukos çağı 172. yıl = yaklaşık MÖ 141/140 (Eki 141-Eki 140); Demetrios Arsakes'in generali tarafından yakalandı. Atlasın -0137 (MÖ 138) 1-2 yıl geç. Öneri MÖ 140 (-0139), ±1 (Seleukos yılı 172'nin hangi takvimle sayıldığına bağlı). Ayrıca 'Babil ve Mezopotamya kesin yitirildi' ifadesi Demetrios'un esiriyle birleştirilmiş: Babil'in Part'a geçişi (Mithridates I, MÖ 141/140) ve kesin yitirme (Side
+- -0166-01-01 Makabi İsyanı: Yahudiye’de IV. Antiokhos’un dinî yasaklarına: Seleukos yılı 145, Kislev = Aralık MÖ 167 (-0166): dinî yasakların başlangıcı doğru. Gün dönüşümü (Seleukos/Yahudi takvimi) yapılmadı. TDV Filistin: Judas Maccabaeus isyanı; 'MÖ 164'te Selevkoslar Kudüs'ten atılarak Haşmonayim hânedanı kuruldu' (isyan tarihi vermez).
+- -0187-01-01 Apameia Antlaşması: Selevkos Toros Dağları’nın batısından çe: 188 = -0187 doğru. Sayfa: Seleukos nüfuzu Toros'un güneyine sınırlandı, tazminat yaklaşık 10.478 talent gümüş (kaynaklar arasında 12-15.000 değişir, okunmadı). Üniversite ders materyali: orta kuvvette; Polybios 21.42-43 ve Livius 38.38 açılamadı.
+- okunmadı · -0204-01-01 III. Antiokhos doğu seferi (209-204): Part ve Baktriya krall
+- -0246-01-01 Arsakes I ve Tiridates Parthava’yı alıp Part (Arsakid) devle: ÇELİŞKİ: TDV Part kuruluşunu MÖ 250 verir (-0249); atlas MÖ 247 (-0246, Arsakid takvim başlangıcı). Encyclopaedia Iranica (403) açılamadı. TDV esas kuralıyla -0249 + kesinlik onyil/beyanlı yaklaşıklık; çağıran iki görüşü ic_not'ta beyan etmeli.
+- okunmadı · -0249-01-01 Baktriya satrapı Diodotos Selevkos’tan ayrıldı; Greko-Baktri
+- okunmadı · -0273-01-01 I. Suriye Savaşı (274-272): Selevkos kuvvetleri Şam’ı geri a
+- okunmadı · -0279-01-01 Karia Savaşı: II. Ptolemaios İyonya, Karia, Likya, Pamfilya 
+- okunmadı · -0280-01-01 Selevkos I Ptolemaios Keraunos tarafından öldürüldü; I. Anti
+- -0329-01-01 Persepolis saraylarının yakılması (Nisan): Olay doğrulandı (Persepolis sarayı yakıldı); Plutarkhos 'İskender hemen pişman olup söndürtti' der, mevsim/ay vermez. TDV bu olayı 331 anlatımına koyar, yıl netliği yok. 'Nisan' (-0329-04) ve MÖ 330 teyitsiz — Livius dayanaktı.
+- -0330-01-01 İskender Babil'e girdi; Mazaios şehri teslim etti ve Babil S: Arrianos 3.16: Babilliler kenti ve hazineyi teslim etti, Mazaios satrap atandı. TDV: Gaugamela sonrası 'Bâbil’i aldı' (331 anlatımı). Yıl (MÖ 331 sonbahar = -0330) Gaugamela'dan (Ekim 331) çıkar; gün yok.
+- -0330-01-01 İskender Susa'yı aldı; Pers hazinesi ele geçirildi: Susa Babil'den 20 gün sonra alındı (MÖ 331 sonu = -0330 ile uyumlu). Hazine miktarı kaynaklarda farklı: Arrianos 50.000, Plutarkhos 40.000 talent (atlas maddesi miktar vermiyor; sorun yok).
+- -0330-10-01 Gaugamela Savaşı: İskender III. Dareios'un ordusunu kesin bi: 1 Ekim 331 = -0330-10-01 doğru (Güncede 24. gün; van der Spek 2003 yorumu). Plutarkhos: ay tutulması Boedromion'da, savaş tutulmadan 11. gece sonra (Loeb notu 20 Eylül 331 tutulma); Arrianos savaşı Pyanepsion/Aristophanes arkonluğu verir. Gün dönüşümü tablosu (Academia Sinica/NAOJ) bu Babil-Jülyen için gerekmedi; dönüşüm COJS/van der Spek'e dayanır.
+- -0331-01-01 Sur kuşatması: İskender, adadaki kenti dolgu yoluyla alıp yı: Hekatombaion (Temmuz-Ağustos) MÖ 332 = -0331. Atlasın yıl hassasiyeti doğru; ay Hekatombaion→Temmuz/Ağustos Atina takviminin yaklaşık karşılığıdır, gün verilmez. Kuşatma Ocak-Temmuz (Livius) değil Arrianos'ta 7 ay; bu ayrıntı okunmadı.
+- -0332-11-05 Issos Savaşı: İskender III. Dareios'u yendi; Dareios ailesin: Arrianos: Maimakterion (Atina takvimi ≈ Kasım), arkon Nikostratos = MÖ 333. TDV: '333’ün sonbaharında İssos ovasında ... III. Dârâ ile karşılaştı'. Yıl ve ay/mevsim teyitli (-0332-11); atlasın '5 Kasım' günü bu kaynaklarda YOK (Livius '5 veya 6'), gün teyitsiz → kesinlik ay.
+- -0333-01-01 Granikos Savaşı: İskender Pers satraplarını yendi: TDV: 334 ilkbaharında Asya seferi, Grenikos (Biga çayı) zaferi; Plutarkhos: Daisios ayı (≈ Mayıs-Haziran). 334 = -0333 doğru. Gün yok.
+- okunmadı · -0335-01-01 III. Dareios Pers tahtına çıktı (Arses'in öldürülmesi)
+- okunmadı · -0337-01-01 III. Artakserkses öldü; IV. Artakserkses (Arses) tahta çıktı
+- -0344-01-01 III. Artakserkses Sayda'yı alıp yıktı; Tennes isyanı bastırı: ÇELİŞKİ: encyclopedia.com 'Sidon' maddesi Sayda'nın düşüşünü MÖ 351 verir (atlas MÖ 345 = -0344); Diodoros 16.40-45 sayfası açılamadı. TDV Sayda Pers dönemini anmaz. Standart literatürde isyan 351'de başlar, kent 345'te düşer olabilir — okunmadı; değişiklik önermiyorum.
+- -0483-01-01 Babil'de Bêl-šimânni ve Šamaš-eriba isyanları I. Kserkses ta: ÇELİŞKİ: TDV Xerxes'in Babil'i isyan sonrası yıktığını MÖ 478 verir; atlas MÖ 484 (-0483). Waerzeggers (AfO 50) ve literatür 484 civarını destekler ama makale metni açılamadı (yalnız bibliyografik kayıt). Karar çağırana: TDV 478 / Waerzeggers 484 (okunmadı). Ayrıca iki isyan (Bêl-šimânni, Šamaš-eriba) tek kayıtta birleşik.
+- bulunamadı: Iranica (iranicaonline.org) 403 verdi, atlanmadı
+- bulunamadı: penelope.uchicago.edu (LacusCurtius/Thayer) ECONNREFUSED; cts/fgh.perseids.org 502
+- bulunamadı: Diodoros 17-20, Justinus 36-41, Polybios 21, Livius 38, Strabon 13.4 açılamadı
+- okunmadı · 0231-01-01 I. Ardeşir Roma Mezopotamya’sına saldırdı; Roma-Sasani savaş
+- okunmadı · 0244-01-01 Gordianus III Ktesifon yakınlarında öldü; Philippus Arabs Şa
+- 0253-01-01 Şapur I Suriye’yi işgal edip Antiokheia’yı yağmaladı: TDV Roma saldırısını 256 verir (atlas 253/256 beyanlı). Antakya yağmasının yılını TDV vermez; TDV çelişkide esas olduğundan 256 öneriliyor, ancak Antakya'nın yılı ayrıca tarihlenmedi. Uygulayan kronoloji senkronunu ölçsün.
+- 0260-01-01 Edessa Savaşı: Şapur I Roma imparatoru Valerianus’u yakalayı: Yıl 260 TDV ile uyumlu; 'doğru' (kaynak Livius yerine TDV).
+- okunmadı · 0298-01-01 Nisibis (Nusaybin) Antlaşması: Galerius Narseh’i yendi; Dicl
+- 0309-01-01 II. Şapur doğuşundan itibaren Sasani tahtına çıktı (309-379): İki TDV maddesi 309'u verir; tarih doğru (kaynak değişimi).
+- 0363-01-01 Jovianus Antlaşması: Nisibis ve beş Dicle ötesi bölge Sasani: Antlaşma ve Nusaybin'in 363'te Sasani'ye geçişi TDV ile uyumlu; ay/gün TDV'de yok, Temmuz-Ekim ayrıntısı doğrulanmadı.
+- 0363-06-26 Iulianus Samarra yakınlarında öldü; Sasani savaşı sona doğru: TDV yalnız 363'ü doğruluyor (Samarra ve 26 Haziran TDV'de yok). Gün Ammianus XXV.3 ile iddia ediliyor, bu turda açılmadı; gün teyitsiz kalır.
+- okunmadı · 0451-01-01 Avarayr Savaşı: II. Yazdgird Ermeni isyanını bastırdı
+- 0484-01-01 I. Peroz Eftalitlerle savaşta öldü; Sasani Hunlar’a haraç öd: 484 yenilgisi TDV'de Ceyhun (Oxus) kıyısında; atlasın 'Horasan Merv-Herat' yeri uyuşmuyor. «Sâsânîler» maddesi Fîrûz'un Akhunlar'a 469'da esir düştüğünü de verir. Fîrûz'un ölümünün yılı okuduğum sayfada çıkmadı. Yıllık haraç ifadesi yalnız arama özetinde göründü, sayfa okumasında doğrulanmadı.
+- 0496-01-01 I. Kavad Mazdek taraftarı politikası yüzünden tahttan indiri: 496 doğru; dönüşün yılı (498 mi 499 mu) okuduğum sayfada çıkmadı, atlasın '498-499' ifadesi korunmalı. TDV Câmasb'ı oğul, Mezdekiyye kardeş yazar (iç çelişki).
+- okunmadı · 0001-01-01 Ban Chiang: sahip dönemi sona erer — Ban Chiang Kültürü (Kuz
+- okunmadı · -0140-01-01 Babil, Seleukeia (Dicle üzerinde), Uruk: Selevkos Imparatorl
+- okunmadı · -0147-01-01 Ekbatana, Hemedan: Selevkos Imparatorlugu → Part (Arsakid) I
+- -0310-01-01 Babil, Uruk: sahipsiz aralık → Selevkos Imparatorlugu: Basılı baskı açılmadı, BCHP notu livius.org üzerinden okundu; zayıf tek kaynak. Tarih (Mayıs 311) atlasla uyumlu, ay verilebilir ama gün yok.
+- -0322-06-10 Babil, Ekbatana, Hemedan, Pasargad, Uruk: Buyuk Iskender Imp: Yalnız ölüm yılı 323 doğrulandı; 10 Haziran günü bu turda kaynakla teyit edilmedi.
+- okunmadı · -0330-01-01 Babil, Uruk: Ahamenis (Pers) Imparatorlugu → Buyuk Iskender 
+- -0110-01-01 Dunhuang: Bati Han Hanedani dönemi başlar: 111 MÖ doğru: -0110 uyumlu. Hanshu 28 (Dili zhi) girişlerinde kuruluş yılı çıkmadı; farklı Dunhuang tarihi (MÖ 88) iddiası bu turda doğrulanmadı.
+- -0120-01-01 Zhangye (Ganzhou): Bati Han Hanedani dönemi başlar: Han toprağına katılış MÖ 121 (Hunye/Xiutu toprağı Wuwei-Jiuquan oldu); Zhangye'nin ayrı komutanlık olarak kuruluşu Hanshu'da MÖ 111. Atlas -0120 'Han yönetimi başlar' olarak savunulabilir, ancak Zhangye kuruluşu gibi okunmasın; istenirse -0110.
+- okunmadı · -0131-01-01 Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı d
+- -0167-01-01 Petra: Nabatiye Krallığı dönemi başlar: TDV MÖ 168'i vermez: kuruluş tarihi belirsiz, krallar MÖ 170 sonrası netleşir (I. Aretas). Atlasın -0167 başlangıcı kaynaksız; beyanlı yaklaşıklık olarak etiketlenmeli. Sonu 106 (Trajan): «Devlet, Roma İmparatoru Traianus döneminde başşehri Petra ele geçirilince yıkılmış (106).»
+- okunmadı · -0183-01-01 Patna (Azîmâbâd): sahipsiz aralık dönemi sona erer
+- -0255-01-01 Luoyang: Qin Devleti dönemi başlar: Batı Zhou'nun Qin'e teslimi MÖ 256 ile uyumlu (-0255). Doğu Zhou ise 莊襄王元年'de (MÖ 249) 'tüm ülkesi' alındı, Sanchuan komutanlığı kuruldu; Luoyang'ın tam geçişi 249 olabilir, tartışma açık.
+- okunmadı · -0279-01-01 Pasargad: sahipsiz aralık dönemi sona erer
+- okunmadı · -0281-01-01 Bergama, Pergamon: Bergama (Attalos) Krallığı dönemi başlar
+- okunmadı · -0302-01-01 Dura-Europos: Selevkos Imparatorlugu dönemi başlar
+- -0315-01-01 Çengdu (Chengdu): Qin Devleti dönemi başlar: Hükümdar yılı (324 başlangıçlı gengyuan) MÖ 316 eder; MÖ yıl çevirisi benim, kaynak yalnız hükümdar yılı yazar.
+- okunmadı · -0320-01-01 Patna (Azîmâbâd): sahipsiz aralık dönemi başlar
+- -0349-01-01 Xi'an (Chang'an): Qin Devleti dönemi başlar: Tarih (MÖ 350) uyumlu ama kaynak Xianyang diyor; Xi'an (Chang'an) noktası Xianyang'dan ayrı yerleşim — nokta eşleştirme beyanı gerekir.
+- 0025-01-01 Xi'an (Chang'an): Kızıl Kaşlılar Rejimi (Jianshi) dönemi baş: 25 MS uyumlu. Chang'an'ın Chimei'ye geçişi 更始三年 9. ay (Çin takvimi); Penzi'nin ilanı 6. ayda, Chang'an dışında. Gün dönüşümü için Academia Sinica tablosuna ulaşılamadı (401); gün önerilmedi.
+- 0220-01-01 Luoyang: Dogu Han Hanedani dönemi sona erer: 220 uyumlu. Tahta çıkış töreni 繁陽'de, Luoyang değil. Gün (十月乙卯) tablo olmadan çevrilmedi.
+- 0224-04-28 Babil, Dura-Europos, Ekbatana, Hemedan, Ktesiphon, Seleukeia: Gün TDV ile birebir uyumlu (28 Nisan 224). TDV aynı maddede 226'yı da (Hatra/saltanat) anar; Part 'sonu' için 224 savaşı esas alınmış.
+- okunmadı · 0242-01-01 Urfa (Edessa / Orhai / Vodina): Osrhoene (Edessa) Krallığı d
+- 0265-01-01 Çengdu (Chengdu): Cao Wei dönemi sona erer: 265 uyumlu. Jinshu töreni 十二月丙寅 yazar; sık aktarılan 十二月壬戌 bu sayfada yok (gün çelişkisi, çevrilemedi). Chengdu 263'te Shu'dan Wei'ye geçmişti (Sanguozhi 33'te şehir adı geçmez, 'şehrin kuzeyi').
+- 0347-01-01 Çengdu (Chengdu): Cheng-Han (成漢) dönemi sona erer: 347 doğru. Mektup tarihi Çin takvimidir (3. ay 17. gün); Academia Sinica tablosu erişilemediği için gün önerilmedi.
+- 0386-01-01 Xi'an (Chang'an): Önceki Qin (前秦) dönemi sona erer: Fu Jian'ın ölümü MS 385 (太元十年). Murong Chong'un Chang'an'a girişi sayfada yılsız; atlasın 386'sı doğrulanamadı, 385 olabilir. Ölçülmeden değişiklik önerilmedi.
+- 0423-01-01 Dunhuang: sahipsiz aralık dönemi sona erer: Jinshu Batı Liang'ın sonunu 景平元年 (MS 423) verir = atlasın 423'ü. Başka literatür 421 diyebilir (okunmadı); çelişki beyanı için not düşülmeli.
+- okunmadı · 0439-01-01 Zhangye (Ganzhou): Kuzey Liang (北涼) dönemi sona erer
+- 0330-05-11 Konstantinopolis törenle açıldı; imparatorluğun merkezi fiil: Gün TDV ile birebir (11 Mayıs 330, Jülyen). Britannica yerine TDV; Fener Rum Patrikhânesi maddesinde de aynı tarih (arama özeti). Tek kaynak; ODB/TIB açılmadı.
+- bulunamadı: Ardeşir 231, Gordianus III 244, Nisibis 298, Avarayr 451 (TDV'de yok; Dodgeon-Lieu, Elişe açılmadı)
+- bulunamadı: Iranica tüm sayfaları 403 verdi (atlatılmadı); Academia Sinica sinocal 401: Çin günleri çevrilemedi
+- bulunamadı: Ban Chiang, Patna x2, Pasargad, Pergamon, Dura-Europos, Osrhoene x2, Kuzey Liang 439, Arrianos 3.16: okunmadı

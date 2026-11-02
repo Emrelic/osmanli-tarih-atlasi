@@ -181,9 +181,10 @@ G — Renk ve bölge (senin işin değil)
 | 5 | Avrupa 1500–1800 | **bitti** (birinci geçiş) — envanter 158 künye · 945 yerleşim · 540 madde; yasak kaynaklı 26 künye + 71 madde | künye 26 kaynak + 3 tarih (korsika f/t, trento f); madde ~54 kaynak/beyan + 1 tarih (Floransa 1532-04-27); zayıf kaynaklar (haber/müze/eğitim) yalnız not; 0 eklendi/çıkarıldı. D2s 201→201 | 430e4e8bf → main 5bf7ec87 |
 | 6 | Avrupa 1800–2000 | **bitti** (birinci geçiş) — envanter 218 künye · 1187 yerleşim · 667 madde; yasak kaynaklı 53 künye + 133 madde | künye 25 kaynak + 4 tarih (mecklenburg ×2, anhalt, bavyera-konsey f); madde ~79 kaynak/beyan + 2 tarih (Vilnius 1919-04-21, Fiume 1920-12-31); Orta Litvanya 1922-03-24'e geri (birincil kaynak); 0 eklendi/çıkarıldı. D2s 201→201 | e11da56e9 → main b29b3316 |
 | — | **AVRUPA birinci geçiş bitti** | yasak kaynaklı künye/madde öncelikli; okunamayanlar ve kırılma taşıması gereken tarihler hücre bekleyen.md'lerinde | | |
-| 7 | Asya MÖ 3500–MÖ 500 | **bitti** (birinci geçiş) — envanter 90 künye · 49 yerleşim · 263 madde; yasak kaynaklı 58 künye + 120 madde | künye 44 kaynak + 1 tarih (saba t MÖ 115, TDV); madde ~45 kaynak/beyan + 7 tarih (3 Hitit/Bryce, Gaumata, Teymâ, Kudüs, Aşkelon); ~55 madde okunamadı (Iranica/Perseus 403). D2s 201→201 | (bu push) |
-| 8 | Asya MÖ 500–MS 500 | başladı — envanter 170 künye · 139 yerleşim · 298 madde; yasak kaynaklı 59 künye + 78 madde | | |
-| 9–12 | Asya (4 dilim) | bekliyor | | |
+| 7 | Asya MÖ 3500–MÖ 500 | **bitti** (birinci geçiş) — envanter 90 künye · 49 yerleşim · 263 madde; yasak kaynaklı 58 künye + 120 madde | künye 44 kaynak + 1 tarih (saba t MÖ 115, TDV); madde ~45 kaynak/beyan + 7 tarih (3 Hitit/Bryce, Gaumata, Teymâ, Kudüs, Aşkelon); ~55 madde okunamadı (Iranica/Perseus 403). D2s 201→201 | 0edabe17f → main 31408a3a |
+| 8 | Asya MÖ 500–MS 500 | **bitti** (birinci geçiş) — envanter 170 künye · 139 yerleşim · 298 madde; yasak kaynaklı 59 künye + 78 madde | künye 28 kaynak + 4 tarih (himyar, part, hasmoni, bitinya f — TDV); madde ~44 kaynak/beyan + 3 tarih (Şapur 256, Issos MÖ 333-11, Part MÖ 250); ~34 madde okunamadı. MÖ yıl kayması örüntüsü (magadha/maurya/sunga/kanva) bekleyen. D2s 201→201 | (bu push) |
+| 9 | Asya 500–1000 | başladı — envanter 277 künye · 165 yerleşim · 497 madde; yasak kaynaklı 66 künye + 3 madde | | |
+| 10–12 | Asya (3 dilim) | bekliyor | | |
 | 13–18 | Afrika (6 dilim) | bekliyor | | |
 | 19–24 | Amerika (6 dilim) | bekliyor | | |
 | 25–30 | Avustralya ve Okyanusya (6 dilim) | bekliyor | | |
