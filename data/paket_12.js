@@ -9883,10 +9883,11 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"TDV `tevarik` — AYNEN: \"Şeyh Amud 1911 yılında Fransızlar’ın burayı işgal etmesine kadar Osmanlı Devleti’nden maaş aldı.\" · hassasiyet: YIL · UYARI: aynı madde \"3 Mayıs 1911’de Canet, Osmanlı nahiyesi olarak kayıtlıydı\" der — işgal Mayıs'tan SONRA; veride önceki sahip `tuareg-accer`, TDV'ye göre Osmanlı" },
 
 // ── 1914 ─────────────────────────────────────────────────────────────
-{ t:"1914-01-01", b:"Anchorage Alaska Demiryolu merkezi olarak kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Anchorage",
+{ t:"1915-01-01", kesinlik:"yil", gun:"1915 (bahar; gün kaynakta yok)", b:"Anchorage Alaska Demiryolu merkezi olarak kuruldu", tur:"kurulus", onem:1, dunya:1, kapsam:"dis", yer_id:"Anchorage",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
-  d:"Anchorage, kuzeyde Fairbanks'a uzanan Alaska Demiryolu'nun merkezi olarak kuruldu.",
-  kaynak:"Britannica, 'Anchorage', https://www.britannica.com/place/Anchorage-Alaska — AYNEN: \"Anchorage was founded in 1914 as the headquarters of the Alaska Railroad running north to Fairbanks.\" · hassasiyet: YIL" },
+  d:"Kongre'nin 12 Mart 1914'te Alaska Railroad Act'i kabul etmesinin ardından, 1915 baharında Alaska Mühendislik Komisyonu Ship Creek'te demiryolu şantiyesini kurdu; kıyıda çadır kent doğdu, Nisan 1915'te posta idaresi yeni kasabaya Anchorage adını verdi. Şehir kuzeyde Fairbanks'a uzanan Alaska Demiryolu'nun merkezi oldu.",
+  kaynak:"Cook Inlet Historical Society, Legends & Legacies, Anchorage 1910-1940 — Anchorage Timeline (https://www.alaskahistory.org/anchorage-timeline): «1915, spring: “Tent City” develops on the north shore of Ship Creek» ; Alaska Railroad Corporation, History (alaskarailroad.com/corporate/history): 1915 «Anchorage starts off as a tent town and serves as a railroad construction community along Ship Creek»",
+  ic_not:"KASA-KIRILMA (2 Kasım 2026): t 1914-01-01 → 1915-01-01 TAŞINDI, Anchorage yerleşiminin kur/f ucu birlikte. ÇELİŞKİ: Britannica «founded in 1914» (demiryolu yasası/karargâh kararı yılı); yerleşimin fiilen doğuşu iki kaynakta 1915 (çadır kent, ad). Yıl teyitli, gün yok; 10 Temmuz 1915 arsa müzayedesi ayrı olay." },
 
 // ═════════════════════════════════════════════════════════════════════
 // EK PARTİ — 19 Eyl 2026, M-4591 (veri düzeltmeleri): kırılması kaynağa
