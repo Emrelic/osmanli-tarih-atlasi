@@ -1,0 +1,158 @@
+# Hücre 5 — Avrupa 1500–1800 · bekleyen
+
+KASA, 2 Kasım 2026. Künye tavanı 2280 dolu; yeni künye eklenmedi.
+
+## Hücre 5 kararları
+- Uygulanan tarihler: korsika-cumhuriyeti f 1755-07-15 · t 1769-05-09 (DBI; Paoli'nin ayrılışı 1769-06-13 alternatif) · trento-piskoposlugu f 1027-05-31 (Treccani Alto Adige) · Floransa dükalığı 1532-05-01 → 1532-04-27 (DBI Strozzi, Ordinazioni; 6 kırılma ±30 gün içinde kaldı).
+- UYGULANMADI: roma-cumhuriyeti-1798 t 09-30 → 09-29 ve partenopea f 01-23 → 01-24 (yerleşim dönemi künye ömrünü aşardı; Treccani iç çelişki) · Nöteborg 1702-10-22 → 10-12 (İsveç takvimi/Jülyen 11 Ekim = Gregoryen 22 Ekim; atlas Gregoryen) · Alberoni San Marino 17 ↔ 25 Ekim 1739 · Teschen 1779-01-01 → 1779-05-13 (6 kırılma yıl başında; imza günü GHI) · Dorpat 1558 (Temmuz 19) · Penza 1663 ↔ 1666 · Rastatt 6/7 Mart 1714 · Mazovya 1526-03-10 (ölüm) ↔ 1529-12-27 (ilhak) · III. Taksim 24 Ekim ↔ TDV 3 Mart 1795.
+- Zayıf kaynaklı bulgular (haber portalı dzieje.pl, zpe.gov.pl eğitim, müze, ders metni, paperjam) KAYNAK OLARAK YAZILMADI, yalnız ic_not'a not: Breda 1590/1625/1637, Utrecht 1528, Groningen 1514, Grave 1536, Lüksemburg 1684, Mazovya, Polonya taksimleri. Akademik ikinci kaynak gerekir.
+- Şüpheli içerik: Ryswick maddesinde "Ypres 1697'de İspanya'ya iade" doğrulanamadı · Konvansiyon 21 Eylül (krallığın kaldırılışı) / 22 Eylül (Cumhuriyet) · Maastricht 1673 1 Temmuz/30 Haziran · Namur 1695 5 Eylül kaynaksız · Ptuj 1555 ↔ ADB 1511 (Salzburg'a geri alındı) · Bregenz 1523 mükerrer iki madde.
+- Künye çelişkileri: ligurya t 1805-06-04 ↔ Treccani 4 Ekim 1805 · kazak-hetmanligi t 1764 Kasım (21 Kasım kaynaksız) · budjak f 1697 TDV'de yok · toskana f (Granducato 1569) · hamburg f 1510 · bremen 1646 · riga-hur-sehri (Riga 1561 şartlarını reddetti) · orange (Utrecht 11 Nisan 1713 imza günü).
+
+## Beyan edilen ama uygulanmayan (karar verilmedi / tek kaynak çelişki)
+- toskana: f gün 1 Mayıs Treccani'de YOK (DBI Alessandro yalnız 'Nel 1532'); DBI F. Machiavelli 27 Nisan 1532'de Alessandro'yu zaten 'duca' anar -> 1 Mayıs ile gerilim, atlas günü teyitsiz. Treccani 'Granducato' 1569'u verir. t: plebisit 11-12 Mart 1860 (Treccani, arama özeti); 22 Mart okunmadı.
+- italya-napolyon: f 9 Temmuz tören günü teyitli (EB1911 + Treccani); Treccani ayrıca 'il 29 giugno 1797 il Bonaparte fondava' der. 14 Şubat 1802 İtalya Cumhuriyeti açılışı; taç 26 Mayıs 1805. t 16 Nisan: Treccani Regno d'Italia sayfasında bitiş yok; arama özeti 20 Nisan 1814 ayaklanması -> t teyitsiz.
+- okunmadı · batav-cumhuriyeti
+- okunmadı · riga-hur-sehri
+- okunmadı · avusturya-hollandasi
+- okunmadı · ingiltere-irlanda-krallik
+- roma-cumhuriyeti-1798: f 15 Şubat teyitli. t: Roma'nın Napoli'ye teslimi 29 Eylül 1799 (atlas 30 Eylül = Vikipedi). Aynı madde 'Ancona'nın düşmesiyle (13 Kasım 1799) cumhuriyetin son kalıntısı' kaybolduğunu söyler -> iki ucu var; Roma merkezli harita için 29 Eylül önerilir, karar Emre'nin.
+- partenopea-cumhuriyeti: t 13 Haziran teyitli. f: Treccani 24 Ocak der (atlas 23 Ocak = Britannica); Treccani 'Italia' sayfası arama özetinde 23 Ocak der -> Treccani içinde çelişki; üçüncü kaynak aranmadı.
+- ligurya-cumhuriyeti: ÇELİŞKİ: atlas t=4 Haziran 1805 (Napolyon'un kabulü), Treccani Regno d'Italia '4 ottobre 1805' der (Ligure maddesi yalnız '1805'); f 15 Haziran Treccani'de yok (Mombello 5-6 Haziran görüşme, 1797). İki görüş yazıldı, karar verilmedi.
+- okunmadı · helvetik-cumhuriyeti
+- korsika-cumhuriyeti: Sayfa açıldı, alıntılar sayfadan. f: genel seçildiği Consulta 14-15 Temmuz 1755 (gün 15 seçildi; anayasa 16-18 Kasım 1755 alternatif). t: Ponte Nuovo 8-9 Mayıs 1769; Paoli adadan 13 Haziran 1769'da ayrıldı (aynı madde) -> 9 Mayıs mı 13 Haziran mı Emre'nin kararı.
+- kilkenny-konfederasyonu: Yıllar teyitli; Ekim 1642 ay düzeyinde. 17 Ocak 1649 (Ormond barışı) yalnız arama özetinde (DIB Bellings) — sayfa 307 verdi, okunmadı. Gün önerisi yok.
+- lubeck-sehri: f 1226 yıl teyitli. t 1937 bu turda akademik sayfayla okunmadı.
+- hamburg-sehri: 1768 (Mayıs, Holstein tanıması) teyitli; 1510 Reichsmatrikel kaydı hiçbir açılan sayfada geçmedi -> f 1510 okunmadı. Künye çelişkiyi zaten beyan ediyor.
+- okunmadı · bremen-sehri
+- kraliyet-prusyasi: 1466 yıl teyitli (gün yok); 1772 yalnız arama özetinde; PWN sayfası okunamadı. Günler teyitsiz.
+- mazovya-dukaligi: Yıllar teyitli; III. Janusz'un ölüm günü (9/10 Mart 1526) açılan sayfada yok.
+- kurland-dukaligi: f 28.11.1561 teyitli; aynı sayfada 'endgültige Belehnung als Herzog von Kurland und Semgallen' 4.8.1579 — ayrı bir uç. t 1795 yıl düzeyinde; 28 Mart günü okunmadı.
+- kazak-hetmanligi: ÇELİŞKİ: EoU devleti 1648-1782 verir, hetman makamının kaldırılışını 1764 (Rozumovsky'nin zorla istifası, Kasım 1764 — gün yok). 21 Kasım günü hiçbir sayfada geçmedi -> teyitsiz. TDV bu turda aranmadı. İki görüş yazıldı.
+- lihtenstayn: f teyitli (Gale günü + NDB yılı). 1806: NDB 'erhielt die volle Souveränität'.
+- okunmadı · orange-prensligi
+- trento-piskoposlugu: f için gün: 31 Mayıs 1027; aynı cümle 'fino al 1803'. Treccani başka maddede Kasım 1802 / Lunéville 1801 verir (arama özeti) -> t çelişki beyanı gerekir.
+- okunmadı · karniola-dukaligi
+- budjak-ordasi: TDV 1697'yi ANMAZ (f dayanaksız, yalnız Vikipedi); ordanın kuruluşunu II. Bayezid'e bağlar. t: Bükreş 28 Mayıs 1812 bir aday (anlaşma günü, ordanın sonu değil) — değişiklik önerilmedi.
+- cenevre-cumhuriyeti: HLS 403; iki gün Treccani'de teyitli (f günü Kilise'nin kuruluşu; bağımsızlık ayrı olabilir).
+- bern-cumhuriyeti: 1191, 1218, 1353 ve 1798 yıl düzeyinde teyitli; 5 Mart 1798 günü okunmadı (HLS 403).
+- bulunamadı: HLS 403, web.archive engelli: Helvetik gün alanları teyitsiz
+- bulunamadı: batav-cumhuriyeti, avusturya-hollandasi, ingiltere-irlanda-krallik, karniola-dukaligi, orange-prensligi: sayfayla teyit edilemedi
+- bulunamadı: riga-hur-sehri: 'hür şehir' 1561-81 akademik sayfada okunmadı
+- batav-cumhuriyeti: t 9 Temmuz 1810 (Rambouillet Kararnamesi) parlement.com ile okundu; Huygens 'Juli 1810' der. f 19 Ocak 1795 akademik sayfada OKUNMADI (Huygens yalnız 1795 Fransız istilası; Lahey Antlaşması 16 Mayıs 1795 okundu). Kaynak çelişkisi (19/20 Ocak) aynen kalır.
+- riga-hur-sehri: ADB: Riga 1561'de Kettler'in tabiiyet şartlarını reddetti; Riga başpiskoposluğu Şubat 1562'de paktlara katıldı. Pacta Subjectionis 28.11.1561 Vilnius (DB Kettler: 'unterzeichnete er am 28.11.1561 zu Wilna die Pacta Subjectionis'). 'Hür şehir' sıfatı ve t=1581 akademik sayfada OKUNMADI; encyclopedia.com Riga yalnız 'Polish rule in Livonia 1561-1621' der. t=1581 teyitsiz; f günü Riga'nın değil Livon
+- avusturya-hollandasi: f yıl 1714 teyitli; Campo Formio 1797 resmî devir teyitli. 1 Ekim 1795 Fransız ilhak günü OKUNMADI (kaynak yalnız 'by 1794 ... French control' der).
+- ingiltere-irlanda-krallik: t 1 Ocak 1801 Birleşme Yasası madde 1 metninden okundu. f için künyedeki Letters and Papers (british-history.ac.uk) bu turda yeniden açılmadı; değişiklik yok.
+- helvetik-cumhuriyeti: t 19 Şubat 1803 iki bağımsız ansiklopedide okundu (Larousse başlığı, Columbia). f 12 Nisan 1798 OKUNMADI: Larousse 'Constitution unitaire (1798)', Columbia 'invasion Jan. 1798', gün yok.
+- bremen-sehri: f yıl 1646 teyitli (Linz Diploması 1 Haziran günü bu kaynaklarda yok; künye zaten 01-01 yıl hassasiyetinde). t=2026-12-31 devam eden devlet için sentinel, kaynak gerekmez.
+- orange-prensligi: Orange'ın Utrecht'te Fransa'ya devri teyitli; 11 Nisan 1713 Utrecht antlaşmalarının (Prusya ile) imza günü, Orange devrinin kendi günü metinde ayrıca yok -> t günü beyanlı yaklaşıklık. f=1163 sayfada OKUNMADI.
+- karniola-dukaligi: f 1364 yıl teyitli. t: Hrvatska enciklopedija Kranjska'nın 1918 sonrası idarî birim olarak sona erdiğini söyler, gün vermez; 29 Ekim 1918 Hırvat Sabor kararı Kranjska'yı adıyla anmaz (Kranjska 19 Ekim Ulusal Konsey metninde geçer). t günü beyanlı yaklaşıklık kalmalı.
+- kraliyet-prusyasi: Yıl 1466 ve 1772 I. Bölüşüm teyitli (Prussia maddesi). 19 Ekim ve 13 Eylül günleri bu turda hiçbir akademik sayfada OKUNMADI (ebsco/Wikipedia dayanak değil).
+- bulunamadı: batav f günü 19 Ocak 1795 (yalnız yıl okundu)
+- bulunamadı: riga: 'hür şehir' sıfatı ve t=1581 akademik sayfada okunmadı
+- bulunamadı: avusturya-hollandasi: 1 Ekim 1795 günü
+- bulunamadı: helvetik f: 12 Nisan 1798 günü
+- bulunamadı: bremen: 1 Haziran 1646 Linz Diploması günü
+- bulunamadı: orange f=1163 ve devir günü
+- bulunamadı: karniola t: 29 Ekim 1918 Kranjska için doğrudan okunmadı
+- bulunamadı: kraliyet-prusyasi: 19 Ekim 1466 ve 13 Eylül 1772 günleri
+- bulunamadı: HLS 403 (kullanılmadı); Treccani/DIB/PSB bu id'ler için sayfa vermedi
+- okunmadı · 1569-07-01 Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya'ya 
+- 1535-11-01 Son Sforza dükü öldü, Milano V. Karl'a geçti: Tarih (1 Kasım 1535) dükün ölümünü tarihler; DBI 'gece 1-2 Kasım arası', NDB 1.11.1535. Milano'nun Habsburg denetimine geçişi ölümle başlar (Antonio de Leyva). Atlas tarihi korunabilir; Britannica dayanağı yerine bu iki kaynak.
+- 1582-01-15 Yam Zapolski ateşkesi — Livonya ve Dorpat Lehistan'a geçti: Tarih ateşkesin imzasını tarihler (Kiwerowa Horka). Akademik monografi ikinci kaynak olarak aranmadı.
+- 1527-11-03 I. Ferdinand İstolni Belgrad'da Macar kralı olarak taç giydi: Tarih taç giymeyi (Székesfehérvár) tarihler. Wikipedia/Bory-Vár yerine ADB.
+- 1606-06-23 Viyana Barışı — Bocskai ayaklanması sona erdi, Erdel prensi : 23 Haziran 1606, TDV'de Macar heyetinin barış şartlarını kabul etmesini tarihler (imza günüyle aynı olduğu TDV'den açık değil). TDV Macaristan maddesi Viyana Barışı'ndan söz etmez.
+- 1711-04-29 Szatmár Barışı — Rákóczi hürriyet savaşı sona erdi, Erdel Ha: Yalnız yıl teyitli (1711); TDV gün vermez ve Erdel'in Habsburg idaresine geçişinden söz etmez ('Transilvanya ayrı birim olarak yönetildi' der, 1699 için). 29/30 Nisan / 1 Mayıs gün çelişkisi çözülmedi.
+- 1703-01-01 II. Ferenc Rákóczi önderliğinde Habsburg karşıtı Kuruc ayakl: TDV yıl verir ve bunu Rákóczi'nin Polonya'dan dönüp liderliği almasını tarihler, ayaklanmanın ilk gününü değil. Kesinlik yıl kalmalı.
+- 1721-09-10 Nystad Antlaşması — Büyük Kuzey Savaşı sona erdi, Baltık kıy: İsveç maddesi açılıp okundu (10 Eylül 1721 Gregoryen). Avrupa maddesi 30 Ağustos verir (arama özeti, sayfa açılmadı); iki tarih aynı gün. Atlasın takvim beyanı TDV ile uyumlu.
+- 1581-01-01 Hür şehir Riga Lehistan-Litvanya'ya bağlandı: Yalnız yıl düzeyi; 1581 Riga'nın Batory'ye bağlanma yılını tarihler. Kesinlik yıl.
+- 1617-02-27 Stolbovo Antlaşması — Rusya İngermanland'ı İsveç'e bıraktı, : SNL yalnız ay verir; 27 Şubat (Gregoryen) / 17 Şubat (Jülyen) günü akademik kaynakta doğrulanamadı. SNL 'Novgorod geri verildi' demez, 'terk edilen fetihler arasında Novgorod' der; Ingermanland+Nöteborg+Kexholm İsveç'e.
+- 1532-05-01 Floransa Cumhuriyeti dükalığa dönüştü — Alessandro de' Medic: 27 Nisan 1532 Ordinazioni'yi (yeni anayasa; Alessandro'nun 'duca della Repubblica Fiorentina' statüsü) tarihler. Atlasın 1 Mayıs'ı kaynakta yok. Clemente VII DBI maddesi de 'nuova costituzione del 27 aprile 1532' der (arama özeti). 1 Mayıs ayrı bir olaya (unvan tebliği) dayanıyorsa kaynağı gösterilmeli.
+- 1560-12-05 II. François öldü; IX. Charles Fransa kralı oldu: Tarih II. François'nın ölümünü tarihler (IX. Charles aynı gün kral). Enciclopedia Italiana 'Carlo IX' maddesi 'a soli dieci anni (5 novembre 1560)' yazar; DBI ve Guisa maddesiyle çelişir, büyük olasılıkla baskı hatası; ic_not'a iki kaynakla beyan.
+- 1574-05-30 IX. Charles öldü; III. Henri Fransa kralı oldu (Polonya kral: Tarih IX. Charles'ın ölümünü tarihler; III. Henri'nin tahta çıkışı olarak ölüm günü alınmış, Henri Eylül 1574'te Fransa'ya varır (DBI Caterina). Atlas değişikliği gerekmez.
+- 1796-05-15 Napolyon Milano'ya girdi: Avusturya yönetimi sona erdi: Enciclopedia Italiana 14 Mayıs; Enciclopedia dei ragazzi ve 'Italia' maddesi (arama özeti) 15 Mayıs verir. Karar verilmedi; atlasın 15 Mayıs'ı korunur, ic_not'ta çelişki iki kaynakla beyan edilmeli. Tarih girişin kendisini tarihler.
+- 1796-06-23 Bologna Mütarekesi: Bologna ve Ferrara Fransız eline geçti: Tarih Papa VI. Pius ile Bologna mütarekesinin imzasını tarihler. Wikipedia dayanağı çıkarılabilir.
+- 1796-12-27 Cispadan Cumhuriyeti ilan edildi (Modena, Reggio, Bologna, F: 27 Aralık 1796 Reggio kongresinin AÇILIŞINI tarihler (kongre 27 Aralık 1796 - 7/9 Ocak 1797; DBI Paradisi 7 Ocak der, arama özeti). İlan gününü sayfa vermez. Enciclopedia Italiana 'Napoleone I' maddesi cumhuriyetin 'ekim 1796'da kurulduğunu' söyler. İlan günü ayrıca aranmalı; atlas 'ilan edildi' diyor, kaynak kongre açılışı.
+- 1797-02-02 Wurmser Mantova'yı teslim etti: Tarih Mantova'nın teslimini tarihler. Treccani 'Mantova' maddesi bir yerde 1 Şubat der (arama özeti, açılmadı). worldhistory.org dayanağı çıkarılabilir.
+- 1797-02-19 Tolentino Antlaşması: Papa Bologna, Ferrara ve Romagna'yı Fr: Tarih anlaşmanın imzasını tarihler (17 Şubat varyantı bulunamadı).
+- 1798-02-15 Roma Cumhuriyeti ilan edildi: Papalık yönetimi kesintiye uğr: Tarih Foro Boario'da dünyevî hükümetin düştüğünün noter senediyle ilanını tarihler; DBI Lampredi, Corona, Gagliuffi de 15 Şubat 1798 verir (arama özeti).
+- 1799-04-27 Cassano'dan sonra Avusturya-Rus ordusu Cisalpin Cumhuriyeti': 27 Nisan 1799 Cassano savaşını tarihler; Milano'ya giriş 28 Nisan'dır (cumhuriyetin fiilî sonu). DBI Serbelloni (arama özeti) düşüşü 27 Nisan verir. Maddenin 28 Nisan'a bağlanıp bağlanmayacağı atlasın kararı.
+- 1506-11-11 Papa II. Julius Bologna'ya girdi: Bentivoglio senyörlüğü kal: Tarih papanın şehre girişini tarihler; Bentivoglio 2 Kasım'da kaçmıştı (senyörlüğün fiilî sonu 2 Kasım).
+- 1739-10-17 Kardinal Alberoni San Marino'yu işgal etti: Papalık yönetimi: Kaynak 25 Ekim 1739 verir; atlas 17 Ekim. İkinci akademik kaynak okunamadı; bulunmadan uygulanmaz, ic_not çelişki beyanı önerilir.
+- 1740-02-05 Papa XII. Clemens San Marino'nun haklarını tanıdı: bağımsızl: Kaynak 5 Şubat 1740'ı Alberoni işgalinin SONU olarak verir; XII. Clemens'in tanıması bu kaynakta geçmez; tarih işgalin bitişini, papanın tanımasını değil tarihler. Başlık 'işgal sona erdi' diye düzeltilebilir.
+- 1742-06-11 Breslau ön barışı: Silezya Prusya'ya bırakıldı: 11 Haziran 1742 ön barışın Breslau'da imzasını tarihler; Berlin Barışı 28 Temmuz 1742.
+- okunmadı · 1558-01-01 Rusya Livonya'yı istilâ etti, Dorpat düştü
+- okunmadı · 1663-01-01 Rusya Sura boyunda Penza kalesini kurdu
+- okunmadı · 1523-01-01 Bregenz'in ikinci yarısı Arşidük Ferdinand'a satıldı: Bregen
+- okunmadı · 1555-01-01 Ptuj (Pettau) Salzburg'dan geri alınıp Habsburg Steiermark'ı
+- okunmadı · 1523-01-01 Bregenz Habsburg'a geçti: Hugo XVII Montfort-Bregenz mülkünü
+- okunmadı · 1640-12-01 Restauração: Portekiz bağımsızlığını geri aldı
+- okunmadı · 1561-11-28 Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Kurland
+- okunmadı · 1702-10-22 Rusya Nöteborg'u (Oreşek) İsveç'ten aldı — Büyük Kuzey Savaş
+- okunmadı · 1611-07-16 Novgorod İsveç ordusunca alındı — Sıkıntılar Dönemi'nde Kuze
+- okunmadı · 1625-01-01 İsveç Tartu'yu (Dorpat) Lehistan'dan aldı — Livonya Seferi'n
+- okunmadı · 1643-05-14 XIII. Louis öldü; beş yaşındaki XIV. Louis kral oldu (naipli
+- okunmadı · 1688-01-17 Munkács (Mukacheve) kalesinin üç yıllık kuşatma sonrası Avus
+- bulunamadı: Munkács teslim günü (17 Ocak 1688)
+- bulunamadı: Szatmár Barışı günü (29/30 Nisan, 1 Mayıs 1711)
+- bulunamadı: Cispadana ilan günü (27 Aralık 1796 kongre açılışı)
+- bulunamadı: XIII. Louis ölüm günü (14 Mayıs 1643)
+- bulunamadı: Lublin ilhak aktlarının akademik doğrulaması
+- 1569-07-01 Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya'ya : 1 Temmuz 1569 birliğin imza günüdür; Encyclopedia of Ukraine toprak devrini antlaşmaya bağlar, ayrı gün vermez (History of Ukraine maddesi arama özetinde ilhakların Temmuz öncesi olduğunu söyler; sayfa okunmadı). Gün 'imza günü' beyanıyla kalmalı.
+- 1558-01-01 Rusya Livonya'yı istilâ etti, Dorpat düştü: Dorpat 19 Temmuz 1558; Narva 11 Mayıs 1558. Takvim (Jülyen) beyanı ve ikinci kaynak okunmadı.
+- 1663-01-01 Rusya Sura boyunda Penza kalesini kurdu: Columbia 1666 verir, atlas 1663. Rus yerel kaynaklarında kuruluş kararı/inşa ayrımı olabilir (açılmadı); çelişki ic_not'ta iki kaynağıyla beyan edilmeli.
+- okunmadı · 1523-01-01 Bregenz'in ikinci yarısı Arşidük Ferdinand'a satıldı: Bregen
+- okunmadı · 1523-01-01 Bregenz Habsburg'a geçti: Hugo XVII Montfort-Bregenz mülkünü
+- okunmadı · 1555-01-01 Ptuj (Pettau) Salzburg'dan geri alınıp Habsburg Steiermark'ı
+- 1640-12-01 Restauração: Portekiz bağımsızlığını geri aldı: Ay Aralık 1640 teyitli; 1 Aralık günü sayfada yok (yalnız arama özetinde). Gün beyanlı kalmalı; João IV'in aklanması 15 Aralık (arama özeti).
+- 1561-11-28 Vilnius Antlaşması — Livonya Konfederasyonu dağıldı, Kurland: Gün teyitli (DB Kettler, arama özeti alıntısı). 'Riga hariç' kısmı ADB ile uyumlu (Riga şartları reddetti; başpiskoposluk Şubat 1562'de katıldı). Kettler Order'ü 5 Mart 1562'de feshetti: antlaşma günü, Konfederasyon'un fiilî dağılış günüyle aynı değil.
+- 1702-10-22 Rusya Nöteborg'u (Oreşek) İsveç'ten aldı — Büyük Kuzey Savaş: Teslim 12 Ekim 1702 (Riksarkivet; Jülyen/İsveç takvimi olabilir). Atlasın 22 Ekim günü hiçbir kaynakta yok. Takvim beyanı (Jülyen) gerekir; Gregoryen karşılığı ayrıca doğrulanmadı.
+- 1611-07-16 Novgorod İsveç ordusunca alındı — Sıkıntılar Dönemi'nde Kuze: Temmuz 1611 ay düzeyinde arama özetinde; 16 Temmuz günü akademik sayfada OKUNMADI, gün beyanlı yaklaşıklık. Alıntı Oreshek (Petrokrepost) maddesindendir; Novgorod'un düşüşü için doğrudan cümle okunmadı.
+- okunmadı · 1625-01-01 İsveç Tartu'yu (Dorpat) Lehistan'dan aldı — Livonya Seferi'n
+- 1643-05-14 XIII. Louis öldü; beş yaşındaki XIV. Louis kral oldu (naipli: Ölüm günü Larousse'ta 14 Mayıs 1643 (ayraç içinde). Parlamento 18 Mayıs'ta vasiyeti iptal etti (arama özeti).
+- 1688-01-17 Munkács (Mukacheve) kalesinin üç yıllık kuşatma sonrası Avus: Gün 17 Ocak 1688 teyitli. DB Caraffa yalnız yıl (1688) verir.
+- bulunamadı: Bregenz 1523 (NDB Montfort s.53 okunmalı)
+- bulunamadı: Ptuj 1555
+- bulunamadı: Tartu 1625
+- bulunamadı: Novgorod 16 Temmuz 1611 günü
+- bulunamadı: Restauração 1 Aralık günü
+- 1773-09-30 Polonya meclisi birinci paylaşmayı onayladı: Tarih Sejm'in paylaşma antlaşmalarını onayını tarihler (imza 5 Ağustos 1772 ayrı olay). Britannica okunamadı (403); arama özeti Britannica ve GHDI'nin de aynı günü verdiğini söylüyor ama sayfa açılmadı.
+- 1779-01-01 Teschen Barışı: Innviertel Avusturya'ya geçti: 13 Mayıs 1779 antlaşmanın İMZA gününü tarihler, Innviertel'in fiilen devrini değil. Arama özetleri (okunmadı) antlaşmanın Alman İmparatorluğu onayıyla 28 Şubat 1780'de yürürlüğe girdiğini ve devrin buna bağlanabileceğini söylüyor; devir günü için ayrı kaynak gerekir. Atlastaki 1779-01-01 yıl yer tutucusudur ve Mayıs'tan önce olduğu için yanlıştır.
+- 1797-01-26 Üçüncü paylaşmanın kesin düzenlemesi: 26 Ocak 1797 Petersburg'daki nihai paylaşma sözleşmesini tarihler (üç devlet arasındaki borç/mülkiyet düzenlemesi); 24 Ekim 1795 antlaşması ayrı olay. Arama özetine göre Rus kataloğu (prlib.ru) 15/26 Ocak 1797 (Jülyen/Gregoryen) veriyor, sayfa açılmadı. Eğitim portalı akademik değil; akademik ikinci kaynak aranmalı. Bu madde toprak değiştirmez, belge düzenlemesidir.
+- 1514-01-01 Groningen Gelre Dükü Charles'ın efendiliğine geçti: Okunan kaynak yalnız 1514'te Gelre dükünün desteğiyle Groningen'in Ommelanden üzerindeki konumunu geri aldığını söyler; 'Gelre dükü Groningen'in efendisi oldu' ifadesini doğrudan vermez. Arama özeti (okunmadı) Groningen'in Karel van Egmond'u efendi/koruyucu tanıdığı günü 3 Kasım 1514 gösteriyor; sayfa açılmadığı için uygulanmaz. Yıl hassasiyeti korunmalı.
+- 1528-10-20 Utrecht Prens-Piskoposluğu dünyevî yetkiyi V. Karl'a devrett: 21 Ekim 1528 Sticht Utrecht'in sonunu (dünyevî yetkinin Karl V'ye devrinin yürürlüğe girişini) tarihler; devri öngören Schoonhoven antlaşması ayrı olay (arama özetine göre 15 Kasım 1527, okunmadı). Atlas künyesi 20 Ekim ve 'bir kaynak 21 Ekim' diyordu; okunan kaynak 21 diyor. 20 Ekim'i veren kaynak bulunamadı. Üniversite ders metni; hakemli ikinci kaynak yok, önerilmez gün kesinleşmeden.
+- 1536-12-10 Grave Antlaşması: Groningen ve Ommelanden V. Karl'ın oldu: Okunan kaynak 1536'yı ve olayın niteliğini doğruluyor, 10 Aralık gününü vermiyor. Gün yalnız arama özetinde (Vikipedi dayanaklı) var; okunmadı. Karl V'nin Groningen üzerindeki efendiliğinin Grave Antlaşması ile geldiği teyit, günün tarihlediği şey (Gelre dükü Karl ile Grave Barışı) ayrı olay olabilir; gün için akademik kaynak gerekir.
+- okunmadı · 1543-09-07 Venlo Antlaşması: Gelre Dükalığı V. Karl'a geçti (Nijmegen, 
+- 1590-03-04 Breda Turfschip hilesiyle Hollanda eline geçti: Tarih 3 Mart gecesi başlayıp 4 Mart'ta biten baskını tarihler. Müze kaynağıdır, hakemli monografi değil; Dutch akademik ikinci kaynak aranmalı.
+- 1625-06-05 Spinola Breda'yı aldı: 2 Haziran şehrin TESLİM gününü tarihler. 5 Haziran, arama özetine göre (okunmadı, Britannica ve bir İspanyol baskı) kuşatmanın bitişi/teslim şartlarının günü; garnizonun fiilen çıkışı ya da giriş günü olabilir, okunmadı. İki ucu da ölçmeden kırılma günü değiştirilmemeli: önce 5 Haziran'ı veren akademik kaynak bulunmalı. Müze kaynağı akademik değil.
+- okunmadı · 1629-09-14 's-Hertogenbosch Frederik Hendrik'e teslim oldu
+- 1637-10-10 Frederik Hendrik Breda'yı geri aldı: 10 Ekim 1637 İspanyol garnizonunun şehirden FİİLEN ÇIKIŞINI tarihler; teslim şartları arama özetlerine göre 6-7 Ekim'de (okunmadı) imzalandı. Toprak el değiştirme günü olarak 10 Ekim savunulabilir ama başlığın 'geri aldı' ile teslim günü karıştırılmamalı; madde metnine 'garnizon 10 Ekim'de çekildi' notu eklenmeli.
+- okunmadı · 1668-05-02 Aix-la-Chapelle Antlaşması: Tournai Fransa'ya bırakıldı
+- okunmadı · 1673-07-01 Maastricht Fransız kuşatmasında teslim oldu
+- okunmadı · 1678-08-10 Nijmegen Barışı: Maastricht Hollanda'ya iade edildi
+- okunmadı · 1678-09-17 Nijmegen Antlaşması: Ypres Fransa'ya bırakıldı
+- 1684-06-07 Fransa Lüksemburg kalesini ve dükalığı ele geçirdi: Kaynak 3 Haziran'da davul çağrısı, ertesi gün (4 Haziran) kapitülasyonun imzalandığını söylüyor; 4 Haziran kapitülasyon gününü tarihler, Fransız birliklerinin şehre giriş gününü açıkça vermiyor. Atlastaki 7 Haziran'ı veren kaynak (Vikipedi/luxembourg.public.lu) okunduğunda yalnız '1684' dedi. 7 Haziran büyük olasılıkla girişi/kuşatmanın bitişini tarihliyor ama doğrulanamadı. Kaynak haber sitesidir
+- okunmadı · 1691-04-10 Fransa Mons'u aldı
+- okunmadı · 1692-06-30 Fransa Namur kalesini aldı
+- okunmadı · 1695-09-05 Müttefikler Namur kalesini geri aldı
+- 1697-09-20 Ryswick Antlaşması: Lüksemburg Dükalığı, Mons ve Ypres İspan: 20 Eylül Fransa-İspanya ve Fransa-İngiltere barışlarının imza gününü tarihler (mjp metninin başlığı da 'Date : 20 septembre 1697', fakat o metin Fransa-Birleşik Eyaletler). İade edilen yerlerin listesi (Lüksemburg, Mons) okunan sayfalarda yok; Ypres'in 1697'de İspanya'ya iadesi hiçbir yerde doğrulanmadı ve şüpheli (Ypres 1678'de Fransa'ya kalıcı bırakılmıştı; Ryswick listesinde bu yer arama özetle
+- okunmadı · 1709-09-03 Tournai kalesi Müttefiklere teslim oldu
+- 1714-03-07 Rastatt Antlaşması: İspanyol Hollandası Avusturya Hollandası: Enciclopèdia Catalana 6 Mart 1714 diyor; arama özetleri çoğunlukla 7 Mart veriyor (Rastatt'ta Fransa-Avusturya; sayfa açılmadı). Üçüncü bağımsız kaynak bulunamadığından karar verilmedi; iki görüş ic_not'ta beyan edilmeli. TDV Belçika: 'Utrecht Antlaşması'yla Avusturya'ya geçen Belçika' (1713), yani hukuki devir Utrecht (11 Nisan 1713) ile gelir, Rastatt bunu Avusturya-Fransa arasında teyit eder. T
+- 1795-10-01 Liège piskoposluğu topraklarının ilhakı: Hasselt, Sint-Truid: TDV yalnız 1795'i verir; 1 Ekim 1795 (9 Vendémiaire IV kararnamesi) arama özetinde bir bayrak sitesi ve Belçika Senatosu belgesinden geliyor, okunmadı. Gün için akademik/birincil neşir gerek: kaynak sırasına göre TDV yıl verdiği için sonraki basamak zorunlu. Kararname tüm 'réunis' bölgeleri için tek günlük belge olabilir; ilhak günü ile fiilî işgal (1794) ayrı olay.
+- okunmadı · 1795-10-01 Stavelot–Malmedy, Limburg ve Lüksemburg doğusunun ilhakı: Eu
+- 1658-12-08 Bornholm ayaklanması — Bornholm İsveç'ten koptu, Danimarka t: 8 Aralık 1658 İsveç valisi Printzensköld'ün öldürülmesini tarihler; adanın Danimarka tacına fiilî devri değil. Lex.dk Kofoed maddesi yalnız 'samme år' der; atlas künyesindeki 29 Aralık (adanın Frederik III'e verilişi) okunan hiçbir sayfada geçmedi. Başlıktaki 'koptu' ifadesinin hangi günü tarihlediği ic_not'ta açıklanmalı.
+- 1526-03-10 Mazovya Piast hanedanı sona erdi: Mazovya (Varşova) Polonya : Kaynak: Janusz III 1526'da öldü ve Mazovya bağımsızlığını yitirdi; resmî ilhak Piotrków ayrıcalığıyla 27 Aralık 1529. 10 Mart 1526 (arama özetinde Vikipedi: 9/10 Mart gecesi) Janusz III'ün ÖLÜM gününü tarihler, ilhakı değil; okunan kaynak ölüm günü vermiyor. Atlas künyesi zaten 'bazı kaynaklar 1529' demişti. Mazovya'nın 1526'dan itibaren fiilen Kral Zygmunt'ta olduğu (arama özetinde, okunmadı) göz
+- 1772-08-05 Birinci Taksim: Avusturya Galiçya'yı (Lvov, Haliç, Yazlofça): Tarih Petersburg'daki paylaşma antlaşmalarının İMZA gününü tarihler; fiilî işgal 1772 ilkbaharında başlamış, Sejm onayı 30 Eylül 1773 (ayrı madde). TDV yalnız '1772'. Toprak listesi (Elbląg vb.) bu iki sayfada yok, okunmadı.
+- 1793-01-23 İkinci Taksim: Rusya Rivne, Minsk, Kamaniçe, Bar, Vinnitsa, : TDV 23 Ocak 1793'ü Rusya-Prusya anlaşmasının günü olarak verir (ikinci bölünme bu iki devlet arasında). Bu gün anlaşmayı tarihler; toprakların fiilî ele geçirilişi (Prusya Ocak-Şubat, Rusya Mayıs) ve Grodno Sejm'inin onayı (Eylül 1793) ayrıdır, okunmadı. Gdańsk'ın 1793'te Prusya'ya geçmediği (Danzig 1793'te Prusya'ya katıldı, Mart'ta) listeyi etkileyebilir; toprak listesi okunmadı.
+- 1795-10-24 Üçüncü Taksim: Lehistan-Litvanya Birliği ortadan kalktı (Bia: ÇELİŞKİ: zpe.gov.pl 24 Ekim 1795'i III. paylaşma antlaşması günü olarak işaretliyor; TDV 'Polonya' maddesi ise ülkenin üç devlet arasında paylaşılıp ortadan kaldırıldığını 3 Mart 1795 olarak yazıyor, son kralın feragatini 25 Kasım 1795 (arama özeti, okunmadı). TDV bu kuralla esas olduğundan çelişki ic_not'ta iki kaynağıyla beyan edilmeli; 3 Mart 1795 muhtemelen Avusturya-Rusya ön anlaşmasıyla ilgi
+- 1581-07-26 Vazgeçme Belgesi: Haarlem, Dordrecht, Stavoren ve Arnhem'in : Tarih belgenin kabul gününü tarihler (Staten-Generaal). Arama özeti Rijksmuseum'un da 26 Temmuz dediğini söylüyor (açılmadı), bir kaynakta 27 Temmuz geçiyor. Başlıktaki şehir listesi (Arnhem hâlâ Gelre'de İspanya yanlısıydı sayılmayabilir) okunmadı.
+- okunmadı · 1707-05-01 Birlesme Yasalari yururluge girdi: Iskocya Krallign Ingilter
+- 1713-04-11 Utrecht'te Prusya Fransa'ya Orange Prensligi'ni (Orange) bir: 11 Nisan 1713 Britanya, Hollanda, Savoy, Portekiz ve Prusya'nın Fransa ile antlaşmalarının imza gününü tarihler (Prusya sayfada adıyla geçer); Orange'ın Fransa'ya bırakılması bu sayfada anılmıyor, arama özetinde Britannica diyor (okunmadı). Atlas künyesindeki 'Prusya antlaşmasının günü seriden alındı' beyanı doğrulandı: gün seri günüdür, ayrı bir Prusya günü bulunmadı. Orange Prensliği'nin Fransa'
+- okunmadı · 1765-05-10 Man Adası Satın Alma (Revestment) Yasası: Atholl Dükleri'nin
+- 1792-09-21 Ulusal Konvansiyon krallığı kaldırdı, Fransa Cumhuriyeti kur: 21 Eylül 1792 krallığın kaldırılma kararını tarihler. Cumhuriyetin 'ilanı' ise ertesi gün (22 Eylül) resmî belgelerin 'Yıl I' ile tarihlendirilmesi kararıyla anılır (arama özeti, okunmadı). Başlıktaki 'Cumhuriyet kuruldu' 21 Eylül'e değil 22 Eylül'e bağlanıyor olabilir; madde ikiye bölünebilir. Wikisource neşir aktarımıdır, doğrulanmış baskı karşılaştırması yapılmadı.
+- okunmadı · 1795-01-19 Batav Cumhuriyeti ilan edildi, Hollanda Eyaletleri Cumhuriye
+- bulunamadı: Mons 1691 kuşatması (10 Nisan günü) için hiçbir kaynak bulunamadı
+- bulunamadı: Venlo Antlaşması günü 7 mi 12 Eylül mü: Maastricht Üniversitesi belgesi sertifika hatasıyla açılamadı
+- bulunamadı: Britannica, parliament.uk, imuseum.im, tynwald.org.im, BMGN 104919 ve 105403 sayfaları açılamadı (403/401/500); bunlara dayanan kayıtlar 'okunmadı'
+- bulunamadı: Grave Antlaşması 10 Aralık, Aix-la-Chapelle 2 Mayıs, Nijmegen 10 Ağustos ve 17 Eylül, Tournai 3 Eylül, Namur 1692/1695, Maastricht 1673 günleri akademik sayfa ile okunamadı
+- bulunamadı: Ypres'in 1697'de İspanya'ya iadesi hiçbir kaynakta doğrulanamadı (şüpheli)

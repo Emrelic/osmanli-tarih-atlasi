@@ -9331,7 +9331,7 @@ window.OLAYLAR_2S_0918 = [
 { t:"1569-07-01", b:"Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya'ya geçti", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Bar (Podolya)",
   etiket:["antlasma","toprak-kazanc","konu-siyasi"],
   d:"1 Temmuz 1569'da imzalanan Lublin Birliği, Litvanya Büyük Dükalığı ile Polonya Krallığı'nı tek bir devlette (Rzeczpospolita) birleştirdi. Anlaşmanın şartı gereği Podolya, Volhynia ve Kiev bölgesi (Bar, Berdiçev, Białystok, Braslav dahil) idarî olarak Litvanya'dan doğrudan Polonya Krallığı'na devredildi.",
-  kaynak:"standart akademik/ansiklopedik (Union of Lublin, 1 Temmuz 1569 — Davies, God's Playground; Encyclopaedia Britannica 'Union of Lublin') — TDV kapsam dışı, gün kaynakta AÇIKÇA veriliyor, veriyle birebir örtüşüyor" },
+  kaynak:"Encyclopedia of Ukraine, 'Lublin, Union of' (encyclopediaofukraine.com) — «signed on 1 July 1569 at a joint assembly of Lithuanian and Polish deputies in Lublin | Under the treaty Poland (the Polish crown) obtained the Ukrainian territories of Podlachia, Volhynia»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (standart akademik/ansiklopedik (Union of Lublin, 1 Temmuz 1569 — Davies, God's P) dayanak olamaz, değiştirildi. 1 Temmuz 1569 birliğin imza günüdür; Encyclopedia of Ukraine toprak devrini antlaşmaya bağlar, ayrı gün vermez (History of Ukraine maddesi arama özetinde ilhakların Temmuz öncesi olduğunu söyler; sayfa okunmadı). Gün 'imza günü' beyanıyla kalmalı." },
 
 // ── 2. HÜRMÜZ'ÜN PORTEKİZ'E DÜŞÜŞÜ ────────────────────────────────────
 { t:"1515-04-01", b:"Portekiz, Hürmüz Boğazı kıyılarındaki hâkimiyetini tamamladı", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"Hürmüz Adası",
@@ -9629,7 +9629,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1535-11-01", b:"Son Sforza dükü öldü, Milano V. Karl'a geçti",yer:"Como", tur:"siyaset", onem:3, dunya:4, kapsam:"dis", yer_id:"Milano",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Milano dükü II. Francesco Sforza 1-2 Kasım 1535 gecesi çocuksuz öldü. Dükalık İmparator V. Karl'a geçti ve bir İspanyol valisiyle yönetilmeye başlandı.",
-  kaynak:"G. Benzoni, 'FRANCESCO II Sforza', Dizionario Biografico degli Italiani, Treccani, https://www.treccani.it/enciclopedia/francesco-ii-sforza-duca-di-milano_(Dizionario-Biografico)/ — AYNEN: \"nella notte tra il 1° e il 2 nov. 1535\" · Britannica, 'Duchy of Milan' — AYNEN: \"When Francesco II Sforza died childless in 1535, Milan devolved to Charles V\" · hassasiyet: GÜN (1/2 Kasım gecesi)" },
+  kaynak:"G. Benzoni, 'Francesco II Sforza', Dizionario Biografico degli Italiani, Treccani; Karl V maddesi, NDB, deutsche-biographie.de/gnd118560093.html — «Muore, infatti, a Milano, nel castello di Porta Giovia, nella notte tra il 1° e il 2 nov. 1535 | Der Tod des Herzogs von Mailand, Francesco Sforza (1.11.1535)»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (G. Benzoni, 'FRANCESCO II Sforza', Dizionario Biografico degli Italiani, Treccan) dayanak olamaz, değiştirildi. Tarih (1 Kasım 1535) dükün ölümünü tarihler; DBI 'gece 1-2 Kasım arası', NDB 1.11.1535. Milano'nun Habsburg denetimine geçişi ölümle başlar (Antonio de Leyva). Atlas tarihi korunabilir; Britannica dayanağı yerine bu iki kaynak." },
 
 // ── 1544 ─────────────────────────────────────────────────────────────
 { t:"1544-01-01", b:"Cenevizliler Tabarka adasına yerleşti", tur:"toprak-kayip", onem:2, dunya:2, kapsam:"dis", yer_id:"Tabarka",
@@ -9641,7 +9641,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1558-01-01", b:"Rusya Livonya'yı istilâ etti, Dorpat düştü", tur:"savas", onem:3, dunya:4, kapsam:"dis", yer_id:"Tartu (Dorpat)",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"IV. İvan Baltık'a çıkış için Livonya'yı istilâ ederek Livonya Savaşı'nı başlattı; Narva ve Dorpat'ı (Tartu) ele geçirip Reval'i kuşattı.",
-  kaynak:"Britannica, 'Livonian War', https://www.britannica.com/event/Livonian-War — AYNEN: \"In 1558 Ivan IV of Russia invaded Livonia, hoping to gain access to the Baltic Sea and to take advantage of the weakness of the Livonian Knights; he seized Narva and Dorpat and besieged Reval.\" · hassasiyet: YIL (Dorpat'ın teslim günü akademik kaynakta okunmadı; bulunursa madde oraya çekilir)" },
+  kaynak:"encyclopedia.com 'Livonian War' (Krom, Encyclopedia of Russian History) — «took the important harbor of Narva (May 11) and the city of Dorpat (July 19)»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Britannica, 'Livonian War', https://www.britannica.com/event/Livonian-War — AYNE) dayanak olamaz, değiştirildi. Dorpat 19 Temmuz 1558; Narva 11 Mayıs 1558. Takvim (Jülyen) beyanı ve ikinci kaynak okunmadı." },
 
 // ── 1580-04-10 ───────────────────────────────────────────────────────
 { t:"1580-04-10", b:"Zamość'ın kuruluş (lokasyon) belgesi", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Zamość",
@@ -9653,7 +9653,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1582-01-15", b:"Yam Zapolski ateşkesi — Livonya ve Dorpat Lehistan'a geçti", tur:"antlasma", onem:3, dunya:4, kapsam:"dis", yer_id:"Tartu (Dorpat)",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
   d:"Lehistan-Litvanya ile Rusya arasında Yam Zapolski ateşkesi imzalandı; Moskova Livonya üzerindeki iddialarından vazgeçti ve Polotsk topraklarını iade etti. Dorpat (Tartu) 1582'den itibaren Lehistan'ın elinde kaldı.",
-  kaynak:"Muzeum Historii Polski, 'Rozejm w Jamie Zapolskim', https://muzhp.pl/kalendarium/rozejm-w-jamie-zapolskim — AYNEN: \"15 stycznia 1582 r.\" / \"Moskwa zrzekła się pretensji do Inflant oraz oddała Rzeczypospolitej ziemię połocką z niektórymi zamkami.\" · Britannica, 'Tartu' — AYNEN: \"held in turn by Poles (1582–1600, 1603–25)\" · hassasiyet: GÜN (veri 01-01, 14 gün fark)" },
+  kaynak:"Muzeum Historii Polski, 'Rozejm w Jamie Zapolskim', muzhp.pl/kalendarium/rozejm-w-jamie-zapolskim — «Traktat podpisano 15 stycznia 1582 r. | Moskwa zrzekła się pretensji do Inflant»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Muzeum Historii Polski, 'Rozejm w Jamie Zapolskim', https://muzhp.pl/kalendarium) dayanak olamaz, değiştirildi. Tarih ateşkesin imzasını tarihler (Kiwerowa Horka). Akademik monografi ikinci kaynak olarak aranmadı." },
 
 // ── 1589-07-02 ───────────────────────────────────────────────────────
 { t:"1589-07-02", etiket:["sehir-kronolojisi"], b:"Tsaritsyn kalesi ilk kez belgede anıldı", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Tsaritsyn",
@@ -9707,7 +9707,7 @@ window.OLAYLAR_2S_0919 = [
 { t:"1663-01-01", b:"Rusya Sura boyunda Penza kalesini kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Penza",
   etiket:["askeri","toprak-kazanc","konu-askeri"],
   d:"Penza, Penza ve Sura ırmaklarının birleştiği yerde büyük bir kale olarak kuruldu; 1684'ten sonra Sızran savunma hattının batı ucunu oluşturdu.",
-  kaynak:"Britannica, 'Penza', https://www.britannica.com/place/Penza-Russia — AYNEN: \"The city was founded in 1663 as a major fortress. After 1684 it formed the western end of the Syzran defensive line.\" · hassasiyet: YIL · kaynak önceki sahibin (veride `nogay`) kim olduğunu söylemez" },
+  kaynak:"encyclopedia.com 'Penza' (Columbia Encyclopedia) — «Founded in 1666 as a fortress, Penza was occupied by Stenka Razin in 1670»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Britannica, 'Penza', https://www.britannica.com/place/Penza-Russia — AYNEN: \\\"Th) dayanak olamaz, değiştirildi. Columbia 1666 verir, atlas 1663. Rus yerel kaynaklarında kuruluş kararı/inşa ayrımı olabilir (açılmadı); çelişki ic_not'ta iki kaynağıyla beyan edilmeli." },
 
 // ── 1668 (iki ayrı kıta, iki ayrı olay) ─────────────────────────────
 { t:"1668-01-01", b:"Marquette Sault Ste. Marie'de Fransız misyonunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sault Ste. Marie",

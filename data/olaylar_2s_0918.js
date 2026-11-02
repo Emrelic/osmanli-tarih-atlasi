@@ -61,7 +61,7 @@ window.OLAYLAR_2S_0918 = [
 { t:"1569-07-01", b:"Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya'ya geçti", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Bar (Podolya)",
   etiket:["antlasma","toprak-kazanc","konu-siyasi"],
   d:"1 Temmuz 1569'da imzalanan Lublin Birliği, Litvanya Büyük Dükalığı ile Polonya Krallığı'nı tek bir devlette (Rzeczpospolita) birleştirdi. Anlaşmanın şartı gereği Podolya, Volhynia ve Kiev bölgesi (Bar, Berdiçev, Białystok, Braslav dahil) idarî olarak Litvanya'dan doğrudan Polonya Krallığı'na devredildi.",
-  kaynak:"standart akademik/ansiklopedik (Union of Lublin, 1 Temmuz 1569 — Davies, God's Playground; Encyclopaedia Britannica 'Union of Lublin') — TDV kapsam dışı, gün kaynakta AÇIKÇA veriliyor, veriyle birebir örtüşüyor" },
+  kaynak:"Encyclopedia of Ukraine, 'Lublin, Union of' (encyclopediaofukraine.com) — «signed on 1 July 1569 at a joint assembly of Lithuanian and Polish deputies in Lublin | Under the treaty Poland (the Polish crown) obtained the Ukrainian territories of Podlachia, Volhynia»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (standart akademik/ansiklopedik (Union of Lublin, 1 Temmuz 1569 — Davies, God's P) dayanak olamaz, değiştirildi. 1 Temmuz 1569 birliğin imza günüdür; Encyclopedia of Ukraine toprak devrini antlaşmaya bağlar, ayrı gün vermez (History of Ukraine maddesi arama özetinde ilhakların Temmuz öncesi olduğunu söyler; sayfa okunmadı). Gün 'imza günü' beyanıyla kalmalı." },
 
 // ── 2. HÜRMÜZ'ÜN PORTEKİZ'E DÜŞÜŞÜ ────────────────────────────────────
 { t:"1515-04-01", b:"Portekiz, Hürmüz Boğazı kıyılarındaki hâkimiyetini tamamladı", tur:"toprak-kayip", onem:4, dunya:4, kapsam:"dis", yer_id:"Hürmüz Adası",
