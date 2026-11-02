@@ -1,0 +1,139 @@
+{
+ "sonuc_kunye25": {
+  "teyit": [
+   {
+    "id": "hawaii-seflikleri",
+    "f_eski": "1190-01-01",
+    "t_eski": "1795-01-01",
+    "f_oneri": "1190-01-01",
+    "t_oneri": "1795-01-01",
+    "kaynak_yeni": "Allen MS 2014, Marquesan Colonisation Chronologies and Postcolonisation Interaction: Implications for Hawaiian origins, Journal of Pacific Archaeology 5(2):1-17 (pacificarchaeology.org/index.php/journal/article/view/137); Mills PR, A New View of Kaua'i as The Separate Kingdom after 1810 (evols.library.manoa.hawaii.edu, bitstream 604dc5b6-042d-4d1c-a278-e16be2c9c564)",
+    "alinti": "Allen: growing consensus that Hawai'i was probably settled around the 11th to 13th centuries AD. | Mills: Kamehameha I controlled all of the Hawaiian Islands with the exception of Kaua'i and Ni'ihau by 1795",
+    "teyit": "beyanlı yaklaşıklık",
+    "not": "f: Allen 2014 özeti Hawaii yerleşimini 11.-13. yy verir (10.-11. yy ihtimali de anılır); f=1190 bu aralıkta, yüzyıl hassasiyeti. Wilmshurst 2011 PNAS (403/reCAPTCHA) ve Kirch 2011 Hawaiian Archaeology 12 (Cloudflare) okunmadı. t=1795: Mills, 1795'e kadar Kauai/Niihau hariç adaların Kamehameha denetiminde olduğunu, 1810'da Kaumuali'i ile görüşme olduğunu söyler (1810 son birleşme tartışmalı); 1795-01-01 günü kaynakta teyit edilmedi. Değişiklik önerilmez.",
+    "degisiklik": false
+   },
+   {
+    "id": "nauru-vesayeti",
+    "f_eski": "1947-11-01",
+    "t_eski": "1968-01-31",
+    "f_oneri": "1947-11-01",
+    "t_oneri": "1968-01-31",
+    "kaynak_yeni": "UN Dag Hammarskjold Library research guide Nauru (research.un.org/en/docs/tc/nauru); UN Repertory of Practice, Art. 76 Supp. 4 vol. 2 (legal.un.org/repertory/art76/english/rep_supp4_vol2_art76.pdf)",
+    "alinti": "the Trusteeship Agreement for the Territory of Nauru, approved by the General Assembly on 1 November 1947, should cease to be in force upon the accession of Nauru to independence on 31 January 1968",
+    "teyit": "çift teyit",
+    "not": "Rehber: A/RES/140 (II) 1 Kas 1947 (anlaşma), A/RES/2347 (XXII) 19 Ara 1967 (sona erme). Repertory: As scheduled, the Trust Territory of Nauru became independent on 31 January 1968. undocs/docs.un.org metni boş döndü; history.state.gov yalnız yıl verir.",
+    "degisiklik": false
+   },
+   {
+    "id": "gilbert-ellice-kolonisi",
+    "f_eski": "1892-05-27",
+    "t_eski": "1976-01-01",
+    "f_oneri": "1892-05-27",
+    "t_oneri": "1976-01-01",
+    "kaynak_yeni": "Moore 2017, Protecting Solomon Islanders ch.1 (ANU Press, press-files.anu.edu.au/downloads/press/n5664/pdf/ch01.pdf) — yalnız yıl düzeyi",
+    "alinti": "the Gilbert Islands Protectorate and the Ellice Islands Protectorate, both of which began in 1892, were administered as one and became a single Crown colony in 1916",
+    "teyit": "beyanlı yaklaşıklık",
+    "not": "YALNIZ YIL teyitli (1892, 1916, 1975'te ikiye bölünme; WPHC Ocak 1976'da kaldırıldı). Gün (27 May 1892, 12 Oca 1916, 1 Oca 1976) OKUNMADI: JPS Roberts 1958 ve ANU openresearch PDF ECONNRESET, J. Pacific Hist. 10(4) 1975 ve Te Ara 403. Ellice'nin ayrılış günü ve t=1976-01-01 kaynaksız. Değişiklik önerilmez.",
+    "degisiklik": false
+   },
+   {
+    "id": "tuvalu",
+    "f_eski": "1978-10-01",
+    "t_eski": null,
+    "f_oneri": "1978-10-01",
+    "t_oneri": null,
+    "kaynak_yeni": "Tuvalu Act 1978 (c. 20), s.1(1) — legislation.gov.uk/ukpga/1978/20/enacted",
+    "alinti": "On and after 1st October 1978 (in this Act referred to as Independence Day) ... Her Majesty's Government in the United Kingdom shall have no responsibility for the government of Tuvalu",
+    "teyit": "tek kaynak",
+    "not": "Bağımsızlık günü doğrulandı. Tuvalu Independence Order metni okunmadı.",
+    "degisiklik": false
+   },
+   {
+    "id": "kiribati",
+    "f_eski": "1979-07-12",
+    "t_eski": null,
+    "f_oneri": "1979-07-12",
+    "t_oneri": null,
+    "kaynak_yeni": "Kiribati Act 1979 (c. 27) s.1 ve Kiribati Independence Order 1979 (SI 1979/719) — legislation.gov.uk/ukpga/1979/27/body/enacted ; /uksi/1979/719/made",
+    "alinti": "On and after 12th July 1979 (in this Act referred to as Independence Day) | Order: shall come into operation on 12th July 1979 | Kiribati is a sovereign democratic Republic.",
+    "teyit": "çift teyit",
+    "not": "Act ve Order iki ayrı belge, ikisi de 12 Temmuz 1979. Act s.7(1): Kiribati = bağımsızlıktan hemen önce the colony of the Gilbert Islands toprakları.",
+    "degisiklik": false
+   },
+   {
+    "id": "mikronezya-federe-devletleri",
+    "f_eski": "1986-11-03",
+    "t_eski": null,
+    "f_oneri": "1986-11-03",
+    "t_oneri": null,
+    "kaynak_yeni": "US Office of the Historian, Micronesia (history.state.gov/countries/micronesia)",
+    "alinti": "effective that day, the Federated States of Micronesia would no longer be under U.S. trusteeship ... a Compact of Free Association ... would go into force",
+    "teyit": "tek kaynak",
+    "not": "Sayfa 'Micronesia achieved independence in 1986' der; 3 Kasım gününü WebFetch özeti verdi, günü taşıyan cümle birebir kopyalanamadı (ikincil özet). BM vesayetinin resmî sonu (Güvenlik Konseyi 683, 22 Ara 1990) okunmadı; UN rehberi yalnız FSM/Marshall/Palau'nun bu vesayetten çıktığını ve S/RES/21 (2 Nis 1947) anlaşmasını verir.",
+    "degisiklik": false
+   },
+   {
+    "id": "marshall-adalari",
+    "f_eski": "1986-10-21",
+    "t_eski": null,
+    "f_oneri": "1986-10-21",
+    "t_oneri": null,
+    "kaynak_yeni": "US Office of the Historian, Marshall Islands (history.state.gov/countries/marshall-islands)",
+    "alinti": "On October 21, 1986, the Compact was agreed upon by both nations and entered into force. | The United States recognized the independence of the Marshall Islands on October 21, 1986.",
+    "teyit": "tek kaynak",
+    "not": "Gün doğrulandı. BM vesayetinin resmî sonu (22 Ara 1990) ayrı tarih, okunmadı.",
+    "degisiklik": false
+   },
+   {
+    "id": "bagimsiz-samoa",
+    "f_eski": "1962-01-01",
+    "t_eski": null,
+    "f_oneri": "1962-01-01",
+    "t_oneri": null,
+    "kaynak_yeni": "UN Photo (media.un.org/photo/en/asset/oun7/oun7638914); UN DHL research guide Western Samoa (research.un.org/en/docs/tc/westernsamoa: A/RES/1626 (XVI), 18 Oct 1961)",
+    "alinti": "to terminate the United Nations trusteeship in Western Samoa when the territory accedes to independence on 1 January 1962",
+    "teyit": "çift teyit",
+    "not": "Rehber sona erme kararını (A/RES/1626 XVI, 18 Ekim 1961) ve became Samoa der; gün UN Photo başlığında. Te Ara, legislation.govt.nz, nzhistory 403 verdi, okunmadı.",
+    "degisiklik": false
+   }
+  ],
+  "bulunamadi": [
+   "Gilbert-Ellice gün düzeyi (27 May 1892, 12 Oca 1916, 1 Oca 1976)",
+   "Wilmshurst 2011 Hawaii cümlesi (PNAS 403 / PMC reCAPTCHA)",
+   "FSM/Marshall BM vesayet sonu 22 Aralık 1990 metni"
+  ]
+ },
+ "sonuc_madde25": {
+  "denetim": [
+   {
+    "t": "1968-01-31",
+    "b": "Nauru vesayetten cikip bagimsiz cumhuriyet oldu",
+    "karar": "kaynak-ekle",
+    "t_oneri": "1968-01-31",
+    "gun_oneri": "1968-01-31",
+    "kesinlik_oneri": "gun",
+    "kaynak_yeni": "UN Repertory of Practice, Art. 76 Supp. 4 vol. 2 (legal.un.org/repertory/art76/english/rep_supp4_vol2_art76.pdf); UN DHL research guide Nauru (research.un.org/en/docs/tc/nauru)",
+    "alinti": "As scheduled, the Trust Territory of Nauru became independent on 31 January 1968 as the Republic of Nauru.",
+    "teyit": "çift teyit",
+    "not": "Tarih doğru; yalnız kaynak alanı Wikipedia/NWE'den BM kaynağına çevrilmeli. Nauru Independence Act 1967 (Cth) No.103, 10 Kas 1967 (legislation.gov.au) — madde metni okunmadı."
+   },
+   {
+    "t": "1914-09-17",
+    "b": "Avustralya kuvvetleri Alman Yeni Ginesi'ni isgal etti (Rabaul/Toma kapitulasyonu)",
+    "karar": "kaynak-ekle",
+    "t_oneri": "1914-09-17",
+    "gun_oneri": "1914-09-17",
+    "kesinlik_oneri": "gun",
+    "kaynak_yeni": "Australian War Memorial, Operations against German Pacific territories (awm.gov.au/collection/E84777); AWM, A hundred years on: the AN&MEF (awm.gov.au/articles/blog/australian-naval-and-military-expeditionary-force-100-years)",
+    "alinti": "Rabaul was occupied, unopposed, by troops from Berrima on 12 September. ... they surrendered German New Guinea on 17 September. | On 17 September terms had been reached and all military resistance ended.",
+    "teyit": "çift teyit",
+    "not": "Teslim günü 17 Eylül 1914 doğrulandı. Başlık inceltmesi önerisi: Rabaul 12 Eylül 1914'te çatışmasız işgal edildi (Alman idaresi içerideki Toma'ya çekildi), teslim 17 Eylül'de; yani 'Rabaul/Toma kapitülasyonu' kabaca doğru ama 12 Eylül ayrı olay. Açılan iki AWM sayfası 'Toma' adını vermedi; Toma yeri için kaynak okunmadı. Veri tarafında almanya->avustralya dönem kırılması 1914-09-17 kaynakla uyumlu."
+   }
+  ],
+  "eksik": [],
+  "bulunamadi": [
+   "Toma adının geçtiği açılmış sayfa"
+  ]
+ }
+}
