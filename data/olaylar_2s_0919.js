@@ -211,11 +211,11 @@ window.OLAYLAR_2S_0919 = [
 { t:"1668-01-01", b:"Marquette Sault Ste. Marie'de Fransız misyonunu kurdu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Sault Ste. Marie",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"Cizvit Jacques Marquette, Superior ile Huron gölleri arasındaki Sault Ste. Marie çağlayanları başında bir misyon kurdu.",
-  kaynak:"Britannica, 'Sault Sainte Marie (Michigan)', https://www.britannica.com/place/Sault-Sainte-Marie-Michigan — AYNEN: \"Jacques Marquette founded a mission there in 1668\" · hassasiyet: YIL" },
+  kaynak:"Britannica, 'Sault Sainte Marie (Michigan)', https://www.britannica.com/place/Sault-Sainte-Marie-Michigan — AYNEN: \"Jacques Marquette founded a mission there in 1668\" · hassasiyet: YIL", ic_not_d:"DUNYA-1102 h22-24: teyit tek kaynak. DCB: Marquette 20 Mayıs 1668'de Quebec'ten ayrıldı ve Dablon'un Sault'taki mevcut misyonuna katıldı; misyonun kurucusu olarak anılmıyor. Başlık 'Marquette ve Dablon Sault Ste. Marie'de Cizvit misyonunu kurdu' ya da 'Marquette Sault Ste. Marie misyonuna katıldı' olmalı. Kurucu adı için Canadian Encyclopedia sayfası kesilmiş geldi, okunmadı." },
 { t:"1668-01-01", b:"Hudson's Bay Company'nin ilk karakolu (Waskaganish) kuruldu", tur:"kurulus", onem:2, dunya:2, kapsam:"dis", yer_id:"Waskaganish (Rupert House)",
   etiket:["siyasi","toprak-kazanc","konu-siyasi"],
   d:"James Körfezi'nde Rupert ırmağının ağzında Médard Chouart des Groseilliers, sonradan Hudson's Bay Company'nin ilk karakolu sayılan yerleşimi kurdu.",
-  kaynak:"Britannica, 'Waskaganish', https://www.britannica.com/place/Waskaganish — AYNEN: \"It was founded in 1668 as the first Hudson's Bay Company post by the Médart Chouart, sieur de Groseilliers\" · hassasiyet: YIL" },
+  kaynak:"Britannica, 'Waskaganish', https://www.britannica.com/place/Waskaganish — AYNEN: \"It was founded in 1668 as the first Hudson's Bay Company post by the Médart Chouart, sieur de Groseilliers\" · hassasiyet: YIL", ic_not_d:"DUNYA-1102 h22-24: teyit çift teyit (iki sayfa, aynı kaynak kuruluşu). Nonsuch 3 Haziran 1668'de ayrıldı, 29 Eylül 1668'de Rupert Nehri ağzına demirledi; Charles Fort/Fort Charles 1668-69 kışında kuruldu. Şirket 2 Mayıs 1670'te kuruldu; yani 1668'de 'HBC karakolu' anakronizm, doğrusu 'Nonsuch seferi Rupert Nehri'nde Fort Charles'ı kurdu (sonradan HBC'nin ilk postu sayıldı). 'Waskaganish' Cree topluluğu adı; Rupert House adı sayfada yok. Gün uydurulmaz." },
 
 // ── 1700 ─────────────────────────────────────────────────────────────
 { t:"1700-01-01", b:"İspanyol sömürge yönetimi Pitic'i (Hermosillo) kurdu", tur:"kurulus", onem:2, dunya:1, kapsam:"dis", yer_id:"Pitic (Hermosillo)",
