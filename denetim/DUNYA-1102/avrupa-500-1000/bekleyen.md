@@ -1,0 +1,107 @@
+# Hücre 3 — Avrupa 500–1000 · bekleyen
+
+KASA, 2 Kasım 2026. Künye tavanı 2280 dolu; yeni künye eklenmedi.
+
+## Uygulanmayan öneriler (kararım)
+- `pecenek-konfederasyonu` t 1122 → 1091-04-29 (TDV: 1091 yenilgisinden sonra güç olarak önemini yitirdi): UYGULANMADI — güç kaybı devletin sonu değil; 1122 Beroia son yenilgisi. İki görüş künye ic_not'unda.
+- Napoli 763 ve Venedik 697 maddeleri: Treccani farklı okur (özerklik 9. yy; doge 726 ayrılışına bağlı) — tarih DEĞİŞMEDİ, ic_not'ta beyan.
+- Jorvik 866/867, Halfdan 876/877, Neustria 751/752, Friz t 734/785, Doğu Anglia t 927 ↔ Edmund 870, Mercia t: tek kaynak çelişkileri, karar verilmedi.
+- Frank künye t 0843-01-01 ↔ Benelux yerleşimleri 0843-08-10 (Verdun; akademik kaynak yalnız yıl veriyor).
+- Harald Blåtand vaftizi 960 (~965?) · Alfred-Guthrum antlaşması tarihi · Kel Charles 29 Aralık kaynağı — okunmadı.
+
+## Beyan edilen ama uygulanmayan (karar verilmedi / tek kaynak çelişki)
+- normandiya: f yalnız yıl (sonbahar 911), gün yok. t: Rouen kuşatması 24 Haziran 1204 EI'de geçer; fetih tamamlanma günü olarak okunmadı, künyedeki gün bununla uyumlu ama 'ilhak' günü olarak EI vermiyor.
+- flandre: EI Baudouin I Demir Kol'un kontluğunu 862 değil 'verso l'866' (yaklaşık 866) çevresinde anar; 862 (evlilik/atanma) bu sayfada teyit edilmedi. Açık çelişki değil, yaklaşık ifade; karar verilmedi. t yıl 1384 EI ile uyumlu, gün (30 Ocak) okunmadı.
+- toulouse: t 1271 teyitli (yıl). f 849: EI sayfasında Fredelon'un ölümü 852 olarak geçer, 849 başlangıç alıntısı okunamadı (künyedeki alıntı yasak kaynak Britannica'dan); f için 'okunmadı'.
+- arles-kralligi: f 933 teyitli (yıl). t 1032-09-06: III. Rudolf'un ölümü bu EI sayfasında yok, okunmadı (EI 1038'den itibaren zayıf bağımlılıktan söz eder).
+- kiev-rusu: EU 882'de Oleh'in Askold ve Dir'i öldürdüğünü söyler; 'Kiev'i aldı' demez. t: 'Kyiv was thoroughly sacked in 1240' ve 1236-40 Moğol istilasının devleti 'finally destroyed' ettiği; 6 Aralık günü EU'da okunmadı (günü künyedeki mevcut kayıt taşıyor).
+- napoli-dukaligi: EI: Stefano I (755-800) 763'te papalığı tanıdı; bağımsızlık 'sostanzialmente raggiunta nel secolo successivo' (yani 763 bağımsızlık tarihi değil). t 1137 EI'de Sergio VII son yılı; ama Benevento'da anahtar teslimi II. Innocentius'un esiri olduğu 1139 olaylarına bağlanıyor — çelişki beyanlı, karar verilmedi.
+- pecenek-konfederasyonu: TDV (29 Nisan 1091) yenilgisini siyasî-askerî gücün sonu sayar; Peçenekler 1197'ye kadar akın yapsa da güç olarak bitti. Künye 1122 (Britannica). TDV esas olduğundan t önerisi 1091-04-29 (karar çağırana: devletin sonu mu, yenilgi mi). f: TDV 889 (276/889) tarihini Hazar-Oğuz saldırısı ve batıya geçiş olarak verir; devlet kuruluşu olarak değil, f 889 'beyanlı yaklaşıklık'. TDV konfederasyonu 'tek h
+- deheubarth: f 920 teyitli (yıl; Hywel'in Dyfed+Seisyllwg birleşimi). t 1197-04-28: DWB Rhys ap Gruffydd sayfası 404 verdi, çekilemedi — okunmadı.
+- okunmadı · powys
+- gaeta-dukaligi: t 1136 EI ile aynı. f 836: EI Docibile I'i kurucu sayar (Costantino anılmaz); 836 künyedeki Treccani Enc. dell'Arte Medievale kaydına dayanır, bu sayfada teyit yok.
+- schwaben-dukaligi: EI: 'già all'inizio del sec. X appaiono due duchi, Burcardo e Erchanger' — 915 kesin yıl vermez; Corradino/29 Ekim günü EI'de yok. Yalnız t yılı teyitli.
+- magdeburg-basepiskoposlugu: f 968 teyitli (yıl). t: EI başpiskopos August'un ölümünü (1680) ve Brandenburg'a geçişi anar; 1648 Vestfalya doğrudan anılmadı, sekülerleşme tarihi ayrı.
+- polotsk-knezligi: EI: IX. yüzyıldan itibaren bağımsız prenslik (f 978 künyede zaten terminus ante quem olarak beyanlı); t 'XIV. yüzyıl başı' ile uyumlu, 1307 yılı EI'de yok.
+- langobard: 2 Nisan 568 yürüyüşün başlangıcı (İtalya'ya giriş değil); künye f yılı 568 uyumlu, gün önerilmedi. t: Charlemagne Langobard kralı unvanını aldı, 'il regno longobardo era ormai finito'; 774 yılı alıntıda doğrudan okunmadı.
+- bati-francia: f 843 teyitli (yıl; EI ay-gün vermedi). t 987-07-03: Treccani Capet sayfaları açılamadı (slug), akademik kaynak bulunamadı — okunmadı.
+- dogu-francia: f 843 teyitli (yıl). t 0962-02-02 künyede zaten Treccani Diz. Biografico 'Giovanni XII'ye dayanıyor (bu çağrıda yeniden açılmadı).
+- okunmadı · karolenj-italya
+- orta-francia-lotharingia: t 925 teyitli (yıl). f 855-09-29: EI Lothar II'nin 855 doğumuna tarih vermez, sadece adın ondan geldiğini söyler; Lothar'ın ölümü 869 (künyede 'Mersen 870' ayrı). f gün/yıl 855 için okunmadı.
+- buyuk-moravya: EI: Mojmír c. 830-846 ilk hükümdar (Nitra 833 yılı verilmez); Macarlar 'verso il 906' merkezi yıktı — künye 907'den bir yıl farklı ama 'yaklaşık' ifade, değişiklik önerilmedi, çelişki beyanı önerilir.
+- avar: EI: Gepid krallığı '566 o 567' yıkıldı, 568'den itibaren Macar ovasında; t 822 son kez birleşik halk olarak anılış (devlet bitişi değil). TDV 'Avarlar' yalnız Kafkas Avarlarıdır (558-805 Avar Hakanlığı), Pannonia için kullanılamaz.
+- bulunamadı: powys f/t (akademik sayfa açılamadı)
+- bulunamadı: karolenj-italya (Treccani slug'ları boş döndü)
+- bulunamadı: bati-francia t 987 (Capet sayfası bulunamadı)
+- bulunamadı: deheubarth t 1197 (DWB Rhys 404)
+- bulunamadı: arles-kralligi t 1032 (EI Borgogna'da yok)
+- bulunamadı: orta-francia-lotharingia f 855-09-29
+- buyuk-bulgaristan: TDV 635 vermiyor: 630 (Batı Göktürk çöküşü) sonrası kuruluş; yıkılış Kurt'un 665 ölümü sonrası; Bulgaristan maddesi dağılmayı '650'ler' der (TDV iç çelişki). 680 TDV'de yok (681 Bizans'ın Tuna Bulgar devletini tanıması). f=635 ve t=680 kaynakla birebir doğrulanmadı; f için 630-sonrası, t için 650'ler-665 sonrası yaklaşıklık beyanı gerekir.
+- wessex: Kaynak yalnız 'erken 6. yy' der; 519 yıl düzeyinde teyit edilmedi. Bitiş: 'After 954 and the death of Erik Bloodaxe ... a unitary kingdom of England' ve Alfred (871-899) sonrası 'Wessex folds absolutely into England' — 927 sayfada yok.
+- mercia: f=527 kaynakta yok (atlasın kendi ic_not'u zaten yarı efsanevi diyor); kaynak Penda c.626 öncesi için tarih vermiyor. t: Danimarka ordusu 874'te krallığı dağıttı, 918'de Edward batı Mercia'yı ilhak etti. Mevcut t künyeden okunmadı; t karşılaştırması uygulayıcıya.
+- okunmadı · northumbria
+- jorvik: Bu kaynak 867 verir (atlas 866 Kasım, Anglo-Sakson Kroniği geleneği 866/867 — Jülyen yıl başı farkı olabilir). Kaynak 866'yı çürütmüyor ama desteklemiyor; ikinci kaynak olmadan değişiklik önerilmez. t=954 teyitli (Eric Bloodaxe Stainmore 954). Halfdan ölümü kaynakta 877 (atlas 876).
+- dublin-krallik: t=1171 teyitli. f: SNL kuruluşu '840'lar' olarak veriyor (tam yıl yok); 841 beyanlı yaklaşıklık.
+- dogu-anglia: Kaynak: Edmund Kasım 870'te şehit, sonra İskandinav krallar (Guthrum 870-80); sonrasında Edward the Elder/Athelstan ile İngiliz sistemine katılma (tarih verilmiyor). Atlas t=927 'son Anglosakson kral' değil 'İngiltere'ye katılış'; sınıflandırma: 870 sonrası Danimarka denetimi ayrı ardıl yapı — uygulayıcı karar. f=616 için sayfa: yerleşim '5. yy sonu-6. yy başı'; Raedwald ayrı madde (okunamadı). f 
+- samo-devleti: ADB: 658 bitiş (35 yıl). Başlangıç 623-624: Samo'nun Vendlere gidişi, ayaklanmaya katılış (NDB '623/24'); 623 'kral seçildi' değil 'Vendlere gitti' — f beyanlı yaklaşıklık. NDB bitiş yılı vermiyor, yalnız 35 yıl.
+- okunmadı · nitra-prensligi
+- luksemburg-kontlugu: Yıllar teyitli (963, 1354); 13 Mart günü kaynakta yok — gün teyitsiz, yıl düzeyinde.
+- neustria: Treccani Neustria: Merovenj yönetimi sonu '752' (atlas 751; fark kaynak bağlamı okunmadan değiştirilmedi — Childerik III 751 sonu/752 Soissons). 511 bölünmesi Austrasia maddesinden.
+- austrasia: f=511 teyitli. Kaynak tek bir bitiş yılı vermiyor: ad IX. yy ortasında kayboluyor; 806 bölüşümü Austrasia'yı Mainz-Speyer-Worms'a indirgemişti. t=751 kaynakta yok, teyitsiz.
+- vasconia: Kaynak yalnız '7. yüzyıl' der; 602 ve 778 doğrulanmadı. Gregorius (6. yy sonu) Vasconi'yi anar.
+- friz-krallik: Radbod 719'da öldü ('il maggiore re frisone'). 734 yenilgi teyitli ama krallığın sonu kaynak göre 785 (Frankların birleştirmesi). Atlasın t=734'ü 'Charles Martel yenilgisi'; t=785 öneren bir sınıflandırma uygulayıcı kararı. f=600 kaynakta yok.
+- essex: f=527 kaynakta yok (kaynak: 'erken 7. yy'da mevcut'); t=825 kaynakta yok (9. yy'da Mercia sonra Wessex'in bağımlısı).
+- okunmadı · septimania-gotia
+- nevers-kontlugu: Kaynak 987 vermiyor: ilk kontlar IX-X yy; Landry 992. f=987 teyitsiz. İlk kont hanesi 1272'de söndü, 1384'te Burgundy hanesine geçti.
+- avusturya-marki: f=976 yıl düzeyinde teyitli (NDB: 976 belgesinde markgraf olarak ilk anılış, muhtemelen o gün ya da kısa önce). t=1156 yıl teyitli (Treccani); 17 Eylül günü kaynakta okunmadı.
+- bohemya-dukaligi: t=1198 teyitli (Přemysl Ottokar I kalıtsal kraliyet tacı, Philip of Swabia'dan; 1212 Sicilya Altın Bulla'sı). f=873 yok: Bořivoj vaftizi '880 sonrası'; 873 kaynakla desteklenmedi.
+- orta-francia: f=843 teyitli (Ağustos 843 Verdun). Lothar'ın 29 Eylül 855 ölümü bu kaynakta yok; yalnız Vikipedi/Britannica düzeyinde görüldü (dayanak değil) — t tarihi okunmadı.
+- bulunamadı: septimania-gotia (Treccani slug'ları boş)
+- bulunamadı: nitra-prensligi f=805 ve t=833 kaynağı
+- bulunamadı: orta-francia t=855-09-29 akademik kaynak
+- bulunamadı: bohemya-dukaligi f=873
+- bulunamadı: nevers-kontlugu f=987 ve t
+- bulunamadı: vasconia 602/778
+- bulunamadı: samo-devleti: Treccani Samo slug'ı Samos adasına gitti; yalnız Deutsche Biographie okundu
+- bulunamadı: northumbria f=604 (encyclopedia.com 604 vermiyor)
+- 0763-01-01 Napoli Dükü II. Stefanos Konstantinopolis'ten Roma'ya yöneld: Metin Treccani'de dük 'Stefano I' (755-800), 'II' değil. 763 olgusu = dükün papanın otoritesini tanıması; Treccani aynı maddede özerkliğin 'sostanzialmente raggiunta nel secolo successivo' (IX. yy) olduğunu söyler. Başlık 'fiilen bağımsızlaştı' çıkarımı kaynakta yok; öneri: 'Napoli Dükü Stefanos Papa'nın otoritesini tanıdı (Bizans'a bağlılık gevşedi)'. Bu madde napoli-dukaligi künyesinin f=0763 da
+- 0697-01-01 Venedik ilk dogesini seçti: Paulo Lucio Anafesto: Treccani doge makamını 726 ayrılışına bağlar; 697 Anafesto yalnız geç kronik geleneğidir (Dandolo; John the Deacon 713-715'e koyar) — Treccani metninde 697 geçmiyor. Öneri: ya 0726 (Orso, tarihsel ilk doge) ya da 697 'geleneksel, tarihsel değil' beyanıyla. Anafesto'nun tarihselliği tartışmalı (ikincil aramalarda; sayfa okunmadı). Pozitif 726/727 doge seçimi için ikinci akademik kaynak okunamadı.
+- 0567-01-01 Avarlar Gepid krallığını yıktı; Macar ovasında Avar Kağanlığ: Britannica yerine Treccani. Treccani 566 veya 567 verir; Pannonia'nın Avarlara bırakılması 568 (Alboino ... cedeto agli Avari le sedi dei Longobardi in Pannonia). Kesinlik yıl, 567 korunabilir, 'ic_not'a 566/567 yazılmalı.
+- 0796-01-01 Frank orduları Avar kağanlığının merkezî halkasını yağmaladı: Treccani 791/795/796 Frank seferlerini teyit eder ('halka' ve tudun/kağan teslimi ayrıntısı Treccani metninde yok; o ayrıntı hâlâ yalnız Livius→Pohl aktarımına dayanıyor, Pohl'ün kendisi açılamadı). Tarih 796 ikincil ayrıntı için 'tek kaynak, ayrıntı teyitsiz'.
+- 0774-01-01 Pavia teslim olur; Desiderius tutsak edilir; Charlemagne 'La: Aynı sayfa: 'Carlo ... assunse il titolo di re dei Longobardi'; 'Desiderio fu internato nel convento di Corbeia'. Ay Haziran 774 kaynakta var, gün yok (kurala göre YYYY-01-01 + beyan). 1911 Britannica yerine Treccani.
+- 0756-01-01 Pippin III İtalya seferleriyle Ravenna ekzarhlığını Langobar: Treccani Pippin'in iki seferini (754, 756) teyit eder; 'papalık devleti doğar' hükmünü bu pasaj kendi başına vermiyor. Ravenna'nın Langobard eline 751'de geçtiği de aynı sayfada. Stato della Chiesa maddesi (Treccani) açılamadı (slug).
+- 0843-08-10 Verdun Antlaşması: Karolenj İmparatorluğu üçe bölünür (Batı : Akademik kaynak yalnız yıl veriyor; '10 Ağustos' gününü akademik kaynakta bulamadım (bulunamadı). Gün atlas künyesi+Britannica'ya dayanıyor; kurala göre gün teyitsizse 'yalnız yıl teyitli; gün teyitsiz' notu. Sınıra bağlı olduğu için t değişimi Emre kararı.
+- 0925-01-01 Henry I Lotharingia'yı kattı: Maastricht, Nijmegen ve Utrech: Giselbert NDB: 'im Frühjahr 925 sich diesem unterwarf, besetzte Heinrich G.s Feste Zülpich, die lothringischen Großen huldigten Heinrich' — ilkbahar 925 (mevsim, gün değil). Maastricht/Nijmegen/Utrecht şehir ayrıntısı bu kaynaklarda yok, çıkarım atlas bölgesinden.
+- 0894-01-01 Büyük Moravya Kralı Svatopluk öldü: Saltanat aralığı 870-894; ölüm yılı açıkça 'öldü' diye yazılmamış, ama 894 saltanat sonu.
+- 0863-01-01 Rastislav'ın daveti üzerine Kiril ve Metodiyos Moravya'ya ge: Treccani Moravia olayı doğrular (Rostislao 846-870) ama '863' yılını bu sayfada vermiyor; 863'ü atlasın alıntıladığı Treccani «Russia» pasajından ('nell'863, su richiesta del principe Rostislao') ben okuyamadım (Russia sayfasında yalnız 'aveva inviato nella Grande Moravia i fratelli ... Cirillo e Metodio' çıktı). Yıl: tek kaynak yarı teyit.
+- 0980-01-01 Vladimir Kiev'i alıp Yaropolk'u öldürtü; Kiev Büyük Prensi o: Sayfa açıldı, alıntı doğrulandı. Atlas kaydındaki alıntı birebir uyuyor. Listede 'dogru' sayıldı (kaynak CIUS, akademik ansiklopedi).
+- 0988-08-01 Kiev halkı Dinyeper'de toplu vaftiz edildi; Rus'un Hristiyan: Gün (1 Ağustos) yalnız CIUS'ta; Treccani «Russia» yalnız yıl: 'la sua conversione al cristianesimo nel 988 aprì la strada a quella del suo popolo'. Gün için ikinci bağımsız akademik kaynak bulunamadı; 'çift teyit' değil. İsterseniz kesinlik yıl'a indirilebilir.
+- okunmadı · 0862-01-01 Varegler Rurik önderliğinde Novgorod'a çağrıldı: Rurik haned
+- bulunamadı: Okunamayan / sayfa açılamayan (Treccani'de doğru slug bulunamadı, 'okunmadı' kalır): Clovis Vouillé 507 ve ölüm 511 (Mathisen-Shanzer PDF ECONNRESET); Charlemagne 25 Aralık 800 ve 28 Ocak 814; Strasbourg Andları 842 (günü 14 Şubat olarak bilinir ama okunmadı); Kel Charles 875 tacı (25 mi 29 Aralık m
+- bulunamadı: Özet: 35 madde ele alındı, sayfayla teyit edilen/işlem gören 13 kayıt (2 duzelt: Napoli 763 ve Venedik 697; 9 kaynak-ekle; 2 doğrulama); ~22 kayıt okunmadı.
+- 0507-01-01 Clovis Vouillé'de (Poitiers yakını) Vizigot kralı II. Alaric: Yıl doğrulandı (NDB: 507/08). Gün yok; yıl hassasiyeti kalmalı.
+- 0511-01-01 Clovis ölür; son yıllarında başkent yaptığı Paris'te gömülür: Ölüm günü NDB künye satırında 27.11.511. Atlas aynı olayı 0511-11-27 tarihli ayrı maddede de tutuyor (krallık dörde bölündü); mükerrer olabilir.
+- 0800-12-25 Charlemagne Roma'da Aziz Petrus'ta Papa III. Leo tarafından : Gün Weihnachtsmesse 25.12.800 olarak dolaylı (NDB metni, oğlunun krallık tacını anlatırken Leo III.ün önceden Karl a taç koyduğunu söyler); doğrudan "25.12.800 imparator" cümlesi okunan kısımlarda yok.
+- 0800-12-25 Karl papa tarafından Roma’da imparator tacı giydi; Bizans bu: Bizans tanımadı: NDB Bizans ın bunu "unerhörte Usurpation" saydığını söyler.
+- 0814-01-28 Charlemagne Aachen'de ölür ve aynı gün Meryem Ana Kilisesi'n: NDB başlık: † 28.1.814 Aachen; ADB aynı gün Marienkirche de gömüldüğünü yazar.
+- 0842-01-01 Strasbourg Andları: Kel Charles ile Alman Louis Strazburg'da: Gün NDB: 14 Şubat 842.
+- 0875-12-29 Kel Charles Roma'da imparatorluk tacı giyer: 25 Aralık 875 (NDB; ADB de "Weihnachtsfest"). 29 Aralık veren akademik kaynak okunmadı; bulunursa çelişki ic_not ta iki kaynağıyla beyan edilmeli.
+- 0893-01-28 Basit Charles Reims'te kral olarak taçlandırılır; Odo'ya kar: Atlastaki "Basit Charles" = Karl III. der Einfältige.
+- 0911-01-01 Saint-Clair-sur-Epte Antlaşması: Basit Charles Normanlara bu: Yıl 911 doğrulandı (lex.dk; NDB: "das Jahr 911 einschneidende Wendungen", Rollo vaftizi). NDB: Saint-Clair-sur-Epte yeri geç gelenekten ("ungesicherter, aber nicht schlechthin unglaubwürdiger späterer Tradition") - yer/gün belirsiz, yıl hassasiyeti uygun.
+- 0923-06-15 Soissons Muharebesi: Kral I. Robert ölür, Burgonya dükü Raou: Robert 15.6.923 öldü; Rudolf von Burgund u rakipleri kral ilan etti ("Seine Gegner riefen Rudolf von Burgund ... zum neuen König aus") - seçim günü ayrıca verilmedi.
+- 0955-08-10 Lechfeld Savaşı: I. Otto Macar akınına son verir: ADB Breßlau da: "schlug am 10. August die weit überlegenen Schaaren der Magyaren unweit Augsburg".
+- 0955-01-01 Lechfeld: Macar akınları Alman Kralı I. Otto'ya yenilgiyle s: Aynı olay 0955-08-10 tarihli maddede günlü; bu kayıt mükerrer ya da gün 10 Ağustos a çekilmeli.
+- 0962-02-02 I. Otto Roma'da imparator tacı giyer; Kutsal Roma-Germen İmp: Doğru.
+- 0878-01-01 Edington (Ethandun) Savaşı ve Wedmore barışı: Alfred Danimar: Yıl 878 doğrulandı (Chippenham Ocak 878 sonrası; "Edington, battle of, 878"). Oxford Companion Wedmore tarihi vermez; gün okunmadı, yıl hassasiyeti kalmalı.
+- 0886-01-01 Alfred Londra'yı Danimarkalılardan alır; Alfred-Guthrum barı: Londra 886 doğrulandı. Başlıktaki Alfred-Guthrum barışının tarihi tartışmalı (geleneksel 886-890; 878 savunanlar var) - arama özetinden, Cambridge makalesi tam okunmadı; sınır değişimi Londra nın alınışına bağlansın, antlaşma tarihi ic_not ta belirsiz beyan edilsin.
+- 536-12-09 Belisarios Roma'ya girdi: Roma Ostrogot yönetiminden Bizans': 9 Aralık 536 ADB.
+- 0935-01-01 Bohemya Dükü Aziz Wenceslas kardeşi Boleslav tarafından öldü: Deutsche Biographie künye satırı "935 oder 929": yıl tartışmalı; ADB 935 + 28 Eylül verir. Uygulanırsa ic_not ta 929 alternatifi beyan edilmeli; NDB makalesi bulunamadı.
+- 0855-09-29 Prüm bölüşümü: Maastricht, Nijmegen ve Utrecht II. Lothar'ın: 29 Eylül ölüm günü doğru. Bölüşüm: "Wohl in der Eifelpfalz Schüller, wo er am 19.9.855 seine letzte Urkunde ausstellte, entsagte er dem Thron" (kuzey Lothar II.ye, İtalya Ludwig II.ye, Provence/Lyon Karl a). Bölüşüm günü kesin değil ("wohl").
+- bulunamadı: Harald Blåtand 960 vaftiz: lex.dk 'lod Harald sig tidligt i sin regeringstid døbe' (yıl yok); Jelling taşı vaftizden sonra ca. 965; NDB/snl.no açılamadı (snl 404, Deutsche Biographie yalnız künye). Okunmadı.
+- bulunamadı: Flandre 862: Deutsche Biographie yalnız 'erwähnt 862' (indeks); ADB metni Judith kaçırma yılı vermiyor. Okunmadı.
+- bulunamadı: Treccani (Enciclopedia Italiana / Dizionario Biografico / ricerca) sayfaları WebFetch ile boş geliyor (JS ile yükleniyor); bu yoldan hiçbir madde okunamadı.
+- bulunamadı: Kel Charles 29 Aralık iddiası: kaynağı okunmadı; NDB 25 Aralık der.
+- bulunamadı: Karl der Große NDB: doğrudan 'imparator 25.12.800' cümlesi okunan bölümlerde bulunamadı (yalnız Weihnachtsmesse 25.12.800 bağlamı).
+- bulunamadı: Alfred-Guthrum antlaşması tarihi: yalnız arama özeti; Wedmore günü okunmadı.
+- bulunamadı: Belisarios Ravenna 540: ADB gün vermez, ele alınmadı.
+- bulunamadı: Maastricht/Nijmegen/Utrecht ayrıntıları, Volodymyr 988, Rus maddeleri: bu turda ele alınmadı.
