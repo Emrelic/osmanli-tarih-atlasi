@@ -174,9 +174,9 @@ G — Renk ve bölge (senin işin değil)
 ## Hücreler
 | # | Hücre | Durum | Sayılar | Commit |
 |---|---|---|---|---|
-| 1 | Avrupa MÖ 3500–MÖ 500 | **bitti** (birinci geçiş) | envanter 32 künye · 23 yerleşim · 55 madde. Künye: 12 kaynak düzeltildi, 1 tarih (Sirakuza t), 0 eklendi (18 bekleyen, tavan). Madde: +24, 3 düzeltildi, 0 çıkarıldı. Yerleşim/dönem: 0. D2s 201→201. Bekleyen: `denetim/DUNYA-1102/avrupa-mo3500-500/` | (bu push) |
-| 2 | Avrupa MÖ 500–MS 500 | başladı — envanter 63 künye · 75 yerleşim · 193 madde; 2 ajan | | |
-| 3 | Avrupa 500–1000 | bekliyor | | |
+| 1 | Avrupa MÖ 3500–MÖ 500 | **bitti** (birinci geçiş) | envanter 32 künye · 23 yerleşim · 55 madde. Künye: 12 kaynak düzeltildi, 1 tarih (Sirakuza t), 0 eklendi (18 bekleyen, tavan). Madde: +24, 3 düzeltildi, 0 çıkarıldı. Yerleşim/dönem: 0. D2s 201→201. Bekleyen: `denetim/DUNYA-1102/avrupa-mo3500-500/` | 494b4d546 → main af5301f8 |
+| 2 | Avrupa MÖ 500–MS 500 | **bitti** (birinci geçiş; kapsam kısmi) | envanter 63 künye · 75 yerleşim · 193 madde. Künye: 26 kaynak sayfa-alıntılı akademiğe, 2 tarih (epir t MÖ 231, bati-roma t 476-09-04), 0 eklendi (4 bekleyen). Madde: +5 (alıntılı), 20 düzeltildi (4 tarih: 434, 448, 489-08-28, 406-12-31), 0 çıkarıldı; ~130 madde okunamadı (bekleyen). Yerleşim/dönem: 0. D2s 201→201 | (bu push) |
+| 3 | Avrupa 500–1000 | başladı | | |
 | 4 | Avrupa 1000–1500 | bekliyor | | |
 | 5 | Avrupa 1500–1800 | bekliyor | | |
 | 6 | Avrupa 1800–2000 | bekliyor | | |

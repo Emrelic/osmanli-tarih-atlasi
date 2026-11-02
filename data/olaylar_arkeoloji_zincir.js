@@ -1698,7 +1698,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MS 476",
   "yer": "Roma",
   "d": "Roma noktalarının s: dizisinde bu uç, sahip künyenin (Batı Roma İmparatorluğu) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye bati-roma — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "Treccani, Enciclopedia Italiana 'Odoacre' (treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/) — «Romolo Augustolo fu deposto e relegato con una pensione nella Campania, ultimo degl'imperatori romani d'Occidente.»", "ic_not_d":"DUNYA-1102 hücre 2 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye bati-roma — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. Atlas kunyesi dayanagi yerine EI Odoacre: 476 sonu dogrulandi (gun yok).",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
