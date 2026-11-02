@@ -11284,7 +11284,9 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0502-01-01",
+  "t": "0502-04-30",
+  "gun": "30 Nisan 502 (Jülyen; 天監元年四月丙寅)",
+  "ic_not": "KASA-KIRILMA (2 Kasım 2026): t 0502-01-01 → 0502-04-30 TAŞINDI, Hanoi yerleşiminin liang-guney f ucu ve liang-guney künye f'si birlikte. Gün: Liang shu 卷2 «天監元年夏四月丙寅，高祖卽皇帝位於南郊» → arac/cin_gun.py 502 4 丙寅 = 0502-04-30 (ayın 8. günü). Hanoi'nin kendi devir günü kaynakta yok: BEYANLI YAKLAŞIKLIK, hanedan kuruluşuna bağlandı (Jiankang ile aynı gün).",
   "devlet": "liang-guney",
   "taraflar": [
    "liang-guney"

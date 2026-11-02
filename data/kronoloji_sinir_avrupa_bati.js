@@ -578,11 +578,12 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
   d:"Lucca'nın aristokratik cumhuriyeti 1799'daki Fransız işgaliyle sona erdi. Ardından gelen Lucca Demokratik Cumhuriyeti ve 1805'ten itibaren Napolyon'un kız kardeşi Elisa ile kocası Felice Baciocchi'nin Lucca ve Piombino Prensliği Fransız uydusu oldukları ve ayrı künyeleri bulunmadığı için haritada 1815'e kadar Fransa rengiyle gösterilir; 1799-1800 Avusturya işgali de ayrıca gösterilmez.",
   kaynak:"Treccani «Lucca»" },
 
-{ t:"1847-12-17", devlet:"toskana", devletler:["toskana","lucca-dukaligi"], sinir_id:"",
+{ t:"1847-10-04", gun:"4 Ekim 1847 (devir senedinin imzası)", kesinlik:"gun", devlet:"toskana", devletler:["toskana","lucca-dukaligi"], sinir_id:"",
   b:"Lucca Dükalığı Toskana Büyük Dükalığı'na katıldı", tur:"toprak-kazanc", onem:2, dunya:1, kapsam:"dis", yer_id:"Lucca",
   etiket:["konu-siyasi","toskana","lucca-dukaligi"],
-  d:"Carlo Ludovico'nun erken devir antlaşmasıyla Lucca'nın devlet olarak özerkliği sona erdi. Düzenlemeler Maria Luisa'nın Aralık 1847'deki ölümüyle yürürlüğe girdi: Carlo Ludovico Parma'ya geçti, Lucca Toskana'ya katıldı.",
-  kaynak:"Treccani «Lucca» · A. J. Reinerman, Encyclopedia of 1848 Revolutions «Parma» (sites.ohio.edu/chastain)" },
+  d:"Carlo Ludovico, Modena'dan 4 Ekim 1847'de Lucca'yı Toskana'ya bırakan devir senedini imzaladı; 1844 Floransa düzenlemesinin Maria Luisa'nın ölümüne bağladığı devir böylece öne alındı ve Lucca'nın devlet olarak özerkliği sona erdi. Maria Luisa Aralık 1847'de ölünce Carlo Ludovico Parma'ya geçti.",
+  kaynak:"DBI «Carlo II di Borbone, duca di Parma» (M. L. Trebiliani, 1977) — «Il 4 ottobre firmò l'atto di cessione di Lucca alla Toscana» · Treccani «Lucca» · A. J. Reinerman, Encyclopedia of 1848 Revolutions «Parma» (sites.ohio.edu/chastain)",
+  ic_not:"KASA-KIRILMA (2 Kasım 2026): t 1847-12-17 → 1847-10-04 TAŞINDI; Lucca yerleşiminin lucca-dukaligi→toskana ucu ve lucca-dukaligi künye t'si birlikte. 17 Aralık 1847 Maria Luisa'nın ölüm günüdür (Parma'nın günü), Lucca'nın değil. Toskana'nın şehri fiilen teslim aldığı gün (11 Ekim?) kaynakta okunmadı." },
 
 { t:"1859-06-04", devlet:"sardinya-piyemonte", devletler:["sardinya-piyemonte","avusturya"], sinir_id:"",
   b:"Magenta Muharebesi — Lombardiya Avusturya'dan Sardinya'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Milano",
