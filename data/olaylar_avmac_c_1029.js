@@ -23,7 +23,7 @@ window.OLAYLAR_AVMAC_C_1029 = [
   yer:"Budapeşte", yer_id:"Peşte", kisiler:"I. Franz Joseph, Gyula Andrássy",
   d:"1867 Uzlaşması (Ausgleich) Macaristan'a iç işlerinde ayrı hükûmet ve parlamento tanıdı; dış politika, ordu ve ortak maliye ortak kaldı. Franz Joseph 8 Haziran 1867'de Macaristan kralı olarak taçlandırıldı.",
   ic_not:"TDV macaristan yalnız yılı verir ('1867’de iki ülke arasında bir uzlaşma meydana geldi'); taç giyme günü (8 Haziran 1867) TDV'de yok — gün Britannica 'Austria-Hungary' / 'Francis Joseph' maddelerinden. Uzlaşma yasasının kabul günü kaynaklarda 28-30 Mart arasında değiştiği için bu madde taç giymeye bağlandı.",
-  kaynak:"TDV macaristan (1867 yılı) · Britannica 'Austria-Hungary' (8 Haziran 1867 taç giyme)" },
+  kaynak:"Szilágyi Sándor, A Magyar Nemzet Története (mek.oszk.hu/00800/00893/html/doc/c400581.htm); Szász Zoltán, A '67-es kiegyezési rendszer (europainstitut.hu, 2017) — ikinci kaynak — «1867 június 8-ikán a koronázás megtörtént»", ic_not_d:"DUNYA-1102 hücre 6 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (TDV macaristan (1867 yılı) · Britannica 'Austria-Hungary' (8 Haziran 1867 taç gi) dayanak olamaz, değiştirildi. Szász PDF metninde 'az 1867. június 8-i koronázásából' ifadesi çıkarıldı (pypdf); Szilágyi sayfasında doğrudan cümle. Tarih taç giymeyi tarihler. Britannica yerine bunlar. Not: 'ikili monarşi tamamlandı' yorumdur; kanun onayı taçtan sonradır." },
 
 { t:"1918-11-11",
   b:"İmparator I. Karl devlet işlerine katılmaktan vazgeçtiğini bildirdi (Avusturya için)",
