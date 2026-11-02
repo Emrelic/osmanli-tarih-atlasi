@@ -1,0 +1,183 @@
+# Hücre 4 — Avrupa 1000–1500 (parça 1) · bekleyen
+
+KASA, 2 Kasım 2026. Künye tavanı 2280 dolu; yeni künye eklenmedi.
+
+## Parça 1 kararları (künye 1-3 · madde 1-3)
+- Uygulanan tarihler: akitanya-dukaligi t 1453-10-19 (Gascon Rolls) · urbino-dukaligi f 1443-04-25 (DBI Oddantonio) · padova-carrara t 1405-11-22 (DBI Novello; 17 Kasım askerî giriş alternatif) · Tirol 1363-01-26 (ADB Rudolf IV) · Perth Antlaşması 3 madde 1266-07-02 (Oxford Companion; yerleşim kırılmaları zaten o günde) · Kiev'in düşüşü 1240-12-06 → Aralık 1240 (ay; Enc. of Ukraine + TDV).
+- UYGULANMADI, beyanlı: Burgonya 1032 / Besançon 1157 / Konstanz 1183 maddeleri yıl-temsilî kırılmaları karşılıyor (9/16/2); kaynak günü (Rudolf III ölümü 1032-09-06, Konstanz 1183-06-25, Besançon Eylül 1157) devir günü değil ya da kırılmalar taşınmadan kaydırılamaz. Kırılma + madde birlikte, devir günü kaynakla bulununca taşınmalı.
+- 1075 laik investitür yasağı: NDB «schlecht bezeugt und sehr zweifelhaft» — madde akademik kaynakla çelişiyor; çıkarılmadı (kırılma desteği ölçülmeli).
+- Cnut 1016 Southampton seçimi yalnız 1911 Britannica'da. Taranto/Brindisi 1128 DBI'de desteklenmiyor (1132?). Guaimario/Capua maddesi birkaç olayı karıştırıyor (Capua Mayıs 1038; Amalfi 1039; Gaeta 1042 sonrası) — bölünmeli.
+- Burgonya Kapet 1015 ↔ 1016 · Lizbon 24/25/23 Ekim 1147 · Roma 1084-03-24 teyitsiz (Mart 1084) · Venedik Barışı 1 Ağu / 21 Tem 1177 · Legnano NDB 29.3 (baskı hatası?) ↔ Treccani 29.5.
+- Mükerrer madde: Alarcos 1195 ve Las Navas 1212 ikişer kopya (eşleşme 2) — birleştirilmeli.
+- Künye çelişkileri: gattilusio f 1355 ↔ TDV 1354 (veriliş) · prilep-mrnjavcevic t 1395-05-17 ↔ TDV Rovine 1394 · kosova-brankovic · verona-scaliger 19 ↔ 17/18 Ekim 1387 · hanse f 1356 ↔ 1358 · girit-venedik t 27 Eyl ↔ TDV 6 Eyl 1669 (anlaşma) · taranto t 1465 ↔ DBI 1463-11-15 · foix f 1064 ↔ Universalis ~1002 · thuringia Raspe 16/17 Şubat 1247.
+
+## Beyan edilen ama uygulanmayan (karar verilmedi / tek kaynak çelişki)
+- floransa: t yalniz YIL teyitli (1532); 1 Mayis gunu akademik sayfada yok (DBI yalniz yil verir). f: Treccani 'Firenze' Matilde'nin 1115 olumunde komun ozerkligi der; 1115 yil duzeyinde (Matilde olumu 24 Temmuz 1115 Enc. Dantesca, yalniz arama ozetinden, sayfa acilmadi).
+- piombino: DBI Pisa devri anlasmasi ve Piombino'nun ayrilmasi 13 Subat (1399). Atlasin 19 Subat'i Wikipedia'ya dayaniyor; 19 Subat Visconti'nin Pisa'yi fiilen almasi olabilir, ikinci akademik kaynak bulunamadi. t: Dizionario di Storia 'nel 1804 fu annessa all'impero di Napoleone' (yil) - uyumlu.
+- epir-despotlugu: TDV t icin yalniz AY (Ekim 1430) verir, gun yok: 9 Ekim akademik sayfada teyitsiz. f: TDV yalniz 1204 yili; 13 Nisan 1204 gunu Konstantinopolis'in dususudur (TDV haclilar), Epir kurulus gunu degil. Gun hassasiyeti beyanli yaklasiklik.
+- habsburg-hollandasi: f teyit. t 26 Temmuz 1581 icin Nationaal Archief alintisi kunyede mevcut, ben acmadim; TDV 'Hollanda' 1581'i resmi ilan olarak vermiyor ('1581'de Ispanya'nin hakimiyetine karsi mucadele baslatti'). t okunmadi/tek taraf.
+- latin-imparatorlugu: TDV iki gunu de acik veriyor; ikinci bagimsiz kaynak aranmadi. Baudouin'in taci Mayis 1204 ayri olay.
+- ahaya-prinkepsligi: t 1430 yili teyit. f 1205: TDV 'Mora' sadece 'Frank yonetimine dahil edildi' der, yil vermez; f okunmadi (kunyedeki Bon 1969 baslik dayanagi zayif).
+- selanik-kralligi: TDV acikca 1205-1225 verir; gun yok. Britannica 1224 gorusu yasak kaynak, kullanilmadi.
+- selanik-imparatorlugu: t 1246 yili teyit. f 1225: TDV Selanik sayfasi Latin krallik 1205-1225 der; Theodoros Angelos'un Selanik'i alisi ve imparatorluk tacini TDV 'Bizans'ta bulunamadi; f yalniz Latin krallik bitisi uzerinden dolayli.
+- galicya-volhinya: Her iki yil sayfadan okundu; gun yok.
+- vladimir-suzdal: f 1157 (Yuri Dolgoruki olumu / Andrey'in yukselisi) teyit; 'Vladimir-Suzdal' icin ayri madde yok. t 1281 (neye tekabul ettigi) hicbir acilmis sayfada bulunamadi: okunmadi.
+- akitanya-dukaligi: Kunyedeki 'ya 8 ya 19 Ekim' celiskisi: akademik proje 19 Ekim 1453'u acikca veriyor; t 1453-10-19 onerilir. Hérodote 17 Ekim der (populer, kullanilmadi). f 1000: pencere, teyit edilmedi.
+- okunmadı · anjou-kontlugu
+- okunmadı · provence-kontlugu
+- franche-comte: Fransa-Ispanya Nimègue antlasmasi 17 Eylul 1678 teyit.
+- lorraine-dukaligi: Olum gunu teyit; sayfa Lorraine'in Fransa'ya gectigini acik yazmaz, 1738 viyager hibe uzerinden ima eder.
+- brabant-dukaligi: f: NDB 1190 halef olus, ama 'Herzog von Brabant' unvani ilk 1191'de anilir - 1190 sinir/kararsiz, degistirilmedi. t: 1 Ekim 1795 yasasi (PUL, Belcika bolgeleri genel).
+- liege-piskoposlugu: Liège icin 9 vendémiaire an IV = 1 Ekim 1795 acikca; ikinci kaynak genel 'nos régions' (Liège'i anmiyor). Piskopos de Méan resmen hal'i tanimadi (1801 Konkordato) - künye farki degil.
+- hollanda-kontlugu: ADB ve NDB ayni gunu verir; Jakoba tum topraklarindan Burgonya Dükü'ne feragat etti.
+- man-ve-adalar-krallik: 1266 yili teyit. 2 Temmuz gunu SNL 'Askatin' maddesinde (sayfa acilmadi, arama ozetinde 'Perth 2. juli 1266'): gun okunmadi.
+- orkney-kontlugu: 20 Subat 1472 teyit (blog muze/arsiv; Parlamento kararini sayfa soylemiyor). Rehin 1468 (Orkney) ve 1469 (Shetland): 'The process started in 1468 and 1469'.
+- bulunamadı: anjou-kontlugu (akademik sayfa acilamadi)
+- bulunamadı: provence-kontlugu (acilmis akademik sayfada yil/gun yok)
+- bulunamadı: vladimir-suzdal t=1281
+- bulunamadı: ahaya-prinkepsligi f=1205
+- bulunamadı: habsburg-hollandasi t 1581 (kendim acmadim)
+- zaragoza-hudiler: Müstaîn-Billâh'ın ölümü 1 Receb 503/24 Ocak 1110; 'Sarakustalılar Murâbıtlar’ı davet etti, Hûdîler’in istiklâli sona erdi'; TDV Murâbıt devralış gününü açıkça vermiyor (hükümdar listesinde Abdülmelik 503/1110). Hânedan 5 Şubat 1146'da Cincâle'de son buldu (TDV).
+- amalfi-cumhuriyeti: t=1131 yıl düzeyinde teyit. f pencere: Treccani 'verso la metà del 9° sec. ... si rese indipendente' (künyenin Pisa 1137 notu için Treccani 1135 veriyor). Gün okunmadı.
+- salerno-prensligi: Yıl cümlede açık değil (aynı maddede kuşatma Mayıs 1076'da başlar, kale 'ultimi giorni di maggio' 1077'de teslim: 'si arrese al Guiscardo'); Roberto il Guiscardo DBI ise '12-13 dicembre' der. Arama özeti 'dicembre 1076' veriyor. Gün 13 Aralık 1076 tutarlı.
+- sicilya-aragon: f günü teyit (Trapani çıkarması). Vespers başlangıcı GEC'te 30/31 Mart 1282 olarak farklı veriliyor (arama özeti). t=1816-12 okunmadı.
+- sardinya-aragon: Kaynak: İglesias 7 Şubat 1324'te teslim; Cagliari 9 Haziran 1326'da krala teslim, ardından Pisa haklarından kesin vazgeçti. Yani 1326-01-01 gün olarak tutmuyor; f için aday 1326-06-09 (Cagliari teslimi) ama 'krallık' başlangıcı (1297 Anagni/yatırım) ayrı soru — karar üst ajanda. t okunmadı.
+- verona-scaliger: ÇELİŞKİ: DBI teslimi 17/18 Ekim 1387 gecesi verir; atlasın 19 Ekim'i (Britannica) yalnız arama özetindeki Enciclopedia Italiana 'occupata 19 ottobre' ile uyar (sayfa açılmadı). Üçüncü kaynak gerek; karar verilmedi. f: Mastino I 'Eletto forse capitano del popolo nel 1262' — DBI bunu 'incerto' sayar (Salzer), imzalı sağlam kuruluş yok.
+- montferrat-markizligi: t=1708 yıl düzeyinde teyit. Aynı madde: Paleolog 1305-1533, Gonzaga 1536, dükalık 'nel 1575' (künye özeti 1574 diyor -> ozet düzeltmesi: 1575, Maximilian II). Savoy 1703 ayrı (Casale maddesi).
+- san-marino: Sayfada ayrıca 885 manastır ve 1549 Paulus III onayı; 12. yy komün ve 'bağımsızlık Viyana'da tanındı' cümlesi bu sayfada yok. f=1000 pencere kalır; 301 gelenektir, akademik gün yok.
+- karintiya-dukaligi: '1335 wurde Kärnten habsburgisch'. Linz belehnung / 2 Mayıs günü bu sayfada yok (okunmadı); gün ikincil kalır.
+- pomeranya-dukaligi: NDB: 'letzter Herzog von Pommern, † 10.3.1637 Stettin'. t günü = hânedanın sonu (dükalığın fiilî bölüşümü Vestfalya 1648 ayrı). f=1121 okunmadı.
+- hanse-birligi: ÇELİŞKİ: Lexikon 'Hansetag, Erster' maddesi iki toplantıyı rakip sayar (1356 ve 1358); baskın görüş 1358. Atlasın 2 Şubat 1356 günü yalnız Wikipedia'ya dayanıyordu; akademik gün teyidi bulunamadı. t=1669 teyit: 'gilt der l. H. von 1669 ... als das faktische „Ende der Hanse“'. Karar verilmedi: f ya 1356 beyanlı ya 1358-01-01 (üst ajan seçer).
+- okunmadı · lubeck-sehri
+- schleswig-holstein: f günü teyit (Ripen seçimi); Personalunion NDB'ye göre 1863'e dek sürdü. t=1864-10-30 okunmadı.
+- okunmadı · kraliyet-prusyasi
+- okunmadı · mazovya-dukaligi
+- okunmadı · silezya-piast
+- okunmadı · raska-buyuk-prensligi
+- okunmadı · prilep-mrnjavcevic
+- kosova-brankovic: TDV: 1392'de Üsküp'ü Osmanlılar'a bırakmak zorunda kaldı; topraklar 1395 veya 1396'da alındı, birkaç yıl sonra Osmanlı hâkimiyetini tanıyan oğullara iade. t=1395 bu aralığın alt ucu; 1396 aynı ölçüde mümkün. TDV 'Priştine': Vuk Brankoviç (ö. 1398) — atlas notundaki 1397'den farklı. f=1373 okunmadı.
+- kefalonya-palatin: t=1479 (Kefalonya ve Zakintos'un Tocco'dan Osmanlı'ya geçişi) TDV + encyclopedia.com 'seized by the Ottoman Turks (1479)'. hellenicaworld: 'After 1185 ... County palatine of Cephalonia and Zakynthos' — künyedeki f=1194 ile ÇELİŞİR ama Vikipedi türevi bir sayfa; f okunmadı.
+- euboea-negroponte: 1470 kuşatma/fetih yıl düzeyinde teyit ('Fâtih ... şehri kuşattı (1470)'). TDV Mehmed II maddesi (arama özeti) kalenin düşüşünü 12 Muharrem 875 = 11 Temmuz 1470 verir; sayfa tam açılmadı, künyedeki 12 Temmuz ile 1 günlük fark olası -- doğrulanmadı. TDV Venedik hâkimiyetini 1204'e bağlar (künye ic_not_f'i 1209/1256 ayrıntısını ayrı tutuyor).
+- gattilusio: ÇELİŞKİ: TDV adanın verilişini 1354 yapıyor, künye f=1355. TDV esas olduğundan ikisi ic_not'ta beyan edilmeli; 1355 fiilî ele geçirmeyi (Midilli) ifade ediyor olabilir -- açılmış ikinci kaynak yok, değişiklik önerilmedi. 'Gattilusio ailesi 1462 yılına kadar iktidarda kaldı' (t yıl teyit; Midilli'nin düşüşü Eylül 1462). TDV Limni: 1453 sonrası haraçla Gattilusio'da kaldı.
+- bulunamadı: lubeck-sehri
+- bulunamadı: kraliyet-prusyasi
+- bulunamadı: mazovya-dukaligi
+- bulunamadı: silezya-piast
+- bulunamadı: raska-buyuk-prensligi
+- bulunamadı: prilep-mrnjavcevic (Marko'yu anan sayfa yok)
+- bulunamadı: pomeranya f
+- bulunamadı: sicilya-aragon t
+- bulunamadı: sardinya t
+- bulunamadı: kefalonya f
+- bulunamadı: kosova-brankovic f
+- bulunamadı: karintiya 2 Mayıs günü
+- bulunamadı: hanse f günü akademik
+- galata-pera: f 1267 (Levant maddesi, yıl). TDV 'Ceneviz' Nymphaion antlaşmasını 13 Mart 1261 verir; koloni/Galata devri 1267. t: Ceneviz maddesi Pera'nın anahtarları teslimini 29 Mayıs'a koyar (yıl 1453 bağlamdan); 'Galata' maddesi Fatih ahidnamesini 857 Cemaziyelevveli sonu (1453 Haziran başı) verir. Britannica dayanağı TDV ile değişir. 29 Mayıs gün okuması özetten (sayfada yıl açık yazılmadı).
+- girit-venedik: f 1204-08-12 TDV'de aynen. t ÇELİŞKİ: TDV Girit ve Kandiye maddeleri teslim anlaşmasını 6 Eylül 1669 verir; atlasın 27 Eylül'ü (fiilî teslim/tahliye) TDV'de yok. Anlaşma imzası ≠ şehrin devri; tahliye günü için ikinci kaynak (Venedik tarafı/İSAM) gerekiyor, bulunamadı. Otomatik değişiklik önerilmedi. Fiilî hâkimiyet 1211 TDV'de geçmiyor.
+- izlanda-norvec-danimarka: t 1918-12-01 teyitli (yürürlük günü). f: lex.dk 'accepterede islændingene derfor den norske konges autoritet' — alıntıda yıl yok (1262-64 sayfada açık okunmadı); f için 'beyanlı yaklaşıklık' kalır.
+- okunmadı · orange-prensligi
+- avignon-venaissin: Yıllar (1274, 1348, 1791) teyitli. 14 Eylül günü sayfada yok (gün okunmadı); yalnız arama özetinde 'Constituent Assembly decree 14 Eylül 1791' geçti. Avignon 1348 satış: bir madde Clement VI, öteki Benedict XII der — yıl aynı. f yalnız Comtat için, künyedeki mevcut ic_not geçerli.
+- foix-kontlugu: f: Universalis comté'nin başlangıcını 'vers 1002' verir; atlasın 1064'ü yalnız Vikipedi kontlar listesi başlangıcıydı. 1002 'yaklaşık' (vers) olduğundan 1002-01-01 + beyan. Tek kaynak, uygulamadan önce ikinci kaynak (enciclopedia.cat/Persée) aranmalı. t 1607: Universalis 'Henri IV ... réunira ses États patrimoniaux au domaine royal' der, yıl vermez; arama özetinde 1589 (katılma) geçti — 1607 TEYİT
+- utrecht-piskoposlugu: t yılı 1528 teyitli; 20 Ekim günü sayfada yok (okunmadı). Britannica 1527 'satış' der (arama özeti, açılmadı) — 1527 satış / 1528 devir ayrımı. f 1024: sayfa yalnız 'Saxon emperors' grants' der, 1024 ya da Conrad II geçmiyor; f OKUNMADI.
+- hainaut-kontlugu: 1071 = Hainaut'nun Liège'e inféodation tarihi (Persée, hakemli); Encyclopedia.com 'county created in the late 9th cent.' der ve 1070'te Flanders'tan ayrılmayı verir — 1071 'devletin doğuşu' değil, Liège lehnsherrlik/Flanders'tan kopuş yılı. Burgonya: 'In 1433, Philip the Good ... added Hainaut' (atlas ozet'inde 1432 yazıyor → 1433 ile düzeltilmeli). t 1795 okunmadı. Alıntı yıl olduğundan künye f d
+- frizya-ozgurlugu: t 1498 yıl teyitli (hakemli olmayabilir; DBNL kitap incelemesi). Arama özetinde Albrecht van Saksen'in 1498'de gubernator oluşu geçti, açılmış sayfa değil. f 1101 mevcut Schuur (BMGN 1987) ic_not'una dayanıyor, bu turda yeniden okunmadı; sayfa f vermiyor.
+- okunmadı · powys
+- cid-valensiya: f 15 Haziran 1094 GEC'te aynen teyitli. t 1102-05-05: GEC maddesi 1102'den hiç söz etmiyor; GEC 'regne de València' de 1102'yi vermiyor. t OKUNMADI.
+- taranto-prensligi: DBI: son prens 15 Kasım 1463'te Altamura'da öldü, mirasçıları gayrimeşru olduğundan fiefler Krallık Tacı'na döndü; DBI Isabella'nın 1465 ölümünü ve 30 Mart gününü vermiyor. Atlasın 1465-03-30'u Vikipedi bilgi kutusundan; DBI'ye göre fiilî sona erme 1463-11-15. Karar için ikinci kaynak (Isabella DBI maddesi) açılmadı; öneri ön izlenim, uygulanmasın. f 1088 okunmadı.
+- urbino-dukaligi: f: dük unvanı 25 Nisan 1443'te Siena'da verildi (gün DBI'de açık). t: Francesco Maria II 28 Nisan 1631'de öldü, Urban VIII devoluzione'yi uyguladı (EI); 28 Nisan ölüm günü, devir hemen sonrası. Not: EI cümlesi Church'ün hemen işgalini anlatıyor.
+- padova-carrara: Aynı maddede: 16 Kasım 1405 teslim sözü, 17 Kasım gecesi Venedik birlikleri S. Croce kapısından girdi, 22 Kasım Senato dedizione'yi kabul etti; Novello 17 Ocak 1406'da boğuldu. Atlasın ic_not adayı 1405-11-01 kaynaksız. Seçenek: askerî giriş 1405-11-17 / hukukî dedizione 1405-11-22 — 22 önerildi, 17 alternatif (ic_not'ta beyan). f 1318 bu turda okunmadı.
+- saluzzo-markizligi: ÇELİŞKİ: encyclopedia.com 1142-1548'i verir; DBI 'marchesi di Saluzzo' Manfredo I'i 1123'te belgeli, 'marchesi di Saluzzo' unvanını ~1176'da yerleşmiş gösterir. 1142 kesin bir kuruluş günü değil. t 1548: encyclopedia.com yalnız 'capital' süresi; 1548-02-23 gün okunmadı (DBI maddesi 1504'te bitiyor). Değişiklik önerilmedi.
+- okunmadı · trento-piskoposlugu
+- thuringia-landgrafligi: f 1131 (Lothar III, Ludwig I landgraf yükseltmesi, NDB). t: Raspe ölümü ADB 17 Şubat 1247, NDB 16 Şubat 1247 — ÇELİŞKİ beyan (atlas 17 = ADB). Künye Ludowinger evresi; Wettin'e devir 1264 savaş sonu ayrı. Yıl çift teyitli, gün tek.
+- stiriya-dukaligi: f 1180 (NDB, dükalığa yükseltme) tek kaynak; t yılı 1192 NDB + ADB çift teyit, gün ÇELİŞKİ: NDB 8 Mayıs, ADB 9 Mayıs (atlasta 8 Mayıs, NDB makale gövdesi). Georgenberg: NDB 'designierte den österr. Herzog und seinen Sohn zu seinen Erben'.
+- moravya-markgraflik: ADB Mähren'in 15 yıl reichsunmittelbar kaldığını söyler (1182+15=1197 çıkarım; yıl açık yazılmaz). 1182 belgesi (Konrad Otto'ya lehn) yalnız arama özetinde (açılmış sayfa değil; NDB 'Konrad' sayfası 1182'yi içermiyor). 1918-10-28 okunmadı. Ayrıca bağımsız devlet değil Bohemya Tacı toprağı (mevcut ic_not).
+- okunmadı · karniola-dukaligi
+- bulunamadı: orange-prensligi
+- bulunamadı: trento-piskoposlugu
+- bulunamadı: karniola-dukaligi
+- bulunamadı: powys (f 850, t 1283)
+- bulunamadı: cid-valensiya (t 1102)
+- bulunamadı: galata 29 Mayıs günü yıl-açık sayfada
+- bulunamadı: girit 27 Eylül 1669 (TDV yalnız 6 Eylül)
+- bulunamadı: hainaut t 1795
+- bulunamadı: foix t 1607
+- bulunamadı: utrecht f 1024 ve gün 20 Ekim
+- bulunamadı: avignon gün 14 Eylül 1791
+- bulunamadı: taranto f 1088
+- bulunamadı: padova f 1318
+- bulunamadı: saluzzo t 1548-02-23
+- 1363-01-01 Tirol Kontluğu Habsburglara geçti: NDB (Dopsch 2005) günü vermez: 'wenige Tage nach dem Tod Meinhards III. 1363 ... in Bozen'. Tiroler Landesarchiv: 'Ende Jänner 1363'. Gün ADB'ye dayanır, ikisiyle uyumlu; ikinci akademik kaynak (Baum 1994) önerilir. Belgenin sahteliği tartışması hukukî dayanağa ilişkin, olguya değil.
+- 1254-04-03 Ofen ön barışı: Stiria (Graz) Macar Kralı IV. Béla'ya, Avust: Tarih doğru (ÖN barış). Britannica yerine ADB dayanak. Graz'ın fiilî devir günü kaynakta yok; beyanlı yaklaşıklık kalır.
+- 1260-07-12 Kressenbrunn (Groißenbrunn) Savaşı: II. Ottokar Macarları ye: Gün 12 Temmuz 1260 teyitli. Envanter ic_not'undaki '1261 Pressburg/Viyana barışı' ADB/NDB ile desteklenmiyor: NDB Pressburg barışı 1271, Viyana barışı 21.11.1276; 1261 yalnız Ottokar'ın Kunigunde ile evliliği.
+- 1362-01-01 Kiev Prensliği Litvanya egemenliğine geçti: Sayfa açıldı, 1362 teyitli. Aynı ansiklopedinin Algirdas maddesi 1363 (Sinie Vody) diyormuş (önceki ajan beyanı, bu turda okunmadı); iki görüş, karar verilmedi. Hakemli ikinci kaynak önerilir.
+- okunmadı · 1481-12-11 III. Charles'ın ölümüyle Provence XI. Louis'ye geçti (Aix, M
+- okunmadı · 1451-01-01 Bregenz kontluğunun ilk yarısı Habsburg Avusturya'sına satıl
+- okunmadı · 1317-01-09 V. Philippe Reims'te taç giydi
+- okunmadı · 1328-05-29 VI. Philippe (Valois) Reims'te taç giydi
+- okunmadı · 1194-01-01 Wiener Neustadt Babenberg dükü V. Leopold tarafından Macar s
+- okunmadı · 1485-09-12 Tver Büyük Knezliği Moskova'ya katıldı — III. İvan şehri ald
+- okunmadı · 1388-09-28 Nice, Savoya Kontu VII. Amedeo'ya teslim oldu
+- bulunamadı: Sayfa açılmadı/aranmadı: Rostov 1474, Nijni Novgorod 1392, Smolensk 1404, Polotsk 1307, Bolotovo 1348, Champagne/Troyes 1284, Lyon 1312, Calais 1360, Paris 1420 ve 1436, Arras 1477, Senlis 1493 (aramada 23 Mayıs 1493 geçti, akademik sayfa okunmadı), Louis X/Philippe V/Philippe VI ölüm günleri (1314-
+- bulunamadı: Zadar 1358-02-18: hr.wikipedia 'Zadarski mir' sayfası açıldı ve 18 Şubat 1358 verdi, ama Vikipedi dayanak olamaz; Hrvatska enciklopedija açılmadı. Sayfada Dubrovnik adıyla Venedik feragati geçmedi (Dubrovnik ayrı Višegrad Antlaşması ile otonom) — madde başlığı 'Macaristan himayesi' gözden geçirilmel
+- bulunamadı: h-france PDF okunamadı; Deutsche Biographie sfz14253 404.
+- 1422-10-21 VI. Charles öldü; VII. Charles Fransa kralı ilan edildi: Ölüm günü 21 Ekim 1422 doğrulandı. İlan yeri/günü bu sayfada yok; Larousse sayfası yalnız yıl veriyor.
+- 1348-06-09 Napoli Kraliçesi Giovanna, Avignon'u papa VI. Clemens'e satt: 9 Haziran 1348 DBI ile doğrulandı.
+- 1318-07-25 I. Jacopo da Carrara Padova'nın koruyucu ve valisi seçildi: : Wikipedia dayanağı yerine DBI; 25 Temmuz 1318 gün teyitli.
+- 1016-04-23 II. Æthelred ölür; Cnut (Canute) Southampton'da toplanan ile: Æthelred 23 Nisan 1016 Londra'da öldü (teyitli). Cnut'un seçilmesi AYNI GÜN değil: kaynak 'Mayıs sonundan önce' diyor, Southampton adı geçmiyor; Noel 1016'da Londra'da tüm soylular tanıdı. 'Southampton' ve seçimin 23 Nisan'a bağlanması yalnız 1911 Britannica'da; akademik kaynakta desteklenmedi. Öneri: ölüm 23 Nisan gün, Cnut seçimi ay hassasiyeti (1016-05), yer iddiası atılsın.
+- 1032-01-01 Burgonya (Arles) Krallığı'nın son kralı III. Rudolph ölür; ü: Rudolf III ölümü Eylül 1032. Fiilî devralma: Konrad 2 Şubat 1033'te Peterlingen'de seçilip taçlandı (ADB), Odo II de Champagne direnişi yıllarca sürdü; 1027 Basel antlaşması halef olarak tanımıştı. Basel için toprak geçişi 1032-09'dan çok 1033 sonrası.
+- 1032-01-01 Burgonya (Arles) Krallığı'nın son kralı III. Rudolph ölür; ü: Madde 39 ile aynı.
+- 1032-01-01 Burgonya (Arles) Krallığı'nın son kralı III. Rudolph ölür; ü: Madde 39 ile aynı.
+- 1066-01-05 Edward Confessor ölür; Harold Godwinson Londra'da kral seçil: 5 Ocak 1066 ölüm teyitli; taç giyme cenaze günü (6 Ocak) - sayfa tarihi yazmıyor. Yer (Westminster) sayfada yok.
+- 1066-12-25 Norman dükü William Westminster'de İngiltere kralı olarak ta: Noel 1066 teyitli; 'Westminster' bu sayfada yazmıyor.
+- 1069-01-01 Kuzey isyanı: Danimarkalılar ve İngilizler York'u ele geçiri: 1069 Yorkshire ayaklanması ve 1069-70 kışı tahribi teyitli; 'Danimarkalılar York'u alır' ayrıntısı okunmadı.
+- 1075-01-01 Papa VII. Gregorius, ruhban atamasında lay investiture'ü (di: ÖNEMLİ: NDB, 1075'te genel leyk investitür yasağının 'schlecht bezeugt und sehr zweifelhaft' olduğunu söylüyor (1075 Fastensynode yalnız bazı piskoposları askıya aldı). Güvenilir: Mart 1080 Fastensynode'de investitür yasağı/kanonik seçim kuralları yenilendi. Madde '1075'te yasaklar' diye yazılırsa NDB ile çelişir; öneri: tartışmalı beyanı ya da 1080'e bağlama. Karar koordinatörde.
+- 1080-03-07 Papa VII. Gregorius IV. Henry'yi ikinci kez aforoz edip taht: Ay (Mart 1080), aforoz+tahttan indirme+Rudolf'un tanınması teyitli. 7 Mart günü okunmadı.
+- 1111-04-13 V. Henry Roma'da imparator tacı giyer; investiture sorunu kı: 13 Nisan 1111 doğru.
+- 1152-01-01 Henry (II) Aliénor'la evlenerek Poitou, Guyenne ve Gascogne': Evlilik günü 18 Mayıs 1152 sayfada geçiyor (okuma özetinden; orta güven). Sayfa Poitou/Guyenne/Gascogne'u ayrı saymıyor, yalnız 'duchy of Aquitaine' diyor.
+- 1154-10-25 Kral Stephen ölür; Henry II hiç direnişle karşılaşmadan İngi: 25 Ekim 1154 ölüm; Henry 19 Aralık 1154'te Westminster'de taçlandı.
+- 1155-06-18 I. Friedrich Barbarossa Roma'da imparator tacı giyer: 18 Haziran 1155 doğru.
+- 1157-01-01 Besançon Diyeti: Burgonya soyluları Friedrich'e bağlılık sun: Diyet Eylül-Ekim 1157; gün yok. Yıl doğru.
+- 1176-05-29 Legnano Savaşı: Lombardiya Birliği I. Friedrich'i yener: Atlas 29 Mayıs, Treccani teyit eder. NDB sayfasındaki 'am 29.3.1176 bei Legnano' büyük olasılıkla baskı hatası; Mayıs 29 kalsın, NDB çelişkisi ic_not'a yazılsın.
+- 1177-01-01 Venedik Antlaşması: Friedrich Barbarossa ile Papa III. Alexa: NDB: Venedik Barışı'nın onay günü 1 Ağustos 1177. Treccani (yalnız arama özeti) 21 Temmuz 1177 yazıyor, sayfada okunamadı. Gün çelişkili; gün seçilmeyecekse yıl bırakılsın.
+- 1183-01-01 Konstanz Antlaşması: Friedrich Lombardiya Birliği ile kalıcı: Konstanz Barışı 25 Haziran 1183; ön anlaşma Piacenza 30 Nisan 1183.
+- 1201-01-01 Neuss Kapitülasyonu: IV. Otto papalık toprakları üzerindeki : NDB: Neuss Eidi ve Innozenz'in tanıması 1200/01 yılbaşı; ADB: tanıma 1 Mart 1201, Köln'de koruma yemini belgesi 8 Mayıs 1201. Yıl 1201 (veya 1200/01) kalabilir. İçerik NDB'de 'Mathildische Gut' (Kuzey İtalya); 'Radicofani-Ceperano arası bütün bölge' yalnız 1911 Britannica'da.
+- 1204-01-01 Philippe Auguste Normandiya'yı fetheder: İngiltere ile 1106': Normandiya 1204 ve 1106 birliği teyitli. 'Maine, Touraine, Anjou, Poitou 1204-1205'te' akademik sayfada OKUNMADI (encyclopedia.com Philip II girişi 1207'de Poitou'da savaşın sürdüğünü söyler).
+- bulunamadı: 31 (VIII. Charles 1498-04-07): hiçbir akademik sayfa açılmadı - okunmadı
+- bulunamadı: 34 (Zürich 1351-05-01): HLS sayfaları 403 verdi; gün okunmadı. Yalnız arama özetinde 'Zürich 1351'de Waldstätte+Luzern ile ittifak' görüldü, 1 Mayıs doğrulanamadı
+- bulunamadı: 35, 36 (Taranto, Brindisi 1128): Treccani DBI Ruggero II ve EI Ruggiero II açıldı, Taranto/Brindisi'nin 1128'de geçişini anlatmıyor; DBI Ruggero II Brindisi'nin Tancredi di Conversano eliyle teslimini 1132'de veriyor ('gli consegnò Brindisi e le città da lui dominate in cambio di denaro'); DBI Boemo
+- bulunamadı: 38 (Capet Burgonya Dükalığı 1032): okunmadı
+- bulunamadı: 44 (Exeter 1068): encyclopedia.com William I sayfasında yok - okunmadı
+- bulunamadı: 53 (Toulouse Raymond V homage 1173): encyclopedia.com Henry II sayfasında yok - okunmadı
+- bulunamadı: 59 (Touraine 1204): okunmadı
+- 1214-01-01 Ren Pfalzı II. Friedrich tarafından Wittelsbach'lı Otto'ya v: Tarih olayın kendisini (Friedrich II.'nin Otto'ya Pfalz'ı lehen vermesi) tarihler; ADB 'Anfang October 1214' der, NDB yalnız 1214. 'Anfang' günü vermez, yıl hassasiyeti korunur (ay Ekim bilgisi eklenebilir). Britannica 1911 yerine bu kaynak yazılmalı. NDB 1228'i de anar (Otto'nun Schwertleite'si, babanın vekilliğinin sonu) - ayrı olaydır.
+- 1218-01-01 Simon de Montfort Toulouse'u kuşatırken ölür: Yıl 1218 doğrulandı. Gün: arama özetlerinde Larousse/Universalis 25 Haziran 1218, bir Universalis notu 22 Temmuz diyor - sayfa olarak OKUNMADI, gün önerilmedi. Tarih kuşatmada öldürülmeyi (olay) tarihler.
+- 1229-01-01 Paris (Meaux-Paris) Antlaşması: VII. Raymond fieflerinin büy: Yıl 1229 doğrulandı; Larousse sayfası gün vermez. Gün 11/12/13 Nisan arama özetlerinde çelişkili, sayfa okunmadı; devletler.js'teki 1229-04-12 teyitsiz kalır. Tarih antlaşmayı (olay) tarihler. Larousse 'kesin ilhak'ı 1271'e bağlıyor; 1229'da fiilî kayıp yalnız fiefler.
+- 1266-01-01 Norveç kralı Man Adası ve Hebridleri 4000 mark karşılığında : Gün 2 Temmuz 1266 antlaşmanın imzasının (olayın kendisi) tarihidir. Kaynak: 4 taksit x 4000 mark + sonsuza 100 mark yıllık haraç; Norveç 'Western Islands' ve Man üzerindeki egemenliği bırakır. Egemenlik devri 1266; Man'da fiilî İskoç hakimiyeti sonra (atlas notu 1275, ben okumadım). Kaynak Peel/Iona/Castletown'u adıyla anmaz, kapsam 'Western Islands + Man'.
+- 1266-01-01 Norveç kralı Hebridleri ve Man'ı 4000 mark karşılığında İsko: Gün 2 Temmuz 1266 antlaşmanın imzasının (olayın kendisi) tarihidir. Kaynak: 4 taksit x 4000 mark + sonsuza 100 mark yıllık haraç; Norveç 'Western Islands' ve Man üzerindeki egemenliği bırakır. Egemenlik devri 1266; Man'da fiilî İskoç hakimiyeti sonra (atlas notu 1275, ben okumadım). Kaynak Peel/Iona/Castletown'u adıyla anmaz, kapsam 'Western Islands + Man'.
+- 1266-01-01 Norveç kralı Hebridleri 4000 mark karşılığında İskoçya'ya de: Gün 2 Temmuz 1266 antlaşmanın imzasının (olayın kendisi) tarihidir. Kaynak: 4 taksit x 4000 mark + sonsuza 100 mark yıllık haraç; Norveç 'Western Islands' ve Man üzerindeki egemenliği bırakır. Egemenlik devri 1266; Man'da fiilî İskoç hakimiyeti sonra (atlas notu 1275, ben okumadım). Kaynak Peel/Iona/Castletown'u adıyla anmaz, kapsam 'Western Islands + Man'.
+- 1268-10-29 Konradin Napoli'de idam edilir: Hohenstaufen erkek soyu söne: Tarih idamın kendisidir; atlas tarihi 1268-10-29 DOĞRU. Britannica 1911 yerine DBI yazılmalı. DBI resmî yargılama yapılmadığını ve kaynakların çelişkili olduğunu da belirtir (arama özeti); Piazza del Mercato, Napoli yeri uyumlu.
+- 1276-11-21 Viyana Barışı: Bohemya kralı II. Ottokar Avusturya, Steierma: Gün 21 Kasım 1276 antlaşmanın (olayın kendisi) tarihidir; ADB gün verir, NDB içeriği verir -> atlastaki 'gün teyitsiz' notu kalkar. Dikkat: Eger de verilmiştir; Windische Mark Rudolf maddesinde ek olarak geçiyor (arama özeti, okunmadı).
+- 1015-01-01 Kral II. Robert, on üç yıl süren savaştan sonra Burgonya Dük: ÇELİŞKİ, karar verilmedi: Larousse fetih 1003-1016, 1015-16'da dükalığı oğlu Henri'ye emanet eder; Universalis Robert'in veraset kavgasını 1005'te kazandığını, Kapet dükalığının 1016'dan itibaren kurulduğunu söyler. Hiçbiri '1015'te 13 yıllık savaş sonunda Fransa tacına katıldı' demez; 1015 en iyi ihtimalle Henri'ye verilme yılıdır (taca katılma değil). Madde metni ve 1015 tarihi yeniden düşünülme
+- 1030-01-01 Aversa Kontluğu kuruldu: Rainulf Drengot Norman kontu oldu: 1030 doğru; tarih Sergio IV'ün Rainulfo'ya Aversa çevresini investitürle vermesidir (olayın kendisi). Britannica 1911 yerine DBI. DBI ilk kalıcı Norman yerleşiminin doğduğunu da söyler (arama özeti). Gün yok.
+- 1030-01-01 Napoli Dükü IV. Sergius Aversa'yı Norman Rainulf'a verdi; Gü: Madde 71 ile aynı olay; kaynağı Britannica yerine DBI yap. 1030 doğru (investitür olayı).
+- 1038-01-01 Guaimario amcasından Capua'yı alıp Amalfi, Sorrento ve Gaeta: Madde bileşik ve yanlış: Guaimario Capua'yı 'amcasından' almadı; İmparator II. Conrad Pandolfo IV'ü kovdu ve Guaimario'yu Mayıs 1038'de Capua prensliğine investi etti (Rainulfo'ya da aynı olayda Aversa kontluğu investi edildi). Amalfi 1039'da, Sorrento 1038-42 arası (Schipa 1038-39, DBI 1042 civarı), Gaeta 1042 sonrası Rainulfo'ya verildi - tek '1038' yıllı maddede toplanamaz. Öneri: Capua kısmı 1
+- 1084-03-24 Roma IV. Henry'ye teslim olur; Antipapa III. Clemens (Guiber: 24 Mart günü NDB/ADB'de YOK: NDB 'März 1084'te Roma'ya girdi, ADB 'Ende März 1084' şehir kapılarını açtı. 31 Mart 1084 (Paskalya) FARKLI bir olayı, imparatorluk taç giymesini tarihler (teslimi değil). Madde üç olayı (teslim, Clemens'in tahta çıkarılması, taç) tek güne bağlıyor; teslim günü teyitsiz -> kesinlik ay; taç 31 Mart ayrı yazılabilir. ADB: Gregor Engelsburg'a sığındı, Normanlarla Roma'dan
+- 1204-06-24 Rouen kırk günlük direnişten sonra Philippe Auguste'e teslim: 24 Haziran 1204 Rouen'in teslimidir (olayın kendisi); atlas tarihi DOĞRU, Britannica yerine Larousse. Tek kaynak; ikinci bağımsız kaynakla çapraz teyit edilmedi. Atlas zincirindeki 1204-01-01 Rouen geçişi bu güne alınmalı (kronolojiyle senkron).
+- 1147-10-25 Portekiz Kralı Afonso Henriques Lizbon'u haçlıların yardımıy: ÇELİŞKİ, karar verilmedi: New Catholic Enc. teslim = 25 Ekim 1147 (okundu); RAH Historia Hispánica kronolojisi 23 Ekim (yalnız arama özeti; sayfa WebFetch'te boş döndü, okunmadı); atlas 24 Ekim kaynaksız. Tarih Lizbon'un teslimini (olay) tarihler. Üçüncü akademik kaynak aranmalı.
+- 1195-07-18 Ya'kūb el-Mansûr Alarcos'ta (Erek) Kastilya Kralı VIII. Alfo: TDV yalnız yıl verir (591/1195); 18 vs 19 Temmuz günü okunmadı. Kaynak sırasına göre İspanyol akademik kaynak (RAH/DBE sayfası WebFetch'te boş döndü) gerekir. TDV kaynak alanına eklenebilir; gün 'teyitsiz' kalmalı. Britannica yerine TDV.
+- 1212-07-16 Halife en-Nâsır, Las Navas de Tolosa'da (İkāb) Kastilya, Ara: TDV yalnız yıl verir (609/1212); 16 Temmuz günü okunmadı - gün teyitsiz. Tarih savaşın kendisini tarihler.
+- 1240-12-06 Batu Han Kiev'i alıp yağmaladı; Kiev Rus'u'nun sonu: İki bağımsız kaynak yalnız ay verir (Aralık 1240); 6 Aralık günü hiçbirinde yok (künye kaynaksız). Gün kaynaklı olmadığı için t=1240-12-01, kesinlik ay önerilir. Tarih Kiev'in alınıp yağmalanmasını (olay) tarihler.
+- 1239-10-18 Moğollar Çernigov'u yağmaladı: Gün 18 Ekim 1239 (EoU) doğrulandı, TDV 1239 yılını teyit eder (arama özetinden; Batu Han sayfası ayrıca açılmadı) -> atlas tarihi DOĞRU. Aynı cümlede Pereiaslav 3 Mart 1239 ayrı olay.
+- 1239-01-01 Danylo Kiev'i aldı ve voyvoda Dmytro'yu başına bıraktı: Yıl 1239 doğrudan yazılı değil: önceki cümle Halych'in 1238'de alınışı, bu cümle 'The next year' -> 1239 (kaynakta köşeli parantezle çıkarım). Yıl hassasiyeti uygun.
+- 1018-01-01 Polonya Kralı Bolesław Chrobry Alman ve Peçenek desteğiyle K: Kaynak zaten akademik, iki sayfa okundu; yıl 1018 doğru. TDV ay verir: Ağustos 1018 -> kesinlik 'ay' (t=1018-08-01) önerilebilir. Tarih Kiev'in alınışını (olay) tarihler.
+- 1019-01-01 Yaroslav Alta Nehri'nde Sviatopolk'u yenip Kiev tahtını geri: 1019 doğru; kaynak zaten EoU, sayfa teyidi yapıldı. Savaşın kendisinin tarihi.
+- 1026-01-01 Horodok Anlaşması: Yaroslav ile Mstislav Rus'u Dinyeper boyu: 1026 doğru. Sayfa yer adını 'Horodok' yazar. Anlaşmanın (olay) tarihi; 1024 Lystven yenilgisi ayrı olay.
+- 1015-07-15 Büyük Prens Vladimir Vyshhorod'da öldü: Tarih ÖLÜMÜ tarihler; atlas 1015-07-15 DOĞRU.
+- 1000-01-01 Althing, Hristiyanlığı resmî din olarak kabul etti: Yıl 1000 doğru (Althing kararı); worldhistory.org yerine SNL. Gün yok.
+- bulunamadı: 67 (Toulouse mirası 1271): okunmadı
+- bulunamadı: 74 (Amalfi 1131 II. Roger): okunmadı
+- bulunamadı: 76 (Carcassonne 1209), 77 (Simon Toulouse'a girer 1215): okunmadı - yalnız Britannica 1911'e dayanıyor
+- bulunamadı: 80 (Carcassonne/Béziers 1247 müsadere vs atlas 1240-10-01): okunmadı, çelişki açık
+- bulunamadı: RAH/DBE (historia-hispanica.rah.es, dbe.rah.es) WebFetch'te boş döndü: Alarcos/Las Navas/Lizbon günleri kaynaksız
+- bulunamadı: Montfort ölüm günü 25 Haziran vs 22 Temmuz 1218: yalnız arama özeti, sayfa okunmadı
+- bulunamadı: Paris/Meaux 1229 günü (11/12/13 Nisan): okunmadı

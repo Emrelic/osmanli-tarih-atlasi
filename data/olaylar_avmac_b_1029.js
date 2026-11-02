@@ -6,11 +6,11 @@
 // Ad alanı: /^OLAYLAR(_[A-Za-z0-9]+)?$/ → OLAYLAR_AVMAC_B_1029.
 
 window.OLAYLAR_AVMAC_B_1029 = [
-{ t:"1363-01-01", kesinlik:"yil", k:"siyaset", etiket:["toprak-kazanc","konu-siyasi"],
-  b:"Tirol Kontluğu Habsburglara geçti", gun:"1363", yer:"Innsbruck, Landeck — Tirol", yer_id:"Innsbruck", kisiler:"Margarete Maultasch, IV. Rudolf",
+{ t:"1363-01-26", kesinlik:"gun", k:"siyaset", etiket:["toprak-kazanc","konu-siyasi"],
+  b:"Tirol Kontluğu Habsburglara geçti", gun:"26 Ocak 1363", yer:"Innsbruck, Landeck — Tirol", yer_id:"Innsbruck", kisiler:"Margarete Maultasch, IV. Rudolf",
   d:"Tirol kontesi Margarete Maultasch, oğlu III. Meinhard'ın ölümünün (Ocak 1363) ardından ülkeyi Habsburg dükalarına bıraktı; Tirol savaşsız biçimde Habsburg ülkeler topluluğuna katıldı. Haritada Innsbruck ve Landeck bu yılda Tirol Kontluğu'ndan Habsburg Avusturya'ya geçer.",
-  ic_not_d:"Tiroler Landesarchiv, «Tirol – Habsburg 1363» (tirol.gv.at) ve Bundeskanzleramt «Gang der Geschichte: 1363» yılı teyit eder; 26 Ocak günü bu oturumda bulunamadı [yalnız yıl teyitli; gün teyitsiz]. Not: Discover Innsbruck, devri anlatan bir belgenin bugün sahte sayıldığını belirtir (hukukî dayanak tartışmalı, olgu — Habsburg hâkimiyeti — değil).",
-  kaynak:"bulunamadı (TDV) — Tiroler Landesarchiv «Tirol-Habsburg-1363» · Bundeskanzleramt «1363» · Britannica «Margaret Maultasch»", duygu:["📋"] },
+  ic_not_d:"Tiroler Landesarchiv, «Tirol – Habsburg 1363» (tirol.gv.at) ve Bundeskanzleramt «Gang der Geschichte: 1363» yılı teyit eder; 26 Ocak günü bu oturumda bulunamadı [yalnız yıl teyitli; gün teyitsiz]. Not: Discover Innsbruck, devri anlatan bir belgenin bugün sahte sayıldığını belirtir (hukukî dayanak tartışmalı, olgu — Habsburg hâkimiyeti — değil). · DUNYA-1102 hücre 4 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (bulunamadı (TDV) — Tiroler Landesarchiv «Tirol-Habsburg-1363» · Bundeskanzleramt) dayanak olamaz, değiştirildi. t 1363-01-01 → 1363-01-26. kesinlik yil → gun. NDB (Dopsch 2005) günü vermez: 'wenige Tage nach dem Tod Meinhards III. 1363 ... in Bozen'. Tiroler Landesarchiv: 'Ende Jänner 1363'. Gün ADB'ye dayanır, ikisiyle uyumlu; ikinci akademik kaynak (Baum 1994) önerilir. Belgenin sahteliği tartışması hukukî dayanağa ilişkin, olguya değil.",
+  kaynak:"ADB 29 (Alfons Huber), 'Rudolf IV., Herzog von Oesterreich' — deutsche-biographie.de/sfz74670.html — «Am 26. Januar 1363 übergab sie ihm und seinen Brüdern als ihren nächsten Verwandten das Land Tirol»", duygu:["📋"] },
 
 { t:"1526-10-23", k:"taht", etiket:["siyaset","konu-siyasi"],
   b:"I. Ferdinand Bohemya kralı seçildi — Habsburg Bohemya tacını aldı", gun:"23 Ekim 1526", yer:"Prag", yer_id:"Prag", kisiler:"I. Ferdinand",
