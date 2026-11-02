@@ -3,5 +3,5 @@
 // Tam havuz (data/donem_parcalar.js) ilk boyamadan SONRA arka planda iner.
 // Biçim: varint N · N delta indeks · sonra normal halka akışı.
 window.__PR_ON_GUN="1281-01-01";
-window.__PR_ON_SHA="d606f0214cf1040f62abdfd1335f31c538e2ff25661e2780e624cff71e236f75";
+window.__PR_ON_SHA="8dcf7a50db8a5e130381e78e2d88651513d750054c67ed2324fa5a4bc5f453ba";
 window.__PR_ON_B64="AgACggHyzgPE6wQrBCsCCQIjCFkWMRhjWBkgFx59vAF+fDImZCZ8AFgA1AEAAJoBAJIByAEAZABYoQEyJT4AZABkAGTIAWRkAGQ6KSoq+gEATAVKHxIrXhEmAJYBALwBAF4REhMAPbsBAG8lJSMAATdVTyUBAC8AUSUfIz19xwFjV6EBe0tXoQGnAQZFICkqExTHAQAVC7EBV/kBAAA=";
