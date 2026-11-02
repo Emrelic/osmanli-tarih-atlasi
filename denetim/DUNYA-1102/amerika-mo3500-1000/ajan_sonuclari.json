@@ -1,0 +1,237 @@
+{
+ "kunye": {
+  "teyit": [
+   {
+    "id": "olmek",
+    "f_eski": "-1199-01-01",
+    "t_eski": "-0399-01-01",
+    "f_oneri": "-1199-01-01",
+    "t_oneri": "-0399-01-01",
+    "kaynak_yeni": "Methner, Neutron Activation Analysis on Olmec Pottery, FAMSI raporu 96047 https://www.famsi.org/reports/96047/96047Methner01.pdf",
+    "alinti": "San Lorenzo had its greatest successes during the San Lorenzo phase of the Early Formative (1200-900 B.C.). ... La Venta ... Middle Formative period (800-400 B.C.)",
+    "teyit": "tek kaynak",
+    "not": "f (MÖ 1200) ve t (MÖ 400) FAMSI raporunun faz sınırlarıyla uyumlu (rapor 'La Venta ca. 1000-400 BC' de der). Kalibrasyon: Powis ve ark. 2011 (PNAS) San Lorenzo A ~1550-900 cal BC verir ama sayfa 403 verdi, okunmadı. Taylor 2009 (Radiocarbon 51) yalnız 'San Lorenzo >=3000 BP' der. Atlasın eski kaynakları Britannica/WHE; yerine FAMSI. Siyasi birim değil kültür.",
+    "degisiklik": false
+   },
+   {
+    "id": "chavin",
+    "f_eski": "-0899-01-01",
+    "t_eski": "-0199-01-01",
+    "f_oneri": "-0949-01-01",
+    "t_oneri": "-0399-01-01",
+    "kaynak_yeni": "Burger ve ark. 2019, Latin American Antiquity: Understanding the socioeconomic trajectory of Chavín de Huántar: a new radiocarbon sequence https://www.cambridge.org/core/journals/latin-american-antiquity/article/abs/understanding-the-socioeconomic-trajectory-of-chavin-de-huantar-a-new-radiocarbon-sequence-and-its-wider-implications/5D63DAC926FCA75CAFE0F044632CC28B",
+    "alinti": "Urabarriu Phase (950–800 cal BC) ... Chakinani Phase (800–700 cal BC) ... Janabarriu Phase (700–400 cal BC); established around 950 cal BC and abandoned by 400 cal BC",
+    "teyit": "tek kaynak",
+    "not": "Merkez alanı için f MÖ 950, terk MÖ 400. Atlas t MÖ 200 (Britannica) 'Chavín ufku/etki' için olabilir; alan terkiyle çelişir. Öneri f -0949, t -0399 (merkez-alan ölçütü); 'kültür/ufuk' ölçütü korunacaksa t açıklama alanında beyan edilmeli. Karar Emre'de.",
+    "degisiklik": true
+   },
+   {
+    "id": "hohokam",
+    "f_eski": "0300-01-01",
+    "t_eski": "1450-01-01",
+    "f_oneri": "0400-01-01",
+    "t_oneri": "1450-01-01",
+    "kaynak_yeni": "Archaeology Southwest, Who or What Is the Hohokam? https://www.archaeologysouthwest.org/free-resources/fact-sheets/who-or-what-is-the-hohokam/",
+    "alinti": "lived from about A.D. 400 to 1450",
+    "teyit": "tek kaynak",
+    "not": "Aynı kurum bir başka raporda Pioneer'ı 450-750 verir; NPS 300. Kaynaklar 300-450 arası oynar -> beyanlı yaklaşıklık. t 1450 doğrulandı ('few people still living after 1450 not Hohokam'). f 300 NPS'e dayanıyor, hakemli değil; öneri 400.",
+    "degisiklik": true
+   },
+   {
+    "id": "nazca",
+    "f_eski": "-0199-01-01",
+    "t_eski": "0599-01-01",
+    "f_oneri": "-0199-01-01",
+    "t_oneri": "0599-01-01",
+    "kaynak_yeni": "Conlee 2021, Latin American Antiquity (Nasca, AD 500-1450) https://www.cambridge.org/core/journals/latin-american-antiquity/article/impact-of-coastalhighland-interactions-and-population-movements-on-the-development-and-collapse-of-complex-societies-in-nasca-peru-ad-5001450/2D4644385516CB64B19DF6EC7921EF3A",
+    "alinti": "during the Middle Horizon (AD 650–1000), Nasca for the first time came under highland control",
+    "teyit": "okunmadı",
+    "not": "Nasca kültürünün başlangıcı/bitişi için doğrudan sayfa okunamadı. Conlee 2021: AD 650'den itibaren Nasca yüksek-ova (Wari) denetiminde -> t 599 ile çelişmez ama kanıtlamaz. Rink & Bartoll 2005 (Antiquity 79): çizgiler AD 400-650. Başlangıç MÖ 200 vs MS 1 (seramik tablo) tartışmalı. Uygulanmaz, yalnız listelenir.",
+    "degisiklik": false
+   },
+   {
+    "id": "moche",
+    "f_eski": "0001-01-01",
+    "t_eski": "0799-12-31",
+    "f_oneri": "0400-01-01",
+    "t_oneri": "0850-01-01",
+    "kaynak_yeni": "Koons ve ark. 2024, Quaternary International: Moche chronology of ancient Peru, Bayesian assessment of radiocarbon dates (cris.pucp.edu.pe kaydı)",
+    "alinti": "it began between the late 4th and early 6th centuries CE and lasted until the 9th century CE",
+    "teyit": "tek kaynak",
+    "not": "26 sitenin Bayes yeniden analizi: başlangıç MS ~350-520, bitiş MS 9. yy. Atlas f 0001 (Britannica 'History of Peru') bunun çok dışında. Öneri beyanlı yaklaşıklık: f 0400, t 0850; kaynak aralık verdiği için tek tarih keyfî - karar Emre'de. Geleneksel (Larco/Donnan-Castillo) 100-800 de var, ama Koons bunu daraltıyor.",
+    "degisiklik": true
+   },
+   {
+    "id": "maya-klasik",
+    "f_eski": "0250-01-01",
+    "t_eski": "0900-01-01",
+    "f_oneri": "0250-01-01",
+    "t_oneri": "0900-01-01",
+    "kaynak_yeni": "Sharer, 'Time of Kings and Queens', Expedition 54(1), 2012 https://www.penn.museum/sites/expedition/time-of-kings-and-queens/",
+    "alinti": "But the end of the 9th bak'tun in 830 CE was not recorded at either site",
+    "teyit": "okunmadı",
+    "not": "Klasik dönem sınırları 250-900 için açılan sayfada açık cümle yok (Martin & Grube 2008 açılamadı). Tikal son anıt ca. 869 (Calvin/FAMSI), 9. bak'tun sonu 830 Copán/Quiriguá'da kaydedilmedi (Sharer 2012) -> t 900 ile çelişmez. Britannica kaynaklı sınırlar akademik kaynakla kanıtlanamadı.",
+    "degisiklik": false
+   },
+   {
+    "id": "tikal-mutal",
+    "f_eski": "0090-01-01",
+    "t_eski": "0869-01-01",
+    "f_oneri": "0090-01-01",
+    "t_oneri": "0869-01-01",
+    "kaynak_yeni": "Calvin, Royal Dynasties revised (FAMSI, Martin & Grube 2008 temelli) http://www.famsi.org/mayawriting/calvin/royal_dynasties_iii.pdf",
+    "alinti": "YAX EHB XOOK (ca. AD 90) ... Dynastic title: Founder ... JASAW CHAN K'AWIIL II (ca. AD 869?) ... Stela 11",
+    "teyit": "çift teyit",
+    "not": "f: Calvin ca. AD 90, Sharer 2012 'around 100 CE' (Late Preclassic) -> beyanlı yaklaşıklık. t: son hükümdar ca. 869 (Stela 11). MÜKERRER: evet - tikal-mutul ile aynı polity (Mutal/Mutul = Tikal amblem-glif okuması), aynı f ve t yılı, aynı başkent. Gerekçe: ikisi de Tikal hanedanı; Calvin tek 'Mutal Tikal' listesi verir; ad farkı yalnız glif okuması. Birleştirme önerisi: tikal-mutul tutulsun (madde sayısı fazla), ya da tersi; öteki silinsin, kronoloji maddeleri devredilsin. Madde 0378-01-31 'Siyaj K'ak' geldi' -> 0378-01-16 olmalı (Stuart; UT Austin haberi), ölüm 15 Ocak 378 (Calvin).",
+    "degisiklik": false
+   },
+   {
+    "id": "tikal-mutul",
+    "f_eski": "0090-01-01",
+    "t_eski": "0869-08-13",
+    "f_oneri": "0090-01-01",
+    "t_oneri": "0869-01-01",
+    "kaynak_yeni": "Calvin, Royal Dynasties revised (FAMSI, Martin & Grube 2008 temelli) http://www.famsi.org/mayawriting/calvin/royal_dynasties_iii.pdf",
+    "alinti": "YAX EHB XOOK (ca. AD 90) ... JASAW CHAN K'AWIIL II (ca. AD 869?) ... Stela 11, Altar 11",
+    "teyit": "çift teyit",
+    "not": "MÜKERRER: evet (bkz. tikal-mutal). t gün 13 Ağustos 869: açılan kaynak yalnız 'ca. 869' verir, gün okunmadı -> t_oneri 0869-01-01 (gün Stela 11 Uzun Sayım 10.2.0.0.0 okumasından olabilir ama açılan sayfada yok). Kronoloji maddesi 'Yax Nuun Ayiin I tahta oturtuldu 0378-09-12' yanlış yıl: Calvin 12 Eylül 379 (8.17.2.16.17). Siyaj K'ak' 0378-01-31 -> 16 Ocak 378. 562: Kaan ittifakı Tikal'i yendi - Sharer 2012 'decisive victory in 562 CE' (Wak Chan K'awiil, 537-562).",
+    "degisiklik": true
+   },
+   {
+    "id": "zapotek-monte-alban",
+    "f_eski": "-0499-01-01",
+    "t_eski": "0700-01-01",
+    "f_oneri": "-0499-01-01",
+    "t_oneri": "0700-01-01",
+    "kaynak_yeni": "Feinman, Blanton, Nicholas 2021, 'The Emergence of Monte Albán' (Power from Below in Premodern Societies, Cambridge); Kowalewski ve ark. 2025, LAA 36(2) https://www.cambridge.org/core/journals/latin-american-antiquity/article/radiocarbon-database-offers-new-perspectives-on-ancient-oaxaca/AA89CF7C77F733C0CB0846BF46E58BD0",
+    "alinti": "San José Mogote was the primary center of the Valley of Oaxaca until the founding of Monte Albán at about 500 BC.",
+    "teyit": "beyanlı yaklaşıklık",
+    "not": "f MÖ ~500 doğrulandı (iki kaynak). t 700: Kowalewski 2025 Monte Albán IIIB-IV/Xoo evresini 'broadly AD 500-1000' verir, devlet çözülmesi 'geographically and temporally uneven', uzak merkezlerde yaklaşık AD 700. Winter/Joyce'a atfedilen AD 800 arama özetinde gördüm, sayfa açılmadı (okunmadı). Karar verilmedi.",
+    "degisiklik": false
+   },
+   {
+    "id": "toltek",
+    "f_eski": "0900-01-01",
+    "t_eski": "1150-01-01",
+    "f_oneri": "0900-01-01",
+    "t_oneri": "1150-01-01",
+    "kaynak_yeni": "Healan, Cobean, Bowsher 2021, Ancient Mesoamerica: Revised chronology and settlement history of Tula and the Tula region https://www.cambridge.org/core/journals/ancient-mesoamerica/article/revised-chronology-and-settlement-history-of-tula-and-the-tula-region/B82102468C38BAF62DB2E2FE72D72D9D",
+    "alinti": "An estimated end date of a.d. 1150 for the Tollan phase was originally proposed by Cobean, and later chronometric data still support it. (Cobean 1978: Tollan phase a.d. 900-1200/1250)",
+    "teyit": "çift teyit",
+    "not": "f 900 (Cobean 1978; Healan ve ark. Erken/Geç Tollan sınırı 1050) ve t 1150 doğrulandı; INAH + Healan ve ark. Faz sınırı, olay günü değil (atlasın kendi ic_not'u zaten böyle).",
+    "degisiklik": false
+   },
+   {
+    "id": "ata-pueblo",
+    "f_eski": "0850-01-01",
+    "t_eski": "1300-01-01",
+    "f_oneri": "0850-01-01",
+    "t_oneri": "1300-01-01",
+    "kaynak_yeni": "Crown & Wills 2018, Antiquity 92(364): The complex history of Pueblo Bonito and its interpretation https://www.cambridge.org/core/journals/antiquity/article/complex-history-of-pueblo-bonito-and-its-interpretation/9A65244579B48193A63A15B9A516A558",
+    "alinti": "construction of Pueblo Bonito began in the ninth century AD and continued into the early tenth century",
+    "teyit": "tek kaynak",
+    "not": "f 850 Chaco/Pueblo Bonito başlangıcıyla uyumlu (Crown & Wills: IX. yy; masonry odalar c. 850-925; yapı hiyatusu 975-1040). t 1300 (Mesa Verde terki) Britannica'dan; hakemli kaynakla okunmadı - 'Pueblo Bonito 14. yy'a kadar terk' (Crown & Wills) farklı bir olgu. t okunmadı.",
+    "degisiklik": false
+   },
+   {
+    "id": "tairona",
+    "f_eski": "0800-01-01",
+    "t_eski": "1600-01-01",
+    "f_oneri": "1000-01-01",
+    "t_oneri": "1600-01-01",
+    "kaynak_yeni": "Acevedo Gómez, Weber Scharff, García-Casco, Sáenz-Samper 2018, Latin American Antiquity: Placas aladas de las sociedades Nahuange y Tairona (100–1600 dC) https://www.cambridge.org/core/journals/latin-american-antiquity/article/abs/placas-aladas-de-las-sociedades-nahuange-y-tairona-1001600-dc-sierra-nevada-de-santa-marta-colombia-materia-prima-y-areas-de-procedencia/6F1D6454BFB05EC0A7B342E8C6772843",
+    "alinti": "during the chronological periods Nahuange (AD 100 to 1000) and Tairona (AD 1000 to 1600)",
+    "teyit": "tek kaynak",
+    "not": "Tairona dönemi AD 1000-1600 (Nahuange öncesi). Atlas f 800 popüler kaynaklara (Ciudad Perdida ~800) dayanıyor; başka çalışma Neguanje 200-1100 / Tairona 1100-1600 verir -> kaynaklar 1000-1100 arası oynar. Öneri f 1000, beyanlı. t 1600 fetih/direniş; sayfayla teyit edilmedi (ICANH 1599 isyanı kaynağı açılmadı).",
+    "degisiklik": true
+   },
+   {
+    "id": "wari",
+    "f_eski": "0600-01-01",
+    "t_eski": "0800-01-01",
+    "f_oneri": "0600-01-01",
+    "t_oneri": "1000-01-01",
+    "kaynak_yeni": "Reid ve ark. 2024, Latin American Antiquity (Wari obsidyen, Arequipa) https://www.cambridge.org/core/journals/latin-american-antiquity/article/obsidian-procurement-and-exchange-at-the-apogee-of-empire-wari-political-economy-in-arequipa-peru/DC553843E7DC856E7D1AAB5CAC074FA1 ; Conlee 2021 LAA",
+    "alinti": "the late Middle Horizon (ca. AD 800–1000) during the apogee of Wari imperialism ... Wari centers in Arequipa were abandoned by the end of the tenth century AD",
+    "teyit": "çift teyit",
+    "not": "t 800 yanlış: 800-1000 Wari'nin ZİRVESİ (Reid 2024), merkezler X. yy sonuna kadar terk edildi; Conlee 2021 Orta Ufuk AD 650-1000. t_oneri 1000-01-01 (yüzyıl hassasiyeti). f: güney Peru'da kolonizasyon 'mid-seventh century' (Reid 2024), Ayacucho'da VI. yy sonu (arama özeti, açılmadı) -> 0600 beyanlı yaklaşıklık, korunur.",
+    "degisiklik": true
+   }
+  ],
+  "bulunamadi": [
+   "Martin & Grube 2008 (Chronicle of the Maya Kings and Queens) açılamadı; Tikal verisi Calvin/FAMSI özetinden (onun kaynağı Martin&Grube)",
+   "Powis ve ark. 2011 PNAS (San Lorenzo kalibre) 403; Taylor 2009 yalnız ham 14C",
+   "Nazca f/t için doğrudan okunan sayfa yok (Conlee PDF'inin 28982 karakteri okunmadı)",
+   "Tairona: Giraldo 2010 / Oyuela-Caycedo / Langebaek açılmadı"
+  ]
+ },
+ "madde": {
+  "denetim": [
+   {
+    "t": "-0524-01-01",
+    "b": "Memphis (Men-nefer / Mit Rahina): Ahamenis Misir'i (27. Hanedan, 1. Pers egemenligi) dönemi başlar",
+    "karar": "duzelt",
+    "t_oneri": "",
+    "gun_oneri": "",
+    "kesinlik_oneri": "",
+    "kaynak_yeni": "Encyclopaedia Iranica, EGYPT i. Persians in Egypt (iranicaonline.org/articles/egypt-i/) - sayfa 403, yalnız arama özeti",
+    "alinti": "",
+    "teyit": "okunmadı",
+    "not": "TARİH: MÖ 525 Pers fethi (-0524) standart (Iranica özeti: 525 BCE Cambyses, Memphis alınması); sayfa açılamadı. ASIL HATA yer eşlemesi: odak_yer 'Memphis (Chickasaw Bluffs)' = Tennessee Memphis'i; madde Mısır Memphis'i (Men-nefer/Mit Rahina, Pleiades) olmalı. Düzeltme: odak_yer Mısır Memphis'i."
+   },
+   {
+    "t": "-0401-01-01",
+    "b": "Memphis (Men-nefer / Mit Rahina): sahipsiz aralık dönemi sona erer",
+    "karar": "duzelt",
+    "t_oneri": "",
+    "gun_oneri": "",
+    "kesinlik_oneri": "",
+    "kaynak_yeni": "Ahameniş Mısır sonu: Amyrtaios isyanı 405/404 MÖ (Britannica/Wikipedia özetleri; akademik sayfa açılamadı)",
+    "alinti": "",
+    "teyit": "okunmadı",
+    "not": "Aynı yer hatası: odak_yer 'Memphis (Chickasaw Bluffs)' (Tennessee). MÖ 402 (-0401) gap bitişi için akademik kaynak okunamadı: Mısır bağımsızlığı 404 (Amyrtaios), Memphis'in kontrolü 401/399 civarı tartışmalı -> tarih doğrulanmadı."
+   },
+   {
+    "t": "-1149-01-01",
+    "b": "Nippur: sahipsiz aralık dönemi sona erer",
+    "karar": "duzelt",
+    "t_oneri": "",
+    "gun_oneri": "",
+    "kesinlik_oneri": "yuzyil",
+    "kaynak_yeni": "CDLI Nippur maddesi (cdli.ox.ac.uk/wiki/nippur_mod._nuffar) - bot engeli, açılmadı; Grooms, Ward & Kidder 2023 Antiquity (Poverty Point c. 3600-3000 cal BP) https://www.cambridge.org/core/journals/antiquity/article/convergence-at-poverty-point-a-revised-chronology-of-the-late-archaic-lower-mississippi-valley/121431E2E3469A819185F44BF7AB81EA",
+    "alinti": "Most chronological models propose similar occupation spans (c. 3600–3000 cal BP)",
+    "teyit": "tek kaynak (yalnız Poverty Point yarısı)",
+    "not": "yer alanı 'Nippur / Poverty Point' iki ayrı yerin birleşmesi (Irak Nippur + Louisiana Poverty Point): iki ayrı kayıt olmalı. Poverty Point: iskân c. 3600-3000 cal BP = MÖ ~1650-1050 -> -1149 (MÖ 1150) kesinlik yuzyil olarak makul. Nippur: Kassit sonu MÖ 1155 (orta kronoloji), Elam yağması 13. yy sonu, CDLI özeti 12. yy ortası sonrası uzun ihmal der -> Nippur için aynı yıl doğrulanmadı."
+   },
+   {
+    "t": "0550-01-01",
+    "b": "Teotihuacan: sahip dönemi sona erer — Teotihuacan Şehir Devleti",
+    "karar": "kaynak-ekle",
+    "t_oneri": "",
+    "gun_oneri": "",
+    "kesinlik_oneri": "yuzyil",
+    "kaynak_yeni": "Cowgill, Ancient Teotihuacan (Cambridge UP 2015), böl. 9 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/21338750E61C3AE3BCE97A8B4BB269D6/9781139046817c9_p233-244_CBO.pdf/interesting_times_teotihuacan_comes_apart_and_a_new_story_begins_550_ce_and_after.pdf",
+    "alinti": "By 550 CE or perhaps a little earlier, the population of the city seems to have begun to decline ... around 600/650 CE, major structures ... were burned.",
+    "teyit": "tek kaynak",
+    "not": "ÇELİŞKİ (karar verilmedi): Cowgill - nüfus düşüşü ~550, yanma 600/650; Manzanilla (LAA 2026 raporu, arama özeti) - iç isyan ve yangın ~550-570. t 550 'düşüşün başlangıcı' olarak savunulur, 'devletin sonu' olarak savunulamaz; yanma tarihi 550 mi 600/650 mi tartışmalı. Kaynak yüzyıl hassasiyetiyle eklenmeli."
+   },
+   {
+    "t": "0700-01-01",
+    "b": "Monte Albán: sahip dönemi sona erer — Zapotek Devleti (Monte Alban)",
+    "karar": "kaynak-ekle",
+    "t_oneri": "",
+    "gun_oneri": "",
+    "kesinlik_oneri": "yuzyil",
+    "kaynak_yeni": "Kowalewski ve ark. 2025, LAA 36(2) https://www.cambridge.org/core/journals/latin-american-antiquity/article/radiocarbon-database-offers-new-perspectives-on-ancient-oaxaca/AA89CF7C77F733C0CB0846BF46E58BD0",
+    "alinti": "Monte Albán IIIB-IV/Xoo Phase, broadly AD 500–1000",
+    "teyit": "tek kaynak",
+    "not": "t 700 faz ucu: MA IIIB-IV evresi 'broadly AD 500-1000'; devlet çözülmesi düzensiz, uzak merkezlerde ~AD 700. Winter/Joyce: ~AD 800 (arama özeti, sayfa açılmadı). İki görüş yazıldı, karar verilmedi."
+   }
+  ],
+  "eksik": [],
+  "bulunamadi": [
+   "Iranica Egypt i (403), CDLI Nippur (bot engeli), Powis 2011 PNAS (403)",
+   "Memphis -0524/-0401 ve Nippur maddeleri Amerika hücresine yer-adı homonimi yüzünden düşmüş (Memphis TN, Poverty Point)"
+  ]
+ }
+}

@@ -236,7 +236,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
-   "Memphis (Chickasaw Bluffs)"
+   "Memphis"
   ]
  },
  {
@@ -1033,7 +1033,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
-   "Memphis (Chickasaw Bluffs)"
+   "Memphis"
   ]
  },
  {
@@ -1061,7 +1061,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [
-   "Memphis (Chickasaw Bluffs)"
+   "Memphis"
   ]
  },
  {
@@ -1303,7 +1303,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
   "gun": "MÖ 1150",
   "yer": "Nippur / Poverty Point",
   "d": "Nippur noktalarının s: dizisinde bu uç, sahip künyenin (sahipsiz aralık) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye kaynakları data/devletler.js'te. Ayrı tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2).",
-  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js",
+  "kaynak": "künye __BOSLUK__ — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js", "ic_not_d":"DUNYA-1102 hücre 19-21 (KASA, 2 Kasım 2026): teyit tek kaynak (yalnız Poverty Point yarısı). yer alanı 'Nippur / Poverty Point' iki ayrı yerin birleşmesi (Irak Nippur + Louisiana Poverty Point): iki ayrı kayıt olmalı. Poverty Point: iskân c. 3600-3000 cal BP = MÖ ~1650-1050 -> -1149 (MÖ 1150) kesinlik yuzyil olarak makul. Nippur: Kassit sonu MÖ 1155 (orta kronoloji), Elam yağması 13. yy sonu, CDLI özeti 12. yy ortası sonrası uzun ihmal der -> Nippur için aynı yıl doğrulanmadı.",
   "kaynak_turu": "yazili",
   "kesinlik": "yil",
   "odak_yer": [

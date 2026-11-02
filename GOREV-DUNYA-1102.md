@@ -194,9 +194,10 @@ G — Renk ve bölge (senin işin değil)
 | 14 | Afrika MÖ 500–MS 500 | **bitti** — 18 künye · 12 yerleşim · 58 madde; yasak kaynaklı 6 künye + 13 madde | künye 6 kaynak + 2 tarih (numidia f MÖ 201, mauretania t MS 40); 13 madde kaynak/beyan (Perseus) | (bu push) |
 | 15–16 | Afrika 500–1000 · 1000–1500 | **bitti** — yasak kaynaklı 3+7 künye, 1+4 madde | künye 6 kaynak + 3 tarih (ganiyeler f/t, tunus-benihorasan f — TDV); 4 madde kaynak/beyan | (bu push) |
 | 17 | Afrika 1500–1800 | **bitti** — yasak kaynaklı 11 künye + 7 madde | künye 9 kaynak + 1 tarih (akwamu t 1731, UNESCO GHA V); 7 madde | (bu push) |
-| 18 | Afrika 1800–2000 | sürüyor — yasak kaynaklı 82 künye + 43 madde | parti A: 33 künye kaynak; rif-cumhuriyeti t 1926-05-25 (künye+yerleşim birlikte, TDV) | parti A (bu push) |
+| 18 | Afrika 1800–2000 | **bitti** (birinci geçiş) — yasak kaynaklı 82 künye + 43 madde | parti A: 33 künye kaynak; rif-cumhuriyeti t 1926-05-25 (künye+yerleşim birlikte, TDV) · parti B: 24 künye kaynak + 24 madde kaynak/beyan, 0 tarih (oranj f 1900-05-28, katanga t 1963-01-15 önerileri tek kaynak, uygulanmadı → bekleyen); 19 madde okunmadı | A 24b6288ba · B (bu push) |
 | — | Kırılma taşıma işi | ayrı oturum `kirilma-tasima` (Emre onayı, 2 Kasım): kırılma+madde+künye birlikte taşınacak kalemler | | |
-| 19–24 | Amerika (6 dilim) | bekliyor | | |
+| 19–21 | Amerika MÖ 3500–MS 1000 | **bitti** (birinci geçiş) — 13 künye + 5 madde denendi | künye 11 kaynak + 3 tarih (chavin -0949/-0399, wari t 1000 — çift teyit, tikal-mutul t 869); Tikal künye-içi günleri (Siyaj K'ak' 378-01-16, Yax Nuun Ayiin I 379-09-12); 3 Mısır maddesinin Memphis TN odak hatası düzeldi. hohokam/moche/tairona önerileri tek kaynak, uygulanmadı → bekleyen | (bu push) |
+| 22–24 | Amerika 1000–1500 · 1500–1800 · 1800–2000 | envanter hazır, araştırma bekliyor | | |
 | 25–30 | Avustralya ve Okyanusya (6 dilim) | bekliyor | | |
 
 ## girdi.py değişikliği gereken (tuz — dokunulmaz, liste)

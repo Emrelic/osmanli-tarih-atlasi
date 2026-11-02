@@ -175,7 +175,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "gun": "MS 550 (dönem ucu)",
   "yer": "Teotihuacan",
   "d": "Teotihuacan noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Teotihuacan Şehir Devleti) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
-  "kaynak": "künye teotihuacan — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak": "Cowgill, Ancient Teotihuacan (Cambridge UP 2015), böl. 9 https://www.cambridge.org/core/services/aop-cambridge-core/content/view/21338750E61C3AE3BCE97A8B4BB269D6/9781139046817c9_p233-244_CBO.pdf/interesting_times_teotihuacan_comes_apart_and_a_new_story_begins_550_ce_and_after.pdf — «By 550 CE or perhaps a little earlier, the population of the city seems to have begun to decline ... around 600/650 CE, major structures ... were burned.»", "ic_not_d":"DUNYA-1102 hücre 19-21 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye teotihuacan — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak:) dayanak olamaz, değiştirildi. ÇELİŞKİ (karar verilmedi): Cowgill - nüfus düşüşü ~550, yanma 600/650; Manzanilla (LAA 2026 raporu, arama özeti) - iç isyan ve yangın ~550-570. t 550 'düşüşün başlangıcı' olarak savunulur, 'devletin sonu' olarak savunulamaz; yanma tarihi 550 mi 600/650 mi tartışmalı. Kaynak yüzyıl hassasiyetiyle eklenmeli.",
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil",
   "odak_yer": [
@@ -189,7 +189,7 @@ window.OLAYLAR_ARKEOLOJI_GECIS = [
   "gun": "MS 700 (dönem ucu)",
   "yer": "Monte Albán",
   "d": "Monte Albán noktalarının s: sahiplik dizisinde bu uç, sahip künyenin (Zapotek Devleti (Monte Alban)) f/t sınırından ya da nokta kur:/bit: ucundan gelir; künye ve kaynakları data/devletler.js'te. Ayrı bir tarihsel olay DEĞİL, dönem ucu kaydıdır (Değişmez 2 kapsamı).",
-  "kaynak": "künye zapotek-monte-alban — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: alanı",
+  "kaynak": "Kowalewski ve ark. 2025, LAA 36(2) https://www.cambridge.org/core/journals/latin-american-antiquity/article/radiocarbon-database-offers-new-perspectives-on-ancient-oaxaca/AA89CF7C77F733C0CB0846BF46E58BD0 — «Monte Albán IIIB-IV/Xoo Phase, broadly AD 500–1000»", "ic_not_d":"DUNYA-1102 hücre 19-21 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (künye zapotek-monte-alban — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js) dayanak olamaz, değiştirildi. t 700 faz ucu: MA IIIB-IV evresi 'broadly AD 500-1000'; devlet çözülmesi düzensiz, uzak merkezlerde ~AD 700. Winter/Joyce: ~AD 800 (arama özeti, sayfa açılmadı). İki görüş yazıldı, karar verilmedi.",
   "kaynak_turu": "yazili",
   "kesinlik": "yuzyil",
   "odak_yer": [

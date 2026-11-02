@@ -170,11 +170,11 @@
     },
     {
      "yol": "data/devletler.js",
-     "sha": "1bc8acd77bc52da9",
-     "bayt": 6056931
+     "sha": "f25be63ebe38dd27",
+     "bayt": 6076703
     }
    ],
-   "bayt": 6250909
+   "bayt": 6270681
   },
   {
    "paket": "data/paket_06.js",
@@ -289,8 +289,8 @@
     },
     {
      "yol": "data/kronoloji_sinir_afrika.js",
-     "sha": "662a8352d76e3fb6",
-     "bayt": 22537
+     "sha": "d03494eb4e8ffb92",
+     "bayt": 23458
     },
     {
      "yol": "data/kronoloji_sinir_asya.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1107175
+   "bayt": 1108096
   },
   {
    "paket": "data/paket_10.js",
