@@ -86,8 +86,8 @@ window.YERLESIMLER_0EE15E = [
 //         (Lima/Havana ile aynı tier).
 
 { ad:"Panamá (Panama City)", tur:"sehir", lat:8.9824, lon:-79.5199, g:1, k:1, kur:"1519-08-15",
-  s:[{f:"1519-08-15",t:"1542-11-20",d:"ispanya"},
-     {f:"1542-11-20",t:"1821-11-28",d:"ispanyol-peru"},
+  s:[{f:"1519-08-15",t:"1542-11-20",d:"ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Panamá kuruldu — Büyük Okyanus kıyısındaki ilk Avrupa şehri» (1519-08-15, yer kolu) kaynağı — Carl Ortwin Sauer, The Early Spanish Main (Berkeley: University of California Press, 1966) — Karayip-Darién evresinin standart incelemesi · hassasiyet: GÜN · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1542-11-20",t:"1821-11-28",d:"ispanyol-peru",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Peru Genel Valiliği resmen kuruldu» (1542-11-20, taraf kolu) kaynağı — Estudios Humanísticos (Dialnet, 2011) makalesi: 'Real Cédula del 20 de noviembre de 1542' ile Carlos I Peru Genel Valiliği'nin kurulmasına karar verdi (Barselona, Leyes Nuevas ile aynı gün); makale künyesi: https://dialnet.unirioja.es/descarga/articulo/5402648.pdf — sayfa açılamadı, özet arama sonucundan okundu; Archivo General de Indias belgesi bakılmadı · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1821-11-28",t:"1831-01-01",d:"gran-kolombiya"},
      {f:"1831-01-01",t:"1903-11-03",d:"kolombiya-cumhuriyeti"},
      {f:"1903-11-03",t:"2000-12-31",d:"panama-cumhuriyeti"}] },
@@ -126,7 +126,7 @@ window.YERLESIMLER_0EE15E = [
 //         güzergâh) — k:1, Havana ile aynı tier.
 
 { ad:"Guayaquil (Santiago de Guayaquil)", tur:"sehir", lat:-2.1919, lon:-79.9009, g:1, k:1, kur:"1538-01-01",
-  s:[{f:"1538-01-01",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1822-05-24",d:"ispanyol-peru"},
+  s:[{f:"1538-01-01",t:"1542-11-20",d:"ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Peru Genel Valiliği resmen kuruldu» (1542-11-20, taraf kolu) kaynağı — Estudios Humanísticos (Dialnet, 2011) makalesi: 'Real Cédula del 20 de noviembre de 1542' ile Carlos I Peru Genel Valiliği'nin kurulmasına karar verdi (Barselona, Leyes Nuevas ile aynı gün); makale künyesi: https://dialnet.unirioja.es/descarga/articulo/5402648.pdf — sayfa açılamadı, özet arama sonucundan okundu; Archivo General de Indias belgesi bakılmadı · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1542-11-20",t:"1822-05-24",d:"ispanyol-peru",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Peru Genel Valiliği resmen kuruldu» (1542-11-20, taraf kolu) kaynağı — Estudios Humanísticos (Dialnet, 2011) makalesi: 'Real Cédula del 20 de noviembre de 1542' ile Carlos I Peru Genel Valiliği'nin kurulmasına karar verdi (Barselona, Leyes Nuevas ile aynı gün); makale künyesi: https://dialnet.unirioja.es/descarga/articulo/5402648.pdf — sayfa açılamadı, özet arama sonucundan okundu; Archivo General de Indias belgesi bakılmadı · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1822-05-24",t:"1830-05-13",d:"gran-kolombiya"},
      {f:"1830-05-13",t:"2000-12-31",d:"ekvador-cumhuriyeti"}] },
 // 🔴 KAYNAKLAR ÇELİŞİYOR — M-0423 gereği ikinci kaynak arandı, DOĞRULAMADI,

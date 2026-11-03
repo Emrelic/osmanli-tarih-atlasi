@@ -221,12 +221,27 @@ G — Renk ve bölge (senin işin değil)
 5. **Değişmez 3b binmeleri (veri işi)** — koşu 32 inişinde tavan 46 → 51 gün: 1160 Rus knezlikleri (Çernigov × Ryazan 80 552 km², × Vladimir-Suzdal, × Smolensk…), 1060 Kiev × Polotsk, 1040 Bohemya × Polonya. Kaynakla çözülecek.
    **(a) yapıldı** (1c0bc7998 + df2d2b99f, kapı 534a118d7): 2 304 yasak kaynaklı dönem künye kaynağını BEYANLI devraldı.
    Kalan yasak dönem: iç kırılma 662 · künye kaynağı da yasak 351 · alan sırası farklı ~190 · __BOSLUK__ 53.
-   (b) yalnız-taraf kapanışları ve (c) kaynaksız ~18 000 dönem: koordinatör/Emre onayı bekliyor.
+   **Emre kararı (3 Kasım 2026): önce (c), sonra (b).**
+   **(c) yapıldı** (3 Kasım, KASA, `d_madde_devral.py`): ölçüm anındaki kaynaksız `s:` dönemi 13 948 (hücre sayımı
+   çift sayıyordu). Dönemi açan (yoksa kapatan) kırılmanın ±30 günündeki, Değişmez 2s alâka ölçütünü geçen (önce yer
+   kolu, sonra taraf kolu) ve yasak/zayıf/atlas-içi olmayan kaynaklı maddenin kaynağı BEYANLI yazıldı: **5 666 dönem**
+   (girdi.py'nin okuduğu; dosyada 5 672 — 6'sı ok107'de girdi'nin yüklemediği kopyalarda) (açılış/yer 1 980 ·
+   açılış/taraf 4 043 · kapanış/yer 1 164 · kapanış/taraf 2 412 eşleşmesinin dosyada tek anlamlı olanları). `kur:`dan
+   önceki 10 dönem (Çanakkale, Uzunköprü — bölge vekili, Değişmez 5a-muaf kilidi) bilerek kaynaksız bırakıldı.
+   Kalan kaynaksız ~8 280: alâkalı kaynaklı madde yok 4 339 · aynı (f,t,d) kopyaları farklı maddeye düştüğü için
+   dokunulmadı ~3 927 (yerleşim bloğu bazında ikinci tur yapılabilir). Beyan: "olayın kaynağıdır, yerleşim
+   tanıklığı değil" — taraf kolu yerleşimi anmaz, (b) bunu kapatır.
+   (b) sırada: yalnız-taraf kapanışlarında maddeye yer adı + yer-tanıklı kaynak; öncelik hücre 6, 12, 18.
 5b. **Künye kaynak borcu** (2 Kasım, KASA, main 534a118d7; birinci geçiş yalnız hücre öncelik listelerini işledi):
    hâlâ yasak 191 · "bulunamadı — standart akademik kaynak" 259 · ZAYIF KAYNAK 16 · countrystudies/globalsecurity/
    archontology 24 · "BRIT" kısaltması 11 (birinci geçiş regex'i kaçırdı). Çıplak anahtar 219 = `data/kimlikler.js`
    kayıt defterine işaret, zayıf sayılmaz.
-6. **Mükerrer künye adayları** — chimu ↔ chimu-krallik, ternate ↔ ternate-sultanligi, tidore ↔ tidore-sultanligi, ogedey-ulusu ↔ ogedey-ulusu-kaydu (Emre kararı bekliyor).
+6. **Mükerrer künye adayları** — chimu ↔ chimu-krallik, ternate ↔ ternate-sultanligi, tidore ↔ tidore-sultanligi, ogedey-ulusu ↔ ogedey-ulusu-kaydu.
+   **Birleştirildi** (Emre kararı 3 Kasım 2026): silinen künyelerin hiçbirini yerleşim `s:` dönemi kullanmıyordu (ölçüldü);
+   haritadaki id kaldı. chimu → chimu-krallik (1450/1460 maddeleri taşındı; iki madde `taraflar` atfı çevrildi) ·
+   ternate → ternate-sultanligi ve tidore → tidore-sultanligi ("bulunamadı" kaynağı yerine TDV Endonezya + Ricklefs) ·
+   ogedey-ulusu-kaydu → ogedey-ulusu (kaydu maddeleri Wikipedia dayanaklı, taşınmadı). Künye 2279 → 2275.
+7. **Tahiti t** — Emre kararı (3 Kasım 2026): 9 Eylül 1842 himaye günü kalır (zaten öyleydi, Persée 1933); karar ic_not_t'ye yazıldı.
 
 ## girdi.py değişikliği gereken (tuz — dokunulmaz, liste)
 - (boş)

@@ -72,9 +72,9 @@ window.YERLESIMLER_EK_KARAYIP_ADALAR = [
   s:[{f:"1000-01-01", t:"1814-05-30", d:"__BOSLUK__", kaynak:"BOŞLUK BEYANI (kaynak: bulunamadı): bu noktanın 1814-05-30 tarihinden önceki sahibi atlasta kaynakla yazılı DEĞİL; kayıttaki kasitli_bosluk / bos / neden beyanı geçerlidir, toprak komşu peteğe itilmez. f 1000-01-01 UFUK SINIR İŞARETİDİR (uydurma başlangıç değil); t = bu kaydın ilk kaynaklı dönemi."},
      {f:"1814-05-30",t:"1889-01-01",d:"ingiltere"},
      {f:"1889-01-01",t:"1958-01-03",d:"trinidad-tobago-ingiliz"},
-     {f:"1958-01-03",t:"1962-05-31",d:"bati-hint-federasyonu"},
-     {f:"1962-05-31",t:"1962-08-31",d:"trinidad-tobago-ingiliz"},
-     {f:"1962-08-31",t:"2000-12-31",d:"trinidad-tobago"}],
+     {f:"1958-01-03",t:"1962-05-31",d:"bati-hint-federasyonu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Batı Hint Federasyonu feshedildi (Chaguaramas, Bridgetown, Castries, St. John's, Basseterre, Roseau, Kingstown, …» (1962-05-31, taraf kolu) kaynağı — West Indies (Dissolution and Interim Commissioner) Order in Council 1962 (vlex.co.uk/vid/861217891); CARICOM — «This Order shall come into operation on 29th May 1962. | Day appointed 1.6.62. (dipnot, Madde 8)» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1962-05-31",t:"1962-08-31",d:"trinidad-tobago-ingiliz",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Batı Hint Federasyonu feshedildi (Chaguaramas, Bridgetown, Castries, St. John's, Basseterre, Roseau, Kingstown, …» (1962-05-31, taraf kolu) kaynağı — West Indies (Dissolution and Interim Commissioner) Order in Council 1962 (vlex.co.uk/vid/861217891); CARICOM — «This Order shall come into operation on 29th May 1962. | Day appointed 1.6.62. (dipnot, Madde 8)» · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1962-08-31",t:"2000-12-31",d:"trinidad-tobago",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Trinidad ve Tobago, Birleşik Krallık'tan bağımsız oldu; Port of Spain ve St. Joseph bağımsız devlete geçti.» (1962-08-31, taraf kolu) kaynağı — Trinidad and Tobago Independence Act 1962 (UK); Library of Congress Country Studies, Trinidad and Tobago · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"bulunamadı (akademik teyit bekliyor) — kırılma maddeleri kronoloji_sinir_karayip_adalar.js.",
   not:"[yalnız yıl teyitli; gün teyitsiz] 1889." },
 

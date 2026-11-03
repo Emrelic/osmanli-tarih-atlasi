@@ -164,7 +164,7 @@ window.YERLESIMLER_OK109 = [
   // ═══════════════════════════════════════════════════════════════════════
 
   {
-    ad: "Şırnak",s:[{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],d:[{f:"1891-01-01",t:"1920-04-23"}],
+    ad: "Şırnak",s:[{f:"1920-04-23",t:"1923-10-29",d:"tbmm-turkiye",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Türkiye Büyük Millet Meclisi'nin açılışı» (1920-04-23, taraf kolu) kaynağı — TDV İslâm Ansiklopedisi: turkiye-buyuk-millet-meclisi · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1923-10-29",t:"2000-12-31",d:"turkiye-cumhuriyeti",kaynak:"TDV Islam Ansiklopedisi 'Turkiye Cumhuriyeti'; Cumhuriyet ilani 1923-10-29"}],d:[{f:"1891-01-01",t:"1920-04-23"}],
     tur: "sehir",
     lat: 37.5139, lon: 42.4543,
     g: 0, k: 4, m: "Bitlis",

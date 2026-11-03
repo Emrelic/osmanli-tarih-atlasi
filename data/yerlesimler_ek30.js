@@ -74,7 +74,7 @@ window.YERLESIMLER_EK30 = [
   kur:"1849-01-01", kasitli_bosluk:true, bos:"kabile",
   neden:"ANU Press, 'The Making of a Capital: A Social History of Suva, 1870–1882' (press-files.anu.edu.au/downloads/press/n10434/pdf/ch03.pdf) — Suva köyü 1843 Bau-Rewa Savaşı'ndan sonra Bau şefi Cakobau'nun (Kubuna konfederasyonu) koruması altına girdi; 1868'de Polynesian Company'ye arazi verildi, 1870'te Avustralyalı yerleşimciler geldi — ama bu bir EGEMENLİK değil ticarî/himaye ilişkisiydi, resmî devlet 1874 Cession'a kadar yoktu.",
   kaynak:"ANU Press, 'Suva Stories: A History of the Capital of Fiji' (JSTOR j.ctv2xc67p4) — Deed of Cession, 10 Ekim 1874, Fiji'yi resmen İngiliz egemenliğine soktu.",
-  s:[{f:"1874-10-10",t:"1970-10-10",d:"ingiltere"},{f:"1970-10-10",t:"2000-12-31",d:"fiji",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
+  s:[{f:"1874-10-10",t:"1970-10-10",d:"ingiltere",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fiji Britanya'dan bagimsiz oldu (Suva, Levuka)» (1970-10-10, yer kolu) kaynağı — https://fijiassociation.co.nz/Events/50YearsFiji/50YearsFiji.html ; https://www.fijitimes.com.fj/?p=770187 · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1970-10-10",t:"2000-12-31",d:"fiji",kaynak:"Britannica (ilgili ulke maddeleri); BM/antlasma ve bagimsizlik tarihleri"}] },
 
 // ── ALTINCI PARTİ — M-0213 usulüyle genişletme ──────────────────────────
 // Ölçüt sayı değil: "petek gerçekte olmayan toprağı yutuyor mu?" Avustralya

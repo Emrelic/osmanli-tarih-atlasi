@@ -21,7 +21,7 @@
 window.YERLESIMLER_AMERIKA2 = [
 
 { ad:"Huamanga (Ayacucho)", tur:"sehir", lat:-13.1588, lon:-74.2239, g:1, k:1, kur:"1539-01-09",
-  s:[{f:"1539-01-09",t:"1542-11-20",d:"ispanya"},{f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru"},
+  s:[{f:"1539-01-09",t:"1542-11-20",d:"ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «San Juan de la Frontera de Huamanga kuruldu — Lima-Cuzco yolunun kilidi» (1539-01-09, yer kolu) kaynağı — John Hemming, The Conquest of the Incas (Macmillan, 1970) — Manco Inca direnişi ve serhat kasabaları · hassasiyet: GÜN · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},{f:"1542-11-20",t:"1824-12-09",d:"ispanyol-peru",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Peru Genel Valiliği resmen kuruldu» (1542-11-20, taraf kolu) kaynağı — Estudios Humanísticos (Dialnet, 2011) makalesi: 'Real Cédula del 20 de noviembre de 1542' ile Carlos I Peru Genel Valiliği'nin kurulmasına karar verdi (Barselona, Leyes Nuevas ile aynı gün); makale künyesi: https://dialnet.unirioja.es/descarga/articulo/5402648.pdf — sayfa açılamadı, özet arama sonucundan okundu; Archivo General de Indias belgesi bakılmadı · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1824-12-09",t:"2000-12-31",d:"peru-cumhuriyeti"}] },
 // kaynak: ① Encyclopaedia Britannica "Ayacucho" md. — "In 1539 the
 //         conquistador Francisco Pizarro conquered the area ... and named
