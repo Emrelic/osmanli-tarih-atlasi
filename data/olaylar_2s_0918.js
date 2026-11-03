@@ -78,8 +78,8 @@ window.OLAYLAR_2S_0918 = [
 // ── 4. ROMANYA KRALLIĞI'NIN İLANI ─────────────────────────────────────
 { t:"1881-03-26", b:"Romanya Krallığı ilan edildi — Prenslik Krallığa dönüştü", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Bükreş",
   etiket:["antlasma","konu-siyasi"],
-  d:"1877-78 Osmanlı-Rus Savaşı sonrası Berlin Kongresi'nde bağımsızlığı tanınan Romanya Prensliği, 26 Mart 1881'de (Jülyen takvimiyle 14 Mart) Kral I. Carol'un taç giymesiyle Krallığa dönüştürüldü; Babadağı, Birlad, Buzău ve başşehir Bükreş dahil bütün ülke idarî olarak yeni krallığın parçası oldu.",
-  kaynak:"standart akademik/ansiklopedik (Kingdom of Romania proclamation, 26 Mart 1881 — Hitchins, Rumania 1866-1947) — TDV kapsam dışı, gün kaynakta AÇIKÇA veriliyor, veriyle birebir örtüşüyor" },
+  d:"1877-78 Osmanlı-Rus Savaşı sonrası Berlin Kongresi'nde bağımsızlığı tanınan Romanya Prensliği, 26 Mart 1881'de (Jülyen takvimiyle 14 Mart) Kral I. Carol'un taç giymesiyle Krallığa dönüştürüldü; Babadağı, Birlad, Buzău ve başşehir Bükreş dahil bütün ülke idarî olarak yeni krallığın parçası oldu. Krallık ilanıyla Romanya'nın tamamı (Yaş, Kalas, İbrail, Köstence, Tulça, Calafat ve öteki şehirler) Romanya Krallığı oldu.",
+  kaynak:"standart akademik/ansiklopedik (Kingdom of Romania proclamation, 26 Mart 1881 — Hitchins, Rumania 1866-1947) — TDV kapsam dışı, gün kaynakta AÇIKÇA veriliyor, veriyle birebir örtüşüyor · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): archontology.org Romania polity (Romania Official Gazette No. 60, 15/27 Mar 1881, p. 1809), https://archontology.org/nations/romania/01_polity.php ; TDV 'Romanya', https://islamansiklopedisi.org.tr/romanya" },
 
 // ── 5. ADAMAVA'NIN ALMAN-İNGİLİZ PAYLAŞIMI ───────────────────────────
 { t:"1901-09-02", b:"Adamava Emirliği Almanya ile İngiltere arasında paylaşıldı", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Garua (Garoua)",

@@ -224,14 +224,28 @@ G — Renk ve bölge (senin işin değil)
    **Emre kararı (3 Kasım 2026): önce (c), sonra (b).**
    **(c) yapıldı** (3 Kasım, KASA, `d_madde_devral.py`): ölçüm anındaki kaynaksız `s:` dönemi 13 948 (hücre sayımı
    çift sayıyordu). Dönemi açan (yoksa kapatan) kırılmanın ±30 günündeki, Değişmez 2s alâka ölçütünü geçen (önce yer
-   kolu, sonra taraf kolu) ve yasak/zayıf/atlas-içi olmayan kaynaklı maddenin kaynağı BEYANLI yazıldı: **5 666 dönem**
-   (girdi.py'nin okuduğu; dosyada 5 672 — 6'sı ok107'de girdi'nin yüklemediği kopyalarda) (açılış/yer 1 980 ·
-   açılış/taraf 4 043 · kapanış/yer 1 164 · kapanış/taraf 2 412 eşleşmesinin dosyada tek anlamlı olanları). `kur:`dan
-   önceki 10 dönem (Çanakkale, Uzunköprü — bölge vekili, Değişmez 5a-muaf kilidi) bilerek kaynaksız bırakıldı.
-   Kalan kaynaksız ~8 280: alâkalı kaynaklı madde yok 4 339 · aynı (f,t,d) kopyaları farklı maddeye düştüğü için
-   dokunulmadı ~3 927 (yerleşim bloğu bazında ikinci tur yapılabilir). Beyan: "olayın kaynağıdır, yerleşim
+   kolu ±30 gün; taraf kolu yalnız ±1 gün) ve yasak/zayıf/atlas-içi olmayan kaynaklı maddenin kaynağı BEYANLI yazıldı:
+   **5 448 dönem (dosyada)** (açılış/yer 1 980 · açılış/taraf 3 422 · kapanış/yer 1 277 · kapanış/taraf 2 739
+   eşleşmesinin dosyada tek anlamlı olanları). Taraf kolu ±1 güne daraltıldı çünkü ±30 günde yanlış olay seçiyordu
+   (1917-11-07 Ekim Devrimi kırılması 255 Avrupa yerleşiminde 20 gün sonraki "Hokand Muhtariyeti" maddesine bağlanıyordu —
+   Değişmez 2s de bu kırılmayı aynı yanlış maddeyle KAPALI sayıyor; (b)'nin ilk işi). `kur:`dan önceki 10 dönem
+   (Çanakkale, Uzunköprü — bölge vekili, Değişmez 5a-muaf kilidi) bilerek kaynaksız bırakıldı.
+   Kalan kaynaksız ~8 500: alâkalı kaynaklı madde yok 4 520 · aynı (f,t,d) kopyaları farklı maddeye düştüğü için
+   dokunulmadı ~3 970 (yerleşim bloğu bazında ikinci tur yapılabilir). Beyan: "olayın kaynağıdır, yerleşim
    tanıklığı değil" — taraf kolu yerleşimi anmaz, (b) bunu kapatır.
-   (b) sırada: yalnız-taraf kapanışlarında maddeye yer adı + yer-tanıklı kaynak; öncelik hücre 6, 12, 18.
+   **(b) hücre 6 (Avrupa 1800–2000) ilk tur** (3 Kasım, KASA, `b_envanter.py` + 2 ajan + `b_uygula.py`): 3 563 `s:`
+   kırılma birimi → yer kolu 1 281 · yalnız taraf 2 104 (141 madde) · madde yok 178. En kalabalık 40 madde (1 667 birim)
+   araştırıldı: teyit 1 208 · çelişki 50 · okunmadı 154 · yanlış madde 255 (ayrıca 2 madde için yeni madde önerildi, uygulanmadı:
+   1923-10-29 "Ahlat: safevî → TC" yerine Cumhuriyet'in ilanı · 1918-11-11 I. Karl yerine Polonya 30/31 Ekim). 31 maddeye kaynaklı yer cümlesi eklendi
+   (yasak kaynaklıların kaynağı değiştirildi). 2 yeni madde: 1917-11-07 Ekim Devrimi (FRUS 1918) ve 1917-12-15 Moldova
+   Demokratik Cumhuriyeti (Scurtu 2022) — 255 birim Hokand 1917-11-27 maddesine yanlış bağlıydı.
+   **Kırılma taşıması gerekenler (uygulanmadı, kaynak ajan dökümünde):** Hırvatistan-Slavonya 13 yerleşim 1918-11-16 /
+   1920-06-04 → 1918-10-29 (Sabor) · Polonya: Kraków 1918-10-30, Lublin/Kielce/Radom/Chełm/Zamość 1918-10-31 (atlasta
+   1918-11-11) · Hollanda: Middelburg, 's-Hertogenbosch, Breda 1810-03-31 (atlasta 07-09) · Alman İmparatorluğu 1871-01-01
+   (anayasa) mı 01-18 (ilan) mı · Edirne 1920-04-23 TBMM'ye geçiş kaynaksız (TDV: Temmuz 1920 Yunan işgali) ·
+   `macaristan-naiplik` 1918-11-16 için uygun kimlik mi · SSCB sonu: atlas 12-26, DoS 12-25, TDV 12-31 (çelişki beyanı) ·
+   olaylar.js "Cumhuriyet'in ilanı" t:"1923-10" ay hassasiyetinde (gün 29). Döküm: `denetim/DUNYA-1102/ikinci-gecis-b/dokum_h6.md`.
+   Sırada: hücre 6'nın kalan 101 maddesi (437 birim), sonra hücre 12, 18.
 5b. **Künye kaynak borcu** (2 Kasım, KASA, main 534a118d7; birinci geçiş yalnız hücre öncelik listelerini işledi):
    hâlâ yasak 191 · "bulunamadı — standart akademik kaynak" 259 · ZAYIF KAYNAK 16 · countrystudies/globalsecurity/
    archontology 24 · "BRIT" kısaltması 11 (birinci geçiş regex'i kaçırdı). Çıplak anahtar 219 = `data/kimlikler.js`

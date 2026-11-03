@@ -133,8 +133,8 @@ window.OLAYLAR_OK109 = [
     gun: "1 Aralık 1918",
     yer: "Belgrad, Zagreb, Saraybosna, Erdel, Suçava, Çernovitz",
     kisiler: "Karadordević hânedanı, I. Ferdinand",
-    d: "Avusturya-Macaristan'ın dağılmasıyla imparatorluktan ayrılan Slavların Sırbistan'la birleşmesi sonucu 1 Aralık 1918'de Sırp-Hırvat-Sloven Krallığı kuruldu; yaklaşık 250.000 km² toprak ve 12.000.000 nüfus. Temeli 20 Temmuz 1917 Korfu Bildirgesi'nde atılmış, 26 Ekim'de Podgorica, 28 Ekim'de Bosna-Hersek, 25 Kasım'da Novi Sad meclisleri katılma kararı almıştı. Aynı gün Transilvanya, Bukovina ve Besarabya'nın kendi halklarının kararıyla katılmasıyla Büyük Romanya oluştu. Haritada Sırbistan Krallığı toprakları Yugoslavya'ya geçer.", ic_not_d:"eski ifade: Atlasta otuz yerleşim Sırbistan Krallığı'ndan Yugoslavya'ya geçer.",
-    kaynak: "yugoslavya"
+    d: "Avusturya-Macaristan'ın dağılmasıyla imparatorluktan ayrılan Slavların Sırbistan'la birleşmesi sonucu 1 Aralık 1918'de Sırp-Hırvat-Sloven Krallığı kuruldu; yaklaşık 250.000 km² toprak ve 12.000.000 nüfus. Temeli 20 Temmuz 1917 Korfu Bildirgesi'nde atılmış, 26 Ekim'de Podgorica, 28 Ekim'de Bosna-Hersek, 25 Kasım'da Novi Sad meclisleri katılma kararı almıştı. Aynı gün Transilvanya, Bukovina ve Besarabya'nın kendi halklarının kararıyla katılmasıyla Büyük Romanya oluştu. Haritada Sırbistan Krallığı toprakları Yugoslavya'ya geçer. Krallığın kuruluşuyla Sırbistan Krallığı'nın bütün toprakları (Niş, Üsküp, Manastır, Ohri, Priştine, Prizren, Peç vd.) Sırp-Hırvat-Sloven Krallığı'na geçti.", ic_not_d:"eski ifade: Atlasta otuz yerleşim Sırbistan Krallığı'ndan Yugoslavya'ya geçer.",
+    kaynak: "yugoslavya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Yugoslavya', https://islamansiklopedisi.org.tr/yugoslavya"
   },
 
   {
@@ -143,8 +143,8 @@ window.OLAYLAR_OK109 = [
     gun: "10 Eylül 1919",
     yer: "Saint-Germain-en-Laye, Viyana",
     kisiler: "—",
-    d: "Savaştan sonra Avusturya müttefiklerle Saint-Germain Barış Antlaşması'nı imzaladı. Antlaşmaya göre Avusturya Macaristan, Çekoslovakya ve Yugoslavya'nın bağımsızlığını tanıyor; Milletler Cemiyeti'nin muvafakati olmadan Almanya ile birleşmemeyi, mecburi askerliği kaldırmayı ve orduyu 30.000 kişiyle sınırlandırmayı kabul ediyordu. Çekoslovakya'nın milletlerarası hukuktaki yerini kazandığı belge de budur. Haritadaki devir bir yıl önce olmuştu; bu antlaşma onu tescil etti.",
-    kaynak: "avusturya"
+    d: "Savaştan sonra Avusturya müttefiklerle Saint-Germain Barış Antlaşması'nı imzaladı. Antlaşmaya göre Avusturya Macaristan, Çekoslovakya ve Yugoslavya'nın bağımsızlığını tanıyor; Milletler Cemiyeti'nin muvafakati olmadan Almanya ile birleşmemeyi, mecburi askerliği kaldırmayı ve orduyu 30.000 kişiyle sınırlandırmayı kabul ediyordu. Çekoslovakya'nın milletlerarası hukuktaki yerini kazandığı belge de budur. Haritadaki devir bir yıl önce olmuştu; bu antlaşma onu tescil etti. Bu antlaşmayla Lvov, Yazlofça, Karviná ile Dalmaçya kıyısı ve adaları (Krk, Cres, Lošinj, Rab, Pag, Hvar, Korçula, Vis, Zadar, Şibenik, Knin) Avusturya'dan Başlıca Müttefik Devletler'in tasarrufuna; Ungvár ve Munkács (Karpat Rutenyası) Çekoslovakya'ya geçti.",
+    kaynak: "avusturya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Traité de Saint-Germain-en-Laye (10.9.1919), Partie III — Digithèque MJP, Université de Perpignan, https://mjp.univ-perp.fr/traites/1919saintgermain2.htm"
   },
 
   {
@@ -153,8 +153,8 @@ window.OLAYLAR_OK109 = [
     gun: "4 Haziran 1920",
     yer: "Trianon (Versailles), Budapeşte",
     kisiler: "Miklós Horthy",
-    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan da tam bu gün Romanya ve Çekoslovakya rengine geçer.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
-    kaynak: "macaristan"
+    d: "1 Mart 1920'de Horthy'nin kral nâibliğine getirilmesinden üç ay sonra imzalanan Trianon Antlaşması gereğince Macaristan ağır toprak ve insan kaybına uğradı: Hırvatistan hariç 283.000 km²'lik arazisinin üçte ikisi ve üç milyondan fazla Macar dahil nüfusunun yüzde altmışı sınır dışında kaldı, ordusu 35.000 kişiye indirildi. Haritada Macaristan Naipliği bu küçülmüş sınırlarla görünür; Erdel ve Yukarı Macaristan da tam bu gün Romanya ve Çekoslovakya rengine geçer. Bu antlaşmayla Bratislava, Kassa, Nitra ve Komárom (Yukarı Macaristan) Çekoslovakya'ya; Varad, Szatmár, Lugos, Gyulafehérvár ve Brașov (Erdel ve Banat'ın doğusu) Romanya'ya; Subotica, Becskerek, Baç, Murska Sobota ve Čakovec (Bačka, Banat'ın batısı, Prekmurje, Međimurje) Sırp-Hırvat-Sloven Krallığı'na hukuken geçti.", ic_not_d:"eski ifade: Atlasta Macaristan Naipliği'nin yirmi yerleşimi bu küçülmüş devleti gösterir;",
+    kaynak: "macaristan · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Treaty of Peace between the Allied and Associated Powers and Hungary (Trianon), 4 June 1920, Art. 41-42 (SHS), 45 (Roumania), 48-49 (Czecho-Slovak State) — metin: https://www.fransamaltingvongeusau.com/documents/dl1/h1/1.1.16.pdf ; TDV 'Macaristan' md. (https://islamansiklopedisi.org.tr/macaristan) ; Hırvatistan çelişkisi için Hrvatski sabor, 'Hrvatski građanski sabor 1848.–1918.' (https://www.sabor.hr/sites/default/files/uploads/inline-files/PDF3.pdf) ; N. Stančić, HAZU Dan neovisnosti 2011 konuşması (https://historiografija.hr/wp-content/uploads/2026/01/2011-HAZU-Dan-neovisnosti_Stancic.pdf)"
   },
 
   {

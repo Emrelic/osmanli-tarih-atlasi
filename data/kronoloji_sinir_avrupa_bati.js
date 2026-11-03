@@ -207,8 +207,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Paris"], t:"1810-07-09", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","hollanda"], sinir_id:"dg5-nl-de",
   b:"Holland Krallığı'nın Fransa'ya ilhakı (Rambouillet Kararnamesi)", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","konu-siyasi","fransa-cumhuriyet","hollanda","almanya"],
-  d:"Rambouillet Kararnamesi'yle Holland Krallığı Fransa'ya katıldı. Hollanda'nın Alman devletleriyle olan sınırı böylece Fransa'nın sınırı oldu.",
-  kaynak:"parlement.com 'Koninkrijk Holland (1806-1810)' (Montesquieu Instituut)" },
+  d:"Rambouillet Kararnamesi'yle Holland Krallığı Fransa'ya katıldı. Hollanda'nın Alman devletleriyle olan sınırı böylece Fransa'nın sınırı oldu. Rambouillet Kararnamesi'yle Amsterdam, Rotterdam, Lahey, Utrecht, Haarlem, Dordrecht, Groningen, Leeuwarden ve Enschede (Holland Krallığı) Fransa'ya ilhak edildi.",
+  kaynak:"parlement.com 'Koninkrijk Holland (1806-1810)' (Montesquieu Instituut) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Parlement.com (Montesquieu Instituut), 'Koninkrijk Holland (1806-1810)', https://www.parlement.com/id/vh8lnhrp8wtc/koninkrijk_holland_1806_1810" },
 
 { odak_yer:["Paris"], t:"1810-11-12", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"dg5-sa-ch-3",
   b:"Valais'nin Simplon departmanı olarak Fransa'ya katılması", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"",
@@ -260,8 +260,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1830-10-04", devlet:"belcika", devletler:["belcika","hollanda"], sinir_id:"dg4-be-fr-fiili",
   b:"Belçika'nın bağımsızlık ilanı — Fransa sınırı fiilen Belçika'nın oldu", tur:"kurulus", onem:4, dunya:4, kapsam:"dis", yer_id:"Brüksel",
   etiket:["sinir","konu-siyasi","belcika","hollanda","fransa-cumhuriyet"],
-  d:"Brüksel'deki geçici hükûmet Belçika'nın Birleşik Hollanda Krallığı'ndan ayrıldığını ilan etti. Birleşik Hollanda'nın Fransa ile 1820'de çizilen sınırı fiilen yeni devletin sınırı oldu. Hukukî sınır ve uluslararası kabul 1839 Londra Antlaşması'yla geldi.",
-  kaynak:"Belçika Devlet Arşivi (arch.be) ve Wallonie portalı (4 Ekim 1830) · Nationaal Archief ve parlement.com (Londra 19 Nisan 1839)" },
+  d:"Brüksel'deki geçici hükûmet Belçika'nın Birleşik Hollanda Krallığı'ndan ayrıldığını ilan etti. Birleşik Hollanda'nın Fransa ile 1820'de çizilen sınırı fiilen yeni devletin sınırı oldu. Hukukî sınır ve uluslararası kabul 1839 Londra Antlaşması'yla geldi. Bağımsızlık ilanıyla Brugge, Gent, Ypres, Anvers, Leuven, Mons, Tournai ve Roermond (Belçika vilayetleri) Belçika'nın oldu.",
+  kaynak:"Belçika Devlet Arşivi (arch.be) ve Wallonie portalı (4 Ekim 1830) · Nationaal Archief ve parlement.com (Londra 19 Nisan 1839) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): archontology.org Belgium polity (Bulletin officiel No. 4, 8 Oct 1830, p. 3), https://archontology.org/nations/belgium/01_polity.php" },
 
 { odak_yer:["Bayonne"], t:"1856-12-02", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","ispanya"], sinir_id:"d1923-fr-es-bati",
   b:"Bayonne Antlaşması — Pirenelerde Bidasoa'dan Navarra'ya sınırın ayrıntılı çizimi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
@@ -393,8 +393,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["İtalya","Fiume"], t:"1920-11-12", devlet:"italya", devletler:["italya","yugoslavya"], sinir_id:"d1923-it-shs",
   b:"Rapallo Antlaşması — İtalya ile SHS Krallığı arasında Julian Alpleri sınırı ve Fiume Serbest Devleti", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","yugoslavya"],
-  d:"İtalya ile Sırp-Hırvat-Sloven Krallığı Rapallo'da doğu sınırlarını belirledi. Hat Peč'ten Julian Alplerinin su bölümüyle Castua'ya indi. Zara (Zadar) md. 2 ile İtalya'ya bırakılarak bir anklav oldu; md. 3 Cherso (Cres) ve Lussin adalarını, Lagosta ve Pelagosa'yı İtalya'ya, eski Avusturya-Macaristan'ın öteki bütün adalarını SHS Krallığı'na bıraktı; Fiume serbest devlet ilan edildi; hattı yerinde çizmek için karma bir komisyon kuruldu. Bu hattın koordinatı haritada yoktur: 1947 Paris Antlaşması'yla neredeyse tamamı ortadan kalktı. Antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
-  kaynak:"Rapallo Antlaşması md. 1-5 (LNTS c.18 s.397-403, forost.ungarisches-institut.de kopyası) · İtalya ile Barış Antlaşması 1947 md. 3 (UK TS 1948/50)" },
+  d:"İtalya ile Sırp-Hırvat-Sloven Krallığı Rapallo'da doğu sınırlarını belirledi. Hat Peč'ten Julian Alplerinin su bölümüyle Castua'ya indi. Zara (Zadar) md. 2 ile İtalya'ya bırakılarak bir anklav oldu; md. 3 Cherso (Cres) ve Lussin adalarını, Lagosta ve Pelagosa'yı İtalya'ya, eski Avusturya-Macaristan'ın öteki bütün adalarını SHS Krallığı'na bıraktı; Fiume serbest devlet ilan edildi; hattı yerinde çizmek için karma bir komisyon kuruldu. Bu hattın koordinatı haritada yoktur: 1947 Paris Antlaşması'yla neredeyse tamamı ortadan kalktı. Antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı. Bu antlaşmayla Krk, Rab, Pag, Uzunada, Hvar, Korçula, Vis ve Mliyet adaları SHS Krallığı'na; Lošinj ve Lastovo İtalya'ya geçti.",
+  kaynak:"Rapallo Antlaşması md. 1-5 (LNTS c.18 s.397-403, forost.ungarisches-institut.de kopyası) · İtalya ile Barış Antlaşması 1947 md. 3 (UK TS 1948/50) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Traité de Rapallo (12.11.1920) — Digithèque MJP, Université de Perpignan, https://mjp.univ-perp.fr/traites/1920rapallo.htm" },
 
 { odak_yer:["Helsinki"], t:"1920-12-31", devlet:"finlandiya", devletler:["finlandiya","norvec"], sinir_id:"d1923-fi-no-petsamo",
   b:"Tartu Barışı yürürlüğe girdi — Petsamo Finlandiya'ya geçti, Norveç'le yeni sınır", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
@@ -405,8 +405,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1922-12-06", devlet:"irlanda-serbest-devlet", devletler:["irlanda-serbest-devlet","ingiltere"], sinir_id:"d1923-ie-gb",
   b:"İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır uluslararası sınır oldu", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"Dublin",
   etiket:["sinir","antlasma","konu-siyasi","irlanda-serbest-devlet","ingiltere"],
-  d:"İngiliz-İrlanda Antlaşması'nı uygulayan 1922 Anayasası, ilanın en geç 6 Aralık 1922'de yapılmasını şart koştu. Sınır, 1920 İrlanda Hükûmeti Yasası'nın Kuzey İrlanda'ya ayırdığı altı kontluğun sınırıydı. Antlaşmanın 12. maddesi sınırın bir komisyonca düzeltilebileceğini öngörüyordu. 1923'te bu komisyon henüz kurulmamıştı; 1925 anlaşması onun yetkisini kaldırıp hattı olduğu gibi sabitledi. İlanın kesin günü kaynakta geçmiyor.",
-  kaynak:"Constitution of the Irish Free State Act 1922, md. 83 ve Antlaşma md. 11-12 (irishstatutebook.ie) · Government of Ireland Act 1920 s.1(2) (legislation.gov.uk) · Treaty (Confirmation of Amending Agreement) Act 1925" },
+  d:"İngiliz-İrlanda Antlaşması'nı uygulayan 1922 Anayasası, ilanın en geç 6 Aralık 1922'de yapılmasını şart koştu. Sınır, 1920 İrlanda Hükûmeti Yasası'nın Kuzey İrlanda'ya ayırdığı altı kontluğun sınırıydı. Antlaşmanın 12. maddesi sınırın bir komisyonca düzeltilebileceğini öngörüyordu. 1923'te bu komisyon henüz kurulmamıştı; 1925 anlaşması onun yetkisini kaldırıp hattı olduğu gibi sabitledi. İlanın kesin günü kaynakta geçmiyor. Serbest Devlet'in kuruluşuyla Cork, Limerick, Galway, Waterford, Sligo, Donegal ve öteki güney kontlukları İrlanda Serbest Devleti'ne geçti.",
+  kaynak:"Constitution of the Irish Free State Act 1922, md. 83 ve Antlaşma md. 11-12 (irishstatutebook.ie) · Government of Ireland Act 1920 s.1(2) (legislation.gov.uk) · Treaty (Confirmation of Amending Agreement) Act 1925 · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): archontology.org Ireland polity (Ireland State Gazette Extra No. 94, 6 Dec 1922; London Gazette No. 32775), https://archontology.org/nations/eire/01_polity.php" },
 
 // ── KUTU-F1-1014 — İtalya / Alpler / Ren / Comtat (Emre kutu 0078 H-0004 · 0082 H-0048/49/52/53/79 · 0083 H-0007 · 0088 H-0003)
 // Her madde bir yerleşim kırılmasına bağlıdır (yer_id). Gün vermeyen kaynakta YYYY-01-01 + kesinlik:"yil".

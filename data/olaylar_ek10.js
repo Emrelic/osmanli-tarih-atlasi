@@ -353,8 +353,8 @@ window.OLAYLAR_EK10 = [
 { t:"1877-05-21", ic_not_t:"eski gün 1877-05-09 = Jülyen (9 Mayıs O.S.; TDV romanya Rumen takvimiyle verir) → Gregoryen 21 Mayıs; devletler.js romanya maddesi ve yerleşim zincirleri 1877-05-21 (kron-balkan, 28 Eki 2026)", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi","konu-askeri"],
   b:"Romanya'nın bağımsızlığını ilân etmesi — Eflak-Boğdan tâbiliğinin sonu",
   gun:"21 Mayıs 1877 (9 Mayıs O.S.)", yer:"Bükreş", yer_id:"Bükreş", kisiler:"Prens I. Carol",
-  d:"93 Harbi'nin ilânından iki hafta sonra Romanya Prensliği bağımsızlığını ilân etti ve savaşa Rusya'nın yanında girdi; Plevne kuşatmasındaki payı Osmanlı yenilgisinde belirleyici oldu. Dört yüz yılı aşkın Eflak ve Boğdan tâbiliği böylece fiilen sona erdi; bağımsızlık Berlin Kongresi'nde (1878) uluslararası tanıma kazandı. Harita bu tarihten itibaren Romanya'yı tâbi değil kendi rengiyle bağımsız devlet olarak gösterir.",
-  kaynak:"romanya", duygu:["😔"] },
+  d:"93 Harbi'nin ilânından iki hafta sonra Romanya Prensliği bağımsızlığını ilân etti ve savaşa Rusya'nın yanında girdi; Plevne kuşatmasındaki payı Osmanlı yenilgisinde belirleyici oldu. Dört yüz yılı aşkın Eflak ve Boğdan tâbiliği böylece fiilen sona erdi; bağımsızlık Berlin Kongresi'nde (1878) uluslararası tanıma kazandı. Harita bu tarihten itibaren Romanya'yı tâbi değil kendi rengiyle bağımsız devlet olarak gösterir. Bağımsızlık ilanıyla Eflak ve Boğdan'ın tamamı (Yaş, Kalas, İbrail, Yergöğü, Calafat, Botoşani vd.) bağımsız Romanya oldu.",
+  kaynak:"romanya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Romanya', https://islamansiklopedisi.org.tr/romanya", duygu:["😔"] },
   // PAKET-0076-BITIR-1004 · 0076/H-0037 — TDV romanya: "9 Mayıs 1877 tarihinde bağımsızlığını ilân etti" (taslak: denetim/SINIR-CIZGI-0076-YAMA-olaylar.js ①)
 
 { t:"1832-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-diplomasi"],
