@@ -29,6 +29,8 @@ Kural: kalıcı id = haritada (s: yerleşim) ve kronolojide kullanılan; eşitse
 | 57 | Hazar Kağanlığı | `hazar-kaganligi` | Hazar Kağanlığı | 0630-01-01 | 0965-01-01 |  | 1 | 29 | **KALICI** |
 | 59 | Moğolistan (Doğu Çağatay) Hanlığı | `mogulistan` | Moğulistan (Doğu Çağatay Hanlığı) | 1347-01-01 | 1680-01-01 | mogulistan | 25 | 34 | **KALICI** |
 | 59 | Moğolistan (Doğu Çağatay) Hanlığı | `mogolistan-hanligi` | Moğolistan (Mughulistan) Hanlığı — Doğu Çağatay | 1347-01-01 | 1514-01-01 |  | 0 | 0 | → `mogulistan`'e birleştir |
+| 81 | Chimú Krallığı | `chimu` | Chimu (Chimor) Krallığı | 1000-01-01 | 1470-01-01 |  | 0 | 2 | → `chimu-krallik`'e birleştir |
+| 81 | Chimú Krallığı | `chimu-krallik` | Chimu Krallığı (Chimor) | 1000-01-01 | 1470-01-01 |  | 2 | 15 | **KALICI** |
 
 ## Notlar
 - f/t farklıysa kalıcı künyenin uçları kaynaklı olanla birleştirilir (ilgili denetim dosyasının b) bölümü).
