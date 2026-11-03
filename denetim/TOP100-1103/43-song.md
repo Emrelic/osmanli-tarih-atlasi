@@ -64,3 +64,6 @@ Büyük şehir sahipliği uyumu: bilinen sınırın dışında Song'un gibi gör
 - *Song shi* juan 28-29 (高宗五/六, 紹興八年) — Lin'an'ın başkent ilanı; zh.wikisource.org/wiki/宋史/卷028 — çekilemedi.
 - *Yuan shi* juan 10'daki 甲戌 ve Song shi 癸未 farkı: hangi takvim/hangi gün? (*Yuan shi*; NAOJ tabloları) — Çin ay-güneş takvimi çevrilmedi.
 - Britannica 403; Treccani «Sung» çekilemedi (ana sayfaya yönlendirdi).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Lin'an'ın 1276 teslimi: A. Weitz, *Ars Orientalis* 27 (1997) s. 27-38 — yalnız yıl. 960 Chenqiao günü JSTOR'da bulunamadı (gün Song shi 1 ganzhi hesabına dayanıyor, KASA cin_gun.py ile doğrulasın).

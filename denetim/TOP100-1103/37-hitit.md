@@ -84,3 +84,13 @@ Kızzuvatna: `:122` -1629 başlığı «Kizzuvatna'yı sınırına kattı» **ka
 - Metropolitan Museum «The Hittites» (HTTP 429). Britannica «Hittite» (403).
 - Aklan, İ., AHBVÜ Edebiyat Fak. Dergisi 8 (2023) 47-61 (evren maddesinde atıflı; DergiPark PDF'i bu turda açılmadı). Soru: Hattuşa'nın «organize terk» tarihi (MÖ 12. yy başı).
 - Kealhofer vd. 2019 Radiocarbon 61(2) — Gordion'un Hitit ilişkisi için ikinci tanık; yalnız özet okundu.
+
+## Koordinatör kararı (EMRELİC 1 KASIM, 4 Kasım gecesi)
+- Çöküş: dört değer tek değere indirilir (Oxford okuması bekleniyor); öbürleri kaynakla `ic_not`ta beyan.
+  Ajan önerisi: `hitit` t ve `yeni-hitit` f **-1199** (MÖ 1200; TDV, Manning 2023 Nature, Oxford c.1200).
+- `hitit-eski` / `hitit-imp` ölü künyeler: `renkler.py`'deki girdiler KALIR (tuz). Öneri: iki künye
+  `hitit`e BİRLEŞTİRİLSİN — kronoloji maddeleri `hitit` künyesine taşınsın, iki künye devletler.js'ten
+  çıkarılsın ya da `ic_not:"ÖLÜ — hitit'e birleştirildi"` ile bırakılsın (renk girdisi zararsız kalır).
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Concise Oxford Dictionary of Archaeology «Boghaz Köy»: «collapse of the Hittite Empire around 1200 bc the site was abandoned»; Oxford Enc. of Archaeology in the Near East «Anatolia»: İmparatorluk 1400-1200 BCE. **Hüküm:** `hitit` t ve `yeni-hitit` f **-1199** (c. MÖ 1200; TDV + iki Oxford kaynağı) + kesinlik onyil + beyan; -1179 (MÖ 1180) ve -1189 değerleri `ic_not`ta 'akademik dayanak bulunamadı' diye düşülsün.

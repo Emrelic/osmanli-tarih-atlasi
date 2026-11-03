@@ -74,3 +74,9 @@ Sahiplik tutarsızlıkları:
 - Janet Nelson, *Charles the Bald* (Longman 1992) · Cambridge Medieval History vol. 3: Verdun 10 Ağustos 843 günü.
 - Gregory of Tours, *Historiae* II.27-43 (Clovis 481/486, Vouillé 507) ve Treccani 'Clodoveo' (çekilen sayfa içerik vermedi).
 - Treccani 'Carlo Magno' (Dizionario di Storia) sayfası içerik vermedi: 774/800/814 teyidi.
+
+## KESİN HATA (koordinatör onayı)
+- Verdun: `frank` t ve `bati-francia`/`orta-francia`/`dogu-francia` f `0843-01-01` → **`0843-08-10`** (Treccani ay teyidi; gün tek kaynaklı → `ic_not` beyanı). Kırılan yerleşim uçları ve evrene Verdun maddesi aynı commit'te.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Oxford Reference (Dictionary of World History) «Verdun, Treaty of»: yalnız 843, gün yok. 10 Ağustos tek kaynaklı (Treccani ay) — TDV ya da Nelson 1992 ile teyit edilsin; 01-01 yine de hatalıdır (antlaşma Ağustos).

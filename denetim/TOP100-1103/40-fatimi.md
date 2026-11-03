@@ -70,3 +70,9 @@ Diğer harita bulguları:
 - Encyclopaedia of Islam², «Fāṭimids» (Canard) ve M. Brett, *The Rise of the Fatimids* (2001); Y. Lev, *State and Society in Fatimid Egypt* — soru: hutbe Cuma/10 Eylül 1171 mi 13 Eylül 1171 mi; Şam'ın 969'daki alınışı; Mansûriye 947/948; Kelbîler Fâtımî tâbiliği.
 - TDV «MEKKE» metninin son ~%29'u okunmadı (karakter 100000'den sonrası): 1076-80 ve 1092-1171 Fâtımî dönüşleri için bakılmalı.
 - TDV «KUDÜS», «REMLE», «NABLUS», «TRABLUSŞAM», «ŞAM» maddelerinde Fâtımî dönemleri bu oturumda okunmadı.
+
+## KESİN HATA (koordinatör onayı)
+- Asvan, Feyyûm, Nablus, Remle, Şam Fâtımî `s:` başlangıcı `1000-01-01` (ufuk işareti) → Mısır yerleşimleri **969-07-06** (TDV, Fustat'ın teslimi), Şam **969-11-14** civarı (Muharrem 359 hutbesi; hicrî kesişim KASA'da hesaplansın) + önceki dilimler (İhşîdî) aynı günde kapansın.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Iranica «Fatimids»: yalnız 567/1171 («al-ʿĀżed lay dying in Cairo»). 10/13 Eylül okunmadı ⇒ t 1171-09-13 tek kaynaklı (TDV), `ic_not` beyanı.

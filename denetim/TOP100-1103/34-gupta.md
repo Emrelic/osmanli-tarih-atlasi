@@ -63,3 +63,15 @@ Hiçbir kırılma maddesiz kalmaz, çünkü s: dilimi henüz yok; dilimler eklen
 - Cambridge History of India / Cambridge Illustrated History: 550 civarı etkin Gupta sonu için ikinci akademik kaynak.
 - Fleet, *Corpus Inscriptionum Indicarum III*: Allahabad Sütunu yazıtı (Samudragupta'nın fethettiği yerler: Mathura, Ayodhya vb.) — yerleşim s: kaynakları için.
 - Treccani 'Gupta' sayfası okundu ama ulaştığı tarih 529 (Yasodharman) kaynak metin belirsizliği: tam madde metni teyit.
+
+## Koordinatör kararı
+- `gupta` t: TDV yoksa Majumdar III (543'te üstün efendi, 550'de yetki bitmiş) + Enc. Ital. (529) + öteki akademik kaynak — en az iki kaynakla 540/550 seçimi `ic_not` beyanıyla. Bu dosyanın önerisi **0550-01-01** (Majumdar; 543 bakır levha hibesiyle tutarlı); Enc. Ital. 529 çelişkisi beyan edilsin. HAVVA SALI'ya JSTOR sorusu gitti.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Budha Prakash, «Last Days of the Gupta Empire», *ABORI* 27 (1946) s. 139 (jstor.org/stable/41784870):
+  Magadha hâkimiyeti Damodarpur yazıtı No. 5 «dated 543 A. D.» ile; Sonraki Gupta III. Kumaragupta 535-550,
+  ardından Maukhari İşanavarman 550-555.
+- **Hüküm (UMIT SALI):** Majumdar III + Prakash 1946 iki bağımsız akademik kaynak: son kesin tanık 543, imparatorluk
+  yetkisinin bitişi c. 550 (Maukhari üstünlüğü). `gupta` t **0550-01-01** + kesinlik onyil + `ic_not`: "son
+  yazıt tanığı 543 (Damodarpur 5); 550 Maukhari üstünlüğü — Majumdar III, Prakash ABORI 27:139; Enc. Ital. 529
+  çelişir". Atlasın 0540'ı hiçbir kaynakla örtüşmüyor.

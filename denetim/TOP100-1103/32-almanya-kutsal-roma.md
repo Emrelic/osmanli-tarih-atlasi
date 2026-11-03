@@ -79,3 +79,18 @@ Toplam: 57 açık = ~21 "madde var, yer_id tutmuyor" (kolay çözüm) + ~25 ger�
 - Peter H. Wilson, Heart of Europe (Harvard UP 2016) · Cambridge Medieval History vol. 3: Verdun gününün (10 Ağustos 843) ikinci akademik teyidi.
 - Treccani 'Bolla d'Oro', 'Augusta, Pace di' (slug bulunamadı): 25 Aralık 1356 ve 25 Eylül 1555.
 - Rheinbundakte 12 Temmuz 1806 metni (de.wikisource ya da HLB): tarih.
+
+## Koordinatör kararı — OZET'te en üstte
+`almanya` tek künyesi (962-1945) ardıl künyelere bölünsün — öneri:
+`kutsal-roma` 962-02-02 → 1806-08-06 · (Ren Konfederasyonu ayrı, Fransız himayesi 1806-07-12 → 1813) ·
+`alman-konfederasyonu` 1815-06-08 → 1866-08-23 (künye var, 0 yerleşim) · Kuzey Alman Konfederasyonu
+1867-07-01 → 1871-01-18 · `alman-imparatorlugu` 1871-01-18 → 1918-11-09 · `weimar` 1918-11-09 → 1933-03-23 ·
+`nazi-almanya` 1933-03-23 → 1945-06-05. Bölünme tavan + renk (renkler.py BOYALAR = tuz) işidir;
+**Emre sabah karar verir.** Günler bu dosyanın b) bölümündeki kaynaklarla KASA'da teyit edilsin.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- **Kutsal Roma'nın sonu — kaynaklı:** P. H. Wilson, «Bolstering the Prestige of the Habsburgs: The End of the
+  Holy Roman Empire in 1806», *International History Review* 28/4 (2006) s. 709-736: II. Franz tacı «on 6 August»
+  1806 bıraktı ⇒ Treccani + Wilson **1806-08-06 çift teyit**.
+- **Ren Konfederasyonu senedi:** A. W. Ward, *EHR* 32 (1917) s. 418-427 («not signed till 12 July 1806») ve
+  M. E. Hay, *IHR* 38/3 (2016) s. 482-504 ⇒ **1806-07-12 çift teyit** (arama özetleri).

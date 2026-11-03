@@ -69,3 +69,6 @@ Sonuç: en geniş an -111'de 6 yerleşim; harita 224'e dek bu 6 noktaya yaslanı
 - A.D.H. Bivar, «The Political History of Iran under the Arsacids», Cambridge History of Iran 3(1), 1983, s. 21-99 — archive.org/details/Bivar1983ArsacidsCHI03 (djvu.txt çekilemedi: 404). Soru: Arsaces/Tiridates tarihleri; Hormozdgan günü; başkent Nisa→Ktesiphon.
 - Debevoise, *A Political History of Parthia* (1938) — archive.org `Debevoise1938Parthia` tam metin çekilemedi (katalog sayfası geldi).
 - Britannica «Arsacid dynasty» — 403.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Iranica «Arsacids ii» (Widengren): Ardavan IV «decisive battle, probably on 28 April 224». Iranica «Ardašīr I» (Wiesehöfer) aynı gün ⇒ `part` t **0224-04-28 çift teyit** (Iranica iki madde, Nöldeke'ye dayanır; TDV yıl 224). CAIS dayanağı `kaynak:`tan çıkarılsın.

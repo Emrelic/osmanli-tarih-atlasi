@@ -173,3 +173,13 @@ Tarih: 3 Kasım 2026 · Ağaç: `umit-1103-top100` worktree (HEAD e31155f42 + ye
 - yerleşim `s:` uçlarının kalan ~150 farklı günü (Osmanlı-Rus savaş/antlaşma günleri, 1915-17 Kafkas cephesi) tek tek sınanmadı: bunların çoğu Gregoryen antlaşma günü (Edirne 1829-09-14, Paris 1856-03-30, Ayastefanos 1878-03-03, Berlin 1878-07-13, Portsmouth 1905-09-05) ya da TAKVİM-1015 çevirisi görünüyor; 1636-1754 Sibirya/Ural kuruluşları, 1881-01-30 Geok-Tepe, 1882-03-22 Kulca, 1864-07-01 Maykop, 1810-07-11 Sohum, 1735-08-23 / 1732-09-02 (Reşt tahliyesi: olaylar_p0060.js:28 «eski takvim 22 Ağustos → 2 Eylül 1732» yerleşime Gregoryen girmiş = B) ölçülmedi.
 - Kronoloji dışındaki `olaylar*` dosyalarında Rus olayı olup `Jülyen` sözcüğü taşımayan ama Jülyen günü yazılmış maddeler yalnız çift-gün (fark = takvim farkı) testiyle arandı; testten kaçan tek-kaynaklı olay günleri bulunamayabilir.
 
+
+## Koordinatör kararı — Azak 1696 (EMRELİC 1 KASIM, 4 Kasım gecesi)
+Kaynağın verdiği Jülyen gün bulunur, +10 gün eklenerek Gregoryene çevrilir, `ic_not`ta beyan edilir.
+Atlastaki adaylar: ESBE (Rus) 18 Temmuz 1696 Jülyen → **1696-07-28** Gregoryen · olaylar_ek3.js:60 ve
+savaslar.js:1110 19 Temmuz (takvimi belirsiz) · TDV / yerlesimler.js:741 6 Ağustos 1696.
+**UMIT SALI hükmü:** TDV'nin 6 Ağustos'u Osmanlı tarafının (kalenin teslimi/tahliyesi) günü olabilir;
+CLAUDE.md "rakamı taşıyan cümlenin neyi tarihlediğini oku". KASA TDV «Azak» cümlesini okusun:
+teslim/tahliye günüyse yerleşim `s:` ucu 1696-08-06 (TDV esas), Rus kaynağının 18 Temmuz'u (Jülyen) =
+1696-07-28 teslim antlaşması/teslim alma günü olarak madde `ic_not`unda iki kaynakla beyan edilir;
+aynı olaysa TDV esas, çelişki beyan. Koordinatörün "19 Temmuz" günü kaynaksızdır, dayanak alınmaz.

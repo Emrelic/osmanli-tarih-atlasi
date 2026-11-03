@@ -74,3 +74,10 @@ En geniş an 1406: 129 yerleşim — Mısır, Suriye, Hicaz, Kilikya sınırlar�
 - Encyclopaedia of Islam², «Mamlūks» (Ayalon) / «Aybak» — 1250 günü; Akkâ 18 Mayıs 1291 günü.
 - Iranica yok (konu dışı). TDV `trablus`, `sis`, `misis` maddeleri çekilemedi/denenmedi (Trablus 1289, Sis 1375).
 - Şam'ın Osmanlı'ya geçiş günü: TDV `sam` — denenmedi.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- **Akkâ 1291 — çift teyit:** E. J. Stern, *'Atiqot* 76 (2013) s. 139-168 (açık erişim): «On May 18, 1291»
+  el-Eşref Halil şehri aldı; Y. Tepper, «Stone Artillery Balls from 'Akko», *Akko III*, IAA 2024 s. 787-806:
+  kuşatma 6 Nisan – 18 Mayıs 1291, iç direniş 28 Mayıs'a dek (D'Souza 1990). ⇒ **1291-05-18** + `ic_not`
+  "iç direniş 28 Mayıs'a dek" (sayfalar arama özetinden).
+- Memlûk kuruluşu 1250 (2/4 Mayıs) ve Amasya 1555: JSTOR'da gün bulunamadı ⇒ TDV `seceruddur` (4 Mayıs 1250) esas.

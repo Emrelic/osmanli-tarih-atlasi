@@ -84,3 +84,12 @@ En geniş an 1512: büyük şehirler (Tebriz, Hemedan, İsfahan, Şiraz, Meşhed
 - Iranica «Hormuz» — Hürmüz 1622 günü; Iranica «Gīlān» — 1592.
 - JSTOR: Floor/Herzig vb. «Iran and the World in the Safavid Age» — Kasr-ı Şîrîn (Zuhab) 1639 günü (stable URL aranacak; soru: "Zuhab antlaşması hangi gün imzalandı?").
 - Takvim notu: 1582 öncesi günler Jülyen; hesap ≈1 Muharrem 907 ≈ 1501-07-20 "doğrulanmadı".
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Iranica «Esmāʿīl I Ṣafawī i. Biography»: «crowned Shah at Tabrīz (906-7/1501…)» — 1502 yok, gün yok. **Hüküm (UMIT SALI):** TDV `safeviler` 907/1501 + Iranica ⇒ 1501 çift teyit; TDV `sah-ismail`in 1502 baharı çelişkisi `ic_not`ta beyan. f gün: hicrî 907 ∩ 1501 ⇒ kesişimin ilk günü (1 Muharrem 907, Temmuz 1501 ortası — KASA hicrî tabloyla hesaplasın) + kesinlik yil. Mevcut 1501-07-01 hicrî 907 başından ÖNCE, yanlış.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Amasya 1555: JSTOR'da yalnız yıl (Sanikidze 2018; B. Kurt, *Iranian Studies* 2014) ⇒ TDV `amasya-antlasmasi`
+  **1 Haziran 1555** esas; atlastaki 1555-05-29 (olaylar.js:92 ve künye) TDV'ye çekilsin, `ic_not` beyanı.
+- Zühâb 1639: S. Güngörürler, «Islamic Discourse in Ottoman-Safavid Peacetime Diplomacy after 1049/1639»,
+  *Historicizing Sunni Islam…*, Brill 2021 s. 479-480 — yalnız 1049/1639; 17 Mayıs teyit edilmedi (TDV tek kaynak).

@@ -60,3 +60,6 @@ Not: yerleşim sayısı >0 olduğu için "haritada görünmüyor" değil; ama "g
 - Met Museum / Heilbrunn, «The Seleucid Empire (323–64 B.C.)» https://www.metmuseum.org/essays/the-seleucid-empire-323-64-b-c — 429 (aşırı istek, tekrar denenebilir). Soru: Babil 312, Selevkos Çağı, Pompeius 64/63.
 - Grainger, *The Seleukid Empire of Antiochus III / A Seleukid Prosopography*; Kuhrt–Sherwin-White, *From Samarkhand to Sardis* (1993); Cambridge Ancient History VII.1 (2. bas.) — soru: Selevkos Çağı başlangıcı (1 Nisan MÖ 311) ve Pompeius'un Suriye'yi eyalet yapma yılı (64/63).
 - Treccani «Seleuco I Nicatore» https://www.treccani.it/enciclopedia/seleuco-i-nicatore_(Enciclopedia-Italiana)/ — okunmadı; atlas alıntısı doğrulanmadı.
+
+## KESİN HATA (koordinatör onayı)
+- `data/kronoloji_sinir_antik3_1024.js:25` `-0063` → **`-0064`** (MÖ 65) · `:23` `-0174` → **`-0175`** (MÖ 176). MÖ n → -(n-1) çevirisi.
