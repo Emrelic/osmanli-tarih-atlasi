@@ -87,6 +87,20 @@ L.append("ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız s
 L.append("`s.eksklav` taşıyan dönem: %d (yerleşim %d). Devletlere göre: %s.\n" % (
     len(J["s_eksklav"]), len({e["ad"] for e in J["s_eksklav"]}),
     ", ".join("%s %d" % kv for kv in collections.Counter(e["d"] for e in J["s_eksklav"]).most_common())))
+HUK = {k: v for k, v in json.load(open(os.path.join(BURA, "hukumler.json"), encoding="utf-8")).items()
+       if not k.startswith("_")}
+kc = collections.Counter((h["kova"], h["guven"]) for h in HUK.values())
+L.append("## Hüküm özeti — %d / %d aday hükümlü\n" % (len(HUK), len(sec)))
+L.append("Güven: **OLCUM** = yalnız ölçülmüş veri olgusu (noktasızlık, kayıt alanı, gün çakışması) · "
+         "**KAYNAKLI** = akademik kaynak okundu · **KAYNAK-GEREK** = tarihsel iddia teyitsiz, KASA uygulamadan önce "
+         "kaynak sırasıyla teyit eder, gün uydurulmaz.\n")
+L.append("| kova | OLCUM | KAYNAKLI | KAYNAK-GEREK |")
+L.append("|---|---|---|---|")
+for k in ("GERCEK", "BIRLESMELI", "YAPAY-a", "YAPAY-b", "YAPAY-c", "YAPAY-d", "YAPAY-m"):
+    L.append("| %s | %d | %d | %d |" % (k, kc[(k, "OLCUM")], kc[(k, "KAYNAKLI")], kc[(k, "KAYNAK-GEREK")]))
+L.append("\nKovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YAPAY-c parçanın içindeki "
+         "yerleşimin dönemi yanlış · YAPAY-d kısa ara (gün çakışması) · YAPAY-m motor (veriyle çözülmez) · "
+         "BIRLESMELI ara yerleşime dönem yazılınca parça ana gövdeye bağlanır.\n")
 for baslik, grup in (("① ENKLAV (hepsi, ≥ 50 km²)", [a for t, a in sec if t == "E"]),
                      ("② KARA-EKSKLAV — koridorda yabancı kara (alanı en büyük 100)", [a for t, a in sec if t == "K"])):
     L.append("## %s\n" % baslik)
@@ -100,7 +114,14 @@ for baslik, grup in (("① ENKLAV (hepsi, ≥ 50 km²)", [a for t, a in sec if t
         L.append("- koridor: %s" % kor(a))
         L.append("- içindeki yerleşimler (%d, s.eksklav %d): %s" % (len(a["yerlesimler"]), eks, yer(a["yerlesimler"])))
         L.append("- koridor yerleşimleri: %s" % yer(a.get("koridor_yer"), 10))
-        L.append("- **HÜKÜM:** _bekliyor_\n")
+        h = HUK.get(a["no"])
+        if not h:
+            L.append("- **HÜKÜM:** _bekliyor_\n")
+        else:
+            L.append("- **HÜKÜM: %s** · kova `%s` · güven `%s`" % (h["hukum"], h["kova"], h["guven"]))
+            L.append("  - gerekçe: %s" % h["gerekce"])
+            L.append("  - önerilen düzeltme: %s" % h["duzeltme"])
+            L.append("  - kaynak: %s\n" % h["kaynak"])
 open(os.path.join(BURA, "ADAYLAR.md"), "w", encoding="utf-8").write("\n".join(L))
 json.dump([a for _, a in sec], open(os.path.join(BURA, "adaylar.json"), "w", encoding="utf-8"),
           ensure_ascii=False, indent=1)

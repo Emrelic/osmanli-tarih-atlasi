@@ -26,6 +26,22 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 
 `s.eksklav` taşıyan dönem: 247 (yerleşim 197). Devletlere göre: venedik 69, fransa-cumhuriyet 52, italya 37, ispanya 26, avusturya-hollandasi 17, kuzey-yuan 12, ingiltere 11, sardinya 4, almanya 2, fransa 2, mehdi 2, rusya 2, ingiliz-hindistani 2, kongo-serbest-devleti 2, ingiliz-malaya 2, sicilya-aragon 1, burgonya 1, timurlu 1, portekiz 1, hollanda 1.
 
+## Hüküm özeti — 65 / 221 aday hükümlü
+
+Güven: **OLCUM** = yalnız ölçülmüş veri olgusu (noktasızlık, kayıt alanı, gün çakışması) · **KAYNAKLI** = akademik kaynak okundu · **KAYNAK-GEREK** = tarihsel iddia teyitsiz, KASA uygulamadan önce kaynak sırasıyla teyit eder, gün uydurulmaz.
+
+| kova | OLCUM | KAYNAKLI | KAYNAK-GEREK |
+|---|---|---|---|
+| GERCEK | 0 | 0 | 10 |
+| BIRLESMELI | 8 | 0 | 2 |
+| YAPAY-a | 18 | 0 | 3 |
+| YAPAY-b | 3 | 0 | 1 |
+| YAPAY-c | 3 | 0 | 7 |
+| YAPAY-d | 4 | 0 | 1 |
+| YAPAY-m | 5 | 0 | 0 |
+
+Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YAPAY-c parçanın içindeki yerleşimin dönemi yanlış · YAPAY-d kısa ara (gün çakışması) · YAPAY-m motor (veriyle çözülmez) · BIRLESMELI ara yerleşime dönem yazılınca parça ana gövdeye bağlanır.
+
 ## ① ENKLAV (hepsi, ≥ 50 km²)
 
 ### E001 · Timurlu valiliği (`timurlu`) · 1383-01-01 → 1387-11-01 · 253.511 km²
@@ -35,7 +51,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 267.6 km · muzafferi 9/9
 - içindeki yerleşimler (74, s.eksklav 0): Senendec (Sine) (sahipsiz); Merîvan (timurlu); Bîcâr (sahipsiz); Bâne (sahipsiz); Ebher (Abhar) (sahipsiz); Sakkız (timurlu); Sultâniye (timurlu); Izirtu (sahipsiz) … +66
 - koridor yerleşimleri: Tahran (muzafferi); Kazvin (muzafferi)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Timur Sultâniye'yi 1385'te aldı (Âdil Ağa'ya verdi), Tebriz 1386. 1383-84'te Sultâniye/Sakkız/Merîvan Celâyirli idi. 74 yerleşimin çoğu sahipsiz: alan noktasız emilmeyle 253 bin km²ye şişmiş. Koridordaki Tahran/Kazvin 'muzafferi' kaydı da şüpheli.
+  - önerilen düzeltme: Sultâniye, Sakkız, Merîvan: timurlu f → 1385 (gün bulunamadı), öncesi celayirli. Tahran, Kazvin 1383-87 sahibi kaynakla sınansın. Parça içindeki sahipsiz noktalar (Senendec, Bîcâr, Bâne, Ebher…) Değişmez 1 açısından ayrıca bakılsın.
+  - kaynak: DergiPark makalesi dergipark.org.tr/en/download/article-file/3863407 (Sultâniye 1385, Âdil Ağa) — alt ajan; Iranica 'Timur' çekilemedi
 
 ### E002 · Kutsal Roma / Almanya (`almanya`) · 1941-07-11 → 1944-06-28 · 169.996 km²
 
@@ -44,7 +63,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 212.1 km · ostland 9/9
 - içindeki yerleşimler (7, s.eksklav 0): Kursk (almanya); Orel (almanya); Gomel (Homel) (almanya); Smolensk (almanya); Mogilev (Mahilyow) (almanya); Vitebsk (almanya); Bryansk (almanya)
 - koridor yerleşimleri: Minsk (ostland)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `KAYNAK-GEREK`
+  - gerekçe: Smolensk–Orel–Kursk–Gomel Alman askerî idaresi ile Reichskommissariat Ostland bitişikti; kopukluk Ostland'ın ayrı devlet boyanmasından. Ayrıca çevre %100 'sovyet-rusya': Sol yaka Ukrayna noktalarında (Poltava, Çuguyev, Sumı, Yekaterinoslav, Kremençuk) 1941-43 Alman işgali yok (ölçüldü, bkz. E046).
+  - önerilen düzeltme: Model kararı (KASA/koordinatör): Ostland–Almanya askerî idare bağlılığı beyan ya da tek tutucu. Veri: Sol yaka Ukrayna şehirlerine 1941-43 işgal dönemleri (E046 kovası).
+  - kaynak: bulunamadı (Smolensk 16.07.1941, Orel 03.10.1941, Bryansk 06.10.1941 — teyitsiz)
 
 ### E003 · Britanya (`ingiltere`) · 1885-02-05 → 1923-10-29 · 133.909 km²
 
@@ -53,7 +75,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 797.2 km · DENIZ/BOS 6/9, italya 2/9, fransa-cumhuriyet 1/9
 - içindeki yerleşimler (9, s.eksklav 2): Bûr Sûdân (sahipsiz); Akīk (ingiltere); Tokar (ingiltere); Trinkitât (ingiltere); Sevâkin (ingiltere); Derûdeb (ingiltere); Hayyâ (ingiltere); Sinkat (ingiltere) … +1
 - koridor yerleşimleri: Cibûtî (fransa-cumhuriyet); Tacûra (fransa-cumhuriyet); Dehlek-i Kebîr (sahipsiz); Dahlak (italya)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Sevâkin ve Kızıldeniz kıyısı 1885-98 Mehdîlere karşı İngiliz-Mısır elinde: gerçek enklav. 1898 Ümmüderman sonrası Sudan bütünüyle Anglo-Mısır; 1898-1923 kısmı YAPAY (Mehdî boyası sürüyor olabilir). Alan noktasız emilmeyle şişkin.
+  - önerilen düzeltme: 1898-99 sonrası Sudan iç noktalarında mehdi dönemi biter mi sınansın; Sevâkin vb. s: tutarlılığı. Gün bulunamadı.
+  - kaynak: bulunamadı (TDV 'Sevâkin' önerilir)
 
 ### E004 · Güney Afrika Birliği (`guney-afrika-birligi`) · 1915-07-09 → 1920-12-17 · 44.658 km²
 
@@ -62,7 +87,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 244.1 km · DENIZ/BOS 6/9, KENDI 3/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Güneybatı Afrika noktaları (Gobabis, Aranos) 1915-07-09 → 1920-12-17 'ingiltere'; aynı aralıkta komşu noktalar 'guney-afrika-birligi'. Bölge Güney Afrika Birliği askerî işgalinde/idaresindeydi (Khorab 9.7.1915); karışık sahiplik parçayı çevreletiyor. Parçada nokta yok.
+  - önerilen düzeltme: Güneybatı Afrika'daki bütün noktalar: 1915-07-09 → 1920-12-17 d:'ingiltere' → 'guney-afrika-birligi' (Gobabis, Aranos ve aynı dönemi taşıyanlar). Kaynak ile teyit.
+  - kaynak: veri ölçümü; tarih: Khorab teslimi 9.7.1915 (kaynak gerek: Cambridge History of Africa c.7)
 
 ### E005 · Afşâr Devleti (Nâdir Şah) (`afsar`) · 1747-06-20 → 1785-01-01 · 44.542 km²
 
@@ -71,7 +99,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 79.4 km · zend 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Nîşâbur (afsar); Sebzevâr (afsar); Meşhed (afsar); Tûs (afsar)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Nâdir sonrası Afşar hâkimiyeti Meşhed merkezli Horasan'a çekildi (Şâhruh 1748-96). Çekirdek gerçek; ama çevrenin %94 'zend' olması şüpheli — Zendler Horasan'a uzanmadı.
+  - önerilen düzeltme: Horasan çevresi (Tûs/Nîşâbur dışı) noktalarında 1747-85 zend dönemleri sınansın.
+  - kaynak: Kyoto Üniv. deposu 2433/155132 (özet); Iranica 'Afsharids' çekilemedi
 
 ### E006 · İngiliz Hindistanı (Şirket ve Taç Dönemi) (`ingiliz-hindistani`) · 1803-02-18 → 1818-01-01 · 32.788 km²
 
@@ -80,7 +111,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 8.0 km · DENIZ/BOS 9/9
 - içindeki yerleşimler (5, s.eksklav 0): Valabhi (sahipsiz); Kanbâyet (Khambhat) (ingiliz-hindistani); Lothal (sahipsiz); Wadhwan (Vardhamana) (ingiliz-hindistani); Dholka (ingiliz-hindistani)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: 1803-18'de İngilizler Gucerat'ta Surat/Broach/Kaira'yı tuttu; Wadhwan (Kathiawar) ve Dholka doğrudan İngiliz değildi (Dholka 1817-18'e dek Peşva/Gaekwad).
+  - önerilen düzeltme: Wadhwan, Dholka: 1818 öncesi ingiliz-hindistani dönemi kaldırılsın/düzeltilsin; gün bulunamadı.
+  - kaynak: bulunamadı (Imperial Gazetteer of India 'Kaira', 'Ahmadabad' önerilir)
 
 ### E007 · Delhi Sultanlığı (`delhi-sultanligi`) · 1297-01-01 → 1304-01-01 · 32.733 km²
 
@@ -89,7 +123,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 15.1 km · racput 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Lothal (sahipsiz); Wadhwan (Vardhamana) (delhi-sultanligi); Dholka (delhi-sultanligi); Ahmedâbâd (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Delhi'nin Gucerat fethi 1299 (Ulug Han/Nusret Han), Vaghela 1304'te düştü; arada Racput toprakları. 1297 başlangıcı erken (YAPAY-c kısmı).
+  - önerilen düzeltme: Wadhwan/Dholka delhi-sultanligi f 1297 → 1299 (gün bulunamadı).
+  - kaynak: bulunamadı (TDV 'Alâeddin Halcî' önerilir)
 
 ### E008 · Racput Devletleri (`racput`) · 1311-01-01 → 1365-01-01 · 32.239 km²
 
@@ -98,7 +135,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 137.9 km · delhi-sultanligi 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (1, s.eksklav 0): Çitor (Chittorgarh) (racput)
 - koridor yerleşimleri: Codhpûr (Jodhpur) (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Çitor 1303'te Delhi'ye düştü; Hammîr 1321 ya da 1326'da geri aldı. 1311 başlangıcı erken; 1326 sonrası gerçek.
+  - önerilen düzeltme: Çitor racput f 1311 → 1321/1326 (kaynak çelişkisi ic_not'a); öncesi delhi-sultanligi.
+  - kaynak: yalnız Vikipedi ipucu — akademik bulunamadı
 
 ### E009 · Kırım Hanlığı (`kirim`) · 1777-01-01 → 1783-04-19 · 32.069 km²
 
@@ -107,7 +147,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 8.0 km · DENIZ/BOS 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Stavropol–Kuma bozkırı (kirim)
 - koridor yerleşimleri: Nizhny Arkhyz (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `KAYNAK-GEREK`
+  - gerekçe: Tek nokta bir bölge adı ('Stavropol–Kuma bozkırı'); Stavropol 1777'de Rus kalesi. Hanlık 1777-83 Rus himayesinde; bölge noktasız emilme.
+  - önerilen düzeltme: 'Stavropol–Kuma bozkırı' kirim 1777-83 dönemi kaynakla sınansın; yoksa kırp.
+  - kaynak: bulunamadı (TDV 'Şâhin Giray' önerilir)
 
 ### E010 · Nogay Ordası (`nogay`) · 1556-01-01 → 1663-01-01 · 31.504 km²
 
@@ -116,7 +159,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 26.0 km · rusya 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Penza (nogay)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Penza 1663'te Rus kalesi olarak kuruldu; 1556-1663 'Penza (nogay)' o devirde yoktu (merdiven ④).
+  - önerilen düzeltme: Penza: kur 1663 (gün bulunamadı), nogay dönemleri silinsin; toprak komşu peteklere kalır.
+  - kaynak: bulunamadı
 
 ### E011 · Moğulistan (Doğu Çağatay Hanlığı) (`mogulistan`) · 1485-01-01 → 1503-01-01 · 26.922 km²
 
@@ -125,7 +171,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 267.3 km · timurlu 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (1, s.eksklav 0): Taşkent (mogulistan)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Yûnus Han Taşkent'i 1484'te aldı, Mahmud Han 1503'e dek tuttu. Çekirdek gerçek; koridorun 8/9 'timurlu' boyanması şüpheli (arada Kazak/Özbek bozkırı).
+  - önerilen düzeltme: Taşkent mogulistan f 1485 → 1484 (gün bulunamadı); koridor bozkır noktaları sınansın.
+  - kaynak: yalnız Vikipedi ipucu
 
 ### E012 · Kutsal Roma / Almanya (`almanya`) · 1941-10-03 → 1941-10-06 · 26.625 km²
 
@@ -134,7 +183,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 119.1 km · sovyet-rusya 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Orel (almanya)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `KAYNAK-GEREK`
+  - gerekçe: Orel 03.10.1941'de Guderian'ın Sevsk–Kromı ekseniyle alındı; ileri uç Alman hattına bağlıydı. 3 günlük kopukluk koridorda (Sevsk, Dmitrovsk, Kromı) nokta olmamasından (koridor yerleşimi 0, ölçüldü). [alt ajan GERÇEK demişti; LAB SALI düzeltti]
+  - önerilen düzeltme: Koridora nokta (Sevsk ya da Kromı) + 1941-10 Alman dönemi, kaynakla; yoksa beyanlı kabul.
+  - kaynak: bulunamadı
 
 ### E013 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1727-01-01 → 1756-01-01 · 26.574 km²
 
@@ -143,7 +195,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 34.0 km · racput 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (babur-imparatorlugu)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı.
+  - önerilen düzeltme: 1720-30'lar Codhpûr fiilî hâkimiyeti sınansın.
+  - kaynak: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')
 
 ### E014 · İngiliz Hindistanı (Şirket ve Taç Dönemi) (`ingiliz-hindistani`) · 1818-06-25 → 1947-08-15 · 26.574 km²
 
@@ -152,7 +207,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 34.0 km · racput 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (ingiliz-hindistani)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Ajmer-Merwara 1818-1947 İngiliz doğrudan idaresi, Rajputana içinde klasik enklav. Gerçek alan ~7.000 km²; petek 26.574 km² (noktasız emilme abartısı).
+  - önerilen düzeltme: yok (alan abartısı için Merwara çevresine Racput noktası önerilir)
+  - kaynak: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')
 
 ### E015 · Maratha Konfederasyonu (`maratha`) · 1756-01-01 → 1818-06-03 · 26.574 km²
 
@@ -161,7 +219,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 122.1 km · racput 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (maratha)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Ecmîr 1756'dan Sindia (Maratha) elinde, 1818'de İngiliz. 1787-91 Racput geri alışı sınanmalı.
+  - önerilen düzeltme: 1756-01-01 yıl-başı; gün bulunamadı.
+  - kaynak: bulunamadı
 
 ### E016 · Haydarâbâd Nizamlığı (`haydarabad-nizam`) · 1853-05-21 → 1948-09-17 · 23.277 km²
 
@@ -170,7 +231,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 34.0 km · ingiliz-hindistani 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Evrengâbâd (haydarabad-nizam); Devagiri (Devletâbâd) (haydarabad-nizam)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `KAYNAK-GEREK`
+  - gerekçe: 1853 antlaşmasıyla Berar İngilizlere atandı; Nizam'ın Marathwada'sı (Evrengâbâd) Nanded hattında ana gövdeye bitişikti. 34 km 'İngiliz koridoru' Berar peteğinin noktasız şişmesi.
+  - önerilen düzeltme: Nanded/Hingoli'ye Nizam noktası (kaynakla).
+  - kaynak: bulunamadı (Aitchison, Treaties)
 
 ### E017 · Emîr Abdülkādir Devleti (`abdulkadir`) · 1832-11-22 → 1841-05-30 · 22.032 km²
 
@@ -179,7 +243,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 226.3 km · fransa-cumhuriyet 9/9
 - içindeki yerleşimler (3, s.eksklav 2): Bû Sa'âde (abdulkadir); Mesîle (abdulkadir); Kal‘atü Benî Hammâd (sahipsiz)
 - koridor yerleşimleri: Tâhert (Tiaret) (fransa-cumhuriyet)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `KAYNAK-GEREK`
+  - gerekçe: Tâhert/Tagdemt 1841 Mayıs'ında Bugeaud yıkana dek Emîr'in iç merkeziydi; atlas Tâhert'i fransa yaparak Mesîle–Bû Saâde parçasını ayırıyor.
+  - önerilen düzeltme: Tâhert (Tiaret): fransa-cumhuriyet f → 1841-05 sonrası (gün bulunamadı), arası abdulkadir.
+  - kaynak: TDV 'Abdülkādir el-Cezâirî' (tam metin çekilemedi)
 
 ### E018 · Âdilşâhî Sultanlığı (Bîcâpûr) (`bicapur`) · 1686-09-12 → 1686-09-22 · 22.014 km²
 
@@ -188,7 +255,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 377.6 km · babur-imparatorlugu 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Kalyani (Basavakalyan) (bicapur)
 - koridor yerleşimleri: Kurnûl (Kurnool) (babur-imparatorlugu); Manyakheta (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit.
+  - önerilen düzeltme: Kalyani (Basavakalyan) bicapur dönemi 1657 sonrası kaldırılsın (gün bulunamadı).
+  - kaynak: yalnız Vikipedi ipucu
 
 ### E019 · Umman-Zengibar Sultanlığı (`umman-zengibar`) · 1893-01-01 → 1893-03-04 · 20.413 km²
 
@@ -197,7 +267,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 882.9 km · DENIZ/BOS 4/9, kongo-serbest-devleti 3/9, alman-dogu-afrikasi 2/9
 - içindeki yerleşimler (1, s.eksklav 0): Nyangve (Nyangwe) (umman-zengibar)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Nyangwe'yi Svahili-Arap tüccar beylikleri tuttu; Zengibar sultanlığı orada fiilî hâkim değildi. 883 km koridor.
+  - önerilen düzeltme: Nyangwe 1893 öncesi sahibi kaynakla; Kongo Serbest Devleti 04.03.1893 (teyitsiz).
+  - kaynak: bulunamadı
 
 ### E020 · Reichskommissariat Ostland (`ostland`) · 1944-07-27 → 1944-08-01 · 18.450 km²
 
@@ -206,7 +279,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 44.6 km · sovyet-rusya 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Kaunas (ostland); Litvanya (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Bagration sonrası Sovyetler 27.07.1944'te Şiauliai'ye ulaşıp Litvanya cebini Letonya'dan kesti; Kaunas 01.08.1944. 5 günlük cephe anı.
+  - önerilen düzeltme: yok
+  - kaynak: bulunamadı
 
 ### E021 · Uzak Doğu Cumhuriyeti (Çita Cumhuriyeti) (`uzak-dogu-cumhuriyeti`) · 1920-11-10 → 1922-11-14 · 16.466 km²
 
@@ -233,7 +309,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 109.8 km · kuzey-yuan 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Dali (ming-hanedani)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Dali 1382-01-06'dan ming, çevresi (Chuxiong, Yuanjiang, Tonghai) 1382-01-15'e dek kuzey-yuan. Dali'nin (Duan ailesi) Ming'e düşüşü Kunming'den sonradır; Dali'nin ming başlangıcı Kunming'le aynı güne yazılmış görünüyor.
+  - önerilen düzeltme: Dali ming f 1382-01-06 → Dali'nin fethi (1382 baharı; gün bulunamadı), arası kuzey-yuan/Duan. Kaynak: Cambridge History of China c.7 ya da Ming Shilu.
+  - kaynak: veri ölçümü; tarih kaynak gerek
 
 ### E024 · Milliyetçi İspanya (Franco, Burgos) (`ispanya-milliyetci`) · 1936-07-18 → 1936-08-14 · 13.470 km²
 
@@ -260,7 +339,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 115.6 km · DENIZ/BOS 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Katima Mulilo (ingiltere)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Caprivi (Katima Mulilo 'ingiltere') çevresinde noktasız yüz Güney Afrika noktasına emiliyor; parçanın tek noktası Katima Mulilo başka sahipli. E004 ile aynı karışık sahiplik.
+  - önerilen düzeltme: E004 düzeltmesi + Caprivi'nin 1915-20 sahibi (Bechuanaland idaresi) kaynakla sınansın.
+  - kaynak: veri ölçümü
 
 ### E027 · Timurlu valiliği (`timurlu`) · 1393-08-29 → 1394-01-01 · 12.177 km²
 
@@ -440,7 +522,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 205.9 km · sovyet-rusya 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: Harkov'un güneybatısındaki noktasız yüz (49,82K 35,85D) Harkov peteğine emiliyor; Harkov 1941-10 → 1943-02 almanya, çevresi ise sovyet-rusya: Poltava, Çuguyev, Sumı, İzyum, Yekaterinoslav, Kremençuk, Lubnı, Bahmut 1917-11-07 → 1991-08-24 kesintisiz sovyet-rusya (ölçüldü). Bu şehirlerin Alman işgali yazılmamış.
+  - önerilen düzeltme: Poltava, Çuguyev, Sumı, İzyum, Yekaterinoslav (Dnipro), Kremençuk, Lubnı, Bahmut: 1941-43 Alman işgali dönemleri (günler kaynakla; ör. Poltava 1941-09-18 → 1943-09-23 teyitsiz). Ek: yetim yüze nokta (Merefa ya da Valki).
+  - kaynak: veri ölçümü; günler için Encyclopedia of Ukraine (CIUS) önerilir
 
 ### E047 · Kutsal Roma / Almanya (`almanya`) · 1943-03-15 → 1943-08-23 · 6.040 km²
 
@@ -449,7 +534,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 214.3 km · sovyet-rusya 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: E046 ile aynı yetim yüz, Harkov'un 1943-03-15 → 08-23 ikinci Alman dönemi.
+  - önerilen düzeltme: E046 kovası.
+  - kaynak: veri ölçümü
 
 ### E048 · Güney Rusya Silahlı Kuvvetleri ve Hükûmeti (Denikin → Wrangel) (`guney-rusya-beyaz`) · 1919-08-01 → 1919-12-11 · 6.040 km²
 
@@ -458,7 +546,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 415.4 km · sovyet-rusya 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: Aynı yetim yüz; Harkov 1919-06-25 → 12-11 guney-rusya-beyaz, çevre (Poltava, Çuguyev…) sovyet-rusya. Denikin ordusu 1919 yazında Poltava ve Yekaterinoslav'ı da aldı.
+  - önerilen düzeltme: Sol yaka Ukrayna noktalarına 1919 Güney Rusya Silahlı Kuvvetleri dönemi (günler kaynakla).
+  - kaynak: veri ölçümü; günler kaynak gerek
 
 ### E049 · Ukrayna Devleti (Skoropadski Hetmanlığı) (`ukrayna-devleti-1918`) · 1918-04-29 → 1918-12-14 · 6.040 km²
 
@@ -467,7 +558,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 146.9 km · sovyet-rusya 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: Aynı yetim yüz; Harkov 1918-04-29 → 12-14 ukrayna-devleti-1918 (Hetmanlık), çevredeki Poltava, Çuguyev, Yekaterinoslav, Kremençuk, Lubnı ise sovyet-rusya. Hetmanlık bu şehirleri de kapsıyordu.
+  - önerilen düzeltme: Sol yaka Ukrayna noktalarına Harkov'un 1918 zinciri (ukrayna-halk-cumhuriyeti 04-19→04-29, ukrayna-devleti-1918 04-29→12-14, ukrayna-halk-cumhuriyeti 12-14→1919-01-03), her şehir kendi günüyle kaynakla.
+  - kaynak: veri ölçümü; Encyclopedia of Ukraine 'Hetman government' önerilir
 
 ### E050 · Ukrayna Halk Cumhuriyeti (`ukrayna-halk-cumhuriyeti`) · 1918-04-19 → 1918-04-29 · 6.040 km²
 
@@ -476,7 +570,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 146.9 km · sovyet-rusya 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: E049 ile aynı — Ukrayna Halk Cumhuriyeti 1918-04-19 → 04-29.
+  - önerilen düzeltme: E049 kovası.
+  - kaynak: veri ölçümü
 
 ### E051 · Ukrayna Halk Cumhuriyeti (`ukrayna-halk-cumhuriyeti`) · 1918-12-14 → 1919-01-03 · 6.040 km²
 
@@ -485,7 +582,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 146.9 km · sovyet-rusya 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: E049 ile aynı — UHC 1918-12-14 → 1919-01-03.
+  - önerilen düzeltme: E049 kovası.
+  - kaynak: veri ölçümü
 
 ### E052 · Transkafkasya (Federasyon) (`transkafkasya`) · 1918-02-24 → 1918-02-28 · 5.766 km²
 
@@ -494,7 +594,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 16.5 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Gümüşhane (transkafkasya)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `OLCUM`
+  - gerekçe: Gümüşhane transkafkasya → 1918-02-28 (TDV gumushane, kayıtta). Çevresi 02-24'te Osmanlı'ya dönmüş: 4 günlük cep, komşu noktaların kurtuluş günleri ile TDV günü arasındaki farktan.
+  - önerilen düzeltme: Gümüşhane–Trabzon–Kelkit hattındaki komşuların 1918 kurtuluş günleri TDV ile karşılaştırılsın; TDV esastır, çelişki ic_not'a.
+  - kaynak: TDV gumushane (kayıtta, 28 Şubat 1918)
 
 ### E053 · Papalık (`papalik`) · 1155-01-01 → 1809-05-17 · 5.706 km²
 
@@ -656,7 +759,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 53.2 km · arjantin-cumhuriyeti 8/9, paraguay-cumhuriyeti 1/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: 120 km içinde hiç nokta yok (Corrientes/Misiones, -28,2 -57,1). Arjantin içindeki 'Brezilya' parçası noktasız yüz.
+  - önerilen düzeltme: Arjantin noktası (ör. Santo Tomé ya da Paso de los Libres) kaynakla.
+  - kaynak: veri ölçümü
 
 ### E071 · Osmanlı (`OSMANLI`) · 1920-04-23 → 1923-10-29 · 2.540 km²
 
@@ -683,7 +789,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 16.4 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Erzincan (transkafkasya)
 - koridor yerleşimleri: Kelkit (OSMANLI)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `OLCUM`
+  - gerekçe: Erzincan transkafkasya → 1918-02-26 (kayıt: TDV erzincan 26 Şubat 1918); komşu Kelkit 02-19'da Osmanlı. 7 günlük cep. Yaygın Türk tarihyazımı Erzincan için 13 Şubat 1918 der; TDV günüyle çelişki ic_not'ta beyan edilmeli.
+  - önerilen düzeltme: TDV erzincan metni yeniden okunsun (26 Şubat neyi tarihliyor?); Kelkit vb. komşuların günleri TDV'ye göre hizalansın.
+  - kaynak: TDV erzincan (kayıtta)
 
 ### E074 · Bağımsız Hırvat Devleti (NDH) (`hirvatistan-bagimsiz`) · 1941-04-10 → 1945-05-06 · 2.190 km²
 
@@ -719,7 +828,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 420.6 km · san-devletleri 7/9, toungoo 2/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Loikaw (san-devletleri); Kalaw (san-devletleri); Ava (İnwa) (toungoo)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Halin konbaung 1752-01-01'den, Alaungpaya'nın merkezi Shwebo (Moksobo) ise 1752-04-23'e dek toungoo. Konbaung'un kurulduğu şehir kendi devletinden sonra başlıyor; parça noktasız.
+  - önerilen düzeltme: Shwebo ve Halin konbaung f aynı kaynaklı güne hizalansın (Alaungpaya'nın taç giymesi 1752; gün kaynakla: Lieberman 1984 ya da Htin Aung).
+  - kaynak: veri ölçümü; gün kaynak gerek
 
 ### E078 · Bağımsız Hırvat Devleti (NDH) (`hirvatistan-bagimsiz`) · 1941-04-10 → 1945-05-06 · 1.689 km²
 
@@ -764,7 +876,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 19.0 km · abdulkadir 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Oran'ın peteği Oran Sebhası'nın (tuz gölü) güneyine taşıyor; göl peteği ikiye bölüyor, güney yarısı abdulkadir/tâbi içinde 1.430 km²lik parça. Sîdî Bel Abbès 1843'e dek yok, Ayn Temûşent 56 km. Oran'ın Fransız dönemi 'eksklav:true'.
+  - önerilen düzeltme: Sebha güneyine (Mekerra/Tlelat) yerel nokta, abi merkez Muaskar zinciriyle (merdiven ⑤). 1831-41 Fransız Oran'ının sınırı Tafna (30.5.1837) metninden okunsun.
+  - kaynak: veri ölçümü
 
 ### E083 · İspanya (`ispanya`) · 1509-05-17 → 1708-04-04 · 1.430 km²
 
@@ -773,7 +888,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 184.6 km · DENIZ/BOS 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Oran (ispanya); Mersa'l-Kebîr (ispanya); Mojácar (ispanya)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `OLCUM`
+  - gerekçe: Aynı Sebha güneyi parçası, İspanyol Oran'ı (1509-1708). Oran ve Mersa'l-Kebîr 'enklav:true' taşıyor (ölçüldü) ama bayrak yalnız yetim yüz devrini keser; kalenin kendi Voronoi hücresi 30+ km içeri uzanıyor. Presidio hinterlandsızdı.
+  - önerilen düzeltme: Motor sorusu (HAVVA): enklav:true noktanın hücresi kale çevresiyle sınırlansın. Veri yolu: Sebha güneyine zeyyani/OSMANLI zincirli nokta. Ek: Mersa'l-Kebîr 1505'te İspanyol oldu, kayıt 1509 diyor (TDV vehran ile sınansın).
+  - kaynak: veri ölçümü
 
 ### E084 · İspanya (`ispanya`) · 1732-07-01 → 1792-09-12 · 1.430 km²
 
@@ -782,7 +900,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 184.6 km · DENIZ/BOS 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Oran (ispanya); Mersa'l-Kebîr (ispanya); Mojácar (ispanya)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `OLCUM`
+  - gerekçe: E083 ile aynı, 1732-1792 ikinci İspanyol dönemi.
+  - önerilen düzeltme: E083 kovası.
+  - kaynak: veri ölçümü
 
 ### E085 · Bağımsız Hırvat Devleti (NDH) (`hirvatistan-bagimsiz`) · 1941-04-10 → 1945-05-06 · 1.407 km²
 
@@ -827,7 +948,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 123.0 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Deyrülkamer (Dayr al-Kamer) (memluk)
 - koridor yerleşimleri: Câbiye (sahipsiz); Ain Mallaha (Eynan) (sahipsiz); Akrabâ (‘Aqrabā) (sahipsiz); Banyas (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `OLCUM`
+  - gerekçe: Ölçüldü: koridordaki Câbiye, Banyas, Ain Mallaha, Akrabâ 1516-09'da SAHİPSİZ. Memlûk Deyrülkamer'i ana gövdeye bağlayacak noktalar sahipsiz kaldığı için 4 günlük enklav.
+  - önerilen düzeltme: Banyas, Câbiye: 1516 Osmanlı fethine dek memluk dönemi (kaynakla). Ain Mallaha, Akrabâ arkeolojik yer ise 1516'da 'o devirde yok' (bit) — merdiven ④.
+  - kaynak: veri ölçümü
 
 ### E090 · Sırp Krajina Cumhuriyeti (RSK; fiilî) (`sirp-krajina-cumhuriyeti`) · 1995-08-05 → 1995-08-07 · 918 km²
 
@@ -836,7 +960,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 95.3 km · bosna-hersek 6/9, hirvatistan 3/9
 - içindeki yerleşimler (1, s.eksklav 0): Benkovac (sirp-krajina-cumhuriyeti)
 - koridor yerleşimleri: Glina (sirp-krajina-cumhuriyeti); Udbina (hirvatistan); Ostrovica (Stara Ostrovica, Kulen Vakuf) (bosna-hersek); Bihaç (Bihać) (bosna-hersek); Krupa (Bosanska Krupa) (bosna-hersek)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAK-GEREK`
+  - gerekçe: Benkovac sirp-krajina → 1995-08-07; Fırtına Harekâtı'nda Benkovac 5 Ağustos 1995'te alındı (teyitsiz). Çevre 08-05'te Hırvat.
+  - önerilen düzeltme: Benkovac t 1995-08-07 → kaynaklı düşüş günü; hirvatistan dönemi eklensin (kayıtta 1995 sonrası dönem YOK — sahipsizlik).
+  - kaynak: bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)
 
 ### E091 · Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş) (`yunanistan-gecici-demokratik-hukumet`) · 1947-12-24 → 1949-08-28 · 900 km²
 
@@ -854,7 +981,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 7.4 km · DENIZ/BOS 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Şavşat (ingiltere); Saylıca (gurcistan-demokratik-cumhuriyeti); Makhalak’auri (ingiltere); Hulo (Acara) (ingiltere)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Şavşat (ingiltere) ile Ardahan/Saylıca (Gürcistan) arasında noktasız yüz; 7 km. Şavşat 1878-1918 Ardahan okrugundaydı, 1919 Batum İngiliz idaresinde gösterilmesi ayrıca sınanmalı.
+  - önerilen düzeltme: Şavşat 1919-20 sahibi kaynakla (Ardahan okrugu ile Gürcistan'a mı geçti?).
+  - kaynak: veri ölçümü
 
 ### E093 · İsviçre Konfederasyonu (`isvicre`) · 1500-04-14 → 1503-01-01 · 758 km²
 
@@ -872,7 +1002,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 40.6 km · belcika 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Uele havzasında 120 km içinde tek nokta (Niangara). Belçika Kongosu içindeki Fransız parçası noktasız yüz.
+  - önerilen düzeltme: Uele'ye Belçika Kongosu noktası (Ango ya da Bondo) kaynakla.
+  - kaynak: veri ölçümü
 
 ### E095 · Osmanlı (`OSMANLI`) · 1918-10-06 → 1920-07-01 · 566 km²
 
@@ -890,7 +1023,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 11.1 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Yagodina (Jagodina) (macaristan-habsburg)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `OLCUM`
+  - gerekçe: Yagodina 1689-09-11 → 09-16 macaristan-habsburg, çevre Osmanlı: 5 günlük cep. D287 Semendire–Jagodina B4 vakasının kardeşi (Jagodina günleri bulunamamıştı).
+  - önerilen düzeltme: D287 B4 kararı bekliyor; Jagodina 1689 Habsburg günü kaynakla.
+  - kaynak: denetim/D3-EKSKLAV-0917.md (bulunamadı beyanı)
 
 ### E097 · Osmanlı (`OSMANLI`) · 1303-01-01 → 1321-04-01 · 523 km²
 
@@ -917,7 +1053,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 2.7 km · ingiliz-hindistani 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Pune yakınında (19,33K 73,88D) 60 km içinde nokta yok. 1803-18'de Pune Peşva başkenti; çevrenin 'ingiliz-hindistani' olması seyrek noktadan.
+  - önerilen düzeltme: Pune (Peşva başkenti) noktası var mı sınansın; yoksa eklensin (maratha → 1817-11-17 İngiliz, kaynakla).
+  - kaynak: veri ölçümü
 
 ### E100 · Polonya Cumhuriyeti (`polonya`) · 1919-08-27 → 1923-10-29 · 265 km²
 
@@ -926,7 +1065,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 39.2 km · romanya-kralligi 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Güney Bukovina'da (47,83K 24,97D) 80 km içinde nokta yok; Romanya içinde 'Polonya' parçası.
+  - önerilen düzeltme: Câmpulung Moldovenesc ya da Vatra Dornei noktası (romanya-kralligi) kaynakla.
+  - kaynak: veri ölçümü
 
 ### E101 · İngiliz Sudanı (Anglo-Mısır Kondominyumu) (`ingiliz-sudani`) · 1910-06-16 → 1923-10-29 · 215 km²
 
@@ -935,7 +1077,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 77.8 km · belcika 8/9, fransa-cumhuriyet 1/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: E094 ile aynı Uele boşluğu; Belçika Kongosu içinde İngiliz Sudanı parçası.
+  - önerilen düzeltme: E094 kovası.
+  - kaynak: veri ölçümü
 
 ### E102 · İsviçre Konfederasyonu (`isvicre`) · 1862-12-08 → 1923-10-29 · 205 km²
 
@@ -944,7 +1089,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 17.5 km · fransa-cumhuriyet 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Fransız Jura'sında (Saint-Claude yöresi) Cenevre peteğinin emdiği yüz; 60 km içinde yalnız Cenevre ve Annemasse.
+  - önerilen düzeltme: Saint-Claude (fransa) noktası.
+  - kaynak: veri ölçümü
 
 ### E103 · Bizans (`bizans`) · 1299-01-01 → 1313-01-01 · 185 km²
 
@@ -953,7 +1101,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 14.0 km · OSMANLI 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Bozüyük (OSMANLI); Ermeni Derbendi (OSMANLI); Pazaryeri (OSMANLI); Söğüt (OSMANLI); Harmankaya (bizans); Bilecik (OSMANLI); Lefke (Osmaneli) (bizans); Leblebicihisar (bizans); Absu (Hypsu) (bizans)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Harmankaya 1299-1313 bizans; çevre Osmanlı. Harmankaya tekfuru Köse Mihal erken dönemde Osman'a katıldı; ihtida yılı (1300'ler başı) ile bizans döneminin sonu karşılaştırılmalı.
+  - önerilen düzeltme: Harmankaya bizans t → Köse Mihal'in Osman'a katılışı (TDV 'Köse Mihal'), gün bulunamadı.
+  - kaynak: TDV 'Köse Mihal' önerilir (okunmadı)
 
 ### E104 · İspanya (`ispanya`) · 1564-01-01 → 1673-01-01 · 174 km²
 
@@ -962,7 +1113,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 41.0 km · sadi 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Nekor (Temsaman yöresi) (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Bâdis (Peñón de Vélez) 'enklav:true' (1564-2000), ama Rif kıyısında 174 km²lik hücre İspanyol; Nekor o devirde yok, en yakın Sa'dî noktası el-Hüseyme 49 km. Kayalık bir adanın hücresi karaya taşıyor.
+  - önerilen düzeltme: Motor sorusu (E083 ile aynı). Veri yolu: Rif kıyısına Sa'dî/Alevî noktası (Bâdis şehri ya da Targuist).
+  - kaynak: veri ölçümü
 
 ### E105 · Memlûk (`memluk`) · 1516-10-01 → 1516-12-21 · 169 km²
 
@@ -971,7 +1125,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 18.8 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Gibea (sahipsiz)
 - koridor yerleşimleri: Hebron (sahipsiz); Betar (Battir) (sahipsiz); Kudüs (OSMANLI); Ramallah (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Gibea, Hebron, Betar, Ramallah 1516-10'da SAHİPSİZ; Kudüs Osmanlı. Memlûk parçasını sahipsiz noktalar çevreliyor.
+  - önerilen düzeltme: Hebron, Ramallah: memluk → Osmanlı fethi günü (kaynakla). Gibea, Betar arkeolojik yer ise bit (merdiven ④).
+  - kaynak: veri ölçümü
 
 ### E106 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1759-01-01 → 1760-01-01 · 157 km²
 
@@ -980,7 +1137,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 2.7 km · maratha 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: E099 ile aynı Pune boşluğu, 1759.
+  - önerilen düzeltme: E099 kovası.
+  - kaynak: veri ölçümü
 
 ### E107 · Avusturya Cumhuriyeti (I. Cumhuriyet) (`avusturya-cumhuriyet`) · 1919-01-01 → 1920-07-16 · 156 km²
 
@@ -989,7 +1149,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 9.6 km · cekoslovakya 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Marchfeld'de (48,53K 16,77D) Klosterneuburg ve Mikulčice epok dışında; Klosterneuburg kaydı 'bit:1281-01-01' ve dönemsiz — atlasta 1281 sonrası yok.
+  - önerilen düzeltme: Klosterneuburg kaydı incelensin (bit 1281 neden?); Marchegg ya da Gänserndorf noktası.
+  - kaynak: veri ölçümü
 
 ### E108 · Karnatik Nevablığı (`karnatik`) · 1763-01-01 → 1801-07-31 · 145 km²
 
@@ -998,7 +1161,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 7.8 km · ingiliz-hindistani 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Kançipuram (Kanchipuram) (ingiliz-hindistani)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `KAYNAK-GEREK`
+  - gerekçe: Ölçüldü: Arkot 1714-1801 karnatik; Vellor 1760'tan, Cinci 1761-04-05'ten ingiliz-hindistani. Karnatik nevvabı 31.07.1801 antlaşmasına dek egemendi; Vellor nevvabın kalesiydi. Kançipuram 1763 cagirinde (İngiliz) — doğru olabilir.
+  - önerilen düzeltme: Vellor (1760 → 1801-07-31) ve Cinci (1761 → 1801-07-31) karnatik (İngiliz garnizonu beyanla). Kaynak: Imperial Gazetteer 'North Arcot', 'South Arcot'.
+  - kaynak: veri ölçümü; tarih kaynak gerek
 
 ### E109 · Paraguay Cumhuriyeti (`paraguay-cumhuriyeti`) · 1872-03-26 → 1915-11-11 · 144 km²
 
@@ -1007,7 +1173,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 13.6 km · brezilya-cumhuriyeti 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Mato Grosso güneyinde (Porto Murtinho yöresi) 80 km içinde nokta yok; Brezilya içinde 'Paraguay' parçası.
+  - önerilen düzeltme: Porto Murtinho (brezilya) noktası.
+  - kaynak: veri ölçümü
 
 ### E110 · İspanya (`ispanya`) · 1866-11-04 → 1923-10-29 · 106 km²
 
@@ -1016,7 +1185,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 24.5 km · portekiz 7/9, KENDI 2/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Elvas/Campo Maior yöresinde Portekiz noktası yok; Badajoz peteği sınırı aşıyor. (Olivenza 1801'den beri İspanyol — o ayrı ve gerçek.)
+  - önerilen düzeltme: Elvas ve Campo Maior (portekiz) noktaları.
+  - kaynak: veri ölçümü
 
 ### E111 · Kaçar Hanedanı (İran) (`kacar`) · 1812-01-01 → 1925-10-31 · 97 km²
 
@@ -1025,7 +1197,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 0.1 km · irak-kralligi 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Basra (OSMANLI)
 - koridor yerleşimleri: Eski Basra (Zübeyr) (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-m` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Basra'da Şattülarap kıyısında 97 km²lik Kaçar şeridi; koridor 0,1 km, 9 kesitte DAR-AYRIM. Nehir yaslanmasının geometrik artığı.
+  - önerilen düzeltme: Veri değil motor (nehir yaslanması); HAVVA'ya not.
+  - kaynak: veri ölçümü
 
 ### E112 · Britanya (`ingiltere`) · 1420-05-21 → 1422-01-01 · 93 km²
 
@@ -1034,7 +1209,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 3.3 km · fransa 5/9, DENIZ/BOS 4/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Melun kaydı 'bit:1281-01-01' ve dönemsiz — atlasta 1420'de Melun yok. V. Henry'nin 1420 Melun kuşatması bilinen olay; noktasız yüz İngiliz parçası oluyor.
+  - önerilen düzeltme: Melun kaydı incelensin (bit 1281 neden? mükerrer mi?); 1420-11 İngiliz alışı (kaynakla).
+  - kaynak: veri ölçümü
 
 ### E113 · Sovyet Rusya (`sovyet-rusya`) · 1918-01-04 → 1920-12-31 · 83 km²
 
@@ -1043,7 +1221,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 42.1 km · finlandiya 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Fin Karelyası'nda (63,5K 30,58D) yakın noktalar Nurmes 59 km, Joensuu 108 km (finlandiya); Sovyet parçası noktasız yüz.
+  - önerilen düzeltme: Lieksa (finlandiya) noktası.
+  - kaynak: veri ölçümü
 
 ### E114 · Kutsal Roma / Almanya (`almanya`) · 1129-01-01 → 1180-01-01 · 82 km²
 
@@ -1052,7 +1233,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 3.1 km · macaristan 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Maribor (Marburg) (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Maribor ve Ptuj'un 1281 öncesi dönemi yok (ikisi de 1281-01-01'de başlıyor) → 1129-80'de sahipsiz. Ptuj kaydının kendi kaynağı (Hrvatska enciklopedija 'Ptuj') 977'den Salzburg diyor.
+  - önerilen düzeltme: Ptuj: salzburg-prens-basepiskoposlugu f 1281 → 0977 (kayıttaki kaynak). Maribor: 1281 öncesi Steiermark/almanya zinciri (kaynakla).
+  - kaynak: Hrvatska enciklopedija 'Ptuj' (Ptuj kaydında)
 
 ### E115 · Kutsal Roma / Almanya (`almanya`) · 1276-11-21 → 1281-01-01 · 82 km²
 
@@ -1061,7 +1245,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 3.1 km · macaristan 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Maribor (Marburg) (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: E114 ile aynı, 1276-81.
+  - önerilen düzeltme: E114 kovası.
+  - kaynak: veri ölçümü
 
 ### E116 · Ming Hanedanı (`ming-hanedani`) · 1382-01-06 → 1382-01-15 · 79 km²
 
@@ -1070,7 +1257,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 30.1 km · kuzey-yuan 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: E023 ile aynı Ming 1382 Yunnan günü çakışması.
+  - önerilen düzeltme: E023 kovası.
+  - kaynak: veri ölçümü
 
 ### E117 · Karamanoğulları (`karaman`) · 1365-01-01 → 1366-01-01 · 78 km²
 
@@ -1079,7 +1269,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 1.7 km · eretna 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: Kırşehir (eretna)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Kırşehir yanında 1,7 km'lik geometrik kopma; parça noktasız.
+  - önerilen düzeltme: yok (geometri artığı)
+  - kaynak: veri ölçümü
 
 ### E118 · İspanya (`ispanya`) · 1866-11-04 → 1923-10-29 · 70 km²
 
@@ -1088,7 +1281,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 6.8 km · portekiz 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: E110 ile aynı Badajoz taşması.
+  - önerilen düzeltme: E110 kovası.
+  - kaynak: veri ölçümü
 
 ### E119 · Amerika Birleşik Devletleri (`abd`) · 1846-06-15 → 1877-10-05 · 68 km²
 
@@ -1097,7 +1293,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 1.5 km · nez-perce 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Wallowa yöresinde 80 km içinde nokta yok; Nez Perce içinde ABD parçası.
+  - önerilen düzeltme: Bölgeye nokta (kaynakla) ya da beyan.
+  - kaynak: veri ölçümü
 
 ### E120 · İtalya (`italya`) · 1918-11-12 → 1923-10-29 · 58 km²
 
@@ -1106,7 +1305,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 4.2 km · DENIZ/BOS 9/9
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Engadin'de İsviçre noktası yok (Davos 32 km); Bormio peteği sınırı aşıyor.
+  - önerilen düzeltme: Zernez ya da Scuol (isvicre) noktası.
+  - kaynak: veri ölçümü
 
 ### E121 · İsviçre Konfederasyonu (`isvicre`) · 1815-06-09 → 1923-10-29 · 50 km²
 
@@ -1115,7 +1317,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: ? km · 
 - içindeki yerleşimler (0, s.eksklav 0): —
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Valchiavenna/Como gölü kuzeyinde İsviçre parçası; Chiavenna ve Sondrio avusturya, Bellinzona peteği aşıyor.
+  - önerilen düzeltme: Gravedona ya da Colico noktası.
+  - kaynak: veri ölçümü
 
 ## ② KARA-EKSKLAV — koridorda yabancı kara (alanı en büyük 100)
 
@@ -1153,7 +1358,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 2682.5 km · ingiltere 3/9, nijer 3/9, kamerun 1/9, DENIZ/BOS 1/9, KENDI 1/9
 - içindeki yerleşimler (16, s.eksklav 0): Puent-Nuar (fransa-cumhuriyet); Loango (Buali) (fransa-cumhuriyet); Cibanga (fransa-cumhuriyet); Muila (Mouila) (fransa-cumhuriyet); Ogooué havzası (fransa-cumhuriyet); Lambarene (fransa-cumhuriyet); Librevil (Libreville) (fransa-cumhuriyet); Sibiti (fransa-cumhuriyet) … +8
 - koridor yerleşimleri: Bauci (Bauchi) (ingiltere); Hoggar (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: 1960 Ağustos'unda AEF ülkeleri sırayla bağımsız oldu (Çad 11, OAC 13, Kongo 15, Gabon 17); Gabon 6 gün Fransız kalıntısı olarak kaldı. Sömürge çözülmesinin gerçek anı.
+  - önerilen düzeltme: yok
+  - kaynak: bulunamadı
 
 ### K005 · Britanya (`ingiltere`) · 1914-11-22 → 1963-12-12 · 585.911 km²
 
@@ -1567,7 +1775,10 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 - koridor: 109.0 km · cekoslovakya 7/9, almanya 2/9
 - içindeki yerleşimler (14, s.eksklav 0): Suçava (Suceava) (avusturya); Çernovitz (Çernivtsi) (avusturya); Yazlofça (Yazlovets) (avusturya); Ostrava (Mährisch Ostrau) (avusturya); Karviná (Fryštát) (avusturya); Opava (Troppau) (avusturya); Lvov (avusturya); Zamość (avusturya) … +6
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Çekoslovakya 28.10.1918'de ayrıldı; Galiçya/Bukovina/Silezya Avusturya'da birkaç gün daha kaldı (Batı Ukrayna 1 Kasım, Krakov 31 Ekim). Çözülme anı.
+  - önerilen düzeltme: yok
+  - kaynak: bulunamadı
 
 ### K051 · Umman-Zengibar Sultanlığı (`umman-zengibar`) · 1830-01-01 → 1890-11-04 · 126.599 km²
 
