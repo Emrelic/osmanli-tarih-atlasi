@@ -102,7 +102,7 @@
     (window.DEVLETLER || []).forEach(function (dv) {
       var r = VERI.devlet[dv.id];
       if (!r || typeof dv.ad !== "string") return;
-      if (r[1] === ozet(dv.ad)) { dv.ad_tr = dv.ad; dv.ad = r[0]; SAYAC.devlet_tamam++; }
+      if (r[1] === ozet(dv.ad)) { (DEVLET_AD = DEVLET_AD || {})[dv.ad] = r[0]; dv.ad_tr = dv.ad; dv.ad = r[0]; SAYAC.devlet_tamam++; }
       else SAYAC.devlet_bayat++;
     });
     document.documentElement.lang = DIL;
@@ -111,9 +111,33 @@
   // ---- Arayüz sözlüğü: metin düğümleri + title/placeholder/aria-label ----
   // Anahtar: kırpılmış Türkçe; rakam dizileri "#" ile şablonlanır ("12 madde" ↔ "# madde").
   var SABLON = /\d+(?:[.,]\d+)*/g;
-  function sozlukBul(s) {
+  var DEVLET_AD = null;   // Türkçe ad → çeviri (seçici satırları "Ad (12)" biçiminde kurulur)
+  function tekBul(s) {
     var A = VERI.arayuz;
     if (A[s] != null) return A[s];
+    if (DEVLET_AD && DEVLET_AD[s] != null) return DEVLET_AD[s];
+    return sablonBul(s);
+  }
+  // Birleştirilerek kurulan metin: "(okuyanın tepkisi: hüzün, savaş)", "Ad (12)".
+  // Yalnız BÜTÜN harfli parçalar çevrilebiliyorsa uygulanır — yarı Türkçe çıktı yok.
+  var AYRAC = /(\s*(?:: |, | · | — | \| |\(|\)|: ?$)\s*)/;
+  function sozlukBul(s) {
+    var m = tekBul(s);
+    if (m != null) return m;
+    var sayi = /^(.*\S)\s*\((\d+)\)$/.exec(s);
+    if (sayi) { m = tekBul(sayi[1]); if (m != null) return m + " (" + sayi[2] + ")"; }
+    var p = s.split(AYRAC);
+    if (p.length < 2) return null;
+    for (var i = 0; i < p.length; i++) {
+      if (i % 2 === 1 || !/[A-Za-zÇĞİÖŞÜçğıöşü]/.test(p[i])) continue;
+      var c = tekBul(p[i].trim());
+      if (c == null) return null;
+      p[i] = p[i].replace(p[i].trim(), c);
+    }
+    return p.join("");
+  }
+  function sablonBul(s) {
+    var A = VERI.arayuz;
     if (!SABLON.test(s)) return null;
     SABLON.lastIndex = 0;
     var sayilar = s.match(SABLON);
@@ -163,18 +187,32 @@
     if (DIL === "tr" || !Object.keys(VERI.arayuz).length) return;
     agacCevir(document.body);
     if (document.title) { var t = sozlukBul(document.title); if (t) document.title = t; }
+    // Kayıtlar kare başına (rAF) işlenir: sayfanın kendi gözcüsü ya da "metin
+    // farklıysa yeniden yaz" döngüsü çeviriyle mikro-görev ping-pongu kurarsa
+    // sayfa donmaz, en kötü kare başına bir tur olur.
+    var kuyruk = [], planli = false;
     gozcu = new MutationObserver(function (kayitlar) {
-      gozcu.disconnect();
-      for (var i = 0; i < kayitlar.length; i++) {
-        var r = kayitlar[i];
-        if (r.type === "characterData") metniCevir(r.target);
-        else if (r.type === "attributes") ogeCevir(r.target);
-        else for (var j = 0; j < r.addedNodes.length; j++) agacCevir(r.addedNodes[j]);
-      }
-      izle();
+      for (var i = 0; i < kayitlar.length; i++) kuyruk.push(kayitlar[i]);
+      if (!planli) { planli = true; requestAnimationFrame(isle); }
     });
+    function isle() {
+      planli = false;
+      var liste = kuyruk; kuyruk = [];
+      gozcu.disconnect();
+      var dugumler = new Set();
+      for (var i = 0; i < liste.length; i++) {
+        var r = liste[i];
+        if (r.type === "characterData") dugumler.add(r.target);
+        else if (r.type === "attributes") ogeCevir(r.target);
+        else for (var j = 0; j < r.addedNodes.length; j++) dugumler.add(r.addedNodes[j]);
+      }
+      dugumler.forEach(function (n) { if (n.isConnected) agacCevir(n); });
+      ISLEM.tur++; ISLEM.dugum += dugumler.size;
+      izle();
+    }
     izle();
   }
+  var ISLEM = { tur: 0, dugum: 0 };
   function izle() {
     gozcu.observe(document.body, { childList: true, subtree: true, characterData: true, attributes: true, attributeFilter: NITELIK });
   }
@@ -209,12 +247,18 @@
     ekle: function (dil, tur, kayitlar) {
       if (dil !== DIL || !VERI[tur]) return;
       var h = VERI[tur];
-      for (var k in kayitlar) if (Object.prototype.hasOwnProperty.call(kayitlar, k)) h[k] = kayitlar[k];
+      for (var k in kayitlar) {
+        if (!Object.prototype.hasOwnProperty.call(kayitlar, k)) continue;
+        // arayüzde anahtar Türkçenin kendisi → özet hep tutar; sözlükte yalnız metin durur
+        if (tur === "arayuz") { if (kayitlar[k][1] === ozet(k)) h[k] = kayitlar[k][0]; }
+        else h[k] = kayitlar[k];
+      }
     },
     uygula: uygula,
     trB: function (o) { return o && o.b_tr != null ? o.b_tr : (o && o.b); },
     t: function (s) { var m = DIL === "tr" ? null : sozlukBul(s); return m == null ? s : m; },
     sayac: SAYAC,
+    islem: function () { return ISLEM; },
     eksikler: function () { return Object.keys(SAYAC.arayuz_eksik).sort(); }
   };
 

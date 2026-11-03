@@ -227,7 +227,9 @@ def main():
         return 0
 
     if a.komut == "temizle":
-        for tur in TURLER:
+        # arayüz atlanır: sözlüğe elle eklenen şablon/birleşik metinler (ay adları, "# madde")
+        # çıkarıcının aday listesinde yoktur; yetim görünür ama kullanılır.
+        for tur in ("devlet", "olay"):
             k = oku(a.dil, tur)
             _, _, _, y = kiyasla(turkce(j, tur), k, tur)
             for i in y: del k[i]

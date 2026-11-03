@@ -5,7 +5,22 @@ window.CEVIRI_DIZIN = {
   {
    "kod": "tr",
    "ad": "Türkçe"
+  },
+  {
+   "kod": "en",
+   "ad": "English"
   }
  ],
- "dosyalar": {}
+ "dosyalar": {
+  "en": [
+   [
+    "ceviri_en_arayuz.js",
+    "9ab14442"
+   ],
+   [
+    "ceviri_en_devlet.js",
+    "7d0d01a9"
+   ]
+  ]
+ }
 };
