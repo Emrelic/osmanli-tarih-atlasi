@@ -26,21 +26,22 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 
 `s.eksklav` taşıyan dönem: 247 (yerleşim 197). Devletlere göre: venedik 69, fransa-cumhuriyet 52, italya 37, ispanya 26, avusturya-hollandasi 17, kuzey-yuan 12, ingiltere 11, sardinya 4, almanya 2, fransa 2, mehdi 2, rusya 2, ingiliz-hindistani 2, kongo-serbest-devleti 2, ingiliz-malaya 2, sicilya-aragon 1, burgonya 1, timurlu 1, portekiz 1, hollanda 1.
 
-## Hüküm özeti — 88 / 221 aday hükümlü
+## Hüküm özeti — 123 / 221 aday hükümlü
 
 Güven: **OLCUM** = yalnız ölçülmüş veri olgusu (noktasızlık, kayıt alanı, gün çakışması) · **KAYNAKLI** = akademik kaynak okundu · **KAYNAK-GEREK** = tarihsel iddia teyitsiz, KASA uygulamadan önce kaynak sırasıyla teyit eder, gün uydurulmaz.
 
 | kova | OLCUM | KAYNAKLI | KAYNAK-GEREK |
 |---|---|---|---|
-| GERCEK | 0 | 3 | 16 |
-| BIRLESMELI | 9 | 0 | 2 |
-| YAPAY-a | 19 | 0 | 3 |
-| YAPAY-b | 3 | 0 | 2 |
-| YAPAY-c | 8 | 0 | 10 |
-| YAPAY-d | 6 | 0 | 2 |
+| GERCEK | 0 | 7 | 22 |
+| BIRLESMELI | 10 | 0 | 2 |
+| YAPAY-a | 21 | 0 | 3 |
+| YAPAY-b | 8 | 0 | 4 |
+| YAPAY-c | 13 | 5 | 13 |
+| YAPAY-d | 6 | 0 | 4 |
+| YAPAY-k | 0 | 0 | 0 |
 | YAPAY-m | 5 | 0 | 0 |
 
-Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YAPAY-c parçanın içindeki yerleşimin dönemi yanlış · YAPAY-d kısa ara (gün çakışması) · YAPAY-m motor (veriyle çözülmez) · BIRLESMELI ara yerleşime dönem yazılınca parça ana gövdeye bağlanır.
+Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YAPAY-c parçanın içindeki yerleşimin dönemi yanlış · YAPAY-d kısa ara (gün çakışması) · YAPAY-k aynı yapı iki devlet kimliğiyle yazılmış (ör. ingiltere / ingiliz-nijerya) · YAPAY-m motor (veriyle çözülmez) · BIRLESMELI ara yerleşime dönem yazılınca parça ana gövdeye bağlanır.
 
 ## ① ENKLAV (hepsi, ≥ 50 km²)
 
@@ -675,7 +676,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 72.3 km · napoli 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Benevento (papalik); Bovianum (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Benevento 1051-07-05 → 1861-03-17 papalik (benevento-papalik 1000-1051): Napoli Krallığı içinde Papalık eksklavı gerçektir. Bovianum 'bit 1281' dönemsiz (ölçüldü). Not: Benevento 1806-1815 Talleyrand prensliği idi ve 1860 sonrası İtalya; atlas kaydı 1861-03-17'ye dek papalik.
+  - önerilen düzeltme: 1806-1815 Benevento prensliği ve 1860 ilhakı kaynakla; Bovianum'a dönem ya da gizleme.
+  - kaynak: bulunamadı
 
 ### E054 · Papalık (`papalik`) · 1814-04-16 → 1861-03-17 · 5.706 km²
 
@@ -684,7 +688,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 71.3 km · napoli 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Benevento (papalik); Bovianum (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: E053'ün 1814-04-16 → 1861-03-17 devamı: Benevento papalik, çevre napoli 100%. Gerçek eksklav (1860 Ekim plebisiti öncesi).
+  - önerilen düzeltme: Benevento papalik t kaynakla (1860); 1806-1815 aralığı ayrıca.
+  - kaynak: bulunamadı
 
 ### E055 · Osmanlı (`OSMANLI`) · 1448-01-01 → 1460-01-01 · 5.661 km²
 
@@ -693,7 +700,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 96.1 km · bosna 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Pale (sahipsiz); Saraybosna (OSMANLI); Visoko (OSMANLI); Vitez (sahipsiz)
 - koridor yerleşimleri: Foça (Foča) (bosna)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: TDV Saraybosna: 'Hodidjed vilâyeti Saray ovası ile beraber 852’de (1448) tamamen Osmanlı idaresi altına girdi'; 'Bosna’nın tamamen fethedilmesiyle (1463) … Bosna sancağı kurulunca'. 1448-1463 Saray ovası Osmanlı, çevre Bosna Krallığı: gerçek enklav. Ölçüldü: Saraybosna d f=1458-01-01 TDV'nin 1448'inden geç; Visoko d f=1448 TDV'de geçmiyor (madde Visoko'yu anmıyor). Pale, Vitez dönemsiz.
+  - önerilen düzeltme: Saraybosna d f → 1448 (gün bulunamadı); Visoko'nun 1448 sahibi için ayrı kaynak.
+  - kaynak: TDV saraybosna (islamansiklopedisi.org.tr/saraybosna)
 
 ### E056 · Osmanlı (`OSMANLI`) · 1913-05-30 → 1913-09-29 · 5.621 km²
 
@@ -702,7 +712,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 13.6 km · bulgaristan-kralligi 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Kırcaali (OSMANLI)
 - koridor yerleşimleri: Çirmen (bulgaristan-kralligi); Mustafapaşa (Svilengrad) (OSMANLI)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: TDV Kırcaali: Kırcaali bir süre 'Garbî Trakya Hükûmet-i Müstakillesi'ne bağlıydı, 'savaşlardan sonra Bulgaristan Krallığı’na geçti' (Ağustos 1913 II. Balkan Savaşı sırasında). Ölçüldü: Kırcaali OSMANLI d 1482 → 1913-09-29, sonra bulgaristan-kralligi; Garbî Trakya dönemi yok. Osmanlı 'enklavı' bu kaydın Osmanlı olarak sürmesinden; Mustafapaşa (Svilengrad) Osmanlı Temmuz 1913 sonrası için ayrı sınanmalı.
+  - önerilen düzeltme: Kırcaali d t → Bulgar işgali (1912 sonu, kaynakla) ve Garbî Trakya Hükûmeti (Ağustos-Ekim 1913) dönemi; gün bulunamadı.
+  - kaynak: TDV kircaali (islamansiklopedisi.org.tr/kircaali): Osmanlı geri alışı ve 29 Eylül 1913 antlaşması metinde yok
 
 ### E057 · Britanya (`ingiltere`) · 1436-04-13 → 1439-01-01 · 5.446 km²
 
@@ -711,7 +724,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 62.0 km · fransa 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Meaux (ingiltere)
 - koridor yerleşimleri: Paris (fransa); Senlis (fransa)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Meaux ingiltere 1422-01-01 → 1439-01-01; çevre fransa (Paris 1436'da Fransız eline geçti, 13 Nisan 1436 teyitsiz) ve burgonya. Meaux İngiliz garnizonu olarak Fransız toprağı içinde: gerçek eksklav. Bitiş 1439 yıl-hassasiyeti. Melun, Soissons dönemsiz (ölçüldü).
+  - önerilen düzeltme: Meaux t gün (1439) ve Paris f 1436 gün kaynakla; Melun/Soissons dönemleri.
+  - kaynak: bulunamadı
 
 ### E058 · Lehistan-Litvanya (`lehistan`) · 1649-08-18 → 1654-01-18 · 5.438 km²
 
@@ -720,7 +736,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 294.2 km · kazak-hetmanligi 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Kremençuk (lehistan)
 - koridor yerleşimleri: Lubnı (kazak-hetmanligi)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Encyclopedia of Ukraine (Kremenchuk): 'a Cossack company center in Chyhyryn regiment (1648–61, 1663–7)'; sonra Myrhorod alayı (1667-1765); 'A Polish castle was built there in 1596'. Ölçüldü: Kremençuk lehistan 1571 → 1654-01-18, çevre kazak-hetmanligi 92%. 1648'den sonra Lehistan'a yazılması yanlış.
+  - önerilen düzeltme: Kremençuk kazak-hetmanligi 1648 → 1765 (gün bulunamadı); lehistan t → 1648.
+  - kaynak: Encyclopedia of Ukraine, Kremenchuk (encyclopediaofukraine.com)
 
 ### E059 · Rusya (`rusya`) · 1654-01-18 → 1764-11-21 · 5.421 km²
 
@@ -729,7 +748,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 51.2 km · lehistan 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Kremençuk (rusya)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Aynı kaynak: Kremenchuk Hetmanlık alay/sotnya merkeziydi (1667-1765 Myrhorod alayı); Novorossiya 1765'te. Ölçüldü: Kremençuk rusya 1654-01-18 → 1917 (kazak-hetmanligi 92% çevre). 1654-1764 'rusya' yanlış; Rus doğrudan idaresi 1765.
+  - önerilen düzeltme: Kremençuk rusya f → 1765 (gün bulunamadı); arada kazak-hetmanligi.
+  - kaynak: Encyclopedia of Ukraine, Kremenchuk (encyclopediaofukraine.com)
 
 ### E060 · Hafsîler (Tunus) (`hafsi`) · 1281-01-01 → 1519-09-01 · 4.920 km²
 
@@ -738,7 +760,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 43.5 km · zeyyani 9/9
 - içindeki yerleşimler (1, s.eksklav 1): Konstantin (hafsi)
 - koridor yerleşimleri: Sikikde (zeyyani)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: TDV Hafsîler: 1285'te Constantine başkent, 1370'te Bougie/Tunus/Constantine emirlikleri; Zeyyânîlerden yalnız Tlemcen bağlamında söz ediyor. Ölçüldü: Sikikde ve Mîle 'zeyyani' 1281 → 1519-09-01 (Tlemcen 300 km batıda); Konstantin hafsi. Hafsî eksklavı Zeyyânî yazılmasından.
+  - önerilen düzeltme: Sikikde, Mîle: zeyyani → hafsi (gün bulunamadı; Bicâye vb. de sınansın).
+  - kaynak: TDV hafsiler (islamansiklopedisi.org.tr/hafsiler)
 
 ### E061 · Hafsîler (Tunus) (`hafsi`) · 1526-01-01 → 1527-01-01 · 4.920 km²
 
@@ -747,7 +772,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 43.5 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 1): Konstantin (hafsi)
 - koridor yerleşimleri: Sikikde (OSMANLI)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAK-GEREK`
+  - gerekçe: Konstantin hafsi 1526-01-01 → 1527-01-01 tek yıllık ara; d OSMANLI 1519-09-01 → 1526-01-01 ve 1527-01-01 → 1671; çevre OSMANLI. TDV hafsiler 1519-1529 Constantine'i kapsamıyor; yıl hassasiyetli ara kaynaksız.
+  - önerilen düzeltme: Konstantin 1519-1671 Osmanlı/Hafsî seyri kaynakla; ara yıl doğrulanmazsa kaldırılsın.
+  - kaynak: TDV hafsiler okundu: dönem yok; bulunamadı
 
 ### E062 · Anadolu Selçukluları (`selcuklu`) · 1281-01-01 → 1308-01-01 · 4.605 km²
 
@@ -756,7 +784,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 96.6 km · ilhanli 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Erzurum (selcuklu)
 - koridor yerleşimleri: Bingöl (Çapakçur) (ilhanli)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: TDV Erzurum: Anadolu Selçuklu Devleti Kösedağ'dan (1243) sonra Moğol hâkimiyetini tanıdı; 1308'den sonra İlhanlılar'a bağlandı. Ölçüldü: Erzurum selcuklu 1202 → 1308 iken Aşkale, Pasinler ilhanli (1300); Bingöl ilhanli. Aynı Moğol-bağlı alan iki ayrı boyada.
+  - önerilen düzeltme: Erzurum için selcuklu (tâbi) / ilhanli tutarlılığı: tâbi katmanı ya da komşuların aynı statüsü (gün bulunamadı).
+  - kaynak: TDV erzurum (islamansiklopedisi.org.tr/erzurum)
 
 ### E063 · Transkafkasya (Federasyon) (`transkafkasya`) · 1917-11-07 → 1918-04-25 · 4.436 km²
 
@@ -765,7 +796,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 5.5 km · sovyet-rusya 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Kars (transkafkasya); Ardahan (transkafkasya)
 - koridor yerleşimleri: Arpaçay (Akyaka) (sovyet-rusya)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Kars 1917-11-07 → 1918-04-25 ve Ardahan transkafkasya; Arpaçay, Digor, Sarıkamış, Küçükperveli (Kars bölgesi) aynı aralıkta kesintisiz sovyet-rusya. Kars ili tek parça; komşulara transkafkasya dönemi yok.
+  - önerilen düzeltme: Arpaçay, Digor, Sarıkamış, Küçükperveli, Kars vilayeti noktalarına 1917-11-07 → 1918-04-25 transkafkasya (gün bulunamadı; Brest-Litovsk 1918-03-03, Kars 1918-04-25).
+  - kaynak: veri ölçümü
 
 ### E064 · Bağımsız Hırvat Devleti (NDH) (`hirvatistan-bagimsiz`) · 1941-04-10 → 1945-04-22 · 4.229 km²
 
@@ -774,7 +808,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 105.6 km · yugoslavya 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Çapljina (Čapljina) (sahipsiz); Mostar (hirvatistan-bagimsiz); Posušje (sahipsiz)
 - koridor yerleşimleri: Vitez (sahipsiz); Travnik (yugoslavya)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Mostar NDH iken Konjic, Ston, Travnik yugoslavya kesintisiz (1918-12-01 → 1945-11-29); Čapljina, Posušje, Vitez ve Delminium bu dönemde dönemsiz. Hersek-Bosna NDH'nin parçasıydı. Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.
+  - önerilen düzeltme: Mostar çevresi; Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.
+  - kaynak: veri ölçümü
 
 ### E065 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1753-04-01 → 1757-01-01 · 3.824 km²
 
@@ -783,7 +820,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 31.5 km · maratha 7/9, DENIZ/BOS 2/9
 - içindeki yerleşimler (2, s.eksklav 0): Lothal (sahipsiz); Dholka (babur-imparatorlugu)
 - koridor yerleşimleri: Kanbâyet (Khambhat) (maratha)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Dholka babur-imparatorlugu 1741 → 1757-01-01; Ahmedâbâd 1756'da maratha, Kanbâyet maratha. Gucerat'ta Ahmedabad ve çevre Marathalara 1750'lerin başında geçti (1753-1758 aralığı teyitsiz); Lothal MÖ 2449-1999 (dönemsiz). Dholka'nın Babür kalması komşudan geç.
+  - önerilen düzeltme: Dholka Maratha f ve Ahmedabad f hizalansın (Imperial Gazetteer 'Gujarat' bakılmalı); gün bulunamadı.
+  - kaynak: bulunamadı (Imperial Gazetteer çekilmedi)
 
 ### E066 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1918-10-30 → 1920-07-24 · 3.395 km²
 
@@ -792,7 +832,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 14.7 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Malikiye (Derik) (fransa-cumhuriyet)
 - koridor yerleşimleri: Subat-Enlil (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Malikiye (Derik) fransa-cumhuriyet f=1918-10-30 (Mudros günü); Cizre, Cibri OSMANLI, Silopi, Zaho, Cumai ingiltere. Fransız fiilî işgalinin Malikiye'ye 1918'de ulaşması teyitsiz; Subat-Enlil dönemsiz (ölçüldü).
+  - önerilen düzeltme: Malikiye f kaynakla (Fransız işgal tarihi); gün bulunamadı.
+  - kaynak: bulunamadı
 
 ### E067 · İsviçre Konfederasyonu (`isvicre`) · 1918-11-12 → 2000-12-31 · 3.221 km²
 
@@ -801,7 +844,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 1.1 km · DENIZ/BOS 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Davos (isvicre); Chur (Coira) (isvicre)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Davos ve Chur (Graubünden) 60 km içinde başka İsviçre noktası yok; ana İsviçre gövdesi (Luzern 90 km) arası noktasız ve Vaduz/Feldkirch petekleri emiyor. 1918-11-12 başlangıcı Avusturya Cumhuriyeti kuruluşu.
+  - önerilen düzeltme: Sargans/Walenstadt/Glarus yönünde İsviçre noktaları; dönemsiz.
+  - kaynak: veri ölçümü
 
 ### E068 · Macaristan Krallığı (Habsburg Tacı) (`macaristan-habsburg`) · 1527-09-23 → 1529-09-08 · 3.164 km²
 
@@ -810,7 +856,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 27.0 km · macaristan 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Macaristan (sahipsiz); Peşte (macaristan-habsburg); Aquincum-Óbuda-Pest (macaristan-habsburg)
 - koridor yerleşimleri: Vaç (Vác) (macaristan)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `KAYNAK-GEREK`
+  - gerekçe: Peşte/Aquincum macaristan-habsburg 1527-09-23 → 1529-09-08 (Buda 8 Eylül 1529'da Süleyman tarafından Zapolya'ya geri verildi); Vaç macaristan. Ferdinand'ın tuttuğu Estergon-Tata-Székesfehérvár hattı noktalarına Habsburg dönemi yazılı mı sınanmalı (Estergon 1530-01-01'e dek habsburg, ölçüldü). Macaristan sahipsiz nokta.
+  - önerilen düzeltme: Komşu noktaların (Vaç, Hatvan…) 1527-1529 Habsburg/Zapolya durumu kaynakla.
+  - kaynak: bulunamadı
 
 ### E069 · Osmanlı (`OSMANLI`) · 1920-04-23 → 1923-10-29 · 3.071 km²
 
@@ -819,7 +868,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 119.5 km · tbmm-turkiye 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Harran (OSMANLI)
 - koridor yerleşimleri: Diyarbakır (tbmm-turkiye)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Harran OSMANLI d 1516-01-01 → 1923-10-29; Urfa, Akçakale, Diyarbakır tbmm-turkiye 1920-04-23'ten. Harran 1261-1516 BOSLUK, TBMM dönemi yok; Göbekli Tepe dönemsiz.
+  - önerilen düzeltme: Harran d t → 1920-04-23, s: tbmm-turkiye 1920-04-23 → 1923-10-29 (Fransız işgali ayrıca).
+  - kaynak: veri ölçümü
 
 ### E070 · Brezilya Cumhuriyeti (`brezilya-cumhuriyeti`) · 1900-05-26 → 1923-10-29 · 2.719 km²
 
@@ -840,7 +892,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 595.2 km · tbmm-turkiye 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Sart (OSMANLI)
 - koridor yerleşimleri: Niğde (tbmm-turkiye); Uşak (tbmm-turkiye); Ilgın (tbmm-turkiye); Yalvaç (tbmm-turkiye); Akşehir (tbmm-turkiye); İshaklı (tbmm-turkiye)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Sart OSMANLI d 1481-01-01 → 1923-10-29; Birgi, Akhisar, Alaşehir, Manisa tbmm-turkiye 1920-04-23'ten (E069 ile aynı sebep). Sart lidya MÖ 651 başlangıçlı antik nokta.
+  - önerilen düzeltme: Sart d t → 1920-04-23 ve tbmm-turkiye dönemi.
+  - kaynak: veri ölçümü
 
 ### E072 · Karamanoğulları (`karaman`) · 1365-01-01 → 1366-01-01 · 2.537 km²
 
@@ -849,7 +904,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 35.4 km · eretna 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Nevşehir (Muşkara) (karaman)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAK-GEREK`
+  - gerekçe: Nevşehir (Muşkara) karaman f=1365-01-01; Ürgüp, Aksaray eretna; 1 yıllık parça komşunun 1366'da karamana geçmesinden. Eretna-Karaman geçişi gün bulunamadı.
+  - önerilen düzeltme: Nevşehir f ve Ürgüp/Aksaray geçişi hizalansın (TDV karamanoğulları).
+  - kaynak: bulunamadı
 
 ### E073 · Transkafkasya (Federasyon) (`transkafkasya`) · 1918-02-19 → 1918-02-26 · 2.352 km²
 
@@ -870,7 +928,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 17.2 km · yugoslavya 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Pale (sahipsiz); Saraybosna (hirvatistan-bagimsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Saraybosna hirvatistan-bagimsiz 1941-04-10 → 1945-05-06; Visoko, Foča, Višegrad, Konjic yugoslavya kesintisiz. Pale dönemsiz. Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.
+  - önerilen düzeltme: Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.
+  - kaynak: veri ölçümü
 
 ### E075 · İtalya (`italya`) · 1943-09-23 → 1945-04-28 · 1.950 km²
 
@@ -879,7 +940,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 29.6 km · salo-cumhuriyeti 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Guastalla (italya)
 - koridor yerleşimleri: Canossa (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Guastalla italya 1861-03-17 → 1946-06-18 kesintisiz; Modena, Parma, Mantova salo-cumhuriyeti 1943-09-23 → 1945-04-28. Guastalla Reggio Emilia ilinde, RSI içindeydi. Canossa dönemsiz.
+  - önerilen düzeltme: Guastalla'ya salo-cumhuriyeti dönemi (gün bulunamadı).
+  - kaynak: veri ölçümü
 
 ### E076 · Sırp Cumhuriyeti (Republika Srpska) (`bosna-sirp-cumhuriyeti`) · 1992-01-09 → 1995-12-14 · 1.919 km²
 
@@ -888,7 +952,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 32.5 km · bosna-hersek 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Pale (bosna-sirp-cumhuriyeti)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `OLCUM`
+  - gerekçe: Ölçüldü (1993-06-01): Pale ve Doboj bosna-sirp-cumhuriyeti, Bijeljina RS; Vişegrad, Foča, Zvornik 'bosna-hersek' (Sırp Cumhuriyeti dönemi yok; hepsi 1992-03-03'ten kesintisiz bosna-hersek). RS ana gövdesi bu noktalarda eksik.
+  - önerilen düzeltme: Foča, Višegrad, Zvornik ve Sarajevo-Romanija noktalarına 1992 → 1995-12-14 bosna-sirp-cumhuriyeti (gün bulunamadı).
+  - kaynak: veri ölçümü
 
 ### E077 · Konbaung Hanedanı (Birmanya) (`konbaung`) · 1752-01-01 → 1752-04-23 · 1.884 km²
 
@@ -909,7 +976,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 230.8 km · yugoslavya 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Zagreb (hirvatistan-bagimsiz)
 - koridor yerleşimleri: Hırvatistan (sahipsiz); Sisak (yugoslavya); Posušje (sahipsiz); Delminium (sahipsiz); Yayça (Jajce) (yugoslavya); Bosna Dubiçası (Bosanska Dubica) (yugoslavya); Kostayniçe (Kostajnica) (yugoslavya)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Zagreb NDH 1941-04-10 → 1945-05-06; Sisak (1920-06-04 → 1945-11-29), Kostajnica, Jajce, Dubica yugoslavya kesintisiz. NDH çekirdeği Hırvatistan'dı. Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.
+  - önerilen düzeltme: Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.
+  - kaynak: veri ölçümü
 
 ### E079 · Sırp Krajina Cumhuriyeti (RSK; fiilî) (`sirp-krajina-cumhuriyeti`) · 1991-12-19 → 1995-08-05 · 1.683 km²
 
@@ -918,7 +988,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 89.0 km · bosna-hersek 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Glina (sirp-krajina-cumhuriyeti)
 - koridor yerleşimleri: Ostrovica (Stara Ostrovica, Kulen Vakuf) (bosna-hersek); Bihaç (Bihać) (bosna-hersek); Krupa (Bosanska Krupa) (bosna-hersek)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `KAYNAK-GEREK`
+  - gerekçe: Ölçüldü: Glina RSK 1991-12-19 → 1995-08-07; Kostajnica hirvatistan 1991-06-25'ten kesintisiz; Sisak/Karlovac hirvatistan. Banija'nın Hrvatska Kostajnica'sı RSK kontrolündeydi (tarihsel, teyitsiz); 'Hırvatistan' diye sahipsiz nokta var.
+  - önerilen düzeltme: Banija/Kordun/Lika noktalarına RSK dönemi (Petrinja, Kostajnica, Vojnić…; gün bulunamadı).
+  - kaynak: bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)
 
 ### E080 · İspanya (`ispanya`) · 1531-04-16 → 1535-04-17 · 1.534 km²
 
@@ -927,7 +1000,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 21.4 km · yeni-ispanya-ilk-donem 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Cholula (ispanya)
 - koridor yerleşimleri: Tepeaca (ispanya); Puebla de los Ángeles (yeni-ispanya-ilk-donem); Huexotzinco (Huejotzingo) (yeni-ispanya-ilk-donem); Cacaxtla (sahipsiz); Tlaxcala (yeni-ispanya-ilk-donem)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Cholula ispanya 1519-10-18 → 1535-04-17 ve Tepeaca ispanya 1520-09-04 →; Puebla ve Huexotzinco 'yeni-ispanya-ilk-donem' 1531-1535. Aynı sömürge iki kimlikte.
+  - önerilen düzeltme: Aynı dönem tek kimlik (ispanya ya da yeni-ispanya-ilk-donem).
+  - kaynak: veri ölçümü
 
 ### E081 · Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28) (`herzeg-bosna`) · 1991-11-18 → 1996-08-14 · 1.489 km²
 
@@ -936,7 +1012,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 16.4 km · yugoslavya 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Vitez (herzeg-bosna)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Vitez herzeg-bosna: Lašva vadisi HVO enklavı 1993-94'te bosna-hersek içinde gerçek enklavdı. Ölçüldü: Mostar bosna-hersek (HB dönemi yok), Čapljina ve Posušje herzeg-bosna; 1991-11-18 → 1992 çevre yugoslavya-federal. Ana HB gövdesi (Mostar, Livno, Tomislavgrad) eksik; erken dönem enklavı yapay.
+  - önerilen düzeltme: Mostar ve Hersek noktalarına HB dönemi; Vitez enklavı 1993-94'e özgülensin (gün bulunamadı).
+  - kaynak: bulunamadı
 
 ### E082 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1831-01-04 → 1841-05-30 · 1.430 km²
 
@@ -981,7 +1060,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 52.2 km · yugoslavya 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Bijeljina (hirvatistan-bagimsiz)
 - koridor yerleşimleri: İzvornik (Zvornik) (yugoslavya); Tuzla (Bosna) (yugoslavya)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Bijeljina NDH 1941-04-10 → 1945-05-31; İzvornik, Tuzla, Srebrenik yugoslavya kesintisiz. Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.
+  - önerilen düzeltme: Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.
+  - kaynak: veri ölçümü
 
 ### E086 · Osmanlı (`OSMANLI`) · 1664-06-14 → 1685-08-19 · 1.287 km²
 
@@ -990,7 +1072,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 19.0 km · macaristan-habsburg 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Uyvar (OSMANLI)
 - koridor yerleşimleri: Komárom (Komárno) (macaristan-habsburg)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: TDV Uyvar: kuşatma 17 Ağustos 1663, kale 26 Eylül'de teslim; 'Vasvár Antlaşması ile (9 Ağustos 1664) buradaki Osmanlı hâkimiyeti tasdik edildi'; Habsburg 'idaresine girdi (19 Ağustos 1685)'. Uyvar eyaleti Habsburg arasında gerçek Osmanlı parçasıydı; Nitra (d t 1664-05-03) ve Léva (d t 1664-06-14) Habsburga döndü. Ölçüldü: atlas Uyvar f=1663-09-24 TDV'nin 26 Eylül'ünden 2 gün önce; 1683-10-27'ye dek Estergon Osmanlı ve Párkány köprüsü atlasta yok.
+  - önerilen düzeltme: Uyvar d f → 1663-09-26; Párkány (Štúrovo) noktası ile 1664-1683 bağlantı.
+  - kaynak: TDV uyvar (islamansiklopedisi.org.tr/uyvar)
 
 ### E087 · Osmanlı (`OSMANLI`) · 1534-09-22 → 1535-07-21 · 1.233 km²
 
@@ -999,7 +1084,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 148.7 km · hafsi 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Tunus (OSMANLI)
 - koridor yerleşimleri: Mekter (Maktar) (hafsi); Testûr (hafsi)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: TDV Barbaros Hayreddin Paşa: Barbaros 'Mevlây Hasan’ın terkettiği şehri ele geçirdi (22 Eylül)' (1534); 'V. Karl şehri geri alarak (21 Temmuz 1535)'. Atlas Tunus d 1534-09-22 → 1535-07-21 birebir uyumlu. Ölçüldü: Halkulvâdî, Kartaca, Mekter, Testûr hafsi 1535-07-21'e dek; Osmanlı elinde yalnız Tunus şehri.
+  - önerilen düzeltme: Yapısal düzeltme yok; Hafsî çevresi için ayrıca bir şey gerekmez.
+  - kaynak: TDV barbaros-hayreddin-pasa (islamansiklopedisi.org.tr/barbaros-hayreddin-pasa)
 
 ### E088 · Nijerya Federasyonu (Cumhuriyet 1963-10-01) (`nijerya`) · 1967-05-30 → 1970-01-15 · 1.003 km²
 
@@ -1008,7 +1096,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 16.7 km · biafra 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Aroçukvu (nijerya)
 - koridor yerleşimleri: Owerri (biafra)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Aroçukvu nijerya 1960-10-01 → 2000 kesintisiz; çevre biafra (Owerri, Umuahia, Aba) 1967-05-30 → 1970-01-15. Aroçukvu Biafra bölgesindeydi; Nijerya elindeki dönem Biafra'nın düştüğü kadar uzun değil (Nijerya ele geçirişi teyitsiz).
+  - önerilen düzeltme: Aroçukvu'ya biafra dönemi 1967-05-30 → Nijerya ele geçirişi (gün bulunamadı).
+  - kaynak: bulunamadı (UNESCO GHA / akademik İç Savaş kaynağı gerek)
 
 ### E089 · Memlûk (`memluk`) · 1516-09-27 → 1516-10-01 · 986 km²
 
@@ -1041,7 +1132,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 23.3 km · yunanistan 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Vitsi (Grammos-Vitsi, DSE üssü) (yunanistan-gecici-demokratik-hukumet)
 - koridor yerleşimleri: Görice (Korçë) (arnavutluk-halk-cumhuriyeti); Grammos (DSE üssü) (yunanistan-gecici-demokratik-hukumet); Kesriye (Kastoria) (yunanistan); Filorina (Florina) (yunanistan)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Vitsi ve Grammos DSE üsleri (Vitsi 1947-12-24 → 1949-08-28): Grammos-Vitsi sığınağı Yunan Ulusal Ordusu çevrili dağ üssü; koridor Görice (Arnavutluk) sınır hattı. Gerçek eksklav; Pirsos Harekâtı Ağustos 1949'da sonlandırdı (gün teyitsiz).
+  - önerilen düzeltme: Vitsi/Grammos t günleri kaynakla.
+  - kaynak: bulunamadı
 
 ### E092 · Gurcistan Demokratik Cumhuriyeti (`gurcistan-demokratik-cumhuriyeti`) · 1919-04-20 → 1920-04-01 · 857 km²
 
@@ -1062,7 +1156,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 7.5 km · milanoduka 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Bellinzona (isvicre)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Bellinzona isvicre 1500-04-14'ten; 110 km içinde başka İsviçre noktası yok (Luzern 90 km 'isvicre'); Uri/Leventina yolu noktasız. Locarno, Lugano, Chiavenna milanoduka. İsviçre gövdesine bağlanan koridor noktasız emilmeyle kopuk.
+  - önerilen düzeltme: Uri, Leventina (Altdorf, Airolo) noktaları; Bellinzona 1500 Uri/Schwyz/Nidwalden teyidi.
+  - kaynak: veri ölçümü
 
 ### E094 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1912-01-01 → 1923-10-29 · 580 km²
 
@@ -1083,7 +1180,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 466.8 km · DENIZ/BOS 7/9, fransa-cumhuriyet 2/9
 - içindeki yerleşimler (1, s.eksklav 0): Tiberya (Tabariyye / Tiberias) (OSMANLI)
 - koridor yerleşimleri: Ain Mallaha (Eynan) (sahipsiz); Banyas (sahipsiz); Sayda (fransa-cumhuriyet); Deyrülkamer (Dayr al-Kamer) (fransa-cumhuriyet); Beyrut (fransa-cumhuriyet); Gubla (Byblos) (sahipsiz); Trablusşam (fransa-cumhuriyet); Tartus (sahipsiz); Cebele (Jablah) (sahipsiz); Lazkiye (Latakia) (sahipsiz) … +4
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Tiberya OSMANLI d 1840-11-27 → 1920-07-01; Akkâ ingiltere 1918-09-23 → 1920-07-01 (aynı bölge). Osmanlı 'enklavı' Tiberya d'sinin İngiliz işgalinde kesilmemesinden. Banyas, Câbiye, Ain Mallaha dönemsiz (E089 ile aynı).
+  - önerilen düzeltme: Tiberya d t → İngiliz işgali (Akkâ ile hizalı; gün bulunamadı), s: ingiltere 1918 → 1920-07-01.
+  - kaynak: TDV tiberya sonuç vermedi; veri ölçümü
 
 ### E096 · Macaristan Krallığı (Habsburg Tacı) (`macaristan-habsburg`) · 1689-09-11 → 1689-09-16 · 544 km²
 
@@ -1104,7 +1204,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 8.4 km · bizans 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Kite (Kete) (OSMANLI)
 - koridor yerleşimleri: Adranos (Orhaneli) (bizans); Dimbos (OSMANLI); Bursa (bizans); Kestel (OSMANLI)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Kite (Kete) OSMANLI d 1303-01-01 → 1402; Kestel, Dimbos aynı 1303-01-01; çevre Bursa, Adranos, Mudanya bizans. Erken Osmanlı ileri karakolu olabilir ama 1303-01-01 yıl-hassasiyetli ve TDV Bursa Kite/Kestel'i yalnız ilçe listesinde anıyor (Osman'ın Bursa kuşatması 1308 sonrası).
+  - önerilen düzeltme: Kite, Kestel, Dimbos Osmanlı f'sinin kaynağı (gün bulunamadı).
+  - kaynak: TDV bursa okundu: Kite/Kestel erken dönemi yok; bulunamadı
 
 ### E098 · Bizans (`bizans`) · 1323-09-01 → 1326-04-06 · 326 km²
 
@@ -1113,7 +1216,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 8.5 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Bursa (bizans)
 - koridor yerleşimleri: Kite (Kete) (OSMANLI); Gölyazı (Apollonia) (bizans); Kestel (OSMANLI); Mudanya (OSMANLI)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: TDV Bursa: Osman Bey'in kuşatması ve abluka sonunda 'şehir Osmanlılar’a teslim edildi (6 Nisan 1326)'. Atlas Bursa bizans 1261-07-25 → 1326-04-06 birebir uyumlu; kuşatılmış Bizans şehri çevresi Osmanlı: gerçek enklav.
+  - önerilen düzeltme: Yapısal düzeltme yok (başlangıç 1323-09-01 komşu Osmanlı f'sine bağlı).
+  - kaynak: TDV bursa (islamansiklopedisi.org.tr/bursa)
 
 ### E099 · Maratha Konfederasyonu (`maratha`) · 1803-08-12 → 1818-01-01 · 266 km²
 

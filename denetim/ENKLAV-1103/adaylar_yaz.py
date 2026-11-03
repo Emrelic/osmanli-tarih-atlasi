@@ -96,10 +96,11 @@ L.append("Güven: **OLCUM** = yalnız ölçülmüş veri olgusu (noktasızlık, 
          "kaynak sırasıyla teyit eder, gün uydurulmaz.\n")
 L.append("| kova | OLCUM | KAYNAKLI | KAYNAK-GEREK |")
 L.append("|---|---|---|---|")
-for k in ("GERCEK", "BIRLESMELI", "YAPAY-a", "YAPAY-b", "YAPAY-c", "YAPAY-d", "YAPAY-m"):
+for k in ("GERCEK", "BIRLESMELI", "YAPAY-a", "YAPAY-b", "YAPAY-c", "YAPAY-d", "YAPAY-k", "YAPAY-m"):
     L.append("| %s | %d | %d | %d |" % (k, kc[(k, "OLCUM")], kc[(k, "KAYNAKLI")], kc[(k, "KAYNAK-GEREK")]))
 L.append("\nKovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YAPAY-c parçanın içindeki "
-         "yerleşimin dönemi yanlış · YAPAY-d kısa ara (gün çakışması) · YAPAY-m motor (veriyle çözülmez) · "
+         "yerleşimin dönemi yanlış · YAPAY-d kısa ara (gün çakışması) · YAPAY-k aynı yapı iki devlet kimliğiyle "
+         "yazılmış (ör. ingiltere / ingiliz-nijerya) · YAPAY-m motor (veriyle çözülmez) · "
          "BIRLESMELI ara yerleşime dönem yazılınca parça ana gövdeye bağlanır.\n")
 for baslik, grup in (("① ENKLAV (hepsi, ≥ 50 km²)", [a for t, a in sec if t == "E"]),
                      ("② KARA-EKSKLAV — koridorda yabancı kara (alanı en büyük 100)", [a for t, a in sec if t == "K"])):

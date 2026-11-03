@@ -703,5 +703,285 @@
 "gerekce": "Gyula macaristan-habsburg 1526-12-17 → 1530-01-01; çevre TABI (Zapolya) 100%. Habsburg 17 Aralık 1526 Ferdinand seçimi; Gyula'nın Ferdinand tarafında kalması teyitsiz (Zapolya doğu Macaristan'ı tuttu). Solnok ile tutarsız, E044 ile aynı kova.",
 "duzeltme": "Gyula dönemi kaynakla (Zapolya mı Ferdinand mı); gün bulunamadı.",
 "kaynak": "bulunamadı"
+},
+"E053": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Benevento 1051-07-05 → 1861-03-17 papalik (benevento-papalik 1000-1051): Napoli Krallığı içinde Papalık eksklavı gerçektir. Bovianum 'bit 1281' dönemsiz (ölçüldü). Not: Benevento 1806-1815 Talleyrand prensliği idi ve 1860 sonrası İtalya; atlas kaydı 1861-03-17'ye dek papalik.",
+"duzeltme": "1806-1815 Benevento prensliği ve 1860 ilhakı kaynakla; Bovianum'a dönem ya da gizleme.",
+"kaynak": "bulunamadı"
+},
+"E054": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "E053'ün 1814-04-16 → 1861-03-17 devamı: Benevento papalik, çevre napoli 100%. Gerçek eksklav (1860 Ekim plebisiti öncesi).",
+"duzeltme": "Benevento papalik t kaynakla (1860); 1806-1815 aralığı ayrıca.",
+"kaynak": "bulunamadı"
+},
+"E055": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Saraybosna: 'Hodidjed vilâyeti Saray ovası ile beraber 852’de (1448) tamamen Osmanlı idaresi altına girdi'; 'Bosna’nın tamamen fethedilmesiyle (1463) … Bosna sancağı kurulunca'. 1448-1463 Saray ovası Osmanlı, çevre Bosna Krallığı: gerçek enklav. Ölçüldü: Saraybosna d f=1458-01-01 TDV'nin 1448'inden geç; Visoko d f=1448 TDV'de geçmiyor (madde Visoko'yu anmıyor). Pale, Vitez dönemsiz.",
+"duzeltme": "Saraybosna d f → 1448 (gün bulunamadı); Visoko'nun 1448 sahibi için ayrı kaynak.",
+"kaynak": "TDV saraybosna (islamansiklopedisi.org.tr/saraybosna)"
+},
+"E056": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Kırcaali: Kırcaali bir süre 'Garbî Trakya Hükûmet-i Müstakillesi'ne bağlıydı, 'savaşlardan sonra Bulgaristan Krallığı’na geçti' (Ağustos 1913 II. Balkan Savaşı sırasında). Ölçüldü: Kırcaali OSMANLI d 1482 → 1913-09-29, sonra bulgaristan-kralligi; Garbî Trakya dönemi yok. Osmanlı 'enklavı' bu kaydın Osmanlı olarak sürmesinden; Mustafapaşa (Svilengrad) Osmanlı Temmuz 1913 sonrası için ayrı sınanmalı.",
+"duzeltme": "Kırcaali d t → Bulgar işgali (1912 sonu, kaynakla) ve Garbî Trakya Hükûmeti (Ağustos-Ekim 1913) dönemi; gün bulunamadı.",
+"kaynak": "TDV kircaali (islamansiklopedisi.org.tr/kircaali): Osmanlı geri alışı ve 29 Eylül 1913 antlaşması metinde yok"
+},
+"E057": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Meaux ingiltere 1422-01-01 → 1439-01-01; çevre fransa (Paris 1436'da Fransız eline geçti, 13 Nisan 1436 teyitsiz) ve burgonya. Meaux İngiliz garnizonu olarak Fransız toprağı içinde: gerçek eksklav. Bitiş 1439 yıl-hassasiyeti. Melun, Soissons dönemsiz (ölçüldü).",
+"duzeltme": "Meaux t gün (1439) ve Paris f 1436 gün kaynakla; Melun/Soissons dönemleri.",
+"kaynak": "bulunamadı"
+},
+"E058": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Encyclopedia of Ukraine (Kremenchuk): 'a Cossack company center in Chyhyryn regiment (1648–61, 1663–7)'; sonra Myrhorod alayı (1667-1765); 'A Polish castle was built there in 1596'. Ölçüldü: Kremençuk lehistan 1571 → 1654-01-18, çevre kazak-hetmanligi 92%. 1648'den sonra Lehistan'a yazılması yanlış.",
+"duzeltme": "Kremençuk kazak-hetmanligi 1648 → 1765 (gün bulunamadı); lehistan t → 1648.",
+"kaynak": "Encyclopedia of Ukraine, Kremenchuk (encyclopediaofukraine.com)"
+},
+"E059": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Aynı kaynak: Kremenchuk Hetmanlık alay/sotnya merkeziydi (1667-1765 Myrhorod alayı); Novorossiya 1765'te. Ölçüldü: Kremençuk rusya 1654-01-18 → 1917 (kazak-hetmanligi 92% çevre). 1654-1764 'rusya' yanlış; Rus doğrudan idaresi 1765.",
+"duzeltme": "Kremençuk rusya f → 1765 (gün bulunamadı); arada kazak-hetmanligi.",
+"kaynak": "Encyclopedia of Ukraine, Kremenchuk (encyclopediaofukraine.com)"
+},
+"E060": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Hafsîler: 1285'te Constantine başkent, 1370'te Bougie/Tunus/Constantine emirlikleri; Zeyyânîlerden yalnız Tlemcen bağlamında söz ediyor. Ölçüldü: Sikikde ve Mîle 'zeyyani' 1281 → 1519-09-01 (Tlemcen 300 km batıda); Konstantin hafsi. Hafsî eksklavı Zeyyânî yazılmasından.",
+"duzeltme": "Sikikde, Mîle: zeyyani → hafsi (gün bulunamadı; Bicâye vb. de sınansın).",
+"kaynak": "TDV hafsiler (islamansiklopedisi.org.tr/hafsiler)"
+},
+"E061": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Konstantin hafsi 1526-01-01 → 1527-01-01 tek yıllık ara; d OSMANLI 1519-09-01 → 1526-01-01 ve 1527-01-01 → 1671; çevre OSMANLI. TDV hafsiler 1519-1529 Constantine'i kapsamıyor; yıl hassasiyetli ara kaynaksız.",
+"duzeltme": "Konstantin 1519-1671 Osmanlı/Hafsî seyri kaynakla; ara yıl doğrulanmazsa kaldırılsın.",
+"kaynak": "TDV hafsiler okundu: dönem yok; bulunamadı"
+},
+"E062": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Erzurum: Anadolu Selçuklu Devleti Kösedağ'dan (1243) sonra Moğol hâkimiyetini tanıdı; 1308'den sonra İlhanlılar'a bağlandı. Ölçüldü: Erzurum selcuklu 1202 → 1308 iken Aşkale, Pasinler ilhanli (1300); Bingöl ilhanli. Aynı Moğol-bağlı alan iki ayrı boyada.",
+"duzeltme": "Erzurum için selcuklu (tâbi) / ilhanli tutarlılığı: tâbi katmanı ya da komşuların aynı statüsü (gün bulunamadı).",
+"kaynak": "TDV erzurum (islamansiklopedisi.org.tr/erzurum)"
+},
+"E063": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Kars 1917-11-07 → 1918-04-25 ve Ardahan transkafkasya; Arpaçay, Digor, Sarıkamış, Küçükperveli (Kars bölgesi) aynı aralıkta kesintisiz sovyet-rusya. Kars ili tek parça; komşulara transkafkasya dönemi yok.",
+"duzeltme": "Arpaçay, Digor, Sarıkamış, Küçükperveli, Kars vilayeti noktalarına 1917-11-07 → 1918-04-25 transkafkasya (gün bulunamadı; Brest-Litovsk 1918-03-03, Kars 1918-04-25).",
+"kaynak": "veri ölçümü"
+},
+"E064": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Mostar NDH iken Konjic, Ston, Travnik yugoslavya kesintisiz (1918-12-01 → 1945-11-29); Čapljina, Posušje, Vitez ve Delminium bu dönemde dönemsiz. Hersek-Bosna NDH'nin parçasıydı. Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.",
+"duzeltme": "Mostar çevresi; Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.",
+"kaynak": "veri ölçümü"
+},
+"E065": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Dholka babur-imparatorlugu 1741 → 1757-01-01; Ahmedâbâd 1756'da maratha, Kanbâyet maratha. Gucerat'ta Ahmedabad ve çevre Marathalara 1750'lerin başında geçti (1753-1758 aralığı teyitsiz); Lothal MÖ 2449-1999 (dönemsiz). Dholka'nın Babür kalması komşudan geç.",
+"duzeltme": "Dholka Maratha f ve Ahmedabad f hizalansın (Imperial Gazetteer 'Gujarat' bakılmalı); gün bulunamadı.",
+"kaynak": "bulunamadı (Imperial Gazetteer çekilmedi)"
+},
+"E066": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Malikiye (Derik) fransa-cumhuriyet f=1918-10-30 (Mudros günü); Cizre, Cibri OSMANLI, Silopi, Zaho, Cumai ingiltere. Fransız fiilî işgalinin Malikiye'ye 1918'de ulaşması teyitsiz; Subat-Enlil dönemsiz (ölçüldü).",
+"duzeltme": "Malikiye f kaynakla (Fransız işgal tarihi); gün bulunamadı.",
+"kaynak": "bulunamadı"
+},
+"E067": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Davos ve Chur (Graubünden) 60 km içinde başka İsviçre noktası yok; ana İsviçre gövdesi (Luzern 90 km) arası noktasız ve Vaduz/Feldkirch petekleri emiyor. 1918-11-12 başlangıcı Avusturya Cumhuriyeti kuruluşu.",
+"duzeltme": "Sargans/Walenstadt/Glarus yönünde İsviçre noktaları; dönemsiz.",
+"kaynak": "veri ölçümü"
+},
+"E068": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Peşte/Aquincum macaristan-habsburg 1527-09-23 → 1529-09-08 (Buda 8 Eylül 1529'da Süleyman tarafından Zapolya'ya geri verildi); Vaç macaristan. Ferdinand'ın tuttuğu Estergon-Tata-Székesfehérvár hattı noktalarına Habsburg dönemi yazılı mı sınanmalı (Estergon 1530-01-01'e dek habsburg, ölçüldü). Macaristan sahipsiz nokta.",
+"duzeltme": "Komşu noktaların (Vaç, Hatvan…) 1527-1529 Habsburg/Zapolya durumu kaynakla.",
+"kaynak": "bulunamadı"
+},
+"E069": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Harran OSMANLI d 1516-01-01 → 1923-10-29; Urfa, Akçakale, Diyarbakır tbmm-turkiye 1920-04-23'ten. Harran 1261-1516 BOSLUK, TBMM dönemi yok; Göbekli Tepe dönemsiz.",
+"duzeltme": "Harran d t → 1920-04-23, s: tbmm-turkiye 1920-04-23 → 1923-10-29 (Fransız işgali ayrıca).",
+"kaynak": "veri ölçümü"
+},
+"E071": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Sart OSMANLI d 1481-01-01 → 1923-10-29; Birgi, Akhisar, Alaşehir, Manisa tbmm-turkiye 1920-04-23'ten (E069 ile aynı sebep). Sart lidya MÖ 651 başlangıçlı antik nokta.",
+"duzeltme": "Sart d t → 1920-04-23 ve tbmm-turkiye dönemi.",
+"kaynak": "veri ölçümü"
+},
+"E072": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Nevşehir (Muşkara) karaman f=1365-01-01; Ürgüp, Aksaray eretna; 1 yıllık parça komşunun 1366'da karamana geçmesinden. Eretna-Karaman geçişi gün bulunamadı.",
+"duzeltme": "Nevşehir f ve Ürgüp/Aksaray geçişi hizalansın (TDV karamanoğulları).",
+"kaynak": "bulunamadı"
+},
+"E074": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Saraybosna hirvatistan-bagimsiz 1941-04-10 → 1945-05-06; Visoko, Foča, Višegrad, Konjic yugoslavya kesintisiz. Pale dönemsiz. Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.",
+"duzeltme": "Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.",
+"kaynak": "veri ölçümü"
+},
+"E075": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Guastalla italya 1861-03-17 → 1946-06-18 kesintisiz; Modena, Parma, Mantova salo-cumhuriyeti 1943-09-23 → 1945-04-28. Guastalla Reggio Emilia ilinde, RSI içindeydi. Canossa dönemsiz.",
+"duzeltme": "Guastalla'ya salo-cumhuriyeti dönemi (gün bulunamadı).",
+"kaynak": "veri ölçümü"
+},
+"E076": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü (1993-06-01): Pale ve Doboj bosna-sirp-cumhuriyeti, Bijeljina RS; Vişegrad, Foča, Zvornik 'bosna-hersek' (Sırp Cumhuriyeti dönemi yok; hepsi 1992-03-03'ten kesintisiz bosna-hersek). RS ana gövdesi bu noktalarda eksik.",
+"duzeltme": "Foča, Višegrad, Zvornik ve Sarajevo-Romanija noktalarına 1992 → 1995-12-14 bosna-sirp-cumhuriyeti (gün bulunamadı).",
+"kaynak": "veri ölçümü"
+},
+"E078": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Zagreb NDH 1941-04-10 → 1945-05-06; Sisak (1920-06-04 → 1945-11-29), Kostajnica, Jajce, Dubica yugoslavya kesintisiz. NDH çekirdeği Hırvatistan'dı. Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.",
+"duzeltme": "Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.",
+"kaynak": "veri ölçümü"
+},
+"E079": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ölçüldü: Glina RSK 1991-12-19 → 1995-08-07; Kostajnica hirvatistan 1991-06-25'ten kesintisiz; Sisak/Karlovac hirvatistan. Banija'nın Hrvatska Kostajnica'sı RSK kontrolündeydi (tarihsel, teyitsiz); 'Hırvatistan' diye sahipsiz nokta var.",
+"duzeltme": "Banija/Kordun/Lika noktalarına RSK dönemi (Petrinja, Kostajnica, Vojnić…; gün bulunamadı).",
+"kaynak": "bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)"
+},
+"E080": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Cholula ispanya 1519-10-18 → 1535-04-17 ve Tepeaca ispanya 1520-09-04 →; Puebla ve Huexotzinco 'yeni-ispanya-ilk-donem' 1531-1535. Aynı sömürge iki kimlikte.",
+"duzeltme": "Aynı dönem tek kimlik (ispanya ya da yeni-ispanya-ilk-donem).",
+"kaynak": "veri ölçümü"
+},
+"E081": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Vitez herzeg-bosna: Lašva vadisi HVO enklavı 1993-94'te bosna-hersek içinde gerçek enklavdı. Ölçüldü: Mostar bosna-hersek (HB dönemi yok), Čapljina ve Posušje herzeg-bosna; 1991-11-18 → 1992 çevre yugoslavya-federal. Ana HB gövdesi (Mostar, Livno, Tomislavgrad) eksik; erken dönem enklavı yapay.",
+"duzeltme": "Mostar ve Hersek noktalarına HB dönemi; Vitez enklavı 1993-94'e özgülensin (gün bulunamadı).",
+"kaynak": "bulunamadı"
+},
+"E085": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Bijeljina NDH 1941-04-10 → 1945-05-31; İzvornik, Tuzla, Srebrenik yugoslavya kesintisiz. Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.",
+"duzeltme": "Kapsama: 1941-04-10 → 1945-05-06 Bosna-Hersek, Slavonya ve Hırvat topraklarındaki noktalara hirvatistan-bagimsiz (NDH) dönemi; Sisak, Konjic, Travnik, Jajce, Bosanska Dubica, Kostajnica, Tuzla, Zvornik, Visoko, Foča, Višegrad. Günler kaynakla (gün bulunamadı); Bijeljina 1945-05-31 ile 05-06 uyumsuz.",
+"kaynak": "veri ölçümü"
+},
+"E086": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Uyvar: kuşatma 17 Ağustos 1663, kale 26 Eylül'de teslim; 'Vasvár Antlaşması ile (9 Ağustos 1664) buradaki Osmanlı hâkimiyeti tasdik edildi'; Habsburg 'idaresine girdi (19 Ağustos 1685)'. Uyvar eyaleti Habsburg arasında gerçek Osmanlı parçasıydı; Nitra (d t 1664-05-03) ve Léva (d t 1664-06-14) Habsburga döndü. Ölçüldü: atlas Uyvar f=1663-09-24 TDV'nin 26 Eylül'ünden 2 gün önce; 1683-10-27'ye dek Estergon Osmanlı ve Párkány köprüsü atlasta yok.",
+"duzeltme": "Uyvar d f → 1663-09-26; Párkány (Štúrovo) noktası ile 1664-1683 bağlantı.",
+"kaynak": "TDV uyvar (islamansiklopedisi.org.tr/uyvar)"
+},
+"E087": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Barbaros Hayreddin Paşa: Barbaros 'Mevlây Hasan’ın terkettiği şehri ele geçirdi (22 Eylül)' (1534); 'V. Karl şehri geri alarak (21 Temmuz 1535)'. Atlas Tunus d 1534-09-22 → 1535-07-21 birebir uyumlu. Ölçüldü: Halkulvâdî, Kartaca, Mekter, Testûr hafsi 1535-07-21'e dek; Osmanlı elinde yalnız Tunus şehri.",
+"duzeltme": "Yapısal düzeltme yok; Hafsî çevresi için ayrıca bir şey gerekmez.",
+"kaynak": "TDV barbaros-hayreddin-pasa (islamansiklopedisi.org.tr/barbaros-hayreddin-pasa)"
+},
+"E088": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Aroçukvu nijerya 1960-10-01 → 2000 kesintisiz; çevre biafra (Owerri, Umuahia, Aba) 1967-05-30 → 1970-01-15. Aroçukvu Biafra bölgesindeydi; Nijerya elindeki dönem Biafra'nın düştüğü kadar uzun değil (Nijerya ele geçirişi teyitsiz).",
+"duzeltme": "Aroçukvu'ya biafra dönemi 1967-05-30 → Nijerya ele geçirişi (gün bulunamadı).",
+"kaynak": "bulunamadı (UNESCO GHA / akademik İç Savaş kaynağı gerek)"
+},
+"E091": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Vitsi ve Grammos DSE üsleri (Vitsi 1947-12-24 → 1949-08-28): Grammos-Vitsi sığınağı Yunan Ulusal Ordusu çevrili dağ üssü; koridor Görice (Arnavutluk) sınır hattı. Gerçek eksklav; Pirsos Harekâtı Ağustos 1949'da sonlandırdı (gün teyitsiz).",
+"duzeltme": "Vitsi/Grammos t günleri kaynakla.",
+"kaynak": "bulunamadı"
+},
+"E093": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Bellinzona isvicre 1500-04-14'ten; 110 km içinde başka İsviçre noktası yok (Luzern 90 km 'isvicre'); Uri/Leventina yolu noktasız. Locarno, Lugano, Chiavenna milanoduka. İsviçre gövdesine bağlanan koridor noktasız emilmeyle kopuk.",
+"duzeltme": "Uri, Leventina (Altdorf, Airolo) noktaları; Bellinzona 1500 Uri/Schwyz/Nidwalden teyidi.",
+"kaynak": "veri ölçümü"
+},
+"E095": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Tiberya OSMANLI d 1840-11-27 → 1920-07-01; Akkâ ingiltere 1918-09-23 → 1920-07-01 (aynı bölge). Osmanlı 'enklavı' Tiberya d'sinin İngiliz işgalinde kesilmemesinden. Banyas, Câbiye, Ain Mallaha dönemsiz (E089 ile aynı).",
+"duzeltme": "Tiberya d t → İngiliz işgali (Akkâ ile hizalı; gün bulunamadı), s: ingiltere 1918 → 1920-07-01.",
+"kaynak": "TDV tiberya sonuç vermedi; veri ölçümü"
+},
+"E097": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kite (Kete) OSMANLI d 1303-01-01 → 1402; Kestel, Dimbos aynı 1303-01-01; çevre Bursa, Adranos, Mudanya bizans. Erken Osmanlı ileri karakolu olabilir ama 1303-01-01 yıl-hassasiyetli ve TDV Bursa Kite/Kestel'i yalnız ilçe listesinde anıyor (Osman'ın Bursa kuşatması 1308 sonrası).",
+"duzeltme": "Kite, Kestel, Dimbos Osmanlı f'sinin kaynağı (gün bulunamadı).",
+"kaynak": "TDV bursa okundu: Kite/Kestel erken dönemi yok; bulunamadı"
+},
+"E098": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Bursa: Osman Bey'in kuşatması ve abluka sonunda 'şehir Osmanlılar’a teslim edildi (6 Nisan 1326)'. Atlas Bursa bizans 1261-07-25 → 1326-04-06 birebir uyumlu; kuşatılmış Bizans şehri çevresi Osmanlı: gerçek enklav.",
+"duzeltme": "Yapısal düzeltme yok (başlangıç 1323-09-01 komşu Osmanlı f'sine bağlı).",
+"kaynak": "TDV bursa (islamansiklopedisi.org.tr/bursa)"
 }
 }
