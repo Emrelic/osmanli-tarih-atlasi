@@ -92,3 +92,10 @@ En geniş yıl 1943: 184 yerleşim (Mançukuo, Çin işgali, Güneydoğu Asya) �
 - John J. Stephan, *The Kuril Islands* (Oxford 1974): 1875 antlaşması imza/onay/devir günleri.
 - Cambridge History of Japan vol. 4, kronoloji sayfa numaraları (bu oturumda düz metin kronolojisi okundu; sayfa numarası belirlenmedi).
 - TDV Ryukyu/Okinawa, Tayvan, Kore maddeleri: bu oturumda aranmadı (ayrı denetim).
+
+## KESİN HATA (koordinatör onayı, 4 Kasım 2026)
+- `nokta2.js:35` (Edo bakufu kuruluşu) ve `nokta2.js:66` (Meiji restorasyonu) maddelerinin `yer_id`'si **"Hiraizumi"**
+  ve `d` metni yalnız Hiraizumi/Yoshino'yu anıyor ⇒ maddeler Edo/Kyoto ve 1603/1868 kırılmasındaki 28 + 34 yerleşimi
+  karşılamıyor. Düzeltme: `yer_id` **"Edo (Tokyo)"** (1603) / **"Kyoto"** ya da **"Edo (Tokyo)"** (1868; ilgili
+  yerleşim adını atlasta doğrula), `yer` alanına etkilenen başlıca yerleşimler; Değişmez 2'nin yer şartı bunu ister.
+- Doğrulandı (UMIT SALI, veride): dosya `data/kronoloji_sinir_nokta2.js`; satır 35 (t 1603-03-24) ve 66 (t 1868-01-03) ikisinde de `yer_id: "Hiraizumi (Ōshū Fujiwara başkenti)"`. Aynı dosyada Kamakura/Muromachi maddeleri (satır 11, 21, 22, 32) de Hiraizumi'yi anıyor — Japon şogunluk geçişlerinin hepsi KASA'da gözden geçirilsin.

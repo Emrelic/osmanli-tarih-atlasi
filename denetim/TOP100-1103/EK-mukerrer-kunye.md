@@ -31,6 +31,14 @@ Kural: kalıcı id = haritada (s: yerleşim) ve kronolojide kullanılan; eşitse
 | 59 | Moğolistan (Doğu Çağatay) Hanlığı | `mogolistan-hanligi` | Moğolistan (Mughulistan) Hanlığı — Doğu Çağatay | 1347-01-01 | 1514-01-01 |  | 0 | 0 | → `mogulistan`'e birleştir |
 | 81 | Chimú Krallığı | `chimu` | Chimu (Chimor) Krallığı | 1000-01-01 | 1470-01-01 |  | 0 | 2 | → `chimu-krallik`'e birleştir |
 | 81 | Chimú Krallığı | `chimu-krallik` | Chimu Krallığı (Chimor) | 1000-01-01 | 1470-01-01 |  | 2 | 15 | **KALICI** |
+| 86 | Gana (Wagadu) | `wagadu-gane-erken` | Wagadu (Gāne) — Erken Dönem | 0701-01-01 | 1076-01-01 |  | 0 | 13 | **KALICI** |
+| 86 | Gana (Wagadu) | `gane` | Gāne (Gana) Devleti | 1000-01-01 | 1076-01-01 |  | 0 | 0 | → `wagadu-gane-erken`'e birleştir |
+| 85 | Kevkev (Gao) — örtüşme, aynı polity mi kaynakla | `kevkev` | Kevkev (Gao) Krallığı — Songay Zâ Hânedanı | 1000-01-01 | 1324-01-01 |  | 1 | 5 | **KALICI** |
+| 85 | Kevkev (Gao) — örtüşme, aynı polity mi kaynakla | `kevkev-erken` | Kevkev (Gao) — Erken Dönem | 0801-01-01 | 1009-08-25 |  | 0 | 4 | → `kevkev`'e birleştir |
+| 83 | Mayapán dönemi — 1100-1450 örtüşme | `mayapan-birligi` | Mayapan Birligi (Mayapan Ligi) | 1100-01-01 | 1450-01-01 |  | 1 | 8 | → `maya-sehir-devletleri`'e birleştir |
+| 83 | Mayapán dönemi — 1100-1450 örtüşme | `maya-sehir-devletleri` | Maya Şehir Devletleri (Post-Klasik) | 1000-01-01 | 1697-03-13 |  | 10 | 23 | **KALICI** |
+| 91 | Kuş (Napata-Meroe) — meroe alt küme | `kush-krallik` | Kus (Napata–Meroe) Krallığı | -0749-01-01 | 0349-01-01 |  | 1 | 1 | **KALICI** |
+| 91 | Kuş (Napata-Meroe) — meroe alt küme | `meroe-krallik` | Meroe Krallığı (Meroitik evre) | -0590-01-01 | 0349-01-01 |  | 0 | 0 | → `kush-krallik`'e birleştir |
 
 ## Notlar
 - f/t farklıysa kalıcı künyenin uçları kaynaklı olanla birleştirilir (ilgili denetim dosyasının b) bölümü).
