@@ -33,6 +33,21 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
      lakabı veriyorsa), Murad, Selim; Batılı hükümdarlar o dilin akademik adıyla (Kanuni = Süleyman
      the Lawgiver/the Magnificent; Şarlken → Charles V; Kutsal Roma → Holy Roman Empire).
    - Emin değilsen metindeki Türkçe özel adı modern Türkçe yazımıyla bırak (uydurma ad üretme).
+3a. **Arapça (ar) ölçüsü:** Arap tarih yazımının yerleşik adları — *Dâ'irat al-Ma'ârif
+   al-Islâmiyya*, Arap üniversitelerinin Osmanlı tarihi yayınları (ör. Muhammed Ferid Bey
+   geleneği, Abdülaziz eş-Şinnâvî). Modern Standart Arapça (fushâ), akademik üslup.
+   - الدولة العثمانية; padişah → السلطان; sadrazam → الصدر الأعظم; Yeniçeri → الإنكشارية;
+     beylerbeyi → بكلربك; sancak → سنجق; timar → التيمار; devşirme → الدوشرمة.
+   - 1453 öncesi القسطنطينية, sonrası إسطنبول. Edirne: fetihten önce أدرنة (Adrianopolis
+     bağlamında أدريانوبل), Bursa بورصة, Belgrad بلغراد, Viyana فيينا, Mora المورة,
+     Rumeli الروملي, Eflak الأفلاق, Boğdan البغدان, Erdel ترانسلفانيا, Memlükler المماليك,
+     Safevîler الصفويون, Selçuklular السلاجقة, Akkoyunlu آق قويونلو, Karakoyunlu قره قويونلو.
+   - Kişiler: محمد الثاني (الفاتح yalnız metin lakabı veriyorsa), بايزيد الأول, سليمان القانوني,
+     مراد, سليم. Batılılar Arapçadaki yerleşik yazımla (شارل الخامس).
+   - **Rakamlar Batı Arap rakamıyla (0-9) yazılır**, Doğu Arap rakamı (٠-٩) KULLANILMAZ:
+     `#` şablonları ve tarih denetimi rakam üzerinden çalışır. MÖ → ق.م (sayıdan sonra:
+     "500 ق.م"), MS → م. Hicrî aylar Arapça adıyla (محرم، صفر، ربيع الأول …).
+   - Latin harfli kısaltma, kaynak adı, dosya adı (TDV, Shaw, data/devletler.js) aynen kalır.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).

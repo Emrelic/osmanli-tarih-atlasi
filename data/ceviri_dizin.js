@@ -9,6 +9,10 @@ window.CEVIRI_DIZIN = {
   {
    "kod": "en",
    "ad": "English"
+  },
+  {
+   "kod": "ar",
+   "ad": "العربية"
   }
  ],
  "dosyalar": {
@@ -44,6 +48,16 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_en_olay_06.js",
     "181ca40e"
+   ]
+  ],
+  "ar": [
+   [
+    "ceviri_ar_arayuz.js",
+    "85a3d863"
+   ],
+   [
+    "ceviri_ar_devlet.js",
+    "56525cd7"
    ]
   ]
  }

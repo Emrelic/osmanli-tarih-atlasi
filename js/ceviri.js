@@ -106,7 +106,11 @@
       else SAYAC.devlet_bayat++;
     });
     document.documentElement.lang = DIL;
+    // Sağdan sola diller: sayfa düzeni (harita solda, panel sağda) DEĞİŞMEZ; yalnız metin
+    // blokları kendi yönünü bulur (css/style.css `.ceviri-rtl`, TASARIM.md §7).
+    if (RTL[DIL]) document.documentElement.classList.add("ceviri-rtl");
   }
+  var RTL = { ar: 1, fa: 1, he: 1, ur: 1 };
 
   // ---- Arayüz sözlüğü: metin düğümleri + title/placeholder/aria-label ----
   // Anahtar: kırpılmış Türkçe; rakam dizileri "#" ile şablonlanır ("12 madde" ↔ "# madde").
