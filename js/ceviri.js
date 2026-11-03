@@ -187,13 +187,14 @@
     if (DIL === "tr" || !Object.keys(VERI.arayuz).length) return;
     agacCevir(document.body);
     if (document.title) { var t = sozlukBul(document.title); if (t) document.title = t; }
-    // Kayıtlar kare başına (rAF) işlenir: sayfanın kendi gözcüsü ya da "metin
+    // Kayıtlar 30 ms'lik dilimlerle işlenir: sayfanın kendi gözcüsü ya da "metin
     // farklıysa yeniden yaz" döngüsü çeviriyle mikro-görev ping-pongu kurarsa
-    // sayfa donmaz, en kötü kare başına bir tur olur.
+    // sayfa donmaz, en kötü 30 ms'de bir tur olur.
     var kuyruk = [], planli = false;
     gozcu = new MutationObserver(function (kayitlar) {
       for (var i = 0; i < kayitlar.length; i++) kuyruk.push(kayitlar[i]);
-      if (!planli) { planli = true; requestAnimationFrame(isle); }
+      // setTimeout (rAF değil): arka plandaki sekmede rAF hiç dönmez, kuyruk sonsuza dek bekler
+      if (!planli) { planli = true; setTimeout(isle, 30); }
     });
     function isle() {
       planli = false;

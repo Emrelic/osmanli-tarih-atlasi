@@ -122,7 +122,25 @@ sıradadır, çünkü Osmanlı coğrafyasının büyük kısmının dilidir.
   metni taşıyan öğelere (`#olay-listesi`, madde paneli) `dir="auto"` uygulanacaktır. Bu iş Arapça
   aşamasında yapılır.
 
-## 8. Kapsam ve bilinen sınırlar (pilot)
+## 8. Pilot sonucu (İngilizce, 4 Kasım 2026 — `py arac/ceviri.py durum --dil en`)
+
+- arayüz 1.764 kayıt (çıkarılmış 1.011 + tarih kalıbı 670 + elle eklenmiş şablon/birleşik metin) ·
+  devlet 2.279/2.279 · kronoloji 4.717/4.717 (b+d), bayat 0.
+- Çevirmen: 16 kronoloji partisi + 3 arayüz/devlet işi, her biri tek Sonnet alt ajan, sırayla.
+  Her parti `_ceviri_is/parti.py` ile denetlendi: id kümesi, boş alan, uzunluk oranı
+  (0,6–1,9), kaynaktaki 3-4 haneli sayıların çeviride bulunması. Çıkan uyarıların hepsi binlik
+  ayracı biçimindendi ("10.000" → "10,000").
+- Sonradan düzeltilenler: 1453-05-29 öncesi 16 kayıtta "Istanbul" → "Constantinople" (kural
+  ilk iki partiden sonra sıkılaştırıldı); 1527-11-03 "Istolni Belgrade" → Székesfehérvár.
+- Kaynakta görülen olgu hatası (çeviri düzeltti, Türkçe veri DÜZELTİLMEDİ — veri sahibine):
+  `OLAYLAR_ORTACAG_BEKLEYEN_ACIK:1018-01-01:1` "kayınvalde Sviatopolk" → Sviatopolk Bolesław'ın
+  damadıdır. `OLAYLAR_NAPOLYON_ITALYA_1028:1814-05-20:0` başlık "Vittorio Emanuele I", detay
+  "VII. Vittorio Emanuele". `OLAYLAR_P0068B:1790-09-18:0` "Pazar" (Gregoryen'de Cumartesi).
+- Tarayıcı sınamasında bulunan ve düzeltilen 3 hata: sözlük kaydı dizi olarak okunuyordu;
+  MutationObserver sayfa gözcüleriyle mikro-görev döngüsüne girip sayfayı donduruyordu
+  (kuyruk + setTimeout 30 ms); kuyruk rAF ile işlenince arka plan sekmesinde hiç dönmüyordu.
+
+## 9. Kapsam ve bilinen sınırlar (pilot)
 
 - Çevrilenler: arayüz sözlüğü, devlet adları (`DEVLETLER.ad`), çekirdek kronoloji (`OLAYLAR*`,
   sitenin yüklediği 4.717 madde; başlık `b` + detay `d`).
@@ -130,5 +148,10 @@ sıradadır, çünkü Osmanlı coğrafyasının büyük kısmının dilidir.
   okur), padişah/kişi/şehir adları, künye kronolojileri (`kronoloji*.js`), sınır kronolojisi
   (`kronoloji_sinir*.js`), ek okumalar, `yer`/`kisiler` alanları. Yer ve kişi alanları özel ad
   listesidir; ad sözlüğü (yer adı → akademik ad) ayrı bir iştir.
+- Sayı biçimi: app.js'in kurduğu sayılar Türkçe biçimde kalır ("4,37 million km²"); sözlük
+  rakamı şablonla taşır, biçimini değiştirmez. Açılış perdesi ("Atlas yükleniyor…") ceviri.js'ten
+  önce çizildiği için Türkçe kalır.
+- denetle.py bu worktree'de ÖLÇÜLEMEDİ: `kodla.py coz-c` KASA'da MemoryError verdi. Dal hiçbir
+  veri dosyasına dokunmaz (yalnız data/ceviri_* ekler); ölçüm push kapısının worktree'sinde.
 - Değişmez 2 evrenine dokunulmadı: çeviri yalnız görüntü katmanıdır. denetle.py veri dosyalarını
   okur, çeviri dosyalarını okumaz.

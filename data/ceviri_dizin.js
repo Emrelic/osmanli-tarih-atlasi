@@ -15,7 +15,7 @@ window.CEVIRI_DIZIN = {
   "en": [
    [
     "ceviri_en_arayuz.js",
-    "fced65d5"
+    "735ed806"
    ],
    [
     "ceviri_en_devlet.js",
