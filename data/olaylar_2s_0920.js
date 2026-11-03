@@ -152,16 +152,16 @@ window.OLAYLAR_2S0920 = [
   b:"Gürcistan bağımsızlığını ilân etti — Transkafkasya Seymi dağıldı",
   gun:"26 Mayıs 1918", yer:"Kutaisi, Tiflis, Gürcistan",
   kisiler:"Gürcistan Millî Konseyi", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
-  d:"Brest-Litovsk sonrasında kurulan Transkafkasya Seymi'nden çıkan Gürcistan bağımsızlığını ilân etti ve Gürcistan Demokratik Cumhuriyeti kuruldu. Kutaisi ile birlikte batı Gürcistan bu yeni devletin idaresine geçti.",
-  kaynak:"TDV `gurcistan` — AYNEN: \"26 Mayıs 1918 tarihinde bağımsızlığını ilân etti\" · hassasiyet: GÜN" },
+  d:"Brest-Litovsk sonrasında kurulan Transkafkasya Seymi'nden çıkan Gürcistan bağımsızlığını ilân etti ve Gürcistan Demokratik Cumhuriyeti kuruldu. Kutaisi ile birlikte batı Gürcistan bu yeni devletin idaresine geçti. Bu ilanla Sohum, Poti, Zugdidi, Gori, Telavi ve Duşeti Gürcistan Demokratik Cumhuriyeti'ne geçti.",
+  kaynak:"TDV `gurcistan` — AYNEN: \"26 Mayıs 1918 tarihinde bağımsızlığını ilân etti\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Gürcistan' (islamansiklopedisi.org.tr/gurcistan)" },
 
 // ── 1918 · Azerbaycan ────────────────────────────────────────────────
 { t:"1918-05-28", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Gence",
   b:"Azerbaycan Demokratik Cumhuriyeti ilân edildi",
   gun:"28 Mayıs 1918", yer:"Gence, Bakü, Azerbaycan, Revan",
   kisiler:"Azerbaycan Millî Şûrası", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
-  d:"Gürcistan'ın ayrılmasından iki gün sonra Azerbaycan Demokratik Cumhuriyeti ilân edildi; ilk merkez Gence oldu. Aynı gün Revan'da Ermenistan Cumhuriyeti de kuruldu ve Transkafkasya üç ayrı devlete bölündü.",
-  kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI" },
+  d:"Gürcistan'ın ayrılmasından iki gün sonra Azerbaycan Demokratik Cumhuriyeti ilân edildi; ilk merkez Gence oldu. Aynı gün Revan'da Ermenistan Cumhuriyeti de kuruldu ve Transkafkasya üç ayrı devlete bölündü. Bu ilanla Şamahı, Kabala, Ereş, Şâbüran, Salyan, Kuba, Şeki ve Berde Azerbaycan Demokratik Cumhuriyeti'ne geçti.",
+  kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan' (islamansiklopedisi.org.tr/azerbaycan)" },
 
 // ── 1918 · Halep ─────────────────────────────────────────────────────
 { t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Halep",
@@ -176,8 +176,8 @@ window.OLAYLAR_2S0920 = [
   b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
   gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
   kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],
-  d:"Kızıl Ordu Azerbaycan'a girerek parlamento ve hükümeti feshetti; iki yıllık Azerbaycan Demokratik Cumhuriyeti sona erdi. Bakü'nün petrol havzası ile Gence böylece Sovyet idaresine geçti.",
-  kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN" },
+  d:"Kızıl Ordu Azerbaycan'a girerek parlamento ve hükümeti feshetti; iki yıllık Azerbaycan Demokratik Cumhuriyeti sona erdi. Bakü'nün petrol havzası ile Gence böylece Sovyet idaresine geçti. Bu işgalle Şamahı, Kabala, Ereş, Şâbüran, Salyan, Kuba, Şeki ve Berde Sovyet Rusya denetimine geçti.",
+  kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan'" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
 { t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",

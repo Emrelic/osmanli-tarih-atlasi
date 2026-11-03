@@ -102,8 +102,8 @@ window.OLAYLAR_2S_0918 = [
 // ── 8. AHAL TEKKE / TÜRKMEN BÖLGESİNİN RUSYA'YA DÜŞÜŞÜ ───────────────
 { t:"1881-01-24", b:"Göktepe Muharebesi — Ahal Tekke Türkmenleri Rusya'ya yenildi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Dihistan ovası (Meşhed-i Misriyân)",
   etiket:["askeri","savas","konu-askeri"],
-  d:"General Mihail Skobelev komutasındaki Rus kuvvetleri, 24 Ocak 1881'de Göktepe (Geok Tepe) kalesini düşürerek Ahal Tekke Türkmenlerinin direnişini kırdı; Dihistan ovası, Ebîverd ve Nesâ dahil Hazar ötesi Türkmen bölgesi Rus İmparatorluğu'na katılma sürecine girdi (Transhazar Bölgesi 1881'de kuruldu).",
-  kaynak:"standart akademik/ansiklopedik (Battle of Geok Tepe, 24 Ocak 1881 — Britannica 'Battle of Gökdepe', Edgar, Tribal Nation) — TDV kapsam dışı; veri 1881-01-30 taşıyor, kaynak 24 Ocak diyor — 6 GÜNLÜK FARK bildiriliyor, veri kaydı gözden geçirilmeli" },
+  d:"General Mihail Skobelev komutasındaki Rus kuvvetleri, 24 Ocak 1881'de Göktepe (Geok Tepe) kalesini düşürerek Ahal Tekke Türkmenlerinin direnişini kırdı; Dihistan ovası, Ebîverd ve Nesâ dahil Hazar ötesi Türkmen bölgesi Rus İmparatorluğu'na katılma sürecine girdi (Transhazar Bölgesi 1881'de kuruldu). Bu olayla Kızılarvat ve Aşkabad (Ahal Türkmen toprakları) Rusya'ya geçti.",
+  kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Türkmenistan', tarih bölümü (islamansiklopedisi.org.tr/turkmenistan) — açıldı, okundu ('24 Ocak'ta genel taarruza geçtiler') · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Battle of Geok Tepe, 24 Ocak 1881 — Britannica 'Battle of Gökdepe', Edgar, Tribal Nation) — TDV kapsam dışı; veri 1881-01-30 taşıyor, kaynak 24 Ocak diyor — 6 GÜNLÜK FA" },
 
 // ── 9. DÂRÜ'L-KÛTÎ'NİN FRANSIZLARA DÜŞÜŞÜ ─────────────────────────────
 { t:"1911-01-12", b:"Sultan Mohammed es-Senûsî'nin Dâru'l-Kûtî Sultanlığı Fransız kuvvetlerince ortadan kaldırıldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ndele (Dâru'l-Kûtî)",

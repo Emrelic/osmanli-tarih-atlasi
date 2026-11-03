@@ -1,0 +1,120 @@
+
+## Hücre 12 — çelişki ve okunmadı dökümü (ajan sonucu, uygulanmadı)
+- **1920-04-23** Türkiye Büyük Millet Meclisi'nin açılışı
+  - çelişki `Aydos Kalesi`: 23.4.1920'de İstanbul İtilâf işgalinde ve İstanbul hükümeti idaresinde; TBMM idaresine giriş Ekim 1922 sonrası (TDV Mustafa Kemal Atatürk: Refet Bey birliği 19 Ekim 1922'de İstanbul'a girdi; işgalciler 6 Ekim 1923'te ayrıldı).
+  - çelişki `Manisa`: 23.4.1920'de işgal altında; TBMM idaresinde değil.
+  - çelişki `İzmir`: 23.4.1920'de Yunan işgalinde; TBMM idaresine giriş 9 Eylül 1922 (TDV Mustafa Kemal Atatürk).
+  - çelişki `Aydın`: 23.4.1920'de işgal altında; TBMM idaresinde değil.
+  - çelişki `Muğla`: 23.4.1920'de işgal altında; TBMM idaresinde değil.
+  - çelişki `Antalya`: İtalyan çekilişi 1 Haziran 1921'de başladı (TDV Antalya).
+  - çelişki `Osmaniye`: Yer adı alıntıda yok; Çukurova bölge düzeyinde. Fransızlar 1922 başına kadar kaldı (TDV Adana/Mersin).
+  - çelişki `Adana`: 23.4.1920'de işgal altında; TBMM idaresinde değil.
+  - çelişki `Tarsus`: Yer adı alıntıda yok; Çukurova bölge düzeyinde. Fransızlar 1922 başına kadar kaldı (TDV Adana/Mersin).
+  - çelişki `Çorlu`: 23.4.1920'de Trakya İtilâf (Fransız) denetiminde ve İstanbul hükümeti idaresinde, 20 Temmuz 1920'den Yunan işgalinde; TBMM idaresine giriş Mudanya Mütarekesi (11 Ekim 1922) sonrası.
+  - çelişki `Malkara`: 23.4.1920'de Trakya İtilâf (Fransız) denetiminde ve İstanbul hükümeti idaresinde, 20 Temmuz 1920'den Yunan işgalinde; TBMM idaresine giriş Mudanya Mütarekesi (11 Ekim 1922) sonrası.
+  - çelişki `Tekirdağ`: 23.4.1920'de Trakya İtilâf (Fransız) denetiminde ve İstanbul hükümeti idaresinde, 20 Temmuz 1920'den Yunan işgalinde; TBMM idaresine giriş Mudanya Mütarekesi (11 Ekim 1922) sonrası.
+  - çelişki `Antep`: 23.4.1920'de işgal altında; TBMM idaresinde değil.
+  - çelişki `Bolayır`: 23.4.1920'de Trakya İtilâf (Fransız) denetiminde ve İstanbul hükümeti idaresinde, 20 Temmuz 1920'den Yunan işgalinde; TBMM idaresine giriş Mudanya Mütarekesi (11 Ekim 1922) sonrası.
+  - çelişki `Alaşehir`: 23.4.1920'de işgal altında; TBMM idaresinde değil.
+  - çelişki `Boğaziçi (Rumeli yakası)`: 23.4.1920'de İstanbul İtilâf işgalinde ve İstanbul hükümeti idaresinde; TBMM idaresine giriş Ekim 1922 sonrası (TDV Mustafa Kemal Atatürk: Refet Bey birliği 19 Ekim 1922'de İstanbul'a girdi; işgalciler 6 Ekim 1923'te ayrıldı).
+  - çelişki `Şarköy`: 23.4.1920'de Trakya İtilâf (Fransız) denetiminde ve İstanbul hükümeti idaresinde, 20 Temmuz 1920'den Yunan işgalinde; TBMM idaresine giriş Mudanya Mütarekesi (11 Ekim 1922) sonrası.
+  - çelişki `Payas`: Yer adı alıntıda yok; Çukurova bölge düzeyinde. Fransızlar 1922 başına kadar kaldı (TDV Adana/Mersin).
+  - çelişki `Dörtyol`: Yer adı alıntıda yok; Çukurova bölge düzeyinde. Fransızlar 1922 başına kadar kaldı (TDV Adana/Mersin).
+  - çelişki `Erzin`: Yer adı alıntıda yok; Çukurova bölge düzeyinde. Fransızlar 1922 başına kadar kaldı (TDV Adana/Mersin).
+  - çelişki `Yumurtalık`: Yer adı alıntıda yok; Çukurova bölge düzeyinde. Fransızlar 1922 başına kadar kaldı (TDV Adana/Mersin).
+  - çelişki `Üsküdar`: 23.4.1920'de İstanbul İtilâf işgalinde ve İstanbul hükümeti idaresinde; TBMM idaresine giriş Ekim 1922 sonrası (TDV Mustafa Kemal Atatürk: Refet Bey birliği 19 Ekim 1922'de İstanbul'a girdi; işgalciler 6 Ekim 1923'te ayrıldı).
+  - çelişki `Silivri`: 23.4.1920'de Trakya İtilâf (Fransız) denetiminde ve İstanbul hükümeti idaresinde, 20 Temmuz 1920'den Yunan işgalinde; TBMM idaresine giriş Mudanya Mütarekesi (11 Ekim 1922) sonrası.
+  - okunmadı (59): Yenişehir (Bursa), İnegöl, Geyve, Köprühisar (Yenişehir), Marmaracık, Akhisar (Pamukova), Mekece, Kestel, Ulubat, Harmankaya, İmralı Adası, Mudanya, Yalova, Karamürsel, Armutlu, Gemlik (Kios), Datça, Bodrum, Marmaris, Fethiye (Makri), Kuşadası, Söke, Bursa, İznik, Bergama, Alanya, Biga, Kulacahisar, Yarhisar, Dimbos, Kite (Kete), Lefke (Osmaneli), Leblebicihisar, Karaçepüş, Karatigin, Absu (Hypsu), Adranos (Orhaneli), Kirmasti (M.Kemalpaşa), Mihaliç (Karacabey), Gölyazı (Apollonia) …
+- **1949-10-01** Çin Halk Cumhuriyeti egemenliğine geçti — Leshou
+  - çelişki `Çongqing (Chongqing)`: ÇHC ilânı günü (1.10.1949) bu şehir hâlâ Milliyetçi (ÇC) elindeydi; FRUS düşüşünü 7 Ekim–31 Aralık 1949 aralığına koyuyor; kesin gün açılan kaynakta yok.
+  - çelişki `Kunming`: ÇHC ilânı günü (1.10.1949) bu şehir hâlâ Milliyetçi (ÇC) elindeydi; FRUS düşüşünü 7 Ekim–31 Aralık 1949 aralığına koyuyor; kesin gün açılan kaynakta yok.
+  - çelişki `Kanton (Guangzhou)`: ÇHC ilânı günü (1.10.1949) bu şehir hâlâ Milliyetçi (ÇC) elindeydi; FRUS düşüşünü 7 Ekim–31 Aralık 1949 aralığına koyuyor; kesin gün açılan kaynakta yok.
+  - okunmadı (28): Çengdu (Chengdu), Dali, Guiyang, Amoy (Xiamen), Chaozhou, Swatow (Shantou), Guilin, Nanning, Beihai (Pakhoi), Wuzhou, Lüşun (Port Arthur), Şaoguan, Leizhou, Hengyang (Hengzhou), Chenzhou (Hunan), Tengyue (Tengchong), Yongchang (Baoshan), Shunning (Fengqing), Mianning (Lincang), Jingdong, Chuxiong, Yuanjiang, Lin'an (Jianshui), Mengzi, Kaihua (Wenshan), Ning'er (Pu'er), Lijiang, Tonghai
+- **1947-08-15** Hindistan (Dominyon 1947; Cumhuriyet 1950-01-26) egemenliğine geçti — Banavasi
+  - okunmadı (11): Sirhind, Kanbâyet (Khambhat), Patan (Anhilvâda), Mandu (Mândû), Gaur (Lakhnautî), Pandua (Hazret Pandua), Murşidâbâd, Elicpûr (Achalpur), Koçin (Kochi), Kolam (Quilon), Nadia (Navadvipa/Nabadwip)
+- **1947-05-03** Japonya'da Meiji Anayasasi yerine yeni Anayasa yururluge girdi, Japonya Devleti donemi basladi (Kyoto, Tokyo, 
+  - çelişki `Şuri (Naha)`: Okinawa 1946'dan beri Japon idaresinden ayrılmış (ABD idaresi); 3.5.1947 anayasası orada yürürlüğe girmedi.
+- **1868-01-03** Meiji Restorasyonu: Edo bakufu'nun yerine imparatorluk yönetimi ilan edildi (Yoshino ve Hiraizumi'nin içinde b
+  - çelişki `Aizu-Wakamatsu`: Aizu yeni hükümete karşı savaştı; düşüşü 1868 (Meiji 1) ay takvimi 9. ay — Gregoryen Ekim/Kasım 1868; tam çeviri tabloyla yapılmalı.
+  - çelişki `Hakodate`: Hakodate 1868 sonu–1869'da Enomoto'nun Ezo yönetimindeydi; Meiji denetimi 1869 (ay takvimi 5/18 ≈ Gregoryen 27 Haziran 1869).
+  - okunmadı (1): Matsumae
+- **1975-04-30** Saygon'un düşmesiyle Güney Vietnam sona erdi; ülke Kuzey Vietnam denetiminde birleşti
+  - okunmadı (10): Hanoi (Thăng Long), Cao Bằng, Lạng Sơn, Hai Phong, Nam Dinh, Thanh Hoa, Vinh, Son Tay, Ninh Binh, Bac Giang
+- **1921-08-23** Irak Krallığı kuruldu — 1913/14 Osmanlı-İran sınırı Irak'a geçti
+  - çelişki `Musul`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Kerkük`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Erbil`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Kifri`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Tuz Hurmatu`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Rewândiz`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Akra`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Duhok`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Zaho`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Telafer`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Sincar`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Gōrabī`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `Tirwānīsh`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+  - çelişki `İmâdiye (Amêdî)`: TDV Musul vilayetinin Irak'a hukuken katılışını 1926'ya koyuyor (aynı maddede Ankara Antlaşması '5 Haziran 1926'; Temmuz/Haziran tutarsızlığı TDV içinde). 1921-1926 arası Musul vilayeti fiilen İngiliz-Irak idaresinde ama Türkiye ile ihtilaflı. Yerin Musul vila
+- **1945-09-02** Japonya'nın genel teslimi: Kuril adaları Sovyet, Ogasawara ve Volkan adaları ABD, Hainan Çin Cumhuriyeti denet
+  - okunmadı (13): Qiongzhou (Haikou), Danzhou (Zhonghe), Yazhou (Yacheng), Wanzhou (Wancheng), Lüşun (Port Arthur), Korsakov (Güney Sahalin), Toyohara (Vladimirovka), Maoka (Kholmsk), Shikuka (Poronaysk), Ochiai (Galkino-Vraskoye), Shiritoru (Makarov), Esutoru kıyısı (bölge), Tomari kıyısı (bölge)
+- **1936-06-01** Habeşistan toprakları İtalyan Doğu Afrikası'na katıldı (Addis Ababa, Gondar, Harar, Aksum, Adua vd.)
+  - okunmadı (7): Arkîko, Aseb, Adi Kayh, Ğındâ, Debârve, Zula, Adi Kuala
+- **1847-01-01** Kopal tahkimatı kuruldu — Kuzey Yedisu Rusya'ya bağlanmaya başladı
+  - çelişki `Almatı (Vernıy)`: Kaynak Kuzey Yedisu'yu 'up to the Ili river' 1847'ye, İli güneyini (Almatı) 1854 Vernoe'ye bağlıyor: Almatı 1854'te Rusya'ya geçmeli. Ayrıca 'In 1855, the Cossack village of Almaty was founded near Verny.'
+  - okunmadı (10): Aral kuzeyi, Üstyurt kuzeyi, Emba (Cem), Kazak bozkırı (İşim), Kazak bozkırı (Turgay), Kazak bozkırı (Sarısu), Irgiz (Irgız), Kazalinsk (Kazalı), Sığnak (Sunak Kurgan), Suzak (Sozak)
+- **1921-02-25** Kızıl Ordu'nun Tiflis'e girişi: Gürcistan Demokratik Cumhuriyeti'nin düşüşü
+  - okunmadı (2): Sohum, Zugdidi (Megrelya/Odişi merkezi)
+- **1813-10-24** Gülistan Antlaşması: Kafkasya'daki hanlıklar Rusya'ya bırakıldı
+  - okunmadı (5): Kabala, Ereş, Şâbüran, Mahmudâbâd, Salyan
+- **1918-05-28** Azerbaycan Demokratik Cumhuriyeti ilân edildi
+  - okunmadı (1): Eçmiyadzin
+- **1941-04-01** İngiliz kuvvetleri Asmara'ya girdi; Eritre İngiliz askerî idaresine geçti (Masavva, Asmara, Keren, Ağordat, Ba
+  - okunmadı (1): Aseb
+- **1828-02-22** Türkmençay Antlaşması: Revan ve Talış'ın Rusya'ya geçişi
+  - okunmadı (2): Gümrü (Aleksandropol), Kliçatak (Suser)
+- **1948-02-01** Malaya Birligi yerine Malaya Federasyonu kuruldu (Kuala Lumpur, Malaka, Penang, Johor, Kedah)
+  - okunmadı (1): Labuan (Victoria)
+- **1860-08-13** Lizbon Antlaşması yürürlükte — Timor'da ilk Hollanda–Portekiz sınırı
+  - okunmadı (5): Noemuti, Maucatar, Niki-Niki, Suai, Maliana
+- **1958-02-22** Misir (Kahire, Iskenderiye, Port Said, Sina dahil) Suriye ile birlesip Birlesik Arap Cumhuriyeti'ne donustu
+  - okunmadı (2): Gazze, Han Yûnus
+- **1943-01-23** Ingiliz Sekizinci Ordusu Trablus'a girdi; Italya'nin Libya'si (Trablusgarp) Ingiliz askeri idaresine gecti
+  - okunmadı (7): Bingazi, Derne, Merc, Beyzâ (Kirene), Tobruk, Tulmeyse, Ayn el-Ğazâle (Bomba)
+- **1893-10-03** Fransız–Siyam Barış Antlaşması — Siyam Mekong'un sol yakasından vazgeçti
+  - çelişki `Champasak`: Champasak kasabası (105.876 D) Mekong'un SAĞ (batı) yakasında; md.1 yalnız sol yakayı kapsıyor, md.3 sağ yakada yalnız 25 km askerî yasak bölge. Champasak 1893'te Siyam'da kalmış olmalı; sonraki devir (1904) okunmadı.
+- **1975-12-07** Endonezya Doğu Timor'u işgal etti (Dili)
+  - okunmadı (7): Lifau (Oecussi), Maucatar, Suai, Maliana, Viqueque, Baucau, Lautém (Moro)
+- **1921-03-16** Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi
+  - okunmadı (2): Kutaisi, Poti (Faş Kalesi)
+- **1941-11-27** Gondar'ın teslimiyle Italyan Dogu Afrikasi'nin son direnis noktasi dustu, Habesistan topraklari Italyan idares
+  - okunmadı (6): Aksum, Adua, Adigrat, Mekelle, Sokota, Vukro
+- **1920-09-02** Kızıl Ordu Buhara şehrine girdi — son emir Âlim Han tahttan uzaklaştırıldı
+  - çelişki `Hisar`: TDV 'Tacikistan': Bolşevikler Hisar'ı (Gissar) Haziran 1922 taarruzunda aldı; 2 Eylül 1920 kırılması bu yer için erken görünüyor.
+  - okunmadı (5): Karşi (Nahşeb), Şehrisebz (Kiş), Termez, Külâb (Kulob), Kal'a-i Hum (Darvaz)
+- **1889-01-01** İtalya, Asmara ve Keren dahil Eritre yaylasını ilhak etti
+  - okunmadı (5): Adi Kayh, Ğındâ, Debârve, Zula, Adi Kuala
+- **1914-10-14** Japonya, Alman Mikronezyasi'ni isgal ederek Kuzey Marianalar'da Saipan'dan baslayarak Tinian'i Almanya'dan ald
+  - çelişki `Garapan (Saipan)`: Kaynak Saipan işgalini 14 Ekim 1914 veriyor; atlas kırılması 1914-10-01 (13 gün erken). Madde günü kaynakla uyumlu, harita günü değil.
+  - çelişki `Kolonia (Pohnpei)`: Kaynak Ponape işgalini 7 Ekim 1914 veriyor; atlas kırılması 1914-10-01. Madde Pohnpei'yi anmıyor.
+  - okunmadı (1): Koror
+- **1920-07-24** Han Meyselûn — Faysal dönemi bitti, Suriye Fransız mandasına geçti
+  - okunmadı (4): Ḩīmū, Jadlā’, Sincan, Babū
+- **1946-07-01** Sarawak, Brooke hanedani yonetiminden Ingiliz Tac Kolonisine devredildi (Kuching, Sibu, Bintulu, Limbang)
+  - okunmadı (4): Kapit (Fort Sylvia), Simanggang (Sri Aman), Baram (bölge), Niah kıyısı (bölge)
+- **1881-01-24** Göktepe Muharebesi — Ahal Tekke Türkmenleri Rusya'ya yenildi
+  - okunmadı (1): Mangışlak
+- **1950-05-01** Halk Kurtuluş Ordusu Hainan'ı tamamen ele geçirdi (Haikou 23 Nisan, ada 1 Mayıs 1950); Çin Cumhuriyeti adadan 
+  - okunmadı (3): Danzhou (Zhonghe), Yazhou (Yacheng), Wanzhou (Wancheng)
+- **1907-03-23** Fransız–Siyam Antlaşması — Kamboçya–Siyam sınırı yeniden çizildi
+  - okunmadı (1): Pursat
+- **1921-10-20** Ankara İtilafnamesi — Türkiye-Suriye sınırının tarifi
+  - okunmadı (2): Silopi, Cumai (Birlikköy)
+- **1895-10-21** Tainan düştü: Formosa Cumhuriyeti sona erdi, Tainan Japonya'ya geçti
+  - çelişki `Kaohsiung (Takao / Dagou)`: Takekoshi: Takow 13 Ekim 1895'te işgal edildi; atlas kırılması 21 Ekim (Tainan'ın düşüşü). 8 gün fark.
+  - çelişki `Taichung (Dadun)`: Takekoshi: Taichung çevresi (Shoka/Changhua, Hakketzan) 26-28 Ağustos 1895'te alındı; atlas kırılması 21 Ekim. ~54 gün fark — ±30 gün dışında.
+- **1875-01-01** Shen Baozhen'in programıyla Qing, doğu Tayvan'ı (Pi-lam/Beinan Dairesi) idare altına almaya başladı
+  - okunmadı (1): Taitung (Beinan / Pi-lam)
+- **1896-07-01** Federe Malay Devletleri kuruldu: Perak, Selangor, Negeri Sembilan ve Pahang tek federal idareye bağlandı (başk
+  - okunmadı (1): Klang
+- **1920-10-08** Buhara Halk Sovyet Cumhuriyeti ilan edildi
+  - çelişki `Kal'a-i Hum (Darvaz)`: TDV BHSC'nin yalnız bugünkü Tacikistan'ın KUZEY topraklarını kapsadığını söylüyor; Darvaz (Doğu Buhara, Pamir eteği) için aynı madde 'Karategin Beyi Fudayl Maksum ise Dervaz ve Karategin bölgelerini egemenliği altına aldı' diyor. Darvaz'ın 8 Ekim 1920'de BHSC'

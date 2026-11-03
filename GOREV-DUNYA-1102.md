@@ -257,7 +257,20 @@ G — Renk ve bölge (senin işin değil)
    Veri kusurları: boş `eski` sahip (Varna #40, Bosna #55, Makedonya #57, Kili/Kahul/Bolgrad #89) · Freiburg/Konstanz
    "almanya" (Baden olmalı) · Ostland 1941-09-01 · Dimetoka 1922 · Groningen 1813-11-16 · Sondrio 1859-06-28 ·
    Kraków/Katowice/Białystok 1944-45 günleri · Görice 1912 Yunan işgali. Ayrıntı `dokum_h6.md` + `ajan_sonuclari_h6.json`.
-   Sırada: hücre 12 (Asya 1800–2000), 18 (Afrika 1800–2000).
+   **(b) hücre 12 (Asya 1800–2000)** (3 Kasım, KASA, 3 ajan): 4 299 birim → yer 915 · yalnız taraf 2 345 (127 madde) ·
+   madde yok 1 039. 127 maddenin hepsi tarandı (5'i Avrupa turunda işlenmişti, atlandı): teyit 1 162 · çelişki 51 ·
+   okunmadı 208 · yanlış madde 294. 98 maddeye yer cümlesi; 1 yeni madde: 1923-10-29 Türkiye Cumhuriyeti ilânı (TDV Millî
+   Mücadele + Mustafa Kemal Atatürk) — 237 birim bozuk "Ahlat: safevî → TC" maddesine bağlıydı.
+   Önerilen, uygulanmayan 12 yeni madde: 1917-11-28 Transkafkasya Komiserliği (31 Kafkas yeri; harita 11-07, 21 gün erken) ·
+   1926-06-05 Ankara Antlaşması (TDV kendi içinde tutarsız) · 1921-02-23 Ardahan-Artvin TBMM'ye · 1877-12-16 Kâşgar ·
+   1914-11-07 Çingtao · 1810-12-02 Île de France · 1920-12-02 Ermenistan sovyetleşmesi · 1948-04-18 Udaipur · 1919-05-26
+   Turabe · 1915 Amâre · 1825-04 Malaka · 1965-11-08 BIOT.
+   Kırılma günü çelişkileri: 1920-04-23 TBMM kırılması işgal altındaki 23 yerde (İstanbul, Trakya, İzmir/Manisa/Aydın,
+   Antalya/Muğla, Adana/Antep/Çukurova) · 1949-10-01 Kanton/Chongqing/Kunming (Ekim-Aralık 1949'da düştü) · Almatı 1847 →
+   1854 · Champasak 1893 (sağ yaka antlaşma dışı) · Timor 1860-08-23 · Garapan 1914-10-14 · Kolonia 1914-10-07 · Taichung
+   1895-08-28 · Kaohsiung 1895-10-13 · Hisar Haziran 1922 · Darvaz · Musul vilayeti 1921 (hukuken 1926) · Aizu/Hakodate
+   1868-69 · Şuri 1946 · Sarp ve Bacirge 1923-10-29 · vietnam-dc→vietnam-dc 1975 sahip aynılığı. Ayrıntı `dokum_h12.md`.
+   Sırada: hücre 18 (Afrika 1800–2000).
 5b. **Künye kaynak borcu** (2 Kasım, KASA, main 534a118d7; birinci geçiş yalnız hücre öncelik listelerini işledi):
    hâlâ yasak 191 · "bulunamadı — standart akademik kaynak" 259 · ZAYIF KAYNAK 16 · countrystudies/globalsecurity/
    archontology 24 · "BRIT" kısaltması 11 (birinci geçiş regex'i kaçırdı). Çıplak anahtar 219 = `data/kimlikler.js`
