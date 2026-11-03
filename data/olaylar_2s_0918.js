@@ -84,8 +84,8 @@ window.OLAYLAR_2S_0918 = [
 // ── 5. ADAMAVA'NIN ALMAN-İNGİLİZ PAYLAŞIMI ───────────────────────────
 { t:"1901-09-02", b:"Adamava Emirliği Almanya ile İngiltere arasında paylaşıldı", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Garua (Garoua)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
-  d:"Sokoto Halifeliği'ne tâbi Adamava (Fombina) Emirliği, Alman ve İngiliz sömürge kuvvetlerinin 1899-1901 seferleri sonunda ikiye bölündü: doğu kesimi (Garua, Banyo, Marua, Ngaunder dahil) Alman Kamerun'a, batı kesimi (başşehir Yola) İngiliz Kuzey Nijerya'ya katıldı; Emir Zübeyr sürgüne gönderildi.",
-  kaynak:"standart akademik/ansiklopedik (Adamawa Wars 1899-1907, Anglo-German partition 1901; Emir Zübeyr'in Kasım 1901'de Garua yakınında bozguna uğraması — Wikipedia 'Adamawa Emirate'/'Adamawa Wars') — TDV kapsam dışı; kaynak yalnız 1901 YILINI doğruluyor, AY/GÜN kaynaksız — veri kaydının kendi günü (1901-09-02) devralındı" },
+  d:"Sokoto Halifeliği'ne tâbi Adamava (Fombina) Emirliği, Alman ve İngiliz sömürge kuvvetlerinin 1899-1901 seferleri sonunda ikiye bölündü: doğu kesimi (Garua, Banyo, Marua, Ngaunder dahil) Alman Kamerun'a, batı kesimi (başşehir Yola) İngiliz Kuzey Nijerya'ya katıldı; Emir Zübeyr sürgüne gönderildi. Bu olayla Rey Buba (Adamava (Alman payı)) Alman Kamerunu idaresine geçti.",
+  kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): https://islamansiklopedisi.org.tr/kamerun; https://islamansiklopedisi.org.tr/adamava · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Adamawa Wars 1899-1907, Anglo-German partition 1901; Emir Zübeyr'in Kasım 1901'de Garua yakınında bozguna uğraması — Wikipedia 'Adamawa Emirate'/'Adamawa Wars') — TDV k" },
 
 // ── 6. UBANGİ-ŞARİ'NİN FRANSIZ İSTİLASI ──────────────────────────────
 { t:"1903-01-01", b:"Fransız kuvvetleri Ubangi-Şari'nin iç kesimlerini (Bambari-Bria hattı) ele geçirdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Bambari",
@@ -115,8 +115,8 @@ window.OLAYLAR_2S_0918 = [
 // ── 10. ERİTRE'NİN İTALYANLARA DÜŞÜŞÜ ─────────────────────────────────
 { t:"1889-01-01", b:"İtalya, Asmara ve Keren dahil Eritre yaylasını ilhak etti", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Asmara",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
-  d:"Habeşistan İmparatoru II. Yohannes'in 1889'da ölümüyle doğan güç boşluğundan yararlanan İtalya, Uccialli (Wuchale) Antlaşması'nın (2 Mayıs 1889) ardından Asmara ve Keren dahil Eritre yaylasını fiilen ilhak etti; 1 Ocak 1890'da resmen 'Eritre' adıyla koloni ilan edildi.",
-  kaynak:"standart akademik/ansiklopedik (Treaty of Wuchale 2 Mayıs 1889, Eritrea colony proclaimed 1 Ocak 1890 — Britannica 'Eritrea/History') — TDV kapsam dışı, GÜN KABA (veri 1889-01-01 taşıyor, gerçek ilhak süreci Mayıs 1889-Ocak 1890 arası — veri kaydı bu geniş pencereyle uyumlu)" },
+  d:"Habeşistan İmparatoru II. Yohannes'in 1889'da ölümüyle doğan güç boşluğundan yararlanan İtalya, Uccialli (Wuchale) Antlaşması'nın (2 Mayıs 1889) ardından Asmara ve Keren dahil Eritre yaylasını fiilen ilhak etti; 1 Ocak 1890'da resmen 'Eritre' adıyla koloni ilan edildi. Bu olayla Kerene İtalya idaresine geçti.",
+  kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): https://islamansiklopedisi.org.tr/eritre · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Treaty of Wuchale 2 Mayıs 1889, Eritrea colony proclaimed 1 Ocak 1890 — Britannica 'Eritrea/History') — TDV kapsam dışı, GÜN KABA (veri 1889-01-01 taşıyor, gerçek ilhak" },
 
 // ── 11. HISNIKEYFÂ EYYÛBÎLERİ'NİN AKKOYUNLULARA DÜŞÜŞÜ ────────────────
 { t:"1462-01-01", b:"Akkoyunlu Uzun Hasan, Hısnıkeyfâ Eyyûbî kolunu ortadan kaldırdı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Hasankeyf",

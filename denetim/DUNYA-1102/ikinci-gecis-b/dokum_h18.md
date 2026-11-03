@@ -1,0 +1,87 @@
+
+## Hücre 18 — çelişki ve okunmadı dökümü (ajan sonucu, uygulanmadı)
+- **1899-01-19** Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi
+  - okunmadı (3): Gondokoro, Nimule, Yei
+- **1941-11-27** Gondar'ın teslimiyle Italyan Dogu Afrikasi'nin son direnis noktasi dustu, Habesistan topraklari Italyan idares
+  - çelişki `Harar`: Kaynak: 26 Mart 1941 İngiliz/Nijerya tugayı girdi (harita 30 Kasım 1941) — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Cîcîga`: Kaynak: 17 Mart 1941 — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Sodo (Vollayta)`: Kaynak: 23 Mayıs 1941 — Playfair, The Mediterranean and Middle East, Vol. II (HMSO), ch. XVI "The Final Campaign in East Africa" (ibiblio.org/hyperwar/UN/UK/UK-Med-II/UK-Med-2-16.html)
+  - çelişki `Debre Markos`: Kaynak: 4 Nisan 1941; İmparator 6 Nisan’da girdi — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Bure (Gocam)`: Kaynak: 4 Mart 1941 (Burye) — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Avaş`: Kaynak: Nisan 1941 başı — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Dagahbûr`: Kaynak: Mart 1941 ortası (öncü kol daha önce) — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Mega`: Kaynak: 18 Şubat 1941 (saldırı iki gün sonra) — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Moyale`: Kaynak: 22 Şubat 1941 — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Gambela`: Kaynak: 25 Mart 1941 — Playfair, The Mediterranean and Middle East, Vol. II (HMSO), ch. XVI "The Final Campaign in East Africa" (ibiblio.org/hyperwar/UN/UK/UK-Med-II/UK-Med-2-16.html)
+  - çelişki `Şeşemene`: Kaynak: 14 Mayıs 1941 — Playfair, The Mediterranean and Middle East, Vol. II (HMSO), ch. XVI "The Final Campaign in East Africa" (ibiblio.org/hyperwar/UN/UK/UK-Med-II/UK-Med-2-16.html)
+  - çelişki `Negele Borana`: Kaynak: 21 Mart 1941 — Playfair, The Mediterranean and Middle East, Vol. I (HMSO, UK official history), ch. XXII (ibiblio.org/hyperwar/UN/UK/UK-Med-I/UK-Med-I-22.html)
+  - çelişki `Asosa`: Kaynak: Mart 1941 (gün yok) — Playfair, The Mediterranean and Middle East, Vol. II (HMSO), ch. XVI "The Final Campaign in East Africa" (ibiblio.org/hyperwar/UN/UK/UK-Med-II/UK-Med-2-16.html)
+  - okunmadı (43): Şire, Lalibela, Debre Tabor, Bahır Dar, Metemma, Dese, Debre Berhan, Ankober, Bonga (Kaffa), Yirgalem (Sidamo), Debârek, Mota, Völdiya, Mekdelâ, Ambo, Fiçe, Bâtî, Hosaena, Arba Minç, Dire Dava, Nekemte, Gimbî, Dembîdollo, Gore, Asella, Goba, Ginir, Ağere Maryam, Yabelo, Kebrî Dehar, Verder, Gode, Kelâfo, Dolo Odo, Alamata, Nazret, Cinka, Dilla, Bedele, Mizan Teferi …
+- **1941-02-25** İngiliz ilerleyişi İtalyan Somalisi'nin kuzey ve orta kesimlerini (Obbiya, Galkayo, Bosaso, Kısmayu, Dusa Mare
+  - çelişki `Cilib`: Kaynak 22 Şubat 1941, harita 25 Şubat — 3 gün fark
+  - okunmadı (23): Beledveyne, Garove, Ayl, Bender Kāsım (Bosaso), Alula, Hafun, Kandala, İskuşubân, Bender Beyla, Berâve, Afgoye, Bulo Burte, Bardere, Luuk, Garbahârey, Ceel Buur, Ceel Dheere, Cadale, Vanlaveyn, Diinsoor, Hudur, Ceel Barde, Ceel Vaak
+- **1943-01-23** Ingiliz Sekizinci Ordusu Trablus'a girdi; Italya'nin Libya'si (Trablusgarp) Ingiliz askeri idaresine gecti
+  - çelişki `Murzuk (Fizan)`: Fizan İngiliz değil Hür Fransız (Leclerc) askerî idaresine geçti; gün TDV’de yok (yalnız 1943)
+  - çelişki `Gât`: Fizan İngiliz değil Hür Fransız (Leclerc) askerî idaresine geçti; gün TDV’de yok (yalnız 1943)
+  - çelişki `Sebha`: Fizan İngiliz değil Hür Fransız (Leclerc) askerî idaresine geçti; gün TDV’de yok (yalnız 1943)
+  - çelişki `Ubârî`: Fizan İngiliz değil Hür Fransız (Leclerc) askerî idaresine geçti; gün TDV’de yok (yalnız 1943)
+  - çelişki `Tırgan (Traghan)`: Fizan İngiliz değil Hür Fransız (Leclerc) askerî idaresine geçti; gün TDV’de yok (yalnız 1943)
+  - çelişki `Zevîle (Zawila)`: Fizan İngiliz değil Hür Fransız (Leclerc) askerî idaresine geçti; gün TDV’de yok (yalnız 1943)
+  - çelişki `el-Katrûn`: Fizan İngiliz değil Hür Fransız (Leclerc) askerî idaresine geçti; gün TDV’de yok (yalnız 1943)
+  - okunmadı (4): Ecdâbiye, Cağbûb, Câlû, Merâde
+- **1991-05-18** Somaliland, Somali Cumhuriyeti'nden ayrılarak bağımsızlığını ilan etti; Hargeysa, Berbera, Burao, Zeyla ve Bor
+  - çelişki `Bulhar`: 
+  - çelişki `Lasanod`: 
+  - çelişki `Erigavo`: 
+  - çelişki `Şeyh (Somaliland)`: 
+  - çelişki `Odveyne`: 
+  - çelişki `Buhodle`: 
+  - çelişki `Taleh`: 
+  - çelişki `Lâs Hore`: 
+  - çelişki `Mayd`: 
+  - çelişki `Hîs`: 
+  - çelişki `Ceel Afveyn`: 
+- **1960-08-20** Senegal (Dakar, Rufisque, Gore, Podor) Mali Federasyonu'ndan ayrilip bagimsizligini ilan etti
+  - okunmadı (1): Kaedi
+- **1979-06-01** Rodezya'da Zimbabve-Rodezya adlı yeni düzen yürürlüğe girdi
+  - okunmadı (8): Binga, Hvange, Umtali (Mutare), Gveru, Danangombe (Rozvi), Khami, Bulavayo, Gvanda
+- **1916-03-04** Kamerun'un İngiliz-Fransız geçici paylaşımı — Garua, Marua, Ngaunder, Rey Buba, Tibati ve Banyo Fransız idares
+  - okunmadı (7): Dikva (Dikeo), Bertua (Bertoua), Duala, Yaunde, Yokadouma, Kribi, Moloundou
+- **1889-01-01** İtalya, Asmara ve Keren dahil Eritre yaylasını ilhak etti
+  - okunmadı (4): Ağordat, Barentu, Nakfa, Tesseney
+- **1861-03-07** Torino sınır sözleşmesi — Savoy ve Nice'in devrinden sonra Fransa–Sardinya sınırı çizildi
+  - çelişki `Nioro (Kaarta)`: TDV: 'el-Hâc Ömer, bir Bambara Krallığı olan Karta'yı mağlûp ederek İslâm devletini kurdu (11 Kasım 1854)' — Kaarta 1854'te Ömer'e geçmiş, 1861'de Bambara'dan Fransa'ya değil.
+  - çelişki `Mopti`: 
+  - çelişki `Kayes`: 
+  - çelişki `Bamako`: 
+  - çelişki `Kangaba`: 
+- **1886-01-01** Fransız-Osmanlı düzenlemesi — Tunus ile Trablusgarp arasındaki sınırın kıyı kesimi çizildi
+  - okunmadı (1): Dzaoudzi (Mayotte)
+- **1922-07-20** Milletler Cemiyeti Konseyi Ruanda-Urundi'nin Belçika B-mandasını onayladı
+  - okunmadı (4): Kigali, Nyanza (Ruanda), Bucumbura, Gitega (Burundi)
+- **1897-01-01** Bagirmi Sultanlığı Fransız himayesine girdi
+  - okunmadı (3): Mongo, Am Timan, Buna (Bouna)
+- **1976-02-26** İspanya, BM Genel Sekreteri'ne mektupla Sahra'daki varlığına son verdiğini bildirdi; La Agüera dahil güney yar
+  - okunmadı (2): Bir Lahlu (Bir Lehlou), Tifariti
+- **1911-01-12** Sultan Mohammed es-Senûsî'nin Dâru'l-Kûtî Sultanlığı Fransız kuvvetlerince ortadan kaldırıldı
+  - okunmadı (2): Birao, Uanda-Calle
+- **1901-09-02** Adamava Emirliği Almanya ile İngiltere arasında paylaşıldı
+  - okunmadı (1): Tibati
+- **1916-05-01** Belçika kuvvetleri Ruanda-Urundi'yi işgal etti (Tabora Seferi)
+  - okunmadı (2): Kigali, Nyanza (Ruanda)
+- **1975-07-05** Yeşilburun Portekiz'den bağımsız oldu (Praia, Mindelo, Espargos/Sal)
+  - okunmadı (1): São Tomé
+- **1923-10-29** Sis: memlûk sultanlığı (mısır-suriye) → türkiye cumhuriyeti
+  - okunmadı (1): Halâib
+- **1900-04-22** Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti çözüldü
+  - okunmadı (1): Kukava (Kukawa)
+- **1970-01-15** Biafra teslim oldu; Umuahia, Aba ve Owerri Nijerya federal yönetimine geçti
+  - okunmadı (1): Nri (Agukwu Nri)
+- **1914-08-20** Brüksel Alman işgaline girdi
+  - okunmadı (1): Notse
+- **1895-07-20** Ingiltere-Hollanda Sozlesmesi — Yeni Gine'de guney sinirinin kesin tanimi
+  - okunmadı (1): İsiolo
+- **1884-01-01** Ingiltere, Yeni Gine'nin guney kiyisinda himaye ilan etti
+  - okunmadı (1): Upington
+- **1976-04-14** Fas ile Moritanya Rabat'ta sınır sözleşmesi imzalayıp Batı Sahra'yı bölüştü; La Agüera dahil güney Moritanya'n
+  - okunmadı (1): Villa Cisneros (Dahla)

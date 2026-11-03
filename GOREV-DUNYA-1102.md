@@ -270,7 +270,19 @@ G — Renk ve bölge (senin işin değil)
    1854 · Champasak 1893 (sağ yaka antlaşma dışı) · Timor 1860-08-23 · Garapan 1914-10-14 · Kolonia 1914-10-07 · Taichung
    1895-08-28 · Kaohsiung 1895-10-13 · Hisar Haziran 1922 · Darvaz · Musul vilayeti 1921 (hukuken 1926) · Aizu/Hakodate
    1868-69 · Şuri 1946 · Sarp ve Bacirge 1923-10-29 · vietnam-dc→vietnam-dc 1975 sahip aynılığı. Ayrıntı `dokum_h12.md`.
-   Sırada: hücre 18 (Afrika 1800–2000).
+   **(b) hücre 18 (Afrika 1800–2000)** (3 Kasım, KASA, 2 ajan): 2 812 birim → yer 880 · yalnız taraf 1 179 (91 madde) ·
+   madde yok 753. 91 maddenin hepsi tarandı (10'u önceki turlarda işlenmişti): teyit 856 · çelişki 37 · okunmadı 116.
+   56 maddeye yer cümlesi; derechos.org'a dayanan Dahla 1979 önerisi uygulanmadı.
+   Önerilen, uygulanmayan yeni maddeler: 1941-04-06 Addis Ababa'nın düşüşü · 1943 Fizan Fransız askerî idaresi (TDV, yalnız
+   yıl) · Segu 1861 (TDV el-Hâc Ömer) · Komorlar Fransız himayesi 1886 (TDV) · Duala 1914-09-27 · São Tomé 1975-07-12.
+   Kırılma günü çelişkileri: **Etiyopya 1941** — 56 yer tek kırılmada 1941-11-27 (Gondar) el değiştiriyor; Playfair (İngiliz
+   resmî tarihi) çoğunu Şubat–Mayıs 1941'e koyuyor (Harar 03-26, Cîcîga 03-17, Mega 02-18, Moyale 02-22, Debre Markos 04-04,
+   Gambela 03-25…) — kırılma bölünmeli · Fizan 1943 eski/yeni sahip (İngiliz değil Fransız) · Somaliland TDV 1991-05-28 ↔
+   atlas 05-18 · Cilib 1941-02-22 · Mali/Segu 1861 Fransa'ya değil el-Hâc Ömer'e (Fransa 1893–94) · Kukava 1902 · Cezayir
+   1962-07-03 tanıma ↔ 07-05 · Etiyopya anayasası 1995-08-21 ↔ 08-22 · Dahla 1979-08-10 · Kaédi Moritanya yakası · boş
+   `eski` sahip (Fizan, Dârfûr) · Komorlar __BOSLUK__ eski sahip. Ayrıntı `dokum_h18.md`.
+   **(b) ilk tur toplamı (hücre 6+12+18, 1800–2000):** 359 madde tarandı · 249 maddeye yer cümlesi · 3 yeni madde ·
+   2sk yalnız-taraf görünür+maskeli 6 081 → 5 253 (−828); YER anılarak kapanan 6 365 → 7 010. Sırada: aynı kıtaların 1500–1800 hücreleri (5, 11, 17), sonra Amerika.
 5b. **Künye kaynak borcu** (2 Kasım, KASA, main 534a118d7; birinci geçiş yalnız hücre öncelik listelerini işledi):
    hâlâ yasak 191 · "bulunamadı — standart akademik kaynak" 259 · ZAYIF KAYNAK 16 · countrystudies/globalsecurity/
    archontology 24 · "BRIT" kısaltması 11 (birinci geçiş regex'i kaçırdı). Çıplak anahtar 219 = `data/kimlikler.js`
