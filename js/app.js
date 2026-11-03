@@ -6137,7 +6137,7 @@ function _isyanTarihYazi(s, kes) {
 function isyanMaddeKutusu(o, ozelEl) {
   var IT = window.ISYAN_TARAMA;
   if (!IT || !ozelEl || !o || !o.b) return;
-  var bagli = (IT.maddeler || []).some(function (m) { return m.t === o.t && o.b.indexOf(m.b) === 0; });
+  var bagli = (IT.maddeler || []).some(function (m) { return m.t === o.t && (o.b_tr || o.b).indexOf(m.b) === 0; });   // b_tr: CEVIRI-1103
   if (!bagli) return;
   var gs = _khGunStr(o.gi);
   var kutuEl = document.createElement("div");
@@ -12212,7 +12212,7 @@ function obGoster(o) {
   }
   var sv = savaslar.filter(function (s) {
     return Math.abs(gunIdx(s.t) - o.gi) < 60 &&
-           (o.b.indexOf(s.ad.split(" (")[0]) >= 0 || s.ad.indexOf(o.b.split(" —")[0]) >= 0);
+           ((o.b_tr || o.b).indexOf(s.ad.split(" (")[0]) >= 0 || s.ad.indexOf((o.b_tr || o.b).split(" —")[0]) >= 0);
   })[0];
   if (sv) {
     var seri = (window.SERILER || []).filter(function (x) { return x.id === sv.seri; })[0];
@@ -12221,7 +12221,7 @@ function obGoster(o) {
          (seri ? " · dizi: " + seri.ad : ""));
   }
   var an = (window.ANTLASMALAR || []).filter(function (a) {
-    return Math.abs(gunIdx(a.t) - o.gi) < 60 && o.b.indexOf(a.ad.split(" (")[0]) >= 0;
+    return Math.abs(gunIdx(a.t) - o.gi) < 60 && (o.b_tr || o.b).indexOf(a.ad.split(" (")[0]) >= 0;
   })[0];
   if (an) kutu("Antlaşma hükmü", karsiTaraf(an) + " ile · " + an.ozet);
   // PAKET-UI2 — antlaşma öncesi/sonrası (Emre'nin 13 Eylül kararı). Hesap MADDE
@@ -12288,7 +12288,7 @@ var ANT_FARK = { madde: null, son: 0, zaman: [], ix: null, petAd: null, fs: null
                  isgListe: null };   // DALGA-0074 H-0013 — `isg:` taşıyan 238 yerleşim, bir kez çıkarılır
 function _antlasmaKaydi(o) {
   return (window.ANTLASMALAR || []).filter(function (a) {
-    return Math.abs(gunIdx(a.t) - o.gi) < 60 && o.b.indexOf(a.ad.split(" (")[0]) >= 0;
+    return Math.abs(gunIdx(a.t) - o.gi) < 60 && (o.b_tr || o.b).indexOf(a.ad.split(" (")[0]) >= 0;
   })[0] || null;
 }
 function antlasmaMaddesiMi(o) {
@@ -15133,7 +15133,7 @@ function _ittifakBul(o) {
   var L = window.ITTIFAKLAR || [];
   for (var i = 0; i < L.length; i++) {
     var m = L[i].madde;
-    if (m && m.t === o.t && o.b && m.b && o.b.indexOf(m.b.slice(0, 15)) === 0) return L[i];
+    if (m && m.t === o.t && o.b && m.b && (o.b_tr || o.b).indexOf(m.b.slice(0, 15)) === 0) return L[i];
   }
   return null;
 }
