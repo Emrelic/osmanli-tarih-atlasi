@@ -65,3 +65,10 @@ Yerleşim sahipliği: en geniş yıl 1817 (156) bilinen Qing sınırıyla (Moğo
 
 ## Erişilemeyen kaynaklar
 Britannica «Qing dynasty» 403. Okunamadı: Cambridge History of China 9 (Peterson 2002), 10 (Fairbank 1978), 11 (Fairbank & Liu 1980); Crossley, *The Manchus* (1997); Elliott, *The Manchu Way* (2001); Wakeman, *The Great Enterprise* (1985); Struve, *The Southern Ming* (1984); Spence, *God's Chinese Son* (1996); Millward 1998; Perdue 2005; Taizu shilu (Manchu). Takvim: ay-güneş Çin tarihleri yalnız gan-zhi gün sayımıyla (2000-01-01 戊午 çapası) Gregoryen'e çevrildi; astronomik ay tablosu (NAOJ/Academia Sinica) bu turda **açılmadı** — gün 壬申朔, 乙酉, 己丑, 乙卯, 戊午 eşleşmeleri gan-zhi ile tutarlıdır ama ay numarasının tablo teyidi yapılmadı.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- F. A. Bischoff, *Acta Orientalia Hung.* 51 (1998), s. 58-59 (jstor.org/stable/43391680): Tianming
+  1616-1626 — yalnız yıl. JSTOR'da 1616-02-17 günü bulunamadı.
+- **Hüküm (UMIT SALI):** Tianming 1, 1. ay 1. gün (壬申朔, Qing shi gao j.1) → Gregoryen çevirisi KASA'da
+  `arac/cin_gun.py` + Academia Sinica tablosuyla yapılsın; tutarsa f 1616-02-17 + `ic_not_f` takvim beyanı.
+  Tutmazsa `1616-01-01` + kesinlik yil kalır.

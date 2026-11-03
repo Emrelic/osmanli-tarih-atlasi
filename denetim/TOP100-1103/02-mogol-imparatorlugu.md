@@ -63,3 +63,14 @@ Sahiplik tutarlılığı (benim ölçümüm: s: aralıkları, `yer_yil.py`/`bosl
 ## Erişilemeyen kaynaklar
 - Britannica (Mongol empire, Genghis Khan, Han dynasty): HTTP 403 — çekilemedi. Iranica/JSTOR erişimi yok.
 - Gerekli: Cambridge History of Iran vol. 5 (Boyle, Hülagü/Çağatay bölümleri), Secret History of the Mongols (Rachewiltz) §202 (1206 kurultayı), Juvaynî Cihângüşâ (Semerkant/Merv/Herat fetih günleri), TDV "Kubilay Han", "Merv", "Herat", "Tebriz" tam gövdeleri (arama özeti okundu, gövde okunamadı), Cambridge History of China vol. 6 (Alien Regimes, 1260 geçişi).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Möngke'nin ölümü **11 Ağustos 1259**: B. Dashdondog, *The Mongols and the Armenians (1220-1335)*,
+  Brill 2011, bl. 6, s. 143 (açık erişim, JSTOR j.ctt1w8h10n.14).
+- Kubilay'ın tahta çıkışı: S. G. Haw, «The deaths of two Khaghans», *BSOAS* 76/3 (2013), s. 366
+  (jstor.org/stable/24692275): 1260 «in early May», Kaiping (dn. 36: Yuanshi i 62-3; Rossabi 51).
+  5 Mayıs günü JSTOR'da teyit edilmedi.
+- **Hüküm (UMIT SALI):** `mogol-imparatorlugu` t şu an 1260-01-01 (beyansız). Bölünmemiş imparatorluğun
+  sonu = Möngke'nin ölümü **1259-08-11** (Dashdondog + Yuan shi hesabı, çift teyit). Öneri: t → 1259-08-11,
+  `ic_not_t` "Möngke'nin ölümü; ardıl hanlıklar 1260 Mayıs başı Kubilay tahtı (Haw 2013:366) ve Arık Böke
+  ile iç savaş". Kubilay günü için 5 Mayıs tek kaynaklı kalır.

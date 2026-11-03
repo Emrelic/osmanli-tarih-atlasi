@@ -56,5 +56,18 @@ Sahiplik ölçümü (`s:` zincirleri):
 4. `data/olaylar_antik_yakin_dogu.js` — Sart/Lidya (-0545), Memphis 525/404/343/332 maddeleri; künye içi maddelerin evrene kopyası.
 5. `data/devletler.js:19420` künye içi Dareios `-0521-01-01` → `-0521-09-29`; `ic_not`a Temmuz 330 (Darius III) beyanı.
 
+## Iranica teyidi (EMRELİC 1 KASIM, tarayıcıdan, 3-4 Kasım 2026 gecesi; aktarım)
+- «Achaemenid Dynasty»: kuruluş için 550/549 **okunmadı** (madde yalnız «ruled ca. 700 to 330 B.C.»).
+  Bitiş yılı 330 Iranica ile uyumlu; III. Dareios'un Temmuz 330 ölüm günü okunmadı ⇒ `ahamenis` t
+  `-0329-01-01` yıl hassasiyetiyle kalır.
+- «Sardis»: **okunmadı** (madde 404). Sart'ın MÖ 334'te düşüşü için Arrianos 1.17 (Perseus) KASA'da okunsun.
+- «Egypt i»: ikinci Pers egemenliği «reconquered the Nile valley for a brief period (342-32 B.C.E.)».
+  **Çelişki:** Livius.org «Nectanebo II» → «in the last months of 343». Atlas `ahamenis-misir-2` f
+  `-0342-01-01` (= MÖ 343). Fetih 343 sonu / 342 başı kışına düşüyor; iki kaynak farklı yılı adlandırıyor.
+  **Hüküm (UMIT SALI):** üçüncü kaynak gerekli (Cambridge Ancient History VI², Egypt bölümü, A. B. Lloyd;
+  ya da Ruzicka, *Trouble in the West*, 2012). O okunana dek f `-0342-01-01` kalsın, `ic_not_f`a
+  "Iranica Egypt i 342 / Livius 343 son ayları — çelişki, üçüncü kaynak bekliyor" beyanı yazılsın.
+  Üçüncü kaynak 342 derse f → `-0341-01-01`. Birinci egemenliğin sonu (404/401) Iranica'da okunmadı.
+
 ## Erişilemeyen kaynaklar
 Encyclopaedia Iranica (Achaemenid Dynasty i; Darius iii/v; Gaugamela), JSTOR/Brill erişimi yok: gerekli makaleler — Iranica «Achaemenid Dynasty i», «Cyrus ii», «Egypt i. Persians in Egypt», «Sardis»; Brosius, *The Persians* (2006); Briant, *From Cyrus to Alexander* (2002); Oxford Encyclopedia of Ancient Egypt «Achaemenids»; Kuhrt, *The Persian Empire* (2007). Okunmayan birincil metinler: Herodotos 1.84, 3.10-14; Arrianos 1.17, 3.1, 3.21; Nabonid Kroniği. Britannica «Achaemenian Empire» 403 verdi.

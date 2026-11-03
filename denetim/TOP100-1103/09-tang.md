@@ -50,3 +50,6 @@ Açık kırılma: **0** (tang 34 kırılma günü, wu-zhou 2). Yerleşim: tang 1
 - Britannica (HTTP 403, çekilemedi) — Tang/Wu Zetian/Mehmed vb. maddeleri.
 - arac/cin_gun.py'nin veri dosyası D:/kaynak-derlem/cin-takvim/src/calendarData.js bu makinede YOK (Jülyen gün çevirileri ölçülemedi).
 - TDV'de Tang/Çin maddesi okunmadı (TDV kapsamı zayıf; Çin için birincil kaynak Jiu/Xin Tangshu).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Tang kuruluşu (618, Wude 1 5. ay jiazi): JSTOR'da günü veren makale bulunamadı. Çeviri KASA'da cin_gun.py ile.

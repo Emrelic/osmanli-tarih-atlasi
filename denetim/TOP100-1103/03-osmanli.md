@@ -51,6 +51,28 @@ Yedi önemli kırılma (hepsi 0 gün maddeli; yorum):
 Sahiplik tutarlılık örnekleri (ölçüldü): Edirne d 1361-05-05→1402-07-28 (TDV ✓); İstanbul d 1453-05-29 ✓, v 1372→1402-07-28 ve 1424-02-22→1453-05-29 (TDV murad-i / murad-ii) ✓.
 Bilinmeyen: `d:`+`v:` sahipliğinin kaynakla çelişen yeri taraması yapılmadı (1126 kayıt) — ölçülmedi.
 
+### Ek ölçüm — 1920-04-23 geçişi bilinçli kurgu mu? (UMIT SALI, koordinatör notu üzerine)
+- **Evet, bilinçli:** `data/kronoloji_sinir_turkiye.js` başlık notu: «1920-04-23 Osmanlı → TBMM kimlik
+  geçişi bir SINIR DEĞİŞİKLİĞİ DEĞİLDİR, madde yazılmadı». `tbmm-turkiye` künyesi (devletler.js:5270)
+  f 1920-04-23, kaynak TDV «türkiye büyük millet meclisi»; kronolojide açılış maddesi var
+  (olaylar_ek7.js / olaylar_p0049.js). Yani Değişmez 2 açısından kırılma karşılanmış.
+- **Ama kapsam fazla:** ölçüldü (UMIT, bu worktree) — 1920-04-23'te `d:`/`v:` biten ve aynı gün
+  `s:tbmm-turkiye` başlayan **273** kayıt; merkezlere göre: Bursa 44 · Edirne 25 · Ankara 17 ·
+  Kütahya 13 · Sivas 13 · **İstanbul 12** · Konya 12 · İzmir 10 · … · merkezsiz 51. Bunların
+  **48**'inde 1920-1922 arası `isg:` (Yunan/Fransız/İngiliz işgali) katmanı var (İzmir, Edirne,
+  Bursa, Adana, Antep…) — işgal ayrı katmanda gösterildiği için oralar sorun değil.
+  **İstanbul ve çevresinin 12 kaydında `isg:` de yok:** harita 1920-04-23'ten itibaren İstanbul'u
+  Ankara hükûmetinin gösteriyor. Oysa İstanbul hükûmeti (Osmanlı) şehri 1922 Kasım'ına dek yönetti,
+  şehir 16 Mart 1920'den itilaf işgalindeydi. Bu bir anakronizm.
+- **Öneri (hüküm):** kimlik geçişi kurgusu kalsın (TBMM fiilen Anadolu'nun hükûmeti, kaynaklı).
+  İstisna: İstanbul hükûmetinin fiilen yönettiği alan — İstanbul merkezli 12 kayıt ve Boğazlar
+  (Çanakkale/Gelibolu: işgal bölgesi; kayıt kayıt kontrol) — `d:` Osmanlı **1922-11-04**'e
+  (Refet Paşa'nın İstanbul idaresini TBMM adına devralışı; Tevfik Paşa kabinesinin istifası) ya da
+  **1922-11-01**'e (saltanatın ilgası, olaylar.js:222 var) uzatılsın; 1920-03-16 – 1923-10-06 arası
+  `isg:` itilaf işgali eklensin (İstanbul'un tahliyesi 1923-10-06, kronolojide var). Gün seçimi
+  KASA'da TDV «istanbul» ve «saltanatın kaldırılması»/«refet bele» maddeleriyle teyit edilmeli —
+  burada **okunmadı**, öneri iki aday günle bırakıldı.
+
 ## Önerilen düzeltmeler (KASA için)
 1. `data/yerlesimler*.js`: İstanbul ve Boğazlar yerleşimleri (İstanbul, Üsküdar, Gelibolu, Çanakkale… sayılacak) `d:"osmanli"` t 1920-04-23 → 1922-11-01 (ya da TBMM'ye geçiş günü kaynakla); 1922-11-01–1923-10-06 arası İstanbul için sahip kararı (Osmanlı Hilâfeti/İtilâf işgali) — KASA kaynakla karar versin; **Emre kararı ister** (Osmanlı ömrünün sonu).
 2. `data/yerlesimler*.js`: 42 kayıt (Ahlat vb., 1923-10-29 `d:`/`v:`) için: Ahlat/Adilcevaz/Erciş benzeri TBMM içi yerler `d:` t → 1920-04-23 (ötekilerle birlikte); Tunus (Bizerte, Béja, Bin Gerdân …) `v:` 1881-05-12→1923-10-29: Fransız himayesi sonrası "Osmanlı vassal" iddiası kaynak ister — beyan ya da t → Lozan (1923-07-24).

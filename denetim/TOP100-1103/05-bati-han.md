@@ -63,3 +63,6 @@ Yerleşim sahipliği:
 ## Erişilemeyen kaynaklar
 - Britannica 'Han dynasty', 'Wang Mang', 'Guangwudi' (HTTP 403) — çekilemedi; Cambridge History of China vol. 1 (Twitchett–Loewe), Loewe/Bielenstein "Restoration of the Han Dynasty" (BMFEA 26, 1954) için erişim yok; Hanshu 1下, 28上-下, Hou Hanshu 13, Sanguozhi 2 okunamadı (arama özetiyle sınırlı). Iranica/JSTOR erişimi yok.
 - arac/cin_gun.py tablosu (D:/kaynak-derlem/cin-takvim/src/calendarData.js) bu makinede yok; ganzhi→Jülyen çevirileri bağımsız JDN formülüyle hesaplandı (üç künye çapasıyla doğrulandı) — KASA kendi takvim tablosuyla çaprazlasın.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Shu Han'ın teslimi (263): JSTOR'da günü veren makale bulunamadı. Sanguozhi 33 / Zizhi tongjian 78 KASA'da ctext.org'dan okunsun.

@@ -78,3 +78,13 @@ Yerleşim sahipliği ölçümleri (ad_sahip, ilgili `s:` zincirleri):
 
 ## Erişilemeyen kaynaklar
 Britannica (403), parliament.uk (403) açılmadı. Okunamadı: Fasti Praenestini/CIL I² (16 Ocak), Cassius Dio 50-51, 57, 60, 68; Cornell 1995; Polybios 3.22; Treccani 'Odoacre' (künyede alıntısı var, tekrar çekilmedi); Hydatius; Zosimos; Jordanes; Cambridge Ancient History X, XIII, XIV; Oxford Classical Dictionary; Bowersock 1983. Yukarıdaki yeni maddelerin kaynak sütunu **doğrulanmamış aday**tır.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- B. Näf, «Das Zeitbewußtsein des Ennodius und der Untergang Roms», *Historia* 39/1 (1990), s. 100
+  (jstor.org/stable/4436139): Orestes **28 Ağustos 476**'da Piacenza yakınında öldürüldü; kardeşi Paulus
+  **4 Eylül**'de Ravenna'da düştü; Romulus «danach» (bundan sonra) tahttan indirildi.
+- **Hüküm (UMIT SALI):** 4 Eylül indirilişin değil Paulus'un ölümünün günüdür; indiriliş ≥ 4 Eylül, günü
+  kaynakta yok. `bati-roma` t **0476-09-04** kalsın (Ravenna'nın düşüşü = Batı Roma'nın fiilî sonu), `ic_not_t`
+  yenilensin: "indiriliş 4 Eylül'den hemen sonra, gün yok (Näf 1990:100); 28 Ağustos Orestes'in ölümüdür".
+  Roma (0476-08-23) ve Cartagena/Utrecht (0476-08-28) uçları 0476-09-04'e hizalansın; eski 08-28 savunusu
+  (`ic_not_t`) bu kaynakla çürüdü.

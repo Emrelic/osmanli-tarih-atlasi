@@ -80,3 +80,14 @@ Haritadaki sahiplik (Değişmez 1/3 ihtimalleri): İstanbul kaydı `yerlesimler.
 - Britannica (Byzantine Empire, Han vb.) HTTP 403; ODB (Oxford Dictionary of Byzantium), Cambridge Medieval History vol. 4, Ostrogorsky "History of the Byzantine State", Kreutz "Before the Normans", Kaegi "Heraclius", Iranica 'Alexandria' tam metin, JSTOR — erişim yok.
 - Okunamayan TDV gövdeleri: "Tedmür", "Serez", "Ani", "Ankara", "Urfa" (Urfa/Ani/Ankara arama özetinde değil; çekilemedi). TDV "Bizans", "Antakya", "Alaşehir", "Kıbrıs" (ilk 100.000 karakter), "İskenderiye", "Tesalya" okundu.
 - Paulus Diaconus (Fordham mirror) HTTP 500; Cenova/Rothari ve Bari bilgileri web arama özetlerine dayanıyor (Wikipedia aynaları — tek dayanak değil, yol gösterici); hepsi için akademik ikinci kaynak aranmalı.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- A. Bryer, «Greeks and Türkmens: The Pontic Exception», *Dumbarton Oaks Papers* 29 (1975), s. 116
+  (jstor.org/stable/1291371): Philadelphia, Batı Anadolu'da 1261 sonrası yerel özerkliğini koruyan tek
+  yer — «the survival (until 1390)». Ay yok (dn. 4: Ahrweiler «Smyrne»).
+- **Hüküm (UMIT SALI):** TDV (1391) ile Bryer (1390) Alaşehir'in 1300-1390 arası Germiyan olmadığında
+  **çift teyit**. Düşüş yılında çelişki: TDV esas (CLAUDE.md) ⇒ 1391, `ic_not`a "Bryer 1975:116 → 1390"
+  beyanı. Ay için Schreiner, *Die byzantinischen Kleinchroniken* (KASA/derlem) bakılsın; bulunmazsa
+  `1391-01-01` + kesinlik yil. Alaşehir `s:` 1300→1391 `bizans` olmalı.
+- Bari 871/876: JSTOR'da gün yok; L. A. Berto, *Mediterranean Studies* 22/1 (2014): «871'de Bari
+  emirliğini aldı» — yalnız yıl ⇒ 871 Karolenj fethi yıl hassasiyetiyle teyitli (1 kaynak + öneri metni).
