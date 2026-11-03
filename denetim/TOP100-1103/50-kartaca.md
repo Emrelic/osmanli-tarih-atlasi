@@ -89,3 +89,12 @@ Her biri için "yerleşim o devirde Pön mü, müttefik mi?" ayrımı kaynakla y
 - Lancel, S., *Carthage: A History* (1995) — kuruluş tarihi ve Barkid İberya kronolojisi için.
 - Treccani «Cartagine» 2. Pön Savaşı BİTİŞ yılı ve Barkid İberya yılları verilmedi (yalnız Zama anıldı).
 - Britannica çevrimiçi 403 verdi; 1911 baskısı (Wikisource) kullanıldı, onun hakemli sayılması KASA kararı.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026; aktarım)
+- OCD⁴ «Carthago Nova» (Keay) ve «Hasdrubal (1)»: «refounded as New Carthage by Hasdrubal (1) in 228 bc».
+  **Hüküm (UMIT SALI):** Polybios 2.13 / EB1911 (227) ile OCD⁴ (228) ayrışıyor; atlasın -0220 (MÖ 221) hiçbirine
+  uymuyor. OCD⁴ akademik ve güncel ⇒ Cartagena `s: kartaca` f **-0227-01-01** (MÖ 228) + kesinlik yil +
+  `ic_not`: "OCD⁴ 228; EB1911 227 (Polybios 2.13 Hasdrubal'ın kuruşunu tarihlemez, yalnız Ebro antlaşmasını)".
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Yeni Kartaca: J. R. C. Martyn, *Speculum* 81/3 (2006) s. 799 «founded by Hasdrubal in 228 B.C.»; C. Cowherd, *Afro-Hispanic Review* 2/2 (1983) s. 23-25 (228; 221 Hasdrubal'ın ölümü) ⇒ OCD⁴ ile birlikte **MÖ 228 (-0227) teyit**; atlasın -0220'si Hasdrubal'ın ölüm yılıyla karıştırılmış görünüyor.

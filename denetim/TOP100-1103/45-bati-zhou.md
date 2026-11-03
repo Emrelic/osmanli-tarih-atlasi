@@ -55,3 +55,9 @@ Not: Batı Zhou kuruluş maddesi Değişmez 2 evreninde yok (kurucu kırılma ye
 - XSZ Projesi 2000 Özet Raporu / Shaughnessy-Nivison 1045 makaleleri: yalnız arama özetlerinden görüldü; birincil rapor ve CHAC Shaughnessy bölümü (Zhou fetih yılı) okunmadı. Soru: «Shaughnessy CHAC bölüm 5'te fetih yılı hangi yıl: 1045 mi 1046 mı?»
 - Zhang Pengcheng 2022 «The Chronology of Western Zhou», Early China (Cambridge, DOI yok): Tablo 2'nin 1044/771-770 satırları.
 - Luoyi'nin kuruluş tarihi (Zhou Gong, Cheng Wang 5-7. yıl): CHAC Shaughnessy bölümü, soru: «Chengzhou/Luoyi hangi MÖ yıl kuruldu?»
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- D. W. Pankenier, «The Bamboo Annals Revisited… Part 1», *BSOAS* 55/2 (1992) s. 286 Tablo 2
+  (jstor.org/stable/619624): düzeltilmiş kronolojide «Conquest at Muye … 1046» (Yıllıklar'ın kendisi 1050);
+  Wu Wang'ın ölümü 1045. Gün yok. ⇒ XSZ 2000 + Pankenier 1992 ⇒ **MÖ 1046 çift teyit** (`bati-zhou` f
+  **-1045-01-01**, kesinlik yil); Rawson CHAC c. 1045 ve Zhang 2022 (1044) `ic_not`ta yelpaze olarak.

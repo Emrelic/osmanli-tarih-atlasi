@@ -95,3 +95,11 @@ Diğer bulgular:
 - Graff, D. (Taylor & Francis ch. «Koguryŏ War and the Fall of Sui») — 612 seferi başlangıcı ve Salsu.
 - Ay başı tabloları (Academia Sinica/NAOJ, ytliu0 ChineseCalendar): 581-02, 589-01, 612-01, 617-02, 619-04, 628-04 ay başları — ganzhi'den Jülyen güne çeviri doğrulaması.
 - ZZTJ 183-186, 188 (Li Mi'nin Wei Dükü günü, Xue Ju günü, Wei'nin yıkılışı, Qin'in düşüşü): atlas kaynak alanları ZZTJ'ya dayanıyor, bu oturumda okunmadı.
+
+## Koordinatör kararı (EMRELİC 1 KASIM, 4 Kasım 2026) — kaynaklı düzeltme önerisi
+- Chen'in düşüşü: yerleşimlerdeki 0589-02-02 (Suishu 丙子) ile evren maddesindeki 0589-02-12 (Chen shu, ZZTJ 丙戌)
+  tek güne indirilsin; Chen shu sırası Suishu gününü dışladığı için öneri **0589-02-12** (iki kaynak) + `ic_not`
+  "Suishu 丙子 = 02-02; ganzhi çevirisi hesap, doğrulanmadı". Cambridge History of China 3 okunamadı.
+- Mükerrer künye: `sui-liang-xiao-xian` (t 0621-01-01) ile `xiao-xian-liang` (t 0621-11-10) aynı polity ⇒
+  **birleştirme**: `xiao-xian-liang` kalsın (t 621-11-10, ZZTJ 189 乙巳), öbürünün yerleşim dönemleri ve maddeleri
+  ona taşınsın; renk girdisi (renkler.py, tuz) kalabilir.

@@ -87,3 +87,13 @@ En geniş an 1839 (80 yerleşim): Lombardiya-Venedik (Milano, Verona, Venedik, P
 - Britannica 403 («Austria — Accession of the Habsburgs»); Britannica «Jagiellonian kings» yalnız arama özeti.
 - Sněmy české I, belge 55 (Silezya 5 Aralık 1526) — atlas kaynak olarak yazmış, bu oturumda ham metin görülmedi.
 - Soru (JSTOR/Iranica gerekmiyor): Galiçya (Krakov, Przemyśl, Tarnów, Brody) s: kayıtlarının 1772/1795/1846 uçları — ayrı ölçüm.
+
+## Koordinatör kararı (EMRELİC 1 KASIM, 4 Kasım 2026) — kaynaklı düzeltme önerisi
+- Bohemya Tacı toprakları (~18 yerleşim: Prag, Brno, Glatz, Breslau…) Habsburg'a 1526-08-29 (Mohaç) yerine:
+  Bohemya ve Moravya **1526-10-23** (I. Ferdinand'ın Bohemya kralı seçilişi), Silezya **1526-12-05** (Silezya
+  zümrelerinin tanıması). Evrende iki madde de var; yerleşim `s:` uçları bu günlere kaydırılsın, Mohaç'tan önceki
+  sahip (Jagiellon Bohemya) aynı günde kapansın. JSTOR teyidi HAVVA SALI'ya soruldu.
+- `avusturya` harita anahtarıyla yazılmış 188 `s:` dönemi `habsburg` id'sine yeniden yazılsın — döküm: `EK-harita-anahtari.md`.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- I. Ferdinand Bohemya 23 Ekim 1526 / Silezya 5 Aralık 1526: JSTOR'da gün bulunamadı ⇒ evrendeki iki madde ve NDB/Sněmy české ile KASA'da teyit.

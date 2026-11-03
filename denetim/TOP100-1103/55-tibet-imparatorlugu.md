@@ -61,3 +61,9 @@ Bu üç madde "öneri": ay/gün ve 764-786 yılları teyitsiz; KASA uygulamadan 
 - Jiu Tang shu j.11 «Daizong ji» (zh.wikisource.org/wiki/舊唐書/卷11): 763-11-18 gün teyidi.
 - Stein, Tibetan Civilization (1972) ve Cambridge History of Early Inner Asia (1990), «Tibet» bölümü: 629 f için ikinci akademik kaynak.
 - TDV «Tibet» (islamansiklopedisi.org.tr/tibet): bu oturumda açılmadı; kronolojide "yıl vermez" notu mevcut.
+
+## Koordinatör kararı (EMRELİC 1 KASIM, 4 Kasım 2026) — kaynaklı düzeltme önerisi
+- Mükerrer künye: `tubo-tibet-imparatorlugu` (0 yerleşim) `tibet-imparatorlugu`na **birleştirilsin**; kronoloji :532'nin ölü id'si `tibet-imparatorlugu` yapılsın; renk girdisi kalabilir.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Pan Yihong, «The Sino-Tibetan Treaties in the Tang Dynasty», *T'oung Pao* 78 (1992) s. 145 (stable/4528556): and iki törenle — «once in 821 in the western suburb of Chang'an and once in 822 in Migu»; gün yok ⇒ antlaşma maddesi 821 + 822 iki ayrı madde ya da tek madde `0821-01-01` kesinlik yil + 822 beyanı. 763 Chang'an işgali okunmadı (Schafer, *Oriens Extremus* 10/2, 1963).

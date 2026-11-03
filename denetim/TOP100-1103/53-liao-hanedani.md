@@ -61,3 +61,6 @@ Not: Jin'in Zhongjing (Dading) ve Yanjing alışı 1122-12/1123-01-04 için Yanj
 - Jin shi j.2 (zh.wikisource.org/wiki/金史/卷2) 天輔四年: Shangjing düşüş ayı/günü (1120).
 - Britannica «Liao dynasty»: 403 (denenmedi/erişim bilinen kapalı).
 - Academia Sinica/NAOJ takvim tablosu (sinocal.sinica.edu.tw): 916-02 丙戌朔 ve 1125-02 壬戌 çevirisi.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Tianzuo'nun esareti 1125: JSTOR'da gün bulunamadı; aday Hok-lam Chan, *Journal of Asian History* 33/2 (1999) s. 105-141 — okunmadı.

@@ -89,3 +89,9 @@ Kaynaksız `s:` dönemi: **81/96**. En geniş an 1334 (75 yerleşim): Kuzey (Del
 - Majumdar, *History and Culture of the Indian People* VI (Delhi Sultanate) — Güney Hindistan sahipliği ve Ma'bar ayrılışı (1335).
 - Britannica 403; Treccani `Delhi` yalnız 1206/1398 yıllarını verdi (Panipat yok).
 - Iranica «Delhi sultanate» ve JSTOR (Habib & Nizami, *A Comprehensive History of India* V: Delhi Sultanat) — Aybeg'in tahta çıkış günü (Haziran 1206), ikinci akademik kaynak.
+
+## Koordinatör kararı (EMRELİC 1 KASIM, 4 Kasım 2026) — kaynaklı düzeltme önerisi
+- `delhi-sultanligi` f 1206-01-01 → **1206-06-25** (TDV «Aybeg, Kutbüddin»: Lahor'da tahta çıkış; CHI: Muizzüddin 15 Mart 1206'da öldü). Panipat 1526-04-21 (TDV) evrene madde olarak eklensin; CHI'nin 18 Nisan'ı `ic_not`ta.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Aybeg 25 Haziran 1206: JSTOR'da gün bulunamadı ⇒ TDV tek kaynak.

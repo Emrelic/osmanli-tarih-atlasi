@@ -60,3 +60,12 @@ Not: Kuşan t=250 kırılmasını karşılayan madde var, ama maddenin yer_id'si
 - Rezakhani, ReOrienting the Sasanians (Edinburgh UP 2017) böl.3 «The Kushano-Sasanians in East Iran»: Cambridge Core özeti yıl vermiyor. Soru: «Kuşano-Sasani krallığının başlangıç yılı (Ardeşir 224-232 / Şapur I 240-270)?»
 - Puri 1994 (HCCA II) metninin yalnız ilk 100.000 karakteri WebFetch ile okundu; Kuşan kronolojisi ve şehir listesi (Termez, Bagram, Mathura) için kalan bölüm okunmalı.
 - UNESCO Silk Road «The Kushans» PDF'leri artık erişilebilir değil (301→unesco.org/en/silkroads).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026; aktarım)
+- J. Cribb, «Numismatic evidence and the date of Kaniṣka I», *Problems of Chronology in Gandhāran Art*
+  (Archaeopress 2018) s. 7 (açık erişim, JSTOR jj.15135994.7): Falk 2001'in «Kaniṣka I's year 1 to AD 127»
+  önerisi «now widely accepted»; H. Falk, «Ancient Indian Eras: An Overview», *BAI* 21 (2007) s. 131-145.
+  **Hüküm (UMIT SALI):** Kanişka 1. yılı **MS 127** (iki akademik kaynak); Majumdar'ın 78'i (Saka çağı) azınlık
+  görüşü olarak `ic_not`ta. Peşâver `s: kusan` f 0078 → Kuşan'ın Peşâver hâkimiyeti Kujula/Vima dönemine
+  (I. yy) dayanıyorsa f korunabilir ama "Kanişka 78" gerekçesi düşülmeli; künye-içi Kanişka maddesi
+  **0127-01-01** + kesinlik yil.

@@ -77,3 +77,11 @@ Kaynaksız `s:` dönemi: 197/251 (ilhanlı).
 - Encyclopaedia Iranica «ILKHANIDS» — 403 (iranicaonline.org/articles/ilkhanids). Soru: Ebû Saîd sonrası Togha Temür'ün (Gürgân) ölüm yılı 1353 mü; t'nin hangi olaya bağlandığı.
 - Britannica 403. Treccani `Ilkhanidi`/`Il-Khanidi` Enc. It. maddesi yalnız arama özeti olarak okundu (tam sayfa çekilemedi: ana sayfaya yönlendirdi); alıntılar arama özetindendir, "doğrulanmadı".
 - Vikipedi/yansıma siteleri Togha Temür 1353'ü gösterdi — dayanak sayılmadı.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026; aktarım)
+- Iranica «Abū Saʿīd Bahādor Khan» (P. Jackson, EIr I s. 374-377): «died … on 13 Rabīʿ II 736/30 November
+  1335» ⇒ **1335-11-30 çift teyit** (TDV + Iranica; Çobanîler maddesi de). Evrendeki 1335-12-01 → 11-30.
+  Cülûs için Iranica üç değer verir: Mustavfî Safer 717 (Nisan-Mayıs 1317), Âmulî 23 Rebîülâhir 717 (5 Temmuz 1317),
+  bir kaynak 16 Ağustos 1317 — TDV hangisini veriyorsa o, öbürleri `ic_not`ta.
+- Iranica «Ḡāzān Khan» / «Il-khanids i»: cülûs günü yok («r. 694-703/1295-1304»; ihtida «2 Šaʿbān 694/17 June 1295»)
+  ⇒ Gazan cülûsu 1295-11-03 TDV tek kaynak.
