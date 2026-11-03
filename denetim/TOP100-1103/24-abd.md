@@ -88,3 +88,12 @@ Sahiplik uyumu: 1919 en geniş yıl: 241 yerleşim. Alaska yerleşimleri 1867-10
 - Jefferson National Expansion Memorial / Library of Congress 'Louisiana Purchase': ikinci bağımsız kaynak.
 - Britannica 'Confederate States of America' (403): Konfedere eyaletlerin ayrılış günleri; JSTOR: McPherson, *Battle Cry of Freedom* (1988) — Konfedere kuruluşu/son toplantı günü.
 - Cambridge History of the US vol.2 (Cambridge Univ. Press): 1783 Paris ve batı genişlemesi için akademik tarih.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Oxford Reference «Confederate States of America»: okunamadı (yalnız özet; gün yok). Konfedere kuruluş/çözülme günleri ikinci kaynak bekliyor.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- 1818 Anglo-Amerikan Sözleşmesi: W. E. Lass, «How the Forty-Ninth Parallel Became the International
+  Boundary», *Minnesota History* 44/6 (1975), s. 218 dn. 47: Gallatin ve Rush'ın raporu «October 20, 1818»
+  (ASP FR 4:381) ⇒ madde 1818-01-01 → **1818-10-20** (dolaylı teyit: imza günü yazılan rapor).
+- Oregon 15 Haziran 1846 (Lass s. 214) okunmadı; Paris 1783 (3 Eylül 1783 / 12 Mayıs 1784) JSTOR'da bulunamadı.

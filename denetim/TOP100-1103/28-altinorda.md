@@ -86,3 +86,6 @@ Eksik/öneri:
 - Vásáry, I., *Cumans and Tatars* (Cambridge UP, 2005) — soru: Altın Orda'nın kuruluş yılı (1241/1242/1243), Boğdan'ın kopuşu 1359.
 - TDV `ozbek-han`, `toktamis`, `kazak-hanligi`, `astarhan-hanligi`, `sibir-hanligi`, `bogdan`, `kirim` (Mengli Giray cümlesi), `sudak`, `moskova`, `dimitri-donskoy` — çekilmedi.
 - Encyclopaedia of Islam², "Ḏj̲ūčī Ulus"/"Ṭoḳtamish" — soru: Büyük Zamyatnya (1359-1380), Berke'nin ölüm günü.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Saray'ın 1502'de yıkılışı: JSTOR'da ay/gün veren makale bulunamadı ⇒ `olaylar_ek5.js:147` t 1502-03-01 → **1502-01-01** + kesinlik yil (ay uydurmadır, kaynak yalnız yıl).

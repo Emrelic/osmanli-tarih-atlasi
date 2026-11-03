@@ -111,3 +111,27 @@ Seylan: portekiz-seylani yerleşim 1593-1656 (2 kayıt) — künye f 1505 ile s:
 - TDV `angola` tam gövde (çekilen özet belirsiz «11.09.1975»): soru: bağımsızlık günü 11 Kasım 1975 mi.
 - TDV `hurmuz`/`benderabbas`/`abbas-i`: Hürmüz'ün 1622 alınış günü (arama sayfası okundu, madde gövdeleri okunmadı).
 - Cambridge History of Latin America c.3 / LoC Country Study 'Brazil': 7 Eylül 1822 ve 29 Ağustos 1825 tanıma — 2. kaynak.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Iranica «Hormuz ii» (W. Floor, EIr XII s. 471-476): «take Qešm and Hormuz in 1622 after a fierce battle» — ay/gün yok ⇒ Hürmüz 1622 **yıl** teyitli (`1622-01-01` + kesinlik yil, ya da TDV gün veriyorsa o gün).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- **Malaka 1511:** R. W. McRoberts, «An Examination of the Fall of Melaka in 1511», *JMBRAS* 57/1 (1984),
+  s. 38 (jstor.org/stable/41492970): ilk saldırı «probably the fourteenth of August»; 11 günlük sokak
+  savaşından sonra şehir «probably on the twenty-fifth of August, 1511» alındı (Loofs'un 24 Ağustos'una
+  itiraz). C. L. Lim, *Singapore J. Legal Studies* 2004: 24 Ağustos (arama özeti).
+  **Hüküm (UMIT SALI):** atlasın 1511-08-15'i de, TDV/p0047'nin 1511-08-10'u da kaynaklı düşüş günü değil.
+  CLAUDE.md "rakamı taşıyan cümlenin neyi tarihlediğini oku": TDV'nin 10 Ağustos'u saldırının/kuşatmanın
+  başlangıcını tarihliyorsa çelişki yoktur ⇒ düşüş **1511-08-24** (Loofs, Lim; McRoberts 25 der — `ic_not`ta
+  iki gün beyanı). TDV 10 Ağustos'u açıkça düşüş günü diyorsa TDV esas kalır, iki JSTOR kaynağı `ic_not`ta.
+  KASA TDV «Malaka» cümlesini okusun.
+- **Malaka 1641:** P. A. Leupe (çev. Mac Hacobian), «The Siege and Capture of Malacca from the Portuguese in
+  1640-1641», *JMBRAS* 14/1 (1936), s. 42 (stable/41559848; VOC belge neşri): Lamotius'un 15 Ocak 1641
+  mektubu — şehir «into our hands on the 14th January 1641». ⇒ `portekiz-malaka` t **1641-01-14**
+  (birincil belge neşri); künye t 1641-01-01 bununla hizalansın.
+- **Goa 1510:** D. Ferguson, *JRAS* (Ekim 1906) s. 993-997: yeniden alış «(November, 1510)» — yalnız ay ⇒
+  25 Kasım (Kasım içinde) uyumlu, 9-10 Aralık değil. **Hüküm:** künye içindeki 1510-12-09 çelişkisi
+  1510-11-25 lehine çözülsün (Ferguson ay teyidi; gün tek kaynaklı).
+- **Sebte 1415:** K. Herbers, *Historische Zeitschrift Beihefte* NF 40 (2006) s. 99-124 ve R. Hennig,
+  *Historische Zeitschrift* 160/2 (1939) s. 286-307: «am 21. August 1415» ⇒ **1415-08-21 çift teyit**
+  (sayfa numaraları arama özetinden).

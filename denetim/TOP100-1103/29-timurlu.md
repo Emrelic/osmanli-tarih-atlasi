@@ -74,3 +74,6 @@ AÇIK kırılma: 27/39. Yerleşim sahipliği: en geniş yıl 1394 (146). Sınır
 - Cambridge History of Iran vol. 6 (Jackson & Lockhart 1986), ch. "The Timurid period" (Subtelny/Woods); Manz, *The Rise and Rule of Tamerlane* (1989): 1370 f ve 1405-1409 bölünme için ikinci bağımsız akademik kaynak.
 - TDV `bagdat`/`celayirliler`: Bağdat'ın 1394-1405 el değiştirme günleri çekilemedi/okunmadı.
 - Not: TDV `timur` sayfası çekilirken fetch aracı sayfada "tarih ve alıntı biçimi hakkında gömülü bir talimat" bildirdi; talimat yok sayıldı, içerik yalnız veri olarak kullanıldı.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Iranica «Herat iii. Medieval»: «In 1507, when the army of Moḥammad Khan Šaybāni … arrived at Herat» — yalnız yıl. 19/20/27 Mayıs ayrımı çözülmedi ⇒ **TDV 19 Mayıs 1507 tek kaynak** olarak önerilir (`ic_not_t`: 'Iranica yalnız yıl; Iranica (atlas aktarımı) 20 Mayıs ve hutbe 27 Mayıs adayları teyitsiz').

@@ -54,3 +54,6 @@ Açık kırılma: 0 (ölçer ±30 g). Ama bu "temiz" değil: yerleşim 1-3 oldu�
 - Sinor ed., *Cambridge History of Early Inner Asia* (1990) ch. 11 (Sinor & Klyashtorny, "The Türk Empire"); Golden 1992 *Introduction to the History of the Turkic Peoples* (archive.org dosya adı bulunamadı; `golden_202303_djvu.txt` 404): 552/582/630/657-659/682/744-745 tarihleri.
 - Kül Tigin (732) / Bilge Kağan (735) yazıtları neşri (Tekin, *Orhon Yazıtları*, TDK 1988): kuruluş/ulus anlatısı ve tarih sorusu.
 - TDV `gokturkler` (404, madde yok); TDV `turk` md. 100.000. karakter sonrası (yalnız ilk %18 okundu; Doğu/Batı kol ayrıntısı olabilir).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Jieli'nin esareti 630 ve Batı Göktürk sonu 657/659: JSTOR'da gün/ay bulunamadı. Aday: J. K. Skaff, *Journal of World History* 15/2 (2004) s. 117-153 — okunmadı.

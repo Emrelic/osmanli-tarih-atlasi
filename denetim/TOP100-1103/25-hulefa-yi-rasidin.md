@@ -91,3 +91,7 @@ Yerleşim sayısı tablosu: 632:2, 634:3, 638:4, 642:5, 643:6, 651:10 (en geniş
 - Iranica «Nehāvand» / «Ctesiphon» (iranicaonline.org, JSTOR benzeri erişim yok): Nihâvend 642 gün/ay; Kādisiyye 636.
 - İSAM/Belleten: Hz. Ali'nin şehadet günü (21 Ramazan 40/27 Ocak 661 bilinen — TDV `ali` açılıp doğrulanmalı).
 - Kuveyt/tabular hicrî çevirisi: `arac/cin_gun.py` yok; Receb 14 ∩ Eylül 635 ilk günü hesaplanmadı.
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- EI² «Muʿāwiya I» / «al-Ḥasan b. ʿAlī»: okunamadı (Brill erişimi yok) ⇒ Kûfe **661-07-29 TDV tek kaynak**.
+- Iranica «Nehāvand» (Minorsky): savaş «between 18 AH/639 and 21/641» — 642 geçmiyor. **Hüküm (UMIT SALI):** TDV ile karşılaştır; TDV 21/642 diyorsa TDV esas (CLAUDE.md), çelişki `ic_not`ta Iranica 639-641 ile beyan; TDV yıl vermiyorsa Iranica'nın üst ucu hicrî 21 ∩ mîlâdî 641 ⇒ kesişimin ilk günü (hicrî 21'in 1 Muharremi, 641 Kasım sonu — günü KASA hicrî tabloyla hesaplasın; burada hesaplanmadı) + kesinlik yil + beyan. KASA TDV «Nihâvend» maddesini okusun.

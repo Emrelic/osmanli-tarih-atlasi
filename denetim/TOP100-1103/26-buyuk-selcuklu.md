@@ -77,3 +77,6 @@ Eksik/öneri (kaynak okunmuş olanlar tam satır; öteki "okunmadı"):
 - Encyclopaedia of Islam², "Saldjūḳids" (Brill). Soru: aynı.
 - TDV `rey`, `isfahan`, `hemedan`, `kazvin`, `tirmiz`, `mekke` (bu oturumda çekilmedi).
 - TDV `selcuklular` md. 100.000 karakterden sonrası okunmadı (257.162 karakter; İsfahan başkent nakli yılı orada olabilir).
+
+## Iranica / Oxford teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Iranica «Sanjar»: «in the spring of 552/1157, he died in Marv». Rebîülevvel 552 ≈ 13 Nisan – 12 Mayıs 1157 ⇒ künye t 1157-04-26 ve olaylar_ortacag_iran_turan.js:143'teki 1157-04-13 ikisi de 'bahar 552' ile uyumlu; Iranica günü ayırmıyor. **Hüküm:** iki atlas günü tek güne indirilsin — TDV «Sencer» hangi günü veriyorsa o (kural: TDV esas); künye `ic_not_t` bayat ifadesi (1157-01-01) silinsin, 'Iranica: bahar 552/1157' beyanı eklensin. EI² «Sandjar» okunamadı.
