@@ -31,8 +31,13 @@ Kaynak: `denetim/DUNYA-1102/*/ajan_sonuclari.json` taraması (KASA, 2 Kasım 202
 | 8 | Jones ve ark. 2005 "Iraq" (RAND kitap bölümü, 2003 işgali) | ilgisiz — yanlış PDF | — (*Iraq* dergisindeki Asur makalesi hâlâ gerekli) |
 | — | Stănică, "The Missing Fortresses in Dobrogea" | teyit — Dobruca 819 H (1416/17) ve 1419-20 iki okuması atlasla uyumlu | değişiklik yok (atlas zaten Stănică 2016'yı anıyor) |
 
+İkinci parti (aynı gün): `709306.pdf` = Colonna d'Istria, *JCS* 72 (2020) 35-46 → Mari t=-1809 **teyit** (Yadun-Lim
+ca. 1820/1810; atlasın "JNES" atfı yanlıştı, dergi JCS) — mari-sakkanakku kaynağına işlendi · `Chen-Taiwan-2026.pdf`
+(iki kopya bayt bayt aynı) = J. Y.-W. Chen, *Global Knowledge Production about China* (2026) bl. 9 → **ilgisiz** ·
+`Britain-localpersonalacts.pdf` = 1804-05 İngiliz yerel yasaları → **ilgisiz**.
+
 **Hâlâ eksik:** Borao Mateo, *The Spanish Experience in Taiwan 1626–1642* (HKU Press 2009, 1. ve son bölüm) ·
-Chu MÖ 704 *T'oung Pao* makalesi · Mari JNES makalesi (doi 10.1086/709306) · Memfis MÖ 671 için *Iraq* dergisi makalesi.
+Chu MÖ 704 *T'oung Pao* makalesi · Memfis MÖ 671 için *Iraq* dergisi makalesi · Mari Lim sonu (MÖ 1761) için kaynak.
 
 Not: Encyclopaedia Iranica kalemleri bu listede değildir — Brill açık erişimi (brill.com/eiro) ikinci geçişte denenecek.
 American Antiquity / Latin American Antiquity / Ancient Mesoamerica makaleleri Cambridge Core'da çoğu zaman özetle açılıyor; JSTOR şart değil.
