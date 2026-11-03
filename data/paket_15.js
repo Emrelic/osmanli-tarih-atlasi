@@ -725,9 +725,9 @@ window.OLAYLAR_P0050 = [
   gun:"6 Mart 1882 (Sırp takvimiyle 22 Şubat)",
   yer:"Belgrad, Niş, Semendire, Kragujevac", yer_id:"Belgrad",
   kisiler:"Kral I. Milan (Milan Obrenoviç)",
-  d:"1878'de bağımsızlığını kazanan ve aynı yıl Osmanlı elindeki Niş'i de alan Sırbistan Prensliği, Milan Obrenoviç döneminde krallığa dönüştürüldü. Belgrad'da çıkarılan kanunun ilk maddesiyle prenslik Sırbistan Krallığı ilan edildi ve Prens Milan I. Milan adıyla kral oldu; kanun aynı gün resmî Srpske novine gazetesinde yayımlandı. Böylece 1878'e kadar Osmanlı'ya bağlı bir prenslik olan Sırbistan, Balkanlar'da krallık unvanıyla yerini aldı.",
+  d:"1878'de bağımsızlığını kazanan ve aynı yıl Osmanlı elindeki Niş'i de alan Sırbistan Prensliği, Milan Obrenoviç döneminde krallığa dönüştürüldü. Belgrad'da çıkarılan kanunun ilk maddesiyle prenslik Sırbistan Krallığı ilan edildi ve Prens Milan I. Milan adıyla kral oldu; kanun aynı gün resmî Srpske novine gazetesinde yayımlandı. Böylece 1878'e kadar Osmanlı'ya bağlı bir prenslik olan Sırbistan, Balkanlar'da krallık unvanıyla yerini aldı. Bu ilânla Sırbistan Prensliği'nin tamamı (Belgrad, Niş, Yagodina, İvranye, Leskofça, Ürküp, Şehirköy vd.) Sırbistan Krallığı oldu.",
   ic_not_gun:"TDV sirbistan yalnız yıl verir ('Prens Milan Obrenoviç 1882'de krallığını ilân etti'). Gün BİRİNCİL kaynaktan: 'Zakon o proglašenju Knjažestva Srbije za Kraljevinu', Srpske novine sy. 41, Pazartesi 22 Şubat 1882 (metin Vikizvornik transkripsiyonundan okundu; Vikizvornik burada dayanak değil, neşrin taşıyıcısı). 🔴 TAKVİM: Sırbistan 1882'de Jülyen kullanıyordu; 22 Şubat Jülyen = 6 Mart Gregoryen (+12 gün). ÇEVİRME YAPILDI çünkü atlasın 19. yüzyıl komşu kayıtları Gregoryen (VERI-YAPISI TAKVİM: yapıldıysa yazılır). Atlasın 1882-03-06 kırılması ve kronoloji_sirbistan.js aynı günü DAYANAK ALINMADI.",
-  kaynak:"sirbistan · nis + Zakon o proglašenju Knjažestva Srbije za Kraljevinu, Srpske novine 41 (22.II.1882)" },
+  kaynak:"sirbistan · nis + Zakon o proglašenju Knjažestva Srbije za Kraljevinu, Srpske novine 41 (22.II.1882) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sırbistan' (islamansiklopedisi.org.tr/sirbistan)" },
 
 // ── Filistin sivil idaresi 1920 ───────────────────────────────────
 { t:"1920-07-01", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],

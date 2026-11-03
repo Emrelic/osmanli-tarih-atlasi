@@ -121,8 +121,8 @@ window.OLAYLAR_2S0920 = [
   gun:"10 Ağustos 1913", yer:"Kavala, Drama, Serez, Praviște (Eleftheroupoli), Makedonya",
   kisiler:"Bulgaristan, Sırbistan, Yunanistan ve Karadağ murahhasları",
   etiket:["antlasma","toprak-kaybi","konu-siyasi"],
-  d:"İkinci Balkan Savaşı, Bulgaristan ile Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması'yla sona erdi. Birinci savaşta Bulgaristan'ın eline geçen Kavala, Drama ve Serez havzası bu antlaşmayla Yunanistan'a bırakıldı.",
-  kaynak:"TDV `balkan-savasi` — AYNEN: \"II. Balkan Savaşı 10 Ağustos 1913'te Bulgaristan'la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi.\" · hassasiyet: GÜN" },
+  d:"İkinci Balkan Savaşı, Bulgaristan ile Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması'yla sona erdi. Birinci savaşta Bulgaristan'ın eline geçen Kavala, Drama ve Serez havzası bu antlaşmayla Yunanistan'a bırakıldı. Bu antlaşmayla Tutrakan (Turtukaya) Romanya'ya geçti.",
+  kaynak:"TDV `balkan-savasi` — AYNEN: \"II. Balkan Savaşı 10 Ağustos 1913'te Bulgaristan'la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi.\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Bükreş Antlaşması 10 Ağustos 1913, md. 2 — Digithèque MJP https://mjp.univ-perp.fr/traites/1913bucarest.htm ; Tudorancea, Historical Yearbook 9 (2012)" },
 
 // =====================================================================
 // 2. PARTİ — ANADOLU · KAFKASYA · ARABİSTAN-KÖRFEZ (11 madde)

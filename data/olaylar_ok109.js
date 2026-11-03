@@ -81,8 +81,8 @@ window.OLAYLAR_OK109 = [
     gun: "28 Ekim 1918",
     yer: "Prag, Bratislava, Kassa (Košice)",
     kisiler: "Tomáš Masaryk",
-    d: "Avusturya-Macaristan'ın savaşta gücünü yitirmesi ve ülke içindeki grev, gösteri ve ayaklanmalar üzerine Millî Konsey 28 Ekim 1918'de Çekoslovakya'nın bağımsızlığını ilân etti. 1911 seçim durumu esas alınarak geçici bir millet meclisi kuruldu, 14 Kasım 1918'de başkanlığına Masaryk'in getirildiği hükümet göreve başladı. Yeni devlet milletlerarası hukuktaki yerini Saint-Germain-en-Laye Antlaşması'yla (10 Eylül 1919) kazandı. Haritada Çekoslovakya 11 Kasım 1918'de belirir; bağımsızlık ilanı bundan iki hafta öncedir.", ic_not_d:"eski ifade: Atlasta Çekoslovakya'nın on iki yerleşimi 1918-11-11'de haritaya girer; ilan bu tarihten iki hafta öncedir.",
-    kaynak: "cekoslovakya"
+    d: "Avusturya-Macaristan'ın savaşta gücünü yitirmesi ve ülke içindeki grev, gösteri ve ayaklanmalar üzerine Millî Konsey 28 Ekim 1918'de Çekoslovakya'nın bağımsızlığını ilân etti. 1911 seçim durumu esas alınarak geçici bir millet meclisi kuruldu, 14 Kasım 1918'de başkanlığına Masaryk'in getirildiği hükümet göreve başladı. Yeni devlet milletlerarası hukuktaki yerini Saint-Germain-en-Laye Antlaşması'yla (10 Eylül 1919) kazandı. Haritada Çekoslovakya 11 Kasım 1918'de belirir; bağımsızlık ilanı bundan iki hafta öncedir. Bu ilanla Hradec Králové (Bohemya), Olomouc ve Brno (Moravya) Çekoslovakya'ya geçti.", ic_not_d:"eski ifade: Atlasta Çekoslovakya'nın on iki yerleşimi 1918-11-11'de haritaya girer; ilan bu tarihten iki hafta öncedir.",
+    kaynak: "cekoslovakya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Hrvatska enciklopedija 'Čehoslovačka' (enciklopedija.hr/clanak/cehoslovacka)"
   },
 
   {
@@ -123,8 +123,8 @@ window.OLAYLAR_OK109 = [
     gun: "3 Kasım 1918",
     yer: "Padova (Villa Giusti), Trento, Trieste",
     kisiler: "İmparator Karl",
-    d: "İmparator Karl'ın 3 Kasım 1918'de İtalyanlarla Villa Giusti'de mütareke imzalaması imparatorluğun parçalanmasını hızlandırdı. TDV bu günü açıkça Avusturya'nın silâh bırakışı olarak kaydeder: \"Yenilgiyi kabul eden Avusturya 3 Kasım'da, Almanya da 11 Kasım'da silâhları bıraktılar.\" Haritada Trento ve Trieste bu gün Avusturya'dan İtalya'ya geçer — dağılışın haritada görünen ilk toprak devri budur.", ic_not_d:"eski ifade: Atlasta Trento ve Trieste",
-    kaynak: "birinci-dunya-savasi"
+    d: "İmparator Karl'ın 3 Kasım 1918'de İtalyanlarla Villa Giusti'de mütareke imzalaması imparatorluğun parçalanmasını hızlandırdı. TDV bu günü açıkça Avusturya'nın silâh bırakışı olarak kaydeder: \"Yenilgiyi kabul eden Avusturya 3 Kasım'da, Almanya da 11 Kasım'da silâhları bıraktılar.\" Haritada Trento ve Trieste bu gün Avusturya'dan İtalya'ya geçer — dağılışın haritada görünen ilk toprak devri budur. Bu mütarekeyle Brenner–Toblach–Jülyen Alpleri hattının güneyindeki Brixen, Cortina d'Ampezzo, Görz ve Gradisca İtalyan işgaline geçti.", ic_not_d:"eski ifade: Atlasta Trento ve Trieste",
+    kaynak: "birinci-dunya-savasi · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Terms of the Armistice with Austria-Hungary, signed November 3, 1918, md. 3 — FRUS, Paris Peace Conference 1919, vol. II, doc. 110 (history.state.gov/historicaldocuments/frus1919Parisv02/d110)"
   },
 
   {

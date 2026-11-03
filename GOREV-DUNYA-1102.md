@@ -245,7 +245,19 @@ G — Renk ve bölge (senin işin değil)
    (anayasa) mı 01-18 (ilan) mı · Edirne 1920-04-23 TBMM'ye geçiş kaynaksız (TDV: Temmuz 1920 Yunan işgali) ·
    `macaristan-naiplik` 1918-11-16 için uygun kimlik mi · SSCB sonu: atlas 12-26, DoS 12-25, TDV 12-31 (çelişki beyanı) ·
    olaylar.js "Cumhuriyet'in ilanı" t:"1923-10" ay hassasiyetinde (gün 29). Döküm: `denetim/DUNYA-1102/ikinci-gecis-b/dokum_h6.md`.
-   Sırada: hücre 6'nın kalan 101 maddesi (437 birim), sonra hücre 12, 18.
+   **Hücre 6 ikinci tur** (kalan 101 madde, 437 birim, 2 ajan): teyit 333 · çelişki 40 · okunmadı 30 · yanlış madde 34.
+   64 maddeye yer cümlesi eklendi; yalnız archontology / LoC countrystudies / napoleon-series dayanaklı 10 öneri
+   UYGULANMADI (zayıf tek kaynak). **Hücre 6 toplam:** 141 maddenin hepsi tarandı · 95 maddeye yer cümlesi · 2 yeni madde
+   · teyit 1 541 · çelişki 90 · okunmadı 184 · yanlış madde 289.
+   Önerilen, uygulanmayan yeni maddeler (yanlış eşleşmenin gerçek olayı; kırılma günüyle birlikte ele alınmalı):
+   1939-10-08 Katowice ilhak kararnamesi · 1918-12-27 Büyük Polonya Ayaklanması · 1807-07-07 Tilsit (Kotor) ·
+   1920-07-28 Teschen · 1920-10-14 Tartu md. IV (Petsamo) · 1864-06-02 İyon Adaları Yunanistan'a (yalnız archontology) ·
+   1918-02-24 Estonya / 1918-02-16 Litvanya bağımsızlıkları · 1921-03-18 Riga Barışı · 1918-11-13 Saksonya / 1918-11-08
+   Bavyera · 1944-10-13 Riga · 1945-01-20 Macar mütarekesi (Güney Slovakya) · 1816-12-08 İki Sicilya kuruluş yasası.
+   Veri kusurları: boş `eski` sahip (Varna #40, Bosna #55, Makedonya #57, Kili/Kahul/Bolgrad #89) · Freiburg/Konstanz
+   "almanya" (Baden olmalı) · Ostland 1941-09-01 · Dimetoka 1922 · Groningen 1813-11-16 · Sondrio 1859-06-28 ·
+   Kraków/Katowice/Białystok 1944-45 günleri · Görice 1912 Yunan işgali. Ayrıntı `dokum_h6.md` + `ajan_sonuclari_h6.json`.
+   Sırada: hücre 12 (Asya 1800–2000), 18 (Afrika 1800–2000).
 5b. **Künye kaynak borcu** (2 Kasım, KASA, main 534a118d7; birinci geçiş yalnız hücre öncelik listelerini işledi):
    hâlâ yasak 191 · "bulunamadı — standart akademik kaynak" 259 · ZAYIF KAYNAK 16 · countrystudies/globalsecurity/
    archontology 24 · "BRIT" kısaltması 11 (birinci geçiş regex'i kaçırdı). Çıplak anahtar 219 = `data/kimlikler.js`
