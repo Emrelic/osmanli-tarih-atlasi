@@ -155,8 +155,8 @@ window.KRONOLOJI_ALMANYA = [
   d:"Wartburg'da sürgündeyken Yeni Ahit'i Yunanca aslından Almancaya çeviren Luther, çeviriyi Eylül 1522'de yayımladı (\"Septembertestament\"). Eser, standart Yeni Yüksek Almanca yazı dilinin oluşumunda ve halkın doğrudan kutsal metne erişiminde dönüm noktası oldu.",
   kaynak:"Whaley — Luther'in Wartburg çevirisi ve Eylül 1522 basımı, gün 21 Eylül olarak yaygın kabul görür" },
 
-{ t:"1525-04-10", devlet:"teuton-sovalyeleri", b:"Töton Şövalyeleri Tarikatı'nın sekülerleşmesi — Prusya Dükalığı", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", yer_id:"Königsberg",
-  etiket:["hanedan","din","toprak-kazanc","teuton-sovalyeleri","konu-askeri","konu-siyasi","konu-hanedan","konu-din"],
+{ t:"1525-04-10", devlet:"teuton-devleti", b:"Töton Şövalyeleri Tarikatı'nın sekülerleşmesi — Prusya Dükalığı", tur:"kurulus", onem:5, dunya:3, kapsam:"ic", yer_id:"Königsberg",
+  etiket:["hanedan","din","toprak-kazanc","teuton-devleti","konu-askeri","konu-siyasi","konu-hanedan","konu-din"],
   d:"Kraków Antlaşması'yla Hohenzollern hanedanından Töton Büyük Üstadı Albrecht, tarikatı Lehistan kralına bağlı kalıtsal bir dünyevî dükalığa (Prusya Dükalığı) dönüştürdü ve Lutherciliğe geçti. Bu, Brandenburg Hohenzollernleri'nin bir asır sonra devralacağı Prusya'nın kurumsal doğumuydu.",
   kaynak:"Clark, Iron Kingdom — Töton Tarikatı'nın 1525 sekülerleşmesi ve Prusya Dükalığı'nın kuruluşu" },
 
@@ -705,8 +705,8 @@ window.KRONOLOJI_ALMANYA = [
 // elektörlükler · Töton Şövalyeleri maddeleri.
 // ══════════════════════════════════════════════════════════════════
 
-{ t:"1410-07-15", devlet:"teuton-sovalyeleri", b:"Grunwald (Tannenberg) Muharebesi — Töton Tarikatı'nın yenilgisi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
-  etiket:["askeri","teuton-sovalyeleri","konu-askeri","konu-din"],
+{ t:"1410-07-15", devlet:"teuton-devleti", b:"Grunwald (Tannenberg) Muharebesi — Töton Tarikatı'nın yenilgisi", tur:"savas", onem:5, dunya:3, kapsam:"dis", yer_id:"",
+  etiket:["askeri","teuton-devleti","konu-askeri","konu-din"],
   d:"Lehistan-Litvanya birleşik ordusu, Töton Şövalyeleri Tarikatı'nın ordusunu Grunwald (Almanca: Tannenberg) yakınında ağır bir yenilgiye uğrattı; Büyük Üstat Ulrich von Jungingen savaş meydanında öldü. Yenilgi, tarikatın bir asır sonra 1525'te dünyevî bir dükalığa dönüşmesiyle sonuçlanacak uzun çöküşünün başlangıcıydı.", ic_not_d:"⚠️ Almanca 'Tannenberg' adı, 1914'teki Alman zaferine bilinçli bir tarihî gönderme olarak seçilmişti — iki savaş aynı bölgede, beş asır arayla ve ters sonuçla yaşandı.",
   kaynak:"Wilson, Heart of Europe — Grunwald/Tannenberg'in 15 Temmuz 1410 muharebesi ve Töton Tarikatı'nın gerilemesi. Grunwald yerleşim kaydı yok", yer_kon:[53.4917,20.2306] },
 

@@ -529,7 +529,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "devlet": "guiyi-jun-dunhuang",
   "taraflar": [
    "guiyi-jun-dunhuang",
-   "tubo-tibet-imparatorlugu"
+   "tibet-imparatorlugu"
   ],
   "b": "Dunhuang: Zhang Yichao Shazhou’yu Tang’a bağladı: Guiyi Jun kuruldu",
   "tur": "toprak-kazanc",
