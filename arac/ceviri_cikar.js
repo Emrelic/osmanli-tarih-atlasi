@@ -30,6 +30,12 @@ for (const ad of Object.keys(win).filter(k => /^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(
     olay.push({ id: ad + ":" + o.t + ":" + (n - 1), b: o.b || "", d: typeof o.d === "string" ? o.d : "" });
   }
 }
+// Maddelerin `gun` alanı ("1683 (gün kaynakta yok)", "MÖ 3000 civarı") ekranda olduğu gibi
+// yazılır; rakam şablonuyla arayüz sözlüğüne girer (659 kalıp ≈ 1.100 madde, 4 Kasım 2026).
+const gunKalip = new Set();
+for (const ad of Object.keys(win).filter(k => /^OLAYLAR(_[A-Za-z0-9_]+)?$/.test(k) && Array.isArray(win[k])))
+  for (const o of win[ad]) if (o && typeof o.gun === "string" && /[A-Za-zÇĞİÖŞÜçğıöşü]/.test(o.gun))
+    gunKalip.add(o.gun.replace(/\s+/g, " ").trim().replace(/\d+(?:[.,]\d+)*/g, "#"));
 const devlet = (win.DEVLETLER || []).filter(d => d && d.id && typeof d.ad === "string").map(d => ({ id: d.id, ad: d.ad }));
 
 // ---- arayüz adayları ----
@@ -66,4 +72,5 @@ for (const f of jsler) {
     }
   }
 }
+for (const g of gunKalip) if (g.length <= 400) aday.add(g);
 process.stdout.write(JSON.stringify({ hatalar, olay, devlet, arayuz: [...aday].sort() }));
