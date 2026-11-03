@@ -38,7 +38,11 @@ const aday = new Set();
 function ekle(s) {
   s = s.replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/\s+/g, " ").trim();
   if (s.length < 2 || s.length > 400) return;
-  if (!/[A-Za-zÇĞİÖŞÜçğıöşü]{2}/.test(s) || !TR.test(s)) return;
+  if (!/[A-Za-zÇĞİÖŞÜçğıöşü]{2}/.test(s)) return;
+  // Türkçe harfi/sözcüğü yoksa: büyük harfle başlayan sözcük ("Kronoloji", "Evet, tam ekran")
+  // ya da boşluklu sözcük öbeği aranır; CSS değeri, kimlik gibi küçük harfli tek parçalar elenir.
+  if (!TR.test(s) && !/(^|[\s(“"'])[A-ZÇĞİÖŞÜ][a-zçğıöşüâîû]{2,}/.test(s)) return;
+  if (!TR.test(s) && /^[\w\-.#\s,:%()]+$/.test(s) && /^(?:[a-z\-]+|\d)/.test(s)) return;
   if (/^[\w.#\-:\[\]="' >]+$/.test(s) && !/\s/.test(s) && !/[çğıöşüÇĞİÖŞÜ]/.test(s)) return;   // seçici/kimlik
   if (/^(https?:|data\/|js\/|css\/)/.test(s) || /[{};]\s*$/.test(s) || /function\s*\(|=>|\bvar\s/.test(s)) return;
   aday.add(s.replace(/\d+(?:[.,]\d+)*/g, "#"));   // rakam şablonu — js/ceviri.js sozlukBul ile aynı

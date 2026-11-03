@@ -19,8 +19,10 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
    sırası aynı kalmalı), baştaki/sondaki noktalama ve boşluk-anlamı ( "(" , ":" , "·" , "—").
 3. **Yer ve devlet adları: hedef dildeki yerleşik akademik ad.** İngilizce için ölçü: Cambridge
    History of Turkey, Encyclopaedia of Islam (THREE), Oxford Dictionary of Byzantium kullanımı.
-   - Ad, dönemin akademik adıdır: 1453 öncesi Bizans bağlamında Constantinople; Osmanlı dönemi
-     için akademik İngilizce yaygın olarak "Istanbul" (metin "Kostantiniyye" diyorsa: Constantinople).
+   - Ad, dönemin akademik adıdır. Kent **29 Mayıs 1453 fethine kadar (kuşatma dahil) Constantinople**:
+     "İstanbul kuşatması" (1453, 1422, 1394…) → "Siege of Constantinople", "İstanbul'un fethi" →
+     "Conquest of Constantinople". Fetihten sonra "Istanbul" (metin "Kostantiniyye" diyorsa:
+     Constantinople). Kayıt kimliğindeki tarih (id'nin ortası, ör. 1453-04-06) ölçüdür.
      Edirne/Adrianople: Osmanlı dönemi Edirne, öncesi Adrianople. Belgrad → Belgrade, Viyana → Vienna,
      Mora → the Morea, Rumeli → Rumelia, Eflak → Wallachia, Boğdan → Moldavia, Erdel → Transylvania,
      Kırım Hanlığı → Crimean Khanate, Akkoyunlu → Aqquyunlu, Karakoyunlu → Qaraquyunlu,
