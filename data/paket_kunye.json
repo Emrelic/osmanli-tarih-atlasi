@@ -774,11 +774,11 @@
     },
     {
      "yol": "data/yerlesimler_ek29.js",
-     "sha": "4dabcd26a8acb4cb",
-     "bayt": 335517
+     "sha": "2e31727f8f067fce",
+     "bayt": 348832
     }
    ],
-   "bayt": 2248048
+   "bayt": 2261363
   },
   {
    "paket": "data/paket_15.js",
@@ -1052,8 +1052,8 @@
    "kaynak": [
     {
      "yol": "data/yerlesimler_ok107.js",
-     "sha": "a450c1052a39e60e",
-     "bayt": 101816
+     "sha": "fe88c55a4582e755",
+     "bayt": 98910
     },
     {
      "yol": "data/yerlesimler_amerika3.js",
@@ -1091,7 +1091,7 @@
      "bayt": 7653
     }
    ],
-   "bayt": 892048
+   "bayt": 889142
   },
   {
    "paket": "data/paket_23.js",
