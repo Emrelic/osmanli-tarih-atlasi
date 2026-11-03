@@ -1,0 +1,2020 @@
+# ENKLAV-1103 — enklav / eksklav ADAYLARI (koşu 32)
+
+Ölçen: LAB SALI · 4 Kasım 2026 gecesi · ağaç: worktree `lab-1103-enklav` @ taban `01d545bdb` (origin/main, kosu_damga no 32) · `coz-c` ile çözülen `devletler_harita.js` + `donemler.js` · alet `denetim/ENKLAV-1103/olc_enklav_1103.py` · üreteç `adaylar_yaz.py`.
+
+## Evren
+
+- Her devlet dönemi (`DEVLET_HARITA[].dnm`, OSMANLI = `DONEMLER[].o`) bir kesittir. Parçalar birleştirilir; en büyük bağlı bileşen ana gövde, ötekiler **kopuk**. Tâbiler yalnız komşu olarak sayılır.
+- Kopuk parçanın 0,05° tampon halkası o günün öteki gövdeleriyle kesiştirilir: **ENKLAV** (halkanın ≥ %90'ı başka devlet, tek devlet ≥ %85) · **KARA-EKSKLAV** (≥ %10'u başka devlet) · **DAR-AYRIM** (kendi ana gövdesine ≤ ~5 km) · **ADA** (< %10, deniz ayırıyor).
+- **Koridor:** parçadan kendinden büyük en yakın kardeş gövdeye en kısa doğru; doğru üstünde 9 örnek nokta, her birinin o günkü sahibi. Koridor yerleşimleri: doğrunun 0,25° yakınındaki noktalar ve o günkü sahipleri.
+- Ardışık dönemlerde örtüşen parça tek aday sayılır; yıl aralığı ilk ve son dönemdir. Alan küresel km², en büyük kesitteki değer. İçindeki yerleşimler o kesitte, o günkü sahipleriyle.
+- Yaklaşıklama: tampon düzlemsel derece; koridor düz çizgi (nehir/dağ yok).
+
+## Sayılar
+
+Ölçüm: {"donem": 11428, "cok_bilesen": 8951, "kopuk": 616644}.
+
+| sınıf | ≥1 km² | ≥50 | ≥500 | ≥5.000 |
+|---|---|---|---|---|
+| ENKLAV | 278 | 121 | 97 | 59 |
+| KARA-EKSKLAV | 4.501 | 1.892 | 1.575 | 1.171 |
+| DAR-AYRIM | 7.555 | 1.875 | 292 | 64 |
+| ADA | 23.816 | 6.013 | 1.863 | 931 |
+
+KARA-EKSKLAV ≥ 50 km²: 1892; koridorunda yabancı kara ≥ 5/9 olan **858**, denizle/boşlukla ayrılan 1034 (çoğunlukla denizaşırı sömürge gövdesi — bu gece incelenmedi).
+ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
+
+`s.eksklav` taşıyan dönem: 247 (yerleşim 197). Devletlere göre: venedik 69, fransa-cumhuriyet 52, italya 37, ispanya 26, avusturya-hollandasi 17, kuzey-yuan 12, ingiltere 11, sardinya 4, almanya 2, fransa 2, mehdi 2, rusya 2, ingiliz-hindistani 2, kongo-serbest-devleti 2, ingiliz-malaya 2, sicilya-aragon 1, burgonya 1, timurlu 1, portekiz 1, hollanda 1.
+
+## ① ENKLAV (hepsi, ≥ 50 km²)
+
+### E001 · Timurlu valiliği (`timurlu`) · 1383-01-01 → 1387-11-01 · 253.511 km²
+
+- nokta [38.121, 47.198], en büyük kesit 1387-01-30 · kesit sayısı 4 · sınıf sayımı {'ENKLAV': 1, 'KARA-EKSKLAV': 3}
+- çevre: celayirli 91%, karakoyunlu 23%, sirvansah 16%
+- koridor: 267.6 km · muzafferi 9/9
+- içindeki yerleşimler (74, s.eksklav 0): Senendec (Sine) (sahipsiz); Merîvan (timurlu); Bîcâr (sahipsiz); Bâne (sahipsiz); Ebher (Abhar) (sahipsiz); Sakkız (timurlu); Sultâniye (timurlu); Izirtu (sahipsiz) … +66
+- koridor yerleşimleri: Tahran (muzafferi); Kazvin (muzafferi)
+- **HÜKÜM:** _bekliyor_
+
+### E002 · Kutsal Roma / Almanya (`almanya`) · 1941-07-11 → 1944-06-28 · 169.996 km²
+
+- nokta [53.401, 33.642], en büyük kesit 1941-11-03 · kesit sayısı 18 · sınıf sayımı {'ENKLAV': 6}
+- çevre: sovyet-rusya 100%, ostland 4%
+- koridor: 212.1 km · ostland 9/9
+- içindeki yerleşimler (7, s.eksklav 0): Kursk (almanya); Orel (almanya); Gomel (Homel) (almanya); Smolensk (almanya); Mogilev (Mahilyow) (almanya); Vitebsk (almanya); Bryansk (almanya)
+- koridor yerleşimleri: Minsk (ostland)
+- **HÜKÜM:** _bekliyor_
+
+### E003 · Britanya (`ingiltere`) · 1885-02-05 → 1923-10-29 · 133.909 km²
+
+- nokta [19.511, 36.615], en büyük kesit 1891-05-14 · kesit sayısı 134 · sınıf sayımı {'ENKLAV': 12, 'KARA-EKSKLAV': 4}
+- çevre: mehdi 88%, italya 14%, habesistan 12%
+- koridor: 797.2 km · DENIZ/BOS 6/9, italya 2/9, fransa-cumhuriyet 1/9
+- içindeki yerleşimler (9, s.eksklav 2): Bûr Sûdân (sahipsiz); Akīk (ingiltere); Tokar (ingiltere); Trinkitât (ingiltere); Sevâkin (ingiltere); Derûdeb (ingiltere); Hayyâ (ingiltere); Sinkat (ingiltere) … +1
+- koridor yerleşimleri: Cibûtî (fransa-cumhuriyet); Tacûra (fransa-cumhuriyet); Dehlek-i Kebîr (sahipsiz); Dahlak (italya)
+- **HÜKÜM:** _bekliyor_
+
+### E004 · Güney Afrika Birliği (`guney-afrika-birligi`) · 1915-07-09 → 1920-12-17 · 44.658 km²
+
+- nokta [-22.502, 19.593], en büyük kesit 1915-07-09 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: ingiltere 90%
+- koridor: 244.1 km · DENIZ/BOS 6/9, KENDI 3/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E005 · Afşâr Devleti (Nâdir Şah) (`afsar`) · 1747-06-20 → 1785-01-01 · 44.542 km²
+
+- nokta [36.075, 58.329], en büyük kesit 1747-06-20 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: zend 94%
+- koridor: 79.4 km · zend 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Nîşâbur (afsar); Sebzevâr (afsar); Meşhed (afsar); Tûs (afsar)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E006 · İngiliz Hindistanı (Şirket ve Taç Dönemi) (`ingiliz-hindistani`) · 1803-02-18 → 1818-01-01 · 32.788 km²
+
+- nokta [22.575, 71.725], en büyük kesit 1807-01-01 · kesit sayısı 10 · sınıf sayımı {'ENKLAV': 5, 'KARA-EKSKLAV': 3}
+- çevre: maratha 97%, cunagadh 20%, racput 14%
+- koridor: 8.0 km · DENIZ/BOS 9/9
+- içindeki yerleşimler (5, s.eksklav 0): Valabhi (sahipsiz); Kanbâyet (Khambhat) (ingiliz-hindistani); Lothal (sahipsiz); Wadhwan (Vardhamana) (ingiliz-hindistani); Dholka (ingiliz-hindistani)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E007 · Delhi Sultanlığı (`delhi-sultanligi`) · 1297-01-01 → 1304-01-01 · 32.733 km²
+
+- nokta [22.573, 71.621], en büyük kesit 1303-08-26 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 1, 'ENKLAV': 2}
+- çevre: racput 100%, vaghela 15%
+- koridor: 15.1 km · racput 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Lothal (sahipsiz); Wadhwan (Vardhamana) (delhi-sultanligi); Dholka (delhi-sultanligi); Ahmedâbâd (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E008 · Racput Devletleri (`racput`) · 1311-01-01 → 1365-01-01 · 32.239 km²
+
+- nokta [24.678, 75.147], en büyük kesit 1311-01-01 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: delhi-sultanligi 99%
+- koridor: 137.9 km · delhi-sultanligi 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (1, s.eksklav 0): Çitor (Chittorgarh) (racput)
+- koridor yerleşimleri: Codhpûr (Jodhpur) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E009 · Kırım Hanlığı (`kirim`) · 1777-01-01 → 1783-04-19 · 32.069 km²
+
+- nokta [44.794, 43.226], en büyük kesit 1777-01-01 · kesit sayısı 5 · sınıf sayımı {'ENKLAV': 2}
+- çevre: rusya 92%
+- koridor: 8.0 km · DENIZ/BOS 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Stavropol–Kuma bozkırı (kirim)
+- koridor yerleşimleri: Nizhny Arkhyz (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E010 · Nogay Ordası (`nogay`) · 1556-01-01 → 1663-01-01 · 31.504 km²
+
+- nokta [53.442, 45.056], en büyük kesit 1644-01-01 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 2, 'ENKLAV': 1}
+- çevre: rusya 100%
+- koridor: 26.0 km · rusya 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Penza (nogay)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E011 · Moğulistan (Doğu Çağatay Hanlığı) (`mogulistan`) · 1485-01-01 → 1503-01-01 · 26.922 km²
+
+- nokta [41.344, 68.826], en büyük kesit 1485-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: timurlu 92%
+- koridor: 267.3 km · timurlu 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (1, s.eksklav 0): Taşkent (mogulistan)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E012 · Kutsal Roma / Almanya (`almanya`) · 1941-10-03 → 1941-10-06 · 26.625 km²
+
+- nokta [53.051, 36.545], en büyük kesit 1941-10-03 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: sovyet-rusya 100%
+- koridor: 119.1 km · sovyet-rusya 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Orel (almanya)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E013 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1727-01-01 → 1756-01-01 · 26.574 km²
+
+- nokta [26.695, 74.413], en büyük kesit 1752-04-01 · kesit sayısı 14 · sınıf sayımı {'ENKLAV': 7}
+- çevre: racput 100%
+- koridor: 34.0 km · racput 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (babur-imparatorlugu)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E014 · İngiliz Hindistanı (Şirket ve Taç Dönemi) (`ingiliz-hindistani`) · 1818-06-25 → 1947-08-15 · 26.574 km²
+
+- nokta [26.695, 74.413], en büyük kesit 1839-02-03 · kesit sayısı 28 · sınıf sayımı {'ENKLAV': 3}
+- çevre: racput 100%
+- koridor: 34.0 km · racput 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (ingiliz-hindistani)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E015 · Maratha Konfederasyonu (`maratha`) · 1756-01-01 → 1818-06-03 · 26.574 km²
+
+- nokta [26.695, 74.413], en büyük kesit 1761-01-14 · kesit sayısı 23 · sınıf sayımı {'ENKLAV': 9}
+- çevre: racput 100%
+- koridor: 122.1 km · racput 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (maratha)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E016 · Haydarâbâd Nizamlığı (`haydarabad-nizam`) · 1853-05-21 → 1948-09-17 · 23.277 km²
+
+- nokta [20.41, 75.242], en büyük kesit 1853-05-21 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: ingiliz-hindistani 100%
+- koridor: 34.0 km · ingiliz-hindistani 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Evrengâbâd (haydarabad-nizam); Devagiri (Devletâbâd) (haydarabad-nizam)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E017 · Emîr Abdülkādir Devleti (`abdulkadir`) · 1832-11-22 → 1841-05-30 · 22.032 km²
+
+- nokta [35.239, 4.339], en büyük kesit 1841-01-01 · kesit sayısı 3 · sınıf sayımı {'ENKLAV': 2, 'KARA-EKSKLAV': 1}
+- çevre: TABI 86%, fransa-cumhuriyet 26%
+- koridor: 226.3 km · fransa-cumhuriyet 9/9
+- içindeki yerleşimler (3, s.eksklav 2): Bû Sa'âde (abdulkadir); Mesîle (abdulkadir); Kal‘atü Benî Hammâd (sahipsiz)
+- koridor yerleşimleri: Tâhert (Tiaret) (fransa-cumhuriyet)
+- **HÜKÜM:** _bekliyor_
+
+### E018 · Âdilşâhî Sultanlığı (Bîcâpûr) (`bicapur`) · 1686-09-12 → 1686-09-22 · 22.014 km²
+
+- nokta [18.432, 76.498], en büyük kesit 1686-09-12 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: babur-imparatorlugu 100%
+- koridor: 377.6 km · babur-imparatorlugu 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Kalyani (Basavakalyan) (bicapur)
+- koridor yerleşimleri: Kurnûl (Kurnool) (babur-imparatorlugu); Manyakheta (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E019 · Umman-Zengibar Sultanlığı (`umman-zengibar`) · 1893-01-01 → 1893-03-04 · 20.413 km²
+
+- nokta [-3.905, 26.308], en büyük kesit 1893-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: kongo-serbest-devleti 91%
+- koridor: 882.9 km · DENIZ/BOS 4/9, kongo-serbest-devleti 3/9, alman-dogu-afrikasi 2/9
+- içindeki yerleşimler (1, s.eksklav 0): Nyangve (Nyangwe) (umman-zengibar)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E020 · Reichskommissariat Ostland (`ostland`) · 1944-07-27 → 1944-08-01 · 18.450 km²
+
+- nokta [54.997, 23.441], en büyük kesit 1944-07-27 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: sovyet-rusya 87%, almanya 13%
+- koridor: 44.6 km · sovyet-rusya 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Kaunas (ostland); Litvanya (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E021 · Uzak Doğu Cumhuriyeti (Çita Cumhuriyeti) (`uzak-dogu-cumhuriyeti`) · 1920-11-10 → 1922-11-14 · 16.466 km²
+
+- nokta [51.803, 113.962], en büyük kesit 1920-11-10 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: sovyet-rusya 100%
+- koridor: 210.4 km · sovyet-rusya 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (1, s.eksklav 0): Çita (uzak-dogu-cumhuriyeti)
+- koridor yerleşimleri: Irgen (sovyet-rusya)
+- **HÜKÜM:** _bekliyor_
+
+### E022 · Timurlu valiliği (`timurlu`) · 1398-12-17 → 1399-01-01 · 15.417 km²
+
+- nokta [28.355, 77.012], en büyük kesit 1398-12-17 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: delhi-sultanligi 92%, racput 8%
+- koridor: 789.9 km · delhi-sultanligi 7/9, DENIZ/BOS 2/9
+- içindeki yerleşimler (1, s.eksklav 1): Delhi (timurlu)
+- koridor yerleşimleri: Hisâr-ı Fîrûze (delhi-sultanligi); Harappa (sahipsiz); Dera İsmail Han (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E023 · Ming Hanedanı (`ming-hanedani`) · 1382-01-06 → 1382-01-15 · 13.572 km²
+
+- nokta [25.484, 100.461], en büyük kesit 1382-01-06 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: kuzey-yuan 91%
+- koridor: 109.8 km · kuzey-yuan 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Dali (ming-hanedani)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E024 · Milliyetçi İspanya (Franco, Burgos) (`ispanya-milliyetci`) · 1936-07-18 → 1936-08-14 · 13.470 km²
+
+- nokta [37.575, -5.9], en büyük kesit 1936-07-19 · kesit sayısı 3 · sınıf sayımı {'ENKLAV': 2}
+- çevre: ispanya 99%
+- koridor: 161.7 km · ispanya 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Sevilla (ispanya-milliyetci); Ilipa (Alcalá del Río) (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E025 · Habeşistan (`habesistan`) · 1936-06-01 → 1941-11-30 · 12.499 km²
+
+- nokta [7.808, 36.942], en büyük kesit 1936-06-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: italya 100%
+- koridor: 454.5 km · italya 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Cimma (Jiren) (habesistan)
+- koridor yerleşimleri: Addis (italyan-dogu-afrikasi); Ankober (italyan-dogu-afrikasi); Debre Berhan (italyan-dogu-afrikasi)
+- **HÜKÜM:** _bekliyor_
+
+### E026 · Güney Afrika Birliği (`guney-afrika-birligi`) · 1915-07-09 → 1920-12-17 · 12.484 km²
+
+- nokta [-17.979, 23.477], en büyük kesit 1915-07-09 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: ingiltere 96%, portekiz 0%
+- koridor: 115.6 km · DENIZ/BOS 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Katima Mulilo (ingiltere)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E027 · Timurlu valiliği (`timurlu`) · 1393-08-29 → 1394-01-01 · 12.177 km²
+
+- nokta [33.48, 44.883], en büyük kesit 1393-08-29 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: celayirli 100%
+- koridor: 64.3 km · celayirli 9/9
+- içindeki yerleşimler (5, s.eksklav 0): Sippar (Tell Abu Habbah) (sahipsiz); Ktesiphon (sahipsiz); Seleukeia (sahipsiz); Bağdat (timurlu); Eşnunna (Tell Asmar) (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E028 · Timurlu valiliği (`timurlu`) · 1401-01-01 → 1405-01-01 · 12.177 km²
+
+- nokta [33.48, 44.883], en büyük kesit 1401-01-01 · kesit sayısı 6 · sınıf sayımı {'ENKLAV': 2}
+- çevre: celayirli 100%
+- koridor: 64.3 km · celayirli 9/9
+- içindeki yerleşimler (5, s.eksklav 0): Sippar (Tell Abu Habbah) (sahipsiz); Ktesiphon (sahipsiz); Seleukeia (sahipsiz); Bağdat (timurlu); Eşnunna (Tell Asmar) (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E029 · Karakoyunlular (`karakoyunlu`) · 1408-04-13 → 1410-01-01 · 11.834 km²
+
+- nokta [36.301, 48.813], en büyük kesit 1408-04-13 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: timurlu 88%, gilan-kiya 12%
+- koridor: 12.0 km · timurlu 9/9
+- içindeki yerleşimler (3, s.eksklav 0): Ebher (Abhar) (sahipsiz); Sultâniye (karakoyunlu); Şemîrân Kalesi (sahipsiz)
+- koridor yerleşimleri: Deylem (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E030 · Karakoyunlular (`karakoyunlu`) · 1469-01-01 → 1469-04-01 · 11.834 km²
+
+- nokta [36.301, 48.813], en büyük kesit 1469-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: akkoyunlu 88%, gilan-kiya 12%
+- koridor: 12.0 km · akkoyunlu 9/9
+- içindeki yerleşimler (3, s.eksklav 0): Ebher (Abhar) (sahipsiz); Sultâniye (karakoyunlu); Şemîrân Kalesi (sahipsiz)
+- koridor yerleşimleri: Deylem (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E031 · Safevî İran (`safevi`) · 1501-07-01 → 1503-01-01 · 11.809 km²
+
+- nokta [36.301, 48.813], en büyük kesit 1501-07-01 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: akkoyunlu 88%, gilan-kiya 12%
+- koridor: 12.0 km · akkoyunlu 9/9
+- içindeki yerleşimler (3, s.eksklav 0): Ebher (Abhar) (sahipsiz); Sultâniye (safevi); Şemîrân Kalesi (sahipsiz)
+- koridor yerleşimleri: Deylem (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E032 · Britanya (`ingiltere`) · 1918-12-17 → 1920-07-07 · 9.752 km²
+
+- nokta [41.343, 41.851], en büyük kesit 1918-12-24 · kesit sayısı 5 · sınıf sayımı {'ENKLAV': 1, 'KARA-EKSKLAV': 1}
+- çevre: OSMANLI 100%, gurcistan-demokratik-cumhuriyeti 48%, ermenistan-demokratik-cumhuriyeti 11%
+- koridor: 362.3 km · OSMANLI 9/9
+- içindeki yerleşimler (9, s.eksklav 0): Artvin (ingiltere); Şavşat (ingiltere); Saylıca (gurcistan-demokratik-cumhuriyeti); Borçka (ingiltere); Sarp (ingiltere); Murvaneti (ingiltere); Makhalak’auri (ingiltere); Batum (ingiltere) … +1
+- koridor yerleşimleri: Malikiye (Derik) (fransa-cumhuriyet); Cibri (Güçlü) (OSMANLI); Cizre (OSMANLI); Siirt (OSMANLI); Bitlis (OSMANLI)
+- **HÜKÜM:** _bekliyor_
+
+### E033 · Safevî İran (`safevi`) · 1516-03-26 → 1516-05-01 · 9.201 km²
+
+- nokta [38.925, 39.785], en büyük kesit 1516-03-26 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 86%, memluk 13%
+- koridor: 10.3 km · OSMANLI 9/9
+- içindeki yerleşimler (5, s.eksklav 0): Arsamosata (sahipsiz); Palu (safevi); Çemişgezek (safevi); Tunceli (Kalan) (sahipsiz); Hozat (sahipsiz)
+- koridor yerleşimleri: Çayönü Tepesi (sahipsiz); Ergani (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E034 · Serbedârîler (`serbedariler`) · 1381-01-01 → 1381-04-01 · 8.782 km²
+
+- nokta [36.082, 59.876], en büyük kesit 1381-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: timurlu 100%
+- koridor: 256.0 km · timurlu 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Meşhed (serbedariler)
+- koridor yerleşimleri: Nîşâbur (timurlu); Sebzevâr (timurlu)
+- **HÜKÜM:** _bekliyor_
+
+### E035 · Sırbistan Krallığı (Nemanjić Hanedanı) (`sirbistan-nemanjic`) · 1345-01-01 → 1378-01-01 · 8.742 km²
+
+- nokta [42.855, 21.84], en büyük kesit 1345-01-01 · kesit sayısı 4 · sınıf sayımı {'ENKLAV': 1}
+- çevre: sirbistan 88%, bulgar-carligi 12%
+- koridor: 96.3 km · sirbistan 9/9
+- içindeki yerleşimler (5, s.eksklav 0): Balkanlar (sahipsiz); İvranye (Vranje) (sirbistan-nemanjic); Leskofça (Leskovac) (sirbistan-nemanjic); Kurşunlu (Kuršumlija) (sirbistan-nemanjic); Ürküp (Prokuplje) (sirbistan-nemanjic)
+- koridor yerleşimleri: Mitroviça (Mitrovicë) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E036 · Safevî İran (`safevi`) · 1516-08-24 → 1517-05-01 · 8.282 km²
+
+- nokta [37.424, 40.986], en büyük kesit 1516-08-24 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 100%
+- koridor: 102.6 km · OSMANLI 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Mardin (safevi); Mezopotamya (sahipsiz); Midyat (safevi); Hasankeyf (safevi)
+- koridor yerleşimleri: Siirt (OSMANLI); Bitlis (OSMANLI)
+- **HÜKÜM:** _bekliyor_
+
+### E037 · Macaristan Krallığı (Habsburg Tacı) (`macaristan-habsburg`) · 1685-10-12 → 1686-09-02 · 8.100 km²
+
+- nokta [47.1, 20.188], en büyük kesit 1685-10-15 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: OSMANLI 100%
+- koridor: 27.9 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Solnok (Szolnok) (macaristan-habsburg)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E038 · Karakoyunlular (`karakoyunlu`) · 1450-01-01 → 1457-01-01 · 7.620 km²
+
+- nokta [39.779, 38.925], en büyük kesit 1450-01-01 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: akkoyunlu 86%, OSMANLI 11%, memluk 3%
+- koridor: 34.8 km · akkoyunlu 9/9
+- içindeki yerleşimler (3, s.eksklav 0): Kemah (karakoyunlu); Erzincan (karakoyunlu); Refahiye (karakoyunlu)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E039 · Rodezya ve Nyasaland Federasyonu (Orta Afrika Federasyonu) (`rodezya-nyasaland-federasyonu`) · 1953-08-01 → 1963-12-31 · 6.658 km²
+
+- nokta [-19.917, 28.743], en büyük kesit 1953-08-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: ingiltere 100%
+- koridor: 271.4 km · ingiltere 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Bulavayo (ingiltere); Bulawayo (rodezya-nyasaland-federasyonu)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E040 · Yemen İmamlığı (`yemen`) · 1547-01-01 → 1547-02-01 · 6.593 km²
+
+- nokta [13.478, 44.1], en büyük kesit 1547-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 100%
+- koridor: 79.8 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Taiz (yemen)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E041 · Yemen İmamlığı (`yemen`) · 1629-01-01 → 1635-01-01 · 6.593 km²
+
+- nokta [13.478, 44.1], en büyük kesit 1629-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 100%
+- koridor: 79.8 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Taiz (yemen)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E042 · Osmanlı (`OSMANLI`) · 1920-04-23 → 1923-10-29 · 6.553 km²
+
+- nokta [38.254, 41.057], en büyük kesit 1920-04-23 · kesit sayısı 3 · sınıf sayımı {'ENKLAV': 2}
+- çevre: tbmm-turkiye 98%
+- koridor: 364.7 km · tbmm-turkiye 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Batman (sahipsiz); Meyyâfârikīn (OSMANLI); Erzen (sahipsiz); Hallan Çemi (sahipsiz)
+- koridor yerleşimleri: Maraş (tbmm-turkiye); Nevalı Çori (sahipsiz); Samosata (Samsat) (sahipsiz); Behisni (Besni) (tbmm-turkiye); Siverek (tbmm-turkiye); Hısn-ı Mansûr (Adıyaman) (tbmm-turkiye); Kâhta (tbmm-turkiye); Diyarbakır (tbmm-turkiye)
+- **HÜKÜM:** _bekliyor_
+
+### E043 · Celâyirliler (`celayirli`) · 1340-01-01 → 1353-01-01 · 6.383 km²
+
+- nokta [37.825, 42.05], en büyük kesit 1340-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: ilhanli 86%, eyyubi-hisnikeyfa 13%, artuklu 1%
+- koridor: 21.3 km · ilhanli 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Siirt (celayirli)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E044 · Macaristan (`macaristan`) · 1526-11-10 → 1526-12-17 · 6.094 km²
+
+- nokta [46.747, 21.174], en büyük kesit 1526-11-10 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: TABI 100%
+- koridor: 11.4 km · TABI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Gyula (Göle) (macaristan)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E045 · Macaristan Krallığı (Habsburg Tacı) (`macaristan-habsburg`) · 1526-12-17 → 1530-01-01 · 6.094 km²
+
+- nokta [46.747, 21.174], en büyük kesit 1527-05-01 · kesit sayısı 5 · sınıf sayımı {'ENKLAV': 3}
+- çevre: TABI 100%
+- koridor: 32.9 km · TABI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Gyula (Göle) (macaristan-habsburg)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E046 · Kutsal Roma / Almanya (`almanya`) · 1941-10-25 → 1943-02-16 · 6.040 km²
+
+- nokta [49.817, 35.85], en büyük kesit 1941-10-25 · kesit sayısı 3 · sınıf sayımı {'ENKLAV': 3}
+- çevre: sovyet-rusya 100%
+- koridor: 205.9 km · sovyet-rusya 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E047 · Kutsal Roma / Almanya (`almanya`) · 1943-03-15 → 1943-08-23 · 6.040 km²
+
+- nokta [49.817, 35.85], en büyük kesit 1943-03-15 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: sovyet-rusya 100%
+- koridor: 214.3 km · sovyet-rusya 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E048 · Güney Rusya Silahlı Kuvvetleri ve Hükûmeti (Denikin → Wrangel) (`guney-rusya-beyaz`) · 1919-08-01 → 1919-12-11 · 6.040 km²
+
+- nokta [49.817, 35.85], en büyük kesit 1919-08-01 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: sovyet-rusya 100%
+- koridor: 415.4 km · sovyet-rusya 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E049 · Ukrayna Devleti (Skoropadski Hetmanlığı) (`ukrayna-devleti-1918`) · 1918-04-29 → 1918-12-14 · 6.040 km²
+
+- nokta [49.817, 35.85], en büyük kesit 1918-12-01 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: sovyet-rusya 100%
+- koridor: 146.9 km · sovyet-rusya 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E050 · Ukrayna Halk Cumhuriyeti (`ukrayna-halk-cumhuriyeti`) · 1918-04-19 → 1918-04-29 · 6.040 km²
+
+- nokta [49.817, 35.85], en büyük kesit 1918-04-19 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: sovyet-rusya 100%
+- koridor: 146.9 km · sovyet-rusya 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E051 · Ukrayna Halk Cumhuriyeti (`ukrayna-halk-cumhuriyeti`) · 1918-12-14 → 1919-01-03 · 6.040 km²
+
+- nokta [49.817, 35.85], en büyük kesit 1918-12-14 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: sovyet-rusya 100%
+- koridor: 146.9 km · sovyet-rusya 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E052 · Transkafkasya (Federasyon) (`transkafkasya`) · 1918-02-24 → 1918-02-28 · 5.766 km²
+
+- nokta [40.556, 39.42], en büyük kesit 1918-02-24 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 100%
+- koridor: 16.5 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Gümüşhane (transkafkasya)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E053 · Papalık (`papalik`) · 1155-01-01 → 1809-05-17 · 5.706 km²
+
+- nokta [41.39, 14.778], en büyük kesit 1540-01-01 · kesit sayısı 19 · sınıf sayımı {'KARA-EKSKLAV': 2, 'ENKLAV': 5}
+- çevre: napoli 100%, sicilya-kralligi 62%
+- koridor: 72.3 km · napoli 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Benevento (papalik); Bovianum (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E054 · Papalık (`papalik`) · 1814-04-16 → 1861-03-17 · 5.706 km²
+
+- nokta [41.39, 14.778], en büyük kesit 1814-04-16 · kesit sayısı 8 · sınıf sayımı {'ENKLAV': 1}
+- çevre: napoli 100%
+- koridor: 71.3 km · napoli 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Benevento (papalik); Bovianum (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E055 · Osmanlı (`OSMANLI`) · 1448-01-01 → 1460-01-01 · 5.661 km²
+
+- nokta [44.05, 18.288], en büyük kesit 1459-03-07 · kesit sayısı 18 · sınıf sayımı {'ENKLAV': 7}
+- çevre: bosna 98%, macaristan 2%
+- koridor: 96.1 km · bosna 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Pale (sahipsiz); Saraybosna (OSMANLI); Visoko (OSMANLI); Vitez (sahipsiz)
+- koridor yerleşimleri: Foça (Foča) (bosna)
+- **HÜKÜM:** _bekliyor_
+
+### E056 · Osmanlı (`OSMANLI`) · 1913-05-30 → 1913-09-29 · 5.621 km²
+
+- nokta [41.719, 25.274], en büyük kesit 1913-07-21 · kesit sayısı 4 · sınıf sayımı {'ENKLAV': 3}
+- çevre: bulgaristan-kralligi 100%
+- koridor: 13.6 km · bulgaristan-kralligi 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Kırcaali (OSMANLI)
+- koridor yerleşimleri: Çirmen (bulgaristan-kralligi); Mustafapaşa (Svilengrad) (OSMANLI)
+- **HÜKÜM:** _bekliyor_
+
+### E057 · Britanya (`ingiltere`) · 1436-04-13 → 1439-01-01 · 5.446 km²
+
+- nokta [48.875, 3.127], en büyük kesit 1436-04-13 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: fransa 90%, burgonya 10%
+- koridor: 62.0 km · fransa 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Meaux (ingiltere)
+- koridor yerleşimleri: Paris (fransa); Senlis (fransa)
+- **HÜKÜM:** _bekliyor_
+
+### E058 · Lehistan-Litvanya (`lehistan`) · 1649-08-18 → 1654-01-18 · 5.438 km²
+
+- nokta [49.141, 33.654], en büyük kesit 1649-08-18 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: kazak-hetmanligi 92%, zaporojye 8%
+- koridor: 294.2 km · kazak-hetmanligi 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Kremençuk (lehistan)
+- koridor yerleşimleri: Lubnı (kazak-hetmanligi)
+- **HÜKÜM:** _bekliyor_
+
+### E059 · Rusya (`rusya`) · 1654-01-18 → 1764-11-21 · 5.421 km²
+
+- nokta [49.141, 33.649], en büyük kesit 1721-09-10 · kesit sayısı 76 · sınıf sayımı {'ENKLAV': 14, 'KARA-EKSKLAV': 59}
+- çevre: kazak-hetmanligi 92%, OSMANLI 35%, lehistan 35%
+- koridor: 51.2 km · lehistan 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Kremençuk (rusya)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E060 · Hafsîler (Tunus) (`hafsi`) · 1281-01-01 → 1519-09-01 · 4.920 km²
+
+- nokta [36.295, 6.727], en büyük kesit 1510-01-01 · kesit sayısı 6 · sınıf sayımı {'ENKLAV': 4}
+- çevre: zeyyani 100%
+- koridor: 43.5 km · zeyyani 9/9
+- içindeki yerleşimler (1, s.eksklav 1): Konstantin (hafsi)
+- koridor yerleşimleri: Sikikde (zeyyani)
+- **HÜKÜM:** _bekliyor_
+
+### E061 · Hafsîler (Tunus) (`hafsi`) · 1526-01-01 → 1527-01-01 · 4.920 km²
+
+- nokta [36.295, 6.727], en büyük kesit 1526-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 100%
+- koridor: 43.5 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 1): Konstantin (hafsi)
+- koridor yerleşimleri: Sikikde (OSMANLI)
+- **HÜKÜM:** _bekliyor_
+
+### E062 · Anadolu Selçukluları (`selcuklu`) · 1281-01-01 → 1308-01-01 · 4.605 km²
+
+- nokta [39.867, 41.064], en büyük kesit 1300-01-01 · kesit sayısı 7 · sınıf sayımı {'ENKLAV': 6}
+- çevre: ilhanli 100%
+- koridor: 96.6 km · ilhanli 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Erzurum (selcuklu)
+- koridor yerleşimleri: Bingöl (Çapakçur) (ilhanli)
+- **HÜKÜM:** _bekliyor_
+
+### E063 · Transkafkasya (Federasyon) (`transkafkasya`) · 1917-11-07 → 1918-04-25 · 4.436 km²
+
+- nokta [40.657, 42.984], en büyük kesit 1918-02-26 · kesit sayısı 11 · sınıf sayımı {'ENKLAV': 4}
+- çevre: sovyet-rusya 97%, OSMANLI 3%
+- koridor: 5.5 km · sovyet-rusya 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Kars (transkafkasya); Ardahan (transkafkasya)
+- koridor yerleşimleri: Arpaçay (Akyaka) (sovyet-rusya)
+- **HÜKÜM:** _bekliyor_
+
+### E064 · Bağımsız Hırvat Devleti (NDH) (`hirvatistan-bagimsiz`) · 1941-04-10 → 1945-04-22 · 4.229 km²
+
+- nokta [43.35, 17.749], en büyük kesit 1941-04-10 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: yugoslavya 92%
+- koridor: 105.6 km · yugoslavya 9/9
+- içindeki yerleşimler (3, s.eksklav 0): Çapljina (Čapljina) (sahipsiz); Mostar (hirvatistan-bagimsiz); Posušje (sahipsiz)
+- koridor yerleşimleri: Vitez (sahipsiz); Travnik (yugoslavya)
+- **HÜKÜM:** _bekliyor_
+
+### E065 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1753-04-01 → 1757-01-01 · 3.824 km²
+
+- nokta [22.715, 72.467], en büyük kesit 1756-01-01 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: maratha 97%, baroda 3%
+- koridor: 31.5 km · maratha 7/9, DENIZ/BOS 2/9
+- içindeki yerleşimler (2, s.eksklav 0): Lothal (sahipsiz); Dholka (babur-imparatorlugu)
+- koridor yerleşimleri: Kanbâyet (Khambhat) (maratha)
+- **HÜKÜM:** _bekliyor_
+
+### E066 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1918-10-30 → 1920-07-24 · 3.395 km²
+
+- nokta [37.002, 42.068], en büyük kesit 1918-11-19 · kesit sayısı 12 · sınıf sayımı {'ENKLAV': 1, 'KARA-EKSKLAV': 4}
+- çevre: OSMANLI 87%, ingiltere 54%
+- koridor: 14.7 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Malikiye (Derik) (fransa-cumhuriyet)
+- koridor yerleşimleri: Subat-Enlil (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E067 · İsviçre Konfederasyonu (`isvicre`) · 1918-11-12 → 2000-12-31 · 3.221 km²
+
+- nokta [46.8, 9.76], en büyük kesit 1923-10-29 · kesit sayısı 4 · sınıf sayımı {'ENKLAV': 3, 'DAR-AYRIM': 1}
+- çevre: avusturya-cumhuriyet 100%, italya 48%, liechtenstein 27%
+- koridor: 1.1 km · DENIZ/BOS 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Davos (isvicre); Chur (Coira) (isvicre)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E068 · Macaristan Krallığı (Habsburg Tacı) (`macaristan-habsburg`) · 1527-09-23 → 1529-09-08 · 3.164 km²
+
+- nokta [47.316, 19.21], en büyük kesit 1527-09-23 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: macaristan 88%, TABI 10%
+- koridor: 27.0 km · macaristan 9/9
+- içindeki yerleşimler (3, s.eksklav 0): Macaristan (sahipsiz); Peşte (macaristan-habsburg); Aquincum-Óbuda-Pest (macaristan-habsburg)
+- koridor yerleşimleri: Vaç (Vác) (macaristan)
+- **HÜKÜM:** _bekliyor_
+
+### E069 · Osmanlı (`OSMANLI`) · 1920-04-23 → 1923-10-29 · 3.071 km²
+
+- nokta [37.0, 39.163], en büyük kesit 1923-07-24 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 1, 'ENKLAV': 2}
+- çevre: tbmm-turkiye 90%, fransa-cumhuriyet 15%, suriye-lubnan-mandasi 10%
+- koridor: 119.5 km · tbmm-turkiye 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Harran (OSMANLI)
+- koridor yerleşimleri: Diyarbakır (tbmm-turkiye)
+- **HÜKÜM:** _bekliyor_
+
+### E070 · Brezilya Cumhuriyeti (`brezilya-cumhuriyeti`) · 1900-05-26 → 1923-10-29 · 2.719 km²
+
+- nokta [-28.209, -57.07], en büyük kesit 1914-10-02 · kesit sayısı 24 · sınıf sayımı {'ENKLAV': 22}
+- çevre: arjantin-cumhuriyeti 97%, paraguay-cumhuriyeti 1%
+- koridor: 53.2 km · arjantin-cumhuriyeti 8/9, paraguay-cumhuriyeti 1/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E071 · Osmanlı (`OSMANLI`) · 1920-04-23 → 1923-10-29 · 2.540 km²
+
+- nokta [38.587, 28.057], en büyük kesit 1920-07-01 · kesit sayısı 3 · sınıf sayımı {'ENKLAV': 2}
+- çevre: tbmm-turkiye 100%
+- koridor: 595.2 km · tbmm-turkiye 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Sart (OSMANLI)
+- koridor yerleşimleri: Niğde (tbmm-turkiye); Uşak (tbmm-turkiye); Ilgın (tbmm-turkiye); Yalvaç (tbmm-turkiye); Akşehir (tbmm-turkiye); İshaklı (tbmm-turkiye)
+- **HÜKÜM:** _bekliyor_
+
+### E072 · Karamanoğulları (`karaman`) · 1365-01-01 → 1366-01-01 · 2.537 km²
+
+- nokta [38.587, 34.629], en büyük kesit 1365-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: eretna 92%
+- koridor: 35.4 km · eretna 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Nevşehir (Muşkara) (karaman)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E073 · Transkafkasya (Federasyon) (`transkafkasya`) · 1918-02-19 → 1918-02-26 · 2.352 km²
+
+- nokta [39.816, 39.576], en büyük kesit 1918-02-19 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 100%
+- koridor: 16.4 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Erzincan (transkafkasya)
+- koridor yerleşimleri: Kelkit (OSMANLI)
+- **HÜKÜM:** _bekliyor_
+
+### E074 · Bağımsız Hırvat Devleti (NDH) (`hirvatistan-bagimsiz`) · 1941-04-10 → 1945-05-06 · 2.190 km²
+
+- nokta [43.906, 18.6], en büyük kesit 1944-10-18 · kesit sayısı 3 · sınıf sayımı {'ENKLAV': 2}
+- çevre: yugoslavya 99%
+- koridor: 17.2 km · yugoslavya 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Pale (sahipsiz); Saraybosna (hirvatistan-bagimsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E075 · İtalya (`italya`) · 1943-09-23 → 1945-04-28 · 1.950 km²
+
+- nokta [44.8, 10.715], en büyük kesit 1943-09-23 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: salo-cumhuriyeti 100%
+- koridor: 29.6 km · salo-cumhuriyeti 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Guastalla (italya)
+- koridor yerleşimleri: Canossa (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E076 · Sırp Cumhuriyeti (Republika Srpska) (`bosna-sirp-cumhuriyeti`) · 1992-01-09 → 1995-12-14 · 1.919 km²
+
+- nokta [43.934, 18.774], en büyük kesit 1992-01-09 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: bosna-hersek 99%
+- koridor: 32.5 km · bosna-hersek 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Pale (bosna-sirp-cumhuriyeti)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E077 · Konbaung Hanedanı (Birmanya) (`konbaung`) · 1752-01-01 → 1752-04-23 · 1.884 km²
+
+- nokta [22.331, 96.055], en büyük kesit 1752-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: toungoo 100%
+- koridor: 420.6 km · san-devletleri 7/9, toungoo 2/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Loikaw (san-devletleri); Kalaw (san-devletleri); Ava (İnwa) (toungoo)
+- **HÜKÜM:** _bekliyor_
+
+### E078 · Bağımsız Hırvat Devleti (NDH) (`hirvatistan-bagimsiz`) · 1941-04-10 → 1945-05-06 · 1.689 km²
+
+- nokta [45.838, 16.545], en büyük kesit 1945-04-22 · kesit sayısı 3 · sınıf sayımı {'ENKLAV': 3}
+- çevre: yugoslavya 100%
+- koridor: 230.8 km · yugoslavya 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Zagreb (hirvatistan-bagimsiz)
+- koridor yerleşimleri: Hırvatistan (sahipsiz); Sisak (yugoslavya); Posušje (sahipsiz); Delminium (sahipsiz); Yayça (Jajce) (yugoslavya); Bosna Dubiçası (Bosanska Dubica) (yugoslavya); Kostayniçe (Kostajnica) (yugoslavya)
+- **HÜKÜM:** _bekliyor_
+
+### E079 · Sırp Krajina Cumhuriyeti (RSK; fiilî) (`sirp-krajina-cumhuriyeti`) · 1991-12-19 → 1995-08-05 · 1.683 km²
+
+- nokta [45.389, 16.014], en büyük kesit 1991-12-19 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: hirvatistan 86%, bosna-hersek 14%
+- koridor: 89.0 km · bosna-hersek 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Glina (sirp-krajina-cumhuriyeti)
+- koridor yerleşimleri: Ostrovica (Stara Ostrovica, Kulen Vakuf) (bosna-hersek); Bihaç (Bihać) (bosna-hersek); Krupa (Bosanska Krupa) (bosna-hersek)
+- **HÜKÜM:** _bekliyor_
+
+### E080 · İspanya (`ispanya`) · 1531-04-16 → 1535-04-17 · 1.534 km²
+
+- nokta [18.752, -98.555], en büyük kesit 1533-01-01 · kesit sayısı 10 · sınıf sayımı {'ENKLAV': 4}
+- çevre: yeni-ispanya-ilk-donem 100%
+- koridor: 21.4 km · yeni-ispanya-ilk-donem 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Cholula (ispanya)
+- koridor yerleşimleri: Tepeaca (ispanya); Puebla de los Ángeles (yeni-ispanya-ilk-donem); Huexotzinco (Huejotzingo) (yeni-ispanya-ilk-donem); Cacaxtla (sahipsiz); Tlaxcala (yeni-ispanya-ilk-donem)
+- **HÜKÜM:** _bekliyor_
+
+### E081 · Herzeg-Bosna (Hırvat Topluluğu 1991 → Hırvat Cumhuriyeti 1993-08-28) (`herzeg-bosna`) · 1991-11-18 → 1996-08-14 · 1.489 km²
+
+- nokta [44.225, 17.923], en büyük kesit 1991-11-18 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: yugoslavya 100%
+- koridor: 16.4 km · yugoslavya 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Vitez (herzeg-bosna)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E082 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1831-01-04 → 1841-05-30 · 1.430 km²
+
+- nokta [35.425, -0.541], en büyük kesit 1831-01-04 · kesit sayısı 10 · sınıf sayımı {'ENKLAV': 10}
+- çevre: TABI 96%, abdulkadir 96%
+- koridor: 19.0 km · abdulkadir 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E083 · İspanya (`ispanya`) · 1509-05-17 → 1708-04-04 · 1.430 km²
+
+- nokta [35.425, -0.541], en büyük kesit 1535-01-18 · kesit sayısı 167 · sınıf sayımı {'ENKLAV': 99}
+- çevre: zeyyani 96%, OSMANLI 96%, TABI 96%
+- koridor: 184.6 km · DENIZ/BOS 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Oran (ispanya); Mersa'l-Kebîr (ispanya); Mojácar (ispanya)
+- **HÜKÜM:** _bekliyor_
+
+### E084 · İspanya (`ispanya`) · 1732-07-01 → 1792-09-12 · 1.430 km²
+
+- nokta [35.425, -0.541], en büyük kesit 1732-07-01 · kesit sayısı 39 · sınıf sayımı {'ENKLAV': 39}
+- çevre: TABI 96%
+- koridor: 184.6 km · DENIZ/BOS 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Oran (ispanya); Mersa'l-Kebîr (ispanya); Mojácar (ispanya)
+- **HÜKÜM:** _bekliyor_
+
+### E085 · Bağımsız Hırvat Devleti (NDH) (`hirvatistan-bagimsiz`) · 1941-04-10 → 1945-05-06 · 1.407 km²
+
+- nokta [44.722, 19.157], en büyük kesit 1944-10-18 · kesit sayısı 3 · sınıf sayımı {'ENKLAV': 2}
+- çevre: yugoslavya 100%
+- koridor: 52.2 km · yugoslavya 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Bijeljina (hirvatistan-bagimsiz)
+- koridor yerleşimleri: İzvornik (Zvornik) (yugoslavya); Tuzla (Bosna) (yugoslavya)
+- **HÜKÜM:** _bekliyor_
+
+### E086 · Osmanlı (`OSMANLI`) · 1664-06-14 → 1685-08-19 · 1.287 km²
+
+- nokta [48.02, 18.051], en büyük kesit 1683-10-27 · kesit sayısı 17 · sınıf sayımı {'ENKLAV': 9}
+- çevre: macaristan-habsburg 100%
+- koridor: 19.0 km · macaristan-habsburg 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Uyvar (OSMANLI)
+- koridor yerleşimleri: Komárom (Komárno) (macaristan-habsburg)
+- **HÜKÜM:** _bekliyor_
+
+### E087 · Osmanlı (`OSMANLI`) · 1534-09-22 → 1535-07-21 · 1.233 km²
+
+- nokta [36.805, 9.979], en büyük kesit 1534-09-22 · kesit sayısı 4 · sınıf sayımı {'ENKLAV': 2}
+- çevre: hafsi 96%
+- koridor: 148.7 km · hafsi 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Tunus (OSMANLI)
+- koridor yerleşimleri: Mekter (Maktar) (hafsi); Testûr (hafsi)
+- **HÜKÜM:** _bekliyor_
+
+### E088 · Nijerya Federasyonu (Cumhuriyet 1963-10-01) (`nijerya`) · 1967-05-30 → 1970-01-15 · 1.003 km²
+
+- nokta [5.406, 7.299], en büyük kesit 1967-05-30 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: biafra 100%
+- koridor: 16.7 km · biafra 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Aroçukvu (nijerya)
+- koridor yerleşimleri: Owerri (biafra)
+- **HÜKÜM:** _bekliyor_
+
+### E089 · Memlûk (`memluk`) · 1516-09-27 → 1516-10-01 · 986 km²
+
+- nokta [33.614, 35.645], en büyük kesit 1516-09-27 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 92%
+- koridor: 123.0 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Deyrülkamer (Dayr al-Kamer) (memluk)
+- koridor yerleşimleri: Câbiye (sahipsiz); Ain Mallaha (Eynan) (sahipsiz); Akrabâ (‘Aqrabā) (sahipsiz); Banyas (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E090 · Sırp Krajina Cumhuriyeti (RSK; fiilî) (`sirp-krajina-cumhuriyeti`) · 1995-08-05 → 1995-08-07 · 918 km²
+
+- nokta [44.065, 15.701], en büyük kesit 1995-08-05 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: hirvatistan 93%
+- koridor: 95.3 km · bosna-hersek 6/9, hirvatistan 3/9
+- içindeki yerleşimler (1, s.eksklav 0): Benkovac (sirp-krajina-cumhuriyeti)
+- koridor yerleşimleri: Glina (sirp-krajina-cumhuriyeti); Udbina (hirvatistan); Ostrovica (Stara Ostrovica, Kulen Vakuf) (bosna-hersek); Bihaç (Bihać) (bosna-hersek); Krupa (Bosanska Krupa) (bosna-hersek)
+- **HÜKÜM:** _bekliyor_
+
+### E091 · Yunanistan Geçici Demokratik Hükûmeti (Markos, iç savaş) (`yunanistan-gecici-demokratik-hukumet`) · 1947-12-24 → 1949-08-28 · 900 km²
+
+- nokta [40.553, 21.452], en büyük kesit 1947-12-24 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: yunanistan 100%
+- koridor: 23.3 km · yunanistan 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Vitsi (Grammos-Vitsi, DSE üssü) (yunanistan-gecici-demokratik-hukumet)
+- koridor yerleşimleri: Görice (Korçë) (arnavutluk-halk-cumhuriyeti); Grammos (DSE üssü) (yunanistan-gecici-demokratik-hukumet); Kesriye (Kastoria) (yunanistan); Filorina (Florina) (yunanistan)
+- **HÜKÜM:** _bekliyor_
+
+### E092 · Gurcistan Demokratik Cumhuriyeti (`gurcistan-demokratik-cumhuriyeti`) · 1919-04-20 → 1920-04-01 · 857 km²
+
+- nokta [41.213, 42.24], en büyük kesit 1919-04-20 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: ingiltere 99%
+- koridor: 7.4 km · DENIZ/BOS 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Şavşat (ingiltere); Saylıca (gurcistan-demokratik-cumhuriyeti); Makhalak’auri (ingiltere); Hulo (Acara) (ingiltere)
+- **HÜKÜM:** _bekliyor_
+
+### E093 · İsviçre Konfederasyonu (`isvicre`) · 1500-04-14 → 1503-01-01 · 758 km²
+
+- nokta [46.414, 9.04], en büyük kesit 1500-04-14 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: milanoduka 100%
+- koridor: 7.5 km · milanoduka 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Bellinzona (isvicre)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E094 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1912-01-01 → 1923-10-29 · 580 km²
+
+- nokta [4.482, 27.154], en büyük kesit 1912-01-01 · kesit sayısı 29 · sınıf sayımı {'ENKLAV': 16}
+- çevre: belcika 96%, ingiliz-sudani 2%
+- koridor: 40.6 km · belcika 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E095 · Osmanlı (`OSMANLI`) · 1918-10-06 → 1920-07-01 · 566 km²
+
+- nokta [32.728, 35.598], en büyük kesit 1918-11-08 · kesit sayısı 17 · sınıf sayımı {'KARA-EKSKLAV': 2, 'ENKLAV': 4}
+- çevre: ingiltere 100%
+- koridor: 466.8 km · DENIZ/BOS 7/9, fransa-cumhuriyet 2/9
+- içindeki yerleşimler (1, s.eksklav 0): Tiberya (Tabariyye / Tiberias) (OSMANLI)
+- koridor yerleşimleri: Ain Mallaha (Eynan) (sahipsiz); Banyas (sahipsiz); Sayda (fransa-cumhuriyet); Deyrülkamer (Dayr al-Kamer) (fransa-cumhuriyet); Beyrut (fransa-cumhuriyet); Gubla (Byblos) (sahipsiz); Trablusşam (fransa-cumhuriyet); Tartus (sahipsiz); Cebele (Jablah) (sahipsiz); Lazkiye (Latakia) (sahipsiz) … +4
+- **HÜKÜM:** _bekliyor_
+
+### E096 · Macaristan Krallığı (Habsburg Tacı) (`macaristan-habsburg`) · 1689-09-11 → 1689-09-16 · 544 km²
+
+- nokta [43.955, 21.226], en büyük kesit 1689-09-11 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 100%
+- koridor: 11.1 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Yagodina (Jagodina) (macaristan-habsburg)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E097 · Osmanlı (`OSMANLI`) · 1303-01-01 → 1321-04-01 · 523 km²
+
+- nokta [40.103, 28.866], en büyük kesit 1305-01-01 · kesit sayısı 4 · sınıf sayımı {'ENKLAV': 4}
+- çevre: bizans 100%
+- koridor: 8.4 km · bizans 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Kite (Kete) (OSMANLI)
+- koridor yerleşimleri: Adranos (Orhaneli) (bizans); Dimbos (OSMANLI); Bursa (bizans); Kestel (OSMANLI)
+- **HÜKÜM:** _bekliyor_
+
+### E098 · Bizans (`bizans`) · 1323-09-01 → 1326-04-06 · 326 km²
+
+- nokta [40.175, 29.037], en büyük kesit 1326-01-01 · kesit sayısı 4 · sınıf sayımı {'ENKLAV': 4}
+- çevre: OSMANLI 100%
+- koridor: 8.5 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Bursa (bizans)
+- koridor yerleşimleri: Kite (Kete) (OSMANLI); Gölyazı (Apollonia) (bizans); Kestel (OSMANLI); Mudanya (OSMANLI)
+- **HÜKÜM:** _bekliyor_
+
+### E099 · Maratha Konfederasyonu (`maratha`) · 1803-08-12 → 1818-01-01 · 266 km²
+
+- nokta [19.325, 73.881], en büyük kesit 1817-01-01 · kesit sayısı 9 · sınıf sayımı {'ENKLAV': 5}
+- çevre: ingiliz-hindistani 99%
+- koridor: 2.7 km · ingiliz-hindistani 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E100 · Polonya Cumhuriyeti (`polonya`) · 1919-08-27 → 1923-10-29 · 265 km²
+
+- nokta [47.826, 24.974], en büyük kesit 1919-08-27 · kesit sayısı 8 · sınıf sayımı {'ENKLAV': 2}
+- çevre: romanya-kralligi 100%
+- koridor: 39.2 km · romanya-kralligi 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E101 · İngiliz Sudanı (Anglo-Mısır Kondominyumu) (`ingiliz-sudani`) · 1910-06-16 → 1923-10-29 · 215 km²
+
+- nokta [4.027, 26.871], en büyük kesit 1919-09-08 · kesit sayısı 5 · sınıf sayımı {'KARA-EKSKLAV': 2, 'ENKLAV': 1}
+- çevre: belcika 92%, zende 67%, fransa-cumhuriyet 8%
+- koridor: 77.8 km · belcika 8/9, fransa-cumhuriyet 1/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E102 · İsviçre Konfederasyonu (`isvicre`) · 1862-12-08 → 1923-10-29 · 205 km²
+
+- nokta [46.378, 5.572], en büyük kesit 1862-12-08 · kesit sayısı 10 · sınıf sayımı {'ENKLAV': 1}
+- çevre: fransa-cumhuriyet 100%
+- koridor: 17.5 km · fransa-cumhuriyet 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E103 · Bizans (`bizans`) · 1299-01-01 → 1313-01-01 · 185 km²
+
+- nokta [40.059, 29.976], en büyük kesit 1303-01-01 · kesit sayısı 10 · sınıf sayımı {'ENKLAV': 4}
+- çevre: OSMANLI 100%
+- koridor: 14.0 km · OSMANLI 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Bozüyük (OSMANLI); Ermeni Derbendi (OSMANLI); Pazaryeri (OSMANLI); Söğüt (OSMANLI); Harmankaya (bizans); Bilecik (OSMANLI); Lefke (Osmaneli) (bizans); Leblebicihisar (bizans); Absu (Hypsu) (bizans)
+- **HÜKÜM:** _bekliyor_
+
+### E104 · İspanya (`ispanya`) · 1564-01-01 → 1673-01-01 · 174 km²
+
+- nokta [34.82, -4.056], en büyük kesit 1565-01-01 · kesit sayısı 63 · sınıf sayımı {'ENKLAV': 4}
+- çevre: sadi 100%
+- koridor: 41.0 km · sadi 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Nekor (Temsaman yöresi) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E105 · Memlûk (`memluk`) · 1516-10-01 → 1516-12-21 · 169 km²
+
+- nokta [31.855, 35.116], en büyük kesit 1516-10-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: OSMANLI 99%
+- koridor: 18.8 km · OSMANLI 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Gibea (sahipsiz)
+- koridor yerleşimleri: Hebron (sahipsiz); Betar (Battir) (sahipsiz); Kudüs (OSMANLI); Ramallah (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E106 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1759-01-01 → 1760-01-01 · 157 km²
+
+- nokta [19.361, 73.899], en büyük kesit 1759-01-01 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 2}
+- çevre: maratha 99%
+- koridor: 2.7 km · maratha 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E107 · Avusturya Cumhuriyeti (I. Cumhuriyet) (`avusturya-cumhuriyet`) · 1919-01-01 → 1920-07-16 · 156 km²
+
+- nokta [48.529, 16.771], en büyük kesit 1920-06-04 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 2, 'ENKLAV': 1}
+- çevre: cekoslovakya 100%, macaristan-naiplik 51%
+- koridor: 9.6 km · cekoslovakya 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E108 · Karnatik Nevablığı (`karnatik`) · 1763-01-01 → 1801-07-31 · 145 km²
+
+- nokta [12.63, 79.381], en büyük kesit 1763-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: ingiliz-hindistani 100%
+- koridor: 7.8 km · ingiliz-hindistani 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Kançipuram (Kanchipuram) (ingiliz-hindistani)
+- **HÜKÜM:** _bekliyor_
+
+### E109 · Paraguay Cumhuriyeti (`paraguay-cumhuriyeti`) · 1872-03-26 → 1915-11-11 · 144 km²
+
+- nokta [-21.662, -57.466], en büyük kesit 1900-01-17 · kesit sayısı 9 · sınıf sayımı {'ENKLAV': 5}
+- çevre: brezilya-imparatorlugu 100%, brezilya-cumhuriyeti 100%
+- koridor: 13.6 km · brezilya-cumhuriyeti 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E110 · İspanya (`ispanya`) · 1866-11-04 → 1923-10-29 · 106 km²
+
+- nokta [38.912, -7.501], en büyük kesit 1899-11-17 · kesit sayısı 14 · sınıf sayımı {'ENKLAV': 8}
+- çevre: portekiz 100%
+- koridor: 24.5 km · portekiz 7/9, KENDI 2/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E111 · Kaçar Hanedanı (İran) (`kacar`) · 1812-01-01 → 1925-10-31 · 97 km²
+
+- nokta [30.53, 47.753], en büyük kesit 1812-01-01 · kesit sayısı 14 · sınıf sayımı {'DAR-AYRIM': 9, 'ENKLAV': 1}
+- çevre: irak-kralligi 100%, OSMANLI 77%, ingiltere 77%
+- koridor: 0.1 km · irak-kralligi 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Basra (OSMANLI)
+- koridor yerleşimleri: Eski Basra (Zübeyr) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E112 · Britanya (`ingiltere`) · 1420-05-21 → 1422-01-01 · 93 km²
+
+- nokta [48.34, 3.185], en büyük kesit 1420-05-21 · kesit sayısı 2 · sınıf sayımı {'ENKLAV': 1}
+- çevre: fransa 100%
+- koridor: 3.3 km · fransa 5/9, DENIZ/BOS 4/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E113 · Sovyet Rusya (`sovyet-rusya`) · 1918-01-04 → 1920-12-31 · 83 km²
+
+- nokta [63.502, 30.584], en büyük kesit 1918-04-08 · kesit sayısı 40 · sınıf sayımı {'ENKLAV': 10}
+- çevre: finlandiya 100%
+- koridor: 42.1 km · finlandiya 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E114 · Kutsal Roma / Almanya (`almanya`) · 1129-01-01 → 1180-01-01 · 82 km²
+
+- nokta [46.75, 15.835], en büyük kesit 1129-01-01 · kesit sayısı 5 · sınıf sayımı {'ENKLAV': 4}
+- çevre: macaristan 100%
+- koridor: 3.1 km · macaristan 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Maribor (Marburg) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E115 · Kutsal Roma / Almanya (`almanya`) · 1276-11-21 → 1281-01-01 · 82 km²
+
+- nokta [46.75, 15.835], en büyük kesit 1276-11-21 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: macaristan 95%
+- koridor: 3.1 km · macaristan 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Maribor (Marburg) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### E116 · Ming Hanedanı (`ming-hanedani`) · 1382-01-06 → 1382-01-15 · 79 km²
+
+- nokta [24.212, 101.904], en büyük kesit 1382-01-06 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: kuzey-yuan 100%
+- koridor: 30.1 km · kuzey-yuan 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E117 · Karamanoğulları (`karaman`) · 1365-01-01 → 1366-01-01 · 78 km²
+
+- nokta [39.001, 34.044], en büyük kesit 1365-01-01 · kesit sayısı 1 · sınıf sayımı {'ENKLAV': 1}
+- çevre: eretna 98%
+- koridor: 1.7 km · eretna 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: Kırşehir (eretna)
+- **HÜKÜM:** _bekliyor_
+
+### E118 · İspanya (`ispanya`) · 1866-11-04 → 1923-10-29 · 70 km²
+
+- nokta [38.931, -7.26], en büyük kesit 1898-12-10 · kesit sayısı 14 · sınıf sayımı {'ENKLAV': 9}
+- çevre: portekiz 99%
+- koridor: 6.8 km · portekiz 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E119 · Amerika Birleşik Devletleri (`abd`) · 1846-06-15 → 1877-10-05 · 68 km²
+
+- nokta [45.958, -117.13], en büyük kesit 1848-05-30 · kesit sayısı 42 · sınıf sayımı {'ENKLAV': 12}
+- çevre: nez-perce 97%
+- koridor: 1.5 km · nez-perce 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E120 · İtalya (`italya`) · 1918-11-12 → 1923-10-29 · 58 km²
+
+- nokta [46.805, 10.257], en büyük kesit 1918-11-12 · kesit sayısı 6 · sınıf sayımı {'ENKLAV': 6}
+- çevre: isvicre 99%, avusturya-cumhuriyet 0%
+- koridor: 4.2 km · DENIZ/BOS 9/9
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### E121 · İsviçre Konfederasyonu (`isvicre`) · 1815-06-09 → 1923-10-29 · 50 km²
+
+- nokta [46.075, 9.475], en büyük kesit 1815-06-09 · kesit sayısı 17 · sınıf sayımı {'KARA-EKSKLAV': 6, 'ENKLAV': 11}
+- çevre: italya 100%, avusturya 85%, sardinya 85%
+- koridor: ? km · 
+- içindeki yerleşimler (0, s.eksklav 0): —
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+## ② KARA-EKSKLAV — koridorda yabancı kara (alanı en büyük 100)
+
+### K001 · İtalya (`italya`) · 1936-06-01 → 1941-11-30 · 920.610 km²
+
+- nokta [28.107, 16.077], en büyük kesit 1941-04-01 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: misir-kralligi 9%, fransa-cumhuriyet 4%
+- koridor: 2025.3 km · ingiliz-sudani 5/9, DENIZ/BOS 4/9
+- içindeki yerleşimler (45, s.eksklav 32): Ramletü Murzuk (sahipsiz); Gât (italya); İdehân Ubârî (sahipsiz); İdehân Murzuk (sahipsiz); el-Katrûn (italya); Ramletü Zellâf (sahipsiz); Murzuk (Fizan) (italya); Tırgan (Traghan) (italya) … +37
+- koridor yerleşimleri: Esh-Shaheinab (sahipsiz); Kortî (ingiliz-sudani); Dongola (ingiliz-sudani); Kerma (ingiliz-sudani)
+- **HÜKÜM:** _bekliyor_
+
+### K002 · Britanya (`ingiltere`) · 1897-01-01 → 1960-10-01 · 867.291 km²
+
+- nokta [9.111, 8.804], en büyük kesit 1916-06-06 · kesit sayısı 105 · sınıf sayımı {'KARA-EKSKLAV': 25}
+- çevre: fransa-cumhuriyet 56%, sokoto 31%, jukun-kvararafa 22%
+- koridor: 2406.0 km · fransa-cumhuriyet 4/9, belcika 4/9, portekiz 1/9
+- içindeki yerleşimler (29, s.eksklav 0): Aba (Nijerya) (sahipsiz); Aroçukvu (ingiltere); Owerri (sahipsiz); Umuahia (sahipsiz); Igbo-Ukwu (ingiliz-nijerya); Onitsha (ingiltere); Nri (Agukwu Nri) (ingiliz-nijerya); Eski Kalabar (ingiltere) … +21
+- koridor yerleşimleri: Sandoa (belcika-kongo)
+- **HÜKÜM:** _bekliyor_
+
+### K003 · Portekiz (`portekiz`) · 1902-01-01 → 1974-09-20 · 728.282 km²
+
+- nokta [-19.047, 34.173], en büyük kesit 1922-07-20 · kesit sayısı 22 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: ingiltere 41%, guney-afrika-birligi 6%, ingiliz-svaziland 4%
+- koridor: 931.5 km · ingiltere 9/9
+- içindeki yerleşimler (17, s.eksklav 0): Angoche (portekiz-mozambik); Mozambik Adası (portekiz-mozambik); Montepuez (portekiz-mozambik); İbo (Kerimba) (portekiz-mozambik); Mosimboa (portekiz-mozambik); Lourenço Marques (portekiz-mozambik); Mabalane (portekiz-mozambik); Cikualakuala (portekiz-mozambik) … +9
+- koridor yerleşimleri: Kasempa (ingiltere)
+- **HÜKÜM:** _bekliyor_
+
+### K004 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1960-08-11 → 1960-08-17 · 608.753 km²
+
+- nokta [-1.121, 13.494], en büyük kesit 1960-08-13 · kesit sayısı 3 · sınıf sayımı {'DAR-AYRIM': 1, 'KARA-EKSKLAV': 1}
+- çevre: kamerun 42%, kongo-kinsasa 18%, orta-afrika-cumhuriyeti 2%
+- koridor: 2682.5 km · ingiltere 3/9, nijer 3/9, kamerun 1/9, DENIZ/BOS 1/9, KENDI 1/9
+- içindeki yerleşimler (16, s.eksklav 0): Puent-Nuar (fransa-cumhuriyet); Loango (Buali) (fransa-cumhuriyet); Cibanga (fransa-cumhuriyet); Muila (Mouila) (fransa-cumhuriyet); Ogooué havzası (fransa-cumhuriyet); Lambarene (fransa-cumhuriyet); Librevil (Libreville) (fransa-cumhuriyet); Sibiti (fransa-cumhuriyet) … +8
+- koridor yerleşimleri: Bauci (Bauchi) (ingiltere); Hoggar (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K005 · Britanya (`ingiltere`) · 1914-11-22 → 1963-12-12 · 585.911 km²
+
+- nokta [0.909, 37.14], en büyük kesit 1962-08-31 · kesit sayısı 73 · sınıf sayımı {'KARA-EKSKLAV': 7, 'DAR-AYRIM': 15}
+- çevre: ingiliz-uganda-himayesi 61%, somali-cumhuriyeti 9%, tanganika 8%
+- koridor: 804.3 km · tanganika 9/9
+- içindeki yerleşimler (19, s.eksklav 0): Maçakos (ingiltere); Kitui (ingiltere); Garissa (ingiltere); İsiolo (ingiltere); Vacir (Wajir) (ingiltere); Marsabit (ingiltere); Mbarara (Nkore) (ingiltere); Hoima (Bunyoro) (ingiltere) … +11
+- koridor yerleşimleri: Babati (tanganika)
+- **HÜKÜM:** _bekliyor_
+
+### K006 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1817-01-01 → 1960-06-26 · 567.988 km²
+
+- nokta [-18.707, 46.721], en büyük kesit 1900-01-01 · kesit sayısı 146 · sınıf sayımı {'ADA': 21, 'KARA-EKSKLAV': 5}
+- çevre: antandroy 17%
+- koridor: 3414.2 km · kongo-serbest-devleti 4/9, ingiltere 2/9, DENIZ/BOS 1/9, portekiz 1/9, alman-dogu-afrikasi 1/9
+- içindeki yerleşimler (20, s.eksklav 0): Ambovombe (Antandroy) (fransa-cumhuriyet); İhosy (Bara) (fransa-cumhuriyet); Vohipeno (Antemoro) (fransa-cumhuriyet); Fianarantsoa (fransa-cumhuriyet); Mananjary (fransa-cumhuriyet); Ambositra (fransa-cumhuriyet); Antsirabe (fransa-cumhuriyet); Antananarivo (fransa-cumhuriyet) … +12
+- koridor yerleşimleri: Tunduru (ingiltere); Njombe (ingiltere); Basankusu (kongo-serbest-devleti)
+- **HÜKÜM:** _bekliyor_
+
+### K007 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1818-01-01 → 1893-01-01 · 459.908 km²
+
+- nokta [13.927, -11.871], en büyük kesit 1891-01-01 · kesit sayısı 63 · sınıf sayımı {'KARA-EKSKLAV': 33}
+- çevre: moritanya-emirlikleri 37%, bundu 36%, futa-toro 29%
+- koridor: 3001.9 km · DENIZ/BOS 3/9, ispanya 3/9, fas 2/9, moritanya-emirlikleri 1/9
+- içindeki yerleşimler (19, s.eksklav 0): Dingiray (Dinguiraye) (fransa-cumhuriyet); Kangaba (fransa-cumhuriyet); Kirina (Mali) (sahipsiz); Bamako (fransa-cumhuriyet); Kita (fransa-cumhuriyet); Kahone (Salum) (fransa-cumhuriyet); Diahav (Sine) (fransa-cumhuriyet); Bulebane (Bundu) (fransa-cumhuriyet) … +11
+- koridor yerleşimleri: Tâze (Taza) (fas); Nekor (Temsaman yöresi) (sahipsiz); el-Hüseyme (Alhucemas) (ispanya); Motril (ispanya); Cuenca (ispanya); Pamplona (ispanya)
+- **HÜKÜM:** _bekliyor_
+
+### K008 · Amerika Birleşik Devletleri (`abd`) · 1817-01-01 → 1856-01-01 · 442.493 km²
+
+- nokta [44.85, -100.807], en büyük kesit 1851-11-13 · kesit sayısı 40 · sınıf sayımı {'KARA-EKSKLAV': 6, 'ADA': 3}
+- çevre: pavni 18%, mandan 11%, lakota 4%
+- koridor: 90.4 km · pavni 7/9, DENIZ/BOS 2/9
+- içindeki yerleşimler (11, s.eksklav 0): Cheyenne (Wyoming) (sahipsiz); Fort Laramie (abd); Büyük Ovalar (orta kesim) (sahipsiz); Fort Pierre (Arikara/Lakota) (abd); Fort Fetterman (Powder Irmağı) (sahipsiz); Crow Agency (Apsáalooke) (abd); Miles City (Tongue Irmağı) (sahipsiz); Fort Benton (abd) … +3
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K009 · Çin Cumhuriyeti (`cin-cumhuriyeti`) · 1932-03-09 → 1945-08-17 · 420.760 km²
+
+- nokta [47.056, 126.663], en büyük kesit 1939-02-10 · kesit sayısı 6 · sınıf sayımı {'KARA-EKSKLAV': 4}
+- çevre: sovyet-rusya 14%, mancukuo 11%, meiji-japonya 1%
+- koridor: 95.8 km · mancukuo 9/9
+- içindeki yerleşimler (8, s.eksklav 0): Cilin (Jilin) (cin-cumhuriyeti); Dongjingcheng (Sanggyeong / Shangjing Longquanfu) (sahipsiz); Ningguta (cin-cumhuriyeti); Harbin (cin-cumhuriyeti); Sanxing (Yilan) (cin-cumhuriyeti); Qiqihar (cin-cumhuriyeti); Mergen (Nenjiang) (cin-cumhuriyeti); Aigun (cin-cumhuriyeti)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K010 · Yuan Hanedanı (Moğol Çin) (`yuan-hanedani`) · 1368-01-23 → 1368-06-29 · 420.134 km²
+
+- nokta [23.706, 110.976], en büyük kesit 1368-01-23 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: ming-hanedani 11%, tran-hanedani 4%
+- koridor: 747.2 km · ming-hanedani 6/9, DENIZ/BOS 3/9
+- içindeki yerleşimler (14, s.eksklav 0): Leizhou (yuan-hanedani); Beihai (Pakhoi) (yuan-hanedani); Makao (Macau) (yuan-hanedani); Hong Kong (sahipsiz); Nanning (yuan-hanedani); Kanton (Guangzhou) (yuan-hanedani); Zhangzhou (yuan-hanedani); Zeytun (Quanzhou) (yuan-hanedani) … +6
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K011 · Amerika Birleşik Devletleri (`abd`) · 1778-05-27 → 1788-12-28 · 372.332 km²
+
+- nokta [36.09, -86.895], en büyük kesit 1783-09-03 · kesit sayısı 6 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: ingiltere 28%, yeni-ispanya 18%, cherokee 16%
+- koridor: 155.0 km · creek-konfederasyonu 9/9
+- içindeki yerleşimler (7, s.eksklav 0): Moundville (abd); Etowah (abd); French Lick (Nashville) (abd); Kaskaskia (abd); Louisville (abd); Cahokia (sahipsiz); Vincennes (Poste Vincennes) (abd)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K012 · Fransa Cumhuriyeti (`fransa-cumhuriyet`) · 1897-01-01 → 1903-01-01 · 369.392 km²
+
+- nokta [11.973, 18.096], en büyük kesit 1902-01-01 · kesit sayısı 16 · sınıf sayımı {'KARA-EKSKLAV': 7}
+- çevre: kanem-tubu 24%, darul-kuti 24%, kanem-bornu 16%
+- koridor: 259.1 km · kanem-tubu 9/9
+- içindeki yerleşimler (6, s.eksklav 0): Massenya (fransa-cumhuriyet); Ndjamena (fransa-cumhuriyet); Mao (Kanem) (fransa-cumhuriyet); Sarh (Fort-Archambault) (fransa-cumhuriyet); Am Timan (fransa-cumhuriyet); Mongo (fransa-cumhuriyet)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K013 · İngiliz Hindistanı (Şirket ve Taç Dönemi) (`ingiliz-hindistani`) · 1759-04-08 → 1803-10-14 · 365.531 km²
+
+- nokta [14.116, 75.598], en büyük kesit 1803-09-11 · kesit sayısı 25 · sınıf sayımı {'KARA-EKSKLAV': 12}
+- çevre: haydarabad-nizam 54%, meysur-racaligi 18%, karnatik 15%
+- koridor: 405.8 km · maratha 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (24, s.eksklav 1): Kolam (Quilon) (ingiliz-hindistani); Madurai (ingiliz-hindistani); Koçin (Kochi) (ingiliz-hindistani); Nagapatnam (ingiliz-hindistani); Tancûr (Thanjavur) (ingiliz-hindistani); Trichinopoly (Tiruchirappalli) (ingiliz-hindistani); Kalikut (Kozhikode) (ingiliz-hindistani); Cinci (Gingee) (ingiliz-hindistani) … +16
+- koridor yerleşimleri: Sonepur (Subarnapur) (sahipsiz); Sambalpur (maratha)
+- **HÜKÜM:** _bekliyor_
+
+### K014 · Amerika Birleşik Devletleri (`abd`) · 1846-06-15 → 2000-12-31 · 362.137 km²
+
+- nokta [45.237, -120.87], en büyük kesit 1867-10-18 · kesit sayısı 82 · sınıf sayımı {'KARA-EKSKLAV': 12}
+- çevre: nez-perce 19%, sahaptin 13%, ingiliz-kuzey-amerika 12%
+- koridor: 83.7 km · sosoni 9/9
+- içindeki yerleşimler (9, s.eksklav 0): Fort Klamath / Klamath Bataklığı (abd); Fort Harney (Harney Havzası, Payut) (abd); Boise (Fort Boise) (abd); Fort Vancouver (abd); Wayám (Celilo Şelâleleri) (abd); Fort Nez Percés (Walla Walla) (abd); Seattle (Duwamish) (abd); Spokane House (abd) … +1
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K015 · Britanya (`ingiltere`) · 1916-05-23 → 1923-10-29 · 333.051 km²
+
+- nokta [12.732, 24.054], en büyük kesit 1921-08-23 · kesit sayısı 40 · sınıf sayımı {'KARA-EKSKLAV': 25}
+- çevre: ingiliz-sudani 48%, fransa-cumhuriyet 41%, darfur 11%
+- koridor: 715.2 km · fransa-cumhuriyet 9/9
+- içindeki yerleşimler (15, s.eksklav 0): Radom (ingiltere); Burâm (ingiltere); Ed-Da'în (ingiltere); Nyala (ingiltere); Şa'riyye (ingiltere); Ümmü Keddâde (ingiltere); El-Fâşir (ingiltere); Mellît (ingiltere) … +7
+- koridor yerleşimleri: Ndjamena (fransa-cumhuriyet); Mongo (fransa-cumhuriyet)
+- **HÜKÜM:** _bekliyor_
+
+### K016 · Britanya (`ingiltere`) · 1914-11-06 → 1923-10-29 · 331.825 km²
+
+- nokta [33.576, 43.573], en büyük kesit 1918-11-08 · kesit sayısı 54 · sınıf sayımı {'KARA-EKSKLAV': 23}
+- çevre: OSMANLI 39%, kacar 34%, kuveyt 15%
+- koridor: 2406.7 km · DENIZ/BOS 3/9, ingiliz-sudani 3/9, sammar 1/9, hicaz 1/9, misir-sultanligi 1/9
+- içindeki yerleşimler (77, s.eksklav 0): Dîvâniye (ingiltere); Necef (ingiltere); Hîre (sahipsiz); Kûfe (ingiltere); Fâv (ingiltere); Bağuz (Baghuz Fawqani) (sahipsiz); Eski Basra (Zübeyr) (sahipsiz); Eridu (Abu Shahrain) (sahipsiz) … +69
+- koridor yerleşimleri: Nefud çölü (sammar); Ebû Ramâd (Şalâtîn) (misir-sultanligi)
+- **HÜKÜM:** _bekliyor_
+
+### K017 · Kiev Rus'u (Kiev Büyük Knezliği) (`kiev-rusu`) · 1024-01-01 → 1136-01-01 · 313.910 km²
+
+- nokta [50.35, 26.583], en büyük kesit 1085-01-01 · kesit sayısı 5 · sınıf sayımı {'KARA-EKSKLAV': 4}
+- çevre: polotsk-knezligi 16%, cernigov-knezligi 13%, polonya-erken 8%
+- koridor: 344.7 km · polotsk-knezligi 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (31, s.eksklav 0): Rîbnița (Rıbnitsa) (sahipsiz); Balta (sahipsiz); Soroka (Soroca) (sahipsiz); Hotin (sahipsiz); Kamaniçe (sahipsiz); Yazlofça (Yazlovets) (sahipsiz); Haliç (sahipsiz); Novomirgorod (sahipsiz) … +23
+- koridor yerleşimleri: Daugavpils (Dünaburg) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K018 · Britanya (`ingiltere`) · 1979-12-12 → 1980-04-18 · 310.824 km²
+
+- nokta [-19.414, 26.885], en büyük kesit 1979-12-12 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: zambiya 12%, mozambik 12%, botsvana 8%
+- koridor: 407.5 km · botsvana 7/9, DENIZ/BOS 2/9
+- içindeki yerleşimler (8, s.eksklav 0): Gvanda (ingiltere); Khami (ingiltere); Umtali (Mutare) (ingiliz-guney-rodezya); Salisbury (Harare) (ingiltere); Danangombe (Rozvi) (ingiltere); Gveru (ingiltere); Hvange (ingiltere); Binga (ingiltere)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K019 · Gazneliler (Gazneli Devleti) (`gazneli`) · 1038-05-09 → 1043-01-01 · 286.884 km²
+
+- nokta [42.316, 60.24], en büyük kesit 1040-05-23 · kesit sayısı 5 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: buyuk-selcuklu 13%, karahanli 13%, ziyari 0%
+- koridor: 687.5 km · buyuk-selcuklu 7/9, DENIZ/BOS 2/9
+- içindeki yerleşimler (7, s.eksklav 0): Karakum (sahipsiz); Hazârasp (sahipsiz); Hîve (sahipsiz); Yeni Ürgenç (sahipsiz); Köhne Ürgenç (Gürgenç) (gazneli); Küngrat (sahipsiz); Üstyurt platosu (doğu) (sahipsiz)
+- koridor yerleşimleri: Kâin (sahipsiz); Turbet-i Haydariye (sahipsiz); Nîşâbur (buyuk-selcuklu); Kûçân (sahipsiz); Anau (sahipsiz); Aşkabad (sahipsiz); Jeitun (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K020 · Moğol İmparatorluğu (bölünmemiş) (`mogol-imparatorlugu`) · 1213-12-30 → 1256-01-01 · 276.726 km²
+
+- nokta [39.663, 116.529], en büyük kesit 1233-07-17 · kesit sayısı 26 · sınıf sayımı {'KARA-EKSKLAV': 6, 'ADA': 4}
+- çevre: jin-hanedani 47%
+- koridor: 3715.5 km · cagatay 5/9, DENIZ/BOS 3/9, KENDI 1/9
+- içindeki yerleşimler (9, s.eksklav 0): Pingyao (sahipsiz); Taiyuan (mogol-imparatorlugu); Zhengding (mogol-imparatorlugu); Leshou (Xianxian) (mogol-imparatorlugu); Baoding (sahipsiz); Tiencin (Tianjin) (sahipsiz); Pekin (Hanbalık) (mogol-imparatorlugu); Kalgan (Zhangjiakou) (sahipsiz) … +1
+- koridor yerleşimleri: Xiazhou (Tongwancheng) (sahipsiz); Andican (cagatay); Özkent (Uzgen) (sahipsiz); Taşkent (cagatay)
+- **HÜKÜM:** _bekliyor_
+
+### K021 · İspanyol Perusu (`ispanyol-peru`) · 1819-12-17 → 1821-06-24 · 267.675 km²
+
+- nokta [9.291, -68.47], en büyük kesit 1819-12-17 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: gran-kolombiya 24%, ispanya 5%
+- koridor: 715.1 km · gran-kolombiya 6/9, DENIZ/BOS 3/9
+- içindeki yerleşimler (9, s.eksklav 0): San Cristóbal (Táchira) (ispanyol-peru); Mérida (Venezuela) (ispanyol-peru); Barinas (Altamira de Cáceres) (ispanyol-peru); Guanare (ispanyol-peru); Carora (ispanyol-peru); Maracaibo (ispanyol-peru); Calabozo (Villa de Nuestra Señora de la Candelaria) (ispanyol-peru); Valencia (Venezuela) (ispanyol-peru) … +1
+- koridor yerleşimleri: San Vicente del Caguán (sahipsiz); Bacatá (Bogotá) (gran-kolombiya); Hunza (Tunja) (gran-kolombiya)
+- **HÜKÜM:** _bekliyor_
+
+### K022 · Avustralya Milletler Topluluğu (`avustralya`) · 1901-01-01 → 1911-01-01 · 264.691 km²
+
+- nokta [-17.057, 127.976], en büyük kesit 1903-01-01 · kesit sayısı 7 · sınıf sayımı {'KARA-EKSKLAV': 2, 'ADA': 1}
+- çevre: ingiltere 15%
+- koridor: 738.1 km · ingiltere 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (5, s.eksklav 0): Halls Creek (avustralya); Fitzroy Crossing (avustralya); Broome (avustralya); Derby (avustralya); Wyndham (avustralya)
+- koridor yerleşimleri: Tennant Creek Telgraf İstasyonu (kuzey-bolgesi-sa)
+- **HÜKÜM:** _bekliyor_
+
+### K023 · Kiev Rus'u (Kiev Büyük Knezliği) (`kiev-rusu`) · 1147-01-01 → 1157-01-01 · 248.025 km²
+
+- nokta [50.425, 26.705], en büyük kesit 1147-01-01 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: polotsk-knezligi 13%, cernigov-knezligi 10%
+- koridor: 474.2 km · smolensk-knezligi 7/9, cernigov-knezligi 2/9
+- içindeki yerleşimler (23, s.eksklav 0): Rîbnița (Rıbnitsa) (sahipsiz); Balta (sahipsiz); Novomirgorod (sahipsiz); Uman (sahipsiz); Braslav (Bratslav) (sahipsiz); Vinnitsa (Vinnytsia) (sahipsiz); Meciboj (Mejibuji) (sahipsiz); Bila Tserkva (Belaya Tserkov) (sahipsiz) … +15
+- koridor yerleşimleri: Gomel (Homel) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K024 · Fransa (`fransa`) · 1634-01-01 → 1763-02-10 · 244.544 km²
+
+- nokta [46.754, -92.496], en büyük kesit 1732-01-01 · kesit sayısı 72 · sınıf sayımı {'KARA-EKSKLAV': 15, 'ADA': 2}
+- çevre: ojibwe 18%, ingiltere 1%
+- koridor: 394.8 km · ojibwe 4/9, DENIZ/BOS 3/9, miami 2/9
+- içindeki yerleşimler (6, s.eksklav 0): La Baye (Green Bay) (fransa); Duluth (Fond du Lac) (sahipsiz); Grand Portage (fransa); Fort William (Thunder Bay) (sahipsiz); Fort St. Pierre (Rainy Lake) (fransa); Fort Nipigon (fransa)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K025 · Britanya (`ingiltere`) · 1664-05-01 → 1957-03-06 · 239.488 km²
+
+- nokta [7.716, -1.226], en büyük kesit 1917-01-09 · kesit sayısı 345 · sınıf sayımı {'KARA-EKSKLAV': 28}
+- çevre: hollanda 66%, fransa-cumhuriyet 62%, asanti 45%
+- koridor: 133.9 km · fransa-cumhuriyet 9/9
+- içindeki yerleşimler (11, s.eksklav 0): Elmina (São Jorge da Mina) (ingiltere); Cape Coast (ingiltere); Akra (Accra) (ingiltere); Kumasi (ingiltere); Sokodé (sahipsiz); Kara (Togo) (sahipsiz); Bono-Manso (Techiman kuzeyi) (ingiliz-altin-kiyisi); Begho (Bighu) (ingiltere) … +3
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K026 · Yuan Hanedanı (Moğol Çin) (`yuan-hanedani`) · 1260-01-01 → 1368-09-14 · 236.213 km²
+
+- nokta [24.949, 100.879], en büyük kesit 1358-11-01 · kesit sayısı 26 · sınıf sayımı {'KARA-EKSKLAV': 11}
+- çevre: mogol-imparatorlugu 20%, san-devletleri 17%, tran-hanedani 11%
+- koridor: 155.9 km · tran-hanedani 9/9
+- içindeki yerleşimler (15, s.eksklav 12): Kaihua (Wenshan) (yuan-hanedani); Mengzi (yuan-hanedani); Yuanjiang (yuan-hanedani); Lin'an (Jianshui) (yuan-hanedani); Mianning (Lincang) (yuan-hanedani); Tonghai (yuan-hanedani); Jingdong (yuan-hanedani); Shunning (Fengqing) (yuan-hanedani) … +7
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K027 · Kiev Rus'u (Kiev Büyük Knezliği) (`kiev-rusu`) · 1136-01-01 → 1147-01-01 · 231.304 km²
+
+- nokta [57.325, 40.875], en büyük kesit 1136-01-01 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: ryazan 32%, novgorod 12%, idil-bulgar 9%
+- koridor: 551.4 km · smolensk-knezligi 7/9, cernigov-knezligi 2/9
+- içindeki yerleşimler (16, s.eksklav 0): Arzamas (sahipsiz); Murom (sahipsiz); Moskova (sahipsiz); Vladimir (kiev-rusu); Sergiyev Posad (sahipsiz); Dmitrov (sahipsiz); Suzdal (kiev-rusu); Rostov Veliki (sahipsiz) … +8
+- koridor yerleşimleri: Gomel (Homel) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K028 · İtalya (`italya`) · 1905-01-01 → 1936-06-01 · 224.923 km²
+
+- nokta [2.921, 44.13], en büyük kesit 1923-10-29 · kesit sayısı 13 · sınıf sayımı {'KARA-EKSKLAV': 9}
+- çevre: somali 37%, habesistan 32%, ingiltere 6%
+- koridor: 3182.5 km · habesistan 3/9, ingiliz-sudani 3/9, DENIZ/BOS 3/9
+- içindeki yerleşimler (14, s.eksklav 0): Cilib (italya); Afgoye (italya); Merka (italya); Bardere (italya); Diinsoor (italya); Vanlaveyn (italya); Baydoa (italya); Garbahârey (italya) … +6
+- koridor yerleşimleri: Fiçe (habesistan); Mota (habesistan); Bahır Dar (habesistan); Metemma (habesistan); Kadârif (ingiliz-sudani); Şendî (ingiliz-sudani); Selîme (Nûbe çölü batısı) (sahipsiz); Merevî (ingiliz-sudani); Delgo (Sükkût) (ingiliz-sudani)
+- **HÜKÜM:** _bekliyor_
+
+### K029 · Osmanlı (`OSMANLI`) · 1871-01-01 → 1918-10-30 · 222.209 km²
+
+- nokta [16.535, 44.467], en büyük kesit 1916-06-10 · kesit sayısı 123 · sınıf sayımı {'KARA-EKSKLAV': 14}
+- çevre: yemen 29%, TABI 12%, lahic-sultanligi 8%
+- koridor: 113.8 km · hicaz 9/9
+- içindeki yerleşimler (16, s.eksklav 0): Marib (sahipsiz); Kunfüze (el-Kunfüze) (OSMANLI); Moha (OSMANLI); Taiz (OSMANLI); Zûcible (sahipsiz); Zebîd (OSMANLI); Zafâr (sahipsiz); Hudeyde (OSMANLI) … +8
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K030 · Büyük Selçuklu Devleti (`buyuk-selcuklu`) · 1043-01-01 → 1064-01-01 · 209.382 km²
+
+- nokta [30.425, 60.942], en büyük kesit 1045-07-19 · kesit sayısı 10 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: gazneli 43%, kirman-selcuklu 21%
+- koridor: 261.3 km · gazneli 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Hâş (sahipsiz); Zerenc (Sîstan) (buyuk-selcuklu)
+- koridor yerleşimleri: Turbet-i Câm (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K031 · Delhi Sultanlığı (`delhi-sultanligi`) · 1392-01-01 → 1484-01-01 · 200.382 km²
+
+- nokta [22.773, 72.322], en büyük kesit 1392-01-01 · kesit sayısı 10 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: racput 29%, malva-sultanligi 9%, behmeni 7%
+- koridor: 218.3 km · racput 9/9
+- içindeki yerleşimler (13, s.eksklav 0): Sûrat (delhi-sultanligi); Broaç (Bharuch) (delhi-sultanligi); Valabhi (sahipsiz); Baroda (Vadodara) (delhi-sultanligi); Kanbâyet (Khambhat) (delhi-sultanligi); Çampâner (delhi-sultanligi); Lothal (sahipsiz); Wadhwan (Vardhamana) (delhi-sultanligi) … +5
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K032 · Britanya (`ingiltere`) · 1668-01-01 → 1763-02-10 · 192.416 km²
+
+- nokta [50.819, -81.347], en büyük kesit 1749-08-21 · kesit sayısı 51 · sınıf sayımı {'KARA-EKSKLAV': 14, 'ADA': 4}
+- çevre: fransa 21%, kri 4%
+- koridor: 523.5 km · DENIZ/BOS 4/9, haudenosaunee 3/9, fransa 2/9
+- içindeki yerleşimler (4, s.eksklav 0): Abitibi House (ingiltere); Moose Factory (ingiltere); Fort Albany (ingiltere); Attawapiskat (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K033 · Sovyet Rusya (`sovyet-rusya`) · 1917-11-07 → 1920-09-02 · 187.369 km²
+
+- nokta [38.683, 58.565], en büyük kesit 1917-12-15 · kesit sayısı 42 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: kacar 28%, buhara 4%
+- koridor: 251.7 km · buhara 9/9
+- içindeki yerleşimler (9, s.eksklav 0): Merv (Mari) (sovyet-rusya); Ebîverd (sovyet-rusya); Aşkabad (sovyet-rusya); Nesâ (sovyet-rusya); Dihistan ovası (Meşhed-i Misriyân) (sovyet-rusya); Jeitun (sahipsiz); Kızılarvat (sovyet-rusya); Çeleken (sovyet-rusya) … +1
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K034 · Britanya (`ingiltere`) · 1763-02-10 → 1783-09-03 · 175.125 km²
+
+- nokta [38.25, -88.913], en büyük kesit 1763-02-10 · kesit sayısı 13 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: sauk 13%, miami 8%, cikasav 5%
+- koridor: 228.1 km · cikasav 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Kaskaskia (ingiltere); St. Louis (sahipsiz); Cahokia (sahipsiz); Vincennes (Poste Vincennes) (ingiltere)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K035 · Büyük Selçuklu Devleti (`buyuk-selcuklu`) · 1041-01-01 → 1043-01-01 · 169.473 km²
+
+- nokta [37.65, 61.688], en büyük kesit 1041-01-01 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: gazneli 35%, bati-karahanli 22%
+- koridor: 261.3 km · gazneli 9/9
+- içindeki yerleşimler (3, s.eksklav 0): Serahs (buyuk-selcuklu); Merv (Mari) (buyuk-selcuklu); Ebîverd (sahipsiz)
+- koridor yerleşimleri: Turbet-i Câm (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K036 · Osmanlı (`OSMANLI`) · 1832-06-16 → 1841-02-25 · 168.503 km²
+
+- nokta [29.377, 36.666], en büyük kesit 1840-11-27 · kesit sayısı 26 · sınıf sayımı {'KARA-EKSKLAV': 10}
+- çevre: TABI 39%
+- koridor: 276.4 km · TABI 9/9
+- içindeki yerleşimler (26, s.eksklav 0): Hicaz (sahipsiz); el-Ulâ (OSMANLI); Medâin-i Sâlih (el-Hicr) (OSMANLI); el-Vech (OSMANLI); Tebük (OSMANLI); Maan (OSMANLI); Kerak (OSMANLI); Ürdün (sahipsiz) … +18
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K037 · Maratha Konfederasyonu (`maratha`) · 1743-01-01 → 1818-01-01 · 158.028 km²
+
+- nokta [23.261, 73.657], en büyük kesit 1774-12-28 · kesit sayısı 27 · sınıf sayımı {'KARA-EKSKLAV': 15}
+- çevre: babur-imparatorlugu 40%, racput 36%, indor 22%
+- koridor: 200.4 km · bhopal 7/9, haydarabad-nizam 2/9
+- içindeki yerleşimler (11, s.eksklav 0): Valabhi (sahipsiz); Kanbâyet (Khambhat) (maratha); Mandu (Mândû) (maratha); Çampâner (maratha); Lothal (sahipsiz); Dhâr (sahipsiz); Wadhwan (Vardhamana) (maratha); Dholka (maratha) … +3
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K038 · Kongo Serbest Devleti (`kongo-serbest-devleti`) · 1885-01-01 → 1888-01-01 · 157.884 km²
+
+- nokta [-7.52, 22.815], en büyük kesit 1887-01-01 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: kuba 28%, lunda-imparatorlugu 22%, portekiz 21%
+- koridor: 81.5 km · kuba 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Sandoa (kongo-serbest-devleti); Musumba (kongo-serbest-devleti); Luebo (kongo-serbest-devleti); İlebo (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K039 · Britanya (`ingiltere`) · 1684-01-01 → 1763-02-10 · 154.374 km²
+
+- nokta [57.111, -93.893], en büyük kesit 1720-01-01 · kesit sayısı 40 · sınıf sayımı {'ADA': 6, 'KARA-EKSKLAV': 2}
+- çevre: kri 8%, inuit 4%
+- koridor: 296.5 km · kri 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (2, s.eksklav 0): Fort Severn (ingiltere); Prince of Wales Fort (Churchill) (ingiltere)
+- koridor yerleşimleri: Fort Severn güneyi — Winisk (kri)
+- **HÜKÜM:** _bekliyor_
+
+### K040 · Moğol İmparatorluğu (bölünmemiş) (`mogol-imparatorlugu`) · 1256-01-01 → 1260-01-01 · 153.345 km²
+
+- nokta [40.415, 63.676], en büyük kesit 1256-01-01 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: cagatay 25%, ilhanli 24%, altinorda 22%
+- koridor: 2029.9 km · cagatay 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (1, s.eksklav 0): Buhara (mogol-imparatorlugu)
+- koridor yerleşimleri: Özkent (Uzgen) (sahipsiz); Taşkent (cagatay)
+- **HÜKÜM:** _bekliyor_
+
+### K041 · Birleşik Arap Cumhuriyeti (Mısır-Suriye; Suriye 28.09.1961'de ayrıldı, Mısır adı 1971'e dek korudu) (`birlesik-arap-cumhuriyeti`) · 1958-02-22 → 1961-09-28 · 151.016 km²
+
+- nokta [35.153, 38.462], en büyük kesit 1958-02-22 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: tbmm-turkiye 47%, lubnan-cumhuriyeti 15%, irak-kralligi 15%
+- koridor: 237.7 km · urdun-emirligi 4/9, DENIZ/BOS 3/9, lubnan-cumhuriyeti 1/9, israil-devleti 1/9
+- içindeki yerleşimler (34, s.eksklav 0): Şam (birlesik-arap-cumhuriyeti); Humus (birlesik-arap-cumhuriyeti); Krak des Chevaliers (sahipsiz); Katna (Al-Mashrafah) (sahipsiz); Mısyâf (Maşyāf) (sahipsiz); Hama (birlesik-arap-cumhuriyeti); Margat (Marqab) (sahipsiz); Şeyzer (sahipsiz) … +26
+- koridor yerleşimleri: Masada (sahipsiz); Dibon (Dhībān) (sahipsiz); Eriha (Tell es-Sultan) (sahipsiz); Amman (urdun-hasimi-krallik); Ain Ghazal (sahipsiz); Câbiye (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K042 · Fransız Çinhindi (`fransiz-cinhindi`) · 1883-08-25 → 1907-03-23 · 150.426 km²
+
+- nokta [20.671, 105.555], en büyük kesit 1883-08-25 · kesit sayısı 5 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: qing-hanedani 20%, laos-kralliklari 9%, nguyen-hanedani 3%
+- koridor: 210.1 km · laos-kralliklari 8/9, siyam-chakri 1/9
+- içindeki yerleşimler (12, s.eksklav 0): Vinh (fransiz-cinhindi); Thanh Hoa (fransiz-cinhindi); Ninh Binh (fransiz-cinhindi); Nam Dinh (fransiz-cinhindi); Hai Phong (fransiz-cinhindi); Hanoi (Thăng Long) (fransiz-cinhindi); Bac Ninh (Vu Ninh / Long Bien bolgesi) (sahipsiz); Co Loa (sahipsiz) … +4
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K043 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1752-04-01 → 1753-04-01 · 144.365 km²
+
+- nokta [27.926, 77.723], en büyük kesit 1752-04-01 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: afgan-durrani 21%, racput 21%, bharatpur-cat 15%
+- koridor: 310.9 km · racput 5/9, DENIZ/BOS 2/9, maratha 2/9
+- içindeki yerleşimler (9, s.eksklav 1): Gvalyar (Gwalior) (babur-imparatorlugu); Agra (babur-imparatorlugu); Mathura (babur-imparatorlugu); Koil (Aligarh) (babur-imparatorlugu); Delhi (babur-imparatorlugu); Mîrat (Meerut) (babur-imparatorlugu); Hisâr-ı Fîrûze (babur-imparatorlugu); Rakhigarhi (sahipsiz) … +1
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K044 · Timurlu valiliği (`timurlu`) · 1402-07-28 → 1404-03-01 · 143.602 km²
+
+- nokta [38.626, 32.557], en büyük kesit 1402-08-17 · kesit sayısı 4 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: karaman 35%, candar 11%, germiyan 9%
+- koridor: 411.0 km · mutahharten 4/9, dulkadir 3/9, memluk 2/9
+- içindeki yerleşimler (29, s.eksklav 0): Burdur (timurlu); Söke (timurlu); Denizli (timurlu); Ermenek (timurlu); Karaman (timurlu); Çatalhöyük (sahipsiz); Karapınar (timurlu); Boncuklu Höyük (sahipsiz) … +21
+- koridor yerleşimleri: Zamantı (Pınarbaşı) (dulkadir); Gemerek (dulkadir); Divriği (memluk); Kemah (mutahharten); Erzincan (mutahharten)
+- **HÜKÜM:** _bekliyor_
+
+### K045 · San Fan (Üç Feudatori) İsyanı (`san-fan`) · 1674-03-15 → 1677-01-01 · 141.255 km²
+
+- nokta [24.489, 116.815], en büyük kesit 1676-04-05 · kesit sayısı 5 · sınıf sayımı {'ADA': 2, 'KARA-EKSKLAV': 2}
+- çevre: qing-hanedani 18%, tungning 0%, portekiz 0%
+- koridor: 44.1 km · qing-hanedani 9/9
+- içindeki yerleşimler (6, s.eksklav 0): Hong Kong (sahipsiz); Kanton (Guangzhou) (san-fan); Zhangzhou (san-fan); Zeytun (Quanzhou) (san-fan); Chaozhou (san-fan); Fuzhou (san-fan)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K046 · Memlûk (`memluk`) · 1517-01-22 → 1517-04-13 · 139.417 km²
+
+- nokta [19.386, 36.593], en büyük kesit 1517-01-24 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: funj 29%, habesistan 29%
+- koridor: 180.8 km · habesistan 9/9
+- içindeki yerleşimler (9, s.eksklav 2): Bûr Sûdân (sahipsiz); Akīk (memluk); Tokar (memluk); Trinkitât (memluk); Sevâkin (memluk); Derûdeb (memluk); Hayyâ (memluk); Sinkat (memluk) … +1
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K047 · Meksika (`meksika`) · 1825-09-01 → 2000-12-31 · 136.403 km²
+
+- nokta [27.824, -113.451], en büyük kesit 1900-12-01 · kesit sayısı 28 · sınıf sayımı {'ADA': 6, 'KARA-EKSKLAV': 4}
+- çevre: abd 11%
+- koridor: 40.8 km · abd 9/9
+- içindeki yerleşimler (6, s.eksklav 0): La Paz (Baja California Sur) (meksika); Loreto (Baja California) (meksika); Misión Santa Gertrudis (Baja California) (meksika); Misión San Francisco de Borja (meksika); El Rosario (Baja California) (meksika); Misión San Vicente Ferrer (meksika)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K048 · Delhi Sultanlığı (`delhi-sultanligi`) · 1311-01-01 → 1323-01-01 · 131.035 km²
+
+- nokta [11.475, 78.617], en büyük kesit 1311-01-01 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: hoysala 17%, travankur 12%, kalikut 3%
+- koridor: 686.2 km · kakatiya 7/9, yadava 2/9
+- içindeki yerleşimler (8, s.eksklav 0): Madurai (delhi-sultanligi); Nagapatnam (delhi-sultanligi); Tancûr (Thanjavur) (delhi-sultanligi); Trichinopoly (Tiruchirappalli) (delhi-sultanligi); Pondişeri (sahipsiz); Cinci (Gingee) (delhi-sultanligi); Arkot (Arcot) (delhi-sultanligi); Vellor (Vellore) (delhi-sultanligi)
+- koridor yerleşimleri: Kurnûl (Kurnool) (kakatiya); Bîdar (kakatiya)
+- **HÜKÜM:** _bekliyor_
+
+### K049 · Maratha Konfederasyonu (`maratha`) · 1732-01-01 → 1818-06-03 · 129.443 km²
+
+- nokta [18.675, 74.432], en büyük kesit 1760-01-01 · kesit sayısı 36 · sınıf sayımı {'KARA-EKSKLAV': 12}
+- çevre: babur-imparatorlugu 50%, haydarabad-nizam 47%, portekiz 28%
+- koridor: 19.6 km · haydarabad-nizam 5/9, ingiliz-hindistani 4/9
+- içindeki yerleşimler (9, s.eksklav 0): Bîcâpur (Bijapur) (maratha); Satâra (maratha); Raygad (maratha); Pûne (Poona) (maratha); Çaul (Chaul) (maratha); Ahmednagar (maratha); Thane (maratha); Pratishthana (Paithan) (sahipsiz) … +1
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K050 · Avusturya (Habsburg) (`avusturya`) · 1918-10-28 → 1918-11-03 · 129.320 km²
+
+- nokta [49.472, 19.08], en büyük kesit 1918-10-28 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: macaristan-habsburg 28%, almanya 24%, sovyet-rusya 13%
+- koridor: 109.0 km · cekoslovakya 7/9, almanya 2/9
+- içindeki yerleşimler (14, s.eksklav 0): Suçava (Suceava) (avusturya); Çernovitz (Çernivtsi) (avusturya); Yazlofça (Yazlovets) (avusturya); Ostrava (Mährisch Ostrau) (avusturya); Karviná (Fryštát) (avusturya); Opava (Troppau) (avusturya); Lvov (avusturya); Zamość (avusturya) … +6
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K051 · Umman-Zengibar Sultanlığı (`umman-zengibar`) · 1830-01-01 → 1890-11-04 · 126.599 km²
+
+- nokta [-5.075, 32.126], en büyük kesit 1852-01-01 · kesit sayısı 12 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: burundi 26%
+- koridor: 341.1 km · nyamvezi 6/9, DENIZ/BOS 3/9
+- içindeki yerleşimler (2, s.eksklav 0): Ucici (Ujiji) (umman-zengibar); Tabora (Kazeh) (umman-zengibar)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K052 · Yeni İspanya (`yeni-ispanya`) · 1692-08-01 → 1804-01-01 · 121.513 km²
+
+- nokta [35.778, -107.217], en büyük kesit 1769-07-16 · kesit sayısı 30 · sınıf sayımı {'KARA-EKSKLAV': 7}
+- çevre: zuni 14%, navaho 9%, meskalero-apaci 9%
+- koridor: 77.3 km · meskalero-apaci 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (5, s.eksklav 0): Acoma Pueblo (Sky City) (yeni-ispanya); Albuquerque (yeni-ispanya); Santa Fe (yeni-ispanya); Pueblo Bonito (sahipsiz); Taos Pueblo (yeni-ispanya)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K053 · Avusturya (Habsburg) (`avusturya`) · 1918-11-03 → 1919-09-10 · 119.118 km²
+
+- nokta [47.426, 14.264], en büyük kesit 1918-11-03 · kesit sayısı 4 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: macaristan-habsburg 25%, italya 20%, cekoslovakya 16%
+- koridor: 109.0 km · cekoslovakya 7/9, almanya 2/9
+- içindeki yerleşimler (24, s.eksklav 0): Fiume (Rijeka) (sahipsiz); Ljubljana (avusturya); Maribor (Marburg) (avusturya); Villach (avusturya); Klagenfurt (avusturya); Lienz (avusturya); Graz (avusturya); Hartberg (avusturya) … +16
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K054 · Portekiz (`portekiz`) · 1887-01-01 → 1902-01-01 · 118.842 km²
+
+- nokta [-8.694, 20.457], en büyük kesit 1895-06-16 · kesit sayısı 8 · sınıf sayımı {'KARA-EKSKLAV': 6}
+- çevre: kongo-serbest-devleti 58%, ovimbundu 19%, kasance 14%
+- koridor: 991.7 km · ingiltere 5/9, ovimbundu 2/9, kongo-serbest-devleti 1/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (2, s.eksklav 0): Saurimo (portekiz-angola); Dundo (portekiz-angola)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K055 · Portekiz (`portekiz`) · 1575-01-01 → 1902-01-01 · 117.541 km²
+
+- nokta [-8.582, 15.139], en büyük kesit 1895-01-01 · kesit sayısı 92 · sınıf sayımı {'KARA-EKSKLAV': 24}
+- çevre: kongo-kralligi 28%, ovimbundu 28%, ndongo 24%
+- koridor: 248.4 km · kasance 9/9
+- içindeki yerleşimler (7, s.eksklav 0): Kambambe (Cambambe) (portekiz-angola); Pungo Andongo (portekiz-angola); Massangano (portekiz-angola); Matamba (portekiz-angola); Kabasa (portekiz-angola); Luanda (portekiz-angola); Soyo (portekiz-angola)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K056 · Britanya (`ingiltere`) · 1763-02-10 → 1783-09-03 · 116.208 km²
+
+- nokta [46.15, -91.408], en büyük kesit 1765-05-10 · kesit sayısı 13 · sınıf sayımı {'KARA-EKSKLAV': 4}
+- çevre: ingiliz-kuzey-amerika 14%, ojibwe 7%
+- koridor: 601.7 km · miami 5/9, DENIZ/BOS 2/9, savni 2/9
+- içindeki yerleşimler (3, s.eksklav 0): La Baye (Green Bay) (ingiltere); Duluth (Fond du Lac) (sahipsiz); Fort William (Thunder Bay) (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K057 · Pakistan (`pakistan`) · 1947-08-15 → 1971-12-16 · 113.821 km²
+
+- nokta [23.297, 91.78], en büyük kesit 1948-03-27 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: hindistan-cumhuriyeti 30%, ingiliz-hindistani 8%, manipur 7%
+- koridor: 1569.8 km · hindistan-cumhuriyeti 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (8, s.eksklav 0): Mainamati (Cumilla) (sahipsiz); Pattikera (sahipsiz); Karmanta (sahipsiz); Vikramapura (sahipsiz); Vikramapura (Bikrampur) (sahipsiz); Sonârgâon (pakistan); Dakka (Dhaka) (pakistan); Agartala (sahipsiz)
+- koridor yerleşimleri: Simraungarh (sahipsiz); Mîrat (Meerut) (hindistan-cumhuriyeti); Pânipat (hindistan-cumhuriyeti)
+- **HÜKÜM:** _bekliyor_
+
+### K058 · Buhara Hanlığı (`buhara`) · 1500-01-01 → 1503-01-01 · 111.959 km²
+
+- nokta [43.181, 70.221], en büyük kesit 1500-01-01 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: kazak-hanligi 34%, mogulistan 21%
+- koridor: 65.5 km · mogulistan 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Sayram (İsficâb) (buhara); Çimkent (buhara); Türkistan (Yesi) (buhara); Taraz (Evliya-Ata) (buhara)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K059 · Memlûk (`memluk`) · 1517-04-13 → 1517-05-19 · 111.759 km²
+
+- nokta [30.847, 26.507], en büyük kesit 1517-04-13 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: OSMANLI 40%
+- koridor: 309.5 km · OSMANLI 9/9
+- içindeki yerleşimler (26, s.eksklav 0): Mersâ Matruh (memluk); Sellûm (memluk); Bilbîs (Şarkiye) (memluk); Benhâ (Kalyûbiye) (memluk); Şibînülkûm (Menûfiye) (memluk); Bubastis (sahipsiz); İsmâiliye (sahipsiz); Leontopolis (sahipsiz) … +18
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K060 · Nogay Ordası (`nogay`) · 1502-03-01 → 1556-01-01 · 110.958 km²
+
+- nokta [45.389, 45.592], en büyük kesit 1552-01-01 · kesit sayısı 3 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: astarhan 34%, TABI 20%, kabartay 14%
+- koridor: 33.4 km · astarhan 9/9
+- içindeki yerleşimler (6, s.eksklav 0): Urus-Martan (sahipsiz); Şali (Shali) (sahipsiz); Grozni (Groznıy) (sahipsiz); Gudermes (sahipsiz); Terek deltası (Kızlar) (nogay); Kalmuk bozkırı (nogay)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K061 · Britanya (`ingiltere`) · 1776-07-04 → 1783-09-03 · 109.005 km²
+
+- nokta [35.398, -78.834], en büyük kesit 1779-09-21 · kesit sayısı 8 · sınıf sayımı {'KARA-EKSKLAV': 5}
+- çevre: abd 33%
+- koridor: 263.2 km · cherokee 6/9, DENIZ/BOS 3/9
+- içindeki yerleşimler (3, s.eksklav 0): Wilmington (Kuzey Karolayna) (ingiltere); Occaneechi (Hillsborough) (ingiltere); Norfolk (Virginia) (ingiltere)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K062 · Britanya (`ingiltere`) · 1876-01-01 → 1899-01-01 · 108.209 km²
+
+- nokta [-14.531, 34.263], en büyük kesit 1895-05-01 · kesit sayısı 71 · sınıf sayımı {'KARA-EKSKLAV': 10}
+- çevre: portekiz 46%, umman-zengibar 15%, yao 15%
+- koridor: 254.0 km · portekiz 6/9, DENIZ/BOS 3/9
+- içindeki yerleşimler (6, s.eksklav 0): Blantyre (ingiltere); Zomba (ingiltere); Kuamba (sahipsiz); Mangoçi (ingiltere); Mankhamba (Maravi) (ingiltere); Nkhotakota (Cumbe) (ingiltere)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K063 · Britanya (`ingiltere`) · 1683-01-01 → 1885-03-31 · 106.542 km²
+
+- nokta [-19.75, 28.462], en büyük kesit 1839-01-19 · kesit sayısı 193 · sınıf sayımı {'KARA-EKSKLAV': 6}
+- çevre: venda 16%, mutapa 16%, tsvana 13%
+- koridor: 1025.7 km · tsvana 3/9, transvaal 2/9, KENDI 2/9, basuto 2/9
+- içindeki yerleşimler (6, s.eksklav 0): Gvanda (sahipsiz); Khami (ingiltere); Bulavayo (sahipsiz); Bulawayo (sahipsiz); Danangombe (Rozvi) (ingiltere); Gveru (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K064 · İspanya (`ispanya`) · 1571-06-24 → 1898-08-13 · 105.189 km²
+
+- nokta [15.593, 120.74], en büyük kesit 1894-03-05 · kesit sayısı 166 · sınıf sayımı {'KARA-EKSKLAV': 3, 'ADA': 25}
+- çevre: filipin-racaliklari 17%
+- koridor: 10818.8 km · DENIZ/BOS 3/9, ingiliz-hindistani 2/9, kacar 2/9, racput 1/9, OSMANLI 1/9
+- içindeki yerleşimler (7, s.eksklav 0): Legazpi (ispanya); Naga (Camarines) (ispanya); Batangas (ispanya); Manila (ispanya); Malolos (sahipsiz); Vigan (ispanya); Tuguegarao (ispanya)
+- koridor yerleşimleri: Ava (İnwa) (ingiliz-hindistani); Çatgam (Chittagong) (ingiliz-hindistani); Nadia (Navadvipa/Nabadwip) (ingiliz-hindistani); Kâlincar (sahipsiz); Mahoba (sahipsiz); Orchha (Orcha) (bundela-orcha); İzeh (sahipsiz); Dur-Untaş (Çoğa Zanbil) (sahipsiz); Şüşter (kacar); Susa (sahipsiz) … +20
+- **HÜKÜM:** _bekliyor_
+
+### K065 · Cungar Hanlığı (Kalmuk) (`cungar`) · 1720-01-01 → 1736-01-01 · 104.836 km²
+
+- nokta [52.372, 82.138], en büyük kesit 1720-01-01 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: rusya 70%
+- koridor: 170.6 km · rusya 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (2, s.eksklav 0): Zmeinogorsk (cungar); Barnaul (cungar)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K066 · Britanya (`ingiltere`) · 1776-07-04 → 1783-09-03 · 103.732 km²
+
+- nokta [43.716, -70.784], en büyük kesit 1778-01-01 · kesit sayısı 8 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: abd 30%, ingiliz-kuzey-amerika 21%
+- koridor: 73.0 km · abd 9/9
+- içindeki yerleşimler (5, s.eksklav 2): Hartford (ingiltere); Providence (ingiltere); Portsmouth (New Hampshire) (ingiltere); Pemaquid (ingiltere); Norridgewock (Abenaki) (ingiltere)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K067 · Bengal Sultanlığı (`bengal-sultanligi`) · 1576-01-01 → 1576-07-12 · 102.548 km²
+
+- nokta [21.138, 85.906], en büyük kesit 1576-01-01 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: babur-imparatorlugu 13%
+- koridor: 50.0 km · babur-imparatorlugu 9/9
+- içindeki yerleşimler (8, s.eksklav 0): Banapur (sahipsiz); Puri (bengal-sultanligi); Kattak (Cuttack) (bengal-sultanligi); Jajpur (sahipsiz); Bâlâsor (Balasore) (bengal-sultanligi); Kalküta (sahipsiz); Çandernagor (sahipsiz); Hûglî (Hooghly) (bengal-sultanligi)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K068 · Altın Orda ve ardılları (`altinorda`) · 1466-01-01 → 1502-03-01 · 101.475 km²
+
+- nokta [52.925, 49.634], en büyük kesit 1466-01-01 · kesit sayısı 4 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: nogay 40%, kazan 25%, astarhan 17%
+- koridor: 232.8 km · astarhan 4/9, nogay 3/9, KENDI 2/9
+- içindeki yerleşimler (6, s.eksklav 0): Petrovsk (Saratov) (altinorda); Hvalınsk (sahipsiz); Syzran (altinorda); Samara (altinorda); Stavropol (Volga) (sahipsiz); Buzuluk (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K069 · Muvahhidler Devleti (`muvahhidler`) · 1150-01-01 → 1235-01-01 · 101.112 km²
+
+- nokta [33.962, -1.9], en büyük kesit 1230-11-09 · kesit sayısı 13 · sınıf sayımı {'ADA': 4, 'KARA-EKSKLAV': 2}
+- çevre: merini 15%, hafsi 11%
+- koridor: 99.1 km · merini 7/9, DENIZ/BOS 2/9
+- içindeki yerleşimler (10, s.eksklav 8): Tâhert (Tiaret) (sahipsiz); Şelif (sahipsiz); Fîgîg (Figuig) (sahipsiz); Vecde (Oujda) (muvahhidler); Tilimsan (muvahhidler); Nedrûme (sahipsiz); Ayn Temûşent (sahipsiz); Muaskar (sahipsiz) … +2
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K070 · İtalya (`italya`) · 1885-02-05 → 1936-06-01 · 100.851 km²
+
+- nokta [15.68, 38.282], en büyük kesit 1923-10-29 · kesit sayısı 18 · sınıf sayımı {'KARA-EKSKLAV': 7}
+- çevre: habesistan 62%, ingiliz-sudani 37%, mehdi 21%
+- koridor: 1003.9 km · habesistan 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (12, s.eksklav 0): Adi Kuala (italya); Adi Kayh (italya); Debârve (italya); Barentu (italya); Zula (italya); Asmara (italya); Ğındâ (italya); Arkîko (italya) … +4
+- koridor yerleşimleri: İmi (habesistan)
+- **HÜKÜM:** _bekliyor_
+
+### K071 · Osmanlı (`OSMANLI`) · 1604-06-08 → 1607-01-01 · 98.293 km²
+
+- nokta [41.365, 47.735], en büyük kesit 1604-06-08 · kesit sayısı 5 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: safevi 21%, kaheti-kralligi 12%, rusya 8%
+- koridor: 84.8 km · safevi 9/9
+- içindeki yerleşimler (19, s.eksklav 0): Mahmudâbâd (OSMANLI); Hadrut (sahipsiz); Salyan (OSMANLI); Şuşa (sahipsiz); Hankendi (Stepanakert) (sahipsiz); Askeran (sahipsiz); Ağdere (Martakert) (sahipsiz); Bakü (OSMANLI) … +11
+- koridor yerleşimleri: Şerur (Sharur) (safevi)
+- **HÜKÜM:** _bekliyor_
+
+### K072 · Fransa (`fransa`) · 1661-01-01 → 1763-02-10 · 97.092 km²
+
+- nokta [51.563, -76.156], en büyük kesit 1661-01-01 · kesit sayısı 64 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: kri 13%
+- koridor: 280.9 km · kri 7/9, DENIZ/BOS 2/9
+- içindeki yerleşimler (1, s.eksklav 0): Nemiscau (fransa)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K073 · Britanya (`ingiltere`) · 1899-04-09 → 1911-01-01 · 95.030 km²
+
+- nokta [-0.166, 30.727], en büyük kesit 1901-12-20 · kesit sayısı 26 · sınıf sayımı {'KARA-EKSKLAV': 8}
+- çevre: kongo-serbest-devleti 21%, buganda 21%, ingiliz-uganda-himayesi 17%
+- koridor: 16.8 km · ingiliz-uganda-himayesi 5/9, DENIZ/BOS 4/9
+- içindeki yerleşimler (5, s.eksklav 0): Bveranyange (Karagve) (ingiltere); Mbarara (Nkore) (ingiltere); Hoima (Bunyoro) (ingiltere); Fort Portal (Toro) (ingiltere); Masindi (ingiltere)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K074 · Britanya (`ingiltere`) · 1781-05-08 → 1783-09-03 · 93.303 km²
+
+- nokta [29.881, -82.471], en büyük kesit 1781-05-08 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: creek-konfederasyonu 19%, abd 8%, ispanya 5%
+- koridor: 87.7 km · ispanya 5/9, creek-konfederasyonu 4/9
+- içindeki yerleşimler (2, s.eksklav 0): St. Augustine (ingiltere); Mission San Luis (Apalaçi) (ingiltere)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K075 · Osmanlı (`OSMANLI`) · 1623-11-28 → 1638-12-24 · 89.304 km²
+
+- nokta [30.145, 46.422], en büyük kesit 1629-01-01 · kesit sayısı 13 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: safevi 42%
+- koridor: 385.3 km · safevi 9/9
+- içindeki yerleşimler (14, s.eksklav 0): Kuveyt (sahipsiz); Fâv (OSMANLI); Abâdân (OSMANLI); Eski Basra (Zübeyr) (sahipsiz); Muhammere (sahipsiz); Basra (OSMANLI); Eridu (Abu Shahrain) (sahipsiz); Charax Spasinou (sahipsiz) … +6
+- koridor yerleşimleri: Necef (safevi); Hîre (sahipsiz); Kûfe (safevi); Marad (Tell Wannat es-Sadum) (sahipsiz); Dilbat (Tell ed-Duleym) (sahipsiz); Hille (safevi); Babil (sahipsiz); Kiş (Tell Uhaimir) (sahipsiz); Kutha (Tell Ibrahim) (sahipsiz); Sippar (Tell Abu Habbah) (sahipsiz) … +3
+- **HÜKÜM:** _bekliyor_
+
+### K076 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1753-04-01 → 1760-01-01 · 89.226 km²
+
+- nokta [20.07, 73.631], en büyük kesit 1753-04-01 · kesit sayısı 5 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: haydarabad-nizam 44%, maratha 31%, baroda 6%
+- koridor: 475.5 km · maratha 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (5, s.eksklav 0): Ahmednagar (babur-imparatorlugu); Pratishthana (Paithan) (sahipsiz); Nâsik (babur-imparatorlugu); Sûrat (babur-imparatorlugu); Broaç (Bharuch) (babur-imparatorlugu)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K077 · Altın Orda ve ardılları (`altinorda`) · 1466-01-01 → 1502-03-01 · 87.935 km²
+
+- nokta [49.599, 48.045], en büyük kesit 1500-01-01 · kesit sayısı 4 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: astarhan 60%, nogay 5%
+- koridor: 33.4 km · astarhan 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Rın kumulları (Volga-Yayık arası) (altinorda); Kamışin (altinorda)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K078 · Osmanlı (`OSMANLI`) · 1871-04-20 → 1913-07-08 · 87.498 km²
+
+- nokta [25.858, 49.047], en büyük kesit 1871-04-20 · kesit sayısı 43 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: suud-ikinci 19%, katar 9%, TABI 6%
+- koridor: 198.1 km · TABI 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (4, s.eksklav 0): Lahsa (OSMANLI); Katîf (OSMANLI); Cübeyl (OSMANLI); Ukayr (Uceyr) (OSMANLI)
+- koridor yerleşimleri: Kuveyt (TABI)
+- **HÜKÜM:** _bekliyor_
+
+### K079 · Qing Hanedanı (Mançu) (`qing-hanedani`) · 1659-01-07 → 1677-01-01 · 87.494 km²
+
+- nokta [22.456, 110.786], en büyük kesit 1676-04-05 · kesit sayısı 9 · sınıf sayımı {'DAR-AYRIM': 4, 'KARA-EKSKLAV': 1}
+- çevre: san-fan 36%
+- koridor: 493.7 km · san-fan 9/9
+- içindeki yerleşimler (3, s.eksklav 0): Leizhou (qing-hanedani); Beihai (Pakhoi) (qing-hanedani); Wuzhou (qing-hanedani)
+- koridor yerleşimleri: Chenzhou (Hunan) (san-fan)
+- **HÜKÜM:** _bekliyor_
+
+### K080 · Avusturya (Habsburg) (`avusturya`) · 1809-10-14 → 1915-10-01 · 87.155 km²
+
+- nokta [49.472, 23.139], en büyük kesit 1915-09-01 · kesit sayısı 19 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: rusya 33%, macaristan-habsburg 22%, habsburg 21%
+- koridor: 22.6 km · almanya 5/9, DENIZ/BOS 2/9, macaristan-habsburg 2/9
+- içindeki yerleşimler (8, s.eksklav 0): Suçava (Suceava) (avusturya); Çernovitz (Çernivtsi) (avusturya); Yazlofça (Yazlovets) (avusturya); Lvov (avusturya); Zamość (avusturya); Chełm (Kholm) (avusturya); Lublin (avusturya); Radom (Polonya) (avusturya)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K081 · Portekiz (`portekiz`) · 1640-12-01 → 1975-11-11 · 86.895 km²
+
+- nokta [39.791, -8.045], en büyük kesit 1822-09-07 · kesit sayısı 96 · sınıf sayımı {'KARA-EKSKLAV': 10}
+- çevre: ispanya 57%
+- koridor: 5400.4 km · DENIZ/BOS 4/9, fas 1/9, tuareg-adag 1/9, adar 1/9, borgu 1/9, nri 1/9
+- içindeki yerleşimler (11, s.eksklav 0): Faro (portekiz); Lagos (Algarve) (portekiz); Setúbal (portekiz); Évora (portekiz); Lizbon (portekiz); Santarém (Şenterîn) (sahipsiz); Coimbra (portekiz); Aveiro (portekiz) … +3
+- koridor yerleşimleri: Soyo (kongo-kralligi); Puent-Nuar (sahipsiz); Loango (Buali) (loango); Cibanga (sahipsiz); Librevil (Libreville) (sahipsiz); Bonny (nijer-deltasi); Owerri (sahipsiz); Onitsha (benin-kralligi); Busa (Borgu) (borgu); Tinğîr (fas) … +2
+- **HÜKÜM:** _bekliyor_
+
+### K082 · Portekiz (`portekiz`) · 1530-01-01 → 1580-08-25 · 86.268 km²
+
+- nokta [39.788, -8.039], en büyük kesit 1541-03-12 · kesit sayısı 24 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: ispanya 55%
+- koridor: 7161.6 km · DENIZ/BOS 3/9, merini 2/9, tuareg-ahaggar 1/9, agadez-sultanligi 1/9, kanem-bornu 1/9, banda-gbaya 1/9
+- içindeki yerleşimler (11, s.eksklav 0): Faro (portekiz); Lagos (Algarve) (portekiz); Setúbal (portekiz); Évora (portekiz); Lizbon (portekiz); Santarém (Şenterîn) (sahipsiz); Coimbra (portekiz); Aveiro (portekiz) … +3
+- koridor yerleşimleri: Goure (sahipsiz); Advâr (Tuvât) (merini); Benî Abbâs (Sâvre) (merini); Agadez (agadez-sultanligi); Hoggar (sahipsiz); Mvansabombve (Kazembe) (sahipsiz); Sefrû (merini); Fas (Fez) (merini); Vezzân (Ouezzane) (merini); Kasrülkebîr (merini) … +2
+- **HÜKÜM:** _bekliyor_
+
+### K083 · Konbaung Hanedanı (Birmanya) (`konbaung`) · 1752-04-23 → 1757-05-06 · 85.833 km²
+
+- nokta [19.084, 98.717], en büyük kesit 1755-05-03 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: ayutthaya 19%, laos-kralliklari 19%, san-devletleri 12%
+- koridor: 33.6 km · hanthawaddy 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Lamphun (Haripuñjaya) (konbaung); Nan (konbaung); Chiang Mai (konbaung); Chiang Rai (konbaung)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K084 · Toungoo Hanedanı (Birmanya) (`toungoo`) · 1740-01-01 → 1752-04-23 · 85.751 km²
+
+- nokta [19.084, 98.717], en büyük kesit 1740-01-01 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: ayutthaya 19%, laos-kralliklari 19%, san-devletleri 12%
+- koridor: 33.6 km · hanthawaddy 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Lamphun (Haripuñjaya) (toungoo); Nan (toungoo); Chiang Mai (toungoo); Chiang Rai (toungoo)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K085 · Delhi Sultanlığı (`delhi-sultanligi`) · 1394-01-01 → 1479-01-01 · 81.686 km²
+
+- nokta [24.6, 84.411], en büyük kesit 1451-01-01 · kesit sayısı 7 · sınıf sayımı {'KARA-EKSKLAV': 4}
+- çevre: cavnpur-sultanligi 26%, bengal-sultanligi 21%, kalacuri-ratnapura 14%
+- koridor: 364.5 km · cavnpur-sultanligi 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Rohtasgarh (sahipsiz); Gayâ (delhi-sultanligi); Rajagriha (Rājgīr) (sahipsiz); Patna (Azîmâbâd) (delhi-sultanligi)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K086 · Kiev Rus'u (Kiev Büyük Knezliği) (`kiev-rusu`) · 1136-01-01 → 1224-01-01 · 81.062 km²
+
+- nokta [58.135, 25.263], en büyük kesit 1136-01-01 · kesit sayısı 6 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: novgorod 14%, polotsk-knezligi 13%
+- koridor: 344.7 km · polotsk-knezligi 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (9, s.eksklav 0): Abrene (Pıtalovo) (sahipsiz); Pskov (sahipsiz); Petseri (Peçori) (sahipsiz); Yam (Yamburg, Kingisepp) (sahipsiz); Narva (sahipsiz); Cēsis (Wenden) (sahipsiz); Tartu (Dorpat) (kiev-rusu); Pärnu (sahipsiz) … +1
+- koridor yerleşimleri: Daugavpils (Dünaburg) (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K087 · Wiçita (`wicita`) · 1750-01-01 → 1849-01-01 · 80.417 km²
+
+- nokta [38.375, -98.218], en büyük kesit 1805-01-01 · kesit sayısı 6 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: ponka 30%, pavni 12%
+- koridor: 184.1 km · ponka 6/9, DENIZ/BOS 3/9
+- içindeki yerleşimler (2, s.eksklav 0): Quivira (Wiçita, Büyük Bükülme) (wicita); Fort Riley (Kansas Irmağı) (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K088 · İngiliz Kuzey Amerikası (`ingiliz-kuzey-amerika`) · 1763-02-10 → 1786-01-01 · 80.298 km²
+
+- nokta [48.585, -94.618], en büyük kesit 1777-01-01 · kesit sayısı 8 · sınıf sayımı {'KARA-EKSKLAV': 3}
+- çevre: ingiltere 11%
+- koridor: 95.4 km · ingiltere 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Fort St. Pierre (Rainy Lake) (ingiliz-kuzey-amerika)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K089 · Kanem-Bornu İmparatorluğu (`kanem-bornu`) · 1893-01-01 → 1900-04-22 · 80.180 km²
+
+- nokta [14.155, 15.624], en büyük kesit 1893-01-01 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: kanem-tubu 33%, bagirmi 16%, rabih 15%
+- koridor: 243.4 km · kanem-tubu 9/9
+- içindeki yerleşimler (1, s.eksklav 0): Mao (Kanem) (kanem-bornu)
+- koridor yerleşimleri: N'Gazargamu (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K090 · Maratha Konfederasyonu (`maratha`) · 1761-01-14 → 1803-10-17 · 79.066 km²
+
+- nokta [28.608, 77.651], en büyük kesit 1788-01-01 · kesit sayısı 12 · sınıf sayımı {'KARA-EKSKLAV': 9}
+- çevre: babur-imparatorlugu 55%, bharatpur-cat 31%, avad 26%
+- koridor: 252.8 km · gvalyar 6/9, DENIZ/BOS 3/9
+- içindeki yerleşimler (6, s.eksklav 1): Agra (maratha); Mathura (maratha); Koil (Aligarh) (maratha); Delhi (maratha); Mîrat (Meerut) (maratha); Pânipat (maratha)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K091 · Wiçita (`wicita`) · 1450-01-01 → 1682-04-09 · 78.727 km²
+
+- nokta [35.231, -94.701], en büyük kesit 1450-01-01 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: ponka 20%
+- koridor: 173.2 km · ponka 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Spiro (wicita); Fort Smith (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K092 · Hârizmşahlar (Anuştegin hânedanı) (`harizmsah`) · 1187-03-13 → 1200-07-04 · 77.257 km²
+
+- nokta [35.425, 58.366], en büyük kesit 1193-01-07 · kesit sayısı 3 · sınıf sayımı {'ADA': 1, 'KARA-EKSKLAV': 1}
+- çevre: gurlu 16%
+- koridor: 56.4 km · gurlu 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (4, s.eksklav 0): Turşiz (Kâşmer) (sahipsiz); Turbet-i Haydariye (sahipsiz); Nîşâbur (harizmsah); Sebzevâr (sahipsiz)
+- koridor yerleşimleri: Turbet-i Câm (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K093 · Hârizmşahlar (Anuştegin hânedanı) (`harizmsah`) · 1202-01-01 → 1208-01-01 · 77.257 km²
+
+- nokta [35.425, 58.366], en büyük kesit 1204-01-01 · kesit sayısı 5 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: gurlu 16%
+- koridor: 56.4 km · gurlu 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (4, s.eksklav 0): Turşiz (Kâşmer) (sahipsiz); Turbet-i Haydariye (sahipsiz); Nîşâbur (harizmsah); Sebzevâr (sahipsiz)
+- koridor yerleşimleri: Turbet-i Câm (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K094 · Büyük Selçuklu Devleti (`buyuk-selcuklu`) · 1041-01-01 → 1064-01-01 · 77.248 km²
+
+- nokta [35.425, 58.366], en büyük kesit 1063-01-04 · kesit sayısı 11 · sınıf sayımı {'KARA-EKSKLAV': 5}
+- çevre: gazneli 16%
+- koridor: 56.4 km · gazneli 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (4, s.eksklav 0): Turşiz (Kâşmer) (sahipsiz); Turbet-i Haydariye (sahipsiz); Nîşâbur (buyuk-selcuklu); Sebzevâr (sahipsiz)
+- koridor yerleşimleri: Turbet-i Câm (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K095 · Büyük Selçuklu Devleti (`buyuk-selcuklu`) · 1038-05-09 → 1040-05-23 · 77.248 km²
+
+- nokta [35.425, 58.366], en büyük kesit 1040-01-01 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: gazneli 16%
+- koridor: 56.4 km · gazneli 8/9, DENIZ/BOS 1/9
+- içindeki yerleşimler (4, s.eksklav 0): Turşiz (Kâşmer) (sahipsiz); Turbet-i Haydariye (sahipsiz); Nîşâbur (buyuk-selcuklu); Sebzevâr (sahipsiz)
+- koridor yerleşimleri: Turbet-i Câm (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K096 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1724-10-11 → 1751-05-17 · 76.116 km²
+
+- nokta [20.997, 85.916], en büyük kesit 1750-09-11 · kesit sayısı 11 · sınıf sayımı {'KARA-EKSKLAV': 9}
+- çevre: bengal-nevabligi 14%, haydarabad-nizam 8%
+- koridor: 698.5 km · nagpur-bhonsle 5/9, DENIZ/BOS 4/9
+- içindeki yerleşimler (5, s.eksklav 0): Banapur (sahipsiz); Puri (babur-imparatorlugu); Kattak (Cuttack) (babur-imparatorlugu); Jajpur (sahipsiz); Bâlâsor (Balasore) (babur-imparatorlugu)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K097 · Wiçita (`wicita`) · 1849-01-01 → 1853-01-01 · 72.661 km²
+
+- nokta [34.117, -97.734], en büyük kesit 1849-01-01 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: abd 47%, ponka 18%
+- koridor: 186.3 km · ponka 9/9
+- içindeki yerleşimler (2, s.eksklav 0): Taovaya (İspanyol Kalesi, Kızıl Irmak) (wicita); Fort Sill (Wiçita Dağları) (sahipsiz)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K098 · Timurlu valiliği (`timurlu`) · 1500-01-01 → 1504-01-01 · 72.211 km²
+
+- nokta [40.654, 71.98], en büyük kesit 1500-01-01 · kesit sayısı 1 · sınıf sayımı {'KARA-EKSKLAV': 1}
+- çevre: mogulistan 14%, buhara 12%
+- koridor: 346.3 km · buhara 9/9
+- içindeki yerleşimler (6, s.eksklav 0): Hucend (timurlu); Oş (timurlu); Hokand (timurlu); Fergana (sahipsiz); Andican (timurlu); Özkent (Uzgen) (sahipsiz)
+- koridor yerleşimleri: Bactria (sahipsiz)
+- **HÜKÜM:** _bekliyor_
+
+### K099 · Bâbürlü (Timurlu-Hint) İmparatorluğu (`babur-imparatorlugu`) · 1572-11-18 → 1573-02-26 · 71.908 km²
+
+- nokta [23.441, 72.244], en büyük kesit 1572-11-20 · kesit sayısı 2 · sınıf sayımı {'KARA-EKSKLAV': 2}
+- çevre: gucerat-sultanligi 43%, racput 38%, portekiz 2%
+- koridor: 91.7 km · racput 5/9, DENIZ/BOS 3/9, gucerat-sultanligi 1/9
+- içindeki yerleşimler (5, s.eksklav 0): Lothal (sahipsiz); Wadhwan (Vardhamana) (babur-imparatorlugu); Dholka (babur-imparatorlugu); Ahmedâbâd (babur-imparatorlugu); Patan (Anhilvâda) (babur-imparatorlugu)
+- koridor yerleşimleri: —
+- **HÜKÜM:** _bekliyor_
+
+### K100 · Milliyetçi İspanya (Franco, Burgos) (`ispanya-milliyetci`) · 1936-07-19 → 1939-03-28 · 71.686 km²
+
+- nokta [39.058, -6.424], en büyük kesit 1938-01-07 · kesit sayısı 11 · sınıf sayımı {'KARA-EKSKLAV': 6}
+- çevre: ispanya 74%, portekiz 31%
+- koridor: 53.4 km · ispanya 9/9
+- içindeki yerleşimler (4, s.eksklav 0): Sevilla (ispanya-milliyetci); Ilipa (Alcalá del Río) (sahipsiz); Badajoz (ispanya-milliyetci); Salamanca (ispanya-milliyetci)
+- koridor yerleşimleri: Simancas (ispanya); Valladolid (ispanya-milliyetci)
+- **HÜKÜM:** _bekliyor_
