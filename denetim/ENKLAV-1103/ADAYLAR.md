@@ -26,18 +26,18 @@ ADA ve DAR-AYRIM bu gece incelenmedi (koordinatör kararı); yalnız sayı.
 
 `s.eksklav` taşıyan dönem: 247 (yerleşim 197). Devletlere göre: venedik 69, fransa-cumhuriyet 52, italya 37, ispanya 26, avusturya-hollandasi 17, kuzey-yuan 12, ingiltere 11, sardinya 4, almanya 2, fransa 2, mehdi 2, rusya 2, ingiliz-hindistani 2, kongo-serbest-devleti 2, ingiliz-malaya 2, sicilya-aragon 1, burgonya 1, timurlu 1, portekiz 1, hollanda 1.
 
-## Hüküm özeti — 65 / 221 aday hükümlü
+## Hüküm özeti — 88 / 221 aday hükümlü
 
 Güven: **OLCUM** = yalnız ölçülmüş veri olgusu (noktasızlık, kayıt alanı, gün çakışması) · **KAYNAKLI** = akademik kaynak okundu · **KAYNAK-GEREK** = tarihsel iddia teyitsiz, KASA uygulamadan önce kaynak sırasıyla teyit eder, gün uydurulmaz.
 
 | kova | OLCUM | KAYNAKLI | KAYNAK-GEREK |
 |---|---|---|---|
-| GERCEK | 0 | 0 | 10 |
-| BIRLESMELI | 8 | 0 | 2 |
-| YAPAY-a | 18 | 0 | 3 |
-| YAPAY-b | 3 | 0 | 1 |
-| YAPAY-c | 3 | 0 | 7 |
-| YAPAY-d | 4 | 0 | 1 |
+| GERCEK | 0 | 3 | 16 |
+| BIRLESMELI | 9 | 0 | 2 |
+| YAPAY-a | 19 | 0 | 3 |
+| YAPAY-b | 3 | 0 | 2 |
+| YAPAY-c | 8 | 0 | 10 |
+| YAPAY-d | 6 | 0 | 2 |
 | YAPAY-m | 5 | 0 | 0 |
 
 Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YAPAY-c parçanın içindeki yerleşimin dönemi yanlış · YAPAY-d kısa ara (gün çakışması) · YAPAY-m motor (veriyle çözülmez) · BIRLESMELI ara yerleşime dönem yazılınca parça ana gövdeye bağlanır.
@@ -291,7 +291,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 210.4 km · sovyet-rusya 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (1, s.eksklav 0): Çita (uzak-dogu-cumhuriyeti)
 - koridor yerleşimleri: Irgen (sovyet-rusya)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-b` · güven `KAYNAK-GEREK`
+  - gerekçe: Ölçüldü: Irgen (Zabaykalye, Çita yakını) 1654-1917 rusya, 1917-11-07 → 1991 kesintisiz sovyet-rusya; Uzak Doğu Cumhuriyeti dönemi yok. Çita (UDC) tek nokta; UDC Zabaykalye'yi ve Amur/Primorye'yi kapsayan bitişik bir tampon devletti, 16 bin km² 'enklav' çevre noktaların UDC'ye yazılmamasından.
+  - önerilen düzeltme: Irgen ve Zabaykalye/Amur noktalarına 1920-1922 UDC dönemi (gün bulunamadı; kuruluş ve Çita başkent geçişi kaynakla sınansın).
+  - kaynak: bulunamadı (TDV kapsamıyor; akademik UDC kaynağı gerek)
 
 ### E022 · Timurlu valiliği (`timurlu`) · 1398-12-17 → 1399-01-01 · 15.417 km²
 
@@ -300,7 +303,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 789.9 km · delhi-sultanligi 7/9, DENIZ/BOS 2/9
 - içindeki yerleşimler (1, s.eksklav 1): Delhi (timurlu)
 - koridor yerleşimleri: Hisâr-ı Fîrûze (delhi-sultanligi); Harappa (sahipsiz); Dera İsmail Han (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Delhi 1398-12-17 → 1399-01-01 timurlu: Timur'un Delhi'yi işgali kısa askerî işgaldir; çevre Delhi Sultanlığı (Hisâr-ı Fîrûze ölçüldü: delhi-sultanligi 1354-1526). Gerçek enklav (14 gün). Harappa, Dera İsmail Han koridorda sahipsiz (alakasız nokta).
+  - önerilen düzeltme: Gün/ay teyidi kaynakla; yapısal düzeltme gerekmez.
+  - kaynak: bulunamadı (Iranica 'Timur' 403 verdi)
 
 ### E023 · Ming Hanedanı (`ming-hanedani`) · 1382-01-06 → 1382-01-15 · 13.572 km²
 
@@ -321,7 +327,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 161.7 km · ispanya 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Sevilla (ispanya-milliyetci); Ilipa (Alcalá del Río) (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Sevilla 1936-07-18 → 1939-04-01 ispanya-milliyetci; Seville darbe günü Queipo de Llano'nun elinde, Cumhuriyet toprağıyla çevrili, Afrika Ordusu bağlantısı Ağustos ortasında kuruldu. Atlas tutarlı; alan şişkin (Cádiz/Córdoba/Granada milliyetçi tutuldu, bu noktalar ayrıca sınanmalı). Ilipa (Alcalá del Río) kayıtta bit 1281: dönemsiz (ölçüldü).
+  - önerilen düzeltme: Cádiz, Córdoba, Granada, Huelva milliyetçi dönemleri 1936-07 sonrası sınansın; Ilipa'ya dönem ya da kaldırma.
+  - kaynak: bulunamadı (TDV kapsamaz; akademik İç Savaş kaynağı gerek)
 
 ### E025 · Habeşistan (`habesistan`) · 1936-06-01 → 1941-11-30 · 12.499 km²
 
@@ -330,7 +339,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 454.5 km · italya 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Cimma (Jiren) (habesistan)
 - koridor yerleşimleri: Addis (italyan-dogu-afrikasi); Ankober (italyan-dogu-afrikasi); Debre Berhan (italyan-dogu-afrikasi)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Cimma kaydı 1933-01-01 → 1974-09-12 'habesistan' kesintisiz; İtalyan Doğu Afrikası dönemi (1936-41) yazılmamış. Koridor noktaları (Addis, Ankober, Debre Berhan) italyan-dogu-afrikasi. Habeşistan 1936-06-01 → 1941 'enklavı' bu eksiklikten.
+  - önerilen düzeltme: Cimma'ya 1936-1941 italyan-dogu-afrikasi (ya da fiilî işgal durumu) dönemi; günler kaynakla (gün bulunamadı).
+  - kaynak: veri ölçümü
 
 ### E026 · Güney Afrika Birliği (`guney-afrika-birligi`) · 1915-07-09 → 1920-12-17 · 12.484 km²
 
@@ -351,7 +363,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 64.3 km · celayirli 9/9
 - içindeki yerleşimler (5, s.eksklav 0): Sippar (Tell Abu Habbah) (sahipsiz); Ktesiphon (sahipsiz); Seleukeia (sahipsiz); Bağdat (timurlu); Eşnunna (Tell Asmar) (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Bağdat 1393-08-29 → 1394-01-01 timurlu: Timur Bağdat'ı alınca Celâyirli Ahmed kaçtı, şehir garnizonu çevre Celâyirli toprağında kaldı; 4 aylık gerçek enklav. 12 bin km² Sippar, Ktesiphon, Seleukeia, Eşnunna dönemsiz (ölçüldü: YOK) noktalarının Bağdat peteğine emilmesinden şişkin.
+  - önerilen düzeltme: Gün 1393-08-29 ve 1394-01-01 teyit. Antik noktalar dönemsiz bırakılmış, gizlensin.
+  - kaynak: TDV celayirliler atlas kaydından yalnız 1393 yılı; gün bulunamadı
 
 ### E028 · Timurlu valiliği (`timurlu`) · 1401-01-01 → 1405-01-01 · 12.177 km²
 
@@ -360,7 +375,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 64.3 km · celayirli 9/9
 - içindeki yerleşimler (5, s.eksklav 0): Sippar (Tell Abu Habbah) (sahipsiz); Ktesiphon (sahipsiz); Seleukeia (sahipsiz); Bağdat (timurlu); Eşnunna (Tell Asmar) (sahipsiz)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Bağdat 1401-01-01 → 1405-01-01 timurlu: başlangıç 1 Ocak yıl-hassasiyeti; Timur Bağdat'ı Temmuz 1401'de aldı (teyitsiz), yani ilk 6 ay sahte enklav. Alan şişkini E027 ile aynı.
+  - önerilen düzeltme: Bağdat timurlu f → 1401-07 (gün bulunamadı); t 1405-01-01 teyit.
+  - kaynak: bulunamadı (Iranica 'Jalayerids' 403)
 
 ### E029 · Karakoyunlular (`karakoyunlu`) · 1408-04-13 → 1410-01-01 · 11.834 km²
 
@@ -369,7 +387,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 12.0 km · timurlu 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Ebher (Abhar) (sahipsiz); Sultâniye (karakoyunlu); Şemîrân Kalesi (sahipsiz)
 - koridor yerleşimleri: Deylem (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-a` · güven `OLCUM`
+  - gerekçe: Ölçüldü: 50 km içinde yalnız Sultâniye (karakoyunlu 1408-04-13 → 1469) var; Ebher (Abhar) ve Şemîrân Kalesi 'bit 1281' dönemsiz, Deylem sahipsiz; Zencan (51 km) 1383-1410 timurlu, Kazvin (107 km) 1387-1452 timurlu. 11,8 bin km² kopuk parça Sultâniye'nin noktasız emilmesinden. Sultâniye'nin 1408 Karakoyunlu sahibi kaynaksız (Zencan 1410'a dek timurlu).
+  - önerilen düzeltme: Ebher (Abhar) gerçek ortaçağ şehridir: dönem yazılsın; Sultâniye 1408-04-13 ve Zencan 1410 kaynakla hizalansın.
+  - kaynak: veri ölçümü; TDV 'sultaniyye' slug'ı Memlük askerî birliği maddesi çıktı (yanlış madde), Sultâniye şehri maddesi bulunamadı
 
 ### E030 · Karakoyunlular (`karakoyunlu`) · 1469-01-01 → 1469-04-01 · 11.834 km²
 
@@ -378,7 +399,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 12.0 km · akkoyunlu 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Ebher (Abhar) (sahipsiz); Sultâniye (karakoyunlu); Şemîrân Kalesi (sahipsiz)
 - koridor yerleşimleri: Deylem (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Zencan ve Kazvin 1469-01-01'de akkoyunlu olurken Sultâniye 1469-04-01'e kadar karakoyunlu; 3 aylık kopukluk, ayrıca E029'daki noktasız emilme.
+  - önerilen düzeltme: Sultâniye karakoyunlu t'si Zencan/Kazvin ile hizalansın (gün bulunamadı); Ebher'e dönem.
+  - kaynak: veri ölçümü
 
 ### E031 · Safevî İran (`safevi`) · 1501-07-01 → 1503-01-01 · 11.809 km²
 
@@ -387,7 +411,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 12.0 km · akkoyunlu 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Ebher (Abhar) (sahipsiz); Sultâniye (safevi); Şemîrân Kalesi (sahipsiz)
 - koridor yerleşimleri: Deylem (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Sultâniye safevi 1501-07-01'den; Zencan ve Kazvin 1503-01-01'e dek akkoyunlu (Zencan kaydı TDV safeviler alıntılı: 909/1503). 17 aylık kopukluk; Sultâniye f=1501-07-01 şüpheli. Noktasız emilme E029 ile aynı.
+  - önerilen düzeltme: Sultâniye safevi f kaynakla (1503 civarı olabilir); gün bulunamadı.
+  - kaynak: veri ölçümü; TDV zencan atlas kaydında alıntılı
 
 ### E032 · Britanya (`ingiltere`) · 1918-12-17 → 1920-07-07 · 9.752 km²
 
@@ -396,7 +423,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 362.3 km · OSMANLI 9/9
 - içindeki yerleşimler (9, s.eksklav 0): Artvin (ingiltere); Şavşat (ingiltere); Saylıca (gurcistan-demokratik-cumhuriyeti); Borçka (ingiltere); Sarp (ingiltere); Murvaneti (ingiltere); Makhalak’auri (ingiltere); Batum (ingiltere) … +1
 - koridor yerleşimleri: Malikiye (Derik) (fransa-cumhuriyet); Cibri (Güçlü) (OSMANLI); Cizre (OSMANLI); Siirt (OSMANLI); Bitlis (OSMANLI)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: TDV Batum: 'şehir İngilizler tarafından işgal edildi (24 Aralık 1918)'; 'Temmuz 1920'de çekildiklerinde Batum'u da boşalttılar ve buraya Gürcistan hükümeti el koydu'. Batum bölgesi Osmanlı toprağıyla İngiliz Irak/Musul işgalinden kopuk gerçek dış parça. Ölçüldü: Artvin, Şavşat, Borçka f=1918-12-17, TDV'nin Batum işgal günü 24 Aralık'tan 7 gün önce; Saylıca 1918-04-03 → 1919-04-20 dönemsiz.
+  - önerilen düzeltme: Artvin/Şavşat/Borçka ingiltere f için kaynak aranmalı; Batum t 1920-07-07 TDV 'Temmuz 1920' ile uyumlu (gün bulunamadı).
+  - kaynak: TDV batum (islamansiklopedisi.org.tr/batum)
 
 ### E033 · Safevî İran (`safevi`) · 1516-03-26 → 1516-05-01 · 9.201 km²
 
@@ -405,7 +435,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 10.3 km · OSMANLI 9/9
 - içindeki yerleşimler (5, s.eksklav 0): Arsamosata (sahipsiz); Palu (safevi); Çemişgezek (safevi); Tunceli (Kalan) (sahipsiz); Hozat (sahipsiz)
 - koridor yerleşimleri: Çayönü Tepesi (sahipsiz); Ergani (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Palu ve Çemişgezek safevi 1507 → 1516-05-01, Osmanlı Diyarbakır çevresinde; Osmanlı fethi (Bıyıklı Mehmed Paşa; TDV palu: 'Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi', tarihsiz). Kopukluk gerçek olabilir; parça Tunceli/Arsamosata/Hozat dönemsiz (ölçüldü) noktalarını emiyor, alan şişkin.
+  - önerilen düzeltme: Palu ve Çemişgezek geçiş günleri (gün bulunamadı); dönemsiz noktalar gizlensin.
+  - kaynak: TDV palu: 'Palu … ele geçirildi' (tarihsiz)
 
 ### E034 · Serbedârîler (`serbedariler`) · 1381-01-01 → 1381-04-01 · 8.782 km²
 
@@ -414,7 +447,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 256.0 km · timurlu 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Meşhed (serbedariler)
 - koridor yerleşimleri: Nîşâbur (timurlu); Sebzevâr (timurlu)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Nîşâbur ve Sebzevâr timurlu f=1381-01-01, Meşhed serbedariler → 1381-04-01; aynı yıl içinde 3 aylık çakışma (Meşhed çevresi yeni timurlu).
+  - önerilen düzeltme: Meşhed t ile Nîşâbur/Sebzevâr f aynı güne hizalansın (Serbedâr teslimi 1381; gün bulunamadı).
+  - kaynak: veri ölçümü; Iranica 'Sarbedarids' 403
 
 ### E035 · Sırbistan Krallığı (Nemanjić Hanedanı) (`sirbistan-nemanjic`) · 1345-01-01 → 1378-01-01 · 8.742 km²
 
@@ -423,7 +459,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 96.3 km · sirbistan 9/9
 - içindeki yerleşimler (5, s.eksklav 0): Balkanlar (sahipsiz); İvranye (Vranje) (sirbistan-nemanjic); Leskofça (Leskovac) (sirbistan-nemanjic); Kurşunlu (Kuršumlija) (sirbistan-nemanjic); Ürküp (Prokuplje) (sirbistan-nemanjic)
 - koridor yerleşimleri: Mitroviça (Mitrovicë) (sahipsiz)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: BIRLESMELI** · kova `BIRLESMELI` · güven `OLCUM`
+  - gerekçe: Ölçüldü: İvranye, Leskofça, Kurşunlu, Ürküp 'sirbistan-nemanjic' (1281-1402); Niş, Şehirköy, Priştine, Alacahisar 'sirbistan'. Aynı Sırp devleti iki kimlikte; sirbistan-nemanjic künyesi harita:'sirbistan' diyor, renk aynı, kopukluk yalnız dnm ayrımında. Balkanlar sahipsiz.
+  - önerilen düzeltme: Aynı devlete tek kimlik ya da evrende birleştirme (ölçüt düzeltmesi); veri değişimi gerekmez.
+  - kaynak: veri ölçümü (devletler.js sirbistan-nemanjic harita: sirbistan)
 
 ### E036 · Safevî İran (`safevi`) · 1516-08-24 → 1517-05-01 · 8.282 km²
 
@@ -432,7 +471,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 102.6 km · OSMANLI 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Mardin (safevi); Mezopotamya (sahipsiz); Midyat (safevi); Hasankeyf (safevi)
 - koridor yerleşimleri: Siirt (OSMANLI); Bitlis (OSMANLI)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: TDV Mardin: 'Safevî kuvvetleri kaleye çekildi (Ekim 1515)'; Bıyıklı Mehmed Paşa 'burayı 1516 sonlarında (veya Mayıs 1517) zaptetti'. Mardin Safevî elinde kaldı; atlas 1507 → 1517-05-01 TDV'nin ikinci seçeneğiyle uyumlu. Midyat, Hasankeyf aynı sürede safevi (kaynaksız); Mezopotamya/Batman dönemsiz (ölçüldü).
+  - önerilen düzeltme: Gün bulunamadı (TDV 'veya' diyor: ic_not'a iki seçenek); Midyat, Hasankeyf için ayrı kaynak.
+  - kaynak: TDV mardin (islamansiklopedisi.org.tr/mardin)
 
 ### E037 · Macaristan Krallığı (Habsburg Tacı) (`macaristan-habsburg`) · 1685-10-12 → 1686-09-02 · 8.100 km²
 
@@ -441,7 +483,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 27.9 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Solnok (Szolnok) (macaristan-habsburg)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Solnok (Szolnok) macaristan-habsburg f=1685-10-12; çevre Osmanlı. Szolnok'un 1685 sonunda Habsburg eline geçip Buda'ya (1686) dek ayrı kalması muhtemel ama teyitsiz; tek noktalı parça.
+  - önerilen düzeltme: Gün 1685-10-12 ve t=1686-09-02 sınansın.
+  - kaynak: bulunamadı
 
 ### E038 · Karakoyunlular (`karakoyunlu`) · 1450-01-01 → 1457-01-01 · 7.620 km²
 
@@ -450,7 +495,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 34.8 km · akkoyunlu 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Kemah (karakoyunlu); Erzincan (karakoyunlu); Refahiye (karakoyunlu)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: TDV Erzincan: 'Uzun Hasan Karakoyunlular'ı yenerek Erzincan'ı yeniden Akkoyunlu hâkimiyetine aldı (1457)'; 1422-1457 Akkoyunlu-Karakoyunlu arasında el değiştirdi. Atlas 1450 → 1457 karakoyunlu Erzincan/Kemah/Refahiye ile uyumlu; 1450 başlangıcı TDV'de yok.
+  - önerilen düzeltme: 1450-01-01 başlangıç yıl-teyitsiz; 1457 günü bulunamadı.
+  - kaynak: TDV erzincan (islamansiklopedisi.org.tr/erzincan)
 
 ### E039 · Rodezya ve Nyasaland Federasyonu (Orta Afrika Federasyonu) (`rodezya-nyasaland-federasyonu`) · 1953-08-01 → 1963-12-31 · 6.658 km²
 
@@ -459,7 +507,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 271.4 km · ingiltere 9/9
 - içindeki yerleşimler (2, s.eksklav 0): Bulavayo (ingiltere); Bulawayo (rodezya-nyasaland-federasyonu)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Bulavayo (ingiltere 1893-1965) ve Bulawayo (federasyon 1953-1963) aynı yerin çift kaydı (-20.15, 28.58). Federasyon yalnız Bulawayo'ya yazılı; Federasyon Güney/Kuzey Rodezya ve Nyasaland'ı kapsıyordu. Tek noktalı sahte enklav.
+  - önerilen düzeltme: Bulawayo mükerrerini birleştir; federasyon dönemini bütün üyelere yaz.
+  - kaynak: veri ölçümü
 
 ### E040 · Yemen İmamlığı (`yemen`) · 1547-01-01 → 1547-02-01 · 6.593 km²
 
@@ -468,7 +519,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 79.8 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Taiz (yemen)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-d` · güven `KAYNAK-GEREK`
+  - gerekçe: Taiz yemen 1517-04-15 → 1547-02-01; çevre Osmanlı. Ölçüldü: 1547-02-01 → 1629-01-01 Taiz'in dönem kaydı hiç yok. 1 aylık parça Osmanlı fetih günü teyitsizliğinden.
+  - önerilen düzeltme: Taiz 1547 sonrası Osmanlı dönemi eklensin; fetih günü kaynakla (gün bulunamadı).
+  - kaynak: bulunamadı (TDV 'yemen' önerilir)
 
 ### E041 · Yemen İmamlığı (`yemen`) · 1629-01-01 → 1635-01-01 · 6.593 km²
 
@@ -477,7 +531,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 79.8 km · OSMANLI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Taiz (yemen)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
+  - gerekçe: Taiz yemen f=1629-01-01 (yıl hassasiyeti); Osmanlı Sana'yı 1629'da kaybetti, Yemen'den 1635'te çıktı; Taiz'in Zeydî elinde, çevrenin Osmanlı kalması muhtemel gerçek ama teyitsiz. 1547-1629 Taiz sahipsiz (ölçüldü).
+  - önerilen düzeltme: Taiz 1629 başlangıcı ve Osmanlı çıkışı kaynakla; 1547-1629 dolgusu.
+  - kaynak: bulunamadı
 
 ### E042 · Osmanlı (`OSMANLI`) · 1920-04-23 → 1923-10-29 · 6.553 km²
 
@@ -486,7 +543,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 364.7 km · tbmm-turkiye 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Batman (sahipsiz); Meyyâfârikīn (OSMANLI); Erzen (sahipsiz); Hallan Çemi (sahipsiz)
 - koridor yerleşimleri: Maraş (tbmm-turkiye); Nevalı Çori (sahipsiz); Samosata (Samsat) (sahipsiz); Behisni (Besni) (tbmm-turkiye); Siverek (tbmm-turkiye); Hısn-ı Mansûr (Adıyaman) (tbmm-turkiye); Kâhta (tbmm-turkiye); Diyarbakır (tbmm-turkiye)
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Meyyâfârikīn (Silvan) d: 1515-01-01 → 1923-10-29 (OSMANLI); s: TBMM dönemi yok; Maraş, Siverek, Diyarbakır tbmm-turkiye 1920-04-23'ten. Batman, Erzen, Hallan Çemi dönemsiz. Osmanlı 'enklavı' Silvan d: bitişinin 1920-04-23'te kesilmemesinden.
+  - önerilen düzeltme: Meyyâfârikīn d t → 1920-04-23 ve s: tbmm-turkiye 1920-04-23 → 1923-10-29; dönemsiz noktalara bit.
+  - kaynak: veri ölçümü
 
 ### E043 · Celâyirliler (`celayirli`) · 1340-01-01 → 1353-01-01 · 6.383 km²
 
@@ -495,7 +555,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 21.3 km · ilhanli 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Siirt (celayirli)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Siirt kaydındaki TDV alıntısı: 'Celâyirliler'in hâkimiyeti altına giren Siirt, Timur istilâsını da gördükten sonra' — Celâyirli sahipliği var ama 1340 yılı yok (künye f'sinden). Ölçüldü: çevre Meyyâfârikīn ilhanli 1264-1353, Siirt celayirli 1340-1394: 13 yıllık çakışma. [LAB SALI: güven KAYNAK-GEREK'e indirildi — kaynak sayfası okunmadı]
+  - önerilen düzeltme: Siirt celayirli f yıl-teyitsiz; ilhanli/celayirli geçişi komşularla hizalansın (gün bulunamadı).
+  - kaynak: TDV siirt (atlas kaydındaki alıntı; sayfayı okumadım)
 
 ### E044 · Macaristan (`macaristan`) · 1526-11-10 → 1526-12-17 · 6.094 km²
 
@@ -504,7 +567,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 11.4 km · TABI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Gyula (Göle) (macaristan)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `OLCUM`
+  - gerekçe: Ölçüldü: Solnok 1526-11-10 → 1541 v: Zapolya vasal krallığı (TABI), Gyula ise 1526-12-17'ye dek s: macaristan, v: yalnız 1530-01-01'den. Çevre TABI 100%, Gyula aynı Macaristan: aynı Zapolya alanı iki katmanda tutarsız.
+  - önerilen düzeltme: Gyula'ya Mohaç sonrası v: Zapolya dönemi (1526-11-10) ya da s tutarlılığı; gün kaynakla.
+  - kaynak: veri ölçümü
 
 ### E045 · Macaristan Krallığı (Habsburg Tacı) (`macaristan-habsburg`) · 1526-12-17 → 1530-01-01 · 6.094 km²
 
@@ -513,7 +579,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 32.9 km · TABI 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Gyula (Göle) (macaristan-habsburg)
 - koridor yerleşimleri: —
-- **HÜKÜM:** _bekliyor_
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
+  - gerekçe: Gyula macaristan-habsburg 1526-12-17 → 1530-01-01; çevre TABI (Zapolya) 100%. Habsburg 17 Aralık 1526 Ferdinand seçimi; Gyula'nın Ferdinand tarafında kalması teyitsiz (Zapolya doğu Macaristan'ı tuttu). Solnok ile tutarsız, E044 ile aynı kova.
+  - önerilen düzeltme: Gyula dönemi kaynakla (Zapolya mı Ferdinand mı); gün bulunamadı.
+  - kaynak: bulunamadı
 
 ### E046 · Kutsal Roma / Almanya (`almanya`) · 1941-10-25 → 1943-02-16 · 6.040 km²
 

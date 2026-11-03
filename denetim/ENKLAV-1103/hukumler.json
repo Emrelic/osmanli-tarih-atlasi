@@ -1,68 +1,707 @@
 {
 "_aciklama": "ENKLAV-1103 hükümleri. guven: KAYNAKLI (akademik kaynak okundu) · OLCUM (hüküm yalnız ölçülmüş veri olgusuna dayanır: noktasızlık, kayıt alanı, gün çakışması; tarihsel iddia yok) · KAYNAK-GEREK (tarihsel iddia model bilgisi; KASA uygulamadan önce kaynak sırasıyla teyit etmeli, gün uydurulmaz). kova: GERCEK · YAPAY-a NOKTASIZ-EMILME · YAPAY-b ARA-DONEM-EKSIK · YAPAY-c PARCA-DONEM-YANLIS · YAPAY-d KISA-ARA · YAPAY-m MOTOR (veriyle çözülmez, HAVVA/motor sorusu) · BIRLESMELI. E001-E020 ilk taslağı Sonnet alt ajanın (web erişimi çoğunlukla Vikipedi aynası döndü); LAB SALI veriyle sınadı, E004/E012/E026 düzeltildi.",
-"E001": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "KAYNAK-GEREK", "gerekce": "Timur Sultâniye'yi 1385'te aldı (Âdil Ağa'ya verdi), Tebriz 1386. 1383-84'te Sultâniye/Sakkız/Merîvan Celâyirli idi. 74 yerleşimin çoğu sahipsiz: alan noktasız emilmeyle 253 bin km²ye şişmiş. Koridordaki Tahran/Kazvin 'muzafferi' kaydı da şüpheli.", "duzeltme": "Sultâniye, Sakkız, Merîvan: timurlu f → 1385 (gün bulunamadı), öncesi celayirli. Tahran, Kazvin 1383-87 sahibi kaynakla sınansın. Parça içindeki sahipsiz noktalar (Senendec, Bîcâr, Bâne, Ebher…) Değişmez 1 açısından ayrıca bakılsın.", "kaynak": "DergiPark makalesi dergipark.org.tr/en/download/article-file/3863407 (Sultâniye 1385, Âdil Ağa) — alt ajan; Iranica 'Timur' çekilemedi"},
-"E002": {"hukum": "YAPAY", "kova": "YAPAY-b", "guven": "KAYNAK-GEREK", "gerekce": "Smolensk–Orel–Kursk–Gomel Alman askerî idaresi ile Reichskommissariat Ostland bitişikti; kopukluk Ostland'ın ayrı devlet boyanmasından. Ayrıca çevre %100 'sovyet-rusya': Sol yaka Ukrayna noktalarında (Poltava, Çuguyev, Sumı, Yekaterinoslav, Kremençuk) 1941-43 Alman işgali yok (ölçüldü, bkz. E046).", "duzeltme": "Model kararı (KASA/koordinatör): Ostland–Almanya askerî idare bağlılığı beyan ya da tek tutucu. Veri: Sol yaka Ukrayna şehirlerine 1941-43 işgal dönemleri (E046 kovası).", "kaynak": "bulunamadı (Smolensk 16.07.1941, Orel 03.10.1941, Bryansk 06.10.1941 — teyitsiz)"},
-"E003": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Sevâkin ve Kızıldeniz kıyısı 1885-98 Mehdîlere karşı İngiliz-Mısır elinde: gerçek enklav. 1898 Ümmüderman sonrası Sudan bütünüyle Anglo-Mısır; 1898-1923 kısmı YAPAY (Mehdî boyası sürüyor olabilir). Alan noktasız emilmeyle şişkin.", "duzeltme": "1898-99 sonrası Sudan iç noktalarında mehdi dönemi biter mi sınansın; Sevâkin vb. s: tutarlılığı. Gün bulunamadı.", "kaynak": "bulunamadı (TDV 'Sevâkin' önerilir)"},
-"E004": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "OLCUM", "gerekce": "Ölçüldü: Güneybatı Afrika noktaları (Gobabis, Aranos) 1915-07-09 → 1920-12-17 'ingiltere'; aynı aralıkta komşu noktalar 'guney-afrika-birligi'. Bölge Güney Afrika Birliği askerî işgalinde/idaresindeydi (Khorab 9.7.1915); karışık sahiplik parçayı çevreletiyor. Parçada nokta yok.", "duzeltme": "Güneybatı Afrika'daki bütün noktalar: 1915-07-09 → 1920-12-17 d:'ingiltere' → 'guney-afrika-birligi' (Gobabis, Aranos ve aynı dönemi taşıyanlar). Kaynak ile teyit.", "kaynak": "veri ölçümü; tarih: Khorab teslimi 9.7.1915 (kaynak gerek: Cambridge History of Africa c.7)"},
-"E005": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Nâdir sonrası Afşar hâkimiyeti Meşhed merkezli Horasan'a çekildi (Şâhruh 1748-96). Çekirdek gerçek; ama çevrenin %94 'zend' olması şüpheli — Zendler Horasan'a uzanmadı.", "duzeltme": "Horasan çevresi (Tûs/Nîşâbur dışı) noktalarında 1747-85 zend dönemleri sınansın.", "kaynak": "Kyoto Üniv. deposu 2433/155132 (özet); Iranica 'Afsharids' çekilemedi"},
-"E006": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "KAYNAK-GEREK", "gerekce": "1803-18'de İngilizler Gucerat'ta Surat/Broach/Kaira'yı tuttu; Wadhwan (Kathiawar) ve Dholka doğrudan İngiliz değildi (Dholka 1817-18'e dek Peşva/Gaekwad).", "duzeltme": "Wadhwan, Dholka: 1818 öncesi ingiliz-hindistani dönemi kaldırılsın/düzeltilsin; gün bulunamadı.", "kaynak": "bulunamadı (Imperial Gazetteer of India 'Kaira', 'Ahmadabad' önerilir)"},
-"E007": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Delhi'nin Gucerat fethi 1299 (Ulug Han/Nusret Han), Vaghela 1304'te düştü; arada Racput toprakları. 1297 başlangıcı erken (YAPAY-c kısmı).", "duzeltme": "Wadhwan/Dholka delhi-sultanligi f 1297 → 1299 (gün bulunamadı).", "kaynak": "bulunamadı (TDV 'Alâeddin Halcî' önerilir)"},
-"E008": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "KAYNAK-GEREK", "gerekce": "Çitor 1303'te Delhi'ye düştü; Hammîr 1321 ya da 1326'da geri aldı. 1311 başlangıcı erken; 1326 sonrası gerçek.", "duzeltme": "Çitor racput f 1311 → 1321/1326 (kaynak çelişkisi ic_not'a); öncesi delhi-sultanligi.", "kaynak": "yalnız Vikipedi ipucu — akademik bulunamadı"},
-"E009": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "KAYNAK-GEREK", "gerekce": "Tek nokta bir bölge adı ('Stavropol–Kuma bozkırı'); Stavropol 1777'de Rus kalesi. Hanlık 1777-83 Rus himayesinde; bölge noktasız emilme.", "duzeltme": "'Stavropol–Kuma bozkırı' kirim 1777-83 dönemi kaynakla sınansın; yoksa kırp.", "kaynak": "bulunamadı (TDV 'Şâhin Giray' önerilir)"},
-"E010": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "KAYNAK-GEREK", "gerekce": "Penza 1663'te Rus kalesi olarak kuruldu; 1556-1663 'Penza (nogay)' o devirde yoktu (merdiven ④).", "duzeltme": "Penza: kur 1663 (gün bulunamadı), nogay dönemleri silinsin; toprak komşu peteklere kalır.", "kaynak": "bulunamadı"},
-"E011": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Yûnus Han Taşkent'i 1484'te aldı, Mahmud Han 1503'e dek tuttu. Çekirdek gerçek; koridorun 8/9 'timurlu' boyanması şüpheli (arada Kazak/Özbek bozkırı).", "duzeltme": "Taşkent mogulistan f 1485 → 1484 (gün bulunamadı); koridor bozkır noktaları sınansın.", "kaynak": "yalnız Vikipedi ipucu"},
-"E012": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "KAYNAK-GEREK", "gerekce": "Orel 03.10.1941'de Guderian'ın Sevsk–Kromı ekseniyle alındı; ileri uç Alman hattına bağlıydı. 3 günlük kopukluk koridorda (Sevsk, Dmitrovsk, Kromı) nokta olmamasından (koridor yerleşimi 0, ölçüldü). [alt ajan GERÇEK demişti; LAB SALI düzeltti]", "duzeltme": "Koridora nokta (Sevsk ya da Kromı) + 1941-10 Alman dönemi, kaynakla; yoksa beyanlı kabul.", "kaynak": "bulunamadı"},
-"E013": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı.", "duzeltme": "1720-30'lar Codhpûr fiilî hâkimiyeti sınansın.", "kaynak": "bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')"},
-"E014": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Ajmer-Merwara 1818-1947 İngiliz doğrudan idaresi, Rajputana içinde klasik enklav. Gerçek alan ~7.000 km²; petek 26.574 km² (noktasız emilme abartısı).", "duzeltme": "yok (alan abartısı için Merwara çevresine Racput noktası önerilir)", "kaynak": "bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')"},
-"E015": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Ecmîr 1756'dan Sindia (Maratha) elinde, 1818'de İngiliz. 1787-91 Racput geri alışı sınanmalı.", "duzeltme": "1756-01-01 yıl-başı; gün bulunamadı.", "kaynak": "bulunamadı"},
-"E016": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "KAYNAK-GEREK", "gerekce": "1853 antlaşmasıyla Berar İngilizlere atandı; Nizam'ın Marathwada'sı (Evrengâbâd) Nanded hattında ana gövdeye bitişikti. 34 km 'İngiliz koridoru' Berar peteğinin noktasız şişmesi.", "duzeltme": "Nanded/Hingoli'ye Nizam noktası (kaynakla).", "kaynak": "bulunamadı (Aitchison, Treaties)"},
-"E017": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "KAYNAK-GEREK", "gerekce": "Tâhert/Tagdemt 1841 Mayıs'ında Bugeaud yıkana dek Emîr'in iç merkeziydi; atlas Tâhert'i fransa yaparak Mesîle–Bû Saâde parçasını ayırıyor.", "duzeltme": "Tâhert (Tiaret): fransa-cumhuriyet f → 1841-05 sonrası (gün bulunamadı), arası abdulkadir.", "kaynak": "TDV 'Abdülkādir el-Cezâirî' (tam metin çekilemedi)"},
-"E018": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "KAYNAK-GEREK", "gerekce": "Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit.", "duzeltme": "Kalyani (Basavakalyan) bicapur dönemi 1657 sonrası kaldırılsın (gün bulunamadı).", "kaynak": "yalnız Vikipedi ipucu"},
-"E019": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "KAYNAK-GEREK", "gerekce": "Nyangwe'yi Svahili-Arap tüccar beylikleri tuttu; Zengibar sultanlığı orada fiilî hâkim değildi. 883 km koridor.", "duzeltme": "Nyangwe 1893 öncesi sahibi kaynakla; Kongo Serbest Devleti 04.03.1893 (teyitsiz).", "kaynak": "bulunamadı"},
-"E020": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Bagration sonrası Sovyetler 27.07.1944'te Şiauliai'ye ulaşıp Litvanya cebini Letonya'dan kesti; Kaunas 01.08.1944. 5 günlük cephe anı.", "duzeltme": "yok", "kaynak": "bulunamadı"},
-"E023": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "OLCUM", "gerekce": "Ölçüldü: Dali 1382-01-06'dan ming, çevresi (Chuxiong, Yuanjiang, Tonghai) 1382-01-15'e dek kuzey-yuan. Dali'nin (Duan ailesi) Ming'e düşüşü Kunming'den sonradır; Dali'nin ming başlangıcı Kunming'le aynı güne yazılmış görünüyor.", "duzeltme": "Dali ming f 1382-01-06 → Dali'nin fethi (1382 baharı; gün bulunamadı), arası kuzey-yuan/Duan. Kaynak: Cambridge History of China c.7 ya da Ming Shilu.", "kaynak": "veri ölçümü; tarih kaynak gerek"},
-"E026": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Caprivi (Katima Mulilo 'ingiltere') çevresinde noktasız yüz Güney Afrika noktasına emiliyor; parçanın tek noktası Katima Mulilo başka sahipli. E004 ile aynı karışık sahiplik.", "duzeltme": "E004 düzeltmesi + Caprivi'nin 1915-20 sahibi (Bechuanaland idaresi) kaynakla sınansın.", "kaynak": "veri ölçümü"},
-"E046": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "OLCUM", "gerekce": "Harkov'un güneybatısındaki noktasız yüz (49,82K 35,85D) Harkov peteğine emiliyor; Harkov 1941-10 → 1943-02 almanya, çevresi ise sovyet-rusya: Poltava, Çuguyev, Sumı, İzyum, Yekaterinoslav, Kremençuk, Lubnı, Bahmut 1917-11-07 → 1991-08-24 kesintisiz sovyet-rusya (ölçüldü). Bu şehirlerin Alman işgali yazılmamış.", "duzeltme": "Poltava, Çuguyev, Sumı, İzyum, Yekaterinoslav (Dnipro), Kremençuk, Lubnı, Bahmut: 1941-43 Alman işgali dönemleri (günler kaynakla; ör. Poltava 1941-09-18 → 1943-09-23 teyitsiz). Ek: yetim yüze nokta (Merefa ya da Valki).", "kaynak": "veri ölçümü; günler için Encyclopedia of Ukraine (CIUS) önerilir"},
-"E047": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "OLCUM", "gerekce": "E046 ile aynı yetim yüz, Harkov'un 1943-03-15 → 08-23 ikinci Alman dönemi.", "duzeltme": "E046 kovası.", "kaynak": "veri ölçümü"},
-"E048": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "OLCUM", "gerekce": "Aynı yetim yüz; Harkov 1919-06-25 → 12-11 guney-rusya-beyaz, çevre (Poltava, Çuguyev…) sovyet-rusya. Denikin ordusu 1919 yazında Poltava ve Yekaterinoslav'ı da aldı.", "duzeltme": "Sol yaka Ukrayna noktalarına 1919 Güney Rusya Silahlı Kuvvetleri dönemi (günler kaynakla).", "kaynak": "veri ölçümü; günler kaynak gerek"},
-"E049": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "OLCUM", "gerekce": "Aynı yetim yüz; Harkov 1918-04-29 → 12-14 ukrayna-devleti-1918 (Hetmanlık), çevredeki Poltava, Çuguyev, Yekaterinoslav, Kremençuk, Lubnı ise sovyet-rusya. Hetmanlık bu şehirleri de kapsıyordu.", "duzeltme": "Sol yaka Ukrayna noktalarına Harkov'un 1918 zinciri (ukrayna-halk-cumhuriyeti 04-19→04-29, ukrayna-devleti-1918 04-29→12-14, ukrayna-halk-cumhuriyeti 12-14→1919-01-03), her şehir kendi günüyle kaynakla.", "kaynak": "veri ölçümü; Encyclopedia of Ukraine 'Hetman government' önerilir"},
-"E050": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "OLCUM", "gerekce": "E049 ile aynı — Ukrayna Halk Cumhuriyeti 1918-04-19 → 04-29.", "duzeltme": "E049 kovası.", "kaynak": "veri ölçümü"},
-"E051": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "OLCUM", "gerekce": "E049 ile aynı — UHC 1918-12-14 → 1919-01-03.", "duzeltme": "E049 kovası.", "kaynak": "veri ölçümü"},
-"E052": {"hukum": "YAPAY", "kova": "YAPAY-d", "guven": "OLCUM", "gerekce": "Gümüşhane transkafkasya → 1918-02-28 (TDV gumushane, kayıtta). Çevresi 02-24'te Osmanlı'ya dönmüş: 4 günlük cep, komşu noktaların kurtuluş günleri ile TDV günü arasındaki farktan.", "duzeltme": "Gümüşhane–Trabzon–Kelkit hattındaki komşuların 1918 kurtuluş günleri TDV ile karşılaştırılsın; TDV esastır, çelişki ic_not'a.", "kaynak": "TDV gumushane (kayıtta, 28 Şubat 1918)"},
-"E070": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: 120 km içinde hiç nokta yok (Corrientes/Misiones, -28,2 -57,1). Arjantin içindeki 'Brezilya' parçası noktasız yüz.", "duzeltme": "Arjantin noktası (ör. Santo Tomé ya da Paso de los Libres) kaynakla.", "kaynak": "veri ölçümü"},
-"E073": {"hukum": "YAPAY", "kova": "YAPAY-d", "guven": "OLCUM", "gerekce": "Erzincan transkafkasya → 1918-02-26 (kayıt: TDV erzincan 26 Şubat 1918); komşu Kelkit 02-19'da Osmanlı. 7 günlük cep. Yaygın Türk tarihyazımı Erzincan için 13 Şubat 1918 der; TDV günüyle çelişki ic_not'ta beyan edilmeli.", "duzeltme": "TDV erzincan metni yeniden okunsun (26 Şubat neyi tarihliyor?); Kelkit vb. komşuların günleri TDV'ye göre hizalansın.", "kaynak": "TDV erzincan (kayıtta)"},
-"E077": {"hukum": "YAPAY", "kova": "YAPAY-d", "guven": "OLCUM", "gerekce": "Ölçüldü: Halin konbaung 1752-01-01'den, Alaungpaya'nın merkezi Shwebo (Moksobo) ise 1752-04-23'e dek toungoo. Konbaung'un kurulduğu şehir kendi devletinden sonra başlıyor; parça noktasız.", "duzeltme": "Shwebo ve Halin konbaung f aynı kaynaklı güne hizalansın (Alaungpaya'nın taç giymesi 1752; gün kaynakla: Lieberman 1984 ya da Htin Aung).", "kaynak": "veri ölçümü; gün kaynak gerek"},
-"E082": {"hukum": "YAPAY", "kova": "YAPAY-m", "guven": "OLCUM", "gerekce": "Ölçüldü: Oran'ın peteği Oran Sebhası'nın (tuz gölü) güneyine taşıyor; göl peteği ikiye bölüyor, güney yarısı abdulkadir/tâbi içinde 1.430 km²lik parça. Sîdî Bel Abbès 1843'e dek yok, Ayn Temûşent 56 km. Oran'ın Fransız dönemi 'eksklav:true'.", "duzeltme": "Sebha güneyine (Mekerra/Tlelat) yerel nokta, abi merkez Muaskar zinciriyle (merdiven ⑤). 1831-41 Fransız Oran'ının sınırı Tafna (30.5.1837) metninden okunsun.", "kaynak": "veri ölçümü"},
-"E083": {"hukum": "YAPAY", "kova": "YAPAY-m", "guven": "OLCUM", "gerekce": "Aynı Sebha güneyi parçası, İspanyol Oran'ı (1509-1708). Oran ve Mersa'l-Kebîr 'enklav:true' taşıyor (ölçüldü) ama bayrak yalnız yetim yüz devrini keser; kalenin kendi Voronoi hücresi 30+ km içeri uzanıyor. Presidio hinterlandsızdı.", "duzeltme": "Motor sorusu (HAVVA): enklav:true noktanın hücresi kale çevresiyle sınırlansın. Veri yolu: Sebha güneyine zeyyani/OSMANLI zincirli nokta. Ek: Mersa'l-Kebîr 1505'te İspanyol oldu, kayıt 1509 diyor (TDV vehran ile sınansın).", "kaynak": "veri ölçümü"},
-"E084": {"hukum": "YAPAY", "kova": "YAPAY-m", "guven": "OLCUM", "gerekce": "E083 ile aynı, 1732-1792 ikinci İspanyol dönemi.", "duzeltme": "E083 kovası.", "kaynak": "veri ölçümü"},
-"E089": {"hukum": "YAPAY", "kova": "YAPAY-b", "guven": "OLCUM", "gerekce": "Ölçüldü: koridordaki Câbiye, Banyas, Ain Mallaha, Akrabâ 1516-09'da SAHİPSİZ. Memlûk Deyrülkamer'i ana gövdeye bağlayacak noktalar sahipsiz kaldığı için 4 günlük enklav.", "duzeltme": "Banyas, Câbiye: 1516 Osmanlı fethine dek memluk dönemi (kaynakla). Ain Mallaha, Akrabâ arkeolojik yer ise 1516'da 'o devirde yok' (bit) — merdiven ④.", "kaynak": "veri ölçümü"},
-"E090": {"hukum": "YAPAY", "kova": "YAPAY-d", "guven": "KAYNAK-GEREK", "gerekce": "Benkovac sirp-krajina → 1995-08-07; Fırtına Harekâtı'nda Benkovac 5 Ağustos 1995'te alındı (teyitsiz). Çevre 08-05'te Hırvat.", "duzeltme": "Benkovac t 1995-08-07 → kaynaklı düşüş günü; hirvatistan dönemi eklensin (kayıtta 1995 sonrası dönem YOK — sahipsizlik).", "kaynak": "bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)"},
-"E092": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Şavşat (ingiltere) ile Ardahan/Saylıca (Gürcistan) arasında noktasız yüz; 7 km. Şavşat 1878-1918 Ardahan okrugundaydı, 1919 Batum İngiliz idaresinde gösterilmesi ayrıca sınanmalı.", "duzeltme": "Şavşat 1919-20 sahibi kaynakla (Ardahan okrugu ile Gürcistan'a mı geçti?).", "kaynak": "veri ölçümü"},
-"E094": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Uele havzasında 120 km içinde tek nokta (Niangara). Belçika Kongosu içindeki Fransız parçası noktasız yüz.", "duzeltme": "Uele'ye Belçika Kongosu noktası (Ango ya da Bondo) kaynakla.", "kaynak": "veri ölçümü"},
-"E096": {"hukum": "YAPAY", "kova": "YAPAY-d", "guven": "OLCUM", "gerekce": "Yagodina 1689-09-11 → 09-16 macaristan-habsburg, çevre Osmanlı: 5 günlük cep. D287 Semendire–Jagodina B4 vakasının kardeşi (Jagodina günleri bulunamamıştı).", "duzeltme": "D287 B4 kararı bekliyor; Jagodina 1689 Habsburg günü kaynakla.", "kaynak": "denetim/D3-EKSKLAV-0917.md (bulunamadı beyanı)"},
-"E099": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Pune yakınında (19,33K 73,88D) 60 km içinde nokta yok. 1803-18'de Pune Peşva başkenti; çevrenin 'ingiliz-hindistani' olması seyrek noktadan.", "duzeltme": "Pune (Peşva başkenti) noktası var mı sınansın; yoksa eklensin (maratha → 1817-11-17 İngiliz, kaynakla).", "kaynak": "veri ölçümü"},
-"E100": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Güney Bukovina'da (47,83K 24,97D) 80 km içinde nokta yok; Romanya içinde 'Polonya' parçası.", "duzeltme": "Câmpulung Moldovenesc ya da Vatra Dornei noktası (romanya-kralligi) kaynakla.", "kaynak": "veri ölçümü"},
-"E101": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "E094 ile aynı Uele boşluğu; Belçika Kongosu içinde İngiliz Sudanı parçası.", "duzeltme": "E094 kovası.", "kaynak": "veri ölçümü"},
-"E102": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Fransız Jura'sında (Saint-Claude yöresi) Cenevre peteğinin emdiği yüz; 60 km içinde yalnız Cenevre ve Annemasse.", "duzeltme": "Saint-Claude (fransa) noktası.", "kaynak": "veri ölçümü"},
-"E103": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "KAYNAK-GEREK", "gerekce": "Harmankaya 1299-1313 bizans; çevre Osmanlı. Harmankaya tekfuru Köse Mihal erken dönemde Osman'a katıldı; ihtida yılı (1300'ler başı) ile bizans döneminin sonu karşılaştırılmalı.", "duzeltme": "Harmankaya bizans t → Köse Mihal'in Osman'a katılışı (TDV 'Köse Mihal'), gün bulunamadı.", "kaynak": "TDV 'Köse Mihal' önerilir (okunmadı)"},
-"E104": {"hukum": "YAPAY", "kova": "YAPAY-m", "guven": "OLCUM", "gerekce": "Ölçüldü: Bâdis (Peñón de Vélez) 'enklav:true' (1564-2000), ama Rif kıyısında 174 km²lik hücre İspanyol; Nekor o devirde yok, en yakın Sa'dî noktası el-Hüseyme 49 km. Kayalık bir adanın hücresi karaya taşıyor.", "duzeltme": "Motor sorusu (E083 ile aynı). Veri yolu: Rif kıyısına Sa'dî/Alevî noktası (Bâdis şehri ya da Targuist).", "kaynak": "veri ölçümü"},
-"E105": {"hukum": "YAPAY", "kova": "YAPAY-b", "guven": "OLCUM", "gerekce": "Ölçüldü: Gibea, Hebron, Betar, Ramallah 1516-10'da SAHİPSİZ; Kudüs Osmanlı. Memlûk parçasını sahipsiz noktalar çevreliyor.", "duzeltme": "Hebron, Ramallah: memluk → Osmanlı fethi günü (kaynakla). Gibea, Betar arkeolojik yer ise bit (merdiven ④).", "kaynak": "veri ölçümü"},
-"E106": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "E099 ile aynı Pune boşluğu, 1759.", "duzeltme": "E099 kovası.", "kaynak": "veri ölçümü"},
-"E107": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Marchfeld'de (48,53K 16,77D) Klosterneuburg ve Mikulčice epok dışında; Klosterneuburg kaydı 'bit:1281-01-01' ve dönemsiz — atlasta 1281 sonrası yok.", "duzeltme": "Klosterneuburg kaydı incelensin (bit 1281 neden?); Marchegg ya da Gänserndorf noktası.", "kaynak": "veri ölçümü"},
-"E108": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "KAYNAK-GEREK", "gerekce": "Ölçüldü: Arkot 1714-1801 karnatik; Vellor 1760'tan, Cinci 1761-04-05'ten ingiliz-hindistani. Karnatik nevvabı 31.07.1801 antlaşmasına dek egemendi; Vellor nevvabın kalesiydi. Kançipuram 1763 cagirinde (İngiliz) — doğru olabilir.", "duzeltme": "Vellor (1760 → 1801-07-31) ve Cinci (1761 → 1801-07-31) karnatik (İngiliz garnizonu beyanla). Kaynak: Imperial Gazetteer 'North Arcot', 'South Arcot'.", "kaynak": "veri ölçümü; tarih kaynak gerek"},
-"E109": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Mato Grosso güneyinde (Porto Murtinho yöresi) 80 km içinde nokta yok; Brezilya içinde 'Paraguay' parçası.", "duzeltme": "Porto Murtinho (brezilya) noktası.", "kaynak": "veri ölçümü"},
-"E110": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Elvas/Campo Maior yöresinde Portekiz noktası yok; Badajoz peteği sınırı aşıyor. (Olivenza 1801'den beri İspanyol — o ayrı ve gerçek.)", "duzeltme": "Elvas ve Campo Maior (portekiz) noktaları.", "kaynak": "veri ölçümü"},
-"E111": {"hukum": "YAPAY", "kova": "YAPAY-m", "guven": "OLCUM", "gerekce": "Ölçüldü: Basra'da Şattülarap kıyısında 97 km²lik Kaçar şeridi; koridor 0,1 km, 9 kesitte DAR-AYRIM. Nehir yaslanmasının geometrik artığı.", "duzeltme": "Veri değil motor (nehir yaslanması); HAVVA'ya not.", "kaynak": "veri ölçümü"},
-"E112": {"hukum": "YAPAY", "kova": "YAPAY-b", "guven": "OLCUM", "gerekce": "Ölçüldü: Melun kaydı 'bit:1281-01-01' ve dönemsiz — atlasta 1420'de Melun yok. V. Henry'nin 1420 Melun kuşatması bilinen olay; noktasız yüz İngiliz parçası oluyor.", "duzeltme": "Melun kaydı incelensin (bit 1281 neden? mükerrer mi?); 1420-11 İngiliz alışı (kaynakla).", "kaynak": "veri ölçümü"},
-"E113": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Fin Karelyası'nda (63,5K 30,58D) yakın noktalar Nurmes 59 km, Joensuu 108 km (finlandiya); Sovyet parçası noktasız yüz.", "duzeltme": "Lieksa (finlandiya) noktası.", "kaynak": "veri ölçümü"},
-"E114": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "OLCUM", "gerekce": "Ölçüldü: Maribor ve Ptuj'un 1281 öncesi dönemi yok (ikisi de 1281-01-01'de başlıyor) → 1129-80'de sahipsiz. Ptuj kaydının kendi kaynağı (Hrvatska enciklopedija 'Ptuj') 977'den Salzburg diyor.", "duzeltme": "Ptuj: salzburg-prens-basepiskoposlugu f 1281 → 0977 (kayıttaki kaynak). Maribor: 1281 öncesi Steiermark/almanya zinciri (kaynakla).", "kaynak": "Hrvatska enciklopedija 'Ptuj' (Ptuj kaydında)"},
-"E115": {"hukum": "BIRLESMELI", "kova": "BIRLESMELI", "guven": "OLCUM", "gerekce": "E114 ile aynı, 1276-81.", "duzeltme": "E114 kovası.", "kaynak": "veri ölçümü"},
-"E116": {"hukum": "YAPAY", "kova": "YAPAY-c", "guven": "OLCUM", "gerekce": "E023 ile aynı Ming 1382 Yunnan günü çakışması.", "duzeltme": "E023 kovası.", "kaynak": "veri ölçümü"},
-"E117": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Kırşehir yanında 1,7 km'lik geometrik kopma; parça noktasız.", "duzeltme": "yok (geometri artığı)", "kaynak": "veri ölçümü"},
-"E118": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "E110 ile aynı Badajoz taşması.", "duzeltme": "E110 kovası.", "kaynak": "veri ölçümü"},
-"E119": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Wallowa yöresinde 80 km içinde nokta yok; Nez Perce içinde ABD parçası.", "duzeltme": "Bölgeye nokta (kaynakla) ya da beyan.", "kaynak": "veri ölçümü"},
-"E120": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Engadin'de İsviçre noktası yok (Davos 32 km); Bormio peteği sınırı aşıyor.", "duzeltme": "Zernez ya da Scuol (isvicre) noktası.", "kaynak": "veri ölçümü"},
-"E121": {"hukum": "YAPAY", "kova": "YAPAY-a", "guven": "OLCUM", "gerekce": "Ölçüldü: Valchiavenna/Como gölü kuzeyinde İsviçre parçası; Chiavenna ve Sondrio avusturya, Bellinzona peteği aşıyor.", "duzeltme": "Gravedona ya da Colico noktası.", "kaynak": "veri ölçümü"},
-"K004": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "1960 Ağustos'unda AEF ülkeleri sırayla bağımsız oldu (Çad 11, OAC 13, Kongo 15, Gabon 17); Gabon 6 gün Fransız kalıntısı olarak kaldı. Sömürge çözülmesinin gerçek anı.", "duzeltme": "yok", "kaynak": "bulunamadı"},
-"K050": {"hukum": "GERCEK", "kova": "GERCEK", "guven": "KAYNAK-GEREK", "gerekce": "Çekoslovakya 28.10.1918'de ayrıldı; Galiçya/Bukovina/Silezya Avusturya'da birkaç gün daha kaldı (Batı Ukrayna 1 Kasım, Krakov 31 Ekim). Çözülme anı.", "duzeltme": "yok", "kaynak": "bulunamadı"}
+"E001": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Timur Sultâniye'yi 1385'te aldı (Âdil Ağa'ya verdi), Tebriz 1386. 1383-84'te Sultâniye/Sakkız/Merîvan Celâyirli idi. 74 yerleşimin çoğu sahipsiz: alan noktasız emilmeyle 253 bin km²ye şişmiş. Koridordaki Tahran/Kazvin 'muzafferi' kaydı da şüpheli.",
+"duzeltme": "Sultâniye, Sakkız, Merîvan: timurlu f → 1385 (gün bulunamadı), öncesi celayirli. Tahran, Kazvin 1383-87 sahibi kaynakla sınansın. Parça içindeki sahipsiz noktalar (Senendec, Bîcâr, Bâne, Ebher…) Değişmez 1 açısından ayrıca bakılsın.",
+"kaynak": "DergiPark makalesi dergipark.org.tr/en/download/article-file/3863407 (Sultâniye 1385, Âdil Ağa) — alt ajan; Iranica 'Timur' çekilemedi"
+},
+"E002": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Smolensk–Orel–Kursk–Gomel Alman askerî idaresi ile Reichskommissariat Ostland bitişikti; kopukluk Ostland'ın ayrı devlet boyanmasından. Ayrıca çevre %100 'sovyet-rusya': Sol yaka Ukrayna noktalarında (Poltava, Çuguyev, Sumı, Yekaterinoslav, Kremençuk) 1941-43 Alman işgali yok (ölçüldü, bkz. E046).",
+"duzeltme": "Model kararı (KASA/koordinatör): Ostland–Almanya askerî idare bağlılığı beyan ya da tek tutucu. Veri: Sol yaka Ukrayna şehirlerine 1941-43 işgal dönemleri (E046 kovası).",
+"kaynak": "bulunamadı (Smolensk 16.07.1941, Orel 03.10.1941, Bryansk 06.10.1941 — teyitsiz)"
+},
+"E003": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sevâkin ve Kızıldeniz kıyısı 1885-98 Mehdîlere karşı İngiliz-Mısır elinde: gerçek enklav. 1898 Ümmüderman sonrası Sudan bütünüyle Anglo-Mısır; 1898-1923 kısmı YAPAY (Mehdî boyası sürüyor olabilir). Alan noktasız emilmeyle şişkin.",
+"duzeltme": "1898-99 sonrası Sudan iç noktalarında mehdi dönemi biter mi sınansın; Sevâkin vb. s: tutarlılığı. Gün bulunamadı.",
+"kaynak": "bulunamadı (TDV 'Sevâkin' önerilir)"
+},
+"E004": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Güneybatı Afrika noktaları (Gobabis, Aranos) 1915-07-09 → 1920-12-17 'ingiltere'; aynı aralıkta komşu noktalar 'guney-afrika-birligi'. Bölge Güney Afrika Birliği askerî işgalinde/idaresindeydi (Khorab 9.7.1915); karışık sahiplik parçayı çevreletiyor. Parçada nokta yok.",
+"duzeltme": "Güneybatı Afrika'daki bütün noktalar: 1915-07-09 → 1920-12-17 d:'ingiltere' → 'guney-afrika-birligi' (Gobabis, Aranos ve aynı dönemi taşıyanlar). Kaynak ile teyit.",
+"kaynak": "veri ölçümü; tarih: Khorab teslimi 9.7.1915 (kaynak gerek: Cambridge History of Africa c.7)"
+},
+"E005": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Nâdir sonrası Afşar hâkimiyeti Meşhed merkezli Horasan'a çekildi (Şâhruh 1748-96). Çekirdek gerçek; ama çevrenin %94 'zend' olması şüpheli — Zendler Horasan'a uzanmadı.",
+"duzeltme": "Horasan çevresi (Tûs/Nîşâbur dışı) noktalarında 1747-85 zend dönemleri sınansın.",
+"kaynak": "Kyoto Üniv. deposu 2433/155132 (özet); Iranica 'Afsharids' çekilemedi"
+},
+"E006": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "1803-18'de İngilizler Gucerat'ta Surat/Broach/Kaira'yı tuttu; Wadhwan (Kathiawar) ve Dholka doğrudan İngiliz değildi (Dholka 1817-18'e dek Peşva/Gaekwad).",
+"duzeltme": "Wadhwan, Dholka: 1818 öncesi ingiliz-hindistani dönemi kaldırılsın/düzeltilsin; gün bulunamadı.",
+"kaynak": "bulunamadı (Imperial Gazetteer of India 'Kaira', 'Ahmadabad' önerilir)"
+},
+"E007": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Delhi'nin Gucerat fethi 1299 (Ulug Han/Nusret Han), Vaghela 1304'te düştü; arada Racput toprakları. 1297 başlangıcı erken (YAPAY-c kısmı).",
+"duzeltme": "Wadhwan/Dholka delhi-sultanligi f 1297 → 1299 (gün bulunamadı).",
+"kaynak": "bulunamadı (TDV 'Alâeddin Halcî' önerilir)"
+},
+"E008": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Çitor 1303'te Delhi'ye düştü; Hammîr 1321 ya da 1326'da geri aldı. 1311 başlangıcı erken; 1326 sonrası gerçek.",
+"duzeltme": "Çitor racput f 1311 → 1321/1326 (kaynak çelişkisi ic_not'a); öncesi delhi-sultanligi.",
+"kaynak": "yalnız Vikipedi ipucu — akademik bulunamadı"
+},
+"E009": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tek nokta bir bölge adı ('Stavropol–Kuma bozkırı'); Stavropol 1777'de Rus kalesi. Hanlık 1777-83 Rus himayesinde; bölge noktasız emilme.",
+"duzeltme": "'Stavropol–Kuma bozkırı' kirim 1777-83 dönemi kaynakla sınansın; yoksa kırp.",
+"kaynak": "bulunamadı (TDV 'Şâhin Giray' önerilir)"
+},
+"E010": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Penza 1663'te Rus kalesi olarak kuruldu; 1556-1663 'Penza (nogay)' o devirde yoktu (merdiven ④).",
+"duzeltme": "Penza: kur 1663 (gün bulunamadı), nogay dönemleri silinsin; toprak komşu peteklere kalır.",
+"kaynak": "bulunamadı"
+},
+"E011": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Yûnus Han Taşkent'i 1484'te aldı, Mahmud Han 1503'e dek tuttu. Çekirdek gerçek; koridorun 8/9 'timurlu' boyanması şüpheli (arada Kazak/Özbek bozkırı).",
+"duzeltme": "Taşkent mogulistan f 1485 → 1484 (gün bulunamadı); koridor bozkır noktaları sınansın.",
+"kaynak": "yalnız Vikipedi ipucu"
+},
+"E012": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Orel 03.10.1941'de Guderian'ın Sevsk–Kromı ekseniyle alındı; ileri uç Alman hattına bağlıydı. 3 günlük kopukluk koridorda (Sevsk, Dmitrovsk, Kromı) nokta olmamasından (koridor yerleşimi 0, ölçüldü). [alt ajan GERÇEK demişti; LAB SALI düzeltti]",
+"duzeltme": "Koridora nokta (Sevsk ya da Kromı) + 1941-10 Alman dönemi, kaynakla; yoksa beyanlı kabul.",
+"kaynak": "bulunamadı"
+},
+"E013": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı.",
+"duzeltme": "1720-30'lar Codhpûr fiilî hâkimiyeti sınansın.",
+"kaynak": "bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')"
+},
+"E014": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ajmer-Merwara 1818-1947 İngiliz doğrudan idaresi, Rajputana içinde klasik enklav. Gerçek alan ~7.000 km²; petek 26.574 km² (noktasız emilme abartısı).",
+"duzeltme": "yok (alan abartısı için Merwara çevresine Racput noktası önerilir)",
+"kaynak": "bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')"
+},
+"E015": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ecmîr 1756'dan Sindia (Maratha) elinde, 1818'de İngiliz. 1787-91 Racput geri alışı sınanmalı.",
+"duzeltme": "1756-01-01 yıl-başı; gün bulunamadı.",
+"kaynak": "bulunamadı"
+},
+"E016": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "1853 antlaşmasıyla Berar İngilizlere atandı; Nizam'ın Marathwada'sı (Evrengâbâd) Nanded hattında ana gövdeye bitişikti. 34 km 'İngiliz koridoru' Berar peteğinin noktasız şişmesi.",
+"duzeltme": "Nanded/Hingoli'ye Nizam noktası (kaynakla).",
+"kaynak": "bulunamadı (Aitchison, Treaties)"
+},
+"E017": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tâhert/Tagdemt 1841 Mayıs'ında Bugeaud yıkana dek Emîr'in iç merkeziydi; atlas Tâhert'i fransa yaparak Mesîle–Bû Saâde parçasını ayırıyor.",
+"duzeltme": "Tâhert (Tiaret): fransa-cumhuriyet f → 1841-05 sonrası (gün bulunamadı), arası abdulkadir.",
+"kaynak": "TDV 'Abdülkādir el-Cezâirî' (tam metin çekilemedi)"
+},
+"E018": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit.",
+"duzeltme": "Kalyani (Basavakalyan) bicapur dönemi 1657 sonrası kaldırılsın (gün bulunamadı).",
+"kaynak": "yalnız Vikipedi ipucu"
+},
+"E019": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Nyangwe'yi Svahili-Arap tüccar beylikleri tuttu; Zengibar sultanlığı orada fiilî hâkim değildi. 883 km koridor.",
+"duzeltme": "Nyangwe 1893 öncesi sahibi kaynakla; Kongo Serbest Devleti 04.03.1893 (teyitsiz).",
+"kaynak": "bulunamadı"
+},
+"E020": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bagration sonrası Sovyetler 27.07.1944'te Şiauliai'ye ulaşıp Litvanya cebini Letonya'dan kesti; Kaunas 01.08.1944. 5 günlük cephe anı.",
+"duzeltme": "yok",
+"kaynak": "bulunamadı"
+},
+"E023": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Dali 1382-01-06'dan ming, çevresi (Chuxiong, Yuanjiang, Tonghai) 1382-01-15'e dek kuzey-yuan. Dali'nin (Duan ailesi) Ming'e düşüşü Kunming'den sonradır; Dali'nin ming başlangıcı Kunming'le aynı güne yazılmış görünüyor.",
+"duzeltme": "Dali ming f 1382-01-06 → Dali'nin fethi (1382 baharı; gün bulunamadı), arası kuzey-yuan/Duan. Kaynak: Cambridge History of China c.7 ya da Ming Shilu.",
+"kaynak": "veri ölçümü; tarih kaynak gerek"
+},
+"E026": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Caprivi (Katima Mulilo 'ingiltere') çevresinde noktasız yüz Güney Afrika noktasına emiliyor; parçanın tek noktası Katima Mulilo başka sahipli. E004 ile aynı karışık sahiplik.",
+"duzeltme": "E004 düzeltmesi + Caprivi'nin 1915-20 sahibi (Bechuanaland idaresi) kaynakla sınansın.",
+"kaynak": "veri ölçümü"
+},
+"E046": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Harkov'un güneybatısındaki noktasız yüz (49,82K 35,85D) Harkov peteğine emiliyor; Harkov 1941-10 → 1943-02 almanya, çevresi ise sovyet-rusya: Poltava, Çuguyev, Sumı, İzyum, Yekaterinoslav, Kremençuk, Lubnı, Bahmut 1917-11-07 → 1991-08-24 kesintisiz sovyet-rusya (ölçüldü). Bu şehirlerin Alman işgali yazılmamış.",
+"duzeltme": "Poltava, Çuguyev, Sumı, İzyum, Yekaterinoslav (Dnipro), Kremençuk, Lubnı, Bahmut: 1941-43 Alman işgali dönemleri (günler kaynakla; ör. Poltava 1941-09-18 → 1943-09-23 teyitsiz). Ek: yetim yüze nokta (Merefa ya da Valki).",
+"kaynak": "veri ölçümü; günler için Encyclopedia of Ukraine (CIUS) önerilir"
+},
+"E047": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "E046 ile aynı yetim yüz, Harkov'un 1943-03-15 → 08-23 ikinci Alman dönemi.",
+"duzeltme": "E046 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E048": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Aynı yetim yüz; Harkov 1919-06-25 → 12-11 guney-rusya-beyaz, çevre (Poltava, Çuguyev…) sovyet-rusya. Denikin ordusu 1919 yazında Poltava ve Yekaterinoslav'ı da aldı.",
+"duzeltme": "Sol yaka Ukrayna noktalarına 1919 Güney Rusya Silahlı Kuvvetleri dönemi (günler kaynakla).",
+"kaynak": "veri ölçümü; günler kaynak gerek"
+},
+"E049": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Aynı yetim yüz; Harkov 1918-04-29 → 12-14 ukrayna-devleti-1918 (Hetmanlık), çevredeki Poltava, Çuguyev, Yekaterinoslav, Kremençuk, Lubnı ise sovyet-rusya. Hetmanlık bu şehirleri de kapsıyordu.",
+"duzeltme": "Sol yaka Ukrayna noktalarına Harkov'un 1918 zinciri (ukrayna-halk-cumhuriyeti 04-19→04-29, ukrayna-devleti-1918 04-29→12-14, ukrayna-halk-cumhuriyeti 12-14→1919-01-03), her şehir kendi günüyle kaynakla.",
+"kaynak": "veri ölçümü; Encyclopedia of Ukraine 'Hetman government' önerilir"
+},
+"E050": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "E049 ile aynı — Ukrayna Halk Cumhuriyeti 1918-04-19 → 04-29.",
+"duzeltme": "E049 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E051": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "E049 ile aynı — UHC 1918-12-14 → 1919-01-03.",
+"duzeltme": "E049 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E052": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Gümüşhane transkafkasya → 1918-02-28 (TDV gumushane, kayıtta). Çevresi 02-24'te Osmanlı'ya dönmüş: 4 günlük cep, komşu noktaların kurtuluş günleri ile TDV günü arasındaki farktan.",
+"duzeltme": "Gümüşhane–Trabzon–Kelkit hattındaki komşuların 1918 kurtuluş günleri TDV ile karşılaştırılsın; TDV esastır, çelişki ic_not'a.",
+"kaynak": "TDV gumushane (kayıtta, 28 Şubat 1918)"
+},
+"E070": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: 120 km içinde hiç nokta yok (Corrientes/Misiones, -28,2 -57,1). Arjantin içindeki 'Brezilya' parçası noktasız yüz.",
+"duzeltme": "Arjantin noktası (ör. Santo Tomé ya da Paso de los Libres) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"E073": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Erzincan transkafkasya → 1918-02-26 (kayıt: TDV erzincan 26 Şubat 1918); komşu Kelkit 02-19'da Osmanlı. 7 günlük cep. Yaygın Türk tarihyazımı Erzincan için 13 Şubat 1918 der; TDV günüyle çelişki ic_not'ta beyan edilmeli.",
+"duzeltme": "TDV erzincan metni yeniden okunsun (26 Şubat neyi tarihliyor?); Kelkit vb. komşuların günleri TDV'ye göre hizalansın.",
+"kaynak": "TDV erzincan (kayıtta)"
+},
+"E077": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Halin konbaung 1752-01-01'den, Alaungpaya'nın merkezi Shwebo (Moksobo) ise 1752-04-23'e dek toungoo. Konbaung'un kurulduğu şehir kendi devletinden sonra başlıyor; parça noktasız.",
+"duzeltme": "Shwebo ve Halin konbaung f aynı kaynaklı güne hizalansın (Alaungpaya'nın taç giymesi 1752; gün kaynakla: Lieberman 1984 ya da Htin Aung).",
+"kaynak": "veri ölçümü; gün kaynak gerek"
+},
+"E082": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Oran'ın peteği Oran Sebhası'nın (tuz gölü) güneyine taşıyor; göl peteği ikiye bölüyor, güney yarısı abdulkadir/tâbi içinde 1.430 km²lik parça. Sîdî Bel Abbès 1843'e dek yok, Ayn Temûşent 56 km. Oran'ın Fransız dönemi 'eksklav:true'.",
+"duzeltme": "Sebha güneyine (Mekerra/Tlelat) yerel nokta, abi merkez Muaskar zinciriyle (merdiven ⑤). 1831-41 Fransız Oran'ının sınırı Tafna (30.5.1837) metninden okunsun.",
+"kaynak": "veri ölçümü"
+},
+"E083": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Aynı Sebha güneyi parçası, İspanyol Oran'ı (1509-1708). Oran ve Mersa'l-Kebîr 'enklav:true' taşıyor (ölçüldü) ama bayrak yalnız yetim yüz devrini keser; kalenin kendi Voronoi hücresi 30+ km içeri uzanıyor. Presidio hinterlandsızdı.",
+"duzeltme": "Motor sorusu (HAVVA): enklav:true noktanın hücresi kale çevresiyle sınırlansın. Veri yolu: Sebha güneyine zeyyani/OSMANLI zincirli nokta. Ek: Mersa'l-Kebîr 1505'te İspanyol oldu, kayıt 1509 diyor (TDV vehran ile sınansın).",
+"kaynak": "veri ölçümü"
+},
+"E084": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "E083 ile aynı, 1732-1792 ikinci İspanyol dönemi.",
+"duzeltme": "E083 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E089": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: koridordaki Câbiye, Banyas, Ain Mallaha, Akrabâ 1516-09'da SAHİPSİZ. Memlûk Deyrülkamer'i ana gövdeye bağlayacak noktalar sahipsiz kaldığı için 4 günlük enklav.",
+"duzeltme": "Banyas, Câbiye: 1516 Osmanlı fethine dek memluk dönemi (kaynakla). Ain Mallaha, Akrabâ arkeolojik yer ise 1516'da 'o devirde yok' (bit) — merdiven ④.",
+"kaynak": "veri ölçümü"
+},
+"E090": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Benkovac sirp-krajina → 1995-08-07; Fırtına Harekâtı'nda Benkovac 5 Ağustos 1995'te alındı (teyitsiz). Çevre 08-05'te Hırvat.",
+"duzeltme": "Benkovac t 1995-08-07 → kaynaklı düşüş günü; hirvatistan dönemi eklensin (kayıtta 1995 sonrası dönem YOK — sahipsizlik).",
+"kaynak": "bulunamadı (Hrvatska enciklopedija 'Oluja' önerilir)"
+},
+"E092": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Şavşat (ingiltere) ile Ardahan/Saylıca (Gürcistan) arasında noktasız yüz; 7 km. Şavşat 1878-1918 Ardahan okrugundaydı, 1919 Batum İngiliz idaresinde gösterilmesi ayrıca sınanmalı.",
+"duzeltme": "Şavşat 1919-20 sahibi kaynakla (Ardahan okrugu ile Gürcistan'a mı geçti?).",
+"kaynak": "veri ölçümü"
+},
+"E094": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Uele havzasında 120 km içinde tek nokta (Niangara). Belçika Kongosu içindeki Fransız parçası noktasız yüz.",
+"duzeltme": "Uele'ye Belçika Kongosu noktası (Ango ya da Bondo) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"E096": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Yagodina 1689-09-11 → 09-16 macaristan-habsburg, çevre Osmanlı: 5 günlük cep. D287 Semendire–Jagodina B4 vakasının kardeşi (Jagodina günleri bulunamamıştı).",
+"duzeltme": "D287 B4 kararı bekliyor; Jagodina 1689 Habsburg günü kaynakla.",
+"kaynak": "denetim/D3-EKSKLAV-0917.md (bulunamadı beyanı)"
+},
+"E099": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Pune yakınında (19,33K 73,88D) 60 km içinde nokta yok. 1803-18'de Pune Peşva başkenti; çevrenin 'ingiliz-hindistani' olması seyrek noktadan.",
+"duzeltme": "Pune (Peşva başkenti) noktası var mı sınansın; yoksa eklensin (maratha → 1817-11-17 İngiliz, kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"E100": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Güney Bukovina'da (47,83K 24,97D) 80 km içinde nokta yok; Romanya içinde 'Polonya' parçası.",
+"duzeltme": "Câmpulung Moldovenesc ya da Vatra Dornei noktası (romanya-kralligi) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"E101": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "E094 ile aynı Uele boşluğu; Belçika Kongosu içinde İngiliz Sudanı parçası.",
+"duzeltme": "E094 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E102": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Fransız Jura'sında (Saint-Claude yöresi) Cenevre peteğinin emdiği yüz; 60 km içinde yalnız Cenevre ve Annemasse.",
+"duzeltme": "Saint-Claude (fransa) noktası.",
+"kaynak": "veri ölçümü"
+},
+"E103": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Harmankaya 1299-1313 bizans; çevre Osmanlı. Harmankaya tekfuru Köse Mihal erken dönemde Osman'a katıldı; ihtida yılı (1300'ler başı) ile bizans döneminin sonu karşılaştırılmalı.",
+"duzeltme": "Harmankaya bizans t → Köse Mihal'in Osman'a katılışı (TDV 'Köse Mihal'), gün bulunamadı.",
+"kaynak": "TDV 'Köse Mihal' önerilir (okunmadı)"
+},
+"E104": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Bâdis (Peñón de Vélez) 'enklav:true' (1564-2000), ama Rif kıyısında 174 km²lik hücre İspanyol; Nekor o devirde yok, en yakın Sa'dî noktası el-Hüseyme 49 km. Kayalık bir adanın hücresi karaya taşıyor.",
+"duzeltme": "Motor sorusu (E083 ile aynı). Veri yolu: Rif kıyısına Sa'dî/Alevî noktası (Bâdis şehri ya da Targuist).",
+"kaynak": "veri ölçümü"
+},
+"E105": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Gibea, Hebron, Betar, Ramallah 1516-10'da SAHİPSİZ; Kudüs Osmanlı. Memlûk parçasını sahipsiz noktalar çevreliyor.",
+"duzeltme": "Hebron, Ramallah: memluk → Osmanlı fethi günü (kaynakla). Gibea, Betar arkeolojik yer ise bit (merdiven ④).",
+"kaynak": "veri ölçümü"
+},
+"E106": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "E099 ile aynı Pune boşluğu, 1759.",
+"duzeltme": "E099 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E107": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Marchfeld'de (48,53K 16,77D) Klosterneuburg ve Mikulčice epok dışında; Klosterneuburg kaydı 'bit:1281-01-01' ve dönemsiz — atlasta 1281 sonrası yok.",
+"duzeltme": "Klosterneuburg kaydı incelensin (bit 1281 neden?); Marchegg ya da Gänserndorf noktası.",
+"kaynak": "veri ölçümü"
+},
+"E108": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ölçüldü: Arkot 1714-1801 karnatik; Vellor 1760'tan, Cinci 1761-04-05'ten ingiliz-hindistani. Karnatik nevvabı 31.07.1801 antlaşmasına dek egemendi; Vellor nevvabın kalesiydi. Kançipuram 1763 cagirinde (İngiliz) — doğru olabilir.",
+"duzeltme": "Vellor (1760 → 1801-07-31) ve Cinci (1761 → 1801-07-31) karnatik (İngiliz garnizonu beyanla). Kaynak: Imperial Gazetteer 'North Arcot', 'South Arcot'.",
+"kaynak": "veri ölçümü; tarih kaynak gerek"
+},
+"E109": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Mato Grosso güneyinde (Porto Murtinho yöresi) 80 km içinde nokta yok; Brezilya içinde 'Paraguay' parçası.",
+"duzeltme": "Porto Murtinho (brezilya) noktası.",
+"kaynak": "veri ölçümü"
+},
+"E110": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Elvas/Campo Maior yöresinde Portekiz noktası yok; Badajoz peteği sınırı aşıyor. (Olivenza 1801'den beri İspanyol — o ayrı ve gerçek.)",
+"duzeltme": "Elvas ve Campo Maior (portekiz) noktaları.",
+"kaynak": "veri ölçümü"
+},
+"E111": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Basra'da Şattülarap kıyısında 97 km²lik Kaçar şeridi; koridor 0,1 km, 9 kesitte DAR-AYRIM. Nehir yaslanmasının geometrik artığı.",
+"duzeltme": "Veri değil motor (nehir yaslanması); HAVVA'ya not.",
+"kaynak": "veri ölçümü"
+},
+"E112": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Melun kaydı 'bit:1281-01-01' ve dönemsiz — atlasta 1420'de Melun yok. V. Henry'nin 1420 Melun kuşatması bilinen olay; noktasız yüz İngiliz parçası oluyor.",
+"duzeltme": "Melun kaydı incelensin (bit 1281 neden? mükerrer mi?); 1420-11 İngiliz alışı (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"E113": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Fin Karelyası'nda (63,5K 30,58D) yakın noktalar Nurmes 59 km, Joensuu 108 km (finlandiya); Sovyet parçası noktasız yüz.",
+"duzeltme": "Lieksa (finlandiya) noktası.",
+"kaynak": "veri ölçümü"
+},
+"E114": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Maribor ve Ptuj'un 1281 öncesi dönemi yok (ikisi de 1281-01-01'de başlıyor) → 1129-80'de sahipsiz. Ptuj kaydının kendi kaynağı (Hrvatska enciklopedija 'Ptuj') 977'den Salzburg diyor.",
+"duzeltme": "Ptuj: salzburg-prens-basepiskoposlugu f 1281 → 0977 (kayıttaki kaynak). Maribor: 1281 öncesi Steiermark/almanya zinciri (kaynakla).",
+"kaynak": "Hrvatska enciklopedija 'Ptuj' (Ptuj kaydında)"
+},
+"E115": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "E114 ile aynı, 1276-81.",
+"duzeltme": "E114 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E116": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "E023 ile aynı Ming 1382 Yunnan günü çakışması.",
+"duzeltme": "E023 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E117": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Kırşehir yanında 1,7 km'lik geometrik kopma; parça noktasız.",
+"duzeltme": "yok (geometri artığı)",
+"kaynak": "veri ölçümü"
+},
+"E118": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "E110 ile aynı Badajoz taşması.",
+"duzeltme": "E110 kovası.",
+"kaynak": "veri ölçümü"
+},
+"E119": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Wallowa yöresinde 80 km içinde nokta yok; Nez Perce içinde ABD parçası.",
+"duzeltme": "Bölgeye nokta (kaynakla) ya da beyan.",
+"kaynak": "veri ölçümü"
+},
+"E120": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Engadin'de İsviçre noktası yok (Davos 32 km); Bormio peteği sınırı aşıyor.",
+"duzeltme": "Zernez ya da Scuol (isvicre) noktası.",
+"kaynak": "veri ölçümü"
+},
+"E121": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Valchiavenna/Como gölü kuzeyinde İsviçre parçası; Chiavenna ve Sondrio avusturya, Bellinzona peteği aşıyor.",
+"duzeltme": "Gravedona ya da Colico noktası.",
+"kaynak": "veri ölçümü"
+},
+"K004": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "1960 Ağustos'unda AEF ülkeleri sırayla bağımsız oldu (Çad 11, OAC 13, Kongo 15, Gabon 17); Gabon 6 gün Fransız kalıntısı olarak kaldı. Sömürge çözülmesinin gerçek anı.",
+"duzeltme": "yok",
+"kaynak": "bulunamadı"
+},
+"K050": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Çekoslovakya 28.10.1918'de ayrıldı; Galiçya/Bukovina/Silezya Avusturya'da birkaç gün daha kaldı (Batı Ukrayna 1 Kasım, Krakov 31 Ekim). Çözülme anı.",
+"duzeltme": "yok",
+"kaynak": "bulunamadı"
+},
+"E021": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ölçüldü: Irgen (Zabaykalye, Çita yakını) 1654-1917 rusya, 1917-11-07 → 1991 kesintisiz sovyet-rusya; Uzak Doğu Cumhuriyeti dönemi yok. Çita (UDC) tek nokta; UDC Zabaykalye'yi ve Amur/Primorye'yi kapsayan bitişik bir tampon devletti, 16 bin km² 'enklav' çevre noktaların UDC'ye yazılmamasından.",
+"duzeltme": "Irgen ve Zabaykalye/Amur noktalarına 1920-1922 UDC dönemi (gün bulunamadı; kuruluş ve Çita başkent geçişi kaynakla sınansın).",
+"kaynak": "bulunamadı (TDV kapsamıyor; akademik UDC kaynağı gerek)"
+},
+"E022": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Delhi 1398-12-17 → 1399-01-01 timurlu: Timur'un Delhi'yi işgali kısa askerî işgaldir; çevre Delhi Sultanlığı (Hisâr-ı Fîrûze ölçüldü: delhi-sultanligi 1354-1526). Gerçek enklav (14 gün). Harappa, Dera İsmail Han koridorda sahipsiz (alakasız nokta).",
+"duzeltme": "Gün/ay teyidi kaynakla; yapısal düzeltme gerekmez.",
+"kaynak": "bulunamadı (Iranica 'Timur' 403 verdi)"
+},
+"E024": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sevilla 1936-07-18 → 1939-04-01 ispanya-milliyetci; Seville darbe günü Queipo de Llano'nun elinde, Cumhuriyet toprağıyla çevrili, Afrika Ordusu bağlantısı Ağustos ortasında kuruldu. Atlas tutarlı; alan şişkin (Cádiz/Córdoba/Granada milliyetçi tutuldu, bu noktalar ayrıca sınanmalı). Ilipa (Alcalá del Río) kayıtta bit 1281: dönemsiz (ölçüldü).",
+"duzeltme": "Cádiz, Córdoba, Granada, Huelva milliyetçi dönemleri 1936-07 sonrası sınansın; Ilipa'ya dönem ya da kaldırma.",
+"kaynak": "bulunamadı (TDV kapsamaz; akademik İç Savaş kaynağı gerek)"
+},
+"E025": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Cimma kaydı 1933-01-01 → 1974-09-12 'habesistan' kesintisiz; İtalyan Doğu Afrikası dönemi (1936-41) yazılmamış. Koridor noktaları (Addis, Ankober, Debre Berhan) italyan-dogu-afrikasi. Habeşistan 1936-06-01 → 1941 'enklavı' bu eksiklikten.",
+"duzeltme": "Cimma'ya 1936-1941 italyan-dogu-afrikasi (ya da fiilî işgal durumu) dönemi; günler kaynakla (gün bulunamadı).",
+"kaynak": "veri ölçümü"
+},
+"E027": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bağdat 1393-08-29 → 1394-01-01 timurlu: Timur Bağdat'ı alınca Celâyirli Ahmed kaçtı, şehir garnizonu çevre Celâyirli toprağında kaldı; 4 aylık gerçek enklav. 12 bin km² Sippar, Ktesiphon, Seleukeia, Eşnunna dönemsiz (ölçüldü: YOK) noktalarının Bağdat peteğine emilmesinden şişkin.",
+"duzeltme": "Gün 1393-08-29 ve 1394-01-01 teyit. Antik noktalar dönemsiz bırakılmış, gizlensin.",
+"kaynak": "TDV celayirliler atlas kaydından yalnız 1393 yılı; gün bulunamadı"
+},
+"E028": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bağdat 1401-01-01 → 1405-01-01 timurlu: başlangıç 1 Ocak yıl-hassasiyeti; Timur Bağdat'ı Temmuz 1401'de aldı (teyitsiz), yani ilk 6 ay sahte enklav. Alan şişkini E027 ile aynı.",
+"duzeltme": "Bağdat timurlu f → 1401-07 (gün bulunamadı); t 1405-01-01 teyit.",
+"kaynak": "bulunamadı (Iranica 'Jalayerids' 403)"
+},
+"E029": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: 50 km içinde yalnız Sultâniye (karakoyunlu 1408-04-13 → 1469) var; Ebher (Abhar) ve Şemîrân Kalesi 'bit 1281' dönemsiz, Deylem sahipsiz; Zencan (51 km) 1383-1410 timurlu, Kazvin (107 km) 1387-1452 timurlu. 11,8 bin km² kopuk parça Sultâniye'nin noktasız emilmesinden. Sultâniye'nin 1408 Karakoyunlu sahibi kaynaksız (Zencan 1410'a dek timurlu).",
+"duzeltme": "Ebher (Abhar) gerçek ortaçağ şehridir: dönem yazılsın; Sultâniye 1408-04-13 ve Zencan 1410 kaynakla hizalansın.",
+"kaynak": "veri ölçümü; TDV 'sultaniyye' slug'ı Memlük askerî birliği maddesi çıktı (yanlış madde), Sultâniye şehri maddesi bulunamadı"
+},
+"E030": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Zencan ve Kazvin 1469-01-01'de akkoyunlu olurken Sultâniye 1469-04-01'e kadar karakoyunlu; 3 aylık kopukluk, ayrıca E029'daki noktasız emilme.",
+"duzeltme": "Sultâniye karakoyunlu t'si Zencan/Kazvin ile hizalansın (gün bulunamadı); Ebher'e dönem.",
+"kaynak": "veri ölçümü"
+},
+"E031": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Sultâniye safevi 1501-07-01'den; Zencan ve Kazvin 1503-01-01'e dek akkoyunlu (Zencan kaydı TDV safeviler alıntılı: 909/1503). 17 aylık kopukluk; Sultâniye f=1501-07-01 şüpheli. Noktasız emilme E029 ile aynı.",
+"duzeltme": "Sultâniye safevi f kaynakla (1503 civarı olabilir); gün bulunamadı.",
+"kaynak": "veri ölçümü; TDV zencan atlas kaydında alıntılı"
+},
+"E032": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Batum: 'şehir İngilizler tarafından işgal edildi (24 Aralık 1918)'; 'Temmuz 1920'de çekildiklerinde Batum'u da boşalttılar ve buraya Gürcistan hükümeti el koydu'. Batum bölgesi Osmanlı toprağıyla İngiliz Irak/Musul işgalinden kopuk gerçek dış parça. Ölçüldü: Artvin, Şavşat, Borçka f=1918-12-17, TDV'nin Batum işgal günü 24 Aralık'tan 7 gün önce; Saylıca 1918-04-03 → 1919-04-20 dönemsiz.",
+"duzeltme": "Artvin/Şavşat/Borçka ingiltere f için kaynak aranmalı; Batum t 1920-07-07 TDV 'Temmuz 1920' ile uyumlu (gün bulunamadı).",
+"kaynak": "TDV batum (islamansiklopedisi.org.tr/batum)"
+},
+"E033": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Palu ve Çemişgezek safevi 1507 → 1516-05-01, Osmanlı Diyarbakır çevresinde; Osmanlı fethi (Bıyıklı Mehmed Paşa; TDV palu: 'Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi', tarihsiz). Kopukluk gerçek olabilir; parça Tunceli/Arsamosata/Hozat dönemsiz (ölçüldü) noktalarını emiyor, alan şişkin.",
+"duzeltme": "Palu ve Çemişgezek geçiş günleri (gün bulunamadı); dönemsiz noktalar gizlensin.",
+"kaynak": "TDV palu: 'Palu … ele geçirildi' (tarihsiz)"
+},
+"E034": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Nîşâbur ve Sebzevâr timurlu f=1381-01-01, Meşhed serbedariler → 1381-04-01; aynı yıl içinde 3 aylık çakışma (Meşhed çevresi yeni timurlu).",
+"duzeltme": "Meşhed t ile Nîşâbur/Sebzevâr f aynı güne hizalansın (Serbedâr teslimi 1381; gün bulunamadı).",
+"kaynak": "veri ölçümü; Iranica 'Sarbedarids' 403"
+},
+"E035": {
+"hukum": "BIRLESMELI",
+"kova": "BIRLESMELI",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: İvranye, Leskofça, Kurşunlu, Ürküp 'sirbistan-nemanjic' (1281-1402); Niş, Şehirköy, Priştine, Alacahisar 'sirbistan'. Aynı Sırp devleti iki kimlikte; sirbistan-nemanjic künyesi harita:'sirbistan' diyor, renk aynı, kopukluk yalnız dnm ayrımında. Balkanlar sahipsiz.",
+"duzeltme": "Aynı devlete tek kimlik ya da evrende birleştirme (ölçüt düzeltmesi); veri değişimi gerekmez.",
+"kaynak": "veri ölçümü (devletler.js sirbistan-nemanjic harita: sirbistan)"
+},
+"E036": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Mardin: 'Safevî kuvvetleri kaleye çekildi (Ekim 1515)'; Bıyıklı Mehmed Paşa 'burayı 1516 sonlarında (veya Mayıs 1517) zaptetti'. Mardin Safevî elinde kaldı; atlas 1507 → 1517-05-01 TDV'nin ikinci seçeneğiyle uyumlu. Midyat, Hasankeyf aynı sürede safevi (kaynaksız); Mezopotamya/Batman dönemsiz (ölçüldü).",
+"duzeltme": "Gün bulunamadı (TDV 'veya' diyor: ic_not'a iki seçenek); Midyat, Hasankeyf için ayrı kaynak.",
+"kaynak": "TDV mardin (islamansiklopedisi.org.tr/mardin)"
+},
+"E037": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Solnok (Szolnok) macaristan-habsburg f=1685-10-12; çevre Osmanlı. Szolnok'un 1685 sonunda Habsburg eline geçip Buda'ya (1686) dek ayrı kalması muhtemel ama teyitsiz; tek noktalı parça.",
+"duzeltme": "Gün 1685-10-12 ve t=1686-09-02 sınansın.",
+"kaynak": "bulunamadı"
+},
+"E038": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "TDV Erzincan: 'Uzun Hasan Karakoyunlular'ı yenerek Erzincan'ı yeniden Akkoyunlu hâkimiyetine aldı (1457)'; 1422-1457 Akkoyunlu-Karakoyunlu arasında el değiştirdi. Atlas 1450 → 1457 karakoyunlu Erzincan/Kemah/Refahiye ile uyumlu; 1450 başlangıcı TDV'de yok.",
+"duzeltme": "1450-01-01 başlangıç yıl-teyitsiz; 1457 günü bulunamadı.",
+"kaynak": "TDV erzincan (islamansiklopedisi.org.tr/erzincan)"
+},
+"E039": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Bulavayo (ingiltere 1893-1965) ve Bulawayo (federasyon 1953-1963) aynı yerin çift kaydı (-20.15, 28.58). Federasyon yalnız Bulawayo'ya yazılı; Federasyon Güney/Kuzey Rodezya ve Nyasaland'ı kapsıyordu. Tek noktalı sahte enklav.",
+"duzeltme": "Bulawayo mükerrerini birleştir; federasyon dönemini bütün üyelere yaz.",
+"kaynak": "veri ölçümü"
+},
+"E040": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Taiz yemen 1517-04-15 → 1547-02-01; çevre Osmanlı. Ölçüldü: 1547-02-01 → 1629-01-01 Taiz'in dönem kaydı hiç yok. 1 aylık parça Osmanlı fetih günü teyitsizliğinden.",
+"duzeltme": "Taiz 1547 sonrası Osmanlı dönemi eklensin; fetih günü kaynakla (gün bulunamadı).",
+"kaynak": "bulunamadı (TDV 'yemen' önerilir)"
+},
+"E041": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Taiz yemen f=1629-01-01 (yıl hassasiyeti); Osmanlı Sana'yı 1629'da kaybetti, Yemen'den 1635'te çıktı; Taiz'in Zeydî elinde, çevrenin Osmanlı kalması muhtemel gerçek ama teyitsiz. 1547-1629 Taiz sahipsiz (ölçüldü).",
+"duzeltme": "Taiz 1629 başlangıcı ve Osmanlı çıkışı kaynakla; 1547-1629 dolgusu.",
+"kaynak": "bulunamadı"
+},
+"E042": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Meyyâfârikīn (Silvan) d: 1515-01-01 → 1923-10-29 (OSMANLI); s: TBMM dönemi yok; Maraş, Siverek, Diyarbakır tbmm-turkiye 1920-04-23'ten. Batman, Erzen, Hallan Çemi dönemsiz. Osmanlı 'enklavı' Silvan d: bitişinin 1920-04-23'te kesilmemesinden.",
+"duzeltme": "Meyyâfârikīn d t → 1920-04-23 ve s: tbmm-turkiye 1920-04-23 → 1923-10-29; dönemsiz noktalara bit.",
+"kaynak": "veri ölçümü"
+},
+"E043": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Siirt kaydındaki TDV alıntısı: 'Celâyirliler'in hâkimiyeti altına giren Siirt, Timur istilâsını da gördükten sonra' — Celâyirli sahipliği var ama 1340 yılı yok (künye f'sinden). Ölçüldü: çevre Meyyâfârikīn ilhanli 1264-1353, Siirt celayirli 1340-1394: 13 yıllık çakışma. [LAB SALI: güven KAYNAK-GEREK'e indirildi — kaynak sayfası okunmadı]",
+"duzeltme": "Siirt celayirli f yıl-teyitsiz; ilhanli/celayirli geçişi komşularla hizalansın (gün bulunamadı).",
+"kaynak": "TDV siirt (atlas kaydındaki alıntı; sayfayı okumadım)"
+},
+"E044": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Ölçüldü: Solnok 1526-11-10 → 1541 v: Zapolya vasal krallığı (TABI), Gyula ise 1526-12-17'ye dek s: macaristan, v: yalnız 1530-01-01'den. Çevre TABI 100%, Gyula aynı Macaristan: aynı Zapolya alanı iki katmanda tutarsız.",
+"duzeltme": "Gyula'ya Mohaç sonrası v: Zapolya dönemi (1526-11-10) ya da s tutarlılığı; gün kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"E045": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Gyula macaristan-habsburg 1526-12-17 → 1530-01-01; çevre TABI (Zapolya) 100%. Habsburg 17 Aralık 1526 Ferdinand seçimi; Gyula'nın Ferdinand tarafında kalması teyitsiz (Zapolya doğu Macaristan'ı tuttu). Solnok ile tutarsız, E044 ile aynı kova.",
+"duzeltme": "Gyula dönemi kaynakla (Zapolya mı Ferdinand mı); gün bulunamadı.",
+"kaynak": "bulunamadı"
+}
 }
