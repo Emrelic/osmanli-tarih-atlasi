@@ -31,6 +31,22 @@ Kural: kalıcı id = haritada (s: yerleşim) ve kronolojide kullanılan; eşitse
 | 59 | Moğolistan (Doğu Çağatay) Hanlığı | `mogolistan-hanligi` | Moğolistan (Mughulistan) Hanlığı — Doğu Çağatay | 1347-01-01 | 1514-01-01 |  | 0 | 0 | → `mogulistan`'e birleştir |
 | 81 | Chimú Krallığı | `chimu` | Chimu (Chimor) Krallığı | 1000-01-01 | 1470-01-01 |  | 0 | 2 | → `chimu-krallik`'e birleştir |
 | 81 | Chimú Krallığı | `chimu-krallik` | Chimu Krallığı (Chimor) | 1000-01-01 | 1470-01-01 |  | 2 | 15 | **KALICI** |
+| 86 | Gana (Wagadu) | `wagadu-gane-erken` | Wagadu (Gāne) — Erken Dönem | 0701-01-01 | 1076-01-01 |  | 0 | 13 | **KALICI** |
+| 86 | Gana (Wagadu) | `gane` | Gāne (Gana) Devleti | 1000-01-01 | 1076-01-01 |  | 0 | 0 | → `wagadu-gane-erken`'e birleştir |
+| 85 | Kevkev (Gao) — örtüşme, aynı polity mi kaynakla | `kevkev` | Kevkev (Gao) Krallığı — Songay Zâ Hânedanı | 1000-01-01 | 1324-01-01 |  | 1 | 5 | **KALICI** |
+| 85 | Kevkev (Gao) — örtüşme, aynı polity mi kaynakla | `kevkev-erken` | Kevkev (Gao) — Erken Dönem | 0801-01-01 | 1009-08-25 |  | 0 | 4 | → `kevkev`'e birleştir |
+| 83 | Mayapán dönemi — 1100-1450 örtüşme | `mayapan-birligi` | Mayapan Birligi (Mayapan Ligi) | 1100-01-01 | 1450-01-01 |  | 1 | 8 | → `maya-sehir-devletleri`'e birleştir |
+| 83 | Mayapán dönemi — 1100-1450 örtüşme | `maya-sehir-devletleri` | Maya Şehir Devletleri (Post-Klasik) | 1000-01-01 | 1697-03-13 |  | 10 | 23 | **KALICI** |
+| 91 | Kuş (Napata-Meroe) — meroe alt küme | `kush-krallik` | Kus (Napata–Meroe) Krallığı | -0749-01-01 | 0349-01-01 |  | 1 | 1 | **KALICI** |
+| 91 | Kuş (Napata-Meroe) — meroe alt küme | `meroe-krallik` | Meroe Krallığı (Meroitik evre) | -0590-01-01 | 0349-01-01 |  | 0 | 0 | → `kush-krallik`'e birleştir |
+| 95 | Brandenburg — çakışan künyeler | `brandenburg-prusya` | Brandenburg Elektörlüğü (Hohenzollern) | 1415-01-01 | 1701-01-18 |  | 2 | 54 | **KALICI** |
+| 95 | Brandenburg — çakışan künyeler | `brandenburg-markgrafligi` | Brandenburg Markgraflığı (Askanier, Elektörlük) | 1157-01-01 | 1701-01-01 |  | 2 | 5 | → `brandenburg-prusya`'e birleştir |
+| 95 | Töton Şövalyeleri Devleti | `teuton-devleti` | Töton Şövalyeleri Devleti (Prusya) | 1230-01-01 | 1525-04-08 |  | 5 | 17 | **KALICI** |
+| 95 | Töton Şövalyeleri Devleti | `teuton-sovalyeleri` | Töton Tarikatı Devleti (Prusya'da) | 1230-01-01 | 1525-04-08 |  | 0 | 14 | → `teuton-devleti`'e birleştir |
+| 94 | Hollanda sömürgeleri — 0 yerleşimli künyeler, yerleşimler hollanda/hollanda-dogu-hint zincirinde | `hollanda-dogu-hint` | Hollanda Doğu Hint Adaları | 1602-03-20 | 1949-12-27 | hollanda-dogu-hint | 83 | 240 | **KALICI** |
+| 94 | Hollanda sömürgeleri — 0 yerleşimli künyeler, yerleşimler hollanda/hollanda-dogu-hint zincirinde | `hollanda-malaka` | Hollanda Malakası | 1641-01-01 | 1825-03-01 |  | 0 | 0 | → `hollanda-dogu-hint`'e birleştir |
+| 94 | Hollanda sömürgeleri — 0 yerleşimli künyeler, yerleşimler hollanda/hollanda-dogu-hint zincirinde | `cape-hollanda` | Hollanda Kap Kolonisi | 1652-04-06 | 1795-09-16 |  | 0 | 0 | → `hollanda-dogu-hint`'e birleştir |
+| 94 | Hollanda sömürgeleri — 0 yerleşimli künyeler, yerleşimler hollanda/hollanda-dogu-hint zincirinde | `yeni-hollanda` | Yeni Hollanda | 1614-01-01 | 1664-09-08 |  | 0 | 0 | → `hollanda-dogu-hint`'e birleştir |
 
 ## Notlar
 - f/t farklıysa kalıcı künyenin uçları kaynaklı olanla birleştirilir (ilgili denetim dosyasının b) bölümü).

@@ -105,3 +105,11 @@ Yerleşim sahipliği örneklemesi (en geniş yıl 1947, 523): Balt (3 devlet 194
 - Taraz/Sayram için kalan tek gerçek not: Sovyet t 1991-12-25 ↔ künye t 1991-12-26 (bir gün fark) —
   künye ile yerleşim uçları aynı güne hizalanmalı (öneri: 1991-12-26, SSCB'nin Cumhuriyetler Sovyeti
   kararıyla feshi; 25 Aralık Gorbaçov'un istifası).
+
+## DÜZELTMENİN DÜZELTMESİ (UMIT SALI, 4 Kasım 2026 sabahı) — ajanın bulgusu DOĞRUYDU
+Yukarıdaki "geri çekildi" hükmüm **yanlıştı**. Ölçümüm yalnız `yerlesimler_ok107.js:224` satırına bakıyordu; kayıt çok
+satırlı olduğundan ikinci `s:` anahtarı başka satırdaydı ve yükleyici (JS nesnesinde son anahtar kazanır) yalnız birini
+okuyordu — tam da ajanın söylediği mekanizma. KASA PAZAR doğruladı ve birleştirdi: eski 1281-1923 yaması DOGU-500-1281
+dizisini eziyordu; 1923-10-29 ardılsızlığının (EK-1923-ufuk.md, `sovyet-rusya → —` 2 satır) sebebi buydu. Başka çift
+anahtar bulunmadı (KASA ölçümü).
+**Ders:** çok satırlı kayıtta "anahtar kaç kez var" sorusu satırla değil kayıt sınırıyla ölçülür.
