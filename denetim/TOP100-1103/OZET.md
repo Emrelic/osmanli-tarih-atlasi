@@ -86,7 +86,7 @@ itilaf işgali önerisi (03) · mükerrerler birleştirme · Hitit ölü künyel
 **UMIT SALI hükümleri (onay bekleyen):** Gupta t 550 (Majumdar + Prakash 1946) · Yeni Kartaca MÖ 228 (OCD⁴ + Martyn) ·
 Nihâvend TDV'ye bağlı · Malaka 1511 TDV cümlesine bağlı (24 Ağustos adayı) · Sui kalıcı id `xiao-xian-liang` · Mısır 2. Pers
 egemenliği üçüncü kaynak bekliyor.
-**Geri çekilen bulgular:** 21 Taraz/Sayram "çift s: anahtarı" (veride yok) · 11 Rusya 1547/1552 Jülyen "hatası" (takvim kuralı).
+**Geri çekilen bulgular:** 11 Rusya 1547/1552 Jülyen "hatası" (takvim kuralı). **Hatalı geri çekme:** 21 Taraz/Sayram "çift s: anahtarı" — UMIT SALI gece yanlış ölçümle geri çekmişti; bulgu DOĞRU, KASA PAZAR birleştirdi.
 
 ---
 
