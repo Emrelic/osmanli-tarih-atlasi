@@ -79,3 +79,9 @@ Yerleşim sahipliği uyumu (713 anı, `sahip_yil` ölçümü):
   - Cambridge History of Islam vol. 1A veya EI² «Umayyads» — f 661 için bağımsız ikinci kaynak; Zâb ve II. Mervân ölümü.
   - Collins, R., *The Arab Conquest of Spain* (1989) — Guadalete günü, Barselona/Narbonne tarihleri; Poitiers ayı.
   - TDV «Mûsâ b. Nusayr», «Târık b. Ziyâd», «Kubbetüssahre», «Muhammed b. Kāsım» — açılmadı (zaman).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Büyük Zâb (750): JSTOR'da yalnız yıl — D. Whalin, *The Medieval Chronicle* 10 (2015). Gün yok.
+  Şam'ın Abbâsîlerce alınışı JSTOR'da bulunamadı. ⇒ TDV «Zâb Savaşı» ve «Mervân b. Muhammed» maddeleri
+  KASA'da okunsun (gün için hicrî 11 Cemâziyelâhir 132 / 25 Ocak 750 adayı; teyit edilmedi).
+- Barselona'nın fethi: JSTOR'da yıl veren makale bulunamadı; TDV 96/715 tek kaynak olarak kalıyor.

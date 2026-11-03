@@ -85,3 +85,6 @@ Not: -1068 maddesi zaten Herihor/Smendes ayrışmasını anlatıyor (:52); Nubya
 - Shaw (ed.), *The Oxford History of Ancient Egypt*, OUP 2000, kronoloji tablosu — soru: XVIII. Hanedan başı, Avaris'in düşüşü, XX. Hanedan sonu.
 - Bietak, "Avaris, Capital of the Hyksos", British Museum 1996 / Bietak 2023 (Tell el-Dab'a) — soru: Avaris'in düşüşü hangi yıl, Ahmose'nin tahta çıkışından kaç yıl sonra?
 - Kitchen, *Pharaoh Triumphant* (II. Ramses'in tahta çıkışı MÖ 1279) — soru: tahta çıkış yılı ve Pi-Ramesses'in başkent oluşu.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Avaris'in düşüşü (I. Ahmose): JSTOR'da yıl veren makale bulunamadı; T. Schneider, «Das Ende der kurzen Chronologie», *Ägypten und Levante* 18 (2008) kronoloji tartışması — hükümdarlık yılı okunmadı.

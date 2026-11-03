@@ -74,3 +74,9 @@ Açık kırılma sayısı: 0 (3+2+4 kırılma, hiçbiri açık değil) — ama k
 - Cambridge Ancient History vol.7 part 1 (2nd ed., 1984) ch. on Antigonos Gonatas / Makedonya — Soru: Antigonos Gonatas'ın Makedonya tahtını kesin aldığı yıl (MÖ 277 mi 276 mı?) ve kral-arası dönemin sınırları.
 - Hammond & Walbank, *A History of Macedonia* vol.3 (OUP 1988) — Soru: Alexander IV'ün ölümü yılı (MÖ 310/309) ve Kassandros hanedanının sonu.
 - Livius.org 'Pydna' ve Plutarkhos *Aemilius Paullus* 17 — Pydna gününü (22 Haziran 168 MÖ) ikinci bağımsız kaynakla doğrulamak için (ay tutulması 21 Haziran).
+
+## Iranica / Oxford Reference teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Oxford Reference: Sardeis «Alexander III, to whom the city surrendered in 334 bce» (Oxford Encyclopedia
+  of Ancient Greece and Rome) — ay yok. İpsos «in summer 301 bce» (OCD «Ipsus»). Kurupedion yalnız 281 (OCD
+  «Diadochi»). ⇒ İpsos maddesi `-0300-01-01` + kesinlik yil (yaz 301; ay belirsiz), Kurupedion `-0280-01-01`
+  + kesinlik yil.

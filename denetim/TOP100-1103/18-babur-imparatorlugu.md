@@ -106,3 +106,17 @@ Sûr 1538-1540 dilimi: Gaur `s: sur-hanedani 1538-01-01` — Hümâyun'un Gaur'a
 - Sûr dönemi için ikinci kaynak: CHI IV Bengal/Karrani bölümü (1564, Süleyman Karrani) ve Banglapedia dışı akademik bir kaynak (Gaur 6 Nisan 1538).
 - 1857-1858: CHI vol. VI veya Dalrymple dışı hakemli bir kaynak (Bahâdır Şah II'nin 20/21 Eylül 1857, Ocak-Mart 1858 yargılama, 7 Ekim 1858 yolculuk, 10 Aralık 1858 Rangun): yalnız web özeti (dayanak değil) görüldü.
 - TDV `kandehar` (Özcan) 1595/1622/1638/1649 tarihlerini vermiyor; ikinci akademik kaynak (EIr KANDAHAR iv, atlasın kendi maddesi atıf yapıyor) okunmadı.
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- II. Bahâdır Şah'ın yakalanışı (1857) ve sürgün (1858): JSTOR'da gün veren makale bulunamadı.
+
+## Iranica / Oxford Reference teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Iranica «Bābor, Ẓahīr-al-Dīn Moḥammad»: Muharrem 910 (Haziran-Temmuz 1504) Horasan'a çıktı, «seized
+  the kingdom of Kabul instead». Gün/ay ve kimden alındığı yok ⇒ Kâbil 1504 **yıl** teyitli (hicrî 910
+  Muharrem ∩ 1504 ⇒ en erken 1504-06-14; kesinlik yil, `ic_not` beyanı).
+- Iranica «Kandahar iv» (EIr XV/5 s. 466-494): 1595 Muzaffer Hüseyin Mirza teslim etti (yıl) · 1031/1622
+  Şah Abbas 5-6 haftalık kuşatmayla aldı (ay yok) · 1638 Ali Merdan Han Bâbürlülere teslim etti (yıl) ·
+  **1649: II. Abbas «took the city on 22 February»** (Vahîd Kazvînî s. 440 vd.; Saksena s. 225).
+  **Hüküm:** Kandehar 1649 kırılması → **1649-02-22** (Iranica; TDV'nin 1648'i kuşatmanın başlangıcı —
+  çelişki `ic_not`ta iki kaynakla beyan). 1595/1622/1638 yıl hassasiyetiyle (YYYY-01-01 + kesinlik yil;
+  1622 hicrî 1031 ∩ 1622 ⇒ kesişimin ilk günü 1622-01-01... hicrî 1031 başı 1621-11-16 ⇒ 1622-01-01).

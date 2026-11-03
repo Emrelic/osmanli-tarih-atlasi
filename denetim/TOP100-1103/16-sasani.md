@@ -81,3 +81,10 @@ En geniş an 619 (6 yerleşim). Karşılaştırma bilinen sınırla: Sasani en g
 - Cambridge History of Iran vol.3(1) (Yarshater 1983) — Sasani evreleri; Roma-Sasani sınır değişimleri.
 - TDV 'Medâin' maddesi — bu turda okunmadı. Soru: Medâin'in fethi hangi yıl/gün (637?).
 - TDV 'Hüsrev II / Perviz' ve 'Herakleios' — 627-628 olayları ve Mısır'ın 629'da geri alınışı için gün.
+
+## Iranica / Oxford Reference teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Iranica «Ardašīr I» (i. History, J. Wiesehöfer, EIr II/4 s. 371-376), «Overthrow of the Parthian empire
+  (224)»: «fought in the plain of Hormazǰān in Media on 28 April 224» (Nöldeke s. 411'e dayanarak).
+  **Hüküm:** TDV «Erdeşîr» + Iranica ⇒ **28 Nisan 224 çift teyit** (`ic_not_f`a "çift teyit" yazılsın;
+  "gün yok, yıl" ifadesi silinsin). `part` t ve `sasani` f 0224-04-28 aynı gün kalır.
+- «Yazdegerd III»: Iranica'da okunamadı (madde bulunamadı). t=651 TDV + Treccani ile kalır.

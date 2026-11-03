@@ -77,3 +77,6 @@ En geniş yıl (-323..-191 sabit 1 yerleşim): sahiplik doğrulaması anlamsız 
 - Thapar, Asoka and the Decline of the Mauryas (OUP 1961): erişilemedi. Soru: Chandragupta/Aşoka/son kral kronolojisi bölümü.
 - Aşoka fermanlarının yer listesi (Kandehar, Şahbâzgarhî, Girnar, Dhauli): kaynak okunmadı.
 - TDV `hindistan` yalnız 0-100000. karakter okundu; Bindusara/Seleukos antlaşması bölümü kalan metinde olabilir.
+
+## Iranica / Oxford Reference teyidi (EMRELİC 1 KASIM, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- Cambridge History of India I (Rapson): Cambridge Core'da tam metin yok, okunmadı. **Koordinatör hükmü:** TDV `hindistan` 321/185 esas ⇒ f `-0320-01-01`, t `-0184-01-01`; `ic_not`ta 'ikinci bağımsız akademik kaynak bulunamadı; Majumdar 324/187' beyanı.

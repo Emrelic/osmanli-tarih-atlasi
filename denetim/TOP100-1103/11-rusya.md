@@ -104,3 +104,26 @@ Yerleşim sahipliği kontrolü:
 - Britannica «Fort Ross», «Sakhalin», «Port Arthur», «Tashkent» (WebFetch 403; yalnız snippet), California State Parks (Fort Ross) — sorular: satış yılı 1841 mi, 1875 antlaşması günü, 27 Mart 1898 sözleşmesi, Taşkent'in alınışı (15/17 Haziran 1865).
 - Cambridge History of Iran vol.7 — Gence Antlaşması günü.
 - TDV «Rusya» md. 100.000. karakterden sonrası okunmadı (sayfa 152.519 karakter); «Moskova» md. müstakil değil (yalnız «Kasım Hanlığı» çıktı).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- **Fort Ross satışı — kaynaklı:** C. J. Du Four, «The Russian Withdrawal from California», *California
+  Historical Society Quarterly* 12/3 (1933), s. 268-270 (jstor.org/stable/25178219, belge neşri): Rotchev'in
+  satış senedi Fort Ross'ta «the 12th of December, 1841» (Sutter'a); Kostromitinov–Sutter devir akdi
+  «1841, San Francisco, December 13». Tahliye günü bu sayfalarda yok.
+  **Hüküm (UMIT SALI):** Fort Ross `s: rusya` t → **1841-12-12** (satış senedi = egemenlik/sahiplik
+  devri; senet Kaliforniya'da yazıldığı için Batı takvimidir, çeviri gerekmez). Ardıl dönem Sutter
+  özel mülkü olduğundan toprak Meksika'ya (Alta California) kalır: `s:` 1841-12-12 → 1846-07-07
+  `meksika` (künye id'si KASA'da doğrulansın). Kronolojiye madde: { t:"1841-12-12", b:"Rus-Amerikan
+  Şirketi Fort Ross'u Sutter'a sattı", yer_id:"Fort Ross", kaynak:"Du Four 1933, CHSQ 12/3 s.268-270" }.
+- **Kazan 1552 — kısmen:** E. Vishlenkova, *Jahrbücher f. Gesch. Osteuropas* 60/4 (2012), arama özeti:
+  Rus geleneğinde «on the 2nd of October 1552». Takvimi açıkça söyleyen metin bulunamadı.
+  **Hüküm:** Rus kaynaklarının 1918 öncesi günü Jülyen'dir; 2 Ekim 1552 Jülyen = **12 Ekim 1552 Gregoryen**
+  — ama 1552 Gregoryen takvimden (1582) ÖNCEDİR. Atlasın 1582 öncesi kuralı KASA'da `arac/gun.py` ile
+  sorulmalı (proleptik Gregoryen mi Jülyen mi). Proleptik Gregoryen ise 1552-10-12 + `ic_not` beyanı.
+
+- Ek (UMIT SALI): `arac/gun.py` başlığı «Takvim PROLEPTİK GREGORYEN (1582 öncesi de)» ⇒ Kazan **1552-10-12** (Jülyen 2 Ekim'in proleptik Gregoryen karşılığı) + `ic_not` takvim beyanı. Bütün Rus Jülyen günlerinin listesi: `EK-rus-julyen.md`.
+- Düzeltme (UMIT SALI): 1552 Kazan günü 1582 öncesidir; atlasın 1582 öncesi Jülyen/proleptik kuralı YAPI KARARIdır (OZET). Karar "1582 öncesi Jülyen" olursa 1552-10-02 kalır; "proleptik" olursa 1552-10-12. Kesin düzeltme listesi 1582-10-15 → 1918-02-14 arası Rus günleridir (1613-02-21, 1696-07-18, 1721-10-22 vb.); 1547 ve 1552 bu karara bağlıdır.
+
+## TAKVİM KARARI (EMRELİC 1 KASIM, 4 Kasım gecesi; Emre sabah onaylar)
+1582-10-15 öncesi günler kaynaktaki gibi (Jülyen) kalır; sonrası Gregoryendir, Rusya 1918-02-14'e dek çevrilir.
+⇒ `rusya` f **1547-01-16 KALIR** (hata değil, önceki bulgu geri çekildi) · Kazan **1552-10-02 KALIR** · çevrilecekler: 1613-02-21, 1696-07-18, 1721-10-22 (→ 1721-11-02) ve 1582 sonrası öteki Rus günleri — tam liste `EK-rus-julyen.md`.

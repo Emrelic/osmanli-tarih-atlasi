@@ -71,3 +71,5 @@ Sahiplik ölçümü (`s:` zincirleri):
 
 ## Erişilemeyen kaynaklar
 Encyclopaedia Iranica (Achaemenid Dynasty i; Darius iii/v; Gaugamela), JSTOR/Brill erişimi yok: gerekli makaleler — Iranica «Achaemenid Dynasty i», «Cyrus ii», «Egypt i. Persians in Egypt», «Sardis»; Brosius, *The Persians* (2006); Briant, *From Cyrus to Alexander* (2002); Oxford Encyclopedia of Ancient Egypt «Achaemenids»; Kuhrt, *The Persian Empire* (2007). Okunmayan birincil metinler: Herodotos 1.84, 3.10-14; Arrianos 1.17, 3.1, 3.21; Nabonid Kroniği. Britannica «Achaemenian Empire» 403 verdi.
+
+- Ek (Oxford Reference, EMRELİC aktarımı): Sardeis İskender'e **MÖ 334**'te teslim oldu (ay yok) ⇒ Sart'ın Ahameniş dönemi t `-0329` → **`-0333-01-01`** (kesinlik yil; Granikos Mayıs 334 sonrası) — iki kaynak: Oxford Enc. Anc. Greece & Rome + Livius. Ardılı `iskender-imparatorlugu`.

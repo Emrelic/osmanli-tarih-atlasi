@@ -91,3 +91,14 @@ En geniş an: 1410, 101 yerleşim. Bilinen sınır: Ming, Liaodong'dan Yunnan'a;
 - Porter, J., *Macau: The Imaginary City* (Westview 1996) / Cambridge Hist. China 8: Makao'nun 1557-1887 egemenlik durumu.
 - Mingshi juan 6 (Yongle 5/5 Giao Chỉ fethi) ve juan 330 (Hami/Dunhuang) — zh.wikisource sayfaları bu turda okunmadı.
 - Iranica/JSTOR gerekmedi (Çin devleti).
+
+## JSTOR teyidi (HAVVA SALI, tarayıcıdan, 4 Kasım 2026 gecesi; aktarım)
+- **Makao — kaynaklı:** Wu Zhiliang & Jin Guoping, «Ambergris and Opium in Macau's History», *China
+  Perspectives* 44 (2002), s. 4 (jstor.org/stable/24051370): Portekizliler kıyıyı «within the Chinese
+  Empire» yerleşimi olarak kullandı; Portekiz «perpetual occupation and government of Macau» hakkını
+  ancak **1887** Çin-Portekiz Dostluk ve Ticaret Antlaşması'yla aldı.
+  **Hüküm (UMIT SALI):** Makao'nun 1557'de Portekiz'e geçişi egemenlik kaybı DEĞİL. Öneri: `s:` 1557 →
+  1887-12-01 arası `ming-hanedani` / `qing-hanedani` kalsın (Portekiz yerleşimi `v:`/statü notuyla
+  gösterilebiliyorsa "Portekiz kiracı yerleşimi" diye); Portekiz egemenliği **1887-12-01** (Pekin'de
+  imzalanan antlaşma; gün KASA'da antlaşma metniyle teyit) başlasın. İkinci kaynak: Porter, *Macau*
+  (1996) KASA'da.
