@@ -1,0 +1,320 @@
+{
+ "Mataram (Lombok)": [
+  {
+   "sira": 1378,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1292-01-01",
+   "t": "1343-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "-",
+   "oneri": {},
+   "not": "Bakılan yerler: Nagarakertagama (archive.org KakawinNagarakertagama, Indonezce çeviri), Treccani Lombok/Indonesia, snl.no Lombok, Cool 1897 'With the Dutch in the East' (Lombok seferi). Hiçbirinde Lombok'un 1292-1343 sahibi tarihli değil. Nagarakertagama pupuh 14 yalnız 1365 durumunu verir (Lombok Merah/Sasak Majapahit'e tâbi); 1343 öncesine kıyas edilemez."
+  },
+  {
+   "sira": 1379,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "singhasari",
+   "f": "1281-01-01",
+   "t": "1292-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "-",
+   "oneri": {},
+   "not": "Singhasari'nin Lombok'u idare ettiğine dair tanık bulunamadı (Nagarakertagama, Treccani, snl.no tarandı). Kaynak yok; uydurma yok."
+  },
+  {
+   "sira": 1380,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "majapahit",
+   "f": "1343-01-01",
+   "t": "1478-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Nagarakertagama (Prapanca, 1365), pupuh 14.4, archive.org KakawinNagarakertagama (Indonezce çeviri)",
+   "alinti": "Pulau Gurun, yang juga biasa disebut Lombok Merah. Dengan daerah makmur Sasak diperintah seluruhnya",
+   "uc": "yok",
+   "oneri": {},
+   "not": "Majapahit'in 1365'te Lombok Merah/Sasak'ı tâbi saydığının birincil tanığı; ne 1343 ne 1478 ucunu tarihliyor (iki uç da teyitsiz). Hüküm BULUNAMADI (uç yok); KASA isterse 1365 tanığını 'aradaki durum' kaynağı olarak kullanabilir. Çeviri sayfasının editoryal girişi Vikipedi kökenli görünüyor, yalnız pupuh metni esas alındı."
+  },
+  {
+   "sira": 1381,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bali-kralliklari",
+   "f": "1478-01-01",
+   "t": "1894-11-22",
+   "hukum": "ONERI",
+   "kaynak": "Cool, W., With the Dutch in the East (1897), archive.org withdutchineasto00cool [19. yy kaynağı]",
+   "alinti": "the Balinese have made several attacks on Sumbawa and Salamparang, meeting with more success on the latter",
+   "uc": "f",
+   "oneri": {
+    "f": "",
+    "t": "",
+    "d": "bali-kralliklari"
+   },
+   "not": "ÇELİŞKİ İŞARETİ: f=1478 destekli değil. Cool 1897'ye göre Bali saldırıları Lombok'ta (Selaparang) 1743 sonrasında başarı kazanıyor; aynı kitapta 17. yy'da Makassar'ın adalara egemenliği anlatılıyor. Yani 1478 ile 1740'lar arası Lombok'un sahibi (Sasak/Selaparang, Gowa) Bali krallıkları değil. Kesin gün/yıl bulunamadı (Ricklefs vb. erişilemedi), 'oneri.f' boş: dönem bölünmeli/başlangıcı geç çekilmeli ya da Selaparang/Gowa için ayrı künye aranmalı. KASA künye (devletler.js) kontrolü yapsın. t=1894-11-22 için sıradaki satıra bak."
+  },
+  {
+   "sira": 1382,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1894-11-22",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "kaynak": "Cool, W., With the Dutch in the East (1897), archive.org withdutchineasto00cool, bölüm XI-XII [19. yy kaynağı]",
+   "alinti": "taken prisoners on the 20th November",
+   "uc": "f",
+   "oneri": {
+    "f": "1894-11-20",
+    "t": "",
+    "d": "hollanda-dogu-hint"
+   },
+   "not": "Cakranegara'nın (Tjakra Nagara) düşüşü sonrası Lombok Rajası 20 Kasım 1894'te tutsak alındı; kitap 22 Kasım'ı vermedi (aranan '22nd November' yok). Bu, Hollanda egemenliğinin başladığı günü değil, askerî teslimi tarihliyor ve 21 Kasım'da bile hâlâ hareket sürüyor (Prens akrabalarına mektup yazdırılıyor); olay farklı olduğu için ONERI. Oneri.f=1894-11-20 askerî teslim günüdür; TEK KURAL (işgal/ilhak) gereği hukuki ilhak gününü ayrıca bulmak gerek, bulunamadı. t=1942-03-09: öteki uç teyitsiz (Treccani Indonesia sayfasında 1942 teyidi yok)."
+  }
+ ],
+ "Östersund (Jämtland)": [
+  {
+   "sira": 1386,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1537-01-01",
+   "t": "1645-08-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Norge under dansk styre – 1537–1814 (https://snl.no/Norge_under_dansk_styre_-_1537%E2%80%931814); Hannibalfeiden (https://snl.no/Hannibalfeiden); Jämtland (https://snl.no/J%C3%A4mtland)",
+   "alinti": "Fra 1537 til 1814 var Norge underlagt dansk styre",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: yıl düzeyi 1537 (snl; aynı sayfada 1536 Kopenhag riksmøte 'Norgesparagrafen' ic_not). t: Hannibalfeiden maddesi 'Ved freden i Brömsebro i august 1645 ... avstod Danmark-Norge Jemtland og Herjedalen' = AY düzeyi (Ağustos 1645); gün 23 teyitsiz (13 Ağustos Jülyen/İsveç = 23 Ağustos Gregoryen olup olmadığı kaynakta yok). d=danimarka: kaynak 'Danmark-Norge' diyor, Jämtland Norveç toprağı olarak Danimarka tacı altındaydı. ÖLÇÜT: idareye katma — Norveç 1537'de bağımsız krallık statüsünü yitirdi (snl)."
+  },
+  {
+   "sira": 1387,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1645-08-23",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Hannibalfeiden (https://snl.no/Hannibalfeiden); Jämtland (https://snl.no/J%C3%A4mtland)",
+   "alinti": "avstod Danmark-Norge de norske landskapene Jemtland og Herjedalen til Sverige",
+   "uc": "f",
+   "oneri": {},
+   "not": "f: Brömsebro, Ağustos 1645 (ay düzeyi); gün 23 teyitsiz. De jure devir antlaşma günü; öteki uç (2000-12-31) kapanış yer tutucusu, teyitsiz."
+  },
+  {
+   "sira": 1388,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Norges historie (https://snl.no/Norges_historie); Norge under dansk styre – 1537–1814; Jämtland (https://snl.no/J%C3%A4mtland)",
+   "alinti": "I 1537 ble reformasjonen innført i Norge ... Norge ble avskaffet som selvstendig rike",
+   "uc": "t",
+   "oneri": {},
+   "not": "t: yıl düzeyi 1537 teyitli (snl: 'Norge ble avskaffet som selvstendig rike'); Norgesparagrafen 1536 (Kopenhag) ic_not. f=1281 atlas başlangıcı; Jämtland 'Norveç tacı altında 12. yy sonundan 1645'e' (snl Jämtland) - f ucu atlas penceresinden önce olduğu için ölçülmedi."
+  }
+ ],
+ "Pori": [
+  {
+   "sira": 1391,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå hele Finland",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: Hamina antlaşması günü snl'de gün düzeyinde. t: Alıntı (snl.no/Finlands_historie, Selvstendighet bölümü): «Den 6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet.» Sovyet tanıması 31 Aralık 1917 (aynı sayfa) ic_not'a. Cumhuriyet 1919. ÖLÇÜT: idareye katma — Finlandiya Büyük Dükalığı olarak ayrı idare (Porvoo Landdag 1809, snl). Pori Hamina'da devredilen Finlandiya'nın içinde. Tarih Hamina'da Jülyen/Gregoryen ayrımı snl'de belirtilmemiş."
+  },
+  {
+   "sira": 1392,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet",
+   "uc": "f",
+   "oneri": {},
+   "not": "f teyitli (bağımsızlık ilanı günü, atlas kuralı: ardıl bağımsızlık ilanı günü). t=2000-12-31 kapanış yer tutucusu, kaynak tarihlemiyor (öteki uç teyitsiz). Sovyet tanıması 31 Aralık 1917 ic_not. Mevcut kaynak (Jussila vd. 1999) kitap düzeyinde."
+  }
+ ],
+ "Kuopio": [
+  {
+   "sira": 1395,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå hele Finland",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: Hamina antlaşması günü snl'de gün düzeyinde. t: Alıntı (snl.no/Finlands_historie, Selvstendighet bölümü): «Den 6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet.» Sovyet tanıması 31 Aralık 1917 (aynı sayfa) ic_not'a. Cumhuriyet 1919. ÖLÇÜT: idareye katma — Finlandiya Büyük Dükalığı olarak ayrı idare (Porvoo Landdag 1809, snl). Kuopio Hamina'da devredilen Finlandiya'nın içinde. Tarih Hamina'da Jülyen/Gregoryen ayrımı snl'de belirtilmemiş."
+  },
+  {
+   "sira": 1396,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet",
+   "uc": "f",
+   "oneri": {},
+   "not": "f teyitli (bağımsızlık ilanı günü, atlas kuralı: ardıl bağımsızlık ilanı günü). t=2000-12-31 kapanış yer tutucusu, kaynak tarihlemiyor (öteki uç teyitsiz). Sovyet tanıması 31 Aralık 1917 ic_not. Mevcut kaynak (Jussila vd. 1999) kitap düzeyinde."
+  }
+ ],
+ "Joensuu": [
+  {
+   "sira": 1399,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå hele Finland",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: Hamina antlaşması günü snl'de gün düzeyinde. t: Alıntı (snl.no/Finlands_historie, Selvstendighet bölümü): «Den 6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet.» Sovyet tanıması 31 Aralık 1917 (aynı sayfa) ic_not'a. Cumhuriyet 1919. ÖLÇÜT: idareye katma — Finlandiya Büyük Dükalığı olarak ayrı idare (Porvoo Landdag 1809, snl). Joensuu Hamina'da devredilen Finlandiya'nın içinde (bölge düzeyi tanıklık; kentin kuruluş tarihi bu turda ölçülmedi). Tarih Hamina'da Jülyen/Gregoryen ayrımı snl'de belirtilmemiş."
+  },
+  {
+   "sira": 1400,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet",
+   "uc": "f",
+   "oneri": {},
+   "not": "f teyitli (bağımsızlık ilanı günü, atlas kuralı: ardıl bağımsızlık ilanı günü). t=2000-12-31 kapanış yer tutucusu, kaynak tarihlemiyor (öteki uç teyitsiz). Sovyet tanıması 31 Aralık 1917 ic_not. Mevcut kaynak (Jussila vd. 1999) kitap düzeyinde."
+  }
+ ],
+ "Lappeenranta": [
+  {
+   "sira": 1403,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1743-08-07",
+   "t": "1811-12-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Villmanstrand (https://snl.no/Villmanstrand); Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "Byen tilhørte Russland i årene 1743–1811",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "Yıl düzeyi iki uç da teyitli; Finlands historie: Åbo (Turku) 1743 ile Hamina, Lappeenranta, Savonlinna Rusya'ya geçti. Gün 1743-08-07 ve 1811-12-23 kaynakta YOK (gün teyitsiz). Takvim: 1743-08-07 Jülyen/İsveç takvimi olabilir, Gregoryen karşılığı kaynakta belirtilmemiş; KASA kontrol etsin."
+  },
+  {
+   "sira": 1404,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1811-12-23",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie); Villmanstrand (https://snl.no/Villmanstrand)",
+   "alinti": "ble de distrikter som var avstått til Russland før 1809, forent med resten av landet",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: yıl düzeyi 1811 (snl: 1811'de Rusya'ya önceden devredilen bölgeler Finlandiya ile birleştirildi). Gün 23 Aralık 1811 snl'de yok (gün teyitsiz). t: Alıntı (snl.no/Finlands_historie, Selvstendighet bölümü): «Den 6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet.» Sovyet tanıması 31 Aralık 1917 (aynı sayfa) ic_not'a. Cumhuriyet 1919. ÖLÇÜT: idareye katma — Eski Finlandiya'nın Büyük Dükalık idaresine bağlanması (snl)."
+  },
+  {
+   "sira": 1405,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet",
+   "uc": "f",
+   "oneri": {},
+   "not": "f teyitli (bağımsızlık ilanı günü, atlas kuralı: ardıl bağımsızlık ilanı günü). t=2000-12-31 kapanış yer tutucusu, kaynak tarihlemiyor (öteki uç teyitsiz). Sovyet tanıması 31 Aralık 1917 ic_not. Mevcut kaynak (Jussila vd. 1999) kitap düzeyinde."
+  }
+ ],
+ "Oulu": [
+  {
+   "sira": 1410,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå hele Finland",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: Hamina antlaşması günü snl'de gün düzeyinde. t: Alıntı (snl.no/Finlands_historie, Selvstendighet bölümü): «Den 6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet.» Sovyet tanıması 31 Aralık 1917 (aynı sayfa) ic_not'a. Cumhuriyet 1919. ÖLÇÜT: idareye katma — Finlandiya Büyük Dükalığı olarak ayrı idare (Porvoo Landdag 1809, snl). Oulu Hamina'da devredilen Finlandiya'nın içinde. Tarih Hamina'da Jülyen/Gregoryen ayrımı snl'de belirtilmemiş."
+  },
+  {
+   "sira": 1411,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet",
+   "uc": "f",
+   "oneri": {},
+   "not": "f teyitli (bağımsızlık ilanı günü, atlas kuralı: ardıl bağımsızlık ilanı günü). t=2000-12-31 kapanış yer tutucusu, kaynak tarihlemiyor (öteki uç teyitsiz). Sovyet tanıması 31 Aralık 1917 ic_not. Mevcut kaynak (Jussila vd. 1999) kitap düzeyinde."
+  }
+ ],
+ "İnari": [
+  {
+   "sira": 1414,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå hele Finland",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: Hamina antlaşması günü snl'de gün düzeyinde. t: Alıntı (snl.no/Finlands_historie, Selvstendighet bölümü): «Den 6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet.» Sovyet tanıması 31 Aralık 1917 (aynı sayfa) ic_not'a. Cumhuriyet 1919. ÖLÇÜT: idareye katma — Finlandiya Büyük Dükalığı olarak ayrı idare (Porvoo Landdag 1809, snl). İnari Hamina'da devredilen Finlandiya'nın içinde (kuzey sınırı snl'de yalnız genel; İnari'ye özgü tanık yok). Tarih Hamina'da Jülyen/Gregoryen ayrımı snl'de belirtilmemiş."
+  },
+  {
+   "sira": 1415,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, Finlands historie (https://snl.no/Finlands_historie)",
+   "alinti": "6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet",
+   "uc": "f",
+   "oneri": {},
+   "not": "f teyitli (bağımsızlık ilanı günü, atlas kuralı: ardıl bağımsızlık ilanı günü). t=2000-12-31 kapanış yer tutucusu, kaynak tarihlemiyor (öteki uç teyitsiz). Sovyet tanıması 31 Aralık 1917 ic_not. Mevcut kaynak (Jussila vd. 1999) kitap düzeyinde."
+  }
+ ]
+}

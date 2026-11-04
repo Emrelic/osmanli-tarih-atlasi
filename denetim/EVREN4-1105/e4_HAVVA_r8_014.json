@@ -1,0 +1,73 @@
+{
+ "Yeniseysk": [
+  {"sira": 1451, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1619-01-01", "t": "1917-03-15", "uc": "f",
+   "hukum": "BULUNAMADI", "kaynak": "", "alinti": "",
+   "not": "Bakılan: EB1911 Yeniseisk (town) wikisource (YALNIZ İPUCU: 'founded in 1618' — atlasın 1619'undan farklı; akademik teyit değil, değişiklik önerilmez), bigenc.ru 401 verdi. Akademik kaynak (Rus ansiklopedisi/Siberian Encyclopedia) erişilemedi. t=1917-03-15 ucu hiç araştırılmadı."}
+ ],
+ "Olyokminsk": [
+  {"sira": 1457, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1635-01-01", "t": "1917-03-15", "uc": "f+t",
+   "hukum": "BAKILMADI", "kaynak": "", "alinti": "",
+   "not": "Erişilebilir akademik listede (TDV, Treccani, Kotobank, Hrvatska, HLS vb.) Olyokminsk için madde bulunmadı; doğrudan arama yapılmadı, erişim/bütçe nedeniyle."}
+ ],
+ "Nerçinsk": [
+  {"sira": 1459, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1653-01-01", "t": "1917-03-15", "uc": "f",
+   "hukum": "BULUNAMADI", "kaynak": "", "alinti": "",
+   "not": "Bakılan: EB1911 Nerchinsk wikisource (YALNIZ İPUCU: 'fort of Nerchinsk dates from 1654, town founded 1658 by Pashkov' — atlasın f=1653'ünden farklı; akademik teyit değil, ONERI yazılmadı); Treccani 'nercinsk' slug'ı boş sayfa döndü. Kotobank'ta Nerchinsk Antlaşması 1689 maddesi 404 verdi. t=1917-03-15 ucu araştırılmadı. Not: antlaşma sonrası Nerchinsk 1689'da Rus elinde kaldı (Amur havzası boşaltıldı), Qing dönemi yok."}
+ ],
+ "Udskoy ostrogu": [
+  {"sira": 1463, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1679-01-01", "t": "1917-03-15", "uc": "f+t",
+   "hukum": "BAKILMADI", "kaynak": "", "alinti": "",
+   "not": "Erişilebilir akademik kaynakta Udskoy ostrog maddesi bulunamadı/aranmadı. Not: Udskoy ostrog, Aigun/Nerchinsk sınırı bağlamında 1689 Nerchinsk ile Stanovoy sırtı kuzeyinde kaldığı için Rus elinde sürer; bu çıkarım kaynaklı değil."}
+ ],
+ "Blagoveşçensk": [
+  {"sira": 1467, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1858-05-28", "t": "1917-03-15", "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Britannica Intl. Ansiklopedi (Kotobank) 'Aigun Antlaşması'; Digital Daijisen: https://kotobank.jp/word/%E6%84%9B%E7%90%BF%E6%9D%A1%E7%B4%84-23656",
+   "alinti": "アムール川左岸をロシア領、ウスリー江以東の沿海の地をロシアと清の共同管理と決めた",
+   "oneri": {},
+   "not": "YIL düzeyi: 1858 (咸豊8年4月) — gün kaynakta yok; takvim çevirisi yapılmadı (Çin ay-güneş ifadesi: 咸豊8年4月, Academia Sinica ile çevrilecek). Atlasın 05-28'i kaynakla doğrulanmadı. ÜLKE DÜZEYİ: Amur sol yakası (Blagoveşçensk'in bulunduğu yaka) Rusya'ya. Şehir kuruluşu (EB1911 İPUCU: 'Founded in 1856') ayrı olay. t=1917-03-15 ucu teyitsiz."},
+  {"sira": 1468, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1651-01-01", "t": "1689-09-06", "uc": "t",
+   "hukum": "BULUNAMADI", "kaynak": "Britannica Intl. Ansiklopedi (Kotobank) 'Aigun Antlaşması' maddesi",
+   "alinti": "アムール川流域からロシア人を締出したネルチンスク条約の効果",
+   "not": "Kaynak Nerchinsk Antlaşması'nın Rusları Amur havzasından çıkardığını söyler (ucun yönünü destekler) ama yıl/gün vermez; EB1911 Nerchinsk (İPUCU) 1689 der. f=1651 ucu için Rus idaresinin Blagoveşçensk sahasına katıldığına dair kaynak bulunamadı (Khabarov seferi askerî; tahrir/idare belgesi yok) — bu dönem ÖLÇÜT açısından şüpheli: 'idareye katma' belgesi yok."},
+  {"sira": 1469, "dosya_satir": "", "alan": "s", "d": "qing-hanedani", "f": "1689-09-06", "t": "1858-05-28", "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Britannica Intl. Ansiklopedi (Kotobank) 'Aigun Antlaşması': https://kotobank.jp/word/%E6%84%9B%E7%90%BF%E6%9D%A1%E7%B4%84-23656",
+   "alinti": "1858年 (清，咸豊8年4月) アムール河岸の愛琿で，ロシアと中国清朝との間に結ばれた条約",
+   "oneri": {},
+   "not": "Yalnız t ucu, YIL düzeyi (1858); gün kaynakta yok, 咸豊8年4月 aynen yazıldı, çevrilmedi (Academia Sinica ile çevrilecek). ÜLKE DÜZEYİ. f ucu (1689-09-06) için öteki uç teyitsiz (kaynak Nerchinsk'i yılsız anar)."}
+ ],
+ "Vladivostok": [
+  {"sira": 1473, "dosya_satir": "", "alan": "s", "d": "qing-hanedani", "f": "1653-01-01", "t": "1860-11-14", "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nippon Kokusai Daihyakka (Nipponica), 'Pekin Antlaşması', Kotobank: https://kotobank.jp/word/%E5%8C%97%E4%BA%AC%E6%9D%A1%E7%B4%84-129209",
+   "alinti": "11月にロシアと個別に結んだ三つの条約",
+   "oneri": {},
+   "not": "AY düzeyi: 1860 Kasım (Rus-Çin Pekin Antlaşması, Ussuri doğusu Rusya'ya; aynı madde: 'ウスリー川以東の沿海地方をロシア領とする', '翌年ウラジオストクが建設された'). Gün kaynakta yok; atlasın 11-14'ü doğrulanmadı. ÜLKE DÜZEYİ (Ussuri doğusu). f=1653 ucu teyitsiz: Vladivostok sahasında Qing idaresi kaynağı yok; Aigun 1858'de bölge ortak yönetim (共同管理) idi — dönem ayrıca 'Aigun 1858-Pekin 1860 ortak yönetim' ara evresi bakımından incelenmeli."},
+  {"sira": 1474, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1860-11-14", "t": "1917-03-15", "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Nipponica 'Pekin Antlaşması' (Kotobank, yukarıdaki URL); Treccani Enciclopedia on line 'Vladivostok': https://www.treccani.it/enciclopedia/vladivostok/",
+   "alinti": "ウスリー川以東の沿海地方をロシア領とすること",
+   "oneri": {},
+   "not": "AY düzeyi 1860-11 (gün yok). Treccani: 'Fondata nel 1860' (şehrin kuruluşu, devir olayı değil; EB1911 İPUCU 1860-61). Kotobank'taki Nipponica metni 1861'de kuruluşu söylüyor ('翌年') — kuruluş yılı kaynaklar arasında 1860/1861 farklı, ama devir 1860. t=1917-03-15 ucu teyitsiz."}
+ ],
+ "Bratsk ostrogu": [
+  {"sira": 1478, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1631-01-01", "t": "1917-03-15", "uc": "f+t",
+   "hukum": "BAKILMADI", "kaynak": "", "alinti": "",
+   "not": "Erişilebilir akademik kaynakta Bratsk ostrog maddesi bulunamadı/aranmadı (TDV/Treccani/Kotobank kapsamı dışı)."}
+ ],
+ "Putivl": [
+  {"sira": 1483, "dosya_satir": "", "alan": "s", "d": "litvanya-buyuk-dukalik", "f": "1362-01-01", "t": "1503-04-02", "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), 'Putyvl': https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CP%5CU%5CPutyvl.htm",
+   "alinti": "the Grand Duchy of Lithuania (1356–1503), and Muscovy",
+   "oneri": {"f": "1356-01-01", "t": "1503-01-01"},
+   "not": "ÜLKE DÜZEYİ/yıl düzeyi: kaynak Litvanya Büyük Dükalığı'nı 1356-1503 olarak verir, Putivl'e özgü devir tarihi vermez; 'Putivl 12. yy'dan 1523'e kadar appanage knyazlık merkeziydi' der. t=1503 yıl düzeyinde uyumlu (gün 04-02 teyitsiz). f: kaynak 1356, atlas 1362 ('Kiev Prensliği Litvanya'ya geçti' maddesinden devralma) — çelişki; Putivl'in Litvanya'ya geçişi Kiev'inkiyle aynı olmayabilir, öneri ZAYIF. Rusya-Litvanya antlaşması 1503 (Moskova'nın kazanımı) ile uyumlu; 1523'e kadar appanage ayrıntısı atlas dışı."},
+  {"sira": 1487, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1503-04-02", "t": "1547-01-16", "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), 'Putyvl' (aynı URL)",
+   "alinti": "the Grand Duchy of Lithuania (1356–1503), and Muscovy",
+   "oneri": {},
+   "not": "YIL düzeyi ve ÜLKE DÜZEYİ: Litvanya dönemi 1503'te biter, ardından Muscovy. Gün (04-02) kaynakta yok. t=1547-01-16 (çar unvanı/künye değişimi) teyitsiz — öteki uç teyitsiz."}
+ ]
+}

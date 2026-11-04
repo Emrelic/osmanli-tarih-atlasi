@@ -1,0 +1,68 @@
+{
+ "Ponoy": [
+  {"sira": 1419, "dosya_satir": "", "alan": "s", "d": "novgorod", "f": "1281-01-01", "t": "1478-01-15",
+   "hukum": "BULUNAMADI", "uc": "t",
+   "kaynak": "", "alinti": "",
+   "oneri": {},
+   "not": "Aranan: web aramasi (Novgorod Terskiy/Pomor kiyisi, Ponoy), Pustozersk baglami. Ponoy'a ozgu akademik kaynak bulunamadi; TDV kapsamiyor. 1478-01-15 Novgorod'un Moskova'ya teslimi ULKE DUZEYI olay; yerlesime ozgu tanikligi yok. f=1281-01-01 icin Ponoy'un Novgorod'a bagliligi 1281'de belgelenmedi (Ponoy'un bilinen ilk anilisi ve yerlesim varligi ayrica sorgulanmali: yerlesim o devirde var miydi?)."}
+ ],
+ "Pustozersk": [
+  {"sira": 1425, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1499-01-01", "t": "1547-01-16",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "ESBE (Brokgauz-Efron) c.XXVa 1898 s.809 'Pustozersk' (ruwikisource) - 19. yy kaynagi, yalniz ipucu; ayrica web arama ozetleri: 1499 Ivan III seferi (Kurbski, Ushaty, Zabolotski-Brazhnik)",
+   "alinti": "",
+   "oneri": {"f": "1499", "d": "moskova"},
+   "not": "Kurulus yili 1499 (Ivan III'un Pechora seferi, Jülyen takvim; gun bulunamadi). Yil duzeyi uyum var ama ham metinden gun alintisi alinmadi; sadece 19. yy ansiklopedisi ve arama ozeti -> KAYNAKLI degil. f=1499-01-01 yil duzeyi kalmali, gun teyitsiz. t=1547-01-16 (IV. Ivan'in carlik taci) ulke duzeyi olay: Moskova Buyuk Knezligi -> Rusya carligi gecisi, Pustozersk'e ozgu degil; 'ulke duzeyi' beyani. Ote uc teyitsiz."},
+  {"sira": 1425, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1499-01-01", "t": "1547-01-16",
+   "hukum": "BULUNAMADI", "uc": "t",
+   "kaynak": "", "alinti": "",
+   "oneri": {},
+   "not": "t ucu icin yerlesime ozgu akademik kaynak yok (ESBE, web aramasi bakildi). Ulke duzeyi."}
+ ],
+ "Obdorsk (Salehard)": [
+  {"sira": 1427, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1595-01-01", "t": "1917-03-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "NES (Novyi entsiklopedicheskiy slovar) c.29 1916 stlb.60 'Obdorsk' (ruwikisource) - eski ansiklopedi, yalniz ipucu; web aramasi: 1595 (Berezov kazaklari) vs 1593",
+   "alinti": "О. основан казаками в 1593 г., как острожек",
+   "oneri": {"f": "1593-01-01", "d": "rusya"},
+   "not": "KAYNAKLAR CELISIYOR: NES 1593 (kazak ostrog), baska bir yayin 1595 (ostrog Obdorsk, 'Berezov kazaklari'). Atlasin 1595'i bir kaynakta var; kesin degil. Akademik (Sibirya tarihi dergisi, TDV disi) kaynak ham metinde okunamadi (PDF'ler cozulmedi). Karar verilmedi: yil 1593/1595 belirsiz. Ote uc: 1917-03-15 ulke duzeyi (Nikolay II tahttan cekilisi), Rusya kunyesinin 1917 sonu/Gecici Hukumet ile ilgisi LAB'a: kunye f-t kontrol edilmeli (devletler.js 'rusya' t'si 1917-03-15'i kapsamali, ayrica 'Rusya Cumhuriyeti' kunyesi var mi?)."}
+ ],
+ "Mangazeya": [
+  {"sira": 1431, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1601-01-01", "t": "1917-03-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "ESBE (Brokgauz-Efron) c.XVIIIa 1896 s.526 'Mangazeya' (ruwikisource) - 19. yy kaynagi, yalniz ipucu; web aramasi: 1601 kurulus",
+   "alinti": "",
+   "oneri": {"t": "1672", "d": "rusya"},
+   "not": "f=1601 yil duzeyinde arama ozetiyle uyumlu (ham akademik alinti yok). ASIL SORUN: ESBE'ye gore sehir 1642 yangini sonrasi duser, '1662'de tamamen bosaldi' (Mangazeya'nin kendisi 1672 civarinda terk edildi; ESBE metni 1662 diyor). Yerlesim 1917'ye kadar var degil: dönem t=1917-03-15 sorgulanmali; yerlesim terk edilmis ise donem kirpilmali (Bosluk doldurma merdiveni: yerlesim var mi?). Ote uc (ulke duzeyi 1917-03-15) teyitsiz. 'Mangazeya' adi 1780'e kadar Turuhansk icin kullanildi (ESBE) - yerlesim kimligi dikkat."}
+ ],
+ "Hatanga": [
+  {"sira": 1435, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1626-01-01", "t": "1917-03-15",
+   "hukum": "BULUNAMADI", "uc": "f+t",
+   "kaynak": "", "alinti": "",
+   "oneri": {},
+   "not": "Bakilan: ESBE 'Hatanga' (c.XXXVII 1903; yalniz nehir maddesi, yerlesim degil), web aramasi (Hatanga yerlesimi 1626 icin sonuc donmedi). Yerlesimin ne zaman Rusya'ya baglandigi/ne zaman kuruldigi bulunamadi; 1626 icin dayanak yok - yerlesim o devirde var miydi? Hatanga koyu 1930'larda; 1626 kuruluş tarihi sorgulanmali. t ulke duzeyi."}
+ ],
+ "Verhoyansk": [
+  {"sira": 1439, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1638-01-01", "t": "1917-03-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "ESBE (Brokgauz-Efron) 'Verhoyansk' (ruwikisource) - 19. yy kaynagi, yalniz ipucu",
+   "alinti": "острог заложен был в 1638 г. на р. Дулгалах",
+   "oneri": {"f": "1638", "d": "rusya"},
+   "not": "ESBE: ostrog 1638'de Dulgalah nehrinde, Verhoyansk'in 100 verst GD'sinde kuruldu, sonra bugunku yere tasindi (tasinma yili metinde kismen). Yil duzeyi f ile uyumlu ama 19. yy kaynagi -> KAYNAKLI degil. Yer degisimi: bugunku noktaya tasinma yili atlas koordinatiyla celisebilir. Ote uc teyitsiz (ulke duzeyi 1917-03-15)."}
+ ],
+ "Novaya Zemlya kuzeyi": [
+  {"sira": 1443, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1877-01-01", "t": "1917-03-15",
+   "hukum": "BAKILMADI", "uc": "f+t",
+   "kaynak": "", "alinti": "",
+   "oneri": {},
+   "not": "Bu yerlesim icin kaynak aranmadi (bütce Obdorsk/Mangazeya/Berezov vb. icin harcandi, Novaya Zemlya kuzeyi icin erisim denenmedi). 1877 bir Rus idari/yerlesim olayina mi isaret ediyor belirsiz."}
+ ],
+ "Berezov": [
+  {"sira": 1449, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1592-01-01", "t": "1917-03-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Brokgauz-Efron/Granat (booksite.ru fulltext/1/001/007/011/11040) 'Berezov, gorod' - eski ansiklopedi, yalniz ipucu; web aramasi ozeti: 1593, bazi kaynaklar insaat 1592 sonbahar-1593 yaz",
+   "alinti": "Город основан в 1593 году для взимания здесь с остяков \"ясака\"",
+   "oneri": {"f": "1593-01-01", "d": "rusya"},
+   "not": "Kaynaklarin cogu 1593; atlasin 1592'si insaat baslangici (1592 sonbahar) ile aciklanabilir ama ham akademik alinti yok. Oneri: yil 1593 (kurulus), 1592 yalniz insaat basi -> ic_not. 19. yy kaynagi. Ote uc (1917-03-15) ulke duzeyi, teyitsiz."}
+ ]
+}
