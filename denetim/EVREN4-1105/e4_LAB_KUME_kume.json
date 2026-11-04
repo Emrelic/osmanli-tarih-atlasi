@@ -1454,5 +1454,256 @@
   "oneri": {},
   "not": "KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin: imza gunu 10 Eylul 1919 (TEK OLCU yeterli icin). Ancak md.91 emanetine ait metin okunmadi; KARISIK: Karvina (Fryštát, Teschen/Çekoslovakya 1920-07-28), Rab/Vis/Sibenik (Dalmaçya/Rapallo) farkli olaylar, t_dagilim 1920-11-12/1923-03-15/1920-07-28. Gun degisikligi onerilmiyor; yerlesim bazinda dogrulanmadi.",
   "_yer_izi": true
+ },
+ {
+  "alan": "s",
+  "d": "macaristan-naiplik",
+  "f": "1918-11-16",
+  "satir": 5,
+  "hukum": "ONERI",
+  "uc": "f",
+  "kaynak": "Martin Mutschlechner, The disintegration of the Habsburg Monarchy - Part II (ww1.habsburger.net, ÖNB/Wien Museum ortak tarih portalı) - https://ww1.habsburger.net/en/chapters/disintegration-habsburg-monarchy-part-ii-situation-vienna-and-budapest",
+  "alinti": "The Republic of Hungary was proclaimed on 16 November",
+  "oneri": {},
+  "not": "LAB PAZAR: kaynak kurum portalı (habsburger.net), akademik değil — ONERI (Austria-Forum emsali). | sayfa.py ham metin. Künye f=1918-11-16 ile küme f tutarlı. Cumhuriyet ilanı günü. DİKKAT: künye adı 'Naiplik' ama f cumhuriyet ilanı (Naiplik 1920-03-01'de başlar); ad/f uyumsuzluğu LAB'a. TDV Macaristan madde: halk cumhuriyeti ilanını gün vermeden anlatıyor (31 Ekim 1918 devrim); TDV'de 16 Kasım 1918 yok. Habsburger.net müze/kurum portalı, tarihçi yazarlı; hakemli makale değil - Emre uygun görmezse ONERI say. t ucu (Trianon 1920-06-04 olan 1 yerleşim) bu satırda doğrulanmadı. Hatvan/Debrecen/Szombathely vb. ülke düzeyi."
+ },
+ {
+  "alan": "s",
+  "d": "avusturya",
+  "f": "1797-10-17",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "Treccani, Dalmazia (Enciclopedia on line) - https://www.treccani.it/enciclopedia/dalmazia/ ; Belluno: https://www.treccani.it/enciclopedia/belluno/ (tennero fino al 1797)",
+  "alinti": "Dopo la caduta della Repubblica di Venezia nel 1797, la D. passò in mani austriache",
+  "oneri": {},
+  "not": "YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
+ },
+ {
+  "alan": "s",
+  "d": "safevi",
+  "f": "1503-01-01",
+  "satir": 5,
+  "hukum": "ONERI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, SAFEVÎLER (Şah İsmâil dönemi) - https://islamansiklopedisi.org.tr/safeviler",
+  "alinti": "909’da (1503) Irâk-ı Arab ve Fars hâkimi Murad Bey’e karşı yürüyen Şah İsmâil",
+  "oneri": {},
+  "not": "HANGİ UÇ: alıntı Hemedan savaşını (1503) tarihliyor, devri değil — ONERI. | YIL düzeyi, BÖLGE/ÜLKE DÜZEYİ: 1503 Hemedan savaşı, Fars/Irak-ı Acem'in Safevî'ye geçişini dolaylı tarihliyor; Lâr/Bempûr/Ebrekûh/Gulpâygân için yerleşime özgü tanık yok (Bempûr Belucistan, Kirman 1503-04'ten sonra olabilir). TDV: 'Şah İsmâil ... Fars, Irâk-ı Acem, Kirman ve Hûzistan’ı kendisine bağlamış'. Künye f=1501-07-01, küme f=1503-01-01: tutarsız değil (küme sonra geçiş). Alıntı savaşı tarihliyor, devir günü değil: zayıf KAYNAKLI."
+ },
+ {
+  "alan": "s",
+  "d": "avusturya",
+  "f": "1908-10-05",
+  "satir": 5,
+  "hukum": "ONERI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, BOSNA-HERSEK - https://islamansiklopedisi.org.tr/bosna-hersek",
+  "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
+  "oneri": {
+   "f": "1908-10-07"
+  },
+  "not": "TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
+ },
+ {
+  "alan": "s",
+  "d": "yugoslavya",
+  "f": "1918-12-01",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, YUGOSLAVYA - https://islamansiklopedisi.org.tr/yugoslavya",
+  "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
+  "oneri": {},
+  "not": "Künye f=1918-12-01 küme f ile tutarlı. ÜLKE DÜZEYİ. KARIŞIK/KONTROL: Kuršumlija 1878'den beri Sırbistan toprağı (önceki sahip sırbistan, SHS'ye 1 Aralık 1918'de birleşme); Travnik/Visoko/Vişegrad/Orašje önceki sahip avusturya (t 1918-11-11 - ara dönem 11 Kas-1 Ara boşluk: TDV'de Bosna-Hersek 28 Ekim 1918 meclis kararı, 25 Kasım 1918 Novi Sad kararı geçiyor, ara boşluk yerleşim düzeyinde beyan gerektirir). t ucu 1941-04-10/1941-08-29 satırları bu alıntıyla doğrulanmadı."
+ },
+ {
+  "alan": "s",
+  "d": "eritre-ingiliz-askeri-idaresi",
+  "f": "1941-04-01",
+  "satir": 5,
+  "hukum": "ONERI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, ERİTRE - https://islamansiklopedisi.org.tr/eritre",
+  "alinti": "İngilizler İtalyan ordusunu Keren’de yenerek Asmara ve Masavva‘ı ele geçirdiler (28 Mart 1941)",
+  "oneri": {
+   "f": "1941-03-28"
+  },
+  "not": "TDV ele geçirme günü 28 Mart 1941 (Asmara+Masavva); atlas 1941-04-01. Gün çelişkisi: ikinci bağımsız kaynak aranmadı, TDV esas. Alıntı fiilî ele geçirmeyi tarihliyor, idare kuruluşunu değil. TEK KURAL AYKIRILIĞI OLASI: İngiliz askerî idaresi egemenlik devri değil (TDV 'İngiliz askerî idaresi altında kalan'); ÖLÇÜT: geçici/askerî - alan s yerine isg olmalı (İtalyan egemenliği 1947 Paris Antlaşması'na dek sürer). Künye f=1941-04-01, TDV günüyle künye 4 gün uyumsuz. t ucu 1952-09-15 TDV'de var: 'Birleşmiş Milletler’in himayesinde İngiliz askerî idaresi altında kalan Eritre 15 Eylül 1952'. Arkîko/Kerene/Nakfa/Ğındâ/Zula ülke düzeyi."
+ },
+ {
+  "alan": "s",
+  "d": "eritre-federasyon",
+  "f": "1952-09-15",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, ERİTRE - https://islamansiklopedisi.org.tr/eritre",
+  "alinti": "15 Eylül 1952 tarihinde federe bir devlet olarak Etiyopya’ya bağlandı",
+  "oneri": {},
+  "not": "Gün düzeyi, f ucu. Künye f=1952-09-15 tutarlı. t ucu 14 Kasım 1962 de aynı maddede (Etiyopya federal yapıya son verdi). ÜLKE DÜZEYİ."
+ },
+ {
+  "alan": "s",
+  "d": "italya",
+  "f": "1905-01-01",
+  "satir": 5,
+  "hukum": "ONERI",
+  "uc": "f",
+  "kaynak": "Enciclopedia Italiana (1929-37), Somalia - Treccani - https://www.treccani.it/enciclopedia/somalia_%28Enciclopedia-Italiana%29/",
+  "alinti": "indussero il governo d'Italia (19 marzo 1905) ad assumere la gestione della colonia",
+  "oneri": {
+   "f": "1905-03-19"
+  },
+  "not": "Eski başvuru eseri (Enc. Italiana 1929-37): tek başına KAYNAKLI sayılmaz, ONERI. Atlas 1905-01-01 yıl düzeyidir; kaynak devletin doğrudan yönetimi 19 Mart 1905 diyor (WebSearch özeti: Zanzibar'ın Benadir limanlarını devri Ocak 1905 / 13 Ocak, Banaadir koloni 16-19 Mart 1905; ipucu, okunmadı). KARIŞIK: kıyı (Merka/Afgoye) 1905; iç bölge (Garbahârey, Vanlaveyn, Ceel Barde) fiilî İtalyan idaresi sonra (1910'lar-1920'ler), yerleşime özgü tanık yok. TDV Somali madde 1905'te İtalya'yı anmıyor. Künye f 1861 - tutarlı. t=1936-06-01 (AOI): bu alıntıda yok."
+ },
+ {
+  "alan": "s",
+  "d": "meiji-japonya",
+  "f": "1868-01-03",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, JAPONYA - https://islamansiklopedisi.org.tr/japonya",
+  "alinti": "girmesini sağlayan Meiji dönemi başladı",
+  "oneri": {},
+  "not": "YIL düzeyi (1868). Gün 1868-01-03 (Ōsei fukkō) teyitsiz; Japon takvimi günü elle çevrilmedi (慶応3年12月9日 çevirisi toplu EMRELİC). Tam cümle: '1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı' (15 kelime sınırı için kısaltıldı). ÜLKE DÜZEYİ; Kunashiri (Kuril, 1869 sonrası/1875 Petersburg Antlaşması) ve Fukui/Nagazaki/Matsumae/Yamaguchi farklı sahiplik geçmişi - KARIŞIK, t_dagilim 1869-01-27 (Matsumae?) bu alıntıyla doğrulanmadı."
+ },
+ {
+  "alan": "s",
+  "d": "suleyman-celebi",
+  "f": "1402-07-28",
+  "satir": 5,
+  "hukum": "BULUNAMADI",
+  "uc": "f",
+  "kaynak": "TDV: ANKARA SAVAŞI (28 Temmuz 1402; savaş günü), FETRET DEVRİ (Gelibolu Antlaşması Şubat 1403: Selânik ve Tesalya Bizans'a), Emîr Süleyman/Süleyman Çelebi slug'ları bulunamadı (TDV arama boş)",
+  "alinti": "",
+  "oneri": {},
+  "not": "Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
+ },
+ {
+  "alan": "s",
+  "d": "akkoyunlu",
+  "f": "1467-01-01",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR - https://islamansiklopedisi.org.tr/akkoyunlular ; UZUN HASAN - https://islamansiklopedisi.org.tr/uzun-hasan",
+  "alinti": "1467’de üzerine yürüyen amansız düşmanı Karakoyunlu Hükümdarı Cihan Şah’ı gafil avlayarak Karakoyunlu Devleti’ne son verdi",
+  "oneri": {},
+  "not": "YIL DÜZEYİ (DA-BRIEF 'en az yıl'); gün teyitsiz. | YIL düzeyi, BÖLGE DÜZEYİ. TDV Uzun Hasan: Cihan Şah öldürüldü 12 Rebîülâhir 872 / 10 Kasım 1467 (hicrî ve milâdî birlikte verilmiş, çevrilmedi) - atlas 1467-01-01 yıl düzeyi olduğundan uyumlu. Hakkâri yerleşimleri için TDV HAKKÂRİ 'XV. yüzyılın ikinci yarısında yörede Akkoyunlular’ın hâkim olduğu' (1472 Meydan Medresesi) - yerleşime özgü gün yok. Gever/Hoşap/Şemdinli/Şeyhrumi için tanık zayıf. Künye f 1340 - tutarlı."
+ },
+ {
+  "alan": "s",
+  "d": "musa-celebi",
+  "f": "1410-02-13",
+  "satir": 5,
+  "hukum": "BULUNAMADI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ ÇELEBİ - https://islamansiklopedisi.org.tr/musa-celebi",
+  "alinti": "",
+  "oneri": {},
+  "not": "TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
+ },
+ {
+  "alan": "s",
+  "d": "konbaung",
+  "f": "1752-04-23",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, MYANMAR - https://islamansiklopedisi.org.tr/myanmar",
+  "alinti": "Toungoo hânedanının 1752’de yıkılması üzerine Burmalı toprak sahibi bir aileye mensup Alaungpaya",
+  "oneri": {},
+  "not": "YIL DÜZEYİ (DA-BRIEF 'en az yıl'); gün teyitsiz. | YIL düzeyi; ÜLKE DÜZEYİ (devamında 'Konbaung hânedanını kurdu'). Gün 1752-04-23 teyitsiz. Künye f=1752-01-01 küme f ile 4 ay farkla tutarlı (yıl hassasiyeti). KARIŞIK: Chiang Rai (Lanna, Konbaung kontrolü 1775-1786 geçici) ve Myitkyina/Shwebo/Yenangyaung/Pyinmana'nın Konbaung'a geçişleri farklı olaylar; t_dagilim 1774-01-15, 1852-12-20, 1885-11-28 bu alıntıyla doğrulanmadı. Imperial Gazetteer araması (ia-ara) boş döndü."
+ },
+ {
+  "alan": "s",
+  "d": "ingiltere",
+  "f": "1811-08-18",
+  "satir": 5,
+  "hukum": "ONERI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, ENDONEZYA - https://islamansiklopedisi.org.tr/endonezya ; CAKARTA https://islamansiklopedisi.org.tr/cakarta",
+  "alinti": "1811 yılında İngilizler Cava’yı ve ona bağlı diğer Hollanda sömürgelerini işgal ettiler",
+  "oneri": {
+   "alan": "isg"
+  },
+  "not": "ÖLÇÜT: geçici/askerî - TDV 'geçici İngiliz idaresinin (1811-1816)' (Cakarta maddesi: 'beş yıllık geçici İngiliz idaresi'), 1816'da Hollanda'ya devredildi. TEK KURAL AYKIRILIĞI: işgal/geçici idare 'isg ingiltere' yazılır (Kâbil 1839-42, Rodos emsali); s ingiltere hukukî devir (yok) gerektirir. Raffles vergi/arazi sistemi (toprağı devlet arazisi ilanı) idareye katma işareti olabilir (tahrir ölçütü) - TDV susar/yorumsuz: Emre kararı. Gün 1811-08-18 teyitsiz (TDV yıl). t=1816-08-19: TDV yalnız 1816 yılını verir (Hollanda'ya devir). Blitar/Bojonegoro/Yogyakarta Orta-Doğu Cava, Batavia: İngiliz girişi farklı günlerde (Yogyakarta 1812 Haziran) - KARIŞIK."
+ },
+ {
+  "alan": "s",
+  "d": "alman-dogu-afrikasi",
+  "f": "1890-11-04",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, TANZANYA - https://islamansiklopedisi.org.tr/tanzanya",
+  "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+  "oneri": {},
+  "not": "YIL DÜZEYİ (DA-BRIEF 'en az yıl'); gün teyitsiz. | YIL düzeyi (1890), ÜLKE DÜZEYİ; gün 1890-11-04 teyitsiz (TDV Tanzanya aynı maddede 1885 himaye ve 1888 kıyı kiralama anıyor; künye f=1885-02-27 ile küme f=1890 arasında 5 yıl: künye 'himaye' başlangıcı, küme ise sahiplik/egemenlik). KARIŞIK: Kilosa/Sumbavanga iç bölge fiilî Alman idaresi 1890'lardan sonra; Tanga/Pangani/Mafia kıyı. t 1916-09-01/19 (İngiliz fethi) bu alıntıda yok. TDV Mafia'yı İngilizler'in Kasım 1914'te ele geçirdiğini yazıyor (Mafia/Kilindoni t=1914-11 olabilir, çelişki: t_dagilim'de 1914 yok)."
+ },
+ {
+  "alan": "s",
+  "d": "kongo-serbest-devleti",
+  "f": "1900-01-01",
+  "satir": 5,
+  "hukum": "BULUNAMADI",
+  "uc": "f",
+  "kaynak": "TDV KONGO DEMOKRATİK CUMHURİYETİ - https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti (kuruluş 1885, devir 15 Kasım 1908); Businga/Boende/Ikela/Monkoto/Bukavu için yerleşime özgü kaynak aranmadı",
+  "alinti": "",
+  "oneri": {},
+  "not": "KARIŞIK/YANLIŞ GÜN — YERLEŞİM izine (LAB PAZAR). | f=1900-01-01 (künye f=1885-01-01) iç bölge fiilî işgal/idare yılı olabilir; TDV'de 1900 yok. TDV f/künye ucunu (1885 'Bağımsız Kongo Devleti’ni kurdu') ve t ucunu ('15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi') doğruluyor - t ucu kaynaklı, f=1900 değil. Küme KARIŞIK: Bukavu (Kivu, Belçika 1900'lerde) ve Ikela/Monkoto/Businga (Ekvator, 1890'lar) farklı. Çok yerleşimli kümenin tamamı için yıl düzeyinde ayrıca ABİ MERKEZ/yerleşim araştırması gerekir.",
+  "_yer_izi": true
+ },
+ {
+  "alan": "s",
+  "d": "filipinler-cumhuriyeti",
+  "f": "1946-07-04",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "TDV İslâm Ansiklopedisi, FİLİPİNLER - https://islamansiklopedisi.org.tr/filipinler",
+  "alinti": "Filipinler Cumhuriyeti’nin bağımsızlığı ilân edildi (4 Temmuz 1946)",
+  "oneri": {},
+  "not": "Gün düzeyi, f ucu; künye f=1946-07-04 tutarlı. ÜLKE DÜZEYİ. Kotabato (Magindanao, Moro bölgesi) için de TDV: 4 Temmuz 1946'da yeni siyasî düzen. KARIŞIK değil. t_dagilim 2000-12-31 sentinel."
+ },
+ {
+  "alan": "s",
+  "d": "ingiltere",
+  "f": "1763-02-10",
+  "satir": 5,
+  "hukum": "ONERI",
+  "uc": "f",
+  "kaynak": "Treaty of Paris 1763 (birincil belge neşri, Avalon Project Yale) - https://avalon.law.yale.edu/18th_century/paris763.asp",
+  "alinti": "Done at Paris the tenth day of February, 1763.",
+  "oneri": {},
+  "not": "TEK ÖLÇÜ: Paris imzası yalnız İngiltere'nin zaten yönettiği yerlerde (Grenada vb.); Pensacola, Natchez, Vincennes için teslim günü — yerleşim izine. | İmza günü (10 Şubat 1763) birincil belgede; Madde VII Mississippi doğusu+Mobile, Madde IX Grenada ve Grenadinler (St George's, Carriacou) İngiltere'ye, Florida+Pensacola İspanya'dan. TEK ÖLÇÜ AYKIRILIĞI/KARIŞIK: İngiltere zaten yönettiği yerde imza günü (Grenada 1762 fethi), yönetmediği yerde teslim günü: Pensacola, Natchez (Mississippi Doğu), Vincennes (Fransız posta, 1763'te fiilî İngiliz yönetimi yok) için TESLİM günü gerekir -> imza günü uygun değil. t_dagilim: 1779-09-21 (Natchez, İspanya fethi), 1781-05-08 (Pensacola), 1783-09-03 (Versailles; Grenada), 1958-01-03 (Carriacou?) bu satırda doğrulanmadı. Treccani Grenada: 'fu ceduta all’Inghilterra con la pace di Parigi (1763)'.",
+  "_yer_izi": true
+ },
+ {
+  "alan": "s",
+  "d": "avustralya",
+  "f": "1911-01-01",
+  "satir": 5,
+  "hukum": "KAYNAKLI",
+  "uc": "f",
+  "kaynak": "Parliamentary Education Office (PEO), Proclamation of Commonwealth Territories - https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/proclamation-of-commonwealth-territories",
+  "alinti": "01 January 1911 The Australian Capital Territory and Northern Territory are created.",
+  "oneri": {},
+  "not": "Gün düzeyi, f ucu (resmî kurum sayfası; akademik değil ama 'resmî kurum tarih sayfaları' kabul sınıfı). WebSearch özeti: Northern Territory Surrender Act 1907 (SA) ve Acceptance Act 1910 (Cth, 16 Kasım 1910 assent) ile devir 1 Ocak 1911'de yürürlük; Darwin töreni 2 Ocak 1911 (özet, okunmadı). Küme f=1911-01-01 tutarlı; künye f=1901-01-01 (Federasyon). Sonrasında Avustralya içindeki yerleşimlerin önceki sahibi Güney Avustralya (s) - alan farkı not."
+ },
+ {
+  "alan": "s",
+  "d": "kanada",
+  "f": "1899-06-21",
+  "satir": 5,
+  "hukum": "BULUNAMADI",
+  "uc": "f",
+  "kaynak": "WebSearch özeti: Treaty 8 21 Haziran 1899 (Grouard yakını, Lesser Slave Lake) imza; thecanadianencyclopedia.ca robots yasağı (okunamadı)",
+  "alinti": "",
+  "oneri": {},
+  "not": "KARIŞIK/YANLIŞ GÜN — YERLEŞİM izine (LAB PAZAR). | TEK KURAL/ÖLÇÜT SORUNU: 21 Haziran 1899 Treaty 8 imza günü (Kanada ile yerli halk arasında, Kanada egemenliği devri değil). Old Crow (Yukon) ve Colville Lake/Łutsël K'é (Kuzeybatı Toprakları) için Kanada egemenliği Rupert's Land ve Kuzeybatı Bölgesi devri 15 Temmuz 1870'e dayanır; Telegraph Creek (BC) 1871; Tsilhqot'in (Çilkotin, BC) British Columbia'nın Kanada'ya katılışı 1871-07-20. KARIŞIK (ayrı olaylar), küme f=1899-06-21 sahiplik başlangıcı olarak savunulamaz: ONERI adayı 1870-07-15 (okunmadı, kaynak bulunamadı). Künye f=1867-07-01. t=2000-12-31 sentinel.",
+  "_yer_izi": true
  }
 ]
