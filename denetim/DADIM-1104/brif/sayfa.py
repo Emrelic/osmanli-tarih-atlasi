@@ -51,6 +51,8 @@ def tempo():
 
 
 def al(url):
+    # Türkçe/Çince vb. ASCII dışı karakterli URL'ler: yüzde-kodla (UnicodeEncodeError onarımı, 5 Kasım 2026)
+    url = urllib.parse.quote(url, safe=":/?&=%#+,;@!$'()*[]~")
     if not robots_izin(url):
         raise PermissionError("robots.txt bu adresi yasaklıyor — kaynak atlanır: " + url)
     tempo()

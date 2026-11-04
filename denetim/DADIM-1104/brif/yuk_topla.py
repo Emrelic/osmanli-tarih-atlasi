@@ -21,6 +21,7 @@ for p in sys.argv[1:]:
             r["kaynak2"] = y.get("kaynak2"); r["alinti2"] = y.get("alinti2")
             if y.get("oneri_son"): r["oneri_son"] = y["oneri_son"]  # ajanın teyit ettiği son değer (yıla indirilmiş vb.)
             if y.get("tarayici_gerekli"): r["tarayici_gerekli"] = y["tarayici_gerekli"]
+            if y.get("dogrusu"): r["dogrusu"] = y["dogrusu"]  # HATALI_ONERI satırında ajanın önerdiği doğru biçim
             r["not"] = "YÜKSELTME TURU (%s): %s · %s" % (h, y.get("not") or "", r.get("not") or "")
             if h == "KAYNAKLI":
                 r["hukum"] = "KAYNAKLI"; r["_etiket"] = "IKI_KAYNAKLI_ONERI"

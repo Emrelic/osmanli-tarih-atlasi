@@ -11,6 +11,12 @@ Bütün atlas kuralları `DA-BRIEF.md`dedir; önce onu baştan sona oku ve harfi
 - İkinci bir kaynak da bulursan `not` alanına "çift teyit" yaz.
 - Önerinin gün hassasiyeti kaynakta yoksa ve yalnız yıl teyit ediliyorsa: KAYNAKLI yaz, ama `not` alanına "[yalnız yıl teyitli]" ekle ve `oneri` gününü yıla indir (`YYYY-01-01` + beyan).
 
+## Künye okuma uyarısı
+- Künyenin adına değil, `f`/`t` alanına ve `ic_not`'una bak.
+  - Örnek: `almanya` künyesinin adı "Kutsal Roma 962-1806" ama alanları f 0962 → t 1945-06-05; ic_not "Nazi Almanyası ayrı künye açılmadı: aynı polity" diyor.
+  - Örnek: `fransa-cumhuriyet` 1792'den bütün rejimleri kapsar.
+- Hayalet devlet hükmünü yalnız f/t'ye göre ver.
+
 ## Erişilemeyen kapılar — DENEME
 - Britannica (403), Iranica'nın tahmin edilen slug'ları (404), archive.org ödünç kitapları (401), Banrepcultural (bot koruması), academia.edu (robots), Tynwald, APH/MoAD (robots) erişilemiyor. Bunları hiç deneme.
 - Yalnız tarayıcıyla açılabilecek bir kaynak gördüysen (JSTOR, ödünç kitap, girişli dergi) `tarayici_gerekli` alanına künyesini ve URL'sini yaz. Bunlar EMRELİC'te toplanır.

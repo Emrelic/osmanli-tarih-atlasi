@@ -108,6 +108,14 @@ Aşağıdaki TEK KURAL bu ölçütün uygulamasıdır, onun yerine geçmez. Öl�
     - Luang Prabang `v: fransa`.
 - **Künye var mı, ölç (gece-12):** "künye adayı", "künye yok" ya da "id bilinmiyor" yazmadan önce depodaki `data/devletler.js`'te devletin adını ve olası kimliğini grep'le ara. Örnek hata: Trieste Serbest Toprağı (`triyeste-serbest-toprak`) zaten vardı.
 - **Hayalet devlet kontrolü (gece-11):** Fiilî yönetim ya da Draç emsaliyle erken bir gün önerirken önce künyenin `f`'sine bak. Künye o günü kapsamıyorsa yerleşimi künye gününde bırak, erken günü `ic_not`'a yaz, künye sorusunu LAB'a gönder.
+- **🔴 Tunus ve Fas HİMAYEDİR (EMRELİC gece-22 KURAL KARARI):**
+  - **Tunus:** 1881-05-12 (Bardo) → 1956-03-20 `v: fransa`, `isg` değil. Altta `s: tunus-beyligi` sürer (künye `tunus-beyligi-fransiz`). Atlastaki `isg fransa` katmanı `v:`'ye çevrilir.
+  - **Fas:**
+    - Fes 1912-03-30 → 1956-03-02: Fransız bölgesi `v: fransa`.
+    - İspanyol bölgesi (1912-11-27 → 1956-04-07): `v: ispanya`.
+    - Altta `s: fas` sürer.
+    - Tanca ayrıdır (uluslararası bölge künyesi).
+  - Cezayir himaye değildir: fetih ve ilhak (1830-34 `isg`, `s: fransa` 1834-07-22).
 - **Lübnan kıyısı (EMRELİC gece-10):** 1918-10'dan `d: osmanli` + `isg fransa`. `s:` Fransız mandası 1920-09-01'den (Büyük Lübnan). 1920-07-25 yalnız iç Suriye içindir.
 - **Hukukî iade + fiilî çekiliş (EMRELİC, 4 Kasım 2026 gece-4):**
   - Hukukî devir antlaşması ile idare birlikte kurulduysa `s:` antlaşma gününden başlar (Petsamo: Moskova Mütarekesi 1944-09-19; Gîlân: Reşt 1732-02-01).

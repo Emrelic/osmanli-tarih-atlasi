@@ -90,6 +90,111 @@
   "kaynak": "Millî Mücadele'de İzmit/Kocaeli: İngiliz→Yunan devir günü (DergiPark/YÖK tez)"
  },
  {
+  "ad": "Dunhuang",
+  "dosya_satir": "data/yerlesimler_dogu_500_1281.js:2290",
+  "kaynak": "Cambridge History of China vol. 8 (Ming), Hami/Turfan/Shazhou bölümü — 1528-1723 arası Dunhuang'ın sahibi (Turfan Hanlığı, sonra Cungar) için ikincil akademik kaynak; Cambridge/JSTOR erişimi tarayıcı ister"
+ },
+ {
+  "ad": "Zeyla",
+  "dosya_satir": "data/yerlesimler.js:1160",
+  "kaynak": "Bradbury, Becoming Somaliland (James Currey/Progressive 2008) — Burao ilanı günü; erişim: ödünç kitap"
+ },
+ {
+  "ad": "Zeyla",
+  "dosya_satir": "data/yerlesimler.js:1160",
+  "kaynak": "Markus V. Hoehne, Somaliland 30 years after secession (wardheernews yeniden basımı; asıl yayın hakemli dergi/araştırma notu) — 18 May 1991 Burao"
+ },
+ {
+  "ad": "Çanakkale",
+  "dosya_satir": "data/yerlesimler.js:162",
+  "kaynak": "Çanakkale'nin tahliyesinin Türk basınına yansımaları, DergiPark https://dergipark.org.tr/tr/download/article-file/45163 (PDF metni okunamadı; tarayıcıda açılıp 6 Ekim 1923 teslim cümlesi aranmalı)"
+ },
+ {
+  "ad": "Esterâbâd (Gürgân)",
+  "dosya_satir": "data/yerlesimler.js:2246",
+  "kaynak": "Cambridge History of Iran, vol. 7 (Zand/Qajar, 1991) — açık erişim yok; archive.org ödünç"
+ },
+ {
+  "ad": "Şamahı",
+  "dosya_satir": "data/yerlesimler.js:813",
+  "kaynak": "Bayramova, A. (2005), sy. 217 — TDV Şirvan'ın dayandığı makale; Şemâhî Hanlığı-Kaçar ilişkisi"
+ },
+ {
+  "ad": "Zhengding",
+  "dosya_satir": "data/yerlesimler_asya.js:1763",
+  "kaynak": "Academia Sinica Tarih Karşılaştırma Çizelgesi — Hongwu 1, 9. ay 乙丑 (EMRELİC toplu çevirisi)"
+ },
+ {
+  "ad": "Zhengding",
+  "dosya_satir": "data/yerlesimler_asya.js:1764",
+  "kaynak": "Academia Sinica Tarih Karşılaştırma Çizelgesi — Shunzhi 1, 5. ay 乙未 (EMRELİC toplu çevirisi)"
+ },
+ {
+  "ad": "Seleukeia",
+  "dosya_satir": "data/yerlesimler_mo_zincir.js:8",
+  "kaynak": "Encyclopaedia Iranica, «Seleucia on the Tigris» (tarayıcıyla slug aranmalı; erişilen sayfa yok)"
+ },
+ {
+  "ad": "Nadia (Navadvipa/Nabadwip)",
+  "dosya_satir": "data/yerlesimler_nokta2.js:None",
+  "kaynak": "Encyclopaedia Iranica «Bakhtiyār Khaljī» / EI2 «Nudiya»: Nadia'nın alınış yılı (1203/1204)"
+ },
+ {
+  "ad": "Lahsa",
+  "dosya_satir": "data/yerlesimler.js:894",
+  "kaynak": "TDV «Suudi Arabistan» md. https://islamansiklopedisi.org.tr/suudi-arabistan (Mayıs 1914 anlaşması günü için, okunmadı)"
+ },
+ {
+  "ad": "Namur",
+  "dosya_satir": "",
+  "kaynak": "Aix-la-Chapelle 1748 antlaşması metni/akademik monografi (t için): kaynak aranmadı"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2013",
+  "kaynak": "Cambridge History of China vol.7 (Ming 1368-1644, Part 1), Yuan sonu Yangzhou/Zhang Mingjian (Qingyi army) 1356-57 — JSTOR/archive.org ödünç"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2014",
+  "kaynak": "Cambridge History of China vol.7 Part 1, ch.9 (Nan-Ming; Yangzhou 1645) ve Frederic Wakeman, The Great Enterprise — ödünç/JSTOR"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2015",
+  "kaynak": "Cambridge History of China vol.10 Part 1, ch.5 (Kuhn, Origins of the Taiping Vision / Rebellion and Its Enemies) — Yangzhou 1853"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2016",
+  "kaynak": "Cambridge History of China vol.10 Part 1, ch.5; Spence, God's Chinese Son (Yangzhou 1853-54 Jiangbei Daying kuşatması)"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2017",
+  "kaynak": "Cambridge History of China vol.10 Part 1 ve vol.11 (Xinhai, Yangzhou/Jiangsu 1911) — JSTOR"
+ },
+ {
+  "ad": "Vladimir",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:263",
+  "kaynak": "Cambridge History of Russia vol.1 (Perrie), ch. Moscow's rise / İvan Kalita 1328 yarlık — ödünç/JSTOR"
+ },
+ {
+  "ad": "Vladimir",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:263",
+  "kaynak": "Great Russian Encyclopedia 'Vladimir' (bigenc.ru) — tarayıcıyla"
+ },
+ {
+  "ad": "Saraybosna",
+  "dosya_satir": "data/yerlesimler.js:577",
+  "kaynak": "Enciklopedija Jugoslavije 'Sarajevo' (1968-71), kurtuluş günü — tarayıcı/kütüphane"
+ },
+ {
+  "ad": "Saraybosna",
+  "dosya_satir": "data/yerlesimler.js:577",
+  "kaynak": "Hrvatska enciklopedija/Bosanski leksikon 'Sarajevo, oslobođenje 1945' gün teyidi"
+ },
+ {
   "ad": "Çanakkale",
   "dosya_satir": "data/yerlesimler.js:162",
   "kaynak": "Reyhan Körpe (ÇOMÜ) — Çimenlik/Sarıçay ağzı 14. yy başı Bituperi/Vituperio liman yerleşimi; makale künyesi bulunamadı (DergiPark / ÇOMÜ Tarih Dergisi / Temmuz 2026 haberleri). Bulunursa kur 1452 geri çekilir (EMRELİC/UMIT)."

@@ -869,6 +869,28 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
     - Değişmez 1 gereği var olan yerleşimde beyan şarttır.
   - **Künye soruları:** EMRELİC LAB'a iletti (ortak bölge künyesi; Ainu, Daur, Nivkh).
 
+## 37. İtalya 1946, Dubrovnik, Alaşehir (EMRELİC, 5 Kasım 2026 gece-18; `karar40`)
+- **İtalya Cumhuriyeti:**
+  - Künye `italya-cumhuriyeti` f → 1946-06-02 (referandum; Treccani + TDV); `italya` t → 1946-06-01. Künye değişikliği LAB'a gider.
+  - Messina ve Palermo satırları künye düzeltmesiyle birlikte uygulanır (`_etiket` KUNYE_DUZELTMESIYLE).
+  - `ic_not`: "Yargıtay 06-10 ilan, 06-13 kralın ayrılışı, 06-18 kesin sonuç".
+  - Bu bir rejim değişimidir; toprak değişmez, Değişmez 2 kırılması yok.
+  - **Avusturya (EMRELİC gece-21; `avusturya_1918.json`):** seçenek (a) kabul edildi.
+    - `avusturya-cumhuriyet` künye f → 1918-10-30. Geçici Millî Meclis devleti kurdu, Devlet Konseyi idareyi fiilen devraldı (TDV; Prag 10-28 / Zagreb 10-29 emsali).
+    - Karl'ın 11-11 feragati ve 11-12 cumhuriyet ilanı rejim değişimidir, `ic_not`'a.
+    - Habsburg t 11-11/12'de kalabilir: künye ömürlerinin örtüşmesi hayalet değildir.
+    - Ölçüm (UMIT): 1918-11-12 geçen 27 parça, 17 yerleşim (avusturya-cumhuriyet 15 · avusturya 9 · habsburg 1 · ?2). Hepsi `dosya_satir` ile `avusturya_1918.json`'da.
+    - Satırlar künye düzeltmesiyle aynı commit'te uygulanır.
+    - Graz HATALI_ONERI değildir → KUNYE_DUZELTMESIYLE.
+- **Dubrovnik:** v: 1459-03-07 kalır. 1365 haraç ahidnâmesi ve 1358 Zadar `ic_not`'a.
+- **Alaşehir:**
+  - Yerin kendi TDV maddesi esas: Bizans 1390/91'e kadar, sonra Osmanlı.
+  - germiyan 1300-1390 dilimi kaynaksız → HATALI_ONERI/düzeltme kovası.
+  - `ic_not`'a iki cümle birlikte: TDV Aydınoğulları "1335'ten Aydınoğlu" (haraç ya da tâbiyet olabilir) ve TDV Alaşehir "1391'e kadar Bizans".
+- **Sudak:** y_029 ajanının "almanya künyesi 1806'da biter" hükmü yanlıştı.
+  - `almanya` f 0962 → t 1945-06-05; `ic_not_t`'ye göre Nazi Almanyası aynı polity.
+  - `isg almanya` 1941-44 geçerli. Brife "künyenin adına değil f/t alanına bak" uyarısı eklendi.
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.
