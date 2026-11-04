@@ -19,10 +19,10 @@
 "K203": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Rehoboth 1890-1904 'nama-orlam', çevre Alman Güneybatı Afrikası (koridor 82 km 8/9). Rehoboth 1870'ten Baster (Rehoboth Basters) topluluğunun merkezi; 1885'te Almanya ile himaye antlaşması yaptılar. Nama-Oorlam kimliği yanlış; Baster'lar Alman himayesindeydi. [KAYNAK-UMIT: bulunamadi — Rehoboth Basters 1870 yerleşimi ve 1885 Alman himaye antlaşması için UNESCO General History of Africa vol. VII ya da Cambridge History of Africa gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — Baster/Rehoboth 1870 ve 1885 himaye antlaşması kaynaklanamadı. Namibya tarihi akademik kaynağı gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Rehoboth 1890-1904 'nama-orlam', çevre Alman Güneybatı Afrikası (koridor 82 km 8/9). Rehoboth 1870'ten Baster (Rehoboth Basters) topluluğunun merkezi; 1885'te Almanya ile himaye antlaşması yaptılar. Nama-Oorlam kimliği yanlış; Baster'lar Alman himayesindeydi. [KAYNAK-UMIT: bulunamadi — Rehoboth Basters 1870 yerleşimi ve 1885 Alman himaye antlaşması için UNESCO General History of Africa vol. VII ya da Cambridge History of Africa gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — Baster/Rehoboth 1870 ve 1885 himaye antlaşması kaynaklanamadı. Namibya tarihi akademik kaynağı gerek.] [KAYNAK-UMIT (kismen): Rehoboth Basterlerinin yerleşimi 1870 teyitli; 1885 Alman himayesi yalnız yıl. · Rehoboth Baster kimliği (nama-orlam değil) yönünde; 1885 yıl düzeyinde.]",
 "duzeltme": "Rehoboth 1870-1904 sahibi: Baster (yerel, Alman himayesinde v:) — kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "H. Lang, Zeitschrift für Ethnologie 124/2 (1999) — HAVVA JSTOR okuması · önceki: veri ölçümü"
 },
 "K204": {
 "hukum": "GERCEK",
@@ -99,10 +99,10 @@
 "K213": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Cenne (Djenné) 1861-01-01 → 03-10 'tekrur' (Hacı Ömer), çevre Bambara (Segu). Hacı Ömer Segu'yu 10 Mart 1861'de aldı; Cenne Masina'nındı ve Ömer'e 1862'de geçti. Cenne'nin 1861 başında Tekrur yazılması yanlış ve yıl hassasiyetli. [KAYNAK-UMIT: bulunamadi — Hacı Ömer'in Segu'yu 10 Mart 1861'de, Hamdallahi/Masina'yı 1862'de alışı için UNESCO GHA vol. VI (Hrbek/Hopkins) ya da Cambridge History of Africa vol. 5 gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — 1861-03-10 Segu ve Cenne'nin Ömer'e geçiş yılı kaynaklanamadı. Hacı Ömer bölümü elle okunmalı.]",
+"guven": "KAYNAKLI",
+"gerekce": "Cenne (Djenné) 1861-01-01 → 03-10 'tekrur' (Hacı Ömer), çevre Bambara (Segu). Hacı Ömer Segu'yu 10 Mart 1861'de aldı; Cenne Masina'nındı ve Ömer'e 1862'de geçti. Cenne'nin 1861 başında Tekrur yazılması yanlış ve yıl hassasiyetli. [KAYNAK-UMIT: bulunamadi — Hacı Ömer'in Segu'yu 10 Mart 1861'de, Hamdallahi/Masina'yı 1862'de alışı için UNESCO GHA vol. VI (Hrbek/Hopkins) ya da Cambridge History of Africa vol. 5 gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — 1861-03-10 Segu ve Cenne'nin Ömer'e geçiş yılı kaynaklanamadı. Hacı Ömer bölümü elle okunmalı.] [KAYNAK-UMIT (kismen): Hacı Ömer Segu'yu Mart 1861'de aldı (gün yok); Cenne'nin geçiş günü bulunamadı. · Hükmün 1861-03 Segu çerçevesi teyitli; Cenne'nin 1861 başında Tekrur yazımı hâlâ teyitsiz.]",
 "duzeltme": "Cenne tekrur f → 1862 (Masina'nın düşüşü, kaynakla); önce massina.",
-"kaynak": "veri ölçümü"
+"kaynak": "H. J. Fisher, Bulletin of the School of Oriental and African Studies 48/1, s. 133 — HAVVA JSTOR okuması · önceki: veri ölçümü"
 },
 "K214": {
 "hukum": "YAPAY",
@@ -323,10 +323,10 @@
 "K241": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Lampung 1808 → 1811-08-18 'hollanda-dogu-hint', çevre Banten (koridor 81 km 6/9) ve Palembang. Lampung Banten sultanlığının Sumatra payıydı; Daendels Banten'i 1808'de baskı altına aldı ama Lampung'un doğrudan Hollanda idaresi 1856'da tamamlandı. Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. EB 1911 'Lampong' sayfası yok; Lampung/Banten bağlılığı ve 1808-1811 için Ricklefs 'A History of Modern Indonesia' ya da Cambridge History of Southeast Asia gerek.] [KAYNAK-UMIT: giris_gerek — Lampung-Banten bağlılığı için Ricklefs ya da Cambridge History of Southeast Asia gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Lampung 1808 → 1811-08-18 'hollanda-dogu-hint', çevre Banten (koridor 81 km 6/9) ve Palembang. Lampung Banten sultanlığının Sumatra payıydı; Daendels Banten'i 1808'de baskı altına aldı ama Lampung'un doğrudan Hollanda idaresi 1856'da tamamlandı. Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. EB 1911 'Lampong' sayfası yok; Lampung/Banten bağlılığı ve 1808-1811 için Ricklefs 'A History of Modern Indonesia' ya da Cambridge History of Southeast Asia gerek.] [KAYNAK-UMIT: giris_gerek — Lampung-Banten bağlılığı için Ricklefs ya da Cambridge History of Southeast Asia gerek.] [KAYNAK-UMIT (celiski): Lampung 22 Kasım 1808'de Banten'den ayrıldı (Daendels nizamnamesi). · Lampung'un 1808-11-22 sonrası Banten'e yazılması kaynakla çelişiyor; 1808-11-22'den doğrudan Hollanda idaresi.]",
 "duzeltme": "Lampung 1808-1811 sahibi (banten-sultanligi) kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "S. Kartodirdjo (1966), s. 73 dn. 15 (Daendels nizamnamesi) — HAVVA JSTOR okuması · önceki: veri ölçümü"
 },
 "K242": {
 "hukum": "YAPAY",

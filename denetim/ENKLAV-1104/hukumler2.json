@@ -275,10 +275,10 @@
 "K135": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Gouré 1899-01-01 'fransa-cumhuriyet' (önce damagaram), koridor kanem-bornu 9/9 (215 km). Fransızlar Zinder'i (Damagaram başkenti) 30 Temmuz 1899'da aldı; Gouré'nin yıl başına çekilmiş f'si ile Zinder/Damagaram'ın atlasta Bornu boyalı kalması kopukluk üretiyor. [KAYNAK-UMIT: bulunamadi — Zinder'in Fransızlarca 30 Temmuz 1899'da alınışı bu kaynaklarda YOK (TDV Nijer 1904 diyor). Gün bulunamadı; Damagaram/Zinder Fransız fethi için Hamani Dioris / Cambridge Hist. of Africa vol.6 gerek → giriş gerek. Hükmün tarihsel düzeltme yönü (Zinder/Damagaram f aynı güne) makul ama kaynaksız.] [KAYNAK-UMIT: bulunamadi — Zinder'in 30 Temmuz 1899'da alınışı kaynaklanamadı. Damagaram/Fransız fethi için Cambridge History of Africa vol. 6 ya da hakemli makale gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Gouré 1899-01-01 'fransa-cumhuriyet' (önce damagaram), koridor kanem-bornu 9/9 (215 km). Fransızlar Zinder'i (Damagaram başkenti) 30 Temmuz 1899'da aldı; Gouré'nin yıl başına çekilmiş f'si ile Zinder/Damagaram'ın atlasta Bornu boyalı kalması kopukluk üretiyor. [KAYNAK-UMIT: bulunamadi — Zinder'in Fransızlarca 30 Temmuz 1899'da alınışı bu kaynaklarda YOK (TDV Nijer 1904 diyor). Gün bulunamadı; Damagaram/Zinder Fransız fethi için Hamani Dioris / Cambridge Hist. of Africa vol.6 gerek → giriş gerek. Hükmün tarihsel düzeltme yönü (Zinder/Damagaram f aynı güne) makul ama kaynaksız.] [KAYNAK-UMIT: bulunamadi — Zinder'in 30 Temmuz 1899'da alınışı kaynaklanamadı. Damagaram/Fransız fethi için Cambridge History of Africa vol. 6 ya da hakemli makale gerek.] [KAYNAK-UMIT (kismen): Zinder Temmuz 1899'da alındı (gün yok); kalıcı Fransız garnizonu Ağustos 1900. · 1899 yılı ve Temmuz ayı teyitli; 30 Temmuz günü teyitsiz. Gouré'nin 1899-01-01 başlangıcı Zinder'den önce: erken.]",
 "duzeltme": "Zinder ve Damagaram noktaları fransa-cumhuriyet f → 1899-07-30 (kaynakla); Gouré f aynı güne.",
-"kaynak": "veri ölçümü (kayit.py Goure)"
+"kaynak": "C. Lefebvre, Annales. Histoire, Sciences Sociales (2017), s. 952 — HAVVA JSTOR okuması · önceki: veri ölçümü (kayit.py Goure)"
 },
 "K136": {
 "hukum": "YAPAY",
@@ -483,10 +483,10 @@
 "K161": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Siak Sri Indrapura 1590-1615 'cohor-sultanligi': Siak Johor'a bağlı Sumatra kıyı beyliği, Johor'un yarımada gövdesinden Malakka Boğazı ile ayrı; koridor Sumatra karası (doğu-sumatra 9/9) üzerinden çizildiği için KARA sınıfında. Denizaşırı bağımlılık olarak gerçek; Johor bağlılığının yılları kaynakla. [KAYNAK-UMIT: bulunamadi — Siak-Johor 1590-1615 bağlılığı için TDV'de madde yok (tdv-ara sonuçsuz); Siak sultanlığı 1723'te kuruldu, 1590-1615 Johor'a bağlılığı için Cambridge History of Southeast Asia gerek.] [KAYNAK-UMIT: giris_gerek — Siak-Johor bağlılığı için Cambridge History of Southeast Asia ya da Johor tarihi akademik sayfa gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Siak Sri Indrapura 1590-1615 'cohor-sultanligi': Siak Johor'a bağlı Sumatra kıyı beyliği, Johor'un yarımada gövdesinden Malakka Boğazı ile ayrı; koridor Sumatra karası (doğu-sumatra 9/9) üzerinden çizildiği için KARA sınıfında. Denizaşırı bağımlılık olarak gerçek; Johor bağlılığının yılları kaynakla. [KAYNAK-UMIT: bulunamadi — Siak-Johor 1590-1615 bağlılığı için TDV'de madde yok (tdv-ara sonuçsuz); Siak sultanlığı 1723'te kuruldu, 1590-1615 Johor'a bağlılığı için Cambridge History of Southeast Asia gerek.] [KAYNAK-UMIT: giris_gerek — Siak-Johor bağlılığı için Cambridge History of Southeast Asia ya da Johor tarihi akademik sayfa gerek.] [KAYNAK-UMIT (kismen): Johor prensleri Siak'ta tahta çıkarıldı (Siak'ın Johor'a bağlılığı genel olarak teyitli); 1590-1615 için ayrı yıl yok. · Hükmün Siak-Johor bağı teyitli; dönem uçları teyitsiz.]",
 "duzeltme": "Yok; sınıf beyanı (deniz).",
-"kaynak": "veri ölçümü"
+"kaynak": "L. Y. Andaya, Bijdragen tot de Taal-, Land- en Volkenkunde (BKI) 153/4 (1997), s. 489 — HAVVA JSTOR okuması · önceki: veri ölçümü"
 },
 "K162": {
 "hukum": "YAPAY",
@@ -587,10 +587,10 @@
 "K174": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "DENİZ AŞIRI: Duala 1868-01-01 → 1884-07-14 'hollanda' (dönem kaynaksız). Duala'da 19. yüzyılda İngiliz ve Alman tüccarlar etkindi; Duala şefleri 12-14 Temmuz 1884'te Almanya ile himaye antlaşması yaptı. Hollanda egemenliğine dair dayanak yok. [KAYNAK-UMIT: bulunamadi — Hollanda egemenliği 1868-1884 için dayanak bulunamadı; Duala şeflikleri düzeltmesi desteklenir. 1884 Temmuz Alman antlaşması için ayrı kaynak (Kamerun tarihi bölümü) okunmadı.] [KAYNAK-UMIT: bulunamadi — Hollanda egemenliği dayanağı yok (önceki tur gibi). Duala-Alman antlaşması günleri için Kamerun tarihi bölümü elle okunmalı.]",
+"guven": "KAYNAKLI",
+"gerekce": "DENİZ AŞIRI: Duala 1868-01-01 → 1884-07-14 'hollanda' (dönem kaynaksız). Duala'da 19. yüzyılda İngiliz ve Alman tüccarlar etkindi; Duala şefleri 12-14 Temmuz 1884'te Almanya ile himaye antlaşması yaptı. Hollanda egemenliğine dair dayanak yok. [KAYNAK-UMIT: bulunamadi — Hollanda egemenliği 1868-1884 için dayanak bulunamadı; Duala şeflikleri düzeltmesi desteklenir. 1884 Temmuz Alman antlaşması için ayrı kaynak (Kamerun tarihi bölümü) okunmadı.] [KAYNAK-UMIT: bulunamadi — Hollanda egemenliği dayanağı yok (önceki tur gibi). Duala-Alman antlaşması günleri için Kamerun tarihi bölümü elle okunmalı.] [KAYNAK-UMIT (kismen): Duala şefleriyle Alman antlaşmaları 12 ve 14 Temmuz 1884; Hollanda egemenliği hiç geçmiyor; 1868 Woermann'ın ticarete başladığı yıl. · Hüküm doğru: 1868-1884 'hollanda' dayanaksız (1868 Alman ticaret başlangıcı); bitiş 1884-07-12/14 teyitli.]",
 "duzeltme": "Duala 1868-1884 sahibi: Duala şeflikleri (yerel), kaynakla; 'hollanda' kaldırılsın.",
-"kaynak": "veri ölçümü (kayit.py Duala)"
+"kaynak": "M. van der Linden (2017), s. 180, 191 — HAVVA JSTOR okuması · önceki: veri ölçümü (kayit.py Duala)"
 },
 "K175": {
 "hukum": "GERCEK",
