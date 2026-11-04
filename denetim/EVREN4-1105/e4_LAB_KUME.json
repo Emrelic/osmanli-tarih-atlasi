@@ -322,7 +322,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:494",
@@ -2679,7 +2679,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1168",
@@ -2883,7 +2883,7 @@
    "kaynak": "Bakılan: TDV AVUSTURYA (Silezya yalnız 1740-80 Prusya savaşları, 1526 yalnız Mohaç); künye avusturya devletler.js'te var (f 1282-12-27, t 1918-11-12).",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1276",
@@ -3378,7 +3378,7 @@
    "kaynak": "Treccani, Dalmazia (Enciclopedia on line) - https://www.treccani.it/enciclopedia/dalmazia/ ; Belluno: https://www.treccani.it/enciclopedia/belluno/ (tennero fino al 1797)",
    "alinti": "Dopo la caduta della Repubblica di Venezia nel 1797, la D. passò in mani austriache",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1859",
@@ -3390,7 +3390,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1859",
@@ -3416,7 +3416,7 @@
    "kaynak": "Treccani, Dalmazia (Enciclopedia on line) - https://www.treccani.it/enciclopedia/dalmazia/ ; Belluno: https://www.treccani.it/enciclopedia/belluno/ (tennero fino al 1797)",
    "alinti": "Dopo la caduta della Repubblica di Venezia nel 1797, la D. passò in mani austriache",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1862",
@@ -3428,7 +3428,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1862",
@@ -3454,7 +3454,7 @@
    "kaynak": "Treccani, Dalmazia (Enciclopedia on line) - https://www.treccani.it/enciclopedia/dalmazia/ ; Belluno: https://www.treccani.it/enciclopedia/belluno/ (tennero fino al 1797)",
    "alinti": "Dopo la caduta della Repubblica di Venezia nel 1797, la D. passò in mani austriache",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1865",
@@ -3478,7 +3478,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1865",
@@ -4281,7 +4281,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, BOSNA-HERSEK - https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler.js:2521",
@@ -4317,7 +4317,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
   },
   {
    "dosya_satir": "data/yerlesimler.js:2521",
@@ -4369,7 +4369,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, BOSNA-HERSEK - https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler_seyrek.js:282",
@@ -4405,7 +4405,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_seyrek.js:282",
@@ -4431,7 +4431,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, BOSNA-HERSEK - https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler_ek2.js:51",
@@ -4467,7 +4467,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek2.js:51",
@@ -5840,10 +5840,8 @@
    "hukum": "ONERI",
    "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
    "alinti": "iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
-   "oneri": {
-    "f": "1991-05-28"
-   },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): BEKLE (sabah Emre). TDV 28 Mayıs 1991; 18 Mayıs Burao kararı literatürde yerleşik. İkinci akademik kaynak aranacak (Bradbury 2008 'Becoming Somaliland', Lewis). O zamana dek atlas 05-18 kalır, ic_not iki gün. | TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
   }
  ],
  "Lasanod": [
@@ -5904,10 +5902,8 @@
    "hukum": "ONERI",
    "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
    "alinti": "iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
-   "oneri": {
-    "f": "1991-05-28"
-   },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): BEKLE (sabah Emre). TDV 28 Mayıs 1991; 18 Mayıs Burao kararı literatürde yerleşik. İkinci akademik kaynak aranacak (Bradbury 2008 'Becoming Somaliland', Lewis). O zamana dek atlas 05-18 kalır, ic_not iki gün. | TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
   }
  ],
  "Ebû Hamed": [
@@ -6233,7 +6229,7 @@
    "kaynak": "Treccani, Dalmazia (Enciclopedia on line) - https://www.treccani.it/enciclopedia/dalmazia/ ; Belluno: https://www.treccani.it/enciclopedia/belluno/ (tennero fino al 1797)",
    "alinti": "Dopo la caduta della Repubblica di Venezia nel 1797, la D. passò in mani austriache",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek.js:155",
@@ -6257,7 +6253,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek.js:155",
@@ -7273,7 +7269,7 @@
    "kaynak": "Treccani, Dalmazia (Enciclopedia on line) - https://www.treccani.it/enciclopedia/dalmazia/ ; Belluno: https://www.treccani.it/enciclopedia/belluno/ (tennero fino al 1797)",
    "alinti": "Dopo la caduta della Repubblica di Venezia nel 1797, la D. passò in mani austriache",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1797-10-17, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | YIL düzeyi (1797); gün 1797-10-17 (Campo Formio imza günü) Treccani'de yok. Birincil belge/akademik gün alıntısı bulunamadı. KARIŞIK: Dalmaçya adaları/Şibenik (Dalmaçya) ile Belluno (terraferma) farklı olaylar; TEK ÖLÇÜ: Avusturya fiilen yönetmiyorsa teslim günü (Avusturya askeri girişi 1797 yaz/1798 Ocak, Venedik terraferması; ipucu, okunmadı) - imza günü uygulanıyorsa TEK ÖLÇÜ'ye aykırı olabilir. Künye avusturya eşleşmedi (kunye null) - 'avusturya' id'si devletler.js'te kontrol edilmeli. Britannica: 17 Ekim 1797 (WebSearch özeti, 403, okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:490",
@@ -7311,7 +7307,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:493",
@@ -7582,7 +7578,7 @@
    "oneri": {
     "f": "1947-08-14"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): f 1947-08-14 (TDV 'fiilen uygulamaya konuldu'; Mountbatten yetkiyi Karaçi'de 14 Ağustos'ta devretti — fiilî idare). Indian Independence Act 'appointed day' 15 Ağustos ic_not'a. Künye + küme ATOMİK (KASA tek kalem). | TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
   }
  ],
  "Pandua (Hazret Pandua)": [
@@ -7612,7 +7608,7 @@
    "oneri": {
     "f": "1947-08-14"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): f 1947-08-14 (TDV 'fiilen uygulamaya konuldu'; Mountbatten yetkiyi Karaçi'de 14 Ağustos'ta devretti — fiilî idare). Indian Independence Act 'appointed day' 15 Ağustos ic_not'a. Künye + küme ATOMİK (KASA tek kalem). | TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
   }
  ],
  "Kolhapûr": [
@@ -9184,7 +9180,7 @@
    "kaynak": "TDV: ANKARA SAVAŞI (28 Temmuz 1402; savaş günü), FETRET DEVRİ (Gelibolu Antlaşması Şubat 1403: Selânik ve Tesalya Bizans'a), Emîr Süleyman/Süleyman Çelebi slug'ları bulunamadı (TDV arama boş)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_ek24.js:134",
@@ -9328,7 +9324,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, BOSNA-HERSEK - https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:302",
@@ -9380,7 +9376,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ ÇELEBİ - https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
   }
  ],
  "Mangalya (Mangalia)": [
@@ -9572,7 +9568,7 @@
    "kaynak": "TDV: ANKARA SAVAŞI (28 Temmuz 1402; savaş günü), FETRET DEVRİ (Gelibolu Antlaşması Şubat 1403: Selânik ve Tesalya Bizans'a), Emîr Süleyman/Süleyman Çelebi slug'ları bulunamadı (TDV arama boş)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:1082",
@@ -9584,7 +9580,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ ÇELEBİ - https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:1082",
@@ -9596,7 +9592,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi — https://islamansiklopedisi.org.tr/musa-celebi (Emîr Süleyman maddesi slug'ı bulunamadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:1082",
@@ -9608,7 +9604,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi, Fahameddin Başar, 2020 — https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
   }
  ],
  "İmranlı": [
@@ -11112,10 +11108,8 @@
    "hukum": "ONERI",
    "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
    "alinti": "iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
-   "oneri": {
-    "f": "1991-05-28"
-   },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): BEKLE (sabah Emre). TDV 28 Mayıs 1991; 18 Mayıs Burao kararı literatürde yerleşik. İkinci akademik kaynak aranacak (Bradbury 2008 'Becoming Somaliland', Lewis). O zamana dek atlas 05-18 kalır, ic_not iki gün. | TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
   }
  ],
  "Afgoye": [
@@ -11784,10 +11778,8 @@
    "hukum": "ONERI",
    "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
    "alinti": "iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
-   "oneri": {
-    "f": "1991-05-28"
-   },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): BEKLE (sabah Emre). TDV 28 Mayıs 1991; 18 Mayıs Burao kararı literatürde yerleşik. İkinci akademik kaynak aranacak (Bradbury 2008 'Becoming Somaliland', Lewis). O zamana dek atlas 05-18 kalır, ic_not iki gün. | TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
   }
  ],
  "Vanlaveyn": [
@@ -15005,7 +14997,7 @@
    "kaynak": "TDV: ANKARA SAVAŞI (28 Temmuz 1402; savaş günü), FETRET DEVRİ (Gelibolu Antlaşması Şubat 1403: Selânik ve Tesalya Bizans'a), Emîr Süleyman/Süleyman Çelebi slug'ları bulunamadı (TDV arama boş)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
@@ -15017,7 +15009,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ ÇELEBİ - https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
@@ -15029,7 +15021,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi — https://islamansiklopedisi.org.tr/musa-celebi (Emîr Süleyman maddesi slug'ı bulunamadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
@@ -15041,7 +15033,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi, Fahameddin Başar, 2020 — https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
@@ -18157,7 +18149,7 @@
    "oneri": {
     "f": "1947-08-14"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): f 1947-08-14 (TDV 'fiilen uygulamaya konuldu'; Mountbatten yetkiyi Karaçi'de 14 Ağustos'ta devretti — fiilî idare). Indian Independence Act 'appointed day' 15 Ağustos ic_not'a. Künye + küme ATOMİK (KASA tek kalem). | TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
   }
  ],
  "Vitim (Vitimskoye zimov'e / Vitimskiy ostrog)": [
@@ -18964,7 +18956,7 @@
    "kaynak": "Bakılan: TDV AVUSTURYA (Silezya yalnız 1740-80 Prusya savaşları, 1526 yalnız Mohaç); künye avusturya devletler.js'te var (f 1282-12-27, t 1918-11-12).",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1272",
@@ -18990,7 +18982,7 @@
    "kaynak": "Bakılan: TDV AVUSTURYA (Silezya yalnız 1740-80 Prusya savaşları, 1526 yalnız Mohaç); künye avusturya devletler.js'te var (f 1282-12-27, t 1918-11-12).",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
   }
  ],
  "Hadramut": [
@@ -20365,7 +20357,7 @@
    "oneri": {
     "f": "1947-08-14"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): f 1947-08-14 (TDV 'fiilen uygulamaya konuldu'; Mountbatten yetkiyi Karaçi'de 14 Ağustos'ta devretti — fiilî idare). Indian Independence Act 'appointed day' 15 Ağustos ic_not'a. Künye + küme ATOMİK (KASA tek kalem). | TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
   }
  ],
  "Çampâner": [
@@ -20777,7 +20769,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ ÇELEBİ - https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:857",
@@ -20789,7 +20781,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi — https://islamansiklopedisi.org.tr/musa-celebi (Emîr Süleyman maddesi slug'ı bulunamadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:857",
@@ -20801,7 +20793,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi, Fahameddin Başar, 2020 — https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:857",
@@ -20813,7 +20805,7 @@
    "kaynak": "TDV: ANKARA SAVAŞI (28 Temmuz 1402; savaş günü), FETRET DEVRİ (Gelibolu Antlaşması Şubat 1403: Selânik ve Tesalya Bizans'a), Emîr Süleyman/Süleyman Çelebi slug'ları bulunamadı (TDV arama boş)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:857",
@@ -21847,7 +21839,7 @@
    "kaynak": "TDV: ANKARA SAVAŞI (28 Temmuz 1402; savaş günü), FETRET DEVRİ (Gelibolu Antlaşması Şubat 1403: Selânik ve Tesalya Bizans'a), Emîr Süleyman/Süleyman Çelebi slug'ları bulunamadı (TDV arama boş)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
@@ -21859,7 +21851,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, MÛSÂ ÇELEBİ - https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
@@ -21871,7 +21863,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi — https://islamansiklopedisi.org.tr/musa-celebi (Emîr Süleyman maddesi slug'ı bulunamadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
@@ -21883,7 +21875,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi, Fahameddin Başar, 2020 — https://islamansiklopedisi.org.tr/musa-celebi",
    "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
   },
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
@@ -24691,7 +24683,7 @@
    "kaynak": "Bakılan: TDV AVUSTURYA (Silezya yalnız 1740-80 Prusya savaşları, 1526 yalnız Mohaç); künye avusturya devletler.js'te var (f 1282-12-27, t 1918-11-12).",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:593",
@@ -24757,7 +24749,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, BOSNA-HERSEK - https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler_halef_1946.js:88",
@@ -24793,7 +24785,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
    "alinti": "29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-44): kimlik sorusu D-ANAHTAR dosyasında, sabah Emre. | KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
   }
  ],
  "Mianning (Lincang)": [
