@@ -36,10 +36,6 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
-    # L2S 735-746 (S31) — Sarkar O.S. bulgusu (haftanın günüyle ölçüldü, KASA SALI)
-    "L2-1114": "Şivâcî ölümü: Sarkar (Shivaji and His Times 1929 / History of Aurangzib IV 1930) O.S. yazar: «Sunday, 4th April 1680» yalnız Jülyen'de Pazar (Gregoryen'de Perşembe) → Sarkar 4 Nisan O.S. = 1680-04-14 Gregoryen; atlas 1680-04-03 hiçbirine uymaz; Sarkar dipnotu Chaitra dolunayının 3/4 Nisan'a yayıldığını beyan eder → Gordon (The Marathas) okunmadan karar yok",
-    "L2-1111": "[TAKVİM — Sarkar O.S.] Şivâcî taç giymesi atlas 1674-06-06 = Sarkar'ın günü; Sarkar (Shivaji and His Times 1929 / History of Aurangzib IV 1930) O.S. yazar: «Sunday, 4th April 1680» yalnız Jülyen'de Pazar (Gregoryen'de Perşembe) → 6 Haziran O.S. = 1674-06-16 Gregoryen (+10); Hindu tarihi (Jyeshtha śukla 13, Śaka 1596) ile ikinci kaynakta teyit gerekli — uygulanmadan önce ölçülür",
-    "L2-1118": "[TAKVİM — Sarkar O.S.] Sambâjî idamı atlas 1689-03-11 = Sarkar'ın günü; Sarkar (Shivaji and His Times 1929 / History of Aurangzib IV 1930) O.S. yazar: «Sunday, 4th April 1680» yalnız Jülyen'de Pazar (Gregoryen'de Perşembe) → 11 Mart O.S. = 1689-03-21 Gregoryen (+10); ikinci kaynakla teyit gerekli; metin: gerekçe ulemanın fetvası (Sarkar), «İslâm'ı kabul etmeyi reddedince» yumuşatılır",
     # L2H 1575-1694 / L2L 1451-1550 (EMRELİC Academia Sinica turu)
     "L2-2043": "An Lushan ayaklanması 755-12-08 (ayın başı): Tianbao 14, 11. ay = 755-12-08…756-01-06; 甲子 = 755-12-16 — bağlama göre [yalnız ay] ya da 甲子 günü (Academia Sinica, EMRELİC; (JDN+49) mod 60 çapraz)",
     "L2-2135": "Meng Zhixiang ölümü 934-09-10: Later Shu takvimi tabloda yok; Later Tang ile Mingde 1, 6. ay = 934-07-15…08-12 → atlas ay dışı, çelişki; kaynak cümlesi okunmalı (Academia Sinica, EMRELİC; (JDN+49) mod 60 çapraz)",
@@ -274,6 +270,10 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    # SARKAR O.S. BULGUSU — iki bağımsız ölçüm: haftanın günü (KASA SALI) + ortalama Ay yaşıyla tithi (EMRELİC)
+    "L2-1111": ("tarih düzelt", "Şivâcî taç giymesi 1674-06-06 → 1674-06-16 Gregoryen: Sarkar 6 Haziran O.S.; Jyeshtha śukla 13 — 1674-06-06 Jülyen'de Ay yaşı 12,9 gün (uyar), Gregoryen 06-06'da 2,9 (uymaz); ic_not: «kaynak (Sarkar/EIC) O.S.; tithi + haftanın günü ile teyit (KASA SALI haftanın günü, EMRELİC tithi)»"),
+    "L2-1114": ("tarih düzelt", "Şivâcî ölümü 1680-04-03 → 1680-04-14 Gregoryen: Sarkar «Sunday, 4th April 1680» O.S. — Jülyen'de Pazar (Gregoryen'de Perşembe), Chaitra pūrṇimā: Ay yaşı 15,7 (uyar); atlasın 04-03'ü hiçbir takvime uymaz; Sarkar 3/4 Nisan dolunay belirsizliğini dipnotta beyan eder → ic_not; ic_not: «kaynak (Sarkar/EIC) O.S.; tithi + haftanın günü ile teyit (KASA SALI haftanın günü, EMRELİC tithi)»"),
+    "L2-1118": ("tarih düzelt", "Sambâjî idamı 1689-03-11 → 1689-03-21 Gregoryen: Sarkar 11 Mart O.S.; Phalguna amāvāsyā — 1689-03-11 Jülyen'de Ay yaşı 0,8 (uyar); gerekçe ulemanın fetvası (Sarkar), «İslâm'ı kabul etmeyi reddedince» yumuşatılır; ic_not: «kaynak (Sarkar/EIC) O.S.; tithi + haftanın günü ile teyit (KASA SALI haftanın günü, EMRELİC tithi)»"),
     # L2E 1779-1814 (EMRELİC) + NAOJ (KASA SALI)
     "L2-2249": ("tarih düzelt", "1183-08-01 → 1183-08-14: Takvim: Juei 2/7/25 丁亥 = 1183-08-14 Jülyen (NAOJ ECO) — atlas ayın başı"),
     "L2-2243": ("tarih düzelt", "Lý Anh Tông 1175-01-01 → 1175-08-14: Toàn thư, 乙未 Chunxi 2, 7. ay 乙巳 (26. gün) = 1175-08-14 (Academia Sinica, Song takvimi; EMRELİC) — Đại Việt takvimi ±1 gün → ic_not"),
@@ -627,6 +627,11 @@ METIN = [
     ("L2-2245", "Yoritomo Kamakura'ya girdi (1180-11-04): L2-2246 ile aynı olay (KRONOLOJI_COK_DOGU_500_1281[202] ve [254]) → yinelenen madde birleşir"),
     ("L2-2206", "[BEKLE — yıl] Man: Chronicle of Mann 1066 der (EMRELİC)"),
     ("L2-2212", "[BEKLE — yıl] Rupeniler: kaynak 1198'i gösterir, 1092'yi değil (EMRELİC)"),
+    # L2E 1815-1850 (EMRELİC)
+    ("L2-2268", "[BEKLE — olay kaynakta yok] Eyyûbî Yemen 1226 Zimâr: TDV'de yok; DergiPark'taki yenilgi 595/1198, başka olay (EMRELİC)"),
+    ("L2-2286", "[BEKLE — çelişki] Durbe 1260: 13 Temmuz / 13 Haziran kaynak çelişkisi (EMRELİC)"),
+    ("L2-2285", "[BEKLE — ad çelişkisi] Yaroslavl: Anastasia / Maria (EMRELİC)"),
+    ("L2-2291", "Karintiya III. Ulrich: NDB 4.12.1268, ADB 1.12.1268 → atlas 12-04 NDB'ye uyar, ADB günü ic_not'a (EMRELİC)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
