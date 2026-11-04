@@ -158,6 +158,13 @@ U.update({
                  kaynak=GUS + "md.2 (s.116) tam yıkım + toprak Osmanlı'ya; s.122 yıkım 'летом 1701 г.'; s.125 sınır tarifinde 'разрушенного Казы-Кермена'; "
                          "Osmanlı tasdiki 7 Ağustos 1701 (s.120); Bug-Dinyeper sınır komisyonu 22 Ekim 1705 (s.124)"),
 })
+U.update({
+    "K536": dict(guven="KAYNAKLI",
+                 kaynak="ABİ MERKEZ: Şark Cephesi / Erzurum (XV. Kolordu bölgesi; Ahlat Bitlis vilayetinde) — BEYANLI YAKLAŞIKLIK, kova N10 · " + TDV +
+                 "kazim-karabekir — Şark Cephesi kumandanı (14 Ocak 1920) 'Bütün valiliklere tamim göndererek İstanbul ile haberleşmeyi yasakladı' · "
+                 "'Türkiye Büyük Millet Meclisi hükümeti kendisine Erzurum valiliği görevini de verdi (6 Mayıs)' · " + TDV +
+                 "turkiye-buyuk-millet-meclisi — '23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı'"),
+})
 NCMH = "EMRELİC Cambridge okuması — "
 U.update({
     "K677": dict(guven="KAYNAKLI", kaynak=NCMH + "New Cambridge Medieval History 7, ch.20 (B. Schnerb, 'Burgundy'), s.439: 'purchase of the county of Namur in "

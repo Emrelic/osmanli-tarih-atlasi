@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 56 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
+"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 56 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py). KAYNAK5 (LAB SALI): 1 hüküm kaynak_toplu.py ile güncellendi.",
 "K501": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
@@ -283,10 +283,10 @@
 "K536": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Ahlat 1920-04-23 → 1923-10-29 OSMANLI (İstanbul), çevre TBMM %76: TBMM'nin açılışından sonra Doğu Anadolu Ankara'nın idaresindeydi; İstanbul hükûmeti yazımı kalıntı. Malazgirt sahipsiz.",
 "duzeltme": "Ahlat, Malazgirt 1920-04-23 → tbmm-turkiye.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "ABİ MERKEZ: Şark Cephesi / Erzurum (XV. Kolordu bölgesi; Ahlat Bitlis vilayetinde) — BEYANLI YAKLAŞIKLIK, kova N10 · TDV, https://islamansiklopedisi.org.tr/kazim-karabekir — Şark Cephesi kumandanı (14 Ocak 1920) 'Bütün valiliklere tamim göndererek İstanbul ile haberleşmeyi yasakladı' · 'Türkiye Büyük Millet Meclisi hükümeti kendisine Erzurum valiliği görevini de verdi (6 Mayıs)' · TDV, https://islamansiklopedisi.org.tr/turkiye-buyuk-millet-meclisi — '23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı'"
 },
 "K537": {
 "hukum": "GERCEK",

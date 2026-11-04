@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 9, YAPAY-c 27, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 18, KAYNAKLI 53, OLCUM 29.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 9, YAPAY-c 27, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 17, KAYNAKLI 54, OLCUM 29.
 
 ## Kara eksklavları
 
@@ -365,10 +365,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 9, YAPAY-c 27, YAP
 - En büyük kesit: 1920-04-23 · komşu: tbmm-turkiye 76%
 - Koridor: 59.2 km · tbmm-turkiye 9/9
 - İçindeki yerleşimler: Ahlat (OSMANLI); Malazgirt (Manzikert) (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Ahlat 1920-04-23 → 1923-10-29 OSMANLI (İstanbul), çevre TBMM %76: TBMM'nin açılışından sonra Doğu Anadolu Ankara'nın idaresindeydi; İstanbul hükûmeti yazımı kalıntı. Malazgirt sahipsiz.
   - Düzeltme önerisi: Ahlat, Malazgirt 1920-04-23 → tbmm-turkiye.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: ABİ MERKEZ: Şark Cephesi / Erzurum (XV. Kolordu bölgesi; Ahlat Bitlis vilayetinde) — BEYANLI YAKLAŞIKLIK, kova N10 · TDV, https://islamansiklopedisi.org.tr/kazim-karabekir — Şark Cephesi kumandanı (14 Ocak 1920) 'Bütün valiliklere tamim göndererek İstanbul ile haberleşmeyi yasakladı' · 'Türkiye Büyük Millet Meclisi hükümeti kendisine Erzurum valiliği görevini de verdi (6 Mayıs)' · TDV, https://islamansiklopedisi.org.tr/turkiye-buyuk-millet-meclisi — '23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı'
 
 ### K537 · golkonda · 1646-01-01 → 1687-09-21 · 4.724 km²
 
