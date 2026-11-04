@@ -276,6 +276,9 @@ METIN = [
     ("L2-815", "Fransız Batı Afrika: 27 Ekim 1946 anayasanın imza/ilan günü (Élysée metni «Fait à Paris, le 27 octobre 1946», md.60 Union française); yürürlük Aralık 1946; AOF adıyla anılmaz → ic_not"),
     ("L2-822", "Haydarabad: Hint ordusu 13 Eylül 1948 sabahı girdi, Haydarabad ordusu 17 Eylül teslim oldu (Menon 1956); Nizam'ın katılım belgesi günü ayrıca yok → isg/s: ayrımı ic_not"),
     ("L2-817", "Bharatpur: Menon «bütün bitişik devletler 15 Ağustos'a dek katılım belgesini imzaladı» — gün «en geç» sınırıdır → «[en geç]» beyanı"),
+    # L2E 1073-1084 (EMRELİC)
+    ("L2-1497", "Ligurya: Durazzo göreve başlaması 1802-08-10 (Treccani DBI «si insediò il 10 ag. 1802»); «ömür boyu» ifadesi kaynakta yok → çıkarılır ya da kaynaklanır"),
+    ("L2-1489", "[BEKLE — gün desteksiz] Ligurya: Treccani yalnız 2 Aralık 1797 halk oylamasını verir; 22 Aralık desteksiz"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
