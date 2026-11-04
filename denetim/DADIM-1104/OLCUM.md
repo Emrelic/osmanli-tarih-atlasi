@@ -532,6 +532,24 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Litvanya'da 08-03 / 08-05 çelişkisi var (Oxford Companion 08-05); ikisi de ic_not'a yazılır, **BEKLE**.
 - **Slot sayacı:** `slot.py` eklendi; en çok 6 ajan, dolunca `al` reddediyor.
 
+## 21. Mora 1821-1829 ve Hicaz 1924-32 ölçümü (S9/S10 kararları, EMRELİC 4 Kasım 2026 gece)
+- **Mora:** veride **18 yerleşimde** `s: yunanistan` başlangıç tarihi şöyle dağılıyor:
+  - **14'ü 1821-03-25:** Tripoliçe, Modon, Patras, Vostitsa, Kalavrita, Damala, Methana, Ermiyoni, Kranidi, İstefe, Kulluk, Egina, Hidra, Elafonisos. Bu gün ayaklanmanın sembolik başlangıcıdır; hiçbir yerin el değiştirdiği gün değildir.
+  - Kalan 4'ü farklı günlerde başlıyor: Korint 1822-01-01, Nauplion 1822-12-12, Koron 1828-10-05, İnebahtı 1829-04-01.
+- **Yanlış olduğu bilinenler:**
+  - Modon ve Patras 1828'e kadar Osmanlı ve Mısır elindeydi (TDV Modon). Patras'ın Osmanlı'da kaldığı ayrıca kaynakla teyit edilmeli.
+  - Tripoliçe 1821-09-23'te alındı; İbrahim Paşa 1825'te geri aldı.
+- **Öneri (S9 kararı + Atina 1822 emsali + "fiilî yönetim + halef ilanı"):**
+  - `s: yunanistan` her yerde, geçici Yunan hükümetinin o yeri fiilen yönettiği günden başlar.
+  - Ölçüt: Epidavros anayasası 1822-01 ya da yerin alınış günü, hangisi sonraysa.
+  - İbrahim Paşa'nın 1825-28 geri alışları `d:` Osmanlı/Mısır'a dönüştür. Maison 1828 → `isg fransa` → Kapodistrias'a devir.
+  - **Bu 18 yerleşimin zinciri kaynakla yeniden kurulmalı.** İş TDV Mora, TDV Yunanistan ve akademik kaynaklarla KASA'ya, ayrı bir ajan işi olarak verilecek.
+- **Hicaz** (veride 7 yerleşim):
+  - Zincir: `hicaz-kralligi` (1916) → `suud-ucuncu` → `suudi-arabistan` 1932-09-18. Künye geçişleri doğru.
+  - Gün sorunu: Mekke dışındaki 6 yerin hepsinde `suud-ucuncu` 1925-12-19'da başlıyor. Oysa Tâif TDV'ye göre 1924-09-08'de alındı, Medine 1925-12-05 civarında, Yenbu 1925-12 civarında.
+  - S10 kararı: her şehir kendi fetih ya da teslim gününden başlar. Günler kaynaktan alınacak.
+- **Split:** S11 (a) işlendi, `s: italya` 1941-05-18 → 1943-09.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
