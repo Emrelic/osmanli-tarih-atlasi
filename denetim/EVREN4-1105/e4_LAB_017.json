@@ -11,7 +11,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Menbic (Menbic maddesi, c. 29, s. 123-124) — https://islamansiklopedisi.org.tr/menbic",
    "alinti": "922’de (1516) Osmanlı Devleti’nin idaresine geçen Menbic Halep’e bağlı küçük bir şehir olarak varlığını sürdürdü.",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (yıl düzeyi, 1516); f 1281 teyitsiz (TDV: 684/1285 Kalavun-Levon antlaşmasına göre Menbic Mısır şehirleri arasında = Memlük elinde, f'yi tarihlemez). Memlük sahipliği 1285 tanıklıdır."
+   "not": "KARAR EMRELİC (gece-65): iç Suriye kuralı: 1918-10 → 1920-07-25 s: suriye-arap-kralligi; fransa 1918 satırı desteksiz, kalkar; Fransız fiilî girişi 1921 (TDV Menbic; gün kaynakla; Ankara 1921-10-20 bağlamı) → manda; 1920-07-25 → giriş BEYANLI (Deyrizor emsali). | alıntı yalnız t ucunu tarihliyor (yıl düzeyi, 1516); f 1281 teyitsiz (TDV: 684/1285 Kalavun-Levon antlaşmasına göre Menbic Mısır şehirleri arasında = Memlük elinde, f'yi tarihlemez). Memlük sahipliği 1285 tanıklıdır."
   },
   {
    "dosya_satir": "data/yerlesimler_ek25.js:73",
@@ -37,9 +37,10 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Menbic (c. 29, s. 123-124) — https://islamansiklopedisi.org.tr/menbic",
    "alinti": "1916’da Halep vilâyetine bağlı Antep sancağının kazalarından biri olan şehir 1921’de Fransızlar’ın idaresine girdi.",
    "oneri": {
-    "karar": "1918-10-30 → 1920-07-24 Fransa dönemi kaynakla desteklenmiyor; Osmanlı d dönemi 1921'e kadar uzatılıp Fransız idaresi 1921'den başlatılmalı (gün için ikinci kaynak gerek)"
+    "d": "suriye-arap-kralligi",
+    "t": "1920-07-25"
    },
-   "not": "TDV Menbic'e göre Fransız idaresi 1921 (yıl). Atlasın 1918-10-30 → 1920-07-24 Fransa penceresiyle çelişir. Mütareke ön-işgal tarihi (1918-10-30) Menbic için tanıklı değil. ÖLÇÜT: geçici/askerî işgal yazılacaksa isg; kaynak susuyor."
+   "not": "KARAR EMRELİC (gece-65): iç Suriye kuralı: 1918-10 → 1920-07-25 s: suriye-arap-kralligi; fransa 1918 satırı desteksiz, kalkar; Fransız fiilî girişi 1921 (TDV Menbic; gün kaynakla; Ankara 1921-10-20 bağlamı) → manda; 1920-07-25 → giriş BEYANLI (Deyrizor emsali). | TDV Menbic'e göre Fransız idaresi 1921 (yıl). Atlasın 1918-10-30 → 1920-07-24 Fransa penceresiyle çelişir. Mütareke ön-işgal tarihi (1918-10-30) Menbic için tanıklı değil. ÖLÇÜT: geçici/askerî işgal yazılacaksa isg; kaynak susuyor."
   },
   {
    "dosya_satir": "data/yerlesimler_ek25.js:73",
@@ -54,7 +55,7 @@
    "oneri": {
     "f": "1921"
    },
-   "not": "Menbic'e özgü: Fransız idaresi 1921 (yıl; gün teyitsiz). TDV Suriye: Temmuz 1920 Meyselûn ülke düzeyi (Faysal dönemi bitti). 1946 baharı çekiliş: TDV Suriye. Ankara Antlaşması 1921-10-20 gün araştırması öneri (kaynak okunmadı)."
+   "not": "KARAR EMRELİC (gece-65): iç Suriye kuralı: 1918-10 → 1920-07-25 s: suriye-arap-kralligi; fransa 1918 satırı desteksiz, kalkar; Fransız fiilî girişi 1921 (TDV Menbic; gün kaynakla; Ankara 1921-10-20 bağlamı) → manda; 1920-07-25 → giriş BEYANLI (Deyrizor emsali). | Menbic'e özgü: Fransız idaresi 1921 (yıl; gün teyitsiz). TDV Suriye: Temmuz 1920 Meyselûn ülke düzeyi (Faysal dönemi bitti). 1946 baharı çekiliş: TDV Suriye. Ankara Antlaşması 1921-10-20 gün araştırması öneri (kaynak okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek25.js:73",
@@ -200,8 +201,10 @@
    "uc": "t",
    "kaynak": "TDV İslâm Ansiklopedisi, Açe — https://islamansiklopedisi.org.tr/ace",
    "alinti": "Son Açe Sultanı Tunku Muhammed Dâvûd’un 1903’te Hollandalılar’a boyun eğmesinden sonra",
-   "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (1903, yıl). f 1524 teyitsiz: TDV Açe İslâm Sultanlığı'nın 1521'de Açe bölgesinde kurulduğunu yazar ama Pasai'nin Açe'ye katılma yılı verilmiyor (1524 için ikinci kaynak lazım)."
+   "oneri": {
+    "f": "1521-01-01"
+   },
+   "not": "KARAR EMRELİC (gece-65): TDV Açe 1521 [yalnız yıl]; atlas 1524 kaynaksız. | alıntı yalnız t ucunu tarihliyor (1903, yıl). f 1524 teyitsiz: TDV Açe İslâm Sultanlığı'nın 1521'de Açe bölgesinde kurulduğunu yazar ama Pasai'nin Açe'ye katılma yılı verilmiyor (1524 için ikinci kaynak lazım)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4053",
@@ -257,7 +260,7 @@
    "oneri": {
     "d": "hafsi"
    },
-   "not": "ABİ MERKEZ: Kostantîne (Mîle'ye özgü kaynak bulunamadı). TDV: Kostantîne 627/Aralık 1229'dan Hafsîlerde; Zeyyânî (Tilimsân) zinciri Kostantîne için geçmiyor. BEYANLI YAKLAŞIKLIK: Mîle'nin Kostantîne'ye bağlılığı kaynaksız. Hafsî/Merînî el değişimleri 14. yy."
+   "not": "KARAR EMRELİC (gece-65): hafsi (TDV, 1229'dan); zeyyani satırı HATALI; Osmanlı ilk zapt 1519/20 kısa → isg ya da tâbiyet ic_not; tam hâkimiyet 1533–34 → d: osmanli [yalnız yıl], ABİ MERKEZ Kostantîne. | ABİ MERKEZ: Kostantîne (Mîle'ye özgü kaynak bulunamadı). TDV: Kostantîne 627/Aralık 1229'dan Hafsîlerde; Zeyyânî (Tilimsân) zinciri Kostantîne için geçmiyor. BEYANLI YAKLAŞIKLIK: Mîle'nin Kostantîne'ye bağlılığı kaynaksız. Hafsî/Merînî el değişimleri 14. yy."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:619",
@@ -272,7 +275,7 @@
    "oneri": {
     "f": "1533"
    },
-   "not": "ABİ MERKEZ: Kostantîne. TDV: Mercier'e göre 1519/1520'de zaptedildi, Hafsîler 1526'da geri aldı, bir yıl sonra tekrar Osmanlı, tam hâkimiyet 1533-34 (ölçüt: garnizon/idare, tahrir yok). İki ucu çelişir; atlas 1519-09-01 ile uyumsuz. Yıl düzeyi."
+   "not": "KARAR EMRELİC (gece-65): hafsi (TDV, 1229'dan); zeyyani satırı HATALI; Osmanlı ilk zapt 1519/20 kısa → isg ya da tâbiyet ic_not; tam hâkimiyet 1533–34 → d: osmanli [yalnız yıl], ABİ MERKEZ Kostantîne. | ABİ MERKEZ: Kostantîne. TDV: Mercier'e göre 1519/1520'de zaptedildi, Hafsîler 1526'da geri aldı, bir yıl sonra tekrar Osmanlı, tam hâkimiyet 1533-34 (ölçüt: garnizon/idare, tahrir yok). İki ucu çelişir; atlas 1519-09-01 ile uyumsuz. Yıl düzeyi."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:619",
@@ -298,7 +301,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Cezayir — https://islamansiklopedisi.org.tr/cezayir",
    "alinti": "Ahmed Bey’in denetiminde bulunan Kostantîne şehrini ele geçirdiler (13 Ekim 1837).",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (Kostantîne'nin düşüşü; Mîle'nin Fransız eline geçiş günü değil, ABİ MERKEZ). f 1830-07-05 Cezayir şehri günü; Kostantîne beyliğinin başlangıcı yazılı değil."
+   "not": "KARAR EMRELİC (gece-65): hafsi (TDV, 1229'dan); zeyyani satırı HATALI; Osmanlı ilk zapt 1519/20 kısa → isg ya da tâbiyet ic_not; tam hâkimiyet 1533–34 → d: osmanli [yalnız yıl], ABİ MERKEZ Kostantîne. | alıntı yalnız t ucunu tarihliyor (Kostantîne'nin düşüşü; Mîle'nin Fransız eline geçiş günü değil, ABİ MERKEZ). f 1830-07-05 Cezayir şehri günü; Kostantîne beyliğinin başlangıcı yazılı değil."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:619",
@@ -311,7 +314,7 @@
    "kaynak": "TDV Cezayir (1 Temmuz 1962 referandum; 5 Temmuz bağımsızlık günü yok), TDV Kostantîne ('Cezayir’in bağımsızlığa kavuşmasından (1962) sonra')",
    "alinti": "",
    "oneri": {},
-   "not": "TDV yalnız yıl 1962 ve 1 Temmuz referandumu veriyor; 5 Temmuz günü TDV'de bulunamadı. ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-65): hafsi (TDV, 1229'dan); zeyyani satırı HATALI; Osmanlı ilk zapt 1519/20 kısa → isg ya da tâbiyet ic_not; tam hâkimiyet 1533–34 → d: osmanli [yalnız yıl], ABİ MERKEZ Kostantîne. | TDV yalnız yıl 1962 ve 1 Temmuz referandumu veriyor; 5 Temmuz günü TDV'de bulunamadı. ÜLKE DÜZEYİ."
   }
  ],
  "Notse": [
@@ -378,7 +381,7 @@
    "kaynak": "Okunamadı (Britannica 403, encyclopedia.com 404)",
    "alinti": "",
    "oneri": {},
-   "not": "Zincirde 1960-04-27 Office of the Historian TANIMA günü ('The United States recognized...'), bağımsızlık ilan günü olmayabilir; kaynak okunmadı."
+   "not": "KARAR EMRELİC (gece-65): Office of the Historian satırı okunacak; bağımsızlık ilanı ve fiilî devir 1960-04-27, tanıma ayrı (ic_not). | Zincirde 1960-04-27 Office of the Historian TANIMA günü ('The United States recognized...'), bağımsızlık ilan günü olmayabilir; kaynak okunmadı."
   }
  ],
  "Natchez (Grand Village)": [
@@ -414,12 +417,12 @@
    "d": "ispanya",
    "f": "1779-09-21",
    "t": "1798-04-07",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f+t",
    "kaynak": "Arama özetleri (NPS chronology: kurum portalı=ipucu; tarihî işaret: Fort Panmure'a İspanyol girişi 5 Ekim 1779; Cambridge 'The Americas' makalesi erişilemedi)",
    "alinti": "",
    "oneri": {},
-   "not": "İPUCU: Natchez'in İspanyol eline geçişi 1779-10-05 (Baton Rouge 1779-09-21 değil); atlas f 09-21 şüpheli. İspanyol çekilişi 1798 (ay/gün okunamadı)."
+   "not": "KARAR EMRELİC (gece-65): Baton Rouge kapitülasyonu 1779-09-21 Fort Panmure'u da kapsıyordu; İspanyol teslim alışı 1779-10-05 (TEK ÖLÇÜ teslim). Kaynak bulunursa 10-05, bulunmazsa ONERI + iki gün ic_not. | İPUCU: Natchez'in İspanyol eline geçişi 1779-10-05 (Baton Rouge 1779-09-21 değil); atlas f 09-21 şüpheli. İspanyol çekilişi 1798 (ay/gün okunamadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_amerika.js:855",
@@ -602,7 +605,7 @@
    "oneri": {
     "f": "1654-01-28"
    },
-   "not": "TEK ÖLÇÜ: Portekiz Recife'yi fiilen yönetmiyordu → TESLİM günü 1654-01-28; Taborda kapitülasyonu İMZA 'On 26 January 1654' (aynı sayfa). Atlas 01-26 imza günü; ölçüye göre 01-28. Karar Emre'nin."
+   "not": "KARAR EMRELİC (gece-65): TEK ÖLÇÜ teslim günü 1654-01-28 (Portekiz girişi); imza 01-26 ic_not. | TEK ÖLÇÜ: Portekiz Recife'yi fiilen yönetmiyordu → TESLİM günü 1654-01-28; Taborda kapitülasyonu İMZA 'On 26 January 1654' (aynı sayfa). Atlas 01-26 imza günü; ölçüye göre 01-28. Karar Emre'nin."
   }
  ],
  "Reşadiye (İskefsir)": [
