@@ -36,6 +36,7 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    "L2-1311": "Aleksandr Mihayloviç Tver knezi 1325 → 1326 adayı: encyclopedia.com (Encyclopedia of Russian History) «In 1326, after Khan Uzbek had executed … Dmitry»; BRE arama özetinde 1326, sayfa 401 → tek dayanak encyclopedia.com (zayıf), ikinci teyit gelmeden uygulanmaz",
     # L2H 1575-1694 / L2L 1451-1550 (EMRELİC Academia Sinica turu)
     "L2-2043": "An Lushan ayaklanması 755-12-08 (ayın başı): Tianbao 14, 11. ay = 755-12-08…756-01-06; 甲子 = 755-12-16 — bağlama göre [yalnız ay] ya da 甲子 günü (Academia Sinica, EMRELİC; (JDN+49) mod 60 çapraz)",
     "L2-2135": "Meng Zhixiang ölümü 934-09-10: Later Shu takvimi tabloda yok; Later Tang ile Mingde 1, 6. ay = 934-07-15…08-12 → atlas ay dışı, çelişki; kaynak cümlesi okunmalı (Academia Sinica, EMRELİC; (JDN+49) mod 60 çapraz)",
@@ -726,6 +727,14 @@ METIN = [
     ("L2-1297", "[BEKLE — yıl] Beloozero Mikhail 1283: PSRL X kronik alıntısı dönüşü 6795 (1285) altında; Vikipedi 1286 / 1283 kendi içinde çelişir; 1283 hiçbir yerde okunmadı"),
     ("L2-1287", "Karadağ anayasası 1905-12-19: Nikoljdan 6 Aralık O.S. = 19 Aralık N.S. (atlasla uyumlu); gün cümlesi akademik kaynakta okunmadı (Istorijski zapisi 2010/4 özet); UCG 31 Ekim proklamasyonu → ic_not"),
     ("L2-1288", "[BEKLE — ders slaytı] Nikola'nın kral ilanı 1910-08-28: «15 avgust 1910» O.S. = 28 Ağustos N.S. (atlasla uyumlu; UCG ders slaytı, hakemli değil)"),
+    # L2S 915-926 (S46)
+    ("L2-1315", "[BEKLE — kaynaksız] Yaroslavl 1332: «Kalita'nın Vasili'yi evliliğe zorlaması» akademik kaynakta yok; SPbU «Medieval Russian Princesses» evlilik 1330'dan beri / 1339 öncesi, 1328 yanlış; Yaroslavl'ın yakılması yalnız Vikipedi → yeniden yazılır ya da kaldırılır"),
+    ("L2-1313", "[BEKLE] Tver ayaklanması 1327: «50.000 Tatar» akademik kaynakta okunmadı; ayaklanma 15 Ağustos 1327 ipucu; L2-1311 ile aynı Tver zinciri"),
+    ("L2-1314", "[BEKLE — Petech okunmadı] Kunga Gyaltsen: «1331'de Dadu'ya ulaştı» doğrulanamadı — 1331 Karmapa'nın gelişi, Toghon Temür onayı 19 Temmuz 1333 (Vikipedi, Petech 1990 s.85-6 atfı)"),
+    ("L2-1312", "Silezya Piast 1327: ADB Breslau ve Oppeln edinimini 1327 Haziran öncesine koyar; «çok sayıda dükalık» abartılı — Liegnitz/Brieg/Steinau lehni 1328 sonrası → metin daraltılır"),
+    ("L2-1318", "Kör Johann 1346-08-26 Crécy (NDB «† 26.8.1346 bei Crécy») gün tutar"),
+    ("L2-1320", "[BEKLE — Sumption okunmadı] Calais 1347-08-03: yalnız Vikipedi (Sumption s.580-583, Wagner s.73-74 atfı); Britannica özeti 1 Ağustos işareti / 4 Ağustos teslim → İngiliz kaynağı O.S. mi? 1582 öncesi, çevrilmez; teslim günü netleşmeli"),
+    ("L2-1322", "[BEKLE — künye çakışması] Pskov 1349: Rus kaynakları Andrey'in Pskov kniazlığını 1341-1348 verir; künye f=1348 ile çakışma kontrolü gerekir"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
