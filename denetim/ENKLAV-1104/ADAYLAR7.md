@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAPAY-d 2, YAPAY-m 28. Güven: KAYNAK-GEREK 28, KAYNAKLI 36, OLCUM 36.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 31, YAPAY-a 4, YAPAY-c 28, YAPAY-d 2, YAPAY-m 28. Güven: KAYNAK-GEREK 26, KAYNAKLI 38, OLCUM 36.
 
 ## Kara eksklavları
 
@@ -228,7 +228,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Kızıkermen 1774-07-21 (Küçük Kaynarca) Rus, Kırım (bağımsızlaştırılmış) ve Zaporojye arasında → 1775 Zaporojye'nin dağıtılması: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV'de madde yok (arama/kizikerman) — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Küçük Kaynarca 1774-07-21 (TDV maddesinde Kızıkermen adı geçmiyor; Kılburun-Özü var)
+  - Kaynak: TDV'de madde yok (arama/kizikerman) — bulunamadı · KISMEN — Guskov 2022: kale 1701 yazı yıkıldı, 1705'te boş yer; 1774'e dek yeniden iskân kaynakta yok — K629 düzeltmesine bağlı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Küçük Kaynarca 1774-07-21 (TDV maddesinde Kızıkermen adı geçmiyor; Kılburun-Özü var)
 
 ### K625 · yugoslavya · 1918-11-11 → 1918-12-01 · 2.612 km²
 
@@ -275,10 +275,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1741-06-12 · komşu: TABI 73%, zaporojye 29%
 - Koridor: 89.8 km · TABI 9/9
 - İçindeki yerleşimler: Kızıkermen (Gazi Kerman) (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Kızıkermen 1700-07-14 (İstanbul antlaşması ile iade) → 1774 Osmanlı, Kırım (TABI) ve Zaporojye arasında: gerçek.
-  - Düzeltme önerisi: Yok.
-  - Kaynak: TDV'de madde yok — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): 1700-07-14 (Jülyen 3 Temmuz) — Guskov 2022 arama özeti; iade/yıkım uygulama günü okunamadı
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Kızıkermen 1700-07-14 → 1774 Osmanlı: toprak Osmanlı'ya iade edildi, ama kale antlaşma gereği 1701 yazında yıkıldı; 1705 sınır tarifinde 'yıkılmış Kazy-Kermen' boş yer olarak geçiyor. Yerleşim noktasının 1701 sonrası Osmanlı yerleşimi olarak yaşaması kaynakta yok (önceki GERCEK hükmü düzeldi).
+  - Düzeltme önerisi: Kızıkermen OSMANLI dönemi 1700-07-14 → 1701-06-01 (yıkım 1701 yazı, Jülyen; mevsim hassasiyeti — BEYANLI); sonrası nokta kapanır, toprak komşu Özi/Osmanlı peteklerine kalır. 1705 sonrası yeniden iskân kaynakla sınanmadan dönem açılmaz (K624'e bağlı).
+  - Kaynak: A. G. Гуськов, 'Ратификация и реализация Константинопольского договора 1700 г.', Новое прошлое / The New Past 2022 no.4, s.114-129, DOI 10.18522/2500-3224-2022-4-114-129 (hakemli; EMRELİC okudu, PDF kaynak-pdf/lab2) — md.2 (s.116) tam yıkım + toprak Osmanlı'ya; s.122 yıkım 'летом 1701 г.'; s.125 sınır tarifinde 'разрушенного Казы-Кермена'; Osmanlı tasdiki 7 Ağustos 1701 (s.120); Bug-Dinyeper sınır komisyonu 22 Ekim 1705 (s.124)
 
 ### K630 · gurcistan · 1578-08-01 → 1578-08-09 · 2.519 km²
 
@@ -335,10 +335,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1696-08-06 · komşu: TABI 74%, zaporojye 26%
 - Koridor: 257.8 km · zaporojye 8/9, TABI 1/9
 - İçindeki yerleşimler: Kızıkermen (Gazi Kerman) (rusya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Kızıkermen 1695 Rus-Kazak zaptı → 1700-07-14 İstanbul antlaşması: gerçek kısa parça.
-  - Düzeltme önerisi: Yok.
-  - Kaynak: TDV'de madde yok — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Rus zaptı 1695; İstanbul antlaşması 3 (14) Temmuz 1700 — Guskov 2022 arama özeti (veri 1700-07-14 Gregoryen ile uyumlu; '13 Temmuz' yanlış çeviri). PDF okunamadı
+  - Düzeltme önerisi: Yok — rus t 1700-07-14 (hukukî devir, gün teyitli) kalır; fiilî Rus garnizonu yıkıma dek, 1701 yazı (Jülyen, gün yok) — ic_not beyanı yeter (bitişi 1701'e kaydırmak yalnız mevsim hassasiyeti verir ve yeni kronoloji maddesi ister).
+  - Kaynak: A. G. Гуськов, 'Ратификация и реализация Константинопольского договора 1700 г.', Новое прошлое / The New Past 2022 no.4, s.114-129, DOI 10.18522/2500-3224-2022-4-114-129 (hakemli; EMRELİC okudu, PDF kaynak-pdf/lab2) — s.116: antlaşma '3 (14) июля 1700 г.' (Gregoryen 1700-07-14; '13 Temmuz' yanlış çeviri); md.2: Tavan, Kazy-Kermen, Nusret- ve Sagin-Kermen 'подлежали полному разрушению', toprak Osmanlı'ya; s.122: 'Тавани и Казы-Кермена … осуществлена летом 1701 г.'
 
 ### K636 · ispanya · 1937-06-19 → 1939-04-01 · 2.275 km²
 

@@ -142,6 +142,22 @@ U.update({
     "K653": dict(guven="KAYNAKLI", kaynak=TDV + "modon — 'Fakat 8 Ekim 1828’de Modon’u ele geçiren Fransız Generali Marquis de Maison kumandasındaki Fransız "
                  "keşif ordusu tarafından şehirden çıkarıldı' · '1715-1828 yılları arasında devam eden ikinci Osmanlı dönemi'"),
 })
+GUS = ("A. G. Гуськов, 'Ратификация и реализация Константинопольского договора 1700 г.', Новое прошлое / The New Past 2022 no.4, s.114-129, "
+       "DOI 10.18522/2500-3224-2022-4-114-129 (hakemli; EMRELİC okudu, PDF kaynak-pdf/lab2) — ")
+U.update({
+    "K635": dict(guven="KAYNAKLI", duzeltme="Yok — rus t 1700-07-14 (hukukî devir, gün teyitli) kalır; fiilî Rus garnizonu yıkıma dek, 1701 yazı (Jülyen, gün yok) "
+                 "— ic_not beyanı yeter (bitişi 1701'e kaydırmak yalnız mevsim hassasiyeti verir ve yeni kronoloji maddesi ister).",
+                 kaynak=GUS + "s.116: antlaşma '3 (14) июля 1700 г.' (Gregoryen 1700-07-14; '13 Temmuz' yanlış çeviri); md.2: Tavan, Kazy-Kermen, Nusret- ve "
+                 "Sagin-Kermen 'подлежали полному разрушению', toprak Osmanlı'ya; s.122: 'Тавани и Казы-Кермена … осуществлена летом 1701 г.'"),
+    "K629": dict(hukum="YAPAY", kova="YAPAY-c", guven="KAYNAKLI",
+                 gerekce="Kızıkermen 1700-07-14 → 1774 Osmanlı: toprak Osmanlı'ya iade edildi, ama kale antlaşma gereği 1701 yazında yıkıldı; 1705 sınır "
+                         "tarifinde 'yıkılmış Kazy-Kermen' boş yer olarak geçiyor. Yerleşim noktasının 1701 sonrası Osmanlı yerleşimi olarak yaşaması kaynakta yok "
+                         "(önceki GERCEK hükmü düzeldi).",
+                 duzeltme="Kızıkermen OSMANLI dönemi 1700-07-14 → 1701-06-01 (yıkım 1701 yazı, Jülyen; mevsim hassasiyeti — BEYANLI); sonrası nokta kapanır, "
+                          "toprak komşu Özi/Osmanlı peteklerine kalır. 1705 sonrası yeniden iskân kaynakla sınanmadan dönem açılmaz (K624'e bağlı).",
+                 kaynak=GUS + "md.2 (s.116) tam yıkım + toprak Osmanlı'ya; s.122 yıkım 'летом 1701 г.'; s.125 sınır tarifinde 'разрушенного Казы-Кермена'; "
+                         "Osmanlı tasdiki 7 Ağustos 1701 (s.120); Bug-Dinyeper sınır komisyonu 22 Ekim 1705 (s.124)"),
+})
 NCMH = "EMRELİC Cambridge okuması — "
 U.update({
     "K677": dict(guven="KAYNAKLI", kaynak=NCMH + "New Cambridge Medieval History 7, ch.20 (B. Schnerb, 'Burgundy'), s.439: 'purchase of the county of Namur in "
@@ -155,6 +171,8 @@ KISMEN = {
     "K372": "KISMEN — NCMH 6, ch.14b, s.440: 'Philip's marriage in 1369 to Margaret of Flanders' (yıl teyitli; Lille-Douai-Orchies adı geçmiyor, gün teyitsiz)",
     "K786": "KISMEN — D. Kizilov, Acta Orientalia ASH 59/2 (2006), s.181: 'Ottoman conquest of 1475' (Kırım geneli; Cembalo için ABİ BÖLGE yılı, BEYANLI "
             "YAKLAŞIKLIK); TDV kefe: Haziran 1475; 1357 Ceneviz başlangıcı OKUNMADI",
+    "K579": "KISMEN — Guskov 2022 (The New Past 4, s.116-122): Rus zaptı 1695 ve 1701 yazı yıkımı teyitli; 1552 kuruluşu Guskov'da yok, KAYNAK-GEREK",
+    "K624": "KISMEN — Guskov 2022: kale 1701 yazı yıkıldı, 1705'te boş yer; 1774'e dek yeniden iskân kaynakta yok — K629 düzeltmesine bağlı",
     "K785": "KISMEN — Cembalo 1357 Ceneviz başlangıcı akademik kaynakta OKUNMADI (EMRELİC Cambridge/JSTOR, 4 Kasım)",
 }
 # EMRELİC 1 KASIM (4 Kasım 2026): web-özeti aday tarihleri — KAYNAKLI DEĞİL, yalnız yol gösterir; satırlar KAYNAK-GEREK kalır

@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K601-K700). Sözlük ENKLAV-1103/hukumler.json ile aynı. Bu partide kaynak hükümle birlikte arandı (EMRELİC): KAYNAKLI satırlarda okunan cümle; KAYNAK-GEREK = model bilgisi, TDV/Treccani'de madde ya da tarih bulunamadı. KAYNAK5 (LAB SALI): 12 hüküm kaynak_toplu.py ile güncellendi.",
+"_aciklama": "ENKLAV-1104 hükümleri (K601-K700). Sözlük ENKLAV-1103/hukumler.json ile aynı. Bu partide kaynak hükümle birlikte arandı (EMRELİC): KAYNAKLI satırlarda okunan cümle; KAYNAK-GEREK = model bilgisi, TDV/Treccani'de madde ya da tarih bulunamadı. KAYNAK5 (LAB SALI): 14 hüküm kaynak_toplu.py ile güncellendi.",
 "K601": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
@@ -193,7 +193,7 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Kızıkermen 1774-07-21 (Küçük Kaynarca) Rus, Kırım (bağımsızlaştırılmış) ve Zaporojye arasında → 1775 Zaporojye'nin dağıtılması: gerçek.",
 "duzeltme": "Yok.",
-"kaynak": "TDV'de madde yok (arama/kizikerman) — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Küçük Kaynarca 1774-07-21 (TDV maddesinde Kızıkermen adı geçmiyor; Kılburun-Özü var)",
+"kaynak": "TDV'de madde yok (arama/kizikerman) — bulunamadı · KISMEN — Guskov 2022: kale 1701 yazı yıkıldı, 1705'te boş yer; 1774'e dek yeniden iskân kaynakta yok — K629 düzeltmesine bağlı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Küçük Kaynarca 1774-07-21 (TDV maddesinde Kızıkermen adı geçmiyor; Kılburun-Özü var)",
 "aday_tarih": "Küçük Kaynarca 1774-07-21 (TDV maddesinde Kızıkermen adı geçmiyor; Kılburun-Özü var)"
 },
 "K625": {
@@ -229,12 +229,12 @@
 "kaynak": "bulunamadı (model bilgisi)"
 },
 "K629": {
-"hukum": "GERCEK",
-"kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Kızıkermen 1700-07-14 (İstanbul antlaşması ile iade) → 1774 Osmanlı, Kırım (TABI) ve Zaporojye arasında: gerçek.",
-"duzeltme": "Yok.",
-"kaynak": "TDV'de madde yok — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): 1700-07-14 (Jülyen 3 Temmuz) — Guskov 2022 arama özeti; iade/yıkım uygulama günü okunamadı",
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Kızıkermen 1700-07-14 → 1774 Osmanlı: toprak Osmanlı'ya iade edildi, ama kale antlaşma gereği 1701 yazında yıkıldı; 1705 sınır tarifinde 'yıkılmış Kazy-Kermen' boş yer olarak geçiyor. Yerleşim noktasının 1701 sonrası Osmanlı yerleşimi olarak yaşaması kaynakta yok (önceki GERCEK hükmü düzeldi).",
+"duzeltme": "Kızıkermen OSMANLI dönemi 1700-07-14 → 1701-06-01 (yıkım 1701 yazı, Jülyen; mevsim hassasiyeti — BEYANLI); sonrası nokta kapanır, toprak komşu Özi/Osmanlı peteklerine kalır. 1705 sonrası yeniden iskân kaynakla sınanmadan dönem açılmaz (K624'e bağlı).",
+"kaynak": "A. G. Гуськов, 'Ратификация и реализация Константинопольского договора 1700 г.', Новое прошлое / The New Past 2022 no.4, s.114-129, DOI 10.18522/2500-3224-2022-4-114-129 (hakemli; EMRELİC okudu, PDF kaynak-pdf/lab2) — md.2 (s.116) tam yıkım + toprak Osmanlı'ya; s.122 yıkım 'летом 1701 г.'; s.125 sınır tarifinde 'разрушенного Казы-Кермена'; Osmanlı tasdiki 7 Ağustos 1701 (s.120); Bug-Dinyeper sınır komisyonu 22 Ekim 1705 (s.124)",
 "aday_tarih": "1700-07-14 (Jülyen 3 Temmuz) — Guskov 2022 arama özeti; iade/yıkım uygulama günü okunamadı"
 },
 "K630": {
@@ -280,10 +280,10 @@
 "K635": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Kızıkermen 1695 Rus-Kazak zaptı → 1700-07-14 İstanbul antlaşması: gerçek kısa parça.",
-"duzeltme": "Yok.",
-"kaynak": "TDV'de madde yok — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Rus zaptı 1695; İstanbul antlaşması 3 (14) Temmuz 1700 — Guskov 2022 arama özeti (veri 1700-07-14 Gregoryen ile uyumlu; '13 Temmuz' yanlış çeviri). PDF okunamadı",
+"duzeltme": "Yok — rus t 1700-07-14 (hukukî devir, gün teyitli) kalır; fiilî Rus garnizonu yıkıma dek, 1701 yazı (Jülyen, gün yok) — ic_not beyanı yeter (bitişi 1701'e kaydırmak yalnız mevsim hassasiyeti verir ve yeni kronoloji maddesi ister).",
+"kaynak": "A. G. Гуськов, 'Ратификация и реализация Константинопольского договора 1700 г.', Новое прошлое / The New Past 2022 no.4, s.114-129, DOI 10.18522/2500-3224-2022-4-114-129 (hakemli; EMRELİC okudu, PDF kaynak-pdf/lab2) — s.116: antlaşma '3 (14) июля 1700 г.' (Gregoryen 1700-07-14; '13 Temmuz' yanlış çeviri); md.2: Tavan, Kazy-Kermen, Nusret- ve Sagin-Kermen 'подлежали полному разрушению', toprak Osmanlı'ya; s.122: 'Тавани и Казы-Кермена … осуществлена летом 1701 г.'",
 "aday_tarih": "Rus zaptı 1695; İstanbul antlaşması 3 (14) Temmuz 1700 — Guskov 2022 arama özeti (veri 1700-07-14 Gregoryen ile uyumlu; '13 Temmuz' yanlış çeviri). PDF okunamadı"
 },
 "K636": {
