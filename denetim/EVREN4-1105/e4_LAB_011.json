@@ -542,11 +542,11 @@
    "f": "1581-01-01",
    "t": "1738-01-01",
    "uc": "f",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, vol. VI (Oxford 1908), 'Attock Town' (archive.org TheImperialGazetteerOfIndia-Volume06 _djvu.txt); sayfa.py ia-oku ham metin",
    "alinti": "The fort was built by Akbar in 1581, to protect his empire",
    "oneri": {},
-   "not": "f ucu YIL düzeyinde (1581): kale yapımı = Akbar'ın kendi sınır karakolu kurması, idareye katma niteliği (Hakim Mirza'ya karşı savunma). 01-01 günü yer tutucu. [1908 kaynağı] t=1738 kaynakta yok. Wikipedia (ipucu): Maratha 1758-61, Durrani 1761/64, Sih 1813, İngiliz 1849."
+   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | f ucu YIL düzeyinde (1581): kale yapımı = Akbar'ın kendi sınır karakolu kurması, idareye katma niteliği (Hakim Mirza'ya karşı savunma). 01-01 günü yer tutucu. [1908 kaynağı] t=1738 kaynakta yok. Wikipedia (ipucu): Maratha 1758-61, Durrani 1761/64, Sih 1813, İngiliz 1849."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:499",

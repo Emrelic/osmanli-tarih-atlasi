@@ -6,12 +6,12 @@
    "d": "pagan",
    "f": "1281-01-01",
    "t": "1287-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "Imperial Gazetteer of India, Provincial Series: Burma, vol. I, Oxford 1908, 'Mergui' ve 'Tenasserim Division' (archive.org in.ernet.dli.2015.146790) — Mergui maddesi",
    "alinti": "It is dated 631 b.e. (a.d. 1269), and records a gift to the pagoda",
    "oneri": {},
-   "not": "UFUK BAŞI (f=1281): Mergui yakınındaki Shinkodaw pagoda kitabesi 1269, Pagan kralı Tayokpyemin (1248-1285) adamı Nga Pon'un bağışını kaydeder; metin 'güçlü bir Birman kralı varken Mergui Birman eyaleti olurdu' der. Pagan egemenliği örtük (kitabe), 1281'de Pagan elindeydi. t=1287 bu kaynakta yok."
+   "not": "KARAR EMRELİC (gece-55): 1548–93 Peguan/Birman dilimi ve 1759 Alaungpaya: IGI ipucu → ONERI; Lieberman ya da Baker & Phongpaichit ile teyit. | IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | UFUK BAŞI (f=1281): Mergui yakınındaki Shinkodaw pagoda kitabesi 1269, Pagan kralı Tayokpyemin (1248-1285) adamı Nga Pon'un bağışını kaydeder; metin 'güçlü bir Birman kralı varken Mergui Birman eyaleti olurdu' der. Pagan egemenliği örtük (kitabe), 1281'de Pagan elindeydi. t=1287 bu kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3703",
@@ -24,7 +24,7 @@
    "kaynak": "IGI Burma vol. I (Mergui, Tenasserim Division) tam metin arandı; Coedès 1968 zincirde kayıtlı (ülke düzeyi, okunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "Hanthawaddy/Mon 1287-1373 için IGI 1908 Mergui'yi anmıyor; 1287 Pagan'ın Moğol zaptı olayıdır, Mergui'ye özgü tanıklık değil. Bakılan: IGI Burma I Mergui + Tenasserim Division; TDV Birmanya/Myanmar aranmadı (BAKILMADI)."
+   "not": "KARAR EMRELİC (gece-55): 1548–93 Peguan/Birman dilimi ve 1759 Alaungpaya: IGI ipucu → ONERI; Lieberman ya da Baker & Phongpaichit ile teyit. | Hanthawaddy/Mon 1287-1373 için IGI 1908 Mergui'yi anmıyor; 1287 Pagan'ın Moğol zaptı olayıdır, Mergui'ye özgü tanıklık değil. Bakılan: IGI Burma I Mergui + Tenasserim Division; TDV Birmanya/Myanmar aranmadı (BAKILMADI)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3703",
@@ -39,7 +39,7 @@
    "oneri": {
     "t": "1759"
    },
-   "not": "Alıntı yalnız t ucunu tarihliyor: Alaungpaya 1759 sonunda Mergui ve Tenasserim'i direnişsiz işgal etti (Konbaung). Atlas t=1760-01-01 yıl düzeyinde 1759 sonu ile 1 gün-ay farkı; yıl sonu 'end of 1759' → ay yazılmadı. ÇELİŞKİ ADAYI (ara dönem): IGI'ye göre Bayin Naung 1548-1569 ve 1593'e kadar Tenasserim Pegu/Birman idaresinde (Federici 1568 'Pegu krallığında') — atlas Ayutthaya 1373-1760 kesintisiz yazıyor; ayrıca 1683 Siam kralı Mergui valisi atadı (Bumeby) = Ayutthaya idaresi teyidi (1683 yıl). f=1373 kaynakta yok."
+   "not": "KARAR EMRELİC (gece-55): 1548–93 Peguan/Birman dilimi ve 1759 Alaungpaya: IGI ipucu → ONERI; Lieberman ya da Baker & Phongpaichit ile teyit. | Alıntı yalnız t ucunu tarihliyor: Alaungpaya 1759 sonunda Mergui ve Tenasserim'i direnişsiz işgal etti (Konbaung). Atlas t=1760-01-01 yıl düzeyinde 1759 sonu ile 1 gün-ay farkı; yıl sonu 'end of 1759' → ay yazılmadı. ÇELİŞKİ ADAYI (ara dönem): IGI'ye göre Bayin Naung 1548-1569 ve 1593'e kadar Tenasserim Pegu/Birman idaresinde (Federici 1568 'Pegu krallığında') — atlas Ayutthaya 1373-1760 kesintisiz yazıyor; ayrıca 1683 Siam kralı Mergui valisi atadı (Bumeby) = Ayutthaya idaresi teyidi (1683 yıl). f=1373 kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3703",
@@ -54,7 +54,7 @@
    "oneri": {
     "f": "1759"
    },
-   "not": "Yıl sonu 1759 (ay yazılmadı). Devam: 1775'te Sinbyushin ordusu Ayutthaya'yı yıktı, 'Tavoy and Mergui remained in possession of the Burmans'; 1793 barışı Birmanları Tenasserim kıyısı, Tavoy ve Mergui'de bıraktı. Tahrir ölçütü: kaynak 'occupied without resistance' diyor, idareye katma belgesi (vergi/defter) yok — ölçüt kaynak susuyor. t=1826-02-24 için bkz. #123."
+   "not": "KARAR EMRELİC (gece-55): 1548–93 Peguan/Birman dilimi ve 1759 Alaungpaya: IGI ipucu → ONERI; Lieberman ya da Baker & Phongpaichit ile teyit. | Yıl sonu 1759 (ay yazılmadı). Devam: 1775'te Sinbyushin ordusu Ayutthaya'yı yıktı, 'Tavoy and Mergui remained in possession of the Burmans'; 1793 barışı Birmanları Tenasserim kıyısı, Tavoy ve Mergui'de bıraktı. Tahrir ölçütü: kaynak 'occupied without resistance' diyor, idareye katma belgesi (vergi/defter) yok — ölçüt kaynak susuyor. t=1826-02-24 için bkz. #123."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3703",
@@ -62,12 +62,12 @@
    "d": "ingiliz-hindistani",
    "f": "1826-02-24",
    "t": "1937-04-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "Imperial Gazetteer of India, Provincial Series: Burma, vol. II, Oxford 1908, dizin (archive.org in.ernet.dli.2015.146791) — 'Burma' dizin girdisi (cilt I s.22) ve 'Amherst' girdisi",
    "alinti": "Treaty of Yandabo, cession of Arakan and Tenasserim, Burmese withdrawal from Assam",
    "oneri": {},
-   "not": "Yıl düzeyi 1826 (Tenasserim Yandabo ile Britanya'ya geçti; Mergui Tenasserim Division'dadır). Gün 02-24 bu okumada yok (zincirdeki Gait 1906 alıntısı Assam içindi, okunmadı). Tahrir/idare ölçütü: Tenasserim Division kuruldu (IGI I, s.417-); idareye katma açık. t=1937-04-01 bu kaynakta yok."
+   "not": "KARAR EMRELİC (gece-55): 1548–93 Peguan/Birman dilimi ve 1759 Alaungpaya: IGI ipucu → ONERI; Lieberman ya da Baker & Phongpaichit ile teyit. | IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | Yıl düzeyi 1826 (Tenasserim Yandabo ile Britanya'ya geçti; Mergui Tenasserim Division'dadır). Gün 02-24 bu okumada yok (zincirdeki Gait 1906 alıntısı Assam içindi, okunmadı). Tahrir/idare ölçütü: Tenasserim Division kuruldu (IGI I, s.417-); idareye katma açık. t=1937-04-01 bu kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3703",
@@ -80,7 +80,7 @@
    "kaynak": "history.state.gov/countries/burma (1937/1942 anahtarları YOK); IGI 1908 bu tarihten önce yazıldı",
    "alinti": "",
    "oneri": {},
-   "not": "1937-04-01 Government of Burma Act 1935 yürürlüğü (zincirde Oxford Ref. kaynaklı, okunmadı). İkinci bağımsız akademik kaynak aranmadı (BAKILMADI: Oxford Reference/Cambridge History of Southeast Asia erişimi yok)."
+   "not": "KARAR EMRELİC (gece-55): 1548–93 Peguan/Birman dilimi ve 1759 Alaungpaya: IGI ipucu → ONERI; Lieberman ya da Baker & Phongpaichit ile teyit. | 1937-04-01 Government of Burma Act 1935 yürürlüğü (zincirde Oxford Ref. kaynaklı, okunmadı). İkinci bağımsız akademik kaynak aranmadı (BAKILMADI: Oxford Reference/Cambridge History of Southeast Asia erişimi yok)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3703",
@@ -93,7 +93,7 @@
    "kaynak": "history.state.gov/countries/burma; IGI 1908 (tarih dışı)",
    "alinti": "",
    "oneri": {},
-   "not": "1942-03-08 (Rangun düşüşü) / Mergui'nin Japon işgali günü ve alan sorusu (isg mi s mi) için kaynak okunmadı. ÖLÇÜT UYARISI: Japon işgali askerî → atlas kuralı 'isg' (ÖLÇÜT: geçici/askerî); mevcut zincir s: meiji-japonya BEYANLI (künye yok)."
+   "not": "KARAR EMRELİC (gece-55): 1548–93 Peguan/Birman dilimi ve 1759 Alaungpaya: IGI ipucu → ONERI; Lieberman ya da Baker & Phongpaichit ile teyit. | 1942-03-08 (Rangun düşüşü) / Mergui'nin Japon işgali günü ve alan sorusu (isg mi s mi) için kaynak okunmadı. ÖLÇÜT UYARISI: Japon işgali askerî → atlas kuralı 'isg' (ÖLÇÜT: geçici/askerî); mevcut zincir s: meiji-japonya BEYANLI (künye yok)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3703",
@@ -106,7 +106,7 @@
    "kaynak": "Office of the Historian, U.S. Department of State, 'Burma' — https://history.state.gov/countries/burma",
    "alinti": "recognized the Union of Burma as an “independent sovereign state” on January 4, 1948",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu tarihliyor (ABD tanıması = bağımsızlık günü 1948-01-04; dönem t'si ile uyumlu, değişiklik yok). f=1945-09-02 (Tokyo Körfezi) bu kaynakta yok. Kaynak resmî kurum sayfası, akademik ansiklopedi değil."
+   "not": "KARAR EMRELİC (gece-55): 1548–93 Peguan/Birman dilimi ve 1759 Alaungpaya: IGI ipucu → ONERI; Lieberman ya da Baker & Phongpaichit ile teyit. | Alıntı yalnız t ucunu tarihliyor (ABD tanıması = bağımsızlık günü 1948-01-04; dönem t'si ile uyumlu, değişiklik yok). f=1945-09-02 (Tokyo Körfezi) bu kaynakta yok. Kaynak resmî kurum sayfası, akademik ansiklopedi değil."
   }
  ],
  "Rengat (Indragiri)": [
@@ -121,7 +121,7 @@
    "kaynak": "TDV 'Malezya' (Göksoy) okundu; TDV arama: Indragiri 2 madde içeriği (malezya, bir daha), Endragiri/Rengat başlıkta yok",
    "alinti": "",
    "oneri": {},
-   "not": "1281-1400 Malay Sultanlıkları için İndragiri'ye özgü cümle yok; TDV Malaka'nın kuruluş sonrasını anlatıyor. 'malay-sultanliklari' genel künye (Kedah vb.), Indragiri/Rengat zaten künye adında yok → künye uygunluğu sorusu LAB'a."
+   "not": "KARAR EMRELİC (gece-55): Cohor 1530 (TDV); Malaka t 1511-08-10 aşımı Malaka satırından kalkar. | 1281-1400 Malay Sultanlıkları için İndragiri'ye özgü cümle yok; TDV Malaka'nın kuruluş sonrasını anlatıyor. 'malay-sultanliklari' genel künye (Kedah vb.), Indragiri/Rengat zaten künye adında yok → künye uygunluğu sorusu LAB'a."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:353",
@@ -134,7 +134,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Malezya' (İsmail Hakkı Göksoy) — https://islamansiklopedisi.org.tr/malezya",
    "alinti": "Mahmûd Şah’ın 1528’de ölümünün ardından",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu tarihliyor: TDV Malaka'nın 10 Ağustos 1511'de Portekiz'e düştüğünü, Mahmûd Şah'ın Bentan'a kaçtığını, 1528'de öldüğünü söyler. KÜNYE AŞIMI: dönem t=1528, künye malaka t=1511-08-10. Yer tanıklığı: 'Muzaffer Şah ... İndragiri ve Kampar krallıklarını alarak' (yılsız, 15. yy) ve 'Pahang, Kampar ve İndragiri kralları Malaka sarayına getirtildi' (Alâeddin Riâyet Şah, yılsız) = Malaka bağımlılığı. f=1400 kaynakta yok."
+   "not": "KARAR EMRELİC (gece-55): Cohor 1530 (TDV); Malaka t 1511-08-10 aşımı Malaka satırından kalkar. | Alıntı yalnız t ucunu tarihliyor: TDV Malaka'nın 10 Ağustos 1511'de Portekiz'e düştüğünü, Mahmûd Şah'ın Bentan'a kaçtığını, 1528'de öldüğünü söyler. KÜNYE AŞIMI: dönem t=1528, künye malaka t=1511-08-10. Yer tanıklığı: 'Muzaffer Şah ... İndragiri ve Kampar krallıklarını alarak' (yılsız, 15. yy) ve 'Pahang, Kampar ve İndragiri kralları Malaka sarayına getirtildi' (Alâeddin Riâyet Şah, yılsız) = Malaka bağımlılığı. f=1400 kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:353",
@@ -149,7 +149,7 @@
    "oneri": {
     "f": "1530"
    },
-   "not": "Mahmûd Şah 1528'de öldü, 'iki yıl sonra' → 1530 (TÜRETİLMİŞ yıl, kaynak yıl yazmıyor). KÜNYE: cohor f=1528 vs TDV 1530. Rengat'a özgü değil (Johor'un İndragiri üzerinde egemenliği TDV'de yok; 'Malaka’nın tesiri yeni kurulan iki küçük sultanlıkla devam etti'). t=1590 kaynakta yok."
+   "not": "KARAR EMRELİC (gece-55): Cohor 1530 (TDV); Malaka t 1511-08-10 aşımı Malaka satırından kalkar. | Mahmûd Şah 1528'de öldü, 'iki yıl sonra' → 1530 (TÜRETİLMİŞ yıl, kaynak yıl yazmıyor). KÜNYE: cohor f=1528 vs TDV 1530. Rengat'a özgü değil (Johor'un İndragiri üzerinde egemenliği TDV'de yok; 'Malaka’nın tesiri yeni kurulan iki küçük sultanlıkla devam etti'). t=1590 kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:353",
@@ -162,7 +162,7 @@
    "kaynak": "TDV 'Malezya', TDV 'Endonezya' okundu; Indragiri/Rengat özgü cümle yok",
    "alinti": "",
    "oneri": {},
-   "not": "1590-1858 Doğu Sumatra Sultanlıkları için kaynak bulunamadı. Bakılmayan: Encyclopaedia of Islam, Encyclopaedia of Indonesia/Netherlands Indies akademik monografileri (BAKILMADI)."
+   "not": "KARAR EMRELİC (gece-55): Cohor 1530 (TDV); Malaka t 1511-08-10 aşımı Malaka satırından kalkar. | 1590-1858 Doğu Sumatra Sultanlıkları için kaynak bulunamadı. Bakılmayan: Encyclopaedia of Islam, Encyclopaedia of Indonesia/Netherlands Indies akademik monografileri (BAKILMADI)."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:353",
@@ -175,7 +175,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Malezya' — https://islamansiklopedisi.org.tr/malezya",
    "alinti": "Sumatra ve Cava Hollanda’nın hâkimiyetine verildi",
    "oneri": {},
-   "not": "ÇELİŞKİ ADAYI (öneri yok): TDV 1824 Londra antlaşmasıyla Sumatra'nın Hollanda nüfuz alanına verildiğini söyler; atlas f=1858. Nüfuz alanı ≠ idareye katma; ölçüt 'kaynak susuyor', 1858 (Siak/Indragiri sözleşmesi) için kaynak bulunamadı. t=1942-03-09 için bkz. #132 (TDV: 1942 Japon işgaliyle Hollanda sömürge idaresi son buldu, yıl düzeyi)."
+   "not": "KARAR EMRELİC (gece-55): Cohor 1530 (TDV); Malaka t 1511-08-10 aşımı Malaka satırından kalkar. | ÇELİŞKİ ADAYI (öneri yok): TDV 1824 Londra antlaşmasıyla Sumatra'nın Hollanda nüfuz alanına verildiğini söyler; atlas f=1858. Nüfuz alanı ≠ idareye katma; ölçüt 'kaynak susuyor', 1858 (Siak/Indragiri sözleşmesi) için kaynak bulunamadı. t=1942-03-09 için bkz. #132 (TDV: 1942 Japon işgaliyle Hollanda sömürge idaresi son buldu, yıl düzeyi)."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:353",
@@ -216,7 +216,7 @@
    "kaynak": "TDV 'Kırgızlar' okundu; TDV 'Moğulistan' ve 'Cungarlar' madde başlığı yok (arama özetleri)",
    "alinti": "",
    "oneri": {},
-   "not": "Çağatay Hanlığı 1281-1347 Issık Göl: TDV Kırgızlar yalnız 1217-18 Cuci fethini ve genel 'Kalmuk ve Kazak hâkimiyeti'ni anlatıyor, Çağatay/Moğulistan yok. Bakılmayan: Iranica, EI, Barthold (BAKILMADI)."
+   "not": "KARAR EMRELİC (gece-55): çift TDV ÇELİŞKİ; yerin maddesi yoksa iki cümle ic_not. | Çağatay Hanlığı 1281-1347 Issık Göl: TDV Kırgızlar yalnız 1217-18 Cuci fethini ve genel 'Kalmuk ve Kazak hâkimiyeti'ni anlatıyor, Çağatay/Moğulistan yok. Bakılmayan: Iranica, EI, Barthold (BAKILMADI)."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:167",
@@ -229,7 +229,7 @@
    "kaynak": "TDV 'Kırgızlar'; TDV arama 'Cungarlar' (başlık yok, içerik özeti)",
    "alinti": "",
    "oneri": {},
-   "not": "Cungar 1634-1758: TDV Kırgızlar 'Kalmuk ve Kazak hâkimiyetinde yaşayan Kırgızlar' der, yıl yok. TDV arama özeti: '1678-1758 yılları arasında Cungarlar Doğu Türkistan'a hâkim oldu' (Uygurlar maddesi, okunmadı, Issık Göl'e özgü değil)."
+   "not": "KARAR EMRELİC (gece-55): çift TDV ÇELİŞKİ; yerin maddesi yoksa iki cümle ic_not. | Cungar 1634-1758: TDV Kırgızlar 'Kalmuk ve Kazak hâkimiyetinde yaşayan Kırgızlar' der, yıl yok. TDV arama özeti: '1678-1758 yılları arasında Cungarlar Doğu Türkistan'a hâkim oldu' (Uygurlar maddesi, okunmadı, Issık Göl'e özgü değil)."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:167",
@@ -242,7 +242,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Hokand Hanlığı' — https://islamansiklopedisi.org.tr/hokand-hanligi",
    "alinti": "1763’ten sonra Hokandlılar Kırgızlar ülkesini de ilhak ettiler",
    "oneri": {},
-   "not": "ÇELİŞKİ: atlas Issık Göl'ü 1758-1825 Kazak Hanlığı yazıyor; TDV Hokand Kırgızlar ülkesinin 1763 sonrası Hokand'a ilhakını söyler ('sonra' = yıl yok, öneri yazılmadı). Kırgızlar ülkesi = etnik/bölgesel düzey, Issık Göl'e özgü değil. Kırgızlar maddesi Kazak hâkimiyetini yılsız anar. ABİ MERKEZ: Hokand."
+   "not": "KARAR EMRELİC (gece-55): çift TDV ÇELİŞKİ; yerin maddesi yoksa iki cümle ic_not. | ÇELİŞKİ: atlas Issık Göl'ü 1758-1825 Kazak Hanlığı yazıyor; TDV Hokand Kırgızlar ülkesinin 1763 sonrası Hokand'a ilhakını söyler ('sonra' = yıl yok, öneri yazılmadı). Kırgızlar ülkesi = etnik/bölgesel düzey, Issık Göl'e özgü değil. Kırgızlar maddesi Kazak hâkimiyetini yılsız anar. ABİ MERKEZ: Hokand."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:167",
@@ -255,7 +255,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Hokand Hanlığı' — https://islamansiklopedisi.org.tr/hokand-hanligi",
    "alinti": "1763’ten sonra Hokandlılar Kırgızlar ülkesini de ilhak ettiler",
    "oneri": {},
-   "not": "f=1825 kaynakta yok; TDV 1763 sonrası. t=1868: aynı madde 'Hudâyâr 1868’de yapılan antlaşma ile Rus hâkimiyetine boyun eğdi' (Hokand hanlığı düzeyi, Issık Göl değil). Bkz. #105."
+   "not": "KARAR EMRELİC (gece-55): çift TDV ÇELİŞKİ; yerin maddesi yoksa iki cümle ic_not. | f=1825 kaynakta yok; TDV 1763 sonrası. t=1868: aynı madde 'Hudâyâr 1868’de yapılan antlaşma ile Rus hâkimiyetine boyun eğdi' (Hokand hanlığı düzeyi, Issık Göl değil). Bkz. #105."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:167",
@@ -268,7 +268,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Kırgızlar' — https://islamansiklopedisi.org.tr/kirgizlar",
    "alinti": "1862’de Kırgız kumandanı Sâdık Bey, Kâşgar’a girdiyse de 1864’te Ruslar’a tâbi oldu",
    "oneri": {},
-   "not": "ÇİFT-TDV ÇELİŞKİ (seçilmedi): Kırgızlar maddesi Kırgızların Rus tâbiliğini 1864'e koyar (etnik düzey); Hokand maddesi Hokand'ın Rus hâkimiyetini 1868'e koyar; atlas f=1868. İkisi de Issık Göl'e özgü değil, Issık Göl'ün kendi maddesi yok. t: Kırgızlar maddesi '1917’ye kadar Türkistan Genel Valiliği’nin Semireçen ... bölgelerine dahildi' (yıl düzeyi; gün 03-15 teyitsiz; Issık Göl Semireçen'dedir, çıkarım)."
+   "not": "KARAR EMRELİC (gece-55): çift TDV ÇELİŞKİ; yerin maddesi yoksa iki cümle ic_not. | ÇİFT-TDV ÇELİŞKİ (seçilmedi): Kırgızlar maddesi Kırgızların Rus tâbiliğini 1864'e koyar (etnik düzey); Hokand maddesi Hokand'ın Rus hâkimiyetini 1868'e koyar; atlas f=1868. İkisi de Issık Göl'e özgü değil, Issık Göl'ün kendi maddesi yok. t: Kırgızlar maddesi '1917’ye kadar Türkistan Genel Valiliği’nin Semireçen ... bölgelerine dahildi' (yıl düzeyi; gün 03-15 teyitsiz; Issık Göl Semireçen'dedir, çıkarım)."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:167",
@@ -291,12 +291,12 @@
    "d": "yadava",
    "f": "1281-01-01",
    "t": "1318-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "Imperial Gazetteer of India, vol. XV, Oxford 1908, 'Kolhapur State' (archive.org TheImperialGazetteerOfIndia-Volume15)",
    "alinti": "About 1212 the country passed to the Deogiri Yadavas.",
    "oneri": {},
-   "not": "UFUK BAŞI (f=1281): Yadava hâkimiyeti ca. 1212'den (yaklaşık yıl), 1281'de Yadava elinde. t=1318 bu kaynakta yok. Doğrulama sayfası: kolhapur.gov.in/en/history (resmî kurum): 'SILHAR-YADAV ... up to 1347 A.D.' (Hindu hâkimiyeti 1347'ye kadar)."
+   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | UFUK BAŞI (f=1281): Yadava hâkimiyeti ca. 1212'den (yaklaşık yıl), 1281'de Yadava elinde. t=1318 bu kaynakta yok. Doğrulama sayfası: kolhapur.gov.in/en/history (resmî kurum): 'SILHAR-YADAV ... up to 1347 A.D.' (Hindu hâkimiyeti 1347'ye kadar)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1316",
@@ -330,12 +330,12 @@
    "d": "maratha",
    "f": "1659-01-01",
    "t": "1710-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "Imperial Gazetteer of India, vol. XV, Oxford 1908, 'Kolhapur State' (archive.org TheImperialGazetteerOfIndia-Volume15)",
    "alinti": "In 1659 SivajI obtained possession of the forts",
    "oneri": {},
-   "not": "Yıl düzeyi 1659; kaleler (Panhala vd.) — Kolhapur şehrinin kendisi için tahrir/idare belgesi yok (ölçüt: kaynak susuyor). t=1710: IGI Raja Ram'ın 1700'de ölümü, dul eşinin oğlu Sivaji'yi Kolhapur'da başa geçirmesi; 1707 Shahu iddiası."
+   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | Yıl düzeyi 1659; kaleler (Panhala vd.) — Kolhapur şehrinin kendisi için tahrir/idare belgesi yok (ölçüt: kaynak susuyor). t=1710: IGI Raja Ram'ın 1700'de ölümü, dul eşinin oğlu Sivaji'yi Kolhapur'da başa geçirmesi; 1707 Shahu iddiası."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1316",
@@ -376,7 +376,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "Dâcûlar XV. yüzyılın sonlarında iktidarı Tuncûrlar’a kaptırdı",
    "oneri": {},
-   "not": "ÇELİŞKİ (öneri yazılmadı, yıl yok): atlas Dâcû t=1400-01-01 (kronoloji maddesi 'TDV darfur'a dayanıyor); TDV darfur: 'XIII ve XIV. yüzyıllar boyunca buraya hâkim olan Dâcûlar' ve 'XV. yüzyılda ... Tuncûrlar’ın XV. yüzyılın sonlarında ve XVI. yüzyılda Dârfûr’u ... nüfuzları altına almayı başarmış'; TDV sudan 'XV. yüzyılın sonlarında'. Yani Dâcû→Tuncûr geçişi 15. yy sonu, 1400 değil. Kutum'a özgü cümle yok (Darfur düzeyi)."
+   "not": "KARAR EMRELİC (gece-55): Darfur t 1916-11-06 KAYNAKLI (künye ile uyumlu). | ÇELİŞKİ (öneri yazılmadı, yıl yok): atlas Dâcû t=1400-01-01 (kronoloji maddesi 'TDV darfur'a dayanıyor); TDV darfur: 'XIII ve XIV. yüzyıllar boyunca buraya hâkim olan Dâcûlar' ve 'XV. yüzyılda ... Tuncûrlar’ın XV. yüzyılın sonlarında ve XVI. yüzyılda Dârfûr’u ... nüfuzları altına almayı başarmış'; TDV sudan 'XV. yüzyılın sonlarında'. Yani Dâcû→Tuncûr geçişi 15. yy sonu, 1400 değil. Kutum'a özgü cümle yok (Darfur düzeyi)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:289",
@@ -389,7 +389,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan; 'Dârfûr' — https://islamansiklopedisi.org.tr/darfur",
    "alinti": "Sultan Süleyman Solonc’dan (1695-1715) sonra aynı aileden on kişi iktidara geldi",
    "oneri": {},
-   "not": "f: Süleyman Solonc'un saltanat başı 1695 (yıl; 'XVII. yüzyılın sonlarında Fûrlar ... devlet kurdular'). t: TDV darfur 'yenik düşen son bağımsız Dârfûr sultanı İbrâhim öldürülmüştür (1874)' ve Mısır tarafından zaptı (yıl). Gün 1874-11-02 teyitsiz. Darfur düzeyi, Kutum'a özgü yok."
+   "not": "KARAR EMRELİC (gece-55): Darfur t 1916-11-06 KAYNAKLI (künye ile uyumlu). | f: Süleyman Solonc'un saltanat başı 1695 (yıl; 'XVII. yüzyılın sonlarında Fûrlar ... devlet kurdular'). t: TDV darfur 'yenik düşen son bağımsız Dârfûr sultanı İbrâhim öldürülmüştür (1874)' ve Mısır tarafından zaptı (yıl). Gün 1874-11-02 teyitsiz. Darfur düzeyi, Kutum'a özgü yok."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:289",
@@ -402,7 +402,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Dârfûr' — https://islamansiklopedisi.org.tr/darfur; 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "yenik düşen son bağımsız Dârfûr sultanı İbrâhim öldürülmüştür (1874)",
    "oneri": {},
-   "not": "f yıl 1874 (TDV sudan: 'Hidiv İsmâil Paşa döneminde Osmanlı-Mısır Sudanı’na ilhak edildi'). ALAN NOTU: TDV 'ilhak' diyor, atlas v: (Hidiv tâbi). t: TDV sudan 'Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi' → ay düzeyi Aralık 1883 (gün 12-23 teyitsiz). Mehdî hareketi 1883 başlangıcı (darfur maddesi) ayrı olaydır."
+   "not": "KARAR EMRELİC (gece-55): Darfur t 1916-11-06 KAYNAKLI (künye ile uyumlu). | f yıl 1874 (TDV sudan: 'Hidiv İsmâil Paşa döneminde Osmanlı-Mısır Sudanı’na ilhak edildi'). ALAN NOTU: TDV 'ilhak' diyor, atlas v: (Hidiv tâbi). t: TDV sudan 'Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi' → ay düzeyi Aralık 1883 (gün 12-23 teyitsiz). Mehdî hareketi 1883 başlangıcı (darfur maddesi) ayrı olaydır."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:289",
@@ -415,7 +415,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi",
    "oneri": {},
-   "not": "Ay düzeyi 1883-12 [ay teyitli; gün 23 teyitsiz]. t=1898-09-02: TDV 'Mehdî Devleti yıkıldı' (1899'a kadar ayakta; Ümmüdurman günü bu okumada yok)."
+   "not": "KARAR EMRELİC (gece-55): Darfur t 1916-11-06 KAYNAKLI (künye ile uyumlu). | Ay düzeyi 1883-12 [ay teyitli; gün 23 teyitsiz]. t=1898-09-02: TDV 'Mehdî Devleti yıkıldı' (1899'a kadar ayakta; Ümmüdurman günü bu okumada yok)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:289",
@@ -423,14 +423,14 @@
    "d": "darfur",
    "f": "1898-09-02",
    "t": "1916-05-23",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "uc": "t",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "İngiliz kuvvetleri tarafından 6 Kasım 1916’da öldürüldü",
    "oneri": {
     "t": "1916-11-06"
    },
-   "not": "Ali Dînâr 1916-11-06'da öldürüldü (gün düzeyi); 'bir süre sonra Dârfûr toprakları bir eyalet halinde İngiliz Sudanı’na bağlandı' (tarih yok). Atlas t=1916-05-23 (kronoloji; TDV'de yok); künye darfur t=1916-11-06 (hayalet değil). TEK ÖLÇÜ: İngiliz fiilî devir/ilhak günü TDV'de yok. f=1898-09-02: TDV 'Mehdî’nin devleti ortadan kalkınca ... Ali Dînâr Dârfûr Sultanlığı’nı yeniden kurma imkânını buldu' (tarihsiz); ayrıca 'diplomatik bakımdan daha çok İngilizler’e tâbi' (v: ingiliz-sudani adayı, TDV tek cümle)."
+   "not": "KARAR EMRELİC (gece-55): Darfur t 1916-11-06 KAYNAKLI (künye ile uyumlu). | Ali Dînâr 1916-11-06'da öldürüldü (gün düzeyi); 'bir süre sonra Dârfûr toprakları bir eyalet halinde İngiliz Sudanı’na bağlandı' (tarih yok). Atlas t=1916-05-23 (kronoloji; TDV'de yok); künye darfur t=1916-11-06 (hayalet değil). TEK ÖLÇÜ: İngiliz fiilî devir/ilhak günü TDV'de yok. f=1898-09-02: TDV 'Mehdî’nin devleti ortadan kalkınca ... Ali Dînâr Dârfûr Sultanlığı’nı yeniden kurma imkânını buldu' (tarihsiz); ayrıca 'diplomatik bakımdan daha çok İngilizler’e tâbi' (v: ingiliz-sudani adayı, TDV tek cümle)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:289",
@@ -443,7 +443,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
    "oneri": {},
-   "not": "Gün düzeyi. ÜLKE DÜZEYİ (Kutum ayrıca anılmıyor)."
+   "not": "KARAR EMRELİC (gece-55): Darfur t 1916-11-06 KAYNAKLI (künye ile uyumlu). | Gün düzeyi. ÜLKE DÜZEYİ (Kutum ayrıca anılmıyor)."
   }
  ],
  "Seyûn (Sayvan)": [
@@ -460,7 +460,7 @@
    "oneri": {
     "d": "resuli"
    },
-   "not": "BÖLGE DÜZEYİ (Hadramut; Seyûn'a özgü yok). TDV Hadramut'ta Resûlî egemenliği 1229-1454 der; 1274'te Habûzîler birçok şehre hâkim oldu, beş yıl sonra Resûlîler tarafından bertaraf edildi; XV. yy'da Tâhirîler Resûlîler'in toprağının çoğunu aldı. Zeydî imamlığının Hadramut'a ilk tarihli girişi 1658-59 (bkz. #137); 1281-1450 için Zeydî imamı egemenliği kaynakta yok. 'Zeydîler dışındakilere son verdiler' cümlesi yerel hanedan mı mezhep mi belirsiz. Künye resuli ve tahiri depoda var (grep ölçüldü)."
+   "not": "KARAR EMRELİC (gece-55): 1281–1450 Zeydî hayali; d/s: resuli (TDV Hadramut), ardından Tâhirî; Zeydî 1658–59; Kesîrî ilişkisi ic_not. | BÖLGE DÜZEYİ (Hadramut; Seyûn'a özgü yok). TDV Hadramut'ta Resûlî egemenliği 1229-1454 der; 1274'te Habûzîler birçok şehre hâkim oldu, beş yıl sonra Resûlîler tarafından bertaraf edildi; XV. yy'da Tâhirîler Resûlîler'in toprağının çoğunu aldı. Zeydî imamlığının Hadramut'a ilk tarihli girişi 1658-59 (bkz. #137); 1281-1450 için Zeydî imamı egemenliği kaynakta yok. 'Zeydîler dışındakilere son verdiler' cümlesi yerel hanedan mı mezhep mi belirsiz. Künye resuli ve tahiri depoda var (grep ölçüldü)."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta_ortadogu_0917.js:48",
@@ -486,7 +486,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Hadramut' — https://islamansiklopedisi.org.tr/hadramut",
    "alinti": "1069’da (1658-59) Zeydî imamı Mütevekkil-Alellah bir ordu gönderip Hadramut’u istilâ etti.",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu tarihliyor (hicrî 1069 = 1658-59). f=1635-10-22: Hadramut'a özgü cümle yok (zincirdeki KUTU notu: TDV yemen, Muhâ). 1538'de sancak teşkilatı; 'idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi'."
+   "not": "KARAR EMRELİC (gece-55): 1281–1450 Zeydî hayali; d/s: resuli (TDV Hadramut), ardından Tâhirî; Zeydî 1658–59; Kesîrî ilişkisi ic_not. | Alıntı yalnız t ucunu tarihliyor (hicrî 1069 = 1658-59). f=1635-10-22: Hadramut'a özgü cümle yok (zincirdeki KUTU notu: TDV yemen, Muhâ). 1538'de sancak teşkilatı; 'idareyi ellerinde bulunduranlar Kesîrî kabilesi reisleri idi'."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta_ortadogu_0917.js:48",
@@ -512,7 +512,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Hadramut' — https://islamansiklopedisi.org.tr/hadramut",
    "alinti": "Böylece Şibâm, Sayvan ve Terîm şehirleri Kesîrîler’de kaldı.",
    "oneri": {},
-   "not": "Yer tanıklığı (1888 çevresi, 'Sayvan Kesîrîler’in kontrolündeydi' XIX. yy): Kesîrî yönetimi teyit; ama f=1700 ve t=1967-11-30 tarihlenmedi. TDV: 'XVIII. yüzyılın ilk yarısında Yemen imamlarının ve Kesîrîler’in nüfuzunun zaafa uğramasıyla Hadramut’nın idaresi mahallî kabilelerin eline geçti' → 1700'ün Zeydî→Kesîrî dönüşü için yıl yok. 1914 Aden antlaşmasıyla Hadramut zımnen İngiltere'ye bırakıldı; 1888 İngiliz himaye antlaşması sahildeki Yâfiîler içindi, iç bölge Kesîrîlere bırakıldı (isg/v adayı sorusu: İngiliz himayesi iç bölgeye uzanmadı, TDV)."
+   "not": "KARAR EMRELİC (gece-55): 1281–1450 Zeydî hayali; d/s: resuli (TDV Hadramut), ardından Tâhirî; Zeydî 1658–59; Kesîrî ilişkisi ic_not. | Yer tanıklığı (1888 çevresi, 'Sayvan Kesîrîler’in kontrolündeydi' XIX. yy): Kesîrî yönetimi teyit; ama f=1700 ve t=1967-11-30 tarihlenmedi. TDV: 'XVIII. yüzyılın ilk yarısında Yemen imamlarının ve Kesîrîler’in nüfuzunun zaafa uğramasıyla Hadramut’nın idaresi mahallî kabilelerin eline geçti' → 1700'ün Zeydî→Kesîrî dönüşü için yıl yok. 1914 Aden antlaşmasıyla Hadramut zımnen İngiltere'ye bırakıldı; 1888 İngiliz himaye antlaşması sahildeki Yâfiîler içindi, iç bölge Kesîrîlere bırakıldı (isg/v adayı sorusu: İngiliz himayesi iç bölgeye uzanmadı, TDV)."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta_ortadogu_0917.js:48",
@@ -525,7 +525,7 @@
    "kaynak": "TDV 'Hadramut' (1967 anahtarı YOK), TDV 'Yemen' (Aden 1967 ülke düzeyi)",
    "alinti": "",
    "oneri": {},
-   "not": "Seyûn/Kesîrî sultanlığının Güney Yemen'e katıldığı 1967-11-30 için Hadramut maddesinde cümle yok; TDV Yemen yalnız 'Aden’in 1967’de bağımsızlığına' ve 'Güney Yemen ... 1967-1969 Millî Kurtuluş Cephesi' der (Hadramut anılmıyor). ÜLKE/yıl düzeyi, gün 11-30 yok."
+   "not": "KARAR EMRELİC (gece-55): 1281–1450 Zeydî hayali; d/s: resuli (TDV Hadramut), ardından Tâhirî; Zeydî 1658–59; Kesîrî ilişkisi ic_not. | Seyûn/Kesîrî sultanlığının Güney Yemen'e katıldığı 1967-11-30 için Hadramut maddesinde cümle yok; TDV Yemen yalnız 'Aden’in 1967’de bağımsızlığına' ve 'Güney Yemen ... 1967-1969 Millî Kurtuluş Cephesi' der (Hadramut anılmıyor). ÜLKE/yıl düzeyi, gün 11-30 yok."
   }
  ],
  "Spiro": [
@@ -553,7 +553,7 @@
    "kaynak": "OHS 'Spiro Mounds' okundu (Caddoan konuşan önderlik, Wichita anılmıyor)",
    "alinti": "",
    "oneri": {},
-   "not": "1450-1682 Wiçita sahipliği için kaynak bulunamadı; OHS Wichita'yı anmıyor. Bakılmayan: Handbook of Texas 'Wichita Indians', Smithsonian Handbook of North American Indians cilt 13 (BAKILMADI)."
+   "not": "KARAR EMRELİC (gece-55): La Salle 1682 iddiası idareye katma değil; Fransız s: yok, kabile ya da beyanlı (TAHRİR). | 1450-1682 Wiçita sahipliği için kaynak bulunamadı; OHS Wichita'yı anmıyor. Bakılmayan: Handbook of Texas 'Wichita Indians', Smithsonian Handbook of North American Indians cilt 13 (BAKILMADI)."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1285",
@@ -566,7 +566,7 @@
    "kaynak": "Texas State Historical Association, Handbook of Texas Online, 'La Salle, René Robert Cavelier, Sieur de' — https://www.tshaonline.org/handbook/entries/la-salle-rene-robert-cavelier-sieur-de",
    "alinti": "Claiming for France all the lands drained by the river",
    "oneri": {},
-   "not": "Yıl 1682 (TSHA: 7 Nisan 1682'de Mississippi ağzına vardı; claim günü 04-09 bu metinde yok, 04-07 varış). ÖLÇÜT: idareye katma değil, İDDİA (claim) — La Salle'in toprak iddiası; Spiro bölgesinde (Arkansas Nehri, Le Flore Co.) Fransız idaresi belgesi yok. Tahrir ölçütü kaynak susuyor: s: fransa yerine beyanlı yaklaşıklık/isg değil, kaynaklı idare tarihi aranmalı."
+   "not": "KARAR EMRELİC (gece-55): La Salle 1682 iddiası idareye katma değil; Fransız s: yok, kabile ya da beyanlı (TAHRİR). | Yıl 1682 (TSHA: 7 Nisan 1682'de Mississippi ağzına vardı; claim günü 04-09 bu metinde yok, 04-07 varış). ÖLÇÜT: idareye katma değil, İDDİA (claim) — La Salle'in toprak iddiası; Spiro bölgesinde (Arkansas Nehri, Le Flore Co.) Fransız idaresi belgesi yok. Tahrir ölçütü kaynak susuyor: s: fransa yerine beyanlı yaklaşıklık/isg değil, kaynaklı idare tarihi aranmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1285",
@@ -579,7 +579,7 @@
    "kaynak": "TSHA Handbook of Texas: louisiana-purchase, louisiana, treaty-of-san-ildefonso, spanish-louisiana (hepsi 404); Encyclopedia of Arkansas louisiana-purchase-374 (404)",
    "alinti": "",
    "oneri": {},
-   "not": "1762-11-03 (Fontainebleau gizli devri) için okunabilir kaynak bulunamadı; slug tahminleri 404. İdareyi fiilen devralma da 1766-69 (Ulloa) — kaynak okunmadı. BAKILMADI sayılır, arama sınırlı."
+   "not": "KARAR EMRELİC (gece-55): La Salle 1682 iddiası idareye katma değil; Fransız s: yok, kabile ya da beyanlı (TAHRİR). | 1762-11-03 (Fontainebleau gizli devri) için okunabilir kaynak bulunamadı; slug tahminleri 404. İdareyi fiilen devralma da 1766-69 (Ulloa) — kaynak okunmadı. BAKILMADI sayılır, arama sınırlı."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1285",
@@ -592,7 +592,7 @@
    "kaynak": "TSHA ve Encyclopedia of Arkansas Louisiana Purchase girdileri (404)",
    "alinti": "",
    "oneri": {},
-   "not": "1803-12-20 New Orleans devir töreni için okunabilir kaynak çekilemedi (slug 404). Spiro çevresi 1820 Choctaw antlaşmasıyla Kızılderili toprağı; tahrir ölçütü için idareye katma belgesi yok."
+   "not": "KARAR EMRELİC (gece-55): La Salle 1682 iddiası idareye katma değil; Fransız s: yok, kabile ya da beyanlı (TAHRİR). | 1803-12-20 New Orleans devir töreni için okunabilir kaynak çekilemedi (slug 404). Spiro çevresi 1820 Choctaw antlaşmasıyla Kızılderili toprağı; tahrir ölçütü için idareye katma belgesi yok."
   }
  ],
  "Tırgan (Traghan)": [
@@ -607,7 +607,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Fizan' — https://islamansiklopedisi.org.tr/fizan",
    "alinti": "Kânim hükümdarları burayı Trâgen’de oturan bir hâkim vasıtasıyla idare ettiler.",
    "oneri": {},
-   "not": "YER TANIKLIĞI (Trâgen = Tırgan): Kânim kontrolü, yılsız (1190 sonrası 'bir müddet sonra'). ÇELİŞKİ: 'XVI. yüzyıl başlarındaki Bornu-Kânim savaşlarının ardından hâkimiyet Fas asıllı Evlâd-ı Muhammed sülâlesine geçti' (yüzyıl düzeyi) → Kânim t=1577 değil, 16. yy başı; 1551'de Trablusgarp alınınca Fizan sancak teşkil edildi. Yıl öneri yazılmadı."
+   "not": "KARAR EMRELİC (gece-55): TDV 1838 (otorite) ve 1842 (kaza); atlas 1835 dayanaksız. Fizan 1912–30: İtalyan fiilî giriş günü yer yer (Gât kararı). | YER TANIKLIĞI (Trâgen = Tırgan): Kânim kontrolü, yılsız (1190 sonrası 'bir müddet sonra'). ÇELİŞKİ: 'XVI. yüzyıl başlarındaki Bornu-Kânim savaşlarının ardından hâkimiyet Fas asıllı Evlâd-ı Muhammed sülâlesine geçti' (yüzyıl düzeyi) → Kânim t=1577 değil, 16. yy başı; 1551'de Trablusgarp alınınca Fizan sancak teşkil edildi. Yıl öneri yazılmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:456",
@@ -620,7 +620,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Fizan' — https://islamansiklopedisi.org.tr/fizan",
    "alinti": "Osmanlılar 1551’de Trablusgarp’ı ele geçirerek eyalet haline getirdiler ve Fizan da bu eyalete bağlı bir sancak",
    "oneri": {},
-   "not": "ADAY f: 1551 (yıl düzeyi; Fizan'ın sancak teşkil yılı ayrıca yazılmıyor, 'Trablusgarp'ı ele geçirerek ... Fizan da ... sancak olarak teşkilâtlandırıldı'). Atlas f=1577 (kronoloji 'Fizan sancağının bağlanışı'). Tahrir ölçütü: sancağa bağlandı = s/d; ama 'evlâd-ı Muhammed bağımsızlığını korumak için mücadele etti; vergi şartıyla iç işlerinde serbest' → fiilî Osmanlı idaresi sınırlı (beyan). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-55): TDV 1838 (otorite) ve 1842 (kaza); atlas 1835 dayanaksız. Fizan 1912–30: İtalyan fiilî giriş günü yer yer (Gât kararı). | ADAY f: 1551 (yıl düzeyi; Fizan'ın sancak teşkil yılı ayrıca yazılmıyor, 'Trablusgarp'ı ele geçirerek ... Fizan da ... sancak olarak teşkilâtlandırıldı'). Atlas f=1577 (kronoloji 'Fizan sancağının bağlanışı'). Tahrir ölçütü: sancağa bağlandı = s/d; ama 'evlâd-ı Muhammed bağımsızlığını korumak için mücadele etti; vergi şartıyla iç işlerinde serbest' → fiilî Osmanlı idaresi sınırlı (beyan). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:456",
@@ -646,7 +646,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Fizan' — https://islamansiklopedisi.org.tr/fizan",
    "alinti": "Fizan’da Osmanlı otoritesinin yeniden tesisi, 1838’de tayin edilen Aşkar Ali Paşa ile mümkün oldu",
    "oneri": {},
-   "not": "ADAYLAR (seçilmedi): 1838 (otorite yeniden tesisi) · 1842 ('Trablusgarp’a bağlı bir kaza haline getirildi (1842)', merkez Merzûk; 1860'larda sancak). Atlas f=1835-05-26 Karamanlı sonu, Fizan'ı 1831'de evlâd-ı Süleyman ele geçirmişti → 1835-1842 arası Osmanlı idaresi fiilî değil. Tahrir/idare ölçütü en güçlü belge: kaza teşkili 1842. Gât 1875 katılış (kaza). t=1912-10-18 → #149. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-55): TDV 1838 (otorite) ve 1842 (kaza); atlas 1835 dayanaksız. Fizan 1912–30: İtalyan fiilî giriş günü yer yer (Gât kararı). | ADAYLAR (seçilmedi): 1838 (otorite yeniden tesisi) · 1842 ('Trablusgarp’a bağlı bir kaza haline getirildi (1842)', merkez Merzûk; 1860'larda sancak). Atlas f=1835-05-26 Karamanlı sonu, Fizan'ı 1831'de evlâd-ı Süleyman ele geçirmişti → 1835-1842 arası Osmanlı idaresi fiilî değil. Tahrir/idare ölçütü en güçlü belge: kaza teşkili 1842. Gât 1875 katılış (kaza). t=1912-10-18 → #149. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:456",
@@ -659,7 +659,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, 'Fizan' — https://islamansiklopedisi.org.tr/fizan",
    "alinti": "İtalyanlar Fizan’a ancak Ağustos 1914’te girebildiler; fakat ... geri çekilmek zorunda kaldılar.",
    "oneri": {},
-   "not": "ÇELİŞKİ/TEK ÖLÇÜ: TDV Uşi Antlaşması'nı '19 Ekim 1912' verir (atlas 1912-10-18, Trablusgarp maddesi zincirde); TDV: 'Osmanlı hâkimiyeti sona erdi' ama İtalyanlar Fizan'a ancak Ağustos 1914'te girebildi, Senûsî direnişi ve Savaş yüzünden çekildi; 1930'da Graziani komutasında yeniden işgal; 'Fizan 1942’ye kadar İtalyan idaresinde'. De jure devir 1912 (Emre F8) ama fiilî yönetim yok → TEK ÖLÇÜT teslim günü = 1930 (yıl); 1912-1930 arası Fizan'da isg/Senûsî-yerel idare sorusu LAB'a. t=1943-01-23 bu cümlede yok (TDV 1942)."
+   "not": "KARAR EMRELİC (gece-55): TDV 1838 (otorite) ve 1842 (kaza); atlas 1835 dayanaksız. Fizan 1912–30: İtalyan fiilî giriş günü yer yer (Gât kararı). | ÇELİŞKİ/TEK ÖLÇÜ: TDV Uşi Antlaşması'nı '19 Ekim 1912' verir (atlas 1912-10-18, Trablusgarp maddesi zincirde); TDV: 'Osmanlı hâkimiyeti sona erdi' ama İtalyanlar Fizan'a ancak Ağustos 1914'te girebildi, Senûsî direnişi ve Savaş yüzünden çekildi; 1930'da Graziani komutasında yeniden işgal; 'Fizan 1942’ye kadar İtalyan idaresinde'. De jure devir 1912 (Emre F8) ama fiilî yönetim yok → TEK ÖLÇÜT teslim günü = 1930 (yıl); 1912-1930 arası Fizan'da isg/Senûsî-yerel idare sorusu LAB'a. t=1943-01-23 bu cümlede yok (TDV 1942)."
   }
  ]
 }
