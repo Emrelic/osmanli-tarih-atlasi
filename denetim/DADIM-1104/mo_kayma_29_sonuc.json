@@ -1,0 +1,267 @@
+{
+ "tur": "MO-KAYMA-29 kural uygulaması",
+ "kaynak_tsv": "origin/emrelic-1104-l2:denetim/KRONOLOJI-1104/MO-KAYMA-29.tsv",
+ "kayitlar": [
+  {
+   "dosya_satir": "data/devletler.js:19117",
+   "kayit": "IV. Antiokhos Mısır'a girdi (VI. Suriye Savaşı, MÖ",
+   "eski": "-0169-01-01",
+   "yeni": "-0168-01-01",
+   "metin": "MÖ 169",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/devletler.js:19200",
+   "kayit": "Ur-Nammu'nun ölümünün ardından oğlu Şulgi tahta çı",
+   "eski": "-2094-01-01",
+   "yeni": "-2093-01-01",
+   "metin": "MÖ ~2094-2047",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/devletler.js:20581",
+   "kayit": "magadha",
+   "eski": "-0543-01-01",
+   "yeni": "-0542-01-01",
+   "metin": "MO 543-491; MO 343-321; MO 321",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/devletler.js:28661",
+   "kayit": "xi-wei-krallik",
+   "eski": "-0205-01-01",
+   "yeni": "-0204-01-01",
+   "metin": "MÖ 205",
+   "hukum": "INCELE",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1). UYARI: künye t '-0204-01-01'; f '-0205' → '-0204' yapılırsa dönem SIFIR UZUNLUK olur. Kaynak MÖ 205'te kuruluş ve yıkılış (Wei Bao) veriyorsa doğru temsil f '-0204-01-01', t '-0203-01-01' (MÖ 204 başı) ya da ay hassasiyeti; KASA kaynağa bakıp karar verir."
+  },
+  {
+   "dosya_satir": "data/devletler.js:28678",
+   "kayit": "linjiang-krallik",
+   "eski": "-0205-01-01",
+   "yeni": "-0204-01-01",
+   "metin": "MÖ 205; MÖ 203; MÖ 202; MÖ 202",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1). t '-0201-01-01' MÖ 202 sonu ile tutarlı; yalnız f kayar."
+  },
+  {
+   "dosya_satir": "data/devletler.js:28683",
+   "kayit": "yan-krallik-chuhan",
+   "eski": "-0205-01-01",
+   "yeni": "-0204-01-01",
+   "metin": "MÖ 205; MÖ 202; MÖ 202; MÖ 202",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1). t '-0201-01-01' MÖ 202 sonu ile tutarlı; yalnız f kayar."
+  },
+  {
+   "dosya_satir": "data/devletler.js:28959",
+   "kayit": "Pompeius'un Kafkas seferinde Albania Kralı Oroezes",
+   "eski": "-0065-01-01",
+   "yeni": "-0064-01-01",
+   "metin": "MÖ 65",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/devletler.js:28952 (künye başı; f alanı sonraki satırlarda)",
+   "kayit": "kafkas-arnavutlugu-krallik",
+   "eski": "-0065-01-01",
+   "yeni": "-0064-01-01",
+   "metin": "MÖ 65; MÖ 2; MÖ 331; MÖ 65",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/kronoloji_cok_hollanda.js:374",
+   "kayit": "Caesar Sabis'te Belgae'yi yendi — Gallia Belgica'n",
+   "eski": "-0057-01-01",
+   "yeni": "-0056-01-01",
+   "metin": "MÖ 57; MÖ 57; MÖ 51",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/kronoloji_sinir_benelux.js:6",
+   "kayit": "Tongeren'de Tungri civitas'ı kuruldu (Atuatuca Tun",
+   "eski": "-0015-01-01",
+   "yeni": "-0014-01-01",
+   "metin": "MÖ 15; MÖ 15",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/kronoloji_sinir_benelux.js:7",
+   "kayit": "Nijmegen'de Hunerberg ordugâhı kuruldu",
+   "eski": "-0019-01-01",
+   "yeni": "-0018-01-01",
+   "metin": "MÖ 19; MÖ 19",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/kronoloji_sinir_zincir_avrupa_h.js:14",
+   "kayit": "Leontinoi'de iç çekişme: kent boşaldı, halk Syrako",
+   "eski": "-0422-01-01",
+   "yeni": "-0421-01-01",
+   "metin": "MÖ 422; MÖ 422",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/kronoloji_sinir_zincir_avrupa_h.js:20",
+   "kayit": "Selinous (Selinunte), Megara Hyblaia kolonistlerin",
+   "eski": "-0627-01-01",
+   "yeni": "-0626-01-01",
+   "metin": "MÖ 627; MÖ 650; MÖ 650; MÖ 627",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_k12.js:19317",
+   "kayit": "",
+   "eski": "-0071-01-01",
+   "yeni": "-0070-01-01",
+   "metin": "MÖ 71",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_k3_g1.js:2355",
+   "kayit": "",
+   "eski": "-0064-01-01",
+   "yeni": "-0063-01-01",
+   "metin": "MÖ 64",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_k3_g1.js:4267",
+   "kayit": "",
+   "eski": "-0167-01-01",
+   "yeni": "-0166-01-01",
+   "metin": "MÖ 167-148; MÖ 149-148",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_osm.js:5963",
+   "kayit": "",
+   "eski": "-1200-01-01",
+   "yeni": "-1199-01-01",
+   "metin": "MÖ 1200",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_osm.js:7104",
+   "kayit": "",
+   "eski": "-0167-01-01",
+   "yeni": "-0166-01-01",
+   "metin": "MÖ 167; MÖ 148; MÖ 167–148",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_osm.js:9480",
+   "kayit": "",
+   "eski": "-0064-01-01",
+   "yeni": "-0063-01-01",
+   "metin": "MÖ 64",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_osm.js:31674",
+   "kayit": "",
+   "eski": "-0167-01-01",
+   "yeni": "-0166-01-01",
+   "metin": "MÖ 167-148; MÖ 149-148",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_osm.js:35615",
+   "kayit": "",
+   "eski": "-0167-01-01",
+   "yeni": "-0166-01-01",
+   "metin": "MÖ 167-148; MÖ 149-148",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/sehir_tarihce_osm.js:36879",
+   "kayit": "",
+   "eski": "-0255-01-01",
+   "yeni": "-0254-01-01",
+   "metin": "MÖ 255",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:391",
+   "kayit": "",
+   "eski": "-0019-01-01",
+   "yeni": "-0018-01-01",
+   "metin": "MÖ 19",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:420",
+   "kayit": "",
+   "eski": "-0015-01-01",
+   "yeni": "-0014-01-01",
+   "metin": "MÖ 15",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:221",
+   "kayit": "Dînever",
+   "eski": "-0305-01-01",
+   "yeni": "-0304-01-01",
+   "metin": "MÖ 305-64",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:304",
+   "kayit": "",
+   "eski": "-0329-01-01",
+   "yeni": "-0328-01-01",
+   "metin": "MÖ 334; MÖ 329",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:396",
+   "kayit": "",
+   "eski": "-0422-01-01",
+   "yeni": "-0421-01-01",
+   "metin": "MÖ 729; MÖ 422",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:408",
+   "kayit": "",
+   "eski": "-0627-01-01",
+   "yeni": "-0626-01-01",
+   "metin": "MÖ 627; MÖ 650; MÖ 409",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  },
+  {
+   "dosya_satir": "data/yollar_cin.js:9",
+   "kayit": "cn-qin-chidao",
+   "eski": "-0220-01-01",
+   "yeni": "-0219-01-01",
+   "metin": "MÖ 220; MÖ 210",
+   "hukum": "KURAL_UYGULAMASI",
+   "not": "Astronomik yıl (VERI-YAPISI §304): MÖ n = -(n-1)."
+  }
+ ]
+}

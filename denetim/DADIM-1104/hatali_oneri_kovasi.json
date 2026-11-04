@@ -6506,6 +6506,34 @@
    "not": "YÜKSELTME TURU (CELISKI): TDV Hive Hanligi: 'Nadir Sah, 1747'de oldurulmesine kadar Hive'yi kendi tayin ettigi valilerle idare etmeye calisti' (1747, valiler = idareye katma isareti) ile Bregel (mughallibrary.com/maps/380, ikincil aktarim): 'Nadir Shah left Khorezm after installing as khan a relative of the Bukharan Ashtarkhanids'; 1745'te yalniz Turkmen isyani icin asker. TDV'ye gore idare 1747'ye kadar, Bregel'e gore Nadir 1740'ta ayrildi. isg/s karari ve bitis (1740/1747) EMRELIC'in. ÖLÇÜT: geçici/askerî ya da idareye katma belgesi: TDV 'valilerle idare' bunu destekler, o halde s afsar da olabilir. | ESKI HUKUM (gece-14 oncesi, ikinci-kaynak olcutu): ONERI · YÜKSELTME TURU (ONERI): isg niteligi destekleniyor (kendi idaresine katmadi, han tayin etti; OLCUT: gecici/askeri) ama t=1747 teyitsiz: Bregel'e gore Nadir 1740'ta Harzem'den ayrildi, 1745'te asker gonderdi. Fiili bitis 1740/41 olabilir. Kismi teyit. · Kaynak fiili 'işgal etti' ve 'idare etmeye çalıştı' diyor, ilhak/devir yok; TEK KURAL → isg: aday (altında s: hive sürer). Karar KASA'nın (valilerle idare = idareye katılma sayılırsa s: kalır). Ayrıca 1740 sonlarında Küçük Orda Kazak Hanı Ebü'l-Hayr kısa süre Hîve'yi işgal etti. Uçlar YIL: 1740, 1747 (Gāib istiklâlini 1747'de ilân etti)."
   },
   {
+   "ad": "Tancûr (Thanjavur)",
+   "dosya_satir": "data/yerlesimler_asya.js:1507",
+   "alan": "s",
+   "d": "nayak-devletleri",
+   "f": "1532-01-01",
+   "t": "1676-01-01",
+   "oneri": {},
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
+   "kaynak2": "Burton Stein, Vijayanagara (The New Cambridge History of India I.2), Cambridge University Press 1989 (archive.org: the-new-cambridge-history-of-india-volume-1-part-2); ayrıca Richards, The Mughal Empire (NCHI I.5) 1993",
+   "alinti2": "their successors, the nayaka kings of Tanjavur (1530-1680) and of the Maratha Rajas of Tanjavur (1680-1800). || Chellappa ceased sending tribute and threatened the entire kingdom by his revolt in 1531.",
+   "not": "YÜKSELTME TURU (CELISKI): Atlas f 1532 / t 1676; Stein (modern, NCHI) Tanjavur Nayaklarını 1530-1680, Maratha Rajalarını 1680-1800 verir. IGI ('16. yy'da general bağımsız oldu') yalnız yüzyıl. Fark: f 2 yıl (1530 vs 1532), t 4 yıl (1680 vs 1676). Stein parantez içi yuvarlak aralık veriyor, gün/olay tarihi değil; Richards (NCHI I.5): Vyankoji Bhonsla 1677 sıralarında 'carved out a kingdom around Tanjore' (Maratha hanedanının Tancur'a gelişi 1670'ler). Öneri DEĞİŞTİRİLMEDİ; karar EMRELİC'in (tancur-maratha f 1676 komşu satır ayrıca bakılmalı). IGI ile modern çelişirse modern esas kuralı: aday f 1530 yıl, t 1680 yıl — olay/gün kaynağı (Stein dipnotları, Cambridge Core) tarayicida aranmalı. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · IGI: 16. yy'da Vijayanagar generallerinden biri bağımsız oldu, 17. yy başında halef devleti kurdu (Tancur Nayakları). 1532 ucu kaynakta yok; yalnız yüzyıl düzeyi. IGI ilgili cümlesi 'early part of the seventeenth century' ile bitiyor (devamı okunmadı)."
+  },
+  {
+   "ad": "Mandu (Mândû)",
+   "dosya_satir": "data/yerlesimler_asya.js:835",
+   "alan": "s",
+   "d": "racput",
+   "f": "1281-01-01",
+   "t": "1305-01-01",
+   "oneri": {
+    "t": "1304 (YIL; gün yok)"
+   },
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Mâlvâ», https://islamansiklopedisi.org.tr/malva · Cambridge History of India, III (Turks and Afghans, ed. W. Haig), ch. «Conquest of Malwa», archive.org cambridgehistory03raps",
+   "alinti2": "TDV: «Mâlvâ’nın fethi 1305’te Sultan Alâeddin Halacî devrinde gerçekleşmiştir.» CHI III: «made the Muslims masters of Ujjain, Mandu, Dhar, and Chanderi» (aynı bölümde: «appointed, in 1305, governor of the Punjab ... ‘Ain-ul-Mulk, governor of Multan, was sent on an expedition to Jalor and to Ujjain and Chanderi»)",
+   "not": "YÜKSELTME TURU (CELISKI): ÖNERİ (t=1304) IGI'ya dayanıyor; iki modern kaynak 1305 diyor (TDV doğrudan yıl; CHI III Ain-ül-Mülk seferini 1305 bağlamında anlatır, zafer '9 Aralık' — yıl o cümlede açık değil, bağlamdan 1305). Atlasın mevcut t=1305-01-01'i yıl düzeyinde TDV ile uyumlu; öneri DEĞİŞTİRİLMEDİ, karar EMRELİC'in. CHI III'e göre Mândû'nun alınışı 1305 Aralık'ına düşer; atlasın 01-01'i yıl başı yaklaşıklığıdır (gün teyitsiz). Komşu öneri (delhi f 1304) de bu yüzden düşer. IGI 1304 – modern 1305 çelişkisi ic_not'a: modern esas. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (IGI 1908 vol. XVII «Mandu (or Mandogarh)», ham metin yeniden okundu). uc=t: Racput sahipliğinin sonu = Ayn-ül-Mülk'ün Mândû'yu alışı (1304). [yalnız yıl teyitli]. IGI alanı 'Muhammadan' diye anar, Delhi adını vermez; Ayn-ül-Mülk Mültânî Delhi sultanlarının hizmetindeki komutandır (TDV Aynülmülk Mültânî: 'Delhi sultanlarının hizmetinde ... Mândû seferlerine katıldı', yıl yok) — devlet bağı TDV'den, yıl IGI'dan. KOMŞU: sonraki satırın f'si (delhi-sultanligi 1305-01-01) 1304-01-01'e birlikte taşınmalı. Racput künyesi f 1000/t 1947, delhi künyesi f 1206 günü kapsıyor. · YÜKSELTME TURU (ONERI): Bakılan: genel web; Mândû'nun 1304/1305 alımı için ikinci kaynak bulunamadı. · Racput→Delhi: IGI 1304'te Ayn-ül-mülk Mândû'yu aldı der; atlas 1305-01-01. YIL düzeyinde 1 yıl fark. Racput'un 1281 açılışı kaynakta yok."
+  },
+  {
    "ad": "Mandu (Mândû)",
    "dosya_satir": "data/yerlesimler_asya.js:835",
    "alan": "s",
@@ -7318,6 +7346,23 @@
    "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ: öneri safevi f=1597 (Lur-ı Küçük hânedanının sonu, TDV 'Lur-ı Kûçek hânedanı zamanına (1184-1597)'); TDV'nin Luristan'ın Safevî'ye BAĞLANIŞ için verdiği tarih 1603 ('tam olarak', YIL), ve arada 998/1590 İstanbul antlaşmasıyla Osmanlı idaresi vardır (atlasta 1590-1603 Osmanlı katmanı yok). 1597 yalnız hânedanın ucudur (künye lur-i-kucek t=1597 ile uyumlu), Safevî idaresinin başlangıcını tarihlemez. Öneri DEĞİŞTİRİLMEDİ; EMRELİC: safevi f 1597 (hânedan sonu, beyanlı yaklaşıklık) mı 1603 (TDV 'tam olarak bağladı') mı, ve 1590-1603 Osmanlı dilimi eklensin mi. Safevî künyesi f 1501-07-01 → 1597/1603 hayalet değil. Takvim: 998 H = 1589-11/1590-10 YIL; TDV 1590 diyor. · ÇELİŞKİ: TDV Lur-ı Küçük hânedanını 1184-1597 (YIL) verir ve atabegliklerin 'Safevîler dönemine kadar varlıklarını korudu'ğunu; 998/1590 İstanbul antlaşmasıyla Osmanlı idaresine bağlanan Luristan'ı Şah I. Abbas'ın 1603'te Safevîlere 'tam olarak' bağladığını söyler. Atlas lur-i-kucek t=1508 ve safevi f=1508; TDV'ye göre Lur-ı Küçük hânedanı 1597'ye dek sürer (1508-1597 Safevî üst egemenliği tarihsiz). 1603 'tam bağlanma' = kaynak ucu. Hangisinin uç olduğuna karar verilmedi: önerilen f 1597 YIL (Lur-ı Küçük t), alternatif 1603 YIL. ÖLÇÜT: idareye katma — 'tam olarak bağladı (1603)'."
   },
   {
+   "ad": "Kannauc",
+   "dosya_satir": "data/yerlesimler_asya.js:305",
+   "alan": "s",
+   "d": "cavnpur-sultanligi",
+   "f": "1394-01-01",
+   "t": "1479-01-01",
+   "oneri": {
+    "f": "1407-01-01",
+    "t": "1479-01-01",
+    "d": "cavnpur-sultanligi"
+   },
+   "kaynak": "IGI Vol. XIV «Jaunpur District» (aynı)",
+   "kaynak2": "Syed Ejaj Hussain, The Jaunpur Sultanate (Shiraz-i Hind), akademik monografi, bölüm 'The Rise of the Jaunpur Sultanate' / 'Consolidation of the Sharqi Kingdom', https://archive.org/details/hussain.-syed-ejaj-siraj-i-hind (djvu metni); ayrıca Awadh Bihari Pandey, The First Afghan Empire in India (1451-1526 A.D.), 1956, kronoloji eki, https://archive.org/details/the-first-afghan-empire-in-india-1451-1526-a.d.",
+   "alinti2": "[Malik Sarwar d. Rabi I 802/Nov 1399 sonrası sınır:] On the west it spread from Qannauj to Bhojpur in Bihar. // Sultan Mahmud attacked and captured Qannauj, which was then under the Sharqi rule. Prince Fath Khan Harawi, the Sharqi governor of Qannauj was expelled. But this was only a temporary occupation of Qannauj ... Ibrahim Shah recaptured Qannauj after a siege of four months by the end of 1406.",
+   "not": "YÜKSELTME TURU (CELISKI): ÖNERİ (f 1394→1407, yani 1394-1407 Kanauj=Delhi) MODERN KAYNAKLA ÇELİŞİR. IGI tarafı: 'In 1407 Ibrahim ... took Kanauj' (IGI Jaunpur). Hussain (modern monografi): (a) Sarwar Mayıs 1394'te Qannauj'dan Bihar'a uzanan eyalete atandı, Qannauj isyancılarını bastırdı, 1399'a dek sınır Qannauj'dan Bhojpur'a; (b) İbrahim Şah (1402-) devrinde Qannauj Şarkî idaresinde ve Şarkî valisi Fath Khan Harawi'ydi; Mahmud Tughluq 'geçici işgal' etti (yıl yok, Mallu Iqbal 1405 ölümünden önce), İbrahim 1406 sonunda (4 ay kuşatma) geri aldı; 1407 İbrahim'in Delhi yürüyüşüdür (Sambhal, Baran), Kanauj'un ilk alınışı DEĞİL. Yani mevcut atlas f=1394 (Pandey: 1394 Şarkî krallığının kuruluşu) Hussain ile tutarlı; öneri f=1407 yanlış okunmuş IGI cümlesine dayanıyor ('took Kanauj' = geri alma). Karar EMRELİC'indir; ayrıca Delhi'nin t 1394→1407 uzatılması önerisi de buna bağlı olarak düşer. Küçük ayrıntı: ~1402-1406 geçici Delhi işgali (Mahmud Tughluq) ayrı kısa dilim olabilir, yıl kaynakta yok → beyan. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (Imperial Gazetteer of India XIV, «Kanauj Town»/«Jaunpur District»; alıntıda 'In 1407 Ibrahim ... took Kanauj' YIL). f=1407-01-01 [yalnız yıl teyitli; 1908 IGI = erken 20. yy kaynağı]. UYARI: 1394-1407 dilimi için komşu satır delhi-sultanligi t 1394→1407 uzatılmalı (IGI Kanauj'u 1394'te Delhi valisine verilmiş gösterir; IGI'de 1394-1407 arası Kanauj sahibi için tek cümle yok → beyanlı yaklaşıklık). t=1479 değişmiyor (öneri de değiştirmiyor); 1477 Husain Şah'ın Kanauj'a kaçışı IGI Jaunpur'da var, kesin Delhi'ye geçiş yılı okunmadı. Cavnpur künyesi 1394-1483 içinde → hayalet değil. · 1394'te Kanauj Khwaja-i-Jahan'ın (Delhi valisi) idaresine verilmişti; bağımsızlık sonrası Kanauj Ibrahim Shah tarafından 1407 (YIL) alındı → Cavnpur'un Kanauj'daki başlangıcı 1407 olmalı; 1394-1407 Delhi (Mahmud b. Firuz Tughlak bir süre Kanauj'da oturdu: IGI Kanauj Town, tarihsiz). IGI Kanauj Town: 'In the fifteenth century it was included for some years in the Sharki kingdom of Jaunpur' ('for some years' = kesintili); Jama Masjid 1406 (Ibrahim Shah). t=1479: IGI Jaunpur 1477'de Husain Shah Kanauj'a kaçtı ve orada yenildi (YIL); kesin Delhi'ye geçiş yılı okunmadı. ÖLÇÜT: idareye katma — Ibrahim Shah'ın 1407 fethi + cami inşası."
+  },
+  {
    "ad": "Anapa",
    "dosya_satir": "data/yerlesimler.js:735",
    "alan": "s",
@@ -7784,6 +7829,19 @@
    "not": "YÜKSELTME TURU (CELISKI): f için aynı çelişki (1638 Gazetteer / 1649 mevcut). t 1677: Gazetteer 'In 1677' (yıl); mevcut 1677-05-01 gün düzeyi ayrıca başka kaynaklı olmalı. Karar EMRELİC. · ÖLÇÜT: idareye katma belgesi (vergi/defter) okunmadı; Bijapur kalesi aldı ve 'Karnatik Balaghat' idaresinde tuttu varsayımı Gazetteer'de açık değil. f için çelişki yukarıda. t 1677: 'In 1677 the fort fell to Sivaji by stratagem' (YIL)."
   },
   {
+   "ad": "Cinci (Gingee)",
+   "dosya_satir": "data/yerlesimler_asya.js:1543",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1750-09-11",
+   "t": "1761-04-05",
+   "oneri": {},
+   "kaynak": "Imperial Gazetteer of India, Provincial Series / Vol. XII (1908), 'Gingee (Gingi)' s.242-245 — archive.org/details/the-imperial-gazetteer-of-india-volume-12 [1908 kaynağı]",
+   "kaynak2": "The Cambridge History of India, vol. V (British India, 1497-1858), Cambridge 1929, ch. VI «Dupleix and Bussy» (A. Martineau) ve ch. VIII (Dodwell) (archive.org: cambridgehistory035098mbp)",
+   "alinti2": "The capture of Jinji, thought impregnable but which Bussy took by a brilliant feat of arms, 12 September, 1750, profoundly disquieted him. || Jinji surrendered after some weeks of blockade",
+   "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ yalnız GÜN: atlas f 1750-09-11, CHI V 12 Eylül 1750 (gece baskını 11/12 Eylül olabilir; CHI 12'yi yazıyor). YIL 1750 her iki kaynakta aynı. Öneri değiştirilmedi; karar EMRELİC'in (aday f 1750-09-12; CHI V esas kuralı). t: CHI V Pondichéry'nin 16 Ocak 1761'de teslim olduğunu, ardından 'Jinji surrendered after some weeks of blockade' dediğini yazar → t YIL 1761 teyitli, 04-05 günü kaynakta yok ([yalnız yıl teyitli]). ÖLÇÜT UYARISI: CHI V 'Dupleix had occupied ... Jinji' (Fransız askerî işgali; idareye katma belgesi okunmadı) — s: mi isg mi KASA/EMRELİC. Bulunan: Fransızlar 'Jinji, Pondichery ve Karikal'e indirilmişti (Mart 1760). · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · 1750 YIL, 'eleven years' → 1761 (YIL); 09-11 ve 04-05 günleri kaynaksız. ÖLÇÜT UYARISI: Gazetteer yalnız 'garrison' (askerî garnizon) der; Fransa'nın Gingee'yi kendi idaresine kattığına (vergi/defter) dair belge okunmadı → ÖLÇÜT: geçici/askerî olabilir (isg yerine s: yazımı belgesiz). KASA kararı."
+  },
+  {
    "ad": "Şerur (Sharur)",
    "dosya_satir": "data/yerlesimler_kalite4.js:59",
    "alan": "s",
@@ -8050,6 +8108,36 @@
    "kaynak2": "TDV İslâm Ansiklopedisi 'Van' (islamansiklopedisi.org.tr/van) - ham metin okundu; karşı taraf: atlas satırındaki mevcut kaynak (Karataş 2025 + TDV irakeyn-seferi, veri dosyasından, bu turda yeniden okunmadı)",
    "alinti2": "Osmanlı kuvvetlerinin çekilmesiyle Şah Tahmasb Erciş ve Van’ı geri aldı ... 1536 yılı başında gerçekleşen bu olayın ardından Van’da Safevî idaresi yeniden kuruldu.",
    "not": "YÜKSELTME TURU (CELISKI): Taraf 1 (TDV Van, okundu): Safevî idaresi Van'da 1536 başı yeniden kuruldu (Erciş'in geri alınışı Osmanlı çekilişine bağlı, yılı aynı cümlede 1536 başı olarak okunuyor). Taraf 2 (atlas kaynak alanı, yeniden okunmadı): \"Karataş 2025: Van/Erciş'in Safevîye dönüşü 22 Eylül 1535\" (TDV irakeyn-seferi Ahlat 23 Eylül 1535 ile uyumlu). Gün hassasiyeti Karataş'ta var, TDV yalnız ay-yıl (\"1536 başı\"); iki akademik kaynak yıl düzeyinde farklı (1535 / 1536). Öneriyi DEĞİŞTİRME, karar EMRELİC. TDV'nin \"1536 başı\" ifadesi idare kuruluşunu (muhafız atanması) tarihliyor olabilir, geri alış günü değil. · ÇELİŞKİ mevcut satırla: atlas Osmanlı 1534-06-23→1535-09-22, Safevî 1535-09-22→1548-08-24. TDV van: Osmanlı çekilince Tahmasb Erciş ve Van'ı geri aldı; 'Van’da Safevî idaresi 1536 başı yeniden kuruldu'. 1535-09-22 günü TDV van'da yok. Osmanlı kalış süresi uzayabilir (BEYANLI YAKLAŞIKLIK, ÇELİŞKİ)."
+  },
+  {
+   "ad": "Uccayn (Ujjain)",
+   "dosya_satir": "data/yerlesimler_asya.js:844",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1561-03-29",
+   "t": "1732-01-01",
+   "oneri": {
+    "t": "1750-01-01"
+   },
+   "kaynak": "Imperial Gazetteer of India vol. XXIV (1908), 'Ujjain Town' (archive.org: imperialgazettee24grea) [20. yy başı kaynak]",
+   "kaynak2": "J. S. Grewal, The Sikhs of the Punjab (The New Cambridge History of India II.3), Cambridge University Press 1990 (archive.org: the-new-cambridge-history-of-india-volume-2-part-3)",
+   "alinti2": "Before Nadir Shah invaded India in 1738-1739 the Marathas had subjugated Gujarat and Malwa and extended their sway up to the river Chambal in Rajasthan.",
+   "not": "YÜKSELTME TURU (CELISKI): IGI (oneri t ~1750: 1743 Peşva naib-vali Babür atamalı, ~1750 Sindhia) ile modern kaynak çelişir: Grewal (NCHI) Marathaların Malwa'yı 1738-39'dan ÖNCE 'subjugated' ettiğini yazar; ekli kronolojide 'occupation of Malwa by the Marathas' maddesi vardır (yıl sütunu OCR'de ayrışmış, ~1730'lar; güvenilir okunamadı). Fark: askerî egemenlik (Grewal) ile Babür atamalı naib-valilik (IGI 1743, resmî devir 1752 başka kaynakta). Öneri DEĞİŞTİRİLMEDİ; karar EMRELİC'in. Ayrıca atlas t 1732-01-01 mevcut değerinin de Grewal'la (1730'lar) uyumlu görünmesi mümkün — yani IGI'nin 1750'si atlas mevcut tarihini 'kötüleştiriyor' olabilir. tarayici_gerekli: Gordon, The Marathas 1600-1818 (NCHI II.4), archive.org marathas160018180000gord (ödünç 401) — Malwa 1731-41 Peşva fethi ve 1741 Babür tanıması. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. IG 1733 Jai Singh ve 1743 Peşva'yı Babür atamalı vali/naib-vali olarak verir; Babür t'si 'yaklaşık 1750'. Bağlı: sonraki maratha satırı f aynı 1750-01-01 olmalı (çakışma/boşluk yok). Peşva'nın 1741-43 fiilî nüfuzu ve 1752 resmî devir başka kaynaklarda aranmadı; çelişki olursa EMRELİC. · YIL düzeyi, 'about 1750' (yaklaşık). IG: 1562 Akbar (Malwa Subası merkezi), 1733 Sawai Jai Singh vali, 1743 Peşva naib-vali (Mughal atamalı: hâlâ Babür egemenliği), ~1750 Sindhia. Atlas 'maratha 1732' IG ile çelişir. ÖLÇÜT: idareye katma — IG 'passed to Sindhia'."
+  },
+  {
+   "ad": "Uccayn (Ujjain)",
+   "dosya_satir": "data/yerlesimler_asya.js:844",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1732-01-01",
+   "t": "1818-06-03",
+   "oneri": {
+    "f": "1750-01-01"
+   },
+   "kaynak": "Imperial Gazetteer of India vol. XXIV (1908), 'Ujjain Town' (archive.org: imperialgazettee24grea) [20. yy başı kaynak]",
+   "kaynak2": "J. S. Grewal, The Sikhs of the Punjab (The New Cambridge History of India II.3), Cambridge University Press 1990 (archive.org: the-new-cambridge-history-of-india-volume-2-part-3)",
+   "alinti2": "Before Nadir Shah invaded India in 1738-1739 the Marathas had subjugated Gujarat and Malwa and extended their sway up to the river Chambal in Rajasthan.",
+   "not": "YÜKSELTME TURU (CELISKI): Önceki satırla aynı çelişki (f ucu): oneri f 1750 (IGI 'about 1750') vs Grewal Malwa'nın 1738-39'dan önce Marathalarca 'subjugated' olması. Öneri değiştirilmedi; karar EMRELİC'in. 'maratha' vs 'gvalyar' künye sorusu da bekliyor. Sindhia'nın Ujjain'i 'finally' alışı IGI'de ~1750; modern ikinci kaynak okunamadı (Gordon ödünç kilitli). · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. KÜNYE SORUSU: IG sahibi 'Sindhia' diye adlandırır; atlasta gvalyar künyesi f 1731-01-01 (Sindiya hanedanı, hayalet değil) mevcut ve 1818-06-03'ten sonra zaten gvalyar. 1750-1818 için d: maratha (konfederasyon, t 1818-06-03) mı gvalyar mı kararı KASA/EMRELİC'indir; oneri d'yi değiştirmediği için maratha bırakıldı. t=1818-06-03 bu satırın konusu değil (IG'de yok). · Sindhia hanedanı = Gvalyar Devleti; IG 1810'a dek Ujjain Sindhia'nın başlıca şehri. 'maratha' ile 'gvalyar' künye seçimi (1750-1818 arası) KASA'da karara bağlanmalı; 1818-06-03 ucu IG'de yok."
   },
   {
    "ad": "Bacatá (Bogotá)",
