@@ -36,16 +36,18 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2E 1427-1438 (EMRELİC)
+    "L2-1882": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1883": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1884": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1885": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1887": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1879": "Poluohan Bailing: Wei shu c.9 olayı Zhengguang 5, 3. ay başlığına koyar; atlas 523-03-31 ZZTJ kaoyi'ye (四年冬) dayanır → çelişki ic_not'a iki kaynağıyla; karar gelmeden uygulanmaz (EMRELİC)",
+    "L2-1878": "Anagui 522: Wei shu 103'te 522'de yeniden kağan olma yok (521'de hâlâ Huaishuo'da asker istiyor) → metin BEKLE; tarih önerisi uygulanmaz (EMRELİC)",
+    # L2H 1271-1390 (HAVVA)
+    "L2-1804": "Sun Wu: atlasın 212'si dayanaksız; kuruluş 222 (Huang Wu ilanı) ya da 229 (Sun Quan imparator) → hangisi künye ucu karar (EMRELİC)",
     # L2S 627-638 (S22)
     "L2-1002": "Câm Nizâmeddin (Nindo) cülusu 1461-01-01 → 1461-10-15 adayı: Digby, JRAS 104/2 (1972) dn.27 «accepted date … a.h. 866» (hicrî ∩ 1461 = 10-15); Haig CHI III «succeeded in 1439» ile ÇELİŞKİ; TDV «Sind»'de cülus yok → üçüncü kaynak + öncül/ardıl çakışma kontrolü (ölüm 1508)",
-    # L2E 1439-1450 (EMRELİC): gün taşıyan ganzhi satırları Academia Sinica teyidine kadar
-    "L2-1889": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1890": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1891": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1892": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1893": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1894": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1895": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
     # L2H 1271-1342 (HAVVA)
     "L2-1766": "Hitit (Telipinu?) MÖ 1460 → MÖ 1525 (-1524) düşük güvenli aday: kaynaklar 1550-1525 arası ayrışıyor; konvansiyon Bryce 2005 (CLAUDE.md) — Bryce'tan madde olayı netleşmeden uygulanmaz",
     # L2S 591-602 (S19)
@@ -95,6 +97,15 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2E 1439-1450 (EMRELİC, Academia Sinica) + NAOJ (KASA SALI)
+    "L2-1889": "Takvim: Yongxi 3/7 丁未 = 534-08-21 ayrılış; 己酉 = 534-08-23 Gao Huan Luoyang'a girdi (Academia Sinica)",
+    "L2-1890": "Takvim: Yongxi 3/10 丙寅 = 534-11-08 (Academia Sinica); Doğu Wei Tianping 1/10 丙子 = 534-11-18 Ye'ye taşınma",
+    "L2-1891": "Takvim: Doğu Wei Tianping 1/11 庚寅 = 534-12-02 varış (Academia Sinica)",
+    "L2-1894": "Takvim: Yongxi 3 閏12 癸巳 = 535-02-03 Xiaowu'nun ölümü (Academia Sinica)",
+    "L2-1895": "Takvim: Senka 1/5/1 辛丑 = 536-06-05 Jülyen (NAOJ ECO; Çin takvimiyle de aynı, EMRELİC)",
+    "L2-1897": "Takvim: Liang Datong 5/8 乙酉 = 539-09-02 (Academia Sinica) — atlas yıl düzeyinde; sınıra bağlıysa gün yazılabilir",
+    "L2-1898": "Takvim: Doğu Wei Wuding 1/3 戊申 = 543-05-07 (Academia Sinica) — atlas yıl düzeyinde; sınıra bağlıysa gün yazılabilir",
+    "L2-621": "Takvim: Enryaku 13/11/8 丁丑 = 794-12-04 Jülyen (NAOJ ECO: 11/1 庚午 = 794-11-27)",
     # L2E 1391-1402 antik (EMRELİC, Academia Sinica; EŞLEŞİR)
     "L2-1846": "Takvim: Yongchu 1/6/14 丁卯 = 420-07-10 (Academia Sinica)",
     "L2-1853": "Takvim: Taiyan 3/11/13 甲申 = 437-12-25 (Academia Sinica)",
@@ -148,6 +159,12 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    # L2E 1439-1450 + L2H 1367-1390 (EMRELİC, Academia Sinica)
+    "L2-1892": ("tarih düzelt", "Batı Wei Wendi tahta çıkışı 535-01-01 → 535-02-18: Takvim: Datong 1/1/1 戊申 = 535-02-18 (Academia Sinica; Bei shi c.5); Xiaowu'nun ölümü Yongxi 3 閏12 癸巳 = 535-02-03 önce gelir → sıra düzelir"),
+    "L2-1893": ("tarih düzelt", "Batı Wei 535-01-01 → 535-02-18: Takvim: Datong 1/1/1 戊申 = 535-02-18 (Academia Sinica); kaynak Zhou shu 3 → Bei shi c.5"),
+    "L2-1821": ("tarih düzelt", "Jin Huaidi'nin öldürülmesi 313-01-01 → 313-03-14: Takvim: Yongjia 7/2/1 丁未 = 313-03-14 (Academia Sinica; o yıl 丁未 yalnız bu gün)"),
+    "L2-1838": ("tarih düzelt", "Tuoba Gui Dai Kralı 386-01-01 → 386-02-20: Takvim: Dengguo 1/1/6 戊申 = 386-02-20 (Academia Sinica)"),
+    "L2-1837": ("tarih düzelt", "386-01-01 → 387-01-06 + «[yalnız ay teyitli]»: Takvim: Taiyuan 11, 12. ay = 387-01-06…02-04 (Academia Sinica) — yıl sınırı kayar"),
     "L2-1010": ("tarih düzelt", "Cenova matbaası 1471-06-01 → 1471-02-20: noter senediyle ortaklık (Lamberto di Delft, Antonio di Anversa + üç hukukçu) — Staglieno, «Sui primordi dell'arte della stampa in Genova», Atti SLSP IX/III (19. yy belge neşri); modern kaynakla teyit önerilir → ic_not"),
     "L2-998": ("tarih düzelt", "Antonio da Noli Yeşilburun 1456 → 1460 (yıl): DBI «Antonio da Noli» (Pistarino 1961) — Noli 1460'ta Portekiz'e geldi, adalar «sulla fine del 1460» (olasılık beyanlı), kraliyet beratı 1462-09-19 → ic_not; «adaların ilk valisi» DBI'da yalnız Santiago kaptanlığı; Alvise da Mosto adaları önce görmüş olabilir → metin"),
     # L2H 1271-1342 (HAVVA) — antik kronoloji konvansiyonu (CLAUDE.md: Mısır Shaw 2000, Ur III Frayne RIME, Hitit Bryce 2005; MÖ n = -(n-1))
