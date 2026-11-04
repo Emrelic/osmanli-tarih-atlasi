@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 28 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
+"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 40 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
 "K501": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
@@ -11,10 +11,10 @@
 "K502": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Karviná (Fryštát) — Tešín plebisit bölgesi Müttefik komisyonu idaresi 1919-09-10 → 1920-07-28 (Büyükelçiler Konferansı paylaşımı), Çekoslovakya/Polonya arasında: gerçek ara statü.",
 "duzeltme": "Yok (uçlar kaynakla teyit).",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Oxford Companion to World War II, 'Teschen' — 'divided in July 1920 along the River Olse' (Oxford Reference, EMRELİC okuması — alıntı) (ay teyitli, gün yok)"
 },
 "K503": {
 "hukum": "GERCEK",
@@ -67,10 +67,10 @@
 "K509": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Cortina d'Ampezzo 1809-10-14 → 1814-04-16 'avusturya'; Schönbrunn (1809) sonrası Tirol Bavyera'ya, Ampezzo 1810'dan Napolyon İtalya Krallığı'na geçti. Koridor 'almanya' 9/9 (Tirol noktaları Bavyera yerine çatı 'almanya').",
 "duzeltme": "Cortina 1809-10-14 → bavyera, 1810 → italya-napolyon; Tirol noktaları 1806-1814 bavyera.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/tirolo/ — 1809 Viyana barışıyla Tirol Bavyera, İtalya Krallığı ve Fransız İmparatorluğu arasında bölündü; 1815 Viyana Kongresi ile geri (Ampezzo'nun hangi parçaya düştüğü KAYNAK-GEREK)"
 },
 "K510": {
 "hukum": "YAPAY",
@@ -123,10 +123,10 @@
 "K516": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Trento 1805-12-26 (Pressburg) → 1810 'bavyera', koridor 'almanya' 9/9: Pressburg ile Tirol bütünüyle Bavyera'ya geçti; kopukluk Tirol noktalarının çatı 'almanya' boyanmasından.",
 "duzeltme": "Tirol (İnnsbruck, Bozen…) 1805-12-26 → 1810 bavyera.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/tirolo/ — 'temporaneamente perduto dagli Asburgo a motivo della pace di Bratislava (1805) e di Vienna (1809) e diviso in tre tronconi attribuiti alla Baviera, al Regno d'Italia e all'Impero francese' (Trento 1803'te Avusturya'ya)"
 },
 "K517": {
 "hukum": "YAPAY",
@@ -163,10 +163,10 @@
 "K521": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Freiburg im Breisgau 1368 Habsburg satın alışı: Ön Avusturya (Vorderösterreich), Avusturya gövdesinden ayrı — gerçek. Bitiş 1548 kırılması şüpheli (Freiburg 1805'e dek Habsburg).",
-"duzeltme": "1548 kırılmasının kaynağı ölçülsün; gerçekse sürer.",
-"kaynak": "bulunamadı (model bilgisi)"
+"duzeltme": "1548 kırılması yanlış: Freiburg 1368 → 1805 avusturya (Ön Avusturya merkezi 1648'den).",
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/friburgo-in-brisgovia/ — 'nel 1368 passò agli Asburgo … divenne (nel 1648) capoluogo dell'Austria Anteriore (Vorderösterreich), restando tale fino al 1805'"
 },
 "K522": {
 "hukum": "YAPAY",
@@ -347,10 +347,10 @@
 "K544": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Malaka 1641-01-14 VOC zaptı → 1825 İngiltere'ye devir (1824 antlaşması): gerçek. 1795-1818 İngiliz işgali veride yok.",
 "duzeltme": "Malaka 1795-1818 ingiltere ara dönemi kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Oxford Reference — Malakka 'ceded to Britain in 1824' (Oxford Reference, EMRELİC okuması — alıntı); 1795-1818 İngiliz işgali okunmadı"
 },
 "K545": {
 "hukum": "GERCEK",
@@ -427,10 +427,10 @@
 "K554": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Nijmegen-Arnhem Gelre dükalığı 1514-1536, komşu 'almanya' %55: Gelre (Egmond'lu Karl) Kutsal Roma içinde kendi toprağıydı; kopukluk çevre noktaların çatı 'almanya' boyanmasından. 'Hollanda' (bölge adı) sahipsiz.",
-"duzeltme": "Gelre çevresi noktaları (Zutphen, Roermond…) 1514-1538 gelre-dukaligi.",
-"kaynak": "bulunamadı (model bilgisi)"
+"duzeltme": "Gelre noktaları Egmond'lu Karl döneminde gelre-dukaligi; 1543 → Habsburg (V. Karl); veri bitişi 1536 sınansın.",
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/gheldria/ — 'Carlo di G. riuscì a mantenere … la sovranità sul ducato. Nel 1543 Guglielmo di Cleve … fu costretto ad abdicare in favore di Carlo V'"
 },
 "K555": {
 "hukum": "YAPAY",
@@ -571,18 +571,18 @@
 "K572": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Sion 1353-1417 'almanya' (Kutsal Roma çatısı), çevre Savoya/İsviçre/Visconti: Valais Sion piskoposluğunun prensliğiydi; çatı kimliği kopukluk üretiyor.",
 "duzeltme": "Sion künyesi (sion-piskoposlugu) yoksa beyanlı çatı; KOVALAR çatı-kimlik kovasına.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/vallese/ — 'Donato … al vescovo di Sion (999), più tardi entrò a far parte dell'Impero, sempre come feudo vescovile. La contesa tra i Savoia e i vescovi … ebbe fine nel 1475' (Sion piskoposluğu prensliği; künye gerek)"
 },
 "K573": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Cenevre 1516-1536 piskoposluk şehri (Kutsal Roma), Savoya toprakları ortasında; 1536 Bern ve Reform ile bağımsızlık — gerçek, ancak 'almanya' çatısı yerine yerel künye daha doğru. Annemasse Savoya.",
 "duzeltme": "Kimlik tercihi KASA'nın (cenevre künyesi).",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/ginevra/ — Savoya dükleri 1470 sonrası piskoposluk aracılığıyla şehri denetledi; 'soppressione del principato ecclesiastico di G. (1533)'; 'il 21 maggio 1536, della Chiesa ginevrina riformata' (veri bitişi 1536-05-21 ile uyumlu)"
 },
 "K574": {
 "hukum": "YAPAY",
@@ -603,10 +603,10 @@
 "K576": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Villach-Tarvis Bamberg piskoposluğunun Karintiya eksklavı → 1759 Mariya Tereza'ya satış: gerçek eksklav; ancak 'almanya' çatısı yerine Bamberg künyesi doğru.",
-"duzeltme": "bamberg-piskoposlugu künyesi varsa ona; 1759 → avusturya.",
-"kaynak": "bulunamadı (model bilgisi)"
+"duzeltme": "Villach Bamberg t → 1760 (veri 1759; Treccani 1760 — beyan).",
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/villach/ — 'V. appartenne al vescovado di Bamberga dal 1007 fino al 1760, quando passò all'Austria'"
 },
 "K577": {
 "hukum": "GERCEK",
@@ -763,10 +763,10 @@
 "K596": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Saint-Louis (Ndar) 1659 Fransız kuruluşu → 1792 (kimlik geçişi fransa → fransa-cumhuriyet, sahip değişimi değil): Valo/Kayor arasında gerçek. İngiliz işgalleri (1758-1779, 1809-1817) veride yok.",
 "duzeltme": "Saint-Louis 1758 → ingiltere, 1779 → fransa; 1809-07 → ingiltere, 1817 → fransa-cumhuriyet (kaynakla).",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Berkshire Encyclopedia of World History 2. bs., 'Gum Arabic' (J. Webb) — 'first of two periods of British colonial rule … (1758–1779)' (Oxford Reference, EMRELİC okuması — alıntı); ikinci dönem (1809-1817) günsüz"
 },
 "K597": {
 "hukum": "GERCEK",
@@ -779,18 +779,18 @@
 "K598": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Lienz 1805-12-26 → 1809-10-14 'almanya': Pressburg ile Doğu Tirol Bavyera'ya geçti — K516 ile aynı aile (Tirol 'almanya' çatısı yerine bavyera).",
 "duzeltme": "Lienz 1805-12-26 → bavyera; 1809-10-14 sonrası İlirya illeri (fransa) kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/tirolo/ — K516 ile aynı (Pressburg 1805 → Bavyera; 1809 sonrası üçe bölünme)"
 },
 "K599": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Katowice 1281-1526 'almanya' (çatı), çevre Polonya/Bohemya/Silezya Piastları: Yukarı Silezya Piast dükalıkları (Bytom/Racibórz), 1327'den Bohemya tacı altında; çatı kimliği kopukluk üretiyor.",
-"duzeltme": "Katowice 1281-1327 silezya-piast, 1327-1526 v: bohemya (kaynakla).",
-"kaynak": "bulunamadı (model bilgisi)"
+"duzeltme": "Katowice: silezya-piast; Bohemya üstünlüğü 1339 (Treccani: 'consolidatasi nel 1339'), 1327 değil.",
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/slesia/ — 'i vari centri della regione erano retti da principi … dei Piasti … finirono per riconoscere la sovranità boema, consolidatasi nel 1339'"
 },
 "K600": {
 "hukum": "YAPAY",

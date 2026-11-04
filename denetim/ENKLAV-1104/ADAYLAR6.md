@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 43, KAYNAKLI 28, OLCUM 29.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 31, KAYNAKLI 40, OLCUM 29.
 
 ## Kara eksklavları
 
@@ -25,10 +25,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1919-09-10 · komşu: cekoslovakya 50%, almanya 29%, polonya 17%
 - Koridor: 211.8 km · cekoslovakya 8/9, polonya 1/9
 - İçindeki yerleşimler: Karviná (Fryštát) (itilaf-emaneti)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Karviná (Fryštát) — Tešín plebisit bölgesi Müttefik komisyonu idaresi 1919-09-10 → 1920-07-28 (Büyükelçiler Konferansı paylaşımı), Çekoslovakya/Polonya arasında: gerçek ara statü.
   - Düzeltme önerisi: Yok (uçlar kaynakla teyit).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Oxford Companion to World War II, 'Teschen' — 'divided in July 1920 along the River Olse' (Oxford Reference, EMRELİC okuması — alıntı) (ay teyitli, gün yok)
 
 ### K503 · venedik · 1393-05-01 → 1571-01-01 · 5.875 km²
 
@@ -95,10 +95,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1813-01-01 · komşu: almanya 65%, italya-napolyon 35%
 - Koridor: 32.3 km · almanya 9/9
 - İçindeki yerleşimler: Belluno (italya-napolyon); Cortina d'Ampezzo (avusturya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Cortina d'Ampezzo 1809-10-14 → 1814-04-16 'avusturya'; Schönbrunn (1809) sonrası Tirol Bavyera'ya, Ampezzo 1810'dan Napolyon İtalya Krallığı'na geçti. Koridor 'almanya' 9/9 (Tirol noktaları Bavyera yerine çatı 'almanya').
   - Düzeltme önerisi: Cortina 1809-10-14 → bavyera, 1810 → italya-napolyon; Tirol noktaları 1806-1814 bavyera.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/tirolo/ — 1809 Viyana barışıyla Tirol Bavyera, İtalya Krallığı ve Fransız İmparatorluğu arasında bölündü; 1815 Viyana Kongresi ile geri (Ampezzo'nun hangi parçaya düştüğü KAYNAK-GEREK)
 
 ### K510 · hollanda · 1663-02-15 → 1771-01-01 · 5.695 km²
 
@@ -165,10 +165,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1805-12-26 · komşu: italya-napolyon 74%, almanya 23%, avusturya 0%
 - Koridor: 115.6 km · almanya 9/9
 - İçindeki yerleşimler: Trento (bavyera)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Trento 1805-12-26 (Pressburg) → 1810 'bavyera', koridor 'almanya' 9/9: Pressburg ile Tirol bütünüyle Bavyera'ya geçti; kopukluk Tirol noktalarının çatı 'almanya' boyanmasından.
   - Düzeltme önerisi: Tirol (İnnsbruck, Bozen…) 1805-12-26 → 1810 bavyera.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/tirolo/ — 'temporaneamente perduto dagli Asburgo a motivo della pace di Bratislava (1805) e di Vienna (1809) e diviso in tre tronconi attribuiti alla Baviera, al Regno d'Italia e all'Impero francese' (Trento 1803'te Avusturya'ya)
 
 ### K517 · savoya · 1388-09-28 → 1601-01-01 · 5.478 km²
 
@@ -215,10 +215,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1526-08-29 · komşu: almanya 67%, isvicre 41%, wurttemberg 12%
 - Koridor: 43.1 km · almanya 9/9
 - İçindeki yerleşimler: Freiburg (avusturya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Freiburg im Breisgau 1368 Habsburg satın alışı: Ön Avusturya (Vorderösterreich), Avusturya gövdesinden ayrı — gerçek. Bitiş 1548 kırılması şüpheli (Freiburg 1805'e dek Habsburg).
-  - Düzeltme önerisi: 1548 kırılmasının kaynağı ölçülsün; gerçekse sürer.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: 1548 kırılması yanlış: Freiburg 1368 → 1805 avusturya (Ön Avusturya merkezi 1648'den).
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/friburgo-in-brisgovia/ — 'nel 1368 passò agli Asburgo … divenne (nel 1648) capoluogo dell'Austria Anteriore (Vorderösterreich), restando tale fino al 1805'
 
 ### K522 · karaman · 1402-07-28 → 1402-09-15 · 5.279 km²
 
@@ -445,10 +445,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1663-05-01 · komşu: malay-sultanliklari 49%, cohor-sultanligi 30%
 - Koridor: 294.7 km · cohor-sultanligi 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Malaka (hollanda-dogu-hint)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Malaka 1641-01-14 VOC zaptı → 1825 İngiltere'ye devir (1824 antlaşması): gerçek. 1795-1818 İngiliz işgali veride yok.
   - Düzeltme önerisi: Malaka 1795-1818 ingiltere ara dönemi kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Oxford Reference — Malakka 'ceded to Britain in 1824' (Oxford Reference, EMRELİC okuması — alıntı); 1795-1818 İngiliz işgali okunmadı
 
 ### K545 · napoli · 1736-01-01 → 1801-01-01 · 4.512 km²
 
@@ -545,10 +545,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1514-01-01 · komşu: almanya 55%, ispanya 16%, utrecht-piskoposlugu 11%
 - Koridor: 19.5 km · habsburg-hollandasi 9/9
 - İçindeki yerleşimler: Nijmegen (gelre-dukaligi); Arnhem (gelre-dukaligi); Hollanda (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Nijmegen-Arnhem Gelre dükalığı 1514-1536, komşu 'almanya' %55: Gelre (Egmond'lu Karl) Kutsal Roma içinde kendi toprağıydı; kopukluk çevre noktaların çatı 'almanya' boyanmasından. 'Hollanda' (bölge adı) sahipsiz.
-  - Düzeltme önerisi: Gelre çevresi noktaları (Zutphen, Roermond…) 1514-1538 gelre-dukaligi.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Gelre noktaları Egmond'lu Karl döneminde gelre-dukaligi; 1543 → Habsburg (V. Karl); veri bitişi 1536 sınansın.
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/gheldria/ — 'Carlo di G. riuscì a mantenere … la sovranità sul ducato. Nel 1543 Guglielmo di Cleve … fu costretto ad abdicare in favore di Carlo V'
 
 ### K555 · qing-hanedani · 1676-03-01 → 1677-01-01 · 4.260 km²
 
@@ -715,20 +715,20 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1353-03-06 · komşu: savoya 45%, isvicre 28%, visconti 27%
 - Koridor: 55.6 km · isvicre 8/9, savoya 1/9
 - İçindeki yerleşimler: Sion (Sitten) (almanya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Sion 1353-1417 'almanya' (Kutsal Roma çatısı), çevre Savoya/İsviçre/Visconti: Valais Sion piskoposluğunun prensliğiydi; çatı kimliği kopukluk üretiyor.
   - Düzeltme önerisi: Sion künyesi (sion-piskoposlugu) yoksa beyanlı çatı; KOVALAR çatı-kimlik kovasına.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/vallese/ — 'Donato … al vescovo di Sion (999), più tardi entrò a far parte dell'Impero, sempre come feudo vescovile. La contesa tra i Savoia e i vescovi … ebbe fine nel 1475' (Sion piskoposluğu prensliği; künye gerek)
 
 ### K573 · almanya · 1516-01-23 → 1536-05-21 · 3.772 km²
 
 - En büyük kesit: 1516-01-23 · komşu: savoya 52%, fransa 31%, ispanya 13%
 - Koridor: 144.6 km · ispanya 9/9
 - İçindeki yerleşimler: Annemasse (savoya); Cenevre (almanya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Cenevre 1516-1536 piskoposluk şehri (Kutsal Roma), Savoya toprakları ortasında; 1536 Bern ve Reform ile bağımsızlık — gerçek, ancak 'almanya' çatısı yerine yerel künye daha doğru. Annemasse Savoya.
   - Düzeltme önerisi: Kimlik tercihi KASA'nın (cenevre künyesi).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/ginevra/ — Savoya dükleri 1470 sonrası piskoposluk aracılığıyla şehri denetledi; 'soppressione del principato ecclesiastico di G. (1533)'; 'il 21 maggio 1536, della Chiesa ginevrina riformata' (veri bitişi 1536-05-21 ile uyumlu)
 
 ### K574 · silla · 0553-01-01 → 0676-02-24 · 3.754 km²
 
@@ -755,10 +755,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1500-04-12 · komşu: avusturya 79%, venedik 20%, salzburg-baspiskoposlugu 1%
 - Koridor: 54.1 km · avusturya 9/9
 - İçindeki yerleşimler: Tarvis (Tarvisio) (almanya); Villach (almanya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Villach-Tarvis Bamberg piskoposluğunun Karintiya eksklavı → 1759 Mariya Tereza'ya satış: gerçek eksklav; ancak 'almanya' çatısı yerine Bamberg künyesi doğru.
-  - Düzeltme önerisi: bamberg-piskoposlugu künyesi varsa ona; 1759 → avusturya.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Villach Bamberg t → 1760 (veri 1759; Treccani 1760 — beyan).
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/villach/ — 'V. appartenne al vescovado di Bamberga dal 1007 fino al 1760, quando passò all'Austria'
 
 ### K577 · OSMANLI · 1416-01-01 → 1419-01-01 · 3.682 km²
 
@@ -955,10 +955,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1703-01-01 · komşu: valo 45%, kayor 12%
 - Koridor: 1653.7 km · dan-guro 3/9, bundu 2/9, colof 1/9, futa-callon 1/9, solima-yalunka 1/9, bate 1/9
 - İçindeki yerleşimler: Saint-Louis (Ndar) (fransa)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Saint-Louis (Ndar) 1659 Fransız kuruluşu → 1792 (kimlik geçişi fransa → fransa-cumhuriyet, sahip değişimi değil): Valo/Kayor arasında gerçek. İngiliz işgalleri (1758-1779, 1809-1817) veride yok.
   - Düzeltme önerisi: Saint-Louis 1758 → ingiltere, 1779 → fransa; 1809-07 → ingiltere, 1817 → fransa-cumhuriyet (kaynakla).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Berkshire Encyclopedia of World History 2. bs., 'Gum Arabic' (J. Webb) — 'first of two periods of British colonial rule … (1758–1779)' (Oxford Reference, EMRELİC okuması — alıntı); ikinci dönem (1809-1817) günsüz
 
 ### K597 · fransa · 1417-09-04 → 1418-09-29 · 3.230 km²
 
@@ -975,20 +975,20 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1805-12-26 · komşu: avusturya 80%, italya-napolyon 20%
 - Koridor: 19.0 km · avusturya 9/9
 - İçindeki yerleşimler: Lienz (almanya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Lienz 1805-12-26 → 1809-10-14 'almanya': Pressburg ile Doğu Tirol Bavyera'ya geçti — K516 ile aynı aile (Tirol 'almanya' çatısı yerine bavyera).
   - Düzeltme önerisi: Lienz 1805-12-26 → bavyera; 1809-10-14 sonrası İlirya illeri (fransa) kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/tirolo/ — K516 ile aynı (Pressburg 1805 → Bavyera; 1809 sonrası üçe bölünme)
 
 ### K599 · almanya · 1281-01-01 → 1526-08-29 · 3.191 km²
 
 - En büyük kesit: 1523-01-01 · komşu: polonya-erken 57%, bohemya 43%, silezya-piast 19%
 - Koridor: 368.1 km · polonya-erken 7/9, bohemya 2/9
 - İçindeki yerleşimler: Kattowitz (Katowice) (almanya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Katowice 1281-1526 'almanya' (çatı), çevre Polonya/Bohemya/Silezya Piastları: Yukarı Silezya Piast dükalıkları (Bytom/Racibórz), 1327'den Bohemya tacı altında; çatı kimliği kopukluk üretiyor.
-  - Düzeltme önerisi: Katowice 1281-1327 silezya-piast, 1327-1526 v: bohemya (kaynakla).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Katowice: silezya-piast; Bohemya üstünlüğü 1339 (Treccani: 'consolidatasi nel 1339'), 1327 değil.
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/slesia/ — 'i vari centri della regione erano retti da principi … dei Piasti … finirono per riconoscere la sovranità boema, consolidatasi nel 1339'
 
 ### K600 · fransa-cumhuriyet · 1960-06-20 → 1960-11-28 · 3.161 km²
 

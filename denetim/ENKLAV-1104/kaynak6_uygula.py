@@ -96,10 +96,40 @@ U = {
                  kaynak=TDV + "inebahti — '1204'ten sonra … Epiros Despotluğu toprakları içinde kaldı' · '1294'te kısa bir süre Anjou Frenk Prensliği'nin "
                  "eline geçtiyse de 1407'de Venedikliler tarafından alın[ana] kadar Arnavut Shpata Prensliği'nin hâkimiyeti altında kaldı'"),
 }
+# KAYNAK4 ikinci tur: Treccani (aynı origin'de 3 sn tempo) + EMRELİC'in Oxford Reference okuması (yalnız alıntı)
+TR = "Treccani, https://www.treccani.it/enciclopedia/"
+OX = " (Oxford Reference, EMRELİC okuması — alıntı)"
+U.update({
+    "K516": dict(guven="KAYNAKLI", kaynak=TR + "tirolo/ — 'temporaneamente perduto dagli Asburgo a motivo della pace di Bratislava (1805) e di "
+                 "Vienna (1809) e diviso in tre tronconi attribuiti alla Baviera, al Regno d'Italia e all'Impero francese' (Trento 1803'te Avusturya'ya)"),
+    "K598": dict(guven="KAYNAKLI", kaynak=TR + "tirolo/ — K516 ile aynı (Pressburg 1805 → Bavyera; 1809 sonrası üçe bölünme)"),
+    "K509": dict(guven="KAYNAKLI", kaynak=TR + "tirolo/ — 1809 Viyana barışıyla Tirol Bavyera, İtalya Krallığı ve Fransız İmparatorluğu arasında "
+                 "bölündü; 1815 Viyana Kongresi ile geri (Ampezzo'nun hangi parçaya düştüğü KAYNAK-GEREK)"),
+    "K521": dict(guven="KAYNAKLI", duzeltme="1548 kırılması yanlış: Freiburg 1368 → 1805 avusturya (Ön Avusturya merkezi 1648'den).",
+                 kaynak=TR + "friburgo-in-brisgovia/ — 'nel 1368 passò agli Asburgo … divenne (nel 1648) capoluogo dell'Austria Anteriore "
+                 "(Vorderösterreich), restando tale fino al 1805'"),
+    "K554": dict(guven="KAYNAKLI", duzeltme="Gelre noktaları Egmond'lu Karl döneminde gelre-dukaligi; 1543 → Habsburg (V. Karl); veri bitişi 1536 sınansın.",
+                 kaynak=TR + "gheldria/ — 'Carlo di G. riuscì a mantenere … la sovranità sul ducato. Nel 1543 Guglielmo di Cleve … fu costretto ad abdicare "
+                 "in favore di Carlo V'"),
+    "K573": dict(guven="KAYNAKLI", kaynak=TR + "ginevra/ — Savoya dükleri 1470 sonrası piskoposluk aracılığıyla şehri denetledi; 'soppressione del "
+                 "principato ecclesiastico di G. (1533)'; 'il 21 maggio 1536, della Chiesa ginevrina riformata' (veri bitişi 1536-05-21 ile uyumlu)"),
+    "K572": dict(guven="KAYNAKLI", kaynak=TR + "vallese/ — 'Donato … al vescovo di Sion (999), più tardi entrò a far parte dell'Impero, sempre come "
+                 "feudo vescovile. La contesa tra i Savoia e i vescovi … ebbe fine nel 1475' (Sion piskoposluğu prensliği; künye gerek)"),
+    "K576": dict(guven="KAYNAKLI", duzeltme="Villach Bamberg t → 1760 (veri 1759; Treccani 1760 — beyan).",
+                 kaynak=TR + "villach/ — 'V. appartenne al vescovado di Bamberga dal 1007 fino al 1760, quando passò all'Austria'"),
+    "K599": dict(guven="KAYNAKLI", duzeltme="Katowice: silezya-piast; Bohemya üstünlüğü 1339 (Treccani: 'consolidatasi nel 1339'), 1327 değil.",
+                 kaynak=TR + "slesia/ — 'i vari centri della regione erano retti da principi … dei Piasti … finirono per riconoscere la sovranità boema, "
+                 "consolidatasi nel 1339'"),
+    "K502": dict(guven="KAYNAKLI", kaynak="Oxford Companion to World War II, 'Teschen' — 'divided in July 1920 along the River Olse'" + OX +
+                 " (ay teyitli, gün yok)"),
+    "K596": dict(guven="KAYNAKLI", kaynak="Berkshire Encyclopedia of World History 2. bs., 'Gum Arabic' (J. Webb) — 'first of two periods of British "
+                 "colonial rule … (1758–1779)'" + OX + "; ikinci dönem (1809-1817) günsüz"),
+    "K544": dict(guven="KAYNAKLI", kaynak="Oxford Reference — Malakka 'ceded to Britain in 1824'" + OX + "; 1795-1818 İngiliz işgali okunmadı"),
+})
 n = 0
 for k, v in U.items():
     H[k].update(v)
     n += 1
-H["_aciklama"] += " KAYNAK4 (LAB SALI): %d hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py)." % n
+H["_aciklama"] = H["_aciklama"].split(" KAYNAK4")[0] + " KAYNAK4 (LAB SALI): %d hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py)." % n
 json.dump(H, open(YOL, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=0)
 print("güncellendi", n)
