@@ -196,7 +196,7 @@ window.OLAYLAR_2S_0919 = [
   kaynak:"Britannica, 'Bratsk', https://www.britannica.com/place/Bratsk — AYNEN: \"A fort was founded there in 1631\" · hassasiyet: YIL · ikinci okuma bot engeline takıldı (tek okuma)" },
 
 // ── 1658-02-26 ───────────────────────────────────────────────────────
-{ t:"1658-02-26", b:"Roskilde Antlaşması — Skåne, Halland, Blekinge ve Bornholm İsveç'e geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Kristianstad",
+{ t:"1658-03-08", ic_not_takvim:"GREGORYEN 8 Mart 1658 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 26 Şubat 1658 Jülyen/eski üslup", b:"Roskilde Antlaşması — Skåne, Halland, Blekinge ve Bornholm İsveç'e geçti", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"Kristianstad",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
   d:"Birinci Karl Gustav Savaşı'nı bitiren Roskilde Antlaşması imzalandı; Danimarka-Norveç Skåne, Halland, Blekinge ve Bornholm'u İsveç'e bıraktı.",
   kaynak:"Danmarkshistorien (lex.dk), 'Roskildefreden, 26. februar 1658', https://danmarkshistorien.lex.dk/Roskildefreden,_26._februar_1658 — AYNEN: \"Freden i Roskilde blev underskrevet 26. februar 1658\" / \"De danske besiddelser Skåne, Halland og Blekinge samt Bornholm skulle afstås til Sverige.\" · hassasiyet: GÜN, veriyle birebir" },

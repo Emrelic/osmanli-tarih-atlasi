@@ -94,22 +94,22 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1568-05-16", b:"İskoç Kraliçesi Mary İngiltere'ye sığındı",
   eksik_nokta:{ ad:"Workington", enlem:54.643, boylam:-3.546, kaynak:"standart akademik kaynak — İskoç Kraliçesi Mary, İngiltere'ye Workington'dan (Cumbria) sığındı, 16 Mayıs 1568" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1587-02-08", b:"İskoç Kraliçesi Mary idam edildi",
+{ dosya:"kronoloji_ingiltere.js", t:"1587-02-18", b:"İskoç Kraliçesi Mary idam edildi",
   eksik_nokta:{ ad:"Fotheringhay", enlem:52.542, boylam:-0.419, kaynak:"standart akademik kaynak — Mary Stuart, Fotheringhay Kalesi'nde (Northamptonshire) idam edildi, 8 Şubat 1587" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1588-08-08", b:"İspanyol Armadası yenilgiye uğratıldı",
   eksik_nokta:{ ad:"Gravelines", enlem:51.009, boylam:2.098, kaynak:"standart akademik kaynak — İspanyol Armadası'nın belirleyici yenilgisi Gravelines Savaşı'nda (Flandre kıyısı), 8 Ağustos 1588" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1607-05-13", b:"Jamestown kuruldu — ilk kalıcı İngiliz kolonisi",
+{ dosya:"kronoloji_ingiltere.js", t:"1607-05-23", b:"Jamestown kuruldu — ilk kalıcı İngiliz kolonisi",
   yer_id:"Jamestown", kaynak:"standart akademik kaynak — Jamestown, Virginia, ilk kalıcı İngiliz kolonisi olarak kuruldu, 13 Mayıs 1607 (Oxford Companion to US History; eski «14 Mayıs» 14 Ekim 2026 TEYIT-KARAR-1014 ile düzeltildi)" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1645-06-14", b:"Naseby Savaşı — Parlamento ordusunun belirleyici zaferi",
+{ dosya:"kronoloji_ingiltere.js", t:"1645-06-24", b:"Naseby Savaşı — Parlamento ordusunun belirleyici zaferi",
   eksik_nokta:{ ad:"Naseby", enlem:52.389, boylam:-0.982, kaynak:"standart akademik kaynak — Naseby Savaşı meydanı, Northamptonshire" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1675-06-22", b:"Greenwich Kraliyet Rasathanesi kuruldu",
+{ dosya:"kronoloji_ingiltere.js", t:"1675-07-02", b:"Greenwich Kraliyet Rasathanesi kuruldu",
   eksik_nokta:{ ad:"Greenwich", enlem:51.4769, boylam:-0.0005, kaynak:"standart akademik kaynak — Greenwich Kraliyet Rasathanesi, Greenwich Park'ta (Londra) kuruldu" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1688-11-05", b:"Şanlı Devrim — Orange'lı William karaya çıktı",
+{ dosya:"kronoloji_ingiltere.js", t:"1688-11-15", b:"Şanlı Devrim — Orange'lı William karaya çıktı",
   eksik_nokta:{ ad:"Brixham", enlem:50.396, boylam:-3.512, kaynak:"standart akademik kaynak — Orange'lı William, Şanlı Devrim'de Brixham'a (Torbay, Devon) çıktı, 5 Kasım 1688" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1699-01-26", b:"Karlofça Antlaşması — Lord Paget ara buluculuk yaptı",
@@ -124,10 +124,10 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1739-01-01", b:"John Wesley açık hava vaazlarına başladı — Metodist uyanış",
   eksik_nokta:{ ad:"Kingswood (Bristol yakını)", enlem:51.461, boylam:-2.5, kaynak:"standart akademik kaynak — John Wesley'nin ilk açık hava vaazı, Şubat 1739, Kingswood, Bristol yakını" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1745-08-19", b:"1745 Jakobit Ayaklanması — Bonnie Prince Charlie karaya çıktı",
+{ dosya:"kronoloji_ingiltere.js", t:"1745-08-30", b:"1745 Jakobit Ayaklanması — Bonnie Prince Charlie karaya çıktı",
   eksik_nokta:{ ad:"Glenfinnan", enlem:56.873, boylam:-5.441, kaynak:"standart akademik kaynak — 1745 Jakobit Ayaklanması, Bonnie Prince Charlie'nin Glenfinnan'da bayrak açmasıyla başladı, 19 Ağustos 1745" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1746-04-16", b:"Culloden Savaşı — Jakobit hareketi ezildi",
+{ dosya:"kronoloji_ingiltere.js", t:"1746-04-27", b:"Culloden Savaşı — Jakobit hareketi ezildi",
   eksik_nokta:{ ad:"Culloden", enlem:57.478, boylam:-4.092, kaynak:"standart akademik kaynak — Culloden Savaşı meydanı, Inverness yakını" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1752-09-14", b:"Britanya Gregoryen takvimine geçti",
@@ -301,19 +301,19 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1567-07-24", b:"Mary Stuart tahttan çekilmeye zorlandı, I. James kral ilan edildi",
   eksik_nokta:{ ad:"Loch Leven Kalesi", enlem:56.196, boylam:-3.34, kaynak:"standart akademik kaynak — Mary Stuart, Loch Leven Kalesi'nde tahttan çekilmeye zorlandı" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1638-02-28", b:"Ulusal Ahid (National Covenant) imzalandı",
+{ dosya:"kronoloji_ingiltere.js", t:"1638-03-10", b:"Ulusal Ahid (National Covenant) imzalandı",
   yer_id:"Edinburg", kaynak:"standart akademik kaynak — Ulusal Ahid, Edinburgh'daki Greyfriars Kilisesi bahçesinde imzalandı" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1643-09-25", b:"Kutsal İttifak ve Ahid — İskoç-İngiliz Parlamento ittifakı",
+{ dosya:"kronoloji_ingiltere.js", t:"1643-10-05", b:"Kutsal İttifak ve Ahid — İskoç-İngiliz Parlamento ittifakı",
   yer_id:"Edinburg", kaynak:"standart akademik kaynak — Kutsal İttifak ve Ahid, İskoç Kilisesi Genel Meclisi'nce Edinburgh'da kabul edildi" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1650-09-03", b:"Dunbar Savaşı — Cromwell İskoçya'yı yendi",
+{ dosya:"kronoloji_ingiltere.js", t:"1650-09-13", b:"Dunbar Savaşı — Cromwell İskoçya'yı yendi",
   eksik_nokta:{ ad:"Dunbar", enlem:55.997, boylam:-2.515, kaynak:"standart akademik kaynak — Dunbar Savaşı, East Lothian, İskoçya" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1689-07-27", b:"Killiecrankie Savaşı — ilk Jakobit ayaklanması",
+{ dosya:"kronoloji_ingiltere.js", t:"1689-08-06", b:"Killiecrankie Savaşı — ilk Jakobit ayaklanması",
   eksik_nokta:{ ad:"Killiecrankie Geçidi", enlem:56.728, boylam:-3.77, kaynak:"standart akademik kaynak — Killiecrankie Savaşı, Pitlochry yakını" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1692-02-13", b:"Glencoe Katliamı",
+{ dosya:"kronoloji_ingiltere.js", t:"1692-02-23", b:"Glencoe Katliamı",
   eksik_nokta:{ ad:"Glen Coe", enlem:56.67, boylam:-5.1, kaynak:"standart akademik kaynak — Glencoe Katliamı, Glen Coe, İskoçya" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1698-01-01", b:"Darien Seferi — İskoçya'nın kendi sömürgesini kurma girişimi",
@@ -325,25 +325,25 @@ window.YER_YAMA_ING = [
 { dosya:"kronoloji_ingiltere.js", t:"1534-06-11", b:"İpekli Thomas İsyanı başladı",
   yer_id:"Dublin", kaynak:"standart akademik kaynak — İpekli Thomas İsyanı, Dublin Konseyi'nde bağlılığı reddetmesiyle başladı" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1601-12-24", b:"Kinsale Savaşı — Dokuz Yıl Savaşı'nda İngiliz zaferi",
+{ dosya:"kronoloji_ingiltere.js", t:"1602-01-03", b:"Kinsale Savaşı — Dokuz Yıl Savaşı'nda İngiliz zaferi",
   eksik_nokta:{ ad:"Kinsale", enlem:51.707, boylam:-8.528, kaynak:"standart akademik kaynak — Kinsale Savaşı, Cork, İrlanda" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1607-09-14", b:"Kontların Kaçışı — Gal İrlanda'sının sonu",
+{ dosya:"kronoloji_ingiltere.js", t:"1607-09-24", b:"Kontların Kaçışı — Gal İrlanda'sının sonu",
   eksik_nokta:{ ad:"Rathmullan", enlem:55.093, boylam:-7.532, kaynak:"standart akademik kaynak — Kontların Kaçışı, Rathmullan'dan (Lough Swilly, Donegal) denize açıldı" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1609-01-01", b:"Ulster Plantasyonu başladı",
   kapsam_genis:true, not:"Ulster Plantasyonu, Ulster'in birden fazla kontluğuna (Donegal, Tyrone, Armagh, Londonderry, Fermanagh, Cavan) yayılan bölgesel bir kolonizasyon programıdır, tek noktaya sığmaz" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1641-10-23", b:"1641 İrlanda İsyanı başladı",
+{ dosya:"kronoloji_ingiltere.js", t:"1641-11-02", b:"1641 İrlanda İsyanı başladı",
   kapsam_genis:true, not:"1641 İrlanda İsyanı, Ulster'de eşzamanlı olarak birden fazla kalede (Charlemont, Dungannon, Newry...) fiilen başladı; Dublin Kalesi'ni ele geçirme planı aynı gün için tasarlanmıştı ama ihbar üzerine başarısız oldu — tek nokta yok" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1649-09-11", b:"Cromwell'in Drogheda Kuşatması",
+{ dosya:"kronoloji_ingiltere.js", t:"1649-09-21", b:"Cromwell'in Drogheda Kuşatması",
   eksik_nokta:{ ad:"Drogheda", enlem:53.7189, boylam:-6.3478, kaynak:"standart akademik kaynak — Cromwell'in Drogheda Kuşatması, İrlanda" } },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1652-08-12", b:"İrlanda İçin Yerleşim Yasası — toprak müsaderesi",
+{ dosya:"kronoloji_ingiltere.js", t:"1652-08-22", b:"İrlanda İçin Yerleşim Yasası — toprak müsaderesi",
   yer_id:"Londra", kaynak:"standart akademik kaynak — İrlanda İçin Yerleşim Yasası (Act of Settlement 1652), Westminster Parlamentosu'nca çıkarıldı" },
 
-{ dosya:"kronoloji_ingiltere.js", t:"1690-07-01", b:"Boyne Savaşı",
+{ dosya:"kronoloji_ingiltere.js", t:"1690-07-11", b:"Boyne Savaşı",
   eksik_nokta:{ ad:"Boyne Irmağı (Oldbridge)", enlem:53.711, boylam:-6.427, kaynak:"standart akademik kaynak — Boyne Savaşı, Boyne Irmağı kıyısı, Oldbridge yakını, İrlanda" } },
 
 { dosya:"kronoloji_ingiltere.js", t:"1695-01-01", b:"Cezalandırma Yasaları (Penal Laws) yürürlüğe girmeye başladı",

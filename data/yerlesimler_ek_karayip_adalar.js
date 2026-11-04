@@ -61,8 +61,8 @@ window.YERLESIMLER_EK_KARAYIP_ADALAR = [
 { ad:"George Town (Cayman)", tur:"sehir", lat:19.2866, lon:-81.3744, g:1, k:0,
   kasitli_bosluk:true, bos:"insansiz",
   neden:"Cayman Adaları 1670'e dek kalıcı iskânsızdı; ada, anakara/Jamaika peteğine emilmesin diye nokta tutulur. Atlas noktası adayı temsil eder (George Town kuruluşu 18. yy, kaynak bulunamadı).",
-  s:[{f:"1000-01-01", t:"1670-07-08", d:"__BOSLUK__", kaynak:"BOŞLUK BEYANI (kaynak: bulunamadı): bu noktanın 1670-07-08 tarihinden önceki sahibi atlasta kaynakla yazılı DEĞİL; kayıttaki kasitli_bosluk / bos / neden beyanı geçerlidir, toprak komşu peteğe itilmez. f 1000-01-01 UFUK SINIR İŞARETİDİR (uydurma başlangıç değil); t = bu kaydın ilk kaynaklı dönemi."},
-     {f:"1670-07-08",t:"2000-12-31",d:"ingiltere"}],
+  s:[{f:"1000-01-01", t:"1670-07-18", d:"__BOSLUK__", kaynak:"BOŞLUK BEYANI (kaynak: bulunamadı): bu noktanın 1670-07-08 tarihinden önceki sahibi atlasta kaynakla yazılı DEĞİL; kayıttaki kasitli_bosluk / bos / neden beyanı geçerlidir, toprak komşu peteğe itilmez. f 1000-01-01 UFUK SINIR İŞARETİDİR (uydurma başlangıç değil); t = bu kaydın ilk kaynaklı dönemi."},
+     {f:"1670-07-18",t:"2000-12-31",d:"ingiltere"}],
   kaynak:"bulunamadı (akademik teyit bekliyor) — dayanak: 1670 Madrid Antlaşması (kronoloji_sinir_karayip_adalar.js).",
   not:"1670 egemenlik tanındı günüdür, kalıcı yerleşim günü DEĞİL. Jamaika bağımlılığı (1863-1962) modellenmedi." },
 

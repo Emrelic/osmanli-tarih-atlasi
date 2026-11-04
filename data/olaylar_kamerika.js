@@ -197,7 +197,7 @@ window.OLAYLAR_KAMERIKA = [
   },
 
   {
-    "t": "1803-01-01",
+    "t": "1803-01-01", "kaynak": "The Canadian Encyclopedia, 'Fort William' (https://www.thecanadianencyclopedia.ca/en/article/fort-william) — «In 1803 the North West Company (NWC) constructed a new fort at its Lake Superior headquarters, replacing Grand Portage» (KASA SALI kuyruğu 58; KASA PAZAR 4 Kasım 2026)",
     "k": "kurulus",
     "etiket": [
       "ekonomi",

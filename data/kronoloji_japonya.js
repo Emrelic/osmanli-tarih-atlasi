@@ -96,7 +96,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"japonya (TDV)" },
 
 // === B) MUROMACHI (ASHİKAGA) ŞOGUNLUĞU VE SENGOKU (1336-1573) ================
-{ taraflar:["muromachi"], t:"1392-11-19", b:"Nanboku-chō bölünmesi sona erdi, saraylar birleşti", tur:"birlesme", onem:4, dunya:1, kapsam:"ic",
+{ taraflar:["muromachi"], t:"1392-11-19", ic_not_t:"[gün teyitsiz] Kotobank (Yamakawa Nihonshi Shōjiten): birleşme Meitoku 3 閏10月 (ara 10. ay); Batı günü NAOJ tablosuyla çevrilmedi. (KASA SALI kuyruğu L2-11; KASA PAZAR 4 Kasım 2026)", b:"Nanboku-chō bölünmesi sona erdi, saraylar birleşti", tur:"birlesme", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","birlesme","konu-siyasi","konu-imar"],
   yer_id:"Kyoto",
   d:"[Muromachi] Üçüncü şogun Ashikaga Yoshimitsu'nun arabuluculuğuyla Güney sarayının son imparatoru Go-Kameyama tahtı Kuzey hanedanına devretti; 56 yıllık ikili meşruiyet krizi sona erip imparatorluk kurumu tek bir hat altında toplandı, ama fiilî iktidar şogunlukta kalmaya devam etti.",
@@ -427,7 +427,7 @@ window.KRONOLOJI_JAPONYA = [
   yer_id:"", odak_yer:["Edo (Tokyo)", "Osaka", "Kumamoto", "Sendai"],
   d:"[Taishō dönemi] Savaş dönemi enflasyonu ve Sibirya Müdahalesi spekülasyonuyla fırlayan pirinç fiyatlarına karşı balıkçı kadınların başlattığı protesto, haftalar içinde yüzlerce şehre yayılan kitlesel ayaklanmaya dönüştü; hükümetin istifasına yol açan bu olay, Taishō döneminin artan siyasi katılım ('Taishō Demokrasisi') talebinin en somut patlaması oldu.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Marius B. Jansen, The Making of Modern Japan (2000)" },
-{ taraflar:["meiji-japonya"], t:"1919-02-13", ic_not_takvim:"Irksal eşitlik önergesi 13 Şubat 1919 Milletler Cemiyeti Komisyonu'na sunuldu (1919-01-18 konferansın açılış günüydü); ret 1919-04-11", b:"Japonya, Paris Barış Konferansı'nda ırksal eşitlik önergesini sundu — reddedildi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
+{ taraflar:["meiji-japonya"], t:"1919-04-11", ic_not_kuyruk:"Cambridge, East Asia and the Modern International Order böl.6 'Race and ...': 'League Commission met yet again on April 11' — oylama/ret günü; 13 Şubat ilk sunuş kaynakta yok (yalnız 4-5 Şubat Makino-House görüşmeleri). (KASA SALI kuyruğu L2-138; KASA PAZAR 4 Kasım 2026)", ic_not_takvim:"Irksal eşitlik önergesi 13 Şubat 1919 Milletler Cemiyeti Komisyonu'na sunuldu (1919-01-18 konferansın açılış günüydü); ret 1919-04-11", b:"Japonya, Paris Barış Konferansı'nda ırksal eşitlik önergesini sundu — reddedildi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
   etiket:["diplomasi","milletler-cemiyeti","konu-diplomasi"],
   yer_id:"",
   d:"[Taishō dönemi] Milletler Cemiyeti sözleşmesine ırk ayrımı yapmama ilkesinin eklenmesini öneren Japon delegasyonu, oy çokluğuna rağmen Başkan Wilson'ın oturum başkanı sıfatıyla önergeyi 'oybirliği gerekir' diyerek reddetmesiyle geri çevrildi; bu ret, büyük güçler arasında bile Japonya'ya karşı ırkçı çifte standardı gözler önüne sererek Japon kamuoyunda derin bir hayal kırıklığına ve giderek Batı karşıtı milliyetçiliğin güçlenmesine katkıda bulundu.",

@@ -558,8 +558,8 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Spinoza öldüğü yıl başyapıtı Etika ölümünden sonra basıldı. Cumhuriyetin yayın iklimi Avrupa'nın en hürüydü; yine de Spinoza'nın eserleri yasaklandı — Lodewijk Meyer, Adriaen Koerbagh ve Balthasar Bekker'in yazılarıyla birlikte Avrupa çapında tartışma yarattı.",
   kaynak:"UvA, 'Dutch Culture and Society in European Context': Spinoza'nın sansürlenmesi ve radikal düşünce akımının Altın Çağ'ın son on yıllarında Avrupa'da yarattığı tartışma · Dikkat: GÜN DOĞRULANMADI" },
 
-{ odak_yer:["Amsterdam"], t:"1688-11-05", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
-  gun:"5 Kasım 1688 JÜLYEN (Torbay çıkarması, İngiliz takvimi) = 15 Kasım 1688 Gregoryen (Hollanda takvimi)",
+{ odak_yer:["Amsterdam"], t:"1688-11-15", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
+  gun:"GREGORYEN 15 Kasım 1688 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 5 Kasım 1688 Jülyen/eski üslup · eski not: 5 Kasım 1688 JÜLYEN (Torbay çıkarması, İngiliz takvimi) = 15 Kasım 1688 Gregoryen (Hollanda takvimi)",
   d:"Hollanda stadhouder'i William, Genel Meclis'in donattığı bir donanmayla İngiltere'ye çıktı ve tacı aldı. İki deniz gücü aynı hükümdarda birleşti; Fransa'ya karşı ittifak kuruldu, ama uzun vadede deniz ticaretinin ağırlığı Londra'ya kaydı — Hollanda için zafer ve gerileyişin başlangıcı aynı olaydır.",
   kaynak:"bulunamadı — GÜN DOĞRULANMADI" },
 
@@ -781,14 +781,14 @@ window.KRONOLOJI_ISVEC = [
   yer_id:"",
   d:"Leipzig yakınında Gustav Adolf'un yeni taktiklerle donatılmış ordusu, Kont Tilly komutasındaki Katolik Lig kuvvetlerini ağır bir yenilgiye uğrattı. Zafer İsveç'i savaşın belirleyici gücü hâline getirdi ve orduyu derinlemesine Almanya'ya soktu.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718", yer_kon:[51.407,12.376] },
-{ t:"1632-11-06", b:"Lützen Savaşı — II. Gustav Adolf savaş alanında öldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ t:"1632-11-16", ic_not_takvim:"GREGORYEN 16 Kasım 1632 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 6 Kasım 1632 Jülyen/eski üslup", b:"Lützen Savaşı — II. Gustav Adolf savaş alanında öldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","kayip","konu-askeri","konu-kisiler"],
   yer_id:"",
   d:"Wallenstein'ın kuvvetlerine karşı kazanılan Lützen zaferi, kralın sisli savaş meydanında süvari hücumu sırasında vurularak ölmesiyle gölgelendi. Ölümü, altı yaşındaki kızı Kristina'yı tahta çıkardı ve fiilî yönetimi kraliyet şansölyesi Axel Oxenstierna'ya bıraktı.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718", yer_kon:[51.249,12.147] },
 
 // === D) KRALİÇE KRİSTİNA VE MUTLAKİYETE GİDİŞ (1632-1660) ===================
-{ odak_yer:["Stokholm"], t:"1632-11-06", b:"Axel Oxenstierna naipliği fiilen başladı", tur:"idari", onem:4, dunya:1, kapsam:"ic",
+{ odak_yer:["Stokholm"], t:"1632-11-16", ic_not_takvim:"GREGORYEN 16 Kasım 1632 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 6 Kasım 1632 Jülyen/eski üslup", b:"Axel Oxenstierna naipliği fiilen başladı", tur:"idari", onem:4, dunya:1, kapsam:"ic",
   etiket:["idari","siyaset","konu-siyasi","konu-idari"],
   yer_id:"",
   d:"Gustav Adolf'un ölümüyle altı yaşındaki Kristina tahta çıkarken, devlet yönetimi güçlü ve tecrübeli şansölye Axel Oxenstierna'nın elinde toplandı. Oxenstierna, Otuz Yıl Savaşları'nın geri kalanında İsveç dış politikasını ve merkezi bürokrasisini bizzat inşa etti.",
@@ -816,7 +816,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["askeri","toprak","konu-askeri"],
   d:"Yeni kral X. Karl Gustav, zayıflamış Polonya-Litvanya Cumhuriyeti'ni istila ederek kısa sürede Varşova ve Krakov'u ele geçirdi. Polonya tarihyazımında \"Potop\" (Tufan) olarak anılan bu istila, ülkede yıkıcı bir işgal dönemi başlattı ama İsveç için kalıcı toprak kazancı getirmedi.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718", yer_id:"Varşova" },
-{ t:"1658-02-26", b:"Roskilde Antlaşması — Skåne, Blekinge, Halland, Bohuslän kazanıldı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Malmö",
+{ t:"1658-03-08", ic_not_takvim:"GREGORYEN 8 Mart 1658 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 26 Şubat 1658 Jülyen/eski üslup", b:"Roskilde Antlaşması — Skåne, Blekinge, Halland, Bohuslän kazanıldı", tur:"toprak-kazanc", onem:5, dunya:3, kapsam:"dis", yer_id:"Malmö",
   etiket:["toprak","antlasma","konu-askeri","konu-diplomasi"],
   d:"Danimarka'ya karşı kazanılan savaş sonunda imzalanan Roskilde Antlaşması, İsveç'e güney yarımadasının tamamını (Skåne, Blekinge, Halland, Bohuslän) kazandırdı ve bugünkü İsveç sınırlarının çekirdeğini oluşturdu.", ic_not_d:"Malmö'nün aynı gün İsveç idaresine geçtiği data/yerlesimler_avrupa.js:312 kaydıyla birebir doğrulanır.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718 — data/yerlesimler_avrupa.js:312 ile tarih birebir doğrulandı" },
@@ -824,7 +824,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["siyaset","taht","konu-siyasi","konu-kisiler","konu-hanedan"],
   d:"Danimarka'ya karşı yarım kalan ikinci seferi sürerken X. Karl Gustav ani bir hastalıktan öldü; oğlu XI. Karl henüz dört yaşındaydı. Ölümü bir naipler konseyi dönemini başlattı.",
   kaynak:"Franklin D. Scott, Sweden: The Nation's History", yer_id:"Göteborg" },
-{ t:"1660-05-27", b:"Kopenhag Antlaşması — Danimarka savaşı kesin olarak sona erdi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Kopenhag",
+{ t:"1660-06-06", ic_not_takvim:"GREGORYEN 6 Haziran 1660 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 27 Mayıs 1660 Jülyen/eski üslup", b:"Kopenhag Antlaşması — Danimarka savaşı kesin olarak sona erdi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"Kopenhag",
   ic_not_t:"TAKVİM BEYANI: 27 Mayıs 1660 Jülyen (İsveç/Danimarka o tarihte Jülyen) gündür; Gregoryen karşılığı 6 Haziran 1660. Atlasın 17. yy İskandinav günleri (Roskilde 26 Şubat 1658 = Gregoryen 8 Mart, Brömsebro 13 Ağustos 1645 = 23 Ağustos) kaynağın Jülyen gününü taşır; zincirler ve maddeler aynı düzende tutuldu (Lex/snl günleri takvim belirtmez, Gregoryen hesaba dayanır). Toplu çeviri kararı Emre'nindir.",
   etiket:["antlasma","konu-diplomasi"],
   d:"X. Karl Gustav'ın ölümüyle yarım kalan ikinci Danimarka seferi, Roskilde'nin şartlarını büyük ölçüde teyit eden ama Trondheim ve Bornholm'u Danimarka'ya iade eden bir antlaşmayla noktalandı. İsveç'in Roskilde'de kazandığı güney toprakları kalıcı hâle geldi.",
@@ -872,7 +872,7 @@ window.KRONOLOJI_ISVEC = [
   etiket:["askeri","konu-askeri"],
   d:"Kar fırtınası altında sekiz bin kişilik İsveç ordusu, otuz bin kişilik I. Petro'nun Rus ordusunu Narva önünde ağır bir bozguna uğrattı.", ic_not_d:"`dunya:2` değeri data/kronoloji_rusya.js:333 ile birebir alınmıştır; zafer XII. Karl'ın efsanesini pekiştirdi ama onu yanlışlıkla Rusya'yı hafife almaya sevk edecekti.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718 — dunya değeri kronoloji_rusya.js:333'ten alındı" },
-{ t:"1704-07-02", b:"XII. Karl, Leszczyński'yi Polonya kralı ilan ettirdi", tur:"siyaset", onem:3, dunya:2, kapsam:"dis", yer_id:"Varşova",
+{ t:"1704-07-12", ic_not_takvim:"GREGORYEN 12 Temmuz 1704 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 2 Temmuz 1704 Jülyen/eski üslup", b:"XII. Karl, Leszczyński'yi Polonya kralı ilan ettirdi", tur:"siyaset", onem:3, dunya:2, kapsam:"dis", yer_id:"Varşova",
   etiket:["siyaset","konu-siyasi"],
   d:"Rusya müttefiki Kral II. August'u tahttan uzaklaştırmak isteyen XII. Karl, kendi adayı Stanisław Leszczyński'yi Varşova'da Polonya kralı ilan ettirdi. Adım, Polonya'yı fiilen iç savaşa sürükledi ve İsveç'i yıllarca oradaki bir cepheye bağladı.",
   kaynak:"Michael Roberts, The Swedish Imperial Experience 1560-1718" },
@@ -1243,7 +1243,7 @@ window.KRONOLOJI_JAPONYA = [
   kaynak:"japonya (TDV)" },
 
 // === B) MUROMACHI (ASHİKAGA) ŞOGUNLUĞU VE SENGOKU (1336-1573) ================
-{ taraflar:["muromachi"], t:"1392-11-19", b:"Nanboku-chō bölünmesi sona erdi, saraylar birleşti", tur:"birlesme", onem:4, dunya:1, kapsam:"ic",
+{ taraflar:["muromachi"], t:"1392-11-19", ic_not_t:"[gün teyitsiz] Kotobank (Yamakawa Nihonshi Shōjiten): birleşme Meitoku 3 閏10月 (ara 10. ay); Batı günü NAOJ tablosuyla çevrilmedi. (KASA SALI kuyruğu L2-11; KASA PAZAR 4 Kasım 2026)", b:"Nanboku-chō bölünmesi sona erdi, saraylar birleşti", tur:"birlesme", onem:4, dunya:1, kapsam:"ic",
   etiket:["siyaset","birlesme","konu-siyasi","konu-imar"],
   yer_id:"Kyoto",
   d:"[Muromachi] Üçüncü şogun Ashikaga Yoshimitsu'nun arabuluculuğuyla Güney sarayının son imparatoru Go-Kameyama tahtı Kuzey hanedanına devretti; 56 yıllık ikili meşruiyet krizi sona erip imparatorluk kurumu tek bir hat altında toplandı, ama fiilî iktidar şogunlukta kalmaya devam etti.",
@@ -1574,7 +1574,7 @@ window.KRONOLOJI_JAPONYA = [
   yer_id:"", odak_yer:["Edo (Tokyo)", "Osaka", "Kumamoto", "Sendai"],
   d:"[Taishō dönemi] Savaş dönemi enflasyonu ve Sibirya Müdahalesi spekülasyonuyla fırlayan pirinç fiyatlarına karşı balıkçı kadınların başlattığı protesto, haftalar içinde yüzlerce şehre yayılan kitlesel ayaklanmaya dönüştü; hükümetin istifasına yol açan bu olay, Taishō döneminin artan siyasi katılım ('Taishō Demokrasisi') talebinin en somut patlaması oldu.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: Marius B. Jansen, The Making of Modern Japan (2000)" },
-{ taraflar:["meiji-japonya"], t:"1919-02-13", ic_not_takvim:"Irksal eşitlik önergesi 13 Şubat 1919 Milletler Cemiyeti Komisyonu'na sunuldu (1919-01-18 konferansın açılış günüydü); ret 1919-04-11", b:"Japonya, Paris Barış Konferansı'nda ırksal eşitlik önergesini sundu — reddedildi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
+{ taraflar:["meiji-japonya"], t:"1919-04-11", ic_not_kuyruk:"Cambridge, East Asia and the Modern International Order böl.6 'Race and ...': 'League Commission met yet again on April 11' — oylama/ret günü; 13 Şubat ilk sunuş kaynakta yok (yalnız 4-5 Şubat Makino-House görüşmeleri). (KASA SALI kuyruğu L2-138; KASA PAZAR 4 Kasım 2026)", ic_not_takvim:"Irksal eşitlik önergesi 13 Şubat 1919 Milletler Cemiyeti Komisyonu'na sunuldu (1919-01-18 konferansın açılış günüydü); ret 1919-04-11", b:"Japonya, Paris Barış Konferansı'nda ırksal eşitlik önergesini sundu — reddedildi", tur:"diplomasi", onem:3, dunya:3, kapsam:"dis",
   etiket:["diplomasi","milletler-cemiyeti","konu-diplomasi"],
   yer_id:"",
   d:"[Taishō dönemi] Milletler Cemiyeti sözleşmesine ırk ayrımı yapmama ilkesinin eklenmesini öneren Japon delegasyonu, oy çokluğuna rağmen Başkan Wilson'ın oturum başkanı sıfatıyla önergeyi 'oybirliği gerekir' diyerek reddetmesiyle geri çevrildi; bu ret, büyük güçler arasında bile Japonya'ya karşı ırkçı çifte standardı gözler önüne sererek Japon kamuoyunda derin bir hayal kırıklığına ve giderek Batı karşıtı milliyetçiliğin güçlenmesine katkıda bulundu.",
@@ -1742,7 +1742,7 @@ window.KRONOLOJI_MISIR = [
 
 { taraflar:["misir-kavalali"], t:"1826-04-22", b:"Missolonghi'nin düşüşü", tur:"savas", onem:2, dunya:3, kapsam:"dis", etiket:["askeri","konu-askeri"], yer_id:"", d:"Bir yıl süren kuşatmanın ardından şehir İbrâhim Paşa'nın kuvvetlerince alındı. Ancak müdafaanın Avrupa basınında yarattığı yankı Yunan davasına duyulan sempatiyi zirveye çıkardı — Mısır'ın askerî başarısı, paradoksal biçimde, büyük devletlerin müdahalesinin de zeminini hazırlıyordu.", kaynak:"resid-mehmed-pasa (TDV) — data/olaylar_ek4.js:129'da zaten doğrulanmış, Mısır perspektifine uyarlandı", yer_kon:[38.371,21.431] },
 
-{ taraflar:["misir-kavalali"], t:"1827-06-01", b:"Kasrü'l-Aynî Tıp Mektebi'nin kuruluşu", gun:"Haziran 1827? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi · TDV `misir`, `kavalali-mehmed-ali-pasa`, `ibrahim-pasa-kavalali`, `ali-bey-bulutkapan` ay/gün vermiyor · Dikkat: 1 Haziran yıl ortası için yer tutucu olabilir", tur:"bilim", onem:5, dunya:2, kapsam:"ic", etiket:["bilim","konu-bilim","konu-egitim"], yer_id:"Kahire", d:"Mehmed Ali Paşa, ordusu için yerli hekim yetiştirmek amacıyla Kahire'de Kasrü'l-Aynî Tıp Mektebi'ni kurdurdu ve başına Fransız hekim Antoine Barthélemy Clot'yu (sonradan Clot Bey) getirdi. TDV'nin genel tıp maddesi Clot'nun Mısırlı meslektaşlarıyla yürüttüğü fikir alışverişine değinmekle birlikte kuruluşun kendi ayrıntılarına girmez. Okul, Osmanlı coğrafyasında modern tıp eğitiminin ilk kurumsal örneklerinden biri oldu ve tıbbiye-mühendishâne-matbaa üçlüsüyle birlikte Mısır'ın en erken modernleşme atılımının parçasıydı.", kaynak:"bulunamadı — TDV'nin 'tip' maddesi yalnız Clot'nun genel işbirliğine değiniyor, Kasrü'l-Aynî'nin kuruluş tarihini ve ayrıntılarını vermiyor; dayanak: standart akademik kaynak (Khaled Fahmy, All the Pasha's Men)" },
+{ taraflar:["misir-kavalali"], t:"1827-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] K. Fahmy, Cambridge History of Egypt II böl.2 (1998) s.~161: 'Abu Za'bal hospital, founded in 1827'; Kasrü'l-Aynî'ye taşınma 1837. Haziran desteksiz. (KASA SALI kuyruğu L2-95; KASA PAZAR 4 Kasım 2026)", b:"Ebû Za'bel Tıp Mektebi'nin kuruluşu (1837'de Kasrü'l-Aynî'ye taşındı)", gun:"Haziran 1827? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi · TDV `misir`, `kavalali-mehmed-ali-pasa`, `ibrahim-pasa-kavalali`, `ali-bey-bulutkapan` ay/gün vermiyor · Dikkat: 1 Haziran yıl ortası için yer tutucu olabilir", tur:"bilim", onem:5, dunya:2, kapsam:"ic", etiket:["bilim","konu-bilim","konu-egitim"], yer_id:"Kahire", d:"Mehmed Ali Paşa, ordusu için yerli hekim yetiştirmek amacıyla Kahire'de Kasrü'l-Aynî Tıp Mektebi'ni kurdurdu ve başına Fransız hekim Antoine Barthélemy Clot'yu (sonradan Clot Bey) getirdi. TDV'nin genel tıp maddesi Clot'nun Mısırlı meslektaşlarıyla yürüttüğü fikir alışverişine değinmekle birlikte kuruluşun kendi ayrıntılarına girmez. Okul, Osmanlı coğrafyasında modern tıp eğitiminin ilk kurumsal örneklerinden biri oldu ve tıbbiye-mühendishâne-matbaa üçlüsüyle birlikte Mısır'ın en erken modernleşme atılımının parçasıydı.", kaynak:"bulunamadı — TDV'nin 'tip' maddesi yalnız Clot'nun genel işbirliğine değiniyor, Kasrü'l-Aynî'nin kuruluş tarihini ve ayrıntılarını vermiyor; dayanak: standart akademik kaynak (Khaled Fahmy, All the Pasha's Men)" },
 
 { taraflar:["misir-kavalali"], t:"1827-10-20", b:"Navarin Baskını — Mısır donanmasının yakılması", tur:"savas", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","toprak-kayip","konu-askeri"], yer_id:"", d:"Yunan isyanını bastırmakta olan Osmanlı-Mısır donanması, savaş ilanı olmaksızın limana giren İngiliz-Fransız-Rus birleşik filosu tarafından Navarin'de yakıldı; altmışa yakın gemi ve binlerce denizci kaybedildi. Mısır için bu, on yıllık askerî yatırımın bir günde küle dönmesiydi — Mehmed Ali'nin filosunun yeniden inşası yıllar alacak, Navarin'in siyasi bedeli ise bir yıl sonra Mora'nın tamamen elden çıkmasıyla ödenecekti.", kaynak:"navarin (TDV) — data/olaylar.js:137'de zaten doğrulanmış, Mısır perspektifine uyarlandı", yer_kon:[36.913,21.696] },
 

@@ -95,7 +95,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Balšić hanedanının son idarecisi (Balša III), vârissiz ölümü öncesinde Zeta'yı akrabası Sırp despotu Stefan Lazarević'e miras bıraktı. Bu, Balšić hâkimiyetinin sonu ve Crnojević ailesinin yükselişine kadar geçen ara dönemin başlangıcıdır.",
   kaynak:"TDV `karadag`: '1421'de Balšići ailesinin son idarecisi Zeta'yı miras olarak Sırp despotuna bıraktı.'" },
 
-{ taraflar:["zeta"], t:"1451-01-01", b:"Crnojević ailesi Zeta'nın başına geçti", tur:"hukumdar",
+{ taraflar:["zeta"], t:"1451-01-01", ic_not_t:"Hrvatska enciklopedija 'Crnojevići': 'Stefan Crnojević (spominje se 1451–65) postaje 1452. mlet. vazal, dobivši naslov vojvode Gornje Zete' — 1451 ilk anılış; unvan 1452. İkinci kaynak bekleniyor. (KASA SALI kuyruğu L2-15; KASA PAZAR 4 Kasım 2026)", b:"Crnojević ailesi Zeta'nın başına geçti", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","siyaset","konu-siyasi","konu-hanedan"], yer_id:"", kapsam_genis:true,
   d:"Sırp despotluğunun zayıflamasıyla yerel bir feodal aile olan Crnojevići, Stefan Crnojević önderliğinde Zeta'nın fiilî hâkimi hâline geldi; merkezleri başlangıçta Žabljak Crnojevića idi.",
   kaynak:"bulunamadı — TDV `karadag` maddesi Crnojević hanedanının başlangıcını tarihlendirmiyor; dayanak: J.V.A. Fine, The Late Medieval Balkans, 1994." },
@@ -123,12 +123,12 @@ window.KRONOLOJI_BALKAN = [
 { taraflar:["zeta"], t:"1484-01-01", b:"Cetinje Manastırı kuruldu", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","imar","konu-siyasi","konu-kultur","konu-imar"], yer_id:"Cetinje",
   d:"İvan Crnojević, yeni başkentindeki Meryem Ana Manastırı'nı (Cetinje Manastırı) kendi vakfı olarak inşa ettirdi. Manastır, sonraki dört asır boyunca Karadağ Ortodoks kilisesinin ve piskopos-prensliğin fiilî merkezi olacaktı.",
-  kaynak:"bulunamadı — TDV `karadag` kuruluş tarihini vermiyor; dayanak: standart akademik kaynak (Cetinje Manastırı ve Karadağ Millî Kütüphanesi resmî tarihçeleriyle çapraz doğrulandı)." },
+  kaynak:"Hrvatska enciklopedija, CETINJE (https://enciklopedija.hr/clanak/cetinje) — «ondje podignuo dvor (1482) i manastir (1484) u koji se ubrzo preselio i zetski (poslije crnogorski) metropolit» (KASA SALI kuyruğu L2-21; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV `karadag` kuruluş tarihini vermiyor; dayanak: standart akademik kaynak (Cetinje Manastırı ve Karadağ Millî Kütüphanesi resmî tarihçeleriyle çapraz doğrulandı)." },
 
 { odak_yer:["Cetinje"], taraflar:["zeta"], t:"1490-01-01", b:"Đurađ Crnojević babasının yerine geçti", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"], yer_id:"", kapsam_genis:true,
   d:"İvan Crnojević'in ölümüyle oğlu Đurađ Crnojević Zeta'nın başına geçti; kısa hükümdarlığı (1490-1496) kültürel açıdan en parlak dönemlerden biri oldu — matbaanın kuruluşu bu döneme rastlar.",
-  kaynak:"bulunamadı — TDV tarih vermiyor; dayanak: standart akademik kaynak." },
+  kaynak:"Hrvatska enciklopedija, CRNOJEVIĆI (https://enciklopedija.hr/clanak/crnojevici) — «Njegov sin i nasljednik Đurađ (spominje se 1490–96) osnovao je 1493. tiskaru.» (KASA SALI kuyruğu L2-25; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV tarih vermiyor; dayanak: standart akademik kaynak." },
 
 { taraflar:["zeta"], t:"1493-01-01", b:"Đurađ Crnojević, Balkanlar'ın ilk Kiril matbaasını Cetine'de kurdu", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur","imar","islahat","konu-siyasi","konu-bilim","konu-kultur","konu-imar","konu-islahat"], yer_id:"Cetinje",
@@ -143,7 +143,7 @@ window.KRONOLOJI_BALKAN = [
 { odak_yer:["Cetinje","Venedik"], taraflar:["zeta"], t:"1496-01-01", b:"Đurađ Crnojević Venedik'e kaçtı, kardeşi Stefan Osmanlı'nın eline geçti", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi","konu-hanedan"], yer_id:"", kapsam_genis:true,
   d:"Osmanlı beyi Firuz Bey'in güçlü bir kuvvetle Zeta'ya girmesi üzerine Đurađ Crnojević direnmekten vazgeçip Venedik'e sığındı; yerine geçen kardeşi Stefan, fiilen Osmanlı'nın onayıyla hüküm süren bir yönetici konumuna düştü.",
-  kaynak:"bulunamadı — TDV bu ayrıntıyı vermiyor, yalnız 'Fâtih Sultan Mehmed döneminin son yıllarında tesis edilen ilk Osmanlı idaresi'nden bahsediyor; dayanak: standart akademik kaynak." },
+  kaynak:"Hrvatska enciklopedija, CRNOJEVIĆI (https://enciklopedija.hr/clanak/crnojevici) — «Za njegova boravka u Mlecima u Zeti je vladao (1496–99) Stefan kao osman. eksponent.» (KASA SALI kuyruğu L2-26; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV bu ayrıntıyı vermiyor, yalnız 'Fâtih Sultan Mehmed döneminin son yıllarında tesis edilen ilk Osmanlı idaresi'nden bahsediyor; dayanak: standart akademik kaynak." },
 
 { taraflar:["zeta"], t:"1499-01-01", b:"Zeta İşkodra Sancağı'na bağlandı", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","idari","konu-askeri","konu-idari"], yer_id:"İşkodra",
@@ -700,7 +700,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Krallığın en güçlü hükümdarı I. Tvrtko'nun ölümüyle merkezî otorite hızla zayıfladı; taht bir dizi kısa ömürlü kral arasında el değiştirdi ve büyük derebeyler (başta Hrvoje Vukčić Hrvatinić) fiilî iktidarı ele geçirdi. Krallığın 1390'da ulaştığı Dalmaçya kıyısı birkaç yıl içinde elden çıktı.",
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1391-01-01') · standart akademik kaynak (Fine, The Late Medieval Balkans)." },
 
-{ odak_yer:["Ösek (Osijek)","Visoko"], taraflar:["bosna-kralligi"], t:"1394-07-01", b:"Đakovo Antlaşması — Macar veraseti kabul edildi, sonra tanınmadı", tur:"antlasma",
+{ odak_yer:["Ösek (Osijek)","Visoko"], taraflar:["bosna-kralligi"], t:"1394-07-01", ic_not_t:"ÇELİŞKİ: Hrvatski biografski leksikon 'Kotromanići': Đakovo buluşması Mayıs 1393'te beklendi ama olmadı ('do sastanka nije došlo'); 1394'te Dobor anlaşması. Madde metni ve günü ikinci akademik kaynakla (Fine 1994) karşılaştırılmalı. (KASA SALI kuyruğu L2-12; KASA PAZAR 4 Kasım 2026)", b:"Đakovo Antlaşması — Macar veraseti kabul edildi, sonra tanınmadı", tur:"antlasma",
   onem:3, dunya:1, kapsam:"dis", etiket:["diplomasi","idari","konu-idari","konu-diplomasi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kral Stjepan Dabiša, Macar Kralı Sigismund'a bağlılığını tanıyıp erkek varisi olmaması hâlinde tahtın ona geçmesini kabul etti; karşılığında Somogy kontluğu unvanı aldı. Dabiša 1395'te ölünce Bosna soyluları bu antlaşmayı tanımayıp Sigismund yerine Kraliçe Jelena'yı seçti.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Fine, The Late Medieval Balkans) — gün/ay (Temmuz 1394) ikincil kaynaklardan çıkarıldı, ORTA güven." },
