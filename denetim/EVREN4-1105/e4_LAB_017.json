@@ -1,0 +1,662 @@
+{
+ "Münbiç": [
+  {
+   "dosya_satir": "data/yerlesimler_ek25.js:73",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1516-08-24",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Menbic (Menbic maddesi, c. 29, s. 123-124) — https://islamansiklopedisi.org.tr/menbic",
+   "alinti": "922’de (1516) Osmanlı Devleti’nin idaresine geçen Menbic Halep’e bağlı küçük bir şehir olarak varlığını sürdürdü.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (yıl düzeyi, 1516); f 1281 teyitsiz (TDV: 684/1285 Kalavun-Levon antlaşmasına göre Menbic Mısır şehirleri arasında = Memlük elinde, f'yi tarihlemez). Memlük sahipliği 1285 tanıklıdır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek25.js:73",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1516-08-24",
+   "t": "1918-10-30",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Menbic (c. 29, s. 123-124) — https://islamansiklopedisi.org.tr/menbic",
+   "alinti": "922’de (1516) Osmanlı Devleti’nin idaresine geçen Menbic Halep’e bağlı küçük bir şehir olarak varlığını sürdürdü.",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL teyitli (1516); gün 1516-08-24 (Mercidabık) teyitsiz, ülke olayı. TDV 1916'da Halep vilâyeti Antep sancağı kazası olduğunu da yazar (tahrir/idarî bağ). t 1918-10-30 bu kaynakla teyitsiz: TDV Fransız idaresine girişi 1921 verir (sonraki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek25.js:73",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1918-10-30",
+   "t": "1920-07-24",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Menbic (c. 29, s. 123-124) — https://islamansiklopedisi.org.tr/menbic",
+   "alinti": "1916’da Halep vilâyetine bağlı Antep sancağının kazalarından biri olan şehir 1921’de Fransızlar’ın idaresine girdi.",
+   "oneri": {
+    "karar": "1918-10-30 → 1920-07-24 Fransa dönemi kaynakla desteklenmiyor; Osmanlı d dönemi 1921'e kadar uzatılıp Fransız idaresi 1921'den başlatılmalı (gün için ikinci kaynak gerek)"
+   },
+   "not": "TDV Menbic'e göre Fransız idaresi 1921 (yıl). Atlasın 1918-10-30 → 1920-07-24 Fransa penceresiyle çelişir. Mütareke ön-işgal tarihi (1918-10-30) Menbic için tanıklı değil. ÖLÇÜT: geçici/askerî işgal yazılacaksa isg; kaynak susuyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek25.js:73",
+   "alan": "s",
+   "d": "suriye-lubnan-mandasi",
+   "f": "1920-07-24",
+   "t": "1946-04-17",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Menbic (c. 29, s. 123-124) — https://islamansiklopedisi.org.tr/menbic ; TDV Suriye — https://islamansiklopedisi.org.tr/suriye",
+   "alinti": "1916’da Halep vilâyetine bağlı Antep sancağının kazalarından biri olan şehir 1921’de Fransızlar’ın idaresine girdi.",
+   "oneri": {
+    "f": "1921"
+   },
+   "not": "Menbic'e özgü: Fransız idaresi 1921 (yıl; gün teyitsiz). TDV Suriye: Temmuz 1920 Meyselûn ülke düzeyi (Faysal dönemi bitti). 1946 baharı çekiliş: TDV Suriye. Ankara Antlaşması 1921-10-20 gün araştırması öneri (kaynak okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek25.js:73",
+   "alan": "s",
+   "d": "suriye-cumhuriyeti-1946",
+   "f": "1946-04-17",
+   "t": "1958-02-22",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Suriye — https://islamansiklopedisi.org.tr/suriye",
+   "alinti": "Fransa antlaşma taleplerinden vazgeçti ve 1946 baharında Suriye’yi terketmek zorunda kaldı.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f ucu yalnız yıl/mevsim (1946 bahar); gün 1946-04-17 teyitsiz. t 1958-02-22: TDV 'Şubat 1958' (ay)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek25.js:73",
+   "alan": "s",
+   "d": "suriye-arap-cumhuriyeti",
+   "f": "1961-09-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Suriye — https://islamansiklopedisi.org.tr/suriye",
+   "alinti": "Eylül 1961’de Suriye’de gerçekleştirilen askerî ihtilâl Birleşik Arap Cumhuriyeti’ni sona erdirdi.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f ucu ay düzeyinde teyitli (Eylül 1961); gün 28 teyitsiz."
+  }
+ ],
+ "Purwokerto": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:305",
+   "alan": "s",
+   "d": "sunda-pajajaran",
+   "f": "1281-01-01",
+   "t": "1526-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV Endonezya (islamansiklopedisi.org.tr/endonezya) okundu: Pajajaran geçmiyor; Banyumas/Purwokerto'ya özgü akademik kaynak bulunamadı (UNY öğrenci dergisi PDF'i okunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Purwokerto/Banyumas'ın Pajajaran'a bağlılığı kaynaksız ve şüpheli. Arama özeti (okunmadı, ipucu): Banyumas Pajang/Demak/Mataram altında Mancanegara Kilen idi, Pajajaran/Majapahit geçmiyor. Sunda-Pajajaran sahipliği yeniden sorgulanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:305",
+   "alan": "s",
+   "d": "banten-sultanligi",
+   "f": "1526-01-01",
+   "t": "1677-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV Endonezya; web arama (Mataram/Banyumas)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Banten'in Purwokerto'yu kapsadığına dair kaynak yok; TDV Endonezya'ya göre Sultan Agung (1613-1646) Batavya hariç adanın tamamını Mataram fethetti ama bu satırı doğrulamaz. Büyük olasılıkla hatalı sahiplik (ipucu: Banyumas Mataram bölgesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:305",
+   "alan": "s",
+   "d": "mataram-sultanligi",
+   "f": "1677-01-01",
+   "t": "1743-11-11",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV Endonezya",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV 1677'yi Priangan ve Semarang VOC devri için verir (Banyumas değil). Banyumas'ın Mataram'da kaldığı ipucu (arama özeti, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:305",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1743-11-11",
+   "t": "1811-08-18",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV Endonezya; web arama",
+   "alinti": "",
+   "oneri": {},
+   "not": "1743 devri (Pakubuwono II kıyı/doğu) Banyumas'ı kapsıyor mu bilinmiyor; ipucu: Mancanegara Kilen 1830 Cava Savaşı sonrası Hollanda'ya geçti. Doğrudan kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:305",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Endonezya (c. 11, s. 204-209) — https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "1942-1945 yılları arasındaki Japon dönemi, hem bağımsızlık hareketinin geliştiği hem de İslâm’ın siyasî alandaki gücünün arttığı bir dönem oldu.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yalnız YIL (1942, 1945). Gün 1942-03-09 / 1945-09-02 teyitsiz. TDV Açe maddesi 1942-1946 der (iç çelişki)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:305",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Açe — https://islamansiklopedisi.org.tr/ace",
+   "alinti": "Hollanda, bölgedeki hükümranlık haklarını 27 Aralık 1949’da Endonezya Devleti’ne devretti.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, gün teyitli (devir günü). TEK ÖLÇÜ: devir imza/teslim farkı ayrıca ölçülmedi."
+  }
+ ],
+ "Samudra Pasai": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4053",
+   "alan": "s",
+   "d": "samudra-pasai",
+   "f": "1281-01-01",
+   "t": "1521-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Açe (Numan Kurtulmuş) — https://islamansiklopedisi.org.tr/ace",
+   "alinti": "1521’de Pasai’yi ele geçirmeleri üzerine bu sultanlık yıkıldı.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1521, yıl). f 1281: TDV 'XIII. yüzyılda kurulduğu bilinmektedir', ilk hükümdar ö. 1297; 1281 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4053",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1521-01-01",
+   "t": "1524-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Açe — https://islamansiklopedisi.org.tr/ace",
+   "alinti": "Portekiz kuvvetlerinin 1521’de Pasai’yi ele geçirmeleri üzerine bu sultanlık yıkıldı.",
+   "oneri": {},
+   "not": "f ucu yalnız yıl teyitli (1521). Portekiz yönetiminin kaç yıl sürdüğü (t 1524) kaynakta yok. ÖLÇÜT: idareye katma belgesi okunmadı; kaynak susuyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4053",
+   "alan": "s",
+   "d": "ace-sultanligi",
+   "f": "1524-01-01",
+   "t": "1903-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Açe — https://islamansiklopedisi.org.tr/ace",
+   "alinti": "Son Açe Sultanı Tunku Muhammed Dâvûd’un 1903’te Hollandalılar’a boyun eğmesinden sonra",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1903, yıl). f 1524 teyitsiz: TDV Açe İslâm Sultanlığı'nın 1521'de Açe bölgesinde kurulduğunu yazar ama Pasai'nin Açe'ye katılma yılı verilmiyor (1524 için ikinci kaynak lazım)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4053",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1903-01-01",
+   "t": "1942-03-09",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Açe — https://islamansiklopedisi.org.tr/ace",
+   "alinti": "Son Açe Sultanı Tunku Muhammed Dâvûd’un 1903’te Hollandalılar’a boyun eğmesinden sonra bölge idarî bakımdan koloni idaresine bağlı kaldı",
+   "oneri": {},
+   "not": "f ucu yalnız yıl teyitli (1903); gün teyitsiz. ÖLÇÜT: idareye katma — koloni idaresine bağlandı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4053",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Açe — https://islamansiklopedisi.org.tr/ace",
+   "alinti": "1942-1946 yılları arasında bütün Uzakdoğu takımadaları ile beraber Açe toprakları da Japonya tarafından işgal edildi.",
+   "oneri": {},
+   "not": "f ucu yalnız yıl (1942). ÇELİŞKİ: bu madde bitişi 1946 yazar; TDV Endonezya 1942-1945. t 1945-09-02 teyitsiz. Savaş işgali: isg mi s mi — kaynak susuyor (atlas mevcut s:meiji-japonya)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4053",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Açe — https://islamansiklopedisi.org.tr/ace",
+   "alinti": "Hollanda, bölgedeki hükümranlık haklarını 27 Aralık 1949’da Endonezya Devleti’ne devretti.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, gün teyitli (devir günü). Not: aynı maddede Hollanda 'Sabang adasını işgal etti' ve iç savaş geçer; Açe'nin 1945-49 fiilî durumu ölçülmedi."
+  }
+ ],
+ "Mîle": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:619",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kostantîne — https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "Hafsîler’e geçen Kostantîne’nin idaresi hânedandan bir emîre verildi.",
+   "oneri": {
+    "d": "hafsi"
+   },
+   "not": "ABİ MERKEZ: Kostantîne (Mîle'ye özgü kaynak bulunamadı). TDV: Kostantîne 627/Aralık 1229'dan Hafsîlerde; Zeyyânî (Tilimsân) zinciri Kostantîne için geçmiyor. BEYANLI YAKLAŞIKLIK: Mîle'nin Kostantîne'ye bağlılığı kaynaksız. Hafsî/Merînî el değişimleri 14. yy."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:619",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kostantîne — https://islamansiklopedisi.org.tr/kostantine",
+   "alinti": "ancak 940’ta (1533-34) Osmanlılar bir garnizon kurarak tam hâkimiyet sağladılar.",
+   "oneri": {
+    "f": "1533"
+   },
+   "not": "ABİ MERKEZ: Kostantîne. TDV: Mercier'e göre 1519/1520'de zaptedildi, Hafsîler 1526'da geri aldı, bir yıl sonra tekrar Osmanlı, tam hâkimiyet 1533-34 (ölçüt: garnizon/idare, tahrir yok). İki ucu çelişir; atlas 1519-09-01 ile uyumsuz. Yıl düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:619",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Cezayir (c. 7, s. 486-489) — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "beylerbeyiler devri (1518-1587), paşalar devri (1587-1659), ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f 1671 ve t 1830 YIL düzeyi; t gün 1830-07-05: TDV 'Fransızlar... 5 Temmuz 1830 günü Cezayir şehrini işgal ettiler' (Cezayir şehri, Mîle değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:619",
+   "alan": "v",
+   "d": "konstantin-beyligi",
+   "f": "1830-07-05",
+   "t": "1837-10-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Cezayir — https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Ahmed Bey’in denetiminde bulunan Kostantîne şehrini ele geçirdiler (13 Ekim 1837).",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Kostantîne'nin düşüşü; Mîle'nin Fransız eline geçiş günü değil, ABİ MERKEZ). f 1830-07-05 Cezayir şehri günü; Kostantîne beyliğinin başlangıcı yazılı değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:619",
+   "alan": "s",
+   "d": "cezayir",
+   "f": "1962-07-05",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV Cezayir (1 Temmuz 1962 referandum; 5 Temmuz bağımsızlık günü yok), TDV Kostantîne ('Cezayir’in bağımsızlığa kavuşmasından (1962) sonra')",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV yalnız yıl 1962 ve 1 Temmuz referandumu veriyor; 5 Temmuz günü TDV'de bulunamadı. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Notse": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:719",
+   "alan": "s",
+   "d": "eve-notse",
+   "f": "1281-01-01",
+   "t": "1884-07-05",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Web arama (Notsé/Ewe), TDV Togo'ya bakılmadı; akademik kaynak okunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arama özetleri (ipucu): Notsé 15.-18. yy şehir-devlet, Ewe göçü Agokoli (~1670-1720), kaynaklar sömürge dönemi anlatısı; 1281 başlangıcı ve 1884 sonu tarihlenemedi. Not: 1884 yalnız kıyı (Togoville) protektorası, Notsé iç bölge idaresi 1890 civarı (ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:719",
+   "alan": "s",
+   "d": "alman-togo",
+   "f": "1884-07-05",
+   "t": "1914-08-26",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Web arama (arama özeti, okunmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arama özeti: Almanlar 1884 kıyı, 1890'da iç bölge; Notsé için tahrir/idare belgesi yok. f 1884-07-05 muhtemelen kıyı protektora günü (Nachtigal), iç bölge için yaklaşık."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:719",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1914-08-26",
+   "t": "1922-07-20",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Web arama: Togo Fransız işgali 1914 Notsé için kaynak bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "1914-08-26 Alman teslimi; Fransız bölgesi sınırı Notsé'yi kapsıyor mu — kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:719",
+   "alan": "s",
+   "d": "fransiz-togo",
+   "f": "1922-07-20",
+   "t": "1960-04-27",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Okunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Milletler Cemiyeti B-mandası onay günü yalnız FRUS alıntısı ile (zincirde); yeni okuma yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:719",
+   "alan": "s",
+   "d": "togo",
+   "f": "1960-04-27",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Okunamadı (Britannica 403, encyclopedia.com 404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincirde 1960-04-27 Office of the Historian TANIMA günü ('The United States recognized...'), bağımsızlık ilan günü olmayabilir; kaynak okunmadı."
+  }
+ ],
+ "Natchez (Grand Village)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:855",
+   "alan": "s",
+   "d": "natchez",
+   "f": "1281-01-01",
+   "t": "1731-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "Mississippi Encyclopedia (Natchez Indians / Natchez) sayfaları metin vermedi; Britannica 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "Natchez Savaşları 1729-1731, Grand Village 1730 sonrası terk (ipucu, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:855",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1731-01-01",
+   "t": "1763-02-10",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Mississippi Encyclopedia, Britannica, encyclopedia.com denendi; metin okunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Fransa Natchez'te Fort Rosalie 1716'dan beri (ipucu). 1763-02-10 Paris Antlaşması imza günü ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:855",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1779-09-21",
+   "t": "1798-04-07",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Arama özetleri (NPS chronology: kurum portalı=ipucu; tarihî işaret: Fort Panmure'a İspanyol girişi 5 Ekim 1779; Cambridge 'The Americas' makalesi erişilemedi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İPUCU: Natchez'in İspanyol eline geçişi 1779-10-05 (Baton Rouge 1779-09-21 değil); atlas f 09-21 şüpheli. İspanyol çekilişi 1798 (ay/gün okunamadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:855",
+   "alan": "s",
+   "d": "abd",
+   "f": "1798-04-07",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Arama özeti: Mississippi Territory 7 Nisan 1798 (Wikipedia, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mississippi Territory kuruluş günü ile fiilî İspanyol çekilişi (Mart 1798) ayrı günler olabilir; kaynak okunmadı."
+  }
+ ],
+ "Nâbil (Nabeul)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:383",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "6 Cemâziyelevvel 982’de (24 Ağustos 1574) yapılan büyük hücum sonunda ele geçirildi.",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 için ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI. | ÜLKE DÜZEYİ (Tunus). alıntı yalnız t ucunu tarihliyor: Halkulvâdî 24 Ağustos 1574; aynı madde 'Sinan Paşa 12 Eylül 1574’te Tunus’u geri aldı' der — TDV içinde iki gün, seçilmedi. Hafsîler '1228-1574' (yıl). f 1281 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:383",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "6 Cemâziyelevvel 982’de (24 Ağustos 1574) yapılan büyük hücum sonunda ele geçirildi.",
+   "oneri": {
+    "f": "1574-08-24"
+   },
+   "not": "ÖNCEKİ KARAR (gece-61): 1574 için ABİ MERKEZ Tunus 1574-09-12 (TDV) BEYANLI. | ÜLKE DÜZEYİ. TDV Halkulvâdî düşüşü 24 Ağustos 1574; Tunus şehri 12 Eylül 1574. Atlas 08-25 ile bir gün fark; iki TDV günü beyan, Nabeul'e özgü gün yok. Künye hafsi t 1574-09-13."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:383",
+   "alan": "v",
+   "d": "tunus-ocagi",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "Tunus’ta 1631’de Murâdî, 1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi olunca",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f ucu yalnız YIL teyitli (1705); gün 07-12 teyitsiz. t: Bardo 12 Mayıs 1881 (sonraki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:383",
+   "alan": "v",
+   "d": "tunus-beyligi-fransiz",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Tunus — https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını duyurdular.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, gün teyitli (imza). Mersa Antlaşması 8 Haziran 1883 'resmen idaresine girdi' (TDV). t 1923-10-29 Osmanlı sonu; himaye 1956'ya sürer. Zincirde aynı dönemde isg fransa-cumhuriyet 1881-1923 çift kayıt (v ile çelişir, Tunus emsali yalnız v)."
+  }
+ ],
+ "Piteşti": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2497",
+   "alan": "s",
+   "d": "eflak",
+   "f": "1330-01-01",
+   "t": "1462-06-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eflak — https://islamansiklopedisi.org.tr/eflak",
+   "alinti": "Macarlar’ı 1330 yılında Posada mevkiinde yenerek istiklâlini ilân etti.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Eflak), f ucu yalnız YIL. t 1462-06-01 bu satırın kaynağı değil (bkz. sonraki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2497",
+   "alan": "v",
+   "d": "eflak",
+   "f": "1462-06-01",
+   "t": "1859-02-05",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eflak — https://islamansiklopedisi.org.tr/eflak",
+   "alinti": "Nihayet 1417’de Osmanlılar’ın üstün kuvveti karşısında daha fazla dayanamayacağını anlayıp Osmanlı hükümranlığını kabul etti.",
+   "oneri": {
+    "f": "1417-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (EMRELİC gece-51): Eflak v: osmanli 1417 (ilk haraç) [yalnız yıl]; 'tam' bağlılık ic_not. | ÜLKE DÜZEYİ. TDV: Mircea 1417'de Osmanlı hükümranlığını kabul etti (yıl); 1462 Mehmed II seferi sonrası Radu 'tam anlamıyla İstanbul’a tâbi oldu ve vergisini ödedi'. Atlas f=1462-06-01 'tam tâbiiyet' ölçütüyse kalır; çelişen iki tanım, seçilmedi. t 1859: TDV 'Her iki ülke 1859’da ... Cuza’yı başkan seçti'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2497",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV Eflak ve TDV Memleketeyn okundu: 1806 Rus girişi yok. Zincirde yalnız ESBE (ipucu) var",
+   "alinti": "",
+   "oneri": {},
+   "not": "ESBE tek dayanak (ipucu). Bakılan: islamansiklopedisi.org.tr/eflak, /memleketeyn. İşgal ölçütü: Rus idaresi (geçici/askerî) beklenir, kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2497",
+   "alan": "v",
+   "d": "romanya",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eflak — https://islamansiklopedisi.org.tr/eflak ; TDV Romanya — https://islamansiklopedisi.org.tr/romanya",
+   "alinti": "Her iki ülke 1859’da Albay Alexandru Ioan Cuza’yı (Kuza) başkan seçti.",
+   "oneri": {
+    "f": "1417-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (EMRELİC gece-51): Eflak v: osmanli 1417 (ilk haraç) [yalnız yıl]; 'tam' bağlılık ic_not. | ÜLKE DÜZEYİ. f ucu yalnız YIL (1859). t ucu: TDV Romanya 'Romanya Prensliği ... 9 Mayıs 1877 tarihinde bağımsızlığını ilân etti' — Jülyen 9 Mayıs = Gregoryen 21 Mayıs 1877, atlas t ile uyumlu (t günü teyitli)."
+  }
+ ],
+ "Recife": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1342",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1537-01-01",
+   "t": "1549-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "encyclopedia.com 'Dutch Colonial Brazil' (Enc. of Latin American History and Culture) okundu: 1530'lar Pernambuco kuruluşu yok; Britannica 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "1537 yer_kaynak'ta tek kaynaklı iddia. t 1549 DEVRALMA kaynağı (Arzila boşaltması, Fas) Recife ile ilgisiz — kaynak bağı yanlış. Kaptanlık hibesi/Olinda kuruluşu (1534-35, ipucu) ayrıca doğrulanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1342",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1549-01-01",
+   "t": "1630-02-16",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Encyclopedia of Latin American History and Culture, 'Dutch Colonial Brazil' — https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/dutch-colonial-brazil",
+   "alinti": "In February of 1630, a Dutch West India Company fleet of sixty-seven ships and more than 7,000 men",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (Şubat 1630, ay düzeyi; metin Olinda, Recife ve Antônio Vaz'ın alındığını söyler). f 1549 (genel vali) teyitsiz; DEVRALMA kaynağı Arzila, ilgisiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1342",
+   "alan": "s",
+   "d": "hollanda-brezilyasi",
+   "f": "1630-02-16",
+   "t": "1654-01-26",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Encyclopedia of Latin American History and Culture, 'Dutch Colonial Brazil' — https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/dutch-colonial-brazil",
+   "alinti": "In February of 1630, a Dutch West India Company fleet of sixty-seven ships and more than 7,000 men",
+   "oneri": {},
+   "not": "f ucu AY düzeyinde teyitli (Şubat 1630: Olinda, Recife, Antônio Vaz alındı). Gün 02-16 Olinda'ya ait (künye); Recife'nin kesin günü bu metinde yok (arama özeti, ipucu: 3 Mart 1630)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1342",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1654-01-26",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Encyclopedia of Latin American History and Culture, 'Dutch Colonial Brazil' — https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/dutch-colonial-brazil",
+   "alinti": "On 28 January 1654, the victorious Portuguese insurgents, led by Barreto, entered Recife.",
+   "oneri": {
+    "f": "1654-01-28"
+   },
+   "not": "TEK ÖLÇÜ: Portekiz Recife'yi fiilen yönetmiyordu → TESLİM günü 1654-01-28; Taborda kapitülasyonu İMZA 'On 26 January 1654' (aynı sayfa). Atlas 01-26 imza günü; ölçüye göre 01-28. Karar Emre'nin."
+  }
+ ],
+ "Reşadiye (İskefsir)": [
+  {
+   "dosya_satir": "data/yerlesimler_anadolu_0914.js:105",
+   "alan": "s",
+   "d": "trabzon-rum",
+   "f": "1281-01-01",
+   "t": "1350-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ordu (şehir) — https://islamansiklopedisi.org.tr/ordu--sehir ; TDV Hacıemîroğulları slug'ı bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Ordu: bölge Trabzon Rum Devleti sınırlarında kaldı, 1270-1380 sürecinde Türkler fethetti; İskefsir için 1350 günü/yılı yok. Sınır yakınında Türkmen ilerleyişi; 1350 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_anadolu_0914.js:105",
+   "alan": "s",
+   "d": "haciemir",
+   "f": "1350-01-01",
+   "t": "1427-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ordu (şehir) — https://islamansiklopedisi.org.tr/ordu--sehir",
+   "alinti": "Hacıemîroğulları Beyliği 1427’de Osmanlılar tarafından ilhak edildi.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1427, yıl; atlas 1427-06-01 gün teyitsiz). f 1350 TDV'de yok. Metin İskefsir'i fetih sırasında Türkler'e teslim olan kaleler arasında sayar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_anadolu_0914.js:105",
+   "alan": "v",
+   "d": "haciemir",
+   "f": "1398-06-01",
+   "t": "1402-07-28",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ordu (şehir) ('Clavijo 1404 ... Hacı Emîr’in yönetimi altında'); Hacıemîroğulları ayrı maddesi slug'la açılamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "1398-1402 Osmanlı tâbiliği TDV Ordu'da yok; Clavijo 1404 beyi bağımsız anar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_anadolu_0914.js:105",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1427-06-01",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ordu (şehir) — https://islamansiklopedisi.org.tr/ordu--sehir",
+   "alinti": "Hacıemîroğulları Beyliği 1427’de Osmanlılar tarafından ilhak edildi.",
+   "oneri": {},
+   "not": "f ucu YALNIZ YIL (1427). TAHRİR ÖLÇÜTÜ: aynı maddede 859 (1455) tahrir defterinde bölge 'vilâyet-i Canik-i Bayramlu maa İskefsir ve Milas' kayıtlı; 954 (1547) İskefsir kazası Şarkîkarahisar sancağında. t 1920-04-23 TBMM kural günü."
+  }
+ ]
+}
