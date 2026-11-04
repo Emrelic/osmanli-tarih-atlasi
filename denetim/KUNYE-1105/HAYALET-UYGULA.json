@@ -317,5 +317,16 @@
   "islem": "Namibya yerleşimleri: 1915-07-09 → 1919-06-27 isg guney-afrika-birligi; 1919-06-28 → 1920-12-16 s: guney-afrika-birligi; 1920-12-17'den s: guneybati-afrika-mandasi. AYNI COMMIT'te kronoloji_sinir_afrika.js'e madde: {t:'1919-06-28', devlet:'guney-afrika-birligi', taraflar:['almanya','guney-afrika-birligi'], odak_yer:['Vindhuk (Windhoek)'], b:'Versay: Almanya Güneybatı Afrika'dan feragat etti; idare Güney Afrika Birliği'nde', tur:'antlasma'}. Mevcut 1920-12-17 maddesi (kronoloji_sinir_afrika.js:11) KALIR.",
   "dayanak": "Versay Antlaşması md. 119 (1919-06-28); MC Konseyi C-mandası şartları 1920-12-17 — EMRELİC gece-31",
   "onay": "EMRELİC 6 Kasım gece-31"
+ },
+ {
+  "d": "ispanyol-kuba / kuba-cumhuriyeti",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "ispanyol-kuba t 1898-12-10 → 1899-01-01 · kuba-cumhuriyeti f 1902-05-19 → 1902-05-20",
+  "gun": "1899-01-01 / 1902-05-20",
+  "islem": "ispanyol-kuba t → 1899-01-01 (Havana teslimi, fiilî idare); ic_not_t: 'Paris Antlaşması feragati 1898-12-10'. kuba-cumhuriyeti f → 1902-05-20 (TEK ÖLÇÜ: ABD idareyi 20 Mayıs öğlen devretti); ic_not_f aynen: history.state.gov/countries/cuba «formally installed May 19 / On May 20 …» (LAB PAZAR sayfa.py ile okudu). Küba yerleşimleri 1899-01-01 → 1902-05-19 s: abd + BEYAN ('ABD Askerî Hükûmeti; künye adayı kuba-abd-askeri-hukumeti') — künye açılınca d: o id. DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1898-12-10, 1899-01-01, 1902-05-19/20 tarihli KÜBA maddesi YOK (1899-01-01'de yalnız Nairobi maddesi) → iki kırılma için madde önerisi: 1899-01-01 'Havana'da İspanyol idaresi ABD'ye devredildi' (taraflar ispanyol-kuba, abd) ve 1902-05-20 'Küba Cumhuriyeti kuruldu; ABD askerî idaresi sona erdi' (taraflar abd, kuba-cumhuriyeti), yer_id Havana. (LAB PAZAR da KASA'ya yazıyor — mükerrer madde açılmasın.)",
+  "dayanak": "history.state.gov/countries/cuba (LAB PAZAR okudu); EMRELİC kararı",
+  "onay": "EMRELİC 6 Kasım gece-31"
  }
 ]
