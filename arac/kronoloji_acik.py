@@ -39,13 +39,23 @@ def basliklar():
 def main():
     B = basliklar()
     satir = []
-    for yol in sorted(glob.glob(os.path.join(D, "oneri_*_dogrulama.tsv"))):
+    yollar = sorted(glob.glob(os.path.join(D, "oneri_*_dogrulama.tsv")))
+    # YENI* partileri (yeniden arama) önceki partideki aynı numaralı satırın yerine geçer
+    yenilenen = set()
+    for yol in yollar:
+        if "_YENI" in os.path.basename(yol):
+            with open(yol, encoding="utf-8") as f:
+                yenilenen |= {r.get("no", "") for r in csv.DictReader(f, delimiter="\t")}
+    for yol in yollar:
         parti = os.path.basename(yol).replace("oneri_", "").replace("_dogrulama.tsv", "")
         anahtar = "L2" if parti.startswith("L2") else "001-050"
+        yeni_parti = "_YENI" in os.path.basename(yol)
         with open(yol, encoding="utf-8") as f:
             for r in csv.DictReader(f, delimiter="\t"):
                 s = (r.get("sonuc") or "").strip()
                 if s not in ("CEKILEMEDI", "BULUNAMADI"):
+                    continue
+                if not yeni_parti and r.get("no", "") in yenilenen:
                     continue
                 no = (r.get("no") or "").replace("L2-", "").split("-")[0]
                 if (anahtar, no) in COZULDU:

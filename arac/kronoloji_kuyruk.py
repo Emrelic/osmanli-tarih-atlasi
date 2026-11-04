@@ -15,6 +15,7 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    "L2-898": "Hun Sen 1985-01-14: tek dayanak Encyclopedia.com (Gale künyesi doğrulanmadı) → ikinci kaynak gelmeden kaynak yenilenmez",
     # L2E 927-951 (EMRELİC)
     "L2-1326": "Brabant 1354 → 1356-01-03 (Joyeuse Entrée) adayı: dayanak yalnız Persée'deki eser başlığı → KISMEN; metin okunmadan uygulanmaz (EMRELİC)",
     # L2S 423-447 (S13)
@@ -211,6 +212,18 @@ METIN = [
     ("L2-1409", "Paris Lodron: kaptıl seçimi 1619-11-13 (NDB); 1621 papalık onayı ayrı olay → ic_not"),
     ("L2-1417", "[BEKLE — bölüşme günü yok] Pomeranya: kaynaktaki 10 Mart 1637 Bogislaw XIV'ün ölümüdür, bölüşme değil → olay ve gün yeniden"),
     ("L2-1420", "[BEKLE — ipucu, DIB okunamadı] 1641 ayaklanması: DNB'ye göre Charlemont 22 Ekim akşamı alındı, 23 değil"),
+    # L2S YENI520-541 (S15)
+    ("L2-880", "Cibuti Paris yuvarlak masası: açılış 28 Şubat 1977, anlaşma 19 Mart 1977 (Universalis) → iki gün ayrılır"),
+    ("L2-882", "[BEKLE — oran çelişkili] Cibuti referandumu 8 Mayıs 1977 (BM A/32/107/Add.1) gün tutar; «%99,75» BM ön tablolarında yok (bölge %95,7-99,3), Universalis %98,8 → oran çıkarılır ya da kaynaklanır"),
+    ("L2-892", "Kolingba 1 Eylül 1981 (Larousse Journal de l'année 1982): Larousse «karşılıklı rıza ile darbe» der → «devirip» yumuşatılır"),
+    ("L2-894", "CGDK: Kuala Lumpur deklarasyonu imzası 22 Haziran 1982 (BM A/37/307), hükümetin resmî ilanı 9 Temmuz 1982 (A/37/340) → Kural 8 ayrımı; «Tayland sınırında» belgede yok"),
+    ("L2-896", "[BEKLE — tek dayanak Vikipedi] Grenada: Coard'ın 14 Ekim 1983'te başbakanlığı devraldığı akademik kaynakta yok; Bishop'un 19 Ekim'e dek konumu belirsiz"),
+    ("L2-891", "Kampuçya anayasası: Ulusal Meclis 24-27 Haziran 1981 oturumunda kabul (BM A/36/352); kabul günü belirtilmemiş, 27 Haziran telgraf tarihi → «[gün teyitsiz]»"),
+    # L2S 579-590 (S18)
+    ("L2-939", "Ravi Varma (Venad): Sastri'de Pândya/Çola topraklarına yürüyüş 1299 tahta çıkışla değil 1312 sonrası olaylarla geçer → metin ayrılır"),
+    ("L2-941", "Codex Cumanicus 1303: Kuun 1880 baskısında «Suğdak» adı okunmadı; «Codex Venetianus anno 1303 conscriptus» yalnız Latin-Fars-Kuman ilk bölüm için → ifade daraltılır"),
+    ("L2-945", "[BEKLE — yıl uyuşmazlığı] Varangal: Haig (CHI III, 1928) 1308, modern kaynaklar 1309-10; Koh-i Nûr rivayeti Haig'de yok"),
+    ("L2-950", "Ravi Varma Kançi 1312 (Sastri, History of South India s.231, «till about 1312»): taç giyme ve «kendini hükümdar ilân etti» Sastri'de yok; seferi 1317'de Kakatiya ordusu bozdu, «Delhi seferleri bozdu» değil → metin düzeltilir"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
@@ -280,6 +293,23 @@ METIN = [
 ]
 # Sonraki okumayla yerine yenisi gelen satırlar (aynı madde, eski öneri).
 GECERSIZ = {
+    ("L2E_520-541", "L2-880"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-881"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-882"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-884"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-885"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-886"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-887"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-888"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-890"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-891"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-892"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-894"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-895"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-896"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-897"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-898"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
+    ("L2E_520-541", "L2-899"): "L2S_YENI520-541 satırı geçerli (önceki ajan aramamıştı; yeniden arandı)",
     ("L2_101-150", "L2-138"): "TARAYICI5 satırı geçerli (1919-04-11 oylama, Cambridge EAMIO böl.6)",
     ("001-050", "44"): "Sardinya: 051-061 44-ek satırı geçerli (1720-09-02 Treccani, koordinatör kararı)",
 }
