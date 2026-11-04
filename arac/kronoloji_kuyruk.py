@@ -115,6 +115,19 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2E 1779-1814: Goryeosa (Academia Sinica, EMRELİC) + Japon satırları (NAOJ ECO, KASA SALI); atlasla aynı
+    "L2-2229": "Takvim: Goryeo Injong 13/1 (朔 乙巳 = 1135-01-16) 辛亥 = 1135-01-22 (Academia Sinica)",
+    "L2-2230": "Takvim: Injong 13/1 辛未 = 1135-02-11 (Academia Sinica)",
+    "L2-2231": "Takvim: Injong 14/5 (朔 戊辰 = 1136-06-02) 己卯 = 1136-06-13 (Academia Sinica)",
+    "L2-2245": "Takvim: Jishō 4/10/15 甲午 = 1180-11-04 Jülyen (NAOJ ECO)",
+    "L2-2246": "Takvim: Jishō 4/10/15 甲午 = 1180-11-04 Jülyen (NAOJ ECO)",
+    "L2-2247": "Takvim: Yōwa 1/8/13 丁巳 = 1181-09-23 Jülyen (NAOJ ECO)",
+    "L2-2250": "Takvim: Juei 3/2/4 癸亥 = 1184-03-17 Jülyen (NAOJ ECO)",
+    "L2-2251": "Takvim: Bunji 1/11/12 辛卯 = 1185-12-05 Jülyen (NAOJ ECO)",
+    "L2-2252": "Takvim: Bunji 1/11/28 丁未 = 1185-12-21 Jülyen (NAOJ ECO)",
+    "L2-2253": "Takvim: Bunji 1/11/29 戊申 = 1185-12-22 Jülyen (NAOJ ECO; Azuma Kagami j.5)",
+    "L2-2254": "Takvim: Bunji 1/11/29 戊申 = 1185-12-22 Jülyen (NAOJ ECO; Azuma Kagami j.5)",
+    "L2-2264": "Takvim: Yuan shi j.1 Taizu 11 丙子, 10. ay ≈ 1216-11-11…12-09 (Academia Sinica) — atlas yıl düzeyinde, yalnız ay",
     "L2-1119": "Takvim: Genroku 2/3/27 = 1689-05-16 Gregoryen (NAOJ ECO; Nihon Kokugo Daijiten) — atlasla aynı",
     # LAB L2L / HAVVA L2H Çin satırları (Academia Sinica, EMRELİC; (JDN+49) mod 60 çapraz; atlasla aynı)
     "L2-1903": "Takvim: Kuzey Qi Tianbao 1/5 戊午 = 550-06-09 (ay cümlede yok, Bei Qi shu'dan) (Academia Sinica)",
@@ -261,6 +274,13 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    # L2E 1779-1814 (EMRELİC) + NAOJ (KASA SALI)
+    "L2-2249": ("tarih düzelt", "1183-08-01 → 1183-08-14: Takvim: Juei 2/7/25 丁亥 = 1183-08-14 Jülyen (NAOJ ECO) — atlas ayın başı"),
+    "L2-2243": ("tarih düzelt", "Lý Anh Tông 1175-01-01 → 1175-08-14: Toàn thư, 乙未 Chunxi 2, 7. ay 乙巳 (26. gün) = 1175-08-14 (Academia Sinica, Song takvimi; EMRELİC) — Đại Việt takvimi ±1 gün → ic_not"),
+    "L2-2261": ("tarih düzelt", "1210-01-01 → 1210-11-15: Daiyue shiji 庚午 (Jiading 3), 10. ay 28. gün 壬午 = 1210-11-15 (Academia Sinica; 30 günlük ay tutarlı; EMRELİC)"),
+    "L2-2263": ("tarih düzelt", "Gazne'nin düşüşü 1214 → 1215-12-01 + hicrî beyan: TDV Şâban 612 / Aralık 1215; Şâban 612 ≈ 1215-11-25…12-23 Jülyen (tabüler) ∩ Aralık → kesişimin ilk günü 1215-12-01; «Lahor Kabâce'ye» kaynakta yok — Yıldız Lahor'u Kabâce'yi yenerek aldı (EMRELİC)"),
+    "L2-2256": ("tarih düzelt", "Otto I 1190 → 1188: NDB 1188 (belge), en geç Nisan 1189; atlas 1190 EB1911 saltanat aralığına dayanır (EMRELİC)"),
+    "L2-2237": ("tarih düzelt", "Foix Roger-Bernard I 1148 → 1149: Gran Enciclopèdia Catalana Roger-Bernard I 1149-88, Roger III 1124-48 → 1148/1149 ic_not'ta beyan (EMRELİC)"),
     "L2-1120": ("tarih düzelt", "Charnock Kalküta 1690-08-24 → 1690-09-03 Gregoryen: İngiliz Doğu Hindistan Şirketi kaydı O.S. — «24 Ağustos 1690» Jülyen'de Pazar, Gregoryen'de Perşembe (haftanın günüyle ölçüldü); Banglapedia ve Calcutta Past and Present 24 Ağustos (O.S.), TDV 1690 → ic_not iki gün; «üç köyü birleştirerek» TDV ve Banglapedia'da yok; 2003 Kalküta Yüksek Mahkemesi Charnock'ı «kurucu» saymaz"),
     "L2-1110": ("tarih düzelt", "Üç Senyörlük İsyanı 1673-12-01 → 1673-12-28: Hummel, Eminent Chinese of the Ch'ing Period «Wu San-kuei» — «set up the standard of revolt on December 28, 1673» (Kangxi 12/11/21 beklenir; Wikisource özeti okundu, Cambridge History of China 9 okunamadı)"),
     # LAB L2L 1451-1550 + HAVVA L2H 1575-1694 + EMRELİC — Academia Sinica / NAOJ takvim düzeltmeleri
@@ -603,6 +623,10 @@ METIN = [
     ("L2-1127", "[BEKLE — tek dayanak Britannica] Fipa ~1700: odak_yer Mbeya, Nkansi ve Lyangalile Rukwa'da (Mbeya Nyakyusa bölgesi) → odak_yer düzeltilir"),
     ("L2-1123", "Khalsa 1699: odak_yer Delhi → Anandpur/Keshgarh; gün 13 Nisan akademik kaynakta yok (ipucu 30 Mart 1699 Jülyen = 9 Nisan Gregoryen; 13 Nisan modern Vaisakhi olabilir)"),
     ("L2-1129", "[BEKLE — kaynaksız] Kalhora: «Bâbürlü merkezinin zayıflaması» ile «Mugal fermanı» anlatısı çelişir; TDV'de madde yok"),
+    # L2E 1755-1814 (EMRELİC)
+    ("L2-2245", "Yoritomo Kamakura'ya girdi (1180-11-04): L2-2246 ile aynı olay (KRONOLOJI_COK_DOGU_500_1281[202] ve [254]) → yinelenen madde birleşir"),
+    ("L2-2206", "[BEKLE — yıl] Man: Chronicle of Mann 1066 der (EMRELİC)"),
+    ("L2-2212", "[BEKLE — yıl] Rupeniler: kaynak 1198'i gösterir, 1092'yi değil (EMRELİC)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
