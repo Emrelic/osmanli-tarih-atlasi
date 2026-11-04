@@ -13,6 +13,11 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
+# Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
+BEKLET = {
+    "L2-138": "önerge Şubat 1919'da sunuldu, Nisan'da oylandı; madde neyi anlatıyorsa o gün — Shimazu okununca karar",
+    "L2-144": "Chūzan seikan (17. yy resmî derleme) tek başına KISMEN; modern akademik teyit (CHJ / Kerr, Okinawa) gelene kadar atlas günü kalır",
+}
 UYGULANIR = {"TARIH_DUZELT": "tarih düzelt", "DOGRULANDI": "kaynak yenile"}
 
 
@@ -45,6 +50,8 @@ def main():
                     is_ = "atla (mevcut kaynak akademik; Britannica yerine konmaz)"
                     atla += 1
                 uyum = r.get("uyum", "")
+                if no in BEKLET:
+                    is_, uyum = "BEKLE (uygulama)", BEKLET[no] + " | " + uyum
                 if no == "L2-47":
                     is_, uyum = "tarih düzelt", "1600-12-31 Jülyen (İngiltere) → 1601-01-10 Gregoryen (takvim kuralı; KASA PAZAR uyguladı)"
                 satir.append([parti, no, is_, r.get("dosya_satir", ""), r.get("tarih_atlas", ""), uyum,
