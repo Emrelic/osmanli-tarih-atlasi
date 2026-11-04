@@ -270,6 +270,9 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1155": ("tarih düzelt", "Gürcistan 1744-01-01 → 1744-07-01 + «[yalnız ay teyitli]»: Georgian National Encyclopedia «Teimuraz II» — «the Shah confirmed Teimuraz II as King of Kartli and Erekle as King of Kakheti in July 1744»; atlas metni TERS (Teimuraz Kaheti, Erekle Kartli diyor) → metin de düzeltilir; tek kaynak (Iranica 403)"),
+    "L2-1212": ("tarih düzelt", "Sam Houston «ilk başkanı seçildi» 1836-10-01 → 1836-09-05 seçim günü (TSHA, Nance «Republic of Texas»: «On election day, September 5»); yemin 1836-10-22 ic_not"),
+    "L2-1208": ("tarih düzelt", "Menotti ayaklanması 1831-02-04 → 1831-02-03: Treccani DBI «Menotti, Ciro» — tutuklama sabahı 3 Şubat, hareket aynı akşam; madde ayaklanma ile idamı birleştiriyor → idam 1831-05-26 («Il 26 maggio 1831 la sentenza fu eseguita») ayrı madde"),
     # SARKAR O.S. BULGUSU — iki bağımsız ölçüm: haftanın günü (KASA SALI) + ortalama Ay yaşıyla tithi (EMRELİC)
     "L2-1111": ("tarih düzelt", "Şivâcî taç giymesi 1674-06-06 → 1674-06-16 Gregoryen: Sarkar 6 Haziran O.S.; Jyeshtha śukla 13 — 1674-06-06 Jülyen'de Ay yaşı 12,9 gün (uyar), Gregoryen 06-06'da 2,9 (uymaz); ic_not: «kaynak (Sarkar/EIC) O.S.; tithi + haftanın günü ile teyit (KASA SALI haftanın günü, EMRELİC tithi)»"),
     "L2-1114": ("tarih düzelt", "Şivâcî ölümü 1680-04-03 → 1680-04-14 Gregoryen: Sarkar «Sunday, 4th April 1680» O.S. — Jülyen'de Pazar (Gregoryen'de Perşembe), Chaitra pūrṇimā: Ay yaşı 15,7 (uyar); atlasın 04-03'ü hiçbir takvime uymaz; Sarkar 3/4 Nisan dolunay belirsizliğini dipnotta beyan eder → ic_not; ic_not: «kaynak (Sarkar/EIC) O.S.; tithi + haftanın günü ile teyit (KASA SALI haftanın günü, EMRELİC tithi)»"),
@@ -632,6 +635,23 @@ METIN = [
     ("L2-2286", "[BEKLE — çelişki] Durbe 1260: 13 Temmuz / 13 Haziran kaynak çelişkisi (EMRELİC)"),
     ("L2-2285", "[BEKLE — ad çelişkisi] Yaroslavl: Anastasia / Maria (EMRELİC)"),
     ("L2-2291", "Karintiya III. Ulrich: NDB 4.12.1268, ADB 1.12.1268 → atlas 12-04 NDB'ye uyar, ADB günü ic_not'a (EMRELİC)"),
+    # L2S 819-830 (S38)
+    ("L2-1210", "Zorawar Singh / Ladakh: «Namgyal bağımsızlığına son verdi» fazla keskin — fetih 1835 baharında, 1836 isyan, Gyalpo 1838'de iade (Petech okunmadı)"),
+    ("L2-1201", "[BEKLE — akademik sayfa okunmadı] Minh Mạng tahta çıkışı 1820-01-01 → 1820-02-14 adayı (Gia Long 3 Şubat 1820 öldü; yalnız Vikipedi)"),
+    ("L2-1206", "[BEKLE — gün yok] Choctaw / Dancing Rabbit Creek: Encyclopedia of Alabama imza 27 Eylül 1830, 15 Eylül günü yok (UTK Papers of Andrew Jackson ipucu)"),
+    # L2S 771-806 (S34/S36)
+    ("L2-1186", "[BEKLE — Academia Sinica] Quang Trung ilanı atlas 1788-11-22: kaynaklar 25. gün, 11. ay, Mậu Thân = 1788-12-22 Gregoryen der — atlas ay-güneş «11. ay»ı Gregoryen Kasım sanmış görünür; Qianlong 53/11/25 Academia Sinica ile çevrilip tarih düzelt"),
+    ("L2-1183", "[BEKLE — Colvin/Boulègue okunmadı] Abdul Kader'in Cayor seferi 1786: Boulègue 1999 Bunxoy «c. 1796», Colvin JAH 1974 s.599-601 1796; 1786 Trarza emiri Ali Kouri'nin Dagana yakınında yenilgisi → madde 1796'ya ya da metin düzeltilir"),
+    ("L2-1175", "Chickamauga: yerleşimler 1776-77 kışında kuruldu; «ayrılıp grubu oluşturdu» savaş başlangıcıyla aynı an değil (Tennessee Encyclopedia: 1776 yazı Island Flats saldırısı)"),
+    ("L2-1184", "[BEKLE — rakamlar kaynaksız] Cenova 1786 nüfus/gelir dökümü: Bitossi 1995 ilk sistematik nüfus tahmini 1797"),
+    ("L2-1180", "Tenmei kıtlığı 1782: Sekai Daihyakka şiddetli kıtlığı 1783 der, öteki üç Kotobank sözlüğü 1782 → yıl tutar, 1783 ic_not"),
+    ("L2-1182", "[BEKLE — tek gün yok] Almanca idare dili 1784: Mayıs'ta ülke ülke ayrı emirler (Bohemya 11 Mayıs, Macaristan 6/18 Mayıs, Viyana 12 Temmuz — arama özeti)"),
+    ("L2-1154", "Karga 1743: DCB «La Vérendrye, Louis-Joseph» seferi Wyoming / Güney Dakota'da gösterir (Pierre 1743-03-19, levha 03-30); Crow, Bighorn ve Montana anılmaz → «Hardin, Montana yakınlarında Karga ile ilk temas» kaynaksız; tür «antlasma» uygunsuz (temas)"),
+    ("L2-1144", "Natchez 1729: 64 Parishes yalnız 1729; ölü 144+35+56 = 235 → «yaklaşık 250» düzeltilir; 28/29 Kasım yalnız özet düzeyinde"),
+    ("L2-1149", "[BEKLE — olay dayanaksız] Muratori 1737-01-02: DBI'da böyle bir 1737 olayı yok; Muratori Ağustos 1700'de Modena kütüphaneci-arşivcisi oldu → madde ya silinir ya yeniden tarihlenir"),
+    ("L2-1150", "[BEKLE — O.S./N.S.] Marata Delhi akını 1737-03-29: özet 28 Mart (Talkatora); Sarkar O.S. yazar (L2-1111 bulgusu) → Sarkar günü ise Gregoryen +11 kontrol"),
+    ("L2-1153", "[BEKLE — kaynak çelişkisi] Kolaçel 1741-08-10: Hollanda kaydı 7 Ağu (Kunju 1975, Koshy 1989), Panikkar 10 Ağu, Menon 31 Tem, Nagam Aiya 15 Tem → muharebe / teslim ayrımı"),
+    ("L2-1147", "[BEKLE — çelişki] Zîc-i Muhammed Şâhî 1732: özetler 1728 der; Cambridge metni okunamadı"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
