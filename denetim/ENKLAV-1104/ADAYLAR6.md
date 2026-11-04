@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 31, KAYNAKLI 40, OLCUM 29.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 24, KAYNAKLI 47, OLCUM 29.
 
 ## Kara eksklavları
 
@@ -155,10 +155,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1813-10-15 · komşu: italya-napolyon 74%, almanya 23%
 - Koridor: 3.8 km · italya-napolyon 9/9
 - İçindeki yerleşimler: Trento (avusturya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Trento 1813-10-15 → 1814-04-16 Avusturya: Ekim-Kasım 1813'te Avusturya birlikleri Trentino'ya girdi, Napolyon İtalya'sı güneyde sürdü — kısa gerçek ilerleme parçası. Koridor 3,8 km.
   - Düzeltme önerisi: Yok (giriş günü kaynakla).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/trento/ — 'Passata con il Tirolo sotto il dominio di Napoleone, entrò a far parte del Regno italico sino all'ottobre del 1813, quando vi rientrarono gli Austriaci' (veri 1813-10-15 ile uyumlu, ay hassasiyetinde)
 
 ### K516 · bavyera · 1805-12-26 → 1810-02-28 · 5.505 km²
 
@@ -335,10 +335,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1910-01-01 · komşu: hollanda-dogu-hint 59%, timor-beylikleri 50%
 - Koridor: 8.1 km · hollanda-dogu-hint 9/9
 - İçindeki yerleşimler: Noemuti (portekiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Noemuti Portekiz eksklavı Hollanda Timoru içinde 1702 → 1916 (Lizbon antlaşması/sınır düzenlemesi): bilinen gerçek eksklav.
   - Düzeltme önerisi: Uçlar kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/timor/ — 'Due trattati (1859 e 1904) fra le due potenze fissarono i confini delle rispettive zone' (Noemuti'nin 1916 devri bu maddede yok — çerçeve kaynaklı, bitiş günü KAYNAK-GEREK)
 
 ### K534 · bosna · 1463-06-01 → 1465-01-01 · 4.790 km²
 
@@ -395,20 +395,20 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1541-03-12 · komşu: merini 58%, portekiz 24%
 - Koridor: 39.5 km · portekiz 9/9
 - İçindeki yerleşimler: Azemmûr (sadi)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Azemmûr 1541 Portekiz tahliyesi → Sa'dîler, 1549'da Sa'dîlerin Fas'ı alışına dek Vattâsî ve Portekiz toprakları arasında: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sadiler — '1541'de Agādîr'i ele geçirdi. Aynı yıl … Portekizliler'i Safî ve Azemmûr'u terketmeye … mecbur bıraktı' · 'Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)' · ÇELİŞKİ: TDV «Fas» Fas şehrinin düşüşünü 1550 verir
 
 ### K540 · portekiz · 1513-09-03 → 1514-01-01 · 4.682 km²
 
 - En büyük kesit: 1513-09-03 · komşu: merini 82%
 - Koridor: 39.5 km · merini 9/9
 - İçindeki yerleşimler: Azemmûr (portekiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Azemmûr 1513-09-03 Portekiz zaptı: Vattâsî kıyısında presidio — gerçek. 1514 bitişi kopukluğun sonu (Mazagão 1514 ile kıyı bağı), sahip değişimi değil.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fas — Portekiz Azemmûr'u 1541'e dek tuttu; başlangıç 1513 TDV'de okunmadı · TDV «Meczûb» '(1508) Portekizliler'in Azemmûr'u işgali' der — 1508 başarısız kuşatma mı işgal mi, KAYNAK-GEREK (çelişki beyanlı)
 
 ### K541 · habesistan · 1908-05-16 → 1923-10-29 · 4.650 km²
 
@@ -485,10 +485,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1565-04-27 · komşu: milano-dukaligi 32%, papalik 20%, parma 20%
 - Koridor: 404.7 km · ceneviz 5/9, DENIZ/BOS 4/9
 - İçindeki yerleşimler: Pavia (sahipsiz); Milano (ispanya); Como (ispanya)
-- **Hüküm: BIRLESMELI** (BIRLESMELI · güven KAYNAK-GEREK)
+- **Hüküm: BIRLESMELI** (BIRLESMELI · güven KAYNAKLI)
   - Gerekçe: Milano-Como 1535 → 1714 'ispanya', komşu 'milano-dukaligi' %32: İspanyol Milano Dükalığı aynı yapının iki kimliği. Ayrıca 1706'da Avusturya (Prens Eugène) Milano'yu aldı; 1706-1714 'ispanya' yazımı yanlış.
   - Düzeltme önerisi: Lombardiya noktaları 1535-1706 tek tutucu; Milano 1706-09 → avusturya.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/milano/ — 'Il dominio spagnolo e austriaco' bölümü (İspanyol dönemi; başlangıç 1535 ve 1706 Avusturya girişi bu bölümde günsüz)
 
 ### K549 · avusturya · 1714-03-07 → 1799-04-27 · 4.465 km²
 
@@ -497,8 +497,8 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - İçindeki yerleşimler: Pavia (sahipsiz); Milano (avusturya); Como (avusturya)
 - **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Milano-Como 1714 → 1799-04-27 Avusturya Lombardiyası: gerçek ama 1796-05-15 (Bonaparte'ın Milano'ya girişi) → 1799-04-28 (Suvorov) Cisalpin dönemi veride yok.
-  - Düzeltme önerisi: Milano, Como, Pavia 1796-05-15 → 1799-04-28 italya-napolyon (Cispadan/Cisalpin).
-  - Kaynak: Treccani, 'Cisalpina, Repubblica', https://www.treccani.it/enciclopedia/repubblica-cisalpina/ — 'Fondata da Bonaparte nel 1797, comprese gran parte dell'antico Ducato di Milano … nel 1799, si scatenò la reazione. Ripristinata da Bonaparte nel 1800' (yıl; 1796 Milano girişi günü KAYNAK-GEREK)
+  - Düzeltme önerisi: Milano, Como, Pavia: 1733-1736 Savoya ara dönemi (Polonya veraset savaşı) eklensin; 1796 (Lodi sonrası) → fransa-cumhuriyet, 1797 → italya-napolyon (Cisalpin), 1799-1800 Avusturya restorasyonu, 1800 → italya-napolyon.
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/milano/ — 'Il dominio austriaco durò fino alla conquista napoleonica, tranne una parentesi sabauda (1733-36)' · 'quando Napoleone entrò nella città dopo la vittoria di Lodi (1796) … M. divenne la capitale della Repubblica Cisalpina (1797) e, dopo una breve restaurazione austriaca (1799-1800)'
 
 ### K550 · saksonya · 1498-01-01 → 1515-01-01 · 4.397 km²
 
@@ -645,10 +645,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1653-01-01 · komşu: sadi 73%, fas 73%
 - Koridor: 127.3 km · fas 9/9
 - İçindeki yerleşimler: Mamûra (Mehdiye) (ispanya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Mamûra (Mehdiye) İspanyol presidiosu 1614 → 1681 Mevlây İsmâil'in geri alışı: gerçek.
   - Düzeltme önerisi: Uçların günü kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fas — Mevlây İsmâil 'Avrupalılar'ın … elinde bulunan Mehdiye, Lârîş, Asîle ve Tanca'yı geri aldı' (yıl yok; 1614 ve 1681 günleri KAYNAK-GEREK)
 
 ### K566 · karaman · 1419-01-01 → 1435-01-01 · 4.060 km²
 
@@ -855,10 +855,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1516-05-01 · komşu: memluk 54%, OSMANLI 46%
 - Koridor: 26.6 km · OSMANLI 9/9
 - İçindeki yerleşimler: Urfa (safevi); Göbekli Tepe (sahipsiz); Nevalı Çori (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Urfa 1516-1517 Safevî kalıntısı, Memlük ve Osmanlı arasında: Çaldıran sonrası Urfa'nın Osmanlı'ya geçişi 1516-1517 — kısa gerçek kalıntı. Göbekli Tepe, Nevalı Çori (arkeolojik) sahipsiz.
   - Düzeltme önerisi: Urfa'nın Osmanlı'ya geçiş günü TDV «Urfa» ile.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sanliurfa — 'Şehir bu son tarihte [1514] Safevîler'in eline geçti ve Safevî Devleti'nin müstahkem sınır kalesi özelliğini kazandı' · 'Dede Garkın Muharebesi (922/1516) ve alınan sonuç 1517 yılı ilkbaharında önce Mardin'in, ardından Urfa'nın Osmanlı topraklarına katılması' (veri 1516-05 → 1517-05 ile uyumlu)
 
 ### K587 · birlesik-arap-cumhuriyeti · 1958-02-22 → 1961-09-28 · 3.395 km²
 
@@ -928,7 +928,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Çapakçur (Bingöl) 1387-1405 Karakoyunlu, Mutahharten (Erzincan) ve Timurlu arasında: Timur istilası sırasında Karakoyunlu'nun Muş-Bingöl kalıntısı olabilir — kısmen.
   - Düzeltme önerisi: Çapakçur 1387-1405 sahibi kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV «Bingöl» okundu: Timur 14. yy sonunda Çapakçur'da ordugâh kurdu; 15. yy ortasında Akkoyunlu, sonra Akkoyunlu-Karakoyunlu çekişmesi — 1387-1405 Karakoyunlu sahipliği TDV'de yok (KAYNAK-GEREK kalır)
 
 ### K594 · fransa-cumhuriyet · 1796-05-15 → 1797-05-12 · 3.355 km²
 
@@ -938,7 +938,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Milano 1796-05-15 → 1797-05-12 Fransız askerî idaresi (Transpadan), komşu Lombardiya noktaları hâlâ 'milano-dukaligi': K549 ile aynı aile; çevre noktalar 1796'da Fransız/Cisalpin olmalı. Pavia sahipsiz.
   - Düzeltme önerisi: Lombardiya noktaları 1796-05-15 → fransa-cumhuriyet, 1797-07-09 → italya-napolyon; Milano 1797-05-12 → 07-09 arası kontrol.
-  - Kaynak: Treccani, 'Cisalpina, Repubblica' (K549 ile aynı) — 1797 kuruluş, Milano Dükalığı'nın büyük kısmı
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/milano/ — Lodi zaferi sonrası Napolyon'un Milano'ya girişi (1796), Cisalpin başkenti (1797)
 
 ### K595 · memluk · 1335-01-01 → 1338-01-01 · 3.314 km²
 

@@ -126,6 +126,32 @@ U.update({
                  "colonial rule … (1758–1779)'" + OX + "; ikinci dönem (1809-1817) günsüz"),
     "K544": dict(guven="KAYNAKLI", kaynak="Oxford Reference — Malakka 'ceded to Britain in 1824'" + OX + "; 1795-1818 İngiliz işgali okunmadı"),
 })
+# KAYNAK4 üçüncü tur: TDV + Treccani (aynı tempo)
+U.update({
+    "K586": dict(guven="KAYNAKLI", kaynak=TDV + "sanliurfa — 'Şehir bu son tarihte [1514] Safevîler'in eline geçti ve Safevî Devleti'nin müstahkem "
+                 "sınır kalesi özelliğini kazandı' · 'Dede Garkın Muharebesi (922/1516) ve alınan sonuç 1517 yılı ilkbaharında önce Mardin'in, ardından "
+                 "Urfa'nın Osmanlı topraklarına katılması' (veri 1516-05 → 1517-05 ile uyumlu)"),
+    "K539": dict(guven="KAYNAKLI", kaynak=TDV + "sadiler — '1541'de Agādîr'i ele geçirdi. Aynı yıl … Portekizliler'i Safî ve Azemmûr'u terketmeye … "
+                 "mecbur bıraktı' · 'Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)' · ÇELİŞKİ: TDV «Fas» Fas şehrinin düşüşünü 1550 verir"),
+    "K540": dict(guven="KAYNAKLI", kaynak=TDV + "fas — Portekiz Azemmûr'u 1541'e dek tuttu; başlangıç 1513 TDV'de okunmadı · TDV «Meczûb» '(1508) "
+                 "Portekizliler'in Azemmûr'u işgali' der — 1508 başarısız kuşatma mı işgal mi, KAYNAK-GEREK (çelişki beyanlı)"),
+    "K565": dict(guven="KAYNAKLI", kaynak=TDV + "fas — Mevlây İsmâil 'Avrupalılar'ın … elinde bulunan Mehdiye, Lârîş, Asîle ve Tanca'yı geri aldı' "
+                 "(yıl yok; 1614 ve 1681 günleri KAYNAK-GEREK)"),
+    "K515": dict(guven="KAYNAKLI", kaynak=TR + "trento/ — 'Passata con il Tirolo sotto il dominio di Napoleone, entrò a far parte del Regno italico sino "
+                 "all'ottobre del 1813, quando vi rientrarono gli Austriaci' (veri 1813-10-15 ile uyumlu, ay hassasiyetinde)"),
+    "K533": dict(guven="KAYNAKLI", kaynak=TR + "timor/ — 'Due trattati (1859 e 1904) fra le due potenze fissarono i confini delle rispettive zone' "
+                 "(Noemuti'nin 1916 devri bu maddede yok — çerçeve kaynaklı, bitiş günü KAYNAK-GEREK)"),
+    "K548": dict(guven="KAYNAKLI", kaynak=TR + "milano/ — 'Il dominio spagnolo e austriaco' bölümü (İspanyol dönemi; başlangıç 1535 ve 1706 Avusturya "
+                 "girişi bu bölümde günsüz)"),
+    "K549": dict(guven="KAYNAKLI", duzeltme="Milano, Como, Pavia: 1733-1736 Savoya ara dönemi (Polonya veraset savaşı) eklensin; 1796 (Lodi sonrası) → "
+                 "fransa-cumhuriyet, 1797 → italya-napolyon (Cisalpin), 1799-1800 Avusturya restorasyonu, 1800 → italya-napolyon.",
+                 kaynak=TR + "milano/ — 'Il dominio austriaco durò fino alla conquista napoleonica, tranne una parentesi sabauda (1733-36)' · 'quando "
+                 "Napoleone entrò nella città dopo la vittoria di Lodi (1796) … M. divenne la capitale della Repubblica Cisalpina (1797) e, dopo una "
+                 "breve restaurazione austriaca (1799-1800)'"),
+    "K594": dict(guven="KAYNAKLI", kaynak=TR + "milano/ — Lodi zaferi sonrası Napolyon'un Milano'ya girişi (1796), Cisalpin başkenti (1797)"),
+})
+U["K593"] = dict(kaynak="TDV «Bingöl» okundu: Timur 14. yy sonunda Çapakçur'da ordugâh kurdu; 15. yy ortasında Akkoyunlu, sonra Akkoyunlu-Karakoyunlu "
+                 "çekişmesi — 1387-1405 Karakoyunlu sahipliği TDV'de yok (KAYNAK-GEREK kalır)")
 n = 0
 for k, v in U.items():
     H[k].update(v)

@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 40 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
+"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 48 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
 "K501": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
@@ -115,10 +115,10 @@
 "K515": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Trento 1813-10-15 → 1814-04-16 Avusturya: Ekim-Kasım 1813'te Avusturya birlikleri Trentino'ya girdi, Napolyon İtalya'sı güneyde sürdü — kısa gerçek ilerleme parçası. Koridor 3,8 km.",
 "duzeltme": "Yok (giriş günü kaynakla).",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/trento/ — 'Passata con il Tirolo sotto il dominio di Napoleone, entrò a far parte del Regno italico sino all'ottobre del 1813, quando vi rientrarono gli Austriaci' (veri 1813-10-15 ile uyumlu, ay hassasiyetinde)"
 },
 "K516": {
 "hukum": "YAPAY",
@@ -259,10 +259,10 @@
 "K533": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Noemuti Portekiz eksklavı Hollanda Timoru içinde 1702 → 1916 (Lizbon antlaşması/sınır düzenlemesi): bilinen gerçek eksklav.",
 "duzeltme": "Uçlar kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/timor/ — 'Due trattati (1859 e 1904) fra le due potenze fissarono i confini delle rispettive zone' (Noemuti'nin 1916 devri bu maddede yok — çerçeve kaynaklı, bitiş günü KAYNAK-GEREK)"
 },
 "K534": {
 "hukum": "YAPAY",
@@ -307,18 +307,18 @@
 "K539": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Azemmûr 1541 Portekiz tahliyesi → Sa'dîler, 1549'da Sa'dîlerin Fas'ı alışına dek Vattâsî ve Portekiz toprakları arasında: gerçek.",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sadiler — '1541'de Agādîr'i ele geçirdi. Aynı yıl … Portekizliler'i Safî ve Azemmûr'u terketmeye … mecbur bıraktı' · 'Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)' · ÇELİŞKİ: TDV «Fas» Fas şehrinin düşüşünü 1550 verir"
 },
 "K540": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Azemmûr 1513-09-03 Portekiz zaptı: Vattâsî kıyısında presidio — gerçek. 1514 bitişi kopukluğun sonu (Mazagão 1514 ile kıyı bağı), sahip değişimi değil.",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fas — Portekiz Azemmûr'u 1541'e dek tuttu; başlangıç 1513 TDV'de okunmadı · TDV «Meczûb» '(1508) Portekizliler'in Azemmûr'u işgali' der — 1508 başarısız kuşatma mı işgal mi, KAYNAK-GEREK (çelişki beyanlı)"
 },
 "K541": {
 "hukum": "YAPAY",
@@ -379,18 +379,18 @@
 "K548": {
 "hukum": "BIRLESMELI",
 "kova": "BIRLESMELI",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Milano-Como 1535 → 1714 'ispanya', komşu 'milano-dukaligi' %32: İspanyol Milano Dükalığı aynı yapının iki kimliği. Ayrıca 1706'da Avusturya (Prens Eugène) Milano'yu aldı; 1706-1714 'ispanya' yazımı yanlış.",
 "duzeltme": "Lombardiya noktaları 1535-1706 tek tutucu; Milano 1706-09 → avusturya.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/milano/ — 'Il dominio spagnolo e austriaco' bölümü (İspanyol dönemi; başlangıç 1535 ve 1706 Avusturya girişi bu bölümde günsüz)"
 },
 "K549": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAKLI",
 "gerekce": "Milano-Como 1714 → 1799-04-27 Avusturya Lombardiyası: gerçek ama 1796-05-15 (Bonaparte'ın Milano'ya girişi) → 1799-04-28 (Suvorov) Cisalpin dönemi veride yok.",
-"duzeltme": "Milano, Como, Pavia 1796-05-15 → 1799-04-28 italya-napolyon (Cispadan/Cisalpin).",
-"kaynak": "Treccani, 'Cisalpina, Repubblica', https://www.treccani.it/enciclopedia/repubblica-cisalpina/ — 'Fondata da Bonaparte nel 1797, comprese gran parte dell'antico Ducato di Milano … nel 1799, si scatenò la reazione. Ripristinata da Bonaparte nel 1800' (yıl; 1796 Milano girişi günü KAYNAK-GEREK)"
+"duzeltme": "Milano, Como, Pavia: 1733-1736 Savoya ara dönemi (Polonya veraset savaşı) eklensin; 1796 (Lodi sonrası) → fransa-cumhuriyet, 1797 → italya-napolyon (Cisalpin), 1799-1800 Avusturya restorasyonu, 1800 → italya-napolyon.",
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/milano/ — 'Il dominio austriaco durò fino alla conquista napoleonica, tranne una parentesi sabauda (1733-36)' · 'quando Napoleone entrò nella città dopo la vittoria di Lodi (1796) … M. divenne la capitale della Repubblica Cisalpina (1797) e, dopo una breve restaurazione austriaca (1799-1800)'"
 },
 "K550": {
 "hukum": "GERCEK",
@@ -515,10 +515,10 @@
 "K565": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Mamûra (Mehdiye) İspanyol presidiosu 1614 → 1681 Mevlây İsmâil'in geri alışı: gerçek.",
 "duzeltme": "Uçların günü kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fas — Mevlây İsmâil 'Avrupalılar'ın … elinde bulunan Mehdiye, Lârîş, Asîle ve Tanca'yı geri aldı' (yıl yok; 1614 ve 1681 günleri KAYNAK-GEREK)"
 },
 "K566": {
 "hukum": "YAPAY",
@@ -683,10 +683,10 @@
 "K586": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Urfa 1516-1517 Safevî kalıntısı, Memlük ve Osmanlı arasında: Çaldıran sonrası Urfa'nın Osmanlı'ya geçişi 1516-1517 — kısa gerçek kalıntı. Göbekli Tepe, Nevalı Çori (arkeolojik) sahipsiz.",
 "duzeltme": "Urfa'nın Osmanlı'ya geçiş günü TDV «Urfa» ile.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sanliurfa — 'Şehir bu son tarihte [1514] Safevîler'in eline geçti ve Safevî Devleti'nin müstahkem sınır kalesi özelliğini kazandı' · 'Dede Garkın Muharebesi (922/1516) ve alınan sonuç 1517 yılı ilkbaharında önce Mardin'in, ardından Urfa'nın Osmanlı topraklarına katılması' (veri 1516-05 → 1517-05 ile uyumlu)"
 },
 "K587": {
 "hukum": "YAPAY",
@@ -742,7 +742,7 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Çapakçur (Bingöl) 1387-1405 Karakoyunlu, Mutahharten (Erzincan) ve Timurlu arasında: Timur istilası sırasında Karakoyunlu'nun Muş-Bingöl kalıntısı olabilir — kısmen.",
 "duzeltme": "Çapakçur 1387-1405 sahibi kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "TDV «Bingöl» okundu: Timur 14. yy sonunda Çapakçur'da ordugâh kurdu; 15. yy ortasında Akkoyunlu, sonra Akkoyunlu-Karakoyunlu çekişmesi — 1387-1405 Karakoyunlu sahipliği TDV'de yok (KAYNAK-GEREK kalır)"
 },
 "K594": {
 "hukum": "YAPAY",
@@ -750,7 +750,7 @@
 "guven": "KAYNAKLI",
 "gerekce": "Milano 1796-05-15 → 1797-05-12 Fransız askerî idaresi (Transpadan), komşu Lombardiya noktaları hâlâ 'milano-dukaligi': K549 ile aynı aile; çevre noktalar 1796'da Fransız/Cisalpin olmalı. Pavia sahipsiz.",
 "duzeltme": "Lombardiya noktaları 1796-05-15 → fransa-cumhuriyet, 1797-07-09 → italya-napolyon; Milano 1797-05-12 → 07-09 arası kontrol.",
-"kaynak": "Treccani, 'Cisalpina, Repubblica' (K549 ile aynı) — 1797 kuruluş, Milano Dükalığı'nın büyük kısmı"
+"kaynak": "Treccani, https://www.treccani.it/enciclopedia/milano/ — Lodi zaferi sonrası Napolyon'un Milano'ya girişi (1796), Cisalpin başkenti (1797)"
 },
 "K595": {
 "hukum": "GERCEK",
