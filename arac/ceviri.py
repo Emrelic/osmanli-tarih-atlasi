@@ -49,7 +49,34 @@ def ozet(s):
     return "%08x" % h
 
 
+def _onbellek_anahtari():
+    """index.html + data/*.js (çeviri hariç) + js/*.js boy/zaman damgası → çıkarıcı önbelleği anahtarı."""
+    h = hashlib.sha1()
+    for kl, desen in (("", "index.html"), ("data", ".js"), ("js", ".js")):
+        yol = os.path.join(KOK, kl)
+        adlar = [desen] if not kl else sorted(f for f in os.listdir(yol) if f.endswith(desen) and not f.startswith("ceviri_"))
+        for ad in adlar:
+            st = os.stat(os.path.join(yol, ad))
+            h.update(("%s/%s:%d:%d;" % (kl, ad, st.st_size, st.st_mtime_ns)).encode())
+    h.update(open(os.path.join(KOK, "arac", "ceviri_cikar.js"), "rb").read())
+    return h.hexdigest()[:16]
+
+
 def cikar():
+    # Node çıkarıcısı bütün site verisini belleğe alır (~0,5 GB); veri değişmediyse önbellekten
+    # okunur (KASA'da bellek darlığı, 4 Kasım 2026).
+    import tempfile
+    onb = os.path.join(tempfile.gettempdir(), "atlas_ceviri_cikar_%s.json" % _onbellek_anahtari())
+    if os.path.exists(onb):
+        with open(onb, encoding="utf-8") as f:
+            return json.load(f)
+    j = _cikar_node()
+    with open(onb, "w", encoding="utf-8") as f:
+        json.dump(j, f, ensure_ascii=False)
+    return j
+
+
+def _cikar_node():
     try:
         r = subprocess.run(["node", os.path.join(KOK, "arac", "ceviri_cikar.js"), KOK],
                            capture_output=True, timeout=600)
