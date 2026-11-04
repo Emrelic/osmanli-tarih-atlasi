@@ -416,5 +416,49 @@
   "guc": "ORTA",
   "dayanak": "TDV (EMRELİC gece-39)",
   "onay": "EMRELİC 6 Kasım gece-39"
+ },
+ {
+  "d": "cebri",
+  "tur": "KUNYE/MADDE",
+  "karar": "EMRELİC",
+  "islem": "devletler.js cebri t → 1524-10-29 (hicrî 931 = 1524-10-29 → 1525-10-17 ∩ mîlâdî 1524 → ilk gün). ic_not_t: hicrî aralık + iki TDV cümlesi: CEBRÎLER «Osmanlılar'a tâbi Müntefiḳ kabilesinden Râşid b. Megāmis tarafından ortadan kaldırıldı (931/1524-25)» · LAHSÂ «Âl-i Ecved'in elinde iken … Basra beylerbeyiliğine bağlandı (1547)» — 'Âl-i Ecved' = Cebrî hanedanı (Ecved b. Zâmil). Lahsâ/Hufuf, Katîf vb.: 1524-10-29 → 1546-12-31 Müntefik idaresi (Osmanlı'ya tâbi) — Müntefik künyesi YOK → BEYANLI s: + v: osmanli; 1547-01-01 [yalnız yıl] Basra beylerbeyiliği d: osmanli. Safevî satırı DÜŞER (TDV LAHSÂ'da Safevî yok).",
+  "kunye": "cebri t 1524-01-01 → 1524-10-29",
+  "gun": "1524-10-29",
+  "guc": "ORTA",
+  "dayanak": "TDV CEBRÎLER + LAHSÂ (LAB açtı 6 Kasım); EMRELİC gece-40",
+  "onay": "EMRELİC 6 Kasım gece-40"
+ },
+ {
+  "d": "bengal-sultanligi (f)",
+  "tur": "KUNYE/MADDE",
+  "karar": "EMRELİC",
+  "islem": "devletler.js bengal-sultanligi f → 1338-01-01 + '[yalnız yıl]' (Banglapedia hicrî 739'u açıkça yazıyorsa 1338-07-20). ic_not_f: '1338–1352 Sonârgâon, Lakhnauti ve Satgaon üç ayrı sultanlık; künye Sonârgâon (Fahreddin Mübârek Şah) çizgisiyle başlatıldı; birleşme 1352 İlyas Şah'. Dakka, Sonârgâon 1338'den bu künye; Lakhnauti/Satgaon yerleşimleri varsa 1338–1352 dilimi BEYANLI (ayrı soru). TDV teyidi YOK (FAHREDDİN MÜBÂREK ŞAH maddesi başka kişi).",
+  "kunye": "bengal-sultanligi f 1340-01-01 → 1338-01-01 [yalnız yıl]",
+  "gun": "1338-01-01",
+  "guc": "ORTA",
+  "dayanak": "Banglapedia 'Fakhruddin Mubarak Shah' (tek kaynak, ORTA); EMRELİC gece-40",
+  "onay": "EMRELİC 6 Kasım gece-40"
+ },
+ {
+  "d": "Değişmez 2 — Macaristan 1919-08-01",
+  "tur": "KUNYE/MADDE",
+  "karar": "EMRELİC",
+  "islem": "kronoloji_sinir'e madde: {t:'1919-08-01', devlet:'macaristan-naiplik', taraflar:['macar-sovyet-cumhuriyeti','macaristan-naiplik'], odak_yer:['Aquincum-Óbuda-Pest'], tur:'siyaset', b:'Macar Sovyet Cumhuriyeti düştü; Peidl hükûmeti', kaynak: (KASA — Béla Kun'un istifası 1919-08-01; akademik kaynakla)}. Mevcut 1919-08-04 (olaylar_avmac_c_1029.js:64) ve 1919-11-16 (:73) maddeleri KALIR. macaristan-naiplik f 1919-08-01 kırılmasıyla AYNI commit.",
+  "kunye": "madde önerisi",
+  "gun": "1919-08-01",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-40",
+  "onay": "EMRELİC 6 Kasım gece-40"
+ },
+ {
+  "d": "Değişmez 2 — Hürmüz 1622",
+  "tur": "KUNYE/MADDE",
+  "karar": "EMRELİC",
+  "islem": "kronoloji_sinir'e madde: {t:'<gün kaynakla; yoksa yerleşimlerdeki 1622-05-01>', devlet:'safevi', taraflar:['hurmuz-sultanligi','portekiz','safevi'], odak_yer:['Hürmüz Adası'], tur:'savas', b:'Safevî-İngiliz kuşatmasıyla Hürmüz Portekiz'den alındı; Hürmüz Sultanlığı sona erdi'}. LAB ölçümü: olaylar*/kronoloji_sinir*'te 1622-04/05 Hürmüz maddesi YOK. hurmuz-sultanligi t kırılmasıyla AYNI commit.",
+  "kunye": "madde önerisi",
+  "gun": "1622-05-01",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-40; Iranica 'HORMUZ' (gün)",
+  "onay": "EMRELİC 6 Kasım gece-40"
  }
 ]
