@@ -4951,6 +4951,977 @@
    "kaynak2": "",
    "alinti2": "",
    "not": "YÜKSELTME TURU (HATALI_ONERI): İki kuraldan çelişir: (1) Himaye/tâbilik devir değildir: v: <koruyucu> + alttaki s: sürer; öneri s:hive satırını v:rusya'ya çevirip Hîve'yi siler. (2) Hayalet devlet: `rusya` künye t=1917-03-15, öneri t 1920-04-26 künye dışı; f 1873-01-01 ise Rus ele geçirişinden (29 Mayıs 1873, TDV Hîve Hanlığı ham okundu; Jülyen/Gregoryen belirsiz) önceki aylara taşar ve TEK ÖLÇÜ'ye göre antlaşma günü olmalı (Gandimiyan günü TDV'de yok; Becker 1968 bibliyografyada). TDV metni hanlığın tâbiliğini açıkça yazmaz. · BÖLÜNME: 1747 (Gāib Han, istiklâl) → 1873 s: hive KAYNAKLI (YIL, TDV: 'Gāib (1747-1757) hanlığını ve Hîve’nin istiklâlini ilân etti'). 1873 Mayıs: Rus Türkistan Genel Valisi Kaufmann Hîve'yi ele geçirdi (29 Mayıs 1873, TDV); Rus himayesi/tâbi hanlık (Becker, Russia's Protectorates, bibl.) — TDV gövdesinde hanlığın tâbi kalışı net yazılmıyor, bibliyografya 'protectorates 1865-1924'. ÖLÇÜT: idareye katma DEĞİL, tâbi (v:). Antlaşma günü (Gandimiyan 1873-08-12) bu turda kaynakla teyit EDİLMEDİ (BAKILMADI). Mevcut hive t 1920-04-26 TDV Hîve Hanlığı'nda 'Hârizm Halk Cumhuriyeti ilân edildi'."
+  },
+  {
+   "ad": "Bălți",
+   "dosya_satir": "data/yerlesimler_ek29.js:751",
+   "alan": "s",
+   "d": "bogdan",
+   "f": "1359-01-01",
+   "t": "1456-06-01",
+   "oneri": {
+    "f": "1359-01-01",
+    "t": "1455-09",
+    "d": "bogdan"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Boğdan» (https://islamansiklopedisi.org.tr/bogdan)",
+   "kaynak2": "«Boğdan», TDV İslâm Ansiklopedisi (https://islamansiklopedisi.org.tr/bogdan) — ham metin okundu",
+   "alinti2": "Voyvoda Petru Aron 1455 Eylülünden itibaren Osmanlılar’a yılda 2000 altın vermek suretiyle varlığını koruyabilmiştir.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL İHLALİ: Tâbilik devir değildir (DA-BRIEF/YUK: 'v: <koruyucu> + alttaki s: sürer'; Rus himayesi Megrelya emsali: s: <prenslik> künye t'sine kadar sürer). Boğdan 1455/56'da Osmanlı'ya tâbi oldu (TDV: 'Boğdan’ı ... eyalet haline getirmemiştir', iç işlerine karışılmadı); s: bogdan Bălți için Besarabya'nın 1812-05-28'de Rusya'ya geçişine kadar sürer, 1455-09'da bitmez. Önerilen t=1455-09 yerleşimi 1455-1812 arası sahipsiz delik yapar. Künye: bogdan f 1359-01-01 t 1859-02-05, tabi:[{f 1456-06-01, ust osmanli}] — v katmanı künyede zaten var. Alıntı ham metinde birebir ve tâbilik başlangıcını AY düzeyinde (ülke düzeyi) tarihliyor: bu, s'in t'si DEĞİL, v'nin f'sidir; künye tabi f 1456-06-01 ile 1455-09 arasındaki fark ayrı konu. Bălți f=1359 ucu (bogdan) bu satırda değişmiyor. Baktığım: TDV Boğdan. · ÜLKE DÜZEYİ (Boğdan). TDV: Boğdan 'İstanbul’un fethinden sonra' Osmanlı'ya tâbi oldu; haraç 1455 Eylül'ünden itibaren — AY hassasiyeti, gün YOK (atlas 1456-06-01 kaynaksız). 1359 başlangıcı TDV bogdan'da BULUNAMADI (baktım: TDV bogdan tam metin; yalnız 'XIV. yüzyılda kurulan prenslik'). Bălți'ye özgü tanıklık yok: ABİ MERKEZ/ülke düzeyi, BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "ad": "Bălți",
+   "dosya_satir": "data/yerlesimler_ek29.js:751",
+   "alan": "v",
+   "d": null,
+   "f": "1456-06-01",
+   "t": "1812-05-28",
+   "oneri": {
+    "f": "1455-09",
+    "t": "1812-05-28",
+    "d": "Boğdan Voyvodalığı"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Boğdan»; «Moldova» (https://islamansiklopedisi.org.tr/moldova); «Bükreş Antlaşması (1812)» arama özeti okundu",
+   "kaynak2": "«Boğdan», TDV İslâm Ansiklopedisi (https://islamansiklopedisi.org.tr/bogdan) — ham metin okundu; «Bükreş Antlaşması (1812)» sayfası arama sonucuna düştü, madde gövdesi okunamadı",
+   "alinti2": "Voyvoda Petru Aron 1455 Eylülünden itibaren Osmanlılar’a yılda 2000 altın vermek suretiyle varlığını koruyabilmiştir.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): d yanlış: 'Boğdan Voyvodalığı' tâbi olan devlettir, v:'nin d'si KORUYUCU olmalı → osmanli (VERI-YAPISI: v: tâbi/dolaylı idare; himaye/tâbilik v: <koruyucu> + alttaki s: sürer). Yani Bălți için doğru kayıt s: bogdan (1812-05-28'e dek) + v: osmanli; ayrı bir 'v: Boğdan' dönemi anlamsız. f=1455-09 TDV'de AY düzeyi (ülke düzeyi), t=1812-05-28: TDV Bükreş/Galib Paşa sayfalarının arama özetinde 'Bükreş’te 28 Mayıs 1812’de' imza günü geçiyor ama madde gövdesi açılamadığı için ham metinden alıntılanmadı; t TEK ÖLÇÜ (Rusya 1806'dan beri fiilen yönetiyor → imza günü) ile uyumlu ve mevcut s rusya f 1812-05-28 ile örtüşüyor (KASA'da zaten kaynaklı). Jülyen/Gregoryen: Bükreş 16/28 Mayıs 1812; atlas Gregoryen 28 Mayıs. Bălți Prut'un doğusunda (Besarabya), Bükreş md. 4 ile Rusya'ya geçen bölgededir. · f: yukarıdaki 1455-09 (ay). t: TDV Moldova: 'Bükreş Antlaşması’yla Prut ile Nistru arasındaki Besarabya Rusya tarafından alındı' + antlaşma günü 28 Mayıs 1812 (TDV Bükreş maddesi arama özetinde; sayfa tam açılmadı, gün 'imzalandı (28 Mayıs 1812)' cümlesinden). Mevcut isg rusya 1806-11-30 → 1812-05-28 satırı TDV akkirman'a dayalı ve kaynaklı; v katmanı onunla çakışıyor, çakışma kararı KASA'da. Julyen/Gregoryen: Bükreş 16/28 Mayıs 1812 — ESBE 19. yy kaynakları Jülyen 16 Mayıs verir; atlas Gregoryen 28 Mayıs."
+  },
+  {
+   "ad": "Vinh Long",
+   "dosya_satir": "data/yerlesimler_gdasya.js:241",
+   "alan": "s",
+   "d": "kamboc-kralligi",
+   "f": "1431-01-01",
+   "t": "1698-01-01",
+   "oneri": {
+    "f": "1431-01-01",
+    "t": "1674",
+    "d": "kamboc-kralligi"
+   },
+   "kaynak": "Cambodia: A Country Study (LoC) https://countrystudies.us/cambodia/9.htm",
+   "kaynak2": "Cambodia: A Country Study (LoC), ch.1 https://countrystudies.us/cambodia/9.htm (ham metin okundu)",
+   "alinti2": "The Vietnamese were involved in a lengthy civil war until 1674, but upon its conclusion they promptly annexed sizable areas of contiguous Cambodian territory in the region of the Mekong Delta.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Vinh Long: t=1674 nguyen-beyligi f önerisi 1749 ile birlikte okunursa arada 1674-1749 (75 yıl) SAHİPSİZ delik doğar (Değişmez 1, sıfır boşluk). Ayrıca LoC cümlesi BÖLGE düzeyidir ('sizable areas ... in the region of the Mekong Delta', 1674 sonrası): Vinh Long'ı anmaz, yerleşime özgü geçişi tarihlemez. İki uç aynı yıla bağlanmalı; yerleşime özgü kaynak yoksa 1698 BEYANLI YAKLAŞIKLIK kalır. Mevcut alinti ('early seventeenth century') uca tarih vermez. · BÖLGE DÜZEYİ. LoC Cambodia: Vietnamlılar 1674'te iç savaşı bitirince 'bitişik Kamboçya topraklarında Mekong deltası bölgesinde geniş alanları ilhak etti' ve sonraki yüzyıl genişlemeyi sürdürdü; LoC Vietnam 12: Nguyen 'Khmer'leri 1749'a kadar deltadan tamamen çıkardı'. Atlas 1698 ucu bu kaynaklarda YOK (1698 = Nguyen Huu Canh'in Gia Dinh kuruşu, kaynaklar okunmadı). Vinh Long'a özgü geçiş yılı BULUNAMADI; delta için 1674-1749 aralığı. Yaklaşık: 1698 korunursa BEYANLI YAKLAŞIKLIK; 1749 üst sınırı kaynaklı."
+  },
+  {
+   "ad": "Vinh Long",
+   "dosya_satir": "data/yerlesimler_gdasya.js:241",
+   "alan": "s",
+   "d": "nguyen-beyligi",
+   "f": "1698-01-01",
+   "t": "1777-01-01",
+   "oneri": {
+    "f": "1749",
+    "t": "1777-01-01",
+    "d": "nguyen-beyligi"
+   },
+   "kaynak": "Vietnam: A Country Study (LoC) https://countrystudies.us/vietnam/12.htm",
+   "kaynak2": "Vietnam: A Country Study (LoC), ch.12 https://countrystudies.us/vietnam/12.htm (ham metin okundu)",
+   "alinti2": "The Nguyen, aided by the Chinese settlers, succeeded in forcing the Khmer completely out of the Mekong Delta by 1749.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Vinh Long: f=1749, kamboc t=1674 önerisiyle birlikte 75 yıllık boşluk doğurur; tek başına da 'by 1749' en geç sınırdır, tam geçiş yılı değil ve Vinh Long'a özgü değil (bölge düzeyi). Yerel geçiş yılı BULUNAMADI. Çerçeve (1674-1749) kaynaklı, nokta değil. · BÖLGE DÜZEYİ, YIL. Üst sınır 1749 (delta tamamen Nguyen'de). Vinh Long'a özgü yıl BULUNAMADI. Bitiş 1777: LoC Vietnam 13: Tay Son 1773'te Qui Nhon'u aldı, 'by 1778' güneyde (Gia Dinh dahil) etkin denetim kurdu — 1777 ile 1778 arası fark YIL düzeyi."
+  },
+  {
+   "ad": "Tra Vinh",
+   "dosya_satir": "data/yerlesimler_gdasya.js:297",
+   "alan": "s",
+   "d": "kamboc-kralligi",
+   "f": "1431-01-01",
+   "t": "1698-01-01",
+   "oneri": {
+    "f": "1431-01-01",
+    "t": "1674",
+    "d": "kamboc-kralligi"
+   },
+   "kaynak": "Cambodia: A Country Study (LoC) https://countrystudies.us/cambodia/9.htm",
+   "kaynak2": "Cambodia: A Country Study (LoC), ch.1 https://countrystudies.us/cambodia/9.htm (ham metin okundu)",
+   "alinti2": "The Vietnamese were involved in a lengthy civil war until 1674, but upon its conclusion they promptly annexed sizable areas of contiguous Cambodian territory in the region of the Mekong Delta.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Tra Vinh: t=1674 nguyen-beyligi f önerisi 1749 ile birlikte okunursa arada 1674-1749 (75 yıl) SAHİPSİZ delik doğar (Değişmez 1, sıfır boşluk). Ayrıca LoC cümlesi BÖLGE düzeyidir ('sizable areas ... in the region of the Mekong Delta', 1674 sonrası): Tra Vinh'ı anmaz, yerleşime özgü geçişi tarihlemez. İki uç aynı yıla bağlanmalı; yerleşime özgü kaynak yoksa 1698 BEYANLI YAKLAŞIKLIK kalır. Mevcut alinti ('early seventeenth century') uca tarih vermez. · BÖLGE DÜZEYİ. LoC Cambodia: Vietnamlılar 1674'te iç savaşı bitirince 'bitişik Kamboçya topraklarında Mekong deltası bölgesinde geniş alanları ilhak etti' ve sonraki yüzyıl genişlemeyi sürdürdü; LoC Vietnam 12: Nguyen 'Khmer'leri 1749'a kadar deltadan tamamen çıkardı'. Atlas 1698 ucu bu kaynaklarda YOK (1698 = Nguyen Huu Canh'in Gia Dinh kuruşu, kaynaklar okunmadı). Tra Vinh'a özgü geçiş yılı BULUNAMADI; delta için 1674-1749 aralığı. Yaklaşık: 1698 korunursa BEYANLI YAKLAŞIKLIK; 1749 üst sınırı kaynaklı."
+  },
+  {
+   "ad": "Tra Vinh",
+   "dosya_satir": "data/yerlesimler_gdasya.js:297",
+   "alan": "s",
+   "d": "nguyen-beyligi",
+   "f": "1698-01-01",
+   "t": "1777-01-01",
+   "oneri": {
+    "f": "1749",
+    "t": "1777-01-01",
+    "d": "nguyen-beyligi"
+   },
+   "kaynak": "Vietnam: A Country Study (LoC) https://countrystudies.us/vietnam/12.htm",
+   "kaynak2": "Vietnam: A Country Study (LoC), ch.12 https://countrystudies.us/vietnam/12.htm (ham metin okundu)",
+   "alinti2": "The Nguyen, aided by the Chinese settlers, succeeded in forcing the Khmer completely out of the Mekong Delta by 1749.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Tra Vinh: f=1749, kamboc t=1674 önerisiyle birlikte 75 yıllık boşluk doğurur; tek başına da 'by 1749' en geç sınırdır, tam geçiş yılı değil ve Tra Vinh'a özgü değil (bölge düzeyi). Yerel geçiş yılı BULUNAMADI. Çerçeve (1674-1749) kaynaklı, nokta değil. · BÖLGE DÜZEYİ, YIL. Üst sınır 1749 (delta tamamen Nguyen'de). Tra Vinh'a özgü yıl BULUNAMADI. Bitiş 1777: LoC Vietnam 13: Tay Son 1773'te Qui Nhon'u aldı, 'by 1778' güneyde (Gia Dinh dahil) etkin denetim kurdu — 1777 ile 1778 arası fark YIL düzeyi. Tra Vinh Khmer nüfusun yoğun kaldığı yerdir; yerel geçiş yılı (Vietnam idaresi) LoC'ta yok."
+  },
+  {
+   "ad": "Aydos (Aytos)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1121",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1410-02-13",
+   "t": "1410-06-15",
+   "oneri": {
+    "f": "1410",
+    "t": "1410",
+    "d": "musa-celebi"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mûsâ Çelebi» (https://islamansiklopedisi.org.tr/musa-celebi)",
+   "kaynak2": "TDV «Mûsâ Çelebi» (mevcut kaynak)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri f=1410, t=1410 → 1410-01-01 → 1410-01-01 SIFIR UZUNLUKLU dönem (CLAUDE.md: Tebriz f=t vakası) ve önceki Süleyman satırının t'siyle (1410-02-13) çakışır. Fetret kararı hükmü 'YIL düzeyi, ABİ MERKEZ' beyanıyla vermeyi söyler; ABİ MERKEZ için Aydos-Edirne bağını gösteren kaynak yok (TDV arama 'Aydos': 23 madde içeriği eşleşmesi, 1410-1411 evresini anan cümle yok). · FETRET kuralı: 13 Şubat ve 15 Haziran 1410 savaş günleridir (ülke düzeyi); Aydos için YIL düzeyi, ABİ MERKEZ Edirne. Bu iki ucu gün düzeyinde KAYNAKLI sayma. Dönemler 1410 içinde birleştirilebilir (Aydos'a özgü kanıt yok)."
+  },
+  {
+   "ad": "Aydos (Aytos)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1121",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "oneri": {
+    "f": "1411",
+    "t": "1413",
+    "d": "musa-celebi"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mûsâ Çelebi» (https://islamansiklopedisi.org.tr/musa-celebi)",
+   "kaynak2": "TDV «Mûsâ Çelebi» (mevcut kaynak)",
+   "alinti2": "Mehmed Çelebi’nin adamları tarafından yakalanarak boğduruldu (5 Rebîülâhir 816 / 5 Temmuz 1413)",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): t=1413 → 1413-01-01: sonraki d: OSMANLI dönemi 1413-07-05'te başlıyor (KAYNAKLI) → 1413-01-01..07-05 arası 6 aylık SAHİPSİZ delik (Değişmez 1) ve Mehmed'e geçişi olaydan ÖNCEYE taşır. Komşu dönem bu günü kullandığından yıla indirme yasak. · FETRET: 5 Temmuz 1413 Musa'nın ölümüdür (ülke düzeyi); Aydos'a özgü devir günü değil → YIL düzeyi 1413, ABİ MERKEZ Edirne. Hüküm gün düzeyinde KAYNAKLI sayılmaz."
+  },
+  {
+   "ad": "Wuchang (Wuhan)",
+   "dosya_satir": "data/yerlesimler_asya.js:2096",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "oneri": {
+    "f": "1281-01-01",
+    "t": "1364",
+    "d": "yuan-hanedani"
+   },
+   "kaynak": "Mingshi j.44 地理五「湖廣等處承宣布政使司」(zh.wikisource.org/wiki/明史/卷44; sayfa okundu)",
+   "kaynak2": "Mingshi j.44 (mevcut kaynak, zh.wikisource.org/wiki/明史/卷44)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): yuan t=1364 → ming-hanedani künyesi f=1368-01-23 olduğundan 1364-1368 arasını dolduracak künye yok: dört yıllık SAHİPSİZ delik (Değişmez 1). Han (Chen Youliang/Chen Li) 1360-64 için atlasta künye bulunmadı (devletler.js'te 'chen' = Chen Hanedanı 557-589, ilgisiz). Kaynak Çin ay-güneş takvimiyle (甲辰年二月) tarihli: çeviri EMRELİC'te toplu yapılır (Academia Sinica), Mingshi günü KAYIT günüdür. · Ming shi: Wuchang 太祖甲辰年二月 (Taizu Jiachen yılı 2. ay) 'fu' yapıldı; aynı bölümde 'Taizu Jiachen yılı 2. ay Chen Li'yi bastırdı, Huguang Hsing zhongshu sheng kuruldu' → Ming (Zhu Yuanzhang) hâkimiyeti 1364'te. Ay-güneş günü: 'Academia Sinica ile çevrilecek' (EMRELİC toplu çevirir; ben çevirmedim): Ming shi 甲辰年二月 (hanedan yılı Jiachen=1364, 2. ay). Mingshi günü KAYIT günüdür. ÖNEMLİ ÇELİŞKİ: atlas Yuan'ı 1368-01-23'e kadar uzatıyor ama Wuchang 1360-1364 arasında Chen Youliang'ın Han devleti (sonra Chen Li) elindeydi — Ming shi: 'Xianning ... 陳友諒時徙治河北' (Chen Youliang dönemi yönetim). Yuan→Han geçiş yılı (1356/1360) bu turda BAKILMADI; ÖLÇÜT (Han için): idareye katma — Chen Youliang kendi ilçe yönetimini kurdu (Mingshi 地理志). Han künyesi atlasta varsa bölünmeli: yuan t ≈ 1356-1360 (Xu Shouhui/Chen Youliang), han 1360 → 1364 (ay: 2. ay)."
+  },
+  {
+   "ad": "Wuchang (Wuhan)",
+   "dosya_satir": "data/yerlesimler_asya.js:2096",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "oneri": {
+    "f": "1364",
+    "t": "1644-04-25",
+    "d": "ming-hanedani"
+   },
+   "kaynak": "Mingshi j.44 地理五 (zh.wikisource.org/wiki/明史/卷44)",
+   "kaynak2": "Mingshi j.44 (mevcut kaynak)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: önerilen f=1364, ming-hanedani künyesinin f ALANI 1368-01-23'ten ÖNCE (künyenin adına değil f alanına bakıldı). Künye aşımı kuralı: aynı polity sürüyorsa künyeyi GENİŞLET — bu LAB kararıdır; satır künye gününde bırakılır, erken tarih ic_not'a. Ayrıca 1364 yalnız Çin takvimi kaydıdır (Batı karşılığı yok), çeviri EMRELİC'te. · f: 1364 (2. ay; 'Academia Sinica ile çevrilecek', Mingshi 甲辰年二月 = KAYIT günü). 1368-01-23 Hongwu'nun taht günü ÜLKE DÜZEYİDİR; Wuchang'ı 1364'te Zhu Yuanzhang (Wu Wang) yönetiyordu — Wu ≠ Ming künyesi: atlasta 'wu' künyesi yoksa Ming'e yazılır BEYANLI YAKLAŞIKLIK. İdareye katma kanıtı: Wuchang 'fu' + Huguang xingsheng (Ming shi). Bitiş 1644-04-25: mevcut DEVRALMA ülke düzeyi (Pekin'in düşüşü), Wuchang'a özgü değil: 1643'te Zhang Xianzhong'un Wuchang'ı alması BAKILMADI."
+  },
+  {
+   "ad": "Nha Trang (Kauthara)",
+   "dosya_satir": "data/yerlesimler_gdasya.js:98",
+   "alan": "s",
+   "d": "le-hanedani",
+   "f": "1775-02-01",
+   "t": "1786-06-01",
+   "oneri": {
+    "d": "tay-son",
+    "f": "1773-01-01"
+   },
+   "kaynak": "U.S. Library of Congress, Country Studies: Vietnam (1987), https://countrystudies.us/vietnam/13.htm",
+   "kaynak2": "U.S. Library of Congress, Country Studies: Vietnam, «The Tay Son Rebellion», https://countrystudies.us/vietnam/13.htm",
+   "alinti2": "In 1773 Nguyen Nhac seized Qui Nhon, which became the Tay Son capital. By 1778 the Tay Son had effective control over the southern part of the country, including Gia Dinh (later Saigon).",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (hayalet devlet): öneri tay-son f 1773-01-01 yazıyor; devletler.js tay-son künyesi f 1778-01-01 -> t 1802-06-20, yani 1773 künye f'sinin DIŞINDA. Ayrıca LoC cümlesi Qui Nhơn (1773) ve genel \"güney 1778\" der, Nha Trang'a özgü değil (bölge düzeyi) -> KAYNAKLI da olamazdı. LoC ham metinden okundu: Quang Nam ve Bình Định 1772, Qui Nhơn 1773, 1778 güney hâkimiyeti. Mevcut le-hanedani 1775-02-01 dilimi de Kauthara için kanıtsız (Lê/Trịnh Kauthara'yı yönettiği hiçbir kaynakta yok); ama \"1773 tay-son\" yazmak doğru çözüm değil. Doğrusu: tay-son f künyenin 1778-01-01'i; 1775-1778 ara dönem sahibi BULUNAMADI (Nguyễn lordları Gia Định'e çekilirken Kauthara'nın kimde olduğu bu kaynakta yok). · BAKILMADI TURU: ÇELİŞKİ (ÜLKE/BÖLGE DÜZEYİ): LoC, Tây Sơn'un 1772-73'te Quang Nam ve Bình Định'i (Qui Nhơn) aldığını, 1778'de güneye hâkim olduğunu söyler; Nha Trang (Kauthara) Qui Nhơn'un güneyinde → 1775-1786 'le-hanedani' (Trịnh) Kauthara için ŞÜPHELİ, Tây Sơn/Nguyễn. Önerilen f=1773 YIL düzeyi ve Nha Trang'a özgü değil; sonraki 'tay-son 1786-06-01' ile BİRLEŞMELİ. · eski: Aranmadı. DİKKAT: 1775-1786 arası Kauthara'da Lê (Trịnh) hâkimiyeti şüpheli; Quang Nam ve Phú Xuân Trịnh'e 1775'te geçti ama Nha Trang Tây Sơn/Nguyễn arasında idi. Teyit gerek."
+  },
+  {
+   "ad": "Rembang",
+   "dosya_satir": "data/yerlesimler_gdasya.js:201",
+   "alan": "s",
+   "d": "mataram-sultanligi",
+   "f": "1587-01-01",
+   "t": "1743-11-11",
+   "oneri": {
+    "f": "1585 (TDV Cava; atlas 1587 künye)",
+    "t": "II. Amangkurat (1677-1703) döneminde Pasisir limanları idare bırakıldı — Rembang'a özgü gün yok; atlas 1743-11-11'i bırak"
+   },
+   "kaynak": "TDV 'Cava'",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Cava», https://islamansiklopedisi.org.tr/cava",
+   "alinti2": "XVI. yüzyılın sonlarına doğru Orta Cava bölgesinde Mataram Sultanlığı adıyla geniş bir politik güç ortaya çıktı (1585). | Bu yardıma karşılık olarak Hollandalılar’a Pasisir limanlarının idaresi bırakıldı.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (hayalet devlet): öneri f 1587 -> 1585 diyor; devletler.js mataram-sultanligi künyesi f 1587-01-01 -> t 1755-02-13, yani 1585 künyenin dışında. TDV Cava ham metinden okundu: 1585 \"Orta Cava bölgesinde ortaya çıktı\" (bölge düzeyi, Rembang değil, Rembang'ın katıldığı yıl değil). t tarafı: TDV II. Amangkurat (1677-1703) döneminde Pasisir limanlarının idaresinin Hollandalılar'a bırakıldığını yıl-aralığı olarak söyler; atlas 1743-11-11 ile iki tarih çatışması vardır, karar verilmedi (Rembang'ın VOC idaresine geçişi bu maddede yer özel olarak anılmıyor). KOORDİNATÖR KARARI (Cava 1811-16) bu dilime ait değil, uygulanmadı. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece-13): Cava 1811-16 — isg ingiltere 1811-09-18 (Janssens teslimi, Ricklefs) → 1816-08-19 (fiilî iade); savaş fethi + antlaşmayla iade, eski sahibin iddiası sürdü (TAHRİR ikinci sınavı). Alttaki d: fransa-cumhuriyet 1810-07-09'dan (Hollanda ilhaklı; künye var, devletler.js:904), sonra hollanda (künye var, devletler.js:1802) — d: için 1814-08-13 Londra Konvansiyonu İMZA, s: için 1816-08-19 TESLİM. UMIT ölçümü: hollanda künyesi 1581'den kesintisiz (1810-13 Fransız ilhakını kapsıyor) — künye sorusu LAB'a. Raffles idaresi ic_not. · ONERI/UYARI: TDV Cava: Mataram 1585; II. Amangkurat (1677-1703) Hollandalılar'a 'Pasisir limanlarının idaresi bırakıldı' (yıl yok). Atlas 1743-11-11 (Karaton Kartasura anlaşması) Pasisir'in tamamı için bilinen tarih. Rembang'ın VOC idaresine geçişi 1677-1703 arasında olabilir: İKİ TARİH ÇATIŞMASI BEYAN, karar verilmedi. Kaynakta 1743 yok."
+  },
+  {
+   "ad": "Almatı (Vernıy)",
+   "dosya_satir": "data/yerlesimler_ek14.js:164",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1758-01-01",
+   "t": "1847-01-01",
+   "oneri": {
+    "t": "1854 (yıl; Rus kalesi) — ancak bu bir kale inşasıdır, idareye katma 1854-1855"
+   },
+   "kaynak": "TDV 'Alma Ata' (islamansiklopedisi.org.tr/alma-ata)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Alma Ata», https://islamansiklopedisi.org.tr/alma-ata",
+   "alinti2": "Şimdiki yerleşim merkezi, Almatı denilen eski Kazak yerleşim yeri üzerinde bulunmaktadır. 1854’te Verniy adıyla bir Rus askerî kalesi olarak inşa edildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (hayalet devlet): öneri kazak-hanligi t=1854 yazıyor; devletler.js kazak-hanligi künyesi f 1465-01-01 -> t 1847-01-01, yani 1854 künyenin DIŞINDA. TDV Alma Ata ham metinden okundu; cümle bu yerleşimi 1854'te Rus kalesi olarak tarihliyor ama Kazak Hanlığı'nın sona erişini tarihlemiyor. Künye aşımı sınıflaması: kazak-hanligi 1847'de sona ermiş (Kenesarı sonrası) olabilir; Almatı bölgesi Hokand/Büyük Cüz iddiası altındaydı; hangi polity olduğu bu kaynakta yok. · ONERI: Atlas Rusya'yı 1847'den başlatıyor ('Kopal tahkimatı' ile Kuzey Yedisu; DEVRALMA). TDV: Verniy kalesi 1854'te inşa edildi, Semireç askerî bölgesi 1867. Almatı 1847'de Rus değil; Kopal 1847 ≠ Almatı. Rusya f 1847 → 1854 olmalı; kazak-hanligi t 1854. ÖLÇÜT: idareye katma — kale + sonra Semireç bölgesi. ÇELİŞKİ: DEVRALMA kaynağı olay kaynağı (Kopal), Almatı'ya özgü değil. Gün yok (yıl düzeyi)."
+  },
+  {
+   "ad": "Sincan",
+   "dosya_satir": "data/yerlesimler_sinir_guney.js:None",
+   "alan": "s",
+   "d": "suriye-lubnan-mandasi",
+   "f": "1920-07-24",
+   "t": "1938-09-02",
+   "oneri": {
+    "f": "1920-09-01 (atlas Levant emsali) ya da 1922-07-24 (Milletler Cemiyeti onayı)"
+   },
+   "kaynak": "TDV 'Suriye' https://islamansiklopedisi.org.tr/suriye ; TDV 'Antakya' https://islamansiklopedisi.org.tr/antakya",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Antakya' (ham metin okundu)",
+   "alinti2": "2 Eylül 1938’de Hatay Cumhuriyeti Millet Meclisi açılarak devlet başkanlığına Tayfur Sökmen seçildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri iki alternatif sunuyor ('1920-09-01 ya da 1922-07-24'). KOORDİNATÖR KARARI (EMRELİC gece-8): Hatay'da isg fransa manda s: gününde biter, İç Suriye 1920-07-25 emsali; 09-01 yalnız Büyük Lübnan kıyısıdır (Sincan 36.72N 36.23E, Amik/Hatay, Lübnan kıyısı değil). 1922-07-24 (Milletler Cemiyeti onayı) TDV'ye göre 'resmen manda' ama atlas Levant zincirinde manda s: günü 1920-07-24/25'tir; 1922 ic_not. t=1938-09-02 TDV Antakya ile teyit edildi (Hatay Meclisi açılışı; künye hatay-devleti f=1938-09-02 ile uyumlu), değişmez. · BAKILMADI TURU: KURAL KARARI: TDV Suriye: San Remo Nisan 1920 manda tahsisi, Meysalun Temmuz 1920 ile Faysal dönemi bitti, 'Fransız işgali iki yıl sonra resmen manda' (1922). Atlas satırı f=1920-07-24 ('Meysalun') kaynakta gün olarak yok; atlas kuralı iç Suriye 1920-07-25, Lübnan kıyısı s: 1920-09-01. Sincan (Antakya-İskenderun sancağı, Halep Devleti içinde) için hangi gün esas: EMRELİC karar versin. TEK KURAL'a göre işgal 1918-10 → egemenlik devri bitene kadar d: osmanli + isg fransa; mandanın hukukî tarihi 1922 (League onayı) ile 1920-09-01 arasında kural çatışması var. t=1938-09-02 bu turda araştırılmadı (TDV Antakya yalnız 1937 Ocak karar, 1921 Ankara Antlaşması muhtariyet). Ek bulgu: 1921-10-20 Ankara Antlaşması İskenderun sancağına idarî muhtariyet; atlasta ayrı beyan yok. · eski: TDV 'Antakya': 21 Ekim 1921 Ankara Antlaşması (İskenderun sancağına idarî muhtariyet); Ocak 1937 Paris/Ankara görüşmesi; 29 Mayıs 1937 anayasa onayı (yıl düzeyi). Mandanın başlangıcı 1920-07-24 kaynakta yok → BAKILMADI. Ek bulgu: Sincan 1921 Ankara Antlaşması'yla özerk 'İskenderun sancağı'na girdi; atlasta ayrı beyan yok."
+  },
+  {
+   "ad": "Taba",
+   "dosya_satir": "data/yerlesimler_ek28.js:179",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "oneri": {
+    "f": "1958-02-01 (TDV) — atlas 1958-02-22"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi 'Mısır' (mevcut kaynak alıntısı)",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hayalet devlet: devletler.js birlesik-arap-cumhuriyeti f=\"1958-02-22\" (künye özeti: \"1 Şubat 1958'de ilan, 21 Şubat plebisitiyle onaylanıp 22 Şubat'ta yürürlüğe girdi\"); önerilen 1958-02-01 künyenin f'sinden ÖNCE -> dönem künye dışına düşer. Künye çözümü (1 Şubat'ı künyeye geçirmek) LAB'ın işidir; yerleşim satırı künye gününde kalır, 1 Şubat ic_not'ta. Ayrıca TEK ÖLÇÜ: yürürlük (22 Şubat) ic_not'a gider, ama devralan (BAC) birlik ilanından önce fiilen yönetmiyordu; mevcut künye konvansiyonu bilinçli. TDV Mısır sayfası bu turda yeniden okunmadı. · İKİ GÜN: mevcut_kaynak TDV'yi 1 Şubat 1958 olarak aktarıyor ama dönem f=1958-02-22 (referandum/ilan). Çelişki KASA/Emre'ye: hangi gün atlas konvansiyonu? TDV sayfası bu turda yeniden okunmadı (alıntı mevcut kayıttan)."
+  },
+  {
+   "ad": "Behramkale (Assos)",
+   "dosya_satir": "data/yerlesimler_ek23.js:127",
+   "alan": "s",
+   "d": "isa-celebi",
+   "f": "1402-07-28",
+   "t": "1403-09-01",
+   "oneri": {
+    "f": "1402 (YIL düzeyi; Kasım-Aralık 1402 sonrası)",
+    "t": "1403 (YIL; yaz 1403 Mehmed Çelebi Ulubat'ta galip, Isa Eylül 1403 öncesi öldü)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi 'Îsâ Çelebi' (islamansiklopedisi.org.tr/isa-celebi)",
+   "kaynak2": "TDV İslâm Ansiklopedisi 'Îsâ Çelebi' (islamansiklopedisi.org.tr/isa-celebi) - ham metin okundu",
+   "alinti2": "Kasım 1402 tarihi itibariyle Boğaz’ın Asya yakasında ve Marmara denizi güneyinde hâkimiyet sağladı. Timur da ona kemer, külâh ve hil‘at yollayarak Karesi (Balıkesir) bölgesinin idaresini verdi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (EMRELİC gece-36, İsa Çelebi satırları): 1402-07-28 -> 1402-11-01 d: osmanli + isg timurlu; s: isa-celebi 1402-11-01'den [yalnız ay]; 1403-01 tanınması ic_not. Önerideki f \"1402 YIL\" (1402-01-01'e iner) karara aykırı: Ankara Savaşı 1402-07-28'den ÖNCE, d: osmanli dönemiyle (t 1402-07-28) çakışır. t \"1403 YIL\" de komşu mehmed-celebi f 1403-09-01 ile boşluk/çakışma doğurur -> indirilmez. Behramkale'ye özgü not (ic_not): TDV Karesi idaresini Timur'un İzmir'i almasından (16 Aralık 1402) HEMEN SONRA verdiğini söyler, yani Karesi için fiilî tarih Aralık 1402 sonrası olabilir; karar bölge düzeyinde 11-01'dir, Karesi sapması EMRELİC'e: KAYNAKLI değil, yerleşime özgü tanıklık yok (ABİ MERKEZ Karesi, YIL/AY düzeyi). TDV: Isa Çelebi 1403 yazında Karesi'yi itaat altına aldı, Eylül 1403'te ölmüştü (Clavijo). · KOORDİNATÖR KARARI (EMRELİC gece-36, 5 Kasım 2026): İSA ÇELEBİ — 1402-07-28 (Ankara) → 1402-11-01: d: osmanli + isg timurlu (Bursa kuşağı Timur ordusunun elinde, Bursa Ağustos 1402 yağması; Osmanlı iddiası sürdü, Bayezid esir). 1402-11-01'den s: isa-celebi (TDV 'Kasım 1402' [yalnız ay]); künye fetret-isa f 1403-01-01 → 1402-11-01 GENİŞLETİLECEK (LAB). 1403 Ocak tanınması ic_not'a. Delik ve hayalet yok. [UMIT ölçümü: künye id 'fetret-isa', harita anahtarı 'isa-celebi'; timurlu künyesi 1370-04-09 → 1507-05-24, 1402 Anadolu dilimini kapsar.] · FETRET: 1402-07-28 Ankara savaşı günü Behramkale'nin devri değil; TDV: Isa Çelebi Kasım 1402'de Boğaz Asya yakası ve Marmara güneyinde hâkim, Timur Aralık 1402 sonrası Karesi'yi verdi, Ocak 1403 Bursa. ABİ MERKEZ Karesi/Balıkesir, YIL düzeyi. t: Isa 1403 yazında Karesi'yi yeniden aldı, Mehmed Çelebi Ulubat'ta yendi (YIL 1403)."
+  },
+  {
+   "ad": "Erciş",
+   "dosya_satir": "data/yerlesimler.js:1998",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1548-08-24",
+   "t": "1920-04-23",
+   "oneri": {
+    "ek": "s safevi: Ramazan 959 (Ağustos-Eylül 1552) → 1555 (Amasya Antlaşması YIL; TDV 'Van ve çevresinin Osmanlılar’a ait olduğu kabul edildi (1555)')",
+    "f": "1548-08-24 (Van Kalesi fethi GÜN, TDV; Erciş 'tekrar Osmanlılar'ın eline geçti' aynı sefer)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi 'Van'",
+   "kaynak2": "TDV İslâm Ansiklopedisi 'Van' (islamansiklopedisi.org.tr/van) - ham metin okundu",
+   "alinti2": "Bu sırada Vastan, Erciş, Adilcevaz ve Ahlat tekrar Osmanlılar’ın eline geçti. ... Ramazan 959’da (Ağustos-Eylül 1552) Ahlat’ı muhasara edip şehri ve kaleyi tamamen tahrip ettirdi, Erciş’i de ele geçirdi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: öneri 1552-1555 arasını \"s safevi\" yazıyor. Safevî Erciş'i 1552'de ele geçirdi ama TDV idareye katma belgesi vermiyor (yalnız \"ele geçirdi\", Ahlat'ı \"tamamen tahrip\" etti, Amasya 1555 Van ve çevresinin Osmanlı'ya ait olduğunu kabul etti): TAHRİR ÖLÇÜTÜ ve \"Savaş işgali ilhak değildir: s kısaltılmaz, isg katmanı eklenir\" -> alttaki d: osmanli bölünmez, isg safevi katmanı eklenir. f=1548-08-24 (Van Kalesi fethi) Erciş'i adıyla anan cümle (\"tekrar Osmanlılar'ın eline geçti\") ile birlikte okundu; f değişmediği için tek başına KAYNAKLI sayılmadı. Hicrî: Ramazan 959 = 1552-08-20..09-18 Jülyen (TDV Ağustos-Eylül 1552 ile uyumlu); Safevî çekilişi/Osmanlı geri alışı kaynakta yok (BAKILMADI). Rus isg 1915-18 satır dışı bilgi. · f=1548-08-24: TDV van 'onuncu gün kale fethedildi (24 Ağustos 1548)' GÜN (Van Kalesi; Erciş günü komşudan, BEYANLI YAKLAŞIKLIK). ARA DÖNEM: 1552 Safevî Erciş'i ele geçirdi (Hicrî Ramazan 959, ay hassasiyeti, ÇEVRİLMEDİ) → atlasta yok. 1915-18 Rus işgali: TDV 'Van' 'I. Dünya Savaşı esnasındaki Rus işgali', Van 2 Nisan 1918'de kurtarıldı: isg rusya Erciş için eklenmeli (f YIL 1915, t 1918 Van'a göre; Erciş günü BAKILMADI). ÖLÇÜT: geçici/askerî."
+  },
+  {
+   "ad": "Nedrûme",
+   "dosya_satir": "data/yerlesimler_afrika.js:603",
+   "alan": "s",
+   "d": "abdulkadir",
+   "f": "1832-11-22",
+   "t": "1844-01-01",
+   "oneri": {
+    "f": "1833 (YIL)",
+    "t": "1842 (YIL)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tilimsân», https://islamansiklopedisi.org.tr/tilimsan",
+   "kaynak2": "TDV «Tilimsân» (mevcut kaynak)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI: oneri t=1842 'ikinci işgal' tarihidir (TDV kendi sözcüğüyle işgal). Atlas kuralı: savaş işgali ilhak değildir, s kısaltılmaz, isg katmanı eklenir (DA-BRIEF TEK KURAL). Nedrûme'nin 1842'de Fransız idaresine katıldığı belgelenmedi; ilhak/idareye katma belgesi yok. f=1833 de abi merkez (Tilimsân) olayı ve önceki satırla (v: Osmanlı iddiası t=1832-11-22) boşluk yaratır. abdulkadir künyesi f=1832-11-22, t=1847-12-23 (ölçüldü). · ABİ MERKEZ: Tilimsân, BEYANLI YAKLAŞIKLIK. Atlas f 1832-11-22 (Abdülkādir'in kuruluşu); TDV Tilimsân'ı Abdülkādir'in 1833'te aldığını söyler. TDV: 1836 Fransızlar şehri kısmen aldı; 1837 Tâfnâ Antlaşması'yla Abdülkādir'e bıraktı; 1842'de antlaşmayı yok sayıp ikinci işgal. ÖLÇÜT: idareye katma/geçici ayrımı için Nedrûme özelinde belge okunmadı."
+  },
+  {
+   "ad": "Nedrûme",
+   "dosya_satir": "data/yerlesimler_afrika.js:603",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1844-01-01",
+   "t": "1962-07-05",
+   "oneri": {
+    "f": "1842 (YIL)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tilimsân», https://islamansiklopedisi.org.tr/tilimsan",
+   "kaynak2": "TDV «Tilimsân» (mevcut kaynak)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI: TDV 1842'yi 'ikinci işgal dönemini başlattılar' diye anlatır = savaş işgali; s: fransa f=1842 yazmak TEK KURAL'a (işgal ≠ sahiplik; Cezayir fetih+ilhak ayrımı) aykırı ve abdulkadir t=1844 ile de çakışmaz ama 1842-1844'te s: abdulkadir'i keser. Ayrıca tarih Tilimsân'ındır, Nedrûme'nin değil (Nedrûme'ye özgü giriş günü yok). Doğrusu: 1842 ancak isg katmanı olabilir, s: f değişmez. · ABİ MERKEZ: Tilimsân, BEYANLI YAKLAŞIKLIK. Atlas f 1844-01-01 (mevcut kaynak TDV cezayir; 'şehrin kendi giriş günü doğrulanmadı'). TDV tilimsan 'işgal' diyor: işgal mi (isg) yoksa idareye katma mı (s) ayrımı için belge okunmadı. Nedrûme için ayrıca 1844 tanığı yok."
+  },
+  {
+   "ad": "Nâin",
+   "dosya_satir": "data/yerlesimler.js:2138",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1357-01-01",
+   "t": "1387-11-01",
+   "oneri": {
+    "f": "1318 (YIL; ABİ MERKEZ Yezd)",
+    "t": "1393 (YIL)",
+    "d": "muzafferi"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Muzafferîler», https://islamansiklopedisi.org.tr/muzafferiler",
+   "kaynak2": "TDV «Muzafferîler» (mevcut kaynak)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI: oneri f=1318 mevcut KAYNAKLI komşu dönemlerle çakışır (s ilhanli → 1335-12-01, s incu 1335-12-01 → 1357-01-01); sahiplik zinciri iki devleti birden gösterir. 1318 Mübârizüddin'in Yezd emirliği kuruluş yılıdır (abi merkez Yezd); Nâin'e ulaştığı yıl değil. t=1393 yıl ucu muzafferi künyesi (t 1393-01-01) ile uyumlu ama Nâin'e özgü tanıklık/bond kaynağı yok → o kısım ONERI. · ABİ MERKEZ: Yezd/İsfahan (Nâin Yezd-İsfahan arasında, hangisine bağlı olduğu kaynakta yok) — BEYANLI YAKLAŞIKLIK, Nâin'e özgü tanıklık YOK. TDV: Mübârizüddin Yezd emirliğini 718/1318'de aldı, İsfahan Muzafferî valiliğinde (Şah Şücâ' döneminde), hânedan 1393'te Timur'un galibiyetiyle bitti. Atlas muzafferi t 1387-11 → 1393; f 1357 → Yezd için 1318. Fars/Şîraz'ın alınışı TDV'de görülmedi."
+  },
+  {
+   "ad": "Semadirek",
+   "dosya_satir": "data/yerlesimler.js:696",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1656-07-13",
+   "t": "1657-11-15",
+   "oneri": {
+    "d": "venedik",
+    "f": "1656-07",
+    "t": "1657-11"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Limni' (https://islamansiklopedisi.org.tr/limni) ve 'Bozcaada' (https://islamansiklopedisi.org.tr/bozcaada); Semadirek'in kendi maddesi/tanıklığı bulunamadı",
+   "kaynak2": "TDV «Limni» (mevcut kaynak; yeniden okunmadı)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI: oneri alan s'de 'd: venedik' bırakır; TDV 'işgal edildiyse de ... geri alındı' diyor = savaş işgali. TEK KURAL: işgal ilhak değildir, s: yazılmaz, isg: katmanı eklenir (ÖLÇÜT: geçici/askerî — Osmanlı iddiası sürüyor, 1 yıllık işgal, Venedik'in adayı idareye kattığı belge yok). Ayrıca alıntı Limni'ye aittir, Semadirek'in Venedik işgali doğrulanmadı (satırın kendi notu: BAKILMADI); bu tür dolaylı çıkarım KAYNAKLI olmaz. Gün için 1656-07-13 kullanılamaz. · BAKILMADI TURU: ABİ MERKEZ: Limni (TDV Limni: Osmanlı idaresinde Limni kazası, Bozbaba ve Semadirek adaları ona bağlandı). Semadirek'in Venedik işgaline dair doğrudan kaynak YOK; zincir Limni'den devralındı, BEYANLI YAKLAŞIKLIK. Limni için TDV yalnız ay/yıl verir (1656 Temmuz - 1657 Kasım); 1656-07-13 günü TDV'ye göre Bozcaada'nın düşüş günüdür (21 Ramazan 1066 / 13 Temmuz 1656), Limni'nin değil; Bozcaada 30 Ağustos 1657'de geri alındı. Gün düzeyinde KAYNAKLI sayma: f ucu Bozcaada gününden devralınmış, t=1657-11-15 gün teyitsiz (TDV: Kasım 1657). ÖLÇÜT: geçici/askerî - Venedik adayı kendi idaresine kattığına dair belge yok (1 yıllık işgal, Osmanlı iddiası sürüyor); TEK KURAL gereği bu dönem s: değil isg: venedik olmalı. Ayrıca Semadirek'in gerçekten Venedik işgaline girdiği doğrulanamadı; Venedik'in elinde olduğu bilinen adalar Bozcaada ve Limni (EN Wikipedia 3rd Dardanelles aftermath: Tenedos ve Lemnos - tek dayanak değil). · eski: Baktığım yer: TDV semadirek tam metin — 'Venedik' yalnız 1204 bağlamında geçiyor, 1656-1657 Venedik işgali/sahipliği anılmıyor. Başka kaynağa bakılmadı."
+  },
+  {
+   "ad": "Fellûce",
+   "dosya_satir": "data/yerlesimler.js:2108",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1411-01-01",
+   "oneri": {
+    "f": "1339 (YIL)",
+    "t": "1410 (YIL)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+   "kaynak2": "bagdat_kume.json (Irak 1339-1534 kümesi, çözüldü); TDV «Bağdat» mevcut kaynak",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI: f=1339 celayirli künyesinin f=1340-01-01'inden ÖNCE (hayalet devlet; künye f/t alanı ölçüldü: 1340-01-01 → 1431-01-01). Küme kararı: f 1340-01-01 korunur, 1339 ic_not; t=1411-04-25 (hicrî alt sınır). Abi merkez Bağdat, Fellûce'ye özgü tanıklık yok. Yalnız okuduğum: küme çıktısı. · ABİ MERKEZ: Bağdat; BEYANLI YAKLAŞIKLIK, Fellûce'ye özgü tanıklık yok. Atlas 1340-1411, TDV Bağdat 1339-1410. TDV Timur'un 1393 ve 1401'de Bağdat'ı yıktığını da anar (Timurlu katmanı)."
+  },
+  {
+   "ad": "Fellûce",
+   "dosya_satir": "data/yerlesimler.js:2108",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1411-01-01",
+   "t": "1469-01-01",
+   "oneri": {
+    "f": "1410 (YIL)",
+    "t": "1467 (YIL)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+   "kaynak2": "bagdat_kume.json (Irak kümesi); TDV «Karakoyunlular» (kümede okunmuş)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI: oneri 1410-1467 TDV «Bağdat» yıllarıdır; Irak kümesinde çözüldü: Bağdat kolu için f=1411-04-25 (814 H ∩ 1411), t=1469-12-19 (TDV Karakoyunlular, 'Bağdat kolu da sona ermiş oldu'); 1467 ülke düzeyi (Cihan Şah yenilgisi). Küme kararı ile çelişir. · ABİ MERKEZ: Bağdat; BEYANLI YAKLAŞIKLIK. Atlas 1411-1469 → TDV 1410-1467 (YIL). Çift-TDV çelişkisi görmedim."
+  },
+  {
+   "ad": "Fellûce",
+   "dosya_satir": "data/yerlesimler.js:2108",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1508-01-01",
+   "oneri": {
+    "f": "1467 (YIL)",
+    "t": "1508 (YIL)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+   "kaynak2": "bagdat_kume.json (Irak kümesi); TDV «Bağdat», «Kerbelâ» (kümede okunmuş)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI: oneri f=1467 Karakoyunlu ülke sonu yılıdır; Bağdat/Irak kümesi 1469-12-19 verir (Karakoyunlu Bağdat kolunun sonu, ÜST sınır). t=1508 yıl düzeyi; küme 1508-05-02 (hicrî kural). Küme kararı ile çelişir. · ABİ MERKEZ: Bağdat; BEYANLI YAKLAŞIKLIK. Atlas 1469-1508."
+  },
+  {
+   "ad": "Bacatá (Bogotá)",
+   "dosya_satir": "data/yerlesimler_amerika.js:729",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "oneri": {
+    "f": "1830-01-01"
+   },
+   "kaynak": "Hrvatska enciklopedija «Bogotá» (enciklopedija.hr/clanak/bogota)",
+   "kaynak2": "Hrvatska enciklopedija, «Bogotá», https://enciklopedija.hr/clanak/bogota (ham metin sayfa.py ile okundu, 5 Kas 2026)",
+   "alinti2": "Nakon odcjepljenja Venezuele i Ekvadora, od 1830. je i sjedište republike Nove Granade, odnosno od 1863. Sjedinjenih Država Velike Kolumbije, a od 1886. Republike Kolumbije.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (hayalet devlet): kolombiya-cumhuriyeti künyesi f=1831-01-01 (devletler.js:8613); öneri f=1830-01-01 künye ömrünün DIŞINA düşer. Ayrıca gran-kolombiya künyesi t=1831-01-01 (Gran Kolombiya'nın atlas dağılma günü): 1830 önerisi iki künye dönemini çakıştırır. HE'nin 1830'u (yılsız-gün yok) ic_not'a yazılır: «HE 1830, atlas künye 1831-01-01». Künyeyi 1830'a çekmek ancak künye kararıyla (LAB) olur; yerleşim satırı f=1831-01-01 kalmalı. · YIL düzeyi. AD: HE 1830'dan Yeni Granada Cumhuriyeti der (1863 Kolombiya Birleşik Devletleri, 1886 Kolombiya Cumhuriyeti); atlas tek 'kolombiya-cumhuriyeti' etiketi."
+  },
+  {
+   "ad": "Hasköy (Haskovo)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1100",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1402-07-28",
+   "t": "1410-02-13",
+   "oneri": {
+    "f": "1402",
+    "t": "1410"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, HASKÖY (Bulgaristan) (islamansiklopedisi.org.tr/haskoy--bulgaristan)",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hüküm YIL düzeyi/ABİ MERKEZ (Edirne) olabilir ama öneri yılı yıl başına (-01-01) indirerek sınırı kaydırıyor; 1410 yılında üç el değişimi (Şubat, Haziran) var, yıl başı indirgemesi bunları sıfır uzunluk/çakışma/boşluğa çevirir. Satır 1: f '1402' = 1402-01-01 künye fetret-suleyman f 1402-07-28'in (Ankara) ÖNÜNE düşer (hayalet devlet) ve önceki d:osmanli dönemini (t 1402-07-28) çakıştırır. Yerleşime özgü Süleyman/Musa tanıklığı okunmadı; kaynak2 yok. · FETRET 1402-1413: savaş günleri (1410-02-13 Yanbolu, 1410-06-15 Kosmidion, 1413-07-05) ülke/bölge düzeyidir, yerleşime özgü devir günü değildir; hüküm YIL düzeyi, ABİ MERKEZ (Edirne). Gün alanları yıl düzeyine indirilmeli. Hasköy'e özgü Süleyman/Musa tanıklığı TDV haskoy'de YOK."
+  },
+  {
+   "ad": "Hasköy (Haskovo)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1100",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1410-02-13",
+   "t": "1410-06-15",
+   "oneri": {
+    "f": "1410",
+    "t": "1410"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, HASKÖY (Bulgaristan) (islamansiklopedisi.org.tr/haskoy--bulgaristan)",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hüküm YIL düzeyi/ABİ MERKEZ (Edirne) olabilir ama öneri yılı yıl başına (-01-01) indirerek sınırı kaydırıyor; 1410 yılında üç el değişimi (Şubat, Haziran) var, yıl başı indirgemesi bunları sıfır uzunluk/çakışma/boşluğa çevirir. Satır 2: f '1410' t '1410' = 1410-01-01→1410-01-01 SIFIR UZUNLUK (CLAUDE.md: dönem sıfır uzunlukta olmaz), Musa dönemi haritadan düşer. Yerleşime özgü Süleyman/Musa tanıklığı okunmadı; kaynak2 yok. · FETRET 1402-1413: savaş günleri (1410-02-13 Yanbolu, 1410-06-15 Kosmidion, 1413-07-05) ülke/bölge düzeyidir, yerleşime özgü devir günü değildir; hüküm YIL düzeyi, ABİ MERKEZ (Edirne). Gün alanları yıl düzeyine indirilmeli. Hasköy'e özgü Süleyman/Musa tanıklığı TDV haskoy'de YOK."
+  },
+  {
+   "ad": "Hasköy (Haskovo)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1100",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "oneri": {
+    "f": "1410",
+    "t": "1411"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, HASKÖY (Bulgaristan) (islamansiklopedisi.org.tr/haskoy--bulgaristan)",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hüküm YIL düzeyi/ABİ MERKEZ (Edirne) olabilir ama öneri yılı yıl başına (-01-01) indirerek sınırı kaydırıyor; 1410 yılında üç el değişimi (Şubat, Haziran) var, yıl başı indirgemesi bunları sıfır uzunluk/çakışma/boşluğa çevirir. Satır 3: 1410-01-01 başlangıcı Musa dönemini (1410-02..06) yutar; komşu uçlarla çakışma. Yerleşime özgü Süleyman/Musa tanıklığı okunmadı; kaynak2 yok. · FETRET 1402-1413: savaş günleri (1410-02-13 Yanbolu, 1410-06-15 Kosmidion, 1413-07-05) ülke/bölge düzeyidir, yerleşime özgü devir günü değildir; hüküm YIL düzeyi, ABİ MERKEZ (Edirne). Gün alanları yıl düzeyine indirilmeli. Hasköy'e özgü Süleyman/Musa tanıklığı TDV haskoy'de YOK."
+  },
+  {
+   "ad": "Hasköy (Haskovo)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1100",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "oneri": {
+    "f": "1411",
+    "t": "1413"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, HASKÖY (Bulgaristan) (islamansiklopedisi.org.tr/haskoy--bulgaristan)",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hüküm YIL düzeyi/ABİ MERKEZ (Edirne) olabilir ama öneri yılı yıl başına (-01-01) indirerek sınırı kaydırıyor; 1410 yılında üç el değişimi (Şubat, Haziran) var, yıl başı indirgemesi bunları sıfır uzunluk/çakışma/boşluğa çevirir. Satır 4: f '1411'=1411-01-01 künye fetret-musa f 1411-02-17'den ÖNCE (hayalet) ve t '1413'=1413-01-01 ile sonraki d:osmanli f 1413-07-05 arasında 6 aylık BOŞLUK doğurur. Yerleşime özgü Süleyman/Musa tanıklığı okunmadı; kaynak2 yok. · FETRET 1402-1413: savaş günleri (1410-02-13 Yanbolu, 1410-06-15 Kosmidion, 1413-07-05) ülke/bölge düzeyidir, yerleşime özgü devir günü değildir; hüküm YIL düzeyi, ABİ MERKEZ (Edirne). Gün alanları yıl düzeyine indirilmeli. Hasköy'e özgü Süleyman/Musa tanıklığı TDV haskoy'de YOK."
+  },
+  {
+   "ad": "Elhova (Elhovo)",
+   "dosya_satir": "data/yerlesimler_ek24.js:127",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1402-07-28",
+   "t": "1410-02-13",
+   "oneri": {
+    "f": "1402",
+    "t": "1410"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU (islamansiklopedisi.org.tr/yanbolu)",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hüküm YIL düzeyi/ABİ MERKEZ (Edirne) olabilir ama öneri yılı yıl başına (-01-01) indirerek sınırı kaydırıyor; 1410 yılında üç el değişimi (Şubat, Haziran) var, yıl başı indirgemesi bunları sıfır uzunluk/çakışma/boşluğa çevirir. Satır 1: f '1402' = 1402-01-01 künye fetret-suleyman f 1402-07-28'in (Ankara) ÖNÜNE düşer (hayalet devlet) ve önceki d:osmanli dönemini (t 1402-07-28) çakıştırır. Yerleşime özgü Süleyman/Musa tanıklığı okunmadı; kaynak2 yok. · FETRET 1402-1413: savaş günleri (1410-02-13 Yanbolu, 1410-06-15 Kosmidion, 1413-07-05) ülke/bölge düzeyidir, yerleşime özgü devir günü değildir; hüküm YIL düzeyi, ABİ MERKEZ (Edirne). Gün alanları yıl düzeyine indirilmeli. Hasköy'e özgü Süleyman/Musa tanıklığı TDV haskoy'de YOK. TDV Yanbolu: Musa Çelebi 1410'da Yanbolu'da ikamet etti (abi merkez, YIL)."
+  },
+  {
+   "ad": "Elhova (Elhovo)",
+   "dosya_satir": "data/yerlesimler_ek24.js:127",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1410-02-13",
+   "t": "1410-06-15",
+   "oneri": {
+    "f": "1410",
+    "t": "1410"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hüküm YIL düzeyi/ABİ MERKEZ (Edirne) olabilir ama öneri yılı yıl başına (-01-01) indirerek sınırı kaydırıyor; 1410 yılında üç el değişimi (Şubat, Haziran) var, yıl başı indirgemesi bunları sıfır uzunluk/çakışma/boşluğa çevirir. Satır 2: f '1410' t '1410' = 1410-01-01→1410-01-01 SIFIR UZUNLUK (CLAUDE.md: dönem sıfır uzunlukta olmaz), Musa dönemi haritadan düşer. Yerleşime özgü Süleyman/Musa tanıklığı okunmadı; kaynak2 yok. · FETRET 1402-1413: savaş günleri (1410-02-13 Yanbolu, 1410-06-15 Kosmidion, 1413-07-05) ülke/bölge düzeyidir, yerleşime özgü devir günü değildir; hüküm YIL düzeyi, ABİ MERKEZ (Edirne). Gün alanları yıl düzeyine indirilmeli. Hasköy'e özgü Süleyman/Musa tanıklığı TDV haskoy'de YOK."
+  },
+  {
+   "ad": "Elhova (Elhovo)",
+   "dosya_satir": "data/yerlesimler_ek24.js:127",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "oneri": {
+    "f": "1410",
+    "t": "1411"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hüküm YIL düzeyi/ABİ MERKEZ (Edirne) olabilir ama öneri yılı yıl başına (-01-01) indirerek sınırı kaydırıyor; 1410 yılında üç el değişimi (Şubat, Haziran) var, yıl başı indirgemesi bunları sıfır uzunluk/çakışma/boşluğa çevirir. Satır 3: 1410-01-01 başlangıcı Musa dönemini (1410-02..06) yutar; komşu uçlarla çakışma. Yerleşime özgü Süleyman/Musa tanıklığı okunmadı; kaynak2 yok. · FETRET 1402-1413: savaş günleri (1410-02-13 Yanbolu, 1410-06-15 Kosmidion, 1413-07-05) ülke/bölge düzeyidir, yerleşime özgü devir günü değildir; hüküm YIL düzeyi, ABİ MERKEZ (Edirne). Gün alanları yıl düzeyine indirilmeli. Hasköy'e özgü Süleyman/Musa tanıklığı TDV haskoy'de YOK."
+  },
+  {
+   "ad": "Elhova (Elhovo)",
+   "dosya_satir": "data/yerlesimler_ek24.js:127",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "oneri": {
+    "f": "1411",
+    "t": "1413"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, YANBOLU",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Hüküm YIL düzeyi/ABİ MERKEZ (Edirne) olabilir ama öneri yılı yıl başına (-01-01) indirerek sınırı kaydırıyor; 1410 yılında üç el değişimi (Şubat, Haziran) var, yıl başı indirgemesi bunları sıfır uzunluk/çakışma/boşluğa çevirir. Satır 4: f '1411'=1411-01-01 künye fetret-musa f 1411-02-17'den ÖNCE (hayalet) ve t '1413'=1413-01-01 ile sonraki d:osmanli f 1413-07-05 arasında 6 aylık BOŞLUK doğurur. Yerleşime özgü Süleyman/Musa tanıklığı okunmadı; kaynak2 yok. · FETRET 1402-1413: savaş günleri (1410-02-13 Yanbolu, 1410-06-15 Kosmidion, 1413-07-05) ülke/bölge düzeyidir, yerleşime özgü devir günü değildir; hüküm YIL düzeyi, ABİ MERKEZ (Edirne). Gün alanları yıl düzeyine indirilmeli. Hasköy'e özgü Süleyman/Musa tanıklığı TDV haskoy'de YOK."
+  },
+  {
+   "ad": "İskenderun",
+   "dosya_satir": "data/yerlesimler_ek27.js:90",
+   "alan": "s",
+   "d": "antakya-prinkipsligi",
+   "f": "1098-06-03",
+   "t": "1268-01-01",
+   "oneri": {
+    "f": "1097-01-01",
+    "t": "1268-05-18"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi 'İskenderun' ve 'Antakya', https://islamansiklopedisi.org.tr/iskenderun , /antakya",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «İskenderun», Besim Darkot (islamansiklopedisi.org.tr/iskenderun); «Antakya» (islamansiklopedisi.org.tr/antakya), ham metin okundu",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): f önerisi 1097 (TDV İskenderun: 1097’de Tankred zaptı; sonra Antakya Prinkepsliği sınırları içinde) künye antakya-prinkipsligi f 1098-06-03'ten ÖNCE → hayalet devlet. t önerisi 1268-05-18 künye t ile aynı ve ABİ MERKEZ Antakya (TDV Antakya: 18 Mayıs 1268 genel hücum) olarak kabul edilebilir (bkz. memluk satırı); sorun yalnız f. · BAKILMADI TURU: f: TDV İskenderun yalnız 1097 (Tankred) der, gün yok; atlas 1098-06-03 Antakya düşüşüdür (abi merkez). [yalnız yıl teyitli; gün teyitsiz]. t: TDV Antakya Baybars'ın genel hücumu 18 Mayıs 1268 (atlastaki 1268-01-01 yıl başı; TDV İskenderun: '1268'de Memlükler Antakya Prinkepsliği'ne son verince'). İskenderun için 18 Mayıs TEK ÖLÇÜ ile abi merkezden devralınır (ic_not: ABİ MERKEZ Antakya). · eski: Bu dönem için kaynak aranmadı (bütçe); mevcut kaynak doğrulanmadı."
+  },
+  {
+   "ad": "Huy",
+   "dosya_satir": "data/yerlesimler_avrupa.js:418",
+   "alan": "s",
+   "d": "liege-piskoposlugu",
+   "f": "1281-01-01",
+   "t": "1795-10-01",
+   "oneri": {
+    "t": "1794",
+    "not": "liege-piskoposlugu t=1795-10-01 ilhak günüdür; 1794 Fransız fethi ile 1795-10-01 ilhak arası isg fransa (Brüksel 1794 emsali) yazılmalı: isg fransa 1794 → s fransa-cumhuriyet 1795-10-01"
+   },
+   "kaynak": "Treccani, Enciclopedia on line, LIEGI (treccani.it/enciclopedia/liegi/) ; Treccani, Enciclopedia on line, BELGIO (treccani.it/enciclopedia/belgio/), bölüm Storia",
+   "kaynak2": "Treccani LIEGI / BELGIO (mevcut kaynak; yeniden okunmadı)",
+   "alinti2": "il governo conservatore che durò fino alla conquista francese del 1794",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI: oneri t=1794 yapar; bu TEK KURAL'a (savaş işgali ilhak değildir, s kısaltılmaz, isg katmanı eklenir; Brüksel 1794 emsali) aykırı. s:liege-piskoposlugu t=1795-10-01 (ilhak günü) DEĞİŞMEZ; 1794 fetihten 1795-10-01 ilhakına kadar ayrı isg fransa katmanı eklenir (ÖLÇÜT: geçici/askerî). Satırın kendi notu da s'in değişmeyeceğini söylüyor; oneri alanı ile not çelişiyor, oneri yanlış. Fetih günü Treccani'de yok: gün BULUNAMADI. · TEK KURAL (işgal≠sahiplik): Treccani 'Liegi' prensliğin Fransız fethine (1794) kadar sürdüğünü, 'Belgio' Fleurus (1794) sonrası ilhakı (Campoformio/Lunéville ile teyit) söyler; ilhak günü (9 Vendémiaire IV = 1795-10-01) Treccani'de YOK, mevcut kaynak Revue d'Histoire Liégeoise/PUL. Fetih günü (Liège'e giriş 1794-07) Treccani'de yok: gün BULUNAMADI. ÖLÇÜT: geçici/askerî (1794-95 işgal; ilhak 1795-10-01). Not: alan 'isg' eklenmesi ONERI; s: liege t=1795-10-01 DEĞİŞMEZ."
+  },
+  {
+   "ad": "Gifu",
+   "dosya_satir": "data/yerlesimler_asya.js:3213",
+   "alan": "s",
+   "d": "muromachi",
+   "f": "1336-12-10",
+   "t": "1573-08-15",
+   "oneri": {
+    "t": "1567",
+    "not": "1567'den itibaren Gifu Oda Nobunaga'nın merkezi (Saitō'dan alındı); 1573-08-15 künye ülke düzeyi (Ashikaga bakufusunun sonu) — atlas bölgesel düzeyi (azuchi-momoyama) 1567'ye çekmek için künye f'sini değil, Oda Nobunaga künyesi aranmalı"
+   },
+   "kaynak": "Marius B. Jansen (ed.), The Cambridge History of Japan, vol. 4: Early Modern Japan, Cambridge UP 1991 (archive.org the-cambridge-history-of-japan-series-early-modern-japan-volume-4-of-6)",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri t=1567: azuchi-momoyama künyesi f 1568-10-16 (Nobunaga'nın Kyoto'ya girişi); 1567 hiçbir künyenin kapsamında değil, muromachi 1567'de kesilirse Gifu'da BOŞLUK/delik (Değişmez 1) doğar, Gifu'yu kapsayacak bir Oda künyesi yok. 1567 yerel (Mino, Gifu kalesi) olaydır, rejim değişimi değil. CHOJ 4 metni okunmadı, alıntı girdiden. · BÖLGESEL FARK: CHOJ 4 Gifu'yu (Kanō/Inabayama) 1567'de Oda Nobunaga'nın merkezi olarak verir; 1573'e kadar ülke düzeyi muromachi nominal. YIL düzeyi (1567). Gün BULUNAMADI. ÖLÇÜT: idareye katma — Nobunaga Mino ve Owari'yi kendi alanına kattı, kale kasabası düzeni, 'ichijō' tüccar imtiyazları (CHOJ 4)."
+  },
+  {
+   "ad": "Gifu",
+   "dosya_satir": "data/yerlesimler_asya.js:3214",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1573-08-15",
+   "t": "1603-03-24",
+   "oneri": {
+    "f": "1567"
+   },
+   "kaynak": "Marius B. Jansen (ed.), The Cambridge History of Japan, vol. 4: Early Modern Japan, Cambridge UP 1991 (archive.org the-cambridge-history-of-japan-series-early-modern-japan-volume-4-of-6)",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri f=1567 azuchi-momoyama künyesi f 1568-10-16'dan ÖNCE = hayalet devlet (künyenin f alanına bakıldı: 1568-10-16). 1567 alıntısı Nobunaga'nın Gifu'ya taşınmasını anlatır, azuchi-momoyama rejiminin başlangıcını değil. · BÖLGESEL FARK: Oda rejimi (azuchi-momoyama) Gifu için 1567'de başlar; künye 1573-08-15 ülke düzeyi. Karar verilmedi; 1573-1603 dönemi Nobunaga/Hideyoshi kontrolünde (CHOJ 4)."
+  },
+  {
+   "ad": "Kaniv (Kanev)",
+   "dosya_satir": "data/yerlesimler_ukrayna_0916.js:29",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1917-11-20",
+   "oneri": {
+    "d": "rusya-gecici-hukumet",
+    "t": "1917-11-20"
+   },
+   "kaynak": "Encyclopedia of Ukraine, \"Central Rada\" https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CC%5CE%5CCentralRada.htm ; Internet Encyclopedia of Ukraine, \"Kyiv\" (Kubijovyč / EIU 2012) https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CY%5CKyiv.htm",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: data/devletler.js: rusya-gecici-hukumet f 1917-03-15 t 1917-11-07; öneri rusya-gecici-hukumet'i 1917-11-20'ye uzatıyor (künye t'sinin 13 gün ötesi). Geçici Hükûmet Petrograd'da 1917-11-07'de düştü. Merkezi Rada künyesi yok (devletler.js grep: 'rada' yalnız Karadağ). Doğrusu: satır kalır (ülke düzeyi beyanlı yaklaşıklık) ya da künye açılırsa Rada/otonom Ukrayna; künye sorusu LAB'a. UNR f 1917-11-20 ile zaten uyumlu. Alıntı (Üçüncü Universal 20 Kasım) UNR başlangıcını tarihler, bu satırın t'sini ya da Geçici Hükûmet'in sürdüğünü değil. · BAKILMADI TURU: ABİ MERKEZ: Kiev (Kiev vilayeti/Kiev zinciri) - Kaniv Kiev gubernyası ilçe merkezi (EU Kaniv: county town in Kyiv gubernia 1838-1917); Kiev zinciri uygulanır. | ÇELİŞKİ: EU Kyiv/Central Rada Kiev bölgesinde Sovyet idaresini yalnız 1918-02-08..03-02 ve 1919-02-05.. dönemlerinde anar; 1917-11-07..20 arası Merkezi Rada fiilî idaredir (Bolşevik Ukrayna hükûmeti 1917-12-25 Harkov). Öneri: sovyet-rusya satırı kalkmalı; boşluk Rada/Geçici Hükümet uzatması ya da UNR ilan gününe kadar yaklaşık (künye UNR f 1917-11-20, hayalet kuralı: künye gününde bırak). KASA/EMRELİC karar. · eski: Bu turda yerleşime/Kiev vilayetine özgü kaynak aranmadı; mevcut kayıt Kiev zincirinden ABİ MERKEZ yaklaşıklığı (BEYANLI). Dönemin devleti/uçları ülke düzeyinde devralma; Kaniv için okunmadı."
+  },
+  {
+   "ad": "Fastov (Fastiv)",
+   "dosya_satir": "data/yerlesimler_ukrayna_0916.js:30",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1917-11-20",
+   "oneri": {
+    "d": "rusya-gecici-hukumet",
+    "t": "1917-11-20"
+   },
+   "kaynak": "Encyclopedia of Ukraine, \"Central Rada\" https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CC%5CE%5CCentralRada.htm ; Internet Encyclopedia of Ukraine, \"Kyiv\" (Kubijovyč / EIU 2012) https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CY%5CKyiv.htm",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: data/devletler.js: rusya-gecici-hukumet f 1917-03-15 t 1917-11-07; öneri 1917-11-20'ye uzatıyor. Kaniv ile aynı: Merkezi Rada künyesi yok, Geçici Hükûmet 1917-11-07'de düştü. Doğrusu satırın künye sorusu LAB'a gidene dek korunması. · BAKILMADI TURU: ABİ MERKEZ: Kiev (Kiev vilayeti/Kiev zinciri) - Fastov Kiev uyezdi, Kiev gubernyası; Kiev zinciri uygulanır (EU Fastiv 1917-20 anmaz). | ÇELİŞKİ: EU Kyiv/Central Rada Kiev bölgesinde Sovyet idaresini yalnız 1918-02-08..03-02 ve 1919-02-05.. dönemlerinde anar; 1917-11-07..20 arası Merkezi Rada fiilî idaredir (Bolşevik Ukrayna hükûmeti 1917-12-25 Harkov). Öneri: sovyet-rusya satırı kalkmalı; boşluk Rada/Geçici Hükümet uzatması ya da UNR ilan gününe kadar yaklaşık (künye UNR f 1917-11-20, hayalet kuralı: künye gününde bırak). KASA/EMRELİC karar. · eski: Bu turda yerleşime/Kiev vilayetine özgü kaynak aranmadı; mevcut kayıt Kiev zincirinden ABİ MERKEZ yaklaşıklığı (BEYANLI). Fastov için okunmadı."
+  },
+  {
+   "ad": "Kotor (Cattaro)",
+   "dosya_satir": "data/yerlesimler_ek.js:182",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1807-01-01",
+   "t": "1814-01-01",
+   "oneri": {
+    "t": "1813"
+   },
+   "kaynak": "Hrvatska enciklopedija (LZMK) 'Kotor'",
+   "kaynak2": "Hrvatska enciklopedija (LZMK), 'Kotor' (ham metin okundu)",
+   "alinti2": "Kotor je nakon prve austrijske vladavine (od 1797), pa ruske (od 1806), francuske (1807–13) i nakon kratkotrajne crnogorske vladavine (1814) ponovno pripao Austriji",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL: yıla indirme komşu dönemle boşluk doğuruyorsa yapılmaz. '1807–13' kapsayıcı son yıldır (Fransız yönetimi 1813 sonunda biter, hemen ardından 1814 Karadağ yönetimi); t=1813-01-01 yazmak 1813 yılının tamamını boşluğa atar ve yanlıştır. Mevcut t 1814-01-01 kaynakla uyumlu. Kaynak ayrıca 1814 'kısa Karadağ yönetimi' der: ayrı kısa dönem/gün için ikinci kaynak gerek (Kotor'un 1814'te Avusturya'ya geçiş günü okunmadı). fransa-cumhuriyet künyesi 1792'den sürer, hayalet değil. · Fransız dönemi 1807-1813 (YIL); mevcut 1814'e uzanıyor. Aynı madde 1814'te 'kısa süreli Karadağ yönetimi' der → 1813-1814 ara dönemi (Karadağ/Boka, Cattaro 1813 Aralık'ta Karadağlılar ve İngilizler — kaynak okunmadı, YALNIZ LZMK 'kratkotrajna crnogorska vladavina (1814)'): ÇELİŞKİ ADAYI, KASA karar versin."
+  },
+  {
+   "ad": "Golos (Volos)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1061",
+   "alan": "s",
+   "d": "katalan",
+   "f": "1311-03-15",
+   "t": "1388-05-02",
+   "oneri": {
+    "t": "1386"
+   },
+   "kaynak": "TDV 'Tesalya'",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Tesalya' (https://islamansiklopedisi.org.tr/tesalya)",
+   "alinti2": "Doğu ovası Gazi Evrenos Bey tarafından 1386-1387 kışında fethedildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (EMRELİC gece-33 mevsim kuralı): '1386-1387 kışı' aralığa düşen İLK YIL BAŞINA, yani 1387-01-01'e yazılır, not '[1386-87 kışı; yalnız mevsim]'. Öneri 1386 bu kurala aykırı. Ayrıca TDV cümlesi bölge düzeyinde (doğu ovası; aynı maddede 'Golos Limanı' bu ovanın yerleşimleri arasında sayılıyor) — Golos'a özgü cümle yok; düzeltilmiş değerle de hüküm en çok 'yıl/mevsim düzeyi, ABİ MERKEZ Yenişehir-Larissa' olur. TDV Katalan'dan yalnız 1320'lerde 'tahribat' diye söz eder; Golos'ta Katalan idaresi tanıklığı yok, yani bu satırın varlığı da sorgulanmalı (karar EMRELİC/KASA). · ÇELİŞKİ: TDV Tesalya Doğu ovasının (Golos Limanı bu ovada) 'Gazi Evrenos Bey tarafından 1386-1387 kışında fethedildiğini' söyler; atlastaki katalan 1311-03-15→1388-05-02 ve ardından __BOSLUK__/bizans 1390-1394 bu kaynakla uyuşmuyor. Katalan sahipliği TDV'de yalnızca 'tahribat/işgal' (1320'ler) olarak geçer, Golos'a özgü katalan idaresi tanıklığı YOK (ÇİFT-KAYNAK: Katalan t künye günü başka). t için YIL 1386-1387 kışı (gün yok)."
+  },
+  {
+   "ad": "Golos (Volos)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1062",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1388-05-02",
+   "t": "1390-01-01",
+   "oneri": {
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1386",
+    "t": "1402-07-28"
+   },
+   "kaynak": "TDV 'Tesalya'",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Tesalya' (https://islamansiklopedisi.org.tr/tesalya)",
+   "alinti2": "Doğu ovası Gazi Evrenos Bey tarafından 1386-1387 kışında fethedildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: f=1386 yerine mevsim kuralıyla 1387-01-01 [1386-87 kışı; yalnız mevsim]. t 1402-07-28 (fetret-suleyman künye f'si) uyumlu. Bölge düzeyi kanıt (doğu ovası, Golos Limanı bu ovada); ABİ MERKEZ Yenişehir (Larissa) — Golos'u fetih cümlesine bağlayan TDV'nin kendi ova tanımıdır. Bizans 1390-1394 satırı (ek29) bu durumda silinmeli: TDV Tesalya doğu ovasında Bizans idaresi anmıyor. · BOŞLUK/BİZANS 1388-1394 SİLİNMELİ ya da ÇELİŞKİ: TDV'ye göre Golos'un içinde olduğu doğu ovası 1386-1387 kışında Osmanlı (Evrenos Bey fethi, ÜLKE/bölge düzeyi, şehre özgü değil — Golos Limanı doğu ovasındaki yerleşimler arasında sayılıyor). ABİ MERKEZ: Yenişehir (Larissa) — TDV Tesalya. YIL düzeyi: 1386/87 kışı. 1390-1393 Manuel Angelos (Trikkala/batı ovası valisi) doğu ovada değil. Mevcut 'd:OSMANLI 1394' iç kaynağı 'BEYAN bölge: Yenişehir zinciri' ile çelişir."
+  },
+  {
+   "ad": "Golos (Volos)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1063",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1410-02-13",
+   "t": "1410-06-15",
+   "oneri": {
+    "f": "1410",
+    "t": "1410"
+   },
+   "kaynak": "TDV 'Mûsâ Çelebi'",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Mûsâ Çelebi' (https://islamansiklopedisi.org.tr/musa-celebi)",
+   "alinti2": "Yanbolu’da Emîr Süleyman’a tâbi Rumeli beylerbeyine karşı büyük başarı kazandı (8 Şevval 812 / 13 Şubat 1410). Edirne’yi aldı, Gelibolu’ya kadar indi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri f=t=1410 SIFIR UZUNLUKLU dönem üretir (CLAUDE.md veri kuralı: sıfır uzunlukta dönem olmaz). Ayrıca Fetret kuralı: savaş günleri ülke düzeyidir; yerleşime özgü tanıklık yoksa 'yıl düzeyi, ABİ MERKEZ' hükmü verilir, ama bilinen gün yıl başına İNDİRİLMEZ (1410-01-01, Yanbolu 1410-02-13'ten önce). Mevcut gün uçları ülke düzeyi olarak kalır; Golos'ta Musa/Süleyman idaresi için yerleşime özgü kaynak bulunamadı. · YIL düzeyi, ABİ MERKEZ Edirne; savaş günü Golos'a özgü değil."
+  },
+  {
+   "ad": "Golos (Volos)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1063",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "oneri": {
+    "f": "1410",
+    "t": "1411"
+   },
+   "kaynak": "TDV 'Mûsâ Çelebi'",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Mûsâ Çelebi' (https://islamansiklopedisi.org.tr/musa-celebi)",
+   "alinti2": "İstanbul’a kaçmak isteyen Emîr Süleyman’ı yakalatarak ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411).",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri t=1411-01-01, TDV'nin kendi tarihinden (17 Şubat 1411) 47 gün ÖNCEYE düşer ve f=1410-01-01, Musa'nın 1410-02-13 Yanbolu zaferinden önce olur; kaynağın bildiği gün yıl başına indirilemez. Gün ülke düzeyi, Golos'a özgü değil; mevcut uçlar korunur. · YIL düzeyi, ABİ MERKEZ Edirne; 1411-02-17 Musa'nın Edirne'de saltanat ilanı (ülke düzeyi)."
+  },
+  {
+   "ad": "Golos (Volos)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1063",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "oneri": {
+    "f": "1411",
+    "t": "1413"
+   },
+   "kaynak": "TDV 'Mûsâ Çelebi'",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Mûsâ Çelebi' (https://islamansiklopedisi.org.tr/musa-celebi)",
+   "alinti2": "Burada kardeşine karşı son mücadelesini verdi; ancak başarılı olamadı ve yaralı vaziyette Eflak’a kaçmak isterken Mehmed Çelebi’nin adamları tarafından yakalanarak boğduruldu (5 Rebîülâhir 816 / 5 Temmuz 1413).",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri f=1411-01-01 (Musa'nın Edirne'de ilanından 17 Şubat 1411 önce) ve t=1413-01-01 (ölümünden 5 Temmuz 1413 önce) Musa'yı fiilen hüküm sürdüğü aylardan yoksun bırakır; TDV hem ilanı hem ölümü günüyle verir, indirme gerekçesiz. Ülke düzeyi gün; yerleşime özgü tanıklık yok. · YIL düzeyi, ABİ MERKEZ Edirne; 5 Temmuz 1413 ölüm günü ülke düzeyi."
+  },
+  {
+   "ad": "Golos (Volos)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1063",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1413-07-05",
+   "t": "1881-07-02",
+   "oneri": {
+    "f": "1413"
+   },
+   "kaynak": "TDV 'Mûsâ Çelebi' + TDV 'Tesalya'",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Mûsâ Çelebi' (https://islamansiklopedisi.org.tr/musa-celebi)",
+   "alinti2": "Burada kardeşine karşı son mücadelesini verdi; ancak başarılı olamadı ve yaralı vaziyette Eflak’a kaçmak isterken Mehmed Çelebi’nin adamları tarafından yakalanarak boğduruldu (5 Rebîülâhir 816 / 5 Temmuz 1413).",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): f=1413-01-01 Musa'nın 1413-07-05'e kadar süren saltanatıyla altı ay ÇAKIŞIR (önceki satırın öneri t'si 1413-01-01 ile birbirini tutsa da kaynak günüyle çelişir). Doğrusu 1413-07-05 (ülke düzeyi, TDV Mûsâ Çelebi; Golos'a özgü değil). t=1881-07-02 bu satırın konusu değil: TDV Tesalya 'XIX. yy'da 1881'de Yunan Krallığı'na terk' diyor (yıl), 1881-07-02 günü ayrı kaynaklı. · Başı YIL 1413 (Musa'nın ölümü, ülke düzeyi). Sonu 1881: TDV Tesalya yalnız YIL verir, mevcut s:yunanistan satırı kaynaklı (TDV tesalya + Tırhala/Yenişehir 2 Temmuz 1881 sözleşmesi)."
+  },
+  {
+   "ad": "Boğaziçi (Rumeli yakası)",
+   "dosya_satir": "data/yerlesimler_ek2.js:80",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1453-05-29",
+   "t": "1920-04-23",
+   "oneri": {
+    "d": "OSMANLI",
+    "f": "1453-05-29",
+    "t": "1923-10-06"
+   },
+   "kaynak": "TDV 'Boğaziçi' (1453 fetih); denetim/DADIM-1104/tbmm_sonuc.json 'Boğaziçi (Rumeli yakası)' -> https://islamansiklopedisi.org.tr/istanbul",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'İstanbul', https://islamansiklopedisi.org.tr/istanbul (ham metin okundu)",
+   "alinti2": "Son Osmanlı padişahı VI. Mehmed’in 17 Kasım 1922’de İstanbul’u terketmesiyle Osmanlı idaresi fiilen sona erdi",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (EMRELİC gece-41, İstanbul kuşağı): 1918-11-13 -> 1922-11-04 d:OSMANLI + isg itilaf; 1922-11-04 -> 1923-10-02 s:tbmm + isg itilaf; 1923-10-02'den s:tbmm sürer; 10-06 giriş ve 11-01 saltanatın ilgası ic_not. Öneri d:OSMANLI t=1923-10-06 bu karara aykırı (d: 1922-11-04'te biter). TDV: 13 Kasım 1918 işgal başlangıcı ve 17 Kasım 1922 'Osmanlı idaresi fiilen sona erdi' ham metinde okundu (ic_not'a). isg itilaf katmanı eklenmeli. · KOORDİNATÖR KARARI (EMRELİC gece-41, 5 Kasım 2026): İSTANBUL KUŞAĞI — 1918-11-13 → 1922-11-04: d: osmanli + isg itilaf; 1922-11-04 (Tevfik Paşa kabinesinin istifası; sivil idareyi Refet Paşa aracılığıyla Ankara devraldı — gün kaynakla teyit edilecek) → 1923-10-02: s: tbmm-turkiye + isg itilaf (TAHRİR: TBMM idaresine katıldı, İtilaf askerî varlığı isg); 1923-10-02 tahliye → s: tbmm sürer; 1923-10-06 millî ordunun girişi ic_not'a. 1922-11-01 saltanatın ilgası ic_not'a. [UMIT ölçümü: devletler.js'te osmanli künyesi yok (d: OSMANLI özel sahip); denetle.py'de Osmanlı bitiş sınırı yok; atlasta 287 d dönemi 1923-10-29'da, 21'i 1923-07-24'te bitiyor — hayalet ölçütü d için uygulanmıyor.] · İstanbul işgali emsali (TBMM kuralı, Mersin emsali): d:osmanli 1453-05-29 -> 1923-10-06 sürer; ayrıca isg itilaf 1918-11-13 -> 1923-10-02 EKLENMELİ (TDV İstanbul; ABİ MERKEZ: İstanbul — gün il merkezinden, yere özgü kaynak yok). ÖLÇÜT: geçici/askerî — Hukukî egemen İstanbul hükûmeti. tbmm_sonuc.json notu: 17 Kasım 1922'de VI. Mehmed ayrıldı (Osmanlı idaresi fiilen bitti); d:osmanli ucunun 1922-11-17 mi 1923-10-06 mı olacağı Emre'nin d:osmanli yazımı kararına bağlı — ben karar vermedim."
+  },
+  {
+   "ad": "Boğaziçi (Rumeli yakası)",
+   "dosya_satir": "data/yerlesimler_ek2.js:81",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "oneri": {
+    "d": "tbmm-turkiye",
+    "f": "1923-10-06",
+    "t": "1923-10-29"
+   },
+   "kaynak": "denetim/DADIM-1104/tbmm_sonuc.json 'Boğaziçi (Rumeli yakası)' (TDV istanbul: işgal kuvvetleri 1923-10-02'de şehri terk etti; 6 Ekim'de Türk millî ordusu girdi)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'İstanbul' (ham metin okundu)",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (gece-41): s:tbmm İstanbul kuşağında 1922-11-04'ten başlar (isg itilaf ile birlikte), 1923-10-02'den isgsiz sürer; 1923-10-06 fiilî giriş ic_not. Öneri f=1923-10-06 ve 'Mersin emsali' gerekçesi İstanbul kuşağı için geçersiz (kuşak için özel karar var). TDV ham metin '2 Ekim 1923’te işgal kuvvetler...' başlangıcı okundu; 10-06 giriş cümlesi bu turda ham olarak okunmadı (alinti2 boş). · KOORDİNATÖR KARARI (EMRELİC gece-41, 5 Kasım 2026): İSTANBUL KUŞAĞI — 1918-11-13 → 1922-11-04: d: osmanli + isg itilaf; 1922-11-04 (Tevfik Paşa kabinesinin istifası; sivil idareyi Refet Paşa aracılığıyla Ankara devraldı — gün kaynakla teyit edilecek) → 1923-10-02: s: tbmm-turkiye + isg itilaf (TAHRİR: TBMM idaresine katıldı, İtilaf askerî varlığı isg); 1923-10-02 tahliye → s: tbmm sürer; 1923-10-06 millî ordunun girişi ic_not'a. 1922-11-01 saltanatın ilgası ic_not'a. [UMIT ölçümü: devletler.js'te osmanli künyesi yok (d: OSMANLI özel sahip); denetle.py'de Osmanlı bitiş sınırı yok; atlasta 287 d dönemi 1923-10-29'da, 21'i 1923-07-24'te bitiyor — hayalet ölçütü d için uygulanmıyor.] · Kural uygulaması (TBMM işgal altındaki yer): s:tbmm-turkiye 1920-04-23'ten DEĞİL, fiilen teslim alınan 1923-10-06'dan başlar. KURAL UYGULAMASI + tbmm_sonuc.json okundu; ABİ MERKEZ: İstanbul."
+  },
+  {
+   "ad": "Mazagan (El Jadida)",
+   "dosya_satir": "data/yerlesimler_ek3.js:120",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1514-01-01",
+   "oneri": {
+    "d": "merini",
+    "f": "1281-01-01",
+    "t": "1465-01-01"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Fas', https://islamansiklopedisi.org.tr/fas ; UNESCO WHC 1058 Portuguese City of Mazagan",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Fas', https://islamansiklopedisi.org.tr/fas (ham metin okundu); künye merini (devletler.js)",
+   "alinti2": "Muhammed 1472’de Fas’a hâkim olarak Vattâsîler dönemini başlattı; ancak Fas topraklarının tamamına hükmünü geçiremedi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Künye 'merini' = 'Merînî ve Vattâsî Fas Krallığı' f 1196 t 1549 (ic_not_t: birleşik künye iki hanedanı kapsar). TDV 1465'i Merînî HANEDANININ sonu yapar, polity (künye) Vattâsîlerle sürer; t=1465'e çekmek 1465-1514 arası sahipsiz delik (Değişmez 1) doğurur. Ayrıca alıntı Kasrüssagīr'i ve hanedan sonunu tarihliyor, Mazagan/Dukkâle'yi değil (ülke düzeyi, yerel tanıklık yok). Doğrusu: satır değişmez; 1465/1472 hanedan geçişi ic_not. · TDV Fas: Merînîler 1465'te sona erdi, Muhammed 1472'de Fas'a hâkim oldu, Vattâsîler 1471-1549. Yani 1465-1514 arası 'merini' anakronik; atlasta Vattâsî künyesi varsa 1472-1514 oraya; 1465-1472 arası kaynakta adlı sahip yok (BEYANLI). ÜLKE DÜZEYİ: kaynak Mazagan çevresini (Dukkâle) anmıyor; yer o dönemde Fas sultanlığında sayıldı — yerel tanıklık yok. 1514 ucu UNESCO ('Francisco and Diogo de Arruda built the first citadel in 1514') ile uyumlu, YIL."
+  },
+  {
+   "ad": "Kaunas",
+   "dosya_satir": "data/yerlesimler_ek7.js:148",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1795-10-24",
+   "oneri": {
+    "t": "1796"
+   },
+   "kaynak": "Treccani 'Kaunas', https://www.treccani.it/enciclopedia/kaunas/",
+   "kaynak2": "Treccani, 'Kaunas', https://www.treccani.it/enciclopedia/kaunas/ (ham metin okundu)",
+   "alinti2": "Incorporata dalla Russia nel 1796, fu fatta capoluogo dell'omonima provincia nel 1842.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET/DELİK: lehistan künyesi f 1569-07-01 t 1795-10-24; öneri t=1796 künye ömrünü aşar (hayalet devlet). Yıla indirme (1796-01-01) künye bitişine bağlı sınırı bozar ve rusya satırıyla 1795-10-24 -> 1796 arası delik bırakır. Treccani 'incorporata 1796' (Rus idareye katma, yıl) ic_not'a yazılır. Katma günü belgelenirse künye t ve iki satır birlikte taşınır (LAB). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece-8b): genel kural (hukukî devir + idare) uygun. · ÇELİŞKİ: Treccani Rus ilhakını 1796 verir (YIL); atlas 1795-10-24 (3. Bölüşüm antlaşma günü). Antlaşma günü ölçüt değildir; Rus idareye katma günü bu kaynakta yok. Öneri YIL düzeyinde; gün için Vilna/Kovno idarî katma belgesi aranmalı. 1569 başlangıcı Treccani'de YIL olarak teyitli."
+  },
+  {
+   "ad": "Kaunas",
+   "dosya_satir": "data/yerlesimler_ek7.js:148",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1795-10-24",
+   "t": "1915-08-18",
+   "oneri": {
+    "f": "1796"
+   },
+   "kaynak": "Treccani 'Kaunas', https://www.treccani.it/enciclopedia/kaunas/",
+   "kaynak2": "Treccani, 'Kaunas' (ham metin okundu)",
+   "alinti2": "Incorporata dalla Russia nel 1796, fu fatta capoluogo dell'omonima provincia nel 1842.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Aynı gerekçe: rusya f=1796 öneri, lehistan künye t=1795-10-24 ile 1795-10-24 -> 1796 arası delik doğurur; Treccani yalnız yıl verir, idareye katma günü yok. Bitiş (t=1915-08-18; Treccani 'assedio durato dall'8 al 18 agosto 1915' + Alman fethi) bu öneriyle değişmiyor. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece-8b): genel kural (hukukî devir + idare) uygun. · Bitiş: Treccani kuşatma 8-18 Ağustos 1915 + Alman fethi; atlas t=1915-08-18 kuşatmanın bitiş günüyle uyumlu (KAYNAKLI, gün düzeyi). Başlangıç: Treccani 1796, atlas 1795-10-24 (bkz. önceki satır). Gün teyidi için ikinci kaynak yok."
+  },
+  {
+   "ad": "Xiangyang",
+   "dosya_satir": "data/yerlesimler_asya.js:2114",
+   "alan": "s",
+   "d": "dashun",
+   "f": "1643-01-01",
+   "t": "1645-06-08",
+   "oneri": {
+    "d": "dashun",
+    "f": "1643-01-01",
+    "t": "1645"
+   },
+   "kaynak": "Mingshi 309 (流賊傳), https://zh.wikisource.org/wiki/明史/卷309",
+   "kaynak2": "Mingshi 309 (流賊傳), https://zh.wikisource.org/wiki/明史/卷309 (ham metin okundu)",
+   "alinti2": "改襄陽曰襄京，修襄王宮殿居之。",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET: dashun künyesi f 1644-01-01 t 1647-01-01; öneri f=1643-01-01 künyeden önce. Mingshi 309: Li Zicheng Xiangyang'ı (崇禎十五-十六, 1642-43 arası) alıp 襄京 yaptı; 順治二年 (1645) Tongguan/Xi'an'dan kaçıp Xiangyang'a girdi, Wuchang'a geçti (Çin takvimi; gün çevrilmedi, Academia Sinica ile EMRELİC). Künye f yanlışsa künyeyi 1643'e genişletmek doğru yol (aynı polity); satır f'sini tek başına 1643'te bırakmak hayalet. t=1645: Mingshi Xiangyang'ın terk edildiğini açıkça söylemiyor (dolaylı); 1645-01-01 ise Qing f=1645-06-08 ile 5 aylık delik açar, indirme yapılmaz. · ÖLÇÜT: idareye katma — Li Zicheng Xiangyang'ı 襄京 yaptı, memur atadı (府曰尹, 縣曰令), Gao Yigong/Feng Xiong garnizon. Bitiş: Mingshi 309 'Shunzhi 2 (1645), 二月 Tongguan düştü; Li Xi'an'ı bırakıp Xiangyang'a girdi, sonra Wuchang'a kaçtı' — yani Xiangyang 1645 baharında terk edildi; atlas 1645-06-08 gününü KAYNAKTA bulamadım (Qing günü), ay/gün çevrilmedi. Başlangıç 1643-01-01 YIL düzeyi (1642 kışı olabilir)."
+  },
+  {
+   "ad": "Lille",
+   "dosya_satir": "data/yerlesimler_avrupa.js:188",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1482-03-27",
+   "t": "1516-01-23",
+   "oneri": {
+    "f": "1477"
+   },
+   "kaynak": "Hrvatska enciklopedija 'Lille'; Treccani 'Lilla'",
+   "kaynak2": "Treccani, 'Lilla', https://www.treccani.it/enciclopedia/lilla/ ; Hrvatska enciklopedija 'Lille' (ham metin okundu)",
+   "alinti2": "Morto Carlo il Temerario (1477), passò all'Austria ma, con la guerra di devoluzione , tornò a Luigi XIV (1667)",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri f=1477 (yıl): (a) burgonya künyesi t=1482-03-27 ve burgonya satırı t'si değişmiyor -> 1477-1482 çakışma; (b) 1477-01-01 Charles'ın ölümünden (1477-01-05) öncesine düşer ('şu olaydan sonra' kuralı: indirme yok); (c) Maria 1477'de egemen düşes kaldı, Habsburg eşi kişisel birlik, egemenlik devri değil. İki kaynak da 1477'yi söyler (çift okuma) ama tarih atlas kuralıyla örtüşmez; 1477 ic_not. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece-8b): genel kural (hukukî devir + idare) uygun. · Habsburg/Avusturya başlangıcı iki kaynakta 1477 (YIL). Atlas 1482-03-27 (Maria'nın ölümü, NDB). Çelişki beyanı: Maria 1477'de Maximilian ile evlendi, egemen düşes kaldı. Bu satır için karar KASA'da; 1477 Habsburg hâkimiyeti (evlilik) YIL düzeyi."
+  },
+  {
+   "ad": "Lanzaka (Lagkadas)",
+   "dosya_satir": "data/yerlesimler_ek29.js:578",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1413-07-05",
+   "t": "1913-11-14",
+   "oneri": {
+    "d": "OSMANLI",
+    "f": "1430-03-29",
+    "t": "1912-11-08"
+   },
+   "kaynak": "TDV 'Selânik', https://islamansiklopedisi.org.tr/selanik",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): Öneri t=1912-11-08 DA-BRIEF Londra 1913 kuralına aykırı: Lanzaka Ege Makedonyası (40.75N 23.07E); d:OSMANLI Londra 1913-05-30'a kadar sürer, 1912-11-08 -> 1913-05-30 isg yunanistan, s:yunanistan 1913-05-30'dan (Atina 1913-11-14 ic_not). Satırın kendi notu da 't=1913-05-30 olmalı' diyor (iç çelişki). f=1430-03-29 gün TDV Selânik'te (önceki tur alıntısı, bu turda ham çekilmedi) ve abi merkez bağıyla; bağ kaynağı olmadığından f ONERI. Ayrıca s:venedik 1423 -> 1430-03-29 eklenmeli (TDV 'Venedik idaresi (1423-1430)'). · ABİ MERKEZ: Selânik — Osmanlı 1430-03-29 (TDV gün); önce 1423-1430 Venedik (TDV 'Venedik idaresi (1423-1430)'; s:venedik 1423→1430-03-29 EKLENMELİ, gün 1423'te yok, YIL). Bitiş: TDV 'Hasan Tahsin Paşa şehri 26 Ekim 1912’de Yunanlılar’a bıraktı' = Jülyen 26 Ekim = Gregoryen 8 Kasım 1912 (atlas isg 1912-11-08 ile uyumlu; TDV tarihi Jülyen). ÖLÇÜT: askerî işgal (isg) — d:OSMANLI hukuken 1913'e kadar sürer (bkz. sonraki satırlar); bu satır t=1913-05-30 olmalı (Londra emsali)."
+  },
+  {
+   "ad": "Eski Kırım (Solhat)",
+   "dosya_satir": "data/yerlesimler_kirim.js:158",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "oneri": {
+    "t": "1917-12-26"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, Kırım (DİA, Kırım Tatar millî hareketi bölümü): https://islamansiklopedisi.org.tr/kirim",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: data/devletler.js: rusya-gecici-hukumet f 1917-03-15 t 1917-11-07. Öneri t=1917-12-26 künye ömrünün 49 gün ötesine taşır; ayrıca sovyet-rusya f 1917-11-07 ile çakışır. TDV Kırım 26 Aralık 1917 Kırım Ahali Cumhuriyeti'ni anlatır (ülke/yarımada düzeyi); bu 'Kırım Ahali' künyesi devletler.js'te yok (grep kirim: yalnız Hanlık). Doğrusu: satır künye t'sinde kalır; 11-07→12-26 için künye sorusu LAB'a (Kırım Ahali/Tatar Cumhuriyeti f 1917-12-26), açılana dek beyanlı yaklaşıklık. Ham metin okunmadı (hüküm künyeye dayanır). · BAKILMADI TURU: Başlangıç 1917-03-15: TDV 'Mart 1917'de Rusya'da patlak veren ihtilâl' (ay düzeyi; Nikola'nın tahttan çekilişi Jülyen 2 Mart = Gregoryen 15 Mart ülke düzeyi). Bitiş: Rusya Geçici Hükûmeti'nin Kırım'daki yetkisi 1917-11-07'de bitmedi: Petrograd 7 Kasım olayı yarımadada egemenlik değiştirmedi; Kırım Tatar Kurultayı 9 Aralık 1917'de toplandı, 26 Aralık 1917'de Kırım Ahali (Demokratik) Cumhuriyeti ilân edildi ve hükûmet 'Kırım topraklarının büyük kısmında hâkim' oldu (aynı madde). Öneri: t=1917-12-26, sonrası için künye YOK ('kirim-halk/ahali' devletler.js grep: yalnız eski 'kirim' Hanlığı 206. satır) -> künye sorusu LAB'a; künye açılırsa s: <o künye> 1917-12-26 -> 1918-01-27. ÖLÇÜT: idareye katma — TDV (Kırım Tatar hükûmeti fiilen yönetti). Geçici Hükûmet'in Kırım'daki fiilî sonu için gün kaynağı BULUNAMADI. · eski: Bu turda aranmadı. Jülyen 2 Mart 1917 = Gregoryen 15 Mart (Rus günü); mevcut DEVRALMA kaynağı Mitau/Goldingen/Ani vb. için yazılmış, Kırım'a özgü tanıklık değil."
+  },
+  {
+   "ad": "Tula",
+   "dosya_satir": "data/yerlesimler.js:1300",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1239-10-18",
+   "t": "1242-01-01",
+   "oneri": {
+    "d": "altinorda",
+    "f": "1239-10-18",
+    "t": "1242-01-01"
+   },
+   "kaynak": "Treccani Enciclopedia on line, Tula (treccani.it/enciclopedia/tula/)",
+   "kaynak2": "Treccani Enciclopedia on line, «Tula», https://www.treccani.it/enciclopedia/tula/ (ham metin sayfa.py ile okundu, 5 Kas 2026)",
+   "alinti2": "dopo la conquista mongola passò ai Tatari",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (hayalet devlet): altinorda künyesi f=1242-01-01, t=1502-01-01; önerilen 1239-10-18 → 1242-01-01 dilimi künye ömrünün dışında. Treccani cümlesi Tatar geçişini TARİHLEMİYOR (yılsız). Künye genişletme (Çernigov düşüşü 1239-10-18 sonrası Altın Orda/Moğol) ancak künye kararıyla; o zamana dek __BOSLUK__ beyanlı kalır. Boşluk-merdiveni (TDV/akademik/komşu) 5. basamak abi merkez bu turda aranmadı. · Boşluk satırı hedef değil ama çelişki: şehir maddesi Moğol fethi sonrası Tatarlara geçtiğini söylüyor; altinorda künyesi f=1242 olduğundan 1239-1242 dilimi künye çakışması. BEYANLI YAKLAŞIKLIK: altinorda; ucu künye kararı (KASA)."
+  },
+  {
+   "ad": "Lofça (Loveč)",
+   "dosya_satir": "data/yerlesimler_ek29.js:845",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1402-07-28",
+   "t": "1410-02-13",
+   "oneri": {
+    "f": "1402",
+    "t": "1410",
+    "not": "YIL düzeyi — günler fetret ülke olayı"
+   },
+   "kaynak": "TDV 'Lofça' (islamansiklopedisi.org.tr/lofca), TDV 'Mûsâ Çelebi' (…/musa-celebi) arandı; Lofça'ya özgü fetret tanıklığı yok.",
+   "kaynak2": null,
+   "alinti2": null,
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (Fetret 1402-1413 kuralı + sıfır uzunluk/çakışma): Fetret savaş günleri ülke düzeyindedir, gün uçları KALIR; hüküm «YIL düzeyi, ABİ MERKEZ (Tırnova)» beyanıdır, uçları yıla indirmek değil. Öneri f/t değerleri geçerli tarih değil ('1402 / 1410'). Künyeler fetret-suleyman (1402-07-28 → 1411-02-17) ve fetret-musa (1411-02-17 → 1413-07-05); atlas d=suleyman-celebi/musa-celebi alias'ları. TDV Mûsâ Çelebi Lofça'yı anmıyor. Doğrusu: satır aynen kalır, kaynak alanı «YIL düzeyi, ABİ MERKEZ» beyanını taşır. EK: t=1410 yıl başı, sonraki musa-celebi satırının f=1410-02-13 ucundan önce kalır: çakışma/boşluk. · YIL düzeyi, ABİ MERKEZ (Tırnova). FETRET 1402-1413: savaş günleri ülke düzeyinde; yerleşime özgü tanıklık yok. Hüküm 'YIL düzeyi, ABİ MERKEZ' (Tırnova/Plevne zinciri, mevcut not 'fetret bölge deseni'). Gün düzeyinde KAYNAKLI sayma. TDV Mûsâ Çelebi: Mûsâ Eflak'tan Rumeli beyleriyle güçlenip Yanbolu'da Süleyman'ın beylerbeyini yendi — Lofça anılmıyor."
+  },
+  {
+   "ad": "Lofça (Loveč)",
+   "dosya_satir": "data/yerlesimler_ek29.js:845",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1410-02-13",
+   "t": "1410-06-15",
+   "oneri": {
+    "f": "1410",
+    "t": "1410",
+    "not": "YIL düzeyi — günler fetret ülke olayı"
+   },
+   "kaynak": "TDV 'Lofça' (islamansiklopedisi.org.tr/lofca), TDV 'Mûsâ Çelebi' (…/musa-celebi) arandı; Lofça'ya özgü fetret tanıklığı yok.",
+   "kaynak2": null,
+   "alinti2": null,
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (Fetret 1402-1413 kuralı + sıfır uzunluk/çakışma): Fetret savaş günleri ülke düzeyindedir, gün uçları KALIR; hüküm «YIL düzeyi, ABİ MERKEZ (Tırnova)» beyanıdır, uçları yıla indirmek değil. Öneri f/t değerleri geçerli tarih değil ('1410 / 1410'). Künyeler fetret-suleyman (1402-07-28 → 1411-02-17) ve fetret-musa (1411-02-17 → 1413-07-05); atlas d=suleyman-celebi/musa-celebi alias'ları. TDV Mûsâ Çelebi Lofça'yı anmıyor. Doğrusu: satır aynen kalır, kaynak alanı «YIL düzeyi, ABİ MERKEZ» beyanını taşır. EK: f=t=1410 yıla indirgeme SIFIR UZUNLUK doğurur (Tebriz vakası). · YIL düzeyi, ABİ MERKEZ (Tırnova). FETRET 1402-1413: savaş günleri ülke düzeyinde; yerleşime özgü tanıklık yok. Hüküm 'YIL düzeyi, ABİ MERKEZ' (Tırnova/Plevne zinciri, mevcut not 'fetret bölge deseni'). Gün düzeyinde KAYNAKLI sayma. TDV Mûsâ Çelebi: Mûsâ Eflak'tan Rumeli beyleriyle güçlenip Yanbolu'da Süleyman'ın beylerbeyini yendi — Lofça anılmıyor."
+  },
+  {
+   "ad": "Lofça (Loveč)",
+   "dosya_satir": "data/yerlesimler_ek29.js:846",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "oneri": {
+    "f": "1410",
+    "t": "1411",
+    "not": "YIL düzeyi — günler fetret ülke olayı"
+   },
+   "kaynak": "TDV 'Lofça' (islamansiklopedisi.org.tr/lofca), TDV 'Mûsâ Çelebi' (…/musa-celebi) arandı; Lofça'ya özgü fetret tanıklığı yok.",
+   "kaynak2": null,
+   "alinti2": null,
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (Fetret 1402-1413 kuralı + sıfır uzunluk/çakışma): Fetret savaş günleri ülke düzeyindedir, gün uçları KALIR; hüküm «YIL düzeyi, ABİ MERKEZ (Tırnova)» beyanıdır, uçları yıla indirmek değil. Öneri f/t değerleri geçerli tarih değil ('1410 / 1411'). Künyeler fetret-suleyman (1402-07-28 → 1411-02-17) ve fetret-musa (1411-02-17 → 1413-07-05); atlas d=suleyman-celebi/musa-celebi alias'ları. TDV Mûsâ Çelebi Lofça'yı anmıyor. Doğrusu: satır aynen kalır, kaynak alanı «YIL düzeyi, ABİ MERKEZ» beyanını taşır. · YIL düzeyi, ABİ MERKEZ (Tırnova). FETRET 1402-1413: savaş günleri ülke düzeyinde; yerleşime özgü tanıklık yok. Hüküm 'YIL düzeyi, ABİ MERKEZ' (Tırnova/Plevne zinciri, mevcut not 'fetret bölge deseni'). Gün düzeyinde KAYNAKLI sayma. TDV Mûsâ Çelebi: Mûsâ Eflak'tan Rumeli beyleriyle güçlenip Yanbolu'da Süleyman'ın beylerbeyini yendi — Lofça anılmıyor."
+  },
+  {
+   "ad": "Lofça (Loveč)",
+   "dosya_satir": "data/yerlesimler_ek29.js:847",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "oneri": {
+    "f": "1411",
+    "t": "1413",
+    "not": "YIL düzeyi — günler fetret ülke olayı"
+   },
+   "kaynak": "TDV 'Lofça' (islamansiklopedisi.org.tr/lofca), TDV 'Mûsâ Çelebi' (…/musa-celebi) arandı; Lofça'ya özgü fetret tanıklığı yok.",
+   "kaynak2": null,
+   "alinti2": null,
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI_ONERI (Fetret 1402-1413 kuralı + sıfır uzunluk/çakışma): Fetret savaş günleri ülke düzeyindedir, gün uçları KALIR; hüküm «YIL düzeyi, ABİ MERKEZ (Tırnova)» beyanıdır, uçları yıla indirmek değil. Öneri f/t değerleri geçerli tarih değil ('1411 / 1413'). Künyeler fetret-suleyman (1402-07-28 → 1411-02-17) ve fetret-musa (1411-02-17 → 1413-07-05); atlas d=suleyman-celebi/musa-celebi alias'ları. TDV Mûsâ Çelebi Lofça'yı anmıyor. Doğrusu: satır aynen kalır, kaynak alanı «YIL düzeyi, ABİ MERKEZ» beyanını taşır. · YIL düzeyi, ABİ MERKEZ (Tırnova). FETRET 1402-1413: savaş günleri ülke düzeyinde; yerleşime özgü tanıklık yok. Hüküm 'YIL düzeyi, ABİ MERKEZ' (Tırnova/Plevne zinciri, mevcut not 'fetret bölge deseni'). Gün düzeyinde KAYNAKLI sayma. TDV Mûsâ Çelebi: Mûsâ Eflak'tan Rumeli beyleriyle güçlenip Yanbolu'da Süleyman'ın beylerbeyini yendi — Lofça anılmıyor."
   }
  ],
  "CELISKI": [
@@ -6553,6 +7524,88 @@
    "kaynak2": "TDV İslâm Ansiklopedisi, Hârizm (https://islamansiklopedisi.org.tr/harizm) — sayfa.py ile ham okundu",
    "alinti2": "1379 seferinde bölgeyi kesin olarak ele geçirdi ve yağmalayıp bol ganimetlerle geri döndü. ... Timur 1388’de Ürgenç ahalisinin Semerkant’a sürülmesini, şehrin yıkılarak yerine arpa ekilmesini istedi.",
    "not": "YÜKSELTME TURU (CELISKI): ÇİFT-TDV: öneri f 1388 (TDV Hîve Hanlığı, abi merkez Hîve: '1388’den itibaren Timur imparatorluklarına başkentlik') ile TDV Hârizm (bölge): 1379 seferinde bölge kesin ele geçirildi; 1388 Ürgenç'in yıkımıdır, hâkimiyet başlangıcı değil. Hazârasp'ın kendi TDV maddesi yok (arama sayfası boş). Öneri değiştirilmedi; karar EMRELİC'in. Üçüncü bağımsız kaynak (Iranica/EI 'Khwarazm') bu turda açılmadı. timurlu künye 1370-04-09 -> 1507: iki gün de içinde. · ÇİFT-TDV ÇELİŞKİSİ: TDV Hârizm 1379'da 'Timur bölgeyi kesin olarak ele geçirdi' (mevcut f=1379), TDV Hîve Hanlığı Hîve şehri için '1388’den itibaren Timur'. Hazârasp'ın kendi TDV maddesi yok. Üçüncü bağımsız kaynak (Iranica/EI, Barthold 'Khwarazm') AÇILMADI → karar KASA/EMRELİC; ben seçmedim. 1379 (Hârizm) ülke düzeyi, 1388 (Hîve) abi merkez düzeyi. BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "ad": "Doğubayazıt",
+   "dosya_satir": "data/yerlesimler_ek26.js:114",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1502-01-01",
+   "t": "1534-06-23",
+   "oneri": {
+    "d": "osmanli (d: OSMANLI)",
+    "f": "1514 (yıl düzeyi; TDV)",
+    "t": "Kaya 2017 ile 1534-06-23 çelişkisi: iki kaynak çatışması BEYAN"
+   },
+   "kaynak": "TDV 'Doğubayazıt'",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Doğubayazıt», https://islamansiklopedisi.org.tr/dogubayazit",
+   "alinti2": "XV. yüzyılın sonlarına doğru Safevîler’in eline geçen Bayazıt, 1514’te Yavuz Sultan Selim tarafından Osmanlı topraklarına katıldı.",
+   "not": "YÜKSELTME TURU (CELISKI): CELISKI (iki akademik kaynak, farklı uç): TDV Doğubayazıt (ham metinden, bu yerleşimi tarihliyor, yıl düzeyi) Osmanlı'ya katılışı 1514 yazar; atlasın mevcut safevi t=1534-06-23 ucu Kaya 2017 (İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5, dn.2: Irakeyn seferinde 23 Haziran 1534) kaynağına dayanıyor — Kaya metnini ben OKUMADIM, yalnız satırın önceki notundan aktarıyorum. CLAUDE.md: tarih çelişkisinde TDV esastır, çelişki ic_not'ta iki kaynağıyla beyan edilir; ama TDV yalnız yıl veriyor ve \"katıldı\" ifadesi 1514 Çaldıran sonrası seferdeki askerî ele geçirmeyi, 1534 ise sancak/tahrir idaresini anlatıyor olabilir (TAHRİR ölçütü: askerî ele geçirme ≠ idareye katma). Öneriyi DEĞİŞTİRMEDİM, karar EMRELİC'in. Bağlam: d OSMANLI 1553-08-01 dilimi (KAYNAKLI) ayrı; safevi f 1502-01-01 TDV \"XV. yy sonlarına doğru\" ile uyuşmuyor (Safevî devleti 1501; künye safevi f 1501-07-01). Ayrıca 1534-1553 arasında s: dilimi yok -> boşluk sorusu. · İKİ KAYNAK ÇELİŞKİSİ (ÇİFT-TDV kuralı değil: TDV vs. Kaya 2017, İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5, dn.2): TDV 'Doğubayazıt' 1514 (Çaldıran sonrası katılma) der; Kaya 'Irakeyn Seferi'nde 23 Haziran 1534' der. Hangisinin doğru olduğuna karar verilmedi; atlas mevcut ucu 1534-06-23 Kaya'ya dayanıyor (kaynaklı dönem). TDV 'şehir maddesi esastır' kuralı gereği karar KASA/EMRELİC'e bırakıldı."
+  },
+  {
+   "ad": "Erciş",
+   "dosya_satir": "data/yerlesimler.js:1998",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1351-01-01",
+   "t": "1467-01-01",
+   "oneri": {
+    "f": "1374 (YIL, BEYANLI) — fakat 'eskiden beri ellerinde bulunan ... Erciş' ifadesi daha erken Karakoyunlu elini gösterir",
+    "ek": "1387 Timur Van Kalesi (Melik İzzeddin Şîr); 1420 Şâhruh Adilcevaz-Ahlat-Erciş kalelerini teslim aldı, 1425 (828) İskender Bey geri aldı: timurlu ara satırları YIL düzeyi"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi 'Van'",
+   "kaynak2": "TDV İslâm Ansiklopedisi 'Van' (islamansiklopedisi.org.tr/van) - ham metin okundu",
+   "alinti2": "Karakoyunlular’ın idareyi tamamen ele geçirmesi ancak 1374’ten sonra gerçekleşti. Karakoyunlular ... eskiden beri ellerinde bulunan Van gölü kıyısındaki Erciş’in yanı sıra Erzurum, Avnik, Hasankale, Musul, Sürmeli, Alakilise, Hoy ve Nahcıvan gibi yerleri ele geçirdiler.",
+   "not": "YÜKSELTME TURU (CELISKI): TDV Van: \"1374'ten sonra\" Van gölü havzasında idarenin TAMAMEN ele geçirilişini anlatıyor; aynı cümle Erciş'i \"eskiden beri ellerinde bulunan\" diye ayırıyor, yani Erciş 1374'ten ÖNCE Karakoyunlu elinde. Öneri f=1374 bu yüzden Erciş için desteklenmiyor, aksine kaynakla çelişiyor; mevcut f=1351 (künye f) ise Erciş adıyla tarihli değil (TDV Erciş için tarih vermiyor). Karar EMRELİC. Timurlu ara satırları (1387 Van Kalesi, 1420 Şâhruh Erciş kalesi teslimi, 1425 İskender Bey) TDV'de var ama Erciş idaresine katma belgesi değil; ayrı doğrulama gerek. · Atlas f=1351: TDV 'XIV. yüzyılın ortalarından itibaren faaliyetleri başladı' ama tam hâkimiyet 1374 sonrası; Erciş adıyla: 'Eretna zayıflayıp Sutaylılar kalkınca eskiden beri ellerinde bulunan Erciş'. Erciş için Timurlu/Şâhruh 1420-25 TDV'de adıyla geçer (atlasta yok). t=1467: Cihan Şah 1438-67 Karakoyunlu, sonra Uzun Hasan (mevcut akkoyunlu satırı kaynaklı)."
+  },
+  {
+   "ad": "Erciş",
+   "dosya_satir": "data/yerlesimler.js:1998",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1534-06-23",
+   "t": "1535-09-22",
+   "oneri": {
+    "t": "1536 (YIL; 'Van'da Safevî idaresi yeniden kuruldu', 1536 başı)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi 'Van'",
+   "kaynak2": "TDV İslâm Ansiklopedisi 'Van' (islamansiklopedisi.org.tr/van) - ham metin okundu; karşı taraf: atlas satırındaki mevcut kaynak (Karataş 2025 + TDV irakeyn-seferi, veri dosyasından, bu turda yeniden okunmadı)",
+   "alinti2": "Osmanlı kuvvetlerinin çekilmesiyle Şah Tahmasb Erciş ve Van’ı geri aldı ... 1536 yılı başında gerçekleşen bu olayın ardından Van’da Safevî idaresi yeniden kuruldu.",
+   "not": "YÜKSELTME TURU (CELISKI): Taraf 1 (TDV Van, okundu): Safevî idaresi Van'da 1536 başı yeniden kuruldu (Erciş'in geri alınışı Osmanlı çekilişine bağlı, yılı aynı cümlede 1536 başı olarak okunuyor). Taraf 2 (atlas kaynak alanı, yeniden okunmadı): \"Karataş 2025: Van/Erciş'in Safevîye dönüşü 22 Eylül 1535\" (TDV irakeyn-seferi Ahlat 23 Eylül 1535 ile uyumlu). Gün hassasiyeti Karataş'ta var, TDV yalnız ay-yıl (\"1536 başı\"); iki akademik kaynak yıl düzeyinde farklı (1535 / 1536). Öneriyi DEĞİŞTİRME, karar EMRELİC. TDV'nin \"1536 başı\" ifadesi idare kuruluşunu (muhafız atanması) tarihliyor olabilir, geri alış günü değil. · ÇELİŞKİ mevcut satırla: atlas Osmanlı 1534-06-23→1535-09-22, Safevî 1535-09-22→1548-08-24. TDV van: Osmanlı çekilince Tahmasb Erciş ve Van'ı geri aldı; 'Van’da Safevî idaresi 1536 başı yeniden kuruldu'. 1535-09-22 günü TDV van'da yok. Osmanlı kalış süresi uzayabilir (BEYANLI YAKLAŞIKLIK, ÇELİŞKİ)."
+  },
+  {
+   "ad": "Bacatá (Bogotá)",
+   "dosya_satir": "data/yerlesimler_amerika.js:728",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1819-12-17",
+   "oneri": {
+    "t": "1717-05-27",
+    "d": "yeni-granada-valiligi"
+   },
+   "kaynak": "Hrvatska enciklopedija «Bogotá» (enciklopedija.hr/clanak/bogota)",
+   "kaynak2": "Hrvatska enciklopedija, «Bogotá», https://enciklopedija.hr/clanak/bogota (ham metin sayfa.py ile okundu, 5 Kas 2026)",
+   "alinti2": "Od 1598. Bogotá je sjedište guvernera, a 1718. i potkralja Nove Granade.",
+   "not": "YÜKSELTME TURU (CELISKI): CELISKI: HE Bogotá'yı 1718'den itibaren Yeni Granada genel valisinin (potkralj) merkezi sayar; öneri t=1717-05-27 (yeni-granada-valiligi künyesi f; künye ic_not'u yalnız yıl 1717 teyitli, 27 Mayıs günü akademik sayfada okunmamış der). İki taraf: HE 1718 / atlas künyesi 1717-05-27. Öneri DEĞİŞTİRİLMEDİ, karar EMRELİC'in. Ek: Peru genel valiliği f=1542-11-20 ucu bu turda okunmadı; yeni-granada-valiligi t=1810-07-20 iken Bogotá 1819-12-17'ye dek İspanyol (künye aşımı, KASA sınıflandırır). · ÇELİŞKİ: HE Bogotá'yı 1718'de Nova Granada genel valisinin merkezi sayar (Treccani: 1598'den Presidencia, sonra vicereame). Atlas künyesi yeni-granada-valiligi f=1717-05-27: HE 1718 ile bir yıl fark (künye kaynağı kontrol). Peru Genel Valiliği (1542) f ucu BAKILMADI. Künye yeni-granada-valiligi t=1810-07-20 iken Bogotá 1819'a dek İspanyol: künye aşımı → KASA sınıflandırsın (devlet öldü mü / aynı polity sürdü mü)."
+  },
+  {
+   "ad": "Kaniv (Kanev)",
+   "dosya_satir": "data/yerlesimler_ukrayna_0916.js:29",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1667-02-09",
+   "t": "1793-01-23",
+   "oneri": {
+    "d": "kazak-hetmanligi",
+    "f": "1667-02-09",
+    "t": "1678-01-01",
+    "bolunme": "Kazak Hetmanlığı künyesi var (kazak-hetmanligi f 1648-01-01 t 1764-11-21); 1678 sonrası sahiplik BULUNAMADI (Bahçesaray 1681 / Ebedî Barış 1686 öncesi tarafsız/harap bölge)"
+   },
+   "kaynak": "EU \"Kaniv regiment\" https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CA%5CKanivregiment.htm ; EU \"Kyiv voivodeship\"",
+   "kaynak2": "Encyclopedia of Ukraine, 'Kaniv regiment' (2005) ve 'Kyiv voivodeship' (ham metin okundu)",
+   "alinti2": "Kaniv regiment: ... in Right-Bank Ukraine in 1648–78. The regiment was destroyed by Turks in 1678. | Kyiv voivodeship: although Polish rule in Right-Bank Ukraine was restored in 1660. Under the terms of the Treaty of Andrusovo (1667), the territory in Left-Bank Ukraine and the city of Kyiv were acquired by the Muscovite-dominated Hetman state, and the capital of the restored voivodeship under Poland became Zhytomyr.",
+   "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ (iki EU maddesi birbirine ters): 'Kaniv regiment' Hetman devleti birimini 1648-78 gösterir ('destroyed by Turks in 1678'); 'Kyiv voivodeship' Sağ Yaka'da Polonya idaresinin 1660'ta geri geldiğini, Andrusovo'da yalnız Sol Yaka+Kiev şehrinin Hetmanlığa geçtiğini söyler. Öneri (Hetmanlık 1667-1678) birinci maddeyle uyumlu, ikinciyle ters. Karar EMRELİC'in; öneri değiştirilmedi. Ek bulgu: baglamda 1649-08-18 → 1667-02-09 arası boşluk var (Kyiv voivodeship: Zboriv 1649'da voyvodalık Kazaklara geçti, 1660'ta Polonya döndü) — ayrı soru. Kazak-hetmanligi künyesi f 1648-01-01 t 1764-11-21 (1667-1678'i kapsar). Alayın yok edilmesi (1678) egemenlik devri değildir. · BAKILMADI TURU: ÇELİŞKİ: EU Kaniv regiment Kaniv'i Hetman Devleti alayı olarak 1648-78 gösterir; EU Kyiv voivodeship \"Polish rule in Right-Bank Ukraine was restored in 1660\" ve Andrusovo 1667'de yalnız Sol Yaka+Kiev şehri Moskova'ya geçer. Yani 1667-1678 Kaniv: Polonya (1660 geri alış) mı, Doroşenko Hetmanlığı (Sağ Yaka, 1665-76; Osmanlı himayesi 1669) mı? Kaynak yerleşime özgü gün vermiyor; 1678 Türkler alayı yok etti (Kaniv alayı yok, nüfus Sol Yaka'ya). 1678-1793 arası (Sağ Yaka harap, Polonya'ya Ebedî Barış 1686 ile kalır) için bu turda tanıklık bulunamadı. ÖLÇÜT: idareye katma — Kaniv alayı Hetman Devleti'nin idarî birimi (EU). ADA kararı: 1667-1678 Hetman/Doroşenko, sonra 1793'e kadar Lehistan (1686 Ebedî Barış, ayrıca aranmadı). Hüküm ONERI; gün uçları yıl düzeyi. · eski: Andrusovo 1667-02-09: EU Kaniv 'Kaniv regiment (1637–78)' der; sağ yaka hetmanlığı (Doroşenko) yüzünden 1667-1678 arası Lehistan sahipliği ÇELİŞKİ ADAYI — doğrulanmadı."
   }
  ]
 }
