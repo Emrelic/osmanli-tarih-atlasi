@@ -291,10 +291,10 @@
 "K137": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Tek nokta Uralsk (Yayık) 1441-1502 'nogay' (kayıtta kur yok). Yaitsk Kazak kasabası 16. yüzyıl sonu/1613'te kuruldu; 15. yüzyılda yerleşim yok (merdiven ④). Nogay'ın Yayık havzası göçebe toprağı gerçek, ama nokta peteği Astarhan koridoruyla yapay ayrıklık üretiyor. [KAYNAK-UMIT: bulunamadi — Uralsk/Yaitsk kuruluşunun 16. yy sonu/1613 olduğu iddiası kaynaklanmadı (TDV'de yıl bulunamadı). Nogay'ın Yayık havzasında bulunması TDV 'Nogaylar'da var (Yayık-Edil arası göçebe) ama sayfa okunmadı → giriş gerek.] [KAYNAK-UMIT: bulunamadi — Uralsk (Yaitsk) kuruluş yılı ve Nogay-Yayık bağı kaynaklanamadı. TDV 'Başkırtlar' ve 'Edige' maddeleri ile Rus tarihi kaynağı gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Tek nokta Uralsk (Yayık) 1441-1502 'nogay' (kayıtta kur yok). Yaitsk Kazak kasabası 16. yüzyıl sonu/1613'te kuruldu; 15. yüzyılda yerleşim yok (merdiven ④). Nogay'ın Yayık havzası göçebe toprağı gerçek, ama nokta peteği Astarhan koridoruyla yapay ayrıklık üretiyor. [KAYNAK-UMIT: bulunamadi — Uralsk/Yaitsk kuruluşunun 16. yy sonu/1613 olduğu iddiası kaynaklanmadı (TDV'de yıl bulunamadı). Nogay'ın Yayık havzasında bulunması TDV 'Nogaylar'da var (Yayık-Edil arası göçebe) ama sayfa okunmadı → giriş gerek.] [KAYNAK-UMIT: bulunamadi — Uralsk (Yaitsk) kuruluş yılı ve Nogay-Yayık bağı kaynaklanamadı. TDV 'Başkırtlar' ve 'Edige' maddeleri ile Rus tarihi kaynağı gerek.] [KAYNAK-UMIT (kismen): Yaik/Uralsk 1613'te Ural (Yaik) ırmağında Kazak kalesi olarak kuruldu; 1775'te adı Uralsk oldu. — \"Founded as a Cossack fortress on the Ural River in 1613\" · Hüküm doğru: Uralsk noktası 1441-1502'de yoktu (merdiven ④); 'nogay' dönemi o devirde olmayan yerleşime yazılmış. Nogay-Yayık göçebe bağı bu kaynakta yok.]",
 "duzeltme": "Uralsk kur yılı kaynakla, önceki dönemler kırpılsın; Nogay Yayık toprağı için uygun tanık nokta (Saraycık) önerilir.",
-"kaynak": "veri ölçümü (kayit.py Uralsk: kur yok)"
+"kaynak": "A Concise Oxford Dictionary of World Place Names, 6. bs. (2020), \"Oral (Uralsk)\" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (kayit.py Uralsk: kur yok)"
 },
 "K138": {
 "hukum": "YAPAY",
@@ -724,7 +724,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAKLI",
-"gerekce": "Keşmir 1765 → 1819-07-05 'afgan-durrani' (bitiş Şopiyan, Sih fethi), koridor 8,6 km Sih. Keşmir Dürrânî valiliğiydi, ama Cammû Dogra racalığıydı (Afgan değil; 1808'den Sih tâbi). Cammû'nun Afgan boyası Keşmir'i yanlış biçimde güneye uzatıyor; 8,6 km koridor da değme payı. [KAYNAK-UMIT (celiski; EB 1911 tek başına — güncel akademik kaynak gerek): Keşmir 1756'da Ahmed Şah Dürrânî'nin üçüncü Hindistan seferinde Afgan eline geçti; 1819'da Ranjit Singh'ce Afganlardan alındı. Cammû ise Sihler tarafından fethedildi, sonra Gulab Singh'in çekirdek toprağı oldu. — \"it remained in the hands of Afghans till it was wrested from them\" · Keşmir Afgan: 1756 (atlas 1765) - 1819 (atlas 1819-07-05 teyitli yıl). Cammû Afgan yazımı yanlış (Sih fethi). Atlas başlangıç yılı 1765 EB'nin 1756'sından farklı; TDV'de bu madde yok. Kaynak EB 1911.]",
+"gerekce": "Keşmir 1765 → 1819-07-05 'afgan-durrani' (bitiş Şopiyan, Sih fethi), koridor 8,6 km Sih. Keşmir Dürrânî valiliğiydi, ama Cammû Dogra racalığıydı (Afgan değil; 1808'den Sih tâbi). Cammû'nun Afgan boyası Keşmir'i yanlış biçimde güneye uzatıyor; 8,6 km koridor da değme payı. [KAYNAK-UMIT (celiski; EB 1911 tek başına — güncel akademik kaynak gerek): Keşmir 1756'da Ahmed Şah Dürrânî'nin üçüncü Hindistan seferinde Afgan eline geçti; 1819'da Ranjit Singh'ce Afganlardan alındı. Cammû ise Sihler tarafından fethedildi, sonra Gulab Singh'in çekirdek toprağı oldu. — \"it remained in the hands of Afghans till it was wrested from them\" · Keşmir Afgan: 1756 (atlas 1765) - 1819 (atlas 1819-07-05 teyitli yıl). Cammû Afgan yazımı yanlış (Sih fethi). Atlas başlangıç yılı 1765 EB'nin 1756'sından farklı; TDV'de bu madde yok. Kaynak EB 1911.] [EMRELİC okuması, Iranica \"AFGHANISTAN x. Political history\" (Balland 1983): Keşmir'in Dürrânî'ye geçişi anılmıyor; \"loss of Lahore, 1179/1765\" Lahor içindir — atlasın Keşmir 1765'i muhtemelen bu karışıklık; Keşmir 1819'da Sihlere geçti. 1752/1756 güncel kaynakta okunmadı.]",
 "duzeltme": "Cammû 1765-1819 sahibi (Cammû racalığı / Sih tâbi) kaynakla.",
 "kaynak": "EB 1911 (Wikisource), 'Kashmir' ve 'Jammu', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Kashmir · önceki: veri ölçümü"
 },
