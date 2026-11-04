@@ -140,6 +140,17 @@ sıradadır, çünkü Osmanlı coğrafyasının büyük kısmının dilidir.
   MutationObserver sayfa gözcüleriyle mikro-görev döngüsüne girip sayfayı donduruyordu
   (kuyruk + setTimeout 30 ms); kuyruk rAF ile işlenince arka plan sekmesinde hiç dönmüyordu.
 
+## 8a. Dil durumu (4 Kasım 2026, KASA SALI dalı)
+
+| dil | arayüz | devlet | kronoloji | not |
+|---|---|---|---|---|
+| en | tamam | 2.279/2.279 | 4.717/4.717 | pilot |
+| ar | tamam | 2.279/2.279 | 4.717/4.717 | RTL: `.ceviri-rtl` |
+| fr | tamam | 2.279/2.279 | 600/4.717 | DURDURULDU (Emre önceliği: çekirdek denetim). Devam: `py arac/ceviri.py bayat --dil fr --tur olay`; eksik maddeler Türkçe görünür |
+
+İspanyolca/Almanca EMRELİC'te, Portekizce LAB'da, Rusça UMIT'te ayrı dallarda.
+Çeviri sırasında görülen kaynak olgu hataları: `KAYNAK-HATALARI.md`.
+
 ## 9. Kapsam ve bilinen sınırlar (pilot)
 
 - Çevrilenler: arayüz sözlüğü, devlet adları (`DEVLETLER.ad`), çekirdek kronoloji (`OLAYLAR*`,

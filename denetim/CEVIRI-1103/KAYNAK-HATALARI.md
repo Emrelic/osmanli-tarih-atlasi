@@ -17,4 +17,6 @@ kronoloji oturumu) iletilir. Düzeltilince ilgili çeviriler kendiliğinden baya
 | OLAYLAR_ILIRYA0072:1779-01-01:0 | id 1779, metin "1820'de şehrin emîri" | tarih tutarsız | iletilecek |
 | OLAYLAR_EK16:1611-07-16:0 | "aynı yıl imzalanacak Deulino (1618)" | 1611 ≠ 1618 | iletilecek |
 | OLAYLAR_ORTACAG_*:1205-03-01:0 (ar parti 012) | "Haçlılar'ın İstanbul'u işgali (Şubat 1204)" | kentin düşüşü 12-13 Nisan 1204 | iletilecek |
+| OLAYLAR_EK:1480-08-11:0 | Otranto "Kalabriya kıyısına" çıkarma | Otranto Apulia'da (Salento) | iletilecek |
+| OLAYLAR_EK3:1695-09-22:0 | başlık "II. Him seferi" | yazım hatası (Hümâyun? II. Mustafa'nın seferi?) | iletilecek |
 | OLAYLAR_EK6:1547-01-01:0 | Sana'nın fethi id'si Taiz'den (1547-02-01) önce, metin "Taiz'in ardından" | sıra/gün çelişkisi | iletilecek |

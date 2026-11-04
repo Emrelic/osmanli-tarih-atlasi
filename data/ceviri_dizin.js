@@ -100,6 +100,10 @@ window.CEVIRI_DIZIN = {
    [
     "ceviri_fr_devlet.js",
     "89d3f8d8"
+   ],
+   [
+    "ceviri_fr_olay.js",
+    "183cc424"
    ]
   ]
  }
