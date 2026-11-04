@@ -762,6 +762,12 @@ METIN = [
     ("L2-636", "Shu-Qi savaşı 911 (ZZTJ j.268) yıl tutar; kaynakta savaşı Shu başlatır, atlas «Qi saldırdı» der → sıra düzeltilir"),
     ("L2-694", "[BEKLE — tarih kaynaksız] Dali 982: Song shi j.488 tam metin — ilk Dali elçisi 熙寧九年 (1076), 願為臣妾 başvurusu 政和五年 (1115); 982 kaydı yok, yalnız Vikipedi infobox → madde gözden geçirilir"),
     ("L2-705", "[BEKLE — kayıt yok] Dublin Sigtrygg 1036: Annals of Ulster, Chronicon Scotorum, Inisfallen (CELT) tam metin — çekilme kaydı yok, AU 1035'te Sitriuc Áth Cliath'ta faal; DIB okunamadı"),
+    # İkinci geçiş IG8 / IG10
+    ("L2-838", "Brunei anayasası 1959-09-29: metin «Commencement: 29th September 1959», testimonium 27 Eylül 1959 → «ilan edildi» yerine «yürürlüğe girdi (imza 27 Eylül)» denmeli"),
+    ("L2-839", "[BEKLE — yer] Mali Federasyonu 1959-12-13 gün uyumlu, Universalis yeri Dakar veriyor (atlas Bamako) → tek kaynak, ikinci kaynak bekliyor"),
+    ("L2-896", "[BEKLE — metin] Grenada Coard «başbakanlığı» 1983-10-14: okunan derleme Bishop'ı 19 Ekim'e dek başbakan anar; Coard'ın başbakanlığı desteklenmedi → Payne-Sutton-Thorndike (1984) okunmadan karar yok"),
+    ("L2-902", "[BEKLE — ay çelişkisi] Namibya TGNU feshi 1989-02-28: ABD Dışişleri 1989 insan hakları raporu «Mart 1989» der; BM S/20788 okunamadı (403)"),
+    ("L2-891", "Kampuçya 1981-06-27: Pen Sovan başbakan atanması (Larousse Année 1981) gün tutar; Meclis 24-27 Haziran, anayasanın yürürlük günü (25 Haziran?) okunmadı → madde metni hangi olayı tarihliyor netleşmeli"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
