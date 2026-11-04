@@ -1404,11 +1404,11 @@
    "d": "ho-hanedani",
    "f": "1400-03-01",
    "t": "1407-06-16",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Mingshi juan 6 (Chengzu ji 2) ve juan 321 (mevcut kaynakta okundu; bu oturumda yeniden açılmadı)",
    "alinti": "五月甲子：張輔擒黎季犛、黎蒼獻京師，安南平",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ bitiş 1407-06-16 (Mingshi, Hồ Quý Ly yakalanışı); Hanoi'ye özgü tanıklık değil. Başlangıç 1400-03-01 bu partide teyit edilmedi. Ming dönemi (1407-06-16 → 1427-11-12) zaten kaynaklı."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · ÜLKE DÜZEYİ bitiş 1407-06-16 (Mingshi, Hồ Quý Ly yakalanışı); Hanoi'ye özgü tanıklık değil. Başlangıç 1400-03-01 bu partide teyit edilmedi. Ming dönemi (1407-06-16 → 1427-11-12) zaten kaynaklı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3867",
@@ -1592,7 +1592,7 @@
     "t": "1387-07-05",
     "d": "yuan-hanedani"
    },
-   "not": "Mingshi: Mukden bölgesi 'Yuan Shenyang lu'sudur; Ming Şenyang-zhongwei yalnız 1398 (Hongwu 31, 閏5. ay) kuruldu. Liaodong'un Yuan komutanı Nahachu 'Hongwu 20, 6. ay, 丁未'de teslim oldu = Jülyen 1387-07-05 (ganzhi sayımıyla hesaplandı: 丁未 idx43; sınama günü 乙卯 = 220-11-25). Yani 1368-09-14 Ming'e geçiş Mukden için yanlış/erken; 1368-1387 arası Kuzey Yuan (Nahachu), künyesi atlasta varsa o devlet ya da yuan-hanedani uzatılır. Ming dönemi 1387-07-05 → 1621 olmalı. Ming'in kuzey Liaodong'da fiilî idaresi zayıf (1387'den sonra da Jurchen/Moğol bölgeleri); karar KASA'nın. 1281-1368 Yuan: kaynak (Mingshi 'elden Yuan Shenyang lu') KAYNAKLI."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Mingshi: Mukden bölgesi 'Yuan Shenyang lu'sudur; Ming Şenyang-zhongwei yalnız 1398 (Hongwu 31, 閏5. ay) kuruldu. Liaodong'un Yuan komutanı Nahachu 'Hongwu 20, 6. ay, 丁未'de teslim oldu = Jülyen 1387-07-05 (ganzhi sayımıyla hesaplandı: 丁未 idx43; sınama günü 乙卯 = 220-11-25). Yani 1368-09-14 Ming'e geçiş Mukden için yanlış/erken; 1368-1387 arası Kuzey Yuan (Nahachu), künyesi atlasta varsa o devlet ya da yuan-hanedani uzatılır. Ming dönemi 1387-07-05 → 1621 olmalı. Ming'in kuzey Liaodong'da fiilî idaresi zayıf (1387'den sonra da Jurchen/Moğol bölgeleri); karar KASA'nın. 1281-1368 Yuan: kaynak (Mingshi 'elden Yuan Shenyang lu') KAYNAKLI."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2726",
@@ -1608,7 +1608,7 @@
     "t": "1621-04-25",
     "d": "ming-hanedani"
    },
-   "not": "Bitiş: Mingshi Tianqi 1, 3. ay 乙卯 = Jülyen 1621-04-15 (4. ayın 壬申 朔 = 1621-05-02 ile çapraz doğrulandı; Qing kaynaklarındaki Tianming 6/3/13 ile uyumlu). 1621 > 1582-10-15 olduğundan atlas günü Gregoryen = 1621-04-25 (iki günü ic_not'ta beyan et). Şenyang'ın ele geçirilişi Qing (Aisin Gioro) idaresine katılmadır (1625'te başkent); işgal katmanı değil, s: Qing 1621-04-25. Başlangıç: yukarıdaki satıra bak (Nahachu 1387-07-05; Şenyang-zhongwei 1398)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Bitiş: Mingshi Tianqi 1, 3. ay 乙卯 = Jülyen 1621-04-15 (4. ayın 壬申 朔 = 1621-05-02 ile çapraz doğrulandı; Qing kaynaklarındaki Tianming 6/3/13 ile uyumlu). 1621 > 1582-10-15 olduğundan atlas günü Gregoryen = 1621-04-25 (iki günü ic_not'ta beyan et). Şenyang'ın ele geçirilişi Qing (Aisin Gioro) idaresine katılmadır (1625'te başkent); işgal katmanı değil, s: Qing 1621-04-25. Başlangıç: yukarıdaki satıra bak (Nahachu 1387-07-05; Şenyang-zhongwei 1398)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2727",
@@ -1624,7 +1624,7 @@
     "t": "1912-02-12",
     "d": "qing-hanedani"
    },
-   "not": "Başlangıç 1621-01-01 (yıl yer tutucusu) yerine 1621-04-25 (Mingshi gün; Jülyen 04-15). Bitiş 1912-02-12 mevcut kaynakla (Qing tahttan çekilme fermanı) KAYNAKLI, ÜLKE DÜZEYİ. Ek: Mukden 1904-05 Rus-Japon Savaşı sahnesi (EB 1911 'Mukden': Japonlar 10 Mart 1905'te girdi) ve 1900-05 Rus askerî işgali — işgal katmanı (isg) adayı, kaynak ayrıca aranmalı (bu partide aranmadı). Mukden Olayı 1931-09-18 / Mançukuo 1932: mevcut cin-cumhuriyeti dönemi bunu yalnız 'beyanlı yaklaşıklık' ile geçiyor; ayrı isg/s kaydı kaynaklanmalı (bu partide aranmadı)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Başlangıç 1621-01-01 (yıl yer tutucusu) yerine 1621-04-25 (Mingshi gün; Jülyen 04-15). Bitiş 1912-02-12 mevcut kaynakla (Qing tahttan çekilme fermanı) KAYNAKLI, ÜLKE DÜZEYİ. Ek: Mukden 1904-05 Rus-Japon Savaşı sahnesi (EB 1911 'Mukden': Japonlar 10 Mart 1905'te girdi) ve 1900-05 Rus askerî işgali — işgal katmanı (isg) adayı, kaynak ayrıca aranmalı (bu partide aranmadı). Mukden Olayı 1931-09-18 / Mançukuo 1932: mevcut cin-cumhuriyeti dönemi bunu yalnız 'beyanlı yaklaşıklık' ile geçiyor; ayrı isg/s kaydı kaynaklanmalı (bu partide aranmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2728",
@@ -6049,7 +6049,7 @@
     "t": "1368-04-16 (Jülyen; 洪武元年三月己亥 gün adından JDN hesabıyla; annal kayıt günü)",
     "d": "ming-hanedani"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): 1358-59 Kızıl Sarık/Song (Han Lin'er) ayrı polity — devletler.js'te künyesi YOK (ölçüldü; yalnız 960-1279 'song'). Yeni BOYALAR anahtarı ister: KASA künye kuyruğuna 'renk partisi borcu'. O zamana kadar dönem YAZILMAZ; ic_not: 'atlas bu ara dönemi bilerek göstermiyor'. · Yuan idaresi Yuan shi 59'da teyit (汴梁路 1288, 至元二十五年), uç yıl düzeyi. Ming'e geçiş atlasta 1368-04-01 (yüksek olasılıkla ay-başı yaklaşıklığı); Ming shi 2: Xu Da Kaifeng'i 洪武元年 3. ayda aldı = 1368-04-16 Jülyen (gün adından çevrildi; 'rapor günü'dür, askerî fetih günü olmayabilir); 辛卯 = 1368-06-07: 'Bianliang lu Kaifeng fu oldu'. Ayrıca Ming shi 1: 至正十八年五月 劉福通破汴梁，迎韓林兒都之 (Mayıs 1358 civarı; ay düzeyi); 至正十九年秋八月 察罕帖木兒復汴梁 (Ağustos 1359 civarı) — 1358-1359 arası Kaifeng Song (Han Lin'er) rejiminde: atlasta eksik, künye aranmalı."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): 1358-59 Kızıl Sarık/Song (Han Lin'er) ayrı polity — devletler.js'te künyesi YOK (ölçüldü; yalnız 960-1279 'song'). Yeni BOYALAR anahtarı ister: KASA künye kuyruğuna 'renk partisi borcu'. O zamana kadar dönem YAZILMAZ; ic_not: 'atlas bu ara dönemi bilerek göstermiyor'. · Yuan idaresi Yuan shi 59'da teyit (汴梁路 1288, 至元二十五年), uç yıl düzeyi. Ming'e geçiş atlasta 1368-04-01 (yüksek olasılıkla ay-başı yaklaşıklığı); Ming shi 2: Xu Da Kaifeng'i 洪武元年 3. ayda aldı = 1368-04-16 Jülyen (gün adından çevrildi; 'rapor günü'dür, askerî fetih günü olmayabilir); 辛卯 = 1368-06-07: 'Bianliang lu Kaifeng fu oldu'. Ayrıca Ming shi 1: 至正十八年五月 劉福通破汴梁，迎韓林兒都之 (Mayıs 1358 civarı; ay düzeyi); 至正十九年秋八月 察罕帖木兒復汴梁 (Ağustos 1359 civarı) — 1358-1359 arası Kaifeng Song (Han Lin'er) rejiminde: atlasta eksik, künye aranmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1923",
@@ -6063,7 +6063,7 @@
    "oneri": {
     "f": "1368-04-16 (Jülyen)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): 1358-59 Kızıl Sarık/Song (Han Lin'er) ayrı polity — devletler.js'te künyesi YOK (ölçüldü; yalnız 960-1279 'song'). Yeni BOYALAR anahtarı ister: KASA künye kuyruğuna 'renk partisi borcu'. O zamana kadar dönem YAZILMAZ; ic_not: 'atlas bu ara dönemi bilerek göstermiyor'. · DEVRALMA yerine yerleşime özgü tanık: Ming shi 2 (Ming kontrolü 洪武元年 3. ay, 辛卯 5. ay Kaifeng fu). Bitiş 1644-04-25 teyitsiz (1642 Sarı Nehir sel/Kaifeng kuşatması bu partide okunmadı)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): 1358-59 Kızıl Sarık/Song (Han Lin'er) ayrı polity — devletler.js'te künyesi YOK (ölçüldü; yalnız 960-1279 'song'). Yeni BOYALAR anahtarı ister: KASA künye kuyruğuna 'renk partisi borcu'. O zamana kadar dönem YAZILMAZ; ic_not: 'atlas bu ara dönemi bilerek göstermiyor'. · DEVRALMA yerine yerleşime özgü tanık: Ming shi 2 (Ming kontrolü 洪武元年 3. ay, 辛卯 5. ay Kaifeng fu). Bitiş 1644-04-25 teyitsiz (1642 Sarı Nehir sel/Kaifeng kuşatması bu partide okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1924",
@@ -6130,7 +6130,7 @@
     "f": "1366-12-15 (Jülyen; 十一月辛卯 gün adından JDN hesabı; annal kayıt günü)",
     "d": "ming-hanedani (öncül Zhu Yuanzhang rejimi 吳, künye ayrı aranmalı)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Hangzhou 1366-12-15 ming-hanedani'na yazılır (ming f Wu ilanına genişletilir); ic_not '1368 öncesi Wu krallığı olarak'. · Ming shi 1: Zhang Shicheng'in Hangzhou komutanı Pan Yuanming, Zhu Yuanzhang tarafı Li Wenzhong'a teslim oldu (至正二十六年 11. ay, 辛卯). Atlas Yuan'ı 1368-01-23'e kadar sürdürüyor, oysa Hangzhou ondan önce Zhang Shicheng (Wu), sonra Zhu Yuanzhang'daydı. Yuan→Zhang Shicheng geçişi bu partide okunmadı. Bitiş 1644-04-25 teyitsiz."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Hangzhou 1366-12-15 ming-hanedani'na yazılır (ming f Wu ilanına genişletilir); ic_not '1368 öncesi Wu krallığı olarak'. · Ming shi 1: Zhang Shicheng'in Hangzhou komutanı Pan Yuanming, Zhu Yuanzhang tarafı Li Wenzhong'a teslim oldu (至正二十六年 11. ay, 辛卯). Atlas Yuan'ı 1368-01-23'e kadar sürdürüyor, oysa Hangzhou ondan önce Zhang Shicheng (Wu), sonra Zhu Yuanzhang'daydı. Yuan→Zhang Shicheng geçişi bu partide okunmadı. Bitiş 1644-04-25 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2033",
@@ -6150,11 +6150,11 @@
    "d": "qing-hanedani",
    "f": "1645-07-06",
    "t": "1861-12-29",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/4 ve 21 (okundu)",
    "alinti": "兩淮粵匪陷杭州，瑞昌、王有齡死之",
    "oneri": {},
-   "not": "Başlangıç: Qing shi gao 4 (順治二年). Bitiş: 卷21 同治 başı: Taiping Hangzhou'yu aldı (kayıt günü 丁丑 = 1862-01-23 Gregoryen, JDN hesabı; atlas 1861-12-29 fetih günü bu kaynakta yok, çelişmez). Ara olay: 卷20 咸豐十年三月丙子 賊陷杭州, 六日 sonra Ruichang geri aldı (Mart 1860, ~6 gün, atlasta yok)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Başlangıç: Qing shi gao 4 (順治二年). Bitiş: 卷21 同治 başı: Taiping Hangzhou'yu aldı (kayıt günü 丁丑 = 1862-01-23 Gregoryen, JDN hesabı; atlas 1861-12-29 fetih günü bu kaynakta yok, çelişmez). Ara olay: 卷20 咸豐十年三月丙子 賊陷杭州, 六日 sonra Ruichang geri aldı (Mart 1860, ~6 gün, atlasta yok)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2035",
@@ -6162,11 +6162,11 @@
    "d": "taiping",
    "f": "1861-12-29",
    "t": "1864-03-31",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/21 (Muzong ji yi), 同治元年-三年 (okundu)",
    "alinti": "蔣益澧各軍克復杭州及餘杭",
    "oneri": {},
-   "not": "Başlangıç: bkz. önceki satır (kayıt günü 1862-01-23). Bitiş: 同治三年三月壬子 = 1864-04-17 (JDN hesabı; kayıt/rapor günü); atlas 1864-03-31 fetih günü bu kaynakta yok, çelişmez. Gün için başka kaynak gerekir."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Başlangıç: bkz. önceki satır (kayıt günü 1862-01-23). Bitiş: 同治三年三月壬子 = 1864-04-17 (JDN hesabı; kayıt/rapor günü); atlas 1864-03-31 fetih günü bu kaynakta yok, çelişmez. Gün için başka kaynak gerekir."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2036",
@@ -6207,7 +6207,7 @@
     "t": "1364 (YIL; 甲辰年)",
     "d": "ming-hanedani (öncül Zhu Yuanzhang rejimi 吳)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Ming shi 44: Changsha Yuan döneminde Tianlin lu (Yuan idaresi teyit, yıl düzeyi); 甲辰年 (1364) Taizu (Zhu Yuanzhang) tarafından Tanzhou fu yapıldı, yani Changsha 1364'ten beri Zhu rejiminde. Atlas Yuan'ı 1368-01-23'e uzatıyor. 1360-1363 Chen Youliang (Han) arası bu partide okunmadı. Yuan shi 59 sayfasında 天臨路 bulunamadı."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Ming shi 44: Changsha Yuan döneminde Tianlin lu (Yuan idaresi teyit, yıl düzeyi); 甲辰年 (1364) Taizu (Zhu Yuanzhang) tarafından Tanzhou fu yapıldı, yani Changsha 1364'ten beri Zhu rejiminde. Atlas Yuan'ı 1368-01-23'e uzatıyor. 1360-1363 Chen Youliang (Han) arası bu partide okunmadı. Yuan shi 59 sayfasında 天臨路 bulunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2140",
@@ -6221,7 +6221,7 @@
    "oneri": {
     "f": "1364 (YIL)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Ming rejimi idaresi 1364'ten (YIL); resmî ad Changsha 1372-06 (洪武五年六月, ay düzeyi). Bitiş 1644-04-25 teyitsiz."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Ming rejimi idaresi 1364'ten (YIL); resmî ad Changsha 1372-06 (洪武五年六月, ay düzeyi). Bitiş 1644-04-25 teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2141",
@@ -6235,7 +6235,7 @@
    "oneri": {
     "t": "1647-01-19 (Gregoryen; 丙戌 gün adından JDN hesabı; annal kayıt günü)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing'in Changsha'yı alışı 順治三年 12. ay (kayıt günü 1647-01-19); atlas 1647-01-01. Başlangıç 1644-04-25 teyitsiz: 1644-46 arası Changsha (Zhang Xianzhong/Li Zicheng/He Tengjiao) bu partide okunmadı. Not: 順治三年四月己卯 'Gao Shijun Changsha'yı aldı' kaydı da var (muhtemelen farklı bir Changsha; doğrulanmadı)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing'in Changsha'yı alışı 順治三年 12. ay (kayıt günü 1647-01-19); atlas 1647-01-01. Başlangıç 1644-04-25 teyitsiz: 1644-46 arası Changsha (Zhang Xianzhong/Li Zicheng/He Tengjiao) bu partide okunmadı. Not: 順治三年四月己卯 'Gao Shijun Changsha'yı aldı' kaydı da var (muhtemelen farklı bir Changsha; doğrulanmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2142",
@@ -6250,7 +6250,7 @@
     "f": "1647-01-19",
     "t": "1674-03-26 (Gregoryen; 康熙十三年二月甲寅; annal kayıt günü) — alternatif Qing valisinin kaçışı 十三年正月丁亥 = 1674-02-27"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing 1647 başlangıcı yukarıdaki kayıttan. San Fan'a geçiş atlasta 1673-12-28 (ayaklanmanın başladığı gün), oysa Qing valisi Lu Zhen Changsha'yı 康熙十三年 1. ay 丁亥'de terk etti (1674-02-27), Wu Sangui 2. ay 甲寅'de aldı (1674-03-26). Fiilî denetim ilkesi: uç ya 1674-02-27 (Qing çekildi) ya 03-26 (Wu 'aldı'); KASA/koordinatör seçsin."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing 1647 başlangıcı yukarıdaki kayıttan. San Fan'a geçiş atlasta 1673-12-28 (ayaklanmanın başladığı gün), oysa Qing valisi Lu Zhen Changsha'yı 康熙十三年 1. ay 丁亥'de terk etti (1674-02-27), Wu Sangui 2. ay 甲寅'de aldı (1674-03-26). Fiilî denetim ilkesi: uç ya 1674-02-27 (Qing çekildi) ya 03-26 (Wu 'aldı'); KASA/koordinatör seçsin."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2143",
@@ -6265,7 +6265,7 @@
     "f": "1674-03-26 (alt. 1674-02-27)",
     "t": "1679-03-10 (Gregoryen; 康熙十八年正月甲子; annal kayıt günü)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Bitiş: Qing shi gao 6: 康熙十八年 1. ay 甲子, Yuele Changsha'yı geri aldı = 1679-03-10 (JDN hesabı). Atlas 1679-01-01 (yıl). Başlangıç yukarıda."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Bitiş: Qing shi gao 6: 康熙十八年 1. ay 甲子, Yuele Changsha'yı geri aldı = 1679-03-10 (JDN hesabı). Atlas 1679-01-01 (yıl). Başlangıç yukarıda."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2144",
@@ -6279,7 +6279,7 @@
    "oneri": {
     "f": "1679-03-10"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing'in dönüşü kayıt günü 1679-03-10 (atlas 1679-01-01 yıl). Bitiş 1912-02-12 DEVRALMA ferman metni olay kaynağıdır."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing'in dönüşü kayıt günü 1679-03-10 (atlas 1679-01-01 yıl). Bitiş 1912-02-12 DEVRALMA ferman metni olay kaynağıdır."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2145",
@@ -7580,7 +7580,7 @@
    "oneri": {
     "t": "1368-08-14 (閏7月 ilk gunu; gun teyitsiz, 08-14/15)"
    },
-   "not": "Yuan Zhangde Lu'su Hongwu 1 (閏7月) Ming 'fu' oldu; Ming shi 2: 8. ay 己巳 = 1368-09-13 oldugundan 閏7月 ~1368-08-14/15..09-12 arasinda. Atlas 1368-09-14 (Dadu'nun dusmesi) ULKE DUZEYI; Anyang icin fu-kurulus ayi ondan once. 'Anyang kenti Yuan sonunda lagvedildi, Hongwu 1 9. ay yeniden kuruldu' (Ming shi 42). Oneri beyanli yaklasiklik, 'ic_not'ta yaz. f=1281 kunye ucu (Yuan shi dili zhi 'Zhangde lu' ayri okunmadi)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Yuan Zhangde Lu'su Hongwu 1 (閏7月) Ming 'fu' oldu; Ming shi 2: 8. ay 己巳 = 1368-09-13 oldugundan 閏7月 ~1368-08-14/15..09-12 arasinda. Atlas 1368-09-14 (Dadu'nun dusmesi) ULKE DUZEYI; Anyang icin fu-kurulus ayi ondan once. 'Anyang kenti Yuan sonunda lagvedildi, Hongwu 1 9. ay yeniden kuruldu' (Ming shi 42). Oneri beyanli yaklasiklik, 'ic_not'ta yaz. f=1281 kunye ucu (Yuan shi dili zhi 'Zhangde lu' ayri okunmadi)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1938",
@@ -7595,7 +7595,7 @@
     "t": "1644-04-02",
     "d_sonraki": "dashun (Li Zicheng) f=1644-04-02"
    },
-   "not": "Ming shi 24 Chongzhen 17 2. ay 甲申 = 1644-04-02 (Gregoryen; ganzhi tablosuyla hesaplandi): Li Zicheng Zhangde'ye girdi, Zhao Wang Chang Fu teslim oldu. Atlas Ming'i 1644-06-06'ya (Qing Pekin) dek surduruyor — Anyang icin 2 ay 4 gun erken. TEK KURAL: Shun (Dashun, 1644-02-08 Xi'an'da ilan) rejimi idareyi kendisine kattiysa s dashun (KURAL KARARI gerekebilir: isg mi s mi — Shun Zhili/Henan'a memur atadi); ham fetih gunu not'a. Ming kenti 1368 icin: KAYNAKLI yil (Ming shi 42 Hongwu 1)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Ming shi 24 Chongzhen 17 2. ay 甲申 = 1644-04-02 (Gregoryen; ganzhi tablosuyla hesaplandi): Li Zicheng Zhangde'ye girdi, Zhao Wang Chang Fu teslim oldu. Atlas Ming'i 1644-06-06'ya (Qing Pekin) dek surduruyor — Anyang icin 2 ay 4 gun erken. TEK KURAL: Shun (Dashun, 1644-02-08 Xi'an'da ilan) rejimi idareyi kendisine kattiysa s dashun (KURAL KARARI gerekebilir: isg mi s mi — Shun Zhili/Henan'a memur atadi); ham fetih gunu not'a. Ming kenti 1368 icin: KAYNAKLI yil (Ming shi 42 Hongwu 1)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1939",
@@ -7650,7 +7650,7 @@
    "oneri": {
     "t": "1641-03-01"
    },
-   "not": "Ming shi 24 Chongzhen 14 1. ay 丙申 = 1641-03-01 (Gregoryen; ganzhi hesabi, ay-gun tablosu). Atlas 1641-03-08: 7 gun fark. Ming shi cumlesi 'Henan'i dusurdu, Fu Wang Chang Xun oldurulduyle' — Luoyang'in dusus haberi/tarihi; ganzhi gunu mahkeme kaydidir, fiili dusus 1-2 gun once olabilir. f: Ming shi 42 'Hongwu 1' yil duzeyi (04-01 ay hassasiyeti teyitsiz)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Ming shi 24 Chongzhen 14 1. ay 丙申 = 1641-03-01 (Gregoryen; ganzhi hesabi, ay-gun tablosu). Atlas 1641-03-08: 7 gun fark. Ming shi cumlesi 'Henan'i dusurdu, Fu Wang Chang Xun oldurulduyle' — Luoyang'in dusus haberi/tarihi; ganzhi gunu mahkeme kaydidir, fiili dusus 1-2 gun once olabilir. f: Ming shi 42 'Hongwu 1' yil duzeyi (04-01 ay hassasiyeti teyitsiz)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1899",
@@ -7665,7 +7665,7 @@
     "f": "1641-03-01",
     "t": "1645-01-11 civari (teyitsiz; atlas 1645-01-18)"
    },
-   "not": "f: Ming shi 24 丙申 = 1641-03-01. t: Qing shi gao 4 Shunzhi 1 12. ay: 戊辰 (=1645-01-11) Dodo Mengjin'de, 己巳 (=01-12) Shanzhou'da — Luoyang bu iki gun arasinda gecildi; atlas 1645-01-18 (乙亥) 6-7 gun gec. Luoyang'a ozgu Qing gunu metinde yok, o yuzden ONERI zayif. KURAL KARARI: 1641'de Li Zicheng henuz devlet kurmamisti (Xinshun 1643, Dashun ilani 1644-02-08); 1641-1643 'dashun' s yazmak TEK KURAL ile celisebilir (isg mi?). Koordinator karari gerekli."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · f: Ming shi 24 丙申 = 1641-03-01. t: Qing shi gao 4 Shunzhi 1 12. ay: 戊辰 (=1645-01-11) Dodo Mengjin'de, 己巳 (=01-12) Shanzhou'da — Luoyang bu iki gun arasinda gecildi; atlas 1645-01-18 (乙亥) 6-7 gun gec. Luoyang'a ozgu Qing gunu metinde yok, o yuzden ONERI zayif. KURAL KARARI: 1641'de Li Zicheng henuz devlet kurmamisti (Xinshun 1643, Dashun ilani 1644-02-08); 1641-1643 'dashun' s yazmak TEK KURAL ile celisebilir (isg mi?). Koordinator karari gerekli."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1900",
@@ -7677,7 +7677,7 @@
    "kaynak": "Qing shi gao 4 (bkz. Dashun satiri)",
    "alinti": "",
    "oneri": {},
-   "not": "Bu satirin KAPANISI 1912-02-12 ULKE DUZEYI (devralma). Acilis 1645-01-18 icin bkz. Dashun satirindaki celiski (Qing shi gao 4: Dodo 戊辰 1645-01-11 Mengjin)."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): ganzhi → Jülyen/Gregoryen çevirisi ajan tarafından ELLE yapıldı, tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Bu satirin KAPANISI 1912-02-12 ULKE DUZEYI (devralma). Acilis 1645-01-18 icin bkz. Dashun satirindaki celiski (Qing shi gao 4: Dodo 戊辰 1645-01-11 Mengjin)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1901",
@@ -12651,7 +12651,7 @@
     "t": "1918-12-01",
     "d": "sirbistan-kralligi"
    },
-   "not": "KURAL KARARI: TDV Üsküp şehir maddesi Sırp sahipliğini Bükreş Antlaşması 10 Ağustos 1913 (Gregoryen) günüyle verir; Treccani 'Attribuita alla Serbia nel 1913' (YIL). Atlas kuralı: Osmanlı'nın devri Londra 1913-05-30 (Emre kararı 13 Ekim 2026; Dimetoka/Çirmen/Gümülcine ile aynı gün). Londra devri Balkan İttifakı'na, Üsküp'ün Sırbistan'a paylaşımı Bükreş'te kesinleşti — karar KASA/koordinatörde; kural değiştirilmesin, Bükreş günü ic_not beyanı olarak yazılsın. Ohri/Manastır aynı zincirde. Aynı partide TDV Üsküp (10 Ağustos 1913) ile atlasın seçtiği Londra çatışır; ÇİFT-TDV değil (ikinci TDV yok), kararı veren atlas kuralı."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece): Emre'nin 13 Ekim kuralı geçerli: s: sirbistan-kralligi 1913-05-30 (Londra) KALIR; 1912-10 Sırp girişi (gün kaynaktan) → 1913-05-30 isg sirbistan, s: osmanli. ic_not: 'TDV Üsküp Bükreş'i (1913-08-10) esas alıyor; Londra Osmanlı'nın feragatidir, Bükreş müttefikler arası paylaşım.' Ayrışma Emre'ye sabah raporuyla bildirilir. · KURAL KARARI: TDV Üsküp şehir maddesi Sırp sahipliğini Bükreş Antlaşması 10 Ağustos 1913 (Gregoryen) günüyle verir; Treccani 'Attribuita alla Serbia nel 1913' (YIL). Atlas kuralı: Osmanlı'nın devri Londra 1913-05-30 (Emre kararı 13 Ekim 2026; Dimetoka/Çirmen/Gümülcine ile aynı gün). Londra devri Balkan İttifakı'na, Üsküp'ün Sırbistan'a paylaşımı Bükreş'te kesinleşti — karar KASA/koordinatörde; kural değiştirilmesin, Bükreş günü ic_not beyanı olarak yazılsın. Ohri/Manastır aynı zincirde. Aynı partide TDV Üsküp (10 Ağustos 1913) ile atlasın seçtiği Londra çatışır; ÇİFT-TDV değil (ikinci TDV yok), kararı veren atlas kuralı."
   },
   {
    "dosya_satir": "data/yerlesimler.js:493",
