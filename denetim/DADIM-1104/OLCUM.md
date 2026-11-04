@@ -954,6 +954,25 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Gün hicrî tablo çıkarımı, alıntıda yalnız yıl var (Ohri, Nahçıvan, Kütahya).
 - **Sınır:** örneklem alıntı alanını ölçer, ham sayfayı açmaz. Kanıtı notta olan satırlar (Hille, Timbuktu) kaynak açılıp alıntıya taşınırsa yeniden KAYNAKLI olabilir.
 
+## 40. Irak Celâyirli / Karakoyunlu kümesi (EMRELİC gece-41; `bagdat_kume.json`)
+- **Kapsam:** 10 şehir (Bağdat, Vâsıt, Hille, Necef, Kerbelâ, Kûfe, Basra, Sâmerrâ, Tikrit, Hânekîn). 46 öneri satırı; 20 alıntı TDV ham metninden birebir.
+- **Künyeler (devletler.js):**
+  - celayirli 1340-01-01 → 1431-01-01
+  - karakoyunlu 1351-01-01 → 1469-12-19
+  - akkoyunlu 1340 → 1514
+  - timurlu 1370-04-09 → 1507-05-24
+  - Celayirli künye t'si (1431) değişmez. Şehir satırlarındaki 1410/1411 Bağdat'ın kaderidir, künyenin sonu değildir.
+- **Bulgular:**
+  - Karakoyunlu → Akkoyunlu geçişi 9 şehirde 1469-01-01 yazılı. TDV «Karakoyunlular»da Şah Mansûr'un idamı 874-06-14 = 1469-12-19 ve teslim bundan önce. TDV «Akkoyunlular» ve «Basra» 1470 diyor. Öneri 1469-12-19 (ONERI). Kronoloji maddesi `data/olaylar_ek10.js:585` (1469-01-01) birlikte taşınır.
+  - Güney Irak'ta Celâyirli kalıntısı 1431'e kadar sürüyor.
+    - Hille t 1431 (TDV «Celâyirliler»: Hüseyin Hille Kalesi'nde öldürüldü).
+    - Vâsıt 826/1423 Celâyirli.
+    - Kerbelâ, Necef ve Kûfe Hille zinciri mi izler, Bağdat zinciri mi? LAB'a.
+  - Timur 1393 ve 1401: TDV «Bağdat» "iki defa işgal edildi" diyor → `isg timurlu`. `s: celayirli` 1340 → 1411-04-25 sürer.
+  - Bağdat Safevî f: atlas 1508-01-01, hicrî 914'ten önce düşüyor. Öneri 1508-05-02 (alt sınır).
+  - Osmanlı f: atlas 1534-12-04 (`data/olaylar.js:86`), TDV 28 Kasım 1534. 6 günlük farkın kaynağı LAB'a.
+- **Sınır:** çift teyit yok, Iranica denenmedi. Bulunamayanlar: TDV «Hille» içerik, «Kûfe», «Hânekîn». LAB'a 8 soru.
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.
