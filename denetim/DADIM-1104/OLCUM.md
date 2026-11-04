@@ -999,6 +999,27 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Ubârî: Fizan kararı.
   - Telavi: koşullu ONERI'den KAYNAKLI'ya.
 
+## 42. ONERI yükseltme turu — İKİNCİ GEÇİŞ ve kümeler TAMAM (UMIT, 5 Kasım 2026)
+- **İkinci geçiş** (eski "iki kaynak" ölçütüyle sınanmış 5 parti; gece-14 ölçütüyle):
+  - y_002b: KAYNAKLI 5 · ONERI 4 · CELISKI 0 · HATALI 6.
+  - y_003b: 6 · 7 · 1 · 1.
+  - y_005b: 8 · 3 · 1 · 1.
+  - y_006b: 4 · 4 · 2 · 5.
+  - y_009b: 8 · 2 · 2 · 5.
+- **Son toplam (`topla.py`):** KAYNAKLI 3664 · ONERI 1429 · BULUNAMADI 1963 · BAKILMADI 187. Turun başında ONERI 1726 idi. Kova: HATALI_ONERI 378 · CELISKI 110. tarayıcı 77.
+- **Kümeler:**
+  - **Dobruca 1878 (`dobruca_kume.json`):** Rumen girişi 14 Kasım 1878 O.S. = 1878-11-26 N.S.; Köstence 23 Kasım O.S. = 1878-12-05. Kaynak akademik değil → ONERI (EMRELİC gece-54). 6 yerleşim.
+  - **Enez:** TDV şehir maddesi yok; 1455 ile atlas 1456-01-24 çelişiyor → CELISKI.
+  - **Hürmüz:** TDV 1514, literatür 1515-04 → TDV istisnası adayı.
+  - **Mora (`mora_kume.json`):**
+    - Tripoliçe: TDV "Ekim 1822" yıl hatası, literatür 1821-10-05 → TDV istisnası adayı.
+    - Gördüs: üç dilim.
+    - Fethiye: Akça 2002 gövdesi 1920, tahliyelerle çelişiyor → CELISKI.
+- **TDV istisna adayları (Emre'ye tek soru):** Somaliland, Uşi, Hürmüz, Tripoliçe.
+- **Hicrî tablo tutarlılığı:** bütün günler brif epoch'uyla (1 Rebîülevvel 923 = 1517-03-23 Jülyen) hesaplandı.
+  - Ajanların ±1 günleri düzeltildi: Musul 1517-04-01, Çorum 1398-07-15, 810 → 1407-06-07, 955 → 1548-02-10.
+  - Herat 913 yıl başı (1507-05-12) düşüşten önce kaldığı için kullanılmadı.
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.

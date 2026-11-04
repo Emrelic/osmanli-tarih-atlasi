@@ -1,0 +1,52 @@
+{
+  "tripolice": {
+    "tdv_cumle": "TDV Tripoliçe (Machiel Kiel): \"1822 Ekiminde Yunan isyanı sırasında şehir bölgedeki diğer yerleşim yerlerinden kaçan müslümanlarla doldu. Burası Yunanlı âsilerce ele geçirildi ve müslüman nüfusun tamamı katledildi.\" | TDV Mora (John Alexander): \"Yunanlı âsiler Ekim 1822'de Mora'yı ele geçirdikten hemen sonra Dakin, Finley, McCarthy, Trikoupis gibi otoriteler tarafından da belirtildiği üzere 25.000 kişiyi ... katlettiler.\" (aynı maddede önceki cümle: \"Tripoliçe'deki müslümanlar katledildi.\")",
+    "neyi_tarihliyor": "Her iki TDV cümlesi de Tripoliçe'nin Yunanlılarca alınışını/katliamı tarihliyor (Nafplio ya da Dramalı seferini değil; Tripoliçe maddesi aynı cümlede 'ele geçirildi ve nüfus katledildi' diyor). 'Ekim 1822' yıl hatası/yanlış tarihlemedir: olay Ekim 1821 (5 Ekim N.S.). TDV Tripoliçe'de olayın ayrı günü yok; yalnız Ekim ayı ve yıl veriyor, yıl diğer kaynaklarla çelişiyor. Çelişki ic_not'ta iki kaynağıyla beyan edilmeli.",
+    "ikinci_kaynak": "TTK, Ali Fuat Örenç, 'The Tripolitsa Massacre in the Morea in Its 200th Year (5 October 1821)', ttk.gov.tr/wp-content/uploads/2024/05/1-Ali-Fuat-Ing.pdf — başlıkta 5 October 1821 (ham metinde O.S./23 Eylül geçmiyor, takvim çevirisi yazılmamış; başlık N.S. günü gibi duruyor). Phillips (1897, archive.org cu31924028257966): 'The fall of Tripolitza completed the first phase of the Greek rising ... within six months of the beginning of the revolt' — gün VERMİYOR; 'stormed the town. For three days the miserable inhabitants were given over to the lust and cruelty of a mob of savages.' Wikipedia (yalnız destek, tek dayanak değil): 'Tripolitsa was seized by the Greeks on 23 September [N.S. 5 October]'.",
+    "gun_os": "1821-09-23 (Jülyen; Wikipedia ve Yunan literatürü; ham akademik metinde O.S. yazısı okunmadı)",
+    "gun_ns": "1821-10-05 (TTK/Örenç başlığı: '5 October 1821'; 23 Eylül + 12 gün = 5 Ekim, tutarlı)",
+    "oneri": "Tripoliçe (Osmanlı->Yunan isyancı/ Mora Senatosu) kırılması 1821-10-05 (N.S.) yazılsın; kaynak: TTK Örenç 2021 (başlıkta 5 October 1821) + TDV Tripoliçe (Ekim, ama yıl '1822' = TDV hatası, ic_not'ta beyan). 1822 tarihini ASLA alma. Yunanistan 1923'e kadar Jülyen: 23 Eylül O.S. kaynakta 'O.S.' diye geçmeli; atlas Gregoryen gün istediği için 1821-10-05 (12 gün farkı 1800-1900 arası). Not: 1582 sonrası çeviri akademik ham metinde O.S./N.S. okunarak değil, Wikipedia çift-tarihiyle ve TTK başlığıyla destekli; zayıf nokta olarak beyan edilsin."
+  },
+  "gordus": {
+    "dilimler": [
+      {
+        "olay": "Rumların Akrokorint'i (Gördüs kalesi) alışı — Osmanlı garnizonu teslim oldu",
+        "gun": "1822-01-14 (Wikipedia, takvimi yazmıyor); Yunan kaynağı 14/26 Ocak 1822 eşleştirmesi veriyor => 14 Ocak O.S. = 26 Ocak N.S.",
+        "takvim": "14 Ocak O.S. (Jülyen) olması çok muhtemel; kaynakta ham metinde O.S./N.S. etiketi okunmadı — beyan et",
+        "kaynak": "Wikipedia 'Greek War of Independence' (destek); Stefanos Katsikas denemesi arama özeti; flight.com.gr '1822-01-26 surrender acrocorinth'. Akademik ham metin okunamadı.",
+        "alinti": "After lengthy negotiations, the Turkish forces surrendered Acrocorinth on 14 January 1822."
+      },
+      {
+        "olay": "Dramalı'nın Akrokorint'i geri alışı (Rum garnizon savaşmadan terk etti)",
+        "gun": "1822 Temmuz ortası (kesin gün bulunamadı; Wikipedia 'arrived at Corinth in mid-July')",
+        "takvim": "bilinmiyor",
+        "kaynak": "Phillips 1897 (archive.org cu31924028257966): gün yok; Wikipedia 'Mahmud Dramali Pasha' (destek)",
+        "alinti": "The Isthmus was passed; and the impregnable rock of Acrocorinthos fell, abandoned by its cowardly garrison without a blow. [Phillips, s.102]  |  He arrived at Corinth in mid-July, and found the strong fort of Acrocorinth abandoned without a fight by its Greek garrison. [Wikipedia]"
+      },
+      {
+        "olay": "Rumların Akrokorint'i yeniden alışı (teslim)",
+        "gun": "1823-11-07",
+        "takvim": "Phillips kaynakta takvim yazmıyor; Yunan olayı olduğundan O.S. olma ihtimali var (N.S. 1823-11-19) — gün bulunamadı/beyanlı, çevirme",
+        "kaynak": "W. Alison Phillips, The War of Greek Independence 1821 to 1833 (1897), s.130; dizinde 'retaken by the Greeks, 130, and note'",
+        "alinti": "Kolokotrones, established in Nauplia, and in the Acrocorinthos, which had surrendered on the 7th of November, aimed at subjecting the Morea to military rule."
+      }
+    ]
+  },
+  "fethiye": {
+    "makale": "Bayram Akça, Milli Mücadele Döneminde Fethiye, MUSBED 2002 sayı 9, DergiPark article-file/217167",
+    "turkce_ozet": "Fethiye'nin 21 Haziran 1920'de İtalyan işgalinden kurtuluşu",
+    "ingilizce_ozet": "the withdrawal of Italians from Fethiye on 21 June 1921",
+    "govde": "Gövde (Sonuç öncesi bölüm) 21 Haziran 1920 diyor: 'İtalyan işgal kuvvetleri Fethiye'de yaklaşık bir yıldan fazla kaldıktan sonra 21 Haziran 1920 tarihinde şehri boşalttılar (ATASE, D.39(71), K.10(809), F.7(182-189)'. Gövdede '1921' yok. 'TBMM'ye teslim' ifadesi/günü gövdede YOK.",
+    "tutarsizlik": "21 Haziran 1920 ile 'bir yıldan fazla' tutarlı; ama İtalyan tahliyesi diğer yerlerde 1921 (Antalya 4 Temmuz 1921, Küllük 7 Temmuz 1921) ve gövdedeki 15 Haziran 1922 şifresi (Fethiye'de bahriye topu/motor) kimin olduğu okunmadı; 1920 tarihi bölge tahliyesiyle çelişiyor; ingilizce özetin '1921'i büyük olasılıkla doğru yıl, ama gün 21 Haziran da kanıtlı değil. Marmaris Manşet (haber sitesi, akademik değil): çekilme 1 Temmuz 1921'de başladı, 5 Temmuz 1921'de tamamlandı ('1 Temmuz 1921'de başlayan çekilme 5 Temmuz 1921'de tamamlandı').",
+    "oneri": "Fethiye İtalyan tahliyesi/TBMM teslim günü için 21 Haziran önerilmesin; ayrı gün KESİN yok. En makul: Temmuz 1921 başı (1-5 Temmuz 1921; Antalya 4 Temmuz 1921, Küllük 7 Temmuz 1921 ile uyumlu) ama sadece haber kaynağı — akademik ikinci kaynak (Muğla Üniversitesi tezleri, Türkeş 1973, ATASE belgeleri neşri) bulunana kadar BULUNAMADI + beyanlı yaklaşıklık. Akça'nın 21 Haziran 1920'si atlas dayanağı olamaz (gövde-özet çelişkisi + 1921 tahliye dalgasına uymaması)."
+  },
+  "bulunamadi": [
+    "Dramalı'nın Akrokorint'e girişinin kesin günü (Temmuz 1822) — Phillips ve Wikipedia gün vermiyor",
+    "Phillips'te Tripoliçe düşüşü günü (metinde yok)",
+    "TTK Örenç makalesinde 23 Eylül/Old Style cümlesi (ham metinde yok)",
+    "Fethiye'nin TBMM tarafından teslim alınış günü (Akça gövdesinde yok)",
+    "Fethiye İtalyan tahliyesi için akademik (hakemli/tez) ikinci kaynak",
+    "Akrokorint Ocak 1822 için akademik ham metin (yalnız Wikipedia + arama özeti)",
+    "Gördüs 1823-11-07 için ikinci bağımsız kaynak ve takvim"
+  ]
+}
