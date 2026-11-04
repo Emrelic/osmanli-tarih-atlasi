@@ -1,0 +1,1055 @@
+{
+ "aciklama": "Mersin emsali (EMRELİC 4 Kasım 2026 gece): işgal altındaki yerde s: tbmm 1920-04-23 yerine d: osmanli + isg → s: tbmm fiilî teslim gününden. Kaba bölge kutusu; her yer kaynakla sınanır.",
+ "bolgeler": {
+  "Yunan (Batı Anadolu)": [
+   {
+    "yer": "Yenişehir (Bursa)",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-10-25",
+      "1922-09-06"
+     ]
+    ]
+   },
+   {
+    "yer": "İnegöl",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-10-25",
+      "1922-09-06"
+     ]
+    ]
+   },
+   {
+    "yer": "Geyve",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Köprühisar (Yenişehir)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Marmaracık",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Akhisar (Pamukova)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Mekece",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Kestel",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Ulubat",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-08",
+      "1922-09-14"
+     ]
+    ]
+   },
+   {
+    "yer": "Harmankaya",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "İmralı Adası",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Mudanya",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Armutlu",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Gemlik (Kios)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Bodrum",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "italya",
+      "1919-05-11",
+      "1921-07-05"
+     ]
+    ]
+   },
+   {
+    "yer": "Kuşadası",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "italya",
+      "1919-05-14",
+      "1922-04-29"
+     ]
+    ]
+   },
+   {
+    "yer": "Söke",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Söğüt",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Bozüyük",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Ermeni Derbendi",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Pazaryeri",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Bilecik",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1921-07-22",
+      "1922-09-06"
+     ]
+    ]
+   },
+   {
+    "yer": "Eskişehir",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1921-07-20",
+      "1922-09-02"
+     ]
+    ]
+   },
+   {
+    "yer": "Bursa",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-08",
+      "1922-09-11"
+     ]
+    ]
+   },
+   {
+    "yer": "İznik",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Balıkesir",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-06-30",
+      "1922-09-06"
+     ]
+    ]
+   },
+   {
+    "yer": "Çanakkale",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Bergama",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Kütahya",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1921-07-21",
+      "1922-08-30"
+     ]
+    ]
+   },
+   {
+    "yer": "Isparta",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Manisa",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1919-05-26",
+      "1922-09-09"
+     ]
+    ]
+   },
+   {
+    "yer": "İzmir",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1919-05-15",
+      "1922-09-09"
+     ]
+    ]
+   },
+   {
+    "yer": "Çeşme",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Aydın",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1919-07-04",
+      "1922-09-07"
+     ]
+    ]
+   },
+   {
+    "yer": "Denizli",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Muğla",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "italya",
+      "1919-07-23",
+      "1921-07-05"
+     ]
+    ]
+   },
+   {
+    "yer": "Kilitbahir",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Gelibolu",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-08-04",
+      "1922-10-03"
+     ]
+    ]
+   },
+   {
+    "yer": "Çimpe",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Bozcaada",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Biga",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Karahisâr-ı Sâhib (Afyon)",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1921-03-23",
+      "1921-04-07"
+     ],
+     [
+      "yunanistan",
+      "1921-07-12",
+      "1922-08-27"
+     ]
+    ]
+   },
+   {
+    "yer": "Domaniç",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Kulacahisar",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Karacahisar",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Yarhisar",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Dimbos",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Kite (Kete)",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-08",
+      "1922-09-11"
+     ]
+    ]
+   },
+   {
+    "yer": "Lefke (Osmaneli)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Leblebicihisar",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Karaçepüş",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Karatigin",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Absu (Hypsu)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Adranos (Orhaneli)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Kirmasti (M.Kemalpaşa)",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-02",
+      "1922-09-14"
+     ]
+    ]
+   },
+   {
+    "yer": "Mihaliç (Karacabey)",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-02",
+      "1922-09-14"
+     ]
+    ]
+   },
+   {
+    "yer": "Gölyazı (Apollonia)",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-08",
+      "1922-09-11"
+     ]
+    ]
+   },
+   {
+    "yer": "Bolayır",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Maydos (Eceabat)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Birgi",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Tire",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1919-05-28",
+      "1922-09-04"
+     ]
+    ]
+   },
+   {
+    "yer": "Ayasuluk (Selçuk)",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1919-05-22",
+      "1922-09-08"
+     ]
+    ]
+   },
+   {
+    "yer": "Milas",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Balat (Palatia)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Simav",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Tavşanlı",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Emet (Eğrigöz)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Uşak",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-08-29",
+      "1922-09-01"
+     ]
+    ]
+   },
+   {
+    "yer": "Alaşehir",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-06-26",
+      "1922-09-04"
+     ]
+    ]
+   },
+   {
+    "yer": "Uluborlu",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Eğirdir",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Burdur",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "italya",
+      "1919-06-28",
+      "1921-01-01"
+     ]
+    ]
+   },
+   {
+    "yer": "Edremit",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Erdek",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Ayvalık",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Karabiga",
+    "dosya": "yerlesimler_seyrek.js",
+    "isg": []
+   },
+   {
+    "yer": "Behramkale (Assos)",
+    "dosya": "yerlesimler_ek23.js",
+    "isg": []
+   },
+   {
+    "yer": "Lapseki (Lampsakos)",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": []
+   },
+   {
+    "yer": "Çanakkale yöresi (Kepez)",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": []
+   },
+   {
+    "yer": "Truva yöresi (Tevfikiye)",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": []
+   },
+   {
+    "yer": "Soma",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-06-24",
+      "1922-09-13"
+     ]
+    ]
+   },
+   {
+    "yer": "Akhisar (Manisa)",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-06-22",
+      "1922-09-06"
+     ]
+    ]
+   }
+  ],
+  "İstanbul/Boğazlar (İtilaf)": [
+   {
+    "yer": "Aydos Kalesi",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Pelekanon (Eskihisar)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Gebze",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Samandıra",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Anadolu Hisarı",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Rumeli Hisarı",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Boğaziçi (Rumeli yakası)",
+    "dosya": "yerlesimler_ek2.js",
+    "isg": []
+   },
+   {
+    "yer": "Beykoz",
+    "dosya": "yerlesimler_ek23.js",
+    "isg": []
+   },
+   {
+    "yer": "Üsküdar",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": []
+   }
+  ],
+  "Doğu Trakya": [
+   {
+    "yer": "Enez",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Çorlu",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-20",
+      "1922-10-30"
+     ]
+    ]
+   },
+   {
+    "yer": "Lüleburgaz",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-22",
+      "1922-11-08"
+     ]
+    ]
+   },
+   {
+    "yer": "Malkara",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-24",
+      "1922-11-14"
+     ]
+    ]
+   },
+   {
+    "yer": "Keşan",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "İpsala",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Edirne",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-26",
+      "1922-11-10"
+     ]
+    ]
+   },
+   {
+    "yer": "Kırklareli",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-07-26",
+      "1922-11-10"
+     ]
+    ]
+   },
+   {
+    "yer": "Tekirdağ",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1920-06-20",
+      "1922-11-13"
+     ]
+    ]
+   },
+   {
+    "yer": "İstanbul",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Marmara Adası",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Şarköy",
+    "dosya": "yerlesimler_ek23.js",
+    "isg": []
+   },
+   {
+    "yer": "Saroz kuzey kıyısı",
+    "dosya": "yerlesimler_ek23.js",
+    "isg": []
+   },
+   {
+    "yer": "Uzunköprü",
+    "dosya": "yerlesimler_ek24.js",
+    "isg": []
+   },
+   {
+    "yer": "Havsa",
+    "dosya": "yerlesimler_ek24.js",
+    "isg": []
+   },
+   {
+    "yer": "Meriç (İpsala kuzeyi)",
+    "dosya": "yerlesimler_ek24.js",
+    "isg": []
+   },
+   {
+    "yer": "Lalapaşa",
+    "dosya": "yerlesimler_ek24.js",
+    "isg": []
+   },
+   {
+    "yer": "Kofçaz",
+    "dosya": "yerlesimler_ek24.js",
+    "isg": []
+   },
+   {
+    "yer": "Dereköy (Kırklareli)",
+    "dosya": "yerlesimler_ek24.js",
+    "isg": []
+   },
+   {
+    "yer": "Demirköy",
+    "dosya": "yerlesimler_ek24.js",
+    "isg": []
+   },
+   {
+    "yer": "İğneada",
+    "dosya": "yerlesimler_ek24.js",
+    "isg": []
+   },
+   {
+    "yer": "Silivri",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": []
+   },
+   {
+    "yer": "Vize",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": []
+   },
+   {
+    "yer": "Çatalca",
+    "dosya": "yerlesimler_serhat.js",
+    "isg": []
+   },
+   {
+    "yer": "Uluköy (Akçadam)",
+    "dosya": "yerlesimler_sinir_kuzey.js",
+    "isg": []
+   },
+   {
+    "yer": "Küfkaynapınarı (Azatlı)",
+    "dosya": "yerlesimler_sinir_kuzey.js",
+    "isg": []
+   },
+   {
+    "yer": "Karpuzlu (Yenikarpuzlu)",
+    "dosya": "yerlesimler_sinir_kuzey.js",
+    "isg": []
+   }
+  ],
+  "İtalyan (Antalya-Muğla)": [
+   {
+    "yer": "Datça",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Marmaris",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "italya",
+      "1919-05-11",
+      "1922-04-29"
+     ]
+    ]
+   },
+   {
+    "yer": "Fethiye (Makri)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Antalya",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "italya",
+      "1919-04-29",
+      "1921-06-01"
+     ]
+    ]
+   },
+   {
+    "yer": "Finike",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Kaş (Antiphellos)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Elmalı",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   }
+  ],
+  "isg kaydı var": [
+   {
+    "yer": "Adapazarı",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "yunanistan",
+      "1921-03-25",
+      "1921-06-21"
+     ]
+    ]
+   },
+   {
+    "yer": "Nusaybin",
+    "dosya": "yerlesimler_ek25.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-10-30",
+      "1921-10-20"
+     ]
+    ]
+   }
+  ],
+  "Fransız (Çukurova-Antep-Urfa)": [
+   {
+    "yer": "Niğde",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Osmaniye",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-12-23",
+      "1921-12-29"
+     ]
+    ]
+   },
+   {
+    "yer": "Urfa",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Maraş",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Adana",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-12-24",
+      "1922-01-05"
+     ]
+    ]
+   },
+   {
+    "yer": "Tarsus",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-12-17",
+      "1921-12-27"
+     ]
+    ]
+   },
+   {
+    "yer": "Antep",
+    "dosya": "yerlesimler.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1919-11-05",
+      "1921-12-25"
+     ]
+    ]
+   },
+   {
+    "yer": "Hısn-ı Mansûr (Adıyaman)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Behisni (Besni)",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Kâhta",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Siverek",
+    "dosya": "yerlesimler.js",
+    "isg": []
+   },
+   {
+    "yer": "Kilis",
+    "dosya": "yerlesimler_ek25.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1919-10-29",
+      "1921-12-23"
+     ]
+    ]
+   },
+   {
+    "yer": "Suruç",
+    "dosya": "yerlesimler_ek25.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-10-30",
+      "1921-10-20"
+     ]
+    ]
+   },
+   {
+    "yer": "Akçakale",
+    "dosya": "yerlesimler_ek25.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-10-30",
+      "1921-10-20"
+     ]
+    ]
+   },
+   {
+    "yer": "Payas",
+    "dosya": "yerlesimler_ek28.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-10-30",
+      "1921-10-20"
+     ]
+    ]
+   },
+   {
+    "yer": "Dörtyol",
+    "dosya": "yerlesimler_ek28.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-10-30",
+      "1921-10-20"
+     ]
+    ]
+   },
+   {
+    "yer": "Erzin",
+    "dosya": "yerlesimler_ek28.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-10-30",
+      "1921-10-20"
+     ]
+    ]
+   },
+   {
+    "yer": "Yumurtalık",
+    "dosya": "yerlesimler_ek28.js",
+    "isg": [
+     [
+      "fransa-cumhuriyet",
+      "1918-10-30",
+      "1921-10-20"
+     ]
+    ]
+   },
+   {
+    "yer": "Ulukışla",
+    "dosya": "yerlesimler_ek29.js",
+    "isg": []
+   },
+   {
+    "yer": "Birecik",
+    "dosya": "yerlesimler_ek_bosluk.js",
+    "isg": []
+   },
+   {
+    "yer": "Mercihamis (Yurtbağı)",
+    "dosya": "yerlesimler_sinir_guney.js",
+    "isg": []
+   },
+   {
+    "yer": "Göksun",
+    "dosya": "yerlesimler_anadolu_0914.js",
+    "isg": []
+   }
+  ]
+ }
+}
