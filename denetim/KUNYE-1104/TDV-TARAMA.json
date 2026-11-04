@@ -1528,6 +1528,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ARNAVUTLUK (/arnavutluk): \"İtalyanlar'ın 6 Nisan 1939'da ülkesini işgal etmelerinden bir gün önce yurt dışına kaçan Ahmed Zogu\" (işgal 6 Nisan 1939; atlas f=1939-04-12 şahsî birlik günü TDV'de yok, farklı olay tipi); \"1943'te ülkenin Almanya tarafından işgal edilmesi\" (yıl, ay yok; t=1943-09-08 günü teyitsiz); \"1939-1944 yılları arasında Arnavutluk İtalyanlar ve Almanlar tarafından idare edildi.\""
  },
  {
+  "id": "seki-hanligi",
+  "hukum": "TEYIT",
+  "veri_f": "1743-01-01",
+  "veri_t": "1819-01-01",
+  "bolge": "kafkasya",
+  "agirlik": 66,
+  "tdv_madde": "seki",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ŞEKİ (/seki, şehir-hanlık maddesi, Anar Azizov): \"1747’de Nâdir Şah’ın öldürülmesiyle 1743’te kurulan Şeki Hanlığı tamamen bağımsız hale geldi.\" ; \"Gülistan Antlaşması’yla (1813) Şeki Hanlığı, Rus İmparatorluğu sınırlarına katıldı. Ca‘fer Kulı Han’ın oğlu İsmâil Han’ın ölümünden (1819) sonra Ermolov, Şeki’yi ayrı bir eyalet olarak Rusya’ya ilhak etti.\" f=1743 ve t=1819 yıl düzeyinde uyuşuyor (1813 Rus sınırlarına katılma = vasallık/ara aşama, son sayılmaz; 1826-28 İran işgali TDV'de ayrıca geçer)."
+ },
+ {
   "id": "ingiliz-uganda-himayesi",
   "hukum": "KISMEN",
   "veri_f": "1894-06-18",
@@ -1882,6 +1892,16 @@
   "tdv_madde": "",
   "tdv_disi": true,
   "kaynak": "TARANMADI — KARAR (EMRELİC, 4 Kasım): TDV KAPSAMI DIŞI (Hindu/Budist Hint, Hristiyan Balkan/Kafkas, Afrika iç, bozkır öncesi, Germen, modern Avrupa) → akademik basamak; Cambridge kuyruğu"
+ },
+ {
+  "id": "guney-sudan-ozerk-bolge",
+  "hukum": "GIRISLI",
+  "veri_f": "1972-02-27",
+  "veri_t": "1983-06-05",
+  "bolge": "misir-sudan",
+  "agirlik": 11,
+  "tdv_madde": "sudan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: 'Güney Sudan' (başlık 0, içerik 225), 'Sudan' (SUDAN genel madde). SUDAN (/sudan): Addis Ababa Anlaşması (1972) ve özerk bölgenin 1983'te lağvı geçmiyor; yalnız \"1983’te sadece müslümanların yaşadığı bölgelerde uygulanan şer‘î kanunlar ülkenin her tarafı için geçerli kılındı. 1985’te kurulan Sudan Halk Kurtuluş Ordusu Hareketi bütün Güney Sudan’ı iç savaşa sürükledi.\" — TDV genel madde, 1972-02-27 / 1983-06-05 için dayanak yok."
  },
  {
   "id": "burundi-krallik",
@@ -2748,5 +2768,85 @@
   "tdv_madde": "uman; culenda-b-mesud",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UMAN (/uman): \"Hadramut İbâzî imâmetinin ortadan kalkmasının (131/748-49) ardından Umanlılar yaklaşık 132 (750) yılında benzer bir imâmeti bölgede tekrar kurdular ve Cülendâ b. Mes‘ûd’u imam seçtiler. ... Abbâsî ordusu Cülendâ b. Mes‘ûd’un imamlığına son verdi (134/751). Fakat Abbâsîler, Uman’da tam hâkimiyet kuramadı; zaman zaman kesintiye uğramakla birlikte bölge İbâzî imamları tarafından yönetilmeye devam etti.\" CÜLENDÂ b. MES‘ÛD (/culenda-b-mesud): \"imamlığa seçtiler (132/750)\", \"Hâzim ... 134 (751) yılında savaşı kazandı.\" f=750 teyitli (132/750, 'yaklaşık'). t=None: TDV I. imamlığın (Cülendâ) sonunu 134/751 verir, ama bölge İbâzî imamlarınca yönetilmeye devam eder (ikinci imamet 177/794 Nizvâ şûrası) — veri 'I. imamlık' etiketi ile t=None çelişiyor; DUZELT için polity sürekliliği belirsiz (beyan gerek). · KARAR (EMRELİC, 4 Kasım): t eklenir — künye kapsamı I. imamlık (Cülendâ b. Mes‘ûd); sonraki İbâzî imamlıkları ayrı künye konusu (SINIF-SUPHE). HESAP (LAB): TDV CÜLENDÂ b. MES‘ÛD '134 (751) yılında savaşı kazandı' → hicrî 134 = 30 Temmuz 751 – 18 Temmuz 752 (Jülyen; tablo-hicrî takvim, 1 Muharrem 134 = JD 1995570.5, Cuma); hicrî 134 ∩ mîlâdî 751 = 30 Temmuz – 31 Aralık 751 → kesişimin ilk günü 0751-07-30 (CLAUDE.md hicrî kuralı; 1582 öncesi Jülyen). ic_not: 'Son: Abbâsî ordusu Cülendâ b. Mes‘ûd'un imamlığına son verdi, 134/751 (TDV CÜLENDÂ b. MES‘ÛD; UMAN). Gün kaynakta yok: hicrî 134 ∩ 751 kesişiminin ilk günü (30 Temmuz 751, tablo takvim; gözlem takvimiyle ±1-2 gün) beyanlı yaklaşıklıktır.'",
   "t": "0751-07-30"
+ },
+ {
+  "id": "arap-cumhuriyetleri-federasyonu",
+  "hukum": "GIRISLI",
+  "veri_f": "1972-01-01",
+  "veri_t": "1977-11-19",
+  "bolge": "misir-sudan",
+  "agirlik": 0,
+  "tdv_madde": "libya; misir",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Arap Cumhuriyetleri Federasyonu maddesi yok (arama: başlık 0, içerik 29). LİBYA ve MISIR genel maddelerinde federasyon (1972-77) kuruluş/son tarihine dair cümle bulunamadı (taranan anahtar sözcükler: Federasyon, Arap Cumhuriyetleri, 1977; yalnız 'Kasım 1977’de İsrail’e gitmesi' vb. ilgisiz)."
+ },
+ {
+  "id": "kusan-sasani",
+  "hukum": "GIRISLI",
+  "veri_f": "0230-01-01",
+  "veri_t": "0360-01-01",
+  "bolge": "orta-asya",
+  "agirlik": 0,
+  "tdv_madde": "sasaniler",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Kuşano-Sasani/Kuşanşahlar maddesi yok (aramalar: 'Kuşan' başlık 1 = KILIÇ ALAYI alakasız, içerik 119; 'Kuşanlar' başlık 0). SÂSÂNÎLER (/sasaniler): \"I. Şâpûr doğuda Baktriya ve Kuşan’ı ele geçirdi\" — yıl yok; Erdeşîr 12 Nisan 240 / Şâpûr 242 tek başına hükümdar. f=230 / t=360 için TDV dayanağı yok."
+ },
+ {
+  "id": "cabo-juby-ispanyol",
+  "hukum": "GIRISLI",
+  "veri_f": "1912-11-27",
+  "veri_t": "1958-04-01",
+  "bolge": "kuzey-afrika",
+  "agirlik": 0,
+  "tdv_madde": "fas",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: 'Tarfaya' (0/0/0/0); FAS genel maddesinde (/fas) yalnız \"kıyıda Tarfâye ile el-Uyûn\" geçer, 1912/1958 İspanyol Cabo Juby bölgesine dair tarih yok (1912 yalnız Fransız himaye antlaşması: 30 Mart 1912). TDV dayanağı yok."
+ },
+ {
+  "id": "gilan-sovyet-cumhuriyeti",
+  "hukum": "KISMEN",
+  "veri_f": "1920-06-05",
+  "veri_t": "1921-11-01",
+  "bolge": "iran",
+  "agirlik": 0,
+  "tdv_madde": "cengeli; kucek-han-cengeli",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): CENGELÎ (/cengeli, Tahsin Yazıcı; hareket/devlet maddesi, 'Gîlân Cumhuriyeti' müstakil madde yok): \"4 Haziran 1920’de Sovyet ordusunun desteğiyle Reşt ve Enzelî’yi ele geçirdi ve Gîlân’da cumhuriyet ilân etti. 5 Haziran’da kendi başkanlığında geçici bir inkılâp hükümeti ve harp şûrası kuruldu.\" f=1920-06-05 gün gün uyuşuyor. t: \"Komünistler 4 Ağustos 1921’de Gîlân’da cumhuriyet ilân ettiler.\" ; \"İran hükümeti Ekim 1921’de Rızâ Han ... kumandasındaki İran Kazakları’nı Cengelîler’in üzerine Gîlân’a gönderdi ve onları tamamıyla yok etti. Kûçek Han ... yakalandı ... (1300 hş./1921).\" Veri t=1921-11-01; TDV Ekim 1921 (ay, gün yok) der — ay farkı, DUZELT için gün yok; iki rejim (Haziran 1920 cumhuriyeti / Ağustos 1921 komünist cumhuriyeti) ayrımı ic_not'ta beyan edilmeli."
+ },
+ {
+  "id": "transkaspi-hukumeti",
+  "hukum": "GIRISLI",
+  "veri_f": "1918-01-01",
+  "veri_t": null,
+  "bolge": "orta-asya",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: 'Transhazar' (0/0/0/0). Başka yazım (Transkaspiya, Aşkabat) denenmedi/yetersiz; TDV'de Transhazar Geçici Hükûmeti maddesi bulunamadı, 1918 için dayanak yok."
+ },
+ {
+  "id": "ukaydir",
+  "hukum": "KISMEN",
+  "veri_f": "0866-01-01",
+  "veri_t": null,
+  "bolge": "arabistan",
+  "agirlik": 0,
+  "tdv_madde": "yemame",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de 'Ukaydirîler/Ühaydırîler' müstakil maddesi yok (arama 'Ukaydir': içerik 1 = ÜKEYDİR b. ABDÜLMELİK, Dûmetülcendel hıristiyan hükümdarı, alakasız). YEMÂME (/yemame): \"Abbâsîler döneminde III. (IX.) yüzyılın ortalarından itibaren Yemâme, Hz. Ali’nin soyundan gelen Muhammed b. Yûsuf el-Ühaydır’ın hâkimiyetine girdi. ... Ühaydırîler’in hâkimiyeti döneminde ... IV. (X.) yüzyılda Yemâme Karmatîler’in eline geçti.\" f=866 'yüzyılın ortalarından' ile uyumlu ama yıl yok; t=None için TDV: IV. (X.) yüzyılda Karmatîler'e geçiş (kesin yıl yok) — veri t boş, TDV bir son işaret ediyor."
+ },
+ {
+  "id": "arap-birligi-irak-urdun",
+  "hukum": "GIRISLI",
+  "veri_f": "1958-02-14",
+  "veri_t": "1958-08-01",
+  "bolge": "arabistan",
+  "agirlik": 0,
+  "tdv_madde": "arap-birligi",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Irak-Ürdün Arap Birliği/Federasyonu (1958) maddesi yok. 'Arap Birliği' araması ARAP BİRLİĞİ (/arap-birligi) = 1945 Arap Devletleri Ligi'ni verir: \"Mısır, Suudi Arabistan, Irak, Ürdün, Suriye, Lübnan ve Yemen tarafından 1945’te kurulan birlik\" — FARKLI kuruluş (ad çakışması uyarısı: atlas kaydının adı Arap Ligi ile karışabilir). 1958-02-14 / 1958-08-01 için dayanak yok."
+ },
+ {
+  "id": "irak-sam-islam-devleti",
+  "hukum": "GIRISLI",
+  "veri_f": "2014-06-29",
+  "veri_t": "2019-03-23",
+  "bolge": "mezopotamya",
+  "agirlik": 0,
+  "tdv_madde": "islamcilik",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: 'Irak ve Şam İslam Devleti' (başlık 0, içerik 0), 'Deaş' (başlık 0, içerik 17 — alakasız maddeler), 'IŞİD' (başlık 0, içerik 1 = İSLÂMCILIK, yalnız geçen söz). TDV'de DEAŞ maddesi yok; 2014-06-29 / 2019-03-23 için dayanak yok."
  }
 ]
