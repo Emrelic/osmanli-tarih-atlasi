@@ -399,5 +399,405 @@
 "gerekce": "Azak 1711-07-21 (Prut ile iade) → 1739-09-18 (Belgrad) Osmanlı, Kırım tâbiliği ötesinde kale eksklavı (K288/K289). Borç: Ruslar Azak'ı 1736'da (Haziran) aldı; 1736-1739 kesiti yanlış.",
 "duzeltme": "Azak OSMANLI t → 1736-06 (kaynakla), 1736-1739 rusya.",
 "kaynak": "veri ölçümü"
+},
+"K351": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Lijiang 1382-03-16 → 04-07 Yuan sadıkları (Yunnan Basalawarmi idaresi kalıntısı, 'kuzey-yuan'), Moğolistan'daki Kuzey Yuan gövdesinden Ming toprağıyla ayrı: Ming'in Yunnan fethinin (Kunming Ocak 1382, Dali-Lijiang bahar 1382) son haftaları. Kısa gerçek an.",
+"duzeltme": "Yok; günler kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K352": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Volinya (Lutsk, Volodymyr) 1918-03-02 → 04-29 Ukrayna Halk Cumhuriyeti, gövdeden 'sovyet-rusya' boyasıyla ayrı (koridor 116 km 9/9). Brest-Litovsk sonrası (Mart 1918) Ukrayna Alman-Avusturya desteğiyle UHC'nin elindeydi; çevredeki Sovyet boyası ara dönem eksikliğinden (ENKLAV-1103 Ukrayna sol yaka kovası).",
+"duzeltme": "Volinya-Jitomir-Kiev noktaları 1918 UHC/Hetmanlık dönemleri (Encyclopedia of Ukraine).",
+"kaynak": "veri ölçümü"
+},
+"K353": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Volinya 1918-12-14 (Direktörlüğün Kiev'e girişi) → 1919-02-05 (Kiev'in düşüşü) UHC, 'sovyet-rusya' ile ayrı: Kiev-Jitomir hattı Direktörlükteyken Sovyet boyası K352 ile aynı eksik.",
+"duzeltme": "K352 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K354": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Volinya 1917-11-20 (III. Universal) → 1918-02-08 (Kiev'in Bolşeviklere düşüşü) UHC, 'sovyet-rusya' ile ayrı: K352 ile aynı eksik.",
+"duzeltme": "K352 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K355": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1876-09-13 → 1923 'paraguay-cumhuriyeti' Chaco parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta): noktasız emilme.",
+"duzeltme": "Emilme bölgesi ölçülsün; Chaco tanık noktaları.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K356": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Barbastro, Ainsa, Jaca 1938-04-04 → 1939-04-01 Cumhuriyet ('ispanya'), çevre milliyetçi. Bielsa cebi (43. Tümen, Nisan-Haziran 1938) gerçekti; ama Jaca Temmuz 1936'dan milliyetçiydi, Barbastro Mart 1938'de düştü ve parça 1939'a dek sürüyor.",
+"duzeltme": "Jaca 1936-07 ispanya-milliyetci; Barbastro t → 1938-03-27; Bielsa cebi 1938-06-16'ya dek (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K357": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Novgorod 1941-08-19 → 1944-01-20 Alman (günler uyumlu), Alman gövdesinden 279 km 'sovyet-rusya' ile ayrı. Novgorod Kuzey Ordular Grubu cephesinin içindeydi (Pskov, Luga, Staraya Russa işgalde); Kuzeybatı Rusya noktalarının işgal dönemleri eksik.",
+"duzeltme": "Pskov, Luga, Staraya Russa, Gdov 1941-1944 almanya dönemleri (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K358": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1915-07-09 → 1920-12-17 'guney-afrika-birligi' parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta): K328 ailesi.",
+"duzeltme": "K327 ile aynı.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K359": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "DENİZ AŞIRI: 1885 → 1916 'almanya' Kamerun iç parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta): noktasız emilme.",
+"duzeltme": "Emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K360": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kiğı ve Bayburt 1501-07 → 1502 Safevî, Tebriz gövdesinden Akkoyunlu toprağıyla ayrı (koridor 60 km 9/9): Şah İsmail'in Erzincan'dan başlayan 1500-1501 seferi sırasında doğuya kayan çekirdekle kuzeydoğu Anadolu payı ayrılmış olabilir. Düşük güven.",
+"duzeltme": "Kiğı, Bayburt 1500-1502 sahipliği kaynakla (TDV Safevîler, İsmail I).",
+"kaynak": "veri ölçümü"
+},
+"K361": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "San Felipe (Aconcagua) 1810-1818 'ispanya', çevre 'ispanyol-peru' (Şili): K263 ile aynı iki kimlik artefaktı.",
+"duzeltme": "K263 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K362": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Nha Trang 1775-02 → 1786-06 'le-hanedani', çevre Tây Sơn. Trịnh (Lê adına) Phú Xuân'ı 1775'te aldı ama Nha Trang Nguyễn/Tây Sơn çekişmesindeydi; Lê/Trịnh'in güneyde Nha Trang'a hükmü yok.",
+"duzeltme": "Nha Trang 1775-1786 sahibi (tay-son / nguyen) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K363": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Yuanjiang 1382-03-16 → 04-14 Yunnan Yuan sadıkları, K351 ile aynı çerçeve: Ming'in Yunnan fethinin son haftaları.",
+"duzeltme": "K351 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K364": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1939-03-14 → 1945-04-04 'slovakya-cumhuriyeti' parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta), çevre Macar naipliği: noktasız emilme.",
+"duzeltme": "Emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K365": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1938-11-02 (I. Viyana Hakemliği) → 1939-03-14 'cekoslovakya' parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta): K364 ile aynı bölge.",
+"duzeltme": "K364 ile aynı.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K366": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Panama Cumhuriyeti'nin Kanal Bölgesi içindeki şehir payı 1904-02-26 (Hay-Bunau-Varilla'nın onayı) → 1914, ana gövdeden ABD Kanal Bölgesi ile ayrı (koridor 88 km 7/9): Colón'un Kanal Bölgesi içinde Panama eksklavı olduğu bilinir. Not: Balboa Heights (Kanal idaresi) Panama'ya değil Kanal Bölgesi'ne ait olmalı — iç sahip sınanmalı.",
+"duzeltme": "Balboa Heights 1904 → panama-kanali-bolgesi (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K367": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Szatmár Habsburg kalesi 1682-09-16 → 1685-10-15, Habsburg gövdesinden Thököly'nin Osmanlı tâbisi Orta Macaristan krallığı (TABI) ve Osmanlı toprağıyla ayrı (koridor 198 km). Thököly 1682'de Osmanlı himayesinde 'Orta Macaristan kralı' oldu; 1685 Habsburg karşı saldırısı. İçteki 'Karpat havzası', 'Dacia' bölge noktaları sahipsiz.",
+"duzeltme": "Bölge noktaları kaldırılsın; Szatmár günleri kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K368": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1890 → 1915 'almanya' Güneybatı Afrika parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta): K327 ailesi (ayrıca 'almanya' ile 'alman-guneybati-afrikasi' iki kimlik).",
+"duzeltme": "K327 ile aynı.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K369": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bveranyange (Karagve) 1890-07-01 → 1901 'ingiltere', çevre Nkore. 1 Temmuz 1890 Helgoland-Zanzibar antlaşması Karagve'yi 1°G paralelinin güneyinde Alman Doğu Afrikası'na bıraktı; İngiliz yazımı yanlış (K307'nin koridorunu da üretiyor).",
+"duzeltme": "Bveranyange 1890-07-01 → 1916 alman-dogu-afrikasi (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K370": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "İslimye, Aydos, Preslav 1185 → 1187 Bulgar, Tırnova gövdesinden Bizans boyasıyla ayrı; içteki 7 noktanın 6'sı sahipsiz: K129/K297 ile aynı Trakya-Balkan noktasız kesiti.",
+"duzeltme": "K129 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K371": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Alsas (Strazburg, Colmar; 1677-1697 Freiburg) 1677 → 1766 Fransız, Fransa gövdesinden 1 km'lik İsviçre (Basel) şeridiyle ayrı: değme payı. Alsas Franche-Comté (Belfort) üzerinden Fransa'ya bitişikti; Lorraine dükalığı 1766'ya dek ayrıydı (bitiş uyumlu) ama bağlantıyı kesmiyordu.",
+"duzeltme": "Motor sorusu: < 1 km koridor DAR-AYRIM sayılsın (K180).",
+"kaynak": "veri ölçümü"
+},
+"K372": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Burgonya'nın Kuzey payı (Arras, Lille) Dijon gövdesinden Fransa ve İngiliz toprağıyla ayrı: K222'nin öncülü, gerçek iki blok. Borç: başlangıç 1369-06-19 (Cesur Philippe'in Marguerite ile evliliği); Flandre-Artois Burgonya'ya Louis de Male'in ölümüyle (30 Ocak 1384) geçti.",
+"duzeltme": "Arras, Lille burgonya f → 1384-01-30 (kaynakla), öncesi flandre.",
+"kaynak": "veri ölçümü"
+},
+"K373": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Bakü, Astara, Mahmudâbâd 1917-11-07 → 1920-04-27 'sovyet-rusya', çevre transkafkasya. K112/K177 ile aynı: 1918-1920 Azerbaycan Demokratik Cumhuriyeti ve Osmanlı/İngiliz dönemleri yok (Bakü Komünü Mart-Temmuz 1918 gerçekten Bolşevikti, beyanla).",
+"duzeltme": "K112 ile aynı; Bakü Komünü 1918-03 → 07-31 beyanlı.",
+"kaynak": "veri ölçümü"
+},
+"K374": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Goa 1510-11-25 (Albuquerque) → 1961-12-19 (Hint ilhakı) Portekiz: denizaşırı gerçek sömürge eksklavı; günler bilinenle uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K375": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Sambas 1827 → 1855 'hollanda-dogu-hint', çevre Pontianak (Hollanda tâbisi sultanlık) ve Sarawak. Tâbinin yabancı sayılması (K171 ailesi).",
+"duzeltme": "Motor sorusu; Pontianak v:.",
+"kaynak": "veri ölçümü"
+},
+"K376": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Silvan-Siirt-Batman Osmanlı payı 1514-09-06 → 1515-02-25, Çaldıran sonrası İdrîs-i Bitlisî'nin Kürt beylerini Osmanlı'ya bağlamasıyla; Diyarbekir 1515'te Safevî'den alındı — arada Safevî toprağı. Günler kaynakla.",
+"duzeltme": "Silvan, Siirt Osmanlı f günleri (TDV Diyarbekir, İdrîs-i Bitlisî).",
+"kaynak": "veri ölçümü"
+},
+"K377": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Cinci 1714 → 1750-09-11 (Fransız zaptı) 'babur', çevre Meysur. Cinci 1698'den Karnatik nevvabının idaresindeydi (nominal Bâbürlü); 'babur' ve 'karnatik' iki kimlik (K264 ile aynı aile).",
+"duzeltme": "Cinci 1714-1750 karnatik (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K378": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Cinci 1677-05 (Şivacî'nin zaptı) → 1698-01-08 (Bâbürlü zaptı) Maratha, Maharaştra gövdesinden Bîcâpur/Bâbürlü/Meysur toprağıyla ayrı: Racaram'ın Cinci'deki güney sığınağı — bilinen gerçek ayrıklık; günler uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K379": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Silistre, Tutrakan, Varna 1388 → 1393-06-17 'bulgar-carligi', çevre Osmanlı (koridor 17 km 9/9). Çandarlı Ali Paşa 1388'de Silistre-Şumnu hattını aldı; Varna Dobruca despotluğunun (İvanko) elindeydi. Tırnova çarlığına bağlı kopuk pay yazımı yanlış.",
+"duzeltme": "Silistre 1388 OSMANLI, Varna dobruca-despotlugu (kaynakla, TDV Silistre).",
+"kaynak": "veri ölçümü"
+},
+"K380": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Tartu (Dorpat) 1621-09-15 (Riga'nın İsveç'e düşüşü) → 1625 Lehistan, Litvanya gövdesinden İsveç Livonyası ile ayrı (koridor 61 km 9/9): Leh-İsveç savaşında gerçek ayrıklık (Dorpat Ağustos 1625'te düştü).",
+"duzeltme": "Tartu lehistan t → 1625-08 (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K381": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Zamość 1915-07 → 09 'almanya', çevre Avusturya-Macaristan (koridor 14 km): K259 ile aynı 1915 yaz taarruzu geri alma günleri hizasızlığı (Zamość Avusturya işgal bölgesindeydi).",
+"duzeltme": "K259 ile aynı; Zamość avusturya (Lublin genel valiliği).",
+"kaynak": "veri ölçümü"
+},
+"K382": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sivas-Zara-İmranlı 1402-07-28 → 1408-06 'timurlu', çevre Mutahharten. Timur 1404 Temmuz'unda Anadolu'dan ayrıldı (TDV Timur); Sivas bölgesi sonra yerel beylere/Mehmed Çelebi'ye geçti. 6 yıllık Timurlu dönemi yanlış.",
+"duzeltme": "Sivas timurlu t → 1404-07 (TDV Timur), sonrası kaynakla (Mehmed Çelebi / Kara Yülük).",
+"kaynak": "veri ölçümü; TDV Timur (KAYNAK-1104 K044)"
+},
+"K383": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Boston-Plymouth (Massachusetts) 1776-07-04 → 1783-09-03 ABD, ABD gövdesinden 10 km 'ingiltere' şeridiyle ayrı: ENKLAV-1103 K061/K066 ile aynı — Hartford, Providence, Portsmouth 1783'e dek 'ingiltere' yanlış (bu eyaletler 1776'dan ABD).",
+"duzeltme": "K061/K066 düzeltmesi (Connecticut, Rhode Island, New Hampshire 1776-07-04 abd).",
+"kaynak": "veri ölçümü; ENKLAV-1103 K061/K066"
+},
+"K384": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Franche-Comté (Besançon) 1516 → 1678-09-17 (Nijmegen) İspanyol Habsburg, İspanya'dan Fransa ile ayrı: bilinen gerçek ayrıklık; bitiş uyumlu. Not: Besançon 1664'e dek imparatorluk hür şehriydi.",
+"duzeltme": "Besançon 1516-1664 hür şehir beyanı (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K385": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1809-09-17 (Fredrikshamn) → 1917 'rusya' parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta), çevre Finlandiya Büyük Dükalığı: noktasız emilme (ayrıca Finlandiya Rus tâbisi — K171 ailesi).",
+"duzeltme": "Emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K386": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bombay ve Thane 1521 → 1740 Portekiz. Bombay 1661'de Catherine'in çeyizi olarak İngiltere'ye geçti (fiilen 1665); 1661-1740 Portekiz yazımı yanlış. Thane-Bassein 1739'da Marathalara düştü (bitiş uyumlu).",
+"duzeltme": "Bombay portekiz t → 1661/1665, sonra ingiltere (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K387": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Zaragoza 1013 → 1031 'endulus-emevi', çevre Albarracín. Fitne döneminde Zaragoza Tücîbî valileri altında fiilen bağımsızlaştı (1018 civarı tavaif); Endülüs Emevîlerine 1031'e dek bağlılık yazımı yanlış.",
+"duzeltme": "Zaragoza 1013/1018 → zaragoza-tavaif (kaynakla, TDV Tücîbîler).",
+"kaynak": "veri ölçümü"
+},
+"K388": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Çorum-Amasya-Merzifon 1256 → 1281 'ilhanli', çevre Selçuklu (6/9). Anadolu Selçukluları İlhanlı tâbisiydi; aynı coğrafyada tâbi ve metbû yan yana boyanınca kopukluk üretiliyor. İlhanlı doğrudan idaresi 1277 sonrası güçlendi.",
+"duzeltme": "Selçuklu 1256-1308 ilhanli v: (tâbi) beyanı; motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K389": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Gambiya 1816-04-23 (Bathurst) → 1965-02-18 (bağımsızlık) İngiliz kolonisi/himayesi, Fransız Senegal'i içinde: gerçek enklav; günler uyumlu. Not: parça içinde yerleşim noktası yok (bölge poligonundan) — Bathurst/Banjul noktası eklenmeli.",
+"duzeltme": "Banjul (Bathurst) noktası.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K390": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Çorum-Amasya 1243-07-01 (Kösedağ) → 1256 'mogol-imparatorlugu', çevre Selçuklu ve Trabzon: K388 ile aynı tâbi-metbû yan yana boyama.",
+"duzeltme": "K388 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K391": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Haliç 1919-07 → 1923-03-15 (Büyükelçiler Konferansı) Polonya, çevre 'itilaf-emaneti': K329 ile aynı çatı kimlik (Doğu Galiçya Müttefik yetkisiyle Polonya idaresindeydi).",
+"duzeltme": "K329 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K392": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Cinca 1901 'ingiltere', çevre 'ingiliz-uganda-himayesi': aynı İngiliz idaresinin iki kimliği; Uganda Doğu Eyaleti 1902-04-01'de Doğu Afrika Himayesi'ne devredildi.",
+"duzeltme": "Uganda noktaları tek kimlik.",
+"kaynak": "veri ölçümü"
+},
+"K393": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Quang Tri ve Vinh 1145 → 1149 'campa', çevre Angkor. Khmer 1145-1149'da Vijaya'yı işgal etti (bilinen); ama Vinh Đại Việt (Nghệ An) toprağıydı, Çampa değil.",
+"duzeltme": "Vinh 1145-1149 dai-viet (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K394": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Svaziland (Manzini, Lobamba) 1910 → 1968-09-06 'ingiltere', çevre 'ingiliz-svaziland' (3/9) ve Güney Afrika: aynı İngiliz yüksek komiserlik bölgesinin iki kimliği. Coğrafî ayrıklık (Güney Afrika-Mozambik arasında) gerçek, kopukluk kimlik ikiliğinden.",
+"duzeltme": "Svaziland noktaları tek kimlik (ingiliz-svaziland).",
+"kaynak": "veri ölçümü"
+},
+"K395": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Kurtuba 1031 → 1070 'endulus-tavaif' çatı kimliği (Tavâif-i mülûk): ayrı taifa devletleri tek kimlikte; Kurtuba Cehverîlerin idaresindeydi.",
+"duzeltme": "Tavaif çatı kimliği ayrı devletlere bölünsün ya da eksklav evreninden çıksın.",
+"kaynak": "veri ölçümü"
+},
+"K396": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Parma-Piacenza Papalık payı 1532 → 1545-08-16 (Farnese dükalığı), Papalık gövdesinden Ferrara (Este) ile ayrı: 1512-1545 Papalık ilhakının bilinen ayrıklığı. Not: Cremona Milano dükalığınındı; Papalık yazımı sınanmalı.",
+"duzeltme": "Cremona sahibi kontrol.",
+"kaynak": "veri ölçümü"
+},
+"K397": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Abdülkadir'in batı Vehran payı (Nedrûme, Sîdî Bel Abbès) 1841-05-30 → 1844-03-04, öteki payından Fransız ilerleyişiyle ayrı. TDV Abdülkādir: Bugeaud Tagdempt, Muasker, Tilimsân'ı işgal etti; 16 Mayıs 1843'te seyyar ordugâh basıldı — Emîr'in toprağının parçalandığı çerçeve teyitli.",
+"duzeltme": "Yok; günler kaynakla.",
+"kaynak": "TDV İslâm Ansiklopedisi, \"Abdülkādir el-Cezâirî\" (Ercüment Kuran), https://islamansiklopedisi.org.tr/abdulkadir-el-cezairi [kısmen]"
+},
+"K398": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Safranbolu-Eflani-Karabük 1281 → 1308 'selcuklu', çevre Bizans ve Ahiler. 13. yüzyıl sonunda Batı Karadeniz iç kesimi Çobanoğulları (Kastamonu) uç beyliğindeydi; Selçuklu doğrudan idaresi şüpheli.",
+"duzeltme": "Safranbolu 1281-1308 sahibi (cobanogullari) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K399": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Safranbolu 1308 → 1309 'ilhanli', çevre 'cobanogullari' (9/9). Kastamonu Çobanoğulları İlhanlı uç beyleriydi: tâbi ve metbû yan yana (K388 ailesi).",
+"duzeltme": "K388 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K400": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Gence 1406-10-21 → 1408-04-13 Karakoyunlu, Tebriz gövdesinden Timurlu (Mîrânşah/Ebû Bekir) toprağıyla ayrı (koridor 107 km 8/9). Kara Yûsuf 1406'da Tebriz'i aldı, Serdrûd (Nisan 1408) Mîrânşah'ı öldürdü (bitiş uyumlu). Gence'nin bu arada Karakoyunlu oluşu kaynakla.",
+"duzeltme": "Yok; Gence günleri kaynakla (TDV Karakoyunlular).",
+"kaynak": "veri ölçümü"
 }
 }
