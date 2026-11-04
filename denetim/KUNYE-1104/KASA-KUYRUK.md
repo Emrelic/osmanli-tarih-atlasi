@@ -67,6 +67,17 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | L2-2424 | `data/devletler.js#mikronezya-federe-devletleri#1` | 1987-05-11 | ection as the second President of the Federated States of Micronesia by the Fifth Congress of the FSM on May 12, 1987, succeeding the late President Tosiwo Nakayama. Not: 11 Mayıs yalnız Vikipedi görev listesinde; seçim günü ile görev başlangıcı ayrı olabilir. | oneri_L2L_1963-1974_dogrulama.tsv |
 | L2-2465 | `data/devletler.js#letonya-cumhuriyeti-yeniden#4` | 1998-09-04 | ted the radar station on 3 September to confirm that the radar has been turned off. Not: bildirinin tarihi 4 Eylül; doğrulama ziyareti 3 Eylül 1998. Önerilen yeni gün 1998-09-03. Hübschen (IFSH Yıllığı 1999) 3 Eylül'ü verdiği arama özetinden görüldü, açılmadı. | oneri_L2L_2011-2022_dogrulama.tsv |
 
+## KÜNYE-1105 paketi (Ternate/Tidore/Transkafkasya/Polonya/Trieste; ayrıntı `denetim/KUNYE-1105/PAKET.json`)
+
+| künye | hüküm | şimdi | önerilen / bekleyen | dayanak gücü |
+|---|---|---|---|---|
+| `transkafkasya` | **DUZELT** | f 1917-11-07 · t 1918-05-28 | f→1917-11-28 | ORTA |
+| `tidore-sultanligi` | **BEKLE** | f 1281-01-01 · t 1923-10-29 | t 1923-10-29 (UFUK artığı) → GENİŞLET; aday 1950 (üniter Endonezya'ya katılış), yıl hassasiyeti | ZAYIF |
+| `ternate-sultanligi` | **BEKLE** | f 1281-01-01 · t 1663-01-01 | t 1663-01-01 → GENİŞLET; aday 1950 (sultan sürgünü ve krallar meclisinin kaldırılışı; Scitepress 2018), yıl hassasiyeti | ZAYIF |
+| `polonya-naiplik-kralligi` | **BEKLE** | f 1916-11-05 · t 1918-11-11 | t 1918-11-11 → 1918-11-14 (Naiplik Konseyi siyasi yetkiyi Piłsudski'ye devretti ve dağıldı) | ORTA |
+| `polonya` | **BEKLE** | f 1918-11-11 · t 1939-10-06 | f 1918-11-11 KALIR mı (sembolik bağımsızlık günü) yoksa 1918-11-14 mü? Naiplik t 14.11 olursa 11–14 Kasım 3 gün çakışır | ORTA |
+| `triyeste-serbest-toprak` | **TEYIT** | f 1947-09-15 · t 1954-10-26 |  | ORTA |
+
 ## TAKVIM-1104 — Rus eski takvim (O.S. → Gregoryen) TARIH_DUZELT (LAB; ayrıntı `denetim/TAKVIM-1104/oneri_RUS_OS_*`)
 
 SINIR satırlarında kırılma ve kronoloji maddesi BİRLİKTE taşınır (Değişmez 2). 'çoklu satır (n)': aynı tarih dosyada n satırda geçiyor, hepsi birlikte.
