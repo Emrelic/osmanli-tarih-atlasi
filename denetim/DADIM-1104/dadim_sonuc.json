@@ -4475,10 +4475,9 @@
    "oneri": {
     "alan": "isg",
     "d": "ingiltere",
-    "f": "1839-01-01",
-    "t": "1841-01-01"
+    "not": "sahiplik değil; afganistan künyesi kesintisiz sürer"
    },
-   "not": "F8/fiilî-denetim: TDV \"işgal\" der ve Afgan bir kukla (Şücâülmülk, Sadozay) tahtta; yer İngiliz idaresine katılmadı, eski sahibin (Dost Muhammed) iddiası sürdü → isg: ingiltere olmalı, s: değil (karar KASA’da). YIL: f=1839 (gün kaynakta YOK; atlas 1839-08-07 başka kaynaktan). t: TDV \"1841’de Kâbil’den çekilen\" der, atlas 1842-01-06 — ÇELİŞKİ: TDV 1841 (çekilme başlangıcı Ocak 1842’de tarihlenir, kaynak yıl 1841 yazar). 1842: Pollock Kâbil’e girdi, şehri yıktı (Eylül-Ekim 1842, kaynakta ay yok). Dost Muhammed 1843 (\"Ertesi yıl iktidarı yeniden ele geçiren\")."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; fiilî denetim ilkesi): Kâbil 1839-42 ve 1879-80 İngiliz askerî işgali isg:'dir (Rodos/İstanbul ile aynı F8 kuralı), sahiplik değil. · F8/fiilî-denetim: TDV \"işgal\" der ve Afgan bir kukla (Şücâülmülk, Sadozay) tahtta; yer İngiliz idaresine katılmadı, eski sahibin (Dost Muhammed) iddiası sürdü → isg: ingiltere olmalı, s: değil (karar KASA’da). YIL: f=1839 (gün kaynakta YOK; atlas 1839-08-07 başka kaynaktan). t: TDV \"1841’de Kâbil’den çekilen\" der, atlas 1842-01-06 — ÇELİŞKİ: TDV 1841 (çekilme başlangıcı Ocak 1842’de tarihlenir, kaynak yıl 1841 yazar). 1842: Pollock Kâbil’e girdi, şehri yıktı (Eylül-Ekim 1842, kaynakta ay yok). Dost Muhammed 1843 (\"Ertesi yıl iktidarı yeniden ele geçiren\")."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:552",
@@ -4507,10 +4506,9 @@
    "oneri": {
     "alan": "isg",
     "d": "ingiltere",
-    "f": "1879-01-01",
-    "t": "1880-01-01"
+    "not": "sahiplik değil; afganistan künyesi kesintisiz sürer"
    },
-   "not": "F8/fiilî-denetim: 1879-80 Kâbil’de Afgan emiri (Yâkub, sonra Abdurrahman) İngiliz himayesinde; yer İngiliz idaresine katılmadı → isg: (veya tâbi v:) önerisi, karar KASA. YIL: 1879 (Yâkub tahta geçişi/ İngiliz heyeti öldürülmesi) ve 1880 (Abdurrahman). Gün kaynakta YOK. Bâlâhisar yıkıldı."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; fiilî denetim ilkesi): Kâbil 1839-42 ve 1879-80 İngiliz askerî işgali isg:'dir (Rodos/İstanbul ile aynı F8 kuralı), sahiplik değil. · F8/fiilî-denetim: 1879-80 Kâbil’de Afgan emiri (Yâkub, sonra Abdurrahman) İngiliz himayesinde; yer İngiliz idaresine katılmadı → isg: (veya tâbi v:) önerisi, karar KASA. YIL: 1879 (Yâkub tahta geçişi/ İngiliz heyeti öldürülmesi) ve 1880 (Abdurrahman). Gün kaynakta YOK. Bâlâhisar yıkıldı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:554",
@@ -4644,11 +4642,14 @@
    "d": "almanya",
    "f": "1871-01-18",
    "t": "1945-06-05",
-   "hukum": "KAYNAKLI",
-   "kaynak": "Treccani Enciclopedia on line, «Berlino» (https://www.treccani.it/enciclopedia/berlino/)",
+   "hukum": "ONERI",
+   "kaynak": "Treccani «Berlino» (Sovyet alışı 2 Mayıs 1945)",
    "alinti": "Divenuta nel 1871 capitale del Reich, nel 1883 fu separata amministrativamente dalla provincia del Brandeburgo.",
-   "oneri": {},
-   "not": "YIL f=1871 (gün Treccani Prussia: 18 Ocak 1871). t=1945-06-05 kaynakta YOK: Treccani Berlino \"battaglia (16 aprile-2 maggio 1945) ... la città fu presa dalle forze sovietiche; quattro zone di occupazione\". 5 Haziran 1945 (Berlin Bildirgesi) de jure günü Treccani Berlino’da YOK. FİİLÎ DENETİM: Sovyetlerin Berlin’i ele geçirişi 2 Mayıs 1945 (savaş bitişi) — F8 mi fiilî ilke mi KASA/koordinatör kararı; Müttefik 4 sektör idaresi kaynakta tarihsiz."
+   "oneri": {
+    "t": "1945-06-05 (KALIR)",
+    "isg": "sovyet-rusya 1945-05-02 → 1949-10-07 (EKLENMELİ)"
+   },
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026, düzeltilmiş — Değişmez 1 sahipsiz boşluk doğmasın): sahiplik hukukî süreklilik, fiilî denetim isg. almanya s: t = 1945-06-05 (Berlin Deklarasyonu) KALIR; isg sovyet-rusya 1945-05-02 (Sovyet alışı, Treccani «Berlino») → 1949-10-07 eklenmeli (bitiş: Sovyet bölgesinin DDR'ye devri; koordinatör 'devam, Sovyet bölgesi' dedi — uç KASA'da teyit). 1945-06-05 sonrası sahip ölçüldü: almanya-muttefik-isgali (künye 1945-06-05 → 1949-09-20) ZATEN Berlin zincirinde (1945-06-05 → 1949-10-07) — künye t 1949-09-20 < dönem t 1949-10-07: 17 günlük künye aşımı KASA'ya. Berlin noktası DDR zincirinde; berlin-bati künyesi (1948-12-07 → 1990-10-03) ayrı nokta ister."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1248",
@@ -4698,10 +4699,10 @@
    "kaynak": "Treccani Enciclopedia on line, «Belgio» (https://www.treccani.it/enciclopedia/belgio/) ; Treccani Enciclopedia on line, «Bruxelles» (https://www.treccani.it/enciclopedia/bruxelles/)",
    "alinti": "tra 1794 e 1815 fu occupata dai Francesi ... vittorie di Jemappes (1792) e di Fleurus (1794) segnarono ben presto l’annessione del paese alla Francia (confermata dai Trattati di Campoformio e di Lunéville)",
    "oneri": {
-    "f": "1794-01-01 (fiilî) / Campoformio günü (de jure)",
-    "t": "1814-02-02"
+    "isg": "fransa-cumhuriyet 1794 (ay: Brüksel Temmuz / Aachen Eylül; gün kaynak gerek) → ilhak günü",
+    "s_f": "1795-10-01 (KAYNAK GEREK — koordinatör bellekten: 9 Vendémiaire IV ilhak kararnamesi; teyit edilmezse yalnız yıl 1795)"
    },
-   "not": "KURAL KARARI (F8 de jure = antlaşma günü ↔ koordinatör fiilî denetim): Treccani Bruxelles Fransız işgalini 1794-1815 verir; Treccani Belgio ilhakı Fleurus (1794) sonrasına bağlar ve Campoformio/Lunéville antlaşmalarının \"doğruladığını\" söyler (günler Treccani’de YOK). Atlas 1795-10-01 (ilhak kararı) kaynakta YOK. İki seçenek: fiilî 1794 (YIL; Brüksel ele geçişi) ya da de jure Campoformio (Ekim 1797, kaynakta gün yok). Atlasın işgal/ilhak ayrımı: Fransa ilhak edip idaresine kattı (1795) → s: doğru, uç kararı KASA’da. t: Treccani \"1815\" der, atlas 1814-02-02 (Müttefik girişi); ÇELİŞKİ — Treccani’nin 1815 ucu Viyana/Waterloo dönemini kasteder olabilir, gün YOK."
+   "not": "KOORDİNATÖR KURALI (EMRELİC, 4 Kasım 2026 — tek kural): savaş işgali, ilhak/egemenlik devrine kadar isg; s: sahipliği hukukî ilhak/devir gününden başlar; ham işgal günü ic_not. İstisna: işgalci egemenliği açıkça devralırsa (Berlin Deklarasyonu 1945-06-05) sahiplik o gün. Treccani «Belgio»: Jemappes (1792) ve Fleurus (1794) 'segnarono ben presto l'annessione del paese alla Francia (confermata dai Trattati di Campoformio e di Lunéville)' — ilhak kararnamesinin günü bu maddede YOK. Önceki yazım (1794'ten s: sahiplik) bu kuralla geri alındı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:409",
@@ -4714,6 +4715,19 @@
    "alinti": "Si costituì un governo provvisorio che proclamò l’indipendenza ed emanò la nuova Costituzione (1831).",
    "oneri": {},
    "not": "KISMEN, YIL: Brüksel 25 Ağustos 1830’da devrim başladı (Treccani Bruxelles); geçici hükümet bağımsızlığı ilan etti (Treccani Belgio, gün YOK; atlas 4 Ekim 1830 başka kaynaktan). Londra Antlaşması (Treccani Belgio, tarih YOK) tanıma/hukukî statü: ic_not beyanı olarak yazılır, uç değişmez (fiilî denetim ilkesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:409",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "hukum": "ONERI",
+   "oneri": {
+    "isg": "fransa-cumhuriyet 1794 (ay: Brüksel Temmuz / Aachen Eylül; gün kaynak gerek) → ilhak günü",
+    "s_f": "1795-10-01 (KAYNAK GEREK — koordinatör bellekten: 9 Vendémiaire IV ilhak kararnamesi; teyit edilmezse yalnız yıl 1795)"
+   },
+   "kaynak": "Treccani «Bruxelles»: 'tra 1794 e 1815 fu occupata dai Francesi'",
+   "alinti": "tra 1794 e 1815 fu occupata dai Francesi",
+   "not": "KOORDİNATÖR KURALI (EMRELİC, 4 Kasım 2026 — tek kural): savaş işgali, ilhak/egemenlik devrine kadar isg; s: sahipliği hukukî ilhak/devir gününden başlar; ham işgal günü ic_not. İstisna: işgalci egemenliği açıkça devralırsa (Berlin Deklarasyonu 1945-06-05) sahiplik o gün. Treccani «Belgio»: Jemappes (1792) ve Fleurus (1794) 'segnarono ben presto l'annessione del paese alla Francia (confermata dai Trattati di Campoformio e di Lunéville)' — ilhak kararnamesinin günü bu maddede YOK. Önceki yazım (1794'ten s: sahiplik) bu kuralla geri alındı."
   }
  ],
  "Cenova": [
@@ -5046,6 +5060,19 @@
    "alinti": "formalizzato con l’unione politica del 3 ottobre successivo",
    "oneri": {},
    "not": "ÜLKE DÜZEYİ, GÜN düzeyi: Treccani 'assorbimento della RDT, formalizzato con l'unione politica del 3 ottobre (1990)'. t=2000-12-31 atlas ufku."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:439",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "hukum": "ONERI",
+   "oneri": {
+    "isg": "fransa-cumhuriyet 1794 (ay: Brüksel Temmuz / Aachen Eylül; gün kaynak gerek) → ilhak günü",
+    "s_f": "KAYNAK GEREK — aday: Campo Formio 1797-10-17 · 1798 département düzeni (Roer) · Lunéville 1801-02-09; hangisinin hukukî ilhak olduğunu akademik kaynak (Alman/Fransız) belirlemeli"
+   },
+   "kaynak": "Treccani «Aquisgrana»: 'Nel 1792 e dal 1794 al 1814 fu possesso francese'",
+   "alinti": "Nel 1792 e dal 1794 al 1814 fu possesso francese",
+   "not": "KOORDİNATÖR KURALI (EMRELİC, 4 Kasım 2026 — tek kural): savaş işgali, ilhak/egemenlik devrine kadar isg; s: sahipliği hukukî ilhak/devir gününden başlar; ham işgal günü ic_not. İstisna: işgalci egemenliği açıkça devralırsa (Berlin Deklarasyonu 1945-06-05) sahiplik o gün. Treccani «Aquisgrana»: 'Nel 1792 e dal 1794 al 1814 fu possesso francese'; Treccani «Renania» ilhak yılı vermiyor. Önceki yazım (1794'ten s: sahiplik) bu kuralla geri alındı."
   }
  ],
  "Bârfurûş (Bâbil)": [
@@ -5686,6 +5713,811 @@
    "alinti": "XIX. yüzyılda Kaçarlar’ın hâkimiyetinde Kazvin biri Trabzon, diğeri Hazar üzerinden",
    "oneri": {},
    "not": "KISMEN: yalnız 'XIX. yüzyıl Kaçar hâkimiyeti' (YIL YOK, sınırlar yok); f=1794 ve t=1925 kaynakta yok."
+  }
+ ],
+ "Urmiye": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "İlhanlılar devrinde ... Şehrin kalesi Gāzân Han zamanında (1295-1304) yenilendi",
+   "oneri": {},
+   "not": "Devlet ve dönem içi tanık (Gazan 1295-1304; Müstevfî 740/1340) var; 1281 ve 1340 uç günleri TDV'de yok, yıl düzeyi uç da verilmedi. Uçlar mevcut kayıtla (ilhanli künyesi) kalır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "İlhanlılar'ın ardından sırasıyla Çobanoğulları, Timurlular, Karakoyunlular, Akkoyunlular ve Safevîler",
+   "oneri": {
+    "d": "Çobanoğulları (künye id'si atlasta aranmalı)"
+   },
+   "not": "TDV sırası İlhanlı'dan sonra Çobanoğulları'nı sayar, Celâyirliler'i ANMAZ. Merâga maddesi ise sırayı Celâyirliler, Timurlular... diye yazar (iki TDV maddesi farklı sıra veriyor; hangisinin doğru olduğuna karar verilmedi, ÇİFT-TDV: Urmiye için kendi şehir maddesi esas). Tarih yok. Bağımsız kaynak (Iranica/EI) bulunamadı: iranicaonline URL'leri 404 verdi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "Çobanoğulları, Timurlular, Karakoyunlular, Akkoyunlular ve Safevîler'in hâkimiyetine giren Urmiye",
+   "oneri": {},
+   "not": "Devlet ve sıra teyit; uç yılı kaynakta yok. Karakoyunlu başlangıcı mevcut kayıtta zaten beyanlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "Karakoyunlular, Akkoyunlular ve Safevîler'in hâkimiyetine giren Urmiye",
+   "oneri": {},
+   "not": "Devlet ve sıra teyit; uç yılı TDV Urmiye'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "Şah I. Abbas tarafından yeniden Safevî Devleti'ne bağlandı",
+   "oneri": {},
+   "not": "Safevî hâkimiyeti teyit; 1501 ve 1736 uç yılları TDV Urmiye'de yok. Bu dönemin içine giren Osmanlı 1585-1603 ve 1724-1730 dönemleri TDV'de anılıyor (aşağıya bk.)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1585-09-25",
+   "t": "1603-10-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "XVI. yüzyılın sonlarında kısa bir süre Osmanlı egemenliğine geçtiyse de Şah I. Abbas",
+   "oneri": {},
+   "not": "Osmanlı dönemi var (yüzyıl-sonu hassasiyeti); yıl ve gün YOK (yıl yazılmadı). 1585 ve 1603 uçları teyitsiz; bkz. TDV Merâga 993 (1585) komşu tanığı, Urmiye için değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "Nâdir Şah 1157'de (1744) Feth Ali Han Afşar'ı şehre vali tayin etti",
+   "oneri": {
+    "t": "1760"
+   },
+   "not": "Afşar yönetimi 1744'te teyit. Ama TDV: 1174'te (1760) Urmiye 7 ay süren kuşatmayla Kerim Han Zend tarafından alındı; atlas Zend'i 1747-06-20'de başlatıyor. 1747-1760 arasında Urmiye'yi yöneten TDV'ye göre yerel Afşar valileri (Feth Ali Han Afşar), Afsar devleti değil. YIL düzeyi; gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "1174'te (1760) Urmiye yedi ay süren bir kuşatma sonunda Kerim Han Zend tarafından ele geçirildi",
+   "oneri": {
+    "f": "1760"
+   },
+   "not": "YIL düzeyi: Zend başlangıcı 1760 (gün yok). Bitiş: TDV 'Bölge kısa süre sonra Kaçar hâkimiyetine girdi' diyor, yıl vermiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1318",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Urmiye», https://islamansiklopedisi.org.tr/urmiye",
+   "alinti": "Urmiye 1906 yılında Osmanlılar'ın ve 1911'de Ruslar'ın eline geçti",
+   "oneri": {
+    "isg": "osmanli 1906 (YIL) ; rusya 1911 (YIL) ; I. Dünya Savaşı'nda el değiştirme (günler yok) ; Osmanlı Aralık 1918'de çekildi (AY) — İran'a nihaî bağlanma"
+   },
+   "not": "Kaçar başlangıcı 1794: TDV yalnız 'kısa süre sonra' diyor, yıl yok (BULUNAMADI). TDV Urmiye isg katmanı bilgisi veriyor: isg: osmanli 1906(YIL), isg: rusya 1911(YIL), Aralık 1918'de Osmanlı ayrıldı (AY). İşgal sahiplik değildir; İran iddiası sürdü: Kaçar/İran dönemi bu katmanlarla kesintiye uğratılmamalı, isg: olarak eklenmeli. Gün çevirisi yapılmadı."
+  }
+ ],
+ "Sultâniye": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2040",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1305-01-01",
+   "t": "1340-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi: Sultâniye için şehir maddesi YOK (tdv-ara 'sultaniye' = el-Ahkâmü's-sultâniyye; 'sultaniyye' = Memlük ordusu maddesi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arama özetinde (arama/sultaniye-zencan; TEYİT DEĞİL) Hillî maddesinde 'İlhanlılar'ın merkezi Sultâniye', 705 (1305) geldi ifadesi görüldü; madde sayfası açılıp okunmadı. Encyclopaedia Iranica 'soltaniya' URL'leri 404. Bu parti bütçesi içinde yerleşime özgü tanıklık bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2040",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'sultaniye' / Iranica",
+   "alinti": "",
+   "oneri": {},
+   "not": "Sultâniye şehir maddesi TDV'de yok; Iranica sayfası açılamadı (404). Bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2040",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'sultaniye' / Iranica",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aynı: kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2040",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'sultaniye' / Iranica",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aynı: kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2040",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'sultaniye' / Iranica",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aynı: kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2040",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'sultaniye' / Iranica",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aynı: kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2040",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'sultaniye' / Iranica",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aynı: kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2040",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'sultaniye' / Iranica",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aynı: kaynak bulunamadı. Not: bu zincir Urmiye zincirinin kopyasıdır (Urmiye'de Zend 1760, Kaçar tarihsiz)."
+  }
+ ],
+ "Kudüs": [
+  {
+   "dosya_satir": "data/yerlesimler.js:882",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1260-09-03",
+   "t": "1516-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kudüs», https://islamansiklopedisi.org.tr/kudus (Memlükler Dönemi, Cengiz Tomar)",
+   "alinti": "Aynicâlût zaferiyle (1260) Eyyûbî hânedanı da sona erdi ve şehir daha istikrarlı bir yönetime kavuştu",
+   "oneri": {},
+   "not": "Başlangıç YIL (1260): gün (09-03) TDV Kudüs'te yok. Bitiş 1516 (Osmanlı) mevcut kayıtla. 1260-1516 arası Memlük yönetimi tanıkları: 'Kudüs Memlük idaresinin ilk yıllarında ... Gazze veya Dımaşk nâibinin tayin ettiği valiler', 777'de (1375) nâiblik."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:883",
+   "alan": "v",
+   "d": null,
+   "f": "1831-11-08",
+   "t": "1841-02-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kudüs», https://islamansiklopedisi.org.tr/kudus (Osmanlı Dönemi ve Sonrası)",
+   "alinti": "Mısır Valisi Mehmed Ali Paşa yönetimi döneminde (1831-1840) ... Aralık 1840'ta Kudüs tekrar Osmanlı yönetimine girdi",
+   "oneri": {
+    "f": "1831 (YIL)",
+    "t": "1840-12 (AY; gün yok)"
+   },
+   "not": "Bitiş 1841-02-25 kaynakla çelişiyor: TDV Aralık 1840 diyor (yaklaşık 2-3 ay erken). Başlangıç için TDV yalnız yıl (1831). Atlasın 1841-02-25 ucu başka bir olaya (ferman?) bağlıysa ic_not ile beyan edilmeli; TDV Kudüs'te gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:882",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1917-12-09",
+   "t": "1920-07-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kudüs», https://islamansiklopedisi.org.tr/kudus",
+   "alinti": "11 Aralık'ta da İngiliz askerleri Kudüs'e girdi. Kudüs 1917-1920 yılları arasında İngiliz askerî yönetiminde kaldı",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1917-12-09 (TDV: askerler 12-11 girdi; teslim 12-09)",
+    "t": "1920-07-01 (manda / sivil idare) — s: sahipliği hukukî devirden"
+   },
+   "not": "TEK KURAL (koordinatör, 4 Kasım): 1917-1920 İngiliz askerî yönetimi isg; s: sahiplik hukukî devirden (San Remo 1920-04-25 / manda sivil idaresi 1920-07-01 / Lozan 1923 — hangisinin devir olduğu KASA/Emre). · KURAL KARARI: TDV 'İngiliz işgali', 'askerî yönetim' diyor; F8'e göre de jure devir antlaşma günündedir (1917-1920 askerî yönetim = işgal katmanı olabilir, isg: ingiltere). Alan s mi isg mi kararı Emre/KASA'nın. Bitiş: TDV 1920 San Remo, yıl düzeyi (gün yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:882",
+   "alan": "s",
+   "d": "filistin-mandasi",
+   "f": "1920-07-01",
+   "t": "1948-05-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kudüs», https://islamansiklopedisi.org.tr/kudus",
+   "alinti": "1920 San Remo Konferansı'nda İngiltere'nin manda yönetimine verilmesiyle ... İngiliz sivil yönetimi göreve geldi",
+   "oneri": {},
+   "not": "YIL düzeyi: başlangıç 1920 (gün yok; atlas 1920-07-01 TDV'de yok), bitiş 'İsrail Devleti'nin kuruluşuna kadar' = 1948. San Remo gününü TDV vermiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:882",
+   "alan": "s",
+   "d": "israil-devleti",
+   "f": "1948-05-14",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kudüs», https://islamansiklopedisi.org.tr/kudus",
+   "alinti": "1948 Arap-İsrail savaşında İsrail Batı Kudüs'ü işgal etti. Ürdün ise eski şehri ele geçirdi",
+   "oneri": {
+    "d": "Eski Şehir (yerleşim noktası 31.777,35.234) için: ürdün 1948 (YIL) → 1967 (YIL); sonra israil-devleti 1967 (YIL). Batı Kudüs israil-devleti 1948'den"
+   },
+   "not": "Mevcut kayıt tüm şehri 1948-05-14'ten İsrail'e veriyor; TDV: Eski Şehir/Doğu Kudüs 1948-1967 Ürdün'de, 1967 savaşında şehrin tamamını İsrail işgal etti. Yerleşim noktası Eski Şehir'e düşüyorsa Ürdün dönemi eksik. Günler TDV'de yok, YIL düzeyi. İlan 1980-08-21 (TDV) hukukî sınır değiştirmez."
+  }
+ ],
+ "Kaifeng": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1921",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1260-01-01",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Song Lian vd., Yuan shi, zh.wikisource.org/wiki/元史/059 «Dili zhi er», 汴梁路",
+   "alinti": "金亡，歸附 ... 至元二十五年，改南京路為汴梁路",
+   "oneri": {},
+   "not": "Yuan shi 59 Kaifeng'in Jin'in yıkılışından (1234) sonra Moğol/Yuan idaresine girdiğini ve 至元八年/九年 (1271/72) idarî düzenlemelerini anlatır; 1260-1271 arasında kime ait olduğu (Moğol Çin kolu) ayrıca yazılı değil. Boşluk beyanı korunur."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1922",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "ONERI",
+   "kaynak": "Song Lian vd., Yuan shi, zh.wikisource.org/wiki/元史/059 «Dili zhi er» 汴梁路 (okundu); Ming shi 2 洪武元年三月 (okundu)",
+   "alinti": "三月己亥，徐達徇汴梁，左君弼降 (Ming shi 2)",
+   "oneri": {
+    "t": "1368-04-16 (Jülyen; 洪武元年三月己亥 gün adından JDN hesabıyla; annal kayıt günü)",
+    "d": "ming-hanedani"
+   },
+   "not": "Yuan idaresi Yuan shi 59'da teyit (汴梁路 1288, 至元二十五年), uç yıl düzeyi. Ming'e geçiş atlasta 1368-04-01 (yüksek olasılıkla ay-başı yaklaşıklığı); Ming shi 2: Xu Da Kaifeng'i 洪武元年 3. ayda aldı = 1368-04-16 Jülyen (gün adından çevrildi; 'rapor günü'dür, askerî fetih günü olmayabilir); 辛卯 = 1368-06-07: 'Bianliang lu Kaifeng fu oldu'. Ayrıca Ming shi 1: 至正十八年五月 劉福通破汴梁，迎韓林兒都之 (Mayıs 1358 civarı; ay düzeyi); 至正十九年秋八月 察罕帖木兒復汴梁 (Ağustos 1359 civarı) — 1358-1359 arası Kaifeng Song (Han Lin'er) rejiminde: atlasta eksik, künye aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1923",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-04-01",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "Zhang Tingyu vd., Ming shi, zh.wikisource.org/wiki/明史/2 (Taizu ji er) 洪武元年三月己亥, 五月辛卯 (okundu)",
+   "alinti": "徐達徇汴梁 ... 辛卯，改汴梁路為開封府",
+   "oneri": {
+    "f": "1368-04-16 (Jülyen)"
+   },
+   "not": "DEVRALMA yerine yerleşime özgü tanık: Ming shi 2 (Ming kontrolü 洪武元年 3. ay, 辛卯 5. ay Kaifeng fu). Bitiş 1644-04-25 teyitsiz (1642 Sarı Nehir sel/Kaifeng kuşatması bu partide okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1924",
+   "alan": "s",
+   "d": "dashun",
+   "f": "1644-04-25",
+   "t": "1645-01-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Qing shi gao 4 (okundu, Kaifeng için tanık yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kaifeng'in 1644-45'te Dashun elinde olduğuna dair yerleşime özgü tanık bulunamadı; Qing shi gao 4 'Kaifeng' yalnız 順治 yıllarında vergi muafiyeti geçiyor. DEVRALMA olay kaynağı korunur."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1925",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1645-01-18",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Qing shi gao 4 (okundu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kaifeng'in Qing'e geçiş günü okunan sayfada yok. Bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1926",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "bu parti taranmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "1912-1949 Kaifeng için yerleşime özgü kaynak bu partide okunmadı (bütçe)."
+  }
+ ],
+ "Lin'an (Jianshui)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:112",
+   "alan": "",
+   "d": null,
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "hedef dönem yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "Partideki Lin'an dönemlerinin hepsinin `mevcut_kaynak` alanı dolu (boş ya da DEVRALMA yok). Kısa kaynaklı dönemler (IBS 42, 清史稿 卷6, 'gün komşudan: Kunming') baştan doğrulanmadı (brif: kaynaklı dönem doğrulanmaz)."
+  }
+ ],
+ "Hangzhou": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2032",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "Zhang Tingyu vd., Ming shi, zh.wikisource.org/wiki/明史/1 (Taizu ji yi) 至正二十六年十一月 (okundu)",
+   "alinti": "李文忠下餘杭，潘原明降，旁郡悉下",
+   "oneri": {
+    "f": "1366-12-15 (Jülyen; 十一月辛卯 gün adından JDN hesabı; annal kayıt günü)",
+    "d": "ming-hanedani (öncül Zhu Yuanzhang rejimi 吳, künye ayrı aranmalı)"
+   },
+   "not": "Ming shi 1: Zhang Shicheng'in Hangzhou komutanı Pan Yuanming, Zhu Yuanzhang tarafı Li Wenzhong'a teslim oldu (至正二十六年 11. ay, 辛卯). Atlas Yuan'ı 1368-01-23'e kadar sürdürüyor, oysa Hangzhou ondan önce Zhang Shicheng (Wu), sonra Zhu Yuanzhang'daydı. Yuan→Zhang Shicheng geçişi bu partide okunmadı. Bitiş 1644-04-25 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2033",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1645-07-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/4 (Shizu ji yi), 順治二年 (okundu)",
+   "alinti": "多鐸遣貝勒博洛趣杭州，故明潞王出降",
+   "oneri": {},
+   "not": "Bitiş: Qing shi gao 4: Boolo Hangzhou'ya yürüdü, Ming Lu prensi teslim oldu (順治二年 7. aydan önce, yani 閏六月; gün çevrilmedi; atlas 1645-07-06 Gregoryen). Başlangıç 1644-04-25 teyitsiz (Güney Ming 1644-06 ilanı bu kaynakta yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2034",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1645-07-06",
+   "t": "1861-12-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/4 ve 21 (okundu)",
+   "alinti": "兩淮粵匪陷杭州，瑞昌、王有齡死之",
+   "oneri": {},
+   "not": "Başlangıç: Qing shi gao 4 (順治二年). Bitiş: 卷21 同治 başı: Taiping Hangzhou'yu aldı (kayıt günü 丁丑 = 1862-01-23 Gregoryen, JDN hesabı; atlas 1861-12-29 fetih günü bu kaynakta yok, çelişmez). Ara olay: 卷20 咸豐十年三月丙子 賊陷杭州, 六日 sonra Ruichang geri aldı (Mart 1860, ~6 gün, atlasta yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2035",
+   "alan": "s",
+   "d": "taiping",
+   "f": "1861-12-29",
+   "t": "1864-03-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/21 (Muzong ji yi), 同治元年-三年 (okundu)",
+   "alinti": "蔣益澧各軍克復杭州及餘杭",
+   "oneri": {},
+   "not": "Başlangıç: bkz. önceki satır (kayıt günü 1862-01-23). Bitiş: 同治三年三月壬子 = 1864-04-17 (JDN hesabı; kayıt/rapor günü); atlas 1864-03-31 fetih günü bu kaynakta yok, çelişmez. Gün için başka kaynak gerekir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2036",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1864-03-31",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/21 (okundu)",
+   "alinti": "蔣益澧各軍克復杭州及餘杭",
+   "oneri": {},
+   "not": "Başlangıç YIL 1864 teyitli (kayıt günü 1864-04-17). Bitiş 1912 mevcut ferman kaynağı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2037",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "bu parti taranmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "1912-1949 Hangzhou'ya özgü kaynak bu partide okunmadı; DEVRALMA kaynağı (Qing ferman metni) olay kaynağıdır."
+  }
+ ],
+ "Changsha": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2139",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-01-23",
+   "hukum": "ONERI",
+   "kaynak": "Zhang Tingyu vd., Ming shi, zh.wikisource.org/wiki/明史/44 (Dili zhi wu) «Changsha fu» (okundu)",
+   "alinti": "長沙府元天臨路，屬湖南道宣慰司。太祖甲辰年爲潭州府",
+   "oneri": {
+    "t": "1364 (YIL; 甲辰年)",
+    "d": "ming-hanedani (öncül Zhu Yuanzhang rejimi 吳)"
+   },
+   "not": "Ming shi 44: Changsha Yuan döneminde Tianlin lu (Yuan idaresi teyit, yıl düzeyi); 甲辰年 (1364) Taizu (Zhu Yuanzhang) tarafından Tanzhou fu yapıldı, yani Changsha 1364'ten beri Zhu rejiminde. Atlas Yuan'ı 1368-01-23'e uzatıyor. 1360-1363 Chen Youliang (Han) arası bu partide okunmadı. Yuan shi 59 sayfasında 天臨路 bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2140",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "Zhang Tingyu vd., Ming shi, zh.wikisource.org/wiki/明史/44 (okundu)",
+   "alinti": "太祖甲辰年爲潭州府。洪武五年六月更名長沙",
+   "oneri": {
+    "f": "1364 (YIL)"
+   },
+   "not": "Ming rejimi idaresi 1364'ten (YIL); resmî ad Changsha 1372-06 (洪武五年六月, ay düzeyi). Bitiş 1644-04-25 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2141",
+   "alan": "s",
+   "d": "guney-ming",
+   "f": "1644-04-25",
+   "t": "1647-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/4 (Shizu ji yi), 順治三年十二月 (okundu)",
+   "alinti": "丙戌，大軍自岳州收長沙，故明總督何騰蛟等先期遁",
+   "oneri": {
+    "t": "1647-01-19 (Gregoryen; 丙戌 gün adından JDN hesabı; annal kayıt günü)"
+   },
+   "not": "Qing'in Changsha'yı alışı 順治三年 12. ay (kayıt günü 1647-01-19); atlas 1647-01-01. Başlangıç 1644-04-25 teyitsiz: 1644-46 arası Changsha (Zhang Xianzhong/Li Zicheng/He Tengjiao) bu partide okunmadı. Not: 順治三年四月己卯 'Gao Shijun Changsha'yı aldı' kaydı da var (muhtemelen farklı bir Changsha; doğrulanmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2142",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1647-01-01",
+   "t": "1673-12-28",
+   "hukum": "ONERI",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/4 ve 6 (Shengzu ji yi), 康熙十三年 (okundu)",
+   "alinti": "吳三桂陷長沙，副將黃正卿叛應之",
+   "oneri": {
+    "f": "1647-01-19",
+    "t": "1674-03-26 (Gregoryen; 康熙十三年二月甲寅; annal kayıt günü) — alternatif Qing valisinin kaçışı 十三年正月丁亥 = 1674-02-27"
+   },
+   "not": "Qing 1647 başlangıcı yukarıdaki kayıttan. San Fan'a geçiş atlasta 1673-12-28 (ayaklanmanın başladığı gün), oysa Qing valisi Lu Zhen Changsha'yı 康熙十三年 1. ay 丁亥'de terk etti (1674-02-27), Wu Sangui 2. ay 甲寅'de aldı (1674-03-26). Fiilî denetim ilkesi: uç ya 1674-02-27 (Qing çekildi) ya 03-26 (Wu 'aldı'); KASA/koordinatör seçsin."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2143",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1679-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/6 (Shengzu ji yi) 康熙十三年, 十八年 (okundu)",
+   "alinti": "甲子，岳樂復長沙",
+   "oneri": {
+    "f": "1674-03-26 (alt. 1674-02-27)",
+    "t": "1679-03-10 (Gregoryen; 康熙十八年正月甲子; annal kayıt günü)"
+   },
+   "not": "Bitiş: Qing shi gao 6: 康熙十八年 1. ay 甲子, Yuele Changsha'yı geri aldı = 1679-03-10 (JDN hesabı). Atlas 1679-01-01 (yıl). Başlangıç yukarıda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2144",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1679-01-01",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/6 (okundu)",
+   "alinti": "甲子，岳樂復長沙",
+   "oneri": {
+    "f": "1679-03-10"
+   },
+   "not": "Qing'in dönüşü kayıt günü 1679-03-10 (atlas 1679-01-01 yıl). Bitiş 1912-02-12 DEVRALMA ferman metni olay kaynağıdır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2145",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "bu parti taranmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yerleşime özgü 1912-1949 kaynağı bu partide okunmadı."
+  }
+ ],
+ "Xianyang": [
+  {
+   "dosya_satir": "",
+   "alan": "",
+   "d": null,
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "hedef dönem yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "Partide Xianyang'ın `donemler` listesi BOŞ (0 dönem). Atlasta sahiplik zinciri tanımlı değil; teyit edilecek dönem yok. (Kaynak taraması da yapılmadı.)"
+  }
+ ],
+ "Haojing (Fenghao, Xi'an yakını)": [
+  {
+   "dosya_satir": "",
+   "alan": "",
+   "d": null,
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "hedef dönem yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "Partide `donemler` listesi BOŞ (0 dönem). Teyit edilecek dönem yok."
+  }
+ ],
+ "Bagram": [
+  {
+   "dosya_satir": "",
+   "alan": "",
+   "d": null,
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "hedef dönem yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "Partide `donemler` listesi BOŞ (0 dönem). Teyit edilecek dönem yok."
+  }
+ ],
+ "Peşâver": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:526",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1504-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Peşâver», https://islamansiklopedisi.org.tr/pesaver ; Imperial Gazetteer of India vol. XX (1908), «Peshawar District», archive.org imperialgazettee20grea",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Peşâver ve IG Peshawar District metninde Delhi Sultanlığı Peşâver ile ilişkilendirilmiyor (okunan metinde yok). Bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:527",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1504-10-01",
+   "t": "1738-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India vol. XX (1908), «Peshawar District», archive.org imperialgazettee20grea",
+   "alinti": "Peshawar was included in the Mughal empire during the reigns of Akbar, Jahangir, and Shah Jahan",
+   "oneri": {},
+   "not": "Babürlü hâkimiyeti Akbar-Şah Cihan döneminde teyit; Babür başlangıcı (1504-10-01) ve 1738 öncesi bitiş tarihi yok. IG: 'under Aurangzeb a national insurrection was successful in freeing the Afghan tribes from the Mughal supremacy' (tarih yok) — dönem sürekli görünmüyor olabilir, gün/yıl yazılamadı. TDV: 'Bâbürlüler'le Safevîler'in hâkimiyet mücadelesine sahne oldu' (tarih yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:528",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1738-01-01",
+   "t": "1747-06-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Peşâver», https://islamansiklopedisi.org.tr/pesaver ; Imperial Gazetteer of India vol. XX (1908), «Peshawar District», archive.org imperialgazettee20grea",
+   "alinti": "1738'de İran'da Avşarlı hânedanının kurucusu Nâdir Şah'ın eline geçti",
+   "oneri": {},
+   "not": "Başlangıç YIL 1738, ÇİFT TEYİT (TDV Peşâver + IG 'In 1738 the District fell into the hands of Nadir Shah'). Bitiş 1747 bu kaynaklarda yıl olarak yok (IG: 'under his successors ... seat of the Durrani court')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:529",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1747-06-20",
+   "t": "1834-05-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India vol. XX (1908), «Peshawar District», archive.org imperialgazettee20grea",
+   "alinti": "Peshawar was often the seat of the Durrani court ... reoccupied in 1834 by the Sikhs",
+   "oneri": {},
+   "not": "Bitiş YIL 1834 (IG + TDV). Başlangıç yıl olarak yok. Fiilî denetim notu: IG 1818'de Sihlerin vadiye ilerlediğini, 1823'te Ranjit Singh'in Azim Han'ı yendiğini ama 'Sikhs did not take actual possession ... exaction of a tribute' dediğini yazar; fiilî denetim 1834'te Sih'e geçer (atlas ucu uyumlu). 1823-1834 Sih haraçlı tâbiyeti `v:` katmanı olarak ic_not'a yazılabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:530",
+   "alan": "s",
+   "d": "sih-imparatorlugu",
+   "f": "1834-05-06",
+   "t": "1849-03-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Peşâver», https://islamansiklopedisi.org.tr/pesaver ; Imperial Gazetteer of India vol. XX (1908), «Peshawar District», archive.org imperialgazettee20grea",
+   "alinti": "1834'te şehre hâkim olan Sihler ... 1849'da Sih yönetiminin sona ermesiyle İngilizler ilhak ettiler",
+   "oneri": {},
+   "not": "Başlangıç YIL 1834 çift teyit (TDV, IG 'reoccupied in 1834 by the Sikhs', General Avitabile). Bitiş: TDV 1849; IG 'In 1848 the Peshawar valley came into the possession of the British' (1848 fiilî iltihak?). Tarih çelişkisinde TDV esas: 1849 (YIL), IG'nin 1848'i not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:531",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1849-03-29",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Peşâver», https://islamansiklopedisi.org.tr/pesaver",
+   "alinti": "1849'da Sih yönetiminin sona ermesiyle İngilizler'in ilhak ettikleri ... Peşâver",
+   "oneri": {},
+   "not": "Başlangıç YIL 1849 (gün TDV'de yok); IG 1848 işgal. Bitiş Pakistan 1947 mevcut kaynağıyla; TDV metni 'Pakistan Devleti kur...' cümlesi okundu, gün yok."
+  }
+ ],
+ "Merâga": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "İlhanlılar'ın yıkılmasının ardından Merâga sırasıyla Celâyirliler, Timurlular, Karakoyunlular, Akkoyunlular ve Safevîler",
+   "oneri": {},
+   "not": "Devlet ve sıra teyit; uç yılı yok. (Urmiye maddesi sırayı Çobanoğulları, Timurlular ... diye veriyor: iki TDV maddesi sıra bakımından ayrışıyor; Merâga için kendi şehir maddesi esas.)"
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "sırasıyla Celâyirliler, Timurlular, Karakoyunlular",
+   "oneri": {},
+   "not": "Devlet/sıra teyit; uç yılı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "Karakoyunlular, Akkoyunlular ve Safevîler tarafından hâkimiyet altına alındı",
+   "oneri": {},
+   "not": "Devlet/sıra teyit; uç yılı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "I. Abbas zamanında (1587-1629) tekrar Safevîler'e bağlanan Merâga",
+   "oneri": {},
+   "not": "Safevî devri teyit; 1501 ve 1736 uçları yok. Safevî içindeki Osmanlı bölümleri için aşağıya bk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1585-09-25",
+   "t": "1603-10-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "Osmanlı-Safevî savaşlarında 941 (1534) ve 993 (1585) yıllarında iki defa Osmanlılar'ın eline geçen şehir",
+   "oneri": {
+    "ekle": "d: OSMANLI 1534 (YIL; bitiş TDV'de yok) — atlasta yok"
+   },
+   "not": "Başlangıç YIL 1585 teyitli (993). Bitiş: 'I. Abbas zamanında (1587-1629) tekrar Safevîler'e bağlanan' = 1587-1629 aralığı (atlas 1603-10-21 aralığa uyar; yıl yok). 1534'te de Osmanlı eline geçtiği TDV'de var, atlasta o dönem yok (uç günleri yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1725-07-28",
+   "t": "1730-08-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "1136 (1723) yılında bölgenin hâkimi Feridun Han'ın padişaha tâbi olmasıyla bir defa daha Osmanlı hâkimiyetine girdi",
+   "oneri": {
+    "f": "1723 (YIL) — alan d/v kararı: kaynak 'tâbi olmasıyla' diyor"
+   },
+   "not": "ÇİFT-TDV: mevcut dönem 1725-07-28'i TDV Tebriz'den ('gün komşudan') alıyor; yerleşimin KENDİ şehir maddesi (TDV Merâga) 1723 diyor. Üçüncü bağımsız kaynak (Iranica) iranicaonline.org/articles/maragheh 404 verdi, bulunamadı. Kural gereği Merâga maddesi esas; TDV Tebriz maddesi (28 Temmuz 1725 = Tebriz'in alınışı) not olarak beyan edilir, Merâga'ya uygulanması dayanaksız. Bitiş 1730-08-12 bu partide teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Merâga'da Nâdir Şah/Afşar dönemi anılmıyor. Bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Merâga'da Zend anılmıyor. Bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2044",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Merâga», https://islamansiklopedisi.org.tr/meraga",
+   "alinti": "Şehir 1828'de Ruslar tarafından işgal edilmiş, ardından tekrar İran'ın hâkimiyetine geçmiştir",
+   "oneri": {
+    "isg": "rusya 1828 (YIL; bitiş yok: 'ardından tekrar İran'a'); I. Dünya Savaşı'nda Rus-Osmanlı el değiştirmesi (yıl yok)"
+   },
+   "not": "Kaçar başlangıcı TDV'de yok (BULUNAMADI). İşgal bilgisi: 1828 Rus işgali (isg: rusya) ve I. Dünya Savaşı'nda el değişimi; İran iddiası sürdüğü için sahiplik kesintisi değil, isg katmanı."
+  }
+ ],
+ "Viyana": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1164",
+   "alan": "",
+   "d": null,
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "hedef dönem yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "Viyana dönemlerinin hepsinin `mevcut_kaynak` alanı dolu (AVMAC, AEIOU, Parlament Österreich vb.); boş ya da DEVRALMA yok. 1938-1945 'almanya' kaynağı genel ('Encyclopaedia Britannica ilgili ülke/tarih maddesi') — jenerik kaynak; yerleşime özgü teyit bu partide yapılmadı (brif: kaynaklı dönem baştan doğrulanmaz)."
   }
  ]
 }
