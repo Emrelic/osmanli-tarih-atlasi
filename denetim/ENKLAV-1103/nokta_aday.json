@@ -1,0 +1,1170 @@
+[
+ {
+  "nokta": [
+   -22.5,
+   19.59
+  ],
+  "r_km": 179,
+  "alan": 44658,
+  "aralik": "1915-07-09 → 1920-12-17",
+  "parcalar": [
+   "E004 guney-afrika-birligi 1915-07-09→1920-12-17"
+  ],
+  "devletler": [
+   "guney-afrika-birligi"
+  ],
+  "en_yakin": [
+   "Gobabis (64 km)",
+   "Aranos (188 km)",
+   "Ganzi (Ghanzi) (230 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   49.82,
+   35.85
+  ],
+  "r_km": 66,
+  "alan": 6040,
+  "aralik": "1918-04-19 → 1943-08-23",
+  "parcalar": [
+   "E046 almanya 1941-10-25→1943-02-16",
+   "E047 almanya 1943-03-15→1943-08-23",
+   "E048 guney-rusya-beyaz 1919-08-01→1919-12-11",
+   "E049 ukrayna-devleti-1918 1918-04-29→1918-12-14",
+   "E050 ukrayna-halk-cumhuriyeti 1918-04-19→1918-04-29",
+   "E051 ukrayna-halk-cumhuriyeti 1918-12-14→1919-01-03"
+  ],
+  "devletler": [
+   "almanya",
+   "guney-rusya-beyaz",
+   "ukrayna-devleti-1918",
+   "ukrayna-halk-cumhuriyeti"
+  ],
+  "en_yakin": [
+   "Harkov (33 km)",
+   "Çuguyev (60 km)",
+   "Poltava (97 km)"
+  ],
+  "adaylar": [
+   {
+    "ad": "Harkov",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Harkov (33 km)",
+    "maddeler": [
+     "1918-04-19 — Alman birlikleri ve UNR Zaporog Tümeni Harkov'u Bolşeviklerden aldı",
+     "1919-01-03 — Kızıl Ordu Harkov'u yeniden aldı",
+     "1919-06-25 — Denikin'in Gönüllü Ordusu Harkov'u işgal etti"
+    ]
+   }
+  ]
+ },
+ {
+  "nokta": [
+   -28.21,
+   -57.07
+  ],
+  "r_km": 44,
+  "alan": 2719,
+  "aralik": "1900-05-26 → 1923-10-29",
+  "parcalar": [
+   "E070 brezilya-cumhuriyeti 1900-05-26→1923-10-29"
+  ],
+  "devletler": [
+   "brezilya-cumhuriyeti"
+  ],
+  "en_yakin": [
+   "Maçambará (Recreio) (143 km)",
+   "San Ignacio Guazú (147 km)",
+   "Encarnación (Itapúa) (154 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   22.33,
+   96.06
+  ],
+  "r_km": 37,
+  "alan": 1884,
+  "aralik": "1752-01-01 → 1752-04-23",
+  "parcalar": [
+   "E077 konbaung 1752-01-01→1752-04-23"
+  ],
+  "devletler": [
+   "konbaung"
+  ],
+  "en_yakin": [
+   "Halin (Hanlin) (29 km)",
+   "Mandalay (40 km)",
+   "Shwebo (46 km)"
+  ],
+  "adaylar": [
+   {
+    "ad": "Halin (Hanlin)",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Halin (Hanlin) (29 km)",
+    "maddeler": [
+     "1752-01-01 — Konbaung Hanedanı (Birmanya) egemenliğine geçti — Halin"
+    ]
+   },
+   {
+    "ad": "Halin",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Halin (Hanlin) (29 km)",
+    "maddeler": [
+     "1752-01-01 — Konbaung Hanedanı (Birmanya) egemenliğine geçti — Halin"
+    ]
+   }
+  ]
+ },
+ {
+  "nokta": [
+   35.42,
+   -0.54
+  ],
+  "r_km": 32,
+  "alan": 1430,
+  "aralik": "1509-05-17 → 1841-05-30",
+  "parcalar": [
+   "E082 fransa-cumhuriyet 1831-01-04→1841-05-30",
+   "E083 ispanya 1509-05-17→1708-04-04",
+   "E084 ispanya 1732-07-01→1792-09-12"
+  ],
+  "devletler": [
+   "fransa-cumhuriyet",
+   "ispanya"
+  ],
+  "en_yakin": [
+   "Sîdî Bel Abbès (27 km)",
+   "Oran (32 km)",
+   "Mersa'l-Kebîr (38 km)"
+  ],
+  "adaylar": [
+   {
+    "ad": "Sîdî Bel Abbès",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Sîdî Bel Abbès (27 km)",
+    "maddeler": [
+     "1552-01-01 — Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi — Tuggurt-Ouargla'nın haraca bağ"
+    ]
+   }
+  ]
+ },
+ {
+  "nokta": [
+   41.21,
+   42.24
+  ],
+  "r_km": 25,
+  "alan": 857,
+  "aralik": "1919-04-20 → 1920-04-01",
+  "parcalar": [
+   "E092 gurcistan-demokratik-cumhuriyeti 1919-04-20→1920-04-01"
+  ],
+  "devletler": [
+   "gurcistan-demokratik-cumhuriyeti"
+  ],
+  "en_yakin": [
+   "Şavşat (11 km)",
+   "Saylıca (16 km)",
+   "Artvin (35 km)"
+  ],
+  "adaylar": [
+   {
+    "ad": "Saylıca",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Saylıca (16 km)",
+    "maddeler": [
+     "1919-04-20 — Ardahan Gürcü hâkimiyetine geçti"
+    ]
+   },
+   {
+    "ad": "Şavşat",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Şavşat (11 km)",
+    "maddeler": [
+     "1920-04-01 — İngilizler çekilirken Artvin Gürcistan'da kaldı"
+    ]
+   }
+  ]
+ },
+ {
+  "nokta": [
+   4.48,
+   27.15
+  ],
+  "r_km": 20,
+  "alan": 580,
+  "aralik": "1912-01-01 → 1923-10-29",
+  "parcalar": [
+   "E094 fransa-cumhuriyet 1912-01-01→1923-10-29"
+  ],
+  "devletler": [
+   "fransa-cumhuriyet"
+  ],
+  "en_yakin": [
+   "Niangara (Mangbetu) (119 km)",
+   "Obo (126 km)",
+   "Tembura (131 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   19.32,
+   73.88
+  ],
+  "r_km": 15,
+  "alan": 266,
+  "aralik": "1803-08-12 → 1818-01-01",
+  "parcalar": [
+   "E099 maratha 1803-08-12→1818-01-01"
+  ],
+  "devletler": [
+   "maratha"
+  ],
+  "en_yakin": [
+   "Nâsik (76 km)",
+   "Pûne (Poona) (89 km)",
+   "Ahmednagar (95 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   47.83,
+   24.97
+  ],
+  "r_km": 15,
+  "alan": 265,
+  "aralik": "1919-08-27 → 1923-10-29",
+  "parcalar": [
+   "E100 polonya 1919-08-27→1923-10-29"
+  ],
+  "devletler": [
+   "polonya"
+  ],
+  "en_yakin": [
+   "Çernovitz (Çernivtsi) (88 km)",
+   "Suçava (Suceava) (98 km)",
+   "Dorohoi (108 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   4.03,
+   26.87
+  ],
+  "r_km": 15,
+  "alan": 215,
+  "aralik": "1910-06-16 → 1923-10-29",
+  "parcalar": [
+   "E101 ingiliz-sudani 1910-06-16→1923-10-29"
+  ],
+  "devletler": [
+   "ingiliz-sudani"
+  ],
+  "en_yakin": [
+   "Niangara (Mangbetu) (117 km)",
+   "Obo (158 km)",
+   "Isiro (163 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   46.38,
+   5.57
+  ],
+  "r_km": 15,
+  "alan": 205,
+  "aralik": "1862-12-08 → 1923-10-29",
+  "parcalar": [
+   "E102 isvicre 1862-12-08→1923-10-29"
+  ],
+  "devletler": [
+   "isvicre"
+  ],
+  "en_yakin": [
+   "Cenevre (48 km)",
+   "Annemasse (55 km)",
+   "Thonon (70 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   40.06,
+   29.98
+  ],
+  "r_km": 15,
+  "alan": 185,
+  "aralik": "1299-01-01 → 1313-01-01",
+  "parcalar": [
+   "E103 bizans 1299-01-01→1313-01-01"
+  ],
+  "devletler": [
+   "bizans"
+  ],
+  "en_yakin": [
+   "Harmankaya (4 km)",
+   "Bilecik (9 km)",
+   "Pazaryeri (11 km)"
+  ],
+  "adaylar": [
+   {
+    "ad": "Bilecik",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Bilecik (9 km)",
+    "maddeler": [
+     "1299-01 — Osmanlı Beyliği'nin kuruluşu",
+     "1299-01-01 — Bilecik ve Yarhisar'ın gece baskınıyla fethi",
+     "1299-01-01 — Bilecik ve Yarhisar'ın gece baskınıyla fethi"
+    ]
+   },
+   {
+    "ad": "Harmankaya",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Harmankaya (4 km)",
+    "maddeler": [
+     "1313-01-01 — Köse Mihal'in Müslüman olup Osmanlı'ya katılışı",
+     "1313-01-01 — Köse Mihal'in Müslüman olup Osmanlı'ya katılışı"
+    ]
+   }
+  ]
+ },
+ {
+  "nokta": [
+   34.82,
+   -4.06
+  ],
+  "r_km": 15,
+  "alan": 174,
+  "aralik": "1564-01-01 → 1673-01-01",
+  "parcalar": [
+   "E104 ispanya 1564-01-01→1673-01-01"
+  ],
+  "devletler": [
+   "ispanya"
+  ],
+  "en_yakin": [
+   "Nekor (Temsaman yöresi) (38 km)",
+   "Bâdis (Peñón de Vélez) (45 km)",
+   "el-Hüseyme (Alhucemas) (49 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   19.36,
+   73.9
+  ],
+  "r_km": 15,
+  "alan": 157,
+  "aralik": "1759-01-01 → 1760-01-01",
+  "parcalar": [
+   "E106 babur-imparatorlugu 1759-01-01→1760-01-01"
+  ],
+  "devletler": [
+   "babur-imparatorlugu"
+  ],
+  "en_yakin": [
+   "Nâsik (72 km)",
+   "Pûne (Poona) (94 km)",
+   "Ahmednagar (94 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   48.53,
+   16.77
+  ],
+  "r_km": 15,
+  "alan": 156,
+  "aralik": "1919-01-01 → 1920-07-16",
+  "parcalar": [
+   "E107 avusturya-cumhuriyet 1919-01-01→1920-07-16"
+  ],
+  "devletler": [
+   "avusturya-cumhuriyet"
+  ],
+  "en_yakin": [
+   "Mikulcice (38 km)",
+   "Klosterneuburg (41 km)",
+   "Viyana (46 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   12.63,
+   79.38
+  ],
+  "r_km": 15,
+  "alan": 145,
+  "aralik": "1763-01-01 → 1801-07-31",
+  "parcalar": [
+   "E108 karnatik 1763-01-01→1801-07-31"
+  ],
+  "devletler": [
+   "karnatik"
+  ],
+  "en_yakin": [
+   "Arkot (Arcot) (31 km)",
+   "Vellor (Vellore) (42 km)",
+   "Cinci (Gingee) (42 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   -21.66,
+   -57.47
+  ],
+  "r_km": 15,
+  "alan": 144,
+  "aralik": "1872-03-26 → 1915-11-11",
+  "parcalar": [
+   "E109 paraguay-cumhuriyeti 1872-03-26→1915-11-11"
+  ],
+  "devletler": [
+   "paraguay-cumhuriyeti"
+  ],
+  "en_yakin": [
+   "Fuerte Olimpo (Borbón) (81 km)",
+   "Bonito (Mato Grosso do Sul) (118 km)",
+   "Lengua misyonu (Paraguay Chaco) (183 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   38.91,
+   -7.5
+  ],
+  "r_km": 15,
+  "alan": 106,
+  "aralik": "1866-11-04 → 1923-10-29",
+  "parcalar": [
+   "E110 ispanya 1866-11-04→1923-10-29"
+  ],
+  "devletler": [
+   "ispanya"
+  ],
+  "en_yakin": [
+   "Badajoz (46 km)",
+   "Évora (52 km)",
+   "Santarém (Şenterîn) (108 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   48.34,
+   3.19
+  ],
+  "r_km": 15,
+  "alan": 93,
+  "aralik": "1420-05-21 → 1422-01-01",
+  "parcalar": [
+   "E112 ingiltere 1420-05-21→1422-01-01"
+  ],
+  "devletler": [
+   "ingiltere"
+  ],
+  "en_yakin": [
+   "Melun (46 km)",
+   "Troyes (66 km)",
+   "Auxerre (67 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   63.5,
+   30.58
+  ],
+  "r_km": 15,
+  "alan": 83,
+  "aralik": "1918-01-04 → 1920-12-31",
+  "parcalar": [
+   "E113 sovyet-rusya 1918-01-04→1920-12-31"
+  ],
+  "devletler": [
+   "sovyet-rusya"
+  ],
+  "en_yakin": [
+   "Nurmes (60 km)",
+   "Joensuu (108 km)",
+   "Kuopio (161 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   46.75,
+   15.84
+  ],
+  "r_km": 15,
+  "alan": 82,
+  "aralik": "1129-01-01 → 1281-01-01",
+  "parcalar": [
+   "E114 almanya 1129-01-01→1180-01-01",
+   "E115 almanya 1276-11-21→1281-01-01"
+  ],
+  "devletler": [
+   "almanya"
+  ],
+  "en_yakin": [
+   "Maribor (Marburg) (26 km)",
+   "Murska Sobota (27 km)",
+   "Ptuj (Pettau) (37 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   24.21,
+   101.9
+  ],
+  "r_km": 15,
+  "alan": 79,
+  "aralik": "1382-01-06 → 1382-01-15",
+  "parcalar": [
+   "E116 ming-hanedani 1382-01-06→1382-01-15"
+  ],
+  "devletler": [
+   "ming-hanedani"
+  ],
+  "en_yakin": [
+   "Yuanjiang (69 km)",
+   "Tonghai (88 km)",
+   "Chuxiong (98 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   39.0,
+   34.04
+  ],
+  "r_km": 15,
+  "alan": 78,
+  "aralik": "1365-01-01 → 1366-01-01",
+  "parcalar": [
+   "E117 karaman 1365-01-01→1366-01-01"
+  ],
+  "devletler": [
+   "karaman"
+  ],
+  "en_yakin": [
+   "Kırşehir (19 km)",
+   "Aksaray (70 km)",
+   "Nevşehir (Muşkara) (72 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   38.93,
+   -7.26
+  ],
+  "r_km": 15,
+  "alan": 70,
+  "aralik": "1866-11-04 → 1923-10-29",
+  "parcalar": [
+   "E118 ispanya 1866-11-04→1923-10-29"
+  ],
+  "devletler": [
+   "ispanya"
+  ],
+  "en_yakin": [
+   "Badajoz (26 km)",
+   "Évora (69 km)",
+   "Santarém (Şenterîn) (127 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   45.96,
+   -117.13
+  ],
+  "r_km": 15,
+  "alan": 68,
+  "aralik": "1846-06-15 → 1877-10-05",
+  "parcalar": [
+   "E119 abd 1846-06-15→1877-10-05"
+  ],
+  "devletler": [
+   "abd"
+  ],
+  "en_yakin": [
+   "Lapwai (Nez Perce) (98 km)",
+   "Fort Nez Percés (Walla Walla) (137 km)",
+   "Spokane House (206 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   46.8,
+   10.26
+  ],
+  "r_km": 15,
+  "alan": 58,
+  "aralik": "1918-11-12 → 1923-10-29",
+  "parcalar": [
+   "E120 italya 1918-11-12→1923-10-29"
+  ],
+  "devletler": [
+   "italya"
+  ],
+  "en_yakin": [
+   "Davos (33 km)",
+   "Bormio (38 km)",
+   "Landeck (44 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   46.08,
+   9.47
+  ],
+  "r_km": 15,
+  "alan": 50,
+  "aralik": "1815-06-09 → 1923-10-29",
+  "parcalar": [
+   "E121 isvicre 1815-06-09→1923-10-29"
+  ],
+  "devletler": [
+   "isvicre"
+  ],
+  "en_yakin": [
+   "Chiavenna (27 km)",
+   "Sondrio (33 km)",
+   "Bellinzona (37 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   5.82,
+   -3.55
+  ],
+  "r_km": 162,
+  "alan": 36473,
+  "aralik": "1687-01-01 → 1792-09-22",
+  "parcalar": [
+   "K196 fransa 1687-01-01→1792-09-22"
+  ],
+  "devletler": [
+   "fransa"
+  ],
+  "en_yakin": [
+   "Assinie (83 km)",
+   "Kumasi (234 km)",
+   "Begho (Bighu) (252 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   22.74,
+   107.02
+  ],
+  "r_km": 147,
+  "alan": 30195,
+  "aralik": "1911-10-22 → 1912-02-12",
+  "parcalar": [
+   "K237 cin-cumhuriyeti 1911-10-22→1912-02-12"
+  ],
+  "devletler": [
+   "cin-cumhuriyeti"
+  ],
+  "en_yakin": [
+   "Cao Bằng (79 km)",
+   "Lạng Sơn (102 km)",
+   "Nanning (139 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   50.45,
+   -73.25
+  ],
+  "r_km": 145,
+  "alan": 29551,
+  "aralik": "1673-01-01 → 1763-02-10",
+  "parcalar": [
+   "K242 ingiltere 1673-01-01→1763-02-10"
+  ],
+  "devletler": [
+   "ingiltere"
+  ],
+  "en_yakin": [
+   "Mistassini (Lac Mistassini) (44 km)",
+   "Waswanipi (214 km)",
+   "Nemiscau (230 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   9.91,
+   -13.15
+  ],
+  "r_km": 141,
+  "alan": 27622,
+  "aralik": "1885-01-01 → 1896-01-01",
+  "parcalar": [
+   "K256 fransa-cumhuriyet 1885-01-01→1896-01-01"
+  ],
+  "devletler": [
+   "fransa-cumhuriyet"
+  ],
+  "en_yakin": [
+   "Konakri (Conakry) (76 km)",
+   "Freetown (159 km)",
+   "Timbo (165 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   22.27,
+   92.5
+  ],
+  "r_km": 140,
+  "alan": 27270,
+  "aralik": "1757-06-23 → 1760-10-11",
+  "parcalar": [
+   "K262 bengal-nevabligi 1757-06-23→1760-10-11"
+  ],
+  "devletler": [
+   "bengal-nevabligi"
+  ],
+  "en_yakin": [
+   "Çatgam (Chittagong) (69 km)",
+   "Mainamati (Cumilla) (190 km)",
+   "Pattikera (197 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   -52.9,
+   -72.3
+  ],
+  "r_km": 139,
+  "alan": 26955,
+  "aralik": "1843-10-30 → 2000-12-31",
+  "parcalar": [
+   "K265 sili-cumhuriyeti 1843-10-30→2000-12-31"
+  ],
+  "devletler": [
+   "sili-cumhuriyeti"
+  ],
+  "en_yakin": [
+   "Punta Arenas (96 km)",
+   "Fuerte Bulnes (121 km)",
+   "Puerto Natales (131 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   -0.55,
+   41.74
+  ],
+  "r_km": 131,
+  "alan": 23993,
+  "aralik": "1905-01-01 → 1941-02-25",
+  "parcalar": [
+   "K281 somali 1905-01-01→1941-02-25"
+  ],
+  "devletler": [
+   "somali"
+  ],
+  "en_yakin": [
+   "Kısmâyû (92 km)",
+   "Cilib (165 km)",
+   "Pate (189 km)"
+  ],
+  "adaylar": [
+   {
+    "ad": "Kısmâyû",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Kısmâyû (92 km)",
+    "maddeler": [
+     "1941-02-25 — İngiliz ilerleyişi İtalyan Somalisi'nin kuzey ve orta kesimlerini (Obbiya, Galka"
+    ]
+   }
+  ]
+ },
+ {
+  "nokta": [
+   5.78,
+   -7.22
+  ],
+  "r_km": 120,
+  "alan": 19972,
+  "aralik": "1892-01-01 → 1898-01-01",
+  "parcalar": [
+   "K314 fransa-cumhuriyet 1892-01-01→1898-01-01"
+  ],
+  "devletler": [
+   "fransa-cumhuriyet"
+  ],
+  "en_yakin": [
+   "Zwedru (106 km)",
+   "Daloa (149 km)",
+   "Sassandra (157 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   -18.04,
+   18.28
+  ],
+  "r_km": 116,
+  "alan": 18738,
+  "aralik": "1902-01-01 → 1920-12-17",
+  "parcalar": [
+   "K327 almanya 1902-01-01→1915-07-09",
+   "K328 guney-afrika-birligi 1915-07-09→1920-12-17"
+  ],
+  "devletler": [
+   "almanya",
+   "guney-afrika-birligi"
+  ],
+  "en_yakin": [
+   "Kuangar (62 km)",
+   "Tsumeb (146 km)",
+   "Rundu (158 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   -28.07,
+   -55.0
+  ],
+  "r_km": 103,
+  "alan": 14907,
+  "aralik": "1876-09-13 → 1923-10-29",
+  "parcalar": [
+   "K355 paraguay-cumhuriyeti 1876-09-13→1923-10-29"
+  ],
+  "devletler": [
+   "paraguay-cumhuriyeti"
+  ],
+  "en_yakin": [
+   "Encarnación (Itapúa) (119 km)",
+   "Maçambará (Recreio) (159 km)",
+   "Nonohay (Yukarı Uruguay) (207 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   -18.89,
+   20.44
+  ],
+  "r_km": 103,
+  "alan": 14846,
+  "aralik": "1915-07-09 → 1920-12-17",
+  "parcalar": [
+   "K358 guney-afrika-birligi 1915-07-09→1920-12-17"
+  ],
+  "devletler": [
+   "guney-afrika-birligi"
+  ],
+  "en_yakin": [
+   "Rundu (128 km)",
+   "Kuangar (242 km)",
+   "Grutfontein (256 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   5.23,
+   9.18
+  ],
+  "r_km": 103,
+  "alan": 14783,
+  "aralik": "1885-04-01 → 1916-02-18",
+  "parcalar": [
+   "K359 almanya 1885-04-01→1916-02-18"
+  ],
+  "devletler": [
+   "almanya"
+  ],
+  "en_yakin": [
+   "Kumba (72 km)",
+   "Eski Kalabar (100 km)",
+   "Buea (120 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   49.39,
+   21.35
+  ],
+  "r_km": 102,
+  "alan": 14522,
+  "aralik": "1938-11-02 → 1945-04-04",
+  "parcalar": [
+   "K364 slovakya-cumhuriyeti 1939-03-14→1945-04-04",
+   "K365 cekoslovakya 1938-11-02→1939-03-14"
+  ],
+  "devletler": [
+   "cekoslovakya",
+   "slovakya-cumhuriyeti"
+  ],
+  "en_yakin": [
+   "Eperjes (Prešov) (44 km)",
+   "Kassa (Košice) (76 km)",
+   "Ungvár (Uzhhorod) (110 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   -21.14,
+   20.54
+  ],
+  "r_km": 101,
+  "alan": 14285,
+  "aralik": "1890-07-01 → 1915-07-09",
+  "parcalar": [
+   "K368 almanya 1890-07-01→1915-07-09"
+  ],
+  "devletler": [
+   "almanya"
+  ],
+  "en_yakin": [
+   "Ganzi (Ghanzi) (131 km)",
+   "Gobabis (218 km)",
+   "Toteng (268 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   68.71,
+   22.54
+  ],
+  "r_km": 93,
+  "alan": 11995,
+  "aralik": "1809-09-17 → 1917-03-15",
+  "parcalar": [
+   "K385 rusya 1809-09-17→1917-03-15"
+  ],
+  "devletler": [
+   "rusya"
+  ],
+  "en_yakin": [
+   "Jukkasjärvi (121 km)",
+   "Alta (143 km)",
+   "Tromsø (175 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   13.0,
+   -16.16
+  ],
+  "r_km": 92,
+  "alan": 11810,
+  "aralik": "1816-04-23 → 1965-02-18",
+  "parcalar": [
+   "K389 ingiltere 1816-04-23→1965-02-18"
+  ],
+  "devletler": [
+   "ingiltere"
+  ],
+  "en_yakin": [
+   "Albreda-Cufure (43 km)",
+   "Bathurst (Banjul) (68 km)",
+   "Kaşev (Cacheu) (81 km)"
+  ],
+  "adaylar": [
+   {
+    "ad": "Bathurst (Banjul)",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Bathurst (Banjul) (68 km)",
+    "maddeler": [
+     "1965-02-18 — Gambiya, Britanya mustemlekesinden bagimsiz oldu (Bathurst ve Albreda-Cufure)"
+    ]
+   }
+  ]
+ },
+ {
+  "nokta": [
+   13.08,
+   -16.14
+  ],
+  "r_km": 84,
+  "alan": 9764,
+  "aralik": "1895-06-16 → 1923-10-29",
+  "parcalar": [
+   "K412 fransa-cumhuriyet 1895-06-16→1923-10-29"
+  ],
+  "devletler": [
+   "fransa-cumhuriyet"
+  ],
+  "en_yakin": [
+   "Albreda-Cufure (37 km)",
+   "Bathurst (Banjul) (63 km)",
+   "Kaşev (Cacheu) (90 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   11.18,
+   23.37
+  ],
+  "r_km": 84,
+  "alan": 9757,
+  "aralik": "1919-09-08 → 1923-10-29",
+  "parcalar": [
+   "K413 ingiliz-sudani 1919-09-08→1923-10-29"
+  ],
+  "devletler": [
+   "ingiliz-sudani"
+  ],
+  "en_yakin": [
+   "Birao (119 km)",
+   "Nyala (191 km)",
+   "Zâlincî (192 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   -22.0,
+   30.85
+  ],
+  "r_km": 83,
+  "alan": 9641,
+  "aralik": "1910-05-31 → 1923-10-29",
+  "parcalar": [
+   "K415 portekiz 1910-05-31→1923-10-29"
+  ],
+  "devletler": [
+   "portekiz"
+  ],
+  "en_yakin": [
+   "Cikualakuala (86 km)",
+   "Thohoyandou (112 km)",
+   "Dzata (Venda) (129 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   21.79,
+   73.15
+  ],
+  "r_km": 82,
+  "alan": 9406,
+  "aralik": "1759-03-04 → 1772-11-18",
+  "parcalar": [
+   "K423 babur-imparatorlugu 1759-03-04→1772-11-18"
+  ],
+  "devletler": [
+   "babur-imparatorlugu"
+  ],
+  "en_yakin": [
+   "Broaç (Bharuch) (18 km)",
+   "Baroda (Vadodara) (58 km)",
+   "Sûrat (77 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   9.51,
+   49.17
+  ],
+  "r_km": 80,
+  "alan": 8847,
+  "aralik": "1894-05-05 → 1923-10-29",
+  "parcalar": [
+   "K438 italya 1894-05-05→1923-10-29"
+  ],
+  "devletler": [
+   "italya"
+  ],
+  "en_yakin": [
+   "Taleh (92 km)",
+   "Garove (144 km)",
+   "İskuşubân (145 km)"
+  ],
+  "adaylar": []
+ },
+ {
+  "nokta": [
+   8.58,
+   12.77
+  ],
+  "r_km": 78,
+  "alan": 8541,
+  "aralik": "1901-01-01 → 1916-02-18",
+  "parcalar": [
+   "K443 almanya 1901-01-01→1916-02-18"
+  ],
+  "devletler": [
+   "almanya"
+  ],
+  "en_yakin": [
+   "Yola (76 km)",
+   "Garua (Garoua) (106 km)",
+   "Rey Buba (156 km)"
+  ],
+  "adaylar": [
+   {
+    "ad": "Yola",
+    "durum": "MEVCUT-İÇERİDE",
+    "mevcut": "Yola (76 km)",
+    "maddeler": [
+     "1901-01-01 — Adamava paylaşıldı — Yola İngiliz Kuzey Nijerya'sında kaldı",
+     "1913-03-11 — Anglo-Alman Nijerya-Kamerun Sınır Antlaşması imzalandı (Yola'dan denize)"
+    ]
+   }
+  ]
+ },
+ {
+  "nokta": [
+   31.82,
+   -113.96
+  ],
+  "r_km": 78,
+  "alan": 8423,
+  "aralik": "1854-06-30 → 1869-05-14",
+  "parcalar": [
+   "K445 meksika 1854-06-30→1869-05-14"
+  ],
+  "devletler": [
+   "meksika"
+  ],
+  "en_yakin": [
+   "Sonoyta (Sonoita) (105 km)",
+   "Yuma geçidi (La Purísima Concepción) (119 km)",
+   "Misión San Vicente Ferrer (224 km)"
+  ],
+  "adaylar": []
+ }
+]
