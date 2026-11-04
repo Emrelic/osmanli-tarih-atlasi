@@ -84,7 +84,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | xi-liang-li-gao | 0400-01-01 → 0421-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China II (Six Dynasties) — f 0400-01-01 / t 0421-01-01 (bölüm: eserin dizininden) |
 | goryeo | 0918-07-25 → 1392-08-05 | = → = | GIRISLI | GİRİŞLİ: Lee Ki-baik, A New History of Korea (Harvard UP) / Cambridge History of Korea I — f 0918-07-25 / t 1392-08-05 (bölüm: eserin dizininden) |
 | joseon | 1392-08-05 → 1910-08-29 | = → = | GIRISLI | GİRİŞLİ: Lee Ki-baik, A New History of Korea (Harvard UP) — f 1392-08-05 / t 1910-08-29 (bölüm: eserin dizininden) |
-| edo-bakufu | 1603-03-24 → 1868-01-03 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan IV (Early Modern Japan) — f 1603-03-24 / t 1868-01-03 (bölüm: eserin dizininden) |
+| edo-bakufu | 1603-03-24 → 1868-01-03 | = → = | KISMEN | EMRELİC Cambridge — Cambridge History of Japan IV, ch.1 (Hall), s.4: 'Tokugawa Ieyasu … received appointment as shogun in 1603' (f yıl teyitli; 03-24 günü — Keichō 8/2/12 dönüşümü — ayrı kaynak ister) · CHJ V, ch.5 (Jansen), s.357: 'On January 2 and 3, 1868, an assembly at the court was convened' (t 1868-01-03 GÜN teyitli, Gregoryen) |
 | sanzan | 1322-01-01 → 1429-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan III (Medieval Japan) — f 1322-01-01 / t 1429-01-01 (bölüm: eserin dizininden) |
 | ryukyu | 1429-01-01 → 1879-03-27 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan IV-V — f 1429-01-01 / t 1879-03-27 (bölüm: eserin dizininden) |
 | nguyen-hanedani | 1802-06-01 → 1945-08-30 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I-II — f 1802-06-01 / t 1945-08-30 (bölüm: eserin dizininden) |
@@ -93,7 +93,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | nayak-devletleri | 1336-01-01 → 1763-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1336-01-01 / t 1763-01-01 (bölüm: eserin dizininden) |
 | orissa | 1000-01-01 → 1568-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t 1568-01-01 (bölüm: eserin dizininden) |
 | tibet | 1354-01-01 → 1642-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans — f 1354-01-01 / t 1642-01-01 (bölüm: eserin dizininden) |
-| kuzey-yuan | 1368-09-14 → 1691-05-30 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VI (Alien Regimes) + VII (Ming, Part 1) — f 1368-09-14 / t 1691-05-30 (bölüm: eserin dizininden) |
+| kuzey-yuan | 1368-09-14 → 1691-05-30 | = → = | TEYIT | EMRELİC Cambridge — CHC VII, ch.3 (Langlois), s.~113: Toghon Temür Dadu'dan 7 Eylül 1368'de kaçtı; Xu Da 14 Eylül'de şehre vardı. KARAR (LAB SALI): f 1368-09-14 KALIR — harita toprak sahipliğini gösterir ve Dadu'nun el değiştirmesi 09-14'tür (kronolojideki Dadu maddesiyle hizalı, Değişmez 2); sarayın 1368-09-07'de ayrılışı ic_not'a beyan. t 1691-05-30 okunmadı |
 | surakarta | 1755-02-13 → 1946-06-16 | = → = | GIRISLI | GİRİŞLİ: Ricklefs, A History of Modern Indonesia — f 1755-02-13 / t 1946-06-16 (bölüm: eserin dizininden) |
 | gond-kralliklari | 1301-01-01 → 1781-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1301-01-01 / t 1781-01-01 (bölüm: eserin dizininden) |
 | ahom | 1281-01-01 → 1826-02-24 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1826-02-24 (bölüm: eserin dizininden) |
@@ -121,7 +121,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | azuchi-momoyama | 1568-10-16 → 1615-06-04 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan IV — f 1568-10-16 / t 1615-06-04 (bölüm: eserin dizininden) |
 | guney-ming | 1644-04-25 → 1662-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VII (Ming, Part 1) — f 1644-04-25 / t 1662-01-01 (bölüm: eserin dizininden) |
 | tungning | 1650-01-01 → 1683-10-05 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China IX (Ch'ing to 1800, Part 1) — f 1650-01-01 / t 1683-10-05 (bölüm: eserin dizininden) |
-| cin-cumhuriyeti | 1911-10-10 → None | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China XII (Republican China, Part 1) — f 1911-10-10 / t None (bölüm: eserin dizininden) |
+| cin-cumhuriyeti | 1911-10-10 → None | = → = | TEYIT | EMRELİC Cambridge — Cambridge History of China XI, ch.9, s.~524: 'Beginning with Hupei's action of 10 October, fifteen provinces declared their independence' (f 1911-10-10 GÜN teyitli; t açık) |
 | mogolistan | 1911-12-29 → 1924-11-26 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Inner Asia / Bawden, The Modern History of Mongolia — f 1911-12-29 / t 1924-11-26 (bölüm: eserin dizininden) |
 | fransiz-cinhindi | 1859-02-17 → 1954-07-21 | = → = | KISMEN | EMRELİC Cambridge — CHSEA II, ch.1, s.44: Saigon 'captured early in 1859' (f yıl/mevsim teyitli; 02-17 günü teyitsiz); t Cenevre 1954 (07-21 günü teyitsiz) |
 | san-fan | 1673-12-28 → 1681-12-07 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China IX — f 1673-12-28 / t 1681-12-07 (bölüm: eserin dizininden) |
@@ -357,4 +357,4 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | ceibal | 0411-01-01 → 0889-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden) |
 | cholula | 0700-01-01 → 1519-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0700-01-01 / t 1519-01-01 (bölüm: eserin dizininden) |
 
-Sayım: GIRISLI 270 · KISMEN 40 · DUZELT 20 · TEYIT 19 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
+Sayım: GIRISLI 267 · KISMEN 41 · TEYIT 21 · DUZELT 20 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
