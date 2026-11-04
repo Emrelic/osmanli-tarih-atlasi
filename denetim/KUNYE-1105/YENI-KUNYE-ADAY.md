@@ -5,7 +5,7 @@ LAB SALI · `lab-1104-kunye` · 5-6 Kasım 2026 · **ÖNERİ — veriye dokunulm
 **Ortak şart:** yeni künye `arac/renkler.py` BOYALAR'a girmeden haritada boyanmaz; renkler.py motor tuzudur → künyeler bir sonraki planlı HAVVA koşusuyla birlikte açılır. O zamana dek ilgili dilimler **beyanlı boşluk** kalır.
 **Karar istenen:** her aday için ① künye açılsın mı (yoksa beyanlı boşluk / mevcut künyeye bağlama) ② kaynak turu (uçların günü) ③ BOYALAR rengi.
 
-Toplam: **16 aday**
+Toplam: **15 aday**
 
 | # | aday | öneri | dönemler | güç | not |
 |---|---|---|---|---|---|
@@ -23,5 +23,4 @@ Toplam: **16 aday**
 | 12 | `stellaland` | Stellaland Cumhuriyeti (Vryburg) 1883-08-06 → 1885 (Warren seferi / Britanya Bechuanaland Kraliyet Kolonisi 1885-09-30); 1883-84 Goshen ile 'Birleşik Stellaland' dönemi var mı — kaynakla. Ölçüm (LAB PAZAR, origin/main): 'stellaland' ve 'goshen' devletler.js'te hiç geçmiyor | Vryburg dönemleri (EVREN4 e4_LAB_003.json) | ZAYIF | Akademik kaynak: Shillington, The Colonisation of the Southern Tswana 1870-1900 (1985); UCT/Wits yayınları. Bechuanaland Kraliyet Kolonisi künyesi var mı ölçülmeli (ardıl). |
 | 13 | `goshen` | Goshen Cumhuriyeti (Rooigrond) 1882-10 → 1884 (Londra Sözleşmesi 1884-02-27 / Transvaal ilhak bildirisi 1884-09 geri alınması) — kaynakla. Stellaland ile tek künye (Birleşik Stellaland 1883-1885?) ya da ayrı — karar | Rooigrond/Mafikeng çevresi dönemleri | ZAYIF | Kısa ömürlü Boer cumhuriyetleri ailesi: natalia (VAR), Potchefstroom/Winburg (aday), Stellaland, Goshen, Nieuwe Republiek (Vryheid 1884-1888 — ölçülmeli). |
 | 14 | `moab-arap-hukumeti` | Moab Arap Hükûmeti (Kerak) 1920-07-25 sonrası → Şubat 1921 (urdun-emirligi f 1921-02-01). Aynı dilimde Salt ve Aclûn yerel hükûmetleri de vardı (1920 Ağustos Salt toplantısı, İngiliz danışmanlar) → tek sınıf: 'Şarkî Ürdün yerel hükûmetleri 1920-21' — üç ayrı künye mi, tek beyanlı künye mi, beyanlı boşluk mu — karar | Kerak (ve Salt, Aclûn) 1920-07-25 → 1921-01-31 dönemleri | ORTA | TDV ÜRDÜN / KERAK ile teyit; resmî hanedan sitesi tek dayanak olarak taraflı olabilir. |
-| 15 | `bechuanaland` | Britanya Bechuanaland'i — Kraliyet Kolonisi (1885-09-30 → 1895 Kap'a katılış) ve Protektorası (1885 → 1966-09-30 botsvana). Ölçüm: devletler.js'te yalnız botsvana (f 1966-09-30) VAR; Bechuanaland künyesi YOK | Vryburg (koloni), Mafikeng/Şoşong (protektora) dönemleri | ZAYIF | Stellaland/Goshen'in ardılı. |
-| 16 | `nieuwe-republiek` | Nieuwe Republiek (Vryheid) 1884-08 → 1888-07 (Transvaal'a katılış). Künye YOK | Vryheid dönemleri | ZAYIF |  |
+| 15 | `nieuwe-republiek` | Nieuwe Republiek (Vryheid) 1884-08 → 1888-07 (Transvaal'a katılış). Künye YOK | Vryheid dönemleri | ZAYIF |  |
