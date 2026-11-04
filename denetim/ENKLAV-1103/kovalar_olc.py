@@ -396,9 +396,29 @@ def kova_kural(kod, ad, kutusu, tarih, eski, oneri, kirilma, yeni, hukumler, day
     kova(kod, ad, dayanak, "%s kutusunda %s günü sahibi %s olan noktalar." % (kutusu, tarih, "/".join(eski)), S, hukumler)
 
 
-kova_kural("N1", "Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok)", (44.0, 46.6, 6.6, 13.8), "1944-06-01", ("italya",),
-           "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir "
-           "şehir kurtuluş günleri kaynakla", "1943-09-23", ["salo-cumhuriyeti"], "ENKLAV-1104 K406")
+kova_kural("N1", "Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok)", (44.0, 47.2, 6.6, 14.6), "1944-06-01", ("italya",),
+           "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti — şehir şehir kurtuluş günleri kaynakla", "1943-09-23", ["salo-cumhuriyeti"],
+           "ENKLAV-1104 K406")
+
+
+def reich_bolgesi(s):
+    """Treccani: Trentino, Alto Adige, Belluno (Alpenvorland) ile Friuli, Venezia Giulia, İstria RSI dışı, fiilen Reich'a bağlı."""
+    la, lo = s["lat"], s["lon"]
+    alpenvorland = 45.8 <= la <= 47.2 and 10.4 <= lo <= 12.9
+    kustenland = 44.8 <= la <= 46.7 and 12.3 <= lo <= 14.6
+    return alpenvorland or kustenland
+
+
+_n1 = [k for k in KOVALAR if k["kod"] == "N1"][0]
+_ayir = [s for s in _n1["satirlar"] if reich_bolgesi(s)]
+_n1["satirlar"] = [s for s in _n1["satirlar"] if not reich_bolgesi(s)]
+_n1["sayi"] = len(_n1["satirlar"])
+for s in _ayir:
+    s["oneri"] = ("1943-09-08 sonrası Alman denetimi → Alpenvorland (Bolzano, Trento, Belluno) / Adriatisches Küstenland (Friuli, Venezia "
+                  "Giulia, İstria) — almanya (Reich operasyon bölgesi), RSI değil; bitiş Belluno 1945-05-01 (Treccani); Küstenland günleri "
+                  "KAYNAK-GEREK")
+kova("N1b", "Alpenvorland / Adriatisches Küstenland 1943-1945 (Reich, RSI dışı)", "KAYNAKLI (Treccani) + günler KAYNAK-GEREK",
+     "N1 kutusundan ayrılan, Treccani'ye göre RSI dışında kalıp fiilen Reich'a bağlanan bölgelerdeki noktalar.", _ayir, "ENKLAV-1104 K406")
 kova_kural("N2", "Kurland-Litvanya 1915-1918 Rus (Ober Ost işgali yok)", (53.9, 57.9, 20.9, 26.9), "1916-06-01",
            ("rusya", "rusya-gecici-hukumet"), "1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla",
            "1915-08-01", ["almanya"], "ENKLAV-1104 K447, K448")
