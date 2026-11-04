@@ -66,6 +66,26 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
    - Rakamlar Batı rakamı; `#` şablonları ve tarih denetimi rakamla çalışır. MÖ → a. C., MS → d. C.
      Ay adları küçük harfle (enero, febrero …). Ters soru/ünlem işareti (¿ ¡) kullan.
    - Uydurma ad üretme: emin değilsen modern Türkçe yazımı bırak.
+3c. **Almanca (de) ölçüsü:** Almanca akademik Osmanistik ve Bizantinistik yazımı (Brockhaus,
+   Lexikon des Mittelalters, Neue Fischer Weltgeschichte, Almanca Osmanlı tarihi yayınları).
+   Akademik, sade, nötr Almanca; düğme dili kısa ("Anzeigen", "Schließen"). Sıra sayıları
+   Almanca noktalı yazılır: Mehmed II., Süleyman I., Karl V.
+   - Osmanisches Reich; Sultan; Großwesir; Janitscharen; beylerbeyi → Beylerbey; sancak →
+     Sandschak; timar → Timar; devşirme → Devschirme; kadı → Kadi; şeyhülislâm → Scheich ül-Islam.
+   - Kent **29 Mayıs 1453 fethine kadar (kuşatma dahil) Konstantinopel**, sonrası **Istanbul**
+     (metin "Kostantiniyye" diyorsa Konstantinopel). Edirne: fetihten önce Adrianopel, sonra
+     Edirne. Belgrad → Belgrad, Viyana → Wien, Mora → Morea, Rumeli → Rumelien, Eflak →
+     Walachei, Boğdan → Moldau, Erdel → Siebenbürgen, Kırım Hanlığı → Krim-Khanat, Memlükler →
+     Mamluken / Mamlukensultanat, Selçuklular → Seldschuken, Safevîler → Safawiden, Akkoyunlu →
+     Ak Koyunlu, Karakoyunlu → Kara Koyunlu, Venedik → Venedig, Kutsal Roma → Heiliges Römisches Reich.
+   - Kişiler: Mehmed II., Bayezid I. (Bayezid), Süleyman I. (der Prächtige yalnız metin lakabı
+     veriyorsa; Kanuni → der Gesetzgeber), Murad, Selim; Batılılar Almancadaki yerleşik adla
+     (Karl V., Franz I.).
+   - Rakamlar Batı rakamı; "#" şablonları ve tarih denetimi rakamla çalışır. MÖ → v. Chr.,
+     MS → n. Chr. Ay adları büyük harfle (Januar, Februar …). Tırnak: „…“.
+   - **Ad muhafazakârlığı:** emin değilsen modern Türkçe yazımı bırak; Almanca ekzonim UYDURMA,
+     Türkçe adı "Almancalaştırma" (önceki bir geçişte "Yalayiridas" gibi uydurma biçimler çıktı).
+     Yerleşik Almanca adı olmayan hanedan/boy/kişi adları Türkçe yazımla kalır.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
