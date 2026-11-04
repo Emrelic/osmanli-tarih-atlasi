@@ -9,6 +9,7 @@ DEGISIM = {
     "E061": ("GERCEK", "GERCEK", "Yok — 1526-1527 Hafsî arası TDV Kostantîne'de var; silinmesin."),
     "E103": ("GERCEK", "GERCEK", "Harmankaya bizans t → 1313-04-28 (713 ∩ 1313, TDV Mihaloğulları); ic_not: rivayet tartışmalı (Imber)."),
     "K044": ("YAPAY", "YAPAY-c", "Denizli, Söke, Burdur, Isparta vb. 1402-08 sonrası ilgili beylik (Germiyan/Menteşe/Aydın/Hamîd/Karaman) d: + timurlu v: — beylik iade günleri kaynakla; timurlu bitişi Temmuz 1404 (Muharrem 807, TDV Timur)."),
+    "E013": ("YAPAY", "YAPAY-c", "Ecmîr babur t → 1721-01-01 (TDV Ecmîr: 1721'de Racpût hâkimiyeti); 1721 → Maratha yılı arası racput."),
     "E015": ("GERCEK", "GERCEK", "Ecmîr maratha f 1756 → 1770 sınansın (1911 EB 'Ajmere': Bâbürlüler 1770'te Marathalara bıraktı; Racput-Maratha çekişmesi 1818'e dek); E013 bâbür t ucu aynı."),
     "K087": ("YAPAY", "YAPAY-c", "Quivira/Kansas wicita noktası 1719 sonrası dönemi kaldırılsın ya da kaynakla yeniden kurulsun (Handbook of Texas: 1719'a dek grup Oklahoma'ya indi)."),
 }

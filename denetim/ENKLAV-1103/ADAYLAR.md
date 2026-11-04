@@ -32,11 +32,11 @@ Güven: **OLCUM** = yalnız ölçülmüş veri olgusu (noktasızlık, kayıt ala
 
 | kova | OLCUM | KAYNAKLI | KAYNAK-GEREK |
 |---|---|---|---|
-| GERCEK | 0 | 57 | 36 |
+| GERCEK | 0 | 57 | 35 |
 | BIRLESMELI | 10 | 1 | 1 |
 | YAPAY-a | 32 | 0 | 3 |
 | YAPAY-b | 9 | 2 | 2 |
-| YAPAY-c | 16 | 14 | 16 |
+| YAPAY-c | 16 | 17 | 14 |
 | YAPAY-d | 6 | 3 | 0 |
 | YAPAY-k | 5 | 0 | 0 |
 | YAPAY-m | 5 | 2 | 1 |
@@ -196,10 +196,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 34.0 km · racput 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Ecmîr (Ajmer) (babur-imparatorlugu)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı.
-  - önerilen düzeltme: 1720-30'lar Codhpûr fiilî hâkimiyeti sınansın.
-  - kaynak: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı. [KAYNAK-1104 (celiski): Ekber'le başlayan İslâmî dönem 1721'de Racpût hâkimiyetinin tekrar gelmesine kadar sürdü; sonra yerini giderek Maratalar, 1818'de İngilizler aldı. — "1721’de Racpût hâkimiyetinin tekrar gelmesine kadar sürdü" · Atlas Ecmîr babur 1727-1756: TDV'ye göre 1721'den Racpût. Hüküm GERCEK → YAPAY-c; düzeltme: Ecmîr babur t → 1721-01-01, 1721 → Maratha geçişi racput (Maratha yılı: 1911 EB 1770, bkz. E015).] [hüküm GERCEK/GERCEK → YAPAY/YAPAY-c, kaynak üzerine]
+  - önerilen düzeltme: Ecmîr babur t → 1721-01-01 (TDV Ecmîr: 1721'de Racpût hâkimiyeti); 1721 → Maratha yılı arası racput.
+  - kaynak: TDV İslâm Ansiklopedisi, "Ecmîr" (Rıza Kurtuluş), https://islamansiklopedisi.org.tr/ecmir · önceki: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')
 
 ### E014 · İngiliz Hindistanı (Şirket ve Taç Dönemi) (`ingiliz-hindistani`) · 1818-06-25 → 1947-08-15 · 26.574 km²
 
@@ -256,10 +256,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 377.6 km · babur-imparatorlugu 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Kalyani (Basavakalyan) (bicapur)
 - koridor yerleşimleri: Kurnûl (Kurnool) (babur-imparatorlugu); Manyakheta (sahipsiz)
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit. [KAYNAK-1104 (kismen): Evrengzîb 1657 başlarında Âdilşâhî ülkesine girip Bîder ve Kalyan'ı ele geçirdi, sonra barış imzaladı; Bîcâpûr 1686'da Bâbürlülere teslim oldu. — "önce Bîder, sonra da Kalyan şehirlerini ele geçirdi" · Kalyani'nin 1657'de Bâbürlüye geçtiği teyitli: YAPAY-c destekli. 1657 barışında iade edilip edilmediği TDV'de yok.]
   - önerilen düzeltme: Kalyani (Basavakalyan) bicapur dönemi 1657 sonrası kaldırılsın (gün bulunamadı).
-  - kaynak: yalnız Vikipedi ipucu
+  - kaynak: TDV İslâm Ansiklopedisi, "Âdilşâhîler" (Erdoğan Merçil), https://islamansiklopedisi.org.tr/adilsahiler · önceki: yalnız Vikipedi ipucu
 
 ### E019 · Umman-Zengibar Sultanlığı (`umman-zengibar`) · 1893-01-01 → 1893-03-04 · 20.413 km²
 
@@ -2070,10 +2070,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 686.2 km · kakatiya 7/9, yadava 2/9
 - içindeki yerleşimler (8, s.eksklav 0): Madurai (delhi-sultanligi); Nagapatnam (delhi-sultanligi); Tancûr (Thanjavur) (delhi-sultanligi); Trichinopoly (Tiruchirappalli) (delhi-sultanligi); Pondişeri (sahipsiz); Cinci (Gingee) (delhi-sultanligi); Arkot (Arcot) (delhi-sultanligi); Vellor (Vellore) (delhi-sultanligi)
 - koridor yerleşimleri: Kurnûl (Kurnool) (kakatiya); Bîdar (kakatiya)
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (686 km). Madurai, Nagapatnam, Tancûr, Trichinopoly, Cinci, Arkot, Vellor 1311-1323 'delhi-sultanligi': Ala'üddin Halci'nin Malik Kafur akını (1311) kalıcı idare değil; Delhi'nin Ma'bar valiliği 1323 sonrasıdır (tarihsel iddia, kaynak sırasıyla teyit). Dönem uçları akın tarihine dayanıyor olabilir.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: UZAK (686 km). Madurai, Nagapatnam, Tancûr, Trichinopoly, Cinci, Arkot, Vellor 1311-1323 'delhi-sultanligi': Ala'üddin Halci'nin Malik Kafur akını (1311) kalıcı idare değil; Delhi'nin Ma'bar valiliği 1323 sonrasıdır (tarihsel iddia, kaynak sırasıyla teyit). Dönem uçları akın tarihine dayanıyor olabilir. [KAYNAK-1104 (kismen): Alâeddin döneminde Devâgirî, Telingana, Dvârasamudra ve Madura Halacî üstünlüğünü kabul edip vergiye bağlandı (ilhak değil); Ma'ber Delhi'nin en güney eyaleti iken Celâleddin Ahsen Şah'ın isyanıyla 735/1334-35'te Delhi idaresinden çıktı. — "Dvârasamudra ve Madura gibi vilâyetler Delhi Halacîleri’nin üstünlüğünü kabul ederek vergiye bağlandılar" · 1311-1323 Madura için Delhi d: dönemi YAPAY-c destekli: o aralık en çok v: (vergili tâbi). Eyalet (d:) başlangıç günü TDV'de yok; bitiş 1334-35 (735 ∩ 1334 → 1334-08-30) teyitli.]
   - önerilen düzeltme: Güney Hindistan noktalarının delhi-sultanligi f ucu: Imperial Gazetteer (dsal) Madura/Ma'bar ile teyit (gün bulunamadı).
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: TDV İslâm Ansiklopedisi, "Halacîler" (Enver Konukçu), https://islamansiklopedisi.org.tr/halaciler; "Tuğluklular" (S. Haluk Kortel), https://islamansiklopedisi.org.tr/tugluklular · önceki: bulunamadı (UZAK)
 
 ### K049 · Maratha Konfederasyonu (`maratha`) · 1732-01-01 → 1818-06-03 · 129.443 km²
 

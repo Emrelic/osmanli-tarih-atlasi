@@ -3,7 +3,7 @@
 Üreten: LAB SALI, `kasa_liste_yaz.py` ← `hukumler.json`. Her satır bir aday; ayrıntı `ADAYLAR.md`.
 **Güven sırası:** KAYNAKLI (kaynak okundu) → OLCUM (veri olgusu; tarih gerektiren düzeltmede yine kaynak ister) → KAYNAK-GEREK (önce kaynak sırasıyla teyit; gün uydurulmaz). CLAUDE.md değişmezleri geçerlidir: her veri değişikliğinden sonra `denetle`, kronoloji maddesi (Değişmez 2).
 
-Sayım: GERCEK 93 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 46 · YAPAY-d 9 · YAPAY-k 5 · YAPAY-a 35 · YAPAY-m 8
+Sayım: GERCEK 92 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 47 · YAPAY-d 9 · YAPAY-k 5 · YAPAY-a 35 · YAPAY-m 8
 
 ## BIRLESMELI — ara yerleşime dönem yazılınca parça ana gövdeye bağlanır (12)
 
@@ -40,11 +40,13 @@ Sayım: GERCEK 93 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 46 · YAPAY-d 9 · Y
 | E002 | almanya 1941–1944 | KAYNAK-GEREK | Model kararı (KASA/koordinatör): Ostland–Almanya askerî idare bağlılığı beyan ya da tek tutucu. Veri: Sol yaka Ukrayna şehirlerine 1941-43 işgal dönemleri (E046 kovası). |
 | E021 | uzak-dogu-cumhuriyeti 1920–1922 | KAYNAK-GEREK | Irgen ve Zabaykalye/Amur noktalarına 1920-1922 UDC dönemi (gün bulunamadı; kuruluş ve Çita başkent geçişi kaynakla sınansın). |
 
-## YAPAY-c — parçanın içindeki yerleşimin dönemi yanlış (46)
+## YAPAY-c — parçanın içindeki yerleşimin dönemi yanlış (47)
 
 | aday | devlet · yıllar | güven | düzeltme |
 |---|---|---|---|
 | E001 | timurlu 1383–1387 | KAYNAKLI | Sultâniye, Sakkız, Merîvan: timurlu f → 1385 (gün bulunamadı), öncesi celayirli. Tahran, Kazvin 1383-87 sahibi kaynakla sınansın. Parça içindeki sahipsiz noktalar (Senendec, Bîcâr, Bâne, Ebher…) Değişmez 1 açısından ayrıca bakılsın. |
+| E013 | babur-imparatorlugu 1727–1756 | KAYNAKLI | Ecmîr babur t → 1721-01-01 (TDV Ecmîr: 1721'de Racpût hâkimiyeti); 1721 → Maratha yılı arası racput. |
+| E018 | bicapur 1686–1686 | KAYNAKLI | Kalyani (Basavakalyan) bicapur dönemi 1657 sonrası kaldırılsın (gün bulunamadı). |
 | E028 | timurlu 1401–1405 | KAYNAKLI | Bağdat timurlu f → 1401-07 (gün bulunamadı); t 1405-01-01 teyit. |
 | E056 | OSMANLI 1913–1913 | KAYNAKLI | Kırcaali d t → Bulgar işgali (1912 sonu, kaynakla) ve Garbî Trakya Hükûmeti (Ağustos-Ekim 1913) dönemi; gün bulunamadı. |
 | E058 | lehistan 1649–1654 | KAYNAKLI | Kremençuk kazak-hetmanligi 1648 → 1765 (gün bulunamadı); lehistan t → 1648. |
@@ -54,6 +56,7 @@ Sayım: GERCEK 93 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 46 · YAPAY-d 9 · Y
 | K036 | OSMANLI 1832–1841 | KAYNAKLI | Maan, Kerak, Tebük, el-Vech, Medâin-i Sâlih, el-Ulâ: 1832/33-1840/41 v (misir-kavalali) dönemi, gün TDV/İSAM kaynakla; Hicaz ve Ürdün sahipsiz noktaları için sahip. |
 | K038 | kongo-serbest-devleti 1885–1888 | KAYNAKLI | Sandoa, Musumba KSD başlangıcı kaynakla (Lunda ilhakı 1890'lar); İlebo sahipsiz. |
 | K044 | timurlu 1402–1404 | KAYNAKLI | Denizli, Söke, Burdur, Isparta vb. 1402-08 sonrası ilgili beylik (Germiyan/Menteşe/Aydın/Hamîd/Karaman) d: + timurlu v: — beylik iade günleri kaynakla; timurlu bitişi Temmuz 1404 (Muharrem 807, TDV Timur). |
+| K048 | delhi-sultanligi 1311–1323 | KAYNAKLI | Güney Hindistan noktalarının delhi-sultanligi f ucu: Imperial Gazetteer (dsal) Madura/Ma'bar ile teyit (gün bulunamadı). |
 | K061 | ingiltere 1776–1783 | KAYNAKLI | Atlantik kıyısı noktaları 1776-07-04 -> 1783-09-03 abd (fiilî) ya da hepsi ingiltere; İngiliz işgal pencereleri (Norfolk 1776, Wilmington 1781-82) kaynakla. |
 | K062 | ingiltere 1876–1899 | KAYNAKLI | Blantyre/Zomba/Mangoçi 'ingiltere' f ucu kaynakla (1889-1891), öncesi yerel devlet (yao/maravi). |
 | K066 | ingiltere 1776–1783 | KAYNAKLI | Yeni İngiltere noktaları 1776-07-04 f abd; Penobscot/Pemaquid İngiliz işgal penceresi (1779) kaynakla. |
@@ -77,14 +80,12 @@ Sayım: GERCEK 93 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 46 · YAPAY-d 9 · Y
 | E006 | ingiliz-hindistani 1803–1818 | KAYNAK-GEREK | Wadhwan, Dholka: 1818 öncesi ingiliz-hindistani dönemi kaldırılsın/düzeltilsin; gün bulunamadı. |
 | E008 | racput 1311–1365 | KAYNAK-GEREK | Çitor racput f 1311 → 1321/1326 (kaynak çelişkisi ic_not'a); öncesi delhi-sultanligi. |
 | E010 | nogay 1556–1663 | KAYNAK-GEREK | Penza: kur 1663 (gün bulunamadı), nogay dönemleri silinsin; toprak komşu peteklere kalır. |
-| E018 | bicapur 1686–1686 | KAYNAK-GEREK | Kalyani (Basavakalyan) bicapur dönemi 1657 sonrası kaldırılsın (gün bulunamadı). |
 | E019 | umman-zengibar 1893–1893 | KAYNAK-GEREK | Nyangwe 1893 öncesi sahibi kaynakla; Kongo Serbest Devleti 04.03.1893 (teyitsiz). |
 | E043 | celayirli 1340–1353 | KAYNAK-GEREK | Siirt celayirli f yıl-teyitsiz; ilhanli/celayirli geçişi komşularla hizalansın (gün bulunamadı). |
 | E045 | macaristan-habsburg 1526–1530 | KAYNAK-GEREK | Gyula dönemi kaynakla (Zapolya mı Ferdinand mı); gün bulunamadı. |
 | E065 | babur-imparatorlugu 1753–1757 | KAYNAK-GEREK | Dholka Maratha f ve Ahmedabad f hizalansın (Imperial Gazetteer 'Gujarat' bakılmalı); gün bulunamadı. |
 | E066 | fransa-cumhuriyet 1918–1920 | KAYNAK-GEREK | Malikiye f kaynakla (Fransız işgal tarihi); gün bulunamadı. |
 | E088 | nijerya 1967–1970 | KAYNAK-GEREK | Aroçukvu'ya biafra dönemi 1967-05-30 → Nijerya ele geçirişi (gün bulunamadı). |
-| K048 | delhi-sultanligi 1311–1323 | KAYNAK-GEREK | Güney Hindistan noktalarının delhi-sultanligi f ucu: Imperial Gazetteer (dsal) Madura/Ma'bar ile teyit (gün bulunamadı). |
 | K053 | avusturya 1918–1919 | KAYNAK-GEREK | Ljubljana/Maribor/Celje: SHS Devleti dönemi (29.10.1918) ve atlasın yugoslavya f ucu uyumu, kaynakla (gün bulunamadı). |
 | K076 | babur-imparatorlugu 1753–1760 | KAYNAK-GEREK | Ahmednagar 1753-1759 Nizam mı Maratha mı kaynak (gün bulunamadı); Nâsik, Broaç sahipliği. |
 | K085 | delhi-sultanligi 1394–1479 | KAYNAK-GEREK | Patna/Gayâ 1394-1497 sahibi Cevnpur/Bengal (kaynakla gün). |

@@ -97,12 +97,12 @@
 "kaynak": "bulunamadı"
 },
 "E013": {
-"hukum": "GERCEK",
-"kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı.",
-"duzeltme": "1720-30'lar Codhpûr fiilî hâkimiyeti sınansın.",
-"kaynak": "bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')"
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Ecmîr Bâbürlü sûbesi, Racput devletleri içinde; alan tek noktanın peteği (26.574 km²) — abartılı. [KAYNAK-1104 (celiski): Ekber'le başlayan İslâmî dönem 1721'de Racpût hâkimiyetinin tekrar gelmesine kadar sürdü; sonra yerini giderek Maratalar, 1818'de İngilizler aldı. — \"1721’de Racpût hâkimiyetinin tekrar gelmesine kadar sürdü\" · Atlas Ecmîr babur 1727-1756: TDV'ye göre 1721'den Racpût. Hüküm GERCEK → YAPAY-c; düzeltme: Ecmîr babur t → 1721-01-01, 1721 → Maratha geçişi racput (Maratha yılı: 1911 EB 1770, bkz. E015).] [hüküm GERCEK/GERCEK → YAPAY/YAPAY-c, kaynak üzerine]",
+"duzeltme": "Ecmîr babur t → 1721-01-01 (TDV Ecmîr: 1721'de Racpût hâkimiyeti); 1721 → Maratha yılı arası racput.",
+"kaynak": "TDV İslâm Ansiklopedisi, \"Ecmîr\" (Rıza Kurtuluş), https://islamansiklopedisi.org.tr/ecmir · önceki: bulunamadı (Imperial Gazetteer 'Ajmer-Merwara')"
 },
 "E014": {
 "hukum": "GERCEK",
@@ -139,10 +139,10 @@
 "E018": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit.",
+"guven": "KAYNAKLI",
+"gerekce": "Kalyani 1657'de Bâbürlülere geçti; 1686'da Bîcâpûr'un değildi. 10 günlük kesit. [KAYNAK-1104 (kismen): Evrengzîb 1657 başlarında Âdilşâhî ülkesine girip Bîder ve Kalyan'ı ele geçirdi, sonra barış imzaladı; Bîcâpûr 1686'da Bâbürlülere teslim oldu. — \"önce Bîder, sonra da Kalyan şehirlerini ele geçirdi\" · Kalyani'nin 1657'de Bâbürlüye geçtiği teyitli: YAPAY-c destekli. 1657 barışında iade edilip edilmediği TDV'de yok.]",
 "duzeltme": "Kalyani (Basavakalyan) bicapur dönemi 1657 sonrası kaldırılsın (gün bulunamadı).",
-"kaynak": "yalnız Vikipedi ipucu"
+"kaynak": "TDV İslâm Ansiklopedisi, \"Âdilşâhîler\" (Erdoğan Merçil), https://islamansiklopedisi.org.tr/adilsahiler · önceki: yalnız Vikipedi ipucu"
 },
 "E019": {
 "hukum": "YAPAY",
@@ -1355,10 +1355,10 @@
 "K048": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "UZAK (686 km). Madurai, Nagapatnam, Tancûr, Trichinopoly, Cinci, Arkot, Vellor 1311-1323 'delhi-sultanligi': Ala'üddin Halci'nin Malik Kafur akını (1311) kalıcı idare değil; Delhi'nin Ma'bar valiliği 1323 sonrasıdır (tarihsel iddia, kaynak sırasıyla teyit). Dönem uçları akın tarihine dayanıyor olabilir.",
+"guven": "KAYNAKLI",
+"gerekce": "UZAK (686 km). Madurai, Nagapatnam, Tancûr, Trichinopoly, Cinci, Arkot, Vellor 1311-1323 'delhi-sultanligi': Ala'üddin Halci'nin Malik Kafur akını (1311) kalıcı idare değil; Delhi'nin Ma'bar valiliği 1323 sonrasıdır (tarihsel iddia, kaynak sırasıyla teyit). Dönem uçları akın tarihine dayanıyor olabilir. [KAYNAK-1104 (kismen): Alâeddin döneminde Devâgirî, Telingana, Dvârasamudra ve Madura Halacî üstünlüğünü kabul edip vergiye bağlandı (ilhak değil); Ma'ber Delhi'nin en güney eyaleti iken Celâleddin Ahsen Şah'ın isyanıyla 735/1334-35'te Delhi idaresinden çıktı. — \"Dvârasamudra ve Madura gibi vilâyetler Delhi Halacîleri’nin üstünlüğünü kabul ederek vergiye bağlandılar\" · 1311-1323 Madura için Delhi d: dönemi YAPAY-c destekli: o aralık en çok v: (vergili tâbi). Eyalet (d:) başlangıç günü TDV'de yok; bitiş 1334-35 (735 ∩ 1334 → 1334-08-30) teyitli.]",
 "duzeltme": "Güney Hindistan noktalarının delhi-sultanligi f ucu: Imperial Gazetteer (dsal) Madura/Ma'bar ile teyit (gün bulunamadı).",
-"kaynak": "bulunamadı (UZAK)"
+"kaynak": "TDV İslâm Ansiklopedisi, \"Halacîler\" (Enver Konukçu), https://islamansiklopedisi.org.tr/halaciler; \"Tuğluklular\" (S. Haluk Kortel), https://islamansiklopedisi.org.tr/tugluklular · önceki: bulunamadı (UZAK)"
 },
 "K049": {
 "hukum": "GERCEK",
