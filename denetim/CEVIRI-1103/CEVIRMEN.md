@@ -48,6 +48,24 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
      `#` şablonları ve tarih denetimi rakam üzerinden çalışır. MÖ → ق.م (sayıdan sonra:
      "500 ق.م"), MS → م. Hicrî aylar Arapça adıyla (محرم، صفر، ربيع الأول …).
    - Latin harfli kısaltma, kaynak adı, dosya adı (TDV, Shaw, data/devletler.js) aynen kalır.
+3b. **İspanyolca (es) ölçüsü:** İspanyolca akademik tarih yazımının yerleşik adları (Enciclopedia
+   del Islam, İspanyolca Osmanlı/Bizans tarihi yayınları). Akademik ve sade, nötr İspanyolca.
+   Düğme dili kısa ("Mostrar", "Cerrar").
+   - Imperio otomano; sultán; gran visir; jenízaros; beylerbeyi → beylerbeyi; sancak → sanjacado
+     (sancak adı olarak geçerse sancak); timar → timar; devşirme → devshirme; kadı → cadí;
+     şeyhülislâm → sheij al-Islam.
+   - Kent **29 Mayıs 1453 fethine kadar (kuşatma dahil) Constantinopla**, sonrası **Estambul**
+     (metin "Kostantiniyye" diyorsa Constantinopla). Edirne: fetihten önce Adrianópolis, sonra
+     Edirne. Belgrad → Belgrado, Viyana → Viena, Mora → Morea, Rumeli → Rumelia, Eflak → Valaquia,
+     Boğdan → Moldavia, Erdel → Transilvania, Kırım Hanlığı → Kanato de Crimea, Memlükler →
+     mamelucos / sultanato mameluco, Selçuklular → selyúcidas, Safevîler → safávidas, Akkoyunlu →
+     Ak Koyunlu, Karakoyunlu → Kara Koyunlu, Venedik → Venecia.
+   - Kişiler: Mehmed II, Bayezid I, Solimán I (el Magnífico yalnız metin lakabı veriyorsa; Kanuni →
+     el Legislador), Murad, Selim; Batılılar İspanyolcadaki yerleşik adla (Carlos V, Sacro Imperio
+     Romano Germánico).
+   - Rakamlar Batı rakamı; `#` şablonları ve tarih denetimi rakamla çalışır. MÖ → a. C., MS → d. C.
+     Ay adları küçük harfle (enero, febrero …). Ters soru/ünlem işareti (¿ ¡) kullan.
+   - Uydurma ad üretme: emin değilsen modern Türkçe yazımı bırak.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
