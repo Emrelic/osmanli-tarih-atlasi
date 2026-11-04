@@ -41,7 +41,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | nijni-novgorod-suzdal | 1341-01-01 → 1392-01-01 | = → 1391-01-01 | DUZELT | EMRELİC Cambridge — CHR I, ch.6, s.155: f 1341 teyitli · ch.7, s.168: 'in 1391, with the agreement of Tokhtamysh, was detached from Suzdal' and attached to Moscow' (t 1392 → 1391) |
 | beloozero-knezligi | 1238-01-01 → 1389-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHR I, ch.7, s.169: Dmitri Donskoy'un edinimleri arasında (yıl yok); f 1238 ve t 1389 teyitsiz |
 | rusya-gecici-hukumet | 1917-03-15 → 1917-11-07 | = → = | TEYIT | EMRELİC Cambridge — CHR III, ch.4, s.115, 135: 2 Mart / 25 Ekim 1917 (Jülyen) = Gregoryen 15 Mart / 7 Kasım (gün teyitli) |
-| sovyet-rusya | 1917-11-07 → 1991-12-26 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Russia III — 1917-11-07 / 1991-12-26 |
+| sovyet-rusya | 1917-11-07 → 1991-12-26 | = → = | KISMEN | EMRELİC Cambridge — Cambridge History of Russia III, ch.4 (S. A. Smith): 'By the morning of 25 October only the Winter Palace remained' — Jülyen 25 Ekim = Gregoryen 7 Kasım 1917 (dönüşüm LAB'ın, beyan) (f gün teyitli; t 1991-12-26 bu ciltte yok) |
 | guney-rusya-beyaz | 1919-01-08 → 1920-11-14 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Russia III ya da Kenez, Civil War in South Russia — 1919-01-08 / 1920-11-14 |
 | bohemya | 1198-01-01 → 1526-12-05 | = → = | GIRISLI | GİRİŞLİ: Agnew, The Czechs and the Lands of the Bohemian Crown (Hoover 2004) — 1198 kalıtsal krallık / 1526 Habsburg seçimi (12-05?) |
 | iskocya | 0843-01-01 → 1707-05-01 | = → = | GIRISLI | GİRİŞLİ: Oxford Companion to Scottish History — 843 Kenneth mac Alpin / 1707-05-01 Birlik Yasası |
@@ -79,7 +79,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | cammu-kesmir | 1846-03-16 → 1947-10-26 | = → = | KISMEN | TDV kesmir — 'mihrace unvanıyla Cammû-Keşmir bölgesinin hâkimiyetini tamamen ele geçirdi (1846)' · '22 Ekim 1947’de … gruplar Keşmir’i kurtarmak istediler' (f yıl teyitli, 03-16 Emritsar günü teyitsiz; t 1947-10-26 katılım belgesi bu alıntıda yok) |
 | zaporojye | 1552-01-01 → 1775-06-16 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Russia II (Lieven, ed.: Imperial Russia 1689-1917) / Encyclopedia of Ukraine — f 1552-01-01 / t 1775-06-16 (bölüm: eserin dizininden) |
 | vijayanagara | 1336-01-01 → 1646-01-01 | = → = | GIRISLI | GİRİŞLİ: Stein, Vijayanagara (New Cambridge History of India I.2) — f 1336-01-01 / t 1646-01-01 (bölüm: eserin dizininden) |
-| maratha | 1674-06-06 → 1818-06-03 | = → = | GIRISLI | GİRİŞLİ: Gordon, The Marathas 1600-1818 (New Cambridge History of India II.4) — f 1674-06-06 / t 1818-06-03 (bölüm: eserin dizininden) |
+| maratha | 1674-06-06 → 1818-06-03 | = → = | KISMEN | EMRELİC Cambridge — Gordon, The Marathas 1600-1818 (NCHI II.4), ch.3: taç giyme 'over the course of nine days' (f 1674 yıl; 06-06 günü yok) · epilog s.175-177: Şubat 1818'de Peşva resmen azledildi, 'within a few months, he surrendered' (t 1818 yıl; 06-03 günü yok) |
 | sih-imparatorlugu | 1801-04-12 → 1849-03-29 | = → = | GIRISLI | GİRİŞLİ: Grewal, The Sikhs of the Punjab (New Cambridge History of India II.3) — f 1801-04-12 / t 1849-03-29 (bölüm: eserin dizininden) |
 | xi-liang-li-gao | 0400-01-01 → 0421-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China II (Six Dynasties) — f 0400-01-01 / t 0421-01-01 (bölüm: eserin dizininden) |
 | goryeo | 0918-07-25 → 1392-08-05 | = → = | GIRISLI | GİRİŞLİ: Lee Ki-baik, A New History of Korea (Harvard UP) / Cambridge History of Korea I — f 0918-07-25 / t 1392-08-05 (bölüm: eserin dizininden) |
@@ -357,4 +357,4 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | ceibal | 0411-01-01 → 0889-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden) |
 | cholula | 0700-01-01 → 1519-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0700-01-01 / t 1519-01-01 (bölüm: eserin dizininden) |
 
-Sayım: GIRISLI 267 · KISMEN 41 · TEYIT 21 · DUZELT 20 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
+Sayım: GIRISLI 265 · KISMEN 43 · TEYIT 21 · DUZELT 20 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
