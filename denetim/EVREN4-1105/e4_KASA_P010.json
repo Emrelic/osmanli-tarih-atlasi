@@ -1,0 +1,1398 @@
+{
+ "Hâş": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 742] [KÜME K20] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1335-12-01",
+   "t": "1393-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 743] TDV belucistan: bölge 'Gazneliler, Gūrîler, İlhanlılar, Safevîler ve Afganlılar’ın hâkimiyetini yaşadı'; Muzafferî/Timurlu/Karakoyunlu/Akkoyunlu yok. Hâş için yerleşime özgü tanıklık yok (TDV'de hâş maddesi aranmadı — ad belirsiz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1393-01-01",
+   "t": "1452-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 744] TDV belucistan: bölge 'Gazneliler, Gūrîler, İlhanlılar, Safevîler ve Afganlılar’ın hâkimiyetini yaşadı'; Muzafferî/Timurlu/Karakoyunlu/Akkoyunlu yok. Hâş için yerleşime özgü tanıklık yok (TDV'de hâş maddesi aranmadı — ad belirsiz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1452-01-01",
+   "t": "1469-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 745] TDV belucistan: bölge 'Gazneliler, Gūrîler, İlhanlılar, Safevîler ve Afganlılar’ın hâkimiyetini yaşadı'; Muzafferî/Timurlu/Karakoyunlu/Akkoyunlu yok. Hâş için yerleşime özgü tanıklık yok (TDV'de hâş maddesi aranmadı — ad belirsiz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 746] TDV belucistan: bölge 'Gazneliler, Gūrîler, İlhanlılar, Safevîler ve Afganlılar’ın hâkimiyetini yaşadı'; Muzafferî/Timurlu/Karakoyunlu/Akkoyunlu yok. Hâş için yerleşime özgü tanıklık yok (TDV'de hâş maddesi aranmadı — ad belirsiz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1503-01-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 747] TDV belucistan Safevî hâkimiyetini yıl vermeden anar; f 1503 / t 1736 Hâş için teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 748] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "Kelât Hanı Nâsır Han Belûc (1750-1795) … bütün Belûcistan topraklarını birleştirdi",
+   "oneri": {
+    "d": "kalat-hanligi",
+    "f": "1750-01-01"
+   },
+   "not": "[sira 749] [KÜME K26] [KÜME K26] istisnası: BÖLGEYE ÖZGÜ çelişki — İran Belûcistanı Zend değil Kelât Hanlığı'nın elindeydi (sira 750 ile birlikte). Künye kalat-hanligi (1666-1948) var. YIL düzeyi (Nâsır Han'ın saltanat başı; birleştirme yılı kaynakta yok) BEYANLI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2200",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "İran Belûcistanı Kaçarlar zamanında Kelât Hanlığı’nın hâkimiyetinden çıktı ve 1872 yılında",
+   "oneri": {
+    "d": "kalat-hanligi",
+    "bolme": "1794 → Kaçar'ın Belûcistan'ı aldığı gün (kaynakla; ≤1872) kalat-hanligi; sonra kacar → 1925-10-31"
+   },
+   "not": "[sira 750] [KÜME K24] [KÜME K24] istisnası: BÖLGEYE ÖZGÜ çelişki. Kaçar geçiş günü TDV'de yok (yalnız 1872 sınır tesbiti, Goldsmid). TARAYICI: Iranica 'BALUCHISTAN i. Geography, History and Ethnography'."
+  }
+ ],
+ "Garabogaz (Bekdaş)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2330",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1869-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Türkmenistan' (https://islamansiklopedisi.org.tr/turkmenistan)",
+   "alinti": "1874’te Ruslar, Kafkas Askerî Valiliği’ne bağlı Hazar Ötesi Bölgesi Valiliği’ni kurduklarını ilân ederek",
+   "oneri": {
+    "f": "1874-01-01"
+   },
+   "not": "[sira 751] Kızılarvat emsali (fetih işgal, s: idareye katma gününden). 1869: 'Önce Türkmenistan’ın Hazar sahilinde yer alan Kızılsu’ya yerleşen Ruslar' — askerî üs; ÖLÇÜT: idareye katma — Hazar Ötesi Bölgesi Valiliği 1874 (YIL). t [KÜME K01]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2330",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 752] [KÜME K04] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2330",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1502-01-01",
+   "t": "1512-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Türkmenistan' (https://islamansiklopedisi.org.tr/turkmenistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 753] TDV türkmenistan'da Garabogaz/Mangışlak kıyısı için Buhara (1502-1512) / Hîve (1512-1600) dönemi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2330",
+   "alan": "s",
+   "d": "hive",
+   "f": "1512-01-01",
+   "t": "1600-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Türkmenistan' (https://islamansiklopedisi.org.tr/turkmenistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 754] TDV türkmenistan'da Garabogaz/Mangışlak kıyısı için Buhara (1502-1512) / Hîve (1512-1600) dönemi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2330",
+   "alan": "s",
+   "d": "turkmen",
+   "f": "1600-01-01",
+   "t": "1869-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Türkmenistan' (https://islamansiklopedisi.org.tr/turkmenistan)",
+   "alinti": "1874’te Ruslar, Kafkas Askerî Valiliği’ne bağlı Hazar Ötesi Bölgesi Valiliği’ni kurduklarını ilân ederek",
+   "oneri": {
+    "t": "1874-01-01"
+   },
+   "not": "[sira 755] t sira 751 ile birlikte. f 1600 BULUNAMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2330",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 756] [KÜME K01] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2330",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-10-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 757] [KÜME K02] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2330",
+   "alan": "s",
+   "d": "turkmenistan",
+   "f": "1991-10-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Türkmenistan' (https://islamansiklopedisi.org.tr/turkmenistan) · Türkmenistan Kabil Büyükelçiliği (https://afghanistan.tmembassy.gov.tm/en/news/78070)",
+   "alinti": "27 Ekim 1991’de toplanan Türkmenistan Parlamentosu Türkmenistan’ın bağımsızlığını ilân etmiştir",
+   "oneri": {},
+   "not": "[sira 758] EMRELİC kuralı (bağımsızlık ilanı). ic_not: 'SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991'. Çift teyit (elçilik: 'Constitutional Law on Independence … on October 27, 1991')."
+  }
+ ],
+ "Siverek": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2501",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1465-01-01",
+   "t": "1507-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Diyarbakır' (https://islamansiklopedisi.org.tr/diyarbakir)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 759] f 1465 Siverek'in Akkoyunlu'ya geçişi TDV diyarbakir'de yok (TDV'de siverek maddesi yok). t ÜLKE: '1507’de … Emîr Bey Şah İsmâil’e itaatini sunarak idaresi altındaki yerleri ona teslim etti'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2501",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1507-01-01",
+   "t": "1516-05-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Diyarbakır' (https://islamansiklopedisi.org.tr/diyarbakir)",
+   "alinti": "1507’de … Emîr Bey Şah İsmâil’e itaatini sunarak idaresi altındaki yerleri ona teslim etti",
+   "oneri": {},
+   "not": "[sira 760] f ÜLKE/BÖLGE düzeyi. t 1516-05-01 teyitsiz: Âmid '10 Eylül 1515’te … Osmanlı idaresine girmiş', 'Mayıs 1517’de Mardin … Ruha (Urfa)' — Siverek günü bu aralıkta, kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2501",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1465-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 761] [KÜME K14] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2501",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 762] [KÜME K05] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2501",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1516-05-01",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Diyarbakır' (https://islamansiklopedisi.org.tr/diyarbakir)",
+   "alinti": "1518 yılında yapılan tahrire göre Diyarbekir beylerbeyiliğine bağlı on iki sancak vardı",
+   "oneri": {},
+   "not": "[sira 763] TAHRİR: 1518 tahririnde Siverek sancak (BA TD 64). f günü 1516-05-01 kaynakta yok (1515-09-10 ile 1517-05 arası) — YIL düzeyi BEYANLI. t [KÜME K05]."
+  }
+ ],
+ "Balaklava (Cembalo)": [
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:171",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 764] [KÜME K01] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:171",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 765] [KÜME K02] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:171",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1783-04-19",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), 'Balaklava' (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CA%5CBalaklava.htm) · TDV İslâm Ansiklopedisi, 'Kırım' (H. İnalcık, H. Kırımlı) (https://islamansiklopedisi.org.tr/kirim)",
+   "alinti": "in 1475 by the Turks … and in 1783 by the Russians",
+   "oneri": {},
+   "not": "[sira 766] Jülyen: TDV kirim 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)' = Gregoryen 1783-04-19. t [KÜME K01]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:171",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1475-06-06",
+   "t": "1774-07-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kırım' (H. İnalcık, H. Kırımlı) (https://islamansiklopedisi.org.tr/kirim) · Encyclopedia of Ukraine (CIUS), 'Balaklava' (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CA%5CBalaklava.htm)",
+   "alinti": "Yarımadada Kerç’ten itibaren Balıklava’ya kadar uzanan sahiller doğrudan Osmanlı kontrolü altına alındı",
+   "oneri": {},
+   "not": "[sira 767] TAHRİR: 1530 icmal / 1542 tahrir defterlerinde Balıklava 950 nüfus. f YIL (880/1475), gün komşudan Kefe 1475-06-06. t ÜLKE: Küçük Kaynarca (21 Temmuz 1774) md.3 — Balıklava bağımsız Kırım Hanlığı'na geçti. Çift teyit (EU 'in 1475 by the Turks')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:171",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1357-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 768] [KÜME K04] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kirim.js:171",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1771-07-01",
+   "t": "1774-07-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kırım' (H. İnalcık, H. Kırımlı) (https://islamansiklopedisi.org.tr/kirim)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 769] TDV kirim: '1772’de Rus işgali altında toplanan kurultayda' — işgali teyit eder, ama f 1771-07-01 günü/yılı yerleşime özgü okunmadı. t Küçük Kaynarca 1774-07-21 KAYNAKLI."
+  }
+ ],
+ "Rın kumulları (Volga-Yayık arası)": [
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:159",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 770] [KÜME K04] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:159",
+   "alan": "s",
+   "d": "nogay",
+   "f": "1502-03-01",
+   "t": "1556-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nogaylar' (https://islamansiklopedisi.org.tr/nogaylar)",
+   "alinti": "Kalmuklar’ın ağır baskısı sonucu Nogaylar’dan bir bölümü … Kalmuklar’ın idaresi altına girdi",
+   "oneri": {
+    "t": "1632-01-01"
+   },
+   "not": "[sira 771] f 1502 ÜLKE (Altın Orda 1241-1502, TDV ilişkili madde). t 1556 Astarhan'ın düşüşüdür; TDV Büyük Nogay Ordası'nın 1563-1590'da Rus baskısı altında sürdüğünü yazar — Volga-Yayık arası 1556'da Rus olmadı. Kalmuk geçişi XVII. yy; gün olarak künye kalmuk-hanligi f 1632-01-01 (künye günü, kaynak değil — BEYANLI)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:159",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1556-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nogaylar' (https://islamansiklopedisi.org.tr/nogaylar)",
+   "alinti": "Kalmuklar’ın ağır baskısı sonucu Nogaylar’dan bir bölümü … Kalmuklar’ın idaresi altına girdi",
+   "oneri": {
+    "f": "1771-01-05",
+    "bolme": "1556 → 1632 nogay (sira 771); 1632-01-01 → 1771-01-05 kalmuk-hanligi; 1771-01-05 → rusya"
+   },
+   "not": "[sira 772] Kalmuk Hanlığı'nın 1771'de kaldırılmasından sonra Rus doğrudan idaresi; 1801 Bökey Ordası (Rus tâbi) ic_not. Kalmuk uçları künyeden (kaynak aranmalı). t [KÜME K01]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:159",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 773] [KÜME K01] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:159",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 774] [KÜME K02] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:159",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "adilet.zan.kz (Z910004400_)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 775] Sayfa JS ile yükleniyor, ham metin boş (sayfa.py 197 bayt; WebFetch yalnız başlık). TARAYICI: adilet.zan.kz/eng/docs/Z910004400_ (16 Aralık 1991 Devlet Bağımsızlığı Anayasal Kanunu)."
+  }
+ ],
+ "Tuzla (Bosna)": [
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:292",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1908-10-05",
+   "t": "1918-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija, 'Tuzla' (https://www.enciklopedija.hr/clanak/tuzla)",
+   "alinti": "Tuzla se za austrougarske uprave (1878–1918) razvila",
+   "oneri": {},
+   "not": "[sira 776] YIL düzeyi. 1908-10-05 ilhak günü HE'de yok (ÜLKE DÜZEYİ, ilhak bildirisi). t 1918 YIL."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:292",
+   "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1918-11-11",
+   "t": "1918-12-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Hrvatska enciklopedija, 'Tuzla' (https://www.enciklopedija.hr/clanak/tuzla)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 777] HE Tuzla 1918 Kasım geçişini anmıyor. İPUCU: Bosna 1918-10-29'dan Sloven-Hırvat-Sırp Devleti'ndeydi (Sırbistan Krallığı değil); künye yok (devletler.js'te SHS Devleti yok) — LAB künye sorusu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:292",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1918-12-01",
+   "t": "1945-11-29",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija, 'Tuzla' (https://www.enciklopedija.hr/clanak/tuzla)",
+   "alinti": "Za II. svjetskog rata bila je u sastavu NDH kao sjedi[šte]",
+   "oneri": {
+    "bolme": "yugoslavya 1918-12-01 → 1941-04 (NDH ilanı 1941-04-10, ÜLKE); hirvatistan-bagimsiz 1941-04-10 → Tuzla'nın kurtuluşu (gün kaynakla; İPUCU 1943-10 kısa partizan dönemi, kesin 1945); sonra yugoslavya"
+   },
+   "not": "[sira 778] Künye hirvatistan-bagimsiz var. Gün kaynakla bulunmalı (HE yalnız 'II. svjetskog rata')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:292",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1460-01-01",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "kaynak": "Hrvatska enciklopedija, 'Tuzla' (https://www.enciklopedija.hr/clanak/tuzla)",
+   "alinti": "pale su 1460. Od 1463. do 1510-ih bile su u sastavu hrvatsko-ugarske Srebreničke banovine",
+   "oneri": {
+    "bolme": "d: 1460 → 1463; s: macaristan 1463 → 1510'lar (Srebrenik banlığı; gün kaynakla); d: 1510'lar → 1908-10-05"
+   },
+   "not": "[sira 779] f 1460 KAYNAKLI (YIL). TAHRİR: 'Prije 1515. uspostavljene su nahije Gornja i Donja Tuzla' — 1515 öncesi nahiye. Künye macaristan var."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:292",
+   "alan": "isg",
+   "d": "avusturya",
+   "f": "1878-07-29",
+   "t": "1908-10-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Hrvatska enciklopedija, 'Tuzla' (https://www.enciklopedija.hr/clanak/tuzla)",
+   "alinti": "Tuzla se za austrougarske uprave (1878–1918) razvila",
+   "oneri": {},
+   "not": "[sira 780] f YIL (1878; gün Berlin sonrası işgal kayıttan). Berlin Antlaşması Osmanlı egemenliğini saklı tuttu → isg doğru. t 1908 ÜLKE."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:292",
+   "alan": "s",
+   "d": "bosna-hersek",
+   "f": "1992-03-03",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 781] Bütçe: künye bosna-hersek f 1992-03-03 yeniden sınanmadı."
+  }
+ ],
+ "Yediçkul bozkırı": [
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:98",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 782] [KÜME K04] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:98",
+   "alan": "s",
+   "d": "kirim",
+   "f": "1774-07-21",
+   "t": "1783-04-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kırım' (H. İnalcık, H. Kırımlı) (https://islamansiklopedisi.org.tr/kirim)",
+   "alinti": "Küçük Kaynarca Antlaşması’nın (21 Temmuz 1774) 3. maddesiyle Kırım, Bucak, Kuban, Yedisan, Camboyluk ve Yediçkul",
+   "oneri": {},
+   "not": "[sira 783] Yerleşime özgü (Yediçkul ulusu adıyla). t: 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)' — Jülyen 8 Nisan = Gregoryen 1783-04-19."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:98",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1783-04-19",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kırım' (H. İnalcık, H. Kırımlı) (https://islamansiklopedisi.org.tr/kirim)",
+   "alinti": "Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)",
+   "oneri": {},
+   "not": "[sira 784] Jülyen 8 Nisan 1783 = Gregoryen 19 Nisan. t [KÜME K01]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:98",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 785] [KÜME K01] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:98",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 786] [KÜME K02] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek3.js:98",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 787] [KÜME K28] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Hortiça Seçi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:148",
+   "alan": "s",
+   "d": "zaporojye",
+   "f": "1552-01-01",
+   "t": "1775-06-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), 'Zaporozhian Sich' (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CA%5CZaporozhianSich.htm)",
+   "alinti": "The first Sich was established ca 1552 by Prince Dmytro Vyshnevetsky on Mala Khortytsia Island",
+   "oneri": {},
+   "not": "[sira 788] t: 'That last Sich was destroyed by a Russian army on 15–16 June 1775' (Gregoryen; Jülyen 4-5 Haziran). İPUCU: Seç 1558'de Tatarlarca yıkıldı, 1711-1734 Zaporojyalılar Kırım denetimindeki Aleşki'de — Hortiça çevresinin 1711-1734 sahibi ayrıca sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:148",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1775-06-16",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), 'Zaporozhian Sich' (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CA%5CZaporozhianSich.htm)",
+   "alinti": "That last Sich was destroyed by a Russian army on 15–16 June 1775",
+   "oneri": {},
+   "not": "[sira 789] t [KÜME K01]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:148",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 790] [KÜME K01] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:148",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 791] [KÜME K02] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:148",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 792] [KÜME K28] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Çortomlık Seçi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:154",
+   "alan": "s",
+   "d": "zaporojye",
+   "f": "1652-01-01",
+   "t": "1775-06-16",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), 'Zaporozhian Sich' (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CA%5CZaporozhianSich.htm)",
+   "alinti": "The Chortomlyk Sich was also built nearby, at the mouth of the Chortomlyk River, in 1652",
+   "oneri": {
+    "t": "1709-05-25",
+    "bolme": "1709-05-25 sonrası: 1711 → 1734 Zaporojyalılar 'lands controlled by the Crimean Khanate'da (Aleşki); 1734 'returned to Russian-controlled Ukraine' (Yeni Seç) — Çortomlık çevresinin 1709-1734 sahibi (rusya / kirim) kaynakla bulunmalı; 1734 → 1775-06-16 zaporojye"
+   },
+   "not": "[sira 793] f 1652 KAYNAKLI. 'It was destroyed by a Russian force on 25 May 1709' — takvim EU'da beyansız (Jülyen olabilir: Gregoryen 1709-06-05). Prut 1711 / Edirne 1713 ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:154",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1775-06-16",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), 'Zaporozhian Sich' (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CA%5CZaporozhianSich.htm)",
+   "alinti": "That last Sich was destroyed by a Russian army on 15–16 June 1775",
+   "oneri": {},
+   "not": "[sira 794] t [KÜME K01]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:154",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 795] [KÜME K01] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:154",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 796] [KÜME K02] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:154",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 797] [KÜME K28] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Donets bozkırı": [
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:98",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 798] [KÜME K04] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:98",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1721-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), 'Bakhmut' (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CB%5CA%5CBakhmut.htm)",
+   "alinti": "construct the fortress of Bakhmut, which they built in 1703",
+   "oneri": {
+    "f": "1703-01-01"
+   },
+   "not": "[sira 799] 1721 Rus İmparatorluğu ilanıdır, Donets'e özgü değil. EU: 1571'den Moskova hizmetinde Bakhmut muhafızları; 1703 kale; Bulavin isyanı (1707-08) sonrası tuzlalar Rus devlet işletmesi. YIL düzeyi BEYANLI (bozkırın tamamı için ÜLKE/BÖLGE). t [KÜME K01]."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:98",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 800] [KÜME K01] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:98",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 801] [KÜME K02] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:98",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 802] [KÜME K28] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Dessûk": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "18 Aralık 1914 … haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 803] ÜLKE DÜZEYİ. Hüseyin Kâmil '19 Aralık’ta … Mısır sultanı olarak ilân etti' (ic_not). t: 'Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 804] ÜLKE DÜZEYİ. t: '18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 805] [KÜME K14] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Kahire’yi alan Yavuz Sultan Selim tarafından idam edilerek Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 806] ÜLKE DÜZEYİ. t: Mehmed Ali 'Mısır valiliğine getirildi (1805)' — YIL; 1805-07-03 günü TDV misir'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "ulemâ, eşraf ve halkın desteğini almış olarak Mısır valiliğine getirildi (1805)",
+   "oneri": {},
+   "not": "[sira 807] f YIL. t: '18 Aralık 1914 … Mısır’ı himayesine aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "bu şartlar altında Mısır’ın bağımsız bir devlet ilân edilmesi şekilden öteye gitmiyordu",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 808] t 1923-10-29 Türkiye Cumhuriyeti günüdür, Mısır'la ilgisi yok. 1914-12-18'den sahip zaten s: misir-sultanligi (İngiliz himayesi künyesi); isg katmanı en geç 28 Şubat 1922 İngiliz bağımsızlık beyanında biter (TDV '28 Şubat 1922' paragrafı). İngiliz askerî varlığı 1936/1956'ya dek sürdü — kalacaksa ölçüt beyanı gerekir. Lozan md.17 (Mısır'dan feragat, 1914-11-05'ten geçerli) ic_not. Alternatif: katman tümden kaldırılır (KASA)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-07-10",
+   "t": "1801-05-09",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 809] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 810] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "… adı altında birleşti ve 21 Şubat’ta yapılan bir referandumla Nâsır bu devletin başkanı seçildi",
+   "oneri": {},
+   "not": "[sira 811] AY düzeyi (Şubat 1958). 1958-02-22 günü TDV'de yok (1 Şubat birleşme, 21 Şubat referandum) ic_not. t: '11 Eylül 1971’deki referandumla … Mısır Arap Cumhuriyeti'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:86",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 812] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Tanta": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "18 Aralık 1914 … haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 813] ÜLKE DÜZEYİ. Hüseyin Kâmil '19 Aralık’ta … Mısır sultanı olarak ilân etti' (ic_not). t: 'Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 814] ÜLKE DÜZEYİ. t: '18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 815] [KÜME K14] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Kahire’yi alan Yavuz Sultan Selim tarafından idam edilerek Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 816] ÜLKE DÜZEYİ. t: Mehmed Ali 'Mısır valiliğine getirildi (1805)' — YIL; 1805-07-03 günü TDV misir'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "ulemâ, eşraf ve halkın desteğini almış olarak Mısır valiliğine getirildi (1805)",
+   "oneri": {},
+   "not": "[sira 817] f YIL. t: '18 Aralık 1914 … Mısır’ı himayesine aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "bu şartlar altında Mısır’ın bağımsız bir devlet ilân edilmesi şekilden öteye gitmiyordu",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 818] t 1923-10-29 Türkiye Cumhuriyeti günüdür, Mısır'la ilgisi yok. 1914-12-18'den sahip zaten s: misir-sultanligi (İngiliz himayesi künyesi); isg katmanı en geç 28 Şubat 1922 İngiliz bağımsızlık beyanında biter (TDV '28 Şubat 1922' paragrafı). İngiliz askerî varlığı 1936/1956'ya dek sürdü — kalacaksa ölçüt beyanı gerekir. Lozan md.17 (Mısır'dan feragat, 1914-11-05'ten geçerli) ic_not. Alternatif: katman tümden kaldırılır (KASA)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-07-24",
+   "t": "1801-06-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 819] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 820] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "… adı altında birleşti ve 21 Şubat’ta yapılan bir referandumla Nâsır bu devletin başkanı seçildi",
+   "oneri": {},
+   "not": "[sira 821] AY düzeyi (Şubat 1958). 1958-02-22 günü TDV'de yok (1 Şubat birleşme, 21 Şubat referandum) ic_not. t: '11 Eylül 1971’deki referandumla … Mısır Arap Cumhuriyeti'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:103",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 822] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Benhâ (Kalyûbiye)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "18 Aralık 1914 … haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 823] ÜLKE DÜZEYİ. Hüseyin Kâmil '19 Aralık’ta … Mısır sultanı olarak ilân etti' (ic_not). t: 'Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 824] ÜLKE DÜZEYİ. t: '18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 825] [KÜME K14] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Kahire’yi alan Yavuz Sultan Selim tarafından idam edilerek Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 826] ÜLKE DÜZEYİ. t: Mehmed Ali 'Mısır valiliğine getirildi (1805)' — YIL; 1805-07-03 günü TDV misir'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "ulemâ, eşraf ve halkın desteğini almış olarak Mısır valiliğine getirildi (1805)",
+   "oneri": {},
+   "not": "[sira 827] f YIL. t: '18 Aralık 1914 … Mısır’ı himayesine aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "bu şartlar altında Mısır’ın bağımsız bir devlet ilân edilmesi şekilden öteye gitmiyordu",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 828] t 1923-10-29 Türkiye Cumhuriyeti günüdür, Mısır'la ilgisi yok. 1914-12-18'den sahip zaten s: misir-sultanligi (İngiliz himayesi künyesi); isg katmanı en geç 28 Şubat 1922 İngiliz bağımsızlık beyanında biter (TDV '28 Şubat 1922' paragrafı). İngiliz askerî varlığı 1936/1956'ya dek sürdü — kalacaksa ölçüt beyanı gerekir. Lozan md.17 (Mısır'dan feragat, 1914-11-05'ten geçerli) ic_not. Alternatif: katman tümden kaldırılır (KASA)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-07-24",
+   "t": "1801-06-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 829] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 830] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "… adı altında birleşti ve 21 Şubat’ta yapılan bir referandumla Nâsır bu devletin başkanı seçildi",
+   "oneri": {},
+   "not": "[sira 831] AY düzeyi (Şubat 1958). 1958-02-22 günü TDV'de yok (1 Şubat birleşme, 21 Şubat referandum) ic_not. t: '11 Eylül 1971’deki referandumla … Mısır Arap Cumhuriyeti'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:121",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 832] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Bilbîs (Şarkiye)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "18 Aralık 1914 … haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 833] ÜLKE DÜZEYİ. Hüseyin Kâmil '19 Aralık’ta … Mısır sultanı olarak ilân etti' (ic_not). t: 'Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 834] ÜLKE DÜZEYİ. t: '18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 835] [KÜME K14] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Kahire’yi alan Yavuz Sultan Selim tarafından idam edilerek Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 836] ÜLKE DÜZEYİ. t: Mehmed Ali 'Mısır valiliğine getirildi (1805)' — YIL; 1805-07-03 günü TDV misir'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "ulemâ, eşraf ve halkın desteğini almış olarak Mısır valiliğine getirildi (1805)",
+   "oneri": {},
+   "not": "[sira 837] f YIL. t: '18 Aralık 1914 … Mısır’ı himayesine aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "bu şartlar altında Mısır’ın bağımsız bir devlet ilân edilmesi şekilden öteye gitmiyordu",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 838] t 1923-10-29 Türkiye Cumhuriyeti günüdür, Mısır'la ilgisi yok. 1914-12-18'den sahip zaten s: misir-sultanligi (İngiliz himayesi künyesi); isg katmanı en geç 28 Şubat 1922 İngiliz bağımsızlık beyanında biter (TDV '28 Şubat 1922' paragrafı). İngiliz askerî varlığı 1936/1956'ya dek sürdü — kalacaksa ölçüt beyanı gerekir. Lozan md.17 (Mısır'dan feragat, 1914-11-05'ten geçerli) ic_not. Alternatif: katman tümden kaldırılır (KASA)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-08-09",
+   "t": "1801-06-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 839] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 840] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "… adı altında birleşti ve 21 Şubat’ta yapılan bir referandumla Nâsır bu devletin başkanı seçildi",
+   "oneri": {},
+   "not": "[sira 841] AY düzeyi (Şubat 1958). 1958-02-22 günü TDV'de yok (1 Şubat birleşme, 21 Şubat referandum) ic_not. t: '11 Eylül 1971’deki referandumla … Mısır Arap Cumhuriyeti'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:144",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 842] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Ebûkîr": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "18 Aralık 1914 … haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 843] ÜLKE DÜZEYİ. Hüseyin Kâmil '19 Aralık’ta … Mısır sultanı olarak ilân etti' (ic_not). t: 'Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 844] ÜLKE DÜZEYİ. t: '18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-07-10",
+   "t": "1801-05-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 845] Ebûkîr'e özgü günler aranmadı-bulunamadı: kayıt Rahmaniye/Kahire'den 'gün komşudan' devralıyor. İPUCU: Fransızlar Ebûkîr'i Temmuz 1798 başında aldı; İngilizler 1801-03-08'de Ebûkîr'e çıktı, kale 1801-03-19 dolayında teslim oldu — t 1801-05-09 Ebûkîr için büyük ihtimalle geç. TARAYICI: Moberly benzeri resmî tarih / La Jonquière, L'expédition d'Égypte."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 846] [KÜME K14] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "Kahire’yi alan Yavuz Sultan Selim tarafından idam edilerek Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 847] ÜLKE DÜZEYİ. t: Mehmed Ali 'Mısır valiliğine getirildi (1805)' — YIL; 1805-07-03 günü TDV misir'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "ulemâ, eşraf ve halkın desteğini almış olarak Mısır valiliğine getirildi (1805)",
+   "oneri": {},
+   "not": "[sira 848] f YIL. t: '18 Aralık 1914 … Mısır’ı himayesine aldı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "bu şartlar altında Mısır’ın bağımsız bir devlet ilân edilmesi şekilden öteye gitmiyordu",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 849] t 1923-10-29 Türkiye Cumhuriyeti günüdür, Mısır'la ilgisi yok. 1914-12-18'den sahip zaten s: misir-sultanligi (İngiliz himayesi künyesi); isg katmanı en geç 28 Şubat 1922 İngiliz bağımsızlık beyanında biter (TDV '28 Şubat 1922' paragrafı). İngiliz askerî varlığı 1936/1956'ya dek sürdü — kalacaksa ölçüt beyanı gerekir. Lozan md.17 (Mısır'dan feragat, 1914-11-05'ten geçerli) ic_not. Alternatif: katman tümden kaldırılır (KASA)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 850] Bütçe: DIGER sınıfı (kaynaklı dönem), yeniden sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "… adı altında birleşti ve 21 Şubat’ta yapılan bir referandumla Nâsır bu devletin başkanı seçildi",
+   "oneri": {},
+   "not": "[sira 851] AY düzeyi (Şubat 1958). 1958-02-22 günü TDV'de yok (1 Şubat birleşme, 21 Şubat referandum) ic_not. t: '11 Eylül 1971’deki referandumla … Mısır Arap Cumhuriyeti'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:161",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mısır' (https://islamansiklopedisi.org.tr/misir)",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 852] ÜLKE DÜZEYİ."
+  }
+ ]
+}

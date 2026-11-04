@@ -1,0 +1,1323 @@
+{
+ "Limasol": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1927",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1878-06-04",
+   "t": "1960-08-16",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kıbrıs' (https://islamansiklopedisi.org.tr/kibris)",
+   "alinti": "İngiltere 5 Kasım 1914’te Kıbrıs’ı resmen ilhak etti",
+   "oneri": {
+    "f": "1914-11-05",
+    "bolme": "isg ingiltere 1878-07-15 → 1914-11-05 eklenir; d: osmanli t 1914-11-05'e uzar (sira 641)"
+   },
+   "not": "[sira 639] TEK KURAL / TAHRİR: 4 Haziran 1878 anlaşması + 1 Temmuz ek anlaşma 'Kıbrıs’taki statü Osmanlı egemenliğinin sürekliliği esasına dayandırılıyor'; padişah onayı ve geçici idare ilânı 15 Temmuz 1878 ('Aynı gün Kıbrıs’ın İngiltere geçici idaresi altına girdiği resmen ilân edildi'). ÖLÇÜT: geçici/askerî — eski sahibin egemenliği antlaşmayla saklı, gelir fazlası Osmanlı'ya ödeniyor → isg. s: ingiltere 1914-11-05 ilhak. Lozan md.20 ilhakı tanıdı (imza 1923-07-24) ic_not. Emsal: Bosna 1878-1908 atlasta isg avusturya. t 1960-08-16 KAYNAKLI (TDV '15-16 Ağustos 1960 gece yarısı resmen ilân edilmiş')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1927",
+   "alan": "s",
+   "d": "kibris-krallik",
+   "f": "1281-01-01",
+   "t": "1489-02-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kıbrıs' (https://islamansiklopedisi.org.tr/kibris)",
+   "alinti": "Kraliçe Caterina’nın 26 Şubat 1489’da tahttan feragat etmesiyle Kıbrıs’ın idaresini ellerine aldılar",
+   "oneri": {},
+   "not": "[sira 640] t gün düzeyinde teyitli. f 1281-01-01 atlas başlangıcı (Lüzinyan krallığı 1192-1489, TDV)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1927",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1570-07-02",
+   "t": "1878-06-04",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kıbrıs' (https://islamansiklopedisi.org.tr/kibris)",
+   "alinti": "28 Muharrem 978 (2 Temmuz 1570) tarihinde Limasol’u ele geçirdi",
+   "oneri": {
+    "t": "1914-11-05"
+   },
+   "not": "[sira 641] f gün düzeyinde KAYNAKLI (yerleşime özgü). TAHRİR: 1572 tahriri, Limasol kaza merkezi (TDV). t: 1878-06-04 yalnız imza; Osmanlı egemenliği 1914-11-05 ilhakına kadar sürdü — sira 639 notu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1927",
+   "alan": "s",
+   "d": "kibris-cumhuriyeti",
+   "f": "1960-08-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kıbrıs' (https://islamansiklopedisi.org.tr/kibris)",
+   "alinti": "Kıbrıs Cumhuriyeti 15-16 Ağustos 1960 gece yarısı resmen ilân edilmiş",
+   "oneri": {},
+   "not": "[sira 642] ÜLKE DÜZEYİ. Zürih-Londra (1959) ic_not."
+  }
+ ],
+ "Sitiye (Sitia)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1932",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1913-05-30",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Girit' (https://islamansiklopedisi.org.tr/girit)",
+   "alinti": "Londra (30 Mayıs 1913) ve Bükreş (10 Ağustos 1913) muahedeleriyle Girit adası Osmanlı Devleti’nin elinden çıkmış oldu",
+   "oneri": {},
+   "not": "[sira 643] Emre kuralı Londra 1913-05-30 (Üsküp emsali); Yunanistan Girit'i 1912'den fiilen yönetiyordu → İMZA günü (TEK ÖLÇÜ). t 1973-06-01 kayıttaki FRUS 1969-76 XXX d3 (bu turda yeniden okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1932",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1669-09-27",
+   "t": "1830-11-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Girit' (https://islamansiklopedisi.org.tr/girit)",
+   "alinti": "9 Rebîülâhir 1080’de (6 Eylül 1669) imzalanan on sekiz maddelik bir teslim anlaşmasıyla sona erdi",
+   "oneri": {},
+   "not": "[sira 644] YIL/AY düzeyi. TEK ÖLÇÜ: Osmanlı Kandiye'yi yönetmiyordu → TESLİM günü; TDV yalnız imza 6 Eylül 1669'u verir, 27 Eylül teslim günü bu maddede yok (beyan). Sitia'nın kendi düşüş günü TDV girit'te yok (İPUCU: Venedik Sitia'yı 1651 dolayında boşaltmış olabilir — kaynak aranmalı). t 1830: TDV 'Girit gayri müslimleri, 1830 yılında … Mehmed Ali Paşa’ya … Girit valiliğini teklif etti' (YIL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1932",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1841-02-25",
+   "t": "1898-12-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Girit' (https://islamansiklopedisi.org.tr/girit)",
+   "alinti": "Prens George’un 22 Aralık 1898’de adada görevine başlaması üzerine",
+   "oneri": {},
+   "not": "[sira 645] t gün düzeyinde. f: TDV '15 Temmuz 1840 … Londra Antlaşması gereğince bu ada üzerindeki tasarruf hakkını kaybetti' + '1841 yılının ilk aylarında' isyan bastırıldı — 1841-02-25 teslim günü TDV'de yok (YIL düzeyi; kayıttaki ⚠ notu geçerli)."
+  }
+ ],
+ "Molova (Molyvos)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1939",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1355-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Midilli' (M. Kiel) (https://islamansiklopedisi.org.tr/midilli)",
+   "alinti": "1354’te Bizans İmparatoru V. Ioannes Palaiologos adayı Cenovalı kayınbiraderi Françesco Gattilusio’ya (Gatteluzzi) verdi",
+   "oneri": {},
+   "not": "[sira 646] YIL düzeyi; TDV 1354 der, kayıt 1355. HAYALET: gattilusio künye f 1355-01-01 → 1354 önerilirse künye kapsamaz; 1354 ic_not'a (iki tarih beyanı). Molova kalesi TDV'ye göre 1373'te Françesko Gattilusio'ca inşa edildi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1939",
+   "alan": "s",
+   "d": "gattilusio",
+   "f": "1355-01-01",
+   "t": "1462-09-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Midilli' (M. Kiel) (https://islamansiklopedisi.org.tr/midilli)",
+   "alinti": "Zilhicce 866’da (Eylül 1462) … Midilli’yi ele geçirdi … Molova … kalelerine de çatışma olmadan girildi",
+   "oneri": {},
+   "not": "[sira 647] AY düzeyi; gün kayıttaki olaylar_ek5.js maddesinden."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1939",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1923-07-24",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Midilli' (M. Kiel) (https://islamansiklopedisi.org.tr/midilli)",
+   "alinti": "Ada sonunda 1912 yılının sonbaharında Yunan ordusu ve donanması tarafından ele geçirildi",
+   "oneri": {
+    "f": "1914-02-13"
+   },
+   "not": "[sira 648] Ege adaları emsali (DA-BRIEF Ada istisnası; KARARLAR gece-17 (c) Nikarya): Londra 1913 adaları devretmedi; s: yunanistan Büyük Devletler notası 1914-02-13'ten (Yunanistan adayı zaten yönetiyordu → TEK ÖLÇÜ). Lozan 1923-07-24 (Osmanlı/TBMM tanıması) ic_not. TDV 'Londra Konferansı’nda da bu durum teyit edildi' beyanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1939",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1462-09-17",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Midilli' (M. Kiel) (https://islamansiklopedisi.org.tr/midilli)",
+   "alinti": "Adadaki Molova, Eressos ve Ayo Teodoro kalelerine de çatışma olmadan girildi",
+   "oneri": {
+    "t": "1914-02-13"
+   },
+   "not": "[sira 649] f KAYNAKLI (Eylül 1462). TAHRİR: 'ada bir sancak haline getirildi … Molova kadılık merkezi oldu'; 1521/1548 nüfus kayıtları. t Ege adaları emsali → 1914-02-13 (sira 648)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1939",
+   "alan": "isg",
+   "d": "yunanistan",
+   "f": "1912-11-21",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Midilli' (M. Kiel) (https://islamansiklopedisi.org.tr/midilli)",
+   "alinti": "Ada sonunda 1912 yılının sonbaharında Yunan ordusu ve donanması tarafından ele geçirildi",
+   "oneri": {
+    "t": "1914-02-13"
+   },
+   "not": "[sira 650] f YIL düzeyi KAYNAKLI (gün 1912-11-21 kayıttan, oniki-ada maddesi). t: 1914-02-13'ten sonra s: yunanistan (sira 648)."
+  }
+ ],
+ "Tavşanlı": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1963",
+   "alan": "s",
+   "d": "germiyan",
+   "f": "1300-01-01",
+   "t": "1381-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Germiyanoğulları' (https://islamansiklopedisi.org.tr/germiyanogullari)",
+   "alinti": "Kütahya, Simav, Eğrigöz (Emet) ve Tavşanlı’yı çeyiz olarak Osmanlılar’a vermesi … 1381 yılında yapılan düğünden",
+   "oneri": {},
+   "not": "[sira 651] Yerleşime özgü (Tavşanlı adıyla). f 1300: TDV 'Yâkub Bey devri (1300-1340)'. YIL düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1963",
+   "alan": "s",
+   "d": "selcuklu",
+   "f": "1281-01-01",
+   "t": "1300-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Germiyanoğulları' (https://islamansiklopedisi.org.tr/germiyanogullari)",
+   "alinti": "1300 yıllarında bağımsızlığını kazandığı anlaşılan Yâkub Bey",
+   "oneri": {},
+   "not": "[sira 652] YIL düzeyi, BÖLGE: TDV 1299 kitabesinden Germiyanlılar'ın 'Selçuklu hâkimiyetini tanıdıkları anlaşılmaktadır'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1963",
+   "alan": "s",
+   "d": "germiyan",
+   "f": "1402-07-28",
+   "t": "1429-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Germiyanoğulları' (https://islamansiklopedisi.org.tr/germiyanogullari)",
+   "alinti": "1402’de Ankara Savaşı’ndan sonra eski toprakları kendilerine verilen Anadolu beylerinden biri de Yâkub Bey idi",
+   "oneri": {},
+   "not": "[sira 653] t 1429: TDV ilişkili madde 'Topraklarının döneminde vasiyet yoluyla Osmanlılar’a intikal ettiği padişah MURAD II'; bibliyografya Varlık, Germiyanoğulları Tarihi: 1300-1429 — YIL düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1963",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 654] [KÜME K05] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1963",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1381-01-01",
+   "t": "1402-07-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Germiyanoğulları' (https://islamansiklopedisi.org.tr/germiyanogullari)",
+   "alinti": "1381 yılında yapılan düğünden sonra Bayezid Kütahya’ya idareci olarak gönderildi",
+   "oneri": {},
+   "not": "[sira 655] Çeyiz toprakları. Not: 1389 sonrası II. Yâkub geri almak istedi, '1390 yılında bütün Germiyan toprakları Osmanlılar’ın idaresi altına girdi'. t 1402-07-28 ÜLKE."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1963",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1429-01-01",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Germiyanoğulları' (https://islamansiklopedisi.org.tr/germiyanogullari)",
+   "alinti": "Topraklarının döneminde vasiyet yoluyla Osmanlılar’a intikal ettiği padişah MURAD II",
+   "oneri": {},
+   "not": "[sira 656] f YIL düzeyi (1429). t 1920-04-23 TBMM kuralı / [KÜME K05] ASKIDA kararına bağlı (Tavşanlı 1920-22 Yunan işgali kontrol edilmeli)."
+  }
+ ],
+ "Finike": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2003",
+   "alan": "s",
+   "d": "teke",
+   "f": "1321-01-01",
+   "t": "1392-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tekeoğulları' (S. Kofoğlu) (https://islamansiklopedisi.org.tr/tekeogullari) · TDV İslâm Ansiklopedisi, 'Menteşe' (https://islamansiklopedisi.org.tr/mentese) · 'Menteşeoğulları' (https://islamansiklopedisi.org.tr/menteseogullari)",
+   "alinti": "Finike’de hüküm süren Menteşeoğlu Emîr Zervân b. Kirman’a",
+   "oneri": {
+    "d": "mentese",
+    "bolme": "f 1321 → en az 1360'ların sonu (I. Pierre ölümü 1369 bağlamı) d: mentese; Teke'ye geçiş günü bulunamadı → BEYANLI"
+   },
+   "not": "[sira 657] TDV tekeogullari: Memlük divanının mektup yolladığı beyler arasında 'Finike’de hüküm süren Menteşeoğlu Emîr Zervân' (1360'lar). TDV menteseogullari: Menteşe Bey'in oğlu 'Kirman … Föke’de (Finike) hüküm sürdü' (1293 sonrası). TDV mentese: 'beyliğin tâli bir kolu olan Finike … daha sonra Hamîdoğulları Beyliği’nin nüfuzu altına girmiştir'. Kayıttaki teke 1321 dönemi Finike için çelişiyor. Künye mentese var."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2003",
+   "alan": "s",
+   "d": "selcuklu",
+   "f": "1281-01-01",
+   "t": "1300-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Menteşe' (https://islamansiklopedisi.org.tr/mentese) · 'Menteşeoğulları' (https://islamansiklopedisi.org.tr/menteseogullari)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 658] TDV menteseogullari: Menteşeliler 1291'de 'Selçuklular’ın himayesinde oldukları söylenebilir'; Kirman'ın Finike'ye geliş yılı yok. 1281-1300 için yerleşime özgü tanıklık bulunamadı (TDV finike maddesi yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2003",
+   "alan": "s",
+   "d": "hamid",
+   "f": "1300-01-01",
+   "t": "1321-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Menteşe' (https://islamansiklopedisi.org.tr/mentese) · 'Menteşeoğulları' (https://islamansiklopedisi.org.tr/menteseogullari)",
+   "alinti": "beyliğin tâli bir kolu olan Finike’yi katmak gerekirse de",
+   "oneri": {
+    "d": "mentese"
+   },
+   "not": "[sira 659] 1300-1321 Finike Menteşe tâli kolu (Kirman, sonra oğlu Zervân) — TDV menteseogullari/mentese. Hamîdoğulları nüfuzu 'daha sonra'; gün yok. YIL düzeyi BEYANLI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2003",
+   "alan": "s",
+   "d": "teke",
+   "f": "1402-07-28",
+   "t": "1423-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tekeoğulları' (S. Kofoğlu) (https://islamansiklopedisi.org.tr/tekeogullari)",
+   "alinti": "Ocak 1423’te Antalya’nın muhasarası ile başlayan ve Osman Çelebi’nin öldürülmesiyle sona eren",
+   "oneri": {},
+   "not": "[sira 660] t AY düzeyi (Ocak 1423 → 1423-01-01 uyumlu). f 1402-07-28 ÜLKE DÜZEYİ (Ankara sonrası Timur beylikleri iade etti; TDV germiyanogullari emsali) — Tekeoğulları için cümle bu turda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2003",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 661] [KÜME K05] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2003",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1392-01-01",
+   "t": "1402-07-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tekeoğulları' (S. Kofoğlu) (https://islamansiklopedisi.org.tr/tekeogullari)",
+   "alinti": "793’te (1391) Yıldırım Bayezid’in Teke-ili’ni ele geçirmek için ordusu ile Bursa’dan hareket ettiğini",
+   "oneri": {},
+   "not": "[sira 662] YIL düzeyi; TDV 'Bazı araştırmalarda 1390-1392 yılları esas alınmıştır'; Flemming 1397-1399 ihtimali — iki görüş ic_not. t 1402-07-28 ÜLKE."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2003",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1423-01-01",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tekeoğulları' (S. Kofoğlu) (https://islamansiklopedisi.org.tr/tekeogullari)",
+   "alinti": "Hamza Bey Teke-ili sancak beyliğine getirildi",
+   "oneri": {},
+   "not": "[sira 663] TAHRİR: sancak beyliği. f Ocak 1423 (AY). t 1920-04-23 TBMM kuralı / [KÜME K05] ASKIDA."
+  }
+ ],
+ "Karadeniz Ereğli": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2020",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1309-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ereğli' (https://islamansiklopedisi.org.tr/eregli), Karadeniz Ereğlisi bölümü",
+   "alinti": "Bazı kaynaklara göre 1360’ta, bazılarına göre de 1397’de Osmanlı idaresi altına girdi",
+   "oneri": {
+    "t": "1360-01-01"
+   },
+   "not": "[sira 664] TDV: '1214 … XIV. yüzyıl ortalarına kadar Bizans’ın elinde kaldı'. Candar'a geçiş TDV eregli ve candarogullari maddelerinde YOK. YIL düzeyi; iki rivayet (1360/1397) ic_not; Clavijo (24 Mart 1404): 'otuz yıl kadar önce satın alınmak suretiyle Türkler’in eline geçtiğini' (~1374)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2020",
+   "alan": "s",
+   "d": "candar",
+   "f": "1309-01-01",
+   "t": "1392-11-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ereğli' (https://islamansiklopedisi.org.tr/eregli), Karadeniz Ereğlisi bölümü",
+   "alinti": "Bazı kaynaklara göre 1360’ta, bazılarına göre de 1397’de Osmanlı idaresi altına girdi",
+   "oneri": {
+    "d": "bizans",
+    "t": "1360-01-01",
+    "bolme": "1309→1360 d: bizans (sira 664 ile birleşir); 1360→1392-11-01 d: osmanli; candar dönemi kaldırılır. 1397 rivayeti seçilirse bizans 1397'ye uzar"
+   },
+   "not": "[sira 665] TDV candarogullari (Ereğli anılmıyor) ve TDV eregli (Candar yok). KASA iki rivayetten birini beyanla seçmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2020",
+   "alan": "s",
+   "d": "candar",
+   "f": "1402-07-28",
+   "t": "1461-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ereğli' (https://islamansiklopedisi.org.tr/eregli), Karadeniz Ereğlisi bölümü · TDV İslâm Ansiklopedisi, 'Candaroğulları' (https://islamansiklopedisi.org.tr/candarogullari)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 666] Fetret sonrası Ereğli'nin Candar'a verildiği iki TDV maddesinde de yok (candarogullari'nda 'Ereğli' geçmiyor; 1461 yalnız beyliğin ilhakı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2020",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 667] [KÜME K05] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2020",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1392-11-01",
+   "t": "1402-07-28",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ereğli' (https://islamansiklopedisi.org.tr/eregli), Karadeniz Ereğlisi bölümü",
+   "alinti": "Bazı kaynaklara göre 1360’ta, bazılarına göre de 1397’de Osmanlı idaresi altına girdi",
+   "oneri": {
+    "f": "1360-01-01"
+   },
+   "not": "[sira 668] sira 665 ile birlikte; 1397 rivayeti ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2020",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1461-06-01",
+   "t": "1920-04-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Ereğli' (https://islamansiklopedisi.org.tr/eregli), Karadeniz Ereğlisi bölümü",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 669] f 1461-06-01 için yerleşime özgü cümle yok. TAHRİR: TDV 'Anadolu beylerbeyiliğinin Bolu sancağına bağlı bir kaza merkezi', 'XVI. yüzyıl başlarına ait tahrirler' d:'yi teyit eder, gün değil. t [KÜME K05]."
+  }
+ ],
+ "Senendec (Sine)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2058",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1636-01-01",
+   "t": "1736-03-08",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler) · kayıttaki d: kaynağı (Özcoşar-Açar 2024 s.221; TDV mahmud-i--osmanli)",
+   "alinti": "1736’da Nâdir Şah unvanı ile tahta geçti",
+   "oneri": {
+    "bolme": "safevi 1636-01-01 → 1723-11-10; d: osmanli 1723-11-10 → 1732-01-10 (kayıtta var); safevi 1732-01-10 → 1736-03-08"
+   },
+   "not": "[sira 670] İÇ ÇELİŞKİ: kaydın kendi d: [1723-11-10 → 1732-01-10] dönemi (kaynaklı) s: safevi [1636 → 1736] ile çakışıyor — safevi bölünmeli. f 1636 (şehrin kuruluşu, kur:) BULUNAMADI: TDV'de Senendec/Erdelân maddesi yok (arama), Iranica 'ardalan' slug 404. TARAYICI: Encyclopaedia Iranica 'ARDALAN' / 'SANANDAJ'. Erdelân emirliği Safevî'ye tâbi idi — v: mi s: mi KASA kararı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2058",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 671] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2058",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 672] [KÜME K26] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2058",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 673] [KÜME K24] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Ramâdi": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2112",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1917-03-11",
+   "t": "1921-08-23",
+   "hukum": "ONERI",
+   "kaynak": "F. J. Moberly, The Campaign in Mesopotamia 1914-1918, IV (London 1927), ch. XXXVIII 'The Capture of Ramadi', s. 58-59 (archive.org in.ernet.dli.2015.210669)",
+   "alinti": "by 11 a.m. Ahmed Bey, the Turkish commander, and his entire force had surrendered",
+   "oneri": {
+    "d": "osmanli",
+    "f": "1917-09-29",
+    "t": "1921-08-23",
+    "bolme": "s: ingiltere yerine: d: osmanli 1917-03-11 → 1921-08-23 sürer (sira 676) + isg ingiltere 1917-09-29 → 1921-08-23"
+   },
+   "not": "[sira 674] 1917-03-11 Bağdat'ın kaybıdır, Ramâdi değil: Ramâdi 27-29 Eylül 1917 harekâtıyla alındı (kayıplar 'from the 27th to the 29th September'; teslim 29 Eylül sabahı). Levant/Musul emsali: Irak'ta işgal boyunca d: osmanli + isg ingiltere, s: irak-kralligi 1921-08-23'ten. ÖLÇÜT: geçici/askerî — askerî işgal, Osmanlı iddiası Lozan'a kadar sürdü. 1927 resmî tarih (İngiliz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2112",
+   "alan": "s",
+   "d": "irak-kralligi",
+   "f": "1921-08-23",
+   "t": "1958-07-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Faysal I' (https://islamansiklopedisi.org.tr/faysal-i) · 'Faysal II' (https://islamansiklopedisi.org.tr/faysal-ii)",
+   "alinti": "Faysal 23 Ağustos 1921 tarihinde tahta çıktı",
+   "oneri": {},
+   "not": "[sira 675] ÜLKE DÜZEYİ. t: TDV faysal-ii 'temmuz ayında vuku bulan bir ihtilâl sonucunda öldürüldü' (1958, AY düzeyi; 14 Temmuz kayıttan)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2112",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1869-01-01",
+   "t": "1917-03-11",
+   "hukum": "ONERI",
+   "kaynak": "F. J. Moberly, The Campaign in Mesopotamia 1914-1918, IV (London 1927), ch. XXXVIII 'The Capture of Ramadi', s. 58-59 (archive.org in.ernet.dli.2015.210669)",
+   "alinti": "by 11 a.m. Ahmed Bey, the Turkish commander, and his entire force had surrendered",
+   "oneri": {
+    "t": "1921-08-23"
+   },
+   "not": "[sira 676] t: işgal boyunca d: osmanli sürer (sira 674). f 1869 (Midhat Paşa kuruluşu) BULUNAMADI: TDV'de ramadi maddesi yok, 'Enbâr' maddesinde Ramâdî geçmiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2112",
+   "alan": "s",
+   "d": "irak-cumhuriyeti",
+   "f": "1958-07-14",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Faysal II' (https://islamansiklopedisi.org.tr/faysal-ii)",
+   "alinti": "temmuz ayında vuku bulan bir ihtilâl sonucunda öldürüldü",
+   "oneri": {},
+   "not": "[sira 677] AY düzeyi, ÜLKE DÜZEYİ (1958). Kayıttaki LoC Country Study ile uyumlu."
+  }
+ ],
+ "Simnân": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1335-12-01",
+   "t": "1337-09-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Simnân' (https://islamansiklopedisi.org.tr/simnan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 678] TDV simnan 1335-1337 dönemini (Togay Timur vb.) anmıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "serbedariler",
+   "f": "1337-09-09",
+   "t": "1386-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Simnân' (https://islamansiklopedisi.org.tr/simnan)",
+   "alinti": "766 (1364-65) yılına kadar onların egemenliği altında kalan Simnân",
+   "oneri": {
+    "t": "1364-09-28",
+    "bolme": "1364-09-28 → 1386 sahibi bulunamadı → BEYANLI boşluk ya da kaynakla bulunacak sahip (İPUCU: Emîr Velî / Esterâbâd)"
+   },
+   "not": "[sira 679] HİCRÎ: 766 = 1364-09-28 → 1365-09-16; kaynak '1364-65' → kesişimin ilk günü 1364-09-28. f 1337-09-09 Sebzevâr maddesinden devralınmış; Simnân'ın Serbedârî'ye geçiş yılı TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1452-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Simnân' (https://islamansiklopedisi.org.tr/simnan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 680] TDV simnan: 'Moğol ve Timur yönetimlerinin önemli merkezlerinden biri oldu' — yıl yok. t ÜLKE: karakoyunlular 856/1452."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1452-01-01",
+   "t": "1469-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Rey, İsfahan ve Fars vilâyetlerini idaresi altına aldı … (856-857/1452-1453)",
+   "oneri": {},
+   "not": "[sira 681] ÜLKE DÜZEYİ (Irâk-ı Acem/Fars/Kirman). t: TDV karakoyunlular 'Şevval 873 / Nisan 1469' Hasan Ali yenildi, 'Bütün Karakoyunlu ülkeleri Akkoyunlular’ın eline geçti'. HİCRÎ: 856 başı = 1452-01-22; 1452-01-01 hicrî aralıktan önce düşer — kesişimin ilk günü 1452-01-22 (kronoloji maddesinde KASA düzeltmeli; bu dönem kırılması o maddeden devralınıyor). Simnân Rey ile Esterâbâd arasında; 1458 antlaşması 'Esterâbâd bölgesiyle Irâk-ı Acem … üzerindeki hâkimiyeti tanındı'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular) · TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler)",
+   "alinti": "Böylece Karakoyunlu Devleti eski düşmanları Akkoyunlular tarafından ortadan kaldırılmış oldu (1469)",
+   "oneri": {},
+   "not": "[sira 682] ÜLKE DÜZEYİ. f: TDV karakoyunlular Şevval 873 / Nisan 1469 (1469-01-01 hicrî 873 içinde: 873 = 1468-07-22 → 1469-07-11; kesişim ∩ 1469 ilk günü 1469-01-01, uyumlu). t: TDV safevîler 909 (1503) Hemedan — HİCRÎ 909 başı 1503-06-26; 1503-01-01 hicrî aralıktan önce (kronoloji maddesi düzeltilmeli)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1503-01-01",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler) · TDV İslâm Ansiklopedisi, 'Simnân' (https://islamansiklopedisi.org.tr/simnan)",
+   "alinti": "909’da (1503) Irâk-ı Arab ve Fars hâkimi Murad Bey’e karşı yürüyen Şah İsmâil",
+   "oneri": {},
+   "not": "[sira 683] ÜLKE DÜZEYİ. f HİCRÎ: 909 başı = 1503-06-26 (1503-01-01 hicrî aralıktan önce; kronoloji maddesinde düzeltilmeli). t: aynı madde '1736’da Nâdir Şah unvanı ile tahta geçti' (gün kayıttaki TDV nadir-sah maddesinden). TDV simnan: 'Safevîler ve Kaçarlar devrinde de önemini koruyan Simnân'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 684] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 685] [KÜME K26] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2129",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 686] [KÜME K24] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Erdistan": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 687] [KÜME K20] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "incu",
+   "f": "1335-12-01",
+   "t": "1357-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler)",
+   "alinti": "Fars ve İsfahan bölgelerinde hüküm süren İncûlular’la … bu hânedanı ortadan kaldırdı (758/1357)",
+   "oneri": {},
+   "not": "[sira 688] ÜLKE DÜZEYİ (İsfahan bölgesi). HİCRÎ 758 = 1356-12-25 → 1357-12-14; 1357-01-01 kesişim içinde. f 1335 (736/1335 Ebû Said ölümü)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1357-01-01",
+   "t": "1387-11-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler)",
+   "alinti": "Muzafferî hânedanının hâkimiyeti sona erdi (795/1393)",
+   "oneri": {
+    "t": "1393-01-01"
+   },
+   "not": "[sira 689] Timur'un 1387 İsfahan katliamından sonra bölgeden ayrıldığı, 'bütün Irak’a hâkim olan Şah Mansûr 793 (1391)' cümlesiyle Muzafferîler'in İsfahan'ı yeniden tuttuğu okunur → Erdistan (İsfahan yakını) için Muzafferî dönemi 795/1393'e kadar sürer. ÜLKE/BÖLGE düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1387-11-01",
+   "t": "1452-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler) · TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Muzafferî hânedanının hâkimiyeti sona erdi (795/1393)",
+   "oneri": {
+    "f": "1393-01-01"
+   },
+   "not": "[sira 690] sira 689 ile birlikte. ÜLKE DÜZEYİ (Fars/Irâk-ı Acem): Timur Şah Mansûr'u Şîraz yakınlarında yendi; hicrî 795 = 1392-11-17 → 1393-11-05, 1393-01-01 kesişim içinde. t ülke düzeyi: TDV karakoyunlular 856-857/1452-1453 (bk. HİCRÎ notu, 1452-01-22)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1452-01-01",
+   "t": "1469-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Rey, İsfahan ve Fars vilâyetlerini idaresi altına aldı … (856-857/1452-1453)",
+   "oneri": {},
+   "not": "[sira 691] ÜLKE DÜZEYİ (Irâk-ı Acem/Fars/Kirman). t: TDV karakoyunlular 'Şevval 873 / Nisan 1469' Hasan Ali yenildi, 'Bütün Karakoyunlu ülkeleri Akkoyunlular’ın eline geçti'. HİCRÎ: 856 başı = 1452-01-22; 1452-01-01 hicrî aralıktan önce düşer — kesişimin ilk günü 1452-01-22 (kronoloji maddesinde KASA düzeltmeli; bu dönem kırılması o maddeden devralınıyor)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular) · TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler)",
+   "alinti": "Böylece Karakoyunlu Devleti eski düşmanları Akkoyunlular tarafından ortadan kaldırılmış oldu (1469)",
+   "oneri": {},
+   "not": "[sira 692] ÜLKE DÜZEYİ. f: TDV karakoyunlular Şevval 873 / Nisan 1469 (1469-01-01 hicrî 873 içinde: 873 = 1468-07-22 → 1469-07-11; kesişim ∩ 1469 ilk günü 1469-01-01, uyumlu). t: TDV safevîler 909 (1503) Hemedan — HİCRÎ 909 başı 1503-06-26; 1503-01-01 hicrî aralıktan önce (kronoloji maddesi düzeltilmeli)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1503-01-01",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler)",
+   "alinti": "909’da (1503) Irâk-ı Arab ve Fars hâkimi Murad Bey’e karşı yürüyen Şah İsmâil",
+   "oneri": {},
+   "not": "[sira 693] ÜLKE DÜZEYİ. f HİCRÎ: 909 başı = 1503-06-26 (1503-01-01 hicrî aralıktan önce; kronoloji maddesinde düzeltilmeli). t: aynı madde '1736’da Nâdir Şah unvanı ile tahta geçti' (gün kayıttaki TDV nadir-sah maddesinden)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 694] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 695] [KÜME K26] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2137",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 696] [KÜME K24] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Behbehân": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 697] [KÜME K20] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "lur-i-buzurg",
+   "f": "1335-12-01",
+   "t": "1393-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Lur-ı Büzürg' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/lur-i-buzurg)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 698] TDV lur-i-buzurg: emirlik '1155-1424'; 'II. Efrâsiyâb’ın zamanında İlhanlılar’la ilişkiler tamamen kesildi', 751/1350 sonrası 'kesin bilgi yoktur', 827/1424'te ölen emîrler. Behbehân/Kûhgîlûye'nin emirliğe bağlılığı maddede yok; t 1393 (Timur) maddede yok — künye 1424'e kadar sürmüş olabilir (İPUCU)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1508-01-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 699] TDV safeviler: Şah İsmâil 'Fars, Irâk-ı Acem, Kirman ve Hûzistan’ı kendisine bağlamış' — yıl yok; 1508 Bağdat kronoloji maddesinden devralınmış. t ÜLKE 1736."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1393-01-01",
+   "t": "1452-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler) · TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Muzafferî hânedanının hâkimiyeti sona erdi (795/1393)",
+   "oneri": {},
+   "not": "[sira 700] ÜLKE DÜZEYİ (Fars/Irâk-ı Acem): Timur Şah Mansûr'u Şîraz yakınlarında yendi; hicrî 795 = 1392-11-17 → 1393-11-05, 1393-01-01 kesişim içinde. t ülke düzeyi: TDV karakoyunlular 856-857/1452-1453 (bk. HİCRÎ notu, 1452-01-22). Behbehân Fars sınırında; BÖLGE düzeyi BEYANLI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1452-01-01",
+   "t": "1469-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Rey, İsfahan ve Fars vilâyetlerini idaresi altına aldı … (856-857/1452-1453)",
+   "oneri": {},
+   "not": "[sira 701] ÜLKE DÜZEYİ (Irâk-ı Acem/Fars/Kirman). t: TDV karakoyunlular 'Şevval 873 / Nisan 1469' Hasan Ali yenildi, 'Bütün Karakoyunlu ülkeleri Akkoyunlular’ın eline geçti'. HİCRÎ: 856 başı = 1452-01-22; 1452-01-01 hicrî aralıktan önce düşer — kesişimin ilk günü 1452-01-22 (kronoloji maddesinde KASA düzeltmeli; bu dönem kırılması o maddeden devralınıyor). Fars."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1508-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Böylece Karakoyunlu Devleti eski düşmanları Akkoyunlular tarafından ortadan kaldırılmış oldu (1469)",
+   "oneri": {},
+   "not": "[sira 702] f ÜLKE (Nisan 1469). t 1508 BULUNAMADI: Fars 1503'te Safevî'ye geçti (TDV safeviler 909/1503); Behbehân'ın 1503-1508 sahibi kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 703] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 704] [KÜME K26] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2156",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 705] [KÜME K24] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Mînâb": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 706] [KÜME K20] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1335-12-01",
+   "t": "1393-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran) · TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler)",
+   "alinti": "Hürmüz Boğazı’nın doğu sahillerinde Minâb nehrinin denize döküldüğü yerdeki koyun ağzında bulunan Hürmüz Limanı’dır",
+   "oneri": {
+    "d": "hurmuz-sultanligi"
+   },
+   "not": "[sira 707] TDV hürmüz: eski Hürmüz şehri Minâb nehri ağzındadır, 'bölgeyi yöneten küçük bir sultanlık'; halk 1300'de Cerûn adasına nakledildi. TDV muzafferiler Muzafferî topraklarını 'Yezd, Fars, İsfahan, Kirman' diye sayar, Hürmüz'ü saymaz. Künye hurmuz-sultanligi (1281-1514) var. Metbû ilişkileri (Kirman, İlhanlı, Timurlu) ic_not. BÖLGE düzeyi BEYANLI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1393-01-01",
+   "t": "1452-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran)",
+   "alinti": "Hürmüz Boğazı’nın doğu sahillerinde Minâb nehrinin denize döküldüğü yerdeki koyun ağzında bulunan Hürmüz Limanı’dır",
+   "oneri": {
+    "d": "hurmuz-sultanligi"
+   },
+   "not": "[sira 708] sira 707 ile aynı gerekçe; Timurlu metbûluğu ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1452-01-01",
+   "t": "1469-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran)",
+   "alinti": "Hürmüz Boğazı’nın doğu sahillerinde Minâb nehrinin denize döküldüğü yerdeki koyun ağzında bulunan Hürmüz Limanı’dır",
+   "oneri": {
+    "d": "hurmuz-sultanligi"
+   },
+   "not": "[sira 709] sira 707 ile aynı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran)",
+   "alinti": "Hürmüz Boğazı’nın doğu sahillerinde Minâb nehrinin denize döküldüğü yerdeki koyun ağzında bulunan Hürmüz Limanı’dır",
+   "oneri": {
+    "d": "hurmuz-sultanligi"
+   },
+   "not": "[sira 710] sira 707 ile aynı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1503-01-01",
+   "t": "1736-03-08",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran)",
+   "alinti": "Safevî Şahı I. Abbas’ın zamanında geri alındı (23 Nisan 1622)",
+   "oneri": {
+    "f": "1622-04-23",
+    "bolme": "1503 → 1514 hurmuz-sultanligi (Safevî metbû: 'sultanın metbûu Şah İsmâil'); 1514 → 1622-04-23 portekiz (TDV: 'İran’ın vasalı olan sultanı Portekiz’e bağladı (1514)'); 1622-04-23 → 1736-03-08 safevi"
+   },
+   "not": "[sira 711] Künye hurmuz-sultanligi t 1514-01-01 → 1514-1622 için künye portekiz (HAYALET kontrolü: portekiz künyesi kapsıyor mu KASA ölçmeli). Portekiz'in anakaradaki Mînâb'ı fiilen yönettiği TDV'de açık değil — KASA v:/s: kararı, BEYANLI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 712] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 713] [KÜME K26] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2176",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 714] [KÜME K24] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Cehrom": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 715] [KÜME K20] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1335-12-01",
+   "t": "1393-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler)",
+   "alinti": "Fars ve İsfahan bölgelerinde hüküm süren İncûlular’la … bu hânedanı ortadan kaldırdı (758/1357)",
+   "oneri": {
+    "bolme": "incu 1335-12-01 → 1357-01-01; muzafferi 1357-01-01 → 1393-01-01"
+   },
+   "not": "[sira 716] Cehrom Fars'ta: 1335-1357 Fars İncûlular'ındı (TDV muzafferiler), Muzafferî Fars'a 758/1357'de geçti. ÜLKE/BÖLGE düzeyi. Künye incu var."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1393-01-01",
+   "t": "1452-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler) · TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Muzafferî hânedanının hâkimiyeti sona erdi (795/1393)",
+   "oneri": {},
+   "not": "[sira 717] ÜLKE DÜZEYİ (Fars/Irâk-ı Acem): Timur Şah Mansûr'u Şîraz yakınlarında yendi; hicrî 795 = 1392-11-17 → 1393-11-05, 1393-01-01 kesişim içinde. t ülke düzeyi: TDV karakoyunlular 856-857/1452-1453 (bk. HİCRÎ notu, 1452-01-22)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1452-01-01",
+   "t": "1469-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Rey, İsfahan ve Fars vilâyetlerini idaresi altına aldı … (856-857/1452-1453)",
+   "oneri": {},
+   "not": "[sira 718] ÜLKE DÜZEYİ (Irâk-ı Acem/Fars/Kirman). t: TDV karakoyunlular 'Şevval 873 / Nisan 1469' Hasan Ali yenildi, 'Bütün Karakoyunlu ülkeleri Akkoyunlular’ın eline geçti'. HİCRÎ: 856 başı = 1452-01-22; 1452-01-01 hicrî aralıktan önce düşer — kesişimin ilk günü 1452-01-22 (kronoloji maddesinde KASA düzeltmeli; bu dönem kırılması o maddeden devralınıyor). Fars."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular) · TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler)",
+   "alinti": "Böylece Karakoyunlu Devleti eski düşmanları Akkoyunlular tarafından ortadan kaldırılmış oldu (1469)",
+   "oneri": {},
+   "not": "[sira 719] ÜLKE DÜZEYİ. f: TDV karakoyunlular Şevval 873 / Nisan 1469 (1469-01-01 hicrî 873 içinde: 873 = 1468-07-22 → 1469-07-11; kesişim ∩ 1469 ilk günü 1469-01-01, uyumlu). t: TDV safevîler 909 (1503) Hemedan — HİCRÎ 909 başı 1503-06-26; 1503-01-01 hicrî aralıktan önce (kronoloji maddesi düzeltilmeli)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1503-01-01",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler)",
+   "alinti": "909’da (1503) Irâk-ı Arab ve Fars hâkimi Murad Bey’e karşı yürüyen Şah İsmâil",
+   "oneri": {},
+   "not": "[sira 720] ÜLKE DÜZEYİ. f HİCRÎ: 909 başı = 1503-06-26 (1503-01-01 hicrî aralıktan önce; kronoloji maddesinde düzeltilmeli). t: aynı madde '1736’da Nâdir Şah unvanı ile tahta geçti' (gün kayıttaki TDV nadir-sah maddesinden). Fars."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 721] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 722] [KÜME K26] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2181",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 723] [KÜME K24] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Bender Rîg": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 724] [KÜME K20] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1335-12-01",
+   "t": "1393-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler)",
+   "alinti": "Fars ve İsfahan bölgelerinde hüküm süren İncûlular’la … bu hânedanı ortadan kaldırdı (758/1357)",
+   "oneri": {
+    "bolme": "incu 1335-12-01 → 1357-01-01; muzafferi 1357-01-01 → 1393-01-01"
+   },
+   "not": "[sira 725] Bender Rîg Fars kıyısı: sira 716 ile aynı gerekçe. TDV'de bender-rig maddesi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1393-01-01",
+   "t": "1452-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler) · TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Muzafferî hânedanının hâkimiyeti sona erdi (795/1393)",
+   "oneri": {},
+   "not": "[sira 726] ÜLKE DÜZEYİ (Fars/Irâk-ı Acem): Timur Şah Mansûr'u Şîraz yakınlarında yendi; hicrî 795 = 1392-11-17 → 1393-11-05, 1393-01-01 kesişim içinde. t ülke düzeyi: TDV karakoyunlular 856-857/1452-1453 (bk. HİCRÎ notu, 1452-01-22). Fars kıyısı, BÖLGE düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1452-01-01",
+   "t": "1469-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular)",
+   "alinti": "Rey, İsfahan ve Fars vilâyetlerini idaresi altına aldı … (856-857/1452-1453)",
+   "oneri": {},
+   "not": "[sira 727] ÜLKE DÜZEYİ (Irâk-ı Acem/Fars/Kirman). t: TDV karakoyunlular 'Şevval 873 / Nisan 1469' Hasan Ali yenildi, 'Bütün Karakoyunlu ülkeleri Akkoyunlular’ın eline geçti'. HİCRÎ: 856 başı = 1452-01-22; 1452-01-01 hicrî aralıktan önce düşer — kesişimin ilk günü 1452-01-22 (kronoloji maddesinde KASA düzeltmeli; bu dönem kırılması o maddeden devralınıyor). Fars."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Karakoyunlular' (https://islamansiklopedisi.org.tr/karakoyunlular) · TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler)",
+   "alinti": "Böylece Karakoyunlu Devleti eski düşmanları Akkoyunlular tarafından ortadan kaldırılmış oldu (1469)",
+   "oneri": {},
+   "not": "[sira 728] ÜLKE DÜZEYİ. f: TDV karakoyunlular Şevval 873 / Nisan 1469 (1469-01-01 hicrî 873 içinde: 873 = 1468-07-22 → 1469-07-11; kesişim ∩ 1469 ilk günü 1469-01-01, uyumlu). t: TDV safevîler 909 (1503) Hemedan — HİCRÎ 909 başı 1503-06-26; 1503-01-01 hicrî aralıktan önce (kronoloji maddesi düzeltilmeli)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1503-01-01",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler)",
+   "alinti": "909’da (1503) Irâk-ı Arab ve Fars hâkimi Murad Bey’e karşı yürüyen Şah İsmâil",
+   "oneri": {},
+   "not": "[sira 729] ÜLKE DÜZEYİ. f HİCRÎ: 909 başı = 1503-06-26 (1503-01-01 hicrî aralıktan önce; kronoloji maddesinde düzeltilmeli). t: aynı madde '1736’da Nâdir Şah unvanı ile tahta geçti' (gün kayıttaki TDV nadir-sah maddesinden). Fars."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 730] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 731] [KÜME K26] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2187",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 732] [KÜME K24] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Câsk": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 733] [KÜME K20] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "muzafferi",
+   "f": "1335-12-01",
+   "t": "1393-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler) · TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran) · TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 734] TDV'de câsk maddesi yok; Muzafferî/Timurlu/Karakoyunlu/Akkoyunlu maddelerinde Câsk/Mekrân kıyısı geçmiyor. İPUCU: Câsk Hürmüz Sultanlığı ya da Belûc yönetimi altında olabilir (künye hurmuz-sultanligi var) — kaynak aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1393-01-01",
+   "t": "1452-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler) · TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran) · TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 735] TDV'de câsk maddesi yok; Muzafferî/Timurlu/Karakoyunlu/Akkoyunlu maddelerinde Câsk/Mekrân kıyısı geçmiyor. İPUCU: Câsk Hürmüz Sultanlığı ya da Belûc yönetimi altında olabilir (künye hurmuz-sultanligi var) — kaynak aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1452-01-01",
+   "t": "1469-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler) · TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran) · TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 736] TDV'de câsk maddesi yok; Muzafferî/Timurlu/Karakoyunlu/Akkoyunlu maddelerinde Câsk/Mekrân kıyısı geçmiyor. İPUCU: Câsk Hürmüz Sultanlığı ya da Belûc yönetimi altında olabilir (künye hurmuz-sultanligi var) — kaynak aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Muzafferîler' (R. Kurtuluş) (https://islamansiklopedisi.org.tr/muzafferiler) · TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran) · TDV İslâm Ansiklopedisi, 'Belûcistan' (https://islamansiklopedisi.org.tr/belucistan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 737] TDV'de câsk maddesi yok; Muzafferî/Timurlu/Karakoyunlu/Akkoyunlu maddelerinde Câsk/Mekrân kıyısı geçmiyor. İPUCU: Câsk Hürmüz Sultanlığı ya da Belûc yönetimi altında olabilir (künye hurmuz-sultanligi var) — kaynak aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1503-01-01",
+   "t": "1736-03-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Safevîler' (T. Gündüz) (https://islamansiklopedisi.org.tr/safeviler) · TDV İslâm Ansiklopedisi, 'Hürmüz' (ada) (https://islamansiklopedisi.org.tr/hurmuz-3 → hurmuz--iran)",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 738] Câsk için Safevî yılı yok. İPUCU: Hürmüz Portekiz dönemi 1514-1622 (TDV hürmüz) ve Câsk 1619'da İngiliz Doğu Hindistan Şirketi'nin ilk İran limanı — kaynak aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 739] [KÜME K25] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "zend",
+   "f": "1747-06-20",
+   "t": "1794-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 740] [KÜME K26] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2193",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1925-10-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 741] [KÜME K24] ülke düzeyi ayrı ajanda."
+  }
+ ]
+}
