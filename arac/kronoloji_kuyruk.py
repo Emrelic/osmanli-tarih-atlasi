@@ -95,6 +95,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1401": ("tarih düzelt", "Tondibi / Dendi künye ucu 1591-01-01 → 1591-03-01 + «[yalnız ay teyitli; gün teyitsiz]» (Kaba, Journal of African History 1981: Mart 1591); Ta'rikh es-Sudan rivayeti 12 Nisan 1591 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
     # L2S 198-222 (S9) — EMRELİC Academia Sinica
     "L2-559": ("tarih düzelt", "557-01-01 → 557-02-14: Takvim: Batı Wei Gong Di 3/12/30 庚子 = 557-02-14 (Academia Sinica) 禪位 (Zhou shu 3); künye ucu — Değişmez 2 ±30 gün kontrolü"),
     "L2-565": ("tarih düzelt", "573-11-10 → 573-11-22: Takvim: Chen Taijian 5/10/13 乙巳 = 573-11-22 (Academia Sinica) Shouyang alındı (ZZTJ 171)"),
@@ -203,6 +204,9 @@ METIN = [
     ("L2-1341", "[BEKLE — 1415 desteksiz] Glyndŵr: Galler Biyografi Sözlüğü 1415 vermez («1412'den sonra duyulmaz, 1416'ya kadar yaşadı») → ifade ve yıl yeniden"),
     ("L2-1335", "[BEKLE — ipucu] Nijniy Novgorod yarlığı 1391 değil 1393 olabilir"),
     ("L2-1336", "[BEKLE — ipucu] Nijniy Novgorod yarlığı 1391 değil 1393 olabilir"),
+    # L2E 989-1000 (EMRELİC)
+    ("L2-1393", "Saluzzo: Fransa'ya katılma 1549 (Treccani) yıl tutar; 1 Ağustos ve 23 Şubat 1548 (davet/işgal) ayrı olaylar → metin yalnız 1549 katılmayı anlatmalı"),
+    ("L2-1404", "Askia Nuh 1599: Kaba (JAH 1981) kardeşin adını «el-Mustafa» verir, «Harun» değil → ad düzeltilir"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
