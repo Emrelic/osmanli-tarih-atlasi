@@ -15,6 +15,10 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 248-272 (S11)
+    "L2-606": "[çeviri doğrulanmadı] Silla 674 1. ay başı 674-02-12 ajan hesabı (Samguk sagi 7) — zayıf aday, Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-629": "Jin (Li Keyong) 902 → 895 zayıf aday: «封晉王» Xin Wudai shi 4 乾寧二年 anlatısında, yıl başlığı açık değil; künye kuruluşu mu unvanı mı tarihliyor — ikinci kaynak",
+    "L2-608": "Pakal ölümü 9.12.11.5.18: GMT 584283 ile 683-08-26 Jülyen = 08-29 proleptik Gregoryen; atlas 08-29 Gregoryen görünüyor, 1582 öncesi Jülyen kuralıyla 08-26 — Martin & Grube 2008 s.162 okunmadan karar yok (ajan hesabı)",
     # L2E 273-297 (EMRELİC @7fc83e4): ganzhi günleri Academia Sinica teyidine kadar BEKLE
     "L2-638": "[çeviri doğrulanmadı] ganzhi günü (908 / 913 / 915 / 918 Goryeo / 923) — Academia Sinica teyidi bekliyor (EMRELİC)",
     # L2S 173-197 (S8): ajanın kendi ganzhi hesabı, gün taşıyan iki madde — Academia Sinica teyidine kadar
@@ -142,6 +146,15 @@ METIN = [
     ("L2-605", "Dört Garnizon bileşimi: ZZTJ 龜茲/于闐/焉耆/疏勒 (Suyab yok), Jiu Tang 198 Suyab → çelişki ic_not'a iki kaynağıyla"),
     # L2E 470-494 (EMRELİC)
     ("L2-839", "[BEKLE — dayanak Universalis ipucu] Mali/Federasyon: de Gaulle'ün 13 Aralık 1959 konuşması Bamako'da değil Dakar'da → yer ya da olay tartışmalı (EMRELİC)"),
+    # L2S 248-272 (S11)
+    ("L2-609", "Nechtansmere 685-05-20 (Bede HE IV.26, saltanatın 15. yılı): «bağımsız kaldı» Bede'de yok → çıkarılır; mevcut kaynak (World History Encyclopedia) popüler → Bede ile değişir"),
+    ("L2-614", "Yan 756: kaynak alıntısı (乾元二年, Shi Siming) 756'yı desteklemez → doğru cümle «十五年正月，賊竊號燕國» ile kaynak yenilenir"),
+    ("L2-617", "Kaynak 檢校太尉 der; «Genel Vali unvanı» kaynakta yok → unvan düzeltilir"),
+    ("L2-624", "849 Epigraphia Indica 24 s.270 revize kronolojisi (Fleet 844) → konvansiyon ic_not'a; «Amoghavarsha ölümü sonrası bağımsızlık» desteksiz → çıkarılır"),
+    ("L2-626", "[BEKLE — tarih desteksiz] atlas 894 Song shi 490'da yok; en erken tanık 會昌中 (841-846) ve 977/980 → ikinci kaynak gelmeden düzeltilmez"),
+    ("L2-613", "[BEKLE — Treccani 754 / atlas 751] Childerich III tahttan indirilişi: Treccani 754 der → üçüncü kaynak, çelişki ic_not'a"),
+    ("L2-615", "[BEKLE — tek dayanak EB1911] Septimania: EB1911 756 (Pippin), atlas 759"),
+    ("L2-619", "[BEKLE — tek dayanak EB1911] Gaskonya 778 dayanaksız; EB1911 Lupus II teslimi 819"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
