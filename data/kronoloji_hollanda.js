@@ -221,8 +221,8 @@ window.KRONOLOJI_HOLLANDA = [
   d:"Spinoza öldüğü yıl başyapıtı Etika ölümünden sonra basıldı. Cumhuriyetin yayın iklimi Avrupa'nın en hürüydü; yine de Spinoza'nın eserleri yasaklandı — Lodewijk Meyer, Adriaen Koerbagh ve Balthasar Bekker'in yazılarıyla birlikte Avrupa çapında tartışma yarattı.",
   kaynak:"UvA, 'Dutch Culture and Society in European Context': Spinoza'nın sansürlenmesi ve radikal düşünce akımının Altın Çağ'ın son on yıllarında Avrupa'da yarattığı tartışma · Dikkat: GÜN DOĞRULANMADI" },
 
-{ odak_yer:["Amsterdam"], t:"1688-11-05", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
-  gun:"5 Kasım 1688 JÜLYEN (Torbay çıkarması, İngiliz takvimi) = 15 Kasım 1688 Gregoryen (Hollanda takvimi)",
+{ odak_yer:["Amsterdam"], t:"1688-11-15", b:"III. William'ın İngiltere'ye çıkması — Şanlı İhtilâl", tur:"hanedan", onem:5, dunya:4, kapsam:"dis", etiket:["askeri","hanedan","diplomasi","konu-askeri","konu-diplomasi","konu-isyan","konu-hanedan"], yer_id:"",
+  gun:"GREGORYEN 15 Kasım 1688 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 5 Kasım 1688 Jülyen/eski üslup · eski not: 5 Kasım 1688 JÜLYEN (Torbay çıkarması, İngiliz takvimi) = 15 Kasım 1688 Gregoryen (Hollanda takvimi)",
   d:"Hollanda stadhouder'i William, Genel Meclis'in donattığı bir donanmayla İngiltere'ye çıktı ve tacı aldı. İki deniz gücü aynı hükümdarda birleşti; Fransa'ya karşı ittifak kuruldu, ama uzun vadede deniz ticaretinin ağırlığı Londra'ya kaydı — Hollanda için zafer ve gerileyişin başlangıcı aynı olaydır.",
   kaynak:"bulunamadı — GÜN DOĞRULANMADI" },
 

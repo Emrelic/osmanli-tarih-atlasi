@@ -725,7 +725,7 @@ window.KRONOLOJI_ALMANYA = [
   d:"Sakson Elektörü Friedrich August I, Lehistan tacını kazanabilmek için Lutherciliği bırakıp Katolikliğe geçti ve August II ('Güçlü August') olarak Lehistan-Litvanya Krallığı'na seçildi. Saksonya-Lehistan kişisel birliği, Sakson elektörlüğünü doğrudan Osmanlı'nın kuzey komşusu bir krallığın tacıyla birleştirerek 1763'e kadar (aralıklarla) sürdü.",
   kaynak:"bulunamadı — August der Starke'nin 1697 Lehistan seçimi standart akademik anlatı, gün DOĞRULANMADI (15 Haziran 1697 yaygın kabul gören tarih)" },
 
-{ t:"1714-08-01", devlet:"hannover", b:"Hannover Elektörü'nün İngiltere Kralı I. George olarak tahta çıkışı", tur:"hukumdar", onem:5, dunya:3, kapsam:"dis", yer_id:"",
+{ t:"1714-08-12", ic_not_takvim:"GREGORYEN 12 Ağustos 1714 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 1 Ağustos 1714 Jülyen/eski üslup", devlet:"hannover", b:"Hannover Elektörü'nün İngiltere Kralı I. George olarak tahta çıkışı", tur:"hukumdar", onem:5, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["hanedan","siyaset","hannover","konu-siyasi","konu-hanedan"],
   d:"İngiltere'nin 1701 Veraset Yasası, Katolik Stuart hanedanını dışlayıp en yakın Protestan varis olarak Hannover hanedanını belirlemişti; Kraliçe Anne'nin ölümüyle Hannover Elektörü Georg Ludwig, İngiltere-İskoçya-İrlanda Kralı I. George oldu. Hannover ile Britanya arasında kurulan bu kişisel birlik, 123 yıl sürecekti.",
   kaynak:"bulunamadı — I. George'un 1714 İngiliz tahtına çıkışı standart akademik anlatı, gün DOĞRULANMADI", yer_id:"Londra" },

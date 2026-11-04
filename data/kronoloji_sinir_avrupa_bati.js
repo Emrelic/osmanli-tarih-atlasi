@@ -119,7 +119,7 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 // Roskilde 1658 · Pireneler 1659 · Kopenhag 1660 · Lizbon 1668 · Utrecht 1713 · Rastatt 1714 ·
 // Campo Formio 1797 · Fredrikshamn 1809 · Kiel 1814. Bu dönemin hatlarının çoğu haritada YOK kutusudur.
 
-{ odak_yer:["Östersund","Visby","Halmstad"], t:"1645-08-13", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
+{ odak_yer:["Östersund","Visby","Halmstad"], t:"1645-08-23", ic_not_takvim:"GREGORYEN 23 Ağustos 1645 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 13 Ağustos 1645 Jülyen/eski üslup", devlet:"isvec", devletler:["isvec","danimarka"], sinir_id:"dg6-dk-se-1751-oncesi",
   b:"Brömsebro Barışı — Jämtland, Härjedalen, Gotland ve Ösel İsveç'e geçti; Halland 30 yıllığına İsveç'e bırakıldı", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","isvec","danimarka"],
   d:"Uzun müzakerelerin ardından Brömsebro'da imzalanan barışla Danimarka-Norveç, Norveç'in Jämtland ve Härjedalen illerini İsveç'e bıraktı. İki krallık arasındaki kuzey sınırı böylece batıya kaydı; ancak hat 1751'e kadar ayrıntılı olarak çizilmedi.",

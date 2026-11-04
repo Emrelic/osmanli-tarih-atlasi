@@ -144,7 +144,7 @@ window.YER_YAMA_ALMANYA = [
 { dosya:"kronoloji_almanya.js", t:"1623-02-25", b:"Pfalz Elektörlüğü unvanının Bavyera'ya devri",
   yer_id:"Regensburg", kaynak:"standart akademik kaynak — Pfalz Elektörlüğü unvanının Bavyera'ya devri, Regensburg Diyeti'nde (Deputationstag) karara bağlandı, Şubat 1623" },
 
-{ dosya:"kronoloji_almanya.js", t:"1714-08-01", b:"Hannover Elektörü'nün İngiltere Kralı I. George olarak tahta çıkışı",
+{ dosya:"kronoloji_almanya.js", t:"1714-08-12", b:"Hannover Elektörü'nün İngiltere Kralı I. George olarak tahta çıkışı",
   yer_id:"Londra", kaynak:"standart akademik kaynak — Hannover Elektörü I. George'un İngiltere tahtına çıkışı, Kraliçe Anne'in ölümüyle Londra'da ilan edildi" },
 
 { dosya:"kronoloji_almanya.js", t:"1837-06-20", b:"Hannover-Britanya kişisel birliğinin sona ermesi",

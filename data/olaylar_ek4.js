@@ -255,7 +255,7 @@ window.OLAYLAR_EK4 = [
   kaynak:"hunkar-iskelesi-antlasmasi", duygu:["🤝"], yer_id:"İstanbul" },
 
 // ---------- VI. İKİ KRİZ ARASI (1834-1838) ----------
-{ t:"1834-05-19", k:"isyan", etiket:["isyan","ekonomi","konu-isyan","konu-ekonomi"], b:"Filistin-Nablus isyanı Mısır idaresine karşı", gun:"Mayıs 1834", yer:"Nablus, Kudüs, Halil",
+{ odak_yer:["Nablus","Hebron"], t:"1834-05-19", k:"isyan", etiket:["isyan","ekonomi","konu-isyan","konu-ekonomi"], b:"Filistin-Nablus isyanı Mısır idaresine karşı", gun:"Mayıs 1834", yer:"Nablus, Kudüs, Halil",
   kisiler:"İbrâhim Paşa (Kavalalı)",
   d:"Zorunlu askerlik, silah toplama ve yeni vergiler Filistin'de geniş bir ayaklanmaya yol açtı. İsyan sertçe bastırıldı; Mısır idaresinin yerel halk nezdindeki desteği hızla eridi.",
   kaynak:"suriye", duygu:["✊"], yer_id:"Nablus" },

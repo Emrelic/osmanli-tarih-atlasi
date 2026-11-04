@@ -359,7 +359,7 @@ window.OLAYLAR_EK16 = [
   gun:"17 Ekim 1797",
   yer:"Split (Spalato), Zadar (Zara), Şibenik (Sebenico), Dubrovnik çevresi, Kotor (Cattaro), Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), Preveze, Parga",
   yer_id:"Split (Spalato)", kisiler:"Napolyon Bonapart, Ludwig von Cobenzl",
-  d:"Napolyon Bonapart ile Avusturya temsilcisi Kont Cobenzl arasında 17 Ekim 1797'de imzalanan Campo Formio Antlaşması, bin yıllık Venedik Cumhuriyeti'ni resmen ortadan kaldırdı ve topraklarını paylaştırdı: Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya bırakıldı, Oniki Ada ve İyon Adaları (Korfu, Kefalonya, Zakynthos, Lefkada, Preveze ve Parga dahil Venedik'in Arnavutluk-Mora kıyısındaki üsleri) ise Fransa'ya geçti. Avusturya ayrıca Alçak Ülkeler'deki (bugünkü Belçika) topraklarını Fransa'ya bıraktı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Campo Formio').",
+  d:"Napolyon Bonapart ile Avusturya temsilcisi Kont Cobenzl arasında 17 Ekim 1797'de imzalanan Campo Formio Antlaşması, bin yıllık Venedik Cumhuriyeti'ni resmen ortadan kaldırdı ve topraklarını paylaştırdı: Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya bırakıldı, İyon Adaları (Korfu, Kefalonya, Zakynthos, Lefkada, Preveze ve Parga dahil Venedik'in Arnavutluk-Mora kıyısındaki üsleri) ise Fransa'ya geçti. Avusturya ayrıca Alçak Ülkeler'deki (bugünkü Belçika) topraklarını Fransa'ya bıraktı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Campo Formio').",
   kaynak:"bulunamadı", duygu:["⚔️","😔"] },
 
 { t:"1809-09-17", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
@@ -384,7 +384,7 @@ window.OLAYLAR_EK16 = [
   yer:"Napoli, Bari, Brindisi, Lecce, Foggia, Taranto, Reggio Calabria, Katanya (Catania), Palermo, Messina, Cosenza, L'Aquila, Sirakuza, Otranto, Pantelerya, Trapani",
   yer_id:"Napoli", kisiler:"II. Francesco (Francis II)",
   d:"Garibaldi'nin Mayıs 1860'ta Sicilya'ya çıkışıyla başlayan çöküşün ardından Napoli'den kaçan Bourbon kralı II. Francesco, son kalesi Gaeta'da 3 Kasım 1860'tan itibaren kuşatıldı; Fransız donanmasının Ocak 1861'de bölgeden çekilmesiyle İtalyan deniz ablukası sıkılaştı ve 13 Şubat 1861'de Gaeta teslim oldu. II. Francesco tahtını terk edip sürgüne gitti; İki Sicilya Krallığı'nın son direniş noktası Civitella del Tronto ancak 20 Mart 1861'de düşecektir.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, İtalyan Birliği/Risorgimento kronolojisi).",
-  kaynak:"bulunamadı", duygu:["😔","⚔️"] },
+  kaynak:"Treccani DBI, Francesco II di Borbone (https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/) — «la capitolazione, conclusa il 13 febbr. 1861 | NOT: 14 Şubat sabahı kral gemiye bindi; olay = kapitülasyon anlaşması» (KASA SALI kuyruğu 25; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı", duygu:["😔","⚔️"] },
 
 { t:"1861-03-17", k:"kurulus", etiket:["siyaset","konu-siyasi"],
   kapsam:"dis", b:"İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtalya'nın birleşmesi",
@@ -472,7 +472,7 @@ window.OLAYLAR_EK16 = [
   yer:"Lefkoşa, Magosa, Girne, Baf, Limasol, Tuzla (Larnaka)",
   yer_id:"Lefkoşa", kisiler:"Katerina Cornaro",
   d:"Kocası Kral II. Jacques'in 1473'te ölümünden sonra kraliçe naibi olarak Kıbrıs'ı yöneten Venedikli Katerina Cornaro, mirasçısı olmadığı için Venedik hükûmetinin baskısıyla 26 Şubat 1489'da tahttan çekilerek adadaki hükümdarlık haklarını doge'ye ve Venedik Cumhuriyeti'ne devretti; karşılığında kraliçe unvanını korudu ve Terraferma'da Asolo kontluğunu aldı. Bu devirle 1192'den beri süren Lüzinyan (Lusignan) hânedanı hâkimiyeti ve son Haçlı devleti sona erdi, ada 1570-71 Osmanlı fethine kadar Venedik idaresinde kaldı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)", duygu:["😔"] },
+  kaynak:"Treccani, Caterina Cornaro regina di Cipro (https://www.treccani.it/enciclopedia/caterina-cornaro-regina-di-cipro/) — «Venezia la costrinse ad abdicare a suo favore (26 febbr. 1489)» (KASA SALI kuyruğu 28; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)", duygu:["😔"] },
 
 { t:"1503-04-02", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
@@ -521,7 +521,7 @@ window.OLAYLAR_EK16 = [
   ic_not_gun:"KUTU-H4-1015: madde 30 Ağustos'tu — bu, Rusya'nın ve 1712 sonrası İsveç'in kullandığı Jülyen takvimin günüdür (SNL, lex.dk). TDV isvec 10 Eylül 1721 der; Britannica '10 Eylül [30 Ağustos Eski Takvim]'. Kural: kaynağın günü, çevirme yok — birincil kaynak TDV'nin günü yazıldı, takvim beyan edildi. Yerleşimlerdeki 1721-08-30 kırılmaları (Riga vb.) 11 gün fark ile ±30 gün içinde kalıyor; onlara dokunulmadı.",
   yer:"Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Narva, Lappeenranta",
   yer_id:"Riga", kisiler:"I. Petro (Büyük Petro), XII. Karl'ın ardılları",
-  d:"21 yıl süren Büyük Kuzey Savaşı'nı sona erdiren Nystad Antlaşması 30 Ağustos 1721'de Finlandiya'da imzalandı; İsveç, Rusya'ya Estonya, Livonya (Riga dahil), İngermanland ve güneydoğu Finlandiya'nın (Karelya) bir bölümünü bıraktı, buna karşılık Finlandiya'nın geri kalanını geri aldı ve tazminat ödendi. Antlaşma, İsveç'in büyük devlet statüsünün sonu ve Rusya'nın bir Avrupa imparatorluğu olarak yükselişinin resmî tescili sayılır — I. Petro bu zaferden sonra 'İmparator' unvanını aldı.",
+  d:"21 yıl süren Büyük Kuzey Savaşı'nı sona erdiren Nystad Antlaşması 10 Eylül 1721'de (Jülyen 30 Ağustos) Finlandiya'da imzalandı; İsveç, Rusya'ya Estonya, Livonya (Riga dahil), İngermanland ve güneydoğu Finlandiya'nın (Karelya) bir bölümünü bıraktı, buna karşılık Finlandiya'nın geri kalanını geri aldı ve tazminat ödendi. Antlaşma, İsveç'in büyük devlet statüsünün sonu ve Rusya'nın bir Avrupa imparatorluğu olarak yükselişinin resmî tescili sayılır — I. Petro bu zaferden sonra 'İmparator' unvanını aldı.",
   kaynak:"TDV İslâm Ansiklopedisi, 'İsveç', islamansiklopedisi.org.tr/isvec ; 'Avrupa' (30 Ağustos 1721 Jülyen) — «Nystad [Niştat] Antlaşması, 10 Eylül 1721»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (isvec · rusya · Store norske leksikon 'freden i Nystad' · Britannica 'Peace of N) dayanak olamaz, değiştirildi. İsveç maddesi açılıp okundu (10 Eylül 1721 Gregoryen). Avrupa maddesi 30 Ağustos verir (arama özeti, sayfa açılmadı); iki tarih aynı gün. Atlasın takvim beyanı TDV ile uyumlu.", duygu:["😔"] },
 
 { t:"1815-06-09", k:"antlasma", etiket:["toprak-kayip","toprak-kazanc","konu-askeri","konu-diplomasi"],
@@ -545,7 +545,7 @@ window.OLAYLAR_EK16 = [
   gun:"13 Haziran 1611",
   yer:"Smolensk",
   yer_id:"Smolensk", kisiler:"III. Zygmunt (Lehistan), Şeyn (Rus komutan)",
-  d:"Kargaşalar Dönemi'nde (Smuta) Lehistan Kralı III. Zygmunt'un ordusu, Eylül 1609'dan beri kuşattığı Smolensk'in surlarına 13 Haziran 1611'de bir lağım patlatarak gedik açtı ve şehri ele geçirdi; 20 aylık direniş sona erdi. Smolensk 1654'e kadar Lehistan-Litvanya'da kaldı ve bu düşüş, aynı yıl imzalanacak Deulino Mütarekesi'nin (1618) zeminini hazırladı.",
+  d:"Kargaşalar Dönemi'nde (Smuta) Lehistan Kralı III. Zygmunt'un ordusu, Eylül 1609'dan beri kuşattığı Smolensk'in surlarına 13 Haziran 1611'de bir lağım patlatarak gedik açtı ve şehri ele geçirdi; 20 aylık direniş sona erdi. Smolensk 1654'e kadar Lehistan-Litvanya'da kaldı ve bu düşüş, yedi yıl sonra imzalanacak Deulino Mütarekesi'nin (1618) zeminini hazırladı.",
   kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1609-1611 tarihyazımı)", duygu:["😔"] },
 
 { t:"1617-02-27", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
@@ -643,7 +643,7 @@ window.OLAYLAR_EK16 = [
   yer:"Cenova",
   yer_id:"Cenova", kisiler:"Napolyon Bonapart",
   d:"İtalya seferindeki Napolyon'un baskısıyla Haziran 1797 başında geçici bir yönetime devredilen Cenova Cumhuriyeti'nin yerine, 14 Haziran 1797'de Fransız modelinde bir anayasayla 'Ligurya Cumhuriyeti' ilan edildi; asırlık Cenova Dukalığı fiilen Fransa'nın uydu devletlerinden birine dönüştü. Cumhuriyet 1805'te doğrudan Fransa'ya ilhak edilecek, 1815 Viyana Kongresi'yle de Sardinya-Piyemonte Krallığı'na bırakılacaktı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Ligurian Republic 1797 tarihyazımı)", duygu:["😔"] },
+  kaynak:"Treccani, Genova (Enciclopedia Italiana) (https://www.treccani.it/enciclopedia/genova_(Enciclopedia-Italiana)/) — «nuovo governo democratico installato il 14 giugno» (KASA SALI kuyruğu 35; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Ligurian Republic 1797 tarihyazımı)", duygu:["😔"] },
 
 { t:"1800-09-05", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", b:"Malta'nın İngiltere'ye teslimi — iki yıllık Fransız kuşatmasının sonu",
@@ -776,7 +776,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"USHMM RG-22.029 bulma yardımcısı — arama özeti [özet]" },
 { t:"1943-08-05", k:"diger", kapsam:"ic", etiket:["savas","konu-askeri","toprak-kazanc"], b:"Orel Kızıl Ordu'ca geri alındı — Kursk'tan sonra ilk Sovyet selamı", gun:"5 Ağustos 1943", yer:"Orel", yer_id:"Orel",
   d:"Orel çıkıntısının ele geçirilmesi ve Belgorod'la birlikte Moskova'da ilk topçu selamının atılması.",
-  kaynak:"Stalin, 5 Ağustos 1943 günlük emri (marxists.org) — arama özeti [özet]" },
+  kaynak:"Stalin emri, 5 Ağustos 1943 (marxists.org metin) (https://www.marxists.org/reference/archive/stalin/works/1943/08/05.htm) — «TO-DAY, August 5, the troops on the Bryansk front ... captured the town of Orel. ; 'captured the town of Byelgorod'» (KASA SALI kuyruğu 43; KASA PAZAR 4 Kasım 2026) · önceki: Stalin, 5 Ağustos 1943 günlük emri (marxists.org) — arama özeti [özet]" },
 { t:"1941-10-06", k:"diger", kapsam:"dis", etiket:["isgal","konu-askeri","toprak-kazanc"], b:"Bryansk Alman Ordusu'nca alındı", gun:"6 Ekim 1941", yer:"Bryansk", yer_id:"Bryansk",
   d:"Bryansk Muharebesi'nin sonunda Alman kuvvetleri şehre girdi; şehir 17 Eylül 1943'e dek işgalde kaldı.",
   kaynak:"Yad Vashem Untold Stories (Bryansk) — arama özeti [özet]" },
@@ -986,6 +986,8 @@ window.OLAYLAR_EK16 = [
 { t:"1944-07-28", k:"diger", kapsam:"dis", etiket:["toprak-kazanc","konu-askeri"], b:"Kizil Ordu Brest-Litovsk'u Alman isgalinden kurtardi", gun:"1944-07-28 [ozet; teyit bekler]", yer:"Brest-Litovsk", yer_id:"Brest-Litovsk",
   d:"Dogu Cephesi: 1941 Barbarossa ve 1944 Bagration.",
   kaynak:"Belarus Ulusal Arşiv Komitesi (archives.gov.by/en/news/1019102) — «In Brest (liberated on July 28), several enemy divisions were encircled.»", ic_not_d:"DUNYA-1102 hücre 6 (KASA, 2 Kasım 2026): teyit tek kaynak. Önceki kaynak (Yad Vashem Shoah Resource Center; Wikipedia Grodno - arama ozeti [ozet]; elle do) dayanak olamaz, değiştirildi. Bir Polonya derlemesi arama özetinde Brześć için '26 VII' verir (yıl belirsiz); çelişki çözülmedi. Bagration kapsamında 28 Temmuz Belarus resmî kaynağında tutarlı." },
+{ t:"1870-09-28", k:"fetih", etiket:["toprak-kayip","savas","konu-askeri"], kapsam:"dis", onem:3, b:"Strazburg'un teslimi: Alman birlikleri şehri işgal etti", gun:"28 Eylül 1870", yer:"Strazburg", yer_id:"Strazburg", kisiler:"General Uhrich, General von Werder", d:"Altı haftalık kuşatma ve bombardımandan sonra General Uhrich gece Koenigshoffen'de kapitülasyonu imzaladı; sabah kapılar ve Kale Prusya ve Baden birliklerine teslim edildi. Şehir Frankfurt Antlaşması'na (10 Mayıs 1871) kadar askerî işgal altında kaldı.", kaynak:"G. Fischbach, Le siège et le bombardement de Strasbourg (1871) s.211; Moltke (Bell-Fischer çev., 1892) s.138 — çift teyit (KASA SALI oneri_ALSAS1870; KASA PAZAR 4 Kasım 2026)", duygu:["⚔️"] },
+{ t:"1870-10-29", k:"fetih", etiket:["toprak-kayip","savas","konu-askeri"], kapsam:"dis", onem:3, b:"Metz'in teslimi: Bazaine ordusu silah bıraktı, Alman birlikleri kaleyi aldı", gun:"29 Ekim 1870 (imza 27 Ekim)", yer:"Metz", yer_id:"Metz", kisiler:"Mareşal Bazaine, Prens Friedrich Karl", d:"Kuşatılan Ren Ordusu'nun kapitülasyon protokolü 27 Ekim akşamı imzalandı; 29 Ekim sabahı Prusya bayrakları tabyalara çekildi ve Fransız birlikleri kaleyi terk etti. Metz Frankfurt Antlaşması'na (10 Mayıs 1871) kadar askerî işgal altında kaldı.", ic_not:"İmza 27 Ekim 1870 saat 22:00; fiilî devir 29 Ekim — harita fiilî devir gününde değişir.", kaynak:"Moltke (Bell-Fischer çev., 1892) s.166; J. von Pflugk-Harttung (ed.), The Franco-German War (1900) s.~199 — çift teyit (KASA SALI oneri_ALSAS1870; KASA PAZAR 4 Kasım 2026)", duygu:["⚔️"] },
 ];
 
 ;
