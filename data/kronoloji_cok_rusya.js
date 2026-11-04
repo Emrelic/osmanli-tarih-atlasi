@@ -155,7 +155,7 @@ window.KRONOLOJI_COK_RUSYA = [
   devlet:"rusya", etiket:["kurulus", "sibirya", "genisleme", "konu-askeri", "konu-idari"],
   yer_id:"İlimsk (Ilimskiy ostrog)", gun:"1630 (kaynak yıl verir); ostrog 1640/1647",
   d:"İvan Galkin İlim ırmağında bir kışlak kurdu. Yer, Yenisey havzasından Lena havzasına geçen taşıma yolunun anahtarıydı; 1640'larda ostroga dönüştü.",
-  kaynak:"Istoriçeskaya entsiklopediya Sibiri (2009), \"Ilimsk\" (irkipedia.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]" },
+  kaynak:"Myglan & Zharnikov, J. Siberian Fed. Univ. Humanities 2009/3 s.43-52 (cyberleninka; EMRELİC okuması) — «1628 ilk kışlak; 1630 Galkin'in yeni kışlağı; «In 1647 the Ilimsk wintering place was rebuilt into an ostrog»» (KASA SALI kuyruğu L2-213; KASA PAZAR 4 Kasım 2026) · önceki: Istoriçeskaya entsiklopediya Sibiri (2009), \"Ilimsk\" (irkipedia.ru) — sayfa açılamadı (401/403), arama özetinden okundu [özet]" },
 { t:"1632-01-01", b:"Jigansk kışlağı kuruldu — Lena'nın aşağı kesiminde", tur:"kurulus", onem:1, dunya:1, kapsam:"ic",
   devlet:"rusya", etiket:["kurulus", "sibirya", "genisleme", "konu-askeri", "konu-idari"],
   yer_id:"Jigansk", gun:"1632 (kaynak yıl verir)",

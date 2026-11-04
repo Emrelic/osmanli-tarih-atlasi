@@ -208,7 +208,7 @@ window.OLAYLAR_EK11 = [
 //    Zend, Tahran'da Kacar) ve genel etiketin en mesru oldugu yer orasi.
 //    Sehir sehir bolunmesi ayri bir TDV taramasi istiyor, uydurulmayacak.
 
-{ t:"1747-06-20", k:"siyaset", etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
+{ t:"1747-06-20", kaynak:"Encyclopaedia Iranica, Afsharids (https://www.iranicaonline.org/articles/afsharids-dynasty/) — «assassinated by his Iranian officers on 11 Jomādā II 1160/20 June 1747» (KASA SALI kuyruğu 20; KASA PAZAR 4 Kasım 2026)", k:"siyaset", etiket:["siyaset","suikast","konu-siyasi","konu-kisiler"],
   kapsam:"dis", onem:4, b:"Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı",
   gun:"20 Haziran 1747", yer:"Fethâbâd, Horasan",
   kisiler:"Nâdir Şah Afşar",

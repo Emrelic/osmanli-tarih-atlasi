@@ -161,7 +161,7 @@ window.OLAYLAR_EK16 = [
   yer:"Napoli, Bari, Brindisi, Lecce, Foggia, Taranto, Reggio Calabria, Katanya (Catania), Palermo, Messina, Cosenza, L'Aquila, Sirakuza, Otranto, Pantelerya, Trapani",
   yer_id:"Napoli", kisiler:"II. Francesco (Francis II)",
   d:"Garibaldi'nin Mayıs 1860'ta Sicilya'ya çıkışıyla başlayan çöküşün ardından Napoli'den kaçan Bourbon kralı II. Francesco, son kalesi Gaeta'da 3 Kasım 1860'tan itibaren kuşatıldı; Fransız donanmasının Ocak 1861'de bölgeden çekilmesiyle İtalyan deniz ablukası sıkılaştı ve 13 Şubat 1861'de Gaeta teslim oldu. II. Francesco tahtını terk edip sürgüne gitti; İki Sicilya Krallığı'nın son direniş noktası Civitella del Tronto ancak 20 Mart 1861'de düşecektir.", ic_not_d:"⚠️ TDV'de bu olayın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, İtalyan Birliği/Risorgimento kronolojisi).",
-  kaynak:"bulunamadı", duygu:["😔","⚔️"] },
+  kaynak:"Treccani DBI, Francesco II di Borbone (https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/) — «la capitolazione, conclusa il 13 febbr. 1861 | NOT: 14 Şubat sabahı kral gemiye bindi; olay = kapitülasyon anlaşması» (KASA SALI kuyruğu 25; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı", duygu:["😔","⚔️"] },
 
 { t:"1861-03-17", k:"kurulus", etiket:["siyaset","konu-siyasi"],
   kapsam:"dis", b:"İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtalya'nın birleşmesi",
@@ -249,7 +249,7 @@ window.OLAYLAR_EK16 = [
   yer:"Lefkoşa, Magosa, Girne, Baf, Limasol, Tuzla (Larnaka)",
   yer_id:"Lefkoşa", kisiler:"Katerina Cornaro",
   d:"Kocası Kral II. Jacques'in 1473'te ölümünden sonra kraliçe naibi olarak Kıbrıs'ı yöneten Venedikli Katerina Cornaro, mirasçısı olmadığı için Venedik hükûmetinin baskısıyla 26 Şubat 1489'da tahttan çekilerek adadaki hükümdarlık haklarını doge'ye ve Venedik Cumhuriyeti'ne devretti; karşılığında kraliçe unvanını korudu ve Terraferma'da Asolo kontluğunu aldı. Bu devirle 1192'den beri süren Lüzinyan (Lusignan) hânedanı hâkimiyeti ve son Haçlı devleti sona erdi, ada 1570-71 Osmanlı fethine kadar Venedik idaresinde kaldı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)", duygu:["😔"] },
+  kaynak:"Treccani, Caterina Cornaro regina di Cipro (https://www.treccani.it/enciclopedia/caterina-cornaro-regina-di-cipro/) — «Venezia la costrinse ad abdicare a suo favore (26 febbr. 1489)» (KASA SALI kuyruğu 28; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV bu olayı müstakil bir maddede ele almıyor, dayanak: standart akademik kaynak (Catherine Cornaro tarihyazımı)", duygu:["😔"] },
 
 { t:"1503-04-02", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
   kapsam:"dis", b:"Moskova-Litvanya Mütarekesi — Çernigov-Seversk bölgesi Moskova'ya geçti",
@@ -420,7 +420,7 @@ window.OLAYLAR_EK16 = [
   yer:"Cenova",
   yer_id:"Cenova", kisiler:"Napolyon Bonapart",
   d:"İtalya seferindeki Napolyon'un baskısıyla Haziran 1797 başında geçici bir yönetime devredilen Cenova Cumhuriyeti'nin yerine, 14 Haziran 1797'de Fransız modelinde bir anayasayla 'Ligurya Cumhuriyeti' ilan edildi; asırlık Cenova Dukalığı fiilen Fransa'nın uydu devletlerinden birine dönüştü. Cumhuriyet 1805'te doğrudan Fransa'ya ilhak edilecek, 1815 Viyana Kongresi'yle de Sardinya-Piyemonte Krallığı'na bırakılacaktı.",
-  kaynak:"bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Ligurian Republic 1797 tarihyazımı)", duygu:["😔"] },
+  kaynak:"Treccani, Genova (Enciclopedia Italiana) (https://www.treccani.it/enciclopedia/genova_(Enciclopedia-Italiana)/) — «nuovo governo democratico installato il 14 giugno» (KASA SALI kuyruğu 35; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV bu olayı müstakil ele almıyor, dayanak: standart akademik kaynak (Ligurian Republic 1797 tarihyazımı)", duygu:["😔"] },
 
 { t:"1800-09-05", k:"fetih", etiket:["toprak-kayip","konu-askeri"],
   kapsam:"dis", b:"Malta'nın İngiltere'ye teslimi — iki yıllık Fransız kuşatmasının sonu",
@@ -553,7 +553,7 @@ window.OLAYLAR_EK16 = [
   kaynak:"USHMM RG-22.029 bulma yardımcısı — arama özeti [özet]" },
 { t:"1943-08-05", k:"diger", kapsam:"ic", etiket:["savas","konu-askeri","toprak-kazanc"], b:"Orel Kızıl Ordu'ca geri alındı — Kursk'tan sonra ilk Sovyet selamı", gun:"5 Ağustos 1943", yer:"Orel", yer_id:"Orel",
   d:"Orel çıkıntısının ele geçirilmesi ve Belgorod'la birlikte Moskova'da ilk topçu selamının atılması.",
-  kaynak:"Stalin, 5 Ağustos 1943 günlük emri (marxists.org) — arama özeti [özet]" },
+  kaynak:"Stalin emri, 5 Ağustos 1943 (marxists.org metin) (https://www.marxists.org/reference/archive/stalin/works/1943/08/05.htm) — «TO-DAY, August 5, the troops on the Bryansk front ... captured the town of Orel. ; 'captured the town of Byelgorod'» (KASA SALI kuyruğu 43; KASA PAZAR 4 Kasım 2026) · önceki: Stalin, 5 Ağustos 1943 günlük emri (marxists.org) — arama özeti [özet]" },
 { t:"1941-10-06", k:"diger", kapsam:"dis", etiket:["isgal","konu-askeri","toprak-kazanc"], b:"Bryansk Alman Ordusu'nca alındı", gun:"6 Ekim 1941", yer:"Bryansk", yer_id:"Bryansk",
   d:"Bryansk Muharebesi'nin sonunda Alman kuvvetleri şehre girdi; şehir 17 Eylül 1943'e dek işgalde kaldı.",
   kaynak:"Yad Vashem Untold Stories (Bryansk) — arama özeti [özet]" },
