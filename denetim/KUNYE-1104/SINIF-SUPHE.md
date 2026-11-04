@@ -24,6 +24,19 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `moundville` | 1120-01-01 → 1450-01-01 | 330 | arkeolojik şeflik merkezi; radyokarbon aralığı |
 | `spiro` | 0850-01-01 → 1450-01-01 | 169 | arkeolojik tören merkezi; radyokarbon aralığı |
 | `sican` | 0750-01-01 → 1375-01-01 | 506 | arkeolojik kültür; radyokarbon aralığı |
+| `kaonde-ila` | 1281-01-01 → 1900-01-01 | 1238 | KAYNAKLI: Smith & Dale 1920 'The Ba-ila have never been a united people' — SINIF-HATASI (hasat 3) |
+| `tlingit` | 1281-01-01 → 1867-10-18 | 587 | t 1867-10-18 Alaska devri (NPS); Tlingitler taraf değil, siyasi birlikleri sürdü |
+| `nez-perce` | 1281-01-01 → 1877-10-05 | 597 | t 1877-10-05 Bear Paw teslimi (NPS) — savaş sonu, polity sonu değil |
+| `nuxalk` | 1281-01-01 → 1858-08-02 | 578 | t 1858-08-02 BC Hükümeti Yasası (birincil) — kolonyal çerçeve, Nuxalk sonu değil |
+| `nuu-cah-nulth` | 1281-01-01 → 1858-08-02 | 578 | t 1858 BC Yasası anakarayı kapsar, Vancouver Adası'nı (Nuu-chah-nulth) DEĞİL — uç yanlış yasaya bağlı |
+| `mikmak` | 1281-01-01 → 1761-01-01 | 480 | t 1761 barış ve dostluk antlaşmaları (RCAANC) — egemenlik devri değil, antlaşmalar yürürlükte |
+| `abenaki` | 1281-01-01 → 1725-12-15 | 471 | t 1725-12-15 Dummer Antlaşması (RCAANC) — savaşı bitirir, polity'yi değil |
+
+## Dönem etiketi — devlet değil
+
+| künye | şimdi f → t | ağırlık | şüphe |
+|---|---|---|---|
+| `yamato` | 0250-01-01 → 0710-04-13 | 238 | t 710 Heijō'ya başkent taşıma (Dürr, NOAG 2013-14); Yamato devleti Nara olarak sürer — SINIF-HATASI (hasat 3) |
 
 ## Birleşik kayıt — birden çok polity tek satırda
 
@@ -51,6 +64,10 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `zulu-kralligi` | 1816-01-01 → 1879-07-04 | 114 | t 1879-07-04 Ulundi savaş günü; düzenleme Eylül 1879, ilhak 1887 (hasat 1) |
 | `herero` | 1281-01-01 → 1904-01-12 | 1246 | t 1904-01-12 ayaklanmanın başlangıcı (hasat 1/2) |
 | `banten-sultanligi` | 1527-06-22 → 1813-01-01 | 867 | 1684 VOC bağlanması vasallık (TDV) — t 1813 ayrıca kaynak ister (hasat 1) |
+| `toro` | 1830-01-01 → 1900-06-26 | 70 | t 1900 Toro Antlaşması (himaye); krallık bugün sürüyor |
+| `ibadan` | 1829-01-01 → 1893-08-15 | 65 | t 1893-08-15 Lagos himaye antlaşması; Baale yönetimi sürdü |
+| `kocin` | 1102-01-01 → 1503-01-01 | 223 | t 1503 Portekiz himayesi; Cochin krallığı 1949'a dek |
+| `venda` | 1700-01-01 → 1898-01-01 | 396 | t 1898 Joubert seferi; Mphephu 1902'de döndü — geçici işgal (UNISA tezi 1977) |
 
 ## Uç başka bir olayı tarihliyor (olay türü)
 
