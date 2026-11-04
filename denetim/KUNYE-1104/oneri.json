@@ -980,7 +980,7 @@
 {
 "id": "zerma",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden) · EMRELİC Parti 2: OKUNMADI · İPUCU: Fransız fethi süreci 1896–1906 (Kimba 1981 başlığı; metin okunmadı) — t 1898 sürecin içinde, dayanaksız"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden) · EMRELİC Parti 2: OKUNMADI · İPUCU: Fransız fethi süreci 1896–1906 (Kimba 1981 başlığı; metin okunmadı) — t 1898 sürecin içinde, dayanaksız · AÇIK KAYNAK (LAB, 4 Kasım): Gallica SRU 403 + Cloudflare doğrulaması (aşılmadı); Persée aramaları ('Zarma conquête 1898', 'Djerma 1898 Niger') fetih tarihi taşıyan makale vermedi"
 },
 {
 "id": "kong-vattara",
@@ -1055,7 +1055,7 @@
 {
 "id": "adar",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK (LAB, 4 Kasım): Gallica kapalı (Cloudflare); Persée: Fuglestad, 'À propos de travaux récents sur la mission Voulet-Chanoine', Outre-Mers 67 (246-247), 1980, s.73-87 ve Chirot, 'Birni N'Konni and its Hinterland', CEA 8 (32), 1968 — tam metin açık değil (PDF 403); Konni'nin 1899 Voulet-Chanoine baskını için aday kaynaklar, OKUNMADI"
 },
 {
 "id": "tuareg-air",
@@ -1257,8 +1257,9 @@
 },
 {
 "id": "tubu-tibesti",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1914-01-01 (bölüm: eserin dizininden) · EMRELİC Parti 2: Cambridge Core'da OKUNMADI"
+"hukum": "DUZELT",
+"t": "1914-09-01",
+"kaynak": "Maurice Zimmermann, 'La conquête du Tibesti', Annales de Géographie 25 (135), 1916 (Persée, geo_0003-4010_1916_num_25_135_8819 — çağdaş akademik kronik): Territoire militaire du Niger kolu 'atteignit Enneri Zouar le [?] décembre 1913' (gün OCR'de düşmüş), '11 juin 1914' sırtı aştı, 'entra [à] la principale localité du Tibesti [Bardaï] le 23 juin', 'la conquête … se trouvait terminée le 1er septembre 1914'; Zouar ve Bardaï'da iki daimî karakol · ÖNERİ t 1914-01-01 → 1914-09-01 (fethin tamamlanışı; 06-23 Bardaï'ya giriş ic_not'ta) · ic_not: 'Zouar Aralık 1913; Bardaï 23 Haziran 1914; fetih 1 Eylül 1914'te tamam (Zimmermann 1916). İPUCU (kaynaksız, KASA teyit etsin): Fransızlar Tibesti'yi 1916'da Senusi baskısıyla boşaltıp 1929-30'da yeniden işgal etmiş olabilir — doğrulanırsa t sınıflandırması yeniden açılır.' · TEK KAYNAK (çift teyit yok) · f 1281 dayanaksız (okunmadı) · Gallica (Journal officiel AOF/AEF) Cloudflare bot doğrulaması verdi — aşılmadı"
 },
 {
 "id": "kanada",
