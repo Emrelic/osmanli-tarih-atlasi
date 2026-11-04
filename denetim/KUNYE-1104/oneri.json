@@ -1064,12 +1064,13 @@
 "id": "tuareg-adag",
 "hukum": "DUZELT",
 "t": "1903-01-01",
-"kaynak": "SONNET AJAN (LAB denetimi) — Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' (Kel Adagh = Ifoghas; t 1899 → 1903, YIL hassasiyeti, beyanlı; tek kaynak, gün yok; teslim = polity sonu varsayımı ic_not'ta)"
+"kaynak": "Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' — GENEL ANSİKLOPEDİ (en çok kısmen sayılır); AKADEMİK TEYİT GEREK: Cambridge History of Africa VI/VII (t 1899 → 1903, YIL hassasiyeti, beyanlı)"
 },
 {
 "id": "tuareg-ivellemmedan",
-"hukum": "KISMEN",
-"kaynak": "SONNET AJAN (LAB denetimi) — Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' — yalnız BATI İvellemmedan (Kel Ataram) 1903; doğu İvellemmedan 1917'ye dek direndi → t 1899 KİME göre? künye bütün konfederasyonsa t 1899 de 1903 de erken (1917 adayı, kaynakla); KARAR KASA/EMRELİC"
+"hukum": "DUZELT",
+"t": "1917-01-01",
+"kaynak": "KARAR (EMRELİC, 4 Kasım 2026): künye bütün İvellemmedan konfederasyonunu kapsar; polity doğu koluyla (Kel Dinnik) sürdü → künye kuralı gereği kısaltılmaz, t 1899 → 1917 (YIL hassasiyeti; doğu kolunun teslimi/1916-17 direnişinin sonu — gün ve akademik teyit gerek: CHA VII). ic_not: 'batı kolu (Kel Ataram) 1903'te boyun eğdi' — Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' (genel ansiklopedi)"
 },
 {
 "id": "liberya",
