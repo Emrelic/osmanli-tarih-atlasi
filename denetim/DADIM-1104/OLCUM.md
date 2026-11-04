@@ -883,6 +883,14 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
     - Satırlar künye düzeltmesiyle aynı commit'te uygulanır.
     - Graz HATALI_ONERI değildir → KUNYE_DUZELTMESIYLE.
 - **Dubrovnik:** v: 1459-03-07 kalır. 1365 haraç ahidnâmesi ve 1358 Zadar `ic_not`'a.
+- **Bosna-Hersek ilhakı (EMRELİC gece-24):** 1908-10-05 kalır.
+  - TEK ÖLÇÜ: Avusturya 1878'den beri fiilen yönetiyordu, ölçü imza günüdür; Handschreiben 5 Ekim tarihli.
+  - TDV'nin 7 Ekim'i ilan ve yayın günüdür. Bu bir tarih çelişkisi değil, iki ayrı işlem.
+  - `ic_not`: "beyanname 5.10.1908 (imza); resmî ilan 7.10 (TDV Bosna-Hersek); literatürde 6.10 bildirim".
+  - Ölçüm (UMIT): 40 avusturya parçası 1908-10-05 kullanıyor.
+  - Değişmez 2 uyumlu: `olaylar_ek.js:91` (1908-10-05 "Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı") ve `kronoloji_sinir_avrupa_orta.js:47` (10-06).
+- **Split/Požun:** teslim kararı geçerli (1806-02); öneri HATALI_ONERI'de kalır.
+- **Cidde:** S10 kararı (Necid teslimi 1925-12) esas; 1927 Cidde Antlaşması `ic_not`'a.
 - **Alaşehir:**
   - Yerin kendi TDV maddesi esas: Bizans 1390/91'e kadar, sonra Osmanlı.
   - germiyan 1300-1390 dilimi kaynaksız → HATALI_ONERI/düzeltme kovası.
@@ -890,6 +898,33 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
 - **Sudak:** y_029 ajanının "almanya künyesi 1806'da biter" hükmü yanlıştı.
   - `almanya` f 0962 → t 1945-06-05; `ic_not_t`'ye göre Nazi Almanyası aynı polity.
   - `isg almanya` 1941-44 geçerli. Brife "künyenin adına değil f/t alanına bak" uyarısı eklendi.
+
+## 38. Alıntı örneklem kontrolü (EMRELİC isteği, 5 Kasım 2026; `alinti_orneklem.py`, `alinti_yeniden.py`, `alinti_orneklem.json`)
+- **Neden:** LAB PAZAR, WebFetch'in sayfayı özetlediğini fark etti; KAYNAKLI alıntılar birebir olmayabilir.
+- **Evren:**
+  - URL'li ve en az 25 karakter alıntılı KAYNAKLI satır: 1972.
+  - %10 rastgele örneklem: 197 (tohum 1105).
+  - Her satırın kaynak sayfası `sayfa.py` ile ham metin olarak yeniden çekildi.
+- **Yöntem:**
+  - 1. tur: 40 karakterlik kayan pencereler; ≥%80'i geçerse BİREBİR.
+  - 2. tur: YOK ve KISMEN satırlarında alıntı "…", ";", "|" ve "(İlişkili madde…)" ile parçalara bölündü (ajanlar parçaları "…" ile birleştiriyor). Her parça (≥12 karakter) ayrı arandı.
+- **Sonuç (197):**
+
+  | Sınıf | Satır | Oran |
+  |---|---|---|
+  | BİREBİR | 169 | %86 |
+  | KISMEN | 12 | %6 |
+  | YOK | 14 | %7 |
+  | ÖLÇÜLEMEDİ | 2 | — |
+
+- **YOK satırlarının çoğu yapay:**
+  - Diakritiksiz yazılmış alıntılar ("Divrigi yaklasan…", "Musa Celebi maglup…"; ham metinde "Divriği", "Mağlûp").
+  - "TDV: …" önekleri.
+  - Birden çok cümlenin "·" ile birleştirilmesi.
+  - Gerçek özet ya da yeniden ifade şüphesi: Kumamoto (LoC Japan), Kâzerûn (Iranica Bâbor), Şarköy (TDV Tekirdağ), Clervaux (Treccani Lussemburgo).
+- **İşlem:** YOK ve KISMEN çıkan 26 satıra `_alinti_kontrol` etiketi ve not eklendi: "KASA uygulamadan önce kaynağı açıp cümleyi doğrulasın".
+- **Kural:** DA-BRIEF'e "ALINTI HAM METİNDEN; WebFetch/WebSearch özeti alıntı sayılmaz" eklendi.
+- **Sınır:** örneklem ham metin kapsamını ölçer, alıntının hükmü desteklediğini ölçmez. Yorum hataları (yanlış olayı tarihleyen cümle) bu ölçümde görünmez.
 
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.

@@ -108,6 +108,10 @@ Aşağıdaki TEK KURAL bu ölçütün uygulamasıdır, onun yerine geçmez. Öl�
     - Luang Prabang `v: fransa`.
 - **Künye var mı, ölç (gece-12):** "künye adayı", "künye yok" ya da "id bilinmiyor" yazmadan önce depodaki `data/devletler.js`'te devletin adını ve olası kimliğini grep'le ara. Örnek hata: Trieste Serbest Toprağı (`triyeste-serbest-toprak`) zaten vardı.
 - **Hayalet devlet kontrolü (gece-11):** Fiilî yönetim ya da Draç emsaliyle erken bir gün önerirken önce künyenin `f`'sine bak. Künye o günü kapsamıyorsa yerleşimi künye gününde bırak, erken günü `ic_not`'a yaz, künye sorusunu LAB'a gönder.
+- **🔴 ALINTI HAM METİNDEN (EMRELİC, 5 Kasım 2026):**
+  - `alinti` / `alinti2` alanına yalnız sayfanın **ham metninden birebir** kopyalanmış cümle yazılır (`sayfa.py oku` çıktısı).
+  - WebFetch ya da WebSearch'ün **özetlediği** metin alıntı sayılmaz. Sayfayı özetleyen bir araçla okunan cümle KAYNAKLI hükmüne dayanak olamaz.
+  - Yalnız arama özeti görüldüyse hüküm ONERI'dir.
 - **🔴 Tunus ve Fas HİMAYEDİR (EMRELİC gece-22 KURAL KARARI):**
   - **Tunus:** 1881-05-12 (Bardo) → 1956-03-20 `v: fransa`, `isg` değil. Altta `s: tunus-beyligi` sürer (künye `tunus-beyligi-fransiz`). Atlastaki `isg fransa` katmanı `v:`'ye çevrilir.
   - **Fas:**
