@@ -36,6 +36,7 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    "L2-968": "Fîrûz Şah Topra/Meerut sütunları 1356-01-01 → 1367-09-01 ZAYIF aday: Razavi (IHC Proceedings 70, 2009-10, s.996) «Eylül 1367 makara/halat» — makale açılmadı, ikincil alıntı; Meerut anılmıyor → Razavi tam metni ya da Afif neşri gelmeden uygulanmaz",
     # L2S YENI-TARAYICI (S16)
     "L2-819": "Kosta Rika 1948-04-24 → 04-19 adayı: Archivo Nacional iç savaşı 12 Mart-19 Nisan, Meksika Büyükelçiliği Paktı 19 Nisan; 24 Nisan Figueres'in San José'ye girişi olabilir (okunmadı) → madde hangi olayı anlatıyor netleşmeden uygulanmaz",
     "L2-789": "Libya BMA 1943-01-01 → 01-23 adayı: London Gazette 38196 s.863-864 (Montgomery: Tripoli «three months to the day» taarruzdan) — gün türetme, ikinci kaynak gerekli",
@@ -285,6 +286,13 @@ METIN = [
     ("L2-1477", "[BEKLE — ipucu] Belçika: Birlik Antlaşması 1790-01-11; atlas 1790-01-01 yer tutucu görünüyor"),
     ("L2-1478", "[BEKLE — ipucu] Belçika: Birlik Antlaşması 1790-01-11; atlas 1790-01-01 yer tutucu görünüyor"),
     ("L2-1483", "[BEKLE — ipucu] Poniatowski tahttan çekilmesi 1795-11-25, 24 Ekim değil (24 Ekim üçüncü bölüşme antlaşması)"),
+    # L2S 603-614 (S20)
+    ("L2-967", "Fîrûz Şah: kaynak alanı «TDV'de müstakil maddesi yok» yanlış — TDV «Fîrûz Şah Tuğluk» maddesi var (24 Mart 1351; «Tuğluklular» 24 Muharrem 752) → kaynak alanı düzeltilir, çift madde teyidi"),
+    ("L2-971", "Papalığın Roma'ya dönüşü 1377-01-17 (DBI «Caterina da Siena»): atlas kronoloji_italya.js:119'da aynı olay zaten 1377-01-17 → yinelenen madde birleşir; Katerina'nın rolü tartışmalı (Raimondo da Capua / Maconi) → «ikna etti» nedenselliği yumuşatılır"),
+    ("L2-973", "[BEKLE — TDV iç çelişkisi] Sa'deddîn II: TDV Evfât 1415 ölüm, Zeyla'da 1403 kaçış; madde «1386-1403/1410» TDV'ye dayanmıyor → üçüncü kaynak"),
+    ("L2-977", "Kinkaku-ji 1397: 1397'de yapılan Kitayama-dono ve Shariden; Kinkaku-ji adı ve Zen tapınağı olması 1422 (vasiyet) → ad anakronik, ifade düzeltilir (Kotobank Daijisen)"),
+    ("L2-978", "Stećci: UNESCO WHC 1504 Kotromanić'e bağlı zirve iddiası taşımaz; yayılım Bosna dışında Hersek, Hırvatistan, Karadağ, Sırbistan → metin daraltılır"),
+    ("L2-965", "Kefe 1346 (Wheelis, EID 8(9) 2002) yıl tutar; «üçte biri» rakamı makalede yok → rakam çıkarılır ya da kaynaklanır"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
