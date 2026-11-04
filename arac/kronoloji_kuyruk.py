@@ -63,6 +63,13 @@ ISARETLE = [
 ]
 # Metin düzeltmeleri (tarih kalır; koordinatör kararı, EMRELİC 1 KASIM, 4 Kasım 2026).
 METIN = [
+    ("L2-1659", "Batı Trakya 1913: TDV'ye göre yapı «Hükûmet-i Muvakkate / Müstakille», «Cumhuriyeti» değil; ömrü TDV'de 57 gün (iç tutarsızlık bkz. OLGU-DOGRULAMA #5); Ferecik/Sofulu muharebeleri TDV'de yok → ad TDV'ye uydurulur"),
+    ("L2-1616", "1888 İngiliz-Fransız antlaşması: TDV «sınırları belirledi» diyor, «Fransız himayesini tanıdı» demiyor → ifade düzeltilir"),
+    ("L2-1667", "Alaş: madde iki olayı birleştiriyor (Kurucu Meclis'in dağıtılması + Alaş projesi); TDV yalnız Aralık 1917 özerklik ilanını veriyor → ayrılır"),
+    ("L2-1675", "[BEKLE — tek, akademik olmayan kaynak] Somali 1920: «Afrika'da uçakla bombalanan ilk yer» iddiası kaynakta yok; TDV «1920'nin ilk ayları» (gün yok); 21 Ocak yalnız RAF Müzesi"),
+    ("L2-1663", "[BEKLE — tek, akademik olmayan kaynak] Terîm 1916: TDV Terîm'i Seyyidler kontrolünde gösteriyor; «Terîm sultanlığı ayrıldı» TDV anlatısıyla örtüşmüyor; 1916 yalnız ikincil"),
+    ("L2-1626", "[BEKLE — tek, akademik olmayan kaynak] Gambiya himayesi 1894-12-28 hiçbir kaynakta yok; hukukî dayanak 23 Kasım 1893 Order in Council olabilir (okunmadı)"),
+    ("L2-1681", "Annual 1921-07-22: TDV «Abdülkerîm» «22 Haziran 1921» yazıyor — büyük olasılıkla baskı hatası (Annual 21-22 Temmuz, Rif Cumhuriyeti 19 Eylül ile tutmuyor) → atlas günü KALIR, TDV iç çelişkisi ic_not'a; üçüncü kaynak (Moro, Ivitra 27) tarayıcıda"),
     ("L2-1479", "Avignon 1790-08-27: Archives parlementaires t.XVIII s.369-370 — Meclis ilhakı REDDETMEDİ, krala havale etti ve çevreye birlik yerleştirilmesini istedi → «reddetti» düzeltilir"),
     ("L2-1425", "Kandiye kuşatması: metin «Mayıs 1648», tarih 1648-01-01; TDV «Kandiye»: ~23 yıllık abluka/kuşatma, teslim 6 Eylül 1669; Mayıs 1648 hiçbir akademik kaynakta yok → «Mayıs» ifadesi kaldırılır"),
     ("L2-1547", "Şamil: 8 Mart 1840 TDV'de yok; TDV imamlık 19 Eylül 1834, İçkeri yönetimi Ahulgoh (4.9.1839) sonrası (gün yok), İşkarti-İrpili Temmuz 1840 → gün yalnız Vikipedi, madde ifadesi/günü TDV'ye uydurulur"),
