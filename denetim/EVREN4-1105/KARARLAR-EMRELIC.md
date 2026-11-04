@@ -45,3 +45,15 @@ KASA PAZAR bunları uygularken JSON'daki ONERI satırlarının önünde tutar.
   - Ji'an: Chen Han 1358-68. Zhu Wu ayrı künye istemez; Ming künyesi GENİŞLET ile f 1356-04-10'a çekilir ve Zhu Wu onun içinde kalır.
   - Norveç naiplik dilimi 1814-01-14 → 05-17; şimdilik BEYANLI.
 - P005/P006'nın öteki önerileri uygun.
+
+## 5 Kasım 2026 gece-18 — düzeltmeler
+
+- **Bukovina (gece-17 (b) maddesinin YERİNE geçer):** `habsburg` künyesinin t'si 1918-11-12, sonrasında künyeli egemen yok. İşgalin altında sahip olamayacağı için Trento emsali burada işlemez. Rakip hükûmet kuralı (fiilî idare) uygulanır:
+  - Çernovitz 1918-11-06 → 11-11 Ukrayna Milli Komitesi / ZUNR. **Ölçüm:** `bati-ukrayna-halk-cumhuriyeti` künyesi var (f 1918-11-01, t 1919-07-17), bu dönem için kullanılabilir. Bukovina'daki ilan günü kaynakla teyit edilmeli.
+  - `s: romanya` Rumen ordusunun Çernovitz'e girdiği günden başlar (1918-11-11, kaynakla teyit edilmeli).
+  - Saint-Germain 1919-12-10 ve Bukovina Kongresi 1918-11-28 `ic_not`a yazılır.
+- **Ürdün Emirliği f 02-01 mi 04-11 mi:** LAB kaynağa göre seçer; künye kaynağı esastır. EMRELİC'in 04-11'i, Abdullah'ın Kudüs'te Churchill'le görüşmesinden sonra idaresinin başladığı gündür.
+- **K16-K30 istisnaları onaylandı:** Cava/Sumatra (Endonezya kuralı), Brezilya şehirlerinin tek tek günleri, Horasan'ın Afşar dönemi.
+- **Habeşistan (K17):** restorasyon TDV'ye göre 1941-05-05'tir (Haile Selassie'nin Addis Ababa'ya dönüşü; fiilî idare ölçüsü).
+  - 1941-11-30 Gondar teslimidir, kuzeydeki son İtalyan direnişi. Gondar çevresindeki yerlerde 11-30 kalır.
+  - Öteki yerlerde f 1941-05-05 ya da o şehrin kendi kurtuluş günü olur.
