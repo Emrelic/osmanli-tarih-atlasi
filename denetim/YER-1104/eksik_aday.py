@@ -50,30 +50,61 @@ def referans(x):
     return None, None
 
 
-def osm(ad, ref):
-    q = re.sub(r"\s*\(.*?\)", "", ad).strip() or ad
-    url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode(dict(q=q, format="json", limit=10, addressdetails=1))
+def _al(url):
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
-            j = json.loads(r.read().decode("utf-8"))
+        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=40) as r:
+            return r.read().decode("utf-8", "replace")
     except Exception as e:
-        return None, "HATA %s" % e, None
+        return "HATA %s" % e
     finally:
-        time.sleep(1.2)
-    j = [x for x in j if x.get("class") not in KOTU_TUR] or []
-    if not j:
-        return None, "OSM sonuç yok (uygun tür)", None
-    if ref:
-        j.sort(key=lambda x: girdi.km(ref[0], ref[1], float(x["lat"]), float(x["lon"])))
-        x = j[0]
-        d = girdi.km(ref[0], ref[1], float(x["lat"]), float(x["lon"]))
-        if d > 600:
-            return None, "OSM adayı maddenin yerinden %d km uzak — reddedildi" % d, None
-    else:
-        x = j[0]
-        d = None
-    return ((float(x["lat"]), float(x["lon"])), "%s/%s · %s" % (x.get("class"), x.get("type"), (x.get("address") or {}).get("country", "?")),
-            d)
+        time.sleep(1.0)
+
+
+def pleiades(ad, ref):
+    """Pleiades (pleiades.stoa.org) arama RSS'i → ilk yer → /json reprPoint. Ad ve parantez içi eş adlar sırayla denenir.
+    Referans (maddenin atlas yeri) varsa sonuç ≤ 400 km olmalı; yoksa tek sonuçlu aramalar kabul edilir."""
+    adaylar = [re.sub(r"\s*\(.*?\)", "", ad).strip()]
+    m = re.search(r"\(([^)]*)\)", ad)
+    if m:
+        adaylar += [p.strip() for p in re.split(r"[,;/]", m.group(1)) if len(p.strip()) >= 3]
+    for q in adaylar:
+        rss = _al("https://pleiades.stoa.org/search_rss?" + urllib.parse.urlencode(dict(SearchableText=q, portal_type="Place")))
+        bloklar = re.findall(r'(<item rdf:about="(https://pleiades\.stoa\.org/places/\d+)">\s*<title>([^<]*)</title>.*?</item>)', rss, re.S)
+        # bölge, dağ, ırmak vb. yerleşim olmayan kayıtları ele; yerleşim (settlement) etiketlileri öne al
+        yerler = []
+        for blok, url, baslik in bloklar:
+            if re.search(r"\((region|mountain|river|island|islands|bay|cape|lake|people|province|mountains|sea)\)|\bPr\.$|\bM\.$|\bfl\.$|"
+                         r"Pentapolis", baslik):
+                continue
+            # başlık sorgunun kökünü taşımıyorsa (ör. 'House of Thiasus' ← Nola) yerleşimin kendisi değildir
+            kq = norm(q)[:4]
+            if kq and kq not in norm(baslik) and not any(norm(b).startswith(kq[:3]) for b in re.split(r"[/(),]", baslik)):
+                continue
+            yerler.append((url, baslik, "settlement" in blok))
+        if not yerler:
+            continue
+        if not ref:
+            es = [y for y in yerler if norm(y[1].split("/")[0]) == norm(q) and y[2]]
+            if len(es) == 1:
+                yerler = es
+            elif len(yerler) > 1:
+                return None, "Pleiades: '%s' için %d sonuç, referans yok — seçilmedi" % (q, len(yerler)), None
+        yerler = [(u, b) for u, b, _ in yerler]
+        for url, baslik in yerler[:5]:
+            j = _al(url + "/json")
+            try:
+                rp = json.loads(j).get("reprPoint")
+            except ValueError:
+                rp = None
+            if not rp:
+                continue
+            lat, lon = rp[1], rp[0]
+            d = girdi.km(ref[0], ref[1], lat, lon) if ref else None
+            if ref and d > 400:
+                continue
+            return (lat, lon), "Pleiades %s (%s)" % (url, baslik), d
+        return None, "Pleiades: '%s' sonuçları referanstan uzak ya da noktasız" % q, None
+    return None, "Pleiades sonuç yok", None
 
 
 def mukerrer(ad, ko):
@@ -101,6 +132,12 @@ OSM_RED = {
     "Nemrut": "OSM Nemrut yanardağını verdi; maddedeki Nemrut belirsiz (Adıyaman Nemrut Dağı ya da Kalhu) — madde metnine bak",
     "Tongatapu": "ada (bölge), yerleşim değil",
 }
+PLEIADES_RED = {"Ithome (Messene)": "Pleiades Tesalya'daki Ithome'u verdi; madde Messene Ithome'u (Peloponnesos)",
+                "Karaburun": "Pleiades ada/burun verdi; maddedeki Karaburun belirsiz",
+                "Berka": "Pleiades antik Barke'yi (Libya) verdi; madde bağlamı teyit edilmeli",
+                "Hisarlık": "Pleiades Hisarlıkaya'yı verdi; Hisarlık = Troia (Çanakkale) — Pleiades 'Ilion' ile ara",
+                "Kadeş": "Pleiades Celile'deki Kadasa'yı verdi; maddelerde Kadeş (Orontes, Suriye) kastediliyor olabilir",
+                "Hallstatt C": "dönem adı (Hallstatt C evresi), yerleşim değil"}
 YAZIMA = {"Pelusium": "Feremâ", "Ix-Xagħra": "Xagħra (Brochtorff Çemberi)", "Hüfûf": "Lahsa", "Cirta (Konstantine)": "Konstantin",
           "Karkemiş": "Cerablus (yakın ama ayrı höyük — KASA karar)"}
 
@@ -112,10 +149,10 @@ for i, x in enumerate(E[bas:son], bas + 1):
     if x["ad"] in ONCE:
         continue
     ref, refad = referans(x)
-    ko, tur, d = osm(x["ad"], ref)
+    ko, tur, d = pleiades(x["ad"], ref)
     adla, yakin = mukerrer(x["ad"], ko)
     o = x["ornek"][0]
-    guven = ("REFERANSLI (%s, %d km)" % (refad, d)) if (ko and ref) else ("REFERANSSIZ — DOĞRULA" if ko else "—")
+    guven = ("PLEİADES, REFERANSLI (%s, %d km)" % (refad, d)) if (ko and ref) else ("PLEİADES, TEK SONUÇ" if ko else "koordinat yok")
     ONCE[x["ad"]] = dict(sira=i, ad=x["ad"], sayi=x["sayi"], koordinat=ko, osm=tur, koordinat_guven=guven, mukerrer_ad=adla,
                          mukerrer_3km=yakin,
                          madde_t=o["t"], madde=o["b"], taraflar=o["taraflar"], madde_kaynak=o["kaynak"],
@@ -124,28 +161,33 @@ for i, x in enumerate(E[bas:son], bas + 1):
 for ad, r in ONCE.items():
     r["elle"] = None
     if ad in OSM_RED:
-        r["koordinat"], r["koordinat_guven"], r["elle"] = None, "OSM REDDEDİLDİ", OSM_RED[ad]
+        r["elle"] = "konum notu: " + OSM_RED[ad].replace("OSM", "OSM (dayanak değil)")
+    if ad in PLEIADES_RED:
+        r["koordinat"], r["koordinat_guven"], r["elle"] = None, "koordinat yok", "Pleiades sonucu reddedildi: " + PLEIADES_RED[ad]
     if ad in YAZIMA:
         r["elle"] = "YAZIM'a geç → %s (yeni nokta değil)" % YAZIMA[ad]
+    elif any(float(re.search(r"\(([\d.]+) km\)", m).group(1)) <= 1.0 for m in r["mukerrer_3km"]):
+        r["elle"] = "YAZIM'a geç → %s (Pleiades noktası atlas kaydına ≤ 1 km — aynı yer)" % r["mukerrer_3km"][0]
 L = sorted(ONCE.values(), key=lambda r: r["sira"])
 json.dump(L, open(yol, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=1)
 
 M = ["# EKSİK-ADAY — kronolojide geçen, atlasta olmayan yerleşimler (ilk %d)\n" % len(L),
      "Ölçen: LAB SALI · 4 Kasım 2026 · `yer_sinifla.py` → `eksik_aday.py`. Sıra: kronolojide anılma sayısı (eşitlikte madde sırası).\n",
-     "- **Koordinat:** OpenStreetMap Nominatim önerisi (OSM sınıf/tür ve ülke yazılı). Tarih kaynağı değildir; antik yerlerde aynı adlı "
-     "modern yer çıkabilir → KASA haritada doğrular, gerekirse Pleiades/TIB/akademik atlasla düzeltir.",
+     "- **Koordinat:** yalnız Pleiades (pleiades.stoa.org, akademik antik yer gazeteeri; yer URL'si satırda). EMRELİC kuralı: OSM "
+     "dayanak değil; İslâm dünyası için TDV konumu, Çin için CHGIS, öteki bölgeler için GeoNames (beyanlı) — bu partide okunmadı. "
+     "Koordinatı doğrulanmamış aday **koordinat yok** kalır (yanlış nokta eksik noktadan kötü).",
      "- **Sahip:** maddenin tarafları ve maddenin kendi kaynağı (madde zaten kronolojide → Değişmez 2 kapanır). Yerleşimin o yıldaki "
      "sahibi madde kaynağıyla teyit edilmeli (KAYNAK-GEREK).",
      "- **Mükerrer:** aynı normalleştirilmiş ad atlasta var mı / önerilen koordinatın 3 km'sinde nokta var mı.",
      "- `DUR` listesi (ırmak, bölge, aynı yerin başka dili) aday dışı bırakıldı; birleşenler tek aday.\n",
-     "- **Koordinat güveni:** REFERANSLI = OSM'in 10 sonucundan maddenin yer_id'sine (atlas yerleşimi) en yakını, ≤ 600 km; "
-     "REFERANSSIZ = maddenin atlas yeri yok, ilk uygun OSM sonucu — mutlaka doğrula. Mükerrerde 3 km'de nokta çıkarsa büyük olasılıkla "
-     "**aynı yer** (YAZIM sınıfına geçmeli, yeni nokta değil).\n",
+     "- **Koordinat güveni:** PLEİADES, REFERANSLI = Pleiades sonucu maddenin atlas yerine ≤ 400 km; PLEİADES, TEK SONUÇ = madde "
+     "atlas yerine bağlı değil ama Pleiades araması tek yer döndürdü. Mükerrerde 3 km'de nokta çıkarsa büyük olasılıkla **aynı yer** "
+     "(YAZIM'a geçmeli, yeni nokta değil).\n",
      "- **Elle not:** LAB SALI'nin OSM sonucunu bilinen bir yanlış yüzünden reddettiği ya da mükerrerle YAZIM'a geçirdiği satırlar.\n",
-     "**Özet:** %d aday · koordinatlı %d (referanslı %d) · OSM reddedildi/sonuç yok %d · YAZIM'a geçmeli %d.\n" % (
-         len(L), sum(1 for r in L if r["koordinat"]), sum(1 for r in L if str(r.get("koordinat_guven", "")).startswith("REFERANSLI")),
+     "**Özet:** %d aday · Pleiades koordinatlı %d (referanslı %d) · koordinat yok %d · YAZIM'a geçmeli %d.\n" % (
+         len(L), sum(1 for r in L if r["koordinat"]), sum(1 for r in L if "REFERANSLI" in str(r.get("koordinat_guven", ""))),
          sum(1 for r in L if not r["koordinat"]), sum(1 for r in L if (r.get("elle") or "").startswith("YAZIM"))),
-     "| # | ad | anılma | önerilen koordinat (OSM) | güven | OSM türü | mükerrer | elle not | madde (yıl — başlık) | taraflar | madde kaynağı |",
+     "| # | ad | anılma | koordinat (lat, lon) | güven | koordinat kaynağı | mükerrer | elle not | madde (yıl — başlık) | taraflar | madde kaynağı |",
      "|---|---|---|---|---|---|---|---|---|---|---|"]
 for r in L:
     ko = "%.4f, %.4f" % tuple(r["koordinat"]) if r["koordinat"] else "—"
