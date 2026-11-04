@@ -109,7 +109,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | san-devletleri | 1281-01-01 → 1923-10-29 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t 1923-10-29 (bölüm: eserin dizininden) |
 | lan-xang | 1353-01-01 → 1707-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHSEA I, ch.3, s.~173: 'King of Lan Sang at Luang Prabang in 1353' (f yıl teyitli) · ch.7, s.428: 'seventeenth century it was divided into three separate kingdoms' (t 1707 yalnız yüzyıl düzeyinde — laos-kralliklari f ile birlikte ikinci kaynak gerek) |
 | angkor-kmer | 0802-01-01 → 1431-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHSEA I, ch.3, s.~170: 'sent an expedition to sack Angkor in 1431' (t yıl teyitli; f 802 okunmadı) |
-| malay-sultanliklari | 1281-01-01 → 1909-07-10 | = → = | GIRISLI | GİRİŞLİ: Andaya & Andaya, A History of Malaysia — f 1281-01-01 / t 1909-07-10 (bölüm: eserin dizininden) |
+| malay-sultanliklari | 1281-01-01 → 1909-07-10 | = → = | KISMEN | EB 1911 'Malay States (Siamese)' (Wikisource) — 'Kelantan, Trengganu, Kedah and Perlis … passed from Siamese to British protection in 1909' (t yalnız yıl, EB 1911 en çok 'kısmen'); 07-10 günü: 1909 İngiliz-Siyam antlaşması 10 Mart'ta imzalandı, onaylar Temmuz 1909'da değiştirildi — resmî metin (UK Treaty Series 1909) açık erişimde bulunamadı; f 1281 site ufku |
 | cohor-sultanligi | 1528-01-01 → 1923-10-29 | = → = | GIRISLI | GİRİŞLİ: Andaya & Andaya, A History of Malaysia — f 1528-01-01 / t 1923-10-29 (bölüm: eserin dizininden) |
 | palembang-sultanligi | 1281-01-01 → 1825-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1825-01-01 (bölüm: eserin dizininden) |
 | banten-sultanligi | 1527-06-22 → 1813-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1527-06-22 / t 1813-01-01 (bölüm: eserin dizininden) |
@@ -357,4 +357,4 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | ceibal | 0411-01-01 → 0889-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden) |
 | cholula | 0700-01-01 → 1519-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0700-01-01 / t 1519-01-01 (bölüm: eserin dizininden) |
 
-Sayım: GIRISLI 247 · KISMEN 54 · TEYIT 27 · DUZELT 21 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
+Sayım: GIRISLI 246 · KISMEN 55 · TEYIT 27 · DUZELT 21 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
