@@ -61,11 +61,19 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_ar_olay_01.js",
-    "d210df23"
+    "bbee760f"
    ],
    [
     "ceviri_ar_olay_02.js",
-    "685965b7"
+    "ba9919e4"
+   ],
+   [
+    "ceviri_ar_olay_03.js",
+    "e6e89f33"
+   ],
+   [
+    "ceviri_ar_olay_04.js",
+    "675afbf9"
    ]
   ]
  }

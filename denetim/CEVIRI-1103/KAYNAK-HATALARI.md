@@ -11,4 +11,9 @@ kronoloji oturumu) iletilir. Düzeltilince ilgili çeviriler kendiliğinden baya
 | OLAYLAR_EK5:1691-06-23:0 | II. Ahmed tahta çıkışında "kırk dokuz yaşında" | 1643 doğumlu → 48 | iletilecek |
 | OLAYLAR_EK5:1640-02-09:0 | IV. Murad "yirmi sekiz yaşında" öldü | 1612 doğumlu → 27 | iletilecek |
 | OLAYLAR_EK6:1918-03-28:0 | "günü Sarı verir" | anlamsız; muhtemelen yazım hatası (kaynak adı?) | iletilecek |
+| OLAYLAR_EK7:1830-08-09:0 | "1519'da II. Selim'e bağlanan" (Cezayir) | 1519'da padişah I. Selim | iletilecek |
+| OLAYLAR_EK10:1912-10-08:0 | "13 Mart'ta Bulgaristan-Yunanistan" | 13 Mart 1912 Sırp-Bulgar; Bulgar-Yunan 29 Mayıs 1912 | iletilecek |
+| OLAYLAR_EK12:1913-08-31:0 | "elli yedi gün" | 31 Ağu–25 Eki 1913 ≈ 55 gün; uçları doğrula | iletilecek |
+| OLAYLAR_ILIRYA0072:1779-01-01:0 | id 1779, metin "1820'de şehrin emîri" | tarih tutarsız | iletilecek |
+| OLAYLAR_EK16:1611-07-16:0 | "aynı yıl imzalanacak Deulino (1618)" | 1611 ≠ 1618 | iletilecek |
 | OLAYLAR_EK6:1547-01-01:0 | Sana'nın fethi id'si Taiz'den (1547-02-01) önce, metin "Taiz'in ardından" | sıra/gün çelişkisi | iletilecek |
