@@ -399,5 +399,405 @@
 "gerekce": "Capua-Gaeta 1136 → 1282-03-30 'sicilya-kralligi', çevre 'napoli' (9/9). Napoli 1282 Sicilya Akşam Duası'na dek Sicilya krallığının parçasıydı; 'napoli' kimliği 1282 öncesine taşmış.",
 "duzeltme": "napoli künye f / noktaların 1282-03-30 öncesi sicilya-kralligi.",
 "kaynak": "veri ölçümü"
+},
+"K451": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Meyyâfârikīn-Batman 1115 → 1121-03-22 'buyuk-selcuklu', çevre Saltuklu. Meyyâfârikīn 12. yüzyıl başında Selçuklu valilerinden Artuklu İlgazi'ye geçti (1118-1121); Büyük Selçuklu doğrudan idaresi ve Saltuklu çevresi sınanmalı. İçteki 3 noktanın 2'si sahipsiz.",
+"duzeltme": "Meyyâfârikīn 1115-1121 sahibi kaynakla (TDV Meyyâfârikîn).",
+"kaynak": "veri ölçümü"
+},
+"K452": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Meyyâfârikīn 1185-04-04 (Selâhaddin'in alışı) → 1191 Eyyûbî, Suriye gövdesinden Artuklu toprağıyla ayrı: ENKLAV-1104 K325 ile aynı Eyyûbî melikliği.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K453": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Meyyâfârikīn 1264 → 1281 İlhanlı, çevre Hısnkeyfa Eyyûbîleri (İlhanlı tâbisi): tâbinin yabancı sayılması (KOVALAR M).",
+"duzeltme": "Motor sorusu (KOVALAR M).",
+"kaynak": "veri ölçümü"
+},
+"K454": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kolam (Quilon) 1795-01-01 → 10-20 'ingiliz-hindistani', çevre Hollanda. Quilon Travankor krallığındaydı; İngilizler Hollanda Koçin'ini 20 Ekim 1795'te aldı (bitiş uyumlu). Quilon'un 1795 başından İngiliz yazımı yanlış.",
+"duzeltme": "Quilon 1795 sahibi (travankur) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K455": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Tortosa 1939-01-15 → 04-01 Cumhuriyet ('ispanya'), çevre milliyetçi: Tortosa Ocak 1939'da milliyetçilere düştü (f günü bu düşüşün günüdür); ENKLAV-1104 K290 ile aynı Katalonya t borcu.",
+"duzeltme": "K290 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K456": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Casale-Vercelli 1860-10-21 → 1861-03-17 'sardinya-piyemonte', çevre 'sardinya' (7/9): aynı Sardinya Krallığı'nın iki kimliği (İtalya Krallığı ilanına dek).",
+"duzeltme": "sardinya / sardinya-piyemonte tek ölçüt.",
+"kaynak": "veri ölçümü"
+},
+"K457": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Tebriz 1534-07-13 (İbrahim Paşa'nın girişi) → 1535 Osmanlı, Irakeyn seferinde Osmanlı gövdesinden Safevî toprağıyla ayrı: gerçek askerî işgal. 'Azerbaycan' bölge noktası sahipsiz (KOVALAR I).",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K458": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Tebriz 1514-09-06 → 09-15 Osmanlı: Yavuz'un Çaldıran sonrası Tebriz'de kaldığı 9 gün — gerçek; günler bilinenle uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K459": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Tebriz 1548-07-27 → 08-15 Osmanlı: Kanûnî'nin II. İran seferinde Tebriz işgali — gerçek kısa an.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K460": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Akçahisar (Kruja), Mat, Leş 1281 → 1345 'sirbistan-nemanjic', çevre Bizans. Kuzey-orta Arnavutluk 1272'den Anjou 'Arnavutluk Krallığı', Bizans ve yerel beyler arasında el değiştirdi; Sırp hâkimiyeti 1340'larda (Duşan). 1281'den Sırp yazımı yanlış.",
+"duzeltme": "Kruja/Leş 1281-1345 zinciri (anjou-arnavutluk / bizans) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K461": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Yayça-Banaluka 1527-1528 'macaristan' (Mohaç öncesi krallık kimliği), çevre macaristan-habsburg ve Osmanlı: ENKLAV-1104 K253 ile aynı kimlik geçişi hizasızlığı. Yayça bancılığı 1528'de Osmanlı'ya düştü.",
+"duzeltme": "K253 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K462": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Vidin 1365 → 1369 Macar işgali (Vidin Banlığı), Macaristan'dan Eflak ile ayrı: bilinen gerçek ayrıklık; uçlar uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K463": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Zebîd 1516-06 → 1517-07-06 Memlûk, Mısır gövdesinden Kızıldeniz ve Yemen toprağıyla ayrı: Memlûk Yemen seferi (1515-16, Tâhirîlerin yıkılışı) — gerçek denizaşırı pay. Bitiş Memlûk Yemen'inin Osmanlı'yı tanıması.",
+"duzeltme": "Yok; günler kaynakla (TDV Zebîd).",
+"kaynak": "veri ölçümü"
+},
+"K464": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Verdun 1792-09-02 (Prusya teslim alışı) → 10-01 Prusya işgali: Birinci Koalisyon seferinde gerçek kısa askerî eksklav (Verdun 14 Ekim'de geri alındı — bitiş yaklaşık).",
+"duzeltme": "Verdun prusya t → 1792-10-14 (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K465": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Amiens 1477-01-01 → 01-05 'burgonya', çevre Fransa. XI. Louis Amiens'i 1471'de aldı; 4 günlük kesit yıl hassasiyetli uç ile Nancy (1477-01-05) günü arasında.",
+"duzeltme": "Amiens burgonya t → 1471 (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K466": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Bizans Trakya kıyı payı (Çatalca, Vize, Boğaz) 1402-07-28 → 1424-02-22: Ankara sonrası Gelibolu Antlaşması (1403) ile Bizans'a iade; 1424 antlaşmasıyla Osmanlı'ya geri. Öteki Bizans gövdelerinden (Selanik, Mora) Osmanlı ve denizle ayrı — gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K467": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Muş 1403 → 1405-02-18 (Timur'un ölümü) 'timurlu', çevre Mutahharten: ENKLAV-1104 K382 ile aynı — Timur 1404 Temmuz'unda Anadolu'dan ayrıldı.",
+"duzeltme": "K382 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K468": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Zaho-Silopi-Derik 1261 → 1262 İlhanlı, çevre Lü'lüî (Musul isyanı 1261-62): Musul'un Lü'lüî oğullarınca İlhanlı'ya karşı isyanı sırasında kuzey noktaları İlhanlı'da kalmış olabilir; 7 noktanın 6'sı sahipsiz.",
+"duzeltme": "Kuzey Cezire noktalarının 1261-1262 dönemleri kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K469": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Suzdal 1325 → 1341 'altinorda', çevre Moskova. Suzdal Rus knezliğiydi (Altın Orda'ya haraç ödeyen tâbi); Altın Orda doğrudan idaresi yazımı yanlış (K476 1341 sonrası nijni-novgorod-suzdal).",
+"duzeltme": "Suzdal 1325-1341 suzdal knezliği (Altın Orda v:) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K470": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Kotor, Bar, Çetine 1918-11-11 → 12-01 'yugoslavya' (SHS Krallığı kimliği), çevre Sırbistan krallığı: SHS Krallığı 1 Aralık 1918'de ilan edildi; Karadağ'ın Sırbistan'la birleşmesi 26 Kasım. Kimlik geçiş günleri hizasız.",
+"duzeltme": "Karadağ noktaları 1918-11-26 → 12-01 sirbistan-kralligi, 12-01 → yugoslavya.",
+"kaynak": "veri ölçümü"
+},
+"K471": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Torino 1270 → 1276 'provence-kontlugu' (Anjou'lu Charles'ın Piyemonte payı), Provence gövdesinden Saluzzo ve Orange ile ayrı. Düşük güven.",
+"duzeltme": "Torino 1270-1276 sahibi kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K472": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Nihâvend 1589 (Cağaloğlu Sinan Paşa'nın kalesi) → 1590-03-21 (İstanbul Antlaşması) Osmanlı, Safevî toprağıyla çevrili ileri kale: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K473": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Port Sudan-Sevâkin 1899-01-19 (Kondominyum) → 1923 'ingiltere', çevre 'ingiliz-sudani': aynı Anglo-Mısır Sudanı'nın iki kimliği.",
+"duzeltme": "Sudan kıyı noktaları ingiliz-sudani.",
+"kaynak": "veri ölçümü"
+},
+"K474": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Alamut 1501-07 → 1503 Safevî, çevre Akkoyunlu. Şah İsmail Irak-ı Acem'i 1503 Hemedan (Elma Kulağı) zaferiyle aldı; Alamut'un 1501'de Safevî oluşu şüpheli.",
+"duzeltme": "Alamut safevi f → 1503 (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K475": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Senigallia-Sassoferrato 1860-09-14 → 09-29 (Ankona'nın teslimi) Papalık, Piyemonte işgaliyle Roma gövdesinden ayrı: Castelfidardo seferinin gerçek anı. İki nokta sahipsiz.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K476": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Suzdal 1341 → 1392 Nijni Novgorod-Suzdal büyük knezliği, Nijni Novgorod gövdesinden Moskova toprağıyla ayrı olabilir. Düşük güven: Suzdal-Nijni arası Gorodets bölgesi sahipliği.",
+"duzeltme": "Gorodets/Vladimir sahipliği kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K477": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Stato dei Presidi (Orbetello) 1801 (Lunéville/Aranjuez) → 1807 Fransız, Toskana (Etrurya) ile çevrili: gerçek eksklav. Borç: Tarquinia ve Vulci Papalık toprağıydı, Fransız yazımı yanlış.",
+"duzeltme": "Tarquinia, Vulci papalik (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K478": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Arras-Lille 1482-03-27 → 1516 'almanya', çevre Fransa: Artois/Flandre Habsburg Hollandası'ndaydı ('habsburg-hollandasi' kimliği var); Kutsal Roma çatı kimliği yanlış yere taşmış.",
+"duzeltme": "Arras, Lille 1482-1516 habsburg-hollandasi.",
+"kaynak": "veri ölçümü"
+},
+"K479": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Siirt 1394-01 → 04-25 'celayirli', çevre Cizre-Botan: Timur'un 1394 seferi sırasında 4 aylık kesit; yıl hassasiyetli uç ile sefer günü hizasız.",
+"duzeltme": "Siirt 1394 geçişi kaynakla (TDV Siirt: Timur istilâsı).",
+"kaynak": "veri ölçümü"
+},
+"K480": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kesendire-Aynaroz-Olynthos 1345-09-25 (Serez'in Duşan'a düşüşü) → 1371 Bizans, çevre Katalan/Sırp. Halkidiki ve Athos 1345-1371 Sırp İmparatorluğu'ndaydı (Athos Duşan'ın himayesinde); Bizans yazımı yanlış.",
+"duzeltme": "Halkidiki noktaları 1345-1371 sirbistan (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K481": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Ahılkelek-Ahıska 1578-08-01 → 08-09 'gurcistan' (1490'da bölünmüş krallığın kalıntı kimliği), çevre TABI: 8 günlük kesit; Samtshe atabegliği Osmanlı'ya 1578 Ağustos'ta geçti (K402 ailesi).",
+"duzeltme": "Ahıska 1490-1578 samtshe-atabegligi (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K482": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Maastricht-Roermond-Eupen 1629-09-14 → 1714 İspanyol, gövdeden 0,3 km 'almanya' ile ayrı. Maastricht 1632'de Hollanda'ya geçti (Frederik Hendrik); 1632-1714 İspanyol yazımı yanlış. Ayrıca değme payı (K436).",
+"duzeltme": "Maastricht ispanya t → 1632-08 (kaynakla) → hollanda.",
+"kaynak": "veri ölçümü"
+},
+"K483": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Moha 1281 → 1517-04-15 'yemen', çevre Resûlî. Yemen 1229-1454 Resûlî, 1454-1517 Tâhirî idaresindeydi; 'yemen' çatı kimliği Moha'yı Resûlî gövdesinden ayırıyor.",
+"duzeltme": "Moha 1281-1454 resuli, 1454-1517 tahiri (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K484": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Leskofça-Kurşunlu-Ürküp 1444-11 → 1455-06 OSMANLI, çevre Sırp Despotluğu (koridor 3 km). Segedin barışı (1444) Sırp topraklarını iade etti; Güney Morava hattının Osmanlı'ya kesin geçişi 1454-55. 1444 başlangıcı ve 3 km'lik koridor sınanmalı.",
+"duzeltme": "Leskofça vb. Osmanlı f kaynakla (TDV).",
+"kaynak": "veri ölçümü"
+},
+"K485": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Hacıbey (Odessa) 1441 → 1480 Litvanya, Litvanya gövdesinden Altın Orda/Kırım bozkırıyla ayrı: Vytautas döneminde Karadeniz kıyısına uzanan Litvanya iskeleleri bilinir. Düşük güven: 1441-1480 dönemi.",
+"duzeltme": "Hacıbey 1441-1480 sahibi kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K486": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Odessa 1919-08 → 12 Beyaz (Denikin), çevre 'sovyet-rusya': güney Ukrayna (Herson, Nikolayev) aynı aylarda Beyazlardaydı; KOVALAR A-UKR (1917'den kesintisiz Sovyet boyası).",
+"duzeltme": "KOVALAR A-UKR.",
+"kaynak": "veri ölçümü"
+},
+"K487": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Odessa 1918-04-29 → 12-01 Hetmanlık, çevre 'sovyet-rusya': KOVALAR A-UKR.",
+"duzeltme": "KOVALAR A-UKR.",
+"kaynak": "veri ölçümü"
+},
+"K488": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Odessa 1917-11-20 → 1918-01 UHC, çevre 'sovyet-rusya': KOVALAR A-UKR.",
+"duzeltme": "KOVALAR A-UKR.",
+"kaynak": "veri ölçümü"
+},
+"K489": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Odessa 1918-03-01 → 04-29 UHC, çevre 'sovyet-rusya': KOVALAR A-UKR.",
+"duzeltme": "KOVALAR A-UKR.",
+"kaynak": "veri ölçümü"
+},
+"K490": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Odessa 1918-12-01 → 1919-01 UHC, çevre 'sovyet-rusya': KOVALAR A-UKR.",
+"duzeltme": "KOVALAR A-UKR.",
+"kaynak": "veri ölçümü"
+},
+"K491": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "DENİZ AŞIRI: Odessa 1919-01 → 04 Fransız müdahale kuvvetleri (Aralık 1918 - Nisan 1919 tahliye): gerçek askerî işgal eksklavı.",
+"duzeltme": "Yok; f 1918-12 kontrol.",
+"kaynak": "veri ölçümü"
+},
+"K492": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Bakü 1578-11 → 1583-08 Safevî, Osmanlı Şirvan'ıyla (ENKLAV-1104 K103) Safevî gövdesinden ayrı: Bakü 1583'te Osmanlı'ya geçti — gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K493": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bakü 1723-08-06 → 09-23 Rus, Derbend'den Safevî şeridiyle ayrı: ENKLAV-1104 K195 ile aynı — Rus Hazar kıyı şeridi bitişikti, kopukluk Derbend-Şâbüran arası noktadan.",
+"duzeltme": "K195 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K494": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Bucumbura 1897 → 1916-06-06 Alman Doğu Afrikası, çevre 'burundi' (Alman himayesindeki krallık): tâbinin yabancı sayılması (KOVALAR M). Ek: Bukavu Belçika Kongosu'ndaydı, Alman yazımı yanlış.",
+"duzeltme": "Burundi v: (Alman himayesi); Bukavu kongo-serbest-devleti/belcika-kongosu (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K495": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Karaferye (Veria) 1385 → 1387-05-08 Sırp (Duşan sonrası yerel beylik), çevre Osmanlı ve TABI. Karaferye'nin Osmanlı fethi 1385-87; düşük güven. 4 nokta sahipsiz (antik).",
+"duzeltme": "Karaferye Osmanlı f kaynakla (TDV Karaferye).",
+"kaynak": "veri ölçümü"
+},
+"K496": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Şibenik ve Dalmaçya 1919-09-10 → 1920-11-12 (Rapallo) 'itilaf-emaneti' (İtalyan işgali): K329 çatı kimlik kovası.",
+"duzeltme": "KOVALAR E (itilaf-emaneti).",
+"kaynak": "veri ölçümü"
+},
+"K497": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kelkit-Şebinkarahisar Akkoyunlu payı 1410 → 1422, Diyarbakır gövdesinden Çemişgezek, Dulkadir ve Karakoyunlu ile ayrı. Düşük güven.",
+"duzeltme": "Kaynakla (TDV Akkoyunlular).",
+"kaynak": "veri ölçümü"
+},
+"K498": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Göle (Gyula) Habsburg kalesi 1557 → 1566-09-02 (Osmanlı fethi), Osmanlı toprağıyla çevrili: gerçek kale eksklavı; bitiş uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K499": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Negeri Sembilan (Seremban) 1888-1889 'malay-sultanliklari', çevre 'ingiliz-malaya': İngiliz himayesindeki Malay devletlerinin iki kimliği.",
+"duzeltme": "Malay kimlikleri tek ölçüt (KOVALAR L3 ile).",
+"kaynak": "veri ölçümü"
+},
+"K500": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Hatvan-Vaç 1530 → 1543 'macaristan', çevre Habsburg ve Osmanlı. Zapolya'nın (Osmanlı tâbisi, başka yerde TABI boyalı) krallığı 'macaristan' kimliğiyle de boyanmış: iki kimlik (K253 ailesi).",
+"duzeltme": "Zapolya Macaristanı tek ölçüt (TABI / macaristan).",
+"kaynak": "veri ölçümü"
 }
 }

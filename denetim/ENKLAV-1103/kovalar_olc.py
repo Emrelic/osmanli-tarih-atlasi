@@ -263,7 +263,9 @@ for y in Y:
                             "Eretna / Dulkadir / İncû / Muzafferî / Lur atabeyleri) kaynakla"),
                            "1335-11-30", ["celayirli", "cobanogullari", "eretna"], "OLCUM (dönem) · KAYNAK-GEREK (halef)"))
 kova("F", "Hayalet İlhanlı: 1335 sonrası 'ilhanli'", "VERİ ÖLÇÜMÜ; halef KAYNAK-GEREK",
-     "İlhanlı devleti Ebû Saîd'in ölümüyle (1335-11-30) dağıldı; künye t 1353 (Togay Timur) yalnız Mâzenderan için savunulabilir.",
+     "İlhanlı devleti Ebû Saîd'in ölümüyle (1335-11-30) dağıldı. ⚠️ DÜZELTİLDİ — ayrıntı ILHANLI.md: TDV 1335-1353'ü kukla "
+     "İlhanlar dönemi sayar; 151 noktanın 81'i KORU-BEYAN (ic_not), 58'i DUZELT (Doğu Anadolu, Luristan, Elbistan, Horasan ardılı), "
+     "12'si KAYNAK-GEREK. Bu kovanın satırlarını değil ILHANLI.md'yi uygula.",
      S, "ENKLAV-1104 K230, K310, K335, K341")
 
 # ================================================================================================
@@ -338,7 +340,8 @@ kova("I", "Bölge/ülke adlı noktalar + o devirde olmayan şehirler", "VERİ Ö
 # J — 0 noktalı parçalar
 # ================================================================================================
 S = []
-for dosya in ("ENKLAV-1103/adaylar.json", "ENKLAV-1104/aday2.json", "ENKLAV-1104/aday3.json", "ENKLAV-1104/aday4.json"):
+for dosya in ("ENKLAV-1103/adaylar.json", "ENKLAV-1104/aday2.json", "ENKLAV-1104/aday3.json", "ENKLAV-1104/aday4.json",
+              "ENKLAV-1104/aday5.json"):
     yol = os.path.join(KOK, "denetim", dosya)
     if not os.path.exists(yol):
         continue
@@ -383,11 +386,57 @@ for y in Y:
 kova("L3", "Malaya 1942-1945 Japon işgali yazılmamış", "VERİ ÖLÇÜMÜ", "FMS kimliği işgal boyunca süren noktalar.", S, "ENKLAV-1104 K286")
 
 # ================================================================================================
+# N — ENKLAV-1104 K101-K500'den çıkan ek veri kuralları
+# ================================================================================================
+def kova_kural(kod, ad, kutusu, tarih, eski, oneri, kirilma, yeni, hukumler, dayanak="VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK"):
+    S = []
+    for y in Y:
+        if "lat" in y and kutu(y, *kutusu) and sahip(y, tarih) in eski:
+            S.append(satir(y, donemler(y, tarih, tarih[:4] + "-12-31"), oneri, kirilma, yeni, "OLCUM (boşluk) · KAYNAK-GEREK (günler)"))
+    kova(kod, ad, dayanak, "%s kutusunda %s günü sahibi %s olan noktalar." % (kutusu, tarih, "/".join(eski)), S, hukumler)
+
+
+kova_kural("N1", "Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok)", (44.0, 46.6, 6.6, 13.8), "1944-06-01", ("italya",),
+           "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir "
+           "şehir kurtuluş günleri kaynakla", "1943-09-23", ["salo-cumhuriyeti"], "ENKLAV-1104 K406")
+kova_kural("N2", "Kurland-Litvanya 1915-1918 Rus (Ober Ost işgali yok)", (53.9, 57.9, 20.9, 26.9), "1916-06-01",
+           ("rusya", "rusya-gecici-hukumet"), "1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla",
+           "1915-08-01", ["almanya"], "ENKLAV-1104 K447, K448")
+S = []
+for y in Y:
+    for p in y.get("s") or []:
+        if p.get("d") == "kosova-golge-cumhuriyeti":
+            S.append(satir(y, "s:kosova-golge-cumhuriyeti %s→%s" % (p["f"], p["t"]),
+                           "Gölge cumhuriyet toprak denetimi değildi: FRY (yugoslavya-federal/sirbistan-karadag) 1999-06-10'a dek; "
+                           "gölge cumhuriyet ic_not/beyan — kaynakla", "1999-06-10", ["kosova"], "KAYNAK-GEREK (model)"))
+kova("N3", "Kosova gölge cumhuriyeti toprak sahibi boyalı", "MODEL + KAYNAK-GEREK",
+     "s: dönemi 'kosova-golge-cumhuriyeti' olan noktalar.", S, "ENKLAV-1104 K449")
+S = []
+for y in Y:
+    for p in y.get("s") or []:
+        if p.get("d") == "napoli" and p["f"] < "1282-03-30":
+            S.append(satir(y, "s:napoli %s→%s" % (p["f"], p["t"]),
+                           "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30", "1282-03-30",
+                           ["napoli", "sicilya-kralligi"], "OLCUM"))
+kova("N4", "Napoli kimliği 1282 öncesine taşmış", "VERİ ÖLÇÜMÜ", "s: dönemi 'napoli' olup 1282-03-30'dan önce başlayan noktalar.", S,
+     "ENKLAV-1104 K450")
+kova_kural("N5", "Güney Hollanda (Belçika) 1813-1814 'hollanda'", (49.4, 51.5, 2.5, 6.4), "1814-02-01", ("hollanda",),
+           "1813-12 → 1815-03-16 Müttefik askerî idaresi (beyan) → hollanda (Birleşik Krallık) — kaynakla", "1815-03-16", ["hollanda"],
+           "ENKLAV-1104 K267")
+kova_kural("N6", "Slovakya 1919 'macaristan-naiplik' (Çekoslovak işgali yok)", (47.7, 49.6, 16.8, 22.6), "1919-09-01",
+           ("macaristan-naiplik", "macaristan-sovyet", "macaristan-halk-cumhuriyeti"),
+           "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not", "1919-01-01",
+           ["cekoslovakya"], "ENKLAV-1104 K134")
+
+# ================================================================================================
 # M — tâbi devlet (motor sorusu) — hüküm listesi
 # ================================================================================================
 S = []
-for dosya in ("ENKLAV-1103/hukumler.json", "ENKLAV-1104/hukumler2.json", "ENKLAV-1104/hukumler3.json", "ENKLAV-1104/hukumler4.json"):
+for dosya in ("ENKLAV-1103/hukumler.json", "ENKLAV-1104/hukumler2.json", "ENKLAV-1104/hukumler3.json", "ENKLAV-1104/hukumler4.json",
+              "ENKLAV-1104/hukumler5.json"):
     yol = os.path.join(KOK, "denetim", dosya)
+    if not os.path.exists(yol):
+        continue
     for no, h in json.load(open(yol, encoding="utf-8")).items():
         if not no.startswith("_") and h["kova"] == "YAPAY-m":
             S.append(dict(ad=no, yer="denetim/%s" % dosya, simdi=h["gerekce"][:160], oneri=h["duzeltme"][:160], kirilma=None,

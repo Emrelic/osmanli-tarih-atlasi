@@ -22,21 +22,27 @@
 | B | NDH 1941-1945: işgal/NDH dönemi yok (1943'te 'yugoslavya') | 51 | VERİ ÖLÇÜMÜ (boşluk); İtalya/Macar ayrımı KAYNAK-GEREK | 0 |
 | L1 | Konfedere eyaletler 1861-1865 'abd' | 39 | VERİ ÖLÇÜMÜ (kaba kutu) | 39 |
 | L3 | Malaya 1942-1945 Japon işgali yazılmamış | 5 | VERİ ÖLÇÜMÜ | 5 |
+| N1 | Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok) | 16 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 0 |
+| N2 | Kurland-Litvanya 1915-1918 Rus (Ober Ost işgali yok) | 5 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 4 |
+| N5 | Güney Hollanda (Belçika) 1813-1814 'hollanda' | 1 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 1 |
+| N6 | Slovakya 1919 'macaristan-naiplik' (Çekoslovak işgali yok) | 15 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 14 |
+| N4 | Napoli kimliği 1282 öncesine taşmış | 14 | VERİ ÖLÇÜMÜ | 0 |
 | I | Bölge/ülke adlı noktalar + o devirde olmayan şehirler | 77 | VERİ ÖLÇÜMÜ (ad deseni); kuruluş yılları KAYNAK-GEREK | 0 |
-| J | 0 noktalı parçalar (noktasız emilme) | 53 | VERİ ÖLÇÜMÜ | 0 |
+| J | 0 noktalı parçalar (noktasız emilme) | 60 | VERİ ÖLÇÜMÜ | 0 |
 | C | 1990'lar: RS / RSK / Herzeg-Bosna dönemi yok | 6 | KAYNAK-GEREK (ad listesi + günler); boşluk VERİ ÖLÇÜMÜ | 2 |
+| N3 | Kosova gölge cumhuriyeti toprak sahibi boyalı | 3 | MODEL + KAYNAK-GEREK | 3 |
 | D | Habsburg: aynı hükümdarın iki tacı ayrı kimlik | 2 | MODEL KARARI (Emre) · MOTOR/EVREN | 0 |
 | E | Çatı kimlikler: ayrı devletler tek kimlik / aynı hükümdar iki kimlik | 10 | MODEL KARARI (Emre) | 0 |
-| M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 19 | MOTOR SORUSU (HAVVA/Emre) | 0 |
+| M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 23 | MOTOR SORUSU (HAVVA/Emre) | 0 |
 
-Toplam satır: 591.
+Toplam satır: 656.
 
 ## 1. Hemen uygulanabilir — VERİ ÖLÇÜMÜ (dönem olgusu ölçüldü; halef/gün notu satırda)
 
 ### F · Hayalet İlhanlı: 1335 sonrası 'ilhanli' (151)
 
 - Dayanak: VERİ ÖLÇÜMÜ; halef KAYNAK-GEREK
-- Kural: İlhanlı devleti Ebû Saîd'in ölümüyle (1335-11-30) dağıldı; künye t 1353 (Togay Timur) yalnız Mâzenderan için savunulabilir.
+- Kural: İlhanlı devleti Ebû Saîd'in ölümüyle (1335-11-30) dağıldı. ⚠️ DÜZELTİLDİ — ayrıntı ILHANLI.md: TDV 1335-1353'ü kukla İlhanlar dönemi sayar; 151 noktanın 81'i KORU-BEYAN (ic_not), 58'i DUZELT (Doğu Anadolu, Luristan, Elbistan, Horasan ardılı), 12'si KAYNAK-GEREK. Bu kovanın satırlarını değil ILHANLI.md'yi uygula.
 - Hükümler: ENKLAV-1104 K230, K310, K335, K341
 - Ortak öneri (aksi yazılmadıkça): ilhanli t → 1335-11-30 (Ebû Saîd'in ölümü), sonrası halef (Celâyirli / Çobanoğulları / Eretna / Dulkadir / İncû / Muzafferî / Lur atabeyleri) kaynakla
 
@@ -576,6 +582,106 @@ _Bugünkü veride eşleşen satır yok._
 | Negeri Sembilan (Seremban) | `data/yerlesimler_gdasya.js:113` | s:fed-malay-devletleri 1896-07-01→1946-04-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
 | Klang | `data/yerlesimler_gdasya.js:208` | s:fed-malay-devletleri 1896-07-01→1946-04-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
 
+### N1 · Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok) (16)
+
+- Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
+- Kural: (44.0, 46.6, 6.6, 13.8) kutusunda 1944-06-01 günü sahibi italya olan noktalar.
+- Hükümler: ENKLAV-1104 K406
+- Ortak öneri (aksi yazılmadıkça): 1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla
+
+| ad | dosya:satır | şimdi | öneri | güven | kronoloji |
+|---|---|---|---|---|---|
+| Udine | `data/yerlesimler_avrupa.js:485` | s:italya 1866-10-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Belluno | `data/yerlesimler_avrupa.js:490` | s:italya 1866-10-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Feltre | `data/yerlesimler_avrupa.js:491` | s:italya 1866-10-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Görz (Gorizia) | `data/yerlesimler_avrupa.js:492` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Tarvis (Tarvisio) | `data/yerlesimler_avrupa.js:494` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Trieste | `data/yerlesimler_avrupa.js:496` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Trento | `data/yerlesimler_avrupa.js:498` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Ravenna | `data/yerlesimler_avrupa.js:512` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Rimini | `data/yerlesimler_avrupa.js:513` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Guastalla | `data/yerlesimler_avrupa.js:677` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Cortina d'Ampezzo | `data/yerlesimler_avrupa.js:684` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Gradisca d'Isonzo | `data/yerlesimler_avrupa.js:688` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Aosta | `data/yerlesimler_a78_avrupa.js:119` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Como | `data/yerlesimler_once1281_avrupa.js:22` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Saluzzo | `data/yerlesimler_ms1_1281_yeni.js:171` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Legnano | `data/yerlesimler_ms1_1281_yeni.js:268` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+
+### N2 · Kurland-Litvanya 1915-1918 Rus (Ober Ost işgali yok) (5)
+
+- Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
+- Kural: (53.9, 57.9, 20.9, 26.9) kutusunda 1916-06-01 günü sahibi rusya/rusya-gecici-hukumet olan noktalar.
+- Hükümler: ENKLAV-1104 K447, K448
+- Ortak öneri (aksi yazılmadıkça): 1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla
+
+| ad | dosya:satır | şimdi | öneri | güven | kronoloji |
+|---|---|---|---|---|---|
+| Riga | `data/yerlesimler.js:1286` | s:rusya 1721-09-10→1917-09-03 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR: 1915-08-01 — Mitau (Jelgava) Alman kuvvetlerince alındı |
+| Cēsis (Wenden) | `data/yerlesimler_ek7.js:138` | s:rusya 1721-09-10→1917-03-15 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Daugavpils (Dünaburg) | `data/yerlesimler_ek7.js:143` | s:rusya 1772-08-05→1917-03-15 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Šiauliai | `data/yerlesimler_ek7.js:149` | s:rusya 1795-10-24→1917-03-15 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Ventspils (Windau) | `data/yerlesimler_a78_avrupa.js:165` | s:rusya 1795-03-28→1917-03-15 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+
+### N5 · Güney Hollanda (Belçika) 1813-1814 'hollanda' (1)
+
+- Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
+- Kural: (49.4, 51.5, 2.5, 6.4) kutusunda 1814-02-01 günü sahibi hollanda olan noktalar.
+- Hükümler: ENKLAV-1104 K267
+
+| ad | dosya:satır | şimdi | öneri | güven | kronoloji |
+|---|---|---|---|---|---|
+| Middelburg | `data/yerlesimler_avrupa.js:392` | s:hollanda 1813-11-30→2000-12-31 | 1813-12 → 1815-03-16 Müttefik askerî idaresi (beyan) → hollanda (Birleşik Krallık) — kaynakla | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+
+### N6 · Slovakya 1919 'macaristan-naiplik' (Çekoslovak işgali yok) (15)
+
+- Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
+- Kural: (47.7, 49.6, 16.8, 22.6) kutusunda 1919-09-01 günü sahibi macaristan-naiplik/macaristan-sovyet/macaristan-halk-cumhuriyeti olan noktalar.
+- Hükümler: ENKLAV-1104 K134
+- Ortak öneri (aksi yazılmadıkça): 1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not
+
+| ad | dosya:satır | şimdi | öneri | güven | kronoloji |
+|---|---|---|---|---|---|
+| Estergon | `data/yerlesimler.js:616` | s:macaristan-naiplik 1918-11-16→1946-02-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Eğri | `data/yerlesimler.js:617` | s:macaristan-naiplik 1918-11-16→1946-02-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Uyvar | `data/yerlesimler.js:619` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Bratislava | `data/yerlesimler.js:1169` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Vaç (Vác) | `data/yerlesimler.js:1783` | s:macaristan-naiplik 1918-11-16→1946-02-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Kassa (Košice) | `data/yerlesimler_ek.js:111` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR: 1918-12-29 — Çekoslovak birlikleri Košice'yi (Kassa) aldı |
+| Eperjes (Prešov) | `data/yerlesimler_ek.js:119` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Tokaj | `data/yerlesimler_ek.js:126` | s:macaristan-naiplik 1918-11-16→1946-02-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Nitra (Nyitra) | `data/yerlesimler_ek29.js:118` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Komárom (Komárno) | `data/yerlesimler_ek29.js:139` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Somorja (Šamorín) | `data/yerlesimler_ek29.js:157` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Léva (Levice) | `data/yerlesimler_ek29.js:177` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Trencsén (Trenčín) | `data/yerlesimler_ek29.js:190` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Fülek (Fiľakovo) | `data/yerlesimler_ek_macaristan.js:188` | s:macaristan-naiplik 1918-11-16→1920-06-04 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Ungvár (Uzhhorod) | `data/yerlesimler_ek_macaristan.js:210` | s:macaristan-naiplik 1918-11-16→1919-09-10; s:cekoslovakya 1919-09-10→1938-11-02 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+
+### N4 · Napoli kimliği 1282 öncesine taşmış (14)
+
+- Dayanak: VERİ ÖLÇÜMÜ
+- Kural: s: dönemi 'napoli' olup 1282-03-30'dan önce başlayan noktalar.
+- Hükümler: ENKLAV-1104 K450
+- Ortak öneri (aksi yazılmadıkça): 1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30
+
+| ad | dosya:satır | şimdi | öneri | güven | kronoloji |
+|---|---|---|---|---|---|
+| Otranto | `data/yerlesimler.js:120` | s:napoli 1281-01-01→1480-08-11 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Brindisi | `data/yerlesimler.js:123` | s:napoli 1281-01-01→1861-02-13 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Taranto | `data/yerlesimler.js:124` | s:napoli 1281-01-01→1861-02-13 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Lecce | `data/yerlesimler.js:125` | s:napoli 1281-01-01→1861-02-13 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Napoli | `data/yerlesimler.js:1195` | s:napoli 1281-01-01→1799-01-23 | (ortak) | OLCUM | VAR: 1282-03-30 — Sicilya Akşamı — Anjou hânedanı Sicilya adasını kaybetti |
+| Ayamavra (Lefkada) | `data/yerlesimler.js:1611` | s:napoli 1281-01-01→1479-08-01 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Kefalonya | `data/yerlesimler.js:1838` | s:napoli 1281-01-01→1479-08-01 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| İthaki | `data/yerlesimler.js:1839` | s:napoli 1281-01-01→1479-08-01 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Zaklise (Zakynthos) | `data/yerlesimler.js:1840` | s:napoli 1281-01-01→1479-08-01 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| L'Aquila | `data/yerlesimler_avrupa.js:530` | s:napoli 1281-01-01→1861-02-13 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Bari | `data/yerlesimler_avrupa.js:531` | s:napoli 1281-01-01→1861-02-13 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Foggia | `data/yerlesimler_avrupa.js:532` | s:napoli 1281-01-01→1861-02-13 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Cosenza | `data/yerlesimler_avrupa.js:533` | s:napoli 1281-01-01→1861-02-13 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+| Reggio Calabria | `data/yerlesimler_avrupa.js:534` | s:napoli 1281-01-01→1861-02-13 | (ortak) | OLCUM | VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu  |
+
 ### I · Bölge/ülke adlı noktalar + o devirde olmayan şehirler (77)
 
 - Dayanak: VERİ ÖLÇÜMÜ (ad deseni); kuruluş yılları KAYNAK-GEREK
@@ -663,7 +769,7 @@ _Bugünkü veride eşleşen satır yok._
 | Klosterneuburg | `data/yerlesimler_once1281_yt_avrupa.js:447` | kur=None bit=1281-01-01; ilk dönem — | kur: — (kaynakla); öncesi dönemler kırpılsın, toprak komşu peteklere (merdiven ④) | KAYNAK-GEREK (kuruluş yılı) | — |
 | Melun | `data/yerlesimler_once1281_yt_avrupa.js:500` | kur=None bit=1281-01-01; ilk dönem — | kur: — (kaynakla); öncesi dönemler kırpılsın, toprak komşu peteklere (merdiven ④) | KAYNAK-GEREK (kuruluş yılı) | — |
 
-### J · 0 noktalı parçalar (noktasız emilme) (53)
+### J · 0 noktalı parçalar (noktasız emilme) (60)
 
 - Dayanak: VERİ ÖLÇÜMÜ
 - Kural: Koşu 32'de içinde hiçbir yerleşim noktası olmayan kopuk parçalar; alan bölge poligonu/emilmeden.
@@ -724,6 +830,13 @@ _Bugünkü veride eşleşen satır yok._
 | K368 almanya | `denetim/ENKLAV-1104/aday4.json` | 1890-07-01 → 1915-07-09 · 14285 km² · en büyük kesit 1900-03-01 | (ortak) | OLCUM | — |
 | K385 rusya | `denetim/ENKLAV-1104/aday4.json` | 1809-09-17 → 1917-03-15 · 11995 km² · en büyük kesit 1814-01-14 | (ortak) | OLCUM | — |
 | K389 ingiltere | `denetim/ENKLAV-1104/aday4.json` | 1816-04-23 → 1965-02-18 · 11810 km² · en büyük kesit 1960-06-26 | (ortak) | OLCUM | — |
+| K412 fransa-cumhuriyet | `denetim/ENKLAV-1104/aday5.json` | 1895-06-16 → 1923-10-29 · 9764 km² · en büyük kesit 1898-01-01 | (ortak) | OLCUM | — |
+| K413 ingiliz-sudani | `denetim/ENKLAV-1104/aday5.json` | 1919-09-08 → 1923-10-29 · 9757 km² · en büyük kesit 1919-09-08 | (ortak) | OLCUM | — |
+| K415 portekiz | `denetim/ENKLAV-1104/aday5.json` | 1910-05-31 → 1923-10-29 · 9641 km² · en büyük kesit 1910-05-31 | (ortak) | OLCUM | — |
+| K423 babur-imparatorlugu | `denetim/ENKLAV-1104/aday5.json` | 1759-03-04 → 1772-11-18 · 9406 km² · en büyük kesit 1759-03-04 | (ortak) | OLCUM | — |
+| K438 italya | `denetim/ENKLAV-1104/aday5.json` | 1894-05-05 → 1923-10-29 · 8847 km² · en büyük kesit 1894-05-05 | (ortak) | OLCUM | — |
+| K443 almanya | `denetim/ENKLAV-1104/aday5.json` | 1901-01-01 → 1916-02-18 · 8541 km² · en büyük kesit 1901-01-01 | (ortak) | OLCUM | — |
+| K445 meksika | `denetim/ENKLAV-1104/aday5.json` | 1854-06-30 → 1869-05-14 · 8423 km² · en büyük kesit 1854-06-30 | (ortak) | OLCUM | — |
 
 ## 3. Yalnız KAYNAK-GEREK
 
@@ -742,6 +855,19 @@ _Bugünkü veride eşleşen satır yok._
 | Beli Manastir | `data/yerlesimler_halef_1946.js:80` | s:dogu-slavonya-untaes 1996-01-15→1998-01-15 | (ortak) | KAYNAK-GEREK (ad listesi bilinen çekirdek; şehir günleri) | VAR (taraf): 1991-12-19 — Sırp Krajina Cumhuriyeti ilan edildi (Glina, Korenica, Benkovac) |
 | Ilok | `data/yerlesimler_halef_1946.js:81` | s:dogu-slavonya-untaes 1996-01-15→1998-01-15 | (ortak) | KAYNAK-GEREK (ad listesi bilinen çekirdek; şehir günleri) | VAR (taraf): 1991-12-19 — Sırp Krajina Cumhuriyeti ilan edildi (Glina, Korenica, Benkovac) |
 | Livno (İhlevne) | `data/yerlesimler.js:2524` | s:yugoslavya-federal 1945-11-29→1992-03-03; s:bosna-hersek 1992-03-03→2000-12-31 | 1991-11-18 → 1996-08-14 herzeg-bosna (künye; Washington Antlaşması 1994-03-18 sonrası beyan) | KAYNAK-GEREK (ad listesi bilinen çekirdek; şehir günleri) | VAR (taraf): 1991-11-18 — Hırvat Herzeg-Bosna Topluluğu ilan edildi (Čapljina, Posušje, Vitez, O |
+
+### N3 · Kosova gölge cumhuriyeti toprak sahibi boyalı (3)
+
+- Dayanak: MODEL + KAYNAK-GEREK
+- Kural: s: dönemi 'kosova-golge-cumhuriyeti' olan noktalar.
+- Hükümler: ENKLAV-1104 K449
+- Ortak öneri (aksi yazılmadıkça): Gölge cumhuriyet toprak denetimi değildi: FRY (yugoslavya-federal/sirbistan-karadag) 1999-06-10'a dek; gölge cumhuriyet ic_not/beyan — kaynakla
+
+| ad | dosya:satır | şimdi | öneri | güven | kronoloji |
+|---|---|---|---|---|---|
+| Mitroviça (Mitrovicë) | `data/yerlesimler_halef_1946.js:89` | s:kosova-golge-cumhuriyeti 1991-09-22→1999-06-10 | (ortak) | KAYNAK-GEREK (model) | YOK |
+| Peç (Pejë) | `data/yerlesimler_halef_1946.js:90` | s:kosova-golge-cumhuriyeti 1991-09-22→1999-06-10 | (ortak) | KAYNAK-GEREK (model) | YOK |
+| Gilan (Gjilan) | `data/yerlesimler_halef_1946.js:91` | s:kosova-golge-cumhuriyeti 1991-09-22→1999-06-10 | (ortak) | KAYNAK-GEREK (model) | YOK |
 
 ## 4. Model / motor kararı (Emre · HAVVA)
 
@@ -775,7 +901,7 @@ _Bugünkü veride eşleşen satır yok._
 | almanya (962-1806 Kutsal Roma) | `data/devletler.js` | 153 s: dönemi 1806 öncesi | İmparatorluk çatısı + üye prenslikler (brixen, salzburg, tirol, prusya…) yan yana | EMRE KARARI | — |
 | kastilya / leon-kralligi (1037-1065, 1072-1157, 1230) | `data/devletler.js` | 23 s: dönemi | Kişisel birlik dönemlerinde aynı hükümdar iki kimlikle | EMRE KARARI | — |
 
-### M · Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) (19)
+### M · Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) (23)
 
 - Dayanak: MOTOR SORUSU (HAVVA/Emre)
 - Kural: Kopukluk tâbinin komşu sayılmasından ya da < 1 km koridordan; veri düzeltmesi değil, evren/motor kararı.
@@ -801,3 +927,7 @@ _Bugünkü veride eşleşen satır yok._
 | K375 | `denetim/ENKLAV-1104/hukumler4.json` | Sambas 1827 → 1855 'hollanda-dogu-hint', çevre Pontianak (Hollanda tâbisi sultanlık) ve Sarawak. Tâbinin yabancı sayılması (K171 ailesi). | Motor sorusu; Pontianak v:. | MOTOR SORUSU | — |
 | K388 | `denetim/ENKLAV-1104/hukumler4.json` | Çorum-Amasya-Merzifon 1256 → 1281 'ilhanli', çevre Selçuklu (6/9). Anadolu Selçukluları İlhanlı tâbisiydi; aynı coğrafyada tâbi ve metbû yan yana boyanınca kopu | Selçuklu 1256-1308 ilhanli v: (tâbi) beyanı; motor sorusu. | MOTOR SORUSU | — |
 | K390 | `denetim/ENKLAV-1104/hukumler4.json` | Çorum-Amasya 1243-07-01 (Kösedağ) → 1256 'mogol-imparatorlugu', çevre Selçuklu ve Trabzon: K388 ile aynı tâbi-metbû yan yana boyama. | K388 ile aynı. | MOTOR SORUSU | — |
+| K421 | `denetim/ENKLAV-1104/hukumler5.json` | Kiev 1667-02-09 (Andrusovo) → 1764 Rus, gövdeden 'lehistan' koridoruyla (237 km) ayrı. Kiev sol yaka Hetmanlığı (Rus tâbisi) üzerinden Rusya'ya bağlıydı; kopukl | Kazak Hetmanlığı v: (Rus tâbiliği) beyanı; motor sorusu. | MOTOR SORUSU | — |
+| K436 | `denetim/ENKLAV-1104/hukumler5.json` | Maastricht-Roermond-Eupen 1590-1625 İspanyol, gövdeden 0,3 km'lik 'almanya' (Jülich) şeridiyle ayrı: değme payı (motor sorusu, K180/K371 ailesi). | Motor sorusu: < 1 km koridor DAR-AYRIM. | MOTOR SORUSU | — |
+| K453 | `denetim/ENKLAV-1104/hukumler5.json` | Meyyâfârikīn 1264 → 1281 İlhanlı, çevre Hısnkeyfa Eyyûbîleri (İlhanlı tâbisi): tâbinin yabancı sayılması (KOVALAR M). | Motor sorusu (KOVALAR M). | MOTOR SORUSU | — |
+| K494 | `denetim/ENKLAV-1104/hukumler5.json` | Bucumbura 1897 → 1916-06-06 Alman Doğu Afrikası, çevre 'burundi' (Alman himayesindeki krallık): tâbinin yabancı sayılması (KOVALAR M). Ek: Bukavu Belçika Kongos | Burundi v: (Alman himayesi); Bukavu kongo-serbest-devleti/belcika-kongosu (kaynakla). | MOTOR SORUSU | — |

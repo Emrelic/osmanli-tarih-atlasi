@@ -2472,7 +2472,7 @@
    "kod": "F",
    "ad": "Hayalet İlhanlı: 1335 sonrası 'ilhanli'",
    "dayanak": "VERİ ÖLÇÜMÜ; halef KAYNAK-GEREK",
-   "aciklama": "İlhanlı devleti Ebû Saîd'in ölümüyle (1335-11-30) dağıldı; künye t 1353 (Togay Timur) yalnız Mâzenderan için savunulabilir.",
+   "aciklama": "İlhanlı devleti Ebû Saîd'in ölümüyle (1335-11-30) dağıldı. ⚠️ DÜZELTİLDİ — ayrıntı ILHANLI.md: TDV 1335-1353'ü kukla İlhanlar dönemi sayar; 151 noktanın 81'i KORU-BEYAN (ic_not), 58'i DUZELT (Doğu Anadolu, Luristan, Elbistan, Horasan ardılı), 12'si KAYNAK-GEREK. Bu kovanın satırlarını değil ILHANLI.md'yi uygula.",
    "hukumler": "ENKLAV-1104 K230, K310, K335, K341",
    "motor": false,
    "sayi": 151,
@@ -5357,7 +5357,7 @@
    "aciklama": "Koşu 32'de içinde hiçbir yerleşim noktası olmayan kopuk parçalar; alan bölge poligonu/emilmeden.",
    "hukumler": "",
    "motor": false,
-   "sayi": 53,
+   "sayi": 60,
    "satirlar": [
     {
      "ad": "E004 guney-afrika-birligi",
@@ -5941,6 +5941,83 @@
      "kirilma": null,
      "guven": "OLCUM",
      "kronoloji": "—"
+    },
+    {
+     "ad": "K412 fransa-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday5.json",
+     "lat": 13.076,
+     "lon": -16.136,
+     "simdi": "1895-06-16 → 1923-10-29 · 9764 km² · en büyük kesit 1898-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K413 ingiliz-sudani",
+     "yer": "denetim/ENKLAV-1104/aday5.json",
+     "lat": 11.178,
+     "lon": 23.374,
+     "simdi": "1919-09-08 → 1923-10-29 · 9757 km² · en büyük kesit 1919-09-08",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K415 portekiz",
+     "yer": "denetim/ENKLAV-1104/aday5.json",
+     "lat": -21.997,
+     "lon": 30.851,
+     "simdi": "1910-05-31 → 1923-10-29 · 9641 km² · en büyük kesit 1910-05-31",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K423 babur-imparatorlugu",
+     "yer": "denetim/ENKLAV-1104/aday5.json",
+     "lat": 21.794,
+     "lon": 73.152,
+     "simdi": "1759-03-04 → 1772-11-18 · 9406 km² · en büyük kesit 1759-03-04",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K438 italya",
+     "yer": "denetim/ENKLAV-1104/aday5.json",
+     "lat": 9.514,
+     "lon": 49.175,
+     "simdi": "1894-05-05 → 1923-10-29 · 8847 km² · en büyük kesit 1894-05-05",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K443 almanya",
+     "yer": "denetim/ENKLAV-1104/aday5.json",
+     "lat": 8.579,
+     "lon": 12.771,
+     "simdi": "1901-01-01 → 1916-02-18 · 8541 km² · en büyük kesit 1901-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K445 meksika",
+     "yer": "denetim/ENKLAV-1104/aday5.json",
+     "lat": 31.825,
+     "lon": -113.956,
+     "simdi": "1854-06-30 → 1869-05-14 · 8423 km² · en büyük kesit 1854-06-30",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
     }
    ]
   },
@@ -6461,13 +6538,673 @@
    ]
   },
   {
+   "kod": "N1",
+   "ad": "Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok)",
+   "dayanak": "VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK",
+   "aciklama": "(44.0, 46.6, 6.6, 13.8) kutusunda 1944-06-01 günü sahibi italya olan noktalar.",
+   "hukumler": "ENKLAV-1104 K406",
+   "motor": false,
+   "sayi": 16,
+   "satirlar": [
+    {
+     "ad": "Udine",
+     "yer": "data/yerlesimler_avrupa.js:485",
+     "lat": 46.065,
+     "lon": 13.235,
+     "simdi": "s:italya 1866-10-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Belluno",
+     "yer": "data/yerlesimler_avrupa.js:490",
+     "lat": 46.14,
+     "lon": 12.217,
+     "simdi": "s:italya 1866-10-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Feltre",
+     "yer": "data/yerlesimler_avrupa.js:491",
+     "lat": 46.019,
+     "lon": 11.907,
+     "simdi": "s:italya 1866-10-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Görz (Gorizia)",
+     "yer": "data/yerlesimler_avrupa.js:492",
+     "lat": 45.941,
+     "lon": 13.62,
+     "simdi": "s:italya 1918-11-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Tarvis (Tarvisio)",
+     "yer": "data/yerlesimler_avrupa.js:494",
+     "lat": 46.505,
+     "lon": 13.576,
+     "simdi": "s:italya 1918-11-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Trieste",
+     "yer": "data/yerlesimler_avrupa.js:496",
+     "lat": 45.65,
+     "lon": 13.77,
+     "simdi": "s:italya 1918-11-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Trento",
+     "yer": "data/yerlesimler_avrupa.js:498",
+     "lat": 46.067,
+     "lon": 11.121,
+     "simdi": "s:italya 1918-11-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Ravenna",
+     "yer": "data/yerlesimler_avrupa.js:512",
+     "lat": 44.418,
+     "lon": 12.203,
+     "simdi": "s:italya 1861-03-17→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Rimini",
+     "yer": "data/yerlesimler_avrupa.js:513",
+     "lat": 44.06,
+     "lon": 12.565,
+     "simdi": "s:italya 1861-03-17→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Guastalla",
+     "yer": "data/yerlesimler_avrupa.js:677",
+     "lat": 44.921,
+     "lon": 10.655,
+     "simdi": "s:italya 1861-03-17→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Cortina d'Ampezzo",
+     "yer": "data/yerlesimler_avrupa.js:684",
+     "lat": 46.537,
+     "lon": 12.136,
+     "simdi": "s:italya 1918-11-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Gradisca d'Isonzo",
+     "yer": "data/yerlesimler_avrupa.js:688",
+     "lat": 45.892,
+     "lon": 13.502,
+     "simdi": "s:italya 1918-11-03→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Aosta",
+     "yer": "data/yerlesimler_a78_avrupa.js:119",
+     "lat": 45.737,
+     "lon": 7.32,
+     "simdi": "s:italya 1861-03-17→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Como",
+     "yer": "data/yerlesimler_once1281_avrupa.js:22",
+     "lat": 45.8082,
+     "lon": 9.0832,
+     "simdi": "s:italya 1861-03-17→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Saluzzo",
+     "yer": "data/yerlesimler_ms1_1281_yeni.js:171",
+     "lat": 44.6465,
+     "lon": 7.4896,
+     "simdi": "s:italya 1861-03-17→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    },
+    {
+     "ad": "Legnano",
+     "yer": "data/yerlesimler_ms1_1281_yeni.js:268",
+     "lat": 45.59788,
+     "lon": 8.91506,
+     "simdi": "s:italya 1861-03-17→1946-06-18",
+     "oneri": "1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla",
+     "kirilma": "1943-09-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt"
+    }
+   ]
+  },
+  {
+   "kod": "N2",
+   "ad": "Kurland-Litvanya 1915-1918 Rus (Ober Ost işgali yok)",
+   "dayanak": "VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK",
+   "aciklama": "(53.9, 57.9, 20.9, 26.9) kutusunda 1916-06-01 günü sahibi rusya/rusya-gecici-hukumet olan noktalar.",
+   "hukumler": "ENKLAV-1104 K447, K448",
+   "motor": false,
+   "sayi": 5,
+   "satirlar": [
+    {
+     "ad": "Riga",
+     "yer": "data/yerlesimler.js:1286",
+     "lat": 56.949,
+     "lon": 24.105,
+     "simdi": "s:rusya 1721-09-10→1917-09-03",
+     "oneri": "1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla",
+     "kirilma": "1915-08-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR: 1915-08-01 — Mitau (Jelgava) Alman kuvvetlerince alındı"
+    },
+    {
+     "ad": "Cēsis (Wenden)",
+     "yer": "data/yerlesimler_ek7.js:138",
+     "lat": 57.312,
+     "lon": 25.274,
+     "simdi": "s:rusya 1721-09-10→1917-03-15",
+     "oneri": "1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla",
+     "kirilma": "1915-08-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Daugavpils (Dünaburg)",
+     "yer": "data/yerlesimler_ek7.js:143",
+     "lat": 55.875,
+     "lon": 26.536,
+     "simdi": "s:rusya 1772-08-05→1917-03-15",
+     "oneri": "1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla",
+     "kirilma": "1915-08-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Šiauliai",
+     "yer": "data/yerlesimler_ek7.js:149",
+     "lat": 55.934,
+     "lon": 23.315,
+     "simdi": "s:rusya 1795-10-24→1917-03-15",
+     "oneri": "1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla",
+     "kirilma": "1915-08-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Ventspils (Windau)",
+     "yer": "data/yerlesimler_a78_avrupa.js:165",
+     "lat": 57.3894,
+     "lon": 21.5606,
+     "simdi": "s:rusya 1795-03-28→1917-03-15",
+     "oneri": "1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla",
+     "kirilma": "1915-08-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    }
+   ]
+  },
+  {
+   "kod": "N3",
+   "ad": "Kosova gölge cumhuriyeti toprak sahibi boyalı",
+   "dayanak": "MODEL + KAYNAK-GEREK",
+   "aciklama": "s: dönemi 'kosova-golge-cumhuriyeti' olan noktalar.",
+   "hukumler": "ENKLAV-1104 K449",
+   "motor": false,
+   "sayi": 3,
+   "satirlar": [
+    {
+     "ad": "Mitroviça (Mitrovicë)",
+     "yer": "data/yerlesimler_halef_1946.js:89",
+     "lat": 42.879,
+     "lon": 20.866,
+     "simdi": "s:kosova-golge-cumhuriyeti 1991-09-22→1999-06-10",
+     "oneri": "Gölge cumhuriyet toprak denetimi değildi: FRY (yugoslavya-federal/sirbistan-karadag) 1999-06-10'a dek; gölge cumhuriyet ic_not/beyan — kaynakla",
+     "kirilma": "1999-06-10",
+     "guven": "KAYNAK-GEREK (model)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Peç (Pejë)",
+     "yer": "data/yerlesimler_halef_1946.js:90",
+     "lat": 42.659,
+     "lon": 20.289,
+     "simdi": "s:kosova-golge-cumhuriyeti 1991-09-22→1999-06-10",
+     "oneri": "Gölge cumhuriyet toprak denetimi değildi: FRY (yugoslavya-federal/sirbistan-karadag) 1999-06-10'a dek; gölge cumhuriyet ic_not/beyan — kaynakla",
+     "kirilma": "1999-06-10",
+     "guven": "KAYNAK-GEREK (model)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Gilan (Gjilan)",
+     "yer": "data/yerlesimler_halef_1946.js:91",
+     "lat": 42.464,
+     "lon": 21.469,
+     "simdi": "s:kosova-golge-cumhuriyeti 1991-09-22→1999-06-10",
+     "oneri": "Gölge cumhuriyet toprak denetimi değildi: FRY (yugoslavya-federal/sirbistan-karadag) 1999-06-10'a dek; gölge cumhuriyet ic_not/beyan — kaynakla",
+     "kirilma": "1999-06-10",
+     "guven": "KAYNAK-GEREK (model)",
+     "kronoloji": "YOK"
+    }
+   ]
+  },
+  {
+   "kod": "N4",
+   "ad": "Napoli kimliği 1282 öncesine taşmış",
+   "dayanak": "VERİ ÖLÇÜMÜ",
+   "aciklama": "s: dönemi 'napoli' olup 1282-03-30'dan önce başlayan noktalar.",
+   "hukumler": "ENKLAV-1104 K450",
+   "motor": false,
+   "sayi": 14,
+   "satirlar": [
+    {
+     "ad": "Otranto",
+     "yer": "data/yerlesimler.js:120",
+     "lat": 40.146,
+     "lon": 18.489,
+     "simdi": "s:napoli 1281-01-01→1480-08-11",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Brindisi",
+     "yer": "data/yerlesimler.js:123",
+     "lat": 40.639,
+     "lon": 17.945,
+     "simdi": "s:napoli 1281-01-01→1861-02-13",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Taranto",
+     "yer": "data/yerlesimler.js:124",
+     "lat": 40.472,
+     "lon": 17.243,
+     "simdi": "s:napoli 1281-01-01→1861-02-13",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Lecce",
+     "yer": "data/yerlesimler.js:125",
+     "lat": 40.352,
+     "lon": 18.169,
+     "simdi": "s:napoli 1281-01-01→1861-02-13",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Napoli",
+     "yer": "data/yerlesimler.js:1195",
+     "lat": 40.852,
+     "lon": 14.268,
+     "simdi": "s:napoli 1281-01-01→1799-01-23",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR: 1282-03-30 — Sicilya Akşamı — Anjou hânedanı Sicilya adasını kaybetti"
+    },
+    {
+     "ad": "Ayamavra (Lefkada)",
+     "yer": "data/yerlesimler.js:1611",
+     "lat": 38.716,
+     "lon": 20.643,
+     "simdi": "s:napoli 1281-01-01→1479-08-01",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Kefalonya",
+     "yer": "data/yerlesimler.js:1838",
+     "lat": 38.227,
+     "lon": 20.575,
+     "simdi": "s:napoli 1281-01-01→1479-08-01",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "İthaki",
+     "yer": "data/yerlesimler.js:1839",
+     "lat": 38.403,
+     "lon": 20.687,
+     "simdi": "s:napoli 1281-01-01→1479-08-01",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Zaklise (Zakynthos)",
+     "yer": "data/yerlesimler.js:1840",
+     "lat": 37.788,
+     "lon": 20.775,
+     "simdi": "s:napoli 1281-01-01→1479-08-01",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "L'Aquila",
+     "yer": "data/yerlesimler_avrupa.js:530",
+     "lat": 42.35,
+     "lon": 13.399,
+     "simdi": "s:napoli 1281-01-01→1861-02-13",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Bari",
+     "yer": "data/yerlesimler_avrupa.js:531",
+     "lat": 41.117,
+     "lon": 16.871,
+     "simdi": "s:napoli 1281-01-01→1861-02-13",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Foggia",
+     "yer": "data/yerlesimler_avrupa.js:532",
+     "lat": 41.462,
+     "lon": 15.544,
+     "simdi": "s:napoli 1281-01-01→1861-02-13",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Cosenza",
+     "yer": "data/yerlesimler_avrupa.js:533",
+     "lat": 39.298,
+     "lon": 16.253,
+     "simdi": "s:napoli 1281-01-01→1861-02-13",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    },
+    {
+     "ad": "Reggio Calabria",
+     "yer": "data/yerlesimler_avrupa.js:534",
+     "lat": 38.111,
+     "lon": 15.647,
+     "simdi": "s:napoli 1281-01-01→1861-02-13",
+     "oneri": "1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30",
+     "kirilma": "1282-03-30",
+     "guven": "OLCUM",
+     "kronoloji": "VAR (taraf): 1282-03-30 — Mazara del Vallo, Taormina: sicilya krallığı (norman sicilya kontluğu "
+    }
+   ]
+  },
+  {
+   "kod": "N5",
+   "ad": "Güney Hollanda (Belçika) 1813-1814 'hollanda'",
+   "dayanak": "VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK",
+   "aciklama": "(49.4, 51.5, 2.5, 6.4) kutusunda 1814-02-01 günü sahibi hollanda olan noktalar.",
+   "hukumler": "ENKLAV-1104 K267",
+   "motor": false,
+   "sayi": 1,
+   "satirlar": [
+    {
+     "ad": "Middelburg",
+     "yer": "data/yerlesimler_avrupa.js:392",
+     "lat": 51.498,
+     "lon": 3.61,
+     "simdi": "s:hollanda 1813-11-30→2000-12-31",
+     "oneri": "1813-12 → 1815-03-16 Müttefik askerî idaresi (beyan) → hollanda (Birleşik Krallık) — kaynakla",
+     "kirilma": "1815-03-16",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    }
+   ]
+  },
+  {
+   "kod": "N6",
+   "ad": "Slovakya 1919 'macaristan-naiplik' (Çekoslovak işgali yok)",
+   "dayanak": "VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK",
+   "aciklama": "(47.7, 49.6, 16.8, 22.6) kutusunda 1919-09-01 günü sahibi macaristan-naiplik/macaristan-sovyet/macaristan-halk-cumhuriyeti olan noktalar.",
+   "hukumler": "ENKLAV-1104 K134",
+   "motor": false,
+   "sayi": 15,
+   "satirlar": [
+    {
+     "ad": "Estergon",
+     "yer": "data/yerlesimler.js:616",
+     "lat": 47.795,
+     "lon": 18.74,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1946-02-01",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Eğri",
+     "yer": "data/yerlesimler.js:617",
+     "lat": 47.902,
+     "lon": 20.377,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1946-02-01",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Uyvar",
+     "yer": "data/yerlesimler.js:619",
+     "lat": 47.986,
+     "lon": 18.162,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Bratislava",
+     "yer": "data/yerlesimler.js:1169",
+     "lat": 48.146,
+     "lon": 17.107,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Vaç (Vác)",
+     "yer": "data/yerlesimler.js:1783",
+     "lat": 47.776,
+     "lon": 19.134,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1946-02-01",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Kassa (Košice)",
+     "yer": "data/yerlesimler_ek.js:111",
+     "lat": 48.714,
+     "lon": 21.258,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR: 1918-12-29 — Çekoslovak birlikleri Košice'yi (Kassa) aldı"
+    },
+    {
+     "ad": "Eperjes (Prešov)",
+     "yer": "data/yerlesimler_ek.js:119",
+     "lat": 48.999,
+     "lon": 21.236,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Tokaj",
+     "yer": "data/yerlesimler_ek.js:126",
+     "lat": 48.117,
+     "lon": 21.409,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1946-02-01",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Nitra (Nyitra)",
+     "yer": "data/yerlesimler_ek29.js:118",
+     "lat": 48.3069,
+     "lon": 18.0864,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Komárom (Komárno)",
+     "yer": "data/yerlesimler_ek29.js:139",
+     "lat": 47.7625,
+     "lon": 18.125,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Somorja (Šamorín)",
+     "yer": "data/yerlesimler_ek29.js:157",
+     "lat": 48.0306,
+     "lon": 17.3097,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Léva (Levice)",
+     "yer": "data/yerlesimler_ek29.js:177",
+     "lat": 48.2172,
+     "lon": 18.6069,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Trencsén (Trenčín)",
+     "yer": "data/yerlesimler_ek29.js:190",
+     "lat": 48.8945,
+     "lon": 18.0444,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Fülek (Fiľakovo)",
+     "yer": "data/yerlesimler_ek_macaristan.js:188",
+     "lat": 48.2702,
+     "lon": 19.8223,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1920-06-04",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Ungvár (Uzhhorod)",
+     "yer": "data/yerlesimler_ek_macaristan.js:210",
+     "lat": 48.6224,
+     "lon": 22.3023,
+     "simdi": "s:macaristan-naiplik 1918-11-16→1919-09-10; s:cekoslovakya 1919-09-10→1938-11-02",
+     "oneri": "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not",
+     "kirilma": "1919-01-01",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    }
+   ]
+  },
+  {
    "kod": "M",
    "ad": "Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m)",
    "dayanak": "MOTOR SORUSU (HAVVA/Emre)",
    "aciklama": "Kopukluk tâbinin komşu sayılmasından ya da < 1 km koridordan; veri düzeltmesi değil, evren/motor kararı.",
    "hukumler": "",
    "motor": true,
-   "sayi": 19,
+   "sayi": 23,
    "satirlar": [
     {
      "ad": "E082",
@@ -6636,6 +7373,42 @@
      "yer": "denetim/ENKLAV-1104/hukumler4.json",
      "simdi": "Çorum-Amasya 1243-07-01 (Kösedağ) → 1256 'mogol-imparatorlugu', çevre Selçuklu ve Trabzon: K388 ile aynı tâbi-metbû yan yana boyama.",
      "oneri": "K388 ile aynı.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K421",
+     "yer": "denetim/ENKLAV-1104/hukumler5.json",
+     "simdi": "Kiev 1667-02-09 (Andrusovo) → 1764 Rus, gövdeden 'lehistan' koridoruyla (237 km) ayrı. Kiev sol yaka Hetmanlığı (Rus tâbisi) üzerinden Rusya'ya bağlıydı; kopukl",
+     "oneri": "Kazak Hetmanlığı v: (Rus tâbiliği) beyanı; motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K436",
+     "yer": "denetim/ENKLAV-1104/hukumler5.json",
+     "simdi": "Maastricht-Roermond-Eupen 1590-1625 İspanyol, gövdeden 0,3 km'lik 'almanya' (Jülich) şeridiyle ayrı: değme payı (motor sorusu, K180/K371 ailesi).",
+     "oneri": "Motor sorusu: < 1 km koridor DAR-AYRIM.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K453",
+     "yer": "denetim/ENKLAV-1104/hukumler5.json",
+     "simdi": "Meyyâfârikīn 1264 → 1281 İlhanlı, çevre Hısnkeyfa Eyyûbîleri (İlhanlı tâbisi): tâbinin yabancı sayılması (KOVALAR M).",
+     "oneri": "Motor sorusu (KOVALAR M).",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K494",
+     "yer": "denetim/ENKLAV-1104/hukumler5.json",
+     "simdi": "Bucumbura 1897 → 1916-06-06 Alman Doğu Afrikası, çevre 'burundi' (Alman himayesindeki krallık): tâbinin yabancı sayılması (KOVALAR M). Ek: Bukavu Belçika Kongos",
+     "oneri": "Burundi v: (Alman himayesi); Bukavu kongo-serbest-devleti/belcika-kongosu (kaynakla).",
      "kirilma": null,
      "guven": "MOTOR SORUSU",
      "kronoloji": "—"
