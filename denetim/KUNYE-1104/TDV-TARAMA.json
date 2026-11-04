@@ -47,7 +47,8 @@
   "bolge": "guney-asya",
   "agirlik": 3959,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Racput (36 sonuç, hiçbiri Racput devletleri maddesi: babur, baburluler, cammu...), Rajput (4: benares, bengal-sultanligi...), Mevar (2 alakasız). TDV'de Racput devletleri / Mevar / Amber / Bikaner maddesi yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Racput (36 sonuç, hiçbiri Racput devletleri maddesi: babur, baburluler, cammu...), Rajput (4: benares, bengal-sultanligi...), Mevar (2 alakasız). TDV'de Racput devletleri / Mevar / Amber / Bikaner maddesi yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamağa geçer; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "umman-zengibar",
@@ -97,9 +98,7 @@
   "bolge": "balkanlar",
   "agirlik": 1546,
   "tdv_madde": "bulgaristan",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BULGARİSTAN (bulgaristan): \"8 Eylül 1946’da yapılan halk oylamasıyla cumhuriyet ilân edildi.\" (cumhuriyet ilanı; data 1946-09-15). \"4 Aralık 1947’de Yugoslavya ve Sovyetler Birliği anayasaları örnek alınarak...\" yeni anayasa (HC 1947-12-04 teyit). t=1990-11-15 (isim değişikliği) TDV'de yok; yalnız \"kırk beş yıllık komünist iktidarın çökmesini\" ve 1989-1990 çok partili düzen. Not: 8 Eylül halk oylaması günüdür; TDV 'cumhuriyet ilân edildi' diyor. [LAB elemesi: ajan DUZELT dedi → KISMEN]",
-  "bekle": "f 1946-09-15 → 1946-09-08 (TDV: '8 Eylül 1946'da yapılan halk oylamasıyla cumhuriyet ilân edildi')",
-  "bekle_neden": "TDV halk oylaması gününü ilan günü sayıyor olabilir; resmî ilan 15 Eylül 1946 (veri). İkinci akademik kaynak okunmadan uygulanmaz; çelişki ic_not'ta iki kaynakla beyan edilmeli. 1947-12-04 anayasa TDV'de teyitli"
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BULGARİSTAN (bulgaristan): \"8 Eylül 1946’da yapılan halk oylamasıyla cumhuriyet ilân edildi.\" (cumhuriyet ilanı; data 1946-09-15). \"4 Aralık 1947’de Yugoslavya ve Sovyetler Birliği anayasaları örnek alınarak...\" yeni anayasa (HC 1947-12-04 teyit). t=1990-11-15 (isim değişikliği) TDV'de yok; yalnız \"kırk beş yıllık komünist iktidarın çökmesini\" ve 1989-1990 çok partili düzen. Not: 8 Eylül halk oylaması günüdür; TDV 'cumhuriyet ilân edildi' diyor. [LAB elemesi: ajan DUZELT dedi → KISMEN] · KARAR (EMRELİC, 4 Kasım): genel maddedeki tablo/geçen cümle 'TDV esas' kuralının dayanağı olmaz → VERİ KALIR, BEKLE kalktı · ic_not: '8 Eylül 1946 halk oylaması; 15 Eylül 1946 Büyük Millî Meclis'in cumhuriyeti ilanı — kuruluş ilan günüdür (veri). TDV halk oylamasıyla ilanı aynı cümlede verir.' — 4 Aralık 1947 anayasası TDV ile teyitli"
  },
  {
   "id": "tuareg-accer",
@@ -129,7 +128,8 @@
   "bolge": "guney-asya",
   "agirlik": 1208,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de madde yok. Aramalar: 'Nayak' (0 sonuç), 'Tancur' (0 sonuç), 'Madurai' (yalnız HİNDİSTAN içerik eşleşmesi, Madurai Pandyaları; Nâyak devletlerinin f/t'si okunmadı)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de madde yok. Aramalar: 'Nayak' (0 sonuç), 'Tancur' (0 sonuç), 'Madurai' (yalnız HİNDİSTAN içerik eşleşmesi, Madurai Pandyaları; Nâyak devletlerinin f/t'si okunmadı). · KARAR (EMRELİC): TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamağa geçer; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "portekiz-hindistani-goa",
@@ -159,7 +159,8 @@
   "bolge": "guney-asya",
   "agirlik": 770,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Bhutan (yalnız BUDİZM). Bhutan maddesi yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Bhutan (yalnız BUDİZM). Bhutan maddesi yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamağa geçer; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "sih-imparatorlugu",
@@ -189,9 +190,7 @@
   "bolge": "guney-asya",
   "agirlik": 721,
   "tdv_madde": "hindistan",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan) tablosu: \"Gucerât Çalukyaları (Gucerât, 974-1238)\" (aynı tabloda Vatapi 556-757, Doğu 630-970, Kelyani 973-1189). Veri 942-1297. [LAB elemesi: ajan KISMEN dedi → GIRISLI]",
-  "bekle": "f 0942 → 0974, t 1297 → 1238 (TDV tablo: 'Gucerât Çalukyaları … 974-1238')",
-  "bekle_neden": "TDV HİNDİSTAN maddesindeki hanedan tablosu yılları (müstakil madde değil, olay türü tanımsız); yaygın: 942 Mularaja"
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan) tablosu: \"Gucerât Çalukyaları (Gucerât, 974-1238)\" (aynı tabloda Vatapi 556-757, Doğu 630-970, Kelyani 973-1189). Veri 942-1297. [LAB elemesi: ajan KISMEN dedi → GIRISLI] · KARAR (EMRELİC, 4 Kasım): genel maddedeki tablo/geçen cümle 'TDV esas' kuralının dayanağı olmaz → VERİ KALIR, BEKLE kalktı · ic_not: 'Hanedan uçları kaynaktan kaynağa değişir; TDV HİNDİSTAN tablosu Gucerât Çalukyaları için 974-1238 verir (veri 942-1297).' — ikinci akademik kaynakla kesinleşecek"
  },
  {
   "id": "kalikut",
@@ -201,7 +200,8 @@
   "bolge": "guney-asya",
   "agirlik": 709,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Zamorin (0 sonuç), Kaliküt (8: cografya, hankah, hindistan, ibn-battuta, selman-reis...). Kalikut/Zamorin maddesi yok; yalnız \"Vasco da Gama 1498'de Kaliküt'e vardı\" (hindistan)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Zamorin (0 sonuç), Kaliküt (8: cografya, hankah, hindistan, ibn-battuta, selman-reis...). Kalikut/Zamorin maddesi yok; yalnız \"Vasco da Gama 1498'de Kaliküt'e vardı\" (hindistan). · KARAR (EMRELİC): TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamağa geçer; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "sikkim-krallik",
@@ -211,9 +211,7 @@
   "bolge": "guney-asya",
   "agirlik": 667,
   "tdv_madde": "hindistan",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan): \"1974’te ilk atom bombasının patlatılması ve aynı yıl içerisinde Sikkim Prensliği’nin bir eyalet olarak ülkeye katılması gibi önemli olaylar\" — TDV katılımı 1974'e koyar; veri 1975-05-16. TDV esastır ama yaygın kaynak 1975; çelişki ic_not'ta iki kaynağıyla beyan edilmeli. f=1642 TDV'de yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI]",
-  "bekle": "t 1975-05-16 → 1974 (TDV HİNDİSTAN: 'aynı yıl içerisinde [1974] Sikkim Prensliği'nin bir eyalet olarak ülkeye katılması')",
-  "bekle_neden": "TDV geçen cümlesi; 1974 'associate state' adımı olabilir, 16 Mayıs 1975 eyalet olarak katılma. İkinci kaynak okunmadan uygulanmaz"
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan): \"1974’te ilk atom bombasının patlatılması ve aynı yıl içerisinde Sikkim Prensliği’nin bir eyalet olarak ülkeye katılması gibi önemli olaylar\" — TDV katılımı 1974'e koyar; veri 1975-05-16. TDV esastır ama yaygın kaynak 1975; çelişki ic_not'ta iki kaynağıyla beyan edilmeli. f=1642 TDV'de yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI] · KARAR (EMRELİC, 4 Kasım): genel maddedeki tablo/geçen cümle 'TDV esas' kuralının dayanağı olmaz → VERİ KALIR, BEKLE kalktı · ic_not: 'TDV'nin 1974'ü ayrı bir olaydır: 35. Anayasa Değişikliği (1974) ile ortak devlet (associate state) statüsü; Hindistan'a eyalet olarak katılış 36. Değişiklik, 16 Mayıs 1975 (veri).' — 35./36. Değişiklik metni ayrıca kaynaklanmalı"
  },
  {
   "id": "manipur",
@@ -223,7 +221,8 @@
   "bolge": "guney-asya",
   "agirlik": 662,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Manipur (3: ahmed-han-seyyid, asam--hindistan, hindistan); müstakil madde yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Manipur (3: ahmed-han-seyyid, asam--hindistan, hindistan); müstakil madde yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamağa geçer; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "kenya",
@@ -293,9 +292,7 @@
   "bolge": "guney-asya",
   "agirlik": 248,
   "tdv_madde": "hindistan",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan) tablosu: \"Hoysalar (Orta ve Güney Dekken, 1110-1327)\" — TDV tablo yıllarını verir (veri 1026-1343). Tablo hanedan siyasi yükselişi/sonu için tarihlendirme; olay türü açıklanmıyor. [LAB elemesi: ajan KISMEN dedi → GIRISLI]",
-  "bekle": "f 1026 → 1110, t 1343 → 1327 (TDV tablo: 'Hoysalar … 1110-1327')",
-  "bekle_neden": "TDV HİNDİSTAN maddesindeki hanedan tablosu yılları (müstakil madde değil, olay türü tanımsız); yaygın: 1026 ilk yazıt, 1343 III. Ballala'nın ölümü"
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan) tablosu: \"Hoysalar (Orta ve Güney Dekken, 1110-1327)\" — TDV tablo yıllarını verir (veri 1026-1343). Tablo hanedan siyasi yükselişi/sonu için tarihlendirme; olay türü açıklanmıyor. [LAB elemesi: ajan KISMEN dedi → GIRISLI] · KARAR (EMRELİC, 4 Kasım): genel maddedeki tablo/geçen cümle 'TDV esas' kuralının dayanağı olmaz → VERİ KALIR, BEKLE kalktı · ic_not: 'Hanedan uçları kaynaktan kaynağa değişir; TDV HİNDİSTAN tablosu 1110-1327 verir (veri 1026-1343).' — ikinci akademik kaynakla kesinleşecek"
  },
  {
   "id": "zengibar-bagimsiz-sultanlik",
@@ -315,8 +312,6 @@
   "bolge": "guney-asya",
   "agirlik": 0,
   "tdv_madde": "hindistan",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan): \"330-540 yılları arasında hüküm süren Gupta İmparatorluğu zamanında eski Hint medeniyeti en yüksek seviyesine ulaştı\" — t=540 teyit; f için TDV 330 verir (veri 320). Ayrı Gupta maddesi okunmadı.",
-  "bekle": "f 0320 → 0330 (TDV HİNDİSTAN: '330-540 yılları arasında hüküm süren Gupta İmparatorluğu')",
-  "bekle_neden": "Geçen cümle, müstakil madde değil; yaygın akademik kronoloji 320 (I. Çandragupta). t 540 TDV ile teyitli. TDV esas kuralı çelişki beyanı ister; ikinci kaynak okunmadan uygulanmaz"
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan): \"330-540 yılları arasında hüküm süren Gupta İmparatorluğu zamanında eski Hint medeniyeti en yüksek seviyesine ulaştı\" — t=540 teyit; f için TDV 330 verir (veri 320). Ayrı Gupta maddesi okunmadı. · KARAR (EMRELİC, 4 Kasım): genel maddedeki tablo/geçen cümle 'TDV esas' kuralının dayanağı olmaz → VERİ KALIR, BEKLE kalktı · ic_not: 'Gupta çağının başlangıcı I. Çandragupta, 319/320 (akademik standart); TDV HİNDİSTAN maddesi 330-540 der (genel madde, geçen cümle).' — t 540 TDV ile teyitli"
  }
 ]

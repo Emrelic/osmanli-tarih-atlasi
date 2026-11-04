@@ -44,13 +44,8 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 
 | künye | şimdi | bekleyen | neden |
 |---|---|---|---|
-| `hoysala` | f 1026-01-01 · t 1343-01-01 | f 1026 → 1110, t 1343 → 1327 (TDV tablo: 'Hoysalar … 1110-1327') | TDV HİNDİSTAN maddesindeki hanedan tablosu yılları (müstakil madde değil, olay türü tanımsız); yaygın: 1026 ilk yazıt, 1343 III. Ballala'nın ölümü |
-| `sikkim-krallik` | f 1642-01-01 · t 1975-05-16 | t 1975-05-16 → 1974 (TDV HİNDİSTAN: 'aynı yıl içerisinde [1974] Sikkim Prensliği'nin bir eyalet olarak ülkeye katılması') | TDV geçen cümlesi; 1974 'associate state' adımı olabilir, 16 Mayıs 1975 eyalet olarak katılma. İkinci kaynak okunmadan uygulanmaz |
 | `tubu-tibesti` | f 1281-01-01 · t 1914-01-01 | t (kalıcı Fransız yeniden işgal günü) — önceki öneri 1914-09-01 GERİ ÇEKİLDİ | CHA VII (Suret-Canale) s.360 dn.40: 'the Tibesti mountains, from which French forces had withdrawn in 1916, were transferred from Niger to Chad' (1929) → 1914-16 TAHRİR ÖLÇÜTÜ'ne göre askerî işgal (isg), Tubu polity'si sürdü; t kalıcı yeniden işgal günüdür, kaynakta yok; 1929 Çad'a devri idarî işlem (EMRELİC kararı) |
 | `orta-afrika-imparatorlugu` | f 1976-12-04 · t 1979-09-20 | f 1976-12-04 → 1977-12-04 ve t 1979-09-20 → 09-21 (TDV) — ikinci akademik kaynak okunmadan UYGULANMAZ | TDV 'ORTA AFRİKA CUMHURİYETİ': '4 Aralık 1977'de kendisini imparator ilân eden Bokassa' + '21 Eylül 1979'da … darbeyle'. Kaynak kuralı TDV'yi esas alır, ama yaygın bilgiye göre 4 Aralık 1976 imparatorluk ilanı (anayasa), 4 Aralık 1977 taç giyme; TDV taç giymeyi ilan saymış olabilir. Çelişki ic_not'ta iki kaynakla beyan edilmeli; ikinci kaynak (Titley, Dark Age, 1997) OKUNMADI. t: darbe 20/21 Eylül gecesi |
-| `bulgaristan-halk` | f 1946-09-15 · t 1990-11-15 | f 1946-09-15 → 1946-09-08 (TDV: '8 Eylül 1946'da yapılan halk oylamasıyla cumhuriyet ilân edildi') | TDV halk oylaması gününü ilan günü sayıyor olabilir; resmî ilan 15 Eylül 1946 (veri). İkinci akademik kaynak okunmadan uygulanmaz; çelişki ic_not'ta iki kaynakla beyan edilmeli. 1947-12-04 anayasa TDV'de teyitli |
-| `gupta` | f 0320-01-01 · t 0540-01-01 | f 0320 → 0330 (TDV HİNDİSTAN: '330-540 yılları arasında hüküm süren Gupta İmparatorluğu') | Geçen cümle, müstakil madde değil; yaygın akademik kronoloji 320 (I. Çandragupta). t 540 TDV ile teyitli. TDV esas kuralı çelişki beyanı ister; ikinci kaynak okunmadan uygulanmaz |
-| `caulukya` | f 0942-01-01 · t 1297-01-01 | f 0942 → 0974, t 1297 → 1238 (TDV tablo: 'Gucerât Çalukyaları … 974-1238') | TDV HİNDİSTAN maddesindeki hanedan tablosu yılları (müstakil madde değil, olay türü tanımsız); yaygın: 942 Mularaja |
 
 ## Yerleşim ölçümleri (KASA kontrol etsin; LAB veriye yazmaz)
 
