@@ -95,6 +95,16 @@ Kararlar:
   - 1923-01-10 Litvanya'nın el koyması: `isg litvanya`.
   - 1924-05-08 Klaipėda Konvansiyonu: imza günü `s: litvanya`, çünkü Litvanya bölgeyi zaten yönetiyordu.
 - **Onaylananlar:** Perpignan, Üstyurt, Rangun, Brunei `v:`, Aleksandrovsk, Sønderborg/Tønder, Mellifont.
+- **LAB SALI cevabı (4e7445e5b):**
+  - **Memel:** gün KAYNAKLI, 1920-02-15. Kaynak VLE «Klaipėdos kraštas», birebir okundu: «1920 02 15 krašto valdymą perėmęs Prancūzijos generolas D. J. Odry».
+    - Mevcut f 1920-02-10'un dayanağı akademik değil.
+    - LAB'ın UYGULA listesine girdi: künye f'si ve künye içi kronoloji maddesi aynı commit'te 02-15'e taşınacak.
+    - Yerleşim dosyalarında 1920-02-10 kırılması yok.
+  - **Kızıl Finlandiya:** yeni künye adayı olarak listeye girdi.
+    - 🔴 Tampere'nin düşüşü (04-06) devletin sonu değil: Halk Delegasyonu Viipuri'ye çekildi, Viipuri 04-29'da düştü. Künyenin t'si kaynakla seçilmeli.
+    - Tampere'nin yerleşim dönemi yine 04-06'da biter.
+  - **Sardunya:** Savoya adayı 1720-09-02'de teslim aldı (Treccani EI «Sardegna», birebir). `sardinya-piyemonte` künyesinin f'si 1720-08-02 kaynaksız görünüyor; 1718-08-02 Londra Antlaşması ile karışmış olabilir.
+    - Sassari önerisinde (P007) de TSV 1720-09-02, veri satırı 1720-02-24 diyordu. Gün teslim günü olmalı: 1720-09-02.
 
 ## LAB SALI cevabı (lab-1104-kunye f2ed94442)
 
