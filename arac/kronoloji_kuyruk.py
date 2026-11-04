@@ -101,6 +101,10 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2S 723-734 (S30) — NAOJ ECO (KASA SALI)
+    "L2-1096": "Takvim: Kan'ei 12/6/21 = 1635-08-03 Gregoryen (NAOJ ECO; Kotobank) — atlasla aynı",
+    "L2-1097": "Takvim: Kan'ei 14/10/25 «頃» = 1637-12-11 Gregoryen (NAOJ ECO; Kotobank) — atlasla aynı, kaynak «yaklaşık» der",
+    "L2-1104": "Takvim: Meireki 3/1/18 = 1657-03-02 Gregoryen (NAOJ ECO; Nipponica 1/18-19) — atlasla aynı; ic_not_takvim eksik → eklenir",
     # L2E 1719-1754 (EMRELİC, Academia Sinica; (JDN+49) mod 60 çapraz) + NAOJ (KASA SALI)
     "L2-2190": "Takvim: Liao Taiping 9/8 己丑 = 1029-09-13 başlangıç (atlasla aynı); Taiping 10/8 丙午 = 1030-09-25 bitiş; Goryeosa Hyeonjong 20/9 戊午 = 1029-10-12 — Goryeo takvimi Song/Liao ile aynı alındı → ic_not beyanı (Academia Sinica)",
     "L2-2191": "Takvim: Hyeonjong 20/12 庚寅 = 1030-01-12 (Academia Sinica; atlasla aynı)",
@@ -193,6 +197,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1100": ("kaynak yenile (tarih KALIR)", "Bemba 1650-01-01 KALIR + «[yaklaşık; erken 17. yy, ~1600-1660]» beyanı: Roberts, Journal of African History 11/2 (1970) s.16 — soy sayımı ~1660, kral listesi ~1600, terminus ante quem 1700 (künye f:1700 ile tutarlı); kaynak alanındaki «çevrimiçi ikincil kaynak» → Roberts 1970; Luba bağı Roberts'ta net değil"),
     "L2-1078": ("tarih düzelt", "Modena başkent 1598-02-01 → 1598-01-28: Cesare d'Este Ferrara'dan Modena'ya yola çıktı (Treccani DBI «Cesare d'Este», Ascari c.24, 1980; Chiappini 1997 aynı gün — çift teyit); 13 Ocak 1598 Faenza kapitülasyonu ve Modena'ya varış (kaynakta yok) ic_not; «eskisinin yarısı büyüklüğünde» DBI'da yalnız nüfus"),
     "L2-2204": ("tarih düzelt", "Zvonimir taç giymesi 1075-10-08 → 1076-10-08 + «[yalnız ay teyitli; gün teyitsiz]»: Hrvatska enciklopedija ve Zekan 2000 (Starohrvatska prosvjeta 27) Ekim 1076 der, gün yok; yıl kayması kesin (EMRELİC)"),
     "L2-2202": ("tarih düzelt", "Lý Thánh Tông ölümü 1072-01-01 → 1072-02-01: Toàn thư Bản kỷ q.3, 熙寧5 (壬子) 1. ay 庚寅 (10. gün) = 1072-02-01 (Academia Sinica; EMRELİC) — Đại Việt takvimi Song'dan ±1 gün sapabilir → ic_not"),
@@ -476,6 +481,15 @@ METIN = [
     ("L2-1081", "Khagemba 1606 (Ahmed, American Journal of Islam and Society, s.126-127) yıl tutar; Müslüman askerler batıdan (Taraf/Sylhet) geldi, prens Sanongba'ya eşlik etti — taht mücadelesi, «doğudan gelen istilâ» ve «Kaçâr üzerinden» değil; cümlede Khagemba adı eksik"),
     ("L2-1077", "Nagazaki 1597-02-05 (Nipponica, Keichō 1/12/19) gün tutar; «çarmıha gerilerek» kaynak cümlede yok → kontrol"),
     ("L2-1071", "[BEKLE — tamamlanma yılı akademik kaynakta yok] Âyîn-i Ekberî 1590: TDV ve Iranica yıl vermez; özetler 1598 (42. cülus yılı) → Blochmann/Jarrett önsözü"),
+    # L2S 723-734 (S30)
+    ("L2-1104", "Meireki yangını: «üç gün süren» → Nipponica 18-19 Ocak (iki gün; Gregoryen 1657-03-02/03)"),
+    ("L2-1096", "Sankin-kōtai 1635: «ailelerini rehin bırakma» 1635 maddesinde okunmadı; data/kronoloji_cok_ince_gd_asya.js:25 aynı olay 1635-01-01 → yinelenen madde, gün 1635-08-03"),
+    ("L2-1097", "Shimabara: kronoloji_cok_ince_gd_asya.js:31 1638-01-01 bastırılma — ayrı olay, yinelenme değil; başlangıç 1637-12-11"),
+    ("L2-1099", "[BEKLE — gün belediye sayfasında] Dejima 1641: yıl dört akademik sözlükte; 25 Haziran yalnız Nagazaki belediyesi; NDL taşınma emri Nisan/Mayıs 1641 → emir ve fiilî taşınma ayrı gün"),
+    ("L2-1103", "Kandy 1656-01-01: bu günde olay yok — ittifak 23 Mayıs 1638 (devletler.js:18143'te var), Colombo 1656, Portekiz'in çıkarılışı Yafna 24 Haziran 1658 (Codrington 1926, tek dayanak değil); Rajasinha Colombo'yu alamadı, 1656'da Hollanda ile koptu → olay yeniden yazılır"),
+    ("L2-1094", "[BEKLE — ikincil] Mura Nuove 1632 hiçbir kaynakta yok; ikinciller 1633 / 1639 → aday 1633"),
+    ("L2-1105", "Cenova getto 1660 kapatma (Encyclopaedia Judaica); geri kabul / Capitoli 1658 (Zappia, Storia Urbana 167, 2020) → madde iki olguyu birleştiriyor, ayrılır"),
+    ("L2-1095", "[BEKLE — kaynak Sassuolo sarayı] Modena sarayı: okunan katalog kartı Sassuolo'ya ait; «Bernini ve Borromini görüş verdi» okunmadı; taraflar:[ferrara] ile yer_id Modena uyumsuz"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
