@@ -15,11 +15,6 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
-    # L2S 223-247 (S10): ajanın kendi ganzhi hesabıyla tarih düzelt adayları — Academia Sinica teyidine kadar
-    "L2-583": "[çeviri doğrulanmadı] Yanshi 618-09-24 → 10-06 adayı (9. ay 甲寅, ZZTJ 186) — Academia Sinica teyidi bekliyor",
-    "L2-584": "[çeviri doğrulanmadı] Xue Renguo teslimi 618-11-22 → 11-30 adayı (11. ay 己酉, ZZTJ 186; ad 薛仁果/仁杲) — Academia Sinica teyidi bekliyor",
-    "L2-599": "[çeviri doğrulanmadı] Jiankun dudufu 648-01-01 → 648-03-06 adayı (2. ay 戊午, ZZTJ 198; yıl üç kaynakta) — Academia Sinica teyidi bekliyor",
-    "L2-596": "Jiankun dudufu atlas 646: ZZTJ 198, Jiu Tang 3, Xin Tang 217 xia 648 der; Jiu Tang 195 yalnız anlatı sırası → L2-599 ile birleşir (yinelenen madde), Academia Sinica sonrası karar",
     # L2E 273-297 (EMRELİC @7fc83e4): ganzhi günleri Academia Sinica teyidine kadar BEKLE
     "L2-638": "[çeviri doğrulanmadı] ganzhi günü (908 / 913 / 915 / 918 Goryeo / 923) — Academia Sinica teyidi bekliyor (EMRELİC)",
     # L2S 173-197 (S8): ajanın kendi ganzhi hesabı, gün taşıyan iki madde — Academia Sinica teyidine kadar
@@ -42,6 +37,15 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2S 223-247 (S10) — EMRELİC Academia Sinica
+    "L2-583": "Takvim: Wude 1/9/12 甲寅 = 618-10-06 (Academia Sinica; atlas 09-24 8. aya düşer) → TARIH DÜZELT",
+    "L2-584": "Takvim: Wude 1/11/8 己酉 = 618-11-30 (Academia Sinica; atlas 11-22 10. aya düşer) → TARIH DÜZELT",
+    "L2-599": "Takvim: Zhenguan 22/2/7 戊午 = 648-03-06 (Academia Sinica) → TARIH DÜZELT",
+    "L2-581": "Takvim: Yining 1/11 丙辰 = 617-12-12; 癸亥 = 12-19 (Academia Sinica)",
+    "L2-582": "Takvim: Wude 1/5/20 甲子 = 618-06-18 (Academia Sinica)",
+    "L2-600": "Takvim: Zhenguan 22 閏12 丁丑 = 649-01-19 (Academia Sinica; Zhenguan 23 değil)",
+    "L2-602": "Takvim: Zhenguan 22 閏12 丁丑 = 649-01-19 (Academia Sinica; Zhenguan 23 değil)",
+    "L2-603": "Takvim: Xianqing 5/7/18 = 660-08-29 (Academia Sinica; 08-28 17. gündür)",
     # L2E 273-297 + S8 (EMRELİC, Academia Sinica; EŞLEŞİR)
     "L2-645": "Takvim: Goryeo Taejo 1/6 乙卯 = 918-07-24, 丙辰 = 07-25 cülus (Zhenming 4 takvimi; Academia Sinica)",
     "L2-652": "Takvim: Tongguang 1/4 己巳 = 923-05-13 (Academia Sinica)",
@@ -127,12 +131,13 @@ METIN = [
     ("L2-546", "[BEKLE — tek dayanak Treccani] Neustria 511: Treccani «Merovingi» üç krallığın doğuşunu 6.-7. yy dönüşüne koyar; 511 bölüşümü Neustria adı taşımaz"),
     ("L2-543", "Liang kuruluşu 502-04-20: gün doğru (丙辰, Academia Sinica) ama yıl adı Nan Qi Zhongxing 2, 3. ay — Liang Tianjian değil (Tianjian 1 bu günden sonra) → metindeki takvim ifadesi düzeltilir (EMRELİC)"),
     # L2S 223-247 (S10)
-    ("L2-581", "Daxing alınışı 丙辰 617-12-12 (atlas günü); başlıktaki Yang You cülusu 癸亥 = 617-12-19 → ikisi ayrılır ya da cülus ic_not'a [çeviri doğrulanmadı]"),
+    ("L2-581", "Daxing alınışı 丙辰 617-12-12 (atlas günü); başlıktaki Yang You cülusu 癸亥 = 617-12-19 (Academia Sinica) → ikisi ayrılır ya da cülus ic_not'a"),
+    ("L2-596", "Jiankun dudufu atlas 646: yinelenen madde — kuruluş 648-03-06 (L2-599; ZZTJ 198, Jiu Tang 3, Xin Tang 217 xia) → 646 kaydı L2-599 ile birleşir"),
     ("L2-590", "[BEKLE — tek dayanak Vikipedi] Dubu Kağan (Ashina She'er): 634 akademik kaynakta yok; Jiu Tang 109 «yenildi, Tang'a sığındı» (635) — «ortadan kaldırıldı» değil"),
     ("L2-593", "Domnall Brecc 642 Strathcarron (Annals of Ulster): «altın çağ bitti, Northumbria'ya bağımlı» yorumu kayıtta yok → yorum çıkarılır"),
     ("L2-594", "[BEKLE — ay çelişkisi] Yanqi yıkılışı: Jiu Tang 3 10. ay 甲寅 sonrası, ZZTJ 197 9. ay; atlas 11-05 (10. ay başı) iki kaynakta da olay günü değil"),
-    ("L2-600", "Kuça fethi: ZZTJ 199 閏月丁丑 = 649-01-19 gün veriyor → ic_not «fetih günü yok» kaldırılır, gün hassasiyeti [çeviri doğrulanmadı]"),
-    ("L2-602", "Kuça fethi: ZZTJ 199 閏月丁丑 = 649-01-19 gün veriyor → ic_not «fetih günü yok» kaldırılır, gün hassasiyeti [çeviri doğrulanmadı]"),
+    ("L2-600", "Kuça fethi: ZZTJ 199 閏月丁丑 = Zhenguan 22 閏12. ay = 649-01-19 (Academia Sinica) → ic_not «fetih günü yok» kaldırılır, gün hassasiyetine çıkar; takvim ifadesi «Zhenguan 22 閏12» olur"),
+    ("L2-602", "Kuça fethi: ZZTJ 199 閏月丁丑 = Zhenguan 22 閏12. ay = 649-01-19 (Academia Sinica) → ic_not «fetih günü yok» kaldırılır, gün hassasiyetine çıkar; takvim ifadesi «Zhenguan 22 閏12» olur"),
     ("L2-601", "[BEKLE — kuruluş yılı] Dört Garnizon 649-01-19 Kuça fethinin günü, garnizon kuruluşu değil; ZZTJ 200 Anxi'nin Kuça'ya taşınması 658 癸未 → olay adı ya da tarih"),
     ("L2-605", "Dört Garnizon bileşimi: ZZTJ 龜茲/于闐/焉耆/疏勒 (Suyab yok), Jiu Tang 198 Suyab → çelişki ic_not'a iki kaynağıyla"),
     # L2E 470-494 (EMRELİC)
