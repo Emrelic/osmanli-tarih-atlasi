@@ -350,5 +350,16 @@
   "islem": "Napoli bölgesi yerleşimleri 1860-11-07 → 1861-03-16 s: sardinya-piyemonte (Vittorio Emanuele'nin devralması, Treccani), 1861-03-17'den italya-kralligi. LAB ölçümü: sardinya-piyemonte künyesi 1720-08-02 → 1861-03-17 KAPSIYOR (devletler.js:2555). DİKKAT: d:'sardinya' YAZILMASIN — 'sardinya' künye id'si değil, sardinya-piyemonte'nin harita: anahtarı (D-ANAHTAR.md: 30 dönem bu hatada); d:'sardinya-piyemonte' yaz (renk: D-ANAHTAR kararına bağlı). napoli künyesi t 1861-02-13 (Gaeta) — Gaeta ve çevresi 1861-02-13'e dek napoli. YAN BULGU: sardinya-aragon t 1720-08-24 > sardinya-piyemonte f 1720-08-02 → 22 GÜN KÜNYE ÇAKIŞMASI (ayrı madde, ölçüldü; hangi uç doğru kaynakla — Londra/Lahey 1720 devri).",
   "dayanak": "Treccani (LAB PAZAR); LAB ölçümü devletler.js",
   "onay": "EMRELİC 6 Kasım gece-34"
+ },
+ {
+  "d": "memel-bolgesi",
+  "tur": "KUNYE",
+  "karar": "TARIH_DUZELT",
+  "guc": "GÜÇLÜ",
+  "kunye": "memel-bolgesi f 1920-02-10 → 1920-02-15",
+  "gun": "1920-02-15",
+  "islem": "devletler.js memel-bolgesi f → 1920-02-15 (Fransız generali Odry bölge idaresini devraldı — TEK ÖLÇÜ teslim). Mevcut f 1920-02-10'un dayanağı lithuanianphilately.com + '[g?] doğrulanmadı' notu (atlas kaydı, akademik değil). ic_not_f: 'Versay md. 99; Büyükelçiler Konferansı 1920-01-25 Fransa'ya temsil yetkisi; 1920-02-17 Odry Direktorya'yı tanıdı'. Künye içi kronoloji maddesi t:'1920-02-10' (kurulus) AYNI COMMIT'te 1920-02-15'e taşınır, kaynağı VLE ile değiştirilir. Klaipėda vb. yerleşimlerde 1920-02-10 kırılması varsa → 02-15 (02-10 → 02-14 s: almanya).",
+  "dayanak": "Visuotinė lietuvių enciklopedija 'Klaipėdos kraštas' (vle.lt/straipsnis/klaipedos-krastas/, LAB açtı 6 Kasım): «1920 02 15 krašto valdymą perėmęs Prancūzijos generolas D. J. Odry 02 17 įteisino vokiečių įkurtą 7 narių Darbo komitetą»",
+  "onay": "EMRELİC 6 Kasım gece-35 (TEK ÖLÇÜ 02-15; LAB kaynakla teyit)"
  }
 ]

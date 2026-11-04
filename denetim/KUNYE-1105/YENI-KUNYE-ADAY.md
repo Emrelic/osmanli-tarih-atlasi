@@ -5,7 +5,7 @@ LAB SALI · `lab-1104-kunye` · 5-6 Kasım 2026 · **ÖNERİ — veriye dokunulm
 **Boyama şartı (ölçüldü, `uret_petek.py:1140`):** motor `d:` BOYALAR'da yoksa künyenin `harita:` anahtarına düşer. Yeni künye **mevcut bir boya anahtarıyla** (`harita:'ingiltere'`, `harita:'abd'` (6 künye) … — emsal: harita:'ingiltere' 10 künye) açılırsa `renkler.py`ye DOKUNULMAZ, motor tuzu değişmez; veri olağan koşuda yansır. **Kendi rengi** istenirse BOYALAR'a girmeli → renkler.py motor tuzu → tam yeniden inşa (7-8 saat, HAVVA). Karar sırasında her aday için hangisi olduğu seçilir.
 **Karar istenen:** her aday için ① künye açılsın mı (yoksa beyanlı boşluk / mevcut künyeye bağlama) ② kaynak turu (uçların günü) ③ BOYALAR rengi.
 
-Toplam: **17 aday**
+Toplam: **18 aday**
 
 | # | aday | öneri | dönemler | güç | not |
 |---|---|---|---|---|---|
@@ -26,3 +26,4 @@ Toplam: **17 aday**
 | 15 | `nieuwe-republiek` | Nieuwe Republiek (Vryheid) 1884-08 → 1888-07 (Transvaal'a katılış). Künye YOK | Vryheid dönemleri | ZAYIF |  |
 | 16 | `kuba-abd-askeri-hukumeti` | Küba ABD Askerî Hükûmeti 1899-01-01 (Havana teslimi) → 1902-05-19 (kuba-cumhuriyeti f 1902-05-20, EMRELİC). harita:'abd' ile açılırsa renkler.py değişmez (6 künye emsal) | Küba yerleşimleri 1899-01-01 → 1902-05-19 (o zamana dek s: abd + beyan) | ORTA | Uçlar karara bağlandı. |
 | 17 | `becuanaland-kraliyet-kolonisi` | YENİ KÜNYE ADAYI (EMSALLİ): Britanya Becuanaland Kraliyet Kolonisi 1885-09-30 → 1895-11-16 (Kap'a katılış, kaynakla). EMSAL ölçüldü: harita:'ingiltere' künyesi 10 (ingiliz-nijerya, ingiliz-kenya-kolonisi, ingiliz-altin-kiyisi, ingiliz-siyera-leon 'Koloni ve Protektora' …) — İngiliz Afrika kolonileri AYRI künye + harita:'ingiltere'. Protektoraya (ingiliz-becuanaland) bağlanmaz (EMRELİC: ayrı idare). harita:'ingiltere' ile renkler.py DEĞİŞMEZ (motor d: BOYALAR'da yoksa harita:'ya düşer) | Vryburg, Mafeking 1885-09-30 → 1895-11-16; sonrası Kap Kolonisi künyesi (ölçülmeli) | ORTA | Stellaland ardılı. |
+| 18 | `kizil-finlandiya` | Finlandiya Sosyalist İşçi Cumhuriyeti (Suomen sosialistinen työväentasavalta, Kızıl Finlandiya) 1918-01-28 → ?. DİKKAT: Tampere'nin düşüşü (1918-04-06) polity sonu DEĞİL — Halk Delegasyonu Viipuri'ye çekildi; Viipuri 1918-04-29'da düştü, son Kızıl bölgeler Mayıs başı (Kymenlaakso) → t kaynakla (Viipuri 04-29 aday). Ölçüm: finlandiya (1917-12-06 →) VAR; Kızıl künye YOK. harita: mevcut bir anahtarla açılırsa renkler.py değişmez | Helsinki, Tampere, Turku, Viipuri vb. 1918-01-28 → düşüş günleri (şehir şehir TEK ÖLÇÜ) | ZAYIF | Helsinki Alman çıkarmasıyla 1918-04-13. |
