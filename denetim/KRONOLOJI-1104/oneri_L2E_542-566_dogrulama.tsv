@@ -1,0 +1,12 @@
+no	dosya_satir	tarih_atlas	kaynak	url	okunan_cumle	hassasiyet	uyum	sonuc
+L2-922	data/devletler.js	2002-04-13	BM RIAA c.XXV, Eritre-Etiyopya Sınır Komisyonu kararı (EMRELİC okuması)		karar 13 Nisan 2002	gun	evet	DOGRULANDI
+L2-921	data/devletler.js	2000-10-07	- (EMRELİC okuması)				akademik kaynak yok	BULUNAMADI
+L2-916	data/devletler.js	1997-01-01	- (EMRELİC okuması)				akademik kaynak yok	BULUNAMADI
+L2-902	data/devletler.js	1989-02-28	- (EMRELİC okuması)				akademik kaynak yok	BULUNAMADI
+L2-905	data/devletler.js	1991-01-01	(ipucu) (EMRELİC okuması)		darbe 29-30 Eylül 1991	gun	İPUCU: atlas 1991-01-01; FARKLI	KAYNAK_UYGUN_DEGIL
+L2-906	data/devletler.js	1991-01-01	(ipucu) (EMRELİC okuması)		kara harekâtı 24 Şubat, kurtuluş 27 Şubat 1991	gun	İPUCU: atlas 1991-01-01; FARKLI	KAYNAK_UYGUN_DEGIL
+L2-900	data/devletler.js	1987-10-06	(ipucu) (EMRELİC okuması)		6 ya da 7 Ekim 1987	gun	İPUCU: KISMEN	KAYNAK_UYGUN_DEGIL
+L2-914	data/devletler.js	1994-03-13	(ipucu) (EMRELİC okuması)		11, 12 ya da 13 Mart 1994	gun	İPUCU: KISMEN	KAYNAK_UYGUN_DEGIL
+L2-918	data/devletler.js	1997-10-15	(ipucu) (EMRELİC okuması)		14-16 Ekim 1997	gun	İPUCU: KISMEN	KAYNAK_UYGUN_DEGIL
+L2-917	data/devletler.js	1997-10-13	(ipucu) (EMRELİC okuması)		13 ya da 31 Ekim 1997	gun	İPUCU: KISMEN	KAYNAK_UYGUN_DEGIL
+L2-909	data/devletler.js	1992-11-21	(ipucu) (EMRELİC okuması)		Kaysone 21 Kasım'da öldü, Nouhak 25 Kasım'da geldi	gun	İPUCU: KISMEN	KAYNAK_UYGUN_DEGIL
