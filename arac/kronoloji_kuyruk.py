@@ -36,6 +36,8 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 627-638 (S22)
+    "L2-1002": "Câm Nizâmeddin (Nindo) cülusu 1461-01-01 → 1461-10-15 adayı: Digby, JRAS 104/2 (1972) dn.27 «accepted date … a.h. 866» (hicrî ∩ 1461 = 10-15); Haig CHI III «succeeded in 1439» ile ÇELİŞKİ; TDV «Sind»'de cülus yok → üçüncü kaynak + öncül/ardıl çakışma kontrolü (ölüm 1508)",
     # L2E 1439-1450 (EMRELİC): gün taşıyan ganzhi satırları Academia Sinica teyidine kadar
     "L2-1889": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
     "L2-1890": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
@@ -146,6 +148,8 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1010": ("tarih düzelt", "Cenova matbaası 1471-06-01 → 1471-02-20: noter senediyle ortaklık (Lamberto di Delft, Antonio di Anversa + üç hukukçu) — Staglieno, «Sui primordi dell'arte della stampa in Genova», Atti SLSP IX/III (19. yy belge neşri); modern kaynakla teyit önerilir → ic_not"),
+    "L2-998": ("tarih düzelt", "Antonio da Noli Yeşilburun 1456 → 1460 (yıl): DBI «Antonio da Noli» (Pistarino 1961) — Noli 1460'ta Portekiz'e geldi, adalar «sulla fine del 1460» (olasılık beyanlı), kraliyet beratı 1462-09-19 → ic_not; «adaların ilk valisi» DBI'da yalnız Santiago kaptanlığı; Alvise da Mosto adaları önce görmüş olabilir → metin"),
     # L2H 1271-1342 (HAVVA) — antik kronoloji konvansiyonu (CLAUDE.md: Mısır Shaw 2000, Ur III Frayne RIME, Hitit Bryce 2005; MÖ n = -(n-1))
     "L2-1752": ("kaynak yenile (tarih KALIR)", "III. Ramses: atlas -1183 = MÖ 1184 = Shaw (ed.), Oxford History of Ancient Egypt 2000 (1184-1153) → KALIR; HDM 1185 ve Potts 1184 konvansiyon farkı ic_not'a (HAVVA önerisi reddedildi: konvansiyon Shaw)"),
     "L2-1753": ("kaynak yenile (tarih KALIR)", "Setnakht: atlas -1185 = MÖ 1186 = Shaw 2000 (1186-1184) → KALIR; kaynaktaki MÖ 1187 konvansiyon farkı ic_not'a (HAVVA önerisi reddedildi)"),
@@ -345,6 +349,21 @@ METIN = [
     ("L2-1893", "Batı Wei: kaynak alanı Zhou shu 3 Kuzey Zhou'nun kuruluşunu anlatır, yanlış → Bei shi c.5 ile değişir; Xiaowu ölümü/tahta çıkış sırası düzeltilir"),
     ("L2-1899", "Van Xuan 544: atlasın kaynağı (Sui shu 53, 602) yanlış olay → Liang shu c.3: Li Bi 544 (Datong 10, 1. ay) unvanı aldı"),
     ("L2-1897", "Champa 539: Liang shu 54 Rudravarman'ı adıyla anmaz → ad yorum olarak işaretlenir ya da kaynaklanır"),
+    # L2S 627-638 (S22)
+    ("L2-996", "Behlûl Lûdî 1451-04-19 (Haig CHI III) gün tutar; «Seyyid sultanını tahttan indirip» → Âlem Şah'ın çekildiği yazılır (Haig, TDV)"),
+    ("L2-997", "Borso 1452-05-18 (Pallotti, Archivio di Stato di Modena): imparator 19 Mart Roma'da taçlandı, dönüşte 10 Mayıs Ferrara'ya girdi → «Roma'ya taç giymeye giderken Ferrara'da ağırlandı» yanlış"),
+    ("L2-999", "[BEKLE — iddialar kaynaksız] Cenova haritası 1457: «Afrika'nın güneyden dolaşılabileceğini gösterdi» ve «Ptolemaios'u terk eden ilk» Museo Galileo kaydında yok"),
+    ("L2-1001", "[BEKLE — okunmadı] Lê Thánh Tông 1460: «on üç idarî bölge» ve «Champa pahasına» okunan kaynakta yok"),
+    ("L2-1004", "Ivan Crnojević 1465 (Emecen, Osmanlı Araştırmaları LVII, 2021): «ağabeyi Stefan» akademik kaynakta yok, ikincil kaynaklar Stefan'ı babası gösterir → «ağabeyi» çıkarılır (Fine, Mijušković teyidi beklenir)"),
+    ("L2-1007", "Schifanoia 1470: DBI (Armstrong, Del Cossa) yürütmeyi 1466-1469 verir; Cossa'nın 25.03.1470 mektubu Mart-Nisan-Mayıs duvarını «appena portato a termine» der → 1470 yalnız tamamlanma ucu, aralık notu"),
+    # L2S 639-650 (S23)
+    ("L2-1008", "Cenova üniversitesi 1471: bula yalnız loncalara derece verme yetkisi verir, «üniversite kuruluşu» efsane sayılır; gerçek üniversite 1670 Cizvit koleji → başlık daraltılır"),
+    ("L2-1011", "[BEKLE — Siena yılbaşı ölçülmedi] Monte dei Paschi: Treccani 4 Mart 1472, kurumsal ve yerel kaynaklar 27 Şubat; Siena yılı 25 Mart başlar → stil (ab incarnatione) kontrolü"),
+    ("L2-1013", "[TEK KURAL — künye] Sunda 1482: Carita Parahyangan saltanat sürelerinin 1579'dan geriye sayımı (yeniden kurgu; Sutaarga ile 8 yıl kayar); Gunawan & Griffiths (Archipel 101, 2021) Pakuan'ın düşüşünü 1579 verir — devletler.js sunda-pajajaran t=1527-06-22 → künye sınıflaması (KISALT / GENİŞLET)"),
+    ("L2-1015", "Bikaner 1488: kaynak alanındaki Cambridge History of India IV olayı kapsamaz → Sehgal (Rajasthan District Gazetteer) ve Powlett 1874 (Samvat 1545) ile değişir"),
+    ("L2-1016", "Ginkaku-ji 1489: Kannon-den üst yapısının kurulduğu yıl; inşaat 1482 başladı, Yoshimasa 1490 tamamlanmadan öldü (Hikihara, Kyoto-fu Maizō Bunkazai Ronshū 6) → «inşa ettirdi» süre ifadesine çekilir"),
+    ("L2-1017", "Cenova 1492 Sefarad sürgünleri: atlas «birkaç gün bekletildi, kalıcı izin yok»; Zappia (Studi Emigrazione 2025) yanaşma ve oturma izni verildiğini, JVL 3 günlük inme izni ve 31 Ocak 1493 geri çekilişi yazar → metin düzeltilir"),
+    ("L2-1019", "Ferrara'ya kabul: 20 Kasım 1492 kaçakların pasaportu (Jewish Encyclopedia), resmî dük kararı 1 Şubat 1493 (Modena arşiv kataloğu) → iki gün ayrılır"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
@@ -447,8 +466,11 @@ def main():
             for r in csv.DictReader(f, delimiter="\t"):
                 damga[on + r["no"]] = (r.get("damga", ""), r.get("simdiki_kaynak", ""))
     satir, sayim, atla = [], collections.Counter(), 0
+    haric = [h for h in os.environ.get("KUYRUK_HARIC", "").split(",") if h]  # koşan ajanların yarım dosyaları
     for yol in sorted(glob.glob(os.path.join(D, "oneri_*_dogrulama.tsv"))):
         parti = os.path.basename(yol).replace("oneri_", "").replace("_dogrulama.tsv", "")
+        if parti in haric:
+            continue
         with open(yol, encoding="utf-8") as f:
             for r in csv.DictReader(f, delimiter="\t"):
                 s = (r.get("sonuc") or "").strip()

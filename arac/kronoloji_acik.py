@@ -39,7 +39,9 @@ def basliklar():
 def main():
     B = basliklar()
     satir = []
-    yollar = sorted(glob.glob(os.path.join(D, "oneri_*_dogrulama.tsv")))
+    haric = [h for h in os.environ.get("KUYRUK_HARIC", "").split(",") if h]  # koşan ajanların yarım dosyaları
+    yollar = [y for y in sorted(glob.glob(os.path.join(D, "oneri_*_dogrulama.tsv")))
+              if os.path.basename(y).replace("oneri_", "").replace("_dogrulama.tsv", "") not in haric]
     # YENI* partileri (yeniden arama) önceki partideki aynı numaralı satırın yerine geçer
     yenilenen = set()
     for yol in yollar:
