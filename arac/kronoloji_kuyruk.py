@@ -52,6 +52,11 @@ ISARETLE = [
 ]
 # Metin düzeltmeleri (tarih kalır; koordinatör kararı, EMRELİC 1 KASIM, 4 Kasım 2026).
 METIN = [
+    ("L2-1479", "Avignon 1790-08-27: Archives parlementaires t.XVIII s.369-370 — Meclis ilhakı REDDETMEDİ, krala havale etti ve çevreye birlik yerleştirilmesini istedi → «reddetti» düzeltilir"),
+    ("L2-1425", "Kandiye kuşatması: metin «Mayıs 1648», tarih 1648-01-01; TDV «Kandiye»: ~23 yıllık abluka/kuşatma, teslim 6 Eylül 1669; Mayıs 1648 hiçbir akademik kaynakta yok → «Mayıs» ifadesi kaldırılır"),
+    ("L2-1547", "Şamil: 8 Mart 1840 TDV'de yok; TDV imamlık 19 Eylül 1834, İçkeri yönetimi Ahulgoh (4.9.1839) sonrası (gün yok), İşkarti-İrpili Temmuz 1840 → gün yalnız Vikipedi, madde ifadesi/günü TDV'ye uydurulur"),
+    ("L2-1609", "[BEKLE — karar] Kamerun 1884-08-17 hiçbir kaynakta yok; GHDI bayrak çekme 14 Temmuz 1884, antlaşma 12 Temmuz (Duala satırı L2-410 ile tutarlı) → «resmî başlangıç» hangisi, koordinatör"),
+    ("L2-1408", "[BEKLE — tek, akademik olmayan kaynak] Yafna: «II. Cankili Goa'ya götürüldü» kaynaklarda yok (Vikipedi: asıldı) → Abeysinghe okununca"),
     ("L2-465", "Derviş hareketi: madde «yenildi» ile «direniş sona erdi»yi tek güne (1920-01-01) sıkıştırıyor; TDV: 1920 başı İngiliz saldırısı, direnişin sonu Seyyid Muhammed'in ölümü 21 Aralık 1920 → iki olay ayrılır (ilgili TARIH_DUZELT satırı)"),
     ("L2-470", "Enver Paşa: TDV'ye göre Ekim 1921'de Buhara'ya gitti, Basmacıları örgütlemek için Şubat 1922 sonunda Duşanbe kışlaklarına; «1921 sonunda başına geçti» TDV'de yok → ifade TDV'ye uydurulur"),
     ("L2-988", "KÜNYE düzeltmesi: «Noel Malcolm, A Concise History of Bosnia, CUP» birbirine uymuyor — Malcolm'un kitabı «Bosnia: A Short History» (Macmillan/NYU); «Concise History of Bosnia» C. Carmichael'in (CUP)"),
