@@ -36,6 +36,9 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 711-722 (S29)
+    "L2-1093": "Strozzi'nin Venedik'e gidişi 1630-01-02 → «en geç 1633-07-20» adayı: DBI Strozzi (Sanguineti 2019) bu gün Venedik Signoria'ya salvacondotto dilekçesidir, kaçış günü değil; 1630'da yalnız Lateran kanonlarına geçiş girişimi, 1631-32 Kapuçin'e dönüş → kaçış günü kaynakta yok; «cumhuriyetle arası bozulunca» yanlış (çatışma Kapuçin düzeni ve başpiskoposluk curia'sıyla)",
+    "L2-1083": "Rubens'in Cenova'ya gelişi 1607 → 1600 (yıl; Ekim, Floransa'dan sonra) ya da 1606 portre gezisi: Treccani «Rubens, Peter Paul» — 1607 hiçbir Treccani maddesinde yok; başlık «gelişi» ile metin (portreler) çelişiyor → hangi olay karar",
     # L2S 699-710 (S28)
     "L2-1072": "Cenova serbest liman 1590-06-01 → 1590-08 adayı: Gullino (Mediterranea XVII, 2020) «già nell'agosto del 1590» (en geç Ağustos); Giacchero kaydında 11 agosto 1590 (sayfa 403, teyitsiz); kaynak geçici, yalnız yiyecek muafiyeti der → gün ve kapsam netleşmeden uygulanmaz",
     "L2-1075": "Concerto delle donne 1594 → 1582-02 [ay] adayı: DBI «Peperara, Laura» (c.82, 2015) çekirdek Şubat 1582 Livia d'Arco ile, Molza 1583-89, dağılma 1597-98; 1594'e dayanak yok → Newcomb 1980 okunmadan karar yok",
@@ -490,6 +493,15 @@ METIN = [
     ("L2-1094", "[BEKLE — ikincil] Mura Nuove 1632 hiçbir kaynakta yok; ikinciller 1633 / 1639 → aday 1633"),
     ("L2-1105", "Cenova getto 1660 kapatma (Encyclopaedia Judaica); geri kabul / Capitoli 1658 (Zappia, Storia Urbana 167, 2020) → madde iki olguyu birleştiriyor, ayrılır"),
     ("L2-1095", "[BEKLE — kaynak Sassuolo sarayı] Modena sarayı: okunan katalog kartı Sassuolo'ya ait; «Bernini ve Borromini görüş verdi» okunmadı; taraflar:[ferrara] ile yer_id Modena uyumsuz"),
+    # L2S 711-722 (S29)
+    ("L2-1085", "Japonya Hristiyan yasağı 1614-01-28 = Keichō 18/12/19 (Yamakawa, Kotobank); Sūden'in «Bateren tsuihō-bun» metni 12/23 = 1614-02-01 yayımlandı (Nipponika) — atlas içeriği (tam yasak, sürgün) ikinci metne yakın → iki gün ic_not; hukuki fail Hidetada mührü, taslak Ieyasu emriyle Sūden"),
+    ("L2-1086", "Senge Namgyal 1616 (Petech 1977): 1616 sonrası interregnum, Sengge küçük, annesi Gyal Khatun naip → ic_not"),
+    ("L2-1087", "Batavia 1619-05-30 Jacatra'nın yıkılışıdır; yeni şehir 1620-21 (NDB); «Batavia» adı 4 Mart 1621 okunmadı; data/kronoloji_hollanda.js:148 aynı olay → yinelenen madde; gün NDB'de yok («im Mai 1619»), Ricklefs okunmadı"),
+    ("L2-1088", "Van Dyck Cenova'ya varış 1621-11-20 (Enciclopedia Italiana); «altı yıl Cenova'da yaşadı» → asıl ikamet 1623 sonu-1627, arada seyahatler; «Doria, Lomellini» portreleri okunmadı (Treccani: Brignole Sale, Adorno, Durazzo, Spinola)"),
+    ("L2-1089", "Verneuerte Landesordnung 1627-05-10 (Bohemia 22, 1981; Stände ayrıcalık onayı 1627-05-29): kalıtsal taç, dil eşitliği ve «1918'e kadar yürürlük» okunan makalede yok → «1918» şüpheli, kaynaklanmadan çıkarılır"),
+    ("L2-1091", "İtimâdüddevle Türbesi 1628 (CHI IV «finished 1628»): «on yıl sonra başlayacak Tâc Mahal» → Tâc 1632 başladı (CHI IV), yani 4 yıl"),
+    ("L2-1092", "Dekken kıtlığı 1630 (CHI IV): «Pieter van den Broecke» adı kaynakta okunmadı → kaynaklanır ya da çıkarılır"),
+    ("L2-1090", "Po Rome 1627 (Noseworthy 2013, Asian Highlands Perspectives 28): «Champa'nın son güçlü dönemi» yorumdur, kaynakta yok → yumuşatılır"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
