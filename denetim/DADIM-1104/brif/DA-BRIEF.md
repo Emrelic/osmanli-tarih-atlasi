@@ -139,8 +139,8 @@ Aşağıdaki TEK KURAL bu ölçütün uygulamasıdır, onun yerine geçmez. Öl�
   - **İsa Çelebi / Bursa kuşağı:** 1402-07-28 → 1402-11-01 `d: osmanli` + `isg timurlu`. `s: isa-celebi` 1402-11-01'den ([yalnız ay], TDV "Kasım 1402"). Künye `fetret-isa` f → 1402-11-01 genişletilecek (LAB). 1403 Ocak tanınması ic_not'a. Bu satırlarda 1403-01-01 ya da 1402-07-28 önerisi kararla çelişir.
   - **Batı Trakya (Ferecik, Sofulu…):**
     - 1919-10 → 1919-11-27: `d: bulgaristan` + `isg itilaf`.
-    - 1919-11-27 → 1920-05-14: `isg itilaf` + BEYANLI YAKLAŞIKLIK ("Thrace Interalliée" künye adayı LAB'a).
-    - 1920-05-14 → 1920-08-10: `isg yunanistan`.
+    - 1919-11-27 → 1920-05-22: `isg itilaf` + BEYANLI YAKLAŞIKLIK ("Thrace Interalliée" künye adayı LAB'a).
+    - 1920-05-22 (TDV «Batı Trakya») → 1920-08-10: `isg yunanistan`. 1920-05-14 (Fransız idaresinin devri) ic_not'a.
     - `s: yunanistan` 1920-08-10'dan (Trakya Antlaşması). Lozan ic_not'a.
   - **Sırbistan muhtariyeti:** TDV 1830-10-17 esas; 1815-17 fiilî muhtariyet ic_not'a.
   - **Teselya 1359-1393:** Sırp-Yunan hanedanı künye adayı LAB'a; o zamana dek abi merkez + beyan.
