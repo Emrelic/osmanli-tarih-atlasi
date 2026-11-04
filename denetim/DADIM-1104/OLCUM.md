@@ -817,6 +817,27 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - **Emre kararı bekleniyor.**
   - Ternate/Tidore ve Transkafkasya için LAB'ın kaynak okuması başladı.
 
+## 35. Çanakkale, Karesi, Fizan/Eritre (EMRELİC, 5 Kasım 2026 gece-15/16; `karesi.py`, `karar39`)
+- **Çanakkale** (`canakkale_varlik.json`):
+  - TDV Çanakkale (Tuncel) şehri "kuruluşu pek eski dönemlere inmeyen… bir XV. yüzyıl şehri" diye anlatıyor; 1452 öncesi yerleşim anılmıyor.
+  - 1345-1452 dilimleri kırpılır.
+  - 1281-1345 BEYANLI ASKIDA. Körpe (ÇOMÜ) Bituperi/Vituperio yayını bulunursa kur geri çekilir, bulunmazsa kırpılır. Yayın `tarayici_gerekli.json`'da.
+- **Karesi 1345/1360** (`karesi_1345_1360.json`). İki madde UMIT tarafından okundu:
+  - TDV Karesioğulları: "746/1345 veya hemen sonrası"; 1360 geçmiyor.
+  - TDV Çanakkale: "Sultan I. Murad tarafından 1360 yılında… kesin olarak katılmasıyla Çanakkale yöresi".
+  - ÇİFT-TDV gereği bölge maddesi esas alınır:
+    - Çanakkale yöresi (7: Çanakkale, Kepez, Tevfikiye, Lapseki, Behramkale, Biga, Karabiga): karesi 1345-05-04 → 1360 BEYANLI uzatılır; `d: osmanli` 1360-01-01, yalnız yıl.
+    - Çekirdek (6: Balıkesir, Bergama, Edremit, Ayvalık, Soma, Erdek): 1345-05-04. 1 Muharrem 746 Jülyen karşılığını EMRELİC doğruladı.
+  - I. Murad 1362'de tahta çıktı; "1360 + I. Murad" tutarsızlığı `ic_not`'a.
+  - **KASA kuyruğu:** 7 yerleşimde 1360 kırılması doğuyor. Değişmez 2 için kronoloji maddesi önerisi: "Karesi yöresinin kesin ilhakı" (TDV Çanakkale), 1360.
+- **Fizan / Eritre** (Paris 1947-02-10 imzası; TEK ÖLÇÜ: devralan fiilen yönetiyordu):
+  - Fizan: `d: italya` + `isg fransa` 1943-01 → 1947-02-10; `s: libya-fransiz-fizan` (`devletler.js:14528`, f 1943-01-01) → 1951-12-24.
+  - Eritre: `d: italya` + `isg ingiltere` 1941-04 → 1947-02-10; `s: eritre-ingiliz-askeri-idaresi` (`devletler.js:14644`, f 1941-04-01) → 1952-09-15.
+  - Künyeler 1947-02-10'u kapsıyor (UMIT ölçtü); LAB sorusu yok.
+  - Yürürlük günü 1947-09-15 `ic_not`'a.
+  - Ubârî kararı (gece-8, "1943-51 isg") bununla güncellendi.
+- **Buhara:** y_014 ajanı "Buhara Halk Cumhuriyeti künyesi bulunamadı" dedi. Künye var: `buhara-halk-cumhuriyeti` (`devletler.js:9302`, 1920-10-08 → 1924-10-27). LAB sorusu gerekmez.
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.
