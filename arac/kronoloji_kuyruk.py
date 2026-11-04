@@ -36,6 +36,9 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 699-710 (S28)
+    "L2-1072": "Cenova serbest liman 1590-06-01 → 1590-08 adayı: Gullino (Mediterranea XVII, 2020) «già nell'agosto del 1590» (en geç Ağustos); Giacchero kaydında 11 agosto 1590 (sayfa 403, teyitsiz); kaynak geçici, yalnız yiyecek muafiyeti der → gün ve kapsam netleşmeden uygulanmaz",
+    "L2-1075": "Concerto delle donne 1594 → 1582-02 [ay] adayı: DBI «Peperara, Laura» (c.82, 2015) çekirdek Şubat 1582 Livia d'Arco ile, Molza 1583-89, dağılma 1597-98; 1594'e dayanak yok → Newcomb 1980 okunmadan karar yok",
     # L2S 663-674 (S25)
     "L2-1040": "İskender Bey / Karadağ Sancağı 1528 → 1530 adayı [yalnız yıl]: Leksikon crnogorskih dinastija (CANU, Šćekić) «1530'a kadar yönetti, büyük olasılıkla öldü», sancak sonra kaldırıldı; 1528 Pavlović dipnotundan (okunmadı) → Pavlović s.32 ve Đurđev okunmadan uygulanmaz; sınıra bağlı, Değişmez 2 ±30 gün",
     "L2-1043": "Şimbra Kure 1529-03-09 → 03-10 adayı: Encyclopaedia Aethiopica «Around or perhaps on 10 March 1529» (kaynak tahmin der); EBSCO 7 Mart; TDV vermez → kesin gün yok, atlas 09 Mart da desteksiz",
@@ -98,6 +101,11 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2E 1719-1754 (EMRELİC, Academia Sinica; (JDN+49) mod 60 çapraz) + NAOJ (KASA SALI)
+    "L2-2190": "Takvim: Liao Taiping 9/8 己丑 = 1029-09-13 başlangıç (atlasla aynı); Taiping 10/8 丙午 = 1030-09-25 bitiş; Goryeosa Hyeonjong 20/9 戊午 = 1029-10-12 — Goryeo takvimi Song/Liao ile aynı alındı → ic_not beyanı (Academia Sinica)",
+    "L2-2191": "Takvim: Hyeonjong 20/12 庚寅 = 1030-01-12 (Academia Sinica; atlasla aynı)",
+    "L2-2174": "Takvim: Taiping Xingguo 4/5/1 己卯 = 979-05-29; 戊子 = 06-07 yeni Bingzhou; 丙申 = 06-15 Taiyuan'ın yakılması (Academia Sinica; atlasla aynı)",
+    "L2-1070": "Takvim: Tenshō 16/7/8 = 1588-08-29 Gregoryen (NAOJ ECO; Heibonsha «1588年7月8日»)",
     # L2S 687-698 (S27) — NAOJ ECO (KASA SALI)
     "L2-1068": "Takvim: Tenshō 3/5/21 = 1575-06-29 Jülyen (NAOJ ECO; Gregoryen 07-09) — atlas günü doğru, ic_not_takvim «Gregoryen 1575-06-29» etiketi YANLIŞ → «Jülyen» (1582-10-15 öncesi)",
     # L2E 1695-1718 (EMRELİC, Academia Sinica; EŞLEŞİR)
@@ -185,6 +193,9 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1078": ("tarih düzelt", "Modena başkent 1598-02-01 → 1598-01-28: Cesare d'Este Ferrara'dan Modena'ya yola çıktı (Treccani DBI «Cesare d'Este», Ascari c.24, 1980; Chiappini 1997 aynı gün — çift teyit); 13 Ocak 1598 Faenza kapitülasyonu ve Modena'ya varış (kaynakta yok) ic_not; «eskisinin yarısı büyüklüğünde» DBI'da yalnız nüfus"),
+    "L2-2204": ("tarih düzelt", "Zvonimir taç giymesi 1075-10-08 → 1076-10-08 + «[yalnız ay teyitli; gün teyitsiz]»: Hrvatska enciklopedija ve Zekan 2000 (Starohrvatska prosvjeta 27) Ekim 1076 der, gün yok; yıl kayması kesin (EMRELİC)"),
+    "L2-2202": ("tarih düzelt", "Lý Thánh Tông ölümü 1072-01-01 → 1072-02-01: Toàn thư Bản kỷ q.3, 熙寧5 (壬子) 1. ay 庚寅 (10. gün) = 1072-02-01 (Academia Sinica; EMRELİC) — Đại Việt takvimi Song'dan ±1 gün sapabilir → ic_not"),
     # L2E 1695-1718 (EMRELİC, Academia Sinica): yer tutucu YYYY-01-01 → kaynak günü
     "L2-2146": ("tarih düzelt", "Liu Bin (Güney Han) 941-01-01 → 942-06-10: Takvim: Tianfu 7/4 丁丑 = 942-06-10 (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
     "L2-2148": ("tarih düzelt", "943-01-01 → 943-04-15: Takvim: Tianfu 8/3 丙戌 = 943-04-15 (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
@@ -456,6 +467,15 @@ METIN = [
     ("L2-1052", "[BEKLE — Asher 1977 açılmadı] Şîr Şah türbesi 1545-05-22: atlas günü ölüm civarı (TDV ölüm 23 Mayıs 1545), tamamlanma değil; tamamlanma 16 Ağustos 1545 ipucu; «ölümünden kısa süre önce inşasına başlanan» sorunlu (İslam Şah döneminde bitti)"),
     ("L2-1055", "Cenova Yahudi sürgünü 1550: Zappia (Studi Emigrazione LXII/237, 2025) yıl teyitli, gün yok; Jewish Encyclopedia 1550'de bazılarına ikamet ve ticaret hakkı → metin iki olayı karıştırıyor olabilir, «izin verilen ailelerin çıkarılması» kontrol"),
     ("L2-1056", "Carignano Bazilikası 1552-03-10 inşaatın başlaması (DBI «Sauli, Bendinelli» c.90, Fara 2017; «Alessi» c.2 yıl) → ic_not"),
+    # L2E 1719-1754 (EMRELİC)
+    ("L2-2188", "Song shi 天聖元年 = 1023 yalnız yıl; kaynak dipnotunda hata şüphesi → ic_not (EMRELİC)"),
+    ("L2-2179", "[BEKLE — çelişki] TDV yardımı Afrigid'e değil Gürgenç Me'mûnî'ye verir → olay öznesi kontrol (EMRELİC)"),
+    ("L2-2178", "[BEKLE — yıl] Song shi j.489 992'yi teyit eder, 990'ı değil (EMRELİC)"),
+    # L2S 699-710 (S28)
+    ("L2-1079", "Âdi Grânth 1604-08-16 (Encyclopaedia of Sikhism «Bhadon sudi 1661 Bk»): Harmandir Sahib'e yerleştirme günü, derleme bitişi değil (2 Ağustos SREC, ikincil); Nanakshahi 1 Eylül değeri de dolaşır → başlık «yerleştirildi», ic_not iki gün"),
+    ("L2-1081", "Khagemba 1606 (Ahmed, American Journal of Islam and Society, s.126-127) yıl tutar; Müslüman askerler batıdan (Taraf/Sylhet) geldi, prens Sanongba'ya eşlik etti — taht mücadelesi, «doğudan gelen istilâ» ve «Kaçâr üzerinden» değil; cümlede Khagemba adı eksik"),
+    ("L2-1077", "Nagazaki 1597-02-05 (Nipponica, Keichō 1/12/19) gün tutar; «çarmıha gerilerek» kaynak cümlede yok → kontrol"),
+    ("L2-1071", "[BEKLE — tamamlanma yılı akademik kaynakta yok] Âyîn-i Ekberî 1590: TDV ve Iranica yıl vermez; özetler 1598 (42. cülus yılı) → Blochmann/Jarrett önsözü"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
