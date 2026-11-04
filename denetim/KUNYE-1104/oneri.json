@@ -202,8 +202,8 @@
 },
 {
 "id": "bohemya",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Agnew, The Czechs and the Lands of the Bohemian Crown (Hoover 2004) — 1198 kalıtsal krallık / 1526 Habsburg seçimi (12-05?)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — New Cambridge Medieval History V, 'The central European kingdoms', s.754: 'acknowledged from 1198 as kings' (f yıl TEYIT; gün yok) · 1212 Altın Boğa s.761 (ic_not) · t 1526-12-05 OKUNMADI"
 },
 {
 "id": "iskocya",
@@ -212,8 +212,8 @@
 },
 {
 "id": "irlanda",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Oxford Companion to Irish History — 1000 / 1603-03-30 Mellifont"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — Cambridge History of Ireland II, ch.2 (D. Edwards), s.48: O'Neill Mellifont'ta 'March 1603'te teslim oldu; kraliçe öleli 'nearly a week' (30 Mart ile uyumlu) → t 1603-03-30 KALIR, ic_not: '[ay teyitli; gün teyitsiz] CHI II s.48'; f 1000 kova düzeyi"
 },
 {
 "id": "irlanda-serbest-devlet",
@@ -519,8 +519,8 @@
 },
 {
 "id": "san-devletleri",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t 1923-10-29 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — Cambridge History of Southeast Asia II/1, ch.1 (Tarling), s.40: Shan hükümdarlarının bağlılığı özerklik karşılığı 'by April 1888' sağlandı. KARAR (LAB SALI): bu bir ilhak değil BAĞLILIK — Şan beylikleri İngiliz himayesinde (Federated Shan States) kendi sawbwa'larıyla sürdü; veri kuralı 'aynı polity sürüyorsa künye kısaltılmaz' → t 1923-10-29 (pencere ucu) KALIR, ÖNERİ: tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] (nisan 1888 teyitli, gün teyitsiz — beyan); 1890 ucu doğrulanmadı"
 },
 {
 "id": "lan-xang",

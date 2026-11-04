@@ -1,0 +1,33 @@
+# KÜNYE-1104 → KASA kuyruğu (veriye uygulanacak künye düzeltmeleri)
+
+LAB SALI · `lab-1104-kunye` · veriye YAZILMADI. KASA tek yazıcıdır (CLAUDE.md): bu satırları `data/devletler.js`e uygular, her f/t değişikliğinde Değişmez 2 için kronoloji maddesini ve `s:` dönemlerinin künye sınırını (hayalet devlet) kontrol eder, `denetle.py` 0 ister.
+Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a yazılmalı.
+
+| # | künye | alan | şimdi | önerilen | kaynak (özet) |
+|---|---|---|---|---|---|
+| 1 | `hail-ibn-ali` | t | 1836-01-01 | **1835-01-01** | TDV residiler (M. al-Rasheed) — '1779’da … yönetim Abde aşiretinden İbn Ali ailesindeydi' · '1835’te Abdullah b. Reşîd’in Hâil emirliğini ele geçirmesiyle sonuç |
+| 2 | `mantua` | f | 1328-01-01 | **1328-08-16** | Treccani gonzaga — 'contro la stessa signoria dei Bonacolsi insorse il 16 ag. 1328 Luigi' · 'Ferdinando Carlo (1665-1708) con il quale anche la dinastia dei Gon |
+| 3 | `milano-dukaligi` | f | 1097-01-01 | **1395-05-11** | Treccani milano — 'L’11 maggio 1395 Gian Galeazzo ottenne il titolo di duca di M.' · 'Lo Stato visconteo … ebbe riconoscimento ufficiale nel 1395' (dükalık f 10 |
+| 4 | `letonya` | t | 1940-08-06 | **1940-08-05** | Nacionālā enciklopēdija (Letonya) 'Latvijas Republikas proklamēšana' (J. Šiliņš) — '1918. gada 18. novembrī' (f teyitli) · 'padomju okupācija Latvijā, 1940.–194 |
+| 5 | `ryazan` | f | 1129-01-01 | **1127-01-01** | EMRELİC Cambridge — CHR I, ch.5, s.101: Murom-Ryazan 1127'de Yaroslav Svyatoslaviç'e verildi; 1129 onun ölümü (f 1129 → 1127); t 1521 yıl teyitli, gün yok |
+| 6 | `nijni-novgorod-suzdal` | t | 1392-01-01 | **1391-01-01** | EMRELİC Cambridge — CHR I, ch.6, s.155: f 1341 teyitli · ch.7, s.168: 'in 1391, with the agreement of Tokhtamysh, was detached from Suzdal' and attached to Mosc |
+| 7 | `mataram-sultanligi` | f | 1587-01-01 | **1585-01-01** | TDV cava — 'XVI. yüzyılın sonlarına doğru Orta Cava bölgesinde Mataram Sultanlığı adıyla geniş bir politik güç ortaya çıktı (1585)' (f 1587 → 1585, TDV esas; öt |
+| 8 | `bidar` | f | 1489-01-01 | **1492-01-01** | TDV beridsahiler — '… Bîder’de Berîdşâhîler bağımsızlıklarını ilân etmişlerdir (1492)' · hükümdar listesi 'Kāsım Berîd Şah 897 (1492)' · 'II. İbrâhim Şah 1619’d |
+| 9 | `malay-sultanliklari` | t | 1909-07-10 | **1909-07-15** | EMRELİC JSTOR — Klein, Historical Journal 12/1 (1969), s.134: 'Final accord was attained on 10 March 1909' (imza) · Chan Su-ming, JMBRAS 38/1 (1965), s.~167: Ke |
+| 10 | `bundela-orcha` | t | 1948-01-01 | **1948-04-01** | ⑧ resmî neşir — Government of India, Ministry of States, White Paper on Indian States (1950), archive.org in.ernet.dli.2015.207474 — 'The United State of Vindhy |
+| 11 | `dacu` | t | 1400-01-01 | **1350-01-01** | EMRELİC Cambridge — CHA III, ch.1, s.79: Darfur'da Daju 13. yy; 'mid fourteenth century' Tunjur yerini aldı → t 1400 → 1350 (BEYANLI YAKLAŞIKLIK: kaynak yalnız  |
+| 12 | `navaho` | t | 1868-06-01 | **1868-08-12** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-navaho-1868-1015): |
+| 13 | `savni` | t | 1795-08-03 | **1795-12-02** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0 |
+| 14 | `miami` | t | 1795-08-03 | **1795-12-02** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0 |
+| 15 | `sauk` | t | 1832-09-21 | **1833-02-13** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-sauk-and-foxes-183 |
+| 16 | `sosoni` | t | 1868-07-03 | **1869-02-24** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-eastern-band-shosh |
+| 17 | `ute` | t | 1880-01-01 | **1880-06-15** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/agreement-with-the-confederated-ba |
+| 18 | `pavni` | t | 1857-09-24 | **1858-05-26** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-pawnee-1857-0764): |
+| 19 | `klamath` | t | 1864-01-01 | **1870-02-17** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-klamath-etc-1864-0 |
+| 20 | `sahaptin` | t | 1855-01-01 | **1859-04-18** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-yakima-1855-0698): |
+| 21 | `ponka` | t | 1858-01-01 | **1859-04-11** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-ponca-1858-0772):  |
+| 22 | `powhatan` | t | 1646-10-01 | **1646-10-05** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, |
+
+Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] — ONERI.md.
+
+Toplam 22 alan düzeltmesi, 22 künye.
