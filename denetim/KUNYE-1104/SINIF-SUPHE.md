@@ -31,6 +31,10 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `nuu-cah-nulth` | 1281-01-01 → 1858-08-02 | 578 | t 1858 BC Yasası anakarayı kapsar, Vancouver Adası'nı (Nuu-chah-nulth) DEĞİL — uç yanlış yasaya bağlı |
 | `mikmak` | 1281-01-01 → 1761-01-01 | 480 | t 1761 barış ve dostluk antlaşmaları (RCAANC) — egemenlik devri değil, antlaşmalar yürürlükte |
 | `abenaki` | 1281-01-01 → 1725-12-15 | 471 | t 1725-12-15 Dummer Antlaşması (RCAANC) — savaşı bitirir, polity'yi değil |
+| `birom-plato` | 1281-01-01 → 1903-01-01 | 622 | Birom/Jarawa/Angas küçük bağımsız topluluklar, devlet kurmadılar (İPUCU; History in Africa makalesi gated) |
+| `etowah` | 1100-01-01 → 1550-01-01 | 450 | arkeolojik site/şeflik merkezi |
+| `ceibal` | 0411-01-01 → 0889-01-01 | 0 | t 889 son tarihli anıt — terk, polity sonu değil |
+| `charrua` | 1281-01-01 → 1831-01-01 | 550 | t 1831 Salsipuedes katliamı (Claves FHCE) — çatışma, polity sonu değil |
 
 ## Dönem etiketi — devlet değil
 
@@ -68,6 +72,10 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `ibadan` | 1829-01-01 → 1893-08-15 | 65 | t 1893-08-15 Lagos himaye antlaşması; Baale yönetimi sürdü |
 | `kocin` | 1102-01-01 → 1503-01-01 | 223 | t 1503 Portekiz himayesi; Cochin krallığı 1949'a dek |
 | `venda` | 1700-01-01 → 1898-01-01 | 396 | t 1898 Joubert seferi; Mphephu 1902'de döndü — geçici işgal (UNISA tezi 1977) |
+| `bundu` | 1690-01-01 → 1858-01-01 | 168 | t 1858 Fransız himayesi; Bundu 1890'lara dek sürdü |
+| `liptako` | 1810-01-01 → 1897-01-01 | 87 | t 1897 Dori işgali; emir görevden alınmadı, emirlik sürdü |
+| `kamba` | 1281-01-01 → 1895-07-01 | 614 | t 1895 Doğu Afrika Himayesi ilanı; Kamba merkezî devlet de değil |
+| `gyaaman` | 1690-01-01 → 1895-01-01 | 204 | t 1895 Samori işgali; 1897-1900 bölüşüm |
 
 ## Uç başka bir olayı tarihliyor (olay türü)
 
@@ -75,7 +83,13 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 |---|---|---|---|
 | `guney-ming` | 1644-04-25 → 1662-01-01 | 370 | f 1644-04-25 Chongzhen'in ölümüydü — DUZELT önerildi (1644-06-06, Struve) |
 | `meysur-racaligi` | 1799-05-04 → 1947-08-15 | 445 | f 1799-05-04 Tipu'nun ölümü; Wodeyar restorasyonu ayrı (TDV) |
-| `tungning` | 1650-01-01 → 1683-10-05 | 199 | f 1650 erken; Koxinga 1661'de Tayvan'a çıktı (Andrade okunacak) |
+| `tungning` | 1650-01-01 → 1683-10-05 | 199 | KAYNAKLI: Andrade 2008 ch.11 — Zheng filosu Tayvan'a 30 Nisan 1661; Hollanda teslimi Şubat 1662 ('for the first time, Formosa was ruled by a Chinese state'); son 1683 (yıl). Veri f 1650 Xiamen dönemi Zheng rejimi mi? Künye kapsamı: Zheng deniz devleti (f 1650 savunulur) mı, Tayvan'daki Tungning (f 1661/1662) mi |
+| `aleut` | 1281-01-01 → 1784-08-14 | 0 | t 1784-08-14 Kodiak'a (Alutiiq) iniş — Aleut (Unangan) değil |
+| `karagve` | 1450-01-01 → 1890-07-01 | 440 | t 1890-07-01 Anglo-Alman sınır antlaşması — Karagwe'nin sonu değil |
+| `eve-notse` | 1281-01-01 → 1884-07-05 | 604 | t 1884-07-05 kıyı Togo himaye antlaşması — Notse taraf değil |
+| `shewa` | 1813-01-01 → 1889-03-10 | 0 | t 1889-03-10 Yohannes IV'ün ölümü — Şova'nın sonu değil |
+| `lupaqa-krallik` | 1281-01-01 → 1450-01-01 | 169 | t 1450; İnka hâkimiyeti c.1463 (İPUCU) ve Lupaqa vasal olarak sürdü |
+| `poni` | 0977-01-01 → 1405-01-01 | 428 | f 977 / t 1405 Çin kayıtlarındaki elçilik yılları — kuruluş/son değil |
 | `ruanda-cumhuriyeti` | 1962-07-01 → (süren) | 77 | f 1962-07-01 bağımsızlık; cumhuriyet ilanı 28 Ocak 1961 (İPUCU) |
 | `luksemburg` | 1890-11-23 → (süren) | 330 | f 1890 hanedan değişimi; polity daha eski — SINIF-HATASI (hasat 1) |
 | `endonezya-dogu-timor` | 1975-12-07 → 1999-10-25 | 191 | işgal ili, bağımsız polity değil (hasat 1) |

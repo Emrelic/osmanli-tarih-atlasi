@@ -433,7 +433,7 @@
 {
 "id": "poni",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 0977-01-01 / t 1405-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 0977-01-01 / t 1405-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Sultanate of Brunei 1368-1888; ras-1977; core.ac.uk/download/158571259.pdf): Po-ni Çin kayıtlarında 977 ve 1082 elçilikleri; Nagarakretagama 1365 Barune; Ming kayıtlarında 1371, 1405, 1408. Boni=Brunei özdeşliği tartışmalı (Batı Borneo/Borneo). Atlas f=0977 ilk kayıt tarihi (kuruluş değil), t=1405 Ming elçisi/yıl: polity sonu değil. Zhu fan zhi / Song huiyao birincil metin okunmadı. · GATED: Zhao Rukuo, Zhu fan zhi (Hirth & Rockhill 1911, archive.org); Song huiyao jigao (977 elçisi); https://core.ac.uk/download/158571259.pdf (okunmadı)"
 },
 {
 "id": "racput",
@@ -468,7 +468,7 @@
 {
 "id": "gond-kralliklari",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1301-01-01 / t 1781-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1301-01-01 / t 1781-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Garha kingdom, Mandla, Marathas of Saugor; Fuchs'a atıf): Garha-Mandla 1781'de Maratha (Sagar/Nagpur) tarafından ilhak edildi (Narhar Shah 1780-81); Bhonsle 1798/99'da devraldı; İngiliz 1817-18. Atlas t=1781-01-01 yıl hassasiyetinde İPUCU ile uyumlu; Central Provinces Gazetteer / Fuchs okunmadı. Deogarh vb. diğer Gond krallıkları 1781'den sonra sürdü (Nagpur Gond rajaları 1740'lara kadar) — kapsam sorunu. · GATED: Central Provinces District Gazetteers: Mandla (archive.org); Fuchs, Stephen, The Gond and Bhumia of Eastern Mandla (1960)"
 },
 {
 "id": "ahom",
@@ -594,8 +594,8 @@
 },
 {
 "id": "tungning",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of China IX (Ch'ing to 1800, Part 1) — f 1650-01-01 / t 1683-10-05 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): Arama: Tungning'in Qing'e teslimi 1683 (Penghu 16-17 Temmuz 1683; resmi teslim 13 Agustos veya 3 Ekim 1683 - ikincil kaynaklar celisiyor; Vikipedi aynalari = IPUCU). atlas t=1683-10-05 (teslim) dogrulanmadi; f=1650 Tungning icin erken: Koxinga Tayvan'a 1661 indi, Hollanda 1662 teslim. f=1650 kaynakla cakisiyor (Koxinga'nin Xiamen donemi?). [LAB elemesi: ajan KISMEN dedi; dayanak İPUCU/ikincil düzeyde → GIRISLI] · GATED: Hung, Chien-chao 1981 Georgetown dissertation 'Taiwan under the Cheng family 1662-1683'; Andrade, T. 2011 Lost Colony (Princeton UP); Qing Shilu Kangxi 22 (1683) - Shi Lang memorial"
+"hukum": "KISMEN",
+"kaynak": "GİRİŞLİ: Cambridge History of China IX (Ch'ing to 1800, Part 1) — f 1650-01-01 / t 1683-10-05 (bölüm: eserin dizininden) · HÜCUM C (yeniden tarama) (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): Andrade ch.11: \"On April 30, 1661, Dutch sentinels spotted Chenggong's fleet ... heading under full sail toward Tayouan\" (Struve'a gore Zheng filosunun varis gunu kaynaklarda farkli, n.72); ch.11: Hollanda teslimi imzalandi, \"Then Chenggong raised his flag over it ... For the first time, Formosa was ruled by a Chinese state\"; Meij gunlugu 'beginnende 30 April 1661 en eijndigende 4 Februarij 1662' (esir donemi bitisi; teslim gunu ch.11'de verilmiyor, Subat 1662). Conclusion: \"The Zheng regime lasted only until 1683, when a Qing invasion force, led by ... Shi Lang, successfully occupied Taiwan\" -> t yil 1683 teyitli; 1683-10-05 gunu Andrade'de YOK. f=1650 atlas degeri Taiwan icin yanlis: Taiwan'daki Zheng yonetimi 1661 inisiyle (yonetim gucu 1662-02 Dutch teslimiyle) baslar; 1650 Amoy/Xiamen donemi (Zheng rejimi ayri, anakara). Oneri: f 1661-04-30 (inis) veya 1662-02-01 (teslim; gun Andrade'de yok -> 1662-01-01/02 yil hassasiyeti), SINIF notu: Tungning 1661/62-1683. [LAB elemesi: ajan DUZELT dedi; dayanak İPUCU/ikincil düzeyde → KISMEN] · GATED: Struve, The Southern Ming 1644-1662 (Yale UP 1984) s.254 n.83 - inis ve teslim gunleri; Boxer, 'Siege of Fort Zeelandia and the Capture of Formosa' TPJS 27 (1927); Qing Shilu / Zheng Keshuang teslimi 1683 (Ming-Qing donemi, Wills, Hummel Eminent Chinese 'Shih Lang')"
 },
 {
 "id": "cin-cumhuriyeti",
@@ -810,8 +810,8 @@
 },
 {
 "id": "ispanyol-formosa",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of China IX / Andrade, How Taiwan Became Chinese — f 1626-01-01 / t 1642-08-26 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): Atlas kaynak Taipei Times + Vikipedi (IPUCU). Hollanda Keelung'u 26 Ağustos 1642'de aldı (Andrade 2008 How Taiwan Became Chinese, Columbia UP Ch.5 - açık sürüm gutenberg-e.org). f=1626: İspanyol Keelung çıkarması 12 Mayıs 1626 (Borao); Borao 2001 Spaniards in Taiwan 2 cilt. Açık metin: Andrade'nin kitabı Gutenberg-e'de açık - okunmadı. · GATED: Andrade, T. 2008 How Taiwan Became Chinese: Dutch, Spanish, and Han Colonization in the Seventeenth Century (Columbia UP; gutenberg-e.org open); Borao, J.E. 2001 Spaniards in Taiwan (SMC Publishing)"
+"hukum": "KISMEN",
+"kaynak": "GİRİŞLİ: Cambridge History of China IX / Andrade, How Taiwan Became Chinese — f 1626-01-01 / t 1642-08-26 (bölüm: eserin dizininden) · HÜCUM C (yeniden tarama) (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): Andrade, How Taiwan Became Chinese (Columbia UP 2008; gutenberg-e.org/andrade, Wayback kopyasi), ch.4 par.1: \"The Spanish established a fortress in the Bay of Jilong in northern Taiwan in 1626\"; ch.4: expedition \"set forth on February 8, 1626\" (Manila'dan yola cikis; Jilong'da taht iddiasi/surgun tarihi ayri). f 1626 YIL teyitli (gun kaynakta yok, yil hassasiyeti yeterli). ch.5: \"One evening in early August 1642 ... the Dutch had readied a large expedition\"; \"only six days after the Dutch had arrived, the Spanish were marching out of their fortress\" (Jilong teslimi); Danshui redoubt ayri. t=1642 YIL teyitli ama atlas gunu 1642-08-26 Andrade'de YOK (yalniz 'early August' + 'six days after'); gun icin Borao, Spaniards in Taiwan veya Dagregisters gerekir. Not: ch.5 n.31 kaynak listesinde 'Governors of Kelung ... 1626-1642'. · GATED: Borao Mateo, The Spaniards in Taiwan (SMC, 2001) vol. 2 - 26 Ağustos 1642 gunu; Blair & Robertson, Philippine Islands 35 'Brief Relation of the Loss of the Island of Hermosa'"
 },
 {
 "id": "daxi-zhang",
@@ -821,7 +821,7 @@
 {
 "id": "xianbei",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of China I-II — f 0155-01-01 / t 0235-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: Cambridge History of China I-II — f 0155-01-01 / t 0235-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Xianbei state, seshat-db, ZZTJ Kebineng biyografisi derlemesi): Tanshihuai 156'da Xianbei'yi birleştirdi, ölümü 181/182; Kebineng 235'te Cao Wei tarafından suikastla öldürüldü ve devlet bu tarihte dağıldı (diğer kaynak 234). Atlas f=0155, t=0235 yıl hassasiyetinde İPUCU ile ±1 yıl uyumlu; Hou Hanshu / Sanguozhi / Zizhi Tongjian birincil metni okunmadı. f için 155 mi 156 mı belirsiz. · GATED: Hou Hanshu juan 90 (ctext.org); Sanguozhi, Wei shu 30 (ctext.org); Zizhi Tongjian juan 72-73"
 },
 {
 "id": "han-devleti-zhou",
@@ -890,13 +890,13 @@
 },
 {
 "id": "luwu",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t None (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t None (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): Bulbeck, David, pre-Islamic Luwu makalesi 2000 (oxis.org/downloads/bulbeck-david/bulbeck-2000.pdf, akademik; pdftotext): Luwu 'en eski ve prestijli Bugis chiefdom'u; 13.-14. yy'da ithal seramiklerle ortaya çıkış, Malangke'de üç alanda 13. yy başlangıç izi; 14.-16. yy zirve; 1605 İslamlaşma; Hollandalılar Bugis chiefdom'larını '~bir asır önce' (c.1905) kolonyal yönetime kattı. Atlas f=1281-01-01 (13. yy) yaklaşık UYUMLU ama gün/yıl kaynağı yok; t boş (Luwu bugün de Datu Luwu ile sürüyor/1905-06 Hollanda ilhakı bu metinden kesin okunmadı). · GATED: Bulbeck & Caldwell, Land of Iron (Hull, 2000) tam metin"
 },
 {
 "id": "yarlung-krallik",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Kapstein, The Tibetans / Beckwith, The Tibetan Empire in Central Asia — f -0126-01-01 / t 0629-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: Kapstein, The Tibetans / Beckwith, The Tibetan Empire in Central Asia — f -0126-01-01 / t 0629-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Songtsen Gampo/Yarlung dynasty, Tsadra timeline, studybuddhism): Songtsen Gampo'nun tahta çıkışı 618 ya da 629 (Namri Songtsen'in ölümü 618/629/630 belirsiz); Tibet kraliyet takvimi Nyatri Tsenpo'yu 127 BCE'ye koyar (atlas f=-0126; 126 BC kaynakta bulunmadı, İPUCU). Xin Tang shu/Eski Tibet Yıllıkları ve Beckwith/Stein okunmadı. Atlas t=0629 bir olası seçenek; hüküm yok. · GATED: Beckwith, The Tibetan Empire in Central Asia (Princeton 1987); Xin Tang shu juan 216 (ctext.org); Pelliot 1287 Old Tibetan Annals (Bacot/Thomas/Toussaint 1940)"
 },
 {
 "id": "cimma-sultanligi",
@@ -932,7 +932,7 @@
 {
 "id": "sidamo-kralliklari",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1897-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1897-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Kingdom of Kaffa, Menelik II's conquests; seshat-db; ejol.aau.edu.et JIKDS makalesi [okunmadı]): Menelik'in Sidama bölgesi fetihleri 1890'larda — Hadiya/Sidama 1890, Wolayta 1890 (atlas başka yerde 1894 demiyor), Kaffa 1897 (Ocak seferi, Gaki Eylül 1897'de yakalandı). Atlas t=1897-01-01 Kaffa fethi yılıyla (Ocak 1897 sefer başlangıcı) örtüşür ama 'Sidamo krallıkları' tek polity değil; Kaffa'nın düşüşü 1897 yıl sonu. Akademik kaynak okunmadı. · GATED: https://ejol.aau.edu.et/index.php/JIKDS/article/download/3768/7890/16966; Orent, 'A reconstruction of the Kaffa kingdom'; Bahru Zewde, A History of Modern Ethiopia (Ohio UP 2001)"
 },
 {
 "id": "vollayta-kralligi",
@@ -946,13 +946,13 @@
 },
 {
 "id": "charrua",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1281-01-01 / t 1831-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1281-01-01 / t 1831-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): ojs.fhce.edu.uy/index.php/claves/article/view/2393/3367 (Claves, Uruguay FHCE akademik dergi; arama özeti): 11 Nisan 1831 Salsipuedes katliamı, Rivera hükümet güçleri; 'devletle yerli halklar arası en önemli çatışma'. Atlas t=1831-01-01 yıl hassasiyetinde: YIL 1831 TEYİT (gün 11 Nisan 1831). 'yok oldu' iddiası tartışmalı; sağ kalanlar vardı, polity sonu değil çatışma sonu. f=1281 genel kesim. Tam metin okunmadı. · GATED: https://ojs.fhce.edu.uy/index.php/claves/article/view/2393/3367 (tam metin); Acosta y Lara, Los Charrúas (1961)"
 },
 {
 "id": "bundu",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VI / Cambridge History of Africa 4 + 5 — f 1690-01-01 / t 1858-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VI / Cambridge History of Africa 4 + 5 — f 1690-01-01 / t 1858-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Bundu (state), Faidherbe; 1911 Britannica Bondu [Wikisource]): Bundu 1845 Ağustos'ta Fransız egemenliğini tanıdı, 1858'de kesin Fransız denetimine girdi (Faidherbe himaye antlaşmaları). Atlas t=1858-01-01 yıl hassasiyetinde İPUCU ile uyumlu ama himaye polity sonu değildir (Bundu 1858-1890'larda protektora olarak sürdü). Cambridge Core makale (Senegambia 1679-1815) ve Rançon, Le Bondou (1894) okunmadı. · GATED: Rançon, Le Bondou (1894) (Gallica, Cloudflare); Gomez, Pragmatism in the Age of Jihad: Bundu (CUP 1992)"
 },
 {
 "id": "berabis",
@@ -967,7 +967,7 @@
 {
 "id": "solima-yalunka",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1720-01-01 / t 1884-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1720-01-01 / t 1884-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Solimana, Falaba, Manga Sewa; Fyle'a atıf [open.bu.edu PDF, okunmadı]; Encyclopaedia Africana): Falaba c.1780'de kuruldu, Samura hanedanı 1800'e dek Solima Yalunka krallığı; Sofa komutanı Na Ali'nin kuşatması ve Manga Sewa'nın ölümü (1884 çevresi, kaynakta yıl doğrulanmadı); İngiliz komisyonu Falaba'da Mart 1892; Falaba 1895'ten sonra geriledi. Atlas f=1720 (kaynaklarla çelişkili: 1780) ve t=1884 Fyle'ın metniyle doğrulanabilir; okunmadı. · GATED: Fyle, C. Magbaily, The History of Sierra Leone / 'The Solima Yalunka Kingdom' (open.bu.edu/server/api/core/bitstreams/891f01b0-ab4f-409e-9d40-dc2d426353d7/content — açık olabilir, okunmadı); Encyclopaedia Africana SAMURA, SOLIMANGA"
 },
 {
 "id": "kenedugu",
@@ -977,7 +977,7 @@
 {
 "id": "liptako",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1810-01-01 / t 1897-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1810-01-01 / t 1897-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Liptako, List of rulers of Liptako): Fransızlar Dori'yi 30 Nisan 1897'de işgal etti ama emiri görevden almadı, siyasi sistem sürdü (emirlik Yukarı Volta hükümetince sonra lağvedildi, unvan hâlâ var). Atlas t=1897-01-01 yıl hassasiyetinde Fransız işgaliyle uyumlu ama polity sonu değil (himaye/işgal devam) => KISMEN, t=1897 polity sonu sayılamaz. f=1810 emirlik kuruluş (Brahima Saidu) İPUCU; akademik kaynak (MSU tezi d.lib.msu.edu/etd/49638) okunmadı. [LAB elemesi: ajan KISMEN dedi; dayanak İPUCU/ikincil düzeyde → GIRISLI] · GATED: https://d.lib.msu.edu/etd/49638/FULL_TEXT/view (tez, açık olabilir); Hama, Histoire du Liptako"
 },
 {
 "id": "zerma",
@@ -992,7 +992,7 @@
 {
 "id": "gyaaman",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1690-01-01 / t 1895-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1690-01-01 / t 1895-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Kingdom of Gyaman, Bono State): Gyaman 1740-41'de Asante'ye yenildi (tributary), Agyeman 1888'de Fransa ile himaye antlaşması, Samori 1895 işgali, Fransızlar 1897'de Samori'yi kovup batı Gyaman'ı FWA'ya kattı; Gyaman Fransız/İngiliz arasında bölüştürüldü. Atlas t=1895-01-01 Samori işgali yılı ile uyumlu ama polity sonu değil (1897-1900 bölüşüm); f=1690 kaynaklar 1450/1650/17. yy çelişkili. Wilks / Terray okunmadı. · GATED: Wilks, Asante in the Nineteenth Century (CUP 1975); Terray, Une histoire du royaume abron du Gyaman (Karthala 1995)"
 },
 {
 "id": "buna",
@@ -1012,7 +1012,7 @@
 {
 "id": "eve-notse",
 "hukum": "GIRISLI",
-"kaynak": "OLAY TÜRÜ YANLIŞ — EMRELİC Cambridge — CHA VI, ch.4, s.~231: 5 Temmuz 1884 Lomé/Togoville'de koruma ilanı; Notsé'den hiç söz edilmiyor. t 1884-07-05 beyanla KALIR (ic_not: '[olay türü yanlış: kıyı şefliğinin himaye antlaşması; Notsé için ayrı kaynak gerek]')"
+"kaynak": "OLAY TÜRÜ YANLIŞ — EMRELİC Cambridge — CHA VI, ch.4, s.~231: 5 Temmuz 1884 Lomé/Togoville'de koruma ilanı; Notsé'den hiç söz edilmiyor. t 1884-07-05 beyanla KALIR (ic_not: '[olay türü yanlış: kıyı şefliğinin himaye antlaşması; Notsé için ayrı kaynak gerek]') · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Togoville/Togoland; afrolegends): Nachtigal ile Mlapa III arasında 5 Temmuz 1884 himaye antlaşması (Togoville/Baguida); imza yeri ve imzalayan tartışmalı. Bu antlaşma kıyı Togo krallığıyla yapıldı, Notse/Eve birliği taraf değil; Notse 1700 dolayı dağılmış; atlas t=1884-07-05 SINIF/olay uyumsuzluğu. Birincil metin okunmadı. · GATED: Reichsanzeiger 1884 Togo Schutzvertrag metni; Gayibor, Histoire des Togolais (Karthala)"
 },
 {
 "id": "borgu",
@@ -1047,7 +1047,7 @@
 {
 "id": "birom-plato",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1903-01-01 (bölüm: eserin dizininden) · İPUCU / durum: Bu turda aranmadı (zaman)."
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1903-01-01 (bölüm: eserin dizininden) · İPUCU / durum: Bu turda aranmadı (zaman). · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Berom people; Britannica Jos Plateau [gated]; History in Africa makalesi 'Hill refuges of the Jos Plateau' [Cambridge, gated]): Birom/Jarawa/Mama/Angas/Ron küçük bağımsız topluluklardı, 'geleneksel devlet' kurmadılar; Birom paramount Gbong Gwom Jos 1935'te İngilizlerce yaratıldı; İngiliz fethi 1898-1930 arası (Nengel). Merkezî polity olmayan etnik/topluluk kaydı; atlas t=1903-01-01 kalay keşfi/İngiliz Jos'u yılı, polity sonu değil. Akademik kaynak okunmadı. [LAB elemesi: ajan SINIF-HATASI dedi; dayanak İPUCU/ikincil düzeyde → GIRISLI] · GATED: Nengel, Precolonial African Intergroup Relations... Jos Plateau (Rochester 2018?); History in Africa, 'Hill refuges of the Jos Plateau' (cambridge.org/core/journals/history-in-africa/...807BFC2C95251469CA06352502EC3EFF)"
 },
 {
 "id": "damagaram",
@@ -1100,12 +1100,12 @@
 {
 "id": "zende",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1750-01-01 / t 1912-01-01 (bölüm: eserin dizininden) · İPUCU: Zemio sultanlığı 1872 civarı, Kongo Serbest Devleti himayesi 1894-1909 (Zemio/Rafai), Fransız işgali 10 Temmuz 1895 ve 12 Ekim 1912'de hanedan değişimi (worldstatesmen.org tablosu — zayıf kaynak); 1912 yalnız bir halef değişimi, krallıkların sonu değil. Evans-Pritchard, The Azande: History and Political Institutions (1971) Gbudwe krallığı için ~1863-1930 aralığı. TDV 'Zande' maddesi yok."
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1750-01-01 / t 1912-01-01 (bölüm: eserin dizininden) · İPUCU: Zemio sultanlığı 1872 civarı, Kongo Serbest Devleti himayesi 1894-1909 (Zemio/Rafai), Fransız işgali 10 Temmuz 1895 ve 12 Ekim 1912'de hanedan değişimi (worldstatesmen.org tablosu — zayıf kaynak); 1912 yalnız bir halef değişimi, krallıkların sonu değil. Evans-Pritchard, The Azande: History and Political Institutions (1971) Gbudwe krallığı için ~1863-1930 aralığı. TDV 'Zande' maddesi yok. · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Azande Kingdom/Gbudwe): Gbudwe 1870-1905; Gbudwe'nin ölümüyle (1905) Azande bağımsızlık çağı kapandı, ülke sömürge güçleri arasında bölüşüldü; 1914'te prenslerin restorasyon girişimi bastırıldı. 1912 için kaynak bulunamadı. Leiden Üniv. arşiv PDF'leri (scholarlypublications.universiteitleiden.nl item:3718381) arama sonucunda göründü ama okunmadı. f=1750 kaynaksız. · GATED: Evans-Pritchard, The Azande: History and Political Institutions (Clarendon 1971); scholarlypublications.universiteitleiden.nl/access/item:3718381/view (okunabilir olabilir, atlandı)"
 },
 {
 "id": "mangbetu",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1815-01-01 / t 1895-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1815-01-01 / t 1895-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (africanhistoryextra, Universalis, Vikipedi): Yangala 1873-1895 çöküş dönemi; Universalis Belçika işgalini 1885 verir (atlas 1895 ile çelişkili); Okondo 1902-1915 yönetti. Birincil/akademik (Keim, Conquest and Resistance: Mangbetu Kingdoms; Schildkrout & Keim) okunmadı. f=1815 Nabiembali hanedan başlangıcıyla uyumlu (İPUCU, 1800/1815 çelişkili). · GATED: Keim, Curtis, Mangbetu Kingdoms ca. 1750-1895; Schildkrout & Keim, African Reflections (1990)"
 },
 {
 "id": "banda-gbaya",
@@ -1120,7 +1120,7 @@
 {
 "id": "kasance",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1620-01-01 / t 1910-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1620-01-01 / t 1910-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Kasanje Kingdom, Imbangala): kuruluş c.1620 (Imbangala), Portekiz Angola'sına katılma 1910-1911 (bazı liste 1912 isyan). Miller, 'Kings, Lists, and History in Kasanje', History in Africa 6 (1979) pp.51-96 (doi 10.2307/3171741) akademik kaynak, JSTOR gated, okunmadı. Atlas t=1910-01-01 yıl hassasiyetinde İPUCU ile uyumlu (1910-11). · GATED: Miller, History in Africa 6 (1979) JSTOR doi:10.2307/3171741; Miller, Kings and Kinsmen (Clarendon 1976); Thornton, A History of West Central Africa to 1850 (CUP 2020)"
 },
 {
 "id": "matamba",
@@ -1150,7 +1150,7 @@
 {
 "id": "karagve",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1450-01-01 / t 1890-07-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1450-01-01 / t 1890-07-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Kingdom of Karagwe; Statesman's Year-Book 1899 [Wikisource]; germanhistorydocs.org Anglo-German Treaty 1 July 1890): Karagwe Alman nüfuz alanında kaldı (1890 Anglo-Alman Anlaşması); Rumanyika 1853/55-1882/83; krallık 1962-63'te kaldırıldı (düşük güvenilirlik). Atlas t=1890-07-01 yıl/gün Anglo-Alman anlaşması günüdür — iki Avrupa gücü arasındaki sınır anlaşması, Karagwe'nin sonu değil (Alman Himayesi sonrası krallık sürdü) => SINIF/uç hatası. Katoke 1970 okunmadı. · GATED: Katoke, The Karagwe Kingdom (EAPH 1970); germanhistorydocs.org Anglo-German Treaty (birincil metin okunmadı)"
 },
 {
 "id": "toro",
@@ -1185,12 +1185,12 @@
 {
 "id": "kamba",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1895-07-01 (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): 1 Temmuz 1895: Doğu Afrika Himayesi ilanı, idarenin IBEA Şirketi'nden Dışişleri Bakanlığı'na geçişi (Vikipedi 'East Africa Protectorate', EB 1911 Vikikaynak); Statesman's Year-Book 1899 başka bir tarih (15 Haziran 1895) veriyor. Kamba polity'si özelinde kaynak çıkmadı; himaye polity sonu değildir."
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1895-07-01 (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): 1 Temmuz 1895: Doğu Afrika Himayesi ilanı, idarenin IBEA Şirketi'nden Dışişleri Bakanlığı'na geçişi (Vikipedi 'East Africa Protectorate', EB 1911 Vikikaynak); Statesman's Year-Book 1899 başka bir tarih (15 Haziran 1895) veriyor. Kamba polity'si özelinde kaynak çıkmadı; himaye polity sonu değildir. · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (kenyanlist chronology, Vikipedi Lower eastern region (Kenya)): Doğu Afrika Himayesi 1 Temmuz 1895'te IBEAC'ın yerine ilan edildi (Hardinge). Kamba merkezî devlet değil, etnik grup; t=1895-07-01 bir himaye ilanıdır, polity sonu değil. SINIF belirsiz; birincil (London Gazette / Order in Council) okunmadı. · GATED: London Gazette 1895 East Africa Protectorate; Jackson, Akamba history (Kenya national archives)"
 },
 {
 "id": "torva",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1450-01-01 / t 1683-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1450-01-01 / t 1683-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Kingdom of Butua/Khami/Rozvi; zimfieldguide; seshat-db): Torwa hanedanı c.1450-1683, Khami'nin Changamire Dombo tarafından fethi geleneksel olarak 1683 (Pikirayi: 1684 sonrası; Rozvi-Torwa süreklilik tartışması). Atlas t=1683-01-01 yıl hassasiyetinde İPUCU ile uyumlu; Pikirayi, The Zimbabwe Culture / Univ. of Pretoria repository (repository.up.ac.za) akademik metin açılmadı. · GATED: Pikirayi, The Zimbabwe Culture (AltaMira 2001); https://repository.up.ac.za/items/473bfd74-de64-46dd-96fe-9100433345a8/full (Archaeology of the Rozvi tezi, açık olabilir)"
 },
 {
 "id": "rozvi",
@@ -1405,7 +1405,7 @@
 {
 "id": "aleut",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1784-08-14 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1784-08-14 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU: LoC (Meeting of Frontiers, Russian Colonization): Rus-Amerikan Şirketi Aralık 1799'da kuruldu ve Aleutlar'ı 1867'ye dek yönetti; Berkeley arkeoloji raporu: Shelikhov'un Three Saints Harbor (Kodiak) yerleşimi Rus sömürge döneminin başı. Atlas t=1784-08-14 Kodiak (Alutiiq) iniş günüdür, Aleut (Unangan) adalarının değil => olay/halk uyumsuz; birincil gün okunmadı. · GATED: Black, Russians in Alaska 1732-1867 (U Alaska Press); Berkeley kas081-003.pdf tam metin (Three Saints Harbor)"
 },
 {
 "id": "alutiiq",
@@ -1473,7 +1473,7 @@
 {
 "id": "etowah",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1100-01-01 / t 1550-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1100-01-01 / t 1550-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Georgia Encyclopedia [Georgia Humanities/UGA, ansiklopedi ama arkeolojik özet], heritagedaily, ancient-history-sites; arama özeti): işgal c.1000-1550; Etowah (erken), Savannah, Lamar (AD 1375-1550) fazları; kesin terk/yeniden işgal tarihleri kaynaklara göre değişiyor (1100/1200/1375). Adam King, Etowah: The Political History of a Chiefdom Capital (U Alabama Press 2003) akademik kaynak okunmadı. Atlas f=1100, t=1550 yıl hassasiyetinde genel aralıkla uyumlu, 'Etowah' bir arkeolojik site, devlet/polity değil (SINIF eğilimli). · GATED: King, Adam, Etowah: The Political History of a Chiefdom Capital (2003); georgiaencyclopedia.org late-prehistoric-early-historic-chiefdoms-ca-a-d-1300-1850 (tam metin)"
 },
 {
 "id": "moundville",
@@ -1543,7 +1543,7 @@
 {
 "id": "luba",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1585-01-01 / t 1889-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1585-01-01 / t 1889-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Luba Empire, africanhistoryextra; Cambridge JAH makale 'Long-distance trade and the Luba-Lomami empire' [gated]): kuruluş 'bilinmeyen tarih, 16. yy sonundan önce' (atlas 1585 infobox'tan); ~1890'da Msiri'ye tributary; Reefe 'to 1891'. Atlas t=1889 İPUCU; Reefe, The Rainbow and the Kings (UC Press 1981) akademik kaynak okunmadı. · GATED: Reefe, The Rainbow and the Kings: A History of the Luba Empire to 1891 (1981); https://resolve.cambridge.org/core/journals/journal-of-african-history/article/long-distance-trade-and-the-luba-lomami-empire1/D7D10F9C5BB3B3FD8E8B3B269010B828"
 },
 {
 "id": "kuba",
@@ -1577,8 +1577,8 @@
 },
 {
 "id": "aztek-imparatorlugu",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1428-01-01 / t 1521-08-13 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Britannica Fall of Tenochtitlan [403 kapısı; özetle 13 Ağustos 1521 teslim], Vikipedi Third Letter of Cortés): 13 Ağustos 1521 Tenochtitlan'ın düşüşü. Birincil (Cortés Üçüncü Mektup) / akademik metin okunamadı (redalyc PDF akışı sıkıştırılmış, okunamadı). f=1428 (Itzcoatl/Üçlü İttifak) için kaynak aranmadı. · GATED: Britannica Fall of Tenochtitlan (403); Cortés, Cartas de relación, Tercera carta (Gutenberg/Biblioteca Cervantes); https://www.redalyc.org/pdf/589/58949959003.pdf (okunamayan PDF)"
+"hukum": "KISMEN",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1428-01-01 / t 1521-08-13 (bölüm: eserin dizininden) · HÜCUM A2 (REVİZE satır; LAB elemesi): REVİZE (önceki GIRISLI satırının yerine). Redalyc 589/58949959003 PDF (akademik makale, Cortés Tercera carta üzerine; pdftotext ile okundu): \"…cortés determina su éxito y el fin de la guerra (13 de agosto de 1521).\" => t=1521-08-13 (savaşın sonu/Tenochtitlan'ın düşüşü) TEYİT (gün, akademik makale; Cortés Üçüncü Mektup 15 Mayıs 1522'de yazıldı). Jülyen gün (1582 öncesi). f=1428 (Üçlü İttifak) için kaynak aranmadı => KISMEN. · GATED: Britannica Fall of Tenochtitlan (403); f=1428 için: Durán / Chimalpahin / Smith, The Aztecs (Wiley-Blackwell)"
 },
 {
 "id": "maya-sehir-devletleri",
@@ -1629,7 +1629,7 @@
 {
 "id": "lupaqa-krallik",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1281-01-01 / t 1450-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1281-01-01 / t 1450-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Lupaca; dia.upenn.edu): Pachacuti döneminde İnka hâkimiyeti c.1463, Topa Inka (1471-93) isyanı bastırdı c.1473; Lupaqa savaşmadan katıldı. Atlas t=1450-01-01 bu tarihten erken; Murra 1968 'An Aymara Kingdom in 1567' (Ethnohistory) ve Espinoza Soriano 1964 (gated/okunmadı). DUZELT ADAYI (c.1463) ama akademik kaynak okunmadı. Lupaqa İnka altında vassal olarak sürdü, polity sonu değil. · GATED: Murra, 'An Aymara Kingdom in 1567', Ethnohistory 15 (1968) JSTOR; Diez de San Miguel, Visita hecha a la Provincia de Chucuito (1567; Espinoza Soriano 1964 / PUCP ed.); revistas.pucp.edu.pe/index.php/historica/article/download/7840/8110"
 },
 {
 "id": "diaguita-calchaqui-konfederasyonu",
@@ -1658,8 +1658,8 @@
 },
 {
 "id": "arap-cumhuriyetleri-federasyonu",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1972-01-01 / t 1977-11-19 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1972-01-01 / t 1977-11-19 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): Store norske leksikon (snl.no/Den_forente_arabiske_republikk, ulusal ansiklopedi; arama özeti): \"Avtalen ble godkjent i en folkeavstemning i hvert land i september 1971, og unionen trådte formelt i kraft 1. januar 1972.\" => f=1972-01-01 TEYİT. t=1977-11-19 yalnız İPUCU (Vikipedi: Sadat'ın Kudüs ziyareti sonrası Libya çekilişi, 'Kasım 1977'de feshedildi'); snl dissolusyon tarihi okunmadı. · GATED: snl.no/Den_forente_arabiske_republikk tam metin (feshi okunmadı); Seale, Asad (Syria) / Dawisha akademik monografileri"
 },
 {
 "id": "eritre",
@@ -1721,7 +1721,7 @@
 {
 "id": "touggourt",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1414-01-01 / t 1854-12-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1414-01-01 / t 1854-12-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Sultanate of Tuggurt, geneawiki, kupi.com): Fransız ordusu Touggourt'a 2 Aralık 1854'te girdi (Desvaux); sultanlık 1854'te kaldırıldı, son sultan Sulayman IV. Gün birincil/akademik kaynakta doğrulanmadı (Revue africaine Persée açık bulunmadı). f=1414 kaynaksız. · GATED: Bernard & Lacroix, L'évolution du nomadisme en Algérie / La pénétration saharienne (Gutenberg ebook 74216 — okunmadı); Revue africaine (Persée/Gallica), Touggourt 1854"
 },
 {
 "id": "alman-guneybati-afrikasi",
@@ -1741,7 +1741,7 @@
 {
 "id": "shewa",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1813-01-01 / t 1889-03-10 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1813-01-01 / t 1889-03-10 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Menelik II, Gallabat; ethiopiantreasures): Yohannes IV 9-10 Mart 1889'da Metemma'da öldü; Menelik kendini 25-26 Mart 1889'da imparator ilan etti, taç giyme 3 Kasım 1889. Atlas t=1889-03-10 Yohannes'in ölüm günüdür, Şova krallığının sonu değil (Menelik Şova kralı sıfatıyla imparatorluğu devraldı, Şova yönetimi sürdü) => SINIF/uç sorunu. Birincil/akademik (Marcus, Life and Times of Menelik II) okunmadı. · GATED: Marcus, Harold, The Life and Times of Menelik II (Clarendon 1975); Rubenson, The Survival of Ethiopian Independence (1976)"
 },
 {
 "id": "danimarka-bati-hint",
@@ -1776,7 +1776,7 @@
 {
 "id": "chamorro",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 0800-01-01 / t 1698-01-01 (bölüm: eserin dizininden) · İPUCU: Guampedia Latte dönemini AD 800-1700 veriyor (Vikipedi 900-1700; başka kaynak 1000-1521) — f 0800 yıl düzeyinde Guampedia ile uyumlu ama Guampedia ansiklopedik/yarı akademik; Hezel/MARC metni okunamadı; 1698 'redüksiyonun tamamlanması' doğrulanmadı."
+"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 0800-01-01 / t 1698-01-01 (bölüm: eserin dizininden) · İPUCU: Guampedia Latte dönemini AD 800-1700 veriyor (Vikipedi 900-1700; başka kaynak 1000-1521) — f 0800 yıl düzeyinde Guampedia ile uyumlu ama Guampedia ansiklopedik/yarı akademik; Hezel/MARC metni okunamadı; 1698 'redüksiyonun tamamlanması' doğrulanmadı. · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): Hezel & Driver (akademik; arama özeti, Guampedia/MicSem 'From Conquest to Colonization: Spain in the Marianas 1690-1740'): 1698'de Gani (kuzey adaları) halkına İspanyol boyun eğdirme seferi, halk sonra Saipan ve Guam'a nakledildi; reducción tamamlanması 1698. Guampedia snippet: silahlı savaşın sonu 1695 (Aguiguan). Atlas t=1698-01-01 yıl hassasiyetinde reducción/Gani seferi yılıyla uyumlu (YIL 1698 desteklenir), 1695 alternatifi var. f=0800 kaynak aranmadı. Guampedia tam metni açılmadı. [LAB elemesi: ajan KISMEN dedi; dayanak İPUCU/ikincil düzeyde → GIRISLI] · GATED: https://micsem.org/article/from-conquest-to-colonization-spain-in-the-marianas-1690-1740/ (tam metin); Hezel, Strange Landfall (1979) / Rogers, Destiny's Landfall (1995)"
 },
 {
 "id": "caral-norte-chico",
@@ -1786,7 +1786,7 @@
 {
 "id": "ceibal",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Watʼul Chatel, themayanruinswebsite, ancient-history-sites): Ceibal'in son anıtı 889'da (Katun sonu) dikildi; 830'da Watʼul Chatel krallığı; atlas t=0889-01-01 son tarihli anıtla uyumlu — ama 'son anıt' polity sonu değildir, boşluk/terk sonrası. Martin & Grube okunmadı; f=0411 (Ceibal'in erken Klasik ilk hükümdarı) kaynak aranmadı. · GATED: Martin & Grube, Chronicle of the Maya Kings and Queens (Thames & Hudson 2008); Inomata et al. Ceibal Preclassic excavations (Science 2013, Nature 2020)"
 },
 {
 "id": "cholula",
