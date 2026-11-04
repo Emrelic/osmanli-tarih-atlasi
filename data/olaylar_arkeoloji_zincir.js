@@ -183,7 +183,7 @@ window.OLAYLAR_ARKEOLOJI_ZINCIR = [
    "Hemedan"
   ]
  },
- {
+ { odak_yer:["Ur (Tell al-Muqayyar)","Hemedan"],
   "t": "-0329-01-01",
   "k": "diger",
   "b": "Ekbatana, Hemedan: Ahamenis (Pers) Imparatorlugu → sahipsiz aralık",

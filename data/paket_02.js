@@ -2279,7 +2279,7 @@ window.OLAYLAR_EK13 = [
 //   dediği şeyin ta kendisi. Denetim temiz, gösterim yanlış.
 //   ⇒ A-20 bu boşluğu kapatır.
 
-{ t:"1517-05-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
+{ odak_yer:["Mardin","Diyarbakır"], t:"1517-05-01", k:"fetih", etiket:["toprak-kazanc","konu-askeri"],
   b:"Mardin kalesinin teslimi — Diyarbekir'in güneyinde Safevî direncinin sonu",
   gun:"Mayıs 1517", ic_not_gun:"(TDV `mardin`: şehrin zaptı \\\"1516 sonlarında VEYA Mayıs 1517\\\"; TDV `biyikli-mehmed-pasa`: şehir alındı, \\\"kalesi ancak dokuz ay sonra teslim alındı\\\". Gün hiçbirinde YOK)",
   yer:"Mardin, Diyarbekir", yer_id:"Mardin", kisiler:"Bıyıklı Mehmed Paşa, Kara Han (Safevî valisi)",

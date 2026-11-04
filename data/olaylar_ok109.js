@@ -107,7 +107,7 @@ window.OLAYLAR_OK109 = [
     kaynak: "avusturya"
   },
 
-  {
+  { odak_yer:["Peşte"],
     t: "1918-10-31", k: "siyaset", etiket: ["siyaset", "ayaklanma", "konu-siyasi", "konu-isyan"],
     kapsam:"dis", b: "Pat Çiçeği Devrimi — Károlyi başbakan oldu, Macaristan'da monarşi çözülmeye başladı (halk cumhuriyeti 16 Kasım'da ilân edildi)", yer_kon:[47.498,19.04],
     gun: "31 Ekim 1918",
@@ -147,7 +147,7 @@ window.OLAYLAR_OK109 = [
     kaynak: "avusturya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Traité de Saint-Germain-en-Laye (10.9.1919), Partie III — Digithèque MJP, Université de Perpignan, https://mjp.univ-perp.fr/traites/1919saintgermain2.htm"
   },
 
-  {
+  { odak_yer:["Peşte"],
     t: "1920-06-04", k: "antlasma", etiket: ["antlasma", "toprak-kaybi", "konu-askeri", "konu-diplomasi"],
     kapsam:"dis", b: "Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti", kapsam_genis:true,
     gun: "4 Haziran 1920",
