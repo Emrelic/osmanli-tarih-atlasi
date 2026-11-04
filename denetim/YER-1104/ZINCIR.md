@@ -204,4 +204,24 @@ Sınırlar (KASA bilsin):
 | `zincir.json`deki toplam | 81 (Arad + parti 1-4) |
 | KASA'ya hazır tam zincir | **58** temiz + 6 künye aralığı (beyanlı ❌) = **64** |
 | ⏸ kurulamadı / taslak | 17 (Fethülislâm, Kailua-Kona, Rânye, Oltu, Lakiş + 12 kısmi antik) |
-| henüz işlenmedi | parti 5: Momemphis, İpsos, Opis, Musasir, Kirrha (antik). Önerim: Oxford/JSTOR erişimi olan bir oturumda, kısmi 12 ile birlikte |
+| henüz işlenmedi | parti 5: Momemphis, İpsos, Opis, Musasir, Kirrha (antik) — EMRELİC kararı (4 Kasım): bırakıldı, kısmi 12 ile birlikte taslakta kalır |
+
+## KASA teslimi: `zincir_hazir.json` (64 nokta; ağaç d24c9cabb, origin/main 2fdc19540 içerir)
+
+- **İçerik:** Yalnız zinciri dolu noktalar var; taslak ve kurulamadı noktalar dışarıda. Dosyayı `zincir_hazir_yaz.py` üretir.
+- **Denetim:** `py denetim/YER-1104/zincir_dogrula.py denetim/YER-1104/zincir_hazir.json` → 58 ✅ · 6 ❌ · 0 ⏸.
+- **6 ❌ künye aralığıdır, beyanlıdır.** Bu noktalar: Tepedelen, Drivasto, Tellülkebîr, Algeciras, Somnât, Misilmeri.
+  - Komşu kayıtlar aynı günleri kullanıyor; nokta, komşusuyla tutarlı olsun diye o günlerle yazıldı.
+  - KASA künye uçlarını hizalarsa ❌ kendiliğinden kalkar.
+  - Hizalamadan yazarsa, nokta bugünkü komşularıyla aynı sınır aşımını taşır.
+- **Yazım:**
+  - `alan` değerleri yerleşim dosyalarındaki `s:`, `d:`, `v:` ve `isg:` dizilerine karşılık gelir.
+  - `kur` ve `bit` doluysa kayda aynen yazılır.
+  - `not`, KASA'nın okuyacağı beyandır; veriye girmez.
+- **Önce düzeltilecek künye ve komşu kayıtları:**
+  - `fetret-musa` f
+  - Arnavutluk 1939/1943 künye uçları
+  - Mısır 1517 geçişi
+  - Vaç 1594-1663
+  - Orsova 1918
+  - eksik id'ler: `sirbistan`, `avusturya`, `bosna`, fetret şehzadeleri, `hannover-kralligi`
