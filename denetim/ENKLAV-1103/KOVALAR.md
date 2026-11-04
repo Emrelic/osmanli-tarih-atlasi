@@ -22,7 +22,8 @@
 | B | NDH 1941-1945: işgal/NDH dönemi yok (1943'te 'yugoslavya') | 51 | VERİ ÖLÇÜMÜ (boşluk); İtalya/Macar ayrımı KAYNAK-GEREK | 0 |
 | L1 | Konfedere eyaletler 1861-1865 'abd' | 39 | VERİ ÖLÇÜMÜ (kaba kutu) | 39 |
 | L3 | Malaya 1942-1945 Japon işgali yazılmamış | 5 | VERİ ÖLÇÜMÜ | 5 |
-| N1 | Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok) | 16 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 0 |
+| N1 | Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok) | 8 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 0 |
+| N1b | Alpenvorland / Adriatisches Küstenland 1943-1945 (Reich, RSI dışı) | 13 | KAYNAKLI (Treccani) + günler KAYNAK-GEREK | 0 |
 | N2 | Kurland-Litvanya 1915-1918 Rus (Ober Ost işgali yok) | 5 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 4 |
 | N5 | Güney Hollanda (Belçika) 1813-1814 'hollanda' | 1 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 1 |
 | N6 | Slovakya 1919 'macaristan-naiplik' (Çekoslovak işgali yok) | 15 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 14 |
@@ -35,7 +36,7 @@
 | E | Çatı kimlikler: ayrı devletler tek kimlik / aynı hükümdar iki kimlik | 10 | MODEL KARARI (Emre) | 0 |
 | M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 23 | MOTOR SORUSU (HAVVA/Emre) | 0 |
 
-Toplam satır: 656.
+Toplam satır: 661.
 
 ## 1. Hemen uygulanabilir — VERİ ÖLÇÜMÜ (dönem olgusu ölçüldü; halef/gün notu satırda)
 
@@ -297,7 +298,10 @@ _Bugünkü veride eşleşen satır yok._
 - Kural: s: dönemi 1917-11-07'de açılıp en az 1920-03'e dek kesintisiz 'sovyet-rusya'; o bölgede 1917-1922 ara devletleri (künyeleri devletler.js'te var) hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E021, E046-E051; ENKLAV-1104 K112, K177, K214, K291, K352-K354, K373
 - **Kaynaklı günler (KAYNAK2):**
-  - Kuzey Kafkasya (Dağlı Cumhuriyeti, Terek, Denikin) için kaynaklı gün bulunamadı — KAYNAK-GEREK.
+  - `1918-05-11` Dağıstan ve Kuzey Kafkasya Cumhuriyeti bağımsızlık ilanı (Osmanlı desteğiyle) — TDV İslâm Ansiklopedisi, "Dağıstan" (Ziya Musa Buniyatov), https://islamansiklopedisi.org.tr/dagistan — "11 Mayıs 1918’de Dağıstan Osmanlılar’ın desteğiyle Dağıstan ve Kuzey Kafkasya Cumhuriyeti adı altında bağımsızlığını ilân etti"
+  - `1920-03-30` Kızılordu Temir Han Şura'ya girdi, Dağıstan'ın işgali başladı — aynı madde — "30 Mart 1920’de Kızılordu Timurhanşura’ya girdi ve Dağıstan’ı işgale başladı"
+  - `1921-01-20` Dağıstan ÖSSC (RSFSC'ye bağlı) — aynı madde — "20 Ocak 1921’de ... Dağıstan Özerk Sovyet Sosyalist Cumhuriyeti"
+  - 1917 sonrası Terek-Dağıstan mahallî hükümeti (aynı madde, gün yok); 1919 Denikin işgali günü okunmadı. Kuban/Stavropol/Karadeniz kıyısı (Anapa, Tuapse) için ayrı kaynak gerek.
 - Ortak öneri (aksi yazılmadıkça): 1917-1920 Dağlı Cumhuriyeti / Terek-Dağıstan Sovyetleri / guney-rusya-beyaz (Denikin 1919) / 1918 Osmanlı (Derbend, Temir Han Şura) — hangi yapı ve gün şehir şehir kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -419,7 +423,8 @@ _Bugünkü veride eşleşen satır yok._
 - Kural: s: dönemi 1917-11-07'de açılıp en az 1920-03'e dek kesintisiz 'sovyet-rusya'; o bölgede 1917-1922 ara devletleri (künyeleri devletler.js'te var) hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E021, E046-E051; ENKLAV-1104 K112, K177, K214, K291, K352-K354, K373
 - **Kaynaklı günler (KAYNAK2):**
-  - Belarus Halk Cumhuriyeti / Ober Ost / 1919-20 Polonya işgali için açık akademik kaynak okunamadı — KAYNAK-GEREK (EMRELİC'e: Oxford Reference 'Belarus').
+  - `1920-07-11` Kızıl Ordu Minsk'i Polonya'dan geri aldı — Oxford Companion to Military History (2004), "Russo-Polish war (1920)" — "on 11 July the Soviets recaptured Minsk" (EMRELİC okuması, Oxford Reference)
+  - Minsk'in Polonya'ya düşüşü (Ağustos 1919), Belarus Halk Cumhuriyeti ve Ober Ost günleri okunamadı — KAYNAK-GEREK.
 - Ortak öneri (aksi yazılmadıkça): 1918-02 → 1918-11 Alman işgali (Brest-Litovsk); belarus-halk-cumhuriyeti 1918-03-25 → 1919-01-05 (künye); 1919-1920 polonya işgali (Minsk 1919-08 → 1920-07) — günler kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -612,18 +617,41 @@ _Bugünkü veride eşleşen satır yok._
 | Negeri Sembilan (Seremban) | `data/yerlesimler_gdasya.js:113` | s:fed-malay-devletleri 1896-07-01→1946-04-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
 | Klang | `data/yerlesimler_gdasya.js:208` | s:fed-malay-devletleri 1896-07-01→1946-04-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
 
-### N1 · Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok) (16)
+### N1 · Kuzey İtalya 1943-1945 'italya' (Salò / Alman işgali yok) (8)
 
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
-- Kural: (44.0, 46.6, 6.6, 13.8) kutusunda 1944-06-01 günü sahibi italya olan noktalar.
+- Kural: (44.0, 47.2, 6.6, 14.6) kutusunda 1944-06-01 günü sahibi italya olan noktalar.
 - Hükümler: ENKLAV-1104 K406
 - **Kaynaklı günler (KAYNAK2):**
   - `1943-09-23` Repubblica Sociale Italiana kuruluşu (Salò) — Treccani, "Repubblica sociale italiana", https://www.treccani.it/enciclopedia/repubblica-sociale-italiana/ — "instaurato il 23 settembre 1943 da B. Mussolini, nella parte di territorio italiano occupato dai Tedeschi"
   - Aynı madde: Trentino, Alto Adige, Belluno, Friuli, Venezia Giulia ve İstria RSI dışında, fiilen Üçüncü Reich'a bağlı ("annesse di fatto al Terzo Reich") — bu bölgelerdeki noktalar salo değil almanya (OZAV/OZAK) olmalı. Bitiş (1945 Nisan) bu maddede okunmadı.
-- Ortak öneri (aksi yazılmadıkça): 1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla
+- Ortak öneri (aksi yazılmadıkça): 1943-09-23 → 1945-04-25/28 salo-cumhuriyeti — şehir şehir kurtuluş günleri kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
 |---|---|---|---|---|---|
+| Lošinj (Lussino) | `data/yerlesimler.js:1845` | s:italya 1920-11-12→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Ravenna | `data/yerlesimler_avrupa.js:512` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Rimini | `data/yerlesimler_avrupa.js:513` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Guastalla | `data/yerlesimler_avrupa.js:677` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Aosta | `data/yerlesimler_a78_avrupa.js:119` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Como | `data/yerlesimler_once1281_avrupa.js:22` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Saluzzo | `data/yerlesimler_ms1_1281_yeni.js:171` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Legnano | `data/yerlesimler_ms1_1281_yeni.js:268` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+
+### N1b · Alpenvorland / Adriatisches Küstenland 1943-1945 (Reich, RSI dışı) (13)
+
+- Dayanak: KAYNAKLI (Treccani) + günler KAYNAK-GEREK
+- Kural: N1 kutusundan ayrılan, Treccani'ye göre RSI dışında kalıp fiilen Reich'a bağlanan bölgelerdeki noktalar.
+- Hükümler: ENKLAV-1104 K406
+- **Kaynaklı günler (KAYNAK2):**
+  - `1943-09-08` Ateşkes sonrası Belluno, Trento, Bolzano Alman denetimine geçti: Alpenvorland (komiser Bolzano'da), RSI'den ayrı — Treccani, "Belluno" (Enciclopedia Italiana), https://www.treccani.it/enciclopedia/belluno_res-426c5aa5-87e5-11dc-8e9d-0016357eee51_(Enciclopedia-Italiana)/ — "Dopo la proclamazione dell'armistizio (8 settembre 1943) la provincia di Belluno, con quelle di Trento e di Bolzano, passò sotto il controllo germanico: le tre provincie costituirono la zona dell'Alpenvorland" [yalnız 'sonrası'; operasyon bölgesinin kuruluş günü okunmadı]
+  - `1945-05-01` Belluno'da çatışmaların sonu — aynı madde — "non ebbe termine che il 1° maggio 1945"
+  - Adriatisches Küstenland (Friuli, Venezia Giulia, İstria) için Treccani'de gün bulunamadı (Küstenland ve Venezia Giulia maddeleri 1943'ü anmıyor) — KAYNAK-GEREK.
+- Ortak öneri (aksi yazılmadıkça): 1943-09-08 sonrası Alman denetimi → Alpenvorland (Bolzano, Trento, Belluno) / Adriatisches Küstenland (Friuli, Venezia Giulia, İstria) — almanya (Reich operasyon bölgesi), RSI değil; bitiş Belluno 1945-05-01 (Treccani); Küstenland günleri KAYNAK-GEREK
+
+| ad | dosya:satır | şimdi | öneri | güven | kronoloji |
+|---|---|---|---|---|---|
+| Cres (Cherso) | `data/yerlesimler.js:1844` | s:italya 1920-11-12→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
 | Udine | `data/yerlesimler_avrupa.js:485` | s:italya 1866-10-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
 | Belluno | `data/yerlesimler_avrupa.js:490` | s:italya 1866-10-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
 | Feltre | `data/yerlesimler_avrupa.js:491` | s:italya 1866-10-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
@@ -631,21 +659,19 @@ _Bugünkü veride eşleşen satır yok._
 | Tarvis (Tarvisio) | `data/yerlesimler_avrupa.js:494` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
 | Trieste | `data/yerlesimler_avrupa.js:496` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
 | Trento | `data/yerlesimler_avrupa.js:498` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
-| Ravenna | `data/yerlesimler_avrupa.js:512` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
-| Rimini | `data/yerlesimler_avrupa.js:513` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
-| Guastalla | `data/yerlesimler_avrupa.js:677` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Pula (Pola) | `data/yerlesimler_avrupa.js:605` | s:italya 1920-11-12→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
 | Cortina d'Ampezzo | `data/yerlesimler_avrupa.js:684` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
 | Gradisca d'Isonzo | `data/yerlesimler_avrupa.js:688` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
-| Aosta | `data/yerlesimler_a78_avrupa.js:119` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
-| Como | `data/yerlesimler_once1281_avrupa.js:22` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
-| Saluzzo | `data/yerlesimler_ms1_1281_yeni.js:171` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
-| Legnano | `data/yerlesimler_ms1_1281_yeni.js:268` | s:italya 1861-03-17→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Fiume (Rijeka) | `data/yerlesimler_nokta3.js:13` | s:italya 1924-01-27→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
+| Brixen (Bressanone) | `data/yerlesimler_a78_avrupa.js:114` | s:italya 1918-11-03→1946-06-18 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR (taraf): 1943-09-23 — Mussolini Salò Cumhuriyeti'ni kurdu: kuzey İtalya Alman himayesinde İt |
 
 ### N2 · Kurland-Litvanya 1915-1918 Rus (Ober Ost işgali yok) (5)
 
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: (53.9, 57.9, 20.9, 26.9) kutusunda 1916-06-01 günü sahibi rusya/rusya-gecici-hukumet olan noktalar.
 - Hükümler: ENKLAV-1104 K447, K448
+- **Kaynaklı günler (KAYNAK2):**
+  - Treccani "Curlandia" (https://www.treccani.it/enciclopedia/curlandia/): "Occupata dall’esercito tedesco (1918)" — yaygın bilinen 1915 işgaliyle ÇELİŞİYOR (1918 Kurland düklüğü ilanını tarihliyor olabilir). Kaynaklı 1915 günü bulunamadı — KAYNAK-GEREK; çelişki ic_not'ta.
 - Ortak öneri (aksi yazılmadıkça): 1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -698,6 +724,8 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ
 - Kural: s: dönemi 'napoli' olup 1282-03-30'dan önce başlayan noktalar.
 - Hükümler: ENKLAV-1104 K450
+- **Kaynaklı günler (KAYNAK2):**
+  - `1282-03-30` Sicilya Akşam Duası (Palermo); Angevinler Sicilya'dan atıldı, ana kara (Napoli) Angevin kaldı — Treccani, "Vespri siciliani", https://www.treccani.it/enciclopedia/vespri-siciliani/ — "Insurrezione scoppiata (1282) a Palermo all'ora del vespro del lunedì di Pasqua contro il malgoverno di Carlo I d'Angiò"; Caltabellotta (1302) Angevinlerin atılışını ve Aragon tacını onayladı [gün: 1282 Paskalya Pazartesi'sinden hesaplandı (Jülyen 30 Mart) — beyan]
 - Ortak öneri (aksi yazılmadıkça): 1282-03-30 (Sicilya Akşam Duası) öncesi sicilya-kralligi; napoli f → 1282-03-30
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -922,6 +950,8 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: MODEL KARARI (Emre)
 - Kural: Her satır bir kimlik; karar: (1) ayrı künyelere böl, (2) eksklav evreninden beyanla çıkar, (3) olduğu gibi bırak.
 - Hükümler: ENKLAV-1104 K104, K109, K113, K118, K122, K147, K170, K187, K229, K261, K277, K285, K295, K296, K303, K329, K347, K391, K395
+- **Kaynaklı günler (KAYNAK2):**
+  - `1230` Kastilya ve León'un III. Fernando altında kesin birleşmesi (Kastilya tahtı 1217, León 1230) — Treccani, "Ferdinando III il Santo", https://www.treccani.it/enciclopedia/ferdinando-iii-il-santo/ — "successe al padre nel 1230: nel 1217 aveva ottenuto il trono di Castiglia" (yalnız yıl) — kastilya/leon-kralligi çatı sorusu için 1230 sonrası tek kimlik
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
 |---|---|---|---|---|---|

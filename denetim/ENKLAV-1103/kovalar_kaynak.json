@@ -16,8 +16,16 @@
   {"gun": "1920-07-28", "olay": "XI. Kızılordu Nahçıvan'a girdi", "kaynak": "TDV, \"Nahcıvan\" (Hüsamettin M. Karamanlı), https://islamansiklopedisi.org.tr/nahcivan — \"XI. Kızılordu 28 Temmuz 1920’de Nahcıv[an'a]\"; Mart 1920 Türk ordusu Nahcıvan'a girdi"},
   {"gun": "1920-12-02", "olay": "Gümrü Antlaşması (Ermenistan'ın Sovyetleşme çerçevesi)", "kaynak": "TDV, \"Revan\" (Mustafa Aydın), https://islamansiklopedisi.org.tr/revan — \"Gümrü Antlaşması ile birlikte (2 Aralık 1920)\"; Revan 1918 Haziran'da Osmanlı'nın tanıdığı Ermenistan'ın başşehri [kısmen: Sovyetleşme günü değil antlaşma günü]"}
 ],
-"A-KKF": [{"not": "Kuzey Kafkasya (Dağlı Cumhuriyeti, Terek, Denikin) için kaynaklı gün bulunamadı — KAYNAK-GEREK."}],
-"A-BEL": [{"not": "Belarus Halk Cumhuriyeti / Ober Ost / 1919-20 Polonya işgali için açık akademik kaynak okunamadı — KAYNAK-GEREK (EMRELİC'e: Oxford Reference 'Belarus')."}],
+"A-KKF": [
+  {"gun": "1918-05-11", "olay": "Dağıstan ve Kuzey Kafkasya Cumhuriyeti bağımsızlık ilanı (Osmanlı desteğiyle)", "kaynak": "TDV İslâm Ansiklopedisi, \"Dağıstan\" (Ziya Musa Buniyatov), https://islamansiklopedisi.org.tr/dagistan — \"11 Mayıs 1918’de Dağıstan Osmanlılar’ın desteğiyle Dağıstan ve Kuzey Kafkasya Cumhuriyeti adı altında bağımsızlığını ilân etti\""},
+  {"gun": "1920-03-30", "olay": "Kızılordu Temir Han Şura'ya girdi, Dağıstan'ın işgali başladı", "kaynak": "aynı madde — \"30 Mart 1920’de Kızılordu Timurhanşura’ya girdi ve Dağıstan’ı işgale başladı\""},
+  {"gun": "1921-01-20", "olay": "Dağıstan ÖSSC (RSFSC'ye bağlı)", "kaynak": "aynı madde — \"20 Ocak 1921’de ... Dağıstan Özerk Sovyet Sosyalist Cumhuriyeti\""},
+  {"not": "1917 sonrası Terek-Dağıstan mahallî hükümeti (aynı madde, gün yok); 1919 Denikin işgali günü okunmadı. Kuban/Stavropol/Karadeniz kıyısı (Anapa, Tuapse) için ayrı kaynak gerek."}
+],
+"A-BEL": [
+  {"gun": "1920-07-11", "olay": "Kızıl Ordu Minsk'i Polonya'dan geri aldı", "kaynak": "Oxford Companion to Military History (2004), \"Russo-Polish war (1920)\" — \"on 11 July the Soviets recaptured Minsk\" (EMRELİC okuması, Oxford Reference)"},
+  {"not": "Minsk'in Polonya'ya düşüşü (Ağustos 1919), Belarus Halk Cumhuriyeti ve Ober Ost günleri okunamadı — KAYNAK-GEREK."}
+],
 "A-UZD": [{"not": "Uzak Doğu Cumhuriyeti için bağımsız kaynak okunmadı (atlas kronolojisi dayanak olamaz) — KAYNAK-GEREK."}],
 "B": [
   {"gun": "1941-04-10", "olay": "NDH ilanı (S. Kvaternik, radyo)", "kaynak": "Hrvatska enciklopedija, \"Nezavisna Država Hrvatska\", https://www.enciklopedija.hr/clanak/nezavisna-drzava-hrvatska — \"proglasio ju je preko radija vođa domovinske ustaške skupine S. Kvaternik 10. IV. 1941\""},
@@ -34,6 +42,18 @@
 "N1": [
   {"gun": "1943-09-23", "olay": "Repubblica Sociale Italiana kuruluşu (Salò)", "kaynak": "Treccani, \"Repubblica sociale italiana\", https://www.treccani.it/enciclopedia/repubblica-sociale-italiana/ — \"instaurato il 23 settembre 1943 da B. Mussolini, nella parte di territorio italiano occupato dai Tedeschi\""},
   {"not": "Aynı madde: Trentino, Alto Adige, Belluno, Friuli, Venezia Giulia ve İstria RSI dışında, fiilen Üçüncü Reich'a bağlı (\"annesse di fatto al Terzo Reich\") — bu bölgelerdeki noktalar salo değil almanya (OZAV/OZAK) olmalı. Bitiş (1945 Nisan) bu maddede okunmadı."}
+],
+"N1b": [
+  {"gun": "1943-09-08", "olay": "Ateşkes sonrası Belluno, Trento, Bolzano Alman denetimine geçti: Alpenvorland (komiser Bolzano'da), RSI'den ayrı", "kaynak": "Treccani, \"Belluno\" (Enciclopedia Italiana), https://www.treccani.it/enciclopedia/belluno_res-426c5aa5-87e5-11dc-8e9d-0016357eee51_(Enciclopedia-Italiana)/ — \"Dopo la proclamazione dell'armistizio (8 settembre 1943) la provincia di Belluno, con quelle di Trento e di Bolzano, passò sotto il controllo germanico: le tre provincie costituirono la zona dell'Alpenvorland\" [yalnız 'sonrası'; operasyon bölgesinin kuruluş günü okunmadı]"},
+  {"gun": "1945-05-01", "olay": "Belluno'da çatışmaların sonu", "kaynak": "aynı madde — \"non ebbe termine che il 1° maggio 1945\""},
+  {"not": "Adriatisches Küstenland (Friuli, Venezia Giulia, İstria) için Treccani'de gün bulunamadı (Küstenland ve Venezia Giulia maddeleri 1943'ü anmıyor) — KAYNAK-GEREK."}
+],
+"N2": [{"not": "Treccani \"Curlandia\" (https://www.treccani.it/enciclopedia/curlandia/): \"Occupata dall’esercito tedesco (1918)\" — yaygın bilinen 1915 işgaliyle ÇELİŞİYOR (1918 Kurland düklüğü ilanını tarihliyor olabilir). Kaynaklı 1915 günü bulunamadı — KAYNAK-GEREK; çelişki ic_not'ta."}],
+"N4": [
+  {"gun": "1282-03-30", "olay": "Sicilya Akşam Duası (Palermo); Angevinler Sicilya'dan atıldı, ana kara (Napoli) Angevin kaldı", "kaynak": "Treccani, \"Vespri siciliani\", https://www.treccani.it/enciclopedia/vespri-siciliani/ — \"Insurrezione scoppiata (1282) a Palermo all'ora del vespro del lunedì di Pasqua contro il malgoverno di Carlo I d'Angiò\"; Caltabellotta (1302) Angevinlerin atılışını ve Aragon tacını onayladı [gün: 1282 Paskalya Pazartesi'sinden hesaplandı (Jülyen 30 Mart) — beyan]"}
+],
+"E": [
+  {"gun": "1230", "olay": "Kastilya ve León'un III. Fernando altında kesin birleşmesi (Kastilya tahtı 1217, León 1230)", "kaynak": "Treccani, \"Ferdinando III il Santo\", https://www.treccani.it/enciclopedia/ferdinando-iii-il-santo/ — \"successe al padre nel 1230: nel 1217 aveva ottenuto il trono di Castiglia\" (yalnız yıl) — kastilya/leon-kralligi çatı sorusu için 1230 sonrası tek kimlik"}
 ],
 "N6": [{"not": "Slovakya 1918-12/1919-01 Çekoslovak işgali için açık akademik kaynak okunamadı — KAYNAK-GEREK (EMRELİC'e: Oxford Reference 'Slovakia' / 'Czechoslovakia')."}]
 }
