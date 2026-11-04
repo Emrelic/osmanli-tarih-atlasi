@@ -53,6 +53,6 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 
 - `tubu-tibesti`: 3 yerleşim (`data/yerlesimler_afrika2.js` s.103-116: Bardaî, Vûr, Zûâr) — hepsi s: tubu-tibesti 1281-01-01→1914-01-01, sonra fransa-cumhuriyet 1914-01-01→1960-08-11, sonra cad. EMRELİC kararına göre 1914-16 Fransız varlığı `isg:` (d: fransa-cumhuriyet; Zimmermann 1916: Zouar Aralık 1913, Bardaï 1914-06-23, fetih 1914-09-01; çekiliş 1916 CHA VII) olmalı, `s:` tubu-tibesti kalıcı yeniden işgale dek sürmeli — yeniden işgal günü kaynak bekliyor, şimdilik veri DEĞİŞMEZ. Ayrıca atlasın `Tibesti` bölge kaydı (`data/yerlesimler.js` s.1457, bos:'kabile', 'hiçbir devletin fiilen ulaşmadığı') bu künyeyle çelişiyor — eski not
 
-Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] — ONERI.md.
+Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'**1948-01-04**', ust:'ingiltere'}] — ONERI.md. ⚠️ Önceki öneri t:'1923-10-29' idi; o uç UFUK-1923 sahte kesiğidir (UFUK-1923.md: Government of Burma Act 1935 Şan devletlerini 'British Burma' dışında sayar; İngiliz üst egemenliği Burma Independence Act 1947 ile 1948-01-04'te kalkar). Uç değişikliği EMRELİC onayına sunuldu.
 
 Toplam 30 alan düzeltmesi, 30 künye.
