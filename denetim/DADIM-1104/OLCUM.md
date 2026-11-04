@@ -636,6 +636,31 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Dağılım: Şan devletleri → ingiliz-burma 5; Malaya 2; Hollanda Doğu Hint 3; Kaçar 3 (Culfa, Astara, Bacirge); Moğolistan 2; Chaco 2; ABD-Meksika 2; ayrıca Kunfüze, Ferasan, Zerenc, Halâib, Sarp, Avsa, Caruru, Patagonya.
   - Hepsinin kendi devir günü kaynaktan bulunmalı; KASA kuyruğuna yazıldı.
 
+## 26. Hukukî iade ve fiilî çekiliş kararları (EMRELİC, 4 Kasım 2026 gece-4; `karar31` notları, 46 satır)
+- **Petsamo:** `s: sovyet` 1944-09-19. Moskova Mütarekesi md. 7 hukukî iadedir ve Sovyet idaresi kuruldu; Paris 1947-02-10 `ic_not`'a.
+- **Telavi:** `s:` Gürcistan SSC'nin bölgeyi fiilen yönettiği günden. Gün yoksa SSC ilanı 1921-02-25 + beyan; ilerleme günleri `isg` yazılmaz.
+- **Silopi:** Musul/Mersin emsali. `d: osmanli` + `isg ingiltere`, `s: tbmm` fiilî devirden; 1926 Ankara Antlaşması `ic_not`'a.
+- **Lâhîcan ve Bender Enzeli:** Reşt 1732-02-01 hukukî iade → `s: iran`. TDV Gîlân'ın 1734'ü fiilî çekilişse 1732-1734 `isg rusya` (iki kaynak `ic_not`'ta). TDV iadeyi 1734 diye tarihliyorsa TDV esas → KASA TDV cümlesini okur.
+- **Borçka:** Ayastefanos ön barıştır, sayılmaz. `s: rusya` 1878-07-13 Berlin; Batum teslimi 1878-08-25 `ic_not`'a (Selanik emsali). TBMM 1921-02-27, Kars Antlaşması `ic_not`'a.
+- **Kudus (Cava):** 1743 VOC'ye antlaşmayla devir + VOC idaresi → `s: voc`, "kiralama" `ic_not`'a. 1945-49 rakip hükûmet kuralı: fiilen yöneten (Cumhuriyet 1945-08-17 / Hollanda → 1949-12-27).
+- **Kızılarvat:** 1881 fethi `isg`; `s: rusya` Zakaspi oblastının kuruluşundan; Ahal-Horasan 1881-12-21 `ic_not`'a.
+- **Uygun bulunan öneriler:** Kursk, Gulca, Şerur, Mangışlak, Çorum, Manila.
+- **Malikiye (Derik):** AD KARIŞMASI → KASA-YER kuyruğu.
+
+## 27. Akra/Musul ve Mustafapaşa (EMRELİC, 4 Kasım 2026 gece-5; `karar32` notları)
+- **Akra, Tirwānīsh, Rewândiz:** Levant kuralı aynı kalır (`s: irak` 1921-08-23). `ic_not`'a iki tarih yazılır: TDV Musul'un hukukî kalış günü (1926-06-05 Ankara Antlaşması) ve kuralın 1921-08-23'ü.
+- **Mustafapaşa (Svilengrad): ASKIDA.** 1915'e uzatmanın iki şartı var:
+  1. TDV cümlesi okundu (Halaçoğlu 1993): "1915'te Bulgaristan Krallığı'nın Alman ittifakına katılması için Almanya'nın baskısıyla yapılan bir sınır düzeltmesinde Bulgaristan'a terkedilen kasaba". Aynı maddede 1913 geçmiyor.
+  2. 1913 İstanbul Antlaşması'nın sınır maddesi ikinci kaynaktan okunacak (Mustafapaşa kimde kaldı?). 1915 devir günü (EMRELİC'in hatırladığı Sofya 1915-09-06) kaynakla doğrulanacak.
+  - Teyit edilemezse 1913 kaydı durur. Dimetoka ve Edirne kıyısındaki 1915 devir yerleri (Karaağaç hariç) aynı zincire bağlanır. TDV Dimetoka (Kiel) 1913/1915'i anmıyor.
+- **Kural uygulamaları (UMIT):**
+  - Hanak ve Posof: Borçka emsali.
+  - İmroz: ada istisnası, 1923-09-20'ye kadar `isg yunanistan`.
+  - Görice: Kuzey Epir emsali + 1916 Fransız işgali.
+- **ASKIDA, EMRELİC'e soruldu:**
+  - Torun: Versay yürürlüğü 1920-01-10 mu, teslim 1920-01-18 mi?
+  - Babū ve Himû: Cezire hattında Fransız işgali.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
