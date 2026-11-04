@@ -295,6 +295,11 @@
   "kaynak": "Imperial Gazetteer of India 1908, vol. 20, 'Pondicherry' — https://dsal.uchicago.edu/reference/gazetteer/ (sayfa.py ile doğrudan bulunamadı)"
  },
  {
+  "ad": "Bolgrad (Bolhrad)",
+  "dosya_satir": "data/yerlesimler_p0037.js:54",
+  "kaynak": "ceeol.com/content-files/document-85452.pdf — \"The Treaty of Paris (1856) and the Bolgrad ...\" (indirme HTML dönüyor, PDF değil; tarayıcıyla açılmalı)"
+ },
+ {
   "ad": "Çanakkale",
   "dosya_satir": "data/yerlesimler.js:162",
   "kaynak": "Reyhan Körpe (ÇOMÜ) — Çimenlik/Sarıçay ağzı 14. yy başı Bituperi/Vituperio liman yerleşimi; makale künyesi bulunamadı (DergiPark / ÇOMÜ Tarih Dergisi / Temmuz 2026 haberleri). Bulunursa kur 1452 geri çekilir (EMRELİC/UMIT)."
