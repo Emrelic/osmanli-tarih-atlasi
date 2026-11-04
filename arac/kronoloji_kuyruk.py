@@ -36,6 +36,10 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S YENI-TARAYICI (S16)
+    "L2-819": "Kosta Rika 1948-04-24 → 04-19 adayı: Archivo Nacional iç savaşı 12 Mart-19 Nisan, Meksika Büyükelçiliği Paktı 19 Nisan; 24 Nisan Figueres'in San José'ye girişi olabilir (okunmadı) → madde hangi olayı anlatıyor netleşmeden uygulanmaz",
+    "L2-789": "Libya BMA 1943-01-01 → 01-23 adayı: London Gazette 38196 s.863-864 (Montgomery: Tripoli «three months to the day» taarruzdan) — gün türetme, ikinci kaynak gerekli",
+    "L2-821": "Baroda #8 1948-09-04 → 1948-04-11 adayı: Menon (1956) 11 Nisan 1948 bildirgesiyle halk bakanlığı; Eylül 1948 Menon'da yok, 4 Eylül ayrı adım olabilir (tanıksız) → karar",
     # L2E 1013-1024 / 1037-1048 (EMRELİC) — İngiliz/İrlanda 1582-1752 eski takvim şüphesi
     "L2-1422": "[TAKVİM — eski/yeni takvim kanadı belirsiz] Kilkenny 1642-10-24 (CELT): İngiliz/İrlanda 1582-1752 kaynağı Jülyen olabilir (+10 gün → 11-03); İrlanda Konfederasyonu kimi zaman yeni takvim kullandı → kaynağın kanadı belirlenene kadar uygulanmaz (EMRELİC sistemik uyarısı)",
     "L2-1423": "[TAKVİM — eski/yeni takvim kanadı belirsiz] Cessation 1643-09-15 (Rushworth, zayıf): eski takvim olabilir (+10 → 09-25) → kanat belirlenene kadar uygulanmaz",
@@ -202,7 +206,7 @@ METIN = [
     ("L2-619", "[BEKLE — tek dayanak EB1911] Gaskonya 778 dayanaksız; EB1911 Lupus II teslimi 819"),
     # L2S 448-469 (S14)
     ("L2-807", "Surakarta: Cumhuriyet'e bağlılık maklumatı 1945-09-01 (Ni'matul Huda, Jurnal Hukum IUS QUIA IUSTUM 20/3, 2013); 09-06 Piagam Kedudukan'ın teslim günü → «6 Eylül'de bağlılık ilan etti» düzeltilir; Piagam teslimi istenirse ayrı madde"),
-    ("L2-812", "[BEKLE — Cassazione 18 Haziran Treccani'de yok] Umberto II 13 Haziran'da Quirinale'den ayrıldı (Treccani) → «krallık sona erdi» günü 12-13 Haziran olabilir"),
+    ("L2-812", "İtalya krallığının sonu: hukuken 18 Haziran 1946 (Treccani, Enciclopedia dell'Italiano «Linguaggio della politica», kısmi), fiilen 12-13 Haziran (Umberto II 13 Haziran Quirinale'den ayrıldı) → atlas 18 Haziran KALIR, fiilî gün ic_not'a"),
     ("L2-816", "[BEKLE — ipucu] Kuzey Kore: Geçici Halk Komitesi Şubat 1946; 21-22 Şubat 1947 Halk Meclisi → olay adı karışık olabilir"),
     ("L2-825", "Bingazi/Kirenayka Emirliği: FRUS 1950 V d872 1 Haziran 1949'u bağımsızlık beyanı verir; İngiliz tanıma günü belgede yok → metin FRUS'a göre"),
     # L2S 398-422 (S12)
@@ -268,6 +272,10 @@ METIN = [
     # L2E 1037-1048 (EMRELİC)
     ("L2-1454", "[TAKVİM] Charles Edward 1745: 19 Ağustos Glenfinnan sancak töreni, karaya çıkış değil (çıkış 23 Temmuz eski = 3 Ağustos yeni); 19 Ağustos eski takvim = 30 Ağustos Gregoryen → olay ve gün birlikte düzeltilir, ic_not iki takvim"),
     ("L2-1457", "[BEKLE — gün desteksiz] Encyclopédie: kaynak yalnız «Haziran 1751»; 28 Haziran desteksiz"),
+    # L2S YENI-TARAYICI (S16)
+    ("L2-815", "Fransız Batı Afrika: 27 Ekim 1946 anayasanın imza/ilan günü (Élysée metni «Fait à Paris, le 27 octobre 1946», md.60 Union française); yürürlük Aralık 1946; AOF adıyla anılmaz → ic_not"),
+    ("L2-822", "Haydarabad: Hint ordusu 13 Eylül 1948 sabahı girdi, Haydarabad ordusu 17 Eylül teslim oldu (Menon 1956); Nizam'ın katılım belgesi günü ayrıca yok → isg/s: ayrımı ic_not"),
+    ("L2-817", "Bharatpur: Menon «bütün bitişik devletler 15 Ağustos'a dek katılım belgesini imzaladı» — gün «en geç» sınırıdır → «[en geç]» beyanı"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
