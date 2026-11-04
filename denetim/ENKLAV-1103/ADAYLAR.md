@@ -32,11 +32,11 @@ Güven: **OLCUM** = yalnız ölçülmüş veri olgusu (noktasızlık, kayıt ala
 
 | kova | OLCUM | KAYNAKLI | KAYNAK-GEREK |
 |---|---|---|---|
-| GERCEK | 0 | 57 | 35 |
+| GERCEK | 0 | 64 | 28 |
 | BIRLESMELI | 10 | 1 | 1 |
 | YAPAY-a | 32 | 0 | 3 |
 | YAPAY-b | 9 | 2 | 2 |
-| YAPAY-c | 16 | 17 | 14 |
+| YAPAY-c | 16 | 19 | 12 |
 | YAPAY-d | 6 | 3 | 0 |
 | YAPAY-k | 5 | 0 | 0 |
 | YAPAY-m | 5 | 2 | 1 |
@@ -724,10 +724,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 62.0 km · fransa 9/9
 - içindeki yerleşimler (1, s.eksklav 0): Meaux (ingiltere)
 - koridor yerleşimleri: Paris (fransa); Senlis (fransa)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Meaux ingiltere 1422-01-01 → 1439-01-01; çevre fransa (Paris 1436'da Fransız eline geçti, 13 Nisan 1436 teyitsiz) ve burgonya. Meaux İngiliz garnizonu olarak Fransız toprağı içinde: gerçek eksklav. Bitiş 1439 yıl-hassasiyeti. Melun, Soissons dönemsiz (ölçüldü).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Meaux ingiltere 1422-01-01 → 1439-01-01; çevre fransa (Paris 1436'da Fransız eline geçti, 13 Nisan 1436 teyitsiz) ve burgonya. Meaux İngiliz garnizonu olarak Fransız toprağı içinde: gerçek eksklav. Bitiş 1439 yıl-hassasiyeti. Melun, Soissons dönemsiz (ölçüldü). [KAYNAK-1104 (kismen): Paris 13 Nisan 1436'da kurtarıldı. — "liberation of Paris on 13 April 1436" · Parça başlangıcı 1436-04-13 teyitli; Meaux'nun Fransızlarca geri alınışı (1439) okunmadı.]
   - önerilen düzeltme: Meaux t gün (1439) ve Paris f 1436 gün kaynakla; Melun/Soissons dönemleri.
-  - kaynak: bulunamadı
+  - kaynak: Oxford Dictionary of the Renaissance, "Dunois" — EMRELİC okuması (Oxford Reference)
 
 ### E058 · Lehistan-Litvanya (`lehistan`) · 1649-08-18 → 1654-01-18 · 5.438 km²
 
@@ -1734,10 +1734,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 3715.5 km · cagatay 5/9, DENIZ/BOS 3/9, KENDI 1/9
 - içindeki yerleşimler (9, s.eksklav 0): Pingyao (sahipsiz); Taiyuan (mogol-imparatorlugu); Zhengding (mogol-imparatorlugu); Leshou (Xianxian) (mogol-imparatorlugu); Baoding (sahipsiz); Tiencin (Tianjin) (sahipsiz); Pekin (Hanbalık) (mogol-imparatorlugu); Kalgan (Zhangjiakou) (sahipsiz) … +1
 - koridor yerleşimleri: Xiazhou (Tongwancheng) (sahipsiz); Andican (cagatay); Özkent (Uzgen) (sahipsiz); Taşkent (cagatay)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (3715 km). Kuzey Çin kesiti ile Orta Asya (Çağatay f=1227-01-01) arasında, bölünmemiş imparatorluk içinde ulus ayrışması modeli. Çağatay kimliği ayrı id; 'bölünmemiş' etiketi ile uyumsuz ama tasarım tercihi.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (3715 km). Kuzey Çin kesiti ile Orta Asya (Çağatay f=1227-01-01) arasında, bölünmemiş imparatorluk içinde ulus ayrışması modeli. Çağatay kimliği ayrı id; 'bölünmemiş' etiketi ile uyumsuz ama tasarım tercihi. [KAYNAK-1104 (kismen): Kuzey Çin Mukali'ye emanet edildi. — "Muqali, to whom China was entrusted" · Kuzey Çin'in Büyük Han adına Mukali'nin genel valiliği altında olduğu teyitli; 1217 tarihi ve Çağatay'dan ayrık statü teyitsiz.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Berkshire Encyclopedia of World History, "Mongol Empire" — EMRELİC okuması (Oxford Reference) · önceki: bulunamadı (UZAK)
 
 ### K021 · İspanyol Perusu (`ispanyol-peru`) · 1819-12-17 → 1821-06-24 · 267.675 km²
 
@@ -1974,10 +1974,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 2029.9 km · cagatay 8/9, DENIZ/BOS 1/9
 - içindeki yerleşimler (1, s.eksklav 0): Buhara (mogol-imparatorlugu)
 - koridor yerleşimleri: Özkent (Uzgen) (sahipsiz); Taşkent (cagatay)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: UZAK (2030 km). 1256-1260 Büyük Han'ın doğrudan idare ettiği Maveraünnehir (Buhara), Çağatay/İlhanlı/Altın Orda arasında; parçada yalnız Buhara noktası var. Düşük güven: bu tarihte Buhara idaresinin Büyük Han'a bağlılığı kaynakla.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: UZAK (2030 km). 1256-1260 Büyük Han'ın doğrudan idare ettiği Maveraünnehir (Buhara), Çağatay/İlhanlı/Altın Orda arasında; parçada yalnız Buhara noktası var. Düşük güven: bu tarihte Buhara idaresinin Büyük Han'a bağlılığı kaynakla. [KAYNAK-1104 (kismen): Orta Asya'nın sivil idaresi Alğu döneminde (1260-66) Büyük Han'a değil Çağatay ulusunun başına bağlandı; Mesud Bey 1289'a dek idareci. — "subordinated to the head of Čaḡatai's ulus ... rather than to the great khan" · 1260 sonrası Çağatay'a geçiş teyitli (parça bitişi 1260 ile uyumlu); 1256-1260'ta doğrudan Büyük Han'a bağlılık açıkça söylenmiyor, yalnız çıkarım.]
   - önerilen düzeltme: Yok.
-  - kaynak: bulunamadı (UZAK)
+  - kaynak: Encyclopaedia Iranica, "CHAGHATAYID DYNASTY" (Peter Jackson); "BUKHARA iii" (Yuri Bregel) — EMRELİC okuması · önceki: bulunamadı (UZAK)
 
 ### K041 · Birleşik Arap Cumhuriyeti (Mısır-Suriye; Suriye 28.09.1961'de ayrıldı, Mısır adı 1971'e dek korudu) (`birlesik-arap-cumhuriyeti`) · 1958-02-22 → 1961-09-28 · 151.016 km²
 
@@ -2034,10 +2034,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 44.1 km · qing-hanedani 9/9
 - içindeki yerleşimler (6, s.eksklav 0): Hong Kong (sahipsiz); Kanton (Guangzhou) (san-fan); Zhangzhou (san-fan); Zeytun (Quanzhou) (san-fan); Chaozhou (san-fan); Fuzhou (san-fan)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Geng Jingzhong (Fujian) ve Shang Zhixin (Guangdong) payları, Wu Sangui'nin Hunan/Yunnan gövdesinden Qing elindeki Jiangxi ile ayrı (koridor 44 km qing 9/9). Zhangzhou/Chaozhou 'san-fan', Amoy 'tungning' (ölçüldü); Zhangzhou'nun Tungning'e geçişi 1676 civarı kaynakla bakılmalı. Hong Kong sahipsiz.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Geng Jingzhong (Fujian) ve Shang Zhixin (Guangdong) payları, Wu Sangui'nin Hunan/Yunnan gövdesinden Qing elindeki Jiangxi ile ayrı (koridor 44 km qing 9/9). Zhangzhou/Chaozhou 'san-fan', Amoy 'tungning' (ölçüldü); Zhangzhou'nun Tungning'e geçişi 1676 civarı kaynakla bakılmalı. Hong Kong sahipsiz. [KAYNAK-1104 (kismen): Geng Jingzhong 1674'te isyan etti (ay yok), 9 Kasım 1676'da teslim oldu; Shang Zhixin 1676 başında isyana katıldı, 1677'de teslim oldu. — "Early in 1676 Shang Zhixin joined the rebellion" · Fujian payının bitişi 1676-11-09 (Geng teslimi); Guangdong payı 1677. Atlas parça bitişi 1677-01-01 Fujian için ~2 ay geç — kesit ayrı ölçülmeli.]
   - önerilen düzeltme: Zhangzhou/Chaozhou sahipliği ve bitiş günü kaynakla.
-  - kaynak: veri ölçümü (cevre.py 1676-04-05)
+  - kaynak: Eminent Chinese of the Qing Period, "GIYEŠU" ve "ZHENG Jing" maddeleri; "WU Sangui" (Fang Chao-ying) — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (cevre.py 1676-04-05)
 
 ### K046 · Memlûk (`memluk`) · 1517-01-22 → 1517-04-13 · 139.417 km²
 
@@ -2130,10 +2130,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 109.0 km · cekoslovakya 7/9, almanya 2/9
 - içindeki yerleşimler (24, s.eksklav 0): Fiume (Rijeka) (sahipsiz); Ljubljana (avusturya); Maribor (Marburg) (avusturya); Villach (avusturya); Klagenfurt (avusturya); Lienz (avusturya); Graz (avusturya); Hartberg (avusturya) … +16
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Ljubljana ve Maribor 'avusturya' -> 1918-11-11, sonra yugoslavya; yugoslavya künyesi f=1918-12-01. Slovence bölge SHS Devleti ilanıyla (29 Ekim 1918, tarihsel iddia) bu kesitten önce Habsburg dışına çıkıyor; 1918-11-03 kesiti ile uyumsuz. Habsburg `habsburg` kimliği harita:avusturya takma adlı (t=1918-11-12). Fiume sahipsiz.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Ljubljana ve Maribor 'avusturya' -> 1918-11-11, sonra yugoslavya; yugoslavya künyesi f=1918-12-01. Slovence bölge SHS Devleti ilanıyla (29 Ekim 1918, tarihsel iddia) bu kesitten önce Habsburg dışına çıkıyor; 1918-11-03 kesiti ile uyumsuz. Habsburg `habsburg` kimliği harita:avusturya takma adlı (t=1918-11-12). Fiume sahipsiz. [KAYNAK-1104 (kismen): Sloven toprakları 1918'de Avusturya'dan ayrılarak Güney Slav devletine katıldı. · Yalnız yıl teyitli; 29 Ekim 1918 günü okunmadı. YAPAY-c (Ljubljana/Maribor 'avusturya' 1918-11-11'e dek) yıl düzeyinde destekli.]
   - önerilen düzeltme: Ljubljana/Maribor/Celje: SHS Devleti dönemi (29.10.1918) ve atlasın yugoslavya f ucu uyumu, kaynakla (gün bulunamadı).
-  - kaynak: veri ölçümü (kayit.py, devletler.js)
+  - kaynak: Oxford Companion to Politics of the World, "Slovenia" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (kayit.py, devletler.js)
 
 ### K054 · Portekiz (`portekiz`) · 1887-01-01 → 1902-01-01 · 118.842 km²
 
@@ -2442,10 +2442,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 493.7 km · san-fan 9/9
 - içindeki yerleşimler (3, s.eksklav 0): Leizhou (qing-hanedani); Beihai (Pakhoi) (qing-hanedani); Wuzhou (qing-hanedani)
 - koridor yerleşimleri: Chenzhou (Hunan) (san-fan)
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Qing Guangxi/Guangdong batı payı (Leizhou, Wuzhou), Qing ana gövdesinden Wu Sangui'nin Hunan'ı (Chenzhou san-fan) ile ayrı, 1676. Parça aralığı 1659 başlıyor, San Fan 1674 sonrası; ilk yıllar DAR-AYRIM (K045'in karşı parçası).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Qing Guangxi/Guangdong batı payı (Leizhou, Wuzhou), Qing ana gövdesinden Wu Sangui'nin Hunan'ı (Chenzhou san-fan) ile ayrı, 1676. Parça aralığı 1659 başlıyor, San Fan 1674 sonrası; ilk yıllar DAR-AYRIM (K045'in karşı parçası). [KAYNAK-1104 (kismen): Shang Zhixin 1676 başında Wu Sangui isyanına katıldı, 1677'de teslim oldu. — "Early in 1676 Shang Zhixin joined the rebellion" · Qing'in batı Guangdong/Guangxi payının 1676'da Wu Sangui Hunan'ı ve Shang'ın Guangdong'u arasında kalması isyan takvimiyle uyumlu; Leizhou/Wuzhou ayrıntısı okunmadı.]
   - önerilen düzeltme: Yok; aralık 1674-1677 olmalı.
-  - kaynak: veri ölçümü (cevre.py benzeri)
+  - kaynak: Eminent Chinese of the Qing Period, "WU Sangui" (Fang Chao-ying) — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (cevre.py benzeri)
 
 ### K080 · Avusturya (Habsburg) (`avusturya`) · 1809-10-14 → 1915-10-01 · 87.155 km²
 
@@ -2490,10 +2490,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 33.6 km · hanthawaddy 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Lamphun (Haripuñjaya) (konbaung); Nan (konbaung); Chiang Mai (konbaung); Chiang Rai (konbaung)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: Düşük güven. Ölçüldü: Chiang Mai toungoo 1558-04-02 -> 1752-04-23, konbaung 1752-04-23 -> 1774-01-15; toungoo künye t=1752-01-01, konbaung f=1752-01-01 (geçiş günleri künyeyle çelişir). Hanthawaddy (t=1757-05-06) Konbaung gövdesi ile Lan Na arasına giriyor (33,6 km).
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: Düşük güven. Ölçüldü: Chiang Mai toungoo 1558-04-02 -> 1752-04-23, konbaung 1752-04-23 -> 1774-01-15; toungoo künye t=1752-01-01, konbaung f=1752-01-01 (geçiş günleri künyeyle çelişir). Hanthawaddy (t=1757-05-06) Konbaung gövdesi ile Lan Na arasına giriyor (33,6 km). [KAYNAK-1104 (kismen): Lan Na 1774'te Burma'ya karşı ayaklandı. — "In 1774, Lan Na rebelled against Burma" · Chiang Mai'nin 1774'e dek Burma (Konbaung) idaresinde olduğu teyitli (atlas t=1774-01-15 uyumlu); 1752/1762-63 başlangıcı teyitsiz.]
   - önerilen düzeltme: Konbaung/toungoo künye uçları ile Chiang Mai dönem günü 1752 (gün bulunamadı).
-  - kaynak: veri ölçümü (devletler.js, kayit.py)
+  - kaynak: Oxford Encyclopedia of Economic History, "Thailand" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (devletler.js, kayit.py)
 
 ### K084 · Toungoo Hanedanı (Birmanya) (`toungoo`) · 1740-01-01 → 1752-04-23 · 85.751 km²
 
@@ -2502,10 +2502,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 33.6 km · hanthawaddy 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Lamphun (Haripuñjaya) (toungoo); Nan (toungoo); Chiang Mai (toungoo); Chiang Rai (toungoo)
 - koridor yerleşimleri: —
-- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAK-GEREK`
-  - gerekçe: K083 ile aynı parça (1740-1752): Hanthawaddy 1740 Mon isyanından sonra Ava-Pegu arasında; toungoo t=1752-01-01 ile Chiang Mai dönemi t=1752-04-23 çelişkisi var.
+- **HÜKÜM: GERCEK** · kova `GERCEK` · güven `KAYNAKLI`
+  - gerekçe: K083 ile aynı parça (1740-1752): Hanthawaddy 1740 Mon isyanından sonra Ava-Pegu arasında; toungoo t=1752-01-01 ile Chiang Mai dönemi t=1752-04-23 çelişkisi var. [KAYNAK-1104 (kismen): Bkz. K083: Lan Na 1774'te Burma'ya karşı ayaklandı. · 1740-1752 Toungoo dönemi için doğrudan teyit yok; yalnız Burma bağlılığının genel çerçevesi.]
   - önerilen düzeltme: K083.
-  - kaynak: veri ölçümü
+  - kaynak: Oxford Encyclopedia of Economic History, "Thailand" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü
 
 ### K085 · Delhi Sultanlığı (`delhi-sultanligi`) · 1394-01-01 → 1479-01-01 · 81.686 km²
 
@@ -2514,10 +2514,10 @@ Kovalar: YAPAY-a noktasız emilme · YAPAY-b ara yerleşimin dönemi eksik · YA
 - koridor: 364.5 km · cavnpur-sultanligi 9/9
 - içindeki yerleşimler (4, s.eksklav 0): Rohtasgarh (sahipsiz); Gayâ (delhi-sultanligi); Rajagriha (Rājgīr) (sahipsiz); Patna (Azîmâbâd) (delhi-sultanligi)
 - koridor yerleşimleri: —
-- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAK-GEREK`
-  - gerekçe: Ölçüldü: Patna ve Gayâ delhi-sultanligi 1281 -> 1497, sonra bengal-sultanligi; cavnpur-sultanligi künyesi 1394-1483 (Cevnpur). Bihar 1394-1479 Cevnpur ve Bengal etkisi altındaydı (tarihsel iddia); Delhi Bihar'a Sikender Lodi ile 1490'larda ulaştı. Cevnpur 26%, Bengal 21% çevre. Rohtasgarh, Rajagriha sahipsiz.
+- **HÜKÜM: YAPAY** · kova `YAPAY-c` · güven `KAYNAKLI`
+  - gerekçe: Ölçüldü: Patna ve Gayâ delhi-sultanligi 1281 -> 1497, sonra bengal-sultanligi; cavnpur-sultanligi künyesi 1394-1483 (Cevnpur). Bihar 1394-1479 Cevnpur ve Bengal etkisi altındaydı (tarihsel iddia); Delhi Bihar'a Sikender Lodi ile 1490'larda ulaştı. Cevnpur 26%, Bengal 21% çevre. Rohtasgarh, Rajagriha sahipsiz. [KAYNAK-1104 (tam): Bihar 1394-1479 Jaunpur Şarkîlerinin elindeydi (Bengal'in değil); Delhi (Lodî) Jaunpur'u 1483'te, Bihar'ı 1495'te aldı. — "conquest of Jaunpur 1483 and of Bihar 1495 by Delhi" · YAPAY-c teyitli: Patna/Gayâ 'delhi-sultanligi 1281 → 1497' yanlış. Düzeltme: Patna/Gayâ cavnpur-sultanligi 1394 → (Hüseyin Şah Şarkî'nin Bihar'daki son yılları) 1495, delhi-sultanligi 1495 → (sonraki); 'bengal-sultanligi 1497' ucu kaynakla sınansın.]
   - önerilen düzeltme: Patna/Gayâ 1394-1497 sahibi Cevnpur/Bengal (kaynakla gün).
-  - kaynak: veri ölçümü (kayit.py Patna, Gayâ)
+  - kaynak: Dynasties of the World (2. bs.), "Jaunpur, Kingdom of"; Oxford Encyclopedia of the Islamic World, "Delhi Sultanate" — EMRELİC okuması (Oxford Reference) · önceki: veri ölçümü (kayit.py Patna, Gayâ)
 
 ### K086 · Kiev Rus'u (Kiev Büyük Knezliği) (`kiev-rusu`) · 1136-01-01 → 1224-01-01 · 81.062 km²
 

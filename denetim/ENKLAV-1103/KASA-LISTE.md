@@ -57,9 +57,11 @@ Sayım: GERCEK 92 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 47 · YAPAY-d 9 · Y
 | K038 | kongo-serbest-devleti 1885–1888 | KAYNAKLI | Sandoa, Musumba KSD başlangıcı kaynakla (Lunda ilhakı 1890'lar); İlebo sahipsiz. |
 | K044 | timurlu 1402–1404 | KAYNAKLI | Denizli, Söke, Burdur, Isparta vb. 1402-08 sonrası ilgili beylik (Germiyan/Menteşe/Aydın/Hamîd/Karaman) d: + timurlu v: — beylik iade günleri kaynakla; timurlu bitişi Temmuz 1404 (Muharrem 807, TDV Timur). |
 | K048 | delhi-sultanligi 1311–1323 | KAYNAKLI | Güney Hindistan noktalarının delhi-sultanligi f ucu: Imperial Gazetteer (dsal) Madura/Ma'bar ile teyit (gün bulunamadı). |
+| K053 | avusturya 1918–1919 | KAYNAKLI | Ljubljana/Maribor/Celje: SHS Devleti dönemi (29.10.1918) ve atlasın yugoslavya f ucu uyumu, kaynakla (gün bulunamadı). |
 | K061 | ingiltere 1776–1783 | KAYNAKLI | Atlantik kıyısı noktaları 1776-07-04 -> 1783-09-03 abd (fiilî) ya da hepsi ingiltere; İngiliz işgal pencereleri (Norfolk 1776, Wilmington 1781-82) kaynakla. |
 | K062 | ingiltere 1876–1899 | KAYNAKLI | Blantyre/Zomba/Mangoçi 'ingiltere' f ucu kaynakla (1889-1891), öncesi yerel devlet (yao/maravi). |
 | K066 | ingiltere 1776–1783 | KAYNAKLI | Yeni İngiltere noktaları 1776-07-04 f abd; Penobscot/Pemaquid İngiliz işgal penceresi (1779) kaynakla. |
+| K085 | delhi-sultanligi 1394–1479 | KAYNAKLI | Patna/Gayâ 1394-1497 sahibi Cevnpur/Bengal (kaynakla gün). |
 | K087 | wicita 1750–1849 | KAYNAKLI | Quivira/Kansas wicita noktası 1719 sonrası dönemi kaldırılsın ya da kaynakla yeniden kurulsun (Handbook of Texas: 1719'a dek grup Oklahoma'ya indi). |
 | E004 | guney-afrika-birligi 1915–1920 | OLCUM | Güneybatı Afrika'daki bütün noktalar: 1915-07-09 → 1920-12-17 d:'ingiltere' → 'guney-afrika-birligi' (Gobabis, Aranos ve aynı dönemi taşıyanlar). Kaynak ile teyit. |
 | E023 | ming-hanedani 1382–1382 | OLCUM | Dali ming f 1382-01-06 → Dali'nin fethi (1382 baharı; gün bulunamadı), arası kuzey-yuan/Duan. Kaynak: Cambridge History of China c.7 ya da Ming Shilu. |
@@ -86,9 +88,7 @@ Sayım: GERCEK 92 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 47 · YAPAY-d 9 · Y
 | E065 | babur-imparatorlugu 1753–1757 | KAYNAK-GEREK | Dholka Maratha f ve Ahmedabad f hizalansın (Imperial Gazetteer 'Gujarat' bakılmalı); gün bulunamadı. |
 | E066 | fransa-cumhuriyet 1918–1920 | KAYNAK-GEREK | Malikiye f kaynakla (Fransız işgal tarihi); gün bulunamadı. |
 | E088 | nijerya 1967–1970 | KAYNAK-GEREK | Aroçukvu'ya biafra dönemi 1967-05-30 → Nijerya ele geçirişi (gün bulunamadı). |
-| K053 | avusturya 1918–1919 | KAYNAK-GEREK | Ljubljana/Maribor/Celje: SHS Devleti dönemi (29.10.1918) ve atlasın yugoslavya f ucu uyumu, kaynakla (gün bulunamadı). |
 | K076 | babur-imparatorlugu 1753–1760 | KAYNAK-GEREK | Ahmednagar 1753-1759 Nizam mı Maratha mı kaynak (gün bulunamadı); Nâsik, Broaç sahipliği. |
-| K085 | delhi-sultanligi 1394–1479 | KAYNAK-GEREK | Patna/Gayâ 1394-1497 sahibi Cevnpur/Bengal (kaynakla gün). |
 | K090 | maratha 1761–1803 | KAYNAK-GEREK | Agra/Mathura/Koil/Meerut/Panipat maratha f ucu kaynakla (1761 değil); gvalyar-maratha ilişkisi. |
 | K096 | babur-imparatorlugu 1724–1751 | KAYNAK-GEREK | Kattak, Puri, Bâlâsor 1717-1751 bengal-nevabligi (kaynakla); Banapur, Jajpur sahipsiz. |
 

@@ -3,7 +3,7 @@ tam/kismen/celiski -> guven KAYNAKLI; bulunamadi/giris_gerek -> KAYNAK-GEREK kal
 HARIC: zayıf kaynaklı girdiler işlenmez. DEGISIM: hüküm/kova değişiklikleri (LAB SALI kararı)."""
 import json, sys, os
 
-H_YOL = r"C:\atlas\.claude\worktrees\lab-1104-kaynak\denetim\ENKLAV-1103\hukumler.json"
+H_YOL = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "hukumler.json")
 HARIC = {"K005": "South African History Online akademik başvuru eseri değil"}
 DEGISIM = {
     "E061": ("GERCEK", "GERCEK", "Yok — 1526-1527 Hafsî arası TDV Kostantîne'de var; silinmesin."),
