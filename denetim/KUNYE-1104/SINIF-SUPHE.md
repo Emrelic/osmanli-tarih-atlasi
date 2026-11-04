@@ -50,6 +50,11 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `dogu-sumatra-sultanliklari` | 1615-01-01 → 1858-01-01 | 872 | Jambi, Siak, Deli, Indragiri ayrı sultanlıklar |
 | `nepal` | 1000-01-01 → (süren) | 800 | Malla vadi krallıkları (1768-69'da biter) ile Şah/Gorkha Nepal'i tek satırda (hasat 1) |
 | `san-fan` | 1673-12-28 → 1681-12-07 | 168 | 'Üç Vasal İsyanı' bir olay; polity Wu Sangui'nin Zhou'su olabilir |
+| `sanzan` | 1322-01-01 → 1429-01-01 | 428 | Hokuzan, Chuzan, Nanzan üç krallık — dönem adı; Hokuzan 1416/19, Nanzan 1429 (İPUCU) |
+| `ovambo` | 1600-01-01 → 1917-02-06 | 634 | Ondonga ve Kwanyama ayrı; t 1917-02-06 yalnız Kwanyama (Mandume'nin ölümü) |
+| `xhosa` | 1281-01-01 → 1878-01-01 | 597 | Gcaleka ve Rharhabe/Ngqika ayrı; Peires (SAS-Space): Ngqika 1878-9 savaşından sonra Transkei'ye sürüldü |
+| `cholula` | 0700-01-01 → 1519-01-01 | 581 | Olmeca-Xicalanca ve Tolteca-Chichimeca iki dönem/grup tek kayıtta |
+| `seylan-sinhala` | 1070-01-01 → 1518-01-01 | 777 | ardıl krallıklar (Polonnaruva … Kotte) tek kayıtta; t 1518 Kotte'nin sonu değil (1597) |
 
 ## Himaye / vasallık / rejim değişimi 'son' sayılmış (künye kuralı: aynı polity sürüyorsa son değil)
 
@@ -63,7 +68,6 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `dagbon` | 1401-01-01 → 1899-01-01 | 498 | t 1899 Anglo-Alman bölüşümü; Dagbon sürdü |
 | `nkore` | 1450-01-01 → 1901-10-25 | 452 | t 1901 Ankole Anlaşması (himaye); krallık 1967'ye dek |
 | `karnatik` | 1690-01-01 → 1801-07-31 | 338 | t 1801 antlaşması yönetimi devretti; nevvab unvanı 1855'e dek |
-| `seylan-sinhala` | 1070-01-01 → 1518-01-01 | 777 | t 1518 Portekiz kalesi; Kotte 1597'ye, Kandy 1815'e dek |
 | `hawaii-kralligi` | 1795-01-01 → 1893-01-17 | 294 | t 1893 rejim değişimi; Hawaii devleti 1898 ilhakına dek (hasat 1) |
 | `zulu-kralligi` | 1816-01-01 → 1879-07-04 | 114 | t 1879-07-04 Ulundi savaş günü; düzenleme Eylül 1879, ilhak 1887 (hasat 1) |
 | `herero` | 1281-01-01 → 1904-01-12 | 1246 | t 1904-01-12 ayaklanmanın başlangıcı (hasat 1/2) |
@@ -76,6 +80,10 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `liptako` | 1810-01-01 → 1897-01-01 | 87 | t 1897 Dori işgali; emir görevden alınmadı, emirlik sürdü |
 | `kamba` | 1281-01-01 → 1895-07-01 | 614 | t 1895 Doğu Afrika Himayesi ilanı; Kamba merkezî devlet de değil |
 | `gyaaman` | 1690-01-01 → 1895-01-01 | 204 | t 1895 Samori işgali; 1897-1900 bölüşüm |
+| `matamba` | 1281-01-01 → 1744-01-01 | 463 | t 1744 Portekiz zaferi + itibarî vasallık; krallık 1909'a dek (İPUCU, Britannica özeti) |
+| `sipsong-panna` | 1180-01-01 → 1950-01-01 | 669 | t 1950 genel kesim; tusi sistemi 1953 özerk bölgeyle bitti (İPUCU); Çin/Burma/Siyam çifte bağımlılık |
+| `oyo-imparatorlugu` | 1400-01-01 → 1836-01-01 | 436 | t 1836 Eski Oyo'nun düşüşü; Atiba'nın Yeni Oyo'su sürdü — polity sonu mu? |
+| `kalusa` | 1281-01-01 → 1763-01-01 | 482 | şeflik (Widmer 1988); t 1763 kalıntıların Havana'ya taşınması, polity çok önce çökmüştü |
 
 ## Uç başka bir olayı tarihliyor (olay türü)
 
