@@ -13,13 +13,13 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | 6 | `nijni-novgorod-suzdal` | t | 1392-01-01 | **1391-01-01** | EMRELİC Cambridge — CHR I, ch.6, s.155: f 1341 teyitli · ch.7, s.168: 'in 1391, with the agreement of Tokhtamysh, was detached from Suzdal' and attached to Mosc |
 | 7 | `mataram-sultanligi` | f | 1587-01-01 | **1585-01-01** | TDV cava — 'XVI. yüzyılın sonlarına doğru Orta Cava bölgesinde Mataram Sultanlığı adıyla geniş bir politik güç ortaya çıktı (1585)' (f 1587 → 1585, TDV esas; öt |
 | 8 | `bidar` | f | 1489-01-01 | **1492-01-01** | TDV beridsahiler — '… Bîder’de Berîdşâhîler bağımsızlıklarını ilân etmişlerdir (1492)' · hükümdar listesi 'Kāsım Berîd Şah 897 (1492)' · 'II. İbrâhim Şah 1619’d |
-| 9 | `malay-sultanliklari` | t | 1909-07-10 | **1909-07-15** | EMRELİC JSTOR — Klein, Historical Journal 12/1 (1969), s.134: 'Final accord was attained on 10 March 1909' (imza) · Chan Su-ming, JMBRAS 38/1 (1965), s.~167: Ke |
-| 10 | `bundela-orcha` | t | 1948-01-01 | **1948-04-01** | ⑧ resmî neşir — Government of India, Ministry of States, White Paper on Indian States (1950), archive.org in.ernet.dli.2015.207474 — 'The United State of Vindhy |
-| 11 | `dacu` | t | 1400-01-01 | **1350-01-01** | EMRELİC Cambridge — CHA III, ch.1, s.79: Darfur'da Daju 13. yy; 'mid fourteenth century' Tunjur yerini aldı → t 1400 → 1350 (BEYANLI YAKLAŞIKLIK: kaynak yalnız  |
-| 12 | `tuareg-adag` | t | 1899-01-01 | **1903-01-01** | Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' — GENEL ANSİKLOPEDİ (en  |
-| 13 | `tuareg-ivellemmedan` | t | 1899-01-01 | **1917-01-01** | KARAR (EMRELİC, 4 Kasım 2026): künye bütün İvellemmedan konfederasyonunu kapsar; polity doğu koluyla (Kel Dinnik) sürdü → künye kuralı gereği kısaltılmaz, t 189 |
-| 14 | `liberya` | f | 1822-04-25 | **1822-01-01** | EMRELİC Cambridge — Cambridge History of Africa V, ch.5, s.~192: yerleşimciler 'arrived in January 1822' → f 1822-04-25 → 1822-01-01, '[yalnız ay teyitli: Ocak  |
-| 15 | `tubu-tibesti` | t | 1914-01-01 | **1914-09-01** | Maurice Zimmermann, 'La conquête du Tibesti', Annales de Géographie 25 (135), 1916 (Persée, geo_0003-4010_1916_num_25_135_8819 — çağdaş akademik kronik): Territ |
+| 9 | `nguyen-hanedani` | t | 1945-08-30 | **1945-08-25** | EMRELİC Cambridge (Parti 3) — ÇİFT TEYİT: Cambridge History of Southeast Asia II, ch.6, s.~358: 'the enforced abdication of Emperor Bao Dai as head of state on  |
+| 10 | `malay-sultanliklari` | t | 1909-07-10 | **1909-07-15** | EMRELİC JSTOR — Klein, Historical Journal 12/1 (1969), s.134: 'Final accord was attained on 10 March 1909' (imza) · Chan Su-ming, JMBRAS 38/1 (1965), s.~167: Ke |
+| 11 | `bundela-orcha` | t | 1948-01-01 | **1948-04-01** | ⑧ resmî neşir — Government of India, Ministry of States, White Paper on Indian States (1950), archive.org in.ernet.dli.2015.207474 — 'The United State of Vindhy |
+| 12 | `dacu` | t | 1400-01-01 | **1350-01-01** | EMRELİC Cambridge — CHA III, ch.1, s.79: Darfur'da Daju 13. yy; 'mid fourteenth century' Tunjur yerini aldı → t 1400 → 1350 (BEYANLI YAKLAŞIKLIK: kaynak yalnız  |
+| 13 | `tuareg-adag` | t | 1899-01-01 | **1903-01-01** | Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' — GENEL ANSİKLOPEDİ (en  |
+| 14 | `tuareg-ivellemmedan` | t | 1899-01-01 | **1917-01-01** | KARAR (EMRELİC, 4 Kasım 2026): künye bütün İvellemmedan konfederasyonunu kapsar; polity doğu koluyla (Kel Dinnik) sürdü → künye kuralı gereği kısaltılmaz, t 189 |
+| 15 | `liberya` | f | 1822-04-25 | **1822-01-01** | EMRELİC Cambridge — Cambridge History of Africa V, ch.5, s.~192: yerleşimciler 'arrived in January 1822' → f 1822-04-25 → 1822-01-01, '[yalnız ay teyitli: Ocak  |
 | 16 | `navaho` | t | 1868-06-01 | **1868-08-12** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-navaho-1868-1015): |
 | 17 | `savni` | t | 1795-08-03 | **1795-12-02** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0 |
 | 18 | `miami` | t | 1795-08-03 | **1795-12-02** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0 |
@@ -37,6 +37,16 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | künye | şimdiki ad | önerilen ad | gerekçe |
 |---|---|---|---|
 | `burgonya` | Burgonya Dükalığı (Valois) | **Burgonya Dükalığı** | EMRELİC kararı (Mantova ilkesi): hanedan değişimi polity değişimi değildir; dükalık 1032-1482 tek polity → '(Valois)' düşer, f 1032 KALIR |
+
+## BEKLE — uygulanmaz (önceki öneri geri çekildi ya da teyit bekliyor)
+
+| künye | şimdi | bekleyen | neden |
+|---|---|---|---|
+| `tubu-tibesti` | f 1281-01-01 · t 1914-01-01 | t (kalıcı Fransız yeniden işgal günü) — önceki öneri 1914-09-01 GERİ ÇEKİLDİ | CHA VII (Suret-Canale) s.360 dn.40: 'the Tibesti mountains, from which French forces had withdrawn in 1916, were transferred from Niger to Chad' (1929) → 1914-16 TAHRİR ÖLÇÜTÜ'ne göre askerî işgal (isg), Tubu polity'si sürdü; t kalıcı yeniden işgal günüdür, kaynakta yok; 1929 Çad'a devri idarî işlem (EMRELİC kararı) |
+
+## Yerleşim ölçümleri (KASA kontrol etsin; LAB veriye yazmaz)
+
+- `tubu-tibesti`: 3 yerleşim (`data/yerlesimler_afrika2.js` s.103-116: Bardaî, Vûr, Zûâr) — hepsi s: tubu-tibesti 1281-01-01→1914-01-01, sonra fransa-cumhuriyet 1914-01-01→1960-08-11, sonra cad. EMRELİC kararına göre 1914-16 Fransız varlığı `isg:` (d: fransa-cumhuriyet; Zimmermann 1916: Zouar Aralık 1913, Bardaï 1914-06-23, fetih 1914-09-01; çekiliş 1916 CHA VII) olmalı, `s:` tubu-tibesti kalıcı yeniden işgale dek sürmeli — yeniden işgal günü kaynak bekliyor, şimdilik veri DEĞİŞMEZ. Ayrıca atlasın `Tibesti` bölge kaydı (`data/yerlesimler.js` s.1457, bos:'kabile', 'hiçbir devletin fiilen ulaşmadığı') bu künyeyle çelişiyor — eski not
 
 Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] — ONERI.md.
 

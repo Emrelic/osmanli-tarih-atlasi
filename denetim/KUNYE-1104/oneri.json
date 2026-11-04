@@ -422,12 +422,13 @@
 {
 "id": "ryukyu",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge (Parti 2) — Ai Abe, Asian Journal of International Law 13(1), 2024: '27 March 1879 … Ryukyu Shobun' (t 1879-03-27 GÜN TEYİT) · f 1429 OKUNMADI — DİKKAT: aynı makaledeki '1470 Shō Hashi' kaynak hatası görünüyor (Shō Hashi birleşmesi 1429; 1470 ikinci Shō hanedanı), f için KULLANILMAZ → KISMEN"
+"kaynak": "EMRELİC Cambridge (Parti 2) — Ai Abe, Asian Journal of International Law 13(1), 2024: '27 March 1879 … Ryukyu Shobun' (t 1879-03-27 GÜN TEYİT) · f 1429 OKUNMADI — DİKKAT: aynı makaledeki '1470 Shō Hashi' kaynak hatası görünüyor (Shō Hashi birleşmesi 1429; 1470 ikinci Shō hanedanı), f için KULLANILMAZ → KISMEN · EMRELİC Parti 3: f OKUNMADI"
 },
 {
 "id": "nguyen-hanedani",
-"hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge (Parti 2) — Asselin, Vietnam's American War (CUP 2018), ch.1: 'On 25 August … Bao Dai abdicated' — tasarruf günü 25 Ağustos; veri t 1945-08-30 (Ngọ Môn devir töreni olabilir) kaynakta OKUNMADI · kural tören değil tasarruf → ÖNERİ t 1945-08-25 ama BEKLE (ikinci akademik kaynak gerek; tek kaynakla DUZELT yazılmadı) · önceki: CHSEA I ch.10 PDF s.2 'Nguyen (1802-1945)' (yıllar teyitli; f 06-01 günü teyitsiz)"
+"hukum": "DUZELT",
+"t": "1945-08-25",
+"kaynak": "EMRELİC Cambridge (Parti 3) — ÇİFT TEYİT: Cambridge History of Southeast Asia II, ch.6, s.~358: 'the enforced abdication of Emperor Bao Dai as head of state on 25 August' + Asselin, Vietnam's American War (CUP 2018), ch.1, s.43: 'On 25 August … Bao Dai abdicated' · ÖNERİ t 1945-08-30 → 1945-08-25 (tasarruf günü; kural tören değil tasarruf) · ic_not: '30 Ağustos 1945 Huế (Ngọ Môn) devir töreni — tören; tahttan feragat 25 Ağustos (CHSEA II + Asselin, çift teyit).' · f 1802-06-01 günü teyitsiz (CHSEA I ch.10: yıl 1802)"
 },
 {
 "id": "poni",
@@ -451,8 +452,8 @@
 },
 {
 "id": "tibet",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans — f 1354-01-01 / t 1642-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 3) — Cambridge History of China VIII (Rossabi), s.~245: Güşi Han ile Dalai Lama üstünlüğü 'only in the 1640s' (t 1642 on yıl düzeyinde uyumlu, YIL teyitsiz; 1642 için Shakabpa gerek) · f 1354 OKUNMADI"
 },
 {
 "id": "kuzey-yuan",
@@ -542,8 +543,8 @@
 },
 {
 "id": "cohor-sultanligi",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Andaya & Andaya, A History of Malaysia — f 1528-01-01 / t 1923-10-29 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 3) — Hutchinson & Nair (ed.), Johor (Cambridge): sultanlık 1923'ten sonra da sürdü → t 1923 polity sonu DEĞİL, atlasın genel kesimi · ic_not: '[t 1923 atlasın genel kesimidir; Johor Sultanlığı sürdü (Hutchinson & Nair)]' · f 1528 OKUNMADI"
 },
 {
 "id": "palembang-sultanligi",
@@ -568,7 +569,7 @@
 {
 "id": "bali-kralliklari",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Ricklefs — f 1478-01-01 / t 1908-04-28 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: Ricklefs — f 1478-01-01 / t 1908-04-28 (bölüm: eserin dizininden) · EMRELİC Parti 3: f OKUNMADI"
 },
 {
 "id": "pagaruyung",
@@ -980,7 +981,7 @@
 {
 "id": "zerma",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden) · EMRELİC Parti 2: OKUNMADI · İPUCU: Fransız fethi süreci 1896–1906 (Kimba 1981 başlığı; metin okunmadı) — t 1898 sürecin içinde, dayanaksız · AÇIK KAYNAK (LAB, 4 Kasım): Gallica SRU 403 + Cloudflare doğrulaması (aşılmadı); Persée aramaları ('Zarma conquête 1898', 'Djerma 1898 Niger') fetih tarihi taşıyan makale vermedi"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden) · EMRELİC Parti 2: OKUNMADI · İPUCU: Fransız fethi süreci 1896–1906 (Kimba 1981 başlığı; metin okunmadı) — t 1898 sürecin içinde, dayanaksız · AÇIK KAYNAK (LAB, 4 Kasım): Gallica SRU 403 + Cloudflare doğrulaması (aşılmadı); Persée aramaları ('Zarma conquête 1898', 'Djerma 1898 Niger') fetih tarihi taşıyan makale vermedi · EMRELİC Parti 3: OKUNMADI; sıradaki: Fuglestad, A History of Niger 1850–1960 (CUP 1983)"
 },
 {
 "id": "kong-vattara",
@@ -1055,7 +1056,7 @@
 {
 "id": "adar",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK (LAB, 4 Kasım): Gallica kapalı (Cloudflare); Persée: Fuglestad, 'À propos de travaux récents sur la mission Voulet-Chanoine', Outre-Mers 67 (246-247), 1980, s.73-87 ve Chirot, 'Birni N'Konni and its Hinterland', CEA 8 (32), 1968 — tam metin açık değil (PDF 403); Konni'nin 1899 Voulet-Chanoine baskını için aday kaynaklar, OKUNMADI"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK (LAB, 4 Kasım): Gallica kapalı (Cloudflare); Persée: Fuglestad, 'À propos de travaux récents sur la mission Voulet-Chanoine', Outre-Mers 67 (246-247), 1980, s.73-87 ve Chirot, 'Birni N'Konni and its Hinterland', CEA 8 (32), 1968 — tam metin açık değil (PDF 403); Konni'nin 1899 Voulet-Chanoine baskını için aday kaynaklar, OKUNMADI · EMRELİC Parti 3: OKUNMADI; sıradaki: Fuglestad, A History of Niger 1850–1960 (CUP 1983)"
 },
 {
 "id": "tuareg-air",
@@ -1257,9 +1258,11 @@
 },
 {
 "id": "tubu-tibesti",
-"hukum": "DUZELT",
-"t": "1914-09-01",
-"kaynak": "Maurice Zimmermann, 'La conquête du Tibesti', Annales de Géographie 25 (135), 1916 (Persée, geo_0003-4010_1916_num_25_135_8819 — çağdaş akademik kronik): Territoire militaire du Niger kolu 'atteignit Enneri Zouar le [?] décembre 1913' (gün OCR'de düşmüş), '11 juin 1914' sırtı aştı, 'entra [à] la principale localité du Tibesti [Bardaï] le 23 juin', 'la conquête … se trouvait terminée le 1er septembre 1914'; Zouar ve Bardaï'da iki daimî karakol · ÖNERİ t 1914-01-01 → 1914-09-01 (fethin tamamlanışı; 06-23 Bardaï'ya giriş ic_not'ta) · ic_not: 'Zouar Aralık 1913; Bardaï 23 Haziran 1914; fetih 1 Eylül 1914'te tamam (Zimmermann 1916). İPUCU (kaynaksız, KASA teyit etsin): Fransızlar Tibesti'yi 1916'da Senusi baskısıyla boşaltıp 1929-30'da yeniden işgal etmiş olabilir — doğrulanırsa t sınıflandırması yeniden açılır.' · TEK KAYNAK (çift teyit yok) · f 1281 dayanaksız (okunmadı) · Gallica (Journal officiel AOF/AEF) Cloudflare bot doğrulaması verdi — aşılmadı"
+"hukum": "KISMEN",
+"bekle": "t (kalıcı Fransız yeniden işgal günü) — önceki öneri 1914-09-01 GERİ ÇEKİLDİ",
+"bekle_neden": "CHA VII (Suret-Canale) s.360 dn.40: 'the Tibesti mountains, from which French forces had withdrawn in 1916, were transferred from Niger to Chad' (1929) → 1914-16 TAHRİR ÖLÇÜTÜ'ne göre askerî işgal (isg), Tubu polity'si sürdü; t kalıcı yeniden işgal günüdür, kaynakta yok; 1929 Çad'a devri idarî işlem (EMRELİC kararı)",
+"yer_olcum": "3 yerleşim (`data/yerlesimler_afrika2.js` s.103-116: Bardaî, Vûr, Zûâr) — hepsi s: tubu-tibesti 1281-01-01→1914-01-01, sonra fransa-cumhuriyet 1914-01-01→1960-08-11, sonra cad. EMRELİC kararına göre 1914-16 Fransız varlığı `isg:` (d: fransa-cumhuriyet; Zimmermann 1916: Zouar Aralık 1913, Bardaï 1914-06-23, fetih 1914-09-01; çekiliş 1916 CHA VII) olmalı, `s:` tubu-tibesti kalıcı yeniden işgale dek sürmeli — yeniden işgal günü kaynak bekliyor, şimdilik veri DEĞİŞMEZ. Ayrıca atlasın `Tibesti` bölge kaydı (`data/yerlesimler.js` s.1457, bos:'kabile', 'hiçbir devletin fiilen ulaşmadığı') bu künyeyle çelişiyor — eski not",
+"kaynak": "Zimmermann, 'La conquête du Tibesti', Annales de Géographie 25 (135), 1916 (Persée): Zouar Aralık 1913, Bardaï 23 Haziran 1914, fetih 1 Eylül 1914 · EMRELİC Cambridge (Parti 3): CHA VII (Suret-Canale) s.360 dn.40: Fransız kuvvetleri 1916'da Tibesti'den çekildi; 1929'da Nijer'den Çad'a devredildi · KARAR (EMRELİC): t BEKLE, mevcut 1914-01-01 kalır; ic_not: '[1914 fethi Zimmermann 1916; 1916 çekiliş CHA VII; kalıcı yeniden işgal günü teyitsiz]' · sıradaki: Fuglestad, A History of Niger 1850–1960 (CUP 1983) · f 1281 dayanaksız"
 },
 {
 "id": "kanada",
