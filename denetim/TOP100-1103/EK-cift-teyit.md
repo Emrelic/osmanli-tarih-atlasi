@@ -325,3 +325,23 @@ Bu turda arama özeti teyit sayılmadı; sayfanın kendisi açıldı.
 Kısmî satırlar ÇİFT TEYİT altında sayıldı: R1'de D13 (yalnız Santiago) ve D29 (yalnız yıl), R2'de D18 (yalnız yıl). D11'de de yalnız yıl teyitli, ama satır ÇELİŞKİ altında sayıldı.
 
 **Ayrıca:** EMRELİC'in 4 sorusu `EK-lab-sorular.md`de cevaplandı (Georgia, Florida, Çita, Bratislava/Košice).
+
+## 9. HAVVA JSTOR okuması (§6 listesi; 4 Kasım 2026)
+
+Kaynak dosya: `origin/havva-1104-jstor:denetim/TOP100-1103/EK-jstor-havva.md` (4da9a96bf). Aşağıdaki satırlar UMIT'te o dosyadan okunarak işlendi; alıntılar oradadır.
+
+| Kalem | Önceki hüküm | HAVVA okuması | Yeni hüküm |
+|---|---|---|---|
+| Uygur Kağanlığı kuruluşu (B10/B16) | §2c koordinatör kararı: 744 | Mackerras, *Central Asiatic Journal* 13/3 (1969), s. 215 + Mackerras, CHEIA (1990), bölüm 12 açılış sayfası: ikisi de 744 | **ÇİFT TEYİT (yıl) 744.** 745'i destekleyen kaynak yok. `uygur` f ve Doğu Göktürk-2 t → 744 önerisi güçlendi |
+| Krum'un ölümü (D7) | §8a R1: Treccani 13 Nisan | ODB «Krum» (Hollingsworth): "died … 13 Apr. 814" | **ÇİFT TEYİT (gün) 814-04-13** (Treccani + ODB). Evren `bizans_balkan.js:26` → `0814-04-13` |
+| Qing / Sonraki Jin kuruluşu | Kore kaynakları 1619 diyor | Bohnet, *Turning toward Edification* (2020), s. 74: "Later Jin dynasty in 1616" | **Yıl teyidi 1616.** Kore tarihçisi de 1616 diyor, "Kore 1619" iddiası zayıfladı. CHC 9/1 okunmadı |
+| Fetret Bursa zinciri (A2) | tek kaynak | Kastritsis 2022 (Oxbow), s. 293–295: İsa→Mehmed 1403, Süleyman'ın alışı "late 1403, or possibly a year later", Mehmed'in geri alışı 1410, Fetret sonu 1413 | **Yıllar teyitli: 1403, 1410, 1413.** `olaylar_ek5.js` 1404-03-01 maddesi **teyitsiz, beyanlı:** "Kastritsis 2022: 1403 sonu ya da 1404 sonu". *Sons of Bayezid* s. 112–113 okunmalı |
+| Kanem-Bornu bitişi (E18) | 1897 / 1902 / 1905 ayrımı açık | Kyari Mohammed, *Paideuma* 43 (1997), s. 281–282: Rabih Bornu'yu 1893–1900 arasında fethetti | **Olay tanımlandı, karar okunmadı:** 1893 Kânemî iktidarının kesilişi, 1900 Rabih'in yenilgisi. 1897 (ORE) ve 1902/1905 (TDV) okunmadı |
+| Bulgar 681, Kanem kuruluş yüzyılı, EI² ölüm günleri (Ebû Bekir, Ömer, Osman, Ali) | — | Kapalı kaynaklar: ODB tam metni, ORE (403), Brill EI² (403) | **OKUNMADI.** Oxford arama parçalarında 681 geçiyor, teyit sayılmadı |
+| Košice 1919 (EK-lab 4b) | gün bulunamadı | Toma 1958 + Boisserie 2020: dönüş günü yok | **Değişmedi:** Çekoslovak dönüşü 4 Temmuz 1919'dan önce başlamamalı |
+| Çita 1920 (EK-lab 3) | birincil kaynaklı karar | JSTOR'da gün veren kaynak yok | **Değişmedi:** alınış 1920-10-20, başkentli birleşme 1920-11-09/10 |
+
+**KASA'ya:**
+- Krum günü artık iki kaynaklı.
+- Uygur 744 artık iki kaynaklı.
+- Bursa 1404-03-01'e beyan eklenmeli.
