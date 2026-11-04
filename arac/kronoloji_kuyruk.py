@@ -749,6 +749,12 @@ METIN = [
     ("L2-1279", "Lugalo 1891-08-17 (Masele 2021, Tanzania Zamani 13/1) gün tutar; odak_yer Kalenga → olay Lugalo'da (Iringa'nın 22 km doğusu)"),
     ("L2-1280", "Yamada 1892 (Esenbel, BSOAS 59/2, 1996) yıl tutar; bir DergiPark makalesi 1893 der → ic_not"),
     ("L2-1275", "Çeitharol Kumbaba: kaynak alanındaki «Routledge» yalnız Cilt I; 1886-1891'i kapsayan Cilt III Foundation Books 2013 → künye düzeltilir"),
+    # İkinci geçiş IG5 / IG6
+    ("L2-713", "[BEKLE — 1084/1088 çelişkisi] Đại Việt-Song sınırı: Toàn thư (zh.wikisource) sınırın 1084'ün 6. ayında belirlendiğini kaydeder «定邊界。宋以六縣三洞還我», 1088 girişinde sınır kaydı yok → Song shi ve Taylor (CUP 2013) okunmadan karar yok"),
+    ("L2-747", "Brabant: ilk geçişteki NDB bağlantısı (sfz21801) I. Henry'nin değil babası Gottfried'in maddesi → kaynak alanı düzeltilir; Henry I'in Aşağı Lotaringya unvanı okunmadı"),
+    ("L2-737", "Kuzey Fujiwara tarafsızlığı: 日本人名大辞典 «源平争乱では中立をまもる», Britannica Japan 1181 Mutsu valisi atandı, Yoritomo'nun arkasına saldırmadı; 1183'te Yoshinaka'yı kışkırttı → «tarafsızlık» basitleştirme, ic_not"),
+    ("L2-753", "Sit muharebesi 1238-03-04 (Rudakov, Vestnik MGPU 2024 no.4; Polovtsov RBS t.18) gün tutar; Vsevolod Konstantinoviç'in ölümü, Yaroslavl yağması ve Vasili'nin 1249'a dek knezliği okunmadı"),
+    ("L2-760", "[BEKLE — yıl zayıf] Atina Dukalığı 1267: Miller, Latins in the Levant (1908) ve Gregorovius — Viterbo Atina'dan söz etmez, Dük John'un Charles'ı tanıdığına delil yok, tanıma Dük William'a bağlanır (~1280) → 1267 iki kaynakla zayıf"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
