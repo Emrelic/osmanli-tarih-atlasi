@@ -1,0 +1,50 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3558	BOS	data/yerlesimler_gdasya.js:335	Svay Rieng	s	angkor-kmer	1281-01-01	1431-01-01	
+3559	BOS	data/yerlesimler_gdasya.js:335	Svay Rieng	s	kamboc-kralligi	1431-01-01	1863-08-11	
+3560	BOS	data/yerlesimler_gdasya.js:335	Svay Rieng	s	fransiz-cinhindi	1863-08-11	1953-11-09	
+3561	ZAYIF_ATLAS	data/yerlesimler_gdasya.js:335	Svay Rieng	s	demokratik-kampucya	1975-04-17	1979-01-07	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye demokratik-kampucya f ucunun kaynağı — DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni 5.1.1976
+3562	BOS	data/yerlesimler_gdasya.js:349	Siak Sri Indrapura	s	malay-sultanliklari	1281-01-01	1400-01-01	
+3563	BOS	data/yerlesimler_gdasya.js:349	Siak Sri Indrapura	s	malaka-sultanligi	1400-01-01	1528-01-01	
+3564	BOS	data/yerlesimler_gdasya.js:349	Siak Sri Indrapura	s	cohor-sultanligi	1528-01-01	1723-01-01	
+3565	BOS	data/yerlesimler_gdasya.js:349	Siak Sri Indrapura	s	dogu-sumatra-sultanliklari	1723-01-01	1858-01-01	
+3566	BOS	data/yerlesimler_gdasya.js:349	Siak Sri Indrapura	s	hollanda-dogu-hint	1858-01-01	1942-03-09	
+3567	ZAYIF_ATLAS	data/yerlesimler_gdasya.js:349	Siak Sri Indrapura	s	hollanda-dogu-hint	1945-09-02	1949-12-27	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Hollanda Doğu Hint Adaları'nın egemenliği Endonezya Birl
+3568	BOS	data/yerlesimler_gdasya.js:355	Pontianak	s	pontianak	1772-01-01	1855-01-01	
+3569	BOS	data/yerlesimler_gdasya.js:355	Pontianak	s	hollanda-dogu-hint	1855-01-01	1942-03-09	
+3570	ZAYIF_ATLAS	data/yerlesimler_gdasya.js:355	Pontianak	s	hollanda-dogu-hint	1945-09-02	1949-12-27	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Hollanda Doğu Hint Adaları'nın egemenliği Endonezya Birl
+3571	BOS	data/yerlesimler_gdasya.js:361	Watampone (Bone)	s	bugis-kralliklari	1330-01-01	1905-08-06	
+3572	BOS	data/yerlesimler_gdasya.js:361	Watampone (Bone)	s	hollanda-dogu-hint	1905-08-06	1942-03-09	
+3573	ZAYIF_ATLAS	data/yerlesimler_gdasya.js:361	Watampone (Bone)	s	hollanda-dogu-hint	1945-09-02	1949-12-27	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Hollanda Doğu Hint Adaları'nın egemenliği Endonezya Birl
+3574	BOS	data/yerlesimler_emilme.js:32	Mozambik Adası	s	portekiz-mozambik	1507-01-01	1974-09-20	
+3575	ZAYIF_ATLAS	data/yerlesimler_emilme.js:32	Mozambik Adası	s	mozambik-gecis-hukumeti	1974-09-20	1975-06-25	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mozambik-gecis-hukumeti f ucunun kaynağı — https://africaportal.org/wp-content/uploads/2023/05/Frelimo_and_th
+3576	DIGER	data/yerlesimler_emilme.js:32	Mozambik Adası	s	mozambik	1975-06-25	2000-12-31	Bagimsizlik 1975-06-25
+3577	BOS	data/yerlesimler_emilme.js:52	Mbanza-Kongo (São Salvador)	s	kongo-kralligi	1390-01-01	1914-01-01	
+3578	BOS	data/yerlesimler_emilme.js:52	Mbanza-Kongo (São Salvador)	s	portekiz-angola	1914-01-01	1975-11-11	
+3579	ZAYIF_ATLAS	data/yerlesimler_emilme.js:52	Mbanza-Kongo (São Salvador)	s	angola	1975-11-11	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye angola f ucunun kaynağı — Office of the Historian, 'Angola' milestone (history.state.gov) — «MPLA leader Neto
+3580	BOS	data/yerlesimler_emilme.js:104	Jayapura (Hollandia)	s	hollanda-dogu-hint	1898-01-01	1942-03-09	
+3581	ZAYIF_ATLAS	data/yerlesimler_emilme.js:104	Jayapura (Hollandia)	s	hollanda-dogu-hint	1945-09-02	1949-12-27	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Hollanda Doğu Hint Adaları'nın egemenliği Endonezya Birl
+3582	BOS	data/yerlesimler_emilme.js:116	Finschhafen	s	almanya	1884-11-03	1914-09-17	
+3583	BOS	data/yerlesimler_emilme.js:116	Finschhafen	s	avustralya	1914-09-17	1949-07-01	
+3584	DIGER	data/yerlesimler_emilme.js:116	Finschhafen	s	papua-yeni-gine-avustralya	1949-07-01	1975-09-16	https://history.state.gov/countries/papua-new-guinea
+3585	DIGER	data/yerlesimler_emilme.js:116	Finschhafen	s	papua-yeni-gine	1975-09-16	2000-12-31	https://history.state.gov/countries/papua-new-guinea
+3586	BOS	data/yerlesimler_ek30.js:18	Sydney	s	yeni-guney-galler	1788-01-26	1901-01-01	
+3587	BOS	data/yerlesimler_ek30.js:18	Sydney	s	avustralya	1901-01-01	2000-12-31	
+3588	BOS	data/yerlesimler_ek30.js:106	Hobart	s	yeni-guney-galler	1804-01-01	1825-12-03	
+3589	BOS	data/yerlesimler_ek30.js:106	Hobart	s	van-diemens-land	1825-12-03	1901-01-01	
+3590	BOS	data/yerlesimler_ek30.js:106	Hobart	s	avustralya	1901-01-01	2000-12-31	
+3591	BOS	data/yerlesimler_ek30.js:118	Perth	s	bati-avustralya	1829-08-12	1901-01-01	
+3592	BOS	data/yerlesimler_ek30.js:118	Perth	s	avustralya	1901-01-01	2000-12-31	
+3593	BOS	data/yerlesimler_0ee15e.js:76	Buenos Aires	s	ispanya	1580-01-01	1810-05-25	
+3594	BOS	data/yerlesimler_0ee15e.js:76	Buenos Aires	s	arjantin-cumhuriyeti	1810-05-25	2000-12-31	
+3595	BOS	data/yerlesimler_ek_macaristan.js:210	Ungvár (Uzhhorod)	v		1682-09-16	1685-10-15	
+3596	ZAYIF_ATLAS	data/yerlesimler_ek_macaristan.js:210	Ungvár (Uzhhorod)	s	ukrayna	1991-08-24	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ukrayna f ucunun kaynağı — https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.
+3597	BOS		Jadlā’	s	memluk	1281-01-01	1516-08-24	
+3598	BOS		Jadlā’	s	fransa-cumhuriyet	1918-10-30	1920-07-24	
+3599	BOS		Jadlā’	s	suriye-lubnan-mandasi	1920-07-24	1946-04-17	
+3600	BOS		Jadlā’	d		1516-08-24	1918-10-30	
+3601	BOS		Balıklı	s	ilhanli	1281-01-01	1351-01-01	
+3602	BOS		Balıklı	s	karakoyunlu	1351-01-01	1467-01-01	
+3603	BOS		Balıklı	s	akkoyunlu	1467-01-01	1502-01-01	
+3604	BOS		Balıklı	s	safevi	1502-01-01	1548-08-24	
+3605	BOS		Balıklı	s	tbmm-turkiye	1920-04-23	1923-10-29	
+3606	BOS		Balıklı	d		1548-08-24	1920-04-23	

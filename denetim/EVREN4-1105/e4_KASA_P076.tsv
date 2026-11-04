@@ -1,0 +1,68 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+4273	DIGER	data/yerlesimler_e9353f.js:133	Valata (Oualata)	s	mali-imparatorlugu	1281-01-01	1430-01-01	mali
+4274	DIGER	data/yerlesimler_e9353f.js:364	Oyo-İle (Eski Oyo)	s	oyo-imparatorlugu	1400-01-01	1836-01-01	bulunamadi
+4275	DIGER	data/yerlesimler_e9353f.js:384	Kumasi	s	asanti	1701-01-01	1901-01-01	gana
+4276	DIGER	data/yerlesimler_e9353f.js:384	Kumasi	s	ingiltere	1901-01-01	1957-03-06	gana
+4277	ZAYIF_ATLAS	data/yerlesimler_e9353f.js:384	Kumasi	s	gana	1957-03-06	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye gana f ucunun kaynağı — Ghana Independence Act 1957 (5&6 Eliz.2 c.6), legislation.gov.uk/ukpga/Eliz2/5-6/6 ; 
+4278	DIGER	data/yerlesimler_e9353f.js:613	Büyük Zimbabve	s	zimbabve-kralligi	1281-01-01	1450-01-01	zimbabve
+4279	DIGER	data/yerlesimler_e9353f.js:613	Büyük Zimbabve	s	mutapa	1450-01-01	1700-01-01	zimbabve
+4280	DIGER	data/yerlesimler_kamerika.js:838	Grand Portage	s	ingiltere	1763-02-10	1783-09-03	1763 Paris Antlaşması (Avalon paris763.asp) · 1783 Paris Antlaşması 3.09.1783 (KASA-ABD-1010)
+4281	DIGER	data/yerlesimler_kamerika.js:838	Grand Portage	s	abd	1783-09-03	2000-12-31	1783 Paris Antlaşması md. II (Avalon paris.asp) ⇒ ABD — Michilimackinac emsali (1783-09-03); Detroit emsali Jay tahliyesi 1796-07-11 ⑥ · NWC 1802'de son toplant
+4282	DIGER	data/yerlesimler_kamerika.js:1397	Mission San Luis (Apalaçi)	s	ispanya	1656-01-01	1763-02-10	günler komşudan: St. Augustine · Weber (1992) — aynı süreç (Florida devirleri); Florida 'ispanya' (Küba'ya bağlı), hiç Meksika olmadı — DUNYA-0079
+4283	DIGER	data/yerlesimler_kamerika.js:1397	Mission San Luis (Apalaçi)	s	ingiltere	1763-02-10	1783-09-03	günler komşudan: St. Augustine · Weber (1992) — aynı süreç (Florida devirleri); Florida 'ispanya' (Küba'ya bağlı), hiç Meksika olmadı — DUNYA-0079
+4284	DIGER	data/yerlesimler_kamerika.js:1397	Mission San Luis (Apalaçi)	s	ispanya	1783-09-03	1821-07-10	günler komşudan: St. Augustine · Weber (1992) — aynı süreç (Florida devirleri); Florida 'ispanya' (Küba'ya bağlı), hiç Meksika olmadı — DUNYA-0079
+4285	DIGER	data/yerlesimler_kamerika.js:1397	Mission San Luis (Apalaçi)	s	abd	1821-07-10	2000-12-31	günler komşudan: St. Augustine · Weber (1992) — aynı süreç (Florida devirleri); Florida 'ispanya' (Küba'ya bağlı), hiç Meksika olmadı — DUNYA-0079
+4286	DIGER		Mutsamudu (Anjuan)	s	__BOSLUK__	1281-01-01	1886-01-01	BOŞLUK BEYANI: sahip Komor sultanlıkları (Ngazidja/Fani sultanları, Anjouan, Mohéli — Şîrâzî soylu hanedanlar); bu polity'lerin künyesi yok ve BOYALAR'da anahta
+4287	DIGER		Mutsamudu (Anjuan)	s	fransiz-komorlari	1886-01-01	1975-07-06	Fransız himayesi 1886 (künye fransiz-komorlari f 1886-01-01; Anjouan/Mohéli/Ngazidja ayrı ayrı 1886 antlaşmaları — adaya özgü gün doğrulanmadı) ve 1912-07-25 il
+4288	BOS		Mutsamudu (Anjuan)	s	komorlar	1975-07-06	1997-08-03	
+4289	BOS		Mutsamudu (Anjuan)	s	anjuan-devleti	1997-08-03	2000-12-31	
+4290	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	yuan-hanedani	1281-01-01	1368-09-14	明史 卷46 (Tengchong fu, Dali lu altında Yuan idaresi); bitiş künye günü
+4291	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	kuzey-yuan	1368-09-14	1382-04-07	明史 卷3 洪武十五年閏二月癸丑 (Dali alındı, Jinchi teslim) — KAYIT günü, en geç sınır [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyl
+4292	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	ming-hanedani	1382-04-07	1644-04-25	明史 卷3; bitiş Ming künye günü (Kunming emsali)
+4293	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	guney-ming	1644-04-25	1659-04-22	清史稿 卷5 順治十六年閏三月 Yongchang–Tengyue alındı (saray kaydı 1659-06-13); ayın ilk günü, gün bulunamadı [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı met
+4294	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	qing-hanedani	1659-04-22	1673-12-28	清史稿 卷6 (Wu Sangui isyanı; Kunming emsaliyle aynı gün)
+4295	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	san-fan	1673-12-28	1681-12-07	清史稿 卷6 康熙二十年十月二十八日 Kunming düştü (eyalet düzeyi) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi J
+4296	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	qing-hanedani	1681-12-07	1862-08-24	清史稿 卷21 同治元年七月庚戌 'asiler Yongchang, Longling, Tengyue'yü aldı' — KAYIT günü [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaret
+4297	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	pingnan	1862-08-24	1873-01-15	清史稿 卷21; bitiş pingnan künye günü (Dali'nin düşüşü)
+4298	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	__BOSLUK__	1873-01-15	1873-08-02	清史稿 卷22 同治十二年閏六月丙戌 'Yunnan ordusu Tengyue'yü aldı' — KAYIT günü; arada Pingnan kalıntısı (künye penceresi dışı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı h
+4299	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	qing-hanedani	1873-08-02	1912-02-12	清史稿 卷22; bitiş Kunming emsali — Tengyue ayaklanması 1911-10-27 (yalnız ipucu, Sutton 1980 okunmadı)
+4300	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	cin-cumhuriyeti	1912-02-12	1949-10-01	IBS 42 (Burma–China Boundary, 1964): 1897–1900 tahdidinden sonra Tengyue Çin'de
+4301	DIGER	data/yerlesimler_a78_asya.js:27	Tengyue (Tengchong)	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+4302	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	yuan-hanedani	1281-01-01	1368-09-14	明史 卷46 (Kainan zhou, 1331 Jingdong fu); bitiş künye günü
+4303	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	kuzey-yuan	1368-09-14	1382-03-16	明史 卷46 洪武十五年閏二月 'bırakıldı' (ayın ilk günü, Jülyen) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 önces
+4304	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	ming-hanedani	1382-03-16	1644-04-25	明史 卷46; bitiş Ming künye günü
+4305	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	guney-ming	1644-04-25	1659-01-07	gün komşudan: Kunming · atlas emsali; Jingdong'a özgü gün bulunamadı
+4306	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	qing-hanedani	1659-01-07	1673-12-28	清史稿 卷6
+4307	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	san-fan	1673-12-28	1681-12-07	清史稿 卷6
+4308	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	qing-hanedani	1681-12-07	1912-02-12	清史稿 卷6; bitiş Kunming emsali
+4309	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	cin-cumhuriyeti	1912-02-12	1949-10-01	IBS 42
+4310	DIGER	data/yerlesimler_a78_asya.js:78	Jingdong	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+4311	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	yuan-hanedani	1281-01-01	1368-09-14	明史 卷46 (Lin'an lu altında); bitiş künye günü
+4312	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	kuzey-yuan	1368-09-14	1382-01-16	明史 卷3 洪武十五年正月壬午 (eyalet özeti; Lin'an ile aynı) [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı; 1582 öncesi Jü
+4313	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	ming-hanedani	1382-01-16	1644-04-25	明史 卷46; bitiş Ming künye günü
+4314	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	guney-ming	1644-04-25	1659-01-07	gün komşudan: Kunming · atlas emsali
+4315	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	qing-hanedani	1659-01-07	1673-12-28	清史稿 卷6
+4316	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	san-fan	1673-12-28	1681-12-07	清史稿 卷6
+4317	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	qing-hanedani	1681-12-07	1912-02-12	清史稿 卷6 (1889 antlaşma limanı); bitiş Kunming emsali
+4318	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	cin-cumhuriyeti	1912-02-12	1949-10-01	IBS 42
+4319	DIGER	data/yerlesimler_a78_asya.js:121	Mengzi	s	cin-halk-cumhuriyeti	1949-10-01	2000-12-31	ilan 1949-10-01, tsv kunye
+4320	DIGER	data/yerlesimler_a78_asya.js:171	Horog (Khorog)	s	afganistan	1883-01-01	1895-03-11	Iloliev, The Mirdom of Wakhān (UCA RP #12, 2021): Afgan hâkimleri 1883 Ağustos olaylarından sonra Şugnan-Rûşan'da. ÇELİŞKİ: EB1911 1882 · IBS 26 1884
+4321	DIGER	data/yerlesimler_a78_asya.js:171	Horog (Khorog)	s	rusya	1905-01-01	1917-03-15	Morrison, The Russian Conquest of Central Asia (CUP 2020) bl.10: 1905'te doğrudan Rus idaresi (hukuken Buhara'da kaldı)
+4322	DIGER	data/yerlesimler_a78_asya.js:171	Horog (Khorog)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	künye günleri
+4323	ZAYIF_ATLAS	data/yerlesimler_a78_asya.js:171	Horog (Khorog)	s	tacikistan	1991-09-09	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tacikistan f ucunun kaynağı — https://www.vkd.tj/1032-declaration-of-state-independence.html ; https://tnu.tj
+4324	DIGER	data/yerlesimler_a78_asya.js:187	İşkâşim (Pamir)	s	__BOSLUK__	1281-01-01	1883-08-15	Iloliev 2021: Vahan/İşkâşim yerel mîrleri, Bedahşan'a sözde tâbi — künye yok
+4325	DIGER	data/yerlesimler_a78_asya.js:187	İşkâşim (Pamir)	s	afganistan	1883-08-15	1895-03-11	Iloliev 2021 (Putyata 1884'ten): mîr 14/15 Ağustos 1883 gecesi Kal'a-i Pençe'den kaçtı, Afgan hâkimleri kuruldu
+4326	DIGER	data/yerlesimler_a78_asya.js:187	İşkâşim (Pamir)	s	buhara	1895-03-11	1905-01-01	IBS 26 · Iloliev 2021 (sağ yaka İşkâşim Buhara'ya)
+4327	DIGER	data/yerlesimler_a78_asya.js:187	İşkâşim (Pamir)	s	rusya	1905-01-01	1917-03-15	Morrison (CUP 2020) bl.10
+4328	DIGER	data/yerlesimler_a78_asya.js:187	İşkâşim (Pamir)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	künye günleri
+4329	ZAYIF_ATLAS	data/yerlesimler_a78_asya.js:187	İşkâşim (Pamir)	s	tacikistan	1991-09-09	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tacikistan f ucunun kaynağı — https://www.vkd.tj/1032-declaration-of-state-independence.html ; https://tnu.tj
+4330	DIGER	data/yerlesimler_a78_asya.js:231	Bintulu	s	__BOSLUK__	1281-01-01	1368-01-01	brunei-sultanligi künyesi 1368'de başlıyor; Majapahit listesi egemenlik kanıtı sayılmadı
+4331	DIGER	data/yerlesimler_a78_asya.js:231	Bintulu	s	brunei-sultanligi	1368-01-01	1861-01-01	IBS 45 (Indonesia–Malaysia Boundary, 1965) s.5
+4332	DIGER	data/yerlesimler_a78_asya.js:231	Bintulu	s	sarawak-brooke	1861-01-01	1946-07-01	IBS 45 s.5 'in 1861 at the Bintulu'; Bintulu Development Authority (resmî): 1861 Raca'ya devredildi
+4333	ZAYIF_ATLAS	data/yerlesimler_a78_asya.js:231	Bintulu	s	sarawak-tac-kolonisi	1946-07-01	1963-09-16	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye sarawak-tac-kolonisi f ucunun kaynağı — https://sarawak.gov.my/web/home/article_view/228/244/?id=228 · BEYANL
+4334	DIGER	data/yerlesimler_a78_asya.js:245	Baram (bölge)	s	__BOSLUK__	1281-01-01	1368-01-01	brunei-sultanligi künyesi 1368'de başlıyor
+4335	DIGER	data/yerlesimler_a78_asya.js:245	Baram (bölge)	s	brunei-sultanligi	1368-01-01	1882-01-01	IBS 45 s.5–6 (Brunei batı kıyısını tutuyordu)
+4336	DIGER	data/yerlesimler_a78_asya.js:245	Baram (bölge)	s	sarawak-brooke	1882-01-01	1946-07-01	Suffian Mansor (UKM), 'Kisah pengambilan Baram oleh Brooke', Utusan Sarawak: anlaşma 6 Mayıs, resmî devir 13 Haziran 1882; IBS 45 'in 1882 at the Baram'
+4337	DIGER	data/yerlesimler_a78_asya.js:291	Sintang	s	__BOSLUK__	1281-01-01	1822-12-02	Sintang krallığı/sultanlığı — künye yok
+4338	DIGER	data/yerlesimler_a78_asya.js:291	Sintang	s	hollanda-dogu-hint	1822-12-02	1942-03-09	Firmansyah, 'Sejarah Kota Sintang dari 1822–1900-an', Historis 8(1) 2023: 2 Aralık 1822 geçici sözleşme (Sambas emsaliyle tutarlı: sözleşme günü)
+4339	DIGER	data/yerlesimler_a78_asya.js:291	Sintang	s	hollanda-dogu-hint	1945-09-02	1949-12-27	Firmansyah, 'Sejarah Kota Sintang dari 1822–1900-an', Historis 8(1) 2023: 2 Aralık 1822 geçici sözleşme (Sambas emsaliyle tutarlı: sözleşme günü)

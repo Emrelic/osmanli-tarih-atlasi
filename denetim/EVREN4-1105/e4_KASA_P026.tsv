@@ -1,0 +1,81 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+1951	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:190	Ust-Sısolsk (Sıktıvkar)	s	rusya	1586-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+1952	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:190	Ust-Sısolsk (Sıktıvkar)	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1953	BOS	data/yerlesimler_h2_rusya.js:190	Ust-Sısolsk (Sıktıvkar)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1954	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:190	Ust-Sısolsk (Sıktıvkar)	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1955	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:196	Hlınov (Vyatka)	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1956	BOS	data/yerlesimler_h2_rusya.js:196	Hlınov (Vyatka)	s	novgorod	1281-01-01	1478-01-15	
+1957	BOS	data/yerlesimler_h2_rusya.js:196	Hlınov (Vyatka)	s	moskova	1478-01-15	1547-01-16	
+1958	BOS	data/yerlesimler_h2_rusya.js:196	Hlınov (Vyatka)	s	rusya	1547-01-16	1917-03-15	
+1959	BOS	data/yerlesimler_h2_rusya.js:196	Hlınov (Vyatka)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1960	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:196	Hlınov (Vyatka)	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1961	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:208	Çerdın	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1962	BOS	data/yerlesimler_h2_rusya.js:208	Çerdın	s	novgorod	1281-01-01	1478-01-15	
+1963	BOS	data/yerlesimler_h2_rusya.js:208	Çerdın	s	moskova	1478-01-15	1547-01-16	
+1964	BOS	data/yerlesimler_h2_rusya.js:208	Çerdın	s	rusya	1547-01-16	1917-03-15	
+1965	BOS	data/yerlesimler_h2_rusya.js:208	Çerdın	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1966	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:208	Çerdın	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1967	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:218	Kostroma	s	altinorda	1281-01-01	1325-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, ta
+1968	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:218	Kostroma	s	moskova	1325-01-01	1547-01-16	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, tar
+1969	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:218	Kostroma	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1970	BOS	data/yerlesimler_h2_rusya.js:218	Kostroma	s	rusya	1547-01-16	1917-03-15	
+1971	BOS	data/yerlesimler_h2_rusya.js:218	Kostroma	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1972	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:218	Kostroma	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1973	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:230	Uglich	s	altinorda	1281-01-01	1325-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, ta
+1974	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:230	Uglich	s	moskova	1325-01-01	1547-01-16	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, tar
+1975	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:230	Uglich	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1976	BOS	data/yerlesimler_h2_rusya.js:230	Uglich	s	rusya	1547-01-16	1917-03-15	
+1977	BOS	data/yerlesimler_h2_rusya.js:230	Uglich	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1978	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:230	Uglich	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1979	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:242	Şuya	s	altinorda	1281-01-01	1325-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, ta
+1980	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:242	Şuya	s	moskova	1325-01-01	1547-01-16	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, tar
+1981	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:242	Şuya	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1982	BOS	data/yerlesimler_h2_rusya.js:242	Şuya	s	rusya	1547-01-16	1917-03-15	
+1983	BOS	data/yerlesimler_h2_rusya.js:242	Şuya	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1984	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:242	Şuya	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1985	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:258	Velikiye Luki	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1986	BOS	data/yerlesimler_h2_rusya.js:258	Velikiye Luki	s	novgorod	1281-01-01	1478-01-15	
+1987	BOS	data/yerlesimler_h2_rusya.js:258	Velikiye Luki	s	moskova	1478-01-15	1547-01-16	
+1988	BOS	data/yerlesimler_h2_rusya.js:258	Velikiye Luki	s	rusya	1547-01-16	1917-03-15	
+1989	BOS	data/yerlesimler_h2_rusya.js:258	Velikiye Luki	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1990	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:258	Velikiye Luki	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1991	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:291	Temnikov	s	altinorda	1281-01-01	1325-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, ta
+1992	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:291	Temnikov	s	moskova	1325-01-01	1547-01-16	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, tar
+1993	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:291	Temnikov	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1994	BOS	data/yerlesimler_h2_rusya.js:291	Temnikov	s	rusya	1547-01-16	1917-03-15	
+1995	BOS	data/yerlesimler_h2_rusya.js:291	Temnikov	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1996	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:291	Temnikov	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1997	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:307	Serpuhov	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1998	BOS	data/yerlesimler_h2_rusya.js:307	Serpuhov	s	altinorda	1281-01-01	1301-01-01	
+1999	BOS	data/yerlesimler_h2_rusya.js:307	Serpuhov	s	rusya	1547-01-16	1917-03-15	
+2000	BOS	data/yerlesimler_h2_rusya.js:307	Serpuhov	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+2001	DIGER	data/yerlesimler_h2_rusya.js:307	Serpuhov	s	moskova	1301-01-01	1547-01-16	KRONOLOJI-BALTIK-RUSYA (28 Ekim 2026): Serpuhov 1301'de Moskova'ya katıldı (UW Waugh 'Chronology of the Early History of Moscow' — arama özeti [özet]). Eski kay
+2002	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:307	Serpuhov	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+2003	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:319	Dmitrov	s	altinorda	1281-01-01	1325-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, ta
+2004	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:319	Dmitrov	s	moskova	1325-01-01	1547-01-16	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Metropolitlik makamı Moskova'ya taşındı» (1325-01-01, tar
+2005	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:319	Dmitrov	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+2006	BOS	data/yerlesimler_h2_rusya.js:319	Dmitrov	s	rusya	1547-01-16	1917-03-15	
+2007	BOS	data/yerlesimler_h2_rusya.js:319	Dmitrov	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+2008	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:319	Dmitrov	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+2009	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:337	Tetyuşi	s	rusya	1578-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+2010	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:337	Tetyuşi	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+2011	BOS	data/yerlesimler_h2_rusya.js:337	Tetyuşi	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+2012	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:337	Tetyuşi	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+2013	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:343	Çistopol	s	rusya	1552-10-02	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+2014	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:343	Çistopol	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+2015	BOS	data/yerlesimler_h2_rusya.js:343	Çistopol	s	altinorda	1281-01-01	1438-01-01	
+2016	BOS	data/yerlesimler_h2_rusya.js:343	Çistopol	s	kazan	1438-01-01	1552-10-02	
+2017	BOS	data/yerlesimler_h2_rusya.js:343	Çistopol	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+2018	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:343	Çistopol	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+2019	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:353	Tsarevokokşaysk (Yoşkar-Ola)	s	rusya	1584-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+2020	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:353	Tsarevokokşaysk (Yoşkar-Ola)	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+2021	BOS	data/yerlesimler_h2_rusya.js:353	Tsarevokokşaysk (Yoşkar-Ola)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+2022	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:353	Tsarevokokşaysk (Yoşkar-Ola)	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+2023	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:363	Menzelinsk	s	rusya	1584-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+2024	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:363	Menzelinsk	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+2025	BOS	data/yerlesimler_h2_rusya.js:363	Menzelinsk	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+2026	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:363	Menzelinsk	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+2027	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:369	Birsk	s	rusya	1663-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Rusya Sura boyunda Penza kalesini kurdu» (1663-01-01, tar
+2028	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:369	Birsk	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+2029	BOS	data/yerlesimler_h2_rusya.js:369	Birsk	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+2030	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:369	Birsk	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н

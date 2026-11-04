@@ -1,0 +1,45 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3607	BOS		Uluköy (Akçadam)	s	suleyman-celebi	1402-07-28	1410-02-13	
+3608	BOS		Uluköy (Akçadam)	s	musa-celebi	1410-02-13	1410-06-15	
+3609	BOS		Uluköy (Akçadam)	s	suleyman-celebi	1410-06-15	1411-02-17	
+3610	BOS		Uluköy (Akçadam)	s	musa-celebi	1411-02-17	1413-07-05	
+3611	BOS		Uluköy (Akçadam)	s	tbmm-turkiye	1920-04-23	1923-10-29	
+3612	BOS		Uluköy (Akçadam)	d		1413-07-05	1920-04-23	
+3613	BOS		Ts’q’altbila	s	gurcistan	1281-01-01	1578-08-01	
+3614	BOS		Ts’q’altbila	s	rusya	1829-09-14	1917-03-15	
+3615	BOS		Ts’q’altbila	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+3616	BOS		Ts’q’altbila	s	sovyet-rusya	1917-11-07	1991-04-09	
+3617	BOS		Ts’q’altbila	d		1578-08-01	1829-09-14	
+3618	BOS	data/yerlesimler_ek_karayip_adalar.js:14	Bayamo	s	ispanya	1513-01-01	1898-12-10	
+3619	BOS	data/yerlesimler_ek_karayip_adalar.js:14	Bayamo	s	abd	1898-12-10	1902-05-20	
+3620	BOS	data/yerlesimler_ek_karayip_adalar.js:14	Bayamo	s	kuba-cumhuriyeti	1902-05-20	2000-12-31	
+3621	BOS	data/yerlesimler_ek_karayip_adalar.js:30	Matanzas (Küba)	s	ispanya	1693-01-01	1898-12-10	
+3622	BOS	data/yerlesimler_ek_karayip_adalar.js:30	Matanzas (Küba)	s	abd	1898-12-10	1902-05-20	
+3623	BOS	data/yerlesimler_ek_karayip_adalar.js:30	Matanzas (Küba)	s	kuba-cumhuriyeti	1902-05-20	2000-12-31	
+3624	BOS	data/yerlesimler_ek_karayip_adalar.js:61	George Town (Cayman)	s	ingiltere	1670-07-18	2000-12-31	
+3625	DIGER	data/yerlesimler_ek_karayip_adalar.js:61	George Town (Cayman)	s	__BOSLUK__	1000-01-01	1670-07-18	BOŞLUK BEYANI (kaynak: bulunamadı): bu noktanın 1670-07-08 tarihinden önceki sahibi atlasta kaynakla yazılı DEĞİL; kayıttaki kasitli_bosluk / bos / neden beyanı
+3626	BOS	data/yerlesimler_ek_karayip_adalar.js:81	Puerto Baquerizo Moreno (San Cristóbal, Galápagos)	s	ekvador-cumhuriyeti	1832-02-12	2000-12-31	
+3627	DIGER	data/yerlesimler_ek_karayip_adalar.js:81	Puerto Baquerizo Moreno (San Cristóbal, Galápagos)	s	__BOSLUK__	1000-01-01	1832-02-12	BOŞLUK BEYANI (kaynak: bulunamadı): bu noktanın 1832-02-12 tarihinden önceki sahibi atlasta kaynakla yazılı DEĞİL; kayıttaki kasitli_bosluk / bos / neden beyanı
+3628	BOS	data/yerlesimler_ek_karayip_adalar.js:89	San Juan Bautista (Juan Fernández)	s	ispanya	1750-01-01	1818-02-12	
+3629	BOS	data/yerlesimler_ek_karayip_adalar.js:89	San Juan Bautista (Juan Fernández)	s	sili-cumhuriyeti	1818-02-12	2000-12-31	
+3630	DIGER	data/yerlesimler_ek_karayip_adalar.js:89	San Juan Bautista (Juan Fernández)	s	__BOSLUK__	1000-01-01	1750-01-01	BOŞLUK BEYANI (kaynak: bulunamadı): bu noktanın 1750-01-01 tarihinden önceki sahibi atlasta kaynakla yazılı DEĞİL; kayıttaki kasitli_bosluk / bos / neden beyanı
+3631	BOS	data/yerlesimler_ok107.js:195	Râbiğ	s	memluk	1281-01-01	1517-07-06	
+3632	BOS	data/yerlesimler_ok107.js:195	Râbiğ	s	hicaz-kralligi	1916-06-16	1925-12-19	
+3633	BOS	data/yerlesimler_ok107.js:195	Râbiğ	d		1517-07-06	1813-01-23	
+3634	BOS	data/yerlesimler_ok107.js:195	Râbiğ	d		1841-05-24	1916-06-16	
+3635	BOS	data/yerlesimler_ok107.js:195	Râbiğ	v		1813-01-23	1841-05-24	
+3636	ZAYIF_ATLAS	data/yerlesimler_ok107.js:195	Râbiğ	s	suudi-arabistan	1932-09-18	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau
+3637	BOS	data/yerlesimler_okyanusya.js:79	Normanton	s	queensland	1867-01-01	1901-01-01	
+3638	BOS	data/yerlesimler_okyanusya.js:79	Normanton	s	avustralya	1901-01-01	2000-12-31	
+3639	BOS	data/yerlesimler_okyanusya.js:94	Charleville	s	queensland	1863-01-01	1901-01-01	
+3640	BOS	data/yerlesimler_okyanusya.js:94	Charleville	s	avustralya	1901-01-01	2000-12-31	
+3641	BOS	data/yerlesimler_okyanusya.js:104	Cloncurry	s	queensland	1867-05-01	1901-01-01	
+3642	BOS	data/yerlesimler_okyanusya.js:104	Cloncurry	s	avustralya	1901-01-01	2000-12-31	
+3643	BOS	data/yerlesimler_okyanusya.js:119	Barcaldine	s	queensland	1885-01-01	1901-01-01	
+3644	BOS	data/yerlesimler_okyanusya.js:119	Barcaldine	s	avustralya	1901-01-01	2000-12-31	
+3645	BOS	data/yerlesimler_okyanusya.js:134	Georgetown	s	queensland	1869-01-01	1901-01-01	
+3646	BOS	data/yerlesimler_okyanusya.js:134	Georgetown	s	avustralya	1901-01-01	2000-12-31	
+3647	BOS	data/yerlesimler_okyanusya.js:149	Tennant Creek Telgraf İstasyonu	s	kuzey-bolgesi-sa	1872-01-01	1911-01-01	
+3648	BOS	data/yerlesimler_okyanusya.js:149	Tennant Creek Telgraf İstasyonu	s	avustralya	1911-01-01	2000-12-31	
+3649	BOS	data/yerlesimler_okyanusya.js:164	Emerald	s	queensland	1878-01-01	1901-01-01	
+3650	BOS	data/yerlesimler_okyanusya.js:164	Emerald	s	avustralya	1901-01-01	2000-12-31	

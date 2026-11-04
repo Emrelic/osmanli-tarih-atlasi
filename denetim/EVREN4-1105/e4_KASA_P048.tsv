@@ -1,0 +1,27 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3215	BOS	data/yerlesimler_avrupa.js:76	Dover	s	ingiltere	1281-01-01	2000-12-31	
+3216	BOS	data/yerlesimler_avrupa.js:79	Lincoln	s	ingiltere	1281-01-01	2000-12-31	
+3217	BOS	data/yerlesimler_avrupa.js:82	Cambridge	s	ingiltere	1281-01-01	2000-12-31	
+3218	BOS	data/yerlesimler_avrupa.js:85	Birmingham	s	ingiltere	1281-01-01	2000-12-31	
+3219	BOS	data/yerlesimler_avrupa.js:89	Penzance	s	ingiltere	1281-01-01	2000-12-31	
+3220	BOS	data/yerlesimler_avrupa.js:102	Harlech	s	ingiltere	1283-01-01	1404-01-01	
+3221	BOS	data/yerlesimler_avrupa.js:102	Harlech	s	glyndwr-galler	1404-01-01	1409-01-01	
+3222	BOS	data/yerlesimler_avrupa.js:102	Harlech	s	ingiltere	1409-01-01	2000-12-31	
+3223	BOS	data/yerlesimler_avrupa.js:163	Belfast	s	irlanda	1281-01-01	1603-03-30	
+3224	BOS	data/yerlesimler_avrupa.js:163	Belfast	s	ingiltere	1603-03-30	2000-12-31	
+3225	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:163	Belfast	s	irlanda	1000-01-01	1281-01-01	irlanda künyesi (İrlanda Gal Beylikleri ve Krallığı, 1000-1603). BEYANLI YAKLAŞIKLIK: nokta bölge temsilcisidir (yer o devirde kasaba olmayabilir; Norse kentler
+3226	BOS	data/yerlesimler_avrupa.js:239	Carpentras	s	fransa	1791-09-14	1792-09-22	
+3227	BOS	data/yerlesimler_avrupa.js:239	Carpentras	s	fransa-cumhuriyet	1792-09-22	2000-12-31	
+3228	BOS	data/yerlesimler_avrupa.js:276	Almería	s	granada	1281-01-01	1489-12-22	
+3229	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:276	Almería	s	murabitlar	1091-01-01	1147-03-23	TDV İslâm Ansiklopedisi, «Meriye» (https://islamansiklopedisi.org.tr/meriye): «Benî Sumâdıh dönemi (1042-1091)»; «542’de (1147) ... Kastilya Kralı VII. Alfonso 
+3230	DIGER	data/yerlesimler_avrupa.js:276	Almería	s	__BOSLUK__	1147-03-23	1147-06-02	BOŞLUK BEYANI (KÜNYE AŞIMI SINIFLAMASI): murabitlar künyesi 1147-03-23'te biter (Muvahhidler Merakeş'i aldı) — dönem künye ucunda kısaltıldı; Kastilya işgali 54
+3231	BOS	data/yerlesimler_avrupa.js:327	Ribe	s	danimarka	1281-01-01	2000-12-31	
+3232	BOS	data/yerlesimler_avrupa.js:329	Aarhus	s	danimarka	1281-01-01	2000-12-31	
+3233	BOS	data/yerlesimler_avrupa.js:331	Odense	s	danimarka	1281-01-01	2000-12-31	
+3234	DIGER	data/yerlesimler_avrupa.js:331	Odense	s	danimarka	1086-07-10	1281-01-01	ONCE1281-GERIYE · Den Store Danske 'Odenses historie' (lex.dk/Odenses_historie): 'Den 10.7.1086 dræbtes Knud 4. den Hellige i Sankt Albani Kirke' (Odense'de, kr
+3235	BOS	data/yerlesimler_avrupa.js:345	Örebro	s	isvec-birlik-oncesi	1281-01-01	1523-06-06	
+3236	BOS	data/yerlesimler_avrupa.js:345	Örebro	s	isvec	1523-06-06	2000-12-31	
+3237	BOS	data/yerlesimler_avrupa.js:346	Linköping	s	isvec-birlik-oncesi	1281-01-01	1523-06-06	
+3238	BOS	data/yerlesimler_avrupa.js:346	Linköping	s	isvec	1523-06-06	2000-12-31	
+3239	BOS	data/yerlesimler_avrupa.js:349	Karlstad	s	isvec-birlik-oncesi	1281-01-01	1523-06-06	
+3240	BOS	data/yerlesimler_avrupa.js:349	Karlstad	s	isvec	1523-06-06	2000-12-31	

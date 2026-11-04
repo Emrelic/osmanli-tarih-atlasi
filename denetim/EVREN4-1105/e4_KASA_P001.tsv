@@ -1,0 +1,72 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+1	ZAYIF_VIKI	data/yerlesimler.js:714	Santorini	s	naksa-dukaligi	1281-01-01	1537-01-01	Hopf-temelli liste (Vikipedi 'List of island dynasties in Greece', tek dayanak DEĞİL): Barozzi 1207-1335; Naxos ile 1335-1477; Pisani 1477-1487; Naxos ile 1487-
+2	BOS	data/yerlesimler.js:714	Santorini	s	yunanistan	1830-02-03	1973-06-01	
+3	BOS	data/yerlesimler.js:714	Santorini	d		1566-04-15	1830-02-03	
+4	ZAYIF_VIKI	data/yerlesimler.js:1284	Oslo	s	norvec-isvec-birligi	1814-11-04	1905-06-07	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store nor
+5	ZAYIF_ATLAS	data/yerlesimler.js:1284	Oslo	s	norvec-1814	1814-05-17	1814-11-04	Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør
+6	DIGER	data/yerlesimler.js:1284	Oslo	s	norvec-kralligi	1281-01-01	1537-01-01	KUTU-H7-1015 (0080/H-0019 enklav taramasından veri düzeltmesi): eski kayıt 1281-1814 kesintisiz 'danimarka' idi, oysa Bergen, Trondheim, Alta, Tromsø aynı yılla
+7	DIGER	data/yerlesimler.js:1284	Oslo	s	danimarka	1537-01-01	1814-01-14	KUTU-H7-1015: SNL 'Kalmarunionen': 'Norge ble et dansk lydrike i 1537' (YIL)
+8	DIGER	data/yerlesimler.js:1284	Oslo	s	isvec	1814-01-14	1814-05-17	nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed th
+9	DIGER	data/yerlesimler.js:1284	Oslo	s	norvec	1905-06-07	2000-12-31	EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 
+10	ZAYIF_VIKI	data/yerlesimler.js:1806	Sire (Syros)	s	naksa-dukaligi	1281-01-01	1537-01-01	Miller, Latins in the Levant Ch. II: Sanudo'nun dükalığı adalarından [alt-ajan özeti; elle doğrulama bekler] · Hopf-temelli liste: ayrı lord yok, 'Naxos ile' (V
+11	BOS	data/yerlesimler.js:1806	Sire (Syros)	s	yunanistan	1830-02-03	1973-06-01	
+12	BOS	data/yerlesimler.js:1806	Sire (Syros)	d		1566-04-15	1830-02-03	
+13	ZAYIF_VIKI	data/yerlesimler_kirim.js:185	Aluşta	s	ceneviz	1380-01-01	1475-06-06	Ceneviz Gotya Kaptanlığı sahili 1380'ler (Bertier-Delagard aktarımı: Luşta Ceneviz'e hizmet eden Derbiberdi, Feodoro vassalı — ru.wikipedia Феодоро); YIL TEYİTS
+14	ZAYIF_ATLAS	data/yerlesimler_kirim.js:185	Aluşta	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+15	ZAYIF_ATLAS	data/yerlesimler_kirim.js:185	Aluşta	s	sovyet-rusya	1917-11-07	1991-08-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ukrayna bağımsızlığını ilan etti: Kırım (Kefe, Kerç, Bah
+16	BOS	data/yerlesimler_kirim.js:185	Aluşta	s	rusya	1783-04-19	1917-03-15	
+17	BOS	data/yerlesimler_kirim.js:185	Aluşta	d		1475-06-06	1774-07-21	
+18	DIGER	data/yerlesimler_kirim.js:185	Aluşta	s	altinorda	1281-01-01	1380-01-01	POSTIT #6 (Emre): bu limanda Ceneviz yerleşimi 1281'de yoktu; Altın Orda Kırım ulusu toprağı. Ceneviz öncesi: Altın Orda.
+19	DIGER	data/yerlesimler_kirim.js:185	Aluşta	isg	rusya	1771-07-01	1774-07-21	kirim
+20	ZAYIF_VIKI	data/yerlesimler_avrupa.js:122	Glasgow	s	ingiltere	1652-02-14	1660-06-08	Cromwell işgali: Tender of Union 4 Şubat 1652'de Edinburgh mercat cross'ta ilan edildi, ordonans 12 Nisan 1654, Restorasyon 1660 (Wikipedia 'Scotland under the 
+21	BOS	data/yerlesimler_avrupa.js:122	Glasgow	s	iskocya	1281-01-01	1652-02-14	
+22	BOS	data/yerlesimler_avrupa.js:122	Glasgow	s	iskocya	1660-06-08	1707-05-12	
+23	BOS	data/yerlesimler_avrupa.js:122	Glasgow	s	ingiltere	1707-05-12	2000-12-31	
+24	ZAYIF_VIKI	data/yerlesimler_avrupa.js:125	Perth (İskoçya)	s	ingiltere	1652-02-14	1660-06-08	Cromwell işgali: Tender of Union 4 Şubat 1652'de Edinburgh mercat cross'ta ilan edildi, ordonans 12 Nisan 1654, Restorasyon 1660 (Wikipedia 'Scotland under the 
+25	BOS	data/yerlesimler_avrupa.js:125	Perth (İskoçya)	s	iskocya	1281-01-01	1652-02-14	
+26	BOS	data/yerlesimler_avrupa.js:125	Perth (İskoçya)	s	iskocya	1660-06-08	1707-05-12	
+27	BOS	data/yerlesimler_avrupa.js:125	Perth (İskoçya)	s	ingiltere	1707-05-12	2000-12-31	
+28	ZAYIF_VIKI	data/yerlesimler_avrupa.js:145	Mullingar	s	ingiltere	1281-01-01	1922-12-06	Mullingar: Brosna nehri geçidinde kasaba (Bradley, Urban Survey of Westmeath, 1985, s. 113-114); Augustinian priory 1227 (Meath piskoposu), Dominikan manastırı 
+29	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:145	Mullingar	s	irlanda-serbest-devlet	1922-12-06	1937-12-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır
+30	ZAYIF_VIKI	data/yerlesimler_avrupa.js:148	Tuam	s	irlanda	1281-01-01	1603-03-30	Tuam: O'Connor Connacht krallarının merkezi; Augustinian priory ~1140, 1152 Kells Sinodu'nda başpiskoposluk, 1152 Tuam Yüksek Haçı — Wikipedia «Tuam» maddesi di
+31	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:148	Tuam	s	ingiltere	1603-03-30	1922-12-06	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sını
+32	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:148	Tuam	s	irlanda-serbest-devlet	1922-12-06	1937-12-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır
+33	ZAYIF_VIKI	data/yerlesimler_avrupa.js:153	Newry	s	irlanda	1281-01-01	1603-03-30	Newry: Cistercian manastırı 1144; 1157'de Tír Eoghain kralı Muirchertach Mac Lochlainn'in şartı; manastır 1548'de dağıtıldı, arazisi 1552'de Nicholas Bagenal'a 
+34	DIGER	data/yerlesimler_avrupa.js:153	Newry	s	ingiltere	1603-03-30	2000-12-31	Kuzey İrlanda 1921'den beri Birleşik Krallık içinde — Belfast/Derry kayıtlarının kalıbı.
+35	ZAYIF_VIKI	data/yerlesimler_avrupa.js:155	Omagh	s	irlanda	1464-01-01	1603-03-30	Omagh: Tír Eoghain (Tyrone, O'Neill) Gal lordluğu içinde; Gwynn-Hadcock 1970 (yukarıda). BEYANLI YAKLAŞIKLIK: yerel sahiplik kaynakla ayrıca günlenmedi; kasaba 
+36	DIGER	data/yerlesimler_avrupa.js:155	Omagh	s	ingiltere	1603-03-30	2000-12-31	Kuzey İrlanda 1921'den beri Birleşik Krallık içinde — Belfast/Derry kayıtlarının kalıbı.
+37	ZAYIF_VIKI	data/yerlesimler_avrupa.js:373	Tønsberg	s	norvec-isvec-birligi	1814-11-04	1905-06-07	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye norvec-isvec-birligi f ucunun kaynağı — Stortinget (stortinget.no), 'Inn i unionen' (4 Kasım 1814); Store nor
+38	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:373	Tønsberg	s	norvec-1814	1814-05-17	1814-11-04	Store norske leksikon, «Mossekonvensjonen» (Francis Sejersted; https://snl.no/Mossekonvensjonen): «Kieltraktaten ble ikke godtatt i Norge. Der ble det et opprør
+39	BOS	data/yerlesimler_avrupa.js:373	Tønsberg	s	norvec-kralligi	1281-01-01	1537-01-01	
+40	BOS	data/yerlesimler_avrupa.js:373	Tønsberg	s	danimarka	1537-01-01	1814-01-14	
+41	DIGER	data/yerlesimler_avrupa.js:373	Tønsberg	s	isvec	1814-01-14	1814-05-17	nordics.info / *The New Nordic Lexicon* — AARHUS ÜNİVERSİTESİ (Danimarka) yayını: «The Treaty of Kiel between Denmark and Sweden on 14th January 1814 decreed th
+42	DIGER	data/yerlesimler_avrupa.js:373	Tønsberg	s	norvec	1905-06-07	2000-12-31	EBSCO Research Starters (editöryal incelemeli akademik özet, İMZALI: Edward P. Keleher · John Quinn Imholte, 2021): «As a result, the Storting declared on June 
+43	ZAYIF_VIKI	data/yerlesimler_avrupa.js:419	Dinant	s	hollanda	1814-02-02	1830-10-04	Müttefikler Belçika’ya Ocak sonu–Şubat 1814’te girdi (Namur 25 Ocak, Brüksel 2 Şubat, Gent 4 Şubat) ve Müttefik Genel Valiliği kurdu; 30 Mayıs 1814 Paris Antlaş
+44	ZAYIF_ATLAS	data/yerlesimler_avrupa.js:419	Dinant	s	liege-piskoposlugu	1281-01-01	1795-10-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye liege-piskoposlugu t ucunun kaynağı — A. Leclère, 'S'opposer pour exister ...', Revue d'Histoire Liégeoise (2
+45	BOS	data/yerlesimler_avrupa.js:419	Dinant	s	fransa-cumhuriyet	1795-10-01	1814-02-02	
+46	BOS	data/yerlesimler_avrupa.js:419	Dinant	s	belcika	1830-10-04	2000-12-31	
+47	ZAYIF_VIKI	data/yerlesimler_avrupa.js:560	Roermond	s	ispanya	1543-09-12	1714-03-07	Venlo Antlaşması 12 Eylül 1543 — Maastricht Üniv. «Tractaat van Venlo» (bazı kaynaklar 7 Eylül der). 1632-1637 Hollanda işgali gösterilmedi (gün yalnız Vikipedi
+48	ZAYIF_VIKI	data/yerlesimler_avrupa.js:560	Roermond	s	hollanda	1815-06-09	1830-10-04	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Viyana Nihai Senedi: Hasselt, Sint-Truiden, Huy ve Dinant
+49	DIGER	data/yerlesimler_avrupa.js:560	Roermond	s	almanya	1281-01-01	1543-09-12	Gelre Dükalığı (Yukarı Gelre başkenti), Kutsal Roma
+50	DIGER	data/yerlesimler_avrupa.js:560	Roermond	s	avusturya-hollandasi	1714-03-07	1795-10-01	Avusturya Gelre'si (Van der Bruggen 2021); geçiş günü Gent/Lüksemburg emsali (Rastatt)
+51	DIGER	data/yerlesimler_avrupa.js:560	Roermond	s	fransa-cumhuriyet	1795-10-01	1815-06-09	Avusturya Hollandası'nın ilhakı 1795-10-01 (Gent emsali)
+52	DIGER	data/yerlesimler_avrupa.js:560	Roermond	s	belcika	1830-10-04	1839-04-19	Limburg 1830 Belçika ihtilaline katıldı (Gent/Arlon emsali)
+53	DIGER	data/yerlesimler_avrupa.js:560	Roermond	s	hollanda	1839-04-19	2000-12-31	Londra Antlaşması 19 Nisan 1839: Maas'ın doğusundaki Limburg (Roermond dahil) Hollanda'ya
+54	ZAYIF_VIKI	data/yerlesimler_avrupa.js:560	Roermond	s	almanya	1000-01-01	1281-01-01	Roermond Gelre Kontluğu / Kutsal Roma içinde (kontluk için künye yok → almanya; beyanlı yaklaşıklık) — Wikipedia «Roermond» · UFUK 1000 işareti · SINIR-BENELUX
+55	ZAYIF_VIKI	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	ingiliz-hindistani	1856-02-07	1947-08-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Hindistan (Dominyon 1947; Cumhuriyet 1950-01-26) egemenl
+56	BOS	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	delhi-sultanligi	1281-01-01	1394-01-01	
+57	BOS	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	cavnpur-sultanligi	1394-01-01	1479-01-01	
+58	BOS	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	delhi-sultanligi	1479-01-01	1526-04-21	
+59	BOS	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	babur-imparatorlugu	1526-04-21	1540-05-17	
+60	BOS	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	sur-hanedani	1540-05-17	1555-07-23	
+61	BOS	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	babur-imparatorlugu	1555-07-23	1722-01-01	
+62	BOS	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	avad	1722-01-01	1856-02-07	
+63	ZAYIF_ATLAS	data/yerlesimler_asya.js:338	Leknev (Lucknow)	s	hindistan-cumhuriyeti	1947-08-15	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-
+64	ZAYIF_VIKI	data/yerlesimler_asya.js:479	Ludhiyana	s	ingiliz-hindistani	1809-04-25	1947-08-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Hindistan (Dominyon 1947; Cumhuriyet 1950-01-26) egemenl
+65	BOS	data/yerlesimler_asya.js:479	Ludhiyana	s	delhi-sultanligi	1480-01-01	1526-04-21	
+66	BOS	data/yerlesimler_asya.js:479	Ludhiyana	s	babur-imparatorlugu	1526-04-21	1540-05-17	
+67	BOS	data/yerlesimler_asya.js:479	Ludhiyana	s	sur-hanedani	1540-05-17	1555-07-23	
+68	BOS	data/yerlesimler_asya.js:479	Ludhiyana	s	babur-imparatorlugu	1555-07-23	1752-04-01	
+69	BOS	data/yerlesimler_asya.js:479	Ludhiyana	s	afgan-durrani	1752-04-01	1765-04-16	
+70	BOS	data/yerlesimler_asya.js:479	Ludhiyana	s	sih-imparatorlugu	1765-04-16	1809-04-25	
+71	ZAYIF_ATLAS	data/yerlesimler_asya.js:479	Ludhiyana	s	hindistan-cumhuriyeti	1947-08-15	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye hindistan-cumhuriyeti f ucunun kaynağı — Indian Independence Act 1947, s.1 (legislation.gov.uk/ukpga/Geo6/10-

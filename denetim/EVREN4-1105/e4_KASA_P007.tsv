@@ -1,0 +1,94 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+473	ZAYIF_ATLAS	data/yerlesimler.js:1206	Addis	s	habesistan	1281-01-01	1936-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Habeşistan toprakları İtalyan Doğu Afrikası'na katıldı (
+474	DIGER	data/yerlesimler.js:1206	Addis	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+475	DIGER	data/yerlesimler.js:1206	Addis	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+476	DIGER	data/yerlesimler.js:1206	Addis	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+477	DIGER	data/yerlesimler.js:1206	Addis	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+478	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	kastilya	1281-01-01	1479-01-19	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Simancas: kastilya tacı → ispanya (kastilya-aragon)» (14
+479	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	ispanya	1479-01-19	1936-07-18	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ispanya f ucunun kaynağı — TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya): «K
+480	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	roma-imp	-0026-01-16	0395-01-17	devletler.js roma-imp künyesi (f -0026-01-16, t 0395-01-17) ve bati-roma künyesi (0395-01-17..0476-08-28). BEYANLI YAKLAŞIKLIK (bölge sahibi): Hispania 27 MÖ'de
+481	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	bati-roma	0395-01-17	0476-08-28	devletler.js roma-imp künyesi (f -0026-01-16, t 0395-01-17) ve bati-roma künyesi (0395-01-17..0476-08-28). BEYANLI YAKLAŞIKLIK (bölge sahibi): Hispania 27 MÖ'de
+482	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	vizigot	0507-01-01	0711-01-01	devletler.js vizigot künyesi (Britannica «Visigoth»): Vouillé 507'den sonra merkez İberya'ya kaydı; Guadalete 711'de krallık çöktü (künye t 0711-01-01). BEYANLI
+483	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	emevi	0711-01-01	0750-08-05	devletler.js emevi künyesi (TDV «Emevîler»; 0750-08-05 Emevî Hilâfeti sona erdi); TDV «Endülüs»: 711 fetih. BEYANLI YAKLAŞIKLIK (bölge sahibi): şehir adlı sahip
+484	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	endulus-emevi	0756-05-15	1023-01-01	TDV İslâm Ansiklopedisi, «Endülüs» (https://islamansiklopedisi.org.tr/endulus) ve devletler.js endulus-emevi künyesi (TDV «Abdurrahman I», «Abdurrahman III»): K
+485	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	muvahhidler	1148-01-01	1248-01-01	TDV İslâm Ansiklopedisi, «Abdülmü’min el-Kûmî» (islamansiklopedisi.org.tr/abdulmumin-el-kumi): Marrakeş 1147’de alındı; Işbîliye ve Kurtuba 1148’e gelindiğinde 
+486	ZAYIF_ATLAS	data/yerlesimler.js:1226	Sevilla	s	ispanya-milliyetci	1936-07-18	1939-04-01	Gran Enciclopèdia Catalana, «el Divuit de Juliol» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol): «El 18 tingueren lloc els [aixe
+487	DIGER	data/yerlesimler.js:1226	Sevilla	s	__BOSLUK__	0476-08-28	0507-01-01	BOŞLUK BEYANI: 476 Batı Roma sonrası Vizigot İberya egemenliği (Vouillé 507 sonrası merkez İberya; vizigot künyesi) arası dilim; şehir adlı tanık aranmadı (kala
+488	DIGER	data/yerlesimler.js:1226	Sevilla	s	__BOSLUK__	0750-08-05	0756-05-15	BOŞLUK BEYANI: 750-756 Endülüs'te Emevî Hilâfeti sona erdi, Endülüs Emevî Emirliği henüz kurulmadı (valiler dönemi); tek sahip yazılmadı. · IBER-KRON-1028
+489	DIGER	data/yerlesimler.js:1226	Sevilla	s	ispanya	1939-04-01	2000-12-31	Künye ispanya-milliyetci t 1939-04-01 (BRIT «Francisco Franco»: «Franco won a complete and unconditional victory on April 1, 1939»; künye kronolojisi). · IBER-K
+490	ZAYIF_ATLAS	data/yerlesimler.js:1251	Frankfurt	s	almanya	1281-01-01	1945-06-05	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Berlin Bildirgesi: Muttefikler Almanya'da yuksek otorite
+491	ZAYIF_VIKI	data/yerlesimler.js:1251	Frankfurt	s	dogu-francia	0843-08-10	0962-02-02	KRON-ALMANYA (29 Ekim 2026): künye dogu-francia (0843-0962-02-02; Britannica 'Treaty of Verdun': Alman Louis Ren'in doğusu ile Speyer, Worms, Mainz çevreleri; V
+492	ZAYIF_ATLAS	data/yerlesimler.js:1251	Frankfurt	s	frank	0794-01-01	0843-08-10	KRON-ALMANYA (29 Ekim 2026): künye frank (0481-0843; Britannica 'Merovingian dynasty', 'Treaty of Verdun'). BEYANLI YAKLAŞIKLIK: şehre özgü Frank egemenliği tar
+493	ZAYIF_ATLAS	data/yerlesimler.js:1251	Frankfurt	s	almanya	0962-02-02	1000-01-01	KRON-ALMANYA (29 Ekim 2026): künye almanya f=0962-02-02 (I. Otto Roma'da imparator, Treccani/künye); 962-1000 arası Alman Krallığı/İmparatorluk içinde. BEYANLI 
+494	ZAYIF_ATLAS	data/yerlesimler.js:1251	Frankfurt	s	almanya	1000-01-01	1281-01-01	Treccani Enciclopedia on line, Francoforte sul Meno maddesi, Istituto della Enciclopedia Italiana (https://www.treccani.it/enciclopedia/francoforte-sul-meno/; h
+495	ZAYIF_ATLAS	data/yerlesimler.js:1251	Frankfurt	s	almanya-muttefik-isgali	1945-06-05	1949-05-23	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye almanya-muttefik-isgali f ucunun kaynağı — AVALON wwii/ger01 — 'Declaration Regarding the Defeat of Germany a
+496	ZAYIF_ATLAS	data/yerlesimler.js:1251	Frankfurt	s	almanya-federal-cumhuriyeti-bati	1949-05-23	1990-10-03	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye almanya-federal-cumhuriyeti-bati f ucunun kaynağı — https://www.bmi.bund.de/EN/topics/constitution/constituti
+497	ZAYIF_ATLAS	data/yerlesimler.js:1251	Frankfurt	s	almanya-birlesik	1990-10-03	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye almanya-birlesik f ucunun kaynağı — https://www.bmi.bund.de/EN/topics/constitution/state-order/our-constituti
+498	ZAYIF_ATLAS	data/yerlesimler.js:1263	Radom (Polonya)	s	polonya-erken	1281-01-01	1569-07-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya
+499	ZAYIF_ATLAS	data/yerlesimler.js:1263	Radom (Polonya)	s	lehistan	1569-07-01	1795-10-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Lublin Birliği — Ukrayna toprakları Litvanya'dan Polonya'
+500	BOS	data/yerlesimler.js:1263	Radom (Polonya)	s	polonya	1918-11-11	1939-10-06	
+501	DIGER	data/yerlesimler.js:1263	Radom (Polonya)	s	kongre-polonyasi	1815-06-09	1915-07-01	KASA-POLONYA-1005 · AY DÜZEYİ (Temmuz 1915; gün kaynaklanmadı) — Radom belediyesi + Malczewski Müzesi
+502	DIGER	data/yerlesimler.js:1263	Radom (Polonya)	s	avusturya	1915-07-01	1918-11-11	KASA-POLONYA-1005 · AY DÜZEYİ (Temmuz 1915; gün kaynaklanmadı) — Radom belediyesi + Malczewski Müzesi
+503	ZAYIF_ATLAS	data/yerlesimler.js:1263	Radom (Polonya)	s	polonya-genel-hukumeti	1939-10-06	1945-01-17	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-genel-hukumeti f ucunun kaynağı — USHMM Encyclopedia 'Krakow' ve 'German Administration of Poland' · 
+504	ZAYIF_ATLAS	data/yerlesimler.js:1263	Radom (Polonya)	s	polonya-halk	1945-01-17	1989-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-halk t ucunun kaynağı — Dziennik Ustaw 1989 nr 75 poz. 444, Ustawa z dnia 29 grudnia 1989 r. o zmiani
+505	ZAYIF_ATLAS	data/yerlesimler.js:1263	Radom (Polonya)	s	polonya-iii-cumhuriyet	1989-12-31	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-iii-cumhuriyet f ucunun kaynağı — https://zpe.gov.pl/a/Dsrh00CK1 ; Cambridge, Concise History of Pola
+506	ZAYIF_ATLAS	data/yerlesimler.js:1266	Brno	s	cekoslovakya	1918-10-28	1939-03-16	cekoslovakya künyesi f=1918-10-28; Prag'da bağımsızlık ilanı (künye kronolojisi). BEYANLI YAKLAŞIKLIK (KRON-ALMANYA 28 Ekim 2026): Çekoslovakya künyesi f=1918-1
+507	BOS	data/yerlesimler.js:1266	Brno	s	avusturya	1526-10-23	1918-10-28	
+508	ZAYIF_ATLAS	data/yerlesimler.js:1266	Brno	s	bohemya-dukaligi	1029-01-01	1198-01-01	KRON-ALMANYA (28 Ekim 2026): Moravya 1029'dan itibaren kalıcı olarak Přemysl Bohemya'sına bağlı (kronoloji_cok_once1281_avrupa.js 1029 maddesi; künye bohemya-du
+509	ZAYIF_ATLAS	data/yerlesimler.js:1266	Brno	s	bohemya-moravya-protektorasi	1939-03-16	1945-05-09	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye bohemya-moravya-protektorasi f ucunun kaynağı — AVALON imt/judseize — 'on the 16th March the German decree wa
+510	ZAYIF_ATLAS	data/yerlesimler.js:1266	Brno	s	cekya	1993-01-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye cekya f ucunun kaynağı — https://timeline.web.cern.ch/node/405 (ÇSFC BM misyonu mektubu, 16 Aralık 1992) · BE
+511	DIGER	data/yerlesimler.js:1266	Brno	s	bohemya	1198-01-01	1281-01-01	KRON-ALMANYA (28 Ekim 2026): künye bohemya (1198-1526-08-29): EB1911 'Bohemia' (Přemysl Ottokar I kral, 1197/1198).
+512	ZAYIF_ATLAS	data/yerlesimler.js:1277	Kattowitz (Katowice)	s	almanya	1871-01-18	1922-06-03	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Alman İmparatorluğu ilan edildi — Prusya eyaletleri impar
+513	ZAYIF_ATLAS	data/yerlesimler.js:1277	Kattowitz (Katowice)	s	polonya	1922-06-03	1939-10-06	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Yukarı Silezya Sözleşmesi yürürlüğe girdi: bölge paylaşıl
+514	BOS	data/yerlesimler.js:1277	Kattowitz (Katowice)	s	almanya	1281-01-01	1526-12-05	
+515	BOS	data/yerlesimler.js:1277	Kattowitz (Katowice)	s	avusturya	1526-12-05	1742-06-11	
+516	BOS	data/yerlesimler.js:1277	Kattowitz (Katowice)	s	prusya	1742-06-11	1871-01-18	
+517	ZAYIF_ATLAS	data/yerlesimler.js:1277	Kattowitz (Katowice)	s	polonya-halk	1945-01-17	1989-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-halk t ucunun kaynağı — Dziennik Ustaw 1989 nr 75 poz. 444, Ustawa z dnia 29 grudnia 1989 r. o zmiani
+518	ZAYIF_ATLAS	data/yerlesimler.js:1277	Kattowitz (Katowice)	s	polonya-iii-cumhuriyet	1989-12-31	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-iii-cumhuriyet f ucunun kaynağı — https://zpe.gov.pl/a/Dsrh00CK1 ; Cambridge, Concise History of Pola
+519	DIGER	data/yerlesimler.js:1277	Kattowitz (Katowice)	s	almanya	1939-10-06	1945-01-17	YAN/katowice KUTU-H1-1015: Doğu Yukarı Silezya Genel Hükümet'e değil doğrudan Reich'a ilhak edildi (Hitler'in 8 Ekim 1939 kararnamesi, yürürlük 26 Ekim 1939; Ge
+520	ZAYIF_ATLAS	data/yerlesimler.js:1305	Perm	s	rusya	1723-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+521	BOS	data/yerlesimler.js:1305	Perm	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+522	BOS	data/yerlesimler.js:1305	Perm	s	sovyet-rusya	1917-11-07	1991-12-26	
+523	ZAYIF_VIKI	data/yerlesimler.js:1305	Perm	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+524	ZAYIF_ATLAS	data/yerlesimler.js:1308	Rostov (Don)	s	rusya	1749-12-15	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Elizaveta'nın fermanıyla Don ağzında Temernik gümrüğü kur
+525	BOS	data/yerlesimler.js:1308	Rostov (Don)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+526	BOS	data/yerlesimler.js:1308	Rostov (Don)	s	sovyet-rusya	1917-11-07	1991-12-26	
+527	ZAYIF_VIKI	data/yerlesimler.js:1308	Rostov (Don)	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+528	ZAYIF_ATLAS	data/yerlesimler.js:1375	Doha (Katar)	s	katar	1913-07-29	2000-12-31	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Katar'dan Osmanlı feragati — Londra Sözleşmesi» (1913-07-
+529	BOS	data/yerlesimler.js:1375	Doha (Katar)	v		1871-09-20	1913-07-29	
+530	BOS	data/yerlesimler.js:1375	Doha (Katar)	isg	ingiltere	1916-11-03	1923-10-29	
+531	ZAYIF_ATLAS	data/yerlesimler.js:1392	Mogadişu	s	somali	1500-01-01	1905-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi —
+532	ZAYIF_ATLAS	data/yerlesimler.js:1392	Mogadişu	s	italya	1905-01-01	1936-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — 
+533	BOS	data/yerlesimler.js:1392	Mogadişu	s	makdisu-sultanligi	1281-01-01	1500-01-01	
+534	ZAYIF_ATLAS	data/yerlesimler.js:1392	Mogadişu	s	somali-ingiliz-askeri-idaresi	1941-02-25	1950-04-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S
+535	ZAYIF_ATLAS	data/yerlesimler.js:1392	Mogadişu	s	somali-cumhuriyeti	1960-07-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+536	DIGER	data/yerlesimler.js:1392	Mogadişu	s	somali-italyan-vesayet	1950-04-01	1960-07-01	BM Vesayet Konseyi, AFIS 1950-1960
+537	ZAYIF_ATLAS	data/yerlesimler.js:1398	Agadir	s	merini	1281-01-01	1505-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Porte
+538	ZAYIF_ATLAS	data/yerlesimler.js:1398	Agadir	s	portekiz	1505-01-01	1541-03-12	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Santa Cruz do Cabo de Gué'nin kuruluşu — Agadir'de Portek
+539	ZAYIF_ATLAS	data/yerlesimler.js:1398	Agadir	s	fas-fransiz-himayesi	1912-03-30	1956-03-02	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye fas-fransiz-himayesi t ucunun kaynağı — Treaty of Fes (30.03.1912); Joint Declaration 2.03.1956 — https://uca
+540	BOS	data/yerlesimler.js:1398	Agadir	s	fas	1659-01-01	1912-03-30	
+541	ZAYIF_ATLAS	data/yerlesimler.js:1398	Agadir	s	fas-krallik	1956-03-02	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye fas-krallik f ucunun kaynağı — https://uca.edu/politicalscience/dadm-project/middle-eastnorth-africapersian-g
+542	ZAYIF_ATLAS	data/yerlesimler.js:1506	Ural eteği	s	nogay	1502-03-01	1556-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Altın Orda Hanlığı'nın yıkılışı ve Kırım'ın yükselişi» (1
+543	BOS	data/yerlesimler.js:1506	Ural eteği	s	altinorda	1281-01-01	1502-03-01	
+544	BOS	data/yerlesimler.js:1506	Ural eteği	s	rusya	1556-01-01	1917-03-15	
+545	BOS	data/yerlesimler.js:1506	Ural eteği	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+546	BOS	data/yerlesimler.js:1506	Ural eteği	s	sovyet-rusya	1917-11-07	1991-12-16	
+547	ZAYIF_ATLAS	data/yerlesimler.js:1506	Ural eteği	s	kazakistan	1991-12-16	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz
+548	ZAYIF_ATLAS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	altinorda	1281-01-01	1363-01-01	Encyclopedia of Ukraine (CIUS) 'Podilia' (encyclopediaofukraine.com/display.asp?linkpath=pages%5Cp%5Co%5Cpodilia.htm): Algirdas Mavi Sular’da (Syni Vody, 1363) 
+549	ZAYIF_ATLAS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	litvanya-buyuk-dukalik	1363-01-01	1430-01-01	Encyclopedia of Ukraine (CIUS) 'Podilia' (encyclopediaofukraine.com/display.asp?linkpath=pages%5Cp%5Co%5Cpodilia.htm): Algirdas orta Podolya’yı Koriatoviç haned
+550	ZAYIF_ATLAS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	polonya-erken	1430-01-01	1569-07-01	TDV İslâm Ansiklopedisi, KAMANİÇE (islamansiklopedisi.org.tr/kamanice): ‘XIV. yüzyılda Litvanyalılar tarafından alınan Kamaniçe 1430’da Polonya Krallığı’na dahi
+551	ZAYIF_ATLAS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	lehistan	1699-01-26	1793-01-23	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Karlofça Antlaşması: Kamaniçe, Bar (Podolya) ve Sağ Yaka 
+552	ZAYIF_ATLAS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	rusya	1793-01-23	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İkinci Taksim: Rusya Rivne, Minsk, Kamaniçe, Bar, Vinnits
+553	BOS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	lehistan	1569-07-01	1672-08-27	
+554	BOS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+555	BOS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	sovyet-rusya	1917-11-07	1991-08-24	
+556	BOS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	d		1672-08-27	1699-01-26	
+557	ZAYIF_ATLAS	data/yerlesimler.js:1598	Meciboj (Mejibuji)	s	ukrayna	1991-08-24	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ukrayna f ucunun kaynağı — https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.
+558	ZAYIF_ATLAS	data/yerlesimler.js:1633	Kesendire (Kassandra)	s	bizans	1281-01-01	1430-03-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Selanik'in kesin fethi» (1430-03-29, yer kolu) kaynağı —
+559	ZAYIF_ATLAS	data/yerlesimler.js:1633	Kesendire (Kassandra)	s	yunanistan	1913-11-14	1973-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'n
+560	BOS	data/yerlesimler.js:1633	Kesendire (Kassandra)	d		1430-03-29	1913-11-14	
+561	DIGER	data/yerlesimler.js:1633	Kesendire (Kassandra)	isg	yunanistan	1912-11-02	1913-11-14	aynaroz
+562	ZAYIF_ATLAS	data/yerlesimler.js:1740	Biskra	s	zeyyani	1281-01-01	1552-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Cezayir Ocaklığı'nın Sahra'ya doğru genişlemesi — Tuggur
+563	BOS	data/yerlesimler.js:1740	Biskra	d		1552-01-01	1671-01-01	
+564	BOS	data/yerlesimler.js:1740	Biskra	v		1671-01-01	1830-07-05	
+565	BOS	data/yerlesimler.js:1740	Biskra	v		1830-07-05	1844-03-04	

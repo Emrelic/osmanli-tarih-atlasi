@@ -1,0 +1,112 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+742	ZAYIF_ATLAS	data/yerlesimler.js:2200	Hâş	s	ilhanli	1281-01-01	1335-12-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ö
+743	ZAYIF_ATLAS	data/yerlesimler.js:2200	Hâş	s	muzafferi	1335-12-01	1393-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın öl
+744	BOS	data/yerlesimler.js:2200	Hâş	s	timurlu	1393-01-01	1452-01-01	
+745	BOS	data/yerlesimler.js:2200	Hâş	s	karakoyunlu	1452-01-01	1469-01-01	
+746	BOS	data/yerlesimler.js:2200	Hâş	s	akkoyunlu	1469-01-01	1503-01-01	
+747	BOS	data/yerlesimler.js:2200	Hâş	s	safevi	1503-01-01	1736-03-08	
+748	BOS	data/yerlesimler.js:2200	Hâş	s	afsar	1736-03-08	1747-06-20	
+749	BOS	data/yerlesimler.js:2200	Hâş	s	zend	1747-06-20	1794-01-01	
+750	BOS	data/yerlesimler.js:2200	Hâş	s	kacar	1794-01-01	1925-10-31	
+751	ZAYIF_ATLAS	data/yerlesimler.js:2330	Garabogaz (Bekdaş)	s	rusya	1869-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+752	BOS	data/yerlesimler.js:2330	Garabogaz (Bekdaş)	s	altinorda	1281-01-01	1502-01-01	
+753	BOS	data/yerlesimler.js:2330	Garabogaz (Bekdaş)	s	buhara	1502-01-01	1512-01-01	
+754	BOS	data/yerlesimler.js:2330	Garabogaz (Bekdaş)	s	hive	1512-01-01	1600-01-01	
+755	BOS	data/yerlesimler.js:2330	Garabogaz (Bekdaş)	s	turkmen	1600-01-01	1869-01-01	
+756	BOS	data/yerlesimler.js:2330	Garabogaz (Bekdaş)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+757	BOS	data/yerlesimler.js:2330	Garabogaz (Bekdaş)	s	sovyet-rusya	1917-11-07	1991-10-27	
+758	ZAYIF_ATLAS	data/yerlesimler.js:2330	Garabogaz (Bekdaş)	s	turkmenistan	1991-10-27	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye turkmenistan f ucunun kaynağı — https://afghanistan.tmembassy.gov.tm/en/news/78070 (Türkmenistan elçiliği) · 
+759	ZAYIF_ATLAS	data/yerlesimler.js:2501	Siverek	s	akkoyunlu	1465-01-01	1507-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merke
+760	ZAYIF_ATLAS	data/yerlesimler.js:2501	Siverek	s	safevi	1507-01-01	1516-05-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Şah İsmail'in Diyarbekir seferi: Akkoyunlu'nun son merkez
+761	BOS	data/yerlesimler.js:2501	Siverek	s	memluk	1281-01-01	1465-01-01	
+762	BOS	data/yerlesimler.js:2501	Siverek	s	tbmm-turkiye	1920-04-23	1923-10-29	
+763	BOS	data/yerlesimler.js:2501	Siverek	d		1516-05-01	1920-04-23	
+764	ZAYIF_ATLAS	data/yerlesimler_kirim.js:171	Balaklava (Cembalo)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+765	ZAYIF_ATLAS	data/yerlesimler_kirim.js:171	Balaklava (Cembalo)	s	sovyet-rusya	1917-11-07	1991-08-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ukrayna bağımsızlığını ilan etti: Kırım (Kefe, Kerç, Bah
+766	BOS	data/yerlesimler_kirim.js:171	Balaklava (Cembalo)	s	rusya	1783-04-19	1917-03-15	
+767	BOS	data/yerlesimler_kirim.js:171	Balaklava (Cembalo)	d		1475-06-06	1774-07-21	
+768	DIGER	data/yerlesimler_kirim.js:171	Balaklava (Cembalo)	s	altinorda	1281-01-01	1357-01-01	POSTIT #6 (Emre): bu limanda Ceneviz yerleşimi 1281'de yoktu; Altın Orda Kırım ulusu toprağı. Ceneviz öncesi: Altın Orda.
+769	DIGER	data/yerlesimler_kirim.js:171	Balaklava (Cembalo)	isg	rusya	1771-07-01	1774-07-21	kirim
+770	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:159	Rın kumulları (Volga-Yayık arası)	s	altinorda	1281-01-01	1502-03-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Altın Orda Hanlığı'nın yıkılışı ve Kırım'ın yükselişi» (
+771	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:159	Rın kumulları (Volga-Yayık arası)	s	nogay	1502-03-01	1556-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Altın Orda Hanlığı'nın yıkılışı ve Kırım'ın yükselişi» (1
+772	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:159	Rın kumulları (Volga-Yayık arası)	s	rusya	1556-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+773	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:159	Rın kumulları (Volga-Yayık arası)	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+774	BOS	data/yerlesimler_seyrek.js:159	Rın kumulları (Volga-Yayık arası)	s	sovyet-rusya	1917-11-07	1991-12-16	
+775	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:159	Rın kumulları (Volga-Yayık arası)	s	kazakistan	1991-12-16	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz
+776	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:292	Tuzla (Bosna)	s	avusturya	1908-10-05	1918-11-11	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı» (1908-10
+777	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:292	Tuzla (Bosna)	s	sirbistan-kralligi	1918-11-11	1918-12-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Sloven-Hırvat-Sırp Devleti'nin ilânı — Hırvat Saboru Habs
+778	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:292	Tuzla (Bosna)	s	yugoslavya	1918-12-01	1945-11-29	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Sırp-Hırvat-Sloven Krallığı ile Büyük Romanya'nın kuruluş
+779	BOS	data/yerlesimler_seyrek.js:292	Tuzla (Bosna)	d		1460-01-01	1908-10-05	
+780	DIGER	data/yerlesimler_seyrek.js:292	Tuzla (Bosna)	isg	avusturya	1878-07-29	1908-10-05	berlin-antlasmasi
+781	ZAYIF_ATLAS	data/yerlesimler_seyrek.js:292	Tuzla (Bosna)	s	bosna-hersek	1992-03-03	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye bosna-hersek f ucunun kaynağı — https://casebook.icrc.org/case-study/icty-prosecutor-v-radovan-karadzic (AT t
+782	ZAYIF_ATLAS	data/yerlesimler_ek3.js:98	Yediçkul bozkırı	s	altinorda	1281-01-01	1502-03-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Altın Orda Hanlığı'nın yıkılışı ve Kırım'ın yükselişi» (
+783	ZAYIF_ATLAS	data/yerlesimler_ek3.js:98	Yediçkul bozkırı	s	kirim	1774-07-21	1783-04-19	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Küçük Kaynarca: Kırım Hanlığı Osmanlı'dan bağımsız sayıld
+784	ZAYIF_ATLAS	data/yerlesimler_ek3.js:98	Yediçkul bozkırı	s	rusya	1783-04-19	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kırım'ın Rusya'ya ilhakı» (1783-04-19, taraf kolu) kaynağ
+785	ZAYIF_ATLAS	data/yerlesimler_ek3.js:98	Yediçkul bozkırı	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+786	ZAYIF_ATLAS	data/yerlesimler_ek3.js:98	Yediçkul bozkırı	s	sovyet-rusya	1917-11-07	1991-08-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ukrayna Yüksek Rada'sı bağımsızlık bildirgesini kabul et
+787	ZAYIF_ATLAS	data/yerlesimler_ek3.js:98	Yediçkul bozkırı	s	ukrayna	1991-08-24	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ukrayna f ucunun kaynağı — https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.
+788	ZAYIF_ATLAS	data/yerlesimler_ek4.js:148	Hortiça Seçi	s	zaporojye	1552-01-01	1775-06-16	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Zaporojye Kazakları Hortiça adasında ilk Seç'i kurdu» (15
+789	ZAYIF_ATLAS	data/yerlesimler_ek4.js:148	Hortiça Seçi	s	rusya	1775-06-16	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Rus ordusu Zaporog Seç'ini yıktı: Zaporojye Seçi, Hortiça
+790	ZAYIF_ATLAS	data/yerlesimler_ek4.js:148	Hortiça Seçi	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+791	ZAYIF_ATLAS	data/yerlesimler_ek4.js:148	Hortiça Seçi	s	sovyet-rusya	1917-11-07	1991-08-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ukrayna Yüksek Rada'sı bağımsızlık bildirgesini kabul et
+792	ZAYIF_ATLAS	data/yerlesimler_ek4.js:148	Hortiça Seçi	s	ukrayna	1991-08-24	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ukrayna f ucunun kaynağı — https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.
+793	ZAYIF_ATLAS	data/yerlesimler_ek4.js:154	Çortomlık Seçi	s	zaporojye	1652-01-01	1775-06-16	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çortomlık Seçi kuruldu» (1652-01-01, yer kolu) kaynağı — 
+794	ZAYIF_ATLAS	data/yerlesimler_ek4.js:154	Çortomlık Seçi	s	rusya	1775-06-16	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Rus ordusu Zaporog Seç'ini yıktı: Zaporojye Seçi, Hortiça
+795	ZAYIF_ATLAS	data/yerlesimler_ek4.js:154	Çortomlık Seçi	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+796	ZAYIF_ATLAS	data/yerlesimler_ek4.js:154	Çortomlık Seçi	s	sovyet-rusya	1917-11-07	1991-08-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ukrayna Yüksek Rada'sı bağımsızlık bildirgesini kabul et
+797	ZAYIF_ATLAS	data/yerlesimler_ek4.js:154	Çortomlık Seçi	s	ukrayna	1991-08-24	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ukrayna f ucunun kaynağı — https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.
+798	ZAYIF_ATLAS	data/yerlesimler_ek6.js:98	Donets bozkırı	s	altinorda	1281-01-01	1502-03-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Altın Orda Hanlığı'nın yıkılışı ve Kırım'ın yükselişi» (
+799	ZAYIF_ATLAS	data/yerlesimler_ek6.js:98	Donets bozkırı	s	rusya	1721-01-01	1917-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm
+800	ZAYIF_ATLAS	data/yerlesimler_ek6.js:98	Donets bozkırı	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküme
+801	ZAYIF_ATLAS	data/yerlesimler_ek6.js:98	Donets bozkırı	s	sovyet-rusya	1917-11-07	1991-08-24	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ukrayna Yüksek Rada'sı bağımsızlık bildirgesini kabul et
+802	ZAYIF_ATLAS	data/yerlesimler_ek6.js:98	Donets bozkırı	s	ukrayna	1991-08-24	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ukrayna f ucunun kaynağı — https://static.rada.gov.ua/site/postanova_eng/Rres_Declaration_Independence_rev12.
+803	ZAYIF_ATLAS	data/yerlesimler_afrika.js:86	Dessûk	s	misir-sultanligi	1914-12-18	1922-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır'ın İngiliz himayesine alınarak sultanlık ilan edilm
+804	ZAYIF_ATLAS	data/yerlesimler_afrika.js:86	Dessûk	s	misir-kralligi	1922-03-15	1953-06-18	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral unvan
+805	BOS	data/yerlesimler_afrika.js:86	Dessûk	s	memluk	1281-01-01	1517-04-13	
+806	BOS	data/yerlesimler_afrika.js:86	Dessûk	d		1517-04-13	1805-07-03	
+807	BOS	data/yerlesimler_afrika.js:86	Dessûk	v		1805-07-03	1914-12-18	
+808	BOS	data/yerlesimler_afrika.js:86	Dessûk	isg	ingiltere	1914-12-18	1923-10-29	
+809	DIGER	data/yerlesimler_afrika.js:86	Dessûk	isg	fransa-cumhuriyet	1798-07-10	1801-05-09	"başlangıç: KOMŞU: Rahmaniye · NAPO-2 (napoleon.org, Chronologie CG t.2) ""10 JUILLET … Napoléon arrive à El-Rahmânieh sur le Nil"" · bitiş: KOMŞU: Rahmaniye · NAP"
+810	DIGER	data/yerlesimler_afrika.js:86	Dessûk	isg	ingiltere	1882-09-13	1914-12-18	urabi-pasa
+811	ZAYIF_ATLAS	data/yerlesimler_afrika.js:86	Dessûk	s	birlesik-arap-cumhuriyeti	1958-02-22	1971-09-11	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye birlesik-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «1 Şubat 1958'de Mısır ve Sur
+812	ZAYIF_ATLAS	data/yerlesimler_afrika.js:86	Dessûk	s	misir-arap-cumhuriyeti	1971-09-11	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye misir-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «11 Eylül 1971'deki referandumla
+813	ZAYIF_ATLAS	data/yerlesimler_afrika.js:103	Tanta	s	misir-sultanligi	1914-12-18	1922-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır'ın İngiliz himayesine alınarak sultanlık ilan edilm
+814	ZAYIF_ATLAS	data/yerlesimler_afrika.js:103	Tanta	s	misir-kralligi	1922-03-15	1953-06-18	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral unvan
+815	BOS	data/yerlesimler_afrika.js:103	Tanta	s	memluk	1281-01-01	1517-04-13	
+816	BOS	data/yerlesimler_afrika.js:103	Tanta	d		1517-04-13	1805-07-03	
+817	BOS	data/yerlesimler_afrika.js:103	Tanta	v		1805-07-03	1914-12-18	
+818	BOS	data/yerlesimler_afrika.js:103	Tanta	isg	ingiltere	1914-12-18	1923-10-29	
+819	DIGER	data/yerlesimler_afrika.js:103	Tanta	isg	fransa-cumhuriyet	1798-07-24	1801-06-27	başlangıç: KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2) · bitiş: KOMŞU: Kahire · NAPO-3 (napoleon.org, Chronologie CG t.3) 27 juin 1801 « Le généra
+820	DIGER	data/yerlesimler_afrika.js:103	Tanta	isg	ingiltere	1882-09-13	1914-12-18	urabi-pasa
+821	ZAYIF_ATLAS	data/yerlesimler_afrika.js:103	Tanta	s	birlesik-arap-cumhuriyeti	1958-02-22	1971-09-11	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye birlesik-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «1 Şubat 1958'de Mısır ve Sur
+822	ZAYIF_ATLAS	data/yerlesimler_afrika.js:103	Tanta	s	misir-arap-cumhuriyeti	1971-09-11	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye misir-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «11 Eylül 1971'deki referandumla
+823	ZAYIF_ATLAS	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	s	misir-sultanligi	1914-12-18	1922-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır'ın İngiliz himayesine alınarak sultanlık ilan edilm
+824	ZAYIF_ATLAS	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	s	misir-kralligi	1922-03-15	1953-06-18	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral unvan
+825	BOS	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	s	memluk	1281-01-01	1517-04-13	
+826	BOS	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	d		1517-04-13	1805-07-03	
+827	BOS	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	v		1805-07-03	1914-12-18	
+828	BOS	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	isg	ingiltere	1914-12-18	1923-10-29	
+829	DIGER	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	isg	fransa-cumhuriyet	1798-07-24	1801-06-27	başlangıç: KOMŞU: Kahire · NAPO-2 (napoleon.org, Chronologie CG t.2) · bitiş: KOMŞU: Kahire · NAPO-3 (napoleon.org, Chronologie CG t.3) 27 juin 1801 « Le généra
+830	DIGER	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	isg	ingiltere	1882-09-13	1914-12-18	urabi-pasa
+831	ZAYIF_ATLAS	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	s	birlesik-arap-cumhuriyeti	1958-02-22	1971-09-11	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye birlesik-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «1 Şubat 1958'de Mısır ve Sur
+832	ZAYIF_ATLAS	data/yerlesimler_afrika.js:121	Benhâ (Kalyûbiye)	s	misir-arap-cumhuriyeti	1971-09-11	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye misir-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «11 Eylül 1971'deki referandumla
+833	ZAYIF_ATLAS	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	s	misir-sultanligi	1914-12-18	1922-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır'ın İngiliz himayesine alınarak sultanlık ilan edilm
+834	ZAYIF_ATLAS	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	s	misir-kralligi	1922-03-15	1953-06-18	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral unvan
+835	BOS	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	s	memluk	1281-01-01	1517-04-13	
+836	BOS	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	d		1517-04-13	1805-07-03	
+837	BOS	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	v		1805-07-03	1914-12-18	
+838	BOS	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	isg	ingiltere	1914-12-18	1923-10-29	
+839	DIGER	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	isg	fransa-cumhuriyet	1798-08-09	1801-06-27	NAPO-2: «8 août: Napoléon passe à El-Khanqah, puis à Belbeis le 9» — başlangıç GÜN · bitiş: gün komşudan Kahire 1801-06-27 (NAPO-3: Belliard'ın kapitülasyonu, Y
+840	DIGER	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	isg	ingiltere	1882-09-13	1914-12-18	urabi-pasa
+841	ZAYIF_ATLAS	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	s	birlesik-arap-cumhuriyeti	1958-02-22	1971-09-11	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye birlesik-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «1 Şubat 1958'de Mısır ve Sur
+842	ZAYIF_ATLAS	data/yerlesimler_afrika.js:144	Bilbîs (Şarkiye)	s	misir-arap-cumhuriyeti	1971-09-11	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye misir-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «11 Eylül 1971'deki referandumla
+843	ZAYIF_ATLAS	data/yerlesimler_afrika.js:161	Ebûkîr	s	misir-sultanligi	1914-12-18	1922-03-15	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır'ın İngiliz himayesine alınarak sultanlık ilan edilm
+844	ZAYIF_ATLAS	data/yerlesimler_afrika.js:161	Ebûkîr	s	misir-kralligi	1922-03-15	1953-06-18	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır Krallığı ilan edildi — Sultan Ahmed Fuâd kral unvan
+845	ZAYIF_ATLAS	data/yerlesimler_afrika.js:161	Ebûkîr	isg	fransa-cumhuriyet	1798-07-10	1801-05-09	"başlangıç: gün komşudan: Rahmaniye 1798-07-10 · NAPO-2 (napoleon.org, Chronologie CG t.2) ""10 JUILLET … Napoléon arrive à El-Rahmânieh sur le Nil"" · bitiş: gün "
+846	BOS	data/yerlesimler_afrika.js:161	Ebûkîr	s	memluk	1281-01-01	1517-04-13	
+847	BOS	data/yerlesimler_afrika.js:161	Ebûkîr	d		1517-04-13	1805-07-03	
+848	BOS	data/yerlesimler_afrika.js:161	Ebûkîr	v		1805-07-03	1914-12-18	
+849	BOS	data/yerlesimler_afrika.js:161	Ebûkîr	isg	ingiltere	1914-12-18	1923-10-29	
+850	DIGER	data/yerlesimler_afrika.js:161	Ebûkîr	isg	ingiltere	1882-09-13	1914-12-18	urabi-pasa
+851	ZAYIF_ATLAS	data/yerlesimler_afrika.js:161	Ebûkîr	s	birlesik-arap-cumhuriyeti	1958-02-22	1971-09-11	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye birlesik-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «1 Şubat 1958'de Mısır ve Sur
+852	ZAYIF_ATLAS	data/yerlesimler_afrika.js:161	Ebûkîr	s	misir-arap-cumhuriyeti	1971-09-11	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye misir-arap-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mısır' — «11 Eylül 1971'deki referandumla

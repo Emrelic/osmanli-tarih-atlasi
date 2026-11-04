@@ -1,0 +1,83 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+1869	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:973	Şa'riyye	s	dacu	1281-01-01	1400-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dârfûr'da Dâcû hâkimiyetinin Tuncûrlar'a geçmesi» (1400-
+1870	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:973	Şa'riyye	s	tunciler	1400-01-01	1695-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dârfûr'da Dâcû hâkimiyetinin Tuncûrlar'a geçmesi» (1400-0
+1871	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:973	Şa'riyye	s	darfur	1695-01-01	1874-11-02	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dârfûr Sultanlığı'nın kuruluşu — Keyra hânedanı ve Süleym
+1872	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:973	Şa'riyye	s	darfur	1898-09-02	1916-05-23	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı» (1898-
+1873	BOS	data/yerlesimler_h2_afrika.js:973	Şa'riyye	s	mehdi	1883-12-23	1898-09-02	
+1874	BOS	data/yerlesimler_h2_afrika.js:973	Şa'riyye	v		1874-11-02	1883-12-23	
+1875	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1009	Yei	s	ingiliz-sudani	1899-01-19	1956-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak ida
+1876	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1026	Nazret	s	habesistan	1281-01-01	1936-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Habeşistan toprakları İtalyan Doğu Afrikası'na katıldı (
+1877	DIGER	data/yerlesimler_h2_afrika.js:1026	Nazret	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+1878	DIGER	data/yerlesimler_h2_afrika.js:1026	Nazret	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+1879	DIGER	data/yerlesimler_h2_afrika.js:1026	Nazret	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+1880	DIGER	data/yerlesimler_h2_afrika.js:1026	Nazret	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+1881	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1037	Dilla	s	habesistan	1897-01-01	1936-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Habeşistan toprakları İtalyan Doğu Afrikası'na katıldı (
+1882	DIGER	data/yerlesimler_h2_afrika.js:1037	Dilla	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+1883	DIGER	data/yerlesimler_h2_afrika.js:1037	Dilla	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+1884	DIGER	data/yerlesimler_h2_afrika.js:1037	Dilla	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+1885	DIGER	data/yerlesimler_h2_afrika.js:1037	Dilla	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+1886	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1049	Mizan Teferi	s	habesistan	1897-01-01	1936-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Habeşistan toprakları İtalyan Doğu Afrikası'na katıldı (
+1887	DIGER	data/yerlesimler_h2_afrika.js:1049	Mizan Teferi	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+1888	DIGER	data/yerlesimler_h2_afrika.js:1049	Mizan Teferi	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+1889	DIGER	data/yerlesimler_h2_afrika.js:1049	Mizan Teferi	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+1890	DIGER	data/yerlesimler_h2_afrika.js:1049	Mizan Teferi	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+1891	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1065	Filtu	s	habesistan	1897-01-01	1936-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Habeşistan toprakları İtalyan Doğu Afrikası'na katıldı (
+1892	BOS	data/yerlesimler_h2_afrika.js:1065	Filtu	s	adal	1281-01-01	1577-01-01	
+1893	BOS	data/yerlesimler_h2_afrika.js:1065	Filtu	s	somali	1577-01-01	1897-01-01	
+1894	DIGER	data/yerlesimler_h2_afrika.js:1065	Filtu	s	habesistan	1941-11-30	1974-09-12	Haile Selassie donusu 1941-05-05; Anglo-Etiyopya Antlasmasi
+1895	DIGER	data/yerlesimler_h2_afrika.js:1065	Filtu	s	etiyopya-derg	1974-09-12	1991-05-29	Derg 1974-09-12
+1896	DIGER	data/yerlesimler_h2_afrika.js:1065	Filtu	s	etiyopya-gecis-hukumeti	1991-05-29	1995-08-22	TGE
+1897	DIGER	data/yerlesimler_h2_afrika.js:1065	Filtu	s	etiyopya-federal	1995-08-22	2000-12-31	1995 Anayasasi
+1898	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1084	Lâs Hore	s	somali	1577-01-01	1884-07-18	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Britanya'nın kuzey Somali kıyısında himaye kurması — Som
+1899	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1084	Lâs Hore	s	ingiltere	1884-07-18	1960-06-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Britanya'nın kuzey Somali kıyısında himaye kurması — Soma
+1900	BOS	data/yerlesimler_h2_afrika.js:1084	Lâs Hore	s	adal	1281-01-01	1577-01-01	
+1901	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1084	Lâs Hore	s	somaliland-1960	1960-06-26	1960-07-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somaliland-1960 f ucunun kaynağı — https://ft.dk/samling/20181/almdel/mof/bilag/116/index.htm ; https://indep
+1902	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1084	Lâs Hore	s	somali-cumhuriyeti	1960-07-01	1991-05-18	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+1903	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1084	Lâs Hore	s	somaliland-cumhuriyeti	1991-05-18	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somaliland-cumhuriyeti f ucunun kaynağı — https://theeastafrican.co.ke/tea/news/east-africa/somaliland-celebr
+1904	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1104	Cadale	s	somali	1500-01-01	1905-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi —
+1905	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1104	Cadale	s	italya	1905-01-01	1936-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — 
+1906	BOS	data/yerlesimler_h2_afrika.js:1104	Cadale	s	makdisu-sultanligi	1281-01-01	1500-01-01	
+1907	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1104	Cadale	s	somali-ingiliz-askeri-idaresi	1941-02-25	1950-04-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S
+1908	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1104	Cadale	s	somali-cumhuriyeti	1960-07-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+1909	DIGER	data/yerlesimler_h2_afrika.js:1104	Cadale	s	somali-italyan-vesayet	1950-04-01	1960-07-01	BM Vesayet Konseyi, AFIS 1950-1960
+1910	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1113	Hudur	s	somali	1281-01-01	1905-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi —
+1911	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1113	Hudur	s	italya	1905-01-01	1936-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İtalyan Somalisi'nin doğrudan devlet yönetimine geçişi — 
+1912	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1113	Hudur	s	somali-ingiliz-askeri-idaresi	1941-02-25	1950-04-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S
+1913	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1113	Hudur	s	somali-cumhuriyeti	1960-07-01	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+1914	DIGER	data/yerlesimler_h2_afrika.js:1113	Hudur	s	somali-italyan-vesayet	1950-04-01	1960-07-01	BM Vesayet Konseyi, AFIS 1950-1960
+1915	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1171	Ceel Afveyn	s	somali	1577-01-01	1884-07-18	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Britanya'nın kuzey Somali kıyısında himaye kurması — Som
+1916	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1171	Ceel Afveyn	s	ingiltere	1884-07-18	1960-06-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Britanya'nın kuzey Somali kıyısında himaye kurması — Soma
+1917	BOS	data/yerlesimler_h2_afrika.js:1171	Ceel Afveyn	s	adal	1281-01-01	1577-01-01	
+1918	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1171	Ceel Afveyn	s	somaliland-1960	1960-06-26	1960-07-01	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somaliland-1960 f ucunun kaynağı — https://ft.dk/samling/20181/almdel/mof/bilag/116/index.htm ; https://indep
+1919	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1171	Ceel Afveyn	s	somali-cumhuriyeti	1960-07-01	1991-05-18	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-cumhuriyeti f ucunun kaynağı — https://independance.africamuseum.be/en/node/173 ; TDV 'Somali'; Lewis 
+1920	ZAYIF_ATLAS	data/yerlesimler_h2_afrika.js:1171	Ceel Afveyn	s	somaliland-cumhuriyeti	1991-05-18	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somaliland-cumhuriyeti f ucunun kaynağı — https://theeastafrican.co.ke/tea/news/east-africa/somaliland-celebr
+1921	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:133	Tihvin	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1922	BOS	data/yerlesimler_h2_rusya.js:133	Tihvin	s	novgorod	1281-01-01	1478-01-15	
+1923	BOS	data/yerlesimler_h2_rusya.js:133	Tihvin	s	moskova	1478-01-15	1547-01-16	
+1924	BOS	data/yerlesimler_h2_rusya.js:133	Tihvin	s	rusya	1547-01-16	1917-03-15	
+1925	BOS	data/yerlesimler_h2_rusya.js:133	Tihvin	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1926	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:133	Tihvin	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1927	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:143	Kargopol	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1928	BOS	data/yerlesimler_h2_rusya.js:143	Kargopol	s	novgorod	1281-01-01	1478-01-15	
+1929	BOS	data/yerlesimler_h2_rusya.js:143	Kargopol	s	moskova	1478-01-15	1547-01-16	
+1930	BOS	data/yerlesimler_h2_rusya.js:143	Kargopol	s	rusya	1547-01-16	1917-03-15	
+1931	BOS	data/yerlesimler_h2_rusya.js:143	Kargopol	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1932	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:143	Kargopol	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1933	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:154	Kem	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1934	BOS	data/yerlesimler_h2_rusya.js:154	Kem	s	novgorod	1281-01-01	1478-01-15	
+1935	BOS	data/yerlesimler_h2_rusya.js:154	Kem	s	moskova	1478-01-15	1547-01-16	
+1936	BOS	data/yerlesimler_h2_rusya.js:154	Kem	s	rusya	1547-01-16	1917-03-15	
+1937	BOS	data/yerlesimler_h2_rusya.js:154	Kem	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1938	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:154	Kem	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1939	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:166	Pinega	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1940	BOS	data/yerlesimler_h2_rusya.js:166	Pinega	s	novgorod	1281-01-01	1478-01-15	
+1941	BOS	data/yerlesimler_h2_rusya.js:166	Pinega	s	moskova	1478-01-15	1547-01-16	
+1942	BOS	data/yerlesimler_h2_rusya.js:166	Pinega	s	rusya	1547-01-16	1917-03-15	
+1943	BOS	data/yerlesimler_h2_rusya.js:166	Pinega	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1944	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:166	Pinega	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н
+1945	ZAYIF_ATLAS	data/yerlesimler_h2_rusya.js:178	Veliki Ustyug	s	sovyet-rusya	1917-11-07	1991-12-26	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «SSCB'nin dağılması: Belarus (Brest-Litovsk, Pinsk, Grodn
+1946	BOS	data/yerlesimler_h2_rusya.js:178	Veliki Ustyug	s	novgorod	1281-01-01	1478-01-15	
+1947	BOS	data/yerlesimler_h2_rusya.js:178	Veliki Ustyug	s	moskova	1478-01-15	1547-01-16	
+1948	BOS	data/yerlesimler_h2_rusya.js:178	Veliki Ustyug	s	rusya	1547-01-16	1917-03-15	
+1949	BOS	data/yerlesimler_h2_rusya.js:178	Veliki Ustyug	s	rusya-gecici-hukumet	1917-03-15	1917-11-07	
+1950	ZAYIF_VIKI	data/yerlesimler_h2_rusya.js:178	Veliki Ustyug	s	rusya-federasyonu	1991-12-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye rusya-federasyonu f ucunun kaynağı — Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н

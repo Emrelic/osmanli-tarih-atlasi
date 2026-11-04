@@ -1,0 +1,37 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3999	BOS	data/yerlesimler_afrika2.js:690	İbadan	s	ibadan	1829-01-01	1893-08-15	
+4000	BOS	data/yerlesimler_afrika2.js:690	İbadan	s	ingiltere	1893-08-15	1960-10-01	
+4001	BOS	data/yerlesimler_afrika2.js:714	Kaga-Bandoro	s	banda-gbaya	1281-01-01	1903-01-01	
+4002	BOS	data/yerlesimler_afrika2.js:714	Kaga-Bandoro	s	fransa-cumhuriyet	1903-01-01	1960-08-13	
+4003	BOS	data/yerlesimler_afrika2.js:743	Bossangoa	s	banda-gbaya	1281-01-01	1903-01-01	
+4004	BOS	data/yerlesimler_afrika2.js:743	Bossangoa	s	fransa-cumhuriyet	1903-01-01	1960-08-13	
+4005	BOS	data/yerlesimler_afrika2.js:771	Zwedru	s	liberya	1822-04-25	2000-12-31	
+4006	BOS	data/yerlesimler_afrika2.js:781	Bambari	s	banda-gbaya	1281-01-01	1903-01-01	
+4007	BOS	data/yerlesimler_afrika2.js:781	Bambari	s	fransa-cumhuriyet	1903-01-01	1960-08-13	
+4008	BOS	data/yerlesimler_afrika2.js:834	Sassandra	s	dan-guro	1281-01-01	1898-01-01	
+4009	BOS	data/yerlesimler_afrika2.js:834	Sassandra	s	fransa-cumhuriyet	1898-01-01	1960-08-07	
+4010	BOS	data/yerlesimler_afrika2.js:867	Harper	s	liberya	1822-04-25	2000-12-31	
+4011	BOS	data/yerlesimler_afrika2.js:949	Moroto	s	ingiltere	1911-01-01	1962-10-09	
+4012	BOS	data/yerlesimler_afrika2.js:974	Suanke	s	fransa-cumhuriyet	1900-01-01	1960-08-15	
+4013	BOS	data/yerlesimler_afrika2.js:993	Masindi	s	__BOSLUK__	1281-01-01	1501-01-01	
+4014	BOS	data/yerlesimler_afrika2.js:993	Masindi	s	bunyoro	1501-01-01	1899-04-09	
+4015	BOS	data/yerlesimler_afrika2.js:993	Masindi	s	ingiltere	1899-04-09	1962-10-09	
+4016	BOS	data/yerlesimler_afrika2.js:1022	Epena	s	fransa-cumhuriyet	1900-01-01	1960-08-15	
+4017	BOS	data/yerlesimler_afrika2.js:1088	Garissa	s	kenya-kuzey-halklari	1281-01-01	1895-07-01	
+4018	BOS	data/yerlesimler_afrika2.js:1088	Garissa	s	ingiltere	1895-07-01	1963-12-12	
+4019	BOS	data/yerlesimler_afrika2.js:1135	Bukoba	s	alman-dogu-afrikasi	1890-01-01	1916-09-01	
+4020	BOS	data/yerlesimler_afrika2.js:1135	Bukoba	s	ingiltere	1916-09-01	1922-07-20	
+4021	BOS	data/yerlesimler_afrika2.js:1135	Bukoba	s	ingiliz-tanganika-mandasi	1922-07-20	1961-12-09	
+4022	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:1135	Bukoba	s	tanganika	1961-12-09	1964-04-26	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanganika f ucunun kaynağı — Tanganyika Independence Act 1961 (legislation.gov.uk) ; TDV 'Tanzanya' (islamans
+4023	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:1135	Bukoba	s	tanzanya	1964-04-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanzanya f ucunun kaynağı — TDV 'Tanzanya' (islamansiklopedisi.org.tr/tanzanya) — «26 Nisan 1964 tarihinde Ze
+4024	BOS	data/yerlesimler_afrika2.js:1220	Arusa (Arusha)	s	alman-dogu-afrikasi	1900-01-01	1916-09-01	
+4025	BOS	data/yerlesimler_afrika2.js:1220	Arusa (Arusha)	s	ingiltere	1916-09-01	1922-07-20	
+4026	BOS	data/yerlesimler_afrika2.js:1220	Arusa (Arusha)	s	ingiliz-tanganika-mandasi	1922-07-20	1961-12-09	
+4027	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:1220	Arusa (Arusha)	s	tanganika	1961-12-09	1964-04-26	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanganika f ucunun kaynağı — Tanganyika Independence Act 1961 (legislation.gov.uk) ; TDV 'Tanzanya' (islamans
+4028	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:1220	Arusa (Arusha)	s	tanzanya	1964-04-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanzanya f ucunun kaynağı — TDV 'Tanzanya' (islamansiklopedisi.org.tr/tanzanya) — «26 Nisan 1964 tarihinde Ze
+4029	BOS	data/yerlesimler_afrika2.js:1282	Ucici (Ujiji)	s	umman-zengibar	1830-01-01	1890-11-04	
+4030	BOS	data/yerlesimler_afrika2.js:1282	Ucici (Ujiji)	s	alman-dogu-afrikasi	1890-11-04	1916-09-01	
+4031	BOS	data/yerlesimler_afrika2.js:1282	Ucici (Ujiji)	s	ingiltere	1916-09-01	1922-07-20	
+4032	BOS	data/yerlesimler_afrika2.js:1282	Ucici (Ujiji)	s	ingiliz-tanganika-mandasi	1922-07-20	1961-12-09	
+4033	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:1282	Ucici (Ujiji)	s	tanganika	1961-12-09	1964-04-26	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanganika f ucunun kaynağı — Tanganyika Independence Act 1961 (legislation.gov.uk) ; TDV 'Tanzanya' (islamans
+4034	ZAYIF_ATLAS	data/yerlesimler_afrika2.js:1282	Ucici (Ujiji)	s	tanzanya	1964-04-26	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanzanya f ucunun kaynağı — TDV 'Tanzanya' (islamansiklopedisi.org.tr/tanzanya) — «26 Nisan 1964 tarihinde Ze

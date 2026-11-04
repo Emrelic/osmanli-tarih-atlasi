@@ -1,0 +1,104 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+639	ZAYIF_ATLAS	data/yerlesimler.js:1927	Limasol	s	ingiltere	1878-06-04	1960-08-16	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kıbrıs'ın İngiliz idaresine bırakılması» (1878-06-04, yer
+640	BOS	data/yerlesimler.js:1927	Limasol	s	kibris-krallik	1281-01-01	1489-02-26	
+641	BOS	data/yerlesimler.js:1927	Limasol	d		1570-07-02	1878-06-04	
+642	ZAYIF_ATLAS	data/yerlesimler.js:1927	Limasol	s	kibris-cumhuriyeti	1960-08-16	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kibris-cumhuriyeti f ucunun kaynağı — Zürih-Londra Antlaşmaları 1959-60; Holland, Britain and the Revolt in C
+643	ZAYIF_ATLAS	data/yerlesimler.js:1932	Sitiye (Sitia)	s	yunanistan	1913-05-30	1973-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Yunan cuntasi monarsiyi kaldirip cumhuriyet ilan etti» (
+644	BOS	data/yerlesimler.js:1932	Sitiye (Sitia)	d		1669-09-27	1830-11-01	
+645	BOS	data/yerlesimler.js:1932	Sitiye (Sitia)	d		1841-02-25	1898-12-22	
+646	ZAYIF_ATLAS	data/yerlesimler.js:1939	Molova (Molyvos)	s	bizans	1281-01-01	1355-01-01	Midilli ile aynı zincir (Molova adanın kuzey kalesi; TDV midilli: Gattilusio 'Midilli, Molova, Andissa kaleleri'ne hâkimdi) — ZİNCİR Midilli'den devralındı (TDV
+647	ZAYIF_ATLAS	data/yerlesimler.js:1939	Molova (Molyvos)	s	gattilusio	1355-01-01	1462-09-17	ZİNCİR Midilli'den devralındı: TDV midilli (Kiel): 'Gattilusio ailesi 1462'ye kadar iktidarda kaldı (Midilli, Molova, Andissa kaleleri)'; bitiş günü olaylar_ek5
+648	BOS	data/yerlesimler.js:1939	Molova (Molyvos)	s	yunanistan	1923-07-24	1973-06-01	
+649	BOS	data/yerlesimler.js:1939	Molova (Molyvos)	d		1462-09-17	1923-07-24	
+650	DIGER	data/yerlesimler.js:1939	Molova (Molyvos)	isg	yunanistan	1912-11-21	1923-07-24	oniki-ada
+651	ZAYIF_ATLAS	data/yerlesimler.js:1963	Tavşanlı	s	germiyan	1300-01-01	1381-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Germiyan çeyizi: Kütahya'nın katılışı» (1381-01-01, yer 
+652	BOS	data/yerlesimler.js:1963	Tavşanlı	s	selcuklu	1281-01-01	1300-01-01	
+653	BOS	data/yerlesimler.js:1963	Tavşanlı	s	germiyan	1402-07-28	1429-01-01	
+654	BOS	data/yerlesimler.js:1963	Tavşanlı	s	tbmm-turkiye	1920-04-23	1923-10-29	
+655	BOS	data/yerlesimler.js:1963	Tavşanlı	d		1381-01-01	1402-07-28	
+656	BOS	data/yerlesimler.js:1963	Tavşanlı	d		1429-01-01	1920-04-23	
+657	ZAYIF_ATLAS	data/yerlesimler.js:2003	Finike	s	teke	1321-01-01	1392-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Teke ilinin ilhakı: Antalya'nın katılışı» (1392-01-01, y
+658	BOS	data/yerlesimler.js:2003	Finike	s	selcuklu	1281-01-01	1300-01-01	
+659	BOS	data/yerlesimler.js:2003	Finike	s	hamid	1300-01-01	1321-01-01	
+660	BOS	data/yerlesimler.js:2003	Finike	s	teke	1402-07-28	1423-01-01	
+661	BOS	data/yerlesimler.js:2003	Finike	s	tbmm-turkiye	1920-04-23	1923-10-29	
+662	BOS	data/yerlesimler.js:2003	Finike	d		1392-01-01	1402-07-28	
+663	BOS	data/yerlesimler.js:2003	Finike	d		1423-01-01	1920-04-23	
+664	ZAYIF_ATLAS	data/yerlesimler.js:2020	Karadeniz Ereğli	s	bizans	1281-01-01	1309-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Candaroğulları Beyliği'nin Kastamonu-Çankırı-Bartın-Safr
+665	ZAYIF_ATLAS	data/yerlesimler.js:2020	Karadeniz Ereğli	s	candar	1309-01-01	1392-11-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Candaroğulları Beyliği'nin Kastamonu-Çankırı-Bartın-Safra
+666	ZAYIF_ATLAS	data/yerlesimler.js:2020	Karadeniz Ereğli	s	candar	1402-07-28	1461-06-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ankara Savaşı — Fetret Devri başladı» (1402-07-28, yer ko
+667	BOS	data/yerlesimler.js:2020	Karadeniz Ereğli	s	tbmm-turkiye	1920-04-23	1923-10-29	
+668	BOS	data/yerlesimler.js:2020	Karadeniz Ereğli	d		1392-11-01	1402-07-28	
+669	BOS	data/yerlesimler.js:2020	Karadeniz Ereğli	d		1461-06-01	1920-04-23	
+670	ZAYIF_ATLAS	data/yerlesimler.js:2058	Senendec (Sine)	s	safevi	1636-01-01	1736-03-08	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Nadir Şah'ın Mugan Sahrası'nda tahta çıkışı: Safevî hane
+671	BOS	data/yerlesimler.js:2058	Senendec (Sine)	s	afsar	1736-03-08	1747-06-20	
+672	BOS	data/yerlesimler.js:2058	Senendec (Sine)	s	zend	1747-06-20	1794-01-01	
+673	BOS	data/yerlesimler.js:2058	Senendec (Sine)	s	kacar	1794-01-01	1925-10-31	
+674	ZAYIF_ATLAS	data/yerlesimler.js:2112	Ramâdi	s	ingiltere	1917-03-11	1921-08-23	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Bağdat'ın kaybı» (1917-03-11, yer kolu) kaynağı — TDV İsl
+675	BOS	data/yerlesimler.js:2112	Ramâdi	s	irak-kralligi	1921-08-23	1958-07-14	
+676	BOS	data/yerlesimler.js:2112	Ramâdi	d		1869-01-01	1917-03-11	
+677	DIGER	data/yerlesimler.js:2112	Ramâdi	s	irak-cumhuriyeti	1958-07-14	2000-12-31	Library of Congress Iraq Country Study
+678	ZAYIF_ATLAS	data/yerlesimler.js:2129	Simnân	s	ilhanli	1335-12-01	1337-09-09	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın öl
+679	ZAYIF_ATLAS	data/yerlesimler.js:2129	Simnân	s	serbedariler	1337-09-09	1386-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Serbedârîler Sebzevâr'ı aldı — Horasan'da İlhanlı sonrası
+680	ZAYIF_ATLAS	data/yerlesimler.js:2129	Simnân	s	timurlu	1386-01-01	1452-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Karakoyunlu Cihan Şah'ın Timurlu İran'ını (Rey, İsfahan,
+681	BOS	data/yerlesimler.js:2129	Simnân	s	karakoyunlu	1452-01-01	1469-01-01	
+682	BOS	data/yerlesimler.js:2129	Simnân	s	akkoyunlu	1469-01-01	1503-01-01	
+683	BOS	data/yerlesimler.js:2129	Simnân	s	safevi	1503-01-01	1736-03-08	
+684	BOS	data/yerlesimler.js:2129	Simnân	s	afsar	1736-03-08	1747-06-20	
+685	BOS	data/yerlesimler.js:2129	Simnân	s	zend	1747-06-20	1794-01-01	
+686	BOS	data/yerlesimler.js:2129	Simnân	s	kacar	1794-01-01	1925-10-31	
+687	ZAYIF_ATLAS	data/yerlesimler.js:2137	Erdistan	s	ilhanli	1281-01-01	1335-12-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ö
+688	ZAYIF_ATLAS	data/yerlesimler.js:2137	Erdistan	s	incu	1335-12-01	1357-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın öl
+689	BOS	data/yerlesimler.js:2137	Erdistan	s	muzafferi	1357-01-01	1387-11-01	
+690	BOS	data/yerlesimler.js:2137	Erdistan	s	timurlu	1387-11-01	1452-01-01	
+691	BOS	data/yerlesimler.js:2137	Erdistan	s	karakoyunlu	1452-01-01	1469-01-01	
+692	BOS	data/yerlesimler.js:2137	Erdistan	s	akkoyunlu	1469-01-01	1503-01-01	
+693	BOS	data/yerlesimler.js:2137	Erdistan	s	safevi	1503-01-01	1736-03-08	
+694	BOS	data/yerlesimler.js:2137	Erdistan	s	afsar	1736-03-08	1747-06-20	
+695	BOS	data/yerlesimler.js:2137	Erdistan	s	zend	1747-06-20	1794-01-01	
+696	BOS	data/yerlesimler.js:2137	Erdistan	s	kacar	1794-01-01	1925-10-31	
+697	ZAYIF_ATLAS	data/yerlesimler.js:2156	Behbehân	s	ilhanli	1281-01-01	1335-12-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ö
+698	ZAYIF_ATLAS	data/yerlesimler.js:2156	Behbehân	s	lur-i-buzurg	1335-12-01	1393-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın öl
+699	ZAYIF_ATLAS	data/yerlesimler.js:2156	Behbehân	s	safevi	1508-01-01	1736-03-08	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Bağdat'ın Safevî'ye geçişi — Irâk-ı Arab el değiştirdi» (
+700	BOS	data/yerlesimler.js:2156	Behbehân	s	timurlu	1393-01-01	1452-01-01	
+701	BOS	data/yerlesimler.js:2156	Behbehân	s	karakoyunlu	1452-01-01	1469-01-01	
+702	BOS	data/yerlesimler.js:2156	Behbehân	s	akkoyunlu	1469-01-01	1508-01-01	
+703	BOS	data/yerlesimler.js:2156	Behbehân	s	afsar	1736-03-08	1747-06-20	
+704	BOS	data/yerlesimler.js:2156	Behbehân	s	zend	1747-06-20	1794-01-01	
+705	BOS	data/yerlesimler.js:2156	Behbehân	s	kacar	1794-01-01	1925-10-31	
+706	ZAYIF_ATLAS	data/yerlesimler.js:2176	Mînâb	s	ilhanli	1281-01-01	1335-12-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ö
+707	ZAYIF_ATLAS	data/yerlesimler.js:2176	Mînâb	s	muzafferi	1335-12-01	1393-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın öl
+708	BOS	data/yerlesimler.js:2176	Mînâb	s	timurlu	1393-01-01	1452-01-01	
+709	BOS	data/yerlesimler.js:2176	Mînâb	s	karakoyunlu	1452-01-01	1469-01-01	
+710	BOS	data/yerlesimler.js:2176	Mînâb	s	akkoyunlu	1469-01-01	1503-01-01	
+711	BOS	data/yerlesimler.js:2176	Mînâb	s	safevi	1503-01-01	1736-03-08	
+712	BOS	data/yerlesimler.js:2176	Mînâb	s	afsar	1736-03-08	1747-06-20	
+713	BOS	data/yerlesimler.js:2176	Mînâb	s	zend	1747-06-20	1794-01-01	
+714	BOS	data/yerlesimler.js:2176	Mînâb	s	kacar	1794-01-01	1925-10-31	
+715	ZAYIF_ATLAS	data/yerlesimler.js:2181	Cehrom	s	ilhanli	1281-01-01	1335-12-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ö
+716	ZAYIF_ATLAS	data/yerlesimler.js:2181	Cehrom	s	muzafferi	1335-12-01	1393-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın öl
+717	BOS	data/yerlesimler.js:2181	Cehrom	s	timurlu	1393-01-01	1452-01-01	
+718	BOS	data/yerlesimler.js:2181	Cehrom	s	karakoyunlu	1452-01-01	1469-01-01	
+719	BOS	data/yerlesimler.js:2181	Cehrom	s	akkoyunlu	1469-01-01	1503-01-01	
+720	BOS	data/yerlesimler.js:2181	Cehrom	s	safevi	1503-01-01	1736-03-08	
+721	BOS	data/yerlesimler.js:2181	Cehrom	s	afsar	1736-03-08	1747-06-20	
+722	BOS	data/yerlesimler.js:2181	Cehrom	s	zend	1747-06-20	1794-01-01	
+723	BOS	data/yerlesimler.js:2181	Cehrom	s	kacar	1794-01-01	1925-10-31	
+724	ZAYIF_ATLAS	data/yerlesimler.js:2187	Bender Rîg	s	ilhanli	1281-01-01	1335-12-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ö
+725	ZAYIF_ATLAS	data/yerlesimler.js:2187	Bender Rîg	s	muzafferi	1335-12-01	1393-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın öl
+726	BOS	data/yerlesimler.js:2187	Bender Rîg	s	timurlu	1393-01-01	1452-01-01	
+727	BOS	data/yerlesimler.js:2187	Bender Rîg	s	karakoyunlu	1452-01-01	1469-01-01	
+728	BOS	data/yerlesimler.js:2187	Bender Rîg	s	akkoyunlu	1469-01-01	1503-01-01	
+729	BOS	data/yerlesimler.js:2187	Bender Rîg	s	safevi	1503-01-01	1736-03-08	
+730	BOS	data/yerlesimler.js:2187	Bender Rîg	s	afsar	1736-03-08	1747-06-20	
+731	BOS	data/yerlesimler.js:2187	Bender Rîg	s	zend	1747-06-20	1794-01-01	
+732	BOS	data/yerlesimler.js:2187	Bender Rîg	s	kacar	1794-01-01	1925-10-31	
+733	ZAYIF_ATLAS	data/yerlesimler.js:2193	Câsk	s	ilhanli	1281-01-01	1335-12-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın ö
+734	ZAYIF_ATLAS	data/yerlesimler.js:2193	Câsk	s	muzafferi	1335-12-01	1393-01-01	DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İlhanlı Devleti'nin dağılması: Ebû Said Bahadır Han'ın öl
+735	BOS	data/yerlesimler.js:2193	Câsk	s	timurlu	1393-01-01	1452-01-01	
+736	BOS	data/yerlesimler.js:2193	Câsk	s	karakoyunlu	1452-01-01	1469-01-01	
+737	BOS	data/yerlesimler.js:2193	Câsk	s	akkoyunlu	1469-01-01	1503-01-01	
+738	BOS	data/yerlesimler.js:2193	Câsk	s	safevi	1503-01-01	1736-03-08	
+739	BOS	data/yerlesimler.js:2193	Câsk	s	afsar	1736-03-08	1747-06-20	
+740	BOS	data/yerlesimler.js:2193	Câsk	s	zend	1747-06-20	1794-01-01	
+741	BOS	data/yerlesimler.js:2193	Câsk	s	kacar	1794-01-01	1925-10-31	

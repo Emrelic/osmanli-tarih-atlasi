@@ -1,0 +1,39 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3405	BOS	data/yerlesimler_amerika.js:746	Arauco (Mapuche/Araukanya — kuzey sınır bölgesi)	s	mapuche-araukanya	1281-01-01	1883-01-01	
+3406	BOS	data/yerlesimler_amerika.js:746	Arauco (Mapuche/Araukanya — kuzey sınır bölgesi)	s	sili-cumhuriyeti	1883-01-01	2000-12-31	
+3407	BOS	data/yerlesimler_amerika.js:776	Cahokia	s	cahokia	1281-01-01	1350-01-01	
+3408	BOS	data/yerlesimler_amerika.js:790	Mohawk (Kayenlaha'ke)	s	haudenosaunee	1450-01-01	1777-01-01	
+3409	BOS	data/yerlesimler_amerika.js:790	Mohawk (Kayenlaha'ke)	s	ingiltere	1777-01-01	1783-09-03	
+3410	BOS	data/yerlesimler_amerika.js:790	Mohawk (Kayenlaha'ke)	s	abd	1783-09-03	2000-12-31	
+3411	BOS	data/yerlesimler_amerika.js:805	Oneida	s	haudenosaunee	1450-01-01	1777-01-01	
+3412	BOS	data/yerlesimler_amerika.js:805	Oneida	s	ingiltere	1777-01-01	1783-09-03	
+3413	BOS	data/yerlesimler_amerika.js:805	Oneida	s	abd	1783-09-03	2000-12-31	
+3414	BOS	data/yerlesimler_amerika.js:877	Chota (Cherokee Overhill Başkenti)	s	cherokee	1281-01-01	1791-07-02	
+3415	BOS	data/yerlesimler_amerika.js:877	Chota (Cherokee Overhill Başkenti)	s	abd	1791-07-02	2000-12-31	
+3416	BOS	data/yerlesimler_amerika.js:885	Nanih Waiya (Choctaw Konfederasyonu, kutsal/köken merkezi)	s	choctaw	1281-01-01	1830-09-27	
+3417	BOS	data/yerlesimler_amerika.js:885	Nanih Waiya (Choctaw Konfederasyonu, kutsal/köken merkezi)	s	abd	1830-09-27	2000-12-31	
+3418	BOS	data/yerlesimler_amerika.js:901	New Orleans	s	fransa	1718-01-01	1763-11-03	
+3419	BOS	data/yerlesimler_amerika.js:901	New Orleans	s	ispanya	1763-11-03	1803-04-30	
+3420	BOS	data/yerlesimler_amerika.js:901	New Orleans	s	ispanya	1803-04-30	1803-12-20	
+3421	BOS	data/yerlesimler_amerika.js:901	New Orleans	s	abd	1803-12-20	2000-12-31	
+3422	BOS	data/yerlesimler_amerika.js:930	Jamestown	s	ingiltere	1607-05-23	1776-07-04	
+3423	BOS	data/yerlesimler_amerika.js:930	Jamestown	s	abd	1776-07-04	2000-12-31	
+3424	BOS	data/yerlesimler_amerika.js:953	Detroit (Fort Pontchartrain du Détroit)	s	fransa	1701-07-24	1763-02-10	
+3425	BOS	data/yerlesimler_amerika.js:953	Detroit (Fort Pontchartrain du Détroit)	s	ingiltere	1763-02-10	1796-07-11	
+3426	BOS	data/yerlesimler_amerika.js:953	Detroit (Fort Pontchartrain du Détroit)	s	abd	1796-07-11	2000-12-31	
+3427	BOS	data/yerlesimler_amerika.js:1023	Novoarkhangelsk (Sitka)	s	rusya	1799-07-01	1867-10-18	
+3428	BOS	data/yerlesimler_amerika.js:1023	Novoarkhangelsk (Sitka)	s	abd	1867-10-18	2000-12-31	
+3429	BOS	data/yerlesimler_amerika.js:1072	Santo Domingo	s	ispanya	1496-01-01	1795-07-22	
+3430	BOS	data/yerlesimler_amerika.js:1072	Santo Domingo	s	fransa-cumhuriyet	1795-07-22	1809-07-09	
+3431	BOS	data/yerlesimler_amerika.js:1072	Santo Domingo	s	ispanya	1809-07-09	1822-02-09	
+3432	BOS	data/yerlesimler_amerika.js:1072	Santo Domingo	s	haiti	1822-02-09	1844-02-27	
+3433	BOS	data/yerlesimler_amerika.js:1072	Santo Domingo	s	dominik-cumhuriyeti	1844-02-27	1861-03-18	
+3434	BOS	data/yerlesimler_amerika.js:1072	Santo Domingo	s	ispanya	1861-03-18	1865-03-03	
+3435	BOS	data/yerlesimler_amerika.js:1072	Santo Domingo	s	dominik-cumhuriyeti	1865-03-03	2000-12-31	
+3436	BOS	data/yerlesimler_amerika.js:1124	Caparra	s	ispanya	1508-01-01	1521-01-01	
+3437	BOS	data/yerlesimler_amerika.js:1168	San José de Oruña (St. Joseph)	s	ispanya	1592-01-01	1797-02-18	
+3438	BOS	data/yerlesimler_amerika.js:1168	San José de Oruña (St. Joseph)	s	ingiltere	1797-02-18	1962-08-31	
+3439	BOS	data/yerlesimler_amerika.js:1257	Corrientes	s	ispanya	1588-04-03	1810-05-25	
+3440	BOS	data/yerlesimler_amerika.js:1257	Corrientes	s	arjantin-cumhuriyeti	1810-05-25	2000-12-31	
+3441	BOS	data/yerlesimler_amerika.js:1287	San Miguel de Tucumán	s	ispanya	1565-05-31	1810-05-25	
+3442	BOS	data/yerlesimler_amerika.js:1287	San Miguel de Tucumán	s	arjantin-cumhuriyeti	1810-05-25	2000-12-31	

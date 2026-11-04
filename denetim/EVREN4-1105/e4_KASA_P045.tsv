@@ -1,0 +1,74 @@
+sira	sinif	dosya	ad	kat	sahip	f	t	kaynak
+3004	BOS	data/yerlesimler.js:1208	Agadez	s	agadez-sultanligi	1405-01-01	1906-01-01	
+3005	BOS	data/yerlesimler.js:1275	Glatz (Kłodzko)	s	avusturya	1526-10-23	1742-06-11	
+3006	BOS	data/yerlesimler.js:1275	Glatz (Kłodzko)	s	prusya	1742-06-11	1871-01-18	
+3007	BOS	data/yerlesimler.js:1275	Glatz (Kłodzko)	s	almanya	1871-01-18	1945-06-05	
+3008	ZAYIF_ATLAS	data/yerlesimler.js:1275	Glatz (Kłodzko)	s	polonya-halk	1945-06-05	1989-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-halk t ucunun kaynağı — Dziennik Ustaw 1989 nr 75 poz. 444, Ustawa z dnia 29 grudnia 1989 r. o zmiani
+3009	ZAYIF_ATLAS	data/yerlesimler.js:1275	Glatz (Kłodzko)	s	polonya-iii-cumhuriyet	1989-12-31	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye polonya-iii-cumhuriyet f ucunun kaynağı — https://zpe.gov.pl/a/Dsrh00CK1 ; Cambridge, Concise History of Pola
+3010	BOS	data/yerlesimler.js:1278	Broumov (Braunau)	s	avusturya	1526-10-23	1918-11-11	
+3011	BOS	data/yerlesimler.js:1278	Broumov (Braunau)	s	cekoslovakya	1918-11-11	1938-10-01	
+3012	DIGER	data/yerlesimler.js:1278	Broumov (Braunau)	s	almanya	1938-10-01	1945-05-09	YAN/sudet KUTU-H1-1015: Südet bölgesi — Münih Antlaşması 29 Eylül 1938 (Avalon, imt/munich1.asp): işgal 1 Ekim'de başlar, I-IV. bölgeler 1-7 Ekim, kalan alan 10
+3013	BOS	data/yerlesimler.js:1388	Salala	s	nebhani	1281-01-01	1515-04-01	
+3014	BOS	data/yerlesimler.js:1388	Salala	s	umman	1515-04-01	2000-12-31	
+3015	BOS	data/yerlesimler.js:1417	Necid içi	s	suud-birinci	1744-01-01	1818-09-09	
+3016	BOS	data/yerlesimler.js:1417	Necid içi	s	suud-ikinci	1824-06-01	1891-01-01	
+3017	BOS	data/yerlesimler.js:1417	Necid içi	s	sammar	1891-01-01	1902-01-15	
+3018	BOS	data/yerlesimler.js:1417	Necid içi	s	suud-ucuncu	1902-01-15	1932-09-18	
+3019	BOS	data/yerlesimler.js:1417	Necid içi	v		1818-09-09	1824-06-01	
+3020	ZAYIF_ATLAS	data/yerlesimler.js:1417	Necid içi	s	suudi-arabistan	1932-09-18	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau
+3021	BOS	data/yerlesimler.js:1735	Rumeli Hisarı	s	tbmm-turkiye	1920-04-23	1923-10-29	
+3022	BOS	data/yerlesimler.js:1735	Rumeli Hisarı	d		1452-08-31	1920-04-23	
+3023	BOS	data/yerlesimler.js:1784	Solnok (Szolnok)	s	macaristan-naiplik	1918-11-16	1946-02-01	
+3024	BOS	data/yerlesimler.js:1784	Solnok (Szolnok)	d		1552-09-04	1685-10-12	
+3025	DIGER	data/yerlesimler.js:1784	Solnok (Szolnok)	s	macaristan-habsburg	1550-09-15	1552-09-04	Bánlaky, A magyar nemzet hadtörténelme (MEK 09477) 0013/988 (Eylül ortası 1550 Ferdinand kuvvetleri Szolnok'u tuttu; 1551-52 kale komutanı kralın adamı Horváth 
+3026	DIGER	data/yerlesimler.js:1784	Solnok (Szolnok)	s	macaristan-habsburg	1685-10-12	1918-11-16	Bánlaky, A magyar nemzet hadtörténelme (MEK 09477) 0017/1402: 12 Ekim 1685 Mercy ve Heissler önüne geldi, Osmanlı komutanı kaçtı
+3027	DIGER	data/yerlesimler.js:1784	Solnok (Szolnok)	v		1526-11-10	1541-08-29	KUTU-B-1014 (0088/H-0008): hayalet 'macaristan' (künye 1527'de biter) kaldırıldı · BEYAN bölge sahibi: Külső-Szolnok ili Szapolyai/İzabella ülkesi (MTA History 
+3028	DIGER	data/yerlesimler.js:1784	Solnok (Szolnok)	v		1541-08-29	1550-09-15	BEYAN bölge: İzabella'nın ülkesi (MTA History of Transylvania (mek.oszk.hu/03400/03407/html/101.html) · t: Bánlaky, A magyar nemzet hadtörténelme (MEK 09477) 00
+3029	ZAYIF_ATLAS	data/yerlesimler.js:1784	Solnok (Szolnok)	s	macaristan-halk	1946-02-01	1989-10-23	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-halk f ucunun kaynağı — 1946. évi I. törvénycikk Magyarország államformájáról (net.jogtar.hu/ezer-
+3030	ZAYIF_ATLAS	data/yerlesimler.js:1784	Solnok (Szolnok)	s	macaristan-cumhuriyeti	1989-10-23	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-cumhuriyeti f ucunun kaynağı — https://doha.mfa.gov.hu/eng/page/the-history-of-hungary · BEYANLI: 
+3031	BOS	data/yerlesimler.js:1823	Fornoz (Fourni)	s	cenova	1281-01-01	1521-01-01	
+3032	BOS	data/yerlesimler.js:1823	Fornoz (Fourni)	s	yunanistan	1923-07-24	1973-06-01	
+3033	BOS	data/yerlesimler.js:1823	Fornoz (Fourni)	d		1521-01-01	1923-07-24	
+3034	DIGER	data/yerlesimler.js:1823	Fornoz (Fourni)	isg	yunanistan	1912-07-17	1923-07-24	oniki-ada
+3035	BOS	data/yerlesimler.js:1919	Sokotra	s	nebhani	1281-01-01	1507-01-01	
+3036	BOS	data/yerlesimler.js:1919	Sokotra	s	portekiz	1507-01-01	1511-01-01	
+3037	ZAYIF_ATLAS	data/yerlesimler.js:1919	Sokotra	s	guney-yemen	1967-11-30	1990-05-22	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guney-yemen f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Yemen' — «Güney Yemen, Sovyetler Birliği’nin de dest
+3038	ZAYIF_ATLAS	data/yerlesimler.js:1919	Sokotra	s	yemen-cumhuriyeti	1990-05-22	2000-12-31	DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye yemen-cumhuriyeti f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Yemen' — «Güney Yemen, Sovyetler Birliği’nin d
+3039	BOS	data/yerlesimler.js:2054	Mîyandoab	s	ilhanli	1281-01-01	1340-01-01	
+3040	BOS	data/yerlesimler.js:2054	Mîyandoab	s	celayirli	1340-01-01	1386-01-01	
+3041	BOS	data/yerlesimler.js:2054	Mîyandoab	s	timurlu	1386-01-01	1408-04-13	
+3042	BOS	data/yerlesimler.js:2054	Mîyandoab	s	akkoyunlu	1469-04-01	1501-07-01	
+3043	BOS	data/yerlesimler.js:2054	Mîyandoab	s	safevi	1501-07-01	1736-03-08	
+3044	BOS	data/yerlesimler.js:2054	Mîyandoab	s	afsar	1736-03-08	1747-06-20	
+3045	BOS	data/yerlesimler.js:2054	Mîyandoab	s	zend	1747-06-20	1794-01-01	
+3046	BOS	data/yerlesimler.js:2054	Mîyandoab	s	kacar	1794-01-01	1925-10-31	
+3047	BOS	data/yerlesimler.js:2054	Mîyandoab	d		1585-09-25	1603-10-21	
+3048	DIGER	data/yerlesimler.js:2054	Mîyandoab	d		1725-07-28	1730-08-12	Bilgili 2016 (Ermeni Araştırmaları 53) s.119 (TD 909 Miyan-duvâb nahiyesi) · gün komşudan: Merâga (Tebriz ile aynı gün, Emre kararı)
+3049	BOS	data/yerlesimler.js:2118	Ammâre	s	irak-kralligi	1921-08-23	1958-07-14	
+3050	BOS	data/yerlesimler.js:2118	Ammâre	d		1700-01-01	1915-01-01	
+3051	DIGER	data/yerlesimler.js:2118	Ammâre	s	irak-cumhuriyeti	1958-07-14	2000-12-31	Library of Congress Iraq Country Study
+3052	BOS	data/yerlesimler.js:2160	Muhammere	s	kacar	1812-01-01	1925-10-31	
+3053	BOS	data/yerlesimler.js:2163	Bîrcend	s	ilhanli	1281-01-01	1337-09-09	
+3054	BOS	data/yerlesimler.js:2163	Bîrcend	s	serbedariler	1337-09-09	1381-01-01	
+3055	BOS	data/yerlesimler.js:2163	Bîrcend	s	timurlu	1381-01-01	1507-05-24	
+3056	BOS	data/yerlesimler.js:2163	Bîrcend	s	buhara	1507-05-24	1510-12-02	
+3057	BOS	data/yerlesimler.js:2163	Bîrcend	s	safevi	1510-12-02	1736-03-08	
+3058	BOS	data/yerlesimler.js:2163	Bîrcend	s	afsar	1736-03-08	1747-06-20	
+3059	BOS	data/yerlesimler.js:2163	Bîrcend	s	zend	1747-06-20	1794-01-01	
+3060	BOS	data/yerlesimler.js:2163	Bîrcend	s	kacar	1794-01-01	1925-10-31	
+3061	BOS	data/yerlesimler.js:2224	Turbet-i Câm	s	ilhanli	1281-01-01	1337-09-09	
+3062	BOS	data/yerlesimler.js:2224	Turbet-i Câm	s	serbedariler	1337-09-09	1381-01-01	
+3063	BOS	data/yerlesimler.js:2224	Turbet-i Câm	s	timurlu	1381-01-01	1507-05-24	
+3064	BOS	data/yerlesimler.js:2224	Turbet-i Câm	s	buhara	1507-05-24	1510-12-02	
+3065	BOS	data/yerlesimler.js:2224	Turbet-i Câm	s	safevi	1510-12-02	1736-03-08	
+3066	BOS	data/yerlesimler.js:2224	Turbet-i Câm	s	afsar	1736-03-08	1747-06-20	
+3067	BOS	data/yerlesimler.js:2224	Turbet-i Câm	s	zend	1747-06-20	1794-01-01	
+3068	BOS	data/yerlesimler.js:2224	Turbet-i Câm	s	kacar	1794-01-01	1925-10-31	
+3069	BOS	data/yerlesimler.js:2228	Bocnûrd	s	ilhanli	1281-01-01	1337-09-09	
+3070	BOS	data/yerlesimler.js:2228	Bocnûrd	s	serbedariler	1337-09-09	1381-01-01	
+3071	BOS	data/yerlesimler.js:2228	Bocnûrd	s	timurlu	1381-01-01	1507-05-24	
+3072	BOS	data/yerlesimler.js:2228	Bocnûrd	s	buhara	1507-05-24	1510-12-02	
+3073	BOS	data/yerlesimler.js:2228	Bocnûrd	s	safevi	1510-12-02	1736-03-08	
+3074	BOS	data/yerlesimler.js:2228	Bocnûrd	s	afsar	1736-03-08	1747-06-20	
+3075	BOS	data/yerlesimler.js:2228	Bocnûrd	s	zend	1747-06-20	1794-01-01	
+3076	BOS	data/yerlesimler.js:2228	Bocnûrd	s	kacar	1794-01-01	1925-10-31	
