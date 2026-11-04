@@ -1020,6 +1020,20 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Ajanların ±1 günleri düzeltildi: Musul 1517-04-01, Çorum 1398-07-15, 810 → 1407-06-07, 955 → 1548-02-10.
   - Herat 913 yıl başı (1507-05-12) düşüşten önce kaldığı için kullanılmadı.
 
+## 43. KASA PAZAR inişi sonrası tazeleme (origin/main 7acb10c1e; dal birleştirildi: afe2b86f1; `tazele.py`, `tazeleme.json`)
+- **Yöntem:** `arac/girdi.py` ile yeni veri yüklendi. Her dadim_sonuc satırı için yerleşim satırı yeniden bulundu (`ad:"…"` satırı). Dönem (alan + kimlik + f) eşlendi, t karşılaştırıldı. `oneri_son`/`dogrusu` değeri yeni veride var mı diye bakıldı.
+- **Sonuç (7244 satır):**
+  - AYNI: 7081.
+  - T_DEGISTI: 24. F_DEGISTI: 37.
+  - DONEM_YOK: 70 (isg 21, s 49). Çoğu "eklenecek dönem" önerisi, KASA henüz yazmamış.
+  - YERLESIM_DUZEYI: 31 (alanı boş satırlar).
+  - YER_YOK: 0. Meciboj (Mejibuj) → Meciboj (Mejibuji) ad değişikliği eşlendi.
+- **dosya_satir:** 6374 satırda güncellendi (eski değer `dosya_satir_eski`). Satırlar KASA'nın eklemeleri yüzünden ~8-10 kaydı.
+- **Uygulanmış öneriler:** 116 satırın önerisi yeni veride birebir var (KAYNAKLI 64, ONERI 52). `tazeleme.uygulandi = true`.
+- **Sınır:**
+  - v satırlarında `d` görünen ad olduğu için yalnız f ile eşlendi.
+  - Çok satırlı yerleşim kayıtlarında satır numarası bulunamadı, yalnız dosya yazıldı.
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.
