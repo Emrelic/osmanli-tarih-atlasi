@@ -78,7 +78,10 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
      Edirne. Belgrad → Belgrado, Viyana → Viena, Mora → Moreia, Rumeli → Rumélia, Eflak → Valáquia,
      Boğdan → Moldávia, Erdel → Transilvânia, Kırım Hanlığı → Canato da Crimeia, Memlükler →
      mamelucos / sultanato mameluco, Selçuklular → seljúcidas, Safevîler → safávidas, Akkoyunlu →
-     Ak Koyunlu, Karakoyunlu → Kara Koyunlu, Venedik → Veneza, Cenova → Génova, Macaristan → Hungria.
+     Ak Koyunlu, Karakoyunlu → Kara Koyunlu, Venedik → Veneza, Cenova → Génova, Macaristan → Hungria. İşkodra → Shkodër ("Escútari"
+     KULLANILMAZ — Portekizcede Üsküdar ile karışır; Üsküdar → Üsküdar).
+   - Türkçe terimi parantez içinde açıklama olarak EKLEME ("tipografia (Matbaa)" yok): yalnız
+     kaynakta olan parantez kalır.
    - Kişiler: Maomé II (Mehmed II; Fâtih lakabı yalnız metin veriyorsa "o Conquistador"),
      Bajazeto I (Bayezid I), Solimão I (o Magnífico yalnız metin lakabı veriyorsa; Kanuni → o
      Legislador), Murad, Selim; Batılılar Portekizcedeki yerleşik adla (Carlos V, Sacro Império
