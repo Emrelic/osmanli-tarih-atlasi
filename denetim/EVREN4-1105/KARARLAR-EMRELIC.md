@@ -109,3 +109,18 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
 - **Rus Kuzey Bölgesi** künye sorusu LAB'a gider.
 - **Oslo/Tønsberg:** KARARLAR esastır. P001 ajanının "danimarka uzasın" önerisi uygulanmaz.
 - **TBMM kurtuluş günleri:** kaynak sırası TDV şehir maddeleri, sonra *Atatürk Araştırma Merkezi Dergisi*, sonra *Türk İstiklal Harbi* (Genelkurmay).
+
+## 5 Kasım 2026 gece-25 — karar okumaları üzerine (e4_KASA_KARAR_gece17.tsv)
+
+- **Suçava:** `s: romanya` **1918-11-06**'dan başlar. Rakip hükûmet ve fiilî idare kuralı her şehirde ayrı uygulanır; Rumen jandarması o sabah şehre girdi (Ungureanu 2019).
+  - Çernovitz'te başlangıç 11-11 olarak kalır.
+  - Kuzeydeki yerler 11-06 → 11-11 arası Ukrayna idaresindedir: `bati-ukrayna-halk-cumhuriyeti`.
+- **Nikarya:** 1914-02-13 bir kural uygulamasıdır (Ege adaları emsali). Kaynak adayı adıyla anmadığı için hüküm güçlü bir ONERI olur. Not: "kural uygulaması; Yellice 'diğer adalar' çıkarımı". 1912 günleri BULUNAMADI kalır; Jülyen ipucu güne çevrilmez, uydurma olur.
+- **Amasra:** gün değişmez; 1459, 1460 ve 1461 `ic_not`a yazılır. Eyice bağımsız kaynak sayılmaz.
+- **Ağraham:** BULUNAMADI. Mevcut satır olduğu gibi kalır, `v:` eğilimi not olarak yazılır.
+- **Deyrizor:** yerin kendine özgü kaynağı Polat 2020 esastır; TDV'nin 1918'i `ic_not`a yazılır.
+  - 1918-10 → 1919-01-14 `s: suriye-arap-kralligi`.
+  - 1919-01-14 → 1919-12-11 `isg ingiltere`.
+  - Ardından 1920-07-25'e kadar Arap idaresi.
+  - Fransızların fiilî girişi 1921'de, günü bilinmiyor: `1921-01-01` + "[yalnız yıl]". 1920-07-25 ile Fransız girişi arası BEYANLI.
+- **Kerak:** 1920-21 Moab Arap Hükûmeti için künye sorusu LAB'a gider; o zamana kadar BEYANLI yazılır. Emirlik Şubat 1921'den başlar (02-01 ay hassasiyetidir) ve öyle kalır. 04-11 merkezî hükûmetin kuruluşudur, `ic_not`a yazılır.
