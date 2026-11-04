@@ -58,6 +58,24 @@ KASA PAZAR bunları uygularken JSON'daki ONERI satırlarının önünde tutar.
   - 1941-11-30 Gondar teslimidir, kuzeydeki son İtalyan direnişi. Gondar çevresindeki yerlerde 11-30 kalır.
   - Öteki yerlerde f 1941-05-05 ya da o şehrin kendi kurtuluş günü olur.
 
+## 5 Kasım 2026 gece-32 — TBMM K05 ve uç kuralı
+
+- **Kilikya teslimleri:** her şehrin kendi fiilî teslim günü esastır (Mersin emsali):
+  - Mersin 1922-01-03
+  - Adana 1922-01-05
+  - Tarsus 1921-12-27
+
+  Bu günler TDV şehir maddeleri ve bir kaynakla teyit edilecek. Günay'ın verdiği 1921-12-04 töreni `ic_not`a yazılır; büyük ihtimalle devir protokolü ya da tören, şehirlerin tahliyesi değil.
+- **Karadeniz Ereğli ve Akhisar:** sınıf düzeltmesi doğru. İkisi de fiilî TBMM olarak yazılır, işgal ayrı bir `isg` dilimi olur:
+  - Ereğli: Fransız işgali 1920-06-08 → 06-19.
+  - Akhisar: Yunan işgali 1920-06-22 → 1922-09-06.
+- **Osmaniye:** TDV'nin 1921-12-29'u esastır. Resmî kurtuluş günü 1922-01-07 `ic_not`a yazılır.
+- **Uç kuralı ve yılsız alıntılar:**
+  - Alıntı gün ve ay veriyorsa ve yıl aynı paragrafta ya da başlıkta açıksa satır KAYNAKLI kalır; not: "yıl bağlamdan".
+  - Yıl bağlamda da yoksa satır ONERI olur.
+  - Çin ve Japon devir yılı ifadeleri kural dışı değildir, KAYNAKLI'ya yeter.
+- **Açılamayan alıntılar:** `tarayici_okuma_TRECCANI.tsv`'yi EMRELİC kendi tarayıcısında okuyor.
+
 ## LAB SALI cevabı (lab-1104-kunye f2ed94442)
 
 - EMRELİC'in onayladığı künye uygulamaları LAB'ın `HAYALET-UYGULA.json` dosyasında, 14 madde: Ming f 1356-04-10, ming t / guney-ming f, venedik, zend, bengal, mali-fed, edo.
