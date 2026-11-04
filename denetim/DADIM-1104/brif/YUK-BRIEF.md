@@ -1,34 +1,41 @@
-# ONERI yükseltme turu (UMIT, 5 Kasım 2026; EMRELİC talimatı)
+# ONERI yükseltme turu (UMIT, 5 Kasım 2026; EMRELİC talimatı, gece-14 ayarı)
 
 Önceki turlar bu satırlar için **öneri** (ONERI) yazdı: mevcut atlas dönemi yanlış ya da eksik, şöyle olmalı.
-Bu tur her öneriyi **ikinci, bağımsız bir akademik kaynakla** sınar. Sınavı geçen öneri KAYNAKLI'ya yükselir.
+Bu tur her öneriyi sınar.
 Bütün atlas kuralları `DA-BRIEF.md`dedir; önce onu baştan sona oku ve harfiyen uygula. TEK ÖLÇÜ, künye var mı ve hayalet devlet kuralları dahil.
+
+## Ölçüt (gece-14 — ÖNEMLİ)
+- **TEK bir okunmuş akademik kaynak yeterlidir** (CLAUDE.md kaynak kuralı). "İkinci bağımsız kaynak" şartı YOKTUR.
+- **ONERI → KAYNAKLI:** önerinin değiştirdiği ucu ya da devri tarihleyen cümle bir akademik kaynakta **birebir okunmuş** olmalı. Akademik kaynaklar: TDV maddesi, Treccani, NDB/ADB, Iranica, Hrvatska enciklopedija, Encyclopedia of Ukraine, LoC Country Studies, hakemli makale, TTK/İSAM yayını, akademik monografi.
+- **Zaten böyle bir kaynağı olan ONERI satırı yanlış sınıflanmıştır.** Satırın `kaynak` ve `alinti` alanlarında tarihleyen cümle akademik kaynaktan birebir varsa, yeniden aramadan doğrudan KAYNAKLI yaz. `not` alanına "mevcut kaynak yeterli" yaz.
+- İkinci bir kaynak da bulursan `not` alanına "çift teyit" yaz.
+- Önerinin gün hassasiyeti kaynakta yoksa ve yalnız yıl teyit ediliyorsa: KAYNAKLI yaz, ama `not` alanına "[yalnız yıl teyitli]" ekle ve `oneri` gününü yıla indir (`YYYY-01-01` + beyan).
+
+## Erişilemeyen kapılar — DENEME
+- Britannica (403), Iranica'nın tahmin edilen slug'ları (404), archive.org ödünç kitapları (401), Banrepcultural (bot koruması), academia.edu (robots), Tynwald, APH/MoAD (robots) erişilemiyor. Bunları hiç deneme.
+- Yalnız tarayıcıyla açılabilecek bir kaynak gördüysen (JSTOR, ödünç kitap, girişli dergi) `tarayici_gerekli` alanına künyesini ve URL'sini yaz. Bunlar EMRELİC'te toplanır.
 
 ## Girdi
 `db_y_NNN.json` → `kayitlar[]`:
 - `ad`.
 - `baglam`: yerleşimin bütün dönemleri (yalnız bağlam).
-- `satirlar`: bu turda sınanacak ONERI satırları. Alanlar: `dosya_satir`, `alan`, `d`, `f`, `t`, `kaynak` (önerinin dayandığı ilk kaynak), `alinti`, `oneri` (önerilen değişiklik), `not`.
+- `satirlar`: sınanacak ONERI satırları. Alanlar: `dosya_satir`, `alan`, `d`, `f`, `t`, `kaynak`, `alinti`, `oneri`, `not`.
 
-## Yöntem
-1. `oneri` alanını ve `not`u oku: ne değişiyor, hangi kaynağa dayanıyor?
-2. **İlk kaynaktan BAĞIMSIZ** ikinci bir akademik kaynak ara. Aynı yazarın başka maddesi, aynı ansiklopedinin başka maddesi ve ilk kaynağı aktaran bir sayfa bağımsız sayılmaz.
-   Kaynak merdiveni: TDV → İSAM → TTK Belleten → DergiPark/TR Dizin → YÖK Tez → akademik yayınevi → komşu/yabancı akademik kaynak (Treccani, Hrvatska enciklopedija, Encyclopedia of Ukraine, Iranica, LoC Country Studies, Cambridge History serileri) → birincil belge neşri.
-3. Hüküm ver:
-   - **KAYNAKLI**: ikinci kaynak önerinin değiştirdiği ucu ya da sahibi aynı ölçüde (gün, ay ya da yıl) teyit ediyor.
-   - **ONERI** (kalır): ikinci kaynak bulunamadı ya da yalnız kısmen teyit ediyor. `not` alanına nereye baktığını yaz.
-   - **CELISKI**: ikinci kaynak öneriyle çelişiyor. İki kaynağı da alıntıla. Öneriyi DEĞİŞTİRME; karar EMRELİC'indir.
-   - **HATALI_ONERI**: öneri bir atlas kuralıyla ya da koordinatör kararıyla çelişiyor (notta "KOORDİNATÖR KARARI" ya da "KURAL UYGULAMASI" varsa ona uy). Gerekçeyi yaz.
-4. Önerinin gün hassasiyeti ikinci kaynakta yoksa ve yalnız yıl teyit ediliyorsa: KAYNAKLI yazma; ONERI bırak ve `not` alanına "[yalnız yıl teyitli]" yaz.
+## Hükümler
+- **KAYNAKLI**: ölçüte uyuyor (yukarıda).
+- **ONERI** (kalır): okunmuş akademik kaynak yok. `not` alanına nereye baktığını yaz.
+- **CELISKI**: okunan akademik kaynak öneriyle çelişiyor. İki tarafı da alıntıla; öneriyi DEĞİŞTİRME, karar EMRELİC'indir.
+- **HATALI_ONERI**: öneri bir atlas kuralıyla ya da koordinatör kararıyla çelişiyor. Notta "KOORDİNATÖR KARARI" ya da "KURAL UYGULAMASI" varsa ona uy. Gerekçeyi ve doğrusunu yaz. **Bu kova en değerli çıktıdır**; özenle doldur.
 
 ## Çıktı
 `db_ry_NNN.json` = `{ "<ad>": [ satır, ... ] }`
 - Yalnız girdideki `satirlar` yazılır.
-- `dosya_satir`, `alan`, `d` ve `f` girdiden **aynen** kopyalanır; eşleşme bu dört alanla yapılır.
+- `dosya_satir`, `alan`, `d` ve `f` girdiden **aynen** kopyalanır.
 - Yeni alanlar:
-  - `hukum`: KAYNAKLI, ONERI, CELISKI ya da HATALI_ONERI.
-  - `kaynak2`: ikinci kaynağın tam künyesi (yazar, eser, cilt/sayfa ya da URL).
+  - `hukum`.
+  - `kaynak2`: senin okuduğun kaynağın tam künyesi. "mevcut kaynak yeterli" ise boş bırak.
   - `alinti2`: en çok 2 cümle.
+  - `tarayici_gerekli`: liste, isteğe bağlı.
   - `not`.
 - Her yerleşimden sonra diske yaz.
 
