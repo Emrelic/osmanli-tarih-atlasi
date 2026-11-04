@@ -52,8 +52,10 @@ Sayım: GERCEK 93 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 46 · YAPAY-d 9 · Y
 | E060 | hafsi 1281–1519 | KAYNAKLI | Sikikde, Mîle: zeyyani → hafsi (gün bulunamadı; Bicâye vb. de sınansın). |
 | E062 | selcuklu 1281–1308 | KAYNAKLI | Erzurum için selcuklu (tâbi) / ilhanli tutarlılığı: tâbi katmanı ya da komşuların aynı statüsü (gün bulunamadı). |
 | K036 | OSMANLI 1832–1841 | KAYNAKLI | Maan, Kerak, Tebük, el-Vech, Medâin-i Sâlih, el-Ulâ: 1832/33-1840/41 v (misir-kavalali) dönemi, gün TDV/İSAM kaynakla; Hicaz ve Ürdün sahipsiz noktaları için sahip. |
+| K038 | kongo-serbest-devleti 1885–1888 | KAYNAKLI | Sandoa, Musumba KSD başlangıcı kaynakla (Lunda ilhakı 1890'lar); İlebo sahipsiz. |
 | K044 | timurlu 1402–1404 | KAYNAKLI | Denizli, Söke, Burdur, Isparta vb. 1402-08 sonrası ilgili beylik (Germiyan/Menteşe/Aydın/Hamîd/Karaman) d: + timurlu v: — beylik iade günleri kaynakla; timurlu bitişi Temmuz 1404 (Muharrem 807, TDV Timur). |
 | K061 | ingiltere 1776–1783 | KAYNAKLI | Atlantik kıyısı noktaları 1776-07-04 -> 1783-09-03 abd (fiilî) ya da hepsi ingiltere; İngiliz işgal pencereleri (Norfolk 1776, Wilmington 1781-82) kaynakla. |
+| K062 | ingiltere 1876–1899 | KAYNAKLI | Blantyre/Zomba/Mangoçi 'ingiltere' f ucu kaynakla (1889-1891), öncesi yerel devlet (yao/maravi). |
 | K066 | ingiltere 1776–1783 | KAYNAKLI | Yeni İngiltere noktaları 1776-07-04 f abd; Penobscot/Pemaquid İngiliz işgal penceresi (1779) kaynakla. |
 | K087 | wicita 1750–1849 | KAYNAKLI | Quivira/Kansas wicita noktası 1719 sonrası dönemi kaldırılsın ya da kaynakla yeniden kurulsun (Handbook of Texas: 1719'a dek grup Oklahoma'ya indi). |
 | E004 | guney-afrika-birligi 1915–1920 | OLCUM | Güneybatı Afrika'daki bütün noktalar: 1915-07-09 → 1920-12-17 d:'ingiltere' → 'guney-afrika-birligi' (Gobabis, Aranos ve aynı dönemi taşıyanlar). Kaynak ile teyit. |
@@ -82,10 +84,8 @@ Sayım: GERCEK 93 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 46 · YAPAY-d 9 · Y
 | E065 | babur-imparatorlugu 1753–1757 | KAYNAK-GEREK | Dholka Maratha f ve Ahmedabad f hizalansın (Imperial Gazetteer 'Gujarat' bakılmalı); gün bulunamadı. |
 | E066 | fransa-cumhuriyet 1918–1920 | KAYNAK-GEREK | Malikiye f kaynakla (Fransız işgal tarihi); gün bulunamadı. |
 | E088 | nijerya 1967–1970 | KAYNAK-GEREK | Aroçukvu'ya biafra dönemi 1967-05-30 → Nijerya ele geçirişi (gün bulunamadı). |
-| K038 | kongo-serbest-devleti 1885–1888 | KAYNAK-GEREK | Sandoa, Musumba KSD başlangıcı kaynakla (Lunda ilhakı 1890'lar); İlebo sahipsiz. |
 | K048 | delhi-sultanligi 1311–1323 | KAYNAK-GEREK | Güney Hindistan noktalarının delhi-sultanligi f ucu: Imperial Gazetteer (dsal) Madura/Ma'bar ile teyit (gün bulunamadı). |
 | K053 | avusturya 1918–1919 | KAYNAK-GEREK | Ljubljana/Maribor/Celje: SHS Devleti dönemi (29.10.1918) ve atlasın yugoslavya f ucu uyumu, kaynakla (gün bulunamadı). |
-| K062 | ingiltere 1876–1899 | KAYNAK-GEREK | Blantyre/Zomba/Mangoçi 'ingiltere' f ucu kaynakla (1889-1891), öncesi yerel devlet (yao/maravi). |
 | K076 | babur-imparatorlugu 1753–1760 | KAYNAK-GEREK | Ahmednagar 1753-1759 Nizam mı Maratha mı kaynak (gün bulunamadı); Nâsik, Broaç sahipliği. |
 | K085 | delhi-sultanligi 1394–1479 | KAYNAK-GEREK | Patna/Gayâ 1394-1497 sahibi Cevnpur/Bengal (kaynakla gün). |
 | K090 | maratha 1761–1803 | KAYNAK-GEREK | Agra/Mathura/Koil/Meerut/Panipat maratha f ucu kaynakla (1761 değil); gvalyar-maratha ilişkisi. |
@@ -159,11 +159,11 @@ Sayım: GERCEK 93 · BIRLESMELI 12 · YAPAY-b 13 · YAPAY-c 46 · YAPAY-d 9 · Y
 
 | aday | devlet · yıllar | güven | düzeltme |
 |---|---|---|---|
+| K047 | meksika 1825–2000 | KAYNAKLI | Motor sorusu (HAVVA): Colorado deltası ABD/Meksika sınırı kesişimi. |
+| K078 | OSMANLI 1871–1913 | KAYNAKLI | Motor sorusu: tâbi aracılı bitişiklik eksklav sayılmasın. Veri düzeltmesi yok. |
 | E082 | fransa-cumhuriyet 1831–1841 | OLCUM | Sebha güneyine (Mekerra/Tlelat) yerel nokta, abi merkez Muaskar zinciriyle (merdiven ⑤). 1831-41 Fransız Oran'ının sınırı Tafna (30.5.1837) metninden okunsun. |
 | E083 | ispanya 1509–1708 | OLCUM | Motor sorusu (HAVVA): enklav:true noktanın hücresi kale çevresiyle sınırlansın. Veri yolu: Sebha güneyine zeyyani/OSMANLI zincirli nokta. Ek: Mersa'l-Kebîr 1505'te İspanyol oldu, kayıt 1509 diyor (TDV vehran ile sınansın). |
 | E084 | ispanya 1732–1792 | OLCUM | E083 kovası. |
 | E104 | ispanya 1564–1673 | OLCUM | Motor sorusu (E083 ile aynı). Veri yolu: Rif kıyısına Sa'dî/Alevî noktası (Bâdis şehri ya da Targuist). |
 | E111 | kacar 1812–1925 | OLCUM | Veri değil motor (nehir yaslanması); HAVVA'ya not. |
-| K047 | meksika 1825–2000 | KAYNAK-GEREK | Motor sorusu (HAVVA): Colorado deltası ABD/Meksika sınırı kesişimi. |
-| K078 | OSMANLI 1871–1913 | KAYNAK-GEREK | Motor sorusu: tâbi aracılı bitişiklik eksklav sayılmasın. Veri düzeltmesi yok. |
 | K080 | avusturya 1809–1915 | KAYNAK-GEREK | Motor sorusu: Avusturya Silezyası (Teschen) peteği Galiçya'ya bağlansın; veri düzeltmesi yok. |
