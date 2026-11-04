@@ -1,0 +1,533 @@
+{
+ "Tadoussac": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:824",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp · Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies | Done at Paris the tenth day of February, 1763. | The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2588] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:824",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2589] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:824",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1600-01-01",
+   "t": "1763-02-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Dictionary of Canadian Biography, 'CHAUVIN DE TONNETUIT, PIERRE DE' (vol. 1), http://www.biographi.ca/en/bio/chauvin_de_tonnetuit_pierre_de_1E.html · Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp",
+   "alinti": "Chauvin chose Tadoussac as his destination | “abitasion du Capp n chauvain de lan 1600” | Done at Paris the tenth day of February, 1763.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2590] f yerleşime özgü (yıl), t ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] DCB: 1600 baharı sefer, Tadoussac'ta ev kuruldu (Champlain haritası 'de lan 1600'). ic_not: Kirke kardeşlerin İngiliz işgali 1628/1629 → 1632 (Saint-Germain-en-Laye) Tadoussac'ı kapsar — isg ingiltere dilimi eksik olabilir, okunmadı, EK SORU. ic_not / EK SORU: İngiliz askerî yönetimi (Montréal teslimi 1760-09-08 → Paris 1763-02-10) TEK KURAL'a göre isg ingiltere dilimi olabilir — okunmadı; St. Lawrence kümesinde (Tadoussac, Trois-Rivières, Sept-Îles, Kahnawake) birlikte kararlaştırılmalı."
+  }
+ ],
+ "Spokane House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:850",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1810-01-01",
+   "t": "1846-06-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Convention of 1818 md. III (Avalon Project), https://avalon.law.yale.edu/19th_century/conv1818.asp · Oregon Antlaşması 1846 md. I (Avalon), https://avalon.law.yale.edu/19th_century/br-1846.asp",
+   "alinti": "any Country that may be claimed by either Party ... Westward of the Stony Mountains | Done at Washington, the fifteenth day of June, ... one thousand eight hundred and forty-six",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2591] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli (Oregon Antlaşması imzası; ortak işgal 1818 Konvansiyonu md. III). f 1810 (NWC kuruluşu) teyitsiz — HistoryLink akademik değil, başka kaynak açılmadı. ic_not: TEK ÖLÇÜ — ABD bölgeyi imzada fiilen yönetmiyordu; Oregon Territory 1848-08-14 (İPUCU) teslim günü sayılabilir; onay teatisi 1846-07-17 (İPUCU) — KASA kararı, beyan."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:850",
+   "alan": "s",
+   "d": "abd",
+   "f": "1846-06-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Oregon Antlaşması 1846 md. I (Avalon Project / Statutes of the US vol. 9), https://avalon.law.yale.edu/19th_century/br-1846.asp",
+   "alinti": "Done at Washington, the fifteenth day of June, ... one thousand eight hundred and forty-six",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2592] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Spokane 49. paralelin güneyinde. TEK ÖLÇÜ notu 2591'de."
+  }
+ ],
+ "Trois-Rivières": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:927",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp · Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies | Done at Paris the tenth day of February, 1763. | The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2593] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:927",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2594] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:927",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1634-07-04",
+   "t": "1763-02-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Dictionary of Canadian Biography, 'LAVIOLETTE' (André Vachon, vol. 1), http://www.biographi.ca/en/bio/laviolette_1E.html · Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp",
+   "alinti": "Laviolette commanded at Trois-Rivières from 4 July 1634 to 17 April 1636. | Done at Paris the tenth day of February, 1763.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2595] f yerleşime özgü gün, t ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Fransız günü (Gregoryen, 1582 sonrası Fransa). ic_not / EK SORU: İngiliz askerî yönetimi (Montréal teslimi 1760-09-08 → Paris 1763-02-10) TEK KURAL'a göre isg ingiltere dilimi olabilir — okunmadı; St. Lawrence kümesinde (Tadoussac, Trois-Rivières, Sept-Îles, Kahnawake) birlikte kararlaştırılmalı."
+  }
+ ],
+ "Fort Nez Percés (Walla Walla)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:943",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1818-01-01",
+   "t": "1846-06-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Convention of 1818 md. III (Avalon Project), https://avalon.law.yale.edu/19th_century/conv1818.asp · Oregon Antlaşması 1846 md. I (Avalon), https://avalon.law.yale.edu/19th_century/br-1846.asp",
+   "alinti": "any Country that may be claimed by either Party ... Westward of the Stony Mountains | Done at Washington, the fifteenth day of June, ... one thousand eight hundred and forty-six",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2596] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli; f 1818 (NWC kuruluşu) teyitsiz — kaynak açılmadı. TEK ÖLÇÜ notu Spokane House 2591'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:943",
+   "alan": "s",
+   "d": "abd",
+   "f": "1846-06-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Oregon Antlaşması 1846 md. I (Avalon Project / Statutes of the US vol. 9), https://avalon.law.yale.edu/19th_century/br-1846.asp",
+   "alinti": "Done at Washington, the fifteenth day of June, ... one thousand eight hundred and forty-six",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2597] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Fort Vancouver": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:958",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1825-03-19",
+   "t": "1846-06-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "John A. Hussey, Fort Vancouver Historic Structures Report vol. I, ch. V 'Flagpole' (National Park Service), https://npshistory.com/publications/fova/hsr/chap5-1.htm · Oregon Antlaşması 1846 md. I (Avalon Project / Statutes of the US vol. 9), https://avalon.law.yale.edu/19th_century/br-1846.asp",
+   "alinti": "Simpson recorded in his journal on March 19 of that year that he \"Baptised\" the post | Done at Washington, the fifteenth day of June, ... one thousand eight hundred and forty-six",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2598] f yerleşime özgü gün (yıl bağlamdan: aynı paragraf 'its dedication on the original site in 1825'), t ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Oregon Antlaşması md. III HBC'nin zilyetlik haklarını korur — mülkiyet, egemenlik değil (mevcut kaynakla uyumlu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:958",
+   "alan": "s",
+   "d": "abd",
+   "f": "1846-06-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Oregon Antlaşması 1846 md. I (Avalon Project / Statutes of the US vol. 9), https://avalon.law.yale.edu/19th_century/br-1846.asp",
+   "alinti": "Done at Washington, the fifteenth day of June, ... one thousand eight hundred and forty-six",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2599] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Kahnawake": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:969",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1777-01-01",
+   "t": "1867-07-01",
+   "hukum": "ONERI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp · Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies | Done at Paris the tenth day of February, 1763. | The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "t",
+   "oneri": {
+    "f": "1763-02-10"
+   },
+   "not": "[sira 2600] [alıntı ham metinden, sayfa.py] t teyitli (ÜLKE DÜZEYİ). f 1777 haudenosaunee künye t'sinden (Konfederasyon konsey ateşinin örtülmesi) devralınmış; Kahnawake Konfederasyon üyesi değil, Yeni Fransa'daki Cizvit misyon köyüdür (bkz. 2602) — İngiliz egemenliği Paris 1763'ten. ic_not: 1783 Paris md. 2 yerleşim notunda (Avalon) yalnız ABD-İngiliz sınırını tarihler."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:969",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2601] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:969",
+   "alan": "s",
+   "d": "haudenosaunee",
+   "f": "1667-01-01",
+   "t": "1777-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Canadian Register of Historic Places, 'Fort St-Louis National Historic Site of Canada' (HSMBC beyanı), https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=13717 · Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp",
+   "alinti": "Jesuit missionaries founded the Mission of Caughnawaga at the French colony of La Prairie in 1667 | Done at Paris the tenth day of February, 1763.",
+   "uc": "f",
+   "oneri": {
+    "d": "fransa",
+    "t": "1763-02-10"
+   },
+   "not": "[sira 2602] [alıntı ham metinden, sayfa.py] f 1667 teyitli. Misyon Fransız kolonisi La Prairie'de kuruldu, Hıristiyan İrokualar için; Konfederasyonun (haudenosaunee) değil Yeni Fransa'nın toprağıdır (aynı kaynak: Fort St-Louis 1725'te 'erected ... by the French for the protection of the Christian Iroquois'). Öneri: s: fransa 1667-01-01 → 1763-02-10 (Paris, ÜLKE DÜZEYİ), ardından ingiliz-kuzey-amerika. Koordinat notu: misyon 1716'da bugünkü yere taşındı (~15 km; historicplaces özetleri). fransa künyesi kapsar. ic_not / EK SORU: İngiliz askerî yönetimi (Montréal teslimi 1760-09-08 → Paris 1763-02-10) TEK KURAL'a göre isg ingiltere dilimi olabilir — okunmadı; St. Lawrence kümesinde (Tadoussac, Trois-Rivières, Sept-Îles, Kahnawake) birlikte kararlaştırılmalı."
+  }
+ ],
+ "Halifax": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:988",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp · Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "renounces all pretensions which he has heretofore formed or might have formed to Nova Scotia | The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2603] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] f: Paris 1763 md. IV ('Done at Paris the tenth day of February, 1763'); Nova Scotia 1713'ten beri İngiliz — f künye geçişidir (ingiltere → ingiliz-kuzey-amerika), egemen değişmez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:988",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2604] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Nova Scotia kurucu eyalet (Constitution Act 1867 md. 3)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:988",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1749-06-21",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "kaynak": "Dictionary of Canadian Biography, 'CORNWALLIS, EDWARD' (vol. 4), http://www.biographi.ca/en/bio/cornwallis_edward_4E.html",
+   "alinti": "Cornwallis’ career in Nova Scotia began on 21 June 1749, when he arrived off Chebucto Bay",
+   "uc": "f",
+   "oneri": {
+    "f": "1749-07-02"
+   },
+   "not": "[sira 2605] [alıntı ham metinden, sayfa.py] TAKVİM: Britanya 1752'ye kadar Jülyen; DCB günü eski takvim (Halifax'ın kuruluş yıldönümü 21 Haziran). Jülyen 1749-06-21 = Gregoryen 1749-07-02 (1700-1799 farkı 11 gün). CLAUDE.md 4 Kasım kuralı: 1582 sonrası atlas günü Gregoryen → f 1749-07-02, ic_not'ta iki gün. kur: alanı ve 'Halifax kuruldu' kronoloji maddesi de birlikte taşınmalı. t 1763-02-10 künye geçişi."
+  }
+ ],
+ "York (Toronto)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1022",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1750-01-01",
+   "t": "1763-02-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Dictionary of Canadian Biography, 'ROBINAU DE PORTNEUF, PIERRE' (Jean-Pierre Asselin, vol. 3), http://www.biographi.ca/en/bio/robinau_de_portneuf_pierre_3E.html · Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp",
+   "alinti": "The Sieur de Portneuf set out on 20 May 1750 and reached Toronto some time later. | Done at Paris the tenth day of February, 1763.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2606] f yerleşime özgü (yıl; 15.04.1750 bakanlık izni, 20.05.1750 yola çıkış, iki ayda depo ve şarampol — gün olarak inşa günü yok, 1750-01-01 yıl hassasiyeti kalır), t ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] ic_not: Fransızlar Fort Rouillé'yi 1759'da yaktı; İngiliz askerî yönetimi 1760 → 1763 (isg sorusu, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1022",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 1763 md. IV (Avalon Project, Yale), https://avalon.law.yale.edu/18th_century/paris763.asp · Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies | Done at Paris the tenth day of February, 1763. | The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2607] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1022",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution Act 1867 md. 3 + Endnote (4) (Justice Canada, laws-lois.justice.gc.ca/eng/const/endNotes.html)",
+   "alinti": "The first day of July, 1867, was fixed by proclamation dated May 22, 1867.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2608] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Ontario kurucu eyalet."
+  }
+ ],
+ "Sutter's Fort (Sacramento)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1181",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1839-01-01",
+   "t": "1848-02-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Guadalupe Hidalgo Antlaşması (Avalon Project), https://avalon.law.yale.edu/19th_century/guadhida.asp",
+   "alinti": "city of Guadalupe Hidalgo, on the second day of February, ... eight hundred and forty-eight",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2609] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] t teyitli (TEK ÖLÇÜ: ABD imzada bölgeyi fiilen yönetiyordu → imza günü). f 1839 (Nueva Helvetia) teyitsiz — California State Parks sayfası açılmadı (zaman aşımı). EK SORU (TEK KURAL): ABD kuvvetlerinin Temmuz 1846'dan imzaya kadar Kaliforniya'yı askerî valilikle tutması isg abd dilimi gerektirir (Meksika iddiası sürüyordu → ÖLÇÜT: geçici/askerî); gün okunmadı — aynı hat (San Francisco, San Diego, Santa Fe, Albuquerque) birlikte."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1181",
+   "alan": "s",
+   "d": "abd",
+   "f": "1848-02-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Guadalupe Hidalgo Antlaşması (Avalon Project), https://avalon.law.yale.edu/19th_century/guadhida.asp",
+   "alinti": "city of Guadalupe Hidalgo, on the second day of February, ... eight hundred and forty-eight",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2610] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Yürürlük/onay teatisi 1848-05-30 (İPUCU) ic_not'a."
+  }
+ ],
+ "Albuquerque": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1292",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1706-04-23",
+   "t": "1821-09-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "University of Arizona, Documentary Relations of the Southwest (Arizona Historical Indexes), serial 041-00928: Cuerbo y Valdes, certificación, https://uamr.lib.arizona.edu/item/212432",
+   "alinti": "Letter to king about foundation of Villa de Albuquerque | Santa Fe. April 23, 1706. 20p. Certificacion. Signed.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2611] [alıntı ham metinden, sayfa.py] f 1706-04-23 = kuruluşu bildiren certificación'un günü (birincil belge kataloğu); kuruluşun kendisi bu tarihten önce, 1706 başında (İPUCU: Simmons, Hispanic Albuquerque 1706-1846, UNM Press, s. 53-55 — TARAYICI). t teyitsiz: t = meksika f (KÜME K11)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1292",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "1848-02-02",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2612] [KÜME K11] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1292",
+   "alan": "s",
+   "d": "abd",
+   "f": "1848-02-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Guadalupe Hidalgo Antlaşması (Avalon Project), https://avalon.law.yale.edu/19th_century/guadhida.asp",
+   "alinti": "city of Guadalupe Hidalgo, on the second day of February, ... eight hundred and forty-eight",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2613] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] EK SORU: Kearny'nin Ağustos 1846 Yeni Meksika işgali → isg abd dilimi (bkz. Sutter's Fort 2609)."
+  }
+ ],
+ "Santa Rita del Cobre": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1349",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1804-01-01",
+   "t": "1821-09-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2614] Bütçe: f 1804 (maden kuruluşu) için kaynak aranmadı; t = meksika f (KÜME K11)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1349",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "1848-02-02",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2615] [KÜME K11] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1349",
+   "alan": "s",
+   "d": "abd",
+   "f": "1848-02-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Guadalupe Hidalgo Antlaşması (Avalon Project), https://avalon.law.yale.edu/19th_century/guadhida.asp",
+   "alinti": "city of Guadalupe Hidalgo, on the second day of February, ... eight hundred and forty-eight",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2616] ÜLKE DÜZEYİ. [alıntı ham metinden, sayfa.py] Santa Rita Gila'nın kuzeyinde, 1848 devri içinde (Gadsden değil)."
+  }
+ ],
+ "Los Adaes": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1365",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1721-01-01",
+   "t": "1821-02-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Handbook of Texas Online (Texas State Historical Association), 'Los Adaes', https://www.tshaonline.org/handbook/entries/los-adaes",
+   "alinti": "His expedition established the presidio and reoccupied the mission at Los Adaes in 1721.",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2617] [alıntı ham metinden, sayfa.py] f yıl düzeyinde teyitli (Aguayo seferi). t teyitsiz (Adams-Onís onay teatisi — 2618 satırında, sınanmadı). ic_not: misyon 1717'de kuruldu, 1719'da terk edildi; garnizon ve misyon 1773'te kaldırıldı (aynı madde) — yerleşimin 1773 sonrası varlığı KASA'nın sorusu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1365",
+   "alan": "s",
+   "d": "abd",
+   "f": "1821-02-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2618] DIGER; bütçe — Adams-Onís metni açılmadı. TEK ÖLÇÜ hatırlatması: imza 1819-02-22 / onay teatisi 1821-02-22; ABD Neutral Ground'u fiilen yönetmiyorsa teslim günü aranmalı."
+  }
+ ],
+ "Tubac": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1377",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1752-01-01",
+   "t": "1821-09-27",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2619] Bakılan: azstateparks.com Tubac park tarihi (ana sayfaya yönlendi), NPS Tumacácori history (1752 geçmiyor). f 1752 (Pima ayaklanması sonrası presidio) İPUCU. t = KÜME K11."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1377",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "1854-06-30",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2620] [KÜME K11] ülke düzeyi ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1377",
+   "alan": "s",
+   "d": "abd",
+   "f": "1854-06-30",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2621] DIGER; bütçe — Gadsden metni açılmadı."
+  }
+ ],
+ "Misión San Francisco de Borja": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1421",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1762-01-01",
+   "t": "1821-09-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2622] Bütçe: f 1762 (Cizvit misyonu, Linck) için kaynak aranmadı. t = KÜME K11."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1421",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2623] [KÜME K11] ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Múzquiz (Santa Rosa)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1433",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1739-01-01",
+   "t": "1821-09-27",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2624] Bakılan: TSHA Handbook (Santa Rosa presidio maddesi slug'ı 404), web araması. Akademik olmayan kaynaklar 1735 (26 Eylül, Vizarrón), 1737 ve 1739 arasında çelişiyor; UA Documentary Relations kayıtları Sacramento presidyosunun Santa Rosa vadisine taşınmasını 1739-41 belgeleriyle anıyor (İPUCU). TARAYICI: Weber, The Spanish Frontier in North America (Yale UP). t = KÜME K11."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1433",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1821-09-27",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2625] [KÜME K11] ülke düzeyi ayrı ajanda."
+  }
+ ]
+}
