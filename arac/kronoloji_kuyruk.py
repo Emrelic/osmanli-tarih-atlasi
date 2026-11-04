@@ -36,6 +36,9 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # HAVVA L2H 1851-1950 / LAB L2L 1951-2052
+    "L2-2324": "Risiera di San Sabba 1944-04-06 → 04-04 adayı: dayanak Trieste belediye müzesi sayfası + USF — belediye sayfası tek dayanak olamaz (AJAN-BRIF kural 5); akademik ikinci kaynak gerekli (HAVVA)",
+    "L2-2465": "Skrunda radarı 1998-09-04 (OSCE basın bildirisi günü): Rusya yükümlülüğü 31 Ağustos 1998 yerine getirdi (kapatma), OSCE doğrulama ziyareti 3 Eylül → madde kapatmayı mı doğrulamayı mı anlatıyor netleşmeden uygulanmaz (LAB)",
     # İkinci geçiş IG3
     "L2-620": "Karkota Jayapida 779: Stein, Kalhana's Rajatarangini c.1 (1900, archive.org dli.pahar.1527) Intro s.94 ve §§56-66 — Kalhana hesabıyla saltanat 751-782, Çin yıllıklarına göre Kalhana ~25 yıl erken, Jayapida «8. yy sonuna çok daha yakın»; atlasın 779'u hiçbirine oturmaz; ~776-807 ajan çıkarımı (Stein vermez) → yaklaşık hassasiyet + ic_not; Stein c.2 kronoloji tablosu ve Goetz bakılmadan tarih yazılmaz",
     "L2-1277": "Khongjom 1891-04-23 → 1891-04-25 adayı: London Gazette 26192 (14 Ağu 1891) s.4372 Graham raporu — Tamu kolonu 23 Nisan çıktı, Palel çatışması 25 Nisan; 23 Nisan Manipur resmî anma günü (Khongjom Parva) → olay kimliği (Khongjom mu Palel mi) netleşmeden uygulanmaz, ic_not iki kaynak",
