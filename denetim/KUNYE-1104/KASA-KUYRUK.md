@@ -32,6 +32,7 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | 25 | `sahaptin` | t | 1855-01-01 | **1859-04-18** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-yakima-1855-0698): |
 | 26 | `ponka` | t | 1858-01-01 | **1859-04-11** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-ponca-1858-0772):  |
 | 27 | `powhatan` | t | 1646-10-01 | **1646-10-05** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, |
+| 28 | `diaguita-calchaqui-konfederasyonu` | t | 1667-01-02 | **1665-12-01** | KARAR (EMRELİC, 4 Kasım): t 1667-01-02 → 1665-12-01 (AY hassasiyeti; gün kaynakta yok) — Boixadós, 'El fin de las guerras calchaquíes. La desnaturalización de l |
 
 ## Künye adı değişiklikleri (metin; çeviriler sonra bayat görünecek)
 
@@ -44,7 +45,6 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | künye | şimdi | bekleyen | neden |
 |---|---|---|---|
 | `tubu-tibesti` | f 1281-01-01 · t 1914-01-01 | t (kalıcı Fransız yeniden işgal günü) — önceki öneri 1914-09-01 GERİ ÇEKİLDİ | CHA VII (Suret-Canale) s.360 dn.40: 'the Tibesti mountains, from which French forces had withdrawn in 1916, were transferred from Niger to Chad' (1929) → 1914-16 TAHRİR ÖLÇÜTÜ'ne göre askerî işgal (isg), Tubu polity'si sürdü; t kalıcı yeniden işgal günüdür, kaynakta yok; 1929 Çad'a devri idarî işlem (EMRELİC kararı) |
-| `diaguita-calchaqui-konfederasyonu` | f 1281-01-01 · t 1667-01-02 | t 1667-01-02 dayanaksız — yerine 1665 (son yenilgi, Aralık 1665 sürgün) mü, 1667 (La Rioja kaydı 16 Nisan–2 Mayıs / encomienda 17 Mayıs) mı? | Boixadós, 'El fin de las guerras calchaquíes', Corpus 1(1) 2011 (OpenEdition, tam metin okundu): son yenilgi ve sürgün 1665, Aralık 1665'te nakil; 1667 yalnız La Rioja kaydı ve encomienda belgesi. Polity sonu olayı seçimi Emre/EMRELİC kararı |
 | `orta-afrika-imparatorlugu` | f 1976-12-04 · t 1979-09-20 | f 1976-12-04 → 1977-12-04 ve t 1979-09-20 → 09-21 (TDV) — ikinci akademik kaynak okunmadan UYGULANMAZ | TDV 'ORTA AFRİKA CUMHURİYETİ': '4 Aralık 1977'de kendisini imparator ilân eden Bokassa' + '21 Eylül 1979'da … darbeyle'. Kaynak kuralı TDV'yi esas alır, ama yaygın bilgiye göre 4 Aralık 1976 imparatorluk ilanı (anayasa), 4 Aralık 1977 taç giyme; TDV taç giymeyi ilan saymış olabilir. Çelişki ic_not'ta iki kaynakla beyan edilmeli; ikinci kaynak (Titley, Dark Age, 1997) OKUNMADI. t: darbe 20/21 Eylül gecesi |
 
 ## Yerleşim ölçümleri (KASA kontrol etsin; LAB veriye yazmaz)
@@ -53,4 +53,4 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 
 Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] — ONERI.md.
 
-Toplam 27 alan düzeltmesi, 27 künye.
+Toplam 28 alan düzeltmesi, 28 künye.
