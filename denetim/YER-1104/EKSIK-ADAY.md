@@ -1,4 +1,4 @@
-# EKSİK-ADAY — kronolojide geçen, atlasta olmayan yerleşimler (ilk 150)
+# EKSİK-ADAY — kronolojide geçen, atlasta olmayan yerleşimler (ilk 300)
 
 Ölçen: LAB SALI · 4 Kasım 2026 · `yer_sinifla.py` → `eksik_aday.py`. Sıra: kronolojide anılma sayısı (eşitlikte madde sırası).
 
@@ -11,7 +11,7 @@
 
 - **Elle not:** LAB SALI'nin OSM sonucunu bilinen bir yanlış yüzünden reddettiği ya da mükerrerle YAZIM'a geçirdiği satırlar.
 
-**Özet:** 150 aday · Pleiades koordinatlı 37 (referanslı 7) · koordinat yok 113 · YAZIM'a geçmeli 11.
+**Özet:** 300 aday · Pleiades koordinatlı 40 (referanslı 7) · koordinat yok 260 · YAZIM'a geçmeli 11.
 
 | # | ad | anılma | koordinat (lat, lon) | güven | koordinat kaynağı | mükerrer | elle not | madde (yıl — başlık) | taraflar | madde kaynağı |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -165,3 +165,153 @@
 | 148 | Qart-ḥadašt | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -0759-01-01 — Karthago - kuruluş geleneği 814/813 vs arkeolojik ~760: Kartaca: kesin | None | Docter R.F. 2002-2003, The topography of archaic Carthage: preliminary results of recent e |
 | 149 | Aegyptus | 1 | — | koordinat yok | Pleiades: 'Aegyptus' için 3 sonuç, referans yok — seçilmedi | yok | — | -0029-01-01 — Roma Misiri'nin basi - Octavian Iskenderiye'yi alir: Roma Mısır'ı alır | None | Bowman AK. 'Egypt' in Cambridge Ancient History X (The Augustan Empire 43 BC-AD 69), 2. ba |
 | 150 | Alexandreia | 1 | — | koordinat yok | Pleiades: 'Alexandreia' için 15 sonuç, referans yok — seçilmedi | yok | — | -0331-01-01 — Iskenderiye'nin kurulusu: İskenderiye kurulur (gelenek) | None | Pleiades 727070 Alexandria (aciklama alani) · https://pleiades.stoa.org/places/727070 |
+| 151 | Alexandria | 1 | — | koordinat yok | Pleiades: 'Alexandria' için 26 sonuç, referans yok — seçilmedi | yok | — | -0331-01-01 — Iskenderiye'nin kurulusu: İskenderiye kurulur (gelenek) | None | Pleiades 727070 Alexandria (aciklama alani) · https://pleiades.stoa.org/places/727070 |
+| 152 | Hyksos | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -1531-01-01 — Hiksoslarin Avaris'ten atilisi (Ahmose'nin Avaris fethi): Avaris Ahmos | None | Bruins HJ, van der Plicht J. 2025. The Minoan Thera eruption predates Pharaoh Ahmose. PLoS |
+| 153 | Ounjougou | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -9249-01-01 — Ounjougou (Ravin de la Mouche) - Afrika'nin en eski seramigi: Afrika'n | None | Huysecom E vd. 2009. The emergence of pottery in Africa during the tenth millennium cal BC |
+| 154 | Eş-Şeheynab (Shaheinab) Neolitiği | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -4199-01-01 — Esh-Shaheinab: sahip dönemi sona erer — Shaheinab Neolitiği (Orta Suda | None | künye shaheinab-neolitik — data/devletler.js; nokta kaynağı yerlesimler_mo_*.js kaynak: al |
+| 155 | Mature Harappan | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -2599-01-01 — Olgun Harappa (İndus Uygarlığı kent dönemi): başlar | None | Shinde V. vd. 2019, Cell 179(3), giriş; doi:10.1016/j.cell.2019.08.048 — Parikh & Petrie 2 |
+| 156 | Burzahom (Burzahama) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -2899-01-01 — Burzahom: başlar | None | Dwivedi A. vd. 2025, Sci Rep, doi:10.1038/s41598-025-00568-4 (Burzahom girişi; ref 10) · h |
+| 157 | Bhirrana (Bhirdana) | 1 | 29.5547, 75.5480 | PLEİADES, TEK SONUÇ | Pleiades https://pleiades.stoa.org/places/897851371 (Bhirrana) | yok | — | -6433-01-01 — Bhirrana: başlar | None | Sarkar A. vd. 2016, Sci Rep 6:26555, doi:10.1038/srep26555 (en eski tabaka 14C, ref 8/17/1 |
+| 158 | Natufian | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -12649-01-01 — Natufiyen Kültürü: başlar | None | Richter T, Arranz-Otaegui A, Yeomans L, Boaretto E 2017, Sci Rep 7:17025, doi 10.1038/s415 |
+| 159 | PPNC | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -6749-01-01 — PPNC (Son PPNB) — Güney Levant: başlar | None | Meier JS, Goring-Morris AN, Munro ND 2016, PLoS One 11(11):e0166573, Tablo 1 (Guney Levant |
+| 160 | Pre-Pottery Neolithic B | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -8649-01-01 — PPNB (Çömlekten Önceki Neolitik B) — Güney Levant: başlar | None | Meier JS, Goring-Morris AN, Munro ND 2016, PLoS One 11(11):e0166573, Tablo 1 (Guney Levant |
+| 161 | Pre-Pottery Neolithic A | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -9699-01-01 — PPNA (Çömlekten Önceki Neolitik A) — Güney Levant: başlar | None | Meier JS, Goring-Morris AN, Munro ND 2016, PLoS One 11(11):e0166573, Tablo 1 (Guney Levant |
+| 162 | Ninua | 1 | — | koordinat yok | Pleiades: 'Ninua' için 2 sonuç, referans yok — seçilmedi | yok | — | -0611-01-01 — Ninova'nın düşüşü (Yeni Asur'un sonu): Ninova düşer (Yeni Asur'un sonu | None | Grayson, ABC 3 (Fall of Nineveh Chronicle), 14. yıl, Livius çevirisi okundu; TDV 'Ninevâ'  |
+| 163 | Nīnawā | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -0611-01-01 — Ninova'nın düşüşü (Yeni Asur'un sonu): Ninova düşer (Yeni Asur'un sonu | None | Grayson, ABC 3 (Fall of Nineveh Chronicle), 14. yıl, Livius çevirisi okundu; TDV 'Ninevâ'  |
+| 164 | Neo-Babylonian | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -0625-01-01 — Yeni Babil Devleti: Yeni Babil: Nabopolassar tahta çıkar | None | Grayson, ABC 2 (Livius sayfasında alıntılanan giriş), TDV Babil — «Nabû-apla-usur sat upon |
+| 165 | Kaldean Babil | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -0625-01-01 — Yeni Babil Devleti: Yeni Babil: Nabopolassar tahta çıkar | None | Grayson, ABC 2 (Livius sayfasında alıntılanan giriş), TDV Babil — «Nabû-apla-usur sat upon |
+| 166 | Jebel Barkal | 1 | — | koordinat yok | Pleiades: 'Jebel Barkal' için 2 sonuç, referans yok — seçilmedi | yok | — | -1499-01-01 — Napata (Cebel Barkal): başlar | None | Peeters J, Winkels TG, Wolf P, Skuldbøl TBB, Chamberlain EL, Büchner-Matthews S, Elamin SM |
+| 167 | Pre-Kerma | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -3499-01-01 — Ön-Kerma (Pre-Kerma) kültürü: başlar | None | Le Moyne C, Roberts P, Hua Q, Bleasdale M, Desideri J, Boivin N, Crowther A. 2023. Ecologi |
+| 168 | Marchfeld | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1260-07-12 — Kressenbrunn (Groißenbrunn) Savaşı: II. Ottokar Macarları yendi, Béla  | ['macaristan', 'avusturya-dukaligi'] | ADB 24 'Přemysl Otakar II.' — deutsche-biographie.de/sfz74566.html — «Die Niederlage, welc |
+| 169 | Doğu Tirol | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1500-04-12 — Görz Kontu Leonhard Lienz'de öldü: Görz mülkleri (Lienz ve Doğu Tirol) | ['almanya', 'avusturya', 'habsburg'] | NDB 'Leonhard, Graf von Görz' (deutsche-biographie.de/sfz57427.html): «† 12.4.1500 Lienz»; |
+| 170 | Szászsebes (Sebeş) | 1 | 45.9593, 23.5714 | PLEİADES, TEK SONUÇ | Pleiades https://pleiades.stoa.org/places/207436 (Sebeş) | yok | — | 1540-07-22 — Szapolyai János'un ölümü — Budin sorunu ve Macaristan'ın bölünmesinin  | None | bulunamadı (TDV) — en.wikipedia «John Zápolya» · Explore Carpathia «Zápolya House, Sebeș» |
+| 171 | Dravsko polje | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1555-01-01 — Ptuj (Pettau) Salzburg'dan geri alınıp Habsburg Steiermark'ına katıldı | None | bulunamadı (TDV) — Hrvatska enciklopedija «Ptuj» (enciklopedija.hr) · en.wikipedia «Ptuj»  |
+| 172 | Majtény | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1711-04-29 — Szatmár Barışı — Rákóczi hürriyet savaşı sona erdi, Erdel Habsburg ida | None | TDV İslâm Ansiklopedisi, 'Macaristan', islamansiklopedisi.org.tr/macaristan — «ayaklanma 1 |
+| 173 | Világos (Şiria) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1849-08-13 — Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı | None | bulunamadı (TDV) — honvedelem.hu «Surrender at Világos» · en.wikipedia «Surrender at Világ |
+| 174 | Buda | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/206995 (Budalia) | yok | Pleiades sonucu reddedildi: Pleiades Budalia'yı (Sirmium yöresi) verdi; Buda = Budin (atlas: Aquincum-Óbuda-Pest) | 1867-02-17 — Macar anayasal hükûmeti yeniden kuruldu — Andrássy Gyula başbakan | None | bulunamadı (TDV) — hu.wikipedia «Kiegyezés» · habsburger.net «Austro-Hungarian Dual Monarc |
+| 175 | Buda (Matthias Kilisesi) | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/206995 (Budalia) | yok | Pleiades sonucu reddedildi: Pleiades Budalia'yı verdi; yapı, Budin'de | 1867-06-08 — Franz Joseph ve Elisabeth Buda'da Macaristan kralı ve kraliçesi olarak | None | bulunamadı (TDV) — habsburger.net «Coronation of the Hungarian royal couple» · khm.at «Cor |
+| 176 | Kerkyra | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -0228-01-01 — Roma Illyria'ya ilk sefer: Korkyra Roma'ya teslim oldu | Roma Cumhuriyeti; Illyria Krallığı | Polybios, Historiai 2.11 (Perseus 1999.01.0234) — «B. C. 229, The Roman Consuls, with flee |
+| 177 | Belgica Prima (Ren) | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/50291 (Syrastrene) | yok | Pleiades sonucu reddedildi: Pleiades Syrastrene'yi (Hindistan) verdi; Belgica Prima Roma eyaletidir, yerleşim değil | 0437-01-01 — Aetius Burgund krallığını yendi; Kral Gundikar öldü | Roma (Aetius) – Burgundlar | Treccani, Enciclopedia Italiana 'Burgundi' (treccani.it/enciclopedia/burgundi_(Enciclopedi |
+| 178 | Sapaudia (Cenevre Gölü çevresi) | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/167911 (Sapaudia) | yok | Pleiades sonucu reddedildi: Pleiades bölge kaydı; yerleşim değil | 0443-01-01 — Burgundlar Roma izniyle Sapaudia'ya yerleşti | Roma (Aetius) – Burgundlar | Treccani, Enciclopedia Italiana 'Burgundi' — «nel 443, ottennero il permesso di insediarsi |
+| 179 | Khalkis (Euboia) | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/491593 (Euboia/Dausara) | yok | Pleiades sonucu reddedildi: Pleiades Makedonya'daki Euboia/Dausara'yı verdi; Euboia Khalkis'i = Eğriboz | -0505-01-01 — Atina Khalkis ve Boiotia'ya karşı kazandı, Khalkis'e kleruchia kurdu | Atina; Khalkis, Boiotia | Herodotos 5.77 |
+| 180 | Elea (Lucania) | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/530860 (Elea) | yok | Pleiades sonucu reddedildi: Pleiades Epiros'taki Elea'yı verdi; Lucania Elea'sı = Velia (konum4_yaz.py hedefli sorgu) | -0544-01-01 — Fokaialılar Elea (Velia) kurdu | Fokaia sürgünleri | Herodotos 1.167; Strabon 6.1.1 |
+| 181 | Thyrea (Kynouria) | 1 | — | koordinat yok | Pleiades: 'Thyrea' sonuçları referanstan uzak ya da noktasız | yok | — | -0545-01-01 — Thyrea (Champions) Savaşı: Sparta Argos'u yendi, Kynouria Sparta'ya ka | Sparta; Argos | Herodotos 1.82; Cartledge 2002 |
+| 182 | Kirrha | 1 | 38.4296, 22.4456 | PLEİADES, TEK SONUÇ | Pleiades https://pleiades.stoa.org/places/540868 (Kirra) | yok | — | -0594-01-01 — Birinci Kutsal Savaş: Kirrha yıkıldı, Delphi Amfiktyonia denetimine gi | Amfiktyonia; Kirrha | Aischines 3.107-113; Parker, Historia 2002 |
+| 183 | Berezan | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | -0646-01-01 — Olbia/Berezan, Miletos tarafından kuruldu | Miletos | Eusebios; Hansen & Nielsen 2004 |
+| 184 | Olbia | 1 | — | koordinat yok | Pleiades: 'Olbia' için 5 sonuç, referans yok — seçilmedi | yok | — | -0646-01-01 — Olbia/Berezan, Miletos tarafından kuruldu | Miletos | Eusebios; Hansen & Nielsen 2004 |
+| 185 | Hysiai (Argolis) | 1 | — | koordinat yok | Pleiades: 'Hysiai' için 3 sonuç, referans yok — seçilmedi | yok | — | -0668-01-01 — Hysiai Savaşı: Argos Pheidon yönetiminde Sparta'yı yendi | Argos (Pheidon); Sparta | Pausanias 2.24.7 |
+| 186 | Lokroi (Bruttium) | 1 | — | koordinat yok | Pleiades: 'Lokroi' için 5 sonuç, referans yok — seçilmedi | yok | — | -0672-01-01 — Lokroi Epizephyrioi (Güney İtalya) kuruldu | Lokris kolonistleri | Strabon 6.1.7; Eusebios |
+| 187 | Rhegion | 1 | — | koordinat yok | Pleiades: 'Rhegion' için 2 sonuç, referans yok — seçilmedi | yok | — | -0731-01-01 — Rhegion kuruldu | Khalkis ve Messenia göçmenleri | Strabon 6.1.6 |
+| 188 | Korkyra | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/197340 (Korkyra Melaina) | yok | Pleiades sonucu reddedildi: Pleiades Korkyra Melaina'yı (Korčula) verdi; madde Korint kolonisi Korkyra = Korfu | -0732-01-01 — Korkyra (Kerkyra), Korintliler tarafından kuruldu | Korint (Khersikrates) | Strabon 6.2.4; Plutarkhos Quaest. Graec. 11 |
+| 189 | Gadir | 1 | — | koordinat yok | Pleiades: 'Gadir' için 2 sonuç, referans yok — seçilmedi | yok | — | -0799-01-01 — Gadir (Cádiz) Fenikelilerce kuruldu | Tyros | Velleius Paterculus 1.2.3; Aubet, The Phoenicians and the West (2001) |
+| 190 | Söğüt-Bursa | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1320-01-01 — Orhan Bey'in fiilî yönetimi devralması | None | osmanlilar |
+| 191 | Babaeski | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1360-01-01 — Edirne'nin yardım yollarının kesilmesi: Çorlu, Lüleburgaz, Babaeski ve | None | murad-i · luleburgaz |
+| 192 | Milas-Muğla-Denizli (Menteşe) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1390-01-01 — Batı Anadolu beyliklerinin ilhakı: Saruhan, Aydın, Menteşe | None | saruhanogullari |
+| 193 | Muğla-Milas-Balat-Datça-Marmaris-Fethiye (Menteşe) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1425-06-01 — Batı Anadolu beyliklerinin yeniden ilhakı: Menteşe ve Aydın | None | aydinogullari · menteseogullari |
+| 194 | Szapolyai'ye bağlı yerler: Aquincum-Óbuda-Pest (Budin) | 1 | — | koordinat yok | Pleiades: 'Budin' sonuçları referanstan uzak ya da noktasız | yok | — | 1526-11-10 — János Szapolyai Macar kralı seçildi — Osmanlı, krallığını tâbi olması  | None | suleyman-i (TDV): 'Macar soyluları … János Szapolyai’yi kral seçmişlerdi (10 Kasım 1526).  |
+| 195 | Dömeke | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1897-05-17 — Dömeke Meydan Muharebesi | None | yunanistan |
+| 196 | Kût | 1 | — | koordinat yok | Pleiades: 'Kût' sonuçları referanstan uzak ya da noktasız | yok | — | 1916-04-29 — Kûtülamâre Zaferi | None | kutulamare |
+| 197 | Kuleli Burgaz (Pythion) | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/491705 (Pythion) | yok | Pleiades sonucu reddedildi: Pleiades Tesalya'daki Pythion'u verdi; Kuleli Burgaz Trakya'da, Dimetoka yöresi kalesi | 1361-01-01 — Dimetoka'nın alınışı — Meriç vadisinin açılması | None | dimetoka · murad-i · haci-ilbey |
+| 198 | Bileća | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1388-08-27 — Bileća yenilgisi | None | bosna-hersek |
+| 199 | İzladi geçidi | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1443-11-24 — İzladi bozgunu — 'Uzun Sefer' | None | murad-ii |
+| 200 | Galata sırtları | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1453-04-22 — Gemiler karadan Haliç'e indirildi | None | istanbulun-fethi |
+| 201 | Lovçen eteği | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1482-01-01 — Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu | None | karadag |
+| 202 | Kalûgerân (Călugăreni) | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/216745 (Călugăreni) | yok | Pleiades sonucu reddedildi: Pleiades Erdel'deki Călugăreni'yi verdi; 1595 savaşı Eflak'ta (Giurgiu yöresi) | 1595-08-23 — Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi | None | eflak |
+| 203 | Neajlov bataklığı | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1595-08-23 — Kalûgerân Muharebesi — Koca Sinan Paşa'nın Eflak seferi | None | eflak |
+| 204 | kuzey Boğdan | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1713-06-24 — Hotin'in Boğdan'dan koparılması — voyvodalığın ortasında doğrudan Osma | None | hotin |
+| 205 | Toplice | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1433-01-01 — Toplice bölgesi (Kurşunlu, Ürküp) Osmanlı hâkimiyetine girdi | None | leskofca |
+| 206 | Şıpka Geçidi | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1877-07-19 — Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması | None | doksanuc-harbi |
+| 207 | Balkan (Stara Planina) dağları | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1877-07-19 — Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması | None | doksanuc-harbi |
+| 208 | Erzurum-Aziziye tabyaları | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1877-11-18 — Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları | None | doksanuc-harbi |
+| 209 | Kumanova | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1912-10-23 — Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selân | None | balkan-savasi |
+| 210 | Rodoplar | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1912-10-20 — Rodoplar'da Kırcaali Müfrezesi bozuldu, Kırcaali düştü | None | Sinan Koçak, 'Bulgar Yazar İvan Lesiçkof'un Gözünden Balkan Harbinde Kırcaali Müfrezesi',  |
+| 211 | Morača ile Ribnica'nın kavuştuğu yer | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1457-01-01 — Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim a | None | podgorica |
+| 212 | Hodidjed | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1448-01-01 — Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması | None | saraybosna |
+| 213 | orta Bosna | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1448-01-01 — Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması | None | saraybosna |
+| 214 | batı Bosna | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1469-01-01 — Livno ve batı Bosna'nın kesin ilhakı — Venedik sınırının kurulması | None | livno |
+| 215 | kuzeydoğu Bosna | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1512-01-01 — Srebrenik banatlığının ilhakı — kuzey Bosna'da Macar hattının ilk kırı | None | bosna-hersek |
+| 216 | İpsili (Sisam karşısı) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1426-01-01 — Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu | None | cuneyd-bey |
+| 217 | Aydın-ili | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1426-01-01 — Cüneyd Bey ve ailesinin idamı — Aydınoğulları Beyliği'nin sonu | None | cuneyd-bey |
+| 218 | Fethâbâd | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1747-06-20 — Nâdir Şah'ın öldürülmesi — Afşar hâkimiyetinin dağılışı | None |  |
+| 219 | çevre adalar | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1537-01-01 — Barbaros'un Ege adaları seferi — Nakşa Dükalığı Osmanlı kontrolüne gir | None | TDV naksa AYNEN: 'Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hay |
+| 220 | Bornu | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1900-04-22 — Râbih b. Zübeyr Fransızlara yenilip öldürüldü — Bornu'daki hâkimiyeti  | None | TDV bornu AYNEN: '… Râbih 1900'de Fransız sömürge ordusu tarafından mağlûp edilerek öldürü |
+| 221 | Eyüp | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1580-01-01 — Zal Mahmud Paşa Camii'nin tamamlanması | None | zal-mahmud-pasa-kulliyesi |
+| 222 | İstanbul-Tebriz-Bağdat güzergâhı | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1534-01-01 — Matrakçı Nasuh'un Irakeyn seferi güzergâhını Beyân-ı Menâzil'de resmet | None | matrakci-nasuh |
+| 223 | Galatasaray | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1839-05-14 — Tıp okulunun Mekteb-i Tıbbiyye-i Adliyye-i Şâhâne adını alması | None | mekteb-i-tibbiyye |
+| 224 | Kasımpaşa-Şişli arası | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1453-06-01 — Fatih Sultan Mehmed'in Okmeydanı'nı okçulara tahsis etmesi | None | okmeydani |
+| 225 | Kadırga | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1833-06-01 — Feshâne-i Âmire'nin kuruluşu | None | feshane |
+| 226 | Tahtakale | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1554-06-01 — İstanbul'da ilk kahvehanelerin açılması | None | kahvehane |
+| 227 | Osmanlı vilayetleri (Tuna Vilayeti öncü uygulama) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1864-06-01 — 1864 Vilâyet Nizamnâmesi ile muhtarlık ve ihtiyar meclisi sisteminin d | None | muhtar |
+| 228 | Sarayburnu | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1478-09-01 — Topkapı Sarayı'na taşınıldı | None | topkapi-sarayi |
+| 229 | Tophane sırtları | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1577-01-01 — İstanbul Rasathanesi kuruldu | None | takiyyuddin-er-rasid |
+| 230 | Osnabrück | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1648-10-24 — Vestfalya Barışı — Otuzyıl savaşları sona erdi, Kutsal Roma'nın birliğ | None | almanya |
+| 231 | Kosmidion | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1410-06-15 — Kosmidion Savaşı | None | musa-celebi |
+| 232 | Parkan | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1683-10-09 — Parkan bozgunu ve Estergon'un kaybı | None | estergon |
+| 233 | Akropolis | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/278163592 (Akropolis of Klazomenai) | yok | Pleiades sonucu reddedildi: Pleiades Klazomenai akropolisini verdi; madde Atina Akropolisi (yapı) | 1687-09-26 — Atina'nın kaybı ve Parthenon patlaması | None | atina |
+| 234 | Salankamen | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1691-08-19 — Salankamen bozgunu — Fâzıl Mustafa Paşa şehit | None | ölçülemedi — TDV gövdesi ALINAMADI: fazil-mustafa-pasa 2.369 kar.; koprulu-ailesi · petrov |
+| 235 | Ulaş | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1696-08-27 — Ulaş (Olaşin) zaferi | None | mustafa-ii |
+| 236 | Zenta | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1697-09-11 — Zenta bozgunu — savaşın kaderi belirlendi | None | zenta-savasi |
+| 237 | Safra geçidi | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1812-01-01 — Safra-Cedîde boğazında ilk bozgun | None | vehhabilik (TDV, Safra'yı anmaz) · V. B. Lutsky, Modern History of the Arab Countries (196 |
+| 238 | Bisel | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1815-01-20 — Bisel Muharebesi: Suûdî kuvvetleri bozguna uğradı | None | vehhabilik |
+| 239 | Missolonghi | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1826-04-22 — Missolonghi (Mesolongi) düştü | None | resid-mehmed-pasa |
+| 240 | Amanoslar | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1832-07-29 — Belen (Beylan) Geçidi bozgunu — Çukurova açıldı | None | adana |
+| 241 | Hünkâr İskelesi | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1833-07-08 — Hünkâr İskelesi Antlaşması | None | hunkar-iskelesi-antlasmasi |
+| 242 | Halil | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1834-05-19 — Filistin-Nablus isyanı Mısır idaresine karşı | None | suriye |
+| 243 | Cebel-i Dürûz | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1837-10-15 — Cebel-i Dürûz ayaklanması | None | lubnan |
+| 244 | Nizip | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1839-06-24 — Nizip Muharebesi — Osmanlı ordusu dağıldı | None | kavalali-mehmed-ali-pasa |
+| 245 | Koyunhisar | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1302-07-27 — Koyunhisar (Bapheus) Savaşı — Bizans ordusuna karşı ilk büyük zafer | None | osman-i |
+| 246 | Yanbolu (Yambol) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1410-02-13 — Yanbolu Savaşı — Mûsâ Çelebi Edirne'ye girdi | None | musa-celebi |
+| 247 | İnceğiz | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1412-10-01 — İnceğiz Savaşı — Çelebi Mehmed'in ilk Rumeli yenilgisi | None | fetret-devri |
+| 248 | Teke ili | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1423-01-01 — Tekeoğulları'nın kesin tasfiyesi: Antalya'nın alınışı | None | tekeogullari |
+| 249 | Drivasto | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1478-06-15 — Akçahisar'ın (Kruja) fethi ve Arnavutluk'un tamamlanması | None | arnavutluk |
+| 250 | Castel Capuana | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1495-02-25 — Cem Sultan'ın ölümü — on dört yıllık rehinenin sonu | None | cem-sultan |
+| 251 | Mora'nın güneybatısı | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1499-08-28 — Sapienza (Zonchio) Deniz Zaferi — Akdeniz'de ilk büyük donanma başarıs | None | inebahti |
+| 252 | Dede Garkın sahrası | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1516-05-01 — Koçhisar (Kızıltepe) Savaşı — Kara Han'ın yenilgisi | None | mardin |
+| 253 | Gökmeydan | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1516-08-29 — Halep Gökmeydan'da Abbâsî Halifesi III. Mütevekkil ile görüşme | None | selim-i |
+| 254 | Terrûce | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1517-03-30 — Son Memlük sultanı Tomanbay'ın Terrûce'de yakalanması | None | tomanbay |
+| 255 | Aşağı Mısır | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1517-03-30 — Son Memlük sultanı Tomanbay'ın Terrûce'de yakalanması | None | tomanbay |
+| 256 | Bâbüzüveyle | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1517-04-13 — Tomanbay'ın Bâbüzüveyle'de idamı ve Memlük Devleti'nin sonu | None | tomanbay |
+| 257 | Serav (Serâb) | 1 | — | koordinat yok | Pleiades: 'Serâb' için 2 sonuç, referans yok — seçilmedi | yok | — | 1618-09-26 — Serav Antlaşması — İran'la barışın yenilenmesi | None | osman-ii |
+| 258 | Sen Gotar | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1664-08-01 — Sen Gotar (St. Gotthard) Muharebesi | None | vasvar-antlasmasi |
+| 259 | Raab (Rába) nehri kıyısı | 1 | — | koordinat yok | Pleiades: 'Rába' için 8 sonuç, referans yok — seçilmedi | yok | — | 1664-08-01 — Sen Gotar (St. Gotthard) Muharebesi | None | vasvar-antlasmasi |
+| 260 | Vasvár | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1664-08-09 — Vasvar Antlaşması | None | vasvar-antlasmasi |
+| 261 | Yaş yakınları | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1711-07-21 — Prut Antlaşması — Azak ve Taygan'ın geri alınması | None | prut-antlasmasi |
+| 262 | Sirem | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1716-08-05 — Varadin (Petrovaradin) Bozgunu — Damad Ali Paşa'nın şehâdeti | None | varadin |
+| 263 | Versec | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1552-07-27 — Temeşvar'dan gönderilen kuvvetlerin Güney Banat palankalarını tutması  | None | Bánlaky József, A magyar nemzet hadtörténelme (MEK 09477) 0013/1005 — 'a Temesvár alól kik |
+| 264 | Facset | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1552-07-27 — Temeşvar'dan gönderilen kuvvetlerin Güney Banat palankalarını tutması  | None | Bánlaky József, A magyar nemzet hadtörténelme (MEK 09477) 0013/1005 — 'a Temesvár alól kik |
+| 265 | Mehádia | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1552-07-27 — Temeşvar'dan gönderilen kuvvetlerin Güney Banat palankalarını tutması  | None | Bánlaky József, A magyar nemzet hadtörténelme (MEK 09477) 0013/1005 — 'a Temesvár alól kik |
+| 266 | Csákóvár | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1552-07-27 — Temeşvar'dan gönderilen kuvvetlerin Güney Banat palankalarını tutması  | None | Bánlaky József, A magyar nemzet hadtörténelme (MEK 09477) 0013/1005 — 'a Temesvár alól kik |
+| 267 | Hisarcık (Grocka) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1739-07-22 — Hisarcık (Grocka) Zaferi — Belgrad yolunun açılması | None | belgrad |
+| 268 | Kerden | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1746-09-04 — Kerden Antlaşması — Osmanlı-İran savaşlarının sonu | None | osmanlilar |
+| 269 | Kozluca | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1774-06-25 — Kozluca Bozgunu — Küçük Kaynarca'ya giden yenilgi | None | kucuk-kaynarca-antlasmasi |
+| 270 | Bukovina | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1775-05-07 — Bukovina'nın (Kuzey Boğdan) Avusturya'ya terki | None | hotin |
+| 271 | Kuzey Boğdan | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1775-05-07 — Bukovina'nın (Kuzey Boğdan) Avusturya'ya terki | None | hotin |
+| 272 | Aynalıkavak Kasrı | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1779-03-10 — Aynalıkavak Tenkihnâmesi — Kırım üzerine geçici uzlaşma | None | kirim |
+| 273 | Maçka | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1834-07-01 — Mekteb-i Harbiye'nin Maçka Kışlası'nda kurulması | None | osmanlilar |
+| 274 | Baltalimanı | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1849-05-01 — Baltalimanı Sözleşmesi: Eflak ve Boğdan'da ortak Osmanlı-Rus himayesi | None | eflak |
+| 275 | Fethülislâm | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1867-04-18 — Belgrad ve Sırbistan kalelerindeki son Osmanlı garnizonlarının çekilme | None | sirbistan |
+| 276 | Ayastefanos (Yeşilköy) | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1878-03-03 — Ayastefanos Antlaşması: Büyük Bulgaristan tasarısı | None | ayastefanos-antlasmasi |
+| 277 | Uşi (Ouchy) | 1 | — | koordinat yok | Pleiades https://pleiades.stoa.org/places/324841 (Usil(l)a/Usula) | yok | Pleiades sonucu reddedildi: Pleiades Usil(l)a'yı (Tunus) verdi; Ouchy = Lozan'ın liman semti | 1912-10-18 — Uşi Antlaşması: Trablusgarp ve Bingazi'nin İtalya'ya terki | None | trablusgarp · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): https://islamansiklopedisi.org.t |
+| 278 | Çarşıkapı | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1913-06-11 — Sadrazam Mahmud Şevket Paşa'nın İstanbul'da suikastle öldürülmesi | None | mahmud-sevket-pasa |
+| 279 | Novigrad | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1544-09-01 — Budin'in kuzey ve batı savunma kuşağı: Vaç, Hatvan ve Şimontorna | None | budin |
+| 280 | Slavonya | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1536-01-01 — Gazi Hüsrev Bey'in Sava boyu harekâtı: Bosna Brodu ve Jasenovaç | None | gazi-husrev-bey |
+| 281 | Tuna-Tisza arası | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1543-01-01 — Segedin'in Osmanlı idaresine girmesi ve Segedin livâsının teşkili | None | segedin |
+| 282 | Kikladlar | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1566-04-15 — Nakşa Dukalığı'nın ilhakı — Kiklad Adaları'nın tamamı | None | venedik |
+| 283 | Gürcistan-Karabağ | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1606-01-01 — Tiflis ve Gence'nin kaybı | None | sirvan |
+| 284 | Doğu Arabistan | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1670-01-01 — Lahsa'nın Benî Hâlid Emirliği'ne kaybı | None | lahsa |
+| 285 | Tisa boyu | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1685-10-12 — Solnok'un kaybı — Tisa hattının çözülmesi | None | macaristan |
+| 286 | Tisa-Maros kavşağı | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1686-10-23 — Segedin'in kaybı | None | macaristan |
+| 287 | Kırışan (Körös) havzası | 1 | — | koordinat yok | Pleiades: 'Körös' sonuçları referanstan uzak ya da noktasız | yok | — | 1692-06-05 — Varad'ın kaybı | None | varad |
+| 288 | Turla (Dinyester) boyu | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1770-09-27 — Bender'in Ruslara kaybı | None | akkirman |
+| 289 | Zibân vahaları | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1844-03-04 — Biskra'nın işgali — Sahra kapısının kaybı | None | cezayir |
+| 290 | Abalar köyü | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1512-06-10 — II. Bayezid'in Dimetoka yolunda ölümü | None | bayezid-ii |
+| 291 | Yedikule | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1622-05-20 — Genç Osman'ın yeniçeriler tarafından katledilmesi (Hâile-i Osmâniye) | None | osman-ii |
+| 292 | imparatorluk geneli | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1633-10-01 — IV. Murad'ın tütün ve kahvehane yasağı | None | murad-iv |
+| 293 | Tersane-i Amire | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1645-04-01 — Girit Seferi'nin divanda kararlaştırılması ve donanmanın yola çıkışı | None | girit |
+| 294 | Sultanahmet Meydanı | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1656-03-04 — Çınar Vak'ası (Vak'a-i Vakvakiye) | None | cinar-vakasi |
+| 295 | sürgün: Kıbrıs | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1656-10-01 — Kadızadeliler hareketinin Köprülü Mehmed Paşa tarafından bastırılması | None | kadizadeliler |
+| 296 | Yavuz Selim | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1727-07-01 — İbrahim Müteferrika'ya matbaa kurma izni | None | ibrahim-muteferrika |
+| 297 | Tersane | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1772-10-01 — Baron de Tott öncülüğünde kısa ömürlü topçuluk okulu denemesi | None | muhendishane-i-bahri-i-humayun |
+| 298 | Sîdî Ferruc | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1830-06-14 — Sîdî Ferruc çıkarması — Fransız ordusu Cezayir toprağında | None | cezayir |
+| 299 | taşra | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1834-07-08 — Redif-i Asâkir-i Mansûre teşkilatı kuruldu | None | redif--ordu |
+| 300 | Gedikpaşa Tiyatrosu | 1 | — | koordinat yok | Pleiades sonuç yok | yok | — | 1873-04-01 — "Vatan yahut Silistre" sahnelendi, Nâmık Kemal sürgüne gönderildi | None | namik-kemal |

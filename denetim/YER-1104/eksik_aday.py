@@ -137,7 +137,19 @@ PLEIADES_RED = {"Ithome (Messene)": "Pleiades Tesalya'daki Ithome'u verdi; madde
                 "Berka": "Pleiades antik Barke'yi (Libya) verdi; madde bağlamı teyit edilmeli",
                 "Hisarlık": "Pleiades Hisarlıkaya'yı verdi; Hisarlık = Troia (Çanakkale) — Pleiades 'Ilion' ile ara",
                 "Kadeş": "Pleiades Celile'deki Kadasa'yı verdi; maddelerde Kadeş (Orontes, Suriye) kastediliyor olabilir",
-                "Hallstatt C": "dönem adı (Hallstatt C evresi), yerleşim değil"}
+                "Hallstatt C": "dönem adı (Hallstatt C evresi), yerleşim değil",
+                # parti 4 (referanssız Pleiades sonuçları — elle denetim)
+                "Buda": "Pleiades Budalia'yı (Sirmium yöresi) verdi; Buda = Budin (atlas: Aquincum-Óbuda-Pest)",
+                "Buda (Matthias Kilisesi)": "Pleiades Budalia'yı verdi; yapı, Budin'de",
+                "Belgica Prima (Ren)": "Pleiades Syrastrene'yi (Hindistan) verdi; Belgica Prima Roma eyaletidir, yerleşim değil",
+                "Sapaudia (Cenevre Gölü çevresi)": "Pleiades bölge kaydı; yerleşim değil",
+                "Khalkis (Euboia)": "Pleiades Makedonya'daki Euboia/Dausara'yı verdi; Euboia Khalkis'i = Eğriboz",
+                "Elea (Lucania)": "Pleiades Epiros'taki Elea'yı verdi; Lucania Elea'sı = Velia (konum4_yaz.py hedefli sorgu)",
+                "Korkyra": "Pleiades Korkyra Melaina'yı (Korčula) verdi; madde Korint kolonisi Korkyra = Korfu",
+                "Kuleli Burgaz (Pythion)": "Pleiades Tesalya'daki Pythion'u verdi; Kuleli Burgaz Trakya'da, Dimetoka yöresi kalesi",
+                "Kalûgerân (Călugăreni)": "Pleiades Erdel'deki Călugăreni'yi verdi; 1595 savaşı Eflak'ta (Giurgiu yöresi)",
+                "Akropolis": "Pleiades Klazomenai akropolisini verdi; madde Atina Akropolisi (yapı)",
+                "Uşi (Ouchy)": "Pleiades Usil(l)a'yı (Tunus) verdi; Ouchy = Lozan'ın liman semti"}
 YAZIMA = {"Pelusium": "Feremâ", "Ix-Xagħra": "Xagħra (Brochtorff Çemberi)", "Hüfûf": "Lahsa", "Cirta (Konstantine)": "Konstantin",
           "Karkemiş": "Cerablus (yakın ama ayrı höyük — KASA karar)"}
 
