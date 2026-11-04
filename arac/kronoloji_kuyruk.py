@@ -52,6 +52,12 @@ ISARETLE = [
 ]
 # Metin düzeltmeleri (tarih kalır; koordinatör kararı, EMRELİC 1 KASIM, 4 Kasım 2026).
 METIN = [
+    ("L2-1253", "Mısır 1876: kurum «Düyûn-ı Umûmiyye» değil «Düyûn-ı Umûmiyye Sandığı» (Caisse de la Dette, Mayıs 1876; TDV «Mısır»); «Düyûn-ı Umûmiyye» Osmanlı'nın 1881 Muharrem Kararnamesi kurumu"),
+    ("L2-1387", "Diû kuşatması 1538: atlas 26 Haziran–6 Kasım (~4,3 ay); TDV «üç ay süren kuşatma» → süre ifadesi TDV'ye uydurulur"),
+    ("L2-1179", "Mysore roketleri 1780: «Tîpû Sultan'ın ordusunda» anakronik (Tîpû 1782'de sultan; 1780 Haydar Ali dönemi) → «Haydar Ali / Mysore ordusunda»"),
+    ("L2-1198", "Liptako: TDV'ye göre kurucu Birmali Sala Pate; 1810 Brahima'nın Dori zaferi; TDV Gwandu'yu anmıyor → tâbiiyet iddiası «[olay kaynakta yok]»"),
+    ("L2-1176", "Pontianak: TDV «Borneo» sultanlığın kuruluşunu 1772 veriyor; 1778-08-31 «taç giyme» TDV'de yok → yıl ve olay ic_not'ta beyan"),
+    ("L2-1365", "Agadez: aynı olay iki kayıt (devletler.js:3493 ve 9373) → mükerrer; yıl 1500 / 1501-2 / 1515-16 çelişkisi (yalnız akademik olmayan özet)"),
     ("L2-435", "Paris Antlaşması onayı 1899-02-06: oy «52-27» → «57-27» (Voteview Senato kaydı, birincil)"),
     ("L2-447", "Basra işgali: atlas 22 Kasım, 1914-1918-online (Çetinsaya) 23 Kasım 1914 → çelişki ic_not'a; Fâv 6 Kasım 1914 okundu; TDV bulunamadı"),
     ("L2-434", "[BEKLE — tek, akademik olmayan kaynak] «silah bırakmak üzere toplananları katletti» kaynaklı değil; kaynaklarda Ambiky'nin top ateşiyle alınması ve Toera'nın öldürülmesi var"),
