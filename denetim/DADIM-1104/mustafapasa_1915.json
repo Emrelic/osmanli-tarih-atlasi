@@ -1,0 +1,24 @@
+{
+ "soru1_1913": {
+  "hukum": "Mustafapasa (Cisr-i Mustafa Pasa kaza merkezi) 29 Eylul 1913 Istanbul Antlasmasi ile Bulgaristan'a birakildi; kazanin yalniz bir kismi, ancak kaza merkezi dahil. Kazanin geri kalani 1915'te verildi.",
+  "kaynak": "Tarik Sarioglu, '19. Yuzyilin Son Ceyreginde Cisr-i Mustafa Pasa Kazasinin Idari Yapisi (1875-1900)', hakemli makale (PDF: ttk.gov.tr/wp-content/uploads/2024/06/80-TarikSarioglu.pdf; dergi/cilt kunyesi okunamadi); dn.27 Halacoglu 'Cisr-i Mustafa Pasa' s.34 ve Akin agm. s.2179. Ikincil: Spectator 20 Eylul 1913 (Mustapha Pasha Bulgaristan'a; Dimotika/Edirne Osmanli'da).",
+  "alinti": "Savas sonrasinda 29 Eylul 1913'te imzalanan Istanbul Antlasmasi ile bolgenin kaza merkezi dahil bir kismi, Bulgaristan'a birakilmistir. [Sarioglu]"
+ },
+ "soru2_1915": {
+  "imza_gunu": "1915-09-06, Sofya (Turkiyat Mecmuasi makalesi: '6 Eylul 1915'de Sofya'da imzalanan'; Wikipedia 24 Agustos O.S. = 6 Eylul)",
+  "teslim_gunu": "bulunamadi (okunan kaynaklarin hicbiri fiili devir gunu vermiyor)",
+  "devredilen_yerler": "Meric Nehri uzerinde duzenleme (sol/bati yaka seridi, kaynaga gore 1,5-2 km); demiryolu hattinin gectigi Karaagac ve Dimetoka; Sarioglu'na gore Cisr-i Mustafa Pasa bolgesinin tamami. Enez Osmanli'da kaldi. Dimetoka'nin kasaba olarak tamami mi, yalniz demiryolu seridi mi gectigi belirsiz.",
+  "kaynak": "(a) Turkiyat Mecmuasi 29, 'Milli Mucadele' Ozel Sayisi (2019): 127-150, DOI 10.26650/iuturkiyat.655554 (yazar adi okunamadi, 'Aleks...'), dergipark.org.tr/en/download/article-file/874166; dipnotlar: Biyiklioglu, Trakya'da Milli Mucadele I (TTK 1987) s.103-107; Dabrov (2005); Yigit, Bilig 63 (2012) s.273-277. (b) Sarioglu makalesi. (c) Wikipedia 'Bulgarian-Ottoman convention (1915)' yalniz yardimci.",
+  "alinti": "6 Eylul 1915'de Sofya'da imzalanan Osmanli-Bulgar Hudut Tashihi Antlasmasi ile Meric Nehri uzerindeki bazi duzenlemeler ve demiryolu hattinin gectigi Karaagac ve Dimetoka'nin Bulgaristan'a terki idi. [Turkiyat Mecmuasi 29]; ... Cisr-i Mustafa Pasa bolgesinin tamami Bulgaristan'a verilmistir. [Sarioglu]"
+ },
+ "etkilenen_yerler": [
+  "Cisr-i Mustafa Pasa / Svilengrad (kaza merkezi) - 1913-09-29 Bulgaristan",
+  "Cisr-i Mustafa Pasa kazasinin kalan kismi - 1915 Bulgaristan",
+  "Karaagac (Edirne demiryolu istasyonu) - 1915 Bulgaristan",
+  "Dimetoka (Didymoteicho) - kaynaklara gore 1915'te terk, kapsam belirsiz",
+  "Meric sol yaka seridi 1,5-2 km",
+  "Enez - Osmanli'da kaldi"
+ ],
+ "oneri": "Atlasin Mustafapasa 1913-09-29 Bulgaristan kaydi Sarioglu ile destekleniyor; TDV Halacoglu yalniz 1915'i yazar, celiski degil kapsam farki (1913: kaza merkezi dahil kismen; 1915: bolgenin tamami). 'Merkez dahil' ifadesi tek akademik kaynakta; Spectator 1913 ayni yonde. 1915-09-06 imza gunu iki kaynakta teyitli, fiili teslim gunu bulunamadi: kirilma icin imza gunu 'teslim gunu teyitsiz' notuyla kalsin; teslim icin Biyiklioglu (TTK 1987 s.103-107) veya Yigit (Bilig 63, 2012) acilmali. Dimetoka'nin tamamini 1915'te Bulgaristan'a boyamadan once Yigit/Dabrov okunmali.",
+ "guven": "orta"
+}

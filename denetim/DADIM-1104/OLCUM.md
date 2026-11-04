@@ -661,6 +661,23 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Torun: Versay yürürlüğü 1920-01-10 mu, teslim 1920-01-18 mi?
   - Babū ve Himû: Cezire hattında Fransız işgali.
 
+## 28. Toruń ve Cezire hattı (EMRELİC, 4 Kasım 2026 gece-6; `karar33`)
+- **Toruń:** `s: polonya` 1920-01-18 (teslim günü).
+  - 01-10 ile 01-18 arasında Alman idaresi sürdü; `s: almanya` kalır, `isg` yazılmaz.
+  - Versay'ın yürürlüğe girdiği 1920-01-10 `ic_not`'a yazılır.
+  - Teslim günü kaynakta okunacak.
+- **Cezire hattı (Babū, Himû):** Levant kuralının uzantısı.
+  - 1919–21: `d: osmanli` + `isg fransa`.
+  - Ankara hattının güneyi: Fransız mandası künyesiyle `s:` 1921-10-20'den. 1923-09-29 `ic_not`'a yazılır.
+  - Kaynak Fransız fiilî idaresini daha geç gösterirse o gün alınır.
+  - Kuzey taraf: `s: tbmm` Fransız tahliyesinin fiilî gününden (Antep emsali).
+- **Mustafapaşa: sonuç (`mustafapasa_1915.json`, güven orta).**
+  - **1913:** `s: bulgaristan` 1913-09-29 kaydı **durur**. Sarıoğlu'nun hakemli makalesi (TTK PDF; Halaçoğlu s.34 ve Akın s.2179'a dayanıyor) "29 Eylül 1913'te imzalanan İstanbul Antlaşması ile bölgenin kaza merkezi dahil bir kısmı, Bulgaristan'a bırakılmıştır" diyor. Spectator'ın 1913-09-20 haberi ikincil destek veriyor. Antlaşma metni okunmadı.
+  - **TDV ile ilişki:** TDV'nin 1915'i kazanın kalan kısmı içindir. Kapsam farkıdır, çelişki değil.
+  - **1915:** Osmanlı-Bulgar Hudut Tashihi Antlaşması 1915-09-06'da Sofya'da imzalandı (Türkiyat Mecmuası 29, 2019, s.127-150, DOI 10.26650/iuturkiyat.655554). Devredilenler: Meriç'in batı yakasında dar şerit, Karaağaç, Dimetoka ve kazanın kalanı. Fiilî teslim günü bulunamadı.
+  - **Dimetoka:** kasabanın tamamının mı, yalnız demiryolu şeridinin mi devredildiği belirsiz. Yiğit (Bilig 63, 2012) ve Bıyıklıoğlu (TTK 1987) okunmadan boyanmaz.
+- **Mersin emsali uygulamaları** (Hanak, Posof, İmroz, Görice): EMRELİC uygun buldu.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
