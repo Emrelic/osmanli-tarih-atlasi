@@ -1,0 +1,37 @@
+# 2s açık kırılmalar: kaynak araştırması (HAVVA ajan 1, 4 Kasım 2026)
+
+Kapsam: Bölüm A'da KISMEN/BULUNAMADI satırlarından 25'i işlendi (TDV maddeleri WebFetch ile getirildi). Girdi # = Bölüm A tablosundaki # sütunu. İşlenmeyen satırlar en altta. Hiçbir veri dosyasına yazılmadı.
+
+| girdi # | kapattığı idx | önerilen gün | başlık | kaynak | alıntı | güven | not |
+|---|---|---|---|---|---|---|---|
+| A-7 | 98 | 1638 (teslim günü okunmadı) | Bağdat'ın IV. Murad'ca fethi | TDV "Bağdat" islamansiklopedisi.org.tr/bagdat | "15 Ekim 1638'de başlayıp kırk gün süren bir kuşatma" | YIL | Kuşatma başı 15 Ekim 1638, kırk gün sürdü; teslim günü sayfanın okunan kısmında yok (son ~21 bin karakter ve Osmanlı Dönemi bölümü ayrı okunmalı). Kuşatma başı ≠ teslim günü; atlas 12-24 doğrulanmadı. |
+| A-11 | 74 | 1516-08-24 | Mercidâbık Savaşı | TDV "Selim I" islamansiklopedisi.org.tr/selim-i | "24 Ağustos'ta Mercidâbık ovasında yapılan savaşta" | KAYNAKLI | TDV "Mercidâbık" maddesi yalnız 922 (1516) yılını veriyor; gün Selim I maddesinde. Yerleşimler (Arapkir, Behisni, Divriği, Eski Malatya) olayla doğrudan bağlı mı: kendim bağlamadım, not. |
+| A-12 | 40 | 1371-09-26 | Çirmen (Sırpsındığı) Savaşı | TDV "Murad I" islamansiklopedisi.org.tr/murad-i | "hıristiyan kaynakları doğru tarihi 26 Eylül 1371 şeklinde kaydeder" | KAYNAKLI | Gün Hıristiyan (Bizans/Sırp) kaynaklarına dayanıyor, TDV bunu doğru tarih sayıyor. Burgaz/Malak Dervent/Umur Fakih'in savaşa bağlılığı VERİ-ŞÜPHESİ, bağlanmadı. |
+| A-14 | 60 | (yok) | Çamurlu Savaşı | TDV "Çamurlu", "Musa Çelebi", "Fetret Devri" | (yok) | BULUNAMADI | TDV'de yalnız Fetret Devri 1402-1413; gün yok. 1413-07-05 doğrulanmadı. |
+| A-15 | (yok) | 1621-1622 (gün yok) | Hotin Seferi | TDV "Kara Davud Paşa", "Dilâver Paşa" | "Hotin seferine (1621-1622)" | BULUNAMADI | TDV'de Hotin seferi/antlaşması maddesi getirilemedi (slug'lar boş). Antlaşma günü bulunamadı. |
+| A-16 | 94 | 1622-04-23 | Hürmüz'ün Portekizlilerden alınması | TDV "Hürmüz" islamansiklopedisi.org.tr/hurmuz--iran | "geri alındı (23 Nisan 1622)" | KAYNAKLI | Bellekteki "Mayıs 1622" yanlış; TDV 23 Nisan. TDV İngilizlerin payını anmıyor. Kişm/Bender Abbas aynı güne mi bağlı: not. |
+| A-18 | 63 | 1453-05-29 | İstanbul'un Fethi | TDV "Mehmed II" islamansiklopedisi.org.tr/mehmed-ii | "elli dört gün süren İstanbul muhasarası" (6 Nisan-29 Mayıs 1453) | KAYNAKLI | Alonisos/Batnoz/Bozbaba/Boğaziçi aynı güne bağlı olmayabilir: VERİ-ŞÜPHESİ, bağlanmadı. |
+| A-19 | 72 | 1514-09-06 | Yavuz'un Tebriz'e girişi | TDV "Selim I" | "Tebriz'e girdi (16 Receb / 6 Eylül)" | KAYNAKLI | Refahiye'nin Tebriz'e girişle ilgisi şüpheli (Çaldıran öncesi/sonrası ayrı kaynak ister). |
+| A-20 | 73 | 1515-09-19 | Âmid (Diyarbekir) kalesinin alınması | TDV "Selim I" | "10 Şâban 921 / 19 Eylül 1515" | KAYNAKLI | Babū/Cibri/Cumai/Ḩīmū gibi yerleşimlerin Âmid'e bağı: not. |
+| A-21 | 75 | 1517-01-02 | Selim'in Gazze'ye girişi (Han Yunus galibiyeti haberi 26 Aralık 1516) | TDV "Selim I" | "8 Zilhicce 922'de (2 Ocak 1517) Gazze'ye girdi" | KAYNAKLI | Atlas 1516-12-21 ile uyuşmuyor; TDV'ye göre Han Yunus zaferinin haberi 26 Aralık 1516'da geldi. Refah için ayrı tarih bulunamadı: Refah'ı Gazze'ye bağlamak karar işi. |
+| A-22 | 77 | 1517-05-28 (ziyaret) | Selim'in İskenderiye'ye gidişi | TDV "Selim I" | "İskenderiye'ye kadar gitti (28 Mayıs)" | ÇELİŞKİ | Atlas 05-19; TDV 28 Mayıs sultanın gidişini tarihliyor, teslimi değil. Mısır'a ilişkin sağlam günler: Ridâniye 22 Ocak, Kahire girişi 15 Şubat 1517. Benhâ/Bilbîs/Bürüllüs/Demenhûr hangi güne bağlanır: karar gerekir. |
+| A-23 | 78 | 1517-07-06 | Hicaz'ın Osmanlı himayesine girişi | TDV "Selim I" | "Haremeyn'in himayesini resmen üstlendi (6 Temmuz)" | KAYNAKLI | Gün atlasla aynı. |
+| A-30 | 91 | (yok) | Çıldır Savaşı | TDV "Çıldır Savaşı" aramasından | (yok) | BULUNAMADI | Gün yok; yalnız Çıldır Eyaleti 1 Temmuz 1579 ("987") geçiyor, savaşı tarihlemiyor. 1578-08-09 doğrulanmadı. |
+| A-35 | 43 | 1382 (düğün; satın alma günü yok) | Hamid ilinin satın alınması | TDV "Murad I" | "satış vaadi üzerine Hamîdoğlu Hüseyin'den kalelerin teslimini istedi" | YIL | TDV düğünü 1382'ye koyuyor (anlatı 1381'de başlıyor). Atlas/bellek 1381-06-01 doğrulanmadı. İshaklı bu satın almaya bağlı mı: not. |
+| A-36 | 44 | 1383-09-19 | Serez'in fethi | TDV "Murad I" | "Serez de alındı (19 Eylül 1383)" | KAYNAKLI | TDV "Serez" maddesi yalnız 1383 (785) veriyor; gün Murad I'de. Gevgili/Kılkış'ın bağlılığı: not. |
+| A-37 | 46 | 1387-04 (ay; gün yok) | Selanik'in ilk fethi | TDV "Murad I"; TDV "Selanik" | "1387 Nisanında düşmüştü" | YIL | İki TDV maddesi Nisan/ilkbahar 1387 diyor, gün yok. 1387-04-09 doğrulanmadı. Lanzaka/Praviște'nin Selanik'e bağı: not. |
+| A-39 | 50 | 1398 (Tokat/Niksar Osmanlı'ya geçişi) | Kadı Burhâneddin Devleti'nin sonu | TDV "Kadı Burhâneddin" | "Tokat, Niksar ve Kayseri de Osmanlı hâkimiyetine geçti." | ÇELİŞKİ | Atlas 1393-06-01 "Amasya'nın katılışı"; TDV'ye göre Kadı Burhâneddin 1398'de öldürüldü (Zilkade 800 / Temmuz 1398), Tokat 1398'de geçti, 1393'te yalnız bazı küçük beyler Osmanlı'ya bağlandı. Ladik/Merzifon/Osmancık/Tokat 1393'te Osmanlı olarak yazılamaz. |
+| A-41 | 52 | (yok) | Rovine Savaşı | TDV "Niğbolu Savaşı" | "Sigismund Küçük Niğbolu'yu aldı (Mayıs 1395)" (özet) | BULUNAMADI | TDV Niğbolu maddesi Rovine'i kapsamıyor; Niğbolu savaşı 25 Eylül 1396 (21 Zilhicce 798). 1395-06-03 doğrulanmadı. |
+| A-47 | 61 | 1430-10 (ay; gün yok) | Yanya'nın fethi | TDV "Yanya" islamansiklopedisi.org.tr/yanya | "1430'un Ekim ayında" | YIL | Kaynak Sphrantzes'e dayanıyor; gün yok. Ayasaranda'nın Yanya'ya bağı: not. Selanik 29 Mart 1430 (TDV Selanik) ayrı olay. |
+| A-49 | 64 | (yok) | Boğdan'ın haraca bağlanışı | TDV "Mehmed II" | "22 Şevval 859'da (5 Ekim 1455)" (Boğdan haracı) | BULUNAMADI | Boğdan haracı 5 Ekim 1455 (TDV); atlas 1456-06-01. Ama satırdaki yer Kili 1484'te Osmanlı'ya geçti, haraçla ilgisiz: VERİ-ŞÜPHESİ. Kili için gün bulunamadı. |
+| A-50 | 65 | 1461 (gün yok) | Sinop ve Trabzon yöresinin alınışı | TDV "Mehmed II" | "865'te (1461) Sinop ve Trabzon yöresini alarak" | YIL | Ay/gün yok. Akçakoca/Bolu/Devrek/Eflani'nin Sinop'a bağlılığı: not. |
+| A-51 | 66 | 1467-11-10 | Cihan Şah'ın öldürülmesi | TDV "Cihan Şah" islamansiklopedisi.org.tr/cihan-sah | "12 Rebîülâhir 872 (10 Kasım 1467)" | KAYNAKLI | Atlas günü 1467-10-01: 40 gün fark, ±30 dışında; tarih düzeltilmeli. Olay Sancak (Bingöl yakını): Bingöl'e doğrudan bağlı. |
+| A-52 | 68 | 1475-06-06 | Kefe'nin Osmanlı'ya teslimi | TDV "Mehmed II" | "1 Safer 880 / 6 Haziran 1475" | KAYNAKLI | Kırım hanlığının himayesi ayrıca. Maykop/Soçi/Tuapse (Çerkez) Kefe'ye doğrudan bağlı değil: VERİ-ŞÜPHESİ. |
+| A-64 | 40 | 1371-09-26 | Çirmen | A-12 ile aynı | bkz. A-12 | KAYNAKLI | Tekrar. |
+| A-68 | 33 | 1277-05-14 (Konya) | Karamanoğlu Mehmed Bey Konya'ya girdi | TDV "Karamanoğulları" | "şehre girdi (9 Zilhicce 675 / 14 Mayıs 1277)" | ÇELİŞKİ | Atlas 1276-06-15; TDV Konya girişini 14 Mayıs 1277 verir, 1276 yalnız Ermenek subaşılığı/Hatiroğlu isyanı (675/1276). Ermenek'in sahibinin değiştiği gün için ayrı kaynak gerek. |
+
+## İşlenmeyen satırlar (Bölüm A)
+- Önceden KAYNAKLI: 1-6, 8-10 (dokunulmadı).
+- Aranmadı (süre/bütçe): A-13, 17, 24-29, 31-34, 38, 40, 42-46, 48, 53-63, 65-67, 69-98 (Katalan, Endülüs, Frank, Abbasi, Mezoamerika vb.). Bunlar girdideki gibi BULUNAMADI kalır; bellek tarihleri doğrulanmış değildir.
+- A-56 (Tunus) A-13'ün tekrarı, aranmadı.
+- Bölüm B hiç işlenmedi.
