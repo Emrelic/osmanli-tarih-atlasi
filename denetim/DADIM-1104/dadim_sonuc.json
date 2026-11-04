@@ -210,7 +210,7 @@
    "kaynak": "Treccani, Torino, https://www.treccani.it/enciclopedia/torino/",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Torino maddesinde Augustus dönemi uçları yok; Roma maddesindeki ülke düzeyi tarihler yerleşime özgü değil.",
+   "not": "ANTİK A (BULUNAMADI): Treccani Torino «Storia» okundu: Augusta Taurinorum «colonia militare», -0026 ucu yok; Augustus dönemi ülke düzeyindedir. · Treccani Torino maddesinde Augustus dönemi uçları yok; Roma maddesindeki ülke düzeyi tarihler yerleşime özgü değil.",
    "dosya_satir_eski": "data/yerlesimler.js:1245",
    "tazeleme": {
     "durum": "AYNI",
@@ -232,7 +232,7 @@
    "kaynak": "Treccani, Torino, https://www.treccani.it/enciclopedia/torino/",
    "alinti": "",
    "oneri": {},
-   "not": "Torino maddesinde 395/476 yok.",
+   "not": "ANTİK A (BULUNAMADI): Treccani Torino okundu: 395/476 yok. · Torino maddesinde 395/476 yok.",
    "dosya_satir_eski": "data/yerlesimler.js:1245",
    "tazeleme": {
     "durum": "AYNI",
@@ -250,11 +250,11 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani, Torino, https://www.treccani.it/enciclopedia/torino/",
    "alinti": "",
    "oneri": {},
-   "not": "Torino maddesinde yok.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ: şehre özgü cümle yok; yıl düzeyi (gün 08-23 / 03-05 kaynakta yok, künye günüdür). Treccani «Torino» Odoacre'yi anmıyor. Önceki BULUNAMADI şehir maddesi içindi; ülke düzeyi Treccani Odoacre/Teodorico ile yıl teyitli. · Torino maddesinde yok.",
    "dosya_satir_eski": "data/yerlesimler.js:1245",
    "tazeleme": {
     "durum": "AYNI",
@@ -264,7 +264,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Odoacre», https://www.treccani.it/enciclopedia/odoacre/ ; «Teodorico», https://www.treccani.it/enciclopedia/teodorico/ (5.11.2026 okundu)",
+   "alinti2": "O. fu a capo della ribellione che depose Romolo Augustolo (476). sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1237",
@@ -272,11 +276,11 @@
    "d": "dogu-got",
    "f": "0493-03-05",
    "t": "0553-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani, Torino, https://www.treccani.it/enciclopedia/torino/",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Torino 'Ostrogoti' için eşleşme vermedi.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ: şehre özgü cümle yok; yıl düzeyi (gün 08-23 / 03-05 kaynakta yok, künye günüdür). f=493 yıl teyitli. t=553: Narsete md. Teia yenilgisini 553, 'dominazione gotica' sonunu 555 verir; Torino'ya özgü Got/Bizans geçiş cümlesi yok (Treccani Torino 'Ostrogot' geçmiyor) → t kaynaklı DEĞİL, hüküm yalnız f. Treccani Torino Bizans dukasını anar (bkz. langobard satırı), yani Bizans dilimi 553-568 desteklenir ama tarihsiz. · Treccani Torino 'Ostrogoti' için eşleşme vermedi.",
    "dosya_satir_eski": "data/yerlesimler.js:1245",
    "tazeleme": {
     "durum": "AYNI",
@@ -286,7 +290,11 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani «Teodorico» (a.y.); «Narsete», https://www.treccani.it/enciclopedia/narsete/",
+   "alinti2": "sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia. | Sbaragliò alle falde del Monte Lattaro tre schiere di Goti guidati da Teia (553).",
+   "uc": "f",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1237",
@@ -4682,11 +4690,11 @@
    "d": "part",
    "f": "-0140-01-01",
    "t": "0224-04-28",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Parti dosyası incelemesi",
    "alinti": "",
    "oneri": {},
-   "not": "Kayıtta tek dönem var ve kaynaklı (Kroeger, Encyclopaedia Iranica 'Ctesiphon'); hedef dönem YOK. Araştırma yapılmadı. Bilgi: 224 sonrası Sasani/Arap/Abbasi zincirinin bu kayıtta hiç yazılmadığı görülüyor (tek dönem), ilgili iş ayrı.",
+   "not": "ANTİK A (KAYNAKLI): t KAYNAKLI: Part sonu 28 Nisan 224 (Iranica 'probably'; ÜLKE DÜZEYİ - şehre özgü değil, aynı maddede Sasani iktidarının 230'dan önce tüm Part imparatorluğuna yayıldığı söylenir). Ctesiphon maddesi de Part Ktesiphon'unun tarihinin 224'te Artabanus IV'ün yenilgisiyle bittiğini, Ardashir'in 226'da orada taç giydiğini yazar; yani 224 sonrası Sasani (künye sasani f=0224-04-28 t=0651-01-01 var, hayalet yok). f -0140: Ctesiphon maddesi kesin yıl vermez ('When the Arsacids conquered the Mesopotamian lowlands, the capital was transferred to Ctesiphon'; 'From the time of Mithradates I (ca. 171-38 b.c.e.)... winter residence'); Arsacids ii: 'It is also possible that the capital was transferred to Ctesiphon as early as his reign' ve Mithridates'in 12 Ekim 141'e (=-0140) kadar Seleukeia'da taç giydiği. Dolayısıyla f=-0140 Ctesiphon'a özgü tarihlenmedi; abi merkez/komşu Seleukeia (aynı metropol, 'twin cities') zinciriyle uyumlu, yıl düzeyi, BEYANLI YAKLAŞIKLIK. Kayıtta 224 sonrası zincir (Sasani 224-651, Müslüman fethi 16/637 Iranica Ctesiphon) hiç yok: ayrı iş. EK ADAY (ÖLÇÜT: idareye katma - Iranica Arsacids ii: Trajan'ın Assyria eyaleti, 'a province re-established by Trajan, which corresponded roughly to the territory of ancient Babylonia', Hadrian çekildi): Trajan Ktesiphon'u 116 ilkbahar/yaz aldı (Ctesiphon maddesi), 117'de Parthamaspates burada taç giydi; gün BULUNAMADI; 165 sonu/166 başı Cassius ve 195-199 Severus akınları geçici/askerî. Bu geçicilerin atlasa yazılması KASA/Emre kararı; yıla indirme çakışma açmaz ama gün yok. · Kayıtta tek dönem var ve kaynaklı (Kroeger, Encyclopaedia Iranica 'Ctesiphon'); hedef dönem YOK. Araştırma yapılmadı. Bilgi: 224 sonrası Sasani/Arap/Abbasi zincirinin bu kayıtta hiç yazılmadığı görülüyor (tek dönem), ilgili iş ayrı.",
    "dosya_satir_eski": "data/yerlesimler*.js:9",
    "tazeleme": {
     "durum": "AYNI",
@@ -4696,7 +4704,16 @@
      "f": "-0140-01-01",
      "t": "0224-04-28"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Arsacids ii. The Arsacid dynasty' (K. Schippmann), https://www.iranicaonline.org/articles/arsacids-ii/ ; Encyclopaedia Iranica, 'Ctesiphon' (Vol. VI/4, pp. 446-448, 1993), https://www.iranicaonline.org/articles/ctesiphon/",
+   "alinti2": "The decisive battle, probably on 28 April 224 in the region of what is now Golpāyegān, between Isfahan and Nehāvand (see Widengren, op. cit., p. 743-44), cost the Parthian Great King his life and in practice meant the end of the Parthian empire, even though Ardašīr only had himself crowned “King of Kings” some years later, probably in CE 226.",
+   "oneri_son": {
+    "d": "part",
+    "f": "-0140-01-01",
+    "t": "0224-04-28"
+   },
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Patna (Azîmâbâd)": [
@@ -8710,7 +8727,7 @@
    "kaynak": "Treccani Enciclopedia on line, «Genova» (https://www.treccani.it/enciclopedia/genova/)",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Genova antik/erken ortaçağ sahiplerini anlatmaz (yalnız \"guerra greco-gotica (535-553) ... Belisario ... rimase a lungo bizantina\"). Bakıldı: Treccani Genova tamamı (anahtarlar: Odoacre, Goti, Ottone YOK).",
+   "not": "ANTİK A (BULUNAMADI): Treccani Genova yeniden okundu: 395/476 yok. · Treccani Genova antik/erken ortaçağ sahiplerini anlatmaz (yalnız \"guerra greco-gotica (535-553) ... Belisario ... rimase a lungo bizantina\"). Bakıldı: Treccani Genova tamamı (anahtarlar: Odoacre, Goti, Ottone YOK).",
    "dosya_satir_eski": "data/yerlesimler.js:1246",
    "tazeleme": {
     "durum": "AYNI",
@@ -8728,11 +8745,11 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani Enciclopedia on line, «Genova» (https://www.treccani.it/enciclopedia/genova/)",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Genova antik/erken ortaçağ sahiplerini anlatmaz (yalnız \"guerra greco-gotica (535-553) ... Belisario ... rimase a lungo bizantina\"). Bakıldı: Treccani Genova tamamı (anahtarlar: Odoacre, Goti, Ottone YOK).",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ: şehre özgü cümle yok; yıl düzeyi (gün 08-23 / 03-05 kaynakta yok, künye günüdür). Treccani «Genova» Odoacre'yi anmıyor (önceki BULUNAMADI); ülke düzeyi yıl teyitli. · Treccani Genova antik/erken ortaçağ sahiplerini anlatmaz (yalnız \"guerra greco-gotica (535-553) ... Belisario ... rimase a lungo bizantina\"). Bakıldı: Treccani Genova tamamı (anahtarlar: Odoacre, Goti, Ottone YOK).",
    "dosya_satir_eski": "data/yerlesimler.js:1246",
    "tazeleme": {
     "durum": "AYNI",
@@ -8742,7 +8759,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Odoacre», https://www.treccani.it/enciclopedia/odoacre/ ; «Teodorico», https://www.treccani.it/enciclopedia/teodorico/ (5.11.2026 okundu)",
+   "alinti2": "O. fu a capo della ribellione che depose Romolo Augustolo (476). sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1238",
@@ -8754,7 +8775,7 @@
    "kaynak": "Treccani Enciclopedia on line, «Genova» (https://www.treccani.it/enciclopedia/genova/)",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Genova antik/erken ortaçağ sahiplerini anlatmaz (yalnız \"guerra greco-gotica (535-553) ... Belisario ... rimase a lungo bizantina\"). Bakıldı: Treccani Genova tamamı (anahtarlar: Odoacre, Goti, Ottone YOK).",
+   "not": "ANTİK A (ONERI): Atlas dogu-got t=553-01-01 ile çelişir: Cenova Gotlar'dan Belisarius'la SAVAŞ SIRASINDA (535-553 aralığında) alındı, 553'te değil; kesin yıl Treccani'de yok (Prokopios okunmadı) → ONERI. f=493 ülke düzeyi (Teodorik); Cenova 489-93 arası Odoakar mı Got mu şehre özgü kaynak yok. Savaş sırasında el değiştirme (537 Greek / Got geri alma) bu metinde yok. · Treccani Genova antik/erken ortaçağ sahiplerini anlatmaz (yalnız \"guerra greco-gotica (535-553) ... Belisario ... rimase a lungo bizantina\"). Bakıldı: Treccani Genova tamamı (anahtarlar: Odoacre, Goti, Ottone YOK).",
    "dosya_satir_eski": "data/yerlesimler.js:1246",
    "tazeleme": {
     "durum": "AYNI",
@@ -8764,7 +8785,14 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Genova», https://www.treccani.it/enciclopedia/genova/ (5.11.2026 okundu)",
+   "alinti2": "G. fu conquistata nel corso della guerra greco-gotica (535-553) da Belisario e rimase a lungo bizantina.",
+   "oneri_son": {
+    "d": "dogu-got",
+    "t": "(yıl yok: Belisarius fethi, 535-553 savaşı içinde)"
+   },
+   "uc": "t"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1238",
@@ -9053,7 +9081,7 @@
    "kaynak": "Treccani «Tournai» okundu",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Tournai maddesi Roma/Frank dönemini kapsamıyor (okunan metin Filippo il Bello 1255'ten başlıyor). Yerleşime özgü tanıklık bulunamadı; mevcut DEVRALMA olay kaynağı olarak kalır.",
+   "not": "ANTİK A (BULUNAMADI): Treccani Tournai Roma/Frank dönemini kapsamıyor; Treccani «Clodoveo» slug çalışmadı (ana sayfaya döndü). Bakıldı: Treccani Tournai, Clodoveo (slug ölü). · Treccani Tournai maddesi Roma/Frank dönemini kapsamıyor (okunan metin Filippo il Bello 1255'ten başlıyor). Yerleşime özgü tanıklık bulunamadı; mevcut DEVRALMA olay kaynağı olarak kalır.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -11634,8 +11662,8 @@
    "kaynak": "Imperial Gazetteer of India vol. XX (1908), «Peshawar District», archive.org imperialgazettee20grea",
    "alinti": "Peshawar was often the seat of the Durrani court ... reoccupied in 1834 by the Sikhs",
    "oneri": {},
-   "not": "YÜKSELTME TURU (KAYNAKLI): [yalnız yıl teyitli; gün 1834-05-06 teyitsiz]. Yalnız t. HAYALET DEVLET UYARISI (künye ölçüldü): afgan-durrani künyesi f 1747-10-01 / t 1819-01-01; satır f 1747-06-20 künyeden ÖNCE, t 1834-05-06 künyeden SONRA — aşım var. Peşâver'de Dürrânî egemenliği 1819 sonrası da sürdü (TDV: 1825 Seyyid Ahmed hükümeti, 1834 Sihler) → aynı polity sürüyorsa künye GENİŞLETİLMELİ (LAB'a); karar EMRELİC/LAB. TDV Peşâver ayrıca 1738 Nâdir Şah'ı yazar (atlasın afsar 1738 satırıyla uyumlu). · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · Bitiş YIL 1834 (IG + TDV). Başlangıç yıl olarak yok. Fiilî denetim notu: IG 1818'de Sihlerin vadiye ilerlediğini, 1823'te Ranjit Singh'in Azim Han'ı yendiğini ama 'Sikhs did not take actual possession ... exaction of a tribute' dediğini yazar; fiilî denetim 1834'te Sih'e geçer (atlas ucu uyumlu). 1823-1834 Sih haraçlı tâbiyeti `v:` katmanı olarak ic_not'a yazılabilir.",
-   "_etiket": "IKI_KAYNAKLI_ONERI",
+   "not": "KOORDİNATÖR KARARI (EMRELİC gece-62, 5 Kasım 2026; ilke: modern akademik kaynak > IGI): hayalet LAB'a: afgan-durrani künye t 1819; Peşâver 1834'e kadar Durrani/Barakzay valileri, ardından Sih 1834 (kaynakla). Barakzay Peşâver sardarları künye kapsamı LAB SALI'da. · YÜKSELTME TURU (KAYNAKLI): [yalnız yıl teyitli; gün 1834-05-06 teyitsiz]. Yalnız t. HAYALET DEVLET UYARISI (künye ölçüldü): afgan-durrani künyesi f 1747-10-01 / t 1819-01-01; satır f 1747-06-20 künyeden ÖNCE, t 1834-05-06 künyeden SONRA — aşım var. Peşâver'de Dürrânî egemenliği 1819 sonrası da sürdü (TDV: 1825 Seyyid Ahmed hükümeti, 1834 Sihler) → aynı polity sürüyorsa künye GENİŞLETİLMELİ (LAB'a); karar EMRELİC/LAB. TDV Peşâver ayrıca 1738 Nâdir Şah'ı yazar (atlasın afsar 1738 satırıyla uyumlu). · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · Bitiş YIL 1834 (IG + TDV). Başlangıç yıl olarak yok. Fiilî denetim notu: IG 1818'de Sihlerin vadiye ilerlediğini, 1823'te Ranjit Singh'in Azim Han'ı yendiğini ama 'Sikhs did not take actual possession ... exaction of a tribute' dediğini yazar; fiilî denetim 1834'te Sih'e geçer (atlas ucu uyumlu). 1823-1834 Sih haraçlı tâbiyeti `v:` katmanı olarak ic_not'a yazılabilir.",
+   "_etiket": "KARAR_GECE62",
    "dosya_satir_eski": "data/yerlesimler_asya.js:529",
    "tazeleme": {
     "durum": "AYNI",
@@ -15724,13 +15752,13 @@
    "oneri": {
     "t": "1304 (YIL; gün yok)"
    },
-   "not": "YÜKSELTME TURU (CELISKI): ÖNERİ (t=1304) IGI'ya dayanıyor; iki modern kaynak 1305 diyor (TDV doğrudan yıl; CHI III Ain-ül-Mülk seferini 1305 bağlamında anlatır, zafer '9 Aralık' — yıl o cümlede açık değil, bağlamdan 1305). Atlasın mevcut t=1305-01-01'i yıl düzeyinde TDV ile uyumlu; öneri DEĞİŞTİRİLMEDİ, karar EMRELİC'in. CHI III'e göre Mândû'nun alınışı 1305 Aralık'ına düşer; atlasın 01-01'i yıl başı yaklaşıklığıdır (gün teyitsiz). Komşu öneri (delhi f 1304) de bu yüzden düşer. IGI 1304 – modern 1305 çelişkisi ic_not'a: modern esas. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (IGI 1908 vol. XVII «Mandu (or Mandogarh)», ham metin yeniden okundu). uc=t: Racput sahipliğinin sonu = Ayn-ül-Mülk'ün Mândû'yu alışı (1304). [yalnız yıl teyitli]. IGI alanı 'Muhammadan' diye anar, Delhi adını vermez; Ayn-ül-Mülk Mültânî Delhi sultanlarının hizmetindeki komutandır (TDV Aynülmülk Mültânî: 'Delhi sultanlarının hizmetinde ... Mândû seferlerine katıldı', yıl yok) — devlet bağı TDV'den, yıl IGI'dan. KOMŞU: sonraki satırın f'si (delhi-sultanligi 1305-01-01) 1304-01-01'e birlikte taşınmalı. Racput künyesi f 1000/t 1947, delhi künyesi f 1206 günü kapsıyor. · YÜKSELTME TURU (ONERI): Bakılan: genel web; Mândû'nun 1304/1305 alımı için ikinci kaynak bulunamadı. · Racput→Delhi: IGI 1304'te Ayn-ül-mülk Mândû'yu aldı der; atlas 1305-01-01. YIL düzeyinde 1 yıl fark. Racput'un 1281 açılışı kaynakta yok.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC gece-62, 5 Kasım 2026; ilke: modern akademik kaynak > IGI): TDV 1305 esas; IGI 1304 ic_not'a. · YÜKSELTME TURU (CELISKI): ÖNERİ (t=1304) IGI'ya dayanıyor; iki modern kaynak 1305 diyor (TDV doğrudan yıl; CHI III Ain-ül-Mülk seferini 1305 bağlamında anlatır, zafer '9 Aralık' — yıl o cümlede açık değil, bağlamdan 1305). Atlasın mevcut t=1305-01-01'i yıl düzeyinde TDV ile uyumlu; öneri DEĞİŞTİRİLMEDİ, karar EMRELİC'in. CHI III'e göre Mândû'nun alınışı 1305 Aralık'ına düşer; atlasın 01-01'i yıl başı yaklaşıklığıdır (gün teyitsiz). Komşu öneri (delhi f 1304) de bu yüzden düşer. IGI 1304 – modern 1305 çelişkisi ic_not'a: modern esas. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (IGI 1908 vol. XVII «Mandu (or Mandogarh)», ham metin yeniden okundu). uc=t: Racput sahipliğinin sonu = Ayn-ül-Mülk'ün Mândû'yu alışı (1304). [yalnız yıl teyitli]. IGI alanı 'Muhammadan' diye anar, Delhi adını vermez; Ayn-ül-Mülk Mültânî Delhi sultanlarının hizmetindeki komutandır (TDV Aynülmülk Mültânî: 'Delhi sultanlarının hizmetinde ... Mândû seferlerine katıldı', yıl yok) — devlet bağı TDV'den, yıl IGI'dan. KOMŞU: sonraki satırın f'si (delhi-sultanligi 1305-01-01) 1304-01-01'e birlikte taşınmalı. Racput künyesi f 1000/t 1947, delhi künyesi f 1206 günü kapsıyor. · YÜKSELTME TURU (ONERI): Bakılan: genel web; Mândû'nun 1304/1305 alımı için ikinci kaynak bulunamadı. · Racput→Delhi: IGI 1304'te Ayn-ül-mülk Mândû'yu aldı der; atlas 1305-01-01. YIL düzeyinde 1 yıl fark. Racput'un 1281 açılışı kaynakta yok.",
    "kaynak2": "TDV İslâm Ansiklopedisi, «Mâlvâ», https://islamansiklopedisi.org.tr/malva · Cambridge History of India, III (Turks and Afghans, ed. W. Haig), ch. «Conquest of Malwa», archive.org cambridgehistory03raps",
    "alinti2": "TDV: «Mâlvâ’nın fethi 1305’te Sultan Alâeddin Halacî devrinde gerçekleşmiştir.» CHI III: «made the Muslims masters of Ujjain, Mandu, Dhar, and Chanderi» (aynı bölümde: «appointed, in 1305, governor of the Punjab ... ‘Ain-ul-Mulk, governor of Multan, was sent on an expedition to Jalor and to Ujjain and Chanderi»)",
    "oneri_son": {
     "t": "1304-01-01"
    },
-   "_etiket": "CELISKI",
+   "_etiket": "KARAR_GECE62",
    "dosya_satir_eski": "data/yerlesimler_asya.js:836",
    "tazeleme": {
     "durum": "AYNI",
@@ -15754,10 +15782,10 @@
    "oneri": {
     "t": "1401 (YIL)"
    },
-   "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ (iki akademik kaynak, karar EMRELİC'in): öneri t 1401 IGI'ya dayanır ('held in fief ... by officers of the Muhammadan court, till in 1401 Dilawar Khan assumed the insignia of royalty'); TDV Mâlvâ maddesi sultanlığı '1392 [?]' ile başlatır (soru işaretli) ve Dilâver Han'ı Tuğluklu valisi olarak anlatıp Timur'un 1398 istilâsından sonra sultanlığın temelini attığını söyler; hükümdarlık alâmeti günü yok. Atlas künyesi malva-sultanligi f 1392 TDV'ye dayanıyor. CLAUDE.md: Müslüman dünyada TDV esastır, çelişki ic_not'ta iki kaynağıyla beyan edilir. Öneri DEĞİŞTİRİLMEDİ. Mândû şehrinin başkent oluşu 1405 civarı (IGI: 'just a century later' 1304+100; Hoşang Şah 1405-34). · YÜKSELTME TURU (ONERI): KISMEN: web 1401'e kadar Delhi eyaleti der (1392'de vali atandığı da geçer). Tek başına Wikipedia yetmez. YIL; öneri 1401 ile atlas 1392 arası belirsiz; bkz. Malwa satırı. · Dönem sonu: IGI Mâlvâ'yı Delhi'ye bağlı iktâ olarak 1401'e kadar tutar (Dilâver Han Gûrî 1401'de egemenlik alâmetlerini aldı, Mândû 1401 civarı başkent). Atlas 1392. İki ucu ölç: 1392 ↔ 1401 (YIL).",
+   "not": "KOORDİNATÖR KARARI (EMRELİC gece-62, 5 Kasım 2026; ilke: modern akademik kaynak > IGI): TDV 1305 esas; IGI 1304 ic_not'a. · YÜKSELTME TURU (CELISKI): ÇELİŞKİ (iki akademik kaynak, karar EMRELİC'in): öneri t 1401 IGI'ya dayanır ('held in fief ... by officers of the Muhammadan court, till in 1401 Dilawar Khan assumed the insignia of royalty'); TDV Mâlvâ maddesi sultanlığı '1392 [?]' ile başlatır (soru işaretli) ve Dilâver Han'ı Tuğluklu valisi olarak anlatıp Timur'un 1398 istilâsından sonra sultanlığın temelini attığını söyler; hükümdarlık alâmeti günü yok. Atlas künyesi malva-sultanligi f 1392 TDV'ye dayanıyor. CLAUDE.md: Müslüman dünyada TDV esastır, çelişki ic_not'ta iki kaynağıyla beyan edilir. Öneri DEĞİŞTİRİLMEDİ. Mândû şehrinin başkent oluşu 1405 civarı (IGI: 'just a century later' 1304+100; Hoşang Şah 1405-34). · YÜKSELTME TURU (ONERI): KISMEN: web 1401'e kadar Delhi eyaleti der (1392'de vali atandığı da geçer). Tek başına Wikipedia yetmez. YIL; öneri 1401 ile atlas 1392 arası belirsiz; bkz. Malwa satırı. · Dönem sonu: IGI Mâlvâ'yı Delhi'ye bağlı iktâ olarak 1401'e kadar tutar (Dilâver Han Gûrî 1401'de egemenlik alâmetlerini aldı, Mândû 1401 civarı başkent). Atlas 1392. İki ucu ölç: 1392 ↔ 1401 (YIL).",
    "kaynak2": "TDV İslâm Ansiklopedisi, «Mâlvâ» md., https://islamansiklopedisi.org.tr/malva (5.11.2026'da ham metin okundu) ve Imperial Gazetteer of India, Oxford 1908, vol. XVII «Malwa»",
    "alinti2": "TDV: «Orta Hindistan’da bir bölge ve burada hüküm süren müslüman sultanlık (1392 [?]-1562).» ; Dilâver Han Gûrî, Nâsırüddin Muhammed Şah’ın (1390-1394) Mâlvâ valisi olarak tayin ettiği vali olup Mâlvâ Sultanlığı’nın temelini attı. | IGI: «the country was held in fief ... till in 1401 Dilawar Khan assumed the insignia of royalty.»",
-   "_etiket": "CELISKI",
+   "_etiket": "KARAR_GECE62",
    "dosya_satir_eski": "data/yerlesimler_asya.js:836",
    "tazeleme": {
     "durum": "AYNI",
@@ -15781,10 +15809,10 @@
    "oneri": {
     "f": "1401 (IGI; TDV'ye karşı kontrol)"
    },
-   "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ: öneri f 1401 (IGI birebir: 'From 1401 till 1531 ... remained an independent State'), TDV Mâlvâ md. başlığı '1392 [?]-1562' (sorulu başlangıç) ve Dilâver Han'ın 1398 sonrası bağımsızlaşmasını anlatır; künye malva-sultanligi f 1392. TDV esas kuralı gereği öneri uygulanmaz, karar EMRELİC'in; 1392 [?] ve 1401 iki ucu ic_not'ta beyan edilmeli. 1531 kapanışı (Gucerât ilhakı) TDV'de de var: 'Bahadır Şah’ın Mândû’yu işgali ve Mâlvâ’yı ilhakı' (1531), KAYNAKLI. Mândû şehrinde sultanlık merkezi Hoşang Şah (1405-35) ile; IGI Mândû'yu 1405'te başkent yapar, 1304-1401 arası Mândû'nun bir Delhi iktâ'sı olduğunu ima eder. · YÜKSELTME TURU (ONERI): KISMEN: kaynaklar 1392 (vali atanması/fiilî bağımsızlık) ve 1401 (hükümdarlık alâmetleri) arasında bölünüyor; iki ucu da beyan edin. Akademik ikinci kaynak açılmadı. Başkent: web Dhar der, Mândû'ya taşıma Hoşang Şah (1405-35) — IGI ile fark. · IGI Mâlvâ Sultanlığı'nı 1401-1531 verir; atlas 1392. TDV Mâlvâ Sultanlığı maddesi bu oturumda açılmadı (bulunamadı/aranmadı) — TDV'ye karşı doğrulanmalı. 1531 kapanışı KAYNAKLI (Gujarat'a ilhak).",
+   "not": "KOORDİNATÖR KARARI (EMRELİC gece-62, 5 Kasım 2026; ilke: modern akademik kaynak > IGI): TDV 1305 esas; IGI 1304 ic_not'a. · YÜKSELTME TURU (CELISKI): ÇELİŞKİ: öneri f 1401 (IGI birebir: 'From 1401 till 1531 ... remained an independent State'), TDV Mâlvâ md. başlığı '1392 [?]-1562' (sorulu başlangıç) ve Dilâver Han'ın 1398 sonrası bağımsızlaşmasını anlatır; künye malva-sultanligi f 1392. TDV esas kuralı gereği öneri uygulanmaz, karar EMRELİC'in; 1392 [?] ve 1401 iki ucu ic_not'ta beyan edilmeli. 1531 kapanışı (Gucerât ilhakı) TDV'de de var: 'Bahadır Şah’ın Mândû’yu işgali ve Mâlvâ’yı ilhakı' (1531), KAYNAKLI. Mândû şehrinde sultanlık merkezi Hoşang Şah (1405-35) ile; IGI Mândû'yu 1405'te başkent yapar, 1304-1401 arası Mândû'nun bir Delhi iktâ'sı olduğunu ima eder. · YÜKSELTME TURU (ONERI): KISMEN: kaynaklar 1392 (vali atanması/fiilî bağımsızlık) ve 1401 (hükümdarlık alâmetleri) arasında bölünüyor; iki ucu da beyan edin. Akademik ikinci kaynak açılmadı. Başkent: web Dhar der, Mândû'ya taşıma Hoşang Şah (1405-35) — IGI ile fark. · IGI Mâlvâ Sultanlığı'nı 1401-1531 verir; atlas 1392. TDV Mâlvâ Sultanlığı maddesi bu oturumda açılmadı (bulunamadı/aranmadı) — TDV'ye karşı doğrulanmalı. 1531 kapanışı KAYNAKLI (Gujarat'a ilhak).",
    "kaynak2": "TDV İslâm Ansiklopedisi, «Mâlvâ» md., https://islamansiklopedisi.org.tr/malva (5.11.2026'da ham metin okundu) ve Imperial Gazetteer of India, Oxford 1908, vol. XVII «Malwa»",
    "alinti2": "TDV: «müslüman sultanlık (1392 [?]-1562).» | IGI: «From 1401 till 1531, when it was annexed to Gujarat, the province of Malwa or Mandu, as it was often called after the famous fortress which became its capital under these rulers, remained an independent State.»",
-   "_etiket": "CELISKI",
+   "_etiket": "KARAR_GECE62",
    "dosya_satir_eski": "data/yerlesimler_asya.js:837",
    "tazeleme": {
     "durum": "AYNI",
@@ -24376,11 +24404,11 @@
    "d": "part",
    "f": "-0140-01-01",
    "t": "0224-04-28",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "(hedef dönem yok)",
    "alinti": "—",
    "oneri": {},
-   "not": "Partide bu yerleşimin kaynağı boş ya da DEVRALMA olan dönemi yok; tüm dönemlerin mevcut kaynağı dolu (TDV/akademik alıntılı ya da beyanlı BOŞLUK). Kaynaklı dönemlere dokunulmadı (brif: baştan doğrulama yok). Beyanlı __BOSLUK__ dönemleri (-2323…-2153, -2111…-2109, -2003…-1801, -1739…-1464, -1154…-625, -330…-310 civarı) BEYANLI kalıyor; boşluk doldurma merdiveni ayrı iştir.",
+   "not": "ANTİK A (KAYNAKLI): f: MÖ 141 = astronomik -0140 (kuralla doğru yazılmış); Uruk'a özgü çivi yazılı metin 12 Ekim 141'de Mithridates I'in egemenliğinin tanındığını gösterir - gün düzeyi 141-10-12 Iranica'da 'by' ile üst sınırdır; atlas f=-0140-01-01 yıl düzeyi, gün uydurulmadı. t: Part sonu 28 Nisan 224 ÜLKE DÜZEYİ ('probably'); Uruk'a özgü değil. Uruk'un 224 sonrası Sasani zinciri kayıtta yok (ayrı iş). Hayalet denetimi: part f=-0249 t=0224-04-28, dönem künyeyi aşmıyor; sasani f=0224-04-28. ÖLÇÜT: idareye katma yorumu gerekmez, Part tâbiliği değil doğrudan egemenlik (Mithridates tanınması). · Partide bu yerleşimin kaynağı boş ya da DEVRALMA olan dönemi yok; tüm dönemlerin mevcut kaynağı dolu (TDV/akademik alıntılı ya da beyanlı BOŞLUK). Kaynaklı dönemlere dokunulmadı (brif: baştan doğrulama yok). Beyanlı __BOSLUK__ dönemleri (-2323…-2153, -2111…-2109, -2003…-1801, -1739…-1464, -1154…-625, -330…-310 civarı) BEYANLI kalıyor; boşluk doldurma merdiveni ayrı iştir.",
    "dosya_satir_eski": "data/yerlesimler_mo_sumer.js:66",
    "tazeleme": {
     "durum": "AYNI",
@@ -24390,7 +24418,16 @@
      "f": "-0140-01-01",
      "t": "0224-04-28"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Arsacids ii. The Arsacid dynasty' (K. Schippmann), https://www.iranicaonline.org/articles/arsacids-ii/",
+   "alinti2": "On the evidence of a cuneiform text it is also known that by 12 October 141, Mithridates’ power was recognized as far afield as the ancient Sumerian city Uruk in southern Mesopotamia. The decisive battle, probably on 28 April 224 in the region of what is now Golpāyegān, between Isfahan and Nehāvand (see Widengren, op. cit., p. 743-44), cost the Parthian Great King his life and in practice meant the end of the Parthian empire",
+   "oneri_son": {
+    "d": "part",
+    "f": "-0140-01-01",
+    "t": "0224-04-28"
+   },
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Harran": [
@@ -26786,7 +26823,7 @@
    "kaynak": "Treccani, Enciclopedia on line, «Napoli», https://www.treccani.it/enciclopedia/napoli/",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Napoli md. 395/476'yı Napoli için anmaz (yalnız antik: Claudius döneminde colonia). Bakılan: Treccani napoli (476, Odoacre, Goti anahtarları YOK). Künye zinciri künyeden; şehre özgü tanık yok.",
+   "not": "ANTİK A (BULUNAMADI): Treccani Napoli yeniden okundu (763, 476 anahtarları): bati-roma ucu yok. · Treccani Napoli md. 395/476'yı Napoli için anmaz (yalnız antik: Claudius döneminde colonia). Bakılan: Treccani napoli (476, Odoacre, Goti anahtarları YOK). Künye zinciri künyeden; şehre özgü tanık yok.",
    "dosya_satir_eski": "data/yerlesimler.js:1195",
    "tazeleme": {
     "durum": "AYNI",
@@ -26804,11 +26841,11 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani, Enciclopedia on line, «Napoli», https://www.treccani.it/enciclopedia/napoli/",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Napoli md. Odoacre/Teodorico'yu anmaz. Şehre özgü tanık bulunamadı; künye zincirine bağlı kalır.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ: şehre özgü cümle yok; yıl düzeyi (gün 08-23 / 03-05 kaynakta yok, künye günüdür). Treccani «Napoli» Odoacre'yi anmıyor; ülke düzeyi yıl teyitli. · Treccani Napoli md. Odoacre/Teodorico'yu anmaz. Şehre özgü tanık bulunamadı; künye zincirine bağlı kalır.",
    "dosya_satir_eski": "data/yerlesimler.js:1195",
    "tazeleme": {
     "durum": "AYNI",
@@ -26818,7 +26855,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Odoacre», https://www.treccani.it/enciclopedia/odoacre/ ; «Teodorico», https://www.treccani.it/enciclopedia/teodorico/ (5.11.2026 okundu)",
+   "alinti2": "O. fu a capo della ribellione che depose Romolo Augustolo (476). sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1187",
@@ -26826,13 +26867,13 @@
    "d": "dogu-got",
    "f": "0493-03-05",
    "t": "0553-01-01",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani, Enciclopedia on line, «Napoli», https://www.treccani.it/enciclopedia/napoli/",
    "alinti": "Disputata fra Goti e Bizantini, dal 553 restò a questi ultimi",
    "oneri": {
     "not": "553 ucu YIL düzeyinde kaynaklı; 536-543 el değişimleri (Belisarius/Totila) bu maddede yok"
    },
-   "not": "Bitiş 553 (YIL) KAYNAKLI: Treccani «dal 553 restò a questi ultimi» (Bizanslılar). «Disputata» sözü 536-553 arası çekişmeyi gösterir; atlas tek Got dönemi yazmış — beyanlı yaklaşıklık, Prokopios/ Treccani 'Goti' gibi ek kaynak gerek. 493 başlangıcı kaynaksız (künye).",
+   "not": "ANTİK A (KAYNAKLI): t=553 YIL düzeyinde teyitli (gün 01-01 yıl kuralı). 'Disputata' sözü savaş sırasında el değişimini gösterir (536-553); ayrıntı bu maddede yok → beyanlı yaklaşıklık. f=493 şehre özgü kaynaksız (ülke 493: Treccani Teodorico). · Bitiş 553 (YIL) KAYNAKLI: Treccani «dal 553 restò a questi ultimi» (Bizanslılar). «Disputata» sözü 536-553 arası çekişmeyi gösterir; atlas tek Got dönemi yazmış — beyanlı yaklaşıklık, Prokopios/ Treccani 'Goti' gibi ek kaynak gerek. 493 başlangıcı kaynaksız (künye).",
    "dosya_satir_eski": "data/yerlesimler.js:1195",
    "tazeleme": {
     "durum": "AYNI",
@@ -26842,7 +26883,11 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Napoli», https://www.treccani.it/enciclopedia/napoli/ (5.11.2026 okundu)",
+   "alinti2": "Disputata fra Goti e Bizantini, dal 553 restò a questi ultimi, sotto il controllo di un duca con potere militare e civile.",
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1187",
@@ -27361,7 +27406,7 @@
    "kaynak": "Treccani, Enciclopedia on line, «Maastricht», https://www.treccani.it/enciclopedia/maastricht/",
    "alinti": "Sorse nel 1° sec. d.C., dal 382 al 720 fu sede di vescovato",
    "oneri": {},
-   "not": "Treccani Maastricht: Roma kökenli, 382-720 piskoposluk merkezi. 395/476 uçları ve Batı Roma sahipliği şehir maddelerinde yok; künye zinciri.",
+   "not": "ANTİK A (BULUNAMADI): Treccani Maastricht (2,5 bin karakter) yeniden okundu: Franchi/395/476 yok; künye zinciri. · Treccani Maastricht: Roma kökenli, 382-720 piskoposluk merkezi. 395/476 uçları ve Batı Roma sahipliği şehir maddelerinde yok; künye zinciri.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -27883,7 +27928,7 @@
    "oneri": {
     "not": "yerleşim var mıydı sorgusu: kale 3. yy ikinci yarısında yıkıldı; Frank kalesi 6. yy; bölge 395-476'da yerleşimsiz olabilir ⇒ dönem kırpılabilir/BOSLUK"
    },
-   "not": "Treccani Utrecht: Roma kalesi MS 47, 3. yy'ın ikinci yarısında YIKILDI; «Nel 6° sec. i Franchi vi costruirono una fortezza» ve piskoposluk 695. 395-476 arası yerleşimin var olduğuna dair şehir maddesi tanığı YOK. Boşluk merdiveni ④: yerleşim o devirde var mıydı? Treccani'ye göre belirsiz/boş; roma-imp'in t'si de 3. yy yıkımı ile sorgulanmalı (mevcut Vikipedi'ye dayanır). Bati-Roma sahipliği kaynaksız.",
+   "not": "ANTİK A (ONERI): Önceki tur ONERI sürer: Treccani Utrecht Roma kalesi 3. yy ikinci yarısında yıkıldı, 6. yy Franklar kale yaptı; 395-476 arası yerleşim şehir maddesinde yok (YOK_O_DEVIRDE adayı; Traiectum arkeolojik teyidi için CAH/RGA gerek). Bu turda ek kaynağa bakılmadı. [önceki not: Treccani Utrecht: Roma kalesi MS 47, 3. yy'ın ikinci yarısında YIKILDI; «Nel 6° sec. i Franchi vi costruirono una fortezza» ve piskoposluk 695. 395-476 arası yerleşimin var olduğuna dair şehir maddesi tanığı YOK. Boşluk merdiveni ④: yerleşim o devirde var mıydı? Treccani'ye göre belirsiz/boş; roma-imp'in t'si de 3. yy yıkımı ile sorgulanmalı (mevcut Vikipedi'ye dayanır). Bati-Roma sahipliği kaynaksız.] · Treccani Utrecht: Roma kalesi MS 47, 3. yy'ın ikinci yarısında YIKILDI; «Nel 6° sec. i Franchi vi costruirono una fortezza» ve piskoposluk 695. 395-476 arası yerleşimin var olduğuna dair şehir maddesi tanığı YOK. Boşluk merdiveni ④: yerleşim o devirde var mıydı? Treccani'ye göre belirsiz/boş; roma-imp'in t'si de 3. yy yıkımı ile sorgulanmalı (mevcut Vikipedi'ye dayanır). Bati-Roma sahipliği kaynaksız.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -29145,7 +29190,7 @@
    "kaynak": "Treccani, Enciclopedia Italiana (1934), «Milano» md. (https://www.treccani.it/enciclopedia/milano_(Enciclopedia-Italiana)/) ve «Lombardia» md. (https://www.treccani.it/enciclopedia/lombardia_(Enciclopedia-Italiana)/), 4.11.2026'da okundu — Enciclopedia Italiana (1929-37) eski başvuru eseridir: tek başına en çok KISMEN",
    "alinti": "Dopo la morte di Teodosio la corte imperiale si ferma a Milano",
    "oneri": {},
-   "not": "f=-0026-01-16 künye günü (Roma İmparatorluğu); Milano'ya özgü kaynak yok. Enc. Ital. Milano bölümlemesi 400-222 a.C. 'birinci dönem'i 222 a.C.'de bitirir (Roma fethi ima; metin okunmadı) → Milano zinciri -0026'da Roma imparatorluğuyla başlıyor, öncesi (Roma Cumhuriyeti 222 a.C.-) atlasta yok: ARAŞTIRILMALI. t=395: Enc. Ital. 'Teodosio'nun ölümünden sonra imparatorluk sarayı Milano'da kalır' (Teodosius'un Milano'da ölümü GEC kaynaklı, mevcut). t günü (395-01-17) bu oturumda teyit edilmedi.",
+   "not": "ANTİK A (BULUNAMADI): Treccani «Milano» (güncel md.) okundu: -0026 ucu yok. Enc. Ital. md. okunmadı. · f=-0026-01-16 künye günü (Roma İmparatorluğu); Milano'ya özgü kaynak yok. Enc. Ital. Milano bölümlemesi 400-222 a.C. 'birinci dönem'i 222 a.C.'de bitirir (Roma fethi ima; metin okunmadı) → Milano zinciri -0026'da Roma imparatorluğuyla başlıyor, öncesi (Roma Cumhuriyeti 222 a.C.-) atlasta yok: ARAŞTIRILMALI. t=395: Enc. Ital. 'Teodosio'nun ölümünden sonra imparatorluk sarayı Milano'da kalır' (Teodosius'un Milano'da ölümü GEC kaynaklı, mevcut). t günü (395-01-17) bu oturumda teyit edilmedi.",
    "dosya_satir_eski": "data/yerlesimler.js:1230",
    "tazeleme": {
     "durum": "AYNI",
@@ -29167,7 +29212,7 @@
    "kaynak": "Treccani, Enciclopedia Italiana (1934), «Milano» md. (https://www.treccani.it/enciclopedia/milano_(Enciclopedia-Italiana)/) ve «Lombardia» md. (https://www.treccani.it/enciclopedia/lombardia_(Enciclopedia-Italiana)/), 4.11.2026'da okundu — Enciclopedia Italiana (1929-37) eski başvuru eseridir: tek başına en çok KISMEN",
    "alinti": "Dopo la morte di Teodosio la corte imperiale si ferma a Milano ... la sede dell'impero è trasportata a Ravenna",
    "oneri": {},
-   "not": "Batı Roma sahipliği Enc. Ital. ile örtüşür (saray Milano'da kalır, sonra Ravenna) ama tarih verilmez; 476-08-23 ucu: Enc. Ital. Lombardia yalnız 'Odoacre acclamato re dagli Eruli (476), Pavia'da' der — Milano'ya özgü gün yok. ÜLKE DÜZEYİ, yıl.",
+   "not": "ANTİK A (BULUNAMADI): Treccani Milano: «trasferimento della capitale a Ravenna (402)», 395/476 ucu yok. · Batı Roma sahipliği Enc. Ital. ile örtüşür (saray Milano'da kalır, sonra Ravenna) ama tarih verilmez; 476-08-23 ucu: Enc. Ital. Lombardia yalnız 'Odoacre acclamato re dagli Eruli (476), Pavia'da' der — Milano'ya özgü gün yok. ÜLKE DÜZEYİ, yıl.",
    "dosya_satir_eski": "data/yerlesimler.js:1230",
    "tazeleme": {
     "durum": "AYNI",
@@ -29185,11 +29230,11 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BAKILMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani, Enciclopedia Italiana (1934), «Milano» md. (https://www.treccani.it/enciclopedia/milano_(Enciclopedia-Italiana)/) ve «Lombardia» md. (https://www.treccani.it/enciclopedia/lombardia_(Enciclopedia-Italiana)/), 4.11.2026'da okundu — Enciclopedia Italiana (1929-37) eski başvuru eseridir: tek başına en çok KISMEN",
    "alinti": "Battuto da Teodorico sulle rive dell'Adda, Odoacre riparò a Ravenna ove fu ucciso. La Lombardia ... cadde sotto il dominio dei Goti.",
    "oneri": {},
-   "not": "Enc. Ital. Odoakar'ı Milano üzerinde 'Eruli ... Pavia'da' sayar; Teodorik Adda'da yendikten sonra Lombardiya Gotlara düştü (yıl metinde yok). 493-03-05 Ravenna uç günüdür; Milano'nun Gotlara geçişi bundan ÖNCE (Adda muharebesi) → t=493-03-05 şüpheli; yıl (489-90) bu oturumda kaynakla okunmadı. Karar için DBI 'Odoacre'/'Teodorico' aranmalı.",
+   "not": "ANTİK A (KAYNAKLI): [aralık] Treccani Milano: Got işgali '489-94' aralığı; aralığın ilk yılı 0489 yazıldı, atlas t=493-03-05 (Ravenna günü) Milano için geç. Odoacre md. 489-490 savaş gidişini verir (Odoakar Gotları Pavia'da kuşattı, Adda 490) → 489-90 arası Milano'nun el değiştirmesi belirsiz; yıl 489 ilk-yıl konvansiyonu, KASA 489/490'ı bilerek seçmeli. Önceki BAKILMADI (Enc. Ital.) bu oturumda kapandı. · Enc. Ital. Odoakar'ı Milano üzerinde 'Eruli ... Pavia'da' sayar; Teodorik Adda'da yendikten sonra Lombardiya Gotlara düştü (yıl metinde yok). 493-03-05 Ravenna uç günüdür; Milano'nun Gotlara geçişi bundan ÖNCE (Adda muharebesi) → t=493-03-05 şüpheli; yıl (489-90) bu oturumda kaynakla okunmadı. Karar için DBI 'Odoacre'/'Teodorico' aranmalı.",
    "dosya_satir_eski": "data/yerlesimler.js:1230",
    "tazeleme": {
     "durum": "AYNI",
@@ -29199,7 +29244,15 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Milano», https://www.treccani.it/enciclopedia/milano/ (5.11.2026 okundu) ; «Odoacre» (a.y.)",
+   "alinti2": "Occupata dagli Ostrogoti e invasa dai Burgundi (489-94) | nuovamente sconfitto sull'Adda (490)",
+   "oneri_son": {
+    "d": "odoakar",
+    "t": "0489-01-01"
+   },
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1222",
@@ -29207,14 +29260,14 @@
    "d": "dogu-got",
    "f": "0493-03-05",
    "t": "0553-01-01",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani, Enciclopedia Italiana (1934), «Milano» md. (https://www.treccani.it/enciclopedia/milano_(Enciclopedia-Italiana)/) ve «Lombardia» md. (https://www.treccani.it/enciclopedia/lombardia_(Enciclopedia-Italiana)/), 4.11.2026'da okundu — Enciclopedia Italiana (1929-37) eski başvuru eseridir: tek başına en çok KISMEN",
    "alinti": "Milanesi accolsero festosi una schiera di Greci ... Uraia ... presala nel 539, dopo valido assedio ... la metteva a sacco e fuoco",
    "oneri": {
     "bolunme": "dogu-got ... 538(?) | bizans 538(?)-539 | dogu-got 539-552/553 | bizans 553-568",
     "kesin": "539 (YIL) Gotlar Milano'yu geri aldı"
    },
-   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN: Enc. Ital. Milano — Belisarius İtalya'ya çıkınca Milanolular 'Rumları kurtarıcı olarak' karşıladı (bizans, yıl metinde yok; 538 civarı), sonra Uraia 539'da Milano'yu kuşatıp yağmaladı (Gotlar). Yani atlasın 493→553 kesintisiz dogu-got dilimi yanlış basitleştirme: ~538 Bizans / 539 Got dönüşü. 538 ve 552-553 uçları metinde yıl olarak yok; yalnız 539 YIL okundu.",
+   "not": "ANTİK A (KAYNAKLI): f (489, [aralık]) ve t (553-55) yıl düzeyinde teyitli. Dilim bölünmeli: 537 Greklerce 'presidiata' (Bizans garnizonu), 539 Got/Burgund geri alışı (Enc. Ital. 'Uraia 539' ile uyumlu), 553-55 FRANK işgali (künye `frank` var, f=0481) → atlas 553'te Bizans yazıyor; işgal Frank, 555'ten Bizans. Frank 553-55 bir 'işgal' mi idareye katma mı belge yok: ÖLÇÜT: geçici/askerî yönü ağır → isg frank önerilir, d: dogu-got 553-555 sürer? (Treccani 'occupata' der; karar KASA/EMRELİC). Kesin gün yok; hepsi yıl. · YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN: Enc. Ital. Milano — Belisarius İtalya'ya çıkınca Milanolular 'Rumları kurtarıcı olarak' karşıladı (bizans, yıl metinde yok; 538 civarı), sonra Uraia 539'da Milano'yu kuşatıp yağmaladı (Gotlar). Yani atlasın 493→553 kesintisiz dogu-got dilimi yanlış basitleştirme: ~538 Bizans / 539 Got dönüşü. 538 ve 552-553 uçları metinde yıl olarak yok; yalnız 539 YIL okundu.",
    "dosya_satir_eski": "data/yerlesimler.js:1230",
    "tazeleme": {
     "durum": "AYNI",
@@ -29224,7 +29277,14 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Milano», https://www.treccani.it/enciclopedia/milano/ (5.11.2026 okundu)",
+   "alinti2": "Occupata dagli Ostrogoti e invasa dai Burgundi (489-94), subì le gravi devastazioni della guerra gotica (535-53), nel corso della quale fu presidiata dai Greci (537), devastata da Goti e Burgundi (539) e occupata dai Franchi (553-55)",
+   "oneri_son": {
+    "bolunme": "dogu-got 0489-01-01→0537-01-01 | bizans 0537-01-01→0539-01-01 | dogu-got 0539-01-01→0553-01-01 | frank 0553-01-01→0555-01-01 (aralık 553-55) | bizans 0555-01-01→0569-01-01 (Narsete, 563-64 restorasyon)"
+   },
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1222",
@@ -29236,7 +29296,7 @@
    "kaynak": "Treccani, Enciclopedia Italiana (1934), «Milano» md. (https://www.treccani.it/enciclopedia/milano_(Enciclopedia-Italiana)/) ve «Lombardia» md. (https://www.treccani.it/enciclopedia/lombardia_(Enciclopedia-Italiana)/), 4.11.2026'da okundu — Enciclopedia Italiana (1929-37) eski başvuru eseridir: tek başına en çok KISMEN",
    "alinti": "",
    "oneri": {},
-   "not": "Narses'in Milano'yu geri alışı (552-553) bu oturumda kaynakla okunmadı; Lombard fethi 568/569 kaynağı da yok (aşağıya bk).",
+   "not": "ANTİK A (ONERI): t: 569 (atlas 568-01-01). f: Treccani «occupata dai Franchi (553-55); solo dopo la definitiva pacificazione dell'Italia (563-64), trovò nel generale Narsete il proprio restauratore» -> Bizans f=553 Milano için teyitsiz, Frank işgali 553-55 ile örtüşüyor. Treccani Narsete: 555 Conza ile Got hâkimiyeti sona erdi. ONERI [yalnız yıl]. · Narses'in Milano'yu geri alışı (552-553) bu oturumda kaynakla okunmadı; Lombard fethi 568/569 kaynağı da yok (aşağıya bk).",
    "dosya_satir_eski": "data/yerlesimler.js:1230",
    "tazeleme": {
     "durum": "AYNI",
@@ -29246,7 +29306,15 @@
      "f": "0553-01-01",
      "t": "0568-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani, «Milano» «Dalla caduta dell'Impero d'Occidente al Mille», https://www.treccani.it/enciclopedia/milano/",
+   "alinti2": "Conquistata dai Longobardi (569), M. perse importanza politica ed economica a vantaggio di Pavia",
+   "oneri_son": {
+    "f": "0553-01-01",
+    "t": "0569-01-01",
+    "d": "bizans"
+   },
+   "uc": "t"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1222",
@@ -29254,14 +29322,14 @@
    "d": "langobard",
    "f": "0568-01-01",
    "t": "0774-01-01",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani, Enciclopedia Italiana (1934), «Milano» md. (https://www.treccani.it/enciclopedia/milano_(Enciclopedia-Italiana)/) ve «Lombardia» md. (https://www.treccani.it/enciclopedia/lombardia_(Enciclopedia-Italiana)/), 4.11.2026'da okundu — Enciclopedia Italiana (1929-37) eski başvuru eseridir: tek başına en çok KISMEN",
    "alinti": "Assediata da Alboino si arrende dopo tre anni ... Pavia ... centro della monarchia, preferita a Milano; Desiderio si arrendeva a Carlo (774)",
    "oneri": {
     "t": "0774-01-01 (YIL, KAYNAKLI: Pavia 774)",
     "f": "568/569 — Enc. Ital. yıl vermez; Milano'nun düşüşü Alboin'in girişi, 569 (Paulus Diaconus) — bu oturumda okunmadı"
    },
-   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN. t=774 yıl: Enc. Ital. Lombardia 'Pavia (774) Desiderio Carlo'ya teslim oldu' (ÜLKE DÜZEYİ). f=568-01-01: Enc. Ital. Alboin işgalini yıl vermeden anlatır; atlas 568'i = Lombard göçü yılı, Milano'nun düşüşü ayrı (569 ya da sonrası) — kaynak bulunamadı, ARAŞTIRILMALI (DBI 'Alboino' sayfası 208 baytlık boş/yönlendirme döndü).",
+   "not": "ANTİK A (KAYNAKLI): f: Treccani 569 (Milano'ya özgü) vs atlas 568-01-01 künye (Alboin 568 baharı İtalya'da; Milano'nun düşüşü sonra). Önceki 'Milano 569 okunmadı' notu kapandı. t: '773-74' aralığı; 774-01-01 aralık içinde ve ülke 774 (Treccani Longobardi) ile uyumlu → t kalır. Bizans dilimi 553→569'a uzar (delik/çakışma yok). · YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN. t=774 yıl: Enc. Ital. Lombardia 'Pavia (774) Desiderio Carlo'ya teslim oldu' (ÜLKE DÜZEYİ). f=568-01-01: Enc. Ital. Alboin işgalini yıl vermeden anlatır; atlas 568'i = Lombard göçü yılı, Milano'nun düşüşü ayrı (569 ya da sonrası) — kaynak bulunamadı, ARAŞTIRILMALI (DBI 'Alboino' sayfası 208 baytlık boş/yönlendirme döndü).",
    "dosya_satir_eski": "data/yerlesimler.js:1230",
    "tazeleme": {
     "durum": "AYNI",
@@ -29271,7 +29339,15 @@
      "f": "0568-01-01",
      "t": "0774-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Milano» (a.y.)",
+   "alinti2": "Conquistata dai Longobardi (569), M. perse importanza politica ed economica a vantaggio di Pavia | sconfitti i Longobardi (773-74) e assunto il titolo di Rex Langobardorum, Carlo Magno",
+   "oneri_son": {
+    "d": "langobard",
+    "f": "0569-01-01"
+   },
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1222",
@@ -29979,7 +30055,7 @@
    "kaynak": "bakılmadı: hedef dönem değil",
    "alinti": "",
    "oneri": {},
-   "not": "Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
+   "not": "ANTİK A (CELISKI): f ÇELİŞKİ (aynı Iranica maddesinde iki görüş): Hinz/Zadok Elam'ın Babil'in 539 düşüşünden SONRA alındığını söyler (=> f -0538 sonrası olur, atlas -0538-01-01 yıl düzeyi uyumlu ya da biraz erken); de Miroschedji'ye dayanan görüş Elam'ın Babil saldırısından ÖNCE (539 öncesi, -0538 öncesi) alındığını söyler. Kaynak Susa şehrini adıyla tarihlemiyor. f değişmedi, hangisinin doğru olduğuna karar verilmedi; Susa elam-yeni t=-0538 ile ahamenis f=-0538 uyumlu kalır, kayma ihtimali beyanlı. t KAYNAKLI: Iranica Alexander: 'On 1 October 331 the two armies met at the village of Gaugamela... the two great administrative and strategic centers of Babylon and Susa surrendered without struggle' => Susa teslimi 331 sonbahar/kış (=-0330) sonrası; atlas t=-0330-01-01 yıl düzeyidir, Gaugamela 1 Ekim 331 (-0330-10-01) olduğundan t günü Susa'ya özgü okunmadı (yıl düzeyi, teslim günü BULUNAMADI). Hayalet: ahamenis f=-0549 t=-0329; iskender-imparatorlugu f=-0335 t=-0322-06-10 (t=-0330 sonrası İskender dönemi Susa kaydında yok, EKSİK DÖNEM adayı; ayrı iş). · Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -29988,7 +30064,16 @@
      "f": "-0538-01-01",
      "t": "-0330-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Cyrus iii. Cyrus II the Great', https://www.iranicaonline.org/articles/cyrus-iii/ (f için iki görüş); Encyclopaedia Iranica, 'Alexander the Great' (P. Briant), https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/ (t için)",
+   "alinti2": "As for Elam, Walther Hinz (Pauly-Wissowa, Suppl. XII, col. 1026) and Ran Zadok (pp. 61-62) have argued that it was taken by the Persians only after the fall of Babylon  in 539 B.C.E. || Elam must thus have been conquered before Cyrus’ attack on Babylonia (cf. de Miroschedji, p. 305 n. 161).",
+   "oneri_son": {
+    "d": "ahamenis",
+    "f": "-0538-01-01",
+    "t": "-0330-01-01"
+   },
+   "uc": "t",
+   "_etiket": "CELISKI"
   },
   {
    "dosya_satir": "data/yerlesimler_mo_zincir.js:15",
@@ -29996,11 +30081,11 @@
    "d": "elam-yeni",
    "f": "-1099-01-01",
    "t": "-0538-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "bakılmadı: hedef dönem değil",
    "alinti": "",
    "oneri": {},
-   "not": "Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
+   "not": "ANTİK A (KAYNAKLI): f: 1100 -> -1099 tam; t: 539 -> -0538 (Iranica 'perhaps by Cyrus' cekimser; Assurbanipal'in Susa yagmasi 646 devir degil). ULKE DUZEYI. Ahamenis f=-0538 ile bitisik. · Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -30009,7 +30094,11 @@
      "f": "-1099-01-01",
      "t": "-0538-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Elam i. The history of Elam' (Vallat), https://www.iranicaonline.org/articles/elam-i/ (sayfa.py ham metin)",
+   "alinti2": "The Neo-Elamite Period (1100-539 B.C.E.). // the conquest of Susiana, thus of Elam, by the Achaemenids, perhaps by Cyrus in 539.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler_mo_zincir.js:15",
@@ -30017,11 +30106,11 @@
    "d": "elam-orta",
    "f": "-1499-01-01",
    "t": "-1099-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "bakılmadı: hedef dönem değil",
    "alinti": "",
    "oneri": {},
-   "not": "Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
+   "not": "ANTİK A (KAYNAKLI): [yaklasik] ca. 1500 -> -1499, ca. 1100 -> -1099; atlas f/t ile birebir. Iranica kronolojisi. ULKE DUZEYI (Anshan ve Susa kirallari Huzistan ve Fars'i denetledi). · Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -30030,7 +30119,11 @@
      "f": "-1499-01-01",
      "t": "-1099-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Elam i. The history of Elam' (Vallat), https://www.iranicaonline.org/articles/elam-i/ (sayfa.py ham metin)",
+   "alinti2": "The Middle Elamite period (ca. 1500-1100 B.C.E.).",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler_mo_zincir.js:15",
@@ -30042,7 +30135,7 @@
    "kaynak": "bakılmadı: hedef dönem değil",
    "alinti": "",
    "oneri": {},
-   "not": "Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
+   "not": "ANTİK A (ONERI): [yaklasik][aralik] f: atlas -1899 vs Iranica -1969; t: atlas -1499 vs Iranica -1599. Orta Elam ca. 1500'de basliyor; 1600-1500 arasi Iranica'da ayri dönem degil. Delik acmamak icin t=-1499 korunup Orta Elam f'ye bitisik birakilabilir; karar KASA. Kunye f/t hayalet-devlet denetimi yapilmadi (LAB). · Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -30051,7 +30144,14 @@
      "f": "-1899-01-01",
      "t": "-1499-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Elam i. The history of Elam' (Vallat), https://www.iranicaonline.org/articles/elam-i/ (sayfa.py ham metin)",
+   "alinti2": "The Epartid or sukkalmah dynasty (ca. 1970-1600 B.C.E.).",
+   "oneri_son": {
+    "f": "-1969-01-01",
+    "t": "-1599-01-01"
+   },
+   "uc": "f+t"
   },
   {
    "dosya_satir": "data/yerlesimler_mo_zincir.js:15",
@@ -30063,7 +30163,7 @@
    "kaynak": "bakılmadı: hedef dönem değil",
    "alinti": "",
    "oneri": {},
-   "not": "Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
+   "not": "ANTİK A (ONERI): [yaklasik] Iranica Susiana'nin Elam'a katilisini 2004 (=-2003) verir; atlas f=-2023 erken. t: sukkalmah hanedani ca. 1970 (=-1969); atlas t=-1899 gec. Simaski ca. 2100-1970 [aralik]. Kaynak yalniz Iranica. · Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -30072,7 +30172,14 @@
      "f": "-2023-01-01",
      "t": "-1899-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Elam i. The history of Elam' (Vallat), https://www.iranicaonline.org/articles/elam-i/ (sayfa.py ham metin)",
+   "alinti2": "the Elamites ... brought an end to the empire of Ur in 2004 B.C.E., they annexed Susiana, where the Epartid, or sukkalmah, dynasty was founded by the ninth king of Simaški. // The Epartid or sukkalmah dynasty (ca. 1970-1600 B.C.E.).",
+   "oneri_son": {
+    "f": "-2003-01-01",
+    "t": "-1969-01-01"
+   },
+   "uc": "f+t"
   },
   {
    "dosya_satir": "data/yerlesimler_mo_zincir.js:15",
@@ -30084,7 +30191,7 @@
    "kaynak": "bakılmadı: hedef dönem değil",
    "alinti": "",
    "oneri": {},
-   "not": "Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
+   "not": "ANTİK A (ONERI): f: Iranica Ur-Nammu 2112-2095 (orta kron.) verir; Susa'yi Ur'a 'yeniden' katan Sulgi (2094-47). Ur-Nammu'nun Susa'yi ilk ne zaman aldigi yilsiz -> f=-2111 teyitsiz, Sulgi'ye gore -2093 (MO 2094). t: Iranica Ur'un sonu ve Susiana'nin Elam'a katilisi MO 2004 = -2003; atlas t=-2023 yaklasik 20 yil erken. Tek kaynak (Iranica; Frayne RIME ile karsilastirilmadi). ULKE DUZEYI. · Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -30093,7 +30200,14 @@
      "f": "-2111-01-01",
      "t": "-2023-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Elam i. The history of Elam' (Vallat), https://www.iranicaonline.org/articles/elam-i/ (sayfa.py ham metin)",
+   "alinti2": "Several years later Šulgi of Ur (2094-47) retook the city with the surrounding region, which once again became an integral part of the Mesopotamian empire and remained so until that empire collapsed. // the Elamites, allied with the people of Susiana, brought an end to the empire of Ur in 2004 B.C.E., they annexed Susiana",
+   "oneri_son": {
+    "f": "-2093-01-01",
+    "t": "-2003-01-01"
+   },
+   "uc": "f+t"
   }
  ],
  "Alamut (Alamut Kalesi, Kazvin vilayeti)": [
@@ -30258,11 +30372,11 @@
    "d": "ahamenis-misir",
    "f": "-0524-01-01",
    "t": "-0403-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "bakılmadı: hedef dönem değil",
    "alinti": "",
    "oneri": {},
-   "not": "Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
+   "not": "ANTİK A (KAYNAKLI): f ucu: MO 525 = astronomik -0524, atlas ile uyumlu (Cambyses 525 yazinda Misir fethi, Pelusium sonrasi Memphis). t=-0403 (MO 404, Amyrtaios/28. hanedan) Iranica Cambyses, Darius II, Artaxerxes II maddelerinde tarihlenmedi; t ucu dogrulanmadi (ONERI duzeyi). Shaw konvansiyonu (27. hanedan 525-404) beklenen ama okunamadi. Sonraki BOSLUK -0403..-0401 bu satirin kapsami disinda. · Dönemin mevcut kaynağı dolu (kaynaksız/DEVRALMA değil); görev kapsamı dışı olduğundan bu oturumda yeniden doğrulanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -30271,7 +30385,14 @@
      "f": "-0524-01-01",
      "t": "-0403-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, \"Cambyses\", https://www.iranicaonline.org/articles/cambyses-opers/",
+   "alinti2": "In 525 B.C. Cambyses marched against Egypt. By summer all of Egypt was in their hands.",
+   "tarayici_gerekli": [
+    "Shaw (ed.) 2000, Oxford History of Ancient Egypt: archive.org oxfordhistoryofa0000unse_u4p1 401 verdi; Emre girisi (t ucu, MO 404 / 27. hanedan sonu)"
+   ],
+   "uc": "f",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   }
  ],
  "Riga": [
@@ -32808,7 +32929,7 @@
    "kaynak": "Treccani Nimega (treccani.it/enciclopedia/nimega/)",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Nimega maddesi kısa (≈2 bin karakter); 395/476 yok. Mevcut DEVRALMA kaynağı Odoacre maddesi ülke düzeyinde — ÜLKE DÜZEYİ. Nijmegen'in 395-476 arası Batı Roma'da kaldığına dair yerleşime özgü kaynak bulunamadı.",
+   "not": "ANTİK A (BULUNAMADI): Önceki tur BULUNAMADI (Treccani Nimega 395/476 yok) bu turda yeniden okunmadı. · Treccani Nimega maddesi kısa (≈2 bin karakter); 395/476 yok. Mevcut DEVRALMA kaynağı Odoacre maddesi ülke düzeyinde — ÜLKE DÜZEYİ. Nijmegen'in 395-476 arası Batı Roma'da kaldığına dair yerleşime özgü kaynak bulunamadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -33271,7 +33392,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "BAKILMADI TURU: Bakılan: web arama (Wikipedia Dou Jiande / Battle of Hulao: Xia başkenti Leshou, saltanat 617-02-15 → 621-05-28; Hulao 621-05-28). Yalnız Vikipedi düzeyi, akademik kaynak (Cambridge History of China cilt 3; Jiu Tang shu) bu turda okunmadı. Atlas f=0617-02-10 ile Vikipedi 617-02-15 farklı: ay-güneş takvimi çevrimi EMRELİC'te toplu yapılır, burada çevrilmedi; Academia Sinica ile çevrilecek. Bitiş 621-05-28 iki kaynakta uyuşuyor ama KAYIT günüdür (Dou'nun yenilgisi), Leshou'nun Tang eline geçiş günü değildir: şehre özgü gün bulunamadı. ÖLÇÜT: idareye katma — başkent, kendi idaresi. · eski: HEDEF DÖNEM YOK: partideki 12 dönemin 12'sinde kaynak dolu ve DEVRALMA değil (Jiu Tang shu, Xin Wudai shi, Song shi, Jin shi, Yuan shi, Ming shi, Qing shi gao, Qing veda fermanı). Taiyuan/Chengdu satırlarında aynı Leshou kaynağından DEVRALMA'yla gelen Ming 1368-09-14 ucu (Dadu'nun alınışı) Leshou'da doğrudur, ama diğer şehirlere taşınamaz. AD KARIŞMASI kontrolü: Leshou (樂壽, bugünkü Xianxian, Hebei) kronolojide anılan Dou Jiande başkenti ile aynı yer; karışma yok. Bu oturumda kaynak aranmadı.",
+   "not": "ANTİK A (ONERI): Bakilan: archive.org arama (Cambridge History of China cilt 3, Twitchett, Dou Jiande): cilt acik degil, sonuc yok; ctext.org Jiu Tang shu sayfasi denendi, 'Leshou' anahtari bulunmadi. Onceki turun yalniz Vikipedi duzeyindeki tarihleri (Vikipedi f 617-02-15 / atlas 617-02-10; t 621-05-28 Hulao KAYIT gunu, sehre ozgu gecis gunu degil) akademik kaynakla teyitsiz kaldi. Ay-gunes takvim cevirisi EMRELIC'te toplu yapilir (Academia Sinica), cevrilmedi. Donem degismeden kalir. OLCUT: idareye katma - Xia baskenti Leshou, kendi idaresi. · BAKILMADI TURU: Bakılan: web arama (Wikipedia Dou Jiande / Battle of Hulao: Xia başkenti Leshou, saltanat 617-02-15 → 621-05-28; Hulao 621-05-28). Yalnız Vikipedi düzeyi, akademik kaynak (Cambridge History of China cilt 3; Jiu Tang shu) bu turda okunmadı. Atlas f=0617-02-10 ile Vikipedi 617-02-15 farklı: ay-güneş takvimi çevrimi EMRELİC'te toplu yapılır, burada çevrilmedi; Academia Sinica ile çevrilecek. Bitiş 621-05-28 iki kaynakta uyuşuyor ama KAYIT günüdür (Dou'nun yenilgisi), Leshou'nun Tang eline geçiş günü değildir: şehre özgü gün bulunamadı. ÖLÇÜT: idareye katma — başkent, kendi idaresi. · eski: HEDEF DÖNEM YOK: partideki 12 dönemin 12'sinde kaynak dolu ve DEVRALMA değil (Jiu Tang shu, Xin Wudai shi, Song shi, Jin shi, Yuan shi, Ming shi, Qing shi gao, Qing veda fermanı). Taiyuan/Chengdu satırlarında aynı Leshou kaynağından DEVRALMA'yla gelen Ming 1368-09-14 ucu (Dadu'nun alınışı) Leshou'da doğrudur, ama diğer şehirlere taşınamaz. AD KARIŞMASI kontrolü: Leshou (樂壽, bugünkü Xianxian, Hebei) kronolojide anılan Dou Jiande başkenti ile aynı yer; karışma yok. Bu oturumda kaynak aranmadı.",
    "dosya_satir_eski": "data/yerlesimler_dogu_500_1281.js:None",
    "tazeleme": {
     "durum": "AYNI",
@@ -33281,7 +33402,11 @@
      "f": "0617-02-10",
      "t": "0621-05-28"
     }
-   }
+   },
+   "tarayici_gerekli": [
+    "Cambridge History of China cilt 3 (Sui and T'ang China 589-906, Twitchett ed.): archive.org'da acik surumu yok; Emre girisi / kutuphane erisimi"
+   ],
+   "uc": "f+t"
   }
  ],
  "Larsa (Tell as-Senkereh)": [
@@ -41902,7 +42027,7 @@
    "kaynak": "Enciclopedia Italiana (1935), 'Parma' (https://www.treccani.it/enciclopedia/parma_%28Enciclopedia-Italiana%29/) okundu",
    "alinti": "Sotto l'imperatore Massimo (387 d. C.) Parma, come le consorelle dell'Emilia, decadde",
    "oneri": {},
-   "not": "EI Parma Roma hâkimiyetini anıyor (fetih, 387 imp. Maximus) ama roma-imp uçlarını (-0026-01-16, 0395-01-17) vermiyor; ÜLKE DÜZEYİ ucu (mevcut DEVRALMA künye kaynağı). Parma'ya özgü uç kaynağı bulunamadı.",
+   "not": "ANTİK A (BULUNAMADI): Treccani Parma yeniden okundu: lex Rubria (forse 49 a.C.) Roma vatandaşlığı; -0026 ucu yok. ÜLKE DÜZEYİ künye ucu. · EI Parma Roma hâkimiyetini anıyor (fetih, 387 imp. Maximus) ama roma-imp uçlarını (-0026-01-16, 0395-01-17) vermiyor; ÜLKE DÜZEYİ ucu (mevcut DEVRALMA künye kaynağı). Parma'ya özgü uç kaynağı bulunamadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -41923,7 +42048,7 @@
    "kaynak": "EI 'Parma' okundu",
    "alinti": "",
    "oneri": {},
-   "not": "Parma'ya özgü kaynak yok; ÜLKE DÜZEYİ künye ucu (DEVRALMA). Uç günleri Parma maddesinde geçmiyor.",
+   "not": "ANTİK A (BULUNAMADI): Treccani Parma: 395/476 yok. · Parma'ya özgü kaynak yok; ÜLKE DÜZEYİ künye ucu (DEVRALMA). Uç günleri Parma maddesinde geçmiyor.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -41940,11 +42065,11 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "EI 'Parma' okundu (anahtar 'Odoacre' YOK)",
    "alinti": "",
    "oneri": {},
-   "not": "EI Parma Odoaker'i anmıyor; Parma'ya özgü kaynak bulunamadı. Uçlar ülke düzeyi.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ: şehre özgü cümle yok; yıl düzeyi (gün 08-23 / 03-05 kaynakta yok, künye günüdür). Treccani «Parma» Odoacre'yi anmıyor (önceki BULUNAMADI EI idi); ülke düzeyi yıl teyitli. · EI Parma Odoaker'i anmıyor; Parma'ya özgü kaynak bulunamadı. Uçlar ülke düzeyi.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -41953,7 +42078,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia on line, «Odoacre», https://www.treccani.it/enciclopedia/odoacre/ ; «Teodorico», https://www.treccani.it/enciclopedia/teodorico/ (5.11.2026 okundu)",
+   "alinti2": "O. fu a capo della ribellione che depose Romolo Augustolo (476). sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:502",
@@ -43801,7 +43930,7 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Enciclopedia Italiana (1937) «Verona» (Treccani), https://www.treccani.it/enciclopedia/verona_(Enciclopedia-Italiana)/",
    "alinti": "il 27 settembre 489 Teodorico vi otteneva la vittoria su Odoacre",
    "oneri": {
@@ -43810,7 +43939,7 @@
     "d": null,
     "isg": null
    },
-   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · KISMEN (EI 1937 eski eser, tek kaynak; ikinci akademik kaynak aranmalı). Teodorik Verona'da Odoaker'i yendi (27 Eylül 489). ORTAÇAĞ ÖLÇÜTÜ: şehrin fiilen el değiştirdiği gün olarak savaş günü önerilir (şehrin teslim günü kaynakta yok). Önerilen: odoakar t = dogu-got f = 0489-09-27; künye uçları (493-03-05 Ravenna) ülke düzeyidir. KASA karar verir.",
+   "not": "ANTİK A (KAYNAKLI): Ortaçağ ölçütü: şehirde yapılan muharebe günü el değişimi günü olarak alınır (şehrin teslim günü kaynakta yok); iki Treccani maddesi uyumlu. EI 1937 eski eser ama Treccani güncel madde yılı çift teyit eder (489). Atlas t=493-03-05 (Ravenna, ülke) Verona için 4 yıl geç. Çiftin diğer ucu dogu-got f. · YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · KISMEN (EI 1937 eski eser, tek kaynak; ikinci akademik kaynak aranmalı). Teodorik Verona'da Odoaker'i yendi (27 Eylül 489). ORTAÇAĞ ÖLÇÜTÜ: şehrin fiilen el değiştirdiği gün olarak savaş günü önerilir (şehrin teslim günü kaynakta yok). Önerilen: odoakar t = dogu-got f = 0489-09-27; künye uçları (493-03-05 Ravenna) ülke düzeyidir. KASA karar verir.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -43819,7 +43948,15 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia Italiana (1937) «Verona», https://www.treccani.it/enciclopedia/verona_(Enciclopedia-Italiana)/ ; Treccani «Verona», https://www.treccani.it/enciclopedia/verona/ (5.11.2026 okundu)",
+   "alinti2": "il 27 settembre 489 Teodorico vi otteneva la vittoria su Odoacre | (vittoria di Teodorico su Odoacre, 489)",
+   "oneri_son": {
+    "d": "odoakar",
+    "t": "0489-09-27"
+   },
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:472",
@@ -43827,7 +43964,7 @@
    "d": "dogu-got",
    "f": "0493-03-05",
    "t": "0553-01-01",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Enciclopedia Italiana (1937) «Verona» (Treccani)",
    "alinti": "il 27 settembre 489 Teodorico vi otteneva la vittoria su Odoacre",
    "oneri": {
@@ -43836,7 +43973,7 @@
     "d": null,
     "isg": null
    },
-   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · KISMEN: f önerisi Odoaker satırıyla birlikte. t=553-01-01 ucu (Bizans) için EI 1937 ve Treccani online'da Narses/Gotik Savaş cümlesi YOK (arandı: Narsete, Giustiniano, Totila → bulunamadı); ÜLKE DÜZEYİ künye. Yer-özgü Bizans fethi (Verona Gotlar'ın elinde geç kalmış olabilir) ayrıca araştırılmalı.",
+   "not": "ANTİK A (KAYNAKLI): f çifti odoakar t ile birlikte taşınır. t=553: ne EI ne Treccani Verona'da Narses/Bizans cümlesi var (Verona'nın geç Got kalışı/Frank-Bizans geçişi) → t kaynaksız, ayrıca aranmalı. · YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · KISMEN: f önerisi Odoaker satırıyla birlikte. t=553-01-01 ucu (Bizans) için EI 1937 ve Treccani online'da Narses/Gotik Savaş cümlesi YOK (arandı: Narsete, Giustiniano, Totila → bulunamadı); ÜLKE DÜZEYİ künye. Yer-özgü Bizans fethi (Verona Gotlar'ın elinde geç kalmış olabilir) ayrıca araştırılmalı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -43845,7 +43982,15 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani Enciclopedia Italiana (1937) «Verona» (a.y.)",
+   "alinti2": "il 27 settembre 489 Teodorico vi otteneva la vittoria su Odoacre; e durante il suo regno egli vi eresse un palazzo e vi soggiornò spesso",
+   "oneri_son": {
+    "d": "dogu-got",
+    "f": "0489-09-27"
+   },
+   "uc": "f",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:472",
@@ -44167,7 +44312,7 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani «Taranto» (online) ve EI 1937 «Taranto» okundu (Odoacre geçmez)",
    "alinti": "",
    "oneri": {
@@ -44176,7 +44321,7 @@
     "d": null,
     "isg": null
    },
-   "not": "ÜLKE DÜZEYİ künye; Taranto maddelerinde Odoaker/Ostrogot hâkimiyetinin başlangıcı yok.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ (İtalya Odoakar krallığı); şehre özgü tanıklık yok. f: Odoakar kral ilanı 23 Ağustos 476 (EI gün; Treccani online yıl 476). t: Teodorik'in Ravenna'ya girişi 5 Mart 493 (EI) / 493 (Treccani online). Künye odoakar f=0476-08-23 t=0493-03-05 (devletler.js:19840) ile satır uçları AYNI, hayalet yok. Taranto'ya özgü (Apulia) Odoakar tanıklığı bulunamadı; Treccani Taranto maddesi Odoakar'ı anmaz. · ÜLKE DÜZEYİ künye; Taranto maddelerinde Odoaker/Ostrogot hâkimiyetinin başlangıcı yok.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -44185,7 +44330,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Odoacre», https://www.treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/ ; Treccani online «Odoacre» https://www.treccani.it/enciclopedia/odoacre/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (hepsi 5 Kasım 2026'da sayfa.py ham metninden okundu)",
+   "alinti2": "O. fu acclamato re dagl'insorti (23 agosto 476); Oreste fu ucciso a Piacenza (28 agosto). Il 5 marzo Teodorico entrava in Ravenna; dieci giorni dopo, accusando O. d'insidie, lo uccideva nel palazzo del Laureto.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:124",
@@ -47316,11 +47465,11 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Firenze Odoacer donemini anmiyor; ULKE DUZEYI.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ (İtalya Odoakar krallığı); şehre özgü tanıklık yok. f: Odoakar kral ilanı 23 Ağustos 476 (EI gün; Treccani online yıl 476). t: Teodorik'in Ravenna'ya girişi 5 Mart 493 (EI) / 493 (Treccani online). Künye odoakar f=0476-08-23 t=0493-03-05 (devletler.js:19840) ile satır uçları AYNI, hayalet yok. EI Toscana bölge düzeyinde (Tuscia) Odoakar'ı anar, tarihsiz. · Treccani Firenze Odoacer donemini anmiyor; ULKE DUZEYI.",
    "dosya_satir_eski": "data/yerlesimler.js:1244",
    "tazeleme": {
     "durum": "AYNI",
@@ -47330,7 +47479,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Odoacre», https://www.treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/ ; Treccani online «Odoacre» https://www.treccani.it/enciclopedia/odoacre/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (hepsi 5 Kasım 2026'da sayfa.py ham metninden okundu) ; EI «Toscana» https://www.treccani.it/enciclopedia/toscana_(Enciclopedia-Italiana)/",
+   "alinti2": "O. fu acclamato re dagl'insorti (23 agosto 476); Oreste fu ucciso a Piacenza (28 agosto). Il 5 marzo Teodorico entrava in Ravenna; dieci giorni dopo, accusando O. d'insidie, lo uccideva nel palazzo del Laureto. EI Toscana: Venne devastata prima dagli Alamanni, fu poi sotto il dominio di Odoacre e degli Ostrogoti.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1236",
@@ -47342,7 +47495,7 @@
    "kaynak": "Treccani Enciclopedia on line, 'Firenze' (https://www.treccani.it/enciclopedia/firenze/, 04.11.2026'da okundu)",
    "alinti": "durante la guerra greco-gotica (535-553), come caposaldo dei Bizantini",
    "oneri": {},
-   "not": "Treccani: Rum-Got savasi 535-553 boyunca Floransa Bizans kalesi (Totila kusatmasi) - Dogu Got sahipliginin 493-535 ucu ve 553 sonu sehre ozgu verilmiyor. Atlas dogu-got t=553 ve bizans f=553 yil duzeyinde savasin bitis yiliyle uyumlu (Treccani 553 verir, bizans f=553-01-01 YIL). Sehir Bizans kaleyse 535-553 arasi Bizans yazilmasi gerekebilir: KASA, kaynak okuyarak karar versin (ONERI degil, sehir surekli Bizans elinde miydi belirsiz).",
+   "not": "ANTİK A (ONERI): Şehre özgü: Treccani Firenze şehri Gotik Savaş (535-553) boyunca 'Bizanslıların kalesi' (caposaldo dei Bizantini) olarak anar; EI Totila Got kuvvetlerinin Floransa'yı boşuna denediğini söyler. Bu, 493-553 kesintisiz dogu-got yazımıyla ÇELİŞİR: Floransa Got Savaşı sırasında (yılı tarihlenmemiş) Bizans elindeydi. Uç tarihlenmedi -> ONERI; dilim bölünmeli (dogu-got 493 -> <Bizans'a geçiş yılı>, bizans -> 568), Bizans'a geçiş yılı kaynakta yok. Ülke düzeyi f=493, t=553/552 çelişkisi için Taranto/Lucca satırlarındaki nota bak (EI 553 vs güncel Treccani 552). · Treccani: Rum-Got savasi 535-553 boyunca Floransa Bizans kalesi (Totila kusatmasi) - Dogu Got sahipliginin 493-535 ucu ve 553 sonu sehre ozgu verilmiyor. Atlas dogu-got t=553 ve bizans f=553 yil duzeyinde savasin bitis yiliyle uyumlu (Treccani 553 verir, bizans f=553-01-01 YIL). Sehir Bizans kaleyse 535-553 arasi Bizans yazilmasi gerekebilir: KASA, kaynak okuyarak karar versin (ONERI degil, sehir surekli Bizans elinde miydi belirsiz).",
    "dosya_satir_eski": "data/yerlesimler.js:1244",
    "tazeleme": {
     "durum": "AYNI",
@@ -47352,7 +47505,13 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Treccani online «Firenze» https://www.treccani.it/enciclopedia/firenze/ ; Treccani EI «Totila» https://www.treccani.it/enciclopedia/totila_(Enciclopedia-Italiana)/ ; EI «Toscana» (5 Kasım 2026, ham metin)",
+   "alinti2": "durante la guerra greco-gotica (535-553), come caposaldo dei Bizantini, all'assedio postogli da re Totila. // Totila: tentata invano Firenze",
+   "tarayici_gerekli": [
+    "Procopius/CAH XIV: Floransa'nın Bizans eline geçiş yılı (Constantinus Toskana seferi 537-538?) - okunmadı"
+   ],
+   "uc": "t"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1236",
@@ -47382,11 +47541,11 @@
    "d": "langobard",
    "f": "0568-01-01",
    "t": "0774-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani Enciclopedia on line, 'Firenze' (https://www.treccani.it/enciclopedia/firenze/, 04.11.2026'da okundu)",
    "alinti": "Suddivisa in ducati la Tuscia longobarda, F. ebbe il suo proprio duca",
    "oneri": {},
-   "not": "Treccani Longobard Tuscia dukaligi ve Floransa dukasini teyit eder (devlet KAYNAKLI) ama 568 ve 774 uclari yok. Uc kaynagi bulunamadi.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ t=774 (iki Treccani çalışması). f=0568: yalnız EI Toscana 'dominio longobardo (568-774)' (Tuscia, bölge düzeyi, tek ve eski kaynak) ve EI Longobardi 2 Nisan 568 yürüyüşün başlangıcı; Floransa'nın Lombard eline geçiş günü yok. Floransa'nın kendi Lombard dükü Treccani Firenze'de var (tarihsiz). Künye langobard f=0568-01-01 t=0774-01-01 (devletler.js:19908) uyumlu. · Treccani Longobard Tuscia dukaligi ve Floransa dukasini teyit eder (devlet KAYNAKLI) ama 568 ve 774 uclari yok. Uc kaynagi bulunamadi.",
    "dosya_satir_eski": "data/yerlesimler.js:1244",
    "tazeleme": {
     "durum": "AYNI",
@@ -47396,7 +47555,11 @@
      "f": "0568-01-01",
      "t": "0774-01-01"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1934), «Longobardi», https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/ ; Treccani online «Longobardi» https://www.treccani.it/enciclopedia/longobardi/ (5 Kasım 2026, ham metin) ; EI «Toscana» https://www.treccani.it/enciclopedia/toscana_(Enciclopedia-Italiana)/ ; Treccani online «Firenze»",
+   "alinti2": "EI: Verona e poi Pavia, assediate, caddero (giugno 774, Pavia). Treccani online: Ciò avvenne, in modo definitivo, con il figlio di Pipino , Carlomagno , nel 774. // Treccani Firenze: Suddivisa in ducati la Tuscia longobarda, F. ebbe il suo proprio duca",
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1236",
@@ -50650,7 +50813,7 @@
     "d": "",
     "isg": ""
    },
-   "not": "Partide tek dönem ve zaten akademik (Bayes/radyokarbon) kaynaklı; kaynağı boş/DEVRALMA dönem YOK. Koordinat (25.9017, 32.7242) Nakâde (Naqada, Qena) ile uyumlu, AD KARIŞMASI yok. Antik kronoloji konvansiyonu (Shaw, Oxford History of Ancient Egypt 2000) kullanıldığına dair beyan bu oturumda doğrulanmadı: mevcut kaynak Dee ve ark. 2013 (Shaw'dan ayrı bir kronoloji, ic_not'ta beyan gerekebilir). Araç çağrısı harcanmadı.",
+   "not": "ANTİK A (ONERI): Bakildi: royalsocietypublishing.org 403, PMC tahmini kimlik tutmadi; tablo metni okunamadi. Mevcut kaynak Dee ve ark. 2013 Tablo 1 akademik; Bayes modeli Shaw konvansiyonundan ayri, ic_not beyani onerilir (kronoloji: Dee 2013 Bayes, Shaw 2000 degil). Uc dogrulamasi yapilmadi. · Partide tek dönem ve zaten akademik (Bayes/radyokarbon) kaynaklı; kaynağı boş/DEVRALMA dönem YOK. Koordinat (25.9017, 32.7242) Nakâde (Naqada, Qena) ile uyumlu, AD KARIŞMASI yok. Antik kronoloji konvansiyonu (Shaw, Oxford History of Ancient Egypt 2000) kullanıldığına dair beyan bu oturumda doğrulanmadı: mevcut kaynak Dee ve ark. 2013 (Shaw'dan ayrı bir kronoloji, ic_not'ta beyan gerekebilir). Araç çağrısı harcanmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -50659,7 +50822,11 @@
      "f": "-3755-01-01",
      "t": "-3125-01-01"
     }
-   }
+   },
+   "tarayici_gerekli": [
+    "Dee ve ark. 2013 (royalsocietypublishing 403); Emre girisi gerekebilir"
+   ],
+   "uc": "f+t"
   }
  ],
  "Graz": [
@@ -52390,7 +52557,7 @@
     "d": null,
     "isg": null
    },
-   "not": "Xiazhou'nun 6 döneminin tamamında mevcut kaynak var (Zizhi tongjian, Song shi vb.); hedef yok, okunmadı. AD KARIŞMASI yok: koordinat (37.999, 108.849) Tongwancheng = Xiazhou (夏州, Helian Bobo'nun başkenti Tongwan) — yer kronolojideki anılan yerle aynı. Not: 0994-05-06 → 0994-05-16 Song kısa dilimi ve 0427-07-12 → 0881 boşluk mevcut kaynaklı beyan.",
+   "not": "ANTİK A (ONERI): Bakilan: archive.org arama (Cambridge History of China, Helian Bobo Xia / Northern Wei): acik cilt yok; ham metin okunamadi. Donem uclari (f 413-01-01, t 427-07-12) akademik kaynakla teyitsiz. Kuzey Wei'nin Tongwan'i alisi ay-gunes takvimiyle kayitlidir; gun cevirisi EMRELIC'te yapilmali. Astronomik yil sorunu yok (MS). Hayalet devlet: hu-xia kunyesi devletler.js'te grep'te tek satirlik (28728) kayitta; f/t okunmadi. · Xiazhou'nun 6 döneminin tamamında mevcut kaynak var (Zizhi tongjian, Song shi vb.); hedef yok, okunmadı. AD KARIŞMASI yok: koordinat (37.999, 108.849) Tongwancheng = Xiazhou (夏州, Helian Bobo'nun başkenti Tongwan) — yer kronolojideki anılan yerle aynı. Not: 0994-05-06 → 0994-05-16 Song kısa dilimi ve 0427-07-12 → 0881 boşluk mevcut kaynaklı beyan.",
    "dosya_satir_eski": "data/yerlesimler_dogu_500_1281.js:None",
    "tazeleme": {
     "durum": "AYNI",
@@ -52400,7 +52567,12 @@
      "f": "0413-01-01",
      "t": "0427-07-12"
     }
-   }
+   },
+   "tarayici_gerekli": [
+    "Cambridge History of China cilt 3 (Sui and T'ang China 589-906, Twitchett ed.): archive.org'da acik surumu yok; Emre girisi / kutuphane erisimi",
+    "Hu Xia (Helian Bobo, Tongwancheng 413-427): Cambridge History of China / Zizhi tongjian nesri; erisilemedi"
+   ],
+   "uc": "f+t"
   }
  ],
  "Sârî": [
@@ -56391,17 +56563,17 @@
    "d": "part",
    "f": "-0140-01-01",
    "t": "0224-04-28",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Lendering, Livius.org: Seleucia on the Tigris, https://www.livius.org/articles/place/seleucia-on-the-tigris/",
    "alinti": "The city was conquered in 141 BCE by the Parthian king Mithradates I the Great",
    "oneri": {
     "d": "part; ara isg roma: 116 (Trajan), 165 (Avidius Cassius) YIL; sonra sasani 3. yy",
     "t": "224 (Livius yalnız 'third century' der)"
    },
-   "not": "YÜKSELTME TURU (ONERI): Okunmuş akademik kaynak yok: mevcut kaynak Livius.org (Lendering; akademik listede değil, popüler/sitesel). Önerinin değiştirdiği uçlar (116 Trajan, 165 Cassius, Sasani 3. yy/224) Livius dışında bu partide okunmadı. Iranica «Seleucia on the Tigris»nın slug'ı tahmin edilir olduğundan denenmedi (brif: tahmini Iranica slug'ı 404). Öneri çok parçalı (3 ayrı isg/s katmanı); gün düzeyinde kaynak bulunamadı. KASA'ya bölünme gerekir: önce tarayıcıyla Iranica/ EI «Seleukeia on the Tigris» aranmalı. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): Nokta Dicle Seleukeia'sı (33.10/44.52, yerlesimler_mo_zincir.js:8). Pieria Seleukeia'sı ve Fırat Seleukeia'sı (Zeugma) için veride nokta yok (ölçüldü) → kronoloji anılmalarının bağlamı okunup ayrılır; Pieria/Zeugma anılmaları varsa KASA-YER. · Başlangıç 141 BCE = atlas -0140 (astronomik yıl); aynı kaynak mevcut. ÇELİŞKİ ADAYI: Livius 'twin cities were captured several times by the Romans: Trajan took them in 116, Avidius Cassius ...' (165, 'this may have been the end of Seleucia'); Septimius Severus'un seferi — ÖLÇÜT: geçici/askerî (Part iddiası sürdü), gün BULUNAMADI. Bitiş: 'In the third century, the city was renamed Veh-Ardašir by the Sasanians'; Carus 283. 224-04-28 uç kaynakta yok; Sasani sahipliği 224'ten itibaren ÖNERİ (YIL düzeyi). Livius ikincil; TDV/Iranica doğrulaması bu partide yapılmadı. AD KARIŞMASI olasılığı: Livius sayfası kendi başlığında 'Seleucia in Pieria' ve 'on the Euphrates' ile karıştırılmamasını söyler; koordinat Tell Umar (Tigris) — kronoloji maddelerindeki 'Seleukeia' (en çok anılan) hangisi, kontrol edilmedi.",
+   "not": "ANTİK A (KAYNAKLI): f: Iranica Arsacids ii, 'by 12 October 141' Uruk'ta tanınan Mithridates 'shortly before this' Seleukeia'da kral taç giydi => 141 yılı (=astronomik -0140), yıl düzeyi, mevcut f ile uyumlu. t: Part sonu 28 Nisan 224 'probably' (ÜLKE DÜZEYİ); Seleukeia'da Part darphanesi 221/2'ye kadar sürer ('coinage of Vologases VI continued to appear in Seleucia until at least 221/2'), yani şehir 224'e kadar Part. Sasani dönemi: Ctesiphon maddesi 'around 230, Ardašīr I founded a new city at Ctesiphon... Weh-Ardašīr' - 224 sonrası sahip sasani (künye sasani f=0224-04-28 t=0651-01-01 var; kayıtta bu dönem yok, ayrı iş). ARA ROMA İŞGALLERİ (Iranica; Livius'tan değil): Trajan Ktesiphon'u 116 ilkbahar/yaz aldı (Ctesiphon maddesi), 117'de Parthamaspates taç giydi, Arsacids ii'ye göre Trajan 'Assyria' eyaletini (Babil toprağına kabaca denk) kurdu ve Hadrian vazgeçti => ÖLÇÜT: idareye katma - yıl düzeyi roma-imp 116→117 (roma-imp f=-0026-01-16 t=0395-01-17 künyesi kapsar); gün BULUNAMADI; Cassius 165 sonu-166 başı (Ctesiphon: 'December 165') Seleucia ve Ctesiphon'u aldı, 166 ilkbaharında salgın nedeniyle çekildi ve 195-199 Severus: ÖLÇÜT: geçici/askerî (Part iddiası sürdü, idareye katma belgesi yok) => isg adayı, gün BULUNAMADI, yıla indirme gerekirse çakışma açmaz ama KASA/Emre kararıdır. AD KARIŞMASI: bu nokta Dicle Seleukeia'sıdır (Tell Umar), Pieria/Zeugma değil. · YÜKSELTME TURU (ONERI): Okunmuş akademik kaynak yok: mevcut kaynak Livius.org (Lendering; akademik listede değil, popüler/sitesel). Önerinin değiştirdiği uçlar (116 Trajan, 165 Cassius, Sasani 3. yy/224) Livius dışında bu partide okunmadı. Iranica «Seleucia on the Tigris»nın slug'ı tahmin edilir olduğundan denenmedi (brif: tahmini Iranica slug'ı 404). Öneri çok parçalı (3 ayrı isg/s katmanı); gün düzeyinde kaynak bulunamadı. KASA'ya bölünme gerekir: önce tarayıcıyla Iranica/ EI «Seleukeia on the Tigris» aranmalı. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): Nokta Dicle Seleukeia'sı (33.10/44.52, yerlesimler_mo_zincir.js:8). Pieria Seleukeia'sı ve Fırat Seleukeia'sı (Zeugma) için veride nokta yok (ölçüldü) → kronoloji anılmalarının bağlamı okunup ayrılır; Pieria/Zeugma anılmaları varsa KASA-YER. · Başlangıç 141 BCE = atlas -0140 (astronomik yıl); aynı kaynak mevcut. ÇELİŞKİ ADAYI: Livius 'twin cities were captured several times by the Romans: Trajan took them in 116, Avidius Cassius ...' (165, 'this may have been the end of Seleucia'); Septimius Severus'un seferi — ÖLÇÜT: geçici/askerî (Part iddiası sürdü), gün BULUNAMADI. Bitiş: 'In the third century, the city was renamed Veh-Ardašir by the Sasanians'; Carus 283. 224-04-28 uç kaynakta yok; Sasani sahipliği 224'ten itibaren ÖNERİ (YIL düzeyi). Livius ikincil; TDV/Iranica doğrulaması bu partide yapılmadı. AD KARIŞMASI olasılığı: Livius sayfası kendi başlığında 'Seleucia in Pieria' ve 'on the Euphrates' ile karıştırılmamasını söyler; koordinat Tell Umar (Tigris) — kronoloji maddelerindeki 'Seleukeia' (en çok anılan) hangisi, kontrol edilmedi.",
    "dosya_satir": "data/yerlesimler_mo_zincir.js:8",
-   "kaynak2": "",
-   "alinti2": "",
+   "kaynak2": "Encyclopaedia Iranica, 'Arsacids ii. The Arsacid dynasty' (K. Schippmann), https://www.iranicaonline.org/articles/arsacids-ii/ ; Encyclopaedia Iranica, 'Ctesiphon', https://www.iranicaonline.org/articles/ctesiphon/",
+   "alinti2": "Shortly before this he had had himself crowned king in Seleucia. || It was Ardašīr , a minor Parthian vassal in Persis, who was to bring about the demise of the Parthian empire.",
    "tarayici_gerekli": [
     "Encyclopaedia Iranica, «Seleucia on the Tigris» (tarayıcıyla slug aranmalı; erişilen sayfa yok)"
    ],
@@ -56413,7 +56585,15 @@
      "f": "-0140-01-01",
      "t": "0224-04-28"
     }
-   }
+   },
+   "oneri_son": {
+    "d": "part",
+    "f": "-0140-01-01",
+    "t": "0224-04-28"
+   },
+   "dogrusu": "Önceki ONERI'deki t='224 (Livius yalnız third century)' artık Iranica ile 224-04-28 olarak tarihli (ÜLKE DÜZEYİ). Önceki turdaki 'ara isg roma' ve 'sasani 3. yy' önerisi için bkz. not.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "alan": "s",
@@ -57207,11 +57387,11 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani «Toscana» md. (aynı URL)",
    "alinti": "fu poi sotto il dominio di Odoacre, dei Goti, dei Longobardi",
    "oneri": {},
-   "not": "Treccani sıralamayı (Odoacre → Goti → Longobardi) doğrular ama tarih vermez; uçlar (476/493) bu okumada kaynaksız. Sıra uyumlu.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ (İtalya Odoakar krallığı); şehre özgü tanıklık yok. f: Odoakar kral ilanı 23 Ağustos 476 (EI gün; Treccani online yıl 476). t: Teodorik'in Ravenna'ya girişi 5 Mart 493 (EI) / 493 (Treccani online). Künye odoakar f=0476-08-23 t=0493-03-05 (devletler.js:19840) ile satır uçları AYNI, hayalet yok. Lucca'ya özgü Odoakar tanıklığı yok; EI Toscana bölge düzeyi, tarihsiz. · Treccani sıralamayı (Odoacre → Goti → Longobardi) doğrular ama tarih vermez; uçlar (476/493) bu okumada kaynaksız. Sıra uyumlu.",
    "dosya_satir": "data/yerlesimler_avrupa.js:527",
    "tazeleme": {
     "durum": "AYNI",
@@ -57221,7 +57401,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Odoacre», https://www.treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/ ; Treccani online «Odoacre» https://www.treccani.it/enciclopedia/odoacre/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (hepsi 5 Kasım 2026'da sayfa.py ham metninden okundu) ; EI «Toscana»",
+   "alinti2": "O. fu acclamato re dagl'insorti (23 agosto 476); Oreste fu ucciso a Piacenza (28 agosto). Il 5 marzo Teodorico entrava in Ravenna; dieci giorni dopo, accusando O. d'insidie, lo uccideva nel palazzo del Laureto. EI Toscana: fu poi sotto il dominio di Odoacre e degli Ostrogoti.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "alan": "s",
@@ -57232,7 +57416,7 @@
    "kaynak": "Treccani «Toscana» md. (aynı URL)",
    "alinti": "fu poi sotto il dominio di Odoacre, dei Goti, dei Longobardi",
    "oneri": {},
-   "not": "Got hâkimiyeti sıralamada var, tarihsiz. t=0553 (Bizans fethi) Treccani'de yok. Treccani Bizans'ı hiç anmaz — 553-568 'bizans' satırı bu kaynakla ne doğrulanır ne yalanlanır.",
+   "not": "ANTİK A (CELISKI): ÜLKE DÜZEYİ. f=0493-03-05: Teodorik'in Ravenna'ya girişi (EI Odoacre: 5 Mart; Treccani online Teodorico: 493) KAYNAKLI. t: İKİ KAYNAK ÇELİŞİYOR: EI (1935) Monte Lattaro'yu 553 verir, güncel Treccani Ostrogoti Monte Lattaio'yu Ekim 552 verir (Teia'nın düştüğü savaş). Künye dogu-got t=0553-01-01 (devletler.js:19851, ic_not 'Britannica 553') ile uyumlu olan EI; ancak güncel Treccani 552. Karar künye düzeyinde (LAB/KASA); 552'ye inilirse bizans f de aynı gün kayar (hayalet yok: bizans f=0330, t=1453). Gün teyitsiz, yalnız yıl. Lucca'ya özgü Got tanıklığı yok (Treccani Lucca Gotları anmaz). · Got hâkimiyeti sıralamada var, tarihsiz. t=0553 (Bizans fethi) Treccani'de yok. Treccani Bizans'ı hiç anmaz — 553-568 'bizans' satırı bu kaynakla ne doğrulanır ne yalanlanır.",
    "dosya_satir": "data/yerlesimler_avrupa.js:527",
    "tazeleme": {
     "durum": "AYNI",
@@ -57242,7 +57426,11 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Ostrogoti», https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/ ; Treccani online «Ostrogoti» https://www.treccani.it/enciclopedia/ostrogoti/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (5 Kasım 2026, ham metin)",
+   "alinti2": "f: sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia. t: EI Ostrogoti: «Si spezzò con lui al Monte Lattaro (553) la resistenza degli Ostrogoti: gli ultimi avanzi capitolarono a Conza (555).» // Treccani online Ostrogoti: «L’ulteriore resistenza degli O. fu vinta nella battaglia del Monte Lattaio, presso il Vesuvio, nell’ottobre del 552: Teia , ultimo re degli O., cadde sul campo.»",
+   "uc": "f+t",
+   "_etiket": "CELISKI"
   },
   {
    "alan": "s",
@@ -60931,7 +61119,7 @@
    "kaynak": "Treccani EI «Piacenza»: «Caduto l'Impero romano d'Occidente (476), Piacenza è dominata dai Bizantini, poi dai Goti e di nuovo dai Bizantini finché cade sotto i Longobardi (570)»; Treccani «Odoacre» (493: Ravenna'da öldü)",
    "alinti": "Piacenza è dominata dai Bizantini, poi dai Goti e di nuovo dai Bizantini finché cade sotto i Longobardi (570)",
    "oneri": {},
-   "not": "ÇELİŞKİ (kısmen: EI 1935 tek başına en çok 'kismen'): EI 476'dan sonra Piacenza'yı önce Bizanslılar, sonra Gotlar yönetti der; Odoakar dilimini hiç anmaz. Atlas Odoakar 476-493 yazıyor; Odoakar'ın İtalya hükümdarlığı (Treccani Odoacre: 'rex gentium', 476-493, Ravenna'da ölüm 493 YIL) ülke düzeyi doğru ama Piacenza'ya özgü tanıklık yok. EI'nin 'Bizantini' sırası bir kronoloji şaşkınlığı olabilir; ikinci bağımsız kaynak (Procopius/Jordanes neşirleri değil, akademik monografi) bulunamadı. Gün: 476-08-23 ve 493-03-05 künye günleri; sahiplik günü olarak şehir kaynağı yok → YIL (476, 493). Karar KASA'ya.",
+   "not": "ANTİK A (CELISKI): İki kaynak çelişiyor. EI Odoacre: Odoakar'ın askerleri 23 Ağustos 476'da onu kral ilan eder, Orestes 28 Ağustos'ta PİACENZA'DA öldürülür (şehre özgü, Odoakar iktidarının f'siyle uyumlu); güncel Treccani Odoacre 476/493. EI Piacenza maddesi ise 476 sonrası şehri önce Bizanslıların, sonra Gotların yönettiğini söyler ve Odoakar'ı anmaz (sıralama özet cümlesi, tarihsiz, tek ve eski kaynak). Odoakar döneminde Bizans yönetimi başka hiçbir kaynakta yok (Zenon yalnız nominal üstünlük); atlasın odoakar 476-493 yazımı korunmalı. ÜLKE DÜZEYİ (İtalya Odoakar krallığı); şehre özgü tanıklık yok. f: Odoakar kral ilanı 23 Ağustos 476 (EI gün; Treccani online yıl 476). t: Teodorik'in Ravenna'ya girişi 5 Mart 493 (EI) / 493 (Treccani online). Künye odoakar f=0476-08-23 t=0493-03-05 (devletler.js:19840) ile satır uçları AYNI, hayalet yok. · ÇELİŞKİ (kısmen: EI 1935 tek başına en çok 'kismen'): EI 476'dan sonra Piacenza'yı önce Bizanslılar, sonra Gotlar yönetti der; Odoakar dilimini hiç anmaz. Atlas Odoakar 476-493 yazıyor; Odoakar'ın İtalya hükümdarlığı (Treccani Odoacre: 'rex gentium', 476-493, Ravenna'da ölüm 493 YIL) ülke düzeyi doğru ama Piacenza'ya özgü tanıklık yok. EI'nin 'Bizantini' sırası bir kronoloji şaşkınlığı olabilir; ikinci bağımsız kaynak (Procopius/Jordanes neşirleri değil, akademik monografi) bulunamadı. Gün: 476-08-23 ve 493-03-05 künye günleri; sahiplik günü olarak şehir kaynağı yok → YIL (476, 493). Karar KASA'ya.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -60940,7 +61128,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Odoacre», https://www.treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/ ; Treccani online «Odoacre» https://www.treccani.it/enciclopedia/odoacre/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (hepsi 5 Kasım 2026'da sayfa.py ham metninden okundu) ; EI «Piacenza» https://www.treccani.it/enciclopedia/piacenza_(Enciclopedia-Italiana)/",
+   "alinti2": "EI Odoacre: O. fu acclamato re dagl'insorti (23 agosto 476); Oreste fu ucciso a Piacenza (28 agosto). // EI Piacenza: Caduto l'Impero romano d'Occidente (476), Piacenza è dominata dai Bizantini, poi dai Goti e di nuovo dai Bizantini finché cade sotto i Longobardi (570)",
+   "uc": "f+t",
+   "_etiket": "CELISKI"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:504",
@@ -62683,11 +62875,11 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BAKILMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani Enciclopedia on line, «Brescia» (treccani.it/enciclopedia/brescia/)",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Brescia Odoacre'yi anmaz (Odoacre/Teodorico anahtarları YOK). Başka kaynak bütçe nedeniyle aranmadı.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ (İtalya Odoakar krallığı); şehre özgü tanıklık yok. f: Odoakar kral ilanı 23 Ağustos 476 (EI gün; Treccani online yıl 476). t: Teodorik'in Ravenna'ya girişi 5 Mart 493 (EI) / 493 (Treccani online). Künye odoakar f=0476-08-23 t=0493-03-05 (devletler.js:19840) ile satır uçları AYNI, hayalet yok. Brescia'ya özgü Odoakar tanıklığı yok (Treccani Brescia anmaz). · Treccani Brescia Odoacre'yi anmaz (Odoacre/Teodorico anahtarları YOK). Başka kaynak bütçe nedeniyle aranmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -62696,7 +62888,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Odoacre», https://www.treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/ ; Treccani online «Odoacre» https://www.treccani.it/enciclopedia/odoacre/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (hepsi 5 Kasım 2026'da sayfa.py ham metninden okundu)",
+   "alinti2": "O. fu acclamato re dagl'insorti (23 agosto 476); Oreste fu ucciso a Piacenza (28 agosto). Il 5 marzo Teodorico entrava in Ravenna; dieci giorni dopo, accusando O. d'insidie, lo uccideva nel palazzo del Laureto.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:474",
@@ -62708,7 +62904,7 @@
    "kaynak": "Treccani Enciclopedia on line, «Brescia» (treccani.it/enciclopedia/brescia/)",
    "alinti": "",
    "oneri": {},
-   "not": "Treccani Brescia Doğu Got dönemini anmaz. Başka kaynak aranmadı.",
+   "not": "ANTİK A (CELISKI): ÜLKE DÜZEYİ. f=0493-03-05: Teodorik'in Ravenna'ya girişi (EI Odoacre: 5 Mart; Treccani online Teodorico: 493) KAYNAKLI. t: İKİ KAYNAK ÇELİŞİYOR: EI (1935) Monte Lattaro'yu 553 verir, güncel Treccani Ostrogoti Monte Lattaio'yu Ekim 552 verir (Teia'nın düştüğü savaş). Künye dogu-got t=0553-01-01 (devletler.js:19851, ic_not 'Britannica 553') ile uyumlu olan EI; ancak güncel Treccani 552. Karar künye düzeyinde (LAB/KASA); 552'ye inilirse bizans f de aynı gün kayar (hayalet yok: bizans f=0330, t=1453). Gün teyitsiz, yalnız yıl. Brescia'ya özgü Got tanıklığı yok. UYARI: Kuzey İtalya'da Verona/Brescia Gotlarının 552/553 sonrasında da direndiği bilgisi (çalışma okunmadı, kaynaksız) -- bu satırda uç için kullanılmadı. · Treccani Brescia Doğu Got dönemini anmaz. Başka kaynak aranmadı.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -62717,7 +62913,11 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Ostrogoti», https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/ ; Treccani online «Ostrogoti» https://www.treccani.it/enciclopedia/ostrogoti/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (5 Kasım 2026, ham metin)",
+   "alinti2": "f: sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia. t: EI Ostrogoti: «Si spezzò con lui al Monte Lattaro (553) la resistenza degli Ostrogoti: gli ultimi avanzi capitolarono a Conza (555).» // Treccani online Ostrogoti: «L’ulteriore resistenza degli O. fu vinta nella battaglia del Monte Lattaio, presso il Vesuvio, nell’ottobre del 552: Teia , ultimo re degli O., cadde sul campo.»",
+   "uc": "f+t",
+   "_etiket": "CELISKI"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:474",
@@ -65014,10 +65214,10 @@
    "d": "odoakar",
    "f": "0476-08-23",
    "t": "0493-03-05",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani «Modena»",
    "alinti": "",
-   "not": "Treccani'de anılmıyor.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ (İtalya Odoakar krallığı); şehre özgü tanıklık yok. f: Odoakar kral ilanı 23 Ağustos 476 (EI gün; Treccani online yıl 476). t: Teodorik'in Ravenna'ya girişi 5 Mart 493 (EI) / 493 (Treccani online). Künye odoakar f=0476-08-23 t=0493-03-05 (devletler.js:19840) ile satır uçları AYNI, hayalet yok. Modena'ya özgü Odoakar tanıklığı yok (Treccani Modena anmaz). · Treccani'de anılmıyor.",
    "dosya_satir": "data/yerlesimler_avrupa.js:507",
    "oneri": {},
    "tazeleme": {
@@ -65028,7 +65228,11 @@
      "f": "0476-08-23",
      "t": "0493-03-05"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Odoacre», https://www.treccani.it/enciclopedia/odoacre_(Enciclopedia-Italiana)/ ; Treccani online «Odoacre» https://www.treccani.it/enciclopedia/odoacre/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (hepsi 5 Kasım 2026'da sayfa.py ham metninden okundu)",
+   "alinti2": "O. fu acclamato re dagl'insorti (23 agosto 476); Oreste fu ucciso a Piacenza (28 agosto). Il 5 marzo Teodorico entrava in Ravenna; dieci giorni dopo, accusando O. d'insidie, lo uccideva nel palazzo del Laureto.",
+   "uc": "f+t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "alan": "s",
@@ -65038,7 +65242,7 @@
    "hukum": "BULUNAMADI",
    "kaynak": "Treccani «Modena»",
    "alinti": "",
-   "not": "Treccani'de anılmıyor (Got kelimesi yalnız mimari 'gotico').",
+   "not": "ANTİK A (CELISKI): ÜLKE DÜZEYİ. f=0493-03-05: Teodorik'in Ravenna'ya girişi (EI Odoacre: 5 Mart; Treccani online Teodorico: 493) KAYNAKLI. t: İKİ KAYNAK ÇELİŞİYOR: EI (1935) Monte Lattaro'yu 553 verir, güncel Treccani Ostrogoti Monte Lattaio'yu Ekim 552 verir (Teia'nın düştüğü savaş). Künye dogu-got t=0553-01-01 (devletler.js:19851, ic_not 'Britannica 553') ile uyumlu olan EI; ancak güncel Treccani 552. Karar künye düzeyinde (LAB/KASA); 552'ye inilirse bizans f de aynı gün kayar (hayalet yok: bizans f=0330, t=1453). Gün teyitsiz, yalnız yıl. Modena'ya özgü Got tanıklığı yok. · Treccani'de anılmıyor (Got kelimesi yalnız mimari 'gotico').",
    "dosya_satir": "data/yerlesimler_avrupa.js:507",
    "oneri": {},
    "tazeleme": {
@@ -65049,7 +65253,11 @@
      "f": "0493-03-05",
      "t": "0553-01-01"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1935), «Ostrogoti», https://www.treccani.it/enciclopedia/ostrogoti_(Enciclopedia-Italiana)/ ; Treccani online «Ostrogoti» https://www.treccani.it/enciclopedia/ostrogoti/ ; Treccani online «Teodorico» https://www.treccani.it/enciclopedia/teodorico/ (5 Kasım 2026, ham metin)",
+   "alinti2": "f: sconfitto il re degli Eruli Odoacre (493), divenne sovrano del regno ostrogoto in Italia. t: EI Ostrogoti: «Si spezzò con lui al Monte Lattaro (553) la resistenza degli Ostrogoti: gli ultimi avanzi capitolarono a Conza (555).» // Treccani online Ostrogoti: «L’ulteriore resistenza degli O. fu vinta nella battaglia del Monte Lattaio, presso il Vesuvio, nell’ottobre del 552: Teia , ultimo re degli O., cadde sul campo.»",
+   "uc": "f+t",
+   "_etiket": "CELISKI"
   },
   {
    "alan": "s",
@@ -65077,10 +65285,10 @@
    "d": "langobard",
    "f": "0568-01-01",
    "t": "0774-01-01",
-   "hukum": "BULUNAMADI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Treccani «Modena»",
    "alinti": "con i Longobardi prese il nome di Cittanova",
-   "not": "Treccani Longobard varlığını doğrular ('Cittanova' adı) ama yıl vermez; 568/774 uçları için Modena'ya özgü belge bulunamadı. ÜLKE DÜZEYİ bile değil.",
+   "not": "ANTİK A (KAYNAKLI): ÜLKE DÜZEYİ t=774 (iki Treccani çalışması). Şehre özgü: EI Longobardi, Alboino'nun Pavia kuşatması sırasında Modena'yı aldığını söyler (yılsız; Milano 3 Eylül 569 civarı), Treccani Modena 'con i Longobardi prese il nome di Cittanova' (yılsız). f=0568 tarihlenmedi; EI Longobardi yılsız olduğundan ONERI sayılmaz ama f için de kaynak değildir. · Treccani Longobard varlığını doğrular ('Cittanova' adı) ama yıl vermez; 568/774 uçları için Modena'ya özgü belge bulunamadı. ÜLKE DÜZEYİ bile değil.",
    "dosya_satir": "data/yerlesimler_avrupa.js:507",
    "oneri": {},
    "tazeleme": {
@@ -65091,7 +65299,11 @@
      "f": "0568-01-01",
      "t": "0774-01-01"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1934), «Longobardi», https://www.treccani.it/enciclopedia/longobardi_(Enciclopedia-Italiana)/ ; Treccani online «Longobardi» https://www.treccani.it/enciclopedia/longobardi/ (5 Kasım 2026, ham metin) ; Treccani online «Modena» https://www.treccani.it/enciclopedia/modena/",
+   "alinti2": "EI: Verona e poi Pavia, assediate, caddero (giugno 774, Pavia). Treccani online: Ciò avvenne, in modo definitivo, con il figlio di Pipino , Carlomagno , nel 774. // EI Longobardi: impadronendosi di Parma, Reggio, Modena e Bologna",
+   "uc": "t",
+   "_etiket": "ANTIK_A_KAYNAKLI"
   },
   {
    "alan": "s",
@@ -69600,7 +69812,7 @@
    "kaynak": "Parti dosyası: Nippur'un üç döneminin hepsi kaynaklı (ARCANE III); hedef (boş/DEVRALMA) dönem YOK",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dönem yok; mevcut kaynakla çelişen bir şey okunmadı (kaynak çekilmedi, 8 çağrı sınırı içinde araştırma gerekmedi). AD KARIŞMASI yok.",
+   "not": "ANTİK A (BAKILMADI): Donem kaynakli (ARCANE III), hedef disi; yeniden dogrulanmadi. Bilgi: Iranica Ur III'u 2112-2004 verir; atlas Nippur t=-2018 imparatorluk sonundan once (Isin'e kaybi olabilir), celiski sayilmadi. Nippur-ozel kaynaga bakilmadi. · Hedef dönem yok; mevcut kaynakla çelişen bir şey okunmadı (kaynak çekilmedi, 8 çağrı sınırı içinde araştırma gerekmedi). AD KARIŞMASI yok.",
    "dosya_satir_eski": "data/yerlesimler_mo_sumer.js:82",
    "tazeleme": {
     "durum": "AYNI",
@@ -69610,7 +69822,9 @@
      "f": "-2109-01-01",
      "t": "-2018-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Elam i. The history of Elam' (Vallat), https://www.iranicaonline.org/articles/elam-i/ (sayfa.py ham metin)",
+   "alinti2": "Ur-Nammu (2112-2095 B.C.E.), founder of the Third Dynasty of Ur"
   }
  ],
  "Osaka": [
@@ -70293,7 +70507,7 @@
     "t": "1479-01-01",
     "d": "cavnpur-sultanligi"
    },
-   "not": "YÜKSELTME TURU (CELISKI): ÖNERİ (f 1394→1407, yani 1394-1407 Kanauj=Delhi) MODERN KAYNAKLA ÇELİŞİR. IGI tarafı: 'In 1407 Ibrahim ... took Kanauj' (IGI Jaunpur). Hussain (modern monografi): (a) Sarwar Mayıs 1394'te Qannauj'dan Bihar'a uzanan eyalete atandı, Qannauj isyancılarını bastırdı, 1399'a dek sınır Qannauj'dan Bhojpur'a; (b) İbrahim Şah (1402-) devrinde Qannauj Şarkî idaresinde ve Şarkî valisi Fath Khan Harawi'ydi; Mahmud Tughluq 'geçici işgal' etti (yıl yok, Mallu Iqbal 1405 ölümünden önce), İbrahim 1406 sonunda (4 ay kuşatma) geri aldı; 1407 İbrahim'in Delhi yürüyüşüdür (Sambhal, Baran), Kanauj'un ilk alınışı DEĞİL. Yani mevcut atlas f=1394 (Pandey: 1394 Şarkî krallığının kuruluşu) Hussain ile tutarlı; öneri f=1407 yanlış okunmuş IGI cümlesine dayanıyor ('took Kanauj' = geri alma). Karar EMRELİC'indir; ayrıca Delhi'nin t 1394→1407 uzatılması önerisi de buna bağlı olarak düşer. Küçük ayrıntı: ~1402-1406 geçici Delhi işgali (Mahmud Tughluq) ayrı kısa dilim olabilir, yıl kaynakta yok → beyan. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (Imperial Gazetteer of India XIV, «Kanauj Town»/«Jaunpur District»; alıntıda 'In 1407 Ibrahim ... took Kanauj' YIL). f=1407-01-01 [yalnız yıl teyitli; 1908 IGI = erken 20. yy kaynağı]. UYARI: 1394-1407 dilimi için komşu satır delhi-sultanligi t 1394→1407 uzatılmalı (IGI Kanauj'u 1394'te Delhi valisine verilmiş gösterir; IGI'de 1394-1407 arası Kanauj sahibi için tek cümle yok → beyanlı yaklaşıklık). t=1479 değişmiyor (öneri de değiştirmiyor); 1477 Husain Şah'ın Kanauj'a kaçışı IGI Jaunpur'da var, kesin Delhi'ye geçiş yılı okunmadı. Cavnpur künyesi 1394-1483 içinde → hayalet değil. · 1394'te Kanauj Khwaja-i-Jahan'ın (Delhi valisi) idaresine verilmişti; bağımsızlık sonrası Kanauj Ibrahim Shah tarafından 1407 (YIL) alındı → Cavnpur'un Kanauj'daki başlangıcı 1407 olmalı; 1394-1407 Delhi (Mahmud b. Firuz Tughlak bir süre Kanauj'da oturdu: IGI Kanauj Town, tarihsiz). IGI Kanauj Town: 'In the fifteenth century it was included for some years in the Sharki kingdom of Jaunpur' ('for some years' = kesintili); Jama Masjid 1406 (Ibrahim Shah). t=1479: IGI Jaunpur 1477'de Husain Shah Kanauj'a kaçtı ve orada yenildi (YIL); kesin Delhi'ye geçiş yılı okunmadı. ÖLÇÜT: idareye katma — Ibrahim Shah'ın 1407 fethi + cami inşası.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC gece-62, 5 Kasım 2026; ilke: modern akademik kaynak > IGI): Şarkî f 1394 (Hussain + Pandey çift teyit) KAYNAKLI; öneri 1407 IGI okuma hatası → HATALI_ONERI. · YÜKSELTME TURU (CELISKI): ÖNERİ (f 1394→1407, yani 1394-1407 Kanauj=Delhi) MODERN KAYNAKLA ÇELİŞİR. IGI tarafı: 'In 1407 Ibrahim ... took Kanauj' (IGI Jaunpur). Hussain (modern monografi): (a) Sarwar Mayıs 1394'te Qannauj'dan Bihar'a uzanan eyalete atandı, Qannauj isyancılarını bastırdı, 1399'a dek sınır Qannauj'dan Bhojpur'a; (b) İbrahim Şah (1402-) devrinde Qannauj Şarkî idaresinde ve Şarkî valisi Fath Khan Harawi'ydi; Mahmud Tughluq 'geçici işgal' etti (yıl yok, Mallu Iqbal 1405 ölümünden önce), İbrahim 1406 sonunda (4 ay kuşatma) geri aldı; 1407 İbrahim'in Delhi yürüyüşüdür (Sambhal, Baran), Kanauj'un ilk alınışı DEĞİL. Yani mevcut atlas f=1394 (Pandey: 1394 Şarkî krallığının kuruluşu) Hussain ile tutarlı; öneri f=1407 yanlış okunmuş IGI cümlesine dayanıyor ('took Kanauj' = geri alma). Karar EMRELİC'indir; ayrıca Delhi'nin t 1394→1407 uzatılması önerisi de buna bağlı olarak düşer. Küçük ayrıntı: ~1402-1406 geçici Delhi işgali (Mahmud Tughluq) ayrı kısa dilim olabilir, yıl kaynakta yok → beyan. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (Imperial Gazetteer of India XIV, «Kanauj Town»/«Jaunpur District»; alıntıda 'In 1407 Ibrahim ... took Kanauj' YIL). f=1407-01-01 [yalnız yıl teyitli; 1908 IGI = erken 20. yy kaynağı]. UYARI: 1394-1407 dilimi için komşu satır delhi-sultanligi t 1394→1407 uzatılmalı (IGI Kanauj'u 1394'te Delhi valisine verilmiş gösterir; IGI'de 1394-1407 arası Kanauj sahibi için tek cümle yok → beyanlı yaklaşıklık). t=1479 değişmiyor (öneri de değiştirmiyor); 1477 Husain Şah'ın Kanauj'a kaçışı IGI Jaunpur'da var, kesin Delhi'ye geçiş yılı okunmadı. Cavnpur künyesi 1394-1483 içinde → hayalet değil. · 1394'te Kanauj Khwaja-i-Jahan'ın (Delhi valisi) idaresine verilmişti; bağımsızlık sonrası Kanauj Ibrahim Shah tarafından 1407 (YIL) alındı → Cavnpur'un Kanauj'daki başlangıcı 1407 olmalı; 1394-1407 Delhi (Mahmud b. Firuz Tughlak bir süre Kanauj'da oturdu: IGI Kanauj Town, tarihsiz). IGI Kanauj Town: 'In the fifteenth century it was included for some years in the Sharki kingdom of Jaunpur' ('for some years' = kesintili); Jama Masjid 1406 (Ibrahim Shah). t=1479: IGI Jaunpur 1477'de Husain Shah Kanauj'a kaçtı ve orada yenildi (YIL); kesin Delhi'ye geçiş yılı okunmadı. ÖLÇÜT: idareye katma — Ibrahim Shah'ın 1407 fethi + cami inşası.",
    "kaynak2": "Syed Ejaj Hussain, The Jaunpur Sultanate (Shiraz-i Hind), akademik monografi, bölüm 'The Rise of the Jaunpur Sultanate' / 'Consolidation of the Sharqi Kingdom', https://archive.org/details/hussain.-syed-ejaj-siraj-i-hind (djvu metni); ayrıca Awadh Bihari Pandey, The First Afghan Empire in India (1451-1526 A.D.), 1956, kronoloji eki, https://archive.org/details/the-first-afghan-empire-in-india-1451-1526-a.d.",
    "alinti2": "[Malik Sarwar d. Rabi I 802/Nov 1399 sonrası sınır:] On the west it spread from Qannauj to Bhojpur in Bihar. // Sultan Mahmud attacked and captured Qannauj, which was then under the Sharqi rule. Prince Fath Khan Harawi, the Sharqi governor of Qannauj was expelled. But this was only a temporary occupation of Qannauj ... Ibrahim Shah recaptured Qannauj after a siege of four months by the end of 1406.",
    "oneri_son": {
@@ -70301,7 +70515,7 @@
     "f": "1407-01-01",
     "t": "1479-01-01"
    },
-   "_etiket": "CELISKI",
+   "_etiket": "HATALI_ONERI",
    "dosya_satir_eski": "data/yerlesimler_asya.js:306",
    "tazeleme": {
     "durum": "AYNI",
@@ -77764,7 +77978,7 @@
    "kaynak": "bakılmadı: iki dönemin ikisi de kaynaklı (AEBP Israel, Radner 2024)",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef dışı (kaynağı boş/DEVRALMA değil). Brif gereği kaynaklı dönem baştan doğrulanmadı. Koordinat 32.2764,35.1901 = Sebastiye/Samiriye, AD KARIŞMASI yok.",
+   "not": "ANTİK A (ONERI): [aralik] f: 722-721 -> aralik ilk yili MO 722 = -0721 atlas f ile uyumlu; ama Enciclopedia Italiana tek basina en cok 'kismen', modern akademik kaynak (RINAP/Radner) okunamadi. Treccani ic tutarsizligi: 'distruzione del 721' (=-0720). t=-0608 tarihlenmedi. · Hedef dışı (kaynağı boş/DEVRALMA değil). Brif gereği kaynaklı dönem baştan doğrulanmadı. Koordinat 32.2764,35.1901 = Sebastiye/Samiriye, AD KARIŞMASI yok.",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -77773,7 +77987,10 @@
      "f": "-0721-01-01",
      "t": "-0608-01-01"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1929-37), Treccani, 'Samaria' https://www.treccani.it/enciclopedia/samaria_(Enciclopedia-Italiana)/",
+   "alinti2": "Sarg0n, nel cui primo anno di regno (722-721 a. C.) la città fu espugnata. // Delle vicende della città, nel periodo che va dalla distruzione del 721",
+   "uc": "f"
   }
  ],
  "Kotosh": [
@@ -78322,7 +78539,7 @@
    "kaynak": "Archive.org arama (ia-ara) sonuç vermedi; mevcut kaynak AEBP (Israel, Tiglatpileser III) zaten var",
    "alinti": "",
    "oneri": {},
-   "not": "Hedef (boş/DEVRALMA) dönem YOK: tek dönemin kaynağı dolu (AEBP: 'newly established province of Megiddo', 732). Bu yüzden yeniden araştırılmadı. Kaynak Tiglatpileser III 732'yi verir; atlas f=-0731 (bir yıl farkı, mevcut künye konvansiyonu). t=-0608: sınır ucunun (Mısır Neko II / Yoşiya Megiddo 609) kaynağı bu turda ölçülmedi — kuruluş sonrası Asur→Mısır geçişi için ayrı kaynak gerekir. AD KARIŞMASI yok (koordinat Tel Megiddo).",
+   "not": "ANTİK A (ONERI): Asur eyaleti olusu Treccani'de YILSIZ; f=-0731 (MO 732, AEBP) ucunu tarihlemez. t: Livius 610/609 Yosiya-Neko Megiddo'da; Misir varligi, Asur'un yitirisini tarihlemez, atlas t=-0608 ile uyumlu ama cikarim. Enciclopedia Italiana (kismen) + Livius (populer) -> KAYNAKLI degil. Baktigim: Treccani, Livius. · Hedef (boş/DEVRALMA) dönem YOK: tek dönemin kaynağı dolu (AEBP: 'newly established province of Megiddo', 732). Bu yüzden yeniden araştırılmadı. Kaynak Tiglatpileser III 732'yi verir; atlas f=-0731 (bir yıl farkı, mevcut künye konvansiyonu). t=-0608: sınır ucunun (Mısır Neko II / Yoşiya Megiddo 609) kaynağı bu turda ölçülmedi — kuruluş sonrası Asur→Mısır geçişi için ayrı kaynak gerekir. AD KARIŞMASI yok (koordinat Tel Megiddo).",
    "tazeleme": {
     "durum": "AYNI",
     "agac": "afe2b86f1",
@@ -78331,7 +78548,10 @@
      "f": "-0731-01-01",
      "t": "-0608-01-01"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1929-37), Treccani, 'Megiddo' https://www.treccani.it/enciclopedia/megiddo_(Enciclopedia-Italiana)/ ; Livius.org 'Megiddo' https://www.livius.org/articles/place/megiddo/",
+   "alinti2": "dopo la distruzione del regno d'Israele, capoluogo d'una provincia assira. // 610/609 BCE: King Josiah of Judah met the Egyptian king Necho II in Megiddo and was slain",
+   "uc": "f+t"
   }
  ],
  "Limni": [
@@ -83343,7 +83563,7 @@
    "kaynak": "Encyclopaedia Iranica 'Cyrus iii' (okundu); Iranica 'Alexander III' için üç slug (alexander-iii-..., alexander-iii/) 404 verdi",
    "alinti": "",
    "oneri": {},
-   "not": "f=-0538-10-10 KAYNAKLI (yukarıdaki Iranica cümlesi). t=-0329-01-01 (330 BC astronomik) için Sippar'a özgü kaynak BULUNAMADI. UYARI: İskender Babil'e 331 BC Ekim'inde girdi (genel bilgi, KAYNAKLANMADI) = astronomik -0330; atlas -0329 bir yıl geç olabilir — Iranica 'Alexander III' maddesi bulunamadığı için doğrulanamadı; Emre'ye bildirim: ahamenis t Gaugamela/Babil girişiyle (331 BC) karşılaştırılmalı. Sippar Hellenistik dönem Seleukos dilimi dönem listesinde YOK (EKSİK DÖNEM adayı; kaynak aranmadı).",
+   "not": "ANTİK A (ONERI): f=-0538-10-10 KAYNAKLI: Iranica Cyrus iii, Sippar 539'un 10 Ekim'inde düştü (539 BC = astronomik -0538 doğru). t ONERI: Sippar'a özgü Iskender dönüşü tarihlenmedi; Iranica Babil'in (ve Susa'nın) Gaugamela (1 Ekim 331) sonrası savaşsız teslim olduğunu, Mazaios'un Ekim 331'de Babil satrapı seçildiğini yazar => Babilonya bölge düzeyi, abi merkez Babil (Sippar ~60 km kuzey, aynı satraplık); ÜLKE/BÖLGE DÜZEYİ, BEYANLI YAKLAŞIKLIK. Sonuç MÖ 331 = astronomik -0330, atlas -0329 (MÖ 330) bir yıl geç; Susa/Uruk kayıtlarındaki ahamenis t=-0330 ile de tutarlı olması için -0330-01-01 öneriliyor (yıl düzeyi; gün uydurulmadı, Iranica Gaugamela günü -0330-10-01 ise atlasın başka maddelerinde). Ahamenis künyesinin kendi t=-0329-01-01 (MÖ 330, Dara III'ün ölümü) künye düzeyinde kalır; şehir dönemi İskender'in Babil'e girişiyle biter. t kısalınca boşluk: -0330 sonrası iskender-imparatorlugu (f=-0335 t=-0322-06-10) ve selevkos (f=-0311) dilimleri Sippar kaydında YOK (EKSİK DÖNEM adayı; ayrı iş, kaynak bu turda aranmadı). Hayalet: ahamenis f=-0549 künye kapsar. ÖLÇÜT: idareye katma/fetih (Iranica Cyrus: Babil'in Kyros'a geçişi). · f=-0538-10-10 KAYNAKLI (yukarıdaki Iranica cümlesi). t=-0329-01-01 (330 BC astronomik) için Sippar'a özgü kaynak BULUNAMADI. UYARI: İskender Babil'e 331 BC Ekim'inde girdi (genel bilgi, KAYNAKLANMADI) = astronomik -0330; atlas -0329 bir yıl geç olabilir — Iranica 'Alexander III' maddesi bulunamadığı için doğrulanamadı; Emre'ye bildirim: ahamenis t Gaugamela/Babil girişiyle (331 BC) karşılaştırılmalı. Sippar Hellenistik dönem Seleukos dilimi dönem listesinde YOK (EKSİK DÖNEM adayı; kaynak aranmadı).",
    "dosya_satir_eski": "data/yerlesimler_mo_sumer.js:51",
    "tazeleme": {
     "durum": "AYNI",
@@ -83353,7 +83573,16 @@
      "f": "-0538-10-10",
      "t": "-0329-01-01"
     }
-   }
+   },
+   "kaynak2": "Encyclopaedia Iranica, 'Cyrus iii. Cyrus II the Great', https://www.iranicaonline.org/articles/cyrus-iii/ (f) ; Encyclopaedia Iranica, 'Alexander the Great' (P. Briant), https://www.iranicaonline.org/articles/alexander-the-great-356-23-bc/ (t)",
+   "alinti2": "In the spring of the latter year the Persian army entered the valley of the Diyala (Dīāla) river, and at the beginning of the following October it defeated the Babylonians at the city of Opis and laid siege to Sippar, which fell on 10 October. || On 1 October 331 the two armies met at the village of Gaugamela, east of the Tigris in the district of Arbela (Erbel) ( Figure 1 ). Once again Darius was defeated and put to flight; the two great administrative and strategic centers of Babylon and Susa surrendered without struggle",
+   "oneri_son": {
+    "d": "ahamenis",
+    "f": "-0538-10-10",
+    "t": "-0330-01-01"
+   },
+   "dogrusu": "t: -0329-01-01 (MÖ 330) yerine -0330-01-01 (MÖ 331; Gaugamela ve Babil teslimi Ekim 331).",
+   "uc": "f"
   }
  ],
  "Salamis (boğaz) (Salamína)": [
@@ -125299,7 +125528,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "ANTİK — ayrı tur",
+   "not": "ANTİK A (ONERI): f: 717 -> -0716 atlas ile birebir, ama Enciclopedia Italiana tek basina 'kismen'; Frame 2021 bulunamadi (ia-ara bos). t=-0608 (MO 609): Treccani yalniz 605 Babil galibiyetini verir (ucu tarihlemez). Baktigim: Treccani, Livius 404, Durham robots yasagi, Vikipedi (dayanak degil). BOSLUK donemi -0608..1281 bu satir degil. · ANTİK — ayrı tur",
    "dosya_satir_eski": "data/yerlesimler_ek25.js:78",
    "tazeleme": {
     "durum": "AYNI",
@@ -125309,7 +125538,10 @@
      "f": "-0716-01-01",
      "t": "-0608-01-01"
     }
-   }
+   },
+   "kaynak2": "Enciclopedia Italiana (1929-37), Treccani, 'Karkemish' https://www.treccani.it/enciclopedia/karkemish_(Enciclopedia-Italiana)/ ; Frame, Royal Inscriptions of Sargon II (2021) s.421-426 (Vikipedi dipnotundan; okunmadi)",
+   "alinti2": "e solo nel 717 fu da Sargon II incorporato all'Assiria. Nel 605 Nabucodonosor batté a K. il faraone Necho",
+   "uc": "f"
   },
   {
    "dosya_satir": "data/yerlesimler_ek25.js:77",
@@ -129549,12 +129781,12 @@
    "d": "fransa",
    "f": "1750-09-11",
    "t": "1761-04-05",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series / Vol. XII (1908), 'Gingee (Gingi)' s.242-245 — archive.org/details/the-imperial-gazetteer-of-india-volume-12 [1908 kaynağı]",
    "alinti": "In 1750 the French under M. Bussy captured it by a skilful and daringly executed night surprise, and held it with an efficient garrison for eleven years.",
    "oneri": {},
-   "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ yalnız GÜN: atlas f 1750-09-11, CHI V 12 Eylül 1750 (gece baskını 11/12 Eylül olabilir; CHI 12'yi yazıyor). YIL 1750 her iki kaynakta aynı. Öneri değiştirilmedi; karar EMRELİC'in (aday f 1750-09-12; CHI V esas kuralı). t: CHI V Pondichéry'nin 16 Ocak 1761'de teslim olduğunu, ardından 'Jinji surrendered after some weeks of blockade' dediğini yazar → t YIL 1761 teyitli, 04-05 günü kaynakta yok ([yalnız yıl teyitli]). ÖLÇÜT UYARISI: CHI V 'Dupleix had occupied ... Jinji' (Fransız askerî işgali; idareye katma belgesi okunmadı) — s: mi isg mi KASA/EMRELİC. Bulunan: Fransızlar 'Jinji, Pondichery ve Karikal'e indirilmişti (Mart 1760). · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · 1750 YIL, 'eleven years' → 1761 (YIL); 09-11 ve 04-05 günleri kaynaksız. ÖLÇÜT UYARISI: Gazetteer yalnız 'garrison' (askerî garnizon) der; Fransa'nın Gingee'yi kendi idaresine kattığına (vergi/defter) dair belge okunmadı → ÖLÇÜT: geçici/askerî olabilir (isg yerine s: yazımı belgesiz). KASA kararı.",
-   "_etiket": "CELISKI",
+   "not": "KOORDİNATÖR KARARI (EMRELİC gece-62, 5 Kasım 2026; ilke: modern akademik kaynak > IGI): CHI V 1750-09-12 esas; atlas 1750-09-11 düzelir. · YÜKSELTME TURU (CELISKI): ÇELİŞKİ yalnız GÜN: atlas f 1750-09-11, CHI V 12 Eylül 1750 (gece baskını 11/12 Eylül olabilir; CHI 12'yi yazıyor). YIL 1750 her iki kaynakta aynı. Öneri değiştirilmedi; karar EMRELİC'in (aday f 1750-09-12; CHI V esas kuralı). t: CHI V Pondichéry'nin 16 Ocak 1761'de teslim olduğunu, ardından 'Jinji surrendered after some weeks of blockade' dediğini yazar → t YIL 1761 teyitli, 04-05 günü kaynakta yok ([yalnız yıl teyitli]). ÖLÇÜT UYARISI: CHI V 'Dupleix had occupied ... Jinji' (Fransız askerî işgali; idareye katma belgesi okunmadı) — s: mi isg mi KASA/EMRELİC. Bulunan: Fransızlar 'Jinji, Pondichery ve Karikal'e indirilmişti (Mart 1760). · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · 1750 YIL, 'eleven years' → 1761 (YIL); 09-11 ve 04-05 günleri kaynaksız. ÖLÇÜT UYARISI: Gazetteer yalnız 'garrison' (askerî garnizon) der; Fransa'nın Gingee'yi kendi idaresine kattığına (vergi/defter) dair belge okunmadı → ÖLÇÜT: geçici/askerî olabilir (isg yerine s: yazımı belgesiz). KASA kararı.",
+   "_etiket": "KARAR_GECE62",
    "dosya_satir_eski": "data/yerlesimler_asya.js:1550",
    "tazeleme": {
     "durum": "AYNI",
@@ -129566,7 +129798,11 @@
     }
    },
    "kaynak2": "The Cambridge History of India, vol. V (British India, 1497-1858), Cambridge 1929, ch. VI «Dupleix and Bussy» (A. Martineau) ve ch. VIII (Dodwell) (archive.org: cambridgehistory035098mbp)",
-   "alinti2": "The capture of Jinji, thought impregnable but which Bussy took by a brilliant feat of arms, 12 September, 1750, profoundly disquieted him. || Jinji surrendered after some weeks of blockade"
+   "alinti2": "The capture of Jinji, thought impregnable but which Bussy took by a brilliant feat of arms, 12 September, 1750, profoundly disquieted him. || Jinji surrendered after some weeks of blockade",
+   "oneri_son": {
+    "f": "1750-09-12"
+   },
+   "uc": "f"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1543",
@@ -163319,13 +163555,13 @@
    "oneri": {
     "t": "1750-01-01"
    },
-   "not": "YÜKSELTME TURU (CELISKI): IGI (oneri t ~1750: 1743 Peşva naib-vali Babür atamalı, ~1750 Sindhia) ile modern kaynak çelişir: Grewal (NCHI) Marathaların Malwa'yı 1738-39'dan ÖNCE 'subjugated' ettiğini yazar; ekli kronolojide 'occupation of Malwa by the Marathas' maddesi vardır (yıl sütunu OCR'de ayrışmış, ~1730'lar; güvenilir okunamadı). Fark: askerî egemenlik (Grewal) ile Babür atamalı naib-valilik (IGI 1743, resmî devir 1752 başka kaynakta). Öneri DEĞİŞTİRİLMEDİ; karar EMRELİC'in. Ayrıca atlas t 1732-01-01 mevcut değerinin de Grewal'la (1730'lar) uyumlu görünmesi mümkün — yani IGI'nin 1750'si atlas mevcut tarihini 'kötüleştiriyor' olabilir. tarayici_gerekli: Gordon, The Marathas 1600-1818 (NCHI II.4), archive.org marathas160018180000gord (ödünç 401) — Malwa 1731-41 Peşva fethi ve 1741 Babür tanıması. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. IG 1733 Jai Singh ve 1743 Peşva'yı Babür atamalı vali/naib-vali olarak verir; Babür t'si 'yaklaşık 1750'. Bağlı: sonraki maratha satırı f aynı 1750-01-01 olmalı (çakışma/boşluk yok). Peşva'nın 1741-43 fiilî nüfuzu ve 1752 resmî devir başka kaynaklarda aranmadı; çelişki olursa EMRELİC. · YIL düzeyi, 'about 1750' (yaklaşık). IG: 1562 Akbar (Malwa Subası merkezi), 1733 Sawai Jai Singh vali, 1743 Peşva naib-vali (Mughal atamalı: hâlâ Babür egemenliği), ~1750 Sindhia. Atlas 'maratha 1732' IG ile çelişir. ÖLÇÜT: idareye katma — IG 'passed to Sindhia'.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC gece-62, 5 Kasım 2026; ilke: modern akademik kaynak > IGI): Grewal (NCHI II.3) '1738 öncesi' esas; kesin yıl yoksa Grewal'in verdiği en yakın olay (Peşva Bâcî Râv'ın Malva fethi 1737/38) [yalnız yıl] BEYANLI; IGI 'about 1750' ic_not'a. · YÜKSELTME TURU (CELISKI): IGI (oneri t ~1750: 1743 Peşva naib-vali Babür atamalı, ~1750 Sindhia) ile modern kaynak çelişir: Grewal (NCHI) Marathaların Malwa'yı 1738-39'dan ÖNCE 'subjugated' ettiğini yazar; ekli kronolojide 'occupation of Malwa by the Marathas' maddesi vardır (yıl sütunu OCR'de ayrışmış, ~1730'lar; güvenilir okunamadı). Fark: askerî egemenlik (Grewal) ile Babür atamalı naib-valilik (IGI 1743, resmî devir 1752 başka kaynakta). Öneri DEĞİŞTİRİLMEDİ; karar EMRELİC'in. Ayrıca atlas t 1732-01-01 mevcut değerinin de Grewal'la (1730'lar) uyumlu görünmesi mümkün — yani IGI'nin 1750'si atlas mevcut tarihini 'kötüleştiriyor' olabilir. tarayici_gerekli: Gordon, The Marathas 1600-1818 (NCHI II.4), archive.org marathas160018180000gord (ödünç 401) — Malwa 1731-41 Peşva fethi ve 1741 Babür tanıması. · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. IG 1733 Jai Singh ve 1743 Peşva'yı Babür atamalı vali/naib-vali olarak verir; Babür t'si 'yaklaşık 1750'. Bağlı: sonraki maratha satırı f aynı 1750-01-01 olmalı (çakışma/boşluk yok). Peşva'nın 1741-43 fiilî nüfuzu ve 1752 resmî devir başka kaynaklarda aranmadı; çelişki olursa EMRELİC. · YIL düzeyi, 'about 1750' (yaklaşık). IG: 1562 Akbar (Malwa Subası merkezi), 1733 Sawai Jai Singh vali, 1743 Peşva naib-vali (Mughal atamalı: hâlâ Babür egemenliği), ~1750 Sindhia. Atlas 'maratha 1732' IG ile çelişir. ÖLÇÜT: idareye katma — IG 'passed to Sindhia'.",
    "kaynak2": "J. S. Grewal, The Sikhs of the Punjab (The New Cambridge History of India II.3), Cambridge University Press 1990 (archive.org: the-new-cambridge-history-of-india-volume-2-part-3)",
    "alinti2": "Before Nadir Shah invaded India in 1738-1739 the Marathas had subjugated Gujarat and Malwa and extended their sway up to the river Chambal in Rajasthan.",
    "oneri_son": {
     "t": "1750-01-01"
    },
-   "_etiket": "CELISKI",
+   "_etiket": "KARAR_GECE62",
    "dosya_satir_eski": "data/yerlesimler_asya.js:850",
    "tazeleme": {
     "durum": "AYNI",
@@ -163353,13 +163589,13 @@
    "oneri": {
     "f": "1750-01-01"
    },
-   "not": "YÜKSELTME TURU (CELISKI): Önceki satırla aynı çelişki (f ucu): oneri f 1750 (IGI 'about 1750') vs Grewal Malwa'nın 1738-39'dan önce Marathalarca 'subjugated' olması. Öneri değiştirilmedi; karar EMRELİC'in. 'maratha' vs 'gvalyar' künye sorusu da bekliyor. Sindhia'nın Ujjain'i 'finally' alışı IGI'de ~1750; modern ikinci kaynak okunamadı (Gordon ödünç kilitli). · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. KÜNYE SORUSU: IG sahibi 'Sindhia' diye adlandırır; atlasta gvalyar künyesi f 1731-01-01 (Sindiya hanedanı, hayalet değil) mevcut ve 1818-06-03'ten sonra zaten gvalyar. 1750-1818 için d: maratha (konfederasyon, t 1818-06-03) mı gvalyar mı kararı KASA/EMRELİC'indir; oneri d'yi değiştirmediği için maratha bırakıldı. t=1818-06-03 bu satırın konusu değil (IG'de yok). · Sindhia hanedanı = Gvalyar Devleti; IG 1810'a dek Ujjain Sindhia'nın başlıca şehri. 'maratha' ile 'gvalyar' künye seçimi (1750-1818 arası) KASA'da karara bağlanmalı; 1818-06-03 ucu IG'de yok.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC gece-62, 5 Kasım 2026; ilke: modern akademik kaynak > IGI): Grewal (NCHI II.3) '1738 öncesi' esas; kesin yıl yoksa Grewal'in verdiği en yakın olay (Peşva Bâcî Râv'ın Malva fethi 1737/38) [yalnız yıl] BEYANLI; IGI 'about 1750' ic_not'a. · YÜKSELTME TURU (CELISKI): Önceki satırla aynı çelişki (f ucu): oneri f 1750 (IGI 'about 1750') vs Grewal Malwa'nın 1738-39'dan önce Marathalarca 'subjugated' olması. Öneri değiştirilmedi; karar EMRELİC'in. 'maratha' vs 'gvalyar' künye sorusu da bekliyor. Sindhia'nın Ujjain'i 'finally' alışı IGI'de ~1750; modern ikinci kaynak okunamadı (Gordon ödünç kilitli). · KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. KÜNYE SORUSU: IG sahibi 'Sindhia' diye adlandırır; atlasta gvalyar künyesi f 1731-01-01 (Sindiya hanedanı, hayalet değil) mevcut ve 1818-06-03'ten sonra zaten gvalyar. 1750-1818 için d: maratha (konfederasyon, t 1818-06-03) mı gvalyar mı kararı KASA/EMRELİC'indir; oneri d'yi değiştirmediği için maratha bırakıldı. t=1818-06-03 bu satırın konusu değil (IG'de yok). · Sindhia hanedanı = Gvalyar Devleti; IG 1810'a dek Ujjain Sindhia'nın başlıca şehri. 'maratha' ile 'gvalyar' künye seçimi (1750-1818 arası) KASA'da karara bağlanmalı; 1818-06-03 ucu IG'de yok.",
    "kaynak2": "J. S. Grewal, The Sikhs of the Punjab (The New Cambridge History of India II.3), Cambridge University Press 1990 (archive.org: the-new-cambridge-history-of-india-volume-2-part-3)",
    "alinti2": "Before Nadir Shah invaded India in 1738-1739 the Marathas had subjugated Gujarat and Malwa and extended their sway up to the river Chambal in Rajasthan.",
    "oneri_son": {
     "f": "1750-01-01"
    },
-   "_etiket": "CELISKI",
+   "_etiket": "KARAR_GECE62",
    "dosya_satir_eski": "data/yerlesimler_asya.js:851",
    "tazeleme": {
     "durum": "AYNI",
