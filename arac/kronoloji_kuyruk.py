@@ -111,6 +111,8 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    "L2-1234": "Takvim: Ansei 7/3/3 = 1860-03-24 Gregoryen (NAOJ ECO; Kotobank «万延1年3月3日» geriye dönük yıl adı — Man'en 3/18'de ilan edildi → ic_not) — atlasla aynı",
+    "L2-1240": "Takvim: Keiō 3/10/14 = 1867-11-09 Gregoryen (NAOJ ECO; Kotobank Mypedia) — atlasla aynı; kabul ertesi gün 10/15 = 1867-11-10",
     # L2E 1779-1814: Goryeosa (Academia Sinica, EMRELİC) + Japon satırları (NAOJ ECO, KASA SALI); atlasla aynı
     "L2-2229": "Takvim: Goryeo Injong 13/1 (朔 乙巳 = 1135-01-16) 辛亥 = 1135-01-22 (Academia Sinica)",
     "L2-2230": "Takvim: Injong 13/1 辛未 = 1135-02-11 (Academia Sinica)",
@@ -667,6 +669,16 @@ METIN = [
     ("L2-1196", "[BEKLE — Malabar takvimi] Kundara Bildirisi 1809-01-11: Quilon Gazetteer «1st Makaram 984 (16th January, 1809)»; Trivandrum Gazetteer ve Nagam Aiya yalnız «January 1809»; 1 Makaram 984 kaba hesapla ~11-12 Ocak (Makara saṅkrānti) → Kerala takvim tablosuyla çevrilmeden karar yok"),
     ("L2-1197", "[BEKLE — olay kaynakta yok] Betsileo 1810 «Radama I dört krallığı fethetti»: Encyclopedia of World Cultures Merina fethini ~1830 (künye t=1830 ile uyumlu); TDV 1810 yalnız Radama'nın tahta çıkışı; Larousse ilhakı Andrianampoinimerina'ya verir → beyanlı yaklaşık ya da kaldırılır"),
     ("L2-1187", "[BEKLE — tek dayanak Britannica YZ özeti] Betsimisaraka 1791: «üçüncü hükümdarın ölümünden sonra çöktü»; atlasın 1803 anarşi maddesi ve künye t=1817 ile iç çelişki → Kent 1970 / Cambridge History of Africa c.5"),
+    # L2S 843-854 (S40)
+    ("L2-1240", "Taisei Hōkan 1867-11-09: «iade etti» → «iade teklif etti» (kabul 1867-11-10); kronoloji_cok_ince_gd_asya.js:51 aynı olay olabilir"),
+    ("L2-1234", "Sakuradamon (Ii Naosuke) 1860-03-24: Kotobank «Mito ve Satsuma rōninleri» → fail ifadesi; etiket_yama.js:1499 ve paket_11.js:1427'de aynı olay olabilir"),
+    ("L2-1229", "Gulâb Singh ölümü 1857-06-30 (Encyclopaedia of Sikhism) gün tutar; ölüm yeri Cammu → odak_yer Srinagar düzeltilir"),
+    ("L2-1232", "Francesco V'in kaçışı 1859-06-11 (DBI) gün tutar; «619 yıllık», «Avusturya ordusu geri çekilince» ve halkoylaması DBI'da okunmadı"),
+    ("L2-1238", "[BEKLE — kaynak açılmadı] Yunan marşı 1865-01-01 → 1865-08-04 kraliyet kararnamesi adayı (yalnız arama özeti; presidency.gr 403)"),
+    ("L2-1233", "[BEKLE — çelişki] Burundi Mwezi Gisabo 1860: ikinciller tahta çıkışı 1850/1852, 1860 naibin ölümü / tam iktidar → «tahta çıktı» çerçevesi yanlış olabilir; Newbury 2001 açılamadı"),
+    ("L2-1241", "[BEKLE — tek dayanak Vikipedi] Racputana kıtlığı: «iki yıl üst üste musonun gelmemesi» şüpheli — 1868 musonu geç/zayıf, 1869 bahar hasadı yok; kıtlık adı «1869»"),
+    ("L2-1236", "Mescalero 1863 (NPS Fort Union) yıl tutar; «ilk» ifadesi okunan sayfada yok"),
+    ("L2-1237", "Navaho 1864 (NPS Fort Union) yıl tutar; «10.000+» ve ölü sayısı okunan sayfada yok"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
