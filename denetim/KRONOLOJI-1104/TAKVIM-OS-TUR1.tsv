@@ -1,0 +1,18 @@
+dosya_satir	olay	atlas	onerilen	is	gerekce (EMRELİC eski takvim taraması 1. tur: hicrî tabüler ±1 + TDV; tithi = ortalama Ay yaşı)
+data/kronoloji_cok_ince_guney_asya.js:30	Nizâmülmülk'ün ölümü	1748-05-21	1748-06-02	tarih düzelt	TDV 4 Cemâziyelâhir 1161 = 2 Haziran 1748; tabüler hicrî 06-01, Jülyen karşılığı tam 05-21 → atlas ham O.S.
+data/kronoloji_hindistan.js:272	EIC fermanı	1600-12-31	1601-01-10	tarih düzelt	İngiliz belgesi O.S.; ic_not «31 Aralık 1600 O.S.» — L2-47 (TARAYICI2) ile aynı olay, KASA PAZAR orada uyguladı; bu kopya da düzelir
+data/kronoloji_ingiltere.js:528	EIC fermanı	1600-12-31	1601-01-10	tarih düzelt	İngiliz belgesi O.S.; ic_not «31 Aralık 1600 O.S.»
+data/kronoloji_portekiz.js:363	Catherine of Braganza'nın evliliği (Portsmouth)	1662-05-21	1662-05-31	tarih düzelt	İngiliz kaydı O.S. (+10)
+data/kronoloji_hindistan.js:690	Sir Thomas Roe'nun gelişi	1615-01-10	1616-01-20	tarih düzelt	YIL da yanlış: Roe'nun günlüğü 10 Ocak 1616 O.S. (İngiliz yılı 25 Mart'ta başlar, 1615/16) → Gregoryen 1616-01-20
+data/kronoloji_hindistan.js:374	Khalsa'nın kuruluşu (L2-1123)	1699-04-13	1699-04-09	tarih düzelt	1 Baisakh Bikrami 1756 = 30 Mart 1699 Jülyen = 9 Nisan Gregoryen; 13 Nisan modern Vaisakhi alışkanlığı
+data/kronoloji_hindistan.js:297	Cihangir'in ölümü	1627-11-08	1627-11-07	tarih düzelt	TDV 27 Safer 1037 = 7 Kasım 1627; tabüler hicrî de 11-07
+data/kronoloji_hindistan.js:277	Âdi Grânth (L2-1079)	1604-08-16	1604-08-26 (aday)	BEKLE	Bhadon sudi 1, 1661: Jülyen 1604-08-16'da Ay yaşı 1,8 gün (uyar) → atlas O.S., Gregoryen 08-26; ama tamamlama 29-30 Ağustos, yerleştirme 1 Eylül diyen kaynaklar var → olay tanımı netleşmeden uygulanmaz
+data/kronoloji_hindistan.js:344 + kronoloji_cok_ince_guney_asya.js:411	Benâres tapınağının yıkımı	1669-09-02	1669-04-18 ya da başlık	BEKLE	Emir 17 Zilkade 1079 = 1669-04-18 (Maasir-i Alamgiri, ikincil); atlas 09-02 yıkım haberinin gelişi → ya tarih 04-18 ya başlık «yıkıldı»; akademik birincil neşir lazım
+data/kronoloji_hindistan.js:292	Kandehar 1622	1622-06-01	?	BEKLE	TDV 11 Haziran — 10 günlük fark O.S. şüphesi; hicrî gün bulunmalı
+(Ekber'in ölümü)	Ekber'in ölümü	1605-10-27	?	BEKLE	TDV 16/21 Ekim (Jülyen görünür); kaynak çelişkisi, hicrî gün lazım
+(Dârâ Şükûh'un idamı)	Dârâ'nın idamı	1659-08-30	?	BEKLE	TDV 10 Eylül; atlas Gregoryen görünür; kaynak çelişkisi, hicrî gün lazım
+(Mevâr)	Mevâr	02-05 / 02-22	?	BEKLE	Kaynak çelişkisi, hicrî gün lazım
+(Şah Cihan'ın ölümü)	Şah Cihan'ın ölümü	1666-01-22	KALIR	uyumlu	Gregoryen doğru
+(Golkonda)	Golkonda'nın düşüşü	1687-09-21	KALIR	uyumlu	Gregoryen doğru
+(Evrengzîb'in ölümü)	Evrengzîb'in ölümü	1707-03-03	KALIR	uyumlu	Gregoryen doğru
+(Evrengzîb'in cülusu)	Evrengzîb'in cülusu	1658-07-31	KALIR	uyumlu	TDV 21 Temmuz Jülyen karşılığı; atlas Gregoryen doğru

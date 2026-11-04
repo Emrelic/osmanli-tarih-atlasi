@@ -270,6 +270,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1123": ("tarih düzelt", "Khalsa 1699-04-13 → 1699-04-09: 1 Baisakh Bikrami 1756 = 30 Mart 1699 Jülyen = 9 Nisan Gregoryen (EMRELİC eski takvim taraması); 13 Nisan modern Vaisakhi alışkanlığı; odak_yer Delhi → Anandpur/Keshgarh"),
     "L2-1186": ("tarih düzelt", "Quang Trung ilanı 1788-11-22 → 1788-12-22: Takvim: Qianlong 53 戊申, 11. ay 25. gün = 1788-12-22 Gregoryen (Academia Sinica, EMRELİC) — atlas «11. ay»ı Kasım okumuş; Tây Sơn takvimi Qing'den ±1 gün sapabilir → ic_not"),
     "L2-1155": ("tarih düzelt", "Gürcistan 1744-01-01 → 1744-07-01 + «[yalnız ay teyitli]»: Georgian National Encyclopedia «Teimuraz II» — «the Shah confirmed Teimuraz II as King of Kartli and Erekle as King of Kakheti in July 1744»; atlas metni TERS (Teimuraz Kaheti, Erekle Kartli diyor) → metin de düzeltilir; tek kaynak (Iranica 403)"),
     "L2-1212": ("tarih düzelt", "Sam Houston «ilk başkanı seçildi» 1836-10-01 → 1836-09-05 seçim günü (TSHA, Nance «Republic of Texas»: «On election day, September 5»); yemin 1836-10-22 ic_not"),
@@ -587,7 +588,7 @@ METIN = [
     ("L2-2179", "[BEKLE — çelişki] TDV yardımı Afrigid'e değil Gürgenç Me'mûnî'ye verir → olay öznesi kontrol (EMRELİC)"),
     ("L2-2178", "[BEKLE — yıl] Song shi j.489 992'yi teyit eder, 990'ı değil (EMRELİC)"),
     # L2S 699-710 (S28)
-    ("L2-1079", "Âdi Grânth 1604-08-16 (Encyclopaedia of Sikhism «Bhadon sudi 1661 Bk»): Harmandir Sahib'e yerleştirme günü, derleme bitişi değil (2 Ağustos SREC, ikincil); Nanakshahi 1 Eylül değeri de dolaşır → başlık «yerleştirildi», ic_not iki gün"),
+    ("L2-1079", "[BEKLE — O.S. + olay tanımı] Âdi Grânth 1604-08-16: Bhadon sudi 1, 1661 — Jülyen 08-16'da Ay yaşı 1,8 (uyar) → atlas O.S., Gregoryen 1604-08-26 aday (EMRELİC); 16 Ağustos Harmandir Sahib'e yerleştirme, derleme bitişi 2 Ağustos (SREC), tamamlama 29-30 Ağustos / yerleştirme 1 Eylül diyenler de var → başlık «yerleştirildi», olay netleşince gün"),
     ("L2-1081", "Khagemba 1606 (Ahmed, American Journal of Islam and Society, s.126-127) yıl tutar; Müslüman askerler batıdan (Taraf/Sylhet) geldi, prens Sanongba'ya eşlik etti — taht mücadelesi, «doğudan gelen istilâ» ve «Kaçâr üzerinden» değil; cümlede Khagemba adı eksik"),
     ("L2-1077", "Nagazaki 1597-02-05 (Nipponica, Keichō 1/12/19) gün tutar; «çarmıha gerilerek» kaynak cümlede yok → kontrol"),
     ("L2-1071", "[BEKLE — tamamlanma yılı akademik kaynakta yok] Âyîn-i Ekberî 1590: TDV ve Iranica yıl vermez; özetler 1598 (42. cülus yılı) → Blochmann/Jarrett önsözü"),
@@ -625,7 +626,6 @@ METIN = [
     ("L2-1121", "[BEKLE — 1696/1697] Danilo I: Columbia ve Britannica seçilişi 1696, hanedanı 1697'den başlatır; 1697 akademik kaynakta okunmadı"),
     ("L2-1125", "Ovalar Apaçileri: Handbook of Texas baskı yapanlar Komançi, Wichita, Tejas — atlas Kiowa ve Sioux; göç yönü uyuşmuyor → metin düzeltilir"),
     ("L2-1127", "[BEKLE — tek dayanak Britannica] Fipa ~1700: odak_yer Mbeya, Nkansi ve Lyangalile Rukwa'da (Mbeya Nyakyusa bölgesi) → odak_yer düzeltilir"),
-    ("L2-1123", "Khalsa 1699: odak_yer Delhi → Anandpur/Keshgarh; gün 13 Nisan akademik kaynakta yok (ipucu 30 Mart 1699 Jülyen = 9 Nisan Gregoryen; 13 Nisan modern Vaisakhi olabilir)"),
     ("L2-1129", "[BEKLE — kaynaksız] Kalhora: «Bâbürlü merkezinin zayıflaması» ile «Mugal fermanı» anlatısı çelişir; TDV'de madde yok"),
     # L2E 1755-1814 (EMRELİC)
     ("L2-2245", "Yoritomo Kamakura'ya girdi (1180-11-04): L2-2246 ile aynı olay (KRONOLOJI_COK_DOGU_500_1281[202] ve [254]) → yinelenen madde birleşir"),
