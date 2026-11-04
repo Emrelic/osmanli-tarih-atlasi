@@ -449,7 +449,9 @@ _Bugünkü veride eşleşen satır yok._
 - Kural: s: dönemi 1917-11-07'de açılıp en az 1920-03'e dek kesintisiz 'sovyet-rusya'; o bölgede 1917-1922 ara devletleri (künyeleri devletler.js'te var) hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E021, E046-E051; ENKLAV-1104 K112, K177, K214, K291, K352-K354, K373
 - **Kaynaklı günler (KAYNAK2):**
-  - Uzak Doğu Cumhuriyeti için bağımsız kaynak okunmadı (atlas kronolojisi dayanak olamaz) — KAYNAK-GEREK.
+  - `1920` Uzak Doğu Cumhuriyeti kuruldu, merkez Çita (yalnız yıl) — Encyclopaedia Britannica, "Far Eastern Republic", https://www.britannica.com/place/Far-Eastern-Republic — "nominally independent state formed by Soviet Russia in eastern Siberia in 1920 … centring on the city of Chita" (KAYNAK3)
+  - `1922-11` SSCB'ye katılım (yalnız ay) — aynı madde — "incorporated into the Soviet Union in November 1922"
+  - Çita'nın başkent oluş GÜNÜ (Verhneudinsk'ten taşınma, Semyonov'un çekilişi) bulunamadı: Bolşaya Rossiyskaya Entsiklopediya (bigenc.ru) HTTP 403 verdi. Britannica üçüncül kaynak — akademik teyit gerek. KAYNAK-GEREK (gün).
 - Ortak öneri (aksi yazılmadıkça): uzak-dogu-cumhuriyeti 1920-04-06 → 1922-11-14 (künye); Primorye'de 1918-1922 Japon/Beyaz idaresi ayrıca
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -557,7 +559,16 @@ _Bugünkü veride eşleşen satır yok._
 - **Kaynaklı günler (KAYNAK2):**
   - `1861-02-01` Teksas ayrılık kararnamesi (resmî 2 Mart 1861) — Handbook of Texas, "Secession", https://www.tshaonline.org/handbook/entries/secession — "on February 1 ... the convention met to take a final vote on the ordinance of secession"; "the secession of the state became official on March 2"
   - `1861-04-17` Virginia konvansiyonu ayrılık oyu (referandum 23 Mayıs 1861) — Encyclopedia Virginia, "Virginia Convention of 1861" (Nelson D. Lankford), https://encyclopediavirginia.org/entries/virginia-convention-of-1861/ — "the convention voted on April 17 to leave the Union. Virginians expressed their agreement at the polls on May 23"
-  - Öteki eyaletlerin ayrılış günleri (SC 1860-12-20 … TN 1861-06-08) okunmadı — eyalet ansiklopedileriyle; KAYNAK-GEREK.
+  - `1860-12-20` Güney Carolina ayrılık oyu (Charleston, oybirliği) — South Carolina Encyclopedia, "Secession", https://www.scencyclopedia.org/sce/entries/secession/ — "December 20, 1860, the day in Charleston on which delegates at the South Carolina state convention voted unanimously to secede" (KAYNAK3)
+  - `1861-01-09` Mississippi ayrılık kararnamesi — Mississippi Encyclopedia, "Secessionist Movement" (Christopher Olsen), https://mississippiencyclopedia.org/entries/secession/ — "The convention passed an ordinance of secession on 9 January 1861"
+  - `1861-01-07/11` Florida ayrılığı — gün değil aralık (Alabama konvansiyonu 7-11 Ocak arasında 'Mississippi and Florida did so as well') — Encyclopedia of Alabama, "Secession" (J. Mills Thornton), https://encyclopediaofalabama.org/article/secession/ — Florida günü KAYNAK-GEREK (Florida'nın eyalet ansiklopedisi yok; Florida Memory 403)
+  - `1861-01-11` Alabama ayrılık kararnamesi — Encyclopedia of Alabama, "Secession" — "the final vote on the Ordinance of Secession on January 11"
+  - Georgia (19 Ocak 1861 sanılır): New Georgia Encyclopedia'ya erişim reddedildi (urllib TLS hatası, uygulama tarayıcısı site izni yok) — KAYNAK-GEREK.
+  - `1861-01-26` Louisiana ayrılığı (Baton Rouge, 113-17) — 64 Parishes, "Louisiana's Secession from the Union" (John M. Sacher), https://64parishes.org/entry/louisianas-secession-from-the-union — "On January 26, 1861, the delegates to Louisiana's secession convention meeting in Baton Rouge voted 113 to 17 to secede"
+  - `1861-05-06` Arkansas ayrılık konvansiyonu oyu — CALS Encyclopedia of Arkansas, "Secession Convention", https://encyclopediaofarkansas.net/entries/secession/ — "On May 6, 1861, a body of men … voted to remove Arkansas from the United States of America"
+  - `1861-05-20` Kuzey Carolina konvansiyonu toplandı ve oybirliğiyle ayrılık kararnamesini kabul etti (21 Mayıs imza) — NCpedia, "Secession Movement", https://www.ncpedia.org/secession-movement — "gathered on 20 May 1861 … The convention then unanimously passed the ordinance of secession … On 21 May 1861 the ordinance was signed" [oy günü 'then' ile — beyan]
+  - `1861-06-08` Tennessee ayrılık referandumu (yasama öncesinde bağımsızlık ilan edip Konfedere ile askerî ittifak yaptı) — Tennessee Encyclopedia, "Civil War", https://tennesseeencyclopedia.net/entries/civil-war/ — "the legislators called another referendum for June 8. On that date, approximately 105,000 Tennesseans voted for secession"
+  - Missouri ve Kentucky kapsam dışı (EMRELİC). Kalan: Georgia günü, Florida günü — KAYNAK-GEREK.
 - Ortak öneri (aksi yazılmadıkça): ayrılış günü (eyaletine göre, 1860-12-20 SC … 1861-06-08 TN) → 1865 konfedere-devletler; Kentucky/Missouri/Batı Virginia/Kızılderili Bölgesi hariç — kutu kaba, eyalet eyalet ayıkla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -646,7 +657,9 @@ _Bugünkü veride eşleşen satır yok._
 - **Kaynaklı günler (KAYNAK2):**
   - `1943-09-08` Ateşkes sonrası Belluno, Trento, Bolzano Alman denetimine geçti: Alpenvorland (komiser Bolzano'da), RSI'den ayrı — Treccani, "Belluno" (Enciclopedia Italiana), https://www.treccani.it/enciclopedia/belluno_res-426c5aa5-87e5-11dc-8e9d-0016357eee51_(Enciclopedia-Italiana)/ — "Dopo la proclamazione dell'armistizio (8 settembre 1943) la provincia di Belluno, con quelle di Trento e di Bolzano, passò sotto il controllo germanico: le tre provincie costituirono la zona dell'Alpenvorland" [yalnız 'sonrası'; operasyon bölgesinin kuruluş günü okunmadı]
   - `1945-05-01` Belluno'da çatışmaların sonu — aynı madde — "non ebbe termine che il 1° maggio 1945"
-  - Adriatisches Küstenland (Friuli, Venezia Giulia, İstria) için Treccani'de gün bulunamadı (Küstenland ve Venezia Giulia maddeleri 1943'ü anmıyor) — KAYNAK-GEREK.
+  - `1943-08-02` Alman birlikleri Brenner'den zorla girip Trentino-Alto Adige merkezlerine yerleşti (ateşkes öncesi) — Treccani, "Venezie, Tre" (Enciclopedia Italiana, II Appendice), https://www.treccani.it/enciclopedia/tre-venezie_res-12b59fa8-87e7-11dc-8e9d-0016357eee51_(Enciclopedia-Italiana)/ — "le quali già il 2 agosto 1943 entrarono di forza dal Brennero"; 8 Eylül'de kışlaları ve resmî daireleri ele geçirip "costituirono la Operationszone Alpenvorland … con un alto commissario a Bolzano" (KAYNAK3, Belluno 1943-09-08 ile çift teyit)
+  - `1943-09/10` Adriatisches Küstenland: Udine, Gorizia, Trieste, Pola, Fiume (ve Ljubljana) RSI yargısından alınıp 'Zona di operazioni del litorale adriatico' oldu (Oberster Kommissar) — gün değil Eylül-Ekim 1943 — aynı madde — "Tra il settembre e l'ottobre le S.S. compirono azioni di rastrellamento … Contemporaneamente i Tedeschi sottraevano le provincie di Udine, Gorizia, Trieste, Pola e Fiume (e Lubiana) alla giurisdizione del governo della cosiddetta repubblica sociale … sotto il nome di 'Zona di operazioni del litorale adriatico' (Operationszone Adriatisches Küstenland)" [kuruluş günü KAYNAK-GEREK]
+  - `1945-05-01` Yugoslav birlikleri Trieste ve İsonzo'ya ulaştı; 2 Mayıs Anglo-Amerikan birlikleri Gorizia ve Trieste'de Almanları teslim aldı (Küstenland'ın sonu) — aynı madde — "le truppe iugoslave … si precipitarono in direzione di Trieste e dell'Isonzo, che raggiunsero il 1° maggio … Il giorno dopo reparti angloamericani si spingevano … fino a Gorizia ed a Trieste, obbligavano alla resa i Tedeschi superstiti"
 - Ortak öneri (aksi yazılmadıkça): 1943-09-08 sonrası Alman denetimi → Alpenvorland (Bolzano, Trento, Belluno) / Adriatisches Küstenland (Friuli, Venezia Giulia, İstria) — almanya (Reich operasyon bölgesi), RSI değil; bitiş Belluno 1945-05-01 (Treccani); Küstenland günleri KAYNAK-GEREK
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -671,7 +684,10 @@ _Bugünkü veride eşleşen satır yok._
 - Kural: (53.9, 57.9, 20.9, 26.9) kutusunda 1916-06-01 günü sahibi rusya/rusya-gecici-hukumet olan noktalar.
 - Hükümler: ENKLAV-1104 K447, K448
 - **Kaynaklı günler (KAYNAK2):**
-  - Treccani "Curlandia" (https://www.treccani.it/enciclopedia/curlandia/): "Occupata dall’esercito tedesco (1918)" — yaygın bilinen 1915 işgaliyle ÇELİŞİYOR (1918 Kurland düklüğü ilanını tarihliyor olabilir). Kaynaklı 1915 günü bulunamadı — KAYNAK-GEREK; çelişki ic_not'ta.
+  - `1915-05-07` Alman ordusu Libau'yu (Liepāja) aldı (Jülyen 24-25.04 / Gregoryen 07-08.05.1915) — Nacionālā enciklopēdija (Latvijas Nacionālā bibliotēka), "Pirmais pasaules karš Latvijā", https://enciklopedija.lv/skirklis/20833 — "24.–25.04./07.–08.05.1915. Vācijas armija ieņēma Liepāju"; evre: "04.–07.1915. – Vācijas armija okupēja Kurzemes guberņu" (KAYNAK3)
+  - `1915-07-31` Bauska'nın alınışı — aynı madde — "18./31.07. ieņemot Bausku"
+  - `1915-08-01` Mitau'nun (Jelgava) alınışı — Kurland valiliği merkezi — aynı madde — "un 19.07./01.08. – Jelgavu"
+  - Treccani "Curlandia" "Occupata dall'esercito tedesco (1918)" diyor — Letonya Ulusal Ansiklopedisi 1915'i günüyle veriyor; Treccani'nin 1918'i büyük olasılıkla Riga sonrası (Eylül 1917) ve Kurland düklüğü ilanı (1918) dönemini tarihliyor. Çelişki iki kaynağıyla beyanlı; kova günü 1915 (Gregoryen) alınır.
 - Ortak öneri (aksi yazılmadıkça): 1915 yaz taarruzu (şehrin düşüş günü) → 1918-11 almanya (Ober Ost); Riga 1917-09-03 — kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -698,7 +714,10 @@ _Bugünkü veride eşleşen satır yok._
 - Kural: (47.7, 49.6, 16.8, 22.6) kutusunda 1919-09-01 günü sahibi macaristan-naiplik/macaristan-sovyet/macaristan-halk-cumhuriyeti olan noktalar.
 - Hükümler: ENKLAV-1104 K134
 - **Kaynaklı günler (KAYNAK2):**
-  - Slovakya 1918-12/1919-01 Çekoslovak işgali için açık akademik kaynak okunamadı — KAYNAK-GEREK (EMRELİC'e: Oxford Reference 'Slovakia' / 'Czechoslovakia').
+  - `1919` Bratislava (Pozsony) Slovakya'nın başkenti ve 'Slovakya idaresi için tam yetkili bakanlık' merkezi oldu; ad 1919'dan Bratislava (yalnız yıl) — Encyclopaedia Beliana (SAV), "Bratislava", https://beliana.sav.sk/heslo/bratislava-0 — "keď sa v roku 1919 stala hlavným mestom Slovenska a sídlom Ministerstva s plnou mocou pre správu Slovenska" (KAYNAK3)
+  - `1919-03-21` Macar Sovyet Cumhuriyeti kuruldu; Slovakya'nın Çek topraklarına bağlanmasını tanımadı → Çekoslovak-Macar savaşı — Encyclopaedia Beliana, "Československo", https://beliana.sav.sk/heslo/ceskoslovensko — "po vzniku boľševickej Maďarskej republiky rád (21. 3. 1919), ktorá odmietla uznať pripojenie Slovenska"
+  - `1919-07-01` Çekoslovak-Macar ateşkesi; Çekoslovak ordusu 1919 yazında Slovakya'yı ve Podkarpatya Rusyası'nı denetimine aldı — aynı madde — "1. 7. 1919 podpísaná československo-maďarská zmluva o prímerí a československé vojsko mohlo obsadiť … v priebehu leta 1919"
+  - Bratislava'ya giriş GÜNÜ ve Košice (Kassa) giriş günleri Beliana'da bulunamadı (Košice maddesi henüz yayımlanmamış: /heslo/kosice 'Stránka nenájdená') — KAYNAK-GEREK (gün).
 - Ortak öneri (aksi yazılmadıkça): 1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
