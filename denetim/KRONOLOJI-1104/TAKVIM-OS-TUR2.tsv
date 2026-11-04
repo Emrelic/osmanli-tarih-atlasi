@@ -1,0 +1,18 @@
+dosya_satir	olay	atlas	onerilen	is	gerekce (EMRELİC eski takvim taraması 2. tur; ham: TAKVIM-OS-TUR2-ham.tsv)
+data/kronoloji_hindistan.js:334	Dârâ Şükûh'un idamı	1659-08-30	1659-09-10	tarih düzelt	Indian Antiquary 40 «21st Zul Hijjah 1069 (Sept. 10th, 1659)» + TDV 10 Eylül — ÇİFT TEYİT; tabüler hicrî 09-09; atlas Jülyen karşılığı (TUR1'deki BEKLE kapandı)
+(Kinsale)	Kinsale	1601-12-24	1602-01-03	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1601-12-24» — kaynakta açık O.S. notu var; YIL değişir
+(Nottingham)	Nottingham sancağı	1642-08-22	1642-09-01	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1642-08-22»
+(Naseby)	Naseby	1645-06-14	1645-06-24	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1645-06-14» — kaynak O.S. demiyor; İngiliz tarih yazımı O.S.
+(Dunbar)	Dunbar	1650-09-03	1650-09-13	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1650-09-03» — İngiliz tarih yazımı O.S.
+(Killiecrankie)	Killiecrankie	1689-07-27	1689-08-06	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1689-07-27» — İngiliz tarih yazımı O.S.
+(Boyne)	Boyne	1690-07-01	1690-07-11	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1690-07-01» — kaynakta açık O.S. notu var
+(Messiah)	Messiah'nın ilk icrası (Dublin)	1742-04-13	1742-04-24	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1742-04-13» (+11) — İngiliz tarih yazımı O.S.
+(Culloden)	Culloden	1746-04-16	1746-04-27	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1746-04-16» (+11) — İngiliz tarih yazımı O.S.
+data/devletler.js:8173	Arcot	1751-08-31	1751-09-11	tarih düzelt	CLAUDE.md takvim kuralı (Britanya 1752'ye dek çevrilir); ic_not «kaynak O.S. 1751-08-31» (+11) — V. A. Smith, İngiliz kaynağı
+(Blenheim)	Blenheim	1704-08-13	KALIR	uyumlu	zaten N.S. (O.S. 08-02)
+(Akbar olumu)	Ekber'in ölümü	1605-10-27	KALIR	uyumlu	Indian Antiquary 44: 14 Cemâziyelâhir 1014 = 17 Ekim O.S. = 27 Ekim N.S.; TDV «16 Ekim» ic_not'a (TUR1'deki BEKLE kapandı)
+devletler.js:7973	Haydarabad / Shakar Kheda	1724-10-11	KALIR	uyumlu	TDV 22 Muharrem 1137 = 11 Ekim 1724
+(L2-1153; liste2_sira dosya/anahtar)	Kolaçel (L2-1153)	1741-08-10	1741-08-07 (aday)	BEKLE	Hollanda kayıtları 7 Ağustos (Gregoryen, birincil), Panikkar 10 Ağustos, Menon 31 Temmuz (ME Adi 916) → ikinci akademik kaynak gerek
+(L2-1150)	Marata Delhi akını	1737-03-29	1737-03-28 ya da 04-08	BEKLE	kaynaklar 03-28; Sarkar ise O.S. olabilir → Gregoryen 04-08; kaynak adı ve takvimi netleşmeli
+data/kronoloji_hindistan.js:292	Kandehar 1622	1622-06-01	1622-01-01 ya da yalnız yıl beyanı	BEKLE	yalnız 1031/1622; Vikipedi düşüşü 22 Haziran (ipucu); hicrî gün bulunamadı (TUR1: TDV 11 Haziran)
+(çok)	BULUNAMADI — Gregoryen varsayımı, değiştirme		KALIR	dokunma	Hurda, Manipur (1710/1717/1728 yıl çelişkisi), Sûrat fermanı, Pondişeri, Mevâr, Dürrânî ilanı, Danture, 1644 ateşkesi, Vasai, Ziegenbalg, Kandy; Codrington okunamadı

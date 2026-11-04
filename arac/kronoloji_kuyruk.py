@@ -111,6 +111,8 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    "L2-1215": "Takvim: Tenpō 8/2/19 = 1837-03-25 Gregoryen (NAOJ ECO; Kotobank Heibonsha) — atlasla aynı",
+    "L2-1219": "Takvim: 1844 Anayasası 18 Mart 1844 O.S. = 30 Mart N.S. (Yunan Meclisi kronolojisi) — atlas çevrilmiş, doğru; oylama ile Otto'nun imza/yemini ayrı olay → ic_not",
     # L2S 855-878 (S41/S42) — NAOJ ECO (KASA SALI); atlasla aynı
     "L2-1242": "Takvim: Keiō 4/3/14 = 1868-04-06 Gregoryen (NAOJ ECO)",
     "L2-1246": "Takvim: Meiji 4/11/12 = 1871-12-23 Gregoryen (NAOJ ECO; Sekai Daihyakka)",
@@ -279,6 +281,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1218": ("tarih düzelt", "Yunan 3 Eylül ayaklanması 1843-09-03 → 1843-09-15 Gregoryen: Yunanistan 1923'e dek Jülyen kullandı, «3 Σεπτεμβρίου 1843» O.S. (+12); atlas aynı dönemin 1844 Anayasası'nı (L2-1219, 18 Mart O.S. = 30 Mart N.S.) çevirmiş — iki madde tutarsızdı → ic_not «kaynak O.S. 3 Eylül»; Meclis sayfası 403, Clogg/Dakin açılamadı"),
     "L2-1244": ("tarih düzelt", "Kayor / Dekheulé 1868-10-26 → 1886-10-26 (YIL HATASI): Monteil 1963, Archives de sociologie des religions 8/16 s.77-104 (Persée) «Le 26 [octobre] Lat-Dyor tombe à Dyaqiê… il avait 44 ans»; Lat Dior 1842-1886, demiryolu 1880'ler; 27 Ekim (Valois raporu) ic_not; metin «Lat Dior'u yendi» → «Lat Dior savaşta düştü»"),
     "L2-1123": ("tarih düzelt", "Khalsa 1699-04-13 → 1699-04-09: 1 Baisakh Bikrami 1756 = 30 Mart 1699 Jülyen = 9 Nisan Gregoryen (EMRELİC eski takvim taraması); 13 Nisan modern Vaisakhi alışkanlığı; odak_yer Delhi → Anandpur/Keshgarh"),
     "L2-1186": ("tarih düzelt", "Quang Trung ilanı 1788-11-22 → 1788-12-22: Takvim: Qianlong 53 戊申, 11. ay 25. gün = 1788-12-22 Gregoryen (Academia Sinica, EMRELİC) — atlas «11. ay»ı Kasım okumuş; Tây Sơn takvimi Qing'den ±1 gün sapabilir → ic_not"),
@@ -659,8 +662,8 @@ METIN = [
     ("L2-1154", "Karga 1743: DCB «La Vérendrye, Louis-Joseph» seferi Wyoming / Güney Dakota'da gösterir (Pierre 1743-03-19, levha 03-30); Crow, Bighorn ve Montana anılmaz → «Hardin, Montana yakınlarında Karga ile ilk temas» kaynaksız; tür «antlasma» uygunsuz (temas)"),
     ("L2-1144", "Natchez 1729: 64 Parishes yalnız 1729; ölü 144+35+56 = 235 → «yaklaşık 250» düzeltilir; 28/29 Kasım yalnız özet düzeyinde"),
     ("L2-1149", "[BEKLE — olay dayanaksız] Muratori 1737-01-02: DBI'da böyle bir 1737 olayı yok; Muratori Ağustos 1700'de Modena kütüphaneci-arşivcisi oldu → madde ya silinir ya yeniden tarihlenir"),
-    ("L2-1150", "[BEKLE — O.S./N.S.] Marata Delhi akını 1737-03-29: özet 28 Mart (Talkatora); Sarkar O.S. yazar (L2-1111 bulgusu) → Sarkar günü ise Gregoryen +11 kontrol"),
-    ("L2-1153", "[BEKLE — kaynak çelişkisi] Kolaçel 1741-08-10: Hollanda kaydı 7 Ağu (Kunju 1975, Koshy 1989), Panikkar 10 Ağu, Menon 31 Tem, Nagam Aiya 15 Tem → muharebe / teslim ayrımı"),
+    ("L2-1150", "[BEKLE — O.S./N.S.] Marata Delhi akını 1737-03-29: kaynaklar 03-28 (Talkatora); Sarkar ise O.S. → Gregoryen 04-08; kaynak adı ve takvimi netleşmeli (EMRELİC eski takvim 2. tur)"),
+    ("L2-1153", "[BEKLE — kaynak çelişkisi] Kolaçel 1741-08-10 → 1741-08-07 adayı: Hollanda kayıtları 7 Ağustos Gregoryen (birincil; Kunju 1975, Koshy 1989), Panikkar 10 Ağustos, Menon 31 Temmuz (ME Adi 916) → ikinci akademik kaynak gerek (EMRELİC eski takvim 2. tur)"),
     ("L2-1147", "[BEKLE — çelişki] Zîc-i Muhammed Şâhî 1732: özetler 1728 der; Cambridge metni okunamadı"),
     # L2S 783-794 (S35)
     ("L2-1160", "Paoli anayasası: Dieta generale di Corte 16-18 Kasım 1755 (DBI) — atlas 18 Kasım aralığın son günü → ic_not; yer_id «Bastia (Korsika)» yanlış → Corte; «Cenova fiilen tamamen kaybetti» okunmadı"),
@@ -697,6 +700,13 @@ METIN = [
     ("L2-1272", "Vollayta 1890 (DAB, Haberland «ruled 1890-94»): «altı kez yendi» okunmadı; son yenilgi Kasım 1894, «1896» desteklenmez → 1894"),
     ("L2-1258", "Satsuma 1877-02-15: Saigō ordusunun Kagoshima'dan hareketi (Nihon Daihyakka Zensho, Sekai Daihyakka); savaşın başlangıcı 29 Ocak (ja.Wikipedia ipucu) → «Saigō başlattı» ile 15 Şubat kabul, ic_not"),
     ("L2-1268", "Datsu-A Ron 1885-03-16 (Kotobank): imzasız Jiji Shinpō başyazısı, Fukuzawa'ya atfedilir → «Fukuzawa yazdı» kesinliği yumuşatılır"),
+    # L2S 831-842 (S39)
+    ("L2-1225", "Perry Uraga 1853-07-08 (Perry Narrative) gün tutar; «dört buharlı savaş gemisi» yanlış → 2 buharlı (Susquehanna, Mississippi) + 2 yelkenli sloop (Saratoga, Plymouth)"),
+    ("L2-1222", "[BEKLE — ay kaynaksız] Njegoš Dağlar Tacı 1847 (Viyana Mehitarist matbaası) yıl tutar; «Şubat» hiçbir kaynakta yok → t ve metinden ay çıkarılır"),
+    ("L2-1221", "Ndaté Yalla 1846-10-01 (Fatou Sarr 2009 «installée le 1er octobre 1846») gün tutar; «taç giydi» ve «Nder» kaynakta yok → «göreve getirildi»"),
+    ("L2-1226", "Muluki Ain 1854 (Gaenszle, EBHR 63, 2024 «Promulgated in 1854»): «yürürlüğe girdi» → «ilan edildi»; Höfer'in 6 Ocak 1854'ü yalnız arama özetinde"),
+    ("L2-1220", "Gulâb Singh 1845 (Encyclopaedia of Sikhism): «gizli yardım» — metin istihbarat/gizli yardım diye daraltılır; Amritsar 16 Mart 1846 ayrı olay"),
+    ("L2-1223", "[BEKLE — kaynak açılmadı] Zwangendaba 1848: arama özetleri 1848 / c.1845 çelişir; «yedi krallık» sayısı kaynaklarda değişir"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
