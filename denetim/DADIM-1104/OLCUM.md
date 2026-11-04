@@ -550,6 +550,28 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - S10 kararı: her şehir kendi fetih ya da teslim gününden başlar. Günler kaynaktan alınacak.
 - **Split:** S11 (a) işlendi, `s: italya` 1941-05-18 → 1943-09.
 
+## 22. Mora 1821-33 zinciri kaynaktan (`mora_sonuc.json`; dadim_sonuc'a `_etiket: MORA-1821` ile eklendi, ezilmedi)
+- **Kaynaklar:** TDV maddeleri (Mora, Tripoliçe, Modon, Navarin, Koron, Balyabadra, İnebahtı, İbrâhim Paşa, Yunanistan) ve Phillips 1897 ile Finlay 1861. Bu iki eski eser tek başına KISMEN sayıldı.
+- **Bulgu:** 14 yerleşimdeki 1821-03-25 hiçbir kaynakta yok; sahte bir kırılma.
+- **Öneriler (ONERI):**
+  - **Tripoliçe:**
+    - `s: yunanistan` 1821-10-05 → 1825-06-23. Bu Gregoryen gündür; kaynak Jülyen 23 Eylül veriyor, çeviri için ikinci kaynak gerekli.
+    - `d:` 1825-06-23'ten 1828'e (İbrahim Paşa).
+    - 1828 sonrası `s: yunanistan`. Gün BULUNAMADI.
+    - ÇİFT-TDV: TDV Tripoliçe "Ekim 1822" diyor.
+  - **Modon:** `d:` Osmanlı → 1828-10-08 · `isg fransa` → Yunan teslimi. Atlastaki 1821 ve 1825 yanlış.
+  - **Koron:** 1828-10-05, İbrahim Paşa'nın ayrılış günüdür. Sonra `isg fransa`. ÇİFT-TDV: Koron maddesi 1827 diyor.
+  - **Patras:** 1828'e kadar `d:` Osmanlı, sonra `s: yunanistan`.
+  - **İstefe/Teb:** 1829'a kadar Osmanlı garnizonu, sonra `s: yunanistan`. Gün BULUNAMADI.
+  - **Kalavrita:** 1821-04-02.
+  - **Hidra:** 1821-04-28.
+  - **İnebahtı:** 1829-04-30.
+  - **Korint:** 1822 → 1822-07 Dramali `d:` → 1822-11-07 `s: yunanistan`.
+- **KAYNAKLI:** Anabolu 1822-12-12 (Palamidi).
+- **BULUNAMADI** (mevcut veri kalır): Vostitsa, Damala, Methana, Ermiyoni, Kranidi, Egina, Salamis, Elafonisos. Fransızların Yunanlara teslim günleri de bulunamadı.
+- **KASA-YER:** Spetses veride **YOK**. Phillips 1821-04-07 katılışını veriyor; yeni yerleşim önerisi.
+- **İşlem notu:** birleştirme sırasında Tripoliçe satırları İsveç'teki Mora'ya düştü (ad karışması); onarıldı. Satırlar artık "Mora (Tripoliçe)" altında.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.

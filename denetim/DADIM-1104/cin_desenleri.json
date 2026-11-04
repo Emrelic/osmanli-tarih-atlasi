@@ -1,0 +1,563 @@
+{
+ "aciklama": "Tahrir ölçütü sınıf 5/6 — çözülmemiş Çin desenleri (ara künye ← önceki sahip). CHC c.6 (Liao/Xi Xia/Jin/Yuan), c.7 (Ming 1), c.9 (Qing 1), c.10-11 (Qing geç) ile okunacak. Soru: ara sahip yeri kendi idaresine kattı mı (vali, vergi, idarî birim) yoksa geçici askerî mi?",
+ "desenler": [
+  {
+   "desen": "san-fan ← qing-hanedani",
+   "satir": 28,
+   "yerler": [
+    {
+     "yer": "Changsha",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1679-01-01"
+    },
+    {
+     "yer": "Çengdu (Chengdu)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1680-02-01"
+    },
+    {
+     "yer": "Çongqing (Chongqing)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1680-02-01"
+    },
+    {
+     "yer": "Kunming",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Dali",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Guiyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Kanton (Guangzhou)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1676-03-01",
+     "ara_t": "1677-01-01"
+    },
+    {
+     "yer": "Zeytun (Quanzhou)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1674-03-15",
+     "ara_t": "1676-10-01"
+    },
+    {
+     "yer": "Fuzhou",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1674-03-15",
+     "ara_t": "1676-10-01"
+    },
+    {
+     "yer": "Zhangzhou",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1674-03-15",
+     "ara_t": "1676-10-01"
+    },
+    {
+     "yer": "Chaozhou",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1676-03-01",
+     "ara_t": "1677-01-01"
+    },
+    {
+     "yer": "Guilin",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1680-01-01"
+    },
+    {
+     "yer": "Nanning",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1680-01-01"
+    },
+    {
+     "yer": "Hengyang (Hengzhou)",
+     "dosya": "yerlesimler_nokta_asya_0917.js",
+     "ara_f": "1674-03-26",
+     "ara_t": "1679-03-24"
+    },
+    {
+     "yer": "Ji'an (Jizhou)",
+     "dosya": "yerlesimler_nokta_asya_0917.js",
+     "ara_f": "1676-04-05",
+     "ara_t": "1677-04-30"
+    },
+    {
+     "yer": "Chenzhou (Hunan)",
+     "dosya": "yerlesimler_nokta_asya_0917.js",
+     "ara_f": "1674-03-26",
+     "ara_t": "1679-03-24"
+    },
+    {
+     "yer": "Tengyue (Tengchong)",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Yongchang (Baoshan)",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Shunning (Fengqing)",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Mianning (Lincang)",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Jingdong",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Chuxiong",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Yuanjiang",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Lin'an (Jianshui)",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Mengzi",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Kaihua (Wenshan)",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    },
+    {
+     "yer": "Lijiang",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-07-14"
+    },
+    {
+     "yer": "Tonghai",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1673-12-28",
+     "ara_t": "1681-12-07"
+    }
+   ],
+   "hukum": "s-kalir (rakip ve fiilî yöneten hükûmet emsali; kendi idaresi/vergisi)",
+   "kaynak": "Wu Sangui 1678 Zhou ilanı; CHC c.9 yerelde yok — desen kararı",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "taiping ← qing-hanedani",
+   "satir": 8,
+   "yerler": [
+    {
+     "yer": "Nanking (Nanjing)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1853-03-19",
+     "ara_t": "1864-07-19"
+    },
+    {
+     "yer": "Yangzhou",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1853-03-19",
+     "ara_t": "1864-07-19"
+    },
+    {
+     "yer": "Suzhou",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1860-06-02",
+     "ara_t": "1863-12-04"
+    },
+    {
+     "yer": "Hangzhou",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1861-12-29",
+     "ara_t": "1864-03-31"
+    },
+    {
+     "yer": "Anqing",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1853-02-24",
+     "ara_t": "1861-09-05"
+    },
+    {
+     "yer": "Jiujiang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1853-02-18",
+     "ara_t": "1858-05-19"
+    },
+    {
+     "yer": "Wuhu",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1853-03-19",
+     "ara_t": "1864-07-19"
+    },
+    {
+     "yer": "Ji'an (Jizhou)",
+     "dosya": "yerlesimler_nokta_asya_0917.js",
+     "ara_f": "1856-03-02",
+     "ara_t": "1858-09-22"
+    }
+   ],
+   "hukum": "s-kalir (rakip ve fiilî yöneten hükûmet emsali; kendi idaresi/vergisi)",
+   "kaynak": "Göksel Krallık başkent/idare/vergi — CHC c.10 bl.6 (Kuhn)",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "wu-zhou ← tang",
+   "satir": 4,
+   "yerler": [
+    {
+     "yer": "Xi'an (Chang'an)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0690-10-16",
+     "ara_t": "0705-03-03"
+    },
+    {
+     "yer": "Luoyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0690-10-16",
+     "ara_t": "0705-03-03"
+    },
+    {
+     "yer": "Changsha",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0690-10-16",
+     "ara_t": "0705-03-03"
+    },
+    {
+     "yer": "Fuzhou",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0690-10-16",
+     "ara_t": "0705-03-03"
+    }
+   ],
+   "hukum": "ölçüt dışı (hanedan içi) — dokunma",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "song ← jin-hanedani",
+   "satir": 3,
+   "yerler": [
+    {
+     "yer": "Pekin (Hanbalık)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1123-05-07",
+     "ara_t": "1126-01-04"
+    },
+    {
+     "yer": "Xi'an (Chang'an)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1139-04-16",
+     "ara_t": "1140-06-06"
+    },
+    {
+     "yer": "Luoyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1139-04-16",
+     "ara_t": "1140-06-02"
+    }
+   ],
+   "hukum": "s-kalir (antlaşmalı hukukî devir: Yanjing çevresi Song'a 1123)",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "an-lushan-yan ← tang",
+   "satir": 3,
+   "yerler": [
+    {
+     "yer": "Xi'an (Chang'an)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0756-07-14",
+     "ara_t": "0757-11-14"
+    },
+    {
+     "yer": "Luoyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0756-01-18",
+     "ara_t": "0757-12-03"
+    },
+    {
+     "yer": "Luoyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0759-09-26",
+     "ara_t": "0762-11-20"
+    }
+   ],
+   "hukum": "s-kalir (rakip ve fiilî yöneten hükûmet emsali; kendi idaresi/vergisi)",
+   "kaynak": "Yan devleti",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "jin-hanedani ← song",
+   "satir": 2,
+   "yerler": [
+    {
+     "yer": "Xi'an (Chang'an)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1129-11-14",
+     "ara_t": "1139-04-16"
+    },
+    {
+     "yer": "Luoyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1126-11-16",
+     "ara_t": "1139-04-16"
+    }
+   ],
+   "hukum": "s-kalir",
+   "kaynak": "1139 antlaşmalı iade + 1140 Jin geri alışı kaynakla",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "rusya ← qing-hanedani",
+   "satir": 2,
+   "yerler": [
+    {
+     "yer": "Gulca (Yining)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1871-07-04",
+     "ara_t": "1882-03-22"
+    },
+    {
+     "yer": "Almalık (Almalığ)",
+     "dosya": "yerlesimler_ortaasya3.js",
+     "ara_f": "1871-07-04",
+     "ara_t": "1882-03-22"
+    }
+   ],
+   "hukum": "isg rusya; s: qing sürer",
+   "kaynak": "CHC c.11 bl.4 s.~1016: 'In June 1871, Russian troops ... occupied the Ili area'; St. Petersburg 1881 iadesi",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "sirp-krajina-cumhuriyeti ← hirvatistan",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Knin",
+     "dosya": "yerlesimler_ek.js",
+     "ara_f": "1991-12-19",
+     "ara_t": "1995-08-05"
+    }
+   ],
+   "hukum": "s: rsk (1991-12-19 ilanı, fiilî yönetim) künye varsa; tanınmama ic_not; yoksa mevcut veri + KASA 'künye gerekli'",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "tai-qi-huang-chao ← tang",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Xi'an (Chang'an)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0881-01-08",
+     "ara_t": "0883-05-20"
+    }
+   ],
+   "hukum": "s-kalir (rakip ve fiilî yöneten hükûmet emsali; kendi idaresi/vergisi)",
+   "kaynak": "Huang Chao Qi",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "tang ← an-lushan-yan",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Luoyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "0757-12-03",
+     "ara_t": "0759-09-26"
+    }
+   ],
+   "hukum": "s-kalir (Tang'ın kendi geri alışı)",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "da-qi-liu-yu ← jin-hanedani",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Kaifeng",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1132-04-22",
+     "ara_t": "1138-01-01"
+    }
+   ],
+   "hukum": "kukla-kalir (c); ic_not 'Jin'in kuklası'",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "hollanda-dogu-hint ← ming-hanedani",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Penghu (Pescadores)",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1622-01-01",
+     "ara_t": "1624-08-26"
+    }
+   ],
+   "hukum": "isg hollanda-dogu-hint (askerî üs; Ming iddiası sürdü; 1624 çekiliş)",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "heungyo-guk ← liao-hanedani",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Liaoyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1029-09-13",
+     "ara_t": "1030-09-25"
+    }
+   ],
+   "hukum": "s-kalir (rakip ve fiilî yöneten hükûmet emsali; kendi idaresi/vergisi)",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "dogu-turkistan-islam-cumhuriyeti ← cin-cumhuriyeti",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Kaşgar",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1933-11-12",
+     "ara_t": "1934-03-21"
+    }
+   ],
+   "hukum": "s-kalir (rakip ve fiilî yöneten hükûmet emsali; kendi idaresi/vergisi)",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "yuan-hanedani ← goryeo",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Pyongyang",
+     "dosya": "yerlesimler_asya.js",
+     "ara_f": "1269-11-26",
+     "ara_t": "1281-01-01"
+    }
+   ],
+   "hukum": "s yuan (Dongnyeong idarî birimi = idareye katma)",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "karahanli ← samani",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Buhara",
+     "dosya": "yerlesimler_ek14.js",
+     "ara_f": "0992-05-07",
+     "ara_t": "0992-08-18"
+    }
+   ],
+   "hukum": "isg karahanli (Buğra Han kısa süre; Samaniler döndü)",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "samani ← karahanli",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Buhara",
+     "dosya": "yerlesimler_ek14.js",
+     "ara_f": "0992-08-18",
+     "ara_t": "0999-10-14"
+    }
+   ],
+   "hukum": "s-kalir (Samani dönüşü)",
+   "kaynak": "",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "pingnan ← qing-hanedani",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Yongchang (Baoshan)",
+     "dosya": "yerlesimler_a78_asya.js",
+     "ara_f": "1862-08-24",
+     "ara_t": "1873-01-15"
+    }
+   ],
+   "hukum": "s-kalir (rakip ve fiilî yöneten hükûmet emsali; kendi idaresi/vergisi)",
+   "kaynak": "Du Wenxiu",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "song ← xiazhou-dangxiang",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Xiazhou (Tongwancheng)",
+     "dosya": "yerlesimler_dogu_500_1281.js",
+     "ara_f": "0982-01-01",
+     "ara_t": "0988-01-01"
+    }
+   ],
+   "hukum": "BULUNAMADI",
+   "kaynak": "kaynak yok",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  },
+  {
+   "desen": "xiazhou-dangxiang ← song",
+   "satir": 1,
+   "yerler": [
+    {
+     "yer": "Xiazhou (Tongwancheng)",
+     "dosya": "yerlesimler_dogu_500_1281.js",
+     "ara_f": "0988-01-01",
+     "ara_t": "0994-05-06"
+    }
+   ],
+   "hukum": "BULUNAMADI",
+   "kaynak": "kaynak yok",
+   "karar": "EMRELİC, 4 Kasım 2026 gece — desen kararı; günler mevcut veriden/kaynaktan, yalnız s:/isg sınıfı"
+  }
+ ]
+}
