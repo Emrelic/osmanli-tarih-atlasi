@@ -603,10 +603,10 @@
 "E033": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Palu ve Çemişgezek safevi 1507 → 1516-05-01, Osmanlı Diyarbakır çevresinde; Osmanlı fethi (Bıyıklı Mehmed Paşa; TDV palu: 'Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi', tarihsiz). Kopukluk gerçek olabilir; parça Tunceli/Arsamosata/Hozat dönemsiz (ölçüldü) noktalarını emiyor, alan şişkin.",
+"guven": "KAYNAKLI",
+"gerekce": "Palu ve Çemişgezek safevi 1507 → 1516-05-01, Osmanlı Diyarbakır çevresinde; Osmanlı fethi (Bıyıklı Mehmed Paşa; TDV palu: 'Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi', tarihsiz). Kopukluk gerçek olabilir; parça Tunceli/Arsamosata/Hozat dönemsiz (ölçüldü) noktalarını emiyor, alan şişkin. [KAYNAK-UMIT (kismen): Mardin muhasarası sürerken Harput, Çermik, Ergani, Palu ve Sincar ele geçirildi; Çemişkezek hâkimi Pîr Mehmed ve Palu hâkimleri Osmanlı tâbiiyetini kabul etti; Mardin kalesi Aralık 1516 veya Ocak 1517'de alındı. — \"Çemişkezek Hâkimi Pîr Mehmed ... Osmanlılar’a bağlılıklarını bildirdiler.\" · Palu/Çemişgezek'in Osmanlı'ya 1516-17 geçişi teyitli ama tarih yok ('Mardin kuşatması sürerken'), 1516-05-01 bitişi doğrulanamadı (kaynak 1516 ortası-sonrası sayar, Mardin kalesi Aralık 1516/Ocak 1517). Gün bulunamadı. Safevî'nin bu iki yeri 1507'den tuttuğuna dair TDV cümlesi bulunamadı.]",
 "duzeltme": "Palu ve Çemişgezek geçiş günleri (gün bulunamadı); dönemsiz noktalar gizlensin.",
-"kaynak": "TDV palu: 'Palu … ele geçirildi' (tarihsiz)"
+"kaynak": "TDV İslâm Ansiklopedisi, BIYIKLI MEHMED PAŞA, https://islamansiklopedisi.org.tr/biyikli-mehmed-pasa · önceki: TDV palu: 'Palu … ele geçirildi' (tarihsiz)"
 },
 "E034": {
 "hukum": "YAPAY",
@@ -635,10 +635,10 @@
 "E037": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Solnok (Szolnok) macaristan-habsburg f=1685-10-12; çevre Osmanlı. Szolnok'un 1685 sonunda Habsburg eline geçip Buda'ya (1686) dek ayrı kalması muhtemel ama teyitsiz; tek noktalı parça.",
+"guven": "KAYNAKLI",
+"gerekce": "Solnok (Szolnok) macaristan-habsburg f=1685-10-12; çevre Osmanlı. Szolnok'un 1685 sonunda Habsburg eline geçip Buda'ya (1686) dek ayrı kalması muhtemel ama teyitsiz; tek noktalı parça. [KAYNAK-UMIT (kismen): Szolnok vârı 1552'de Ali ve Ahmed paşaların ordusu tarafından alındı; 1685'te kurtuldu (szabadult fel). — \"1552: Ali és Ahmed pasák serege elfoglalta, 1685: szabadult fel.\" · Habsburg eline 1685'te geçişi yıl düzeyinde teyitli; 1685-10-12 günü ve 1686-09-02 bitişi bu kaynakta yok (yalnız yıl). Gün için TDV 'Solnok' maddesi bulunamadı (arama boş).]",
 "duzeltme": "Gün 1685-10-12 ve t=1686-09-02 sınansın.",
-"kaynak": "bulunamadı"
+"kaynak": "Magyar Katolikus Lexikon, Szolnok, https://lexikon.katolikus.hu/S/Szolnok.html"
 },
 "E038": {
 "hukum": "GERCEK",
@@ -683,10 +683,10 @@
 "E043": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Siirt kaydındaki TDV alıntısı: 'Celâyirliler'in hâkimiyeti altına giren Siirt, Timur istilâsını da gördükten sonra' — Celâyirli sahipliği var ama 1340 yılı yok (künye f'sinden). Ölçüldü: çevre Meyyâfârikīn ilhanli 1264-1353, Siirt celayirli 1340-1394: 13 yıllık çakışma. [LAB SALI: güven KAYNAK-GEREK'e indirildi — kaynak sayfası okunmadı]",
+"guven": "KAYNAKLI",
+"gerekce": "Siirt kaydındaki TDV alıntısı: 'Celâyirliler'in hâkimiyeti altına giren Siirt, Timur istilâsını da gördükten sonra' — Celâyirli sahipliği var ama 1340 yılı yok (künye f'sinden). Ölçüldü: çevre Meyyâfârikīn ilhanli 1264-1353, Siirt celayirli 1340-1394: 13 yıllık çakışma. [LAB SALI: güven KAYNAK-GEREK'e indirildi — kaynak sayfası okunmadı] [KAYNAK-UMIT (tam): Siirt İlhanlılar'ın ve halefleri Celâyirliler'in hâkimiyeti altına girdi, Timur istilâsını gördü, 1462'ye doğru Akkoyunlu'ya geçti, 16. yy başında Safevî, sonra Osmanlı. — \"İlhanlılar’ın ve onların halefleri durumundaki Celâyirliler’in hâkimiyeti altına giren Siirt\" · Atlas kaydındaki alıntı sayfada AYNEN var (sayfa okundu). Celâyirli sahipliği teyitli; 1340 yılı yok (künye f'sinden) ve İlhanlı→Celâyirli geçiş yılı yok. 13 yıllık çakışma için ilhanli 1353 sonu ile hizalama TDV'den çıkarılamaz (gün bulunamadı).]",
 "duzeltme": "Siirt celayirli f yıl-teyitsiz; ilhanli/celayirli geçişi komşularla hizalansın (gün bulunamadı).",
-"kaynak": "TDV siirt (atlas kaydındaki alıntı; sayfayı okumadım)"
+"kaynak": "TDV İslâm Ansiklopedisi, SİİRT, https://islamansiklopedisi.org.tr/siirt · önceki: TDV siirt (atlas kaydındaki alıntı; sayfayı okumadım)"
 },
 "E044": {
 "hukum": "YAPAY",
@@ -699,10 +699,10 @@
 "E045": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Gyula macaristan-habsburg 1526-12-17 → 1530-01-01; çevre TABI (Zapolya) 100%. Habsburg 17 Aralık 1526 Ferdinand seçimi; Gyula'nın Ferdinand tarafında kalması teyitsiz (Zapolya doğu Macaristan'ı tuttu). Solnok ile tutarsız, E044 ile aynı kova.",
+"guven": "KAYNAKLI",
+"gerekce": "Gyula macaristan-habsburg 1526-12-17 → 1530-01-01; çevre TABI (Zapolya) 100%. Habsburg 17 Aralık 1526 Ferdinand seçimi; Gyula'nın Ferdinand tarafında kalması teyitsiz (Zapolya doğu Macaristan'ı tuttu). Solnok ile tutarsız, E044 ile aynı kova. [KAYNAK-UMIT (kismen): Gyula kalesi Corvin János'tan sonra Brandenburgi György'ün mülküydü; 1530'da Czibak Imre varadi piskopos aldı; 1552'de kral kalesi (végvár) oldu; 1566'da türk eline geçti. — \"Később Corvin János, majd Brandenburgi György birtoka volt. 1530: Czibak Imre váradi pp. elfoglalta.\" · t=1530-01-01 ile 1530 olayı yıl düzeyinde uyumlu (Czibak Imre 1530'da aldı). 1526-12-17 Ferdinand seçimi Gyula'nın Habsburg tarafında olduğunu kanıtlamaz: kaynak yalnız Brandenburgi György sahipliğini söyler (Habsburg yanlısı olduğu ayrıca kaynakla gösterilmeli). Zápolya/Ferdinand ayrımı bulunamadı; gün yok.]",
 "duzeltme": "Gyula dönemi kaynakla (Zapolya mı Ferdinand mı); gün bulunamadı.",
-"kaynak": "bulunamadı"
+"kaynak": "Magyar Katolikus Lexikon, Gyula, https://lexikon.katolikus.hu/G/Gyula.html"
 },
 "E053": {
 "hukum": "GERCEK",
