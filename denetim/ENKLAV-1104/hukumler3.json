@@ -20,7 +20,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Rehoboth 1890-1904 'nama-orlam', çevre Alman Güneybatı Afrikası (koridor 82 km 8/9). Rehoboth 1870'ten Baster (Rehoboth Basters) topluluğunun merkezi; 1885'te Almanya ile himaye antlaşması yaptılar. Nama-Oorlam kimliği yanlış; Baster'lar Alman himayesindeydi. [KAYNAK-UMIT: bulunamadi — Rehoboth Basters 1870 yerleşimi ve 1885 Alman himaye antlaşması için UNESCO General History of Africa vol. VII ya da Cambridge History of Africa gerek; okunmadı.]",
+"gerekce": "Rehoboth 1890-1904 'nama-orlam', çevre Alman Güneybatı Afrikası (koridor 82 km 8/9). Rehoboth 1870'ten Baster (Rehoboth Basters) topluluğunun merkezi; 1885'te Almanya ile himaye antlaşması yaptılar. Nama-Oorlam kimliği yanlış; Baster'lar Alman himayesindeydi. [KAYNAK-UMIT: bulunamadi — Rehoboth Basters 1870 yerleşimi ve 1885 Alman himaye antlaşması için UNESCO General History of Africa vol. VII ya da Cambridge History of Africa gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — Baster/Rehoboth 1870 ve 1885 himaye antlaşması kaynaklanamadı. Namibya tarihi akademik kaynağı gerek.]",
 "duzeltme": "Rehoboth 1870-1904 sahibi: Baster (yerel, Alman himayesinde v:) — kaynakla.",
 "kaynak": "veri ölçümü"
 },
@@ -100,7 +100,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Cenne (Djenné) 1861-01-01 → 03-10 'tekrur' (Hacı Ömer), çevre Bambara (Segu). Hacı Ömer Segu'yu 10 Mart 1861'de aldı; Cenne Masina'nındı ve Ömer'e 1862'de geçti. Cenne'nin 1861 başında Tekrur yazılması yanlış ve yıl hassasiyetli. [KAYNAK-UMIT: bulunamadi — Hacı Ömer'in Segu'yu 10 Mart 1861'de, Hamdallahi/Masina'yı 1862'de alışı için UNESCO GHA vol. VI (Hrbek/Hopkins) ya da Cambridge History of Africa vol. 5 gerek; okunmadı.]",
+"gerekce": "Cenne (Djenné) 1861-01-01 → 03-10 'tekrur' (Hacı Ömer), çevre Bambara (Segu). Hacı Ömer Segu'yu 10 Mart 1861'de aldı; Cenne Masina'nındı ve Ömer'e 1862'de geçti. Cenne'nin 1861 başında Tekrur yazılması yanlış ve yıl hassasiyetli. [KAYNAK-UMIT: bulunamadi — Hacı Ömer'in Segu'yu 10 Mart 1861'de, Hamdallahi/Masina'yı 1862'de alışı için UNESCO GHA vol. VI (Hrbek/Hopkins) ya da Cambridge History of Africa vol. 5 gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — 1861-03-10 Segu ve Cenne'nin Ömer'e geçiş yılı kaynaklanamadı. Hacı Ömer bölümü elle okunmalı.]",
 "duzeltme": "Cenne tekrur f → 1862 (Masina'nın düşüşü, kaynakla); önce massina.",
 "kaynak": "veri ölçümü"
 },
@@ -131,10 +131,10 @@
 "K217": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Pekin 1644-04-25 → 06-06 'dashun' (Li Zicheng): şehrin alınışı ve Qing girişi günleri bilinenle uyumlu. Ama Shun Pekin'e Şansi üzerinden (Taiyuan, Datong) ilerledi; arada 'ming' boyası (koridor 192 km 9/9) Şansi/Hebei noktalarının 1644 Shun dönemlerinin eksikliğinden. [KAYNAK-UMIT: giris_gerek — Okunmadı. Li Zicheng'in Pekin'e Şansi üzerinden ilerleyişi (Mart-Nisan 1644) için Cambridge History of China vol. 7 gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Pekin 1644-04-25 → 06-06 'dashun' (Li Zicheng): şehrin alınışı ve Qing girişi günleri bilinenle uyumlu. Ama Shun Pekin'e Şansi üzerinden (Taiyuan, Datong) ilerledi; arada 'ming' boyası (koridor 192 km 9/9) Şansi/Hebei noktalarının 1644 Shun dönemlerinin eksikliğinden. [KAYNAK-UMIT: giris_gerek — Okunmadı. Li Zicheng'in Pekin'e Şansi üzerinden ilerleyişi (Mart-Nisan 1644) için Cambridge History of China vol. 7 gerek.] [KAYNAK-UMIT (kismen): Li Zicheng Wu Sangui ve Dorgon'un birleşik gücüne yenilip Pekin'e döndü; 3 Haziran'da Shun imparatoru ilan etti. Şansi üzerinden ilerleyiş ve Qing girişi günü bu çıktıda okunmadı. — \"On 3 June, in the midst of one last frenzied orgy of looting\" · Atlasın Pekin dashun f=1644-04-25 'alınış' günü teyitsiz, 3 Haziran Shun enthronement teyitli. Şansi-Hebei Shun dönemleri kaynaklanmadı.]",
 "duzeltme": "Şansi-Hebei şehirleri (Taiyuan, Datong, Baoding) 1644 dashun dönemleri kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "Cambridge History of China vol. 7 (Ming, Part 1), Southern Ming/Li Tzu-ch'eng bölümü, archive.org metni · önceki: veri ölçümü"
 },
 "K218": {
 "hukum": "GERCEK",
@@ -148,7 +148,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Arba Minç ve Çenca (Gamo dağları) 1281 → 1894 'habesistan', çevre Kaffa, Wolaita, Cimma. Güney Etiyopya Gamo bölgesi Menelik II'nin 1890'lar fetihlerine dek bağımsız Gamo beyliklerindeydi; 'habesistan' 1281'den yanlış (Arba Minç 1960'larda kuruldu). [KAYNAK-UMIT: giris_gerek — Okunmadı. Gamo/Çenca'nın Menelik fethi (1890'lar) için UNESCO GHA vol. VII ya da Cambridge History of Africa vol. 6 gerek; Arba Minç kuruluşu modern.]",
+"gerekce": "Arba Minç ve Çenca (Gamo dağları) 1281 → 1894 'habesistan', çevre Kaffa, Wolaita, Cimma. Güney Etiyopya Gamo bölgesi Menelik II'nin 1890'lar fetihlerine dek bağımsız Gamo beyliklerindeydi; 'habesistan' 1281'den yanlış (Arba Minç 1960'larda kuruldu). [KAYNAK-UMIT: giris_gerek — Okunmadı. Gamo/Çenca'nın Menelik fethi (1890'lar) için UNESCO GHA vol. VII ya da Cambridge History of Africa vol. 6 gerek; Arba Minç kuruluşu modern.] [KAYNAK-UMIT: giris_gerek — Gamo/Wolaita'nın Menelik fethi için GHA VII s.270 civarı (Etiyopya bölümü) okunmalı. Dizin teyit değildir.]",
 "duzeltme": "Arba Minç kur (modern) kaynakla; Çenca 1894 öncesi Gamo (yerel); habesistan f → Menelik fethi.",
 "kaynak": "veri ölçümü"
 },
@@ -299,16 +299,16 @@
 "K238": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Asîrgarh 1281 → 1305 'delhi-sultanligi', çevre Yâdava (60%) ve Racput. Hândeş/Asîrgarh 1296 Devagiri akınına dek Yâdava toprağı; 1281'den Delhi yazımı yanlış. Burhânpûr sahipsiz (1399 kuruluş — doğru). [KAYNAK-UMIT: bulunamadi — Asîrgarh 1281-1305 sahibi için IG 'Asirgarh' (vol. 6) okunmadı; archive.org ia-oku 404. TDV 'Delhi Sultanlığı' Devâgirî'nin Alâeddin'e tâbi oluşunu anıyor (yıl yok).]",
+"guven": "KAYNAKLI",
+"gerekce": "Asîrgarh 1281 → 1305 'delhi-sultanligi', çevre Yâdava (60%) ve Racput. Hândeş/Asîrgarh 1296 Devagiri akınına dek Yâdava toprağı; 1281'den Delhi yazımı yanlış. Burhânpûr sahipsiz (1399 kuruluş — doğru). [KAYNAK-UMIT: bulunamadi — Asîrgarh 1281-1305 sahibi için IG 'Asirgarh' (vol. 6) okunmadı; archive.org ia-oku 404. TDV 'Delhi Sultanlığı' Devâgirî'nin Alâeddin'e tâbi oluşunu anıyor (yıl yok).] [KAYNAK-UMIT (celiski): 1295'te Asirgarh Chauhan Rajputlarının kalesiydi ve Ala-ud-din Khilji tarafından alındı; sonra Khandesh Faruki krallarında, 1600'de Ekber aldı. Yadava (Devagiri) sahipliği geçmiyor. — \"In 1295 Asirgarh was a stronghold of the Chauhan Rajputs\" · Gerekçe 'Yadava' diyor; IG Chauhan Rajput diyor (1281-1295 sahibi). 1281'de Delhi sahipliği yanlış; 1295 civarı Khilji fethi (1908 kaynak, modern doğrulama gerek). Burhanpur kısmı bakılmadı.]",
 "duzeltme": "Asîrgarh 1281-1305 sahibi (yadava / yerel Ahir) kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "Imperial Gazetteer of India vol. VI (1908), 'Asirgarh' maddesi, archive.org dli.ernet.11612 · önceki: veri ölçümü"
 },
 "K239": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Wuchang 1911-10-10 (Wuchang ayaklanması) → 1912-02-12 (tahttan feragat) cumhuriyetçi Hubei, öteki devrimci eyaletlerden Qing toprağıyla ayrı (koridor 202 km 9/9). İlk haftalarda gerçek; Hunan (22 Ekim) ve Jiangxi katılımıyla bağlantı kurulmuş olmalı — sonraki kesitler sınanmalı. [KAYNAK-UMIT: giris_gerek — Okunmadı (EB 1911 dönemden önce; Cambridge History of China vol. 11 gerek). Wuchang 10 Ekim 1911, Hunan 22 Ekim, 12 Şubat 1912 feragat: sayfa açılmadı.]",
+"gerekce": "Wuchang 1911-10-10 (Wuchang ayaklanması) → 1912-02-12 (tahttan feragat) cumhuriyetçi Hubei, öteki devrimci eyaletlerden Qing toprağıyla ayrı (koridor 202 km 9/9). İlk haftalarda gerçek; Hunan (22 Ekim) ve Jiangxi katılımıyla bağlantı kurulmuş olmalı — sonraki kesitler sınanmalı. [KAYNAK-UMIT: giris_gerek — Okunmadı (EB 1911 dönemden önce; Cambridge History of China vol. 11 gerek). Wuchang 10 Ekim 1911, Hunan 22 Ekim, 12 Şubat 1912 feragat: sayfa açılmadı.] [KAYNAK-UMIT: bulunamadi — 10 Ekim 1911, 22 Ekim Hunan, 12 Şubat 1912 tarihleri bu turda kaynaklanamadı.]",
 "duzeltme": "Hunan (Changsha 1911-10-22), Jiangxi şehirleri cin-cumhuriyeti f kontrol.",
 "kaynak": "veri ölçümü"
 },
@@ -324,7 +324,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Lampung 1808 → 1811-08-18 'hollanda-dogu-hint', çevre Banten (koridor 81 km 6/9) ve Palembang. Lampung Banten sultanlığının Sumatra payıydı; Daendels Banten'i 1808'de baskı altına aldı ama Lampung'un doğrudan Hollanda idaresi 1856'da tamamlandı. Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. EB 1911 'Lampong' sayfası yok; Lampung/Banten bağlılığı ve 1808-1811 için Ricklefs 'A History of Modern Indonesia' ya da Cambridge History of Southeast Asia gerek.]",
+"gerekce": "Lampung 1808 → 1811-08-18 'hollanda-dogu-hint', çevre Banten (koridor 81 km 6/9) ve Palembang. Lampung Banten sultanlığının Sumatra payıydı; Daendels Banten'i 1808'de baskı altına aldı ama Lampung'un doğrudan Hollanda idaresi 1856'da tamamlandı. Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. EB 1911 'Lampong' sayfası yok; Lampung/Banten bağlılığı ve 1808-1811 için Ricklefs 'A History of Modern Indonesia' ya da Cambridge History of Southeast Asia gerek.] [KAYNAK-UMIT: giris_gerek — Lampung-Banten bağlılığı için Ricklefs ya da Cambridge History of Southeast Asia gerek.]",
 "duzeltme": "Lampung 1808-1811 sahibi (banten-sultanligi) kaynakla.",
 "kaynak": "veri ölçümü"
 },
@@ -395,10 +395,10 @@
 "K250": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Epir (Yanya, Arta, Preveze) 1334 → 1361-05-05 'bizans', çevre Sırp. Epir Despotluğu (Orsini) 1340'a dek ayrıydı; III. Andronikos 1340'ta ilhak etti; Sırplar 1348'de aldı (Simeon Uroš). Bizans dönemi yalnız 1340-1348; 1334-1340 ve 1348-1361 yanlış. [KAYNAK-UMIT: giris_gerek — Okunmadı. III. Andronikos Epir ilhakı 1340, Simeon Uroš 1348 için ODB/TIB ya da Treccani 'Epiro' gerek; tarihler yalnızca model bilgisi.]",
+"guven": "KAYNAKLI",
+"gerekce": "Epir (Yanya, Arta, Preveze) 1334 → 1361-05-05 'bizans', çevre Sırp. Epir Despotluğu (Orsini) 1340'a dek ayrıydı; III. Andronikos 1340'ta ilhak etti; Sırplar 1348'de aldı (Simeon Uroš). Bizans dönemi yalnız 1340-1348; 1334-1340 ve 1348-1361 yanlış. [KAYNAK-UMIT: giris_gerek — Okunmadı. III. Andronikos Epir ilhakı 1340, Simeon Uroš 1348 için ODB/TIB ya da Treccani 'Epiro' gerek; tarihler yalnızca model bilgisi.] [KAYNAK-UMIT (celiski): Yanya 1318'de Bizans'a katıldı (özerkliğini kısmen korudu), 1342'de Sırp Kralı Stefan Duşan'a ilhak edildi, 1355'ten sonra Symeon Uroş yönetti; 1366-67'de Preljubović. — \"1342'de Sırp Kralı Stefan Duşan tarafından ilhak edildi.\" · Gerekçe Bizans 1340-1348, Sırp 1348 diyor; TDV Bizans'a katılış 1318, Sırp ilhak 1342 diyor. Atlasın bizans 1334-1361 aralığı iki uçta da yanlış (Yanya için Sırp bitiş 1342'den önce). III. Andronikos 1340 ilhakı bu kaynakta yok; Preveze/Arta için ayrı bakılmalı.]",
 "duzeltme": "Epir noktaları 1334-1340 epir-despotlugu, 1340-1348 bizans, 1348 → sirbistan (kaynakla, TIB).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV İslâm Ansiklopedisi, 'Yanya' (Machiel Kiel), https://islamansiklopedisi.org.tr/yanya · önceki: veri ölçümü"
 },
 "K251": {
 "hukum": "GERCEK",
@@ -524,7 +524,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Taşkurgan (Sarıkol) 1864-06-04 → 1865 'qing', çevre Yakub Bey ve Hokand. 1864 Dungan/Kaşgar ayaklanmasında Qing Tarım garnizonları düştü; Sarıkol'un kısa süre Qing'e bağlı kalması mümkün. Düşük güven. [KAYNAK-UMIT: bulunamadi — Sarıkol 1864-65 Qing bağlılığı için Cambridge History of China vol. 10 (Fletcher) ya da Kim Ho-dong 'Holy War in China' gerek; okunmadı.]",
+"gerekce": "Taşkurgan (Sarıkol) 1864-06-04 → 1865 'qing', çevre Yakub Bey ve Hokand. 1864 Dungan/Kaşgar ayaklanmasında Qing Tarım garnizonları düştü; Sarıkol'un kısa süre Qing'e bağlı kalması mümkün. Düşük güven. [KAYNAK-UMIT: bulunamadi — Sarıkol 1864-65 Qing bağlılığı için Cambridge History of China vol. 10 (Fletcher) ya da Kim Ho-dong 'Holy War in China' gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — Sarıkol'un 1864-65 Qing bağlılığı kaynaklanamadı. Cambridge History of China vol. 10 (Fletcher) 'Sarikol/Tashkurgan' ile aranmalı.]",
 "duzeltme": "Taşkurgan 1864-1865 sahibi kaynakla.",
 "kaynak": "veri ölçümü"
 },
@@ -548,7 +548,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Cirebon ve Purwokerto 1619 → 1677 'banten-sultanligi', Banten'den Hollanda Batavia ile ayrı. Cirebon ayrı sultanlıktı (Mataram'a bağlı), Priangan/Purwokerto Mataram toprağıydı; Banten kimliği yanlış. [KAYNAK-UMIT: bulunamadi — Cirebon'un Mataram'a bağlı ayrı sultanlık oluşu için Ricklefs 'A History of Modern Indonesia' ya da EB 'Java' tarih bölümü gerek; okunmadı.]",
+"gerekce": "Cirebon ve Purwokerto 1619 → 1677 'banten-sultanligi', Banten'den Hollanda Batavia ile ayrı. Cirebon ayrı sultanlıktı (Mataram'a bağlı), Priangan/Purwokerto Mataram toprağıydı; Banten kimliği yanlış. [KAYNAK-UMIT: bulunamadi — Cirebon'un Mataram'a bağlı ayrı sultanlık oluşu için Ricklefs 'A History of Modern Indonesia' ya da EB 'Java' tarih bölümü gerek; okunmadı.] [KAYNAK-UMIT: giris_gerek — Cirebon-Mataram bağlılığı için Ricklefs ya da Cambridge History of Southeast Asia gerek.]",
 "duzeltme": "Cirebon 1619-1677 cirebon (Mataram v:), Purwokerto mataram (kaynakla).",
 "kaynak": "veri ölçümü"
 },
@@ -588,7 +588,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Sotuta (ve Chichén Itzá bölgesi) 1542 → 1547 bağımsız Maya beyliği, Mérida'nın kuruluşundan (1542) 1546-47 Büyük Maya ayaklanmasının bastırılışına dek İspanyol Yucatán'ı içinde kaldı: gerçek. Kimlik notu: 'maya-sehir-devletleri' çatı kimliği; Chichén Itzá o devirde terk edilmiş tören merkezi. [KAYNAK-UMIT: giris_gerek — Okunmadı. Mérida kuruluşu 1542, Büyük Maya ayaklanması 1546-47 ve Sotuta (Cochuah/Cupul) için Restall 'Maya Conquistador' ya da Cambridge History of Native Peoples of the Americas gerek.]",
+"gerekce": "Sotuta (ve Chichén Itzá bölgesi) 1542 → 1547 bağımsız Maya beyliği, Mérida'nın kuruluşundan (1542) 1546-47 Büyük Maya ayaklanmasının bastırılışına dek İspanyol Yucatán'ı içinde kaldı: gerçek. Kimlik notu: 'maya-sehir-devletleri' çatı kimliği; Chichén Itzá o devirde terk edilmiş tören merkezi. [KAYNAK-UMIT: giris_gerek — Okunmadı. Mérida kuruluşu 1542, Büyük Maya ayaklanması 1546-47 ve Sotuta (Cochuah/Cupul) için Restall 'Maya Conquistador' ya da Cambridge History of Native Peoples of the Americas gerek.] [KAYNAK-UMIT: giris_gerek — Mérida 1542, Sotuta ve 1546-47 isyanı için Restall 'Maya Conquistador' ya da Cambridge History of the Native Peoples gerek.]",
 "duzeltme": "Chichén Itzá dönemi (yerleşim değil) kontrol.",
 "kaynak": "veri ölçümü"
 },
@@ -667,10 +667,10 @@
 "K284": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Kızılarvat 1747 → 1796 'afsar', çevre Zend (koridor 156 km). Afşar hâkimiyeti Meşhed-Horasan'a çekildi (TDV Avşarlılar, KAYNAK-1104 E005); Kızılarvat Kopetdağ batısında Türkmen (Teke/Yomut) toprağı. Zend'in de Hazar doğusuna uzanması şüpheli: iki taraf da yanlış boyalı olabilir. [KAYNAK-UMIT: giris_gerek — Okunmadı. TDV 'Avşarlar' slug'ı bulunamadı (arama sonuç vermedi); Kızılarvat Türkmen boyları için Iranica 'Qezelārvāt/Turkmen' gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Kızılarvat 1747 → 1796 'afsar', çevre Zend (koridor 156 km). Afşar hâkimiyeti Meşhed-Horasan'a çekildi (TDV Avşarlılar, KAYNAK-1104 E005); Kızılarvat Kopetdağ batısında Türkmen (Teke/Yomut) toprağı. Zend'in de Hazar doğusuna uzanması şüpheli: iki taraf da yanlış boyalı olabilir. [KAYNAK-UMIT: giris_gerek — Okunmadı. TDV 'Avşarlar' slug'ı bulunamadı (arama sonuç vermedi); Kızılarvat Türkmen boyları için Iranica 'Qezelārvāt/Turkmen' gerek.] [KAYNAK-UMIT (kismen): Teke ve Yomutlar XVI. yüzyılın ikinci yarısında Küçük Balhan ile Kızılarvat arasındaki Küren dağı çevresine yerleşti (Türkmen yurdu). Avşarlı merkezi Meşhed/Horasan'dır (Nâdir Şah, Şâhruh). Kızılarvat'ın 1747-1796 Afşar ya da Zend sahipliği geçmiyor. — \"Küçük Balhan ile Kızılarvat ortasındaki Küren dağı çevresine göç etti\" · Hüküm (Kızılarvat Türkmen boyları, Afşar değil) yönüyle kismen teyitli; kesin yıl aralığı kaynaksız. Afşar sınırı Horasan'a çekilmeli.]",
 "duzeltme": "Kızılarvat 1747-1796 sahibi (Türkmen boyları) kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV 'Türkmenler' (https://islamansiklopedisi.org.tr/turkmenler) ve 'Avşarlılar' (https://islamansiklopedisi.org.tr/avsarlilar, Faruk Sümer) · önceki: veri ölçümü"
 },
 "K285": {
 "hukum": "YAPAY",
@@ -780,7 +780,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Yelisavetgrad ve Novomirgorod 1740 → 1775-06-16 'rusya', çevre Lehistan, Zaporojye, TABI. Yeni Sırbistan kolonisi 1752'de, Aziz Yelizaveta kalesi 1754'te kuruldu; 1740 başlangıcı o devirde yok. 1775-06-16 Zaporojye Siçi'nin kaldırılması (bitiş uyumlu). [KAYNAK-UMIT: giris_gerek — Yeni Sırbistan 1752 / Aziz Yelizaveta kalesi 1754: Treccani/Rusça akademik (Brockhaus-Efron) ya da Encyclopedia of Ukraine (internet) okunmalı.]",
+"gerekce": "Yelisavetgrad ve Novomirgorod 1740 → 1775-06-16 'rusya', çevre Lehistan, Zaporojye, TABI. Yeni Sırbistan kolonisi 1752'de, Aziz Yelizaveta kalesi 1754'te kuruldu; 1740 başlangıcı o devirde yok. 1775-06-16 Zaporojye Siçi'nin kaldırılması (bitiş uyumlu). [KAYNAK-UMIT: giris_gerek — Yeni Sırbistan 1752 / Aziz Yelizaveta kalesi 1754: Treccani/Rusça akademik (Brockhaus-Efron) ya da Encyclopedia of Ukraine (internet) okunmalı.] [KAYNAK-UMIT: giris_gerek — Yeni Sırbistan 1752 ve Aziz Yelizaveta 1754 için doğru IEU slug'ı ya da akademik makale gerek.]",
 "duzeltme": "Yelisavetgrad kur 1754, Novomirgorod 1752 (kaynakla); öncesi kırp.",
 "kaynak": "veri ölçümü"
 },

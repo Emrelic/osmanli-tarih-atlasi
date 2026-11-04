@@ -43,10 +43,10 @@
 "E006": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "1803-18'de İngilizler Gucerat'ta Surat/Broach/Kaira'yı tuttu; Wadhwan (Kathiawar) ve Dholka doğrudan İngiliz değildi (Dholka 1817-18'e dek Peşva/Gaekwad). [KAYNAK-UMIT: giris_gerek — Okunmadı: archive.org 'ia-oku' IG ciltleri 404 verdi (dosya adları farklı); Imperial Gazetteer Vol. 24 (dli.ministry.14487, 22244.74944_djvu.txt) 'Wadhwan' için bulunamadı (OCR yarım, 590 KB). 'Kaira' (vol. 15) ve 'Dholka' (vol. 11) maddeleri okunmalı. Gun bulunamadı.]",
+"guven": "KAYNAKLI",
+"gerekce": "1803-18'de İngilizler Gucerat'ta Surat/Broach/Kaira'yı tuttu; Wadhwan (Kathiawar) ve Dholka doğrudan İngiliz değildi (Dholka 1817-18'e dek Peşva/Gaekwad). [KAYNAK-UMIT: giris_gerek — Okunmadı: archive.org 'ia-oku' IG ciltleri 404 verdi (dosya adları farklı); Imperial Gazetteer Vol. 24 (dli.ministry.14487, 22244.74944_djvu.txt) 'Wadhwan' için bulunamadı (OCR yarım, 590 KB). 'Kaira' (vol. 15) ve 'Dholka' (vol. 11) maddeleri okunmalı. Gun bulunamadı.] [KAYNAK-UMIT (celiski): Dholka Marathalarca 1736'da alındı, 1757'de Gaekwar eline geçti, 1804'te İngilizlere devredildi. Wadhwan maddesi bulunamadı. — \"It was taken by the Marathas in 1736\" · Gerekçe 'Dholka 1817-18'e dek Peşva/Gaekwad' diyor; IG 1804 İngiliz devrini söylüyor (sonrası geri verildi mi belirtilmiyor). Dholka için 1803-02-18 f'si yaklaşık bir yıl erken; 1804 civarı. Wadhwan açık.]",
 "duzeltme": "Wadhwan, Dholka: 1818 öncesi ingiliz-hindistani dönemi kaldırılsın/düzeltilsin; gün bulunamadı.",
-"kaynak": "bulunamadı (Imperial Gazetteer of India 'Kaira', 'Ahmadabad' önerilir)"
+"kaynak": "Imperial Gazetteer of India vol. XI (1908), 'Dholka Town' maddesi, archive.org in.ernet.dli.2015.11608 · önceki: bulunamadı (Imperial Gazetteer of India 'Kaira', 'Ahmadabad' önerilir)"
 },
 "E007": {
 "hukum": "GERCEK",
@@ -76,7 +76,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Penza 1663'te Rus kalesi olarak kuruldu; 1556-1663 'Penza (nogay)' o devirde yoktu (merdiven ④). [KAYNAK-UMIT: giris_gerek — Okunmadı. Penza 1663 kale kuruluşu (Rus kaynak, Brockhaus-Efron / BRE) için açık akademik sayfa aranmadı; TDV'de yok.]",
+"gerekce": "Penza 1663'te Rus kalesi olarak kuruldu; 1556-1663 'Penza (nogay)' o devirde yoktu (merdiven ④). [KAYNAK-UMIT: giris_gerek — Okunmadı. Penza 1663 kale kuruluşu (Rus kaynak, Brockhaus-Efron / BRE) için açık akademik sayfa aranmadı; TDV'de yok.] [KAYNAK-UMIT: giris_gerek — Penza 1663 kale kuruluşu kaynaksız. EB 1911 tek başına kismen sayılacağından güncel akademik Rus kaynağı gerek.]",
 "duzeltme": "Penza: kur 1663 (gün bulunamadı), nogay dönemleri silinsin; toprak komşu peteklere kalır.",
 "kaynak": "bulunamadı"
 },
@@ -92,7 +92,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Orel 03.10.1941'de Guderian'ın Sevsk–Kromı ekseniyle alındı; ileri uç Alman hattına bağlıydı. 3 günlük kopukluk koridorda (Sevsk, Dmitrovsk, Kromı) nokta olmamasından (koridor yerleşimi 0, ölçüldü). [alt ajan GERÇEK demişti; LAB SALI düzeltti] [KAYNAK-UMIT: giris_gerek — Okunmadı. Orel 3 Ekim 1941 (Guderian, Sevsk-Kromı) için Glantz/Erickson ya da Das Deutsche Reich und der Zweite Weltkrieg vol. 4 gerek; açık erişimli akademik sayfa bulunamadı.]",
+"gerekce": "Orel 03.10.1941'de Guderian'ın Sevsk–Kromı ekseniyle alındı; ileri uç Alman hattına bağlıydı. 3 günlük kopukluk koridorda (Sevsk, Dmitrovsk, Kromı) nokta olmamasından (koridor yerleşimi 0, ölçüldü). [alt ajan GERÇEK demişti; LAB SALI düzeltti] [KAYNAK-UMIT: giris_gerek — Okunmadı. Orel 3 Ekim 1941 (Guderian, Sevsk-Kromı) için Glantz/Erickson ya da Das Deutsche Reich und der Zweite Weltkrieg vol. 4 gerek; açık erişimli akademik sayfa bulunamadı.] [KAYNAK-UMIT: giris_gerek — Orel 3 Ekim 1941 için Glantz/Erickson ya da Das Deutsche Reich und der Zweite Weltkrieg vol. 4 gerek.]",
 "duzeltme": "Koridora nokta (Sevsk ya da Kromı) + 1941-10 Alman dönemi, kaynakla; yoksa beyanlı kabul.",
 "kaynak": "bulunamadı"
 },
@@ -148,7 +148,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Nyangwe'yi Svahili-Arap tüccar beylikleri tuttu; Zengibar sultanlığı orada fiilî hâkim değildi. 883 km koridor. [KAYNAK-UMIT: bulunamadi — Nyangwe 1893 sahibi ve Kongo Serbest Devleti 04.03.1893 teyitsiz. Giriş: GHA VI Congo bölümü. Svahili-Arap devleti yönünde hüküm makul.]",
+"gerekce": "Nyangwe'yi Svahili-Arap tüccar beylikleri tuttu; Zengibar sultanlığı orada fiilî hâkim değildi. 883 km koridor. [KAYNAK-UMIT: bulunamadi — Nyangwe 1893 sahibi ve Kongo Serbest Devleti 04.03.1893 teyitsiz. Giriş: GHA VI Congo bölümü. Svahili-Arap devleti yönünde hüküm makul.] [KAYNAK-UMIT: bulunamadi — Nyangwe 1893 sahibi ve Kongo Serbest Devleti 4 Mart 1893 kaynaklanamadı.]",
 "duzeltme": "Nyangwe 1893 öncesi sahibi kaynakla; Kongo Serbest Devleti 04.03.1893 (teyitsiz).",
 "kaynak": "bulunamadı"
 },
@@ -1604,7 +1604,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-m",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Ölçüldü (1850 ve 1915): Karviná 12 km, Ostrava 25 km, Opava 54 km hepsi 'avusturya'. Galiçya ile Moravya/Avusturya Silezyası kara komşudur (tarihsel iddia), koridor 22,6 km 'almanya' 5/9 ölçüm hatası: Prusya Silezyası şeridi veya petek yaklaşıklığı. Galiçya, Macaristan'a Karpatlar'da da komşu. [KAYNAK-UMIT: bulunamadi — Galiçya-Moravya/Avusturya Silezyası kara komşuluğu için 1911 EB 'Galicia' maddesi bulunamadı (Wikisource 404); Treccani/HLS denenmedi. Kaynaklı teyit yok; hüküm (YAPAY-m, motor sorusu) tarihsel iddia olarak makul ama kaynaksız → giriş gerek (Galiçya ve Cieszyn Silezyası için ör. Encyclopaedia Britannica 1911 'Austria-Hungary' / 'Silesia').]",
+"gerekce": "Ölçüldü (1850 ve 1915): Karviná 12 km, Ostrava 25 km, Opava 54 km hepsi 'avusturya'. Galiçya ile Moravya/Avusturya Silezyası kara komşudur (tarihsel iddia), koridor 22,6 km 'almanya' 5/9 ölçüm hatası: Prusya Silezyası şeridi veya petek yaklaşıklığı. Galiçya, Macaristan'a Karpatlar'da da komşu. [KAYNAK-UMIT: bulunamadi — Galiçya-Moravya/Avusturya Silezyası kara komşuluğu için 1911 EB 'Galicia' maddesi bulunamadı (Wikisource 404); Treccani/HLS denenmedi. Kaynaklı teyit yok; hüküm (YAPAY-m, motor sorusu) tarihsel iddia olarak makul ama kaynaksız → giriş gerek (Galiçya ve Cieszyn Silezyası için ör. Encyclopaedia Britannica 1911 'Austria-Hungary' / 'Silesia').] [KAYNAK-UMIT: giris_gerek — Galiçya-Avusturya Silezyası (Teschen) komşuluğu için Treccani 'Galizia', HLS ya da EB 1911 'Silesia'/'Galicia' (kismen) sayfası okunmalı.]",
 "duzeltme": "Motor sorusu: Avusturya Silezyası (Teschen) peteği Galiçya'ya bağlansın; veri düzeltmesi yok.",
 "kaynak": "veri ölçümü (cevre.py)"
 },
@@ -1764,7 +1764,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Temmuz-Ağustos 1936'da Sevilla-Granada kesiti Burgos gövdesinden kopuktu (Badajoz 14 Ağustos'ta alındı, tarihsel iddia). 1938-01-07 kesiti Ekstremadura güneyi (La Serena cebi) Cumhuriyetçi elinde; koridor 53 km 'ispanya' 9/9. Ilipa sahipsiz. [KAYNAK-UMIT: bulunamadi — TDV İspanya maddesi iç savaşı yalnız genel olarak anlatıyor; Sevilla-Granada kesiti, Badajoz'un 14 Ağustos 1936'da alınması ve 1938-01-07 La Serena cebi TDV'de yok. Treccani 'Guerra civile spagnola' / HLS denenmedi → giriş gerek.]",
+"gerekce": "Temmuz-Ağustos 1936'da Sevilla-Granada kesiti Burgos gövdesinden kopuktu (Badajoz 14 Ağustos'ta alındı, tarihsel iddia). 1938-01-07 kesiti Ekstremadura güneyi (La Serena cebi) Cumhuriyetçi elinde; koridor 53 km 'ispanya' 9/9. Ilipa sahipsiz. [KAYNAK-UMIT: bulunamadi — TDV İspanya maddesi iç savaşı yalnız genel olarak anlatıyor; Sevilla-Granada kesiti, Badajoz'un 14 Ağustos 1936'da alınması ve 1938-01-07 La Serena cebi TDV'de yok. Treccani 'Guerra civile spagnola' / HLS denenmedi → giriş gerek.] [KAYNAK-UMIT: giris_gerek — Treccani 'Guerra civile spagnola' ve Badajoz 14 Ağustos 1936 için akademik sayfa okunmalı.]",
 "duzeltme": "Yok.",
 "kaynak": "bulunamadı"
 }

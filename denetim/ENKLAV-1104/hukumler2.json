@@ -36,7 +36,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Çengdu 1236-10-31 → 1260 'mogol-imparatorlugu', çevre song (koridor 351 km song 7/9). Moğollar Çengdu'yu 1236'da yağmaladı; Siçuan cephesi Song'la çekişmeli. Tek noktalı parça; 24 yıllık kesintisiz Moğol tutuşu şüpheli (şehir birkaç kez el değiştirdi). [KAYNAK-UMIT: bulunamadi — Çengdu 1236-10-31 / 1260 için TDV Cengiz Han maddesinde Çengdu/Sişuan anahtarları yok, EB 1911 Jenghiz Khan'da yok. Yuan Shi / Song Shi birincil neşirleri (Wikisource) ve Cambridge History of China vol.6 (archive.org'da tam metin yok, ödünç) okunamadı → giriş gerek. Hüküm modelin YAPAY-c önerisi kaynaksız.]",
+"gerekce": "Çengdu 1236-10-31 → 1260 'mogol-imparatorlugu', çevre song (koridor 351 km song 7/9). Moğollar Çengdu'yu 1236'da yağmaladı; Siçuan cephesi Song'la çekişmeli. Tek noktalı parça; 24 yıllık kesintisiz Moğol tutuşu şüpheli (şehir birkaç kez el değiştirdi). [KAYNAK-UMIT: bulunamadi — Çengdu 1236-10-31 / 1260 için TDV Cengiz Han maddesinde Çengdu/Sişuan anahtarları yok, EB 1911 Jenghiz Khan'da yok. Yuan Shi / Song Shi birincil neşirleri (Wikisource) ve Cambridge History of China vol.6 (archive.org'da tam metin yok, ödünç) okunamadı → giriş gerek. Hüküm modelin YAPAY-c önerisi kaynaksız.] [KAYNAK-UMIT: bulunamadi — Hüküm kaynaksız kalır. Moğol Siçuan seferi bölümü (Franke/Rachewiltz) ya da Song Shi/Yuan Shi neşri gerek.]",
 "duzeltme": "Çengdu 1236-1260 sahiplik zinciri kaynakla; muhtemelen YAPAY-c.",
 "kaynak": "veri ölçümü"
 },
@@ -148,7 +148,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Taiyuan 1218-08-23 → 1225 'mogol-imparatorlugu', çevre jin (koridor 111 km 9/9); Pingyao sahipsiz. Mukali 1218'de Taiyuan'ı aldı; kuzey Şansi (Datong, Xinzhou) Moğol elindeyse kopukluk ara nokta eksikliğindendir. [KAYNAK-UMIT: bulunamadi — Mukali'nin Taiyuan'ı 1218-08-23'te alması ve Şansi'nin Moğol elinde olması TDV/EB'de bulunamadı (Taiyuan/Shansi anahtarları yok). Yuan Shi 'Muhuli' biyografisi (juan 119) ve Jin Shi okunmadı → giriş gerek.]",
+"gerekce": "Taiyuan 1218-08-23 → 1225 'mogol-imparatorlugu', çevre jin (koridor 111 km 9/9); Pingyao sahipsiz. Mukali 1218'de Taiyuan'ı aldı; kuzey Şansi (Datong, Xinzhou) Moğol elindeyse kopukluk ara nokta eksikliğindendir. [KAYNAK-UMIT: bulunamadi — Mukali'nin Taiyuan'ı 1218-08-23'te alması ve Şansi'nin Moğol elinde olması TDV/EB'de bulunamadı (Taiyuan/Shansi anahtarları yok). Yuan Shi 'Muhuli' biyografisi (juan 119) ve Jin Shi okunmadı → giriş gerek.] [KAYNAK-UMIT: bulunamadi — Mukali'nin 1218 Taiyuan'ı alması kaynaklanamadı. Cambridge History of China vol. 6 Moğol-Jin bölümü elle okunmalı.]",
 "duzeltme": "Datong/Xinzhou 1215-1225 sahipliği kaynakla; Pingyao dönemi.",
 "kaynak": "veri ölçümü"
 },
@@ -204,17 +204,17 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Tek nokta Lubango 1700-1902 'ovimbundu', çevre portekiz (koridor 123 km 9/9). Lubango Huíla yaylasında Nyaneka-Humbe toprağı; Ovimbundu krallıkları Bié/Bailundo merkezli kuzeydeydi. Portekiz Sá da Bandeira kolonisi 1885'te kuruldu; atlas 1902'ye dek ovimbundu tutuyor (ölçüldü kayit.py). [KAYNAK-UMIT: bulunamadi — Lubango'nun Huíla yaylasında Nyaneka-Humbe toprağı olduğu ve Sá da Bandeira kolonisinin 1885'te kuruluşu (gerekçe) kaynaklanmadı; EB 1911 yalnız Huilla'nın Portekiz Mossamedes bölgesinde olduğunu gösterir. Ovimbundu krallıklarının Bié/Bailundo merkezli olduğu için hükmün YAPAY-c yönü makul ama kaynaksız → giriş gerek (UNESCO GHA vol.6/7 ya da Cambridge Hist. of Africa).]",
+"gerekce": "Tek nokta Lubango 1700-1902 'ovimbundu', çevre portekiz (koridor 123 km 9/9). Lubango Huíla yaylasında Nyaneka-Humbe toprağı; Ovimbundu krallıkları Bié/Bailundo merkezli kuzeydeydi. Portekiz Sá da Bandeira kolonisi 1885'te kuruldu; atlas 1902'ye dek ovimbundu tutuyor (ölçüldü kayit.py). [KAYNAK-UMIT: bulunamadi — Lubango'nun Huíla yaylasında Nyaneka-Humbe toprağı olduğu ve Sá da Bandeira kolonisinin 1885'te kuruluşu (gerekçe) kaynaklanmadı; EB 1911 yalnız Huilla'nın Portekiz Mossamedes bölgesinde olduğunu gösterir. Ovimbundu krallıklarının Bié/Bailundo merkezli olduğu için hükmün YAPAY-c yönü makul ama kaynaksız → giriş gerek (UNESCO GHA vol.6/7 ya da Cambridge Hist. of Africa).] [KAYNAK-UMIT: giris_gerek — Lubango/Huíla'nın Nyaneka-Humbe toprağı olduğu ve 1885 Sá da Bandeira kuruluşu için GHA VII s.169-189 civarı okunmalı. Dizin teyit değildir.]",
 "duzeltme": "Lubango 1700-1885 sahibi (Nyaneka/Huíla) ve Portekiz f ucu (1885 Sá da Bandeira) kaynakla.",
 "kaynak": "veri ölçümü (kayit.py Lubango)"
 },
 "K127": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Changsha 1673-12-28 'san-fan': f günü Wu Sangui'nin Yunnan'da isyan ilanı; Hunan'a ilerleyiş ve Changsha'nın alınışı 1674 başındadır. Parça Yunnan-Guizhou gövdesine 1674-03-26'da bağlanıyor — kopukluk Changsha f'sinin isyan gününe çekilmesinden (ölçüldü kayit.py: dönem kaynaksız). [KAYNAK-UMIT: bulunamadi — EB 1911 China'da 'Wu San-kuei' ve 'Hunan' anahtarları yok; TDV Çin maddesinde Wu Sangui/Yunnan yok. Changsha'nın Wu Sangui güçlerince alınış günü (1674) bulunamadı. Hummel 'Eminent Chinese of the Ch'ing Period' (WU Sangui) archive.org'da tam metin okunamadı → giriş gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Changsha 1673-12-28 'san-fan': f günü Wu Sangui'nin Yunnan'da isyan ilanı; Hunan'a ilerleyiş ve Changsha'nın alınışı 1674 başındadır. Parça Yunnan-Guizhou gövdesine 1674-03-26'da bağlanıyor — kopukluk Changsha f'sinin isyan gününe çekilmesinden (ölçüldü kayit.py: dönem kaynaksız). [KAYNAK-UMIT: bulunamadi — EB 1911 China'da 'Wu San-kuei' ve 'Hunan' anahtarları yok; TDV Çin maddesinde Wu Sangui/Yunnan yok. Changsha'nın Wu Sangui güçlerince alınış günü (1674) bulunamadı. Hummel 'Eminent Chinese of the Ch'ing Period' (WU Sangui) archive.org'da tam metin okunamadı → giriş gerek.] [KAYNAK-UMIT (kismen): Wu Sangui isyanı 1673'te başladı (Guizhou valisi teslim oldu, Yunnan valisi öldürüldü); 1674'te Hunan (P'ien-yüan) valisi görevini terk etti, Sichuan valisi teslim oldu. Changsha'nın gün düzeyinde alınışı verilmiyor. — \"In 1674, the governor of P'ien-yiian (later renamed Hunan) abandoned his post\" · Hunan'ın Wu cephesine geçişi 1674'tür; 1673-12-28 f günü Changsha için uyumsuz, düzeltme yönü (f'i 1674'e çekmek) kısmen teyitli. Gün kaynaksız; OCR 'yiian' = yüan.]",
 "duzeltme": "Changsha san-fan f → Wu Sangui kuvvetlerinin Changsha'ya girişi (1674, gün kaynakla; Eminent Chinese 'WU Sangui').",
-"kaynak": "veri ölçümü (kayit.py Changsha)"
+"kaynak": "Cambridge History of China vol. 9 (Ch'ing Dynasty, Part 2 / to 1800), R. Kent Guy bölümü, archive.org PDFDrive metni · önceki: veri ölçümü (kayit.py Changsha)"
 },
 "K128": {
 "hukum": "GERCEK",
@@ -276,7 +276,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Gouré 1899-01-01 'fransa-cumhuriyet' (önce damagaram), koridor kanem-bornu 9/9 (215 km). Fransızlar Zinder'i (Damagaram başkenti) 30 Temmuz 1899'da aldı; Gouré'nin yıl başına çekilmiş f'si ile Zinder/Damagaram'ın atlasta Bornu boyalı kalması kopukluk üretiyor. [KAYNAK-UMIT: bulunamadi — Zinder'in Fransızlarca 30 Temmuz 1899'da alınışı bu kaynaklarda YOK (TDV Nijer 1904 diyor). Gün bulunamadı; Damagaram/Zinder Fransız fethi için Hamani Dioris / Cambridge Hist. of Africa vol.6 gerek → giriş gerek. Hükmün tarihsel düzeltme yönü (Zinder/Damagaram f aynı güne) makul ama kaynaksız.]",
+"gerekce": "Gouré 1899-01-01 'fransa-cumhuriyet' (önce damagaram), koridor kanem-bornu 9/9 (215 km). Fransızlar Zinder'i (Damagaram başkenti) 30 Temmuz 1899'da aldı; Gouré'nin yıl başına çekilmiş f'si ile Zinder/Damagaram'ın atlasta Bornu boyalı kalması kopukluk üretiyor. [KAYNAK-UMIT: bulunamadi — Zinder'in Fransızlarca 30 Temmuz 1899'da alınışı bu kaynaklarda YOK (TDV Nijer 1904 diyor). Gün bulunamadı; Damagaram/Zinder Fransız fethi için Hamani Dioris / Cambridge Hist. of Africa vol.6 gerek → giriş gerek. Hükmün tarihsel düzeltme yönü (Zinder/Damagaram f aynı güne) makul ama kaynaksız.] [KAYNAK-UMIT: bulunamadi — Zinder'in 30 Temmuz 1899'da alınışı kaynaklanamadı. Damagaram/Fransız fethi için Cambridge History of Africa vol. 6 ya da hakemli makale gerek.]",
 "duzeltme": "Zinder ve Damagaram noktaları fransa-cumhuriyet f → 1899-07-30 (kaynakla); Gouré f aynı güne.",
 "kaynak": "veri ölçümü (kayit.py Goure)"
 },
@@ -292,7 +292,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Tek nokta Uralsk (Yayık) 1441-1502 'nogay' (kayıtta kur yok). Yaitsk Kazak kasabası 16. yüzyıl sonu/1613'te kuruldu; 15. yüzyılda yerleşim yok (merdiven ④). Nogay'ın Yayık havzası göçebe toprağı gerçek, ama nokta peteği Astarhan koridoruyla yapay ayrıklık üretiyor. [KAYNAK-UMIT: bulunamadi — Uralsk/Yaitsk kuruluşunun 16. yy sonu/1613 olduğu iddiası kaynaklanmadı (TDV'de yıl bulunamadı). Nogay'ın Yayık havzasında bulunması TDV 'Nogaylar'da var (Yayık-Edil arası göçebe) ama sayfa okunmadı → giriş gerek.]",
+"gerekce": "Tek nokta Uralsk (Yayık) 1441-1502 'nogay' (kayıtta kur yok). Yaitsk Kazak kasabası 16. yüzyıl sonu/1613'te kuruldu; 15. yüzyılda yerleşim yok (merdiven ④). Nogay'ın Yayık havzası göçebe toprağı gerçek, ama nokta peteği Astarhan koridoruyla yapay ayrıklık üretiyor. [KAYNAK-UMIT: bulunamadi — Uralsk/Yaitsk kuruluşunun 16. yy sonu/1613 olduğu iddiası kaynaklanmadı (TDV'de yıl bulunamadı). Nogay'ın Yayık havzasında bulunması TDV 'Nogaylar'da var (Yayık-Edil arası göçebe) ama sayfa okunmadı → giriş gerek.] [KAYNAK-UMIT: bulunamadi — Uralsk (Yaitsk) kuruluş yılı ve Nogay-Yayık bağı kaynaklanamadı. TDV 'Başkırtlar' ve 'Edige' maddeleri ile Rus tarihi kaynağı gerek.]",
 "duzeltme": "Uralsk kur yılı kaynakla, önceki dönemler kırpılsın; Nogay Yayık toprağı için uygun tanık nokta (Saraycık) önerilir.",
 "kaynak": "veri ölçümü (kayit.py Uralsk: kur yok)"
 },
@@ -332,7 +332,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Batı Yunnan Qing payı (Tengyue, Yongchang, Lijiang) 1858-1873, Qing gövdesinden Dali'deki Pingnan (Panthay) sultanlığıyla ayrı (koridor 21 km 9/9); bitiş 1873-01-15 Dali'nin düşüşü. Düşük güven: Tengyue/Yongchang'ın bu yıllarda Panthay eline geçip geçmediği kaynakla sınanmalı (Panthaylar batı Yunnan'ın çoğunu tuttu). [KAYNAK-UMIT: bulunamadi — Panthay/Dali (Du Wenxiu sultanlığı 1856-1873), Tengyue-Yongchang'ın 1858-1873 sahibi bu kaynaklarda bulunamadı (EB 'Yun-nan' kısa maddesi Panthay anmıyor; TDV Çin'de yok). Yıl-gün için Cambridge Hist. of China vol.10-11 (ödünç, erişilemedi) / Encyclopaedia Iranica yok → giriş gerek.]",
+"gerekce": "Batı Yunnan Qing payı (Tengyue, Yongchang, Lijiang) 1858-1873, Qing gövdesinden Dali'deki Pingnan (Panthay) sultanlığıyla ayrı (koridor 21 km 9/9); bitiş 1873-01-15 Dali'nin düşüşü. Düşük güven: Tengyue/Yongchang'ın bu yıllarda Panthay eline geçip geçmediği kaynakla sınanmalı (Panthaylar batı Yunnan'ın çoğunu tuttu). [KAYNAK-UMIT: bulunamadi — Panthay/Dali (Du Wenxiu sultanlığı 1856-1873), Tengyue-Yongchang'ın 1858-1873 sahibi bu kaynaklarda bulunamadı (EB 'Yun-nan' kısa maddesi Panthay anmıyor; TDV Çin'de yok). Yıl-gün için Cambridge Hist. of China vol.10-11 (ödünç, erişilemedi) / Encyclopaedia Iranica yok → giriş gerek.] [KAYNAK-UMIT: giris_gerek — Cambridge History of China vol. 10 (archive.org metni mevcut, 798 KB) içinde 'Panthay', 'Tali', 'Tu Wen-hsiu' anahtarlarıyla aranmalı.]",
 "duzeltme": "Tengyue/Yongchang 1858-1873 sahibi kaynakla; Dali Eski Kenti sahipsiz.",
 "kaynak": "veri ölçümü"
 },
@@ -387,10 +387,10 @@
 "K149": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Tek nokta Bauchi 1903-01-01 → 01-15 'sokoto', çevre ingiltere (koridor 290 km 9/9). Bauchi emirliği İngilizlerce 1902'de işgal edildi; Kano (Şubat 1903) ve Sokoto (Mart 1903) sonradan. 1903 başında Bauchi'nin Sokoto'da kalması ve 15 günlük parça hizasız dönemden. [KAYNAK-UMIT: bulunamadi — Bauchi'nin İngilizlerce 1902'de işgali ve Kano/Sokoto 1903 günleri EB'de yok (EB 1911 yalnız coğrafya). Bauchi emirliği yıl-gün için Cambridge Hist. of Africa vol.6 / Encyclopaedia Britannica 'Nigeria' history kısmı → giriş gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Tek nokta Bauchi 1903-01-01 → 01-15 'sokoto', çevre ingiltere (koridor 290 km 9/9). Bauchi emirliği İngilizlerce 1902'de işgal edildi; Kano (Şubat 1903) ve Sokoto (Mart 1903) sonradan. 1903 başında Bauchi'nin Sokoto'da kalması ve 15 günlük parça hizasız dönemden. [KAYNAK-UMIT: bulunamadi — Bauchi'nin İngilizlerce 1902'de işgali ve Kano/Sokoto 1903 günleri EB'de yok (EB 1911 yalnız coğrafya). Bauchi emirliği yıl-gün için Cambridge Hist. of Africa vol.6 / Encyclopaedia Britannica 'Nigeria' history kısmı → giriş gerek.] [KAYNAK-UMIT (kismen): İngiliz seferleri: Kontagora 1900, Adamawa 1901, Bauchi 1902; Kano, Sokoto ve Burwuri 1903. Aylar/günler verilmiyor. — \"Bauchi in 1902, Kano, Sokoto and Burwuri in 1903\" · Gerekçenin yıl düzeyi teyitli: Bauchi 1902'de İngiliz seferiyle düştü, Sokoto 1903'te. Atlasın 1903-01-01 Bauchi sokoto başlangıcı 1902 tarihli kaynakla çelişiyor; ingiltere f'si için gün kaynaksız (yalnız 1902).]",
 "duzeltme": "Bauchi ingiltere f → 1902 işgal günü (kaynakla).",
-"kaynak": "veri ölçümü"
+"kaynak": "UNESCO General History of Africa VII, sömürgeleşme bölümü (archive.org general-history-of-africa-vol-7) · önceki: veri ölçümü"
 },
 "K150": {
 "hukum": "GERCEK",
@@ -460,7 +460,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-b",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Yangzhou 1645-05-20 → 06-08 'qing', çevre güney-ming (koridor 134 km 6/9). Qing Huai hattından inerek Yangzhou'yu aldı; arkadaki Huai'an/Xuzhou teslim olmuştu. 19 günlük kopukluk, kuzey Jiangsu noktalarının Qing f günlerinin Nanjing'in düşüşüne (1645-06-08) bağlanmasından. [KAYNAK-UMIT: giris_gerek — Okunmadı. Yangzhou 1645 (Dodo, Mayıs 1645) için Cambridge History of China vol. 7 ya da Wakeman 'The Great Enterprise' sayfası gerek; Britannica 403, EB 1911 'Yangchow' maddesi okunmadı.]",
+"gerekce": "Yangzhou 1645-05-20 → 06-08 'qing', çevre güney-ming (koridor 134 km 6/9). Qing Huai hattından inerek Yangzhou'yu aldı; arkadaki Huai'an/Xuzhou teslim olmuştu. 19 günlük kopukluk, kuzey Jiangsu noktalarının Qing f günlerinin Nanjing'in düşüşüne (1645-06-08) bağlanmasından. [KAYNAK-UMIT: giris_gerek — Okunmadı. Yangzhou 1645 (Dodo, Mayıs 1645) için Cambridge History of China vol. 7 ya da Wakeman 'The Great Enterprise' sayfası gerek; Britannica 403, EB 1911 'Yangchow' maddesi okunmadı.] [KAYNAK-UMIT: bulunamadi — Qing'in Yangzhou'yu Mayıs 1645'te alması kaynaklanamadı. Wakeman 'The Great Enterprise' ya da vol. 9 Part 1 ('Conquest') elle okunmalı.]",
 "duzeltme": "Huai'an, Xuzhou Qing f günleri kaynakla (Mayıs 1645).",
 "kaynak": "veri ölçümü"
 },
@@ -468,7 +468,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Wuchang 1275-01-15 → 1276-01-18 'yuan': Bayan Yangzi'yi Ezhou'da geçti, Song'un Yingzhou kalesini arkada bırakarak aşağı indi; Xiangyang gövdesinden Song toprağıyla ayrı kalmış olabilir. Nanchang, Jiujiang sahipsiz (koridor song 9/9). Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. Bayan'ın Yangzi geçişi (Ocak 1275, Ezhou/Wuchang) için Cambridge History of China vol. 6 (Alien Regimes) bölümü gerek; açık metin bulunamadı.]",
+"gerekce": "Wuchang 1275-01-15 → 1276-01-18 'yuan': Bayan Yangzi'yi Ezhou'da geçti, Song'un Yingzhou kalesini arkada bırakarak aşağı indi; Xiangyang gövdesinden Song toprağıyla ayrı kalmış olabilir. Nanchang, Jiujiang sahipsiz (koridor song 9/9). Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. Bayan'ın Yangzi geçişi (Ocak 1275, Ezhou/Wuchang) için Cambridge History of China vol. 6 (Alien Regimes) bölümü gerek; açık metin bulunamadı.] [KAYNAK-UMIT: bulunamadi — Yangzi geçişi ve Wuchang/Ezhou günleri kaynaklanamadı; hüküm kaynaksız.]",
 "duzeltme": "Han ırmağı hattı (Yingzhou, Fuzhou) 1275 sahipliği kaynakla.",
 "kaynak": "veri ölçümü"
 },
@@ -484,7 +484,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Siak Sri Indrapura 1590-1615 'cohor-sultanligi': Siak Johor'a bağlı Sumatra kıyı beyliği, Johor'un yarımada gövdesinden Malakka Boğazı ile ayrı; koridor Sumatra karası (doğu-sumatra 9/9) üzerinden çizildiği için KARA sınıfında. Denizaşırı bağımlılık olarak gerçek; Johor bağlılığının yılları kaynakla. [KAYNAK-UMIT: bulunamadi — Siak-Johor 1590-1615 bağlılığı için TDV'de madde yok (tdv-ara sonuçsuz); Siak sultanlığı 1723'te kuruldu, 1590-1615 Johor'a bağlılığı için Cambridge History of Southeast Asia gerek.]",
+"gerekce": "Siak Sri Indrapura 1590-1615 'cohor-sultanligi': Siak Johor'a bağlı Sumatra kıyı beyliği, Johor'un yarımada gövdesinden Malakka Boğazı ile ayrı; koridor Sumatra karası (doğu-sumatra 9/9) üzerinden çizildiği için KARA sınıfında. Denizaşırı bağımlılık olarak gerçek; Johor bağlılığının yılları kaynakla. [KAYNAK-UMIT: bulunamadi — Siak-Johor 1590-1615 bağlılığı için TDV'de madde yok (tdv-ara sonuçsuz); Siak sultanlığı 1723'te kuruldu, 1590-1615 Johor'a bağlılığı için Cambridge History of Southeast Asia gerek.] [KAYNAK-UMIT: giris_gerek — Siak-Johor bağlılığı için Cambridge History of Southeast Asia ya da Johor tarihi akademik sayfa gerek.]",
 "duzeltme": "Yok; sınıf beyanı (deniz).",
 "kaynak": "veri ölçümü"
 },
@@ -508,7 +508,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Semipalatinsk 1718 'rusya' (kale 1718, kayıt uyumlu), çevre cungar (koridor 247 km 8/9). İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716, Jeleznikovo 1717) atlasta nokta olarak yoksa kopukluk noktasız emilmeden. [KAYNAK-UMIT: bulunamadi — Semipalatinsk 1718 kuruluşu ve İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716) için okunabilir akademik sayfa bulunamadı; TDV'de yok. Cambridge History of Inner Asia ya da Perdue 'China Marches West' gerek.]",
+"gerekce": "Semipalatinsk 1718 'rusya' (kale 1718, kayıt uyumlu), çevre cungar (koridor 247 km 8/9). İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716, Jeleznikovo 1717) atlasta nokta olarak yoksa kopukluk noktasız emilmeden. [KAYNAK-UMIT: bulunamadi — Semipalatinsk 1718 kuruluşu ve İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716) için okunabilir akademik sayfa bulunamadı; TDV'de yok. Cambridge History of Inner Asia ya da Perdue 'China Marches West' gerek.] [KAYNAK-UMIT: giris_gerek — EB 1911 'Semipalatinsk' (kismen) ya da Rusya-Cungar İrtiş hattı akademik makalesi okunmalı.]",
 "duzeltme": "İrtiş hattı kaleleri için nokta ve dönem.",
 "kaynak": "veri ölçümü (kayit.py Semipalatinsk)"
 },
@@ -588,7 +588,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "DENİZ AŞIRI: Duala 1868-01-01 → 1884-07-14 'hollanda' (dönem kaynaksız). Duala'da 19. yüzyılda İngiliz ve Alman tüccarlar etkindi; Duala şefleri 12-14 Temmuz 1884'te Almanya ile himaye antlaşması yaptı. Hollanda egemenliğine dair dayanak yok. [KAYNAK-UMIT: bulunamadi — Hollanda egemenliği 1868-1884 için dayanak bulunamadı; Duala şeflikleri düzeltmesi desteklenir. 1884 Temmuz Alman antlaşması için ayrı kaynak (Kamerun tarihi bölümü) okunmadı.]",
+"gerekce": "DENİZ AŞIRI: Duala 1868-01-01 → 1884-07-14 'hollanda' (dönem kaynaksız). Duala'da 19. yüzyılda İngiliz ve Alman tüccarlar etkindi; Duala şefleri 12-14 Temmuz 1884'te Almanya ile himaye antlaşması yaptı. Hollanda egemenliğine dair dayanak yok. [KAYNAK-UMIT: bulunamadi — Hollanda egemenliği 1868-1884 için dayanak bulunamadı; Duala şeflikleri düzeltmesi desteklenir. 1884 Temmuz Alman antlaşması için ayrı kaynak (Kamerun tarihi bölümü) okunmadı.] [KAYNAK-UMIT: bulunamadi — Hollanda egemenliği dayanağı yok (önceki tur gibi). Duala-Alman antlaşması günleri için Kamerun tarihi bölümü elle okunmalı.]",
 "duzeltme": "Duala 1868-1884 sahibi: Duala şeflikleri (yerel), kaynakla; 'hollanda' kaldırılsın.",
 "kaynak": "veri ölçümü (kayit.py Duala)"
 },
@@ -660,7 +660,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Ji'an 1856-03-02 → 1858-09-22 'taiping', Nanjing gövdesinden Qing toprağıyla ayrı (koridor 80 km 9/9). Shi Dakai'nin Jiangxi seferi (1855-56) birçok Jiangxi şehrini aldı; Ji'an Qing'e 1858'de düştü. Taiping'in Jiangxi'deki öteki şehirleri nokta olarak yoksa alan yanlış, kopukluk büyük ölçüde gerçek. [KAYNAK-UMIT: giris_gerek — Okunmadı. Ji'an'ın Taiping eline geçişi (Shi Dakai Jiangxi seferi 1855-56) için Cambridge History of China vol. 10 gerek; EB 1911 'Taiping' sayfası bulunamadı.]",
+"gerekce": "Ji'an 1856-03-02 → 1858-09-22 'taiping', Nanjing gövdesinden Qing toprağıyla ayrı (koridor 80 km 9/9). Shi Dakai'nin Jiangxi seferi (1855-56) birçok Jiangxi şehrini aldı; Ji'an Qing'e 1858'de düştü. Taiping'in Jiangxi'deki öteki şehirleri nokta olarak yoksa alan yanlış, kopukluk büyük ölçüde gerçek. [KAYNAK-UMIT: giris_gerek — Okunmadı. Ji'an'ın Taiping eline geçişi (Shi Dakai Jiangxi seferi 1855-56) için Cambridge History of China vol. 10 gerek; EB 1911 'Taiping' sayfası bulunamadı.] [KAYNAK-UMIT: bulunamadi — Ji'an'ın Taiping'e geçişi kaynaklanamadı. Vol. 10 Taiping bölümü 'Shih Ta-k'ai' ve 'Kiangsi' anahtarlarıyla aranmalı.]",
 "duzeltme": "Jiangxi Taiping şehirleri (Ruizhou, Linjiang, Fuzhou) 1856-1858 noktaları kaynakla.",
 "kaynak": "veri ölçümü"
 },
@@ -716,7 +716,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Valdivia İspanyol kalesi, Şili gövdesinden (atlas 'ispanyol-peru') Mapuche Araukanya'sı ile ayrı (koridor 384 km): bilinen gerçek eksklav (1645 yeniden kuruluş - 1820). Borçlar: (i) 1599-1645 Valdivia yıkıktı (1643 Hollanda işgali); (ii) Cochrane Valdivia'yı Şubat 1820'de aldı, atlas 1826-01-14'e (Chiloé'nin teslimi) dek İspanyol tutuyor; (iii) 'ispanya' ile 'ispanyol-peru' iki kimlik. [KAYNAK-UMIT: bulunamadi — Okunamadı: Valdivia 1599-1645 yıkıklığı, Cochrane Şubat 1820 için DCB/Treccani yerine Cambridge History of Latin America (Chile) ya da Diccionario Biográfico de Chile gerek.]",
+"gerekce": "Valdivia İspanyol kalesi, Şili gövdesinden (atlas 'ispanyol-peru') Mapuche Araukanya'sı ile ayrı (koridor 384 km): bilinen gerçek eksklav (1645 yeniden kuruluş - 1820). Borçlar: (i) 1599-1645 Valdivia yıkıktı (1643 Hollanda işgali); (ii) Cochrane Valdivia'yı Şubat 1820'de aldı, atlas 1826-01-14'e (Chiloé'nin teslimi) dek İspanyol tutuyor; (iii) 'ispanya' ile 'ispanyol-peru' iki kimlik. [KAYNAK-UMIT: bulunamadi — Okunamadı: Valdivia 1599-1645 yıkıklığı, Cochrane Şubat 1820 için DCB/Treccani yerine Cambridge History of Latin America (Chile) ya da Diccionario Biográfico de Chile gerek.] [KAYNAK-UMIT: giris_gerek — Valdivia 1645 yeniden kuruluş ve Şubat 1820 Cochrane için Memoria Chilena/Diccionario Biográfico de Chile ya da Cambridge History of Latin America gerek.]",
 "duzeltme": "Valdivia 1599-1645 dönemi kırp/beyan; ispanya t → 1820-02 (kaynakla) → sili; Chiloé ayrı.",
 "kaynak": "veri ölçümü"
 },

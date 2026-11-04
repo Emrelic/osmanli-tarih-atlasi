@@ -12,7 +12,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Sambas ve Kuching 1819 → 1822-12 'hollanda-dogu-hint', çevre Pontianak. Sambas'ta Hollanda 1818-19'da yerleşti, ama Kuching (Sarawak) Brunei sultanlığınındı (1841 Brooke): Kuching'in Hollanda yazımı yanlış. [KAYNAK-UMIT: giris_gerek — Kuching'in Brunei sultanlığına bağlılığı ve 1841 Brooke: Sarawak için akademik kaynak (Cambridge History of Southeast Asia, Runciman) okunmalı.]",
+"gerekce": "Sambas ve Kuching 1819 → 1822-12 'hollanda-dogu-hint', çevre Pontianak. Sambas'ta Hollanda 1818-19'da yerleşti, ama Kuching (Sarawak) Brunei sultanlığınındı (1841 Brooke): Kuching'in Hollanda yazımı yanlış. [KAYNAK-UMIT: giris_gerek — Kuching'in Brunei sultanlığına bağlılığı ve 1841 Brooke: Sarawak için akademik kaynak (Cambridge History of Southeast Asia, Runciman) okunmalı.] [KAYNAK-UMIT: giris_gerek — Kuching'in Brunei'ye bağlılığı ve 1841 Brooke için Cambridge History of Southeast Asia gerek.]",
 "duzeltme": "Kuching 1819-1841 brunei (kaynakla).",
 "kaynak": "veri ölçümü"
 },
@@ -52,7 +52,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Kigali 1907 → 1916-05-06 Alman Doğu Afrikası (Ruanda rezidentliği; Belçika zaptı Mayıs 1916), gövdeden 'ingiltere' şeridiyle ayrı (koridor 126 km 6/9). Koridordaki İngiliz boyası Karagve'den (Bveranyange) geliyor: Karagve 1890 Helgoland antlaşmasıyla Alman tarafında kaldı — K369 ile aynı hata.",
+"gerekce": "Kigali 1907 → 1916-05-06 Alman Doğu Afrikası (Ruanda rezidentliği; Belçika zaptı Mayıs 1916), gövdeden 'ingiltere' şeridiyle ayrı (koridor 126 km 6/9). Koridordaki İngiliz boyası Karagve'den (Bveranyange) geliyor: Karagve 1890 Helgoland antlaşmasıyla Alman tarafında kaldı — K369 ile aynı hata. [KAYNAK-UMIT: bulunamadi — Karagwe/Kigali sahipliği kaynaklanamadı; antlaşma varlığı teyitli, bölge ayrıntısı değil.]",
 "duzeltme": "Bveranyange/Karagve 1890-1916 alman-dogu-afrikasi (K369, kaynakla).",
 "kaynak": "veri ölçümü"
 },
@@ -92,7 +92,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Tepeaca 1466 → 1520-09-04 Aztek haraç eyaleti, Aztek gövdesinden 27 km'lik bağımsız Nahua şehir devletleri (Tlaxcala, Huexotzinco) şeridiyle ayrı. Tlaxcala'nın Aztek ülkesi içinde bağımsız kaldığı bilinir; bitiş Cortés'in Tepeaca seferi (Eylül 1520). [KAYNAK-UMIT: giris_gerek — Tepeaca'nın Aztek haraç eyaleti olması ve Cortés Tepeaca seferi (1520): Cambridge History of Native Peoples of the Americas / Hassig, Aztec Warfare okunmalı.]",
+"gerekce": "Tepeaca 1466 → 1520-09-04 Aztek haraç eyaleti, Aztek gövdesinden 27 km'lik bağımsız Nahua şehir devletleri (Tlaxcala, Huexotzinco) şeridiyle ayrı. Tlaxcala'nın Aztek ülkesi içinde bağımsız kaldığı bilinir; bitiş Cortés'in Tepeaca seferi (Eylül 1520). [KAYNAK-UMIT: giris_gerek — Tepeaca'nın Aztek haraç eyaleti olması ve Cortés Tepeaca seferi (1520): Cambridge History of Native Peoples of the Americas / Hassig, Aztec Warfare okunmalı.] [KAYNAK-UMIT: giris_gerek — Tepeaca Aztek eyaleti ve Cortés 1520 seferi için Hassig 'Aztec Warfare' ya da Cambridge Native Peoples gerek.]",
 "duzeltme": "Yok; 1466 başlangıcı kaynakla.",
 "kaynak": "veri ölçümü"
 },
