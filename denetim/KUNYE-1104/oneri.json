@@ -192,8 +192,8 @@
 },
 {
 "id": "sovyet-rusya",
-"hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge — Cambridge History of Russia III, ch.4 (S. A. Smith): 'By the morning of 25 October only the Winter Palace remained' — Jülyen 25 Ekim = Gregoryen 7 Kasım 1917 (dönüşüm LAB'ın, beyan) (f gün teyitli; t 1991-12-26 bu ciltte yok)"
+"hukum": "TEYIT",
+"kaynak": "f: EMRELİC Cambridge — CHR III ch.4 (Smith): Jülyen 25 Ekim = Gregoryen 7 Kasım 1917 (dönüşüm beyanlı) · t: ⑧ resmî neşir — Декларация Совета Республик ВС СССР от 26.12.1991 № 142-Н (Ведомости ВС СССР 1991 № 52; ru.wikisource metni): 'Союз ССР как государство и субъект международного права прекращает свое существование' (t 1991-12-26 GÜN teyitli; Gorbaçov istifası 25 Aralık — CHR III ch.12 Brown s.349 — ic_not)"
 },
 {
 "id": "guney-rusya-beyaz",
@@ -207,8 +207,8 @@
 },
 {
 "id": "iskocya",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Oxford Companion to Scottish History — 843 Kenneth mac Alpin / 1707-05-01 Birlik Yasası"
+"hukum": "KISMEN",
+"kaynak": "⑧ resmî neşir — legislation.gov.uk, Union with Scotland Act 1706, Article I: 'the two Kingdoms of England and Scotland shall upon the First day of May which shall be in the year One thousand seven hundred and seven … be united' (t 1707-05-01 GÜN teyitli) · EMRELİC JSTOR — Ferguson, SHR 43 (1964): 1707 · f 843 okunmadı"
 },
 {
 "id": "irlanda",
@@ -399,13 +399,13 @@
 },
 {
 "id": "goryeo",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Lee Ki-baik, A New History of Korea (Harvard UP) / Cambridge History of Korea I — f 0918-07-25 / t 1392-08-05 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC JSTOR — Vermeersch, JKS 18:1 (2013), s.~116: 'founder King T'aejo (r. 918-43)' (f yıl) · Duncan, Korean Studies 18 (1994): t 1392 (yıl); 07-25 ve 08-05 günleri teyitsiz"
 },
 {
 "id": "joseon",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Lee Ki-baik, A New History of Korea (Harvard UP) — f 1392-08-05 / t 1910-08-29 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC JSTOR — Deuchler, Journal of Korean Studies 2 (1980), s.71: 'Yi T'aejo … ascended the throne in 1392' (f yıl) · Caprio, JKS 16:1 (2011): 'August 1910 annexation of Korea' (t ay); günler (08-05, 08-29) teyitsiz"
 },
 {
 "id": "edo-bakufu",
@@ -937,7 +937,7 @@
 {
 "id": "nube",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge — CHA III, ch.1, s.78: kuzey Nubya krallığı 'beginning of the sixteenth century' (t 1504 yalnız yüzyıl başı düzeyinde; f 543 okunmadı)"
+"kaynak": "EMRELİC Cambridge — CHA III ch.1 s.78: kuzey Nubya krallığı 'beginning of the sixteenth century' · EMRELİC JSTOR — Spaulding, Transafrican Journal of History 4 (1974), s.26-40: Soba 'by the Funj, quite possibly in 1504' (t 1504 muğlak yıl, beyan; f 543 okunmadı)"
 },
 {
 "id": "charrua",
