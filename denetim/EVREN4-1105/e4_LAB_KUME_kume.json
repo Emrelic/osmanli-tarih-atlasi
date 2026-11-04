@@ -1465,7 +1465,7 @@
   "kaynak": "Martin Mutschlechner, The disintegration of the Habsburg Monarchy - Part II (ww1.habsburger.net, ÖNB/Wien Museum ortak tarih portalı) - https://ww1.habsburger.net/en/chapters/disintegration-habsburg-monarchy-part-ii-situation-vienna-and-budapest",
   "alinti": "The Republic of Hungary was proclaimed on 16 November",
   "oneri": {},
-  "not": "LAB PAZAR: kaynak kurum portalı (habsburger.net), akademik değil — ONERI (Austria-Forum emsali). | sayfa.py ham metin. Künye f=1918-11-16 ile küme f tutarlı. Cumhuriyet ilanı günü. DİKKAT: künye adı 'Naiplik' ama f cumhuriyet ilanı (Naiplik 1920-03-01'de başlar); ad/f uyumsuzluğu LAB'a. TDV Macaristan madde: halk cumhuriyeti ilanını gün vermeden anlatıyor (31 Ekim 1918 devrim); TDV'de 16 Kasım 1918 yok. Habsburger.net müze/kurum portalı, tarihçi yazarlı; hakemli makale değil - Emre uygun görmezse ONERI say. t ucu (Trianon 1920-06-04 olan 1 yerleşim) bu satırda doğrulanmadı. Hatvan/Debrecen/Szombathely vb. ülke düzeyi."
+  "not": "KARAR EMRELİC (gece-38): künye f → 1920-03-01 (Horthy naipliği). ÖLÇÜM (LAB PAZAR): ayrı künyeler VAR — macaristan-halk-cumhuriyeti (Károlyi) 1918-11-16 → 1919-03-21 (devletler.js:17210), macar-sovyet-cumhuriyeti 1919-03-21 → 1919-08-01 (17204); macaristan-naiplik f 1918-11-16 bunlarla ÇAKIŞIYOR. 1919-08-01 → 1920-03-01 (Romen işgali / Friedrich hükûmeti) künyesiz. LAB SALI'ya. | LAB PAZAR: kaynak kurum portalı (habsburger.net), akademik değil — ONERI (Austria-Forum emsali). | sayfa.py ham metin. Künye f=1918-11-16 ile küme f tutarlı. Cumhuriyet ilanı günü. DİKKAT: künye adı 'Naiplik' ama f cumhuriyet ilanı (Naiplik 1920-03-01'de başlar); ad/f uyumsuzluğu LAB'a. TDV Macaristan madde: halk cumhuriyeti ilanını gün vermeden anlatıyor (31 Ekim 1918 devrim); TDV'de 16 Kasım 1918 yok. Habsburger.net müze/kurum portalı, tarihçi yazarlı; hakemli makale değil - Emre uygun görmezse ONERI say. t ucu (Trianon 1920-06-04 olan 1 yerleşim) bu satırda doğrulanmadı. Hatvan/Debrecen/Szombathely vb. ülke düzeyi."
  },
  {
   "alan": "s",
@@ -1496,14 +1496,12 @@
   "d": "avusturya",
   "f": "1908-10-05",
   "satir": 5,
-  "hukum": "ONERI",
+  "hukum": "KAYNAKLI",
   "uc": "f",
   "kaynak": "TDV İslâm Ansiklopedisi, BOSNA-HERSEK - https://islamansiklopedisi.org.tr/bosna-hersek",
   "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
-  "oneri": {
-   "f": "1908-10-07"
-  },
-  "not": "TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
+  "oneri": {},
+  "not": "KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
  },
  {
   "alan": "s",
@@ -1527,9 +1525,11 @@
   "kaynak": "TDV İslâm Ansiklopedisi, ERİTRE - https://islamansiklopedisi.org.tr/eritre",
   "alinti": "İngilizler İtalyan ordusunu Keren’de yenerek Asmara ve Masavva‘ı ele geçirdiler (28 Mart 1941)",
   "oneri": {
-   "f": "1941-03-28"
+   "alan": "isg",
+   "d": "ingiltere",
+   "t": "1947-02-10"
   },
-  "not": "TDV ele geçirme günü 28 Mart 1941 (Asmara+Masavva); atlas 1941-04-01. Gün çelişkisi: ikinci bağımsız kaynak aranmadı, TDV esas. Alıntı fiilî ele geçirmeyi tarihliyor, idare kuruluşunu değil. TEK KURAL AYKIRILIĞI OLASI: İngiliz askerî idaresi egemenlik devri değil (TDV 'İngiliz askerî idaresi altında kalan'); ÖLÇÜT: geçici/askerî - alan s yerine isg olmalı (İtalyan egemenliği 1947 Paris Antlaşması'na dek sürer). Künye f=1941-04-01, TDV günüyle künye 4 gün uyumsuz. t ucu 1952-09-15 TDV'de var: 'Birleşmiş Milletler’in himayesinde İngiliz askerî idaresi altında kalan Eritre 15 Eylül 1952'. Arkîko/Kerene/Nakfa/Ğındâ/Zula ülke düzeyi."
+  "not": "KARAR EMRELİC (gece-38): Eritre isg ingiltere 1941-04-01 (Asmara'nın düşüşü; TDV 03-28 büyük ihtimalle Keren) → 1947-02-10; şehir şehir fiilî. | TDV ele geçirme günü 28 Mart 1941 (Asmara+Masavva); atlas 1941-04-01. Gün çelişkisi: ikinci bağımsız kaynak aranmadı, TDV esas. Alıntı fiilî ele geçirmeyi tarihliyor, idare kuruluşunu değil. TEK KURAL AYKIRILIĞI OLASI: İngiliz askerî idaresi egemenlik devri değil (TDV 'İngiliz askerî idaresi altında kalan'); ÖLÇÜT: geçici/askerî - alan s yerine isg olmalı (İtalyan egemenliği 1947 Paris Antlaşması'na dek sürer). Künye f=1941-04-01, TDV günüyle künye 4 gün uyumsuz. t ucu 1952-09-15 TDV'de var: 'Birleşmiş Milletler’in himayesinde İngiliz askerî idaresi altında kalan Eritre 15 Eylül 1952'. Arkîko/Kerene/Nakfa/Ğındâ/Zula ülke düzeyi."
  },
  {
   "alan": "s",
@@ -1555,7 +1555,7 @@
   "oneri": {
    "f": "1905-03-19"
   },
-  "not": "Eski başvuru eseri (Enc. Italiana 1929-37): tek başına KAYNAKLI sayılmaz, ONERI. Atlas 1905-01-01 yıl düzeyidir; kaynak devletin doğrudan yönetimi 19 Mart 1905 diyor (WebSearch özeti: Zanzibar'ın Benadir limanlarını devri Ocak 1905 / 13 Ocak, Banaadir koloni 16-19 Mart 1905; ipucu, okunmadı). KARIŞIK: kıyı (Merka/Afgoye) 1905; iç bölge (Garbahârey, Vanlaveyn, Ceel Barde) fiilî İtalyan idaresi sonra (1910'lar-1920'ler), yerleşime özgü tanık yok. TDV Somali madde 1905'te İtalya'yı anmıyor. Künye f 1861 - tutarlı. t=1936-06-01 (AOI): bu alıntıda yok."
+  "not": "KARAR EMRELİC (gece-38): 1905-03-19 yalnız Enciclopedia Italiana (ipucu) → ONERI. | Eski başvuru eseri (Enc. Italiana 1929-37): tek başına KAYNAKLI sayılmaz, ONERI. Atlas 1905-01-01 yıl düzeyidir; kaynak devletin doğrudan yönetimi 19 Mart 1905 diyor (WebSearch özeti: Zanzibar'ın Benadir limanlarını devri Ocak 1905 / 13 Ocak, Banaadir koloni 16-19 Mart 1905; ipucu, okunmadı). KARIŞIK: kıyı (Merka/Afgoye) 1905; iç bölge (Garbahârey, Vanlaveyn, Ceel Barde) fiilî İtalyan idaresi sonra (1910'lar-1920'ler), yerleşime özgü tanık yok. TDV Somali madde 1905'te İtalya'yı anmıyor. Künye f 1861 - tutarlı. t=1936-06-01 (AOI): bu alıntıda yok."
  },
  {
   "alan": "s",
@@ -1629,7 +1629,7 @@
   "oneri": {
    "alan": "isg"
   },
-  "not": "ÖLÇÜT: geçici/askerî - TDV 'geçici İngiliz idaresinin (1811-1816)' (Cakarta maddesi: 'beş yıllık geçici İngiliz idaresi'), 1816'da Hollanda'ya devredildi. TEK KURAL AYKIRILIĞI: işgal/geçici idare 'isg ingiltere' yazılır (Kâbil 1839-42, Rodos emsali); s ingiltere hukukî devir (yok) gerektirir. Raffles vergi/arazi sistemi (toprağı devlet arazisi ilanı) idareye katma işareti olabilir (tahrir ölçütü) - TDV susar/yorumsuz: Emre kararı. Gün 1811-08-18 teyitsiz (TDV yıl). t=1816-08-19: TDV yalnız 1816 yılını verir (Hollanda'ya devir). Blitar/Bojonegoro/Yogyakarta Orta-Doğu Cava, Batavia: İngiliz girişi farklı günlerde (Yogyakarta 1812 Haziran) - KARIŞIK."
+  "not": "KARAR EMRELİC (gece-38): Cava 1811–16 isg (önceki karar). | ÖLÇÜT: geçici/askerî - TDV 'geçici İngiliz idaresinin (1811-1816)' (Cakarta maddesi: 'beş yıllık geçici İngiliz idaresi'), 1816'da Hollanda'ya devredildi. TEK KURAL AYKIRILIĞI: işgal/geçici idare 'isg ingiltere' yazılır (Kâbil 1839-42, Rodos emsali); s ingiltere hukukî devir (yok) gerektirir. Raffles vergi/arazi sistemi (toprağı devlet arazisi ilanı) idareye katma işareti olabilir (tahrir ölçütü) - TDV susar/yorumsuz: Emre kararı. Gün 1811-08-18 teyitsiz (TDV yıl). t=1816-08-19: TDV yalnız 1816 yılını verir (Hollanda'ya devir). Blitar/Bojonegoro/Yogyakarta Orta-Doğu Cava, Batavia: İngiliz girişi farklı günlerde (Yogyakarta 1812 Haziran) - KARIŞIK."
  },
  {
   "alan": "s",
