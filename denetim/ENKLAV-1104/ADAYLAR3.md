@@ -1,0 +1,863 @@
+# ENKLAV-1104 — KARA-EKSKLAV üçüncü 100 (K201-K300, koşu 32)
+
+Ölçen: LAB SALI · 4 Kasım 2026 · ölçüm ENKLAV-1103 ile aynı (koşu 32, `olc_enklav_1103.py`); seçim `secim3.py`; yerleşim dönemleri `origin/main` 09c1aa176 üzerinde okundu (koşudan sonraki veri düzeltmeleri hükümde not edilir).
+
+Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven sözlüğü aynı (GERCEK · BIRLESMELI · YAPAY-a/b/c/d/k/m · KAYNAKLI/OLCUM/KAYNAK-GEREK).
+
+## Hüküm özeti
+
+Hükümlü: 50 / 100. Kova: GERCEK 18, YAPAY-a 8, YAPAY-b 1, YAPAY-c 18, YAPAY-k 3, YAPAY-m 2, — 50. Güven: KAYNAK-GEREK 18, KAYNAKLI 3, OLCUM 29, — 50.
+
+## Kara eksklavları
+
+### K201 · OSMANLI · 1884-02-08 → 1885-02-05 · 35.291 km²
+
+- En büyük kesit: 1885-01-26 · komşu: TABI 37%, mehdi 20%, ingiltere 8%
+- Koridor: 93.3 km · mehdi 9/9
+- İçindeki yerleşimler: Muhammed Kol (OSMANLI); Halâib (OSMANLI)
+- **Hüküm: YAPAY** (YAPAY-c · güven OLCUM)
+  - Gerekçe: Halâib ve Muhammed Kol 1884-02-08 → 1885-02-05 'OSMANLI' (d:), çevre TABI (Hidiv Mısırı) ve Mehdî. Kızıldeniz Sudan kıyısı Hidivlik idaresindeydi (Osmanlı'ya tâbi); doğrudan Osmanlı (d:) yazımı Mısır tâbiliğinden kopuk bir Osmanlı adası üretiyor. Sevâkin hattı ENKLAV-1104 K166 ile aynı bölge.
+  - Düzeltme önerisi: Halâib, Muhammed Kol 1884-1885 d: → v: (Mısır Hidivliği); kaynakla.
+  - Kaynak: veri ölçümü
+
+### K203 · nama-orlam · 1890-01-01 → 1904-10-03 · 34.814 km²
+
+- En büyük kesit: 1890-01-01 · komşu: alman-guneybati-afrikasi 47%, herero 36%, ingiltere 6%
+- Koridor: 81.9 km · alman-guneybati-afrikasi 8/9, DENIZ/BOS 1/9
+- İçindeki yerleşimler: Rehoboth (nama-orlam)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Rehoboth 1890-1904 'nama-orlam', çevre Alman Güneybatı Afrikası (koridor 82 km 8/9). Rehoboth 1870'ten Baster (Rehoboth Basters) topluluğunun merkezi; 1885'te Almanya ile himaye antlaşması yaptılar. Nama-Oorlam kimliği yanlış; Baster'lar Alman himayesindeydi.
+  - Düzeltme önerisi: Rehoboth 1870-1904 sahibi: Baster (yerel, Alman himayesinde v:) — kaynakla.
+  - Kaynak: veri ölçümü
+
+### K204 · kirim · 1778-01-01 → 1783-04-19 · 34.796 km²
+
+- En büyük kesit: 1778-01-01 · komşu: rusya 43%, OSMANLI 28%, lehistan 18%
+- Koridor: 10.8 km · rusya 9/9
+- İçindeki yerleşimler: Rîbnița (Rıbnitsa) (sahipsiz); Balta (kirim); Herson (rusya); Aşağı Dinyeper bozkırı (kirim); Yedisan bozkırı (kirim)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Kırım Hanlığı'nın Yedisan/Aşağı Dinyeper bozkırı payı (Balta) 1778 → 1783-04-19, Kırım yarımadasından Rusya'nın Kılburun-Herson-Kızıkermen şeridiyle ayrı (koridor 11 km rusya 9/9): Küçük Kaynarca (1774) Dinyeper ağzını Rusya'ya verdi. Bitiş Kırım ilhakı (1783-04-19). Not: içteki iki nokta bölge adı ('Yedisan bozkırı', 'Aşağı Dinyeper bozkırı').
+  - Düzeltme önerisi: Yok; bölge noktaları şehir tanığıyla değiştirilsin (Değişmez 3).
+  - Kaynak: veri ölçümü
+
+### K205 · agadez-sultanligi · 1759-01-01 → 1902-01-01 · 34.783 km²
+
+- En büyük kesit: 1759-01-01 · komşu: tuareg-air 51%, kanem-bornu 7%
+- Koridor: 379.2 km · tuareg-air 7/9, DENIZ/BOS 2/9
+- İçindeki yerleşimler: Agadez (agadez-sultanligi)
+- **Hüküm: YAPAY** (YAPAY-k · güven OLCUM)
+  - Gerekçe: Agadez 1759-1902 'agadez-sultanligi', çevre 'tuareg-air' (51%). Agadez Sultanlığı Aïr Tuareg konfederasyonunun siyasî çatısıydı; aynı yapı iki kimlikle boyanınca şehir kendi bölgesinden kopuk görünüyor.
+  - Düzeltme önerisi: agadez-sultanligi / tuareg-air tek ölçüt (çatı ya da birleşik kimlik).
+  - Kaynak: veri ölçümü
+
+### K206 · ingiliz-kamerun · 1922-07-20 → 1961-01-01 · 34.594 km²
+
+- En büyük kesit: 1922-07-20 · komşu: fransa-cumhuriyet 47%, ingiltere 36%
+- Koridor: 489.6 km · ingiltere 8/9, fransa-cumhuriyet 1/9
+- İçindeki yerleşimler: Dikva (Dikeo) (ingiliz-kamerun)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: İngiliz Kamerunu'nun kuzey kesimi (Dikwa) 1922-07-20 → 1961, güney kesiminden Nijerya ile ayrı (koridor 490 km): İngiliz Kamerun mandası iki kopuk parçadan oluşuyordu ve Nijerya'yla birlikte yönetildi. 1961 plebisitleriyle sona erdi.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: veri ölçümü
+
+### K207 · ingiltere · 1871-07-16 → 1878-01-01 · 34.400 km²
+
+- En büyük kesit: 1875-01-01 · komşu: griqua 41%, oranj 25%, tsvana 22%
+- Koridor: 30.4 km · griqua 9/9
+- İçindeki yerleşimler: Kimberley (ingiltere)
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
+  - Gerekçe: Kimberley 1871-07-16 → 1878 'ingiltere' (Griqualand West, Ekim 1871 ilhakı), çevre griqua (koridor 30 km 9/9). Griqualand West Griqua toprağının kendisiydi; Kap'a sınır komşusuydu. Griqua peteği ilhak edilen bölgeye taşıyor: Griqualand West sınır noktaları eksik.
+  - Düzeltme önerisi: Griqualand West yerleşimleri (Barkly West, Griquatown) ingiltere f → 1871-10-27 (kaynakla).
+  - Kaynak: veri ölçümü
+
+### K208 · fransa-cumhuriyet · 1830-01-01 → 1897-02-28 · 34.221 km²
+
+- En büyük kesit: 1897-01-27 · komşu: merina 80%, antemoro 22%, sakalava-menabe 10%
+- Koridor: 265.7 km · merina 8/9, DENIZ/BOS 1/9
+- İçindeki yerleşimler: Ambositra (fransa-cumhuriyet); Antananarivo (fransa-cumhuriyet)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Antananarivo ve Ambositra Fransız (en büyük kesit 1897-01-27), çevre 'merina' (80%) 1897-02-28'e dek (monarşinin kaldırılışı). Merina krallığı 1895'ten Fransız himayesindeydi, 1896 ilhak; himayedeki tâbi kraliyetin yabancı sayılması kopukluk üretiyor (K171/K078 ailesi).
+  - Düzeltme önerisi: Merina 1895-10-01 → 1897-02-28 v: (Fransız himayesi) — motor sorusu ile birlikte.
+  - Kaynak: veri ölçümü
+
+### K209 · karakoyunlu · 1409-01-01 → 1411-01-01 · 33.989 km²
+
+- En büyük kesit: 1410-01-01 · komşu: celayirli 31%, memluk 24%, cizre-botan 14%
+- Koridor: 73.8 km · eyyubi-hisnikeyfa 9/9
+- İçindeki yerleşimler: Haseke (Hasakah) (sahipsiz); Nagar (sahipsiz); Subat-Enlil (sahipsiz); Ḩīmū (karakoyunlu); Nusaybin (karakoyunlu); Qaţţīnah (karakoyunlu); Ceylanpınar (karakoyunlu); Babū (karakoyunlu) … +4
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Mardin-Nusaybin-Derik Karakoyunlu payı 1409-1411, Karakoyunlu gövdesinden Hısnkeyfa Eyyûbî toprağıyla (Siirt) ayrı (koridor 74 km 9/9). TDV Mardin: Kara Yûsuf 1409'da Karayülük'ü bozup Mardin'e geldi, kendi beyini tayin etti.
+  - Düzeltme önerisi: Yok; Haseke, Nagar, Subat-Enlil sahipsiz (antik).
+  - Kaynak: TDV İslâm Ansiklopedisi, "Mardin" (Mehmet Taştemir vd.), https://islamansiklopedisi.org.tr/mardin — "Kara Yûsuf Bey, Karayülük Osman’ı bozguna uğratıp Mardin’e geldi (1409)"
+
+### K210 · ayutthaya · 1373-01-01 → 1438-01-01 · 33.730 km²
+
+- En büyük kesit: 1373-01-01 · komşu: sukhothai 82%
+- Koridor: 65.7 km · sukhothai 9/9
+- İçindeki yerleşimler: Khok Phanom Di (sahipsiz); Bangkok (Tonburi) (sahipsiz); Nakhon Pathom (Phra Pathom) (ayutthaya); Ayutthaya (ayutthaya); Lopburi (ayutthaya); Tayland (sahipsiz)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: Ayutthaya-Lopburi-Nakhon Pathom 1373 kesiti, çevre Sukhothai (82%); içteki 6 noktanın 3'ü sahipsiz, biri ülke adı ('Tayland'), biri tarihöncesi (Khok Phanom Di). Ayutthaya'nın kendi çekirdeği ile 'öteki gövdesi' arasındaki Sukhothai şeridi noktasız emilmeden.
+  - Düzeltme önerisi: 'Tayland' ülke noktası kaldırılsın; Bangkok/Thonburi dönemi; Suphanburi gibi tanık noktalar.
+  - Kaynak: veri ölçümü
+
+### K211 · OSMANLI · 1674-08-03 → 1699-01-26 · 33.288 km²
+
+- En büyük kesit: 1690-09-01 · komşu: TABI 52%, lehistan 44%, zaporojye 13%
+- Koridor: 85.6 km · TABI 9/9
+- İçindeki yerleşimler: Yelisavetgrad (Aziz Yelizaveta Kalesi) (sahipsiz); Çehrin (Çigirin) (OSMANLI); Uman (OSMANLI)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Sağ yaka Ukrayna (Çehrin, Uman) 1674-1699 OSMANLI, çevre TABI (Doroşenko / Yuri Hmelnitski Kazak hetmanlığı, Osmanlı tâbisi) — koridor TABI 9/9. Tâbinin komşu sayılması kopukluk üretiyor (motor sorusu, K078 ailesi). Kamaniçe ile bağ Bucak üzerinden.
+  - Düzeltme önerisi: Motor sorusu: tâbi aracılı bitişiklik.
+  - Kaynak: veri ölçümü
+
+### K212 · akkoyunlu · 1436-01-01 → 1465-01-01 · 33.156 km²
+
+- En büyük kesit: 1436-01-01 · komşu: karakoyunlu 30%, trabzon-rum 17%, dulkadir 16%
+- Koridor: 28.2 km · karakoyunlu 9/9
+- İçindeki yerleşimler: Çemişgezek (akkoyunlu); Tunceli (Kalan) (sahipsiz); Hozat (sahipsiz); Kiğı (akkoyunlu); Kemah (akkoyunlu); Erzincan (akkoyunlu); Refahiye (akkoyunlu); Kelkit (akkoyunlu) … +2
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Akkoyunlu Erzincan-Kemah-Bayburt-Şebinkarahisar payı 1436-1465, Diyarbakır gövdesinden Karakoyunlu Çapakçur (Bingöl) ile ayrı (koridor 28 km 9/9). Kara Yülük oğullarının Erzincan kolu bilinir; Bingöl'ün Karakoyunlu olup olmadığı kaynakla.
+  - Düzeltme önerisi: Çapakçur 1436-1465 sahibi kaynakla (TDV Akkoyunlular).
+  - Kaynak: veri ölçümü
+
+### K213 · tekrur · 1861-01-01 → 1861-03-10 · 33.035 km²
+
+- En büyük kesit: 1861-01-01 · komşu: bambara 41%, massina 18%, mossi-vagadugu 11%
+- Koridor: 492.3 km · bambara 9/9
+- İçindeki yerleşimler: Cenne (Djenné) (tekrur)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Cenne (Djenné) 1861-01-01 → 03-10 'tekrur' (Hacı Ömer), çevre Bambara (Segu). Hacı Ömer Segu'yu 10 Mart 1861'de aldı; Cenne Masina'nındı ve Ömer'e 1862'de geçti. Cenne'nin 1861 başında Tekrur yazılması yanlış ve yıl hassasiyetli.
+  - Düzeltme önerisi: Cenne tekrur f → 1862 (Masina'nın düşüşü, kaynakla); önce massina.
+  - Kaynak: veri ölçümü
+
+### K214 · sovyet-rusya · 1917-11-07 → 2000-12-31 · 33.011 km²
+
+- En büyük kesit: 1923-10-29 · komşu: cin-cumhuriyeti 13%, cin-halk-cumhuriyeti 13%
+- Koridor: 574.9 km · cin-halk-cumhuriyeti 5/9, DENIZ/BOS 4/9
+- İçindeki yerleşimler: Vladivostok (sovyet-rusya)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: Vladivostok 1917 → 2000 'sovyet-rusya' (sonra Rusya Fed.), Sovyet gövdesinden 575 km Çin + deniz koridoruyla ayrı. Primorye Habarovsk-Ussuriysk hattıyla Rus gövdesine bitişikti (Amur-Ussuri sınırı 1860 Pekin); kopukluk Primorye/Amur noktalarının eksikliğinden. Ayrıca 1920-1922 Uzak Doğu Cumhuriyeti dönemi yok (ENKLAV-1103 E021).
+  - Düzeltme önerisi: Habarovsk, Ussuriysk, Nahodka noktaları; Vladivostok 1920-1922 uzak-dogu-cumhuriyeti.
+  - Kaynak: veri ölçümü
+
+### K215 · rusya-gecici-hukumet · 1917-03-15 → 1917-11-07 · 33.000 km²
+
+- En büyük kesit: 1917-03-15 · komşu: cin-cumhuriyeti 13%
+- Koridor: 574.9 km · cin-cumhuriyeti 5/9, DENIZ/BOS 4/9
+- İçindeki yerleşimler: Vladivostok (rusya-gecici-hukumet)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: K214 ile aynı (Vladivostok, Rus Geçici Hükümeti 1917).
+  - Düzeltme önerisi: K214 ile aynı.
+  - Kaynak: veri ölçümü
+
+### K217 · dashun · 1644-04-25 → 1644-06-06 · 32.704 km²
+
+- En büyük kesit: 1644-04-25 · komşu: ming-hanedani 69%
+- Koridor: 192.4 km · ming-hanedani 9/9
+- İçindeki yerleşimler: Pekin (Hanbalık) (dashun)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Pekin 1644-04-25 → 06-06 'dashun' (Li Zicheng): şehrin alınışı ve Qing girişi günleri bilinenle uyumlu. Ama Shun Pekin'e Şansi üzerinden (Taiyuan, Datong) ilerledi; arada 'ming' boyası (koridor 192 km 9/9) Şansi/Hebei noktalarının 1644 Shun dönemlerinin eksikliğinden.
+  - Düzeltme önerisi: Şansi-Hebei şehirleri (Taiyuan, Datong, Baoding) 1644 dashun dönemleri kaynakla.
+  - Kaynak: veri ölçümü
+
+### K218 · samani · 0992-05-07 → 0992-08-18 · 32.618 km²
+
+- En büyük kesit: 0992-05-07 · komşu: karahanli 31%
+- Koridor: 213.4 km · karahanli 9/9
+- İçindeki yerleşimler: Semerkant (samani); Cizzah (samani)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Semerkant-Cizzah Sâmânî payı 992-05-07 → 08-18, Buhara'nın Karahanlı Buğra Han'a geçmesiyle Horasan gövdesinden ayrı (koridor 213 km karahanli 9/9). TDV Sâmânîler: Buğra Han Buhara'yı Mayıs 992'de aldı, II. Nûh 18 Ağustos 992'de geri aldı — bitiş günü birebir.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: TDV İslâm Ansiklopedisi, "Sâmânîler" (Aydın Usta), https://islamansiklopedisi.org.tr/samaniler — "Buhara’yı ele geçirdi (Rebîülevvel 382 / Mayıs 992) ... tekrar Buhara’ya hâkim oldu (15 Cemâziyelâhir 382 / 18 Ağustos 992)"
+
+### K219 · habesistan · 1281-01-01 → 1894-01-01 · 32.578 km²
+
+- En büyük kesit: 1889-01-01 · komşu: kaffa 16%, vollayta 15%, cimma 7%
+- Koridor: 11.3 km · cimma 9/9
+- İçindeki yerleşimler: Arba Minç (habesistan); Cinka (habesistan)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Arba Minç ve Çenca (Gamo dağları) 1281 → 1894 'habesistan', çevre Kaffa, Wolaita, Cimma. Güney Etiyopya Gamo bölgesi Menelik II'nin 1890'lar fetihlerine dek bağımsız Gamo beyliklerindeydi; 'habesistan' 1281'den yanlış (Arba Minç 1960'larda kuruldu).
+  - Düzeltme önerisi: Arba Minç kur (modern) kaynakla; Çenca 1894 öncesi Gamo (yerel); habesistan f → Menelik fethi.
+  - Kaynak: veri ölçümü
+
+### K221 · hollanda · 1839-04-19 → 1878-03-12 · 32.138 km²
+
+- En büyük kesit: 1872-01-01 · komşu: herero 26%, nama-orlam 6%
+- Koridor: 227.1 km · herero 6/9, nama-orlam 3/9
+- İçindeki yerleşimler: Valvis Körfezi (hollanda)
+- **Hüküm: YAPAY** (YAPAY-c · güven OLCUM)
+  - Gerekçe: Walvis Bay 1839-04-19 → 1878-03-12 'hollanda': Walvis Bay'de Hollanda egemenliği yoktu; 1839-04-19 Londra Antlaşması (Belçika) günü — anlamsız dönem devri. 1878 öncesi yerel Topnaar/Nama ve misyon/ticaret karakolu.
+  - Düzeltme önerisi: Walvis Bay 1839-1878 'hollanda' kaldırılsın; yerel sahip (nama-orlam/topnaar) kaynakla.
+  - Kaynak: veri ölçümü
+
+### K222 · burgonya · 1430-08-04 → 1477-01-05 · 32.104 km²
+
+- En büyük kesit: 1435-01-01 · komşu: fransa 74%, almanya 39%, ingiltere 8%
+- Koridor: 132.0 km · fransa 9/9
+- İçindeki yerleşimler: Dole (sahipsiz); Dijon (burgonya); Auxerre (burgonya)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Burgonya dükalığı (Dijon, Auxerre) 1430 → 1477-01-05, Burgonya Hollandası'ndan Fransa/Lorraine ile ayrı (koridor 132 km fransa 9/9): Valois Burgonya devletinin bilinen iki bloğu. Bitiş Nancy (5 Ocak 1477). Dole (Franche-Comté) sahipsiz.
+  - Düzeltme önerisi: Yok; Dole dönemi.
+  - Kaynak: veri ölçümü
+
+### K223 · safevi · 1723-08-06 → 1735-03-21 · 32.073 km²
+
+- En büyük kesit: 1733-08-17 · komşu: rusya 55%, TABI 49%, OSMANLI 25%
+- Koridor: 33.9 km · rusya 9/9
+- İçindeki yerleşimler: Şamahı (safevi); Ereş (safevi); Kabala (safevi); Şeki (Nuha) (safevi); Kuba (safevi)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Şemâhî-Şeki-Kuba Safevî payı, en büyük kesit 1733-08-17: TDV Şirvan — Nâdir 17 Ağustos 1733'te Şemâhî'ye girdi; Bakü-Salyan kıyısı Rus (1735 Gence'ye dek), Gence-Tiflis Osmanlı: 1733-1735 Safevî Şirvan'ı gerçekten kopuk. Ama 1724-06-24 İstanbul Muahedesi Şemâhî ve Şirvan merkezini Osmanlı'ya verdi; aday aralığının 1723-1733 kısmı 'safevi' için yanlış (bkz. K275 OSMANLI 1724-1725).
+  - Düzeltme önerisi: Şemâhî, Şeki, Kabala, Ereş 1724-06-24 → 1733-08-17 OSMANLI (v:? Hacı Dâvud / Surhay tâbiliği, kaynakla); 1733-08-17 → safevi.
+  - Kaynak: TDV İslâm Ansiklopedisi, "Şirvan" (Mustafa Aydın), https://islamansiklopedisi.org.tr/sirvan — "(24 Haziran 1724) Osmanlı Devleti ... Şirvan’ın merkezî kesimiyle birlikte Şemâhî’yi de aldı"; "Nâdir Şah 17 Ağustos 1733’te Şemâhî’ye girdi"
+
+### K224 · guney-afrika-birligi · 1910-05-31 → 1961-05-31 · 32.055 km²
+
+- En büyük kesit: 1923-10-29 · komşu: alman-guneybati-afrikasi 32%, ingiltere 32%
+- Koridor: 507.2 km · ingiltere 6/9, DENIZ/BOS 3/9
+- İçindeki yerleşimler: Valvis Körfezi (guney-afrika-birligi)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Walvis Bay 1910-1961 Güney Afrika Birliği toprağı, Güneybatı Afrika (Alman, 1915'ten Güney Afrika mandası) kıyısında: bilinen enklav/eksklav.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: veri ölçümü
+
+### K225 · guney-afrika-cumhuriyeti · 1961-05-31 → 1994-03-01 · 32.055 km²
+
+- En büyük kesit: 1961-05-31 · komşu: ingiltere 32%
+- Koridor: 507.2 km · ingiltere 6/9, DENIZ/BOS 3/9
+- İçindeki yerleşimler: Valvis Körfezi (guney-afrika-cumhuriyeti)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Walvis Bay 1961 → 1994-03-01 Güney Afrika Cumhuriyeti eksklavı; 1 Mart 1994'te Namibya'ya devredildi (bitiş uyumlu).
+  - Düzeltme önerisi: Yok.
+  - Kaynak: veri ölçümü
+
+### K226 · somali · 1905-01-01 → 1941-02-25 · 32.034 km²
+
+- En büyük kesit: 1905-01-01 · komşu: habesistan 36%, italya 34%, ingiltere 30%
+- Koridor: 485.4 km · italya 9/9
+- İçindeki yerleşimler: Ceel Vaak (somali)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: Tek nokta Ceel Waaq 1905-1941 'somali' (göçebe Somali boyları kimliği), çevre İtalya, İngiltere, Habeşistan. Kenya-Somali sınırındaki tek noktanın peteği 32.034 km²'lik bir 'devlet' eksklavı üretiyor; bölge İngiliz Kuzey Sınır Bölgesi/İtalyan Jubaland idaresindeydi.
+  - Düzeltme önerisi: Ceel Waaq 1905-1941 sahibi (ingiltere NFD / italya Jubaland) kaynakla.
+  - Kaynak: veri ölçümü
+
+### K227 · portekiz · 1505-01-01 → 1698-12-13 · 31.487 km²
+
+- En büyük kesit: 1627-01-01 · komşu: svahili-sehirleri 34%, nyamvezi 7%
+- Koridor: 203.9 km · svahili-sehirleri 9/9
+- İçindeki yerleşimler: Kilwa Kisiwani (Kilve) (portekiz); Kilva Kivince (sahipsiz)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Kilwa Kisiwani 1505 → 1698-12-13 'portekiz'. Portekiz Kilwa kalesi 1505-1512 arasıydı, sonra terk edildi; 1698 (Fort Jesus'un düşüşü) Mombasa içindir, Kilwa için değil. 193 yıllık kesintisiz dönem yanlış.
+  - Düzeltme önerisi: Kilwa portekiz t → 1512 (kaynakla), sonrası kilva-sultanligi (Portekiz'e haraç ödeyen v:).
+  - Kaynak: veri ölçümü
+
+### K228 · ingiltere · 1861-08-06 → 1897-02-16 · 31.232 km²
+
+- En büyük kesit: 1893-08-15 · komşu: ibadan 34%, fransa-cumhuriyet 28%, sokoto 9%
+- Koridor: 152.9 km · sokoto 5/9, DENIZ/BOS 4/9
+- İçindeki yerleşimler: İbadan (ingiltere)
+- **Hüküm: YAPAY** (YAPAY-b · güven KAYNAK-GEREK)
+  - Gerekçe: İbadan İngiliz (Ağustos 1893 antlaşması; en büyük kesit 1893-08-15), Lagos gövdesinden Yoruba toprağıyla ayrı. İjebu 1892'de İngiliz fethine uğradı, Abeokuta (Egba) 1914'e dek ayrı ama antlaşmalıydı; ara bölgenin İngiliz himaye dönemleri eksikse kopukluk yapay. Aday aralığı 1861'den (Lagos ilhakı) başlıyor ama İbadan parçası 1893 sonrası.
+  - Düzeltme önerisi: İjebu-Ode 1892 ingiltere f, Oyo/Ogbomoso 1893 himaye dönemleri kaynakla.
+  - Kaynak: veri ölçümü
+
+### K229 · almanya · 1350-01-01 → 1803-02-25 · 30.980 km²
+
+- En büyük kesit: 1353-03-06 · komşu: avusturya 31%, tirol-kontlugu 11%, visconti 9%
+- Koridor: 16.7 km · avusturya 9/9
+- İçindeki yerleşimler: Umag (B bölgesi) (sahipsiz); Koper (Capodistria, B bölgesi) (sahipsiz); Trieste (almanya); Aquileia (sahipsiz); Trento (almanya); Gradisca d'Isonzo (sahipsiz); Görz (Gorizia) (almanya); Udine (almanya) … +6
+- **Hüküm: YAPAY** (YAPAY-k · güven OLCUM)
+  - Gerekçe: 1350-1803 'almanya' (Kutsal Roma çatı kimliği) Görz-Trieste-Trento-Udine payı, 'avusturya', 'tirol-kontlugu', 'salzburg' ayrı kimlikleriyle gövdeden ayrı: ENKLAV-1104 K147 ile aynı çatı kimlik artefaktı. Ek: Udine 1420'den Venedik'indi (Aquileia patrikliğinin düşüşü).
+  - Düzeltme önerisi: K147 ile aynı; Udine 1420 → venedik kaynakla.
+  - Kaynak: veri ölçümü
+
+### K230 · ilhanli · 1340-01-01 → 1353-01-01 · 30.731 km²
+
+- En büyük kesit: 1348-01-01 · komşu: celayirli 41%, lur-i-buzurg 28%, incu 20%
+- Koridor: 348.0 km · celayirli 7/9, DENIZ/BOS 2/9
+- İçindeki yerleşimler: Luristan (ilhanli); Burûcird (ilhanli); Nihâvend (ilhanli)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Luristan, Burûcird, Nihâvend 1340-1353 'ilhanli'. İlhanlı devleti 1335'te dağıldı; 1340 sonrası kukla hanlar Çobanoğulları/Celâyirlilerin elindeydi. Luristan Lur-i Küçek atabeylerinindi (komşu lur-i-buzurg 28%). 13 yıllık İlhanlı eksklavı kimlik uzatmasından.
+  - Düzeltme önerisi: Luristan/Burûcird 1340-1353 sahibi (lur-i-kucek atabeyliği) kaynakla (Iranica 'Lur-e Kučak').
+  - Kaynak: veri ölçümü
+
+### K231 · merini · 1237-01-01 → 1245-01-01 · 30.669 km²
+
+- En büyük kesit: 1237-01-01 · komşu: muvahhidler 51%
+- Koridor: 48.0 km · muvahhidler 9/9
+- İçindeki yerleşimler: Hunayfire (Khenifra) (sahipsiz); Miknâs (Meknes) (merini); Velîlâ (Oualili) (sahipsiz)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Miknâs 1237-1245 'merini', çevre Muvahhid. Merînîler Miknâs'ı 1244-45'te geçici aldı, Fas'ı 1248'de; 1237 başlangıcı erken. Hunayfire, Velîlâ sahipsiz.
+  - Düzeltme önerisi: Miknâs merini f → 1244/45 (kaynakla, TDV Merînîler).
+  - Kaynak: veri ölçümü
+
+### K232 · merini · 1247-01-01 → 1250-04-05 · 30.669 km²
+
+- En büyük kesit: 1247-01-01 · komşu: muvahhidler 51%
+- Koridor: 48.0 km · muvahhidler 9/9
+- İçindeki yerleşimler: Hunayfire (Khenifra) (sahipsiz); Miknâs (Meknes) (merini); Velîlâ (Oualili) (sahipsiz)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: K231 ile aynı (Miknâs) 1247-1250 kesiti: Fas 1248'de Merînî'ye geçti; Miknâs'ın Fas'tan önce kopuk Merînî kalması dönem uçlarından.
+  - Düzeltme önerisi: K231 ile aynı; Fas merini f 1248 kontrol.
+  - Kaynak: veri ölçümü
+
+### K233 · abd · 1818-01-01 → 1842-01-01 · 30.390 km²
+
+- En büyük kesit: 1833-01-01 · komşu: ingiliz-kuzey-amerika 51%, lakota 30%
+- Koridor: 108.3 km · ingiliz-kuzey-amerika 8/9, DENIZ/BOS 1/9
+- İçindeki yerleşimler: Pembina (abd)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Pembina 1818-1842 'abd' (1818 Konvansiyonu ile 49. paralelin güneyi), çevre İngiliz HBC (Kızıl Irmak) ve Lakota: K111/K008 ile aynı model (hukukî ABD karakolu, yerli toprağında).
+  - Düzeltme önerisi: Yok; model beyanı.
+  - Kaynak: veri ölçümü; model K008
+
+### K234 · jukun-kvararafa · 1281-01-01 → 1900-01-01 · 30.371 km²
+
+- En büyük kesit: 1350-01-01 · komşu: benin-kralligi 27%, tiv 16%, nri 10%
+- Koridor: 182.3 km · tiv 9/9
+- İçindeki yerleşimler: Lokoca (Lokoja) (jukun-kvararafa)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Tek nokta Lokoja 1281 → 1900 'jukun-kvararafa' (kayıtta kur yok). Lokoja 1857-60'ta İngiliz konsolosluğu/misyonu olarak kuruldu; Nijer-Benue kavşağı Igala toprağıydı. 1281-1857 o devirde yok (merdiven ④).
+  - Düzeltme önerisi: Lokoja kur yılı (kaynakla), önceki dönemler kırp; Igala tanık noktası.
+  - Kaynak: veri ölçümü
+
+### K235 · ispanya · 1519-03-25 → 1535-04-17 · 30.287 km²
+
+- En büyük kesit: 1527-01-01 · komşu: maya-sehir-devletleri 25%, zapotek-krallik 19%, yeni-ispanya-ilk-donem 19%
+- Koridor: 89.2 km · yeni-ispanya-ilk-donem 8/9, DENIZ/BOS 1/9
+- İçindeki yerleşimler: La Venta (sahipsiz); Potonchán (Santa María de la Victoria) (ispanya)
+- **Hüküm: YAPAY** (YAPAY-k · güven OLCUM)
+  - Gerekçe: Potonchán (Santa María de la Victoria) 1519-03-25 (Centla) → 1535 'ispanya', çevre 'yeni-ispanya-ilk-donem' (koridor 89 km 8/9). Aynı İspanyol fethinin iki kimlikle (ispanya / yeni-ispanya-ilk-donem) boyanması kopukluk üretiyor.
+  - Düzeltme önerisi: Tabasco noktaları yeni-ispanya-ilk-donem (tek ölçüt).
+  - Kaynak: veri ölçümü
+
+### K236 · almanya · 1945-03-30 → 1945-08-02 · 30.279 km²
+
+- En büyük kesit: 1945-03-30 · komşu: polonya 41%, sovyet-rusya 16%
+- Koridor: 228.1 km · polonya 9/9
+- İçindeki yerleşimler: Marienburg (Malbork) (sahipsiz); Elbing (Elbląg) (almanya); Königsberg (almanya)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Doğu Prusya cebi (Königsberg, Elbing) 1945-03-30 → 1945-08-02: Sovyet kuşatmasındaki Alman cebi gerçek (Königsberg 9 Nisan 1945'te düştü, Pillau 25 Nisan). Nisan-Ağustos kısmı (Potsdam'a dek) hukukî uzatma: fiilî Alman idaresi yok — o kesit YAPAY-c niteliğinde.
+  - Düzeltme önerisi: Königsberg almanya t → 1945-04-09, Elbing → 1945-02-10 (kaynakla).
+  - Kaynak: veri ölçümü
+
+### K237 · cin-cumhuriyeti · 1911-10-22 → 1912-02-12 · 30.195 km²
+
+- En büyük kesit: 1911-10-22 · komşu: fransiz-cinhindi 47%, qing-hanedani 35%
+- Koridor: 468.9 km · qing-hanedani 7/9, DENIZ/BOS 2/9
+- İçindeki yerleşimler: —
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: 1911-10-22 → 1912-02-12 'cin-cumhuriyeti' Guangxi güneyi parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta); alan noktasız emilmeden.
+  - Düzeltme önerisi: Parçayı üreten emilme bölgesi ölçülsün; Guangxi 1911 ayaklanma şehirleri (Nanning, Guilin) dönemleri.
+  - Kaynak: veri ölçümü (iç nokta 0)
+
+### K238 · delhi-sultanligi · 1281-01-01 → 1305-01-01 · 29.888 km²
+
+- En büyük kesit: 1281-01-01 · komşu: yadava 60%, racput 34%
+- Koridor: 57.6 km · racput 9/9
+- İçindeki yerleşimler: Burhânpûr (sahipsiz); Asîrgarh (delhi-sultanligi)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Asîrgarh 1281 → 1305 'delhi-sultanligi', çevre Yâdava (60%) ve Racput. Hândeş/Asîrgarh 1296 Devagiri akınına dek Yâdava toprağı; 1281'den Delhi yazımı yanlış. Burhânpûr sahipsiz (1399 kuruluş — doğru).
+  - Düzeltme önerisi: Asîrgarh 1281-1305 sahibi (yadava / yerel Ahir) kaynakla.
+  - Kaynak: veri ölçümü
+
+### K239 · cin-cumhuriyeti · 1911-10-10 → 1912-02-12 · 29.803 km²
+
+- En büyük kesit: 1911-10-22 · komşu: qing-hanedani 77%
+- Koridor: 201.5 km · qing-hanedani 9/9
+- İçindeki yerleşimler: Huangzhou (Zhu) (sahipsiz); Wuchang (Wuhan) (cin-cumhuriyeti)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Wuchang 1911-10-10 (Wuchang ayaklanması) → 1912-02-12 (tahttan feragat) cumhuriyetçi Hubei, öteki devrimci eyaletlerden Qing toprağıyla ayrı (koridor 202 km 9/9). İlk haftalarda gerçek; Hunan (22 Ekim) ve Jiangxi katılımıyla bağlantı kurulmuş olmalı — sonraki kesitler sınanmalı.
+  - Düzeltme önerisi: Hunan (Changsha 1911-10-22), Jiangxi şehirleri cin-cumhuriyeti f kontrol.
+  - Kaynak: veri ölçümü
+
+### K241 · hollanda-dogu-hint · 1808-01-01 → 1811-08-18 · 29.733 km²
+
+- En büyük kesit: 1808-01-01 · komşu: palembang-sultanligi 25%
+- Koridor: 81.0 km · banten-sultanligi 6/9, DENIZ/BOS 3/9
+- İçindeki yerleşimler: Lampung (hollanda-dogu-hint)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Lampung 1808 → 1811-08-18 'hollanda-dogu-hint', çevre Banten (koridor 81 km 6/9) ve Palembang. Lampung Banten sultanlığının Sumatra payıydı; Daendels Banten'i 1808'de baskı altına aldı ama Lampung'un doğrudan Hollanda idaresi 1856'da tamamlandı. Düşük güven.
+  - Düzeltme önerisi: Lampung 1808-1811 sahibi (banten-sultanligi) kaynakla.
+  - Kaynak: veri ölçümü
+
+### K242 · ingiltere · 1673-01-01 → 1763-02-10 · 29.551 km²
+
+- En büyük kesit: 1707-05-01 · komşu: kri 21%, fransa 20%
+- Koridor: 127.3 km · kri 7/9, DENIZ/BOS 2/9
+- İçindeki yerleşimler: —
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: 1673 → 1763 'ingiltere' James Körfezi iç bölgesi parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta); Waswanipi sahipsiz. HBC karakol peteklerinin artığı.
+  - Düzeltme önerisi: Parçayı üreten emilme bölgesi ölçülsün.
+  - Kaynak: veri ölçümü (iç nokta 0)
+
+### K243 · afganistan · 1842-01-06 → 1842-09-06 · 29.372 km²
+
+- En büyük kesit: 1842-01-06 · komşu: ingiltere 26%, sih-imparatorlugu 8%
+- Koridor: 239.0 km · ingiltere 9/9
+- İçindeki yerleşimler: Kâbil (afganistan); Bagram (sahipsiz)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Kâbil 1842-01-06 (İngiliz çekilişi) → 09-06 'afganistan', koridorda Gazne 'ingiltere'. Gazne'deki İngiliz garnizonu Mart 1842'de Afganlara teslim oldu; Gazne'nin 1842 boyunca İngiliz kalması Kâbil'i Afgan gövdesinden koparıyor.
+  - Düzeltme önerisi: Gazne ingiltere t → 1842-03 (teslim, kaynakla).
+  - Kaynak: veri ölçümü
+
+### K244 · afganistan · 1839-07-23 → 1839-08-07 · 29.371 km²
+
+- En büyük kesit: 1839-07-23 · komşu: ingiltere 26%, sih-imparatorlugu 8%
+- Koridor: 239.0 km · ingiltere 9/9
+- İçindeki yerleşimler: Kâbil (afganistan); Bagram (sahipsiz)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Kâbil 1839-07-23 (Gazne'nin düşüşü) → 08-07 (İngilizlerin Kâbil'e girişi) Dost Muhammed'in Kâbil'i, Kandahar (Nisan 1839 İngiliz) ve Gazne İngiliz elindeyken öteki Afgan toprağından ayrı: 15 günlük gerçek savaş anı; günler bilinenle uyumlu.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: veri ölçümü
+
+### K246 · ispanya-milliyetci · 1936-07-19 → 1937-08-26 · 29.340 km²
+
+- En büyük kesit: 1936-07-20 · komşu: ispanya 61%, portekiz 5%
+- Koridor: 30.3 km · ispanya 9/9
+- İçindeki yerleşimler: Cangas (sahipsiz); Oviedo (ispanya-milliyetci); Santiago de Compostela (ispanya-milliyetci); A Coruña (ispanya-milliyetci)
+- **Hüküm: YAPAY** (YAPAY-c · güven OLCUM)
+  - Gerekçe: Galiçya-Oviedo milliyetçi payı 1936-07-19 → 1937-08-26 (Santander'in düşüşü), çevre 'ispanya' (Cumhuriyet, koridor 30 km 9/9). Galiçya Temmuz 1936'dan milliyetçi León/Eski Kastilya ile bitişikti; yalnız Oviedo bir kuşatma cebiydi (Ekim 1936'da açıldı). Kopukluk León/Bierzo noktalarının Cumhuriyet boyasından.
+  - Düzeltme önerisi: León, Ponferrada, Astorga 1936-07-19 ispanya-milliyetci (kaynakla); Oviedo cebi 1936-07-19 → 1936-10-17 ayrıca.
+  - Kaynak: veri ölçümü
+
+### K248 · konfedere-devletler · 1861-05-08 → 1865-05-04 · 29.176 km²
+
+- En büyük kesit: 1861-05-08 · komşu: abd 71%
+- Koridor: 781.7 km · abd 9/9
+- İçindeki yerleşimler: Richmond (Virjinya) (konfedere-devletler)
+- **Hüküm: YAPAY** (YAPAY-c · güven OLCUM)
+  - Gerekçe: Richmond 1861-05-08 → 1865 'konfedere-devletler', koridorda Etowah (Georgia) ve Morganton (Kuzey Karolina) 'abd' (koridor 782 km abd 9/9). Georgia ve Kuzey Karolina 1861-1865 Konfedere eyaletiydi; güney noktalarına Konfedere dönemi yazılmamış — Virginia tek başına eksklav görünüyor.
+  - Düzeltme önerisi: Konfedere eyaletlerin (GA, NC, SC, AL, MS, LA, TX, AR, TN, FL) noktalarına 1861-1865 konfedere-devletler dönemleri (ayrılış günleriyle, kaynakla).
+  - Kaynak: veri ölçümü (detay.py koridor yerleşimleri)
+
+### K250 · bizans · 1334-01-01 → 1361-05-05 · 28.766 km²
+
+- En büyük kesit: 1336-01-01 · komşu: sirbistan-nemanjic 16%, sirbistan 13%, napoli 10%
+- Koridor: 58.9 km · sirbistan-nemanjic 9/9
+- İçindeki yerleşimler: Preveze (bizans); Parga (bizans); Stratos (sahipsiz); Vonitsa (bizans); Arta (bizans); Yanya (bizans); Souli (Sûli) (bizans); Aydonat (Paramythia) (bizans) … +15
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Epir (Yanya, Arta, Preveze) 1334 → 1361-05-05 'bizans', çevre Sırp. Epir Despotluğu (Orsini) 1340'a dek ayrıydı; III. Andronikos 1340'ta ilhak etti; Sırplar 1348'de aldı (Simeon Uroš). Bizans dönemi yalnız 1340-1348; 1334-1340 ve 1348-1361 yanlış.
+  - Düzeltme önerisi: Epir noktaları 1334-1340 epir-despotlugu, 1340-1348 bizans, 1348 → sirbistan (kaynakla, TIB).
+  - Kaynak: veri ölçümü
+
+### K251 · babur-imparatorlugu · 1600-08-28 → 1610-01-01 · 28.346 km²
+
+- En büyük kesit: 1600-08-28 · komşu: ahmednagar 64%, bicapur 34%, portekiz 2%
+- Koridor: 103.2 km · ahmednagar 8/9, portekiz 1/9
+- İçindeki yerleşimler: Ahmednagar (babur-imparatorlugu)
+- Hüküm: — (sırada)
+
+### K252 · OSMANLI · 1672-08-27 → 1699-01-26 · 28.302 km²
+
+- En büyük kesit: 1672-10-18 · komşu: lehistan 65%, TABI 47%
+- Koridor: 156.7 km · TABI 9/9
+- İçindeki yerleşimler: Kamaniçe (OSMANLI); Yazlofça (Yazlovets) (OSMANLI); Bar (Podolya) (OSMANLI); Meciboj (Mejibuji) (OSMANLI)
+- Hüküm: — (sırada)
+
+### K253 · macaristan · 1526-12-17 → 1527-01-01 · 27.873 km²
+
+- En büyük kesit: 1526-12-17 · komşu: TABI 44%, macaristan-habsburg 37%, OSMANLI 13%
+- Koridor: 29.4 km · OSMANLI 5/9, macaristan-habsburg 4/9
+- İçindeki yerleşimler: Peçuy (macaristan); Segedin (Szeged) (macaristan); Kalocsa (macaristan); Şimontorna (macaristan); İstolni Belgrad (macaristan); Hatvan (macaristan); Vaç (Vác) (macaristan); Estergon (macaristan)
+- Hüküm: — (sırada)
+
+### K254 · ingiliz-hindistani · 1799-01-01 → 1799-05-04 · 27.826 km²
+
+- En büyük kesit: 1799-01-01 · komşu: meysur 31%, portekiz 17%, haydarabad-nizam 14%
+- Koridor: 128.2 km · meysur 9/9
+- İçindeki yerleşimler: Banavasi (ingiliz-hindistani)
+- Hüküm: — (sırada)
+
+### K255 · maratha · 1707-01-01 → 1753-04-01 · 27.674 km²
+
+- En büyük kesit: 1739-01-01 · komşu: babur-imparatorlugu 80%, racput 19%, portekiz 4%
+- Koridor: 162.1 km · babur-imparatorlugu 7/9, baroda 2/9
+- İçindeki yerleşimler: Lothal (sahipsiz); Wadhwan (Vardhamana) (maratha); Dholka (maratha)
+- Hüküm: — (sırada)
+
+### K256 · fransa-cumhuriyet · 1885-01-01 → 1896-01-01 · 27.622 km²
+
+- En büyük kesit: 1885-01-01 · komşu: futa-callon 18%, vasulu 11%, ingiltere 10%
+- Koridor: 208.2 km · futa-callon 7/9, KENDI 1/9, DENIZ/BOS 1/9
+- İçindeki yerleşimler: —
+- Hüküm: — (sırada)
+
+### K257 · ingiltere · 1763-02-10 → 1779-09-21 · 27.478 km²
+
+- En büyük kesit: 1764-05-31 · komşu: yeni-ispanya 57%, choctaw 19%, fransa 17%
+- Koridor: 126.0 km · choctaw 9/9
+- İçindeki yerleşimler: Natchez (Grand Village) (ingiltere)
+- Hüküm: — (sırada)
+
+### K258 · abd · 1798-04-07 → 1803-12-20 · 27.478 km²
+
+- En büyük kesit: 1798-04-07 · komşu: yeni-ispanya 57%, choctaw 19%, ispanya 17%
+- Koridor: 126.0 km · choctaw 9/9
+- İçindeki yerleşimler: Natchez (Grand Village) (abd)
+- Hüküm: — (sırada)
+
+### K259 · avusturya · 1915-07-01 → 1915-09-01 · 27.445 km²
+
+- En büyük kesit: 1915-08-01 · komşu: almanya 69%, kongre-polonyasi 54%, rusya 28%
+- Koridor: 22.6 km · almanya 5/9, DENIZ/BOS 2/9, macaristan-habsburg 2/9
+- İçindeki yerleşimler: Chełm (Kholm) (avusturya); Lublin (avusturya); Radom (Polonya) (avusturya)
+- Hüküm: — (sırada)
+
+### K260 · vijayanagara · 1565-01-26 → 1610-01-01 · 27.286 km²
+
+- En büyük kesit: 1565-01-26 · komşu: nayak-devletleri 32%, bicapur 27%, portekiz 21%
+- Koridor: 90.3 km · bicapur 6/9, nayak-devletleri 3/9
+- İçindeki yerleşimler: Talakad (sahipsiz); Meysûr (Mysore) (vijayanagara); Seringapatam (Şrirangapatnam) (vijayanagara)
+- Hüküm: — (sırada)
+
+### K261 · racput · 1304-01-01 → 1472-01-01 · 27.282 km²
+
+- En büyük kesit: 1304-01-01 · komşu: delhi-sultanligi 45%
+- Koridor: 292.7 km · delhi-sultanligi 9/9
+- İçindeki yerleşimler: Cûnâgadh (racput); Bhutambilika (sahipsiz)
+- Hüküm: — (sırada)
+
+### K262 · bengal-nevabligi · 1757-06-23 → 1760-10-11 · 27.270 km²
+
+- En büyük kesit: 1757-06-23 · komşu: ingiliz-hindistani 23%, arakan 20%
+- Koridor: 537.1 km · ingiliz-hindistani 9/9
+- İçindeki yerleşimler: —
+- Hüküm: — (sırada)
+
+### K263 · ispanya · 1810-05-25 → 1818-02-12 · 27.145 km²
+
+- En büyük kesit: 1811-05-14 · komşu: ispanyol-peru 29%, mapuche-araukanya 8%
+- Koridor: 383.9 km · ispanyol-peru 6/9, mapuche-araukanya 3/9
+- İçindeki yerleşimler: Rancagua (ispanya)
+- Hüküm: — (sırada)
+
+### K264 · karnatik · 1736-01-01 → 1801-07-31 · 27.077 km²
+
+- En büyük kesit: 1736-01-01 · komşu: fransa 33%, meysur 27%, babur-imparatorlugu 22%
+- Koridor: 62.0 km · babur-imparatorlugu 9/9
+- İçindeki yerleşimler: Kançipuram (Kanchipuram) (karnatik); Arkot (Arcot) (karnatik); Vellor (Vellore) (karnatik)
+- Hüküm: — (sırada)
+
+### K265 · sili-cumhuriyeti · 1843-10-30 → 2000-12-31 · 26.955 km²
+
+- En büyük kesit: 1911-05-31 · komşu: arjantin-cumhuriyeti 10%
+- Koridor: 182.9 km · arjantin-cumhuriyeti 5/9, DENIZ/BOS 4/9
+- İçindeki yerleşimler: —
+- Hüküm: — (sırada)
+
+### K266 · qing-hanedani · 1864-06-04 → 1865-01-01 · 26.728 km²
+
+- En büyük kesit: 1864-07-19 · komşu: yakub-beg 20%
+- Koridor: 591.7 km · DENIZ/BOS 4/9, yakub-beg 3/9, hokand 2/9
+- İçindeki yerleşimler: Taşkurgan (Sarıkol) (qing-hanedani)
+- Hüküm: — (sırada)
+
+### K267 · hollanda · 1813-11-30 → 1814-05-04 · 26.718 km²
+
+- En büyük kesit: 1814-02-02 · komşu: fransa-cumhuriyet 84%
+- Koridor: 28.2 km · fransa-cumhuriyet 9/9
+- İçindeki yerleşimler: Dinant (hollanda); Mons (hollanda); Namur (hollanda); Huy (hollanda); Tournai (hollanda); Liège (hollanda); Tongeren (hollanda); Cassel (sahipsiz) … +8
+- Hüküm: — (sırada)
+
+### K269 · banten-sultanligi · 1619-05-30 → 1677-01-01 · 26.442 km²
+
+- En büyük kesit: 1619-05-30 · komşu: hollanda-dogu-hint 12%
+- Koridor: 220.3 km · hollanda-dogu-hint 6/9, DENIZ/BOS 2/9, KENDI 1/9
+- İçindeki yerleşimler: Purwokerto (banten-sultanligi); Tasikmalaya (sahipsiz); Cirebon (banten-sultanligi)
+- Hüküm: — (sırada)
+
+### K270 · sur-hanedani · 1538-01-01 → 1564-01-01 · 26.411 km²
+
+- En büyük kesit: 1540-05-17 · komşu: bengal-sultanligi 26%
+- Koridor: 50.0 km · bengal-sultanligi 9/9
+- İçindeki yerleşimler: Kalküta (sahipsiz); Çandernagor (sahipsiz); Hûglî (Hooghly) (sur-hanedani)
+- Hüküm: — (sırada)
+
+### K272 · avustralya · 1906-01-01 → 1911-01-01 · 25.293 km²
+
+- En büyük kesit: 1906-01-01 · komşu: ingiltere 13%
+- Koridor: 372.6 km · ingiltere 8/9, DENIZ/BOS 1/9
+- İçindeki yerleşimler: Oenpelli (Gunbalanya) (avustralya)
+- Hüküm: — (sırada)
+
+### K273 · almanya · 1032-01-01 → 1032-09-06 · 25.146 km²
+
+- En büyük kesit: 1032-01-01 · komşu: arles-kralligi 8%, burgonya 3%
+- Koridor: 30.1 km · arles-kralligi 9/9
+- İçindeki yerleşimler: Lyon (almanya); Annemasse (sahipsiz); Cenevre (almanya); Thonon (sahipsiz); Lozan (sahipsiz); Chambéry (sahipsiz); Bourg-Saint-Maurice (sahipsiz)
+- Hüküm: — (sırada)
+
+### K274 · maya-sehir-devletleri · 1542-01-01 → 1547-01-01 · 25.133 km²
+
+- En büyük kesit: 1542-01-01 · komşu: yeni-ispanya 19%
+- Koridor: 194.3 km · yeni-ispanya 9/9
+- İçindeki yerleşimler: Sotuta (maya-sehir-devletleri); Chichén Itzá (maya-sehir-devletleri); Ek' Balam (sahipsiz)
+- Hüküm: — (sırada)
+
+### K275 · OSMANLI · 1724-06-24 → 1725-09-04 · 25.125 km²
+
+- En büyük kesit: 1724-10-03 · komşu: safevi 43%, rusya 38%, kaheti-kralligi 15%
+- Koridor: 57.6 km · kaheti-kralligi 5/9, safevi 4/9
+- İçindeki yerleşimler: Şamahı (OSMANLI); Ereş (OSMANLI); Kabala (OSMANLI); Şeki (Nuha) (OSMANLI)
+- Hüküm: — (sırada)
+
+### K276 · sovyet-rusya · 1991-08-24 → 1991-08-27 · 25.119 km²
+
+- En büyük kesit: 1991-08-25 · komşu: ukrayna 35%, romanya-kralligi 34%, transdinyester 31%
+- Koridor: 617.9 km · ukrayna 5/9, belarus 4/9
+- İçindeki yerleşimler: Kahul (Cahul) (sovyet-rusya); Bender (sovyet-rusya); Kişinev (Chișinău) (sovyet-rusya); Orhei (sovyet-rusya); Bălți (sovyet-rusya); Soroka (Soroca) (sovyet-rusya)
+- Hüküm: — (sırada)
+
+### K277 · svahili-sehirleri · 1500-01-01 → 1600-01-01 · 25.051 km²
+
+- En büyük kesit: 1593-01-01 · komşu: kenya-kuzey-halklari 31%, portekiz 16%, somali 15%
+- Koridor: 223.9 km · portekiz 7/9, DENIZ/BOS 2/9
+- İçindeki yerleşimler: Lamu (svahili-sehirleri)
+- Hüküm: — (sırada)
+
+### K278 · fransa-cumhuriyet · 1861-03-10 → 1893-01-01 · 24.713 km²
+
+- En büyük kesit: 1885-12-17 · komşu: tekrur 49%, massina 37%, yatenga 16%
+- Koridor: 270.2 km · tekrur 9/9
+- İçindeki yerleşimler: Mopti (fransa-cumhuriyet)
+- Hüküm: — (sırada)
+
+### K279 · mehdi · 1884-02-08 → 1885-01-26 · 24.496 km²
+
+- En büyük kesit: 1884-02-20 · komşu: OSMANLI 63%, ingiltere 29%, TABI 18%
+- Koridor: 645.3 km · TABI 6/9, OSMANLI 3/9
+- İçindeki yerleşimler: Tokar (mehdi); Sinkat (mehdi)
+- Hüküm: — (sırada)
+
+### K280 · avusturya · 1718-07-21 → 1739-09-18 · 24.065 km²
+
+- En büyük kesit: 1718-07-21 · komşu: macaristan-habsburg 42%, TABI 42%, OSMANLI 16%
+- Koridor: 479.8 km · macaristan-habsburg 9/9
+- İçindeki yerleşimler: Krayova (Craiova) (macaristan-habsburg); Rimnik (Râmnicu Vâlcea) (macaristan-habsburg); Turnu Severin (macaristan-habsburg); Orsova (Eski Orsova) (macaristan-habsburg); Tırgu Jiu (macaristan-habsburg)
+- Hüküm: — (sırada)
+
+### K281 · somali · 1905-01-01 → 1941-02-25 · 23.993 km²
+
+- En büyük kesit: 1905-01-01 · komşu: italya 32%, ingiltere 20%, umman-zengibar 16%
+- Koridor: 127.9 km · italya 5/9, ingiltere 4/9
+- İçindeki yerleşimler: —
+- Hüküm: — (sırada)
+
+### K282 · sardinya · 1720-08-02 → 1815-11-20 · 23.799 km²
+
+- En büyük kesit: 1815-06-09 · komşu: fransa 26%, isvicre 22%, cenevre-cumhuriyeti 13%
+- Koridor: 321.9 km · fransa-cumhuriyet 5/9, DENIZ/BOS 4/9
+- İçindeki yerleşimler: Ivrea (sahipsiz); Thonon (sardinya); Cenova (sardinya); Asti (sahipsiz); Torino (sardinya); Bourg-Saint-Maurice (sardinya); Aosta (sardinya)
+- Hüküm: — (sırada)
+
+### K283 · muvahhidler · 1235-01-01 → 1250-04-05 · 23.780 km²
+
+- En büyük kesit: 1248-01-01 · komşu: merini 70%
+- Koridor: 89.5 km · merini 9/9
+- İçindeki yerleşimler: Sefrû (sahipsiz); Fas (Fez) (muvahhidler)
+- Hüküm: — (sırada)
+
+### K284 · afsar · 1747-06-20 → 1796-01-01 · 23.538 km²
+
+- En büyük kesit: 1785-01-01 · komşu: zend 54%
+- Koridor: 155.7 km · zend 9/9
+- İçindeki yerleşimler: Kızılarvat (afsar)
+- Hüküm: — (sırada)
+
+### K285 · dogu-sumatra-sultanliklari · 1632-01-01 → 1858-01-01 · 23.490 km²
+
+- En büyük kesit: 1632-01-01 · komşu: ace-sultanligi 42%
+- Koridor: 338.7 km · cohor-sultanligi 5/9, DENIZ/BOS 4/9
+- İçindeki yerleşimler: Medan (Deli) (dogu-sumatra-sultanliklari)
+- Hüküm: — (sırada)
+
+### K286 · meiji-japonya · 1942-02-15 → 1945-09-02 · 23.281 km²
+
+- En büyük kesit: 1942-02-15 · komşu: fed-malay-devletleri 35%
+- Koridor: 152.8 km · fed-malay-devletleri 9/9
+- İçindeki yerleşimler: Johor (meiji-japonya); Muar (meiji-japonya); Malaka (meiji-japonya)
+- Hüküm: — (sırada)
+
+### K287 · sih-imparatorlugu · 1809-04-25 → 1849-03-29 · 22.815 km²
+
+- En büyük kesit: 1819-07-05 · komşu: ingiliz-hindistani 74%
+- Koridor: 23.5 km · ingiliz-hindistani 9/9
+- İçindeki yerleşimler: Sirhind (sih-imparatorlugu)
+- Hüküm: — (sırada)
+
+### K288 · OSMANLI · 1475-06-06 → 1637-06-18 · 22.768 km²
+
+- En büyük kesit: 1475-06-06 · komşu: altinorda 70%
+- Koridor: 543.0 km · TABI 3/9, DENIZ/BOS 3/9, altinorda 2/9, gurcistan 1/9
+- İçindeki yerleşimler: Azak (OSMANLI); Taganrog (sahipsiz); Tanais (Don ağzı) (sahipsiz)
+- Hüküm: — (sırada)
+
+### K289 · OSMANLI · 1642-02-26 → 1696-08-06 · 22.755 km²
+
+- En büyük kesit: 1684-08-06 · komşu: don-kazak 38%, TABI 33%
+- Koridor: 404.1 km · TABI 8/9, megrelya-prensligi 1/9
+- İçindeki yerleşimler: Azak (OSMANLI); Rostov (Don) (sahipsiz); Taganrog (sahipsiz); Tanais (Don ağzı) (sahipsiz)
+- Hüküm: — (sırada)
+
+### K290 · ispanya · 1938-06-14 → 1939-04-01 · 22.750 km²
+
+- En büyük kesit: 1938-06-14 · komşu: ispanya-milliyetci 37%, andorra 10%, fransa-cumhuriyet 10%
+- Koridor: 68.8 km · ispanya-milliyetci 9/9
+- İçindeki yerleşimler: Tarragona (ispanya); Barselona (ispanya); Vic (Ausona / Osona) (ispanya); Girona (ispanya); Emporion (Ampurias) (sahipsiz); Besalu (sahipsiz); Castelló d'Empúries (sahipsiz); Tortosa (ispanya)
+- Hüküm: — (sırada)
+
+### K291 · polonya · 1919-04-19 → 1920-07-12 · 22.724 km²
+
+- En büyük kesit: 1919-04-19 · komşu: sovyet-rusya 48%, letonya 28%, litvanya 24%
+- Koridor: 106.9 km · sovyet-rusya 9/9
+- İçindeki yerleşimler: Vilnius (polonya)
+- Hüküm: — (sırada)
+
+### K292 · polonya · 1939-09-17 → 1939-09-19 · 22.724 km²
+
+- En büyük kesit: 1939-09-17 · komşu: sovyet-rusya 48%, letonya 28%, litvanya 24%
+- Koridor: 265.3 km · sovyet-rusya 9/9
+- İçindeki yerleşimler: Vilnius (polonya)
+- Hüküm: — (sırada)
+
+### K293 · sovyet-rusya · 1944-07-01 → 1944-07-16 · 22.568 km²
+
+- En büyük kesit: 1944-07-01 · komşu: almanya 79%, polonya 20%
+- Koridor: 24.2 km · almanya 9/9
+- İçindeki yerleşimler: Białystok (sovyet-rusya)
+- Hüküm: — (sırada)
+
+### K294 · sovyet-rusya · 1939-09-01 → 1939-09-17 · 22.568 km²
+
+- En büyük kesit: 1939-09-01 · komşu: polonya 83%, almanya 17%
+- Koridor: 109.4 km · polonya 9/9
+- İçindeki yerleşimler: Białystok (sovyet-rusya)
+- Hüküm: — (sırada)
+
+### K295 · kastilya · 1064-01-01 → 1065-12-27 · 22.121 km²
+
+- En büyük kesit: 1064-01-01 · komşu: leon-kralligi 42%, badajoz-aftasiler 18%
+- Koridor: 200.7 km · leon-kralligi 9/9
+- İçindeki yerleşimler: Coimbra (kastilya); Aveiro (sahipsiz)
+- Hüküm: — (sırada)
+
+### K296 · kastilya · 1072-01-01 → 1085-05-25 · 22.098 km²
+
+- En büyük kesit: 1072-01-01 · komşu: leon-kralligi 42%, badajoz-aftasiler 18%
+- Koridor: 200.7 km · leon-kralligi 9/9
+- İçindeki yerleşimler: Coimbra (kastilya); Aveiro (sahipsiz)
+- Hüküm: — (sırada)
+
+### K297 · bizans · 1185-01-01 → 1204-04-13 · 22.004 km²
+
+- En büyük kesit: 1185-01-01 · komşu: bulgar-carligi 13%
+- Koridor: 26.4 km · bulgar-carligi 9/9
+- İçindeki yerleşimler: Dedeağaç (Alexandroupoli) (sahipsiz); Ferecik (Feres) (bizans); Távri (sahipsiz); Gümülcine (sahipsiz); Sofulu (Soufli) (sahipsiz); Dimetoka (sahipsiz); Orestiada (Kumçiftliği) (sahipsiz); Stérna (sahipsiz) … +8
+- Hüküm: — (sırada)
+
+### K298 · rusya · 1740-01-01 → 1775-06-16 · 21.954 km²
+
+- En büyük kesit: 1764-11-21 · komşu: lehistan 63%, TABI 37%, zaporojye 10%
+- Koridor: 40.4 km · lehistan 9/9
+- İçindeki yerleşimler: Yelisavetgrad (Aziz Yelizaveta Kalesi) (rusya); Novomirgorod (rusya)
+- Hüküm: — (sırada)
+
+### K299 · suleyman-celebi · 1406-01-01 → 1410-05-06 · 21.906 km²
+
+- En büyük kesit: 1410-02-13 · komşu: karaman 54%, candar 42%, mehmed-celebi 3%
+- Koridor: 34.1 km · karaman 8/9, DENIZ/BOS 1/9
+- İçindeki yerleşimler: Kırıkkale (sahipsiz); Ankara (suleyman-celebi); Ayaş (suleyman-celebi)
+- Hüküm: — (sırada)
+
+### K300 · babur-imparatorlugu · 1761-01-14 → 1783-07-21 · 21.449 km²
+
+- En büyük kesit: 1772-11-18 · komşu: bundela-orcha 38%, bharatpur-cat 18%, avad 15%
+- Koridor: 84.7 km · maratha 8/9, avad 1/9
+- İçindeki yerleşimler: Gvalyar (Gwalior) (babur-imparatorlugu)
+- Hüküm: — (sırada)
+
+## Deniz aşırı sömürge gövdeleri (ayrı)
+
+### K202 · almanya · 1890-07-01 → 1918-11-11 · 35.016 km²
+
+- En büyük kesit: 1917-09-03 · komşu: ingiltere 84%
+- Koridor: 6002.5 km · ingiliz-sudani 3/9, DENIZ/BOS 2/9, ingiltere 1/9, misir-sultanligi 1/9, yunanistan 1/9, sirbistan-kralligi 1/9
+- İçindeki yerleşimler: Mosi (Moshi) (ingiltere)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: DENİZ AŞIRI: Alman Doğu Afrikası Kilimanjaro kesiti; en büyük kesitte (1917-09-03) içteki tek nokta Moshi 'ingiltere' (Mart 1916 İngiliz işgali), parça ise 'almanya' — parçayı noktasız bölge üretiyor. 1890-1918 aralığının geri kalanı Alman Doğu Afrikası'nın ana gövdesine bağlı olmalı.
+  - Düzeltme önerisi: Kilimanjaro-Usambara bölgesine 1890-1916 Alman ve 1916 sonrası İngiliz tanık noktaları.
+  - Kaynak: veri ölçümü
+
+### K216 · hollanda · 1856-01-01 → 2000-12-31 · 32.866 km²
+
+- En büyük kesit: 1884-07-14 · komşu: almanya 32%, belcika 18%, prusya 2%
+- Koridor: 8054.6 km · DENIZ/BOS 3/9, TABI 1/9, OSMANLI 1/9, kanem-tubu 1/9, adamava 1/9, fransa-cumhuriyet 1/9, ovimbundu 1/9
+- İçindeki yerleşimler: Maastricht (hollanda); Roermond (hollanda); Breda (hollanda); 's-Hertogenbosch (hollanda); Dordrecht (hollanda); Nijmegen (hollanda); Rotterdam (hollanda); Arnhem (hollanda) … +10
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: DENİZ AŞIRI: Hollanda anakarası 1856 → 2000, 'hollanda' kimliğinin en büyük gövdesi denizaşırı (Doğu Hint / sonra Surinam) olduğu için kopuk parça sayılıyor: metropol-sömürge ayrımı (ENKLAV-1103 K081 Portekiz ile aynı).
+  - Düzeltme önerisi: Yok; evren notu (metropol eksklav sayılmasın).
+  - Kaynak: veri ölçümü
+
+### K220 · ingiltere · 1878-03-12 → 1910-05-31 · 32.211 km²
+
+- En büyük kesit: 1884-02-09 · komşu: herero 26%, nama-orlam 6%
+- Koridor: 507.2 km · nama-orlam 5/9, DENIZ/BOS 3/9, almanya 1/9
+- İçindeki yerleşimler: Valvis Körfezi (ingiltere)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: DENİZ AŞIRI: Walvis Bay 1878-03-12 (İngiliz ilhakı) → 1910 Kap Kolonisi'ne bağlı İngiliz enklavı, Alman Güneybatı Afrikası içinde: bilinen gerçek enklav.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: veri ölçümü
+
+### K240 · almanya · 1883-05-01 → 1884-08-07 · 29.790 km²
+
+- En büyük kesit: 1883-05-01 · komşu: nama-orlam 30%
+- Koridor: 8109.1 km · DENIZ/BOS 3/9, OSMANLI 2/9, ovambo 1/9, portekiz 1/9, kanem-bornu 1/9, agadez-sultanligi 1/9
+- İçindeki yerleşimler: Lüderitz (almanya)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: DENİZ AŞIRI: Lüderitz (Angra Pequena) 1883-05-01 → 1884-08-07 'almanya'. 1 Mayıs 1883 Adolf Lüderitz'in özel satın alımı; Alman devlet himayesi 24 Nisan 1884 (bayrak 7 Ağustos 1884). Özel mülk devlet toprağı sayılmış.
+  - Düzeltme önerisi: Lüderitz almanya f → 1884-04-24 (kaynakla), öncesi nama (yerel).
+  - Kaynak: veri ölçümü
+
+### K245 · hollanda · 1830-10-04 → 1839-04-19 · 29.361 km²
+
+- En büyük kesit: 1830-10-04 · komşu: almanya 25%, belcika 16%
+- Koridor: 8148.5 km · DENIZ/BOS 3/9, TABI 2/9, fransa-cumhuriyet 1/9, damagaram 1/9, jukun-kvararafa 1/9, ovimbundu 1/9
+- İçindeki yerleşimler: Breda (hollanda); 's-Hertogenbosch (hollanda); Dordrecht (hollanda); Nijmegen (hollanda); Rotterdam (hollanda); Arnhem (hollanda); Delft (hollanda); Lahey (Den Haag) (hollanda) … +8
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: DENİZ AŞIRI: Hollanda anakarası 1830-10-04 → 1839-04-19 (Belçika ihtilali - Londra), K216 ile aynı metropol-sömürge ayrımı.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: veri ölçümü
+
+### K247 · ingiltere · 1879-10-12 → 1880-08-11 · 29.187 km²
+
+- En büyük kesit: 1879-10-12 · komşu: afganistan 24%, ingiliz-hindistani 19%
+- Koridor: 2838.4 km · ingiliz-hindistani 5/9, racput 2/9, bahavelpur 1/9, haydarabad-nizam 1/9
+- İçindeki yerleşimler: Kâbil (ingiltere); Bagram (sahipsiz)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Kâbil 1879-10-12 (Roberts'ın girişi) → 1880-08-11 İngiliz askerî işgali, İngiliz Hindistanı'ndan Afgan toprağıyla ayrı: gerçek savaş eksklavı. Not: koridor 'ingiltere' (Seylan) gövdesine çizildi, İngiliz Hindistanı ayrı kimlik ('ingiliz-hindistani') — kimlik notu.
+  - Düzeltme önerisi: Yok; işgal kimliği (ingiltere / ingiliz-hindistani) tek ölçüt.
+  - Kaynak: veri ölçümü
+
+### K249 · almanya · 1898-03-06 → 1914-11-07 · 28.949 km²
+
+- En büyük kesit: 1914-10-03 · komşu: cin-cumhuriyeti 36%, qing-hanedani 35%
+- Koridor: 7173.1 km · rusya 4/9, cin-cumhuriyeti 3/9, DENIZ/BOS 2/9
+- İçindeki yerleşimler: Qingdao (Tsingtau) (almanya)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: DENİZ AŞIRI: Kiautschou (Qingdao) 1898-03-06 kira antlaşması → 1914-11-07 Japon işgali: Alman denizaşırı kira bölgesi, bilinen gerçek eksklav.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: veri ölçümü
+
+### K268 · ispanyol-peru · 1819-12-17 → 1821-10-01 · 26.524 km²
+
+- En büyük kesit: 1819-12-17 · komşu: gran-kolombiya 41%
+- Koridor: 934.7 km · gran-kolombiya 5/9, DENIZ/BOS 4/9
+- İçindeki yerleşimler: Cartagena de Indias (ispanyol-peru); Teyuna (sahipsiz); Santa Marta (ispanyol-peru)
+- Hüküm: — (sırada)
+
+### K271 · portekiz · 1580-01-01 → 1632-06-24 · 26.345 km²
+
+- En büyük kesit: 1580-01-01 · komşu: babur-imparatorlugu 26%, bengal-sultanligi 21%
+- Koridor: 2729.7 km · DENIZ/BOS 4/9, babur-imparatorlugu 3/9, gond-kralliklari 1/9, kalacuri-tripuri 1/9
+- İçindeki yerleşimler: Kalküta (sahipsiz); Çandernagor (sahipsiz); Hûglî (Hooghly) (portekiz)
+- Hüküm: — (sırada)
