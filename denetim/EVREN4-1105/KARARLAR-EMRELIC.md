@@ -179,6 +179,19 @@ Alman Yeni Gine'si için künye YOK.
   - 1818-1846 Oregon ortak işgali: ortak egemenlik, BEYANLI (Sahalin/Ussuri emsali).
   - 1790-94 Nootka konvansiyonları `ic_not`a.
 - **Onaylananlar:** Jülyen çevirileri (Ak-Meçit, Halifax, Kökçetav, Herson), Fort Albany (DCB), Kahnawake, Madagaskar 1897-01-27 (TDV), Dikva, Rabaul.
+- **LAB SALI cevabı (7125d725e):**
+  - **Alman sömürge künyeleri:** `alman-kamerun`, `alman-guneybati-afrikasi` ve `alman-togo` için t 1919-06-28 UYGULA'ya girdi.
+    - Künyelerin eski t günündeki kronoloji maddeleri silinmez, `tur:'isgal'` olarak kalır.
+    - Her künyeye ayrıca 1919-06-28 Versay maddesi aynı commit'te eklenir.
+    - `kronoloji_sinir_afrika.js:21` (1916-02-18) ve `:23` (1915-07-09) işgal maddeleri olarak kalır.
+  - 🔴 **Versay ile manda arası:** GENİŞLET işgal dilimini yalnız 1919-06-28'e kadar kapatır. 1919-06-28 → 1922-07-19 arası, Namibya/Tanganika emsaline göre idareci devletle doldurulur: `s: ingiltere` ya da `s: fransa`.
+    - Mandalar 1922-07-20'de başlar: `ingiliz-kamerun`, `fransiz-kamerun-mandasi`, `fransiz-togo`, `ingiliz-togoland`.
+    - Dikva da bu kurala girer.
+  - **ovambo:** GENİŞLET uygulanmaz. Alman sömürgesi değil, yerel krallıklar; t 1917-02-06 (Mandume'nin ölümü) Kvanyama'nın fiilî sonudur ve kalır.
+    - SINIF sorusu (EMRELİC'e): toplu "Ondonga · Kvanyama" künyesi iki farklı akıbeti birleştiriyor. Ondonga Güney Afrika'nın dolaylı idaresinde sürdü; Angola tarafındaki Kvanyama Portekiz'e geçti. Ondonga için ayrı künye mi açılır, beyan mı yazılır?
+  - **Yeni Gine:** iki künye eksik, ikisi de aday:
+    - `alman-yeni-gine` 1884 → 1919-06-28; 1914-09-17'den itibaren `isg avustralya`.
+    - Yeni Gine Avustralya mandası (1920-12-17 / 1921-05-09 → 1949). `papua-yeni-gine-avustralya` 1949'da başlıyor.
 
 ## LAB SALI: gece-56 soruları (4c01c52ee; satırlar HAYALET-KARAR'da, kaynak turu yapılmadı)
 
