@@ -8,7 +8,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-d 2, YAPAY-m 13. Güven: KAYNAK-GEREK 25, KAYNAKLI 14, OLCUM 19.
+Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-d 2, YAPAY-m 13. Güven: KAYNAK-GEREK 23, KAYNAKLI 16, OLCUM 19.
 
 ## Kara eksklavları
 
@@ -477,10 +477,10 @@ Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-
 - En büyük kesit: 1920-05-14 · komşu: tbmm-turkiye 54%, yunanistan 41%
 - Koridor: 16.8 km · yunanistan 9/9
 - İçindeki yerleşimler: Ferecik (Feres) (bulgaristan-kralligi); Távri (bulgaristan-kralligi)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Ferecik-Távri 1920-05-14 → 05-27 'bulgaristan-kralligi': Neuilly (1919) ile Batı Trakya Bulgaristan'dan alındı, Müttefik idaresinden Mayıs 1920'de Yunanistan'a geçti — Bulgar yazımı yanlış.
-  - Düzeltme önerisi: Batı Trakya 1919-11-27 → Müttefik idaresi (beyan), 1920-05-14 → yunanistan.
-  - Kaynak: bulunamadı (model bilgisi)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Ferecik-Távri 1920-05-14 → 05-27 'bulgaristan-kralligi': İtilâf adına Fransız işgali 15 Ekim 1919, Yunan işgali 22 Mayıs 1920 — Bulgar yazımı yanlış.
+  - Düzeltme önerisi: Batı Trakya 1919-10-15 → Müttefik (Fransız) işgali (beyan; künye gerek), 1920-05-22 → yunanistan (veri 05-14 değil).
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/bati-trakya — 'İtilâf devletleri adına Fransız kuvvetlerinin Batı Trakya'yı işgali (15 Ekim 1919)' · 'Batı Trakya'nın Yunanlılar tarafından işgali günlerinde de (22 Mayıs 1920)'
 
 ### K748 · OSMANLI · 1459-06-20 → 1461-06-01 · 682 km²
 
@@ -547,10 +547,10 @@ Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-
 - En büyük kesit: 1920-05-14 · komşu: yunanistan 66%, tbmm-turkiye 34%
 - Koridor: 17.2 km · tbmm-turkiye 9/9
 - İçindeki yerleşimler: Dimetoka (bulgaristan-kralligi)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Dimetoka 1920-05-14 → 05-27 'bulgaristan-kralligi': K747 ile aynı (Batı Trakya Neuilly sonrası Bulgar değil).
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Dimetoka 1920-05-14 → 05-27 'bulgaristan-kralligi': K747 ile aynı (Batı Trakya 1919-10-15 Fransız, 1920-05-22 Yunan).
   - Düzeltme önerisi: K747 ile aynı.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV «Batı Trakya» (K747 ile aynı)
 
 ### K757 · macaristan · 1522-05-29 → 1537-03-12 · 494 km²
 

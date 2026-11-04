@@ -35,14 +35,14 @@
 | N11 | Bosna-Dalmaçya 1918-11 SHS Devleti yazılmamış | 36 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 34 |
 | N12 | Batı Trakya 1920 Mayıs 'bulgaristan-kralligi' (Neuilly sonrası) | 6 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 4 |
 | I | Bölge/ülke adlı noktalar + o devirde olmayan şehirler | 77 | VERİ ÖLÇÜMÜ (ad deseni); kuruluş yılları KAYNAK-GEREK | 0 |
-| J | 0 noktalı parçalar (noktasız emilme) | 119 | VERİ ÖLÇÜMÜ | 0 |
+| J | 0 noktalı parçalar (noktasız emilme) | 202 | VERİ ÖLÇÜMÜ | 0 |
 | C | 1990'lar: RS / RSK / Herzeg-Bosna dönemi yok | 6 | KAYNAK-GEREK (ad listesi + günler); boşluk VERİ ÖLÇÜMÜ | 2 |
 | N3 | Kosova gölge cumhuriyeti toprak sahibi boyalı | 3 | MODEL + KAYNAK-GEREK | 3 |
 | D | Habsburg: aynı hükümdarın iki tacı ayrı kimlik | 2 | MODEL KARARI (Emre) · MOTOR/EVREN | 0 |
 | E | Çatı kimlikler: ayrı devletler tek kimlik / aynı hükümdar iki kimlik | 10 | MODEL KARARI (Emre) | 0 |
-| M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 82 | MOTOR SORUSU (HAVVA/Emre) | 0 |
+| M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 165 | MOTOR SORUSU (HAVVA/Emre) | 0 |
 
-Toplam satır: 831.
+Toplam satır: 997.
 
 ## 1. Hemen uygulanabilir — VERİ ÖLÇÜMÜ (dönem olgusu ölçüldü; halef/gün notu satırda)
 
@@ -875,7 +875,10 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: (40.8, 41.7, 24.3, 26.7) kutusunda 1920-05-20 günü sahibi bulgaristan-kralligi olan noktalar.
 - Hükümler: ENKLAV-1104 K747, K756
-- Ortak öneri (aksi yazılmadıkça): 1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla
+- **Kaynaklı günler (KAYNAK2):**
+  - `1919-10-15` İtilâf devletleri adına Fransız kuvvetleri Batı Trakya'yı işgal etti (Neuilly sonrası Müttefik idaresi) — TDV İslâm Ansiklopedisi, "Batı Trakya", https://islamansiklopedisi.org.tr/bati-trakya — "İtilâf devletleri adına Fransız kuvvetlerinin Batı Trakya'yı işgali (15 Ekim 1919)" (ENKLAV9)
+  - `1920-05-22` Yunan işgali (veri 1920-05-14 — düzeltme); 27 Mayıs 1920 Hemetli'de Batı Trakya hükûmeti — aynı madde — "Batı Trakya'nın Yunanlılar tarafından işgali günlerinde de (22 Mayıs 1920) … Batı Trakya hükümetini kurdular (27 Mayıs 1920)"
+- Ortak öneri (aksi yazılmadıkça): 1919-10-15 Fransız (İtilâf) işgali (beyan) → 1920-05-22 yunanistan (TDV «Batı Trakya»)
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
 |---|---|---|---|---|---|
@@ -973,7 +976,7 @@ _Bugünkü veride eşleşen satır yok._
 | Klosterneuburg | `data/yerlesimler_once1281_yt_avrupa.js:447` | kur=None bit=1281-01-01; ilk dönem — | kur: — (kaynakla); öncesi dönemler kırpılsın, toprak komşu peteklere (merdiven ④) | KAYNAK-GEREK (kuruluş yılı) | — |
 | Melun | `data/yerlesimler_once1281_yt_avrupa.js:500` | kur=None bit=1281-01-01; ilk dönem — | kur: — (kaynakla); öncesi dönemler kırpılsın, toprak komşu peteklere (merdiven ④) | KAYNAK-GEREK (kuruluş yılı) | — |
 
-### J · 0 noktalı parçalar (noktasız emilme) (119)
+### J · 0 noktalı parçalar (noktasız emilme) (202)
 
 - Dayanak: VERİ ÖLÇÜMÜ
 - Kural: Koşu 32'de içinde hiçbir yerleşim noktası olmayan kopuk parçalar; alan bölge poligonu/emilmeden.
@@ -1100,6 +1103,89 @@ _Bugünkü veride eşleşen satır yok._
 | K746 habsburg | `denetim/ENKLAV-1104/aday8.json` | 1815-06-09 → 1918-11-11 · 711 km² · en büyük kesit 1815-06-09 | (ortak) | OLCUM | — |
 | K757 macaristan | `denetim/ENKLAV-1104/aday8.json` | 1522-05-29 → 1537-03-12 · 494 km² · en büyük kesit 1526-12-17 | (ortak) | OLCUM | — |
 | K758 habsburg | `denetim/ENKLAV-1104/aday8.json` | 1918-11-08 → 1918-11-11 · 494 km² · en büyük kesit 1918-11-08 | (ortak) | OLCUM | — |
+| K759 yunanistan | `denetim/ENKLAV-1104/aday9.json` | 1913-08-10 → 1913-11-14 · 479 km² · en büyük kesit 1913-08-10 | (ortak) | OLCUM | — |
+| K761 fransa-cumhuriyet | `denetim/ENKLAV-1104/aday9.json` | 1890-11-23 → 1918-11-19 · 473 km² · en büyük kesit 1918-11-11 | (ortak) | OLCUM | — |
+| K762 ingiltere | `denetim/ENKLAV-1104/aday9.json` | 1704-08-04 → 2000-12-31 · 472 km² · en büyük kesit 1854-01-01 | (ortak) | OLCUM | — |
+| K764 fransa-cumhuriyet | `denetim/ENKLAV-1104/aday9.json` | 1922-07-20 → 1923-10-29 · 460 km² · en büyük kesit 1922-07-20 | (ortak) | OLCUM | — |
+| K767 fransa-cumhuriyet | `denetim/ENKLAV-1104/aday9.json` | 1860-03-24 → 1860-06-14 · 434 km² · en büyük kesit 1860-03-24 | (ortak) | OLCUM | — |
+| K768 sardinya-piyemonte | `denetim/ENKLAV-1104/aday9.json` | 1859-11-10 → 1860-03-24 · 434 km² · en büyük kesit 1859-11-10 | (ortak) | OLCUM | — |
+| K769 baden | `denetim/ENKLAV-1104/aday9.json` | 1815-06-09 → 1871-01-18 · 434 km² · en büyük kesit 1815-06-09 | (ortak) | OLCUM | — |
+| K773 habsburg | `denetim/ENKLAV-1104/aday9.json` | 1815-06-09 → 1859-11-10 · 340 km² · en büyük kesit 1815-06-09 | (ortak) | OLCUM | — |
+| K774 sardinya-piyemonte | `denetim/ENKLAV-1104/aday9.json` | 1859-11-10 → 1861-03-17 · 340 km² · en büyük kesit 1861-03-07 | (ortak) | OLCUM | — |
+| K775 rusya | `denetim/ENKLAV-1104/aday9.json` | 1877-12-10 → 1878-07-13 · 339 km² · en büyük kesit 1877-12-10 | (ortak) | OLCUM | — |
+| K776 liberya | `denetim/ENKLAV-1104/aday9.json` | 1885-11-11 → 1923-10-29 · 322 km² · en büyük kesit 1892-01-01 | (ortak) | OLCUM | — |
+| K777 OSMANLI | `denetim/ENKLAV-1104/aday9.json` | 1574-08-24 → 1574-08-25 · 322 km² · en büyük kesit 1574-08-24 | (ortak) | OLCUM | — |
+| K779 fransa-cumhuriyet | `denetim/ENKLAV-1104/aday9.json` | 1918-11-11 → 1918-11-17 · 307 km² · en büyük kesit 1918-11-11 | (ortak) | OLCUM | — |
+| K780 italya | `denetim/ENKLAV-1104/aday9.json` | 1861-03-17 → 1923-10-29 · 290 km² · en büyük kesit 1861-03-17 | (ortak) | OLCUM | — |
+| K781 sardinya-piyemonte | `denetim/ENKLAV-1104/aday9.json` | 1861-03-07 → 1861-03-17 · 290 km² · en büyük kesit 1861-03-07 | (ortak) | OLCUM | — |
+| K782 sirbistan-kralligi | `denetim/ENKLAV-1104/aday9.json` | 1913-08-10 → 1918-12-01 · 280 km² · en büyük kesit 1913-08-10 | (ortak) | OLCUM | — |
+| K783 yugoslavya | `denetim/ENKLAV-1104/aday9.json` | 1918-12-01 → 1920-01-01 · 280 km² · en büyük kesit 1918-12-01 | (ortak) | OLCUM | — |
+| K788 baden | `denetim/ENKLAV-1104/aday9.json` | 1815-06-09 → 1871-01-18 · 262 km² · en büyük kesit 1815-06-09 | (ortak) | OLCUM | — |
+| K789 macaristan-naiplik | `denetim/ENKLAV-1104/aday9.json` | 1919-09-10 → 1920-06-04 · 258 km² · en büyük kesit 1919-09-10 | (ortak) | OLCUM | — |
+| K792 safevi | `denetim/ENKLAV-1104/aday9.json` | 1545-12-26 → 1701-01-01 · 229 km² · en büyük kesit 1546-01-01 | (ortak) | OLCUM | — |
+| K793 fransa-cumhuriyet | `denetim/ENKLAV-1104/aday9.json` | 1897-03-20 → 1897-05-14 · 200 km² · en büyük kesit 1897-03-20 | (ortak) | OLCUM | — |
+| K794 habsburg | `denetim/ENKLAV-1104/aday9.json` | 1918-11-03 → 1918-11-11 · 199 km² · en büyük kesit 1918-11-03 | (ortak) | OLCUM | — |
+| K795 sardinya-piyemonte | `denetim/ENKLAV-1104/aday9.json` | 1861-03-07 → 1861-03-17 · 183 km² · en büyük kesit 1861-03-07 | (ortak) | OLCUM | — |
+| K796 fransiz-cinhindi | `denetim/ENKLAV-1104/aday9.json` | 1912-02-12 → 1923-10-29 · 174 km² · en büyük kesit 1912-02-12 | (ortak) | OLCUM | — |
+| K797 avusturya-cumhuriyet | `denetim/ENKLAV-1104/aday9.json` | 1918-11-12 → 1923-10-29 · 171 km² · en büyük kesit 1919-01-01 | (ortak) | OLCUM | — |
+| K798 liberya | `denetim/ENKLAV-1104/aday9.json` | 1892-01-01 → 1923-10-29 · 171 km² · en büyük kesit 1898-01-01 | (ortak) | OLCUM | — |
+| K799 kolombiya-cumhuriyeti | `denetim/ENKLAV-1104/aday9.json` | 1917-01-26 → 1923-10-29 · 164 km² · en büyük kesit 1917-01-26 | (ortak) | OLCUM | — |
+| K800 habsburg | `denetim/ENKLAV-1104/aday9.json` | 1815-06-09 → 1859-11-10 · 160 km² · en büyük kesit 1815-06-09 | (ortak) | OLCUM | — |
+| K801 isvicre | `denetim/ENKLAV-1104/aday9.json` | 1918-11-12 → 1923-10-29 · 158 km² · en büyük kesit 1918-11-12 | (ortak) | OLCUM | — |
+| K802 fransa-cumhuriyet | `denetim/ENKLAV-1104/aday9.json` | 1814-05-04 → 1814-05-30 · 147 km² · en büyük kesit 1814-05-05 | (ortak) | OLCUM | — |
+| K804 yunanistan | `denetim/ENKLAV-1104/aday9.json` | 1913-08-10 → 1913-11-14 · 127 km² · en büyük kesit 1913-08-10 | (ortak) | OLCUM | — |
+| K805 arjantin-cumhuriyeti | `denetim/ENKLAV-1104/aday9.json` | 1884-10-12 → 2000-12-31 · 126 km² · en büyük kesit 1902-09-26 | (ortak) | OLCUM | — |
+| K806 belcika | `denetim/ENKLAV-1104/aday9.json` | 1916-05-01 → 1916-05-06 · 120 km² · en büyük kesit 1916-05-01 | (ortak) | OLCUM | — |
+| K807 hollanda | `denetim/ENKLAV-1104/aday9.json` | 1802-01-01 → 1802-03-27 · 119 km² · en büyük kesit 1802-01-01 | (ortak) | OLCUM | — |
+| K808 bati-hint-federasyonu | `denetim/ENKLAV-1104/aday9.json` | 1958-01-03 → 1962-05-31 · 111 km² · en büyük kesit 1958-01-03 | (ortak) | OLCUM | — |
+| K809 maratha | `denetim/ENKLAV-1104/aday9.json` | 1674-06-06 → 1737-04-01 · 109 km² · en büyük kesit 1732-01-01 | (ortak) | OLCUM | — |
+| K810 bicapur | `denetim/ENKLAV-1104/aday9.json` | 1636-01-01 → 1674-06-06 · 109 km² · en büyük kesit 1656-01-01 | (ortak) | OLCUM | — |
+| K811 romanya-kralligi | `denetim/ENKLAV-1104/aday9.json` | 1918-04-08 → 1918-04-09 · 107 km² · en büyük kesit 1918-04-08 | (ortak) | OLCUM | — |
+| K812 ingiliz-hindistani | `denetim/ENKLAV-1104/aday9.json` | 1896-01-15 → 1923-10-29 · 105 km² · en büyük kesit 1896-01-15 | (ortak) | OLCUM | — |
+| K813 israil-devleti | `denetim/ENKLAV-1104/aday9.json` | 1948-05-14 → 1948-07-11 · 97 km² · en büyük kesit 1948-05-14 | (ortak) | OLCUM | — |
+| K815 afsar | `denetim/ENKLAV-1104/aday9.json` | 1736-03-08 → 1747-06-20 · 96 km² · en büyük kesit 1736-03-08 | (ortak) | OLCUM | — |
+| K816 safevi | `denetim/ENKLAV-1104/aday9.json` | 1716-01-01 → 1736-03-08 · 96 km² · en büyük kesit 1717-01-01 | (ortak) | OLCUM | — |
+| K817 zend | `denetim/ENKLAV-1104/aday9.json` | 1747-06-20 → 1794-01-01 · 96 km² · en büyük kesit 1747-06-20 | (ortak) | OLCUM | — |
+| K818 kacar | `denetim/ENKLAV-1104/aday9.json` | 1794-01-01 → 1925-10-31 · 96 km² · en büyük kesit 1794-01-01 | (ortak) | OLCUM | — |
+| K819 iran | `denetim/ENKLAV-1104/aday9.json` | 1925-10-31 → 2000-12-31 · 96 km² · en büyük kesit 1925-10-31 | (ortak) | OLCUM | — |
+| K820 norvec | `denetim/ENKLAV-1104/aday9.json` | 1905-06-07 → 2000-12-31 · 95 km² · en büyük kesit 1923-10-29 | (ortak) | OLCUM | — |
+| K821 norvec-isvec-birligi | `denetim/ENKLAV-1104/aday9.json` | 1814-11-04 → 1905-06-07 · 95 km² · en büyük kesit 1814-11-04 | (ortak) | OLCUM | — |
+| K822 ispanya | `denetim/ENKLAV-1104/aday9.json` | 1714-01-01 → 1810-05-25 · 94 km² · en büyük kesit 1809-07-09 | (ortak) | OLCUM | — |
+| K823 arjantin-cumhuriyeti | `denetim/ENKLAV-1104/aday9.json` | 1810-05-25 → 1816-07-09 · 93 km² · en büyük kesit 1810-05-25 | (ortak) | OLCUM | — |
+| K824 fransa | `denetim/ENKLAV-1104/aday9.json` | 1435-01-01 → 1439-01-01 · 93 km² · en büyük kesit 1435-09-21 | (ortak) | OLCUM | — |
+| K825 kolombiya-cumhuriyeti | `denetim/ENKLAV-1104/aday9.json` | 1917-01-26 → 1923-10-29 · 91 km² · en büyük kesit 1917-01-26 | (ortak) | OLCUM | — |
+| K826 sovyet-rusya | `denetim/ENKLAV-1104/aday9.json` | 1917-12-15 → 1918-04-08 · 91 km² · en büyük kesit 1918-01-01 | (ortak) | OLCUM | — |
+| K828 sardinya-piyemonte | `denetim/ENKLAV-1104/aday9.json` | 1861-03-07 → 1861-03-17 · 85 km² · en büyük kesit 1861-03-07 | (ortak) | OLCUM | — |
+| K829 lur-i-buzurg | `denetim/ENKLAV-1104/aday9.json` | 1335-12-01 → 1393-01-01 · 82 km² · en büyük kesit 1335-12-01 | (ortak) | OLCUM | — |
+| K830 timurlu | `denetim/ENKLAV-1104/aday9.json` | 1393-01-01 → 1442-01-16 · 82 km² · en büyük kesit 1402-09-15 | (ortak) | OLCUM | — |
+| K831 musasa | `denetim/ENKLAV-1104/aday9.json` | 1442-01-16 → 1494-10-02 · 82 km² · en büyük kesit 1442-01-16 | (ortak) | OLCUM | — |
+| K832 liberya | `denetim/ENKLAV-1104/aday9.json` | 1892-01-01 → 1923-10-29 · 79 km² · en büyük kesit 1898-01-01 | (ortak) | OLCUM | — |
+| K833 rusya | `denetim/ENKLAV-1104/aday9.json` | 1905-06-07 → 1917-03-15 · 77 km² · en büyük kesit 1905-06-07 | (ortak) | OLCUM | — |
+| K834 rusya-gecici-hukumet | `denetim/ENKLAV-1104/aday9.json` | 1917-03-15 → 1917-11-07 · 77 km² · en büyük kesit 1917-03-15 | (ortak) | OLCUM | — |
+| K835 sovyet-rusya | `denetim/ENKLAV-1104/aday9.json` | 1917-11-07 → 1917-12-06 · 77 km² · en büyük kesit 1917-11-07 | (ortak) | OLCUM | — |
+| K836 hollanda | `denetim/ENKLAV-1104/aday9.json` | 1820-03-28 → 1830-10-04 · 75 km² · en büyük kesit 1820-03-28 | (ortak) | OLCUM | — |
+| K837 sovyet-rusya | `denetim/ENKLAV-1104/aday9.json` | 1917-11-07 → 1918-04-08 · 73 km² · en büyük kesit 1918-01-04 | (ortak) | OLCUM | — |
+| K838 sovyet-rusya | `denetim/ENKLAV-1104/aday9.json` | 1917-11-07 → 1918-01-01 · 70 km² · en büyük kesit 1917-12-15 | (ortak) | OLCUM | — |
+| K839 transkafkasya | `denetim/ENKLAV-1104/aday9.json` | 1917-11-07 → 1918-03-14 · 69 km² · en büyük kesit 1918-02-28 | (ortak) | OLCUM | — |
+| K840 ilhanli | `denetim/ENKLAV-1104/aday9.json` | 1281-01-01 → 1308-01-01 · 68 km² · en büyük kesit 1281-01-01 | (ortak) | OLCUM | — |
+| K841 haudenosaunee | `denetim/ENKLAV-1104/aday9.json` | 1667-01-01 → 1777-01-01 · 68 km² · en büyük kesit 1679-01-01 | (ortak) | OLCUM | — |
+| K842 OSMANLI | `denetim/ENKLAV-1104/aday9.json` | 1354-08-01 → 1392-11-01 · 65 km² · en büyük kesit 1361-01-01 | (ortak) | OLCUM | — |
+| K843 venedik | `denetim/ENKLAV-1104/aday9.json` | 1443-01-01 → 1571-01-01 · 63 km² · en büyük kesit 1458-05-01 | (ortak) | OLCUM | — |
+| K844 zeta | `denetim/ENKLAV-1104/aday9.json` | 1356-01-01 → 1421-01-01 · 63 km² · en büyük kesit 1387-01-01 | (ortak) | OLCUM | — |
+| K845 sirbistan-nemanjic | `denetim/ENKLAV-1104/aday9.json` | 1281-01-01 → 1356-01-01 · 62 km² · en büyük kesit 1281-01-01 | (ortak) | OLCUM | — |
+| K846 sirp-despotlugu | `denetim/ENKLAV-1104/aday9.json` | 1421-01-01 → 1443-01-01 · 62 km² · en büyük kesit 1421-01-01 | (ortak) | OLCUM | — |
+| K847 finlandiya | `denetim/ENKLAV-1104/aday9.json` | 1917-12-06 → 2000-12-31 · 62 km² · en büyük kesit 1920-10-14 | (ortak) | OLCUM | — |
+| K848 cin-cumhuriyeti | `denetim/ENKLAV-1104/aday9.json` | 1911-10-10 → 1923-10-29 · 58 km² · en büyük kesit 1911-10-10 | (ortak) | OLCUM | — |
+| K849 italya | `denetim/ENKLAV-1104/aday9.json` | 1918-11-03 → 1918-11-11 · 58 km² · en büyük kesit 1918-11-03 | (ortak) | OLCUM | — |
+| K850 qing-hanedani | `denetim/ENKLAV-1104/aday9.json` | 1897-06-05 → 1911-10-10 · 58 km² · en büyük kesit 1898-03-27 | (ortak) | OLCUM | — |
+| K851 ezo-cumhuriyeti | `denetim/ENKLAV-1104/aday9.json` | 1869-01-27 → 1869-06-27 · 55 km² · en büyük kesit 1869-01-27 | (ortak) | OLCUM | — |
+| K852 qing-hanedani | `denetim/ENKLAV-1104/aday9.json` | 1853-03-19 → 1860-06-02 · 53 km² · en büyük kesit 1853-03-19 | (ortak) | OLCUM | — |
+| K853 timurlu | `denetim/ENKLAV-1104/aday9.json` | 1402-07-28 → 1402-09-15 · 52 km² · en büyük kesit 1402-08-17 | (ortak) | OLCUM | — |
+| K854 romanya-kralligi | `denetim/ENKLAV-1104/aday9.json` | 1918-04-08 → 1918-04-09 · 52 km² · en büyük kesit 1918-04-08 | (ortak) | OLCUM | — |
+| K855 sokoto | `denetim/ENKLAV-1104/aday9.json` | 1901-01-01 → 1903-07-27 · 52 km² · en büyük kesit 1901-01-01 | (ortak) | OLCUM | — |
+| K856 rusya | `denetim/ENKLAV-1104/aday9.json` | 1878-08-03 → 1917-03-15 · 51 km² · en büyük kesit 1878-08-03 | (ortak) | OLCUM | — |
+| K857 rusya-gecici-hukumet | `denetim/ENKLAV-1104/aday9.json` | 1917-03-15 → 1917-11-07 · 51 km² · en büyük kesit 1917-03-15 | (ortak) | OLCUM | — |
+| K858 qing-hanedani | `denetim/ENKLAV-1104/aday9.json` | 1863-12-04 → 1864-07-19 · 50 km² · en büyük kesit 1863-12-04 | (ortak) | OLCUM | — |
 
 ## 3. Yalnız KAYNAK-GEREK
 
@@ -1166,11 +1252,11 @@ _Bugünkü veride eşleşen satır yok._
 | almanya (962-1806 Kutsal Roma) | `data/devletler.js` | 153 s: dönemi 1806 öncesi | İmparatorluk çatısı + üye prenslikler (brixen, salzburg, tirol, prusya…) yan yana | EMRE KARARI | — |
 | kastilya / leon-kralligi (1037-1065, 1072-1157, 1230) | `data/devletler.js` | 23 s: dönemi | Kişisel birlik dönemlerinde aynı hükümdar iki kimlikle | EMRE KARARI | — |
 
-### M · Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) (82)
+### M · Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) (165)
 
 - Dayanak: MOTOR SORUSU (HAVVA/Emre)
 - Kural: Kopukluk tâbinin komşu sayılmasından ya da < 1 km koridordan; veri düzeltmesi değil, evren/motor kararı.
-- Ortak öneri (aksi yazılmadıkça): Motor sorusu.
+- Ortak öneri (aksi yazılmadıkça): Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
 |---|---|---|---|---|---|
@@ -1199,60 +1285,143 @@ _Bugünkü veride eşleşen satır yok._
 | K494 | `denetim/ENKLAV-1104/hukumler5.json` | Bucumbura 1897 → 1916-06-06 Alman Doğu Afrikası, çevre 'burundi' (Alman himayesindeki krallık): tâbinin yabancı sayılması (KOVALAR M). Ek: Bukavu Belçika Kongos | Burundi v: (Alman himayesi); Bukavu kongo-serbest-devleti/belcika-kongosu (kaynakla). | MOTOR SORUSU | — |
 | K508 | `denetim/ENKLAV-1104/hukumler6.json` | Portekiz parçası 1505-1663, içinde hiç yerleşim noktası yok (Vijayanagara/Kalikut komşu): motorun noktasız toprak ataması. | Motor sorusu (HAVVA); Malabar Portekiz kalelerinin (Koçin, Kannur) noktaları ölçülsün. | MOTOR SORUSU | — |
 | K510 | `denetim/ENKLAV-1104/hukumler6.json` | Hollanda parçası 1663-1771, içinde nokta yok (Meysur/Nayak/Kalikut komşu): noktasız motor ataması (K508'in ardılı). | Motor sorusu; Koçin VOC noktası ölçülsün. | MOTOR SORUSU | — |
-| K513 | `denetim/ENKLAV-1104/hukumler6.json` | Güney Afrika Birliği parçası 1917-1920, içinde nokta yok (İngiliz/Portekiz komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K518 | `denetim/ENKLAV-1104/hukumler6.json` | Portekiz parçası 1891-1923, içinde nokta yok (İngiliz/Bemba komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K520 | `denetim/ENKLAV-1104/hukumler6.json` | Fransa parçası 1922-1923, içinde nokta yok (İngiliz Kamerunu komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K541 | `denetim/ENKLAV-1104/hukumler6.json` | Habeşistan parçası 1908-1923, içinde nokta yok (İtalya/Adal komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K546 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz Malaya parçası 1909-1946, içinde nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K547 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz Malaya parçası 1874-1888, içinde nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K555 | `denetim/ENKLAV-1104/hukumler6.json` | Qing parçası 1676-1677, içinde nokta yok (San-fan isyanı komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K513 | `denetim/ENKLAV-1104/hukumler6.json` | Güney Afrika Birliği parçası 1917-1920, içinde nokta yok (İngiliz/Portekiz komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K518 | `denetim/ENKLAV-1104/hukumler6.json` | Portekiz parçası 1891-1923, içinde nokta yok (İngiliz/Bemba komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K520 | `denetim/ENKLAV-1104/hukumler6.json` | Fransa parçası 1922-1923, içinde nokta yok (İngiliz Kamerunu komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K541 | `denetim/ENKLAV-1104/hukumler6.json` | Habeşistan parçası 1908-1923, içinde nokta yok (İtalya/Adal komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K546 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz Malaya parçası 1909-1946, içinde nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K547 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz Malaya parçası 1874-1888, içinde nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K555 | `denetim/ENKLAV-1104/hukumler6.json` | Qing parçası 1676-1677, içinde nokta yok (San-fan isyanı komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
 | K556 | `denetim/ENKLAV-1104/hukumler6.json` | Danimarka parçası 1620-11-19 → 1845-02-22, içinde nokta yok: uçlar Tranquebar'ın (Tharangambadi) Danimarka dönemine uyuyor ama noktası yok — gerçek eksklav nokt | Tranquebar noktası eklensin (YER-1104 KASA-YER kuralıyla, kaynakla); motor sorusu. | MOTOR SORUSU | — |
-| K559 | `denetim/ENKLAV-1104/hukumler6.json` | Osmanlı parçası 1738-05-08 → 08-01, içinde nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K560 | `denetim/ENKLAV-1104/hukumler6.json` | Habsburg Macaristan parçası 1688, içinde nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K562 | `denetim/ENKLAV-1104/hukumler6.json` | Norveç parçası 1905-1920, içinde nokta yok (Rusya/Finlandiya komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K580 | `denetim/ENKLAV-1104/hukumler6.json` | Rus Geçici Hükûmeti parçası 1917, içinde nokta yok (İsveç komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K581 | `denetim/ENKLAV-1104/hukumler6.json` | K580'in Sovyet ardılı, 1917-11-07 → 12-06 (Finlandiya bağımsızlığı), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K582 | `denetim/ENKLAV-1104/hukumler6.json` | Salzburg başpiskoposluğu parçası 1281-1555, içinde nokta yok (Avusturya/Macar komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K559 | `denetim/ENKLAV-1104/hukumler6.json` | Osmanlı parçası 1738-05-08 → 08-01, içinde nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K560 | `denetim/ENKLAV-1104/hukumler6.json` | Habsburg Macaristan parçası 1688, içinde nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K562 | `denetim/ENKLAV-1104/hukumler6.json` | Norveç parçası 1905-1920, içinde nokta yok (Rusya/Finlandiya komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K580 | `denetim/ENKLAV-1104/hukumler6.json` | Rus Geçici Hükûmeti parçası 1917, içinde nokta yok (İsveç komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K581 | `denetim/ENKLAV-1104/hukumler6.json` | K580'in Sovyet ardılı, 1917-11-07 → 12-06 (Finlandiya bağımsızlığı), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K582 | `denetim/ENKLAV-1104/hukumler6.json` | Salzburg başpiskoposluğu parçası 1281-1555, içinde nokta yok (Avusturya/Macar komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
 | K584 | `denetim/ENKLAV-1104/hukumler6.json` | Sovyet Rusya parçası 1917-1920-10-14 (Tartu: Petsamo Finlandiya'ya), içinde nokta yok: noktasız motor ataması. | Motor sorusu; Peçenga noktası ölçülsün. | MOTOR SORUSU | — |
-| K592 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz parçası 1915-07-09 → 1920-12-17, içinde nokta yok (Güney Afrika Birliği komşu; Alman Güneybatı Afrikası'nın teslimi 1915-07-09): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K608 | `denetim/ENKLAV-1104/hukumler7.json` | İngiliz parçası 1895-1899, içinde nokta yok (Gonja/Fransız komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K609 | `denetim/ENKLAV-1104/hukumler7.json` | İngiliz Kuzey Amerikası parçası 1830-1923, içinde nokta yok (Kanada/Inuit komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K592 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz parçası 1915-07-09 → 1920-12-17, içinde nokta yok (Güney Afrika Birliği komşu; Alman Güneybatı Afrikası'nın teslimi 1915-07-09): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K608 | `denetim/ENKLAV-1104/hukumler7.json` | İngiliz parçası 1895-1899, içinde nokta yok (Gonja/Fransız komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K609 | `denetim/ENKLAV-1104/hukumler7.json` | İngiliz Kuzey Amerikası parçası 1830-1923, içinde nokta yok (Kanada/Inuit komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
 | K612 | `denetim/ENKLAV-1104/hukumler7.json` | Newfoundland dominyonu parçası 1923-1934, içinde nokta yok (Labrador?): noktasız motor ataması. | Motor sorusu; Labrador noktası ölçülsün. | MOTOR SORUSU | — |
-| K613 | `denetim/ENKLAV-1104/hukumler7.json` | K612'nin ardılı (Komisyon Hükûmeti 1934-1949), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K623 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz parçası 1906-1923, nokta yok (Fransız komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K631 | `denetim/ENKLAV-1104/hukumler7.json` | İsveç parçası 1905-1923, nokta yok (Finlandiya/Norveç komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K638 | `denetim/ENKLAV-1104/hukumler7.json` | Rus parçası 1888-1917, nokta yok (Buhara/Afganistan komşu — Pamir): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K639 | `denetim/ENKLAV-1104/hukumler7.json` | K638 ardılı (Geçici Hükûmet 1917), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K640 | `denetim/ENKLAV-1104/hukumler7.json` | K638 ardılı (Sovyet Rusya 1917-1920), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K642 | `denetim/ENKLAV-1104/hukumler7.json` | İngiliz parçası 1895-1923, nokta yok (Fransız/Portekiz komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K643 | `denetim/ENKLAV-1104/hukumler7.json` | Çin Cumhuriyeti parçası 1911-1912, nokta yok (İngiliz Hindistanı/Qing komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K658 | `denetim/ENKLAV-1104/hukumler7.json` | Japon parçası 1942-02-24 → 03-09, nokta yok (Hollanda Hint komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K659 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz Timoru parçası 1945-1975, nokta yok: noktasız motor ataması (Dili noktası ölçülsün). | (ortak) | MOTOR SORUSU | — |
-| K660 | `denetim/ENKLAV-1104/hukumler7.json` | K659 ardılı (Endonezya Doğu Timoru 1975-1999), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K661 | `denetim/ENKLAV-1104/hukumler7.json` | K659 ardılı (UNTAET 1999-), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K663 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz parçası 1914-1942, nokta yok (Hollanda Hint komşu — Timor): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K664 | `denetim/ENKLAV-1104/hukumler7.json` | Brezilya parçası 1889-1906, nokta yok (Paraguay komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K665 | `denetim/ENKLAV-1104/hukumler7.json` | K664 öncülü (Brezilya İmparatorluğu 1872-1889), nokta yok. | (ortak) | MOTOR SORUSU | — |
+| K613 | `denetim/ENKLAV-1104/hukumler7.json` | K612'nin ardılı (Komisyon Hükûmeti 1934-1949), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K623 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz parçası 1906-1923, nokta yok (Fransız komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K631 | `denetim/ENKLAV-1104/hukumler7.json` | İsveç parçası 1905-1923, nokta yok (Finlandiya/Norveç komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K638 | `denetim/ENKLAV-1104/hukumler7.json` | Rus parçası 1888-1917, nokta yok (Buhara/Afganistan komşu — Pamir): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K639 | `denetim/ENKLAV-1104/hukumler7.json` | K638 ardılı (Geçici Hükûmet 1917), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K640 | `denetim/ENKLAV-1104/hukumler7.json` | K638 ardılı (Sovyet Rusya 1917-1920), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K642 | `denetim/ENKLAV-1104/hukumler7.json` | İngiliz parçası 1895-1923, nokta yok (Fransız/Portekiz komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K643 | `denetim/ENKLAV-1104/hukumler7.json` | Çin Cumhuriyeti parçası 1911-1912, nokta yok (İngiliz Hindistanı/Qing komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K658 | `denetim/ENKLAV-1104/hukumler7.json` | Japon parçası 1942-02-24 → 03-09, nokta yok (Hollanda Hint komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K659 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz Timoru parçası 1945-1975, nokta yok: noktasız motor ataması (Dili noktası ölçülsün). | Motor sorusu. | MOTOR SORUSU | — |
+| K660 | `denetim/ENKLAV-1104/hukumler7.json` | K659 ardılı (Endonezya Doğu Timoru 1975-1999), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K661 | `denetim/ENKLAV-1104/hukumler7.json` | K659 ardılı (UNTAET 1999-), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K663 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz parçası 1914-1942, nokta yok (Hollanda Hint komşu — Timor): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K664 | `denetim/ENKLAV-1104/hukumler7.json` | Brezilya parçası 1889-1906, nokta yok (Paraguay komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K665 | `denetim/ENKLAV-1104/hukumler7.json` | K664 öncülü (Brezilya İmparatorluğu 1872-1889), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
 | K668 | `denetim/ENKLAV-1104/hukumler7.json` | Rus parçası 1774-1778, nokta yok (Kırım komşu): noktasız motor ataması. | Motor sorusu (Kerç/Yenikale noktası ölçülsün). | MOTOR SORUSU | — |
-| K670 | `denetim/ENKLAV-1104/hukumler7.json` | Belçika parçası 1916-05-01 → 05-06, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K671 | `denetim/ENKLAV-1104/hukumler7.json` | Rus parçası 1888-1917, nokta yok (Afganistan/Kaçar komşu — Kuşka): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K672 | `denetim/ENKLAV-1104/hukumler7.json` | K671 ardılı (Geçici Hükûmet), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K673 | `denetim/ENKLAV-1104/hukumler7.json` | K671 ardılı (Sovyet Rusya), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K684 | `denetim/ENKLAV-1104/hukumler7.json` | ABD parçası 1874-1923, nokta yok (Kanada komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K685 | `denetim/ENKLAV-1104/hukumler7.json` | Alman parçası 1902-1916, nokta yok (Kamerun): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K688 | `denetim/ENKLAV-1104/hukumler7.json` | Safevî parçası 1578-10-05 → 11-01, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K693 | `denetim/ENKLAV-1104/hukumler7.json` | Habsburg parçası 1918-11-03 → 11-11, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K697 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz parçası 1914-1923, nokta yok (Belçika Kongosu komşu — Kabinda?): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K702 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1922-1923, nokta yok (Kamerun): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K703 | `denetim/ENKLAV-1104/hukumler8.json` | Rus parçası 1905-1917, nokta yok (Norveç/Finlandiya komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K704 | `denetim/ENKLAV-1104/hukumler8.json` | K703 ardılı (Geçici Hükûmet), nokta yok. | (ortak) | MOTOR SORUSU | — |
-| K710 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1911-1915, nokta yok (Portekiz/Alman GB Afrikası): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K670 | `denetim/ENKLAV-1104/hukumler7.json` | Belçika parçası 1916-05-01 → 05-06, nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K671 | `denetim/ENKLAV-1104/hukumler7.json` | Rus parçası 1888-1917, nokta yok (Afganistan/Kaçar komşu — Kuşka): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K672 | `denetim/ENKLAV-1104/hukumler7.json` | K671 ardılı (Geçici Hükûmet), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K673 | `denetim/ENKLAV-1104/hukumler7.json` | K671 ardılı (Sovyet Rusya), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K684 | `denetim/ENKLAV-1104/hukumler7.json` | ABD parçası 1874-1923, nokta yok (Kanada komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K685 | `denetim/ENKLAV-1104/hukumler7.json` | Alman parçası 1902-1916, nokta yok (Kamerun): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K688 | `denetim/ENKLAV-1104/hukumler7.json` | Safevî parçası 1578-10-05 → 11-01, nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K693 | `denetim/ENKLAV-1104/hukumler7.json` | Habsburg parçası 1918-11-03 → 11-11, nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K697 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz parçası 1914-1923, nokta yok (Belçika Kongosu komşu — Kabinda?): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K702 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1922-1923, nokta yok (Kamerun): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K703 | `denetim/ENKLAV-1104/hukumler8.json` | Rus parçası 1905-1917, nokta yok (Norveç/Finlandiya komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K704 | `denetim/ENKLAV-1104/hukumler8.json` | K703 ardılı (Geçici Hükûmet), nokta yok. | Motor sorusu. | MOTOR SORUSU | — |
+| K710 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1911-1915, nokta yok (Portekiz/Alman GB Afrikası): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
 | K723 | `denetim/ENKLAV-1104/hukumler8.json` | İspanya parçası 1894-2000, nokta yok (Fas komşu — Melilla çevresi?): noktasız motor ataması. | Motor sorusu (Melilla/Ceuta noktaları ölçülsün). | MOTOR SORUSU | — |
-| K726 | `denetim/ENKLAV-1104/hukumler8.json` | Sovyet Rusya parçası 1917-1918, nokta yok (Moldova DC): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K738 | `denetim/ENKLAV-1104/hukumler8.json` | Sardinya-Piyemonte parçası 1861-03-07 → 03-17, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K739 | `denetim/ENKLAV-1104/hukumler8.json` | Bulgar çarlığı parçası 1390-1393, nokta yok (Eflak/Dobruca komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K741 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1895-1923, nokta yok (Fransız komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K744 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz Sudanı parçası 1919-1923, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K746 | `denetim/ENKLAV-1104/hukumler8.json` | Habsburg parçası 1815-1918, nokta yok (İsviçre/Liechtenstein komşu — Vorarlberg?): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K757 | `denetim/ENKLAV-1104/hukumler8.json` | Macar parçası 1522-1537, nokta yok (Osmanlı/Venedik komşu — Klis?): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
-| K758 | `denetim/ENKLAV-1104/hukumler8.json` | Habsburg parçası 1918-11-08 → 11-11, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K726 | `denetim/ENKLAV-1104/hukumler8.json` | Sovyet Rusya parçası 1917-1918, nokta yok (Moldova DC): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K738 | `denetim/ENKLAV-1104/hukumler8.json` | Sardinya-Piyemonte parçası 1861-03-07 → 03-17, nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K739 | `denetim/ENKLAV-1104/hukumler8.json` | Bulgar çarlığı parçası 1390-1393, nokta yok (Eflak/Dobruca komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K741 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1895-1923, nokta yok (Fransız komşu): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K744 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz Sudanı parçası 1919-1923, nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K746 | `denetim/ENKLAV-1104/hukumler8.json` | Habsburg parçası 1815-1918, nokta yok (İsviçre/Liechtenstein komşu — Vorarlberg?): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K757 | `denetim/ENKLAV-1104/hukumler8.json` | Macar parçası 1522-1537, nokta yok (Osmanlı/Venedik komşu — Klis?): noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K758 | `denetim/ENKLAV-1104/hukumler8.json` | Habsburg parçası 1918-11-08 → 11-11, nokta yok: noktasız motor ataması. | Motor sorusu. | MOTOR SORUSU | — |
+| K759 | `denetim/ENKLAV-1104/hukumler9.json` | yunanistan parçası 1913-08-10 → 1913-11-14, içinde hiç yerleşim noktası yok (komşu: sirbistan-kralligi, OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K761 | `denetim/ENKLAV-1104/hukumler9.json` | fransa-cumhuriyet parçası 1890-11-23 → 1918-11-19, içinde hiç yerleşim noktası yok (komşu: almanya, belcika): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K762 | `denetim/ENKLAV-1104/hukumler9.json` | ingiltere parçası 1704-08-04 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: ispanya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K764 | `denetim/ENKLAV-1104/hukumler9.json` | fransa-cumhuriyet parçası 1922-07-20 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ingiltere, ingiliz-kamerun): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K767 | `denetim/ENKLAV-1104/hukumler9.json` | fransa-cumhuriyet parçası 1860-03-24 → 1860-06-14, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K768 | `denetim/ENKLAV-1104/hukumler9.json` | sardinya-piyemonte parçası 1859-11-10 → 1860-03-24, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K769 | `denetim/ENKLAV-1104/hukumler9.json` | baden parçası 1815-06-09 → 1871-01-18, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K773 | `denetim/ENKLAV-1104/hukumler9.json` | habsburg parçası 1815-06-09 → 1859-11-10, içinde hiç yerleşim noktası yok (komşu: avusturya, isvicre): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K774 | `denetim/ENKLAV-1104/hukumler9.json` | sardinya-piyemonte parçası 1859-11-10 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K775 | `denetim/ENKLAV-1104/hukumler9.json` | rusya parçası 1877-12-10 → 1878-07-13, içinde hiç yerleşim noktası yok (komşu: OSMANLI, romanya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K776 | `denetim/ENKLAV-1104/hukumler9.json` | liberya parçası 1885-11-11 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K777 | `denetim/ENKLAV-1104/hukumler9.json` | OSMANLI parçası 1574-08-24 → 1574-08-25, içinde hiç yerleşim noktası yok (komşu: hafsi, ispanya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K779 | `denetim/ENKLAV-1104/hukumler9.json` | fransa-cumhuriyet parçası 1918-11-11 → 1918-11-17, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K780 | `denetim/ENKLAV-1104/hukumler9.json` | italya parçası 1861-03-17 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K781 | `denetim/ENKLAV-1104/hukumler9.json` | sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K782 | `denetim/ENKLAV-1104/hukumler9.json` | sirbistan-kralligi parçası 1913-08-10 → 1918-12-01, içinde hiç yerleşim noktası yok (komşu: yunanistan, bulgaristan-kralligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K783 | `denetim/ENKLAV-1104/hukumler9.json` | yugoslavya parçası 1918-12-01 → 1920-01-01, içinde hiç yerleşim noktası yok (komşu: yunanistan, bulgaristan-kralligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K788 | `denetim/ENKLAV-1104/hukumler9.json` | baden parçası 1815-06-09 → 1871-01-18, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K789 | `denetim/ENKLAV-1104/hukumler9.json` | macaristan-naiplik parçası 1919-09-10 → 1920-06-04, içinde hiç yerleşim noktası yok (komşu: cekoslovakya, itilaf-emaneti): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K792 | `denetim/ENKLAV-1104/hukumler9.json` | safevi parçası 1545-12-26 → 1701-01-01, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K793 | `denetim/ENKLAV-1104/hukumler9.json` | fransa-cumhuriyet parçası 1897-03-20 → 1897-05-14, içinde hiç yerleşim noktası yok (komşu: ingiltere, habesistan): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K794 | `denetim/ENKLAV-1104/hukumler9.json` | habsburg parçası 1918-11-03 → 1918-11-11, içinde hiç yerleşim noktası yok (komşu: avusturya, italya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K795 | `denetim/ENKLAV-1104/hukumler9.json` | sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, sardinya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K796 | `denetim/ENKLAV-1104/hukumler9.json` | fransiz-cinhindi parçası 1912-02-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: cin-cumhuriyeti): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K797 | `denetim/ENKLAV-1104/hukumler9.json` | avusturya-cumhuriyet parçası 1918-11-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: almanya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K798 | `denetim/ENKLAV-1104/hukumler9.json` | liberya parçası 1892-01-01 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K799 | `denetim/ENKLAV-1104/hukumler9.json` | kolombiya-cumhuriyeti parçası 1917-01-26 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ekvador-cumhuriyeti): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K800 | `denetim/ENKLAV-1104/hukumler9.json` | habsburg parçası 1815-06-09 → 1859-11-10, içinde hiç yerleşim noktası yok (komşu: isvicre, milano-dukaligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K801 | `denetim/ENKLAV-1104/hukumler9.json` | isvicre parçası 1918-11-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: avusturya-cumhuriyet, almanya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K802 | `denetim/ENKLAV-1104/hukumler9.json` | fransa-cumhuriyet parçası 1814-05-04 → 1814-05-30, içinde hiç yerleşim noktası yok (komşu: hollanda): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K804 | `denetim/ENKLAV-1104/hukumler9.json` | yunanistan parçası 1913-08-10 → 1913-11-14, içinde hiç yerleşim noktası yok (komşu: sirbistan-kralligi, OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K805 | `denetim/ENKLAV-1104/hukumler9.json` | arjantin-cumhuriyeti parçası 1884-10-12 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: sili-cumhuriyeti): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K806 | `denetim/ENKLAV-1104/hukumler9.json` | belcika parçası 1916-05-01 → 1916-05-06, içinde hiç yerleşim noktası yok (komşu: ingiltere, alman-dogu-afrikasi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K807 | `denetim/ENKLAV-1104/hukumler9.json` | hollanda parçası 1802-01-01 → 1802-03-27, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K808 | `denetim/ENKLAV-1104/hukumler9.json` | bati-hint-federasyonu parçası 1958-01-03 → 1962-05-31, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K809 | `denetim/ENKLAV-1104/hukumler9.json` | maratha parçası 1674-06-06 → 1737-04-01, içinde hiç yerleşim noktası yok (komşu: babur-imparatorlugu, portekiz): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K810 | `denetim/ENKLAV-1104/hukumler9.json` | bicapur parçası 1636-01-01 → 1674-06-06, içinde hiç yerleşim noktası yok (komşu: babur-imparatorlugu, portekiz): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K811 | `denetim/ENKLAV-1104/hukumler9.json` | romanya-kralligi parçası 1918-04-08 → 1918-04-09, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, moldova-demokratik-cum): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K812 | `denetim/ENKLAV-1104/hukumler9.json` | ingiliz-hindistani parçası 1896-01-15 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransiz-cinhindi, san-devletleri): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K813 | `denetim/ENKLAV-1104/hukumler9.json` | israil-devleti parçası 1948-05-14 → 1948-07-11, içinde hiç yerleşim noktası yok (komşu: urdun-emirligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K815 | `denetim/ENKLAV-1104/hukumler9.json` | afsar parçası 1736-03-08 → 1747-06-20, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K816 | `denetim/ENKLAV-1104/hukumler9.json` | safevi parçası 1716-01-01 → 1736-03-08, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K817 | `denetim/ENKLAV-1104/hukumler9.json` | zend parçası 1747-06-20 → 1794-01-01, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K818 | `denetim/ENKLAV-1104/hukumler9.json` | kacar parçası 1794-01-01 → 1925-10-31, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K819 | `denetim/ENKLAV-1104/hukumler9.json` | iran parçası 1925-10-31 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: irak-kralligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K820 | `denetim/ENKLAV-1104/hukumler9.json` | norvec parçası 1905-06-07 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, finlandiya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K821 | `denetim/ENKLAV-1104/hukumler9.json` | norvec-isvec-birligi parçası 1814-11-04 → 1905-06-07, içinde hiç yerleşim noktası yok (komşu: rusya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K822 | `denetim/ENKLAV-1104/hukumler9.json` | ispanya parçası 1714-01-01 → 1810-05-25, içinde hiç yerleşim noktası yok (komşu: ispanyol-peru): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K823 | `denetim/ENKLAV-1104/hukumler9.json` | arjantin-cumhuriyeti parçası 1810-05-25 → 1816-07-09, içinde hiç yerleşim noktası yok (komşu: ispanyol-peru): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K824 | `denetim/ENKLAV-1104/hukumler9.json` | fransa parçası 1435-01-01 → 1439-01-01, içinde hiç yerleşim noktası yok (komşu: burgonya, ingiltere): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K825 | `denetim/ENKLAV-1104/hukumler9.json` | kolombiya-cumhuriyeti parçası 1917-01-26 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ekvador-cumhuriyeti): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K826 | `denetim/ENKLAV-1104/hukumler9.json` | sovyet-rusya parçası 1917-12-15 → 1918-04-08, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi, moldova-demokratik-cum): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K828 | `denetim/ENKLAV-1104/hukumler9.json` | sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, sardinya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K829 | `denetim/ENKLAV-1104/hukumler9.json` | lur-i-buzurg parçası 1335-12-01 → 1393-01-01, içinde hiç yerleşim noktası yok (komşu: celayirli): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K830 | `denetim/ENKLAV-1104/hukumler9.json` | timurlu parçası 1393-01-01 → 1442-01-16, içinde hiç yerleşim noktası yok (komşu: celayirli): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K831 | `denetim/ENKLAV-1104/hukumler9.json` | musasa parçası 1442-01-16 → 1494-10-02, içinde hiç yerleşim noktası yok (komşu: karakoyunlu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K832 | `denetim/ENKLAV-1104/hukumler9.json` | liberya parçası 1892-01-01 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K833 | `denetim/ENKLAV-1104/hukumler9.json` | rusya parçası 1905-06-07 → 1917-03-15, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K834 | `denetim/ENKLAV-1104/hukumler9.json` | rusya-gecici-hukumet parçası 1917-03-15 → 1917-11-07, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K835 | `denetim/ENKLAV-1104/hukumler9.json` | sovyet-rusya parçası 1917-11-07 → 1917-12-06, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K836 | `denetim/ENKLAV-1104/hukumler9.json` | hollanda parçası 1820-03-28 → 1830-10-04, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, luksemburg-hollanda-birligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K837 | `denetim/ENKLAV-1104/hukumler9.json` | sovyet-rusya parçası 1917-11-07 → 1918-04-08, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi, moldova-demokratik-cum): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K838 | `denetim/ENKLAV-1104/hukumler9.json` | sovyet-rusya parçası 1917-11-07 → 1918-01-01, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K839 | `denetim/ENKLAV-1104/hukumler9.json` | transkafkasya parçası 1917-11-07 → 1918-03-14, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K840 | `denetim/ENKLAV-1104/hukumler9.json` | ilhanli parçası 1281-01-01 → 1308-01-01, içinde hiç yerleşim noktası yok (komşu: selcuklu, ahiler): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K841 | `denetim/ENKLAV-1104/hukumler9.json` | haudenosaunee parçası 1667-01-01 → 1777-01-01, içinde hiç yerleşim noktası yok (komşu: fransa): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K842 | `denetim/ENKLAV-1104/hukumler9.json` | OSMANLI parçası 1354-08-01 → 1392-11-01, içinde hiç yerleşim noktası yok (komşu: eretna, burhaneddin): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K843 | `denetim/ENKLAV-1104/hukumler9.json` | venedik parçası 1443-01-01 → 1571-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, OSMANLI): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K844 | `denetim/ENKLAV-1104/hukumler9.json` | zeta parçası 1356-01-01 → 1421-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, sirbistan-nemanjic): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K845 | `denetim/ENKLAV-1104/hukumler9.json` | sirbistan-nemanjic parçası 1281-01-01 → 1356-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K846 | `denetim/ENKLAV-1104/hukumler9.json` | sirp-despotlugu parçası 1421-01-01 → 1443-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, venedik): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K847 | `denetim/ENKLAV-1104/hukumler9.json` | finlandiya parçası 1917-12-06 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: isvec): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K848 | `denetim/ENKLAV-1104/hukumler9.json` | cin-cumhuriyeti parçası 1911-10-10 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: san-devletleri, ingiliz-hindistani): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K849 | `denetim/ENKLAV-1104/hukumler9.json` | italya parçası 1918-11-03 → 1918-11-11, içinde hiç yerleşim noktası yok (komşu: isvicre, avusturya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K850 | `denetim/ENKLAV-1104/hukumler9.json` | qing-hanedani parçası 1897-06-05 → 1911-10-10, içinde hiç yerleşim noktası yok (komşu: san-devletleri, ingiliz-hindistani): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K851 | `denetim/ENKLAV-1104/hukumler9.json` | ezo-cumhuriyeti parçası 1869-01-27 → 1869-06-27, içinde hiç yerleşim noktası yok (komşu: meiji-japonya): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K852 | `denetim/ENKLAV-1104/hukumler9.json` | qing-hanedani parçası 1853-03-19 → 1860-06-02, içinde hiç yerleşim noktası yok (komşu: taiping): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K853 | `denetim/ENKLAV-1104/hukumler9.json` | timurlu parçası 1402-07-28 → 1402-09-15, içinde hiç yerleşim noktası yok (komşu: mehmed-celebi, candar): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K854 | `denetim/ENKLAV-1104/hukumler9.json` | romanya-kralligi parçası 1918-04-08 → 1918-04-09, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, moldova-demokratik-cum): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K855 | `denetim/ENKLAV-1104/hukumler9.json` | sokoto parçası 1901-01-01 → 1903-07-27, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K856 | `denetim/ENKLAV-1104/hukumler9.json` | rusya parçası 1878-08-03 → 1917-03-15, içinde hiç yerleşim noktası yok (komşu: romanya, romanya-kralligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K857 | `denetim/ENKLAV-1104/hukumler9.json` | rusya-gecici-hukumet parçası 1917-03-15 → 1917-11-07, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K858 | `denetim/ENKLAV-1104/hukumler9.json` | qing-hanedani parçası 1863-12-04 → 1864-07-19, içinde hiç yerleşim noktası yok (komşu: taiping): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |

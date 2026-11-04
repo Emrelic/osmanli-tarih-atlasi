@@ -1,0 +1,3796 @@
+[
+{
+"devlet": "yunanistan",
+"f": "1913-08-10",
+"t": "1913-11-14",
+"alan_max": 479.6,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"sirbistan-kralligi": 0.621,
+"bulgaristan-kralligi": 0.156,
+"OSMANLI": 0.224
+},
+"koridor_km": 5.6,
+"koridor": {
+"sirbistan-kralligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Petriç",
+"sahip": "bulgaristan-kralligi"
+}
+],
+"devlet_ad": "Yunanistan",
+"nokta": [
+41.192,
+22.818
+],
+"buyuk_gun": "1913-08-10",
+"yerlesimler": [],
+"no": "K759",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sardinya-piyemonte",
+"f": "1859-11-10",
+"t": "1860-03-24",
+"alan_max": 474.4,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"sardinya": 0.491,
+"fransa-cumhuriyet": 0.024,
+"isvicre": 0.48
+},
+"koridor_km": 95.4,
+"koridor": {
+"sardinya": 4,
+"KENDI": 1,
+"isvicre": 4
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Martigny (Martinach)",
+"sahip": "isvicre"
+},
+{
+"ad": "Cenevre",
+"sahip": "isvicre"
+},
+{
+"ad": "Saint-Maurice d'Agaune",
+"sahip": null
+},
+{
+"ad": "Sion (Sitten)",
+"sahip": "isvicre"
+}
+],
+"devlet_ad": "Sardinya-Piyemonte Krallığı (Savoya)",
+"nokta": [
+45.98,
+6.121
+],
+"buyuk_gun": "1859-11-10",
+"yerlesimler": [
+{
+"ad": "Annemasse",
+"sahip": "sardinya",
+"eksklav": false
+}
+],
+"no": "K760",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransa-cumhuriyet",
+"f": "1890-11-23",
+"t": "1918-11-19",
+"alan_max": 473.9,
+"kesit": 58,
+"siniflar": {
+"KARA-EKSKLAV": 58
+},
+"komsular": {
+"luksemburg": 0.355,
+"belcika": 0.479,
+"almanya": 0.512
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_km": 6.6,
+"koridor": {
+"almanya": 4,
+"belcika": 5
+},
+"koridor_yer": [],
+"devlet_ad": "Fransa Cumhuriyeti",
+"nokta": [
+49.468,
+6.198
+],
+"buyuk_gun": "1918-11-11",
+"yerlesimler": [],
+"no": "K761",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ingiltere",
+"f": "1704-08-04",
+"t": "2000-12-31",
+"alan_max": 472.7,
+"kesit": 366,
+"siniflar": {
+"KARA-EKSKLAV": 15
+},
+"komsular": {
+"ispanya": 0.529
+},
+"koridor_km": 1519.6,
+"koridor": {
+"ispanya": 5,
+"DENIZ/BOS": 4
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Sevilla",
+"sahip": "ispanya"
+},
+{
+"ad": "Ilipa (Alcalá del Río)",
+"sahip": null
+},
+{
+"ad": "Salamanca",
+"sahip": "ispanya"
+},
+{
+"ad": "Zamora",
+"sahip": "ispanya"
+},
+{
+"ad": "León",
+"sahip": "ispanya"
+}
+],
+"devlet_ad": "Britanya",
+"nokta": [
+36.16,
+-5.7
+],
+"buyuk_gun": "1854-01-01",
+"yerlesimler": [],
+"no": "K762",
+"S": "KARA-EKSKLAV",
+"somurge": true
+},
+{
+"devlet": "italya",
+"f": "1920-11-12",
+"t": "1947-09-15",
+"alan_max": 466.1,
+"kesit": 12,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"yugoslavya": 0.391
+},
+"koridor_km": 80.0,
+"koridor": {
+"DENIZ/BOS": 1,
+"yugoslavya": 8
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Pag (Pago)",
+"sahip": "yugoslavya"
+},
+{
+"ad": "Gospić",
+"sahip": "yugoslavya"
+},
+{
+"ad": "Rab (Arbe)",
+"sahip": "yugoslavya"
+}
+],
+"devlet_ad": "İtalya",
+"nokta": [
+44.175,
+15.31
+],
+"buyuk_gun": "1943-09-23",
+"yerlesimler": [
+{
+"ad": "Zadar (Zara)",
+"sahip": "italya",
+"eksklav": true
+},
+{
+"ad": "Nin",
+"sahip": null,
+"eksklav": false
+}
+],
+"no": "K763",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransa-cumhuriyet",
+"f": "1922-07-20",
+"t": "1923-10-29",
+"alan_max": 460.6,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"ingiliz-kamerun": 0.471,
+"ingiltere": 0.529
+},
+"koridor_km": 15.9,
+"koridor": {
+"ingiliz-kamerun": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Fransa Cumhuriyeti",
+"nokta": [
+6.885,
+10.096
+],
+"buyuk_gun": "1922-07-20",
+"yerlesimler": [],
+"no": "K764",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "venedik",
+"f": "1540-10-02",
+"t": "1699-01-26",
+"alan_max": 460.2,
+"kesit": 31,
+"siniflar": {
+"KARA-EKSKLAV": 4
+},
+"komsular": {
+"OSMANLI": 0.369
+},
+"koridor_km": 34.2,
+"koridor": {
+"OSMANLI": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Şibenik (Sebenico)",
+"sahip": "venedik"
+},
+{
+"ad": "Biograd",
+"sahip": null
+},
+{
+"ad": "Vrana (Urana)",
+"sahip": "OSMANLI"
+},
+{
+"ad": "Benkovac",
+"sahip": null
+},
+{
+"ad": "Nadin",
+"sahip": "OSMANLI"
+}
+],
+"devlet_ad": "Venedik",
+"nokta": [
+44.177,
+15.314
+],
+"buyuk_gun": "1570-07-02",
+"yerlesimler": [
+{
+"ad": "Zadar (Zara)",
+"sahip": "venedik",
+"eksklav": true
+},
+{
+"ad": "Nin",
+"sahip": null,
+"eksklav": false
+}
+],
+"no": "K765",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fas",
+"f": "1912-11-27",
+"t": "1923-10-29",
+"alan_max": 455.0,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"ispanya": 0.112,
+"fas-ispanyol-himayesi": 0.401
+},
+"koridor_km": 33.7,
+"koridor": {
+"fas-ispanyol-himayesi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Melîle (Melilla)",
+"sahip": "ispanya"
+}
+],
+"devlet_ad": "Fas",
+"nokta": [
+35.238,
+-3.067
+],
+"buyuk_gun": "1912-11-27",
+"yerlesimler": [
+{
+"ad": "Nador",
+"sahip": "fas-ispanyol-himayesi",
+"eksklav": false
+}
+],
+"no": "K766",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransa-cumhuriyet",
+"f": "1860-03-24",
+"t": "1860-06-14",
+"alan_max": 434.6,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"sardinya": 0.603,
+"sardinya-piyemonte": 0.007,
+"isvicre": 0.39
+},
+"koridor_km": 29.7,
+"koridor": {
+"sardinya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Annemasse",
+"sahip": "sardinya"
+},
+{
+"ad": "Cenevre",
+"sahip": "isvicre"
+}
+],
+"devlet_ad": "Fransa Cumhuriyeti",
+"nokta": [
+46.019,
+6.827
+],
+"buyuk_gun": "1860-03-24",
+"yerlesimler": [],
+"no": "K767",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sardinya-piyemonte",
+"f": "1859-11-10",
+"t": "1860-03-24",
+"alan_max": 434.6,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"sardinya": 0.603,
+"isvicre": 0.39
+},
+"koridor_km": 29.7,
+"koridor": {
+"sardinya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Annemasse",
+"sahip": "sardinya"
+},
+{
+"ad": "Cenevre",
+"sahip": "isvicre"
+}
+],
+"devlet_ad": "Sardinya-Piyemonte Krallığı (Savoya)",
+"nokta": [
+46.019,
+6.827
+],
+"buyuk_gun": "1859-11-10",
+"yerlesimler": [],
+"no": "K768",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "baden",
+"f": "1815-06-09",
+"t": "1871-01-18",
+"alan_max": 434.4,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"isvicre": 0.576,
+"almanya": 0.424
+},
+"koridor_km": 29.9,
+"koridor": {
+"almanya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Baden (Markgraflık → Büyük Dükalık)",
+"nokta": [
+47.752,
+8.407
+],
+"buyuk_gun": "1815-06-09",
+"yerlesimler": [],
+"no": "K769",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "OSMANLI",
+"f": "1475-06-06",
+"t": "1774-07-21",
+"alan_max": 358.3,
+"kesit": 347,
+"siniflar": {
+"KARA-EKSKLAV": 15
+},
+"komsular": {
+"TABI": 0.501
+},
+"koridor_km": 2.4,
+"koridor": {
+"TABI": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Osmanlı",
+"nokta": [
+44.878,
+34.966
+],
+"buyuk_gun": "1538-11-27",
+"yerlesimler": [
+{
+"ad": "Sudak (Suğdak)",
+"sahip": "OSMANLI",
+"eksklav": false
+}
+],
+"no": "K770",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ceneviz",
+"f": "1365-01-01",
+"t": "1475-06-06",
+"alan_max": 351.0,
+"kesit": 4,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"altinorda": 0.514,
+"kirim": 0.513
+},
+"koridor_km": 2.6,
+"koridor": {
+"kirim": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Ceneviz",
+"nokta": [
+44.879,
+34.967
+],
+"buyuk_gun": "1455-01-01",
+"yerlesimler": [
+{
+"ad": "Sudak (Suğdak)",
+"sahip": "ceneviz",
+"eksklav": false
+}
+],
+"no": "K771",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransa-cumhuriyet",
+"f": "1918-10-07",
+"t": "1918-10-08",
+"alan_max": 343.4,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"OSMANLI": 0.59
+},
+"koridor_km": 4.6,
+"koridor": {
+"OSMANLI": 8,
+"DENIZ/BOS": 1
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Sayda",
+"sahip": "fransa-cumhuriyet"
+},
+{
+"ad": "Deyrülkamer (Dayr al-Kamer)",
+"sahip": "OSMANLI"
+}
+],
+"devlet_ad": "Fransa Cumhuriyeti",
+"nokta": [
+33.817,
+35.569
+],
+"buyuk_gun": "1918-10-07",
+"yerlesimler": [
+{
+"ad": "Beyrut",
+"sahip": "fransa-cumhuriyet",
+"eksklav": false
+}
+],
+"no": "K772",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "habsburg",
+"f": "1815-06-09",
+"t": "1859-11-10",
+"alan_max": 340.7,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"isvicre": 0.379,
+"avusturya": 0.62
+},
+"koridor_km": 100.4,
+"koridor": {
+"avusturya": 5,
+"isvicre": 4
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Chiavenna",
+"sahip": "avusturya"
+},
+{
+"ad": "Davos",
+"sahip": "isvicre"
+},
+{
+"ad": "Chur (Coira)",
+"sahip": "isvicre"
+}
+],
+"devlet_ad": "Habsburg Avusturya",
+"nokta": [
+46.044,
+9.203
+],
+"buyuk_gun": "1815-06-09",
+"yerlesimler": [],
+"no": "K773",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sardinya-piyemonte",
+"f": "1859-11-10",
+"t": "1861-03-17",
+"alan_max": 340.7,
+"kesit": 5,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"isvicre": 0.379,
+"sardinya": 0.62
+},
+"koridor_km": 8.8,
+"koridor": {
+"isvicre": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Como",
+"sahip": "sardinya"
+},
+{
+"ad": "Lugano",
+"sahip": "isvicre"
+},
+{
+"ad": "Bellinzona",
+"sahip": "isvicre"
+}
+],
+"devlet_ad": "Sardinya-Piyemonte Krallığı (Savoya)",
+"nokta": [
+46.044,
+9.203
+],
+"buyuk_gun": "1861-03-07",
+"yerlesimler": [],
+"no": "K774",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "rusya",
+"f": "1877-12-10",
+"t": "1878-07-13",
+"alan_max": 339.1,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"romanya": 0.3,
+"OSMANLI": 0.7
+},
+"koridor_km": 9.6,
+"koridor": {
+"romanya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Rusya",
+"nokta": [
+43.27,
+23.918
+],
+"buyuk_gun": "1877-12-10",
+"yerlesimler": [],
+"no": "K775",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "liberya",
+"f": "1885-11-11",
+"t": "1923-10-29",
+"alan_max": 322.6,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"ingiltere": 0.739
+},
+"koridor_km": 9.8,
+"koridor": {
+"ingiltere": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Liberya Cumhuriyeti",
+"nokta": [
+7.168,
+-11.671
+],
+"buyuk_gun": "1892-01-01",
+"yerlesimler": [],
+"no": "K776",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "OSMANLI",
+"f": "1574-08-24",
+"t": "1574-08-25",
+"alan_max": 322.1,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"hafsi": 0.526,
+"ispanya": 0.105
+},
+"koridor_km": 52.7,
+"koridor": {
+"ispanya": 4,
+"hafsi": 5
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Tunus",
+"sahip": "ispanya"
+},
+{
+"ad": "Halkulvâdî",
+"sahip": "OSMANLI"
+},
+{
+"ad": "Kartaca (Carthage)",
+"sahip": "hafsi"
+},
+{
+"ad": "Karthago",
+"sahip": null
+},
+{
+"ad": "Mâtir (Mateur)",
+"sahip": "hafsi"
+},
+{
+"ad": "Ğâru'l-Melh (Porto Farina)",
+"sahip": "hafsi"
+},
+{
+"ad": "Benzert (Bizerte)",
+"sahip": "OSMANLI"
+}
+],
+"devlet_ad": "Osmanlı",
+"nokta": [
+36.682,
+10.332
+],
+"buyuk_gun": "1574-08-24",
+"yerlesimler": [],
+"no": "K777",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ceneviz",
+"f": "1281-01-01",
+"t": "1475-06-06",
+"alan_max": 314.6,
+"kesit": 14,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"altinorda": 0.584
+},
+"koridor_km": 10.4,
+"koridor": {
+"altinorda": 8,
+"DENIZ/BOS": 1
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Sudak (Suğdak)",
+"sahip": "ceneviz"
+},
+{
+"ad": "Eski Kırım (Solhat)",
+"sahip": "altinorda"
+}
+],
+"devlet_ad": "Ceneviz",
+"nokta": [
+45.084,
+35.349
+],
+"buyuk_gun": "1365-01-01",
+"yerlesimler": [
+{
+"ad": "Kefe",
+"sahip": "ceneviz",
+"eksklav": false
+}
+],
+"no": "K778",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransa-cumhuriyet",
+"f": "1918-11-11",
+"t": "1918-11-17",
+"alan_max": 307.3,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"isvicre": 0.592,
+"almanya": 0.322
+},
+"koridor_km": 14.8,
+"koridor": {
+"isvicre": 6,
+"almanya": 3
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Fransa Cumhuriyeti",
+"nokta": [
+47.51,
+7.32
+],
+"buyuk_gun": "1918-11-11",
+"yerlesimler": [],
+"no": "K779",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "italya",
+"f": "1861-03-17",
+"t": "1923-10-29",
+"alan_max": 290.0,
+"kesit": 20,
+"siniflar": {
+"KARA-EKSKLAV": 14
+},
+"komsular": {
+"fransa-cumhuriyet": 0.717
+},
+"koridor_km": 7.5,
+"koridor": {
+"fransa-cumhuriyet": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "İtalya",
+"nokta": [
+43.885,
+7.809
+],
+"buyuk_gun": "1861-03-17",
+"yerlesimler": [],
+"no": "K780",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sardinya-piyemonte",
+"f": "1861-03-07",
+"t": "1861-03-17",
+"alan_max": 290.0,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"fransa-cumhuriyet": 0.717
+},
+"koridor_km": 112.0,
+"koridor": {
+"DENIZ/BOS": 4,
+"sardinya": 5
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Casale",
+"sahip": null
+},
+{
+"ad": "Alessandria",
+"sahip": null
+}
+],
+"devlet_ad": "Sardinya-Piyemonte Krallığı (Savoya)",
+"nokta": [
+43.885,
+7.809
+],
+"buyuk_gun": "1861-03-07",
+"yerlesimler": [],
+"no": "K781",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sirbistan-kralligi",
+"f": "1913-08-10",
+"t": "1918-12-01",
+"alan_max": 280.4,
+"kesit": 5,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"yunanistan": 0.484,
+"bulgaristan-kralligi": 0.287,
+"OSMANLI": 0.225
+},
+"koridor_km": 6.9,
+"koridor": {
+"DENIZ/BOS": 2,
+"bulgaristan-kralligi": 7
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Doyran",
+"sahip": "sirbistan-kralligi"
+},
+{
+"ad": "Ustrumca (Strumica)",
+"sahip": "bulgaristan-kralligi"
+}
+],
+"devlet_ad": "Sırbistan Krallığı",
+"nokta": [
+41.225,
+23.003
+],
+"buyuk_gun": "1913-08-10",
+"yerlesimler": [],
+"no": "K782",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "yugoslavya",
+"f": "1918-12-01",
+"t": "1920-01-01",
+"alan_max": 280.3,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"yunanistan": 0.708,
+"bulgaristan-kralligi": 0.287
+},
+"koridor_km": 6.9,
+"koridor": {
+"DENIZ/BOS": 2,
+"bulgaristan-kralligi": 7
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Doyran",
+"sahip": "yugoslavya"
+},
+{
+"ad": "Ustrumca (Strumica)",
+"sahip": "bulgaristan-kralligi"
+}
+],
+"devlet_ad": "Yugoslavya (SHS)",
+"nokta": [
+41.225,
+23.003
+],
+"buyuk_gun": "1918-12-01",
+"yerlesimler": [],
+"no": "K783",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "OSMANLI",
+"f": "1475-06-06",
+"t": "1774-07-21",
+"alan_max": 278.6,
+"kesit": 347,
+"siniflar": {
+"KARA-EKSKLAV": 7
+},
+"komsular": {
+"TABI": 0.549
+},
+"koridor_km": 10.4,
+"koridor": {
+"TABI": 8,
+"DENIZ/BOS": 1
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Sudak (Suğdak)",
+"sahip": "OSMANLI"
+},
+{
+"ad": "Eski Kırım (Solhat)",
+"sahip": "TABI"
+}
+],
+"devlet_ad": "Osmanlı",
+"nokta": [
+45.066,
+35.331
+],
+"buyuk_gun": "1476-02-01",
+"yerlesimler": [
+{
+"ad": "Kefe",
+"sahip": "OSMANLI",
+"eksklav": false
+}
+],
+"no": "K784",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "altinorda",
+"f": "1349-01-01",
+"t": "1357-01-01",
+"alan_max": 275.1,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"teodoro": 0.355
+},
+"koridor_km": 14.3,
+"koridor": {
+"teodoro": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Yalta",
+"sahip": "altinorda"
+},
+{
+"ad": "Mankup",
+"sahip": "teodoro"
+}
+],
+"devlet_ad": "Altın Orda ve ardılları",
+"nokta": [
+44.507,
+33.596
+],
+"buyuk_gun": "1349-01-01",
+"yerlesimler": [
+{
+"ad": "Balaklava (Cembalo)",
+"sahip": "altinorda",
+"eksklav": false
+},
+{
+"ad": "Akyar (Sivastopol)",
+"sahip": null,
+"eksklav": false
+}
+],
+"no": "K785",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ceneviz",
+"f": "1357-01-01",
+"t": "1475-06-06",
+"alan_max": 275.1,
+"kesit": 5,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"teodoro": 0.363
+},
+"koridor_km": 90.6,
+"koridor": {
+"teodoro": 1,
+"altinorda": 6,
+"DENIZ/BOS": 2
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Yalta",
+"sahip": "altinorda"
+},
+{
+"ad": "Mankup",
+"sahip": "teodoro"
+},
+{
+"ad": "Aluşta",
+"sahip": "altinorda"
+},
+{
+"ad": "Sudak (Suğdak)",
+"sahip": "ceneviz"
+}
+],
+"devlet_ad": "Ceneviz",
+"nokta": [
+44.507,
+33.596
+],
+"buyuk_gun": "1365-01-01",
+"yerlesimler": [
+{
+"ad": "Balaklava (Cembalo)",
+"sahip": "ceneviz",
+"eksklav": false
+},
+{
+"ad": "Akyar (Sivastopol)",
+"sahip": null,
+"eksklav": false
+}
+],
+"no": "K786",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "OSMANLI",
+"f": "1475-06-06",
+"t": "1475-12-01",
+"alan_max": 275.0,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"teodoro": 0.354
+},
+"koridor_km": 14.2,
+"koridor": {
+"teodoro": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Yalta",
+"sahip": "OSMANLI"
+},
+{
+"ad": "Mankup",
+"sahip": "teodoro"
+}
+],
+"devlet_ad": "Osmanlı",
+"nokta": [
+44.504,
+33.599
+],
+"buyuk_gun": "1475-06-06",
+"yerlesimler": [
+{
+"ad": "Balaklava (Cembalo)",
+"sahip": "OSMANLI",
+"eksklav": false
+},
+{
+"ad": "Akyar (Sivastopol)",
+"sahip": null,
+"eksklav": false
+}
+],
+"no": "K787",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "baden",
+"f": "1815-06-09",
+"t": "1871-01-18",
+"alan_max": 262.0,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"fransa-cumhuriyet": 0.215,
+"isvicre": 0.399,
+"almanya": 0.367
+},
+"koridor_km": 26.8,
+"koridor": {
+"almanya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Baden (Markgraflık → Büyük Dükalık)",
+"nokta": [
+47.651,
+7.639
+],
+"buyuk_gun": "1815-06-09",
+"yerlesimler": [],
+"no": "K788",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "macaristan-naiplik",
+"f": "1919-09-10",
+"t": "1920-06-04",
+"alan_max": 258.0,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"cekoslovakya": 0.82,
+"itilaf-emaneti": 0.18
+},
+"koridor_km": 72.5,
+"koridor": {
+"cekoslovakya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Macaristan (1918 Sonrası: Cumhuriyet → Naiplik)",
+"nokta": [
+49.389,
+22.265
+],
+"buyuk_gun": "1919-09-10",
+"yerlesimler": [],
+"no": "K789",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ingiltere",
+"f": "1820-02-04",
+"t": "1971-12-02",
+"alan_max": 256.3,
+"kesit": 261,
+"siniflar": {
+"KARA-EKSKLAV": 10
+},
+"komsular": {
+"trucial-states": 0.655
+},
+"koridor_km": 43.5,
+"koridor": {
+"trucial-states": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Acman (Ajman)",
+"sahip": "trucial-states"
+},
+{
+"ad": "Ummu'l-Kuveyn (Umm al-Quwain)",
+"sahip": "trucial-states"
+}
+],
+"devlet_ad": "Britanya",
+"nokta": [
+25.288,
+55.39
+],
+"buyuk_gun": "1902-01-01",
+"yerlesimler": [
+{
+"ad": "Şârika",
+"sahip": "ingiltere",
+"eksklav": true
+}
+],
+"no": "K790",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "gattilusio",
+"f": "1355-01-01",
+"t": "1456-01-24",
+"alan_max": 232.9,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"suleyman-celebi": 0.447
+},
+"koridor_km": 135.6,
+"koridor": {
+"DENIZ/BOS": 3,
+"suleyman-celebi": 6
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Molova (Molyvos)",
+"sahip": "gattilusio"
+},
+{
+"ad": "Behramkale (Assos)",
+"sahip": "suleyman-celebi"
+},
+{
+"ad": "Bozcaada",
+"sahip": "bizans"
+},
+{
+"ad": "Truva yöresi (Tevfikiye)",
+"sahip": "suleyman-celebi"
+},
+{
+"ad": "Çanakkale yöresi (Kepez)",
+"sahip": "suleyman-celebi"
+},
+{
+"ad": "Çanakkale",
+"sahip": "suleyman-celebi"
+},
+{
+"ad": "Kilitbahir",
+"sahip": null
+},
+{
+"ad": "Maydos (Eceabat)",
+"sahip": "suleyman-celebi"
+},
+{
+"ad": "Karpuzlu (Yenikarpuzlu)",
+"sahip": "suleyman-celebi"
+}
+],
+"devlet_ad": "Gattilusio Lordluğu (Midilli, Limni, Taşoz, Enez)",
+"nokta": [
+40.681,
+26.129
+],
+"buyuk_gun": "1355-01-01",
+"yerlesimler": [
+{
+"ad": "Enez",
+"sahip": "gattilusio",
+"eksklav": false
+}
+],
+"no": "K791",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "safevi",
+"f": "1545-12-26",
+"t": "1701-01-01",
+"alan_max": 229.9,
+"kesit": 47,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"OSMANLI": 0.633
+},
+"koridor_km": 10.1,
+"koridor": {
+"OSMANLI": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "OSMANLI"
+}
+],
+"devlet_ad": "Safevî İran",
+"nokta": [
+30.837,
+47.358
+],
+"buyuk_gun": "1546-01-01",
+"yerlesimler": [],
+"no": "K792",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransa-cumhuriyet",
+"f": "1897-03-20",
+"t": "1897-05-14",
+"alan_max": 200.6,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"ingiltere": 0.518,
+"habesistan": 0.459
+},
+"koridor_km": 1.7,
+"koridor": {
+"habesistan": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Fransa Cumhuriyeti",
+"nokta": [
+10.55,
+43.041
+],
+"buyuk_gun": "1897-03-20",
+"yerlesimler": [],
+"no": "K793",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "habsburg",
+"f": "1918-11-03",
+"t": "1918-11-11",
+"alan_max": 199.3,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"italya": 0.463,
+"avusturya": 0.537
+},
+"koridor_km": 48.5,
+"koridor": {
+"avusturya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Lienz",
+"sahip": "avusturya"
+}
+],
+"devlet_ad": "Habsburg Avusturya",
+"nokta": [
+46.664,
+13.095
+],
+"buyuk_gun": "1918-11-03",
+"yerlesimler": [],
+"no": "K794",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sardinya-piyemonte",
+"f": "1861-03-07",
+"t": "1861-03-17",
+"alan_max": 183.2,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"sardinya": 0.252,
+"fransa-cumhuriyet": 0.723,
+"isvicre": 0.024
+},
+"koridor_km": 11.7,
+"koridor": {
+"sardinya": 4,
+"fransa-cumhuriyet": 5
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Sardinya-Piyemonte Krallığı (Savoya)",
+"nokta": [
+45.803,
+6.902
+],
+"buyuk_gun": "1861-03-07",
+"yerlesimler": [],
+"no": "K795",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransiz-cinhindi",
+"f": "1912-02-12",
+"t": "1923-10-29",
+"alan_max": 174.7,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"cin-cumhuriyeti": 0.598
+},
+"koridor_km": 14.4,
+"koridor": {
+"cin-cumhuriyeti": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Fransız Çinhindi",
+"nokta": [
+22.704,
+103.332
+],
+"buyuk_gun": "1912-02-12",
+"yerlesimler": [],
+"no": "K796",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "avusturya-cumhuriyet",
+"f": "1918-11-12",
+"t": "1923-10-29",
+"alan_max": 171.7,
+"kesit": 8,
+"siniflar": {
+"KARA-EKSKLAV": 8
+},
+"komsular": {
+"almanya": 0.609
+},
+"koridor_km": 1.0,
+"koridor": {
+"almanya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Avusturya Cumhuriyeti (I. Cumhuriyet)",
+"nokta": [
+47.663,
+9.542
+],
+"buyuk_gun": "1919-01-01",
+"yerlesimler": [],
+"no": "K797",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "liberya",
+"f": "1892-01-01",
+"t": "1923-10-29",
+"alan_max": 171.0,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"fransa-cumhuriyet": 0.599
+},
+"koridor_km": 24.1,
+"koridor": {
+"fransa-cumhuriyet": 7,
+"KENDI": 2
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Harper",
+"sahip": "liberya"
+}
+],
+"devlet_ad": "Liberya Cumhuriyeti",
+"nokta": [
+4.502,
+-7.276
+],
+"buyuk_gun": "1898-01-01",
+"yerlesimler": [],
+"no": "K798",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "kolombiya-cumhuriyeti",
+"f": "1917-01-26",
+"t": "1923-10-29",
+"alan_max": 164.4,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"ekvador-cumhuriyeti": 0.627
+},
+"koridor_km": 4.7,
+"koridor": {
+"ekvador-cumhuriyeti": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Kolombiya Cumhuriyeti",
+"nokta": [
+1.015,
+-79.155
+],
+"buyuk_gun": "1917-01-26",
+"yerlesimler": [],
+"no": "K799",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "habsburg",
+"f": "1815-06-09",
+"t": "1859-11-10",
+"alan_max": 160.1,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"isvicre": 0.372,
+"milano-dukaligi": 0.369
+},
+"koridor_km": 12.9,
+"koridor": {
+"milano-dukaligi": 1,
+"isvicre": 8
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Como",
+"sahip": "avusturya"
+},
+{
+"ad": "Lugano",
+"sahip": "isvicre"
+},
+{
+"ad": "Locarno",
+"sahip": "isvicre"
+},
+{
+"ad": "Bellinzona",
+"sahip": "isvicre"
+}
+],
+"devlet_ad": "Habsburg Avusturya",
+"nokta": [
+45.955,
+8.736
+],
+"buyuk_gun": "1815-06-09",
+"yerlesimler": [],
+"no": "K800",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "isvicre",
+"f": "1918-11-12",
+"t": "1923-10-29",
+"alan_max": 158.4,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"almanya": 0.263,
+"avusturya-cumhuriyet": 0.68
+},
+"koridor_km": 17.9,
+"koridor": {
+"avusturya-cumhuriyet": 1,
+"almanya": 8
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Feldkirch",
+"sahip": "avusturya-cumhuriyet"
+},
+{
+"ad": "Bregenz",
+"sahip": "avusturya-cumhuriyet"
+},
+{
+"ad": "Konstanz",
+"sahip": "almanya"
+}
+],
+"devlet_ad": "İsviçre Konfederasyonu",
+"nokta": [
+47.377,
+9.56
+],
+"buyuk_gun": "1918-11-12",
+"yerlesimler": [],
+"no": "K801",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransa-cumhuriyet",
+"f": "1814-05-04",
+"t": "1814-05-30",
+"alan_max": 147.0,
+"kesit": 4,
+"siniflar": {
+"KARA-EKSKLAV": 4
+},
+"komsular": {
+"hollanda": 0.523
+},
+"koridor_km": 4.5,
+"koridor": {
+"hollanda": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Rotterdam",
+"sahip": "hollanda"
+}
+],
+"devlet_ad": "Fransa Cumhuriyeti",
+"nokta": [
+51.63,
+4.206
+],
+"buyuk_gun": "1814-05-05",
+"yerlesimler": [],
+"no": "K802",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ryukyu-abd-idaresi",
+"f": "1945-04-01",
+"t": "1972-05-15",
+"alan_max": 130.0,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"meiji-japonya": 0.258
+},
+"koridor_km": 19.9,
+"koridor": {
+"meiji-japonya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Şuri (Naha)",
+"sahip": "japonya-devleti"
+},
+{
+"ad": "Urasoe Gusuku (Chuzan merkezi)",
+"sahip": "ryukyu-abd-idaresi"
+},
+{
+"ad": "Nago",
+"sahip": "ryukyu-abd-idaresi"
+}
+],
+"devlet_ad": "Ryukyu Adaları ABD İdaresi",
+"nokta": [
+26.184,
+127.672
+],
+"buyuk_gun": "1945-04-01",
+"yerlesimler": [
+{
+"ad": "Shimajiri-Ōzato Gusuku (Nanzan merkezi, Itoman)",
+"sahip": "ryukyu-abd-idaresi",
+"eksklav": false
+},
+{
+"ad": "Naha",
+"sahip": "ryukyu-abd-idaresi",
+"eksklav": false
+}
+],
+"no": "K803",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "yunanistan",
+"f": "1913-08-10",
+"t": "1913-11-14",
+"alan_max": 127.6,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"sirbistan-kralligi": 0.567,
+"OSMANLI": 0.433
+},
+"koridor_km": 22.0,
+"koridor": {
+"sirbistan-kralligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Gevgili (Gevgelija)",
+"sahip": "sirbistan-kralligi"
+},
+{
+"ad": "Doyran",
+"sahip": "sirbistan-kralligi"
+}
+],
+"devlet_ad": "Yunanistan",
+"nokta": [
+41.076,
+22.239
+],
+"buyuk_gun": "1913-08-10",
+"yerlesimler": [],
+"no": "K804",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "arjantin-cumhuriyeti",
+"f": "1884-10-12",
+"t": "2000-12-31",
+"alan_max": 126.1,
+"kesit": 17,
+"siniflar": {
+"KARA-EKSKLAV": 5
+},
+"komsular": {
+"sili-cumhuriyeti": 0.239
+},
+"koridor_km": 87.2,
+"koridor": {
+"DENIZ/BOS": 2,
+"sili-cumhuriyeti": 7
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Arjantin Cumhuriyeti",
+"nokta": [
+-54.304,
+-71.252
+],
+"buyuk_gun": "1902-09-26",
+"yerlesimler": [],
+"no": "K805",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "belcika",
+"f": "1916-05-01",
+"t": "1916-05-06",
+"alan_max": 120.3,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"alman-dogu-afrikasi": 0.46,
+"ingiltere": 0.538
+},
+"koridor_km": 103.8,
+"koridor": {
+"alman-dogu-afrikasi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Belçika",
+"nokta": [
+-2.139,
+30.851
+],
+"buyuk_gun": "1916-05-01",
+"yerlesimler": [],
+"no": "K806",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "hollanda",
+"f": "1802-01-01",
+"t": "1802-03-27",
+"alan_max": 119.7,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"ingiltere": 0.465
+},
+"koridor_km": 0.8,
+"koridor": {
+"ingiltere": 5,
+"DENIZ/BOS": 4
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Hollanda",
+"nokta": [
+5.229,
+-58.578
+],
+"buyuk_gun": "1802-01-01",
+"yerlesimler": [],
+"no": "K807",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "bati-hint-federasyonu",
+"f": "1958-01-03",
+"t": "1962-05-31",
+"alan_max": 111.8,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"ingiltere": 0.209
+},
+"koridor_km": 152.1,
+"koridor": {
+"ingiltere": 5,
+"DENIZ/BOS": 4
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "San José de Oruña (St. Joseph)",
+"sahip": "ingiltere"
+},
+{
+"ad": "Port of Spain (Puerto de España)",
+"sahip": "ingiltere"
+},
+{
+"ad": "Scarborough (Tobago)",
+"sahip": "bati-hint-federasyonu"
+}
+],
+"devlet_ad": "Batı Hint Adaları Federasyonu",
+"nokta": [
+10.091,
+-61.79
+],
+"buyuk_gun": "1958-01-03",
+"yerlesimler": [],
+"no": "K808",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "maratha",
+"f": "1674-06-06",
+"t": "1737-04-01",
+"alan_max": 109.3,
+"kesit": 9,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"portekiz": 0.385,
+"babur-imparatorlugu": 0.613
+},
+"koridor_km": 6.5,
+"koridor": {
+"portekiz": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Maratha Konfederasyonu",
+"nokta": [
+19.27,
+73.871
+],
+"buyuk_gun": "1732-01-01",
+"yerlesimler": [],
+"no": "K809",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "bicapur",
+"f": "1636-01-01",
+"t": "1674-06-06",
+"alan_max": 109.2,
+"kesit": 6,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"portekiz": 0.385,
+"babur-imparatorlugu": 0.509
+},
+"koridor_km": 6.5,
+"koridor": {
+"portekiz": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Âdilşâhî Sultanlığı (Bîcâpûr)",
+"nokta": [
+19.27,
+73.871
+],
+"buyuk_gun": "1656-01-01",
+"yerlesimler": [],
+"no": "K810",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "romanya-kralligi",
+"f": "1918-04-08",
+"t": "1918-04-09",
+"alan_max": 107.4,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"sovyet-rusya": 0.576,
+"moldova-demokratik-cum": 0.423
+},
+"koridor_km": 54.8,
+"koridor": {
+"moldova-demokratik-cum": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Romanya Krallığı",
+"nokta": [
+48.557,
+27.416
+],
+"buyuk_gun": "1918-04-08",
+"yerlesimler": [],
+"no": "K811",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ingiliz-hindistani",
+"f": "1896-01-15",
+"t": "1923-10-29",
+"alan_max": 105.6,
+"kesit": 5,
+"siniflar": {
+"KARA-EKSKLAV": 5
+},
+"komsular": {
+"fransiz-cinhindi": 0.593,
+"san-devletleri": 0.406
+},
+"koridor_km": 334.7,
+"koridor": {
+"san-devletleri": 6,
+"DENIZ/BOS": 3
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "İngiliz Hindistanı (Şirket ve Taç Dönemi)",
+"nokta": [
+20.797,
+100.32
+],
+"buyuk_gun": "1896-01-15",
+"yerlesimler": [],
+"no": "K812",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "israil-devleti",
+"f": "1948-05-14",
+"t": "1948-07-11",
+"alan_max": 97.7,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"urdun-emirligi": 0.708
+},
+"koridor_km": 11.0,
+"koridor": {
+"urdun-emirligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Betar (Battir)",
+"sahip": null
+},
+{
+"ad": "Kudüs",
+"sahip": "israil-devleti"
+},
+{
+"ad": "Gibea",
+"sahip": null
+},
+{
+"ad": "Ramallah",
+"sahip": null
+},
+{
+"ad": "Filistin",
+"sahip": null
+},
+{
+"ad": "Remle (Ramla)",
+"sahip": "__BOSLUK__"
+}
+],
+"devlet_ad": "İsrail Devleti",
+"nokta": [
+31.697,
+35.402
+],
+"buyuk_gun": "1948-05-14",
+"yerlesimler": [],
+"no": "K813",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "OSMANLI",
+"f": "1456-06-04",
+"t": "1821-03-25",
+"alan_max": 97.0,
+"kesit": 415,
+"siniflar": {
+"DAR-AYRIM": 4,
+"ADA": 15,
+"KARA-EKSKLAV": 4
+},
+"komsular": {
+"venedik": 0.244
+},
+"koridor_km": 2.9,
+"koridor": {
+"venedik": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Osmanlı",
+"nokta": [
+37.948,
+23.522
+],
+"buyuk_gun": "1688-01-01",
+"yerlesimler": [
+{
+"ad": "Kulluk (Salamis)",
+"sahip": "OSMANLI",
+"eksklav": false
+},
+{
+"ad": "Salamis (boğaz) (Salamína)",
+"sahip": null,
+"eksklav": false
+}
+],
+"no": "K814",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "afsar",
+"f": "1736-03-08",
+"t": "1747-06-20",
+"alan_max": 96.4,
+"kesit": 5,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"OSMANLI": 0.714
+},
+"koridor_km": 10.0,
+"koridor": {
+"OSMANLI": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "OSMANLI"
+}
+],
+"devlet_ad": "Afşâr Devleti (Nâdir Şah)",
+"nokta": [
+30.831,
+47.392
+],
+"buyuk_gun": "1736-03-08",
+"yerlesimler": [],
+"no": "K815",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "safevi",
+"f": "1716-01-01",
+"t": "1736-03-08",
+"alan_max": 96.4,
+"kesit": 36,
+"siniflar": {
+"KARA-EKSKLAV": 11
+},
+"komsular": {
+"OSMANLI": 0.714
+},
+"koridor_km": 10.0,
+"koridor": {
+"OSMANLI": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "OSMANLI"
+}
+],
+"devlet_ad": "Safevî İran",
+"nokta": [
+30.831,
+47.392
+],
+"buyuk_gun": "1717-01-01",
+"yerlesimler": [],
+"no": "K816",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "zend",
+"f": "1747-06-20",
+"t": "1794-01-01",
+"alan_max": 96.4,
+"kesit": 7,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"OSMANLI": 0.714
+},
+"koridor_km": 10.0,
+"koridor": {
+"OSMANLI": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "OSMANLI"
+}
+],
+"devlet_ad": "Zend Hanedanı (İran)",
+"nokta": [
+30.831,
+47.392
+],
+"buyuk_gun": "1747-06-20",
+"yerlesimler": [],
+"no": "K817",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "kacar",
+"f": "1794-01-01",
+"t": "1925-10-31",
+"alan_max": 96.3,
+"kesit": 18,
+"siniflar": {
+"KARA-EKSKLAV": 4
+},
+"komsular": {
+"OSMANLI": 0.714
+},
+"koridor_km": 10.1,
+"koridor": {
+"OSMANLI": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "OSMANLI"
+}
+],
+"devlet_ad": "Kaçar Hanedanı (İran)",
+"nokta": [
+30.834,
+47.391
+],
+"buyuk_gun": "1794-01-01",
+"yerlesimler": [],
+"no": "K818",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "iran",
+"f": "1925-10-31",
+"t": "2000-12-31",
+"alan_max": 96.1,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"irak-kralligi": 0.709
+},
+"koridor_km": 10.1,
+"koridor": {
+"irak-kralligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "irak-cumhuriyeti"
+}
+],
+"devlet_ad": "İran",
+"nokta": [
+30.84,
+47.391
+],
+"buyuk_gun": "1925-10-31",
+"yerlesimler": [],
+"no": "K819",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "norvec",
+"f": "1905-06-07",
+"t": "2000-12-31",
+"alan_max": 95.0,
+"kesit": 6,
+"siniflar": {
+"ADA": 4,
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"sovyet-rusya": 0.12,
+"finlandiya": 0.104
+},
+"koridor_km": 148.2,
+"koridor": {
+"sovyet-rusya": 3,
+"finlandiya": 6
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Norveç",
+"nokta": [
+69.86,
+29.915
+],
+"buyuk_gun": "1923-10-29",
+"yerlesimler": [],
+"no": "K820",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "norvec-isvec-birligi",
+"f": "1814-11-04",
+"t": "1905-06-07",
+"alan_max": 95.0,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"rusya": 0.205
+},
+"koridor_km": 148.2,
+"koridor": {
+"rusya": 3,
+"finlandiya-buyuk-dukaligi": 6
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Norveç Krallığı (İsveç ile Birlik)",
+"nokta": [
+69.86,
+29.915
+],
+"buyuk_gun": "1814-11-04",
+"yerlesimler": [],
+"no": "K821",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ispanya",
+"f": "1714-01-01",
+"t": "1810-05-25",
+"alan_max": 94.0,
+"kesit": 57,
+"siniflar": {
+"KARA-EKSKLAV": 13
+},
+"komsular": {
+"ispanyol-peru": 0.654
+},
+"koridor_km": 2.4,
+"koridor": {
+"ispanyol-peru": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "İspanya",
+"nokta": [
+-24.007,
+-64.836
+],
+"buyuk_gun": "1809-07-09",
+"yerlesimler": [],
+"no": "K822",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "arjantin-cumhuriyeti",
+"f": "1810-05-25",
+"t": "1816-07-09",
+"alan_max": 93.3,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"ispanyol-peru": 0.654
+},
+"koridor_km": 3.0,
+"koridor": {
+"DENIZ/BOS": 1,
+"ispanyol-peru": 8
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Arjantin Cumhuriyeti",
+"nokta": [
+-24.007,
+-64.836
+],
+"buyuk_gun": "1810-05-25",
+"yerlesimler": [],
+"no": "K823",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "fransa",
+"f": "1435-01-01",
+"t": "1439-01-01",
+"alan_max": 93.3,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"burgonya": 0.59,
+"ingiltere": 0.407
+},
+"koridor_km": 3.3,
+"koridor": {
+"ingiltere": 4,
+"burgonya": 1,
+"DENIZ/BOS": 4
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Fransa",
+"nokta": [
+48.34,
+3.185
+],
+"buyuk_gun": "1435-09-21",
+"yerlesimler": [],
+"no": "K824",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "kolombiya-cumhuriyeti",
+"f": "1917-01-26",
+"t": "1923-10-29",
+"alan_max": 91.7,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"ekvador-cumhuriyeti": 0.347
+},
+"koridor_km": 0.7,
+"koridor": {
+"ekvador-cumhuriyeti": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Kolombiya Cumhuriyeti",
+"nokta": [
+1.145,
+-79.078
+],
+"buyuk_gun": "1917-01-26",
+"yerlesimler": [],
+"no": "K825",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sovyet-rusya",
+"f": "1917-12-15",
+"t": "1918-04-08",
+"alan_max": 91.0,
+"kesit": 11,
+"siniflar": {
+"KARA-EKSKLAV": 11
+},
+"komsular": {
+"romanya-kralligi": 0.558,
+"moldova-demokratik-cum": 0.441
+},
+"koridor_km": 26.0,
+"koridor": {
+"romanya-kralligi": 2,
+"moldova-demokratik-cum": 7
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Tulça (Tulcea)",
+"sahip": "romanya-kralligi"
+},
+{
+"ad": "İsmail",
+"sahip": "moldova-demokratik-cum"
+},
+{
+"ad": "Kili",
+"sahip": "romanya-kralligi"
+}
+],
+"devlet_ad": "Sovyet Rusya",
+"nokta": [
+45.317,
+28.361
+],
+"buyuk_gun": "1918-01-01",
+"yerlesimler": [],
+"no": "K826",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "tunus-beyligi-fransiz",
+"f": "1912-10-18",
+"t": "1923-10-29",
+"alan_max": 86.5,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"TABI": 0.362
+},
+"koridor_km": 485.1,
+"koridor": {
+"TABI": 8,
+"DENIZ/BOS": 1
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Cerbe (Djerba)",
+"sahip": "TABI"
+},
+{
+"ad": "Sfaks",
+"sahip": "TABI"
+},
+{
+"ad": "Sûse",
+"sahip": "TABI"
+},
+{
+"ad": "Zağvân",
+"sahip": "TABI"
+},
+{
+"ad": "Tunus",
+"sahip": "TABI"
+},
+{
+"ad": "Halkulvâdî",
+"sahip": "TABI"
+}
+],
+"devlet_ad": "Tunus Beyliği (Fransız Himayesi Dönemi)",
+"nokta": [
+36.893,
+10.268
+],
+"buyuk_gun": "1912-10-18",
+"yerlesimler": [
+{
+"ad": "Kartaca (Carthage)",
+"sahip": "tunus-beyligi-fransiz",
+"eksklav": false
+},
+{
+"ad": "Karthago",
+"sahip": null,
+"eksklav": false
+}
+],
+"no": "K827",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sardinya-piyemonte",
+"f": "1861-03-07",
+"t": "1861-03-17",
+"alan_max": 85.4,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"sardinya": 0.355,
+"fransa-cumhuriyet": 0.635
+},
+"koridor_km": 10.5,
+"koridor": {
+"sardinya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Sardinya-Piyemonte Krallığı (Savoya)",
+"nokta": [
+45.105,
+6.825
+],
+"buyuk_gun": "1861-03-07",
+"yerlesimler": [],
+"no": "K828",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "lur-i-buzurg",
+"f": "1335-12-01",
+"t": "1393-01-01",
+"alan_max": 82.5,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"celayirli": 0.767
+},
+"koridor_km": 10.1,
+"koridor": {
+"celayirli": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "celayirli"
+}
+],
+"devlet_ad": "Lur-i Büzürg (Hezâraspîler)",
+"nokta": [
+30.853,
+47.389
+],
+"buyuk_gun": "1335-12-01",
+"yerlesimler": [],
+"no": "K829",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "timurlu",
+"f": "1393-01-01",
+"t": "1442-01-16",
+"alan_max": 82.5,
+"kesit": 18,
+"siniflar": {
+"KARA-EKSKLAV": 8
+},
+"komsular": {
+"celayirli": 0.768
+},
+"koridor_km": 10.0,
+"koridor": {
+"celayirli": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "celayirli"
+}
+],
+"devlet_ad": "Timurlu valiliği",
+"nokta": [
+30.853,
+47.389
+],
+"buyuk_gun": "1402-09-15",
+"yerlesimler": [],
+"no": "K830",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "musasa",
+"f": "1442-01-16",
+"t": "1494-10-02",
+"alan_max": 82.4,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"karakoyunlu": 0.767
+},
+"koridor_km": 10.1,
+"koridor": {
+"karakoyunlu": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Charax Spasinou",
+"sahip": null
+},
+{
+"ad": "Kürne",
+"sahip": "karakoyunlu"
+}
+],
+"devlet_ad": "Müşa'şa'îler (Hüveyze, Arabistan/Huzistan)",
+"nokta": [
+30.853,
+47.389
+],
+"buyuk_gun": "1442-01-16",
+"yerlesimler": [],
+"no": "K831",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "liberya",
+"f": "1892-01-01",
+"t": "1923-10-29",
+"alan_max": 79.1,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"fransa-cumhuriyet": 0.782
+},
+"koridor_km": 3.4,
+"koridor": {
+"fransa-cumhuriyet": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Liberya Cumhuriyeti",
+"nokta": [
+4.46,
+-7.421
+],
+"buyuk_gun": "1898-01-01",
+"yerlesimler": [],
+"no": "K832",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "rusya",
+"f": "1905-06-07",
+"t": "1917-03-15",
+"alan_max": 77.5,
+"kesit": 20,
+"siniflar": {
+"KARA-EKSKLAV": 20
+},
+"komsular": {
+"finlandiya-buyuk-dukaligi": 0.236,
+"isvec": 0.302,
+"norvec": 0.46
+},
+"koridor_km": 17.2,
+"koridor": {
+"isvec": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Rusya",
+"nokta": [
+68.658,
+23.459
+],
+"buyuk_gun": "1905-06-07",
+"yerlesimler": [],
+"no": "K833",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "rusya-gecici-hukumet",
+"f": "1917-03-15",
+"t": "1917-11-07",
+"alan_max": 77.5,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"finlandiya-buyuk-dukaligi": 0.236,
+"isvec": 0.302,
+"norvec": 0.46
+},
+"koridor_km": 17.2,
+"koridor": {
+"isvec": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Rusya Geçici Hükûmeti",
+"nokta": [
+68.658,
+23.459
+],
+"buyuk_gun": "1917-03-15",
+"yerlesimler": [],
+"no": "K834",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sovyet-rusya",
+"f": "1917-11-07",
+"t": "1917-12-06",
+"alan_max": 77.5,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"finlandiya-buyuk-dukaligi": 0.236,
+"isvec": 0.302,
+"norvec": 0.46
+},
+"koridor_km": 17.2,
+"koridor": {
+"isvec": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Sovyet Rusya",
+"nokta": [
+68.658,
+23.459
+],
+"buyuk_gun": "1917-11-07",
+"yerlesimler": [],
+"no": "K835",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "hollanda",
+"f": "1820-03-28",
+"t": "1830-10-04",
+"alan_max": 75.7,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"fransa-cumhuriyet": 0.511,
+"luksemburg-hollanda-birligi": 0.488
+},
+"koridor_km": 15.4,
+"koridor": {
+"luksemburg-hollanda-birligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Neufchâteau (Belçika)",
+"sahip": "luksemburg-hollanda-birligi"
+}
+],
+"devlet_ad": "Hollanda",
+"nokta": [
+49.595,
+5.421
+],
+"buyuk_gun": "1820-03-28",
+"yerlesimler": [],
+"no": "K836",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sovyet-rusya",
+"f": "1917-11-07",
+"t": "1918-04-08",
+"alan_max": 73.0,
+"kesit": 15,
+"siniflar": {
+"DAR-AYRIM": 4,
+"KARA-EKSKLAV": 10
+},
+"komsular": {
+"romanya-kralligi": 0.531,
+"moldova-demokratik-cum": 0.457
+},
+"koridor_km": 2.3,
+"koridor": {
+"romanya-kralligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Yaş",
+"sahip": "romanya-kralligi"
+}
+],
+"devlet_ad": "Sovyet Rusya",
+"nokta": [
+47.364,
+27.626
+],
+"buyuk_gun": "1918-01-04",
+"yerlesimler": [],
+"no": "K837",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sovyet-rusya",
+"f": "1917-11-07",
+"t": "1918-01-01",
+"alan_max": 70.0,
+"kesit": 5,
+"siniflar": {
+"KARA-EKSKLAV": 5
+},
+"komsular": {
+"romanya-kralligi": 0.829
+},
+"koridor_km": 1.7,
+"koridor": {
+"romanya-kralligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Sovyet Rusya",
+"nokta": [
+45.216,
+29.489
+],
+"buyuk_gun": "1917-12-15",
+"yerlesimler": [],
+"no": "K838",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "transkafkasya",
+"f": "1917-11-07",
+"t": "1918-03-14",
+"alan_max": 69.5,
+"kesit": 9,
+"siniflar": {
+"KARA-EKSKLAV": 5
+},
+"komsular": {
+"sovyet-rusya": 0.497,
+"OSMANLI": 0.324
+},
+"koridor_km": 35.3,
+"koridor": {
+"sovyet-rusya": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Borçka",
+"sahip": "sovyet-rusya"
+},
+{
+"ad": "Arhavi",
+"sahip": "OSMANLI"
+},
+{
+"ad": "Hopa",
+"sahip": "transkafkasya"
+},
+{
+"ad": "Sarp",
+"sahip": "sovyet-rusya"
+},
+{
+"ad": "Murvaneti",
+"sahip": "sovyet-rusya"
+},
+{
+"ad": "Batum",
+"sahip": "sovyet-rusya"
+}
+],
+"devlet_ad": "Transkafkasya (Federasyon)",
+"nokta": [
+41.352,
+41.543
+],
+"buyuk_gun": "1918-02-28",
+"yerlesimler": [],
+"no": "K839",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ilhanli",
+"f": "1281-01-01",
+"t": "1308-01-01",
+"alan_max": 68.5,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"selcuklu": 0.463,
+"ahiler": 0.282
+},
+"koridor_km": 6.0,
+"koridor": {
+"ahiler": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "İlhanlı Devleti",
+"nokta": [
+39.138,
+33.432
+],
+"buyuk_gun": "1281-01-01",
+"yerlesimler": [],
+"no": "K840",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "haudenosaunee",
+"f": "1667-01-01",
+"t": "1777-01-01",
+"alan_max": 68.4,
+"kesit": 5,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"fransa": 0.535
+},
+"koridor_km": 15.4,
+"koridor": {
+"DENIZ/BOS": 3,
+"fransa": 6
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Kahnawake",
+"sahip": "haudenosaunee"
+},
+{
+"ad": "Montreal (Ville-Marie)",
+"sahip": "fransa"
+}
+],
+"devlet_ad": "Haudenosaunee (İrokua)",
+"nokta": [
+45.594,
+-73.779
+],
+"buyuk_gun": "1679-01-01",
+"yerlesimler": [],
+"no": "K841",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "OSMANLI",
+"f": "1354-08-01",
+"t": "1392-11-01",
+"alan_max": 65.5,
+"kesit": 30,
+"siniflar": {
+"DAR-AYRIM": 6,
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"candar": 0.409,
+"eretna": 0.584,
+"burhaneddin": 0.584
+},
+"koridor_km": 2.2,
+"koridor": {
+"candar": 4,
+"burhaneddin": 5
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Osmanlı",
+"nokta": [
+40.566,
+34.346
+],
+"buyuk_gun": "1361-01-01",
+"yerlesimler": [],
+"no": "K842",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "venedik",
+"f": "1443-01-01",
+"t": "1571-01-01",
+"alan_max": 63.1,
+"kesit": 27,
+"siniflar": {
+"KARA-EKSKLAV": 5
+},
+"komsular": {
+"sirbistan": 0.539,
+"OSMANLI": 0.52
+},
+"koridor_km": 2.8,
+"koridor": {
+"DENIZ/BOS": 4,
+"OSMANLI": 5
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Bar (Antivari)",
+"sahip": "venedik"
+},
+{
+"ad": "Cetinje",
+"sahip": null
+},
+{
+"ad": "Podgorica",
+"sahip": "OSMANLI"
+},
+{
+"ad": "Doclea (Podgorica yakını)",
+"sahip": null
+}
+],
+"devlet_ad": "Venedik",
+"nokta": [
+42.3,
+19.147
+],
+"buyuk_gun": "1458-05-01",
+"yerlesimler": [],
+"no": "K843",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "zeta",
+"f": "1356-01-01",
+"t": "1421-01-01",
+"alan_max": 63.1,
+"kesit": 7,
+"siniflar": {
+"KARA-EKSKLAV": 2,
+"DAR-AYRIM": 1
+},
+"komsular": {
+"sirbistan-nemanjic": 0.001,
+"sirbistan": 0.524
+},
+"koridor_km": 2.9,
+"koridor": {
+"DENIZ/BOS": 4,
+"sirbistan": 5
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Bar (Antivari)",
+"sahip": "zeta"
+},
+{
+"ad": "Cetinje",
+"sahip": null
+},
+{
+"ad": "Podgorica",
+"sahip": "sirbistan"
+},
+{
+"ad": "Doclea (Podgorica yakını)",
+"sahip": null
+}
+],
+"devlet_ad": "Zeta Prensliği (Balšić / Crnojević)",
+"nokta": [
+42.299,
+19.15
+],
+"buyuk_gun": "1387-01-01",
+"yerlesimler": [],
+"no": "K844",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sirbistan-nemanjic",
+"f": "1281-01-01",
+"t": "1356-01-01",
+"alan_max": 62.9,
+"kesit": 6,
+"siniflar": {
+"KARA-EKSKLAV": 5
+},
+"komsular": {
+"sirbistan": 0.524
+},
+"koridor_km": 2.9,
+"koridor": {
+"sirbistan": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Bar (Antivari)",
+"sahip": "sirbistan-nemanjic"
+},
+{
+"ad": "Cetinje",
+"sahip": null
+},
+{
+"ad": "Podgorica",
+"sahip": "sirbistan"
+},
+{
+"ad": "Doclea (Podgorica yakını)",
+"sahip": null
+}
+],
+"devlet_ad": "Sırbistan Krallığı (Nemanjić Hanedanı)",
+"nokta": [
+42.299,
+19.15
+],
+"buyuk_gun": "1281-01-01",
+"yerlesimler": [],
+"no": "K845",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sirp-despotlugu",
+"f": "1421-01-01",
+"t": "1443-01-01",
+"alan_max": 62.8,
+"kesit": 4,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"venedik": 0.001,
+"sirbistan": 0.521
+},
+"koridor_km": 2.9,
+"koridor": {
+"DENIZ/BOS": 4,
+"sirbistan": 5
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Bar (Antivari)",
+"sahip": "sirp-despotlugu"
+},
+{
+"ad": "Cetinje",
+"sahip": null
+},
+{
+"ad": "Podgorica",
+"sahip": "sirbistan"
+},
+{
+"ad": "Doclea (Podgorica yakını)",
+"sahip": null
+}
+],
+"devlet_ad": "Sırp Despotluğu",
+"nokta": [
+42.299,
+19.15
+],
+"buyuk_gun": "1421-01-01",
+"yerlesimler": [],
+"no": "K846",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "finlandiya",
+"f": "1917-12-06",
+"t": "2000-12-31",
+"alan_max": 62.5,
+"kesit": 12,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"isvec": 0.423
+},
+"koridor_km": 53.4,
+"koridor": {
+"DENIZ/BOS": 1,
+"isvec": 8
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Finlandiya",
+"nokta": [
+65.765,
+23.144
+],
+"buyuk_gun": "1920-10-14",
+"yerlesimler": [],
+"no": "K847",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "cin-cumhuriyeti",
+"f": "1911-10-10",
+"t": "1923-10-29",
+"alan_max": 58.2,
+"kesit": 8,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"san-devletleri": 0.563,
+"ingiliz-hindistani": 0.438
+},
+"koridor_km": 28.3,
+"koridor": {
+"san-devletleri": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Namkham",
+"sahip": "san-devletleri"
+}
+],
+"devlet_ad": "Çin Cumhuriyeti",
+"nokta": [
+23.98,
+97.582
+],
+"buyuk_gun": "1911-10-10",
+"yerlesimler": [],
+"no": "K848",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "italya",
+"f": "1918-11-03",
+"t": "1918-11-11",
+"alan_max": 58.2,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"isvicre": 0.829,
+"avusturya": 0.164
+},
+"koridor_km": 8.5,
+"koridor": {
+"isvicre": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "İtalya",
+"nokta": [
+46.805,
+10.257
+],
+"buyuk_gun": "1918-11-03",
+"yerlesimler": [],
+"no": "K849",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "qing-hanedani",
+"f": "1897-06-05",
+"t": "1911-10-10",
+"alan_max": 58.2,
+"kesit": 5,
+"siniflar": {
+"KARA-EKSKLAV": 3
+},
+"komsular": {
+"san-devletleri": 0.563,
+"ingiliz-hindistani": 0.438
+},
+"koridor_km": 28.3,
+"koridor": {
+"san-devletleri": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Namkham",
+"sahip": "san-devletleri"
+}
+],
+"devlet_ad": "Qing Hanedanı (Mançu)",
+"nokta": [
+23.98,
+97.582
+],
+"buyuk_gun": "1898-03-27",
+"yerlesimler": [],
+"no": "K850",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "ezo-cumhuriyeti",
+"f": "1869-01-27",
+"t": "1869-06-27",
+"alan_max": 55.7,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"meiji-japonya": 0.537
+},
+"koridor_km": 12.9,
+"koridor": {
+"meiji-japonya": 5,
+"DENIZ/BOS": 4
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Ezo Cumhuriyeti (Hakodate)",
+"nokta": [
+42.539,
+140.755
+],
+"buyuk_gun": "1869-01-27",
+"yerlesimler": [],
+"no": "K851",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "qing-hanedani",
+"f": "1853-03-19",
+"t": "1860-06-02",
+"alan_max": 53.7,
+"kesit": 8,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"taiping": 0.53
+},
+"koridor_km": 58.5,
+"koridor": {
+"taiping": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Qing Hanedanı (Mançu)",
+"nokta": [
+32.625,
+120.917
+],
+"buyuk_gun": "1853-03-19",
+"yerlesimler": [],
+"no": "K852",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "timurlu",
+"f": "1402-07-28",
+"t": "1402-09-15",
+"alan_max": 52.8,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"mehmed-celebi": 0.577,
+"candar": 0.387
+},
+"koridor_km": 11.2,
+"koridor": {
+"candar": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Timurlu valiliği",
+"nokta": [
+40.566,
+34.346
+],
+"buyuk_gun": "1402-08-17",
+"yerlesimler": [],
+"no": "K853",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "romanya-kralligi",
+"f": "1918-04-08",
+"t": "1918-04-09",
+"alan_max": 52.4,
+"kesit": 1,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"sovyet-rusya": 0.69,
+"moldova-demokratik-cum": 0.31
+},
+"koridor_km": 28.8,
+"koridor": {
+"moldova-demokratik-cum": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [
+{
+"ad": "Hotin",
+"sahip": "moldova-demokratik-cum"
+},
+{
+"ad": "Kamaniçe",
+"sahip": "sovyet-rusya"
+}
+],
+"devlet_ad": "Romanya Krallığı",
+"nokta": [
+48.561,
+26.805
+],
+"buyuk_gun": "1918-04-08",
+"yerlesimler": [],
+"no": "K854",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "sokoto",
+"f": "1901-01-01",
+"t": "1903-07-27",
+"alan_max": 52.2,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"ingiltere": 0.525
+},
+"koridor_km": 3.3,
+"koridor": {
+"ingiltere": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Sokoto Halifeliği",
+"nokta": [
+9.226,
+11.044
+],
+"buyuk_gun": "1901-01-01",
+"yerlesimler": [],
+"no": "K855",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "rusya",
+"f": "1878-08-03",
+"t": "1917-03-15",
+"alan_max": 51.3,
+"kesit": 33,
+"siniflar": {
+"KARA-EKSKLAV": 22,
+"ADA": 11
+},
+"komsular": {
+"romanya": 0.737,
+"romanya-kralligi": 0.737
+},
+"koridor_km": 1.7,
+"koridor": {
+"romanya-kralligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Rusya",
+"nokta": [
+45.224,
+29.488
+],
+"buyuk_gun": "1878-08-03",
+"yerlesimler": [],
+"no": "K856",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "rusya-gecici-hukumet",
+"f": "1917-03-15",
+"t": "1917-11-07",
+"alan_max": 51.3,
+"kesit": 2,
+"siniflar": {
+"KARA-EKSKLAV": 2
+},
+"komsular": {
+"romanya-kralligi": 0.737
+},
+"koridor_km": 1.7,
+"koridor": {
+"romanya-kralligi": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Rusya Geçici Hükûmeti",
+"nokta": [
+45.224,
+29.488
+],
+"buyuk_gun": "1917-03-15",
+"yerlesimler": [],
+"no": "K857",
+"S": "KARA-EKSKLAV",
+"somurge": false
+},
+{
+"devlet": "qing-hanedani",
+"f": "1863-12-04",
+"t": "1864-07-19",
+"alan_max": 50.7,
+"kesit": 3,
+"siniflar": {
+"KARA-EKSKLAV": 1
+},
+"komsular": {
+"taiping": 0.53
+},
+"koridor_km": 58.5,
+"koridor": {
+"taiping": 9
+},
+"sinif": "KARA-EKSKLAV",
+"koridor_yer": [],
+"devlet_ad": "Qing Hanedanı (Mançu)",
+"nokta": [
+32.625,
+120.915
+],
+"buyuk_gun": "1863-12-04",
+"yerlesimler": [],
+"no": "K858",
+"S": "KARA-EKSKLAV",
+"somurge": false
+}
+]

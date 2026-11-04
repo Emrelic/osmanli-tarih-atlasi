@@ -5357,7 +5357,7 @@
    "aciklama": "Koşu 32'de içinde hiçbir yerleşim noktası olmayan kopuk parçalar; alan bölge poligonu/emilmeden.",
    "hukumler": "",
    "motor": false,
-   "sayi": 119,
+   "sayi": 202,
    "satirlar": [
     {
      "ad": "E004 guney-afrika-birligi",
@@ -6663,6 +6663,919 @@
      "lat": 47.541,
      "lon": 12.109,
      "simdi": "1918-11-08 → 1918-11-11 · 494 km² · en büyük kesit 1918-11-08",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K759 yunanistan",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 41.192,
+     "lon": 22.818,
+     "simdi": "1913-08-10 → 1913-11-14 · 479 km² · en büyük kesit 1913-08-10",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K761 fransa-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 49.468,
+     "lon": 6.198,
+     "simdi": "1890-11-23 → 1918-11-19 · 473 km² · en büyük kesit 1918-11-11",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K762 ingiltere",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 36.16,
+     "lon": -5.7,
+     "simdi": "1704-08-04 → 2000-12-31 · 472 km² · en büyük kesit 1854-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K764 fransa-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 6.885,
+     "lon": 10.096,
+     "simdi": "1922-07-20 → 1923-10-29 · 460 km² · en büyük kesit 1922-07-20",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K767 fransa-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 46.019,
+     "lon": 6.827,
+     "simdi": "1860-03-24 → 1860-06-14 · 434 km² · en büyük kesit 1860-03-24",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K768 sardinya-piyemonte",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 46.019,
+     "lon": 6.827,
+     "simdi": "1859-11-10 → 1860-03-24 · 434 km² · en büyük kesit 1859-11-10",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K769 baden",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 47.752,
+     "lon": 8.407,
+     "simdi": "1815-06-09 → 1871-01-18 · 434 km² · en büyük kesit 1815-06-09",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K773 habsburg",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 46.044,
+     "lon": 9.203,
+     "simdi": "1815-06-09 → 1859-11-10 · 340 km² · en büyük kesit 1815-06-09",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K774 sardinya-piyemonte",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 46.044,
+     "lon": 9.203,
+     "simdi": "1859-11-10 → 1861-03-17 · 340 km² · en büyük kesit 1861-03-07",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K775 rusya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 43.27,
+     "lon": 23.918,
+     "simdi": "1877-12-10 → 1878-07-13 · 339 km² · en büyük kesit 1877-12-10",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K776 liberya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 7.168,
+     "lon": -11.671,
+     "simdi": "1885-11-11 → 1923-10-29 · 322 km² · en büyük kesit 1892-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K777 OSMANLI",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 36.682,
+     "lon": 10.332,
+     "simdi": "1574-08-24 → 1574-08-25 · 322 km² · en büyük kesit 1574-08-24",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K779 fransa-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 47.51,
+     "lon": 7.32,
+     "simdi": "1918-11-11 → 1918-11-17 · 307 km² · en büyük kesit 1918-11-11",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K780 italya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 43.885,
+     "lon": 7.809,
+     "simdi": "1861-03-17 → 1923-10-29 · 290 km² · en büyük kesit 1861-03-17",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K781 sardinya-piyemonte",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 43.885,
+     "lon": 7.809,
+     "simdi": "1861-03-07 → 1861-03-17 · 290 km² · en büyük kesit 1861-03-07",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K782 sirbistan-kralligi",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 41.225,
+     "lon": 23.003,
+     "simdi": "1913-08-10 → 1918-12-01 · 280 km² · en büyük kesit 1913-08-10",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K783 yugoslavya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 41.225,
+     "lon": 23.003,
+     "simdi": "1918-12-01 → 1920-01-01 · 280 km² · en büyük kesit 1918-12-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K788 baden",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 47.651,
+     "lon": 7.639,
+     "simdi": "1815-06-09 → 1871-01-18 · 262 km² · en büyük kesit 1815-06-09",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K789 macaristan-naiplik",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 49.389,
+     "lon": 22.265,
+     "simdi": "1919-09-10 → 1920-06-04 · 258 km² · en büyük kesit 1919-09-10",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K792 safevi",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.837,
+     "lon": 47.358,
+     "simdi": "1545-12-26 → 1701-01-01 · 229 km² · en büyük kesit 1546-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K793 fransa-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 10.55,
+     "lon": 43.041,
+     "simdi": "1897-03-20 → 1897-05-14 · 200 km² · en büyük kesit 1897-03-20",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K794 habsburg",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 46.664,
+     "lon": 13.095,
+     "simdi": "1918-11-03 → 1918-11-11 · 199 km² · en büyük kesit 1918-11-03",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K795 sardinya-piyemonte",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 45.803,
+     "lon": 6.902,
+     "simdi": "1861-03-07 → 1861-03-17 · 183 km² · en büyük kesit 1861-03-07",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K796 fransiz-cinhindi",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 22.704,
+     "lon": 103.332,
+     "simdi": "1912-02-12 → 1923-10-29 · 174 km² · en büyük kesit 1912-02-12",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K797 avusturya-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 47.663,
+     "lon": 9.542,
+     "simdi": "1918-11-12 → 1923-10-29 · 171 km² · en büyük kesit 1919-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K798 liberya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 4.502,
+     "lon": -7.276,
+     "simdi": "1892-01-01 → 1923-10-29 · 171 km² · en büyük kesit 1898-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K799 kolombiya-cumhuriyeti",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 1.015,
+     "lon": -79.155,
+     "simdi": "1917-01-26 → 1923-10-29 · 164 km² · en büyük kesit 1917-01-26",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K800 habsburg",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 45.955,
+     "lon": 8.736,
+     "simdi": "1815-06-09 → 1859-11-10 · 160 km² · en büyük kesit 1815-06-09",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K801 isvicre",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 47.377,
+     "lon": 9.56,
+     "simdi": "1918-11-12 → 1923-10-29 · 158 km² · en büyük kesit 1918-11-12",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K802 fransa-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 51.63,
+     "lon": 4.206,
+     "simdi": "1814-05-04 → 1814-05-30 · 147 km² · en büyük kesit 1814-05-05",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K804 yunanistan",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 41.076,
+     "lon": 22.239,
+     "simdi": "1913-08-10 → 1913-11-14 · 127 km² · en büyük kesit 1913-08-10",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K805 arjantin-cumhuriyeti",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": -54.304,
+     "lon": -71.252,
+     "simdi": "1884-10-12 → 2000-12-31 · 126 km² · en büyük kesit 1902-09-26",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K806 belcika",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": -2.139,
+     "lon": 30.851,
+     "simdi": "1916-05-01 → 1916-05-06 · 120 km² · en büyük kesit 1916-05-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K807 hollanda",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 5.229,
+     "lon": -58.578,
+     "simdi": "1802-01-01 → 1802-03-27 · 119 km² · en büyük kesit 1802-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K808 bati-hint-federasyonu",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 10.091,
+     "lon": -61.79,
+     "simdi": "1958-01-03 → 1962-05-31 · 111 km² · en büyük kesit 1958-01-03",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K809 maratha",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 19.27,
+     "lon": 73.871,
+     "simdi": "1674-06-06 → 1737-04-01 · 109 km² · en büyük kesit 1732-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K810 bicapur",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 19.27,
+     "lon": 73.871,
+     "simdi": "1636-01-01 → 1674-06-06 · 109 km² · en büyük kesit 1656-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K811 romanya-kralligi",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 48.557,
+     "lon": 27.416,
+     "simdi": "1918-04-08 → 1918-04-09 · 107 km² · en büyük kesit 1918-04-08",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K812 ingiliz-hindistani",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 20.797,
+     "lon": 100.32,
+     "simdi": "1896-01-15 → 1923-10-29 · 105 km² · en büyük kesit 1896-01-15",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K813 israil-devleti",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 31.697,
+     "lon": 35.402,
+     "simdi": "1948-05-14 → 1948-07-11 · 97 km² · en büyük kesit 1948-05-14",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K815 afsar",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.831,
+     "lon": 47.392,
+     "simdi": "1736-03-08 → 1747-06-20 · 96 km² · en büyük kesit 1736-03-08",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K816 safevi",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.831,
+     "lon": 47.392,
+     "simdi": "1716-01-01 → 1736-03-08 · 96 km² · en büyük kesit 1717-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K817 zend",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.831,
+     "lon": 47.392,
+     "simdi": "1747-06-20 → 1794-01-01 · 96 km² · en büyük kesit 1747-06-20",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K818 kacar",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.834,
+     "lon": 47.391,
+     "simdi": "1794-01-01 → 1925-10-31 · 96 km² · en büyük kesit 1794-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K819 iran",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.84,
+     "lon": 47.391,
+     "simdi": "1925-10-31 → 2000-12-31 · 96 km² · en büyük kesit 1925-10-31",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K820 norvec",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 69.86,
+     "lon": 29.915,
+     "simdi": "1905-06-07 → 2000-12-31 · 95 km² · en büyük kesit 1923-10-29",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K821 norvec-isvec-birligi",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 69.86,
+     "lon": 29.915,
+     "simdi": "1814-11-04 → 1905-06-07 · 95 km² · en büyük kesit 1814-11-04",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K822 ispanya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": -24.007,
+     "lon": -64.836,
+     "simdi": "1714-01-01 → 1810-05-25 · 94 km² · en büyük kesit 1809-07-09",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K823 arjantin-cumhuriyeti",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": -24.007,
+     "lon": -64.836,
+     "simdi": "1810-05-25 → 1816-07-09 · 93 km² · en büyük kesit 1810-05-25",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K824 fransa",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 48.34,
+     "lon": 3.185,
+     "simdi": "1435-01-01 → 1439-01-01 · 93 km² · en büyük kesit 1435-09-21",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K825 kolombiya-cumhuriyeti",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 1.145,
+     "lon": -79.078,
+     "simdi": "1917-01-26 → 1923-10-29 · 91 km² · en büyük kesit 1917-01-26",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K826 sovyet-rusya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 45.317,
+     "lon": 28.361,
+     "simdi": "1917-12-15 → 1918-04-08 · 91 km² · en büyük kesit 1918-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K828 sardinya-piyemonte",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 45.105,
+     "lon": 6.825,
+     "simdi": "1861-03-07 → 1861-03-17 · 85 km² · en büyük kesit 1861-03-07",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K829 lur-i-buzurg",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.853,
+     "lon": 47.389,
+     "simdi": "1335-12-01 → 1393-01-01 · 82 km² · en büyük kesit 1335-12-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K830 timurlu",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.853,
+     "lon": 47.389,
+     "simdi": "1393-01-01 → 1442-01-16 · 82 km² · en büyük kesit 1402-09-15",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K831 musasa",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 30.853,
+     "lon": 47.389,
+     "simdi": "1442-01-16 → 1494-10-02 · 82 km² · en büyük kesit 1442-01-16",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K832 liberya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 4.46,
+     "lon": -7.421,
+     "simdi": "1892-01-01 → 1923-10-29 · 79 km² · en büyük kesit 1898-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K833 rusya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 68.658,
+     "lon": 23.459,
+     "simdi": "1905-06-07 → 1917-03-15 · 77 km² · en büyük kesit 1905-06-07",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K834 rusya-gecici-hukumet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 68.658,
+     "lon": 23.459,
+     "simdi": "1917-03-15 → 1917-11-07 · 77 km² · en büyük kesit 1917-03-15",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K835 sovyet-rusya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 68.658,
+     "lon": 23.459,
+     "simdi": "1917-11-07 → 1917-12-06 · 77 km² · en büyük kesit 1917-11-07",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K836 hollanda",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 49.595,
+     "lon": 5.421,
+     "simdi": "1820-03-28 → 1830-10-04 · 75 km² · en büyük kesit 1820-03-28",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K837 sovyet-rusya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 47.364,
+     "lon": 27.626,
+     "simdi": "1917-11-07 → 1918-04-08 · 73 km² · en büyük kesit 1918-01-04",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K838 sovyet-rusya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 45.216,
+     "lon": 29.489,
+     "simdi": "1917-11-07 → 1918-01-01 · 70 km² · en büyük kesit 1917-12-15",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K839 transkafkasya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 41.352,
+     "lon": 41.543,
+     "simdi": "1917-11-07 → 1918-03-14 · 69 km² · en büyük kesit 1918-02-28",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K840 ilhanli",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 39.138,
+     "lon": 33.432,
+     "simdi": "1281-01-01 → 1308-01-01 · 68 km² · en büyük kesit 1281-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K841 haudenosaunee",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 45.594,
+     "lon": -73.779,
+     "simdi": "1667-01-01 → 1777-01-01 · 68 km² · en büyük kesit 1679-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K842 OSMANLI",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 40.566,
+     "lon": 34.346,
+     "simdi": "1354-08-01 → 1392-11-01 · 65 km² · en büyük kesit 1361-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K843 venedik",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 42.3,
+     "lon": 19.147,
+     "simdi": "1443-01-01 → 1571-01-01 · 63 km² · en büyük kesit 1458-05-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K844 zeta",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 42.299,
+     "lon": 19.15,
+     "simdi": "1356-01-01 → 1421-01-01 · 63 km² · en büyük kesit 1387-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K845 sirbistan-nemanjic",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 42.299,
+     "lon": 19.15,
+     "simdi": "1281-01-01 → 1356-01-01 · 62 km² · en büyük kesit 1281-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K846 sirp-despotlugu",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 42.299,
+     "lon": 19.15,
+     "simdi": "1421-01-01 → 1443-01-01 · 62 km² · en büyük kesit 1421-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K847 finlandiya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 65.765,
+     "lon": 23.144,
+     "simdi": "1917-12-06 → 2000-12-31 · 62 km² · en büyük kesit 1920-10-14",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K848 cin-cumhuriyeti",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 23.98,
+     "lon": 97.582,
+     "simdi": "1911-10-10 → 1923-10-29 · 58 km² · en büyük kesit 1911-10-10",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K849 italya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 46.805,
+     "lon": 10.257,
+     "simdi": "1918-11-03 → 1918-11-11 · 58 km² · en büyük kesit 1918-11-03",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K850 qing-hanedani",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 23.98,
+     "lon": 97.582,
+     "simdi": "1897-06-05 → 1911-10-10 · 58 km² · en büyük kesit 1898-03-27",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K851 ezo-cumhuriyeti",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 42.539,
+     "lon": 140.755,
+     "simdi": "1869-01-27 → 1869-06-27 · 55 km² · en büyük kesit 1869-01-27",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K852 qing-hanedani",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 32.625,
+     "lon": 120.917,
+     "simdi": "1853-03-19 → 1860-06-02 · 53 km² · en büyük kesit 1853-03-19",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K853 timurlu",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 40.566,
+     "lon": 34.346,
+     "simdi": "1402-07-28 → 1402-09-15 · 52 km² · en büyük kesit 1402-08-17",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K854 romanya-kralligi",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 48.561,
+     "lon": 26.805,
+     "simdi": "1918-04-08 → 1918-04-09 · 52 km² · en büyük kesit 1918-04-08",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K855 sokoto",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 9.226,
+     "lon": 11.044,
+     "simdi": "1901-01-01 → 1903-07-27 · 52 km² · en büyük kesit 1901-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K856 rusya",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 45.224,
+     "lon": 29.488,
+     "simdi": "1878-08-03 → 1917-03-15 · 51 km² · en büyük kesit 1878-08-03",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K857 rusya-gecici-hukumet",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 45.224,
+     "lon": 29.488,
+     "simdi": "1917-03-15 → 1917-11-07 · 51 km² · en büyük kesit 1917-03-15",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K858 qing-hanedani",
+     "yer": "denetim/ENKLAV-1104/aday9.json",
+     "lat": 32.625,
+     "lon": 120.915,
+     "simdi": "1863-12-04 → 1864-07-19 · 50 km² · en büyük kesit 1863-12-04",
      "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
      "kirilma": null,
      "guven": "OLCUM",
@@ -8488,8 +9401,8 @@
      "lat": 41.348,
      "lon": 26.497,
      "simdi": "s:bulgaristan-kralligi 1915-09-06→1920-05-27; s:yunanistan 1920-05-27→1973-06-01",
-     "oneri": "1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla",
-     "kirilma": "1920-05-14",
+     "oneri": "1919-10-15 Fransız (İtilâf) işgali (beyan) → 1920-05-22 yunanistan (TDV «Batı Trakya»)",
+     "kirilma": "1920-05-22",
      "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
      "kronoloji": "YOK"
     },
@@ -8499,8 +9412,8 @@
      "lat": 40.897,
      "lon": 26.172,
      "simdi": "s:bulgaristan-kralligi 1913-05-30→1920-05-27; s:yunanistan 1920-05-27→1973-06-01",
-     "oneri": "1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla",
-     "kirilma": "1920-05-14",
+     "oneri": "1919-10-15 Fransız (İtilâf) işgali (beyan) → 1920-05-22 yunanistan (TDV «Batı Trakya»)",
+     "kirilma": "1920-05-22",
      "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
      "kronoloji": "YOK"
     },
@@ -8510,8 +9423,8 @@
      "lat": 41.122,
      "lon": 25.406,
      "simdi": "s:bulgaristan-kralligi 1913-10-25→1920-05-27; s:yunanistan 1920-05-27→1973-06-01",
-     "oneri": "1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla",
-     "kirilma": "1920-05-14",
+     "oneri": "1919-10-15 Fransız (İtilâf) işgali (beyan) → 1920-05-22 yunanistan (TDV «Batı Trakya»)",
+     "kirilma": "1920-05-22",
      "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
      "kronoloji": "VAR: 1920-05-27 — Gümülcine'nin işgali — Batı Trakya'nın kaybı"
     },
@@ -8521,8 +9434,8 @@
      "lat": 41.14,
      "lon": 24.89,
      "simdi": "s:bulgaristan-kralligi 1913-05-30→1920-05-27; s:yunanistan 1920-05-27→1973-06-01",
-     "oneri": "1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla",
-     "kirilma": "1920-05-14",
+     "oneri": "1919-10-15 Fransız (İtilâf) işgali (beyan) → 1920-05-22 yunanistan (TDV «Batı Trakya»)",
+     "kirilma": "1920-05-22",
      "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
      "kronoloji": "VAR: 1920-05-27 — Gümülcine'nin işgali — Batı Trakya'nın kaybı"
     },
@@ -8532,8 +9445,8 @@
      "lat": 41.65,
      "lon": 25.37,
      "simdi": "s:bulgaristan-kralligi 1913-09-29→1946-09-15",
-     "oneri": "1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla",
-     "kirilma": "1920-05-14",
+     "oneri": "1919-10-15 Fransız (İtilâf) işgali (beyan) → 1920-05-22 yunanistan (TDV «Batı Trakya»)",
+     "kirilma": "1920-05-22",
      "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
      "kronoloji": "YOK"
     },
@@ -8543,8 +9456,8 @@
      "lat": 40.98089,
      "lon": 26.2535,
      "simdi": "s:bulgaristan-kralligi 1913-05-30→1920-05-27; s:yunanistan 1920-05-27→1973-06-01",
-     "oneri": "1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla",
-     "kirilma": "1920-05-14",
+     "oneri": "1919-10-15 Fransız (İtilâf) işgali (beyan) → 1920-05-22 yunanistan (TDV «Batı Trakya»)",
+     "kirilma": "1920-05-22",
      "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
      "kronoloji": "YOK"
     }
@@ -8557,7 +9470,7 @@
    "aciklama": "Kopukluk tâbinin komşu sayılmasından ya da < 1 km koridordan; veri düzeltmesi değil, evren/motor kararı.",
    "hukumler": "",
    "motor": true,
-   "sayi": 82,
+   "sayi": 165,
    "satirlar": [
     {
      "ad": "E082",
@@ -9293,6 +10206,753 @@
      "yer": "denetim/ENKLAV-1104/hukumler8.json",
      "simdi": "Habsburg parçası 1918-11-08 → 11-11, nokta yok: noktasız motor ataması.",
      "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K759",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "yunanistan parçası 1913-08-10 → 1913-11-14, içinde hiç yerleşim noktası yok (komşu: sirbistan-kralligi, OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K761",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "fransa-cumhuriyet parçası 1890-11-23 → 1918-11-19, içinde hiç yerleşim noktası yok (komşu: almanya, belcika): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K762",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "ingiltere parçası 1704-08-04 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: ispanya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K764",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "fransa-cumhuriyet parçası 1922-07-20 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ingiltere, ingiliz-kamerun): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K767",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "fransa-cumhuriyet parçası 1860-03-24 → 1860-06-14, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K768",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sardinya-piyemonte parçası 1859-11-10 → 1860-03-24, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K769",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "baden parçası 1815-06-09 → 1871-01-18, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K773",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "habsburg parçası 1815-06-09 → 1859-11-10, içinde hiç yerleşim noktası yok (komşu: avusturya, isvicre): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K774",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sardinya-piyemonte parçası 1859-11-10 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: sardinya, isvicre): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K775",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "rusya parçası 1877-12-10 → 1878-07-13, içinde hiç yerleşim noktası yok (komşu: OSMANLI, romanya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K776",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "liberya parçası 1885-11-11 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K777",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "OSMANLI parçası 1574-08-24 → 1574-08-25, içinde hiç yerleşim noktası yok (komşu: hafsi, ispanya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K779",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "fransa-cumhuriyet parçası 1918-11-11 → 1918-11-17, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K780",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "italya parçası 1861-03-17 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K781",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K782",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sirbistan-kralligi parçası 1913-08-10 → 1918-12-01, içinde hiç yerleşim noktası yok (komşu: yunanistan, bulgaristan-kralligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K783",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "yugoslavya parçası 1918-12-01 → 1920-01-01, içinde hiç yerleşim noktası yok (komşu: yunanistan, bulgaristan-kralligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K788",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "baden parçası 1815-06-09 → 1871-01-18, içinde hiç yerleşim noktası yok (komşu: isvicre, almanya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K789",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "macaristan-naiplik parçası 1919-09-10 → 1920-06-04, içinde hiç yerleşim noktası yok (komşu: cekoslovakya, itilaf-emaneti): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K792",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "safevi parçası 1545-12-26 → 1701-01-01, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K793",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "fransa-cumhuriyet parçası 1897-03-20 → 1897-05-14, içinde hiç yerleşim noktası yok (komşu: ingiltere, habesistan): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K794",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "habsburg parçası 1918-11-03 → 1918-11-11, içinde hiç yerleşim noktası yok (komşu: avusturya, italya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K795",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, sardinya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K796",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "fransiz-cinhindi parçası 1912-02-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: cin-cumhuriyeti): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K797",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "avusturya-cumhuriyet parçası 1918-11-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: almanya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K798",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "liberya parçası 1892-01-01 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K799",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "kolombiya-cumhuriyeti parçası 1917-01-26 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ekvador-cumhuriyeti): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K800",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "habsburg parçası 1815-06-09 → 1859-11-10, içinde hiç yerleşim noktası yok (komşu: isvicre, milano-dukaligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K801",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "isvicre parçası 1918-11-12 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: avusturya-cumhuriyet, almanya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K802",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "fransa-cumhuriyet parçası 1814-05-04 → 1814-05-30, içinde hiç yerleşim noktası yok (komşu: hollanda): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K804",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "yunanistan parçası 1913-08-10 → 1913-11-14, içinde hiç yerleşim noktası yok (komşu: sirbistan-kralligi, OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K805",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "arjantin-cumhuriyeti parçası 1884-10-12 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: sili-cumhuriyeti): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K806",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "belcika parçası 1916-05-01 → 1916-05-06, içinde hiç yerleşim noktası yok (komşu: ingiltere, alman-dogu-afrikasi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K807",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "hollanda parçası 1802-01-01 → 1802-03-27, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K808",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "bati-hint-federasyonu parçası 1958-01-03 → 1962-05-31, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K809",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "maratha parçası 1674-06-06 → 1737-04-01, içinde hiç yerleşim noktası yok (komşu: babur-imparatorlugu, portekiz): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K810",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "bicapur parçası 1636-01-01 → 1674-06-06, içinde hiç yerleşim noktası yok (komşu: babur-imparatorlugu, portekiz): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K811",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "romanya-kralligi parçası 1918-04-08 → 1918-04-09, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, moldova-demokratik-cum): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K812",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "ingiliz-hindistani parçası 1896-01-15 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransiz-cinhindi, san-devletleri): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K813",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "israil-devleti parçası 1948-05-14 → 1948-07-11, içinde hiç yerleşim noktası yok (komşu: urdun-emirligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K815",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "afsar parçası 1736-03-08 → 1747-06-20, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K816",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "safevi parçası 1716-01-01 → 1736-03-08, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K817",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "zend parçası 1747-06-20 → 1794-01-01, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K818",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "kacar parçası 1794-01-01 → 1925-10-31, içinde hiç yerleşim noktası yok (komşu: OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K819",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "iran parçası 1925-10-31 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: irak-kralligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K820",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "norvec parçası 1905-06-07 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, finlandiya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K821",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "norvec-isvec-birligi parçası 1814-11-04 → 1905-06-07, içinde hiç yerleşim noktası yok (komşu: rusya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K822",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "ispanya parçası 1714-01-01 → 1810-05-25, içinde hiç yerleşim noktası yok (komşu: ispanyol-peru): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K823",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "arjantin-cumhuriyeti parçası 1810-05-25 → 1816-07-09, içinde hiç yerleşim noktası yok (komşu: ispanyol-peru): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K824",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "fransa parçası 1435-01-01 → 1439-01-01, içinde hiç yerleşim noktası yok (komşu: burgonya, ingiltere): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K825",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "kolombiya-cumhuriyeti parçası 1917-01-26 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: ekvador-cumhuriyeti): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K826",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sovyet-rusya parçası 1917-12-15 → 1918-04-08, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi, moldova-demokratik-cum): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K828",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sardinya-piyemonte parçası 1861-03-07 → 1861-03-17, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, sardinya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K829",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "lur-i-buzurg parçası 1335-12-01 → 1393-01-01, içinde hiç yerleşim noktası yok (komşu: celayirli): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K830",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "timurlu parçası 1393-01-01 → 1442-01-16, içinde hiç yerleşim noktası yok (komşu: celayirli): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K831",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "musasa parçası 1442-01-16 → 1494-10-02, içinde hiç yerleşim noktası yok (komşu: karakoyunlu): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K832",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "liberya parçası 1892-01-01 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K833",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "rusya parçası 1905-06-07 → 1917-03-15, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K834",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "rusya-gecici-hukumet parçası 1917-03-15 → 1917-11-07, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K835",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sovyet-rusya parçası 1917-11-07 → 1917-12-06, içinde hiç yerleşim noktası yok (komşu: norvec, isvec): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K836",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "hollanda parçası 1820-03-28 → 1830-10-04, içinde hiç yerleşim noktası yok (komşu: fransa-cumhuriyet, luksemburg-hollanda-birligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K837",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sovyet-rusya parçası 1917-11-07 → 1918-04-08, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi, moldova-demokratik-cum): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K838",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sovyet-rusya parçası 1917-11-07 → 1918-01-01, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K839",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "transkafkasya parçası 1917-11-07 → 1918-03-14, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K840",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "ilhanli parçası 1281-01-01 → 1308-01-01, içinde hiç yerleşim noktası yok (komşu: selcuklu, ahiler): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K841",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "haudenosaunee parçası 1667-01-01 → 1777-01-01, içinde hiç yerleşim noktası yok (komşu: fransa): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K842",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "OSMANLI parçası 1354-08-01 → 1392-11-01, içinde hiç yerleşim noktası yok (komşu: eretna, burhaneddin): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K843",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "venedik parçası 1443-01-01 → 1571-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, OSMANLI): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K844",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "zeta parçası 1356-01-01 → 1421-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, sirbistan-nemanjic): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K845",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sirbistan-nemanjic parçası 1281-01-01 → 1356-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K846",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sirp-despotlugu parçası 1421-01-01 → 1443-01-01, içinde hiç yerleşim noktası yok (komşu: sirbistan, venedik): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K847",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "finlandiya parçası 1917-12-06 → 2000-12-31, içinde hiç yerleşim noktası yok (komşu: isvec): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K848",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "cin-cumhuriyeti parçası 1911-10-10 → 1923-10-29, içinde hiç yerleşim noktası yok (komşu: san-devletleri, ingiliz-hindistani): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K849",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "italya parçası 1918-11-03 → 1918-11-11, içinde hiç yerleşim noktası yok (komşu: isvicre, avusturya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K850",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "qing-hanedani parçası 1897-06-05 → 1911-10-10, içinde hiç yerleşim noktası yok (komşu: san-devletleri, ingiliz-hindistani): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K851",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "ezo-cumhuriyeti parçası 1869-01-27 → 1869-06-27, içinde hiç yerleşim noktası yok (komşu: meiji-japonya): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K852",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "qing-hanedani parçası 1853-03-19 → 1860-06-02, içinde hiç yerleşim noktası yok (komşu: taiping): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K853",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "timurlu parçası 1402-07-28 → 1402-09-15, içinde hiç yerleşim noktası yok (komşu: mehmed-celebi, candar): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K854",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "romanya-kralligi parçası 1918-04-08 → 1918-04-09, içinde hiç yerleşim noktası yok (komşu: sovyet-rusya, moldova-demokratik-cum): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K855",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "sokoto parçası 1901-01-01 → 1903-07-27, içinde hiç yerleşim noktası yok (komşu: ingiltere): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K856",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "rusya parçası 1878-08-03 → 1917-03-15, içinde hiç yerleşim noktası yok (komşu: romanya, romanya-kralligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K857",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "rusya-gecici-hukumet parçası 1917-03-15 → 1917-11-07, içinde hiç yerleşim noktası yok (komşu: romanya-kralligi): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K858",
+     "yer": "denetim/ENKLAV-1104/hukumler9.json",
+     "simdi": "qing-hanedani parçası 1863-12-04 → 1864-07-19, içinde hiç yerleşim noktası yok (komşu: taiping): noktasız motor ataması.",
+     "oneri": "Motor sorusu (HAVVA): parçayı üreten emilme bölgesi ölçülsün.",
      "kirilma": null,
      "guven": "MOTOR SORUSU",
      "kronoloji": "—"
