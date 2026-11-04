@@ -696,6 +696,35 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Hatay Devleti 1938-09-02 ve Türkiye'ye katılış 1939-06-29 (fiilî devir 07-23) ayrı bakılır; gün kaynakla.
 - **Huy:** Brüksel emsali uygun.
 
+## 29b. Trieste, Bolonya, Ubârî, Çamdo, Ayn el-Arab (EMRELİC, 4 Kasım 2026 gece-8; `karar35`)
+- **Trieste ve Trento:** 1918-11-03'ten `isg italya`.
+  - Trieste için devamı:
+    - 1945-05-01 → 06-12 Yugoslav `isg`; sonra A Bölgesi'nde Anglo-Amerikan `isg`.
+    - Serbest Trieste Bölgesi 1947-09-15 → 1954-10-26 künye adayıdır, LAB'a gider. Künye gelene kadar `isg` + BEYANLI.
+    - `s: italya` 1954-10-26'dan.
+  - **TEK ÖLÇÜ sorusu:** EMRELİC `s: italya` için Saint-Germain'in yürürlüğünü (1920-07-16) verdi. Atlasın öteki devirleri bundan farklı ölçüyor:
+    - Lozan: brifte `s:` imza gününden (1923-07-24). Dimetoka `s: yunanistan` de 1923-07-24.
+    - Berlin: Borçka 1878-07-13, imza günü.
+    - Toruń: teslim günü (1920-01-18), yürürlük (01-10) değil.
+    - Petsamo: mütarekenin imza günü.
+  - UMIT'in önerdiği tek ölçü: devralan devlet toprağı **zaten fiilen yönetiyorsa imza günü**, yönetmiyorsa **teslim günü**; yürürlük `ic_not`'a.
+    - Bu ölçüyle Trieste ve Trento 1919-09-10 olur.
+    - **EMRELİC gece-9: TEK ÖLÇÜ onaylandı**, yürürlük kararı geri alındı.
+      - Devralan zaten fiilen yönetiyorsa İMZA, yönetmiyorsa TESLİM günü; yürürlük her zaman `ic_not`.
+      - Mütareke ya da ön barış hukukî devir içermiyorsa sayılmaz.
+      - Trieste ve Trento `s: italya` **1919-09-10**. Lozan zinciri imzada kalır.
+      - Kural DA-BRIEF'in genel kuralına yazıldı.
+- **Bolonya:** 1859-06-12 (Papalık legatının çıkışı) → 1860-03-18 arası `d: papalik` + `isg sardinya`.
+  - `s: sardinya` 1860-03-18'den.
+  - Villafranca ön barıştır, sayılmaz.
+  - Orta İtalya Birleşik Eyaletleri künye değildir, `ic_not`'a yazılır.
+- **Ubârî:** 1912-43 `s: italya`; fiilî Senusi denetimi `ic_not`'ta. 1943-51 `isg fransa`.
+- **Çamdo:** `v: qing`. `s:` Ganden Phodrang ya da yerel Phagpa Lha, kaynakla.
+- **Ayn el-Arab:** KASA-YER kuyruğuna.
+  - Suriye manda zinciri yazılır; bitiş, atlastaki Suriye künyesinin günüdür.
+  - **Hatay sızıntısı taraması:** `hatay-devleti` dönemi taşıyan 4 yerleşim var: Antakya, İskenderun, Sincan, Ayn el-Arab. Hatay sınırı dışında kalan yalnız Ayn el-Arab (36.89 K, 38.35 D); sızıntı tekil.
+- **Lille ve Kaunas:** genel kural uygun.
+
 ## 30. BAKILMADI yeniden araştırma turu (UMIT, 4 Kasım 2026 gece)
 - Evren 1-3'te 600-1923 arası BAKILMADI satırı: **577 satır, 302 yerleşim.** Bunlar 24 partiye bölündü (`db_b_NN`, `bak_parti.py`; satır sayısı çok olan önce).
 - Sonuç dosyası `db_rb_NN.json` biçiminde; `bak_topla.py` yalnız eşleşen BAKILMADI satırının yerine koyar (eşleşme: `dosya_satir` + `alan` + `d` + `f`).
