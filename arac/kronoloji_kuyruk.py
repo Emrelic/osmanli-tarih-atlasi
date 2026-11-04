@@ -51,6 +51,8 @@ ISARETLE = [
 ]
 # Metin düzeltmeleri (tarih kalır; koordinatör kararı, EMRELİC 1 KASIM, 4 Kasım 2026).
 METIN = [
+    ("L2-410", "Duala 1884-07-12: gün doğru; antlaşmayı Duala şefleriyle Nachtigal değil Alman konsolos Emil Schulze imzaladı (Pretoria Univ. Law Press, German Colonialism böl.7) → özne düzeltilir; Nachtigal'in 14 Temmuz bayrak çekişi doğrulanmadı"),
+    ("L2-420", "[BEKLE — tek, akademik olmayan kaynak] Kenya kuzey 1890-07-01: tarih doğru (GHI); antlaşma Madde I Alman alanının kuzeyini (Umba hattı) veriyor; İngiliz alanının kuzey sınırı 1891 İngiliz-İtalyan protokolleri (yalnız arama özeti) → ifade kontrol"),
     ("L2-397", "[TEK KURAL — yerleşim] Alsas-Loren: Metz, Strazburg, Colmar, Mulhouse (yerlesimler_avrupa.js:219-225) s: almanya f=1871-05-10 doğru (Frankfurt); ama 1870 Alman askerî Genel Valiliği için isg YOK → Strazburg teslimi (28 Eylül 1870), Metz teslimi (27 Ekim 1870) vb. → 1871-05-10 arası isg: almanya eklenmeli (Fransa'nın iddiası sürüyordu); günler kaynaktan"),
     ("L2-398", "[BEKLE — tek, akademik olmayan kaynak] Aşanti Pra geçişi: atlas «Aralık 1872», EB1911 «22 January 1873» (tek kaynak) → yıl 1873 tutuyor, metindeki ay düzeltilir ya da beyan"),
     ("L2-400", "at sayısı «~1.100» → Handbook of Texas «more than 1,400 captured»"),
