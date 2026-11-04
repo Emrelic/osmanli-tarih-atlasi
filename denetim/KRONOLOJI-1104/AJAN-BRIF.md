@@ -17,7 +17,10 @@ Her parti ajanına aynen verilir. Kaynak: CLAUDE.md kaynak kuralı + koordinatö
    Aitchison, Hertslet, Yale Avalon), devlet/akademi arşiv kataloğu.
    **Kişisel site, belediye/turizm sitesi, dernek dergisi/bülteni, soyağacı sitesi, haber sitesi,
    popüler tarih sitesi tek dayanak olamaz** → KAYNAK_UYGUN_DEGIL; tarih tutuyorsa ipucu olarak
-   `uyum`a yazılır. Britannica/EB1911 tek başına düzeltme dayanağı değildir (en çok kısmi).
+   `uyum`a yazılır. Britannica/EB1911 ve akademik olmayan eski yerel tarihler (ör. Chalfant 1933)
+   tek başına düzeltme dayanağı değildir (en çok kısmi) — tarih düzeltmesi de metin düzeltmesi de
+   bunlara tek başına dayanamaz. Akademik monografinin ayna sitedeki metni ipucu değil,
+   monografi sayılır; künye yayıncıdan doğrulanır.
 6. **Gün ve yıl:** atlas gün yazmış, kaynak yalnız yıl veriyorsa BULUNAMADI + "yıl evet; gün
    yok"; yıl hassasiyetli maddede yıl tutuyorsa DOGRULANDI. Yalnız yıl teyitli madde sınıra
    bağlı değilse YYYY-01-01'e iner, bağlıysa «[yalnız yıl teyitli; gün teyitsiz]».

@@ -23,8 +23,7 @@ BEKLET = {
     "L2-365": "tek, Wiesbaden belediye sitesi",
     "L2-370": "tek, K. Dierks kişisel Namibya kronolojisi",
     "L2-371": "tek, K. Dierks kişisel Namibya kronolojisi",
-    "L2-397": "Elsass-Lothringen: yasa 1871-06-09 (RGBl 1871 Nr.25, 14 Haziran yayım; LeMO); 28 Haziran metinde yok — yürürlük günü olabilir, bulunmadı → aday",
-    "L2-158": "Kolomna 1385-03-25: Lavrentyev monografisi yalnız AYNA sitede (history.wikireading.ru) okundu; PSRL dipnotları sayfada yok → yayıncı/PSRL teyidi tarayıcı kuyruğunda",
+    "L2-384": "Payut 1862-04-06: Chalfant, Story of Inyo (1933) akademik olmayan yerel tarih → en çok KISMEN, tek başına düzeltme dayanağı değil",
     "L2-380": "Jonker Afrikaner'in ölümü: aday 1861-08-16 — Pool, PhD Stellenbosch 1995 yalnız ÖZET okundu; 18 Ağustos yalnız kişisel site + Vikipedi; tam metin (403) tarayıcı kuyruğunda; L2-381 ile birlikte değişir",
     "L2-381": "Jonker Afrikaner'in ölümü: L2-380 ile aynı karar",
     "L2-372": "İngiliz Burma: aday 1853-01-20 (NAM, ilan); 1852-12-20 yalnız özette → Aitchison'da İLHAK BİLDİRİSİ tarihi ile Rangoon İLAN günü ayrı bulunacak; tek kurala göre s: değişimi bildiri tarihi",
@@ -40,6 +39,8 @@ DEGISTIR = {
     "L2-326": ("tarih düzelt", "Kassel 1813-09-28 → 10-01 (madde «alınış»); ic_not «[tek kaynak] 28 Eylül ilk baskın»"),
     "L2-352": ("kaynak yenile (tarih KALIR)", "Mauritius 1835 (devletler.js:14867, t=1835-01-01 YIL düzeyi) → tarih kalır; kaynak Nwulia, ASR 21/1 (1978) «1 February 1835» eklenir (gün ic_not'a, tek kaynak)"),
     "L2-364": ("tarih düzelt", "Tahıl Yasaları: madde «kaldırıldı» (yasalaşma) → 1846-06-26 kraliyet onayı (Hansard Lordlar 26.6.1846 «Received the Royal Assent»); 25 Haziran Lordlar oylaması ic_not'a"),
+    "L2-397": ("tarih düzelt", "Reichsland: madde (devletler.js:17044) «Reichsland kuruldu» → yasa tarihi 1871-06-09 (RGBl 1871 Nr.25, 14 Haziran yayım); 06-28 yürürlük ic_not'a. Toprak devri ayrı madde (17043, Frankfurt 1871-05-10)"),
+    "L2-158": ("kaynak yenile", "Kolomna 1385-03-25 TEYİT: Lavrentyev, «Posle Kulikovskoy bitvy» böl.2 (akademik monografinin aynası); PSRL dipnotu gelince kesinleşir; «Sergius aracılığıyla iade» metinde yumuşatılır (metin satırı)"),
     "L2-227": ("tarih düzelt", "1652-02-04 Jülyen → 1652-02-14 Gregoryen (İngiltere 1752'ye dek Jülyen; mekanik çeviri); ic_not'a iki gün"),
 }
 # Kaynakta olayın kendisi bulunamayan maddeler: metin düzeltilmez, işaretlenir.
@@ -50,10 +51,11 @@ ISARETLE = [
 ]
 # Metin düzeltmeleri (tarih kalır; koordinatör kararı, EMRELİC 1 KASIM, 4 Kasım 2026).
 METIN = [
-    ("L2-398", "Aşanti Pra geçişi: atlas «Aralık 1872», EB1911 «22 January 1873» (tek kaynak) → yıl 1873 tutuyor, metindeki ay düzeltilir ya da beyan"),
+    ("L2-397", "[TEK KURAL — yerleşim] Alsas-Loren: Metz, Strazburg, Colmar, Mulhouse (yerlesimler_avrupa.js:219-225) s: almanya f=1871-05-10 doğru (Frankfurt); ama 1870 Alman askerî Genel Valiliği için isg YOK → Strazburg teslimi (28 Eylül 1870), Metz teslimi (27 Ekim 1870) vb. → 1871-05-10 arası isg: almanya eklenmeli (Fransa'nın iddiası sürüyordu); günler kaynaktan"),
+    ("L2-398", "[BEKLE — tek, akademik olmayan kaynak] Aşanti Pra geçişi: atlas «Aralık 1872», EB1911 «22 January 1873» (tek kaynak) → yıl 1873 tutuyor, metindeki ay düzeltilir ya da beyan"),
     ("L2-400", "at sayısı «~1.100» → Handbook of Texas «more than 1,400 captured»"),
-    ("L2-386", "«~400 kişi» 22 Mayıs Captain George'un gelişine değil 4 Haziran teslimine ait (Chalfant 1933)"),
-    ("L2-385", "6 Ekim antlaşmasını Indian agent Wentworth yaptı; Wasson yalnız Paiute'leri topladı (Chalfant 1933)"),
+    ("L2-386", "[BEKLE — tek, akademik olmayan kaynak] «~400 kişi» 22 Mayıs Captain George'un gelişine değil 4 Haziran teslimine ait (Chalfant 1933)"),
+    ("L2-385", "[BEKLE — tek, akademik olmayan kaynak] 6 Ekim antlaşmasını Indian agent Wentworth yaptı; Wasson yalnız Paiute'leri topladı (Chalfant 1933)"),
     ("L2-158", "Kolomna: Sergius'un aracılığıyla iade KANITLANMAMIŞ varsayım (Tula ile takas) — Lavrentyev; ifade yumuşatılır"),
     ("L2-366", "Venedik 1848-08-07: gün doğru (The Spectator 19.8.1848); yetkiyi Manin değil Castelli başkanlığındaki geçici hükümet devretti (Treccani DBI) → özne düzeltilir"),
     ("L2-369", "Venedik teslimi 1849-08-22: belgeyi Avusturya generali Gorzkowski imzaladı, Manin teslim kararını verdi (Treccani) → ifade kaynağa uydurulur"),
@@ -120,7 +122,9 @@ def main():
                 yer.setdefault(r.get("no", ""), (r.get("dosya_satir", ""), r.get("tarih_atlas", "")))
     for no, ne in METIN:
         ds, t = yer.get(no, ("", ""))
-        is_ = "tek kural ölçümü (yerleşim s:/isg)" if ne.startswith("[TEK KURAL") else "metin düzelt (tarih kalır)"
+        is_ = ("tek kural ölçümü (yerleşim s:/isg)" if ne.startswith("[TEK KURAL")
+               else "BEKLE metin (tek, akademik olmayan kaynak)" if ne.startswith("[BEKLE")
+               else "metin düzelt (tarih kalır)")
         satir.append(["koordinator", no, is_, ds, t, ne, "", "", "", ""])
     for no, ad, neden in ISARETLE:
         ds, t = yer.get(no, ("", ""))
