@@ -27,8 +27,8 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | sirbistan-nedic | 1941-08-29 → 1944-10-06 | = → = | KISMEN | Hrvatska enciklopedija nedic-milan — 'Od kolovoza 1941. predsjednik kvislinške vlade u Srbiji' (f ay teyitli, 08-29 günü teyitsiz; t 1944-10-06 teyitsiz) |
 | alman-isgali-karadag | 1943-09-12 → 1944-12-15 | = → = | GIRISLI | ÇELİŞKİ — Hrvatska enciklopedija crna-gora: 'Nakon kapitulacije Italije … Nijemci su u ostalom dijelu uspostavili upravu' (f 1943-09 uyumlu) · 'Borbe za Crnu Goru završene su u siječnju 1945., kada su jedinice NOV-a ovladale cijelim crnogorskim područjem' — veri t 1944-12-15 (Podgorica 19 Aralık 1944?) ile çelişiyor; üçüncü kaynak (Tomasevich, War and Revolution in Yugoslavia: Occupation and Collaboration, Stanford UP 2001) gerek |
 | letonya | 1918-11-18 → 1940-08-06 | = → 1940-08-05 | DUZELT | Nacionālā enciklopēdija (Letonya) 'Latvijas Republikas proklamēšana' (J. Šiliņš) — '1918. gada 18. novembrī' (f teyitli) · 'padomju okupācija Latvijā, 1940.–1941. gads' (D. Bleiere) — 'Latvijas “iestāšanās” PSRS sastāvā 05.08.1940' (t 1940-08-06 → 1940-08-05) |
-| litvanya | 1918-02-16 → 1940-08-06 | = → = | GIRISLI | ŞÜPHE — üç Baltık cumhuriyetinin t'si aynı (1940-08-06); Litvanya'nın SSCB'ye 'kabulü' 3 Ağustos 1940 olarak bilinir (Letonya 5, Estonya 6 Ağustos — Letonya ucu Nacionālā enciklopēdija ile 05.08 teyitli). VLE (vle.lt) maddesi bulunamadı; akademik kaynak (Misiunas & Taagepera, The Baltic States: Years of Dependence) gerek |
-| estonya | 1918-02-24 → 1940-08-06 | = → = | GIRISLI | t 1940-08-06 Estonya için doğru olabilir (SSCB'ye kabul 6 Ağustos 1940); f 1918-02-24 Bağımsızlık Bildirisi — akademik kaynak (Misiunas & Taagepera; Eesti entsüklopeedia) gerek |
+| litvanya | 1918-02-16 → 1940-08-06 | = → = | KISMEN | EMRELİC JSTOR — A. E. Senn, Russian Review 49/1 (1990), s.43-56: Litvanya'nın SSCB'ye katılması Ağustos 1940 (gün yok); 3 Ağustos günü teyitsiz — veri 08-06 Estonya günü olabilir, ŞÜPHE sürüyor |
+| estonya | 1918-02-24 → 1940-08-06 | = → = | KISMEN | EMRELİC JSTOR — N. Vakar, Russian Review 3/1 (1943), s.45-54: Baltık ilhakı 1940 (yalnız yıl); f 1918-02-24 ve t 08-06 günleri teyitsiz |
 | litvanya-buyuk-dukalik | 1236-01-01 → 1569-07-01 | = → = | KISMEN | Visuotinė lietuvių enciklopedija 'Lietuvos Didžioji Kunigaikštystė' (R. Petrauskas) — 'Dėl LDK susikūrimo laiko nėra bendros nuomonės. Dauguma istorikų jos pradžia laiko … Mindaugo laikais (13 a. antras ketvirtis)' · '1569 Liublino unija LDK su Lenkija sudarė federacinę … valstybę' (t yıl teyitli; f 1236 kuruluş için tartışmalı — beyan: 13. yy 2. çeyreği) |
 | norvec | 1905-06-07 → None | = → = | TEYIT | Store norske leksikon 'unionsoppløsningen i 1905' — 'Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905. I Sverige regnes 26. oktober som dagen for unionsoppløsningen' (f gün teyitli; İsveç tanıması 26 Ekim — beyan) |
 | norvec-kralligi | 0872-01-01 → 1537-01-01 | = → = | KISMEN | Store norske leksikon 'Kalmarunionen' — 'en politikk som kulminerte med at Norge ble et dansk lydrike i 1537' · 'Norges historie': 'Senmiddelalder (cirka 1350–1537)' (t yıl teyitli; f 872 Hafrsfjord geleneksel — beyan) |
@@ -52,7 +52,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | burgonya | 1032-01-01 → 1482-03-27 | = → = | GIRISLI | GİRİŞLİ: NCMH VII (Schnerb 'Burgundy') — 1032 dükalık / 1482-03-27 Marie'nin ölümü |
 | navarra | 0824-01-01 → 1620-10-19 | = → = | GIRISLI | GİRİŞLİ: NCMH / Historia de Navarra — 824 / 1620-10-19 Fransa'ya katılma fermanı |
 | luksemburg | 1890-11-23 → None | = → = | GIRISLI | GİRİŞLİ: Kreins, Histoire du Luxembourg (PUF) — 1890-11-23 Hollanda ile şahsî birliğin sonu |
-| teodoro | 1349-01-01 → 1475-12-01 | = → = | GIRISLI | GİRİŞLİ: Vasiliev, The Goths in the Crimea (1936) / Kizilov — 1349 / 1475-12 Mangup |
+| teodoro | 1349-01-01 → 1475-12-01 | = → = | KISMEN | EMRELİC JSTOR — D. Kizilov, Acta Orientalia ASH 59/2 (2006), s.181: Osmanlı fethi 1475 (yıl); Aralık ayı ve f 1349 okunmadı |
 | slovakya-cumhuriyeti | 1939-03-14 → 1945-04-04 | = → = | GIRISLI | GİRİŞLİ: Beliana (Slovak ansiklopedisi) / Ward, Priest, Politician, Collaborator (Cornell UP 2013) — 1939-03-14 / 1945-04-04 |
 | ispanya-milliyetci | 1936-07-17 → 1939-04-01 | = → = | GIRISLI | GİRİŞLİ: Preston, The Spanish Civil War — 1936-07-17 / 1939-04-01 |
 | sirp-krajina-cumhuriyeti | 1991-12-19 → 1995-08-07 | = → = | GIRISLI | GİRİŞLİ: Hrvatska enciklopedija (madde bulunamadı) / Ramet, The Three Yugoslavias — 1991-12-19 / 1995-08-07 |
@@ -69,5 +69,117 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | roma-cumhuriyeti-1849 | 1849-02-09 → 1849-07-03 | = → = | KISMEN | Treccani giuseppe-mazzini — 'Roma, dal 9 febbraio 1849 repubblica' (f gün teyitli) · 'la difesa contro i Francesi durata dal 3 al 30 giugno allorché i triunviri si dimisero' (t 07-03 teyitsiz; Treccani 30 Haziran istifayı veriyor) |
 | krakow-serbest-sehri | 1815-05-03 → 1846-11-11 | = → = | KAYNAK-YETERLI | ⑧ antlaşma neşri: Hertslet, The Map of Europe by Treaty (1875) No. 14 — sınıflama EB1911 nedeniyle yanlış; ikinci geçişe gerek yok (t 1846-11-11 Avusturya ilhakı kaynağı ayrıca bakılmalı) |
 | luksemburg-hollanda-birligi | 1815-06-09 → 1890-11-23 | = → = | KAYNAK-YETERLI | ⑧ antlaşma neşri: Hertslet (Viyana Nihaî Senedi 1815-06-09) — t 1890-11-23 'luksemburg' künyesiyle aynı GİRİŞLİ soruya bağlı |
+| delhi-sultanligi | 1206-01-01 → 1526-04-21 | = → = | TEYIT | TDV delhi-sultanligi — 'Hindistan’da Delhi merkez olmak üzere kurulan … sultanlık (1206-1526)' · 'bağımsız bir sultanlık haline gelişi, Muizzüddin’in 1206’da öldürülüp … Kutbüddin Aybeg’in tahta geçmesinden sonra olmuştur' (yıl teyitli; t 04-21 Pânîpat günü bu alıntıda yok; eski 'TDV'de müstakil maddesi yok' notu YANLIŞ) |
+| sur-hanedani | 1540-05-17 → 1564-01-01 | = → = | TEYIT | TDV suriler (Azmi Özcan) — 'Kuzey Hindistan’da hüküm süren bir İslâm hânedanı (1540-1564)' (yıl teyitli; f 05-17 Kannauj günü teyitsiz; eski 'TDV'de yok' notu YANLIŞ) |
+| cungar | 1634-01-01 → 1758-01-01 | = → = | KISMEN | TDV kalmuklar — İdil Kalmukları 1632; 'Yaklaşık aynı yıllarda Hara Hula … Cungarya’da eski Oyrat Hanlığı’nı yeniden canlandırdı' · 'Çienlong … Cungar halkını ortadan kaldırdı (1758)' (t yıl teyitli; f 1634 'yaklaşık' — beyan) |
+| meysur | 1610-01-01 → 1799-05-04 | = → = | KISMEN | TDV tipu-sultan — 'Tîpû Sultan, Srirangapatam savaşında yenilerek hayatını kaybetti (29 Zilkade 1213/4 Mayıs 1799)' (t gün teyitli); TDV meysur: sultanlık 1760-1799 (Haydar Ali dönemi künyede 1761 — bir yıl fark, beyan); f 1610 Vodeyar teyitsiz |
+| mataram-sultanligi | 1587-01-01 → 1755-02-13 | 1585-01-01 → = | DUZELT | TDV cava — 'XVI. yüzyılın sonlarına doğru Orta Cava bölgesinde Mataram Sultanlığı adıyla geniş bir politik güç ortaya çıktı (1585)' (f 1587 → 1585, TDV esas; öteki kaynakların 1587'si ic_not'ta beyan; t 1755-02-13 Giyanti bu maddede yok) |
+| banjar-sultanligi | 1526-01-01 → 1860-06-11 | = → = | KISMEN | TDV bancermasin — 'Bancermasin Sultanlığı 1860’larda Hollandalılar’ın bölgede kesin hâkimiyet kurmalarına kadar devam etti' (t on yıl düzeyinde uyumlu; 06-11 günü ve f 1526 teyitsiz) |
+| bidar | 1489-01-01 → 1619-01-01 | 1492-01-01 → = | DUZELT | TDV beridsahiler — '… Bîder’de Berîdşâhîler bağımsızlıklarını ilân etmişlerdir (1492)' · hükümdar listesi 'Kāsım Berîd Şah 897 (1492)' · 'II. İbrâhim Şah 1619’da Berîdşâhîler’i mağlûp ederek Bîder’i topraklarına kattı' (f 1489 → 1492; hicrî 897 ∩ 1492 → 1492-01-01, beyanlı; t yıl teyitli; eski 'TDV'de yok' notu YANLIŞ) |
+| cammu-kesmir | 1846-03-16 → 1947-10-26 | = → = | KISMEN | TDV kesmir — 'mihrace unvanıyla Cammû-Keşmir bölgesinin hâkimiyetini tamamen ele geçirdi (1846)' · '22 Ekim 1947’de … gruplar Keşmir’i kurtarmak istediler' (f yıl teyitli, 03-16 Emritsar günü teyitsiz; t 1947-10-26 katılım belgesi bu alıntıda yok) |
+| zaporojye | 1552-01-01 → 1775-06-16 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Russia II (Lieven, ed.: Imperial Russia 1689-1917) / Encyclopedia of Ukraine — f 1552-01-01 / t 1775-06-16 (bölüm: eserin dizininden) |
+| vijayanagara | 1336-01-01 → 1646-01-01 | = → = | GIRISLI | GİRİŞLİ: Stein, Vijayanagara (New Cambridge History of India I.2) — f 1336-01-01 / t 1646-01-01 (bölüm: eserin dizininden) |
+| maratha | 1674-06-06 → 1818-06-03 | = → = | GIRISLI | GİRİŞLİ: Gordon, The Marathas 1600-1818 (New Cambridge History of India II.4) — f 1674-06-06 / t 1818-06-03 (bölüm: eserin dizininden) |
+| sih-imparatorlugu | 1801-04-12 → 1849-03-29 | = → = | GIRISLI | GİRİŞLİ: Grewal, The Sikhs of the Punjab (New Cambridge History of India II.3) — f 1801-04-12 / t 1849-03-29 (bölüm: eserin dizininden) |
+| xi-liang-li-gao | 0400-01-01 → 0421-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China II (Six Dynasties) — f 0400-01-01 / t 0421-01-01 (bölüm: eserin dizininden) |
+| goryeo | 0918-07-25 → 1392-08-05 | = → = | GIRISLI | GİRİŞLİ: Lee Ki-baik, A New History of Korea (Harvard UP) / Cambridge History of Korea I — f 0918-07-25 / t 1392-08-05 (bölüm: eserin dizininden) |
+| joseon | 1392-08-05 → 1910-08-29 | = → = | GIRISLI | GİRİŞLİ: Lee Ki-baik, A New History of Korea (Harvard UP) — f 1392-08-05 / t 1910-08-29 (bölüm: eserin dizininden) |
+| edo-bakufu | 1603-03-24 → 1868-01-03 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan IV (Early Modern Japan) — f 1603-03-24 / t 1868-01-03 (bölüm: eserin dizininden) |
+| sanzan | 1322-01-01 → 1429-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan III (Medieval Japan) — f 1322-01-01 / t 1429-01-01 (bölüm: eserin dizininden) |
+| ryukyu | 1429-01-01 → 1879-03-27 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan IV-V — f 1429-01-01 / t 1879-03-27 (bölüm: eserin dizininden) |
+| nguyen-hanedani | 1802-06-01 → 1945-08-30 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I-II — f 1802-06-01 / t 1945-08-30 (bölüm: eserin dizininden) |
+| poni | 0977-01-01 → 1405-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 0977-01-01 / t 1405-01-01 (bölüm: eserin dizininden) |
+| racput | 1000-01-01 → 1947-08-15 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t 1947-08-15 (bölüm: eserin dizininden) |
+| nayak-devletleri | 1336-01-01 → 1763-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1336-01-01 / t 1763-01-01 (bölüm: eserin dizininden) |
+| orissa | 1000-01-01 → 1568-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t 1568-01-01 (bölüm: eserin dizininden) |
+| tibet | 1354-01-01 → 1642-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans — f 1354-01-01 / t 1642-01-01 (bölüm: eserin dizininden) |
+| kuzey-yuan | 1368-09-14 → 1691-05-30 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VI (Alien Regimes) + VII (Ming, Part 1) — f 1368-09-14 / t 1691-05-30 (bölüm: eserin dizininden) |
+| surakarta | 1755-02-13 → 1946-06-16 | = → = | GIRISLI | GİRİŞLİ: Ricklefs, A History of Modern Indonesia — f 1755-02-13 / t 1946-06-16 (bölüm: eserin dizininden) |
+| gond-kralliklari | 1301-01-01 → 1781-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1301-01-01 / t 1781-01-01 (bölüm: eserin dizininden) |
+| ahom | 1281-01-01 → 1826-02-24 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1826-02-24 (bölüm: eserin dizininden) |
+| manipur | 1281-01-01 → 1949-10-15 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1949-10-15 (bölüm: eserin dizininden) |
+| nepal | 1000-01-01 → None | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t None (bölüm: eserin dizininden) |
+| ladak | 1281-01-01 → 1834-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1834-01-01 (bölüm: eserin dizininden) |
+| kalikut | 1100-01-01 → 1766-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1100-01-01 / t 1766-01-01 (bölüm: eserin dizininden) |
+| travankur | 1281-01-01 → 1949-07-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1949-07-01 (bölüm: eserin dizininden) |
+| kandy | 1469-01-01 → 1815-03-02 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1469-01-01 / t 1815-03-02 (bölüm: eserin dizininden) |
+| yafna | 1281-01-01 → 1619-02-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1619-02-01 (bölüm: eserin dizininden) |
+| ava | 1297-01-01 → 1555-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1297-01-01 / t 1555-01-01 (bölüm: eserin dizininden) |
+| lan-na | 1262-01-01 → 1558-04-02 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1262-01-01 / t 1558-04-02 (bölüm: eserin dizininden) |
+| san-devletleri | 1281-01-01 → 1923-10-29 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t 1923-10-29 (bölüm: eserin dizininden) |
+| lan-xang | 1353-01-01 → 1707-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1353-01-01 / t 1707-01-01 (bölüm: eserin dizininden) |
+| angkor-kmer | 0802-01-01 → 1431-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 0802-01-01 / t 1431-01-01 (bölüm: eserin dizininden) |
+| malay-sultanliklari | 1281-01-01 → 1909-07-10 | = → = | GIRISLI | GİRİŞLİ: Andaya & Andaya, A History of Malaysia — f 1281-01-01 / t 1909-07-10 (bölüm: eserin dizininden) |
+| cohor-sultanligi | 1528-01-01 → 1923-10-29 | = → = | GIRISLI | GİRİŞLİ: Andaya & Andaya, A History of Malaysia — f 1528-01-01 / t 1923-10-29 (bölüm: eserin dizininden) |
+| palembang-sultanligi | 1281-01-01 → 1825-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1825-01-01 (bölüm: eserin dizininden) |
+| banten-sultanligi | 1527-06-22 → 1813-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1527-06-22 / t 1813-01-01 (bölüm: eserin dizininden) |
+| gova-makassar | 1281-01-01 → 1667-11-18 | = → = | GIRISLI | GİRİŞLİ: Ricklefs / Andaya — f 1281-01-01 / t 1667-11-18 (bölüm: eserin dizininden) |
+| banda-adalari | 1281-01-01 → 1621-03-08 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1621-03-08 (bölüm: eserin dizininden) |
+| bali-kralliklari | 1478-01-01 → 1908-04-28 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1478-01-01 / t 1908-04-28 (bölüm: eserin dizininden) |
+| pagaruyung | 1281-01-01 → 1833-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1833-01-01 (bölüm: eserin dizininden) |
+| timor-beylikleri | 1281-01-01 → 1769-10-10 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t 1769-10-10 (bölüm: eserin dizininden) |
+| azuchi-momoyama | 1568-10-16 → 1615-06-04 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan IV — f 1568-10-16 / t 1615-06-04 (bölüm: eserin dizininden) |
+| guney-ming | 1644-04-25 → 1662-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VII (Ming, Part 1) — f 1644-04-25 / t 1662-01-01 (bölüm: eserin dizininden) |
+| tungning | 1650-01-01 → 1683-10-05 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China IX (Ch'ing to 1800, Part 1) — f 1650-01-01 / t 1683-10-05 (bölüm: eserin dizininden) |
+| cin-cumhuriyeti | 1911-10-10 → None | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China XII (Republican China, Part 1) — f 1911-10-10 / t None (bölüm: eserin dizininden) |
+| mogolistan | 1911-12-29 → 1924-11-26 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Inner Asia / Bawden, The Modern History of Mongolia — f 1911-12-29 / t 1924-11-26 (bölüm: eserin dizininden) |
+| fransiz-cinhindi | 1859-02-17 → 1954-07-21 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1859-02-17 / t 1954-07-21 (bölüm: eserin dizininden) |
+| san-fan | 1673-12-28 → 1681-12-07 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China IX — f 1673-12-28 / t 1681-12-07 (bölüm: eserin dizininden) |
+| dashun | 1644-01-01 → 1647-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VII — f 1644-01-01 / t 1647-01-01 (bölüm: eserin dizininden) |
+| yadava | 1187-01-01 → 1318-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1187-01-01 / t 1318-01-01 (bölüm: eserin dizininden) |
+| avad | 1722-01-01 → 1856-02-07 | = → = | GIRISLI | GİRİŞLİ: Richards, The Mughal Empire (NCHI I.5) + Bayly, Indian Society and the Making of the British Empire (NCHI II.1) — f 1722-01-01 / t 1856-02-07 (bölüm: eserin dizininden) |
+| kakatiya | 1163-01-01 → 1323-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1163-01-01 / t 1323-01-01 (bölüm: eserin dizininden) |
+| pandya | 1190-01-01 → 1323-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1190-01-01 / t 1323-01-01 (bölüm: eserin dizininden) |
+| taiping | 1851-01-11 → 1864-07-19 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China X (Late Ch'ing, Part 1) — f 1851-01-11 / t 1864-07-19 (bölüm: eserin dizininden) |
+| madurai-sultanligi | 1335-01-01 → 1378-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1335-01-01 / t 1378-01-01 (bölüm: eserin dizininden) |
+| ho-hanedani | 1400-03-01 → 1407-06-17 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1400-03-01 / t 1407-06-17 (bölüm: eserin dizininden) |
+| karnatik | 1690-01-01 → 1801-07-31 | = → = | GIRISLI | GİRİŞLİ: Bayly (NCHI II.1) / Cambridge History of India V — f 1690-01-01 / t 1801-07-31 (bölüm: eserin dizininden) |
+| tran-hanedani | 1225-01-01 → 1400-03-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1225-01-01 / t 1400-03-01 (bölüm: eserin dizininden) |
+| hoysala | 1026-01-01 → 1343-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1026-01-01 / t 1343-01-01 (bölüm: eserin dizininden) |
+| laos-kralliklari | 1707-01-01 → 1893-10-03 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1707-01-01 / t 1893-10-03 (bölüm: eserin dizininden) |
+| seylan-sinhala | 1070-01-01 → 1518-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1070-01-01 / t 1518-01-01 (bölüm: eserin dizininden) |
+| cunagadh | 1748-01-01 → 1948-02-20 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1748-01-01 / t 1948-02-20 (bölüm: eserin dizininden) |
+| kocin | 1102-01-01 → 1503-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1102-01-01 / t 1503-01-01 (bölüm: eserin dizininden) |
+| samudra-pasai | 1281-01-01 → 1521-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1521-01-01 (bölüm: eserin dizininden) |
+| sarawak-brooke | 1841-09-24 → 1946-07-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1841-09-24 / t 1946-07-01 (bölüm: eserin dizininden) |
+| dogu-sumatra-sultanliklari | 1615-01-01 → 1858-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1615-01-01 / t 1858-01-01 (bölüm: eserin dizininden) |
+| bugis-kralliklari | 1330-01-01 → 1905-08-06 | = → = | GIRISLI | GİRİŞLİ: Ricklefs / Andaya — f 1330-01-01 / t 1905-08-06 (bölüm: eserin dizininden) |
+| meysur-racaligi | 1799-05-04 → 1947-08-15 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1799-05-04 / t 1947-08-15 (bölüm: eserin dizininden) |
+| gvalyar | 1731-01-01 → 1948-05-28 | = → = | GIRISLI | GİRİŞLİ: Gordon, The Marathas (NCHI II.4) — f 1731-01-01 / t 1948-05-28 (bölüm: eserin dizininden) |
+| indor | 1732-07-29 → 1948-05-28 | = → = | GIRISLI | GİRİŞLİ: Gordon, The Marathas (NCHI II.4) — f 1732-07-29 / t 1948-05-28 (bölüm: eserin dizininden) |
+| kolhapur | 1710-01-01 → 1949-03-01 | = → = | GIRISLI | GİRİŞLİ: Gordon, The Marathas (NCHI II.4) — f 1710-01-01 / t 1949-03-01 (bölüm: eserin dizininden) |
+| baroda | 1721-01-01 → 1949-05-01 | = → = | GIRISLI | GİRİŞLİ: Gordon, The Marathas (NCHI II.4) — f 1721-01-01 / t 1949-05-01 (bölüm: eserin dizininden) |
+| bali-kralliklari-pejeng | 1292-01-01 → 1343-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1292-01-01 / t 1343-01-01 (bölüm: eserin dizininden) |
+| mancukuo | 1932-03-09 → 1945-08-17 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China XIII (Republican China, Part 2) — f 1932-03-09 / t 1945-08-17 (bölüm: eserin dizininden) |
+| nanjing-wang-jingwei | 1940-03-30 → 1945-08-16 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China XIII — f 1940-03-30 / t 1945-08-16 (bölüm: eserin dizininden) |
+| endonezya-cumhuriyeti | 1945-08-17 → None | = → = | GIRISLI | GİRİŞLİ: Ricklefs, A History of Modern Indonesia since c.1200 — f 1945-08-17 / t None (bölüm: eserin dizininden) |
+| singapur-kolonisi | 1946-04-01 → 1959-06-03 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1946-04-01 / t 1959-06-03 (bölüm: eserin dizininden) |
+| singapur | 1959-06-03 → None | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1959-06-03 / t None (bölüm: eserin dizininden) |
+| endonezya-dogu-timor | 1975-12-07 → 1999-10-25 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1975-12-07 / t 1999-10-25 (bölüm: eserin dizininden) |
+| ozbekistan | 1991-08-31 → None | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Russia III / Cambridge History of Inner Asia — f 1991-08-31 / t None (bölüm: eserin dizininden) |
+| kirgizistan | 1991-08-31 → None | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Russia III — f 1991-08-31 / t None (bölüm: eserin dizininden) |
+| kolcak-omsk-hukumeti | 1918-11-18 → 1920-01-04 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Russia III (Suny, ed.) — f 1918-11-18 / t 1920-01-04 (bölüm: eserin dizininden) |
+| bundela-orcha | 1531-01-01 → 1948-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1531-01-01 / t 1948-01-01 (bölüm: eserin dizininden) |
+| sikkim-krallik | 1642-01-01 → 1975-05-16 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1642-01-01 / t 1975-05-16 (bölüm: eserin dizininden) |
+| kalacuri-tripuri | 0850-01-01 → None | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 0850-01-01 / t None (bölüm: eserin dizininden) |
+| sipsong-panna | 1180-01-01 → 1950-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1180-01-01 / t 1950-01-01 (bölüm: eserin dizininden) |
+| ispanyol-formosa | 1626-01-01 → 1642-08-26 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China IX / Andrade, How Taiwan Became Chinese — f 1626-01-01 / t 1642-08-26 (bölüm: eserin dizininden) |
+| daxi-zhang | 1644-09-09 → 1647-01-02 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VII — f 1644-09-09 / t 1647-01-02 (bölüm: eserin dizininden) |
+| xianbei | 0155-01-01 → 0235-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China I-II — f 0155-01-01 / t 0235-01-01 (bölüm: eserin dizininden) |
+| han-devleti-zhou | -0402-01-01 → -0229-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Ancient China — f -0402-01-01 / t -0229-01-01 (bölüm: eserin dizininden) |
+| sonraki-jin-5hanedan | 0936-01-01 → 0947-03-10 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China V (Five Dynasties and Sung, Part 1) — f 0936-01-01 / t 0947-03-10 (bölüm: eserin dizininden) |
+| sonraki-zhou-5hanedan | 0951-01-01 → 0960-02-04 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China V — f 0951-01-01 / t 0960-02-04 (bölüm: eserin dizininden) |
+| yamato | 0250-01-01 → 0710-04-13 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan I (Ancient Japan) — f 0250-01-01 / t 0710-04-13 (bölüm: eserin dizininden) |
+| dvaravati | 0551-01-01 → 1100-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 0551-01-01 / t 1100-01-01 (bölüm: eserin dizininden) |
+| dinh | 0968-01-01 → 0979-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 0968-01-01 / t 0979-01-01 (bölüm: eserin dizininden) |
+| kanva | -0074-01-01 → -0029-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f -0074-01-01 / t -0029-01-01 (bölüm: eserin dizininden) |
+| pandya-1 | 0601-01-01 → None | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 0601-01-01 / t None (bölüm: eserin dizininden) |
+| nanyue | -0203-01-01 → -0110-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China I (Ch'in and Han) — f -0203-01-01 / t -0110-01-01 (bölüm: eserin dizininden) |
+| satavahana | -0029-01-01 → 0225-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f -0029-01-01 / t 0225-01-01 (bölüm: eserin dizininden) |
+| bati-ganga | 0350-01-01 → 1004-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 0350-01-01 / t 1004-01-01 (bölüm: eserin dizininden) |
+| pallava | 0350-01-01 → 0897-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 0350-01-01 / t 0897-01-01 (bölüm: eserin dizininden) |
+| kuzey-borneo-tac-kolonisi | 1946-07-15 → 1963-09-16 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1946-07-15 / t 1963-09-16 (bölüm: eserin dizininden) |
+| luwu | 1281-01-01 → None | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t None (bölüm: eserin dizininden) |
+| yarlung-krallik | -0126-01-01 → 0629-01-01 | = → = | GIRISLI | GİRİŞLİ: Kapstein, The Tibetans / Beckwith, The Tibetan Empire in Central Asia — f -0126-01-01 / t 0629-01-01 (bölüm: eserin dizininden) |
 
-Sayım: GIRISLI 40 · KISMEN 11 · TEYIT 7 · DUZELT 4 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 65 / 352
+Sayım: GIRISLI 141 · KISMEN 18 · TEYIT 9 · DUZELT 6 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 177 / 352
