@@ -1017,11 +1017,11 @@
   "d": "fransa-cumhuriyet",
   "f": "1809-10-14",
   "satir": 6,
-  "hukum": "KAYNAKLI",
+  "hukum": "ONERI",
   "kaynak": "AEIOU Austria-Forum, 'Schönbrunn, Frieden von' (Avusturya ansiklopedisi, TU Graz) — https://austria-forum.org/af/AEIOU/Sch%C3%B6nbrunn%2C_Frieden_von/Sch%C3%B6nbrunn%2C_Frieden_von_english",
   "alinti": "western Carinthia, Carniola, Croatia south of the River Save, Goerz, Trieste, Fiume and Dalmatia to France",
   "oneri": {},
-  "not": "KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. Antlaşma imza günü 14 Ekim 1809 (kaynakta 'signed ... October 14, 1809'). Kaynağın akademik sayılması Emre'de (AEIOU; Fondation Napoléon özeti de aynı: napoleon.org). KARIŞIK: Tarvis/Ljubljana/Villach Schönbrunn'dan (batı Karintiya, Kranjska); Brač, Šibenik Dalmaçya (1806 Pressburg ile Fransız İtalya Krallığı/Fransız; ayrı olay, kaynakla okunmadı); Vis (Lissa) 1811 Lissa deniz savaşına kadar İngiliz elinde — Vis için 1809-10-14 şüpheli. Künye f=1792-09-22, aşım yok. t=1813 (teyit edilmedi)."
+  "not": "KARAR EMRELİC (gece-29): Austria-Forum AEIOU ipucu-artı, tek başına KAYNAKLI değil; NDB ya da ÖBL ile teyit edilsin. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. Antlaşma imza günü 14 Ekim 1809 (kaynakta 'signed ... October 14, 1809'). Kaynağın akademik sayılması Emre'de (AEIOU; Fondation Napoléon özeti de aynı: napoleon.org). KARIŞIK: Tarvis/Ljubljana/Villach Schönbrunn'dan (batı Karintiya, Kranjska); Brač, Šibenik Dalmaçya (1806 Pressburg ile Fransız İtalya Krallığı/Fransız; ayrı olay, kaynakla okunmadı); Vis (Lissa) 1811 Lissa deniz savaşına kadar İngiliz elinde — Vis için 1809-10-14 şüpheli. Künye f=1792-09-22, aşım yok. t=1813 (teyit edilmedi)."
  },
  {
   "alan": "s",
@@ -1087,9 +1087,9 @@
   "kaynak": "U.S. Department of State, Office of the Historian, 'The Spanish-American War, 1898' — https://history.state.gov/milestones/1866-1898/spanish-american-war",
   "alinti": "the treaty also forced Spain to cede Guam and Puerto Rico to the United States",
   "oneri": {
-   "alan": "isg"
+   "not": "Küba: s: abd yok; 1899-01-01 → 1902-05-20 isg abd + BEYANLI; 1902-05-20'den s: kuba-cumhuriyeti. s: abd yalnız Porto Riko ve Guam (1898-12-10)."
   },
-  "not": "Paris 1898 Küba'yı devretmedi (history.state.gov) → Küba yerleşimlerinde isg abd (TEK KURAL), s: abd yalnız Porto Riko/Guam. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. KARIŞIK: Paris Antlaşması imza 1898-12-10 (kaynakta 'signed the Treaty of Paris on December 10, 1898'). Puerto Rico (San Juan) bu günde ABD'ye devredildi: KAYNAKLI (s:abd 1898-12-10, TEK ÖLÇÜ imza günü; yürürlük 1899-04-11). Küba (Baracoa, Santiago, Havana, Cienfuegos, Santa Clara) DEVREDİLMEDİ — kaynak 'guaranteeing the independence of Cuba'; ABD yönetimi askerî işgaldir -> isg abd (1899-01-01'den, kaynakla okunmadı) ve s: abd olmamalı; Küba bağımsızlığı 1902-05-20 (t_dagilim). TEK KURAL (işgal=isg). Künye f=1776-07-04 aşım yok.",
+  "not": "KARAR EMRELİC (gece-29): Paris 1898-12-10 İspanya feragati, ABD'ye devir yok (Küba). ÖLÇÜM (LAB PAZAR): ABD askerî hükûmeti künyesi YOK; kuba-cumhuriyeti künye f 1902-05-19 (EMRELİC 05-20 — bir gün fark, kaynakla). 1898-12-10 → 1902 arası alttaki s: (ispanyol-kuba t 1898-12-10) boş kalıyor — EMRELİC'e soru. | Paris 1898 Küba'yı devretmedi (history.state.gov) → Küba yerleşimlerinde isg abd (TEK KURAL), s: abd yalnız Porto Riko/Guam. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. KARIŞIK: Paris Antlaşması imza 1898-12-10 (kaynakta 'signed the Treaty of Paris on December 10, 1898'). Puerto Rico (San Juan) bu günde ABD'ye devredildi: KAYNAKLI (s:abd 1898-12-10, TEK ÖLÇÜ imza günü; yürürlük 1899-04-11). Küba (Baracoa, Santiago, Havana, Cienfuegos, Santa Clara) DEVREDİLMEDİ — kaynak 'guaranteeing the independence of Cuba'; ABD yönetimi askerî işgaldir -> isg abd (1899-01-01'den, kaynakla okunmadı) ve s: abd olmamalı; Küba bağımsızlığı 1902-05-20 (t_dagilim). TEK KURAL (işgal=isg). Künye f=1776-07-04 aşım yok.",
   "_yer_izi": true
  },
  {
@@ -1197,10 +1197,14 @@
   "d": "ingiltere",
   "f": "1915-07-09",
   "satir": 6,
-  "hukum": "KAYNAKLI",
+  "hukum": "ONERI",
   "kaynak": "National Army Museum (UK), 'South-West African campaign' — https://www.nam.ac.uk/explore/south-west-african-campaign",
   "alinti": "enemy forces in German South-West Africa (now Namibia) surrendered to the Allies",
-  "oneri": {},
-  "not": "sayfa.py (resmî kurum sayfası; akademik değil — Emre kabul eder mi?). Gün teyitli: 9 Temmuz 1915 Khorab teslimi. Askerî teslim; işgalci Güney Afrika Birliği (d: ingiltere değil güney-afrika?). TEK KURAL: askerî işgal -> isg; s: mandadan (1920-12-17 t ile uyumlu). Künye f=0927 aşım yok. Küme alanı s: yerine isg olmalı mı karar Emre'de."
+  "oneri": {
+   "d": "guney-afrika-birligi",
+   "alan": "isg",
+   "t": "1919-06-28"
+  },
+  "not": "KARAR EMRELİC (gece-29): Namibya işgalcisi Güney Afrika Birliği: isg guney-afrika-birligi 1915-07-09 → 1919-06-28; Versay imzası 1919-06-28'den s: guneybati-afrika-mandasi (TEK ÖLÇÜ; Fizan/Eritre emsali); MC teyidi 1920-12-17 ic_not'a. ÖLÇÜM (LAB PAZAR, origin/main devletler.js:9875): künye guneybati-afrika-mandasi f 1920-12-17 → 1919-06-28 ile KÜNYE AŞIMI (LAB SALI'ya). | sayfa.py (resmî kurum sayfası; akademik değil — Emre kabul eder mi?). Gün teyitli: 9 Temmuz 1915 Khorab teslimi. Askerî teslim; işgalci Güney Afrika Birliği (d: ingiltere değil güney-afrika?). TEK KURAL: askerî işgal -> isg; s: mandadan (1920-12-17 t ile uyumlu). Künye f=0927 aşım yok. Küme alanı s: yerine isg olmalı mı karar Emre'de."
  }
 ]
