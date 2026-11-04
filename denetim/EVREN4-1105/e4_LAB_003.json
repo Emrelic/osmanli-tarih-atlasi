@@ -520,11 +520,11 @@
    "d": "ingiltere",
    "f": "1806-01-18",
    "t": "1910-05-31",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'General South African History Timeline: 1800s' — https://sahistory.org.za/article/general-south-african-history-timeline-1800s",
    "alinti": "The British occupy the Cape for a second time.",
    "oneri": {},
-   "not": "[alıntı özetten] | ÜLKE DÜZEYİ: Kap'ın İngiliz işgali 1806 YIL (Blaauwberg 8 Ocak 1806; teslim günü 01-18 SAHO sayfasında yok). Swellendam'a özgü tanıklık yok. ÖLÇÜT: sonraki idareye katma — Cape Colony (1814 Londra Sözleşmesi hukuken; SAHO okunmadı). t=1910 ülke düzeyi (Birlik)."
+   "not": "SAHO eğitim sitesi, tek dayanak olamaz (LAB SALI/EMRELİC kuralı) — KAYNAKLI'dan indirildi; akademik ikinci kaynak gerek (ör. Shillington 1985). | [alıntı özetten] | ÜLKE DÜZEYİ: Kap'ın İngiliz işgali 1806 YIL (Blaauwberg 8 Ocak 1806; teslim günü 01-18 SAHO sayfasında yok). Swellendam'a özgü tanıklık yok. ÖLÇÜT: sonraki idareye katma — Cape Colony (1814 Londra Sözleşmesi hukuken; SAHO okunmadı). t=1910 ülke düzeyi (Birlik)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:2350",
@@ -671,11 +671,11 @@
    "d": "ingiltere",
    "f": "1812-08-14",
    "t": "1910-05-31",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "South African History Online (sahistory.org.za, kurum yayını) 'De Rietfonteyn: Founding of Grahamstown' (Elron Kleinhans) — https://sahistory.org.za/archive/adapted-de-rietfonteyn-founding-grahamstown-elron-kleinhans (okundu)",
    "alinti": "On 14 August 1812, the Cape Governor proclaimed the establishment of a town at De Rietfonteyn",
    "oneri": {},
-   "not": "[alıntı özetten] | f ucu GÜN düzeyinde teyitli (Cape Valisi kasabanın kuruluşunu ilan etti, Graham's Town adı). Sahip: Cape Kolonisi (İngiliz, 1806'dan; SAHO timeline). t=1910-05-31 ülke düzeyi, okunmadı."
+   "not": "SAHO eğitim sitesi, tek dayanak olamaz (LAB SALI/EMRELİC kuralı) — KAYNAKLI'dan indirildi; akademik ikinci kaynak gerek (ör. Shillington 1985). | [alıntı özetten] | f ucu GÜN düzeyinde teyitli (Cape Valisi kasabanın kuruluşunu ilan etti, Graham's Town adı). Sahip: Cape Kolonisi (İngiliz, 1806'dan; SAHO timeline). t=1910-05-31 ülke düzeyi, okunmadı."
   }
  ],
  "Barkol (Balikun / Zhenxi)": [
