@@ -572,6 +572,27 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
 - **KASA-YER:** Spetses veride **YOK**. Phillips 1821-04-07 katılışını veriyor; yeni yerleşim önerisi.
 - **İşlem notu:** birleştirme sırasında Tripoliçe satırları İsveç'teki Mora'ya düştü (ad karışması); onarıldı. Satırlar artık "Mora (Tripoliçe)" altında.
 
+## 23. TBMM 1920-22: işgal altındaki yerler (`tbmm_sonuc.json`) — YALNIZ ÖNERİ, Emre görmeden uygulanmaz
+- **Ölçüt:** Emre'nin (a) kararının gerekçesi, "Ankara hükûmetinin DENETLEDİĞİ toprak". İşgal altındaki yerde işgal süresince `d: osmanli` + `isg`; `s: tbmm` kurtuluş günü başlar (Mersin emsali).
+- **149 aday** (ayrıca emsal olarak Mersin):
+  - **89 evet.**
+  - **2 hayır:** Niğde, Ulukışla. TDV "işgaline uğramadı" diyor; buralarda `s: tbmm` 1920-04-23 kalır.
+  - **59 BULUNAMADI.** Kaynak suskun; "işgal edilmedi" yazılamaz.
+- **İl bazında kurtuluş günleri (TDV):**
+  - Fransız bölgesi: Adana 1922-01-05 · Tarsus 1921-12-27 · Mersin 1922-01-03 · Antep 1921-12-25 · Kilis 1921-12-23.
+  - Maraş 1920-02-11 ve Urfa 1920-04-11: TBMM'den önce boşaltıldıkları için `s: tbmm` 1920-04-23.
+  - Yunan bölgesi: Afyon 1922-08-27 · Kütahya 08-30 · Uşak 09-01 · Eskişehir 09-02 · Tire 09-04 · Bilecik 09-06 · Aydın 09-07 · İzmir 09-09 · Bursa 09-11 · Adapazarı 1921-06-21 (kısa işgal).
+  - Trakya: Kırklareli 1922-11-10 · Tekirdağ 11-13 · Edirne Kasım 1922. Gelibolu 10-03 şüpheli, çünkü Mudanya 10-11.
+  - İstanbul: işgal 1918-11-13 → çekiliş 1923-10-02, giriş 1923-10-06.
+  - İtalyan bölgesi: Muğla 1919-07-23 → 1921-07-05 · Antalya 1919-04-29 → 1921-06-01 (boşaltmanın başlangıcı).
+- **Dikkat gerektirenler:**
+  - Alaşehir için TDV "4 Eylül 1921" diyor; muhtemel yazım hatası.
+  - Bodrum: mevcut veride Yunan isg var, TDV İtalyan diyor.
+  - İlçelerin çoğunda gün, il merkezinin günüdür (ABİ MERKEZ, beyanlı).
+  - Bursa ilçelerinde mevcut 1920-10-25 → 1922-09-06 isg kaydı kaynaksız.
+  - Ajan il başına araç sınırına ve ara yazmaya uymadı (beyanlı).
+- **BULUNAMADI kümeleri:** Çanakkale/Boğazlar, Balıkesir kıyısı, Bilecik/Kütahya/Afyon köyleri, Sakarya yöresi, Kocaeli yarımadası, Silivri/Çatalca, Adıyaman/Siverek/Suruç.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
