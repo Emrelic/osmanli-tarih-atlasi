@@ -92,11 +92,11 @@
   "tur": "KUNYE_GENISLET",
   "karar": "KUNYE_GENISLET",
   "guc": "ORTA",
-  "islem": "devletler.js ming-hanedani f 1368-01-23 → 1356-04-10 (至正十六年三月庚寅, Jülyen, Academia Sinica — EMRELİC). ic_not_f: 'Ming shi j.1: 三月癸未 (1356-04-03) 進攻集慶; 庚寅 (04-10) 再敗元兵於蔣山 … 太祖入城 (gün yok) → alınış ≥04-10, giriş günü teyitsiz; 1364-02-04 (二十四年春正月丙寅朔) 即吳王位; 1368-01-23 Hongwu hanedan ilanı'. Ayrı Wu künyesi AÇILMAZ. Değişmez 2: kronoloji_cin.js:139 1356-04-10 maddesi VAR.",
+  "islem": "devletler.js ming-hanedani f 1368-01-23 → 1356-04-10 (至正十六年三月庚寅, Jülyen, Academia Sinica — EMRELİC). ic_not_f (EMRELİC aynen): '癸未 04-03 saldırı; 庚寅 04-10 蔣山 zaferi; 太祖入城 günü yok, giriş ≥04-10' + '1364-02-04 即吳王位; 1368-01-23 Hongwu'. Ayrı Wu künyesi AÇILMAZ. Değişmez 2: kronoloji_cin.js:139 1356-04-10 maddesi VAR.",
   "kunye": "ming-hanedani f 1356-04-10",
   "gun": "1356-04-10",
   "dayanak": "明史 卷1 (zh.wikisource.org/wiki/明史/卷1, oldid 2594614, bu oturumda açıldı): «三月癸未，進攻集慶 … 庚寅，再敗元兵於蔣山 … 太祖入城»",
-  "onay": "EMRELİC 5 Kasım (f GENİŞLET; gün seçimi LAB: 04-03 saldırıda Fushou hâlâ savaşıyor, şehir 庚寅'dan sonra giriliyor → 04-10 kaynağa uyan en erken gün)"
+  "onay": "EMRELİC 5 Kasım gece-19 (f 04-10 onaylandı: alt sınır)"
  },
  {
   "d": "venedik",
@@ -152,5 +152,60 @@
   "guc": "ORTA",
   "dayanak": "B4 Kotobank (Nipponica)",
   "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "joseon / japon-kore",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "ATOMİK (aynı commit): devletler.js joseon (Daehan) t 1910-08-29 → 1910-08-21; japon-kore f 1910-08-29 → 1910-08-22 (ilhak antlaşmasının imzası, TEK ÖLÇÜ). İki künyede ic_not: '1910-08-29 ilan/yürürlük'. Kore yerleşim kırılmaları 08-29 → 08-22; Değişmez 2 maddesi 08-22 ±30 içinde.",
+  "kunye": "joseon t 1910-08-21 · japon-kore f 1910-08-22",
+  "gun": "1910-08-22",
+  "guc": "ORTA",
+  "dayanak": "EncyKorea E0061926 (B4) + EMRELİC TEK ÖLÇÜ kararı",
+  "onay": "EMRELİC 5 Kasım (gece-19)"
+ },
+ {
+  "d": "etiyopya-federal",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "devletler.js etiyopya-federal f 1995-08-22 → 1995-08-21 (Anayasa Proclamation 1/1995 yürürlüğü, Federal Negarit Gazeta); ic_not: '08-22 cumhurbaşkanı yemini'. Önceki geçiş künyesinin t ucu 1995-08-20 ile birlikte taşınır.",
+  "kunye": "etiyopya-federal f 1995-08-21",
+  "gun": "1995-08-21",
+  "guc": "ORTA",
+  "dayanak": "Federal Negarit Gazeta / WIPO Lex (EMRELİC)",
+  "onay": "EMRELİC 5 Kasım (gece-19)"
+ },
+ {
+  "d": "urdun-emirligi",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "ic_not: '1921-04-11 ilk hükûmetin kuruluşu'; f 02-01 TDV ÜRDÜN ile teyit (H4).",
+  "kunye": "urdun-emirligi f 1921-02-01 KALIR",
+  "gun": "",
+  "guc": "ORTA",
+  "dayanak": "LAB ölçümü + EMRELİC",
+  "onay": "EMRELİC 5 Kasım (gece-19)"
+ },
+ {
+  "d": "habsburg / Bukovina",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "Bukovina (Çernovits vb.): rakip hükûmet kuralı (EMRELİC → KASA): 1918-11-06 → 11-11 Ukrayna komitesi, 11-11'den s: romanya; Saint-Germain ic_not.",
+  "kunye": "habsburg t 1918-11-12 KALIR",
+  "gun": "1918-11-11",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC kararı (KASA'ya verildi)",
+  "onay": "EMRELİC 5 Kasım (gece-19)"
+ },
+ {
+  "d": "guney-ming (doğrulama)",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "EMRELİC JDN çapraz: 1644-06-07 = 庚寅, 06-19 = 壬寅; Mingshi j.120 ile birebir.",
+  "kunye": "guney-ming f 1644-06-07 KESİN",
+  "gun": "1644-06-07",
+  "guc": "ORTA",
+  "dayanak": "Mingshi j.120 + Academia Sinica (EMRELİC)",
+  "onay": "EMRELİC 5 Kasım (gece-19)"
  }
 ]
