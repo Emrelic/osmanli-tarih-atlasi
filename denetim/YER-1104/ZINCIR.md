@@ -93,3 +93,32 @@ Açık borç:
   - Lüleburgaz'ın 1912 Bulgar işgali TDV'de var ama atlas kaydında yok.
   - Münster'in 1815'te Prusya'ya geçişi Osnabrück için geçerli değil; Osnabrück 1866'ya kadar Hannover'deydi.
 - **Kaynağı boş komşu kayıtları** (ABİ MERKEZ olarak kullanıldı, beyanlı): Türkistan 1281-1370, Lapaha, Silistre 1281-1390.
+
+### Parti 2 — 20 nokta (denetim: 16 ✅ · 2 ❌ künye aralığı · 2 ⏸ KURULAMADI)
+
+| nokta | dönem | isg | OSMANLI dönemleri | özet |
+|---|---|---|---|---|
+| Drivasto | 10 | 0 | 1478 → 1913-04-23 | TDV «Arnavutluk» 1478 (YIL); ❌ Arnavutluk künye aralığı (Tepedelen gibi) |
+| Sen Gotar | 5 | 0 | — | MKL «Szentgotthárd»: Osmanlı eline hiç geçmedi |
+| Vasvár | 5 | 0 | — | MKL «Vasvár» + TDV Vasvar Antlaşması |
+| Versec | 10 | 2 | 1552-08-01 → 1716-11-16 | Bánlaky 0013/1005 (Ağustos başı 1552, AY); Sırp `isg` Temeşvar emsali |
+| Facset | 10 | 1 | 1552-08-01 → 1716-10-13 | Bánlaky; Lugos emsali (beyanlı) |
+| Mehádia | 10 | 0 | 1552-08-01 → 1717-08-27 | Bánlaky 0013/1005, 0019/1715 |
+| Csákóvár | 10 | 3 | 1552-08-01 → 1716-10-13 | Bánlaky; Temeşvar emsali |
+| Hisarcık (Grocka) | 17 | 1 | 1439 → 1444 · 1459 → 1688 · 1690 → 1717 · 1739 → 1830 | TDV; Semendire/Belgrad emsali |
+| Kozluca | 9 | 0 | 1388 → 1402 · 1413 → 1878-07-13 | TDV; Provadia emsali |
+| Fethülislâm | — | — | — | ⏸ KURULAMADI: 1524 kuruluşu, 1281-1524 ve 1717-39 kaynaksız (yalnız 1689 ve 1867 bulundu) |
+| Ayastefanos | 7 | 0 | 1453-05-29 → 1920-04-23 | ABİ MERKEZ İstanbul; 1878 Rus karargâhı günü yok, `isg` yazılmadı |
+| Novigrad | 9 | 0 | 1544 → 1594 · 1663 → 1685 | MKL «Nógrád»: 1594-1663 Habsburg — komşu Vaç'ın kesintisiz Osmanlı'sıyla ÇELİŞKİ |
+| Kailua-Kona | — | — | — | ⏸ KURULAMADI: komşu zinciri boş, akademik kaynak açılmadı (iskelet `not`ta, kaynaksız) |
+| Tellülkebîr | 8 | 2 | 1517-05-19 → 1805-07-03 | ❌ `memluk` künye t 1517-04-13 < komşu Fâkûs/Bilbîs 1517-05-19 (Kahire 1517-01-24) — komşular kendi aralarında tutarsız |
+| Îmbâbe | 8 | 3 | 1517-01-24 → 1805-07-03 | Kahire emsali |
+| Fontainebleau · Saint-Germain-en-Laye · Versailles · Neuilly-sur-Seine | 4'er | 0 | — | Paris emsali (Melun kaydının zinciri boş); 1420-36 İngiliz dönemi doğrulanmadı |
+| Barcs | 7 | 2 | 1566-09-07 → 1689-02-03 | Zigetvar emsali; 1921 devri Ernyes 2021 |
+
+**KASA'ya (parti 2):**
+- **Künye eksiği:** `sirbistan` id'si yok; Semendire kaydı bu id'yi kullanıyor.
+- **Mısır 1517:** Kahire'de Osmanlı 1517-01-24'te başlıyor, Fâkûs ve Bilbîs'te 1517-05-19'da. `memluk` künyesi ise 1517-04-13'te bitiyor. Mısır'ın 1517 geçişi atlas içinde tek güne çekilmeli.
+- **Romanya geçişi:** Orsova Romanya'yı 1918-01-01'de (YIL) başlatıyor. Mehádia'da Trianon günü (1920-06-04) kullanıldı. Banat'ın Romanya'ya geçiş günü kayıtlar arasında tutarsız.
+- **Novigrad / Vaç:** MKL'ye göre Nógrád 1594-1663 arasında Habsburg'daydı. Vaç'ın 1544-1684 kesintisiz Osmanlı zinciri gözden geçirilmeli.
+- **Doğrulayıcı:** Boş zincirli noktalar artık ⏸ KURULAMADI olarak sayılıyor ve çıkış kodu 2 dönüyor. Daha önce bunlar ✅ görünüyordu.

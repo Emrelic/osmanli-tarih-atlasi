@@ -1463,5 +1463,1251 @@
     "kaynak": "LoC Bulgaria Country Study (İslimye kaydı)"
    }
   ]
+ },
+ "Drivasto": {
+  "lat": 42.12306,
+  "lon": 19.59139,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Arnavutluk» (1478 Osmanlı fethi YIL; Venedik 1390'lar). İlk anılış kuruluş değildir, kur yok. 1281-1390'lar arası ve 1913 sonrası İşkodra (8,8 km) emsali — BEYANLI. Drivasto harabe/küçük köy (Drisht); 1478 sonrası kendi kaydı yok.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "sirbistan-nemanjic",
+    "f": "1281-01-01",
+    "t": "1360-01-01",
+    "kaynak": "ABİ MERKEZ: İşkodra (8,8 km) — TDV iskodra: XI-XIII. yüzyıl Bizans/Zeta Sırp hâkimiyet mücadelesi; gün komşudan: İşkodra (YIL) · Drivasto'nun 1281'de varlığı bu turda ayrıca kaynaklanmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "zeta",
+    "f": "1360-01-01",
+    "t": "1396-01-01",
+    "kaynak": "ABİ MERKEZ: İşkodra (8,8 km) — TDV iskodra: '1360-1393 yıllarında Sırp Balšić Prensliği'nin merkezi' · TDV arnavutluk: Venedikliler 'Leş, Draç, Drivasto gibi yerleri yıllık bir maaş karşılığı yerli beylerden aldılar' (1390'lar; kesin yıl yok) — Venedik başlangıcı İşkodra'nın 1396 YIL'ı ile hizalandı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "venedik",
+    "f": "1396-01-01",
+    "t": "1478-01-01",
+    "kaynak": "TDV arnavutluk: 'Venedikliler de Leş (Alessio), Draç, Drivasto gibi yerleri yıllık bir maaş karşılığı yerli beylerden aldılar' (Kosova 1389 sonrası, 1390'lar) · f: gün komşudan İşkodra 1396-01-01 (YIL) BEYANLI · t: TDV arnavutluk '1478'de Akçahisar, Drivasto, Leş ve Jabyak'ın … ele geçirilmesiyle' (YIL)"
+   },
+   {
+    "alan": "d",
+    "f": "1478-01-01",
+    "t": "1913-04-23",
+    "kaynak": "TDV arnavutluk: 1478'de Drivasto'nun ele geçirilmesi (YIL, gün yok; 'Akçahisar, Drivasto, Leş ve Jabyak') · t: gün komşudan İşkodra 1913-04-23 (TDV balkan-savasi: Karadağlılar 23 Nisan'da İşkodra'yı işgal ettiler) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "karadag",
+    "f": "1913-04-23",
+    "t": "1913-05-14",
+    "kaynak": "ABİ MERKEZ: İşkodra (8,8 km) — TDV balkan-savasi 23 Nisan 1913 Karadağ girişi; 14 Mayıs 1913 boşaltma — Drisht için ayrı kaynak yok; ⚠️ işgal mi idare mi belirsiz, komşu s: yazdı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-bagimsiz",
+    "f": "1913-05-14",
+    "t": "1939-04-07",
+    "kaynak": "ABİ MERKEZ: İşkodra (8,8 km) — Londra Büyükelçiler Konferansı 29 Temmuz 1913 Arnavutluk sınırı; uluslararası idare 14 Mayıs 1913'ten (komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-italyan-koruma",
+    "f": "1939-04-07",
+    "t": "1943-09-08",
+    "kaynak": "ABİ MERKEZ: İşkodra (8,8 km) — Britannica/Office of the Historian/LoC (komşu kaydı) · KÜNYE ARALIĞI: künye f 1939-04-12, komşunun günü 1939-04-07 alındı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-alman-himayesi",
+    "f": "1943-09-08",
+    "t": "1944-11-29",
+    "kaynak": "ABİ MERKEZ: İşkodra (8,8 km) — Britannica/LoC (komşu kaydı) · KÜNYE ARALIĞI: künye f 1943-09-14, komşunun günü 1943-09-08 alındı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-halk-cumhuriyeti",
+    "f": "1944-11-29",
+    "t": "1991-04-29",
+    "kaynak": "ABİ MERKEZ: İşkodra (8,8 km) — TDV arnavutluk (29 Kasım 1944 kurtuluş; Halk Cumhuriyeti) — komşu kaydı"
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-cumhuriyeti",
+    "f": "1991-04-29",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: İşkodra (8,8 km) — Britannica/LoC (komşu kaydı)"
+   }
+  ]
+ },
+ "Sen Gotar": {
+  "lat": 46.95261,
+  "lon": 16.27358,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: MKL «Szentgotthárd» (Vas m.). Habsburg Macaristan'ı (Vas ili), Osmanlı eline hiç geçmedi (1664 muharebesi sınır yeri). 1919 SHS/Prekmurje işgalinin Szentgotthárd'a uzanmadığı kaynaklanmadı (komşu Murska Sobota isg zincirine alınmadı). 1184 manastır kuruluşu yerleşim kuruluşu değildir (kur yok).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-12-17",
+    "kaynak": "MKL 'Szentgotthárd, Vas m.' (III. Béla 1184 Sistersiyen manastırı; apatlar 1260-1489 sıralı → 1281'de var) · ABİ MERKEZ: Szombathely (40,6 km, aynı Vas vármegye) — MKL 'Szombathely': 'A mohácsi csata (1526) után Vas vm. a kir. Mo-hoz tartozott' · t: gün komşudan Szombathely/Sopron (TDV suleyman-i 17 Aralık 1526) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1526-12-17",
+    "t": "1918-11-16",
+    "kaynak": "MKL 'Szentgotthárd, Vas m.' (III. Béla 1184 Sistersiyen manastırı; apatlar 1260-1489 sıralı → 1281'de var) · ABİ MERKEZ: Szombathely (40,6 km, aynı Vas vármegye) — MKL 'Szombathely': 'A mohácsi csata (1526) után Vas vm. a kir. Mo-hoz tartozott' · f: TDV suleyman-i 'Macar kralı ilân edilmesi: 17 Aralık 1526' (gün komşudan Szombathely) · MKL: 1605'te Avusturya başkomutanı kiliseyi havaya uçurdu (Habsburg tarafı sınır yeri); 1664 Szentgotthárd muharebesi Habsburg toprağında · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1946-02-01",
+    "kaynak": "gün komşudan: Szombathely (macaristan-naiplik künyesi 1918-11-16; F8 gün çevrimi — TDV birinci-dunya-savasi Trianon 4 Haziran 1920 hukukî devir; nokta Trianon sonrası da Macaristan'da)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-halk",
+    "f": "1946-02-01",
+    "t": "1989-10-23",
+    "kaynak": "gün komşudan: Szombathely (1946. évi I. törvénycikk; 1989. évi XXXI. törvény — künye macaristan-halk)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-cumhuriyeti",
+    "f": "1989-10-23",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Szombathely (1989. évi XXXI. törvény, njt.jog.gov.hu — künye macaristan-cumhuriyeti)"
+   }
+  ]
+ },
+ "Vasvár": {
+  "lat": 47.04928,
+  "lon": 16.79954,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: MKL «Vasvár» + TDV Vasvar Antlaşması. MKL: 1580 k. Türkler yaktı, 1660 Türkler domonikan manastırını yıktı — akın/yıkım, kalıcı idare değil; Osmanlı idaresi kaynaklanmadı. 1919 SHS işgali Vasvár'a uzanmadı (Szombathely komşusunda yok).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-12-17",
+    "kaynak": "MKL 'Vasvár, Vas m.': 'Már Szt István idejében várispánság székhelye volt' (1272'de Ottokar alamadı → 1281'de var) · ABİ MERKEZ: Szombathely (24,3 km, aynı Vas vármegye) — MKL 'Szombathely': 'A mohácsi csata (1526) után Vas vm. a kir. Mo-hoz tartozott' · t: gün komşudan Szombathely (TDV suleyman-i 17 Aralık 1526) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1526-12-17",
+    "t": "1918-11-16",
+    "kaynak": "MKL 'Vasvár, Vas m.': 'Már Szt István idejében várispánság székhelye volt' (1272'de Ottokar alamadı → 1281'de var) · ABİ MERKEZ: Szombathely (24,3 km, aynı Vas vármegye) — MKL 'Szombathely': 'A mohácsi csata (1526) után Vas vm. a kir. Mo-hoz tartozott' · TDV Vasvar Antlaşması (1664 Habsburg-Osmanlı, Vasvár Habsburg tarafı) — f gün komşudan Szombathely (TDV suleyman-i) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1946-02-01",
+    "kaynak": "gün komşudan: Szombathely (macaristan-naiplik künyesi 1918-11-16; F8 gün çevrimi — TDV birinci-dunya-savasi Trianon 4 Haziran 1920 hukukî devir; nokta Trianon sonrası da Macaristan'da)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-halk",
+    "f": "1946-02-01",
+    "t": "1989-10-23",
+    "kaynak": "gün komşudan: Szombathely (1946. évi I. törvénycikk; 1989. évi XXXI. törvény — künye macaristan-halk)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-cumhuriyeti",
+    "f": "1989-10-23",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Szombathely (1989. évi XXXI. törvény, njt.jog.gov.hu — künye macaristan-cumhuriyeti)"
+   }
+  ]
+ },
+ "Versec": {
+  "lat": 45.11667,
+  "lon": 21.30361,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: Bánlaky 0013/1005 (1552 Ağustos başı, AY). 1716 günü Haram emsali (Versec'in kendi fethi bulunamadı), BEYANLI. 1941-44 Alman/Macar Banat işgali modellenmedi. Sırp isg dönemleri Temeşvar emsali BEYANLI. Versec'in 1281'de varlığı kaynaklanmadı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — Bánlaky 0004/239 · Pesty Szörényi bánság (MEK 07290): Macar sınır kaleleri; Szapolyai seçimi 10 Kasım 1526 (TDV suleyman-i) · Versec'in 1281'de varlığı kaynaklanmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Macaristan (Zapolya vasal krallığı)",
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — TDV suleyman-i (Szapolyai'nin krallığı Osmanlı'ya tâbi) · TDV timisvar: Timiş bölgesi Szapolyai yanlısı Petrovics'te · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Erdel Prensliği",
+    "f": "1541-08-29",
+    "t": "1551-07-01",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — TDV timisvar: 1541 Budin beylerbeyiliği, haraçgüzâr Erdel Prensliği; Banat kaleleri Martinuzzi/Petrovics'te (Bánlaky 0013/986-988) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1551-07-01",
+    "t": "1552-08-01",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — Bánlaky 0013/988 (Báthory Endre Temmuz 1551'de Banat kalelerini Ferdinand adına teslim aldı) · t: Bánlaky (MEK 09477) 0013/1005: 'a Temesvár alól kiküldött csapatok pedig Versec, Facset, Mehádia, Csákóvár, Haramvár … palánkjait szállották meg' ve 'Achmed pasa augusztus elejétől kezdve Temesvár alól kisebb-nagyobb különítményeket küldött az alvidéki erősségek megszállására' — gün yok, AY: Ağustos başı 1552 (TDV timisvar: Ağustos 1552 Tımışvar beylerbeyiliği kuruldu; garnizon 26 Temmuz teslim)"
+   },
+   {
+    "alan": "d",
+    "f": "1552-08-01",
+    "t": "1716-11-16",
+    "kaynak": "f: Bánlaky (MEK 09477) 0013/1005: 'a Temesvár alól kiküldött csapatok pedig Versec, Facset, Mehádia, Csákóvár, Haramvár … palánkjait szállották meg' ve 'Achmed pasa augusztus elejétől kezdve Temesvár alól kisebb-nagyobb különítményeket küldött az alvidéki erősségek megszállására' — gün yok, AY: Ağustos başı 1552 (TDV timisvar: Ağustos 1552 Tımışvar beylerbeyiliği kuruldu; garnizon 26 Temmuz teslim) (Versec adıyla geçer) · t: gün komşudan Haram — Bánlaky 0019/1703 (Mercy Kasım 1716 Banat güneyi harekâtı; Haram 16 Kasım) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1716-11-16",
+    "t": "1918-11-16",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — Bánlaky 0019/1703 (1716 Kasım Mercy) · TDV timisvar 'Habsburg (1716) ve Avusturya-Macaristan (1867) hâkimiyeti I. Dünya Savaşı sonuna kadar (1918) sürdü' · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — F8: TDV birinci-dunya-savasi Trianon 4 Haziran 1920 (gün komşudan Haram; naiplik künyesi 1918-11-16) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "sirbistan-kralligi",
+    "f": "1918-11-14",
+    "t": "1918-12-01",
+    "kaynak": "gün komşudan: Temeşvar (P84-BRASSO-TEMESVAR-1006 — Sırp askerî işgali, Güney Banat) · Versec için ayrı gün yok; Sırp işgal bölgesi Güney Banat · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "yugoslavya",
+    "f": "1918-12-01",
+    "t": "1920-06-04",
+    "kaynak": "gün komşudan: Temeşvar (P84-BRASSO-TEMESVAR-1006, SHS dönemi) · Versec için ayrı kaynak yok · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1920-06-04",
+    "t": "1945-11-29",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — F8: Trianon 4 Haziran 1920; TDV timisvar: 'Barış antlaşmalarına göre Banat bölgesi Romanya ve Sırbistan arasında bölüşüldü' (Versec Sırp Banatı'nda)"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal",
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "f": "1992-04-27",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Haram (30,3 km) — Britannica/Office of the Historian (komşu kaydı; künye f 1992-04-27)"
+   }
+  ]
+ },
+ "Facset": {
+  "lat": 45.85,
+  "lon": 22.18333,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: Bánlaky 0013/1005 (1552 Ağustos başı AY). Lugos (28 km) emsali BEYANLI; Facset'in kendi 1716 ve 1919 günleri bulunamadı. Facset'in 1556-1658 Erdel tâbiliği kaynaklanmadı (Lugos'ta var, Facset'e alınmadı).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — BALKAN-MACAR-0081: Szapolyai seçimine (TDV suleyman-i 10 Kasım 1526) dek tek krallık · Facset'in 1281'de varlığı kaynaklanmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Macaristan (Zapolya vasal krallığı)",
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — TDV suleyman-i (tâbi krallık) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Erdel Prensliği",
+    "f": "1541-08-29",
+    "t": "1551-07-01",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — TDV timisvar: haraçgüzâr Erdel Prensliği (1541); Bánlaky 0013/986 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1551-07-01",
+    "t": "1552-08-01",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — KUTU-B-1014: Ferdinand Banat'ı Macar kralı sıfatıyla aldı; Bánlaky 0013/988 · t: Bánlaky (MEK 09477) 0013/1005: 'a Temesvár alól kiküldött csapatok pedig Versec, Facset, Mehádia, Csákóvár, Haramvár … palánkjait szállották meg' ve 'Achmed pasa augusztus elejétől kezdve Temesvár alól kisebb-nagyobb különítményeket küldött az alvidéki erősségek megszállására' — gün yok, AY: Ağustos başı 1552 (TDV timisvar: Ağustos 1552 Tımışvar beylerbeyiliği kuruldu; garnizon 26 Temmuz teslim)"
+   },
+   {
+    "alan": "d",
+    "f": "1552-08-01",
+    "t": "1716-10-13",
+    "kaynak": "f: Bánlaky (MEK 09477) 0013/1005: 'a Temesvár alól kiküldött csapatok pedig Versec, Facset, Mehádia, Csákóvár, Haramvár … palánkjait szállották meg' ve 'Achmed pasa augusztus elejétől kezdve Temesvár alól kisebb-nagyobb különítményeket küldött az alvidéki erősségek megszállására' — gün yok, AY: Ağustos başı 1552 (TDV timisvar: Ağustos 1552 Tımışvar beylerbeyiliği kuruldu; garnizon 26 Temmuz teslim) · t: gün komşudan Temeşvar/Lugos 1716-10-13 (POSTIT-123; TDV timisvar: Ekim 1716'da Tımışvar teslim) — Lugos'un 1556-1658 Erdel tâbiliği Facset'e UYGULANMADI (kaynak yok; Facset Temeşvar eyaleti palankası, Bánlaky) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1716-10-13",
+    "t": "1918-11-16",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — POSTIT-123; TDV timisvar 'Habsburg (1716) … 1918'e kadar' · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — F8: TDV birinci-dunya-savasi Trianon 4 Haziran 1920 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "romanya-kralligi",
+    "f": "1919-07-22",
+    "t": "1920-06-04",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — F8 fiilî devir: Actualitatea (Lugoj, 30.07.2019) — gün Lugos'tan; Facset için ayrı gün yok · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — F8: TDV birinci-dunya-savasi Trianon 4 Haziran 1920 (Banat doğusu Romanya'ya, TDV timisvar)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — LoC Romania Country Study"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-cumhuriyeti",
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Lugos (28,2 km) — LoC Romania Country Study"
+   }
+  ]
+ },
+ "Mehádia": {
+  "lat": 44.90083,
+  "lon": 22.36694,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: Bánlaky 0013/1005 (1552 AY) ve 0019/1715 (1717 Habsburg). Pre-1552 zinciri Lugos/Karánsebes emsali BEYANLI. Atlas verisiyle çelişki: Orsova komşusu Romanya'yı 1918-01-01'de başlatıyor; Trianon günü 1920-06-04 kullanıldı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "kaynak": "Bánlaky 0013/1005 (1552'de Mehádia 'palánk' olarak anılır) · Pesty Szörényi bánság I (MEK 07290) · ABİ MERKEZ: Lugos/Karánsebes (Szörény bánság, aynı bánlık) — Szapolyai seçimi 10 Kasım 1526 (TDV suleyman-i); Orsova'da 1524 Osmanlı alımı (B 0012/927) Mehádia'yı kapsamaz · Mehádia'nın 1281'de varlığı kaynaklanmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Macaristan (Zapolya vasal krallığı)",
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "kaynak": "ABİ MERKEZ: Lugos/Karánsebes (Szörény bánság, aynı bánlık) — TDV suleyman-i; Lugos kaydı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Erdel Prensliği",
+    "f": "1541-08-29",
+    "t": "1551-07-01",
+    "kaynak": "ABİ MERKEZ: Lugos/Karánsebes (Szörény bánság, aynı bánlık) — TDV timisvar (1541 haraçgüzâr Erdel); Bánlaky 0013/986 Karánsebes/Lugos Martinuzzi'de · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1551-07-01",
+    "t": "1552-08-01",
+    "kaynak": "ABİ MERKEZ: Lugos/Karánsebes (Szörény bánság, aynı bánlık) — Bánlaky 0013/988 (Banat/Szörény kalelerinin Ferdinand adına teslimi) · t: Bánlaky (MEK 09477) 0013/1005: 'a Temesvár alól kiküldött csapatok pedig Versec, Facset, Mehádia, Csákóvár, Haramvár … palánkjait szállották meg' ve 'Achmed pasa augusztus elejétől kezdve Temesvár alól kisebb-nagyobb különítményeket küldött az alvidéki erősségek megszállására' — gün yok, AY: Ağustos başı 1552 (TDV timisvar: Ağustos 1552 Tımışvar beylerbeyiliği kuruldu; garnizon 26 Temmuz teslim) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1552-08-01",
+    "t": "1717-08-27",
+    "kaynak": "f: Bánlaky (MEK 09477) 0013/1005: 'a Temesvár alól kiküldött csapatok pedig Versec, Facset, Mehádia, Csákóvár, Haramvár … palánkjait szállották meg' ve 'Achmed pasa augusztus elejétől kezdve Temesvár alól kisebb-nagyobb különítményeket küldött az alvidéki erősségek megszállására' — gün yok, AY: Ağustos başı 1552 (TDV timisvar: Ağustos 1552 Tımışvar beylerbeyiliği kuruldu; garnizon 26 Temmuz teslim) · t: Bánlaky 0019/1715: Splényi 27 Ağustos 1717'de Orsova önüne vardı; 'a kiválóan fontos Orsova, majd Mehádia is … egész könnyű szerrel került a keresztények birokába' — 27 Ağustos ALT SINIR (Mehádia'nın kendi günü yok) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1717-08-27",
+    "t": "1918-11-16",
+    "kaynak": "Bánlaky 0019/1715 (Mehádia 1717 Habsburg'a) · TDV timisvar Habsburg hâkimiyeti 1918'e kadar · ⚠️ 1738 Osmanlı akını/Orsova'nın 1738-05-08'de Osmanlı'ya dönüşü Mehádia için KAYNAKLANMADI (Belgrad 1739 sonrası Banat Habsburg'da) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "F8: TDV birinci-dunya-savasi Trianon 4 Haziran 1920 (gün komşudan: Lugos/Temeşvar) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "kaynak": "F8: Trianon 4 Haziran 1920; TDV timisvar: Banat doğusu Romanya (gün komşudan Lugos) · Orsova komşusunda Romanya 1918-01-01 (YIL) yazılı — burada çatışma beyanı: o gün hukukî devir değil · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "kaynak": "LoC Romania Country Study (komşu Orsova/Lugos kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-cumhuriyeti",
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "kaynak": "LoC Romania Country Study (komşu Orsova/Lugos kaydı)"
+   }
+  ]
+ },
+ "Csákóvár": {
+  "lat": 45.50806,
+  "lon": 21.12861,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: Bánlaky 0013/1005 (1552 AY). Temeşvar emsali BEYANLI; Csákóvár'ın kendi 1716 ve 1918-20 günleri bulunamadı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — BALKAN-MACAR-0081: tek krallık Szapolyai seçimine (TDV suleyman-i 10 Kasım 1526) dek · Csákóvár'ın 1281'de varlığı kaynaklanmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Macaristan (Zapolya vasal krallığı)",
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — KUTU-B-1014; TDV suleyman-i · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Erdel Prensliği",
+    "f": "1541-08-29",
+    "t": "1551-07-01",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — TDV timisvar: 1541 haraçgüzâr Erdel Prensliği · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1551-07-01",
+    "t": "1552-08-01",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — MTA History of Transylvania (İzabella Temmuz 1551'de Banat'ı Ferdinand'a bıraktı); Bánlaky 0013/988 · t: Bánlaky (MEK 09477) 0013/1005: 'a Temesvár alól kiküldött csapatok pedig Versec, Facset, Mehádia, Csákóvár, Haramvár … palánkjait szállották meg' ve 'Achmed pasa augusztus elejétől kezdve Temesvár alól kisebb-nagyobb különítményeket küldött az alvidéki erősségek megszállására' — gün yok, AY: Ağustos başı 1552 (TDV timisvar: Ağustos 1552 Tımışvar beylerbeyiliği kuruldu; garnizon 26 Temmuz teslim)"
+   },
+   {
+    "alan": "d",
+    "f": "1552-08-01",
+    "t": "1716-10-13",
+    "kaynak": "f: Bánlaky (MEK 09477) 0013/1005: 'a Temesvár alól kiküldött csapatok pedig Versec, Facset, Mehádia, Csákóvár, Haramvár … palánkjait szállották meg' ve 'Achmed pasa augusztus elejétől kezdve Temesvár alól kisebb-nagyobb különítményeket küldött az alvidéki erősségek megszállására' — gün yok, AY: Ağustos başı 1552 (TDV timisvar: Ağustos 1552 Tımışvar beylerbeyiliği kuruldu; garnizon 26 Temmuz teslim) · t: gün komşudan Temeşvar 1716-10-13 (TDV timisvar: Ekim 1716'da Tımışvar teslim; POSTIT-123) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1716-10-13",
+    "t": "1918-11-16",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — TDV timisvar Habsburg (1716) … 1918 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — F8: TDV birinci-dunya-savasi Trianon 4 Haziran 1920 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "sirbistan-kralligi",
+    "f": "1918-11-14",
+    "t": "1918-12-01",
+    "kaynak": "gün komşudan: Temeşvar (P84-BRASSO-TEMESVAR-1006; Muzeul Virtual al Unirii) · Csákóvár Sırp işgal bölgesi içinde (Temeşvar'a 29 km) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "yugoslavya",
+    "f": "1918-12-01",
+    "t": "1919-08-03",
+    "kaynak": "gün komşudan: Temeşvar (P84-BRASSO-TEMESVAR-1006) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "romanya-kralligi",
+    "f": "1919-08-03",
+    "t": "1920-06-04",
+    "kaynak": "gün komşudan: Temeşvar (F8 fiilî devir: Ziua de Vest 02.08.2024) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — F8: Trianon 4 Haziran 1920; TDV timisvar: Banat doğusu Romanya'ya (Ciacova Romanya'da)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — LoC Romania Country Study"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-cumhuriyeti",
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Temeşvar (29,1 km) — LoC Romania Country Study"
+   }
+  ]
+ },
+ "Hisarcık (Grocka)": {
+  "lat": 44.67152,
+  "lon": 20.71648,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Pasarofça Antlaşması», «Hacı İvaz Paşa» (Hisarcık Boğazı 22 Temmuz 1739). Zincirin tamamı Semendire (1459'a dek) ve Belgrad (sonrası) emsali — BEYANLI. Künye çelişkisi: sahip_kaynagi 'habsburg' künyesi; komşular macaristan-habsburg kullandığı için o alındı. TDV Hacı İvaz Paşa sayfası bu turda okunamadı (slug 'arama/' yönlendirdi).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "sirbistan-nemanjic",
+    "f": "1281-01-01",
+    "t": "1402-01-01",
+    "kaynak": "ABİ MERKEZ: Semendire (16,9 km) — TDV semendire (Semendire Sırp hâkimiyetinde 1439'a dek) · Hisarcık'ın 1281'de varlığı kaynaklanmadı · KÜNYE: Semendire komşusunun 'sirbistan' id'si kunye.json'da yok; sirbistan-nemanjic/sirp-despotlugu kullanıldı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sirp-despotlugu",
+    "f": "1402-01-01",
+    "t": "1439-08-27",
+    "kaynak": "ABİ MERKEZ: Semendire (16,9 km) — TDV semendire: Semendire'nin ilk alınışı 27 Ağustos 1439 (komşu kaydı) · KÜNYE: Semendire komşusunun 'sirbistan' id'si kunye.json'da yok; sirbistan-nemanjic/sirp-despotlugu kullanıldı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1439-08-27",
+    "t": "1444-08-15",
+    "kaynak": "ABİ MERKEZ: Semendire (16,9 km) — TDV semendire (1439 ilk alınış; 1444 iade — komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sirp-despotlugu",
+    "f": "1444-08-15",
+    "t": "1459-06-20",
+    "kaynak": "ABİ MERKEZ: Semendire (16,9 km) — TDV semendire/nis/alacahisar (Sırbistan'a iade 1444-08-15; 1459 Osmanlı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1459-06-20",
+    "t": "1688-09-06",
+    "kaynak": "ABİ MERKEZ: Semendire (16,9 km) — TDV semendire (1459 sonrası Osmanlı); t: gün komşudan Belgrad (TDV belgrad 1688-09-06, Bánlaky) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1688-09-06",
+    "t": "1690-10-08",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — TDV belgrad (Habsburg 1688-1690); t: TDV suleyman-ii 8 Ekim 1690 (komşu kaydı). Künye: Habsburg'ın Osmanlı'dan aldığı yerler macaristan-habsburg (POSTIT-116, Emre kararı; ilk_sahip kaydında 'habsburg') · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1690-10-08",
+    "t": "1717-08-18",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — TDV suleyman-ii (8 Ekim 1690) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1717-08-18",
+    "t": "1739-09-18",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — TDV belgrad (Belgrad'ın ikinci kez kaybı 1717-08-18); TDV pasarofca-antlasmasi (Pasarofça 1718: Belgrad ve havalisi Avusturya'ya); t: Belgrad Antlaşması 1739-09-18 (komşu kaydı; TDV Hacı İvaz Paşa: Hisarcık Boğazı muharebesi 22 Temmuz 1739 Osmanlı zaferi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1739-09-18",
+    "t": "1830-10-17",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — TDV belgrad (1739 sonrası Osmanlı); t: 1830 Hatt-ı Hümâyûn · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "macaristan-habsburg",
+    "f": "1789-10-13",
+    "t": "1791-08-04",
+    "kaynak": "gün komşudan: Belgrad/Semendire (POSTIT-100 / POSTIT-116: Habsburg işgali; hukuken Osmanlı, Ziştovi 1791-08-04) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Sırbistan Prensliği",
+    "f": "1830-10-17",
+    "t": "1878-07-13",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — TDV sirbistan (1830 Hatt-ı Hümâyûn; 1867 kale garnizonlarının çekilişi Belgrad/Semendire/Fethülislâm/Şabac) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sirbistan-prensligi",
+    "f": "1878-07-13",
+    "t": "1882-03-06",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — Berlin Antlaşması 1878 md. 34-35 (Sırbistan bağımsız) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sirbistan-kralligi",
+    "f": "1882-03-06",
+    "t": "1918-12-01",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — Zakon … Kraljevina Srbije, Srpske novine 1882 (komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1918-12-01",
+    "t": "1941-08-29",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — komşu kaydı (SHS 1918-12-01) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sirbistan-nedic",
+    "f": "1941-08-29",
+    "t": "1944-10-06",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — Belgrad Şehir Arşivi 'Collaboration Government' (komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1944-10-06",
+    "t": "1945-11-29",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — komşu kaydı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal",
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — Britannica 'Yugoslavia'; Office of the Historian"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "f": "1992-04-27",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Belgrad (26,2 km) — Office of the Historian/Britannica (komşu kaydı)"
+   }
+  ]
+ },
+ "Kozluca": {
+  "lat": 43.33058,
+  "lon": 27.59908,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Küçük Kaynarca Antlaşması» (Kozluca yenilgisi 25 Haziran 1774 — madde Kozluca'yı Osmanlı sahası sayar). Zincirin geri kalanı Provadia emsali BEYANLI. 1828-29 Rus işgali (varsa) modellenmedi. TDV 'kozluca' maddesi bulunamadı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bulgar-carligi",
+    "f": "1281-01-01",
+    "t": "1388-01-01",
+    "kaynak": "ABİ MERKEZ: Prevadi/Provadia (21,6 km) — komşu kaydı (bulgar-carligi 1281-1388, YIL); Varna (28,7 km) TDV varna: 1391 Osmanlı · Kozluca'nın 1281'de varlığı kaynaklanmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1388-01-01",
+    "t": "1402-07-28",
+    "kaynak": "ABİ MERKEZ: Prevadi/Provadia (21,6 km) — komşu kaydı (1388 YIL; Varna 1391) · t: Ankara 28 Temmuz 1402 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-suleyman",
+    "f": "1402-07-28",
+    "t": "1411-02-17",
+    "kaynak": "ABİ MERKEZ: Prevadi/Provadia (21,6 km) — komşu kaydı (suleyman-celebi → künye fetret-suleyman) · KÜNYE EKSİĞİ: 1410-02-13/1410-06-15 Musa Çelebi ara dönemi modellenmedi (fetret-musa künyesi 1411-02-17'den başlar) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-musa",
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "kaynak": "ABİ MERKEZ: Prevadi/Provadia (21,6 km) — komşu kaydı (musa-celebi → künye fetret-musa) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1413-07-05",
+    "t": "1878-07-13",
+    "kaynak": "TDV kucuk-kaynarca-antlasmasi: Kozluca'da Osmanlı kuvvetleri ağır yenilgiye uğradı (25 Haziran 1774) — Osmanlı toprağı; Rus ilerleyişi Şumnu'ya, kalıcı idare yok · ABİ MERKEZ: Prevadi/Provadia (21,6 km) — Berlin 13 Temmuz 1878 (komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Bulgaristan Prensliği",
+    "f": "1878-07-13",
+    "t": "1908-10-05",
+    "kaynak": "ABİ MERKEZ: Prevadi/Provadia (21,6 km) — komşu kaydı (TDV hacioglupazarcigi: 1877-78 sonrası Bulgar Prensliği) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1908-10-05",
+    "t": "1946-09-15",
+    "kaynak": "ABİ MERKEZ: Prevadi/Provadia (21,6 km) — TDV bulgaristan: bağımsızlık 5 Ekim 1908 (komşu kaydı). Kozluca Güney Dobruca'da değil (Varna ili); 1913-1940 Romanya dönemi uygulanmadı"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-halk",
+    "f": "1946-09-15",
+    "t": "1990-11-15",
+    "kaynak": "ABİ MERKEZ: Prevadi/Provadia (21,6 km) — LoC Bulgaria Country Study"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-cumhuriyeti",
+    "f": "1990-11-15",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Prevadi/Provadia (21,6 km) — LoC Bulgaria Country Study"
+   }
+  ]
+ },
+ "Fethülislâm": {
+  "lat": 44.61147,
+  "lon": 22.60955,
+  "kur": null,
+  "bit": null,
+  "not": "KURULAMADI: Bulunanlar — TDV sirbistan: 1867'de Belgrad, Fethülislâm (Kladovo), Semendire ve Şabac garnizonları çekildi (Sırbistan Prensliği); Orsova kaydındaki kaynak (Bánlaky 0017/1450, Röder): Baden 25 Ekim 1689'da Orsova ve Fethülislâm'ı onarıp garnizonladı → Habsburg 1689-10-25–1690-10-01. 1524 kuruluşu, 1281-1524 sahibi (Vidin/Sırp/Macar sınırı belirsiz), 1717-39 Habsburg Sırbistanı dönemi ve 1789-90 işgali kaynakla doğrulanamadı; Bánlaky 0012/927, 0017/1450, 0019/1715'te 'Fethülislâm' adı geçmez (aranan: Fetiszlám, Feth, Kladova — YOK). TDV'de 'fethulislam' başlığı bulunamadı.",
+  "zincir": []
+ },
+ "Ayastefanos (Yeşilköy)": {
+  "lat": 40.959,
+  "lon": 28.8224,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Ayastefanos Antlaşması» (3 Mart 1878, Yeşilköy) + TDV «Doksanüç Harbi» (Rus karargâhı Yeşilköy'e nakledildi, gün yok). Zincir İstanbul emsali BEYANLI. Rus işgali (isg) EKLENMEDİ: başlangıç/bitiş günü TDV'de yok. Edirne Mütarekesi 31 Ocak 1878: Rus askerleri Küçükçekmece-Terkos hattının 5 km önünde.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1281-01-01",
+    "t": "1372-01-01",
+    "kaynak": "ABİ MERKEZ: İstanbul (14,3 km) — TDV istanbul: Bizans 1261-07-25'ten 1453-05-29'a (komşu kaydı) · Ayastefanos'un 1281'de varlığı ayrıca kaynaklanmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Bizans İmparatorluğu (haraçgüzâr)",
+    "f": "1372-01-01",
+    "t": "1402-07-28",
+    "kaynak": "ABİ MERKEZ: İstanbul (14,3 km) — TDV murad-i: V. Ioannes I. Murad'ın haraçgüzârı oldu (1372 YIL) (komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1402-07-28",
+    "t": "1424-02-22",
+    "kaynak": "ABİ MERKEZ: İstanbul (14,3 km) — komşu kaydı (haraç ilişkisi 1402 Ankara ile sona erdi, t: TDV murad-ii 22 Şubat 1424) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Bizans İmparatorluğu (haraçgüzâr)",
+    "f": "1424-02-22",
+    "t": "1453-05-29",
+    "kaynak": "ABİ MERKEZ: İstanbul (14,3 km) — TDV murad-ii (21 Rebîülevvel 827 / 22 Şubat 1424 antlaşması) (komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1453-05-29",
+    "t": "1920-04-23",
+    "kaynak": "ABİ MERKEZ: İstanbul (14,3 km) — TDV istanbul 29 Mayıs 1453; t: komşu kaydı tbmm-turkiye 1920-04-23 · TDV ayastefanos-antlasmasi: 3 Mart 1878'de Osmanlı-Rus antlaşması Ayastefanos'ta (Yeşilköy) imzalandı — Osmanlı yerleşimi · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "ABİ MERKEZ: İstanbul (14,3 km) — komşu kaydı (Üsküdar/İstanbul) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: İstanbul (14,3 km) — TDV 'Türkiye Cumhuriyeti'; Cumhuriyet ilanı 29 Ekim 1923 (komşu kaydı)"
+   }
+  ]
+ },
+ "Novigrad": {
+  "lat": 47.90852,
+  "lon": 19.04806,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: MKL «Nógrád» (yıl düzeyinde). ATLAS ÇELİŞKİSİ: komşu Vaç kaydı 1544-09-01 → 1684-06-27 kesintisiz Osmanlı; MKL Nógrád için 1594-1663 Habsburg arası gösteriyor. 1605 Bocskai / 1619 Bethlen işgal süreleri modellenmedi. 1919 Çekoslovak işgali (kuzey Nógrád) kaleyi/Nógrád köyünü kapsamadığı kaynaklanmadı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-12-17",
+    "kaynak": "MKL 'Nógrád': várispánság merkezi; Báthori Miklós pp. 1475-1506 kaleyi inşa etti (1281'de var) · t: gün komşudan Szombathely/Zigetvar (TDV suleyman-i 17 Aralık 1526) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1526-12-17",
+    "t": "1544-09-01",
+    "kaynak": "MKL 'Nógrád': 'I. Ferdinánd serege 1527: elfoglalta' (YIL; 1526-27 Szapolyai yanlısı olabilir — BEYANLI) · t: TDV budin 1544 seferi (AY, ilk_sahip kaydı); MKL '1544: a török közeledtére őrsége elhagyta' · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1544-09-01",
+    "t": "1594-01-01",
+    "kaynak": "f: TDV budin (1544 seferi, AY; Vaç komşusu 1544-09-01) · MKL 'Nógrád': 1544 Macar garnizonu çekildi · t: MKL '1594: visszavették' (YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1594-01-01",
+    "t": "1663-01-01",
+    "kaynak": "MKL 'Nógrád': '1594: visszavették' (YIL) · MKL: 1605 Bocskai, 1619 Bethlen birlikleri 'megszállták' — süre/gün yok, isg olarak YAZILMADI · t: MKL '1663: ismét a törökök kezére' · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1663-01-01",
+    "t": "1685-01-01",
+    "kaynak": "MKL 'Nógrád': '1663: ismét a törökök kezére, akik 1685: elhagyták a villámcsapás által megrongált várat' (YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1685-01-01",
+    "t": "1918-11-16",
+    "kaynak": "MKL 'Nógrád': 1685 Türkler kaleyi terk etti; 1709 Kuruclar yıktı (YIL) · ABİ MERKEZ: Vaç (16,1 km); nokta için MKL 'Nógrád' (Nógrád m.) — TDV macaristan (1867 uzlaşma); Vaç kaydı 1684-06-27 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1946-02-01",
+    "kaynak": "gün komşudan: Vaç (macaristan-naiplik künyesi 1918-11-16; F8 gün çevrimi — TDV birinci-dunya-savasi Trianon 4 Haziran 1920 hukukî devir; nokta Trianon sonrası da Macaristan'da)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-halk",
+    "f": "1946-02-01",
+    "t": "1989-10-23",
+    "kaynak": "gün komşudan: Vaç (1946. évi I. törvénycikk; 1989. évi XXXI. törvény — künye macaristan-halk)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-cumhuriyeti",
+    "f": "1989-10-23",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Vaç (1989. évi XXXI. törvény, njt.jog.gov.hu — künye macaristan-cumhuriyeti)"
+   }
+  ]
+ },
+ "Kailua-Kona": {
+  "lat": 19.64016,
+  "lon": -155.99912,
+  "kur": null,
+  "bit": null,
+  "not": "KURULAMADI: komşu (Hawaii Adaları Birleşme Öncesi) kaydının zinciri boş; kabul edilir kaynak bulunamadı (Britannica 403, history.state.gov/NPS sayfaları ilgili metni vermedi; Vikipedi tek dayanak olamaz). Önerilen iskelet (künye sınırlarından, KAYNAKSIZ): hawaii-seflikleri 1190→1795-01-01 · hawaii-kralligi 1795-01-01→1893-01-17 · hawaii-cumhuriyeti 1893-01-17→1898-08-12 · abd 1898-08-12→. Vikipedi: Kailua-Kona Kamehameha I'in Kona şefiyken yönetim merkeziydi (1795 birleşme öncesi). Kaynak: DCB/UNESCO/Office of the Historian ile doğrulanmalı.",
+  "zincir": []
+ },
+ "Tellülkebîr": {
+  "lat": 30.54323,
+  "lon": 31.78504,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Urabi Paşa» (komşu kaydı üzerinden; Tel el-Kebir 13 Eylül 1882). Zincir Fâkûs/Bilbîs emsali BEYANLI. 1798 Fransız seferi isg'si Tellülkebîr için kaynaklanmadı (Fâkûs/Bilbîs'te var, alınmadı). Tel el-Kebir'in 1281'de varlığı kaynaklanmadı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — komşu kaydı (memluk 1281→1517-05-19) · KÜNYE ARALIĞI: memluk künyesi t 1517-04-13, komşuların Osmanlı günü 1517-05-19 alındı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1517-05-19",
+    "t": "1805-07-03",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — komşu kaydı (1517-05-19 → 1805-07-03); Kahire kaydı TDV selim-i 24 Ocak 1517 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Kavalalı hanedanı",
+    "f": "1805-07-03",
+    "t": "1914-12-18",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — komşu kaydı (misir-kavalali künyesi 1805-07-03 → 1914-12-18) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1882-09-13",
+    "t": "1914-12-18",
+    "kaynak": "Tel el-Kebir muharebesi 13 Eylül 1882 (partinin ilk_sahip tarihi) · komşu kaydı: TDV urabi-pasa (İngiliz işgali)"
+   },
+   {
+    "alan": "s",
+    "d": "misir-sultanligi",
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — komşu kaydı (künye misir-sultanligi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — komşu kaydı (İngiliz işgali/himayesi sürdü) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "misir-kralligi",
+    "f": "1922-03-15",
+    "t": "1953-06-18",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — komşu kaydı (künye misir-kralligi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "misir-cumhuriyeti",
+    "f": "1953-06-18",
+    "t": "1958-02-22",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — Britannica 'Egypt' (komşu kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "birlesik-arap-cumhuriyeti",
+    "f": "1958-02-22",
+    "t": "1971-09-11",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — komşu kaydı (künye birlesik-arap-cumhuriyeti)"
+   },
+   {
+    "alan": "s",
+    "d": "misir-arap-cumhuriyeti",
+    "f": "1971-09-11",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Fâkûs (20,7 km)/Bilbîs (25,2 km) — komşu kaydı (künye misir-arap-cumhuriyeti)"
+   }
+  ]
+ },
+ "Îmbâbe": {
+  "lat": 30.07625,
+  "lon": 31.20666,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: Kahire emsali (TDV kahire, selim-i; NAPO-2). ATLAS ÇELİŞKİSİ: Kahire 1517-01-24'te Osmanlı, memluk künyesi t 1517-04-13 — gün komşudan 1517-01-24 alındı (memluk künyesi içinde). BEYANLI YAKLAŞIKLIK.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1281-01-01",
+    "t": "1517-01-24",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — TDV kahire: Memlükler (1250-1517) Kahire'de; İmbâbe Kahire'nin bitişiği (Nil'in batı yakası) · İmbâbe'nin 1281'de varlığı ayrıca kaynaklanmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1517-01-24",
+    "t": "1805-07-03",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — TDV selim-i: 24 Ocak 1517 Osmanlı birlikleri Kahire'ye girdi (komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "fransa-cumhuriyet",
+    "f": "1798-07-22",
+    "t": "1801-06-27",
+    "kaynak": "gün komşudan: Kahire — NAPO-2 (Fondation Napoléon, Correspondance générale t.2): Fransızlar Kahire'ye 22 Temmuz 1798; Piramitler/İmbâbe muharebesi 21 Temmuz 1798 (partinin ilk_sahip tarihi). Alternatif künye fransiz-misir-seferi (1798-07-01 → 1801-10-02)"
+   },
+   {
+    "alan": "v",
+    "k": "Kavalalı hanedanı",
+    "f": "1805-07-03",
+    "t": "1914-12-18",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — komşu kaydı (misir-kavalali) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1882-09-13",
+    "t": "1914-12-18",
+    "kaynak": "gün komşudan: Kahire (TDV urabi-pasa) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "misir-sultanligi",
+    "f": "1914-12-18",
+    "t": "1922-03-15",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — komşu kaydı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — komşu kaydı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "misir-kralligi",
+    "f": "1922-03-15",
+    "t": "1953-06-18",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — komşu kaydı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "misir-cumhuriyeti",
+    "f": "1953-06-18",
+    "t": "1958-02-22",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — Britannica 'Egypt' (komşu kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "birlesik-arap-cumhuriyeti",
+    "f": "1958-02-22",
+    "t": "1971-09-11",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — komşu kaydı"
+   },
+   {
+    "alan": "s",
+    "d": "misir-arap-cumhuriyeti",
+    "f": "1971-09-11",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Kahire (4,8 km) — komşu kaydı"
+   }
+  ]
+ },
+ "Fontainebleau": {
+  "lat": 48.40908,
+  "lon": 2.70177,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız Paris emsaliyle (ABİ MERKEZ, BEYANLI): Melun (15,6 km) komşu kaydında zincir boş, daha uzak Paris alındı. İngiliz-Burgonya dönemi (1420-1436) Fontainebleau için doğrulanmadı. 1762 Fontainebleau ön barışı (ilk_sahip). 1940-44 Alman işgali modellenmedi (Paris kaydında yok).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1281-01-01",
+    "t": "1420-12-01",
+    "kaynak": "ABİ MERKEZ: Paris (56,0 km) — Treccani Enciclopedia on line, Parigi maddesi (Paris Kapet/Valois Fransa'sında; komşu kaydı) · BEYANLI YAKLAŞIKLIK · yerleşimin 1281'de varlığı bu turda ayrıca kaynaklanmadı"
+   },
+   {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1420-12-01",
+    "t": "1436-04-13",
+    "kaynak": "ABİ MERKEZ: Paris (56,0 km) — FRANSA-KONTROL (29 Ekim 2026): Troyes Antlaşması 21 Mayıs 1420 sonrası İngiliz-Burgonya idaresi; Paris 13 Nisan 1436'da Fransa'ya döndü (komşu kaydı) · Île-de-France'ın bu noktası için ayrı kaynak yok · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1436-04-13",
+    "t": "1792-09-22",
+    "kaynak": "ABİ MERKEZ: Paris (56,0 km) — komşu kaydı (Paris: 1436 dönüş; Fransa Krallığı künye t 1792-09-22) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa-cumhuriyet",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Paris (56,0 km) — komşu kaydı (fransa-cumhuriyet künyesi f 1792-09-22) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Saint-Germain-en-Laye": {
+  "lat": 48.89643,
+  "lon": 2.0904,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız Paris emsaliyle (ABİ MERKEZ, BEYANLI). İngiliz dönemi bu nokta için doğrulanmadı. 10 Eylül 1919 Saint-Germain Antlaşması (ilk_sahip) Avusturya ile; Fransa'nın sahipliği etkilenmez.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1281-01-01",
+    "t": "1420-12-01",
+    "kaynak": "ABİ MERKEZ: Paris (19,6 km) — Treccani Enciclopedia on line, Parigi maddesi (Paris Kapet/Valois Fransa'sında; komşu kaydı) · BEYANLI YAKLAŞIKLIK · yerleşimin 1281'de varlığı bu turda ayrıca kaynaklanmadı"
+   },
+   {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1420-12-01",
+    "t": "1436-04-13",
+    "kaynak": "ABİ MERKEZ: Paris (19,6 km) — FRANSA-KONTROL (29 Ekim 2026): Troyes Antlaşması 21 Mayıs 1420 sonrası İngiliz-Burgonya idaresi; Paris 13 Nisan 1436'da Fransa'ya döndü (komşu kaydı) · Île-de-France'ın bu noktası için ayrı kaynak yok · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1436-04-13",
+    "t": "1792-09-22",
+    "kaynak": "ABİ MERKEZ: Paris (19,6 km) — komşu kaydı (Paris: 1436 dönüş; Fransa Krallığı künye t 1792-09-22) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa-cumhuriyet",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Paris (19,6 km) — komşu kaydı (fransa-cumhuriyet künyesi f 1792-09-22) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Versailles": {
+  "lat": 48.80359,
+  "lon": 2.13424,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız Paris emsaliyle (ABİ MERKEZ, BEYANLI). İngiliz dönemi bu nokta için doğrulanmadı. Versailles köyünün 1281'de varlığı kaynaklanmadı. 28 Haziran 1919 antlaşması (ilk_sahip) sahipliği etkilemez.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1281-01-01",
+    "t": "1420-12-01",
+    "kaynak": "ABİ MERKEZ: Paris (17,0 km) — Treccani Enciclopedia on line, Parigi maddesi (Paris Kapet/Valois Fransa'sında; komşu kaydı) · BEYANLI YAKLAŞIKLIK · yerleşimin 1281'de varlığı bu turda ayrıca kaynaklanmadı"
+   },
+   {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1420-12-01",
+    "t": "1436-04-13",
+    "kaynak": "ABİ MERKEZ: Paris (17,0 km) — FRANSA-KONTROL (29 Ekim 2026): Troyes Antlaşması 21 Mayıs 1420 sonrası İngiliz-Burgonya idaresi; Paris 13 Nisan 1436'da Fransa'ya döndü (komşu kaydı) · Île-de-France'ın bu noktası için ayrı kaynak yok · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1436-04-13",
+    "t": "1792-09-22",
+    "kaynak": "ABİ MERKEZ: Paris (17,0 km) — komşu kaydı (Paris: 1436 dönüş; Fransa Krallığı künye t 1792-09-22) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa-cumhuriyet",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Paris (17,0 km) — komşu kaydı (fransa-cumhuriyet künyesi f 1792-09-22) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Neuilly-sur-Seine": {
+  "lat": 48.8846,
+  "lon": 2.26965,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız Paris emsaliyle (ABİ MERKEZ, BEYANLI). Neuilly'nin 1281'de varlığı (köy Portes/Neuilly) kaynaklanmadı. 27 Kasım 1919 Neuilly Antlaşması (ilk_sahip) Bulgaristan ile; sahipliği etkilemez.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1281-01-01",
+    "t": "1420-12-01",
+    "kaynak": "ABİ MERKEZ: Paris (6,8 km) — Treccani Enciclopedia on line, Parigi maddesi (Paris Kapet/Valois Fransa'sında; komşu kaydı) · BEYANLI YAKLAŞIKLIK · yerleşimin 1281'de varlığı bu turda ayrıca kaynaklanmadı"
+   },
+   {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1420-12-01",
+    "t": "1436-04-13",
+    "kaynak": "ABİ MERKEZ: Paris (6,8 km) — FRANSA-KONTROL (29 Ekim 2026): Troyes Antlaşması 21 Mayıs 1420 sonrası İngiliz-Burgonya idaresi; Paris 13 Nisan 1436'da Fransa'ya döndü (komşu kaydı) · Île-de-France'ın bu noktası için ayrı kaynak yok · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1436-04-13",
+    "t": "1792-09-22",
+    "kaynak": "ABİ MERKEZ: Paris (6,8 km) — komşu kaydı (Paris: 1436 dönüş; Fransa Krallığı künye t 1792-09-22) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa-cumhuriyet",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Paris (6,8 km) — komşu kaydı (fransa-cumhuriyet künyesi f 1792-09-22) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Barcs": {
+  "lat": 45.96,
+  "lon": 17.45861,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız 1921 devri ve Zigetvar emsali. Barcs'ın Osmanlı dönemi (1566-1689) ve ilk varlığı için kendi kaynağı bulunamadı (MKL 'Barcs' yalnız 1808 plébania verir). BEYANLI YAKLAŞIKLIK.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-12-17",
+    "kaynak": "ABİ MERKEZ: Zigetvar (28,5 km) — BALKAN-MACAR-0081: tek krallık 1526-12-17'ye dek (TDV suleyman-i) · MKL 'Barcs, Somogy m.' erken tarih vermiyor; Barcs'ın 1281'de varlığı KAYNAKLANMADI · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1526-12-17",
+    "t": "1566-09-07",
+    "kaynak": "ABİ MERKEZ: Zigetvar (28,5 km) — BALKAN-MACAR-0081 H-0026 (Habsburg 17 Aralık 1526'dan); t: Zigetvar 1566-09-07 (komşu kaydı) · Barcs'ın Osmanlı'ya geçişi için ayrı kaynak bulunamadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1566-09-07",
+    "t": "1689-02-03",
+    "kaynak": "ABİ MERKEZ: Zigetvar (28,5 km) — komşu kaydı (Zigetvar Osmanlı 1566-09-07 → 1689-02-03; Bánlaky 0017/1449) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1689-02-03",
+    "t": "1918-11-16",
+    "kaynak": "ABİ MERKEZ: Zigetvar (28,5 km) — Bánlaky 0017/1449 (3 Şubat 1689 teslim, komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1946-02-01",
+    "kaynak": "gün komşudan: Zigetvar (macaristan-naiplik künyesi 1918-11-16); Barcs 20 Ağustos 1921'de Macar jandarmasına döndü (Ernyes, Magyar Rendészet 2021/1, DOI 10.32577/mr.2021.1.10: 'Baranya megye … 1918. november 13. és 1921. augusztus 27. között … szerb impérium') — işgal isg olarak ayrı yazıldı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "sirbistan-kralligi",
+    "f": "1918-11-19",
+    "t": "1918-12-01",
+    "kaynak": "gün komşudan: Zigetvar (Ernyes 2021; Belgrad ateşkes konvansiyonu Kasım 1918) · Barcs'ın işgal başlangıcı için ayrı gün yok · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "yugoslavya",
+    "f": "1918-12-01",
+    "t": "1921-08-20",
+    "kaynak": "t: partinin ilk_sahip kaydı — 20 Ağustos 1921 öğle Macar jandarması girdi, saat 17'de askerî devir teslim (Ernyes 2021) · f: Zigetvar/Peçuy emsali (SHS künyesi 1918-12-01) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-halk",
+    "f": "1946-02-01",
+    "t": "1989-10-23",
+    "kaynak": "gün komşudan: Zigetvar (1946. évi I. törvénycikk; macaristan-halk künyesi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-cumhuriyeti",
+    "f": "1989-10-23",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Zigetvar (1989. évi XXXI. törvény; macaristan-cumhuriyeti künyesi) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
  }
 }

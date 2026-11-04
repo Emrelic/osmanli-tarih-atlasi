@@ -8,7 +8,7 @@ Zincir biçimi (yerleşim dosyalarının alanlarıyla aynı):
 Denetimler: (1) her dönemde kaynak var · (2) f < t, sıfır uzunluk yok · (3) dönemler boşluksuz ve çakışmasız
 (t == sonrakinin f'si) · (4) s: kimliği devletler.js'te var ve dönem künyenin f/t'si içinde · (5) zincir kur'dan
 (yoksa 1281-01-01'den ya da ilk dönemden) başlar, bit'e (yoksa 2000-12-31'e) kadar sürer · (6) kur öncesi dönem yok.
-Çıkış: 0 temiz · 1 ihlal."""
+Çıkış: 0 temiz · 1 ihlal · 2 ihlal yok ama zinciri boş (KURULAMADI) nokta var — 2 temiz değildir."""
 import json, os, sys, subprocess
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -37,8 +37,14 @@ def main():
     Z = json.load(open(yol, encoding="utf-8"))
     K = kunyeler()
     ihlal = 0
+    kurulamadi = 0
     for ad, kayit in Z.items():
         if ad.startswith("_"):
+            continue
+        if not kayit.get("zincir"):
+            # boş zincir temiz DEĞİLDİR — KASA bu noktayı ekleyemez
+            print("⏸ " + ad + ": KURULAMADI — " + (kayit.get("not") or "")[:160])
+            kurulamadi += 1
             continue
         hata = []
         # isg: sahipliği DEĞİŞTİRMEZ, üstüne biner (VERI-YAPISI) — zincir sürekliliğine girmez, ayrı sınanır
@@ -83,8 +89,8 @@ def main():
             hata.append("zincir %s'e kadar sürmüyor: son t %s" % (son, z[-1]["t"]))
         print(("✅ " if not hata else "❌ ") + ad + ("" if not hata else ": " + " · ".join(hata)))
         ihlal += bool(hata)
-    print("toplam %d nokta, %d ihlalli" % (sum(1 for a in Z if not a.startswith("_")), ihlal))
-    sys.exit(1 if ihlal else 0)
+    print("toplam %d nokta, %d ihlalli, %d kurulamadı" % (sum(1 for a in Z if not a.startswith("_")), ihlal, kurulamadi))
+    sys.exit(1 if ihlal else (2 if kurulamadi else 0))
 
 
 main()
