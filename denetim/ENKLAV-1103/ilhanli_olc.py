@@ -64,14 +64,14 @@ BOLGELER = [
      "1335-11-30 → 1338: kukla İlhanlar (Arpa, Mûsâ, Muhammed); Alatak 16 Temmuz 1338 Çobânî zaferi, ama Tebriz 1338'de Hasan-ı "
      "Büzürg'ün valisi Pir Hüseyin'de; Marağa zaferi 26 Haziran 1340 → Çobânîler (Hasan-ı Kûçek'in kuklaları Sâtî Beg 1339, Süleyman "
      "1340; Hasan-ı Kûçek ölümü 15 Aralık 1343; sonra Melik Eşref) → 758/1357 ilkbahar sonu Altın Orda (Canıbeg; Melik Eşref Tebriz'de "
-     "asıldı) → 1357 Ahiçuk ve Muzafferî Mübârizüddin ara dönemi → 1359 Celâyirli Üveys'in kesin fethi.", "KORU-BEYAN",
+     "asıldı) → 1357 Ahiçuk ve Muzafferî Mübârizüddin ara dönemi → 1358 Celâyirli (TDV; Iranica 1359 kesin fetih).", "KORU-BEYAN",
      ["ilhanlilar", "tebriz", "altinorda", "celayirliler", "iranica"],
      "ilhanli → 1340-06-26 kalsın (kukla han + 1338-1340 Tebriz Celâyirli valisi beyanıyla); 1340-06-26 → 1357-01-01 cobaniler "
      "(Marağa, Iranica; bitiş 758 ∩ 1357, 'late spring' ay vermiyor → yıl hassasiyeti, beyan); 1357-01-01 → 1357 altinorda "
-     "(yıl, beyan); 1357 → 1359-01-01 Ahiçuk / muzafferi ara dönemi (yerel kimlik yoksa beyanlı muzafferi; KAYNAK-GEREK ayrım); "
-     "1359-01-01 → celayirli (Iranica JALAYERIDS, yıl). Önceki taslaktaki '1358' (TDV Celâyirliler) Iranica'yla çelişiyor: çelişki "
-     "ic_not'ta iki kaynağıyla beyan (CLAUDE.md: TDV esas — ama TDV 1358 'Azerbaycan ile Tebriz'i' der, Iranica 1359 'definitive' "
-     "der; ikisi farklı olayı tarihliyor olabilir: 1358 ilk giriş, 1359 kesin fetih)."),
+     "(yıl, beyan); 1357 → 1358-01-01 Ahiçuk / muzafferi ara dönemi (yerel kimlik yoksa beyanlı muzafferi; KAYNAK-GEREK ayrım); "
+     "1358-01-01 → celayirli (TDV Celâyirliler: \"Üveys 1358’de Azerbaycan ile Tebriz’i\" — CLAUDE.md: İslâm dünyasında tarih "
+     "çelişkisinde TDV esas). ic_not: Iranica JALAYERIDS 1359'u \"definitive conquest of Azarbaijan\" (kesin fetih) olarak verir; "
+     "iki kaynak ve çelişki beyan edilsin."),
     ("VAN-HAKKÂRİ-MUŞ-BİTLİS", lambda la, lo: 37.0 <= la < 39.7 and 41.3 <= lo < 44.6,
      "1336 → 1340 Hacı Togay (Sutayoğulları) Muş-Bulanık; 1340-1342 Çobanlı Hasan-ı Kûçek seferi, Ahlat 1340-41 Çobanlı; 1351 → "
      "Karakoyunlu (atlas).", "DUZELT", ["ahlat", "erzurum"],
