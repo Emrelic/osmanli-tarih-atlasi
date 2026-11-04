@@ -309,8 +309,8 @@
 },
 {
 "id": "karolenj-italya",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: NCMH II-III (Wickham, Early Medieval Italy) — 774 / 962-02-02"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 2) — Sergi, New Cambridge Medieval History III, ch.14: Otto 'crowned emperor in Rome in February' (962) — AY teyitli, 02-02 günü okunmadı · KAVRAMSAL BEYAN: İtalya krallığı 962'de bitmez, Ottonlar altında sürer; 962 ucu ancak künye 'Karolenj-Berengar dönemi' olarak tanımlanırsa savunulur · ic_not: 'İtalya krallığı 962'den sonra Ottonlar altında sürdü; bu künye Karolenj-Berengar dönemini kapsar.' · f 774 okunmadı"
 },
 {
 "id": "polonya-naiplik-kralligi",
@@ -421,13 +421,13 @@
 },
 {
 "id": "ryukyu",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Japan IV-V — f 1429-01-01 / t 1879-03-27 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 2) — Ai Abe, Asian Journal of International Law 13(1), 2024: '27 March 1879 … Ryukyu Shobun' (t 1879-03-27 GÜN TEYİT) · f 1429 OKUNMADI — DİKKAT: aynı makaledeki '1470 Shō Hashi' kaynak hatası görünüyor (Shō Hashi birleşmesi 1429; 1470 ikinci Shō hanedanı), f için KULLANILMAZ → KISMEN"
 },
 {
 "id": "nguyen-hanedani",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — Cambridge History of Southeast Asia I, ch.10, PDF s.2: 'Nguyen (1802-1945)' (f ve t YIL teyitli; 06-01 ve 08-30 günleri teyitsiz)"
+"kaynak": "EMRELİC Cambridge (Parti 2) — Asselin, Vietnam's American War (CUP 2018), ch.1: 'On 25 August … Bao Dai abdicated' — tasarruf günü 25 Ağustos; veri t 1945-08-30 (Ngọ Môn devir töreni olabilir) kaynakta OKUNMADI · kural tören değil tasarruf → ÖNERİ t 1945-08-25 ama BEKLE (ikinci akademik kaynak gerek; tek kaynakla DUZELT yazılmadı) · önceki: CHSEA I ch.10 PDF s.2 'Nguyen (1802-1945)' (yıllar teyitli; f 06-01 günü teyitsiz)"
 },
 {
 "id": "poni",
@@ -980,7 +980,7 @@
 {
 "id": "zerma",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden) · EMRELİC Parti 2: OKUNMADI · İPUCU: Fransız fethi süreci 1896–1906 (Kimba 1981 başlığı; metin okunmadı) — t 1898 sürecin içinde, dayanaksız"
 },
 {
 "id": "kong-vattara",
@@ -1258,7 +1258,7 @@
 {
 "id": "tubu-tibesti",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1914-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1914-01-01 (bölüm: eserin dizininden) · EMRELİC Parti 2: Cambridge Core'da OKUNMADI"
 },
 {
 "id": "kanada",
@@ -1522,8 +1522,8 @@
 },
 {
 "id": "kongo-kralligi",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1390-01-01 / t 1914-01-01 (bölüm: eserin dizininden) · İPUCU (yerel arşiv): CHA VI ch.9A PDF s.4, 6: 1880-1900'de krallığın yetkisi 'extremely limited' — t 1914 DEĞİŞMEZ, gün kaynağı aranıyor"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC Cambridge (Parti 2) — Bostoen & Brinkman (ed.), The Kongo Kingdom (CUP 2018), ch.1: 'end of the fourteenth century (ca. 1390)' (f 1390 YAKLAŞIK, YIL düzeyinde TEYİT) + 'became part of Portuguese Angola in 1914' (t 1914 YIL TEYİT) · gün yok → veri 1390-01-01 / 1914-01-01 DOĞRU (yıl hassasiyeti); ic_not: 'f yaklaşık (ca. 1390); iki uç yıl düzeyinde, gün kaynakta yok.' · yardımcı: CHA VI ch.9A PDF s.4, 6 (1880-1900 yetki 'extremely limited')"
 },
 {
 "id": "ndongo",
@@ -1577,8 +1577,8 @@
 },
 {
 "id": "maya-sehir-devletleri",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1000-01-01 / t 1697-03-13 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 2) — Jones, Cambridge History of the Native Peoples of the Americas II, ch.20, PDF s.17: 'captured Nojpeten in a bloody battle on 13 March 1697' (t 1697-03-13 GÜN TEYİT — İtza'nın sonu) · ic_not: 'Künye şemsiye niteliğinde; t son bağımsız Maya devleti İtza'nın (Nojpeten) düşüşüdür; Manche Chol vb. ayrı.' · f 1000 OKUNMADI → KISMEN"
 },
 {
 "id": "brezilya-imparatorlugu",
@@ -1723,8 +1723,8 @@
 },
 {
 "id": "nri",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 0994-01-01 / t 1911-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 2) — Harneit-Sievers, Constructions of Belonging (2006), ch.2: 1911'de İngilizler Eze Nri'yi topladı, 'ritual of abrogation' (t 1911 YIL teyitli) · OLAY TÜRÜ BEYANI: hegemonya 1670'lerden sonra geriledi; 1911 ritüel otoritenin kaldırılışıdır, toprak devletinin sonu değil · ic_not: '[olay türü: 1911 İngiliz müdahalesi ve ritual of abrogation; Nri hegemonyası 1670'lerden sonra geriledi]' · f 994 okunmadı"
 },
 {
 "id": "fante",
