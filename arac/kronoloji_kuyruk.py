@@ -279,6 +279,12 @@ METIN = [
     # L2E 1073-1084 (EMRELİC)
     ("L2-1497", "Ligurya: Durazzo göreve başlaması 1802-08-10 (Treccani DBI «si insediò il 10 ag. 1802»); «ömür boyu» ifadesi kaynakta yok → çıkarılır ya da kaynaklanır"),
     ("L2-1489", "[BEKLE — gün desteksiz] Ligurya: Treccani yalnız 2 Aralık 1797 halk oylamasını verir; 22 Aralık desteksiz"),
+    # L2E 1061-1072 (EMRELİC; hepsi ipucu)
+    ("L2-1474", "[BEKLE — ipucu] İlk Filo: atlas 26 Ocak 1788 Sydney Cove bayrak çekme, başlık Botany Bay (18-20 Ocak) → olay ile gün uyuşmuyor, başlık ya da gün düzeltilir"),
+    ("L2-1476", "[BEKLE — ipucu] Belçika: Turnhout 1789-10-27, Birlik Antlaşması 1790-01-11; atlas 1790-01-01 yer tutucu görünüyor"),
+    ("L2-1477", "[BEKLE — ipucu] Belçika: Birlik Antlaşması 1790-01-11; atlas 1790-01-01 yer tutucu görünüyor"),
+    ("L2-1478", "[BEKLE — ipucu] Belçika: Birlik Antlaşması 1790-01-11; atlas 1790-01-01 yer tutucu görünüyor"),
+    ("L2-1483", "[BEKLE — ipucu] Poniatowski tahttan çekilmesi 1795-11-25, 24 Ekim değil (24 Ekim üçüncü bölüşme antlaşması)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
