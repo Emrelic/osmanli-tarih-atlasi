@@ -2,10 +2,10 @@
 
 LAB SALI · `lab-1104-kunye` · 5-6 Kasım 2026 · **ÖNERİ — veriye dokunulmadı.** Kaynak: EVREN4 (KASA kovası K01-K15, P001-P002), EMRELİC/LAB PAZAR soruları; ölçüm origin/main `data/devletler.js`.
 
-**Ortak şart:** yeni künye `arac/renkler.py` BOYALAR'a girmeden haritada boyanmaz; renkler.py motor tuzudur → künyeler bir sonraki planlı HAVVA koşusuyla birlikte açılır. O zamana dek ilgili dilimler **beyanlı boşluk** kalır.
+**Boyama şartı (ölçüldü, `uret_petek.py:1140`):** motor `d:` BOYALAR'da yoksa künyenin `harita:` anahtarına düşer. Yeni künye **mevcut bir boya anahtarıyla** (`harita:'ingiltere'`, `harita:'abd'` (6 künye) … — emsal: harita:'ingiltere' 10 künye) açılırsa `renkler.py`ye DOKUNULMAZ, motor tuzu değişmez; veri olağan koşuda yansır. **Kendi rengi** istenirse BOYALAR'a girmeli → renkler.py motor tuzu → tam yeniden inşa (7-8 saat, HAVVA). Karar sırasında her aday için hangisi olduğu seçilir.
 **Karar istenen:** her aday için ① künye açılsın mı (yoksa beyanlı boşluk / mevcut künyeye bağlama) ② kaynak turu (uçların günü) ③ BOYALAR rengi.
 
-Toplam: **15 aday**
+Toplam: **17 aday**
 
 | # | aday | öneri | dönemler | güç | not |
 |---|---|---|---|---|---|
@@ -24,3 +24,5 @@ Toplam: **15 aday**
 | 13 | `goshen` | Goshen Cumhuriyeti (Rooigrond) 1882-10 → 1884 (Londra Sözleşmesi 1884-02-27 / Transvaal ilhak bildirisi 1884-09 geri alınması) — kaynakla. Stellaland ile tek künye (Birleşik Stellaland 1883-1885?) ya da ayrı — karar | Rooigrond/Mafikeng çevresi dönemleri | ZAYIF | Kısa ömürlü Boer cumhuriyetleri ailesi: natalia (VAR), Potchefstroom/Winburg (aday), Stellaland, Goshen, Nieuwe Republiek (Vryheid 1884-1888 — ölçülmeli). |
 | 14 | `moab-arap-hukumeti` | Moab Arap Hükûmeti (Kerak) 1920-07-25 sonrası → Şubat 1921 (urdun-emirligi f 1921-02-01). Aynı dilimde Salt ve Aclûn yerel hükûmetleri de vardı (1920 Ağustos Salt toplantısı, İngiliz danışmanlar) → tek sınıf: 'Şarkî Ürdün yerel hükûmetleri 1920-21' — üç ayrı künye mi, tek beyanlı künye mi, beyanlı boşluk mu — karar | Kerak (ve Salt, Aclûn) 1920-07-25 → 1921-01-31 dönemleri | ORTA | TDV ÜRDÜN / KERAK ile teyit; resmî hanedan sitesi tek dayanak olarak taraflı olabilir. |
 | 15 | `nieuwe-republiek` | Nieuwe Republiek (Vryheid) 1884-08 → 1888-07 (Transvaal'a katılış). Künye YOK | Vryheid dönemleri | ZAYIF |  |
+| 16 | `kuba-abd-askeri-hukumeti` | Küba ABD Askerî Hükûmeti 1899-01-01 (İspanyol tahliyesi) → 1902-05-20 (cumhuriyetin devri). Ölçüm origin/main: ispanyol-kuba t 1898-12-10 (Paris antlaşması imzası), kuba-cumhuriyeti f 1902-05-19 → arada 1898-12-10 → 1899-01-01 ve 05-19/05-20 farkı; harita:'abd' (varsa) ile BOYALAR değişmeden boyanır | Havana ve öteki Küba yerleşimleri 1899-01-01 → 1902-05-19 | ZAYIF | kuba-cumhuriyeti f 05-19 mu 05-20 mi (Estrada Palma'ya devir 20 Mayıs 1902 yaygın) — kaynakla; 1898-12-10 → 1899-01-01 dilimi (İspanya fiilen sürdü mü) ayrıca. |
+| 17 | `becuanaland-kraliyet-kolonisi` | YENİ KÜNYE ADAYI (EMSALLİ): Britanya Becuanaland Kraliyet Kolonisi 1885-09-30 → 1895-11-16 (Kap'a katılış, kaynakla). EMSAL ölçüldü: harita:'ingiltere' künyesi 10 (ingiliz-nijerya, ingiliz-kenya-kolonisi, ingiliz-altin-kiyisi, ingiliz-siyera-leon 'Koloni ve Protektora' …) — İngiliz Afrika kolonileri AYRI künye + harita:'ingiltere'. Protektoraya (ingiliz-becuanaland) bağlanmaz (EMRELİC: ayrı idare). harita:'ingiltere' ile renkler.py DEĞİŞMEZ (motor d: BOYALAR'da yoksa harita:'ya düşer) | Vryburg, Mafeking 1885-09-30 → 1895-11-16; sonrası Kap Kolonisi künyesi (ölçülmeli) | ORTA | Stellaland ardılı. |
