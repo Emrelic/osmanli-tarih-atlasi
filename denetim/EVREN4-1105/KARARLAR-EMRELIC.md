@@ -76,6 +76,26 @@ KASA PAZAR bunları uygularken JSON'daki ONERI satırlarının önünde tutar.
   - Çin ve Japon devir yılı ifadeleri kural dışı değildir, KAYNAKLI'ya yeter.
 - **Açılamayan alıntılar:** `tarayici_okuma_TRECCANI.tsv`'yi EMRELİC kendi tarayıcısında okuyor.
 
+## 5 Kasım 2026 gece-35 — P013-P018 üzerine
+
+Künye ölçümü:
+- `finlandiya-buyuk-dukaligi` 1809-09-17 → 1917-12-06.
+- `memel-bolgesi` 1920-02-10 → 1939-03-23. Künyenin f'si 02-10; EMRELİC'in verdiği teslim günü 02-15. Bu çelişki LAB'a.
+- Kızıl Finlandiya künyesi YOK. `finlandiya-demokratik-cumhuriyeti` 1939-40 Terijoki hükûmetidir, 1918 ile ilgisi yok.
+
+Kararlar:
+- **(a) Finlandiya 1808-09:** iki kural çelişmez, birlikte uygulanır.
+  - Her şehrin 1808'deki Rus fethinden itibaren `isg rusya` (gün kaynakla). TAHRİR'e göre İsveç'in iddiası Hamina'ya kadar sürdü; genel vali ataması fiilî idaredir, hukukî devir değildir.
+  - 1809-09-17 Hamina imzasından itibaren `s: finlandiya-buyuk-dukaligi` + `v: rusya` (künye var). TEK ÖLÇÜ'ye göre devralan zaten yönetiyordu, bu yüzden imza günü.
+  - Porvoo Diyeti 1809-03-29 ve 1808-12 genel vali ataması `ic_not`a.
+- **(b) Tampere:** Kızıl Finlandiya 1918-01-28 → 04-06 (Tampere'nin düşüşü). Rakip hükûmet kuralı uygulanır. Künye yok, LAB'a gider; şimdilik BEYANLI.
+- **(c) Klaipėda:**
+  - Teslim günü 1920-02-15. Devralan (Müttefikler / Fransız idaresi) önceden yönetmiyordu, bu yüzden TEK ÖLÇÜ teslim gününü verir. Künye f 1920-02-10 ile çelişiyor, LAB'a.
+  - 1920-01-10 → 02-15 arasında Alman idaresi fiilen sürdü: `d: almanya`. Versay yürürlüğü `ic_not`a.
+  - 1923-01-10 Litvanya'nın el koyması: `isg litvanya`.
+  - 1924-05-08 Klaipėda Konvansiyonu: imza günü `s: litvanya`, çünkü Litvanya bölgeyi zaten yönetiyordu.
+- **Onaylananlar:** Perpignan, Üstyurt, Rangun, Brunei `v:`, Aleksandrovsk, Sønderborg/Tønder, Mellifont.
+
 ## LAB SALI cevabı (lab-1104-kunye f2ed94442)
 
 - EMRELİC'in onayladığı künye uygulamaları LAB'ın `HAYALET-UYGULA.json` dosyasında, 14 madde: Ming f 1356-04-10, ming t / guney-ming f, venedik, zend, bengal, mali-fed, edo.
