@@ -124,6 +124,31 @@ Kararlar:
 - **Peru:** rakip hükûmet kuralı uygulanır. Her şehir kendi ilan ve fiilî idare günüyle: Trujillo 1820-12-29, Lima 1821-07-28.
 - **Mersin 1922-01-03** emsalle uyumlu.
 
+## 5 Kasım 2026 gece-56 — P027-P030 üzerine
+
+Künye ölçümü (KASA):
+- `katar` f 1868-01-01.
+- `laos-kralliklari` 1707-01-01 → 1893-10-03.
+- `laos-kralligi` 1953-10-22 → 1975-12-02. 1893-1953 arasında Laos'ta künyeli bir `s:` sahibi yok.
+- Tanganyika manda künyesi YOK.
+
+Kararlar:
+- **(a) Katar:** yürürlüğe girmemiş bir sözleşme hukukî devir sayılmaz, bu yüzden TEK ÖLÇÜ'nün imza dalı uygulanmaz.
+  - `d: osmanli` garnizonun fiilen çekildiği günde biter (1915-08; gün kaynakla bulunacak).
+  - Ardından `s: katar` (künye var, f 1868).
+  - `v: ingiltere` 1916-11-03 → 1971-09-03 eklenir (Doha ile aynı).
+  - 1913-07-29 sözleşmesi `ic_not`a yazılır.
+- **(b) Laos:** Kamboçya kuralı uygulanır.
+  - `v: fransa` 1953-10-22 tam bağımsızlığa kadar sürer.
+  - 1949-07-19'da Fransız Birliği içinde "bağlı devlet" olması `ic_not`a yazılır.
+  - Luang Prabang ile doğrudan idare edilen yerlerin ayrımı gece-11 kararına göre yapılır.
+  - Kamboçya kuralının istediği altta yatan `s:` (yerel krallık) için 1893-1953 aralığında künye yok. `laos-kralligi` f'si, 1947 anayasası ve 1949 öncesi künye kapsamı LAB'a sorulur.
+- **(c) Kilve ve Bagamoyo:** öneri onaylandı (Namibya emsali).
+  - 1916 fethinden itibaren `isg ingiltere`.
+  - 1919-06-28 Versay imzasından itibaren `s: ingiltere`, çünkü İngiltere yeri zaten yönetiyordu. Tanganyika manda künyesi açılırsa dönem o künyeye geçer; şu an künye yok.
+  - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
+- **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
+
 ## LAB SALI: gece-50 soruları (158b1d870, HAYALET-KARAR; satırlar öneri, kaynak turu yapılmadı)
 
 1. **mehdi:** künyenin t'si (1898-09-02, Ümmüdürman) devletin sonu değil; Halife Kordofan'da sürdü.
