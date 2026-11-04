@@ -289,6 +289,44 @@
   {
    "dosya_satir": "data/yerlesimler_asya.js:294",
    "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Ibrahim-i Ludi' - https://islamansiklopedisi.org.tr/ibrahim-i-ludi",
+   "alinti": "İbrâhim savaş alanında öldü (8 Receb 932 / 20 Nisan 1526)",
+   "oneri": {
+    "f": "1526-04-20"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1526-04-21, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TDV Panipet savasi/Ibrahim'in olumunu 20 Nisan 1526 veriyor (hicri 8 Receb 932 aynen, cevrilmedi); TDV 'Babur' maddesi yalniz 'Nisan 1526'. Atlas 21 Nisan; TDV esastir -> 1526-04-20 onerisi. KUNYE f de 1526-04-21: kunye ayni gunle birlikte kontrol edilmeli. Delhi/Agra'nin fiilen ele gecisi ayri (muharebeden sonra); Jaunpur/Benares gibi dogu yerleri icin gun yerlesime ozgu degil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Sir Sah' - https://islamansiklopedisi.org.tr/sir-sah ; 'Suriler' - /suriler (hanedani tesis etti 947/1540)",
+   "alinti": "10 Muharrem 947’de (17 Mayıs 1540) cereyan eden Kannevc savaşında yine hezimete uğradı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sur-hanedani 1540-05-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Humayun'un Kannevc yenilgisinin gunu (Sir Sah'in Hindistan hakimiyeti); Suriler 'tesis etti (947/1540)'. Gun savas gunu, idari devir degil; hicri 10 Muharrem 947 aynen. Kunye f=kume f=1540-05-17 tutarli. KARISIK uyarisi: Benares/Jaunpur Sur'a bu gun gecmis olmayabilir (Bengal 1539-40 Sir Sah'ta)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1722-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Suriler' - https://islamansiklopedisi.org.tr/suriler",
+   "alinti": "Sirhind’de Afganlar’ı yenip Delhi’ye girdi (4 Ramazan 962 / 23 Temmuz 1555)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1555-07-23, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Humayun'un Delhi'ye giris gunu; hicri 4 Ramazan 962 aynen. KARISIK uyarisi: t_dagilim farkli (1722/1752/1788) ama f ortak; Sur'un Bengal'de 1564'e dek surdugu (TDV) icin dogu yerleri (Cavnpur, Benares) 23 Temmuz 1555'te Babur'a gecmemis olabilir - yerlesim gunu dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:294",
+   "alan": "s",
    "d": "hindistan-cumhuriyeti",
    "f": "1947-08-15",
    "t": "2000-12-31",
@@ -300,6 +338,44 @@
   }
  ],
  "Câlandhar (Jalandhar)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Ibrahim-i Ludi' - https://islamansiklopedisi.org.tr/ibrahim-i-ludi",
+   "alinti": "İbrâhim savaş alanında öldü (8 Receb 932 / 20 Nisan 1526)",
+   "oneri": {
+    "f": "1526-04-20"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1526-04-21, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TDV Panipet savasi/Ibrahim'in olumunu 20 Nisan 1526 veriyor (hicri 8 Receb 932 aynen, cevrilmedi); TDV 'Babur' maddesi yalniz 'Nisan 1526'. Atlas 21 Nisan; TDV esastir -> 1526-04-20 onerisi. KUNYE f de 1526-04-21: kunye ayni gunle birlikte kontrol edilmeli. Delhi/Agra'nin fiilen ele gecisi ayri (muharebeden sonra); Jaunpur/Benares gibi dogu yerleri icin gun yerlesime ozgu degil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Sir Sah' - https://islamansiklopedisi.org.tr/sir-sah ; 'Suriler' - /suriler (hanedani tesis etti 947/1540)",
+   "alinti": "10 Muharrem 947’de (17 Mayıs 1540) cereyan eden Kannevc savaşında yine hezimete uğradı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sur-hanedani 1540-05-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Humayun'un Kannevc yenilgisinin gunu (Sir Sah'in Hindistan hakimiyeti); Suriler 'tesis etti (947/1540)'. Gun savas gunu, idari devir degil; hicri 10 Muharrem 947 aynen. Kunye f=kume f=1540-05-17 tutarli. KARISIK uyarisi: Benares/Jaunpur Sur'a bu gun gecmis olmayabilir (Bengal 1539-40 Sir Sah'ta)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:470",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1752-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Suriler' - https://islamansiklopedisi.org.tr/suriler",
+   "alinti": "Sirhind’de Afganlar’ı yenip Delhi’ye girdi (4 Ramazan 962 / 23 Temmuz 1555)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1555-07-23, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Humayun'un Delhi'ye giris gunu; hicri 4 Ramazan 962 aynen. KARISIK uyarisi: t_dagilim farkli (1722/1752/1788) ama f ortak; Sur'un Bengal'de 1564'e dek surdugu (TDV) icin dogu yerleri (Cavnpur, Benares) 23 Temmuz 1555'te Babur'a gecmemis olabilir - yerlesim gunu dogrulanmadi."
+  },
   {
    "dosya_satir": "data/yerlesimler_asya.js:470",
    "alan": "s",
@@ -709,6 +785,18 @@
   {
    "dosya_satir": "data/yerlesimler_asya.js:2235",
    "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: Britannica 'Revolt of the Three Feudatories' (403, okunamadi); arama ozeti 1673 verdi, Aralik yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (san-fan 1673-12-28, 5 satır); yalnız gün ve devlet teyitli. Takvim: kaynak Bati gunu vermiyor; ay-gunes gunu elle cevrilmedi - Academia Sinica ile EMRELIC'te cevrilecek. Yil (1673) arama ozetinde tutarli ama okunmadi. t_dagilim: 4 yerlesim 1681-12-07, 1 tanesi 1680-01-01 (KARISIK olasi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
    "d": "cin-halk-cumhuriyeti",
    "f": "1949-10-01",
    "t": "2000-12-31",
@@ -861,6 +949,18 @@
    "alinti": "On 12 February 1912, the last emperor's mother signed the Act of Abdication",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (cin-cumhuriyeti 1912-02-12, 24 satır); yalnız gün ve devlet teyitli. LAB PAZAR: kaynak üniversite kütüphanesi rehberi, hakemli değil — KAYNAKLI'dan indirildi; gün doğru görünüyor, akademik kaynak gerek. | ÜLKE DÜZEYİ. Qing'in tahttan çekilme günü (hükümdarlığın hukukî devri) teyitli; kaynak üniversite kütüphane rehberidir (hakemli değil, zayıf). KÜNYE: künye f=1911-10-10 (Wuchang) ≠ küme f=1912-02-12; Cumhuriyet ilanı/Sun inauguration 1912-01-01 (arama özeti, okunmadı) - sınıflandırma: künye 'Wuchang ayaklanması' ile 'devlet' günlerini karıştırıyor, bu küme için gün Qing'den devir günüdür. Yuan Shikai geçici başkan 1912-03-10 (özet). Bilinen istisna: Moğolistan (1911-12 bağımsızlık), Tibet, Sincan fiilî durumu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2461",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1680-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: Britannica 'Revolt of the Three Feudatories' (403, okunamadi); arama ozeti 1673 verdi, Aralik yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (san-fan 1673-12-28, 5 satır); yalnız gün ve devlet teyitli. Takvim: kaynak Bati gunu vermiyor; ay-gunes gunu elle cevrilmedi - Academia Sinica ile EMRELIC'te cevrilecek. Yil (1673) arama ozetinde tutarli ama okunmadi. t_dagilim: 4 yerlesim 1681-12-07, 1 tanesi 1680-01-01 (KARISIK olasi)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2461",
@@ -1481,6 +1581,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kuzey-yuan 1368-09-14, 8 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — tek gün birden çok olayı kapsıyor ya da künye f ile tutarsız; YERLEŞİM izine verildi (LAB PAZAR). | Ming takvimi: Hongwu 1. yil 8. ay (Moğol cekilisi, 1368-09-14) Mingshi KAYIT gunu; Academia Sinica ile EMRELIC'te cevrilecek. KUME KARISIK: t_dagilim 1382 (Yunnan Ming fethi, 3 farkli gun), 1636, 1691: ayri olaylar. Aranmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:143",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
+   "alinti": "was proclaimed on 26 November 1924",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan-halk-cumhuriyeti 1924-11-26, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin ('The Mongolian People's Republic (MPR) ... was proclaimed on 26 November 1924'). ULKE DUZEYI. Ayni sitedeki baska madde 25 Kasim 1924 veriyor (arama ozeti, okunmadi) - cift kaynak celismesi olabilir. Kunye f=kume f."
   }
  ],
  "Kolomna": [
@@ -1534,6 +1646,18 @@
   }
  ],
  "Şeyh Salû-yi Ulyâ": [
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Celayirliler' - https://islamansiklopedisi.org.tr/celayirliler",
+   "alinti": "bağımsız bir devlet kurdu (1340)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (celayirli 1340-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin. Devletin kurulusu YIL duzeyi 1340 (kunye f=1340-01-01 tutarli). KARISIK: TDV 'Uveys 1358'de Azerbaycan ile Tebriz'i, 1364'te Musul ve Diyarbekir'i aldi' - kumedeki Sarab/Sakkiz (KB Iran) 1340'ta Celayirli degil olabilir; yerlesim bazinda f dogrulanmadi. oneri yok."
+  },
   {
    "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
    "alan": "s",
@@ -1981,6 +2105,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (cin-halk-cumhuriyeti 1949-10-01, 25 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | ÜLKE DÜZEYİ. Kuruluş ilanı günü teyitli. Künye f=küme f. Bilinen istisna: 1 Ekim 1949'da henüz Komünist denetimde olmayan yerler (Güney/Güneybatı Çin, Tibet 1950-51, Hainan 1950, Sincan kısmen); küme f ülke ilanı günüdür, yerleşim bazında fiilî denetim farklıdır; Tayvan/Kinmen hariç."
   }
  ],
+ "Klagenfurt": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:111",
+   "alan": "s",
+   "d": "avusturya-cumhuriyet",
+   "f": "1918-11-12",
+   "t": "1938-03-13",
+   "hukum": "ONERI",
+   "kaynak": "Austrian National Library / ww1.habsburger.net, 'The First Republic in the historical memory' - https://ww1.habsburger.net/en/developments/first-republic-historical-memory",
+   "alinti": "The Republic of German Austria was proclaimed on 12 November 1918",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya-cumhuriyet 1918-11-12, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; kurumsal portal (ONB) - kalite siniri, akademik teyit onerilir, bu yuzden ONERI(degisiklik yok). Ilan edilen devlet 'Deutschösterreich'; Saint-Germain ile 'Österreich' adi (kunye adi Avusturya Cumhuriyeti). Klagenfurt/Villach (Karintiya, 1918-19 yugoslav isgali ve Ekim 1920 plebisit) icin 12 Kasim gunu fiilî idare icin dogrulanmadi."
+  }
+ ],
  "Ventspils (Windau)": [
   {
    "dosya_satir": "data/yerlesimler_a78_avrupa.js:165",
@@ -2015,6 +2153,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:123",
    "alan": "s",
+   "d": "italya",
+   "f": "1861-02-13",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Treccani Dizionario Biografico, 'Francesco II di Borbone' - https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/",
+   "alinti": "per la capitolazione, conclusa il 13 febbr. 1861",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-02-13, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Gaeta teslimini (Burbon direnisinin sonu) tarihliyor, Italya'ya gecisi degil; ayni madde: 7 Kasim 1860 Vittorio Emanuele Napoli'de resmen ulkeyi devraldi (plebisit 21 Ekim 1860); Messina/Civitella Mart 1861. KUNYE f=1861-03-17 (kume f 02-13 kunyeden ONCE: KUNYE ASIMI). Brindisi, Foggia, Reggio vb. 1860'ta devralinmis olabilir; yerlesim bazli f dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:123",
+   "alan": "s",
    "d": "italya-cumhuriyeti",
    "f": "1946-06-18",
    "t": "2000-12-31",
@@ -2023,6 +2173,18 @@
    "alinti": "I risultati definitivi del referendum furono proclamati dalla Corte di Cassazione il 18 giugno",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya-cumhuriyeti 1946-06-18, 14 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Referandum 2 Haziran; Yargıtay 10 Haziran'da ön sonuçları, 18 Haziran'da kesin sonuçları ilan etti (Senato/Quirinale özetleri 10 Haziran'ı da verir; quirinale.it ve senato.it 403). Künye f tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:123",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0476-08-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Theodosius' (Ancient History, Late Roman and Byzantine Biographies) - https://www.encyclopedia.com/people/history/ancient-history-late-roman-and-byzantine-biographies/theodosius",
+   "alinti": "At the time of his triumph in January 395, gout and death overtook Theodosius.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-roma 0395-01-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Yalniz AY duzeyi (Ocak 395); 17 Ocak gunu Britannica ipucu (403, okunamadi). Ulke duzeyi (imparatorluk bolunmesi, Honorius Bati). KARISIK: t_dagilim 409/410 Britanya-Hispanya kayiplari ve 476 farkli ama f ortak. Kunye f=kume f."
   }
  ],
  "Alanya": [
@@ -2195,6 +2357,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya-federasyonu 1991-12-26, 94 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (5 Kas): 142-N 1991-12-26 birincil metin (devamcı devlet kuralı); history.state.gov 12-25 Gorbaçov istifası ic_not'a. | Sayfa 26 Aralik vermiyor; 25 Aralik (bayrak, Gorbacov istifasi) ayri olay. Devamcilik cumlesi de yok. 1991-12-26 (142-N) icin kaynak BULUNAMADI; Kremlin/Duma/BM yazismasi bakilmadi. Kunye f = kume f tutarli. ULKE DUZEYI, 94 yerlesim tek olay."
   }
  ],
+ "Hudeyde": [
+  {
+   "dosya_satir": "data/yerlesimler.js:956",
+   "alan": "s",
+   "d": "yemen-cumhuriyeti",
+   "f": "1990-05-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Yemen' - https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "22 Mayıs 1990’da Kuzey Yemen’le birleşti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yemen-cumhuriyeti 1990-05-22, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin (Guney Yemen Kuzey Yemen'le birlesti). Gun duzeyi. Kunye f=kume f. Hadramut/Mukalla/Seyun Guney Yemen'den, Hudeyde Kuzey'den gecis: iki farkli onceki sahip, gun ayni."
+  }
+ ],
  "Misrata": [
   {
    "dosya_satir": "data/yerlesimler.js:1015",
@@ -2287,6 +2463,18 @@
    "alinti": "Barcelona, 19.I.1479.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1479-01-19, 12 satır); yalnız gün ve devlet teyitli. sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1228",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com, 'Spanish Civil War' (Gale) - https://www.encyclopedia.com/history/modern-europe/spanish-and-portuguese-history/spanish-civil-war",
+   "alinti": "The war officially concluded on 1 April.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1939-04-01, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; ULKE DUZEYI (savasin resmi bitis gunu, Franco devleti). KARISIK uyarisi: Burgos, Oviedo, Santiago, Lleida Milliyetci/Frankoist idareye 1936-39 arasinda daha once gecmis (Barcelona Ocak 1939) - yerlesim bazinda f=1939-04-01 hukuki rejim gunudur. Kunye f=1479 (devam eden polity) tutarli."
   }
  ],
  "Hamburg": [
@@ -2725,6 +2913,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:1601",
    "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1923-03-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com (Oxford Dictionary of World History), 'Saint-Germain, treaty of' - https://www.encyclopedia.com/history/modern-europe/treaties-and-alliances/treaty-saint-germain",
+   "alinti": "Peace treaty with Austria after the First World War, signed on 10 September 1919",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (itilaf-emaneti 1919-09-10, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin: imza gunu 10 Eylul 1919 (TEK OLCU yeterli icin). Ancak md.91 emanetine ait metin okunmadi; KARISIK: Karvina (Fryštát, Teschen/Çekoslovakya 1920-07-28), Rab/Vis/Sibenik (Dalmaçya/Rapallo) farkli olaylar, t_dagilim 1920-11-12/1923-03-15/1920-07-28. Gun degisikligi onerilmiyor; yerlesim bazinda dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "s",
    "d": "ukrayna",
    "f": "1991-08-24",
    "t": "2000-12-31",
@@ -2803,6 +3003,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1859",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-11-12",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com (Oxford Dictionary of World History), 'Saint-Germain, treaty of' - https://www.encyclopedia.com/history/modern-europe/treaties-and-alliances/treaty-saint-germain",
+   "alinti": "Peace treaty with Austria after the First World War, signed on 10 September 1919",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (itilaf-emaneti 1919-09-10, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin: imza gunu 10 Eylul 1919 (TEK OLCU yeterli icin). Ancak md.91 emanetine ait metin okunmadi; KARISIK: Karvina (Fryštát, Teschen/Çekoslovakya 1920-07-28), Rab/Vis/Sibenik (Dalmaçya/Rapallo) farkli olaylar, t_dagilim 1920-11-12/1923-03-15/1920-07-28. Gun degisikligi onerilmiyor; yerlesim bazinda dogrulanmadi."
   }
  ],
  "Brakya (Brač)": [
@@ -2855,6 +3067,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1865",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-11-12",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com (Oxford Dictionary of World History), 'Saint-Germain, treaty of' - https://www.encyclopedia.com/history/modern-europe/treaties-and-alliances/treaty-saint-germain",
+   "alinti": "Peace treaty with Austria after the First World War, signed on 10 September 1919",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (itilaf-emaneti 1919-09-10, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin: imza gunu 10 Eylul 1919 (TEK OLCU yeterli icin). Ancak md.91 emanetine ait metin okunmadi; KARISIK: Karvina (Fryštát, Teschen/Çekoslovakya 1920-07-28), Rab/Vis/Sibenik (Dalmaçya/Rapallo) farkli olaylar, t_dagilim 1920-11-12/1923-03-15/1920-07-28. Gun degisikligi onerilmiyor; yerlesim bazinda dogrulanmadi."
   }
  ],
  "Menorka (Mahon)": [
@@ -2914,6 +3138,18 @@
   }
  ],
  "Trapani": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1936",
+   "alan": "s",
+   "d": "italya",
+   "f": "1861-02-13",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Treccani Dizionario Biografico, 'Francesco II di Borbone' - https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/",
+   "alinti": "per la capitolazione, conclusa il 13 febbr. 1861",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-02-13, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Gaeta teslimini (Burbon direnisinin sonu) tarihliyor, Italya'ya gecisi degil; ayni madde: 7 Kasim 1860 Vittorio Emanuele Napoli'de resmen ulkeyi devraldi (plebisit 21 Ekim 1860); Messina/Civitella Mart 1861. KUNYE f=1861-03-17 (kume f 02-13 kunyeden ONCE: KUNYE ASIMI). Brindisi, Foggia, Reggio vb. 1860'ta devralinmis olabilir; yerlesim bazli f dogrulanmadi."
+  },
   {
    "dosya_satir": "data/yerlesimler.js:1936",
    "alan": "s",
@@ -2984,6 +3220,18 @@
   }
  ],
  "Dîvâniye": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2113",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1411-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Celayirliler' - https://islamansiklopedisi.org.tr/celayirliler",
+   "alinti": "bağımsız bir devlet kurdu (1340)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (celayirli 1340-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin. Devletin kurulusu YIL duzeyi 1340 (kunye f=1340-01-01 tutarli). KARISIK: TDV 'Uveys 1358'de Azerbaycan ile Tebriz'i, 1364'te Musul ve Diyarbekir'i aldi' - kumedeki Sarab/Sakkiz (KB Iran) 1340'ta Celayirli degil olabilir; yerlesim bazinda f dogrulanmadi. oneri yok."
+  },
   {
    "dosya_satir": "data/yerlesimler.js:2113",
    "alan": "s",
@@ -5167,6 +5415,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1813-01-01, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK, aranmadı: avusturya 1813-01-01 ucu; t_dagilim 1918-11-03..1919-09-10 (Tarvisio, Ljubljana, Dalmaçya adaları, Villach) ayrı olaylar (Villa Giusti, Saint-Germain 1919-09-10); künye ad/f yok (devletler.js id'si kontrol edilmeli)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek.js:155",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-11-12",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com (Oxford Dictionary of World History), 'Saint-Germain, treaty of' - https://www.encyclopedia.com/history/modern-europe/treaties-and-alliances/treaty-saint-germain",
+   "alinti": "Peace treaty with Austria after the First World War, signed on 10 September 1919",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (itilaf-emaneti 1919-09-10, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin: imza gunu 10 Eylul 1919 (TEK OLCU yeterli icin). Ancak md.91 emanetine ait metin okunmadi; KARISIK: Karvina (Fryštát, Teschen/Çekoslovakya 1920-07-28), Rab/Vis/Sibenik (Dalmaçya/Rapallo) farkli olaylar, t_dagilim 1920-11-12/1923-03-15/1920-07-28. Gun degisikligi onerilmiyor; yerlesim bazinda dogrulanmadi. | İSTİSNA (a): 1919-09-10 günü zincirde isg italya (1918-11-06 → 1921-06-12) var; o gün itilaf-emaneti fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
   }
  ],
  "Aşkabad": [
@@ -5515,6 +5775,18 @@
    "alinti": "Barcelona, 19.I.1479.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1479-01-19, 12 satır); yalnız gün ve devlet teyitli. sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:255",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com, 'Spanish Civil War' (Gale) - https://www.encyclopedia.com/history/modern-europe/spanish-and-portuguese-history/spanish-civil-war",
+   "alinti": "The war officially concluded on 1 April.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1939-04-01, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; ULKE DUZEYI (savasin resmi bitis gunu, Franco devleti). KARISIK uyarisi: Burgos, Oviedo, Santiago, Lleida Milliyetci/Frankoist idareye 1936-39 arasinda daha once gecmis (Barcelona Ocak 1939) - yerlesim bazinda f=1939-04-01 hukuki rejim gunudur. Kunye f=1479 (devam eden polity) tutarli."
   }
  ],
  "Oviedo": [
@@ -5529,6 +5801,18 @@
    "alinti": "Barcelona, 19.I.1479.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1479-01-19, 12 satır); yalnız gün ve devlet teyitli. sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:258",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com, 'Spanish Civil War' (Gale) - https://www.encyclopedia.com/history/modern-europe/spanish-and-portuguese-history/spanish-civil-war",
+   "alinti": "The war officially concluded on 1 April.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1939-04-01, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; ULKE DUZEYI (savasin resmi bitis gunu, Franco devleti). KARISIK uyarisi: Burgos, Oviedo, Santiago, Lleida Milliyetci/Frankoist idareye 1936-39 arasinda daha once gecmis (Barcelona Ocak 1939) - yerlesim bazinda f=1939-04-01 hukuki rejim gunudur. Kunye f=1479 (devam eden polity) tutarli."
   }
  ],
  "Cartagena": [
@@ -5543,6 +5827,18 @@
    "alinti": "Barcelona, 19.I.1479.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1479-01-19, 12 satır); yalnız gün ve devlet teyitli. sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:267",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0476-08-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Theodosius' (Ancient History, Late Roman and Byzantine Biographies) - https://www.encyclopedia.com/people/history/ancient-history-late-roman-and-byzantine-biographies/theodosius",
+   "alinti": "At the time of his triumph in January 395, gout and death overtook Theodosius.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-roma 0395-01-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Yalniz AY duzeyi (Ocak 395); 17 Ocak gunu Britannica ipucu (403, okunamadi). Ulke duzeyi (imparatorluk bolunmesi, Honorius Bati). KARISIK: t_dagilim 409/410 Britanya-Hispanya kayiplari ve 476 farkli ama f ortak. Kunye f=kume f."
   }
  ],
  "Santiago de Compostela": [
@@ -5557,6 +5853,18 @@
    "alinti": "Barcelona, 19.I.1479.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1479-01-19, 12 satır); yalnız gün ve devlet teyitli. sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:270",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com, 'Spanish Civil War' (Gale) - https://www.encyclopedia.com/history/modern-europe/spanish-and-portuguese-history/spanish-civil-war",
+   "alinti": "The war officially concluded on 1 April.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1939-04-01, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; ULKE DUZEYI (savasin resmi bitis gunu, Franco devleti). KARISIK uyarisi: Burgos, Oviedo, Santiago, Lleida Milliyetci/Frankoist idareye 1936-39 arasinda daha once gecmis (Barcelona Ocak 1939) - yerlesim bazinda f=1939-04-01 hukuki rejim gunudur. Kunye f=1479 (devam eden polity) tutarli."
   }
  ],
  "Lleida": [
@@ -5583,6 +5891,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (__BOSLUK__ 1000-01-01, 10 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — tek gün birden çok olayı kapsıyor ya da künye f ile tutarsız; YERLEŞİM izine verildi (LAB PAZAR). | Tek kume 5+ farkli yerlesim (Lleida, Hualien, Kuril, Bering, Bermuda...): ayri olaylar karisik, tek gun olamaz. Bakilmadi. __BOSLUK__ f=1000-01-01 yer tutucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:284",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com, 'Spanish Civil War' (Gale) - https://www.encyclopedia.com/history/modern-europe/spanish-and-portuguese-history/spanish-civil-war",
+   "alinti": "The war officially concluded on 1 April.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1939-04-01, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; ULKE DUZEYI (savasin resmi bitis gunu, Franco devleti). KARISIK uyarisi: Burgos, Oviedo, Santiago, Lleida Milliyetci/Frankoist idareye 1936-39 arasinda daha once gecmis (Barcelona Ocak 1939) - yerlesim bazinda f=1939-04-01 hukuki rejim gunudur. Kunye f=1479 (devam eden polity) tutarli."
   }
  ],
  "Alicante": [
@@ -5611,6 +5931,20 @@
    "alinti": "Barcelona, 19.I.1479.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanya 1479-01-19, 12 satır); yalnız gün ve devlet teyitli. sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+  }
+ ],
+ "Braga": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:321",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0409-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Theodosius' (Ancient History, Late Roman and Byzantine Biographies) - https://www.encyclopedia.com/people/history/ancient-history-late-roman-and-byzantine-biographies/theodosius",
+   "alinti": "At the time of his triumph in January 395, gout and death overtook Theodosius.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-roma 0395-01-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Yalniz AY duzeyi (Ocak 395); 17 Ocak gunu Britannica ipucu (403, okunamadi). Ulke duzeyi (imparatorluk bolunmesi, Honorius Bati). KARISIK: t_dagilim 409/410 Britanya-Hispanya kayiplari ve 476 farkli ama f ortak. Kunye f=kume f."
   }
  ],
  "Flensburg": [
@@ -5947,6 +6281,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:493",
    "alan": "s",
+   "d": "avusturya-cumhuriyet",
+   "f": "1918-11-12",
+   "t": "1938-03-13",
+   "hukum": "ONERI",
+   "kaynak": "Austrian National Library / ww1.habsburger.net, 'The First Republic in the historical memory' - https://ww1.habsburger.net/en/developments/first-republic-historical-memory",
+   "alinti": "The Republic of German Austria was proclaimed on 12 November 1918",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya-cumhuriyet 1918-11-12, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; kurumsal portal (ONB) - kalite siniri, akademik teyit onerilir, bu yuzden ONERI(degisiklik yok). Ilan edilen devlet 'Deutschösterreich'; Saint-Germain ile 'Österreich' adi (kunye adi Avusturya Cumhuriyeti). Klagenfurt/Villach (Karintiya, 1918-19 yugoslav isgali ve Ekim 1920 plebisit) icin 12 Kasim gunu fiilî idare icin dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:493",
+   "alan": "s",
    "d": "avusturya",
    "f": "1813-01-01",
    "t": "1918-11-12",
@@ -5973,6 +6319,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:530",
    "alan": "s",
+   "d": "italya",
+   "f": "1861-02-13",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Treccani Dizionario Biografico, 'Francesco II di Borbone' - https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/",
+   "alinti": "per la capitolazione, conclusa il 13 febbr. 1861",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-02-13, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Gaeta teslimini (Burbon direnisinin sonu) tarihliyor, Italya'ya gecisi degil; ayni madde: 7 Kasim 1860 Vittorio Emanuele Napoli'de resmen ulkeyi devraldi (plebisit 21 Ekim 1860); Messina/Civitella Mart 1861. KUNYE f=1861-03-17 (kume f 02-13 kunyeden ONCE: KUNYE ASIMI). Brindisi, Foggia, Reggio vb. 1860'ta devralinmis olabilir; yerlesim bazli f dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:530",
+   "alan": "s",
    "d": "italya-cumhuriyeti",
    "f": "1946-06-18",
    "t": "2000-12-31",
@@ -5987,6 +6345,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:532",
    "alan": "s",
+   "d": "italya",
+   "f": "1861-02-13",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Treccani Dizionario Biografico, 'Francesco II di Borbone' - https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/",
+   "alinti": "per la capitolazione, conclusa il 13 febbr. 1861",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-02-13, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Gaeta teslimini (Burbon direnisinin sonu) tarihliyor, Italya'ya gecisi degil; ayni madde: 7 Kasim 1860 Vittorio Emanuele Napoli'de resmen ulkeyi devraldi (plebisit 21 Ekim 1860); Messina/Civitella Mart 1861. KUNYE f=1861-03-17 (kume f 02-13 kunyeden ONCE: KUNYE ASIMI). Brindisi, Foggia, Reggio vb. 1860'ta devralinmis olabilir; yerlesim bazli f dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:532",
+   "alan": "s",
    "d": "italya-cumhuriyeti",
    "f": "1946-06-18",
    "t": "2000-12-31",
@@ -5998,6 +6368,30 @@
   }
  ],
  "Reggio Calabria": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:534",
+   "alan": "s",
+   "d": "italya",
+   "f": "1861-02-13",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Treccani Dizionario Biografico, 'Francesco II di Borbone' - https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/",
+   "alinti": "per la capitolazione, conclusa il 13 febbr. 1861",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-02-13, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Gaeta teslimini (Burbon direnisinin sonu) tarihliyor, Italya'ya gecisi degil; ayni madde: 7 Kasim 1860 Vittorio Emanuele Napoli'de resmen ulkeyi devraldi (plebisit 21 Ekim 1860); Messina/Civitella Mart 1861. KUNYE f=1861-03-17 (kume f 02-13 kunyeden ONCE: KUNYE ASIMI). Brindisi, Foggia, Reggio vb. 1860'ta devralinmis olabilir; yerlesim bazli f dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:534",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0476-08-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Theodosius' (Ancient History, Late Roman and Byzantine Biographies) - https://www.encyclopedia.com/people/history/ancient-history-late-roman-and-byzantine-biographies/theodosius",
+   "alinti": "At the time of his triumph in January 395, gout and death overtook Theodosius.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-roma 0395-01-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Yalniz AY duzeyi (Ocak 395); 17 Ocak gunu Britannica ipucu (403, okunamadi). Ulke duzeyi (imparatorluk bolunmesi, Honorius Bati). KARISIK: t_dagilim 409/410 Britanya-Hispanya kayiplari ve 476 farkli ama f ortak. Kunye f=kume f."
+  },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:534",
    "alan": "s",
@@ -6068,6 +6462,44 @@
   }
  ],
  "Cavnpur (Jaunpur)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:362",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Ibrahim-i Ludi' - https://islamansiklopedisi.org.tr/ibrahim-i-ludi",
+   "alinti": "İbrâhim savaş alanında öldü (8 Receb 932 / 20 Nisan 1526)",
+   "oneri": {
+    "f": "1526-04-20"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1526-04-21, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TDV Panipet savasi/Ibrahim'in olumunu 20 Nisan 1526 veriyor (hicri 8 Receb 932 aynen, cevrilmedi); TDV 'Babur' maddesi yalniz 'Nisan 1526'. Atlas 21 Nisan; TDV esastir -> 1526-04-20 onerisi. KUNYE f de 1526-04-21: kunye ayni gunle birlikte kontrol edilmeli. Delhi/Agra'nin fiilen ele gecisi ayri (muharebeden sonra); Jaunpur/Benares gibi dogu yerleri icin gun yerlesime ozgu degil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:362",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Sir Sah' - https://islamansiklopedisi.org.tr/sir-sah ; 'Suriler' - /suriler (hanedani tesis etti 947/1540)",
+   "alinti": "10 Muharrem 947’de (17 Mayıs 1540) cereyan eden Kannevc savaşında yine hezimete uğradı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sur-hanedani 1540-05-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Humayun'un Kannevc yenilgisinin gunu (Sir Sah'in Hindistan hakimiyeti); Suriler 'tesis etti (947/1540)'. Gun savas gunu, idari devir degil; hicri 10 Muharrem 947 aynen. Kunye f=kume f=1540-05-17 tutarli. KARISIK uyarisi: Benares/Jaunpur Sur'a bu gun gecmis olmayabilir (Bengal 1539-40 Sir Sah'ta)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:362",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1722-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Suriler' - https://islamansiklopedisi.org.tr/suriler",
+   "alinti": "Sirhind’de Afganlar’ı yenip Delhi’ye girdi (4 Ramazan 962 / 23 Temmuz 1555)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1555-07-23, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Humayun'un Delhi'ye giris gunu; hicri 4 Ramazan 962 aynen. KARISIK uyarisi: t_dagilim farkli (1722/1752/1788) ama f ortak; Sur'un Bengal'de 1564'e dek surdugu (TDV) icin dogu yerleri (Cavnpur, Benares) 23 Temmuz 1555'te Babur'a gecmemis olabilir - yerlesim gunu dogrulanmadi."
+  },
   {
    "dosya_satir": "data/yerlesimler_asya.js:362",
    "alan": "s",
@@ -12059,6 +12491,18 @@
   {
    "dosya_satir": "data/yerlesimler_kalite4.js:30",
    "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Celayirliler' - https://islamansiklopedisi.org.tr/celayirliler",
+   "alinti": "bağımsız bir devlet kurdu (1340)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (celayirli 1340-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin. Devletin kurulusu YIL duzeyi 1340 (kunye f=1340-01-01 tutarli). KARISIK: TDV 'Uveys 1358'de Azerbaycan ile Tebriz'i, 1364'te Musul ve Diyarbekir'i aldi' - kumedeki Sarab/Sakkiz (KB Iran) 1340'ta Celayirli degil olabilir; yerlesim bazinda f dogrulanmadi. oneri yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:30",
+   "alan": "s",
    "d": "afsar",
    "f": "1736-03-08",
    "t": "1747-06-20",
@@ -12375,6 +12819,20 @@
    "alinti": "23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tbmm-turkiye 1920-04-23, 28 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | KARAR EMRELİC (5 Kas): 23 Nisan 1920 atlas kuralı, değişmez. | Meclisin açılışı 23 Nisan 1920 teyitli. Aynı madde: hükûmet 24 Nisan'daki teklifle değil, 2 Mayıs 1920 kanununun kabulünden sonra kuruldu. Künye 'TBMM Hükümeti' f=23 Nisan meclis açılışına dayanıyor; hükûmet kuruluşu 1920-05-02 — f'yi açılış günü tutmak Emre kararı."
+  }
+ ],
+ "Şehâre": [
+  {
+   "dosya_satir": "data/yerlesimler_ok104.js:233",
+   "alan": "s",
+   "d": "yemen-cumhuriyeti",
+   "f": "1990-05-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Yemen' - https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "22 Mayıs 1990’da Kuzey Yemen’le birleşti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yemen-cumhuriyeti 1990-05-22, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin (Guney Yemen Kuzey Yemen'le birlesti). Gun duzeyi. Kunye f=kume f. Hadramut/Mukalla/Seyun Guney Yemen'den, Hudeyde Kuzey'den gecis: iki farkli onceki sahip, gun ayni."
   }
  ],
  "Kremençuk": [
@@ -14968,6 +15426,30 @@
     "not": "1919-06-28 → 1920-12-17 s: guney-afrika-birligi (künye f 1910 kapsıyor); 1920-12-17'den s: guneybati-afrika-mandasi"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1915-07-09, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): künye değişikliği gerekmez; Versay ve MC ic_not'a. (Önceki 'künye aşımı' notu geçersiz.) | KARAR EMRELİC (gece-29): Namibya işgalcisi Güney Afrika Birliği: isg guney-afrika-birligi 1915-07-09 → 1919-06-28; Versay imzası 1919-06-28'den s: guneybati-afrika-mandasi (TEK ÖLÇÜ; Fizan/Eritre emsali); MC teyidi 1920-12-17 ic_not'a. ÖLÇÜM (LAB PAZAR, origin/main devletler.js:9875): künye guneybati-afrika-mandasi f 1920-12-17 → 1919-06-28 ile KÜNYE AŞIMI (LAB SALI'ya). | sayfa.py (resmî kurum sayfası; akademik değil — Emre kabul eder mi?). Gün teyitli: 9 Temmuz 1915 Khorab teslimi. Askerî teslim; işgalci Güney Afrika Birliği (d: ingiltere değil güney-afrika?). TEK KURAL: askerî işgal -> isg; s: mandadan (1920-12-17 t ile uyumlu). Künye f=0927 aşım yok. Küme alanı s: yerine isg olmalı mı karar Emre'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1835",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: gov.za Recognition of Independence of Namibia Act 34/1990 (sayfa.py); ICJ 1950 gorusu (403); UN/LoC URL'leri 404/403; ia-ara bos",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (guneybati-afrika-mandasi 1920-12-17, 6 satır); yalnız gün ve devlet teyitli. Okunmus kaynakta 17 Aralik 1920 Konsey tarihi bulunamadi (yalniz arama ozeti: 'Konsey 17.12.1920' - ipucu, okunmadi). Kunye f=kume f tutarli. t ucu (1990-03-21) bu kume disi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1835",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Republic of South Africa, Recognition of the Independence of Namibia Act 34 of 1990, md.4 - https://www.gov.za/documents/acts/recognition-independence-namibia-act-34-1990-20-mar-1990",
+   "alinti": "shall come into operation on 21 March 1990",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (namibya 1990-03-21, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Resmi kanun (birincil, bagimsizligi taniyan yasa) bagimsizlik gunu 21 Mart 1990. Kunye f=kume f. Not: Walvis Bay 1994'e dek SA'da kaldi (arama ozeti) - kume 6 yerlesimi (Rundu, Windhoek...) etkilenmez. t=2000-12-31 tavan, kunye t=null tutarli."
   }
  ],
  "Grutfontein": [
@@ -14987,6 +15469,30 @@
     "not": "1919-06-28 → 1920-12-17 s: guney-afrika-birligi (künye f 1910 kapsıyor); 1920-12-17'den s: guneybati-afrika-mandasi"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1915-07-09, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): künye değişikliği gerekmez; Versay ve MC ic_not'a. (Önceki 'künye aşımı' notu geçersiz.) | KARAR EMRELİC (gece-29): Namibya işgalcisi Güney Afrika Birliği: isg guney-afrika-birligi 1915-07-09 → 1919-06-28; Versay imzası 1919-06-28'den s: guneybati-afrika-mandasi (TEK ÖLÇÜ; Fizan/Eritre emsali); MC teyidi 1920-12-17 ic_not'a. ÖLÇÜM (LAB PAZAR, origin/main devletler.js:9875): künye guneybati-afrika-mandasi f 1920-12-17 → 1919-06-28 ile KÜNYE AŞIMI (LAB SALI'ya). | sayfa.py (resmî kurum sayfası; akademik değil — Emre kabul eder mi?). Gün teyitli: 9 Temmuz 1915 Khorab teslimi. Askerî teslim; işgalci Güney Afrika Birliği (d: ingiltere değil güney-afrika?). TEK KURAL: askerî işgal -> isg; s: mandadan (1920-12-17 t ile uyumlu). Künye f=0927 aşım yok. Küme alanı s: yerine isg olmalı mı karar Emre'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1896",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: gov.za Recognition of Independence of Namibia Act 34/1990 (sayfa.py); ICJ 1950 gorusu (403); UN/LoC URL'leri 404/403; ia-ara bos",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (guneybati-afrika-mandasi 1920-12-17, 6 satır); yalnız gün ve devlet teyitli. Okunmus kaynakta 17 Aralik 1920 Konsey tarihi bulunamadi (yalniz arama ozeti: 'Konsey 17.12.1920' - ipucu, okunmadi). Kunye f=kume f tutarli. t ucu (1990-03-21) bu kume disi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1896",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Republic of South Africa, Recognition of the Independence of Namibia Act 34 of 1990, md.4 - https://www.gov.za/documents/acts/recognition-independence-namibia-act-34-1990-20-mar-1990",
+   "alinti": "shall come into operation on 21 March 1990",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (namibya 1990-03-21, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Resmi kanun (birincil, bagimsizligi taniyan yasa) bagimsizlik gunu 21 Mart 1990. Kunye f=kume f. Not: Walvis Bay 1994'e dek SA'da kaldi (arama ozeti) - kume 6 yerlesimi (Rundu, Windhoek...) etkilenmez. t=2000-12-31 tavan, kunye t=null tutarli."
   }
  ],
  "Otjimbingve": [
@@ -15006,6 +15512,30 @@
     "not": "1919-06-28 → 1920-12-17 s: guney-afrika-birligi (künye f 1910 kapsıyor); 1920-12-17'den s: guneybati-afrika-mandasi"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1915-07-09, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): künye değişikliği gerekmez; Versay ve MC ic_not'a. (Önceki 'künye aşımı' notu geçersiz.) | KARAR EMRELİC (gece-29): Namibya işgalcisi Güney Afrika Birliği: isg guney-afrika-birligi 1915-07-09 → 1919-06-28; Versay imzası 1919-06-28'den s: guneybati-afrika-mandasi (TEK ÖLÇÜ; Fizan/Eritre emsali); MC teyidi 1920-12-17 ic_not'a. ÖLÇÜM (LAB PAZAR, origin/main devletler.js:9875): künye guneybati-afrika-mandasi f 1920-12-17 → 1919-06-28 ile KÜNYE AŞIMI (LAB SALI'ya). | sayfa.py (resmî kurum sayfası; akademik değil — Emre kabul eder mi?). Gün teyitli: 9 Temmuz 1915 Khorab teslimi. Askerî teslim; işgalci Güney Afrika Birliği (d: ingiltere değil güney-afrika?). TEK KURAL: askerî işgal -> isg; s: mandadan (1920-12-17 t ile uyumlu). Künye f=0927 aşım yok. Küme alanı s: yerine isg olmalı mı karar Emre'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1994",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: gov.za Recognition of Independence of Namibia Act 34/1990 (sayfa.py); ICJ 1950 gorusu (403); UN/LoC URL'leri 404/403; ia-ara bos",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (guneybati-afrika-mandasi 1920-12-17, 6 satır); yalnız gün ve devlet teyitli. Okunmus kaynakta 17 Aralik 1920 Konsey tarihi bulunamadi (yalniz arama ozeti: 'Konsey 17.12.1920' - ipucu, okunmadi). Kunye f=kume f tutarli. t ucu (1990-03-21) bu kume disi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1994",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Republic of South Africa, Recognition of the Independence of Namibia Act 34 of 1990, md.4 - https://www.gov.za/documents/acts/recognition-independence-namibia-act-34-1990-20-mar-1990",
+   "alinti": "shall come into operation on 21 March 1990",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (namibya 1990-03-21, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Resmi kanun (birincil, bagimsizligi taniyan yasa) bagimsizlik gunu 21 Mart 1990. Kunye f=kume f. Not: Walvis Bay 1994'e dek SA'da kaldi (arama ozeti) - kume 6 yerlesimi (Rundu, Windhoek...) etkilenmez. t=2000-12-31 tavan, kunye t=null tutarli."
   }
  ],
  "Vindhuk (Windhoek)": [
@@ -15025,6 +15555,30 @@
     "not": "1919-06-28 → 1920-12-17 s: guney-afrika-birligi (künye f 1910 kapsıyor); 1920-12-17'den s: guneybati-afrika-mandasi"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1915-07-09, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): künye değişikliği gerekmez; Versay ve MC ic_not'a. (Önceki 'künye aşımı' notu geçersiz.) | KARAR EMRELİC (gece-29): Namibya işgalcisi Güney Afrika Birliği: isg guney-afrika-birligi 1915-07-09 → 1919-06-28; Versay imzası 1919-06-28'den s: guneybati-afrika-mandasi (TEK ÖLÇÜ; Fizan/Eritre emsali); MC teyidi 1920-12-17 ic_not'a. ÖLÇÜM (LAB PAZAR, origin/main devletler.js:9875): künye guneybati-afrika-mandasi f 1920-12-17 → 1919-06-28 ile KÜNYE AŞIMI (LAB SALI'ya). | sayfa.py (resmî kurum sayfası; akademik değil — Emre kabul eder mi?). Gün teyitli: 9 Temmuz 1915 Khorab teslimi. Askerî teslim; işgalci Güney Afrika Birliği (d: ingiltere değil güney-afrika?). TEK KURAL: askerî işgal -> isg; s: mandadan (1920-12-17 t ile uyumlu). Künye f=0927 aşım yok. Küme alanı s: yerine isg olmalı mı karar Emre'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2030",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: gov.za Recognition of Independence of Namibia Act 34/1990 (sayfa.py); ICJ 1950 gorusu (403); UN/LoC URL'leri 404/403; ia-ara bos",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (guneybati-afrika-mandasi 1920-12-17, 6 satır); yalnız gün ve devlet teyitli. Okunmus kaynakta 17 Aralik 1920 Konsey tarihi bulunamadi (yalniz arama ozeti: 'Konsey 17.12.1920' - ipucu, okunmadi). Kunye f=kume f tutarli. t ucu (1990-03-21) bu kume disi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2030",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Republic of South Africa, Recognition of the Independence of Namibia Act 34 of 1990, md.4 - https://www.gov.za/documents/acts/recognition-independence-namibia-act-34-1990-20-mar-1990",
+   "alinti": "shall come into operation on 21 March 1990",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (namibya 1990-03-21, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Resmi kanun (birincil, bagimsizligi taniyan yasa) bagimsizlik gunu 21 Mart 1990. Kunye f=kume f. Not: Walvis Bay 1994'e dek SA'da kaldi (arama ozeti) - kume 6 yerlesimi (Rundu, Windhoek...) etkilenmez. t=2000-12-31 tavan, kunye t=null tutarli."
   }
  ],
  "Rehoboth": [
@@ -15044,6 +15598,30 @@
     "not": "1919-06-28 → 1920-12-17 s: guney-afrika-birligi (künye f 1910 kapsıyor); 1920-12-17'den s: guneybati-afrika-mandasi"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1915-07-09, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): künye değişikliği gerekmez; Versay ve MC ic_not'a. (Önceki 'künye aşımı' notu geçersiz.) | KARAR EMRELİC (gece-29): Namibya işgalcisi Güney Afrika Birliği: isg guney-afrika-birligi 1915-07-09 → 1919-06-28; Versay imzası 1919-06-28'den s: guneybati-afrika-mandasi (TEK ÖLÇÜ; Fizan/Eritre emsali); MC teyidi 1920-12-17 ic_not'a. ÖLÇÜM (LAB PAZAR, origin/main devletler.js:9875): künye guneybati-afrika-mandasi f 1920-12-17 → 1919-06-28 ile KÜNYE AŞIMI (LAB SALI'ya). | sayfa.py (resmî kurum sayfası; akademik değil — Emre kabul eder mi?). Gün teyitli: 9 Temmuz 1915 Khorab teslimi. Askerî teslim; işgalci Güney Afrika Birliği (d: ingiltere değil güney-afrika?). TEK KURAL: askerî işgal -> isg; s: mandadan (1920-12-17 t ile uyumlu). Künye f=0927 aşım yok. Küme alanı s: yerine isg olmalı mı karar Emre'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2060",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: gov.za Recognition of Independence of Namibia Act 34/1990 (sayfa.py); ICJ 1950 gorusu (403); UN/LoC URL'leri 404/403; ia-ara bos",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (guneybati-afrika-mandasi 1920-12-17, 6 satır); yalnız gün ve devlet teyitli. Okunmus kaynakta 17 Aralik 1920 Konsey tarihi bulunamadi (yalniz arama ozeti: 'Konsey 17.12.1920' - ipucu, okunmadi). Kunye f=kume f tutarli. t ucu (1990-03-21) bu kume disi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2060",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Republic of South Africa, Recognition of the Independence of Namibia Act 34 of 1990, md.4 - https://www.gov.za/documents/acts/recognition-independence-namibia-act-34-1990-20-mar-1990",
+   "alinti": "shall come into operation on 21 March 1990",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (namibya 1990-03-21, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Resmi kanun (birincil, bagimsizligi taniyan yasa) bagimsizlik gunu 21 Mart 1990. Kunye f=kume f. Not: Walvis Bay 1994'e dek SA'da kaldi (arama ozeti) - kume 6 yerlesimi (Rundu, Windhoek...) etkilenmez. t=2000-12-31 tavan, kunye t=null tutarli."
   }
  ],
  "Tolanaro (Fort Dauphin)": [
@@ -15091,6 +15669,30 @@
     "not": "1919-06-28 → 1920-12-17 s: guney-afrika-birligi (künye f 1910 kapsıyor); 1920-12-17'den s: guneybati-afrika-mandasi"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1915-07-09, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): künye değişikliği gerekmez; Versay ve MC ic_not'a. (Önceki 'künye aşımı' notu geçersiz.) | KARAR EMRELİC (gece-29): Namibya işgalcisi Güney Afrika Birliği: isg guney-afrika-birligi 1915-07-09 → 1919-06-28; Versay imzası 1919-06-28'den s: guneybati-afrika-mandasi (TEK ÖLÇÜ; Fizan/Eritre emsali); MC teyidi 1920-12-17 ic_not'a. ÖLÇÜM (LAB PAZAR, origin/main devletler.js:9875): künye guneybati-afrika-mandasi f 1920-12-17 → 1919-06-28 ile KÜNYE AŞIMI (LAB SALI'ya). | sayfa.py (resmî kurum sayfası; akademik değil — Emre kabul eder mi?). Gün teyitli: 9 Temmuz 1915 Khorab teslimi. Askerî teslim; işgalci Güney Afrika Birliği (d: ingiltere değil güney-afrika?). TEK KURAL: askerî işgal -> isg; s: mandadan (1920-12-17 t ile uyumlu). Künye f=0927 aşım yok. Küme alanı s: yerine isg olmalı mı karar Emre'de."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2170",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: gov.za Recognition of Independence of Namibia Act 34/1990 (sayfa.py); ICJ 1950 gorusu (403); UN/LoC URL'leri 404/403; ia-ara bos",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (guneybati-afrika-mandasi 1920-12-17, 6 satır); yalnız gün ve devlet teyitli. Okunmus kaynakta 17 Aralik 1920 Konsey tarihi bulunamadi (yalniz arama ozeti: 'Konsey 17.12.1920' - ipucu, okunmadi). Kunye f=kume f tutarli. t ucu (1990-03-21) bu kume disi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2170",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Republic of South Africa, Recognition of the Independence of Namibia Act 34 of 1990, md.4 - https://www.gov.za/documents/acts/recognition-independence-namibia-act-34-1990-20-mar-1990",
+   "alinti": "shall come into operation on 21 March 1990",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (namibya 1990-03-21, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Resmi kanun (birincil, bagimsizligi taniyan yasa) bagimsizlik gunu 21 Mart 1990. Kunye f=kume f. Not: Walvis Bay 1994'e dek SA'da kaldi (arama ozeti) - kume 6 yerlesimi (Rundu, Windhoek...) etkilenmez. t=2000-12-31 tavan, kunye t=null tutarli."
   }
  ],
  "Diamantina (Arraial do Tijuco)": [
@@ -15209,6 +15811,20 @@
    "alinti": "Союз ССР как государство и субъект международного права прекращает свое существование.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya-federasyonu 1991-12-26, 94 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (5 Kas): 142-N 1991-12-26 birincil metin (devamcı devlet kuralı); history.state.gov 12-25 Gorbaçov istifası ic_not'a. | Sayfa 26 Aralik vermiyor; 25 Aralik (bayrak, Gorbacov istifasi) ayri olay. Devamcilik cumlesi de yok. 1991-12-26 (142-N) icin kaynak BULUNAMADI; Kremlin/Duma/BM yazismasi bakilmadi. Kunye f = kume f tutarli. ULKE DUZEYI, 94 yerlesim tek olay."
+  }
+ ],
+ "Seyûn (Sayvan)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_ortadogu_0917.js:48",
+   "alan": "s",
+   "d": "yemen-cumhuriyeti",
+   "f": "1990-05-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Yemen' - https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "22 Mayıs 1990’da Kuzey Yemen’le birleşti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yemen-cumhuriyeti 1990-05-22, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin (Guney Yemen Kuzey Yemen'le birlesti). Gun duzeyi. Kunye f=kume f. Hadramut/Mukalla/Seyun Guney Yemen'den, Hudeyde Kuzey'den gecis: iki farkli onceki sahip, gun ayni."
   }
  ],
  "Kazakevičevo (Kazakevičeva stanitsası)": [
@@ -15625,6 +16241,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya-federasyonu 1991-12-26, 94 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (5 Kas): 142-N 1991-12-26 birincil metin (devamcı devlet kuralı); history.state.gov 12-25 Gorbaçov istifası ic_not'a. | Sayfa 26 Aralik vermiyor; 25 Aralik (bayrak, Gorbacov istifasi) ayri olay. Devamcilik cumlesi de yok. 1991-12-26 (142-N) icin kaynak BULUNAMADI; Kremlin/Duma/BM yazismasi bakilmadi. Kunye f = kume f tutarli. ULKE DUZEYI, 94 yerlesim tek olay."
   }
  ],
+ "Feldkirch": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:92",
+   "alan": "s",
+   "d": "avusturya-cumhuriyet",
+   "f": "1918-11-12",
+   "t": "1938-03-13",
+   "hukum": "ONERI",
+   "kaynak": "Austrian National Library / ww1.habsburger.net, 'The First Republic in the historical memory' - https://ww1.habsburger.net/en/developments/first-republic-historical-memory",
+   "alinti": "The Republic of German Austria was proclaimed on 12 November 1918",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya-cumhuriyet 1918-11-12, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; kurumsal portal (ONB) - kalite siniri, akademik teyit onerilir, bu yuzden ONERI(degisiklik yok). Ilan edilen devlet 'Deutschösterreich'; Saint-Germain ile 'Österreich' adi (kunye adi Avusturya Cumhuriyeti). Klagenfurt/Villach (Karintiya, 1918-19 yugoslav isgali ve Ekim 1920 plebisit) icin 12 Kasim gunu fiilî idare icin dogrulanmadi."
+  }
+ ],
  "Béziers": [
   {
    "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:44",
@@ -15845,6 +16475,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya 1871-01-18, 6 satır); yalnız gün ve devlet teyitli. sayfa.py. Gün teyitli. Künye adı 'Almanya (Kutsal Roma 962-1806)' ile f=962 ama dönem 1871 Alman İmparatorluğu — künye adı/tarih tutarsızlığı (künye f 962, t 1945). Not: Breslau, Gleiwitz, Köln... Prusya idi, imparatorluk ÜLKE DÜZEYİ başlangıcı 1871-01-18."
   }
  ],
+ "Hadramut": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1418",
+   "alan": "s",
+   "d": "yemen-cumhuriyeti",
+   "f": "1990-05-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Yemen' - https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "22 Mayıs 1990’da Kuzey Yemen’le birleşti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yemen-cumhuriyeti 1990-05-22, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin (Guney Yemen Kuzey Yemen'le birlesti). Gun duzeyi. Kunye f=kume f. Hadramut/Mukalla/Seyun Guney Yemen'den, Hudeyde Kuzey'den gecis: iki farkli onceki sahip, gun ayni."
+  }
+ ],
  "Sina güneyi": [
   {
    "dosya_satir": "data/yerlesimler.js:1426",
@@ -15905,6 +16549,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:2050",
    "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Celayirliler' - https://islamansiklopedisi.org.tr/celayirliler",
+   "alinti": "bağımsız bir devlet kurdu (1340)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (celayirli 1340-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin. Devletin kurulusu YIL duzeyi 1340 (kunye f=1340-01-01 tutarli). KARISIK: TDV 'Uveys 1358'de Azerbaycan ile Tebriz'i, 1364'te Musul ve Diyarbekir'i aldi' - kumedeki Sarab/Sakkiz (KB Iran) 1340'ta Celayirli degil olabilir; yerlesim bazinda f dogrulanmadi. oneri yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2050",
+   "alan": "s",
    "d": "afsar",
    "f": "1736-03-08",
    "t": "1747-06-20",
@@ -15944,6 +16600,18 @@
   }
  ],
  "Sakkız": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2055",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1386-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Celayirliler' - https://islamansiklopedisi.org.tr/celayirliler",
+   "alinti": "bağımsız bir devlet kurdu (1340)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (celayirli 1340-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin. Devletin kurulusu YIL duzeyi 1340 (kunye f=1340-01-01 tutarli). KARISIK: TDV 'Uveys 1358'de Azerbaycan ile Tebriz'i, 1364'te Musul ve Diyarbekir'i aldi' - kumedeki Sarab/Sakkiz (KB Iran) 1340'ta Celayirli degil olabilir; yerlesim bazinda f dogrulanmadi. oneri yok."
+  },
   {
    "dosya_satir": "data/yerlesimler.js:2055",
    "alan": "s",
@@ -16851,6 +17519,44 @@
   {
    "dosya_satir": "data/yerlesimler_asya.js:259",
    "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Ibrahim-i Ludi' - https://islamansiklopedisi.org.tr/ibrahim-i-ludi",
+   "alinti": "İbrâhim savaş alanında öldü (8 Receb 932 / 20 Nisan 1526)",
+   "oneri": {
+    "f": "1526-04-20"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1526-04-21, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TDV Panipet savasi/Ibrahim'in olumunu 20 Nisan 1526 veriyor (hicri 8 Receb 932 aynen, cevrilmedi); TDV 'Babur' maddesi yalniz 'Nisan 1526'. Atlas 21 Nisan; TDV esastir -> 1526-04-20 onerisi. KUNYE f de 1526-04-21: kunye ayni gunle birlikte kontrol edilmeli. Delhi/Agra'nin fiilen ele gecisi ayri (muharebeden sonra); Jaunpur/Benares gibi dogu yerleri icin gun yerlesime ozgu degil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:259",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Sir Sah' - https://islamansiklopedisi.org.tr/sir-sah ; 'Suriler' - /suriler (hanedani tesis etti 947/1540)",
+   "alinti": "10 Muharrem 947’de (17 Mayıs 1540) cereyan eden Kannevc savaşında yine hezimete uğradı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sur-hanedani 1540-05-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Humayun'un Kannevc yenilgisinin gunu (Sir Sah'in Hindistan hakimiyeti); Suriler 'tesis etti (947/1540)'. Gun savas gunu, idari devir degil; hicri 10 Muharrem 947 aynen. Kunye f=kume f=1540-05-17 tutarli. KARISIK uyarisi: Benares/Jaunpur Sur'a bu gun gecmis olmayabilir (Bengal 1539-40 Sir Sah'ta)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:259",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1788-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Suriler' - https://islamansiklopedisi.org.tr/suriler",
+   "alinti": "Sirhind’de Afganlar’ı yenip Delhi’ye girdi (4 Ramazan 962 / 23 Temmuz 1555)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1555-07-23, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Humayun'un Delhi'ye giris gunu; hicri 4 Ramazan 962 aynen. KARISIK uyarisi: t_dagilim farkli (1722/1752/1788) ama f ortak; Sur'un Bengal'de 1564'e dek surdugu (TDV) icin dogu yerleri (Cavnpur, Benares) 23 Temmuz 1555'te Babur'a gecmemis olabilir - yerlesim gunu dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:259",
+   "alan": "s",
    "d": "hindistan-cumhuriyeti",
    "f": "1947-08-15",
    "t": "2000-12-31",
@@ -16862,6 +17568,44 @@
   }
  ],
  "Benâres (Vârânasî)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:374",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Ibrahim-i Ludi' - https://islamansiklopedisi.org.tr/ibrahim-i-ludi",
+   "alinti": "İbrâhim savaş alanında öldü (8 Receb 932 / 20 Nisan 1526)",
+   "oneri": {
+    "f": "1526-04-20"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1526-04-21, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TDV Panipet savasi/Ibrahim'in olumunu 20 Nisan 1526 veriyor (hicri 8 Receb 932 aynen, cevrilmedi); TDV 'Babur' maddesi yalniz 'Nisan 1526'. Atlas 21 Nisan; TDV esastir -> 1526-04-20 onerisi. KUNYE f de 1526-04-21: kunye ayni gunle birlikte kontrol edilmeli. Delhi/Agra'nin fiilen ele gecisi ayri (muharebeden sonra); Jaunpur/Benares gibi dogu yerleri icin gun yerlesime ozgu degil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:374",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Sir Sah' - https://islamansiklopedisi.org.tr/sir-sah ; 'Suriler' - /suriler (hanedani tesis etti 947/1540)",
+   "alinti": "10 Muharrem 947’de (17 Mayıs 1540) cereyan eden Kannevc savaşında yine hezimete uğradı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sur-hanedani 1540-05-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Alinti Humayun'un Kannevc yenilgisinin gunu (Sir Sah'in Hindistan hakimiyeti); Suriler 'tesis etti (947/1540)'. Gun savas gunu, idari devir degil; hicri 10 Muharrem 947 aynen. Kunye f=kume f=1540-05-17 tutarli. KARISIK uyarisi: Benares/Jaunpur Sur'a bu gun gecmis olmayabilir (Bengal 1539-40 Sir Sah'ta)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:374",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1722-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Suriler' - https://islamansiklopedisi.org.tr/suriler",
+   "alinti": "Sirhind’de Afganlar’ı yenip Delhi’ye girdi (4 Ramazan 962 / 23 Temmuz 1555)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (babur-imparatorlugu 1555-07-23, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Humayun'un Delhi'ye giris gunu; hicri 4 Ramazan 962 aynen. KARISIK uyarisi: t_dagilim farkli (1722/1752/1788) ama f ortak; Sur'un Bengal'de 1564'e dek surdugu (TDV) icin dogu yerleri (Cavnpur, Benares) 23 Temmuz 1555'te Babur'a gecmemis olabilir - yerlesim gunu dogrulanmadi."
+  },
   {
    "dosya_satir": "data/yerlesimler_asya.js:374",
    "alan": "s",
@@ -16887,6 +17631,20 @@
    "alinti": "As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hindistan-cumhuriyeti 1947-08-15, 21 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | ÜLKE DÜZEYİ. Resmî mevzuat. Künye 'Dominyon 1947; Cumhuriyet 1950-01-26' - künye f doğru. Bilinen istisna: 1947-08-15'te Hindistan'a katılmamış prenslik devletleri (Haydarabad 1948-09, Cunagadh 1947-11, Keşmir 1947-10-26, Fransız/Portekiz kolonileri Pondicherry/Goa) ve Pakistan'a giden Pencap/Bengal bölgeleri."
+  }
+ ],
+ "Uliastay": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2839",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
+   "alinti": "was proclaimed on 26 November 1924",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan-halk-cumhuriyeti 1924-11-26, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin ('The Mongolian People's Republic (MPR) ... was proclaimed on 26 November 1924'). ULKE DUZEYI. Ayni sitedeki baska madde 25 Kasim 1924 veriyor (arama ozeti, okunmadi) - cift kaynak celismesi olabilir. Kunye f=kume f."
   }
  ],
  "Banda Açe": [
@@ -17009,6 +17767,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kuzey-yuan 1368-09-14, 8 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — tek gün birden çok olayı kapsıyor ya da künye f ile tutarsız; YERLEŞİM izine verildi (LAB PAZAR). | Ming takvimi: Hongwu 1. yil 8. ay (Moğol cekilisi, 1368-09-14) Mingshi KAYIT gunu; Academia Sinica ile EMRELIC'te cevrilecek. KUME KARISIK: t_dagilim 1382 (Yunnan Ming fethi, 3 farkli gun), 1636, 1691: ayri olaylar. Aranmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:135",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
+   "alinti": "was proclaimed on 26 November 1924",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan-halk-cumhuriyeti 1924-11-26, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin ('The Mongolian People's Republic (MPR) ... was proclaimed on 26 November 1924'). ULKE DUZEYI. Ayni sitedeki baska madde 25 Kasim 1924 veriyor (arama ozeti, okunmadi) - cift kaynak celismesi olabilir. Kunye f=kume f."
   }
  ],
  "Dariganga": [
@@ -17023,6 +17793,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kuzey-yuan 1368-09-14, 8 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — tek gün birden çok olayı kapsıyor ya da künye f ile tutarsız; YERLEŞİM izine verildi (LAB PAZAR). | Ming takvimi: Hongwu 1. yil 8. ay (Moğol cekilisi, 1368-09-14) Mingshi KAYIT gunu; Academia Sinica ile EMRELIC'te cevrilecek. KUME KARISIK: t_dagilim 1382 (Yunnan Ming fethi, 3 farkli gun), 1636, 1691: ayri olaylar. Aranmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek19.js:149",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
+   "alinti": "was proclaimed on 26 November 1924",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan-halk-cumhuriyeti 1924-11-26, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin ('The Mongolian People's Republic (MPR) ... was proclaimed on 26 November 1924'). ULKE DUZEYI. Ayni sitedeki baska madde 25 Kasim 1924 veriyor (arama ozeti, okunmadi) - cift kaynak celismesi olabilir. Kunye f=kume f."
   }
  ],
  "Gobi-Altay (Yösönbulag)": [
@@ -17037,6 +17819,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kuzey-yuan 1368-09-14, 8 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — tek gün birden çok olayı kapsıyor ya da künye f ile tutarsız; YERLEŞİM izine verildi (LAB PAZAR). | Ming takvimi: Hongwu 1. yil 8. ay (Moğol cekilisi, 1368-09-14) Mingshi KAYIT gunu; Academia Sinica ile EMRELIC'te cevrilecek. KUME KARISIK: t_dagilim 1382 (Yunnan Ming fethi, 3 farkli gun), 1636, 1691: ayri olaylar. Aranmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek21.js:117",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
+   "alinti": "was proclaimed on 26 November 1924",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan-halk-cumhuriyeti 1924-11-26, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin ('The Mongolian People's Republic (MPR) ... was proclaimed on 26 November 1924'). ULKE DUZEYI. Ayni sitedeki baska madde 25 Kasim 1924 veriyor (arama ozeti, okunmadi) - cift kaynak celismesi olabilir. Kunye f=kume f."
   }
  ],
  "Floci (Târgu de Floci)": [
@@ -17205,6 +17999,46 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bolivya-cumhuriyeti 1825-08-06, 9 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Gun duzeyinde ilan teyitli. ULKE DUZEYI; Mojos/Chiquitos gibi yerlerde fiili idare ayri olabilir. Kunye f=kume f."
   }
  ],
+ "Mérida (Venezuela)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:604",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Carabobo, Battle of' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/carabobo-battle",
+   "alinti": "On the morning of 24 June 1821 the patriots, under the command of Simón Bolívar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (gran-kolombiya 1821-06-24, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. ULKE DUZEYI: Carabobo Venezuela'nin kurtulusunun son buyuk muharebesi; Gran Colombia ayni sayfada Cucuta 1821 anayasasi/Angostura Aralik 1819 ile (encyclopedia.com 'Gran Colombia'). KUNYE f 1819-12-17 kume f 1821-06-24'ten ONCE: tutarli (donem kunye icinde) ama yerlesim bazinda Merida/Caracas gibi yerlerin gecis gunu ayri olabilir - gun yerlesime ozgu dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:604",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Venezuela, Congresses of 1811, 1830, and 1864' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/venezuela-congresses-1811-1830-and-1864",
+   "alinti": "Constituent Congress of Venezuela convened in Valencia from 6 May to 14 October 1830",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (venezuela-cumhuriyeti 1830-01-13, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti BASKA olayi tarihliyor (Valencia Kurucu Kongresi 6 Mayis-14 Ekim 1830); 13 Ocak 1830 (Jefe Superior kararnamesi, Anales de Venezuela) yalniz arama ozeti - okunmadi. Gun degisikligi onerilmiyor; f=1830-01-13 teyitsiz, yil (1830) teyitli. Kunye f=kume f."
+  }
+ ],
+ "Seneca (Ganondagan)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:795",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. National Archives, Milestone Documents: Treaty of Paris (1783) - https://www.archives.gov/milestone-documents/treaty-of-paris",
+   "alinti": "This treaty, signed on September 3, 1783, between the American colonies and Great Britain",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1783-09-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TEK OLCU: imza gunu. Rapor: KARISIK olabilir - Hartford, Wilmington (K.Karolayna), Pemaquid 1776'dan beri eyalet topragi; kunye f=1776-07-04. Kume f'nin neden 1783-09-03 oldugu (onceki donemin sahibi) belirsiz; Vincennes/Seneca (Northwest/Iroquois) icin imza gunu anlamli."
+  }
+ ],
  "Montreal (Ville-Marie)": [
   {
    "dosya_satir": "data/yerlesimler_amerika.js:895",
@@ -17263,6 +18097,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1898-12-10, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): Küba kararı. KAYNAK (LAB PAZAR sayfa.py, history.state.gov/countries/cuba): 'the Republic of Cuba was formally installed on May 19, 1902. On May 20, 1902, the United States [ended] its occupation authority' — künye f 05-19 kaynakla uyumlu; ABD işgal yetkisinin devri 05-20 (TEK ÖLÇÜ teslim günü?) — EMRELİC'e. | KARAR EMRELİC (gece-29): Paris 1898-12-10 İspanya feragati, ABD'ye devir yok (Küba). ÖLÇÜM (LAB PAZAR): ABD askerî hükûmeti künyesi YOK; kuba-cumhuriyeti künye f 1902-05-19 (EMRELİC 05-20 — bir gün fark, kaynakla). 1898-12-10 → 1902 arası alttaki s: (ispanyol-kuba t 1898-12-10) boş kalıyor — EMRELİC'e soru. | Paris 1898 Küba'yı devretmedi (history.state.gov) → Küba yerleşimlerinde isg abd (TEK KURAL), s: abd yalnız Porto Riko/Guam. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. KARIŞIK: Paris Antlaşması imza 1898-12-10 (kaynakta 'signed the Treaty of Paris on December 10, 1898'). Puerto Rico (San Juan) bu günde ABD'ye devredildi: KAYNAKLI (s:abd 1898-12-10, TEK ÖLÇÜ imza günü; yürürlük 1899-04-11). Küba (Baracoa, Santiago, Havana, Cienfuegos, Santa Clara) DEVREDİLMEDİ — kaynak 'guaranteeing the independence of Cuba'; ABD yönetimi askerî işgaldir -> isg abd (1899-01-01'den, kaynakla okunmadı) ve s: abd olmamalı; Küba bağımsızlığı 1902-05-20 (t_dagilim). TEK KURAL (işgal=isg). Künye f=1776-07-04 aşım yok."
   }
  ],
+ "Mendoza": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1264",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Buenos Aires' - https://www.encyclopedia.com/places/latin-america-and-caribbean/south-american-political-geography/buenos-aires",
+   "alinti": "the surrounding provinces did not follow suit until 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1810-05-25, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti 25 Mayis 1810'u YALNIZ Buenos Aires icin tarihliyor ('began in the city of Buenos Aires on May 25, 1810'); taşra illeri (Mendoza, La Rioja, Rio Cuarto, Belen...) 1816'ya dek katilmadi. Bu kumedeki taşra yerlesimlerinde f=1810-05-25 sorgulanmali; gun onerisi yok (1816 bagimsizlik ilani gun vermiyor). Kunye f=1810-05-25 = Mayis Devrimi (ulke duzeyi)."
+  }
+ ],
  "Iquique": [
   {
    "dosya_satir": "data/yerlesimler_amerika.js:1298",
@@ -17275,6 +18123,32 @@
    "alinti": "This battle in the remote southern highlands effectively ended the long era of Spanish colonial rule",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (peru-cumhuriyeti 1824-12-09, 11 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | LoC ayna metni Ayacucho'yu yıl/ay düzeyinde veriyor, 9. gün okunmadı; 28 Temmuz 1821 San Martín ilanı ayrı. Küme f=1824-12-09 Ayacucho'yu tarihliyor (bağımsızlık ilanını değil). KARIŞIK: t dağılımı 1879-11-02 (Iquique, Pasifik Savaşı), 1861, 1884 içeriyor; Borja/Jeberos/Sarayacu gibi Amazon yerleşimlerinde fiilî Peru idaresi sorusu var."
+  }
+ ],
+ "Valencia (Venezuela)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1332",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Carabobo, Battle of' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/carabobo-battle",
+   "alinti": "On the morning of 24 June 1821 the patriots, under the command of Simón Bolívar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (gran-kolombiya 1821-06-24, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. ULKE DUZEYI: Carabobo Venezuela'nin kurtulusunun son buyuk muharebesi; Gran Colombia ayni sayfada Cucuta 1821 anayasasi/Angostura Aralik 1819 ile (encyclopedia.com 'Gran Colombia'). KUNYE f 1819-12-17 kume f 1821-06-24'ten ONCE: tutarli (donem kunye icinde) ama yerlesim bazinda Merida/Caracas gibi yerlerin gecis gunu ayri olabilir - gun yerlesime ozgu dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1332",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Venezuela, Congresses of 1811, 1830, and 1864' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/venezuela-congresses-1811-1830-and-1864",
+   "alinti": "Constituent Congress of Venezuela convened in Valencia from 6 May to 14 October 1830",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (venezuela-cumhuriyeti 1830-01-13, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti BASKA olayi tarihliyor (Valencia Kurucu Kongresi 6 Mayis-14 Ekim 1830); 13 Ocak 1830 (Jefe Superior kararnamesi, Anales de Venezuela) yalniz arama ozeti - okunmadi. Gun degisikligi onerilmiyor; f=1830-01-13 teyitsiz, yil (1830) teyitli. Kunye f=kume f."
   }
  ],
  "Abrî (Mahas)": [
@@ -17931,6 +18805,18 @@
   {
    "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:69",
    "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske / lex.dk, 'West Indies Federation' (Per Nielsen, cand.mag. historie) - https://lex.dk/West_Indies_Federation",
+   "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:69",
+   "alan": "s",
    "d": "__BOSLUK__",
    "f": "1000-01-01",
    "t": "1814-05-30",
@@ -18179,6 +19065,32 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avustralya 1901-01-01, 24 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Künye f=1901-01-01 tutarlı. (Proclamation 17 Eylül 1900 tarihli, yürürlük günü 1 Ocak 1901.)"
   }
  ],
+ "Nuestra Señora de Caraballeda": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:53",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Carabobo, Battle of' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/carabobo-battle",
+   "alinti": "On the morning of 24 June 1821 the patriots, under the command of Simón Bolívar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (gran-kolombiya 1821-06-24, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. ULKE DUZEYI: Carabobo Venezuela'nin kurtulusunun son buyuk muharebesi; Gran Colombia ayni sayfada Cucuta 1821 anayasasi/Angostura Aralik 1819 ile (encyclopedia.com 'Gran Colombia'). KUNYE f 1819-12-17 kume f 1821-06-24'ten ONCE: tutarli (donem kunye icinde) ama yerlesim bazinda Merida/Caracas gibi yerlerin gecis gunu ayri olabilir - gun yerlesime ozgu dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:53",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Venezuela, Congresses of 1811, 1830, and 1864' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/venezuela-congresses-1811-1830-and-1864",
+   "alinti": "Constituent Congress of Venezuela convened in Valencia from 6 May to 14 October 1830",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (venezuela-cumhuriyeti 1830-01-13, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti BASKA olayi tarihliyor (Valencia Kurucu Kongresi 6 Mayis-14 Ekim 1830); 13 Ocak 1830 (Jefe Superior kararnamesi, Anales de Venezuela) yalniz arama ozeti - okunmadi. Gun degisikligi onerilmiyor; f=1830-01-13 teyitsiz, yil (1830) teyitli. Kunye f=kume f."
+  }
+ ],
  "Yavaraté (Vaupés)": [
   {
    "dosya_satir": "data/yerlesimler_gamerika.js:68",
@@ -18397,6 +19309,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bolivya-cumhuriyeti 1825-08-06, 9 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Gun duzeyinde ilan teyitli. ULKE DUZEYI; Mojos/Chiquitos gibi yerlerde fiili idare ayri olabilir. Kunye f=kume f."
   }
  ],
+ "Lacangayé": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:125",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Buenos Aires' - https://www.encyclopedia.com/places/latin-america-and-caribbean/south-american-political-geography/buenos-aires",
+   "alinti": "the surrounding provinces did not follow suit until 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1810-05-25, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti 25 Mayis 1810'u YALNIZ Buenos Aires icin tarihliyor ('began in the city of Buenos Aires on May 25, 1810'); taşra illeri (Mendoza, La Rioja, Rio Cuarto, Belen...) 1816'ya dek katilmadi. Bu kumedeki taşra yerlesimlerinde f=1810-05-25 sorgulanmali; gun onerisi yok (1816 bagimsizlik ilani gun vermiyor). Kunye f=1810-05-25 = Mayis Devrimi (ulke duzeyi)."
+  }
+ ],
  "Nonohay (Yukarı Uruguay)": [
   {
    "dosya_satir": "data/yerlesimler_gamerika.js:129",
@@ -18409,6 +19335,104 @@
    "alinti": "Fica proclamada provisoriamente e decretada como a forma de governo da Nação brasileira",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (brezilya-cumhuriyeti 1889-11-15, 32 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Cumhuriyet 15 Kasım 1889 kararnamesiyle ilan; künye f ile tutarlı. planalto.gov.br bot engeli verdi, Senato metni okundu."
+  }
+ ],
+ "Beyan G34.5 B65.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:132",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Aranmadi (arac butcesi baska kumelere harcandi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1883-01-01, 6 satır); yalnız gün ve devlet teyitli. ornek 'Beyan G34.5 B65.5' vb. = Patagonya/Pampa beyan izgara hucreleri (yerlesim degil). KARISIK/beyan: f=1883-01-01 yil-duzeyi yaklasiklik gorunuyor (Colón sonrasi Çol Mapuche seferleri 1878-85); kaynakla dogrulanmadi. Kunye f=1810 ile cakismiyor."
+  }
+ ],
+ "Beyan G36.5 B64.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:135",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Aranmadi (arac butcesi baska kumelere harcandi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1883-01-01, 6 satır); yalnız gün ve devlet teyitli. ornek 'Beyan G34.5 B65.5' vb. = Patagonya/Pampa beyan izgara hucreleri (yerlesim degil). KARISIK/beyan: f=1883-01-01 yil-duzeyi yaklasiklik gorunuyor (Colón sonrasi Çol Mapuche seferleri 1878-85); kaynakla dogrulanmadi. Kunye f=1810 ile cakismiyor."
+  }
+ ],
+ "Nuestra Señora del Pilar (Mar del Plata)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:138",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Buenos Aires' - https://www.encyclopedia.com/places/latin-america-and-caribbean/south-american-political-geography/buenos-aires",
+   "alinti": "the surrounding provinces did not follow suit until 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1810-05-25, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti 25 Mayis 1810'u YALNIZ Buenos Aires icin tarihliyor ('began in the city of Buenos Aires on May 25, 1810'); taşra illeri (Mendoza, La Rioja, Rio Cuarto, Belen...) 1816'ya dek katilmadi. Bu kumedeki taşra yerlesimlerinde f=1810-05-25 sorgulanmali; gun onerisi yok (1816 bagimsizlik ilani gun vermiyor). Kunye f=1810-05-25 = Mayis Devrimi (ulke duzeyi)."
+  }
+ ],
+ "Beyan G39.5 B70.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:141",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Aranmadi (arac butcesi baska kumelere harcandi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1883-01-01, 6 satır); yalnız gün ve devlet teyitli. ornek 'Beyan G34.5 B65.5' vb. = Patagonya/Pampa beyan izgara hucreleri (yerlesim degil). KARISIK/beyan: f=1883-01-01 yil-duzeyi yaklasiklik gorunuyor (Colón sonrasi Çol Mapuche seferleri 1878-85); kaynakla dogrulanmadi. Kunye f=1810 ile cakismiyor."
+  }
+ ],
+ "Beyan G41.5 B71.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:146",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Aranmadi (arac butcesi baska kumelere harcandi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1883-01-01, 6 satır); yalnız gün ve devlet teyitli. ornek 'Beyan G34.5 B65.5' vb. = Patagonya/Pampa beyan izgara hucreleri (yerlesim degil). KARISIK/beyan: f=1883-01-01 yil-duzeyi yaklasiklik gorunuyor (Colón sonrasi Çol Mapuche seferleri 1878-85); kaynakla dogrulanmadi. Kunye f=1810 ile cakismiyor."
+  }
+ ],
+ "Beyan G42.5 B65.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:148",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Aranmadi (arac butcesi baska kumelere harcandi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1883-01-01, 6 satır); yalnız gün ve devlet teyitli. ornek 'Beyan G34.5 B65.5' vb. = Patagonya/Pampa beyan izgara hucreleri (yerlesim degil). KARISIK/beyan: f=1883-01-01 yil-duzeyi yaklasiklik gorunuyor (Colón sonrasi Çol Mapuche seferleri 1878-85); kaynakla dogrulanmadi. Kunye f=1810 ile cakismiyor."
+  }
+ ],
+ "Beyan G46.5 B68.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:153",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Aranmadi (arac butcesi baska kumelere harcandi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1883-01-01, 6 satır); yalnız gün ve devlet teyitli. ornek 'Beyan G34.5 B65.5' vb. = Patagonya/Pampa beyan izgara hucreleri (yerlesim degil). KARISIK/beyan: f=1883-01-01 yil-duzeyi yaklasiklik gorunuyor (Colón sonrasi Çol Mapuche seferleri 1878-85); kaynakla dogrulanmadi. Kunye f=1810 ile cakismiyor."
   }
  ],
  "Minto Inlet (Kangiryuarmiut)": [
@@ -18733,6 +19757,76 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiliz-kuzey-amerika 1763-02-10, 13 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | KARAR EMRELİC (5 Kas): Hudson Bay yerleşimleri yerleşim izine (Paris 1763 onlar için dayanak değil). | Paris Antlaşması 10 Şubat 1763 imza günü (DCB arama özeti: 'France formally ceded Canada'). Küme yerleşimleri Rupert House/Moose Factory/Mistassini: Hudson Bay çevresi zaten HBC/İngiliz iddiasında; antlaşma Kanada'yı (Fransız Kanadası) devretti — bu yerleşimler için kaynak antlaşmaya özgü değil, ABİ MERKEZ/yerel kaynak gerekir. Künye f tutarlı. TEK ÖLÇÜ: İngiltere fiilen yönetiyordu (1760 Montréal kapitülasyonu) → imza günü."
   }
  ],
+ "Pemaquid": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1014",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. National Archives, Milestone Documents: Treaty of Paris (1783) - https://www.archives.gov/milestone-documents/treaty-of-paris",
+   "alinti": "This treaty, signed on September 3, 1783, between the American colonies and Great Britain",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1783-09-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TEK OLCU: imza gunu. Rapor: KARISIK olabilir - Hartford, Wilmington (K.Karolayna), Pemaquid 1776'dan beri eyalet topragi; kunye f=1776-07-04. Kume f'nin neden 1783-09-03 oldugu (onceki donemin sahibi) belirsiz; Vincennes/Seneca (Northwest/Iroquois) icin imza gunu anlamli."
+  }
+ ],
+ "Hartford": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1079",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. National Archives, Milestone Documents: Treaty of Paris (1783) - https://www.archives.gov/milestone-documents/treaty-of-paris",
+   "alinti": "This treaty, signed on September 3, 1783, between the American colonies and Great Britain",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1783-09-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TEK OLCU: imza gunu. Rapor: KARISIK olabilir - Hartford, Wilmington (K.Karolayna), Pemaquid 1776'dan beri eyalet topragi; kunye f=1776-07-04. Kume f'nin neden 1783-09-03 oldugu (onceki donemin sahibi) belirsiz; Vincennes/Seneca (Northwest/Iroquois) icin imza gunu anlamli."
+  }
+ ],
+ "Vincennes (Poste Vincennes)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1173",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. National Archives, Milestone Documents: Treaty of Paris (1783) - https://www.archives.gov/milestone-documents/treaty-of-paris",
+   "alinti": "This treaty, signed on September 3, 1783, between the American colonies and Great Britain",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1783-09-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TEK OLCU: imza gunu. Rapor: KARISIK olabilir - Hartford, Wilmington (K.Karolayna), Pemaquid 1776'dan beri eyalet topragi; kunye f=1776-07-04. Kume f'nin neden 1783-09-03 oldugu (onceki donemin sahibi) belirsiz; Vincennes/Seneca (Northwest/Iroquois) icin imza gunu anlamli."
+  }
+ ],
+ "Occaneechi (Hillsborough)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1267",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. National Archives, Milestone Documents: Treaty of Paris (1783) - https://www.archives.gov/milestone-documents/treaty-of-paris",
+   "alinti": "This treaty, signed on September 3, 1783, between the American colonies and Great Britain",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1783-09-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TEK OLCU: imza gunu. Rapor: KARISIK olabilir - Hartford, Wilmington (K.Karolayna), Pemaquid 1776'dan beri eyalet topragi; kunye f=1776-07-04. Kume f'nin neden 1783-09-03 oldugu (onceki donemin sahibi) belirsiz; Vincennes/Seneca (Northwest/Iroquois) icin imza gunu anlamli."
+  }
+ ],
+ "Wilmington (Kuzey Karolayna)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1321",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. National Archives, Milestone Documents: Treaty of Paris (1783) - https://www.archives.gov/milestone-documents/treaty-of-paris",
+   "alinti": "This treaty, signed on September 3, 1783, between the American colonies and Great Britain",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1783-09-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. TEK OLCU: imza gunu. Rapor: KARISIK olabilir - Hartford, Wilmington (K.Karolayna), Pemaquid 1776'dan beri eyalet topragi; kunye f=1776-07-04. Kume f'nin neden 1783-09-03 oldugu (onceki donemin sahibi) belirsiz; Vincennes/Seneca (Northwest/Iroquois) icin imza gunu anlamli."
+  }
+ ],
  "Santa Clara (Küba)": [
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1468",
@@ -18747,6 +19841,20 @@
     "not": "Küba: ispanyol-kuba t 1899-01-01 (Havana teslimi; Paris feragati 1898-12-10 ic_not'a); 1899-01-01 → 1902-05-20 s: abd + BEYANLI YAKLAŞIKLIK, isg yok, ic_not 'ABD ilhak etmedi (Teller Değişikliği); askerî hükûmet; künye adayı kuba-abd-askeri-hukumeti'; ardından kuba-cumhuriyeti. s: abd (gerçek) yalnız Porto Riko ve Guam 1898-12-10. | KESİN (EMRELİC): kuba-cumhuriyeti f → 1902-05-20 (TEK ÖLÇÜ teslim; ABD idareyi 05-20 öğlen devretti) — künye düzeltmesi KASA-KUYRUK. ABD askerî dilimi son günü 05-19 (atlas t ucu dışlayıcı: t = 1902-05-20). ic_not aynen: 'the Republic of Cuba was formally installed on May 19, 1902' (history.state.gov/countries/cuba)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1898-12-10, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): Küba kararı. KAYNAK (LAB PAZAR sayfa.py, history.state.gov/countries/cuba): 'the Republic of Cuba was formally installed on May 19, 1902. On May 20, 1902, the United States [ended] its occupation authority' — künye f 05-19 kaynakla uyumlu; ABD işgal yetkisinin devri 05-20 (TEK ÖLÇÜ teslim günü?) — EMRELİC'e. | KARAR EMRELİC (gece-29): Paris 1898-12-10 İspanya feragati, ABD'ye devir yok (Küba). ÖLÇÜM (LAB PAZAR): ABD askerî hükûmeti künyesi YOK; kuba-cumhuriyeti künye f 1902-05-19 (EMRELİC 05-20 — bir gün fark, kaynakla). 1898-12-10 → 1902 arası alttaki s: (ispanyol-kuba t 1898-12-10) boş kalıyor — EMRELİC'e soru. | Paris 1898 Küba'yı devretmedi (history.state.gov) → Küba yerleşimlerinde isg abd (TEK KURAL), s: abd yalnız Porto Riko/Guam. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. KARIŞIK: Paris Antlaşması imza 1898-12-10 (kaynakta 'signed the Treaty of Paris on December 10, 1898'). Puerto Rico (San Juan) bu günde ABD'ye devredildi: KAYNAKLI (s:abd 1898-12-10, TEK ÖLÇÜ imza günü; yürürlük 1899-04-11). Küba (Baracoa, Santiago, Havana, Cienfuegos, Santa Clara) DEVREDİLMEDİ — kaynak 'guaranteeing the independence of Cuba'; ABD yönetimi askerî işgaldir -> isg abd (1899-01-01'den, kaynakla okunmadı) ve s: abd olmamalı; Küba bağımsızlığı 1902-05-20 (t_dagilim). TEK KURAL (işgal=isg). Künye f=1776-07-04 aşım yok."
+  }
+ ],
+ "Wiener Neustadt": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta3.js:22",
+   "alan": "s",
+   "d": "avusturya-cumhuriyet",
+   "f": "1918-11-12",
+   "t": "1938-03-13",
+   "hukum": "ONERI",
+   "kaynak": "Austrian National Library / ww1.habsburger.net, 'The First Republic in the historical memory' - https://ww1.habsburger.net/en/developments/first-republic-historical-memory",
+   "alinti": "The Republic of German Austria was proclaimed on 12 November 1918",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya-cumhuriyet 1918-11-12, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; kurumsal portal (ONB) - kalite siniri, akademik teyit onerilir, bu yuzden ONERI(degisiklik yok). Ilan edilen devlet 'Deutschösterreich'; Saint-Germain ile 'Österreich' adi (kunye adi Avusturya Cumhuriyeti). Klagenfurt/Villach (Karintiya, 1918-19 yugoslav isgali ve Ekim 1920 plebisit) icin 12 Kasim gunu fiilî idare icin dogrulanmadi."
   }
  ],
  "Saumur": [
@@ -18831,6 +19939,76 @@
     "f": "1792-09-21"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1792-09-22, 18 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (5 Kas): f 1792-09-21 (Larousse: krallığın kaldırılışı); 22 Eylül 'Yıl I' ic_not'a. ATOMİK: künye f + kümedeki bütün 09-22 uçları (fransa-kralligi t dahil) aynı commit'te; Değişmez 2 maddesinin günü de. KASA'ya TEK KALEM. | Larousse 21 Eylül 1792 (Konvansiyon ilk günü: krallığın kaldırılması ve Cumhuriyet). 22 Eylül = Yıl I başlangıcı/tarihleme kararı (yalnız ipucu kaynaklar). Karar Emre'de."
+  }
+ ],
+ "Bridgetown": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:113",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske / lex.dk, 'West Indies Federation' (Per Nielsen, cand.mag. historie) - https://lex.dk/West_Indies_Federation",
+   "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  }
+ ],
+ "Basseterre": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:116",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske / lex.dk, 'West Indies Federation' (Per Nielsen, cand.mag. historie) - https://lex.dk/West_Indies_Federation",
+   "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  }
+ ],
+ "Plymouth (Montserrat)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:119",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske / lex.dk, 'West Indies Federation' (Per Nielsen, cand.mag. historie) - https://lex.dk/West_Indies_Federation",
+   "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  }
+ ],
+ "St. George's": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:122",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske / lex.dk, 'West Indies Federation' (Per Nielsen, cand.mag. historie) - https://lex.dk/West_Indies_Federation",
+   "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  }
+ ],
+ "Hillsborough (Carriacou)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:125",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske / lex.dk, 'West Indies Federation' (Per Nielsen, cand.mag. historie) - https://lex.dk/West_Indies_Federation",
+   "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
   }
  ],
  "Mvanza": [
@@ -19421,6 +20599,46 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bolivya-cumhuriyeti 1825-08-06, 9 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Gun duzeyinde ilan teyitli. ULKE DUZEYI; Mojos/Chiquitos gibi yerlerde fiili idare ayri olabilir. Kunye f=kume f."
   }
  ],
+ "Calabozo (Villa de Nuestra Señora de la Candelaria)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:99",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Carabobo, Battle of' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/carabobo-battle",
+   "alinti": "On the morning of 24 June 1821 the patriots, under the command of Simón Bolívar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (gran-kolombiya 1821-06-24, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. ULKE DUZEYI: Carabobo Venezuela'nin kurtulusunun son buyuk muharebesi; Gran Colombia ayni sayfada Cucuta 1821 anayasasi/Angostura Aralik 1819 ile (encyclopedia.com 'Gran Colombia'). KUNYE f 1819-12-17 kume f 1821-06-24'ten ONCE: tutarli (donem kunye icinde) ama yerlesim bazinda Merida/Caracas gibi yerlerin gecis gunu ayri olabilir - gun yerlesime ozgu dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:99",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Venezuela, Congresses of 1811, 1830, and 1864' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/venezuela-congresses-1811-1830-and-1864",
+   "alinti": "Constituent Congress of Venezuela convened in Valencia from 6 May to 14 October 1830",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (venezuela-cumhuriyeti 1830-01-13, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti BASKA olayi tarihliyor (Valencia Kurucu Kongresi 6 Mayis-14 Ekim 1830); 13 Ocak 1830 (Jefe Superior kararnamesi, Anales de Venezuela) yalniz arama ozeti - okunmadi. Gun degisikligi onerilmiyor; f=1830-01-13 teyitsiz, yil (1830) teyitli. Kunye f=kume f."
+  }
+ ],
+ "Río Cuarto (Villa de la Concepción del Río Cuarto)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:123",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Buenos Aires' - https://www.encyclopedia.com/places/latin-america-and-caribbean/south-american-political-geography/buenos-aires",
+   "alinti": "the surrounding provinces did not follow suit until 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1810-05-25, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti 25 Mayis 1810'u YALNIZ Buenos Aires icin tarihliyor ('began in the city of Buenos Aires on May 25, 1810'); taşra illeri (Mendoza, La Rioja, Rio Cuarto, Belen...) 1816'ya dek katilmadi. Bu kumedeki taşra yerlesimlerinde f=1810-05-25 sorgulanmali; gun onerisi yok (1816 bagimsizlik ilani gun vermiyor). Kunye f=1810-05-25 = Mayis Devrimi (ulke duzeyi)."
+  }
+ ],
  "Cotagaita (Santiago de Cotagaita)": [
   {
    "dosya_satir": "data/yerlesimler_a78_amerika.js:124",
@@ -19449,6 +20667,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (peru-cumhuriyeti 1824-12-09, 11 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | LoC ayna metni Ayacucho'yu yıl/ay düzeyinde veriyor, 9. gün okunmadı; 28 Temmuz 1821 San Martín ilanı ayrı. Küme f=1824-12-09 Ayacucho'yu tarihliyor (bağımsızlık ilanını değil). KARIŞIK: t dağılımı 1879-11-02 (Iquique, Pasifik Savaşı), 1861, 1884 içeriyor; Borja/Jeberos/Sarayacu gibi Amazon yerleşimlerinde fiilî Peru idaresi sorusu var."
   }
  ],
+ "La Rioja (Arjantin)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1144",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Buenos Aires' - https://www.encyclopedia.com/places/latin-america-and-caribbean/south-american-political-geography/buenos-aires",
+   "alinti": "the surrounding provinces did not follow suit until 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1810-05-25, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti 25 Mayis 1810'u YALNIZ Buenos Aires icin tarihliyor ('began in the city of Buenos Aires on May 25, 1810'); taşra illeri (Mendoza, La Rioja, Rio Cuarto, Belen...) 1816'ya dek katilmadi. Bu kumedeki taşra yerlesimlerinde f=1810-05-25 sorgulanmali; gun onerisi yok (1816 bagimsizlik ilani gun vermiyor). Kunye f=1810-05-25 = Mayis Devrimi (ulke duzeyi)."
+  }
+ ],
  "Putre": [
   {
    "dosya_satir": "data/yerlesimler_a78_amerika.js:1196",
@@ -19461,6 +20693,72 @@
    "alinti": "This battle in the remote southern highlands effectively ended the long era of Spanish colonial rule",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (peru-cumhuriyeti 1824-12-09, 11 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | LoC ayna metni Ayacucho'yu yıl/ay düzeyinde veriyor, 9. gün okunmadı; 28 Temmuz 1821 San Martín ilanı ayrı. Küme f=1824-12-09 Ayacucho'yu tarihliyor (bağımsızlık ilanını değil). KARIŞIK: t dağılımı 1879-11-02 (Iquique, Pasifik Savaşı), 1861, 1884 içeriyor; Borja/Jeberos/Sarayacu gibi Amazon yerleşimlerinde fiilî Peru idaresi sorusu var."
+  }
+ ],
+ "Belén": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1279",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Buenos Aires' - https://www.encyclopedia.com/places/latin-america-and-caribbean/south-american-political-geography/buenos-aires",
+   "alinti": "the surrounding provinces did not follow suit until 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (arjantin-cumhuriyeti 1810-05-25, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti 25 Mayis 1810'u YALNIZ Buenos Aires icin tarihliyor ('began in the city of Buenos Aires on May 25, 1810'); taşra illeri (Mendoza, La Rioja, Rio Cuarto, Belen...) 1816'ya dek katilmadi. Bu kumedeki taşra yerlesimlerinde f=1810-05-25 sorgulanmali; gun onerisi yok (1816 bagimsizlik ilani gun vermiyor). Kunye f=1810-05-25 = Mayis Devrimi (ulke duzeyi)."
+  }
+ ],
+ "San Carlos de Río Negro": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1477",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Carabobo, Battle of' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/carabobo-battle",
+   "alinti": "On the morning of 24 June 1821 the patriots, under the command of Simón Bolívar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (gran-kolombiya 1821-06-24, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. ULKE DUZEYI: Carabobo Venezuela'nin kurtulusunun son buyuk muharebesi; Gran Colombia ayni sayfada Cucuta 1821 anayasasi/Angostura Aralik 1819 ile (encyclopedia.com 'Gran Colombia'). KUNYE f 1819-12-17 kume f 1821-06-24'ten ONCE: tutarli (donem kunye icinde) ama yerlesim bazinda Merida/Caracas gibi yerlerin gecis gunu ayri olabilir - gun yerlesime ozgu dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1477",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Venezuela, Congresses of 1811, 1830, and 1864' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/venezuela-congresses-1811-1830-and-1864",
+   "alinti": "Constituent Congress of Venezuela convened in Valencia from 6 May to 14 October 1830",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (venezuela-cumhuriyeti 1830-01-13, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti BASKA olayi tarihliyor (Valencia Kurucu Kongresi 6 Mayis-14 Ekim 1830); 13 Ocak 1830 (Jefe Superior kararnamesi, Anales de Venezuela) yalniz arama ozeti - okunmadi. Gun degisikligi onerilmiyor; f=1830-01-13 teyitsiz, yil (1830) teyitli. Kunye f=kume f."
+  }
+ ],
+ "Carora": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1570",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-06-24",
+   "t": "1830-01-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Carabobo, Battle of' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/carabobo-battle",
+   "alinti": "On the morning of 24 June 1821 the patriots, under the command of Simón Bolívar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (gran-kolombiya 1821-06-24, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. ULKE DUZEYI: Carabobo Venezuela'nin kurtulusunun son buyuk muharebesi; Gran Colombia ayni sayfada Cucuta 1821 anayasasi/Angostura Aralik 1819 ile (encyclopedia.com 'Gran Colombia'). KUNYE f 1819-12-17 kume f 1821-06-24'ten ONCE: tutarli (donem kunye icinde) ama yerlesim bazinda Merida/Caracas gibi yerlerin gecis gunu ayri olabilir - gun yerlesime ozgu dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1570",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1830-01-13",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com, 'Venezuela, Congresses of 1811, 1830, and 1864' - https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/venezuela-congresses-1811-1830-and-1864",
+   "alinti": "Constituent Congress of Venezuela convened in Valencia from 6 May to 14 October 1830",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (venezuela-cumhuriyeti 1830-01-13, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti BASKA olayi tarihliyor (Valencia Kurucu Kongresi 6 Mayis-14 Ekim 1830); 13 Ocak 1830 (Jefe Superior kararnamesi, Anales de Venezuela) yalniz arama ozeti - okunmadi. Gun degisikligi onerilmiyor; f=1830-01-13 teyitsiz, yil (1830) teyitli. Kunye f=kume f."
   }
  ],
  "Merauke": [
@@ -19547,6 +20845,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avustralya 1901-01-01, 24 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Künye f=1901-01-01 tutarlı. (Proclamation 17 Eylül 1900 tarihli, yürürlük günü 1 Ocak 1901.)"
   }
  ],
+ "Mukalla": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1389",
+   "alan": "s",
+   "d": "yemen-cumhuriyeti",
+   "f": "1990-05-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Yemen' - https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "22 Mayıs 1990’da Kuzey Yemen’le birleşti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yemen-cumhuriyeti 1990-05-22, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin (Guney Yemen Kuzey Yemen'le birlesti). Gun duzeyi. Kunye f=kume f. Hadramut/Mukalla/Seyun Guney Yemen'den, Hudeyde Kuzey'den gecis: iki farkli onceki sahip, gun ayni."
+  }
+ ],
  "Stuttgart": [
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:455",
@@ -19583,6 +20895,20 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya-birlesik 1990-10-03, 11 satır); yalnız gün ve devlet teyitli. Resmî sayfalarda 3 Ekim 1990 cümlesi bulunamadı; arama özeti 3 Ekim 1990 diyor (ONERI). Künye f ile küme f tutarlı. t_dagilim 2000-12-31 (açık uçlu)."
+  }
+ ],
+ "Karviná (Fryštát)": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "s",
+   "d": "itilaf-emaneti",
+   "f": "1919-09-10",
+   "t": "1920-07-28",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com (Oxford Dictionary of World History), 'Saint-Germain, treaty of' - https://www.encyclopedia.com/history/modern-europe/treaties-and-alliances/treaty-saint-germain",
+   "alinti": "Peace treaty with Austria after the First World War, signed on 10 September 1919",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (itilaf-emaneti 1919-09-10, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin: imza gunu 10 Eylul 1919 (TEK OLCU yeterli icin). Ancak md.91 emanetine ait metin okunmadi; KARISIK: Karvina (Fryštát, Teschen/Çekoslovakya 1920-07-28), Rab/Vis/Sibenik (Dalmaçya/Rapallo) farkli olaylar, t_dagilim 1920-11-12/1923-03-15/1920-07-28. Gun degisikligi onerilmiyor; yerlesim bazinda dogrulanmadi."
   }
  ],
  "Cortina d'Ampezzo": [
@@ -19655,6 +20981,18 @@
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:67",
    "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: Britannica 'Revolt of the Three Feudatories' (403, okunamadi); arama ozeti 1673 verdi, Aralik yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (san-fan 1673-12-28, 5 satır); yalnız gün ve devlet teyitli. Takvim: kaynak Bati gunu vermiyor; ay-gunes gunu elle cevrilmedi - Academia Sinica ile EMRELIC'te cevrilecek. Yil (1673) arama ozetinde tutarli ama okunmadi. t_dagilim: 4 yerlesim 1681-12-07, 1 tanesi 1680-01-01 (KARISIK olasi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:67",
+   "alan": "s",
    "d": "cin-cumhuriyeti",
    "f": "1912-02-12",
    "t": "1949-10-01",
@@ -19707,6 +21045,18 @@
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:89",
    "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: Britannica 'Revolt of the Three Feudatories' (403, okunamadi); arama ozeti 1673 verdi, Aralik yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (san-fan 1673-12-28, 5 satır); yalnız gün ve devlet teyitli. Takvim: kaynak Bati gunu vermiyor; ay-gunes gunu elle cevrilmedi - Academia Sinica ile EMRELIC'te cevrilecek. Yil (1673) arama ozetinde tutarli ama okunmadi. t_dagilim: 4 yerlesim 1681-12-07, 1 tanesi 1680-01-01 (KARISIK olasi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:89",
+   "alan": "s",
    "d": "cin-cumhuriyeti",
    "f": "1912-02-12",
    "t": "1949-10-01",
@@ -19755,6 +21105,18 @@
     "f": "1644-06-07"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (guney-ming 1644-04-25, 14 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (5 Kas): guney-ming f 1644-06-07 (監國, Chongzhen 17/5/3, Academia Sinica); ming-hanedani t 1644-06-06; tahta çıkış 1644-06-19 ic_not; HAYALET-UYGULA'da (LAB SALI fa773d0b0). | MİNGSHİ AYNEN (崇禎十七年, 京師失守 sonrası): '五月庚寅，稱監國。' ve '壬寅自立於南京，偽號弘光。' Ay-güneş günleri ÇEVRİLMEDİ (ganzhi 庚寅 / 壬寅, 五月). Güney Ming ruhsatı 崇禎十七年五月 (监国 / ardından Hongguang), 1644-04-25 ise Chongzhen'in ölümü = Kuzey Ming sonu; Nan Ming f'si bu gün OLAMAZ. Batı karşılığı akademik kaynakla (ör. Cambridge History of China 7) tablo çevirisi gerek; yalnız ipucu: Vikipedi 五月三日 監國 / 十五日 登基. Öneri: f yıl-ay hassasiyeti '1644-05' + ic_not beyanı veya tablo çevirisi sonrası gün."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:131",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakilan: Britannica 'Revolt of the Three Feudatories' (403, okunamadi); arama ozeti 1673 verdi, Aralik yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (san-fan 1673-12-28, 5 satır); yalnız gün ve devlet teyitli. Takvim: kaynak Bati gunu vermiyor; ay-gunes gunu elle cevrilmedi - Academia Sinica ile EMRELIC'te cevrilecek. Yil (1673) arama ozetinde tutarli ama okunmadi. t_dagilim: 4 yerlesim 1681-12-07, 1 tanesi 1680-01-01 (KARISIK olasi)."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:131",
@@ -19969,6 +21331,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya-federasyonu 1991-12-26, 94 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (5 Kas): 142-N 1991-12-26 birincil metin (devamcı devlet kuralı); history.state.gov 12-25 Gorbaçov istifası ic_not'a. | Sayfa 26 Aralik vermiyor; 25 Aralik (bayrak, Gorbacov istifasi) ayri olay. Devamcilik cumlesi de yok. 1991-12-26 (142-N) icin kaynak BULUNAMADI; Kremlin/Duma/BM yazismasi bakilmadi. Kunye f = kume f tutarli. ULKE DUZEYI, 94 yerlesim tek olay."
   }
  ],
+ "Hartberg": [
+  {
+   "dosya_satir": "data/yerlesimler_p77_avrupa.js:50",
+   "alan": "s",
+   "d": "avusturya-cumhuriyet",
+   "f": "1918-11-12",
+   "t": "1938-03-13",
+   "hukum": "ONERI",
+   "kaynak": "Austrian National Library / ww1.habsburger.net, 'The First Republic in the historical memory' - https://ww1.habsburger.net/en/developments/first-republic-historical-memory",
+   "alinti": "The Republic of German Austria was proclaimed on 12 November 1918",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya-cumhuriyet 1918-11-12, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; kurumsal portal (ONB) - kalite siniri, akademik teyit onerilir, bu yuzden ONERI(degisiklik yok). Ilan edilen devlet 'Deutschösterreich'; Saint-Germain ile 'Österreich' adi (kunye adi Avusturya Cumhuriyeti). Klagenfurt/Villach (Karintiya, 1918-19 yugoslav isgali ve Ekim 1920 plebisit) icin 12 Kasim gunu fiilî idare icin dogrulanmadi."
+  }
+ ],
  "Hamilton (Bermuda)": [
   {
    "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:144",
@@ -19981,6 +21357,20 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (__BOSLUK__ 1000-01-01, 10 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — tek gün birden çok olayı kapsıyor ya da künye f ile tutarsız; YERLEŞİM izine verildi (LAB PAZAR). | Tek kume 5+ farkli yerlesim (Lleida, Hualien, Kuril, Bering, Bermuda...): ayri olaylar karisik, tek gun olamaz. Bakilmadi. __BOSLUK__ f=1000-01-01 yer tutucu."
+  }
+ ],
+ "Camulodunum (Colchester)": [
+  {
+   "dosya_satir": "data/yerlesimler_once1281_yt_avrupa.js:148",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0410-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia.com (Gale), 'Theodosius' (Ancient History, Late Roman and Byzantine Biographies) - https://www.encyclopedia.com/people/history/ancient-history-late-roman-and-byzantine-biographies/theodosius",
+   "alinti": "At the time of his triumph in January 395, gout and death overtook Theodosius.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-roma 0395-01-17, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. Yalniz AY duzeyi (Ocak 395); 17 Ocak gunu Britannica ipucu (403, okunamadi). Ulke duzeyi (imparatorluk bolunmesi, Honorius Bati). KARISIK: t_dagilim 409/410 Britanya-Hispanya kayiplari ve 476 farkli ama f ortak. Kunye f=kume f."
   }
  ],
  "Hsinking (Changchun)": [
