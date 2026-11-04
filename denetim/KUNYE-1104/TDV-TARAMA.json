@@ -1,0 +1,322 @@
+[
+ {
+  "id": "somali",
+  "hukum": "KISMEN",
+  "veri_f": "1500-01-01",
+  "veri_t": "1927-01-01",
+  "bolge": "dogu-afrika",
+  "agirlik": 23952,
+  "tdv_madde": "somali",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SOMALİ (/somali): t=1927 destekli: \"Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi.\" (Majeerteen+Hobyo işgali, 1927). f=1500 TDV'de yok: Ajuran/Geledi tarihsiz; yalnız \"Adel Sultanlığı, XVI. yüzyıl ortalarında ... güçlenerek\", \"1543 ... Ahmed el-Mücâhid’i öldürmeleri\". Arama: Somali (5 sonuç: somali, berbera, makdisu, zeyla). Yıl t teyitli; f teyitsiz."
+ },
+ {
+  "id": "nube",
+  "hukum": "GIRISLI",
+  "veri_f": "0543-01-01",
+  "veri_t": "1504-01-01",
+  "bolge": "misir-sudan",
+  "agirlik": 10218,
+  "tdv_madde": "nube, func, sennar",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): NÛBE (nube): \"Misyonerlerin Nûbe’de Hıristiyanlığı yayma faaliyetleri ilk defa 543’te başlamış\" — 543 misyon başlangıcıdır, Makurya/Alve devlet kuruluşu değil; TDV iki devletin kuruluş tarihini vermiyor (\"Dongola’da Makarra (Makuria) Devleti\", \"Sûbâ’da ise Alve Devleti hüküm sürüyordu\"). FUNC (func): \"Funclar’ın reisi olan Amâre (Dûnkas) b. Adlân 1504 yılında Alve Krallığı’na karşı çıkmış ve kendi bölgesinin idaresini ele geçirerek bağımsızlığını ilân\" — 1504 Func bağımsızlığıdır, Alve'nin düşüşü açıkça yazılmıyor. Makarra'nın sonu TDV'de yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "kazak-hanligi",
+  "hukum": "KISMEN",
+  "veri_f": "1465-01-01",
+  "veri_t": "1847-01-01",
+  "bolge": "orta-asya",
+  "agirlik": 6372,
+  "tdv_madde": "kazaklar; kazakistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KAZAKLAR (/kazaklar): \"İlk birleşik Kazak Hanlığı’nın XVI. yüzyıl başlarında Kasım Han tarafından kurulmasından sonra\" (kuruluş XVI. yy başı, 1465 değil). KAZAKİSTAN (/kazakistan): \"Bu ikinci Türk grubu Ebülhayr (1428-1468) tarafından teşkilâtlandırılarak bir araya getirildi\"; son: \"Ruslar Kazaklar’ın han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi.\"; \"Rus Çarı I. Nikola, 22 Haziran 1854’te bir ferman çıkararak bütün Kazak topraklarının Rusya hâkimiyeti altına geçtiğini\". 1465 ve 1847 TDV'de yok; TDV son için 1845 (han seçimi bitti) / 22.06.1854 (tüm topraklar Rus hâkimiyetinde) verir; f için XVI. yy başı Kasım Han (farklı olay tipi: birleşik hanlık). DUZELT için yeterince net değil."
+ },
+ {
+  "id": "zend",
+  "hukum": "TEYIT",
+  "veri_f": "1751-01-01",
+  "veri_t": "1794-01-01",
+  "bolge": "iran",
+  "agirlik": 5803,
+  "tdv_madde": "zendler",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ZENDLER (zendler): \"1751 yılının ilk aylarında\" Kerim Han Zendler'i \"fiilen İran’da iktidara geçirdi\" (f, yıl); \"Lutf Ali Han’ın öldürülmesiyle (Cemâziyelâhir 1209 / Aralık 1794) Zend hânedanı tarihe karıştı.\" (t, yıl; TDV ay verir: Aralık 1794, gün yok). Yıl hassasiyetinde teyit."
+ },
+ {
+  "id": "racput",
+  "hukum": "GIRISLI",
+  "veri_f": "1000-01-01",
+  "veri_t": "1947-08-15",
+  "bolge": "guney-asya",
+  "agirlik": 3959,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Racput (36 sonuç, hiçbiri Racput devletleri maddesi: babur, baburluler, cammu...), Rajput (4: benares, bengal-sultanligi...), Mevar (2 alakasız). TDV'de Racput devletleri / Mevar / Amber / Bikaner maddesi yok."
+ },
+ {
+  "id": "umman-zengibar",
+  "hukum": "KISMEN",
+  "veri_f": "1698-01-01",
+  "veri_t": "1964-01-12",
+  "bolge": "dogu-afrika",
+  "agirlik": 3285,
+  "tdv_madde": "zengibar, bu-said-hanedani",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ZENGİBAR (zengibar): \"12 Ocak 1964 tarihindeki darbeyle tahtından indirilinceye kadar\" (t günü teyit). f=1698: \"Portekiz istilâsının nihayet bulduğu 1698'de Zengibar, Fâtıma bint Yûsuf el-Alevî tarafından yönetiliyordu.\" — 1698 Portekiz hâkimiyetinin sonudur, Uman-Zengibar birliği değil; TDV birleşik devlet başlangıcı vermiyor. Ek: \"Uman Sultanlığı devlet merkezini 1840'ta Zengibar'a taşıyınca\" (merkez taşıma). Bû Saîd hanedanı maddesi başlangıç yılı vermiyor."
+ },
+ {
+  "id": "cungar",
+  "hukum": "KISMEN",
+  "veri_f": "1634-01-01",
+  "veri_t": "1758-01-01",
+  "bolge": "orta-asya",
+  "agirlik": 2742,
+  "tdv_madde": "kalmuklar; oyratlar",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KALMUKLAR (/kalmuklar): t destekli: \"Çin İmparatoru Çienlong birkaç yıl içerisinde Cungar egemenliğine son verdi.\" ve \"asker-sivil 500.000'den fazla kişiyi kılıçtan geçirerek Cungar halkını ortadan kaldırdı (1758).\" f: \"Hara Hula adlı başka bir bey de doğuda, Cungarya'da eski Oyrat Hanlığı'nı yeniden canlandırdı\" (yıl yok; 1634 TDV'de yok). OYRATLAR (/oyratlar) tek cümlelik yönlendirme. Arama: Kalmuk."
+ },
+ {
+  "id": "guanche-politileri",
+  "hukum": "GIRISLI",
+  "veri_f": "1000-01-01",
+  "veri_t": "1496-01-01",
+  "bolge": "kuzey-afrika",
+  "agirlik": 2274,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de madde yok. Arama: 'Guanche' (başlıklarda 0 sonuç), 'Kanarya Adaları' (yalnız Afrika, Cezayir, Coğrafya, Hayvan, İspanya, Seydi Ali Reis içerik eşleşmesi; polity maddesi yok)."
+ },
+ {
+  "id": "yarkent-hanligi",
+  "hukum": "KISMEN",
+  "veri_f": "1514-01-01",
+  "veri_t": "1705-01-01",
+  "bolge": "orta-asya",
+  "agirlik": 1910,
+  "tdv_madde": "kasgar",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KÂŞGAR (/kasgar): \"burada 1499 veya 1514 yılına kadar hüküm sürdüler.\" (Duğlat hâkimiyetinin sonu; Sa'îdiyye kuruluşunu doğrudan tarihlemez ama 1514 için dolaylı destek). \"1606'da Çağatay hânedanına mensup Emîr İsmâil Kâşgar'a hâkim oldu.\"; \"Âfâk Hoca, Kalmuklar'ın yardımıyla 1678'de şehrin emîri oldu.\"; \"1759'da Çin Tarım havzasının tamamını işgal etti\". t=1705 TDV'de yok. Aramalar: Yarkent (0), Yarkend (21; kasgar, hoten...), Saıdiyye Han. Yarkent/Said Han ayrı maddesi yok."
+ },
+ {
+  "id": "bulgaristan-halk",
+  "hukum": "KISMEN",
+  "veri_f": "1946-09-15",
+  "veri_t": "1990-11-15",
+  "bolge": "balkanlar",
+  "agirlik": 1546,
+  "tdv_madde": "bulgaristan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BULGARİSTAN (bulgaristan): \"8 Eylül 1946’da yapılan halk oylamasıyla cumhuriyet ilân edildi.\" (cumhuriyet ilanı; data 1946-09-15). \"4 Aralık 1947’de Yugoslavya ve Sovyetler Birliği anayasaları örnek alınarak...\" yeni anayasa (HC 1947-12-04 teyit). t=1990-11-15 (isim değişikliği) TDV'de yok; yalnız \"kırk beş yıllık komünist iktidarın çökmesini\" ve 1989-1990 çok partili düzen. Not: 8 Eylül halk oylaması günüdür; TDV 'cumhuriyet ilân edildi' diyor. [LAB elemesi: ajan DUZELT dedi → KISMEN]",
+  "bekle": "f 1946-09-15 → 1946-09-08 (TDV: '8 Eylül 1946'da yapılan halk oylamasıyla cumhuriyet ilân edildi')",
+  "bekle_neden": "TDV halk oylaması gününü ilan günü sayıyor olabilir; resmî ilan 15 Eylül 1946 (veri). İkinci akademik kaynak okunmadan uygulanmaz; çelişki ic_not'ta iki kaynakla beyan edilmeli. 1947-12-04 anayasa TDV'de teyitli"
+ },
+ {
+  "id": "tuareg-accer",
+  "hukum": "KISMEN",
+  "veri_f": "1281-01-01",
+  "veri_t": "1911-01-01",
+  "bolge": "kuzey-afrika",
+  "agirlik": 1260,
+  "tdv_madde": "tevarik",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TEVÂRİK (/tevarik): Ezgar (Azjer) grubu anılır ama Kel Accer konfederasyonunun kuruluş/son tarihi yok. \"Şeyh Amud 1911 yılında Fransızlar’ın burayı işgal etmesine kadar Osmanlı Devleti’nden maaş aldı.\" (Canet/Gat bölgesi, Fransız işgali 1911 = t=1911 için dolaylı destek); \"XVIII. yüzyılın ortalarında Kuzey Tevârikleri’nden Haggarlar müstakil bir yönetim kurdular\" (Haggar, Accer değil). f=1281 TDV'de yok. Arama: Tuareg (yönlendirme)."
+ },
+ {
+  "id": "tuareg-ahaggar",
+  "hukum": "GIRISLI",
+  "veri_f": "1281-01-01",
+  "veri_t": "1902-05-07",
+  "bolge": "kuzey-afrika",
+  "agirlik": 1243,
+  "tdv_madde": "tuareg, tevarik",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TEVÂRİK (tevarik): \"XVIII. yüzyılın ortalarında Kuzey Tevârikleri'nden Haggarlar müstakil bir yönetim kurdular.\" — TDV Haggar müstakil yönetimini 18. yy ortasına koyar (yıl yok), veri f=1281 ile çelişir/destek yok. Fransız işgali: \"Fransızlar 28 Ekim 1918'de bölgeye yerleştiler.\" ve Canet için 1911 — 1902-05-07 (t) TDV'de yok. Ahaggar konfederasyonu için ayrı madde yok (TUAREG yalnız TEVÂRİK'e yönlendirir). [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "nayak-devletleri",
+  "hukum": "GIRISLI",
+  "veri_f": "1336-01-01",
+  "veri_t": "1763-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 1208,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de madde yok. Aramalar: 'Nayak' (0 sonuç), 'Tancur' (0 sonuç), 'Madurai' (yalnız HİNDİSTAN içerik eşleşmesi, Madurai Pandyaları; Nâyak devletlerinin f/t'si okunmadı)."
+ },
+ {
+  "id": "portekiz-hindistani-goa",
+  "hukum": "KISMEN",
+  "veri_f": "1505-01-01",
+  "veri_t": "1961-12-19",
+  "bolge": "guney-asya",
+  "agirlik": 877,
+  "tdv_madde": "hindistan; adilsahiler",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (/hindistan): \"1510'da Albuquerque batı sahillerindeki Goa Limanı'nı alarak bir koloni kurdu.\"; \"Vasco da Gama 1498'de Kaliküt'e vardı\". ÂDİLŞÂHÎLER (/adilsahiler): \"Âdilşâhîler 20 Mayıs 1510’da burayı geri aldılarsa da kasım ayında Portekizliler limanı yeniden ele geçirdiler.\" TDV Goa kolonisini 1510 tarihler (atlas f=1505 Estado da Índia/Almeida başlangıcı: farklı olay tipi). t=1961 (Hint ilhakı) TDV'de bulunamadı (Hindistan maddesinin yalnız ilk 200000 karakteri okundu)."
+ },
+ {
+  "id": "orissa",
+  "hukum": "GIRISLI",
+  "veri_f": "1000-01-01",
+  "veri_t": "1568-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 861,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Orissa/Doğu Ganga için ayrı madde okunmadı; HİNDİSTAN yalnız: \"Kuzey Hindistan, Orissa, Dekken, Tamil Nadu ve Kerala bölgelerinde kurulan bazı krallıklar birkaç yüzyıl varlıklarını sürdürdüler.\" (tarih yok)."
+ },
+ {
+  "id": "bhutan",
+  "hukum": "GIRISLI",
+  "veri_f": "1616-01-01",
+  "veri_t": "2026-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 770,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Bhutan (yalnız BUDİZM). Bhutan maddesi yok."
+ },
+ {
+  "id": "sih-imparatorlugu",
+  "hukum": "KISMEN",
+  "veri_f": "1801-04-12",
+  "veri_t": "1849-03-29",
+  "bolge": "guney-asya",
+  "agirlik": 764,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) tablosu: \"Pencap Sih yöneticileri (1792-1849)\" — t yıl=1849 teyit (günü yok); f için TDV 1792 verir (veri 1801-04-12, Ranjit Singh'in Mahârâca ilânı), farklı olay türü."
+ },
+ {
+  "id": "avad",
+  "hukum": "KISMEN",
+  "veri_f": "1722-01-01",
+  "veri_t": "1856-02-07",
+  "bolge": "guney-asya",
+  "agirlik": 730,
+  "tdv_madde": "leknev",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): LEKNEV (/leknev): \"Bölgenin 1856’da İngiliz idaresine girmesi üzerine\" (t yıl teyitli; 7 Şubat günü TDV'de yok). \"Eved’de Nevvâb hânedanını kuran Âsafüddevle Leknev’i kendisine merkez yaptı (1775)\"; \"İngilizler 1819’da son Eved Nevvâbı Gāzîüddin Haydar’ı kral ilân edince\". HİNDİSTAN: \"XVIII. yüzyılda Mürşidâbâd (Bengal), Eved, Râmpûr ... Şiî devletleri kuruldu.\" f=1722 TDV'de yok. Aramalar: Avad (80 gürültülü), Leknev."
+ },
+ {
+  "id": "caulukya",
+  "hukum": "GIRISLI",
+  "veri_f": "0942-01-01",
+  "veri_t": "1297-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 721,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan) tablosu: \"Gucerât Çalukyaları (Gucerât, 974-1238)\" (aynı tabloda Vatapi 556-757, Doğu 630-970, Kelyani 973-1189). Veri 942-1297. [LAB elemesi: ajan KISMEN dedi → GIRISLI]",
+  "bekle": "f 0942 → 0974, t 1297 → 1238 (TDV tablo: 'Gucerât Çalukyaları … 974-1238')",
+  "bekle_neden": "TDV HİNDİSTAN maddesindeki hanedan tablosu yılları (müstakil madde değil, olay türü tanımsız); yaygın: 942 Mularaja"
+ },
+ {
+  "id": "kalikut",
+  "hukum": "GIRISLI",
+  "veri_f": "1100-01-01",
+  "veri_t": "1766-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 709,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Zamorin (0 sonuç), Kaliküt (8: cografya, hankah, hindistan, ibn-battuta, selman-reis...). Kalikut/Zamorin maddesi yok; yalnız \"Vasco da Gama 1498'de Kaliküt'e vardı\" (hindistan)."
+ },
+ {
+  "id": "sikkim-krallik",
+  "hukum": "GIRISLI",
+  "veri_f": "1642-01-01",
+  "veri_t": "1975-05-16",
+  "bolge": "guney-asya",
+  "agirlik": 667,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan): \"1974’te ilk atom bombasının patlatılması ve aynı yıl içerisinde Sikkim Prensliği’nin bir eyalet olarak ülkeye katılması gibi önemli olaylar\" — TDV katılımı 1974'e koyar; veri 1975-05-16. TDV esastır ama yaygın kaynak 1975; çelişki ic_not'ta iki kaynağıyla beyan edilmeli. f=1642 TDV'de yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI]",
+  "bekle": "t 1975-05-16 → 1974 (TDV HİNDİSTAN: 'aynı yıl içerisinde [1974] Sikkim Prensliği'nin bir eyalet olarak ülkeye katılması')",
+  "bekle_neden": "TDV geçen cümlesi; 1974 'associate state' adımı olabilir, 16 Mayıs 1975 eyalet olarak katılma. İkinci kaynak okunmadan uygulanmaz"
+ },
+ {
+  "id": "manipur",
+  "hukum": "GIRISLI",
+  "veri_f": "1281-01-01",
+  "veri_t": "1949-10-15",
+  "bolge": "guney-asya",
+  "agirlik": 662,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Manipur (3: ahmed-han-seyyid, asam--hindistan, hindistan); müstakil madde yok."
+ },
+ {
+  "id": "kenya",
+  "hukum": "TEYIT",
+  "veri_f": "1963-12-12",
+  "veri_t": null,
+  "bolge": "dogu-afrika",
+  "agirlik": 556,
+  "tdv_madde": "kenya",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KENYA (/kenya): \"ve 12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu\" (f=1963-12-12 bağımsızlık/Dominyon). \"birinci yıl dönümünde de Kenyatta bağımsız Kenya’nın ilk devlet başkanı seçildi\" (Cumhuriyet 12.12.1964 ile uyumlu)."
+ },
+ {
+  "id": "mozambik",
+  "hukum": "TEYIT",
+  "veri_f": "1975-06-25",
+  "veri_t": null,
+  "bolge": "dogu-afrika",
+  "agirlik": 459,
+  "tdv_madde": "mozambik",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MOZAMBİK (/mozambik): \"25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi.\" ve \"Anlaşma sonrasında Mozambik Halk Cumhuriyeti olan ülkenin adı Mozambik Cumhuriyeti olarak değiştirildi.\" (1992; devlet sürer, ad değişimi son değil)."
+ },
+ {
+  "id": "pallava",
+  "hukum": "GIRISLI",
+  "veri_f": "0350-01-01",
+  "veri_t": "0897-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 457,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) hanedan tablosu: \"Pallavalar (Tamil Nadu, 300-388)\" — TDV tablosu yalnız erken Pallavaları kapsıyor, f=350/t=897 ile doğrudan örtüşmüyor; ayrı Pallava maddesi okunmadı. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "bulgaristan-cumhuriyeti",
+  "hukum": "GIRISLI",
+  "veri_f": "1990-11-15",
+  "veri_t": null,
+  "bolge": "balkanlar",
+  "agirlik": 354,
+  "tdv_madde": "bulgaristan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BULGARİSTAN (bulgaristan) 15 Kasım 1990 isim değişikliği (f) gününü vermiyor; yalnız \"kırk beş yıllık komünist iktidarın çökmesini sağlamıştır.\" (1989 hareketleri) ve 1990'da çok partili parlamenter düzen. 'Bulgaristan' ve 'Bulgaristan Cumhuriyeti' aramalarında ayrı madde yok."
+ },
+ {
+  "id": "karnatik",
+  "hukum": "GIRISLI",
+  "veri_f": "1690-01-01",
+  "veri_t": "1801-07-31",
+  "bolge": "guney-asya",
+  "agirlik": 338,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) tablosu: \"Arcot nevvâbları (1707-1858)\" — TDV 1707 başlangıç, 1858 son verir (veri 1690-1801-07-31, İngiliz ilhakı). Olay türü farklı (nevvâblık unvanı sonu vs. fiilî devlet sonu). [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "pandya-1",
+  "hukum": "GIRISLI",
+  "veri_f": "0601-01-01",
+  "veri_t": null,
+  "bolge": "guney-asya",
+  "agirlik": 320,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) tablosu: \"Madurai Pandyaları (Tamil Nadu, VII-X. yüzyıl)\" — yalnız yüzyıl hassasiyeti; f=601 yüzyıl olarak uyumlu, gün/yıl TDV'de yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "hoysala",
+  "hukum": "GIRISLI",
+  "veri_f": "1026-01-01",
+  "veri_t": "1343-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 248,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan) tablosu: \"Hoysalar (Orta ve Güney Dekken, 1110-1327)\" — TDV tablo yıllarını verir (veri 1026-1343). Tablo hanedan siyasi yükselişi/sonu için tarihlendirme; olay türü açıklanmıyor. [LAB elemesi: ajan KISMEN dedi → GIRISLI]",
+  "bekle": "f 1026 → 1110, t 1343 → 1327 (TDV tablo: 'Hoysalar … 1110-1327')",
+  "bekle_neden": "TDV HİNDİSTAN maddesindeki hanedan tablosu yılları (müstakil madde değil, olay türü tanımsız); yaygın: 1026 ilk yazıt, 1343 III. Ballala'nın ölümü"
+ },
+ {
+  "id": "zengibar-bagimsiz-sultanlik",
+  "hukum": "TEYIT",
+  "veri_f": "1963-12-10",
+  "veri_t": "1964-01-12",
+  "bolge": "dogu-afrika",
+  "agirlik": 0,
+  "tdv_madde": "zengibar",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ZENGİBAR (zengibar): \"Zengibar Sultanlığı 10 Aralık 1963 tarihinde, monarşiye dayalı anayasasıyla bağımsızlığını kazanmasının\" (f, gün) ... \"12 Ocak 1964 tarihindeki darbeyle tahtından indirilinceye kadar\" (t, gün)."
+ },
+ {
+  "id": "gupta",
+  "hukum": "KISMEN",
+  "veri_f": "0320-01-01",
+  "veri_t": "0540-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 0,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan): \"330-540 yılları arasında hüküm süren Gupta İmparatorluğu zamanında eski Hint medeniyeti en yüksek seviyesine ulaştı\" — t=540 teyit; f için TDV 330 verir (veri 320). Ayrı Gupta maddesi okunmadı.",
+  "bekle": "f 0320 → 0330 (TDV HİNDİSTAN: '330-540 yılları arasında hüküm süren Gupta İmparatorluğu')",
+  "bekle_neden": "Geçen cümle, müstakil madde değil; yaygın akademik kronoloji 320 (I. Çandragupta). t 540 TDV ile teyitli. TDV esas kuralı çelişki beyanı ister; ikinci kaynak okunmadan uygulanmaz"
+ }
+]
