@@ -79,6 +79,11 @@
   {"gun": "1919", "olay": "Bratislava (Pozsony) Slovakya'nın başkenti ve 'Slovakya idaresi için tam yetkili bakanlık' merkezi oldu; ad 1919'dan Bratislava (yalnız yıl)", "kaynak": "Encyclopaedia Beliana (SAV), \"Bratislava\", https://beliana.sav.sk/heslo/bratislava-0 — \"keď sa v roku 1919 stala hlavným mestom Slovenska a sídlom Ministerstva s plnou mocou pre správu Slovenska\" (KAYNAK3)"},
   {"gun": "1919-03-21", "olay": "Macar Sovyet Cumhuriyeti kuruldu; Slovakya'nın Çek topraklarına bağlanmasını tanımadı → Çekoslovak-Macar savaşı", "kaynak": "Encyclopaedia Beliana, \"Československo\", https://beliana.sav.sk/heslo/ceskoslovensko — \"po vzniku boľševickej Maďarskej republiky rád (21. 3. 1919), ktorá odmietla uznať pripojenie Slovenska\""},
   {"gun": "1919-07-01", "olay": "Çekoslovak-Macar ateşkesi; Çekoslovak ordusu 1919 yazında Slovakya'yı ve Podkarpatya Rusyası'nı denetimine aldı", "kaynak": "aynı madde — \"1. 7. 1919 podpísaná československo-maďarská zmluva o prímerí a československé vojsko mohlo obsadiť … v priebehu leta 1919\""},
-  {"not": "Bratislava'ya giriş GÜNÜ ve Košice (Kassa) giriş günleri Beliana'da bulunamadı (Košice maddesi henüz yayımlanmamış: /heslo/kosice 'Stránka nenájdená') — KAYNAK-GEREK (gün)."}
+  {"gun": "1919-06-06", "olay": "Macar Kızıl Ordusu Košice'yi (Kassa) aldı; 1919-07-04 son Macar çekilişi", "kaynak": "Toma 1958, s. 206-212 (HAVVA SALI JSTOR okuması, origin/havva-1104-jstor 79ddbf869, denetim/TOP100-1103/EK-jstor-havva.md) — Çekoslovak ilk giriş günü (1918-12) bulunamadı"},
+  {"not": "Bratislava'ya giriş GÜNÜ ve Košice'ye ilk Çekoslovak giriş günü Beliana'da ve JSTOR'da bulunamadı — KAYNAK-GEREK (gün)."}
+],
+"N11": [
+  {"gun": "1918-10-29", "olay": "Hırvat Saborunun kararı: Dalmaçya, Hırvatistan, Slavonya Avusturya-Macaristan'dan ayrılıp Sloven-Hırvat-Sırp Devleti'ne katıldı (Narodno vijeće bildirgesi 19. X. 1918); Bosna-Hersek de Narodno vijeće'nin yetki alanında", "kaynak": "Hrvatska enciklopedija, \"Država Slovenaca, Hrvata i Srba\", https://www.enciklopedija.hr/clanak/drzava-slovenaca-hrvata-i-srba — \"od objave Deklaracije Narodnoga vijeća SHS 19. X. 1918., odn. zaključaka Hrvatskoga sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918.\" (ENKLAV8)"},
+  {"gun": "1918-12-01", "olay": "Sırp-Hırvat-Sloven Krallığı ilanı (Belgrad)", "kaynak": "aynı madde"}
 ]
 }

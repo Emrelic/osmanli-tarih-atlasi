@@ -33,15 +33,16 @@
 | N9 | Dubrovnik doğrudan 'venedik'/'macaristan' (özerk cumhuriyet, haraç bağı) | 2 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 1 |
 | N10 | Doğu Anadolu 1920-1923 'OSMANLI' (İstanbul) — TBMM idaresi yazılmamış | 2 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 2 |
 | N11 | Bosna-Dalmaçya 1918-11 SHS Devleti yazılmamış | 36 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 34 |
+| N12 | Batı Trakya 1920 Mayıs 'bulgaristan-kralligi' (Neuilly sonrası) | 6 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 4 |
 | I | Bölge/ülke adlı noktalar + o devirde olmayan şehirler | 77 | VERİ ÖLÇÜMÜ (ad deseni); kuruluş yılları KAYNAK-GEREK | 0 |
-| J | 0 noktalı parçalar (noktasız emilme) | 106 | VERİ ÖLÇÜMÜ | 0 |
+| J | 0 noktalı parçalar (noktasız emilme) | 119 | VERİ ÖLÇÜMÜ | 0 |
 | C | 1990'lar: RS / RSK / Herzeg-Bosna dönemi yok | 6 | KAYNAK-GEREK (ad listesi + günler); boşluk VERİ ÖLÇÜMÜ | 2 |
 | N3 | Kosova gölge cumhuriyeti toprak sahibi boyalı | 3 | MODEL + KAYNAK-GEREK | 3 |
 | D | Habsburg: aynı hükümdarın iki tacı ayrı kimlik | 2 | MODEL KARARI (Emre) · MOTOR/EVREN | 0 |
 | E | Çatı kimlikler: ayrı devletler tek kimlik / aynı hükümdar iki kimlik | 10 | MODEL KARARI (Emre) | 0 |
-| M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 69 | MOTOR SORUSU (HAVVA/Emre) | 0 |
+| M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 82 | MOTOR SORUSU (HAVVA/Emre) | 0 |
 
-Toplam satır: 799.
+Toplam satır: 831.
 
 ## 1. Hemen uygulanabilir — VERİ ÖLÇÜMÜ (dönem olgusu ölçüldü; halef/gün notu satırda)
 
@@ -722,7 +723,8 @@ _Bugünkü veride eşleşen satır yok._
   - `1919` Bratislava (Pozsony) Slovakya'nın başkenti ve 'Slovakya idaresi için tam yetkili bakanlık' merkezi oldu; ad 1919'dan Bratislava (yalnız yıl) — Encyclopaedia Beliana (SAV), "Bratislava", https://beliana.sav.sk/heslo/bratislava-0 — "keď sa v roku 1919 stala hlavným mestom Slovenska a sídlom Ministerstva s plnou mocou pre správu Slovenska" (KAYNAK3)
   - `1919-03-21` Macar Sovyet Cumhuriyeti kuruldu; Slovakya'nın Çek topraklarına bağlanmasını tanımadı → Çekoslovak-Macar savaşı — Encyclopaedia Beliana, "Československo", https://beliana.sav.sk/heslo/ceskoslovensko — "po vzniku boľševickej Maďarskej republiky rád (21. 3. 1919), ktorá odmietla uznať pripojenie Slovenska"
   - `1919-07-01` Çekoslovak-Macar ateşkesi; Çekoslovak ordusu 1919 yazında Slovakya'yı ve Podkarpatya Rusyası'nı denetimine aldı — aynı madde — "1. 7. 1919 podpísaná československo-maďarská zmluva o prímerí a československé vojsko mohlo obsadiť … v priebehu leta 1919"
-  - Bratislava'ya giriş GÜNÜ ve Košice (Kassa) giriş günleri Beliana'da bulunamadı (Košice maddesi henüz yayımlanmamış: /heslo/kosice 'Stránka nenájdená') — KAYNAK-GEREK (gün).
+  - `1919-06-06` Macar Kızıl Ordusu Košice'yi (Kassa) aldı; 1919-07-04 son Macar çekilişi — Toma 1958, s. 206-212 (HAVVA SALI JSTOR okuması, origin/havva-1104-jstor 79ddbf869, denetim/TOP100-1103/EK-jstor-havva.md) — Çekoslovak ilk giriş günü (1918-12) bulunamadı
+  - Bratislava'ya giriş GÜNÜ ve Košice'ye ilk Çekoslovak giriş günü Beliana'da ve JSTOR'da bulunamadı — KAYNAK-GEREK (gün).
 - Ortak öneri (aksi yazılmadıkça): 1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -824,6 +826,9 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: (42.4, 45.9, 13.5, 19.7) kutusunda 1918-11-20 günü sahibi sirbistan-kralligi/avusturya/macaristan-habsburg olan noktalar.
 - Hükümler: ENKLAV-1104 K625, K644, K655
+- **Kaynaklı günler (KAYNAK2):**
+  - `1918-10-29` Hırvat Saborunun kararı: Dalmaçya, Hırvatistan, Slavonya Avusturya-Macaristan'dan ayrılıp Sloven-Hırvat-Sırp Devleti'ne katıldı (Narodno vijeće bildirgesi 19. X. 1918); Bosna-Hersek de Narodno vijeće'nin yetki alanında — Hrvatska enciklopedija, "Država Slovenaca, Hrvata i Srba", https://www.enciklopedija.hr/clanak/drzava-slovenaca-hrvata-i-srba — "od objave Deklaracije Narodnoga vijeća SHS 19. X. 1918., odn. zaključaka Hrvatskoga sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918." (ENKLAV8)
+  - `1918-12-01` Sırp-Hırvat-Sloven Krallığı ilanı (Belgrad) — aynı madde
 - Ortak öneri (aksi yazılmadıkça): 1918-10-29 → yugoslavya (Sloven-Hırvat-Sırp Devleti), 1918-12-01 Krallık; İtalyan işgal bölgesi (Londra antlaşması hattı) ayrı — kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -864,6 +869,22 @@ _Bugünkü veride eşleşen satır yok._
 | Ostrovica (Stara Ostrovica, Kulen Vakuf) | `data/yerlesimler_ek29.js:690` | s:sirbistan-kralligi 1918-11-11→1918-12-01; s:yugoslavya 1918-12-01→1945-11-29 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
 | Bijeljina | `data/yerlesimler_halef_1946.js:83` | s:sirbistan-kralligi 1918-11-11→1918-12-01; s:yugoslavya 1918-12-01→1941-04-10 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
 | Orašje | `data/yerlesimler_halef_1946.js:88` | s:sirbistan-kralligi 1918-11-11→1918-12-01; s:yugoslavya 1918-12-01→1941-04-10 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+
+### N12 · Batı Trakya 1920 Mayıs 'bulgaristan-kralligi' (Neuilly sonrası) (6)
+
+- Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
+- Kural: (40.8, 41.7, 24.3, 26.7) kutusunda 1920-05-20 günü sahibi bulgaristan-kralligi olan noktalar.
+- Hükümler: ENKLAV-1104 K747, K756
+- Ortak öneri (aksi yazılmadıkça): 1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla
+
+| ad | dosya:satır | şimdi | öneri | güven | kronoloji |
+|---|---|---|---|---|---|
+| Dimetoka | `data/yerlesimler.js:453` | s:bulgaristan-kralligi 1915-09-06→1920-05-27; s:yunanistan 1920-05-27→1973-06-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Ferecik (Feres) | `data/yerlesimler.js:1658` | s:bulgaristan-kralligi 1913-05-30→1920-05-27; s:yunanistan 1920-05-27→1973-06-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Gümülcine | `data/yerlesimler.js:1670` | s:bulgaristan-kralligi 1913-10-25→1920-05-27; s:yunanistan 1920-05-27→1973-06-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR: 1920-05-27 — Gümülcine'nin işgali — Batı Trakya'nın kaybı |
+| İskeçe | `data/yerlesimler_seyrek.js:197` | s:bulgaristan-kralligi 1913-05-30→1920-05-27; s:yunanistan 1920-05-27→1973-06-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | VAR: 1920-05-27 — Gümülcine'nin işgali — Batı Trakya'nın kaybı |
+| Kırcaali | `data/yerlesimler_seyrek.js:244` | s:bulgaristan-kralligi 1913-09-29→1946-09-15 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
+| Távri | `data/yerlesimler_sinir_kuzey.js:13` | s:bulgaristan-kralligi 1913-05-30→1920-05-27; s:yunanistan 1920-05-27→1973-06-01 | (ortak) | OLCUM (boşluk) · KAYNAK-GEREK (günler) | YOK |
 
 ### I · Bölge/ülke adlı noktalar + o devirde olmayan şehirler (77)
 
@@ -952,7 +973,7 @@ _Bugünkü veride eşleşen satır yok._
 | Klosterneuburg | `data/yerlesimler_once1281_yt_avrupa.js:447` | kur=None bit=1281-01-01; ilk dönem — | kur: — (kaynakla); öncesi dönemler kırpılsın, toprak komşu peteklere (merdiven ④) | KAYNAK-GEREK (kuruluş yılı) | — |
 | Melun | `data/yerlesimler_once1281_yt_avrupa.js:500` | kur=None bit=1281-01-01; ilk dönem — | kur: — (kaynakla); öncesi dönemler kırpılsın, toprak komşu peteklere (merdiven ④) | KAYNAK-GEREK (kuruluş yılı) | — |
 
-### J · 0 noktalı parçalar (noktasız emilme) (106)
+### J · 0 noktalı parçalar (noktasız emilme) (119)
 
 - Dayanak: VERİ ÖLÇÜMÜ
 - Kural: Koşu 32'de içinde hiçbir yerleşim noktası olmayan kopuk parçalar; alan bölge poligonu/emilmeden.
@@ -1066,6 +1087,19 @@ _Bugünkü veride eşleşen satır yok._
 | K688 safevi | `denetim/ENKLAV-1104/aday7.json` | 1578-10-05 → 1578-11-01 · 1318 km² · en büyük kesit 1578-10-05 | (ortak) | OLCUM | — |
 | K693 habsburg | `denetim/ENKLAV-1104/aday7.json` | 1918-11-03 → 1918-11-11 · 1289 km² · en büyük kesit 1918-11-03 | (ortak) | OLCUM | — |
 | K697 portekiz | `denetim/ENKLAV-1104/aday7.json` | 1914-01-01 → 1923-10-29 · 1242 km² · en büyük kesit 1920-12-17 | (ortak) | OLCUM | — |
+| K702 ingiltere | `denetim/ENKLAV-1104/aday8.json` | 1922-07-20 → 1923-10-29 · 1190 km² · en büyük kesit 1922-12-06 | (ortak) | OLCUM | — |
+| K703 rusya | `denetim/ENKLAV-1104/aday8.json` | 1905-06-07 → 1917-03-15 · 1187 km² · en büyük kesit 1905-06-07 | (ortak) | OLCUM | — |
+| K704 rusya-gecici-hukumet | `denetim/ENKLAV-1104/aday8.json` | 1917-03-15 → 1917-11-07 · 1187 km² · en büyük kesit 1917-03-15 | (ortak) | OLCUM | — |
+| K710 ingiltere | `denetim/ENKLAV-1104/aday8.json` | 1911-05-17 → 1915-07-09 · 1151 km² · en büyük kesit 1911-05-17 | (ortak) | OLCUM | — |
+| K723 ispanya | `denetim/ENKLAV-1104/aday8.json` | 1894-03-05 → 2000-12-31 · 918 km² · en büyük kesit 1899-11-17 | (ortak) | OLCUM | — |
+| K726 sovyet-rusya | `denetim/ENKLAV-1104/aday8.json` | 1917-12-15 → 1918-04-08 · 843 km² · en büyük kesit 1917-12-15 | (ortak) | OLCUM | — |
+| K738 sardinya-piyemonte | `denetim/ENKLAV-1104/aday8.json` | 1861-03-07 → 1861-03-17 · 762 km² · en büyük kesit 1861-03-07 | (ortak) | OLCUM | — |
+| K739 bulgar-carligi | `denetim/ENKLAV-1104/aday8.json` | 1390-01-01 → 1393-09-01 · 756 km² · en büyük kesit 1390-01-01 | (ortak) | OLCUM | — |
+| K741 ingiltere | `denetim/ENKLAV-1104/aday8.json` | 1895-06-16 → 1923-10-29 · 744 km² · en büyük kesit 1916-05-06 | (ortak) | OLCUM | — |
+| K744 ingiliz-sudani | `denetim/ENKLAV-1104/aday8.json` | 1919-09-08 → 1923-10-29 · 728 km² · en büyük kesit 1919-09-08 | (ortak) | OLCUM | — |
+| K746 habsburg | `denetim/ENKLAV-1104/aday8.json` | 1815-06-09 → 1918-11-11 · 711 km² · en büyük kesit 1815-06-09 | (ortak) | OLCUM | — |
+| K757 macaristan | `denetim/ENKLAV-1104/aday8.json` | 1522-05-29 → 1537-03-12 · 494 km² · en büyük kesit 1526-12-17 | (ortak) | OLCUM | — |
+| K758 habsburg | `denetim/ENKLAV-1104/aday8.json` | 1918-11-08 → 1918-11-11 · 494 km² · en büyük kesit 1918-11-08 | (ortak) | OLCUM | — |
 
 ## 3. Yalnız KAYNAK-GEREK
 
@@ -1132,7 +1166,7 @@ _Bugünkü veride eşleşen satır yok._
 | almanya (962-1806 Kutsal Roma) | `data/devletler.js` | 153 s: dönemi 1806 öncesi | İmparatorluk çatısı + üye prenslikler (brixen, salzburg, tirol, prusya…) yan yana | EMRE KARARI | — |
 | kastilya / leon-kralligi (1037-1065, 1072-1157, 1230) | `data/devletler.js` | 23 s: dönemi | Kişisel birlik dönemlerinde aynı hükümdar iki kimlikle | EMRE KARARI | — |
 
-### M · Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) (69)
+### M · Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) (82)
 
 - Dayanak: MOTOR SORUSU (HAVVA/Emre)
 - Kural: Kopukluk tâbinin komşu sayılmasından ya da < 1 km koridordan; veri düzeltmesi değil, evren/motor kararı.
@@ -1209,3 +1243,16 @@ _Bugünkü veride eşleşen satır yok._
 | K688 | `denetim/ENKLAV-1104/hukumler7.json` | Safevî parçası 1578-10-05 → 11-01, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
 | K693 | `denetim/ENKLAV-1104/hukumler7.json` | Habsburg parçası 1918-11-03 → 11-11, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
 | K697 | `denetim/ENKLAV-1104/hukumler7.json` | Portekiz parçası 1914-1923, nokta yok (Belçika Kongosu komşu — Kabinda?): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K702 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1922-1923, nokta yok (Kamerun): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K703 | `denetim/ENKLAV-1104/hukumler8.json` | Rus parçası 1905-1917, nokta yok (Norveç/Finlandiya komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K704 | `denetim/ENKLAV-1104/hukumler8.json` | K703 ardılı (Geçici Hükûmet), nokta yok. | (ortak) | MOTOR SORUSU | — |
+| K710 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1911-1915, nokta yok (Portekiz/Alman GB Afrikası): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K723 | `denetim/ENKLAV-1104/hukumler8.json` | İspanya parçası 1894-2000, nokta yok (Fas komşu — Melilla çevresi?): noktasız motor ataması. | Motor sorusu (Melilla/Ceuta noktaları ölçülsün). | MOTOR SORUSU | — |
+| K726 | `denetim/ENKLAV-1104/hukumler8.json` | Sovyet Rusya parçası 1917-1918, nokta yok (Moldova DC): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K738 | `denetim/ENKLAV-1104/hukumler8.json` | Sardinya-Piyemonte parçası 1861-03-07 → 03-17, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K739 | `denetim/ENKLAV-1104/hukumler8.json` | Bulgar çarlığı parçası 1390-1393, nokta yok (Eflak/Dobruca komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K741 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz parçası 1895-1923, nokta yok (Fransız komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K744 | `denetim/ENKLAV-1104/hukumler8.json` | İngiliz Sudanı parçası 1919-1923, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K746 | `denetim/ENKLAV-1104/hukumler8.json` | Habsburg parçası 1815-1918, nokta yok (İsviçre/Liechtenstein komşu — Vorarlberg?): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K757 | `denetim/ENKLAV-1104/hukumler8.json` | Macar parçası 1522-1537, nokta yok (Osmanlı/Venedik komşu — Klis?): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K758 | `denetim/ENKLAV-1104/hukumler8.json` | Habsburg parçası 1918-11-08 → 11-11, nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |

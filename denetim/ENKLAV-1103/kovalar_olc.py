@@ -341,7 +341,7 @@ kova("I", "Bölge/ülke adlı noktalar + o devirde olmayan şehirler", "VERİ Ö
 # ================================================================================================
 S = []
 for dosya in ("ENKLAV-1103/adaylar.json", "ENKLAV-1104/aday2.json", "ENKLAV-1104/aday3.json", "ENKLAV-1104/aday4.json",
-              "ENKLAV-1104/aday5.json", "ENKLAV-1104/aday6.json", "ENKLAV-1104/aday7.json"):
+              "ENKLAV-1104/aday5.json", "ENKLAV-1104/aday6.json", "ENKLAV-1104/aday7.json", "ENKLAV-1104/aday8.json"):
     yol = os.path.join(KOK, "denetim", dosya)
     if not os.path.exists(yol):
         continue
@@ -468,13 +468,18 @@ kova_kural("N11", "Bosna-Dalmaçya 1918-11 SHS Devleti yazılmamış", (42.4, 45
            ("sirbistan-kralligi", "avusturya", "macaristan-habsburg"),
            "1918-10-29 → yugoslavya (Sloven-Hırvat-Sırp Devleti), 1918-12-01 Krallık; İtalyan işgal bölgesi (Londra antlaşması hattı) ayrı — kaynakla",
            "1918-10-29", ["yugoslavya"], "ENKLAV-1104 K625, K644, K655")
+# K701-K758'den (ENKLAV8)
+kova_kural("N12", "Batı Trakya 1920 Mayıs 'bulgaristan-kralligi' (Neuilly sonrası)", (40.8, 41.7, 24.3, 26.7), "1920-05-20",
+           ("bulgaristan-kralligi",),
+           "1919-11-27 (Neuilly) → Müttefik idaresi (beyan) → 1920-05-14 yunanistan — günler kaynakla", "1920-05-14", ["yunanistan"],
+           "ENKLAV-1104 K747, K756")
 
 # ================================================================================================
 # M — tâbi devlet (motor sorusu) — hüküm listesi
 # ================================================================================================
 S = []
 for dosya in ("ENKLAV-1103/hukumler.json", "ENKLAV-1104/hukumler2.json", "ENKLAV-1104/hukumler3.json", "ENKLAV-1104/hukumler4.json",
-              "ENKLAV-1104/hukumler5.json", "ENKLAV-1104/hukumler6.json", "ENKLAV-1104/hukumler7.json"):
+              "ENKLAV-1104/hukumler5.json", "ENKLAV-1104/hukumler6.json", "ENKLAV-1104/hukumler7.json", "ENKLAV-1104/hukumler8.json"):
     yol = os.path.join(KOK, "denetim", dosya)
     if not os.path.exists(yol):
         continue

@@ -10,7 +10,7 @@ KY = os.path.join(BURA, "kovalar_kaynak.json")
 KAYNAKLI = {k: v for k, v in json.load(open(KY, encoding="utf-8")).items() if not k.startswith("_")} if os.path.exists(KY) else {}
 SIRA = [
     ("1. Hemen uygulanabilir — VERİ ÖLÇÜMÜ (dönem olgusu ölçüldü; halef/gün notu satırda)", ["F", "G", "H", "L2"]),
-    ("2. Boşluk VERİ ÖLÇÜMÜ, günler/halef KAYNAK-GEREK", ["A-KAF", "A-KKF", "A-UKR", "A-BEL", "A-UZD", "B", "L1", "L3", "N1", "N1b", "N2", "N5", "N6", "N4", "N7", "N8", "N9", "N10", "N11", "I", "J"]),
+    ("2. Boşluk VERİ ÖLÇÜMÜ, günler/halef KAYNAK-GEREK", ["A-KAF", "A-KKF", "A-UKR", "A-BEL", "A-UZD", "B", "L1", "L3", "N1", "N1b", "N2", "N5", "N6", "N4", "N7", "N8", "N9", "N10", "N11", "N12", "I", "J"]),
     ("3. Yalnız KAYNAK-GEREK", ["C", "N3"]),
     ("4. Model / motor kararı (Emre · HAVVA)", ["D", "E", "M"]),
 ]
