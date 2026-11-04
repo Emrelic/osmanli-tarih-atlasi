@@ -1589,6 +1589,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BATI SAHRÂ okundu (ayrı SADC maddesi aranmadı/yok); 27 Şubat 1976 ilanı gün olarak bulunamadı."
  },
  {
+  "id": "aksum",
+  "hukum": "GIRISLI",
+  "veri_f": "0100-01-01",
+  "veri_t": null,
+  "bolge": "dogu-afrika",
+  "agirlik": 50,
+  "tdv_madde": "etiyopya; necasi-ashame",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Aksum müstakil maddesi yok (arama: başlık 0, içerik 11: ARABİSTAN, ERİTRE, ETİYOPYA, GARÂNÎK, KEVKEBÂN, NECÂŞÎ ASHAME, SOMALİ, SUDAN, TARİH, YEMEN). ETİYOPYA (/etiyopya) — TDV genel madde (geçen cümleler, çelişkili): \"V. yüzyılda Aksum Krallığı’nı kuran hıristiyanlar ...\" ve \"Tarihin akışı içinde Arabistanlı göçmenler ... Aksum Krallığı’nı kurmuşlardır ... Milâttan sonra III. yüzyıl...\" ; \"Aksumlular’ın Yemen’i son defa zaptettikleri 525’e kadar\". f=0100 TDV'de yok (TDV III-V. yy arası); t None için TDV son tarih vermiyor. DUZELT yapılmadı. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
   "id": "hehe",
   "hukum": "GIRISLI",
   "veri_f": "1850-01-01",
@@ -1945,6 +1955,16 @@
   "agirlik": 5,
   "tdv_madde": "kosova",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KOSOVA, slug kosova. f: '10 Haziran 1999 tarihinde NATO güçleriyle Sırp ordusu arasında Kumanova Antlaşması imzalandı ve Birleşmiş Milletler’in kararıyla (nr. 1244) Kosova’nın sivil idaresi Birleşmiş Milletler ve AGİT’e ... bırakıldı' (GÜN teyitli; ayrıca 'Ocak 2000’de ... UNMIK hükümeti başkanı Bernard Kuşner ...'). t 2008-02-17: TDV'de bağımsızlık ilânı 2008 yok (aranan '2008' 0 sonuç)."
+ },
+ {
+  "id": "dogu-turkistan-cumhuriyeti-gulca",
+  "hukum": "KISMEN",
+  "veri_f": "1944-11-12",
+  "veri_t": "1949-10-20",
+  "bolge": "orta-asya",
+  "agirlik": 5,
+  "tdv_madde": "kulca; dogu-turkistan; kasgar",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de müstakil Doğu Türkistan Cumhuriyeti (1944-49) maddesi yok (DOĞU TÜRKİSTAN /dogu-turkistan yalnız yönlendirme niteliğinde kısa madde). KULCA (/kulca, şehir maddesi): \"1944’te çoğunluğunu Kazanlı Türkler’le Uygurlar’ın oluşturduğu bir grup ayaklandı ve 7 Ağustos’ta Kulca’da Doğu Türkistan Cumhuriyeti’nin kurulduğunu ilân etti.\" ; \"Eylül 1949’da yeni rejim ve Urumçi yetkilileri Pekin’de komünist idarecilerle görüşmelere başladılar.\" Yıllar 1944 ve 1949 uyumlu; AMA TDV f için 7 Ağustos 1944 der, veri 1944-11-12 — çelişki (şehir maddesi, geçen cümle: DUZELT'e dayanak yapılmadı). t=1949-10-20 günü TDV'de yok (Eylül 1949 görüşmeleri)."
  },
  {
   "id": "yunanistan-gecici-demokratik-hukumet",
@@ -2647,5 +2667,87 @@
   "agirlik": 0,
   "tdv_madde": "aden",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ADEN (/aden): \"Aden, önceleri idarî bakımdan Bombay eyaletine bağlandı; 1937 yılında ise doğrudan İngiltere’ye tâbi müstakil bir koloni (crown colony) haline getirildi.\" ; \"1961’de henüz koloni halinde bulunan Aden, federasyon ile anlaştı; 1963 yılında federasyona resmen üye oldu ve Aden Devleti adıyla anılmaya başladı.\" Yıllar (1937, 1963) teyitli; günler (04-01, 01-18) TDV'de yok."
+ },
+ {
+  "id": "dogu-turkistan-islam-cumhuriyeti",
+  "hukum": "KISMEN",
+  "veri_f": "1933-11-12",
+  "veri_t": "1934-03-21",
+  "bolge": "orta-asya",
+  "agirlik": 0,
+  "tdv_madde": "kasgar",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KÂŞGAR (/kasgar, şehir maddesi; müstakil madde yok): \"1933’te Uygurlar, Kâşgar’da İngiltere’nin desteğiyle Sovyet karşıtı bir Doğu Türkistan cumhuriyeti kurma teşebbüsünde bulundularsa da başarılı olamadılar.\" Yalnız yıl 1933 (teşebbüs); f günü 1933-11-12 ve t 1934-03-21 TDV'de yok."
+ },
+ {
+  "id": "tanca-uluslararasi-bolge",
+  "hukum": "KISMEN",
+  "veri_f": "1923-12-18",
+  "veri_t": "1956-10-29",
+  "bolge": "kuzey-afrika",
+  "agirlik": 0,
+  "tdv_madde": "tanca",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TANCA (/tanca, şehir maddesi): \"1912’de anlaşmayla özel bir statü verilen Tanca, 1923’te büyük devletlerin temsil edildiği bir meclis tarafından yönetilen ülkelerarası bir bölge haline getirildi. II. Dünya Savaşı sırasında İspanya denetimine geçen şehir 1945’te tekrar ülkelerarası bölge ilân edildi. 1956’da Fas’ın bağımsızlığını kazanmasının ardından Fas’a bağlandı.\" f yılı 1923, t yılı 1956 teyitli; günler TDV'de yok. TDV II. Dünya Savaşı'nda İspanya denetimi (1940-45 kesinti) bildirir."
+ },
+ {
+  "id": "tanca-bolgesi",
+  "hukum": "KISMEN",
+  "veri_f": "1924-05-14",
+  "veri_t": "1956-10-29",
+  "bolge": "kuzey-afrika",
+  "agirlik": 0,
+  "tdv_madde": "tanca",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TANCA (/tanca): \"...1923’te büyük devletlerin temsil edildiği bir meclis tarafından yönetilen ülkelerarası bir bölge haline getirildi. ... 1945’te tekrar ülkelerarası bölge ilân edildi. 1956’da Fas’ın bağımsızlığını kazanmasının ardından Fas’a bağlandı.\" Bu kayıt tanca-uluslararasi-bolge ile MÜKERRER görünüyor (aynı ad, aynı t=1956-10-29). TDV f için 1923 der, bu kaydın f=1924-05-14 TDV ile uyuşmaz (yıl 1924 vs 1923) — kayıt mükerrerse silinmeli; DUZELT önerilmedi (şehir maddesi, 'ülkelerarası bölge' ifadesi)."
+ },
+ {
+  "id": "fransiz-misir-seferi",
+  "hukum": "KISMEN",
+  "veri_f": "1798-07-01",
+  "veri_t": "1801-10-02",
+  "bolge": "misir-sudan",
+  "agirlik": 0,
+  "tdv_madde": "misir",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MISIR (/misir), 'Fransız İşgali ve Sonrası' bölümü (Cengiz Tomar) — TDV genel madde bölümü: \"Fransızlar’ın Temmuz 1798’deki işgali Mısır’da yeni bir dönem açmış ve ... Napolyon Bonapart tarafından girişilen askerî harekât üç yıl sürecek olan işgal dönemini başlatmıştır.\" ; \"Fransız kuvvetleri de Osmanlı-İngiliz ittifakıyla gerçekleştirilen saldırılara dayanamayarak Ağustos 1801’de Mısır’ı terketmek zorunda kaldılar.\" f ay (Temmuz 1798) uyumlu, gün TDV'de yok. t: TDV Ağustos 1801 (tahliye) der, veri 1801-10-02 (başka olay türü: ön barış); DUZELT yapılmadı (genel madde bölümü). SINIF notu: 'sefer' bir polity değil işgal rejimi."
+ },
+ {
+  "id": "libya-fransiz-fizan",
+  "hukum": "TEYIT",
+  "veri_f": "1943-01-01",
+  "veri_t": "1951-12-24",
+  "bolge": "kuzey-afrika",
+  "agirlik": 0,
+  "tdv_madde": "fizan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): FİZAN (/fizan, bölge maddesi): \"Fransızlar 7 Ocak 1943’te Merzûk’u, daha sonra Sebha’yı ele geçirerek ... Ocak 1943’te imzalanan İngiliz-Fransız antlaşmasıyla Fizan Fransız idaresi altına girdi. 24 Aralık 1951’de Muhammed İdrîs es-Senûsî liderliğinde kurulan Libya Birleşik Krallığı’nda Fizan üç otonom bölgeden biri oldu.\" f=1943 (veri yıl-hassasiyeti 01-01, TDV Ocak 1943) ve t=1951-12-24 gün gün uyuşuyor. Not: TDV, Fransızların Gāt ve Gadames'ten Ağustos 1955 antlaşmasıyla çekildiğini yazar (Fransız askerî varlığı 1955'e kadar)."
+ },
+ {
+  "id": "halep-devleti",
+  "hukum": "GIRISLI",
+  "veri_f": "1920-09-01",
+  "veri_t": "1925-01-01",
+  "bolge": "suriye-filistin",
+  "agirlik": 0,
+  "tdv_madde": "suriye",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Halep Devleti müstakil maddesi yok (arama: başlık 0, içerik 626). SURİYE (/suriye) — TDV genel madde: \"Şam ve Halep yönetimleri ayrı birer muhtar bölge diye belirlendi.\" ; \"1924’te yeni bir düzenleme yapan Fransızlar Şam, Halep, Hama ve Humus’u birleştirip tek bir idare altında topladı.\" ; \"Temmuz 1920’de ... Suriye’de Faysal dönemi sona erdi\". TDV birleştirme yılını 1924 verir, veri t=1925-01-01 — yıl farkı (TDV genel madde; DUZELT önerilmedi). f=1920-09-01 TDV'de yok (Ağustos-Eylül 1920 gün yok). [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "touggourt",
+  "hukum": "GIRISLI",
+  "veri_f": "1414-01-01",
+  "veri_t": "1854-12-01",
+  "bolge": "kuzey-afrika",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: 'Tuggurt' (0/0/0/0), 'Tukurt' (0/0/0/0). Başka yazımlar (Tuggurt/Tukurt/Touggourt/Benî Celleb) denendi; TDV'de Tuggurt maddesi yok. 1414/1854 için dayanak yok."
+ },
+ {
+  "id": "uman-ibadi",
+  "hukum": "KISMEN",
+  "veri_f": "0750-01-01",
+  "veri_t": null,
+  "bolge": "arabistan",
+  "agirlik": 0,
+  "tdv_madde": "uman; culenda-b-mesud",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UMAN (/uman): \"Hadramut İbâzî imâmetinin ortadan kalkmasının (131/748-49) ardından Umanlılar yaklaşık 132 (750) yılında benzer bir imâmeti bölgede tekrar kurdular ve Cülendâ b. Mes‘ûd’u imam seçtiler. ... Abbâsî ordusu Cülendâ b. Mes‘ûd’un imamlığına son verdi (134/751). Fakat Abbâsîler, Uman’da tam hâkimiyet kuramadı; zaman zaman kesintiye uğramakla birlikte bölge İbâzî imamları tarafından yönetilmeye devam etti.\" CÜLENDÂ b. MES‘ÛD (/culenda-b-mesud): \"imamlığa seçtiler (132/750)\", \"Hâzim ... 134 (751) yılında savaşı kazandı.\" f=750 teyitli (132/750, 'yaklaşık'). t=None: TDV I. imamlığın (Cülendâ) sonunu 134/751 verir, ama bölge İbâzî imamlarınca yönetilmeye devam eder (ikinci imamet 177/794 Nizvâ şûrası) — veri 'I. imamlık' etiketi ile t=None çelişiyor; DUZELT için polity sürekliliği belirsiz (beyan gerek).",
+  "bekle": "t (boş) → 0751 (TDV CÜLENDÂ b. MES‘ÛD müstakil maddesi: Abbâsî ordusu imamlığa son verdi, 134/751)",
+  "bekle_neden": "Künye adı 'I. imamlık' ama t boş (süren gibi görünüyor). TDV I. imamlığın sonunu 134/751 verir; hicrî 134 ∩ 751 kesişiminin ilk günü (CLAUDE.md hicrî kuralı) NAOJ/çevrim tablosuyla hesaplanmalı. Künye kapsamı kararı (yalnız Cülendâ imamlığı mı, İbâzî imamet geleneği mi) EMRELİC/Emre'de"
  }
 ]

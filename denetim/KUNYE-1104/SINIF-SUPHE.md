@@ -50,6 +50,8 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `nayak-devletleri` | 1336-01-01 → 1763-01-01 | 1208 | Madurai 1529-1736, Tanjavur 1532-1673, Gingee 1540-1649, Keladi 1499-1763 tek kayıtta; f 1336 Vijayanagara'nın kuruluşu |
 | `dogu-sumatra-sultanliklari` | 1615-01-01 → 1858-01-01 | 872 | Jambi, Siak, Deli, Indragiri ayrı sultanlıklar |
 | `nepal` | 1000-01-01 → (süren) | 800 | Malla vadi krallıkları (1768-69'da biter) ile Şah/Gorkha Nepal'i tek satırda (hasat 1) |
+| `tanca-bolgesi` | 1924-05-14 → 1956-10-29 | 0 | MÜKERRER: tanca-uluslararasi-bolge ile aynı ad ve aynı t (1956-10-29); f 1924-05-14 / 1923-12-18 — TDV TANCA 1923 der |
+| `fransiz-misir-seferi` | 1798-07-01 → 1801-10-02 | 0 | 'sefer' bir polity değil işgal rejimi; TDV MISIR: Temmuz 1798 – Ağustos 1801 tahliye (veri t 1801-10-02 ön barış) |
 | `san-fan` | 1673-12-28 → 1681-12-07 | 168 | 'Üç Vasal İsyanı' bir olay; polity Wu Sangui'nin Zhou'su olabilir |
 | `sanzan` | 1322-01-01 → 1429-01-01 | 428 | Hokuzan, Chuzan, Nanzan üç krallık — dönem adı; Hokuzan 1416/19, Nanzan 1429 (İPUCU) |
 | `ovambo` | 1600-01-01 → 1917-02-06 | 634 | Ondonga ve Kwanyama ayrı; t 1917-02-06 yalnız Kwanyama (Mandume'nin ölümü) |
