@@ -460,7 +460,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-b",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Yangzhou 1645-05-20 → 06-08 'qing', çevre güney-ming (koridor 134 km 6/9). Qing Huai hattından inerek Yangzhou'yu aldı; arkadaki Huai'an/Xuzhou teslim olmuştu. 19 günlük kopukluk, kuzey Jiangsu noktalarının Qing f günlerinin Nanjing'in düşüşüne (1645-06-08) bağlanmasından.",
+"gerekce": "Yangzhou 1645-05-20 → 06-08 'qing', çevre güney-ming (koridor 134 km 6/9). Qing Huai hattından inerek Yangzhou'yu aldı; arkadaki Huai'an/Xuzhou teslim olmuştu. 19 günlük kopukluk, kuzey Jiangsu noktalarının Qing f günlerinin Nanjing'in düşüşüne (1645-06-08) bağlanmasından. [KAYNAK-UMIT: giris_gerek — Okunmadı. Yangzhou 1645 (Dodo, Mayıs 1645) için Cambridge History of China vol. 7 ya da Wakeman 'The Great Enterprise' sayfası gerek; Britannica 403, EB 1911 'Yangchow' maddesi okunmadı.]",
 "duzeltme": "Huai'an, Xuzhou Qing f günleri kaynakla (Mayıs 1645).",
 "kaynak": "veri ölçümü"
 },
@@ -468,7 +468,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Wuchang 1275-01-15 → 1276-01-18 'yuan': Bayan Yangzi'yi Ezhou'da geçti, Song'un Yingzhou kalesini arkada bırakarak aşağı indi; Xiangyang gövdesinden Song toprağıyla ayrı kalmış olabilir. Nanchang, Jiujiang sahipsiz (koridor song 9/9). Düşük güven.",
+"gerekce": "Wuchang 1275-01-15 → 1276-01-18 'yuan': Bayan Yangzi'yi Ezhou'da geçti, Song'un Yingzhou kalesini arkada bırakarak aşağı indi; Xiangyang gövdesinden Song toprağıyla ayrı kalmış olabilir. Nanchang, Jiujiang sahipsiz (koridor song 9/9). Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. Bayan'ın Yangzi geçişi (Ocak 1275, Ezhou/Wuchang) için Cambridge History of China vol. 6 (Alien Regimes) bölümü gerek; açık metin bulunamadı.]",
 "duzeltme": "Han ırmağı hattı (Yingzhou, Fuzhou) 1275 sahipliği kaynakla.",
 "kaynak": "veri ölçümü"
 },
@@ -484,7 +484,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Siak Sri Indrapura 1590-1615 'cohor-sultanligi': Siak Johor'a bağlı Sumatra kıyı beyliği, Johor'un yarımada gövdesinden Malakka Boğazı ile ayrı; koridor Sumatra karası (doğu-sumatra 9/9) üzerinden çizildiği için KARA sınıfında. Denizaşırı bağımlılık olarak gerçek; Johor bağlılığının yılları kaynakla.",
+"gerekce": "Siak Sri Indrapura 1590-1615 'cohor-sultanligi': Siak Johor'a bağlı Sumatra kıyı beyliği, Johor'un yarımada gövdesinden Malakka Boğazı ile ayrı; koridor Sumatra karası (doğu-sumatra 9/9) üzerinden çizildiği için KARA sınıfında. Denizaşırı bağımlılık olarak gerçek; Johor bağlılığının yılları kaynakla. [KAYNAK-UMIT: bulunamadi — Siak-Johor 1590-1615 bağlılığı için TDV'de madde yok (tdv-ara sonuçsuz); Siak sultanlığı 1723'te kuruldu, 1590-1615 Johor'a bağlılığı için Cambridge History of Southeast Asia gerek.]",
 "duzeltme": "Yok; sınıf beyanı (deniz).",
 "kaynak": "veri ölçümü"
 },
@@ -499,16 +499,16 @@
 "K163": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Serahs 1201-1204 'harizmsah', çevre gurlu (koridor 189 km 9/9). Gurlular 1200-1201'de Horasan'ı (Nîşâbur) aldı; Harezmşah Muhammed 1204 Endhud'da Gurluları yendi. Serahs'ın bu arada Harezmşah elinde kalıp kalmadığı TDV Serahs'ta yok.",
+"guven": "KAYNAKLI",
+"gerekce": "Serahs 1201-1204 'harizmsah', çevre gurlu (koridor 189 km 9/9). Gurlular 1200-1201'de Horasan'ı (Nîşâbur) aldı; Harezmşah Muhammed 1204 Endhud'da Gurluları yendi. Serahs'ın bu arada Harezmşah elinde kalıp kalmadığı TDV Serahs'ta yok. [KAYNAK-UMIT (celiski): TDV Gurlular: Tekiş'in 1200'deki ölümü üzerine Gurlular Nîşâbur'u aldı, ertesi yıl (1201) Merv'i, ardından Serah bölgesini zaptetti; bütün Horasan Gurlu kontrolüne girdi. TDV Hârizmşahlar: Alâeddin Muhammed Nîşâbur, Merv ve Serahs'ı zaptetti (1204). — \"Alâeddin Nîşâbur, Merv ve Serahs’ı zaptetti (1204).\" · Serahs 1201-1204 'harizmsah' YANLIŞ: TDV'ye göre bu aralıkta Gurlu elindeydi (1201'de alındı); Harezmşah Serahs'a 1204'te geçti. Düzeltme: Serahs 1201-1204 gurlu, harezmsah f 1204 (gün yok, yalnız yıl). Hüküm GERCEK değil, YAPAY (dönem yanlış sahip).]",
 "duzeltme": "Serahs 1201-1204 sahibi kaynakla (TDV Gurlular / Hârizmşahlar).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV İslâm Ansiklopedisi, 'Hârizmşahlar' (https://islamansiklopedisi.org.tr/harizmsahlar) ve 'Gurlular' (https://islamansiklopedisi.org.tr/gurlular), Iqtidar Husain Siddiqui · önceki: veri ölçümü"
 },
 "K164": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Semipalatinsk 1718 'rusya' (kale 1718, kayıt uyumlu), çevre cungar (koridor 247 km 8/9). İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716, Jeleznikovo 1717) atlasta nokta olarak yoksa kopukluk noktasız emilmeden.",
+"gerekce": "Semipalatinsk 1718 'rusya' (kale 1718, kayıt uyumlu), çevre cungar (koridor 247 km 8/9). İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716, Jeleznikovo 1717) atlasta nokta olarak yoksa kopukluk noktasız emilmeden. [KAYNAK-UMIT: bulunamadi — Semipalatinsk 1718 kuruluşu ve İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716) için okunabilir akademik sayfa bulunamadı; TDV'de yok. Cambridge History of Inner Asia ya da Perdue 'China Marches West' gerek.]",
 "duzeltme": "İrtiş hattı kaleleri için nokta ve dönem.",
 "kaynak": "veri ölçümü (kayit.py Semipalatinsk)"
 },
@@ -571,10 +571,10 @@
 "K172": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Batoche 1872 → 1885-05-12 'metis' (künye metis 1816-1885, kaynak 'bulunamadı'), Fort Carlton kanada. Métis'in egemen siyasî yapısı yalnız Saskatchewan Geçici Hükümeti (Mart-Mayıs 1885) dönemindeydi; 1872-1885 Batoche Kanada (Kuzeybatı Bölgeleri) toprağında bir yerleşim. 13 yıllık eksklav kimlik uzatmasından.",
+"guven": "KAYNAKLI",
+"gerekce": "Batoche 1872 → 1885-05-12 'metis' (künye metis 1816-1885, kaynak 'bulunamadı'), Fort Carlton kanada. Métis'in egemen siyasî yapısı yalnız Saskatchewan Geçici Hükümeti (Mart-Mayıs 1885) dönemindeydi; 1872-1885 Batoche Kanada (Kuzeybatı Bölgeleri) toprağında bir yerleşim. 13 yıllık eksklav kimlik uzatmasından. [KAYNAK-UMIT (tam): 18 Mart 1885'te Riel ve ~60 destekçisi Batoche yakınında Lash'ı ve mağazaları ele geçirdi; ertesi gün (19 Mart 1885) 15 üyeli 'exovedate' geçici hükümetini kurdu. — \"the next day he formed a provisional government, composed of 15 councillors\" · Hüküm doğru: Métis egemen yapısı 19 Mart 1885'te kuruldu (18 Mart + 'ertesi gün'); Batoche metis f 1872 yerine 1885-03-19, öncesi kanada.]",
 "duzeltme": "Batoche metis f → 1885-03-19 (Geçici Hükümet ilanı, kaynakla), öncesi kanada.",
-"kaynak": "veri ölçümü (kayit.py Batoche; devletler.js metis kaynak 'bulunamadı')"
+"kaynak": "Dictionary of Canadian Biography, 'RIEL, LOUIS' (Vol. XI), https://www.biographi.ca/en/bio/riel_louis_1844_85_11E.html · önceki: veri ölçümü (kayit.py Batoche; devletler.js metis kaynak 'bulunamadı')"
 },
 "K173": {
 "hukum": "YAPAY",
@@ -588,7 +588,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "DENİZ AŞIRI: Duala 1868-01-01 → 1884-07-14 'hollanda' (dönem kaynaksız). Duala'da 19. yüzyılda İngiliz ve Alman tüccarlar etkindi; Duala şefleri 12-14 Temmuz 1884'te Almanya ile himaye antlaşması yaptı. Hollanda egemenliğine dair dayanak yok.",
+"gerekce": "DENİZ AŞIRI: Duala 1868-01-01 → 1884-07-14 'hollanda' (dönem kaynaksız). Duala'da 19. yüzyılda İngiliz ve Alman tüccarlar etkindi; Duala şefleri 12-14 Temmuz 1884'te Almanya ile himaye antlaşması yaptı. Hollanda egemenliğine dair dayanak yok. [KAYNAK-UMIT: bulunamadi — Hollanda egemenliği 1868-1884 için dayanak bulunamadı; Duala şeflikleri düzeltmesi desteklenir. 1884 Temmuz Alman antlaşması için ayrı kaynak (Kamerun tarihi bölümü) okunmadı.]",
 "duzeltme": "Duala 1868-1884 sahibi: Duala şeflikleri (yerel), kaynakla; 'hollanda' kaldırılsın.",
 "kaynak": "veri ölçümü (kayit.py Duala)"
 },
@@ -603,10 +603,10 @@
 "K176": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Saint John (Fort La Tour) Akadya karakolu 1605 → 1761 'fransa', Quebec gövdesinden Maliseet toprağıyla ayrı (koridor 181 km): K024 ile aynı model (Fransız ticaret/kale noktası yerli toprağında). Ayrı borçlar: 1605 başlangıcı karakolun kuruluşundan (1631) önce; 1654-1670 İngiliz işgali ve 1713 Utrecht sonrası statü kesintisiz Fransız gösteriliyor.",
+"guven": "KAYNAKLI",
+"gerekce": "Saint John (Fort La Tour) Akadya karakolu 1605 → 1761 'fransa', Quebec gövdesinden Maliseet toprağıyla ayrı (koridor 181 km): K024 ile aynı model (Fransız ticaret/kale noktası yerli toprağında). Ayrı borçlar: 1605 başlangıcı karakolun kuruluşundan (1631) önce; 1654-1670 İngiliz işgali ve 1713 Utrecht sonrası statü kesintisiz Fransız gösteriliyor. [KAYNAK-UMIT (tam): 8 Şubat 1631 kraliyet fermanı Charles de La Tour'u vali yaptı; Saint John nehri ağzındaki tahkimli ticaret karakolu (Fort Sainte-Marie) bunun ardından kuruldu. 14 Temmuz 1654 Cromwell'in gönderdiği Sedgwick seferi Saint John'u aldı; La Tour 1656'da haklarını ortaklarına sattı, Temple kaleyi yönetti. — \"On 14 July 1654, an English expedition sent by Oliver Cromwell\" · Düzeltme doğru: f 1605 -> 1631 (yıl; kuruluş günü DCB'de yok), 1654-07-14'ten itibaren ingiltere. 1670/1713 sonrası bu maddede yok.]",
 "duzeltme": "Saint John f → 1631 (Fort La Tour), 1654-1670 ingiltere; 1713-1761 statüsü kaynakla (DCB).",
-"kaynak": "veri ölçümü"
+"kaynak": "DCB, 'SAINT-ÉTIENNE DE LA TOUR, CHARLES DE' (Vol. I), https://www.biographi.ca/en/bio/saint_etienne_de_la_tour_charles_de_1593_1666_1E.html · önceki: veri ölçümü"
 },
 "K177": {
 "hukum": "YAPAY",
@@ -619,10 +619,10 @@
 "K178": {
 "hukum": "YAPAY",
 "kova": "YAPAY-b",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Abomey 1893-1898 'fransa-cumhuriyet' (Dahomey fethi 1892-94), çevre Alman Togo, İngiliz Lagos, İbadan, Borgu; koridor Dagbon/deniz (216 km). Fransız Dahomey kıyısı (Porto-Novo, Cotonou, Ouidah) Abomey ile bitişik olmalıydı; kıyı noktaları Fransız değilse ya da yoksa kopukluk yapaydır.",
+"guven": "KAYNAKLI",
+"gerekce": "Abomey 1893-1898 'fransa-cumhuriyet' (Dahomey fethi 1892-94), çevre Alman Togo, İngiliz Lagos, İbadan, Borgu; koridor Dagbon/deniz (216 km). Fransız Dahomey kıyısı (Porto-Novo, Cotonou, Ouidah) Abomey ile bitişik olmalıydı; kıyı noktaları Fransız değilse ya da yoksa kopukluk yapaydır. [KAYNAK-UMIT (tam): Ekim 1890 antlaşması Porto Novo ve Kotonu'yu Fransa'ya bıraktı; 1892 Dodds seferi: Fransızlar Abomey'e 17 Kasım 1892'de girdi; Whydah ve çevresi 3 Aralık 1892'de ilhak, geri kalanı himaye altına alındı; Behanzin 25 Ocak 1894'te teslim oldu. — \"entered by the French troops on the 17th of November\" · Hüküm doğru: Porto-Novo/Cotonou Fransız f 1890 (düzeltmedeki 1883 EB'de yok), Abomey Fransız 1892-11-17 civarı, Whydah ilhak 1892-12-03, Behanzin 1894-01-25. Atlas 1893-1898 Abomey kısmı yerine 1892-11-17'den başlamalı. Kaynak eski ansiklopedi (EB 1911).]",
 "duzeltme": "Porto-Novo, Cotonou, Ouidah fransa f günleri (1883 himaye, 1892 fetih) kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "EB 1911 (Wikisource), 'Dahomey', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Dahomey · önceki: veri ölçümü"
 },
 "K179": {
 "hukum": "GERCEK",
@@ -635,18 +635,18 @@
 "K180": {
 "hukum": "YAPAY",
 "kova": "YAPAY-m",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Tirol + Ön Avusturya (Innsbruck, Bregenz, Feldkirch, Freiburg, Konstanz) 1363-1759, Avusturya iç gövdesinden yalnız 0,4 km'lik Salzburg şeridiyle ayrı: petek sınırının değme payı. Tirol 1500'den (Görz mirası, Lienz) Karintiya ile bitişikti; 0,4 km kopukluk motor sınır artefaktı. Ön Avusturya'nın (Breisgau, Konstanz) Tirol'den Svabya ile ayrılığı ayrı ve gerçek bir eksklav olabilir.",
+"guven": "KAYNAKLI",
+"gerekce": "Tirol + Ön Avusturya (Innsbruck, Bregenz, Feldkirch, Freiburg, Konstanz) 1363-1759, Avusturya iç gövdesinden yalnız 0,4 km'lik Salzburg şeridiyle ayrı: petek sınırının değme payı. Tirol 1500'den (Görz mirası, Lienz) Karintiya ile bitişikti; 0,4 km kopukluk motor sınır artefaktı. Ön Avusturya'nın (Breisgau, Konstanz) Tirol'den Svabya ile ayrılığı ayrı ve gerçek bir eksklav olabilir. [KAYNAK-UMIT (kismen): Margaret Maultasch'ın tek çocuğu Meinhard 1363'te ölünce Tirol aynı yıl anlaşmayla Habsburglara geçti; Drava vadisinin üst kısmı (Lienz çevresi) 1500'den beri Tirol'a dahildir. — \"Tirol accordingly passed by agreement in the latter year of the junior branch\" · Tirol 1363'ten Habsburg; Lienz 1500'den Tirol: tarihsel iddia (Tirol Avusturya'nın bir parçası, 1500 Görz mirası) teyitli. Gün (1363-01-26) EB'de yok. 0,4 km koridor motor sorusudur, tarihsel değil. Kaynak EB 1911.]",
 "duzeltme": "Motor sorusu: < 1 km koridor DAR-AYRIM sayılsın; Ön Avusturya ayrı parça olarak ölçülsün.",
-"kaynak": "veri ölçümü (koridor 0,4 km)"
+"kaynak": "EB 1911 (Wikisource), 'Tirol', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Tirol · önceki: veri ölçümü (koridor 0,4 km)"
 },
 "K181": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Tjate (Pedi başkenti) 1879-12-02 → 1898 'ingiltere' (Sekhukhune'nin yenilip yakalandığı Aralık 1879), çevre Transvaal, Svazi, Venda. Pretoria Konvansiyonu (1881-08-03) ile Pedi toprağı Transvaal (ZAR) içinde kaldı; 1881-1898 'ingiltere' yanlış. 1879-1881 İngiliz Transvaal'ı atlasta 'transvaal' görünüyorsa o da ayrı borç.",
+"guven": "KAYNAKLI",
+"gerekce": "Tjate (Pedi başkenti) 1879-12-02 → 1898 'ingiltere' (Sekhukhune'nin yenilip yakalandığı Aralık 1879), çevre Transvaal, Svazi, Venda. Pretoria Konvansiyonu (1881-08-03) ile Pedi toprağı Transvaal (ZAR) içinde kaldı; 1881-1898 'ingiltere' yanlış. 1879-1881 İngiliz Transvaal'ı atlasta 'transvaal' görünüyorsa o da ayrı borç. [KAYNAK-UMIT (kismen): Pretoria Konvansiyonu 3 Ağustos 1881'de imzalandı; Boerlara İngiliz üstünlüğü altında özyönetim verdi. Sekhukhune/Pedi toprağının bu sınırlara girdiği EB'nin bu maddesinde ayrıca anılmıyor. — \"The terms agreed upon were drawn up in the form of a convention and signed (Aug. 3).\" · 1881-08-03 Pretoria Konvansiyonu günü teyitli; Tjate'nin Transvaal içinde kalması bu kaynakta açık değil. 1881 sonrası 'ingiltere' yanlışlığı muhtemel (EB'ye göre Transvaal'a öz-yönetim), 1898 bitişi için ayrı kaynak gerek.]",
 "duzeltme": "Tjate ingiltere t → 1881-08-03 → transvaal (kaynakla); Transvaal 1877-04-12 → 1881 İngiliz ilhakı kontrol.",
-"kaynak": "veri ölçümü"
+"kaynak": "EB 1911 (Wikisource), 'Transvaal', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Transvaal · önceki: veri ölçümü"
 },
 "K182": {
 "hukum": "YAPAY",
@@ -660,7 +660,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Ji'an 1856-03-02 → 1858-09-22 'taiping', Nanjing gövdesinden Qing toprağıyla ayrı (koridor 80 km 9/9). Shi Dakai'nin Jiangxi seferi (1855-56) birçok Jiangxi şehrini aldı; Ji'an Qing'e 1858'de düştü. Taiping'in Jiangxi'deki öteki şehirleri nokta olarak yoksa alan yanlış, kopukluk büyük ölçüde gerçek.",
+"gerekce": "Ji'an 1856-03-02 → 1858-09-22 'taiping', Nanjing gövdesinden Qing toprağıyla ayrı (koridor 80 km 9/9). Shi Dakai'nin Jiangxi seferi (1855-56) birçok Jiangxi şehrini aldı; Ji'an Qing'e 1858'de düştü. Taiping'in Jiangxi'deki öteki şehirleri nokta olarak yoksa alan yanlış, kopukluk büyük ölçüde gerçek. [KAYNAK-UMIT: giris_gerek — Okunmadı. Ji'an'ın Taiping eline geçişi (Shi Dakai Jiangxi seferi 1855-56) için Cambridge History of China vol. 10 gerek; EB 1911 'Taiping' sayfası bulunamadı.]",
 "duzeltme": "Jiangxi Taiping şehirleri (Ruizhou, Linjiang, Fuzhou) 1856-1858 noktaları kaynakla.",
 "kaynak": "veri ölçümü"
 },
@@ -699,10 +699,10 @@
 "K188": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Cabalpûr 1702-1743 'gond-kralliklari', Gond gövdesinden 5,5 km'lik 'kalacuri-tripuri' şeridiyle ayrı. Tripuri Kalaçurileri 12-13. yüzyılda sona ermiş hanedan; 1702'de 'kalacuri-tripuri' boyası hayalet devlet (künye f 0850, kaynak Britannica). Garha-Mandla Gond krallığı Cabalpûr'u içeriyordu.",
+"guven": "KAYNAKLI",
+"gerekce": "Cabalpûr 1702-1743 'gond-kralliklari', Gond gövdesinden 5,5 km'lik 'kalacuri-tripuri' şeridiyle ayrı. Tripuri Kalaçurileri 12-13. yüzyılda sona ermiş hanedan; 1702'de 'kalacuri-tripuri' boyası hayalet devlet (künye f 0850, kaynak Britannica). Garha-Mandla Gond krallığı Cabalpûr'u içeriyordu. [KAYNAK-UMIT (kismen): 16. yüzyılda Garha-Mandla Gond racası Jubbulpore'u içeren elli iki bölgeye hâkimdi; Akbar'a tâbi olduktan sonra Garha-Mandla prensleri 1781'de Mahratta Saugor valileri tarafından boyunduruk altına alınana dek fiilî bağımsızlığını korudu; İngilizler 1818'de aldı. — \"maintained a practical independence until their subjugation by the Mahratta governors of Saugor in 1781\" · Jubbulpore Gond (Garha-Mandla) toprağı: 'kalacuri-tripuri' hayalet devleti bu çağda yok, hüküm YAPAY doğru yönde. Ama Gond hâkimiyeti 1781'e dek sürer; atlas 1743 bitişi EB'ye göre erken olabilir. Kaynak EB 1911.]",
 "duzeltme": "kalacuri-tripuri künye t ve o kimliği taşıyan noktaların dönemleri kırpılsın (Tripuri/Tewar); toprak Gond'a.",
-"kaynak": "veri ölçümü (devletler.js kalacuri-tripuri)"
+"kaynak": "EB 1911 (Wikisource), 'Jubbulpore', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Jubbulpore · önceki: veri ölçümü (devletler.js kalacuri-tripuri)"
 },
 "K189": {
 "hukum": "YAPAY",
@@ -716,17 +716,17 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Valdivia İspanyol kalesi, Şili gövdesinden (atlas 'ispanyol-peru') Mapuche Araukanya'sı ile ayrı (koridor 384 km): bilinen gerçek eksklav (1645 yeniden kuruluş - 1820). Borçlar: (i) 1599-1645 Valdivia yıkıktı (1643 Hollanda işgali); (ii) Cochrane Valdivia'yı Şubat 1820'de aldı, atlas 1826-01-14'e (Chiloé'nin teslimi) dek İspanyol tutuyor; (iii) 'ispanya' ile 'ispanyol-peru' iki kimlik.",
+"gerekce": "Valdivia İspanyol kalesi, Şili gövdesinden (atlas 'ispanyol-peru') Mapuche Araukanya'sı ile ayrı (koridor 384 km): bilinen gerçek eksklav (1645 yeniden kuruluş - 1820). Borçlar: (i) 1599-1645 Valdivia yıkıktı (1643 Hollanda işgali); (ii) Cochrane Valdivia'yı Şubat 1820'de aldı, atlas 1826-01-14'e (Chiloé'nin teslimi) dek İspanyol tutuyor; (iii) 'ispanya' ile 'ispanyol-peru' iki kimlik. [KAYNAK-UMIT: bulunamadi — Okunamadı: Valdivia 1599-1645 yıkıklığı, Cochrane Şubat 1820 için DCB/Treccani yerine Cambridge History of Latin America (Chile) ya da Diccionario Biográfico de Chile gerek.]",
 "duzeltme": "Valdivia 1599-1645 dönemi kırp/beyan; ispanya t → 1820-02 (kaynakla) → sili; Chiloé ayrı.",
 "kaynak": "veri ölçümü"
 },
 "K191": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Keşmir 1765 → 1819-07-05 'afgan-durrani' (bitiş Şopiyan, Sih fethi), koridor 8,6 km Sih. Keşmir Dürrânî valiliğiydi, ama Cammû Dogra racalığıydı (Afgan değil; 1808'den Sih tâbi). Cammû'nun Afgan boyası Keşmir'i yanlış biçimde güneye uzatıyor; 8,6 km koridor da değme payı.",
+"guven": "KAYNAKLI",
+"gerekce": "Keşmir 1765 → 1819-07-05 'afgan-durrani' (bitiş Şopiyan, Sih fethi), koridor 8,6 km Sih. Keşmir Dürrânî valiliğiydi, ama Cammû Dogra racalığıydı (Afgan değil; 1808'den Sih tâbi). Cammû'nun Afgan boyası Keşmir'i yanlış biçimde güneye uzatıyor; 8,6 km koridor da değme payı. [KAYNAK-UMIT (celiski): Keşmir 1756'da Ahmed Şah Dürrânî'nin üçüncü Hindistan seferinde Afgan eline geçti; 1819'da Ranjit Singh'ce Afganlardan alındı. Cammû ise Sihler tarafından fethedildi, sonra Gulab Singh'in çekirdek toprağı oldu. — \"it remained in the hands of Afghans till it was wrested from them\" · Keşmir Afgan: 1756 (atlas 1765) - 1819 (atlas 1819-07-05 teyitli yıl). Cammû Afgan yazımı yanlış (Sih fethi). Atlas başlangıç yılı 1765 EB'nin 1756'sından farklı; TDV'de bu madde yok. Kaynak EB 1911.]",
 "duzeltme": "Cammû 1765-1819 sahibi (Cammû racalığı / Sih tâbi) kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "EB 1911 (Wikisource), 'Kashmir' ve 'Jammu', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Kashmir · önceki: veri ölçümü"
 },
 "K192": {
 "hukum": "YAPAY",
@@ -739,26 +739,26 @@
 "K193": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Mobile 1762-11-03 → 1803 'yeni-ispanya', çevre İngiliz/Choctaw. Paris 1763 ile Mobile İngiliz Batı Florida'sına geçti (1763-1780); Gálvez 1780'de aldı; 1780-1813 İspanyol. 1762-1780 'yeni-ispanya' yanlış; Fontainebleau yalnız Batı Louisiana ve New Orleans'ı verdi.",
+"guven": "KAYNAKLI",
+"gerekce": "Mobile 1762-11-03 → 1803 'yeni-ispanya', çevre İngiliz/Choctaw. Paris 1763 ile Mobile İngiliz Batı Florida'sına geçti (1763-1780); Gálvez 1780'de aldı; 1780-1813 İspanyol. 1762-1780 'yeni-ispanya' yanlış; Fontainebleau yalnız Batı Louisiana ve New Orleans'ı verdi. [KAYNAK-UMIT (tam): Paris Antlaşması (1763) ile Doğu Louisiana parçası olarak Mobile İngiltere'ye bırakıldı; 14 Mart 1780'de Gálvez komutasındaki İspanyol kuvvet aldı, 1783 antlaşmasıyla İspanya mülkiyeti onaylandı. — \"on the 14th of March 1780 it was captured by a Spanish force\" · Hüküm doğru: Mobile 1763 -> 1780-03-14 ingiltere, sonra yeni-ispanya. 1762-11-03 Fontainebleau'da Mobile Batı Florida'da İngiltere'ye gitti (1763); Atlas 'yeni-ispanya 1762-1780' yanlış. 1763-02-10 günü EB'de yalnız yıl. EB 1911.]",
 "duzeltme": "Mobile 1763-02-10 → 1780-03-14 ingiltere (kaynakla), sonra yeni-ispanya → 1813 (ABD).",
-"kaynak": "veri ölçümü"
+"kaynak": "EB 1911 (Wikisource), 'Mobile', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Mobile · önceki: veri ölçümü"
 },
 "K194": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "İlâhâbâd 1722 → 1765-08-12 'babur', çevre Avad (koridor 176 km). Avad nevvabları 1750'lerden İlâhâbâd sûbesini fiilen tuttu; gerçek Bâbürlü eksklavı ise 1765 Allahabad Antlaşması'ndan SONRA (Şah Âlem'e verilen Allahabad-Kora, 1765-1772). Atlas dönemi tersine kesmiş görünüyor. Kâlincar sahipsiz.",
+"guven": "KAYNAKLI",
+"gerekce": "İlâhâbâd 1722 → 1765-08-12 'babur', çevre Avad (koridor 176 km). Avad nevvabları 1750'lerden İlâhâbâd sûbesini fiilen tuttu; gerçek Bâbürlü eksklavı ise 1765 Allahabad Antlaşması'ndan SONRA (Şah Âlem'e verilen Allahabad-Kora, 1765-1772). Atlas dönemi tersine kesmiş görünüyor. Kâlincar sahipsiz. [KAYNAK-UMIT (celiski): Allahabad 1765'te İngilizlerce Avad vezirinden alındı ve Delhi'nin nominal imparatoru Şah Âlem'e ikametgâh olarak tahsis edildi; Şah Âlem Mahrattalar'a sığınınca yer İngilizlerce geri alındı. — \"Allahabad was taken by the British in 1765 from the wazir of Oudh\" · Atlas 1722-1765 'babur' dedi; EB'ye göre 1765'te şehir Avad vezirinin elindeydi (Avad f 1750'ler). Düzeltme yönünde: 1765 öncesi avad, 1765 sonrası Şah Âlem (Bâbürlü) eksklavı. Gün (1765-08-16) EB'de yok; geri alış yılı EB'de verilmemiş. Kaynak EB 1911; TDV 'Allahâbâd' maddesi bu dönemi anmıyor.]",
 "duzeltme": "İlâhâbâd 1750'ler-1765 avad, 1765-08-16 → 1772 babur (Şah Âlem), 1772 → avad (kaynakla).",
-"kaynak": "veri ölçümü"
+"kaynak": "EB 1911 (Wikisource), 'Allahabad', https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Allahabad · önceki: veri ölçümü"
 },
 "K195": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Rus Hazar eyaletleri (Reşt, Enzeli, Bakü, Salyan, Şâbüran) 1723 → 1735-03-21 (Gence antlaşması), Rus Derbend'inden 16,8 km Safevî şeridiyle ayrı. Rusya 1722'den Derbend'i, 1723'te Bakü'yü tutuyordu; kıyı şeridi bitişikti. Kopukluk Derbend-Şâbüran arası bir noktanın (Kuba?) safevi kalmasından; f 1723-01-01 de Bakü'nün alınışından (Temmuz 1723) önce.",
+"guven": "KAYNAKLI",
+"gerekce": "Rus Hazar eyaletleri (Reşt, Enzeli, Bakü, Salyan, Şâbüran) 1723 → 1735-03-21 (Gence antlaşması), Rus Derbend'inden 16,8 km Safevî şeridiyle ayrı. Rusya 1722'den Derbend'i, 1723'te Bakü'yü tutuyordu; kıyı şeridi bitişikti. Kopukluk Derbend-Şâbüran arası bir noktanın (Kuba?) safevi kalmasından; f 1723-01-01 de Bakü'nün alınışından (Temmuz 1723) önce. [KAYNAK-UMIT (kismen): 1722'de Ruslar Şemâhî'yi zaptetti; İran Mukāsemenâmesi'ne (24 Haziran 1724) göre Bakü ile Şirvan'ın sahil kesimi Ruslar'da kaldı; Nâdir 1735 tarihli Gence Antlaşması ile Derbend ve Bakü'yü geri aldı. Reşt/Enzeli TDV'de yok. — \"1735 tarihli Gence Antlaşması ile Derbend ve Bakü’yü geri aldı.\" · 1735 bitişi teyitli (yıl; 21 Mart günü TDV'de yok). Reşt/Lâhîcan/Fûmen kıyı noktaları Rus idaresi bu kaynaklarda yok: 1723 Petersburg antlaşması (Gilan, Mazenderan, Astarabad Rusya'ya) başka kaynakla bakılmalı.]",
 "duzeltme": "Derbend-Şâbüran kıyı noktaları rusya dönemleri; Bakü rusya f → 1723 Temmuz (kaynakla).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, 'Şirvan' (https://islamansiklopedisi.org.tr/sirvan) ve 'Safeviler' (https://islamansiklopedisi.org.tr/safeviler) · önceki: veri ölçümü"
 },
 "K196": {
 "hukum": "YAPAY",

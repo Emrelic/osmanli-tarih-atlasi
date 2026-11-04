@@ -44,39 +44,39 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "1803-18'de İngilizler Gucerat'ta Surat/Broach/Kaira'yı tuttu; Wadhwan (Kathiawar) ve Dholka doğrudan İngiliz değildi (Dholka 1817-18'e dek Peşva/Gaekwad).",
+"gerekce": "1803-18'de İngilizler Gucerat'ta Surat/Broach/Kaira'yı tuttu; Wadhwan (Kathiawar) ve Dholka doğrudan İngiliz değildi (Dholka 1817-18'e dek Peşva/Gaekwad). [KAYNAK-UMIT: giris_gerek — Okunmadı: archive.org 'ia-oku' IG ciltleri 404 verdi (dosya adları farklı); Imperial Gazetteer Vol. 24 (dli.ministry.14487, 22244.74944_djvu.txt) 'Wadhwan' için bulunamadı (OCR yarım, 590 KB). 'Kaira' (vol. 15) ve 'Dholka' (vol. 11) maddeleri okunmalı. Gun bulunamadı.]",
 "duzeltme": "Wadhwan, Dholka: 1818 öncesi ingiliz-hindistani dönemi kaldırılsın/düzeltilsin; gün bulunamadı.",
 "kaynak": "bulunamadı (Imperial Gazetteer of India 'Kaira', 'Ahmadabad' önerilir)"
 },
 "E007": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Delhi'nin Gucerat fethi 1299 (Ulug Han/Nusret Han), Vaghela 1304'te düştü; arada Racput toprakları. 1297 başlangıcı erken (YAPAY-c kısmı).",
+"guven": "KAYNAKLI",
+"gerekce": "Delhi'nin Gucerat fethi 1299 (Ulug Han/Nusret Han), Vaghela 1304'te düştü; arada Racput toprakları. 1297 başlangıcı erken (YAPAY-c kısmı). [KAYNAK-UMIT (kismen): Alâeddin 1296'da tahta çıktı; beş yıl süren askerî harekâttan sonra Gucerât, Ranthambhor, Çitor, Mândû, Sivana ve Calor'u topraklarına kattı. — \"Gucerât, Ranthambhor, Çitor, Mândû, Sivana ve Calor’u topraklarına kattı\" · TDV Gucerât fethini yılsız, 1296'dan sonraki ~beş yıllık süre içinde sayıyor (yaklaşık 1296-1301); atlas 1297 başı buna aykırı değil ama 1299 TDV'de teyitsiz; Vaghela 1304 de TDV'de yok. Wadhwan/Dholka için gün bulunamadı.]",
 "duzeltme": "Wadhwan/Dholka delhi-sultanligi f 1297 → 1299 (gün bulunamadı).",
-"kaynak": "bulunamadı (TDV 'Alâeddin Halcî' önerilir)"
+"kaynak": "TDV, 'Delhi Sultanlığı', https://islamansiklopedisi.org.tr/delhi-sultanligi · önceki: bulunamadı (TDV 'Alâeddin Halcî' önerilir)"
 },
 "E008": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Çitor 1303'te Delhi'ye düştü; Hammîr 1321 ya da 1326'da geri aldı. 1311 başlangıcı erken; 1326 sonrası gerçek.",
+"guven": "KAYNAKLI",
+"gerekce": "Çitor 1303'te Delhi'ye düştü; Hammîr 1321 ya da 1326'da geri aldı. 1311 başlangıcı erken; 1326 sonrası gerçek. [KAYNAK-UMIT (kismen): Alâeddin Çitor'u Delhi'ye kattı. Hammîr'in geri alışı (1321/1326) TDV'de yok. — \"Gucerât, Ranthambhor, Çitor, Mândû, Sivana ve Calor’u topraklarına kattı\" · Çitor'un Delhi'ye geçişi doğrulandı (yıl yok; 1303 ayrı). 1311 racput f ve 1321/1326 geri alış teyitsiz; IG Mewar/Chitor ya da Cambridge Hist. India okunmalı.]",
 "duzeltme": "Çitor racput f 1311 → 1321/1326 (kaynak çelişkisi ic_not'a); öncesi delhi-sultanligi.",
-"kaynak": "yalnız Vikipedi ipucu — akademik bulunamadı"
+"kaynak": "TDV, 'Delhi Sultanlığı' (https://islamansiklopedisi.org.tr/delhi-sultanligi) · önceki: yalnız Vikipedi ipucu — akademik bulunamadı"
 },
 "E009": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Tek nokta bir bölge adı ('Stavropol–Kuma bozkırı'); Stavropol 1777'de Rus kalesi. Hanlık 1777-83 Rus himayesinde; bölge noktasız emilme.",
+"guven": "KAYNAKLI",
+"gerekce": "Tek nokta bir bölge adı ('Stavropol–Kuma bozkırı'); Stavropol 1777'de Rus kalesi. Hanlık 1777-83 Rus himayesinde; bölge noktasız emilme. [KAYNAK-UMIT (kismen): Şâhin Giray 1777 Ocak'ında Rus desteğiyle Taman'daki kabileler ve Nogaylar tarafından han tanındı; son Kırım hanı (1777-1782, 1783). Stavropol/Kuma bozkırı TDV'de geçmiyor. — \"Son Kırım hanı (1777-1782, 1783).\" · Hanlık 1777-83 Rus himayesinde: yıl aralığı doğru. 'Stavropol-Kuma bozkırı' noktası kaynaklanamadı.]",
 "duzeltme": "'Stavropol–Kuma bozkırı' kirim 1777-83 dönemi kaynakla sınansın; yoksa kırp.",
-"kaynak": "bulunamadı (TDV 'Şâhin Giray' önerilir)"
+"kaynak": "TDV, 'Şâhin Giray' (https://islamansiklopedisi.org.tr/sahin-giray) · önceki: bulunamadı (TDV 'Şâhin Giray' önerilir)"
 },
 "E010": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Penza 1663'te Rus kalesi olarak kuruldu; 1556-1663 'Penza (nogay)' o devirde yoktu (merdiven ④).",
+"gerekce": "Penza 1663'te Rus kalesi olarak kuruldu; 1556-1663 'Penza (nogay)' o devirde yoktu (merdiven ④). [KAYNAK-UMIT: giris_gerek — Okunmadı. Penza 1663 kale kuruluşu (Rus kaynak, Brockhaus-Efron / BRE) için açık akademik sayfa aranmadı; TDV'de yok.]",
 "duzeltme": "Penza: kur 1663 (gün bulunamadı), nogay dönemleri silinsin; toprak komşu peteklere kalır.",
 "kaynak": "bulunamadı"
 },
@@ -92,7 +92,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Orel 03.10.1941'de Guderian'ın Sevsk–Kromı ekseniyle alındı; ileri uç Alman hattına bağlıydı. 3 günlük kopukluk koridorda (Sevsk, Dmitrovsk, Kromı) nokta olmamasından (koridor yerleşimi 0, ölçüldü). [alt ajan GERÇEK demişti; LAB SALI düzeltti]",
+"gerekce": "Orel 03.10.1941'de Guderian'ın Sevsk–Kromı ekseniyle alındı; ileri uç Alman hattına bağlıydı. 3 günlük kopukluk koridorda (Sevsk, Dmitrovsk, Kromı) nokta olmamasından (koridor yerleşimi 0, ölçüldü). [alt ajan GERÇEK demişti; LAB SALI düzeltti] [KAYNAK-UMIT: giris_gerek — Okunmadı. Orel 3 Ekim 1941 (Guderian, Sevsk-Kromı) için Glantz/Erickson ya da Das Deutsche Reich und der Zweite Weltkrieg vol. 4 gerek; açık erişimli akademik sayfa bulunamadı.]",
 "duzeltme": "Koridora nokta (Sevsk ya da Kromı) + 1941-10 Alman dönemi, kaynakla; yoksa beyanlı kabul.",
 "kaynak": "bulunamadı"
 },
