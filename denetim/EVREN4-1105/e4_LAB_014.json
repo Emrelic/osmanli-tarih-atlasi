@@ -1,0 +1,646 @@
+{
+ "Delvine": [
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:174",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1430-10-09",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV delvine (S. Rizaj, 1994) ve TDV arnavutluk (Bilge, 1991) — sayfa.py ham metin",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV delvine yalnız «XI-XIII. yüzyıllarda Cermhal tepesinde kale olarak yeniden kuruldu» diyor; 1281-1430 arası Bizans sahipliğini (ya da başka bir sahibi) tarihlemiyor. Epir bölgesinde aynı dilimde Epir Despotluğu/Venedik/Sırp sahiplikleri de söz konusu olabilir; Delvine'ye özgü tanıklık yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:174",
+   "alan": "v",
+   "d": "arvanid-sancagi",
+   "f": "1430-10-09",
+   "t": "1537-08-25",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "TDV delvine, Skënder Rizaj, 1994, https://islamansiklopedisi.org.tr/delvine (sayfa.py)",
+   "alinti": "Ancak 1537’ye kadar kesin bir Osmanlı hâkimiyeti sağlanamadı.",
+   "oneri": {
+    "f": "1432 (yıl; ilk temas, tâbiiyet değil)",
+    "t": "1537 (yıl)"
+   },
+   "not": "Alıntı yalnız t ucunu (1537) tarihliyor. f için TDV «Osmanlılar’la ilk teması 1432’de Sinan Paşa’nın akınları» diyor — akın, tâbiiyet değil; 1430-10-09 (Yanya) Delvine'yi kapsadığına dair tanıklık yok. Tahrir ölçütü: kaynak 1537'ye kadar kesin hâkimiyet yok diyor; v dönemi tutmak için ikinci kaynak gerek."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:174",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1537-08-25",
+   "t": "1912-11-28",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV delvine, Skënder Rizaj, 1994, https://islamansiklopedisi.org.tr/delvine (sayfa.py ham metin)",
+   "alinti": "Burası bir sancak haline getirilerek Osmanlı topraklarına katıldı",
+   "oneri": {},
+   "not": "f ucu YIL düzeyinde (1537, Kanûnî Korfu seferi, Ayas Paşa); gün (08-25) teyitsiz. ÖLÇÜT: idareye katma — TDV «sancak beyi, kadı ve dizdar tayin edildi». t ucu: TDV Delvine'nin 15 Kasım 1912'de Osmanlı idaresinden ayrılıp Arnavut Prensliği'ne katıldığını yazıyor (atlas 1912-11-28) — bkz. sonraki satır. Kuzey Epir kuralı (Delvine 1913-12-17'ye dek d osmanli + isg yunanistan?) TDV ile çelişir; ikinci kaynak gerek."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:174",
+   "alan": "s",
+   "d": "arnavutluk-bagimsiz",
+   "f": "1912-11-28",
+   "t": "1939-04-07",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "TDV delvine, Skënder Rizaj, 1994; TDV arnavutluk, M. L. Bilge, 1991 (sayfa.py)",
+   "alinti": "Şehir 15 Kasım 1912’de Osmanlı idaresinden ayrılarak yeni teşkil edilen Arnavut Prensliği’ne katıldı",
+   "oneri": {
+    "f": "1912-11-15"
+   },
+   "not": "TDV delvine f için 15 Kasım 1912 diyor; TDV arnavutluk Avlonya ilanını 28 Kasım 1912 veriyor (iki TDV maddesi arası 13 gün; ilan ÖNCESİ katılma tutarsız). KÜNYE AŞIMI: künye arnavutluk-bagimsiz f 1912-11-28; öneri künye f'sinden 13 gün erken. Ayrıca atlas kuralı (Kuzey Epir: Floransa 1913-12-17'ye kadar isg yunanistan) ile çelişir. Karar Emre'nin; ikinci kaynak aranmalı. Çift-TDV kuralı: yerleşimin kendi maddesi esas."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:174",
+   "alan": "s",
+   "d": "arnavutluk-italyan-koruma",
+   "f": "1939-04-07",
+   "t": "1943-09-08",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "TDV arnavutluk, Mustafa L. Bilge, 1991, https://islamansiklopedisi.org.tr/arnavutluk (sayfa.py)",
+   "alinti": "İtalyanlar’ın 6 Nisan 1939’da ülkesini işgal etmelerinden bir gün önce",
+   "oneri": {
+    "f": "1939-04-06"
+   },
+   "not": "ÜLKE DÜZEYİ. TDV 6 Nisan 1939 diyor (cümle belirsiz: işgal 6'sı mı, Zogu'nun kaçışı mı); atlas 1939-04-07, künye f 1939-04-12. Bilinen tarih 7 Nisan'dır — TDV tarihi uyuşmuyor, ikinci kaynak olmadan değiştirme. Öneri yalnız TDV'nin yazdığı gün olarak beyan edildi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:174",
+   "alan": "s",
+   "d": "arnavutluk-alman-himayesi",
+   "f": "1943-09-08",
+   "t": "1944-11-29",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV arnavutluk, Mustafa L. Bilge, 1991 (sayfa.py)",
+   "alinti": "1943’te ülkenin Almanya tarafından işgal edilmesi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; yalnız YIL (1943) teyitli, gün teyitsiz. KÜNYE AŞIMI: künye f 1943-09-14, dönem f 1943-09-08. t ucu: TDV «29 Kasım 1944 … işgalden kurtulduğu gün»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:174",
+   "alan": "s",
+   "d": "arnavutluk-halk-cumhuriyeti",
+   "f": "1944-11-29",
+   "t": "1991-04-29",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV arnavutluk, Mustafa L. Bilge, 1991, https://islamansiklopedisi.org.tr/arnavutluk (sayfa.py ham metin)",
+   "alinti": "Bugünkü Arnavutluk’un resmî kuruluş tarihi, işgalden kurtulduğu gün olan 29 Kasım 1944’tür.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f GÜN teyitli. TDV 1991 baskısı (3. cilt) — «Halk Cumhuriyeti» adı 1976 anayasasıyla; 1946 anayasa/Halk Cumhuriyeti ilanı bu okumada görülmedi. t (1991-04-29) TDV kapsamı dışında."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_epir.js:174",
+   "alan": "s",
+   "d": "arnavutluk-cumhuriyeti",
+   "f": "1991-04-29",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV arnavutluk (1991 baskısı, 1991 sonrası olayları kapsamıyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV 1991 baskısıdır; 29 Nisan 1991 anayasal değişiklik ve Cumhuriyet adı bu kaynakta yok. Başka kaynak (Treccani/akademik) bu turda aranmadı ama TDV'nin kapsamadığı görüldü."
+  }
+ ],
+ "Cicel": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:607",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV cezayir (şehir), arama özeti «1513’ten beri Cicelli’nin hâkimi olan Oruç Reis»; TDV cezayir (ülke, S. Erinç/N. Saîdûnî) ve TDV oruc-reis (sayfa.py)",
+   "alinti": "Muvahhidler’den sonra Doğu Cezayir Tunus’taki Hafsî Devleti’ne (1228-1574) tâbi oldu",
+   "oneri": {
+    "t": "1513 (yıl; Oruç Reis Cicel'i alınca) — TDV oruc-reis ile çelişkili: 1514 sonrası"
+   },
+   "not": "Alıntı yalnız bölge sahibini (Doğu Cezayir → Hafsî, Orta/Batı → Abdülvâdî/Zeyyânî) veriyor; Cicel Doğu Cezayir'de olduğundan s zeyyani yerine hafsi olabilir (ÜLKE DÜZEYİ, kontrol gerek). Cicel'i Oruç Reis ele geçirdi: TDV cezayir arama özeti «1513’ten beri Cicelli’nin hâkimi» (arama sonucu parçası, tam madde okunmadı) vs TDV oruc-reis 1514 baharı seferlerinden sonra «Cicel Kalesi’ni zaptettiler» (yıl yok). İki TDV çelişkisi beyan: seçmedim. 1513/14-1519 arası Oruç/Hızır Cicel sultanlığı — künyesiz; 1519-09-01 TDV'ye göre çok erken (arîza Ekim 1519)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:607",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "TDV cezayir, Sırrı Erinç / Nâsırüddin Saîdûnî, https://islamansiklopedisi.org.tr/cezayir (sayfa.py ham metin)",
+   "alinti": "Cezayir halkının Ekim 1519 tarihli arîzasıyla Yavuz Sultan Selim’e göndererek yardım istedi",
+   "oneri": {
+    "f": "1519-10-01 (ay hassasiyeti: Ekim 1519 arîza; gün teyitsiz)"
+   },
+   "not": "ÜLKE DÜZEYİ. Arîza Ekim 1519; Yavuz Selim Hızır’ı Cezayir hâkimi olarak tanıdı, hutbe padişah adına okundu → 1519-09-01 arîzadan ÖNCE. TDV ayrıca «Cezayir doğrudan doğruya bir Osmanlı beylerbeyiliği haline geldi (1534)» — d (doğrudan) mü v mü ayrımı için 1534 ikinci aday; ölçütü Emre seçer."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:607",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV cezayir, Sırrı Erinç / Nâsırüddin Saîdûnî (sayfa.py ham metin)",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f ve t YIL düzeyinde (1671, 1830), gün teyitsiz. t gününün (5 Temmuz 1830) cümlesi bu oturumda sayfa.py ile yeniden okunmadı (kayıtlı kaynak:'tan)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:607",
+   "alan": "v",
+   "d": "konstantin-beyligi",
+   "f": "1830-07-05",
+   "t": "1839-05-13",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV cezayir (ülke), TDV cicel arama sonuçları; Fransız işgali 1839 için yalnız ipucu: Britannica/geneawiki (kabul dışı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV cezayir: Kostantîne Emîri Ahmed Bey 1830'dan sonra direndi, Fransızlar Kostantîne'yi 13 Ekim 1837'de aldı, Ahmed Bey 1848'de teslim; Cicel'in Kostantîne beyliğine bağlı olduğu veya 1839-05-13'te Fransızlara geçtiği TDV'de yok. İpucu (kabul dışı): 13 Mayıs 1839 Fransız işgali (geneawiki / Britannica arama özeti)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:607",
+   "alan": "s",
+   "d": "cezayir",
+   "f": "1962-07-05",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV cezayir, Sırrı Erinç / Nâsırüddin Saîdûnî (sayfa.py)",
+   "alinti": "1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; yalnız YIL (1962) teyitli. 5 Temmuz günü okunan metinde bulunmadı (referandum 1 Temmuz); gün teyitsiz."
+  }
+ ],
+ "Cilfe (Djelfa)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:229",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV cezayir, Sırrı Erinç / Nâsırüddin Saîdûnî (sayfa.py ham metin)",
+   "alinti": "Orta ve Batı Cezayir ise Tilimsân’da kurulan Abdülvâdîler’in (1235-1550) idaresine girdi",
+   "oneri": {},
+   "not": "ÜLKE/BÖLGE DÜZEYİ (Orta Cezayir); Cilfe'ye özgü tanıklık yok, iç bölge (bedevî) olduğundan beyanlı yaklaşıklık. f ucu: Abdülvâdî/Zeyyânî 1235-1550 kapsıyor. t ucu: TDV Abdülvâdîler'i 1550'ye uzatıyor; 1519-09-01 Cilfe için kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:229",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "TDV cezayir, Erinç/Saîdûnî (sayfa.py)",
+   "alinti": "Cezayir halkının Ekim 1519 tarihli arîzasıyla Yavuz Sultan Selim’e göndererek yardım istedi",
+   "oneri": {
+    "f": "1519-10-01 (ay; gün teyitsiz)"
+   },
+   "not": "ÜLKE DÜZEYİ; 1519-09-01 arîzadan önce. Cilfe iç bölge: Osmanlı idaresinin (tahrir/sancak) Cilfe'ye ulaştığına dair tanıklık yok; ABİ MERKEZ Cezayir beylerbeyiliği. Doğrudan beylerbeyilik 1534."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:229",
+   "alan": "v",
+   "d": "cezayir-ocagi",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV cezayir (sayfa.py ham metin)",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; YIL düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:229",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1852-12-04",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "TDV cezayir (sayfa.py): Emîr Abdülkādir'in Tâfnâ Antlaşması (30 Mayıs 1837)",
+   "alinti": "Emîr Abdülkādir’in ülkenin batısıyla güneyindeki hâkimiyetini ve silâhlanmasını kabul ve teyit eden",
+   "oneri": {
+    "d": "KUNYE-ADAYI: Emîr Abdülkâdir Emirliği (künye var mı ölç)",
+    "alan": "s"
+   },
+   "not": "ÜLKE DÜZEYİ, ABİ MERKEZ yaklaşımı: Cilfe (Cezayir güneyi) Fransız işgali öncesi Abdülkādir'in güney hâkimiyet alanında olabilir; tanıklık Cilfe'ye özgü değil. 1852 kuruluşu (Fransız askerî üssü) için kabul edilen kaynak bulunamadı: yalnız ipucu — Britannica «founded in 1852 as a French military post», geneawiki (Kasım-Aralık 1852, Yousouf kolu) — kabul dışı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:229",
+   "alan": "s",
+   "d": "cezayir",
+   "f": "1962-07-05",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV cezayir (sayfa.py)",
+   "alinti": "1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; yalnız YIL; 5 Temmuz günü bulunmadı."
+  }
+ ],
+ "Bâce (Béja)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:370",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1574-08-25",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV tunus, 5 bölüm, https://islamansiklopedisi.org.tr/tunus (sayfa.py ham metin)",
+   "alinti": "yaklaşık üç asır hüküm sürdüler (1228-1574)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Tunus); TDV'de «bace» slug'ı arama sayfasına düştü, Bâce maddesi okunamadı. f=1281 atlas başı (Hafsî 1228'den); t: TDV 24 Ağustos 1574 Halkulvâdî, 12 Eylül 1574 Tunus şehri — 08-25 Bâce için doğrulanmadı, YIL düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:370",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV tunus (sayfa.py ham metin)",
+   "alinti": "1574’te geri alınıp kesin biçimde Osmanlı topraklarına katıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL düzeyi; 24 Ağustos 1574 (Halkulvâdî) ≈ atlas 08-25; Tunus şehri 12 Eylül 1574."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:370",
+   "alan": "v",
+   "d": "tunus-ocagi",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV tunus (sayfa.py ham metin)",
+   "alinti": "1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi oldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; yalnız YIL (1705), gün teyitsiz. t: Bardo 12 Mayıs 1881 (sonraki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:370",
+   "alan": "v",
+   "d": "tunus-beyligi-fransiz",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV tunus (sayfa.py ham metin)",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f GÜN teyitli (imza günü). TEK ÖLÇÜ/himaye: TDV Mersâ Antlaşması 8 Haziran 1883 «Tunus himaye adı altında Fransa’nın resmen idaresine girdi»; Fransız himayesi atlasta v. Zincirdeki isg fransa-cumhuriyet 1881-05-12 satırı hedef dışı ama v ile çakışıyor."
+  }
+ ],
+ "Cavnpur (Jaunpur)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:362",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1359-01-01",
+   "t": "1394-01-01",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV jaunpur, S. A. A. Rizvî, 2001, https://islamansiklopedisi.org.tr/jaunpur (sayfa.py ham metin)",
+   "alinti": "760’ta (1359) Sultan Fîrûz Şah Tuğluk tarafından kurulmuştur",
+   "oneri": {},
+   "not": "YIL düzeyi (760 H / 1359). Delhi Sultanlığı (Tuğluk) sahipliği kuruluşla örtük. t: TDV «Şarkî sultanlarının döneminde (1394-1483)» → 1394 YIL doğrulandı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:362",
+   "alan": "s",
+   "d": "cavnpur-sultanligi",
+   "f": "1394-01-01",
+   "t": "1479-01-01",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV jaunpur, S. A. A. Rizvî, 2001 (sayfa.py)",
+   "alinti": "Jaunpûr, Şarkî sultanlarının döneminde (1394-1483)",
+   "oneri": {},
+   "not": "f YIL düzeyinde teyitli. t UCU ÇELİŞKİ: atlas 1479, TDV 1483 (künye de 1483) — bkz. sonraki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:362",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1479-01-01",
+   "t": "1526-04-21",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "TDV jaunpur, S. A. A. Rizvî, 2001 (sayfa.py)",
+   "alinti": "Jaunpûr, Şarkî sultanlarının döneminde (1394-1483)",
+   "oneri": {
+    "f": "1483-01-01 (yıl)"
+   },
+   "not": "TDV Şarkî dönemini 1483'te bitiriyor; 1479-1483 arası Cavnpur kalmalı. 1479 başka bir kaynakta Behlûl Lodî'nin fethi olabilir (aranmadı); KÜNYE cavnpur-sultanligi t=1483 de bunu destekliyor. t (1526) bu okumada yok; TDV 1495'te İskender Lûdî'nin Jaunpûr'da kalışından söz ediyor (Lodî hâkimiyeti)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:362",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1775-01-01",
+   "t": "1947-08-15",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, 1908, v.14, «Jaunpur City/District» (archive.org in.ernet.dli.2015.135659, ia-oku ham metin)",
+   "alinti": "On the acquisition of the province of Benares in 1775, Jaunpur became British territory",
+   "oneri": {},
+   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | IGI 1908 (tek başına; ikinci akademik kaynak aranmadı). YIL düzeyi; gün teyitsiz. Ara dönemler (Babür 1526, Sûr, Avad 1722) bu turda hedef değil. Aynı kaynak: «The District was ceded to the British in 1775»."
+  }
+ ],
+ "Chambéry": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:245",
+   "alan": "s",
+   "d": "savoya",
+   "f": "1281-01-01",
+   "t": "1720-08-02",
+   "uc": "t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: Treccani Dizionario di Storia «Savoia» (sayfa.py), HLS «Savoie» (403 Forbidden), Treccani Enciclopedia Italiana «Chambéry» (eski başvuru eseri, yalnız ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Chambéry'nin 1281-1720 Savoya sahipliğini yerleşime özgü kabul edilen kaynak yok. Treccani Savoia: «cui furono costretti a rinunciare in cambio di quella di Sardegna (1720)» → YIL 1720 ülke düzeyinde (alıntı yalnız t ucunu tarihliyor). Treccani Ens. Italiana (1929-37, ipucu): Chambéry 1560'a dek Savoya başkenti."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:245",
+   "alan": "s",
+   "d": "sardinya-piyemonte",
+   "f": "1720-08-02",
+   "t": "1792-11-27",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Dizionario di Storia, «Savoia», https://www.treccani.it/enciclopedia/savoia_(Dizionario-di-Storia)/ (sayfa.py ham metin)",
+   "alinti": "cui furono costretti a rinunciare in cambio di quella di Sardegna (1720)",
+   "oneri": {},
+   "not": "ÜLKE/HANEDAN DÜZEYİ (Savoya hanedanı, Chambéry hanedan toprağı); YIL düzeyi, gün (08-02) teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:245",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-11-27",
+   "t": "1815-11-20",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Dizionario di Storia, «Savoia» (sayfa.py)",
+   "alinti": "dovettero rinunciare (Pace di Parigi, 1796) alla S. e a Nizza",
+   "oneri": {
+    "f": "1796-01-01 (yıl; hukukî devir)"
+   },
+   "not": "Kayıtlı 1792-11-27 Konvansiyon ilhakıdır (MJP, kayıtta); Treccani Savoya'nın 1796 Paris Barışı'yla feragatini yazıyor. TEK KURAL: ilhak günü s'ye esas (1792 kalabilir) — hukukî devir 1796. Karar Emre'nin; gün veren ikinci kaynak aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:245",
+   "alan": "s",
+   "d": "sardinya-piyemonte",
+   "f": "1815-11-20",
+   "t": "1860-06-14",
+   "uc": "t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: Treccani Dizionario di Storia «Savoia» (sayfa.py); HLS «Savoie» (403)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f (1815-11-20) için Chambéry'ye özgü gün bulunamadı. Treccani: «aveva ceduto (1860) Nizza e la S. alla Francia» → t YIL 1860 ülke düzeyi (alıntı yalnız t ucunu tarihliyor); 14 Haziran gün teyitsiz. Arama özeti (kabul dışı): devir 24 Mart 1860 Torino antlaşması."
+  }
+ ],
+ "Debrecen": [
+  {
+   "dosya_satir": "data/yerlesimler_kdmacar.js:114",
+   "alan": "v",
+   "d": "erdel",
+   "f": "1541-08-29",
+   "t": "1551-07-26",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV erdel (sayfa.py), TDV varad, TDV debrecen (madde yok, arama özetleri)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV erdel: «1541’de Erdel Osmanlılar’a bağlı haraçgüzâr statüsünde bir voyvodalık haline geldi» — ERDEL ülke düzeyi YIL; Debrecen'in o tarihte Erdel'e (János Zsigmond/Izabella) ait olduğu doğrudan yok. Debrecen için TDV'de madde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kdmacar.js:114",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1551-07-26",
+   "t": "1557-01-01",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV varad (sayfa.py), TDV erdel",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV varad yalnız «Şehir (Varad) bundan sonra Habsburglar’ın ya da Erdel prenslerinin hâkimiyetine girdi» diyor (tarihsiz). Kayıtlı MTA HoT 102-103 ABİ MERKEZ zinciri sürüyor; yeni kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kdmacar.js:114",
+   "alan": "v",
+   "d": "erdel",
+   "f": "1557-01-01",
+   "t": "1660-08-27",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV erdel, TDV varad (sayfa.py)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV erdel 1557'yi yalnız üç milletin dinî eşitliği için anıyor (Torda), egemenlik değişimi değil. t ucu: TDV varad 27 Ağustos 1660 Varad'ın alınışı (ABİ MERKEZ Varad)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kdmacar.js:114",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1660-08-27",
+   "t": "1692-06-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV varad, Mehmet Yaşar Ertaş vb. (madde), https://islamansiklopedisi.org.tr/varad (sayfa.py ham metin)",
+   "alinti": "Varad Kalesi ve şehri alındı, Varad eyaleti teşkil edildi",
+   "oneri": {},
+   "not": "ABİ MERKEZ: Varad (27 Ağustos 1660'ta alındı, TDV). Aynı madde: «Varad merkezli yeni eyaletin Varad dışında beş sancağı vardı: Salanta/Salonta, Debrecen, Halmaş» → Debrecen Varad eyaletinin sancağı; sancağın kuruluş günü ayrı verilmiyor (gün Varad'dan devralındı, beyanlı yaklaşıklık). ÖLÇÜT: idareye katma (sancak). t: TDV «Bölgedeki Osmanlı hâkimiyeti 1692 yılına kadar sürdü» — YIL; gün (06-05) teyitsiz."
+  }
+ ],
+ "Dera İsmail Han": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:104",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1739-01-01",
+   "t": "1747-10-01",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: IGI v.11 «Dera Ismail Khan District» (archive.org TheImperialGazetteerOfIndia-Volume11); Punjab District Gazetteer DIK 1883 (gaz-dera-ismail-khan-1883, OCR)",
+   "alinti": "",
+   "oneri": {},
+   "not": "IGI 1908 v.11'de Nadir Şah dönemi yok; yer_kaynak'ta anılan DIK 1883 s.29 cümlesi bu oturumda OCR metninde anahtar eşleşmesi vermedi (OCR bozuk). Nadir Şah 1739 devri bu turda kaynakla görülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:104",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1747-10-01",
+   "t": "1821-01-01",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, 1908, v.11, «Dera Ismail Khan District», s.262 (archive.org TheImperialGazetteerOfIndia-Volume11, ia-oku ham metin)",
+   "alinti": "until reduced to vassalage by Ahmad Shih Durrani about 1750",
+   "oneri": {
+    "f": "1750-01-01 (yaklaşık yıl)"
+   },
+   "not": "IGI: Hot ailesi 300 yıl «practical independence» sonra Ahmed Şah Dürrânî'ce tâbi kılındı (~1750); 1794 Zaman Şah Muhammed Han'a Nevab unvanı verdi. IGI tek başına (IGI 1908). Künye durrani f 1747-10-01. Tâbiiyet vs doğrudan idare: ÖLÇÜT: kaynak vassalage diyor → s mi v mi Emre'ye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:104",
+   "alan": "s",
+   "d": "sih-imparatorlugu",
+   "f": "1821-01-01",
+   "t": "1849-03-29",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, 1908, v.11, «Dera Ismail Khan District» (archive.org, ia-oku ham metin)",
+   "alinti": "remained independent till 1836, when Nao Nihal Singh deposed Muhammad",
+   "oneri": {
+    "f": "1836-01-01 (yıl)"
+   },
+   "not": "IGI: 1821'de Hafız Ahmed Han Mankera'da Ranjit Singh'e teslim oldu, Tank/Sûgar beylerine haraç kondu, Dera Fateh Han işgal edildi; AMA Dera İsmail Han 1836'ya dek bağımsız kaldı, o yıl Nao Nihal Singh Muhammed Han'ı azledip Diwan Lakhi Mal'ı Kardar atadı (idareye katma). ÖLÇÜT: idareye katma — 1836. DIK 1883 (OCR): «In 1836 the Sikhs annexed the Nawâb’s remaining territory». 1821 yalnız haraç/Mankera."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:104",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1849-03-29",
+   "t": "1947-08-15",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "Punjab District Gazetteer, Dera Ismail Khan 1883-84, içindekiler bölümü (archive.org gaz-dera-ismail-khan-1883, OCR)",
+   "alinti": "Annexation of the Punjab a.p. 1849",
+   "oneri": {},
+   "not": "LAB PAZAR: alıntı arama özeti / içindekiler OCR'ından, madde gövdesi değil — ONERI. | ÜLKE DÜZEYİ (Pencap ilhakı); yalnız YIL (1849) bu okumada teyitli, 03-29 gün yerleşim kaynağında okunmadı. ZAYIF: tek kaynak içindekiler satırı. DIK 1883: «on the British occupation in 1849» (Leiah için)."
+  }
+ ],
+ "Derc (Derj)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:388",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1551-08-15",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV trablusgarp, https://islamansiklopedisi.org.tr/trablusgarp (sayfa.py ham metin)",
+   "alinti": "Hafsî Hükümdarı Ebû Zekeriyyâ Yahyâ döneminde (1228-1249) Hafsî hâkimiyetine girdi",
+   "oneri": {},
+   "not": "ÜLKE/BÖLGE DÜZEYİ (Trablusgarp); Derc iç/güney bölge, Derc'e özgü tanıklık yok. Not: TDV Ammâroğulları hânedanı 1327-1401 ve «Hafsîler’in hâkimiyeti 1510 yılına kadar» sürdü diyor (Trablusgarp şehri; 1510 İspanyol Oliveto Kontu) — Hafsî sahipliği Trablusgarp'ta nominal/yerel olabilir. t: 1551-08-15 şehir alınışı (sonraki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:388",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV trablusgarp (sayfa.py ham metin)",
+   "alinti": "Osmanlı donanması şehri ele geçirdi (12 Şâban 958/15 Ağustos 1551)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, GÜN: Trablusgarp ŞEHRİ 15 Ağustos 1551. Derc için TDV: Murad Ağa «Fizan’a kadar bugünkü Libya Devleti’nin tamamına yakınını Osmanlı topraklarına dahil etti, kabileleri Turgut Reis devlete tâbi kıldı» (1556-65). Derc'in kendi günü yok: beyanlı yaklaşıklık, ABİ MERKEZ Trablusgarp."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:388",
+   "alan": "v",
+   "d": "trablusgarp-ocagi",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV trablusgarp (sayfa.py ham metin)",
+   "alinti": "Karamanlılar döneminde (1711-1835)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f ve t YIL düzeyi; gün (07-29, 05-26) teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:388",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV trablusgarp (sayfa.py ham metin)",
+   "alinti": "1835’te tekrar merkeze bağlanan Trablusgarp’ta",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f YIL (1835). t: TDV «1912’de İsviçre’nin Uşi şehrinde yapılan antlaşma ile … İtalya’ya terkettiğini kabul etti» — yıl; 18 Ekim gün okunmadı. Osmanlı askeri 1918'e dek direndi (fiilî ayrım; Derc iç bölgesi için fiilî İtalyan denetimi sonradan)."
+  }
+ ],
+ "Dorohoi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:753",
+   "alan": "s",
+   "d": "bogdan",
+   "f": "1359-01-01",
+   "t": "1456-06-01",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV romanya (Mustafa L. Bilge vb.), https://islamansiklopedisi.org.tr/romanya (sayfa.py ham metin)",
+   "alinti": "1365’te (1359 yılında oluşan) Boğdan Voyvodalığı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL (1359). Dorohoi kuzey Boğdan'da; yerleşime özgü tanıklık yok (TDV'de Dorohoi maddesi yok, kayıttaki beyan). t ucu: bir sonraki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:753",
+   "alan": "v",
+   "d": "bogdan",
+   "f": "1456-06-01",
+   "t": "1859-02-05",
+   "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "TDV bogdan, Aurel Decei vb. 1992, https://islamansiklopedisi.org.tr/bogdan (sayfa.py ham metin)",
+   "alinti": "Voyvoda Petru Aron 1455 Eylülünden itibaren Osmanlılar’a yılda 2000 altın vermek",
+   "oneri": {
+    "f": "1455-09-01 (ay hassasiyeti)"
+   },
+   "not": "ÜLKE DÜZEYİ. TDV: İstanbul'un fethinden sonra Boğdan Osmanlı'ya tâbi oldu, haraç 1455 Eylülünden. Atlas f 1456-06-01 kaynaksız. t ucu: TDV «5 Şubat 1859’da … Boğdan prensliğine seçilen» Cuza (sonraki dönem f'si ile aynı gün)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:753",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1806-11-30",
+   "t": "1812-05-28",
+   "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV bogdan (sayfa.py; 1806, 'Rus ordusu', 'işgal' anahtarları), TDV romanya",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV bogdan 1806 Rus işgalini anlatmıyor; yalnız «1812 Bükreş Antlaşması gereğince Boğdan’ın doğu kısmı … Rusya’ya bırakıldı» (Prut-Dinyester, Besarabya — Dorohoi Prut'un batısında, bu bırakılan kısımda değil). Kayıtlı kaynak ESBE (19. yy kaynağı, ipucu) + TDV akkirman 30 Kasım 1806 (okunmadı bu turda)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:753",
+   "alan": "v",
+   "d": "romanya",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV bogdan, Aurel Decei vb. 1992 (sayfa.py ham metin); TDV romanya",
+   "alinti": "5 Şubat 1859’da Besarabya’nın üç vilâyetinin yönetimi de dahil olmak üzere Boğdan prensliğine seçilen",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f GÜN teyitli (Cuza'nın Boğdan prensliğine seçilişi; Eflak'ta 24 Şubat 1859 — TDV iki prensliğin birleşmesi). t: TDV romanya «9 Mayıs 1877 tarihinde bağımsızlığını ilân etti» — Jülyen 9 Mayıs = Gregoryen 21 Mayıs 1877 (atlas t ile uyumlu; takvim beyanı)."
+  }
+ ]
+}
