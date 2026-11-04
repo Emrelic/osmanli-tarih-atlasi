@@ -1,0 +1,13 @@
+no	dosya_satir	tarih_atlas	kaynak	url	okunan_cumle	hassasiyet	uyum	sonuc
+L2-1630	data/devletler.js#mangbetu#7	1895-01-01	akademik sayfa bulunamadı			yil	KISMEN	BULUNAMADI
+L2-1631	data/devletler.js#nkore#4	1895-01-01	akademik sayfa açılmadı (arama: kawa.ac.ug Mbaguta biyografisi ve Monitor gazetesi, ikisi uygun değil)			yil	UYUMLU	BULUNAMADI
+L2-1632	data/devletler.js#portekiz-mozambik#7	1895-11-07	akademik sayfa açılmadı (arama Vikipedi/ANPUH sempozyum bildirisi; gün ikincil kaynakta 7 Kasım 1895)			gun	UYUMLU	BULUNAMADI
+L2-1633	data/devletler.js#antandroy#7	1896-01-01	akademik sayfa bulunamadı			yil	KISMEN	BULUNAMADI
+L2-1634	data/devletler.js#bemba#7	1896-01-01	akademik sayfa bulunamadı (Roberts, JAH 11/2 1970 aday; açılmadı)		LAB: aday akademik kaynak (Roberts, JAH 11/2 1970) açılmadı → CEKILEMEDI	yil	KISMEN	CEKILEMEDI
+L2-1636	data/devletler.js#ingiliz-nyasaland#4	1896-10-27	akademik sayfa bulunamadı			gun	KISMEN	BULUNAMADI
+L2-1637	data/devletler.js#ngoni#3	1896-10-27	akademik sayfa bulunamadı			gun	KISMEN	BULUNAMADI
+L2-1639	data/devletler.js#mecklenburg-schwerin#9	1897-01-01	Deutsche Biographie kaydı (GND 102665591) — yalnız yaşam yılları ve unvan, 1897 tahta çıkış yok	https://www.deutsche-biographie.de/pnd102665591.html	Großherzog von Mecklenburg-Schwerin	yil	KISMEN	BULUNAMADI
+L2-1640	data/devletler.js#portekiz-mozambik#9	1898-01-01	akademik sayfa bulunamadı (yıl 1898 yalnız ikincil kaynaklarda)			yil	UYUMLU	BULUNAMADI
+L2-1641	data/devletler.js#ispanyol-kuba#4	1898-12-10	Treaty of Paris 1898 (Avalon Project, Yale) — yayımlanmış antlaşma metni	https://avalon.law.yale.edu/19th_century/sp1898.asp	Done in duplicate at Paris, the tenth day of December, in the year of Our Lord one thousand eight hundred and ninety-eight. | Spain relinquishes all claim of sovereignty over and title to Cuba. | NOT: Madde XVII onaylar Washington'da 6 ay içinde teati edilir; 10 Aralık İMZA günüdür, egemenlik devri ve ABD işgal idaresi başka gün (atlas notu zaten 1 Ocak 1899 fiilî devri belirtiyor)	gun	KISMEN	DOGRULANDI
+L2-1643	data/devletler.js#ingiliz-kuzey-rodezya#1	1899-01-01	Hansard (Lordlar) 15 Şubat 1900 sayfası 1899 Barotziland/Kuzeybatı Rodezya Order'ını anmıyor; akademik sayfa bulunamadı	https://api.parliament.uk/historic-hansard/lords/1900/feb/15/foreign-jurisdiction-act-1890		yil	KISMEN	BULUNAMADI
+L2-1644	data/devletler.js#rabih#5	1899-07-17	Académie des sciences d'outre-mer, Prins 'Une histoire inconnue de l'Afrique centrale' kitap tanıtımı — PDF sıkıştırılmış, metin okunamadı	https://www.academieoutremer.fr/images/files/Histoire-inconnue-%2859_600%29.pdf		gun	UYUMLU	CEKILEMEDI
