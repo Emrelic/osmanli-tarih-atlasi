@@ -2710,13 +2710,11 @@
    "d": "ingiliz-hindistani",
    "f": "1803-09-11",
    "t": "1947-08-15",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "TDV İslâm Ansiklopedisi, «Delhi» md. (https://islamansiklopedisi.org.tr/delhi); TDV İslâm Ansiklopedisi, «Bâbürlüler» md. (https://islamansiklopedisi.org.tr/baburluler)",
    "alinti": "Bahadır Şah’tan idareyi teslim almalarına kadar sürdürmüştür. ... 1858’de İngilizler’in son Bâbürlü sultanı",
-   "oneri": {
-    "f": "ÇELİŞKİ: TDV Delhi: Bâbürlü sultanı idaresi 1858'e kadar; atlas ingiliz f=1803-09-11"
-   },
-   "not": "KURAL KARARI (F8, de jure/fiilî): TDV Delhi md. şehrin 1858'de İngilizler'in son Bâbürlü sultanı Bahadır Şah'tan 'idareyi teslim almalarına kadar' Müslüman sultanlıkların merkezi olduğunu söylüyor; TDV Bâbürlüler md. Şah Âlem'in (1760-1806) Baksar'dan sonra 'İngilizler’in himayesini kabul ettiğini' yazıyor (YIL yok). 1803-09-11 günü TDV'de YOK. Atlas 1803'ten itibaren ingiliz-hindistani; de jure devir günü hangisi, KASA/Emre karar vermeli, ben değiştirmedim. 1911'de İngilizler idare merkezini Kalküta'dan Delhi'ye taşıdı (TDV Delhi). Bağımsız Hindistan'ın başşehri 1947 (TDV Delhi)."
+   "oneri": {},
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026): f 1803-09-11 KALIR (fiilî denetim, Delhi Muharebesi); ic_not: TDV 1858 = Bâbür nominal sonu / Taç yönetimi. Künye ingiliz-hindistani TEK kalır (EIC/Taç ayrımı 1858-08-02 Emre karar listesinde; haritada görünür fark yok, renk/tuz ister)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:232",
@@ -2882,7 +2880,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Fârûkîler» md. (https://islamansiklopedisi.org.tr/farukiler)",
    "alinti": "Asîrgarh, Satpura dağlarının doğu ucunda Hindu racalarının ve onların emrindeki Racpûtlar’ın oturduğu müstahkem mevki idi.",
    "oneri": {},
-   "not": "Delhi Sultanlığı'nın Asîrgarh'ı 1281-1370 elinde tuttuğu TDV'de YOK: yalnız 'Tuğluklular devrinde ticarî ve askerî bakımdan büyük önem taşıyan yol Asîrgarh’tan geçmekteydi' (sahiplik değil, yol). Sonraki satır: TDV'ye göre Asîrgarh Fârûkîler'den ÖNCE Hindu racaların/Racpûtlar'ın. Baktığım yer: Fârûkîler (Asîrgarh), Burhânpûr, Delhi."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; fiilî denetim ilkesi — TBMM 1920 ve Ege 1912 kararlarıyla tutarlı): öneri uygun. 1370-~1399 arası sahibin künyesi yoksa BOŞLUK DOLDURMA MERDİVENİ (CLAUDE.md): TDV → öteki akademik → komşu devlet kaynakları → yerleşim o devirde var mıydı → ABİ MERKEZ (Burhânpûr/Hândeş). Asîrgarh TDV'ye göre Râcpût (Âsâ Ahîr geleneği) kalesiydi; Râcpût künyesi aranmalı. · Önceki not: Delhi Sultanlığı'nın Asîrgarh'ı 1281-1370 elinde tuttuğu TDV'de YOK: yalnız 'Tuğluklular devrinde ticarî ve askerî bakımdan büyük önem taşıyan yol Asîrgarh’tan geçmekteydi' (sahiplik değil, yol). Sonraki satır: TDV'ye göre Asîrgarh Fârûkîler'den ÖNCE Hindu racaların/Racpûtlar'ın. Baktığım yer: Fârûkîler (Asîrgarh), Burhânpûr, Delhi."
   },
   {
    "dosya_satir": "data/yerlesimler_hindistan.js:86",
@@ -2896,7 +2894,7 @@
    "oneri": {
     "f": "1399 sonrası (Melik Ahmed'in 1399 ölümünden sonra, Nasîr Han) — YIL aralığı; atlas f=1370 ile çelişir"
    },
-   "not": "ÇELİŞKİ: TDV Fârûkîler: hânedan 772/1370'te kuruldu (Melik Ahmed); 'Melik Ahmed’in 1399’da ölümünden sonra yerine Nasîr Han geçti. Nasîr Han ... Asîrgarh’ı Racpûtlar’dan aldı.' Yani Asîrgarh'ın Fârûkîler'e geçişi 1399 SONRASI, 1370 hânedanın kuruluşu. 1370-~1399 Asîrgarh'ın sahibi (Racpûtlar/Hindu raca) TDV'de künyesiz. t=1601: TDV 'Handeş Bâbürlüler’e bağlı eyalet haline getirildi (1009/1601)', Asîrgarh kuşatması 1601'de düştü → atlas t=1601 YIL düzeyinde teyitli."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; fiilî denetim ilkesi — TBMM 1920 ve Ege 1912 kararlarıyla tutarlı): öneri uygun. 1370-~1399 arası sahibin künyesi yoksa BOŞLUK DOLDURMA MERDİVENİ (CLAUDE.md): TDV → öteki akademik → komşu devlet kaynakları → yerleşim o devirde var mıydı → ABİ MERKEZ (Burhânpûr/Hândeş). Asîrgarh TDV'ye göre Râcpût (Âsâ Ahîr geleneği) kalesiydi; Râcpût künyesi aranmalı. · Önceki not: ÇELİŞKİ: TDV Fârûkîler: hânedan 772/1370'te kuruldu (Melik Ahmed); 'Melik Ahmed’in 1399’da ölümünden sonra yerine Nasîr Han geçti. Nasîr Han ... Asîrgarh’ı Racpûtlar’dan aldı.' Yani Asîrgarh'ın Fârûkîler'e geçişi 1399 SONRASI, 1370 hânedanın kuruluşu. 1370-~1399 Asîrgarh'ın sahibi (Racpûtlar/Hindu raca) TDV'de künyesiz. t=1601: TDV 'Handeş Bâbürlüler’e bağlı eyalet haline getirildi (1009/1601)', Asîrgarh kuşatması 1601'de düştü → atlas t=1601 YIL düzeyinde teyitli."
   },
   {
    "dosya_satir": "data/yerlesimler_hindistan.js:87",
@@ -2908,7 +2906,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Fârûkîler» md. (https://islamansiklopedisi.org.tr/farukiler)",
    "alinti": "Bâbürlü ordusu 1601’de Handeş’i istilâ edip Asîrgarh’ı kuşattı; muhasara sonunda şehir Bâbürlüler’in eline geçti.",
    "oneri": {},
-   "not": "KISMEN: f YIL (1601; 1009 H). t=1860 TDV'de yok."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; fiilî denetim ilkesi — TBMM 1920 ve Ege 1912 kararlarıyla tutarlı): öneri uygun. 1370-~1399 arası sahibin künyesi yoksa BOŞLUK DOLDURMA MERDİVENİ (CLAUDE.md): TDV → öteki akademik → komşu devlet kaynakları → yerleşim o devirde var mıydı → ABİ MERKEZ (Burhânpûr/Hândeş). Asîrgarh TDV'ye göre Râcpût (Âsâ Ahîr geleneği) kalesiydi; Râcpût künyesi aranmalı. · Önceki not: KISMEN: f YIL (1601; 1009 H). t=1860 TDV'de yok."
   },
   {
    "dosya_satir": "data/yerlesimler_hindistan.js:88",
@@ -2920,7 +2918,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Fârûkîler» md. (https://islamansiklopedisi.org.tr/farukiler)",
    "alinti": "",
    "oneri": {},
-   "not": "İngiliz dönemi (1860-1947) Asîrgarh için TDV'de YOK; mevcut DEVRALMA ülke düzeyi, okumadım."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; fiilî denetim ilkesi — TBMM 1920 ve Ege 1912 kararlarıyla tutarlı): öneri uygun. 1370-~1399 arası sahibin künyesi yoksa BOŞLUK DOLDURMA MERDİVENİ (CLAUDE.md): TDV → öteki akademik → komşu devlet kaynakları → yerleşim o devirde var mıydı → ABİ MERKEZ (Burhânpûr/Hândeş). Asîrgarh TDV'ye göre Râcpût (Âsâ Ahîr geleneği) kalesiydi; Râcpût künyesi aranmalı. · Önceki not: İngiliz dönemi (1860-1947) Asîrgarh için TDV'de YOK; mevcut DEVRALMA ülke düzeyi, okumadım."
   },
   {
    "dosya_satir": "data/yerlesimler_hindistan.js:89",
@@ -2976,7 +2974,7 @@
    "oneri": {
     "f": "1516-10-03 (TDV: 6 Ramazan 922 = 3 Ekim 1516; Şam'a giriş günü) — atlas 1516-09-27 ile çelişir; Mercidâbık (922/1516) YIL"
    },
-   "not": "ÇELİŞKİ (karar KASA'nın): TDV Şam md. padişahın önce 'Mastaba denilen yerde karargâh kurup kadıların, müftülerin ve ileri gelenlerin itaatlerini kabul ettiğini' (gün yok), sonra 6 Ramazan 922'de (3 Ekim 1516) Şam'a girdiğini yazıyor. Atlas f=1516-09-27 TDV'de YOK (itaat/teslim günü olabilir, kaynak vermiyor). Hicrî çeviri: 6 Ramazan 922 = 1516-10-03 (TDV'nin kendi verdiği Miladî karşılık; tablo kontrolü ±2 gün). t: TDV başlığı 'Osmanlı Dönemi (1516-1918)' YIL; KURAL KARARI (F8): 1918-10-01 İngiliz/Avustralya ordusunun girişi FİİLÎ; de jure devir antlaşma günündedir (Mondros ateşkesi 30 Ekim 1918 değil, barış antlaşması) — atlas t'sini değiştirmedim. BİLGİ (aynı md.): Ekim 1520-Ocak 1521'de Şam Beylerbeyi Canbirdi Gazâlî isyan edip Şam'da hâkimiyeti ele geçirdi, bağımsızlık ilân etti (Ocak 1521 sonunda bastırıldı); Haziran 1771'de Ebü'z-Zeheb Muhammed (Mısır valisi Ali Bey'e tâbi) Şam'ı işgal etti — her ikisi tek d: bloğunda katman olabilir."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; fiilî denetim ilkesi — TBMM 1920 ve Ege 1912 kararlarıyla tutarlı): Şam zinciri kararla uyumlu: 1918-10-01 Arap-İngiliz girişi (fiilî; Faysal yönetimi, Mart 1920'den Suriye Arap Krallığı) → 1920-07-25 Fransız girişi (Meysellûn 24 Temmuz). San Remo (Nisan 1920) hukukî — ic_not beyanı. Günler TDV «Dımaşk» ile teyitli (parti db02); TDV «Meysellûn» ayrıca okunmadı. · Önceki not: ÇELİŞKİ (karar KASA'nın): TDV Şam md. padişahın önce 'Mastaba denilen yerde karargâh kurup kadıların, müftülerin ve ileri gelenlerin itaatlerini kabul ettiğini' (gün yok), sonra 6 Ramazan 922'de (3 Ekim 1516) Şam'a girdiğini yazıyor. Atlas f=1516-09-27 TDV'de YOK (itaat/teslim günü olabilir, kaynak vermiyor). Hicrî çeviri: 6 Ramazan 922 = 1516-10-03 (TDV'nin kendi verdiği Miladî karşılık; tablo kontrolü ±2 gün). t: TDV başlığı 'Osmanlı Dönemi (1516-1918)' YIL; KURAL KARARI (F8): 1918-10-01 İngiliz/Avustralya ordusunun girişi FİİLÎ; de jure devir antlaşma günündedir (Mondros ateşkesi 30 Ekim 1918 değil, barış antlaşması) — atlas t'sini değiştirmedim. BİLGİ (aynı md.): Ekim 1520-Ocak 1521'de Şam Beylerbeyi Canbirdi Gazâlî isyan edip Şam'da hâkimiyeti ele geçirdi, bağımsızlık ilân etti (Ocak 1521 sonunda bastırıldı); Haziran 1771'de Ebü'z-Zeheb Muhammed (Mısır valisi Ali Bey'e tâbi) Şam'ı işgal etti — her ikisi tek d: bloğunda katman olabilir."
   },
   {
    "dosya_satir": "data/yerlesimler.js:876",
@@ -2988,7 +2986,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Şam» md., Osmanlı Dönemi bölümü, Ş. Tufan Buzpınar (https://islamansiklopedisi.org.tr/sam--suriye)",
    "alinti": "Fransızlar temmuzda Suriyeliler’i ağır bir yenilgiye uğrattıktan sonra Şam’a girerek Faysal yönetimine son verdiler (25 Temmuz 1920).",
    "oneri": {},
-   "not": "f GÜN düzeyinde teyitli (25 Temmuz 1920 Fransızların Şam'a girişi) — atlas f=1920-07-25 ile UYUMLU. KURAL KARARI (F8) uyarısı: TDV 'Nisan 1920’de San Remo Antlaşması’yla Fransa’nın manda yönetimine verilen Şam' diyor; de jure devir antlaşma günü olsaydı San Remo (Nisan 1920, gün TDV'de yok) olurdu, atlas fiilî giriş gününü kullanıyor — karar KASA/Emre'nin, ben değiştirmedim. t: TDV 'Fransa 1946 ilkbaharında Şam’ı tamamen terketti' (YIL/ilkbahar; 17 Nisan günü TDV Şam'da YOK). Ayrıca TDV: Şam 1924'te Halep, Hama, Humus ile birleştirilip yeni idarî yapı."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; fiilî denetim ilkesi — TBMM 1920 ve Ege 1912 kararlarıyla tutarlı): Şam zinciri kararla uyumlu: 1918-10-01 Arap-İngiliz girişi (fiilî; Faysal yönetimi, Mart 1920'den Suriye Arap Krallığı) → 1920-07-25 Fransız girişi (Meysellûn 24 Temmuz). San Remo (Nisan 1920) hukukî — ic_not beyanı. Günler TDV «Dımaşk» ile teyitli (parti db02); TDV «Meysellûn» ayrıca okunmadı. · Önceki not: f GÜN düzeyinde teyitli (25 Temmuz 1920 Fransızların Şam'a girişi) — atlas f=1920-07-25 ile UYUMLU. KURAL KARARI (F8) uyarısı: TDV 'Nisan 1920’de San Remo Antlaşması’yla Fransa’nın manda yönetimine verilen Şam' diyor; de jure devir antlaşma günü olsaydı San Remo (Nisan 1920, gün TDV'de yok) olurdu, atlas fiilî giriş gününü kullanıyor — karar KASA/Emre'nin, ben değiştirmedim. t: TDV 'Fransa 1946 ilkbaharında Şam’ı tamamen terketti' (YIL/ilkbahar; 17 Nisan günü TDV Şam'da YOK). Ayrıca TDV: Şam 1924'te Halep, Hama, Humus ile birleştirilip yeni idarî yapı."
   },
   {
    "dosya_satir": "data/yerlesimler.js:876",
@@ -3244,6 +3242,515 @@
    "alinti": "",
    "oneri": {},
    "not": "Partide kaynağı boş ya da DEVRALMA olan dönem YOK (3 dönemin hepsi kaynaklı: Treccani TOUL, FRANSA-KONTROL) → hedef yok, araştırma yapılmadı."
+  }
+ ],
+ "Saint-Denis (Réunion)": [
+  {
+   "dosya_satir": "data/yerlesimler_hint_adalar.js:25-26",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani Enciclopedia on line, «Riunione» (slug tahmini; sayfa.py ana sayfaya düştü, madde açılmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Hedef dönem YOK: iki dönemden biri kaynaklı (Eve, açılmadı beyanıyla), öteki BEYANLI YAKLAŞIKLIK metni taşıyor (boş değil, DEVRALMA değil). Araştırma yapılmadı. Bilgi (kanıtsız): mevcut beyan 1810-1815 İngiliz işgalini gösterilmedi diyor; F8 gereği isg: ingiltere katmanı eklenebilir, tarihler bu oturumda teyit edilmedi."
+  }
+ ],
+ "Rennes": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:168",
+   "alan": "s",
+   "d": "bretanya",
+   "f": "1281-01-01",
+   "t": "1532-08-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Rennes» (https://www.treccani.it/enciclopedia/rennes/); Enciclopedia Italiana (1930), «Bretagna» (https://www.treccani.it/enciclopedia/bretagna_(Enciclopedia-Italiana)/)",
+   "alinti": "nel 1532 il re convoca a Vannes gli stati generali di Bretagna, che accettano l'annessione alla Francia",
+   "oneri": {},
+   "not": "KISMEN. Devlet: Treccani Rennes 'divenne capitale della Bretagna' (843'ten). t YIL 1532: Enciclopedia Italiana 1929-37 (eski başvuru, tek başına en çok kısmen); gün 13 Ağustos kaynakta YOK. ÇELİŞKİ BEYANI: Treccani online «Bretagna»: Anna ile VIII. Charles evliliği (1491) 'unì la B. alla Corona di Francia'; EI de girişte 1491 yazıyor ama ayrıntıda hukuki birliğin 1514-1532 arasında olgunlaştığını anlatıyor. Hangisi esas: KASA karar versin (üçüncü kaynak: TDV Fransa Bretanya'yı anmıyor)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:168",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1532-08-13",
+   "t": "1792-09-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fransa» (https://islamansiklopedisi.org.tr/fransa)",
+   "alinti": "22 Eylül’de de cumhuriyet ilân edildi.",
+   "oneri": {},
+   "not": "t GÜN düzeyinde teyitli (Fransa Cumhuriyeti ilanı 22 Eylül 1792; metin 10 Ağustos 1792 sonrası olayları anlatıyor). f=1532-08-13 için yukarıdaki satıra bakın (YIL). ÜLKE DÜZEYİ: Rennes'e özgü tanık değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:168",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fransa» (https://islamansiklopedisi.org.tr/fransa)",
+   "alinti": "22 Eylül’de de cumhuriyet ilân edildi.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f GÜN teyitli (TDV Fransa 22 Eylül 1792). ÇİFT KAYNAK ÇELİŞKİSİ (TDV-dışı): Treccani «Francia»: 'proclamazione (21 settembre) della Repubblica da parte della Convenzione'; atlas 22 Eylül TDV ile uyumlu, TDV esas. DİKKAT künye: tek parça 1792-2000 'cumhuriyet'; Treccani Fransa 1804 İmparatorluk, 1814 Restorasyon, 1830 Louis Philippe monarşisi, 1852 İkinci İmparatorluk anlatıyor — künye adı/modeli KASA kararı (aynı polity sürüyor mu). t=2000-12-31 ufuk işareti."
+  }
+ ],
+ "Lizbon": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1223",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1281-01-01",
+   "t": "1580-08-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Lisbona» (https://www.treccani.it/enciclopedia/lisbona/)",
+   "alinti": "Nel 1256 ... per decisione di Alfonso III ... divenne capitale del paese",
+   "oneri": {},
+   "not": "KISMEN: Lizbon 1147'de Alfonso Henriques tarafından alındı, 1256'da Portekiz'in başkenti oldu (YIL) — devlet aralığın başında teyitli. f=1281 ufuk işareti (kaynakta yok). t=1580-08-25 Treccani Lisbona'da YOK (aranan 1580: YOK); uç mevcut kaynaklı ispanya satırına (TDV İspanya 1580) dayanıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1223",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1640-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Lisbona» (https://www.treccani.it/enciclopedia/lisbona/)",
+   "alinti": "nel 1640 dell'insurrezione contro il dominio dei re spagnoli, cui fu contrapposto il duca di Braganza Giovanni IV",
+   "oneri": {},
+   "not": "f YIL düzeyinde (1640; 1 Aralık günü Treccani'de YOK). F8 NOTU: Treccani Lisbona ayrıca 'Trattato di L. firmato il 13 febbraio 1668 ... il re di Spagna a riconoscere l'indipendenza del Portogallo' diyor; F8 (de jure = antlaşma günü) harfiyen uygulansa f=1668-02-13 olurdu. Atlas künye günü 1640-12-01 (ayaklanma/ilan) — Sovyet ardılları kararındaki 'ilan günü' mantığıyla aynı; karar KASA/Emre'nin, ben değiştirmedim. Bilgi (kanıtsız): 1807-08 Fransız işgali için isg: katmanı gerekebilir; Treccani Lisbona'da yok (aranan 1807/1808/Junot: YOK)."
+  }
+ ],
+ "Funchal (Madeira)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:83",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Parti dosyası incelemesi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Hedef dönem YOK: __BOSLUK__ satırı BOŞLUK BEYANI taşıyor, portekiz satırı Elucidário Madeirense + Infopédia ile kaynaklı. Araştırma yapılmadı."
+  }
+ ],
+ "Angra (Terceira, Azorlar)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_atlantik_adalar.js:87",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Parti dosyası incelemesi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Hedef dönem YOK: iki dönem de kaynaklı (EVE Univ. Nova de Lisboa). Araştırma yapılmadı."
+  }
+ ],
+ "Philadelphia": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:939",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1682-10-27",
+   "t": "1776-07-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Filadelfia» (https://www.treccani.it/enciclopedia/filadelfia/); Treccani Enciclopedia on line, «Stati Uniti d'America» (https://www.treccani.it/enciclopedia/stati-uniti-d-america/)",
+   "alinti": "Fondata nel 1682",
+   "oneri": {},
+   "not": "KISMEN: f YIL (1682, kuruluş; 27 Ekim günü Treccani'de YOK). t: Treccani Stati Uniti 'La Dichiarazione di indipendenza del 4 luglio 1776 ... mise fine a un capitolo di storia coloniale' (GÜN). Devlet (İngiliz kolonisi) 'colonie inglesi' ifadesiyle teyitli. İngiliz işgali: Treccani Stati Uniti 'Gli Inglesi conquistarono New York (1776) e Filadelfia' — yıl/gün YOK; F8 gereği isg: ingiltere katmanı eklenebilir, tarih için ayrı kaynak (ör. NPS/Library of Congress) gerek (bu oturumda bulunamadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:940",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Stati Uniti d'America» (https://www.treccani.it/enciclopedia/stati-uniti-d-america/)",
+   "alinti": "il 4 luglio 1776 il Congresso approvò la Dichiarazione di indipendenza",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f GÜN teyitli (bağımsızlık İLANI). F8 NOTU: Treccani 'Nel 1783 l'Inghilterra finì con l'accettare l'indipendenza' (Versay/Paris, 1783); de jure devir antlaşma günü olurdu (1783-09-03, günü kaynakta yok). Atlas ilan gününü kullanıyor — koordinatör kararı (Sovyet ardılları: ilan günü) ile aynı mantık; karar KASA/Emre'nin. Tarih Treccani'de Philadelphia'ya özgü değil. t=2000-12-31 ufuk işareti."
+  }
+ ],
+ "Washington (D.C.)": [
+  {
+   "dosya_satir": "-",
+   "alan": "s",
+   "d": "abd",
+   "f": "1790-07-01 (AY)",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Treccani Enciclopedia on line, «Washington» (https://www.treccani.it/enciclopedia/washington/)",
+   "alinti": "il Congresso (luglio 1790) nominò una commissione che scelse il sito in cui sarebbe sorta la capitale",
+   "oneri": {
+    "alan": "s",
+    "d": "abd",
+    "f": "1790-07 (AY; gün Treccani'de yok)",
+    "t": "2000-12-31"
+   },
+   "not": "Kayıtta hiç dönem yok (donemler=0). Zincir yazılacaksa: Treccani Washington — Kongre Temmuz 1790'da başkent sitesini seçtirdi, L'Enfant planı 1791, 1800'de Beyaz Saray ve Capitol hazır; 1814'te İngilizlerin baskını/yangını (yıl; işgal değil, akın). f için gün: Residence Act (16 Temmuz 1790) bu oturumda kaynakla okunmadı. Öncesi (1790 öncesi) kuruluş yok, toprak komşu peteklere kalır (kur alanı da boş) — KASA karar."
+  }
+ ],
+ "Werowocomoco (Powhatan Konfederasyonu Başkenti)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:819",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1501-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani Enciclopedia on line, «Powhatan» (https://www.treccani.it/enciclopedia/powhatan/); Encyclopedia Virginia URL'leri 404 verdi (entries/werowocomoco, powhatan-chiefdom, powhatan-confederacy, anglo-powhatan-wars)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Boşluk merdiveni: Treccani Powhatan maddesi 1501 öncesini anlatmıyor; bu sınırın (1501) kaynağı yok. Baktığım yer: Treccani Powhatan; NPS adresleri 404. Encyclopedia Virginia'nın doğru slug'ı bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:819",
+   "alan": "s",
+   "d": "powhatan",
+   "f": "1501-01-01",
+   "t": "1646-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani Enciclopedia on line, «Powhatan» (https://www.treccani.it/enciclopedia/powhatan/)",
+   "alinti": "riuniti all'inizio del 17° sec. in circa 200 villaggi; ... capi Powhatan (1550-1618) e Opechancano (1545-1644)",
+   "oneri": {},
+   "not": "KISMEN/İÇ TANIK: Powhatan konfederasyonunun 17. yy başında var olduğu (YIL düzeyinde) teyitli. f=1501 DESTEKLENMİYOR: lider Powhatan 1550 doğumlu (Treccani); konfederasyon 1501'de var mıydı kaynakta yok (öneri yazmıyorum, kanıt yok). t=1646-10-01: Opechancano ölümü 1644 (Treccani), 1646 antlaşma günü YOK. Werowocomoco'nun başkent olduğu Treccani'de geçmiyor (aranan Werowocomoco: YOK)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:820",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1646-10-01",
+   "t": "1776-07-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani Enciclopedia on line, «Powhatan» (https://www.treccani.it/enciclopedia/powhatan/)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1646 devri Treccani'de YOK ('quasi alla loro distruzione' genel ifade). Gün ve Werowocomoco özelinde sahiplik kaynağı bulunamadı. t=1776-07-04 için bkz. abd satırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:821",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Stati Uniti d'America» (https://www.treccani.it/enciclopedia/stati-uniti-d-america/)",
+   "alinti": "il 4 luglio 1776 il Congresso approvò la Dichiarazione di indipendenza",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f GÜN teyitli (bağımsızlık ilanı); F8 notu için Philadelphia abd satırına bakın (1783 tanınma). Werowocomoco özelinde değil."
+  }
+ ],
+ "Savannah": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:945",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1733-02-12",
+   "t": "1776-07-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Savannah» (https://www.treccani.it/enciclopedia/savannah/); Treccani Enciclopedia on line, «Stati Uniti d'America»",
+   "alinti": "Fu la prima colonia europea in Georgia, costituita nel febbraio 1733 dal generale J.E. Oglethorpe.",
+   "oneri": {},
+   "not": "f AY düzeyinde teyitli (Şubat 1733; 12. gün Treccani'de YOK). t: Bağımsızlık ilanı 4 Temmuz 1776 (Treccani Stati Uniti, GÜN). Bkz. aşağıdaki isg önerisi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:946",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Stati Uniti d'America» (https://www.treccani.it/enciclopedia/stati-uniti-d-america/)",
+   "alinti": "il 4 luglio 1776 il Congresso approvò la Dichiarazione di indipendenza",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f GÜN teyitli; F8 notu Philadelphia abd satırında."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:946",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1778",
+   "t": "1782",
+   "hukum": "ONERI",
+   "kaynak": "Treccani Enciclopedia on line, «Savannah» (https://www.treccani.it/enciclopedia/savannah/)",
+   "alinti": "Sede del governo della Georgia fino al 1778, quando la città fu presa dagli Inglesi. Liberata nel 1782",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1778 (YIL)",
+    "t": "1782 (YIL)"
+   },
+   "not": "F8: fiilî askerî işgal sahiplik değildir, ayrı isg: katmanı; abd satırı kesilmez. Gün Treccani'de YOK (1778 Aralık sonu / 1782 Temmuz tarihleri bu oturumda kaynakla okunmadı, yazmıyorum)."
+  }
+ ],
+ "Plymouth (Massachusetts)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:933",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1620-12-21",
+   "t": "1776-07-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Plymouth» (https://www.treccani.it/enciclopedia/plymouth/)",
+   "alinti": "Nel 1620 ... con un'ulteriore spedizione (Pilgrim Fathers) fondò Plymouth nel Massachusetts",
+   "oneri": {},
+   "not": "KISMEN: f YIL (1620; 21 Aralık günü Treccani'de YOK). Madde İngiliz Plymouth maddesinin içinde ('Consiglio della Nuova Inghilterra' kolonisi). t GÜN: Treccani Stati Uniti 4 Temmuz 1776."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:934",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Stati Uniti d'America» (https://www.treccani.it/enciclopedia/stati-uniti-d-america/)",
+   "alinti": "il 4 luglio 1776 il Congresso approvò la Dichiarazione di indipendenza",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f GÜN teyitli; F8 notu Philadelphia abd satırında."
+  }
+ ],
+ "Medine": [
+  {
+   "dosya_satir": "data/yerlesimler.js:908",
+   "alan": "v",
+   "d": "Mekke Şerifliği",
+   "f": "1517-07-06",
+   "t": "1805-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nebi Bozkurt - Mustafa Sabri Küçükaşcı, «Medine» (https://islamansiklopedisi.org.tr/medine)",
+   "alinti": "Medine Osmanlı hâkimiyetine girmiş ve o tarihten itibaren hutbeler Osmanlı padişahları adına okunmuştur",
+   "oneri": {},
+   "not": "KISMEN: f YIL 1517 (TDV 'Memlükler’in Medine hâkimiyeti ... Mısır seferine kadar (1517) sürdü'; gün yok). t AY: 'işgal edip (Haziran 1805)'. MODEL NOTU (karar KASA/Emre): TDV Medine'yi 'Mekke emîrine tâbi, Mekke emîrinin tayin ettiği nâib yönetir' diye anlatıyor (v Mekke Şerifliği ile uyumlu), ama aynı maddede 'Osmanlı otoritesi merkezin tayin ettiği şeyhülharem ve ordu kumandanı', 'Medine’nin bütün malî ve idarî işleri Mısır beylerbeyine bırakıldı', XVII. yy ikinci yarısından Cidde sancak beyi diyor. Emre #23 METBÛ modelini bozan bir şey yazmıyorum."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:908",
+   "alan": "s",
+   "d": "suud-birinci",
+   "f": "1805-06-01",
+   "t": "1812-12-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nebi Bozkurt - Mustafa Sabri Küçükaşcı, «Medine» (https://islamansiklopedisi.org.tr/medine)",
+   "alinti": "3 Aralık 1812’de Medine geri alındı",
+   "oneri": {},
+   "not": "f AY düzeyinde (TDV: Vehhâbîler 'işgal edip (Haziran 1805)'; gün yok, atlas ay başı). t GÜN teyitli (3 Aralık 1812, Tosun Paşa). F8 NOTU: TDV olayı 'Vehhâbî işgali' diye adlandırıyor ama Suûd devleti yerel hâkimiyet kuran polity; s: olarak bırakılması KASA kararı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:908",
+   "alan": "v",
+   "d": "Mısır (Kavalalı)",
+   "f": "1812-12-03",
+   "t": "1841-05-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nebi Bozkurt - Mustafa Sabri Küçükaşcı, «Medine» (https://islamansiklopedisi.org.tr/medine)",
+   "alinti": "Mısır eyaleti veraset yoluyla Mehmed Ali Paşa’ya bırakılınca (1840) Medine yeniden düzenlenen Hicaz eyaletine bağlandı",
+   "oneri": {
+    "t": "1840 (YIL; TDV Medine)"
+   },
+   "not": "f GÜN teyitli (3 Aralık 1812; Tosun Paşa, Mısır Valisi Mehmed Ali Paşa'nın oğlu). t ÇELİŞKİ: TDV Medine bağlanışı 1840 (YIL) diyor, atlas 1841-05-24. Atlasın 1841 gününün kaynağı (TDV Mehmed Ali Paşa / Mısır maddeleri) bu oturumda okunmadı; iki TDV maddesi çelişiyorsa ikisi de not edilmeli — burada yalnız Medine maddesi okundu, hangisinin doğru olduğuna karar vermiyorum."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:909",
+   "alan": "v",
+   "d": "Mekke Şerifliği",
+   "f": "1841-05-24",
+   "t": "1919-01-10",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nebi Bozkurt - Mustafa Sabri Küçükaşcı, «Medine» (https://islamansiklopedisi.org.tr/medine)",
+   "alinti": "Hicaz demiryolunun açılmasından (1908) sonra ise şehir idarî bakımdan Hicaz’dan ayrılıp doğrudan İstanbul’a bağlı bir sancak merkezi oldu",
+   "oneri": {
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1840 (YIL)",
+    "t": "1919-01-10"
+   },
+   "not": "TDV Medine bu aralığı doğrudan Osmanlı idaresi olarak anlatıyor: 1840'tan sonra Hicaz eyaleti; 1864 Vilâyet Kanunu ile sancak merkezi, muhafız/şeyhülharem idaresi; 1908'den sonra doğrudan İstanbul'a bağlı sancak; Osmanlı bayrağı Abdülaziz zamanından itibaren; 1910'da şehremaneti. 'Medine emîri Mekke emîrine tâbi' ifadesi yalnız XVI-XVIII. yy idaresi için. Yani 1841-1919 için v: Mekke Şerifliği TDV ile desteklenmiyor; öneri d: OSMANLI. UYARI: Emre #23 METBÛ modeli (hutbe/metbû devlet) bu satırı bilerek v yapmış olabilir — karar KASA/Emre'nin."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:908",
+   "alan": "s",
+   "d": "hicaz-kralligi",
+   "f": "1919-01-10",
+   "t": "1925-12-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nebi Bozkurt - Mustafa Sabri Küçükaşcı, «Medine» (https://islamansiklopedisi.org.tr/medine)",
+   "alinti": "şehrin İngilizler’e teslimine ... razı edilebildi (10 Ocak 1919); üç gün sonra da Şerîf Abdullah’ın kuvvetleri şehre girdi. 5 Aralık 1925’te, şehir Suûdîler’in eline geçti.",
+   "oneri": {
+    "t": "1925-12-05"
+   },
+   "not": "f GÜN teyitli (10 Ocak 1919 teslim; Şerif Abdullah'ın kuvvetleri 13 Ocak'ta girdi). F8 NOTU: TDV fiilî teslim gününü veriyor; de jure devir (Mondros sonrası Hicaz, Sevr/Lozan) farklı olabilir, atlas fiilî güne dayanıyor — karar KASA/Emre. t ÇELİŞKİ: TDV Medine iki yerde 5 Aralık 1925 diyor, atlas 1925-12-19 (Medine kendi şehir maddesi: TDV esas)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:908",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1925-12-19",
+   "t": "1932-09-18",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nebi Bozkurt - Mustafa Sabri Küçükaşcı, «Medine» (https://islamansiklopedisi.org.tr/medine)",
+   "alinti": "Medine Suûdî hâkimiyetine girdiği 5 Aralık 1925 tarihinden itibaren bu aileden bir emîr tarafından yönetilmektedir.",
+   "oneri": {
+    "f": "1925-12-05"
+   },
+   "not": "Mevcut kaynak (Britannica; OH; LoC) yasak/sınırlı listede. Kendi şehir maddesi TDV Medine iki yerde 5 Aralık 1925 veriyor; atlas 19 Aralık. Bu atlasta 19 Aralık (Cidde'nin teslimi/Ali'nin çekilişi günü) başka kaynakla gelmiş olabilir; kaynağı okunmadı, hangisinin doğru olduğuna karar vermiyorum."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:908",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nebi Bozkurt - Mustafa Sabri Küçükaşcı, «Medine» (https://islamansiklopedisi.org.tr/medine)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Medine'de 1932 devlet adı değişikliği geçmiyor (aranan 1932: bakılmadı, Suûdî hâkimiyeti 1925'ten beri anlatılıyor). Mevcut DEVRALMA kaynağı künye f ucu için OH saudi-arabia; Medine özelinde ek teyit bulunamadı. Aynı polity sürdüğü için sahip değişimi yok, yalnız künye adı."
+  }
+ ],
+ "Trablus": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1510-07-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp» (https://islamansiklopedisi.org.tr/trablusgarp)",
+   "alinti": "Trablusgarp’ta Ammâroğulları hânedanı kuruldu (727/1327) ve 803 (1401) yılına kadar devam etti. Ammâroğulları’ndan sonra ... Hafsîler’in hâkimiyeti 1510 yılına kadar sürdü.",
+   "oneri": {
+    "bolunme": [
+     [
+      "hafsi",
+      "1281-01-01",
+      "1327-01-01 (YIL)"
+     ],
+     [
+      "Ammâroğulları (künye yok)",
+      "1327-01-01 (YIL)",
+      "1401-01-01 (YIL)"
+     ],
+     [
+      "hafsi",
+      "1401-01-01 (YIL)",
+      "1510 (YIL)"
+     ]
+    ]
+   },
+   "not": "DÖNEM BÖLÜNMELİ: 727 H = 1326-11-27..1327-11-16 (tablo hesabı, ±1-2 gün) ∩ TDV'nin miladî yılı 1327 → ilk gün 1327-01-01; 803 H = 1400-08-22..1401-08-10 ∩ 1401 → ilk gün 1401-01-01; ikisi de YIL hassasiyeti. t=1510: YIL teyitli (TDV 'Hafsîler’in hâkimiyeti 1510 yılına kadar'; Treccani Tripoli 'Occupata nel 1510'); 25 Temmuz günü iki kaynakta da YOK. Treccani Tripoli 'tra il 13° e il 14° sec. appartenne agli Hafsidi' yalnız kaba özet, Ammâroğulları'nı anmıyor. f=1281 ufuk işareti (kaynakta yok). Ammâroğulları için künye yok → KASA künye/boya açar ya da BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1510-07-25",
+   "t": "1530-03-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp» (https://islamansiklopedisi.org.tr/trablusgarp); Treccani Enciclopedia on line, «Tripoli» (https://www.treccani.it/enciclopedia/tripoli/)",
+   "alinti": "Occupata nel 1510 dagli Spagnoli, fu data da Carlo V nel 1530 ai Cavalieri di Malta",
+   "oneri": {},
+   "not": "ÇİFT TEYİT (YIL): TDV 1510'da Trablusgarp 'Oliveto Kontu Don Pedro Navarro kumandasındaki İspanyollar tarafından işgal edildi' + Treccani Tripoli 1510. Gün (25 Temmuz) iki kaynakta YOK. t için aşağıdaki satıra bakın."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "s",
+   "d": "rodos-sovalyeleri",
+   "f": "1530-03-24",
+   "t": "1551-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp» (https://islamansiklopedisi.org.tr/trablusgarp); Treccani Enciclopedia on line, «Tripoli»; TDV «Malta» (https://islamansiklopedisi.org.tr/malta)",
+   "alinti": "Kaptanıderyâ Sinan Paşa kumandasındaki Osmanlı donanması şehri ele geçirdi (12 Şâban 958/15 Ağustos 1551).",
+   "oneri": {},
+   "not": "t GÜN teyitli: TDV Trablusgarp 12 Şâban 958 / 15 Ağustos 1551 (tablo kontrolü: 958-08-12 = 1551-08-15, uyumlu); Treccani Tripoli 1551 (YIL). f YIL 1530: Treccani Tripoli 'data da Carlo V nel 1530 ai Cavalieri di Malta' + TDV Malta 'V. Carlos Malta’ya yerleştirdi (1530)'; gün 24 Mart kaynaklarda YOK. ÇİFT-TDV BEYANI: TDV «Trablusgarp» aynı pasajda 'Rodos’un fethinin ardından 1523’te Saint Jean şövalyeleri burada yerleşti' diyor ('burada'nın göndermesi belirsiz: Malta mı Trablus mu); TDV «Malta» 1530. Üçüncü bağımsız kaynak Treccani 1530 verdiği için 1530 esas alındı, 1523 ifadesi not edildi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp» (https://islamansiklopedisi.org.tr/trablusgarp)",
+   "alinti": "Karamanlılar döneminde (1711-1835)",
+   "oneri": {},
+   "not": "f GÜN teyitli (15 Ağustos 1551, bkz. önceki satır). t YIL düzeyinde: TDV Libya 'Karamanlı Ahmed Bey ... beylerbeyi gönderme uygulamasını sona erdirdi (1711)'; 29 Temmuz günü kaynaklarda YOK. MODEL NOTU: TDV Libya eyalet tarihini dört döneme ayırıyor (ilk valiler, 'kendi başına buyruk' dayılar dönemi, Karamanlılar, ikinci valiler); atlas dayılar dönemini d: OSMANLI sayıyor — karar KASA/Emre."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "v",
+   "d": "Trablusgarp Ocaklığı (Karamanlılar)",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp» (https://islamansiklopedisi.org.tr/trablusgarp)",
+   "alinti": "Trablusgarp şehri özellikle Karamanlılar döneminde (1711-1835) dış baskılarla karşılaştı.",
+   "oneri": {},
+   "not": "Her iki uç YIL düzeyinde: 1711-1835; 'Karamanlı Hanedanı ... 1835’te tekrar merkeze bağlanan Trablusgarp'. Gün (29 Temmuz / 26 Mayıs) kaynaklarda YOK. Not: 'Karamanlılar burada bir nevi hânedan oluşturdular' — v modeli TDV ile uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp» (https://islamansiklopedisi.org.tr/trablusgarp)",
+   "alinti": "1912’de İsviçre’nin Uşi (Ouchy/Lozan) şehrinde yapılan antlaşma ile Osmanlı Devleti, Afrika’daki bu son vilâyetini İtalya’ya terkettiğini kabul etti",
+   "oneri": {},
+   "not": "f YIL (1835 'tekrar merkeze bağlandı'). t YIL düzeyinde (1912 Uşi); 18 Ekim günü bu maddede YOK (günü isg italya satırının kaynağı TDV trablusgarp-savasi veriyor). F8 UYUMLU: de jure devir antlaşma günü; fiilî işgal (1911) ayrı isg: katmanı olarak zaten var. ÇİFT-TDV BEYANI (isg satırı için): TDV Trablusgarp İtalya'nın 1 Eylül 1911'de savaş ilân ettiğini, TDV Libya 29 Eylül 1911'de limanları bombaladığını yazıyor; atlasın isg f=1911-10-09 Trablus şehrinin teslim günü (kendi kaynaklı satırı) — çelişki değil ama iki TDV maddesinin ilan günü farklı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya» (https://islamansiklopedisi.org.tr/libya)",
+   "alinti": "1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz, Fizan Fransız askerî idaresine bırakıldı.",
+   "oneri": {},
+   "not": "KISMEN: f YIL 1943 (23 Ocak günü TDV'de YOK); t GÜN teyitli (24 Aralık 1951, aşağıdaki satır). F8 NOTU: askerî idare fiilî/geçici (TDV: 'Barış antlaşmaları imzalanıncaya kadar'); F8 kuralı (fiilî askerî idare sahiplik değildir; de jure devir antlaşma günü) harfiyen uygulansa 1943-1947 arası s: italya sürer, ingiliz idaresi isg: olur. Barış antlaşması (Paris 1947) günü bu oturumda kaynakla okunmadı; karar KASA/Emre'nin."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya» (https://islamansiklopedisi.org.tr/libya)",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "f GÜN teyitli (bağımsızlık/devletin ilanı). t GÜN teyitli: 'Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı' — TDV 1 Eylül 1969 yazıyor (aynı maddede 1 Eylül 1969’da ... darbe)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1014",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya» (https://islamansiklopedisi.org.tr/libya)",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı, genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular.",
+   "oneri": {},
+   "not": "f GÜN teyitli. KÜNYE ADI NOTU: 'Cemahiriye' adı 1969'da değil sonradan (Kaddafi dönemi) alındı; TDV Libya bunun gününü bu okumada vermedi (kaynak okunmadı) — ad farkı sahip değişimi değil. t=2000-12-31 ufuk işareti."
+  }
+ ],
+ "Rey": [
+  {
+   "dosya_satir": "-",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Parti dosyası incelemesi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıtta hiç dönem yok (donemler=0); hedef dönem olmadığı için araştırma yapılmadı. Zincir sıfırdan yazılacaksa ayrı iş (TDV Rey, Iranica 'Rayy')."
   }
  ]
 }
