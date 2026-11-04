@@ -26,6 +26,7 @@ EA = yukle("eksik_aday.json")
 KON = yukle("konum.json")
 PT = yukle("pleiades_tur.json")
 K4 = yukle("konum4.json")
+K5 = yukle("konum5.json")
 MADDE = {k["ad"]: k["ornek"] for k in SIN}
 DEV = {d["id"]: d for d in girdi.oku_devletler() if d.get("id")}
 
@@ -131,6 +132,7 @@ SAHIP.update({
 })
 SAHIP4 = yukle("sahip4.json")  # parti 4: konum4_yaz.py yazar — {ad: [id, tarih, zincir, kaynak, güven]}
 SAHIP.update({k: tuple(v) for k, v in (SAHIP4 or {}).items()})
+SAHIP.update({k: tuple(v) for k, v in (yukle("sahip5.json") or {}).items()})  # parti 5: konum5_yaz.py
 
 
 def kunye(sid, t):
@@ -171,9 +173,10 @@ for r in P13:
     k = KARAR13.get(r["ad"], ("YERLEŞİM", ""))
     if k[0] == "YAZIM":
         YZ.append((r["ad"], r["sayi"], k[1], "DOĞRULA", "eksik_aday Pleiades noktası ≤ 3 km (yeniden ölçüldü)"))
-for x in K4:
-    if x.get("yazim"):
-        YZ.append((x["ad"], x["sayi"], x["yazim"], x.get("yazim_guven", "DOĞRULA"), "konum4 (elle)"))
+for kk, ad_ in ((K4, "konum4"), (K5, "konum5")):
+    for x in kk:
+        if x.get("yazim"):
+            YZ.append((x["ad"], x["sayi"], x["yazim"], x.get("yazim_guven", "DOĞRULA"), "%s (elle / ≤ 3 km)" % ad_))
 
 # ② eklenecek noktalar
 EK = []
@@ -185,15 +188,15 @@ for s in PT:
         EK.append((s["ad"], s["koordinat"], "Pleiades " + s["kaynak"], "antik tur (PLEIADES)"))
 for r in P13:
     k = KARAR13.get(r["ad"], ("YERLEŞİM", ""))
-    if k[0] in ("YERLEŞİM", "OLAY+KASABA"):
+    if k[0] in ("YERLEŞİM", "OLAY+KASABA"):  # OLAY+KASABA: EMRELİC kararıyla o yılda var olan kasaba → YERLEŞİM
         EK.append((r["ad"], r["koordinat"], r["osm"] + ((" · " + k[1]) if k[1] else ""),
-                   "parti 1-3 (Pleiades%s)" % (" — OLAY YERİ + KASABA (isteğe bağlı)" if k[0] == "OLAY+KASABA" else "")))
-for x in K4:  # parti 4'te koordinat yalnız konum4_yaz.py'den (referanssız Pleiades sonuçları elle denetlendi)
-    if x.get("sinif") == "YERLEŞİM" and x.get("koordinat"):
-        EK.append((x["ad"], x["koordinat"], x["konum"], "parti 4 (%s)" % x.get("tur")))
-for x in K4:
-    if x.get("sinif") == "OLAY YERİ + KASABA" and x.get("koordinat"):
-        EK.append((x["ad"], x["koordinat"], x["konum"], "parti 4 — OLAY YERİ + KASABA (isteğe bağlı)"))
+                   "parti 1-3 (Pleiades%s)" % (" — olay maddesindeki kasaba" if k[0] == "OLAY+KASABA" else "")))
+for kk, p in ((K4, "parti 4"), (K5, "parti 5")):  # koordinat yalnız konum4/5_yaz.py'den (referanssız Pleiades sonuçları elle denetlendi)
+    for x in kk:
+        if x.get("sinif") == "YERLEŞİM" and x.get("koordinat"):
+            EK.append((x["ad"], x["koordinat"], x["konum"], "%s (%s%s)" % (p, x.get("tur"),
+                                                                          " — olay maddesindeki kasaba" if "EMRELİC kararı" in x["not_"] else "")))
+KSZ = [x for kk in (K4, K5) for x in kk if x.get("sinif") in ("YERLEŞİM", "ANTİK YERLEŞİM") and not x.get("koordinat")]
 
 # ③ olay yerleri ve yapılar
 OL = []
@@ -208,7 +211,7 @@ for ad, (sinif, not_) in DUZELT.items():
     if not sinif.startswith("YERLEŞİM"):
         o = MADDE.get(ad, [{}])[0]
         OL.append((ad, sinif, not_, "%s — %s" % (o.get("t"), (o.get("b") or "")[:70])))
-for x in K4:
+for x in K4 + K5:
     if x.get("sinif") in ("OLAY YERİ", "KALE/YAPI", "SEMT/YAPI"):
         OL.append((x["ad"], x["sinif"], x["not_"], "%s — %s" % (x["madde_t"], x["madde"][:70])))
 
@@ -219,14 +222,16 @@ def h(s):
 
 c4 = collections.Counter(x.get("sinif") for x in K4)
 M = ["# KASA-YER — YER-1104'ün KASA'ya teslim özeti\n",
-     "Ölçen: LAB SALI · 4 Kasım 2026 · `kasa_yer.py` (dal lab-1104-yer4). Evren: kronolojinin `yer` alanında geçen, atlas yerleşimiyle "
-     "eşleşmeyen 1.247 ad (`yer_sinifla.py`). EKSİK sınıfının ilk 300'ü işlendi (anılma sırasıyla, DUR listesi hariç); **kalan 121 ad "
-     "(sıra 301-421) işlenmedi.**\n",
+     "Ölçen: LAB SALI · 4 Kasım 2026 · `kasa_yer.py` (dal lab-1104-yer5). Evren: kronolojinin `yer` alanında geçen, atlas yerleşimiyle "
+     "eşleşmeyen 1.247 ad (`yer_sinifla.py`). EKSİK sınıfının **421 adının tamamı** işlendi (anılma sırasıyla, DUR listesi hariç; parti "
+     "1-3: 1-150, parti 4: 151-300, parti 5: 301-421).\n",
+     "**EMRELİC kararı (4 Kasım 2026):** olay maddesinde geçen ad o yılda var olan gerçek bir kasabaysa YERLEŞİM'dir ve ②'ye eklenir "
+     "(Yanbolu, Nizip, Kumanova, Zenta, Thapsus, Pharsalus…); yalnız ova, geçit, tepe, ırmak, ordugâh gibi olay yerleri petek olmaz (③).\n",
      "Zincir: mükerrer (normalleştirilmiş ad + 3 km) → Pleiades (antik) / TDV tarifi + GeoNames (İslâm dünyası) / CHGIS (Çin) / GeoNames "
      "beyanlı (öteki) → olay yeri ayrımı. **OSM dayanak değildir; yanlış nokta eksik noktadan kötüdür** — doğrulanmayan aday koordinatsız "
      "kalır. Yerleşim dosyalarına yazılmadı; uygulama KASA'nındır.\n",
      "**Sayılar:** YAZIM eşlemesi %d · eklenecek nokta %d · olay yeri / yapı %d. Ayrıntı dosyaları: YAZIM.md, EKSIK-ADAY.md, "
-     "TDV-KONUM.md, PLEIADES.md, KONUM4.md.\n" % (len(YZ), len(EK), len(OL)),
+     "TDV-KONUM.md, PLEIADES.md, KONUM4.md, KONUM5.md. Konumu doğrulanamayan yerleşim %d (④).\n" % (len(YZ), len(EK), len(OL), len(KSZ)),
      "## EMRELİC düzeltmesi: Stonehenge · Amada · Semna\n"]
 M += ["- **%s → %s:** %s" % (ad, s, n) for ad, (s, n) in DUZELT.items()]
 M += ["\n## ① YAZIM eşlemeleri — atlasta başka adla var (yeni nokta DEĞİL)\n",
@@ -252,6 +257,10 @@ M += ["\n## ③ Olay yerleri ve yapılar — petek DEĞİL (kronoloji odağı ol
       "Savaş alanı, ova, geçit, anıt, tapınak ve ada kalesi petek noktası olursa çevresindeki toprağı yanlış sahibe dağıtır.\n",
       "| ad | sınıf | not | madde |", "|---|---|---|---|"]
 M += ["| %s | %s | %s | %s |" % tuple(map(h, r)) for r in OL]
+M += ["\n## ④ Konumu doğrulanamayan yerleşimler — koordinat yok (yanlış nokta eksik noktadan kötü)\n",
+      "Parti 1-3'ün koordinatsız antik adayları PLEIADES.md ve TDV-KONUM.md'dedir; burada parti 4-5.\n",
+      "| ad | neden | madde |", "|---|---|---|"]
+M += ["| %s | %s | %s — %s |" % (h(x["ad"]), h(x["not_"]), x["madde_t"], h(x["madde"][:70])) for x in KSZ]
 open(os.path.join(BURA, "KASA-YER.md"), "w", encoding="utf-8", newline="\n").write("\n".join(M) + "\n")
 print("YAZIM", len(YZ), "EKLE", len(EK), "OLAY", len(OL), "sahipsiz", len(eksik_sahip), eksik_sahip[:20])
 print("parti4 sınıf", dict(c4))

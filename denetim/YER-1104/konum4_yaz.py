@@ -18,7 +18,7 @@ import girdi
 
 BURA = os.path.dirname(os.path.abspath(__file__))
 Y = [y for y in girdi.yukle(sessiz=True) if "lat" in y]
-L = [r for r in json.load(open(os.path.join(BURA, "eksik_aday.json"), encoding="utf-8")) if r["sira"] > 150]
+L = [r for r in json.load(open(os.path.join(BURA, "eksik_aday.json"), encoding="utf-8")) if 150 < r["sira"] <= 300]
 
 PL = "https://pleiades.stoa.org/places/"
 GN = "https://www.geonames.org/"
@@ -152,7 +152,8 @@ for r in L:
     elif ad in SEMT:
         o.update(sinif="SEMT/YAPI", not_="şehir içi semt, yapı ya da meydan — maddenin şehri taşır")
     elif ad in OLAY_KASABA:
-        o.update(sinif="OLAY YERİ + KASABA", not_="savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır")
+        # EMRELİC kararı (4 Kasım 2026): o yılda var olan gerçek kasaba olay maddesinde geçse de YERLEŞİM'dir ve eklenir
+        o.update(sinif="YERLEŞİM", not_="olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı)")
     elif ad in OLAY:
         o.update(sinif="KALE/YAPI" if "KALE/YAPI" in OLAY[ad] else "OLAY YERİ", not_=OLAY[ad])
     elif ad in ANTIK_YOK:
@@ -161,7 +162,7 @@ for r in L:
         o.update(sinif="YERLEŞİM", not_="")
     else:
         o.update(sinif="YER DEĞİL", not_="bölge, ırmak, dağ, kültür, dönem, halk ya da liste")
-    if ad in KONUM and o["sinif"] in ("YERLEŞİM", "OLAY YERİ + KASABA"):
+    if ad in KONUM and o["sinif"] == "YERLEŞİM":
         la, lo, dy = KONUM[ad]
         o.update(koordinat=[la, lo], konum=dy, tur=dy.split()[0])
         en = sorted((girdi.km(la, lo, y["lat"], y["lon"]), y["ad"]) for y in Y)[0]
@@ -180,8 +181,8 @@ M = ["# KONUM4 — EKSİK sırası 151-300: sınıf ve konum\n",
      "**Özet:** %s.\n" % ", ".join("%s %d" % kv for kv in c.most_common()),
      "- Referanssız Pleiades araması 14 koordinat döndürdü; **11'i yanlış yerdi** (Buda→Budalia, Korkyra→Korčula, Uşi→Tunus…) ve reddedildi "
      "(eksik_aday.py PLEIADES_RED). Antik adlar beklenen bölge merkezli hedefli sorguyla (≤ 100 km) yeniden arandı.",
-     "- **OLAY YERİ + KASABA:** madde bir savaştır ama adını taşıyan kasaba gerçek ve atlasta yok (Yanbolu, Nizip, Kumanova…). Petek "
-     "ihtiyacı olay maddesinden doğmaz; KASA bölgeyi dolduracaksa konum ve aday sahip hazır.",
+     "- **Olay maddesindeki kasabalar** (Yanbolu, Nizip, Kumanova, Zenta…): EMRELİC kararıyla (4 Kasım 2026) o yılda var olan gerçek "
+     "kasaba YERLEŞİM'dir ve eklenir; yalnız ova, geçit, tepe, ırmak, ordugâh gibi olay yerleri petek olmaz.",
      "- Mükerrer: her konum için atlasın en yakın noktası ölçüldü (girdi.km); 3 km içindekiler YAZIM'a geçti.\n",
      "| # | ad | sınıf | koordinat | dayanak | en yakın atlas noktası | not | madde |", "|---|---|---|---|---|---|---|---|"]
 for x in S:

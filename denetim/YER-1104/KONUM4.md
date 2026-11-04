@@ -2,10 +2,10 @@
 
 Ölçen: LAB SALI · 4 Kasım 2026 · `eksik_aday.py 150 300` → `konum4_yaz.py`. Zincir: mükerrer (3 km) → Pleiades (antik) / TDV tarifi + GeoNames / GeoNames beyanlı → olay yeri ayrımı. Çin adı yok (CHGIS gerekmedi).
 
-**Özet:** YER DEĞİL 53, SEMT/YAPI 24, OLAY YERİ 23, YERLEŞİM 19, YAZIM 17, OLAY YERİ + KASABA 10, ANTİK YERLEŞİM 2, KALE/YAPI 2.
+**Özet:** YER DEĞİL 53, YERLEŞİM 29, SEMT/YAPI 24, OLAY YERİ 23, YAZIM 17, ANTİK YERLEŞİM 2, KALE/YAPI 2.
 
 - Referanssız Pleiades araması 14 koordinat döndürdü; **11'i yanlış yerdi** (Buda→Budalia, Korkyra→Korčula, Uşi→Tunus…) ve reddedildi (eksik_aday.py PLEIADES_RED). Antik adlar beklenen bölge merkezli hedefli sorguyla (≤ 100 km) yeniden arandı.
-- **OLAY YERİ + KASABA:** madde bir savaştır ama adını taşıyan kasaba gerçek ve atlasta yok (Yanbolu, Nizip, Kumanova…). Petek ihtiyacı olay maddesinden doğmaz; KASA bölgeyi dolduracaksa konum ve aday sahip hazır.
+- **Olay maddesindeki kasabalar** (Yanbolu, Nizip, Kumanova, Zenta…): EMRELİC kararıyla (4 Kasım 2026) o yılda var olan gerçek kasaba YERLEŞİM'dir ve eklenir; yalnız ova, geçit, tepe, ırmak, ordugâh gibi olay yerleri petek olmaz.
 - Mükerrer: her konum için atlasın en yakın noktası ölçüldü (girdi.km); 3 km içindekiler YAZIM'a geçti.
 
 | # | ad | sınıf | koordinat | dayanak | en yakın atlas noktası | not | madde |
@@ -54,10 +54,10 @@
 | 192 | Milas-Muğla-Denizli (Menteşe) | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1390-01-01 — Batı Anadolu beyliklerinin ilhakı: Saruhan, Aydın, Menteşe |
 | 193 | Muğla-Milas-Balat-Datça-Marmaris-Fethiye (Menteşe) | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1425-06-01 — Batı Anadolu beyliklerinin yeniden ilhakı: Menteşe ve Aydın |
 | 194 | Szapolyai'ye bağlı yerler: Aquincum-Óbuda-Pest (Budin) | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1526-11-10 — János Szapolyai Macar kralı seçildi — Osmanlı, krallığını tâbi olması  |
-| 195 | Dömeke | OLAY YERİ + KASABA | 39.12722, 22.30028 | GeoNames https://www.geonames.org/263000 (Domokos) | İzdin (Lamia) (27.8 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1897-05-17 — Dömeke Meydan Muharebesi |
+| 195 | Dömeke | YERLEŞİM | 39.12722, 22.30028 | GeoNames https://www.geonames.org/263000 (Domokos) | İzdin (Lamia) (27.8 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1897-05-17 — Dömeke Meydan Muharebesi |
 | 196 | Kût | YAZIM | — | koordinat yok | — | → Kût el-Amâre (YÜKSEK) kısaltma | 1916-04-29 — Kûtülamâre Zaferi |
 | 197 | Kuleli Burgaz (Pythion) | KALE/YAPI | — | koordinat yok | — | kale (Dimetoka yöresi) — KALE/YAPI | 1361-01-01 — Dimetoka'nın alınışı — Meriç vadisinin açılması |
-| 198 | Bileća | OLAY YERİ + KASABA | 42.87645, 18.42967 | GeoNames https://www.geonames.org/3204161 | Trebinye (19.7 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1388-08-27 — Bileća yenilgisi |
+| 198 | Bileća | YERLEŞİM | 42.87645, 18.42967 | GeoNames https://www.geonames.org/3204161 | Trebinye (19.7 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1388-08-27 — Bileća yenilgisi |
 | 199 | İzladi geçidi | OLAY YERİ | — | koordinat yok | — | 1443 geçit savaşı | 1443-11-24 — İzladi bozgunu — 'Uzun Sefer' |
 | 200 | Galata sırtları | SEMT/YAPI | — | koordinat yok | — | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1453-04-22 — Gemiler karadan Haliç'e indirildi |
 | 201 | Lovçen eteği | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1482-01-01 — Crnojeviç Zetası'nın tâbiiyeti ve Cetinje'nin merkez oluşu |
@@ -68,7 +68,7 @@
 | 206 | Şıpka Geçidi | OLAY YERİ | — | koordinat yok | — | 1877 geçit savaşı | 1877-07-19 — Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması |
 | 207 | Balkan (Stara Planina) dağları | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1877-07-19 — Şıpka Geçidi'nin tahliyesi — Balkan hattının yarılması |
 | 208 | Erzurum-Aziziye tabyaları | OLAY YERİ | — | koordinat yok | — | 1877 tabya savaşı (Erzurum) | 1877-11-18 — Kars'ın düşüşü — Doğu cephesinin çözülmesi ve Aziziye tabyaları |
-| 209 | Kumanova | OLAY YERİ + KASABA | 42.13279, 21.71585 | GeoNames https://www.geonames.org/788886 (Kumanovo) | Üsküp (28.2 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1912-10-23 — Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selân |
+| 209 | Kumanova | YERLEŞİM | 42.13279, 21.71585 | GeoNames https://www.geonames.org/788886 (Kumanovo) | Üsküp (28.2 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1912-10-23 — Şark Ordusu'nun bozgunu ve Çatalca hattına çekiliş — Kumanova ve Selân |
 | 210 | Rodoplar | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1912-10-20 — Rodoplar'da Kırcaali Müfrezesi bozuldu, Kırcaali düştü |
 | 211 | Morača ile Ribnica'nın kavuştuğu yer | YAZIM | — | koordinat yok | — | → Podgorica (YÜKSEK) Podgorica'nın yeri (madde yer_id'si zaten Podgorica) | 1457-01-01 — Podgorica'nın Osmanlı topraklarına katılması — Zeta ovasının denetim a |
 | 212 | Hodidjed | KALE/YAPI | — | koordinat yok | — | eski Saraybosna kalesi (Vrhbosna) — KALE/YAPI | 1448-01-01 — Saray ovasının ilhakı — Bosna içindeki Osmanlı ucunun kurulması |
@@ -93,9 +93,9 @@
 | 231 | Kosmidion | OLAY YERİ | — | koordinat yok | — | 1410 savaşı (İstanbul surları dışı) | 1410-06-15 — Kosmidion Savaşı |
 | 232 | Parkan | YAZIM | 47.79495, 18.71750 | GeoNames https://www.geonames.org/3057379 (Štúrovo; Macarca Párkány) | Estergon (1.7 km) | → Estergon (DOĞRULA) konum atlas kaydına 1.7 km — aynı yer olabilir · DİKKAT: Parkan Tuna'nın sol (kuzey) kıyısında, Estergon karşısında ayrı palanka — 1683'te ayrı el değiştirdi; KASA eş ad mı ayrı nokta mı karar verir | 1683-10-09 — Parkan bozgunu ve Estergon'un kaybı |
 | 233 | Akropolis | SEMT/YAPI | — | koordinat yok | — | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1687-09-26 — Atina'nın kaybı ve Parthenon patlaması |
-| 234 | Salankamen | OLAY YERİ + KASABA | 45.14249, 20.25765 | GeoNames https://www.geonames.org/785529 (Stari Slankamen) | Becskerek (Zrenjanin) (28.6 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1691-08-19 — Salankamen bozgunu — Fâzıl Mustafa Paşa şehit |
+| 234 | Salankamen | YERLEŞİM | 45.14249, 20.25765 | GeoNames https://www.geonames.org/785529 (Stari Slankamen) | Becskerek (Zrenjanin) (28.6 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1691-08-19 — Salankamen bozgunu — Fâzıl Mustafa Paşa şehit |
 | 235 | Ulaş | OLAY YERİ | — | koordinat yok | — | 1696 savaşı (Bega/Ulaş suyu) | 1696-08-27 — Ulaş (Olaşin) zaferi |
-| 236 | Zenta | OLAY YERİ + KASABA | 45.92750, 20.07722 | GeoNames https://www.geonames.org/785965 (Senta) | Segedin (Szeged) (36.6 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1697-09-11 — Zenta bozgunu — savaşın kaderi belirlendi |
+| 236 | Zenta | YERLEŞİM | 45.92750, 20.07722 | GeoNames https://www.geonames.org/785965 (Senta) | Segedin (Szeged) (36.6 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1697-09-11 — Zenta bozgunu — savaşın kaderi belirlendi |
 | 237 | Safra geçidi | OLAY YERİ | — | koordinat yok | — | 1812 geçit savaşı (Hicaz) | 1812-01-01 — Safra-Cedîde boğazında ilk bozgun |
 | 238 | Bisel | OLAY YERİ | — | koordinat yok | — | 1815 savaşı (Hicaz) | 1815-01-20 — Bisel Muharebesi: Suûdî kuvvetleri bozguna uğradı |
 | 239 | Missolonghi | YERLEŞİM | 38.37138, 21.43151 | GeoNames https://www.geonames.org/257186 (Messolonghi) | Thermon (29.3 km) |  | 1826-04-22 — Missolonghi (Mesolongi) düştü |
@@ -103,9 +103,9 @@
 | 241 | Hünkâr İskelesi | SEMT/YAPI | — | koordinat yok | — | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1833-07-08 — Hünkâr İskelesi Antlaşması |
 | 242 | Halil | YAZIM | — | koordinat yok | — | → Hebron (YÜKSEK) el-Halîl = Hebron | 1834-05-19 — Filistin-Nablus isyanı Mısır idaresine karşı |
 | 243 | Cebel-i Dürûz | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1837-10-15 — Cebel-i Dürûz ayaklanması |
-| 244 | Nizip | OLAY YERİ + KASABA | 37.00972, 37.79417 | GeoNames https://www.geonames.org/303798 | Birecik (16.3 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1839-06-24 — Nizip Muharebesi — Osmanlı ordusu dağıldı |
+| 244 | Nizip | YERLEŞİM | 37.00972, 37.79417 | GeoNames https://www.geonames.org/303798 | Birecik (16.3 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1839-06-24 — Nizip Muharebesi — Osmanlı ordusu dağıldı |
 | 245 | Koyunhisar | OLAY YERİ | — | koordinat yok | — | 1302 Bapheus savaşı — yeri tartışmalı | 1302-07-27 — Koyunhisar (Bapheus) Savaşı — Bizans ordusuna karşı ilk büyük zafer |
-| 246 | Yanbolu (Yambol) | OLAY YERİ + KASABA | 42.48243, 26.50006 | GeoNames https://www.geonames.org/725578 | İslimye (Sliven) (26.8 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1410-02-13 — Yanbolu Savaşı — Mûsâ Çelebi Edirne'ye girdi |
+| 246 | Yanbolu (Yambol) | YERLEŞİM | 42.48243, 26.50006 | GeoNames https://www.geonames.org/725578 | İslimye (Sliven) (26.8 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1410-02-13 — Yanbolu Savaşı — Mûsâ Çelebi Edirne'ye girdi |
 | 247 | İnceğiz | OLAY YERİ | — | koordinat yok | — | 1412 savaşı | 1412-10-01 — İnceğiz Savaşı — Çelebi Mehmed'in ilk Rumeli yenilgisi |
 | 248 | Teke ili | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1423-01-01 — Tekeoğulları'nın kesin tasfiyesi: Antalya'nın alınışı |
 | 249 | Drivasto | YERLEŞİM | 42.12306, 19.59139 | GeoNames https://www.geonames.org/3185761 (Drisht, Arnavutluk, İşkodra) — Drivasto = Drisht (TDV «Arnavutluk»da Leş ve Draç'la birlikte anılan Venedik kalesi) | İşkodra (8.8 km) |  | 1478-06-15 — Akçahisar'ın (Kruja) fethi ve Arnavutluk'un tamamlanması |
@@ -117,7 +117,7 @@
 | 255 | Aşağı Mısır | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1517-03-30 — Son Memlük sultanı Tomanbay'ın Terrûce'de yakalanması |
 | 256 | Bâbüzüveyle | SEMT/YAPI | — | koordinat yok | — | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1517-04-13 — Tomanbay'ın Bâbüzüveyle'de idamı ve Memlük Devleti'nin sonu |
 | 257 | Serav (Serâb) | YAZIM | 37.94080, 47.53670 | GeoNames https://www.geonames.org/117368 (Sarāb, Doğu Azerbaycan) · TDV tarifi: 'Tebriz ile Erdebil arasındaki Serav' | Sarâb (0.0 km) | → Sarâb (DOĞRULA) konum atlas kaydına 0.0 km — aynı yer olabilir | 1618-09-26 — Serav Antlaşması — İran'la barışın yenilenmesi |
-| 258 | Sen Gotar | OLAY YERİ + KASABA | 46.95261, 16.27358 | GeoNames https://www.geonames.org/3044669 (Szentgotthárd) | Murska Sobota (33.4 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1664-08-01 — Sen Gotar (St. Gotthard) Muharebesi |
+| 258 | Sen Gotar | YERLEŞİM | 46.95261, 16.27358 | GeoNames https://www.geonames.org/3044669 (Szentgotthárd) | Murska Sobota (33.4 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1664-08-01 — Sen Gotar (St. Gotthard) Muharebesi |
 | 259 | Raab (Rába) nehri kıyısı | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1664-08-01 — Sen Gotar (St. Gotthard) Muharebesi |
 | 260 | Vasvár | YERLEŞİM | 47.04928, 16.79954 | GeoNames https://www.geonames.org/3043033 | Szombathely (Steinamanger) (24.3 km) |  | 1664-08-09 — Vasvar Antlaşması |
 | 261 | Yaş yakınları | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1711-07-21 — Prut Antlaşması — Azak ve Taygan'ın geri alınması |
@@ -126,9 +126,9 @@
 | 264 | Facset | YERLEŞİM | 45.85000, 22.18333 | GeoNames https://www.geonames.org/678490 (Făget, Romanya, Timiş — Bacău'daki eş ad değil) | Lugos (Lugoj) (28.3 km) |  | 1552-07-27 — Temeşvar'dan gönderilen kuvvetlerin Güney Banat palankalarını tutması  |
 | 265 | Mehádia | YERLEŞİM | 44.90083, 22.36694 | GeoNames https://www.geonames.org/673619 (Mehadia, Romanya, Caraş-Severin) | Orsova (Eski Orsova) (20.3 km) |  | 1552-07-27 — Temeşvar'dan gönderilen kuvvetlerin Güney Banat palankalarını tutması  |
 | 266 | Csákóvár | YERLEŞİM | 45.50806, 21.12861 | GeoNames https://www.geonames.org/681971 (Ciacova, Romanya, Timiş) | Temeşvar (29.1 km) |  | 1552-07-27 — Temeşvar'dan gönderilen kuvvetlerin Güney Banat palankalarını tutması  |
-| 267 | Hisarcık (Grocka) | OLAY YERİ + KASABA | 44.67152, 20.71648 | GeoNames https://www.geonames.org/790132 (Grocka) | Vinča-Belo Brdo (11.7 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1739-07-22 — Hisarcık (Grocka) Zaferi — Belgrad yolunun açılması |
+| 267 | Hisarcık (Grocka) | YERLEŞİM | 44.67152, 20.71648 | GeoNames https://www.geonames.org/790132 (Grocka) | Vinča-Belo Brdo (11.7 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1739-07-22 — Hisarcık (Grocka) Zaferi — Belgrad yolunun açılması |
 | 268 | Kerden | OLAY YERİ | — | koordinat yok | — | TDV: 'bir ordugâhta imzalanan Kerden Antlaşması' — ordugâh, konum belirsiz | 1746-09-04 — Kerden Antlaşması — Osmanlı-İran savaşlarının sonu |
-| 269 | Kozluca | OLAY YERİ + KASABA | 43.33058, 27.59908 | GeoNames https://www.geonames.org/726591 (Suvorovo; GeoNames alt adı Kozludzha) | Prevadi (Provadia) (21.6 km) | savaş maddesi; kasaba atlasta yok — KASA petek isterse konum hazır | 1774-06-25 — Kozluca Bozgunu — Küçük Kaynarca'ya giden yenilgi |
+| 269 | Kozluca | YERLEŞİM | 43.33058, 27.59908 | GeoNames https://www.geonames.org/726591 (Suvorovo; GeoNames alt adı Kozludzha) | Prevadi (Provadia) (21.6 km) | olay (savaş) maddesi; adını taşıyan kasaba o yılda vardı → YERLEŞİM (EMRELİC kararı) | 1774-06-25 — Kozluca Bozgunu — Küçük Kaynarca'ya giden yenilgi |
 | 270 | Bukovina | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1775-05-07 — Bukovina'nın (Kuzey Boğdan) Avusturya'ya terki |
 | 271 | Kuzey Boğdan | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, kültür, dönem, halk ya da liste | 1775-05-07 — Bukovina'nın (Kuzey Boğdan) Avusturya'ya terki |
 | 272 | Aynalıkavak Kasrı | SEMT/YAPI | — | koordinat yok | — | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1779-03-10 — Aynalıkavak Tenkihnâmesi — Kırım üzerine geçici uzlaşma |

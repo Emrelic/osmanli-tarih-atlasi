@@ -149,7 +149,10 @@ PLEIADES_RED = {"Ithome (Messene)": "Pleiades Tesalya'daki Ithome'u verdi; madde
                 "Kuleli Burgaz (Pythion)": "Pleiades Tesalya'daki Pythion'u verdi; Kuleli Burgaz Trakya'da, Dimetoka yöresi kalesi",
                 "Kalûgerân (Călugăreni)": "Pleiades Erdel'deki Călugăreni'yi verdi; 1595 savaşı Eflak'ta (Giurgiu yöresi)",
                 "Akropolis": "Pleiades Klazomenai akropolisini verdi; madde Atina Akropolisi (yapı)",
-                "Uşi (Ouchy)": "Pleiades Usil(l)a'yı (Tunus) verdi; Ouchy = Lozan'ın liman semti"}
+                "Uşi (Ouchy)": "Pleiades Usil(l)a'yı (Tunus) verdi; Ouchy = Lozan'ın liman semti",
+                # parti 5
+                "Berka (Cyrenaica)": "Pleiades Creta et Cyrene eyaletini verdi; bölge adı, yerleşim değil",
+                "Talas": "Pleiades Talashkan tepe'yi (Baktria) verdi; Talas = Taraz (Kazakistan)"}
 YAZIMA = {"Pelusium": "Feremâ", "Ix-Xagħra": "Xagħra (Brochtorff Çemberi)", "Hüfûf": "Lahsa", "Cirta (Konstantine)": "Konstantin",
           "Karkemiş": "Cerablus (yakın ama ayrı höyük — KASA karar)"}
 

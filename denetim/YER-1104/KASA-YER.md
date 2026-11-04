@@ -1,10 +1,12 @@
 # KASA-YER — YER-1104'ün KASA'ya teslim özeti
 
-Ölçen: LAB SALI · 4 Kasım 2026 · `kasa_yer.py` (dal lab-1104-yer4). Evren: kronolojinin `yer` alanında geçen, atlas yerleşimiyle eşleşmeyen 1.247 ad (`yer_sinifla.py`). EKSİK sınıfının ilk 300'ü işlendi (anılma sırasıyla, DUR listesi hariç); **kalan 121 ad (sıra 301-421) işlenmedi.**
+Ölçen: LAB SALI · 4 Kasım 2026 · `kasa_yer.py` (dal lab-1104-yer5). Evren: kronolojinin `yer` alanında geçen, atlas yerleşimiyle eşleşmeyen 1.247 ad (`yer_sinifla.py`). EKSİK sınıfının **421 adının tamamı** işlendi (anılma sırasıyla, DUR listesi hariç; parti 1-3: 1-150, parti 4: 151-300, parti 5: 301-421).
+
+**EMRELİC kararı (4 Kasım 2026):** olay maddesinde geçen ad o yılda var olan gerçek bir kasabaysa YERLEŞİM'dir ve ②'ye eklenir (Yanbolu, Nizip, Kumanova, Zenta, Thapsus, Pharsalus…); yalnız ova, geçit, tepe, ırmak, ordugâh gibi olay yerleri petek olmaz (③).
 
 Zincir: mükerrer (normalleştirilmiş ad + 3 km) → Pleiades (antik) / TDV tarifi + GeoNames (İslâm dünyası) / CHGIS (Çin) / GeoNames beyanlı (öteki) → olay yeri ayrımı. **OSM dayanak değildir; yanlış nokta eksik noktadan kötüdür** — doğrulanmayan aday koordinatsız kalır. Yerleşim dosyalarına yazılmadı; uygulama KASA'nındır.
 
-**Sayılar:** YAZIM eşlemesi 112 · eklenecek nokta 69 · olay yeri / yapı 72. Ayrıntı dosyaları: YAZIM.md, EKSIK-ADAY.md, TDV-KONUM.md, PLEIADES.md, KONUM4.md.
+**Sayılar:** YAZIM eşlemesi 130 · eklenecek nokta 99 · olay yeri / yapı 102. Ayrıntı dosyaları: YAZIM.md, EKSIK-ADAY.md, TDV-KONUM.md, PLEIADES.md, KONUM4.md, KONUM5.md. Konumu doğrulanamayan yerleşim 7 (④).
 
 ## EMRELİC düzeltmesi: Stonehenge · Amada · Semna
 
@@ -113,23 +115,41 @@ KASA: kronoloji maddesine hedefin `yer_id`'sini yazar ya da hedef kayda eş ad e
 | Hippo Regius (Numidia) | 1 | Annaba (2,4 km) | DOĞRULA | eksik_aday Pleiades noktası ≤ 3 km (yeniden ölçüldü) |
 | Philae (Birinci Şelale) | 1 | Philae — ② eklenecek noktayla aynı yer (Pleiades 786089), tek nokta | DOĞRULA | eksik_aday Pleiades noktası ≤ 3 km (yeniden ölçüldü) |
 | Tell Tweini (Gibala) | 1 | Cebele (Jablah) (1,5 km) | DOĞRULA | eksik_aday Pleiades noktası ≤ 3 km (yeniden ölçüldü) |
-| Alexandria | 1 | İskenderiye | YÜKSEK | konum4 (elle) |
-| Ninua | 1 | Ninova | YÜKSEK | konum4 (elle) |
-| Nīnawā | 1 | Ninova | YÜKSEK | konum4 (elle) |
-| Jebel Barkal | 1 | Merevî | DOĞRULA | konum4 (elle) |
-| Buda | 1 | Aquincum-Óbuda-Pest | DOĞRULA | konum4 (elle) |
-| Kerkyra | 1 | Korfu | YÜKSEK | konum4 (elle) |
-| Khalkis (Euboia) | 1 | Eğriboz | YÜKSEK | konum4 (elle) |
-| Rhegion | 1 | Reggio Calabria | YÜKSEK | konum4 (elle) |
-| Korkyra | 1 | Korfu | YÜKSEK | konum4 (elle) |
-| Gadir | 1 | Cádiz | YÜKSEK | konum4 (elle) |
-| Kût | 1 | Kût el-Amâre | YÜKSEK | konum4 (elle) |
-| Morača ile Ribnica'nın kavuştuğu yer | 1 | Podgorica | YÜKSEK | konum4 (elle) |
-| Parkan | 1 | Estergon | DOĞRULA | konum4 (elle) |
-| Halil | 1 | Hebron | YÜKSEK | konum4 (elle) |
-| Serav (Serâb) | 1 | Sarâb | DOĞRULA | konum4 (elle) |
-| Sirem | 1 | Varadin (Petrovaradin) | DOĞRULA | konum4 (elle) |
-| Uşi (Ouchy) | 1 | Lozan | YÜKSEK | konum4 (elle) |
+| Alexandria | 1 | İskenderiye | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Ninua | 1 | Ninova | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Nīnawā | 1 | Ninova | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Jebel Barkal | 1 | Merevî | DOĞRULA | konum4 (elle / ≤ 3 km) |
+| Buda | 1 | Aquincum-Óbuda-Pest | DOĞRULA | konum4 (elle / ≤ 3 km) |
+| Kerkyra | 1 | Korfu | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Khalkis (Euboia) | 1 | Eğriboz | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Rhegion | 1 | Reggio Calabria | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Korkyra | 1 | Korfu | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Gadir | 1 | Cádiz | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Kût | 1 | Kût el-Amâre | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Morača ile Ribnica'nın kavuştuğu yer | 1 | Podgorica | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Parkan | 1 | Estergon | DOĞRULA | konum4 (elle / ≤ 3 km) |
+| Halil | 1 | Hebron | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Serav (Serâb) | 1 | Sarâb | DOĞRULA | konum4 (elle / ≤ 3 km) |
+| Sirem | 1 | Varadin (Petrovaradin) | DOĞRULA | konum4 (elle / ≤ 3 km) |
+| Uşi (Ouchy) | 1 | Lozan | YÜKSEK | konum4 (elle / ≤ 3 km) |
+| Sèvres | 1 | Sevr | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Tagdempt | 1 | Tâhert (Tiaret) | DOĞRULA | konum5 (elle / ≤ 3 km) |
+| Ümmüdurman (Omdurman) | 1 | Ümmü Dermân | DOĞRULA | konum5 (elle / ≤ 3 km) |
+| Meksiko | 1 | Tenochtitlan (Mexico City) | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Rey şehri | 1 | Rey | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Berdesîr (Kirman'ın kuzey merkezi) | 1 | Kirman | DOĞRULA | konum5 (elle / ≤ 3 km) |
+| Dânişmendli şehirleri: Kayseri | 1 | Kayseri | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Tinmellel | 1 | Tinmel (Tin Mal) | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Selâ (Salé) | 1 | Selâ | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Talas | 1 | Taraz (Evliya-Ata) | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Şâş | 1 | Taşkent | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Yanbolu | 1 | Yanbolu (Yambol) | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Eski Hırsova | 1 | Hırsova (Hârșova) | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Kalafat | 1 | Calafat | DOĞRULA | konum5 (elle / ≤ 3 km) |
+| Çortomlık burnu | 1 | Çortomlık Seçi | DOĞRULA | konum5 (elle / ≤ 3 km) |
+| Szászsebes | 1 | Szászsebes (Sebeş) | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Karánsebes | 1 | Karánşebeş (Caransebeş) | YÜKSEK | konum5 (elle / ≤ 3 km) |
+| Kraków | 1 | Krakov | DOĞRULA | konum5 (elle / ≤ 3 km) |
 
 ## ② Eklenecek noktalar — atlasta 3 km içinde nokta yok
 
@@ -160,10 +180,10 @@ KASA: kronoloji maddesine hedefin `yer_id`'sini yazar ya da hedef kayda eş ad e
 | Lakiş | 31.56552, 34.84919 | Pleiades https://pleiades.stoa.org/places/687951 (Lachish) | yahuda | -0700-01-01 | Yahuda şehri → Sennacherib aldı (yeni-asur) | Livius «Assyria»; Luckenbill (madde) | KAYNAKLI (yıl) | künye içinde (-0929-01-01 → -0585-01-01) | antik tur (PLEIADES) |
 | Kaneş (Kültepe) | 38.85006, 35.63763 | Pleiades https://pleiades.stoa.org/places/58129442 (Kaneš) | — | -1899-01-01 | Kaneş şehir devleti (Aşşur karumu -1899) → -1749 Kuşşara kralı Anitta'nın başkenti — künye yok (hitit künyesi sonra) | Veenhof & Eidem 2008 (OBO 160/5); Bryce 2005 s. 55-57 | KAYNAKLI, KÜNYE YOK | — | parti 1-3 (Pleiades) |
 | Plataia | 38.22108, 23.27354 | Pleiades https://pleiades.stoa.org/places/541063 (Plataea) | — | -0478-01-01 | Boiotia'da Atina müttefiki polis — künye yok | Herodotos 9.58-70; Thukydides 2.1-2 | KAYNAKLI, KÜNYE YOK | — | parti 1-3 (Pleiades) |
-| Thapsus (Tunus kıyısı) | 35.62137, 11.04271 | Pleiades https://pleiades.stoa.org/places/324827 (Thapsus) | roma-cumhuriyeti | -0045-01-01 | Caesar-Juba savaşı; şehrin -46 sahibi KAYNAK-GEREK | Bellum Africum 79-86 | KAYNAK-GEREK | künye içinde (-0508-01-01 → -0026-01-16) | parti 1-3 (Pleiades — OLAY YERİ + KASABA (isteğe bağlı)) |
-| Pharsalus (Tesalya) | 39.28850, 22.38785 | Pleiades https://pleiades.stoa.org/places/541042 (Pharsalus) | roma-cumhuriyeti | -0047-01-01 | Tesalya (Roma Makedonya eyaleti) — eyalet bağı KAYNAK-GEREK | Caesar, Bellum Civile 3.82-99 | KAYNAK-GEREK | künye içinde (-0508-01-01 → -0026-01-16) | parti 1-3 (Pleiades — OLAY YERİ + KASABA (isteğe bağlı)) |
-| Alesia (Burgonya) | 47.53662, 4.50388 | Pleiades https://pleiades.stoa.org/places/177434 (Alesia) · oppidum | — | -0051-01-01 | Mandubii oppidumu (Galya) → Roma (Caesar) — künye yok | Caesar, Bellum Gallicum 7.68-89 | KAYNAKLI, KÜNYE YOK | — | parti 1-3 (Pleiades — OLAY YERİ + KASABA (isteğe bağlı)) |
-| Bibracte (Galya) | 46.92583, 4.03559 | Pleiades https://pleiades.stoa.org/places/177473 (Bibracte) · oppidum | — | -0057-01-01 | Aedui oppidumu — künye yok | Caesar, Bellum Gallicum 1.23 | KAYNAKLI, KÜNYE YOK | — | parti 1-3 (Pleiades — OLAY YERİ + KASABA (isteğe bağlı)) |
+| Thapsus (Tunus kıyısı) | 35.62137, 11.04271 | Pleiades https://pleiades.stoa.org/places/324827 (Thapsus) | roma-cumhuriyeti | -0045-01-01 | Caesar-Juba savaşı; şehrin -46 sahibi KAYNAK-GEREK | Bellum Africum 79-86 | KAYNAK-GEREK | künye içinde (-0508-01-01 → -0026-01-16) | parti 1-3 (Pleiades — olay maddesindeki kasaba) |
+| Pharsalus (Tesalya) | 39.28850, 22.38785 | Pleiades https://pleiades.stoa.org/places/541042 (Pharsalus) | roma-cumhuriyeti | -0047-01-01 | Tesalya (Roma Makedonya eyaleti) — eyalet bağı KAYNAK-GEREK | Caesar, Bellum Civile 3.82-99 | KAYNAK-GEREK | künye içinde (-0508-01-01 → -0026-01-16) | parti 1-3 (Pleiades — olay maddesindeki kasaba) |
+| Alesia (Burgonya) | 47.53662, 4.50388 | Pleiades https://pleiades.stoa.org/places/177434 (Alesia) · oppidum | — | -0051-01-01 | Mandubii oppidumu (Galya) → Roma (Caesar) — künye yok | Caesar, Bellum Gallicum 7.68-89 | KAYNAKLI, KÜNYE YOK | — | parti 1-3 (Pleiades — olay maddesindeki kasaba) |
+| Bibracte (Galya) | 46.92583, 4.03559 | Pleiades https://pleiades.stoa.org/places/177473 (Bibracte) · oppidum | — | -0057-01-01 | Aedui oppidumu — künye yok | Caesar, Bellum Gallicum 1.23 | KAYNAKLI, KÜNYE YOK | — | parti 1-3 (Pleiades — olay maddesindeki kasaba) |
 | Utica | 37.05257, 10.05729 | Pleiades https://pleiades.stoa.org/places/907258690 (Roman theater at Utica) · BEYAN: Pleiades kaydı Utica tiyatrosu (907258690) — şehrin iç | kartaca | -0148-01-01 | Kartaca müttefik şehri → -149 Roma'ya teslim oldu | Appianos, Punika 75 (madde) | KAYNAKLI (yıl) | künye içinde (-0813-01-01 → -0145-01-01) | parti 1-3 (Pleiades) |
 | Kimiata | 40.99420, 33.67864 | Pleiades https://pleiades.stoa.org/places/844982 (Kimiata) | pontus | -0301-01-01 | Mithridates Ktistes'in Paphlagonia'daki üssü | Strabon 12.3.41 (madde) | KAYNAKLI (yıl) — KÜNYE AŞIMI: pontus -0280'de başlıyor; aynı polity (Ktistes) → kural: künyeyi GENİŞLET, KASA kaynakla | **künye dışı** (-0280-01-01 → -0062-01-01) | parti 1-3 (Pleiades) |
 | Tiryns | 37.59928, 22.79999 | Pleiades https://pleiades.stoa.org/places/570740 (Tiryns) | miken | -1199-01-01 | Miken saray merkezi → -1199 yıkım, saray sonrası yerel topluluk | Cline 2014; Dickinson 1994 | KAYNAKLI (yıl) | künye içinde (-1399-01-01 → -1099-01-01) | parti 1-3 (Pleiades) |
@@ -173,8 +193,8 @@ KASA: kronoloji maddesine hedefin `yer_id`'sini yazar ya da hedef kayda eş ad e
 | Naukratis | 30.90051, 30.59193 | Pleiades https://pleiades.stoa.org/places/727169 (Naucratis) | ptolemai | -0168-01-01 | Ptolemaios Mısır'ı (Yunan ticaret şehri) | Polybios 28.20 | KAYNAKLI (yıl) | künye içinde (-0322-06-10 → -0029-08-01) | parti 1-3 (Pleiades) |
 | Mareia | 30.99482, 29.65639 | Pleiades https://pleiades.stoa.org/places/727153 (Mareia?/Philoxenite) | ahamenis-misir | -0459-01-01 | Ahameniş Mısır'ı sınır kalesi (İnaros isyanı) | Thukydides 1.104 | KAYNAKLI (yıl) | künye içinde (-0524-01-01 → -0403-01-01) | parti 1-3 (Pleiades) |
 | Momemphis | 30.79506, 30.60050 | Pleiades https://pleiades.stoa.org/places/727165 (Momemphis) | sait-26-hanedan | -0569-01-01 | Apries-Amasis savaşı | Herodotos 2.161-169 | KAYNAKLI (yıl) | künye içinde (-0663-01-01 → -0524-01-01) | parti 1-3 (Pleiades) |
-| İpsos (Frigya) | 38.85619, 30.54921 | Pleiades https://pleiades.stoa.org/places/609415 (Ipsos) | — | -0300-01-01 | Frigya kasabası; -301 savaşı — sahip (Antigonos) KAYNAK-GEREK | Diodoros 20.107-113 | KAYNAK-GEREK | — | parti 1-3 (Pleiades — OLAY YERİ + KASABA (isteğe bağlı)) |
-| Opis | 33.18440, 44.70150 | Pleiades https://pleiades.stoa.org/places/894056 (Opis) | yeni-babil | -0538-01-01 | Babil (Nabonid) → Pers (Kyros) | Nabonid Kroniği (ABC 7) iii.12-14, Grayson 1975 | KAYNAKLI (yıl) | künye içinde (-0625-01-01 → -0538-10-12) | parti 1-3 (Pleiades — OLAY YERİ + KASABA (isteğe bağlı)) |
+| İpsos (Frigya) | 38.85619, 30.54921 | Pleiades https://pleiades.stoa.org/places/609415 (Ipsos) | — | -0300-01-01 | Frigya kasabası; -301 savaşı — sahip (Antigonos) KAYNAK-GEREK | Diodoros 20.107-113 | KAYNAK-GEREK | — | parti 1-3 (Pleiades — olay maddesindeki kasaba) |
+| Opis | 33.18440, 44.70150 | Pleiades https://pleiades.stoa.org/places/894056 (Opis) | yeni-babil | -0538-01-01 | Babil (Nabonid) → Pers (Kyros) | Nabonid Kroniği (ABC 7) iii.12-14, Grayson 1975 | KAYNAKLI (yıl) | künye içinde (-0625-01-01 → -0538-10-12) | parti 1-3 (Pleiades — olay maddesindeki kasaba) |
 | Musasir | 36.83944, 44.30333 | Pleiades https://pleiades.stoa.org/places/126728263 (Muṣaṣir) | urartu | -0713-01-01 | Urartu tapınak şehri (Haldi) → II. Sargon yağmaladı | Livius «Urartu» — akademik teyit gerek | KAYNAK-GEREK (Livius tek dayanak) | künye içinde (-0859-01-01 → -0589-01-01) | parti 1-3 (Pleiades) |
 | Klimonas | 34.71255, 33.13374 | Pleiades https://pleiades.stoa.org/places/13818292 (Klimonas) | — | -9149-01-01 | Kıbrıs Erken Aseramik Neolitik köyü — devlet öncesi, künye yok | Vigne vd. 2012, PNAS 109(22) | KAYNAKLI (14C), KÜNYE YOK | — | parti 1-3 (Pleiades) |
 | Burzahom (Burzahama) | 34.16735, 74.87704 | GeoNames https://www.geonames.org/1429703 (Burzahom köyü, Srinagar) — Pleiades kapsamı dışı; höyük köyün yanında, BEYANLI KONUM | — | -2899-01-01 | Keşmir Neolitiği — devlet öncesi; künye yok | Dwivedi vd. 2025, Sci Rep (madde) | KAYNAKLI, KÜNYE YOK | — | parti 4 (GeoNames) |
@@ -185,27 +205,57 @@ KASA: kronoloji maddesine hedefin `yer_id`'sini yazar ya da hedef kayda eş ad e
 | Olbia | 46.69239, 31.90586 | Pleiades https://pleiades.stoa.org/places/226546 (Borysthenes/Olbia) | — | -0646-01-01 | Milet kolonisi, bağımsız polis — künye yok | Eusebios; Hansen & Nielsen 2004 | KAYNAKLI, KÜNYE YOK | — | parti 4 (Pleiades) |
 | Lokroi (Bruttium) | 38.22630, 16.24434 | Pleiades https://pleiades.stoa.org/places/452369 (Lokroi Epizephyrioi) | — | -0672-01-01 | Lokris kolonisi, bağımsız polis — künye yok | Strabon 6.1.7; Eusebios | KAYNAKLI, KÜNYE YOK | — | parti 4 (Pleiades) |
 | Babaeski | 41.42809, 27.09660 | GeoNames https://www.geonames.org/751371 (Babaeski ilçe merkezi) · TDV tarifi: Lüleburgaz-Edirne yolu üstü | OSMANLI | 1360-01-01 | Bizans → Osmanlı (I. Murad'ın Edirne kuşatması öncesi; yıl) | TDV «Murad I», «Lüleburgaz» (madde) | KAYNAKLI (yıl) | d: OSMANLI | parti 4 (GeoNames) |
+| Dömeke | 39.12722, 22.30028 | GeoNames https://www.geonames.org/263000 (Domokos) | yunanistan | 1897-05-17 | 1881'den Yunanistan; 1897 savaşında Osmanlı işgali (geçici) | madde | KAYNAK-GEREK (1881 devri) | künye içinde (1821-03-25 → 1973-06-01) | parti 4 (GeoNames — olay maddesindeki kasaba) |
+| Bileća | 42.87645, 18.42967 | GeoNames https://www.geonames.org/3204161 | bosna-kralligi | 1388-08-27 | Bosna Krallığı toprağı (Bileća yenilgisi) | madde | KAYNAK-GEREK | künye içinde (1180-01-01 → 1463-05-01) | parti 4 (GeoNames — olay maddesindeki kasaba) |
+| Kumanova | 42.13279, 21.71585 | GeoNames https://www.geonames.org/788886 (Kumanovo) | OSMANLI | 1912-10-23 | Osmanlı → Sırbistan (Kumanova savaşı) | madde | KAYNAKLI (madde) | d: OSMANLI | parti 4 (GeoNames — olay maddesindeki kasaba) |
 | Osnabrück | 52.27411, 8.05056 | GeoNames https://www.geonames.org/2856883 | almanya | 1648-10-24 | Osnabrück Prens-Piskoposluğu (Kutsal Roma) | TDV «Almanya» (madde) | KAYNAKLI | künye içinde (0962-02-02 → 1945-06-05) | parti 4 (GeoNames) |
+| Salankamen | 45.14249, 20.25765 | GeoNames https://www.geonames.org/785529 (Stari Slankamen) | — | 1691-08-19 | 1691 savaşı; kasabanın sahibi (Habsburg) KAYNAK-GEREK | madde | KAYNAK-GEREK | — | parti 4 (GeoNames — olay maddesindeki kasaba) |
+| Zenta | 45.92750, 20.07722 | GeoNames https://www.geonames.org/785965 (Senta) | — | 1697-09-11 | Zenta bozgunu; kasabanın 1697 sahibi (Habsburg / Osmanlı) KAYNAK-GEREK | madde | KAYNAK-GEREK | — | parti 4 (GeoNames — olay maddesindeki kasaba) |
 | Missolonghi | 38.37138, 21.43151 | GeoNames https://www.geonames.org/257186 (Messolonghi) | OSMANLI | 1826-04-22 | 1821 isyanıyla Yunan isyancılar → 1826-04-22 Osmanlı aldı → 1829 Yunan (KAYNAK-GEREK) | TDV «Reşid Mehmed Paşa» (madde) | KAYNAKLI (düşüş günü) | d: OSMANLI | parti 4 (GeoNames) |
+| Nizip | 37.00972, 37.79417 | GeoNames https://www.geonames.org/303798 | OSMANLI | 1839-06-24 | Nizip Muharebesi; kasaba Osmanlı (Mısır ordusu karşısında) | madde | KAYNAKLI (madde) | d: OSMANLI | parti 4 (GeoNames — olay maddesindeki kasaba) |
+| Yanbolu (Yambol) | 42.48243, 26.50006 | GeoNames https://www.geonames.org/725578 | OSMANLI | 1410-02-13 | Osmanlı fetret içi savaş (Mûsâ — Süleyman); kasabanın fethi KAYNAK-GEREK | madde | KAYNAK-GEREK (kur) | d: OSMANLI | parti 4 (GeoNames — olay maddesindeki kasaba) |
 | Drivasto | 42.12306, 19.59139 | GeoNames https://www.geonames.org/3185761 (Drisht, Arnavutluk, İşkodra) — Drivasto = Drisht (TDV «Arnavutluk»da Leş ve Draç'la birlikte anıl | venedik | 1478-01-01 | Venedik (1390'lar, yerli beylerden) → Osmanlı 1478 (yıl; Akçahisar, Leş, Jabyak ile) | TDV «Arnavutluk» | KAYNAKLI (yıl) | künye içinde (0697-01-01 → 1797-05-12) | parti 4 (GeoNames) |
+| Sen Gotar | 46.95261, 16.27358 | GeoNames https://www.geonames.org/3044669 (Szentgotthárd) | macaristan-habsburg | 1664-08-01 | Habsburg Macaristan'ı (Rába kıyısı) | madde | KAYNAK-GEREK | künye içinde (1526-12-17 → 1918-11-16) | parti 4 (GeoNames — olay maddesindeki kasaba) |
 | Vasvár | 47.04928, 16.79954 | GeoNames https://www.geonames.org/3043033 | macaristan-habsburg | 1664-08-09 | Habsburg Macaristan'ı (Vas ili) | TDV «Vasvar Antlaşması» (madde) | KAYNAKLI | künye içinde (1526-12-17 → 1918-11-16) | parti 4 (GeoNames) |
 | Versec | 45.11667, 21.30361 | GeoNames https://www.geonames.org/784136 (Vršac, Sırbistan) | OSMANLI | 1552-07-27 | Temeşvar'dan gönderilen kuvvetler tuttu (Güney Banat palankaları) | Bánlaky, A magyar nemzet hadtörténelme (MEK 09477) (madde) | KAYNAKLI | d: OSMANLI | parti 4 (GeoNames) |
 | Facset | 45.85000, 22.18333 | GeoNames https://www.geonames.org/678490 (Făget, Romanya, Timiş — Bacău'daki eş ad değil) | OSMANLI | 1552-07-27 | aynı madde (Versec, Facset, Mehádia, Csákóvár…) | Bánlaky (madde) | KAYNAKLI | d: OSMANLI | parti 4 (GeoNames) |
 | Mehádia | 44.90083, 22.36694 | GeoNames https://www.geonames.org/673619 (Mehadia, Romanya, Caraş-Severin) | OSMANLI | 1552-07-27 | aynı madde | Bánlaky (madde) | KAYNAKLI | d: OSMANLI | parti 4 (GeoNames) |
 | Csákóvár | 45.50806, 21.12861 | GeoNames https://www.geonames.org/681971 (Ciacova, Romanya, Timiş) | OSMANLI | 1552-07-27 | aynı madde | Bánlaky (madde) | KAYNAKLI | d: OSMANLI | parti 4 (GeoNames) |
+| Hisarcık (Grocka) | 44.67152, 20.71648 | GeoNames https://www.geonames.org/790132 (Grocka) | habsburg | 1739-07-22 | 1718-1739 Habsburg Sırbistan'ı → 1739 Osmanlı (Belgrad Antlaşması) | madde | KAYNAK-GEREK | künye içinde (1282-12-27 → 1918-11-12) | parti 4 (GeoNames — olay maddesindeki kasaba) |
+| Kozluca | 43.33058, 27.59908 | GeoNames https://www.geonames.org/726591 (Suvorovo; GeoNames alt adı Kozludzha) | OSMANLI | 1774-06-25 | Osmanlı (Varna-Şumnu arası) | madde | KAYNAKLI (madde) | d: OSMANLI | parti 4 (GeoNames — olay maddesindeki kasaba) |
 | Fethülislâm | 44.61147, 22.60955 | GeoNames https://www.geonames.org/789485 (Kladovo) · TDV «Sırbistan», «Semendire»: 'Fethülislâm (Kladovo)' | OSMANLI | 1867-04-18 | Osmanlı kalesi → 1867-04-18 garnizon çekildi, Sırbistan Prensliği'ne (sirbistan-prensligi) | TDV «Sırbistan» (madde) | KAYNAKLI (kur KAYNAK-GEREK) | d: OSMANLI | parti 4 (GeoNames) |
 | Ayastefanos (Yeşilköy) | 40.95900, 28.82240 | GeoNames https://www.geonames.org/737563 (Yeşilköy, Bakırköy, İstanbul) | OSMANLI | 1878-03-03 | İstanbul'un batısında köy; ABİ MERKEZ: İstanbul | TDV «Ayastefanos Antlaşması» (madde) | BEYANLI YAKLAŞIKLIK (zincir İstanbul'dan) | d: OSMANLI | parti 4 (GeoNames) |
 | Novigrad | 47.90852, 19.04806 | GeoNames https://www.geonames.org/3047356 (Nógrád köyü; Novigrad = Nógrád kalesi, Vác kuzeyi) | OSMANLI | 1544-09-01 | Budin'in kuzey savunma kuşağı (1544 seferi; ay) | TDV «Budin» (madde) | KAYNAKLI (ay) | d: OSMANLI | parti 4 (GeoNames) |
-| Dömeke | 39.12722, 22.30028 | GeoNames https://www.geonames.org/263000 (Domokos) | yunanistan | 1897-05-17 | 1881'den Yunanistan; 1897 savaşında Osmanlı işgali (geçici) | madde | KAYNAK-GEREK (1881 devri) | künye içinde (1821-03-25 → 1973-06-01) | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Bileća | 42.87645, 18.42967 | GeoNames https://www.geonames.org/3204161 | bosna-kralligi | 1388-08-27 | Bosna Krallığı toprağı (Bileća yenilgisi) | madde | KAYNAK-GEREK | künye içinde (1180-01-01 → 1463-05-01) | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Kumanova | 42.13279, 21.71585 | GeoNames https://www.geonames.org/788886 (Kumanovo) | OSMANLI | 1912-10-23 | Osmanlı → Sırbistan (Kumanova savaşı) | madde | KAYNAKLI (madde) | d: OSMANLI | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Salankamen | 45.14249, 20.25765 | GeoNames https://www.geonames.org/785529 (Stari Slankamen) | — | 1691-08-19 | 1691 savaşı; kasabanın sahibi (Habsburg) KAYNAK-GEREK | madde | KAYNAK-GEREK | — | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Zenta | 45.92750, 20.07722 | GeoNames https://www.geonames.org/785965 (Senta) | — | 1697-09-11 | Zenta bozgunu; kasabanın 1697 sahibi (Habsburg / Osmanlı) KAYNAK-GEREK | madde | KAYNAK-GEREK | — | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Nizip | 37.00972, 37.79417 | GeoNames https://www.geonames.org/303798 | OSMANLI | 1839-06-24 | Nizip Muharebesi; kasaba Osmanlı (Mısır ordusu karşısında) | madde | KAYNAKLI (madde) | d: OSMANLI | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Yanbolu (Yambol) | 42.48243, 26.50006 | GeoNames https://www.geonames.org/725578 | OSMANLI | 1410-02-13 | Osmanlı fetret içi savaş (Mûsâ — Süleyman); kasabanın fethi KAYNAK-GEREK | madde | KAYNAK-GEREK (kur) | d: OSMANLI | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Sen Gotar | 46.95261, 16.27358 | GeoNames https://www.geonames.org/3044669 (Szentgotthárd) | macaristan-habsburg | 1664-08-01 | Habsburg Macaristan'ı (Rába kıyısı) | madde | KAYNAK-GEREK | künye içinde (1526-12-17 → 1918-11-16) | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Hisarcık (Grocka) | 44.67152, 20.71648 | GeoNames https://www.geonames.org/790132 (Grocka) | habsburg | 1739-07-22 | 1718-1739 Habsburg Sırbistan'ı → 1739 Osmanlı (Belgrad Antlaşması) | madde | KAYNAK-GEREK | künye içinde (1282-12-27 → 1918-11-12) | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
-| Kozluca | 43.33058, 27.59908 | GeoNames https://www.geonames.org/726591 (Suvorovo; GeoNames alt adı Kozludzha) | OSMANLI | 1774-06-25 | Osmanlı (Varna-Şumnu arası) | madde | KAYNAKLI (madde) | d: OSMANLI | parti 4 — OLAY YERİ + KASABA (isteğe bağlı) |
+| Kailua-Kona | 19.64016, -155.99912 | GeoNames https://www.geonames.org/5847504 | hawaii-kralligi | 1819-11-01 | Hawaii Krallığı (Kamehameha sarayı) | madde | KAYNAKLI (madde) | künye içinde (1795-01-01 → 1893-01-17) | parti 5 (GeoNames) |
+| Tellülkebîr | 30.54323, 31.78504 | GeoNames https://www.geonames.org/359710 (At Tall al Kabīr) | misir-kavalali | 1882-09-13 | Hidiv Mısır'ı → İngiliz işgali | madde | KAYNAKLI (madde) | künye içinde (1805-07-03 → 1914-12-18) | parti 5 (GeoNames) |
+| Îmbâbe | 30.07625, 31.20666 | GeoNames https://www.geonames.org/355549 (Imbābah, Gize) | misir-eyaleti | 1798-07-21 | Osmanlı Mısır'ı (Memlük beyleri) → Fransız (fransiz-misir-seferi) | madde | KAYNAKLI (madde) | künye içinde (1517-04-13 → 1805-07-03) | parti 5 (GeoNames) |
+| Fontainebleau | 48.40908, 2.70177 | GeoNames https://www.geonames.org/3018074 | fransa | 1762-11-03 | Fransa Krallığı | madde | KAYNAKLI (madde) | künye içinde (0987-07-03 → 1792-09-22) | parti 5 (GeoNames) |
+| Saint-Germain-en-Laye | 48.89643, 2.09040 | GeoNames https://www.geonames.org/2979783 | fransa-cumhuriyet | 1919-09-10 | Fransa (III. Cumhuriyet) | madde | KAYNAKLI (madde) | künye içinde (1792-09-22 → ) | parti 5 (GeoNames) |
+| Versailles | 48.80359, 2.13424 | GeoNames https://www.geonames.org/2969679 | fransa-cumhuriyet | 1919-06-28 | Fransa (III. Cumhuriyet) | madde | KAYNAKLI (madde) | künye içinde (1792-09-22 → ) | parti 5 (GeoNames) |
+| Neuilly-sur-Seine | 48.88460, 2.26965 | GeoNames https://www.geonames.org/2990611 | fransa-cumhuriyet | 1919-11-27 | Fransa (III. Cumhuriyet) | madde | KAYNAKLI (madde) | künye içinde (1792-09-22 → ) | parti 5 (GeoNames) |
+| Barcs | 45.96000, 17.45861 | GeoNames https://www.geonames.org/3055368 | macaristan-naiplik | 1921-08-20 | Sırp işgalinden Macar jandarmasına (Szigetvár ile) — Barcs'ın işgal dönemi KAYNAK-GEREK | madde | KAYNAK-GEREK | künye içinde (1918-11-16 → 1946-02-01) | parti 5 (GeoNames) |
+| Selâ | 34.05310, -6.79846 | GeoNames https://www.geonames.org/2537763 (Salé, Fas) | muvahhidler | 1163-05-16 | Muvahhid şehri → 1248-04-26 Merînî (merini) | madde (TDV) | KAYNAKLI (madde) | künye içinde (1130-01-01 → 1269-01-01) | parti 5 (GeoNames) |
+| Cezîretülhadrâ (Algeciras) | 36.13326, -5.45051 | GeoNames https://www.geonames.org/2522013 (Algeciras) | sevilla-abbadiler | 1086-06-30 | Sevilla taifası limanı → Murâbıtlar'a (murabitlar) bırakıldı | madde (TDV) | KAYNAK-GEREK (devir günü) | künye içinde (1023-01-01 → 1091-01-01) | parti 5 (GeoNames) |
+| Thânesâr | 29.97323, 76.83214 | GeoNames https://www.geonames.org/1254657 (Thanesar, Haryana) | — | 1014-07-02 | Hindu krallığı şehri; Gazneli akını (fetih değil) — sahip KAYNAK-GEREK | madde (TDV) | KAYNAK-GEREK | — | parti 5 (GeoNames) |
+| Somnât (Sûmenât) | 20.88808, 70.40129 | GeoNames https://www.geonames.org/1255818 (Somnāth, Gucerat — Verāval'in 4 km doğusu) | caulukya | 1026-01-08 | Çaulukya (Solanki) Gucerat'ı → Gazneli geçici fethi | madde (TDV) | KAYNAK-GEREK | künye içinde (0942-01-01 → 1297-01-01) | parti 5 (GeoNames) |
+| Misilmeri | 38.03183, 13.44795 | GeoNames https://www.geonames.org/2524126 | sicilya-emirligi | 1068-01-01 | Sicilya emirliği → Norman (sicilya-kralligi) | madde | KAYNAK-GEREK | künye içinde (0947-01-01 → 1091-01-01) | parti 5 (GeoNames) |
+| Rânye | 21.25040, 42.84751 | GeoNames https://www.geonames.org/12546009 (Ranyah; GeoNames idare 'Asir' yazıyor — BEYANLI KONUM) | misir-kavalali | 1816-01-01 | Mısır (Kavalalı) garnizonu çekildi → Necid | madde | KAYNAKLI (madde) | künye içinde (1805-07-03 → 1914-12-18) | parti 5 (GeoNames) |
+| Menfûha | 24.60050, 46.72722 | GeoNames https://www.geonames.org/104433 (Manfūḩah — bugün Riyad'ın semti, 1819'da ayrı kasaba) | misir-kavalali | 1819-08-13 | Dir'iye sonrası Mısır garnizonu | madde | KAYNAKLI (madde) | künye içinde (1805-07-03 → 1914-12-18) | parti 5 (GeoNames) |
+| Oskol | 51.30250, 37.84613 | GeoNames https://www.geonames.org/487928 (Stary Oskol) | rusya | 1596-01-01 | Moskova Çarlığı'nın bozkır garnizonu (kuruluş 1593 — KAYNAK-GEREK) | madde | KAYNAKLI (madde) | künye içinde (1547-01-16 → 1917-03-15) | parti 5 (GeoNames) |
+| Altınköprü | 35.75344, 44.14727 | GeoNames https://www.geonames.org/98979 (Āltūn Kawbrī, Kerkük) | safevi | 1625-01-01 | Safevî → Osmanlı (Hâfız Ahmed Paşa'nın Musul seferi) | madde | KAYNAK-GEREK | künye içinde (1501-07-01 → 1736-03-08) | parti 5 (GeoNames) |
+| Kırkağaç | 39.10638, 27.66925 | GeoNames https://www.geonames.org/307623 | OSMANLI | 1920-06-22 | Osmanlı → Yunan işgali (yaz taarruzu) | madde | KAYNAKLI (madde) | d: OSMANLI | parti 5 (GeoNames) |
+| Nazilli | 37.91631, 28.32225 | GeoNames https://www.geonames.org/303873 | OSMANLI | 1920-06-22 | Osmanlı; madde listesinde geçiyor — Yunan işgalinin Nazilli'ye ulaşıp ulaşmadığı KAYNAK-GEREK | madde | KAYNAK-GEREK | d: OSMANLI | parti 5 (GeoNames) |
+| Gediz | 38.99389, 29.39131 | GeoNames https://www.geonames.org/314716 (Gediz, Kütahya) | OSMANLI | 1920-08-29 | Osmanlı (Uşak işgali maddesi) — Gediz'in işgali KAYNAK-GEREK | madde | KAYNAK-GEREK | d: OSMANLI | parti 5 (GeoNames) |
+| Oltu | 40.53944, 41.98722 | GeoNames https://www.geonames.org/741160 | safevi | 1534-01-01 | Safevî → Osmanlı (Pasin, Şüregel, Oltu kaleleri) | madde | KAYNAKLI (yıl) | künye içinde (1501-07-01 → 1736-03-08) | parti 5 (GeoNames) |
+| Adakale | 44.71667, 22.45000 | GeoNames https://www.geonames.org/686694 (Ada Kaleh — 1970'te baraj gölü altında kaldı; tarihî konum) | habsburg | 1738-08-17 | Avusturya → Osmanlı | madde | KAYNAKLI (madde) | künye içinde (1282-12-27 → 1918-11-12) | parti 5 (GeoNames) |
+| Mozdok (Terek boyu) | 43.73976, 44.65157 | GeoNames https://www.geonames.org/524736 | rusya | 1763-01-01 | Rusya'nın kurduğu kale-kasaba (kur) | madde | KAYNAKLI (yıl) | künye içinde (1547-01-16 → 1917-03-15) | parti 5 (GeoNames) |
+| Fokşani (Focşani) | 45.70000, 27.18333 | GeoNames https://www.geonames.org/678015 | OSMANLI | 1789-08-01 | Eflak-Boğdan sınır kasabası (tâbi beylikler) — v: KAYNAK-GEREK | madde | KAYNAK-GEREK | d: OSMANLI | parti 5 (GeoNames) |
+| Maçin | 45.24371, 28.13564 | GeoNames https://www.geonames.org/674230 (Măcin) | OSMANLI | 1791-07-09 | Osmanlı Tuna kalesi | madde | KAYNAKLI (madde) | d: OSMANLI | parti 5 (GeoNames) |
+| Pazar | 41.18019, 40.88663 | GeoNames https://www.geonames.org/740675 (Pazar, Rize) | OSMANLI | 1916-03-08 | Osmanlı → Rus işgali; ABİ MERKEZ: Rize (Çaykıran 2021) | madde + ABİ MERKEZ | BEYANLI YAKLAŞIKLIK | d: OSMANLI | parti 5 (GeoNames) |
+| Kızılrubat | 33.82112, 44.41145 | GeoNames https://www.geonames.org/387368 (As Sa‘dīyah — Osmanlı Kızılrubat'ı, Diyala) | OSMANLI | 1917-12-06 | Osmanlı → İngiliz hattı (Hânekîn ile) | madde | KAYNAKLI (madde) | d: OSMANLI | parti 5 (GeoNames) |
+| Gerger | 38.02807, 39.03418 | GeoNames https://www.geonames.org/324126 (Gerger ilçe merkezi — tarihî Gerger kalesi Fırat kıyısında, birkaç km doğuda; BEYANLI KONUM) | memluk | 1467-01-01 | Memlük-Dulkadir sınırı (madde 'yaklaşık') — sahip KAYNAK-GEREK | madde | KAYNAK-GEREK | künye içinde (1250-01-01 → 1517-04-13) | parti 5 (GeoNames) |
+| Kadirli | 37.37389, 36.09611 | GeoNames https://www.geonames.org/310892 | memluk | 1471-01-01 | Memlük-Dulkadir çekişmesi (madde 'yaklaşık') — sahip KAYNAK-GEREK | madde | KAYNAK-GEREK | künye içinde (1250-01-01 → 1517-04-13) | parti 5 (GeoNames) |
+| Blagay | 43.25892, 17.88815 | GeoNames https://www.geonames.org/3203970 (Blagaj, Mostar yöresi — kuzeydeki eş adlılar değil) | hersek | 1448-01-01 | Stjepan Vukčić-Kosača'nın merkezi | madde | KAYNAKLI (madde) | künye içinde (1435-01-01 → 1482-01-01) | parti 5 (GeoNames) |
 
 ## ③ Olay yerleri ve yapılar — petek DEĞİL (kronoloji odağı olarak kalır)
 
@@ -285,3 +335,47 @@ Savaş alanı, ova, geçit, anıt, tapınak ve ada kalesi petek noktası olursa 
 | Tersane | SEMT/YAPI | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1772-10-01 — Baron de Tott öncülüğünde kısa ömürlü topçuluk okulu denemesi |
 | Sîdî Ferruc | OLAY YERİ | 1830 Fransız çıkarma yeri (Cezayir kıyısı) | 1830-06-14 — Sîdî Ferruc çıkarması — Fransız ordusu Cezayir toprağında |
 | Gedikpaşa Tiyatrosu | SEMT/YAPI | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1873-04-01 — "Vatan yahut Silistre" sahnelendi, Nâmık Kemal sürgüne gönderildi |
+| Serdrûd (Tebriz yakınları) | OLAY YERİ | 1408 savaşı | 1408-04-13 — Serdrûd zaferi: Tebriz ve Azerbaycan Karakoyunlu'ya geçti |
+| Mugan Sahrası | OLAY YERİ | Nâdir'in tahta çıktığı sahra | 1736-03-08 — Nadir Şah'ın Mugan Sahrası'nda tahta çıkışı: Safevî hanedanının fiilen |
+| Menevâşî | OLAY YERİ | 1874 savaşı (Darfur) | 1874-11-02 — Darfur Sultanlığı'nın Mısır'a ilhakı — Zübeyr Paşa El-Fâşir'e girdi |
+| Şeykan | OLAY YERİ | 1883 savaşı (orman) | 1883-11-05 — Şeykan bozgunu — Hicks Paşa ordusunun yok edilişi |
+| Pul-i Şikeste | OLAY YERİ | 1618 savaşı (köprü) | 1618-09-10 — Serav (Pul-i Şikeste) bozgunu — Halil Paşa'nın İran seferi |
+| Dücum | OLAY YERİ | 1733 savaşı (Sâmerrâ yöresi) | 1733-07-19 — Topal Osman Paşa Nâdir'i Dücum'da yendi — Bağdat kuşatması kalktı |
+| Kağaverd mevkii | OLAY YERİ | 1745 savaşı | 1745-08-21 — Kağaverd bozgunu — Yeğen Mehmed Paşa'nın ordusu dağıldı |
+| Tophane | SEMT/YAPI | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1826-04-08 — Nusretiye Camii inşaatının tamamlanması |
+| Trianon (Versailles) | SEMT/YAPI | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1920-06-04 — Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti |
+| Cebelimesâr | KALE/YAPI | Yemen'de dağ kalesi — KALE/YAPI | 1047-01-01 — Ali es-Suleyhî Cebelimesâr'ı alarak isyan etti, Suleyhî hanedanı kurul |
+| Katvân (Siriderya ötesi) | OLAY YERİ | sınır sahrası | 0996-01-25 — Sebük Tegin aracılığıyla yapılan anlaşmayla Siriderya sahası Katvân'a  |
+| Kûhek (Semerkant'a yaklaşık 42 km) | OLAY YERİ | 1003 savaşı (tepe/ırmak) | 1003-08-03 — Selçuk Bey'in oğlu Arslan Yabgu'nun Oğuzlar'ı Sâmânî İsmâil'le birlikt |
+| Şahdiz (Dizkûh) | KALE/YAPI | İsfahan yöresi Bâtınî kalesi — KALE/YAPI | 1107-01-01 — Muhammed Tapar İsfahan civarındaki Şahdiz (Dizkûh) Kalesi'ni zaptedip  |
+| Karasu | OLAY YERİ | 1204 savaşı (ırmak) | 1204-01-01 — Gurlu Şehâbeddin Hârizm'e gelip Karasu'da Hârizm ordusunu yendi ve Gür |
+| İlâmış sahrası | OLAY YERİ | 1210 savaşı | 1210-01-01 — Alâeddin Muhammed İlâmış sahrasında Karahıtay ordusunu yendi, Endican  |
+| Yassıçimen | OLAY YERİ | 1230 savaşı | 1230-01-01 — Celâleddin Anadolu Selçuklu Sultanı I. Alâeddin Keykubad'a Yassıçimen' |
+| Montaperti | OLAY YERİ | 1260 savaşı (tepe) | 1260-01-01 — Montaperti Muharebesi: Manfred'in Ghibellin müttefikleri Toskana Guelf |
+| Vâdiilekke (Guadalete) veya Barbate kıyısı | OLAY YERİ | 711 savaşı (ırmak) | 0711-07-26 — Târık b. Ziyâd Vizigot ordusunu ağır yenilgiye uğrattı |
+| Merciuyûn (Mercayoun) | OLAY YERİ | 1179 savaşı (vadi) | 1179-06-09 — Selâhaddin Merciuyûn'da Haçlılar'a karşı zafer kazandı |
+| Altunkale | KALE/YAPI | Ahıska kalesi — KALE/YAPI (konum teyitsiz) | 1578-08-09 — Ahıska atabegliğinin Osmanlı idaresine girmesi — Altunkale, Hırtıs ve  |
+| Hırtıs | KALE/YAPI | Ahıska kalesi (Khertvisi) — KALE/YAPI | 1578-08-09 — Ahıska atabegliğinin Osmanlı idaresine girmesi — Altunkale, Hırtıs ve  |
+| Gruž | SEMT/YAPI | şehir içi semt, yapı ya da meydan — maddenin şehri taşır | 1814-01-28 — Dubrovnik'te Fransız idaresinin sonu — eski Osmanlı haraçgüzârı şehre  |
+| Gülanber | KALE/YAPI | Şehrizor kalesi — KALE/YAPI (konum teyitsiz) | 1630-03-16 — Hüsrev Paşa'nın Şehrizor'da Gülanber Kalesi'ni yeniden kurması — Şehri |
+| Stavuçani | OLAY YERİ | 1739 savaşı (köy kenarı) | 1739-08-28 — Stavuçani yenilgisi ve Hotin'in Ruslara teslimi (1736-1739 Osmanlı-Rus |
+| Aslıhanlar | OLAY YERİ | 1921 savaşı (köy kenarı) | 1921-04-07 — Afyon'un geri alınışı — Aslıhanlar muharebeleri |
+| Kocatepe | OLAY YERİ | 1922 taarruz tepesi | 1922-08-26 — Büyük Taarruz başladı |
+| Şüregel | KALE/YAPI | Kars yöresi kalesi — KALE/YAPI (konum teyitsiz) | 1534-01-01 — Pasin, Şüregel ve Oltu kaleleri Safevîlerden alındı — Erzurum-Kars ara |
+| Nâdir'in karargâhı | OLAY YERİ | ordugâh | 1734-05-31 — Nâdir'in Rus elçisi Golitsın'a tehdidi: Hazar eyaletleri ve Derbend ve |
+| Ordugâh | OLAY YERİ | ordugâh | 1789-06-07 — Koca Yûsuf Paşa'nın sadâretten azli |
+| Boza suyu | OLAY YERİ | 1789 Rimnik savaşı (ırmak) | 1789-09-22 — Rimnik (Boze) bozgunu |
+
+## ④ Konumu doğrulanamayan yerleşimler — koordinat yok (yanlış nokta eksik noktadan kötü)
+
+Parti 1-3'ün koordinatsız antik adayları PLEIADES.md ve TDV-KONUM.md'dedir; burada parti 4-5.
+
+| ad | neden | madde |
+|---|---|---|
+| Ounjougou | Pleiades kapsamı dışı (Mali, tarihöncesi); koordinat yok | -9249-01-01 — Ounjougou (Ravin de la Mouche) - Afrika'nin en eski seramigi: Afrika'n |
+| Berezan | Pleiades 'Borysthenes' kaydını Olbia ile birleştiriyor; Berezan adası yerleşimi ayrı kayıt bulunamadı — madde Olbia noktasıyla taşınır, koordinat yok | -0646-01-01 — Olbia/Berezan, Miletos tarafından kuruldu |
+| Dara | Darfur'daki Dara kalesi-kasabası; GeoNames yalnız kaba 'locality' (12,2 / 25,33) verdi — yanlış nokta riskli, koordinat yok | 1883-12-23 — Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın teslimi |
+| Deyrülâkūl (Bağdat'a 50 mil) | Dicle kıyısı ortaçağ kasabası; konum kaynakta yalnız uzaklıkla — koordinat yok | 0876-04-01 — Ya'kūb b. Leys Bağdat yakınında Deyrülâkūl'de Abbâsî kuvvetlerine ilk  |
+| Ferâve | Horasan ribatı (Ferâve); konum teyitsiz — koordinat yok | 1035-08-01 — Mesud barış yaptı: Dihistan Çağrı Bey'e, Nesâ Tuğrul Bey'e, Ferâve Mûs |
+| Rumkale | kale-şehir (Hromkla); GeoNames'te kayıt yok — koordinat yok (Halfeti ~10 km kuzeyde, ABİ MERKEZ adayı) | 1467-01-01 — Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık) |
+| İtil (İdil ağzı) | Hazar başkenti; arkeolojik yeri bulunmadı — koordinat yok | 0732-01-01 — Mervân b. Muhammed’in seferiyle «yeni Hazar başşehri» İtil (İdil ağzı) |
