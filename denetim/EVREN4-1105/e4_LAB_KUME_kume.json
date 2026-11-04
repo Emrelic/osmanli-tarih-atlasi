@@ -1316,7 +1316,7 @@
   "oneri": {
    "f": "1526-04-20"
   },
-  "not": "sayfa.py ham metin. TDV Panipet savasi/Ibrahim'in olumunu 20 Nisan 1526 veriyor (hicri 8 Receb 932 aynen, cevrilmedi); TDV 'Babur' maddesi yalniz 'Nisan 1526'. Atlas 21 Nisan; TDV esastir -> 1526-04-20 onerisi. KUNYE f de 1526-04-21: kunye ayni gunle birlikte kontrol edilmeli. Delhi/Agra'nin fiilen ele gecisi ayri (muharebeden sonra); Jaunpur/Benares gibi dogu yerleri icin gun yerlesime ozgu degil."
+  "not": "KARAR EMRELİC (gece-34): TDV 8 Receb 932 = 1526-04-20 (Jülyen, tabular) esas → künye f ve küme 1526-04-20; yaygın 04-21 ic_not'a. Künye düzeltmesi KASA-KUYRUK. | sayfa.py ham metin. TDV Panipet savasi/Ibrahim'in olumunu 20 Nisan 1526 veriyor (hicri 8 Receb 932 aynen, cevrilmedi); TDV 'Babur' maddesi yalniz 'Nisan 1526'. Atlas 21 Nisan; TDV esastir -> 1526-04-20 onerisi. KUNYE f de 1526-04-21: kunye ayni gunle birlikte kontrol edilmeli. Delhi/Agra'nin fiilen ele gecisi ayri (muharebeden sonra); Jaunpur/Benares gibi dogu yerleri icin gun yerlesime ozgu degil."
  },
  {
   "alan": "s",
@@ -1400,8 +1400,11 @@
   "hukum": "ONERI",
   "kaynak": "Treccani Dizionario Biografico, 'Francesco II di Borbone' - https://www.treccani.it/enciclopedia/francesco-ii-di-borbone-re-delle-due-sicilie_(Dizionario-Biografico)/",
   "alinti": "per la capitolazione, conclusa il 13 febbr. 1861",
-  "oneri": {},
-  "not": "sayfa.py ham metin. Alinti Gaeta teslimini (Burbon direnisinin sonu) tarihliyor, Italya'ya gecisi degil; ayni madde: 7 Kasim 1860 Vittorio Emanuele Napoli'de resmen ulkeyi devraldi (plebisit 21 Ekim 1860); Messina/Civitella Mart 1861. KUNYE f=1861-03-17 (kume f 02-13 kunyeden ONCE: KUNYE ASIMI). Brindisi, Foggia, Reggio vb. 1860'ta devralinmis olabilir; yerlesim bazli f dogrulanmadi."
+  "oneri": {
+   "d": "sardinya",
+   "f": "1860-11-07"
+  },
+  "not": "KARAR EMRELİC (gece-34): Gaeta günü yanlış genellenmiş. Napoli bölgesi s: sardinya 1860-11-07 (Vittorio Emanuele'nin devralması, Treccani; TEK ÖLÇÜ teslim); plebisit 1860-10-21 ve ilhak dekreti 12-17 ic_not'a; 1861-03-17'den italya-kralligi. Gaeta 1861-02-13 yalnız Gaeta için. | sayfa.py ham metin. Alinti Gaeta teslimini (Burbon direnisinin sonu) tarihliyor, Italya'ya gecisi degil; ayni madde: 7 Kasim 1860 Vittorio Emanuele Napoli'de resmen ulkeyi devraldi (plebisit 21 Ekim 1860); Messina/Civitella Mart 1861. KUNYE f=1861-03-17 (kume f 02-13 kunyeden ONCE: KUNYE ASIMI). Brindisi, Foggia, Reggio vb. 1860'ta devralinmis olabilir; yerlesim bazli f dogrulanmadi."
  },
  {
   "alan": "s",
