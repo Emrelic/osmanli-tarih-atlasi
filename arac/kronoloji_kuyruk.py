@@ -24,15 +24,7 @@ BEKLET = {
     "L2-370": "tek, K. Dierks kişisel Namibya kronolojisi",
     "L2-371": "tek, K. Dierks kişisel Namibya kronolojisi",
     "L2-384":"Payut 1862-04-06: Chalfant, Story of Inyo (1933) akademik olmayan yerel tarih → en çok KISMEN, tek başına düzeltme dayanağı değil",
-    # L2E 323-347 Song shi / Goryeosa ganzhi günleri — Academia Sinica teyidi gelene kadar (EMRELİC)
-    "L2-696": "[çeviri doğrulanmadı] Song shi ganzhi günü — Academia Sinica teyidi bekliyor",
-    "L2-689": "[çeviri doğrulanmadı] Song shi ganzhi günü — Academia Sinica teyidi bekliyor",
-    "L2-688": "[çeviri doğrulanmadı] Song shi ganzhi günü — Academia Sinica teyidi bekliyor",
-    "L2-684": "[çeviri doğrulanmadı] Song shi ganzhi günü — Academia Sinica teyidi bekliyor",
-    "L2-683": "[çeviri doğrulanmadı] Song shi ganzhi günü — Academia Sinica teyidi bekliyor",
-    "L2-691": "[çeviri doğrulanmadı] Song shi ganzhi günü — Academia Sinica teyidi bekliyor",
-    "L2-692": "[çeviri doğrulanmadı] Song shi ganzhi günü — Academia Sinica teyidi bekliyor",
-    "L2-700": "[çeviri doğrulanmadı] Goryeosa (ay) — Academia Sinica teyidi bekliyor",
+    # L2E 348-372 Da Chu ganzhi günleri — Academia Sinica teyidi bekliyor (EMRELİC)
     "L2-732": "Gaeta: Treccani «nel 1136», atlas 1140 → ikinci kaynak gelene kadar BEKLE (EMRELİC)",
     "L2-372": "İngiliz Burma: aday 1853-01-20 (NAM, ilan); 1852-12-20 yalnız özette → Aitchison'da İLHAK BİLDİRİSİ tarihi ile Rangoon İLAN günü ayrı bulunacak; tek kurala göre s: değişimi bildiri tarihi",
     "L2-341":"Man Adası 1828: dayanak yalnız EB1911 (eski başvuru, en çok KISMEN) → tek başına düzeltme dayanağı değil; akademik kaynak aranacak",
@@ -47,6 +39,18 @@ TAKVIM_AS = {
     "L2-743": "Takvim: Juei 3/2/7 丙寅 = 1184-03-20 (Academia Sinica)",
     "L2-745": "Takvim: Genryaku 2/3/24 丁未 = 1185-04-25 (Academia Sinica)",
     "L2-742": "Takvim: Juei 2/7/25 = 1183-08-14 (Academia Sinica; ganzhi yok, Çin–Japon ay başı eşdeğerliği VARSAYILDI; ay hassasiyetli satır)",
+    # L2E 348-372 Da Chu (EMRELİC, Academia Sinica)
+    "L2-721": "Takvim: Jingkang 2/3/7 丁酉 = 1127-04-20 (Academia Sinica) → atlas 03-01 DÜZELT",
+    "L2-722": "Takvim: Jingkang 2/4/9 戊辰 = 1127-05-21 (Zhang Bangchang imparatoriçe anayı saraya aldı; Academia Sinica) → atlas 04-01 DÜZELT; Gaozong cülûsu Jianyan 1/5/1 庚寅 = 1127-06-12 ic_not'a",
+    # L2E 323-347 (EMRELİC, Academia Sinica; hepsi EŞLEŞİR)
+    "L2-696": "Takvim: Yongxi 2/2/20 乙未 = 985-03-14 (Academia Sinica)",
+    "L2-689": "Takvim: Kaibao 4/2 丁亥 = 971-03-20 (elçi), 己丑 = 971-03-22 (Guangzhou'nun alınışı) (Academia Sinica)",
+    "L2-688": "Takvim: Kaibao 4/2 己丑 = 971-03-22 (Guangzhou'nun alınışı; L2-689 ile aynı olay) (Academia Sinica)",
+    "L2-684": "Takvim: Jianlong 4 (建隆四年)/3 戊寅 = 963-04-22 (Academia Sinica) — madde «Qiande 1» diyorsa «Jianlong 4» yapılır (Qiande 963 sonunda başlar)",
+    "L2-683": "Takvim: Jianlong 4 (建隆四年)/2 甲午 = 963-03-09 (Academia Sinica) — madde «Qiande 1» diyorsa «Jianlong 4» yapılır",
+    "L2-692": "Takvim: Taiping Xingguo 3/5/1 乙酉 = 978-06-09 (Academia Sinica)",
+    "L2-691": "Takvim: Taiping Xingguo 3/5 (ay hassasiyeti) = 978-06 (Academia Sinica)",
+    "L2-700": "Takvim: Liao Taiping 2/4 = 1022-05-04…06-01 (Academia Sinica) → satıra «1022-05» (ay hassasiyeti)",
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
@@ -72,6 +76,8 @@ ISARETLE = [
 ]
 # Metin düzeltmeleri (tarih kalır; koordinatör kararı, EMRELİC 1 KASIM, 4 Kasım 2026).
 METIN = [
+    ("L2-714", "Zürey'îler: atlas 1091, TDV 504/1110 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
+    ("L2-720", "Grönland piskoposluğu 1124 takdis: Lund'a bağlıydı, Trondheim'e değil → düzeltilir (EMRELİC)"),
     ("L2-1659", "Batı Trakya 1913: TDV'ye göre yapı «Hükûmet-i Muvakkate / Müstakille», «Cumhuriyeti» değil; ömrü TDV'de 57 gün (iç tutarsızlık bkz. OLGU-DOGRULAMA #5); Ferecik/Sofulu muharebeleri TDV'de yok → ad TDV'ye uydurulur"),
     ("L2-1616", "1888 İngiliz-Fransız antlaşması: TDV «sınırları belirledi» diyor, «Fransız himayesini tanıdı» demiyor → ifade düzeltilir"),
     ("L2-1667", "Alaş: madde iki olayı birleştiriyor (Kurucu Meclis'in dağıtılması + Alaş projesi); TDV yalnız Aralık 1917 özerklik ilanını veriyor → ayrılır"),
