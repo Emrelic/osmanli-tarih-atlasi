@@ -660,9 +660,9 @@
    "kaynak": "TDV İslâm Ansiklopedisi, SİVAS — https://islamansiklopedisi.org.tr/sivas",
    "alinti": "810 (1407-1408) yılında ikinci defa Osmanlılar tarafından ele geçirildi",
    "oneri": {
-    "f": "1408-01-01"
+    "f": "1407-06-08"
    },
-   "not": "KARAR EMRELİC (gece-51): Timur'un 1400 teslim alışı TAHRİR'e göre isg timurlu (Osmanlı iddiası sürdü; ay TDV'den); Timur'un çekilişi / 1402'ye kadarki sahip kaynakla. Osmanlı d: kesintisiz uzamaz → ONERI. Fetret Mehmed: hicrî kural 810 ∩ 1407 → 1407-06-13 + ic_not (810 H aralığı); künye uyuşmazsa LAB SALI. | ÖLÇÜM (LAB SALI): mehmed-celebi künye değil, fetret-mehmed künyesinin harita: anahtarı (D-ANAHTAR, sabah Emre). | ABİ MERKEZ: Sivas — HİCRÎ HESAP: 810 AH = 1407-06-13 .. 1408-05-31; kaynağın mîlâdî yılı 1408 ile kesişim 1408-01-01..1408-05-31, ilk gün 1408-01-01. Atlas 1408-06-01 = 1 Muharrem 811, 810'un DIŞINDA (hicrî kuralı). Öncül timurlu t ile birlikte değişmeli. KÜNYE: 'mehmed-celebi' girdinin künye listesinde yok — kontrol et. TDV'ye göre bu 'ikinci' Osmanlı fethi; 'Çelebi Mehmed' Amasya'da."
+   "not": "KARAR EMRELİC (gece-52): 1 Muharrem 810 = 1407-06-08 (Jülyen, tabular); ic_not '810 H; tabular hesap ±1-2 gün'; atlas 1408-06-01 810 dışında, düzelir. (Önceki 06-13 geçersiz.) | KARAR EMRELİC (gece-51): Timur'un 1400 teslim alışı TAHRİR'e göre isg timurlu (Osmanlı iddiası sürdü; ay TDV'den); Timur'un çekilişi / 1402'ye kadarki sahip kaynakla. Osmanlı d: kesintisiz uzamaz → ONERI. Fetret Mehmed: hicrî kural 810 ∩ 1407 → 1407-06-13 + ic_not (810 H aralığı); künye uyuşmazsa LAB SALI. | ÖLÇÜM (LAB SALI): mehmed-celebi künye değil, fetret-mehmed künyesinin harita: anahtarı (D-ANAHTAR, sabah Emre). | ABİ MERKEZ: Sivas — HİCRÎ HESAP: 810 AH = 1407-06-13 .. 1408-05-31; kaynağın mîlâdî yılı 1408 ile kesişim 1408-01-01..1408-05-31, ilk gün 1408-01-01. Atlas 1408-06-01 = 1 Muharrem 811, 810'un DIŞINDA (hicrî kuralı). Öncül timurlu t ile birlikte değişmeli. KÜNYE: 'mehmed-celebi' girdinin künye listesinde yok — kontrol et. TDV'ye göre bu 'ikinci' Osmanlı fethi; 'Çelebi Mehmed' Amasya'da."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:1142",
