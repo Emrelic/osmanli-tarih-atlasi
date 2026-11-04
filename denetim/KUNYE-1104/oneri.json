@@ -1,10 +1,331 @@
 [
-{"id": "zend", "hukum": "TEYIT", "kaynak": "TDV zendler — 'İran’da hüküm süren bir hânedan (1751-1794)'; Lutf Ali Han 1789-1794 (yıl düzeyi; gün teyitsiz)"},
-{"id": "hail-ibn-ali", "hukum": "DUZELT", "t": "1835-01-01", "kaynak": "TDV residiler (M. al-Rasheed) — '1779’da … yönetim Abde aşiretinden İbn Ali ailesindeydi' · '1835’te Abdullah b. Reşîd’in Hâil emirliğini ele geçirmesiyle sonuçlandı' (t 1836 → 1835, yalnız yıl)"},
-{"id": "galzay", "hukum": "TEYIT", "kaynak": "Encyclopaedia Iranica 'AFGHANISTAN x. Political History' — 'In 1121/1709 a Ḡilzay uprising, led by the Hōtakī tribal chief Mīr Ways' · 'fall of Qandahār, 1150/1738' (yıl teyitli; f günü 04-21 teyitsiz)"},
-{"id": "imereti", "hukum": "GIRISLI", "kaynak": "TDV ve Iranica'da madde yok — Gürcü akademik kaynak (Suny, The Making of the Georgian Nation; Rayfield, Edge of Empires) gerek: 1490 bölünme, 1810-02-20 Rus ilhakı"},
-{"id": "ermenistan-demokratik-cumhuriyeti", "hukum": "GIRISLI", "kaynak": "TDV'de madde yok — Hovannisian, The Republic of Armenia I-IV (University of California Press) ya da Cambridge History of Russia 3: 28 Mayıs 1918 / 2 Aralık 1920"},
-{"id": "guney-osetya", "hukum": "GIRISLI", "kaynak": "yalnız birincil bildiri ve taraf bakanlık sitesi — akademik kaynak (ör. Cornell, Small Nations and Great Powers; Journal of Eurasian Studies) gerek"},
-{"id": "azerbaycan-cumhuriyeti", "hukum": "GIRISLI", "kaynak": "TDV azerbaycan (1991 baskısı) bağımsızlıktan önce yazılmış; 18 Ekim 1991 Anayasa Aktı akademik kaynakla (Swietochowski, Russia and Azerbaijan; Cornell, Azerbaijan Since Independence) teyit edilmeli"},
-{"id": "kabartay", "hukum": "SINIF-HATASI", "kaynak": "ölçüm taramasında yanlış zayıf sayıldı: kaynak alanında TDV kabartaylar gövdesi okunmuş; ikinci geçişe gerek yok"}
+{
+"id": "zend",
+"hukum": "TEYIT",
+"kaynak": "TDV zendler — 'İran’da hüküm süren bir hânedan (1751-1794)'; Lutf Ali Han 1789-1794 (yıl düzeyi; gün teyitsiz)"
+},
+{
+"id": "hail-ibn-ali",
+"hukum": "DUZELT",
+"t": "1835-01-01",
+"kaynak": "TDV residiler (M. al-Rasheed) — '1779’da … yönetim Abde aşiretinden İbn Ali ailesindeydi' · '1835’te Abdullah b. Reşîd’in Hâil emirliğini ele geçirmesiyle sonuçlandı' (t 1836 → 1835, yalnız yıl)"
+},
+{
+"id": "galzay",
+"hukum": "TEYIT",
+"kaynak": "Encyclopaedia Iranica 'AFGHANISTAN x. Political History' — 'In 1121/1709 a Ḡilzay uprising, led by the Hōtakī tribal chief Mīr Ways' · 'fall of Qandahār, 1150/1738' (yıl teyitli; f günü 04-21 teyitsiz)"
+},
+{
+"id": "imereti",
+"hukum": "GIRISLI",
+"kaynak": "TDV ve Iranica'da madde yok — Gürcü akademik kaynak (Suny, The Making of the Georgian Nation; Rayfield, Edge of Empires) gerek: 1490 bölünme, 1810-02-20 Rus ilhakı"
+},
+{
+"id": "ermenistan-demokratik-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "TDV'de madde yok — Hovannisian, The Republic of Armenia I-IV (University of California Press) ya da Cambridge History of Russia 3: 28 Mayıs 1918 / 2 Aralık 1920"
+},
+{
+"id": "guney-osetya",
+"hukum": "GIRISLI",
+"kaynak": "yalnız birincil bildiri ve taraf bakanlık sitesi — akademik kaynak (ör. Cornell, Small Nations and Great Powers; Journal of Eurasian Studies) gerek"
+},
+{
+"id": "azerbaycan-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "TDV azerbaycan (1991 baskısı) bağımsızlıktan önce yazılmış; 18 Ekim 1991 Anayasa Aktı akademik kaynakla (Swietochowski, Russia and Azerbaijan; Cornell, Azerbaijan Since Independence) teyit edilmeli"
+},
+{
+"id": "kabartay",
+"hukum": "SINIF-HATASI",
+"kaynak": "ölçüm taramasında yanlış zayıf sayıldı: kaynak alanında TDV kabartaylar gövdesi okunmuş; ikinci geçişe gerek yok"
+},
+{
+"id": "siena",
+"hukum": "KISMEN",
+"kaynak": "Treccani siena — 'Nel 1554 la città era assediata … S. si arrese nel 1555' (t yıl teyitli; 04-17 günü ve f 1125 teyitsiz)"
+},
+{
+"id": "cenova",
+"hukum": "KISMEN",
+"kaynak": "Treccani genova — 'Nel maggio-giugno 1797 la Repubblica aristocratica finì sotto la pressione di Bonaparte' (t ay teyitli; f 1099 compagna teyitsiz)"
+},
+{
+"id": "savoya",
+"hukum": "KISMEN",
+"kaynak": "Treccani savoia — 'Il ducato di Savoia (1416-1720) … titolo regio, cambiato poi nel 1720 in quello di re di Sardegna' (t yıl teyitli; f 1032 teyitsiz; 1416 kontluk → dukalık)"
+},
+{
+"id": "mantua",
+"hukum": "DUZELT",
+"f": "1328-08-16",
+"kaynak": "Treccani gonzaga — 'contro la stessa signoria dei Bonacolsi insorse il 16 ag. 1328 Luigi' · 'Ferdinando Carlo (1665-1708) con il quale anche la dinastia dei Gonzaga-Nevers si spense' (f 1328-01-01 → 1328-08-16; t yıl teyitli)"
+},
+{
+"id": "bonacolsi",
+"hukum": "KISMEN",
+"kaynak": "Treccani gonzaga — Bonacolsi signoriası '16 ag. 1328' Luigi Gonzaga ayaklanmasıyla bitti (t gün teyitli; f 1273 teyitsiz)"
+},
+{
+"id": "ferrara",
+"hukum": "KISMEN",
+"kaynak": "Treccani este — 1598 Ferrara Kilise'ye, Este Modena'da sürdü · Treccani modena — 'nel 1859, fuggito a Mantova l’ultimo duca Francesco V … nel marzo 1860 il plebiscito' (t 1859 yıl teyitli; f 1240 teyitsiz)"
+},
+{
+"id": "piza",
+"hukum": "KISMEN",
+"kaynak": "Treccani pisa — '1399 … venduta a Gian Galeazzo Visconti (per poi tornare indipendente nel 1402), e conquistata nel 1406 da Firenze' (t yıl teyitli; 10-09 günü teyitsiz; 1399-1402 Visconti arası künyede yok — beyan)"
+},
+{
+"id": "milano-dukaligi",
+"hukum": "DUZELT",
+"f": "1395-05-11",
+"kaynak": "Treccani milano — 'L’11 maggio 1395 Gian Galeazzo ottenne il titolo di duca di M.' · 'Lo Stato visconteo … ebbe riconoscimento ufficiale nel 1395' (dükalık f 1097 → 1395-05-11; 1097-1395 komün/Visconti signoriası ayrı künye ya da beyan ister; t 1859-11-10 bu maddede yok)"
+},
+{
+"id": "parma",
+"hukum": "TEYIT",
+"kaynak": "Treccani parma — 'Con la creazione del ducato (1545)' · 'Nel 1859 il municipio di P. elesse dittatore L.C. Farini; il plebiscito del 1860 incorporò la città all’Italia' (yıl düzeyi; 08-16 ve 03-18 günleri teyitsiz)"
+},
+{
+"id": "provence-kontlugu",
+"hukum": "TEYIT",
+"kaynak": "Treccani provenza — 'Carlo III, morendo (1481), la lasciò in eredità a Luigi XI … nel 1486 fu solennemente proclamata l’unione con la Francia' (t yıl teyitli; 12-11 günü teyitsiz; f 1000 kova düzeyi — beyan)"
+},
+{
+"id": "anglo-korsika-krallik",
+"hukum": "KISMEN",
+"kaynak": "Treccani corsica — 'Paoli chiese l’intervento dell’Inghilterra (1793), ma la campagna di Napoleone in Italia costrinse gli Inglesi a evacuare l’isola (1796)' (t yıl teyitli; f 1794 teyitsiz)"
+},
+{
+"id": "hirvatistan-bagimsiz",
+"hukum": "TEYIT",
+"kaynak": "Hrvatska enciklopedija nezavisna-drzava-hrvatska — 'proglasio ju je … S. Kvaternik 10. IV. 1941.' · 'nestala je nakon vojnog poraza Njemačke u svibnju 1945.' (f gün teyitli; t ay teyitli, 05-08 günü teyitsiz)"
+},
+{
+"id": "sirbistan-nedic",
+"hukum": "KISMEN",
+"kaynak": "Hrvatska enciklopedija nedic-milan — 'Od kolovoza 1941. predsjednik kvislinške vlade u Srbiji' (f ay teyitli, 08-29 günü teyitsiz; t 1944-10-06 teyitsiz)"
+},
+{
+"id": "alman-isgali-karadag",
+"hukum": "GIRISLI",
+"kaynak": "ÇELİŞKİ — Hrvatska enciklopedija crna-gora: 'Nakon kapitulacije Italije … Nijemci su u ostalom dijelu uspostavili upravu' (f 1943-09 uyumlu) · 'Borbe za Crnu Goru završene su u siječnju 1945., kada su jedinice NOV-a ovladale cijelim crnogorskim područjem' — veri t 1944-12-15 (Podgorica 19 Aralık 1944?) ile çelişiyor; üçüncü kaynak (Tomasevich, War and Revolution in Yugoslavia: Occupation and Collaboration, Stanford UP 2001) gerek"
+},
+{
+"id": "letonya",
+"hukum": "DUZELT",
+"t": "1940-08-05",
+"kaynak": "Nacionālā enciklopēdija (Letonya) 'Latvijas Republikas proklamēšana' (J. Šiliņš) — '1918. gada 18. novembrī' (f teyitli) · 'padomju okupācija Latvijā, 1940.–1941. gads' (D. Bleiere) — 'Latvijas “iestāšanās” PSRS sastāvā 05.08.1940' (t 1940-08-06 → 1940-08-05)"
+},
+{
+"id": "litvanya",
+"hukum": "GIRISLI",
+"kaynak": "ŞÜPHE — üç Baltık cumhuriyetinin t'si aynı (1940-08-06); Litvanya'nın SSCB'ye 'kabulü' 3 Ağustos 1940 olarak bilinir (Letonya 5, Estonya 6 Ağustos — Letonya ucu Nacionālā enciklopēdija ile 05.08 teyitli). VLE (vle.lt) maddesi bulunamadı; akademik kaynak (Misiunas & Taagepera, The Baltic States: Years of Dependence) gerek"
+},
+{
+"id": "estonya",
+"hukum": "GIRISLI",
+"kaynak": "t 1940-08-06 Estonya için doğru olabilir (SSCB'ye kabul 6 Ağustos 1940); f 1918-02-24 Bağımsızlık Bildirisi — akademik kaynak (Misiunas & Taagepera; Eesti entsüklopeedia) gerek"
+},
+{
+"id": "litvanya-buyuk-dukalik",
+"hukum": "KISMEN",
+"kaynak": "Visuotinė lietuvių enciklopedija 'Lietuvos Didžioji Kunigaikštystė' (R. Petrauskas) — 'Dėl LDK susikūrimo laiko nėra bendros nuomonės. Dauguma istorikų jos pradžia laiko … Mindaugo laikais (13 a. antras ketvirtis)' · '1569 Liublino unija LDK su Lenkija sudarė federacinę … valstybę' (t yıl teyitli; f 1236 kuruluş için tartışmalı — beyan: 13. yy 2. çeyreği)"
+},
+{
+"id": "norvec",
+"hukum": "TEYIT",
+"kaynak": "Store norske leksikon 'unionsoppløsningen i 1905' — 'Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905. I Sverige regnes 26. oktober som dagen for unionsoppløsningen' (f gün teyitli; İsveç tanıması 26 Ekim — beyan)"
+},
+{
+"id": "norvec-kralligi",
+"hukum": "KISMEN",
+"kaynak": "Store norske leksikon 'Kalmarunionen' — 'en politikk som kulminerte med at Norge ble et dansk lydrike i 1537' · 'Norges historie': 'Senmiddelalder (cirka 1350–1537)' (t yıl teyitli; f 872 Hafrsfjord geleneksel — beyan)"
+},
+{
+"id": "izlanda",
+"hukum": "TEYIT",
+"kaynak": "Store norske leksikon 'Islands historie' — 'I 1918 ble Island en uavhengig stat, men i personalunion med Danmark. Etter en folkeavstemning i 1944 ble Island erklært en selvstendig republikk' (yıl teyitli; 12-01 günü teyitsiz; 1944-06-17 cumhuriyet ayrı künye adayı)"
+},
+{
+"id": "novgorod",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia I (Martin, ed.) — 1136 knez kovulması / 1478-01-15 Moskova ilhakı"
+},
+{
+"id": "pskov",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1348 Bolotovo / 1510-01-13 veçe çanının indirilmesi"
+},
+{
+"id": "tver",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1246 / 1485-09-12 III. İvan zaptı"
+},
+{
+"id": "moskova",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1283 Daniil / 1547-01-16 IV. İvan'ın çar taç giyişi"
+},
+{
+"id": "ryazan",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1129 / 1521 ilhak"
+},
+{
+"id": "nijni-novgorod-suzdal",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1341 / 1392 Moskova ilhakı"
+},
+{
+"id": "beloozero-knezligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1238 / 1389 (Dmitri Donskoy vasiyeti)"
+},
+{
+"id": "rusya-gecici-hukumet",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia III — 1917-03-15 (Jülyen 2 Mart) / 1917-11-07"
+},
+{
+"id": "sovyet-rusya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia III — 1917-11-07 / 1991-12-26"
+},
+{
+"id": "guney-rusya-beyaz",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of Russia III ya da Kenez, Civil War in South Russia — 1919-01-08 / 1920-11-14"
+},
+{
+"id": "bohemya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Agnew, The Czechs and the Lands of the Bohemian Crown (Hoover 2004) — 1198 kalıtsal krallık / 1526 Habsburg seçimi (12-05?)"
+},
+{
+"id": "iskocya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Oxford Companion to Scottish History — 843 Kenneth mac Alpin / 1707-05-01 Birlik Yasası"
+},
+{
+"id": "irlanda",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Oxford Companion to Irish History — 1000 / 1603-03-30 Mellifont"
+},
+{
+"id": "irlanda-serbest-devlet",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Oxford Companion to Irish History — 1922-12-06 / 1937-12-29"
+},
+{
+"id": "irlanda-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Oxford Companion to Irish History — 1937-12-29 Bunreacht / 1949-04-18"
+},
+{
+"id": "bretanya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: New Cambridge Medieval History III-VII — 939 / 1532-08-13 Fransa ile birlik fermanı"
+},
+{
+"id": "burgonya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: NCMH VII (Schnerb 'Burgundy') — 1032 dükalık / 1482-03-27 Marie'nin ölümü"
+},
+{
+"id": "navarra",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: NCMH / Historia de Navarra — 824 / 1620-10-19 Fransa'ya katılma fermanı"
+},
+{
+"id": "luksemburg",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Kreins, Histoire du Luxembourg (PUF) — 1890-11-23 Hollanda ile şahsî birliğin sonu"
+},
+{
+"id": "teodoro",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Vasiliev, The Goths in the Crimea (1936) / Kizilov — 1349 / 1475-12 Mangup"
+},
+{
+"id": "slovakya-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Beliana (Slovak ansiklopedisi) / Ward, Priest, Politician, Collaborator (Cornell UP 2013) — 1939-03-14 / 1945-04-04"
+},
+{
+"id": "ispanya-milliyetci",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Preston, The Spanish Civil War — 1936-07-17 / 1939-04-01"
+},
+{
+"id": "sirp-krajina-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Hrvatska enciklopedija (madde bulunamadı) / Ramet, The Three Yugoslavias — 1991-12-19 / 1995-08-07"
+},
+{
+"id": "transdinyester",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: King, The Moldovans (Hoover 2000) — 1990-09-02"
+},
+{
+"id": "monako",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Akademik Monako tarihi (Grimaldi 1297-01-08) — globalsecurity yetmez"
+},
+{
+"id": "malta-fransiz",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Malta Üniv. OAR (akademik) — 1798-06-12 / 1800-09-04 günleri Vikipedi'den"
+},
+{
+"id": "westfalya-krallik",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: New Cambridge Modern History IX / Owzar — 1807-08-18 / 1813-10-26"
+},
+{
+"id": "schleswig-holstein-1848",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Den Store Danske (lex.dk) / akademik Danimarka tarihi — 1848-03-24 / 1851-01-15"
+},
+{
+"id": "macar-sovyet-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Romsics, Hungary in the Twentieth Century — 1919-03-21 / 1919-08-01"
+},
+{
+"id": "macaristan-halk-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Romsics — 1918-11-16 / 1919-03-21"
+},
+{
+"id": "ljubljana-ili",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Slovenska enciklopedija / Tomasevich, War and Revolution in Yugoslavia II — 1941-05-03 / 1943-09-08"
+},
+{
+"id": "karolenj-italya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: NCMH II-III (Wickham, Early Medieval Italy) — 774 / 962-02-02"
+},
+{
+"id": "polonya-naiplik-kralligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Davies, God's Playground II — 1916-11-05 / 1918-11-11"
+},
+{
+"id": "roma-cumhuriyeti-1849",
+"hukum": "KISMEN",
+"kaynak": "Treccani giuseppe-mazzini — 'Roma, dal 9 febbraio 1849 repubblica' (f gün teyitli) · 'la difesa contro i Francesi durata dal 3 al 30 giugno allorché i triunviri si dimisero' (t 07-03 teyitsiz; Treccani 30 Haziran istifayı veriyor)"
+},
+{
+"id": "krakow-serbest-sehri",
+"hukum": "KAYNAK-YETERLI",
+"kaynak": "⑧ antlaşma neşri: Hertslet, The Map of Europe by Treaty (1875) No. 14 — sınıflama EB1911 nedeniyle yanlış; ikinci geçişe gerek yok (t 1846-11-11 Avusturya ilhakı kaynağı ayrıca bakılmalı)"
+},
+{
+"id": "luksemburg-hollanda-birligi",
+"hukum": "KAYNAK-YETERLI",
+"kaynak": "⑧ antlaşma neşri: Hertslet (Viyana Nihaî Senedi 1815-06-09) — t 1890-11-23 'luksemburg' künyesiyle aynı GİRİŞLİ soruya bağlı"
+}
 ]
