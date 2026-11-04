@@ -132,6 +132,16 @@
   "tdv_disi": true
  },
  {
+  "id": "chamba",
+  "hukum": "GIRISLI",
+  "veri_f": "0550-01-01",
+  "veri_t": "1948-04-15",
+  "bolge": "guney-asya",
+  "agirlik": 998,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Chamba Krallığı maddesi yok. Aramalar: 'Çamba' (yalnız içerik eşleşmesi: Ferruhsiyer, Nizâmülmülk Âsafcâh, Ordu); HİNDİSTAN makalesinde Chamba yok (Champa/Câbe farklı)."
+ },
+ {
   "id": "portekiz-hindistani-goa",
   "hukum": "KISMEN",
   "veri_f": "1505-01-01",
@@ -173,6 +183,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) tablosu: \"Pencap Sih yöneticileri (1792-1849)\" — t yıl=1849 teyit (günü yok); f için TDV 1792 verir (veri 1801-04-12, Ranjit Singh'in Mahârâca ilânı), farklı olay türü."
  },
  {
+  "id": "dahlak-sultanligi",
+  "hukum": "KISMEN",
+  "veri_f": "1093-01-01",
+  "veri_t": "1557-04-02",
+  "bolge": "dogu-afrika",
+  "agirlik": 733,
+  "tdv_madde": "dehlek",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): DEHLEK (/dehlek): \"VI. (XII.) yüzyıldan itibaren de kendi meliklerince bağımsız olarak yönetilmiştir.\"; \"Dehlek Özdemir Paşa tarafından Yemen’in fethi sırasında Osmanlılar’ın eline geçti.\"; \"Özdemir Paşa, 1557’de ...\" (Osmanlı teması/ele geçirme 1557 civarı; 04-02 günü yok). f=1093 TDV'de yok (XII. yy meliklik). \"1886 yılında İtalya tarafından işgal edildi.\" \"son olarak 1952’de Etiyopya’ya bırakıldı.\""
+ },
+ {
   "id": "avad",
   "hukum": "KISMEN",
   "veri_f": "1722-01-01",
@@ -204,6 +224,16 @@
   "tdv_disi": true
  },
  {
+  "id": "libya-krallik",
+  "hukum": "TEYIT",
+  "veri_f": "1951-12-24",
+  "veri_t": "1969-09-01",
+  "bolge": "kuzey-afrika",
+  "agirlik": 707,
+  "tdv_madde": "libya",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): LİBYA (libya): \"24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti.\" (f gün) ve \"1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı.\" (t gün)."
+ },
+ {
   "id": "sikkim-krallik",
   "hukum": "GIRISLI",
   "veri_f": "1642-01-01",
@@ -223,6 +253,26 @@
   "tdv_madde": "",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Manipur (3: ahmed-han-seyyid, asam--hindistan, hindistan); müstakil madde yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamağa geçer; Cambridge kuyruğunda",
   "tdv_disi": true
+ },
+ {
+  "id": "kilikya-ermeni",
+  "hukum": "GIRISLI",
+  "veri_f": "1199-01-06",
+  "veri_t": "1375-04-14",
+  "bolge": "anadolu",
+  "agirlik": 633,
+  "tdv_madde": "sis, ermeniler",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Kilikya Ermeni Krallığı maddesi yok. Aramalar: 'Kilikya' ve 'Kilikya Ermeni Krallığı' (başlık eşleşmesi 0; içerik: Adana, Anadolu Beylikleri, Haçlılar, Hıristiyanlık vb.), 'Sis' (ŞÎS = Şît, alakasız), 'Ermeniler' (madde yok). 1199/1375 TDV'de okunmadı."
+ },
+ {
+  "id": "buganda",
+  "hukum": "KISMEN",
+  "veri_f": "1300-01-01",
+  "veri_t": "1966-05-24",
+  "bolge": "dogu-afrika",
+  "agirlik": 600,
+  "tdv_madde": "uganda, kampala",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UGANDA (uganda): \"24 Mayıs 1966’da II. Mutasa sürgüne gönderildiğinde lağvedilen Buganda Krallığı 1993 yılında tekrar konuldu.\" (t gün teyit). f: \"İlk kralının XIII. yüzyıl başlarında tahta çıkan Kato Kimera olduğu bilinmektedir.\" — TDV XIII. yy başı der, veri 1300; tam örtüşmüyor. Ayrı Buganda maddesi yok (başlık eşleşmesi 0)."
  },
  {
   "id": "kenya",
@@ -255,6 +305,26 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) hanedan tablosu: \"Pallavalar (Tamil Nadu, 300-388)\" — TDV tablosu yalnız erken Pallavaları kapsıyor, f=350/t=897 ile doğrudan örtüşmüyor; ayrı Pallava maddesi okunmadı. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
  },
  {
+  "id": "nkore",
+  "hukum": "GIRISLI",
+  "veri_f": "1450-01-01",
+  "veri_t": "1901-10-25",
+  "bolge": "dogu-afrika",
+  "agirlik": 452,
+  "tdv_madde": "uganda",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UGANDA (/uganda): \"XV. yüzyılda kurulan Ankole Krallığı bölgede İngiliz sömürgeciliğinin yerleşmesine kadar müstakil konumunu sürdürdü.\" f=1450 yalnız yüzyıl düzeyinde (XV. yy) teyit; t=1901-10-25 TDV'de yok (yıl verilmiyor). Arama: Uganda. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "meysur-racaligi",
+  "hukum": "KISMEN",
+  "veri_f": "1799-05-04",
+  "veri_t": "1947-08-15",
+  "bolge": "guney-asya",
+  "agirlik": 445,
+  "tdv_madde": "meysur",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MEYSÛR (meysur): Tipu Sultan \"muharebe meydanında öldü (Mayıs 1799)\"; Hindu hanedandan beş yaşında bir çocuk tahta çıkarılıp racalık yeniden kuruldu (1799, gün yok); \"Bölgedeki İngiliz hâkimiyeti 1947'ye kadar sürdü\" ve racalık Hindistan devletine katıldı (t yıl teyit, gün yok). Gün TDV'de yok; ayrıca madde Wodeyar adını anmıyor."
+ },
+ {
   "id": "bulgaristan-cumhuriyeti",
   "hukum": "GIRISLI",
   "veri_f": "1990-11-15",
@@ -263,6 +333,36 @@
   "agirlik": 354,
   "tdv_madde": "bulgaristan",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BULGARİSTAN (bulgaristan) 15 Kasım 1990 isim değişikliği (f) gününü vermiyor; yalnız \"kırk beş yıllık komünist iktidarın çökmesini sağlamıştır.\" (1989 hareketleri) ve 1990'da çok partili parlamenter düzen. 'Bulgaristan' ve 'Bulgaristan Cumhuriyeti' aramalarında ayrı madde yok."
+ },
+ {
+  "id": "etiyopya-federal",
+  "hukum": "GIRISLI",
+  "veri_f": "1995-08-22",
+  "veri_t": null,
+  "bolge": "dogu-afrika",
+  "agirlik": 354,
+  "tdv_madde": "etiyopya",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ETİYOPYA (/etiyopya): 22 Ağustos 1995 FDRE kuruluşu yok. Yalnız \"29 Mayıs 1991'de gerillalar Adisababa'ya girdiler\" ve 1987 anayasası/Etiyopya Demokratik Halk Cumhuriyeti; 1995 anayasası/federal cumhuriyet cümlesi bulunamadı. Aramalar: Etiyopya (etiyopya, etyopya, habesistan, harar...)."
+ },
+ {
+  "id": "uganda",
+  "hukum": "TEYIT",
+  "veri_f": "1962-10-09",
+  "veri_t": null,
+  "bolge": "dogu-afrika",
+  "agirlik": 344,
+  "tdv_madde": "uganda",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UGANDA (/uganda): \"9 Ekim 1962 tarihinde Uganda’ya bağımsızlık âdeta hibe edildi.\" (f teyit). Krallıkların kaldırılması: \"Krallıklar kaldırıldı, tek partili başkanlık sistemine geçildi.\" (1966 sonrası, yıl açık verilmedi; atlas t yok)."
+ },
+ {
+  "id": "lubnan-cumhuriyeti",
+  "hukum": "TEYIT",
+  "veri_f": "1943-11-22",
+  "veri_t": null,
+  "bolge": "suriye-filistin",
+  "agirlik": 343,
+  "tdv_madde": "lubnan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): LÜBNAN (lubnan): \"22 Kasım 1943’te cumhurbaşkanı ve başbakan serbest bırakılarak görevlerine döndüler.\" (bağımsızlık günü; \"Bu tarih Lübnan’ın Fransa’ya karşı verdiği bağımsızlık mücadelesinde bir dönüm noktası oldu\"). Ek: \"23 Mayıs 1926’da anayasa kabul edilip Lübnan Cumhuriyeti ilân edildi.\" — cumhuriyet 1926, 'bağımsız' etiketli veri f=1943-11-22 ile uyumlu."
  },
  {
   "id": "karnatik",
@@ -285,6 +385,26 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) tablosu: \"Madurai Pandyaları (Tamil Nadu, VII-X. yüzyıl)\" — yalnız yüzyıl hassasiyeti; f=601 yüzyıl olarak uyumlu, gün/yıl TDV'de yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
  },
  {
+  "id": "kazakistan",
+  "hukum": "TEYIT",
+  "veri_f": "1991-12-16",
+  "veri_t": null,
+  "bolge": "orta-asya",
+  "agirlik": 298,
+  "tdv_madde": "kazakistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KAZAKİSTAN (kazakistan, Kazakistan Cumhuriyeti bölümü): \"Sovyetler Birliği’nin dağılmasından sonra diğer Türk cumhuriyetleri gibi 16 Aralık 1991 tarihinde\" bağımsızlık kanunuyla bağımsız, laik hukuk devleti ilân edildi (f gün, bağımsızlık)."
+ },
+ {
+  "id": "yugoslavya-federal-cumhuriyeti",
+  "hukum": "TEYIT",
+  "veri_f": "1992-04-27",
+  "veri_t": "2003-02-04",
+  "bolge": "balkanlar",
+  "agirlik": 283,
+  "tdv_madde": "yugoslavya",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): YUGOSLAVYA (/yugoslavya): \"27 Nisan 1992’de Sırbistan ve Karadağ kendi aralarında Dobrica Ćosić başkanlığında Yugoslavya Federal Cumhuriyeti\" (kuruluş); \"Yugoslavya Federal Cumhuriyeti yerine Sırbistan ve Karadağ Devlet Birliği kuruldu\" ... \"4 Şubat 2003’te kabul edilen anayasal şartla\" (son). Not: son cümle parçalı okundu (özet aracı), her iki gün de aynı maddede."
+ },
+ {
   "id": "hoysala",
   "hukum": "GIRISLI",
   "veri_f": "1026-01-01",
@@ -293,6 +413,196 @@
   "agirlik": 248,
   "tdv_madde": "hindistan",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan) tablosu: \"Hoysalar (Orta ve Güney Dekken, 1110-1327)\" — TDV tablo yıllarını verir (veri 1026-1343). Tablo hanedan siyasi yükselişi/sonu için tarihlendirme; olay türü açıklanmıyor. [LAB elemesi: ajan KISMEN dedi → GIRISLI] · KARAR (EMRELİC, 4 Kasım): genel maddedeki tablo/geçen cümle 'TDV esas' kuralının dayanağı olmaz → VERİ KALIR, BEKLE kalktı · ic_not: 'Hanedan uçları kaynaktan kaynağa değişir; TDV HİNDİSTAN tablosu 1110-1327 verir (veri 1026-1343).' — ikinci akademik kaynakla kesinleşecek"
+ },
+ {
+  "id": "hirvatistan-kralligi",
+  "hukum": "GIRISLI",
+  "veri_f": "0925-01-01",
+  "veri_t": "1102-01-01",
+  "bolge": "balkanlar",
+  "agirlik": 177,
+  "tdv_madde": "hirvatistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HIRVATİSTAN (/hirvatistan; ülke maddesi, genel madde/geçen cümle): \"Hırvatların bulundukları topraklar X. yüzyılda papa tarafından krallık olarak tanınmıştı.\" (925 günü/yılı yok, yalnız X. yy); \"XI. yüzyılın sonunda meydana gelen hânedan kavgaları Macaristan'la birleşmeye yol açtı\" (aracın aktardığına göre 1091'e bağlanıyor; atlas t=1102; teyit edilmedi, DUZELT yazılmadı: genel madde). Aramalar: Hırvatistan. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "bosna-hersek",
+  "hukum": "KISMEN",
+  "veri_f": "1992-03-03",
+  "veri_t": null,
+  "bolge": "balkanlar",
+  "agirlik": 177,
+  "tdv_madde": "bosna-hersek",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BOSNA-HERSEK (bosna-hersek): \"Ekim 1991’de Bosna-Hersek’in egemenliğini ilân etmesi.\" ve referandumda \"% 99,43’ü bağımsızlık lehine oy kullanırken\" (Mart 1992 başı). 3 Mart 1992 günü TDV'de yok (Mart 1992 başı)."
+ },
+ {
+  "id": "azerbaycan-cumhuriyeti",
+  "hukum": "GIRISLI",
+  "veri_f": "1991-10-18",
+  "veri_t": null,
+  "bolge": "kafkasya",
+  "agirlik": 147,
+  "tdv_madde": "azerbaycan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): AZERBAYCAN (/azerbaycan; ülke maddesi): 18 Ekim 1991 Anayasa Aktı / 30 Ağustos 1991 beyanı metinde yok. Yalnız \"cumhuriyetin adı Azerbaycan Cumhuriyeti haline getirildi\" (Aralık 1990 kararnamesi; farklı olay tipi). ADC: \"28 Mayıs 1918’de Azerbaycan Demokratik Cumhuriyeti ilân edildi.\" f teyitsiz. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "eritre",
+  "hukum": "KISMEN",
+  "veri_f": "1991-05-24",
+  "veri_t": null,
+  "bolge": "dogu-afrika",
+  "agirlik": 144,
+  "tdv_madde": "eritre",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ERİTRE (/eritre): \"24 Mayıs’ta ülkenin bağımsızlığı ilân edildi\" (referandum 28 Nisan 1993; yani resmî ilan 24 Mayıs 1993). \"Etiyopya’da Mayıs 1991’de meydana gelen hükümet değişikliği Eritre’nin bağımsızlığı elde etmesini kolaylaştırdı.\" f=1991-05-24 (fiilî) TDV'de gün olarak yok; TDV 24 Mayıs 1993 (resmî ilan) verir, 1991 yalnız ay düzeyinde fiilî özerklik."
+ },
+ {
+  "id": "ozbekistan",
+  "hukum": "TEYIT",
+  "veri_f": "1991-08-31",
+  "veri_t": null,
+  "bolge": "orta-asya",
+  "agirlik": 121,
+  "tdv_madde": "ozbekistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ÖZBEKİSTAN (ozbekistan, II. Tarih): \"Sovyetler Birliği sisteminin çöküşüyle birlikte 31 Ağustos 1991 tarihinde Özbekistan Cumhuriyeti bağımsızlığını ilân etti.\" (f gün)."
+ },
+ {
+  "id": "cimma-sultanligi",
+  "hukum": "KISMEN",
+  "veri_f": "1830-01-01",
+  "veri_t": "1933-01-01",
+  "bolge": "dogu-afrika",
+  "agirlik": 103,
+  "tdv_madde": "cimma",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): CİMMÂ (/cimma): \"Etiyopya (Habeşistan) kralı 1933’ten sonra Cimmâ bölgesini tayin ettiği valilerle idare etmiştir.\" (t=1933 için dolaylı destek); \"Habeşistan’ın 1891-1900 arasındaki fethinden sonra\" Cimmâ Krallığı'na hayat hakkı tanındı, Abbâ Cifâr idarede bırakıldı (vassallık, son değil). f=1830 TDV'de yok."
+ },
+ {
+  "id": "tacikistan",
+  "hukum": "TEYIT",
+  "veri_f": "1991-09-09",
+  "veri_t": null,
+  "bolge": "orta-asya",
+  "agirlik": 93,
+  "tdv_madde": "tacikistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TACİKİSTAN (/tacikistan): \"9 Eylül 1991'de Tacikistan Yukarı Parlamentosu bir deklarasyon yayımlayarak\" (SSCB'den bağımsızlık ilanı; f=1991-09-09 teyit)."
+ },
+ {
+  "id": "turkmenistan",
+  "hukum": "TEYIT",
+  "veri_f": "1991-10-27",
+  "veri_t": null,
+  "bolge": "orta-asya",
+  "agirlik": 92,
+  "tdv_madde": "turkmenistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TÜRKMENİSTAN (turkmenistan): \"27 Ekim 1991’de toplanan Türkmenistan Parlamentosu Türkmenistan’ın bağımsızlığını ilân etmiştir.\" (f gün)."
+ },
+ {
+  "id": "ruanda-cumhuriyeti",
+  "hukum": "TEYIT",
+  "veri_f": "1962-07-01",
+  "veri_t": null,
+  "bolge": "dogu-afrika",
+  "agirlik": 77,
+  "tdv_madde": "ruanda",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): RUANDA (ruanda): \"Burundi’den ayrılan Ruanda 1 Temmuz 1962’de bağımsızlığını ilân etti.\" (f gün = bağımsızlık). Ek: \"1961’de yapılan referandumla monarşi yönetimi ilga edilerek cumhuriyete geçildi.\" — cumhuriyete geçiş 1961; ad 'Cumhuriyet' için f=1962 bağımsızlık olarak teyit."
+ },
+ {
+  "id": "toro",
+  "hukum": "GIRISLI",
+  "veri_f": "1830-01-01",
+  "veri_t": "1900-06-26",
+  "bolge": "dogu-afrika",
+  "agirlik": 70,
+  "tdv_madde": "uganda",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UGANDA (uganda): Toro Krallığı 1822'de kurulmuş (özet), \"Toro Krallığı 1876’da tekrar Bunyoro Krallığı’na katıldı.\" ve \"Krallık İngilizler’in bölgeyi işgaliyle yarı müstakil bir konum kazandı.\" — veri f=1830/t=1900-06-26 TDV'de yok; ayrı Toro maddesi yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "arnavutluk-italyan-koruma",
+  "hukum": "KISMEN",
+  "veri_f": "1939-04-12",
+  "veri_t": "1943-09-08",
+  "bolge": "balkanlar",
+  "agirlik": 66,
+  "tdv_madde": "arnavutluk",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ARNAVUTLUK (/arnavutluk): \"İtalyanlar'ın 6 Nisan 1939'da ülkesini işgal etmelerinden bir gün önce yurt dışına kaçan Ahmed Zogu\" (işgal 6 Nisan 1939; atlas f=1939-04-12 şahsî birlik günü TDV'de yok, farklı olay tipi); \"1943'te ülkenin Almanya tarafından işgal edilmesi\" (yıl, ay yok; t=1943-09-08 günü teyitsiz); \"1939-1944 yılları arasında Arnavutluk İtalyanlar ve Almanlar tarafından idare edildi.\""
+ },
+ {
+  "id": "ingiliz-uganda-himayesi",
+  "hukum": "KISMEN",
+  "veri_f": "1894-06-18",
+  "veri_t": "1962-10-09",
+  "bolge": "dogu-afrika",
+  "agirlik": 63,
+  "tdv_madde": "uganda",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UGANDA (uganda): \"9 Ekim 1962 tarihinde Uganda’ya bağımsızlık âdeta hibe edildi.\" (t gün teyit). f=1894-06-18 (himaye ilanı) TDV'de yok."
+ },
+ {
+  "id": "slovenya",
+  "hukum": "TEYIT",
+  "veri_f": "1991-06-25",
+  "veri_t": null,
+  "bolge": "balkanlar",
+  "agirlik": 48,
+  "tdv_madde": "slovenya",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SLOVENYA (slovenya): \"25 Haziran 1991 tarihinde resmen bağımsızlığını ilân etti.\" (f gün)."
+ },
+ {
+  "id": "ermenistan-cumhuriyeti",
+  "hukum": "GIRISLI",
+  "veri_f": "1991-09-23",
+  "veri_t": null,
+  "bolge": "kafkasya",
+  "agirlik": 46,
+  "tdv_madde": "revan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Ermenistan (revan, menucihr-camii), TDV'de Ermenistan Cumhuriyeti maddesi yok. REVAN (/revan; şehir maddesi): \"1991 yılında Rusya’nın dağılmasından sonra da şehir Ermenistan Cumhuriyeti’nin başşehri olmaya devam etti.\" 23 Eylül 1991 günü yok."
+ },
+ {
+  "id": "daglik-karabag",
+  "hukum": "GIRISLI",
+  "veri_f": "1991-09-02",
+  "veri_t": null,
+  "bolge": "kafkasya",
+  "agirlik": 37,
+  "tdv_madde": "karabag",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KARABAĞ (/karabag): 2 Eylül 1991 cumhuriyet ilanı yok. Yalnız \"Dağlık Karabağ Özerk Bölgesi’nin tesisine karar verildi ve bu karar 24 Temmuz 1923’te ilân edildi.\"; \"Ermeniler 21 Şubat 1988’de Karabağ’ın Ermenistan’a ait olduğunu ilân ettiler\". Aramalar: Karabağ (karabag, karabagi)."
+ },
+ {
+  "id": "kibris-turk-federe-devleti",
+  "hukum": "TEYIT",
+  "veri_f": "1975-02-13",
+  "veri_t": "1983-11-15",
+  "bolge": "anadolu",
+  "agirlik": 26,
+  "tdv_madde": "kuzey-kibris-turk-cumhuriyeti",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KUZEY KIBRIS TÜRK CUMHURİYETİ (/kuzey-kibris-turk-cumhuriyeti): \"Türk tarafının 13 Şubat 1975’te ilân ettiği Kıbrıs Türk Federe Devleti’nin yapısı...\" ve \"Bu sebeple 15 Kasım 1983’te federe devlet statüsü terkedilerek bağımsız, özgür Kıbrıs Türk Cumhuriyeti ilân edildi.\" (f ve t teyit)."
+ },
+ {
+  "id": "kosova-golge-cumhuriyeti",
+  "hukum": "KISMEN",
+  "veri_f": "1991-09-22",
+  "veri_t": "1999-06-10",
+  "bolge": "balkanlar",
+  "agirlik": 23,
+  "tdv_madde": "kosova",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KOSOVA (/kosova): \"26-30 Eylül 1991 tarihlerinde Kosova’nın bağımsızlığı için referandum düzenlendi\" (f=1991-09-22 günü yok); \"10 Haziran 1999 tarihinde NATO güçleriyle Sırp ordusu arasında Kumanova Antlaşması imzalandı\" (BM 1244 ile sivil yönetim BM'ye geçti; t=1999-06-10 olayıyla örtüşür ama TDV gölge devletin sonu olarak tarihlemez). \"Rugova 24 Mayıs 1992'de seçildi\"."
+ },
+ {
+  "id": "ermenistan-demokratik-cumhuriyeti",
+  "hukum": "KISMEN",
+  "veri_f": "1918-05-28",
+  "veri_t": "1920-12-02",
+  "bolge": "kafkasya",
+  "agirlik": 18,
+  "tdv_madde": "revan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): REVAN (/revan; şehir maddesi, genel madde/geçen cümle): \"ancak 1918 Haziranında başşehri Revan olan Ermenistan’ı tanıdı.\" (28 Mayıs 1918 günü yok; Osmanlı tanıması Haziran 1918); \"Gümrü Antlaşması ile birlikte (2 Aralık 1920) ...\"; \"Revan aynı yıl oluşturulan Ermenistan Sovyet Sosyalist Cumhuriyeti’nin başşehri oldu.\" t=1920-12-02 Gümrü antlaşması günü ile uyumlu ama TDV bunu cumhuriyetin sonu olarak değil Türklerin göçü bağlamında tarihler."
+ },
+ {
+  "id": "filistin-devleti",
+  "hukum": "TEYIT",
+  "veri_f": "1988-11-15",
+  "veri_t": null,
+  "bolge": "suriye-filistin",
+  "agirlik": 12,
+  "tdv_madde": "filistin",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): FİLİSTİN (/filistin): \"Filistin Millî Konseyi 15 Kasım 1988’de Cezayir’de yaptığı toplantıda\" \"sürgünde bağımsız Filistin Devleti’nin kurulduğunu ilân etti.\" (f=1988-11-15 teyit)."
  },
  {
   "id": "zengibar-bagimsiz-sultanlik",
@@ -313,5 +623,25 @@
   "agirlik": 0,
   "tdv_madde": "hindistan",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan): \"330-540 yılları arasında hüküm süren Gupta İmparatorluğu zamanında eski Hint medeniyeti en yüksek seviyesine ulaştı\" — t=540 teyit; f için TDV 330 verir (veri 320). Ayrı Gupta maddesi okunmadı. · KARAR (EMRELİC, 4 Kasım): genel maddedeki tablo/geçen cümle 'TDV esas' kuralının dayanağı olmaz → VERİ KALIR, BEKLE kalktı · ic_not: 'Gupta çağının başlangıcı I. Çandragupta, 319/320 (akademik standart); TDV HİNDİSTAN maddesi 330-540 der (genel madde, geçen cümle).' — t 540 TDV ile teyitli"
+ },
+ {
+  "id": "somali-ulusal-gecis-hukumeti",
+  "hukum": "GIRISLI",
+  "veri_f": "2000-01-01",
+  "veri_t": "2003-01-01",
+  "bolge": "dogu-afrika",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Somali Geçici Ulusal Hükümet (fransa, italya, misir, somali); Arta/Cibuti geçici hükümeti için madde yok."
+ },
+ {
+  "id": "sarki-rumeli",
+  "hukum": "GIRISLI",
+  "veri_f": "1878-07-13",
+  "veri_t": "1885-09-18",
+  "bolge": "balkanlar",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Şarkî Rumeli, Rumeli-i Şarkî (yalnız heyet-i-temsiliyye, alakasız), Doğu Rumeli Vilayeti (132 gürültülü sonuç, ilgili madde yok). Şarkî Rumeli Vilayeti için dedicated madde bulunamadı."
  }
 ]
