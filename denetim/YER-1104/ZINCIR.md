@@ -168,3 +168,40 @@ Parti 1-3'teki komşu ve künye ölçümleri `lab-1104-enklav7` (c9656c768) ağa
 | Palermo 1282 | main'de 1282-03-30 → 08-30 `s:__BOSLUK__` (Komün) | **Misilmeri düzeltildi**: aynı beyanlı boşluk yazıldı. Doğrulayıcı `__BOSLUK__` dönemini kabul ediyor, beyan zorunlu. `italya` 1861-02-13 Palermo'nun kendisinde de künye öncesi (künye 1861-03-17) |
 
 Bundan sonra parti ölçümleri birleşmiş ağaçta yapılıyor ve raporlarda ağacın hash'i yazılıyor.
+
+### Parti 4 — 20 antik nokta (birleşmiş ağaç a9e4c61dd üzerinde: 7 ✅ · 13 ⏸)
+
+**Tam zincir (7):** Kalhu (Nimrud), Akhetaton, Sikyon, Argos, Eleusis, Pharsalus, Nola.
+
+Sınırlar (KASA bilsin):
+- **Okunmamış kaynaklar:** Antik yazar atıfları (Strabon, Plutarkhos, Herodotos, Polybios, Appianos, Thukydides, Priskos, Dio) KASA-YER satırından ve komşu kayıtlardan aktarıldı. Bu oturumda tek tek okunmadı; her `kaynak` alanında "bu oturumda okunmadı" diye beyanlı.
+- **Erişilemeyen kaynaklar:** Perseus robots.txt ile kapalı, Britannica 403 veriyor, Oxford kilitli.
+- **Antik sonrası dönemler:** ABİ MERKEZ ile beyanlı. Komşular: Sikyon için Gördüs/Korint, Argos için Anabolu (TDV anabolu 1389), Eleusis için Kulluk/Atina, Pharsalus için Larissa, Nola için Napoli.
+- **Ara BOŞLUK dönemleri** (beyanlı):
+  - Argos: 1204-1389
+  - Eleusis: -0337 → -0085
+  - Nola: 553-1137
+  - Pharsalus: 1204-1281 ve 1311-1390
+- **MÖ yılı yazımı:** MÖ N → `-(N-1)`; örnek: MÖ 612 → `-0611`.
+
+**Kısmi zincir, KASA'ya verilmedi (12):** Bu noktaların zinciri `taslak_zincir` alanında; doğrulayıcı onları ⏸ sayıyor.
+- **Antik çağdan sonra süreklilik gösterilemedi:** Nikopolis, Philae, Thapsus, Utica, Naukratis, Mareia. Hepsinin zinciri 0395-01-17'de bitiyor.
+- **Künye aralığı ya da bitiş yılı tahmini:** Kimiata (-0062), Semne (-1649), Tiryns (-1099), Pselkis (0298).
+- **İkisi birden:** Beth-Shean (-1068) ve Viminacium (0455).
+
+**Kurulamadı (1):** Lakiş. MÖ 701'den sonraki sahibi okunamadı: Yeni Asur, Yahuda ya da Filist olabilir.
+
+**Komşu kayıtlarda bulunan sorunlar:**
+- Anabolu 1281'den beri `venedik` yazıyor; TDV anabolu 1389 diyor.
+- Larissa, devletler.js'te olmayan `suleyman-celebi` ve `musa-celebi` id'lerini kullanıyor.
+- Atina'da -0026 → 1000 BOŞLUK satırı roma-cumhuriyeti satırıyla çakışıyor. Atina'nın kullandığı `atinadukaligi` id'si künye listesinde `atina-dukaligi` olarak geçiyor.
+- Napoli, `napoli` künyesini 1281-01-01'den başlatıyor; künye 1282-03-30'da başlıyor.
+
+## Durum (birleşmiş ağaç a9e4c61dd; origin/main 2fdc19540 içerir)
+
+| | nokta |
+|---|---|
+| `zincir.json`deki toplam | 81 (Arad + parti 1-4) |
+| KASA'ya hazır tam zincir | **58** temiz + 6 künye aralığı (beyanlı ❌) = **64** |
+| ⏸ kurulamadı / taslak | 17 (Fethülislâm, Kailua-Kona, Rânye, Oltu, Lakiş + 12 kısmi antik) |
+| henüz işlenmedi | parti 5: Momemphis, İpsos, Opis, Musasir, Kirrha (antik). Önerim: Oxford/JSTOR erişimi olan bir oturumda, kısmi 12 ile birlikte |

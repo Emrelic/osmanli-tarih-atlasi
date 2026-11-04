@@ -3922,5 +3922,826 @@
     "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar bosna-hersek 1992-03-03 (künye bosna-hersek f=1992-03-03) · BEYANLI YAKLAŞIKLIK"
    }
   ]
+ },
+ "Kalhu (Nimrud)": {
+  "lat": 36.10086,
+  "lon": 43.32946,
+  "kur": null,
+  "bit": "-0611-01-01",
+  "not": "Kur YAZILMADI: I. Şalmaneser (MÖ 1274–1245) kurdu ama kuruluş yılı kaynakta yok; zincir KASA-YER satır tarihi -1259'dan (MÖ 1260, Şalmaneser'in hükümdarlık aralığı içinde) başlar, YIL kesin değil. bit -0611 = MÖ 612 (yıkım aralığı 614–612, BEYANLI). MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi). Kaynaklar parti sahip_kaynagi'ndan; Oxford metinleri bu oturumda okunamadı (web erişimi: Britannica 403, Perseus robots yasağı).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "orta-asur",
+    "f": "-1259-01-01",
+    "t": "-0910-01-01",
+    "kaynak": "künye orta-asur · parti sahip_kaynagi: «I. Şalmaneser kurdu (13. yy ortası)» — Concise Oxford Dictionary of Archaeology, 3. bs. 2021, «Nimrud» (parti okuması; bu oturumda okunmadı) · f -1259 = KASA-YER satır tarihi, YIL beyanı (kuruluş yılı kaynakta yok) · t -0910 = künye sınırı (MÖ 911), kaynaklı kırılma değil: Asur sürekliliği"
+   },
+   {
+    "alan": "s",
+    "d": "yeni-asur",
+    "f": "-0910-01-01",
+    "t": "-0611-01-01",
+    "kaynak": "künye yeni-asur · parti sahip_kaynagi: «In 883 bc, under Ashurnasirpal II, it became the Assyrian capital» (Concise Oxford Dict. of Archaeology 3. bs. 2021 «Nimrud»; bu oturumda okunmadı) · f künye sınırı (Asur sürekliliği, sahip değişmedi) · t = bit: «In 614–612 bce, Nimrud,…» yıkım (Oxford Encyclopedia of Archaeology in the Near East 2011; parti okuması) — kaynak 614–612 aralığı verir, tek yıl teyit edilmedi: MÖ 612 = -0611, BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Nikopolis (Doğu Pontus)": {
+  "lat": 40.14856,
+  "lon": 38.14353,
+  "kur": "-0065-01-01",
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t 0395-01-17 — taslak 'taslak_zincir'de, KASA'ya verilmez. · kur = Pompeius'un şehri kurması (MÖ 66 savaşı, Plutarkhos/Appianos; parti). SÜREKLİLİK TEYİTSİZ: 395 sonrası (Bizans → Danişmendli → … ) Suşehri/Nikopolis sürekliliği bu oturumda kaynakla gösterilemedi; bit YAZILMADI, KASA'ya bırakıldı; zincir 395'te biter (doğrulayıcı '2000'e kadar sürmüyor' ❌ = SÜREKLİLİK TEYİTSİZ). Komşu Karahisâr-ı Şarkî (28,5 km) zinciri 1000'den başlıyor, 395–1000 kapsamıyor; ABİ MERKEZ ile aktarılmadı. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0065-01-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · parti sahip_kaynagi: Plutarkhos, Pompeius 32-36; Appianos, Mithridatika 97-100 — Pompeius'un Mithridates'e zaferinin yerinde kurduğu şehir (MÖ 66 → -0065, YIL beyanı; antik metinler bu oturumda okunmadı) · BEYANLI YAKLAŞIKLIK: çevresi Küçük Ermenistan'da müşteri krallıklara (Deiotaros, Arkhelaos, Polemon) tâbi dönemler künyesiz; şehir Roma kuruluşu olarak yazıldı · t künye sınırı"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · Nikopolis Roma İmparatorluğu çağında şehir olarak sürdü (parti zincir_lab; ayrı tanık okunmadı) · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   }
+  ]
+ },
+ "Sikyon": {
+  "lat": 37.98449,
+  "lon": 22.70941,
+  "kur": null,
+  "bit": null,
+  "not": "Sikyon bugün Vasiliko olarak sürüyor (brif: zincir 2000'e kadar). MÖ 251 öncesi Sikyon tiranlığı/bağımsız polis künyesiz → zincire girmedi (zincir künyeli ilk dönemden, -0250'den başlar; kur YAZILMADI: kadim şehir). 395–2000 arası ABİ MERKEZ Gördüs/Korint (17,5 km); Roma→Bizans 395 geçişi künye sınırı. Antik kaynaklar (Polybios, Plutarkhos, Pausanias, Eutropius) parti/komşu kaydından alındı, bu oturumda okunmadı. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "akhaia-birligi",
+    "f": "-0250-01-01",
+    "t": "-0145-01-01",
+    "kaynak": "künye akhaia-birligi · parti sahip_kaynagi: Polybios 2.43; Plutarkhos, Aratos 4-9 — Aratos MÖ 251'de Sikyon'u tiranlıktan kurtarıp Akhaia Birliği'ne kattı (MÖ 251 → -0250, YIL beyanı; metinler bu oturumda okunmadı) · t künye sınırı = MÖ 146 (Mummius; komşu Korint zinciri: Eutropius 4.14, Pausanias 7.16)"
+   },
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0145-01-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · Akhaia Birliği'nin dağıtılması MÖ 146 (komşu Korint kaydı: Eutropius 4.14 Mummius Korint'i aldı; Pausanias 7.16) → Yunanistan Roma hâkimiyetinde · ABİ MERKEZ: Korint (17,2 km) · BEYANLI YAKLAŞIKLIK (Sikyon özelinde tanık okunmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · ABİ MERKEZ: Korint · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "0395-01-17",
+    "t": "1210-01-01",
+    "kaynak": "ABİ MERKEZ: Gördüs (Korint) (17.5 km) — gün komşudan: Gördüs (Korint) bizans..1210 · TDV gordus: «1210’da Franklar tarafından ele geçirilinceye kadar bir Bizans şehri olarak varlığını sürdürdü.» · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "ahaya-prinkepsligi",
+    "f": "1210-01-01",
+    "t": "1395-01-01",
+    "kaynak": "ABİ MERKEZ: Gördüs (Korint) (17.5 km) — gün komşudan: Gördüs (Korint) 1281-01-01..1395-01-01 (başlangıç 1210: TDV gordus Frank fethi; Gördüs 1358 Acciajuoli: Ahaya'ya bağlı tımar) · TDV gordus: '1210’da Franklar tarafından ele geçirilinceye kadar bir Bizans şehri olarak varlığını sürdürdü.' · '1358’de Floransalı Niccolo Acciajuoli tarafından alındı.' · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "mora-despotlugu",
+    "f": "1395-01-01",
+    "t": "1458-08-06",
+    "kaynak": "ABİ MERKEZ: Gördüs (Korint) (17.5 km) — gün komşudan: Gördüs (Korint) 1395-01-01..1458-08-06 · TDV gordus: 'şehir yeniden Theodoros’un eline geçti (1395)' · 'burası 1458’e kadar Bizans despotluğunun idaresinde kaldı' · t: 'üç aylık bir kuşatmadan sonra barış yoluyl · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1458-08-06",
+    "t": "1687-08-01",
+    "kaynak": "ABİ MERKEZ: Gördüs (Korint) (17.5 km) — gün komşudan: Gördüs (Korint) 1458-08-06..1687-08-01 · TDV gordus: «6 Ağustos 1458» teslim · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "venedik",
+    "f": "1687-08-01",
+    "t": "1715-06-01",
+    "kaynak": "ABİ MERKEZ: Gördüs (Korint) (17.5 km) — gün komşudan: Gördüs (Korint) 1687-08-01..1715-06-01 · ENKLAV BEYANI KUTU-H7-1015 (0080/H-0019): Venedik'in Mora krallığı · TDV gordus: '1687’de barış yoluyla Venedikliler’e bırakılan şehrin müslüman ahalisi burayı terketti.' · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1715-06-01",
+    "t": "1822-01-01",
+    "kaynak": "ABİ MERKEZ: Gördüs (Korint) (17.5 km) — gün komşudan: Gördüs (Korint) 1715-06-01..1822-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1822-01-01",
+    "t": "1973-06-01",
+    "kaynak": "ABİ MERKEZ: Gördüs (Korint) (17.5 km) — gün komşudan: Gördüs (Korint) 1822-01-01..1973-06-01 · TDV gordus: «1822 Yunan bağımsızlık savaşı sırasında Gördüs isyancıların eline geçti» (kırsal Vasiliko 1821 Mora ayaklanmasında daha erken olabilir) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan-cumhuriyeti",
+    "f": "1973-06-01",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Gördüs (Korint) (17.5 km) — gün komşudan: Gördüs (Korint) 1973-06-01..2000-12-31 · Britannica 'Greece' (komşu kaynağı) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Argos": {
+  "lat": 37.63041,
+  "lon": 22.72167,
+  "kur": null,
+  "bit": null,
+  "not": "Argos bugün şehir (zincir 2000'e kadar). Başlangıç -0271 = KASA-YER satırı (MÖ 272); öncesi bağımsız polis künyesiz → zincire girmedi (kur YAZILMADI). Antik kısım parti kaynaklarından; TDV 'Argos' maddesi yok, TDV anabolu bu oturumda okundu. 1204–1389 BOŞLUK beyanlı. Argos kaydında Anabolu komşu zinciri 1281 'venedik' yazıyor ama TDV anabolu 1389 diyor → atlas çelişkisi: komşu zincirin 1281-1389 'venedik' dönemi ATLAS HATASI olabilir (Anabolu için de düzeltilmeli). MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "antigonid-makedonya",
+    "f": "-0271-01-01",
+    "t": "-0228-01-01",
+    "kaynak": "künye antigonid-makedonya · parti sahip_kaynagi: OCD4 «Aratus (2)»; Oxford Encyclopedia of Ancient Greece and Rome (parti okuması; bu oturumda okunmadı) · MÖ 272 Pyrrhos'un Argos'ta ölümü sonrası Antigonos Gonatas denetimi (MÖ 272 → -0271, YIL) · t: «In 229 bce Argos entered the Achaean League» (MÖ 229 → -0228, YIL) · BEYANLI YAKLAŞIKLIK: parti notu 'denetim ilhak değil' — Makedon destekli tiranlar (vasal); polis özerkliği künyesiz, en yakın künye antigonid-makedonya yazıldı (KASA v: alanı antik için tanımsız)"
+   },
+   {
+    "alan": "s",
+    "d": "akhaia-birligi",
+    "f": "-0228-01-01",
+    "t": "-0145-01-01",
+    "kaynak": "künye akhaia-birligi · parti zincir_lab: «In 229 bce Argos entered the Achaean League» (OCD4 «Aratus (2)») · t künye sınırı = MÖ 146 · BEYANLI: Kleomenes (~MÖ 224–223) ve Nabis (MÖ 197–195) dönemlerinde Argos kısa süre Sparta eline geçti — bu oturumda doğrulanmadı, zincire GİRMEDİ (KASA isg: sparta olarak değerlendirebilir)"
+   },
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0145-01-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · Akhaia Birliği MÖ 146'da dağıldı (komşu Korint kaydı: Eutropius 4.14; Pausanias 7.16) · ABİ MERKEZ: Korint (Argos'a 40 km; komşu listesinde yok — Sikyon/Korint zincirinden yaklaşım) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "0395-01-17",
+    "t": "1204-01-01",
+    "kaynak": "künye bizans (Doğu Roma) · ABİ MERKEZ: Atina/Korint zincirleri — bizans →1204-01-01 (gün komşudan: Atina bizans t 1204-01-01, TDV «Atina»: «1204’te Haçlılar tarafından ele geçirilen şehir»; Gördüs TDV: 1210 Frank) · Argolis özelinde tanık okunmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1204-01-01",
+    "t": "1389-01-01",
+    "kaynak": "BOŞLUK BEYANI: Argos 1204–1389 sahibi bu oturumda kaynakla gösterilemedi (Leon Sgouros → Frank Ahaya/Atina Dukalığı → Brienne/Enghien; Anabolu TDV: «1199’dan itibaren Nauplia Venedik’le sıkı ticarî münasebetleri olan önemli bir liman»; «1389’da Venedikliler’in idaresi altına girdi»). Künyeli adaylar: ahaya-prinkepsligi, atina-dukaligi — Argos özelinde teyitsiz, yazılmadı."
+   },
+   {
+    "alan": "s",
+    "d": "venedik",
+    "f": "1389-01-01",
+    "t": "1540-11-01",
+    "kaynak": "ABİ MERKEZ: Anabolu (Nauplion) (9.9 km) — gün komşudan: Anabolu (Nauplion) 1281-01-01..1540-11-01 · TDV anabolu (bu oturumda okundu): «1389’da Venedikliler’in idaresi altına girdi» (f YIL; komşu zincirinin 1281 başlangıcı kullanılmadı) · «3 Ekim 1540 Osmanlı-Venedik antlaşması sonucu Osmanlılar’a bırakıldı» (t komşudan 1540-11-01) · Argos'un 1397/1463 kısa Osmanlı işgalleri teyitsiz · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1540-11-01",
+    "t": "1686-08-30",
+    "kaynak": "ABİ MERKEZ: Anabolu (Nauplion) (9.9 km) — gün komşudan: Anabolu (Nauplion) 1540-11-01..1686-08-30 · TDV anabolu · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "venedik",
+    "f": "1686-08-30",
+    "t": "1715-07-20",
+    "kaynak": "ABİ MERKEZ: Anabolu (Nauplion) (9.9 km) — gün komşudan: Anabolu (Nauplion) 1686-08-30..1715-07-20 · TDV anabolu: Morosini 1686; «20 Temmuz 1715» Osmanlı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1715-07-20",
+    "t": "1822-12-12",
+    "kaynak": "ABİ MERKEZ: Anabolu (Nauplion) (9.9 km) — gün komşudan: Anabolu (Nauplion) 1715-07-20..1822-12-12 · TDV anabolu 1715 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1822-12-12",
+    "t": "1973-06-01",
+    "kaynak": "ABİ MERKEZ: Anabolu (Nauplion) (9.9 km) — gün komşudan: Anabolu (Nauplion) 1822-12-12..1973-06-01 · komşu: «Anabolu'nun isyancılara kaybı» TDV anabolu; Argos kırsalı/şehri 1821–22'de daha erken Yunan eline geçmiş olabilir · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan-cumhuriyeti",
+    "f": "1973-06-01",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Anabolu (Nauplion) (9.9 km) — gün komşudan: Anabolu (Nauplion) 1973-06-01..2000-12-31 · Britannica 'Greece' · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Eleusis (Attika)": {
+  "lat": 38.03974,
+  "lon": 23.53847,
+  "kur": null,
+  "bit": null,
+  "not": "Eleusis (Elefsina) bugün şehir; zincir 2000'e kadar. Başlangıç -0504 = KASA-YER satırı (Herodotos 5.74-76); Atika'ya katılışı (daha eski, MÖ 7. yy) kaynaklanmadı. -0337→-0085 BOŞLUK beyanlı (künyesiz polis/Makedon üstünlüğü). Antik kaynak parti sahip_kaynagi; bu oturumda okunmadı. Atina komşu zincirinde 1827-1833 'd' ve -0026→1000 çakışan BOŞLUK satırları HATALI görünüyor (kullanılmadı). MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "atina-demokrasisi",
+    "f": "-0504-01-01",
+    "t": "-0337-01-01",
+    "kaynak": "künye atina-demokrasisi · parti sahip_kaynagi: Herodotos 5.74-76 (Eleusis'te Kleomenes'in Peloponnesos ordusunun dağılması; MÖ 505/6 → -0504, YIL beyanı; metin bu oturumda okunmadı) · ilk tanık (kuruluş değil) · t künye sınırı = MÖ 338 Khaironeia"
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "-0337-01-01",
+    "t": "-0085-01-01",
+    "kaynak": "BOŞLUK BEYANI: Khaironeia (MÖ 338) sonrası Attika: Makedon üstünlüğü/garnizonları, bağımsız polis (künyesiz), Roma müttefikliği — Eleusis'in bu dönemdeki egemen künyesi kaynakla belirlenemedi; makedonya-krallik/korint-birligi künyeleri 'üstünlük'tür, ilhak değil → yazılmadı. Not: komşu Atina kaydı da -0026→1000 BOŞLUK beyanlı."
+   },
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0085-01-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · gün komşudan: Atina roma-cumhuriyeti f -0085-01-01 (Plutarkhos, Sulla 14.6: Sulla Atina'yı 'Mart'ın Kalendae'sinde' aldı; yıl metinde yok → YIL, MÖ 86) · ABİ MERKEZ: Atina (18,5 km) · BEYANLI YAKLAŞIKLIK (Eleusis özelinde tanık okunmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · ABİ MERKEZ: Atina · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "0395-01-17",
+    "t": "1204-01-01",
+    "kaynak": "ABİ MERKEZ: Atina (18.5 km) — gün komşudan: Atina 1000-01-01..1204-01-01 (başlangıç 395 künye sınırı) · TDV «Atina»: 1204 Haçlı fethi · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "atina-dukaligi",
+    "f": "1204-01-01",
+    "t": "1456-06-04",
+    "kaynak": "ABİ MERKEZ: Atina (18.5 km) — gün komşudan: Atina 1204-01-01..1456-06-04 · Kulluk (Salamis 12,1 km) komşu zinciri de 1456-06-04 · TDV «Atina» · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1456-06-04",
+    "t": "1821-03-25",
+    "kaynak": "ABİ MERKEZ: Kulluk (Salamis) (12.1 km) — gün komşudan: Kulluk (Salamis) 1456-06-04..1821-03-25 · TDV atina; Atina'daki 1687-88 Venedik dönemi Eleusis'e uygulanmadı (Kulluk zinciri uygulamıyor) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1821-03-25",
+    "t": "1973-06-01",
+    "kaynak": "ABİ MERKEZ: Kulluk (Salamis) (12.1 km) — gün komşudan: Kulluk (Salamis) 1821-03-25..1973-06-01 · «Yunan İsyanı başladı» TDV mora · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "almanya",
+    "f": "1941-04-27",
+    "t": "1944-10-12",
+    "kaynak": "ABİ MERKEZ: Atina (18.5 km) — gün komşudan: Atina 1941-04-27..1944-10-12 · U.S. Army CMH, The German Campaign in the Balkans, DA Pam 20-260, Part IV (komşudan; isg: sahiplik değişmez) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan-cumhuriyeti",
+    "f": "1973-06-01",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Kulluk (Salamis) (12.1 km) — gün komşudan: Kulluk (Salamis) 1973-06-01..2000-12-31 · Britannica 'Greece' · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Philae": {
+  "lat": 24.02526,
+  "lon": 32.88414,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t 0395-01-17 — taslak 'taslak_zincir'de, KASA'ya verilmez. · İlk tanık: Roma hâkimiyeti MÖ 29 (-0028, KASA-YER satırı). Daha eski (Ptolemai/Nektanebos I, -0322→-0029 künyeli) Philae sahipliği bu oturumda kaynaklanamadı → zincire girmedi. SÜREKLİLİK TEYİTSİZ: 395 sonrası (Bizans, Nûbe/Nobadia, Arap fethi, Fâtımî…) sahip kaynakta belirsiz — TDV Asvan komşu zinciri 969'dan başlıyor ve Philae Aswan baraj sınırı ötesindeki adadır (Nûbe tarafı olabilir) → ABİ MERKEZ aktarılmadı, bit YAZILMADI; KASA'ya bırakıldı. Philae adası 1902 baraj/1970'lerde taşındı (yerleşim değil). Doğrulayıcı '2000'e kadar sürmüyor' ❌ = SÜREKLİLİK TEYİTSİZ. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0028-01-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · parti sahip_kaynagi: Cassius Dio 51.17; Strabon (17.1) — Ptolemaios sonrası Roma Mısır'ı, prefekt Gallus (MÖ 29 → -0028, YIL beyanı; metin bu oturumda okunmadı) · t künye sınırı"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · Philae Roma Mısır'ının güney sınır adası (Strabon 17.1.49 civarı; parti) · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   }
+  ]
+ },
+ "Beth-Shean": {
+  "lat": 32.50128,
+  "lon": 35.50164,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t -1068-01-01 — taslak 'taslak_zincir'de, KASA'ya verilmez. · SÜREKLİLİK TEYİTSİZ / KÜNYE ARALIĞI: Beth-Shean (Beit She'an) bugün yerleşim (zincir 2000'e kadar gerekir) ama -1068 sonrası (Filistî/İsrail krallığı -0929, Yeni Asur, Babil, Hakhamaniş, Ptolemai, Selevkos [Skythopolis], Hasmonay, Roma, Bizans, Arap, Haçlı, Eyyûbî, Memlûk, Osmanlı, Filistin Mandası, İsrail) sahip zinciri bu oturumda kaynakla kurulamadı; komşu Fihl/Tirsa boş, Kfar HaHoresh 1 satır; TDV Beysân maddesi 'tdv-ara' ile bulunamadı. Uydurma yerine KASA'ya bırakıldı; zincir -1068'de biter (doğrulayıcı ❌ 'zincir 2000'e kadar sürmüyor' = KÜNYE ARALIĞI/SÜREKLİLİK TEYİTSİZ). Thutmose III listesinde (MÖ ~1457) daha erken Mısır tanığı var (okunmadı). MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "misir-yeni-krallik",
+    "f": "-1293-01-01",
+    "t": "-1068-01-01",
+    "kaynak": "künye misir-yeni-krallik · parti sahip_kaynagi: Breasted, Ancient Records of Egypt c.3 §§ 80-156 — I. Seti'nin Kenan seferi/Beth-Shean steli, Mısır garnizon şehri (MÖ 1294 → -1293, YIL beyanı; metin bu oturumda okunmadı) · t künye sınırı (-1068 = MÖ 1069): BEYANLI — Beth-Shean'daki Mısır varlığının fiilî sonu künye sonundan önce olabilir, teyitsiz"
+   }
+  ]
+ },
+ "Akhetaton": {
+  "lat": 27.6441,
+  "lon": 30.89818,
+  "kur": "-1347-01-01",
+  "bit": "-1331-01-01",
+  "not": "kur -1347 (KASA-YER satırı); bit -1331 = MÖ 1332, terk: 'Akhenaton ölümünden kısa süre sonra, Tutankhamun'un hükümeti şehri bırakınca' (Vikipedi 'Amarna' okundu; birincil: Shaw 2000 / Kemp — okunmadı). Terk YILI kronolojiye göre ±1-3 yıl oynar → BEYANLI YAKLAŞIKLIK; Horemheb sırasında kısmen iskân/malzeme ocağı olarak kullanılmış. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "misir-yeni-krallik",
+    "f": "-1347-01-01",
+    "t": "-1331-01-01",
+    "kaynak": "künye misir-yeni-krallik · kur: IV. Amenhotep/Akhenaton'un yeni başkenti (parti sahip_kaynagi: Shaw 2000; Murnane–Van Siclen — okunmadı) · Vikipedi 'Amarna' (bu oturumda okundu, tek dayanak değil): «established in 1346 BC … abandoned shortly after his death in 1332 BC»; Tutankhamun hükûmeti şehri bırakıp Teb'e döndü · f -1347 = KASA-YER (MÖ 1348) vs Vikipedi MÖ 1346: ±1-2 yıl kronoloji farkı; t -1331 = MÖ 1332 — YIL, BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Semne": {
+  "lat": 21.50019,
+  "lon": 30.96716,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t -1649-01-01 — taslak 'taslak_zincir'de, KASA'ya verilmez. · Kur YAZILMADI: kale III. Sesostris'in 8. yılı civarında kurulmuş olsa da yıl kaynakta okunmadı; zincir KASA-YER satır tarihi -1866'dan başlar. KÜNYE ARALIĞI / SÜREKLİLİK TEYİTSİZ: -1649 sonrası (Kerma, Yeni Krallık 18. hanedan yeniden fethi, Kush, Roma, Nûbe, Fung…) sahip zinciri kurulamadı; komşu Vâdî Halfâ (52 km) zinciri yalnız 1813'ten başlıyor (v Kavalalı → ingiliz-sudani → sudan) ve Semne Vâdî Halfâ'ya ABİ MERKEZ yapılamayacak kadar erken boşluk bırakıyor; Semne bugün Nasır Gölü altında/Sudan toprağı. bit YAZILMADI. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "misir-orta-krallik",
+    "f": "-1866-01-01",
+    "t": "-1649-01-01",
+    "kaynak": "künye misir-orta-krallik · parti sahip_kaynagi: Breasted, ARE c.1 § 652 — III. Sesostris'in II. Şelale sınır kalesi (MÖ 1867 → -1866, YIL; metin bu oturumda okunmadı) · t künye sınırı (MÖ 1650: Hiksos/Kerma). BEYANLI: Semne'nin fiilî Mısır kaybı (Kerma'ya) künye sonuyla aynı olmayabilir"
+   }
+  ]
+ },
+ "Lakiş": {
+  "lat": 31.56552,
+  "lon": 34.84919,
+  "kur": null,
+  "bit": null,
+  "not": "KURULAMADI: Lakiş (Tel Lachish) MÖ 701 Sennacherib fethine kadar Yahuda'da (parti), ama (a) Sennacherib'in Yahuda'nın Şefela şehirlerini Filist krallarına (Aşdod/Ekron/Gaza) verdiği anlatısı Lakiş'in 701 sonrası sahibini belirsiz kılıyor (yeni-asur mu, Yahuda mı, Filist mi?), (b) Yosiya dönemi Yahuda'ya dönüş ve MÖ 587/586 Babil yıkımı, sonrası Pers/Hellenistik küçük iskân ve terk tarihi bu oturumda kaynakla okunamadı (Oxford/Britannica/Livius erişimi yok). 701 öncesi için yahuda künyesi -0929'da başlıyor ama Lakiş'in Yahuda'ya geçiş/tahkim yılı (2 Tarihler 11:5-12 Rehoboam) tarihlenemedi. Yanlış zincir yerine boş bırakıldı. Komşular Hebron/Askalân/Betar boş. Lakiş bugün yerleşim değil, höyük (Tel Lachish) — bit tarihi de gerekli. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": []
+ },
+ "Thapsus (Tunus kıyısı)": {
+  "lat": 35.62137,
+  "lon": 11.04271,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t 0395-01-17 — taslak 'taslak_zincir'de, KASA'ya verilmez. · İlk tanık MÖ 46 savaşı; öncesi (Kartaca/Roma, 146 sonrası) şehrin sahipliği okunmadı (Oxford tam metni kilitli: parti notu). SÜREKLİLİK TEYİTSİZ: 395 sonrası (Batı Roma → Vandal 439 → Bizans 534 → Arap 698 → Aglebî → Fâtımî …) zincir kurulmadı; komşu Mehdiye (13,1 km) 921'den, Munastır 5 satır 1281 sonrası — ara dönem ABİ MERKEZ ile doldurulamadı (Mehdiye 921'de kuruldu, Thapsus ondan eski). bit YAZILMADI. Doğrulayıcı ❌ '2000'e kadar sürmüyor' = SÜREKLİLİK TEYİTSİZ. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0045-01-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · parti sahip_kaynagi: Bellum Africum 79-86 (Thapsus Muharebesi, MÖ 46 → -0045, YIL beyanı; metin bu oturumda okunmadı) · ilk tanık: Thapsus Roma Afrika eyaletinde Pompeiusçu-Juba kuvvetlerine karşı kuşatma/muharebe yeri; şehir özelinde statü (özgür/müttefik şehir) BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · Afrika Roma eyaleti (komşu Mehdiye/Munastır zincirlerinde bu dönem yok) · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   }
+  ]
+ },
+ "Pharsalus (Tesalya)": {
+  "lat": 39.2885,
+  "lon": 22.38785,
+  "kur": null,
+  "bit": null,
+  "not": "Farsala bugün şehir; zincir 2000'e kadar. İlk tanık MÖ 48 savaşı; öncesi (Tesalya polisi, Makedon/Roma 'MÖ 6. yy'dan Phthiotis'te baskın' OCD4) künyesiz/okunmadı. Kaynaklar: parti sahip_kaynagi (Oxford OCD4 kilitli); Larissa komşu zinciri (kullanıldı, 1204–1281 BOŞLUK). Larissa zincirindeki 1281-1311 'bizans' Tesalya Vlah/Nepatra dönemi için yaklaşık olabilir. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0047-01-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · parti sahip_kaynagi: OCD4 «Pharsalus» (Oxford, EMRELİC okuması) — Pharsalos Muharebesi MÖ 48 (→ -0047, YIL beyanı; metin bu oturumda okunmadı); Tesalya Roma/Makedonya eyaletinde · öncesi (Tesalya Birliği, Makedonya) okunmadı → zincire girmedi"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "0395-01-17",
+    "t": "1204-01-01",
+    "kaynak": "künye bizans (Doğu Roma) · ABİ MERKEZ: Larissa (39,1 km) — Tesalya Bizans'ta; 1204 Dördüncü Haçlı Seferi (gün komşudan: Atina bizans t 1204-01-01) · Farsala özelinde tanık okunmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1204-01-01",
+    "t": "1281-01-01",
+    "kaynak": "BOŞLUK BEYANI: Selanik Krallığı (1205–1225), Epir Despotluğu, Tesalya Vlah/Nepatra hâkimiyeti arası Farsala sahibi bu oturumda kaynakla gösterilemedi; künyeli adaylar selanik-kralligi, epir-despotlugu, selanik-imparatorlugu."
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1281-01-01",
+    "t": "1311-03-15",
+    "kaynak": "ABİ MERKEZ: Yenişehir (Larissa) (39.1 km) — gün komşudan: Yenişehir (Larissa) 1281-01-01..1311-03-15 ·  · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1311-03-15",
+    "t": "1390-01-01",
+    "kaynak": "BOŞLUK BEYANI: Katalan/Anjou/Sırp-Epir dönemi; komşu Larissa kaydı da BEYANLI BOŞLUK (TDV tesalya: Katalanlar yalnız 1320'lerde doğu ovasını tahrip etti) — gün komşudan: Larissa __BOSLUK__ 1311-03-15..1390-01-01."
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1390-01-01",
+    "t": "1394-01-01",
+    "kaynak": "ABİ MERKEZ: Yenişehir (Larissa) (39.1 km) — gün komşudan: Yenişehir (Larissa) 1390-01-01..1394-01-01 · «Teselya'ya iniş» 1394 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1394-01-01",
+    "t": "1402-07-28",
+    "kaynak": "ABİ MERKEZ: Yenişehir (Larissa) (39.1 km) — gün komşudan: Yenişehir (Larissa) 1394-01-01..1402-07-28 · Teselya'ya iniş (TDV tesalya) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-suleyman",
+    "f": "1402-07-28",
+    "t": "1411-02-17",
+    "kaynak": "ABİ MERKEZ: Yenişehir (Larissa) (39.1 km) — gün komşudan: Yenişehir (Larissa) 1402-07-28..1411-02-17 · Fetret; komşu zincirdeki 1410-02-13 ve 1410-06-15 Süleyman/Musa dönüşleri BİRLEŞTİRİLDİ (komşunun suleyman-celebi/musa-celebi id'leri künye listesinde yok; künye fetret-suleyman kullanıldı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-musa",
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "kaynak": "ABİ MERKEZ: Yenişehir (Larissa) (39.1 km) — gün komşudan: Yenişehir (Larissa) 1411-02-17..1413-07-05 · Fetret (komşu: musa-celebi; künye fetret-musa) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1413-07-05",
+    "t": "1881-07-02",
+    "kaynak": "ABİ MERKEZ: Yenişehir (Larissa) (39.1 km) — gün komşudan: Yenişehir (Larissa) 1413-07-05..1881-07-02 · Osmanlı idaresi · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1881-07-02",
+    "t": "1973-06-01",
+    "kaynak": "ABİ MERKEZ: Yenişehir (Larissa) (39.1 km) — gün komşudan: Yenişehir (Larissa) 1881-07-02..1973-06-01 · «Teselya'nın Yunanistan'a bırakılması» (komşu); 1897 Osmanlı işgali zincire girmedi · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan-cumhuriyeti",
+    "f": "1973-06-01",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Yenişehir (Larissa) (39.1 km) — gün komşudan: Yenişehir (Larissa) 1973-06-01..2000-12-31 · Britannica 'Greece' · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Utica": {
+  "lat": 37.05257,
+  "lon": 10.05729,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t 0395-01-17 — taslak 'taslak_zincir'de, KASA'ya verilmez. · İlk kaynaklı sahip Roma (MÖ 149 teslim). Utica Kartaca'nın müttefik/özerk şehriydi → kartaca künyesi yazılmadı (BEYANLI; parti: 'müttefik şehri'). SÜREKLİLİK TEYİTSİZ: 395 sonrası (Batı Roma, Vandal 439, Bizans 534, Arap 698; Medjerda alüvyonuyla liman terk) zincir kurulmadı; komşular Ğâru'l-Melh/Tunus/Benzert 1281 sonrası. bit YAZILMADI. ❌ '2000'e kadar sürmüyor' = SÜREKLİLİK TEYİTSİZ. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0148-01-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · parti sahip_kaynagi: Appianos, Punika 75 — Utica Kartaca'yı bırakıp Roma'ya teslim oldu (MÖ 149 → -0148, YIL beyanı; metin bu oturumda okunmadı) · Roma'nın Afrika eyaletinin merkezi (MÖ 146) · Kartaca'ya bağlılık/müttefiklik öncesi künye kullanılmadı (Utica Fenike kolonisi, kartaca künyesi -0813..-0145 ama Utica özerk müttefik)"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   }
+  ]
+ },
+ "Kimiata": {
+  "lat": 40.9942,
+  "lon": 33.67864,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t -0062-01-01 — taslak 'taslak_zincir'de, KASA'ya verilmez. · KÜNYE ARALIĞI: parti tarihi -0301 pontus künyesinin başlangıcından (-0280) önce; künyesiz Mithridates Ktistes dönemi (MÖ 302–281) zincire girmedi (brif: künyesiz dönem atlanır, beyan edilir), zincir -0280'de künyeli ilk dönemden başlar. -0062 sonrası: Paflagonya iç kısmı Pompeius düzenlemesiyle Bithynia-Pontus/müşteri krallar; Kimiata'nın yeri (Tosya/Kastamonu civarı, Pleiades) ve sonraki kaderi okunmadı; komşular Tosya/Kastamonu/Çankırı 1281 sonrası. Şehir bugün yok (terk tarihi bilinmiyor) → bit YAZILMADI. SÜREKLİLİK TEYİTSİZ. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "pontus",
+    "f": "-0280-01-01",
+    "t": "-0062-01-01",
+    "kaynak": "künye pontus · parti sahip_kaynagi: Strabon 12.3.41 — Mithridates Ktistes'in Paflagonya'daki üssü (parti tarih MÖ 302 → -0301, künye f -0280'den ÖNCE) · f = künye başlangıcı (MÖ 281), kaynaklı gün değil; t künye sınırı = MÖ 63 (VI. Mithridates'in sonu) · Strabon metni bu oturumda okunmadı"
+   }
+  ]
+ },
+ "Tiryns": {
+  "lat": 37.59928,
+  "lon": 22.79999,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t -1099-01-01 — taslak 'taslak_zincir'de, KASA'ya verilmez. · KÜNYE ARALIĞI: miken künyesi -1099'da biter; sonrası (Geometrik/Arkaik bağımsız polis, MÖ ~470 Argos'un Tiryns'i yıkması [Strabon 8.6.11, Pausanias 2.25.8 — okunmadı], Argos/Roma/Bizans/Venedik/Osmanlı/Yunan) zincire girmedi. Tiryns antik terk tarihi kaynakla netleştirilemedi → bit YAZILMADI (brif Tiryns'i bit örneği sayıyor: KASA Argos MÖ ~470 yıkımını yeniden değerlendirebilir). Komşu Anabolu (3,6 km) zinciri 1281 sonrası var ama Tiryns terk edilmiş köydür; ABİ MERKEZ yapılmadı. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "miken",
+    "f": "-1199-01-01",
+    "t": "-1099-01-01",
+    "kaynak": "künye miken · parti sahip_kaynagi: Cline 2014; Dickinson 1994 — Miken saray merkezi, MÖ 1200 civarı saray yıkımı sonrası yerel topluluk (MÖ 1200 → -1199, YIL; kitaplar bu oturumda okunmadı) · BEYANLI YAKLAŞIKLIK: f KASA-YER satır tarihi; saray öncesi (LH IIIA-B) dönem okunmadı · t künye sınırı"
+   }
+  ]
+ },
+ "Nola (Kampanya)": {
+  "lat": 40.92682,
+  "lon": 14.52454,
+  "kur": null,
+  "bit": null,
+  "not": "Nola bugün şehir; zincir 2000'e kadar. 553–1137 BOŞLUK beyanlı. Başlangıç -0026-01-16 roma-imp (öncesi Roma Cumhuriyeti/Samnit zincire girmedi; ilk kaynaklı tanık Augustus'un ölümü MS 14). Napoli komşu zinciri 1281-01-01'de 'napoli' yazıyor ama künye napoli f 1282-03-30 → burada künye sınırı kullanıldı; komşu zincir doğrulayıcıdan geçmez (atlas çelişkisi: napoli 1281-01-01..1282-03-30 için sicilya-kralligi). Aversa/Capua komşuları tek satır, kullanılmadı. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp · ilk tanık: parti sahip_kaynagi: Suetonius, Divus Augustus 100; Tacitus, Annales 1.5 — Augustus MS 14'te Nola'da öldü (okunmadı) · f gün komşudan: Napoli roma-imp -0026-01-16 (ZİNCİR-GÜNEY-ANTİK) · Roma Cumhuriyeti dönemi Nola (Sulla kolonisi vb.) zincire girmedi · ABİ MERKEZ: Napoli (23,1 km) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "bati-roma",
+    "f": "0395-01-17",
+    "t": "0476-08-23",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 0395-01-17..0476-08-23 · ZİNCİR-GÜNEY-ANTİK (künye sınırları) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "odoakar",
+    "f": "0476-08-23",
+    "t": "0493-03-05",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 0476-08-23..0493-03-05 · künye sınırı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "dogu-got",
+    "f": "0493-03-05",
+    "t": "0553-01-01",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 0493-03-05..0553-01-01 · künye sınırı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "0553-01-01",
+    "t": "1137-01-01",
+    "kaynak": "BOŞLUK BEYANI: Nola 553–1137: Bizans Italya → Lombard (Benevento/Salerno/Capua) → Napoli Dükalığı/Norman çekişmesi; Napoli komşu zincirinin 'bizans/napoli-dukaligi' dönemleri Nola'ya UYGULANMADI (Nola Lombard Benevento/Salerno-Capua dairesinde olabilir; Napoli ile kader birliği teyitsiz). Kaynak okunmadı."
+   },
+   {
+    "alan": "s",
+    "d": "sicilya-kralligi",
+    "f": "1137-01-01",
+    "t": "1282-03-30",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 1137-01-01..1281-01-01 (t künye sınırı napoli f 1282-03-30) · Treccani Enciclopedia on line «Napoli» (komşu kaynağı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "napoli",
+    "f": "1282-03-30",
+    "t": "1799-01-23",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 1281-01-01..1799-01-23 (f künye sınırı 1282-03-30) · komşu kaynağı boş · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "partenopea-cumhuriyeti",
+    "f": "1799-01-23",
+    "t": "1799-06-13",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 1799-01-23..1799-06-13 · Partenopa: künye partenopea-cumhuriyeti (devletler.js) f 1799-01-23 / t 1799-06-13; Fransız ordusu Napoli'ye 23 Ocak 1799'da girdi, Kardinal Ruffo 13 Haziran 1799'da geri · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "napoli",
+    "f": "1799-06-13",
+    "t": "1861-02-13",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 1799-06-13..1861-02-13 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1861-02-13",
+    "t": "1861-03-17",
+    "kaynak": "BOŞLUK BEYANI: Gaeta'nın düşüşü (napoli künye t 1861-02-13) ile İtalya Krallığı ilanı (italya künye f 1861-03-17) arası 32 gün: künye boşluğu; komşu Napoli zinciri bu aralığa 'italya 1861-02-13' yazıyor ama künye f ihlali."
+   },
+   {
+    "alan": "s",
+    "d": "italya",
+    "f": "1861-03-17",
+    "t": "1946-06-18",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 1861-02-13..1946-06-18 (f künye sınırı 1861-03-17) · İtalya Krallığı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "italya-cumhuriyeti",
+    "f": "1946-06-18",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Napoli (23.1 km) — gün komşudan: Napoli 1946-06-18..2000-12-31 · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Viminacium": {
+  "lat": 44.73801,
+  "lon": 21.22003,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t 0455-01-01 — taslak 'taslak_zincir'de, KASA'ya verilmez. · KÜNYE ARALIĞI / SÜREKLİLİK TEYİTSİZ: 455 sonrası (Gepid 454–567, Doğu Roma/Justinianus onarımı [Prokopios, Yapılar 4.6 — okunmadı], Avar 567–, Birinci Bulgar 681–1018, Bizans, Macar, Sırp…) kurulmadı; komşu Požarevac (13,2 km) zinciri yalnız 1281'den başlıyor ve 455–1281 boşluğu ABİ MERKEZ ile doldurulamıyor. Viminacium kalıntıları Kostolac yakınında; bugünkü sürekliliği teyitsiz → bit YAZILMADI. Roma İmparatorluğu dönemi (MS 1. yy lejyon kampı; municipium/colonia) okunmadı → zincire girmedi (ilk tanık parti satırı 441). MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "0395-01-17",
+    "t": "0441-01-01",
+    "kaynak": "künye bizans (Doğu Roma) · parti sahip_kaynagi: Priskos fr. 2, 5 (Blockley) — Viminacium Doğu Roma Moesia'sında (parti: 'Moesia (Doğu Roma)'; Roma→Doğu Roma künye sınırı 395-01-17) · f = bölünme (BEYANLI: Notitia'ya göre Dacia piskoposluğu Doğu'da; okunmadı) · t 441: Hun saldırısı (YIL)"
+   },
+   {
+    "alan": "s",
+    "d": "hun-avrupa",
+    "f": "0441-01-01",
+    "t": "0455-01-01",
+    "kaynak": "künye hun-avrupa · parti sahip_kaynagi: Priskos fr. 2, 5 (Blockley) — 441 Hun akını Viminacium'u ele geçirdi/yıktı (YIL beyanı; metin bu oturumda okunmadı) · BEYANLI YAKLAŞIKLIK: parti 'Hun' diyor; Hun fiilî idaresinin Viminacium'da ne kadar sürdüğü okunmadı · t künye sınırı (Attila sonrası, 455)"
+   }
+  ]
+ },
+ "Pselkis": {
+  "lat": 23.19571,
+  "lon": 32.74935,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t 0298-01-01 — taslak 'taslak_zincir'de, KASA'ya verilmez. · İlk kaynaklı sahip Roma (MÖ 23 fethi); parti ilk_sahip 'kush-krallik' ama Kush dönemi (MÖ 25–22 Kandake işgali, Meroe hâkimiyeti) tarihlenemedi → zincire girmedi (kush-krallik künyesi -0749..0349 geniş; Pselkis özelinde başlangıç/bitiş okunmadı). SÜREKLİLİK TEYİTSİZ: 298 sonrası Nobades/Blemmyes/Nûbe (künyesiz/543+), Fâtımî… kurulamadı; komşu Talmis boş. Pselkis (Dakka) tapınağı Nasır Gölü nedeniyle taşındı. bit YAZILMADI. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0022-01-01",
+    "t": "0298-01-01",
+    "kaynak": "künye roma-imp · parti sahip_kaynagi: Strabon 17.1.53-54 — Petronius Pselkis'i (Ethiopların şehri) aldı (MÖ 23 → -0022, YIL beyanı; metin bu oturumda okunmadı) · Dodekaschoinos Roma Mısır'ında kaldı (Strabon 17.1.2/49: Hiera Sykaminos sınır) · t 0298 = Diocletianus'un sınırı Philae/Elephantine'e çekmesi (Prokopios, Savaşlar 1.19.27-36; yıl modern gelenek c. 298, kaynakta yıl yok) — YIL, BEYANLI YAKLAŞIKLIK, okunmadı"
+   }
+  ]
+ },
+ "Naukratis": {
+  "lat": 30.90051,
+  "lon": 30.59193,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t 0395-01-17 — taslak 'taslak_zincir'de, KASA'ya verilmez. · Kur YAZILMADI (kuruluş c. MÖ 625 arkeolojik, Amasis 'verdi'). Zincir Amasis'in tahta çıkışından (MÖ 570, -0569) başlar; 26. hanedan öncesi tanık okunmadı. Mısır geneli künyelerle ilerlendi; Naukratis'e özel tanık YOK (Herodotos 2.178-179 dışında) → dönemler BEYANLI YAKLAŞIKLIK. SÜREKLİLİK TEYİTSİZ: 395 sonrası kurulamadı (Naukratis Bizans döneminde terk edilmiş olabilir; bit YAZILMADI); komşu Demenhûr (18,9 km) zinciri 1281'den, kaynaksız Memlûk; ABİ MERKEZ aktarılmadı. MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "sait-26-hanedan",
+    "f": "-0569-01-01",
+    "t": "-0524-01-01",
+    "kaynak": "künye sait-26-hanedan · Herodotos 2.178-179: Amasis (MÖ 570–526) Naukratis'i Yunanlılara ikamet yeri olarak 'verdi' (Vikipedi 'Naucratis', bu oturumda okundu — tek dayanak değil; Herodotos metni okunmadı) · f -0569 = Amasis'in tahta çıkışı MÖ 570 (YIL, BEYANLI YAKLAŞIKLIK; şehir daha eski: Psammetikhos I döneminde c. MÖ 625 kuruluş iddiası — kuruluş kaynaklı değil, kur YAZILMADI) · t künye sınırı = Kambyses fethi MÖ 525"
+   },
+   {
+    "alan": "s",
+    "d": "ahamenis-misir",
+    "f": "-0524-01-01",
+    "t": "-0403-01-01",
+    "kaynak": "künye ahamenis-misir (Hakhamaniş Mısır'ı) · Naukratis Nil Deltası'nda; Mısır geneli künye zinciri · Naukratis özelinde tanık okunmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "misir-28-30-hanedan",
+    "f": "-0403-01-01",
+    "t": "-0342-01-01",
+    "kaynak": "künye misir-28-30-hanedan · Mısır bağımsızlığı (MÖ 404–343); Naukratis özelinde tanık okunmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "ahamenis-misir-2",
+    "f": "-0342-01-01",
+    "t": "-0331-01-01",
+    "kaynak": "künye ahamenis-misir-2 · Mısır geneli · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "iskender-imparatorlugu",
+    "f": "-0331-01-01",
+    "t": "-0322-06-10",
+    "kaynak": "künye iskender-imparatorlugu (Aleksandros Mısır'ı MÖ 332/331; Naukratis'in Aleksandros'a bağlılığı okunmadı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "ptolemai",
+    "f": "-0322-06-10",
+    "t": "-0029-08-01",
+    "kaynak": "künye ptolemai · parti sahip_kaynagi: Polybios 28.20 (Ptolemaios Mısır'ı, Yunan ticaret şehri; MÖ 169 → -0168; okunmadı) · f/t künye sınırı"
+   },
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0029-08-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · Ptolemai sonu = Roma'nın Mısır'ı alması (künye ptolemai t -0029-08-01; MÖ 30 Ağustos) · Naukratis özelinde tanık okunmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   }
+  ]
+ },
+ "Mareia": {
+  "lat": 30.99482,
+  "lon": 29.65639,
+  "kur": null,
+  "bit": null,
+  "not": "KISMİ ZİNCİR (UMIT denetimi): zincir 2000-12-31'e kadar sürmüyor: son t 0395-01-17 — taslak 'taslak_zincir'de, KASA'ya verilmez. · İlk tanık Thukydides 1.104 (MÖ 460, Mareia İnaros'un üssü); kur YAZILMADI. İsyan dönemi (-0459→~-0453) için BOŞLUK yerine parti satırı izlendi (Hakhamaniş) ama BEYANLI YAKLAŞIKLIK. Birçok dönem Mısır geneli künye (Mareia'ya özel tanık yok): yanlış olma riski yüksek — KASA ya BOŞLUK/ayrı tanık araştırmalı. Brif 'Mareia bit' bekliyor (Strabon: Mareotis'te Mareia terk edilmiş köy) — yıl kaynakta okunmadı, bit YAZILMADI; SÜREKLİLİK TEYİTSİZ (395 sonrası kurulamadı; komşu İskenderiye 33,8 km ABİ MERKEZ aktarılmadı: 25 satırlık zincirinin antik/geçiş kısmı okunmadı). MÖ yılı: tarihsel MÖ N yılı -(N-1) yazıldı (MÖ 612 → -0611; künye sınırlarıyla aynı kural, KASA-YER satırının yazımı izlendi).",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "ahamenis-misir",
+    "f": "-0459-01-01",
+    "t": "-0403-01-01",
+    "kaynak": "künye ahamenis-misir · parti sahip_kaynagi: Thukydides 1.104 — İnaros (Libya kralı) ayaklanmasını «Pharos'un yukarısındaki şehir Mareia»dan başlattı (MÖ 460 → -0459, YIL beyanı; metin bu oturumda okunmadı) · BEYANLI YAKLAŞIKLIK: isyan (MÖ 460–454) boyunca fiilî sahip İnaros (künyesiz); Hakhamaniş künyesi isyan öncesi/sonrası sahipliği gösterir"
+   },
+   {
+    "alan": "s",
+    "d": "misir-28-30-hanedan",
+    "f": "-0403-01-01",
+    "t": "-0342-01-01",
+    "kaynak": "künye misir-28-30-hanedan · Mısır geneli; Mareia özelinde tanık okunmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "ahamenis-misir-2",
+    "f": "-0342-01-01",
+    "t": "-0331-01-01",
+    "kaynak": "künye ahamenis-misir-2 · Mısır geneli · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "iskender-imparatorlugu",
+    "f": "-0331-01-01",
+    "t": "-0322-06-10",
+    "kaynak": "künye iskender-imparatorlugu · Mısır geneli · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "ptolemai",
+    "f": "-0322-06-10",
+    "t": "-0029-08-01",
+    "kaynak": "künye ptolemai · Mısır geneli (Mareia Libya sınır kalesi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "roma-cumhuriyeti",
+    "f": "-0029-08-01",
+    "t": "-0026-01-16",
+    "kaynak": "künye roma-cumhuriyeti · Ptolemai sonu (MÖ 30) · Mareia özelinde okunmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "roma-imp",
+    "f": "-0026-01-16",
+    "t": "0395-01-17",
+    "kaynak": "künye roma-imp: Roma Cumhuriyeti → İmparatorluk künye sınırı -0026-01-16 (gün komşudan: Napoli roma-imp -0026-01-16, ZİNCİR-GÜNEY-ANTİK) · t 0395-01-17: roma-imp künye sınırı (Doğu/Batı bölünmesi; gün komşudan: Napoli roma-imp t 0395-01-17)"
+   }
+  ]
  }
 }
