@@ -251,5 +251,27 @@
   "islem": "devletler.js norvec-1814 f → 1814-02-19 (Christian Frederik'in 19 Şubat bildirileriyle naip olarak iktidarı alması). ic_not_f: '1814-01-14 Kiel antlaşması (Danimarka Norveç'i İsveç'e bıraktı); 1814-02-16 Eidsvoll ileri gelenler toplantısı; 1814-05-17 anayasa ve kral seçimi'. Norveç yerleşimleri: 1814-01-14 → 02-18 s: danimarka (Christian Frederik Danimarka valisi), 02-19'dan norvec-1814. DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1814-02 Norveç maddesi YOK (yalnız 01-14 Kiel, olaylar_ek16.js:150) → kronoloji_sinir'e madde önerisi: 1814-02-19 'Christian Frederik naip olarak Norveç'te iktidarı aldı (Kiel'i tanımama)', taraflar [norvec-1814, danimarka]; Kiel 01-14 maddesi Danimarka→İsveç devri için kalır.",
   "dayanak": "Store norske leksikon 'Christian Frederik': «Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt»; SNL 'stormannsmøtet': «holdt på Eidsvoll 16. februar 1814»",
   "onay": "EMRELİC 5 Kasım (GENİŞLET; gün snl.no'dan — H4B)"
+ },
+ {
+  "d": "karolenj-italya",
+  "tur": "KUNYE_DARALT",
+  "karar": "KUNYE_DARALT",
+  "guc": "ORTA",
+  "kunye": "karolenj-italya t 0962-02-02 → 0962-02-01",
+  "gun": "0962-02-01",
+  "islem": "LAB ölçümü origin/main: karolenj-italya t 0962-02-02 = almanya ('Kutsal Roma 962-1806') f 0962-02-02 → BİR GÜN ÇAKIŞMA. t → 0962-02-01 (HRE f'sinden bir gün önce, EMRELİC). ic_not_t: 'Treccani DBI Berengario II: «Nel febbraio del 962» [yalnız ay]; 951-09-23 Otto Pavia'da (10/15 Ekim unvan), 952-08-07 Augsburg vasallık yemini, 961-08 ikinci sefer; Berengar'ın 961-964 direnişi (San Leo, 964 sonu düştü)'. San Leo/Montefeltro yerleşimi varsa 962-02-02 → 964 sonu kısa dilim (karolenj-italya ya da isg) — kaynakla, yerleşim ölçülmedi.",
+  "dayanak": "Treccani DBI 'Berengario II' (Delogu) — H4B",
+  "onay": "EMRELİC 5 Kasım gece-27"
+ },
+ {
+  "d": "burgonya",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "TEYIT + DONEM_KISALT",
+  "guc": "GÜÇLÜ (t) / ORTA (Dijon)",
+  "kunye": "burgonya t 1482-03-27 KALIR (künye 'Burgonya Dükalığı (Valois)', ozet Flandre/Hollanda dahil → Valois Burgonya devleti kapsamı)",
+  "gun": "1482-03-27",
+  "islem": "t 1482-03-27 ÇİFT TEYİT: NDB 16 (1990) 'Maria' «† 27.3.1482 Brügge» + ADB 20 (1884) «starb schon am 27. März 1482 … in Brügge»; Treccani Enc. Italiana (Ganshof 1934) «morta a Bruges il 28 marzo 1482» → ÇELİŞKİ ic_not'a (iki kaynak vs bir). Düklük (Dijon ve çevresi) yerleşimleri: Cesur Charles'ın ölümü 1477-01-05'ten sonra Fransız fiilî ilhakı — NDB «Frankreich … besetzte sofort das Herzogtum», ADB «widerstandslos an sich gerissen» (gün yok); Dijon teslim günü açılmış kaynakta YOK (29 Ocak yalnız arama özeti) → kırılma 1477-01-05 ALT SINIR + beyan 'fiilî ilhak Ocak 1477, gün teyitsiz' (1477-01-01 yazılamaz: tetikleyen olaydan önce düşer). ic_not: Arras 1482-12-23 (Treccani 'Borgogna' «3 dicembre 1482» — dizgi hatası olabilir, iki gün beyan). Değişmez 2: 1477-01-05 Nancy maddesi ölçülmeli.",
+  "dayanak": "deutsche-biographie.de/sfz58282.html (NDB+ADB 'Maria'); treccani.it 'Maria duchessa di Borgogna' (Enc. Italiana); Treccani 'Borgogna' (H4B)",
+  "onay": "EMRELİC 5 Kasım gece-27 (Dijon günü yoksa ay beyanı — LAB: alt sınır 01-05)"
  }
 ]
