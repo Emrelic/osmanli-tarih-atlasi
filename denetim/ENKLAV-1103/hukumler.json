@@ -156,7 +156,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Bagration sonrası Sovyetler 27.07.1944'te Şiauliai'ye ulaşıp Litvanya cebini Letonya'dan kesti; Kaunas 01.08.1944. 5 günlük cephe anı. [KAYNAK-UMIT: giris_gerek — Bagration sonrası Şiauliai 27.07.1944, Kaunas 01.08.1944: Glantz & House, When Titans Clashed gibi akademik kaynak okunmalı.]",
+"gerekce": "Bagration sonrası Sovyetler 27.07.1944'te Şiauliai'ye ulaşıp Litvanya cebini Letonya'dan kesti; Kaunas 01.08.1944. 5 günlük cephe anı. [KAYNAK-UMIT: giris_gerek — Bagration sonrası Şiauliai 27.07.1944, Kaunas 01.08.1944: Glantz & House, When Titans Clashed gibi akademik kaynak okunmalı.] [KAYNAK-UMIT: bulunamadi — Siauliai 27.07.1944 ve Kaunas 01.08.1944 icin acik akademik metin bulunamadi (vle.lt cekildi, '1944' yok). Giris: Glantz & House, When Titans Clashed ya da Lietuvos istorija.]",
 "duzeltme": "yok",
 "kaynak": "bulunamadı"
 },
@@ -396,7 +396,7 @@
 "hukum": "BIRLESMELI",
 "kova": "BIRLESMELI",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Ölçüldü: Arkot 1714-1801 karnatik; Vellor 1760'tan, Cinci 1761-04-05'ten ingiliz-hindistani. Karnatik nevvabı 31.07.1801 antlaşmasına dek egemendi; Vellor nevvabın kalesiydi. Kançipuram 1763 cagirinde (İngiliz) — doğru olabilir.",
+"gerekce": "Ölçüldü: Arkot 1714-1801 karnatik; Vellor 1760'tan, Cinci 1761-04-05'ten ingiliz-hindistani. Karnatik nevvabı 31.07.1801 antlaşmasına dek egemendi; Vellor nevvabın kalesiydi. Kançipuram 1763 cagirinde (İngiliz) — doğru olabilir. [KAYNAK-UMIT: giris_gerek — Vellore 1760, Gingee 1761-04-05 ve Karnatik antlasmasi 31.07.1801 icin acik kopyada madde cikarilamadi. Okunmali: IGI 'Arcot, North' (cilt 5/6) ve 'Vellore' (cilt 24); Karnatik nevvabi antlasmasi 1801 icin Cambridge History of India vol.5.]",
 "duzeltme": "Vellor (1760 → 1801-07-31) ve Cinci (1761 → 1801-07-31) karnatik (İngiliz garnizonu beyanla). Kaynak: Imperial Gazetteer 'North Arcot', 'South Arcot'.",
 "kaynak": "veri ölçümü; tarih kaynak gerek"
 },
@@ -523,10 +523,10 @@
 "E021": {
 "hukum": "YAPAY",
 "kova": "YAPAY-b",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Ölçüldü: Irgen (Zabaykalye, Çita yakını) 1654-1917 rusya, 1917-11-07 → 1991 kesintisiz sovyet-rusya; Uzak Doğu Cumhuriyeti dönemi yok. Çita (UDC) tek nokta; UDC Zabaykalye'yi ve Amur/Primorye'yi kapsayan bitişik bir tampon devletti, 16 bin km² 'enklav' çevre noktaların UDC'ye yazılmamasından. [KAYNAK-UMIT: giris_gerek — Uzak Doğu Cumhuriyeti 06.04.1920 kuruluş, 10-14.11.1920 Çita başkent, 14.11.1922 katılma: Carr, The Bolshevik Revolution; Smele akademik kaynak okunmalı.]",
+"guven": "KAYNAKLI",
+"gerekce": "Ölçüldü: Irgen (Zabaykalye, Çita yakını) 1654-1917 rusya, 1917-11-07 → 1991 kesintisiz sovyet-rusya; Uzak Doğu Cumhuriyeti dönemi yok. Çita (UDC) tek nokta; UDC Zabaykalye'yi ve Amur/Primorye'yi kapsayan bitişik bir tampon devletti, 16 bin km² 'enklav' çevre noktaların UDC'ye yazılmamasından. [KAYNAK-UMIT: giris_gerek — Uzak Doğu Cumhuriyeti 06.04.1920 kuruluş, 10-14.11.1920 Çita başkent, 14.11.1922 katılma: Carr, The Bolshevik Revolution; Smele akademik kaynak okunmalı.] [KAYNAK-UMIT (kismen): Dogu Uzak Cumhuriyeti 6 Nisan 1920'de Verkhne-Udinsk'te 'kurucu meclis' tarafindan ilan edildi; Sovyet hukumeti Mayis 1920'de tanidi; Cita cumhuriyetin merkezi oldu ve Kasim 1920 basinda Dogu Uzak delegeler kongresi Verkhne-Udinsk bildirisini yeniledi; Aralik'ta Sovyet hukumetiyle resmi anlasma. 14.11.1922 katilma bu ciltte okunmadi (Cilt 3?). — \"proclaimed an independent democratic Far Eastern Republic\" · UDC kurulusu 1920-04-06 TEYITLI (gerekcedeki gun). Cita baskent gecisi Kasim 1920 basi. Hukum (YAPAY: Zabaykalye noktalarina UDC donemi eklenmeli) dogru yonde. Katilma 14.11.1922 kaynakla gelecek (Carr cilt 3 / Smele).]",
 "duzeltme": "Irgen ve Zabaykalye/Amur noktalarına 1920-1922 UDC dönemi (gün bulunamadı; kuruluş ve Çita başkent geçişi kaynakla sınansın).",
-"kaynak": "bulunamadı (TDV kapsamıyor; akademik UDC kaynağı gerek)"
+"kaynak": "E.H. Carr, The Bolshevik Revolution 1917-1923 vol.1, Pt II 'Dispersal and Reunion', s.~355-358 (archive.org edward-h.-carr-the-bolshevik-revolution-1917-1923-vol.-1) · önceki: bulunamadı (TDV kapsamıyor; akademik UDC kaynağı gerek)"
 },
 "E022": {
 "hukum": "GERCEK",
@@ -540,7 +540,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Sevilla 1936-07-18 → 1939-04-01 ispanya-milliyetci; Seville darbe günü Queipo de Llano'nun elinde, Cumhuriyet toprağıyla çevrili, Afrika Ordusu bağlantısı Ağustos ortasında kuruldu. Atlas tutarlı; alan şişkin (Cádiz/Córdoba/Granada milliyetçi tutuldu, bu noktalar ayrıca sınanmalı). Ilipa (Alcalá del Río) kayıtta bit 1281: dönemsiz (ölçüldü). [KAYNAK-UMIT: giris_gerek — Sevilla 18.07.1936 Queipo de Llano: Preston, The Spanish Civil War; Thomas okunmalı.]",
+"gerekce": "Sevilla 1936-07-18 → 1939-04-01 ispanya-milliyetci; Seville darbe günü Queipo de Llano'nun elinde, Cumhuriyet toprağıyla çevrili, Afrika Ordusu bağlantısı Ağustos ortasında kuruldu. Atlas tutarlı; alan şişkin (Cádiz/Córdoba/Granada milliyetçi tutuldu, bu noktalar ayrıca sınanmalı). Ilipa (Alcalá del Río) kayıtta bit 1281: dönemsiz (ölçüldü). [KAYNAK-UMIT: giris_gerek — Sevilla 18.07.1936 Queipo de Llano: Preston, The Spanish Civil War; Thomas okunmalı.] [KAYNAK-UMIT: giris_gerek — Sevilla 18.07.1936 Queipo de Llano ve Afrika Ordusu baglantisi icin acik metin okunamadi. Okunmali: Thomas ya da Preston, Spanish Civil War.]",
 "duzeltme": "Cádiz, Córdoba, Granada, Huelva milliyetçi dönemleri 1936-07 sonrası sınansın; Ilipa'ya dönem ya da kaldırma.",
 "kaynak": "bulunamadı (TDV kapsamaz; akademik İç Savaş kaynağı gerek)"
 },
@@ -803,18 +803,18 @@
 "E065": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Dholka babur-imparatorlugu 1741 → 1757-01-01; Ahmedâbâd 1756'da maratha, Kanbâyet maratha. Gucerat'ta Ahmedabad ve çevre Marathalara 1750'lerin başında geçti (1753-1758 aralığı teyitsiz); Lothal MÖ 2449-1999 (dönemsiz). Dholka'nın Babür kalması komşudan geç.",
+"guven": "KAYNAKLI",
+"gerekce": "Dholka babur-imparatorlugu 1741 → 1757-01-01; Ahmedâbâd 1756'da maratha, Kanbâyet maratha. Gucerat'ta Ahmedabad ve çevre Marathalara 1750'lerin başında geçti (1753-1758 aralığı teyitsiz); Lothal MÖ 2449-1999 (dönemsiz). Dholka'nın Babür kalması komşudan geç. [KAYNAK-UMIT (celiski): Dholka Marathalar'ca 1736'da alindi, 1757'de Gaikwar'in eline gecti, 1804'te Ingilizlere devredildi. Ahmadabad: 1738'de Damaji Gaikwar ve Momin Khan'in eline dustu; Marathalar 1753'te aldi, Momin Khan II 1755-56'da geri aldi, Marathalar 1757'de kesin olarak aldi. — \"It was taken by the Marathas in 1736, came into the Gaikwar’s hands in 1757\" · Dholka 1741 -> 1757-01-01 'babur-imparatorlugu' yazimi IGI ile celisiyor (IGI 1736'da Maratha, 1757'de Gaikwar). Ahmedabad Maratha tutusu 1757 (1753 gecici, 1755-56 Momin Khan II geri aldi). Dholka icin 'maratha f' 1736-1757 arasi; Gaikwar 1757; Ahmedabad f=1757. Kesin gun yok.]",
 "duzeltme": "Dholka Maratha f ve Ahmedabad f hizalansın (Imperial Gazetteer 'Gujarat' bakılmalı); gün bulunamadı.",
-"kaynak": "bulunamadı (Imperial Gazetteer çekilmedi)"
+"kaynak": "Imperial Gazetteer of India vol.XI (1908) 'Dholka Town' (archive.org dli.ernet.15195); vol.V (1908) 'Ahmadabad City' (archive.org in.ernet.dli.2015.61232) · önceki: bulunamadı (Imperial Gazetteer çekilmedi)"
 },
 "E066": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Malikiye (Derik) fransa-cumhuriyet f=1918-10-30 (Mudros günü); Cizre, Cibri OSMANLI, Silopi, Zaho, Cumai ingiltere. Fransız fiilî işgalinin Malikiye'ye 1918'de ulaşması teyitsiz; Subat-Enlil dönemsiz (ölçüldü).",
+"guven": "KAYNAKLI",
+"gerekce": "Malikiye (Derik) fransa-cumhuriyet f=1918-10-30 (Mudros günü); Cizre, Cibri OSMANLI, Silopi, Zaho, Cumai ingiltere. Fransız fiilî işgalinin Malikiye'ye 1918'de ulaşması teyitsiz; Subat-Enlil dönemsiz (ölçüldü). [KAYNAK-UMIT (kismen): Mardin yabanci isgaline ugramadi; Ingilizlerin Musul'u isgali sirasinda bazi karisikliklar oldu; 9 Ocak 1920'de birkac Fransiz subayi sehre geldi fakat destek bulamayip geri dondu. — \"9 Ocak 1920’de birkaç Fransız subayı şehre geldi\" · Mudros gunu (1918-10-30) Malikiye/Derik'in Fransiz isgali TDV Mardin'de yok; aksine Mardin yabanci isgali gormedi, Fransiz varligi Ocak 1920'de birkac subay. YAPAY hukmu (1918 yazimi sorunlu) desteklenir; Malikiye (Derik) icin dogrudan madde yok. Duzeltme: Malikiye fransa f ~1920 (kaynakla, Fransiz-Antep/Cizre hattı).]",
 "duzeltme": "Malikiye f kaynakla (Fransız işgal tarihi); gün bulunamadı.",
-"kaynak": "bulunamadı"
+"kaynak": "TDV Islam Ansiklopedisi 'Mardin' (islamansiklopedisi.org.tr/mardin)"
 },
 "E067": {
 "hukum": "YAPAY",
@@ -908,7 +908,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Vitez herzeg-bosna: Lašva vadisi HVO enklavı 1993-94'te bosna-hersek içinde gerçek enklavdı. Ölçüldü: Mostar bosna-hersek (HB dönemi yok), Čapljina ve Posušje herzeg-bosna; 1991-11-18 → 1992 çevre yugoslavya-federal. Ana HB gövdesi (Mostar, Livno, Tomislavgrad) eksik; erken dönem enklavı yapay.",
+"gerekce": "Vitez herzeg-bosna: Lašva vadisi HVO enklavı 1993-94'te bosna-hersek içinde gerçek enklavdı. Ölçüldü: Mostar bosna-hersek (HB dönemi yok), Čapljina ve Posušje herzeg-bosna; 1991-11-18 → 1992 çevre yugoslavya-federal. Ana HB gövdesi (Mostar, Livno, Tomislavgrad) eksik; erken dönem enklavı yapay. [KAYNAK-UMIT: bulunamadi — Herzeg-Bosna 18.11.1991 ilani ve Vitez/Lasva vadisi HVO enklavi (1993-94) icin acik akademik kaynak okunamadi. Okunmali: ICTY Blaskic/Kordic yargilari, Burg & Shoup, The War in Bosnia-Herzegovina.]",
 "duzeltme": "Mostar ve Hersek noktalarına HB dönemi; Vitez enklavı 1993-94'e özgülensin (gün bulunamadı).",
 "kaynak": "bulunamadı"
 },
@@ -940,7 +940,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Aroçukvu nijerya 1960-10-01 → 2000 kesintisiz; çevre biafra (Owerri, Umuahia, Aba) 1967-05-30 → 1970-01-15. Aroçukvu Biafra bölgesindeydi; Nijerya elindeki dönem Biafra'nın düştüğü kadar uzun değil (Nijerya ele geçirişi teyitsiz).",
+"gerekce": "Aroçukvu nijerya 1960-10-01 → 2000 kesintisiz; çevre biafra (Owerri, Umuahia, Aba) 1967-05-30 → 1970-01-15. Aroçukvu Biafra bölgesindeydi; Nijerya elindeki dönem Biafra'nın düştüğü kadar uzun değil (Nijerya ele geçirişi teyitsiz). [KAYNAK-UMIT: bulunamadi — Arochukwu'nun Nijerya eline gecis tarihi (1968-1969) cilt VIII'de yok; De St. Jorre, The Nigerian Civil War vb. okunmali. Biafra 30 Mayis 1967 - 15 Ocak 1970 genel cerceve dogrulaniyor.]",
 "duzeltme": "Aroçukvu'ya biafra dönemi 1967-05-30 → Nijerya ele geçirişi (gün bulunamadı).",
 "kaynak": "bulunamadı (UNESCO GHA / akademik İç Savaş kaynağı gerek)"
 },
@@ -948,7 +948,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Vitsi ve Grammos DSE üsleri (Vitsi 1947-12-24 → 1949-08-28): Grammos-Vitsi sığınağı Yunan Ulusal Ordusu çevrili dağ üssü; koridor Görice (Arnavutluk) sınır hattı. Gerçek eksklav; Pirsos Harekâtı Ağustos 1949'da sonlandırdı (gün teyitsiz).",
+"gerekce": "Vitsi ve Grammos DSE üsleri (Vitsi 1947-12-24 → 1949-08-28): Grammos-Vitsi sığınağı Yunan Ulusal Ordusu çevrili dağ üssü; koridor Görice (Arnavutluk) sınır hattı. Gerçek eksklav; Pirsos Harekâtı Ağustos 1949'da sonlandırdı (gün teyitsiz). [KAYNAK-UMIT: giris_gerek — Okunmali: Close, The Origins of the Greek Civil War; Clogg, A Concise History of Greece. DSE Grammos-Vitsi 1949 Pirsos (Agustos) bitis gunu kaynakli degil.]",
 "duzeltme": "Vitsi/Grammos t günleri kaynakla.",
 "kaynak": "bulunamadı"
 },
@@ -971,10 +971,10 @@
 "E097": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Kite (Kete) OSMANLI d 1303-01-01 → 1402; Kestel, Dimbos aynı 1303-01-01; çevre Bursa, Adranos, Mudanya bizans. Erken Osmanlı ileri karakolu olabilir ama 1303-01-01 yıl-hassasiyetli ve TDV Bursa Kite/Kestel'i yalnız ilçe listesinde anıyor (Osman'ın Bursa kuşatması 1308 sonrası).",
+"guven": "KAYNAKLI",
+"gerekce": "Kite (Kete) OSMANLI d 1303-01-01 → 1402; Kestel, Dimbos aynı 1303-01-01; çevre Bursa, Adranos, Mudanya bizans. Erken Osmanlı ileri karakolu olabilir ama 1303-01-01 yıl-hassasiyetli ve TDV Bursa Kite/Kestel'i yalnız ilçe listesinde anıyor (Osman'ın Bursa kuşatması 1308 sonrası). [KAYNAK-UMIT (tam): Bapheus (Koyunhisar) savasindan sonra Bursa ovasindaki Adranos, Bidnos, Kestel ve Kite tekfurlari Osman'a karsi birlesti (Asikpasazade: 702 = 1303; 702 yili 26 Agustos 1302'de basliyor, baharı 1303'ün ilk yedi ayına denk); Dimbos savasinda Kestel tekfuru oldu, Bursa ve Adranos tekfurlari hisarlarina kactı; Kite tekfuru idam edilince Kite (Urunlu) Kalesi teslim oldu (1303). Bursa 23 yil kusatma altinda kaldi. — \"Kite (Ürünlü) Kalesi önünde onu idam edince kale teslim oldu (1303).\" · Kite/Kestel Osmanli 1303 YIL TEYITLI (gun yok; yaz 1303, 'baharın ilk yedi ayi'). 1303-01-01 yil-hassasiyetli; kaynak 1303 (Asikpasazade 702 = 26.8.1302 baslangici). GERCEK hukmu dogru: Bursa 1326'ya dek Bizans, Kite/Kestel Osmanli ileri karakolu. Dimbos (Dimbos Savasi) de 1303.]",
 "duzeltme": "Kite, Kestel, Dimbos Osmanlı f'sinin kaynağı (gün bulunamadı).",
-"kaynak": "TDV bursa okundu: Kite/Kestel erken dönemi yok; bulunamadı"
+"kaynak": "TDV Islam Ansiklopedisi 'Osman I' (islamansiklopedisi.org.tr/osman-i) · önceki: TDV bursa okundu: Kite/Kestel erken dönemi yok; bulunamadı"
 },
 "E098": {
 "hukum": "GERCEK",

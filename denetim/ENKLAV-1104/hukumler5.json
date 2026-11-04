@@ -147,10 +147,10 @@
 "K419": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Harput-Palu 1351-1353 'ilhanli': ILHANLI.md HARPUT-DİYARBEKİR-CEZİRE grubu (KAYNAK-GEREK); kukla İlhanlar Doğu Anadolu'da Hacı Togay/Çobânî çekişmesiyle örtüşmüyor. [KAYNAK-UMIT: bulunamadi — 1351-1353 Harput-Palu 'ilhanli' dönemi için kaynakta yıl yok: 1351-53 İlhanlı sonrasıdır (Ebû Saîd 1335'te öldü), kukla İlhan dönemidir. YAPAY hükmü TDV'nin dolaylı genel çerçevesiyle çelişmez ama doğrulanmadı. Palu'nun TDV maddesi bulunamadı.]",
+"guven": "KAYNAKLI",
+"gerekce": "Harput-Palu 1351-1353 'ilhanli': ILHANLI.md HARPUT-DİYARBEKİR-CEZİRE grubu (KAYNAK-GEREK); kukla İlhanlar Doğu Anadolu'da Hacı Togay/Çobânî çekişmesiyle örtüşmüyor. [KAYNAK-UMIT: bulunamadi — 1351-1353 Harput-Palu 'ilhanli' dönemi için kaynakta yıl yok: 1351-53 İlhanlı sonrasıdır (Ebû Saîd 1335'te öldü), kukla İlhan dönemidir. YAPAY hükmü TDV'nin dolaylı genel çerçevesiyle çelişmez ama doğrulanmadı. Palu'nun TDV maddesi bulunamadı.] [KAYNAK-UMIT (kismen): Harput 1234'e dek Artuklu'da kaldi; 1234'te Anadolu Selcuklulari, Kosedag'dan bir sure sonra Ilhanlilar zapteti; XIV. yuzyildan sonra Dulkadirli, Kadi Burhaneddin, Karakoyunlu ve Akkoyunlu arasinda el degistirdi; 1465'te Uzun Hasan kesin olarak Akkoyunlular'a kattı. — \"Kösedağ Savaşı’ndan bir süre sonra da İlhanlılar tarafından zaptedildi.\" · Ilhanli zaptı teyitli ama yilsiz; 1351-1353 icin 'ilhanli' yazimi TDV'de yok: Ilhanli devleti Ebu Said (1335) sonrasi dagildi, Harput'un o yillardaki sahibi TDV Harput'ta belirtilmiyor. YAPAY hukmu mantikli ama kaynakla kesinlesmedi. Palu icin TDV maddesi yok (Palu yalniz Cubukoglu/Belek baglaminda geciyor).]",
 "duzeltme": "ILHANLI.md ile.",
-"kaynak": "veri ölçümü; ILHANLI.md"
+"kaynak": "TDV Islam Ansiklopedisi 'Harput' (islamansiklopedisi.org.tr/harput) · önceki: veri ölçümü; ILHANLI.md"
 },
 "K420": {
 "hukum": "GERCEK",
@@ -212,7 +212,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-k",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Tours 1203 → 1204 'anjou-kontlugu', çevre Fransa. Anjou-Touraine Plantagenet (İngiliz tacı) mülküydü; II. Philippe 1203-1205'te aldı. 'anjou-kontlugu' ile 'ingiltere' iki kimlik. [KAYNAK-UMIT: bulunamadi — Touraine/Tours için yıl veya gün bulunamadı; Treccani Touraine'i anmıyor. 1203-1204 Tours geçişi teyit edilemedi. İkinci aday kaynak (Dictionnaire, HLS değil) aranmalı.]",
+"gerekce": "Tours 1203 → 1204 'anjou-kontlugu', çevre Fransa. Anjou-Touraine Plantagenet (İngiliz tacı) mülküydü; II. Philippe 1203-1205'te aldı. 'anjou-kontlugu' ile 'ingiltere' iki kimlik. [KAYNAK-UMIT: bulunamadi — Touraine/Tours için yıl veya gün bulunamadı; Treccani Touraine'i anmıyor. 1203-1204 Tours geçişi teyit edilemedi. İkinci aday kaynak (Dictionnaire, HLS değil) aranmalı.] [KAYNAK-UMIT: bulunamadi — Tours'un 1203-1204 gecisi okunamadi. Okunmali: Powicke 'Loss of Normandy' ya da Baldwin 'Philip Augustus' (Anjou-Touraine 1204-05 fethi).]",
 "duzeltme": "Tours 1203-1204 kimliği ingiltere/plantagenet tek ölçüt.",
 "kaynak": "veri ölçümü"
 },
@@ -235,10 +235,10 @@
 "K430": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "DENİZ AŞIRI: Tolanaro (Fort-Dauphin) 1792 → 1897 'fransa-cumhuriyet'. Fransız Fort-Dauphin kolonisi 1643-1674 arasıydı, sonra terk edildi; 1792 başlangıcı kimlik devri artefaktı, 19. yüzyıl Fransız varlığı 1895 sonrası. [KAYNAK-UMIT: bulunamadi — Fort-Dauphin 1643-1674 Fransız kolonisi bilgisi bu kaynakta yok (bulunamadı). Madagaskar'ın Fransız kolonisi oluşu 1896'dır: atlasın 1897 bitişi Fransız'ın tüm adayı aldığı döneme denk, yazım Tolanaro 1792-1897 için ancak 1885-96 sonrası teyitli, 1792'den önce ve 1792-1885 arasındaki Fransız yazımı desteksiz.]",
+"guven": "KAYNAKLI",
+"gerekce": "DENİZ AŞIRI: Tolanaro (Fort-Dauphin) 1792 → 1897 'fransa-cumhuriyet'. Fransız Fort-Dauphin kolonisi 1643-1674 arasıydı, sonra terk edildi; 1792 başlangıcı kimlik devri artefaktı, 19. yüzyıl Fransız varlığı 1895 sonrası. [KAYNAK-UMIT: bulunamadi — Fort-Dauphin 1643-1674 Fransız kolonisi bilgisi bu kaynakta yok (bulunamadı). Madagaskar'ın Fransız kolonisi oluşu 1896'dır: atlasın 1897 bitişi Fransız'ın tüm adayı aldığı döneme denk, yazım Tolanaro 1792-1897 için ancak 1885-96 sonrası teyitli, 1792'den önce ve 1792-1885 arasındaki Fransız yazımı desteksiz.] [KAYNAK-UMIT (tam): Merina krali I. Radama'nin Jean Rene komutasindaki kuvvetleri Fort-Dauphin'e (guney-dogu) 1825'te ulasti ve dogu kiyisinin efendisi iddiasi guclendi; 1855'te Fort-Dauphin garnizonu guneydoğu halklari tarafindan kusatiliyordu (Ranavalona'nin garnizonu). Fransiz Fort-Dauphin kolonisi 1643-1674 (bu ciltte yok). — \"Fort Dauphin in the extreme south-east of the island was reached in 1825\" · Tolanaro 1792-1897 'fransa-cumhuriyet' YANLIS: 19. yuzyilda Fort-Dauphin Merina Krallığı (Radama I, 1825 -> Ranavalona garnizonu) elinde, Fransa 1896 (ilhak) / 1897 (Merina tahtinin kaldirilmasi). Duzeltme: Tolanaro ~1825-1895 merina (Imerina), ondan once Antanosy; Fransiz donemi 1643-1674 ayri.]",
 "duzeltme": "Tolanaro 1674-1895 sahibi (Antanosy) kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "UNESCO General History of Africa vol.VI (archive.org general_history_africa_vi), Madagascar bolumu · önceki: veri ölçümü"
 },
 "K431": {
 "hukum": "YAPAY",
@@ -428,7 +428,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Kolam (Quilon) 1795-01-01 → 10-20 'ingiliz-hindistani', çevre Hollanda. Quilon Travankor krallığındaydı; İngilizler Hollanda Koçin'ini 20 Ekim 1795'te aldı (bitiş uyumlu). Quilon'un 1795 başından İngiliz yazımı yanlış. [KAYNAK-UMIT: bulunamadi — Quilon'un Travancore'da, İngilizlerin Hollanda Cochin'ini Ekim 1795'te alması gerekçesi teyit edilmedi. Quilon (Kollam) maddesi için Imperial Gazetteer cilt XX (Pubna to Sirhind) ya da Travancore State Manual okunmalı.]",
+"gerekce": "Kolam (Quilon) 1795-01-01 → 10-20 'ingiliz-hindistani', çevre Hollanda. Quilon Travankor krallığındaydı; İngilizler Hollanda Koçin'ini 20 Ekim 1795'te aldı (bitiş uyumlu). Quilon'un 1795 başından İngiliz yazımı yanlış. [KAYNAK-UMIT: bulunamadi — Quilon'un Travancore'da, İngilizlerin Hollanda Cochin'ini Ekim 1795'te alması gerekçesi teyit edilmedi. Quilon (Kollam) maddesi için Imperial Gazetteer cilt XX (Pubna to Sirhind) ya da Travancore State Manual okunmalı.] [KAYNAK-UMIT: bulunamadi — Quilon 1795 sahibi kaynakta dogrulanmadi. Travancore State Manual / IGI 'Travancore State' maddesi okunmali. (Hollandali Koçin 20 Ekim 1795 tarihi de bulunamadi.)]",
 "duzeltme": "Quilon 1795 sahibi (travankur) kaynakla.",
 "kaynak": "veri ölçümü"
 },
@@ -515,10 +515,10 @@
 "K465": {
 "hukum": "YAPAY",
 "kova": "YAPAY-d",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Amiens 1477-01-01 → 01-05 'burgonya', çevre Fransa. XI. Louis Amiens'i 1471'de aldı; 4 günlük kesit yıl hassasiyetli uç ile Nancy (1477-01-05) günü arasında. [KAYNAK-UMIT: bulunamadi — Amiens'in 1471'de XI. Louis tarafından alındığı iddiası teyit edilemedi. Ayrı kaynak (Dizionario Biografico 'Luigi XI', IEG, HLS değil) okunmalı. Bu aralıkta (Ocak 1477 4 gün) kesit yıl düzeyi uç ile Nancy günü arasındaki uyumsuzluk: Karl der Kühne 5 Ocak 1477'de Nancy'de öldü (NDB'den okunmadı).]",
+"guven": "KAYNAKLI",
+"gerekce": "Amiens 1477-01-01 → 01-05 'burgonya', çevre Fransa. XI. Louis Amiens'i 1471'de aldı; 4 günlük kesit yıl hassasiyetli uç ile Nancy (1477-01-05) günü arasında. [KAYNAK-UMIT: bulunamadi — Amiens'in 1471'de XI. Louis tarafından alındığı iddiası teyit edilemedi. Ayrı kaynak (Dizionario Biografico 'Luigi XI', IEG, HLS değil) okunmalı. Bu aralıkta (Ocak 1477 4 gün) kesit yıl düzeyi uç ile Nancy günü arasındaki uyumsuzluk: Karl der Kühne 5 Ocak 1477'de Nancy'de öldü (NDB'den okunmadı).] [KAYNAK-UMIT (tam): Arras 1435'te Philippe'e 'Somme towns' (Saint-Quentin, Corbie, Doullens, Amiens, Abbeville) 400.000 ecu karsiliginda geri alinabilir olarak rehin verildi; Louis XI Ekim 1465 Conflans Antlasmasi ile Somme kentlerini Charles'a geri verdi; Charles'in kaybettigi kentler arasinda Amiens 1471'de Fransizlarca geri alindi; Eylul 1475 Soleuvre ateskesi 1477'ye dek surdu. — \"notably Amiens, retaken by the French in 1471\" · Amiens 1477-01-01 -> 01-05 'burgonya' yazimi YANLIS: Amiens 1471'den beri Fransiz. Duzeltme (Amiens burgonya t -> 1471) kaynakla dogru; gun kaynakta yok (yil). Nancy 5 Ocak 1477 bu ciltte okunmadi.]",
 "duzeltme": "Amiens burgonya t → 1471 (kaynakla).",
-"kaynak": "veri ölçümü"
+"kaynak": "The New Cambridge Medieval History vol.7 (c.1415-c.1500), B. Schnerb 'Burgundy' (archive.org the-new-cambridge-medieval-history-vol.-7) · önceki: veri ölçümü"
 },
 "K466": {
 "hukum": "GERCEK",
@@ -587,10 +587,10 @@
 "K474": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Alamut 1501-07 → 1503 Safevî, çevre Akkoyunlu. Şah İsmail Irak-ı Acem'i 1503 Hemedan (Elma Kulağı) zaferiyle aldı; Alamut'un 1501'de Safevî oluşu şüpheli. [KAYNAK-UMIT: bulunamadi — Alamut'un 1501-07 → 1503 arasında Safevî olup olmadığı yıl/gün olarak bulunamadı: TDV Safevî dönemini yılsız verir. Şah İsmail'in Irak-ı Acem'i 1503 Hemedan zaferiyle aldığı bu madde dışı (Safevîler maddesi okunmalı). Düzeltme (Alamut safevi f=1503) teyitsiz.]",
+"guven": "KAYNAKLI",
+"gerekce": "Alamut 1501-07 → 1503 Safevî, çevre Akkoyunlu. Şah İsmail Irak-ı Acem'i 1503 Hemedan (Elma Kulağı) zaferiyle aldı; Alamut'un 1501'de Safevî oluşu şüpheli. [KAYNAK-UMIT: bulunamadi — Alamut'un 1501-07 → 1503 arasında Safevî olup olmadığı yıl/gün olarak bulunamadı: TDV Safevî dönemini yılsız verir. Şah İsmail'in Irak-ı Acem'i 1503 Hemedan zaferiyle aldığı bu madde dışı (Safevîler maddesi okunmalı). Düzeltme (Alamut safevi f=1503) teyitsiz.] [KAYNAK-UMIT (kismen): Sah Ismail Tebriz'de Akkoyunlu hanedanina karşi katliamlara girişti; 909'da (1503) Irak-i Arab ve Fars hakimi Murad Bey'e karşı yuruyup Hemedan yakinindaki savasta galip geldi. Alamut Kalesi Safeviler zamaninda tamir edilip siyasi suclular icin hapishane oldu (yil verilmiyor). — \"909’da (1503) Irâk-ı Arab ve Fars hâkimi Murad Bey’e karşı yürüyen Şah İsmâil\" · 1503 Hemedan zaferi TEYITLI; Alamut'un 1501-07 -> 1503 arasi Safevi olmasi TDV'de yok (Alamut maddesi Safevi donemini yilsiz anar). Duzeltme (Alamut safevi f=1503) mantikli ama gun/yil kaynakli degil; kesin 'Alamut'un Safevi'ye gecis yili' arastirilmali.]",
 "duzeltme": "Alamut safevi f → 1503 (kaynakla).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV Islam Ansiklopedisi 'Safeviler' ve 'Alamut' (islamansiklopedisi.org.tr/safeviler, /alamut) · önceki: veri ölçümü"
 },
 "K475": {
 "hukum": "GERCEK",
@@ -652,7 +652,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Maastricht-Roermond-Eupen 1629-09-14 → 1714 İspanyol, gövdeden 0,3 km 'almanya' ile ayrı. Maastricht 1632'de Hollanda'ya geçti (Frederik Hendrik); 1632-1714 İspanyol yazımı yanlış. Ayrıca değme payı (K436). [KAYNAK-UMIT: bulunamadi — Maastricht'in 1632'de Frederik Hendrik tarafından alındığı iddiası teyit edilemedi. Ayrıca K436 değme payı bulunamadı. HLS/BNF/Dutch biyografi sözlüğü ya da NDB 'Friedrich Heinrich' gerek.]",
+"gerekce": "Maastricht-Roermond-Eupen 1629-09-14 → 1714 İspanyol, gövdeden 0,3 km 'almanya' ile ayrı. Maastricht 1632'de Hollanda'ya geçti (Frederik Hendrik); 1632-1714 İspanyol yazımı yanlış. Ayrıca değme payı (K436). [KAYNAK-UMIT: bulunamadi — Maastricht'in 1632'de Frederik Hendrik tarafından alındığı iddiası teyit edilemedi. Ayrıca K436 değme payı bulunamadı. HLS/BNF/Dutch biyografi sözlüğü ya da NDB 'Friedrich Heinrich' gerek.] [KAYNAK-UMIT: giris_gerek — Maastricht'in Frederik Hendrik tarafindan 1632'de (Agustos) alinmasi icin dogru cilt (Cambridge Modern History vol.IV) acik kopyada bulunamadi. Okunmali: Israel, The Dutch Republic 1477-1806 (1632 Maastricht kusatmasi).]",
 "duzeltme": "Maastricht ispanya t → 1632-08 (kaynakla) → hollanda.",
 "kaynak": "veri ölçümü"
 },
@@ -676,7 +676,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Hacıbey (Odessa) 1441 → 1480 Litvanya, Litvanya gövdesinden Altın Orda/Kırım bozkırıyla ayrı: Vytautas döneminde Karadeniz kıyısına uzanan Litvanya iskeleleri bilinir. Düşük güven: 1441-1480 dönemi. [KAYNAK-UMIT: bulunamadi — Hacıbey'in 1441-1480 Litvanya sahipliği teyit edilemedi. Kaynaklar yalnız sonraki dönemi (Osmanlı, 1789 Rus) verir. İkinci kaynak (Kırım Hanlığı/Kocabey tarihi, Ukrayna Ansiklopedisi 'Odesa') okunmalı.]",
+"gerekce": "Hacıbey (Odessa) 1441 → 1480 Litvanya, Litvanya gövdesinden Altın Orda/Kırım bozkırıyla ayrı: Vytautas döneminde Karadeniz kıyısına uzanan Litvanya iskeleleri bilinir. Düşük güven: 1441-1480 dönemi. [KAYNAK-UMIT: bulunamadi — Hacıbey'in 1441-1480 Litvanya sahipliği teyit edilemedi. Kaynaklar yalnız sonraki dönemi (Osmanlı, 1789 Rus) verir. İkinci kaynak (Kırım Hanlığı/Kocabey tarihi, Ukrayna Ansiklopedisi 'Odesa') okunmalı.] [KAYNAK-UMIT: bulunamadi — Hacibey 1441-1480 Litvanya yazimi kaynakla teyit edilemedi. Kirim Hanligi'nin kurulusu 1441 civari (Haci Giray) ayni donemde Litvanya'nin Karadeniz kiyisi iddiasi icin Ukrayna Ansiklopedisi / Kamyanets kaynagi gerek.]",
 "duzeltme": "Hacıbey 1441-1480 sahibi kaynakla.",
 "kaynak": "veri ölçümü"
 },
