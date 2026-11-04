@@ -687,6 +687,85 @@
    "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: Telavi emsali (EMRELİC gece-4): 'fetih sırasındaki ilerleme isg yazılmaz; s: halef rejimin fiilen yönettiği günden başlar, gün yoksa ilan günü + beyan (Gürcistan SSC 1921-02-25)'. Tiflis 25 Şubat 1921'de Kızılordu'ca alınıp Revkom ilanıyla Sovyet Gürcistanı kurulmuştur => 'isg sovyet-rusya, devir günü yok' önerisi emsale aykırı; mevcut s:sovyet-rusya 1921-02-25 (kukla rejim/halef) beyanlı kalır ya da Gürcistan SSC künyesi gerekir. Künye ölçüldü: devletler.js'te Gürcistan SSC/TSFSR künyesi YOK (yalnız gurcistan, gurcistan-demokratik-cumhuriyeti, gurcistan-cumhuriyeti f=1991-04-09, sovyet-rusya) => künye sorusu LAB'a. TDV'de gün yok (1921 Şubat), 1991 yalnız YIL: t=1991-04-09 EMRELİC ardıl kuralıyla (gurcistan-cumhuriyeti f=1991-04-09 künyesi uyumlu); ic_not: SSCB'nin sona erişi 1991-12-26. TDV 'önce İngilizler' der (isg ingiltere, gün yok) — atlasa yazılması önerilmez. · KOORDİNATÖR KARARI (EMRELİC/LAB, gece-12): transkafkasya künyesi var (devletler.js:2985, f 1917-11-07 → t 1918-05-28, şemsiye). Satır 1917-11-28 uyumlu; künyenin f'sini 1917-11-28'e (Komiserlik, N.S.) çekme düzeltmesi LAB'da. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece-10): 1917-11-28 Transkafkasya Komiserliği'nden s: transkafkasya (Kafkas emsali) — şart: karşılayan künye 1917-11-28'i kapsamalı, kapsamıyorsa künye aşımı LAB'a; Federasyon ilanı 1918-04-22 ic_not. · KURAL KARARI: TDV 'işgal edildi' diyor; TEK KURAL gereği 1921-02-25 isg sovyet-rusya olabilir, s: sahiplik hukukî devirden başlar. Ama Gürcistan SSC 25 Şubat 1921'de ilan edilmiş Sovyet kukla cumhuriyetidir (devir yerine yeni devlet); kuralın uygulanması KASA/koordinatöre. Bitiş 1991-04-09: TDV 'Gürcistan’ın 1991 yılında bağımsızlığını ilân etmesiyle' (YIL; gün TDV'de yok, gün Gürcistan bağımsızlık ilanı 9 Nisan 1991 koordinatör Sovyet ardılı kuralına uyar). ic_not beyanı: 'SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991'. TDV 'Mütareke'den sonra önce İngilizler' der (İngiliz işgali, gün yok) → atlasta yok, yazılması önerilmez (Tiflis'te İngiliz askerî varlığı Batum'da; gün/yer TDV'de yok)."
   },
   {
+   "ad": "Kirman",
+   "dosya_satir": "data/yerlesimler.js:1508",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "oneri": {
+    "d": "akkoyunlu",
+    "f": "1469-01-01",
+    "t": "1502-01-01"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kirman» md., https://islamansiklopedisi.org.tr/kirman",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (hicrî yıl): TDV Kirman yalnız '908’de (1502-1503) Şah İsmâil’in zaptıyla başlayan Safevîler dönemi' der. Hicrî 908 = 1502-07-14…1503-07-03; mîlâdî 1502-1503 ile kesişimin ilk günü 1502-07-14. Öneri t=1502-01-01 hicrî 908'in BAŞLANGICINDAN ÖNCEDİR (kaynakla bağdaşmaz, hicrî kesişim kuralını bozar). Mevcut 1503-01-01 hicrî aralığın içindedir ve çelişmez. Doğrusu: t=1502-07-14 (ya da mevcut 1503-01-01 beyanla kalır); ic_not 'hicrî 908 = 1502-07-14…1503-07-03'. Safevî komşu dönemin f'i aynı gün olmalı. Mevcut kaynak (TDV Kirman) gün düzeyi vermez: [yalnız yıl/hicrî yıl teyitli]. · 1469 başı TDV'de yok (sıra: Karakoyunlu → Akkoyunlu). Bitiş: TDV Safevî dönemini 908 (1502-1503) 'Şah İsmâil'in zaptıyla' başlatır; hicrî 908 = 1502-07-14 → 1503-07-03 ∩ mîlâdî 1502-1503 → belirsiz yıl; atlasta t=1503-01-01 hicrî aralığın içindedir (ic_not beyanı gerek: 908 H = 1502-07-14…1503-07-03). Mevcut 1503-01-01 ile çelişmez; bir sonraki (safevi) dönemin f'i de aynı gün olmalı."
+  },
+  {
+   "ad": "Girit (Resmo)",
+   "dosya_satir": "data/yerlesimler.js:715",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1646-11-13",
+   "t": "1898-12-22",
+   "oneri": {
+    "d": "OSMANLI",
+    "f": "1646-01-01 (YIL belirsiz; TDV Resmo düşüş gününü vermiyor)",
+    "t": "1897-12-18 (muhtar vilâyet) / 1898-12-22 (mevcut; fiilî)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Girit» md., https://islamansiklopedisi.org.tr/girit",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Girit» md., https://islamansiklopedisi.org.tr/girit",
+   "alinti2": "18 Aralık 1897’de dört devlet Girit’i Osmanlı hâkimiyetinde tarafsız ve muhtar vilâyet ilân etti … Prens George 22 Aralık 1898’de adada görevine başladı.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: (a) f: öneri 1646-01-01 Resmo'nun düşüşünden ÖNCEDİR ve aynı satırdaki önceki dönemle ÇAKIŞIR (s:venedik t=1646-11-13, ölçüldü: data/yerlesimler.js:715) — dönemler çakışmaz kuralı; ayrıca 'yıl belirsiz' diye YYYY-01-01 yazmak tarih uydurmaktır (kaynak yıl bile vermiyorsa yazılmaz). Mevcut 1646-11-13 korunur. (b) t: 1897-12-18 TDV'ye göre Girit'i hukuken Osmanlı hâkimiyetinde bıraktığından t'yi öne çekmek de Emre'nin de jure kuralıyla (devir antlaşma günü, Londra 1913-05-30) çelişir; atlasta 1898-12-22→1913-05-30 aralığı zaten ayrı künyede (girit-devleti, tur gecici-isgal) yazılıdır (künye ölçüldü). Mevcut t=1898-12-22 TDV 'Prens George'un 22 Aralık 1898’de görevine başlaması' ile gün KAYNAKLI. Doğrusu: satır olduğu gibi kalır; 1897-12-18 yalnız ic_not. · BİTİŞ 1898-12-22 gün KAYNAKLI (Prens George göreve başladı), ama TDV hukukî durumu ayırır: 18 Aralık 1897'de dört devlet Girit'i 'Osmanlı hâkimiyetinde tarafsız ve muhtar vilâyet' ilân etti; Prens George'un komiserliği 1898-11-19 bildirildi; 1913-05-30 Londra Antlaşması'na dek hükümranlık hukuken Osmanlı'da (TDV: 'ada üzerindeki hükümranlık hakları değiştirilmeksizin', Zaimis 1906). Bu, atlasın kuralıyla uyumlu (de jure devir antlaşma günü): 1898-12-22→1913-05-30 arası yalnız v:/isg ayrımı atlasta zaten ayrı dönem. BAŞLANGIÇ 1646-11-13: TDV Girit Hanya fethini (1645) Resmo ve Kisamo'nun 'Deli Hüseyin Paşa' tarafından alındığını söyler ama gün/yıl vermez → BULUNAMADI (gün); Resmo kalesinin düşüşü için TDV Resmo/Rethymno maddesi aranmadı (TDV'de başlık yok). 1669-09-06 Kandiye teslim antlaşması (TDV) tüm ada hukukî devri; Resmo 1646'dan beri fiilî Osmanlı olduğundan çelişmez. Resmo/Hanya/Kandiye sancakları 'imtiyazlı eyalet' (TDV)."
+  },
+  {
+   "ad": "Honolulu",
+   "dosya_satir": "data/yerlesimler_4ff22b.js:97",
+   "alan": "s",
+   "d": "hawaii-cumhuriyeti",
+   "f": "1893-01-17",
+   "t": "1898-08-12",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "hawaii-gecici-hukumet",
+      "f": "1893-01-17",
+      "t": "1894-07-04"
+     },
+     {
+      "d": "hawaii-cumhuriyeti",
+      "f": "1894-07-04",
+      "t": "1898-08-12"
+     }
+    ]
+   },
+   "kaynak": "Web arama özeti (Wikipedia: Republic of Hawaii; Provisional Government of Hawaii; Office of the Historian FRUS 1894 app2 sayfası açılamadı/okunmadı) - AKADEMİK SAYFA OKUNMADI",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KÜNYE KARARI/KURAL UYGULAMASI: devletler.js'te 'hawaii-gecici-hukumet' künyesi YOK (künye ölçüldü: hawaii-kralligi, hawaii-cumhuriyeti, hawaii-seflikleri). 'hawaii-cumhuriyeti' künyesi adı 'Hawaii Geçici Hükümeti ve Cumhuriyeti'dir ve ic_not açıkça 'Geçici Hükümet (1893-01-17→1894-07-04) ve Cumhuriyet tek künyede: egemenlik sürekli, kimlik değişimi yok' der; günleri Public Law 103-150 (Apology Resolution, 107 Stat. 1510) metninden (17 Ocak 1893, 4 Temmuz 1894), ilhak töreni 12 Ağustos 1898 history.state.gov kaynaklıdır. Dolayısıyla önerilen bölünme gereksiz (hayalet künye üretir); doğrusu dönemin TEK parça kalması, 1894-07-04 yalnız ic_not. Öneri kaynağı Vikipedi özetiydi; history.state.gov/milestones/1866-1898/hawaii bu oturumda 404 verdi, okunamadı. ÖLÇÜT: darbe/devrim, işgal değil. · BAKILMADI TURU: Dönem BÖLÜNMELİ: Geçici Hükûmet 1893-01-17→1894-07-04, Hawaii Cumhuriyeti 1894-07-04→1898-08-12. 1898-08-12 uç doğru görünüyor (Newlands kararı 1898-07-07 imzalandı, devir töreni 08-12; de jure devir esas). ÖLÇÜT: darbe/devrim, işgal değil (Amerikan çıkarması 1893-01-16 ic_not). Devlet künyesi 'hawaii-gecici-hukumet' atlasta yoksa mevcut dönem 'hawaii-cumhuriyeti' altında kalır ve bölünme yalnız ic_not olur (KASA karar verir). UYARI: kaynaklar Vikipedi yansıları; tek dayanak olamaz, Hawaii State Archives / Office of the Historian'dan teyit gerekir. · eski: hawaii-cumhuriyeti f=1893-01-17 (Provizyonal Hükûmet'in ilanı; krallığın devrilişi) — 'Hawaii Cumhuriyeti' 1894-07-04'te ilân edildi (bilgi, KAYNAK OKUNMADI). Atlas 1893-01-17→1898-08-12 tek devlet olarak yazmış: Provisional Government (1893-01-17→1894-07-04) ile Republic of Hawaii (1894-07-04→1898-08-12) ayrı devlet olabilir; doğrulanmalı: Office of the Historian / Hawaii State Archives. TEK KURAL: 1893-01-17 darbe/devrimdir (işgal değil); Amerikan deniz piyadesi çıkarması 16 Ocak 1893."
+  },
+  {
+   "ad": "Misis (Yakapınar)",
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:195",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1919-11-01",
+   "t": "1920-08-01",
+   "oneri": {
+    "alan": "isg",
+    "d": "kilikya-fransiz",
+    "f": "1919-11-01",
+    "t": "1920-08-01",
+    "s:": "OSMANLI (d:) 1919-11-01'den sonra da sürer; tbmm-turkiye 1920-04-23'ten"
+   },
+   "kaynak": "TDV «Misis» md. (mevcut kaynakta alıntılı); TEK KURAL (atlas)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Misis» md., https://islamansiklopedisi.org.tr/misis",
+   "alinti2": "1919’da Fransızlar buraya 1200-1500 kişiden oluşan Ermeni birlikleri yerleştirdiler; 27-28 Mayıs 1920’de Türk kuvvetleri Ermeni birliklerine hücum etti. Temmuz sonunda yabancı kuvvetler Adana’ya geri çekilmek zorunda kaldılar.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (TBMM ve işgal altındaki yerler, EMRELİC düzeltmesi): öneri iki parçalı. (1) d:osmanli + isg:kilikya-fransiz 1919-11-01→1920-08-01 kurala UYGUN (künye kilikya-fransiz var: f 1919-11-01 t 1921-12-23); ÖLÇÜT: geçici/askerî — Ankara 1921 sınırı geri verdi, hukukî devir yok; Misis'in Fransız elinde olduğunu TDV 1919 (YIL) ve 'Temmuz sonunda yabancı kuvvetler Adana’ya çekildi' (1920, ay düzeyi) ile verir; 1919-11-01 günü TDV Misis'te yok (gün künyeden). (2) 'tbmm-turkiye 1920-04-23'ten' HATALI: işgal altındaki yerde s:tbmm fiilen teslim alındığı günden başlar. TDV Misis'e göre Türk kuvvetleri Mayıs 1920'de saldırdı, Fransızlar Temmuz sonu çekildi → s:tbmm-turkiye 1920-08-01 (ay düzeyi: Temmuz sonu; gün teyitsiz), 1920-04-23 değil. Doğrusu: d osmanli + isg kilikya-fransiz 1919-11-01→1920-08-01; s tbmm-turkiye 1920-08-01'den. · KURAL KARARI: mevcut dönem 'Fransız Kilikya işgal bölgesi' için beyanlı BOŞLUK (s:__BOSLUK__ 1919-11-01→1920-08-01). TEK KURAL: savaş işgali isg olarak yazılır, s: hukukî devirden başlar ve işgal süresince son hukukî egemende (Osmanlı) kalır; Misis'in Fransa'ya hukukî devri yok (Ankara Antlaşması 1921-10-20 sınırı geri verdi, Kilikya'yı Türkiye'de bıraktı). Dolayısıyla boşluk yerine d:OSMANLI 1919-11-01→1920-04-23 + isg:kilikya-fransiz 1919-11-01→1920-08-01 önerilir; tbmm-turkiye f=1920-08-01 ise atlas kuralıyla (TBMM 1920-04-23) çelişir → 1920-04-23 olmalı mı: işgal sürdüğünden s: tbmm 1920-04-23. Bu oturumda yeni kaynak okunmadı (türetme); gün 1919-11-01 (Fransız devri, Misis'in Fransızlara geçiş günü) ve 1920-08-01 (TDV: 'Temmuz sonunda yabancı kuvvetler Adana'ya geri çekildi') mevcut kayıtlardır, bağımsız teyit yok. Bağımsız teyit: TDV «Adana»/«Çukurova» aranmadı (araç sınırı)."
+  },
+  {
    "ad": "Bombay",
    "dosya_satir": "data/yerlesimler_asya.js:1348",
    "alan": "s",
@@ -804,6 +883,450 @@
    "kaynak2": "TDV «Kars» md. https://islamansiklopedisi.org.tr/kars (05.11.2026'da okundu)",
    "alinti2": "3 Mart 1918’de imzalanan Brest-Litovsk Antlaşması ile Kars, Ardahan ve Batum Osmanlı Devleti’ne verildi. Ancak Ruslar geri çekilirken yerlerini Ermeniler’e bıraktıklarından Türk ordusu 23 Nisan 1918’de ileri harekâta geçerek Kars’ı Ermeniler’den aldı.",
    "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI ile çelişir (EMRELİC, 4 Kasım akşam-3): Brest-Litovsk md. IV elviye-i selâseyi DEVRETMEDİ. oneri 'transkafkasya t=1918-03-03, s: osmanli 1918-03-03->, isg: ermeni' hukukî Osmanlı devrini 03-03'e koyar; TDV cümlesi ('Brest-Litovsk ile Kars...Osmanlı’ya verildi') atlas kuralının önünde değildir. DOĞRUSU: s: rusya ->1918-03-03; s: transkafkasya (fiilî yönetim) 1918-03-03->Osmanlı girişi; isg: osmanli Osmanlı girişinden ->1918-06-04 (Kars: TDV Kars md. 23 Nisan 1918 'Kars’ı Ermeniler’den aldı', atlas 25 Nisan = K. Karabekir md.; çift-TDV çelişkisi, karar EMRELİC/KASA); s: osmanli 1918-06-04 Batum. 'isg: ermeni' künyesi de önerilmiş ama Ermeniler Transkafkasya içindeydi (künye yok). Ayrıca mevcut transkafkasya f=1917-11-07 elviye için 1918-03-03 olmalı (rusya 1917-03-15 sonrası geçici hükümet/Sovyet zinciri bu yerleşimde 1918-03-03'e uzar). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Brest-Litovsk md. IV elviye-i selâseyi DEVRETMEDİ (Rusya çekildi, gelecek halka bırakıldı). s: rusya → 1918-03-03; sonra fiilî yönetim transkafkasya (künye VAR) ; isg osmanli Osmanlı girişinden (Ardahan ?, Batum 1918-04-14, Kars 1918-04-25; günler kaynaktan) → 1918-06-04; s: OSMANLI 1918-06-04 Batum Antlaşması'ndan (halefler bıraktı). ic_not: Temmuz 1918 'plebisiti'. Mondros sonrası çekiliş ve 1918-12 sonrası zincir (Güneybatı Kafkas Cumhuriyeti, Ermenistan, İngiliz Batum'u) ayrı ölçülür. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): Safevî dilimleri (1565→~1576, 1604→) kaynakla (TDV «Kars») işlenir; 1828 ve 1855 Rus girişleri isg. · KURAL KARARI: TEK KURAL — hukukî devir Brest-Litovsk 1918-03-03 (TDV GÜN): s: osmanli bu günden; Ruslar geri çekilirken yerlerini Ermeniler'e bıraktı → Ermeni fiilî tutum (isg/Transkafkasya) 03-03→Nisan. TDV Kars 23 Nisan 1918 'ileri harekâta geçti ve Kars'ı aldı' diyor; atlas 25 Nisan (TDV Kâzım Karabekir) — iki TDV maddesi: Kars 23 Nisan, K. Karabekir 25 Nisan; üçüncü kaynak mevcut Sarı (TÜBA 2022) → çift-TDV çelişkisi: hangisi alma günü KASA/koordinatör. Karar bende değil."
+  },
+  {
+   "ad": "Napoli",
+   "dosya_satir": "data/yerlesimler.js:1195",
+   "alan": "s",
+   "d": "napoli",
+   "f": "1281-01-01",
+   "t": "1799-01-23",
+   "oneri": {
+    "f": "1282-01-01",
+    "not": "sicilya-kralligi t de 1282; Nikola/Angiò 1266'dan beri Napoli Sicilya Krallığı içinde"
+   },
+   "kaynak": "Treccani, Enciclopedia on line, «Napoli», https://www.treccani.it/enciclopedia/napoli/",
+   "kaynak2": "Treccani, Enciclopedia on line, «Napoli» (önceki turda okundu) + atlas künye napoli (data/devletler.js:852; f=1282-03-30) ve sicilya-kralligi (data/devletler.js:13538; t=1282-03-30)",
+   "alinti2": "Dal 1282, si può, dunque, parlare di un Regno di N. come entità a sé / Parte integrante del Regno di Sicilia durante l'età normanna e sveva.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (hayalet devlet + künye gün): napoli künyesi f=1282-03-30 (Sicilya Akşam Duası); öneri f=1282-01-01 künye f'sinden 88 gün ÖNCE olur. Mevcut atlas f=1281-01-01 de künye öncesidir (hayalet). Treccani yalnız YIL (1282) verir; gün künyede (Vespri 30.3.1282, sicilya-kralligi t'siyle aynı). DOĞRUSU: Napoli'de s:napoli f=1282-03-30; 1281-01-01→1282-03-30 s:sicilya-kralligi (Angiò; Treccani: Napoli 'parte integrante del Regno di Sicilia') eklenmeli → Değişmez 1 sahipsizlik de kapanır. Dönem bölme önerisi (Aragon/İspanya/Avusturya/Bourbon) bu satırın oneri'sinde değil, ayrı iş; künye 'napoli' ülke sürekliliği kimliği (ozet) — KASA ayrıca karar verir. · Treccani: «Parte integrante del Regno di Sicilia durante l’età normanna e sveva»; Carlo I d'Angiò (1266-85) ile Napoli ağırlık merkezi; Vespri Siciliani 1282 sonrası ayrı «Regno di Napoli». Atlas 1281-01-01 atlas ufku, kaynak 1282 (YIL). Ayrıca 1442/43 Aragon (Alfonso, Napoli'ye girişi 1443), 1503 İspanya (vicekral), 1707 Avusturya, 1734 Bourbon dönemleri bu atlasta tek 'napoli' devleti altında; HASSAS ayrım kaynaklı: 1503 İspanya, 1707 Avusturya, 1734 Bourbon (Carlo di Borbone) — Napoli md. yıl verir. ÖNERİ: dönem bölünmeli (napoli/aragon, ispanya, avusturya, bourbon) — künye kontrolü KASA'da; atlas 'napoli' künyesi gerekçelendirilmeli."
+  },
+  {
+   "ad": "Gence",
+   "dosya_satir": "data/yerlesimler.js:812",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1406-10-21",
+   "t": "1469-04-01",
+   "oneri": {
+    "t": "1468-01-01"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gence» md., https://islamansiklopedisi.org.tr/gence",
+   "kaynak2": "atlas olaylar_ek7.js:207 ic_not_gun (Emre kararı 13 Ekim 2026) + TDV «Karakoyunlular»/«Uzun Hasan» (kronoloji maddesinin kaynağı; bu turda yeniden okunmadı)",
+   "alinti2": "ic_not_gun: 'Emre kararı (13 Ekim 2026): haritada Karakoyunlu sonu 1469'a çekildi; Tebriz-Azerbaycan-Arrân-Nahçıvan kırılması (29 yerleşim) bu günle birlikte 1469-04-01'e alındı.'",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI İLE ÇELİŞKİ: olaylar_ek7.js:207 (1469-04-01 'Uzun Hasan'ın Karakoyunlu Devleti'ne son vermesi') Emre'nin 13 Ekim 2026 kararıyla Azerbaycan-Arrân kırılmasını (Gence dahil) 1469-04-01'e bağlar; Üsküp emsali: Emre'nin açık kuralı TDV'nin farklı gününün/yılının önündedir. TDV «Gence» 1468 (YIL) → ic_not'a beyan. 1468-01-01'e çekmek Değişmez 2'yi de bozar (1468-01-01 ±30 günde madde yok; Cihan Şah ölümü 1467-11-10 52 gün önce). ÇİFT-TDV beyanı: Gence md. 1468 / Akkoyunlular md. 1469-04. DOĞRUSU: t=1469-04-01 AYNEN KALIR. · f 1406-10-21: TDV yalnız 'XV. yüzyıl başları' der (gün yok; 1406 atlasın Aras kırılması). t: ÇİFT-TDV ÇELİŞKİ — «Gence» md. Akkoyunlu hâkimiyeti 1468-1501; «Akkoyunlular» md. (mevcut kaynak) Uzun Hasan'ın Karakoyunlu'ya son vermesi 1469-04-01. Üçüncü kaynak aranmadı/bulunamadı ⇒ kural: şehir maddesi esas (1468, yıl düzeyi, gün yok); 1469-04-01 beyanlı. Karar KASA'da."
+  },
+  {
+   "ad": "Gence",
+   "dosya_satir": "data/yerlesimler.js:812",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "oneri": {
+    "f": "1468-01-01"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gence» md., https://islamansiklopedisi.org.tr/gence",
+   "kaynak2": "atlas olaylar_ek7.js:207 ic_not_gun (Emre kararı 13 Ekim 2026)",
+   "alinti2": "Hasan Ali Eylül 1468'de yenildi, Şevval 873 / Nisan 1469'da öldürüldü; Emre kararı: Azerbaycan-Arrân kırılması 1469-04-01.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI İLE ÇELİŞKİ (bkz. önceki satır): akkoyunlu f=1469-04-01 Karakoyunlu t'siyle bitişik ve Emre kararıyla bağlı; 1468-01-01 sınırı bozar (boşluk/çakışma). Ayrıca TDV «Gence» cümlesi 'Kaçar emîrlerinin idaresindeydi' MUHTEMELEN ile kuruludur (Akkoyunlu sahipliği varsayım) → 1468 zaten zayıf. DOĞRUSU: f=1469-04-01 AYNEN KALIR; TDV 1468 ic_not'ta; Kaçar emirleri Akkoyunlu valisi sayılır, sahiplik Akkoyunlu. t=1501-07-01 değişmedi. · Başlangıç 1468 (YIL, şehir md.). DİKKAT: kaynak 'muhtemelen' der ve Kaçar emirlerinin idaresini anar; Akkoyunlu sahipliği VARSAYIM ⇒ beyanlı yaklaşıklık. Bitiş 1501 (Safevî kuruluşu) YIL KAYNAKLI; gün 07-01 atlas."
+  },
+  {
+   "ad": "Utrecht",
+   "dosya_satir": "data/yerlesimler_avrupa.js:388",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1581-07-26",
+   "t": "1795-01-19",
+   "oneri": {
+    "f": "1579-01-23 (Treccani, YIL/gün)"
+   },
+   "kaynak": "Treccani, Enciclopedia on line, «Utrecht», https://www.treccani.it/enciclopedia/utrecht/",
+   "kaynak2": "Treccani, Enciclopedia on line, «Utrecht» (yeniden okundu); data/devletler.js id:\"hollanda\" f:\"1581-07-26\"",
+   "alinti2": "Unione di U. Conclusa il 23 gennaio 1579… statuto fondamentale della Repubblica delle sette Province Unite… fino al 1795. · Nel 1672 la città fu occupata e saccheggiata dai Francesi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: (1) HAYALET DEVLET — 'hollanda' künyesi f 1581-07-26 (Terk Fermanı); dönem 1579-01-23'e çekilirse künye ömrünün dışına taşar. Utrecht Birliği (1579) bir ittifak/statü belgesidir, bağımsızlık ilanı değil (Treccani 'statuto fondamentale'; bağımsızlık 1581). Doğrusu: f 1581-07-26'da KALIR; 1579-01-23 yalnız ic_not'a yazılır; 1576-1581 aralığı için künye/beyan sorusu LAB'a. (2) 1672 Fransız işgali: Treccani YIL verir (1672), bitiş yok ⇒ isg fransa 1672-?→? atlasa ancak gün/bitiş kaynaktan bulununca yazılır (bu md.'de bulunamadı); s: hollanda sürer (TEK KURAL). ÖLÇÜT: geçici/askerî — Fransız işgali sonrası Hollanda egemenliği sürüyor; idareye katma belgesi yok. · Treccani: 23 Ocak 1579 Utrecht Birliği 7 Eyaletli Cumhuriyetin temel statüsü 'fino al 1795' (t YIL kaynaklı). Atlas 1581-07-26 farklı olay (Terk Fermanı). Hüküm: ÇELİŞKİ (kaynak başka bir olay); karar KASA/koordinatörde — 'bağımsızlık ilanı' mı 'birlik' mi. 1672 Fransız işgali: «Nel 1672 la città fu occupata e saccheggiata dai Francesi» ⇒ isg fransa 1672 (yıl; gün/bitiş yok, tahmini 1673) eklenmeli — TEK KURAL gereği s: hollanda sürer."
+  },
+  {
+   "ad": "Silistre",
+   "dosya_satir": "data/yerlesimler.js:487",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1419-01-01",
+   "t": "1878-07-13",
+   "oneri": {
+    "f": "1419 (YIL, ilkbahar; gün yok; 822 hicrî Muharrem=1419-01)",
+    "t": "1878-03-03 (Ayastefanos; gün başka kaynak)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Silistre» md. (Machiel Kiel), https://islamansiklopedisi.org.tr/silistre",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Silistre» md. (okundu: '822 (1419) ilkbaharında… tekrar almasına'; 'Ayastefanos Antlaşması sonrası yeni kurulan Bulgaristan Devleti’ne devredildi')",
+   "alinti2": "822 (1419) ilkbaharında Çelebi Sultan Mehmed’in Silistre’yi ve bütün Dobruca’yı tekrar almasına fırsat tanıdı.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI — t kısmı HATALI: oneri t 1878-03-03 (Ayastefanos) 'Ön barış ≠ devir' kuralıyla çelişir (Ayastefanos yürürlüğe girmedi; Bulgaristan Prensliği Berlin'le kuruldu); TDV 'Ayastefanos sonrası' ifadesi yalnız 1878 YIL desteğidir. Doğrusu: t 1878-07-13 KALIR (Berlin imza, TEK ÖLÇÜ); Ayastefanos 03-03 ic_not'a; Rus işgali 1877-78 teslim günü bulunamadı (isg rusya gün yok). f kısmı KAYNAKLI: HİCRÎ KURALI 822 AH ∩ 1419 = 822 Muharrem 1 (tabular ≈ 1419-01-28 Jülyen) — 'ilkbahar' ay ipucu ama ay yok, kuralın ilk günü ⇒ f 1419-01-28 [yalnız yıl teyitli, hicrî aralıkla beyanlı: 822 AH ≈ 1419-01-28 → 1420-01-16]; atlas 1419-01-01 hicrî yılbaşından önce kalıyor. Çakışma kontrolü: öncül s: eflak (Mircea 1418'e kadar) ucu 1418 ölümünden sonra gün yok ⇒ 1418-1419 arası boşluk zorla kapatılmaz. · f YIL 1419 (ilkbahar; atlas 01-01 yıl başı kabulü, ilkbahar daha doğru). t ÇELİŞKİ: şehir md.: 'Ayastefanos Antlaşması sonrası yeni kurulan Bulgaristan Devleti'ne devredildi' (1878); atlas 1878-07-13 (Berlin). TEK KURAL (hukukî devir): San Stefano 3 Mart 1878 yürürlüğe girmedi, Berlin 13 Temmuz 1878 Bulgaristan Prensliği'ni kurdu ⇒ atlas Berlin; TDV'nin Ayastefanos ifadesi = 1878 YIL desteği. KURAL KARARI: koordinatör. Not: Rus işgali 1877-78 (teslim) isg rusya eklenebilir (gün yok)."
+  },
+  {
+   "ad": "Selanik",
+   "dosya_satir": "data/yerlesimler.js:490",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1402-07-28",
+   "t": "1403-06-01",
+   "oneri": {
+    "f": "1402-07-28",
+    "t": "1403-06-17",
+    "d": "suleyman-celebi"
+   },
+   "kaynak": "TDV «Süleyman Çelebi (Emîr)» md., https://islamansiklopedisi.org.tr/suleyman-celebi-emir ; TDV selanik",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi (Emîr)» md., https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
+   "alinti2": "Bu antlaşma 9 Haziran 1403’te Batı seyahatinden dönen imparator II. Manuel tarafından da onaylandı. Bunun üzerine 17 Haziran’da Osmanlı kuvvetleri Selânik şehrinin Akropolis mevkiinden çekildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam): hukukî tasarruf esas → s:bizans 1403-06-09; 17 Haziran Akropolis tahliyesi ic_not. Öneri t=1403-06-17 buna aykırı (tahliye günü). Doğrusu t=1403-06-09 (TDV Süleyman Çelebi: antlaşma Ocak/Şubat 1403'te VIII. Ioannes ile imzalandı, 9 Haziran 1403'te II. Manuel onayladı — okundu). Mevcut 1403-06-01 TDV'de yok (düşer). Fetret ayrımı: bunlar yerleşime özgü, hükümdar tasarrufu günü. İki TDV maddesi: Selânik md. yalnız '1403' (YIL) verir, Süleyman Çelebi md. günleri verir; çelişki değil tamamlayıcı, gün için Süleyman Çelebi md. esas. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): Hukukî tasarruf esas: s: bizans 1403-06-09 (Süleyman Çelebi onayı, TDV «Süleyman Çelebi»); 06-17 Akropolis tahliyesi ic_not; kaynaksız 06-01 düşer. Gelibolu Antlaşması (1403 başı) kaynakta günlüyse o gün esas. · TDV suleyman-celebi-emir: Gelibolu antlaşması Şubat 1403'te Süleyman Çelebi ve VIII. Ioannes tarafından imzalandı, 9 Haziran 1403'te Manuel onayladı, 17 Haziran 1403'te Osmanlı Akropolis'ten çekildi (Symeon: gerçek kurtuluş günü 17 Haziran). TDV selanik ise yalnız '1403'te resmen Bizans idaresine geçti' (YIL) ve 'Ankara sonrası Manuel Selânik'i alıp kaleyi yıktırdı' (Kostenets) der. İKİ TDV MADDESİ 1402-03 arasında ayrışıyor (selanik: Ankara sonrası Bizans; suleyman-celebi-emir: Akropolis 17.6.1403'e dek Osmanlı). Üçüncü bağımsız kaynak bu oturumda aranmadı/bulunamadı; selanik şehir maddesi yalnız yıl verdiğinden gün için suleyman-celebi-emir kullanıldı; karar KASA/Emre'de. Atlasın 1403-06-01'i hiçbir TDV günüyle örtüşmüyor."
+  },
+  {
+   "ad": "Selanik",
+   "dosya_satir": "data/yerlesimler.js:490",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1403-06-01",
+   "t": "1423-09-14",
+   "oneri": {
+    "f": "1403-06-17",
+    "t": "1423-09-14",
+    "d": "bizans"
+   },
+   "kaynak": "TDV suleyman-celebi-emir (aynı URL) + TDV selanik",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi (Emîr)» md., https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
+   "alinti2": "Bu antlaşma 9 Haziran 1403’te … II. Manuel tarafından da onaylandı. Bunun üzerine 17 Haziran’da Osmanlı kuvvetleri Selânik şehrinin Akropolis mevkiinden çekildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam): s:bizans f=1403-06-09 (hukukî tasarruf); 06-17 ic_not. Öneri f=1403-06-17 tahliye gününü esas alır → HATALI. Doğrusu f=1403-06-09 (TDV Süleyman Çelebi md. okundu). t=1423-09-14 için TDV yalnız YIL (1423) verir; devlet bizans KAYNAKLI. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): Hukukî tasarruf esas: s: bizans 1403-06-09 (Süleyman Çelebi onayı, TDV «Süleyman Çelebi»); 06-17 Akropolis tahliyesi ic_not; kaynaksız 06-01 düşer. Gelibolu Antlaşması (1403 başı) kaynakta günlüyse o gün esas. · f: yukarıdaki ONERI ile birlikte. t=1423: TDV selanik/yunanistan 'Rum despotu şehri 1423'te Venedik'e sattı' — yalnız YIL; 09-14 teyitsiz. Devlet (bizans) KAYNAKLI."
+  },
+  {
+   "ad": "Basra",
+   "dosya_satir": "data/yerlesimler.js:892",
+   "alan": "s",
+   "d": "zend",
+   "f": "1776-04-16",
+   "t": "1779-04-01",
+   "oneri": {
+    "alan": "isg",
+    "d": "zend",
+    "f": "1775-01-01",
+    "t": "1779-01-01",
+    "s_notu": "s: OSMANLI d 1701→1914 kesintisiz"
+   },
+   "kaynak": "Encyclopaedia Iranica, «KARIM KHAN ZAND» (Perry), https://www.iranicaonline.org/articles/karim-khan-zand ; TDV basra",
+   "kaynak2": "Encyclopaedia Iranica, «KARIM KHAN ZAND» (Perry), https://www.iranicaonline.org/articles/karim-khan-zand/",
+   "alinti2": "In 1775 the Wakil sent his brother (Moḥammad) Ṣādeq Khan to besiege Basra in Ottoman Iraq, which after a yearlong siege was taken and occupied until Karim Khan’s death in 1779. … Karim Khan died … on 13 Ṣafar 1193/1 Mar[ch 1779].",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (isg zend) UYGUN, ama öneri ucları HATALI: (a) f=1775-01-01 KUŞATMANIN yılıdır; Iranica kuşatma 1775'te başladı, 'yearlong siege' sonunda şehir ALINDI → işgal 1776'da başlar (atlas günü 1776-04-16 Iranica metninde yok: YIL 1776; savaş işgali ele geçirmeden başlar). (b) t=1779-01-01 Karim Han'ın ölümünden (1 Mart 1779) ÖNCEDİR; Iranica işgal 'Karim Khan’s death in 1779'a dek' sürdü, Sâdık Han ölüm haberini aldığında hâlâ Basra'daydı. Doğrusu: alan isg (zend), f=1776 (YIL; mevcut 1776-04-16 gün teyitsiz), t=1779 (ölüm 1779-03-01'den sonra; mevcut 1779-04-01 çelişmez). d:osmanli kesintisiz. ÖLÇÜT: geçici/askerî — Zend ilhak etmedi, TDV 'tekrar geri alındı'. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): Teyit: d: OSMANLI + isg ingiltere 1914-11-22 → 1921-08-23, sonra s: irak-kralligi. 1775-79 Zend dilimi isg zend (Iranica). · TEK KURAL: savaş işgali isg; hukukî ilhak/devir yok (Zend ilhak etmedi, TDV 'zaptedildiyse de tekrar geri alındı'). Öneri: s:zend yerine isg:zend; d OSMANLI kesintisiz. Uçlar: Iranica 'yearlong siege' 1775'te başlar, düşüş yılı TDV 1775-1779 aralığı olarak verir; 1776-04-16 günü (atlas) bu iki kaynakta YOK → gün bulunamadı; düşüş 1776 (Iranica bir yıllık kuşatma + 1775 sevk) çıkarımdır, YIL. t=1779 YIL (Karim Han'ın ölümü 1 Mart 1779 — Iranica metninde gün okunmadı). KURAL KARARI: s→isg (TEK KURAL uygulaması)."
+  },
+  {
+   "ad": "Humus",
+   "dosya_satir": "data/yerlesimler.js:1676",
+   "alan": "s",
+   "d": "suriye-lubnan-mandasi",
+   "f": "1920-07-25",
+   "t": "1946-04-17",
+   "oneri": {
+    "alan": "isg",
+    "d": "fransa-cumhuriyet",
+    "f": "1920-07 (AY; gün bulunamadı)",
+    "t": "1922 (YIL; Milletler Cemiyeti onayı, gün bulunamadı)",
+    "sonra": "s suriye-lubnan-mandasi 1922 → 1946"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Suriye» md., https://islamansiklopedisi.org.tr/suriye (4.11.2026'da okundu)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Suriye» md. (önceki turda okundu) + atlas künye suriye-arap-kralligi (data/devletler.js:9833, f=1918-10-01 t=1920-07-25)",
+   "alinti2": "Temmuz 1920'de ... Fransızlar'ın Suriyeliler'i ağır bir yenilgiye uğratmasının ardından Suriye'de Faysal dönemi sona erdi ... iki yıl sonra Milletler Cemiyeti'nin onayıyla resmen manda yönetimine dönüştü.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: satırdaki KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam): iç Suriye (Humus dahil) Şam emsali → s: suriye-arap-kralligi 1918-10-01 → 1920-07-25, ardından s: suriye-lubnan-mandasi 1920-07-25'ten; 'Manda 1922' DEĞİL, 1922 MC onayı ic_not. Öneri (isg fransa 1920-07 → 1922, s manda 1922) bu karara ve DA-BRIEF 'Levant: iç Suriye (Şam, Humus, Hama, Halep) kuralı farklı' maddesine ters. DOĞRUSU: dönem s:suriye-lubnan-mandasi 1920-07-25→1946-04-17 AYNEN KALIR; isg eklenmez; 1922 onayı ic_not'a. Ek bulgu: Humus'ta d:OSMANLI t=1918-10-01'den sonra 1920-07-25'e kadar dönem YOK → s:suriye-arap-kralligi 1918-10-01→1920-07-25 eklenmeli (künye mevcut, hayalet değil). Gün 1920-07-25 TDV'de yok (yalnız 'Temmuz 1920'); künye ozetinde gün kaynaklı (Meysülun 24.7, Şam 25.7). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): Şam emsali: 1918-10 kurulan Arap hükümeti iç Suriye'yi yönetti → s: suriye-arap-kralligi 1918-10 → 1920-07-25, sonra suriye-lubnan-mandasi (Gouraud idaresi devraldı). 'Manda 1922' DEĞİL; 1922 Milletler Cemiyeti onayı ic_not. · KURAL KARARI: TDV suriye 'Fransız işgali, iki yıl sonra (1922) Milletler Cemiyeti onayıyla resmen manda yönetimine dönüştü' → TEK KURAL: Meyselûn (Temmuz 1920) → manda onayı (1922) arası isg:fransa; s:mandası 1922'den. Ancak 'hukukî egemen yok' (Faysal krallığı sona erdi, Osmanlı Humus'tan çekildi) → koordinatörün 'fiilî denetim' emsali (Kudüs 1948/Atina 1822) burada da uygulanıp mandası 1920-07-25'te kalabilir: ikisi arasında karar KASA/Koordinatör'de. Gün (1920-07-25) TDV'de yok (yalnız 'Temmuz 1920'); manda onayı günü de yok (1922). Humus özgü kaynak yok: TDV humus 'Fransız mandası sırasında idarî bir bölgenin merkeziydi' (ÜLKE/bölge düzeyi). 1925-27 isyanında Humus'ta da isyan çıktı (TDV suriye) ama Fransız denetimi sürdü."
+  },
+  {
+   "ad": "Palermo",
+   "dosya_satir": "data/yerlesimler.js:1196",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "oneri": {
+    "f": "1946-06-02 (referandum; hukukî ilan günü ayrı karar)",
+    "d": "italya-cumhuriyeti"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «İtalya» md., https://islamansiklopedisi.org.tr/italya (4.11.2026'da okundu)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «İtalya» md. (okundu; yalnız 2-3 Haziran 1946 referandumunu verir) + atlas künye italya-cumhuriyeti (data/devletler.js:15915; İtalyan Savunma Bakanlığı difesa.it kaynaklı)",
+   "alinti2": "2-3 Haziran 1946'da yapılan referandumla anayasa değiştirilerek cumhuriyet yönetimine geçildi (TDV). Künye: 'Yargıtay sonucu 18 Haziran 1946'da resmen ilan etti'.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: referandum günü hukukî devir değildir. Atlas künyesi italya-cumhuriyeti f=1946-06-18 (Yargıtay'ın sonucu resmen ilanı; italya t=1946-06-18) ve üç kronoloji maddesi (kronoloji_sinir_nokta3.js:33 vb.) aynı günde; 06-02'ye çekmek hem künye f'sinin öncesine geçer (hayalet devlet) hem Değişmez 2'yi bozar. 'Hukukî devir antlaşma/ilan günündedir' ilkesi (F8, Emre) + ÖN BARIŞ ≠ DEVİR benzeri mantık: oy sayımı ilan değil. DOĞRUSU: f=1946-06-18 AYNEN KALIR; 2-3 Haziran referandumu ve 2 Haziran ic_not'a (TDV). · ÇELİŞKİ: atlas f=1946-06-18; TDV cumhuriyete geçişi 2-3 Haziran 1946 referandumuna bağlar, 18 Haziran TDV'de YOK. Referandum günü mü (2.6), Cassazione ilanı (18.6, okunmadı) mı hukukî devir? KURAL KARARI. Devlet KAYNAKLI (ÜLKE DÜZEYİ)."
+  },
+  {
+   "ad": "Vidin",
+   "dosya_satir": "data/yerlesimler.js:483",
+   "alan": "s",
+   "d": "bulgaristan-kralligi",
+   "f": "1908-10-05",
+   "t": "1946-09-15",
+   "oneri": {
+    "f": "1908-10-05 (GÜN KAYNAKLI)",
+    "t": "1946-09-08 (TDV halk oylaması) — 15 Eylül (atlas) TDV'de yok; KURAL KARARI"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bulgaristan» md., https://islamansiklopedisi.org.tr/bulgaristan (4.11.2026'da okundu)",
+   "kaynak2": "atlas künye bulgaristan-halk (data/devletler.js:15858; f=1946-09-15) + kronoloji_sinir_halef_1923_2000.js:72 'Büyük Millet Meclisi cumhuriyeti ilan etti'",
+   "alinti2": "Künye ozeti: '8 Eylül 1946 referandumunda monarşi kaldırıldı, 15 Eylül'de cumhuriyet ilan edildi'. (TDV Bulgaristan: '8 Eylül 1946'da yapılan halk oylamasıyla cumhuriyet ilân edildi'.)",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: referandum günü hukukî devir değil; hukukî ilan günü esas (F8; İtalya 1946-06-18 emsali). bulgaristan-halk künye f=1946-09-15 (cumhuriyetin ilanı), kronoloji maddesi 1946-09-15; t=1946-09-08'e çekmek (a) Vidin'de bulgaristan-halk f'si ile 7 günlük boşluk/çakışma doğurur (künye f'si 09-15), (b) Değişmez 2'yi bozar. DOĞRUSU: t=1946-09-15 AYNEN KALIR; 8 Eylül referandumu ve TDV'nin 'halk oylamasıyla ilan' ifadesi ic_not'a beyan. UYARI: künyenin kendi kaynağı (nuremberg.media/refworld/BTA) akademik değil, 15 Eylül için okunmuş akademik kaynak bu turda YOK → LoC Country Study Bulgaria ya da Hrvatska enciklopedija 'Bugarska' ile 15.9 teyidi önerilir. · f=1908-10-05 GÜN KAYNAKLI (ÜLKE DÜZEYİ; Vidin Bulgaristan sınırları içinde). t: TDV 8 Eylül 1946 halk oylamasıyla cumhuriyetin ilânını verir; atlas 1946-09-15'i bu oturumda kaynaklanamadı (15 Eylül Ulusal Meclis'in cumhuriyeti ilân günü olabilir — okunmadı) → hukukî devir günü referandum mu ilan mı: KURAL KARARI."
+  },
+  {
+   "ad": "Serahs",
+   "dosya_satir": "data/yerlesimler.js:2225",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1507-05-24",
+   "t": "1510-12-02",
+   "oneri": {
+    "f": "1507-01-01",
+    "t": "1510-12-01",
+    "d": "buhara"
+   },
+   "kaynak": "TDV «Şeybânî Han» (https://islamansiklopedisi.org.tr/seybani-han) — ÜLKE DÜZEYİ",
+   "kaynak2": "",
+   "alinti2": "29 Şâban 916 (1 Aralık 1510) tarihinde öldü",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI: (1) f=1507-01-01 YIL indirmesi atlasta Timurlu t=1507-05-24 ile ÇAKIŞIR (Dönemler çakışmaz); TDV yalnız 'Herat 1507' der, Serahs'a dokunmaz — f künyede (1507-05-24) kalmalı. (2) t=1510-12-01 Şeybânî'nin ÖLÜM günüdür (ÜLKE DÜZEYİ, hükümdar; TDV Şeybânî Han girdideki alıntıdan, bu turda yeniden okunmadı); Serahs'ın Safevi'ye geçiş günü değil, TDV Serahs'ı anmaz. Doğrusu: dönem uçları değişmez (1507-05-24 → 1510-12-02), Serahs-özel kaynak yok; ölüm günü 1 Aralık 1510 ic_not'a yazılabilir. Hüküm ONERI'ye de düşmez çünkü önerilen ikisi de kuralı bozar. Aranan: TDV Şeybânî Han (okundu, Serahs yok); 'Serahs' TDV maddesi/Safevi geçişi aranmadı (bütçe). · ÜLKE DÜZEYİ ve Serahs'a özgü değil. TDV Şeybânî Han: Herat 1507 (913), Şeybânî Merv savaşında yenilip 29 Şâban 916 = 1 Aralık 1510'da öldü; Şah İsmâil galibiyetten sonra Buhara-Semerkant-Hîve'yi işgal etti. Künye 1510-12-02 TDV'nin ölüm gününden 1 gün sonra (Merv savaş günü kaynaklarda farklı). Bu uç Serahs için de kaynaksız: Serahs'ın Şeybânî elinde olduğunu yazan Serahs-özel kaynak bulunamadı. f için TDV yalnız yıl (1507): 'YIL' kalmalı. Safevi f'si de 12-02 mi 12-01 mi künye kararıdır."
+  },
+  {
+   "ad": "Gazze",
+   "dosya_satir": "data/yerlesimler.js:884",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1948-05-14",
+   "t": "1953-06-18",
+   "oneri": {
+    "f": "1948",
+    "t": "1953-06-18",
+    "d": "misir-kralligi"
+   },
+   "kaynak": "TDV «Gazze» (Gazze 1948'de Mısır'a bağlandı; 22 Eylül 1948 Filistin devleti, Gazze geçici merkez)",
+   "kaynak2": "TDV «Filistin» (https://islamansiklopedisi.org.tr/filistin) — okundu",
+   "alinti2": "Manda yönetiminin 15 Mayıs 1948'de sona ereceğini açıkladılar. // 24 Şubat 1949 tarihinde Gazze bölgesi Mısır'a bırakıldı",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI: oneri f='1948' YIL ⇒ 1948-01-01, atlasta filistin-mandasi t=1948-05-14 ile ÇAKIŞIR (Dönemler çakışmaz); yıl indirmesi bu satırda uygulanamaz. Doğrusu: f 1948-05-14 (mandanın bitişi, TDV Filistin 14-15 Mayıs gece yarısı) kalır, ek beyan [yalnız yıl teyitli: TDV Gazze '1948'de Mısır'a bağlandı']. ÇİFT-TDV beyanı: TDV «Gazze» 1948; TDV «Filistin» 'Gazze bölgesi 24 Şubat 1949 Rodos mütarekesiyle Mısır'a bırakıldı' — şehir maddesi esas (1948), 1949-02-24 ic_not. Not: s mı isg mi (Mısır askerî idaresi) koordinatör kararında (s: Mısır). t=1953-06-18 künye. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1948-67 s: Mısır (Kudüs 1948 ilkesi: hukukî egemen yok, Mısır askerî idaresi denetimde); Tüm Filistin Hükümeti (1948-09) nominal → ic_not. 1967'den isg israil (TDV 'işgal'). 1967 SONRASI s: SAHİBİ BEKLE — EMRELİC ölçüm istedi (OLCUM §12). · YIL (1948) düzeyinde teyitli; 05-14 günü TDV'de yok (İsrail'in ilan günü künye). TDV ayrıca 22 Eylül 1948'de Filistin devletinin kurulup Gazze'nin geçici merkez kabul edildiğini söyler (All-Palestine Hükûmeti) — Mısır egemenliği/ilhak yok, askerî idare. KURAL KARARI: Gazze 1948-67 Mısır idaresi hukukî ilhak değildir; TEK KURAL (ilhak olmadan isg) ⇒ isg misir mi, s misir mi — koordinatörde. 1953-06-18 ülke düzeyi künye (Cumhuriyet ilanı), TDV'de yok."
+  },
+  {
+   "ad": "Sisam",
+   "dosya_satir": "data/yerlesimler.js:700",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1912-11-11",
+   "t": "1973-06-01",
+   "oneri": {
+    "f": "1913-05-30",
+    "t": "1973-06-01",
+    "d": "yunanistan",
+    "ek": "isg yunanistan 1912-11-11 → 1913-05-30; v Sisam Prensliği t=1913-05-30"
+   },
+   "kaynak": "TDV «Sisam»: 'Balkan savaşları sonunda Sisam adası Yunanistan ile birleşti (11 Kasım 1912)'; Londra Antlaşması 1913-05-30 (Emre kuralı)",
+   "kaynak2": "TDV «Sisam» (https://islamansiklopedisi.org.tr/sisam) — okundu",
+   "alinti2": "Balkan savaşları sonunda Sisam adası Yunanistan ile birleşti (11 Kasım 1912). // 1834'ten 1913 yılına kadar ada ... bir vali tarafından yönetildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI: KURAL UYGULAMASI — Ada istisnası (DA-BRIEF): Londra 1913-05-30 Ege adalarını DEVRETMEZ (md. 5 adaları büyük devletlere bıraktı); Sisam'a Londra emsali uygulanmaz. oneri s yunanistan f=1913-05-30 bu yüzden yanlış (ve KOORDİNATÖR KARARI notunun ilk yarısıyla çelişir; ikinci 'Üsküp emsali' cümlesi uygulanmamalı). DOĞRUSU: v Sisam Prensliği sürer; Yunan çıkarma/birleşme (11 Kasım 1912, TDV günü ic_not) ⇒ isg yunanistan 1912-11-11 → büyük devletler notası (Şubat 1914, gün bulunamadı); s yunanistan o günden. ÖLÇÜT: geçici/askerî — eski sahibin (Osmanlı suzerenliği, 'dış işlerde bağlılık') iddiası sürüyor, Sisam meclisi kararıyla ilhak hukukî değil. TDV Sisam vali yönetimini 1913'e kadar uzatır (YIL) ve 1912-11-11'i yalnız 'birleşti' diye verir; Şubat 1914 notu TDV'de yok. Bakılan: TDV Sisam (okundu), TDV Ege adaları araması (sonuçsuz). Şubat 1914 günü: BULUNAMADI; tarayıcı: Büyük Devletler notası (13 Şubat 1914?) akademik kaynak. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): Londra emsali UYGULANMAZ (Londra md. 5 adaları büyük devletlere bıraktı). v: Sisam Prensliği sürer; Yunan çıkarması (1912-11, gün kaynaktan) → isg yunanistan; s: yunanistan büyük devletlerin adaları Yunanistan'a bırakan notasından (1914 Şubat, gün kaynaktan). ic_not: 1912-11-11 Sisam meclisi birleşme kararı; Atina 1913-11-14 (adaları devretmez); Lozan (sonraki tanıma). · KURAL KARARI (Üsküp emsali + TEK KURAL): TDV'nin günü 11 Kasım 1912 (ada Yunanistan ile 'birleşti'); Emre'nin açık kuralı 1913 Balkan devirlerinde Londra 1913-05-30'dur ve TDV'nin farklı gününün önündedir ⇒ s yunanistan f=1913-05-30, TDV günü ic_not'ta; 1912-11-11→1913-05-30 isg yunanistan (ham işgal/birleşme günü ic_not), v Sisam Prensliği t=1913-05-30'a uzamalı. TDV ayrıca vali yönetimini 1913'e kadar sürdürür (YIL). 1973-06-01 künye ucu (monarşi) Sisam'a özgü değil; 1941-1944 İtalyan/Alman işgali TDV'de yok."
+  },
+  {
+   "ad": "Lüksemburg",
+   "dosya_satir": "data/yerlesimler.js:424",
+   "alan": "s",
+   "d": "burgonya",
+   "f": "1443-11-21",
+   "t": "1482-03-27",
+   "oneri": {
+    "f": "1451",
+    "t": "1482-03-27",
+    "d": "burgonya",
+    "ek": "isg burgonya 1443-11-21 → 1451 (YIL); gün 1443-11-21 kaynaksız"
+   },
+   "kaynak": "Treccani «Lussemburgo» (https://www.treccani.it/enciclopedia/lussemburgo/)",
+   "kaynak2": "Treccani «Lussemburgo» (treccani.it/enciclopedia/lussemburgo/), okundu 5 Kasım 2026",
+   "alinti2": "Elisabetta cedette i suoi diritti a Filippo il Buono, duca di Borgogna, al quale nel 1451 gli Stati del ducato prestarono giuramento di fedeltà.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI. Öneri (isg burgonya 1443-11-21 → 1451, s: burgonya 1451'den) Estates'in sadakat yeminini (1451) 'devir günü' sayıyor. Ama (1) Treccani yemini 'hak devri'nin sonucu olarak verir, Burgonya'nın yeri kendi idaresine KATMADIĞINI ya da Elisabeth'in iddiasının sürdüğünü göstermez; (2) EMRELİC düzeltmesi (4 Kasım akşam): antlaşma/hukukî onay günü ölçüt DEĞİLDİR, ele geçiren yeri idaresine kattıysa s: FETİH gününden başlar, tarihler ic_not'a gider (Habsburg Macaristan 1686 emsali); isg yalnız idareye katmanın belgesi yoksa/yer geçici-askerî tutuluyorsa yazılır, belge de yok. Treccani'de '1443' YOK (okundu). Doğrusu: s: burgonya f=1443-11-21 KALIR (gün için kaynak ayrıca aranacak, bu kaynakta teyit edilemez), 1451 yemin günü ic_not'a ('Estates 1451'de Filippo'ya bağlılık yemini etti'). isg burgonya satırı EKLENMEZ. t 1482 için Treccani yalnız evlilik yoluyla Habsburglara geçiş der, gün yok. · KURAL KARARI (TEK KURAL, Brüksel emsali): Treccani hukukî/siyasî devri 1451 (Estates'in sadakat yemini; Elisabeth'in hak devri tarihsiz, 1443 ele geçirme günü yok) olarak verir ⇒ 1443-11-21 ham ele geçiriş günü isg burgonya ile yazılmalı, s burgonya f=1451 (YIL; gün için kaynak aranmalı). Kesin 1443-11-21 günü bu kaynakta teyit edilemedi. t=1482 YIL: Treccani 'Maria di Borgogna ile Maximilian evliliği ile Habsburglara geçti' (evlilik 1477, Maria 27 Mart 1482'de öldü: gün Treccani'de yok)."
+  },
+  {
+   "ad": "Maraş",
+   "dosya_satir": "data/yerlesimler.js:379",
+   "alan": "s",
+   "d": "dulkadir",
+   "f": "1337-01-01",
+   "t": "1381-01-01",
+   "oneri": {
+    "alan": "v",
+    "not": "Dulkadır Memlük'e tâbi"
+   },
+   "kaynak": "TDV Dulkadıroğulları (islamansiklopedisi.org.tr/dulkadirogullari); TDV Kahramanmaraş",
+   "kaynak2": "",
+   "alinti2": "",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (satırın kendi notundaki Şirvan/İlhanlı emsali): Memlük tâbiliği s: beylik adına kalır, tâbilik ic_not'a yazılır; alan s→v değişikliği YAPILMAZ. TDV Dulkadıroğulları 'Hiçbir dönemde tam bağımsız olmadığından' der ama beylik 1337'de Memlük atamasıyla kuruldu ve Maraş'a hâkimdi; bu s: yazmayı engellemez. Doğrusu: s: dulkadir f=1337-01-01 kalır (f TDV'de beylik kuruluşu, Maraş'a özgü teyit yok), t=1381 TDV'de yaz 1381 (Memlük ordusu Maraş'a ulaştı) — bu turda tekrar okunmadı, satırdaki alıntı. KAYNAKLI/YIL ayrı turda. · f=1337 YIL: beylik kuruluşu (Elbistan yöresi); Maraş'ın o yıl Dulkadır'a geçtiği TDV'de yok, TDV Kahramanmaraş 1337'yi anmıyor (YOK). TDV: 'Hiçbir dönemde tam bağımsız olmadığından ... bazan Memlük, bazan Osmanlı' ⇒ Dulkadır 1337-1515 Memlük himayesinde; s:dulkadir mi v:memluk mu KURAL KARARI (Emre'nin Şirvan/İlhanlı emsali: tâbilik notta, s: beylik adına kalır). t=1381 yaz (TDV dulkadirogullari: 'Memlük ordusu 1381 yılı yazında Maraş’a ulaştı' ... Halil ve Sevli yenildi) KAYNAKLI yıl düzeyinde."
+  },
+  {
+   "ad": "Hama",
+   "dosya_satir": "data/yerlesimler.js:874",
+   "alan": "s",
+   "d": "suriye-lubnan-mandasi",
+   "f": "1920-07-25",
+   "t": "1946-04-17",
+   "oneri": {
+    "alan": "isg",
+    "d": "fransa-cumhuriyet",
+    "f": "1920-07-25",
+    "t": "manda onayı (TDV 'iki yıl sonra' = 1922, gün kaynakta yok)"
+   },
+   "kaynak": "TDV Suriye (islamansiklopedisi.org.tr/suriye); TDV Hama",
+   "kaynak2": "TDV, «Suriye», https://islamansiklopedisi.org.tr/suriye (5.11.2026'da yeniden okundu); denetim/DADIM-1104/OLCUM.md «Humus (Şam emsali)»",
+   "alinti2": "TDV: «Fransız işgali, iki yıl sonra Milletler Cemiyeti’nin onayıyla resmen manda yönetimine dönüştü.» OLCUM.md: «Ardından suriye-lubnan-mandasi. 1922 Milletler Cemiyeti onayı ic_not'a yazılır.»",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (Şam emsali, EMRELİC 4 Kasım 2026 akşam; aynı hüküm Humus için yazılı): iç Suriye (Şam, Halep, Humus, Hama) için 1918-10 → 1920-07-25 s: suriye-arap-kralligi, ARDINDAN s: suriye-lubnan-mandasi 1920-07-25'ten; 1922 Milletler Cemiyeti onayı yalnız ic_not'a yazılır. Öneri (1920-07-25'ten isg fransa-cumhuriyet, s: manda ~1922'den) bu karara ve Şam kaydındaki mevcut düzene aykırı; üstelik 1922 'iki yıl sonra' YIL düzeyi, gün yok. DOĞRUSU: s: suriye-lubnan-mandasi 1920-07-25→1946-04-17 AYNEN KALIR (Hama kaydındaki TDV Suriye + Meysalun dayanağı korunur); TDV'nin 'işgal' sözcüğü ile 1922 onayı ic_not'a. Not: TDV Sayda (San Remo Nisan 1920, İngiliz işgali Ekim 1918) ile TDV Suriye (Temmuz 1920 işgal, iki yıl sonra manda) çelişkisi beyan edilir; Hama'nın kendi maddesi manda tarihi vermiyor. Lübnan kıyısı kuralı (1920-09-01) Hama'ya uygulanmaz (iç Suriye). · KURAL KARARI: TDV Suriye Temmuz 1920 Meyselûn zaferini 'Fransız işgali' sayar ve işgalin ancak Milletler Cemiyeti onayıyla (iki yıl sonra) resmen manda olduğunu söyler; San Remo Nisan 1920'de Suriye'yi Fransa'ya manda verdi (tahsis, AY). TEK KURAL (işgal = isg, devir/onay günü = s:) ⇒ 1920-07-25 isg olmalı, s:suriye-lubnan-mandasi onay gününden başlamalı (gün TDV'de yok; Meyselûn günü 25 Temmuz da TDV'de yok, yalnız 'Temmuz 1920'). Karar KASA/Emre'nin. Aynı kural Sayda ve diğer Suriye/Lübnan yerleşimlerini etkiler. ÇİFT-TDV: TDV Sayda (şehir maddesi) Suriye-Lübnan topraklarının San Remo Nisan 1920 devrini verir ve Sayda'yı Ekim 1918'de İngilizlerin işgal ettiğini söyler; TDV Suriye ise Temmuz 1920 işgali ve iki yıl sonra manda der. Hama kendi şehir maddesinde manda tarihi vermiyor; üçüncü kaynak aranmadı. İki madde not'ta beyan edilmeli, hükmü KASA/Emre verir. Ayrıca TDV Hama 1918 İngiliz/Arap girişini anlatmıyor (isg ingiltere mi?)."
+  },
+  {
+   "ad": "Sayda",
+   "dosya_satir": "data/yerlesimler.js:1133",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1918-10-06",
+   "t": "1920-07-24",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1918-10 (Ekim başı, AY düzeyi; gün yok)",
+    "t": "1920-04 (San Remo, gün TDV'de yok)"
+   },
+   "kaynak": "TDV Sayda",
+   "kaynak2": "TDV, «Sayda»; DA-BRIEF.md «Lübnan kıyısı (EMRELİC gece-10)» kuralı",
+   "alinti2": "Kural: «1918-10'dan d: osmanli + isg fransa. s: Fransız mandası 1920-09-01'den (Büyük Lübnan). 1920-07-25 yalnız iç Suriye içindir.»",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: Sayda Lübnan kıyısıdır. Öneri (isg ingiltere 1918-10 AY → 1920-04 San Remo) KOORDİNATÖR kuralına aykırı: işgalci yazımı fransa, bitiş 1920-09-01 (San Remo Nisan 1920 devir değil, tahsis; ic_not'a). DOĞRUSU: d: OSMANLI (1918-10'a dek sürer) + isg fransa-cumhuriyet 1918-10 → 1920-09-01; s: suriye-lubnan-mandasi 1920-09-01'den (1920-07-24 değil; mevcut KAYNAKLI s:suriye-lubnan-mandasi f=1920-07-24 satırı da 1920-09-01'e çekilmeli). Mevcut s: fransa-cumhuriyet 1918-10-06→1920-07-24 dönemi (DEVRALMA, Şam'ın kaybı) kaldırılır. TDV Sayda'nın 'Ekim 1918 başında İngilizler işgal etti' cümlesi ve San Remo Nisan 1920 ic_not'a beyan edilir; İngiliz işgali ile kuralın 'isg fransa' yazımı arasındaki fark (OETA West) EMRELİC'e sorulabilir. ÇİFT-TDV: Sayda şehir maddesi esas, TDV Suriye (Temmuz 1920 işgal, iki yıl sonra manda) not'ta. Hayalet kontrolü: fransa-cumhuriyet künyesi 1918'i kapsıyor mu — bu turda ölçülmedi. · KURAL KARARI + ÇİFT-TDV ÇELİŞKİSİ: Atlas bu dönemi s:fransa-cumhuriyet 1918-10-06→1920-07-24 yazıyor ('Şam'ın kaybı' kronoloji maddesinden DEVRALMA). TDV Sayda: şehri Ekim 1918 başında İNGİLİZLER işgal etti; devir San Remo Nisan 1920'de yapıldı. Yani 1918-1920 arası Fransız sahipliği yok: isg ingiltere olmalı (TEK KURAL). Devir tarihi: TDV Sayda 'Nisan 1920 San Remo' (şehir maddesi) vs TDV Suriye 'Temmuz 1920 Fransız işgali, iki yıl sonra resmî manda' — iki TDV çelişir. Üçüncü bağımsız akademik kaynak aranmadı/bulunamadı ⇒ ÇİFT-TDV: yerleşimin kendi şehir maddesi (Sayda) esas = Nisan 1920 devir; TDV Suriye maddesi beyan edilir. Hüküm KASA/Emre'nin. Fransa'nın Ekim 1918'de fiilî denetimi TDV'de yok."
+  },
+  {
+   "ad": "İzmir",
+   "dosya_satir": "data/yerlesimler.js:174",
+   "alan": "s",
+   "d": "aydin",
+   "f": "1329-01-01",
+   "t": "1344-10-28",
+   "oneri": {
+    "f": "1310-01-01 veya 1317-01-01 (TDV iki yıl verir; seçim yapılmadı)",
+    "t": "1344-10-28",
+    "d": "aydin"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «İzmir» md., https://islamansiklopedisi.org.tr/izmir (04.11.2026'da okundu)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «İzmir», https://islamansiklopedisi.org.tr/izmir (5.11.2026'da okundu)",
+   "alinti2": "Mehmed Bey 1310 veya 1317'de Yukarı Kale'yi ele geçirdi. ... müdafiler liman kalesini teslim etmek mecburiyetinde kaldı. Kale kumandanı Martino Zaccaria ise Sakız'a gitti (1328-1329).",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KAYNAK UYGULAMASI: Önerinin f'si iki yıllı (seçim yok: tarih değil) ve Yukarı Kale'yi (Kadifekale) sahil İzmir'ine uygular. Atlasın aydin→sovalye zinciri SAHİL İzmir'ini modeller (t=1344-10-28 sahil İzmir'inin Haçlılar'a geçişi, TDV). Aynı TDV maddesi liman kalesinin Aydınoğulları'na tesliminin 1328-1329 olduğunu söyler (TDV Aydınoğulları: 1328 veya 1329) → atlas f=1329 YIL düzeyinde TEYİTLİ [yalnız yıl teyitli], 1328 ic_not. Öncesinde liman Cenovalı Martino Zaccaria'nın elindeydi (künye cenova): atlasın 'bizans 1329'a kadar' satırı kaynakla ÇELİŞİR → ayrı denetim. Yukarı Kale 1310/1317 ic_not'a. · Bitiş 1344-10-28 TDV'de gün düzeyinde KAYNAKLI ('sahil İzmir’ini ... almayı başardı (28 Ekim 1344)'). Başlangıç: TDV Aydınoğulları'nın XIV. yy başında İzmir'i sınırlarına kattığını, Yukarı Kale'nin 1310 veya 1317'de alındığını söyler; atlasın 1329-01-01 günü kaynakta YOK (ve mevcut bizans satırı 1329'a kadar Bizans der → çelişir). Atlas künyesinden gelen 1329 yerleşime özgü değil. Yukarı Kale ≠ sahil İzmir olabilir: BEYANLI yaklaşıklık gerekebilir. İki yıl arasında karar verilmedi."
+  },
+  {
+   "ad": "Hotin",
+   "dosya_satir": "data/yerlesimler.js:1565",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1713-06-24",
+   "t": "1812-05-28",
+   "oneri": {
+    "f": "1711-01-01",
+    "t": "1812-01-01",
+    "d": "OSMANLI",
+    "isg": null
+   },
+   "kaynak": "TDV «Hotin», https://islamansiklopedisi.org.tr/hotin ; CIUS «Khotyn» (aynı URL'ler)",
+   "kaynak2": "TDV, «Hotin», https://islamansiklopedisi.org.tr/hotin (5.11.2026'da okundu) ; Encyclopedia of Ukraine (CIUS), «Khotyn», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKhotyn.htm (5.11.2026'da okundu)",
+   "alinti2": "TDV: «1812’deki Bükreş Antlaşması ile de Dinyester ve Boh (Besarabya) arasında kalan araziyle birlikte Rusya’ya bırakıldı.» CIUS: «With the Bucharest Peace Treaty of 1812, Khotyn came under Russian rule.»",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: (1) t önerisi 1812-01-01 — iki kaynak da yalnız YIL (1812) verir ve Bükreş Antlaşması'nın kendisi tek bir imza gününe sahiptir (atlas 1812-05-28, rusya dönemi f ile bağlı sınır); CLAUDE.md teyit kampanyası: sınıra bağlı yıl-teyitli ucu YYYY-01-01'e indirmek yasak, kalır [yalnız yıl teyitli; gün teyitsiz] (indirme Ruslar'ın Ocak 1812'de Hotin'i aldığı anlamına gelirdi ve sınırı bozar). TEK ÖLÇÜ: antlaşma imza günü. Bükreş imza günü bu turda kaynakla okunmadı. (2) f önerisi 1711-01-01: v→d geçişi iki kaynakta tarihlenmiyor (bkz. satır v) ve Ocak 1711 Prut öncesidir. DOĞRUSU: f=1713-06-24, t=1812-05-28 olduğu gibi kalır; yıl uyumu: t YIL 1812 KAYNAKLI, f kaynaksız-gün. İşgal katmanları (1739, 1769-74, 1787/88-91/92, 1806) isg: TDV ('1788 Eylül', '1806 işgal', Yaş 1792) ve CIUS ile uyumlu; CIUS 1787-91, TDV 1788-91 (savaş yıl farkı). · f: kaynak 1711 (YIL), atlas 1713-06-24 (1713 TDV'de 'geçici Rus işgali ardından tamir' bağlamında geçer, sahiplik günü değil). t: TDV ve CIUS 1812 (YIL); gün 05-28 bu kaynaklarda YOK (Bükreş Antlaşması günü ayrı kaynakla teyit edilmeli). İşgal dönemleri (1739, 1769-74, 1788-92, 1806) isg katmanı: TDV/CIUS işgal yıllarıyla uyumlu."
+  },
+  {
+   "ad": "Hotin",
+   "dosya_satir": "data/yerlesimler.js:1565",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1918-04-09",
+   "t": "1940-06-28",
+   "oneri": {
+    "f": "AY:1918-11",
+    "t": "1940-06-28",
+    "d": "romanya-kralligi",
+    "isg": null
+   },
+   "kaynak": "TDV «Hotin», https://islamansiklopedisi.org.tr/hotin ; CIUS «Khotyn», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKhotyn.htm (04.11.2026'da okundu)",
+   "kaynak2": "TDV, «Hotin», https://islamansiklopedisi.org.tr/hotin (5.11.2026'da okundu) ; Encyclopedia of Ukraine (CIUS), «Khotyn», https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CK%5CH%5CKhotyn.htm (5.11.2026'da okundu) ; denetim/DADIM-1104/OLCUM.md «Kili ve Bender (Besarabya)»",
+   "alinti2": "TDV: «1918’de Hotin ile Besarabya Romanya’ya verildi.» CIUS: «In April 1918, during the Austrian occupation, … Romanian occupation of the region in November…» OLCUM.md: «s: romanya 1918-04-09'da Sfatul Țării birleşme kararıyla başlar. Paris Protokolü 1920 ic_not'a yazılır.»",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (Besarabya, OLCUM.md): s: romanya 1918-04-09'dan; Paris Protokolü 1920 ic_not. Öneri f='AY:1918-11' hem bu karara hem TEK KURAL'a aykırı: Kasım 1918 Romanya'nın ham işgalidir (CIUS 'Romanian occupation'), s: o günden değil; ayrıca 'AY:' biçimi veri alanına yazılamaz. DOĞRUSU: f=1918-04-09 aynen kalır (TDV 1918 YIL KAYNAKLI; CIUS 1918 Nisan Avusturya işgali ve Kasım Romanya işgali ic_not'a: 'Hotin ilçesi Nisan-Kasım 1918 Avusturya-Macaristan işgalindeydi; Romanya fiilî idaresi Kasım 1918; Ocak 1919 Hotin isyanı'). Draç emsali (fiilî yönetim) gündeme getirilirse isg avusturya-macaristan/isg romanya dilimleri EMRELİC kararı ister; mevcut karar öncelikli. t: TDV «1940’ta Sovyetler tarafından ele geçirildi» (YIL); gün teyitsiz. · TDV YIL (1918) KAYNAKLI. CIUS: Nisan 1918'de ilçe Avusturya işgalinde, Romanya işgali KASIM 1918 (AY), Ocak 1919 Hotin isyanı. TEK KURAL: ham işgal (Kasım 1918) isg:romanya; s: hukukî birleşme/devir gününden (atlasın 1918-04-09 Sfatul Țării kararı Hotin ilçesi için teyitsiz). Avusturya-Macaristan işgali (Nisan 1918, AY) isg: avusturya adayı. Önerideki f ham işgal ayıdır, KASA TEK KURAL'a göre isg/s ayırır. t=1940: TDV 'Sovyetler tarafından ele geçirildi' (YIL 1940)."
+  },
+  {
+   "ad": "Nahçıvan",
+   "dosya_satir": "data/yerlesimler_asya.js:800",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-10-18",
+   "oneri": {
+    "f": null,
+    "t": "1918-05-01",
+    "d": "sovyet-rusya",
+    "isg": "osmanli"
+   },
+   "kaynak": "TDV «Nahçıvan» (aynı URL)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Nahçıvan», https://islamansiklopedisi.org.tr/nahcivan (5.11.2026'da okundu)",
+   "alinti2": "Şubat 1917 Bolşevik İhtilâli'nden sonra Nahcıvan'da iktidar Bolşevikler ile Menşevikler arasında paylaştırıldı. ... Mayıs 1918'de ... Osmanlı ordusu ... Aras Cumhuriyeti'nin kurulmasına yardım etti.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: (1) Önerinin t=1918-05-01, 'Mayıs 1918' AY hassasiyetini ayın 1'ine genişletir (CLAUDE.md: senkronu bozar; tarih uydurma). (2) TDV Sovyet Rusya'nın Nahçıvan'ı Mayıs 1918'e kadar yönettiğini SÖYLEMEZ; yalnız yerel Bolşevik-Menşevik iktidar paylaşımı der. Sovyet sahipliğinin 1917-11-07'den başlaması kaynaksız; künye 'transkafkasya' mevcut ve Elviye-i selâse emsali fiilî yönetim transkafkasya der. (3) Koordinatör zinciri (fiilî yönetim + halef ilanı: Osmanlı girişi, Aras Cumhuriyeti, 1919 İngiliz denetimi, 1920-07-28 Kızılordu, 1921 Kars) tek 'sovyet-rusya→isg osmanli' satırına indirgenemez. DOĞRUSU: isg osmanli Mayıs 1918'den (gün kaynaktan aranmalı); Aras Cumhuriyeti künyesi atlasta yok (LAB); 1920-07-28 XI. Kızılordu girişi GÜN düzeyinde (TDV); Sovyet f kararı (Nahçıvan SSC ilanı istisnası) EMRELİC'in. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): 1918-21 zinciri 'fiilî yönetim + halef ilanı' ölçütüyle ve kaynakla kurulur: 1918 Osmanlı girişi, Aras Cumhuriyeti, Ermeni ve İngiliz denetimi, 1920-07-28 Kızılordu, 1921-10-13 Kars. Tartışmalı uçlar ic_not. · KURAL KARARI: dönem bölünmeli (Sovyet sürekliliği kaynakla desteklenmiyor). TDV: Mayıs 1918 (AY) Osmanlı ordusu Nahçıvan'a girdi, Osmanlı yardımıyla Aras Cumhuriyeti (merkez Nahçıvan) kuruldu; 1919 sonu Ermeni-Türk çatışması; Mart 1920 (AY) Türk ordusu girdi; 28 Temmuz 1920 (GÜN) XI. Kızılordu girdi, Nahçıvan SSC kuruldu; 1921 Kars Antlaşması (gün TDV'de yok) ile Azerbaycan SSC'nin özerk parçası. TEK KURAL uyarınca 1918/1920 ham giriş = isg (isg osmanli 1918-05→?; çekilme günü TDV'de yok), Aras Cumhuriyeti ayrı künye (varlığı atlasta bilinmiyor); Sovyet f için aday 1920-07-28 (işgalci egemenliği devraldı mı: Nahçıvan SSC ilanı → istisna kapsamında olabilir) veya 1921 Kars devri — karar KASA/Emre'nin; ben seçmedim. t=1991-10-18 ülke düzeyi (Azerbaycan Anayasa Aktı, kaynak aranmadı)."
+  },
+  {
+   "ad": "Zebîd",
+   "dosya_satir": "data/yerlesimler.js:932",
+   "alan": "v",
+   "d": "eski Memlûk beyleri (Osmanlı desteğiyle)",
+   "f": "1517-07-06",
+   "t": "1539-02-24",
+   "oneri": {
+    "f": "1517-01-01",
+    "t": "1524-05-01",
+    "d": "eski Memlûk beyleri (Osmanlı desteğiyle)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zebîd» md., Cengiz Tomar, https://islamansiklopedisi.org.tr/zebid (04.11.2026 okundu)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Zebîd» md., https://islamansiklopedisi.org.tr/zebid (05.11.2026 okundu)",
+   "alinti2": "Osmanlı kuvvetleri Receb 930 (Mayıs 1524) tarihinde Zebîd'i tekrar ele geçirdiler. 933'te (1527) ... Zebîd hâkimi Mustafa Bey isyan etti. ... Osmanlı hâkimiyeti kalıcı olarak ... Hadım Süleyman Paşa tarafından gerçekleştirildi ... (945/1539).",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI. (1) t:1524-05-01 hatalı: TDV 'Mayıs 1524' AY düzeyindedir; ayı ayın 1'ine genişletmek CLAUDE.md'nin yasakladığı şeydir (senkronu bozar). Hicrî kural: Receb 930 ∩ Mayıs 1524 kesişiminin ilk günü ≈ 1524-05-15 (tablolu hesap, ±1-2 gün; Receb 930 başı). (2) Daha esaslı: 1524 yerel yönetimi bitirmiyor. Aynı madde 1527'de Zebîd hâkimi Mustafa Bey'in isyanını, Selman Reis'in Emîr Yûnus'u yönetici atamasını anlatır ve Osmanlı hâkimiyetinin KALICI olarak 945/1539'da kurulduğunu söyler. 1524'te dönemi kesmek 1524-1539 arasını hem v: hem d: dışında bırakır. TDV'ye göre doğrusu: v bitişi 1539 (YIL; 945 AH = 1538-06-09 ... 1539-05-28 tablolu, ∩1539 ilk gün 1539-01-01) [yalnız yıl teyitli]; atlasın 1539-02-24'ü TDV'de yok. (3) f:1517-01-01 KAYNAKLI (TDV: Barsbay 'ertesi yıl' [1516 sonrası = 1517] öldü, Osmanlı desteğiyle Emîr İskender hâkim oldu; yıl düzeyi, gün yok). Atlasın 1517-07-06'sı TDV'de yok. (4) d alanı 'eski Memlûk beyleri (Osmanlı desteğiyle)' devletler.js'te künye DEĞİL (grep: eşleşme yok) → bu v: dönemi boyanmaz/yanlış çözülür; künye ya da Osmanlı v: kaydı gerekir. (5) Baglamda 1539-1635 arası d:OSMANLI satırı yok (delik görünüyor); TDV 'Osmanlı Yemeni tek sancak 945/1539' ile Osmanlı d: 1539'dan 1633'e kadar yazılabilir (TDV Zebîd: Osmanlı garnizonunun ana üssü, ilk beylerbeyi Neşşâr Mustafa Paşa 1540-45). · f: YIL 1517 (gün yok). Bitiş: TDV 'Osmanlılar, hutbede sultanın ismi okunmasına rağmen eski Memlük beylerinin fiilî hâkimiyetindeki Yemen'; 1521 Kemal Rûmî (Cidde muhafızı Hüseyin Bey Rûmî'nin kumandanı) Zebîd'de hâkim; Receb 930 (Mayıs 1524) Osmanlı kuvvetleri Zebîd'i 'tekrar ele geçirdi' (ay düzeyi); 'kalıcı Osmanlı hâkimiyeti Hadım Süleyman Paşa 945/1539'. Atlasın 1539-02-24'ü TDV'de yok (1539 YIL). İki aday uç: 1524-05 (ay) ya da 1539 (YIL) — hangisinin d: Osmanlı başlangıcı olacağı KASA/koordinatör kararı; hüküm vermedim."
+  },
+  {
+   "ad": "Kili",
+   "dosya_satir": "data/yerlesimler.js:583",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1918-01-01",
+   "oneri": {
+    "f": "1917-11-07",
+    "t": "1918-01-01",
+    "d": "sovyet-rusya"
+   },
+   "kaynak": "Treccani Enciclopedia on line 'Bessarabia'",
+   "kaynak2": "Treccani Enciclopedia on line, «Bessarabia», https://www.treccani.it/enciclopedia/bessarabia/ (05.11.2026 okundu)",
+   "alinti2": "Dopo la rivoluzione bolscevica, la B. si dichiarò indipendente e decise l'unificazione con la Romania (1918)",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (Besarabya: fiilî yönetim + halef ilanı, Sfatul Țării 1918-04-09) ile ÇELİŞİR: oneri t:1918-01-01 bir yer tutucudur (öneri notu da böyle diyor, kaynak günü değil) ve 1918-01-01'den romanya-kralligi başlatmak kararın ters yönüdür. Doğrusu: sovyet-rusya 1917-11-07 → bağımsızlık ilanı (devletler.js moldova-demokratik-cum künyesi f:1917-12-15, Jülyen 2 Aralık); ardından s: moldova-demokratik-cum 1917-12-15 → 1918-04-09; ardından s: romanya-kralligi 1918-04-09'dan. Treccani yalnız 'bağımsızlık ilan etti ve 1918'de birleşmeye karar verdi' der (yıl); 1917-12-15 ve 1918-04-09 günleri benim okuduğum kaynakta yok — künye/koordinatör kararından. Besarabya sınırı içinde Budjak/Kili'nin Moldova DR tarafından fiilen yönetilip yönetilmediği (Ocak 1918 Rumen ordusu girişi) ayrıca kaynak ister; Kili için günü kesinleştirmek yerine künye günleri beyanlı yazılmalı. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Besarabya: 'fiilî yönetim + halef ilanı' — Sfatul Țării birleşme kararı 1918-04-09 (27 Mart eski takvim) → s: romanya o günden. ic_not: Roman askerinin Ocak 1918 girişi; Paris Protokolü 1920-10-28 yürürlüğe girmedi; Sovyetler tanımadı. · Bitiş 1918-01-01 yıl-başı yer tutucusudur, kaynak günü değil. Kaynak (Treccani, TDV) yalnız 'Boşluk: Bolşevik devrimi sonrası Besarabya bağımsızlığını ilan etti, 1918'de Romanya ile birleşmeye karar verdi' diyor; Moldova Demokratik Cumhuriyeti ilanı/bağımsızlık/Sfatul Țării günleri ve Rumen takviminin (Jülyen) çevrilmesi bu sayfalarda yok → gün YAZILMADI. Öneri: günler başka kaynaktan (Romanya/Moldova akademik) bulunsun."
+  },
+  {
+   "ad": "Kili",
+   "dosya_satir": "data/yerlesimler.js:583",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1918-01-01",
+   "t": "1940-06-28",
+   "oneri": {
+    "f": "1918-01-01",
+    "t": "1940-06-28",
+    "d": "romanya-kralligi",
+    "isg": "romanya-kralligi 1918 (Rumen ordusunun girişi, gün yok) → hukukî devir günü"
+   },
+   "kaynak": "TDV «Kili» md.: «1918'de Kili dahil Besarabya tekrar Romanya'ya verildi»; Treccani 'Bessarabia': «unificazione con la Romania (1918), ratificata nel 1920 dal Trattato di Parigi»",
+   "kaynak2": "Treccani Enciclopedia on line, «Bessarabia»; TDV «Kili» md., https://islamansiklopedisi.org.tr/kili",
+   "alinti2": "unificazione con la Romania (1918), ratificata nel 1920 dal Trattato di Parigi. / 1918'de Kili dahil Besarabya tekrar Romanya'ya verildi. 1940 yılına kadar Romanya'nın idaresinde kalan Besarabya ... Stalin tarafından tekrar işgal edildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR KARARI (EMRELİC, Besarabya): s: romanya 1918-04-09'dan; Rumen ordusunun Ocak 1918 girişi, Paris Protokolü 1920-10-28'in yürürlüğe girmemesi ve Sovyetlerin tanımaması ic_not'a. Oneri f:1918-01-01 (yer tutucu) ve isg: romanya-kralligi 1918 alanı bu karara ters (Ocak girişi isg değil ic_not). Doğrusu f 1918-04-09 (Sfatul Țării oyu, 27 Mart Jülyen = 9 Nisan Gregoryen; bu gün künye moldova-demokratik-cum t'siyle de örtüşür). Treccani/TDV 1918 YILINI doğrular, günü vermez. Bitiş: TDV 'Haziran 1940' (ay), Treccani 'giugno 1940' (ay); 1940-06-28 gün düzeyi bu sayfalarda yok (mevcut sovyet-rusya satırı Encyclopedia of Ukraine'e dayalı). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Besarabya: 'fiilî yönetim + halef ilanı' — Sfatul Țării birleşme kararı 1918-04-09 (27 Mart eski takvim) → s: romanya o günden. ic_not: Roman askerinin Ocak 1918 girişi; Paris Protokolü 1920-10-28 yürürlüğe girmedi; Sovyetler tanımadı. · KURAL KARARI: kaynak ikiye ayırıyor — birleşme kararı 1918, Paris Antlaşması (Besarabya Protokolü) ile onay 1920 (SSCB tanımadı). TEK KURAL / ön barış ≠ devir emsaliyle sahiplik (s) hukukî ilhak gününden başlar; 1918-01-01 ise yer tutucudur. Hangi günün 'hukukî devir' sayılacağı (Sfatul Țării oyu, yıl 1918 / Paris 1920) karar işidir. Her iki ucun günü bu sayfalarda yok → yazılmadı. Bitiş 1940-06-28: TDV 'Haziran 1940 Stalin işgali' (yıl-ay), Treccani 'giugno 1940' ay düzeyi — ay KAYNAKLI, gün yok (mevcut sovyet-rusya satırı Encyclopedia of Ukraine'e dayalı)."
+  },
+  {
+   "ad": "Bergama",
+   "dosya_satir": "data/yerlesimler.js:163",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1413-07-05",
+   "t": "1920-04-23",
+   "oneri": {
+    "f": "1413-07-05",
+    "t": "1920-04-23",
+    "d": "OSMANLI",
+    "isg": "yunanistan 1919 (YIL; gün TDV'de yok) → 1922 (YIL; gün yok, İzmir sonrası)"
+   },
+   "kaynak": "TDV «Bergama» md.: «XX. yüzyıl başlarında ... 1919'da Yunan işgaline uğrayan Bergama 1922'de kurtarıldı»",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Bergama» md., https://islamansiklopedisi.org.tr/bergama (05.11.2026 okundu)",
+   "alinti2": "XX. yüzyıl başlarında ... 1919'da Yunan işgaline uğrayan Bergama 1922'de kurtarıldı.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (TBMM ve işgal altındaki yerler, Mersin emsali): işgal altındaki yerde işgal boyunca d:OSMANLI + isg:yunanistan; s:tbmm şehri FİİLEN TESLİM aldığı günden başlar. Oneri isg ekliyor (TDV 1919 işgal / 1922 kurtuluş, YIL KAYNAKLI) ama d:OSMANLI t:1920-04-23'ü koruyor; baglamda s:tbmm-turkiye 1920-04-23 → 1923 satırı da var. İkisi birden kural ihlali: Bergama 1920-04-23'te Yunan işgali altındaydı. Doğrusu: d:OSMANLI 1413-07-05 → Bergama'nın teslim günü (1922, TDV gün vermiyor; ayrıca aranmalı: Yunan çekilişi Eylül 1922), isg:yunanistan 1919 → aynı gün, s:tbmm-turkiye teslim gününden. TDV kurtuluşu 'Bergama 1922'de kurtarıldı' diye yalnız YIL verir; gün uydurulmadı. · KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece-16): Karesi — karesi t / d: osmanli f = 1345-05-04 (1 Muharrem 746, Jülyen, EMRELİC tabular hesapla doğruladı); ic_not: '746 H; veya hemen sonrası yıl beyanı'. · KURAL UYGULAMASI (UMIT, EMRELİC gece-15 Karesi kararı): Karesi çekirdeği (Balıkesir/Bergama) → karesi t ve d: osmanli f = 1345 KALIR. TDV Karesioğulları: 'Böylece Karesi Beyliği Osmanlı Beyliği topraklarına katılmış oldu (746/1345 veya hemen sonrası).' Dursun Bey Orhan'a 'Bergama, Edremit ve Balıkesir'i vermeyi önerdi'. Hicrî kural: 746 H ∩ 1345 M → kesişimin ilk günü ≈ 1345-05-04 (1 Muharrem 746, tablo hesabı — KASA doğrulasın); atlasın 1345-01-01'i hicrî aralığın dışında. 'veya hemen sonrası' → YIL hassasiyeti beyanı. · d:OSMANLI sürekliliği TDV ile uyumlu (Hüdâvendigâr sancağı kazası; 1487 tahriri). EKLE isg:yunanistan 1919→1922 (mevcut atlasta Bergama'da Yunan işgali katmanı yok; komşu Aydın'da var). Gün bulunamadı, yazılmadı. 1413-07-05 ucu bu sayfada yok."
   }
  ],
  "CELISKI": [
@@ -1203,6 +1726,40 @@
    "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ: öneri gurcistan t=1386 ve ardından timurlu s: ister; TDV 1386'da Tiflis'in alındığını ama idarenin ayni yıl Bagrat'a geri verildiğini yazar (Gürcü idaresi sürer, Timurlu tâbiliği/himaye => atlas kuralı gereği v: timurlu, s: gurcistan); 1413'te 'Timurlu hâkimiyetine son verdi' ifadesi ise Timurlu üstlüğünü gösterir. Karar EMRELİC'indir. 1281 ucu: İlhanlı döneminde Gürcülere bırakıldı (YIL düzeyi, gün yok). 1440 Karakoyunlu zapt, 1477 Akkoyunlu, 1486-89 Yâkub girişi TDV'de var (YIL), bitişler yok. · KOORDİNATÖR KARARI (EMRELİC/LAB, gece-12): transkafkasya künyesi var (devletler.js:2985, f 1917-11-07 → t 1918-05-28, şemsiye). Satır 1917-11-28 uyumlu; künyenin f'sini 1917-11-28'e (Komiserlik, N.S.) çekme düzeltmesi LAB'da. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece-10): 1917-11-28 Transkafkasya Komiserliği'nden s: transkafkasya (Kafkas emsali) — şart: karşılayan künye 1917-11-28'i kapsamalı, kapsamıyorsa künye aşımı LAB'a; Federasyon ilanı 1918-04-22 ic_not. · 1281-1386 gurcistan (İlhanlı üstlüğü altında Gürcü idaresi) TDV YIL düzeyinde destekli. SONRASI TDV ile çelişir: 1386 Timur aldı (Bagrat V'e geri verdi: Timurlu tâbi Gürcü); 1393-1403 beş Timur saldırısı; 'Timur’un ölümü üzerine I. Alexandre 1413’te Tiflis’teki Timurlu hâkimiyetine son verdi'; '1440’ta Karakoyunlu Cihan Şah Tiflis’i zaptetti'; 1458 Uzun Hasan yağması; '1477’de … Tiflis’e hâkim oldu' (Akkoyunlu); 'ölümünden sonra tekrar Gürcü idaresi'; '1486 sonbaharından 1489’a Sultan Yâkub Tiflis’e girdi'; Atlas gurcistan'ı 1484'e dek kesintisiz tutuyor. ÖNERİ (YIL düzeyi, gün yok): gurcistan 1281-1386; timurlu 1386-1413 (Bagrat V tâbiliği; kesinti 1393-1403 saldırılar); gurcistan 1413-1440; karakoyunlu 1440-1458?; Uzun Hasan 1458 yalnız yağma, sahiplik değil; akkoyunlu 1477-(Hasan ölümü 1478); gurcistan 1478-1486; akkoyunlu/Yâkub 1486-1489 (girdi; sahiplik süresi TDV'de yok); sonrası 1489-1521 Gürcü. Bu dilim 'sahip değişimi' beyanlı yaklaşıklık gerektirir: TDV tarihleri yalnız fetih/girişi verir, bitişleri çoğu yok. Atlasın kartli-kralligi f=1484 ucu bu TDV maddesinde YOK (Iranica 1484'ü ülke düzeyi söyler)."
   },
   {
+   "ad": "Kerma",
+   "dosya_satir": "data/yerlesimler_afrika.js:869",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-01-04",
+   "oneri": {
+    "d": "funj (1504-1517 nüfuz) → boşluk/Arap kabileleri 1517-XVII.yy sonu → Şâyikıyye",
+    "f": "1504-01-01",
+    "t": "1517-01-01 (Func); sonrası Şayıkıyye (künye yok)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Dongola» md. (Hamdunallah Mustafa Hasan), https://islamansiklopedisi.org.tr/dongola ; TDV İslâm Ansiklopedisi, «Func» md., https://islamansiklopedisi.org.tr/func",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Dongola» md., https://islamansiklopedisi.org.tr/dongola",
+   "alinti2": "Func nüfuzunu Dongola’ya kadar genişletmişse de Mısır’ın Osmanlı hâkimiyetine girmesinden (1517) sonra bu devletin bölgedeki egemenliği son bulmuştur. Daha sonra Dongola’ya çeşitli Arap kabileleriyle bazı Bosnalılar’ın gelerek yerleştikleri bilinmektedir.",
+   "not": "YÜKSELTME TURU (CELISKI): CELISKI: atlas Kerma'yı 1504-1821 Func (funj) sayar; TDV Dongola Func egemenliğinin 1517'den SONRA bölgede bittiğini, sonra Arap kabilelerinin/Bosnalılar'ın yerleştiğini, XVII. yy sonlarında Şayıkıyye Federasyonu'nun şehri çökerttiğini söyler ('1517'den sonra' = YIL altı belirsiz, tam 1517 değil). Öneri t=1517 TDV ile yaklaşık uyumlu ama 'sonra' cümlesi tam yılı vermez; sonrası için künye yok (şayikiyye grep'te yok). Karar EMRELİC'in: öneriyi değiştirmedim. 1504 başı Func kuruluşu Kerma'ya girişi değil. · ABİ MERKEZ: Dongola (TDV md.). ÇELİŞKİ: atlas Kerma'yı 1504-1821 Func (Sennâr) sayar; TDV Dongola: Func nüfuzu Dongola'ya kadar genişledi ama 1517'de Mısır'ın Osmanlı'ya geçişinden sonra son buldu; 'XVII. yüzyılın sonlarına doğru Kuzey Sudan’da kurulan Şayıkıyye Federasyonu' (Dongola'nın kuzeyinden Dördüncü Şelâle'ye) şehrin ticaretini çökertti. TDV Func: 'Dongola yakınından geçen Nil ve Dördüncü Şelâle ile çevrelenen bölge … Şâyikıyye … istiklâllerini ilân etti, Abdellâb'a cizye vermeyi kesti' (II. Bâdî, 1649-1680 civarı). Func ülke sınırı 'Üçüncü Şelâle’den Mavi Nil’e' (II. Bâdî). 1504 YIL KAYNAKLI (Func kuruluşu); 1821 sonu TDV Func: VII. Bâdî 1804-1821 (Func'ın son sultanı) KAYNAKLI yıl; Kerma için Func tâbiliği beyanlı yaklaşıklık. Şayıkıyye için atlas künyesi var mı ölçülmedi."
+  },
+  {
+   "ad": "Kerma",
+   "dosya_satir": "data/yerlesimler_afrika.js:869",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "oneri": {
+    "d": "mehdi",
+    "f": "1885-01-26 (Hartum'un düşüşü; Kerma/Dongola'ya özgü değil)",
+    "t": "1898-09-02 (Mehdî Devleti'nin sonu; Ömdürman)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Muhammed Ahmed el-Mehdî» md., https://islamansiklopedisi.org.tr/muhammed-ahmed-el-mehdi",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Dongola» md., https://islamansiklopedisi.org.tr/dongola",
+   "alinti2": "1886 yılına kadar Mısır’ın, bu tarihten itibaren on yıl da bölgedeki Sudan Mehdî Devleti’nin hâkimiyetinde kalan Dongola, 1896’da Lord Kitchner’in kuvvetleri tarafından zaptedildi. Üç yıl sonra 19 Ocak 1899 tarihinde imzalanan Kahire Antlaşması ile Sudan üzerinde İngiliz-Mısır ortak idaresi kuruldu.",
+   "not": "YÜKSELTME TURU (CELISKI): CELISKI (öneri vs TDV): öneri t=1898-09-02 Ömdürman/Hartum düşüşüdür, Kerma/Dongola'ya özgü DEĞİL; TDV Dongola Mehdî hâkimiyetini 1886-1896 verir ve Dongola'nın 1896'da Kitchener'in kuvvetlerince zaptedildiğini söyler (Kerma 20 km güneyde, ABİ MERKEZ). Yani Kerma Mehdî'den 1896'da çıkar; öneri t (1898-09-02) 2 yıl geç. TDV f'yi de 1886 verir (atlas f=1885-01-26 Hartum günü, Kerma'ya özgü değil). Mevcut t=1899-01-19 (Kahire Antlaşması, TDV günü verir) ise yalnız hukukî devir/ortak idare günüdür: 1896-1899 arası Kitchener fethi sonrası isg/Anglo-Mısır katmanı gerekir (TEK KURAL). Karar EMRELİC'in; öneriyi DEĞİŞTİRMEDİM. Gün düzeyi 1896'da yok (YIL). Mehdî'nin ölümü 22 Haziran 1885 (TDV) ayrı olay. · ÇELİŞKİ (bitiş): atlas t=1899-01-19 (Anglo-Mısır Kondominyumu antlaşması günü); TDV Mehdî Devleti'ni 2 Eylül 1898'de bitirir. TEK KURAL: 1898-09-02 fiilî fetih → isg:ingiltere? ya da mısır-ingiltere; s: hukukî devir 1899-01-19 (Kondominyum anlaşması) → mevcut t=1899-01-19 kuralla UYUMLU (bkz. TEK KURAL: s: hukukî devirden), yalnız 1898-09-02..1899-01-19 arasının isg katmanı (isg ingiltere-mısır) eklenmeli ve bu Kerma için Dongola'nın 1896 Eylül Kitchener seferi ile ayrı (Dongola Mehdî elinden 1896'da çıktı; TDV Dongola'da bu okunmadı, BULUNAMADI) → Kerma Mehdî'den 1896'da çıkmış olabilir: KASA ikinci kaynak (Cambridge History of Africa / Holt, Modern History of the Sudan) ile bakmalı. Mehdî'nin ölümü 22 Haziran 1885 (TDV)."
+  },
+  {
    "ad": "Halep",
    "dosya_satir": "data/yerlesimler.js:873",
    "alan": "v",
@@ -1218,6 +1775,72 @@
    "kaynak2": "TDV «Halep» https://islamansiklopedisi.org.tr/halep (05.11.2026'da okundu)",
    "alinti2": "1832’de Mısırlı İbrâhim Paşa Halep’i işgal etti ve şehir 1840’a kadar Mehmed Ali Paşa’nın hâkimiyetinde kaldı",
    "not": "YÜKSELTME TURU (CELISKI): TDV Halep (okundu, birebir): şehir 1840’a kadar Mehmed Ali Paşa’nın hâkimiyetinde kaldı. Atlas t=1841-02-25 ile çelişir. TDV yalnız YIL; 'kadar' tahliyenin 1840 içinde bittiğini düşündürür, ama 1840-01-01 yazmak ~11 ay erkene çeker → öneri uygulanmadan beyanlı yaklaşıklık ya da gün kaynağı gerek. Öneri d 'v: Mısır (İbrâhim Paşa)' künye id değil. 'İşgal' kelimesi: Kütahya sonrası Mehmed Ali'nin idareye katması → v uygun, isg değil. Karar EMRELİC'in. · Mevcut satır zaten kaynaklı (f gün TDV ibrahim-pasa). Okurken görülen çelişki: TDV Halep bitişi YIL 1840 diyor, atlas 1841-02-25. Hicrî/gün yok, YIL hassasiyeti; atlas t 1841-02-25 başka kaynaklı olabilir (Osmanlı tahliyesi). TDV şehir maddesi 'işgal' kelimesini kullanıyor (TEK KURAL: isg adayı) — kural kararı KASA/koordinatörde; ben değiştirmedim."
+  },
+  {
+   "ad": "Elbistan",
+   "dosya_satir": "data/yerlesimler.js:1627",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1522-01-01",
+   "t": "1920-04-23",
+   "oneri": {
+    "f": "1521-01-01",
+    "t": "1920-04-23",
+    "v_t": "1521-01-01"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Elbistan» md., https://islamansiklopedisi.org.tr/elbistan",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Dulkadıroğulları» md., https://islamansiklopedisi.org.tr/dulkadirogullari (5.11.2026'da okundu)",
+   "alinti2": "Şehsuvaroğlu Ali Bey ... Artukova'da çocuklarıyla birlikte katlettirdi (1522). Ali Bey'in öldürülmesinden sonra Dulkadırlı ülkesi Osmanlı topraklarına katılarak Maraş merkez olmak üzere bir eyalet haline getirildi.",
+   "not": "YÜKSELTME TURU (CELISKI): ÖNERİ DEĞİŞTİRİLMEDİ (ÇİFT-TDV; karar EMRELİC'indir). Taraf 1: TDV «Elbistan»: '1521 yılında Ali Bey'in ortadan kaldırılması ve Dulkadıroğulları Beyliği'ne son verilmesiyle Elbistan doğrudan Osmanlı idaresine bağlandı' (şehir maddesi; ÇİFT-TDV kuralı üçüncü kaynak bulunamazsa bunu esas alır). Taraf 2: TDV «Dulkadıroğulları»: 1337-1522; Ali Bey 1521'de Canbirdi Gazâlî ayaklanmasının bastırılmasında görev almış, öldürülmesi ve ilhak (1522). Aynı madde iç tutarlı biçimde 1522 verir; 1521-01-01 Ali Bey'in 1521'deki faaliyetinden ÖNCE kalır. Atlas: dulkadir künyesi t=1522-01-01 + tabi t=1522 (devletler.js:487), olaylar_ek5.js:555 'Dulkadir ülkesinin ilhakı' 1522-01-01 (yer: Elbistan dahil); öneri künye t'sini ve bu maddeyi bozar (Maraş/Göksun/Gürün/Darende de aynı gün). Üçüncü bağımsız (TDV dışı) kaynak bulunamadı. Öneri: 1522 kalsın, TDV Elbistan 1521 ic_not'ta beyan. · ÇİFT-TDV ÇELİŞKİ: «Elbistan» md. = 1521 (Ali Bey'in ortadan kaldırılması, Elbistan doğrudan Osmanlı'ya bağlandı); «Dulkadıroğulları» md. = Ali Bey Artukova'da öldürüldü (1522), ülke Osmanlı'ya katıldı. Üçüncü bağımsız akademik kaynak bu partide aranmadı/bulunamadı ⇒ kural gereği ŞEHİR maddesi esas (1521), Dulkadıroğulları 1522 beyanlı. Karar KASA/koordinatörde; mevcut 1522 Dulkadıroğulları'na dayanıyor. v dönemi t'si de aynı kararla 1521-01-01 olur. Bitiş 1920-04-23 TBMM kuralı (KURAL KARARI)."
+  },
+  {
+   "ad": "Maastricht",
+   "dosya_satir": "data/yerlesimler_avrupa.js:399",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1516-01-23",
+   "t": "1632-08-22",
+   "oneri": {
+    "f": "1579-01-01 (Hrvatska enciklopedija) – ispanya adına"
+   },
+   "kaynak": "Hrvatska enciklopedija, «Maastricht», https://enciklopedija.hr/clanak/maastricht (Leksikografski zavod Miroslav Krleža)",
+   "kaynak2": "Hrvatska enciklopedija, «Maastricht», https://enciklopedija.hr/clanak/maastricht (okundu); Treccani «Maastricht» ilgili cümleyi taşımıyor",
+   "alinti2": "bio je pod zajedničkim suverenitetom biskupa Liègea i vojvoda od Brabanta (koje je 1579. zamijenila Španjolska) od 1204. sve do 1632.",
+   "not": "YÜKSELTME TURU (CELISKI): Kaynak cümlesi okundu: İspanya Brabant dükünün yerine 1579'da geçer (ispanya künyesi f 1479, hayalet değil). AMA: (a) tek cümle, yıl düzeyi; Brabant dükü zaten Habsburg'dur ve atlas Utrecht'te Karl V egemenliğini 1528'den 'ispanya' yazıyor (Treccani Utrecht) ⇒ aynı convention'la 1516-1579 'ispanya' kalırsa 1579 ucu atlas içinde tutarsız kalır; (b) f→1579 yapılırsa 1516-1579 arası SAHİPSİZ (almanya satırı 1516'da bitiyor; burgonya künyesi t 1482-03-27) ⇒ Değişmez 1 ihlali, 'brabant-dukaligi' künyesi (1190-1795) 1516-1579'u kapatabilir ama bunu kaynak söylemiyor. İki taraf: atlas ispanya 1516-01-23 (Karl'ın İspanya tahtı; Brabant'ta Habsburg) ↔ kaynak 1579. Öneri DEĞİŞTİRİLMEDİ; karar EMRELİC'in: ya 1516-1579 için Habsburg Hollandası/brabant-dukaligi künyesi, ya ispanya 1516'da kalır ve 1579 ic_not'a. Not: ortak egemenlik (Liège piskoposu + Brabant) kaynakta var — 1204 sonrası tek sahip modeli beyanlı yaklaşıklık. · ÇELİŞKİ (mevcut kaynaklı dönemle): kaynak İspanya'yı Brabant dükünün yerine 1579'dan beri gösterir (1516 değil); bitiş 1632 YIL KAYNAKLI (Hollanda'ya geçiş). Gün 08-22 başka kaynak. 1516-1579: Habsburg Burgonya Hollandası (Charles V) — Burgonya/Habsburg künyesi; İspanya adı 1555/1579."
+  },
+  {
+   "ad": "Humus",
+   "dosya_satir": "data/yerlesimler.js:1676",
+   "alan": "v",
+   "d": null,
+   "f": "1832-07-08",
+   "t": "1841-02-25",
+   "oneri": {
+    "f": "1831-01-01 (TDV humus: 1246 H / 1831; iç tutarsız — 1246 H ≈ 1830-06..1831-05)",
+    "t": "1840-01-01 (YIL)",
+    "d": "v: Mısır (İbrâhim Paşa)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, «Humus (Suriye)» md., https://islamansiklopedisi.org.tr/humus--suriye (4.11.2026'da okundu)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa» md., https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa (5.11.2026'da okundu; 'Humus' geçmiyor)",
+   "alinti2": "Antlaşma gereği ... Suriye'yi boşaltmayı taahhüt etti (Napier anlaşması); 24 Mayıs 1841 tarihli bir fermanla Mısır'ın irsî idaresi ... ilân edildi.",
+   "not": "YÜKSELTME TURU (CELISKI): ÖNERİ DEĞİŞTİRİLMEDİ. Taraf 1 (atlas): f=1832-07-08 (olaylar_ek4.js:193 'Humus Muharebesi', 8 Temmuz 1832) ve t=1841-02-25 (olaylar_ek4.js:317 'Mısır ordusu Suriye ve Çukurova'yı boşalttı') kronoloji maddeleriyle bağlı. Taraf 2 (TDV «Humus»): 'Mısır Valisi ... İbrâhim tarafından alınan şehir 1840 yılına kadar Mısır idaresinde kaldı' (1246/1831 ... 1840), YIL. Çelişki: TDV'nin '1246 (1831)' çifti kendi içinde uyuşmuyor (1246 H = 1830-06..1831-06; İbrâhim Suriye'ye 1831 sonunda girdi), 1831-01-01 önerisi hem Humus Muharebesi maddesiyle (8.7.1832 sonrası Humus'un Mısır elinde olduğu bir muharebe) hem de Değişmez 2 ile çatışır (1831-01-01 ve 1840-01-01'de kronoloji maddesi yok). TDV Kavalalı md. 'Humus' içermiyor. Karar EMRELİC'indir; en güvenli: f/t atlas günleri korunur, TDV humus 1831/1840 ic_not'ta beyan. alan v: TDV Kavalalı md. Suriye'nin 1831-41 Mısır idaresini ve Londra 1840/Napier boşaltma sürecini anlatır; v/isg ayrımı için Hofman gerekir (idareye katma belgesi: vergi/defter). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): Şam emsali: 1918-10 kurulan Arap hükümeti iç Suriye'yi yönetti → s: suriye-arap-kralligi 1918-10 → 1920-07-25, sonra suriye-lubnan-mandasi (Gouraud idaresi devraldı). 'Manda 1922' DEĞİL; 1922 Milletler Cemiyeti onayı ic_not. · ÇELİŞKİ/TEYİTSİZ: TDV humus f=1246 (1831), t=1840 (YIL). Atlasın 1832-07-08 ucu TDV'de YOK (Humus Muharebesi'nin günü olduğu başka kaynakla — bu oturumda okunmadı); t=1841-02-25 de TDV'de yok, TDV 1840 der. TDV'nin '1246 (1831)' hicrî-milâdî çifti kendi içinde uyuşmuyor (1246 H = 1830-31; İbrâhim Paşa Suriye'ye Kasım 1831'de girdi): TDV 'Mehmed Ali Paşa/İbrâhim Paşa' maddeleri okunmadı, üçüncü kaynak aranmadı (8 çağrı bütçesi sınırı). Karar: KASA/Emre; en güvenli: f 1832 YIL ya da 1831 YIL (beyanlı), t 1840 YIL (TDV humus). Ayrıca Mısır işgali isg mi v mi — TEK KURAL: Mısır valisi Osmanlı tâbii, savaşla alınmış → idareye katılmış sayıldığı için v (atlas kararı), KURAL KARARI gerekmez."
+  },
+  {
+   "ad": "Kerkük",
+   "dosya_satir": "data/yerlesimler.js:889",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1508-01-01",
+   "t": "1534-12-04",
+   "oneri": {
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "d": "safevi"
+   },
+   "kaynak": "TDV «Kerkük» md.",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Kerkük» md., https://islamansiklopedisi.org.tr/kerkuk (05.11.2026 okundu)",
+   "alinti2": "Bıyıklı Mehmed Paşa, Rebîülâhir 922'de (Mayıs 1516) ... Kerkük de dahil Mardin, Musul ... yerleri alarak bölgede Osmanlı hâkimiyetini sağladı. Fakat ... sık sık el değiştiren şehir, ... 1534 tarihinde düzenlediği Irakeyn Seferi'nin ardından tam olarak Osmanlı idaresine girdi",
+   "not": "YÜKSELTME TURU (CELISKI): Öneri satırı atlasla aynı (safevi 1508-01-01 → 1534-12-04, tek parça). TDV Kerkük (okundu): 1516 Mayıs'ta Osmanlı hâkimiyeti sağlandı, ardından 'sık sık el değiştirdi', kalıcı idare 1534 sonrası. Yani atlasın 1516-1534 arası kesintisiz Safevî'si TDV'nin anlatısıyla örtüşmüyor; ara el değişimlerinin tarihi TDV'de yok. Karar EMRELİC'in (dilim bölünürse 1516-05 AY düzeyinde; Osmanlı tahrir/sancak belgesi gerekir, 'hâkimiyet sağlandı' ölçütü yeterli değil). 1508 başı ve 1534-12-04 (Bağdat'ın düşüşü) TDV Kerkük'te yok; 1534 YIL. · UYARI (dilim bölme önerisi YOK, tarihli kaynak yok): TDV Kerkük'e göre Bıyıklı Mehmed Paşa Mayıs 1516'da (AY, Rebîülâhir 922) Kerkük'ü Osmanlı hâkimiyetine aldı, ancak şehir 'sık sık el değiştirdi' ve 'tam olarak' ancak 1534 Irakeyn Seferi'nden sonra Osmanlı idaresine girdi (Kanûnî 17 Şevval 941 / 21 Nisan 1535'te Kerkük'e geldi, 24 gün kaldı). Atlas 1508-1534 tek Safevi yazıyor; 1516-05 AY'dan itibaren Osmanlı fiilî denetimi kaynakta var, ara el değişimleri tarihsiz. 1534-12-04 bitişi (Bağdat'ın düşüşü) TDV Kerkük'te günsüz (1534 YIL); 1508 başlangıcı TDV Kerkük'te yok. Öneri: dilim 1516-05 (AY) ile bölünebilir: safevi 1508→1516-05, d OSMANLI 1516-05→? ve ara el değişimleri tarih bulunana dek BEYANLI YAKLAŞIKLIK."
   }
  ]
 }

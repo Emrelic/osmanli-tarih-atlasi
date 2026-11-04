@@ -838,6 +838,37 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Ubârî kararı (gece-8, "1943-51 isg") bununla güncellendi.
 - **Buhara:** y_014 ajanı "Buhara Halk Cumhuriyeti künyesi bulunamadı" dedi. Künye var: `buhara-halk-cumhuriyeti` (`devletler.js:9302`, 1920-10-08 → 1924-10-27). LAB sorusu gerekmez.
 
+## 36. Amur / Rus Uzak Doğu kümesi (EMRELİC isteği; `amur_sonuc.json`, 13 yerleşim, 32 dönem satırı)
+- **Sayım:** KAYNAKLI 8 · ONERI 17 · BULUNAMADI 7.
+  - KAYNAKLI satırların hepsi okunmuş antlaşma metnine dayanıyor: Nerçinsk Rus nüshası, Aigun, Pekin ve Şimoda (ru.wikisource, worldjpn).
+  - Kuruluş günlerinin çoğu yalnız ikincil ya da popüler kaynakta → ONERI.
+- **Okunan antlaşma maddeleri:**
+  - **Aigun:** Rusça metin "mayıs 16" → Jülyen 16 Mayıs = 1858-05-28. Md.1: Amur sol yakası Rusya'ya; Ussuri'den denize kadar olan toprak ortak mülk.
+  - **Pekin:** "2/14 ноября 1860". Md.1: Ussuri'nin doğu yakası Rusya'ya.
+  - **Şimoda:** 26 Ocak 1855 Jülyen = Ansei 1/12/21 = 1855-02-07. Md.2: Sahalin bölünmeden kalır.
+  - **Nerçinsk:** Rus nüshası "Signed 27th August 1689" Jülyen → Gregoryen 1689-09-06 (17. yy'da fark 10 gün). Atlasın mevcut 09-06'sı Jülyen/Gregoryen kuralıyla uyumlu. Brifteki 09-07 Qing/Batı tarafının günüdür. Qing günü Academia Sinica çevirisiyle EMRELİC'te. Md.1: Uda ile dağlar arası bölgenin yargı yetkisi "açık kalır".
+- **Önerilen zincirler (TEK ÖLÇÜ):**
+  - **Blagoveşçensk:** Rus 1651-89 dilimi KALDIRILIR. Sonra qing 1689 → `isg rusya` (Ust-Zeya karakolu, 1856) → `s: rusya` 1858-05-28 (Aigun imzası; Rusya fiilen yönetiyordu).
+  - **Nikolayevsk:** 1689 öncesi boşluk → qing → `isg rusya` 1850-08-13 (Jülyen 1 Ağustos; teyitsiz) → `s: rusya` 1858-05-28.
+  - **Habarovka ve Vladivostok:** qing 1653 başlangıcı kaynaksız → qing 1689 → ortak bölge 1858-05-28 → `s: rusya` 1860-11-14 (Pekin). Vladivostok kuruluşu 1860, yıl düzeyinde teyitli.
+  - **Albazin:** Daur boşluğu → rusya 1651 → qing 1689 → rusya 1858. Rusya sahada idare kurmamıştı; imza günü BEYANLI.
+  - **Ayan:** `s: rusya` 1679 yerine 1844'ten başlar (1679 Udskoy'un yılı).
+  - **Korsakov, Aleksandrovsk, Kuzey Sahalin:** 1855-02-07 öncesi boşluk → ortak bölge 1855-02-07 → 1875-05-07 (St. Petersburg imzası; onay 1875-08-22 `ic_not`'a) → rusya.
+  - **Ohotsk, Udskoy, Nerçinsk, Aigun:** korunur. Nerçinsk'in kuruluş yılı (1653/1654/1658) çözülmedi.
+- **Künye ölçümü:** qing (1616 → 1912), rusya (1547 → 1917) ve meiji-japonya (1868 →) aralıkları kapsıyor; hayalet devlet yok.
+- **LAB'a künye soruları:**
+  - Ortak/tarafsız bölge künyesi: Ussuri 1858-60, Sahalin 1855-75, Uda 1689-1858.
+  - Ainu, Daur ve Nivkh halkları için künye.
+  - Şimdilik beyanlı `__BOSLUK__` önerildi.
+- **Ölçülmedi:** Korsakov 1905 ve 1945 uçları; Japon Ōtomari çekilişi.
+- **EMRELİC onayı (gece-17):**
+  - **Nerçinsk:** 1689-09-06 KALIR.
+    - `ic_not`: "Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark".
+  - **Amur önerileri:** onaylandı (TEK ÖLÇÜ).
+  - **Ortak bölgeler:** Ussuri 1858-60, Sahalin 1855-75 ve Uda 1689-1858 için şimdilik beyanlı `__BOSLUK__` yazılır.
+    - Değişmez 1 gereği var olan yerleşimde beyan şarttır.
+  - **Künye soruları:** EMRELİC LAB'a iletti (ortak bölge künyesi; Ainu, Daur, Nivkh).
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.
