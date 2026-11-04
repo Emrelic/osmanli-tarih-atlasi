@@ -15,6 +15,8 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2E 927-951 (EMRELİC)
+    "L2-1326": "Brabant 1354 → 1356-01-03 (Joyeuse Entrée) adayı: dayanak yalnız Persée'deki eser başlığı → KISMEN; metin okunmadan uygulanmaz (EMRELİC)",
     # L2S 198-222 (S9): ajanın kendi ganzhi hesabı (Sinica IP engeli) — Academia Sinica teyidine kadar
     "L2-559": "[çeviri doğrulanmadı] Batı Wei sonu 557-01-01 → 557-02-14 adayı (Zhou shu 3: 魏恭帝三年十二月庚子 禪位); künye ucu, Değişmez 2 ±30 gün kontrolü — Academia Sinica teyidi bekliyor",
     "L2-565": "[çeviri doğrulanmadı] Shouyang 573-11-10 → 573-11-22 adayı (ZZTJ 171 冬十月乙巳; atlas 10. ayın 1. günü) — Academia Sinica teyidi bekliyor",
@@ -194,6 +196,12 @@ METIN = [
     ("L2-577", "Áedán mac Gabráin: Annals of Ulster 606 (AI 609, [AU 606]) → 606 + ic_not 608/609; «Yerine Eochaid Buide geçti» annallarda yok → çıkarılır ya da kaynaklanır"),
     ("L2-575", "[BEKLE — tek dayanak EB1911] Frizya 600: bilinen en eski kral Aldgisl (~678, Vita Wilfridi) — 600 desteklenmiyor"),
     ("L2-576", "[BEKLE — tek dayanak EB1911] Gaskonya: Fredegar IV.21 açılamadı"),
+    # L2E 927-951 (EMRELİC)
+    ("L2-1344", "Gelre 1423: yıl doğru, metin yanlış — Sigismund Arnold'u tanımadı, Berg'li Adolf'u destekleyip Arnold'u yasakladı (NDB) → metin düzeltilir"),
+    ("L2-1339", "Sanluri: Treccani'nin iki maddesi 30 Haziran / 1 Temmuz 1409 → 30 Haziran yazılır, çelişki ic_not'a iki maddesiyle"),
+    ("L2-1341", "[BEKLE — 1415 desteksiz] Glyndŵr: Galler Biyografi Sözlüğü 1415 vermez («1412'den sonra duyulmaz, 1416'ya kadar yaşadı») → ifade ve yıl yeniden"),
+    ("L2-1335", "[BEKLE — ipucu] Nijniy Novgorod yarlığı 1391 değil 1393 olabilir"),
+    ("L2-1336", "[BEKLE — ipucu] Nijniy Novgorod yarlığı 1391 değil 1393 olabilir"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
