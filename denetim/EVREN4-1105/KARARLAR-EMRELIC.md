@@ -130,7 +130,7 @@ Künye ölçümü (KASA):
 - `katar` f 1868-01-01.
 - `laos-kralliklari` 1707-01-01 → 1893-10-03.
 - `laos-kralligi` 1953-10-22 → 1975-12-02. 1893-1953 arasında Laos'ta künyeli bir `s:` sahibi yok.
-- Tanganyika manda künyesi YOK.
+- ~~Tanganyika manda künyesi YOK.~~ **DÜZELTME:** künye VAR, `ingiliz-tanganika-mandasi` (f 1922-07-20, t 1961-12-09, harita 'ingiltere', devletler.js:9910). KASA yanlış id'leri (`tanganyika-*`) aramıştı; LAB SALI 4c01c52ee'de düzeltti.
 
 Kararlar:
 - **(a) Katar:** yürürlüğe girmemiş bir sözleşme hukukî devir sayılmaz, bu yüzden TEK ÖLÇÜ'nün imza dalı uygulanmaz.
@@ -148,6 +148,26 @@ Kararlar:
   - 1919-06-28 Versay imzasından itibaren `s: ingiltere`, çünkü İngiltere yeri zaten yönetiyordu. Tanganyika manda künyesi açılırsa dönem o künyeye geçer; şu an künye yok.
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
+
+## LAB SALI: gece-56 soruları (4c01c52ee; satırlar HAYALET-KARAR'da, kaynak turu yapılmadı)
+
+1. **Laos:** Luang Prabang kraliyet devleti 1893'te bitmedi; Fransız himayesi bir vasallıktır (Kamboçya kuralı).
+   - LAB'ın önerisi: `laos-kralligi` künyesinin f'si → 1893-10-03. Künye tek kalır, "Luang Prabang Krallığı → Laos Krallığı" bir unvan ve rejim değişimi sayılır.
+   - Bu künyeye 1953-10-22'ye kadar `v: fransa` eklenir.
+   - 1947 anayasası ve 1949-07-19'daki bağlı devlet statüsü `ic_not`a.
+   - `laos-kralliklari` künyesinin t'si uzatılmaz; uzatmak toplu künyeyi bozar (Vientiane 1828'de bitti).
+   - Doğrudan Fransız idaresindeki Laos yerleşimleri 1947'ye kadar `fransiz-cinhindi` kalır.
+   - Karar EMRELİC'in. Alternatif: ayrı bir `luang-prabang` künyesi.
+2. **Tanganika:**
+   - 1919-06-28 → 1922-07-19 arası `s: ingiltere`. Namibya emsaline uygun.
+   - 1922-07-20'den itibaren `s: ingiliz-tanganika-mandasi`; renk aynı kalır.
+   - Kilve ve Bagamoyo zincirlerinde 1922-07-20 kırılması olup olmadığına bakılmalı.
+3. **Pate Nebhânî Sultanlığı:** yeni künye adayı. Umman'daki `nebhani` künyesinden ayrı bir devlet.
+4. **kilva:** künyenin t'si (1505) devletin sonu değil.
+   - 1505-07 → 1513 `isg portekiz`. TDV: "1513'te idareyi geri aldı".
+   - 1513'ten sonra sultanlık Portekiz'e haraçgüzar.
+   - t GENİŞLET adayı, Umman hâkimiyetine kadar (1784-86). TDV «Kilve» cümlesi birebir okunmalı.
+5. **Pajang:** zaten aday listesinde (aday sayısı 22). Demak/Mataram zinciri EMRELİC onayıyla UYGULA'da.
 
 ## LAB SALI: gece-50 soruları (158b1d870, HAYALET-KARAR; satırlar öneri, kaynak turu yapılmadı)
 
