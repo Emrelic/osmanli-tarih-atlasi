@@ -15,10 +15,15 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 423-447 (S13)
+    "L2-782": "Eritre BMA 1941-01-01 → ? : Keren düşüşü 03-27, Asmara teslimi 04-01 (Playfair, UK official history vol.I ch.XXIII); BMA resmî kuruluş günü kaynakta yok → madde Keren mi Asmara mı netleşmeden düzeltilmez",
+    "L2-791": "Arnavutluk 1943-09-14 → 09-11 adayı (Ademi 2021: komite 11 Eylül bağımsızlığı yeniden ilan etti; 14 Eylül Biçaku çağrısı); kuruluş günü kaynakta ayrıca yok, tek kaynak",
+    "L2-796": "BMA Malaya 1945-01-01 → 1945-09-03 (Cheah, ISEAS 2002) / 09-05 (JSEAS) çelişkisi → üçüncü kaynak; MacMichael 11 Ekim, Malaya Birliği 1946-04-01 hukukî",
+    "L2-797": "BMA Malaya 1945-01-01 → 1945-09-03 (Cheah, ISEAS 2002) / 09-05 (JSEAS) çelişkisi → üçüncü kaynak",
+    # L2S 448-469 (S14)
+    "L2-826": "Müttefik Kontrol Konseyi: Sovyet ayrılışı 1948-03-20 «virtually dissolved» (Hansard HC 6 Nisan 1948; International Organization 2/3) fiilî; Konsey hukuken feshedilmedi, Yüksek Komiserlik 1949-09-21 → tek kural gereği atlas 1949-09-20 KALIR adayı; 1948-03-20 ic_not'a. Sınır kırılmasına bağlıysa önce ölç",
     # L2S 248-272 (S11)
-    "L2-606": "[çeviri doğrulanmadı] Silla 674 1. ay başı 674-02-12 ajan hesabı (Samguk sagi 7) — zayıf aday, Academia Sinica teyidi bekliyor (EMRELİC)",
     "L2-629": "Jin (Li Keyong) 902 → 895 zayıf aday: «封晉王» Xin Wudai shi 4 乾寧二年 anlatısında, yıl başlığı açık değil; künye kuruluşu mu unvanı mı tarihliyor — ikinci kaynak",
-    "L2-608": "Pakal ölümü 9.12.11.5.18: GMT 584283 ile 683-08-26 Jülyen = 08-29 proleptik Gregoryen; atlas 08-29 Gregoryen görünüyor, 1582 öncesi Jülyen kuralıyla 08-26 — Martin & Grube 2008 s.162 okunmadan karar yok (ajan hesabı)",
     # L2E 273-297 (EMRELİC @7fc83e4): ganzhi günleri Academia Sinica teyidine kadar BEKLE
     "L2-638": "[çeviri doğrulanmadı] ganzhi günü (908 / 913 / 915 / 918 Goryeo / 923) — Academia Sinica teyidi bekliyor (EMRELİC)",
     # L2S 173-197 (S8): ajanın kendi ganzhi hesabı, gün taşıyan iki madde — Academia Sinica teyidine kadar
@@ -41,6 +46,7 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    "L2-607": "Takvim: Xianheng 4/12/25 丙午 = 674-02-06 (Academia Sinica)",
     # L2S 223-247 (S10) — EMRELİC Academia Sinica
     "L2-583": "Takvim: Wude 1/9/12 甲寅 = 618-10-06 (Academia Sinica; atlas 09-24 8. aya düşer) → TARIH DÜZELT",
     "L2-584": "Takvim: Wude 1/11/8 己酉 = 618-11-30 (Academia Sinica; atlas 11-22 10. aya düşer) → TARIH DÜZELT",
@@ -86,6 +92,9 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-606": ("tarih düzelt", "674-01-01 → 674-02-12 + «[yalnız ay teyitli; gün teyitsiz]» (ay hassasiyeti; «674-02» yazılmaz — CLAUDE.md: ayın 1'ine genişler, Çin ayının başı 02-12'dir): Takvim: 咸亨5年 (Munmu 14) 正月 = 674-02-12…03-12 Jülyen (Academia Sinica, EMRELİC); Samguk sagi 7 十四年春正月"),
+    "L2-770": ("tarih düzelt", "Taif Antlaşması 1934-06-14 → 1934-05-20 imza (Bostancı, Karadeniz Araştırmaları Enstitüsü Dergisi 10/21, 2024, s.51-76: 6 Safer 1353; metin 19, alt başlık 20 Mayıs — hicrî kesişim 20 Mayıs'ı verir, ic_not'ta iki gün beyan); onay 12 Haziran (Abdülaziz) / 26 Haziran (İmam Yahya), yürürlük ve mübadele 1934-06-26 → ayrı madde ya da ic_not; atlas 06-14 hiçbir uca uymuyor"),
+    "L2-608": ("tarih düzelt", "683-08-29 → 683-08-26 (EMRELİC kararı): uzun sayım 9.12.11.5.18 yazıtın kendisi (birincil); GMT 584283 = Jülyen 683-08-26 (584285 ile 08-28); atlasın 08-29'u proleptik Gregoryendi → ic_not; Martin & Grube 2008 s.162 okununca kaynağa eklenir, günü değiştirmez"),
     # L2E 273-297 takvim düzeltmeleri (EMRELİC, Academia Sinica)
     "L2-635": ("tarih düzelt", "908-01-01 → 908-02-23: Takvim: Tianyou 5/1 辛卯 = 908-02-23 Li Keyong öldü, Cunxu tahta (Academia Sinica)"),
     "L2-639": ("tarih düzelt", "913-11-01 → 914-01-01: Takvim: Qianhua 3/12 庚午 = 914-01-01 (11. ayda 庚午 yok; 913-11-02 10. aya düşer) Zhou Dewei Lulong valisi (Academia Sinica)"),
@@ -155,6 +164,27 @@ METIN = [
     ("L2-613", "[BEKLE — Treccani 754 / atlas 751] Childerich III tahttan indirilişi: Treccani 754 der → üçüncü kaynak, çelişki ic_not'a"),
     ("L2-615", "[BEKLE — tek dayanak EB1911] Septimania: EB1911 756 (Pippin), atlas 759"),
     ("L2-619", "[BEKLE — tek dayanak EB1911] Gaskonya 778 dayanaksız; EB1911 Lupus II teslimi 819"),
+    # L2S 448-469 (S14)
+    ("L2-807", "Surakarta: Cumhuriyet'e bağlılık maklumatı 1945-09-01 (Ni'matul Huda, Jurnal Hukum IUS QUIA IUSTUM 20/3, 2013); 09-06 Piagam Kedudukan'ın teslim günü → «6 Eylül'de bağlılık ilan etti» düzeltilir; Piagam teslimi istenirse ayrı madde"),
+    ("L2-812", "[BEKLE — Cassazione 18 Haziran Treccani'de yok] Umberto II 13 Haziran'da Quirinale'den ayrıldı (Treccani) → «krallık sona erdi» günü 12-13 Haziran olabilir"),
+    ("L2-816", "[BEKLE — ipucu] Kuzey Kore: Geçici Halk Komitesi Şubat 1946; 21-22 Şubat 1947 Halk Meclisi → olay adı karışık olabilir"),
+    ("L2-825", "Bingazi/Kirenayka Emirliği: FRUS 1950 V d872 1 Haziran 1949'u bağımsızlık beyanı verir; İngiliz tanıma günü belgede yok → metin FRUS'a göre"),
+    # L2S 398-422 (S12)
+    ("L2-757", "Paris 1259: antlaşma Kanal Adaları'nı adıyla anmaz (Dawes, Jersey & Guernsey Law Review 2015); Henry III onları Fransa kralına liege homage ile tutar → «Taç mülkü olarak kaldı» ve «Fransız iddiası sona erdi» düzeltilir"),
+    ("L2-759", "Perth 1266: «4000 mark» → «dört taksitte 4000 mark + yıllık 100 mark» (Oxford Companion to British History)"),
+    ("L2-760", "[BEKLE — Gregorovius tek] Viterbo 1267 Atina'dan söz etmez; egemenlik Achaea üzerinden ilke olarak; gün 24 / 27 Mayıs"),
+    ("L2-762", "Goryeosa cümlesi yalnız «賊» der, Samseongbyeolcho'yu adlandırmaz → ad yorum olarak işaretlenir"),
+    ("L2-765", "Venaissin: «(Avignon 1348'de ayrı kontluktu)» parantezi konu dışı → çıkarılır"),
+    ("L2-771", "«karar verdi» (Ağustos-Eylül) ile «yürüyüş başladı» (10-18 Ekim) iki ayrı olay → ayrılır"),
+    ("L2-776", "22 Eylül manifesto günü; Sınır Bölgesi hükûmeti 6 Eylül kuruldu → «feshedildi» hangisine bağlı netleşir"),
+    ("L2-778", "Memel 1939: antlaşma «Berlin, 22 Mart», Litvanya kararı 22 Mart; birleşme 23 Mart (DHM LeMO, Bertz 2010) → «kabul etti» 22 / «devredildi» 23 ayrılır; atlas 23 KALIR"),
+    ("L2-780", "[BEKLE — 12 Kasım teyitsiz] Gabon 1940: Libreville 9-10 Kasım, Port-Gentil 12 Kasım; Masson teslimden sonra intihar (FRUS 1940 II d740) → tek güne sıkışmaz"),
+    # L2S 423-447 (S13)
+    ("L2-783", "İngiliz Somalisi 1941-03-16 Berbera çıkarması (Playfair ch.XXII); askerî vali Chater ataması 04-08 ayrı gün → ic_not"),
+    ("L2-785", "[BEKLE — ad belirsiz] Mengjiang 1941 yeniden adlandırması Heibonsha ve J-STAGE'de yok; ad büyük olasılıkla 蒙古自治邦, Çin dergisi 1941/1943 iki aşama"),
+    ("L2-800", "Protektora hükûmeti fiilen 5 Mayıs 1945 sona erdi (Bienert tutuklandı); «Sovyet işgaliyle çöktü» kaynakla uyuşmaz — Prag 9 Mayıs kurtarıldı (Historická penologie 2/2006)"),
+    ("L2-801", "Okinawa: örgütlü direniş 21 Haziran bitti, harekât resmen 2 Temmuz ilan edildi (Appleman, CMH); Ryukyu ABD idaresine hukukî devir ayrı gün"),
+    ("L2-804", "Ağustos Devrimi 19 Ağustos 1945: kaynak (Tertrais, IGPDE) «ayaklanmanın başlangıcı» der; Bảo Đại feragati 25 Ağustos → metin başlangıç diline çekilir"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
@@ -246,10 +276,10 @@ def main():
             for r in csv.DictReader(f, delimiter="\t"):
                 s = (r.get("sonuc") or "").strip()
                 sayim[s] += 1
-                if s not in UYGULANIR:
-                    continue
-                is_ = UYGULANIR[s]
                 no = r.get("no", "")
+                if s not in UYGULANIR and no not in DEGISTIR:
+                    continue
+                is_ = UYGULANIR.get(s, "")
                 dm, simdiki = damga.get(no.replace("-ek", ""), ("", ""))
                 kaynak = r.get("kaynak", "")
                 yalniz_britannica = "britannica" in kaynak.lower() and not any(
