@@ -227,8 +227,8 @@
 },
 {
 "id": "bretanya",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge Medieval History III-VII — 939 / 1532-08-13 Fransa ile birlik fermanı"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 4) — Collins, Classes, Estates and Order in Early-Modern Brittany (CUP 1994), ch.4, s.157: 'the great treaty of 1532' (t 1532 YIL teyitli; 08-13 günü okunmadı) · ic_not: 'Fiilî Fransız denetimi 1491 evliliğiyle başladı; birleşme antlaşması 1532 (Collins 1994).' · f 939 OKUNMADI"
 },
 {
 "id": "burgonya",
@@ -472,8 +472,8 @@
 },
 {
 "id": "ahom",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1826-02-24 (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): Yandabo Antlaşması 24 Şubat 1826 tarihi yalnız ikincil kaynaklarda (EastMojo 2026, Mahabahu, NENow) okundu; antlaşma metni açık erişimde okunamadı. Ahom ucu muğlak: ikincil yazılar Yandabo'yu 'devir' değil 'feragat' diye tartışıyor; Yukarı Assam'da Purandar Singha 1833'te kukla olarak geri getirildi (bu madde ikincil kaynakta çıkmadı, bilgi notu). t günü 1826-02-24 antlaşma tarihi olarak teyitli, polity sonu olarak muğlak."
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 4) — Concise Oxford Dictionary of World Place Names, 'Assam': 'became part of British India in 1826' (t 1826 YIL teyitli; 02-24 Yandabo günü bu kaynakta yok) · İPUCU (kaynaksız): 1833–38 Purandar Singha altında Yukarı Assam tâbi devleti ayrı dilim olabilir · f okunmadı"
 },
 {
 "id": "manipur",
@@ -569,7 +569,7 @@
 {
 "id": "bali-kralliklari",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Ricklefs — f 1478-01-01 / t 1908-04-28 (bölüm: eserin dizininden) · EMRELİC Parti 3: f OKUNMADI"
+"kaynak": "GİRİŞLİ: Ricklefs — f 1478-01-01 / t 1908-04-28 (bölüm: eserin dizininden) · EMRELİC Parti 3: f OKUNMADI · EMRELİC Parti 4: OKUNMADI"
 },
 {
 "id": "pagaruyung",
@@ -1611,8 +1611,8 @@
 },
 {
 "id": "ekvador-cumhuriyeti",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1830-05-13 / t None (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 4) — Deas, Cambridge History of Latin America III, ch.12: Büyük Kolombiya'nın 1830 dağılışı ve Flores (f 1830 YIL teyitli; 05-13 günü kaynakta yok) · t okunmadı"
 },
 {
 "id": "haudenosaunee",
@@ -1752,8 +1752,8 @@
 },
 {
 "id": "guatemala-kaptanligi",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1609-01-01 / t 1821-09-15 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge (Parti 4) — Bethell (ed.), The Independence of Latin America (CUP), ch.2, s.89: 15 Eylül 1821 bağımsızlık bildirisi 'adopted by twenty-three votes to seven' (t 1821-09-15 GÜN teyitli) · OLAY TÜRÜ BEYANI: Gainza yönetimde kaldı; 'On 9 January 1822 Gainza announced the union' (Meksika'ya katılış) — kaptanlık kurumunun sonu İspanya'dan kopuş olarak 15 Eylül savunulur, t DEĞİŞMEZ · ic_not: 'İspanya'dan kopuş 15 Eylül 1821; Gainza yönetimde kaldı; 9 Ocak 1822 Meksika birleşmesi ilan edildi (Bethell, Independence of Latin America ch.2).' · f 1609 OKUNMADI"
 },
 {
 "id": "sican",
