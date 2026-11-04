@@ -34,6 +34,7 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | 27 | `powhatan` | t | 1646-10-01 | **1646-10-05** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, |
 | 28 | `diaguita-calchaqui-konfederasyonu` | t | 1667-01-02 | **1665-12-01** | KARAR (EMRELİC, 4 Kasım): t 1667-01-02 → 1665-12-01 (AY hassasiyeti; gün kaynakta yok) — Boixadós, 'El fin de las guerras calchaquíes. La desnaturalización de l |
 | 29 | `makedonya` | f | 1991-09-08 | **1991-09-17** | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MAKEDONYA, slug makedonya. '8 Eylül 1991’de yapılan referanduma dayanarak 17 Eylül 1991’de Makedonya Yugoslavya’ |
+| 30 | `uman-ibadi` | t | None | **0751-07-30** | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UMAN (/uman): "Hadramut İbâzî imâmetinin ortadan kalkmasının (131/748-49) ardından Umanlılar yaklaşık 132 (750)  |
 
 ## Künye adı değişiklikleri (metin; çeviriler sonra bayat görünecek)
 
@@ -47,7 +48,6 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 |---|---|---|---|
 | `tubu-tibesti` | f 1281-01-01 · t 1914-01-01 | t (kalıcı Fransız yeniden işgal günü) — önceki öneri 1914-09-01 GERİ ÇEKİLDİ | CHA VII (Suret-Canale) s.360 dn.40: 'the Tibesti mountains, from which French forces had withdrawn in 1916, were transferred from Niger to Chad' (1929) → 1914-16 TAHRİR ÖLÇÜTÜ'ne göre askerî işgal (isg), Tubu polity'si sürdü; t kalıcı yeniden işgal günüdür, kaynakta yok; 1929 Çad'a devri idarî işlem (EMRELİC kararı) |
 | `orta-afrika-imparatorlugu` | f 1976-12-04 · t 1979-09-20 | f 1976-12-04 → 1977-12-04 ve t 1979-09-20 → 09-21 (TDV) — ikinci akademik kaynak okunmadan UYGULANMAZ | TDV 'ORTA AFRİKA CUMHURİYETİ': '4 Aralık 1977'de kendisini imparator ilân eden Bokassa' + '21 Eylül 1979'da … darbeyle'. Kaynak kuralı TDV'yi esas alır, ama yaygın bilgiye göre 4 Aralık 1976 imparatorluk ilanı (anayasa), 4 Aralık 1977 taç giyme; TDV taç giymeyi ilan saymış olabilir. Çelişki ic_not'ta iki kaynakla beyan edilmeli; ikinci kaynak (Titley, Dark Age, 1997) OKUNMADI. t: darbe 20/21 Eylül gecesi |
-| `uman-ibadi` | f 0750-01-01 · t None | t (boş) → 0751 (TDV CÜLENDÂ b. MES‘ÛD müstakil maddesi: Abbâsî ordusu imamlığa son verdi, 134/751) | Künye adı 'I. imamlık' ama t boş (süren gibi görünüyor). TDV I. imamlığın sonunu 134/751 verir; hicrî 134 ∩ 751 kesişiminin ilk günü (CLAUDE.md hicrî kuralı) NAOJ/çevrim tablosuyla hesaplanmalı. Künye kapsamı kararı (yalnız Cülendâ imamlığı mı, İbâzî imamet geleneği mi) EMRELİC/Emre'de |
 
 ## Yerleşim ölçümleri (KASA kontrol etsin; LAB veriye yazmaz)
 
@@ -55,4 +55,4 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 
 Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] — ONERI.md.
 
-Toplam 29 alan düzeltmesi, 29 künye.
+Toplam 30 alan düzeltmesi, 30 künye.

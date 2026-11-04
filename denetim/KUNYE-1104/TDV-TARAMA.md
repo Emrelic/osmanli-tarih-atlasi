@@ -2,7 +2,7 @@
 
 LAB SALI · `lab-1104-kunye` · 4 Kasım 2026 · **veriye yazılmadı.** Süzgeç: TDV bölgelerinde (12 bölge) kaynağında olumlu TDV dayanağı olmayan, MÖ başlangıçlı olmayan **271** künye (devletler.js origin/main de1a83608). Yalnız TDV maddesi; ajan satırları LAB elemesinden geçti. DUZELT'ler `KASA-KUYRUK.md`dedir.
 
-Taranan: **261 / 271** · GIRISLI 181 · KISMEN 49 · TEYIT 30 · DUZELT 1
+Taranan: **261 / 271** · GIRISLI 181 · KISMEN 48 · TEYIT 30 · DUZELT 2
 
 | künye | bölge | ağırlık | veri f → t | hüküm | öneri | TDV maddesi | dayanak |
 |---|---|---|---|---|---|---|---|
@@ -266,4 +266,4 @@ Taranan: **261 / 271** · GIRISLI 181 · KISMEN 49 · TEYIT 30 · DUZELT 1
 | `libya-fransiz-fizan` | kuzey-afrika | 0 | 1943-01-01 → 1951-12-24 | **TEYIT** |  | fizan | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): FİZAN (/fizan, bölge maddesi): "Fransızlar 7 Ocak 1943’te Merzûk’u, daha sonra Sebha’yı ele geçirerek ... Ocak 1943’te imzalanan İngiliz-Fransız antlaşmasıyla Fizan Fransız idaresi altına girdi. 24 Aralık 1951’de Muhammed İdrîs es-Senûsî liderliğinde kurulan Libya Birleşik Krallığı’nda Fizan üç otonom bölgeden biri oldu." f=1943 (veri yıl-hassasiyeti |
 | `halep-devleti` | suriye-filistin | 0 | 1920-09-01 → 1925-01-01 | **GIRISLI** |  | suriye | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Halep Devleti müstakil maddesi yok (arama: başlık 0, içerik 626). SURİYE (/suriye) — TDV genel madde: "Şam ve Halep yönetimleri ayrı birer muhtar bölge diye belirlendi." ; "1924’te yeni bir düzenleme yapan Fransızlar Şam, Halep, Hama ve Humus’u birleştirip tek bir idare altında topladı." ; "Temmuz 1920’de ... Suriye’de Faysal dönemi sona erdi" |
 | `touggourt` | kuzey-afrika | 0 | 1414-01-01 → 1854-12-01 | **GIRISLI** |  |  | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: 'Tuggurt' (0/0/0/0), 'Tukurt' (0/0/0/0). Başka yazımlar (Tuggurt/Tukurt/Touggourt/Benî Celleb) denendi; TDV'de Tuggurt maddesi yok. 1414/1854 için dayanak yok. |
-| `uman-ibadi` | arabistan | 0 | 0750-01-01 → (süren) | **KISMEN** |  | uman; culenda-b-mesud | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UMAN (/uman): "Hadramut İbâzî imâmetinin ortadan kalkmasının (131/748-49) ardından Umanlılar yaklaşık 132 (750) yılında benzer bir imâmeti bölgede tekrar kurdular ve Cülendâ b. Mes‘ûd’u imam seçtiler. ... Abbâsî ordusu Cülendâ b. Mes‘ûd’un imamlığına son verdi (134/751). Fakat Abbâsîler, Uman’da tam hâkimiyet kuramadı; zaman zaman kesintiye uğramakla |
+| `uman-ibadi` | arabistan | 0 | 0750-01-01 → (süren) | **DUZELT** | t→0751-07-30 | uman; culenda-b-mesud | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UMAN (/uman): "Hadramut İbâzî imâmetinin ortadan kalkmasının (131/748-49) ardından Umanlılar yaklaşık 132 (750) yılında benzer bir imâmeti bölgede tekrar kurdular ve Cülendâ b. Mes‘ûd’u imam seçtiler. ... Abbâsî ordusu Cülendâ b. Mes‘ûd’un imamlığına son verdi (134/751). Fakat Abbâsîler, Uman’da tam hâkimiyet kuramadı; zaman zaman kesintiye uğramakla |

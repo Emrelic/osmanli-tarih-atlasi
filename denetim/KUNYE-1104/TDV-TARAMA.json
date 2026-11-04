@@ -1964,7 +1964,7 @@
   "bolge": "orta-asya",
   "agirlik": 5,
   "tdv_madde": "kulca; dogu-turkistan; kasgar",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de müstakil Doğu Türkistan Cumhuriyeti (1944-49) maddesi yok (DOĞU TÜRKİSTAN /dogu-turkistan yalnız yönlendirme niteliğinde kısa madde). KULCA (/kulca, şehir maddesi): \"1944’te çoğunluğunu Kazanlı Türkler’le Uygurlar’ın oluşturduğu bir grup ayaklandı ve 7 Ağustos’ta Kulca’da Doğu Türkistan Cumhuriyeti’nin kurulduğunu ilân etti.\" ; \"Eylül 1949’da yeni rejim ve Urumçi yetkilileri Pekin’de komünist idarecilerle görüşmelere başladılar.\" Yıllar 1944 ve 1949 uyumlu; AMA TDV f için 7 Ağustos 1944 der, veri 1944-11-12 — çelişki (şehir maddesi, geçen cümle: DUZELT'e dayanak yapılmadı). t=1949-10-20 günü TDV'de yok (Eylül 1949 görüşmeleri)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de müstakil Doğu Türkistan Cumhuriyeti (1944-49) maddesi yok (DOĞU TÜRKİSTAN /dogu-turkistan yalnız yönlendirme niteliğinde kısa madde). KULCA (/kulca, şehir maddesi): \"1944’te çoğunluğunu Kazanlı Türkler’le Uygurlar’ın oluşturduğu bir grup ayaklandı ve 7 Ağustos’ta Kulca’da Doğu Türkistan Cumhuriyeti’nin kurulduğunu ilân etti.\" ; \"Eylül 1949’da yeni rejim ve Urumçi yetkilileri Pekin’de komünist idarecilerle görüşmelere başladılar.\" Yıllar 1944 ve 1949 uyumlu; AMA TDV f için 7 Ağustos 1944 der, veri 1944-11-12 — çelişki (şehir maddesi, geçen cümle: DUZELT'e dayanak yapılmadı). t=1949-10-20 günü TDV'de yok (Eylül 1949 görüşmeleri). · KARAR (EMRELİC): VERİ KALIR (12 Kasım 1944, Gulca'da cumhuriyetin ilanı) · ic_not: 'TDV KULCA maddesinin 7 Ağustos 1944'ü büyük olasılıkla Nilka ayaklanmasının başlangıcıdır.'"
  },
  {
   "id": "yunanistan-gecici-demokratik-hukumet",
@@ -2740,14 +2740,13 @@
  },
  {
   "id": "uman-ibadi",
-  "hukum": "KISMEN",
+  "hukum": "DUZELT",
   "veri_f": "0750-01-01",
   "veri_t": null,
   "bolge": "arabistan",
   "agirlik": 0,
   "tdv_madde": "uman; culenda-b-mesud",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UMAN (/uman): \"Hadramut İbâzî imâmetinin ortadan kalkmasının (131/748-49) ardından Umanlılar yaklaşık 132 (750) yılında benzer bir imâmeti bölgede tekrar kurdular ve Cülendâ b. Mes‘ûd’u imam seçtiler. ... Abbâsî ordusu Cülendâ b. Mes‘ûd’un imamlığına son verdi (134/751). Fakat Abbâsîler, Uman’da tam hâkimiyet kuramadı; zaman zaman kesintiye uğramakla birlikte bölge İbâzî imamları tarafından yönetilmeye devam etti.\" CÜLENDÂ b. MES‘ÛD (/culenda-b-mesud): \"imamlığa seçtiler (132/750)\", \"Hâzim ... 134 (751) yılında savaşı kazandı.\" f=750 teyitli (132/750, 'yaklaşık'). t=None: TDV I. imamlığın (Cülendâ) sonunu 134/751 verir, ama bölge İbâzî imamlarınca yönetilmeye devam eder (ikinci imamet 177/794 Nizvâ şûrası) — veri 'I. imamlık' etiketi ile t=None çelişiyor; DUZELT için polity sürekliliği belirsiz (beyan gerek).",
-  "bekle": "t (boş) → 0751 (TDV CÜLENDÂ b. MES‘ÛD müstakil maddesi: Abbâsî ordusu imamlığa son verdi, 134/751)",
-  "bekle_neden": "Künye adı 'I. imamlık' ama t boş (süren gibi görünüyor). TDV I. imamlığın sonunu 134/751 verir; hicrî 134 ∩ 751 kesişiminin ilk günü (CLAUDE.md hicrî kuralı) NAOJ/çevrim tablosuyla hesaplanmalı. Künye kapsamı kararı (yalnız Cülendâ imamlığı mı, İbâzî imamet geleneği mi) EMRELİC/Emre'de"
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UMAN (/uman): \"Hadramut İbâzî imâmetinin ortadan kalkmasının (131/748-49) ardından Umanlılar yaklaşık 132 (750) yılında benzer bir imâmeti bölgede tekrar kurdular ve Cülendâ b. Mes‘ûd’u imam seçtiler. ... Abbâsî ordusu Cülendâ b. Mes‘ûd’un imamlığına son verdi (134/751). Fakat Abbâsîler, Uman’da tam hâkimiyet kuramadı; zaman zaman kesintiye uğramakla birlikte bölge İbâzî imamları tarafından yönetilmeye devam etti.\" CÜLENDÂ b. MES‘ÛD (/culenda-b-mesud): \"imamlığa seçtiler (132/750)\", \"Hâzim ... 134 (751) yılında savaşı kazandı.\" f=750 teyitli (132/750, 'yaklaşık'). t=None: TDV I. imamlığın (Cülendâ) sonunu 134/751 verir, ama bölge İbâzî imamlarınca yönetilmeye devam eder (ikinci imamet 177/794 Nizvâ şûrası) — veri 'I. imamlık' etiketi ile t=None çelişiyor; DUZELT için polity sürekliliği belirsiz (beyan gerek). · KARAR (EMRELİC, 4 Kasım): t eklenir — künye kapsamı I. imamlık (Cülendâ b. Mes‘ûd); sonraki İbâzî imamlıkları ayrı künye konusu (SINIF-SUPHE). HESAP (LAB): TDV CÜLENDÂ b. MES‘ÛD '134 (751) yılında savaşı kazandı' → hicrî 134 = 30 Temmuz 751 – 18 Temmuz 752 (Jülyen; tablo-hicrî takvim, 1 Muharrem 134 = JD 1995570.5, Cuma); hicrî 134 ∩ mîlâdî 751 = 30 Temmuz – 31 Aralık 751 → kesişimin ilk günü 0751-07-30 (CLAUDE.md hicrî kuralı; 1582 öncesi Jülyen). ic_not: 'Son: Abbâsî ordusu Cülendâ b. Mes‘ûd'un imamlığına son verdi, 134/751 (TDV CÜLENDÂ b. MES‘ÛD; UMAN). Gün kaynakta yok: hicrî 134 ∩ 751 kesişiminin ilk günü (30 Temmuz 751, tablo takvim; gözlem takvimiyle ±1-2 gün) beyanlı yaklaşıklıktır.'",
+  "t": "0751-07-30"
  }
 ]
