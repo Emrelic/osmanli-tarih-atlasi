@@ -47,6 +47,11 @@ TDV = {
     "muzafferi": "TDV, \"Muzafferîler\" (Rıza Kurtuluş), https://islamansiklopedisi.org.tr/muzafferiler — İncû Ebû İshak'ı öldürdü (758/1357), "
                  "aynı yıl Kirman eyaletini kendi topraklarına kattı",
     "herat": "TDV, \"Herat\" (Recep Uslu), https://islamansiklopedisi.org.tr/herat — Kert hânedanı dönemi 1255-1381",
+    "iranica": "Encyclopaedia Iranica, \"CHOBANIDS\" (Charles Melville – Abbas Zaryab, 1991) ve \"JALAYERIDS\" (Peter Jackson) — EMRELİC "
+               "okuması, 4 Kasım 2026: Alatak 27 Zilhicce 738 / 16 Temmuz 1338 (\"a triumph for the newly cohesive Chobanid forces\"); "
+               "Tebriz 1338'de Hasan-ı Büzürg'ün valisi Pir Hüseyin'de; Marağa 29 Zilhicce 740 / 26 Haziran 1340; Hasan-ı Kûçek'in ölümü "
+               "27 Receb 744 / 15 Aralık 1343; Altın Orda \"late spring of 758/1357\", Melik Eşref Tebriz'de asıldı; 1357'de Tebriz'i "
+               "Ahiçuk aldı; Üveys \"achieved the definitive conquest of Azarbaijan in 1359\". Hasan-ı Kûçek'in Tebriz'i alış günü okunmadı.",
 }
 
 # bölge: (ad, kural, zincir metni, hüküm, kaynak anahtarları, önerilen s: zinciri)
@@ -56,10 +61,17 @@ BOLGELER = [
      "Celâyirli devleti (Bağdat).", "KORU-BEYAN", ["ilhanlilar", "celayirliler"],
      "ilhanli 1335-11-30 → 1340 kalsın; ic_not: 'kukla İlhanlar — fiilî güç Celâyirli Hasan-ı Büzürg (TDV İlhanlılar)'; 1340 → celayirli."),
     ("AZERBAYCAN-ARRAN-ERMENİSTAN-IRAK-I ACEM", lambda la, lo: lo >= 43.6 and la >= 35.8 and lo < 50.6 and not (lo < 44.6 and la < 39.5),
-     "1335-11-30 → 1340: kukla İlhanlar (Arpa, Mûsâ, Muhammed; Hasan-ı Kûçek'in Sâtî Beg 1339, Süleyman 1340); 1340 sonrası Çobânîler "
-     "(Hasan-ı Kûçek → Melik Eşref) → 1357 Altın Orda (Canıbeg) → 1358 Celâyirli.", "KORU-BEYAN", ["ilhanlilar", "tebriz", "altinorda", "celayirliler"],
-     "ilhanli → 1340 kalsın (kukla han beyanıyla); 1340 → 1357 cobaniler; 1357 → 1358 altinorda; 1358 → celayirli — Çobânî f günü ve Altın "
-     "Orda/Celâyirli günleri KAYNAK-GEREK (Iranica CHOBANIDS)."),
+     "1335-11-30 → 1338: kukla İlhanlar (Arpa, Mûsâ, Muhammed); Alatak 16 Temmuz 1338 Çobânî zaferi, ama Tebriz 1338'de Hasan-ı "
+     "Büzürg'ün valisi Pir Hüseyin'de; Marağa zaferi 26 Haziran 1340 → Çobânîler (Hasan-ı Kûçek'in kuklaları Sâtî Beg 1339, Süleyman "
+     "1340; Hasan-ı Kûçek ölümü 15 Aralık 1343; sonra Melik Eşref) → 758/1357 ilkbahar sonu Altın Orda (Canıbeg; Melik Eşref Tebriz'de "
+     "asıldı) → 1357 Ahiçuk ve Muzafferî Mübârizüddin ara dönemi → 1359 Celâyirli Üveys'in kesin fethi.", "KORU-BEYAN",
+     ["ilhanlilar", "tebriz", "altinorda", "celayirliler", "iranica"],
+     "ilhanli → 1340-06-26 kalsın (kukla han + 1338-1340 Tebriz Celâyirli valisi beyanıyla); 1340-06-26 → 1357-01-01 cobaniler "
+     "(Marağa, Iranica; bitiş 758 ∩ 1357, 'late spring' ay vermiyor → yıl hassasiyeti, beyan); 1357-01-01 → 1357 altinorda "
+     "(yıl, beyan); 1357 → 1359-01-01 Ahiçuk / muzafferi ara dönemi (yerel kimlik yoksa beyanlı muzafferi; KAYNAK-GEREK ayrım); "
+     "1359-01-01 → celayirli (Iranica JALAYERIDS, yıl). Önceki taslaktaki '1358' (TDV Celâyirliler) Iranica'yla çelişiyor: çelişki "
+     "ic_not'ta iki kaynağıyla beyan (CLAUDE.md: TDV esas — ama TDV 1358 'Azerbaycan ile Tebriz'i' der, Iranica 1359 'definitive' "
+     "der; ikisi farklı olayı tarihliyor olabilir: 1358 ilk giriş, 1359 kesin fetih)."),
     ("VAN-HAKKÂRİ-MUŞ-BİTLİS", lambda la, lo: 37.0 <= la < 39.7 and 41.3 <= lo < 44.6,
      "1336 → 1340 Hacı Togay (Sutayoğulları) Muş-Bulanık; 1340-1342 Çobanlı Hasan-ı Kûçek seferi, Ahlat 1340-41 Çobanlı; 1351 → "
      "Karakoyunlu (atlas).", "DUZELT", ["ahlat", "erzurum"],
