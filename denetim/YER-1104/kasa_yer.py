@@ -159,17 +159,23 @@ SAHIP.update({
     "Gediz": ("OSMANLI", "1920-08-29", "Kütahya sancağının kazası (1520'den) — 1920 işgali TDV'de ve TR Dizin'de bulunamadı", "TDV «Kütahya»",
               "KAYNAK-GEREK (1920 işgali) — TR Dizin API 3 sorgu sonuçsuz"),
     "Kalhu (Nimrud)": ("orta-asur", "-1259-01-01", "I. Şalmaneser kurdu (13. yy ortası) → 'In 883 bc, under Ashurnasirpal II, it became the "
-                       "Assyrian capital' (yeni-asur). 612 yıkımı doğrulanmadı", "Concise Oxford Dictionary of Archaeology, 3. bs. 2021, «Nimrud» "
-                       "(Oxford, EMRELİC okuması); Livius", "KAYNAKLI"),
+                       "Assyrian capital' (yeni-asur) → yıkım 'In 614–612 bce, Nimrud,…' (bit: -0611 = MÖ 612, BEYAN: kaynak 614-612 aralığı, "
+                       "tek yıl teyit edilmedi)", "Concise Oxford Dictionary of Archaeology, 3. bs. 2021, «Nimrud»; Oxford Encyclopedia of "
+                       "Archaeology in the Near East, 2011 (yıkım) (Oxford, EMRELİC okuması — yalnız alıntı); Livius", "KAYNAKLI (bit: aralık beyanlı)"),
     "Argos": ("antigonid-makedonya", "-0271-01-01", "bağımsız polis; 323 sonrası Makedon (Antigonos Gonatas) denetimi → 'In 229 bce Argos "
               "entered the Achaean League' (akhaia-birligi). Denetim ilhak değil: KASA v: düşünmeli", "Oxford Encyclopedia of Ancient Greece "
               "and Rome; OCD4 «Aratus (2)» (Oxford, EMRELİC okuması — çift)", "KAYNAKLI (aralık) — denetim/ilhak ayrımı beyanlı"),
     "Thapsus (Tunus kıyısı)": ("roma-cumhuriyeti", "-0045-01-01", "savaş MÖ 46 (Oxford Companion to Classical Literature); şehrin sahiplik "
-                               "zinciri okunmadı", "Bellum Africum 79-86; Oxford (EMRELİC okuması)", "KAYNAK-GEREK (sahip; savaş yılı kaynaklı)"),
+                               "zinciri okunmadı (Oxford tam metni abonelikte kilitli)", "Bellum Africum 79-86; Oxford (EMRELİC okuması)",
+                               "KAYNAKLI (savaş yılı); sahip zinciri BEYANLI"),
     "Pharsalus (Tesalya)": ("roma-cumhuriyeti", "-0047-01-01", "Tesalya kenti, MÖ 6. yy'dan Phthiotis'te baskın (OCD4, Helly); savaş MÖ 48 — "
-                            "Makedon/Roma yılları okunmadı", "OCD4 «Pharsalus» (Oxford, EMRELİC okuması)", "KAYNAK-GEREK (sahip; ilk sahip polis)"),
-    "İpsos (Frigya)": ("antigonos-krallik", "-0300-01-01", "Antigonos'un Frigya'sı; MÖ 301'de Antigonos 'defeated and killed by Lysimachus and "
-                       "Seleucus' — sonraki sahip okunmadı", "Oxford (EMRELİC okuması); Diodoros 20.107-113", "KAYNAKLI (ilk sahip); ardıl KAYNAK-GEREK"),
+                            "Makedon/Roma yılları okunmadı (Oxford tam metni kilitli)", "OCD4 «Pharsalus» (Oxford, EMRELİC okuması)",
+                            "KAYNAKLI (ilk sahip polis, savaş yılı); Roma bağı BEYANLI"),
+    "İpsos (Frigya)": ("antigonos-krallik", "-0300-01-01", "Antigonos'un Frigya'sı; 'Antigonus the One-eyed was defeated and killed by "
+                       "Lysimachus and Seleucus I in 301 bc' (OCD «Ipsus», Lazenby) → ardıl: Frigya Lysimakhos'a (beyanlı, açıkça okunmadı), "
+                       "'Later Seleucus gained Asia Minor' (Oxford Bible Atlas; MÖ 281 Kurupedion beyanlı)",
+                       "OCD «Ipsus» (J. F. Lazenby); Oxford Bible Atlas (Oxford, EMRELİC okuması — yalnız alıntı); Diodoros 20.107-113",
+                       "KAYNAKLI (ilk sahip, savaş yılı); ardıl BEYANLI"),
     "Musasir": ("urartu", "-0713-01-01", "Hasanlu'nun batısında Urartu yerleşimi; II. Sargon yağması (madde -714) Oxford'da doğrulanmadı",
                 "Oxford Encyclopedia of Archaeology in the Near East (EMRELİC okuması); Livius «Urartu»", "KAYNAKLI (aidiyet); yıl Livius"),
 })
