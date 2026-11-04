@@ -1564,7 +1564,7 @@ window.ANTLASMA_HARITALARI = [
 {
   id: "bromsebro-1645",
   antlasma_ad: "Brömsebro Barışı",
-  tarih: "1645-08-13",
+  tarih: "1645-08-23",
   bolgeler: [
     { taraf: "isvec", etiket: "İsveç'e bırakılan (Gotland, Ösel, Jämtland, Härjedalen) ve rehin Halland", noktalar: [
         { ad: "Visby (Gotland)", lat: 57.635, lon: 18.294, kaynak: "kart antlasma10-bromsebro-1645 (lex.dk 'Brömsebro'): Gotland ve Ösel adaları İsveç'e bırakıldı" },
@@ -1576,7 +1576,7 @@ window.ANTLASMA_HARITALARI = [
 {
   id: "roskilde-1658",
   antlasma_ad: "Roskilde Antlaşması",
-  tarih: "1658-02-26",
+  tarih: "1658-03-08",
   bolgeler: [
     { taraf: "isvec", etiket: "İsveç'e bırakılan (Skåne, Halland, Blekinge, Bornholm, Bohus, Trondheim)", noktalar: [
         { ad: "Malmö (Skåne)", lat: 55.605, lon: 13.000, kaynak: "kart antlasma10-roskilde-1658 (lex.dk 'Roskildefreden', Danmarkshistorien antlaşma metni): Skåne İsveç'e — Malmö TEMSİLÎ nokta" },

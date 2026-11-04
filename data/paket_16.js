@@ -2132,8 +2132,8 @@ window.YERLESIMLER_AMERIKA = [
 
 // 14 Ekim 2026 (TEYIT-KARAR-1014, Emre kararı): kuruluş 1607-05-14 → 1607-05-13 — Oxford Companion
 //   to United States History «founding Jamestown on 13 May»; kronoloji_ingiltere maddesiyle birlikte.
-{ ad:"Jamestown", tur:"sehir", lat:37.1997, lon:-76.7880, g:2, k:2, kur:"1607-05-13",
-  s:[{f:"1607-05-13",t:"1776-07-04",d:"ingiltere"},
+{ ad:"Jamestown", tur:"sehir", lat:37.1997, lon:-76.7880, g:2, k:2, kur:"1607-05-23",
+  s:[{f:"1607-05-23",t:"1776-07-04",d:"ingiltere"},
      {f:"1776-07-04",t:"2000-12-31",d:"abd"}] },
 { ad:"Plymouth (Massachusetts)", tur:"sehir", lat:41.9584, lon:-70.6673, g:1, k:1, kur:"1620-12-21",
   s:[{f:"1620-12-21",t:"1776-07-04",d:"ingiltere"},
