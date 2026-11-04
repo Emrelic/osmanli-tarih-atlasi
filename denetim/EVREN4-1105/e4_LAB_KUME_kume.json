@@ -304,7 +304,7 @@
   "kaynak": "M. Zimmermann, 'L'annexion de l'État Indépendant du Congo par la Belgique', Annales de Géographie 1909, s.92 - https://www.persee.fr/doc/geo_0003-4010_1909_num_18_97_6769",
   "alinti": "le 15 novembre 1908 la Belgique est entrée dans exercice de son droit de souveraineté",
   "oneri": {},
-  "not": "[alıntı özetten] | İkinci kaynak: CRISP Courrier hebdomadaire 1985 (Cairn) 15 Kasım 1908. Yasa kraliyet onayı 18 Ekim 1908; yürürlük/fiilî devir 15 Kasım (TEK ÖLÇÜ: fiilî devir günü)."
+  "not": "sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | İkinci kaynak: CRISP Courrier hebdomadaire 1985 (Cairn) 15 Kasım 1908. Yasa kraliyet onayı 18 Ekim 1908; yürürlük/fiilî devir 15 Kasım (TEK ÖLÇÜ: fiilî devir günü)."
  },
  {
   "alan": "s",
@@ -451,7 +451,7 @@
   "kaynak": "Real Academia de la Historia, Diccionario Biográfico electrónico, 'Juan II de Aragón y de Navarra' - https://dbe.rah.es/biografias/10845/juan-ii-de-aragon-y-de-navarra",
   "alinti": "Barcelona, 19.I.1479.",
   "oneri": {},
-  "not": "[alıntı özetten] | KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+  "not": "sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
  },
  {
   "alan": "s",
@@ -654,7 +654,7 @@
   "kaynak": "LoC Romania Country Study http://countrystudies.us/romania/27.htm",
   "alinti": "On April 13, 1948, the new National Assembly proclaimed the creation of the Romanian People's Republic",
   "oneri": {},
-  "not": "ÇELİŞKİ: LoC Halk Cumhuriyeti ilanını 13 Nisan 1948 (Anayasa) veriyor; 30 Aralık 1947 (Mihai tahttan çekilme) LoC'de okunmadı. Tek kaynakla değiştirme önerilmedi. Künye f=1947-12-30 ile tutarlı."
+  "not": "KARAR EMRELİC (gece-26): f 1947-12-30 KALIR (Mihai'nin feragati ve aynı gün ilan); LoC 1948-04-13 anayasa günü ic_not'a; rejim değişimi, toprak kırılması yok. | ÇELİŞKİ: LoC Halk Cumhuriyeti ilanını 13 Nisan 1948 (Anayasa) veriyor; 30 Aralık 1947 (Mihai tahttan çekilme) LoC'de okunmadı. Tek kaynakla değiştirme önerilmedi. Künye f=1947-12-30 ile tutarlı."
  },
  {
   "alan": "s",
@@ -891,11 +891,13 @@
   "d": "isvec",
   "f": "1814-01-14",
   "satir": 7,
-  "hukum": "KAYNAKLI",
+  "hukum": "ONERI",
   "kaynak": "SNL Kielfreden https://snl.no/Kielfreden",
   "alinti": "Fredsavtalen, Kieltraktaten, vart underteikna 14. januar 1814.",
-  "oneri": {},
-  "not": "KARAR SORUSU: Kiel imzası 1814-01-14, ama Norveç 1814-05-17'de bağımsızlaştı ve İsveç fiilen yönetmedi → TEK ÖLÇÜ (teslim günü) ve s:/isg sorusu EMRELİC'te. | [alıntı özetten] | Kiel Antlaşması imza günü teyitli (Frederik VI Norveç'i Karl Johan lehine bıraktı). UYARI: Norveç 17 Mayıs 1814'te bağımsızlaştı, İsveç fiilî yönetmedi; de jure devir ama idareye katma belgesi yok -> isg/s tartışması Emre'ye; norvec-1814 ile çakışma. Künye f=1523 içinde."
+  "oneri": {
+   "not": "s: isvec 1814-01-14'te BAŞLAMAZ"
+  },
+  "not": "KARAR EMRELİC (gece-26): TEK ÖLÇÜ — Norveç yerleşimlerinde sıra: danimarka → Christian Frederik naipliği → norvec-1814 (05-17 → 11-04); Ağustos 1814 savaşında İsveç'in aldığı sınır kaleleri (Fredrikstad vb.) isg isveç, kaynakla; 1814-11-04'ten birlik künyesi → 1905-06-07. Kiel imzası ic_not'a (KASA Norveç kararıyla aynı). | KARAR SORUSU: Kiel imzası 1814-01-14, ama Norveç 1814-05-17'de bağımsızlaştı ve İsveç fiilen yönetmedi → TEK ÖLÇÜ (teslim günü) ve s:/isg sorusu EMRELİC'te. | [alıntı özetten] | Kiel Antlaşması imza günü teyitli (Frederik VI Norveç'i Karl Johan lehine bıraktı). UYARI: Norveç 17 Mayıs 1814'te bağımsızlaştı, İsveç fiilî yönetmedi; de jure devir ama idareye katma belgesi yok -> isg/s tartışması Emre'ye; norvec-1814 ile çakışma. Künye f=1523 içinde."
  },
  {
   "alan": "s",
