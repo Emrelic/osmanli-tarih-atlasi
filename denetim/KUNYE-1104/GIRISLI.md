@@ -11,60 +11,60 @@ Okunacak: iki ucun tarihi (gün varsa gün) + tarihi taşıyan cümle + sayfa. B
 | 2 | `racput` | 1000-01-01 → 1947-08-15 | f + t | 3959 | 19 | 23 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
 | 3 | `banda-gbaya` | 1281-01-01 → 1903-01-01 | yalnız t (f=1281 site ufku) | 3732 | 6 | 6 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
 | 4 | `dan-guro` | 1281-01-01 → 1898-01-01 | yalnız t (f=1281 site ufku) | 3085 | 5 | 5 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 5 | `vijayanagara` | 1336-01-01 → 1646-01-01 | f + t | 3077 | 17 | 19 | Stein, Vijayanagara (New Cambridge History of India I.2) |
-| 6 | `adar` | 1281-01-01 → 1899-01-01 | yalnız t (f=1281 site ufku) | 2472 | 4 | 4 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 7 | `ovimbundu` | 1700-01-01 → 1902-01-01 | f + t | 2424 | 12 | 12 | UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 |
-| 8 | `burgonya` | 1032-01-01 → 1482-03-27 | f + t | 2343 | 34 | 35 | NCMH VII (Schnerb 'Burgundy') |
-| 9 | `maya-sehir-devletleri` | 1000-01-01 → 1697-03-13 | f + t | 2277 | 10 | 10 | Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America |
-| 10 | `karolenj-italya` | 0774-01-01 → 0962-02-02 | f + t | 2183 | 14 | 14 | NCMH II-III (Wickham, Early Medieval Italy) |
-| 11 | `kongo-kralligi` | 1390-01-01 → 1914-01-01 | f + t | 2038 | 4 | 4 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 12 | `tubu-tibesti` | 1281-01-01 → 1914-01-01 | yalnız t (f=1281 site ufku) | 1899 | 3 | 3 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 13 | `zerma` | 1281-01-01 → 1898-01-01 | yalnız t (f=1281 site ufku) | 1851 | 3 | 3 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 14 | `nguyen-hanedani` | 1802-06-01 → 1945-08-30 | f + t | 1837 | 25 | 25 | Cambridge History of Southeast Asia I-II |
-| 15 | `nri` | 0994-01-01 → 1911-01-01 | f + t | 1822 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 16 | `ryukyu` | 1429-01-01 → 1879-03-27 | f + t | 1801 | 4 | 4 | Cambridge History of Japan IV-V |
-| 17 | `tibet` | 1354-01-01 → 1642-01-01 | f + t | 1728 | 6 | 6 | Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans |
-| 18 | `bali-kralliklari` | 1478-01-01 → 1908-04-28 | f + t | 1701 | 4 | 4 | Ricklefs |
-| 19 | `cohor-sultanligi` | 1528-01-01 → 1923-10-29 | f + t | 1635 | 7 | 7 | Andaya & Andaya, A History of Malaysia |
-| 20 | `pagaruyung` | 1281-01-01 → 1833-01-01 | yalnız t (f=1281 site ufku) | 1550 | 4 | 4 | Ricklefs |
-| 21 | `guatemala-kaptanligi` | 1609-01-01 → 1821-09-15 | f + t | 1543 | 10 | 10 | Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America |
-| 22 | `bretanya` | 0939-01-01 → 1532-08-13 | f + t | 1510 | 6 | 6 | New Cambridge Medieval History III-VII |
-| 23 | `ekvador-cumhuriyeti` | 1830-05-13 → None | yalnız f (t açık) | 1451 | 10 | 10 | Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America |
-| 24 | `ahom` | 1281-01-01 → 1826-02-24 | yalnız t (f=1281 site ufku) | 1375 | 3 | 3 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 25 | `lunda-imparatorlugu` | 1665-01-01 → 1887-01-01 | f + t | 1332 | 6 | 6 | UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 |
-| 26 | `tuareg-accer` | 1281-01-01 → 1911-01-01 | yalnız t (f=1281 site ufku) | 1260 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 27 | `herero` | 1281-01-01 → 1904-01-12 | yalnız t (f=1281 site ufku) | 1246 | 2 | 2 | OLAY TÜRÜ YANLIŞ |
-| 28 | `jukun-kvararafa` | 1281-01-01 → 1900-01-01 | yalnız t (f=1281 site ufku) | 1238 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 29 | `kaonde-ila` | 1281-01-01 → 1900-01-01 | yalnız t (f=1281 site ufku) | 1238 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 30 | `borgu` | 1281-01-01 → 1898-01-01 | yalnız t (f=1281 site ufku) | 1234 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 31 | `fipa-nyakyusa` | 1281-01-01 → 1890-11-04 | yalnız t (f=1281 site ufku) | 1220 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 32 | `nayak-devletleri` | 1336-01-01 → 1763-01-01 | f + t | 1208 | 8 | 8 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 33 | `nijer-deltasi` | 1281-01-01 → 1884-09-10 | yalnız t (f=1281 site ufku) | 1207 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 34 | `diaguita-calchaqui-konfederasyonu` | 1281-01-01 → 1667-01-02 | yalnız t (f=1281 site ufku) | 1158 | 3 | 3 | Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America |
-| 35 | `bugis-kralliklari` | 1330-01-01 → 1905-08-06 | f + t | 1151 | 2 | 2 | Ricklefs / Andaya |
-| 36 | `gonja` | 1550-01-01 → 1899-01-01 | f + t | 1047 | 3 | 3 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 37 | `alutiiq` | 1281-01-01 → 1784-08-14 | yalnız t (f=1281 site ufku) | 1007 | 2 | 2 | Cambridge History of the Native Peoples of the Americas I (North America) |
-| 38 | `kalacuri-tripuri` | 0850-01-01 → None | yalnız f (t açık) | 1001 | 1 | 1 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 39 | `dogu-sumatra-sultanliklari` | 1615-01-01 → 1858-01-01 | f + t | 872 | 4 | 4 | Ricklefs |
-| 40 | `banten-sultanligi` | 1527-06-22 → 1813-01-01 | f + t | 867 | 4 | 4 | Ricklefs |
-| 41 | `orissa` | 1000-01-01 → 1568-01-01 | f + t | 861 | 3 | 3 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 42 | `nepal` | 1000-01-01 → None | yalnız f (t açık) | 800 | 1 | 2 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 43 | `seylan-sinhala` | 1070-01-01 → 1518-01-01 | f + t | 777 | 4 | 4 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 44 | `gova-makassar` | 1281-01-01 → 1667-11-18 | yalnız t (f=1281 site ufku) | 774 | 2 | 2 | Ricklefs / Andaya |
-| 45 | `kalikut` | 1100-01-01 → 1766-01-01 | f + t | 709 | 2 | 2 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 46 | `chamorro` | 0800-01-01 → 1698-01-01 | f + t | 695 | 1 | 1 | Cambridge History of the Pacific Islanders (Denoon, ed.) |
-| 47 | `sipsong-panna` | 1180-01-01 → 1950-01-01 | f + t | 669 | 1 | 1 | Cambridge History of Southeast Asia I (Tarling, ed.) |
-| 48 | `zende` | 1750-01-01 → 1912-01-01 | f + t | 648 | 4 | 4 | UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 |
-| 49 | `ovambo` | 1600-01-01 → 1917-02-06 | f + t | 634 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
-| 50 | `birom-plato` | 1281-01-01 → 1903-01-01 | yalnız t (f=1281 site ufku) | 622 | 1 | 1 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 5 | `adar` | 1281-01-01 → 1899-01-01 | yalnız t (f=1281 site ufku) | 2472 | 4 | 4 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 6 | `maya-sehir-devletleri` | 1000-01-01 → 1697-03-13 | f + t | 2277 | 10 | 10 | Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America |
+| 7 | `karolenj-italya` | 0774-01-01 → 0962-02-02 | f + t | 2183 | 14 | 14 | NCMH II-III (Wickham, Early Medieval Italy) |
+| 8 | `kongo-kralligi` | 1390-01-01 → 1914-01-01 | f + t | 2038 | 4 | 4 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 9 | `tubu-tibesti` | 1281-01-01 → 1914-01-01 | yalnız t (f=1281 site ufku) | 1899 | 3 | 3 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 10 | `zerma` | 1281-01-01 → 1898-01-01 | yalnız t (f=1281 site ufku) | 1851 | 3 | 3 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 11 | `nri` | 0994-01-01 → 1911-01-01 | f + t | 1822 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 12 | `ryukyu` | 1429-01-01 → 1879-03-27 | f + t | 1801 | 4 | 4 | Cambridge History of Japan IV-V |
+| 13 | `tibet` | 1354-01-01 → 1642-01-01 | f + t | 1728 | 6 | 6 | Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans |
+| 14 | `bali-kralliklari` | 1478-01-01 → 1908-04-28 | f + t | 1701 | 4 | 4 | Ricklefs |
+| 15 | `cohor-sultanligi` | 1528-01-01 → 1923-10-29 | f + t | 1635 | 7 | 7 | Andaya & Andaya, A History of Malaysia |
+| 16 | `guatemala-kaptanligi` | 1609-01-01 → 1821-09-15 | f + t | 1543 | 10 | 10 | Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America |
+| 17 | `bretanya` | 0939-01-01 → 1532-08-13 | f + t | 1510 | 6 | 6 | New Cambridge Medieval History III-VII |
+| 18 | `ekvador-cumhuriyeti` | 1830-05-13 → None | yalnız f (t açık) | 1451 | 10 | 10 | Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America |
+| 19 | `ahom` | 1281-01-01 → 1826-02-24 | yalnız t (f=1281 site ufku) | 1375 | 3 | 3 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
+| 20 | `lunda-imparatorlugu` | 1665-01-01 → 1887-01-01 | f + t | 1332 | 6 | 6 | UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 |
+| 21 | `tuareg-accer` | 1281-01-01 → 1911-01-01 | yalnız t (f=1281 site ufku) | 1260 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 22 | `herero` | 1281-01-01 → 1904-01-12 | yalnız t (f=1281 site ufku) | 1246 | 2 | 2 | OLAY TÜRÜ YANLIŞ |
+| 23 | `jukun-kvararafa` | 1281-01-01 → 1900-01-01 | yalnız t (f=1281 site ufku) | 1238 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 24 | `kaonde-ila` | 1281-01-01 → 1900-01-01 | yalnız t (f=1281 site ufku) | 1238 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 25 | `fipa-nyakyusa` | 1281-01-01 → 1890-11-04 | yalnız t (f=1281 site ufku) | 1220 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 26 | `nayak-devletleri` | 1336-01-01 → 1763-01-01 | f + t | 1208 | 8 | 8 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
+| 27 | `diaguita-calchaqui-konfederasyonu` | 1281-01-01 → 1667-01-02 | yalnız t (f=1281 site ufku) | 1158 | 3 | 3 | Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America |
+| 28 | `bugis-kralliklari` | 1330-01-01 → 1905-08-06 | f + t | 1151 | 2 | 2 | Ricklefs / Andaya |
+| 29 | `gonja` | 1550-01-01 → 1899-01-01 | f + t | 1047 | 3 | 3 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 30 | `alutiiq` | 1281-01-01 → 1784-08-14 | yalnız t (f=1281 site ufku) | 1007 | 2 | 2 | Cambridge History of the Native Peoples of the Americas I (North America) |
+| 31 | `kalacuri-tripuri` | 0850-01-01 → None | yalnız f (t açık) | 1001 | 1 | 1 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
+| 32 | `dogu-sumatra-sultanliklari` | 1615-01-01 → 1858-01-01 | f + t | 872 | 4 | 4 | Ricklefs |
+| 33 | `banten-sultanligi` | 1527-06-22 → 1813-01-01 | f + t | 867 | 4 | 4 | Ricklefs |
+| 34 | `orissa` | 1000-01-01 → 1568-01-01 | f + t | 861 | 3 | 3 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
+| 35 | `nepal` | 1000-01-01 → None | yalnız f (t açık) | 800 | 1 | 2 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
+| 36 | `seylan-sinhala` | 1070-01-01 → 1518-01-01 | f + t | 777 | 4 | 4 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
+| 37 | `gova-makassar` | 1281-01-01 → 1667-11-18 | yalnız t (f=1281 site ufku) | 774 | 2 | 2 | Ricklefs / Andaya |
+| 38 | `kalikut` | 1100-01-01 → 1766-01-01 | f + t | 709 | 2 | 2 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
+| 39 | `chamorro` | 0800-01-01 → 1698-01-01 | f + t | 695 | 1 | 1 | Cambridge History of the Pacific Islanders (Denoon, ed.) |
+| 40 | `sipsong-panna` | 1180-01-01 → 1950-01-01 | f + t | 669 | 1 | 1 | Cambridge History of Southeast Asia I (Tarling, ed.) |
+| 41 | `zende` | 1750-01-01 → 1912-01-01 | f + t | 648 | 4 | 4 | UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 |
+| 42 | `ovambo` | 1600-01-01 → 1917-02-06 | f + t | 634 | 2 | 2 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 43 | `birom-plato` | 1281-01-01 → 1903-01-01 | yalnız t (f=1281 site ufku) | 622 | 1 | 1 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 44 | `tiv` | 1281-01-01 → 1900-01-01 | yalnız t (f=1281 site ufku) | 619 | 1 | 1 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 45 | `kamba` | 1281-01-01 → 1895-07-01 | yalnız t (f=1281 site ufku) | 614 | 1 | 1 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 46 | `gambiya-mandinka` | 1281-01-01 → 1894-01-01 | yalnız t (f=1281 site ufku) | 613 | 1 | 1 | UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 |
+| 47 | `eve-notse` | 1281-01-01 → 1884-07-05 | yalnız t (f=1281 site ufku) | 604 | 1 | 1 | OLAY TÜRÜ YANLIŞ |
+| 48 | `xhosa` | 1281-01-01 → 1878-01-01 | yalnız t (f=1281 site ufku) | 597 | 1 | 1 | UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 |
+| 49 | `nez-perce` | 1281-01-01 → 1877-10-05 | yalnız t (f=1281 site ufku) | 597 | 1 | 1 | Cambridge History of the Native Peoples of the Americas I (North America) |
+| 50 | `navarra` | 0824-01-01 → 1620-10-19 | f + t | 596 | 2 | 4 | NCMH / Historia de Navarra |
 
-ÖNCELİK-50'nin esere göre dağılımı: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 16 · New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV 8 · Ricklefs 4 · Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America 3 · UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 3 · Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America 2 · Ricklefs / Andaya 2 · Stein, Vijayanagara (New Cambridge History of India I.2) 1 · NCMH VII (Schnerb 'Burgundy') 1 · NCMH II-III (Wickham, Early Medieval Italy) 1 · Cambridge History of Southeast Asia I-II 1 · Cambridge History of Japan IV-V 1 · Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans 1 · Andaya & Andaya, A History of Malaysia 1 · New Cambridge Medieval History III-VII 1 · OLAY TÜRÜ YANLIŞ 1 · Cambridge History of the Native Peoples of the Americas I (North America) 1 · Cambridge History of the Pacific Islanders (Denoon, ed.) 1 · Cambridge History of Southeast Asia I (Tarling, ed.) 1
+ÖNCELİK-50'nin esere göre dağılımı: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 17 · New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV 8 · Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America 3 · Ricklefs 3 · Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America 2 · UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 2 · OLAY TÜRÜ YANLIŞ 2 · Ricklefs / Andaya 2 · Cambridge History of the Native Peoples of the Americas I (North America) 2 · NCMH II-III (Wickham, Early Medieval Italy) 1 · Cambridge History of Japan IV-V 1 · Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans 1 · Andaya & Andaya, A History of Malaysia 1 · New Cambridge Medieval History III-VII 1 · Cambridge History of the Pacific Islanders (Denoon, ed.) 1 · Cambridge History of Southeast Asia I (Tarling, ed.) 1 · UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 1 · NCMH / Historia de Navarra 1
 
 Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yalnız kronoloji/panelde görünür; okunması en sona).
 
 ## Bütün GİRİŞLİ künyeler, esere göre (her satırda yer-yıl / yer / dönem)
 
-### UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 (28 künye, Σ yer-yıl 30766)
+### UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 (26 künye, Σ yer-yıl 28325)
 - `banda-gbaya` 1281-01-01 → 1903-01-01 — 3732 / 6 / 6
 - `dan-guro` 1281-01-01 → 1898-01-01 — 3085 / 5 / 5
 - `adar` 1281-01-01 → 1899-01-01 — 2472 / 4 / 4
@@ -75,9 +75,7 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `tuareg-accer` 1281-01-01 → 1911-01-01 — 1260 / 2 / 2
 - `jukun-kvararafa` 1281-01-01 → 1900-01-01 — 1238 / 2 / 2
 - `kaonde-ila` 1281-01-01 → 1900-01-01 — 1238 / 2 / 2
-- `borgu` 1281-01-01 → 1898-01-01 — 1234 / 2 / 2
 - `fipa-nyakyusa` 1281-01-01 → 1890-11-04 — 1220 / 2 / 2
-- `nijer-deltasi` 1281-01-01 → 1884-09-10 — 1207 / 2 / 2
 - `gonja` 1550-01-01 → 1899-01-01 — 1047 / 3 / 3
 - `ovambo` 1600-01-01 → 1917-02-06 — 634 / 2 / 2
 - `birom-plato` 1281-01-01 → 1903-01-01 — 622 / 1 / 1
@@ -153,8 +151,7 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `caral-norte-chico` -2999-01-01 → -1999-01-01 — 302 / 1 / 1
 - `lupaqa-krallik` 1281-01-01 → 1450-01-01 — 169 / 1 / 1
 
-### UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 (18 künye, Σ yer-yıl 8468)
-- `ovimbundu` 1700-01-01 → 1902-01-01 — 2424 / 12 / 12
+### UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 (17 künye, Σ yer-yıl 6044)
 - `lunda-imparatorlugu` 1665-01-01 → 1887-01-01 — 1332 / 6 / 6
 - `zende` 1750-01-01 → 1912-01-01 — 648 / 4 / 4
 - `asanti` 1701-01-01 → 1902-01-01 — 547 / 3 / 3
@@ -173,15 +170,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `solima-yalunka` 1720-01-01 → 1884-01-01 — 164 / 1 / 1
 - `kazembe` 1740-01-01 → 1899-01-01 — 159 / 1 / 1
 
-### Ricklefs (7 künye, Σ yer-yıl 5761)
-- `bali-kralliklari` 1478-01-01 → 1908-04-28 — 1701 / 4 / 4
-- `pagaruyung` 1281-01-01 → 1833-01-01 — 1550 / 4 / 4
-- `dogu-sumatra-sultanliklari` 1615-01-01 → 1858-01-01 — 872 / 4 / 4
-- `banten-sultanligi` 1527-06-22 → 1813-01-01 — 867 / 4 / 4
-- `banda-adalari` 1281-01-01 → 1621-03-08 — 340 / 1 / 1
-- `samudra-pasai` 1281-01-01 → 1521-01-01 — 240 / 1 / 1
-- `endonezya-dogu-timor` 1975-12-07 → 1999-10-25 — 191 / 8 / 8
-
 ### Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America (5 künye, Σ yer-yıl 4885)
 - `maya-sehir-devletleri` 1000-01-01 → 1697-03-13 — 2277 / 10 / 10
 - `guatemala-kaptanligi` 1609-01-01 → 1821-09-15 — 1543 / 10 / 10
@@ -189,11 +177,13 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `aztek-imparatorlugu` 1428-01-01 → 1521-08-13 — 484 / 6 / 6
 - `ceibal` 0411-01-01 → 0889-01-01 — 0 / 0 / 0
 
-### Stein, Vijayanagara (New Cambridge History of India I.2) (1 künye, Σ yer-yıl 3077)
-- `vijayanagara` 1336-01-01 → 1646-01-01 — 3077 / 17 / 19
-
-### NCMH VII (Schnerb 'Burgundy') (1 künye, Σ yer-yıl 2343)
-- `burgonya` 1032-01-01 → 1482-03-27 — 2343 / 34 / 35
+### Ricklefs (6 künye, Σ yer-yıl 4211)
+- `bali-kralliklari` 1478-01-01 → 1908-04-28 — 1701 / 4 / 4
+- `dogu-sumatra-sultanliklari` 1615-01-01 → 1858-01-01 — 872 / 4 / 4
+- `banten-sultanligi` 1527-06-22 → 1813-01-01 — 867 / 4 / 4
+- `banda-adalari` 1281-01-01 → 1621-03-08 — 340 / 1 / 1
+- `samudra-pasai` 1281-01-01 → 1521-01-01 — 240 / 1 / 1
+- `endonezya-dogu-timor` 1975-12-07 → 1999-10-25 — 191 / 8 / 8
 
 ### NCMH II-III (Wickham, Early Medieval Italy) (1 künye, Σ yer-yıl 2183)
 - `karolenj-italya` 0774-01-01 → 0962-02-02 — 2183 / 14 / 14
@@ -205,9 +195,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 ### OLAY TÜRÜ YANLIŞ (2 künye, Σ yer-yıl 1850)
 - `herero` 1281-01-01 → 1904-01-12 — 1246 / 2 / 2
 - `eve-notse` 1281-01-01 → 1884-07-05 — 604 / 1 / 1
-
-### Cambridge History of Southeast Asia I-II (1 künye, Σ yer-yıl 1837)
-- `nguyen-hanedani` 1802-06-01 → 1945-08-30 — 1837 / 25 / 25
 
 ### Cambridge History of Japan IV-V (1 künye, Σ yer-yıl 1801)
 - `ryukyu` 1429-01-01 → 1879-03-27 — 1801 / 4 / 4

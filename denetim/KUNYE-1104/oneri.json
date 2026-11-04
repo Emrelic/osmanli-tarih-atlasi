@@ -232,8 +232,8 @@
 },
 {
 "id": "burgonya",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: NCMH VII (Schnerb 'Burgundy') — 1032 dükalık / 1482-03-27 Marie'nin ölümü"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — NCMH VII ch.20 PDF s.20: Cesur Şarl 1477'de öldü (ara olay); t 1482-03-27 (Marie'nin ölümü / Arras antlaşması) OKUNMADI; f 1032 okunmadı"
 },
 {
 "id": "navarra",
@@ -379,8 +379,8 @@
 },
 {
 "id": "vijayanagara",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Stein, Vijayanagara (New Cambridge History of India I.2) — f 1336-01-01 / t 1646-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — Metcalf özet kronolojisi '1346–1565' — özet kronoloji f/t düzeltmesine DAYANAK OLAMAZ; 1565 Talikota, imparatorluk Aravidu hanedanıyla 1646'ya sürdü → veri DEĞİŞMEZ; Stein, Vijayanagara (NCHI I.2) tarayıcı kuyruğunda"
 },
 {
 "id": "maratha",
@@ -424,8 +424,8 @@
 },
 {
 "id": "nguyen-hanedani",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I-II — f 1802-06-01 / t 1945-08-30 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — Cambridge History of Southeast Asia I, ch.10, PDF s.2: 'Nguyen (1802-1945)' (f ve t YIL teyitli; 06-01 ve 08-30 günleri teyitsiz)"
 },
 {
 "id": "poni",
@@ -570,8 +570,8 @@
 },
 {
 "id": "pagaruyung",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1833-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — CHSEA II ch.1 PDF s.19: Padri savaşı 1837'den itibaren sertleşti; 1833 yok → t DEĞİŞMEZ, beyanlı (KISMEN: dönem uyumlu, uç teyitsiz)"
 },
 {
 "id": "timor-beylikleri",
@@ -998,7 +998,7 @@
 {
 "id": "gonja",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1550-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · İPUCU: Kuruluş tarihi kaynaklarda çelişkili: Vikipedi 1675, Britannica 'early 17th century' (Sumaila Ndewura Jakpa), Encyclopaedia Africana c.1600-1666, Dagbon yanlısı site 1549-1550 (ilk kral Naba; taraflı). Künyedeki f 1550 yalnız bu son iddiayla örtüşüyor, akademik teyit yok. 1899 (Kuzey Toprakları) araştırılmadı. Gonja tarihleri sözlü geleneğe dayanır (Jakpa epic)."
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1550-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · İPUCU: Kuruluş tarihi kaynaklarda çelişkili: Vikipedi 1675, Britannica 'early 17th century' (Sumaila Ndewura Jakpa), Encyclopaedia Africana c.1600-1666, Dagbon yanlısı site 1549-1550 (ilk kral Naba; taraflı). Künyedeki f 1550 yalnız bu son iddiayla örtüşüyor, akademik teyit yok. 1899 (Kuzey Toprakları) araştırılmadı. Gonja tarihleri sözlü geleneğe dayanır (Jakpa epic). · YEREL ARŞİV: Cambridge PDF'lerinde tarih yok"
 },
 {
 "id": "dagbon",
@@ -1012,8 +1012,8 @@
 },
 {
 "id": "borgu",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden) · İPUCU: İngiliz-Fransız Niger Sözleşmesi 14 Haziran 1898 Paris'te imzalı, onay mübadelesi 13 Haziran 1899 (Vikipedi; Hansard Treaty Series No.15 1899 kaydı); metin Hertslet, Map of Africa by Treaty II s.785-793'te. Sözleşme Borgu-Busa'yı İngiltere ile Fransa arasında paylaştırdı, polity sonu sayılmaz; 1898-01-01 künyesi için kaynak çıkmadı. Birincil metin okunamadı."
+"hukum": "KISMEN",
+"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — CHA VI ch.5 PDF s.13, 18: Fransız-İngiliz Borgu gerginliği 'diplomacy in June 1898' ile çözüldü (t 1898 YIL teyitli) — OLAY TÜRÜ BEYANI: bu bir PAYLAŞIM, polity sonu değil; ic_not: '[olay türü: İngiliz-Fransız paylaşımı (Haziran 1898); Borgu krallıklarının sonu ayrıca kaynak ister]'"
 },
 {
 "id": "ibadan",
@@ -1027,13 +1027,13 @@
 },
 {
 "id": "nijer-deltasi",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1884-09-10 (bölüm: eserin dizininden) · İPUCU: 10 Eylül 1884 Eski Kalabar antlaşması tarihini doğrulayan kaynak çıkmadı; Hewett'in öteki antlaşmaları: Itsekiri 16 Temmuz 1884, Asaba 1 Kasım 1884, Opobo 19 Aralık 1884 (urhobodigitallibrarymuseum); ICJ Bakassi Nigeria Rejoinder (icj-cij.org) 1884'te Eski Kalabar Kral ve Şefleri'nin İngiltere ile koruma antlaşması yaptığını belirtiyor (gün yok). Himaye polity sonu değildir (brief kuralı): t 1884 tarihi bu kurala aykırı görünüyor; Kalabar/Bonny/Brass 1890'lara dek sürdü."
+"hukum": "KISMEN",
+"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — CHA VI ch.5 PDF s.14: 'told of a British protectorate in 1884'; resmî himaye 1896 (t 1884 YIL teyitli; 09-10 günü teyitsiz; himaye = polity sonu varsayımı ic_not'ta)"
 },
 {
 "id": "jukun-kvararafa",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden) · İPUCU: Wukari Federasyonu'nun c.1900'de Kuzey Nijerya himayesine katıldığı (Seshat veri tabanı, 1 Ocak 1900 yürürlük) ve Kwararafa'nın 19. yy başı cihat sonrası yıkıldığı ikincil/derleme kaynaklarda; hakemli kaynak okunmadı. Künyedeki t 1900-01-01 yıl düzeyinde olası, günü keyfî."
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden) · İPUCU: Wukari Federasyonu'nun c.1900'de Kuzey Nijerya himayesine katıldığı (Seshat veri tabanı, 1 Ocak 1900 yürürlük) ve Kwararafa'nın 19. yy başı cihat sonrası yıkıldığı ikincil/derleme kaynaklarda; hakemli kaynak okunmadı. Künyedeki t 1900-01-01 yıl düzeyinde olası, günü keyfî. · YEREL ARŞİV: Cambridge PDF'lerinde tarih yok"
 },
 {
 "id": "tiv",
@@ -1125,8 +1125,8 @@
 },
 {
 "id": "ovimbundu",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1700-01-01 / t 1902-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — Cambridge History of Africa VI, ch.9A (Angola-Mozambik), PDF s.18-19: 1902 Bailundo savaşından sonra Portekiz 'extend their control over all the central highlands' (t 1902 YIL teyitli; gün yok, sınıra bağlı değilse 1902-01-01 kalır) · f 1700 dayanaksız (CHA III ch.7 tarihsiz)"
 },
 {
 "id": "ovambo",
@@ -1231,7 +1231,7 @@
 {
 "id": "herero",
 "hukum": "GIRISLI",
-"kaynak": "OLAY TÜRÜ YANLIŞ — EMRELİC Cambridge — CHA VI, ch.8, s.464-465: 1904 başı ayaklanmanın BAŞLANGICI; savaştan sonra 'All forms of chieftainship were proscribed' (gün yok). t 1904-01-12 kaynaklı uç bulunana dek KALIR; ic_not: '[olay türü yanlış: savaş başlangıcı; polity sonu savaş sonrası şefliklerin yasaklanması, gün teyitsiz]'. ARANACAK: 1905/1907 Alman Güneybatı Afrikası ordinansları (yerli şeflik ve toprak el koyma) — resmî metin"
+"kaynak": "OLAY TÜRÜ YANLIŞ — EMRELİC Cambridge — CHA VI, ch.8, s.464-465: 1904 başı ayaklanmanın BAŞLANGICI; savaştan sonra 'All forms of chieftainship were proscribed' (gün yok). t 1904-01-12 kaynaklı uç bulunana dek KALIR; ic_not: '[olay türü yanlış: savaş başlangıcı; polity sonu savaş sonrası şefliklerin yasaklanması, gün teyitsiz]'. ARANACAK: 1905/1907 Alman Güneybatı Afrikası ordinansları (yerli şeflik ve toprak el koyma) — resmî metin · YEREL ARŞİV: CHA VI ch.8 PDF s.43-44 aynı bilgi; savaş 1907-08'e uzanıyor; ordinans günü yerel dosyalarda yok"
 },
 {
 "id": "nama-orlam",
@@ -1521,7 +1521,7 @@
 {
 "id": "kongo-kralligi",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1390-01-01 / t 1914-01-01 (bölüm: eserin dizininden)"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1390-01-01 / t 1914-01-01 (bölüm: eserin dizininden) · İPUCU (yerel arşiv): CHA VI ch.9A PDF s.4, 6: 1880-1900'de krallığın yetkisi 'extremely limited' — t 1914 DEĞİŞMEZ, gün kaynağı aranıyor"
 },
 {
 "id": "ndongo",
