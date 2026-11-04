@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 71, OLCUM 29.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 43, KAYNAKLI 28, OLCUM 29.
 
 ## Kara eksklavları
 
@@ -35,10 +35,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1470-07-12 · komşu: OSMANLI 47%, zeta 37%, sirbistan 36%
 - Koridor: 562.6 km · macaristan 5/9, OSMANLI 3/9, avusturya 1/9
 - İçindeki yerleşimler: Leş (Alessio) (venedik); İşkodra (venedik); Bar (Antivari) (venedik); Cetinje (sahipsiz); Kotor (Cattaro) (venedik)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Venedik Arnavutluğu ve Kotor (Stato da Mar) 1393-1571 Venedik gövdesinden kara yoluyla ayrı: gerçek. Ancak İşkodra 1479'da, Leş 1478'de Osmanlı'ya geçti; bitiş 1571 (Bar/Ülgün) yalnız Bar için doğru. Cetinje sahipsiz.
-  - Düzeltme önerisi: İşkodra t → 1479 (TDV İşkodra), Leş t → 1478 (TDV Arnavutluk: '1478'de Akçahisar, Drivasto, Leş'); Kotor 1571 sonrası Venedik sürer.
-  - Kaynak: TDV «Arnavutluk» (Leş 1478, İşkodra 1479) — yer4 turunda okundu
+  - Düzeltme önerisi: İşkodra 1393 → OSMANLI (Kavala Şâhin), 1396 → venedik (Stratsimirović'in satışı), 1479 → OSMANLI; Leş 1390'larda Venedik (yerli beylerden yıllık maaşla), 1478 Osmanlı; Kotor 1571 sonrası Venedik sürer.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/iskodra — 'Osmanlı yönetiminin (1393-1396, 1479-1912)' · '1396'da George Stratsimirović şehri Venedikliler'e sattı' · TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/arnavutluk — 'Venedikliler de Leş, Draç, Drivasto gibi yerleri yıllık bir maaş karşılığı yerli beylerden aldılar' · '1478'de Akçahisar, Drivasto, Leş ve Jabyak'ın, 1479'da İşkodra'nın ele geçirilmesiyle'
 
 ### K504 · macaristan-habsburg · 1689-09-24 → 1689-10-01 · 5.850 km²
 
@@ -65,10 +65,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1448-01-01 · komşu: bogdan 47%, OSMANLI 22%
 - Koridor: 59.0 km · bogdan 9/9
 - İçindeki yerleşimler: Kili (eflak)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Kili 1448-1456 'eflak', koridor Boğdan 9/9. Kili 1448-1465 arası Hunyadi'nin Macar garnizonundaydı (1465 Boğdan III. Ştefan aldı); Eflak yazımı şüpheli.
-  - Düzeltme önerisi: Kili 1448-1465 sahibi (macaristan / eflak) kaynakla; 1465 → bogdan.
-  - Kaynak: bulunamadı (model bilgisi)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Kili 1448 Eflak voyvodalığı: TDV hükmü düzeltti (model 'Hunyadi garnizonu' sanmıştı). Boğdan ortasında Eflak kalesi; 24 Ocak 1465 Ştefan cel Mare aldı.
+  - Düzeltme önerisi: Kili eflak t → 1465-01-24 (bogdan); 1456 kırılması kaynakla sınansın.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kili — 'Kili Kalesi 1448'den sonra tekrar Eflak Voyvodalığı'na geçti' · 'Kili Kalesi'ni ele geçirdi (26 Cemâziyelevvel 869 / 24 Ocak 1465)'
 
 ### K507 · OSMANLI · 1475-06-06 → 1774-07-21 · 5.726 km²
 
@@ -145,10 +145,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1840-11-03 · komşu: TABI 60%, misir-suriye-idaresi 15%
 - Koridor: 34.9 km · TABI 9/9
 - İçindeki yerleşimler: Megiddo (sahipsiz); Kfar HaHoresh (sahipsiz); Akkâ (OSMANLI); Montfort (sahipsiz); Ain Mallaha (Eynan) (sahipsiz); Sûr (Tyre) — Lübnan (OSMANLI); Sayda (OSMANLI)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Akkâ ve Sûr 1832-06-15 → 1840-11-27 OSMANLI doğrudan, çevre TABI (Kavalalı Mısır). İbrahim Paşa Akkâ'yı 27 Mayıs 1832'de aldı; 3 Kasım 1840 Müttefik donanmasıyla geri alındı (büyük kesit günü 1840-11-03 bunu yansıtıyor). 4 iç nokta sahipsiz (Megiddo, Kfar HaHoresh, Montfort, Eynan — arkeolojik).
   - Düzeltme önerisi: Akkâ, Sûr 1832-05-27 → 1840-11-03 misir-suriye-idaresi (TDV «Akkâ» ile teyit).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/akka — 'Akkâ 1832'de … İbrâhim Paşa tarafından kuşatıldı. Şehir, altı ay süren bu kuşatma sonunda … Osmanlı muhafızlarından teslim alındı' (gün TDV'de yok; 27 Mayıs 1832 KAYNAK-GEREK) · 1840 Londra
 
 ### K515 · avusturya · 1813-10-15 → 1814-04-16 · 5.506 km²
 
@@ -175,10 +175,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1388-09-28 · komşu: fransa 63%, provence-kontlugu 37%, saluzzo 26%
 - Koridor: 75.8 km · fransa 9/9
 - İçindeki yerleşimler: Nice (savoya)
-- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAKLI)
   - Gerekçe: Nice 1388-09-28 (Savoya'ya bağlanma) → 1601 'savoya', koridor 'fransa' 9/9. Nice, Cuneo-Tende hattıyla Piyemonte'ye bağlıydı (Cuneo 1382'den Savoya); kopukluk Nice-Cuneo arası noktasızlıktan. Bitiş 1601 (Lyon/Saluzzo) yalnız Saluzzo için anlamlı.
   - Düzeltme önerisi: Tende, Sospel, Cuneo noktalarına 1388-1601 savoya dönemi (kaynakla).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, 'Nizza', https://www.treccani.it/enciclopedia/nizza/ — 'Signoria dei Savoia dal 1388' (başlangıç; Cuneo-Tende bağı KAYNAK-GEREK)
 
 ### K518 · portekiz · 1891-06-11 → 1923-10-29 · 5.471 km²
 
@@ -225,30 +225,30 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1402-07-28 · komşu: timurlu 83%, germiyan 17%
 - Koridor: 5.6 km · timurlu 9/9
 - İçindeki yerleşimler: Akşehir (karaman); İshaklı (karaman)
-- **Hüküm: YAPAY** (YAPAY-d · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-d · güven KAYNAKLI)
   - Gerekçe: Akşehir-İshaklı 1402-07-28 → 09-15 Karaman, çevre Timurlu %83: Ankara sonrası 49 günlük parça — Timur'un ordugâhı ve beyliklerin iadesi arasındaki kısa ara.
   - Düzeltme önerisi: Timur'un Anadolu'daki geçici idaresinin günleri kaynakla; kısa ara ya karaman ya timurlu tek kayıt.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karamanogullari — 'Ankara Savaşı'ndan (1402) sonra Timur Karamanlı ülkesini Kayseri, Kırşehir, Sivrihisar ve Beyşehir'le birlikte Alâeddin Bey'in oğulları Mehmed ve Ali beylere vermişti' (iade günü yok — kısa ara beyanlı)
 
 ### K523 · buyuk-selcuklu · 1093-01-01 → 1098-03-10 · 5.277 km²
 
 - En büyük kesit: 1093-02-01 · komşu: suriye-selcuklu 35%
 - Koridor: 35.5 km · suriye-selcuklu 9/9
 - İçindeki yerleşimler: Urfa (buyuk-selcuklu); Göbekli Tepe (sahipsiz); Siverek (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Urfa 1093-1098 'buyuk-selcuklu', çevre Suriye Selçukluları: 1094-1098 Urfa Ermeni Thoros'un (Selçuklu tâbii) elindeydi; 10 Mart 1098 Baudouin (bitiş uyumlu). Göbekli Tepe, Siverek sahipsiz.
-  - Düzeltme önerisi: Urfa 1094-1098 sahibi (Thoros, tâbi) kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Urfa 1094 → suriye-selcuklu (v:), Toros idaresi (beyan); 1098-03-10 → urfa-kontlugu.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sanliurfa — 'Emîr Bozan'ın 487'de (1094) Tutuş tarafından öldürülmesiyle Urfa, Suriye Selçukluları'nın hâkimiyetine geçti. Rivayete göre Tutuş … şehri Ermeni asıllı Toros'un idaresine bırakmıştı' · '10 Mart 1098'de Baudouin şehre hâkim olup'
 
 ### K524 · OSMANLI · 1557-04-02 → 1885-02-05 · 5.270 km²
 
 - En büyük kesit: 1836-01-01 · komşu: habesistan 62%
 - Koridor: 93.3 km · habesistan 9/9
 - İçindeki yerleşimler: Arkîko (OSMANLI); Masavva (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Masavva-Arkîko Osmanlı Habeş eyaleti 1557 (Özdemir Paşa) → 1885-02-05 İtalyan işgali, Habeşistan kıyısında ve denizle gövdeden ayrı: gerçek. 1865-1885 Mısır'a bırakılma (v:) ayrıca bakılsın.
-  - Düzeltme önerisi: 1865 sonrası v: misir-kavalali kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: 1865 → misir-kavalali (Mısır emlâki, kaymakamlık); 1885-02-05 → italya.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/masavva — '2 Cemâziyelâhir 964'te (2 Nisan 1557) Özdemir Paşa tarafından Osmanlı topraklarına katıldı' · 'Mısır emlâkine dahil edilerek kaymakamlık statüsünde teşkilâtlandırıldı (1865). Böylece Osmanlı hâkimiyeti fiilen sona eren' · '5 Şubat 1885'te Masavva'a girdiler'
 
 ### K525 · macaristan · 1543-08-10 → 1544-09-01 · 5.221 km²
 
@@ -295,10 +295,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1843-01-01 · komşu: fas 37%, abdulkadir 21%
 - Koridor: 52.4 km · abdulkadir 9/9
 - İçindeki yerleşimler: Tilimsan (fransa-cumhuriyet)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Tilimsan 1843 Fransız garnizonu, Emîr Abdülkādir ve Fas sınırı arasında: Fransızlar Tilimsan'ı Ocak 1842'de aldı — Batı Cezayir'de kopuk garnizon, gerçek.
-  - Düzeltme önerisi: Başlangıç 1842 mi 1843 mü kaynakla (TDV «Tilimsan»).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Tilimsan Fransız f → 1842 (yıl; ikinci işgal); 1833-1842 abdulkadir (1836-37 kısmi Fransız arası).
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/tilimsan — 'Emîr Abdülkādir … 1833'te Tilimsân'ı a[ldı]' · '1836'da Fransızlar … kısmen ele geçirdilerse de 1837 yılı Mayıs ayında yapılan Tâfnâ Antlaşması ile buraları tekrar Emîr Abdülkādir'e bıraktılar. Ancak 1842'de … ikinci işgal dönemini başlattılar'
 
 ### K530 · leon-kralligi · 1086-01-01 → 1097-01-01 · 5.085 km²
 
@@ -315,10 +315,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1689-08-01 · komşu: macaristan-habsburg 83%
 - Koridor: 0.6 km · macaristan-habsburg 9/9
 - İçindeki yerleşimler: Kanije (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Kanije 1689-02-03 → 1690-04-23 Osmanlı, çevre Habsburg Macaristanı: kuşatma altındaki son Osmanlı kalesi, 1690 Nisan'da teslim — gerçek.
-  - Düzeltme önerisi: Teslim günü TDV «Kanije» ile.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Kanije OSMANLI t → 1690-04-13 (veri 04-23).
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/kanije — '1099 (1688) yılından beri uygulanan Habsburg ablukası … 1690 Ocağından itibaren … çok sıkı'; bibliyografya: O. Pickl, 'Die Kapitulation der Festung (Nagy) Kanizsa … am 13. April 1690' (çift: başlık günü)
 
 ### K532 · altinorda · 1301-01-01 → 1325-01-01 · 4.955 km²
 
@@ -345,10 +345,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1463-06-01 · komşu: macaristan 54%, hersek 21%, OSMANLI 17%
 - Koridor: 58.9 km · OSMANLI 6/9, hersek 3/9
 - İçindeki yerleşimler: Posušje (sahipsiz); Delminium (sahipsiz); Livno (İhlevne) (bosna)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Livno 1463-06-01 → 1465 'bosna' (Krallık) kalıntısı, çevre Macar (Yayçe banlığı) %54 ve Hersek: Bosna Krallığı 1463'te Osmanlı'ya düştü; kalan batı Bosna Macar ya da Hersek elindeydi. Posušje, Delminium sahipsiz.
-  - Düzeltme önerisi: Livno 1463-1469 sahibi (macaristan / hersek) kaynakla (TDV «Livne»).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Livno 1463 kısa Osmanlı işgali → aynı yıl hersek (Vladislav Hercegović); 1466 hâkim Ivaniš Vlatković; 'bosna' kalıntısı kaldırılsın.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/livno — '1448-1454 yılları arasında Livno … Stjepan Vukčić-Kosača'nın elindeydi. 1463'te kısa bir süre için Osmanlı kuvvetleri tarafından işgal edildiyse de aynı yıl Vladislav Hercegović tarafından geri alındı. 1466'da Livno hâkimi Ivaniš Vlatković'tir'
 
 ### K535 · karaman · 1397-07-01 → 1402-09-15 · 4.772 km²
 
@@ -385,10 +385,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1468-01-01 · komşu: OSMANLI 50%, ramazanoglu 4%, alaiye 4%
 - Koridor: 171.8 km · OSMANLI 8/9, ramazanoglu 1/9
 - İçindeki yerleşimler: Anamur (karaman); Silifke (karaman)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Anamur-Silifke 1468 (Konya'nın Osmanlı'ya geçişi) → 1473 Karamanoğulları'nın Taşeli kalıntısı (Kasım/Pîr Ahmed): gerçek. Silifke'nin Gedik Ahmed'e düşüşü 1474 olabilir.
-  - Düzeltme önerisi: Bitiş günü TDV «Karamanoğulları» ile.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Silifke 1472 → OSMANLI (Gedik teslim aldı), aynı yıl karaman (Kasım Bey, Haçlı donanması); 1473 Otlukbeli sonrası Gedik'in seferi — düşüş günü KAYNAK-GEREK.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/silifke — 'Gedik Ahmed Paşa 1472'de İçel'e gidip Silifke Kalesi'ni teslim aldı. Fakat Karamanoğlu Kasım Bey, aynı yıl … geri almayı başardı. 1473'te Otlukbeli Savaşı'nı kazanan Fâtih … Silifke ve çevresinin zaptıyla görevlendirdi'
 
 ### K539 · sadi · 1541-01-01 → 1549-01-01 · 4.688 km²
 
@@ -435,10 +435,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1783-04-19 · komşu: TABI 51%, lehistan 49%, avusturya 28%
 - Koridor: 107.8 km · TABI 9/9
 - İçindeki yerleşimler: Hotin (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Hotin 1713-06-24 Boğdan'dan koparılıp doğrudan Osmanlı sancağı → 1812-05-28 Bükreş: Boğdan (TABI), Lehistan ve Avusturya arasında gerçek kale eksklavı; kronolojideki 1713 maddesiyle uyumlu.
-  - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Hotin araları: 1713 geçici Rus işgali; 1788-09 → 1792 (Yaş) Avusturya-Rus; 1806 → rusya; 1812 Bükreş.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/hotin — '1711'den sonra Boğdan'dan alınıp doğrudan Osmanlı idaresine sokuldu' · '1713'te geçici Rus işgalinin ardından' · '1788 Eylülünde bu kuvvetlerce alındı. Yaş Antlaşması ile (1792) … geri verilen Hotin son olarak 1806'da Ruslar'ın işgaline uğradı. 1812'deki Bükreş Antlaşması ile'
 
 ### K544 · hollanda-dogu-hint · 1641-01-14 → 1825-03-01 · 4.540 km²
 
@@ -455,10 +455,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1799-01-23 · komşu: papalik 31%, toskana 19%, roma-cumhuriyeti-1798 17%
 - Koridor: 53.6 km · roma-cumhuriyeti-1798 7/9, papalik 2/9
 - İçindeki yerleşimler: Tarquinia (sahipsiz); Vulci (sahipsiz); Orbetello (napoli)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Orbetello — Stato dei Presidi (Napoli) 1736 → 1801 (Floransa antlaşması): Toskana ve Papalık arasında gerçek. Tarquinia, Vulci (antik) sahipsiz.
-  - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Orbetello 1800 Fransız işgali → 1801 Etruria Krallığı.
+  - Kaynak: Treccani, 'Presidi, Stato dei', https://www.treccani.it/enciclopedia/stato-dei-presidi/ — 'nel 1736 passò a Carlo di Borbone e rimase unito al Regno delle Due Sicilie fino al 1800, quando fu occupato dai Francesi. Incorporato nel Regno d'Etruria con la pace di Firenze (1801)'
 
 ### K546 · ingiliz-malaya · 1909-07-10 → 1946-04-01 · 4.508 km²
 
@@ -495,10 +495,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1714-03-07 · komşu: milano-dukaligi 32%, parma 20%, venedik 18%
 - Koridor: 96.1 km · graubunden 9/9
 - İçindeki yerleşimler: Pavia (sahipsiz); Milano (avusturya); Como (avusturya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Milano-Como 1714 → 1799-04-27 Avusturya Lombardiyası: gerçek ama 1796-05-15 (Bonaparte'ın Milano'ya girişi) → 1799-04-28 (Suvorov) Cisalpin dönemi veride yok.
   - Düzeltme önerisi: Milano, Como, Pavia 1796-05-15 → 1799-04-28 italya-napolyon (Cispadan/Cisalpin).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, 'Cisalpina, Repubblica', https://www.treccani.it/enciclopedia/repubblica-cisalpina/ — 'Fondata da Bonaparte nel 1797, comprese gran parte dell'antico Ducato di Milano … nel 1799, si scatenò la reazione. Ripristinata da Bonaparte nel 1800' (yıl; 1796 Milano girişi günü KAYNAK-GEREK)
 
 ### K550 · saksonya · 1498-01-01 → 1515-01-01 · 4.397 km²
 
@@ -525,10 +525,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1400-01-01 · komşu: dulkadir 67%, memluk 32%
 - Koridor: 100.1 km · dulkadir 9/9
 - İçindeki yerleşimler: Behisni (Besni) (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Besni 1400 Osmanlı (Yıldırım'ın 1399 Malatya-Behisni seferi) → 1400 Ağustos (Timur'un gelişi), Dulkadir/Memlük ortasında: kısa ama gerçek ileri karakol.
-  - Düzeltme önerisi: Uçlar TDV «Besni» ile.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Besni OSMANLI f → 1398 (Sivas, Dârende, Malatya ile); 1400 → memluk (Timur'un Malatya zaptı sırasında); 1400-09-27 Timur zaptı.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/besni — '1398'de Sivas, Dârende ve Malatya ile birlikte Osmanlı topraklarına katıldıysa da 1400'de Timur'un Sivas ve Malatya'yı zaptı sırasında Memlükler'in eline geçti. Ancak Timur 27 Eylül 1400'de … burayı zaptetti'
 
 ### K553 · avusturya-hollandasi · 1714-03-07 → 1795-10-01 · 4.301 km²
 
@@ -565,20 +565,20 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1382-01-01 · komşu: bosna 43%
 - Koridor: 15.1 km · bosna 5/9, DENIZ/BOS 4/9
 - İçindeki yerleşimler: Dubrovnik (macaristan); Ston (macaristan); Çapljina (Čapljina) (sahipsiz); Mostar (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Dubrovnik-Ston 1358-02-18 (Zadar barışı) → 1459 'macaristan' doğrudan: Ragusa özerk cumhuriyetti, Macar tacına haraçgüzâr — doğrudan sahip değil.
   - Düzeltme önerisi: Dubrovnik 1358-1458 d: dubrovnik-cumhuriyeti, v: macaristan; 1458 sonrası v: OSMANLI.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Hrvatska enciklopedija, 'Dubrovačka Republika', https://www.enciklopedija.hr/clanak/dubrovacka-republika — 'Višegradskim ugovorom s Ludovikom I. Anžuvincem (27. V. 1358), Dubrovnik je priznao vlast hrvatsko-ugarskog kralja. Stekavši postupno sve atribute državnosti' (v: günü 1358-05-27; veri 1358-02-18 Zadar barışı — iki gün beyanlı)
 
 ### K558 · venedik · 1281-01-01 → 1358-02-18 · 4.231 km²
 
 - En büyük kesit: 1335-01-01 · komşu: bosna 44%
 - Koridor: 898.3 km · bizans 4/9, DENIZ/BOS 3/9, sirbistan-nemanjic 1/9, epir-despotlugu 1/9
 - İçindeki yerleşimler: Dubrovnik (venedik); Ston (venedik); Çapljina (Čapljina) (sahipsiz); Mostar (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Dubrovnik-Ston 1281 → 1358 'venedik' doğrudan: Venedik üstünlüğü (Venedikli kont) altında özerk komün — K557 ile aynı düzeltme ailesi.
   - Düzeltme önerisi: Dubrovnik 1281-1358 d: dubrovnik-cumhuriyeti, v: venedik.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Hrvatska enciklopedija, 'Dubrovačka Republika' — 'Dubrovnik je od 1205. priznavao vrhovništvo Venecije'; 1272 Statut (özerk komün)
 
 ### K559 · OSMANLI · 1738-05-08 → 1738-08-01 · 4.209 km²
 
@@ -605,10 +605,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1813-01-01 · komşu: kacar 79%
 - Koridor: 167.2 km · karabag-hanligi 7/9, kacar 2/9
 - İçindeki yerleşimler: Lenkeran (rusya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Lenkeran 1813-01-01 Rus hücumu → 1813-10-24 Gülistan antlaşması, Kaçar toprakları ortasında: savaş içi gerçek ileri parça.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ içerik araması (arama/lenkeran) — '1 Ocak 1813'te Lenkeran'ı aldı' · Gülistan '4. maddesine göre Lenkeran Hanlığı Ruslar'da kaldı'
 
 ### K562 · norvec · 1905-06-07 → 1920-10-14 · 4.190 km²
 
@@ -625,20 +625,20 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1378-01-01 · komşu: sirbistan 31%, topia 7%, macaristan 4%
 - Koridor: 54.7 km · topia 9/9
 - İçindeki yerleşimler: Leş (Alessio) (zeta); İşkodra (zeta); Bar (Antivari) (zeta)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Leş-İşkodra-Bar 1378-1417 'zeta' (Balşiçler): K503'teki Venedik Leş'i (1393'ten) ile ÇAKIŞIYOR. Balşiçler İşkodra'yı 1396'da Venedik'e bıraktı; Leş 1386/1393 Venedik.
-  - Düzeltme önerisi: Leş 1393 → venedik; İşkodra 1396 → venedik (çakışma giderilsin); Bar zeta sürer.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: İşkodra: 1360-1393 Balšić (zeta) doğru, 1393 → OSMANLI, 1396 → venedik. Leş: Venedik 1390'lar (TDV yıl vermiyor; gün KAYNAK-GEREK) — çakışma K503 lehine çözülür, zeta Leş t → Venedik devir günü.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/iskodra — '1360-1393 yıllarında Sırp Balšić Prensliği'nin merkezi olan şehir, Osmanlı kumandanı Kavala Şâhin tarafından ele geçirildiyse de (1393-1396) bu uzun sürmedi' · TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/arnavutluk (Leş, yıl aralığı)
 
 ### K564 · OSMANLI · 1781-01-01 → 1829-09-14 · 4.123 km²
 
 - En büyük kesit: 1792-01-09 · komşu: kirim 58%, rusya 50%, TABI 8%
 - Koridor: 219.0 km · TABI 8/9, rusya 1/9
 - İçindeki yerleşimler: Anapa (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Anapa kalesi 1781 Osmanlı → 1829-09-14 Edirne antlaşması, Rus Kubanı ortasında: gerçek. Rus zapt araları (1791-1792, 1807, 1828-06) veride yok.
-  - Düzeltme önerisi: Anapa 1791-06 → 1792-01 (Yaş), 1807, 1828-06-12 → rusya araları kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Anapa araları: 1791-07-26 → rusya, 1792-01-10 (Yaş) → OSMANLI; 1828-06-24 → rusya (1829-09-14 Edirne).
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/anapa — 'üçüncü kuşatma sonunda 26 Temmuz 1791'de işgal edildi. Ancak Yaş Antlaşması ile (10 Ocak 1792) … geri verildi' · 'Osman Paşa 24 Haziran 1828'de Ruslar'a teslim oldu' · Fedakâr, Anapa Kalesi … 1781-1801 (doktora tezi, 2010)
 
 ### K565 · ispanya · 1614-01-01 → 1681-01-01 · 4.079 km²
 
@@ -655,30 +655,30 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1419-01-01 · komşu: dulkadir 45%, memluk 33%, OSMANLI 21%
 - Koridor: 18.4 km · memluk 9/9
 - İçindeki yerleşimler: Kapadokya (sahipsiz); Kayseri (karaman)
-- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
-  - Gerekçe: Kayseri 1419-1435 Karaman, çevre Dulkadir/Memlük: Karaman gövdesine Niğde-Aksaray hattıyla bağlı olmalı; 'Kapadokya' bölge adlı nokta sahipsiz — kopukluk noktasızlıktan olabilir.
-  - Düzeltme önerisi: Niğde-Kayseri arası noktaların 1419-1435 sahibi kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Kayseri 1419-1435 'karaman': TDV'ye göre tam tersi — 1419'da Memlükler Kayseri'yi Dulkadırlı Nâsırüddin Muhammed'e verdi, Karaman beyi Kayseri için savaşta esir düştü; 1435'te Karaman Kayseri'yi Dulkadırlılar'dan aldı.
+  - Düzeltme önerisi: Kayseri 1419 → dulkadir, 1435 → karaman (gün KAYNAK-GEREK; hicrî 822 / 838).
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/karamanogullari — 'Memlükler Kayseri'yi işgal ettiler. Memlük kumandanı … bu şehri Dulkadırlı Nâsırüddin Muhammed'e … vererek (822/1419)' · '838 (1435) … Dulkadırlılar'a karşı önemli bir zafer kazanarak Kayseri, Ürgüp, Develi Karahisârı … Uçhisar'
 
 ### K567 · avusturya · 1708-01-01 → 1797-02-02 · 4.036 km²
 
 - En büyük kesit: 1746-01-01 · komşu: venedik 47%, parma 28%, modena 27%
 - Koridor: 61.4 km · parma 6/9, venedik 3/9
 - İçindeki yerleşimler: Mantova (avusturya); Guastalla (avusturya)
-- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAKLI)
   - Gerekçe: Mantova 1708 Avusturya → 1797-02-02 Bonaparte'ın zaptı: Mantova dükalığı Milano'ya Cremona üzerinden bitişikti — kopukluk Cremona noktası/döneminden olabilir. Guastalla 1748'den Parma'ya.
   - Düzeltme önerisi: Cremona 1714-1797 avusturya; Guastalla 1748 → parma.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, 'Cisalpina, Repubblica' — 'con il Trattato di Campoformio, ebbe il Bresciano, il Mantovano' (bitiş 1797; 1708 başlangıcı ve Cremona bağı KAYNAK-GEREK)
 
 ### K568 · bizans · 1372-01-01 → 1430-03-29 · 4.009 km²
 
 - En büyük kesit: 1403-06-01 · komşu: OSMANLI 22%, suleyman-celebi 22%, TABI 16%
 - Koridor: 147.3 km · OSMANLI 9/9
 - İçindeki yerleşimler: Kesendire (Kassandra) (bizans); Aynaroz (Athos) (bizans); Olynthos (sahipsiz); Selanik (bizans)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Selanik-Athos-Kesendire 1372-1430 sürekli 'bizans': Selanik 1387-1403 Osmanlı, 1403 Gelibolu antlaşmasıyla Bizans, 1423-1430 Venedik idaresindeydi; 1430-03-29 Osmanlı fethi (bitiş uyumlu).
   - Düzeltme önerisi: Selanik 1387 → OSMANLI, 1403 → bizans, 1423-09 → venedik (TDV «Selanik» ile).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/selanik — '789 (1387) baharında … Selânik'i ele geçirdi' · 'Gelibolu'da yapılan antlaşma uyarınca Selânik 1403'te resmen Bizans idaresine geçti' · 'Venedik idaresini (1423-1430)' · '29 Mart 1430'da'
 
 ### K569 · iskocya · 1652-02-04 → 1660-05-29 · 3.978 km²
 
@@ -695,10 +695,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1207-07-28 · komşu: ahlatsahlar 26%
 - Koridor: 24.0 km · ahlatsahlar 9/9
 - İçindeki yerleşimler: Ahlat (eyyubi)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Ahlat 1207 Eyyûbî (el-Melikü'l-Evhad) zaptı, Ahlatşahlar kalıntısı ortasında: gerçek ileri parça.
   - Düzeltme önerisi: Gün TDV «Ahlat» ile.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/ahlat — 'şehir Eyyûbîler'den el-Melikü'l-Evhad b. Âdil'in eline geçti (604/1207-1208) ve Ahlatşahlar hânedanı sona erdi'
 
 ### K571 · fransa-cumhuriyet · 1833-07-28 → 1841-01-01 · 3.799 km²
 
@@ -765,10 +765,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1416-01-01 · komşu: eflak 59%
 - Koridor: 102.3 km · eflak 9/9
 - İçindeki yerleşimler: Babadağı (Babadag) (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Babadağı 1416-1419 Osmanlı, Eflak'ın (Mirçe) Dobruca'sı ortasında: I. Mehmed'in Dobruca seferi parçası olarak gerçek olabilir.
   - Düzeltme önerisi: Uçlar TDV «Babadağı» ile.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/babadagi — 'Babadağı ve çevresi, Çelebi Sultan Mehmed'in Eflak Voyvodası Mircea ile oğlu Mihail'i mağlûp etmesinden sonra Osmanlı hâkimiyetine girdi (819/1416)' (1419 bitişi KAYNAK-GEREK)
 
 ### K578 · sovyet-rusya · 1917-12-15 → 1918-04-08 · 3.669 km²
 
@@ -825,10 +825,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1443-01-01 · komşu: OSMANLI 26%, suleyman-celebi 26%, bizans 24%
 - Koridor: 59.1 km · OSMANLI 6/9, atinadukaligi 2/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: İnebahtı (venedik); Thermon (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: İnebahtı 1407 Venedik → 1499-08-26 Osmanlı fethi: gerçek kale eksklavı.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/inebahti — '1407'de Venedikliler tarafından alın[dı]' · 'II. Bayezid'in emriyle … 1499 yazında burayı kuşatma altına aldı'
 
 ### K584 · sovyet-rusya · 1917-11-07 → 1920-10-14 · 3.513 km²
 
@@ -845,10 +845,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1281-01-01 · komşu: bizans 27%, atinadukaligi 4%, ahaya-prinkepsligi 0%
 - Koridor: 83.6 km · bizans 9/9
 - İçindeki yerleşimler: İnebahtı (epir-despotlugu); Thermon (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: İnebahtı 1204 → 1318 'epir-despotlugu': Naupaktos 1294'te çeyiz olarak Tarantolu Philippe'e (Angevin) geçti; 1294-1318 Epir yazımı şüpheli.
-  - Düzeltme önerisi: İnebahtı 1294 → angevin (Taranto) kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: İnebahtı 1294 → angevin (kısa), ardından 1407'ye dek Arnavut Shpata prensliği (yılları KAYNAK-GEREK); epir-despotlugu t → 1294.
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/inebahti — '1204'ten sonra … Epiros Despotluğu toprakları içinde kaldı' · '1294'te kısa bir süre Anjou Frenk Prensliği'nin eline geçtiyse de 1407'de Venedikliler tarafından alın[ana] kadar Arnavut Shpata Prensliği'nin hâkimiyeti altında kaldı'
 
 ### K586 · safevi · 1516-05-01 → 1517-05-01 · 3.420 km²
 
@@ -935,10 +935,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YA
 - En büyük kesit: 1797-02-02 · komşu: milano-dukaligi 31%, parma 26%, venedik 13%
 - Koridor: 61.4 km · parma 6/9, venedik 3/9
 - İçindeki yerleşimler: Pavia (sahipsiz); Milano (fransa-cumhuriyet)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Milano 1796-05-15 → 1797-05-12 Fransız askerî idaresi (Transpadan), komşu Lombardiya noktaları hâlâ 'milano-dukaligi': K549 ile aynı aile; çevre noktalar 1796'da Fransız/Cisalpin olmalı. Pavia sahipsiz.
   - Düzeltme önerisi: Lombardiya noktaları 1796-05-15 → fransa-cumhuriyet, 1797-07-09 → italya-napolyon; Milano 1797-05-12 → 07-09 arası kontrol.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, 'Cisalpina, Repubblica' (K549 ile aynı) — 1797 kuruluş, Milano Dükalığı'nın büyük kısmı
 
 ### K595 · memluk · 1335-01-01 → 1338-01-01 · 3.314 km²
 
