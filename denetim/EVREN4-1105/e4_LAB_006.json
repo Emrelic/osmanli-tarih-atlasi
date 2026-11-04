@@ -416,13 +416,13 @@
    "f": "1526-09-01",
    "t": "1687-09-29",
    "hukum": "ONERI",
-   "uc": "f+t",
-   "kaynak": "Hrvatska enciklopedija, Osijek, https://www.enciklopedija.hr/clanak/osijek (WebFetch özeti)",
-   "alinti": "Nakon oslobođenja od osmanske vlasti 26. IX. 1687., grad je ponovno 1690. opsjela osmanska vojska",
+   "uc": "t",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Osijek» — https://www.enciklopedija.hr/clanak/osijek (EMRELİC tarayıcıda birebir okudu)",
+   "alinti": "Nakon oslobođenja od osmanske vlasti 26. IX. 1687.",
    "oneri": {
     "t": "1687-09-26"
    },
-   "not": "KARAR EMRELİC (gece-38): Ösek: yalnız WebFetch özeti → ONERI kalır. | WebFetch özeti. t: 26 Eylül 1687 (gün verilmiş); atlas 1687-09-29 (3 gün fark; takvim belirtilmemiş, Gregoryen varsayımı). f: 1526 YIL. Not: Habsburg adı geçmiyor, 'oslobođenje'. TEK ÖLÇÜ: devralan (Habsburg) yer fiilen yönettiğine göre s macaristan-habsburg f=teslim günü; Osijek teslimi 26 IX (hukuki: Karlofça 1699 'ic_not'a). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-48): t 1687-09-26 (atlas 09-29 düzelir); Osmanlı fethi «osmanskoga osvojenja 1526.» | KARAR EMRELİC (gece-38): Ösek: yalnız WebFetch özeti → ONERI kalır. | WebFetch özeti. t: 26 Eylül 1687 (gün verilmiş); atlas 1687-09-29 (3 gün fark; takvim belirtilmemiş, Gregoryen varsayımı). f: 1526 YIL. Not: Habsburg adı geçmiyor, 'oslobođenje'. TEK ÖLÇÜ: devralan (Habsburg) yer fiilen yönettiğine göre s macaristan-habsburg f=teslim günü; Osijek teslimi 26 IX (hukuki: Karlofça 1699 'ic_not'a). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
   }
  ],
  "Baç (Bács)": [
@@ -449,12 +449,12 @@
    "t": "1687-09-06",
    "hukum": "ONERI",
    "uc": "f",
-   "kaynak": "Hrvatska enciklopedija, Bač (WebFetch özeti)",
+   "kaynak": "Hrvatska enciklopedija (LZMK), «Bač» — https://www.enciklopedija.hr/clanak/bac (EMRELİC tarayıcıda birebir okudu)",
    "alinti": "Pod osmansku vlast došao je 1529.",
    "oneri": {
-    "f": "1529"
+    "f": "1529-01-01"
    },
-   "not": "WebFetch özeti. f: 1529 (YIL). t=1687-09-06: Bač maddesinde 1687/Habsburg geçmiyor (yalnız 'Bač je stradao za Rákóczyjeve bune 1703.') -> t BULUNAMADI (Magyar Katolikus Lexikon/Srpska enc. bakılmadı). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "KARAR EMRELİC (gece-48): f 1529 [yalnız yıl], atlas 1526-09-01 düzelir. | WebFetch özeti. f: 1529 (YIL). t=1687-09-06: Bač maddesinde 1687/Habsburg geçmiyor (yalnız 'Bač je stradao za Rákóczyjeve bune 1703.') -> t BULUNAMADI (Magyar Katolikus Lexikon/Srpska enc. bakılmadı). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
   }
  ],
  "Hatvan": [
@@ -578,10 +578,10 @@
    "t": "1809-01-01",
    "hukum": "ONERI",
    "uc": "f",
-   "kaynak": "Hrvatska enciklopedija, Rab (otok), https://www.enciklopedija.hr/clanak/rab-otok (WebFetch özeti)",
+   "kaynak": "Hrvatska enciklopedija, Rab (otok), https://www.enciklopedija.hr/clanak/rab-otok (WebFetch özeti) ; Hrvatska enciklopedija (LZMK), «Rab (otok)» — https://www.enciklopedija.hr/clanak/rab-otok (EMRELİC tarayıcıda birebir okudu)",
    "alinti": "otok je 1805. bio priključen Napoleonovim Ilirskim pokrajinama.",
    "oneri": {},
-   "not": "WebFetch özeti. Rab maddesi 1805'te Napolyon'un 'Illyrian Provinces'ına katılma der (anakronik: eyaletler 1809'da kuruldu; atlas ENKLAV-0072 de aynı uyarıyı yapıyor). Krk maddesi 1806 Kingdom of Italy (kayıtta). Rab'a özgü 1806 İtalya Krallığı cümlesi okunmadı; seçilmedi."
+   "not": "KARAR EMRELİC (gece-48): Rab: «nakon pada Mletačke Republike (1797), te kratkotrajne austrijske vladavine, otok je 1805. bio priključen Napoleonovim Ilirskim pokrajinama. Od 1813. do 1918. … austrijskom vlašću» → 1797 Avusturya, 1805 Fransız (yıl; Pressburg 1805-12-26 imzası, TEK ÖLÇÜ teslimle kontrol), 1813 Avusturya. | WebFetch özeti. Rab maddesi 1805'te Napolyon'un 'Illyrian Provinces'ına katılma der (anakronik: eyaletler 1809'da kuruldu; atlas ENKLAV-0072 de aynı uyarıyı yapıyor). Krk maddesi 1806 Kingdom of Italy (kayıtta). Rab'a özgü 1806 İtalya Krallığı cümlesi okunmadı; seçilmedi."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1859",
@@ -591,10 +591,10 @@
    "t": "1813-01-01",
    "hukum": "ONERI",
    "uc": "t",
-   "kaynak": "Hrvatska enciklopedija, Rab (otok) (WebFetch özeti)",
+   "kaynak": "Hrvatska enciklopedija, Rab (otok) (WebFetch özeti) ; Hrvatska enciklopedija (LZMK), «Rab (otok)» — https://www.enciklopedija.hr/clanak/rab-otok (EMRELİC tarayıcıda birebir okudu)",
    "alinti": "Od 1813. do 1918. bio je pod austrijskom vlašću.",
    "oneri": {},
-   "not": "WebFetch özeti. t 1813 (YIL) Avusturya yönetiminin başlangıcı -> atlas t=1813-01-01 yıl düzeyinde uyumlu; alıntı yalnız t ucunu tarihliyor. f=1809: Rab maddesi eyalet katılımını 1805 verir, 1809 teyitsiz."
+   "not": "KARAR EMRELİC (gece-48): Rab: «nakon pada Mletačke Republike (1797), te kratkotrajne austrijske vladavine, otok je 1805. bio priključen Napoleonovim Ilirskim pokrajinama. Od 1813. do 1918. … austrijskom vlašću» → 1797 Avusturya, 1805 Fransız (yıl; Pressburg 1805-12-26 imzası, TEK ÖLÇÜ teslimle kontrol), 1813 Avusturya. | WebFetch özeti. t 1813 (YIL) Avusturya yönetiminin başlangıcı -> atlas t=1813-01-01 yıl düzeyinde uyumlu; alıntı yalnız t ucunu tarihliyor. f=1809: Rab maddesi eyalet katılımını 1805 verir, 1809 teyitsiz."
   }
  ],
  "Bastia (Korsika)": [
