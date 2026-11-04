@@ -1887,8 +1887,8 @@ window.DEVLETLER = [
     { odak_yer:["Riyad"], t:"1932-09-18", tur:"siyaset", b:"Hicaz ve Necid krallıklarının birleştirilip Suûdî Arabistan Krallığı adının alınmasına ilişkin kararname çıktı (resmî ilan 23 Eylül 1932).", kaynak:"TDV İslâm Ansiklopedisi, «Abdülazîz b. Suûd» https://islamansiklopedisi.org.tr/abdulaziz-b-suud — «1932’de ülkenin adı Suudi Arabistan Krallığı oldu» [yalnız yıl teyitli; gün teyitsiz] ; https://en.wikipedia.org/wiki/Proclamation_of_the_Kingdom_of_Saudi_Arabia ; https://en.wikipedia.org/wiki/Ibn_Saud" }
   ]
 },
-{ id:"hail-ibn-ali", ad:"Hâil Emirliği (İbn Ali ailesi — Abde/Şemmer)", tur:"emirlik", bolge:"arabistan",
-  f:"1779-01-01", t:"1836-01-01", baskent:"Hâil", harita:"hail-ibn-ali",
+{ id:"hail-ibn-ali", ic_not_t:"t 1836-01-01 → 1835-01-01 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): TDV residiler (M. al-Rasheed) — '1779’da … yönetim Abde aşiretinden İbn Ali ailesindeydi' · '1835’te Abdullah b. Reşîd’in Hâil emirliğini ele geçirmesiyle sonuçlandı' (t 1836 → 1835, yalnız yıl)", ad:"Hâil Emirliği (İbn Ali ailesi — Abde/Şemmer)", tur:"emirlik", bolge:"arabistan",
+  f:"1779-01-01", t:"1835-01-01", baskent:"Hâil", harita:"hail-ibn-ali",
   ozet:"Reşîdîlerden ÖNCEKİ Hâil emirliği. 20 Eylül 2026'da açıldı (ENKLAV-0072'nin ölçümü, paket 0072 H-0011): TDV 1820'de Hâil'in emirini adıyla veriyor, oysa atlasın `sammar` künyesi ancak Reşîdîleri karşılıyordu — yani şehrin 1779-1835 arası idaresi künyesizdi ve harita onu sahipsiz gösteriyordu. ⚠️ `f:` bir KURULUŞ günü DEĞİL: TDV 1779'da yönetimin ZATEN İbn Ali ailesinde olduğunu söylüyor, yani terminus ante quem; kuruluş yılı BULUNAMADI (D210). ⚠️ `t:` TDV'nin kendisiyle çeliştiği yerdir: `residiler` maddesi Abdullah b. Reşîd'in Hâil'i alışını 1835, `ibnur-resid` 1251/1835-36 veriyor; veri 1836-01-01'de devrediyor ve künye ona hizalandı — `sammar` künyesinin 1835 başlangıcıyla bir yıl ÖRTÜŞÜR, bu örtüşme beyandır, harita deliği değildir.",
   kaynak:"residiler",
   kronoloji:[
@@ -2732,8 +2732,8 @@ window.DEVLETLER = [
 // `riyazan-knezligi`/`ryazan` slugları YOK (ikisi de 302). Tarihler standart
 // akademik kaynağa göredir (Moskova Büyük Knezliği'ne katılış yılı — 1521 —
 // yaygın kabul görür, gün bilinmiyor).
-{ id:"ryazan", ad:"Ryazan Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
-  f:"1129-01-01", t:"1521-01-01", baskent:"Ryazan (Stara Ryazan → Pereyaslavl-Ryazanski)",
+{ id:"ryazan", ic_not_f:"f 1129-01-01 → 1127-01-01 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): EMRELİC Cambridge — CHR I, ch.5, s.101: Murom-Ryazan 1127'de Yaroslav Svyatoslaviç'e verildi; 1129 onun ölümü (f 1129 → 1127); t 1521 yıl teyitli, gün yok", ad:"Ryazan Knezliği", tur:"prenslik", bolge:"dogu-avrupa",
+  f:"1127-01-01", t:"1521-01-01", baskent:"Ryazan (Stara Ryazan → Pereyaslavl-Ryazanski)",
   ozet:"Çernigov'dan ayrılarak kurulan, Moskova'dan önce Altın Orda'nın ilk hedeflerinden olan (1237'de Batu Han'ın yaktığı ilk büyük Rus şehri) eski knezlik; uzun süre Moskova'ya rakip kaldı, III. Vasili döneminde son knez Ivan İvanoviç tahttan indirilerek ilhak edildi. TDV'de madde yok (Rus iç tarihi, TDV kapsamı dışı); tarihler standart akademik kaynağa göredir.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -4473,8 +4473,8 @@ window.DEVLETLER = [
     { odak_yer:["Devils Lake (Mni Wakan, Dakota)"], t:"1890-12-29", tur:"son", b:"Wounded Knee" }
   ]
 },
-{ id:"navaho", ad:"Navaho (Diné)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1868-06-01", baskent:"Tsegi (Canyon de Chelly)",
+{ id:"navaho", ic_not_t:"t 1868-06-01 → 1868-08-12 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-navaho-1868-1015): imza 'June 1, 1868' · 'Ratified July 25, 1868' · ilan Aug. 12, 1868 (t 1868-06-01 → 1868-08-12; fiilî dönüş Haziran 1868 — ic_not) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Navaho (Diné)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1868-08-12", baskent:"Tsegi (Canyon de Chelly)",
   ozet:"Güneybatı'da Atabask dilli, koyunculuk ve dokumacılıkla tanınan halk. İspanyol, Meksika ve ABD dönemleri boyunca akınlarla direndi; 1864'te Uzun Yürüyüş'le Bosque Redondo'ya sürüldü, 1868 antlaşmasıyla yurduna dönmesine izin verildi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.10 Southwest (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1868-06-01 — Bosque Redondo Antlaşması; M-2498'in verdiği tarih. ⚠️ Bu antlaşma Navaho'nun yurduna DÖNÜŞÜNÜ sağladı, yani `t:` bir yok oluş değil, bağımsız siyasî varlığın ABD idaresi altına girişidir — `t:` alanının anlamı budur ve karıştırılmamalıdır. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
@@ -4553,8 +4553,8 @@ window.DEVLETLER = [
     { odak_yer:["Kızıl Kızılderili Gölü"], t:"1829-06-06", tur:"son", b:"Shanawdithit öldü" }
   ]
 },
-{ id:"savni", ad:"Şavni (Shawnee)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1795-08-03", baskent:"Chillicothe",
+{ id:"savni", ic_not_t:"t 1795-08-03 → 1795-12-02 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0039, Greenville): imza Aug. 3, 1795 · onay/ilan Dec. 2, 1795 (t 1795-08-03 → 1795-12-02) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Şavni (Shawnee)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1795-12-02", baskent:"Chillicothe",
   ozet:"Ohio havzasında yaşayan Algonkin dilli halk. Kuzeybatı Kızılderili Savaşı'nda birleşik yerli direnişin çekirdeğini oluşturdu; Fallen Timbers yenilgisinden sonra Greenville Antlaşması'yla Ohio'nun büyük kısmını bıraktı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1795-08-03 — Greenville Antlaşması. ⚠️ Şavni direnişi bitmedi: Tecumseh 1811-13'te yeniden birleştirdi. Ama toprak tasarrufu 1795'te devredildi ve atlas TASARRUFU boyar. Seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
@@ -4568,8 +4568,8 @@ window.DEVLETLER = [
     { odak_yer:["Chillicothe"], t:"1795-08-03", tur:"antlasma", b:"Greenville Antlaşması imzalandı" }
   ]
 },
-{ id:"miami", ad:"Miami (Myaamia)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1795-08-03", baskent:"Kekionga",
+{ id:"miami", ic_not_t:"t 1795-08-03 → 1795-12-02 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0039, Greenville): imza Aug. 3, 1795 · onay/ilan Dec. 2, 1795 (t 1795-08-03 → 1795-12-02) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Miami (Myaamia)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1795-12-02", baskent:"Kekionga",
   ozet:"Wabash ve Maumee havzalarında yaşayan Algonkin dilli halk; Kekionga başkentiydi. Küçük Kaplumbağa önderliğinde ABD ordularına iki büyük yenilgi tattırdı, Greenville Antlaşması'yla toprak bıraktı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1795-08-03 — Greenville Antlaşması, Şavni ile aynı gün ve aynı belge. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
@@ -4580,8 +4580,8 @@ window.DEVLETLER = [
     { odak_yer:["Kekionga"], t:"1794-08-20", tur:"savas", b:"Fallen Timbers Muharebesi'nde General Anthony Wayne, Miami'nin de içinde bulunduğu Kuzeybatı Kızılderili Konfederasyonu'nu kesin biçimde yendi", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla doğrulandı." }
   ]
 },
-{ id:"sauk", ad:"Sauk (Asakiwaki)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1832-09-21", baskent:"Saukenuk",
+{ id:"sauk", ic_not_t:"t 1832-09-21 → 1833-02-13 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-sauk-and-foxes-1832-0349): imza Sept. 21, 1832 · onay/ilan Feb. 13, 1833 (t 1832-09-21 → 1833-02-13) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Sauk (Asakiwaki)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1833-02-13", baskent:"Saukenuk",
   ozet:"Yukarı Mississippi'de Meskwaki ile birlikte yaşayan Algonkin dilli halk; Saukenuk büyük tarım kasabasıydı. 1832'de Kara Şahin önderliğinde Illinois'e dönüş girişimi savaşla sonuçlandı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.15 Northeast (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1832-09-21 — Kara Şahin Savaşı'nı kapatan antlaşma. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
@@ -4653,8 +4653,8 @@ window.DEVLETLER = [
     { odak_yer:["Memphis (Chickasaw Bluffs)"], t:"1830-01-01", tur:"antlasma", b:"Franklin Antlaşması imzalandı (ABD Senatosu'nca onaylanmadı) — Chickasaw'ın batıya taşınmasını uygun toprak bulunması şartına bağlayan ilk anlaşma", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Treaty of Pontotoc Creek') doğrulandı." }
   ]
 },
-{ id:"sosoni", ad:"Şoşoni", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1868-07-03", baskent:"Fort Washakie (Wind River)",
+{ id:"sosoni", ic_not_t:"t 1868-07-03 → 1869-02-24 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-eastern-band-shoshoni-and-bannock-1868-1020): imza July 3, 1868 · sayfada Feb. 24 ve Feb. 26, 1869 (ilan Feb. 24, 1869 alındı — iki tarih beyan) (t 1868-07-03 → 1869-02-24; Cambridge CHNPA I ch.9 de 1868) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Şoşoni", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1869-02-24", baskent:"Fort Washakie (Wind River)",
   ozet:"Büyük Havza'dan Wyoming ovalarına uzanan Numik dilli halk; doğu kolu at ve bizona, batı kolu toplayıcılığa dayanıyordu. Doğu Şoşonileri Washakie önderliğinde ABD ile ittifak kurup Wind River'ı elde tuttu.",
   kaynak:"bulunamadı — Handbook of North American Indians c.11 Great Basin (Smithsonian Institution) · Steward, BAE Bulletin 120 — çevrimiçi doğrulanmadı. 🟢 t: 1868-07-03 — ikinci Fort Bridger Antlaşması; Wind River Rezervasyonu'nu kuran belge. ⚠️ Batı Şoşonileri ayrı bir antlaşma imzaladı (Ruby Vadisi 1863) ve toprakları hiç devredilmedi sayılır; bu künye DOĞU kolunu esas alır ve seçim gizlenmiyor. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
@@ -4670,8 +4670,8 @@ window.DEVLETLER = [
     { odak_yer:["Fort Bridger"], t:"1868-07-03", tur:"antlasma", b:"İkinci Fort Bridger Antlaşması; Wind River Rezervasyonu kuruldu" }
   ]
 },
-{ id:"ute", ad:"Ute (Núuchiu)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1880-01-01", baskent:"Uncompahgre",
+{ id:"ute", ic_not_t:"t 1880-01-01 → 1880-06-15 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/agreement-with-the-confederated-bands-of-ute-1880-22300): 'Approved June 15, 1880' (Kongre yasası) — ic_not: 'anlaşma imzası 1880-03-06; fiilî tahliye 1881' (EMRELİC kararı) (t 1880-01-01 → 1880-06-15) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Ute (Núuchiu)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1880-06-15", baskent:"Uncompahgre",
   ozet:"Kolorado ve Utah dağlık bölgesinde yaşayan Numik dilli halk; erken atlanma sayesinde İspanyol Yeni Meksika'sıyla yoğun ticaret ve akın ilişkisi kurdu. Altın ve gümüş aramalarıyla toprakları daraldı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.11 Great Basin (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟡 t: 1880-01-01 — YIL SAĞLAM, GÜN DEĞİL. 1880 Ute Removal Act, Beyaz Irmak ve Uncompahgre bantlarını Utah'a sürdü. Kanun tarihi kaynaktan gün olarak doğrulanmadı ⇒ `§4` gereği YYYY-01-01. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
@@ -4730,8 +4730,8 @@ window.DEVLETLER = [
     { odak_yer:["Fort Laramie"], t:"1851-09-17", tur:"antlasma", b:"Fort Laramie Antlaşması imzalandı" }
   ]
 },
-{ id:"pavni", ad:"Pavni (Pawnee)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1857-09-24", baskent:"Pavni köyleri (Loup Irmağı)",
+{ id:"pavni", ic_not_t:"t 1857-09-24 → 1858-05-26 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-pawnee-1857-0764): imza Sept. 24, 1857 · 'Ratified, Mar. 31, 1858. / Proclaimed May 26, 1858' (t 1857-09-24 → 1858-05-26) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Pavni (Pawnee)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1858-05-26", baskent:"Pavni köyleri (Loup Irmağı)",
   ozet:"Platte ve Loup havzalarında toprak-ev köylerinde yaşayan Kaddo dilli halk; mısır tarımı ile yaz bizon avını birleştiren bir düzeni vardı. Yıldız gözlemine dayalı takvimiyle tanınır.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 t: 1857-09-24 — Table Creek Antlaşması; Pavni toprağının büyük kısmının devri. 🟡 f: 1281-01-01 ATLAS UFKU.",
   kronoloji:[
@@ -4879,8 +4879,8 @@ window.DEVLETLER = [
     { odak_yer:["Fort Mohave"], t:"1865-01-01", tur:"toprak-kayip", b:"Kolorado Irmağı Rezervasyonu kuruldu" }
   ]
 },
-{ id:"klamath", ad:"Klamath (Maklaks)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1864-01-01", baskent:"Fort Klamath / Klamath Bataklığı",
+{ id:"klamath", ic_not_t:"t 1864-01-01 → 1870-02-17 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-klamath-etc-1864-0865): imza Oct. 14, 1864 · 'Ratified, July 2, 1866' · ilan Feb. 17, 1870 (t 1864-01-01 → 1870-02-17) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Klamath (Maklaks)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1870-02-17", baskent:"Fort Klamath / Klamath Bataklığı",
   ozet:"Oregon'un güneyinde Klamath Gölü ve bataklıkları çevresinde yaşayan halk; wokas (nilüfer tohumu), somon ve su kuşuna dayanan bir düzeni ve kalıcı kış çukur-ev köyleri vardı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: kalıcı kış köyleri ve tanımlı göl-bataklık kaynak alanları var. 🟡 t: 1864-01-01 — Klamath Antlaşması'nın yılı sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
   kronoloji:[
@@ -4891,8 +4891,8 @@ window.DEVLETLER = [
     { odak_yer:["Fort Klamath / Klamath Bataklığı"], t:"1872-11-29", tur:"savas", b:"Modoc Savaşı başladı: Klamath Rezervasyonu'na yerleşmeyi reddedip Kayıp Irmak bölgesine dönen Modoclar, ABD ordusunun zorla geri getirme girişimine direndi", kaynak:"bulunamadı (TDV yok) — standart akademik kaynak, GÜN hassasiyeti çevrimiçi ikincil kaynaklarla ('Modoc War') doğrulandı." }
   ]
 },
-{ id:"sahaptin", ad:"Sahaptin (Orta Columbia halkları)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1855-01-01", baskent:"Wayám (Celilo Şelâleleri)",
+{ id:"sahaptin", ic_not_t:"t 1855-01-01 → 1859-04-18 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-yakima-1855-0698): imza June 9, 1855 (Walla Walla konseyi) · onay Mar. 8, 1859 · ilan Apr. 18, 1859 (t 1855-01-01 → 1859-04-18) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Sahaptin (Orta Columbia halkları)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1859-04-18", baskent:"Wayám (Celilo Şelâleleri)",
   ozet:"Columbia'nın orta havzasında yaşayan Sahaptin dilli halklar. Celilo Şelâleleri'ndeki Wayám köyü, kıtanın en eski sürekli iskân edilen yerlerinden ve Kuzeybatı'nın en büyük balıkçılık ile ticaret merkeziydi; binlerce kişi somon mevsiminde orada toplanırdı.",
   kaynak:"bulunamadı — Handbook of North American Indians c.12 Plateau (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: Wayám'da balıkçılık mevkileri AİLE VE KÖY DÜZEYİNDE MÜLK sayılırdı ve kaynak bu denetimi ayrıntısıyla anlatır — 'şu bölgede yaşarlardı'nın tam tersi. 🟡 t: 1855-01-01 — 1855 Walla Walla antlaşmaları birkaç gün içinde AYRI AYRI imzalandı ve Celilo'yu kapsayan belgenin günü doğrulanmadı; §4 gereği YYYY-01-01. Uydurma gün yazmadım.",
   kronoloji:[
@@ -4902,8 +4902,8 @@ window.DEVLETLER = [
     { odak_yer:["Wayám"], t:"1855-01-01", tur:"antlasma", b:"Walla Walla antlaşma kuşağı" }
   ]
 },
-{ id:"ponka", ad:"Ponka (Ponca)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1281-01-01", t:"1858-01-01", baskent:"Ponca köyleri (Salt Fork)",
+{ id:"ponka", ic_not_t:"t 1858-01-01 → 1859-04-11 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-ponca-1858-0772): imza Mar. 12, 1858 · onay Mar. 8, 1859 · ilan Apr. 11, 1859 (t 1858-01-01 → 1859-04-11) · KURAL (EMRELİC, 4 Kasım 2026): ABD yerli antlaşmasında künye ucu toprak devrini yürürlüğe sokan gündür (onay/ilan ya da yasa); imza ic_not'a", ad:"Ponka (Ponca)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1281-01-01", t:"1859-04-11", baskent:"Ponca köyleri (Salt Fork)",
   ozet:"Niobrara ile Missouri'nin birleştiği yerde toprak-ev köylerinde yaşayan Siyu dilli halk; mısır tarımı ile yaz bizon avını birleştirirdi. Omaha'dan ayrılmış küçük ama ayrı bir siyasî birimdi.",
   kaynak:"bulunamadı — Handbook of North American Indians c.13 Plains (Smithsonian Institution) — çevrimiçi doğrulanmadı. 🟢 M-2425 GEÇTİ: sabit toprak-ev köyleri ve tanımlı tarım arazisi var. 🟡 t: 1858-01-01 — 1858 Ponka antlaşmasının yılı sağlam, GÜN doğrulanmadı; §4 gereği YYYY-01-01.",
   kronoloji:[
@@ -5044,8 +5044,8 @@ window.DEVLETLER = [
     { odak_yer:["Belgrad"], t:"1945-11-11", tur:"siyaset", b:"Kurucu Meclis seçimi yapıldı; yalnız Halk Cephesi listesi girdi, muhalefet boykot etti.", kaynak:"https://www.universalis.fr/encyclopedie/yougoslavie/2-la-republique-populairefederative-de-yougoslavie/" }
   ]
 },
-{ id:"letonya", ad:"Letonya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
-  f:"1918-11-18", t:"1940-08-06", ic_not_t:"ARALIĞIN ÜST UCU: USHMM-KD 'August 3–6' — Letonya'nın kendi günü (5 Ağustos) yalnız LOC arama özetinde", baskent:"Riga", harita:"letonya",
+{ id:"letonya", ic_not_t:"t 1940-08-06 → 1940-08-05 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): Nacionālā enciklopēdija (Letonya) 'Latvijas Republikas proklamēšana' (J. Šiliņš) — '1918. gada 18. novembrī' (f teyitli) · 'padomju okupācija Latvijā, 1940.–1941. gads' (D. Bleiere) — 'Latvijas “iestāšanās” PSRS sastāvā 05.08.1940' (t 1940-08-06 → 1940-08-05)", ad:"Letonya Cumhuriyeti", tur:"cumhuriyet", bolge:"dogu-avrupa",
+  f:"1918-11-18", t:"1940-08-05", ic_not_t:"ARALIĞIN ÜST UCU: USHMM-KD 'August 3–6' — Letonya'nın kendi günü (5 Ağustos) yalnız LOC arama özetinde", baskent:"Riga", harita:"letonya",
   ozet:"Rusya İmparatorluğu'nun dağılmasıyla bağımsızlığını ilan eden Baltık devleti; Bağımsızlık Savaşı'nda hem Sovyet hem Alman kuvvetlerine karşı direndi. (Ağustos 1940'ta SSCB'ye ilhak edildi — USHMM.)",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -5916,8 +5916,8 @@ window.DEVLETLER = [
     { odak_yer:["Kuala Simpang"], t:"1903-01-01", tur:"son", b:"Son sultan Muhammed Davud Şah Hollanda'ya resmen teslim oldu (yalnız yıl teyitli; TDV ENDONEZYA savaşı 1904'e götürür, TDV AÇE esas).", kaynak:"TDV İslâm Ansiklopedisi, AÇE, https://islamansiklopedisi.org.tr/ace ; TDV, ENDONEZYA, https://islamansiklopedisi.org.tr/endonezya" }
   ]
 },
-{ id:"mataram-sultanligi", ad:"Mataram Sultanlığı (Cava)", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1587-01-01", t:"1755-02-13", baskent:"Kartasura → Surakarta", harita:"mataram-sultanligi",
+{ id:"mataram-sultanligi", ic_not_f:"f 1587-01-01 → 1585-01-01 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): TDV cava — 'XVI. yüzyılın sonlarına doğru Orta Cava bölgesinde Mataram Sultanlığı adıyla geniş bir politik güç ortaya çıktı (1585)' (f 1587 → 1585, TDV esas; öteki kaynakların 1587'si ic_not'ta beyan; t 1755-02-13 Giyanti bu maddede yok)", ad:"Mataram Sultanlığı (Cava)", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1585-01-01", t:"1755-02-13", baskent:"Kartasura → Surakarta", harita:"mataram-sultanligi",
   ozet:"Orta Cava'da kurulan, ada üzerinde son büyük yerli birleşik gücü temsil eden İslâm sultanlığı; Hollanda Doğu Hindistan Şirketi'nin araya girmesiyle Giyanti Antlaşması'nda ikiye bölündü.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -7276,8 +7276,8 @@ window.DEVLETLER = [
     { odak_yer:["Mandu"], t:"1531-01-01", tur:"toprak-kayip", b:"Gucerât Sultanı Bahadır Şah, Mândû'yu işgal edip Mâlvâ'yı ilhak etti", kaynak:"TDV: malva (bu turda okundu, birebir alıntı)." }
   ]
 },
-{ id:"bidar", ad:"Barîdşâhî Sultanlığı (Bîdar)", tur:"sultanlik", bolge:"guney-asya",
-  f:"1489-01-01", t:"1619-01-01", baskent:"Bîdar", harita:"bidar",
+{ id:"bidar", ic_not_f:"f 1489-01-01 → 1492-01-01 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): TDV beridsahiler — '… Bîder’de Berîdşâhîler bağımsızlıklarını ilân etmişlerdir (1492)' · hükümdar listesi 'Kāsım Berîd Şah 897 (1492)' · 'II. İbrâhim Şah 1619’da Berîdşâhîler’i mağlûp ederek Bîder’i topraklarına kattı' (f 1489 → 1492; hicrî 897 ∩ 1492 → 1492-01-01, beyanlı; t yıl teyitli; eski 'TDV'de yok' notu YANLIŞ)", ad:"Barîdşâhî Sultanlığı (Bîdar)", tur:"sultanlik", bolge:"guney-asya",
+  f:"1492-01-01", t:"1619-01-01", baskent:"Bîdar", harita:"bidar",
   ozet:"Behmenî'nin başkentinde vezirlikten hükümdarlığa geçen Barîdşâhîlerin sultanlığı; Dekken beşlisinin en küçüğüydü, Âdilşâhîlerce ilhak edildi (kaynak: TDV, madde: behmeniler).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   ic_not:"GUNEY-ASYA-DENETIM-1029 ÇELİŞKİ BEYANI: TDV «behmeniler» Berîdşâhîler 1487-1619 verir; künye f=1489 (Kâsım Berîd fiilî iktidar). TDV esastır; yerleşim dönemleri (1489-1619) değişmedi, 2 yıllık fark borç olarak beyan edilir.",
@@ -7462,6 +7462,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"san-devletleri", ad:"Şan Beylikleri (Sawbwa'lıklar)", tur:"beylik", bolge:"guneydogu-asya",
+  tabi:[{f:"1888-04-01", t:"1923-10-29", ust:"ingiltere"}], ic_not_tabi:"Cambridge History of Southeast Asia II/1, ch.1 (Tarling), s.40: Shan hükümdarlarının bağlılığı özerklik karşılığı 'by April 1888' sağlandı — ilhak değil bağlılık; t 1923-10-29 pencere ucu kalır. [nisan 1888 teyitli, gün teyitsiz — BEYANLI] (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026)",
   f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): 1281 öncesi Şan beylikleri (Hsenwi kronikleri, Möng Mao) kronikçi/efsanevî; bağımsız akademik kaynak açılamadı (Daniels 2018, Scott 1967 görülmedi). f damgası korunur; 1281 öncesi bulunamadı.", t:"1923-10-29", baskent:"Kengtung · Hsipaw · Yawnghwe (çok merkezli)", harita:"san-devletleri",
   ozet:"Birmanya'nın doğu yaylasında sawbwa denen kalıtsal beylerin yönettiği Tai devletçikleri; Birmanya, Çin ve Siyam arasında tâbiiyet değiştirerek 1923'ün ötesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
@@ -7527,8 +7528,8 @@ window.DEVLETLER = [
     { odak_yer:["Trang"], t:"1533-01-01", tur:"bolunme", b:"Nguyễn Kim, Lê Trang Tông'u tahta çıkararak Lê hânedanını güneyde restore etti; ülke Mạc (kuzey) ve Lê (güney) arasında fiilen bölündü", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Mạc dynasty') doğrulandı." }
   ]
 },
-{ id:"malay-sultanliklari", ad:"Malay Sultanlıkları (Kedah, Patani, Perak, Selangor, Trengganu, Pahang)", tur:"sultanlik", bolge:"guneydogu-asya",
-  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Kedah (Kadaram) 1025 Çola seferi yalnız Vikipedi aktarımıyla görüldü; Pahang/Patani/Terengganu için 1281 öncesi kaynaklı olay bulunamadı. f damgası korunur.", t:"1909-07-10", baskent:"(çok merkezli)", harita:"malay-sultanliklari",
+{ id:"malay-sultanliklari", ic_not_t:"t 1909-07-10 → 1909-07-15 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): EMRELİC JSTOR — Klein, Historical Journal 12/1 (1969), s.134: 'Final accord was attained on 10 March 1909' (imza) · Chan Su-ming, JMBRAS 38/1 (1965), s.~167: Kelantan'da 'first British Adviser on July 15th, 1909' (fiilî devir) · LeVos, JMBRAS 70/1 (1997): 'July 1909'. Verideki 07-10 hiçbir kaynakta yok → t 1909-07-10 → 1909-07-15 (Kelantan günü; Kedah-Trengganu-Perlis için Temmuz 1909 beyanlı; imza 1909-03-10 ic_not); f 1281 site ufku", ad:"Malay Sultanlıkları (Kedah, Patani, Perak, Selangor, Trengganu, Pahang)", tur:"sultanlik", bolge:"guneydogu-asya",
+  f:"1281-01-01", ic_not_f:"ONCE1281 (18 Ekim 2026): Kedah (Kadaram) 1025 Çola seferi yalnız Vikipedi aktarımıyla görüldü; Pahang/Patani/Terengganu için 1281 öncesi kaynaklı olay bulunamadı. f damgası korunur.", t:"1909-07-15", baskent:"(çok merkezli)", harita:"malay-sultanliklari",
   ozet:"Malaka'nın mirasını taşıyan, Siyam ile Cohor arasında tâbiiyet değiştiren yarımada sultanlıkları; Anglo-Siyam Antlaşması'yla İngiliz himâyesine geçtiler. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -8777,8 +8778,8 @@ window.DEVLETLER = [
   ]
 },
 // HAYALET-KUNYE-1008-K · f 1281 → 1501: künyenin KENDİ kaynağı (Encyclopedia Virginia) «Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi»; «atlas ufku 1281'e hizalandı» cümlesi kaynak değil. 1501 = yüzyıl ALT SINIRI (gerçek kuruluş yüzyılın sonu).
-{ id:"powhatan", ad:"Powhatan Konfederasyonu (Tsenacomoco)", tur:"devlet", bolge:"kuzey-amerika",
-  f:"1501-01-01", t:"1646-10-01", kesinlik:{f:"yuzyil"}, baskent:"—",
+{ id:"powhatan", ic_not_t:"t 1646-10-01 → 1646-10-05 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, 1646' — Virginia Meclisi kararı, kendisi yürürlük günü (t 1646-10-01 → 1646-10-05)", ad:"Powhatan Konfederasyonu (Tsenacomoco)", tur:"devlet", bolge:"kuzey-amerika",
+  f:"1501-01-01", t:"1646-10-05", kesinlik:{f:"yuzyil"}, baskent:"—",
   ic_not_t:"t 1646-10-01 KORUNDU, SINIFLANDIRMA yapıldı (29 Ekim 2026, AMERIKALAR; §3.5 sınıf 1: devlet öldü → uzatma YOK). OKUNDU (sayfalar açıldı): Encyclopedia Virginia, «Treaty Ending the Third Anglo-Powhatan War (1646)» — tarih yalnız «October 1646» (GÜN YOK; 1646-10-01 ay işaretidir, gün ölçümü değil); Madde 1: Necotowance krallığını İngiltere Kralı'ndan tuttuğunu kabul eder, yıllık 20 kunduz postu haraç öder. Encyclopedia Virginia, «Tsenacomoco (Powhatan Paramount Chiefdom)» — «The paramount chiefdom ceased to exist» (Opechancanough 1646'da İngiliz esaretinde öldürüldü, ay/gün yok). Rountree'nin kitabı (Powhatan Indians of Virginia) bu oturumda AÇILMADI. Sonuç: konfederasyon 1646'da egemen polity olmaktan çıktı, kabileler (Pamunkey, Mattaponi vb.) haraççı olarak sürdü — ardıl künye YOK, ayrı künye için toprak/sınır verisi gerekir (bulunamadı).",
   ozet:"Chesapeake körfezi çevresinde otuzdan fazla kasabayı bir başkanlık altında toplayan Tsenacomoco birliği; İngiliz Virginia kolonisiyle savaşları sonunda dağıldı.",
   kaynak:"Encyclopedia Virginia, 'Tsenacomoco (Powhatan Paramount Chiefdom)' — Şef Powhatan 1500'lerin sonunda küçük oymakları birleştirdi, 1607'de 28-32 oymağı kapsıyordu; atlas ufku 1281'e hizalandı. Bitiş tarihi nokta verisinde var ama BEN DOĞRULAYAMADIM (tam kaynak bulunamadı).",
@@ -10974,8 +10975,8 @@ window.DEVLETLER = [
   ]
 },
 { id:"almanya-muttefik-isgali", ad:"Almanya — Müttefik İşgal İdaresi", tur:"gecici-isgal", bolge:"orta-avrupa", harita:"almanya",
-  f:"1945-06-05", t:"1949-09-20", baskent:"Berlin (Müttefik Kontrol Konseyi)",
-  ic_not_t:"pencere ucu, ölçüm değil (D210): işgal idaresi 1945 ufkundan sonra da sürdü (1949 iki Alman devleti — bu oturumda ölçülmedi)",
+  f:"1945-06-05", t:"1949-10-07", baskent:"Berlin (Müttefik Kontrol Konseyi)",
+  ic_not_t:"t 1949-09-20 → 1949-10-07 (UMIT, EMRELİC kararı, KASA 4 Kasım 2026): aynı polity — Sovyet bölgesi Alman Demokratik Cumhuriyeti'nin ilânına (7 Ekim 1949; künye almanya-demokratik-cumhuriyeti f ve kronoloji_sinir_halef maddesi) dek işgal altında kaldı; batı bölgeleri 20 Eylül 1949'da Federal Almanya Cumhuriyeti'ne (BRD) geçti. 8 yerleşim dönemi zaten 10-07'ye uzanıyordu (künye aşımı kapandı). Eski not: pencere ucu, ölçüm değil (D210)",
   ozet:"Berlin Deklarasyonu'yla dört Müttefik devletin Almanya'da yüce otoriteyi üstlendiği işgal idaresi. Öncülü [[almanya]]. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"AVALON wwii/ger01 — 'Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers; June 5, 1945'",
   kronoloji:[
@@ -17883,7 +17884,7 @@ window.DEVLETLER = [
     { odak_yer:["Yaroslavl","Moskova"], t:"1332-01-01", tur:"siyaset", b:"Moskova knezi I. İvan Han'ın emriyle Yaroslavl'ı yaktı ve knez Vasili Davidoviç'i kızı Evdokia ile evlenmeye zorladı.", kaynak:"https://en.wikipedia.org/wiki/Principality_of_Yaroslavl ; https://rusmania.com/central/yaroslavl-region/yaroslavl/history/" },
     { odak_yer:["Yaroslavl"], t:"1463-01-01", tur:"son", b:"III. İvan Yaroslavl'ı ilhak etti; Aleksandr Bruhatıy hakları devretti", kaynak:"Paul Bushkovitch, «Ivan III (Muscovy)», Europe 1450 to 1789: Encyclopedia of the Early Modern World, encyclopedia.com https://www.encyclopedia.com/people/history/russian-soviet-and-cis-history-biographies/ivan-iii — «annexing the small but crucial principalities of Yaroslavl' (1463)» ; https://www.worldhistory.org/Ivan_III_of_Russia/ ; https://brewminate.com/ivan-iii-the-first-the-great-of-russia-1462-1505/" }
   ] },
-{ id:"nijni-novgorod-suzdal", ad:"Suzdal-Nijni Novgorod Büyük Knezliği", tur:"knezlik", bolge:"dogu-avrupa", f:"1341-01-01", t:"1392-01-01", baskent:"Nijni Novgorod", ozet:"1341'de Han Özbek/Canibek'in Konstantin Vasilyeviç'e verdiği Nijni Novgorod-Gorodets ile oluşan büyük knezlik; Boris'ten sonra 1392'de I. Vasili Moskova'ya kattı.", kaynak:"Wikipedia 'Principality of Nizhny Novgorod-Suzdal' + Britannica 'Suzdal' (1392 Vasily I katılım). ic_not: Konstantin'in unvanı 1350-52 Nijni'ye taşınma; Konstantinoviç direnişi ~1418'e dek.", kronoloji:[
+{ id:"nijni-novgorod-suzdal", ic_not_t:"t 1392-01-01 → 1391-01-01 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): EMRELİC Cambridge — CHR I, ch.6, s.155: f 1341 teyitli · ch.7, s.168: 'in 1391, with the agreement of Tokhtamysh, was detached from Suzdal' and attached to Moscow' (t 1392 → 1391)", ad:"Suzdal-Nijni Novgorod Büyük Knezliği", tur:"knezlik", bolge:"dogu-avrupa", f:"1341-01-01", t:"1391-01-01", baskent:"Nijni Novgorod", ozet:"1341'de Han Özbek/Canibek'in Konstantin Vasilyeviç'e verdiği Nijni Novgorod-Gorodets ile oluşan büyük knezlik; Boris'ten sonra 1392'de I. Vasili Moskova'ya kattı.", kaynak:"Wikipedia 'Principality of Nizhny Novgorod-Suzdal' + Britannica 'Suzdal' (1392 Vasily I katılım). ic_not: Konstantin'in unvanı 1350-52 Nijni'ye taşınma; Konstantinoviç direnişi ~1418'e dek.", kronoloji:[
     { odak_yer:["Novgorod"], t:"1341-01-01", tur:"kurulus", b:"Han Canibek, Konstantin Vasilyeviç'e Nijni Novgorod-Gorodets'i vererek büyük knezliği oluşturdu", kaynak:"Большая советская энциклопедия, 3-е изд., «Суздальско-Нижегородское княжество» https://gufo.me/dict/bse/Суздальско-Нижегородское_княжество — «С.-Н. к. образовалось в 1341, когда монголо-татары передали суздальскому князю Константину Васильевичу Нижний Новгород» ; https://en.wikipedia.org/wiki/Principality_of_Nizhny_Novgorod-Suzdal (zayıf; ikinci kaynak bulunamadı)" },
     { odak_yer:["Suzdal"], t:"1359-01-01", tur:"hukumdar", b:"Dmitri Konstantinoviç Suzdal'ı devraldı.", kaynak:"https://en.wikipedia.org/wiki/Dmitry_of_Suzdal ; https://en.wikipedia.org/wiki/History_of_Nizhny_Novgorod" },
     { odak_yer:["Vladimir"], t:"1360-01-01", tur:"siyaset", b:"Dmitri Konstantinoviç, damadı Dmitri Donskoy'dan Vladimir büyük knezliği unvanını aldı (1360-1363).", kaynak:"Большая советская энциклопедия, 3-е изд., «Дмитрий Константинович» https://gufo.me/dict/bse/Дмитрий_Константинович — «в 1360—1363 был великим князем владимирским» ; https://en.wikipedia.org/wiki/Dmitry_of_Suzdal" },
@@ -18116,7 +18117,7 @@ window.DEVLETLER = [
     { odak_yer:["Izkî"], t:"1954-01-01", tur:"hukumdar", b:"Galib b. Ali imam seçilir; petrol imtiyazı yüzünden sultanla ayrılık", kaynak:"Britannica 'Jebel Akhdar War'; Cambridge IJMES" },
     { odak_yer:["Izkî"], t:"1955-01-01", tur:"isgal", b:"Sultan Said b. Taymur iç bölgeyi (Nizve) işgal eder", kaynak:"Britannica 'Oman: restoration'" }
   ] },
-{ id:"bundela-orcha", ad:"Orchha (Bundela) Krallığı", tur:"krallik", bolge:"guney-asya", f:"1531-01-01", t:"1948-01-01", baskent:"Orchha → Tikamgarh (1783)", ozet:"Bundela Racputlarının Orchha merkezli prens devleti; başkent 1783'te Tikamgarh'a taşındı; 1948'de Vindhya Pradeş'e katıldı. Not: f ihtilaflı (Britannica iki yerde 'yaklaşık 1500' ve 'kasaba 1531'); [gun yok].", kaynak:"Britannica 'Orchha (historical India)' ve 'Orchha (former princely state)'", kronoloji:[
+{ id:"bundela-orcha", ic_not_t:"t 1948-01-01 → 1948-04-01 (LAB KUNYE-1104, EMRELİC onaylı, KASA 4 Kasım 2026): ⑧ resmî neşir — Government of India, Ministry of States, White Paper on Indian States (1950), archive.org in.ernet.dli.2015.207474 — 'The United State of Vindhya Pradesh … was formed in April 1948. It comprised 35 States' — Orchha listede (t 1948-01-01 → 1948-04-01, AY hassasiyeti, beyan; gün kaynakta yok)", ad:"Orchha (Bundela) Krallığı", tur:"krallik", bolge:"guney-asya", f:"1531-01-01", t:"1948-04-01", baskent:"Orchha → Tikamgarh (1783)", ozet:"Bundela Racputlarının Orchha merkezli prens devleti; başkent 1783'te Tikamgarh'a taşındı; 1948'de Vindhya Pradeş'e katıldı. Not: f ihtilaflı (Britannica iki yerde 'yaklaşık 1500' ve 'kasaba 1531'); [gun yok].", kaynak:"Britannica 'Orchha (historical India)' ve 'Orchha (former princely state)'", kronoloji:[
     { odak_yer:["Orchha"], t:"1531-01-01", tur:"baskent", b:"Bundela başkenti Garh Kundar'dan Orchha'ya taşındı (Orchha başkentliği 1531-1783)", kaynak:"UNESCO Tentative List 6404 (https://whc.unesco.org/en/tentativelists/6404); Britannica 'Orchha' kuruluşu yaklaşık 1500 verir (not)" },
     { odak_yer:["Orchha"], t:"1605-01-01", tur:"hukumdar", b:"Bir Singh Deo Orchha tahtında (hükümdarlık 1605-1627)", kaynak:"UNESCO Tentative List 6404 (https://whc.unesco.org/en/tentativelists/6404)" },
     { odak_yer:["Orchha"], t:"1635-01-01", tur:"isgal", b:"Cujhar Singh isyanı sonrası Şah Cihan kuvvetleri Orchha'yı işgal etti (işgal 1635-1641)", kaynak:"Bundela Dynasty, Vajiram & Ravi (https://vajiramandravi.com/current-affairs/bundela-dynasty/); ikincil, ölüm yılı kaynaklarda 1635/1636 ayrışır" },
