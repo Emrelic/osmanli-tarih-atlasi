@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAPAY-d 2, YAPAY-m 28. Güven: KAYNAK-GEREK 32, KAYNAKLI 32, OLCUM 36.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAPAY-d 2, YAPAY-m 28. Güven: KAYNAK-GEREK 28, KAYNAKLI 36, OLCUM 36.
 
 ## Kara eksklavları
 
@@ -95,10 +95,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1383-09-19 · komşu: TABI 69%, sirbistan 31%
 - Koridor: 6.1 km · TABI 9/9
 - İçindeki yerleşimler: Kılkış (Avrathisar) (OSMANLI); Gevgili (Gevgelija) (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Kılkış-Gevgili 1383-09-19 (Serez'in fethi) → 1387 Osmanlı doğrudan, Sırp tâbi beylikleri ve Sırbistan arasında: gerçek ileri toprak (TABI koridoru).
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV araması 'kilkis' madde döndürmedi — bulunamadı
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/gevgili — '1383’te Serez ile 1387’de Selânik’in fethi arasında Gynaikokastro ve çevresi Osmanlılar’ın eline geçmiş olmalıdır' · '1383’ten 1912’ye kadar Osmanlı idaresi altında' (TDV de 'olmalıdır' diyor — beyanlı)
 
 ### K612 · newfoundland-dominyonu · 1923-10-29 → 1934-02-16 · 2.928 km²
 
@@ -485,10 +485,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1378-01-01 · komşu: sirbistan 61%
 - Koridor: 144.8 km · TABI 6/9, sirbistan 3/9
 - İçindeki yerleşimler: Filorina (Florina) (sirbistan-nemanjic)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Florina 1374-1385 'sirbistan-nemanjic', çevre 'sirbistan' %61: Nemanjić hanedanı 1371'de sona erdi; Florina Prilep krallığının (Kral Marko, Osmanlı tâbii) payıydı.
-  - Düzeltme önerisi: Florina 1371 sonrası Prilep (Mrnjavčević) / v: OSMANLI — kaynakla.
-  - Kaynak: TDV'de madde yok (arama/filorina) — bulunamadı
+  - Düzeltme önerisi: Florina 1371 sonrası Radoslav Hlapen beyliği (Vodina-Karaferye; Prilep/Marko değil), ~1387 → OSMANLI (Karaferye ile birlikte; TDV 'civarında' — yıl yaklaşık, beyanlı).
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/florina — 'Sırp Çarı Duşan’ın 1355’te ölümünden sonra Radoslav Hlapen’in küçük Sırp devleti sınırları içinde kaldı. … 1387 yılı civarında Hlapen’e bağlı Karaferye (Véria) ve Vodina ile (Edessa) birlikte Osmanlılar’ın eline geçti'
 
 ### K651 · macaristan · 1371-01-01 → 1420-01-01 · 2.032 km²
 
@@ -505,20 +505,20 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1686-06-01 · komşu: OSMANLI 56%
 - Koridor: 52.3 km · OSMANLI 9/9
 - İçindeki yerleşimler: Koron (venedik); Modon (venedik); Pylos (Ano Englianos) (Chóra) (sahipsiz); Arkadia (Kyparissía) (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Koron-Modon 1685-08 Morosini zaptı → 1687 Mora'nın bütünüyle Venedik'e geçişi (gövdeye bağlanma): gerçek ilerleme parçası.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV «Koron» Venedik dönemini 1206-1500 verir; 1685 günü okunmadı
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/koron — '1685 yazında Koron, güçlü savunmasına rağmen Mora’da müttefik hıristiyan güçlerin eline geçen ilk kale oldu. Venedikli kumandan Morosini …' (yıl/mevsim teyitli; gün teyitsiz)
 
 ### K653 · OSMANLI · 1821-03-25 → 1828-10-05 · 2.015 km²
 
 - En büyük kesit: 1822-12-12 · komşu: yunanistan 36%
 - Koridor: 95.3 km · yunanistan 8/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: Koron (OSMANLI); Modon (OSMANLI); Pylos (Ano Englianos) (Chóra) (sahipsiz); Arkadia (Kyparissía) (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Koron-Modon Osmanlı kaleleri 1821 isyanı → 1828-10 Fransız (Maison) seferi, Yunan isyancı toprakları ortasında: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/modon — 'Fakat 8 Ekim 1828’de Modon’u ele geçiren Fransız Generali Marquis de Maison kumandasındaki Fransız keşif ordusu tarafından şehirden çıkarıldı' · '1715-1828 yılları arasında devam eden ikinci Osmanlı dönemi'
 
 ### K654 · bulgar-carligi · 1389-07-01 → 1391-01-01 · 2.004 km²
 

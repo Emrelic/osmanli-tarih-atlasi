@@ -129,6 +129,19 @@ U.update({
     "K787": dict(kaynak="KISMEN — TDV, https://islamansiklopedisi.org.tr/kefe — 'harekât sonunda Kefe ile beraber bütün sahil şeridi fethedildi (Safer 880 / "
                  "Haziran 1475)' · 'Balıklagu (Balıklava) ve İnkerman da Mangub'a bağlı' (başlangıç teyitli; Mangub'un düşüş günü KAYNAK-GEREK)"),
 })
+U.update({
+    # Osmanlı kenarları — TDV şehir maddeleri (4 Kasım 2026)
+    "K611": dict(guven="KAYNAKLI", kaynak=TDV + "gevgili — '1383’te Serez ile 1387’de Selânik’in fethi arasında Gynaikokastro ve çevresi Osmanlılar’ın eline "
+                 "geçmiş olmalıdır' · '1383’ten 1912’ye kadar Osmanlı idaresi altında' (TDV de 'olmalıdır' diyor — beyanlı)"),
+    "K650": dict(guven="KAYNAKLI", duzeltme="Florina 1371 sonrası Radoslav Hlapen beyliği (Vodina-Karaferye; Prilep/Marko değil), ~1387 → OSMANLI "
+                 "(Karaferye ile birlikte; TDV 'civarında' — yıl yaklaşık, beyanlı).",
+                 kaynak=TDV + "florina — 'Sırp Çarı Duşan’ın 1355’te ölümünden sonra Radoslav Hlapen’in küçük Sırp devleti sınırları içinde kaldı. … 1387 yılı "
+                 "civarında Hlapen’e bağlı Karaferye (Véria) ve Vodina ile (Edessa) birlikte Osmanlılar’ın eline geçti'"),
+    "K652": dict(guven="KAYNAKLI", kaynak=TDV + "koron — '1685 yazında Koron, güçlü savunmasına rağmen Mora’da müttefik hıristiyan güçlerin eline geçen ilk "
+                 "kale oldu. Venedikli kumandan Morosini …' (yıl/mevsim teyitli; gün teyitsiz)"),
+    "K653": dict(guven="KAYNAKLI", kaynak=TDV + "modon — 'Fakat 8 Ekim 1828’de Modon’u ele geçiren Fransız Generali Marquis de Maison kumandasındaki Fransız "
+                 "keşif ordusu tarafından şehirden çıkarıldı' · '1715-1828 yılları arasında devam eden ikinci Osmanlı dönemi'"),
+})
 NCMH = "EMRELİC Cambridge okuması — "
 U.update({
     "K677": dict(guven="KAYNAKLI", kaynak=NCMH + "New Cambridge Medieval History 7, ch.20 (B. Schnerb, 'Burgundy'), s.439: 'purchase of the county of Namur in "

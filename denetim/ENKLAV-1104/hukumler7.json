@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K601-K700). Sözlük ENKLAV-1103/hukumler.json ile aynı. Bu partide kaynak hükümle birlikte arandı (EMRELİC): KAYNAKLI satırlarda okunan cümle; KAYNAK-GEREK = model bilgisi, TDV/Treccani'de madde ya da tarih bulunamadı. KAYNAK5 (LAB SALI): 8 hüküm kaynak_toplu.py ile güncellendi.",
+"_aciklama": "ENKLAV-1104 hükümleri (K601-K700). Sözlük ENKLAV-1103/hukumler.json ile aynı. Bu partide kaynak hükümle birlikte arandı (EMRELİC): KAYNAKLI satırlarda okunan cümle; KAYNAK-GEREK = model bilgisi, TDV/Treccani'de madde ya da tarih bulunamadı. KAYNAK5 (LAB SALI): 12 hüküm kaynak_toplu.py ile güncellendi.",
 "K601": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
@@ -84,10 +84,10 @@
 "K611": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Kılkış-Gevgili 1383-09-19 (Serez'in fethi) → 1387 Osmanlı doğrudan, Sırp tâbi beylikleri ve Sırbistan arasında: gerçek ileri toprak (TABI koridoru).",
 "duzeltme": "Yok.",
-"kaynak": "TDV araması 'kilkis' madde döndürmedi — bulunamadı"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/gevgili — '1383’te Serez ile 1387’de Selânik’in fethi arasında Gynaikokastro ve çevresi Osmanlılar’ın eline geçmiş olmalıdır' · '1383’ten 1912’ye kadar Osmanlı idaresi altında' (TDV de 'olmalıdır' diyor — beyanlı)"
 },
 "K612": {
 "hukum": "YAPAY",
@@ -401,10 +401,10 @@
 "K650": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Florina 1374-1385 'sirbistan-nemanjic', çevre 'sirbistan' %61: Nemanjić hanedanı 1371'de sona erdi; Florina Prilep krallığının (Kral Marko, Osmanlı tâbii) payıydı.",
-"duzeltme": "Florina 1371 sonrası Prilep (Mrnjavčević) / v: OSMANLI — kaynakla.",
-"kaynak": "TDV'de madde yok (arama/filorina) — bulunamadı"
+"duzeltme": "Florina 1371 sonrası Radoslav Hlapen beyliği (Vodina-Karaferye; Prilep/Marko değil), ~1387 → OSMANLI (Karaferye ile birlikte; TDV 'civarında' — yıl yaklaşık, beyanlı).",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/florina — 'Sırp Çarı Duşan’ın 1355’te ölümünden sonra Radoslav Hlapen’in küçük Sırp devleti sınırları içinde kaldı. … 1387 yılı civarında Hlapen’e bağlı Karaferye (Véria) ve Vodina ile (Edessa) birlikte Osmanlılar’ın eline geçti'"
 },
 "K651": {
 "hukum": "YAPAY",
@@ -417,18 +417,18 @@
 "K652": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Koron-Modon 1685-08 Morosini zaptı → 1687 Mora'nın bütünüyle Venedik'e geçişi (gövdeye bağlanma): gerçek ilerleme parçası.",
 "duzeltme": "Yok.",
-"kaynak": "TDV «Koron» Venedik dönemini 1206-1500 verir; 1685 günü okunmadı"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/koron — '1685 yazında Koron, güçlü savunmasına rağmen Mora’da müttefik hıristiyan güçlerin eline geçen ilk kale oldu. Venedikli kumandan Morosini …' (yıl/mevsim teyitli; gün teyitsiz)"
 },
 "K653": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Koron-Modon Osmanlı kaleleri 1821 isyanı → 1828-10 Fransız (Maison) seferi, Yunan isyancı toprakları ortasında: gerçek.",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/modon — 'Fakat 8 Ekim 1828’de Modon’u ele geçiren Fransız Generali Marquis de Maison kumandasındaki Fransız keşif ordusu tarafından şehirden çıkarıldı' · '1715-1828 yılları arasında devam eden ikinci Osmanlı dönemi'"
 },
 "K654": {
 "hukum": "YAPAY",
