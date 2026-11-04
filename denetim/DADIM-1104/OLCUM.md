@@ -593,6 +593,43 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Ajan il başına araç sınırına ve ara yazmaya uymadı (beyanlı).
 - **BULUNAMADI kümeleri:** Çanakkale/Boğazlar, Balıkesir kıyısı, Bilecik/Kütahya/Afyon köyleri, Sakarya yöresi, Kocaeli yarımadası, Silivri/Çatalca, Adıyaman/Siverek/Suruç.
 
+## 24. Londra 1913 kuralı: Ege Makedonyası ve Epir (`londra_1913.json`; EMRELİC S25, 4 Kasım 2026 gece)
+- **Karar:** Osmanlı, Londra Antlaşması'nda (1913-05-30) Enez-Midye hattının batısındaki karadan feragat etti → `s: yunanistan` 1913-05-30'dan başlar.
+  - Yunan girişinden 1913-05-30'a kadar: `d: osmanli` + `isg yunanistan`.
+  - Bükreş (1913-08-10) ve Atina (1913-11-14) ic_not'a yazılır.
+- **Ölçüm** (ceb0ce402, kaba kutu 39.2-41.4N 20.0-24.6E):
+  - Bu bölgede `s: yunanistan` 1912-14'te başlayan **22 yerleşim** var; **hiçbiri Londra gününde başlamıyor**.
+  - **18'i Atina 1913-11-14'te başlıyor:** Selanik, Yanya, Parga, Aynaroz, Kesendire, Lankaza, Alasonya, Aydonat, Margiliç, Sûli, Gomenice, Filat, Kılkış, Vodina, Karaferye, Yenice-i Vardar, Kesriye, Filorina. Bunlar Londra kuralıyla `s: yunanistan` 1913-05-30 olur.
+  - **4'ü Bükreş 1913-08-10'da başlıyor:** Drama, Serez, Kavala, Praviște. ⚠️ Bu dördü Struma'nın doğusunda kalıyor; 1912-13'te **Bulgar** işgalindeydiler.
+    - Londra feragati müttefiklere ortaktı. 1913-05-30 ile Yunan girişi (1913 Temmuz, İkinci Balkan Savaşı) arasında fiilî yönetim Bulgar'daydı.
+    - Önerim: 1913-05-30 → Yunan girişi `s: bulgaristan`; Yunan girişi → Bükreş `isg yunanistan`; `s: yunanistan` Bükreş'ten. "Fiilî yönetim + halef" ölçütü uygulanır.
+    - **EMRELİC kararına sunuldu.**
+- **Astara:** KASA-YER kuyruğuna "koordinat ve yaka ölçümü" olarak yazıldı. Nokta 38.429/48.873, Astara Çayı sınırında. Kacar 1923-10-29 satırı hata şüphesiyle **BEKLE**.
+
+## 25. Londra kararının uygulanması ve Kuzey Epir ölçümü (EMRELİC, 4 Kasım 2026 gece)
+- **18 yerleşim** (Selanik, Yanya, Kesriye …): `s: yunanistan` 1913-05-30'dan başlar. Yunan girişinden o güne `d: osmanli` + `isg yunanistan`. Atina 1913-11-14 ic_not'a.
+- **Drama, Serez, Kavala, Praviște:**
+  - Bulgar girişi (1912-10/11) → 1913-05-30: `d: osmanli` + `isg bulgaristan`.
+  - 1913-05-30 → Yunan girişi (Temmuz 1913, gün kaynaktan): `s: bulgaristan`.
+  - Yunan girişi → Bükreş: `isg yunanistan`.
+  - 1913-08-10'dan itibaren `s: yunanistan`.
+- **Değişmez 2:** her yeni kırılma için kronoloji maddesi gerekiyor.
+  - 1913-05-30 Londra ve 1913-08-10 Bükreş maddeleri kronolojide **var**: olaylar.js, kronoloji_sinir_avrupa_orta, kronoloji_sinir_turkiye, kronoloji_sinir_komsu.
+  - Eksik olan, şehir başına Yunan ve Bulgar giriş günleri → KASA kuyruğuna.
+- **Kuzey Epir** (ceb0ce402; ayrı vaka):
+  - Ergiri, Delvine, Hımara, Ayasaranda, Butrint (`yerlesimler_epir.js`) ve Görice (`yerlesimler_a78_avrupa.js`): hepsinde `s: arnavutluk-bagimsiz` **1912-11-28**'de başlıyor (Avlonya ilanı).
+  - "Fiilî yönetim + halef ilanı" ölçütüne göre ilan yalnız Avlonya'yı bağlar. Bu yerler 1912-14'te **Yunan işgalindeydi**; Görice'de bu durum zaten `isg yunanistan` 1912-12-20 → 1914-03-31 olarak var.
+  - Ardından gelen dönemler:
+    - Floransa Protokolü 1913-12-17 bölgeyi Arnavutluk'a verdi.
+    - 1914 Kuzey Epir Özerk Cumhuriyeti kuruldu (Korfu Protokolü 1914-05-17).
+    - Yunan çekilişi 1914 başı.
+    - 1914-16 Yunan ve İtalyan girişleri oldu.
+  - **EMRELİC kararına sunuldu.**
+- **Ufuk-1923 artığı** (`ufuk_1923.json`): Türkiye dışında 1923-10-29'da başlayan **28 dönem** var (Astara ve Culfa'dan genelleme).
+  - Bu gün Türkiye Cumhuriyeti'nin ilanıdır; bu yerler için anlamsızdır. Eski ufkun kesiğinden kalmış.
+  - Dağılım: Şan devletleri → ingiliz-burma 5; Malaya 2; Hollanda Doğu Hint 3; Kaçar 3 (Culfa, Astara, Bacirge); Moğolistan 2; Chaco 2; ABD-Meksika 2; ayrıca Kunfüze, Ferasan, Zerenc, Halâib, Sarp, Avsa, Caruru, Patagonya.
+  - Hepsinin kendi devir günü kaynaktan bulunmalı; KASA kuyruğuna yazıldı.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.

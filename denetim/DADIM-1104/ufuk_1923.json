@@ -1,0 +1,285 @@
+{
+ "aciklama": "Eski 1923 ufkunun kesiği: 1923-10-29 Türkiye Cumhuriyeti ilânı Türkiye dışı yerlerde kırılma günü olamaz. UMIT ölçümü, 4 Kasım 2026 gece (Astara/Culfa bulgusundan genellendi).",
+ "satirlar": [
+  {
+   "yer": "Kunfüze (el-Kunfüze)",
+   "dosya_satir": "data/yerlesimler.js:959",
+   "alan": "s",
+   "d": "hicaz-kralligi",
+   "t": "1924-01-01",
+   "onceki": "hicaz-kralligi",
+   "kaynak": "Cidde kalıbı. t: Saudipedia (Suudi resmî ansiklopedisi) 'Al-Qunfudhah Governorate': 'before it was incorporated into the Saudi state in 1924' — YIL. ⚠️ YYYY-01-",
+   "teshis": "AYNI SAHİP → birleştir (sahte kırılma)"
+  },
+  {
+   "yer": "Ferasan (Farasan)",
+   "dosya_satir": "data/yerlesimler.js:1902",
+   "alan": "s",
+   "d": "idrisi-asir",
+   "t": "1930-11-20",
+   "onceki": "yemen-zeydi",
+   "kaynak": "Emirate of Asir; Qatar Digital Library Coll 6/4(1) Asir 1930 (Ibn Saud ic idareyi devraldi)",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Culfa",
+   "dosya_satir": "data/yerlesimler.js:2048",
+   "alan": "s",
+   "d": "kacar",
+   "t": "1925-10-31",
+   "onceki": "sovyet-rusya",
+   "kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kacar t ucunun kaynağı — kacarlar (t: için — YALNIZ YIL veriyor) · riza-sah-pehlevi (ÇELİŞEN 31 Ocak 1924 idd",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Zerenc (Sîstan)",
+   "dosya_satir": "data/yerlesimler.js:2205",
+   "alan": "s",
+   "d": "afganistan",
+   "t": "2000-12-31",
+   "onceki": "kacar",
+   "kaynak": "Britannica 'Afghanistan' (surekli egemen devlet)",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Astara",
+   "dosya_satir": "data/yerlesimler.js:2247",
+   "alan": "s",
+   "d": "kacar",
+   "t": "1925-10-31",
+   "onceki": "sovyet-rusya",
+   "kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kacar t ucunun kaynağı — kacarlar (t: için — YALNIZ YIL veriyor) · riza-sah-pehlevi (ÇELİŞEN 31 Ocak 1924 idd",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Halâib",
+   "dosya_satir": "data/yerlesimler_afrika.js:681",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "t": "1953-06-18",
+   "onceki": "ingiltere",
+   "kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye misir-kralligi t ucunun kaynağı — 🟢🟢 DÜZELTİLDİ (5 Eylül, M-2919 turu) — TDV 'misir' maddesi (CANLI, raw HTML",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Kengtung",
+   "dosya_satir": "data/yerlesimler_asya.js:3712",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "t": "1948-01-04",
+   "onceki": "san-devletleri",
+   "kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ingiliz-burma t ucunun kaynağı — US Office of the Historian, Burma (history.state.gov/countries/burma) — «The",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Johor",
+   "dosya_satir": "data/yerlesimler_asya.js:4002",
+   "alan": "s",
+   "d": "federe-olmayan-malay-devletleri",
+   "t": "1942-02-15",
+   "onceki": "cohor-sultanligi",
+   "kaynak": "tsv: Johor Federe Olmayan Malay Devletleri uyesi; Britannica Malaya",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Yogyakarta",
+   "dosya_satir": "data/yerlesimler_asya.js:4158",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "t": "1942-03-09",
+   "onceki": "yogyakarta",
+   "kaynak": "Britannica (ilgili devlet/ülke maddesi)",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Tidore",
+   "dosya_satir": "data/yerlesimler_asya.js:4237",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "t": "1942-03-09",
+   "onceki": "tidore-sultanligi",
+   "kaynak": "Britannica (ilgili devlet/ülke maddesi)",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Gaşun Gobi",
+   "dosya_satir": "data/yerlesimler_ek21.js:144",
+   "alan": "s",
+   "d": "mogolistan",
+   "t": "1924-11-26",
+   "onceki": "cin-cumhuriyeti",
+   "kaynak": "tsv kunye mogolistan (Bogd Hanligi) t=1924-11-26",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Alaşa kuzeyi",
+   "dosya_satir": "data/yerlesimler_ek21.js:147",
+   "alan": "s",
+   "d": "mogolistan",
+   "t": "1924-11-26",
+   "onceki": "cin-cumhuriyeti",
+   "kaynak": "tsv kunye mogolistan (Bogd Hanligi) t=1924-11-26",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Sarp",
+   "dosya_satir": "data/yerlesimler_ek27.js:46",
+   "alan": "s",
+   "d": "zakafkasya-sfsc",
+   "t": "1936-12-05",
+   "onceki": "tbmm-turkiye",
+   "kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye zakafkasya-sfsc t ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Azerbaycan' (islamansiklopedisi.org.tr/azerbayca",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Asâyita (Avsa)",
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:500",
+   "alan": "s",
+   "d": "habesistan",
+   "t": "1974-09-12",
+   "onceki": "adal",
+   "kaynak": "Britannica (ilgili devlet/ülke maddesi)",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Bintan (Riau)",
+   "dosya_satir": "data/yerlesimler_gdasya.js:126",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "t": "1942-03-09",
+   "onceki": "cohor-sultanligi",
+   "kaynak": "Britannica Dutch East Indies; Riau-Lingga 1911'de kaldirildi",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Muar",
+   "dosya_satir": "data/yerlesimler_gdasya.js:245",
+   "alan": "s",
+   "d": "federe-olmayan-malay-devletleri",
+   "t": "1942-02-15",
+   "onceki": "cohor-sultanligi",
+   "kaynak": "tsv: Johor Federe Olmayan Malay Devletleri uyesi; Britannica Malaya",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Loikaw",
+   "dosya_satir": "data/yerlesimler_gdasya.js:291",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "t": "1942-03-08",
+   "onceki": "san-devletleri",
+   "kaynak": "tsv: ingiliz-burma t=1948-01-04; Britannica 'Shan States' (Federated Shan States, Burma Frontier Areas)",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Kalaw",
+   "dosya_satir": "data/yerlesimler_gdasya.js:332",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "t": "1948-01-04",
+   "onceki": "san-devletleri",
+   "kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ingiliz-burma t ucunun kaynağı — US Office of the Historian, Burma (history.state.gov/countries/burma) — «The",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Bacirge (Esendere)",
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:78",
+   "alan": "s",
+   "d": "kacar",
+   "t": "1925-10-31",
+   "onceki": "tbmm-turkiye",
+   "kaynak": "Encyclopaedia Iranica 'Qajar dynasty'",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Caruru (Vaupés)",
+   "dosya_satir": "data/yerlesimler_gamerika.js:67",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "t": "2000-12-31",
+   "onceki": "brezilya-cumhuriyeti",
+   "kaynak": "Brezilya-Kolombiya Bogota Antlasmasi 1907; Salomon-Lozano 1922",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "San Ignacio de Zamucos",
+   "dosya_satir": "data/yerlesimler_gamerika.js:112",
+   "alan": "s",
+   "d": "paraguay-cumhuriyeti",
+   "t": "2000-12-31",
+   "onceki": "bolivya-cumhuriyeti",
+   "kaynak": "Britannica 'Chaco War'; Buenos Aires Baris Antlasmasi 21 Temmuz 1938",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Beyan G49.5 B72.5",
+   "dosya_satir": "data/yerlesimler_gamerika.js:157",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "t": "2000-12-31",
+   "onceki": "sili-cumhuriyeti",
+   "kaynak": "Britannica 'Argentina-Chile boundary'; 1881 Sinir Antlasmasi, 1902 Hakem karari, 1984 Beagle Antlasmasi",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Fort St. Pierre (Rainy Lake)",
+   "dosya_satir": "data/yerlesimler_kamerika.js:806",
+   "alan": "s",
+   "d": "abd",
+   "t": "2000-12-31",
+   "onceki": "kanada",
+   "kaynak": "Britannica: United States; Alaska siniri 1903/1908",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "El Paso del Norte",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1375",
+   "alan": "s",
+   "d": "abd",
+   "t": "2000-12-31",
+   "onceki": "meksika",
+   "kaynak": "Treaty of Guadalupe Hidalgo 1848 sonrasi ABD egemenligi (Office of the Historian)",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "La Junta de los Ríos (Presidio)",
+   "dosya_satir": "data/yerlesimler_kamerika.js:1419",
+   "alan": "s",
+   "d": "abd",
+   "t": "2000-12-31",
+   "onceki": "meksika",
+   "kaynak": "Treaty of Guadalupe Hidalgo 1848 sonrasi ABD egemenligi (Office of the Historian)",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Fortín Muñoz (General Díaz)",
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1161",
+   "alan": "s",
+   "d": "paraguay-cumhuriyeti",
+   "t": "2000-12-31",
+   "onceki": "bolivya-cumhuriyeti",
+   "kaynak": "Britannica 'Chaco War'; Buenos Aires Baris Antlasmasi 21 Temmuz 1938",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Lashio (Kuzey Hsenwi)",
+   "dosya_satir": "data/yerlesimler_a78_asya.js:165",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "t": "1948-01-04",
+   "onceki": "san-devletleri",
+   "kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ingiliz-burma t ucunun kaynağı — US Office of the Historian, Burma (history.state.gov/countries/burma) — «The",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  },
+  {
+   "yer": "Namkham",
+   "dosya_satir": "data/yerlesimler_a78_asya.js:169",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "t": "1948-01-04",
+   "onceki": "san-devletleri",
+   "kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye ingiliz-burma t ucunun kaynağı — US Office of the Historian, Burma (history.state.gov/countries/burma) — «The",
+   "teshis": "sahip değişiyor — kaynakla sına (1923-10-29 Türkiye ilanı, bu yerle ilgisiz)"
+  }
+ ]
+}
