@@ -66,3 +66,35 @@ KASA PAZAR bunları uygularken JSON'daki ONERI satırlarının önünde tutar.
   - Kaynak bulunana kadar BEYANLI boşluk kalır.
 - `urdun-emirligi` f 1921-02-01 ve 04-11'i kapsıyor; dönem değişmez.
 - 🔴 `japon-kore` f 1910-08-22 yazılırsa `joseon` t **aynı commit'te** 1910-08-21 olmalı. Yoksa boşluk ya da çakışma çıkar.
+
+## 5 Kasım 2026 gece-20 — K01-K15 üzerine
+
+Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
+- `ukrayna-halk-cumhuriyeti` 1917-11-20 → 1920-11-21
+- `ukrayna-devleti-1918` 1918-04-29 → 1918-12-14
+- `bati-ukrayna-halk-cumhuriyeti` 1918-11-01 → 1919-07-17
+- Direktorya künyesi YOK (UNR künyesinin içinde kalabilir)
+- `mancukuo` 1932-03-09 → 1945-08-17
+- `cin-cumhuriyeti` f 1911-10-10
+- `kolcak-omsk-hukumeti` 1918-11-18 → 1920-01-04
+- `uzak-dogu-cumhuriyeti` 1920-04-06 → 1922-11-14
+- `gurcistan-demokratik-cumhuriyeti` 1918-05-26 → 1921-03-16
+- Rus **Kuzey Bölgesi** (Arhangelsk 1918-20) künyesi YOK. `kuzey-bolgesi-sa` Avustralya'nın Kuzey Bölgesidir, Rusya'yla ilgisi yok.
+
+1. **Ukrayna:** 1917-91 kesintisiz Sovyet zinciri YANLIŞ. Rakip hükûmet kuralı uygulanır (fiilî idare; Endonezya ve Kolçak emsali).
+   - UNR 1917-11-20'den (III. Universal), yalnız fiilen yönettiği yerlerde.
+   - Sonra her şehir kendi günleriyle: Bolşevik Kiev 1918-02-08, Almanların dönüşü 03-01, Hetmanlık 1918-04-29, Direktorya 12-14, …
+   - IV. Universal (1918-01-22) `ic_not`a.
+   - Şimdilik 15 yer ONERI olarak işaretlenir. Kaynak: Encyclopedia of Ukraine.
+2. **Sibirya, Kuzey Bölgesi, Gürcistan DC:** Kolçak (1918-11-18 → 1920-01), UDC, Kuzey Bölgesi ve Gürcistan DC kırılmaları aynı kuralla, her şehir kendi günüyle eklenir. Şimdilik ONERI listesi; kaynak sonraki turda. Şehir giriş günleri kaynaklı olmalı.
+3. **Rus knezlikleri 1281:** `s:` knezlik + `v: altinorda`, doğru. `vladimir-suzdal` hayalet sorusu LAB'da.
+4. **Mançukuo:**
+   - `isg japonya` 1931-09-18'den (Mukden olayı), her şehir kendi günüyle: Mukden 09-19, Jilin 09-21, Harbin 1932-02-05.
+   - `s: mancukuo` künye f'si 1932-03-09 olduğu için o güne uyulur; 03-01 ilanı `ic_not`a.
+   - Bitiş 1945-08-17/18 (Puyi'nin tahttan çekilişi), ardından Sovyet `isg`.
+   - Chifeng 1933-03'ten (Jehol seferi).
+5. **1911 güney eyaletleri:** Wuchang 1911-10-10 ve eyaletlerin bağımsızlık ilanları rakip hükûmettir.
+   - **Ölçüm:** `cin-cumhuriyeti` künyesinin f'si 1911-10-10. Bu yüzden eyalet ilanından itibaren `s: cin-cumhuriyeti` kullanılabilir; künye boşluğu yok.
+   - Qing'in 1912-02-12 tahttan çekilişi `ic_not`a.
+6. **Patan / Baroda çakışması** LAB'a: hangi künye hangi tarihte, Gaekwad'ın tâbiliği.
+- **TBMM K05 ASKIDA kalır.** Kurtuluş günleri TDV şehir maddelerinden ayrı bir okumayla alınacak.
