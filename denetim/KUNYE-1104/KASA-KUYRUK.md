@@ -33,8 +33,6 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | 26 | `ponka` | t | 1858-01-01 | **1859-04-11** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-ponca-1858-0772):  |
 | 27 | `powhatan` | t | 1646-10-01 | **1646-10-05** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, |
 | 28 | `diaguita-calchaqui-konfederasyonu` | t | 1667-01-02 | **1665-12-01** | KARAR (EMRELİC, 4 Kasım): t 1667-01-02 → 1665-12-01 (AY hassasiyeti; gün kaynakta yok) — Boixadós, 'El fin de las guerras calchaquíes. La desnaturalización de l |
-| 29 | `makedonya` | f | 1991-09-08 | **1991-09-17** | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MAKEDONYA, slug makedonya. '8 Eylül 1991’de yapılan referanduma dayanarak 17 Eylül 1991’de Makedonya Yugoslavya’ |
-| 30 | `uman-ibadi` | t | None | **0751-07-30** | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UMAN (/uman): "Hadramut İbâzî imâmetinin ortadan kalkmasının (131/748-49) ardından Umanlılar yaklaşık 132 (750)  |
 
 ## Künye adı değişiklikleri (metin; çeviriler sonra bayat görünecek)
 
@@ -90,6 +88,7 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | `mazenderan-marasi` | YERLESIM | DONEM_KISALT | 4 periods (Bârfurûş, Eşref, Sârî) starting 1353-01-01: cut f to 1359-01-01 (TDV 760/1359 victory at Dâbû, then Âmül); Sârî only after Kemâleddin's capture (undated) and again Timur gave Sârî to İskender Şeyhî; gap → Efrâsiyâb/Çulabî state if present |  | 1359-01-01 | ORTA | TDV İslâm Ansiklopedisi, MAR'AŞÎLER — «Dâbû yakınlarında Seyyid Kıvâmüddin’in yaklaşık 300 dervişten oluşan ordusuna yenilerek öldürüldü (760/1359).» |
 | `evfat / ifat-sultanligi` | KUNYE_BIRLESTIR | MÜKERRER | ifat-sultanligi'nin referansları evfat'a taşınır: yerlesimler.js 1 dönem, kronoloji_cok_derin_asya_afrika_1024.js 3, kronoloji_sinir_zincir_1281sonra_1024.js 3, devlet_harita_ust.js 2, ufuk_bantlari_ust.js 3 (bu ikisi üretilmiş/yardımcı mı — KASA kontrol etsin); devletler.js'ten ifat-sultanligi künyesi silinir. BOYALAR'daki 'ifat-sultanligi' girdisi KALIR (renkler.py motor tuzu, DOKUNULMAZ) — kull | evfat kalır (23 referans) · ifat-sultanligi silinir (13 referans) |  | ÖLÇÜM | LAB ölçümü origin/main (git grep); TDV HARAR 'Evfât Emirliği (1285-1415)' |
 | `malaka-sultanligi` | YERLESIM | DONEM_KISALT | Malaka şehri ve çevresi dönemleri 1511-08-10'da biter, sonra s: portekiz (Portekiz Malakası); 1511→1528 sürgün sarayı toprak tutmadığı sürece harita konusu değil, ic_not; cohor-sultanligi f 1528 DOĞRU. | malaka t 1511-08-10 doğru; ic_not: 'Sultan Mahmud Şah sürgünde (Bintan/Kampar) 1511–1528; Johor 1528' | 1511-08-10 | ORTA | TDV MALAKA: '10 Ağustos 1511 tarihinde Alfonso de Albuquerque tarafından ele geçirildi' |
+| `ming-hanedani / guney-ming` | KUNYE_GENISLET | KUNYE_GENISLET | devletler.js: ming-hanedani t 1644-04-25 → 1644-06-06; guney-ming f 1644-04-25 → 1644-06-07 (Zhu Yousong Nanjing'de 監國, 崇禎十七年五月初三). guney-ming ic_not: '1644-06-19 (五月十五) Hongguang tahta çıkışı'. EVREN4 guney-ming kümesi (14 satır): Nanjing tarafındaki dönemlerin 04-25→06-06 dilimi s: ming-hanedani, 06-07'den guney-ming; kuzey (Pekin) dönemleri 04-25'te Shun'a geçer, DEĞİŞMEZ. AYNI COMMIT'te kronol | ming-hanedani t 1644-06-06 · guney-ming f 1644-06-07 · guney-ming t 1662-05-18 (ay beyanlı) | 1644-06-07 | ORTA (gün: Academia Sinica çevirisi EMRELİC) | Struve, The Southern Ming 1644–1662 (Yale 1984) — Hongguang sarayı Ming'in devamı (LAB açmadı); çeviri: Academia Sinica 兩千年中西曆轉換 (EMRELİC, 5 Kasım) |
 
 ## TAKVIM-1104 — Rus eski takvim (O.S. → Gregoryen) TARIH_DUZELT (LAB; ayrıntı `denetim/TAKVIM-1104/oneri_RUS_OS_*`)
 
@@ -178,4 +177,4 @@ Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-
 | Gaşun Gobi | data/yerlesimler_ek21.js:143 | EMRELİC ölçütü: Qing lig/aymak bağlılığı (Halha aymakları = Dış, ligler = İç). Nokta (42.50, 103.00) Gashun Nur/Ejina (Alxa ligi) bölgesine yakın → İç Moğolistan olasılığı; kaynak (Atwood 2004 vb.) okunmadı → ÖNERİ kalır |
 | Alaşa kuzeyi | data/yerlesimler_ek21.js:146 | Alaşa = Alxa ligi → EMRELİC ölçütüyle İç Moğolistan; nokta (42.40, 105.50) bugünkü sınırın hangi tarafında? Kaynak okunmadı → ÖNERİ kalır |
 
-Toplam 30 alan düzeltmesi, 30 künye.
+Toplam 28 alan düzeltmesi, 28 künye.
