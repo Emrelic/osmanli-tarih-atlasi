@@ -460,5 +460,16 @@
   "guc": "ORTA",
   "dayanak": "EMRELİC gece-40; Iranica 'HORMUZ' (gün)",
   "onay": "EMRELİC 6 Kasım gece-40"
+ },
+ {
+  "d": "fetret-isa",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "fetret-isa f 1403-01-01 → 1402-11-01 [yalnız ay]",
+  "gun": "1402-11-01",
+  "islem": "devletler.js fetret-isa f → 1402-11-01 + '[yalnız ay, TDV Kasım 1402]'. İsa Çelebi yerleşimleri (LAB ölçümü: isa-celebi dönemleri 1402-07-28'den, 180 dönem): 1402-07-28 → 1402-10-31 d: osmanli + isg timurlu (Ankara sonrası Timur'un Anadolu'yu tutması); 1402-11-01'den İsa Çelebi. d: değeri D-ANAHTAR kararına bağlı ('isa-celebi' anahtar / 'fetret-isa' id). Değişmez 2: 1402-11-01 maddesi ölçülmeli.",
+  "dayanak": "TDV (İSÂ ÇELEBİ — 'Kasım 1402'; UMIT/EMRELİC gece-36)",
+  "onay": "EMRELİC 6 Kasım gece-36"
  }
 ]
