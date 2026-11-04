@@ -1712,7 +1712,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "ic_not": "Eski şehir 979-06-15'te yakıldı; atlas noktası bugünkü Taiyuan (Yangqu yakını).",
   "ic_not_takvim": "Çin ay-güneş takvimi ganzhi gün adı 甲申 → Jülyen 0979-06-03 (JDN hesabı; sınama: 乙巳 = 960-02-04) = Gregoryen 0979-06-08; 1582 öncesi gün Jülyen kalır"
  },
- {
+ { odak_yer:["Karaşar (Yanqi)","Andican"],
   "t": "1227-01-01",
   "devlet": "cagatay",
   "taraflar": [
@@ -6147,7 +6147,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "ic_not": "Şâban 429 ∩ Mayıs 1038 = 1038-05-09. Hicrî tarih tabloyla (aritmetik hicrî takvim, Jülyen) çevrildi; ±1 gün belirsizdir. Kaynak yalnız hicrî yıl/ay ve milâdî yıl/ay verdiği için hicrî aralık ∩ kaynağın milâdî ayı kesişiminin ilk günü alındı.",
   "sinir_id": []
  },
- {
+ { odak_yer:["Taraz (Evliya-Ata)","Andican"],
   "t": "1041-01-01",
   "devlet": "dogu-karahanli",
   "taraflar": [
@@ -6424,7 +6424,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": [],
   "kesinlik": "yil"
  },
- {
+ { odak_yer:["Taşkent","Andican"],
   "t": "1141-01-01",
   "devlet": "karahitay",
   "taraflar": [
