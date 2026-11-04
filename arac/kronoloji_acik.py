@@ -10,7 +10,8 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 
 
 # Tarayıcıda okunup karara bağlananlar (tarayici_sonuc.tsv, SONUC-61): Safi, Cizzah.
-COZULDU = {("001-050", "21"), ("001-050", "41")}
+COZULDU = {("001-050", "21"), ("001-050", "41"), ("001-050", "10"),
+           ("L2", "9"), ("L2", "35"), ("L2", "38"), ("L2", "20")}   # son beşi: oneri_TARAYICI_dogrulama.tsv
 
 
 def basliklar():

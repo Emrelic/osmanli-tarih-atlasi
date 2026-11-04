@@ -1,0 +1,6 @@
+no	dosya_satir	tarih_atlas	kaynak	url	okunan_cumle	hassasiyet	uyum	sonuc
+10	data/kronoloji_sinir_dogu_500_1281.js:2375	671	EncyKorea «소부리주» (E0030088)	https://encykorea.aks.ac.kr/Article/E0030088	Silla 671'de Sobuli-ju'yu kurdu (EMRELİC okuması)	yil	evet; METİN düzelt: olay Silla'nın Sabi'yi alması (Tang→Silla değil; öncesi 660 + Ungjin protektorası)	DOGRULANDI
+L2-9	data/kronoloji_italya_sehir.js:1435	1355-03-25	Treccani, Enciclopedia Italiana «Siena»	https://www.treccani.it/enciclopedia/siena	1355 (Dokuzlar rejiminin sonu; gün yok)	yil	yıl evet; gün yok → yalnız yıl teyitli kuralı	TARIH_DUZELT
+L2-35	data/kronoloji_italya_sehir.js:1547	1555-04-17	Treccani, Enciclopedia Italiana «Siena» + DBI «Cosimo I de' Medici»	https://www.treccani.it/enciclopedia/siena	teslim 17 Nisan 1555 (iki Treccani eseri aynı gün)	gun	evet	DOGRULANDI
+L2-38	data/kronoloji_italya_sehir.js:1555	1559-08-03	Treccani, Enciclopedia Italiana «Siena»; DBI (Cateau-Cambrésis, Nisan 1559)	https://www.treccani.it/enciclopedia/siena	«fino al luglio 1559»	ay	kismen: Temmuz 1559; 08-03 desteksiz; Cateau-Cambrésis çelişkisi ic_not	TARIH_DUZELT
+L2-20	data/kronoloji_italya_sehir.js:1154	1482-05-03	Treccani, DBI «Ercole I d'Este»	https://www.treccani.it/enciclopedia/ercole-i-d-este_(Dizionario-Biografico)	«guerra di Ferrara (1482-1484)»	yil	kismen: yıl evet; 05-03 teyitsiz	TARIH_DUZELT
