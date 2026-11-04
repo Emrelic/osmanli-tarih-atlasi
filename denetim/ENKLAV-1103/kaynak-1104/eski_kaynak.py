@@ -14,6 +14,7 @@ DOSYALAR = [os.path.join(BURA, "..", "hukumler.json")] + sorted(glob.glob(os.pat
 ESKI = re.compile(r"EB 1911|Enciclopedia[- ]Italiana", re.I)
 GUNCEL = re.compile(r"TDV|İslâm Ansiklopedisi|DCB|biographi\.ca|UNESCO|General History of Africa|Imperial Gazetteer|"
                     r"Beevor|Khodarkovsky|Ricklefs|Petech|Nicol|Cambridge|Oxford|Iranica|Journal|Review|Quarterly|"
+                    r"Bulletin|Annales|Zeitschrift|Bijdragen|Osteuropa|USHMM|"
                     r"treccani\.it/enciclopedia/(?![^ ]*Enciclopedia-Italiana)", re.I)
 
 
