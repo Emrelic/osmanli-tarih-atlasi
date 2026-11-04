@@ -1943,6 +1943,7 @@ window.DEVLETLER = [
 // ayrı hanedan hüküm sürdü. Kaynak: TDV `darfur` (canlı) — kendi maddesinin
 // içinde, `dacu`/`tunciler` sluglarının ikisi de 302 ölü.
 { id:"dacu", ad:"Dâcû (Daju) Hanedanlığı", tur:"hanedanlik", bolge:"misir-sudan",
+  ic_not_t:"BEYANLI: LAB kaynağına göre ~1350 (Cambridge History of Africa III, ch.1, s.79: Darfur'da Daju 13. yy; 'mid fourteenth century' Tunjur yerini aldı). t 1400 KORUNDU: ardıl Tunjur künyesi atlasta yok, kısaltılırsa 13 yerleşim dönemi sahipsiz kalır (Değişmez 1). BORÇ: tunjur künyesi + BOYALAR (renk partisi) (LAB KUNYE-1104, EMRELİC kararı, KASA 4 Kasım 2026)",
   f:"1200-01-01", t:"1400-01-01", baskent:"— (TDV'de belirtilmemiş)",
   ozet:"Darfur'a ilk yerleşip ilk devleti kuran kabile olarak kabul edilen Dâcû'ların XIII-XIV. yüzyıllar boyunca sürdürdüğü hâkimiyet; yerini Tunciler'e bıraktı (bkz. [[tunciler]]). ⚠️ TDV yalnız yüzyıl veriyor, kesin yıl yok — f/t yüzyıl ortası/başı konvansiyonuyla yazıldı, kesinlik düşük. 🔴 10 Ağustos 2026: TDV `darfur` maddesinin TAM METNİ (ham HTML) satır satır tarandı — Dâcû hanedanı için isimsiz TEK bir cümle dışında hükümdar adı, olay ya da komşu ilişkisi YOK. Zenginleştirme aranmadı değil, ARANDI VE BULUNAMADI; bu hanedan gerçekten bu kadar kısa geçiyor, uydurulmadı. (kaynak: TDV, madde: darfur)",
   kaynak:"darfur",
@@ -2494,6 +2495,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"milano-dukaligi", ad:"Milano Dükalığı", tur:"dukalik", bolge:"italya",
+  ic_not_unvan:"Dükalık unvanı 1395-05-11 (Treccani milano: 'L'11 maggio 1395 Gian Galeazzo ottenne il titolo di duca di M.'); öncesi Visconti signoriası — aynı polity, f korunur. BORÇ: ayrı Visconti signoriası künyesi (renk partisi) (LAB KUNYE-1104, EMRELİC kararı, KASA 4 Kasım 2026)",
   f:"1097-01-01", t:"1859-11-10", ic_not_f:"Kaynak yalnız yıl verir ve \"si può credere\" (tahminî) der; gün yok. 1097 öncesi Milano başpiskoposluk yönetiminde, İtalya Krallığı (almanya künyesi) içindedir. 1162-1166 arası şehir yıkılıp halk surların dışında yaşadı (Treccani Milano) — haritada şehir noktası o yıllarda da Milano künyesinde kalabilir ama kronoloji maddesi var.", baskent:"Milano", harita:"milanoduka",
   ozet:"Visconti ve Sforza hanedanlarının İtalya'nın en zengin dükalığı; Sforza hattının sönmesiyle önce İspanyol, sonra Avusturya Habsburglarının eline geçti, İtalya birliğinde Sardinya-Piyemonte'ye katıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
@@ -6952,6 +6954,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"mantua", ad:"Mantua Dukalığı (Gonzaga)", tur:"dukalik", bolge:"italya",
+  ic_not_f:"Gonzaga iktidarı 1328-08-16 (Treccani gonzaga: 'contro la stessa signoria dei Bonacolsi insorse il 16 ag. 1328 Luigi'); öncesi Bonacolsi signoriası — aynı Mantova şehir devleti, f korunur (LAB KUNYE-1104, EMRELİC kararı, KASA 4 Kasım 2026)",
   f:"1328-01-01", t:"1708-01-01", baskent:"Mantua", harita:"mantua",
   ozet:"Gonzaga hanedanının kurduğu, Rönesans sanatına (Mantegna) büyük destek veren küçük ama zengin dükalık; hanedanın soyu tükenince İspanya Veraset Savaşı sırasında Avusturya Habsburglarına geçti.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
