@@ -8584,7 +8584,7 @@
    "oneri": {
     "alan": "isg"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1942-03-08, 3 satır); yalnız gün ve devlet teyitli. TEK KURAL: ilhak/egemenlik devri yok, TDV 'işgal' diyor; s: yerine isg: önerilir. ÖLÇÜT: geçici/askerî. YIL DÜZEYİ (1942); atlas 1942-03-08 günü teyitsiz. Künye f 1868 / t 1947 küme f ile tutarlı. Burma 1943-08 sözde bağımsızlık ayrıca incelenmeli."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1942-03-08, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Burma Japon işgali isg (ilhak yok) uygun. | TEK KURAL: ilhak/egemenlik devri yok, TDV 'işgal' diyor; s: yerine isg: önerilir. ÖLÇÜT: geçici/askerî. YIL DÜZEYİ (1942); atlas 1942-03-08 günü teyitsiz. Künye f 1868 / t 1947 küme f ile tutarlı. Burma 1943-08 sözde bağımsızlık ayrıca incelenmeli."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3703",
@@ -13807,13 +13807,11 @@
    "d": "rusya",
    "f": "1552-10-02",
    "t": "1917-03-15",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "https://islamansiklopedisi.org.tr/kazan-hanligi",
    "alinti": "15 Ekim 1552’de Kazan düştü.",
-   "oneri": {
-    "f": "1552-10-15"
-   },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1552-10-02, 3 satır); yalnız gün ve devlet teyitli. GÜN: TDV 15 Ekim 1552; atlas 1552-10-02. Takvim: 2 Ekim Jülyen = Gregoryen 12 Ekim; TDV'nin hangi takvimi kullandığı belirsiz, EMRELİC karar versin. Alıntı Kazan şehrinin düşüşünü tarihliyor; Sviyajsk/Çeboksarı/Malmıj için fiilî devir günü değil. Künye f 1547 tutarlı."
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1552-10-02, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Kazan 1552-10-02 kalır (1582 öncesi Jülyen); TDV '15 Ekim' çelişkisi ic_not (emsal KASA PAZAR yığını). | GÜN: TDV 15 Ekim 1552; atlas 1552-10-02. Takvim: 2 Ekim Jülyen = Gregoryen 12 Ekim; TDV'nin hangi takvimi kullandığı belirsiz, EMRELİC karar versin. Alıntı Kazan şehrinin düşüşünü tarihliyor; Sviyajsk/Çeboksarı/Malmıj için fiilî devir günü değil. Künye f 1547 tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_rusya.js:335",
@@ -13859,13 +13857,11 @@
    "d": "rusya",
    "f": "1552-10-02",
    "t": "1917-03-15",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "https://islamansiklopedisi.org.tr/kazan-hanligi",
    "alinti": "15 Ekim 1552’de Kazan düştü.",
-   "oneri": {
-    "f": "1552-10-15"
-   },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1552-10-02, 3 satır); yalnız gün ve devlet teyitli. GÜN: TDV 15 Ekim 1552; atlas 1552-10-02. Takvim: 2 Ekim Jülyen = Gregoryen 12 Ekim; TDV'nin hangi takvimi kullandığı belirsiz, EMRELİC karar versin. Alıntı Kazan şehrinin düşüşünü tarihliyor; Sviyajsk/Çeboksarı/Malmıj için fiilî devir günü değil. Künye f 1547 tutarlı."
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1552-10-02, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Kazan 1552-10-02 kalır (1582 öncesi Jülyen); TDV '15 Ekim' çelişkisi ic_not (emsal KASA PAZAR yığını). | GÜN: TDV 15 Ekim 1552; atlas 1552-10-02. Takvim: 2 Ekim Jülyen = Gregoryen 12 Ekim; TDV'nin hangi takvimi kullandığı belirsiz, EMRELİC karar versin. Alıntı Kazan şehrinin düşüşünü tarihliyor; Sviyajsk/Çeboksarı/Malmıj için fiilî devir günü değil. Künye f 1547 tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_rusya.js:347",
@@ -13911,13 +13907,11 @@
    "d": "rusya",
    "f": "1552-10-02",
    "t": "1917-03-15",
-   "hukum": "ONERI",
+   "hukum": "KAYNAKLI",
    "kaynak": "https://islamansiklopedisi.org.tr/kazan-hanligi",
    "alinti": "15 Ekim 1552’de Kazan düştü.",
-   "oneri": {
-    "f": "1552-10-15"
-   },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1552-10-02, 3 satır); yalnız gün ve devlet teyitli. GÜN: TDV 15 Ekim 1552; atlas 1552-10-02. Takvim: 2 Ekim Jülyen = Gregoryen 12 Ekim; TDV'nin hangi takvimi kullandığı belirsiz, EMRELİC karar versin. Alıntı Kazan şehrinin düşüşünü tarihliyor; Sviyajsk/Çeboksarı/Malmıj için fiilî devir günü değil. Künye f 1547 tutarlı."
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1552-10-02, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Kazan 1552-10-02 kalır (1582 öncesi Jülyen); TDV '15 Ekim' çelişkisi ic_not (emsal KASA PAZAR yığını). | GÜN: TDV 15 Ekim 1552; atlas 1552-10-02. Takvim: 2 Ekim Jülyen = Gregoryen 12 Ekim; TDV'nin hangi takvimi kullandığı belirsiz, EMRELİC karar versin. Alıntı Kazan şehrinin düşüşünü tarihliyor; Sviyajsk/Çeboksarı/Malmıj için fiilî devir günü değil. Künye f 1547 tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_rusya.js:355",
@@ -15143,7 +15137,7 @@
    "oneri": {
     "f": "1432-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kamboc-kralligi 1431-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ: TDV 1432, atlas 1431. Tek kaynak; çift teyit ister. KARIŞIK: t_dagilim 1863-08-11 (2) ve 1795-01-01 (1) farklı uçlar. TEK KURAL: 1863 Fransız himayesi v: fransa. Künye f = küme f = 1431."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kamboc-kralligi 1431-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): TDV esas 1432 [yalnız yıl]; atlas 1431 düzelir. | YIL DÜZEYİ: TDV 1432, atlas 1431. Tek kaynak; çift teyit ister. KARIŞIK: t_dagilim 1863-08-11 (2) ve 1795-01-01 (1) farklı uçlar. TEK KURAL: 1863 Fransız himayesi v: fransa. Künye f = küme f = 1431."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:206",
@@ -15295,7 +15289,7 @@
    "oneri": {
     "alan": "isg"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1942-03-08, 3 satır); yalnız gün ve devlet teyitli. TEK KURAL: ilhak/egemenlik devri yok, TDV 'işgal' diyor; s: yerine isg: önerilir. ÖLÇÜT: geçici/askerî. YIL DÜZEYİ (1942); atlas 1942-03-08 günü teyitsiz. Künye f 1868 / t 1947 küme f ile tutarlı. Burma 1943-08 sözde bağımsızlık ayrıca incelenmeli."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1942-03-08, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Burma Japon işgali isg (ilhak yok) uygun. | TEK KURAL: ilhak/egemenlik devri yok, TDV 'işgal' diyor; s: yerine isg: önerilir. ÖLÇÜT: geçici/askerî. YIL DÜZEYİ (1942); atlas 1942-03-08 günü teyitsiz. Künye f 1868 / t 1947 küme f ile tutarlı. Burma 1943-08 sözde bağımsızlık ayrıca incelenmeli."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:262",
@@ -15891,7 +15885,7 @@
    "oneri": {
     "f": "1420-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sibir-hanligi 1430-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ: TDV kurucu Hacı Muhammed (1420-1430), oğlu Mahmutek 1430-?; yarı bağımsızlık 1420'li yılların sonlarından. Atlas f 1430 = Mahmutek başlangıcı. Çelişki beyanı için EMRELİC. Künye f 1430 = küme f."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sibir-hanligi 1430-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): TDV esas (Hacı Muhammed 1420) [yalnız yıl]; atlas 1430 düzelir. | YIL DÜZEYİ: TDV kurucu Hacı Muhammed (1420-1430), oğlu Mahmutek 1430-?; yarı bağımsızlık 1420'li yılların sonlarından. Atlas f 1430 = Mahmutek başlangıcı. Çelişki beyanı için EMRELİC. Künye f 1430 = küme f."
   },
   {
    "dosya_satir": "data/yerlesimler_ek10.js:68",
@@ -15955,7 +15949,7 @@
    "oneri": {
     "f": "1420-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sibir-hanligi 1430-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ: TDV kurucu Hacı Muhammed (1420-1430), oğlu Mahmutek 1430-?; yarı bağımsızlık 1420'li yılların sonlarından. Atlas f 1430 = Mahmutek başlangıcı. Çelişki beyanı için EMRELİC. Künye f 1430 = küme f."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sibir-hanligi 1430-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): TDV esas (Hacı Muhammed 1420) [yalnız yıl]; atlas 1430 düzelir. | YIL DÜZEYİ: TDV kurucu Hacı Muhammed (1420-1430), oğlu Mahmutek 1430-?; yarı bağımsızlık 1420'li yılların sonlarından. Atlas f 1430 = Mahmutek başlangıcı. Çelişki beyanı için EMRELİC. Künye f 1430 = küme f."
   },
   {
    "dosya_satir": "data/yerlesimler_ek31.js:99",
@@ -17801,7 +17795,7 @@
    "oneri": {
     "f": "1420-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sibir-hanligi 1430-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ: TDV kurucu Hacı Muhammed (1420-1430), oğlu Mahmutek 1430-?; yarı bağımsızlık 1420'li yılların sonlarından. Atlas f 1430 = Mahmutek başlangıcı. Çelişki beyanı için EMRELİC. Künye f 1430 = küme f."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sibir-hanligi 1430-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): TDV esas (Hacı Muhammed 1420) [yalnız yıl]; atlas 1430 düzelir. | YIL DÜZEYİ: TDV kurucu Hacı Muhammed (1420-1430), oğlu Mahmutek 1430-?; yarı bağımsızlık 1420'li yılların sonlarından. Atlas f 1430 = Mahmutek başlangıcı. Çelişki beyanı için EMRELİC. Künye f 1430 = küme f."
   },
   {
    "dosya_satir": "data/yerlesimler_sibirya2.js:88",
@@ -22724,7 +22718,7 @@
     "alan": "v",
     "d": "fransa"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransiz-cinhindi 1863-08-11, 3 satır); yalnız gün ve devlet teyitli. TEK KURAL (EMRELİC gece-11): Kamboçya v: fransa 1863-08-11 -> 1945-03-09; Çinhindi Birliği ilhak değil. YIL DÜZEYİ (1863; gün teyitsiz). KARIŞIK: s fransiz-cinhindi yanlış alan; t_dagilim 1953-11-09 ile 1945-03-09 kuralı çelişir."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransiz-cinhindi 1863-08-11, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Kamboçya v: fransa 1863-08-11 → 1945-03-09 (gece-11 kuralı) uygun. | TEK KURAL (EMRELİC gece-11): Kamboçya v: fransa 1863-08-11 -> 1945-03-09; Çinhindi Birliği ilhak değil. YIL DÜZEYİ (1863; gün teyitsiz). KARIŞIK: s fransiz-cinhindi yanlış alan; t_dagilim 1953-11-09 ile 1945-03-09 kuralı çelişir."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3825",
@@ -24050,7 +24044,7 @@
    "oneri": {
     "f": "1432-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kamboc-kralligi 1431-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ: TDV 1432, atlas 1431. Tek kaynak; çift teyit ister. KARIŞIK: t_dagilim 1863-08-11 (2) ve 1795-01-01 (1) farklı uçlar. TEK KURAL: 1863 Fransız himayesi v: fransa. Künye f = küme f = 1431."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kamboc-kralligi 1431-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): TDV esas 1432 [yalnız yıl]; atlas 1431 düzelir. | YIL DÜZEYİ: TDV 1432, atlas 1431. Tek kaynak; çift teyit ister. KARIŞIK: t_dagilim 1863-08-11 (2) ve 1795-01-01 (1) farklı uçlar. TEK KURAL: 1863 Fransız himayesi v: fransa. Künye f = küme f = 1431."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:67",
@@ -24065,7 +24059,7 @@
     "alan": "v",
     "d": "fransa"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransiz-cinhindi 1863-08-11, 3 satır); yalnız gün ve devlet teyitli. TEK KURAL (EMRELİC gece-11): Kamboçya v: fransa 1863-08-11 -> 1945-03-09; Çinhindi Birliği ilhak değil. YIL DÜZEYİ (1863; gün teyitsiz). KARIŞIK: s fransiz-cinhindi yanlış alan; t_dagilim 1953-11-09 ile 1945-03-09 kuralı çelişir."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransiz-cinhindi 1863-08-11, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Kamboçya v: fransa 1863-08-11 → 1945-03-09 (gece-11 kuralı) uygun. | TEK KURAL (EMRELİC gece-11): Kamboçya v: fransa 1863-08-11 -> 1945-03-09; Çinhindi Birliği ilhak değil. YIL DÜZEYİ (1863; gün teyitsiz). KARIŞIK: s fransiz-cinhindi yanlış alan; t_dagilim 1953-11-09 ile 1945-03-09 kuralı çelişir."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:67",
@@ -24229,7 +24223,7 @@
    "oneri": {
     "f": "1432-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kamboc-kralligi 1431-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ: TDV 1432, atlas 1431. Tek kaynak; çift teyit ister. KARIŞIK: t_dagilim 1863-08-11 (2) ve 1795-01-01 (1) farklı uçlar. TEK KURAL: 1863 Fransız himayesi v: fransa. Künye f = küme f = 1431."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kamboc-kralligi 1431-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): TDV esas 1432 [yalnız yıl]; atlas 1431 düzelir. | YIL DÜZEYİ: TDV 1432, atlas 1431. Tek kaynak; çift teyit ister. KARIŞIK: t_dagilim 1863-08-11 (2) ve 1795-01-01 (1) farklı uçlar. TEK KURAL: 1863 Fransız himayesi v: fransa. Künye f = küme f = 1431."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:234",
@@ -24244,7 +24238,7 @@
     "alan": "v",
     "d": "fransa"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransiz-cinhindi 1863-08-11, 3 satır); yalnız gün ve devlet teyitli. TEK KURAL (EMRELİC gece-11): Kamboçya v: fransa 1863-08-11 -> 1945-03-09; Çinhindi Birliği ilhak değil. YIL DÜZEYİ (1863; gün teyitsiz). KARIŞIK: s fransiz-cinhindi yanlış alan; t_dagilim 1953-11-09 ile 1945-03-09 kuralı çelişir."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransiz-cinhindi 1863-08-11, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Kamboçya v: fransa 1863-08-11 → 1945-03-09 (gece-11 kuralı) uygun. | TEK KURAL (EMRELİC gece-11): Kamboçya v: fransa 1863-08-11 -> 1945-03-09; Çinhindi Birliği ilhak değil. YIL DÜZEYİ (1863; gün teyitsiz). KARIŞIK: s fransiz-cinhindi yanlış alan; t_dagilim 1953-11-09 ile 1945-03-09 kuralı çelişir."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:234",
@@ -24350,7 +24344,7 @@
    "oneri": {
     "alan": "isg"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1942-03-08, 3 satır); yalnız gün ve devlet teyitli. TEK KURAL: ilhak/egemenlik devri yok, TDV 'işgal' diyor; s: yerine isg: önerilir. ÖLÇÜT: geçici/askerî. YIL DÜZEYİ (1942); atlas 1942-03-08 günü teyitsiz. Künye f 1868 / t 1947 küme f ile tutarlı. Burma 1943-08 sözde bağımsızlık ayrıca incelenmeli."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1942-03-08, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-49): Burma Japon işgali isg (ilhak yok) uygun. | TEK KURAL: ilhak/egemenlik devri yok, TDV 'işgal' diyor; s: yerine isg: önerilir. ÖLÇÜT: geçici/askerî. YIL DÜZEYİ (1942); atlas 1942-03-08 günü teyitsiz. Künye f 1868 / t 1947 küme f ile tutarlı. Burma 1943-08 sözde bağımsızlık ayrıca incelenmeli."
   }
  ],
  "Purwokerto": [
