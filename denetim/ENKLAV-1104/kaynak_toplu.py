@@ -165,6 +165,13 @@ U.update({
                  "'Türkiye Büyük Millet Meclisi hükümeti kendisine Erzurum valiliği görevini de verdi (6 Mayıs)' · " + TDV +
                  "turkiye-buyuk-millet-meclisi — '23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı'"),
 })
+BO1 = "EMRELİC Cambridge/JSTOR okuması (BO1, PDF kaynak-pdf/lab2) — "
+U.update({
+    "K730": dict(guven="KAYNAKLI", duzeltme="Girne venedik t 1570-09-17 → 1570-09-14 (savaşsız teslim, Hill); Osmanlı kaynaklarındaki daha erken (Temmuz) rivayet "
+                 "Hill'ce reddedilir — ic_not'ta iki rivayet beyanlı.",
+                 kaynak=BO1 + "G. Hill, A History of Cyprus III, ch. XV, s.988: 'on the 14th … gave up the fortress' (Lefkoşa 9 Eylül 1570 düşüşünden sonra)"),
+    "K745": dict(guven="KAYNAKLI", kaynak=BO1 + "J. D. Grainger, The Battle for Palestine 1917 (2006), s.173: Yafa'ya 16 Kasım 1917 sabahı Yeni Zelanda birlikleri girdi"),
+})
 NCMH = "EMRELİC Cambridge okuması — "
 U.update({
     "K677": dict(guven="KAYNAKLI", kaynak=NCMH + "New Cambridge Medieval History 7, ch.20 (B. Schnerb, 'Burgundy'), s.439: 'purchase of the county of Namur in "
@@ -180,6 +187,11 @@ KISMEN = {
             "YAKLAŞIKLIK); TDV kefe: Haziran 1475; 1357 Ceneviz başlangıcı OKUNMADI",
     "K579": "KISMEN — Guskov 2022 (The New Past 4, s.116-122): Rus zaptı 1695 ve 1701 yazı yıkımı teyitli; 1552 kuruluşu Guskov'da yok, KAYNAK-GEREK",
     "K624": "KISMEN — Guskov 2022: kale 1701 yazı yıkıldı, 1705'te boş yer; 1774'e dek yeniden iskân kaynakta yok — K629 düzeltmesine bağlı",
+    "K791": "KISMEN — K. Brummett, Cambridge History of Turkey 2, ch.5, s.143 (Osmanlı 1456, gün yok); s.146 Dorino Gattilusio Enez'i vergi ve tuz payıyla "
+            "tutuyordu; 1355 başlangıcı ve 24 Ocak günü teyitsiz",
+    "K718": "KISMEN — R. P. Lindner, Cambridge History of Turkey 1, ch.4, s.121: Pelekanon Haziran 1329 (gün yok); Aydos/Samandıra 1328 okunmadı",
+    "K683": "KISMEN — Encyclopaedia Iranica 'NĀDER SHAH': Rusya 1720'lerde aldığı toprakların çoğundan çekildi; 'BAKU': Bakü-Derbent Rus işgali 1735 Gence "
+            "antlaşmasıyla bitti (1732 Reşt kuzey Hazar'ı kapsamaz); Reşt'in il listesi okunmadı",
     "K785": "KISMEN — Cembalo 1357 Ceneviz başlangıcı akademik kaynakta OKUNMADI (EMRELİC Cambridge/JSTOR, 4 Kasım)",
 }
 # EMRELİC 1 KASIM (4 Kasım 2026): web-özeti aday tarihleri — KAYNAKLI DEĞİL, yalnız yol gösterir; satırlar KAYNAK-GEREK kalır
@@ -201,6 +213,9 @@ ADAY = {
     "K786": "Ceneviz 1357; Osmanlı 1475 (Kefe 6 Haziran — TDV Kefe: Haziran 1475)",
     "K164": "Semipalatinsk 1718",
     "K691": "okunmadı",
+    "K791": "Osmanlı 1456 (gün teyitsiz); Gattilusio başlangıcı okunmadı",
+    "K718": "Pelekanon Haziran 1329",
+    "K683": "Reşt 1732-01-21 güney Hazar (Gilan-Mazenderan); Bakü-Derbent 1735 Gence",
 }
 for i in range(2, 10):
     yol = os.path.join(BURA, "hukumler%d.json" % i)

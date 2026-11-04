@@ -330,7 +330,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 3, GERCEK 11, YAPAY-c 2, YAPAY-d 1, YAPA
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Enez Gattilusio 1355 → 1456-01-24 Osmanlı fethi, Osmanlı Trakyası ortasında: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV'de Enez maddesi açılmadı — bulunamadı
+  - Kaynak: TDV'de Enez maddesi açılmadı — bulunamadı · KISMEN — K. Brummett, Cambridge History of Turkey 2, ch.5, s.143 (Osmanlı 1456, gün yok); s.146 Dorino Gattilusio Enez'i vergi ve tuz payıyla tutuyordu; 1355 başlangıcı ve 24 Ocak günü teyitsiz · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Osmanlı 1456 (gün teyitsiz); Gattilusio başlangıcı okunmadı
 
 ### K792 · safevi · 1545-12-26 → 1701-01-01 · 229 km²
 

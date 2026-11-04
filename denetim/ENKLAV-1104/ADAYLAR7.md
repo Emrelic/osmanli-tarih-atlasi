@@ -808,7 +808,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 31, YAPAY-a 4, YAPAY-c 28, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Mahmudâbâd 1732-01-21 (Reşt antlaşması) → 1732-09 Safevî, Rus Hazar kıyısı ortasında: kısa gerçek iade parçası olabilir.
   - Düzeltme önerisi: Reşt iadesinin kapsamı kaynakla.
-  - Kaynak: TDV içerik araması: Mahmûdâbâd Şirvan'a bağlı (Şeref Han; «Şirvan») — 1732 yok
+  - Kaynak: TDV içerik araması: Mahmûdâbâd Şirvan'a bağlı (Şeref Han; «Şirvan») — 1732 yok · KISMEN — Encyclopaedia Iranica 'NĀDER SHAH': Rusya 1720'lerde aldığı toprakların çoğundan çekildi; 'BAKU': Bakü-Derbent Rus işgali 1735 Gence antlaşmasıyla bitti (1732 Reşt kuzey Hazar'ı kapsamaz); Reşt'in il listesi okunmadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Reşt 1732-01-21 güney Hazar (Gilan-Mazenderan); Bakü-Derbent 1735 Gence
 
 ### K684 · abd · 1874-01-01 → 1923-10-29 · 1.422 km²
 

@@ -8,7 +8,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-d 2, YAPAY-m 13. Güven: KAYNAK-GEREK 21, KAYNAKLI 18, OLCUM 19.
+Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-d 2, YAPAY-m 13. Güven: KAYNAK-GEREK 19, KAYNAKLI 20, OLCUM 19.
 
 ## Kara eksklavları
 
@@ -190,7 +190,7 @@ Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Aydos-Samandıra 1328 Osmanlı → 1329-06 (Pelekanon/Maltepe savaşı): Bizans'ın Kocaeli kıyısı ortasında Osmanlı ileri parçası — kısmen.
   - Düzeltme önerisi: Uçlar kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: bulunamadı (model bilgisi) · KISMEN — R. P. Lindner, Cambridge History of Turkey 1, ch.4, s.121: Pelekanon Haziran 1329 (gün yok); Aydos/Samandıra 1328 okunmadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Pelekanon Haziran 1329
 
 ### K719 · hollanda · 1632-08-22 → 1673-07-01 · 929 km²
 
@@ -307,10 +307,10 @@ Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-
 - En büyük kesit: 1570-09-09 · komşu: OSMANLI 45%
 - Koridor: 4.4 km · OSMANLI 9/9
 - İçindeki yerleşimler: Girne (Kyrenia) (venedik)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Girne 1570-09-09 (Lefkoşa'nın düşüşü) → 09-17 teslim: Venedik'in kısa kalıntısı, gerçek.
-  - Düzeltme önerisi: Teslim günü kaynakla.
-  - Kaynak: TDV'de Girne maddesi yok — bulunamadı
+  - Düzeltme önerisi: Girne venedik t 1570-09-17 → 1570-09-14 (savaşsız teslim, Hill); Osmanlı kaynaklarındaki daha erken (Temmuz) rivayet Hill'ce reddedilir — ic_not'ta iki rivayet beyanlı.
+  - Kaynak: EMRELİC Cambridge/JSTOR okuması (BO1, PDF kaynak-pdf/lab2) — G. Hill, A History of Cyprus III, ch. XV, s.988: 'on the 14th … gave up the fortress' (Lefkoşa 9 Eylül 1570 düşüşünden sonra)
 
 ### K731 · ispanya · 1509-05-17 → 1708-04-04 · 809 km²
 
@@ -457,10 +457,10 @@ Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-
 - En büyük kesit: 1917-12-06 · komşu: OSMANLI 61%
 - Koridor: 9.1 km · OSMANLI 9/9
 - İçindeki yerleşimler: Yafa (ingiltere)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Yafa 1917-11-16 İngiliz zaptı → 1917-12-09 Kudüs'ün düşüşüyle gövdeye bağlanma: gerçek ilerleme parçası.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: EMRELİC Cambridge/JSTOR okuması (BO1, PDF kaynak-pdf/lab2) — J. D. Grainger, The Battle for Palestine 1917 (2006), s.173: Yafa'ya 16 Kasım 1917 sabahı Yeni Zelanda birlikleri girdi
 
 ### K746 · habsburg · 1815-06-09 → 1918-11-11 · 711 km²
 

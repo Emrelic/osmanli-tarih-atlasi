@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K701-K758, EMRELİC'in istediği son aralık; ölçümde yabancı-kara aday toplamı 858 — K759-K858 işlenmedi). Sözlük ENKLAV-1103/hukumler.json ile aynı; kaynak hükümle birlikte arandı. KAYNAK5 (LAB SALI): 2 hüküm kaynak_toplu.py ile güncellendi.",
+"_aciklama": "ENKLAV-1104 hükümleri (K701-K758, EMRELİC'in istediği son aralık; ölçümde yabancı-kara aday toplamı 858 — K759-K858 işlenmedi). Sözlük ENKLAV-1103/hukumler.json ile aynı; kaynak hükümle birlikte arandı. KAYNAK5 (LAB SALI): 4 hüküm kaynak_toplu.py ile güncellendi.",
 "K701": {
 "hukum": "BIRLESMELI",
 "kova": "BIRLESMELI",
@@ -142,7 +142,8 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Aydos-Samandıra 1328 Osmanlı → 1329-06 (Pelekanon/Maltepe savaşı): Bizans'ın Kocaeli kıyısı ortasında Osmanlı ileri parçası — kısmen.",
 "duzeltme": "Uçlar kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "bulunamadı (model bilgisi) · KISMEN — R. P. Lindner, Cambridge History of Turkey 1, ch.4, s.121: Pelekanon Haziran 1329 (gün yok); Aydos/Samandıra 1328 okunmadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Pelekanon Haziran 1329",
+"aday_tarih": "Pelekanon Haziran 1329"
 },
 "K719": {
 "hukum": "GERCEK",
@@ -236,10 +237,10 @@
 "K730": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Girne 1570-09-09 (Lefkoşa'nın düşüşü) → 09-17 teslim: Venedik'in kısa kalıntısı, gerçek.",
-"duzeltme": "Teslim günü kaynakla.",
-"kaynak": "TDV'de Girne maddesi yok — bulunamadı"
+"duzeltme": "Girne venedik t 1570-09-17 → 1570-09-14 (savaşsız teslim, Hill); Osmanlı kaynaklarındaki daha erken (Temmuz) rivayet Hill'ce reddedilir — ic_not'ta iki rivayet beyanlı.",
+"kaynak": "EMRELİC Cambridge/JSTOR okuması (BO1, PDF kaynak-pdf/lab2) — G. Hill, A History of Cyprus III, ch. XV, s.988: 'on the 14th … gave up the fortress' (Lefkoşa 9 Eylül 1570 düşüşünden sonra)"
 },
 "K731": {
 "hukum": "GERCEK",
@@ -356,10 +357,10 @@
 "K745": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Yafa 1917-11-16 İngiliz zaptı → 1917-12-09 Kudüs'ün düşüşüyle gövdeye bağlanma: gerçek ilerleme parçası.",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "EMRELİC Cambridge/JSTOR okuması (BO1, PDF kaynak-pdf/lab2) — J. D. Grainger, The Battle for Palestine 1917 (2006), s.173: Yafa'ya 16 Kasım 1917 sabahı Yeni Zelanda birlikleri girdi"
 },
 "K746": {
 "hukum": "YAPAY",
