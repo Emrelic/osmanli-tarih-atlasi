@@ -1,0 +1,1311 @@
+{
+ "El-Arîş": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:186",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere, 18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 853] ÜLKE DÜZEYİ. f 1914-12-18 himaye; Hüseyin Kâmil'in sultan ilanı 19 Aralık (ic_not). t 1922-03-15 Fuâd'ın kral unvanı (aynı TDV maddesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:186",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 854] ÜLKE DÜZEYİ. t: aynı madde «18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi». 28 Şubat 1922 İngiliz bağımsızlık bildirisi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:186",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-01-11",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Selim I», https://islamansiklopedisi.org.tr/selim-i ; TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "9 Ocak’ta Gazze’den ayrılan Yavuz Sultan Selim 11 Ocak’ta Arîş mevkiine ulaştı",
+   "oneri": {},
+   "not": "[sira 855] f: Osmanlı ordusunun Arîş'e varışı (TDV «Selim I»); t 1805-07-03 TDV «Kavalalı Mehmed Ali Paşa». ic_not: TDV «Arîş» kaleyi 1560'ta Kanûnî'nin yaptırdığını yazar. isg fransa 1799-02-18 → 1799-12-28 katmanı zaten var (TDV «Arîş» 18 Şubat 1799)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:186",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "[sira 856] ÜLKE DÜZEYİ. t: TDV «Mısır» «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı». 1841-05-24 irsî valilik fermanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:186",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Arîş», https://islamansiklopedisi.org.tr/aris ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Şehir, 20 Aralık 1916’da Filistin’e doğru yola çıkan İtilâf kuvvetlerinin eline geçti",
+   "oneri": {
+    "f": "1916-12-20",
+    "t": "1922-02-28"
+   },
+   "not": "[sira 857] Bölünmeli: (a) 1914-12-18 → 1916-12-20 Arîş Osmanlı askerinin elinde (TDV «Arîş»: 'oraya bir sahil muhafaza müfrezesi gönderilmiştir') → `isg osmanli` önerilir, Osmanlı'nın giriş günü kaynakta yok (ÖLÇÜT: geçici/askerî — savaş ileri karakolu). (b) isg ingiltere 1916-12-20'den; t 1922-02-28 (TDV «Mısır» İngiliz bağımsızlık bildirisi; 1923-10-29 kaynaksız)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:186",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "13 Eylül 1882’de ... Tellülkebîr’de çarpışmalar meydana geldi ve İngiltere Mısır’ı fiilen işgal etti",
+   "oneri": {},
+   "not": "[sira 858] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — İngiltere 'Osmanlı Devleti’nin hükümranlık haklarının bâki olduğunu belirtmiş' (TDV «Mısır»). t 1914-12-18 himaye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:186",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "1 Şubat 1958’de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti",
+   "oneri": {},
+   "not": "[sira 859] ÜLKE DÜZEYİ, f YIL düzeyinde: TDV birleşmeyi 1 Şubat, Nâsır'ı seçen referandumu 21 Şubat 1958 verir; 02-22 (künye f) bu maddede yok. t 1971-09-11 aynı madde. EK ÖNERİ: TDV «Arîş» «1967 yılında Sînâ’nın İsrail tarafından işgal edilmesinden sonra bir süre İsrail idaresinde kalan Arîş» → `isg israil-devleti` 1967-06 → iade (TDV yalnız 'Eylül 1978 Camp David' der; teslim günü kaynakla bulunmalı). 1956-57 Süveyş işgali okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:186",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir ; TDV İslâm Ansiklopedisi, «Arîş», https://islamansiklopedisi.org.tr/aris",
+   "alinti": "Camp David Antlaşması’yla Mısır’a iade edildi",
+   "oneri": {
+    "not": "isg israil-devleti 1967-06 → Arîş'in teslim günü katmanı eklenmeli"
+   },
+   "not": "[sira 860] s: misir-arap-cumhuriyeti KAYNAKLI (TDV «Mısır» 11 Eylül 1971). Ancak katman eksik: TDV «Arîş» 1967 İsrail işgali ve Eylül 1978 Camp David ile iade. ÖLÇÜT: geçici/askerî (Mısır iddiası sürdü). İade günü kaynakta yok — Camp David 1978-09-17 imza ic_not; fiilî teslim günü ayrı kaynakla (TARAYICI: BM/antlaşma metni)."
+  }
+ ],
+ "Atfîh": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere, 18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 861] ÜLKE DÜZEYİ. f 1914-12-18 himaye; Hüseyin Kâmil'in sultan ilanı 19 Aralık (ic_not). t 1922-03-15 Fuâd'ın kral unvanı (aynı TDV maddesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 862] ÜLKE DÜZEYİ. t: aynı madde «18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi». 28 Şubat 1922 İngiliz bağımsızlık bildirisi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 863] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir ; TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 864] ÜLKE DÜZEYİ. f: Tomanbay'ın idamı, TDV «Mısır»; t: TDV «Kavalalı Mehmed Ali Paşa» «Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)». ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, kadı ve defterdar tayini (TDV «Mısır»). TDV «Kâşiflik»: Atfîhiye Memlük ve Osmanlı Mısır'ında kâşiflik bölgesi (TAHRİR: idarî birim)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "[sira 865] ÜLKE DÜZEYİ. t: TDV «Mısır» «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı». 1841-05-24 irsî valilik fermanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere 28 Şubat 1922’de tek taraflı olarak Mısır’ı bağımsız devlet ilân etti",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 866] ÜLKE DÜZEYİ. f 1914-12-18 KAYNAKLI (himaye). t 1923-10-29 hiçbir okunan kaynakta yok: İngiliz himayesi 28 Şubat 1922 bildirisiyle biter; sonrası dört çekinceli şeklî bağımsızlık (ic_not). Lozan md. 17 (1923-07-24) Türkiye'nin Mısır'dan feragati ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1798-10-07",
+   "t": "1801-06-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 867] DIGER (napoleon.org Chronologie, komşu günü). Sınanmadı — bütçe Mısır ülke düzeyi dönemlere harcandı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "13 Eylül 1882’de ... Tellülkebîr’de çarpışmalar meydana geldi ve İngiltere Mısır’ı fiilen işgal etti",
+   "oneri": {},
+   "not": "[sira 868] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — İngiltere 'Osmanlı Devleti’nin hükümranlık haklarının bâki olduğunu belirtmiş' (TDV «Mısır»). t 1914-12-18 himaye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "1 Şubat 1958’de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti",
+   "oneri": {},
+   "not": "[sira 869] ÜLKE DÜZEYİ, f YIL düzeyinde: TDV birleşmeyi 1 Şubat, Nâsır'ı seçen referandumu 21 Şubat 1958 verir; 02-22 (künye f) bu maddede yok. t 1971-09-11 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:211",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 870] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Mellevî": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere, 18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 871] ÜLKE DÜZEYİ. f 1914-12-18 himaye; Hüseyin Kâmil'in sultan ilanı 19 Aralık (ic_not). t 1922-03-15 Fuâd'ın kral unvanı (aynı TDV maddesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 872] ÜLKE DÜZEYİ. t: aynı madde «18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi». 28 Şubat 1922 İngiliz bağımsızlık bildirisi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 873] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir ; TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 874] ÜLKE DÜZEYİ. f: Tomanbay'ın idamı, TDV «Mısır»; t: TDV «Kavalalı Mehmed Ali Paşa» «Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)». ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, kadı ve defterdar tayini (TDV «Mısır»). EK: zincirde isg fransa-cumhuriyet (Desaix'in Yukarı Mısır seferi 1798-1801) YOK; komşu Atfîh/Kına/Edfû'de var. Yerleşime özgü gün okunmadı — ONERI listesine aday."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "[sira 875] ÜLKE DÜZEYİ. t: TDV «Mısır» «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı». 1841-05-24 irsî valilik fermanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere 28 Şubat 1922’de tek taraflı olarak Mısır’ı bağımsız devlet ilân etti",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 876] ÜLKE DÜZEYİ. f 1914-12-18 KAYNAKLI (himaye). t 1923-10-29 hiçbir okunan kaynakta yok: İngiliz himayesi 28 Şubat 1922 bildirisiyle biter; sonrası dört çekinceli şeklî bağımsızlık (ic_not). Lozan md. 17 (1923-07-24) Türkiye'nin Mısır'dan feragati ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "13 Eylül 1882’de ... Tellülkebîr’de çarpışmalar meydana geldi ve İngiltere Mısır’ı fiilen işgal etti",
+   "oneri": {},
+   "not": "[sira 877] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — İngiltere 'Osmanlı Devleti’nin hükümranlık haklarının bâki olduğunu belirtmiş' (TDV «Mısır»). t 1914-12-18 himaye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "1 Şubat 1958’de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti",
+   "oneri": {},
+   "not": "[sira 878] ÜLKE DÜZEYİ, f YIL düzeyinde: TDV birleşmeyi 1 Şubat, Nâsır'ı seçen referandumu 21 Şubat 1958 verir; 02-22 (künye f) bu maddede yok. t 1971-09-11 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:238",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 879] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Ahmîm": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere, 18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 880] ÜLKE DÜZEYİ. f 1914-12-18 himaye; Hüseyin Kâmil'in sultan ilanı 19 Aralık (ic_not). t 1922-03-15 Fuâd'ın kral unvanı (aynı TDV maddesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 881] ÜLKE DÜZEYİ. t: aynı madde «18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi». 28 Şubat 1922 İngiliz bağımsızlık bildirisi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 882] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir ; TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 883] ÜLKE DÜZEYİ. f: Tomanbay'ın idamı, TDV «Mısır»; t: TDV «Kavalalı Mehmed Ali Paşa» «Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)». ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, kadı ve defterdar tayini (TDV «Mısır»). EK: zincirde isg fransa-cumhuriyet (Desaix'in Yukarı Mısır seferi 1798-1801) YOK; komşu Atfîh/Kına/Edfû'de var. Yerleşime özgü gün okunmadı — ONERI listesine aday."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "[sira 884] ÜLKE DÜZEYİ. t: TDV «Mısır» «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı». 1841-05-24 irsî valilik fermanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere 28 Şubat 1922’de tek taraflı olarak Mısır’ı bağımsız devlet ilân etti",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 885] ÜLKE DÜZEYİ. f 1914-12-18 KAYNAKLI (himaye). t 1923-10-29 hiçbir okunan kaynakta yok: İngiliz himayesi 28 Şubat 1922 bildirisiyle biter; sonrası dört çekinceli şeklî bağımsızlık (ic_not). Lozan md. 17 (1923-07-24) Türkiye'nin Mısır'dan feragati ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "13 Eylül 1882’de ... Tellülkebîr’de çarpışmalar meydana geldi ve İngiltere Mısır’ı fiilen işgal etti",
+   "oneri": {},
+   "not": "[sira 886] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — İngiltere 'Osmanlı Devleti’nin hükümranlık haklarının bâki olduğunu belirtmiş' (TDV «Mısır»). t 1914-12-18 himaye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "1 Şubat 1958’de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti",
+   "oneri": {},
+   "not": "[sira 887] ÜLKE DÜZEYİ, f YIL düzeyinde: TDV birleşmeyi 1 Şubat, Nâsır'ı seçen referandumu 21 Şubat 1958 verir; 02-22 (künye f) bu maddede yok. t 1971-09-11 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:253",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 888] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Kına": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere, 18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 889] ÜLKE DÜZEYİ. f 1914-12-18 himaye; Hüseyin Kâmil'in sultan ilanı 19 Aralık (ic_not). t 1922-03-15 Fuâd'ın kral unvanı (aynı TDV maddesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 890] ÜLKE DÜZEYİ. t: aynı madde «18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi». 28 Şubat 1922 İngiliz bağımsızlık bildirisi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 891] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir ; TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 892] ÜLKE DÜZEYİ. f: Tomanbay'ın idamı, TDV «Mısır»; t: TDV «Kavalalı Mehmed Ali Paşa» «Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)». ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, kadı ve defterdar tayini (TDV «Mısır»)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "[sira 893] ÜLKE DÜZEYİ. t: TDV «Mısır» «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı». 1841-05-24 irsî valilik fermanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere 28 Şubat 1922’de tek taraflı olarak Mısır’ı bağımsız devlet ilân etti",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 894] ÜLKE DÜZEYİ. f 1914-12-18 KAYNAKLI (himaye). t 1923-10-29 hiçbir okunan kaynakta yok: İngiliz himayesi 28 Şubat 1922 bildirisiyle biter; sonrası dört çekinceli şeklî bağımsızlık (ic_not). Lozan md. 17 (1923-07-24) Türkiye'nin Mısır'dan feragati ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1799-01-22",
+   "t": "1801-06-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 895] DIGER (napoleon.org Chronologie, komşu günü). Sınanmadı — bütçe Mısır ülke düzeyi dönemlere harcandı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "13 Eylül 1882’de ... Tellülkebîr’de çarpışmalar meydana geldi ve İngiltere Mısır’ı fiilen işgal etti",
+   "oneri": {},
+   "not": "[sira 896] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — İngiltere 'Osmanlı Devleti’nin hükümranlık haklarının bâki olduğunu belirtmiş' (TDV «Mısır»). t 1914-12-18 himaye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "1 Şubat 1958’de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti",
+   "oneri": {},
+   "not": "[sira 897] ÜLKE DÜZEYİ, f YIL düzeyinde: TDV birleşmeyi 1 Şubat, Nâsır'ı seçen referandumu 21 Şubat 1958 verir; 02-22 (künye f) bu maddede yok. t 1971-09-11 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:270",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 898] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Edfû": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere, 18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı",
+   "oneri": {},
+   "not": "[sira 899] ÜLKE DÜZEYİ. f 1914-12-18 himaye; Hüseyin Kâmil'in sultan ilanı 19 Aralık (ic_not). t 1922-03-15 Fuâd'ın kral unvanı (aynı TDV maddesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Sultan Ahmed Fuâd 15 Mart 1922’de kral (melik) unvanını aldı ve Mısır’da monarşi ilân edildi",
+   "oneri": {},
+   "not": "[sira 900] ÜLKE DÜZEYİ. t: aynı madde «18 Haziran 1953’te monarşi kaldırılıp yerine cumhuriyet ilân edildi». 28 Şubat 1922 İngiliz bağımsızlık bildirisi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 901] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir ; TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa",
+   "alinti": "Memlük Devleti’ne son verildi (21 Rebîülevvel 923 / 13 Nisan 1517)",
+   "oneri": {},
+   "not": "[sira 902] ÜLKE DÜZEYİ. f: Tomanbay'ın idamı, TDV «Mısır»; t: TDV «Kavalalı Mehmed Ali Paşa» «Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)». ÖLÇÜT: idareye katma — Mısır beylerbeyiliği, kadı ve defterdar tayini (TDV «Mısır»)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "[sira 903] ÜLKE DÜZEYİ. t: TDV «Mısır» «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı». 1841-05-24 irsî valilik fermanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "İngiltere 28 Şubat 1922’de tek taraflı olarak Mısır’ı bağımsız devlet ilân etti",
+   "oneri": {
+    "t": "1922-02-28"
+   },
+   "not": "[sira 904] ÜLKE DÜZEYİ. f 1914-12-18 KAYNAKLI (himaye). t 1923-10-29 hiçbir okunan kaynakta yok: İngiliz himayesi 28 Şubat 1922 bildirisiyle biter; sonrası dört çekinceli şeklî bağımsızlık (ic_not). Lozan md. 17 (1923-07-24) Türkiye'nin Mısır'dan feragati ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1799-02-01",
+   "t": "1801-06-27",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 905] DIGER (napoleon.org Chronologie, komşu günü). Sınanmadı — bütçe Mısır ülke düzeyi dönemlere harcandı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "13 Eylül 1882’de ... Tellülkebîr’de çarpışmalar meydana geldi ve İngiltere Mısır’ı fiilen işgal etti",
+   "oneri": {},
+   "not": "[sira 906] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — İngiltere 'Osmanlı Devleti’nin hükümranlık haklarının bâki olduğunu belirtmiş' (TDV «Mısır»). t 1914-12-18 himaye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "1 Şubat 1958’de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti",
+   "oneri": {},
+   "not": "[sira 907] ÜLKE DÜZEYİ, f YIL düzeyinde: TDV birleşmeyi 1 Şubat, Nâsır'ı seçen referandumu 21 Şubat 1958 verir; 02-22 (künye f) bu maddede yok. t 1971-09-11 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:290",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 908] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Tûr (Sînâ)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:327",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-01-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 909] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:327",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kavalalı Mehmed Ali Paşa», https://islamansiklopedisi.org.tr/kavalali-mehmed-ali-pasa ; TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Bâbıâli tarafından valiliğe getirildi (3 Temmuz 1805)",
+   "oneri": {},
+   "not": "[sira 910] ÜLKE DÜZEYİ. t: TDV «Mısır» «18 Aralık 1914’te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır’ı himayesine aldı». 1841-05-24 irsî valilik fermanı ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:327",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1882-09-13",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "13 Eylül 1882’de ... Tellülkebîr’de çarpışmalar meydana geldi ve İngiltere Mısır’ı fiilen işgal etti",
+   "oneri": {},
+   "not": "[sira 911] ÜLKE DÜZEYİ. ÖLÇÜT: geçici/askerî — İngiltere 'Osmanlı Devleti’nin hükümranlık haklarının bâki olduğunu belirtmiş' (TDV «Mısır»). t 1914-12-18 himaye."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:327",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "1 Şubat 1958’de Mısır ve Suriye Birleşik Arap Cumhuriyeti adı altında birleşti",
+   "oneri": {},
+   "not": "[sira 912] ÜLKE DÜZEYİ, f YIL düzeyinde: TDV birleşmeyi 1 Şubat, Nâsır'ı seçen referandumu 21 Şubat 1958 verir; 02-22 (künye f) bu maddede yok. t 1971-09-11 aynı madde. İPUCU: Sînâ 1956-57 ve 1967 sonrası İsrail işgali Tûr'a özgü kaynakla okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:327",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Mısır» (II. Tarih; c. 29, 2004), https://islamansiklopedisi.org.tr/misir",
+   "alinti": "11 Eylül 1971’deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "[sira 913] ÜLKE DÜZEYİ. İPUCU: Tûr'un 1967 → 1979/82 İsrail işgali katmanı yok; Tûr'a özgü kaynak okunmadı (Arîş için TDV «Arîş» var)."
+  }
+ ],
+ "Tabarka": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:366",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1544-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 914] [KÜME K30] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:366",
+   "alan": "s",
+   "d": "cenova",
+   "f": "1544-01-01",
+   "t": "1741-06-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, «Tabarca», https://www.treccani.it/enciclopedia/tabarca/",
+   "alinti": "Nel 1741 fu presa dal bey di Tunisi che ne fece schiavi gli abitanti",
+   "oneri": {},
+   "not": "[sira 915] t YIL teyitli (Treccani 1741; TDV «Hüseynîler» de 1741 — atlas kaydı). f 1544 bulunamadı: Treccani yalnız 'alla metà del 15° sec. entrò nell’orbita dell’economia genovese' der (iktisadî, egemenlik değil). TDV'de «Tabarka/Teberke» maddesi yok. Arama özetleri (akademik değil) 1540/1542/1544 arasında çelişiyor ve adayı Cenova devletine değil Lomellini ailesine, İspanya/Tunus imtiyazıyla bağlıyor — sahip kimliği (cenova) da sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:366",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tunus», https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak bu eyaleti kendi himayelerine aldıklarını",
+   "oneri": {
+    "t": "1956-01-01"
+   },
+   "not": "[sira 916] f 1881-05-12 KAYNAKLI (Bardo). Ham işgal: TDV 'Mart ayında buraya asker sevkettiler' — Tabarka'ya özgü giriş günü kaynakta yok (ic_not). t 1923-10-29 kaynaksız: TDV «Fransızlar 1881-1956 yıllarında Tunus’a yirmi bir genel vali tayin ettiler» — himaye 1956'ya dek sürer; bağımsızlık günü (1956-03-20, İPUCU) kaynakla okunmalı, öneri YIL. Zincirin tamamı (kd, v) 1923-10-29'da bitiyor: 1923 sonrası Tabarka'nın s: dönemi yok — ayrı ölçülmeli."
+  }
+ ],
+ "Zuvâre": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:456",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1551-08-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 917] [KÜME K30] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:456",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp ; TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli",
+   "alinti": "Osmanlı donanması şehri ele geçirdi (12 Şâban 958/15 Ağustos 1551)",
+   "oneri": {},
+   "not": "[sira 918] ÜLKE DÜZEYİ / ABİ MERKEZ Trablus. t: TDV «Karamanlı» «Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:456",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli ; TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Bunlar 27 Mayıs’ta Trablusgarp’ta karaya çıktılar. Ertesi gün Ali Bey’le birlikte ... tutuklandı",
+   "oneri": {
+    "f": "1835-05-28"
+   },
+   "not": "[sira 919] ÜLKE DÜZEYİ. 1835-05-26 kaynakta yok: Necib Paşa kuvvetleri 27 Mayıs karaya çıktı, ertesi gün (28 Mayıs) Karamanlı Ali Bey tutuklandı, ardından vali fermanı ilân edildi. Öneri 1835-05-28 (fiilî devir); 27 Mayıs çıkarma ic_not. t 1912-10-18 (Uşi) bu turda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:456",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli",
+   "alinti": "Bunlar 27 Mayıs’ta Trablusgarp’ta karaya çıktılar. Ertesi gün Ali Bey’le birlikte ... tutuklandı",
+   "oneri": {
+    "t": "1835-05-28"
+   },
+   "not": "[sira 920] f 1711-07-29 KAYNAKLI (TDV «Karamanlı»: 'Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)'). t: bkz. d: 1835 satırı, 05-26 → 05-28."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:456",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Barış antlaşmaları imzalanıncaya kadar Trablus ve Bingazi İngiliz, Fizan Fransız askerî idaresine bırakıldı",
+   "oneri": {},
+   "not": "[sira 921] ÜLKE DÜZEYİ, f YIL (TDV '1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca'); 23 Ocak 1943 (Trablus'a giriş) bu maddede yok — gün teyitsiz. t 1951-12-24 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:456",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "[sira 922] ÜLKE DÜZEYİ. t: '1 Eylül 1969’da ... yapılan darbe ile krallık yıkıldı' (aynı madde)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:456",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "[sira 923] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Garyân": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:469",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1551-08-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 924] [KÜME K30] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:469",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp ; TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli",
+   "alinti": "Osmanlı donanması şehri ele geçirdi (12 Şâban 958/15 Ağustos 1551)",
+   "oneri": {},
+   "not": "[sira 925] ÜLKE DÜZEYİ / ABİ MERKEZ Trablus. t: TDV «Karamanlı» «Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)». İç bölge: TDV «Trablusgarp» kabileleri ancak Turgut Reis'in (1556-65) devlete tâbi kıldığını yazar; Cebel/iç bölgede fiilî idarenin gecikmesi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:469",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli ; TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Bunlar 27 Mayıs’ta Trablusgarp’ta karaya çıktılar. Ertesi gün Ali Bey’le birlikte ... tutuklandı",
+   "oneri": {
+    "f": "1835-05-28"
+   },
+   "not": "[sira 926] ÜLKE DÜZEYİ. 1835-05-26 kaynakta yok: Necib Paşa kuvvetleri 27 Mayıs karaya çıktı, ertesi gün (28 Mayıs) Karamanlı Ali Bey tutuklandı, ardından vali fermanı ilân edildi. Öneri 1835-05-28 (fiilî devir); 27 Mayıs çıkarma ic_not. t 1912-10-18 (Uşi) bu turda okunmadı. İPUCU: iç bölgede Gûma el-Mahmûdî ayaklanması (1858'e dek) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:469",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli",
+   "alinti": "Bunlar 27 Mayıs’ta Trablusgarp’ta karaya çıktılar. Ertesi gün Ali Bey’le birlikte ... tutuklandı",
+   "oneri": {
+    "t": "1835-05-28"
+   },
+   "not": "[sira 927] f 1711-07-29 KAYNAKLI (TDV «Karamanlı»: 'Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)'). t: bkz. d: 1835 satırı, 05-26 → 05-28."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:469",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Barış antlaşmaları imzalanıncaya kadar Trablus ve Bingazi İngiliz, Fizan Fransız askerî idaresine bırakıldı",
+   "oneri": {},
+   "not": "[sira 928] ÜLKE DÜZEYİ, f YIL (TDV '1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca'); 23 Ocak 1943 (Trablus'a giriş) bu maddede yok — gün teyitsiz. t 1951-12-24 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:469",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "[sira 929] ÜLKE DÜZEYİ. t: '1 Eylül 1969’da ... yapılan darbe ile krallık yıkıldı' (aynı madde)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:469",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "[sira 930] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Benî Velîd": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:486",
+   "alan": "s",
+   "d": "hafsi",
+   "f": "1281-01-01",
+   "t": "1551-08-15",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 931] [KÜME K30] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:486",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp ; TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli",
+   "alinti": "Osmanlı donanması şehri ele geçirdi (12 Şâban 958/15 Ağustos 1551)",
+   "oneri": {},
+   "not": "[sira 932] ÜLKE DÜZEYİ / ABİ MERKEZ Trablus. t: TDV «Karamanlı» «Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)». İç bölge: TDV «Trablusgarp» kabileleri ancak Turgut Reis'in (1556-65) devlete tâbi kıldığını yazar; Cebel/iç bölgede fiilî idarenin gecikmesi ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:486",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli ; TDV İslâm Ansiklopedisi, «Trablusgarp», https://islamansiklopedisi.org.tr/trablusgarp",
+   "alinti": "Bunlar 27 Mayıs’ta Trablusgarp’ta karaya çıktılar. Ertesi gün Ali Bey’le birlikte ... tutuklandı",
+   "oneri": {
+    "f": "1835-05-28"
+   },
+   "not": "[sira 933] ÜLKE DÜZEYİ. 1835-05-26 kaynakta yok: Necib Paşa kuvvetleri 27 Mayıs karaya çıktı, ertesi gün (28 Mayıs) Karamanlı Ali Bey tutuklandı, ardından vali fermanı ilân edildi. Öneri 1835-05-28 (fiilî devir); 27 Mayıs çıkarma ic_not. t 1912-10-18 (Uşi) bu turda okunmadı. İPUCU: iç bölgede Gûma el-Mahmûdî ayaklanması (1858'e dek) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:486",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Karamanlı», https://islamansiklopedisi.org.tr/karamanli",
+   "alinti": "Bunlar 27 Mayıs’ta Trablusgarp’ta karaya çıktılar. Ertesi gün Ali Bey’le birlikte ... tutuklandı",
+   "oneri": {
+    "t": "1835-05-28"
+   },
+   "not": "[sira 934] f 1711-07-29 KAYNAKLI (TDV «Karamanlı»: 'Trablusgarp eyaletinin idaresini ele geçirdi (29 Temmuz 1711)'). t: bkz. d: 1835 satırı, 05-26 → 05-28."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:486",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Barış antlaşmaları imzalanıncaya kadar Trablus ve Bingazi İngiliz, Fizan Fransız askerî idaresine bırakıldı",
+   "oneri": {},
+   "not": "[sira 935] ÜLKE DÜZEYİ, f YIL (TDV '1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca'); 23 Ocak 1943 (Trablus'a giriş) bu maddede yok — gün teyitsiz. t 1951-12-24 aynı madde."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:486",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "[sira 936] ÜLKE DÜZEYİ. t: '1 Eylül 1969’da ... yapılan darbe ile krallık yıkıldı' (aynı madde)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:486",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Libya», https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "[sira 937] ÜLKE DÜZEYİ."
+  }
+ ],
+ "Tenes": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:571",
+   "alan": "s",
+   "d": "abdulkadir",
+   "f": "1832-11-22",
+   "t": "1843-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Abdülkādir el-Cezâirî», https://islamansiklopedisi.org.tr/abdulkadir-el-cezairi ; TDV İslâm Ansiklopedisi, «Tenes», https://islamansiklopedisi.org.tr/tenes",
+   "alinti": "Abdülkādir, Fas sultanının hükümdarlık hakkını tanıyarak, 22 Kasım 1832’de “emîrü’l-mü’minîn” unvanını aldı",
+   "oneri": {},
+   "not": "[sira 938] f REJİM DÜZEYİ (Tenes'in emirliğe girdiği gün kaynakta yok; nüfuz 'Batı ve Orta Cezayir’e kadar' yayıldı, Tâfnâ 1837-05-30 ic_not). t YIL: TDV «Tenes» 'Tenes 1843 yılında Fransa tarafından işgal edildi'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:571",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tenes», https://islamansiklopedisi.org.tr/tenes",
+   "alinti": "Tenes şehri 1517’de Oruç Reis tarafından Osmanlı Devleti hâkimiyetine alındı",
+   "oneri": {
+    "f": "1289-01-25",
+    "t": "1517-01-01"
+   },
+   "not": "[sira 939] t: TDV «Tenes» 1517 (YIL). f: aynı madde '688’de (1289) Abdülvâdîler’in (Zeyyânîler) egemenliğine girdi' — hicrî 688 = 1289-01-25 → 1290-01-13, mîlâdî 1289 ∩ = ilk gün 1289-01-25. 1281-1289 öncesi TDV'ye göre Muvahhid hâkimiyeti (Muvahhidler 1269'da biter — hayalet; sahip bulunamadı, BEYANLI). TDV ayrıca 1450'lerden sonra bölgede mahallî emirlikler olduğunu yazar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:571",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tenes», https://islamansiklopedisi.org.tr/tenes ; TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Tenes şehri 1517’de Oruç Reis tarafından Osmanlı Devleti hâkimiyetine alındı",
+   "oneri": {
+    "f": "1517-01-01"
+   },
+   "not": "[sira 940] ÇİFT-TDV: TDV «Cezayir» Hızır Reis'in Ekim 1519 arîzasıyla Selim'e bağlandığını yazar (Cezayir geneli); yerin kendi maddesi TDV «Tenes» 1517 esas, Ekim 1519 ic_not. 1519-09-01 iki maddede de yok. t 1671 KAYNAKLI (TDV «Cezayir»: 'dayılar devri (1671-1830)')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:571",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "[sira 941] ÜLKE DÜZEYİ, f YIL. t: aynı madde '5 Temmuz 1830 günü Cezayir şehrini işgal ettiler'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:571",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1830-07-05",
+   "t": "1832-11-22",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "Osmanlı hükümeti işgali protesto etmekle yetindi",
+   "oneri": {
+    "d": "v: kaldırılmalı — BEYANLI boşluk ya da kaynaklı yerel sahip"
+   },
+   "not": "[sira 942] ÖLÇÜT (TAHRİR): 1830-07-05 sonrası Osmanlı'nın Tenes'te idaresi yok; TDV yalnız protesto der, 1847'de işgali tanıdı. 'hükümranlık iddiası' v: olarak boyanamaz. Tenes'in 1830-32 fiilî sahibi kaynakta bulunamadı (TDV «Tenes», «Cezayir»)."
+  }
+ ],
+ "Ayn Temûşent": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:596",
+   "alan": "s",
+   "d": "abdulkadir",
+   "f": "1832-11-22",
+   "t": "1844-03-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Abdülkādir el-Cezâirî», https://islamansiklopedisi.org.tr/abdulkadir-el-cezairi",
+   "alinti": "22 Kasım 1832’de “emîrü’l-mü’minîn” unvanını aldı",
+   "oneri": {},
+   "not": "[sira 943] f REJİM DÜZEYİ teyitli. t 1844-03-04 bulunamadı: TDV «Abdülkādir» yalnız Tagdempt, Muasker, Tilimsân işgallerini ve 16 Mayıs 1843 ordugâh baskınını verir; Ayn Temûşent'e özgü gün yok. TDV'de yer maddesi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:596",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1552-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tilimsân», https://islamansiklopedisi.org.tr/tilimsan",
+   "alinti": "960’ta (1553) ... Tilimsân şehri Sâlih Reis kumandasındaki Osmanlı ordusu tarafından kesin biçimde ele geçirildi",
+   "oneri": {
+    "t": "1553-01-01"
+   },
+   "not": "[sira 944] ABİ MERKEZ: Tilimsân — TDV «Tilimsân» (Zeyyânî başkenti; 'üç asırdan fazla süren Zeyyânî hâkimiyeti sona ermiş oldu'). Hicrî 960 = 1552-12-18 → 1553-12-07, kaynak mîlâdî 1553 ⇒ kesişimin ilk günü 1553-01-01. BEYANLI YAKLAŞIKLIK. İPUCU: Ayn Temûşent Vehrân'a (İspanyol 1509-1708, 1732-92) yakın — İspanyol etki alanı sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:596",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1552-01-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tilimsân», https://islamansiklopedisi.org.tr/tilimsan ; TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "960’ta (1553) ... Tilimsân şehri ... kesin biçimde ele geçirildi",
+   "oneri": {
+    "f": "1553-01-01"
+   },
+   "not": "[sira 945] ABİ MERKEZ Tilimsân, f bkz. önceki satır. t 1671 KAYNAKLI (TDV «Cezayir» dayılar devri)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:596",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "[sira 946] ÜLKE DÜZEYİ, f YIL; t '5 Temmuz 1830 günü Cezayir şehrini işgal ettiler'. İPUCU: Vehrân'ın İspanyol dönemleri (1732-92) komşu etkisi sınanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:596",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1830-07-05",
+   "t": "1832-11-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tilimsân», https://islamansiklopedisi.org.tr/tilimsan",
+   "alinti": "Osmanlılar’ın Tilimsân’daki idaresi zaman zaman kesintiye uğramakla birlikte 1833 yılına kadar devam etti",
+   "oneri": {},
+   "not": "[sira 947] ABİ MERKEZ Tilimsân: Tilimsân'da Osmanlı (kuloğlu) idaresi 1833'e dek sürdü — Ayn Temûşent'in 1830-32 v: kaydını destekler (BEYANLI YAKLAŞIKLIK). Çelişki: abdulkadir 1832-11-22'den başlıyor, TDV Tilimsân Osmanlı idaresini 1833'e uzatıyor — yıl düzeyinde uyum, ic_not."
+  }
+ ],
+ "Ağvât": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:654",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1382-01-01",
+   "t": "1552-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 948] TDV'de Ağvât/Lagvat maddesi yok (arama: agvat, lagvat boş); TDV «Tilimsân», «Cezayir» Ağvât'ı anmıyor. Zeyyânî hâkimiyetinin Sahra vahasına uzandığına tanık bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:654",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1552-01-01",
+   "t": "1671-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 949] TDV'de Ağvât/Lagvat maddesi yok (arama: agvat, lagvat boş); TDV «Tilimsân», «Cezayir» Ağvât'ı anmıyor. 1552 Osmanlı girişine tanık bulunamadı (Tilimsân 1553 kıyı/Tell için)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:654",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 950] TDV'de Ağvât/Lagvat maddesi yok (arama: agvat, lagvat boş); TDV «Tilimsân», «Cezayir» Ağvât'ı anmıyor. TDV «Cezayir» dayılar devri 1671-1830 ülke düzeyindedir; Ocağın Ağvât'a uzandığı okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:654",
+   "alan": "v",
+   "d": "osmanli",
+   "f": "1830-07-05",
+   "t": "1852-12-04",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 951] TDV'de Ağvât/Lagvat maddesi yok (arama: agvat, lagvat boş); TDV «Tilimsân», «Cezayir» Ağvât'ı anmıyor. 'Sahra vahalarının özerk idaresi' v: ve Fransız girişi 1852-12-04 kaynakta okunmadı. TAHRİR: Osmanlı idaresi yoksa v: düşer."
+  }
+ ],
+ "Akīk": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:684",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1517-04-13",
+   "t": "1557-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Habeş Eyaleti», https://islamansiklopedisi.org.tr/habes-eyaleti",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 952] Habeşistan'ın 1517-57 Akik kıyısına hâkimiyetine tanık yok. TDV «Habeş Eyaleti»: bölgede Func'a bağlı Arap aşiretleri; Sevâkin 1554'ten önce Mısır'a bağlanmış. Sahip kimliği (habesistan) şüpheli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:684",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-02-05",
+   "t": "1899-01-19",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 953] 1885-02-05 Masavva'nın İtalyan işgali günüdür, Akik'e (Sevâkin yakını) uymuyor; Sevâkin kıyısı İngiliz-Mısır idaresindeydi — s: ingiltere yerine v: misir-kavalali + isg ingiltere olabilir. Bu turda Akik'e özgü kaynak okunmadı (TDV Sevâkin maddesi yok — arama sayfası)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:684",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "[sira 954] [KÜME K14] ayrı ajanda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:684",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1557-01-01",
+   "t": "1885-02-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Habeş Eyaleti», https://islamansiklopedisi.org.tr/habes-eyaleti",
+   "alinti": "Masavva‘ ve Sevâkin’in yönetimi 1865’te Mısır Hidivi İsmâil Paşa’ya verildi",
+   "oneri": {
+    "t": "1865-01-01",
+    "not": "1865-01-01 → (1885/1899) v: misir-kavalali eklenmeli"
+   },
+   "not": "[sira 955] f YIL KAYNAKLI: TDV «Habeş Eyaleti» 'Belgelerde Akik ile Arkiko sancaklarının adları da sık sık geçmektedir' (TAHRİR: sancak); Masavva 2 Nisan 1557, Sevâkin sancağı 10 Nisan 1554. ABİ MERKEZ Sevâkin. t: 1865'te Sevâkin/Masavva Mısır'a verildi ⇒ d: 1865'te biter, Kavalalı v: başlar (gün yok, YIL)."
+  }
+ ]
+}
