@@ -779,6 +779,70 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - **KASA kuyruğuna öneri:** 1922-02-28 "himaye sona erdi" maddesinin Değişmez 2 evreninde ayrıca yazılması; şu an yalnız künye kronolojisinde.
   - 1923-10-29 `isg` bitiş kırılması kalkınca o güne bağlı kronoloji ihtiyacı da düşer.
 
+## 32. Cava 1811-16 ve Ternate (EMRELİC, 4 Kasım 2026 gece-13; `karar38`)
+- **Cava (Pasuruan, Surabaya, Rembang):** `isg ingiltere` 1811-09-18 → 1816-08-19.
+  - Başlangıç Janssens'in teslimi (Ricklefs); bitiş fiilî iade.
+  - Gerekçe: savaş fethiydi ve antlaşmayla iade edildi; eski sahibin iddiası sürdü (TAHRİR'in ikinci sınavı).
+  - Alttaki `d:` zinciri:
+    - 1810-07-09'dan `fransa-cumhuriyet` (`devletler.js:904`); Hollanda o tarihte Fransa'ya ilhaklıydı.
+    - Sonra `hollanda` (`devletler.js:1802`): `d:` için 1814-08-13 Londra Konvansiyonu imzası, `s:` için 1816-08-19 teslimi.
+  - **UMIT ölçümü:** `hollanda` künyesi 1581'den kesintisiz sürüyor, 1810-13 Fransız ilhakını da kapsıyor. Künye sorusu LAB'a.
+  - Raffles idaresi `ic_not`'a.
+- **Ternate 1681 sonrası:** karar `s: ternate-sultanligi` + `v: hollanda-dogu-hint`.
+  - VOC künyesi var: `devletler.js:5982`, 1602-03-20 → 1949-12-27.
+  - **UMIT ölçümü:** `ternate-sultanligi` künyesi t=1663-01-01'de bitiyor (`devletler.js:7605`). 1681 sonrası `s:` yazmak hayalet devlet olur.
+  - Aynı polity sürdüğü için künyeyi genişletme sorusu LAB'a gider; o zamana kadar öneri ASKIDA.
+
+## 33. LAB künye paketi ölçümü (LAB SALI, 4 Kasım 2026 gece; kaynak `origin/main` `devletler.js`; kaynak okumaları sonra gelecek)
+- **Ternate (`devletler.js:7605`):**
+  - t 1663-01-01, muhtemelen İspanyol çekilişi.
+  - Polity VOC/Hollanda himayesinde sürdü → GENİŞLET adayı; t ya 1915 (Hollanda doğrudan idaresi) ya da 1949.
+- **Tidore:** künye t 1923-10-29 çıktı → UFUK-1923 artığının künye düzeyindeki karşılığı; o da GENİŞLET adayı.
+  - Tidore `ufuk_1923.json`'da var (`data/yerlesimler_asya.js:4238`).
+- **Hollanda (`devletler.js:1802`):** 1581'den sürüyor ve `batav-cumhuriyeti` (10662, 1795-01-19 → 1810-07-09) ile 1810-13 Fransız ilhakıyla çakışıyor.
+  - LAB önerisi: `hollanda` t → 1795-01-19.
+  - Yeni künye "Hollanda Krallığı", f 1813-11-30 / 12-02 → süren.
+  - 1806-10 Holland Krallığı batav künyesinin içinde kalır.
+- **Fransa (`devletler.js:904`):** `fransa-cumhuriyet` 1792'den süren tek şemsiyedir; ayrı İmparatorluk künyesi yok. Rejim değişimi polity değişimi sayılmaz; Cava'daki 1810 kullanımı tutarlı.
+- **Polonya:** f 1918-11-11 kalır; Lublin 11-07 `ic_not`'a (§30 ile aynı).
+- **Trieste:** `triyeste-serbest-toprak` var (§30 düzeltmesiyle aynı).
+- **Transkafkasya:** f 1917-11-07 (Ekim Devrimi) → 1917-11-28 (Komiserlik, 15 Kasım Jülyen) önerisi; Tiflis satırıyla uyumlu.
+- **Cava `d:` zinciri:** `hollanda` künyesi düzeltilene kadar 1813-11-30'dan sonraki `d: hollanda` yeni "Hollanda Krallığı" künyesine bağlanır (LAB).
+  - **Güncelleme (LAB, 5 Kasım 2026):** yeni künye id'si yok. EMRELİC'in yönlendirmesiyle değişiklik yapılmadı; seçimi Emre yapacak.
+  - Seçenekler `HOLLANDA-SECENEK.md` dosyasında (dal `lab-1104-kunye`, klasör `denetim/KUNYE-1104/`):
+    - A: iki künye; yeni id `hollanda-kralligi`, f 1813-11-30/12-02.
+    - B: tek `hollanda` künyesi; 1810-13 ilhakı yerleşim dönemlerinde gösterilir. LAB önerisi budur.
+    - C: beyan.
+  - B seçilirse Cava zinciri 1813 sonrası da `hollanda` kalır, id değişmez.
+  - **Emre kararı bekleniyor.**
+  - Ternate/Tidore ve Transkafkasya için LAB'ın kaynak okuması başladı.
+
+## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
+- **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
+  - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.
+- **Kesinti:** 4 Kasım gece yarısı haftalık limit b2_01, b2_02, b2_03 ve b2_04'ü yarıda durdurdu.
+  - `kontrol_rb2.py` yarım JSON'ları sınadı: hepsi geçerliydi, bozuk dosya yoktu.
+  - b2_03 tamamdı ve birleştirildi.
+  - Ötekiler aynı ajanlara SendMessage "devam" ile sürdürüldü; yeni ajan açılmadı (EMRELİC talimatı).
+- **Koordinatör düzeltmeleri** (ajan önerisi koordinatör kararıyla çelişti):
+  - Silopi: Musul emsali (EMRELİC gece-4).
+  - Stérna ve Sofulu: Dimetoka emsali, `s: yunanistan` Lozan imzası.
+  - Bolonya: EMRELİC gece-8, `d: papalik` + `isg sardinya`.
+  - Kinmen: ajanın "Qing satırı yok" iddiası yanlış; veride `qing-hanedani` 1680-1912 var.
+  - Kaohsiung: `formosa-cumhuriyeti` künyesi var (`devletler.js:18457`), hayalet devlet riski yok.
+  - Suruç: Antep emsali + ABİ MERKEZ Urfa; `isg fransa` 1920-04-11'de biter.
+  - Kaunas: Vilnius emsali.
+- **LAB'a giden künye soruları** (ajanlardan):
+  - Kırım Ahali Cumhuriyeti (1917-12).
+  - Orta İtalya Birleşik Eyaletleri; EMRELİC künye saymadı, `ic_not`'a.
+  - `liege-piskoposlugu` f 1000 → 985 (ULiège).
+  - Busaidî Maskat/Umman (Hürmüz 1793).
+  - Şeyh için `somali` künyesinin kapsamı.
+- **Bütün turun bilançosu** (ölçüm, 5 Kasım 2026): KAYNAKLI 2993 · ONERI 2100 · BULUNAMADI 1963 · BAKILMADI 187. Evren 3 sonunda BAKILMADI 936'ydı.
+  - Kalan BAKILMADI'nin çoğu 600 öncesi (ANTİK, ayrı tur) ya da erişim engelli (Britannica 403, Iranica 404).
+- **Sıradaki iş (EMRELİC):** ONERI yükseltme turu.
+  - Önceliklendirme `oneri_oncelik.py` ile yapıldı. Sınıf 1 (sınır kırılması doğuran, kaynaklı öneri): 1715 satır, 789 yerleşim. Sınıf 2 (kural uygulaması): 97 satır. Sınıf 3 (not): 171 satır. ASKIDA: 106 satır.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
