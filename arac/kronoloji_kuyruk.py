@@ -15,6 +15,22 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2E 298-322 (EMRELİC @f9f4326): ganzhi günleri Academia Sinica teyidine kadar BEKLE
+    "L2-656": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-657": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-663": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-664": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-665": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-666": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-667": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-671": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-672": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-675": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-676": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-677": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-678": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-680": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    "L2-489": "Agathokles darbesi -0315: Austin/Diodoros MÖ 316 der, literatürde 317/316 ikilemi → ikinci akademik kaynak gelmeden atlas -0316 kalır",
     "L2-318": "Santo Domingo: kural teslim (kapitülasyon) günü; 07-07 teslim mi fiilî devir mi belirsiz → Diario de la Reconquista okununca karar; 07-09 fiilî devir ise ic_not",
     # 351-375: DOGRULANDI ama dayanak tek ve ansiklopedi dışı web (kişisel kronoloji, belediye, dernek)
     "L2-357": "tek, ansiklopedi dışı (pdavis.nl/Clowes); 3 Kasım yalnız getirme özetinde",
@@ -78,6 +94,29 @@ ISARETLE = [
 METIN = [
     ("L2-714", "Zürey'îler: atlas 1091, TDV 504/1110 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
     ("L2-720", "Grönland piskoposluğu 1124 takdis: Lund'a bağlıydı, Trondheim'e değil → düzeltilir (EMRELİC)"),
+    # L2E 298-322 (EMRELİC)
+    ("L2-658", "Nanzhao sonu: Nanzhao yeshi 929 / Dian lüe 928 — 1 yıl çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
+    ("L2-659", "Nanzhao/Da Tianxing: Nanzhao yeshi 929 / Dian lüe 928 — 1 yıl çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
+    # L2S 098-122 (S5)
+    ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
+    ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
+    ("L2-468", "Gürcistan-Sovyet antlaşması 7 Mayıs 1920: «İngiliz birlikleri bölgeden ayrıldı» cümlesi bu güne bağlanmaz (Gürcistan'dan Ağustos 1919, Batum'dan Temmuz 1920; Janelidze 2018) → cümle çıkarılır ya da kendi tarihiyle yazılır"),
+    ("L2-474", "İrlanda Özgür Devleti 6 Aralık 1922: «Kuzey İrlanda ayrıldı» ayrı ve sonraki tasarruf (7 Aralık opt-out) → metin ayrılır"),
+    ("L2-477", "[BEKLE — Muminov 2023 dergisinin hakem statüsü doğrulanmadı] Harezm: 17-20 Ekim IV. Kurultay süresi, anayasa 20 Ekim kabul → parantez «17 Ekim'de kabul etmişti» düzeltilmeli"),
+    ("L2-480", "Rangun 8 Mart 1942 (JACAR + Alexander despatch): «Burma işgali başladı» yanlış — işgal Ocak 1942'de başlamıştı → «Burma işgali sürüyordu»"),
+    # L2S 123-147 (S6; no sütunu sira→liste2 düzeltildi)
+    ("L2-482", "[BEKLE — Plinius NH 5.5.36-38 açılmadı] Garamant: «15 yerleşim» sayısı okunan kaynakta yok"),
+    ("L2-483", "Roma -26 Ocak: 16 Ocak yalnız Augustus unvanı (RE «Augustus»; Ovid iki tasarrufu 13 Ocak'a koyar); «Cumhuriyet sona erer» yorumdur → «Principatus başlar» ya da ic_not"),
+    ("L2-490", "Hyphasis isyanı: «Magadha sınırına yaklaşmışken» yanıltıcı — Hyphasis Pencap'tadır, hedef Ganj vadisi (Arrianos 5.28-29)"),
+    ("L2-502", "[BEKLE — Iakovidis/Mylonas açılamadı] Miken Aslanlı Kapı ~MÖ 1300: ipuçları LH IIIB ortası ~1250"),
+    ("L2-505", "[BEKLE — Charpin açılamadı; tek dayanak Vikipedi aynası] Mari: «Babil, Mari ve Elam koalisyonu Eşnunna'yı» şüpheli — Elam Babil-Mari ittifakının düşmanı"),
+    # L2S 148-172 (S7)
+    ("L2-508", "Mari yıkımı: atlas «Naram-Sin»; Treccani + Sallaberger (Syria Suppl. 2, 2014) Sargon'a bağlar → ad ve «~2220» yeniden"),
+    ("L2-509", "[BEKLE — künye ucu] Ur I-II hanedanı Treccani ED IIIb ca. 2450-2400; atlas künyeyi -2333'e uzatıyor → künye ucu gözden geçirilir"),
+    ("L2-510", "Ebla yıkımı: atlas kesin «sınır savaşını Mari kazandı ve Ebla yıkıldı»; Sallaberger yalnız «may have played a decisive role» → metin ihtimal diline çekilir"),
+    ("L2-516", "Mesene 116: Iranica (Characene) geçici itaat yazar, «ilhak» değil → fiil düzeltilir"),
+    ("L2-522", "[BEKLE — tek dayanak Britannica] Constantius 296: «Dover yakınına çıkıp» ayrıntısı kaynakta yok; Allectus'u Asclepiodotus Hampshire'da yendi"),
+    ("L2-530", "Zizhi tongjian 421 / Jin shu 87 423 çelişkisi → atlas 421 kalır, çelişki ic_not'a iki kaynağıyla"),
     ("L2-1659", "Batı Trakya 1913: TDV'ye göre yapı «Hükûmet-i Muvakkate / Müstakille», «Cumhuriyeti» değil; ömrü TDV'de 57 gün (iç tutarsızlık bkz. OLGU-DOGRULAMA #5); Ferecik/Sofulu muharebeleri TDV'de yok → ad TDV'ye uydurulur"),
     ("L2-1616", "1888 İngiliz-Fransız antlaşması: TDV «sınırları belirledi» diyor, «Fransız himayesini tanıdı» demiyor → ifade düzeltilir"),
     ("L2-1667", "Alaş: madde iki olayı birleştiriyor (Kurucu Meclis'in dağıtılması + Alaş projesi); TDV yalnız Aralık 1917 özerklik ilanını veriyor → ayrılır"),
