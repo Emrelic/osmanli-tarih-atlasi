@@ -64,7 +64,7 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **26** (bunlar yaln�
 
 ## Bütün GİRİŞLİ künyeler, esere göre (her satırda yer-yıl / yer / dönem)
 
-### UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 (20 künye, Σ yer-yıl 14511)
+### UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 (19 künye, Σ yer-yıl 14178)
 - `adar` 1281-01-01 → 1899-01-01 — 2472 / 4 / 4
 - `zerma` 1281-01-01 → 1898-01-01 — 1851 / 3 / 3
 - `tuareg-accer` 1281-01-01 → 1911-01-01 — 1260 / 2 / 2
@@ -79,7 +79,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **26** (bunlar yaln�
 - `dagbon` 1401-01-01 → 1899-01-01 — 498 / 1 / 1
 - `nkore` 1450-01-01 → 1901-10-25 — 452 / 1 / 1
 - `karagve` 1450-01-01 → 1890-07-01 — 440 / 1 / 1
-- `loango` 1550-01-01 → 1883-01-01 — 333 / 1 / 1
 - `luba` 1585-01-01 → 1889-01-01 — 304 / 1 / 1
 - `berabis` 1600-01-01 → 1894-01-01 — 294 / 1 / 1
 - `kaffa-kralligi` 1390-01-01 → 1897-09-10 — 0 / 0 / 0
@@ -126,7 +125,7 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **26** (bunlar yaln�
 - `metis` 1816-06-19 → 1885-05-12 — 27 / 2 / 2
 - `aleut` 1281-01-01 → 1784-08-14 — 0 / 0 / 0
 
-### UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 (15 künye, Σ yer-yıl 5101)
+### UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 (14 künye, Σ yer-yıl 4914)
 - `lunda-imparatorlugu` 1665-01-01 → 1887-01-01 — 1332 / 6 / 6
 - `zende` 1750-01-01 → 1912-01-01 — 648 / 4 / 4
 - `merina` 1787-01-01 → 1897-02-28 — 503 / 6 / 6
@@ -138,7 +137,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **26** (bunlar yaln�
 - `aro-konfederasyonu` 1690-01-01 → 1902-03-01 — 212 / 1 / 1
 - `buna` 1690-01-01 → 1897-01-01 — 207 / 1 / 1
 - `gyaaman` 1690-01-01 → 1895-01-01 — 204 / 1 / 1
-- `kong-vattara` 1710-01-01 → 1897-05-01 — 187 / 1 / 1
 - `damagaram` 1731-01-01 → 1899-01-01 — 168 / 1 / 1
 - `solima-yalunka` 1720-01-01 → 1884-01-01 — 164 / 1 / 1
 - `kazembe` 1740-01-01 → 1899-01-01 — 159 / 1 / 1

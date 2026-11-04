@@ -54,6 +54,7 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `ovambo` | 1600-01-01 → 1917-02-06 | 634 | Ondonga ve Kwanyama ayrı; t 1917-02-06 yalnız Kwanyama (Mandume'nin ölümü) |
 | `xhosa` | 1281-01-01 → 1878-01-01 | 597 | Gcaleka ve Rharhabe/Ngqika ayrı; Peires (SAS-Space): Ngqika 1878-9 savaşından sonra Transkei'ye sürüldü |
 | `cholula` | 0700-01-01 → 1519-01-01 | 581 | Olmeca-Xicalanca ve Tolteca-Chichimeca iki dönem/grup tek kayıtta |
+| `griqua` | 1804-01-01 → 1878-01-01 | 148 | Griqualand West, East, Philippolis, Griquatown tek kayıtta; GW Cape'e 1880 (SciELO özeti); t 1878 hiçbir olaya denk değil |
 | `seylan-sinhala` | 1070-01-01 → 1518-01-01 | 777 | ardıl krallıklar (Polonnaruva … Kotte) tek kayıtta; t 1518 Kotte'nin sonu değil (1597) |
 
 ## Himaye / vasallık / rejim değişimi 'son' sayılmış (künye kuralı: aynı polity sürüyorsa son değil)
@@ -84,6 +85,12 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `sipsong-panna` | 1180-01-01 → 1950-01-01 | 669 | t 1950 genel kesim; tusi sistemi 1953 özerk bölgeyle bitti (İPUCU); Çin/Burma/Siyam çifte bağımlılık |
 | `oyo-imparatorlugu` | 1400-01-01 → 1836-01-01 | 436 | t 1836 Eski Oyo'nun düşüşü; Atiba'nın Yeni Oyo'su sürdü — polity sonu mu? |
 | `kalusa` | 1281-01-01 → 1763-01-01 | 482 | şeflik (Widmer 1988); t 1763 kalıntıların Havana'ya taşınması, polity çok önce çökmüştü |
+| `kong-vattara` | 1710-01-01 → 1897-05-01 | 187 | KAYNAKLI: Études africaines (OpenEdition, Tauxier) — Kong'un yıkımı 1898; son Kong kralı 1913'te öldü → yıkım polity sonu mu? |
+| `loango` | 1550-01-01 → 1883-01-01 | 333 | KAYNAKLI: ANOM envanteri — 12 Mart 1883 Loango antlaşması 'souveraineté et commerce'; antlaşma, hanedan sürdü |
+| `pedi` | 1650-01-01 → 1879-12-02 | 230 | t 1879 Sekhukhune'nin yakalanması; 1881'de döndü (SAHO) — f 1650 de şüpheli (Thulare c.1800) |
+| `burundi` | 1680-01-01 → 1916-06-06 | 236 | t 1916 Belçika işgali; krallık 28 Kasım 1966 cumhuriyetine dek (İPUCU) |
+| `kazembe` | 1740-01-01 → 1899-01-01 | 159 | t 1899; Britannica özeti yıkımı c.1890 veriyor (İPUCU) |
+| `buna` | 1690-01-01 → 1897-01-01 | 207 | t 1897; Samori Bouna'yı Aralık 1896'da aldı (Cairn özeti, İPUCU) |
 
 ## Uç başka bir olayı tarihliyor (olay türü)
 
