@@ -306,5 +306,16 @@
   "guc": "ORTA",
   "dayanak": "從征實錄 (Yang Ying, wikisource birincil metin, H4A); çeviri Academia Sinica (EMRELİC gece-28)",
   "onay": "EMRELİC 6 Kasım gece-28"
+ },
+ {
+  "d": "Namibya (guneybati-afrika-mandasi)",
+  "tur": "YERLESIM + MADDE",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "guneybati-afrika-mandasi f 1920-12-17 KALIR (GENİŞLET YOK)",
+  "gun": "1919-06-28",
+  "islem": "Namibya yerleşimleri: 1915-07-09 → 1919-06-27 isg guney-afrika-birligi; 1919-06-28 → 1920-12-16 s: guney-afrika-birligi; 1920-12-17'den s: guneybati-afrika-mandasi. AYNI COMMIT'te kronoloji_sinir_afrika.js'e madde: {t:'1919-06-28', devlet:'guney-afrika-birligi', taraflar:['almanya','guney-afrika-birligi'], odak_yer:['Vindhuk (Windhoek)'], b:'Versay: Almanya Güneybatı Afrika'dan feragat etti; idare Güney Afrika Birliği'nde', tur:'antlasma'}. Mevcut 1920-12-17 maddesi (kronoloji_sinir_afrika.js:11) KALIR.",
+  "dayanak": "Versay Antlaşması md. 119 (1919-06-28); MC Konseyi C-mandası şartları 1920-12-17 — EMRELİC gece-31",
+  "onay": "EMRELİC 6 Kasım gece-31"
  }
 ]
