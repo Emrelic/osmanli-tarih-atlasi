@@ -235,3 +235,25 @@ Kalem başına ≤15 dk; yalnız JSTOR (görüntüleyicide sayfa okundu). Arama 
 - F. V. Greene, "Campaign Notes in Turkey: 1877–'78", *The North American Review* 128/270 (Mayıs 1879), s. 462–480, s. 462. https://www.jstor.org/stable/25100751
 - Alıntı: "From the passage of the Danube to the fall of Plevna, June 28 to December 10, 1877."
 - Kaynak niteliği: Greene, Rus ordusu yanındaki ABD askerî ataşesiydi; çağdaş tanıklıktır, hakemli modern akademik yayın değildir. Slavic Review / SEER'de gün veren sayfa bulunamadı ("Plevna 10 December 1877", "Plevna November 28 1877" aramaları).
+
+## İkinci deneme
+
+### E020 — Kızıl Ordu'nun Kaunas'a girişi (1 Ağustos 1944?)
+- Karar: **teyit (1 Ağustos 1944).**
+- G. P. Megargee (ed.), *The United States Holocaust Memorial Museum Encyclopedia of Camps and Ghettos, 1933–1945*, cilt I (Indiana UP 2009), madde «Kauen Main Camp (aka Kaunas, Kovno…)», s. 847–860, s. 851 (açık erişim). https://www.jstor.org/stable/j.ctt16gzb17.27
+- Alıntı: "hidden in deep bunkers, the arrival of the Red Army on August 1, 1944."
+- Not: ansiklopedi maddesidir (akademik, dipnotlu, arşiv kaynaklı). Journal of Baltic Studies / Lituanus aramalarında gün veren sayfa çıkmadı.
+
+### K130 — Nguyễn Ánh'ın Phú Xuân'ı alışı (1801-06-15?) ve Thăng Long 1802
+- Karar: **kısmi — üst sınır teyit, gün okunmadı.** Misyoner Barisy'nin mektubu "Huế'den, 16 Temmuz 1801" tarihlidir ve Nguyễn filosunun Huế limanında olduğunu gösterir. Huế'nin alınışı bu günden öncedir; atlasın 1801-06-15'i bu sınırla çelişmez. Aynı derlemedeki 1801 başı mektupları (28 Şubat, 11 ve 22 Nisan 1801) Thị Nại deniz savaşını anlatır. Thăng Long 1802 günü bulunamadı.
+- L. Cadière, "Documents relatifs à l'époque de Gia-long", *BEFEO* 12/7 (1912), s. 1–82, s. 47. https://www.jstor.org/stable/43729497
+- Alıntı: "Lettre de M. Barisy… de Hu'ê, le 16 juillet 1801." · tarih satırı: "Au port de Cua Heou… 16 juillet 1801"
+
+### K269 — Cirebon 1619–1677: Mataram mı, Banten mı?
+- Karar: **okunmadı (ikinci deneme de).** Muhaimin, *The Islamic Traditions of Cirebon* (ANU 2006), bölüm 1 tarandı; Mataram/Banten metbuluğunu tarihlemiyor. "Cirebon Girilaya Mataram" ve "Cirebon vassal Mataram" aramaları BKI, JSEAS ve *Indonesia* dergilerinden gün/yıl veren sayfa getirmedi.
+
+### E024 — Sevilla Temmuz 1936 ve kuzeyle bağlantı
+- Karar: **okunmadı (ikinci deneme de).** Gabriel Jackson, "Authority and Terror in the Insurgent Zone", *The Centennial Review* 7/4 (1963), s. 454–469 (https://www.jstor.org/stable/23737675) tarandı. Kaynak "Queipo's seizure of the city" diyor (s. 459 civarı) ama gün vermiyor. Kuzeyle bağlantı için yalnız Burgos cuntasının kuruluşu var (24 Temmuz 1936). JCH/EHQ'da gün veren sayfa çıkmadı.
+
+### K485 — Hacıbey (Odessa) 1789 alınışı, Jülyen/Gregoryen
+- Karar: **yalnız yıl (1789), gün ve takvim okunmadı.** Michael R. Katz, "Odessa's Jews: The End of Assimilation", *Southwest Review* 87/2–3 (2002), s. 271: "In 1789… Russia captured a Tartar fortress… next to the town of Khazhibei". Edebî-kültürel dergidir, hakemli tarih kaynağı değildir. Slavic Review, SEER ve HUS aramalarında (Hadjibey, Khadzhibei, Odessa 1789) gün veren sayfa çıkmadı.
