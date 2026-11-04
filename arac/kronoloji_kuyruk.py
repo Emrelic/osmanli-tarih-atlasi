@@ -652,6 +652,11 @@ METIN = [
     ("L2-1150", "[BEKLE — O.S./N.S.] Marata Delhi akını 1737-03-29: özet 28 Mart (Talkatora); Sarkar O.S. yazar (L2-1111 bulgusu) → Sarkar günü ise Gregoryen +11 kontrol"),
     ("L2-1153", "[BEKLE — kaynak çelişkisi] Kolaçel 1741-08-10: Hollanda kaydı 7 Ağu (Kunju 1975, Koshy 1989), Panikkar 10 Ağu, Menon 31 Tem, Nagam Aiya 15 Tem → muharebe / teslim ayrımı"),
     ("L2-1147", "[BEKLE — çelişki] Zîc-i Muhammed Şâhî 1732: özetler 1728 der; Cambridge metni okunamadı"),
+    # L2S 783-794 (S35)
+    ("L2-1160", "Paoli anayasası: Dieta generale di Corte 16-18 Kasım 1755 (DBI) — atlas 18 Kasım aralığın son günü → ic_not; yer_id «Bastia (Korsika)» yanlış → Corte; «Cenova fiilen tamamen kaybetti» okunmadı"),
+    ("L2-1168", "Bengal kıtlığı 1770: «nüfusun yaklaşık üçte biri» → Metcalf «up to a quarter» (en çok dörtte bir)"),
+    ("L2-1165", "Buksar 1764-10-23 (Metcalf + Sarkar, çift teyit) KALIR; Britannica 22 Ekim ipucu → ic_not"),
+    ("L2-1170", "[BEKLE — haber kaynağı] Pontianak 1771-10-23: hicrî 14 Receb 1185 ile uyumlu; akademik teyit Tarikhuna 4/1 (2024) açılmadı"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
