@@ -2150,7 +2150,8 @@ window.DEVLETLER = [
     { odak_yer:["Tebriz"], t:"1256-01-01", tur:"kurulus", b:"Hülâgû Han tarafından kuruldu" },
     { odak_yer:["Bağdat"], t:"1258-02-13", tur:"toprak-kazanc", b:"Bağdat'ın fethiyle Abbasî hilafetine son verildi" },
     { odak_yer:["Tebriz"], t:"1295-01-01", tur:"hukumdar", b:"Gazan Han tahta çıktı, İslam'ı resmî din ilan etti" },
-    { odak_yer:["Tebriz"], t:"1304-01-01", tur:"hukumdar", b:"Olcaytu tahta çıktı, Sultaniye'yi başkent yaptı" },
+    { odak_yer:["Tebriz"], t:"1304-01-01", tur:"hukumdar", b:"Olcaytu tahta çıktı" },
+    { odak_yer:["Sultâniye"], t:"1305-01-01", tur:"baskent", b:"Olcaytu Sultâniye'yi büyütüp başkent yaptı", kaynak:"EI¹ 'Sultaniya' (Olcaytu 705 H'de büyüttü ve başkent yaptı); başkent zinciri Merâga → Tebriz → Sultâniye (EI¹ + Grousset) — UMIT TOP100-1103 EK-cift-teyit §2a B13", ic_not:"Eski madde 1304'te tahta çıkış ile başkent yapılışını birleştiriyordu; başkent 1305'e ayrıldı (KASA 4 Kasım 2026). 705 H = 1305-07-24/1306-07-13; kaynak mîlâdî 1305 dediği için yıl hassasiyeti, yerleşim f ucuyla aynı." },
     { odak_yer:["Tebriz"], t:"1317-01-01", tur:"hukumdar", b:"Ebû Saîd Bahadır Han tahta çıktı" },
     { odak_yer:["Tebriz"], t:"1335-01-01", tur:"bolunme", b:"Ebû Saîd'in vârissiz ölümüyle devlet parçalanmaya başladı" },
     { odak_yer:["Tebriz"], t:"1353-01-01", tur:"son", b:"Merkezi otorite tamamen dağıldı; Celâyirli, Karakoyunlu gibi ardıl beylikler doğdu" }

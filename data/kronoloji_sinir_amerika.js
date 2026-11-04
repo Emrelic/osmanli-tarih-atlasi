@@ -38,11 +38,11 @@
 
 window.KRONOLOJI_SINIR_AMERIKA = [
 
-{ odak_yer:["Philadelphia"], t:"1818-01-01", devlet:"abd", devletler:["abd","ingiliz-kuzey-amerika"], sinir_id:"g4-bna-us-prairie",
+{ odak_yer:["Philadelphia"], t:"1818-10-20", devlet:"abd", devletler:["abd","ingiliz-kuzey-amerika"], sinir_id:"g4-bna-us-prairie",
   b:"1818 Sözleşmesi — Lake of the Woods'tan Kayalık Dağlar'a 49. paralel sınır", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","abd","ingiliz-kuzey-amerika"],
-  d:"ABD ile Britanya arasındaki 1818 Sözleşmesi'nin 2. maddesi, sınırın Lake of the Woods'un en kuzeybatı noktasından 49. paralele inip bu paralel boyunca Kayalık Dağlar'a gitmesini kararlaştırdı. Dağların batısı (Oregon) için karar ertelendi. Hat ancak 1872'den sonra kurulan karma komisyonca arazide işaretlendi. Kaynak yalnız yılı verdiğinden tarih yıl düzeyindedir.",
-  kaynak:"International Boundary Commission, History ('to the 49th parallel and along it to the Stony Mountains') · ABD Dışişleri Office of the Historian, Oregon Territory" },
+  d:"ABD ile Britanya arasındaki 1818 Sözleşmesi'nin 2. maddesi, sınırın Lake of the Woods'un en kuzeybatı noktasından 49. paralele inip bu paralel boyunca Kayalık Dağlar'a gitmesini kararlaştırdı. Dağların batısı (Oregon) için karar ertelendi. Hat ancak 1872'den sonra kurulan karma komisyonca arazide işaretlendi. Sözleşme 20 Ekim 1818'de imzalandı.",
+  kaynak:"International Boundary Commission, History ('to the 49th parallel and along it to the Stony Mountains') · ABD Dışişleri Office of the Historian, Oregon Territory · gün: Library of Congress «Signed October 20, 1818» (UMIT TOP100-1103 EK-cift-teyit §2a E7; yıl çift teyit, gün tek kaynak; Pembina ucu zaten 10-20)" },
 
 { odak_yer:["Moskova"], t:"1825-02-28", devlet:"rusya", devletler:["rusya","ingiliz-kuzey-amerika"], sinir_id:"g4-bna-rus-141",
   b:"İngiliz–Rus Sözleşmesi — Rus Amerikası ile İngiliz toprakları arasında 141. meridyen", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"",
@@ -50,16 +50,16 @@ window.KRONOLOJI_SINIR_AMERIKA = [
   d:"Rusya ile Britanya, 28 Şubat 1825 (Jülyen 16 Şubat) tarihli sözleşmeyle Kuzey Amerika'daki topraklarını ayırdı. Kıyı şeridinin kuzeyinde sınır, 141. batı meridyeni boyunca Kuzey Buz Denizi'ne uzandı. Bu meridyen, Alaska 1867'de ABD'ye geçtikten sonra da aynen sınır kaldı. Kıyı şeridinin (panhandle) yorumu ise 1903 hakem kararına kadar tartışmalı oldu.",
   kaynak:"UN RIAA XV 481–540 (Alaska Sınır Mahkemesi kararı; 1825 sözleşmesinin metni ve yorumu)" },
 
-{ odak_yer:["Philadelphia"], t:"1842-01-01", devlet:"abd", devletler:["abd","ingiliz-kuzey-amerika"], sinir_id:"g4-bna-us-dogu",
+{ odak_yer:["Philadelphia"], t:"1842-08-09", devlet:"abd", devletler:["abd","ingiliz-kuzey-amerika"], sinir_id:"g4-bna-us-dogu",
   b:"Webster–Ashburton Antlaşması — Maine'den Lake of the Woods'a sınır kesinleşti", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","abd","ingiliz-kuzey-amerika"],
-  d:"St. Croix kaynağından St. Lawrence'a kadar olan kesim (Maine sınırı) ve St. Mary's Nehri'nden Lake of the Woods'a uzanan bölümler, ancak 1842 Webster–Ashburton Antlaşması'yla kararlaştırıldı. Böylece Atlantik'ten Kayalık Dağlar'a kadar sınır hukuken tamamlandı. Kaynak yalnız yılı verdiğinden tarih yıl düzeyindedir.",
-  kaynak:"International Boundary Commission, History ('It was not until the Webster-Ashburton Treaty of 1842')" },
+  d:"St. Croix kaynağından St. Lawrence'a kadar olan kesim (Maine sınırı) ve St. Mary's Nehri'nden Lake of the Woods'a uzanan bölümler, ancak 1842 Webster–Ashburton Antlaşması'yla kararlaştırıldı. Böylece Atlantik'ten Kayalık Dağlar'a kadar sınır hukuken tamamlandı. Antlaşma 9 Ağustos 1842'de imzalandı.",
+  kaynak:"International Boundary Commission, History ('It was not until the Webster-Ashburton Treaty of 1842') · gün: Avalon Project br-1842 + Library of Congress «Signed August 9, 1842» (UMIT TOP100-1103 EK-cift-teyit §2a E8, çift teyit)" },
 
-{ odak_yer:["Philadelphia"], t:"1846-01-01", devlet:"abd", devletler:["abd","ingiliz-kuzey-amerika"], sinir_id:"g4-bna-us-bati",
+{ odak_yer:["Philadelphia"], t:"1846-06-15", devlet:"abd", devletler:["abd","ingiliz-kuzey-amerika"], sinir_id:"g4-bna-us-bati",
   b:"Oregon Antlaşması — 49. paralel Kayalık Dağlar'dan Pasifik'e uzatıldı", tur:"antlasma", onem:3, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","abd","ingiliz-kuzey-amerika"],
-  d:"1818'de ertelenen Oregon meselesi 1846'da çözüldü. Sınır Kayalık Dağlar'ın zirvesinden 49. paralel boyunca Georgia Boğazı'na, oradan Juan de Fuca Boğazı üzerinden Pasifik'e uzatıldı; Vancouver Adası Britanya'da kaldı. ABD Senatosu antlaşmayı 18 Haziran 1846'da onayladı. İmza ve teati günleri okunmadığından tarih yıl düzeyindedir.",
+  d:"1818'de ertelenen Oregon meselesi 1846'da çözüldü. Sınır Kayalık Dağlar'ın zirvesinden 49. paralel boyunca Georgia Boğazı'na, oradan Juan de Fuca Boğazı üzerinden Pasifik'e uzatıldı; Vancouver Adası Britanya'da kaldı. ABD Senatosu antlaşmayı 18 Haziran 1846'da onayladı. Antlaşma 15 Haziran 1846'da imzalandı (Avalon br-1846 «fifteenth day of June»; Library of Congress «Signed June 15, 1846» — UMIT TOP100-1103 EK-cift-teyit §2a E6, çift teyit; yerleşim ucu zaten 06-15).",
   kaynak:"International Boundary Commission, History · ABD Dışişleri Office of the Historian, Oregon Territory ('The Senate ratified the treaty … on June 18, 1846')" },
 
 { odak_yer:["Philadelphia"], t:"1848-05-30", devlet:"abd", devletler:["abd","meksika"], sinir_id:"d1923-us-mx-kaliforniya",
