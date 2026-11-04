@@ -64,7 +64,11 @@ def main():
                 hata.append("dönem %d kaynaksız" % i)
             if anahtar(p["f"]) >= anahtar(p["t"]):
                 hata.append("dönem %d ters ya da sıfır uzunluk (%s → %s)" % (i, p["f"], p["t"]))
-            if p["alan"] == "s":
+            if p["alan"] == "s" and p.get("d") == "__BOSLUK__":
+                # beyanlı boşluk (haritada delik): künyesi yok, kaynağı ve beyanı zorunlu
+                if "BOŞLUK" not in (p.get("kaynak") or "").upper().replace("BOSLUK", "BOŞLUK"):
+                    hata.append("dönem %d __BOSLUK__ beyansız" % i)
+            elif p["alan"] == "s":
                 if p.get("d") not in K:
                     hata.append("dönem %d künye yok: %s" % (i, p.get("d")))
                 else:

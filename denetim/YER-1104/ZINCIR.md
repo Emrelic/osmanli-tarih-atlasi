@@ -148,3 +148,23 @@ Açık borç:
   - Merînî geçişi 1251 olarak yazılı. TDV Rabat da 649/1251 der, ama TDV Muvahhidler ve Selâ 646/1248 der.
 - **Oltu kaydı:** 1534'teki fetih TDV Kars'ta var. TDV Çıldır Eyaleti ise 1536 diyor.
 - **Mekke ve Necid:** Rânye için kaynak bulunamadı.
+
+## origin/main'e karşı yeniden ölçüm (EMRELİC, 4 Kasım 2026)
+Parti 1-3'teki komşu ve künye ölçümleri `lab-1104-enklav7` (c9656c768) ağacında yapılmıştı. Dal `origin/main` **2fdc19540** ile birleştirildi (dal 7 commit gerideydi; birleşme temiz, HEAD 93d33898a). `kunye.json` ve komşu listesi bu ağaçtan yeniden üretildi, bildirilen tutarsızlıklar bir kez daha ölçüldü.
+
+| bildirim | main'de | sonuç |
+|---|---|---|
+| Rabat Fransız himayesi 1923 | `fas-fransiz-himayesi` 1912-03-30 → 1956-03-02 | **GERİ ALINDI** — main'de düzeltilmiş (KASA af2cc76e); bulgu eski ağaçtandı |
+| Rabat Merînî 1251 / Selâ 1248 | Rabat hâlâ `merini` 1251-01-01 | duruyor (TDV Muvahhidler ve Selâ 646/1248'i verir) |
+| Arnavutluk künye aralığı | bagimsiz t 1939-04-07 · italyan f 1939-04-12 · italyan t 1943-09-08 · alman f 1943-09-14 · Ergiri 04-07 / 09-08 | duruyor |
+| memluk t 1517-04-13 / Kahire 01-24 / Fâkûs-Bilbîs 05-19 | aynı | duruyor |
+| `fetret-musa` f 1411-02-17 | aynı | duruyor |
+| `sirbistan`, `avusturya`, `bosna`, `isa-/mehmed-/suleyman-celebi`, `hannover-kralligi` | YOK; bunları Semendire, Trebinye ve Soma kayıtları kullanıyor | duruyor |
+| Vaç 1544-1684 kesintisiz Osmanlı (MKL Nógrád 1594-1663 Habsburg) | aynı | duruyor |
+| Orsova Romanya 1918-01-01 (öteki kayıtlar Trianon) | aynı | duruyor |
+| Varadin 1526 / Karlofça 1521 (TDV) | aynı | duruyor |
+| Lüleburgaz 1912 Bulgar işgali | kayıtta yok | duruyor |
+| Münster 1815 Prusya / Osnabrück 1866 | aynı | duruyor |
+| Palermo 1282 | main'de 1282-03-30 → 08-30 `s:__BOSLUK__` (Komün) | **Misilmeri düzeltildi**: aynı beyanlı boşluk yazıldı. Doğrulayıcı `__BOSLUK__` dönemini kabul ediyor, beyan zorunlu. `italya` 1861-02-13 Palermo'nun kendisinde de künye öncesi (künye 1861-03-17) |
+
+Bundan sonra parti ölçümleri birleşmiş ağaçta yapılıyor ve raporlarda ağacın hash'i yazılıyor.
