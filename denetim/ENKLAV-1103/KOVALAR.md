@@ -264,6 +264,14 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: s: dönemi 1917-11-07'de açılıp en az 1920-03'e dek kesintisiz 'sovyet-rusya'; o bölgede 1917-1922 ara devletleri (künyeleri devletler.js'te var) hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E021, E046-E051; ENKLAV-1104 K112, K177, K214, K291, K352-K354, K373
+- **Kaynaklı günler (KAYNAK2):**
+  - `1918-05-26` Gürcistan bağımsızlığı — TDV İslâm Ansiklopedisi, "Gürcistan" (Davut Dursun), https://islamansiklopedisi.org.tr/gurcistan — "26 Mayıs 1918 tarihinde bağımsızlığını ilân etti"
+  - `1921-02` Sovyet işgali, Gürcistan (yalnız ay) — aynı madde — "Şubat 1921’de Gürcistan’ı da işgal ederek" (gün yok; künye t 1921-03-16 ayrı, beyan)
+  - `1918-05-28` Azerbaycan Demokratik Cumhuriyeti ilanı — TDV, "Azerbaycan" (Ziya Musa Buniyatov), https://islamansiklopedisi.org.tr/azerbaycan — "28 Mayıs 1918’de Azerbaycan Demokratik Cumhuriyeti ilân edildi"
+  - `1918-09-15` Kafkas İslâm Ordusu Bakü'yü aldı — aynı madde — "Bakü’yü ele geçirdi (15 Eylül 1918)"
+  - `1920-04-27` Kızıl Ordu işgali, ADC'nin sonu (28 Nisan Azerbaycan SSC) — aynı madde — "27 Nisan 1920’de Azerbaycan’ı işgal eden Kızıl Ordu ... 28 Nisan’da Azerbaycan Sovyet Sosyalist Cumhuriyeti kuruldu"
+  - `1920-07-28` XI. Kızılordu Nahçıvan'a girdi — TDV, "Nahcıvan" (Hüsamettin M. Karamanlı), https://islamansiklopedisi.org.tr/nahcivan — "XI. Kızılordu 28 Temmuz 1920’de Nahcıv[an'a]"; Mart 1920 Türk ordusu Nahcıvan'a girdi
+  - `1920-12-02` Gümrü Antlaşması (Ermenistan'ın Sovyetleşme çerçevesi) — TDV, "Revan" (Mustafa Aydın), https://islamansiklopedisi.org.tr/revan — "Gümrü Antlaşması ile birlikte (2 Aralık 1920)"; Revan 1918 Haziran'da Osmanlı'nın tanıdığı Ermenistan'ın başşehri [kısmen: Sovyetleşme günü değil antlaşma günü]
 - Ortak öneri (aksi yazılmadıkça): 1917-11-07 → 1918-05-28 transkafkasya; 1918-05-28 → Sovyet girişi: azerbaycan-demokratik-cumhuriyeti (künye t 1920-04-27) / ermenistan-demokratik-cumhuriyeti (t 1920-12-02) / gurcistan-demokratik-cumhuriyeti (t 1921-03-16); 1918 Osmanlı ve İngiliz işgalleri ayrı — hangi cumhuriyet ve gün şehir şehir kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -288,6 +296,8 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: s: dönemi 1917-11-07'de açılıp en az 1920-03'e dek kesintisiz 'sovyet-rusya'; o bölgede 1917-1922 ara devletleri (künyeleri devletler.js'te var) hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E021, E046-E051; ENKLAV-1104 K112, K177, K214, K291, K352-K354, K373
+- **Kaynaklı günler (KAYNAK2):**
+  - Kuzey Kafkasya (Dağlı Cumhuriyeti, Terek, Denikin) için kaynaklı gün bulunamadı — KAYNAK-GEREK.
 - Ortak öneri (aksi yazılmadıkça): 1917-1920 Dağlı Cumhuriyeti / Terek-Dağıstan Sovyetleri / guney-rusya-beyaz (Denikin 1919) / 1918 Osmanlı (Derbend, Temir Han Şura) — hangi yapı ve gün şehir şehir kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -313,6 +323,12 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: s: dönemi 1917-11-07'de açılıp en az 1920-03'e dek kesintisiz 'sovyet-rusya'; o bölgede 1917-1922 ara devletleri (künyeleri devletler.js'te var) hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E021, E046-E051; ENKLAV-1104 K112, K177, K214, K291, K352-K354, K373
+- **Kaynaklı günler (KAYNAK2):**
+  - `1917-11-20` Ukrayna Halk Cumhuriyeti ilanı (III. Universal) — Encyclopedia of Ukraine, "Ukrainian National Republic", https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CU%5CK%5CUkrainianNationalRepublic.htm — "first proclaimed in the Third of the Universals of the Central Rada on 20 November 1917"
+  - `1918-01-22` Tam bağımsızlık (IV. Universal; 25 Ocak'ta ilan, 22'ye geri tarihli) — aynı madde — "declared complete independence in its Fourth Universal on 25 January 1918 (back-dated to 22 January)"
+  - `1918-04-29` Hetmanlık: Ukrayna Devleti (Skoropadski) — aynı madde — "renamed the Ukrainian State (29 April to 14 December 1918)"
+  - `1918-12-14` Direktörlük, UHC adı geri — aynı madde
+  - UHC 1920'ye dek Ukrayna toprağında sürdü (aynı madde); şehir şehir Sovyet/Beyaz giriş günleri bu maddede yok — KAYNAK-GEREK (şehir maddeleri).
 - Ortak öneri (aksi yazılmadıkça): 1917-11-20 → ukrayna-halk-cumhuriyeti; 1918-04-29 → 1918-12-14 Hetmanlık (ukrayna-devleti-1918); 1919 guney-rusya-beyaz (sol yaka); Sovyet dönemi her şehrin kendi günüyle — Encyclopedia of Ukraine (ENKLAV-1103 E046-E051)
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -402,6 +418,8 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: s: dönemi 1917-11-07'de açılıp en az 1920-03'e dek kesintisiz 'sovyet-rusya'; o bölgede 1917-1922 ara devletleri (künyeleri devletler.js'te var) hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E021, E046-E051; ENKLAV-1104 K112, K177, K214, K291, K352-K354, K373
+- **Kaynaklı günler (KAYNAK2):**
+  - Belarus Halk Cumhuriyeti / Ober Ost / 1919-20 Polonya işgali için açık akademik kaynak okunamadı — KAYNAK-GEREK (EMRELİC'e: Oxford Reference 'Belarus').
 - Ortak öneri (aksi yazılmadıkça): 1918-02 → 1918-11 Alman işgali (Brest-Litovsk); belarus-halk-cumhuriyeti 1918-03-25 → 1919-01-05 (künye); 1919-1920 polonya işgali (Minsk 1919-08 → 1920-07) — günler kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -425,6 +443,8 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: s: dönemi 1917-11-07'de açılıp en az 1920-03'e dek kesintisiz 'sovyet-rusya'; o bölgede 1917-1922 ara devletleri (künyeleri devletler.js'te var) hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E021, E046-E051; ENKLAV-1104 K112, K177, K214, K291, K352-K354, K373
+- **Kaynaklı günler (KAYNAK2):**
+  - Uzak Doğu Cumhuriyeti için bağımsız kaynak okunmadı (atlas kronolojisi dayanak olamaz) — KAYNAK-GEREK.
 - Ortak öneri (aksi yazılmadıkça): uzak-dogu-cumhuriyeti 1920-04-06 → 1922-11-14 (künye); Primorye'de 1918-1922 Japon/Beyaz idaresi ayrıca
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -462,6 +482,12 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); İtalya/Macar ayrımı KAYNAK-GEREK
 - Kural: Hırvatistan-Bosna kutusunda (Karadağ hariç) 1943-01-01'de sahibi hâlâ 'yugoslavya' olan noktalar: 1941 işgali ve NDH hiç yazılmamış.
 - Hükümler: ENKLAV-1103 E064, E074, E078, E085
+- **Kaynaklı günler (KAYNAK2):**
+  - `1941-04-10` NDH ilanı (S. Kvaternik, radyo) — Hrvatska enciklopedija, "Nezavisna Država Hrvatska", https://www.enciklopedija.hr/clanak/nezavisna-drzava-hrvatska — "proglasio ju je preko radija vođa domovinske ustaške skupine S. Kvaternik 10. IV. 1941"
+  - `1941-05-18` Roma antlaşmaları: Zrmanja-Split kıyısı, Kotor Körfezi ve adaların çoğu İtalya'ya — aynı madde — "potpisivanja Rimskih ugovora 18. V. 1941 ... Cijela obala od utoka Zrmanje u Novigradsko more do Splita, Boka kotorska"
+  - `1941-12` Međimurje Macar ilhakı (ay) — aynı madde — "mađarsko zaposjednuće i potonje pripojenje (od prosinca 1941)"
+  - `1943-09` İtalya'nın teslimi; Pavelić Roma antlaşmalarını geçersiz saydı, Dalmaçya'da NDH yönetimi (biçimsel) — aynı madde — "Padom Italije u rujnu 1943 ... proglasio je nevažećim Rimske ugovore"
+  - `1945-05-06` NDH kurumları Zagreb'i terk etti (çöküş) — aynı madde — "Državne ustanove djelovale su do 6. V., kada je počelo napuštanje Zagreba" [künye t 1945-05-08 ile 2 gün fark — beyan]
 - Ortak öneri (aksi yazılmadıkça): 1941-04-10 → 1945-05-08 hirvatistan-bagimsiz (künye); Dalmaçya kıyısı (İtalya ilhakı 1941-05-18), Međimurje/Baranya (Macaristan), Syrmia doğusu ayrık — şehir şehir kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -523,6 +549,10 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (kaba kutu)
 - Kural: Güney kutusunda 1863-06-01'de sahibi 'abd' olan noktalar.
 - Hükümler: ENKLAV-1104 K248
+- **Kaynaklı günler (KAYNAK2):**
+  - `1861-02-01` Teksas ayrılık kararnamesi (resmî 2 Mart 1861) — Handbook of Texas, "Secession", https://www.tshaonline.org/handbook/entries/secession — "on February 1 ... the convention met to take a final vote on the ordinance of secession"; "the secession of the state became official on March 2"
+  - `1861-04-17` Virginia konvansiyonu ayrılık oyu (referandum 23 Mayıs 1861) — Encyclopedia Virginia, "Virginia Convention of 1861" (Nelson D. Lankford), https://encyclopediavirginia.org/entries/virginia-convention-of-1861/ — "the convention voted on April 17 to leave the Union. Virginians expressed their agreement at the polls on May 23"
+  - Öteki eyaletlerin ayrılış günleri (SC 1860-12-20 … TN 1861-06-08) okunmadı — eyalet ansiklopedileriyle; KAYNAK-GEREK.
 - Ortak öneri (aksi yazılmadıkça): ayrılış günü (eyaletine göre, 1860-12-20 SC … 1861-06-08 TN) → 1865 konfedere-devletler; Kentucky/Missouri/Batı Virginia/Kızılderili Bölgesi hariç — kutu kaba, eyalet eyalet ayıkla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -587,6 +617,9 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: (44.0, 46.6, 6.6, 13.8) kutusunda 1944-06-01 günü sahibi italya olan noktalar.
 - Hükümler: ENKLAV-1104 K406
+- **Kaynaklı günler (KAYNAK2):**
+  - `1943-09-23` Repubblica Sociale Italiana kuruluşu (Salò) — Treccani, "Repubblica sociale italiana", https://www.treccani.it/enciclopedia/repubblica-sociale-italiana/ — "instaurato il 23 settembre 1943 da B. Mussolini, nella parte di territorio italiano occupato dai Tedeschi"
+  - Aynı madde: Trentino, Alto Adige, Belluno, Friuli, Venezia Giulia ve İstria RSI dışında, fiilen Üçüncü Reich'a bağlı ("annesse di fatto al Terzo Reich") — bu bölgelerdeki noktalar salo değil almanya (OZAV/OZAK) olmalı. Bitiş (1945 Nisan) bu maddede okunmadı.
 - Ortak öneri (aksi yazılmadıkça): 1943-09-23 → 1945-04-25/28 salo-cumhuriyeti (Alman işgal bölgeleri: Alp önü ve Adriyatik kıyısı OZAV/OZAK ayrıca) — şehir şehir kurtuluş günleri kaynakla
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
@@ -638,6 +671,8 @@ _Bugünkü veride eşleşen satır yok._
 - Dayanak: VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK
 - Kural: (47.7, 49.6, 16.8, 22.6) kutusunda 1919-09-01 günü sahibi macaristan-naiplik/macaristan-sovyet/macaristan-halk-cumhuriyeti olan noktalar.
 - Hükümler: ENKLAV-1104 K134
+- **Kaynaklı günler (KAYNAK2):**
+  - Slovakya 1918-12/1919-01 Çekoslovak işgali için açık akademik kaynak okunamadı — KAYNAK-GEREK (EMRELİC'e: Oxford Reference 'Slovakia' / 'Czechoslovakia').
 - Ortak öneri (aksi yazılmadıkça): 1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |

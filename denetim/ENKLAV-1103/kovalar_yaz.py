@@ -6,6 +6,8 @@ import json, os, collections
 BURA = os.path.dirname(os.path.abspath(__file__))
 J = json.load(open(os.path.join(BURA, "kovalar.json"), encoding="utf-8"))
 K = {k["kod"]: k for k in J["kovalar"]}
+KY = os.path.join(BURA, "kovalar_kaynak.json")
+KAYNAKLI = {k: v for k, v in json.load(open(KY, encoding="utf-8")).items() if not k.startswith("_")} if os.path.exists(KY) else {}
 SIRA = [
     ("1. Hemen uygulanabilir — VERİ ÖLÇÜMÜ (dönem olgusu ölçüldü; halef/gün notu satırda)", ["F", "G", "H", "L2"]),
     ("2. Boşluk VERİ ÖLÇÜMÜ, günler/halef KAYNAK-GEREK", ["A-KAF", "A-KKF", "A-UKR", "A-BEL", "A-UZD", "B", "L1", "L3", "N1", "N2", "N5", "N6", "N4", "I", "J"]),
@@ -43,6 +45,13 @@ for baslik, kodlar in SIRA:
         L.append("- Kural: %s" % k["aciklama"])
         if k.get("hukumler"):
             L.append("- Hükümler: %s" % k["hukumler"])
+        if kod in KAYNAKLI:
+            L.append("- **Kaynaklı günler (KAYNAK2):**")
+            for g in KAYNAKLI[kod]:
+                if "gun" in g:
+                    L.append("  - `%s` %s — %s" % (g["gun"], g["olay"], g["kaynak"]))
+                else:
+                    L.append("  - %s" % g["not"])
         oneriler = collections.Counter(s["oneri"] for s in k["satirlar"])
         ortak = oneriler.most_common(1)[0][0] if oneriler and oneriler.most_common(1)[0][1] > 1 else None
         if ortak:
