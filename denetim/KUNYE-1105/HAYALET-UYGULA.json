@@ -229,5 +229,27 @@
   "islem": "PENCERE UCU ARTIĞI: t 1281-01-01 pencere başlangıcı. Büyük knezlik Moskova'ya geçişe dek sürer; 1281'deki Kostroma, Şuya, Serpuhov, Dmitrov dönemleri s: knezlik + v: altinorda. UYGULAMA gün kaynaktan gelince.",
   "dayanak": "LAB ölçümü devletler.js:13800; EMRELİC kararı",
   "onay": "EMRELİC 5 Kasım (gün bekliyor)"
+ },
+ {
+  "d": "bengal-nevabligi",
+  "tur": "KUNYE_GENISLET",
+  "karar": "KUNYE_GENISLET",
+  "guc": "ORTA",
+  "kunye": "bengal-nevabligi t 1757-06-23 → 1765-08-12 (Divanî, TAHRİR ölçütü)",
+  "gun": "1765-08-12",
+  "islem": "devletler.js bengal-nevabligi t → 1765-08-12; ic_not_t: 'Plassey 1757-06-23; Baksar 1764-10-22; 1765 sonrası Nizâmet (nominal nevvâb) 1793'e dek — harita için v: değil'. Yerleşimlerde 1757-06-23 → 1765-08-11 dilimi s: bengal-nevabligi (Mîr Câfer / Mîr Kâsım; Mungîr dahil). DEĞİŞMEZ 2 — LAB ölçümü origin/main: 1765-08-12 maddesi YALNIZ data/kronoloji_hindistan.js:414'te (taraflar: babur-imparatorlugu) — bu dosya Değişmez 2 evreninde DEĞİL; olaylar*.js / kronoloji_sinir*.js'te 1765-08 maddesi YOK → kronoloji_sinir'e madde önerisi: 1765-08-12 'Allahâbâd Antlaşması: Divânî Şirket'e geçti — Bengal-Bihar-Orissa İngiliz idaresine', taraflar [bengal-nevabligi, ingiliz-hindistani]. Plassey maddeleri VAR (kronoloji_sinir_nokta2.js:46 taraflar bengal-nevabligi+ingiliz-hindistani) — 1757 kırılması kalkınca o madde serbest kalır, silinmez.",
+  "dayanak": "EMRELİC kararı (gece-23); kronoloji_hindistan.js:414 Allahâbâd 1765-08-12",
+  "onay": "EMRELİC 5 Kasım gece-23"
+ },
+ {
+  "d": "ceneviz → cenova (d:)",
+  "tur": "VERI_DUZELT",
+  "karar": "ID_DUZELT",
+  "guc": "ÖLÇÜM",
+  "kunye": "değişmez",
+  "gun": "",
+  "islem": "13 kaynak satırında d:\"ceneviz\" → d:\"cenova\": yer_yama_egeadalari.js 8, yerlesimler_kirim.js 2 (Aluşta dahil), yer_yama_avrupa_1923.js 2, yer_yama_ok101.js 1 (paket_13.js üretilmiş — paketle yenile). LAB ölçümü origin/main arac/renkler.py: BOYALAR'da İKİ AYRI anahtar var — 'cenova' (renkler.py:600, #43a3f8) ve 'ceneviz' (renkler.py:2061, #633c0c). MOTOR ÖLÇÜLDÜ (uret_petek.py:1140-1145): harita: düşüşü YALNIZ d: BOYALAR'da YOKSA uygulanır; 'cenova' BOYALAR'da VAR → d:'cenova' doğrudan #43a3f8 (mavi) boyanır, künyenin harita:'ceneviz' alanı hiç kullanılmaz. BUGÜN: aynı devlet İKİ RENKTE — d:'cenova' 17 kaynak satırı (yerlesimler.js 13, kirim 2, afrika 1, avrupa 1) mavi, d:'ceneviz' 13 satır kahverengi #633c0c. Düzeltme 13 satırı MAVİYE çevirir → RENK DEĞİŞİR ama tutarlılaşır (Ege adaları, Kırım/Aluşta Ceneviz kolonileri anakara Cenova ile aynı renk). Değişiklik haritaya ancak HAVVA koşusuyla yansır. cenova künyesindeki harita:'ceneviz' ölü alan — kaldırılması ya da bırakılması Emre kararı. renkler.py'ye DOKUNULMAZ.",
+  "dayanak": "LAB git grep origin/main (data/, arac/renkler.py)",
+  "onay": "EMRELİC 5 Kasım gece-23 (renk değişmiyorsa)"
  }
 ]
