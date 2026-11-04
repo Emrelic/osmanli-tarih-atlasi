@@ -44,6 +44,7 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | künye | şimdi | bekleyen | neden |
 |---|---|---|---|
 | `tubu-tibesti` | f 1281-01-01 · t 1914-01-01 | t (kalıcı Fransız yeniden işgal günü) — önceki öneri 1914-09-01 GERİ ÇEKİLDİ | CHA VII (Suret-Canale) s.360 dn.40: 'the Tibesti mountains, from which French forces had withdrawn in 1916, were transferred from Niger to Chad' (1929) → 1914-16 TAHRİR ÖLÇÜTÜ'ne göre askerî işgal (isg), Tubu polity'si sürdü; t kalıcı yeniden işgal günüdür, kaynakta yok; 1929 Çad'a devri idarî işlem (EMRELİC kararı) |
+| `orta-afrika-imparatorlugu` | f 1976-12-04 · t 1979-09-20 | f 1976-12-04 → 1977-12-04 ve t 1979-09-20 → 09-21 (TDV) — ikinci akademik kaynak okunmadan UYGULANMAZ | TDV 'ORTA AFRİKA CUMHURİYETİ': '4 Aralık 1977'de kendisini imparator ilân eden Bokassa' + '21 Eylül 1979'da … darbeyle'. Kaynak kuralı TDV'yi esas alır, ama yaygın bilgiye göre 4 Aralık 1976 imparatorluk ilanı (anayasa), 4 Aralık 1977 taç giyme; TDV taç giymeyi ilan saymış olabilir. Çelişki ic_not'ta iki kaynakla beyan edilmeli; ikinci kaynak (Titley, Dark Age, 1997) OKUNMADI. t: darbe 20/21 Eylül gecesi |
 
 ## Yerleşim ölçümleri (KASA kontrol etsin; LAB veriye yazmaz)
 

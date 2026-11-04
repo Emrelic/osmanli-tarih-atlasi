@@ -202,14 +202,13 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **28** (bunlar yaln�
 - `torva` 1450-01-01 → 1683-01-01 — 233 / 1 / 1
 - `ndongo` 1500-01-01 → 1671-01-01 — 171 / 1 / 1
 
-### UNESCO General History of Africa VIII / Cambridge History of Africa 8 (12 künye, Σ yer-yıl 818)
+### UNESCO General History of Africa VIII / Cambridge History of Africa 8 (11 künye, Σ yer-yıl 812)
 - `italyan-dogu-afrikasi` 1936-06-01 → 1941-11-30 — 500 / 95 / 95
 - `eritre` 1991-05-24 → None — 144 / 15 / 15
 - `ruanda-cumhuriyeti` 1962-07-01 → None — 77 / 2 / 2
 - `burundi-cumhuriyeti` 1966-11-28 → None — 68 / 2 / 2
 - `biafra` 1967-05-30 → 1970-01-15 — 11 / 5 / 5
 - `tiris-el-garbiyye` 1976-04-14 → 1979-08-05 — 7 / 2 / 2
-- `orta-afrika-imparatorlugu` 1976-12-04 → 1979-09-20 — 6 / 2 / 2
 - `zimbabve-rodezya` 1979-06-01 → 1979-12-12 — 5 / 9 / 9
 - `arap-cumhuriyetleri-federasyonu` 1972-01-01 → 1977-11-19 — 0 / 0 / 0
 - `namibya-gecici-ulusal-birlik-hukumeti` 1985-06-17 → 1989-02-28 — 0 / 0 / 0
@@ -283,9 +282,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **28** (bunlar yaln�
 - `singapur` 1959-06-03 → None — 42 / 1 / 1
 - `kuzey-borneo-tac-kolonisi` 1946-07-15 → 1963-09-16 — 17 / 1 / 1
 - `singapur-kolonisi` 1946-04-01 → 1959-06-03 — 13 / 1 / 1
-
-### UNESCO General History of Africa VII / Cambridge History of Africa 6-7 (1 künye, Σ yer-yıl 63)
-- `darul-kuti` 1890-01-01 → 1911-01-12 — 63 / 3 / 3
 
 ### Cambridge History of China X (Late Ch'ing, Part 1) (1 künye, Σ yer-yıl 56)
 - `taiping` 1851-01-11 → 1864-07-19 — 56 / 8 / 8
