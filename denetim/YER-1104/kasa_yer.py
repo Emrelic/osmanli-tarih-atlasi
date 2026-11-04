@@ -134,6 +134,57 @@ SAHIP4 = yukle("sahip4.json")  # parti 4: konum4_yaz.py yazar — {ad: [id, tari
 SAHIP.update({k: tuple(v) for k, v in (SAHIP4 or {}).items()})
 SAHIP.update({k: tuple(v) for k, v in (yukle("sahip5.json") or {}).items()})  # parti 5: konum5_yaz.py
 
+# yer7 turu (4 Kasım 2026): kalan KAYNAK-GEREK satırları. Antik 6'nın Oxford Reference okuması EMRELİC'indir (yalnız arama alıntıları;
+# oturum düştüğü için tam madde okunmadı) — kaynak sütununda "Oxford (EMRELİC okuması)" yazılı. MKL = Magyar Katolikus Lexikon
+# (lexikon.katolikus.hu, Pálos Könyvtár 1980-2013).
+SAHIP.update({
+    "Arad": ("macaristan-habsburg", "1849-08-13", "vár 1177'de ilk anılır → 1551-1688 Osmanlı ('a törökök kezén volt') → Habsburg → 1849'da "
+             "honvéd ordusu altı aylık kuşatmadan sonra kaleyi aldı → Világos teslimi (13.8.1849) sonrası Habsburg; 6.10.1849 Arad şehitleri. "
+             "1848-49 Macar ihtilâl hükûmetinin künyesi devletler.js'te YOK", "MKL «Arad»", "KAYNAKLI (yıl) — ihtilâl dönemi KÜNYE GEREK"),
+    "Szászsebes (Sebeş)": ("dogu-macar-kralligi", "1540-07-22", "Erdel Sakson şehri (1203'te var) — Szapolyai 'Osmanlı himayesine girince "
+                           "Osmanlı desteğiyle Macar ve Erdel kralı oldu'; 1540 ölümünden sonra 1541'de Erdel haraçgüzâr voyvodalık. Sahip bölge "
+                           "düzeyinden (Erdel)", "MKL «Szászsebes»; TDV «Erdel»", "BEYANLI YAKLAŞIKLIK (zincir Erdel'den)"),
+    "Sen Gotar": ("macaristan-habsburg", "1664-08-01", "1184 III. Béla'nın Sistersiyen manastırı → 1532 ya da önce boşaldı → 1605 bir Avusturya "
+                  "başkomutanı Bocskai hayduklarından korkup kiliseyi havaya uçurdu (Habsburg tarafı sınır yeri) → 1734 manastır yeniden. "
+                  "1664'te yerleşimin nüfusu MKL'de yok", "MKL «Szentgotthárd»", "KAYNAKLI (Habsburg tarafı) — 1664 nüfus teyitsiz"),
+    "Barcs": ("macaristan-naiplik", "1921-08-20", "Sırp (SHS) işgali → 17.8.1921 Sırp çekilişi başladı → 20.8.1921 öğle Macar jandarması girdi, "
+              "saat 17'de askerî devir teslim", "Ernyes M., Magyar Rendészet 2021/1, 141-154, DOI 10.32577/mr.2021.1.10 (madde kaynağı)",
+              "KAYNAKLI (gün)"),
+    "Thânesâr": (None, "1014-07-02", "'Onuncu seferini Thânesâr şehrine yapan Mahmud … tapınak ve putu tahrip ettirdi (405/1014-15)' — akın, "
+                 "fetih değil; sonra Gazneli elinde → 'Hânsî, Thânesâr, Nagarkot … geri aldılar' (435/1043-44, Hint racaları). 1014'teki "
+                 "Hindu sahibi TDV'de yok", "TDV «Mahmûd-ı Gaznevî», «Mevdûd b. Mes‘ûd-i Gaznevî»", "KAYNAK-GEREK (1014 sahibi; zincir kısmen TDV)"),
+    "Nazilli": ("OSMANLI", "1920-06-22", "1919'da Aydın-Nazilli cephesinde Kuva-yı Milliye'nin sivil direniş merkezi (3 kongre: Ağustos, Eylül, "
+                "6 Ekim 1919) — 1920 işgaline girip girmediği bu kaynakta yok", "TDV «Aydın»; BELGİ Dergisi 2019, DOI 10.33431/belgi.559464",
+                "KAYNAK-GEREK (1920 işgali) — DergiPark araması insan doğrulaması istedi (aşılmadı); TR Dizin API'sinde 6 sorgu sonuçsuz"),
+    "Gediz": ("OSMANLI", "1920-08-29", "Kütahya sancağının kazası (1520'den) — 1920 işgali TDV'de ve TR Dizin'de bulunamadı", "TDV «Kütahya»",
+              "KAYNAK-GEREK (1920 işgali) — TR Dizin API 3 sorgu sonuçsuz"),
+    "Kalhu (Nimrud)": ("orta-asur", "-1259-01-01", "I. Şalmaneser kurdu (13. yy ortası) → 'In 883 bc, under Ashurnasirpal II, it became the "
+                       "Assyrian capital' (yeni-asur). 612 yıkımı doğrulanmadı", "Concise Oxford Dictionary of Archaeology, 3. bs. 2021, «Nimrud» "
+                       "(Oxford, EMRELİC okuması); Livius", "KAYNAKLI"),
+    "Argos": ("antigonid-makedonya", "-0271-01-01", "bağımsız polis; 323 sonrası Makedon (Antigonos Gonatas) denetimi → 'In 229 bce Argos "
+              "entered the Achaean League' (akhaia-birligi). Denetim ilhak değil: KASA v: düşünmeli", "Oxford Encyclopedia of Ancient Greece "
+              "and Rome; OCD4 «Aratus (2)» (Oxford, EMRELİC okuması — çift)", "KAYNAKLI (aralık) — denetim/ilhak ayrımı beyanlı"),
+    "Thapsus (Tunus kıyısı)": ("roma-cumhuriyeti", "-0045-01-01", "savaş MÖ 46 (Oxford Companion to Classical Literature); şehrin sahiplik "
+                               "zinciri okunmadı", "Bellum Africum 79-86; Oxford (EMRELİC okuması)", "KAYNAK-GEREK (sahip; savaş yılı kaynaklı)"),
+    "Pharsalus (Tesalya)": ("roma-cumhuriyeti", "-0047-01-01", "Tesalya kenti, MÖ 6. yy'dan Phthiotis'te baskın (OCD4, Helly); savaş MÖ 48 — "
+                            "Makedon/Roma yılları okunmadı", "OCD4 «Pharsalus» (Oxford, EMRELİC okuması)", "KAYNAK-GEREK (sahip; ilk sahip polis)"),
+    "İpsos (Frigya)": ("antigonos-krallik", "-0300-01-01", "Antigonos'un Frigya'sı; MÖ 301'de Antigonos 'defeated and killed by Lysimachus and "
+                       "Seleucus' — sonraki sahip okunmadı", "Oxford (EMRELİC okuması); Diodoros 20.107-113", "KAYNAKLI (ilk sahip); ardıl KAYNAK-GEREK"),
+    "Musasir": ("urartu", "-0713-01-01", "Hasanlu'nun batısında Urartu yerleşimi; II. Sargon yağması (madde -714) Oxford'da doğrulanmadı",
+                "Oxford Encyclopedia of Archaeology in the Near East (EMRELİC okuması); Livius «Urartu»", "KAYNAKLI (aidiyet); yıl Livius"),
+})
+# Kronoloji düzeltme önerileri (KASA uygular; kronoloji dosyasına bu dalda yazılmadı)
+DUZELTME = [
+    ("data/olaylar_p0055.js — 1369-01-01 'Timurtaş Bey … Kızılcaağaç Yenicesi (Elhova) ve Yanbolu'yu aldı'",
+     "EMRELİC kararı: Yanbolu'nun Osmanlı fethi TDV «Yanbolu» esas → **1373** (eski görüş 766/1365). 1369 maddesi TDV «Murad I» ('herhalde 1369 "
+     "bahar ve yazı') ve «Timurtaş Paşa» (1367-1369) ile Elhova için kalır; 'Yanbolu' maddenin `b`/`yer` alanından çıkarılır ve 1373-01-01 "
+     "kesinlik:yil ayrı madde yazılır (ic_not: TDV yanbolu 1373 / 1365 + TDV murad-i 1369 — çelişki beyanı). Yanbolu noktasının Osmanlı "
+     "kırılması 1373-01-01 (Değişmez 2 bu maddeyle kapanır)."),
+    ("Kalhu (Nimrud) -0878-01-01 'II. Aşşurnasirpal Kalhu'yu başkent yaptı'",
+     "Oxford (Concise Oxford Dict. of Archaeology 2021): 'In 883 bc … Assyrian capital' → madde -0882-01-01 olmalı (astronomik yıl). "
+     "EMRELİC okuması arama alıntısıdır; KASA tam maddeyi okuyabilirse çift teyit."),
+]
+
 
 def kunye(sid, t):
     """Sahip kimliği devletler.js'te var mı, tarih f/t içinde mi."""
@@ -222,7 +273,9 @@ def h(s):
 
 c4 = collections.Counter(x.get("sinif") for x in K4)
 M = ["# KASA-YER — YER-1104'ün KASA'ya teslim özeti\n",
-     "Ölçen: LAB SALI · 4 Kasım 2026 · `kasa_yer.py` (dal lab-1104-yer6; yer6 turu: 26 KAYNAK-GEREK sahipten 13'ü TDV ve bölge "
+     "Ölçen: LAB SALI · 4 Kasım 2026 · `kasa_yer.py` (dal lab-1104-yer7; yer7 turu: kalan 13 KAYNAK-GEREK — Macar 3 MKL + TDV Erdel, "
+     "Barcs Magyar Rendészet 2021, Thânesâr TDV kısmen, antik 6 Oxford (EMRELİC okuması), Nazilli/Gediz bulunamadı; ⑤ düzeltme önerileri. "
+     "yer6 turu: 26 KAYNAK-GEREK sahipten 13'ü TDV ve bölge "
      "ansiklopedileriyle kaynaklandı — Hrvatska enciklopedija: Bileća, Slankamen; kalan 13 satırda denenen kaynak yazılı; Rumkale "
      "TDV tarifi + GeoNames ile konumlandı, İtil 'konum bilinmiyor'). Evren: kronolojinin `yer` alanında geçen, atlas yerleşimiyle "
      "eşleşmeyen 1.247 ad (`yer_sinifla.py`). EKSİK sınıfının **421 adının tamamı** işlendi (anılma sırasıyla, DUR listesi hariç; parti "
@@ -263,6 +316,8 @@ M += ["\n## ④ Konumu doğrulanamayan yerleşimler — koordinat yok (yanlış 
       "Parti 1-3'ün koordinatsız antik adayları PLEIADES.md ve TDV-KONUM.md'dedir; burada parti 4-5.\n",
       "| ad | neden | madde |", "|---|---|---|"]
 M += ["| %s | %s | %s — %s |" % (h(x["ad"]), h(x["not_"]), x["madde_t"], h(x["madde"][:70])) for x in KSZ]
+M += ["\n## ⑤ Kronoloji düzeltme önerileri (KASA uygular)\n", "| madde | öneri |", "|---|---|"]
+M += ["| %s | %s |" % (h(a), h(b)) for a, b in DUZELTME]
 open(os.path.join(BURA, "KASA-YER.md"), "w", encoding="utf-8", newline="\n").write("\n".join(M) + "\n")
 print("YAZIM", len(YZ), "EKLE", len(EK), "OLAY", len(OL), "sahipsiz", len(eksik_sahip), eksik_sahip[:20])
 print("parti4 sınıf", dict(c4))
