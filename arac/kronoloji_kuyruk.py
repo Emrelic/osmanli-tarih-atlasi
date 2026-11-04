@@ -36,6 +36,8 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # LAB Rus eski takvim turu (6dcdd2ad2) — karar bekleyen
+    "TK-RUS-096": "Vak'a-i Hayriye (kronoloji_rusya.js:507) 1826-06-15: takvim kayması DEĞİL (Osmanlı olayı, TDV Gregoryen); TDV «VAK'A-i HAYRİYYE» ilga 17 Haziran 1826, isyan 13 Haziran akşamı, 15 Haziran sancak-ı şerifin çıkarıldığı gün (Mehmed Dâniş maddesi, açılmadı) → madde «Ocak kaldırıldı» diyorsa 1826-06-17, «isyan bastırıldı» diyorsa 06-15; olaylar.js çekirdeğiyle birlikte karar (Değişmez 2)",
     "L2-1277": "Khongjom 1891-04-23 → 1891-04-25 adayı: London Gazette 26192 (14 Ağu 1891) s.4372 Graham raporu — Tamu kolonu 23 Nisan çıktı, Palel çatışması 25 Nisan; 23 Nisan Manipur resmî anma günü (Khongjom Parva) → olay kimliği (Khongjom mu Palel mi) netleşmeden uygulanmaz, ic_not iki kaynak",
     "L2-1311": "Aleksandr Mihayloviç Tver knezi 1325 → 1326 adayı: encyclopedia.com (Encyclopedia of Russian History) «In 1326, after Khan Uzbek had executed … Dmitry»; BRE arama özetinde 1326, sayfa 401 → tek dayanak encyclopedia.com (zayıf), ikinci teyit gelmeden uygulanmaz",
     # L2H 1575-1694 / L2L 1451-1550 (EMRELİC Academia Sinica turu)
@@ -883,7 +885,7 @@ def main():
                     is_, uyum = "tarih düzelt", "1600-12-31 Jülyen (İngiltere) → 1601-01-10 Gregoryen (takvim kuralı; KASA PAZAR uyguladı)"
                 elif is_.startswith(("tarih düzelt", "kaynak yenile")):
                     tk = takvim_kanadi(r)
-                    if tk and no not in TAKVIM_TEMIZ:
+                    if tk and no not in TAKVIM_TEMIZ and not no.startswith("TK-"):  # TK-*: takvim turunun kendisi
                         uyum = ("[TAKVİM KANADI KONTROL — %s kaynağı 1582 sonrası Jülyen olabilir (%s gün); "
                                 "kaynağın eski/yeni takvim olduğu belirlenmeden gün uygulanmaz] " % tk) + uyum
                 satir.append([parti, no, is_, r.get("dosya_satir", ""), r.get("tarih_atlas", ""), uyum,

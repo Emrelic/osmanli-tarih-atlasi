@@ -868,3 +868,52 @@ L2_426-450	L2-436	BULUNAMADI	data/devletler.js:15654 (gilbert-ellice-kolonisi#1)
 L2_426-450	L2-437	CEKILEMEDI	data/devletler.js:9757 (meysur-racaligi#8)	IV. Krishnaraja Wodeyar reşit olup yönetimi bizzat devraldı.	1902-02-08	Speeches by His Highness the Maharaja 1921 (arama ozeti); Wikipedia	tarayici denendi: navigasyon reddedildi. TARIH_DUZELT ADAYI: 1902-08-08 (yetki devri durbari); 8 Subat 1902 icin destek yok
 L2_426-450	L2-439	BULUNAMADI	data/devletler.js:18577 (italyan-somali#0)	İtalya Banaadir kolonisini resmen kurdu (Benadir şirketinin hakları devredildi).	1905-03-19	(akademik kaynak yok)	gun celisik; 19 Mart'i tutan kaynak yok
 L2_426-450	L2-444	BULUNAMADI	data/devletler.js:4368 (tubu-tibesti#5)	Mart 1911'de Derde'nin isteği üzerine Osmanlı garnizonları Tibesti'ye yerleşti; birkaç ay içinde Tubu saldırılarıyla çöktü (kaynak ay veriyor, gün yok).	1911-01-01	(akademik kaynak yok)	yil celisik (1908/1910/1911); akademik kaynak yok
+RUS_OS_001-012	TK-RUS-006	BULUNAMADI	data/kronoloji_rusya.js:167		1610-09-21	Znanie.Viki 1610 yili; prlib 619490 (Polsky korol prizvan)	FARKLI
+RUS_OS_013-024	TK-RUS-013	BULUNAMADI	data/yerlesimler_h2_rusya.js:435 Baturin		1649-08-18	Encyclopedia of Ukraine (CIUS), Zboriv, Treaty of	SINIR · KISMEN
+RUS_OS_013-024	TK-RUS-018	CEKILEMEDI	data/kronoloji_rusya.js:220		1670-05-01	Runivers: Kampaniya 1670 g. (Razin) - aday akademik kaynak, sayfa 404	FARKLI
+RUS_OS_013-024	TK-RUS-020	BULUNAMADI	data/kronoloji_rusya.js:242		1689-09-12	Runivers: Otstranenie ot vlasti tsarevny Sofi (637411) ve prlib 619263 - acilan sayfalarda gun yok	FARKLI
+RUS_OS_025-036	TK-RUS-025	BULUNAMADI	data/yerlesimler_h2_rusya.js:444 Taganrog		1698-09-12	Cyberleninka: Gradostroitelnoe razvitie Taganroga v 1698-1711 godakh (aday; acilan sayfada gun yok)	SINIR · FARKLI
+RUS_OS_025-036	TK-RUS-035	CEKILEMEDI	data/kronoloji_rusya.js:789		1714-01-28	Runivers takvim 20 Ocak (aday; sayfa govdesi bos geldi)	FARKLI
+RUS_OS_037-048	TK-RUS-041	BULUNAMADI	data/kronoloji_rusya.js:320		1722-07-29	Runivers: Persidsky pokhod (aday akademik/ansiklopedik kaynak; acilan sayfada gun yok)	KISMEN
+RUS_OS_037-048	TK-RUS-042	BULUNAMADI	data/yer_yama_kafkas_rusya.js:57 Derbend		1722-09-03	Runivers: Persidsky pokhod - Vzyatie Derbenta (acilan sayfada gun yok)	SINIR · KISMEN
+RUS_OS_037-048	TK-RUS-046	CEKILEMEDI	data/kronoloji_rusya.js:337		1730-02-25	Runivers takvim 8 Mart (aday; sayfa govdesi bos geldi)	FARKLI
+RUS_OS_037-048	TK-RUS-047	BULUNAMADI	data/yer_yama_kafkas_rusya.js:57 Derbend		1735-03-21	Runivers (Mezhdunarodnye dogovory, stranitsa 2); Cyberleninka: Kavkazskaya problema i Krymskoe khanstvo...	SINIR · KISMEN
+RUS_OS_037-048	TK-RUS-048	BULUNAMADI	data/kronoloji_rusya.js:342		1735-06-01	Runivers: Russko-turetskaya voina 1735-1739 gg.	FARKLI
+RUS_OS_049-054	TK-RUS-049	BULUNAMADI	data/yerlesimler_h2_rusya.js:422 Orsk		1735-08-31	Cyberleninka aday makaleler (Orenburgsky krai...; Kirilov); acilmadi/gun dogrulanmadi	SINIR · KISMEN
+RUS_OS_049-054	TK-RUS-050	BULUNAMADI	data/yer_yama_kafkas_rusya.js:57 Derbend		1736-03-08	Aday kaynak yok (Rus Eski Stil kapsami disi: safevi->afsar Iran donemi)	SINIR · KISMEN
+RUS_OS_049-054	TK-RUS-054	BULUNAMADI	data/kronoloji_rusya.js:804		1741-11-04	Runivers: Otkrytie i osvoenie Alyaski (acilan sayfada gun yok); Okhotina-Lind makalesi (Runivers)	FARKLI
+RUS_OS_055-066	TK-RUS-057	CEKILEMEDI	data/yer_yama_kafkas_rusya.js:57 Derbend		1747-06-20	Encyclopaedia Iranica 'NADER SHAH' (aday)	SINIR · KISMEN
+RUS_OS_055-066	TK-RUS-066	BULUNAMADI	data/kronoloji_rusya.js:824		1764-12-07	Entsiklopediya Sankt-Peterburga (encspb.ru) 'Эрмитаж'	KISMEN
+RUS_OS_067-078	TK-RUS-070	BULUNAMADI	data/kronoloji_rusya.js:386		1773-09-17	Znanie.Wiki 'Пугачёв, Емельян Иванович' (+ CyberLeninka 'Крестьянская война под предводительством Е. И. Пугачёва')	FARKLI
+RUS_OS_067-078	TK-RUS-076	BULUNAMADI	data/kronoloji_rusya.js:406		1787-08-19	TDV Islam Ansiklopedisi 'YUSUF PASA, Koca'	KISMEN
+RUS_OS_067-078	TK-RUS-077	BULUNAMADI	data/kronoloji_rusya.js:839		1790-05-22	Prezidentskaya biblioteka haber 'О жизни и творчестве Александра Радищева'	KISMEN
+RUS_OS_067-078	TK-RUS-078	BULUNAMADI	data/kronoloji_rusya.js:421		1795-10-24	CyberLeninka 'Россия и разделы Польши'	SINIR · UYUMLU
+RUS_OS_079-090	TK-RUS-082	CEKILEMEDI	data/kronoloji_rusya.js:444		1805-11-20	Znanie.Wiki 'Наполеоновские войны' (resim alt yazisi)	FARKLI
+RUS_OS_079-090	TK-RUS-088	CEKILEMEDI	data/kronoloji_rusya.js:480		1812-10-19	Runivers 'Перехват инициативы'	KISMEN
+RUS_OS_079-090	TK-RUS-090	BULUNAMADI	data/yer_yama_kafkas_rusya.js:20		1813-10-24	CyberLeninka 'Гюлистанский договор: 200 лет спустя'	SINIR · KISMEN
+RUS_OS_091-102	TK-RUS-092	CEKILEMEDI	data/kronoloji_rusya.js:495		1815-06-09	Runivers 'Венский конгресс 1814-1815' (aday)	KISMEN
+RUS_OS_091-102	TK-RUS-093	BULUNAMADI	data/kronoloji_cok_rusya.js:386		1824-04-08	e-history.kz 'В 1824 году был заложен город Каркаралы'	SINIR · KISMEN
+RUS_OS_091-102	TK-RUS-098	BULUNAMADI	data/kronoloji_rusya.js:513		1828-04-26	Znanie.Wiki 'Николай I' / prlib 'Русско-турецкая война 1828–1829 гг.' (acilan sayfalar)	KISMEN
+RUS_OS_103-108	TK-RUS-103	BULUNAMADI	data/kronoloji_rusya.js:849		1836-09-01	Runivers 'Чаадаев Петр Яковлевич'	KISMEN
+RUS_OS_103-108	TK-RUS-106	CEKILEMEDI	data/kronoloji_rusya.js:854		1842-05-21	Znanie.Wiki 'Мёртвые души' (+ aday: runivers takvim calendar2.php?ID=61557)	KISMEN
+RUS_OS_103-108	TK-RUS-107	BULUNAMADI	data/kronoloji_rusya.js:544		1849-06-01	CyberLeninka 'О значении русского похода 1849 г. для австро-угорских народов'	KISMEN
+RUS_OS_103-108	TK-RUS-108	BULUNAMADI	data/kronoloji_rusya.js:549		1853-10-04	Prezidentskaya biblioteka 'Началась Крымская война 1853–1856 гг.'	FARKLI
+RUS_OS_109-120	TK-RUS-111	BULUNAMADI	data/kronoloji_cok_rusya.js:416 rusya		1858-05-31	"kaynak aranmadı — bu satırdaki 1858-05-31 yalnız ic_not_t içinde ESKİ kayıt olarak geçiyor; güncel kayıt gun:""1858"" (yıl hassasiyeti)"	SINIR · KISMEN
+RUS_OS_109-120	TK-RUS-114	CEKILEMEDI	data/kronoloji_cok_rusya.js:424 hokand;rusya		1864-06-12	"ADAY: Большая российская энциклопедия «Кокандские походы»/«Туркестанские походы» (bigenc.ru) — HTTP 401, açılamadı. Açılan ЭСБЕ «Туркестан, город»: yalnız ""1864 г."" (gün yok)"	SINIR · KISMEN
+RUS_OS_109-120	TK-RUS-115	CEKILEMEDI	data/kronoloji_cok_rusya.js:429 hokand;rusya		1864-09-22	"ADAY: Большая российская энциклопедия «Кокандские походы» (bigenc.ru) — HTTP 401. Açılan ЭСБЕ «Чимкент»: 19 Eylül kuşatma + ""iki gün sonra""; ЭСБЕ «Ташкент»: «после взятия Чимкента (27 сентября)» — iki ESBE maddesi çelişiyor, stil belirtilmemiş"	SINIR · KISMEN
+RUS_OS_109-120	TK-RUS-117	CEKILEMEDI	data/kronoloji_rusya.js:584		1865-06-29	ЭСБЕ «Ташкент» (Brockhaus-Efron, Wikisource); ADAY: BRE «Кокандские походы» (bigenc.ru) HTTP 401	SINIR · KISMEN
+RUS_OS_109-120	TK-RUS-118	BULUNAMADI	data/kronoloji_cok_rusya.js:434 hokand;rusya		1866-05-24	ЭСБЕ «Ходжент» (Brockhaus-Efron, Wikisource)	SINIR · KISMEN
+RUS_OS_109-120	TK-RUS-120	BULUNAMADI	data/kronoloji_rusya.js:595		1868-06-02	ЭСБЕ «Бухара, ханство в Средней Азии» (Brockhaus-Efron, Wikisource)	SINIR · KISMEN
+RUS_OS_121-132	TK-RUS-125	BULUNAMADI	data/kronoloji_rusya.js:622		1876-02-19	ЭСБЕ «Кокандское ханство» (Brockhaus-Efron, Wikisource); TDV İslâm Ansiklopedisi «Hokand Hanlığı» (ay düzeyi)	SINIR · KISMEN
+RUS_OS_121-132	TK-RUS-126	CEKILEMEDI	data/kronoloji_rusya.js:874		1877-02-27	ADAY: Большой театр resmî sayfası bolshoi.ru/performances/36/details — HTTP 401, açılamadı	KISMEN
+RUS_OS_121-132	TK-RUS-132	BULUNAMADI	data/kronoloji_rusya.js:651		1881-08-27	Presidential Library prlib.ru kütüphane kaydı item/802031 (ПСЗ başlığı)	FARKLI
+RUS_OS_133-144	TK-RUS-133	BULUNAMADI	data/kronoloji_rusya.js:879		1883-09-25	ЭСБЕ «Плеханов, Георгий Валентинович» (Brockhaus-Efron, Wikisource)	UYUMLU
+RUS_OS_133-144	TK-RUS-134	BULUNAMADI	data/kronoloji_rusya.js:663		1891-05-19	ЭСБЕ «Сибирская железная дорога» (Brockhaus-Efron, Wikisource), inşaat tablosu	KISMEN
+RUS_OS_133-144	TK-RUS-135	BULUNAMADI	data/kronoloji_rusya.js:884		1892-08-15	Tretyakov Galerisi resmî tarih sayfası «Передача Галереи П. М. Третьяковым в дар Москве»	FARKLI
+RUS_OS_133-144	TK-RUS-136	BULUNAMADI	data/kronoloji_rusya.js:668		1894-01-04	Runivers «Письмо Гирса послу Монтебелло» (belge)	KISMEN
+RUS_OS_133-144	TK-RUS-138	BULUNAMADI	data/kronoloji_rusya.js:681		1896-05-30	Presidential Library prlib.ru haber «Николай II: счастье в личной жизни...»	UYUMLU
+RUS_OS_133-144	TK-RUS-142	BULUNAMADI	data/kronoloji_rusya.js:691		1904-02-08	Presidential Library prlib.ru «День в истории» — Началась русско-японская война 1904-1905 гг.	FARKLI
+RUS_OS_145-156	TK-RUS-146	CEKILEMEDI	data/kronoloji_rusya.js:701		1905-06-27	ADAY: Руниверс «Восстание на броненосце Потёмкин» (runivers.ru/conflicts/actions/vosstanie_na_bronenostse_potemkin/) — HTTP 404, açılamadı	UYUMLU
+RUS_OS_145-156	TK-RUS-151	BULUNAMADI	data/kronoloji_rusya.js:727		1911-09-14	Presidential Library prlib.ru «День в истории» — Родился Пётр Аркадьевич Столыпин	KISMEN
+RUS_OS_145-156	TK-RUS-154	BULUNAMADI	data/kronoloji_rusya.js:737		1914-08-26	Presidential Library prlib.ru «День в истории» — Началась Восточно-Прусская операция	KISMEN
+RUS_OS_145-156	TK-RUS-155	BULUNAMADI	data/kronoloji_rusya.js:914		1916-10-18	ВЭ «Амурская железная дорога» (Wikisource, Sytin) — açılan sayfada 1916 açılış günü yok	KISMEN
