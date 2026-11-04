@@ -26,11 +26,11 @@
   "d": "rusya-federasyonu",
   "f": "1991-12-26",
   "satir": 94,
-  "hukum": "ONERI",
-  "kaynak": "history.state.gov milestones: Collapse of the Soviet Union (Office of the Historian)",
-  "alinti": "On December 25, 1991, the Soviet hammer and sickle flag lowered for the last time",
+  "hukum": "KAYNAKLI",
+  "kaynak": "Декларация Совета Республик Верховного Совета СССР от 26.12.1991 № 142-Н (Ведомости Верховного Совета СССР, 1991, № 52; ru.wikisource nakli) — LAB SALI L2-2443 DOGRULANDI (lab-1104-kunye denetim/KRONOLOJI-1104/oneri_L2L_1987-1998_dogrulama.tsv)",
+  "alinti": "Союз ССР как государство и субъект международного права прекращает свое существование.",
   "oneri": {},
-  "not": "Sayfa 26 Aralik vermiyor; 25 Aralik (bayrak, Gorbacov istifasi) ayri olay. Devamcilik cumlesi de yok. 1991-12-26 (142-N) icin kaynak BULUNAMADI; Kremlin/Duma/BM yazismasi bakilmadi. Kunye f = kume f tutarli. ULKE DUZEYI, 94 yerlesim tek olay."
+  "not": "KARAR EMRELİC (5 Kas): 142-N 1991-12-26 birincil metin (devamcı devlet kuralı); history.state.gov 12-25 Gorbaçov istifası ic_not'a. | Sayfa 26 Aralik vermiyor; 25 Aralik (bayrak, Gorbacov istifasi) ayri olay. Devamcilik cumlesi de yok. 1991-12-26 (142-N) icin kaynak BULUNAMADI; Kremlin/Duma/BM yazismasi bakilmadi. Kunye f = kume f tutarli. ULKE DUZEYI, 94 yerlesim tek olay."
  },
  {
   "alan": "s",
@@ -642,7 +642,7 @@
   "kaynak": "history.state.gov/countries/germany",
   "alinti": "was created out of the American, British, and French zones on September 21, 1949",
   "oneri": {},
-  "not": "Kaynak 21 Eylul 1949 diyor; atlas 1949-05-23 (Temel Yasa ilani). Celiski beyan: secim yapmadim; 23 Mayis icin Bundestag/Bundesregierung kaynagi bakilmadi. Kunye f=kume f."
+  "not": "KARAR EMRELİC (5 Kas): f 1949-05-23 KALIR (Grundgesetz ilanı = devletin kuruluşu); Bundesarchiv/bundestag.de ile teyit edilecek. 09-21 İşgal Statüsü ve hükûmet ic_not'a. Müttefik işgali (1955-05-05'e dek) isg katmanı ayrı soru, şimdi dokunulmaz. | Kaynak 21 Eylul 1949 diyor; atlas 1949-05-23 (Temel Yasa ilani). Celiski beyan: secim yapmadim; 23 Mayis icin Bundestag/Bundesregierung kaynagi bakilmadi. Kunye f=kume f."
  },
  {
   "alan": "s",
@@ -849,6 +849,6 @@
   "oneri": {
    "alan": "v"
   },
-  "not": "Yil duzeyi okundu; 12 Mayis 1881 gunu arama ozetinde, sayfada cikmadi. ALAN SORUSU: Tunus himayedir (La Marsa 8 Haziran 1883 acikca himaye); Cinhindi kurali (Annam/Tonkin v:fransa) geregi alan isg yerine v:fransa mi olmali? Kaynak alani secmiyor; EMRELIC karari."
+  "not": "KARAR EMRELİC (5 Kas): Tunus himaye = v: fransa 1881-05-12 → 1956-03-20 (Mısır/Annam emsali, gece-22 KURAL UYGULAMASI); isg değil. Altta s: tunus-beyligi-fransiz (künye var: devletler.js:9727, f 1881-05-12, t 1956-03-20). v: osmanli varsa 1881-05-12'de biter; ic_not 'Osmanlı Bardo'yu tanımadı; haklar Lozan 1923 ile'. Bütün Tunus yerleşimlerinde isg fransa katmanı v:'ye çevrilir. | Yil duzeyi okundu; 12 Mayis 1881 gunu arama ozetinde, sayfada cikmadi. ALAN SORUSU: Tunus himayedir (La Marsa 8 Haziran 1883 acikca himaye); Cinhindi kurali (Annam/Tonkin v:fransa) geregi alan isg yerine v:fransa mi olmali? Kaynak alani secmiyor; EMRELIC karari."
  }
 ]
