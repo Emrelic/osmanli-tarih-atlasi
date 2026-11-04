@@ -37,33 +37,33 @@
   "d": "brezilya-cumhuriyeti",
   "f": "1889-11-15",
   "satir": 32,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: planalto.gov.br Decreto nº 1 de 15/11/1889 (erişim engeli/blok sayfası döndü)",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "Senado Federal, Legislação: Decreto nº 1, de 15 de novembro de 1889 (Governo Provisório) - https://legis.senado.leg.br/norma/385329/publicacao/15772955",
+  "alinti": "Fica proclamada provisoriamente e decretada como a forma de governo da Nação brasileira",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Resmî mevzuat metni (Decreto nº 1, 15 Kasım 1889) açılamadı. Gün genel bilgiyle 15 Kasım 1889 (Cumhuriyet ilanı) olup künye ile tutarlı; kaynakla kapatılmadı. Bilinen istisna: Acre (1903 Petrópolis'e kadar Bolivya), Misiones/Cisplatina yok (1828'de ayrıldı)."
+  "not": "Cumhuriyet 15 Kasım 1889 kararnamesiyle ilan; künye f ile tutarlı. planalto.gov.br bot engeli verdi, Senato metni okundu."
  },
  {
   "alan": "s",
   "d": "tbmm-turkiye",
   "f": "1920-04-23",
   "satir": 28,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: tbmm.gov.tr/Home/Tarihce (308 yönlendirme sonra 404)",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "TDV İslâm Ansiklopedisi, 'Türkiye Büyük Millet Meclisi' - https://islamansiklopedisi.org.tr/turkiye-buyuk-millet-meclisi",
+  "alinti": "23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. KURAL KARARI: TBMM 1920-04-23'te başlar (atlas kuralı); kaynak sorgusu gerekmiyor. Künye f=küme f. Bilinen istisna: işgal altındaki yerler (Yunan/Fransız/İtilaf işgali, Mersin emsali) 'd: osmanli + isg' yazılır, s: tbmm fiilî teslim gününden başlar."
+  "not": "Meclisin açılışı 23 Nisan 1920 teyitli. Aynı madde: hükûmet 24 Nisan'daki teklifle değil, 2 Mayıs 1920 kanununun kabulünden sonra kuruldu. Künye 'TBMM Hükümeti' f=23 Nisan meclis açılışına dayanıyor; hükûmet kuruluşu 1920-05-02 — f'yi açılış günü tutmak Emre kararı."
  },
  {
   "alan": "s",
   "d": "etiyopya-derg",
   "f": "1974-09-12",
   "satir": 27,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: countrystudies.us/ethiopia/18.htm (yanlış sayfa, Eritre İtalyan idaresi), akademik arama (UMD MAR kronolojisi, Fordham ILJ, Case Western) 12 Eylül 1974'ü net vermedi",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "Library of Congress Country Studies, Ethiopia, 'The Establishment of the Derg' - http://countrystudies.us/ethiopia/28.htm",
+  "alinti": "the Derg formally deposed Haile Selassie on September 12 and imprisoned him.",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Haile Selassie'nin Derg tarafından azli 12 Eylül 1974 (genel bilgi) kaynakla okunamadı. Arama özeti: MAR (UMD) Addis Ababa'nın EPRDF'ce alınışı 28 Mayıs 1991 (sayfa açılmadı) -> künye t / küme t 1991-05-29 ile 1 gün fark olasılığı, doğrulanmadı. Künye f=küme f. Bilinen istisna: Eritre ayrılma süreci (Nakfa, Arkîko, Kerene 1991-05-24 vb. EPLF denetimi - t_dagilim 1991-05-24)."
+  "not": "12 Eylül 1974 teyitli; künye f tutarlı. Derg 15 Eylül'de PMAC adını aldı (aynı kaynak)."
  },
  {
   "alan": "s",
@@ -103,33 +103,35 @@
   "d": "avustralya",
   "f": "1901-01-01",
   "satir": 24,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: legislation.gov.uk Commonwealth of Australia Constitution Act 1900 (63 & 64 Vict. c.12) — madde 3 yalnız 'bir yıl içinde belirlenecek gün' diyor; naa.gov.au zaman aşımı",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "Senate of Australia, First Parliament - Origins: The Declaration - https://firstparliament.senate.gov.au/origins/declaration",
+  "alinti": "The Commonwealth of Australia was established on 1 January 1901",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Mevzuat metni 9 Temmuz 1900 tarihli Yasa'nın Kraliçe bildirisiyle 'belirlenen gün'den itibaren Federal Commonwealth kuracağını söylüyor ama 1 Ocak 1901'i vermiyor (bildiri 17 Eylül 1900, genel bilgi, okunmadı). Künye f=küme f. Bilinen istisna: Kuzey Toprakları 1911'e kadar Güney Avustralya'ya bağlı (Commonwealth'e devir 1911-01-01); Papua ayrı."
+  "not": "Künye f=1901-01-01 tutarlı. (Proclamation 17 Eylül 1900 tarihli, yürürlük günü 1 Ocak 1901.)"
  },
  {
   "alan": "s",
   "d": "etiyopya-gecis-hukumeti",
   "f": "1991-05-29",
   "satir": 22,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: UMD MAR kronolojisi (mar.umd.edu/chronology.asp?groupId=53006) arama özeti - sayfa açılmadı",
-  "alinti": "",
-  "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Arama özeti (okunmadı): EPRDF 28 Mayıs 1991'de Addis Ababa'yı aldı; Geçiş Hükümeti Temmuz 1991 ulusal konferansında kuruldu. Eğer doğrulanırsa 1991-05-29 (Derg t ve TGE f) hükümet kuruluşundan (Temmuz 1991) önce; önerilen: f ay hassasiyeti '1991-07' ya da 28 Mayıs ele geçirme, kaynak sayfasını açarak teyit edilmeli. Künye f=küme f. Bilinen istisna: Eritre (fiilen EPLF, 1991-05-24 t farkı)."
+  "hukum": "ONERI",
+  "kaynak": "Library of Congress Country Studies, Ethiopia, 'The Demise of the Military Government' - http://countrystudies.us/ethiopia/141.htm",
+  "alinti": "On the night of May 27-28, EPRDF forces marched into Addis Ababa",
+  "oneri": {
+   "f": "1991-05-28"
+  },
+  "not": "LoC: EPRDF 27-28 Mayıs gecesi Addis Ababa'ya girdi, şehri ve ulusal hükûmeti denetime aldı; 29 Mayıs hiçbir kabul kaynakta okunmadı. Resmî Geçiş Hükümeti LoC'ye göre Temmuz 1991 başına ertelendi (charter günü okunamadı). Karar: 28 Mayıs (fiilî iktidar) ya da Temmuz 1991 (kurumsal kuruluş) — Emre'ye. Künye f=05-29 kaynakta yok."
  },
  {
   "alan": "s",
   "d": "etiyopya-federal",
   "f": "1995-08-22",
   "satir": 22,
-  "hukum": "BAKILMADI",
-  "kaynak": "Aranmadı (bütçe). 1994 Anayasası 8 Aralık 1994 kabul, FDRE 22 Ağustos 1995 kuruldu - genel bilgi",
+  "hukum": "BULUNAMADI",
+  "kaynak": "Bakılan: constituteproject.org Ethiopia 1994 (yürürlük maddesi yok), natlex.ilo.org (403), LoC countrystudies 37.htm (1995 yok). WebSearch ipucu (Vikipedi/NATLEX): yürürlük 21 Ağustos 1995",
   "alinti": "",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Künye f=küme f. Eritre 1993-05-24 bağımsız (küme kapsamı dışında kalmalı)."
+  "not": "Anayasa 8 Aralık 1994 kabul (constituteproject önsöz). Yürürlük günü 21 mi 22 Ağustos 1995 — kabul kaynakta okunamadı; ipucu 21 Ağustos. Künye f=22 kontrol edilmeli."
  },
  {
   "alan": "s",
@@ -147,22 +149,22 @@
   "d": "habesistan",
   "f": "1941-11-30",
   "satir": 21,
-  "hukum": "BAKILMADI",
-  "kaynak": "Aranmadı (bütçe)",
-  "alinti": "",
+  "hukum": "BULUNAMADI",
+  "kaynak": "Bakılan: UNESCO General History of Africa VIII (archive.org general_history_africa_viii, 'Gondar' YOK); WebSearch (yalnız Vikipedi/gazete) Gondar teslimi 27 Kasım 1941",
+  "alinti": "On 5 May 1941, Emperor Haile Selassie was able to return to the Ethiopian capital.",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ, ŞÜPHELİ. 1941-11-30 'restorasyon' günü olarak tanınmıyor: Haile Selassie 5 Mayıs 1941 Addis Ababa'ya döndü; Gondar'daki son İtalyan direnişi 27 Kasım 1941'de teslim oldu (genel bilgi, kaynaksız). Kaynak okunarak 1941-05-05 / 1941-11-27 ayrımı yapılmalı. Künye 1270-01-01 → 1974-09-12 içinde."
+  "not": "GHA VIII yalnız 5 Mayıs 1941 Addis dönüşünü verir; 30 Kasım günü kabul kaynakta yok. Gondar teslimi 27 Kasım (yalnız ipucu). Yerleşim bazlı: Addis/Harar 5 Mayıs 1941, Gondar bölgesi 27 Kasım 1941. Künye f=1270 (ömür tamam)."
  },
  {
   "alan": "s",
   "d": "rusya",
   "f": "1547-01-16",
   "satir": 20,
-  "hukum": "BAKILMADI",
-  "kaynak": "Aranmadı (bütçe)",
-  "alinti": "",
+  "hukum": "ONERI",
+  "kaynak": "EBSCO Research Starters, 'Coronation of Ivan the Terrible' - https://www.ebsco.com/research-starters/history/coronation-ivan-terrible",
+  "alinti": "January 16, 1547",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. TAKVİM: IV. İvan'ın çar olarak taç giymesi 16 Ocak 1547 Jülyen'dir (genel bilgi); aynı gün Gregoryen karşılığı 26 Ocak 1547 olur (16. yy farkı 10 gün). Atlas 1547-01-16 yazıyorsa Jülyen etiketi taşıyor olabilir -> kaynakla doğrulanıp ONERI 1547-01-26 mı yoksa takvim beyanı mı karar verilmeli. Künye f=küme f. Bilinen istisna: 1547'de Rus devletinin (Moskova Büyük Knezliği) dışında olan topraklar (Kola/Solovki dahil olanlar sonra katıldı)."
+  "not": "LAB PAZAR: kaynak hakemli/akademik değil (EBSCO Research Starters / RVIO portalı) — KAYNAKLI'dan indirildi. | Kaynak 16 Ocak 1547'yi veriyor (Jülyen; Gregoryen karşılığı 26 Ocak). Kaynak OS belirtmiyor; takvim türü beyan edilmeli. Referans-ansiklopedi düzeyi, zayıf KAYNAKLI. Kreml.ru 404, prlib bot kontrolü. Künye f tutarlı."
  },
  {
   "alan": "s",
@@ -191,11 +193,13 @@
   "d": "fransa-cumhuriyet",
   "f": "1792-09-22",
   "satir": 18,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: arama (assemblee-nationale.fr dönmedi; Vikipedi/okul siteleri yalnız ipucu)",
-  "alinti": "",
-  "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Arama özeti (akademik değil, ipucu): Konvansiyon krallığı 21 Eylül 1792'de kaldırdı; 22 Eylül'de resmî yazışmalar 'Cumhuriyetin I. Yılı' ile tarihlendi (Cumhuriyet'in ilanı bazı kaynaklarca 22 Eylül). Gün 21 mi 22 mi karar verilmeli; Archives parlementaires/Journal de la Convention gerekir. Künye f=küme f. Bilinen istisna: 1792'de işgal altındaki/henüz ilhak edilmemiş yerler (Savoie 1792-11, Nice, Belçika 1795), t=1810-12-03 (Hollanda ilhakı) ve 1960 (Mali Federasyonu) satırları kendi başlangıçlarına sahip."
+  "hukum": "ONERI",
+  "kaynak": "Larousse, 'Convention nationale' - https://www.larousse.fr/encyclopedie/divers/wd/114563",
+  "alinti": "l'abolition de la royauté et la proclamation de la République (21 septembre)",
+  "oneri": {
+   "f": "1792-09-21"
+  },
+  "not": "Larousse 21 Eylül 1792 (Konvansiyon ilk günü: krallığın kaldırılması ve Cumhuriyet). 22 Eylül = Yıl I başlangıcı/tarihleme kararı (yalnız ipucu kaynaklar). Karar Emre'de."
  },
  {
   "alan": "s",
@@ -215,11 +219,11 @@
   "d": "brezilya-imparatorlugu",
   "f": "1822-09-07",
   "satir": 17,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: arama (dpedroiv.parquesdesintra.pt kronolojisi, ANPUH, USP dijital arşiv özetleri; sayfa açılmadı), planalto.gov.br engelli",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "gov.br/dnocs, 'Selo Bicentenário marca 200 anos da Independência do Brasil' - https://www.gov.br/dnocs/pt-br/assuntos/noticias/selo-bicentenario-marca-200-anos-da-independencia-do-brasil",
+  "alinti": "deu o brado da independência, desvinculando o Brasil de Portugal",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Arama özeti: Bağımsızlık ilanı (Grito do Ipiranga) 7 Eylül 1822; İmparator olarak aklanma 12 Ekim 1822; taç giyme 1 Aralık 1822. Hangi günün imparatorluğun başlangıcı olduğu kaynakla okunmadı. Künye f=küme f=7 Eylül. Bilinen istisna: Montevideo/Cisplatina (t 1828-08-27), Bahia/Maranhão/Pará'da 1823'e kadar Portekiz direnişi (fiilî kontrol sonradan)."
+  "not": "7 Eylül 1822 bağımsızlık; imparator ilanı (aclamação) 12 Ekim 1822, taç 1 Aralık 1822 (yalnız ipucu kaynaklar). USP makalesi PDF okunamadı. Resmî tarih 7 Eylül, künye tutarlı."
  },
  {
   "alan": "s",
@@ -296,33 +300,35 @@
   "d": "belcika-kongo",
   "f": "1908-11-15",
   "satir": 16,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: Frederick Starr, 'The Congo Free State and Congo Belge' (JSTOR pdf, WWU kopyası - metin okunamadı); arama özeti",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "M. Zimmermann, 'L'annexion de l'État Indépendant du Congo par la Belgique', Annales de Géographie 1909, s.92 - https://www.persee.fr/doc/geo_0003-4010_1909_num_18_97_6769",
+  "alinti": "le 15 novembre 1908 la Belgique est entrée dans exercice de son droit de souveraineté",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Arama özeti (okunmadı): Belçika Meclisi ilhakı Eylül 1908'de onayladı (9 Eylül), Kolonyal Şart yasası 18 Ekim 1908, devir 15 Kasım 1908 (Boma töreni). TEK ÖLÇÜ: devir (teslim) günü 15 Kasım 1908 -> atlas doğru görünüyor; kaynak sayfası açılıp doğrulanmalı. Künye f=küme f. Bilinen istisna: Ruanda-Urundi (1916/1922 mandası, ayrı), Lado Enklavı (1910)."
+  "not": "İkinci kaynak: CRISP Courrier hebdomadaire 1985 (Cairn) 15 Kasım 1908. Yasa kraliyet onayı 18 Ekim 1908; yürürlük/fiilî devir 15 Kasım (TEK ÖLÇÜ: fiilî devir günü)."
  },
  {
   "alan": "s",
   "d": "italya-cumhuriyeti",
   "f": "1946-06-18",
   "satir": 14,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: quirinale.it (403)",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "Treccani, 'Costituzione' (Il Libro dell'Anno) - https://www.treccani.it/enciclopedia/costituzione_(Il-Libro-dell'Anno)/",
+  "alinti": "I risultati definitivi del referendum furono proclamati dalla Corte di Cassazione il 18 giugno",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Resmî Quirinale sayfası erişilemedi. Genel bilgi (kaynaksız): 2 Haziran 1946 referandum; Cassazione 18 Haziran 1946'da sonucu ilan etti; cumhuriyetin resmî ilanı/yürürlüğü 18 Haziran (bazı kaynaklar 2 Haziran). Gün seçimi kaynakla yapılmalı. Künye f=küme f. Bilinen istisna: Trieste/Venezia Giulia (1947-54 STT), Istria/Zara (Paris 1947-02-10 Yugoslavya'ya), Tarvisio/Brindisi dışı alanlar (1946'da İtalya sınırı)."
+  "not": "Referandum 2 Haziran; Yargıtay 10 Haziran'da ön sonuçları, 18 Haziran'da kesin sonuçları ilan etti (Senato/Quirinale özetleri 10 Haziran'ı da verir; quirinale.it ve senato.it 403). Künye f tutarlı."
  },
  {
   "alan": "s",
   "d": "guney-ming",
   "f": "1644-04-25",
   "satir": 14,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: arama (yalnız Vikipedi aynaları; Cambridge History of China cilt 7 erişilemedi)",
-  "alinti": "",
-  "oneri": {},
-  "not": "ÜLKE DÜZEYİ, SORUNLU. 1644-04-25 Chongzhen'in intihar günüdür (Ming'in sonu), Güney Ming'in başlangıcı değil. Aramada (Vikipedi aynaları, YALNIZ İPUCU): Güney Ming'in ilk sarayı Hongguang (Zhu Yousong) 19 Haziran 1644'te Nanjing'de tahta çıktı; Nanjing 6 Haziran 1645'te düştü. Kabul edilmiş kaynak okunamadığından ONERI yazılmadı; bu gün (1644-06-19) kaynakla teyit edilirse f değişmeli. Takvim: Çin ay-güneş günleri elle çevrilmedi. t_dagilim 1645-06-08 vb. farklı saray/bölge uçları - teyit edilmedi. Künye f=küme f=1644-04-25 (künye de aynı sorunu taşıyor: LAB'a)."
+  "hukum": "ONERI",
+  "kaynak": "Mingshi (Qing resmî tarihi), juan 120, Fu wang (Zhu Yousong) - metin zh.wikisource.org/wiki/明史/卷120",
+  "alinti": "五月庚寅，稱監國。",
+  "oneri": {
+   "f": "1644-06-07"
+  },
+  "not": "KARAR EMRELİC (5 Kas): guney-ming f 1644-06-07 (監國, Chongzhen 17/5/3, Academia Sinica); ming-hanedani t 1644-06-06; tahta çıkış 1644-06-19 ic_not; HAYALET-UYGULA'da (LAB SALI fa773d0b0). | MİNGSHİ AYNEN (崇禎十七年, 京師失守 sonrası): '五月庚寅，稱監國。' ve '壬寅自立於南京，偽號弘光。' Ay-güneş günleri ÇEVRİLMEDİ (ganzhi 庚寅 / 壬寅, 五月). Güney Ming ruhsatı 崇禎十七年五月 (监国 / ardından Hongguang), 1644-04-25 ise Chongzhen'in ölümü = Kuzey Ming sonu; Nan Ming f'si bu gün OLAMAZ. Batı karşılığı akademik kaynakla (ör. Cambridge History of China 7) tablo çevirisi gerek; yalnız ipucu: Vikipedi 五月三日 監國 / 十五日 登基. Öneri: f yıl-ay hassasiyeti '1644-05' + ic_not beyanı veya tablo çevirisi sonrası gün."
  },
  {
   "alan": "s",
@@ -334,5 +340,172 @@
   "alinti": "İngiltere, 18 Aralık 1914'te tek taraflı olarak Osmanlı hükümranlık haklarını kaldırıp Mısır'ı himayesine aldı.",
   "oneri": {},
   "not": "ÜLKE DÜZEYİ. Himaye ilanı günü teyitli. TDV t: 'İngiltere 28 Şubat 1922'de tek taraflı olarak Mısır'ı bağımsız devlet ilân etti'; 'Sultan Ahmed Fuâd 15 Mart 1922'de kral unvanını aldı' (künye t=1922-03-15 uyumlu). Künye f=küme f. Bilinen istisna: Sina (Osmanlı denetiminde 1914-18), Vâdî Halfâ/Sudan ayrı."
+ },
+ {
+  "alan": "s",
+  "d": "misir-kralligi",
+  "f": "1922-03-15",
+  "satir": 14,
+  "hukum": "KAYNAKLI",
+  "kaynak": "TDV İslâm Ansiklopedisi, 'Abbas Hilmi II' - https://islamansiklopedisi.org.tr/abbas-hilmi-ii",
+  "alinti": "Hüseyin Kâmil’in yerine “kral” unvanıyla Fuad’ın getirilmesiyle (15 Mart 1922)",
+  "oneri": {},
+  "not": "Çift: TDV 'Mısır' maddesi (arama özeti) de 15 Mart 1922; TDV 'Sa‘d Zağlûl' bağımsızlık beyanı 28 Şubat 1922 (ipucu, okunmadı). Künye f tutarlı."
+ },
+ {
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "satir": 14,
+  "hukum": "ONERI",
+  "kaynak": "TDV İslâm Ansiklopedisi, 'Abbas Hilmi II' - https://islamansiklopedisi.org.tr/abbas-hilmi-ii",
+  "alinti": "19 Aralık 1914’te İngiltere Mısır’ı himayesine aldı",
+  "oneri": {
+   "f": "1914-12-19"
+  },
+  "not": "TDV 19 Aralık 1914 (himaye); TDV 'Hüseyin Kâmil' 20 Aralık 1914 tahta çıkış (arama özeti). 18 Aralık hiçbir kabul kaynakta okunmadı. ÖLÇÜT: idareye katma değil, 'himaye' (korumalı devlet) — isg/s seçimi Emre. KÜNYE: ingiltere künye f=0927-01-01 (dönem içinde, aşım yok)."
+ },
+ {
+  "alan": "s",
+  "d": "somali-cumhuriyeti",
+  "f": "1960-07-01",
+  "satir": 14,
+  "hukum": "KAYNAKLI",
+  "kaynak": "U.S. Dept of State, Office of the Historian, Somalia country page - https://history.state.gov/countries/somalia",
+  "alinti": "The United States recognized the Somali Republic on July 1, 1960.",
+  "oneri": {},
+  "not": "LoC Somalia Country Study (arama özeti): British Somaliland 26 Haziran 1960 bağımsız, 1 Temmuz 1960'ta Trust Territory ile birleşip Somali Cumhuriyeti. Okunan: Office of the Historian. Künye f tutarlı."
+ },
+ {
+  "alan": "s",
+  "d": "isvec",
+  "f": "1523-06-06",
+  "satir": 14,
+  "hukum": "KAYNAKLI",
+  "kaynak": "Svenskt biografiskt lexikon, 'Gustav I' - https://sok.riksarkivet.se/sbl/artikel/13315",
+  "alinti": "vald till konung i Strängnäs 6 juni",
+  "oneri": {},
+  "not": "6 Haziran 1523 Jülyen (Gregoryen karşılığı 16 Haziran — yalnız ipucu). Künye f tutarlı. Not: seçilme günü; Stockholm teslimi 1523-06-20 ayrı olay."
+ },
+ {
+  "alan": "s",
+  "d": "libya-ingiliz-askeri-idaresi",
+  "f": "1943-01-23",
+  "satir": 13,
+  "hukum": "BULUNAMADI",
+  "kaynak": "Library of Congress Country Studies, Libya - http://countrystudies.us/libya/24.htm",
+  "alinti": "Tripoli fell to the British in January 1943",
+  "oneri": {},
+  "not": "LoC yalnız 'Ocak 1943' veriyor (ay); 23 Ocak günü kabul kaynakta okunmadı (ipucu: Vikipedi). KÜNYE UYUŞMAZLIĞI: künye f=1943-01-01, küme f=1943-01-23 — künye gün olarak teyitsiz. Fezzan Fransız idaresi (Ocak 1943, aynı kaynak) ayrı polity. Önerilen: ay hassasiyeti '1943-01' + beyan veya Tripoli düşüş günü için akademik kaynak."
+ },
+ {
+  "alan": "s",
+  "d": "libya-krallik",
+  "f": "1951-12-24",
+  "satir": 13,
+  "hukum": "KAYNAKLI",
+  "kaynak": "Library of Congress Country Studies, Libya - http://countrystudies.us/libya/26.htm",
+  "alinti": "proclaimed the independence of the United Kingdom of Libya",
+  "oneri": {},
+  "not": "LoC: 24 Aralık 1951'de Idris tahta çıkıp bağımsızlığı ilan etti. Künye f tutarlı."
+ },
+ {
+  "alan": "s",
+  "d": "libya-cumhuriyet-cemahiriye",
+  "f": "1969-09-01",
+  "satir": 13,
+  "hukum": "KAYNAKLI",
+  "kaynak": "Library of Congress Country Studies, Libya, 'The September 1969 Coup' - http://countrystudies.us/libya/28.htm",
+  "alinti": "initial proclamation on September 1",
+  "oneri": {},
+  "not": "1 Eylül 1969 darbe ve Libya Arap Cumhuriyeti ilanı. Küme adı 'Cumhuriyet-Cemahiriye': Jamahiriya ilanı (1977) bu sayfada yok; 1969 f yalnız Libya Arap Cumhuriyeti'ni teyit eder. Künye ayrıştırması öneri."
+ },
+ {
+  "alan": "s",
+  "d": "moskova",
+  "f": "1478-01-15",
+  "satir": 13,
+  "hukum": "ONERI",
+  "kaynak": "Rus Askerî-Tarih Cemiyeti portalı (History.RF / Историко-культурный стандарт), 'Присоединение Новгорода к Московскому государству' - https://history.ru/read/articles/prisoiedinieniie-novghoroda-k-moskovskomu-ghosudarstvu",
+  "alinti": "15 января 1478 года Новгород сдался, а бояре окончательно признали Ивана III своим государем",
+  "oneri": {},
+  "not": "LAB PAZAR: kaynak hakemli/akademik değil (EBSCO Research Starters / RVIO portalı) — KAYNAKLI'dan indirildi. | Novgorod'un teslimi ve Moskova'nın egemenliği 15 Ocak 1478 (Jülyen; yazar belirtilmemiş, resmî-kurum portalı, hakemli değil — zayıf KAYNAKLI). Britannica/BRE 'yıl 1478' verir, gün yok. KÜNYE: moskova f=1283 künye, küme f=1478-01-15 künye içinde; bu küme Novgorod toprakları (Vologda, Kola, Arhangelsk) için geçiş günü. Toprağın Novgorod'dan Moskova'ya geçtiği gün = bu gün."
+ },
+ {
+  "alan": "s",
+  "d": "ingiliz-kuzey-amerika",
+  "f": "1763-02-10",
+  "satir": 13,
+  "hukum": "KAYNAKLI",
+  "kaynak": "Dictionary of Canadian Biography, 'The Integration of the Province of Quebec into the British Empire, 1763-91' - https://www.biographi.ca/special.php?project_id=60&p=2",
+  "alinti": "signed on 10 Feb. 1763, Great Britain assumed control of the former territory",
+  "oneri": {},
+  "not": "Paris Antlaşması 10 Şubat 1763 imza günü (DCB arama özeti: 'France formally ceded Canada'). Küme yerleşimleri Rupert House/Moose Factory/Mistassini: Hudson Bay çevresi zaten HBC/İngiliz iddiasında; antlaşma Kanada'yı (Fransız Kanadası) devretti — bu yerleşimler için kaynak antlaşmaya özgü değil, ABİ MERKEZ/yerel kaynak gerekir. Künye f tutarlı. TEK ÖLÇÜ: İngiltere fiilen yönetiyordu (1760 Montréal kapitülasyonu) → imza günü."
+ },
+ {
+  "alan": "s",
+  "d": "ispanya",
+  "f": "1479-01-19",
+  "satir": 12,
+  "hukum": "KAYNAKLI",
+  "kaynak": "Real Academia de la Historia, Diccionario Biográfico electrónico, 'Juan II de Aragón y de Navarra' - https://dbe.rah.es/biografias/10845/juan-ii-de-aragon-y-de-navarra",
+  "alinti": "Barcelona, 19.I.1479.",
+  "oneri": {},
+  "not": "Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+ },
+ {
+  "alan": "s",
+  "d": "funj",
+  "f": "1504-01-01",
+  "satir": 12,
+  "hukum": "KAYNAKLI",
+  "kaynak": "UNESCO General History of Africa V (archive.org general-history-of-africa-vol-5), 'Africa from the Sixteenth to the Eighteenth Century'",
+  "alinti": "the Funj sultanate, which was founded in about 1504",
+  "oneri": {},
+  "not": "Yalnız yıl (yaklaşık 1504); gün/ay yok — f=1504-01-01 'yalnız yıl teyitli; gün teyitsiz' olarak kalmalı. Britannica (403 değil ama okunmadı): Sennar 1504-05. Künye f=1504-01-01 tutarlı."
+ },
+ {
+  "alan": "s",
+  "d": "kanada",
+  "f": "1880-09-01",
+  "satir": 12,
+  "hukum": "KAYNAKLI",
+  "kaynak": "The Canadian Encyclopedia, 'North-West Territories (1870-1905)' - https://www.thecanadianencyclopedia.ca/en/article/north-west-territories-1870-1905",
+  "alinti": "The British transferred the Arctic Archipelago to Canada on 1 September 1880.",
+  "oneri": {},
+  "not": "Nunavut hükûmeti backgrounder (news.gov.nu.ca 2001) Order in Council 31 Temmuz 1880 verir; yürürlük/devir 1 Eylül 1880. TEK ÖLÇÜ: yönetim fiilen yoktu → fiilî devir günü 1 Eylül; imza (31 Temmuz) not'ta. Küme Arctic yerleşimleri; künye f=1867-07-01 küme ile çelişmez (devletin Arktik devri)."
+ },
+ {
+  "alan": "s",
+  "d": "guney-afrika-birligi",
+  "f": "1910-05-31",
+  "satir": 11,
+  "hukum": "KAYNAKLI",
+  "kaynak": "U.S. Dept of State, Office of the Historian, South Africa country page - https://history.state.gov/countries/south-africa",
+  "alinti": "May 31, 1910, four colonies were joined together to create the Union of South Africa",
+  "oneri": {},
+  "not": "Çift: South African History Online zaman çizelgesi 'The Union of South Africa is inaugurated' (31 Mayıs 1910). Künye f tutarlı."
+ },
+ {
+  "alan": "s",
+  "d": "guney-afrika-cumhuriyeti",
+  "f": "1961-05-31",
+  "satir": 11,
+  "hukum": "KAYNAKLI",
+  "kaynak": "South African History Online, 'The Union of South Africa: Movement towards Republic' - https://sahistory.org.za/article/union-south-africa-movement-towards-republic",
+  "alinti": "South Africa only became a Republic on the 31st May 1961.",
+  "oneri": {},
+  "not": "Künye f tutarlı. (SAHO zaman çizelgesinde '31 April' yazım hatası var — yok sayıldı.)"
+ },
+ {
+  "alan": "s",
+  "d": "almanya-muttefik-isgali",
+  "f": "1945-06-05",
+  "satir": 11,
+  "hukum": "KAYNAKLI",
+  "kaynak": "Bundeszentrale für politische Bildung, Deutschland Chronik: '5. Juni 1945' - https://www.bpb.de/themen/zeit-kulturgeschichte/deutschland-chronik/131167/5-juni-1945/",
+  "alinti": "Die Regierungen der Vier Mächte übernehmen die »Oberste Regierungsgewalt in Deutschland«",
+  "oneri": {},
+  "not": "Berlin Bildirisi 5 Haziran 1945: dört devlet üstün yetkiyi devraldı, ilhak yok; bölgeler 31 Aralık 1937 sınırlarında (FRUS 1945 / bpb). Kontrol Konseyi aynı gün toplandı. Künye f tutarlı. ÖLÇÜT: idareye katma = askerî yönetim; ilhak yok → isg/s seçimi Emre."
  }
 ]
