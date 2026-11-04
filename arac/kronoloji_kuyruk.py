@@ -707,6 +707,15 @@ METIN = [
     ("L2-1226", "Muluki Ain 1854 (Gaenszle, EBHR 63, 2024 «Promulgated in 1854»): «yürürlüğe girdi» → «ilan edildi»; Höfer'in 6 Ocak 1854'ü yalnız arama özetinde"),
     ("L2-1220", "Gulâb Singh 1845 (Encyclopaedia of Sikhism): «gizli yardım» — metin istihbarat/gizli yardım diye daraltılır; Amritsar 16 Mart 1846 ayrı olay"),
     ("L2-1223", "[BEKLE — kaynak açılmadı] Zwangendaba 1848: arama özetleri 1848 / c.1845 çelişir; «yedi krallık» sayısı kaynaklarda değişir"),
+    # L2S 903-914 (S45)
+    ("L2-1303", "Hollanda Kontu I. Jan'ın ölümü 1299-11-10 Haarlem (Huygens ING «Register Hollandse grafelijkheid», Itineraria Jan II: «10: overlijden graaf Jan I te Haarlem»); hukukî devir ölümden sonra, Jan van Avesnes vesayeti Ağustos-Ekim 1299 → ic_not"),
+    ("L2-1302", "Turaida 1298-06-01 (Visuotinė lietuvių enciklopedija «Vytenis»; tek akademik kaynak) → ic_not"),
+    ("L2-1308", "[BEKLE — 1317 desteksiz] Bursa ablukası: TDV «Bursa» kuşatmayı Osman Bey'in 1308'de başlattığını verir, ayrı abluka yılı ve 1317 yok; fetih 6 Nisan 1326 atlasla uyumlu → ikinci kaynak"),
+    ("L2-1309", "[BEKLE — yıl çelişkisi] Bortenevo 22 Aralık: gün ve ay tutar; Vikipedi ve Rus özetleri 1317, SPbU «Medieval Russian Princesses» (Konchaka) 1318 → Martin s.175 / Fennell"),
+    ("L2-1305", "[BEKLE — kaynaksız] Foix 1302: «Foix ve Béarn aynı elde birleşti» sorunlu — birleşme 1252 Roger-Bernard III ile Marguerite de Béarn evliliği; 1302 Gaston I'e geçiş süreklilik; 3 Mart 1302 yalnız Vikipedi"),
+    ("L2-1301", "[BEKLE — olay karışıklığı] Galata 1296: Galata mı Pera mı yakıldı belirsiz; «Venedik-Ceneviz savaşı» Bizans-Venedik savaşıyla karışmış olabilir"),
+    ("L2-1307", "[BEKLE — ad çelişkisi] Beloozero 1314: Roman'ın baba adı Glebovich / Mikhailovich çelişkili (yalnız Vikipedi)"),
+    ("L2-1304", "Taisei / Eiji (Chūzan seikan 1650, ja.wikisource) yıl tutar; Taisei'nin ölümü Zhida 1/12/8 muhtemelen Ocak 1309 → NAOJ / Academia Sinica çevirisiyle ic_not; modern teyit (Smits, Kerr) açılmadı"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
