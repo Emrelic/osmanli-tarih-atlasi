@@ -22,8 +22,8 @@
 },
 {
 "id": "ermenistan-demokratik-cumhuriyeti",
-"hukum": "GIRISLI",
-"kaynak": "TDV'de madde yok — Hovannisian, The Republic of Armenia I-IV (University of California Press) ya da Cambridge History of Russia 3: 28 Mayıs 1918 / 2 Aralık 1920"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHR III, ch.18, s.497: 1918 bağımsızlık; Sovyet iktidarı Aralık 1920 (yıl/ay teyitli; 05-28 ve 12-02 günleri teyitsiz)"
 },
 {
 "id": "guney-osetya",
@@ -33,7 +33,7 @@
 {
 "id": "azerbaycan-cumhuriyeti",
 "hukum": "GIRISLI",
-"kaynak": "TDV azerbaycan (1991 baskısı) bağımsızlıktan önce yazılmış; 18 Ekim 1991 Anayasa Aktı akademik kaynakla (Swietochowski, Russia and Azerbaijan; Cornell, Azerbaijan Since Independence) teyit edilmeli"
+"kaynak": "GİRİŞLİ: CHR III'te 18 Ekim 1991 bağımsızlık yasası geçmiyor (EMRELİC okudu) — Swietochowski, Russia and Azerbaijan ya da Cornell, Azerbaijan Since Independence gerek"
 },
 {
 "id": "kabartay",
@@ -150,43 +150,45 @@
 },
 {
 "id": "novgorod",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Russia I (Martin, ed.) — 1136 knez kovulması / 1478-01-15 Moskova ilhakı"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC Cambridge — Cambridge History of Russia I, ch.8, s.206: 1136 ve 'established complete control over the Novgorodians in January 1478' (yıl/ay teyitli; 01-15 günü teyitsiz)"
 },
 {
 "id": "pskov",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1348 Bolotovo / 1510-01-13 veçe çanının indirilmesi"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHR I, ch.9 (Ostrowski), s.213: t 1510 (gün yok); f 1348 okunmadı"
 },
 {
 "id": "tver",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1246 / 1485-09-12 III. İvan zaptı"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHR I, ch.9, s.234: 'formally annexed … in 1485' (t yıl teyitli; 09-12 günü ve f 1246 teyitsiz)"
 },
 {
 "id": "moskova",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1283 Daniil / 1547-01-16 IV. İvan'ın çar taç giyişi"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHR I, ch.10, s.245: taç giyme 16 Ocak 1547 (takvim belirtilmemiş, Jülyen — Gregoryen'e çevrilmesi gerekebilir, beyan); f 1283 kaynakta yok (Daniil ö. 1303, ch.6 Martin s.143)"
 },
 {
 "id": "ryazan",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1129 / 1521 ilhak"
+"hukum": "DUZELT",
+"f": "1127-01-01",
+"kaynak": "EMRELİC Cambridge — CHR I, ch.5, s.101: Murom-Ryazan 1127'de Yaroslav Svyatoslaviç'e verildi; 1129 onun ölümü (f 1129 → 1127); t 1521 yıl teyitli, gün yok"
 },
 {
 "id": "nijni-novgorod-suzdal",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1341 / 1392 Moskova ilhakı"
+"hukum": "DUZELT",
+"t": "1391-01-01",
+"kaynak": "EMRELİC Cambridge — CHR I, ch.6, s.155: f 1341 teyitli · ch.7, s.168: 'in 1391, with the agreement of Tokhtamysh, was detached from Suzdal' and attached to Moscow' (t 1392 → 1391)"
 },
 {
 "id": "beloozero-knezligi",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Russia I — 1238 / 1389 (Dmitri Donskoy vasiyeti)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHR I, ch.7, s.169: Dmitri Donskoy'un edinimleri arasında (yıl yok); f 1238 ve t 1389 teyitsiz"
 },
 {
 "id": "rusya-gecici-hukumet",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Russia III — 1917-03-15 (Jülyen 2 Mart) / 1917-11-07"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC Cambridge — CHR III, ch.4, s.115, 135: 2 Mart / 25 Ekim 1917 (Jülyen) = Gregoryen 15 Mart / 7 Kasım (gün teyitli)"
 },
 {
 "id": "sovyet-rusya",
@@ -889,5 +891,880 @@
 "id": "yarlung-krallik",
 "hukum": "GIRISLI",
 "kaynak": "GİRİŞLİ: Kapstein, The Tibetans / Beckwith, The Tibetan Empire in Central Asia — f -0126-01-01 / t 0629-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "cimma-sultanligi",
+"hukum": "KISMEN",
+"kaynak": "TDV cimma — 'Etiyopya (Habeşistan) kralı 1933’ten sonra Cimmâ bölgesini tayin ettiği valilerle idare etmiştir' (t yıl teyitli; f 1830 teyitsiz)"
+},
+{
+"id": "umman-zengibar",
+"hukum": "TEYIT",
+"kaynak": "TDV zengibar — 'Portekiz istilâsının nihayet bulduğu 1698’de …' · '1964 yılındaki darbe' / 'koptuğu kara tarafına 1964’te yeniden bağlanan Zengibar' (yıl teyitli; t 01-12 günü teyitsiz)"
+},
+{
+"id": "somali",
+"hukum": "KISMEN",
+"kaynak": "TDV somali — 'Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi' (t yıl teyitli; f 1500 teyitsiz)"
+},
+{
+"id": "hausa-sehir-devletleri",
+"hukum": "KISMEN",
+"kaynak": "TDV fulaniler — '21 Haziran 1804’te kralın askerlerini yenerek …' · 'Osman b. Fûdî, 1806-1808 yılları arasında … Gobir’in merkezi Alkalawa’yı zaptetti; daha sonra da Kano üzerinde hâkimiyet sağlayarak' (t 1808 yıl teyitli; f 1000 kova düzeyi — beyan)"
+},
+{
+"id": "dacu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV / Cambridge History of Africa 3 — f 1200-01-01 / t 1400-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "kaffa-kralligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1390-01-01 / t 1897-09-10 (bölüm: eserin dizininden)"
+},
+{
+"id": "sidamo-kralliklari",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1897-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "vollayta-kralligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1894-01-17 (bölüm: eserin dizininden)"
+},
+{
+"id": "nube",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV / Cambridge History of Africa 3 — f 0543-01-01 / t 1504-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "charrua",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1281-01-01 / t 1831-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "bundu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VI / Cambridge History of Africa 4 + 5 — f 1690-01-01 / t 1858-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "berabis",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1600-01-01 / t 1894-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "gambiya-mandinka",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1894-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "solima-yalunka",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1720-01-01 / t 1884-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "kenedugu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1650-01-01 / t 1898-05-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "liptako",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1810-01-01 / t 1897-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "zerma",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "kong-vattara",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1710-01-01 / t 1897-05-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "gyaaman",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1690-01-01 / t 1895-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "buna",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1690-01-01 / t 1897-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "gonja",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1550-01-01 / t 1899-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "dagbon",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1401-01-01 / t 1899-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "eve-notse",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1884-07-05 (bölüm: eserin dizininden)"
+},
+{
+"id": "borgu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "ibadan",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1829-01-01 / t 1893-08-15 (bölüm: eserin dizininden)"
+},
+{
+"id": "aro-konfederasyonu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1690-01-01 / t 1902-03-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "nijer-deltasi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1884-09-10 (bölüm: eserin dizininden)"
+},
+{
+"id": "jukun-kvararafa",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "tiv",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "birom-plato",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1903-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "damagaram",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1731-01-01 / t 1899-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "adar",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "tuareg-air",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1405-01-01 / t 1906-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "tuareg-adag",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "tuareg-ivellemmedan",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "liberya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VIII / Cambridge History of Africa 5 + 8 — f 1822-04-25 / t None (bölüm: eserin dizininden)"
+},
+{
+"id": "dan-guro",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "kru-grebo",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1281-01-01 / t 1822-04-25 (bölüm: eserin dizininden)"
+},
+{
+"id": "darul-kuti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VII / Cambridge History of Africa 6-7 — f 1890-01-01 / t 1911-01-12 (bölüm: eserin dizininden)"
+},
+{
+"id": "zende",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1750-01-01 / t 1912-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "mangbetu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1815-01-01 / t 1895-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "banda-gbaya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1903-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "tio",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1281-01-01 / t 1880-10-03 (bölüm: eserin dizininden)"
+},
+{
+"id": "kasance",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1620-01-01 / t 1910-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "matamba",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1281-01-01 / t 1744-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "ovimbundu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1700-01-01 / t 1902-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "ovambo",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1600-01-01 / t 1917-02-06 (bölüm: eserin dizininden)"
+},
+{
+"id": "burundi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1680-01-01 / t 1916-06-06 (bölüm: eserin dizininden)"
+},
+{
+"id": "nkore",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1450-01-01 / t 1901-10-25 (bölüm: eserin dizininden)"
+},
+{
+"id": "karagve",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1450-01-01 / t 1890-07-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "toro",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1830-01-01 / t 1900-06-26 (bölüm: eserin dizininden)"
+},
+{
+"id": "hehe",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1850-01-01 / t 1898-07-19 (bölüm: eserin dizininden)"
+},
+{
+"id": "fipa-nyakyusa",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1890-11-04 (bölüm: eserin dizininden)"
+},
+{
+"id": "kazembe",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1740-01-01 / t 1899-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "kaonde-ila",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "yeke",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1856-01-01 / t 1891-12-20 (bölüm: eserin dizininden)"
+},
+{
+"id": "kamba",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1895-07-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "torva",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1450-01-01 / t 1683-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "rozvi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VI / Cambridge History of Africa 4 + 5 — f 1684-01-01 / t 1834-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "matabele",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1840-01-01 / t 1893-11-04 (bölüm: eserin dizininden)"
+},
+{
+"id": "pedi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VI / Cambridge History of Africa 4 + 5 — f 1650-01-01 / t 1879-12-02 (bölüm: eserin dizininden)"
+},
+{
+"id": "venda",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1700-01-01 / t 1898-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "svazi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1815-01-01 / t 1903-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "basuto",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI / Cambridge History of Africa 5 — f 1822-01-01 / t 1868-03-12 (bölüm: eserin dizininden)"
+},
+{
+"id": "griqua",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI / Cambridge History of Africa 5 — f 1804-01-01 / t 1878-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "tsvana",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1700-01-01 / t 1885-03-31 (bölüm: eserin dizininden)"
+},
+{
+"id": "herero",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1904-01-12 (bölüm: eserin dizininden)"
+},
+{
+"id": "nama-orlam",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1904-10-03 (bölüm: eserin dizininden)"
+},
+{
+"id": "xhosa",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1281-01-01 / t 1878-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "tuareg-ahaggar",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1902-05-07 (bölüm: eserin dizininden)"
+},
+{
+"id": "tuareg-accer",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1911-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "tubu-tibesti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1914-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "kanada",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Oxford/Cambridge History of the United States/Canada — f 1867-07-01 / t None (bölüm: eserin dizininden)"
+},
+{
+"id": "inuit",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1000-01-01 / t 1880-09-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "dene",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1899-06-21 (bölüm: eserin dizininden)"
+},
+{
+"id": "kri",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1876-08-23 (bölüm: eserin dizininden)"
+},
+{
+"id": "ojibwe",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1850-09-07 (bölüm: eserin dizininden)"
+},
+{
+"id": "metis",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1816-06-19 / t 1885-05-12 (bölüm: eserin dizininden)"
+},
+{
+"id": "lakota",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1890-12-29 (bölüm: eserin dizininden)"
+},
+{
+"id": "navaho",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1868-06-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "nez-perce",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1877-10-05 (bölüm: eserin dizininden)"
+},
+{
+"id": "hayda",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1858-08-02 (bölüm: eserin dizininden)"
+},
+{
+"id": "tlingit",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1867-10-18 (bölüm: eserin dizininden)"
+},
+{
+"id": "vendat",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1649-03-16 (bölüm: eserin dizininden)"
+},
+{
+"id": "beothuk",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1829-06-06 (bölüm: eserin dizininden)"
+},
+{
+"id": "savni",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1795-08-03 (bölüm: eserin dizininden)"
+},
+{
+"id": "miami",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1795-08-03 (bölüm: eserin dizininden)"
+},
+{
+"id": "sauk",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1832-09-21 (bölüm: eserin dizininden)"
+},
+{
+"id": "abenaki",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1725-12-15 (bölüm: eserin dizininden)"
+},
+{
+"id": "mikmak",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1761-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "maliseet",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1761-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "cikasav",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Oxford/Cambridge History of the United States/Canada — f 1281-01-01 / t 1907-11-16 (bölüm: eserin dizininden)"
+},
+{
+"id": "sosoni",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1868-07-03 (bölüm: eserin dizininden)"
+},
+{
+"id": "ute",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1880-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "mandan",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1851-09-17 (bölüm: eserin dizininden)"
+},
+{
+"id": "karga",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1851-09-17 (bölüm: eserin dizininden)"
+},
+{
+"id": "pavni",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1857-09-24 (bölüm: eserin dizininden)"
+},
+{
+"id": "wicita",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1859-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "aleut",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1784-08-14 (bölüm: eserin dizininden)"
+},
+{
+"id": "alutiiq",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1784-08-14 (bölüm: eserin dizininden)"
+},
+{
+"id": "yupik",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1867-10-18 (bölüm: eserin dizininden)"
+},
+{
+"id": "zuni",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1848-02-02 (bölüm: eserin dizininden)"
+},
+{
+"id": "nuxalk",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1858-08-02 (bölüm: eserin dizininden)"
+},
+{
+"id": "secwepemc",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1858-08-02 (bölüm: eserin dizininden)"
+},
+{
+"id": "nuu-cah-nulth",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1858-08-02 (bölüm: eserin dizininden)"
+},
+{
+"id": "kalusa",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1763-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "mohave",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1865-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "klamath",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1864-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "sahaptin",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1855-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "ponka",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1858-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "occaneechi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1676-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "etowah",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1100-01-01 / t 1550-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "moundville",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1120-01-01 / t 1450-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "spiro",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 0850-01-01 / t 1450-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "payut",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1872-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "yavapai",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1873-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "meskalero-apaci",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1873-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "songhay-imparatorlugu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV / Cambridge History of Africa 3 — f 1464-01-01 / t 1591-04-13 (bölüm: eserin dizininden)"
+},
+{
+"id": "asanti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1701-01-01 / t 1902-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "dahomey",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1625-01-01 / t 1894-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "benin-kralligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1180-01-01 / t 1897-02-18 (bölüm: eserin dizininden)"
+},
+{
+"id": "oyo-imparatorlugu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1400-01-01 / t 1836-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "kongo-kralligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1390-01-01 / t 1914-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "ndongo",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1500-01-01 / t 1671-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "loango",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1550-01-01 / t 1883-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "luba",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1585-01-01 / t 1889-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "kuba",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1625-01-01 / t 1900-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "lunda-imparatorlugu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1665-01-01 / t 1887-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "buganda",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VIII / Cambridge History of Africa 3 + 8 — f 1300-01-01 / t 1966-05-24 (bölüm: eserin dizininden)"
+},
+{
+"id": "zulu-kralligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI / Cambridge History of Africa 5 — f 1816-01-01 / t 1879-07-04 (bölüm: eserin dizininden)"
+},
+{
+"id": "merina",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1787-01-01 / t 1897-02-28 (bölüm: eserin dizininden)"
+},
+{
+"id": "svahili-sehirleri",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1000-01-01 / t 1698-12-13 (bölüm: eserin dizininden)"
+},
+{
+"id": "aztek-imparatorlugu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1428-01-01 / t 1521-08-13 (bölüm: eserin dizininden)"
+},
+{
+"id": "maya-sehir-devletleri",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1000-01-01 / t 1697-03-13 (bölüm: eserin dizininden)"
+},
+{
+"id": "brezilya-imparatorlugu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1822-09-07 / t 1889-11-15 (bölüm: eserin dizininden)"
+},
+{
+"id": "haiti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1804-01-01 / t None (bölüm: eserin dizininden)"
+},
+{
+"id": "hawaii-kralligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 1795-01-01 / t 1893-01-17 (bölüm: eserin dizininden)"
+},
+{
+"id": "tonga-kralligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 1845-12-04 / t None (bölüm: eserin dizininden)"
+},
+{
+"id": "kuzey-bolgesi-sa",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 1863-07-06 / t 1911-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "ekvador-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1830-05-13 / t None (bölüm: eserin dizininden)"
+},
+{
+"id": "haudenosaunee",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1450-01-01 / t 1777-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "powhatan",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1501-01-01 / t 1646-10-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "lupaqa-krallik",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1281-01-01 / t 1450-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "diaguita-calchaqui-konfederasyonu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1281-01-01 / t 1667-01-02 (bölüm: eserin dizininden)"
+},
+{
+"id": "italyan-dogu-afrikasi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1936-06-01 / t 1941-11-30 (bölüm: eserin dizininden)"
+},
+{
+"id": "cabo-juby-ispanyol",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VII + VIII / Cambridge History of Africa 6-7 + 8 — f 1912-11-27 / t 1958-04-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "ispanyol-sahra",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VII + VIII / Cambridge History of Africa 6-7 + 8 — f 1884-12-26 / t 1976-02-26 (bölüm: eserin dizininden)"
+},
+{
+"id": "tiris-el-garbiyye",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1976-04-14 / t 1979-08-05 (bölüm: eserin dizininden)"
+},
+{
+"id": "arap-cumhuriyetleri-federasyonu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1972-01-01 / t 1977-11-19 (bölüm: eserin dizininden)"
+},
+{
+"id": "eritre",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1991-05-24 / t None (bölüm: eserin dizininden)"
+},
+{
+"id": "ruanda-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1962-07-01 / t None (bölüm: eserin dizininden)"
+},
+{
+"id": "burundi-cumhuriyeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1966-11-28 / t None (bölüm: eserin dizininden)"
+},
+{
+"id": "bophuthatswana",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1977-12-06 / t 1994-04-27 (bölüm: eserin dizininden)"
+},
+{
+"id": "namibya-gecici-ulusal-birlik-hukumeti",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1985-06-17 / t 1989-02-28 (bölüm: eserin dizininden)"
+},
+{
+"id": "zimbabve-rodezya",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1979-06-01 / t 1979-12-12 (bölüm: eserin dizininden)"
+},
+{
+"id": "fransiz-birligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1946-10-27 / t 1958-10-04 (bölüm: eserin dizininden)"
+},
+{
+"id": "biafra",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1967-05-30 / t 1970-01-15 (bölüm: eserin dizininden)"
+},
+{
+"id": "orta-afrika-imparatorlugu",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1976-12-04 / t 1979-09-20 (bölüm: eserin dizininden)"
+},
+{
+"id": "angola-unita-fnla",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VIII / Cambridge History of Africa 8 — f 1975-11-11 / t 1976-02-11 (bölüm: eserin dizininden)"
+},
+{
+"id": "panama-kanali-bolgesi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of the Caribbean / Cambridge History of Latin America — f 1904-02-26 / t 1979-10-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "touggourt",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1414-01-01 / t 1854-12-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "alman-guneybati-afrikasi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VII / Cambridge History of Africa 6-7 — f 1884-08-07 / t 1915-07-09 (bölüm: eserin dizininden)"
+},
+{
+"id": "nri",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 0994-01-01 / t 1911-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "fante",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI / Cambridge History of Africa 5 — f 1868-01-01 / t 1873-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "shewa",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1813-01-01 / t 1889-03-10 (bölüm: eserin dizininden)"
+},
+{
+"id": "danimarka-bati-hint",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of the Caribbean / Cambridge History of Latin America — f 1672-01-01 / t 1917-03-31 (bölüm: eserin dizininden)"
+},
+{
+"id": "ispanyol-kuba",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: UNESCO General History of the Caribbean / Cambridge History of Latin America — f 1511-01-01 / t 1898-12-10 (bölüm: eserin dizininden)"
+},
+{
+"id": "guatemala-kaptanligi",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1609-01-01 / t 1821-09-15 (bölüm: eserin dizininden)"
+},
+{
+"id": "sican",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 0750-01-01 / t 1375-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "fiji-cakobau",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 1871-01-01 / t 1874-10-10 (bölüm: eserin dizininden)"
+},
+{
+"id": "rarotonga",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 1250-01-01 / t 1888-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "chamorro",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 0800-01-01 / t 1698-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "caral-norte-chico",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f -2999-01-01 / t -1999-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "ceibal",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden)"
+},
+{
+"id": "cholula",
+"hukum": "GIRISLI",
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0700-01-01 / t 1519-01-01 (bölüm: eserin dizininden)"
 }
 ]
