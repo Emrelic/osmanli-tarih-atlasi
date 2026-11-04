@@ -178,18 +178,17 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **25** (bunlar yaln�
 ### NCMH / Historia de Navarra (1 künye, Σ yer-yıl 596)
 - `navarra` 0824-01-01 → 1620-10-19 — 596 / 2 / 4
 
-### UNESCO General History of Africa VIII / Cambridge History of Africa 8 (7 künye, Σ yer-yıl 584)
-- `italyan-dogu-afrikasi` 1936-06-01 → 1941-11-30 — 500 / 95 / 95
-- `burundi-cumhuriyeti` 1966-11-28 → None — 68 / 2 / 2
-- `biafra` 1967-05-30 → 1970-01-15 — 11 / 5 / 5
-- `zimbabve-rodezya` 1979-06-01 → 1979-12-12 — 5 / 9 / 9
-- `namibya-gecici-ulusal-birlik-hukumeti` 1985-06-17 → 1989-02-28 — 0 / 0 / 0
-- `fransiz-birligi` 1946-10-27 → 1958-10-04 — 0 / 0 / 0
-- `angola-unita-fnla` 1975-11-11 → 1976-02-11 — 0 / 0 / 0
-
 ### Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America (2 künye, Σ yer-yıl 581)
 - `cholula` 0700-01-01 → 1519-01-01 — 581 / 1 / 1
 - `ceibal` 0411-01-01 → 0889-01-01 — 0 / 0 / 0
+
+### UNESCO General History of Africa VIII / Cambridge History of Africa 8 (6 künye, Σ yer-yıl 579)
+- `italyan-dogu-afrikasi` 1936-06-01 → 1941-11-30 — 500 / 95 / 95
+- `burundi-cumhuriyeti` 1966-11-28 → None — 68 / 2 / 2
+- `biafra` 1967-05-30 → 1970-01-15 — 11 / 5 / 5
+- `namibya-gecici-ulusal-birlik-hukumeti` 1985-06-17 → 1989-02-28 — 0 / 0 / 0
+- `fransiz-birligi` 1946-10-27 → 1958-10-04 — 0 / 0 / 0
+- `angola-unita-fnla` 1975-11-11 → 1976-02-11 — 0 / 0 / 0
 
 ### UNESCO General History of Africa V + VI / Cambridge History of Africa 4 + 5 (3 künye, Σ yer-yıl 548)
 - `pedi` 1650-01-01 → 1879-12-02 — 230 / 1 / 1
@@ -208,9 +207,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **25** (bunlar yaln�
 
 ### UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 (1 künye, Σ yer-yıl 463)
 - `matamba` 1281-01-01 → 1744-01-01 — 463 / 1 / 1
-
-### UNESCO General History of the Caribbean / Cambridge History of Latin America (1 künye, Σ yer-yıl 429)
-- `danimarka-bati-hint` 1672-01-01 → 1917-03-31 — 429 / 2 / 2
 
 ### Cambridge History of Japan III (Medieval Japan) (1 künye, Σ yer-yıl 428)
 - `sanzan` 1322-01-01 → 1429-01-01 — 428 / 4 / 4
