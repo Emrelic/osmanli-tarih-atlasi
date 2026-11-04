@@ -440,12 +440,12 @@
 {
 "id": "nayak-devletleri",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1336-01-01 / t 1763-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Stein, Vijayanagara (NCHI I.2) + Rao/Shulman/Subrahmanyam, Symbols of Substance; Nayak Madurai 1736, Tancavur 1673-1675, f/t okunacak"
+"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1336-01-01 / t 1763-01-01 (bölüm: eserin dizininden) · İPUCU: Vikipedi türevleri Madurai Nayakları 1529-1736, Tancavur 1532-1673; hakemli kaynakta (Pai, Architecture of Sovereignty, Cambridge UP 2023, bölüm 1) tarih okunmadı, yalnız Tirumala Nayaka 1623-1659 ve Ettappa Nayaka'nın 1423'te Madurai'ye yerleşmesi geçiyor. TDV 'Hindistan' maddesi Nayakları anmıyor (yalnız Viyanagar 1339-1646 listesi)."
 },
 {
 "id": "orissa",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t 1568-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Panigrahi / Sinha, History of Orissa; Eaton, Rise of Islam and the Bengal Frontier; t 1568 (Kalapahad, Mukunda Deva sonrası) okunacak"
+"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t 1568-01-01 (bölüm: eserin dizininden) · İPUCU: TDV'de Orissa ancak coğrafî anma (Bengal maddesi: Orissa komşu eyalet) — 1568 ya da Gaca­pati geçmiyor. Odisha hükümeti 'Orissa Review' derlemeleri (magazines.odisha.gov.in, erişilemedi) arama özetinde: Chodaganga 1078, Süleyman Kerrânî'nin 1568 Orissa fethi; başka kaynak 1567 veriyor (çelişki). f 1000-01-01'i destekleyen kaynak çıkmadı."
 },
 {
 "id": "tibet",
@@ -480,7 +480,7 @@
 {
 "id": "nepal",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t None (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Whelpton, A History of Nepal; Petech, Medieval History of Nepal (c.750-1482); f okunacak"
+"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t None (bölüm: eserin dizininden) · İPUCU / durum: Bu turda aranmadı (zaman). TDV 'Hindistan' maddesinde Nepal yalnız komşu olarak geçiyor, hanedan tarihi yok."
 },
 {
 "id": "ladak",
@@ -490,7 +490,7 @@
 {
 "id": "kalikut",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1100-01-01 / t 1766-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Menon, A Survey of Kerala History; Logan, Malabar Manual; t 1766 (Haydar Ali) ve f okunacak"
+"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1100-01-01 / t 1766-01-01 (bölüm: eserin dizininden) · İPUCU: TDV'de 'Kalikut' arama yalnız Abdürrezzâk es-Semerkandî, Asya ve Bahâr maddelerinde geçiyor, müstakil madde yok; TDV 'Hindistan': 'Vasco da Gama 1498’de Kaliküt’e vardı' (kuruluş/son tarihi yok). Hyder Ali'nin 1766'da Kalikut'u aldığı Vikipedi ve blogda; Sahapedia PDF'si Zamorin'in sarayı yakıp intihar ettiğini söylüyor (tek kaynak). Kuruluş c.1100 yaklaşık, 'inanılır ki'."
 },
 {
 "id": "travankur",
@@ -620,8 +620,8 @@
 },
 {
 "id": "yadava",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1187-01-01 / t 1318-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Sircar / Majumdar, Yādavas of Devagiri; Eaton, A Social History of the Deccan; f 1187 (Bhillama V) ve t 1318 (Harapaladeva) okunacak"
+"hukum": "KISMEN",
+"kaynak": "SONNET AJAN (LAB denetimi) — TDV 'Dekken' maddesi: 'Marata ülkesini doğrudan Delhi Sultanlığı’na kattı (1318).' (Mübârek Şah, 1316-1320) — 1318 yıl düzeyinde doğrudan ilhak olarak uyumlu, ancak madde Yadava hanedanını anmıyor (çıkarım). TDV 'Hindistan' maddesi hanedan listesinde 'Devâgirî Yadavaları (Kuzey Dekken, 1190-1294)' diyor: f 1187 ile 3 yıl fark, t 1294 TDV'ye göre vergiye bağlanma (Alâeddin Halacî 1294 Devâgirî seferi, Ramaçandra haraca bağlandı), 1318 doğrudan ilhaktır. Gün hiçbir kaynakta yok; künye 1187/1318 yıl düzeyinde, f için TDV farklı (1190)."
 },
 {
 "id": "avad",
@@ -676,7 +676,7 @@
 {
 "id": "seylan-sinhala",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1070-01-01 / t 1518-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: De Silva, A History of Sri Lanka; Codrington, Short History of Ceylon; f 1070 (Vijayabahu I Polonnaruwa 1070) ve t 1518 okunacak"
+"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1070-01-01 / t 1518-01-01 (bölüm: eserin dizininden) · İPUCU: Portekiz filosunun Colombo'ya 15 Kasım 1505'te gelişi (Britannica, Vikipedi; Galle iddiası da var) — künyedeki t 1518-01-01 (Portekiz'in Colombo'ya yerleşmesi) bu kaynaklarda doğrulanmadı (Colombo kalesi 1518'de kuruldu, doğrulanmadı). Dambadeniya 1220-1272 hükümdar listesi derleme kaynakta; Polonnaruwa 1215 ve Vijayabahu I 1070 doğrulanamadı."
 },
 {
 "id": "cunagadh",
@@ -701,12 +701,12 @@
 {
 "id": "dogu-sumatra-sultanliklari",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Ricklefs — f 1615-01-01 / t 1858-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Andaya, Leaves of the Same Tree / Ricklefs; Jambi 1615, Siak 1723, Deli 1632, Indragiri; t 1858 (Siak antlaşması 1 Şubat 1858) okunacak"
+"kaynak": "GİRİŞLİ: Ricklefs — f 1615-01-01 / t 1858-01-01 (bölüm: eserin dizininden) · İPUCU: Siak 1858 antlaşması (Hollanda egemenliği; Vikipedi ve bir blog), Deli 1862 sözleşmesi, Jambi 1834 / Indragiri 1838 Hollanda egemenliği tanıması (blog); hepsi ikincil/zayıf. TDV'de Jambi/Siak/Deli/Indragiri maddesi yok (önceki turda arandı). Dört sultanlık tek künyede farklı uçlara sahip."
 },
 {
 "id": "bugis-kralliklari",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Ricklefs / Andaya — f 1330-01-01 / t 1905-08-06 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Andaya, The Heritage of Arung Palakka (1981); Ricklefs, A History of Modern Indonesia; f ve t okunacak"
+"kaynak": "GİRİŞLİ: Ricklefs / Andaya — f 1330-01-01 / t 1905-08-06 (bölüm: eserin dizininden) · İPUCU: Bone'nin 1905 Hollanda seferinde işgali (18-30 Temmuz 1905, La Pawawoi 14 Aralık 1905'te Bandung'a sürüldü) yalnız Vikipedi 'South Sulawesi expeditions of 1905'te; künyedeki 1905-08-06 doğrulanmadı. TDV'de Bone/Wajo/Soppeng/Gova/Bongaya maddesi yok (arandı: yalnız Hamza Fansûrî ve Yûsuf el-Makassarî geçiyor)."
 },
 {
 "id": "meysur-racaligi",
@@ -797,12 +797,12 @@
 {
 "id": "kalacuri-tripuri",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 0850-01-01 / t None (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Mirashi, Corpus Inscriptionum Indicarum IV (Kalachuri-Chedi era); Kokalla I c. 850-885 kitabeleri; f ve t okunacak"
+"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 0850-01-01 / t None (bölüm: eserin dizininden) · İPUCU: Kokalla I'in hükümdarlığı derleme kaynaklarda 845-878/888 veya 850-890 (c.); hanedanın son bilinen kralı Trailokyamalla en az 1212'ye dek (Vikipedi) — 1181 (Dekan kolu) Tripuri ucu değil. f 0850 yıl ve 'c.' düzeyinde; hakemli kaynak okunmadı."
 },
 {
 "id": "sipsong-panna",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1180-01-01 / t 1950-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Sao Saimong Mangrai / Chronicles of Sipsòng Panna (Silkworm Books); f 1180 ve t 1950 okunacak"
+"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1180-01-01 / t 1950-01-01 (bölüm: eserin dizininden) · İPUCU: Vikipedi 'Chiang Hung': kuruluş c.1180 Phaya Chueang/Coeng; PRC 23 Ocak 1953'te Xishuangbanna Dai Özerk Bölgesi'ni kurup yerli şeflik düzenini kaldırdı (infobox ise 1950 diyor ve 1892-1950 aralığı veriyor); Çin'in 1912-1950 hâkimiyeti. Künye t 1950-01-01 ile 1953-01-23 çelişiyor (hakemli kaynak okunmadı)."
 },
 {
 "id": "ispanyol-formosa",
@@ -958,7 +958,7 @@
 {
 "id": "gambiya-mandinka",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1894-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Gray, A History of the Gambia; Quinn, Mandingo Kingdoms of the Senegambia; t 1894 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1894-01-01 (bölüm: eserin dizininden) · İPUCU: Gambiya iç himayesi 1894 (Vikipedi, Britannica 'protectorate 1894', 28 Aralık 1894 bir kronolojide), Niumi'nin 1897'de Koloni ve Himaye'ye katıldığı (Vikipedi), Kombo'da Fode Silla'nın 1894'te yenilmesi (Universalis); Britannica/Universalis sayfaları 403 ya da tarih vermedi. Himaye polity sonu değildir (brief kuralı): 1894-01-01 künyesi buna aykırı; 1900'de dolaylı yönetim 35 şeflikle (Britannica özeti)."
 },
 {
 "id": "solima-yalunka",
@@ -998,7 +998,7 @@
 {
 "id": "gonja",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1550-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Goody, The Ethnography of the Northern Territories of the Gold Coast; Wilks, Asante in the Nineteenth Century; f c.1550 ve t 1899 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1550-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · İPUCU: Kuruluş tarihi kaynaklarda çelişkili: Vikipedi 1675, Britannica 'early 17th century' (Sumaila Ndewura Jakpa), Encyclopaedia Africana c.1600-1666, Dagbon yanlısı site 1549-1550 (ilk kral Naba; taraflı). Künyedeki f 1550 yalnız bu son iddiayla örtüşüyor, akademik teyit yok. 1899 (Kuzey Toprakları) araştırılmadı. Gonja tarihleri sözlü geleneğe dayanır (Jakpa epic)."
 },
 {
 "id": "dagbon",
@@ -1013,7 +1013,7 @@
 {
 "id": "borgu",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Hertslet, Map of Africa by Treaty (Niger Convention 1898 metni) / Lombard, Structures politiques; t 1898 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden) · İPUCU: İngiliz-Fransız Niger Sözleşmesi 14 Haziran 1898 Paris'te imzalı, onay mübadelesi 13 Haziran 1899 (Vikipedi; Hansard Treaty Series No.15 1899 kaydı); metin Hertslet, Map of Africa by Treaty II s.785-793'te. Sözleşme Borgu-Busa'yı İngiltere ile Fransa arasında paylaştırdı, polity sonu sayılmaz; 1898-01-01 künyesi için kaynak çıkmadı. Birincil metin okunamadı."
 },
 {
 "id": "ibadan",
@@ -1028,22 +1028,22 @@
 {
 "id": "nijer-deltasi",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1884-09-10 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Dike, Trade and Politics in the Niger Delta 1830-1885; Hertslet, Treaties (Kalabar/Bonny antlaşma metinleri); t okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1884-09-10 (bölüm: eserin dizininden) · İPUCU: 10 Eylül 1884 Eski Kalabar antlaşması tarihini doğrulayan kaynak çıkmadı; Hewett'in öteki antlaşmaları: Itsekiri 16 Temmuz 1884, Asaba 1 Kasım 1884, Opobo 19 Aralık 1884 (urhobodigitallibrarymuseum); ICJ Bakassi Nigeria Rejoinder (icj-cij.org) 1884'te Eski Kalabar Kral ve Şefleri'nin İngiltere ile koruma antlaşması yaptığını belirtiyor (gün yok). Himaye polity sonu değildir (brief kuralı): t 1884 tarihi bu kurala aykırı görünüyor; Kalabar/Bonny/Brass 1890'lara dek sürdü."
 },
 {
 "id": "jukun-kvararafa",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Cambridge History of Africa c.5-6 (Orta Nijerya) / Meek, A Sudanese Kingdom (1931); t 1900 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden) · İPUCU: Wukari Federasyonu'nun c.1900'de Kuzey Nijerya himayesine katıldığı (Seshat veri tabanı, 1 Ocak 1900 yürürlük) ve Kwararafa'nın 19. yy başı cihat sonrası yıkıldığı ikincil/derleme kaynaklarda; hakemli kaynak okunmadı. Künyedeki t 1900-01-01 yıl düzeyinde olası, günü keyfî."
 },
 {
 "id": "tiv",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Bohannan & Bohannan, The Tiv of Central Nigeria; Cambridge History of Africa c.6; t 1900 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden) · İPUCU / durum: Bu turda aranmadı (zaman)."
 },
 {
 "id": "birom-plato",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1903-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Morrison, Jos Plateau; Cambridge History of Africa c.6; t 1903 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1903-01-01 (bölüm: eserin dizininden) · İPUCU / durum: Bu turda aranmadı (zaman)."
 },
 {
 "id": "damagaram",
@@ -1062,13 +1062,14 @@
 },
 {
 "id": "tuareg-adag",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Cambridge History of Africa c.6; Boilley, Les Touaregs Kel Adagh; t 1899 okunacak"
+"hukum": "DUZELT",
+"t": "1903-01-01",
+"kaynak": "SONNET AJAN (LAB denetimi) — Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' (Kel Adagh = Ifoghas; t 1899 → 1903, YIL hassasiyeti, beyanlı; tek kaynak, gün yok; teslim = polity sonu varsayımı ic_not'ta)"
 },
 {
 "id": "tuareg-ivellemmedan",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Cambridge History of Africa c.6; Hall, A History of Race in Muslim West Africa; t 1899 okunacak"
+"hukum": "KISMEN",
+"kaynak": "SONNET AJAN (LAB denetimi) — Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' — yalnız BATI İvellemmedan (Kel Ataram) 1903; doğu İvellemmedan 1917'ye dek direndi → t 1899 KİME göre? künye bütün konfederasyonsa t 1899 de 1903 de erken (1917 adayı, kaynakla); KARAR KASA/EMRELİC"
 },
 {
 "id": "liberya",
@@ -1093,7 +1094,7 @@
 {
 "id": "zende",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1750-01-01 / t 1912-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Evans-Pritchard, The Azande: History and Political Institutions; Cambridge History of Africa c.5-6; f c.1750 ve t 1912 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1750-01-01 / t 1912-01-01 (bölüm: eserin dizininden) · İPUCU: Zemio sultanlığı 1872 civarı, Kongo Serbest Devleti himayesi 1894-1909 (Zemio/Rafai), Fransız işgali 10 Temmuz 1895 ve 12 Ekim 1912'de hanedan değişimi (worldstatesmen.org tablosu — zayıf kaynak); 1912 yalnız bir halef değişimi, krallıkların sonu değil. Evans-Pritchard, The Azande: History and Political Institutions (1971) Gbudwe krallığı için ~1863-1930 aralığı. TDV 'Zande' maddesi yok."
 },
 {
 "id": "mangbetu",
@@ -1158,7 +1159,7 @@
 {
 "id": "fipa-nyakyusa",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1890-11-04 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Willis, A State in the Making (Fipa); Wilson, Communal Rituals of the Nyakyusa; Cambridge History of Africa c.6; t okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1890-11-04 (bölüm: eserin dizininden) · İPUCU / durum: Bu turda aranmadı (zaman)."
 },
 {
 "id": "kazembe",
@@ -1168,7 +1169,7 @@
 {
 "id": "kaonde-ila",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Smith & Dale, The Ila-Speaking Peoples of Northern Rhodesia (1920); Cambridge History of Africa c.6; t 1900 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1900-01-01 (bölüm: eserin dizininden) · İPUCU / durum: Bu turda aranmadı (zaman). Hakemli kaynak okunmadı."
 },
 {
 "id": "yeke",
@@ -1238,17 +1239,17 @@
 {
 "id": "xhosa",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1281-01-01 / t 1878-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Peires, The House of Phalo; Cambridge History of Africa c.5; t 1878 (Dokuzuncu Sınır Savaşı sonu) okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1281-01-01 / t 1878-01-01 (bölüm: eserin dizininden) · İPUCU: 1877-78 Dokuzuncu Sınır Savaşı (Ngcayecibi Savaşı; ilk çatışma 26 Eylül 1877 Gwadana) ve Sarhili'nin direnişi bırakıp sürgüne gitmesi (Vikipedi 'Gcaleka House'); Rhodes Üniv. Spicer MA tezi 1978 'The war of Ngcayecibi, 1877-8' ayrıntılı akademik kaynak ama erişim 403 (bırakıldı). Kaynaklar savaşı 1877-78 ve 1877-79 diye veriyor. Peires, 'The Annexation of Transkei' (1990) okunacak. 1878-01-01 yıl düzeyinde olası, günü teyitsiz."
 },
 {
 "id": "tuareg-ahaggar",
 "hukum": "KISMEN",
-"kaynak": "SONNET AJAN (LAB SALI denetimi) — Tit muharebesi Mayıs 1902 (Wikipedia 'Tit, Tamanrasset'; Journal des Africanistes openedition.org/africanistes/1932 Cottenest seferini ve Tit'te Hoggar Tuareg yenilgisini anlatıyor; Keenan). 7 Mayıs gününü yalnız OmniAtlas harita sayfası veriyor (akademik değil). Ay düzeyi teyitli (1902-05), gün teyitsiz. Ahaggar polity'si Musa ag Amastane ile Fransız himayesinde sürdü."
+"kaynak": "SONNET AJAN (LAB SALI denetimi) — Tit muharebesi Mayıs 1902 (Wikipedia 'Tit, Tamanrasset'; Journal des Africanistes openedition.org/africanistes/1932 Cottenest seferini ve Tit'te Hoggar Tuareg yenilgisini anlatıyor; Keenan). 7 Mayıs gününü yalnız OmniAtlas harita sayfası veriyor (akademik değil). Ay düzeyi teyitli (1902-05), gün teyitsiz. Ahaggar polity'si Musa ag Amastane ile Fransız himayesinde sürdü. · LAROUSSE 'Touareg': Ahaggar 1902 (Tit) — yıl desteği"
 },
 {
 "id": "tuareg-accer",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1911-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Cambridge History of Africa c.6-7 (Fransız Sahara'sı) / Keenan, The Tuareg; t 1911 okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1911-01-01 (bölüm: eserin dizininden) · İPUCU: Djanet'in Yüzbaşı Charlet tarafından 27 Kasım 1911'de işgali yalnız gezi/derleme sitelerinde (kupi.com, vikipedi) geçiyor; Larousse Touareg maddesi Ajjer için teslim tarihi vermiyor. Akademik kaynak okunamadı (core.ac.uk PDF 403, bırakıldı)."
 },
 {
 "id": "tubu-tibesti",
@@ -1400,7 +1401,7 @@
 {
 "id": "alutiiq",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1784-08-14 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Black, Russians in Alaska 1732-1867 (Univ. of Alaska Press); Crowell, Alutiiq Museum yayınları; t okunacak"
+"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1784-08-14 (bölüm: eserin dizininden) · İPUCU: Awa'uq (Refuge Rock) katliamı Vikipedi'de 14 Ağustos 1784, bir yerel kaynakta Nisan 1784 (çelişki); NLM Native Voices zaman çizelgesi Shelikhov'un Three Saints Bay'de 1784'te ilk kalıcı Rus yerleşimini kurduğunu söylüyor. Alutiiq Museum/Smithsonian HNAI metni okunamadı."
 },
 {
 "id": "yupik",
@@ -1543,7 +1544,7 @@
 {
 "id": "lunda-imparatorlugu",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1665-01-01 / t 1887-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Cambridge History of Africa c.4 (Lunda/Mwata Yamvo bölümü) + Vansina, Kingdoms of the Savanna (1966); f ve t okunacak"
+"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1665-01-01 / t 1887-01-01 (bölüm: eserin dizininden) · İPUCU: Vikipedi ve Encyclopaedia-benzeri özetlerde Lunda'nın sonu 1887, kuruluş c.1600-1695 (Chibinda Ilunga efsanevi; ilk iyi belgeli hükümdar Nawej c.1695); f 1665'i destekleyen kaynak çıkmadı. UNESCO GHA PDF'leri (binlerce sayfa) bu turda okunamadı. Akademik kaynakta gün/yıl okunmadı."
 },
 {
 "id": "buganda",
@@ -1764,7 +1765,7 @@
 {
 "id": "chamorro",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 0800-01-01 / t 1698-01-01 (bölüm: eserin dizininden) · AÇIK KAYNAK: bu turda aranmadı (Sonnet ajanı zaman bütçesi) — okunacak: Hezel, From Conquest to Colonization (Micronesian Area Research Center); Cambridge History of the Pacific Islanders; t 1698/1699 okunacak"
+"kaynak": "GİRİŞLİ: Cambridge History of the Pacific Islanders (Denoon, ed.) — f 0800-01-01 / t 1698-01-01 (bölüm: eserin dizininden) · İPUCU: Guampedia Latte dönemini AD 800-1700 veriyor (Vikipedi 900-1700; başka kaynak 1000-1521) — f 0800 yıl düzeyinde Guampedia ile uyumlu ama Guampedia ansiklopedik/yarı akademik; Hezel/MARC metni okunamadı; 1698 'redüksiyonun tamamlanması' doğrulanmadı."
 },
 {
 "id": "caral-norte-chico",

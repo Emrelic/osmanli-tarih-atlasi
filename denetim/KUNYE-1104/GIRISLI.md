@@ -54,17 +54,17 @@ Okunacak: iki ucun tarihi (gün varsa gün) + tarihi taşıyan cümle + sayfa. B
 | 45 | `seylan-sinhala` | 1070-01-01 → 1518-01-01 | f + t | 777 | 4 | 4 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
 | 46 | `gova-makassar` | 1281-01-01 → 1667-11-18 | yalnız t (f=1281 site ufku) | 774 | 2 | 2 | Ricklefs / Andaya |
 | 47 | `avad` | 1722-01-01 → 1856-02-07 | f + t | 730 | 9 | 9 | Richards, The Mughal Empire (NCHI I.5) + Bayly, Indian Society and the Making of the British Empire (NCHI II.1) |
-| 48 | `yadava` | 1187-01-01 → 1318-01-01 | f + t | 712 | 15 | 15 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 49 | `kalikut` | 1100-01-01 → 1766-01-01 | f + t | 709 | 2 | 2 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
-| 50 | `chamorro` | 0800-01-01 → 1698-01-01 | f + t | 695 | 1 | 1 | Cambridge History of the Pacific Islanders (Denoon, ed.) |
+| 48 | `kalikut` | 1100-01-01 → 1766-01-01 | f + t | 709 | 2 | 2 | New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV |
+| 49 | `chamorro` | 0800-01-01 → 1698-01-01 | f + t | 695 | 1 | 1 | Cambridge History of the Pacific Islanders (Denoon, ed.) |
+| 50 | `sipsong-panna` | 1180-01-01 → 1950-01-01 | f + t | 669 | 1 | 1 | Cambridge History of Southeast Asia I (Tarling, ed.) |
 
-ÖNCELİK-50'nin esere göre dağılımı: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 15 · New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV 9 · Ricklefs 4 · Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America 3 · UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 2 · Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America 2 · Ricklefs / Andaya 2 · Stein, Vijayanagara (New Cambridge History of India I.2) 1 · NCMH VII (Schnerb 'Burgundy') 1 · NCMH II-III (Wickham, Early Medieval Italy) 1 · Cambridge History of Southeast Asia I-II 1 · Cambridge History of Japan IV-V 1 · Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans 1 · Andaya & Andaya, A History of Malaysia 1 · New Cambridge Medieval History III-VII 1 · Cambridge History of the Native Peoples of the Americas I (North America) 1 · UNESCO General History of Africa VI + VIII / Cambridge History of Africa 5 + 8 1 · Cambridge History of Japan IV 1 · Richards, The Mughal Empire (NCHI I.5) + Bayly, Indian Society and the Making of the British Empire (NCHI II.1) 1 · Cambridge History of the Pacific Islanders (Denoon, ed.) 1
+ÖNCELİK-50'nin esere göre dağılımı: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 15 · New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV 8 · Ricklefs 4 · Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America 3 · UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 2 · Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America 2 · Ricklefs / Andaya 2 · Stein, Vijayanagara (New Cambridge History of India I.2) 1 · NCMH VII (Schnerb 'Burgundy') 1 · NCMH II-III (Wickham, Early Medieval Italy) 1 · Cambridge History of Southeast Asia I-II 1 · Cambridge History of Japan IV-V 1 · Cambridge History of China VII-VIII + Shakabpa / Kapstein, The Tibetans 1 · Andaya & Andaya, A History of Malaysia 1 · New Cambridge Medieval History III-VII 1 · Cambridge History of the Native Peoples of the Americas I (North America) 1 · UNESCO General History of Africa VI + VIII / Cambridge History of Africa 5 + 8 1 · Cambridge History of Japan IV 1 · Richards, The Mughal Empire (NCHI I.5) + Bayly, Indian Society and the Making of the British Empire (NCHI II.1) 1 · Cambridge History of the Pacific Islanders (Denoon, ed.) 1 · Cambridge History of Southeast Asia I (Tarling, ed.) 1
 
 Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yalnız kronoloji/panelde görünür; okunması en sona).
 
 ## Bütün GİRİŞLİ künyeler, esere göre (her satırda yer-yıl / yer / dönem)
 
-### UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 (32 künye, Σ yer-yıl 33903)
+### UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 (30 künye, Σ yer-yıl 32616)
 - `banda-gbaya` 1281-01-01 → 1903-01-01 — 3732 / 6 / 6
 - `dan-guro` 1281-01-01 → 1898-01-01 — 3085 / 5 / 5
 - `adar` 1281-01-01 → 1899-01-01 — 2472 / 4 / 4
@@ -80,11 +80,9 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `fipa-nyakyusa` 1281-01-01 → 1890-11-04 — 1220 / 2 / 2
 - `nijer-deltasi` 1281-01-01 → 1884-09-10 — 1207 / 2 / 2
 - `gonja` 1550-01-01 → 1899-01-01 — 1047 / 3 / 3
-- `tuareg-ivellemmedan` 1281-01-01 → 1899-01-01 — 669 / 2 / 3
 - `ovambo` 1600-01-01 → 1917-02-06 — 634 / 2 / 2
 - `birom-plato` 1281-01-01 → 1903-01-01 — 622 / 1 / 1
 - `tiv` 1281-01-01 → 1900-01-01 — 619 / 1 / 1
-- `tuareg-adag` 1281-01-01 → 1899-01-01 — 618 / 1 / 1
 - `kamba` 1281-01-01 → 1895-07-01 — 614 / 1 / 1
 - `gambiya-mandinka` 1281-01-01 → 1894-01-01 — 613 / 1 / 1
 - `eve-notse` 1281-01-01 → 1884-07-05 — 604 / 1 / 1
@@ -98,7 +96,7 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `sidamo-kralliklari` 1281-01-01 → 1897-01-01 — 0 / 0 / 0
 - `vollayta-kralligi` 1281-01-01 → 1894-01-17 — 0 / 0 / 0
 
-### New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV (24 künye, Σ yer-yıl 16496)
+### New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV (23 künye, Σ yer-yıl 15784)
 - `racput` 1000-01-01 → 1947-08-15 — 3959 / 19 / 23
 - `ahom` 1281-01-01 → 1826-02-24 — 1375 / 3 / 3
 - `nayak-devletleri` 1336-01-01 → 1763-01-01 — 1208 / 8 / 8
@@ -106,7 +104,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `orissa` 1000-01-01 → 1568-01-01 — 861 / 3 / 3
 - `nepal` 1000-01-01 → None — 800 / 1 / 2
 - `seylan-sinhala` 1070-01-01 → 1518-01-01 — 777 / 4 / 4
-- `yadava` 1187-01-01 → 1318-01-01 — 712 / 15 / 15
 - `kalikut` 1100-01-01 → 1766-01-01 — 709 / 2 / 2
 - `bati-ganga` 0350-01-01 → 1004-01-01 — 554 / 1 / 1
 - `ladak` 1281-01-01 → 1834-01-01 — 553 / 1 / 1
