@@ -377,6 +377,61 @@ Kararlar 11 yerleşimin ONERI satırlarına yazıldı (40 satır, `not` alanı).
     - Gansu noktası veride **zaten var**: "Zhangye (Ganzhou)", `data/yerlesimler_asya.js:2257`, 38.93°N 100.45°E.
     - Yeni nokta gerekmez. KASA-YER kuyruğuna giden iş: kronolojideki Gansu anılmalarının bağını Zhangye'ye çevirmek.
 
+## 14. Kararlar, q09-q12 (EMRELİC, 4 Kasım 2026 akşam-3)
+Kararlar 11 yerleşimde 34 satırın `not` alanına işlendi.
+- **Kars, Ardahan, Batum:**
+  - Brest-Litovsk bu üç sancağı devretmedi (md. IV).
+  - `s: rusya` → 1918-03-03, ardından `transkafkasya`.
+  - `isg osmanli` Osmanlı girişinden itibaren.
+  - `s:` Osmanlı **1918-06-04 Batum Antlaşması**'ndan.
+  - 1918-12 sonrası zincir ayrıca ölçülecek.
+- **Dimetoka:**
+  - Zincir: 1913 Osmanlı → 1915 Bulgaristan → Neuilly 1919-11-27 → Müttefik idaresi → 1920-05 `isg yunanistan`.
+  - `s: yunanistan` Lozan imzasından (1923-07-24) başlar.
+  - **Düzeltme:** Lozan'ın yürürlüğü 1924-08-06'dır. Önceki mesajdaki 1923-08-06 yanlıştı.
+- **Kili ve Bender (Besarabya):** `s: romanya` 1918-04-09'da Sfatul Țării birleşme kararıyla başlar. Paris Protokolü 1920 ic_not'a yazılır.
+- **Aydın, Verona, Taranto, Dunhuang, Dubrovnik:** öneriler uygun, kaynakla işlenir.
+
+## 15. Osmanlı toprağında 1915-18 Rus/Transkafkasya `s:` dilimleri: TEK KURAL düzeltme listesi (`kafkas_isg.json`)
+- **Ölçüt** (EMRELİC, 4 Kasım 2026 akşam):
+  - Osmanlı toprağında, yani 1914-01-01'i kapsayan bir `d:` dönemi olan yerleşimde, `rusya`, `rusya-gecici-hukumet` ve `transkafkasya` dönemleri **isg**'dir.
+  - Rus çekilişinden sonra kalan Ermeni/Transkafkasya birlikleri de işgalcidir.
+  - `transkafkasya` yalnız Rusya'nın hukukî toprağında `s:` olabilir (elviye-i selâse, Kafkasya).
+- **Ölçüm** (ceb0ce402): 13 yerleşimde **34 dilim** Osmanlı toprağında `s:` olarak yazılmış: 13 rusya, 11 rusya-gecici-hukumet, 10 transkafkasya.
+  - Yerleşimler: Muş, Gümüşhane, Trabzon, Rize, Erzincan, Erzurum, Bitlis, Hopa, Pasinler, Kelkit, Aşkale, Bayburt.
+  - Satırları `kafkas_isg.json`'da; dosya:satır ve öneri birlikte.
+- **Öneri:** `d:` Osmanlı kesintisiz sürer; bu 34 dilim aynı uçlarla `isg`'e taşınır. Bitiş günleri Osmanlı'nın geri alış günleridir ve mevcut uçlar korunur.
+- **KASA notu:** Değişmez 2'ye göre `d:` kırılmaları kalkar; `isg` ise kronoloji maddesiyle eşleşmeye devam eder. Geri alış maddeleri zaten var.
+- **ONAY** (EMRELİC, 4 Kasım 2026 akşam): 34 dilim `isg`'e taşınır. Dayanak: VERI-YAPISI.md "TAHRİR ÖLÇÜTÜ" (Emre, 24 Eylül 2026).
+  - Bu ölçüt asıl otoritedir; TEK KURAL onun uygulamasıdır.
+  - Hüküm: "geçici/askerî" — Türk Ermenistanı Genel Valiliği askerî valilikti ve Osmanlı iddiası sürüyordu.
+  - Brife eklenen kural: her `isg`/`s:` önerisinin `not` alanında ölçüt maddesi yazılır.
+- **Elviye ve Kafkasya:** `rusya-gecici-hukumet` 503 + `transkafkasya` 23 dilim Rus hukukî toprağında kalıyor; bunlara dokunulmaz.
+
+## 16. TAHRİR ÖLÇÜTÜ taraması — KASA kuyruğu (`tahrir_olcum.json`, `tahrir_siniflar.json`)
+EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §185'teki açık kalem bu taramayla karşılanır.
+- **Mevcut isg** (ceb0ce402):
+  - Bugün **585 isg kaydı** var; 24 Eylül'deki sayı 238'di.
+  - Bunlar 389 yerleşime dağılıyor. 68 yerleşime (103 kayıt) D adımı dokundu; **321 yerleşime (482 kayıt) dokunmadı**.
+- **Ters yön:** `s:`/`d:` olarak yazılmış ama ölçüte göre `isg` olabilecek dilimler.
+  - Desen: A → B → A (aynı sahip geri geliyor). B en çok 15 yıl sürüyor; ardışık Rus alt künyeleri tek blok sayılıyor.
+  - Bu, Kafkas 1916-18 vakasının bütün imparatorluklara genellenmesidir. **1.261 aday** çıktı; 1.026'sı D adımının dışında.
+- **Sınıflar:**
+
+| Sınıf | Aday | D dışı | Değerlendirme |
+|---|---:|---:|---|
+| 1 — hanedan içi (Fetret vb.) | 250 | 224 | Ölçüt dışı; dokunulmaz |
+| 2 — II. Dünya Savaşı işgali ve kukla rejimler | 333 | 298 | Güçlü isg adayı |
+| 3 — 1914-24 | 85 | 70 | isg adayı (Kafkas/Levant emsali) |
+| 4 — Osmanlı sınır el değiştirmeleri | 169 | 129 | **Tahrir sınavı**: tahrire girdi mi, sancağa bağlandı mı |
+| 5 — 1792-1815 | 83 | 68 | İlhak yasası varsa `s:`, yoksa isg |
+| 6 — öteki | 341 | 237 | Belgeyle tek tek |
+
+- **Yöntem:** 1 ajanlık ayrı akış (`TAHRIR-BRIEF.md`).
+  - Sınıf 2, 3 ve 5 **künye deseni başına bir hükümle** ilerler: bir kaynak, desene uyan bütün satırlar.
+  - Sınıf 4 yerleşim yerleşim ilerler.
+- **Sınır:** desen sezgiseldir. A→B→A olmayan işgaller bu taramada görünmez; örneğin işgalin sonunda üçüncü bir sahibe geçiş. Bunlar D adımının yerleşim taramasında yakalanır.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.

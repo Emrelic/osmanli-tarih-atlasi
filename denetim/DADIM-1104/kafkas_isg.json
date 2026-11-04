@@ -1,0 +1,3922 @@
+[
+ {
+  "yer": "Muş",
+  "dosya_satir": "data/yerlesimler.js:242",
+  "simdiki": "s: rusya 1916-02-18 → 1916-08-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-02-18 → 1916-08-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Muş",
+  "dosya_satir": "data/yerlesimler.js:243",
+  "simdiki": "s: rusya 1916-08-25 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-08-25 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Muş",
+  "dosya_satir": "data/yerlesimler.js:243",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-05-01",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-05-01 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Gümüşhane",
+  "dosya_satir": "data/yerlesimler.js:332",
+  "simdiki": "s: rusya 1916-07-19 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-07-19 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Gümüşhane",
+  "dosya_satir": "data/yerlesimler.js:332",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Gümüşhane",
+  "dosya_satir": "data/yerlesimler.js:333",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-02-28",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-02-28 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Trabzon",
+  "dosya_satir": "data/yerlesimler.js:352",
+  "simdiki": "s: rusya 1916-04-18 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-04-18 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Trabzon",
+  "dosya_satir": "data/yerlesimler.js:352",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Trabzon",
+  "dosya_satir": "data/yerlesimler.js:352",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-02-24",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-02-24 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Rize",
+  "dosya_satir": "data/yerlesimler.js:362",
+  "simdiki": "s: rusya 1916-03-08 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-03-08 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Rize",
+  "dosya_satir": "data/yerlesimler.js:362",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Rize",
+  "dosya_satir": "data/yerlesimler.js:362",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-03-02",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-03-02 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Erzincan",
+  "dosya_satir": "data/yerlesimler.js:363",
+  "simdiki": "s: rusya 1916-07-24 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-07-24 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Erzincan",
+  "dosya_satir": "data/yerlesimler.js:363",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Erzincan",
+  "dosya_satir": "data/yerlesimler.js:363",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-02-26",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-02-26 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Erzurum",
+  "dosya_satir": "data/yerlesimler.js:364",
+  "simdiki": "s: rusya 1916-02-16 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-02-16 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Erzurum",
+  "dosya_satir": "data/yerlesimler.js:364",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Erzurum",
+  "dosya_satir": "data/yerlesimler.js:364",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-03-12",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-03-12 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Kars",
+  "dosya_satir": "data/yerlesimler.js:365",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kars",
+  "dosya_satir": "data/yerlesimler.js:365",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-04-25",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ardahan",
+  "dosya_satir": "data/yerlesimler.js:366",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ardahan",
+  "dosya_satir": "data/yerlesimler.js:366",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-04-03",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bitlis",
+  "dosya_satir": "data/yerlesimler.js:369",
+  "simdiki": "s: rusya 1916-03-01 → 1916-08-08",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-03-01 → 1916-08-08 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Akkirman",
+  "dosya_satir": "data/yerlesimler.js:582",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kili",
+  "dosya_satir": "data/yerlesimler.js:583",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Özi",
+  "dosya_satir": "data/yerlesimler.js:594",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kamaniçe",
+  "dosya_satir": "data/yerlesimler.js:598",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kefe",
+  "dosya_satir": "data/yerlesimler.js:719",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bahçesaray",
+  "dosya_satir": "data/yerlesimler.js:720",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kerç",
+  "dosya_satir": "data/yerlesimler.js:721",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Azak",
+  "dosya_satir": "data/yerlesimler.js:741",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Taman",
+  "dosya_satir": "data/yerlesimler.js:742",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Anapa",
+  "dosya_satir": "data/yerlesimler.js:743",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sohum",
+  "dosya_satir": "data/yerlesimler.js:746",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sohum",
+  "dosya_satir": "data/yerlesimler.js:746",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Soçi (Sâşe)",
+  "dosya_satir": "data/yerlesimler.js:762",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tuapse",
+  "dosya_satir": "data/yerlesimler.js:763",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kuban (Yekaterinodar)",
+  "dosya_satir": "data/yerlesimler.js:764",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Maykop (Çerkezya)",
+  "dosya_satir": "data/yerlesimler.js:765",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kabartay (Nalçik)",
+  "dosya_satir": "data/yerlesimler.js:766",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tarki (Tarku)",
+  "dosya_satir": "data/yerlesimler.js:782",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ağraham burnu",
+  "dosya_satir": "data/yerlesimler.js:783",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Terek deltası (Kızlar)",
+  "dosya_satir": "data/yerlesimler.js:784",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nahçıvan",
+  "dosya_satir": "data/yerlesimler.js:800",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tiflis",
+  "dosya_satir": "data/yerlesimler.js:801",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tiflis",
+  "dosya_satir": "data/yerlesimler.js:801",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zagem (Kaheti)",
+  "dosya_satir": "data/yerlesimler.js:810",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zagem (Kaheti)",
+  "dosya_satir": "data/yerlesimler.js:810",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Revan",
+  "dosya_satir": "data/yerlesimler.js:811",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Revan",
+  "dosya_satir": "data/yerlesimler.js:811",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gence",
+  "dosya_satir": "data/yerlesimler.js:812",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gence",
+  "dosya_satir": "data/yerlesimler.js:812",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şamahı",
+  "dosya_satir": "data/yerlesimler.js:813",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şamahı",
+  "dosya_satir": "data/yerlesimler.js:813",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bakü",
+  "dosya_satir": "data/yerlesimler.js:815",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Derbend",
+  "dosya_satir": "data/yerlesimler.js:817",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kabala",
+  "dosya_satir": "data/yerlesimler.js:833",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kabala",
+  "dosya_satir": "data/yerlesimler.js:833",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ereş",
+  "dosya_satir": "data/yerlesimler.js:834",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ereş",
+  "dosya_satir": "data/yerlesimler.js:834",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şâbüran",
+  "dosya_satir": "data/yerlesimler.js:835",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şâbüran",
+  "dosya_satir": "data/yerlesimler.js:835",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mahmudâbâd",
+  "dosya_satir": "data/yerlesimler.js:836",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Batum",
+  "dosya_satir": "data/yerlesimler.js:1130",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ahıska",
+  "dosya_satir": "data/yerlesimler.js:1132",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hacıbey (Odessa)",
+  "dosya_satir": "data/yerlesimler.js:1162",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kiev",
+  "dosya_satir": "data/yerlesimler.js:1177",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Harkov",
+  "dosya_satir": "data/yerlesimler.js:1178",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Voronej",
+  "dosya_satir": "data/yerlesimler.js:1179",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Astrahan",
+  "dosya_satir": "data/yerlesimler.js:1189",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Minsk",
+  "dosya_satir": "data/yerlesimler.js:1294",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Moskova",
+  "dosya_satir": "data/yerlesimler.js:1296",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Novgorod",
+  "dosya_satir": "data/yerlesimler.js:1297",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "St. Petersburg",
+  "dosya_satir": "data/yerlesimler.js:1298",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Smolensk",
+  "dosya_satir": "data/yerlesimler.js:1299",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tula",
+  "dosya_satir": "data/yerlesimler.js:1300",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nijniy Novgorod",
+  "dosya_satir": "data/yerlesimler.js:1301",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vologda",
+  "dosya_satir": "data/yerlesimler.js:1302",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kazan",
+  "dosya_satir": "data/yerlesimler.js:1303",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ufa",
+  "dosya_satir": "data/yerlesimler.js:1304",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Perm",
+  "dosya_satir": "data/yerlesimler.js:1305",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Saratov",
+  "dosya_satir": "data/yerlesimler.js:1306",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tsaritsyn",
+  "dosya_satir": "data/yerlesimler.js:1307",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Rostov (Don)",
+  "dosya_satir": "data/yerlesimler.js:1308",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Poltava",
+  "dosya_satir": "data/yerlesimler.js:1309",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kutaisi",
+  "dosya_satir": "data/yerlesimler.js:1311",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kutaisi",
+  "dosya_satir": "data/yerlesimler.js:1311",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vladikavkaz",
+  "dosya_satir": "data/yerlesimler.js:1312",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bozkır (Deşt-i Kıpçak)",
+  "dosya_satir": "data/yerlesimler.js:1504",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kalmuk bozkırı",
+  "dosya_satir": "data/yerlesimler.js:1505",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ural eteği",
+  "dosya_satir": "data/yerlesimler.js:1506",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hotin",
+  "dosya_satir": "data/yerlesimler.js:1565",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bender",
+  "dosya_satir": "data/yerlesimler.js:1566",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İsmail",
+  "dosya_satir": "data/yerlesimler.js:1567",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çehrin (Çigirin)",
+  "dosya_satir": "data/yerlesimler.js:1579",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bar (Podolya)",
+  "dosya_satir": "data/yerlesimler.js:1597",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Meciboj (Mejibuji)",
+  "dosya_satir": "data/yerlesimler.js:1600",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Culfa",
+  "dosya_satir": "data/yerlesimler.js:2048",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Astara",
+  "dosya_satir": "data/yerlesimler.js:2247",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Lenkeran",
+  "dosya_satir": "data/yerlesimler.js:2250",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Salyan",
+  "dosya_satir": "data/yerlesimler.js:2251",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Salyan",
+  "dosya_satir": "data/yerlesimler.js:2251",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kuba",
+  "dosya_satir": "data/yerlesimler.js:2256",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kuba",
+  "dosya_satir": "data/yerlesimler.js:2256",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şeki (Nuha)",
+  "dosya_satir": "data/yerlesimler.js:2259",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şeki (Nuha)",
+  "dosya_satir": "data/yerlesimler.js:2259",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Berde (Karabağ)",
+  "dosya_satir": "data/yerlesimler.js:2262",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Berde (Karabağ)",
+  "dosya_satir": "data/yerlesimler.js:2262",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şuşa",
+  "dosya_satir": "data/yerlesimler.js:2265",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ordubad",
+  "dosya_satir": "data/yerlesimler.js:2266",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Krasnovodsk (Türkmenbaşı)",
+  "dosya_satir": "data/yerlesimler.js:2314",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çeleken",
+  "dosya_satir": "data/yerlesimler.js:2325",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Garabogaz (Bekdaş)",
+  "dosya_satir": "data/yerlesimler.js:2335",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mangışlak",
+  "dosya_satir": "data/yerlesimler.js:2349",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Dihistan ovası (Meşhed-i Misriyân)",
+  "dosya_satir": "data/yerlesimler.js:2361",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nesâ",
+  "dosya_satir": "data/yerlesimler.js:2447",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ebîverd",
+  "dosya_satir": "data/yerlesimler.js:2452",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Merv (Mari)",
+  "dosya_satir": "data/yerlesimler.js:2467",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Soroka (Soroca)",
+  "dosya_satir": "data/yerlesimler.js:2514",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Orhei",
+  "dosya_satir": "data/yerlesimler.js:2515",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gözleve (Kezlev)",
+  "dosya_satir": "data/yerlesimler_kirim.js:139",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Or Kapı (Ferahkirman)",
+  "dosya_satir": "data/yerlesimler_kirim.js:143",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Akmescid",
+  "dosya_satir": "data/yerlesimler_kirim.js:147",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Karasubazar",
+  "dosya_satir": "data/yerlesimler_kirim.js:151",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Eski Kırım (Solhat)",
+  "dosya_satir": "data/yerlesimler_kirim.js:158",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sudak (Suğdak)",
+  "dosya_satir": "data/yerlesimler_kirim.js:164",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Balaklava (Cembalo)",
+  "dosya_satir": "data/yerlesimler_kirim.js:172",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yalta",
+  "dosya_satir": "data/yerlesimler_kirim.js:181",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Aluşta",
+  "dosya_satir": "data/yerlesimler_kirim.js:186",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Rın kumulları (Volga-Yayık arası)",
+  "dosya_satir": "data/yerlesimler_seyrek.js:160",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mankup",
+  "dosya_satir": "data/yerlesimler_ek2.js:135",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İnkirman (Kalamita)",
+  "dosya_satir": "data/yerlesimler_ek2.js:144",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yediçkul bozkırı",
+  "dosya_satir": "data/yerlesimler_ek3.js:99",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Camboyluk bozkırı",
+  "dosya_satir": "data/yerlesimler_ek3.js:102",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zaporojye Seçi",
+  "dosya_satir": "data/yerlesimler_ek4.js:138",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hortiça Seçi",
+  "dosya_satir": "data/yerlesimler_ek4.js:149",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bazavluk Seçi",
+  "dosya_satir": "data/yerlesimler_ek4.js:151",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mıkıtın Rog Seçi (Nikopol)",
+  "dosya_satir": "data/yerlesimler_ek4.js:153",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çortomlık Seçi",
+  "dosya_satir": "data/yerlesimler_ek4.js:155",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sloboda bozkırı",
+  "dosya_satir": "data/yerlesimler_ek4.js:215",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çerkask (Razdory)",
+  "dosya_satir": "data/yerlesimler_ek6.js:72",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Don bozkırı (Sal)",
+  "dosya_satir": "data/yerlesimler_ek6.js:77",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zaporojye bozkırı",
+  "dosya_satir": "data/yerlesimler_ek6.js:90",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Donets bozkırı",
+  "dosya_satir": "data/yerlesimler_ek6.js:99",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kızılarvat",
+  "dosya_satir": "data/yerlesimler_ortaasya2.js:170",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Aşkabad",
+  "dosya_satir": "data/yerlesimler_ortaasya2.js:183",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Aral kuzeyi",
+  "dosya_satir": "data/yerlesimler_ortaasya2.js:195",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Üstyurt kuzeyi",
+  "dosya_satir": "data/yerlesimler_ortaasya2.js:209",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Emba (Cem)",
+  "dosya_satir": "data/yerlesimler_ortaasya2.js:217",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Aktöbe",
+  "dosya_satir": "data/yerlesimler_ortaasya2.js:225",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Guryev (Atyrau)",
+  "dosya_satir": "data/yerlesimler_ortaasya2.js:235",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nikolskoye (Bering Adası, Komandor)",
+  "dosya_satir": "data/yerlesimler_asya.js:2690",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Cēsis (Wenden)",
+  "dosya_satir": "data/yerlesimler_ek7.js:139",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Daugavpils (Dünaburg)",
+  "dosya_satir": "data/yerlesimler_ek7.js:144",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Šiauliai",
+  "dosya_satir": "data/yerlesimler_ek7.js:150",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Polotsk",
+  "dosya_satir": "data/yerlesimler_ek7.js:158",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vitebsk",
+  "dosya_satir": "data/yerlesimler_ek7.js:160",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Petsamo (Peçenga)",
+  "dosya_satir": "data/yerlesimler_ek8.js:181",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kola",
+  "dosya_satir": "data/yerlesimler_ek8.js:193",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kandalakşa",
+  "dosya_satir": "data/yerlesimler_ek8.js:196",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ponoy",
+  "dosya_satir": "data/yerlesimler_ek8.js:199",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Arhangelsk",
+  "dosya_satir": "data/yerlesimler_ek8.js:202",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mezen",
+  "dosya_satir": "data/yerlesimler_ek8.js:205",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pustozersk",
+  "dosya_satir": "data/yerlesimler_ek8.js:211",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ust-Tsilma",
+  "dosya_satir": "data/yerlesimler_ek8.js:214",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Obdorsk (Salehard)",
+  "dosya_satir": "data/yerlesimler_ek8.js:231",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yamal ucu",
+  "dosya_satir": "data/yerlesimler_ek8.js:235",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mangazeya",
+  "dosya_satir": "data/yerlesimler_ek8.js:243",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Turuhansk",
+  "dosya_satir": "data/yerlesimler_ek8.js:248",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Dudinka",
+  "dosya_satir": "data/yerlesimler_ek8.js:252",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hatanga",
+  "dosya_satir": "data/yerlesimler_ek8.js:258",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Jigansk",
+  "dosya_satir": "data/yerlesimler_ek8.js:263",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bulun",
+  "dosya_satir": "data/yerlesimler_ek8.js:267",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Verhoyansk",
+  "dosya_satir": "data/yerlesimler_ek8.js:271",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ust-Yansk",
+  "dosya_satir": "data/yerlesimler_ek8.js:275",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zaşiversk",
+  "dosya_satir": "data/yerlesimler_ek8.js:279",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Novaya Zemlya kuzeyi",
+  "dosya_satir": "data/yerlesimler_ek8.js:318",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Novaya Zemlya güneyi",
+  "dosya_satir": "data/yerlesimler_ek8.js:322",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vaygaç",
+  "dosya_satir": "data/yerlesimler_ek8.js:326",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Berezov",
+  "dosya_satir": "data/yerlesimler_ek9.js:65",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Surgut",
+  "dosya_satir": "data/yerlesimler_ek9.js:69",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tomsk",
+  "dosya_satir": "data/yerlesimler_ek9.js:73",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yeniseysk",
+  "dosya_satir": "data/yerlesimler_ek9.js:78",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Krasnoyarsk",
+  "dosya_satir": "data/yerlesimler_ek9.js:82",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yakutsk",
+  "dosya_satir": "data/yerlesimler_ek9.js:89",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Olyokminsk",
+  "dosya_satir": "data/yerlesimler_ek9.js:93",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ohotsk",
+  "dosya_satir": "data/yerlesimler_ek9.js:98",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İrkutsk",
+  "dosya_satir": "data/yerlesimler_ek9.js:107",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nerçinsk",
+  "dosya_satir": "data/yerlesimler_ek9.js:111",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Albazin",
+  "dosya_satir": "data/yerlesimler_ek9.js:125",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kazak bozkırı (İşim)",
+  "dosya_satir": "data/yerlesimler_ek9.js:135",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Udskoy ostrogu",
+  "dosya_satir": "data/yerlesimler_ek13.js:141",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ayan",
+  "dosya_satir": "data/yerlesimler_ek13.js:154",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nikolayevsk (Amur ağzı)",
+  "dosya_satir": "data/yerlesimler_ek13.js:164",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Blagoveşçensk",
+  "dosya_satir": "data/yerlesimler_ek13.js:180",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Habarovka",
+  "dosya_satir": "data/yerlesimler_ek13.js:187",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İmperator limanı",
+  "dosya_satir": "data/yerlesimler_ek13.js:191",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vladivostok",
+  "dosya_satir": "data/yerlesimler_ek13.js:198",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Aleksandrovsk (Kuzey Sahalin)",
+  "dosya_satir": "data/yerlesimler_ek13.js:206",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kirensk",
+  "dosya_satir": "data/yerlesimler_ek13.js:221",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bratsk ostrogu",
+  "dosya_satir": "data/yerlesimler_ek13.js:229",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yerbogaçen",
+  "dosya_satir": "data/yerlesimler_ek13.js:234",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vilyuysk",
+  "dosya_satir": "data/yerlesimler_ek13.js:257",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Essey",
+  "dosya_satir": "data/yerlesimler_ek13.js:261",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Selenginsk",
+  "dosya_satir": "data/yerlesimler_ek13.js:284",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Semerkant",
+  "dosya_satir": "data/yerlesimler_ek14.js:116",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Cizzah",
+  "dosya_satir": "data/yerlesimler_ek14.js:153",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Almatı (Vernıy)",
+  "dosya_satir": "data/yerlesimler_ek14.js:164",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Taşkent",
+  "dosya_satir": "data/yerlesimler_ek15.js:82",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hokand",
+  "dosya_satir": "data/yerlesimler_ek15.js:107",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Andican",
+  "dosya_satir": "data/yerlesimler_ek15.js:115",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Oş",
+  "dosya_satir": "data/yerlesimler_ek15.js:118",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hucend",
+  "dosya_satir": "data/yerlesimler_ek15.js:125",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Türkistan (Yesi)",
+  "dosya_satir": "data/yerlesimler_ek15.js:133",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çimkent",
+  "dosya_satir": "data/yerlesimler_ek15.js:136",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çernigov",
+  "dosya_satir": "data/yerlesimler_ek17.js:123",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Novgorod-Seversk",
+  "dosya_satir": "data/yerlesimler_ek17.js:126",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Putivl",
+  "dosya_satir": "data/yerlesimler_ek17.js:133",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bryansk",
+  "dosya_satir": "data/yerlesimler_ek17.js:139",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kursk",
+  "dosya_satir": "data/yerlesimler_ek17.js:142",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Orel",
+  "dosya_satir": "data/yerlesimler_ek17.js:145",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ryazan",
+  "dosya_satir": "data/yerlesimler_ek17.js:157",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Belgorod",
+  "dosya_satir": "data/yerlesimler_ek17.js:164",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tambov",
+  "dosya_satir": "data/yerlesimler_ek17.js:167",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Penza",
+  "dosya_satir": "data/yerlesimler_ek17.js:178",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Simbirsk",
+  "dosya_satir": "data/yerlesimler_ek17.js:184",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tara",
+  "dosya_satir": "data/yerlesimler_ek18.js:114",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Omsk",
+  "dosya_satir": "data/yerlesimler_ek18.js:118",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kainsk (Baraba)",
+  "dosya_satir": "data/yerlesimler_ek18.js:122",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kuznetsk",
+  "dosya_satir": "data/yerlesimler_ek18.js:126",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Biysk",
+  "dosya_satir": "data/yerlesimler_ek18.js:136",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Barnaul",
+  "dosya_satir": "data/yerlesimler_ek18.js:140",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zmeinogorsk",
+  "dosya_satir": "data/yerlesimler_ek18.js:149",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pavlodar (Koryakov)",
+  "dosya_satir": "data/yerlesimler_ek18.js:153",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Semipalatinsk",
+  "dosya_satir": "data/yerlesimler_ek18.js:157",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ust-Kamenogorsk",
+  "dosya_satir": "data/yerlesimler_ek18.js:162",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zaysan",
+  "dosya_satir": "data/yerlesimler_ek20.js:115",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Borisoglebsk",
+  "dosya_satir": "data/yerlesimler_ek22.js:106",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kamışin",
+  "dosya_satir": "data/yerlesimler_ek22.js:112",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Petrovsk (Saratov)",
+  "dosya_satir": "data/yerlesimler_ek22.js:115",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Syzran",
+  "dosya_satir": "data/yerlesimler_ek22.js:118",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Samara",
+  "dosya_satir": "data/yerlesimler_ek22.js:126",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şavşat",
+  "dosya_satir": "data/yerlesimler_ek26.js:31",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Posof",
+  "dosya_satir": "data/yerlesimler_ek26.js:35",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hanak",
+  "dosya_satir": "data/yerlesimler_ek26.js:39",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hulo (Acara)",
+  "dosya_satir": "data/yerlesimler_ek26.js:44",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Arpaçay (Akyaka)",
+  "dosya_satir": "data/yerlesimler_ek26.js:49",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Digor",
+  "dosya_satir": "data/yerlesimler_ek26.js:53",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Iğdır",
+  "dosya_satir": "data/yerlesimler_ek26.js:57",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gümrü (Aleksandropol)",
+  "dosya_satir": "data/yerlesimler_ek26.js:88",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gümrü (Aleksandropol)",
+  "dosya_satir": "data/yerlesimler_ek26.js:88",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-15",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Eçmiyadzin",
+  "dosya_satir": "data/yerlesimler_ek26.js:92",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Eçmiyadzin",
+  "dosya_satir": "data/yerlesimler_ek26.js:92",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-28",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Artvin",
+  "dosya_satir": "data/yerlesimler_ek27.js:38",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hopa",
+  "dosya_satir": "data/yerlesimler_ek27.js:41",
+  "simdiki": "s: rusya 1915-02-23 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1915-02-23 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Hopa",
+  "dosya_satir": "data/yerlesimler_ek27.js:42",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Hopa",
+  "dosya_satir": "data/yerlesimler_ek27.js:42",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-03-14",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-03-14 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Sarp",
+  "dosya_satir": "data/yerlesimler_ek27.js:47",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Borçka",
+  "dosya_satir": "data/yerlesimler_ek28.js:107",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sarıkamış",
+  "dosya_satir": "data/yerlesimler_ek28.js:121",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ahılkelek (Akhalkalaki)",
+  "dosya_satir": "data/yerlesimler_ek28.js:150",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gori",
+  "dosya_satir": "data/yerlesimler_ek28.js:157",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gori",
+  "dosya_satir": "data/yerlesimler_ek28.js:157",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Telavi",
+  "dosya_satir": "data/yerlesimler_ek28.js:162",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Telavi",
+  "dosya_satir": "data/yerlesimler_ek28.js:162",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Duşeti",
+  "dosya_satir": "data/yerlesimler_ek28.js:166",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Duşeti",
+  "dosya_satir": "data/yerlesimler_ek28.js:166",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pasinler (Hasankale)",
+  "dosya_satir": "data/yerlesimler_ek28.js:169",
+  "simdiki": "s: rusya 1916-02-16 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-02-16 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Pasinler (Hasankale)",
+  "dosya_satir": "data/yerlesimler_ek28.js:169",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Pasinler (Hasankale)",
+  "dosya_satir": "data/yerlesimler_ek28.js:169",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-03-12",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-03-12 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Poti (Faş Kalesi)",
+  "dosya_satir": "data/yerlesimler_ek28.js:188",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Poti (Faş Kalesi)",
+  "dosya_satir": "data/yerlesimler_ek28.js:188",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kelkit",
+  "dosya_satir": "data/yerlesimler_ek29.js:432",
+  "simdiki": "s: rusya 1916-07-22 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-07-22 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Kelkit",
+  "dosya_satir": "data/yerlesimler_ek29.js:432",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Kelkit",
+  "dosya_satir": "data/yerlesimler_ek29.js:432",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-02-17",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-02-17 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Aşkale",
+  "dosya_satir": "data/yerlesimler_ek29.js:438",
+  "simdiki": "s: rusya 1916-02-24 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-02-24 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Aşkale",
+  "dosya_satir": "data/yerlesimler_ek29.js:438",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Aşkale",
+  "dosya_satir": "data/yerlesimler_ek29.js:438",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-03-03",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-03-03 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Kişinev (Chișinău)",
+  "dosya_satir": "data/yerlesimler_ek29.js:750",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bălți",
+  "dosya_satir": "data/yerlesimler_ek29.js:751",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nyenskans (Nyen)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1002",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yam (Yamburg, Kingisepp)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1008",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Koporye (Kaporye)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1013",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mogilev (Mahilyow)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1017",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gomel (Homel)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1021",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bobruysk (Babruysk)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1025",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mozır (Mazyr)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1029",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Novomirgorod",
+  "dosya_satir": "data/yerlesimler_ek29.js:1031",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kılburun (Kinburn)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1036",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Balta",
+  "dosya_satir": "data/yerlesimler_ek29.js:1043",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Temrük (Temryuk)",
+  "dosya_satir": "data/yerlesimler_ek29.js:1049",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Arabat",
+  "dosya_satir": "data/yerlesimler_ek29.js:1057",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pskov",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:114",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Staraya Russa",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:118",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Eski Ladoga",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:122",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Oreşek (Nöteborg)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:132",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tihvin",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:136",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Belozersk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:140",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kirillov",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:142",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kargopol",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:146",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Olonets",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:148",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Petrozavodsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:150",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Solovki (Solovetsky)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:153",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kem",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:157",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Onega",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:161",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Holmogorı",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:165",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pinega",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:169",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şenkursk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:173",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Velsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:177",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Veliki Ustyug",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:181",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Solvıçegodsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:185",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yarensk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:189",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ust-Sısolsk (Sıktıvkar)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:191",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Totma",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:195",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hlınov (Vyatka)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:199",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kotelniç",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:203",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Slobodskoy",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:207",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çerdın",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:211",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Solikamsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:213",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kungur",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:215",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kostroma",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:221",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yaroslavl",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:225",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Rostov Veliki",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:229",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Uglich",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:233",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Galiç (Kostroma)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:237",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kineşma",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:241",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şuya",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:245",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vetluga",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:249",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tver",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:253",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Torjok",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:257",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Velikiye Luki",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:261",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vladimir",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:265",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Suzdal",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:269",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Glazov",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:271",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Murom",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:275",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Arzamas",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:279",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kasimov",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:287",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Temnikov",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:294",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kaluga",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:298",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kolomna",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:302",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kaşira",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:306",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Serpuhov",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:310",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mojaysk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:314",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Volokolamsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:318",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Dmitrov",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:322",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sergiyev Posad",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:324",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bulgar (Bolgar)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:333",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sviyajsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:336",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tetyuşi",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:338",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Buinsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:342",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çistopol",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:346",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çeboksarı",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:350",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kozmodemyansk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:352",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tsarevokokşaysk (Yoşkar-Ola)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:354",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Malmıj",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:358",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yelabuga",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:362",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Menzelinsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:364",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sarapul",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:366",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Alatır",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:368",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Birsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:370",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Buğulma",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:372",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Saray (Selitrennoye)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:384",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yeni Saray (Tsarev)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:388",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ukek (Uvek)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:392",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Beldjamen",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:396",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çernıy Yar",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:398",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yenotayevsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:400",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Krasnıy Yar",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:402",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hvalınsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:404",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Volsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:406",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Stavropol (Volga)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:408",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Uralsk (Yayık)",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:417",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İlek",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:419",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Orenburg",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:421",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Orsk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:423",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Buzuluk",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:425",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sterlitamak",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:429",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Baturin",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:435",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hluhiv",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:440",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Taganrog",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:445",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ket Ostrogu (Ketsk)",
+  "dosya_satir": "data/yerlesimler_sibirya.js:27",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kazak bozkırı (Turgay)",
+  "dosya_satir": "data/yerlesimler_sibirya.js:29",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kazak bozkırı (Sarısu)",
+  "dosya_satir": "data/yerlesimler_sibirya.js:31",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Buryat toprakları (Selenge havzası)",
+  "dosya_satir": "data/yerlesimler_sibirya.js:35",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Petropavlovsk-Kamçatskiy",
+  "dosya_satir": "data/yerlesimler_sibirya.js:46",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şerur (Sharur)",
+  "dosya_satir": "data/yerlesimler_kalite4.js:66",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tallinn (Reval)",
+  "dosya_satir": "data/yerlesimler_ek11.js:52",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Narva",
+  "dosya_satir": "data/yerlesimler_ek11.js:60",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tartu (Dorpat)",
+  "dosya_satir": "data/yerlesimler_ek11.js:64",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pärnu",
+  "dosya_satir": "data/yerlesimler_ek11.js:67",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tümen (Çimgi-Tura)",
+  "dosya_satir": "data/yerlesimler_ek10.js:69",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tobolsk (İsker)",
+  "dosya_satir": "data/yerlesimler_ek10.js:75",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Baraba bozkırı",
+  "dosya_satir": "data/yerlesimler_ek10.js:96",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Abalak",
+  "dosya_satir": "data/yerlesimler_ek31.js:87",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kızıl-Tura",
+  "dosya_satir": "data/yerlesimler_ek31.js:102",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yedisan bozkırı",
+  "dosya_satir": "data/yerlesimler_ek_bozkir.js:109",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kuban Nogay bozkırı",
+  "dosya_satir": "data/yerlesimler_ek_bozkir.js:127",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Stavropol–Kuma bozkırı",
+  "dosya_satir": "data/yerlesimler_ek_bozkir.js:138",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kuban deltası bozkırı",
+  "dosya_satir": "data/yerlesimler_ek_bozkir.js:155",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Aşağı Dinyeper bozkırı",
+  "dosya_satir": "data/yerlesimler_ek_bozkir.js:167",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zazalo",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Murvaneti",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ts’q’altbila",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Saylıca",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Makhalak’auri",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Norapat",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Beri",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kliçatak (Suser)",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Küçükperveli",
+  "dosya_satir": "data/yerlesimler_sinir_kuzey.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yenikale",
+  "dosya_satir": "data/yerlesimler_ok106.js:73",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Uman",
+  "dosya_satir": "data/yerlesimler_ok106.js:124",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kızıkermen (Gazi Kerman)",
+  "dosya_satir": "data/yerlesimler_ok106.js:174",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kremençuk",
+  "dosya_satir": "data/yerlesimler_ok106.js:190",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Lubnı",
+  "dosya_satir": "data/yerlesimler_ok106.js:207",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sumı",
+  "dosya_satir": "data/yerlesimler_ok106.js:219",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çuguyev",
+  "dosya_satir": "data/yerlesimler_ok106.js:231",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İzyum",
+  "dosya_satir": "data/yerlesimler_ok106.js:248",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bahmut",
+  "dosya_satir": "data/yerlesimler_ok106.js:264",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yelisavetgrad (Aziz Yelizaveta Kalesi)",
+  "dosya_satir": "data/yerlesimler_ok106.js:281",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Herson",
+  "dosya_satir": "data/yerlesimler_ok106.js:295",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Mariupol",
+  "dosya_satir": "data/yerlesimler_ok106.js:301",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yekaterinoslav (Dnipro)",
+  "dosya_satir": "data/yerlesimler_ok106.js:307",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Novoçerkask",
+  "dosya_satir": "data/yerlesimler_ok106.js:313",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Akyar (Sivastopol)",
+  "dosya_satir": "data/yerlesimler_ok106.js:319",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Berdyansk",
+  "dosya_satir": "data/yerlesimler_ok106.js:325",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nikolayev (Mikolayiv)",
+  "dosya_satir": "data/yerlesimler_ok106.js:331",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Melitopol",
+  "dosya_satir": "data/yerlesimler_ok106.js:337",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Stavropol (Kafkas)",
+  "dosya_satir": "data/yerlesimler_ok106.js:343",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ostrogojsk",
+  "dosya_satir": "data/yerlesimler_ok106.js:361",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Balasagun (Ak-Beşim)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:148",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Issık Göl havzası",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:174",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Narın (Naryn)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:188",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kopal (Kapal)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:203",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Petropavlovsk (Kızılcar)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:351",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kökçetav (Kokçetav)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:361",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Akmola (Akmolinsk)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:371",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Karkaralinsk (Karkaralı)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:381",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ayagöz (Sergiopol)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:391",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Irgiz (Irgız)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:404",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kazalinsk (Kazalı)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:414",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sığnak (Sunak Kurgan)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:453",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Suzak (Sozak)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:461",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ak-Meçit (Perovsk)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:480",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Aralsk (Aral)",
+  "dosya_satir": "data/yerlesimler_ortaasya3.js:492",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Taraz (Evliya-Ata)",
+  "dosya_satir": "data/yerlesimler_ok107.js:224",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sayram (İsficâb)",
+  "dosya_satir": "data/yerlesimler_ok107.js:233",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çelyabinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:15",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kurgan",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:16",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zlatoust",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:17",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Dalmatovo",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:18",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kamışlov",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:19",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yalutorovsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:20",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Verhoturye",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:21",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Turinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:22",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Irbit",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:23",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yekaterinburg",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:24",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nijniy Tagil",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:25",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Troitsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:26",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pelım ostrogu",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:27",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Narım",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:28",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Abakan ostrogu",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:29",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sayansk ostrogu",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:30",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Verhneangarsk ostrogu",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:31",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Barguzin",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:32",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bauntovsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:33",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Irgen",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:34",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Telembinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:35",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kabansk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:36",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İlyinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:37",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Verhneudinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:39",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Uyandina (Nijneindigirsk) zimovyesi",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:45",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Podşiversk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:46",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Alazeya ostrogu",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:47",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Srednekolımsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:48",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nijnekolımsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:49",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ostrovnoye (Anyuy panayırı)",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:50",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tauysk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:51",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Yama zimovyesi",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:52",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gijiga",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:53",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Penjinsk ostrogu",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:54",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nijnekamçatsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:55",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Verhnekamçatsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:56",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bolşeretsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:57",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Olyutorsk (Arhangelsk)",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:58",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ust-Olenyok zimovyesi",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:59",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Voloçanka (Voloçanı zimovyesi)",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:60",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Verhnekolımsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:61",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Markovo",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:62",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şadrinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:63",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Samarovo",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:64",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Demyanskoye",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:65",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kolıvan (Çaus)",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:66",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Açinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:67",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kansk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:68",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Minusinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:69",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nijneudinsk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:70",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Balagansk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:71",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Verholensk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:72",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bodaybo",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:73",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sretensk",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:74",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çita",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:76",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Suntar",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:82",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ust-Maya",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:83",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nelkan",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:84",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Tigil",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:85",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Hantayka zimovyesi",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:86",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zeya (Zeyskiy Sklad)",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:87",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zaural Başkurt toprakları",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:88",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Başkurt toprakları (İdil-Ural)",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:89",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Güney Başkurt bozkırı",
+  "dosya_satir": "data/yerlesimler_sibirya2.js:90",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zugdidi (Megrelya/Odişi merkezi)",
+  "dosya_satir": "data/yerlesimler_nokta2.js:None",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Zugdidi (Megrelya/Odişi merkezi)",
+  "dosya_satir": "data/yerlesimler_nokta2.js:None",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-05-26",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vinnitsa (Vinnytsia)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:18",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Braslav (Bratslav)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:19",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kostantinov (Starokostiantyniv)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:20",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Jitomir (Zhytomyr)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:21",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Berdiçev (Berdychiv)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:22",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bila Tserkva (Belaya Tserkov)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:27",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Çerkasi (Cherkasy)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:28",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kaniv (Kanev)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:29",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Fastov (Fastiv)",
+  "dosya_satir": "data/yerlesimler_ukrayna_0916.js:30",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bayburt",
+  "dosya_satir": "data/yerlesimler_anadolu_0914.js:34",
+  "simdiki": "s: rusya 1916-07-16 → 1917-03-15",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya 1916-07-16 → 1917-03-15 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Bayburt",
+  "dosya_satir": "data/yerlesimler_anadolu_0914.js:34",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg rusya-gecici-hukumet 1917-03-15 → 1917-11-07 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Bayburt",
+  "dosya_satir": "data/yerlesimler_anadolu_0914.js:34",
+  "simdiki": "s: transkafkasya 1917-11-07 → 1918-02-19",
+  "tur": "OSMANLI TOPRAĞI → isg",
+  "oneri": "d: OSMANLI sürer + isg transkafkasya 1917-11-07 → 1918-02-19 (TEK KURAL düzeltmesi)"
+ },
+ {
+  "yer": "Kahul (Cahul)",
+  "dosya_satir": "data/yerlesimler_p0037.js:49",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Bolgrad (Bolhrad)",
+  "dosya_satir": "data/yerlesimler_p0037.js:55",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Lovozero (Luyavr)",
+  "dosya_satir": "data/yerlesimler_p0037.js:62",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Varzuga",
+  "dosya_satir": "data/yerlesimler_p0037.js:67",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Białystok",
+  "dosya_satir": "data/yerlesimler_p0037.js:92",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Brest-Litovsk",
+  "dosya_satir": "data/yerlesimler_p0037.js:98",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pinsk",
+  "dosya_satir": "data/yerlesimler_p0037.js:103",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Grodno",
+  "dosya_satir": "data/yerlesimler_p0037.js:108",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kovel",
+  "dosya_satir": "data/yerlesimler_p0037.js:113",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Lutsk (Łuck)",
+  "dosya_satir": "data/yerlesimler_p0037.js:118",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Volodymyr-Volynskyi (Włodzimierz)",
+  "dosya_satir": "data/yerlesimler_p0037.js:123",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Rivne (Równe)",
+  "dosya_satir": "data/yerlesimler_p0037.js:128",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Vitim (Vitimskoye zimov'e / Vitimskiy ostrog)",
+  "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:124",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İlimsk (Ilimskiy ostrog)",
+  "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:132",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Akşa (Akşinsk kalesi)",
+  "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:22",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gorbitsa (Gorbiçenskaya)",
+  "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:28",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kazakevičevo (Kazakevičeva stanitsası)",
+  "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:34",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Sofiysk (Amur)",
+  "dosya_satir": "data/yerlesimler_nokta_sibirya_0917.js:40",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Horog (Khorog)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:175",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kala-i Vamar (Rûşan)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:183",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "İşkâşim (Pamir)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:191",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Pamirski Post (Murgab)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:213",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Rykovskoye (Kirovskoye)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:403",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Onor",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:408",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Gunt vadisi (bölge)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:427",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Karakul (Pamir, bölge)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:434",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Alay vadisi (bölge)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:441",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Poronay yukarısı (bölge)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:458",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Nabil kıyısı (bölge)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:465",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Kuzey Sahalin (bölge)",
+  "dosya_satir": "data/yerlesimler_a78_asya.js:472",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Petseri (Peçori)",
+  "dosya_satir": "data/yerlesimler_a78_avrupa.js:30",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Abrene (Pıtalovo)",
+  "dosya_satir": "data/yerlesimler_a78_avrupa.js:33",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Porkhov",
+  "dosya_satir": "data/yerlesimler_a78_avrupa.js:37",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Şelon havzası (Soltsı)",
+  "dosya_satir": "data/yerlesimler_a78_avrupa.js:41",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Rēzekne (Rositten)",
+  "dosya_satir": "data/yerlesimler_a78_avrupa.js:44",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ },
+ {
+  "yer": "Ventspils (Windau)",
+  "dosya_satir": "data/yerlesimler_a78_avrupa.js:165",
+  "simdiki": "s: rusya-gecici-hukumet 1917-03-15 → 1917-11-07",
+  "tur": "Rus hukukî toprağı (elviye/Kafkasya) → s: olabilir",
+  "oneri": "elviye-i selâse kararına bak (OLCUM §14)"
+ }
+]
