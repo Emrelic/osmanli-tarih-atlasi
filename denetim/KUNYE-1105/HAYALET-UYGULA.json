@@ -207,5 +207,27 @@
   "guc": "ORTA",
   "dayanak": "Mingshi j.120 + Academia Sinica (EMRELİC)",
   "onay": "EMRELİC 5 Kasım (gece-19)"
+ },
+ {
+  "d": "baroda / Patan",
+  "tur": "YERLESIM",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "baroda t 1949-05-01 KALIR",
+  "gun": "1949-05-01",
+  "islem": "Patan (ve öteki Baroda yerleşimleri): 1947-08-15 → 1949-04-30 s: baroda + v: hindistan (katılım belgesi; prens devletleri emsali), 1949-05-01'den s: hindistan. Instrument of Accession günü kaynakla ic_not'a (H5).",
+  "dayanak": "LAB ölçümü devletler.js baroda f 1721 t 1949-05-01; EMRELİC kararı",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "vladimir-suzdal",
+  "tur": "KUNYE_GENISLET",
+  "karar": "KUNYE_GENISLET",
+  "guc": "BEKLE (gün kaynakla)",
+  "kunye": "vladimir-suzdal t 1281-01-01 → Moskova'ya geçiş (1362 sonrası; gün kaynakla)",
+  "gun": "",
+  "islem": "PENCERE UCU ARTIĞI: t 1281-01-01 pencere başlangıcı. Büyük knezlik Moskova'ya geçişe dek sürer; 1281'deki Kostroma, Şuya, Serpuhov, Dmitrov dönemleri s: knezlik + v: altinorda. UYGULAMA gün kaynaktan gelince.",
+  "dayanak": "LAB ölçümü devletler.js:13800; EMRELİC kararı",
+  "onay": "EMRELİC 5 Kasım (gün bekliyor)"
  }
 ]

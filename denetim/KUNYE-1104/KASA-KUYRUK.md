@@ -100,6 +100,8 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | `urdun-emirligi` | KUNYE | EMRELİC | ic_not: '1921-04-11 ilk hükûmetin kuruluşu'; f 02-01 TDV ÜRDÜN ile teyit (H4). | urdun-emirligi f 1921-02-01 KALIR |  | ORTA | LAB ölçümü + EMRELİC |
 | `habsburg / Bukovina` | KUNYE | EMRELİC | Bukovina (Çernovits vb.): rakip hükûmet kuralı (EMRELİC → KASA): 1918-11-06 → 11-11 Ukrayna komitesi, 11-11'den s: romanya; Saint-Germain ic_not. | habsburg t 1918-11-12 KALIR | 1918-11-11 | ORTA | EMRELİC kararı (KASA'ya verildi) |
 | `guney-ming (doğrulama)` | KUNYE | EMRELİC | EMRELİC JDN çapraz: 1644-06-07 = 庚寅, 06-19 = 壬寅; Mingshi j.120 ile birebir. | guney-ming f 1644-06-07 KESİN | 1644-06-07 | ORTA | Mingshi j.120 + Academia Sinica (EMRELİC) |
+| `baroda / Patan` | YERLESIM | EMRELİC | Patan (ve öteki Baroda yerleşimleri): 1947-08-15 → 1949-04-30 s: baroda + v: hindistan (katılım belgesi; prens devletleri emsali), 1949-05-01'den s: hindistan. Instrument of Accession günü kaynakla ic_not'a (H5). | baroda t 1949-05-01 KALIR | 1949-05-01 | ORTA | LAB ölçümü devletler.js baroda f 1721 t 1949-05-01; EMRELİC kararı |
+| `vladimir-suzdal` | KUNYE_GENISLET | KUNYE_GENISLET | PENCERE UCU ARTIĞI: t 1281-01-01 pencere başlangıcı. Büyük knezlik Moskova'ya geçişe dek sürer; 1281'deki Kostroma, Şuya, Serpuhov, Dmitrov dönemleri s: knezlik + v: altinorda. UYGULAMA gün kaynaktan gelince. | vladimir-suzdal t 1281-01-01 → Moskova'ya geçiş (1362 sonrası; gün kaynakla) |  | BEKLE (gün kaynakla) | LAB ölçümü devletler.js:13800; EMRELİC kararı |
 
 ## TAKVIM-1104 — Rus eski takvim (O.S. → Gregoryen) TARIH_DUZELT (LAB; ayrıntı `denetim/TAKVIM-1104/oneri_RUS_OS_*`)
 
