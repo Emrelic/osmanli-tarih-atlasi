@@ -126,6 +126,21 @@ Kural: sınıra bağlı gün `[yalnız yıl teyitli; gün teyitsiz]` notuyla kal
 - **E18 Kanem-Bornu t:** ORE «until 1897» (Kanemî hanedanı sonu) ↔ TDV 1902 / 1905. Hangi olay tarihleniyor, ayrılmalı.
 - **E19 Sokoto kuruluşu:** Columbia/Britannica 1809 (şehir-başkent) ↔ TDV 1812 (halifelik ilanı). İki ayrı olay; künye beyanı gerekli.
 
+### 2c. KOORDİNATÖR KARARI (EMRELİC 1 KASIM, 4 Kasım 2026) — KASA uygular
+Genel kural (CLAUDE.md): İslâm dünyasında TDV esastır, çelişki `ic_not`ta iki kaynağıyla beyan edilir. Öteki bölgelerde bölgenin çekirdek eseri esastır.
+
+| konu | karar |
+|---|---|
+| Ankara 1402 (A2) | **TDV 28 Temmuz 1402 esas.** EI¹ 20 Temmuz (19 Zilhicce 804) `ic_not`ta hicrî gün farkıyla beyan edilir |
+| Altın Orda f (B7) | TDV hangi olayı esas alıyorsa o. TDV belirsizse **1242** (Batu'nun dönüşü ve Saray); 1227 ve 1253 beyan edilir |
+| Doğu Göktürk-2 t ve `uygur` f (B10/B16) | **744** (Grousset + TDV «Dokuz Oğuzlar», çift teyit) |
+| Batı Göktürk t (B9) · Gazneli t (B19) · Sencer ölümü (B6) · Sokoto f (E19) · Kanem-Bornu t (E18) | **TDV esas**, öteki değer beyan edilir. TDV yıl vermiyorsa iki akademik kaynağın ortak yılı alınır; ortak yıl yoksa mevcut değer kalır + beyan |
+| Xia f 617/618 (C14) | Çin, TDV kapsamı dışı. Cambridge History of China / birincil kaynak (Jiu Tangshu) esas; okunamazsa mevcut değer kalır + beyan |
+
+Koordinatörün okuduğu kaynaklar (yeniden istenmez; EI² bu tarayıcıda açılmıyor):
+- Iranica «Ardašīr I»: **28 Nisan 224 → çift teyit.** E2 satırı ÇİFT TEYİT (gün) olur.
+- Iranica «Esmāʿīl I»: 906-7 H / 1501, gün yok. A20'de 1501 yılı teyitli, EI¹'in 1502'si beyan edilir.
+
 ## 3. ADAY (ÖZ) — sayfa okunmadı, çift teyit SAYILMADI (yeniden okunmalı)
 - **D1 Roma imp. f (-0026-01-16):** Fasti Praenestini 16 Ocak girdisi (attalus.org çevirisi; arama özeti). Okununca gün çift teyit olur.
 - **D12 Río de la Plata f:** Real Cédula, San Ildefonso **1 Ağustos 1776** (Wikisource nakli). Atlas 1776-01-01 yıl başı; akademik teyitle 1776-08-01'e çekilmeli.
