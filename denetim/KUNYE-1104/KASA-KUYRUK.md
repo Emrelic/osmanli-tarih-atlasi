@@ -77,6 +77,7 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | `polonya-naiplik-kralligi` | **BEKLE** | f 1916-11-05 · t 1918-11-11 | t 1918-11-11 → 1918-11-14 (Naiplik Konseyi siyasi yetkiyi Piłsudski'ye devretti ve dağıldı) | ORTA |
 | `polonya` | **BEKLE** | f 1918-11-11 · t 1939-10-06 | f 1918-11-11 KALIR mı (sembolik bağımsızlık günü) yoksa 1918-11-14 mü? Naiplik t 14.11 olursa 11–14 Kasım 3 gün çakışır | ORTA |
 | `triyeste-serbest-toprak` | **TEYIT** | f 1947-09-15 · t 1954-10-26 |  | ORTA |
+| `tahiri` | **DUZELT** | f 1454-07-01 · t 1538-08-03 | t→1517-01-01 | ORTA |
 
 ## TAKVIM-1104 — Rus eski takvim (O.S. → Gregoryen) TARIH_DUZELT (LAB; ayrıntı `denetim/TAKVIM-1104/oneri_RUS_OS_*`)
 
