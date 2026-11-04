@@ -51,3 +51,45 @@ Açık borç:
 - **Fetih günü:** 1551 Osmanlı fethinin günü okunmadı; Bánlaky Arad'ı adıyla anmıyor.
 - **1688 günü:** Lippa'dan alındı.
 - **Künye eksiği:** 1849 honvéd kuşatması ve Macar ihtilâl hükûmeti dönemi için künye yok.
+
+### Parti 1 — 20 nokta (UMIT alt ajanı, Sonnet; denetim: 19 ✅ / 1 ❌ beyanlı)
+
+| nokta | dönem | isg | OSMANLI dönemleri | özet |
+|---|---|---|---|---|
+| Karlofça | 7 | 0 | 1521-08-29 → 1687-09-06 | TDV «Karlofça»: fetih Ağustos 1521 (AY), 1687 Avusturya (YIL) |
+| Nukuʻalofa | 2 | 0 | — | kuruluş tarihi bulunamadı; zincir Tongatapu egemenliği (Treccani «Tonga») |
+| Otrar | 11 | 0 | — | 1218 Hârizmşah → Moğol (TDV); 1328-1370 ve 1500 sonrası Türkistan kaydından ABİ MERKEZ (komşunun kaynağı boş — beyanlı) |
+| Çayeli | 8 | 0 | 1461-08-15 → 1916-03-08 · 1918-03-02 → 1920-04-23 | ABİ MERKEZ Rize; Rus dönemi Rize'deki gibi `s:` (komşu `isg` değil) |
+| Bucaş | 11 | 0 | — | 1672 sahiplik değiştirmedi (TDV); zincir Haliç/Yazlofça'dan |
+| Küçük Kaynarca | 11 | 2 | 1393 → 1402 · 1419 → 1878-07-13 | ABİ MERKEZ Silistre; Rus işgalleri 1810-11 ve 1829-36 `isg` |
+| Sevr | 4 | 0 | — | Paris/Senlis zinciri; 1940-44 işgali yazılmadı |
+| Tepedelen | 11 | 0 | 1417-01-01 → 1912-11-28 | ❌ KÜNYE ARALIĞI (aşağıda) |
+| Karánşebeş | 14 | 0 | 1552-08-06 → 1556 · 1658-08-30 → 1688 · 1695 → 1716-10-13 | TDV timisvar, Bánlaky 0016/1302; gün Lugoş'tan |
+| Szászsebes | 10 | 0 | — | Gyulafehérvár zinciri (MKL açılmadı) |
+| Babaeski | 7 | 2 | 1360 → 1402 · 1413-07-05 → 1920-04-23 | Bulgar 1913 ve Yunan 1920-22 `isg` |
+| Dömeke | 9 | 0 | 1394 → 1402 · 1413 → 1881-07-02 | 1897 Osmanlı işgali YAZILMADI (bitiş günü bulunamadı) — KASA `isg` olarak açmalı |
+| Bileća | 9 | 0 | 1465 → 1878-07-29 | 1941-44 NDH dönemi yazılmadı |
+| Kumanova | 10 | 1 | 1395 → 1402 · 1413 → 1912-10-24 | TDV «Kumanova»; Bulgar 1915-18 `isg`; Sırp devir günü yaklaşık (24 Ekim) |
+| Osnabrück | 6 | 0 | — | 1866'ya dek Hannover (Treccani); künye yok → `almanya` içinde, beyanlı |
+| Salankamen | 7 | 0 | 1521-08-29 → 1691-08-19 | Hrvatska enciklopedija + TDV |
+| Zenta | 10 | 1 | 1541 → 1686-10-23 · 1697-09-08 → 1697-09-11 | TDV «Zenta»; Macar 1941-44 `isg` |
+| Missolonghi | 9 | 0 | 1499 → 1687 · 1700 → 1821-03-25 · 1826-04-22 → 1829-04-01 | 1826 TDV; 1821/1829 komşudan |
+| Nizip | 4 | 0 | 1516-08-24 → 1920-04-23 | 1832-40 Mısır (misir-suriye-idaresi) dönemi KAYNAK-GEREK, yazılmadı |
+| Yanbolu | 10 | 0 | 1373 → 1402 · 1413 → 1878-07-13 | TDV fetih 1373 (atlas kronolojisi 1369 — çelişki) |
+
+**KASA'ya bulgular (parti 1):**
+- **Künye aralığı (Tepedelen ❌):**
+  - `arnavutluk-bagimsiz` 1939-04-07'de bitiyor, `arnavutluk-italyan-koruma` 1939-04-12'de başlıyor: arada 5 gün.
+  - İtalyan koruması 1943-09-08'de bitiyor, `arnavutluk-alman-himayesi` 1943-09-14'te başlıyor: arada 6 gün.
+  - Komşular (Ergiri, Hımara, Delvine) 04-07 ve 09-08 günlerini yazıyor. Tepedelen tutarlılık için komşu günüyle yazıldı.
+  - Çözüm: künye uçları hizalanmalı.
+- **Fetret künyesi:** `fetret-musa` 1411-02-17'de başlıyor. Oysa Musa Çelebi'nin Rumeli hâkimiyeti 1410-02-13'teki Yanbolu zaferiyle başladı (TDV «Yanbolu»). Künyenin `f` ucu gözden geçirilmeli.
+- **Olmayan künye kimlikleri:**
+  - Trebinye kaydındaki `s:avusturya` ile `bosna`: `devletler.js`te böyle id'ler yok.
+  - Künyesi hiç olmayan devletler: Cuci Ulusu / Gök Orda, Velbužd Prensliği, Hannover Krallığı.
+- **Çelişkiler:**
+  - Karlofça'nın fethi TDV'ye göre 1521; komşu Varadin 1526 diyor.
+  - Yanbolu'nun fethi TDV'ye göre 1373; atlas kronolojisi 1369 diyor.
+  - Lüleburgaz'ın 1912 Bulgar işgali TDV'de var ama atlas kaydında yok.
+  - Münster'in 1815'te Prusya'ya geçişi Osnabrück için geçerli değil; Osnabrück 1866'ya kadar Hannover'deydi.
+- **Kaynağı boş komşu kayıtları** (ABİ MERKEZ olarak kullanıldı, beyanlı): Türkistan 1281-1370, Lapaha, Silistre 1281-1390.

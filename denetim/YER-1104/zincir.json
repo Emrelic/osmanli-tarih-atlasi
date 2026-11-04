@@ -1,28 +1,1467 @@
 {
-"_aciklama": "YER-1104 eklenecek noktaların tam sahiplik zinciri (UMIT SALI, 4 Kasım 2026). Kaynak listesi: KASA-YER.md ② (KAYNAKLI satırlar). Biçim ve denetim: zincir_dogrula.py. alan s = yabancı sahip (d: künye id), d = doğrudan Osmanlı, v = tâbi/dolaylı (k: tâbi adı). Ufuk 2000-12-31; kur yoksa zincir 1281-01-01'den (atlas çekirdeği) başlar ve ilk anılış kur: yapılmaz (VERI-YAPISI). ABİ MERKEZ ve 'gün komşudan' satırları beyanlıdır.",
-"Arad": {
- "lat": 46.18333, "lon": 21.31667, "kur": null, "bit": null,
- "zincir": [
-  {"alan": "s", "d": "macaristan", "f": "1281-01-01", "t": "1526-11-10",
-   "kaynak": "MKL «Arad»: 'vára 1177: említik először, várispánság központja volt' (Macar kraliyet kalesi/ispanlık merkezi) · t: TDV suleyman-i Szapolyai'nin seçimi 10 Kasım 1526 — ABİ MERKEZ: Lippa/Temeşvar zinciri (BALKAN-MACAR-0081) ile aynı kırılma, BEYANLI"},
-  {"alan": "v", "k": "Macaristan (Zapolya vasal krallığı)", "f": "1526-11-10", "t": "1541-08-29",
-   "kaynak": "ABİ MERKEZ: Lippa (Lipova) — Arad ve Lippa aynı Maros kalesi hattında; TDV timisvar: Timiş bölgesi Szapolyai yanlısı Petrovics'in elinde · BEYANLI YAKLAŞIKLIK (Arad'ı adıyla anan 1526-41 belgesi okunmadı)"},
-  {"alan": "v", "k": "Erdel Prensliği", "f": "1541-08-29", "t": "1551-07-01",
-   "kaynak": "ABİ MERKEZ: Lippa/Temeşvar — TDV timisvar: 1541 Budin beylerbeyiliği ve haraçgüzâr Erdel Prensliği; Petrovics'in Lipova-Tımışvar bölgesi · t: Bánlaky (MEK 09477) 0013/988: Báthory Endre Temmuz 1551 ortası Banat kalelerini Ferdinand adına teslim aldı · BEYANLI YAKLAŞIKLIK"},
-  {"alan": "s", "d": "macaristan-habsburg", "f": "1551-07-01", "t": "1551-10-01",
-   "kaynak": "ABİ MERKEZ: Lippa — Bánlaky (MEK 09477) 0013/988 Banat kaleleri Ferdinand'a (Temmuz 1551) · t: Bánlaky 0013/992: Sokollu Mehmed 8 Eylül–5 Ekim 1551 Çanad önünde; birlikleri Maros boyundaki Nagylak, Fellak, Egres, Csálya, Zádorlak, Eperjes, Pálélés ve Bodorlak (Mondorlak) palankalarını aldı — Arad'ın 10-15 km çevresi; Arad adıyla geçmiyor → AY, ALT SINIR, BEYANLI"},
-  {"alan": "d", "f": "1551-10-01", "t": "1688-06-22",
-   "kaynak": "MKL «Arad»: '1551-1688: a törökök kezén volt' (YIL; gün Bánlaky 0013/992 Maros palankalarının Eylül-Ekim 1551 alınışından: AY, BEYANLI) · TDV timisvar: Tımışvar beylerbeyiliğinin sabit sancakları arasında 'Göle (Gyula) ve Arad (birlikte)' · t: MKL 1688 (YIL) — gün komşudan: Lippa 22 Haziran 1688 (TDV lipova: Caraffa kuşatması '12-22 Haziran 1688' teslim; aynı Maros seferi) BEYANLI"},
-  {"alan": "s", "d": "macaristan-habsburg", "f": "1688-06-22", "t": "1918-11-16",
-   "kaynak": "MKL «Arad»: 1688 sonrası Habsburg; kale 1763-83'te yeniden yapıldı · 1849: 'a honvédsereg féléves ostromzár után vette be' ve 6 Ekim 1849 Arad şehitleri — 1848-49 Macar ihtilâl hükûmetinin künyesi devletler.js'te YOK: dönem macaristan-habsburg içinde BEYANLI (KASA: künye açılırsa 1849 honvéd dönemi ayrı yazılır) · t: TDV macaristan (G. Dávid) 1918 · Temeşvar/Lippa ile aynı uç"},
-  {"alan": "s", "d": "macaristan-naiplik", "f": "1918-11-16", "t": "1920-06-04",
-   "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · Lippa/Yanova emsali"},
-  {"alan": "s", "d": "romanya-kralligi", "f": "1920-06-04", "t": "1947-12-30",
-   "kaynak": "F8: Trianon 4 Haziran 1920 — Arad ili Romanya'ya (TDV birinci-dunya-savasi; Lippa/Yanova emsali)"},
-  {"alan": "s", "d": "romanya-halk", "f": "1947-12-30", "t": "1989-12-22",
-   "kaynak": "LoC Romania Country Study (Lippa/Yanova emsali)"},
-  {"alan": "s", "d": "romanya-cumhuriyeti", "f": "1989-12-22", "t": "2000-12-31",
-   "kaynak": "LoC Romania Country Study (Lippa/Yanova emsali)"}
- ]
-}
+ "_aciklama": "YER-1104 eklenecek noktaların tam sahiplik zinciri (UMIT SALI, 4 Kasım 2026). Kaynak listesi: KASA-YER.md ② (KAYNAKLI satırlar). Biçim ve denetim: zincir_dogrula.py. alan s = yabancı sahip (d: künye id), d = doğrudan Osmanlı, v = tâbi/dolaylı (k: tâbi adı). Ufuk 2000-12-31; kur yoksa zincir 1281-01-01'den (atlas çekirdeği) başlar ve ilk anılış kur: yapılmaz (VERI-YAPISI). ABİ MERKEZ ve 'gün komşudan' satırları beyanlıdır.",
+ "Arad": {
+  "lat": 46.18333,
+  "lon": 21.31667,
+  "kur": null,
+  "bit": null,
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "kaynak": "MKL «Arad»: 'vára 1177: említik először, várispánság központja volt' (Macar kraliyet kalesi/ispanlık merkezi) · t: TDV suleyman-i Szapolyai'nin seçimi 10 Kasım 1526 — ABİ MERKEZ: Lippa/Temeşvar zinciri (BALKAN-MACAR-0081) ile aynı kırılma, BEYANLI"
+   },
+   {
+    "alan": "v",
+    "k": "Macaristan (Zapolya vasal krallığı)",
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "kaynak": "ABİ MERKEZ: Lippa (Lipova) — Arad ve Lippa aynı Maros kalesi hattında; TDV timisvar: Timiş bölgesi Szapolyai yanlısı Petrovics'in elinde · BEYANLI YAKLAŞIKLIK (Arad'ı adıyla anan 1526-41 belgesi okunmadı)"
+   },
+   {
+    "alan": "v",
+    "k": "Erdel Prensliği",
+    "f": "1541-08-29",
+    "t": "1551-07-01",
+    "kaynak": "ABİ MERKEZ: Lippa/Temeşvar — TDV timisvar: 1541 Budin beylerbeyiliği ve haraçgüzâr Erdel Prensliği; Petrovics'in Lipova-Tımışvar bölgesi · t: Bánlaky (MEK 09477) 0013/988: Báthory Endre Temmuz 1551 ortası Banat kalelerini Ferdinand adına teslim aldı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1551-07-01",
+    "t": "1551-10-01",
+    "kaynak": "ABİ MERKEZ: Lippa — Bánlaky (MEK 09477) 0013/988 Banat kaleleri Ferdinand'a (Temmuz 1551) · t: Bánlaky 0013/992: Sokollu Mehmed 8 Eylül–5 Ekim 1551 Çanad önünde; birlikleri Maros boyundaki Nagylak, Fellak, Egres, Csálya, Zádorlak, Eperjes, Pálélés ve Bodorlak (Mondorlak) palankalarını aldı — Arad'ın 10-15 km çevresi; Arad adıyla geçmiyor → AY, ALT SINIR, BEYANLI"
+   },
+   {
+    "alan": "d",
+    "f": "1551-10-01",
+    "t": "1688-06-22",
+    "kaynak": "MKL «Arad»: '1551-1688: a törökök kezén volt' (YIL; gün Bánlaky 0013/992 Maros palankalarının Eylül-Ekim 1551 alınışından: AY, BEYANLI) · TDV timisvar: Tımışvar beylerbeyiliğinin sabit sancakları arasında 'Göle (Gyula) ve Arad (birlikte)' · t: MKL 1688 (YIL) — gün komşudan: Lippa 22 Haziran 1688 (TDV lipova: Caraffa kuşatması '12-22 Haziran 1688' teslim; aynı Maros seferi) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1688-06-22",
+    "t": "1918-11-16",
+    "kaynak": "MKL «Arad»: 1688 sonrası Habsburg; kale 1763-83'te yeniden yapıldı · 1849: 'a honvédsereg féléves ostromzár után vette be' ve 6 Ekim 1849 Arad şehitleri — 1848-49 Macar ihtilâl hükûmetinin künyesi devletler.js'te YOK: dönem macaristan-habsburg içinde BEYANLI (KASA: künye açılırsa 1849 honvéd dönemi ayrı yazılır) · t: TDV macaristan (G. Dávid) 1918 · Temeşvar/Lippa ile aynı uç"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · Lippa/Yanova emsali"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "kaynak": "F8: Trianon 4 Haziran 1920 — Arad ili Romanya'ya (TDV birinci-dunya-savasi; Lippa/Yanova emsali)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "kaynak": "LoC Romania Country Study (Lippa/Yanova emsali)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-cumhuriyeti",
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "kaynak": "LoC Romania Country Study (Lippa/Yanova emsali)"
+   }
+  ]
+ },
+ "Karlofça": {
+  "lat": 45.20278,
+  "lon": 19.93361,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Karlofça» (DİA 24, s.504) fetih Ağustos 1521 (AY), Avusturya 1687 (YIL) / 1699 (resmî). Çelişki: Varadin 1526-07-27, Karlofça maddesi 1521 → TDV esas. Dimitrofça komşusu 1918-11-11 kullanır, Varadin 1918-11-16 (7,5 km) seçildi. Habsburg Askerî Sınırı iç taksimatı için künye yok.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1521-08-29",
+    "kaynak": "TDV karlofca (DİA 24, s.504): 'küçük bir Macar kalesi… Belgrad'ın 927 Ramazanında (Ağustos 1521) Osmanlılar'ca fethi sırasında Sirem'in diğer kaleleriyle birlikte ele geçirildi' — AY teyitli; gün komşudan: Belgrad Kalesi 1521-08-29 (atlas kaydı, kendi kaynağına dayanır) · BEYANLI. ÇELİŞKİ: Varadin zinciri 1526-07-27 (TDV varadin) — TDV Karlofça maddesi esas alındı"
+   },
+   {
+    "alan": "d",
+    "f": "1521-08-29",
+    "t": "1687-09-06",
+    "kaynak": "TDV karlofca: 'Evliya Çelebi'nin kasabaya gelişinden yirmi iki yıl sonra 1687'de Karlofça Avusturyalılar'ın eline geçti' (YIL; gün komşudan: Varadin 1687-09-06, 7,5 km — atlas kaydı) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1687-09-06",
+    "t": "1918-11-16",
+    "kaynak": "TDV karlofca: 1687'de Avusturya eline geçti, '1110'da (1699) burada yapılan antlaşma ile resmen Avusturya'ya terkedildi' (Karlofça Antlaşması 24 Receb 1110 = 26 Ocak 1699: de jure) — fiilî devir 1687, gün komşudan Varadin · t: TDV macaristan (Géza Dávid): Avusturya-Macaristan monarşisinin sonu, 1918-11-16 (gün komşudan: Varadin zinciri)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (gün komşudan: Varadin zinciri) · ara dönem: Macar devleti (künye macaristan-naiplik)"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1920-06-04",
+    "t": "1945-11-29",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (gün komşudan: Varadin zinciri)"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal",
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "kaynak": "Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia) — gün komşudan: Varadin zinciri"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "f": "1992-04-27",
+    "t": "2000-12-31",
+    "kaynak": "künye yugoslavya-federal-cumhuriyeti f ucu (UNPROFOR/defensie.nl kaynağı künyede) — gün komşudan: Varadin zinciri"
+   }
+  ]
+ },
+ "Nukuʻalofa": {
+  "lat": -21.13667,
+  "lon": -175.20111,
+  "kur": null,
+  "bit": null,
+  "not": "KAYNAK-GEREK: Nukuʻalofa'nın var oluş ve kuruluş tarihi bulunamadı (kur boş). Zincir Tongatapu'nun egemen yapısını izler. Lapaha komşu kaydında kaynak alanı boştu; künye sınırı (1845-12-04) künye kaynağına dayanır. 1893-02-18 tarihli listeleme olayı sahiplik kırılması değil.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "tui-tonga-imparatorlugu",
+    "f": "1281-01-01",
+    "t": "1845-12-04",
+    "kaynak": "ABİ MERKEZ: Lapaha (Muʻa) — Tongatapu'nun Tuʻi Tonga merkezi; Treccani «Tonga»: Tuʻi Tonga hanedanı dönemi, 1799'da imparator Tuʻi Tuʻaho'nun öldürülmesi → ~50 yıl iç kriz, sonra George Tupou I krallığı yeniden birleştirdi; t künye tui-tonga-imparatorlugu t (=tonga-kralligi f) 1845-12-04 · Nukuʻalofa'nın 1281'de yerleşim olduğu kaynaklanamadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tonga-kralligi",
+    "f": "1845-12-04",
+    "t": "2000-12-31",
+    "kaynak": "künye tonga-kralligi f 1845-12-04 (atlas künyesi; Treccani «Tonga»: Tupou I birleştirme, anayasal hükûmet) · madde kaynağı Britannica; Wood-Ellem 1999 — Tonga 1900 İngiliz himayesinde de iç egemen krallık olarak sürdü (Treccani: 1899 himaye), künye değişmez"
+   }
+  ]
+ },
+ "Otrar": {
+  "lat": 42.91333,
+  "lon": 68.34361,
+  "kur": null,
+  "bit": null,
+  "not": "BEYANLI: 1328-1370 ve 1500 sonrası dönemler komşu Türkistan atlas kaydından (kaynak alanı boş) ABİ MERKEZ ile alındı. Moğol fethi günü yok (TDV: sonbahar 1219 kuşatma, 1220 başı). Terk/bit: UNESCO'ya göre 18. yy sonrası kullanılmadı, kaynaklı gün yok → bit boş. Künye eksiği: Cuci Ulusu / Gök Orda / Ak Orda (1227-1242 ve 1328-1370 için).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "harizmsah",
+    "f": "1218-01-01",
+    "t": "1220-01-01",
+    "kaynak": "TDV cengiz-han (Otrar Valisi İnalcık, Hârizmşah Muhammed'in valisi; Otrar'da Moğol kervanı 1218 ve elçilerin öldürülmesi): Otrar Hârizmşahlar'ın Siriderya şehri (YIL 1218; ilk anılış değil, atlas ilk_sahip günü) · t: TDV cengiz-han: 'Sonbaharda şehri kuşattı… Otrar'ı zaptettikten sonra Semerkant muhasarasına katılan Çağatay ile Ögedey…'; Buhara 10 Şubat 1220, Semerkant Mart 1220 → Otrar düşüşü 1220 başı (YIL, gün yok) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "mogol-imparatorlugu",
+    "f": "1220-01-01",
+    "t": "1242-01-01",
+    "kaynak": "TDV cengiz-han / cagatay-han: Otrar alındı, Moğol İmparatorluğu (YIL 1220) · t: künye altinorda f 1242-01-01 (Cuci ulusu); TDV gok-orda-hanligi: Siriderya boyundaki 'Otrar, Sabran, Cend ve Barçkend' Gök Orda (Cuci ulusu, 1227-1328) bölgesindedir · BEYANLI YAKLAŞIKLIK: 1227-1242 arası Cuci ulusu künyesi yok (künye altinorda f 1242)"
+   },
+   {
+    "alan": "s",
+    "d": "altinorda",
+    "f": "1242-01-01",
+    "t": "1370-04-09",
+    "kaynak": "TDV gok-orda-hanligi: Otrar Gök Orda (Cuci ulusu) bölgesinde; Altın Orda künyesi en yakın karşılık · 1328 sonrası Otrar'ın sahibi (Çağatay / Ak Orda / Timur öncesi) kaynaksız — BEYANLI YAKLAŞIKLIK, KAYNAK-GEREK · t: künye timurlu f 1370-04-09. ÇELİŞKİ: komşu Türkistan atlas kaydı 1281-1370 Çağatay"
+   },
+   {
+    "alan": "s",
+    "d": "timurlu",
+    "f": "1370-04-09",
+    "t": "1500-01-01",
+    "kaynak": "TDV acaibu'l-makdur: Timur 1405'te Otrar'da öldü (Timurlu şehri) · ABİ MERKEZ: Türkistan (Yesi) — atlas Türkistan kaydı timurlu 1370-04-09→1500-01-01 (kaynak alanı boş; BEYANLI YAKLAŞIKLIK)"
+   },
+   {
+    "alan": "s",
+    "d": "buhara",
+    "f": "1500-01-01",
+    "t": "1598-01-01",
+    "kaynak": "ABİ MERKEZ: Türkistan (Yesi) — atlas Türkistan kaydı (kaynak alanı boş) · BEYANLI YAKLAŞIKLIK, KAYNAK-GEREK; Şeybânîler (künye buhara f 1500)"
+   },
+   {
+    "alan": "s",
+    "d": "kazak-hanligi",
+    "f": "1598-01-01",
+    "t": "1815-01-01",
+    "kaynak": "TDV bent: Otrar Kazak hanlarının başşehri · ABİ MERKEZ: Türkistan (Yesi) — atlas kaydı kazak-hanligi 1598-01-01 (kaynak alanı boş) BEYANLI YAKLAŞIKLIK. UNESCO GHA: Otrar Tobe 18. yy'a kadar kullanıldı (terk günü yok)"
+   },
+   {
+    "alan": "s",
+    "d": "hokand",
+    "f": "1815-01-01",
+    "t": "1864-06-12",
+    "kaynak": "ABİ MERKEZ: Türkistan (Yesi) — atlas kaydı hokand 1815-01-01→1864-06-12 (kaynak alanı boş) BEYANLI YAKLAŞIKLIK, KAYNAK-GEREK"
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1864-06-12",
+    "t": "1917-03-15",
+    "kaynak": "ABİ MERKEZ: Türkistan (Yesi) — Rus ilhakı 12 Haziran 1864 (atlas Türkistan kaydı) BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "kaynak": "künye rusya-gecici-hukumet (Mart-Kasım 1917) — gün komşudan: Türkistan"
+   },
+   {
+    "alan": "s",
+    "d": "sovyet-rusya",
+    "f": "1917-11-07",
+    "t": "1991-12-16",
+    "kaynak": "künye sovyet-rusya f 1917-11-07 — Kazak SSC içinde; gün komşudan: Türkistan"
+   },
+   {
+    "alan": "s",
+    "d": "kazakistan",
+    "f": "1991-12-16",
+    "t": "2000-12-31",
+    "kaynak": "Library of Congress Country Studies / Britannica 'Kazakhstan'; bağımsızlık 16 Aralık 1991 (künye f; gün komşudan Türkistan)"
+   }
+  ]
+ },
+ "Çayeli": {
+  "lat": 41.08583,
+  "lon": 40.72194,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı tek kırılma Rus işgali (1916-03-08, Çaykıran 2021) ve komşu Rize kaydı. ABİ MERKEZ: Rize (18,2 km). Geri alma günü Rize'den; Çayeli'ne özgü gün kaynaklanmadı (Rize 1918-03-02, Hopa 1918-03-14 — iki gün farklı).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "trabzon-rum",
+    "f": "1281-01-01",
+    "t": "1461-08-15",
+    "kaynak": "ABİ MERKEZ: Rize — TDV rize: 'Komnenoslar'ın … kurdukları Trabzon Rum Devleti'; gün komşudan: Rize ve Arhavi 1461-08-15 (Trabzon'un düşüşü, atlas kayıtları) · BEYANLI YAKLAŞIKLIK (Çayeli adıyla 1281-1461 belgesi okunmadı)"
+   },
+   {
+    "alan": "d",
+    "f": "1461-08-15",
+    "t": "1916-03-08",
+    "kaynak": "ABİ MERKEZ: Rize — Rize ve Arhavi atlas kayıtları d 1461-08-15 · t: Rus işgali 8 Mart 1916 — Çaykıran 2021 (Askerî Tarih Araştırmaları Dergisi, doi 10.46953/askeritarih.814421); TDV rize: Rus işgali 8 Mart 1916 (gün komşudan: Rize) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1916-03-08",
+    "t": "1917-03-15",
+    "kaynak": "Çaykıran 2021 (Askerî Tarih Araştırmaları Dergisi): Rus işgali 1916-03-08; TDV rize aynı gün (gün komşudan: Rize) · t: künye rusya t 1917-03-15 · ABİ MERKEZ: Rize BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "kaynak": "künye rusya-gecici-hukumet (Mart-Kasım 1917) · ABİ MERKEZ: Rize — işgal sürüyor"
+   },
+   {
+    "alan": "s",
+    "d": "transkafkasya",
+    "f": "1917-11-07",
+    "t": "1918-03-02",
+    "kaynak": "ABİ MERKEZ: Rize — işgal bölgesi Transkafkasya idaresinde (künye f 1917-11-07) · t: Rize'nin geri alınışı 2 Mart 1918 — KURUMSAL kaynak (Rize TSO, Rize İl Sağlık Müdürlüğü), akademik teyit YOK (Rize atlas kaydı) BEYANLI"
+   },
+   {
+    "alan": "d",
+    "f": "1918-03-02",
+    "t": "1920-04-23",
+    "kaynak": "ABİ MERKEZ: Rize — Osmanlı idaresi geri döndü (gün komşudan: Rize 1918-03-02); Hopa'da 1918-03-14 (daha doğu, 68 km)"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "künye tbmm-turkiye f 1920-04-23 (TBMM'nin açılışı); Rize/Arhavi/Hopa kayıtlarıyla aynı"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "TDV 'Türkiye Cumhuriyeti'; Cumhuriyet ilanı 1923-10-29"
+   }
+  ]
+ },
+ "Bucaş": {
+  "lat": 49.06222,
+  "lon": 25.39472,
+  "kur": null,
+  "bit": null,
+  "not": "BEYANLI: Bucaş (Buczacz) için kendine özgü kaynaklı kırılma yalnız 1672'dir ve sahiplik değiştirmedi. Zincir Haliç/Yazlofça kayıtlarından ABİ MERKEZ ile kuruldu; Yazlofça-Haliç iki yerde çelişir (1919-23: Haliç polonya vs Yazlofça itilaf-emaneti; 1939: 17 vs 22 Eylül; 1941-44 Yazlofça kaydında yok). Bucaş'ın 1281'de varlığı kaynaklanamadı (ilk anılış beyanı yok).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "galicya-volhinya",
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "kaynak": "ABİ MERKEZ: Yazlofça/Haliç — Encyclopedia of Ukraine (CIUS) 'Galicia-Volhynia, Principality of': 1199-1340 (komşu kayıtların kaynağı) · BEYANLI YAKLAŞIKLIK (Bucaş'ın 1281'de var oluşu ve adıyla anılışı okunmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "litvanya-buyuk-dukalik",
+    "f": "1340-01-01",
+    "t": "1349-01-01",
+    "kaynak": "ABİ MERKEZ: Haliç/Yazlofça — CIUS 'Lviv': Galiçya Liubartas'ın naibi Dmytro Dedko'ca 1349'a dek yönetildi (BEYANLI, Polonya-Litvanya çekişmesi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "polonya-erken",
+    "f": "1349-01-01",
+    "t": "1569-07-01",
+    "kaynak": "Treccani Enciclopedia Italiana GALIZIA: «Nel 1349 fu occupata dal re polacco Casimiro» (Haliç kaydı) · CIUS 'Lviv': 1349 Casimir III Lviv'i aldı (Yazlofça kaydı) · ABİ MERKEZ: Haliç/Yazlofça BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "lehistan",
+    "f": "1569-07-01",
+    "t": "1772-08-05",
+    "kaynak": "Lublin Birliği 1569 (künye lehistan f 1569-07-01) · TDV bucas-antlasmasi: Osmanlı birlikleri 3 Ekim 1672'de Bucaş palankasına ulaştı, muhasara; Leh kuvvetleri direndi; 18 Ekim 1672'de barış, Bucaş Lehistan'da kaldı (Osmanlı'ya geçmedi, 'Podolya dışı') · t: CIUS HALYCH: 1772 Birinci Bölüşme'de Avusturya (gün komşudan: Haliç/Yazlofça 1772-08-05)"
+   },
+   {
+    "alan": "s",
+    "d": "habsburg",
+    "f": "1772-08-05",
+    "t": "1918-11-12",
+    "kaynak": "CIUS HALYCH (vol. 2, 1989): «In 1772 it was acquired by Austria in the first partition of Poland» (Haliç kaydı); Treccani GALIZIA · t: künye habsburg t 1918-11-12 (gün komşudan: Haliç 1918-11-12)"
+   },
+   {
+    "alan": "s",
+    "d": "bati-ukrayna-halk-cumhuriyeti",
+    "f": "1918-11-12",
+    "t": "1919-07-01",
+    "kaynak": "CIUS 'Western Ukrainian National Republic' (Markus, Stakhiv): Doğu Galiçya Kasım 1918'de ilan — Haliç kaydı; gün komşudan: Haliç 1919-07-01 (Polonya fiilî hâkimiyeti) · BEYANLI YAKLAŞIKLIK (Bucaş'ın el değiştirme günü: Haziran 1919 Çortkiv taarruzu / Leh karşı-taarruzu — okunmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "polonya",
+    "f": "1919-07-01",
+    "t": "1939-09-17",
+    "kaynak": "gün komşudan: Haliç 1919-07-01 (de facto) — Yazlofça kaydı itilaf-emaneti 1919-09-10→1923-03-15 (de jure, SG md.91) ile ÇELİŞİR, Haliç esas · t: Sovyet işgali 17 Eylül 1939 (gün komşudan: Yazlofça; Haliç 22 Eylül) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "sovyet-rusya",
+    "f": "1939-09-17",
+    "t": "1941-06-30",
+    "kaynak": "Britannica 'Ukraine' (Batı Ukrayna Kasım 1939'da Ukrayna SSC'ye katıldı) — Yazlofça kaydı; t: CIUS 'Lviv': ilk Sovyet işgali 22 Eylül 1939 – 30 Haziran 1941 (Haliç kaydı; gün komşudan)"
+   },
+   {
+    "alan": "s",
+    "d": "polonya-genel-hukumeti",
+    "f": "1941-06-30",
+    "t": "1944-07-27",
+    "kaynak": "CIUS 'Lviv': Alman işgali Haziran 1941–Temmuz 1944, Galiçya Generalgouvernement'a bağlı (Haliç kaydı; gün komşudan) · BEYANLI YAKLAŞIKLIK (künye polonya-genel-hukumeti)"
+   },
+   {
+    "alan": "s",
+    "d": "sovyet-rusya",
+    "f": "1944-07-27",
+    "t": "1991-08-24",
+    "kaynak": "ABİ MERKEZ: Lvov/Haliç — Doğu Galiçya 1944-07-27'den 1991'e Ukrayna SSC (Haliç kaydı); Yazlofça kaydı aynı (Britannica 'Ukraine')"
+   },
+   {
+    "alan": "s",
+    "d": "ukrayna",
+    "f": "1991-08-24",
+    "t": "2000-12-31",
+    "kaynak": "Ukrayna bağımsızlık bildirisi 24 Ağustos 1991 (künye ukrayna f; Rada metni) — Yazlofça/Haliç kayıtlarıyla aynı"
+   }
+  ]
+ },
+ "Küçük Kaynarca": {
+  "lat": 43.99278,
+  "lon": 27.50694,
+  "kur": null,
+  "bit": null,
+  "not": "ABİ MERKEZ: Silistre. Küçük Kaynarca (Kainardzha) köyü 1774 antlaşmasının imza yeridir (TDV «Küçük Kaynarca Antlaşması», 21 Temmuz 1774) ama o gün sahiplik değiştirmez. Silistre atlas kaydının 1281-1390 ve 1393 dönemlerinin kaynak alanı boştu. Rus işgalleri komşudan (isg alanı yok → s:rusya).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bulgar-carligi",
+    "f": "1281-01-01",
+    "t": "1390-01-01",
+    "kaynak": "ABİ MERKEZ: Silistre (24,1 km) — atlas Silistre kaydı (kaynak alanı boş); Silistre/Dobruca 1281'de Bulgar çarlığı — KAYNAK-GEREK · BEYANLI YAKLAŞIKLIK (köyün 1281'de var olduğu kaynaklanmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "eflak",
+    "f": "1390-01-01",
+    "t": "1393-09-01",
+    "kaynak": "ABİ MERKEZ: Silistre (24,1 km) — atlas Silistre kaydı: TDV silistre '1390 yılında Mircea burayı ele geçirdi' (YIL) · t: Osmanlı fethi (Silistre atlas kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1393-09-01",
+    "t": "1402-07-28",
+    "kaynak": "ABİ MERKEZ: Silistre (24,1 km) — atlas Silistre kaydı (Osmanlı fethi 1393-09; Ankara Savaşı 1402-07-28) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "eflak",
+    "f": "1402-07-28",
+    "t": "1419-01-01",
+    "kaynak": "ABİ MERKEZ: Silistre (24,1 km) — atlas Silistre kaydı: TDV silistre: 'Ankara Savaşı'nda (1402) … Mircea Silistre'yi tekrar aldı ve 1418'de ölümüne kadar elinde tuttu' (YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1419-01-01",
+    "t": "1878-07-13",
+    "kaynak": "ABİ MERKEZ: Silistre (24,1 km) — atlas Silistre kaydı: Osmanlı hâkimiyeti 1419-01-01 (YIL) · t: Rus işgali, Silistre teslimi Jülyen 29 Mayıs 1810 = Gregoryen 10 Haziran 1810 (Silistre atlas kaydı, ESBE «Силистрия») · BEYANLI YAKLAŞIKLIK (Küçük Kaynarca için özel işgal günü okunmadı)"
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1810-06-10",
+    "t": "1811-05-01",
+    "kaynak": "ABİ MERKEZ: Silistre (24,1 km) — atlas Silistre kaydı: Rus işgali 1810-06-10 → 1811-05-01 (Silistre atlas kaydı, isg) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1829-06-30",
+    "t": "1836-01-01",
+    "kaynak": "ABİ MERKEZ: Silistre (24,1 km) — atlas Silistre kaydı: Rus işgali 1829-06-30 (Jülyen 18 Haziran 1829) → 1836 (Silistre atlas kaydı, ESBE «Турецкие войны России») · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Bulgaristan Prensliği",
+    "f": "1878-07-13",
+    "t": "1908-10-05",
+    "kaynak": "ABİ MERKEZ: Silistre (24,1 km) — atlas Silistre kaydı: Silistre kaydı v:Bulgaristan Prensliği 1878-07-13→1908-10-05; Hacıoğlupazarcığı (54 km) aynı · Berlin Antlaşması: Güney Dobruca Bulgaristan'a"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1908-10-05",
+    "t": "1913-08-10",
+    "kaynak": "Bulgaristan'ın bağımsızlığı 5 Ekim 1908 (Silistre kaydı, kronoloji maddesi) · t: Bükreş Antlaşması 10 Ağustos 1913 (Silistre/Dobrich kayıtları)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1913-08-10",
+    "t": "1940-09-25",
+    "kaynak": "Güney Dobruca Romanya'ya BÜKREŞ Antlaşması (10 Ağustos 1913) ile geçti (Silistre kaydı; PAKET-0076) · t: Craiova Antlaşması 7 Eylül 1940, fiilî devir 25 Eylül 1940 (Silistre kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1940-09-25",
+    "t": "1946-09-15",
+    "kaynak": "Britannica 'Bulgaria'; Paris Barışı 1947 (Silistre kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-halk",
+    "f": "1946-09-15",
+    "t": "1990-11-15",
+    "kaynak": "LoC Bulgaria Country Study (Silistre kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-cumhuriyeti",
+    "f": "1990-11-15",
+    "t": "2000-12-31",
+    "kaynak": "LoC Bulgaria Country Study (Silistre kaydı)"
+   }
+  ]
+ },
+ "Sevr": {
+  "lat": 48.82278,
+  "lon": 2.2175,
+  "kur": null,
+  "bit": null,
+  "not": "Sèvres Paris'in banliyösüdür; zincir Paris/Senlis atlas kayıtlarının tam özdeşi. Eksik: 1940-44 Alman işgali (künye vichy-fransasi 1940-07-10→1944-08-20 Paris kaydında yok) ve 1870-71 Prusya kuşatması modellenmedi. Antlaşma günü olayı sahiplik kırılması değil.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1281-01-01",
+    "t": "1420-12-01",
+    "kaynak": "ABİ MERKEZ: Paris (10,6 km) — Treccani Enciclopedia on line «Parigi»; atlas Paris kaydı fransa 1281-01-01→1420-12-01 (t: Troyes Antlaşması 21 Mayıs 1420 sonrası İngiliz-Burgonya rejimi, Paris 1 Aralık 1420) · BEYANLI YAKLAŞIKLIK (Sèvres adıyla 1281-1420 belgesi okunmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1420-12-01",
+    "t": "1436-04-13",
+    "kaynak": "ABİ MERKEZ: Paris — FRANSA-KONTROL (29 Ekim 2026): Troyes sonrası İngiliz-Burgonya rejimi Paris'i elinde tuttu; Paris 13 Nisan 1436'da Fransa'ya döndü (atlas Paris kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fransa",
+    "f": "1436-04-13",
+    "t": "1792-09-22",
+    "kaynak": "ABİ MERKEZ: Paris — atlas Paris kaydı; t: Fransa'da Birinci Cumhuriyet'in ilanı 22 Eylül 1792 (künye fransa t)"
+   },
+   {
+    "alan": "s",
+    "d": "fransa-cumhuriyet",
+    "f": "1792-09-22",
+    "t": "2000-12-31",
+    "kaynak": "künye fransa-cumhuriyet f 1792-09-22 (Paris ve Senlis kayıtlarıyla aynı) · Sevr Antlaşması 10 Ağustos 1920 sahiplik değiştirmez (TDV «Sevr Antlaşması»)"
+   }
+  ]
+ },
+ "Tepedelen": {
+  "lat": 40.29583,
+  "lon": 20.01917,
+  "kur": null,
+  "bit": null,
+  "not": "Tepedelen (Tepelenë) için doğrudan TDV maddesi yok (tdv-ara: yalnız «Tepedelenli Ali Paşa»). 1417 öncesi dönemler Avlonya merkezli ABİ MERKEZ ile (Hımara kaydıyla aynı kaynak: TDV avlonya) — BEYANLI YAKLAŞIKLIK. Doğrulayıcıda 2 künye-sınır ihlali beklenir (1939-04-07 / 1943-09-08): künye f değerleri komşu atlas kayıtlarıyla uyuşmuyor, KASA künyeyi/komşuyu düzeltmeli. Ali Paşa 1820 olayı sahiplik kırılması değil.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "sicilya-kralligi",
+    "f": "1281-01-01",
+    "t": "1282-03-30",
+    "kaynak": "ABİ MERKEZ: Avlonya — TDV avlonya: 'İtalyan Hohenstaufen ailesinin mülkiyetine girdi. Ardından Bizans ve Sırplar'ın, 1378'den sonra da İskenderiyeli Balşa beylerinin eline geçti. Nihayet 1417'de Osmanlılar … Berat … ile birlikte burayı' · Hımara kaydı (31,8 km) aynı Avlonya merkezli zincir: Anjou 1283 Nisan'a dek (Kiesewetter s.39-40). Tepedelen için doğrudan tanıklık okunmadı · BEYANLI YAKLAŞIKLIK; künye sicilya-kralligi t 1282-03-30"
+   },
+   {
+    "alan": "s",
+    "d": "napoli",
+    "f": "1282-03-30",
+    "t": "1284-01-01",
+    "kaynak": "ABİ MERKEZ: Avlonya — künye napoli f 1282-03-30; t: TDV kruya 'II. Andronikos Avlonya, Draç ve Kruya'yı yeniden aldı' (1284, YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1284-01-01",
+    "t": "1345-01-01",
+    "kaynak": "ABİ MERKEZ: Avlonya — TDV avlonya (Bizans) · BEYANLI YAKLAŞIKLIK; Delvine kaydı (39 km) bizans 1281-1430 (kaynak alanı boş)"
+   },
+   {
+    "alan": "s",
+    "d": "sirbistan-nemanjic",
+    "f": "1345-01-01",
+    "t": "1378-01-01",
+    "kaynak": "ABİ MERKEZ: Avlonya — TDV avlonya: 'Bizans ve Sırplar' (Dušan 1345 sonrası; YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "zeta",
+    "f": "1378-01-01",
+    "t": "1417-01-01",
+    "kaynak": "ABİ MERKEZ: Avlonya — TDV avlonya: '1378'den sonra İskenderiyeli Balşa beyleri' (Balšić, künye zeta f 1356) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1417-01-01",
+    "t": "1912-11-28",
+    "kaynak": "TDV avlonya: 'Nihayet 1417'de Osmanlılar ülkenin iç kesimindeki Berat şehri ve Kanina Kalesi ile birlikte burayı hâkimiyetleri altına aldılar'; TDV ergirikasri: 1417'de 'ele geçirilerek tam bir Osmanlı hâkimiyeti kuruldu' (YIL; Ergiri ve Hımara kayıtları da 1417-01-01) · t: Arnavutluk bağımsızlığı 28 Kasım 1912 (Avlonya; Ergiri/Hımara/Delvine kayıtları) · Tepedelenli Ali Paşa (TDV tepedelenli-ali-pasa, ö.1822) Yanya valisi olarak Osmanlı idaresinde; 1820-22 isyanı sahiplik değiştirmez"
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-bagimsiz",
+    "f": "1912-11-28",
+    "t": "1939-04-07",
+    "kaynak": "kronoloji «Arnavutluk'un istiklâlinin ilânı — Avlonya'da İsmâil Kemali» (1912-11-28; Ergiri/Hımara/Delvine kayıtları)"
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-italyan-koruma",
+    "f": "1939-04-07",
+    "t": "1943-09-08",
+    "kaynak": "Encyclopaedia Britannica; Office of the Historian; LoC Country Studies (Ergiri/Hımara/Delvine kayıtları; 1939-04-07 İtalyan işgali) — künye günü 1939-04-12; komşular 1939-04-07 — KASA künye ya da komşu düzeltmesi · KÜNYE ARALIĞI (UMIT kararı): devletler.js künyeleri bitişik değil — arnavutluk-bagimsiz t 1939-04-07 / arnavutluk-italyan-koruma f 1939-04-12 (5 gün), italyan t 1943-09-08 / arnavutluk-alman-himayesi f 1943-09-14 (6 gün). Komşular (Ergiri, Hımara, Delvine) 1939-04-07 ve 1943-09-08 yazıyor; tutarlılık için komşu günü alındı, künye aşımı beyanlı — KASA künye uçlarını hizalamalı."
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-alman-himayesi",
+    "f": "1943-09-08",
+    "t": "1944-11-29",
+    "kaynak": "Encyclopaedia Britannica; Office of the Historian; LoC (Ergiri/Hımara kayıtları; 1943-09-08 İtalyan teslimi) — künye günü 1943-09-14; komşular 1943-09-08 — KASA künye ya da komşu düzeltmesi · KÜNYE ARALIĞI (UMIT kararı): devletler.js künyeleri bitişik değil — arnavutluk-bagimsiz t 1939-04-07 / arnavutluk-italyan-koruma f 1939-04-12 (5 gün), italyan t 1943-09-08 / arnavutluk-alman-himayesi f 1943-09-14 (6 gün). Komşular (Ergiri, Hımara, Delvine) 1939-04-07 ve 1943-09-08 yazıyor; tutarlılık için komşu günü alındı, künye aşımı beyanlı — KASA künye uçlarını hizalamalı."
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-halk-cumhuriyeti",
+    "f": "1944-11-29",
+    "t": "1991-04-29",
+    "kaynak": "TDV arnavutluk (özet): 29 Kasım 1944 kurtuluş / halk cumhuriyeti (künye f; Ergiri/Hımara kayıtları)"
+   },
+   {
+    "alan": "s",
+    "d": "arnavutluk-cumhuriyeti",
+    "f": "1991-04-29",
+    "t": "2000-12-31",
+    "kaynak": "Encyclopaedia Britannica; Office of the Historian; LoC (Ergiri/Hımara kayıtları)"
+   }
+  ]
+ },
+ "Karánşebeş (Caransebeş)": {
+  "lat": 45.41667,
+  "lon": 22.21667,
+  "kur": null,
+  "bit": null,
+  "not": "Karánşebeş adı geçen kaynaklar: TDV timisvar (1552 Ağustos), Bánlaky 0016/1302 (1658). Gün Lugoj'tan (aynı sefer). Öncül sahip (1551-52) ve 1688-1695 arası KAYNAK-GEREK. Romanya fiilî işgali (1919-07-22) s: zincirine yazılmadı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "kaynak": "ABİ MERKEZ: Lugoj (38,8 km), aynı Szörény/Temeş uç hattı — Lugos kaydı: TDV suleyman-i Szapolyai'nin seçimi 10 Kasım 1526 (BALKAN-MACAR-0081) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "dogu-macar-kralligi",
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "kaynak": "ABİ MERKEZ: Lugoj — Zapolya krallığı (künye dogu-macar-kralligi f 1526-08-29); Lugos kaydı bu dönemi v:Zapolya vasal krallığı yazar; t: TDV timisvar 1541 Budin beylerbeyiliği, haraçgüzâr Erdel (Lugos kaydı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "erdel",
+    "f": "1541-08-29",
+    "t": "1551-07-01",
+    "kaynak": "TDV timisvar: 'Macar Krallığı'na son verilip 1541'de Budin beylerbeyiliği kurulunca … haraçgüzâr Erdel Prensliği' (Lugos kaydı; künye erdel f 1541-08-29) · t: Bánlaky (MEK 09477) 0013/988 Banat kaleleri Temmuz 1551 Ferdinand'a · ABİ MERKEZ: Lugoj BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1551-07-01",
+    "t": "1552-08-06",
+    "kaynak": "Bánlaky 0013/988 Banat Ferdinand adına teslim alındı (Temmuz 1551) · t: Bánlaky 0013/1005 Lugos teslimi 6 Ağustos 1552; TDV timisvar: 'Ağustosta Lugoş (Lugoj) ve Karánşebeş … kaleleri fethedildi' (Karánşebeş adıyla geçer, AY teyitli; gün komşudan: Lugoj 1552-08-06) BEYANLI"
+   },
+   {
+    "alan": "d",
+    "f": "1552-08-06",
+    "t": "1556-03-01",
+    "kaynak": "TDV timisvar: 'Ağustosta Lugoş ve Karánşebeş … kaleleri fethedildi' (1552; gün komşudan: Lugoj 1552-08-06) · t: Bánlaky 0013/1029 Mart 1556 Petrovics Lugos'tan Erdel naibi (Lugos kaydı) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "erdel",
+    "f": "1556-03-01",
+    "t": "1658-08-30",
+    "kaynak": "KUTU-B-1014: Bánlaky 0013/1029 (Mart 1556) + MTA History of Transylvania: Lugos-Karánsebes domeni Erdel'e bağlı (Lugos kaydı) · t: Bánlaky 0016/1302 'Jenővel elveszett Lugos és Karánsebes' (1658, Ali Paşa'nın Erdel seferi; gün komşudan: Lugoj 1658-08-30) BEYANLI"
+   },
+   {
+    "alan": "d",
+    "f": "1658-08-30",
+    "t": "1688-06-01",
+    "kaynak": "Bánlaky 0016/1302: 'Jenővel elveszett Lugos és Karánsebes' (Karánsebeş adıyla); TDV yanova: Lugoş-Sebeş Yanova sancağına bağlandı · t: gün komşudan: Lugoj 1688-06-01 (Bánlaky 0017/1443: Lippa'dan sonra Veterani direnişsiz) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1688-06-01",
+    "t": "1695-09-01",
+    "kaynak": "gün komşudan: Lugoj 1688-06-01 (Bánlaky 0017/1443 — 1688 seferi) · BEYANLI YAKLAŞIKLIK: Lugos zincirinde 1689-1691 __BOSLUK__ ve 1691-1695 Habsburg; Karánşebeş için 1689-91 sahibi kaynaklanamadı, tek parça Habsburg sayıldı (kaynak: Sadık Müfit Bilge; TDV mustafa-ii 1695 'Lippa, Lugoş, Yanova ve Şebeş' savaş meclisi) · KAYNAK-GEREK"
+   },
+   {
+    "alan": "d",
+    "f": "1695-09-01",
+    "t": "1716-10-13",
+    "kaynak": "TDV mustafa-ii: 1695 seferi, Lugoş alındı (Eylül 1695; gün komşudan: Lugoj 1695-09-01) · t: Temeşvar'ın düşüşü 13 Ekim 1716 (POSTIT-123, TDV timisvar; Lugos kaydı) · ABİ MERKEZ: Lugoj BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1716-10-13",
+    "t": "1918-11-16",
+    "kaynak": "POSTIT-123 / TDV timisvar: Temeşvar eyaleti Habsburg'a geçti (Lugos kaydı, 1716-10-13) · t: TDV macaristan (Géza Dávid) 1918 · ABİ MERKEZ: Lugoj BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (gün komşudan: Lugoj zinciri) · Romanya fiilî işgali 22 Temmuz 1919'dan (Lugos kaydı, isg) — s: dizisinde ayrı yazılmadı"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "kaynak": "F8 (Emre, 5 Eki 2026): Trianon 4 Haziran 1920 — Lugos/Gyulafehérvár/Orsova kayıtları (Banat Romanya'ya)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "kaynak": "LoC Romania Country Study (Lugos kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-cumhuriyeti",
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "kaynak": "LoC Romania Country Study (Lugos kaydı)"
+   }
+  ]
+ },
+ "Szászsebes (Sebeş)": {
+  "lat": 45.95646,
+  "lon": 23.571,
+  "kur": null,
+  "bit": null,
+  "not": "Zincir Gyulafehérvár (Erdel Belgradı) kaydından; Doğu Macar Krallığı dönemi künyeyle (komşu v: yazar) — fark beyanlı. Szászsebes'e özgü kırılma bulunamadı (MKL sayfası açılmadı). Not: 1599-1601 Mihai Viteazul ve 1848-49 dönemleri modellenmedi.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "kaynak": "MKL «Szászsebes» (Erdel Sakson şehri) · ABİ MERKEZ: Erdel Belgradı (Gyulafehérvár, 12,4 km) — BALKAN-MACAR-0081: Szapolyai'nin seçimine (TDV suleyman-i, 10 Kasım 1526) dek tek krallık · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "dogu-macar-kralligi",
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "kaynak": "TDV suleyman-i: Szapolyai'nin seçimi 10 Kasım 1526; Szapolyai 'Osmanlı himayesine girince Osmanlı desteğiyle Macar ve Erdel kralı' (TDV erdel); Szapolyai'nin ölümü 22 Temmuz 1540 (atlas ilk_sahip günü) → oğlu için Doğu Macar Krallığı 29 Ağustos 1541'e dek (künye dogu-macar-kralligi t 1541-08-29); Gyulafehérvár kaydı v:Zapolya vasal krallığı yazar · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "erdel",
+    "f": "1541-08-29",
+    "t": "1551-07-26",
+    "kaynak": "TDV erdel: '1541'de Erdel Osmanlı idaresinde muhtar bir voyvodalık haline geldi' (Gyulafehérvár kaydı; künye erdel f 1541-08-29) · t: History of Transylvania I (MTA) s.102 — Ferdinand'a devir 26 Temmuz 1551 (gün komşudan: Gyulafehérvár) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1551-07-26",
+    "t": "1556-03-12",
+    "kaynak": "History of Transylvania I (MTA) s.102 (Gyulafehérvár kaydı) · t: Erdel'e dönüş 12 Mart 1556 (gün komşudan: Gyulafehérvár)"
+   },
+   {
+    "alan": "s",
+    "d": "erdel",
+    "f": "1556-03-12",
+    "t": "1687-08-12",
+    "kaynak": "TDV erdel: haraçgüzâr Erdel Prensliği (Gyulafehérvár kaydı; künye erdel t 1711-04-29) · t: 12 Ağustos 1687 Habsburg himayesi (gün komşudan: Gyulafehérvár)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1687-08-12",
+    "t": "1918-11-16",
+    "kaynak": "TDV macaristan (Géza Dávid): 1867 uzlaşması, Avusturya-Macaristan; t: 1918-11-16 (gün komşudan: Gyulafehérvár)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (gün komşudan: Gyulafehérvár zinciri)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1920-06-04",
+    "t": "1947-12-30",
+    "kaynak": "F8 (Emre, 5 Eki 2026): Trianon 4 Haziran 1920 — Erdel Romanya'ya (Gyulafehérvár kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "kaynak": "LoC Romania Country Study (Gyulafehérvár kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-cumhuriyeti",
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "kaynak": "LoC Romania Country Study (Gyulafehérvár kaydı)"
+   }
+  ]
+ },
+ "Babaeski": {
+  "lat": 41.42809,
+  "lon": 27.0966,
+  "kur": null,
+  "bit": null,
+  "not": "Doğrudan Babaeski kaynağı zayıf (TDV'de yalnız Babaeski Köprüsü/Cami maddeleri; TDV Lüleburgaz'da Babaeski geçmez). 1360 YIL (komşu). Önemli çelişki: TDV 1912 Bulgar işgalini söylerken atlasta Lüleburgaz kaydında Bulgar işgali YOK, Havsa kaydında 1913-03-26 var (Edirne düşüş günü) — Babaeski için kaynaklı gün yok.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1281-01-01",
+    "t": "1360-01-01",
+    "kaynak": "ABİ MERKEZ: Lüleburgaz (22 km) — TDV luleburgaz (1358-1360); atlas Lüleburgaz kaydı: kronoloji «Edirne'nin…» (Bizans'ın son uç hattı); Havsa 1361-05-05 (Edirne) · Babaeski ilk_sahip: TDV murad-i / luleburgaz 'Edirne kuşatması öncesi' · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1360-01-01",
+    "t": "1402-07-28",
+    "kaynak": "TDV luleburgaz: 1358-1360, Murad I (İnalcık): İstanbul-Edirne yolu kaleleri Edirne'den önce — YIL 1360, gün yok; Babaeski aynı yol hattı (LAB 'yıl') · t: Ankara Savaşı 28 Temmuz 1402 (Lüleburgaz/Havsa kayıtları)"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-suleyman",
+    "f": "1402-07-28",
+    "t": "1411-02-17",
+    "kaynak": "TDV fetret-devri / emir-suleyman: Rumeli Süleyman Çelebi (künye fetret-suleyman f 1402-07-28 t 1411-02-17; atlas harita anahtarı suleyman-celebi) — Lüleburgaz/Havsa kayıtları. KÜNYE EKSİĞİ: Musa Çelebi'nin 1410-02-13 (Yanbolu) → 1410-06-15 (Hasköy) Rumeli hâkimiyeti künye f 1411-02-17 yüzünden ayrı yazılamadı; komşular bu dönemi musa-celebi diye ayırır"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-musa",
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "kaynak": "TDV musa-celebi: Musa Çelebi Edirne'yi aldı 1411-02-17; Çelebi Mehmed 5 Temmuz 1413'te Çamurlu'da yendi (Lüleburgaz/Havsa kayıtları; künye fetret-musa)"
+   },
+   {
+    "alan": "d",
+    "f": "1413-07-05",
+    "t": "1920-04-23",
+    "kaynak": "Lüleburgaz/Havsa kayıtları: Osmanlı bütünlüğü (Çelebi Mehmed 1413-07-05); t: Edirne'nin düşüşü ve Bulgar işgali 26 Mart 1913 — GÜN KOMŞUDAN: Havsa 1913-03-26 (Havsa kaydı, isg bulgaristan-kralligi). ÇELİŞKİ: TDV luleburgaz 'I. Balkan Savaşı sırasında (1912) Bulgar ordusu şehri büyük bir çatışma neticesinde ele geçirdi' — Babaeski 1912 Ekim sonu işgali (Lüleburgaz-Bunarhisar) için gün KAYNAKLANAMADI; atlas Havsa kaydındaki 1913-03-26 kullanıldı, BEYANLI YAKLAŞIKLIK, KAYNAK-GEREK"
+   },
+   {
+    "alan": "isg",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-03-26",
+    "t": "1913-07-21",
+    "kaynak": "Havsa kaydı: Bulgar işgali (de facto), gün atlasın önceki s: kaydından devralınmış, yeni gün iddia edilmedi · TDV luleburgaz: 1912'de Bulgar ordusu ele geçirdi, 1913'te Türkler geri aldı · gün komşudan: Havsa · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "künye tbmm-turkiye f 1920-04-23 (Lüleburgaz kaydı)"
+   },
+   {
+    "alan": "isg",
+    "d": "yunanistan",
+    "f": "1920-07-22",
+    "t": "1922-11-08",
+    "kaynak": "Özgür Mert, Atatürk Yolu 58 (2016), dergipark 624436: '22 Temmuz günü Lüleburgaz'ı ele geçirip' (Lüleburgaz kaydı, isg yunanistan 1920-07-22→1922-11-08); TDV luleburgaz: 1918-1922 Trakya Yunan işgalinde · gün komşudan: Lüleburgaz (Babaeski aynı Trakya harekâtı) BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "TDV 'Türkiye Cumhuriyeti'; Cumhuriyet ilanı 1923-10-29 (Lüleburgaz/Havsa kayıtları)"
+   }
+  ]
+ },
+ "Dömeke": {
+  "lat": 39.12722,
+  "lon": 22.30028,
+  "kur": null,
+  "bit": null,
+  "not": "KRİTİK: ilk_sahip 1897-05-17 (Domokos Muharebesi) — TDV tesalya: 7 Nisan-18 Mayıs 1897 savaşta Osmanlı ordusu bütün Tesalya'yı yeniden zaptetti, 'Savaş sonunda Tesalya Yunanlılar'a kaldı'. Osmanlı işgalinin bitiş günü (tahliye) kaynaklanamadı (Vikipedi özeti: ateşkes 20 Mayıs 1897, yalnız küçük sınır şeritleri Osmanlı'ya) → 1897 kısa Osmanlı dönemi zincire YAZILMADI (tarih uydurulmadı); KAYNAK-GEREK. Dömeke'nin 1281-1394 sahipliği komşu Kardiçe/İzdin'den BEYANLI yaklaşıklık.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1281-01-01",
+    "t": "1311-03-15",
+    "kaynak": "ABİ MERKEZ: Kardiçe (Karditsa, 42 km) / İzdin — Kardiçe kaydı: 'BEYAN bölge sahibi: Tırhala zinciri' (kaynak zayıf); İzdin kaydı 1281-1318 __BOSLUK__ (Boudonitsa Markizliği, TDV izdin) · BEYANLI YAKLAŞIKLIK, KAYNAK-GEREK; Dömeke'nin 1281'de varlığı kaynaklanmadı"
+   },
+   {
+    "alan": "s",
+    "d": "katalan",
+    "f": "1311-03-15",
+    "t": "1388-05-02",
+    "kaynak": "ABİ MERKEZ: Kardiçe — katalan künye f 1311-03-15 (Atina-Neopatras Kumpanyası); İzdin kaydı: TDV izdin «1318'den 1388'e kadar Atina Katalan Dukalığı'na ait olan şehir» (YIL) · BEYANLI YAKLAŞIKLIK (Dömeke'nin Neopatras içinde olduğu kaynaklanmadı); t künye katalan t 1388-05-02"
+   },
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1388-05-02",
+    "t": "1394-01-01",
+    "kaynak": "ABİ MERKEZ: Kardiçe — Kardiçe kaydı 1388-1390 __BOSLUK__ + bizans 1390-1394; İzdin kaydı 1388-1394 __BOSLUK__ (Floransalılar, FHW 'Athens — Rule of the Florentines') · BOŞLUK tek parça bizans sayıldı: BEYANLI YAKLAŞIKLIK, KAYNAK-GEREK"
+   },
+   {
+    "alan": "d",
+    "f": "1394-01-01",
+    "t": "1402-07-28",
+    "kaynak": "Kardiçe/İzdin kayıtları: Osmanlı fethi 1394-01-01 (YIL; 'Tırhala zinciri') · t: Ankara Savaşı 28 Temmuz 1402 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-suleyman",
+    "f": "1402-07-28",
+    "t": "1411-02-17",
+    "kaynak": "Kardiçe/İzdin kayıtları (suleyman-celebi; künye fetret-suleyman). KÜNYE EKSİĞİ: fetret-musa 1410 dönemi (bkz. Babaeski)"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-musa",
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "kaynak": "Kardiçe/İzdin kayıtları (musa-celebi; künye fetret-musa)"
+   },
+   {
+    "alan": "d",
+    "f": "1413-07-05",
+    "t": "1881-07-02",
+    "kaynak": "Kardiçe kaydı d 1413-07-05→1881-07-02 · TDV tesalya: 'Bu bölge Osmanlılar'ca 1881'de Yunan Krallığı'na terkedildi' (YIL); TDV tesalya: Dömeke (Domokos) Tırhala-Karditsa-Çatalca yolunda Osmanlı şehri · gün komşudan: Kardiçe 1881-07-02 (Tırhala ile aynı gün, fiilî giriş Yunan basını 18 Ağustos 1881 J doğrulanamadı) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1881-07-02",
+    "t": "1973-06-01",
+    "kaynak": "TDV tesalya (1881, YIL) · gün komşudan: Kardiçe 1881-07-02 · Kardiçe/İzdin kayıtları: yunanistan 1881/1832 → 1973-06-01 cunta (Britannica 'Greece')"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan-cumhuriyeti",
+    "f": "1973-06-01",
+    "t": "2000-12-31",
+    "kaynak": "Britannica 'Greece' (1973-06-01 cunta monarşiyi kaldırdı) — İzdin/Kardiçe kayıtları"
+   }
+  ]
+ },
+ "Bileća": {
+  "lat": 42.87645,
+  "lon": 18.42967,
+  "kur": null,
+  "bit": null,
+  "not": "ilk_sahip bosna-kralligi 1388-08-27 (Bileća Muharebesi) sahiplik kırılması değil. 1941-44 NDH (Dubrovnik kaydında hirvatistan-bagimsiz 1941-04-10→1944-10-18; Trebinye kaydında yok) Bileća'da kaynaklanamadı ve yazılmadı. 1992-95 Sırp Cumhuriyeti künyesi de yazılmadı (Trebinye gibi bosna-hersek).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bosna-kralligi",
+    "f": "1281-01-01",
+    "t": "1448-01-01",
+    "kaynak": "Hrvatska enciklopedija «Bileća» (LZMK): 1387'de anılır, Bosna'ya bağlı; 1388-08-27 Vlatko Vuković Bileća'da Osmanlı'yı yendi (LAB; atlas ilk_sahip) · ABİ MERKEZ: Trebinye (19,7 km) — Trebinye kaydı bosna 1281-01-01→1448-01-01 (komşu kaydı künye 'bosna' devletler.js'te yok → bosna-kralligi kullanıldı) · BEYANLI YAKLAŞIKLIK: 1281-1326 Hum/Travunija Sırp-Bosna paylaşımı okunmadı"
+   },
+   {
+    "alan": "s",
+    "d": "hersek",
+    "f": "1448-01-01",
+    "t": "1465-01-01",
+    "kaynak": "TDV trebinye: 'yüzyılın ortalarında Dük/Hersek Stjepan Vukčić-Kosača, Bosna'dan bağımsız bir idare kurdu (Hersek kıdemi)' (Trebinye kaydı, 1448) · Hrvatska enciklopedija «Bileća»: Kosača'nın oğlu Vladislav 1465'te Osmanlı vlast'ı altına (YIL) · BEYANLI (Trebinye kaydı 1466-01-01)"
+   },
+   {
+    "alan": "d",
+    "f": "1465-01-01",
+    "t": "1878-07-29",
+    "kaynak": "Hrvatska enciklopedija «Bileća»: '… 1465. potpada pod osmansku vlast' (YIL; Trebinye kaydı 1466) · TDV trebinye: Osmanlı hâkimiyeti; t: Avusturya-Macaristan işgali 29 Temmuz 1878 (Trebinye kaydı, isg avusturya 1878-07-29; Berlin Antlaşması) · hrvatska: 'Središte turske, austrougarske i jugoslavenske uprave i vojno uporište' BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "bosna-isgal",
+    "f": "1878-07-29",
+    "t": "1908-10-05",
+    "kaynak": "künye bosna-isgal (Bosna-Hersek Avusturya İşgali, f 1878-07-13) — Trebinye kaydı isg avusturya 1878-07-29→1908-10-05 (berlin-antlasmasi); Hrvatska enc. Bileća austrougarska uprava · gün komşudan: Trebinye"
+   },
+   {
+    "alan": "s",
+    "d": "habsburg",
+    "f": "1908-10-05",
+    "t": "1918-11-11",
+    "kaynak": "KÜNYE: Trebinye kaydı s:avusturya yazar ama devletler.js'te avusturya id yok, habsburg (Habsburg Avusturya) kullanıldı. Bulgaristan'ın bağımsızlığı ve Bosna'nın ilhakı 5 Ekim 1908 (Trebinye kaydı, kronoloji maddesi) · t: 11 Kasım 1918 (Trebinye kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "sirbistan-kralligi",
+    "f": "1918-11-11",
+    "t": "1918-12-01",
+    "kaynak": "Trebinye kaydı: Sırbistan Krallığı idaresi 1918-11-11→12-01 (kronoloji maddesi); gün komşudan"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1918-12-01",
+    "t": "1945-11-29",
+    "kaynak": "kronoloji «Sırp-Hırvat-Sloven Krallığı'nın ilânı» 1 Aralık 1918 (Trebinye kaydı) — NDH 1941-44 modellenmedi (aşağıda)"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal",
+    "f": "1945-11-29",
+    "t": "1992-03-03",
+    "kaynak": "Britannica 'Yugoslavia'; Office of the Historian (Trebinye kaydı: Bosna-Hersek bağımsızlığı 1992-03-03)"
+   },
+   {
+    "alan": "s",
+    "d": "bosna-hersek",
+    "f": "1992-03-03",
+    "t": "2000-12-31",
+    "kaynak": "künye bosna-hersek f 1992-03-03 (ICRC casebook; Trebinye kaydı)"
+   }
+  ]
+ },
+ "Kumanova": {
+  "lat": 42.13279,
+  "lon": 21.71585,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Kumanova» (Osmanlı 1395-1912; muharebe 23-24 Ekim 1912). Kumanova'nın Sırp fiilî devri günü yok (24 Ekim yaklaşık). Üsküp kaydında Sırp işgali 1912-10-26. 1941-45 işgali modellenmedi.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1281-01-01",
+    "t": "1282-01-01",
+    "kaynak": "ABİ MERKEZ: Üsküp (28,2 km) — TDV uskup: Sırp Kralı II. Milutin 1282'de Üsküp'ü aldı (Üsküp kaydı) · TDV kumanova: XIV. yüzyılda Zegligovo bölgesinde bir köy, Velbuzd (Köstendil) Prensliği'nin … · BEYANLI YAKLAŞIKLIK (Kumanova'nın 1281'de varlığı kaynaklanmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "sirbistan-nemanjic",
+    "f": "1282-01-01",
+    "t": "1395-01-01",
+    "kaynak": "ABİ MERKEZ: Üsküp — TDV uskup (Milutin 1282); TDV kumanova: 'Kökeni Ortaçağ'a kadar uzanan Kumanova, XIV. yüzyılda … Velbuzd (Köstendil) Prensliği'nin' parçası, 'Osmanlı döneminde (1395-1912)' · KÜNYE EKSİĞİ: Velbužd/Köstendil Prensliği (Dejanović-Dragaš) künyesi yok → en yakın künye sirbistan-nemanjic; BEYANLI YAKLAŞIKLIK; t: 1395 YIL (TDV kumanova)"
+   },
+   {
+    "alan": "d",
+    "f": "1395-01-01",
+    "t": "1402-07-28",
+    "kaynak": "TDV kumanova: 'Osmanlı döneminde (1395-1912)' (YIL) · t: Ankara Savaşı 28 Temmuz 1402 (Üsküp kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-suleyman",
+    "f": "1402-07-28",
+    "t": "1411-02-17",
+    "kaynak": "Üsküp kaydı suleyman-celebi (künye fetret-suleyman) — KÜNYE EKSİĞİ: musa-celebi 1410 dönemi"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-musa",
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "kaynak": "Üsküp kaydı musa-celebi (künye fetret-musa)"
+   },
+   {
+    "alan": "d",
+    "f": "1413-07-05",
+    "t": "1912-10-24",
+    "kaynak": "TDV kumanova: Osmanlı dönemi 1395-1912; Evliya Çelebi 1665: Üsküp sancağına bağlı voyvodalık ve kadılık · t: TDV kumanova: 'I. Balkan Savaşı esnasında 23 ve 24 Ekim 1912'de … Kumanova Muharebesi Makedonya'nın siyasî kaderini belirledi' (Sırp veliaht Aleksandar) → kasabanın düşüşü savaşın 2. günü 24 Ekim: ÜST SINIR YAKLAŞIK, gün teyitsiz BEYANLI (Üsküp kaydı isg 1912-10-26)"
+   },
+   {
+    "alan": "s",
+    "d": "sirbistan-kralligi",
+    "f": "1912-10-24",
+    "t": "1918-12-01",
+    "kaynak": "TDV kumanova: 'Bölge sonradan Yugoslavya olan Sırp Krallığı sınırlarında kaldı' · Üsküp kaydı: Sırp işgali (de facto) 1912-10-26 (Yakup Ahbab, İÜ Tarih Dergisi), Londra 30 Mayıs 1913 — gün Kumanova savaşından (1912-10-24) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "bulgaristan-kralligi",
+    "f": "1915-10-22",
+    "t": "1918-09-29",
+    "kaynak": "Üsküp kaydı: Bulgar İkinci Ordusu Üsküp'ü 22 Ekim 1915'te aldı (isg bulgaristan-kralligi 1915-10-22→1918-09-29); Kumanova Vardar yolunda aynı harekât · gün komşudan: Üsküp · BEYANLI YAKLAŞIKLIK (Kumanova'ya özgü okunmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1918-12-01",
+    "t": "1945-11-29",
+    "kaynak": "Üsküp kaydı yugoslavya 1918-12-01→1945-11-29 (SHS ilânı); 1941-45 Bulgar/Alman işgali Üsküp kaydında modellenmemiş → yazılmadı"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal",
+    "f": "1945-11-29",
+    "t": "1991-09-08",
+    "kaynak": "Üsküp kaydı: yugoslavya-federal 1945-11-29→1991-09-08 (Makedonya bağımsızlığı)"
+   },
+   {
+    "alan": "s",
+    "d": "makedonya",
+    "f": "1991-09-08",
+    "t": "2000-12-31",
+    "kaynak": "künye makedonya f 1991-09-08 (BTA kaynağı künyede; Üsküp kaydı)"
+   }
+  ]
+ },
+ "Osnabrück": {
+  "lat": 52.27411,
+  "lon": 8.05056,
+  "kur": null,
+  "bit": null,
+  "not": "Osnabrück 780 civarı Charlemagne dönemi piskoposluk merkezi (Treccani); 1281'de var. 1648 Westphalia olayı sahiplik değiştirmez. Zincir kaba: 1803-1815 Napoleon dönemi ve 1815-66 Hannover Krallığı ayrı künye olmadığından 'almanya' içinde kaldı (Münster atlas kaydı 1815'te Prusya'ya geçirir; Osnabrück Hannover olduğundan Prusya yalnız 1866'da) — çelişki beyanlı. Hannover/Doğu-Batı Vestfalya künye eksiği.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "almanya",
+    "f": "1281-01-01",
+    "t": "1866-06-17",
+    "kaynak": "Treccani «Osnabrück» (Charlemagne dönemi piskoposluk merkezi; Hannover-Hengelo hattı); atlas Münster kaydı almanya 1281-01-01→1815 (Münster Prens-Piskoposluğu). TDV almanya (LAB): Osnabrück Prens-Piskoposluğu Kutsal Roma içinde; 24 Ekim 1648 Westphalia Barışı Osnabrück'te imzalandı (atlas ilk_sahip günü: sahiplik kırılması değil). 1803 Hannover'e, 1807-13 Vestfalya/Fransa dönemleri modellenmedi · t: Treccani «Hannover»: 17 Haziran 1866'da Prusyalılar'ca işgal edildi (Hannover Krallığı'nın Prusya eyaleti oluşu) · KÜNYE EKSİĞİ: Hannover Krallığı künyesi yok → almanya (1815-66 alman-konfederasyonu künyesi de Hannover'i temsil edebilirdi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "prusya",
+    "f": "1866-06-17",
+    "t": "1871-01-18",
+    "kaynak": "Treccani «Hannover»: 17 Haziran 1866'da Prusyalılar'ca işgal; Prusya'nın Hannover Eyaleti (resmî ilhak yasası Eylül 1866 — gün okunmadı, 17 Haziran işgal günü alındı) BEYANLI YAKLAŞIKLIK · t: Alman İmparatorluğu 18 Ocak 1871 (Münster kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "almanya",
+    "f": "1871-01-18",
+    "t": "1945-06-05",
+    "kaynak": "Münster kaydı: almanya 1871-01-18→1945-06-05 (Alman İmparatorluğu → Weimar → Nazi), künye almanya t 1945-06-05 (Berlin Bildirisi) · ABİ MERKEZ: Münster (45 km) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "almanya-muttefik-isgali",
+    "f": "1945-06-05",
+    "t": "1949-05-23",
+    "kaynak": "künye almanya-muttefik-isgali f 1945-06-05 (Münster kaydı); Osnabrück İngiliz bölgesi"
+   },
+   {
+    "alan": "s",
+    "d": "almanya-federal-cumhuriyeti-bati",
+    "f": "1949-05-23",
+    "t": "1990-10-03",
+    "kaynak": "künye almanya-federal-cumhuriyeti-bati f 1949-05-23 (Münster kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "almanya-birlesik",
+    "f": "1990-10-03",
+    "t": "2000-12-31",
+    "kaynak": "künye almanya-birlesik f 1990-10-03 (Münster kaydı)"
+   }
+  ]
+ },
+ "Salankamen": {
+  "lat": 45.14249,
+  "lon": 20.25765,
+  "kur": null,
+  "bit": null,
+  "not": "Kendi kaynağı: Hrvatska enciklopedija «Slankamen» (LAB) + TDV srem/karlofça. 1691-08-19 Habsburg: atlas kaydı (ilk_sahip OSMANLI 1691-08-19 = savaş günü). Belgrad Kalesi 1688-1690 Habsburg dönemi (Belgrad 1688-09-06→1690-10-08) Salankamen için yazılmadı. Varadin/Karlofça 1687, Salankamen 1691 — komşu zincirleriyle tutarsızlık beyanlı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1521-08-29",
+    "kaynak": "Hrvatska enciklopedija «Slankamen» (LAB): Macar kalesi · ABİ MERKEZ: Belgrad Kalesi (38,6 km) — Belgrad kaydı macaristan 1427→1521-08-29; TDV srem: Sirem kaleleri 1521'de Osmanlı'ya (TDV karlofca: Belgrad fethiyle Ağustos 1521, Sirem'in diğer kaleleri) · gün komşudan: Belgrad Kalesi 1521-08-29 BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1521-08-29",
+    "t": "1691-08-19",
+    "kaynak": "TDV srem (LAB): XVI. yy Osmanlı kasabası, Srem sancağı · TDV karlofca: 1521 Sirem kaleleri · t: Slankamen Muharebesi 19 Ağustos 1691 (Hrvatska enciklopedija «Slankamen»: savaştan sonra Habsburg, Askerî Sınır) — atlas ilk_sahip günü · Varadin 1687-09-06 kendi kaydı; Salankamen'in 1687-1691 arası sahibi çelişkili: BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1691-08-19",
+    "t": "1918-11-16",
+    "kaynak": "Hrvatska enciklopedija «Slankamen» (Slankamen 1691 muharebesi sonrası Habsburg; Askerî Sınır) · t: TDV macaristan (Géza Dávid): Avusturya-Macaristan monarşisinin sonu, 1918-11-16 (gün komşudan: Varadin/Becskerek zincirleri)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (gün komşudan: Varadin zinciri) · ara dönem: Macar devleti (künye macaristan-naiplik)"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1920-06-04",
+    "t": "1945-11-29",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (gün komşudan: Varadin zinciri)"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal",
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "kaynak": "Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia) — gün komşudan: Varadin zinciri"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "f": "1992-04-27",
+    "t": "2000-12-31",
+    "kaynak": "künye yugoslavya-federal-cumhuriyeti f ucu (UNPROFOR/defensie.nl kaynağı künyede) — gün komşudan: Varadin zinciri"
+   }
+  ]
+ },
+ "Zenta": {
+  "lat": 45.9275,
+  "lon": 20.07722,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Zenta» (E. Afyoncu): 8 Eylül 1697 kale Osmanlı eline, 11 Eylül savaş. LAB'dan (1686'dan beri Habsburg) 1686-1697 kesin okunmadı. 1541-1686 Osmanlı dönemi komşudan. 1697-09-08→09-11 üç günlük Osmanlı dönemi kaynağa dayanır ama kalenin Habsburg'a geçiş günü savaş günü alındı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1526-11-10",
+    "kaynak": "ABİ MERKEZ: Subotica (37 km) / Becse — BALKAN-MACAR-0081, TDV suleyman-i: Szapolyai'nin seçimi 10 Kasım 1526 · LAB: ilk anılma 1216 (Szintarev) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "dogu-macar-kralligi",
+    "f": "1526-11-10",
+    "t": "1541-08-29",
+    "kaynak": "Subotica kaydı v:Macaristan (Zapolya vasal krallığı) 1526-11-10→1541-08-29 (Becse aynı); künye dogu-macar-kralligi · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1541-08-29",
+    "t": "1686-10-23",
+    "kaynak": "ABİ MERKEZ: Subotica — Osmanlı 1541-08-29 (Budin beylerbeyiliği) → 1686-10-23 (Subotica kaydı); TDV zenta: 'Osmanlı birlikleriyle Habsburglar'ın başını çektiği müttefik kuvvetler arasındaki ilk çarpışmalar 1686 Ekiminden itibaren başladı' · BEYANLI YAKLAŞIKLIK (Zenta'ya özgü 1541-1686 sahibi okunmadı; Segedin 1543)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1686-10-23",
+    "t": "1697-09-08",
+    "kaynak": "TDV zenta: 1686 Ekim'den itibaren çarpışmalar (kasaba müttefik/Habsburg tarafında, LAB) · gün komşudan: Subotica 1686-10-23 (Segedin aynı gün) · t: TDV zenta: 'Osmanlı ordusu … 8 Eylül'de Zenta Kalesi'ni zaptetti' (1697-09-08) BEYANLI"
+   },
+   {
+    "alan": "d",
+    "f": "1697-09-08",
+    "t": "1697-09-11",
+    "kaynak": "TDV zenta: 8 Eylül 1697 Zenta Kalesi'ni zaptetti; 11 Eylül 1697'de kasaba yakınlarında Tisa geçidinde Zenta bozgunu — Osmanlı'nın Macaristan'dan çıkarılmasının son halkası · t: 11 Eylül (savaş günü; kalenin elden çıkış günü TDV'de ayrıca yok, savaş günü alındı) BEYANLI"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1697-09-11",
+    "t": "1918-11-16",
+    "kaynak": "TDV zenta: Zenta bozgunu (11 Eylül 1697), Osmanlılar'ın Macaristan'dan çıkarılması; Karlofça 1699 · t: TDV macaristan (Géza Dávid): Avusturya-Macaristan monarşisinin sonu, 1918-11-16 (gün komşudan: Subotica zinciri)"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-naiplik",
+    "f": "1918-11-16",
+    "t": "1920-06-04",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (gün komşudan: Subotica zinciri) · Sırp işgali 1918-11-13→12-01 (Subotica kaydı, isg) — Zenta'ya özgü okunmadı, yazılmadı"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1920-06-04",
+    "t": "1945-11-29",
+    "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' (gün komşudan: Subotica zinciri)"
+   },
+   {
+    "alan": "isg",
+    "d": "macaristan-naiplik",
+    "f": "1941-04-11",
+    "t": "1944-10-10",
+    "kaynak": "Subotica kaydı: Macaristan Bačka'yı 1941-04-11'de ilhak etti → 1944-10-10 (Subotica kaydı, gün komşudan) · BEYANLI YAKLAŞIKLIK (Senta'nın Macar yönetiminin başlama/bitiş günü okunmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal",
+    "f": "1945-11-29",
+    "t": "1992-04-27",
+    "kaynak": "Britannica 'Yugoslavia'; Office of the Historian, Milestones 1989-1992 (Breakup of Yugoslavia) — gün komşudan: Varadin zinciri"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal-cumhuriyeti",
+    "f": "1992-04-27",
+    "t": "2000-12-31",
+    "kaynak": "künye yugoslavya-federal-cumhuriyeti f ucu (UNPROFOR/defensie.nl kaynağı künyede) — gün komşudan: Varadin zinciri"
+   }
+  ]
+ },
+ "Missolonghi": {
+  "lat": 38.37138,
+  "lon": 21.43151,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: 1826-04-22 Osmanlı fethi (TDV reşid-mehmed-paşa). 1821 isyan günü ve 1829 Yunan devri günü Missolonghi'ye özgü kaynaklanamadı (komşu/künye günleri). 1281-1821 tümüyle İnebahtı ABİ MERKEZ (Venedik dönemleri Missolonghi için doğrulanmadı). Thermon komşusu zincirsizdi.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "epir-despotlugu",
+    "f": "1281-01-01",
+    "t": "1407-01-01",
+    "kaynak": "ABİ MERKEZ: İnebahtı (34,6 km) — İnebahtı kaydı: TDV inebahti: Epir (Yanya) Despotluğu 1204-04-13→1407 (KUTU-H7-1015) · BEYANLI YAKLAŞIKLIK; Missolonghi'nin 1281'de varlığı ve Aitolia'nın Epir'e bağlılığı kaynaklanmadı (KAYNAK-GEREK)"
+   },
+   {
+    "alan": "s",
+    "d": "venedik",
+    "f": "1407-01-01",
+    "t": "1499-08-26",
+    "kaynak": "ABİ MERKEZ: İnebahtı — TDV inebahti: '1407'de Venedikliler tarafından' alındı; Osmanlı fethi 26 Ağustos 1499 (İnebahtı kaydı, gün komşudan) · BEYANLI YAKLAŞIKLIK: Missolonghi'nin Venedik'e geçişi okunmadı"
+   },
+   {
+    "alan": "d",
+    "f": "1499-08-26",
+    "t": "1687-07-01",
+    "kaynak": "ABİ MERKEZ: İnebahtı — Osmanlı 1499-08-26 → Venedik Temmuz 1687 (İnebahtı kaydı; TDV inebahti 'Temmuz 1687', Setton) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "venedik",
+    "f": "1687-07-01",
+    "t": "1700-01-01",
+    "kaynak": "ABİ MERKEZ: İnebahtı — TDV inebahti: Temmuz 1687 Venedik (AY); t: Karlofça sonrası 1700 (İnebahtı kaydı) · BEYANLI YAKLAŞIKLIK, Missolonghi'ye özgü okunmadı; Patras da Venedik 1687-08-01→1715"
+   },
+   {
+    "alan": "d",
+    "f": "1700-01-01",
+    "t": "1821-03-25",
+    "kaynak": "ABİ MERKEZ: İnebahtı — Osmanlı 1700-01-01→1829 (İnebahtı kaydı); t: Rum isyanı, künye yunanistan f 1821-03-25 (Patras kaydı) — Missolonghi'nin isyana katıldığı gün (1821, YIL) okunmadı, künye f alındı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1821-03-25",
+    "t": "1826-04-22",
+    "kaynak": "TDV reşid-mehmed-paşa (LAB): Missolonghi 1821 isyanıyla Yunan isyancı elinde; Patras kaydı yunanistan 1821-03-25 · BEYANLI (gün künye f; Missolonghi'ye özgü gün yok) · t: Missolonghi'nin düşüşü 22 Nisan 1826 (TDV reşid-mehmed-paşa, atlas ilk_sahip günü)"
+   },
+   {
+    "alan": "d",
+    "f": "1826-04-22",
+    "t": "1829-04-01",
+    "kaynak": "TDV reşid-mehmed-paşa: Rumeli Valisi Reşid Mehmed Paşa 1826 Nisan'da Missolonghi'yi aldı (gün: atlas ilk_sahip 1826-04-22) · t: gün komşudan: İnebahtı 1829-04-01 (Yunanistan'a geçiş; İnebahtı kaydı, DEVRALMA kronoloji maddesi) BEYANLI YAKLAŞIKLIK (Missolonghi tahliyesi günü okunmadı)"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1829-04-01",
+    "t": "1973-06-01",
+    "kaynak": "gün komşudan: İnebahtı 1829-04-01 (kronoloji maddesi); künye yunanistan t 1973-06-01 (Britannica 'Greece')"
+   },
+   {
+    "alan": "s",
+    "d": "yunanistan-cumhuriyeti",
+    "f": "1973-06-01",
+    "t": "2000-12-31",
+    "kaynak": "Britannica 'Greece' (1973-06-01 cunta monarşiyi kaldırdı) — İnebahtı/Patras kayıtları"
+   }
+  ]
+ },
+ "Nizip": {
+  "lat": 37.00972,
+  "lon": 37.79417,
+  "kur": null,
+  "bit": null,
+  "not": "KAYNAK-GEREK: Nizip Muharebesi (1839-06-24) Mısır ordusuna karşıydı; Mısır (Kavalalı) Suriye idaresi 1832-1840 künyesi var (misir-suriye-idaresi) ama Nizip'in o dönemde Mısır elinde olduğu kaynaklanmadı → yazılmadı. TDV 'Nizip' maddesi yok (yalnız arama sonuçları: Abdülmecid, Boğazlar Meselesi...). Fransız işgali 1919-21 modellenmedi.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1281-01-01",
+    "t": "1516-08-24",
+    "kaynak": "ABİ MERKEZ: Birecik (16,3 km), Mercihamis — TDV birecik: 'Bunlardan 1277-1279 tarihli olanlar…' (Memlûk hâkimiyeti kitâbeleri; Birecik kaydı memluk 1277→1516-08-24); Mercihamis aynı (1281→1516-08-24) · gün komşudan: Mercidâbık 1516-08-24 · BEYANLI YAKLAŞIKLIK (Nizip adıyla 1281-1516 belgesi okunmadı)"
+   },
+   {
+    "alan": "d",
+    "f": "1516-08-24",
+    "t": "1920-04-23",
+    "kaynak": "ABİ MERKEZ: Birecik/Mercihamis — Birecik ve Mercihamis atlas kayıtları d 1516-08-24→1920-04-23 · TDV abdulmecid / Nizip: 24 Haziran 1839 Nizip mağlûbiyeti (Osmanlı ordusu Nizip'te Mısır kuvvetlerine karşı) — savaş sahiplik değiştirmez, ama ÇELİŞKİ: künye misir-suriye-idaresi (1832-05-27→1840-11-27) Nizip'in o yıllarda Mısır elinde olduğunu gösterebilir; bunun kaynağı okunmadı, YAZILMADI (KAYNAK-GEREK) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "künye tbmm-turkiye f 1920-04-23 (Birecik/Mercihamis kayıtları); Fransız işgali (1919-20, Antep/Birecik) okunmadı"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "TDV 'Türkiye Cumhuriyeti'; Cumhuriyet ilanı 1923-10-29 (Birecik/Mercihamis kayıtları)"
+   }
+  ]
+ },
+ "Yanbolu (Yambol)": {
+  "lat": 42.48243,
+  "lon": 26.50006,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Yanbolu» (fetih 1373 YIL, 1365 eski görüş; Musa Çelebi 1410'da burada ikamet etti). Çelişki: atlas kronolojisi 1369 (Timurtaş), komşular 1369-1371. 1281-1373 Bulgar sahipliği: Yanbolu'nun adıyla Bulgar çarlığı dönemi okunmadı (BEYANLI). Musa Çelebi 1410-02-13 olayı Yanbolu'ya özgü ama künye f 1411-02-17 engeli.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bulgar-carligi",
+    "f": "1281-01-01",
+    "t": "1373-01-01",
+    "kaynak": "TDV yanbolu: 'Yanbolu'nun Osmanlılar tarafından ne zaman ele geçirildiği tam belli değildir. Önceleri Timurtaş Paşa kumandasındaki birliklerce 766'da (1365) fethedilmiş olduğu söylenirken daha sonra bunun 1373'te gerçekleştiği ileri sürülmüştür. İkinci tarihin daha doğru olma ihtimali yüksektir' (Kantakuzenos tanıklığı; baharın ilk günlerinden yaz ortasına kadar direniş) — YIL 1373, gün yok; ÇELİŞKİ: atlas kronolojisi 1369 (Timurtaş) ve komşu Elhova 1369 / İslimye 1370 / Malak Dervent 1371-09-26 — TDV esas · BEYANLI"
+   },
+   {
+    "alan": "d",
+    "f": "1373-01-01",
+    "t": "1402-07-28",
+    "kaynak": "TDV yanbolu (1373, YIL) · t: Ankara Savaşı 28 Temmuz 1402 (İslimye/Elhova/Malak Dervent kayıtları)"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-suleyman",
+    "f": "1402-07-28",
+    "t": "1411-02-17",
+    "kaynak": "TDV fetret-devri / emir-suleyman (künye fetret-suleyman) · TDV yanbolu: '813'te (1410) Mûsâ Çelebi Yanbolu'da ikamet etmiştir'; TDV musa-celebi: 1410-02-13 (8 Şevval 812) Musa Yanbolu'da Süleyman'ın Rumeli beylerbeyini yendi (kronoloji). KÜNYE EKSİĞİ: fetret-musa f 1411-02-17; 1410-02-13→1410-06-15 Musa Çelebi dönemi (Yanbolu'ya özgü kırılma; komşu kayıtlarda musa-celebi) künyeyle yazılamadı — künye fetret-musa f 1410-02-13 olmalı; Hasköy 1410-06-15"
+   },
+   {
+    "alan": "s",
+    "d": "fetret-musa",
+    "f": "1411-02-17",
+    "t": "1413-07-05",
+    "kaynak": "TDV musa-celebi: Musa 17 Şubat 1411'de Edirne'yi aldı; 5 Temmuz 1413 Çamurlu (İslimye/Elhova/Malak Dervent kayıtları; künye fetret-musa)"
+   },
+   {
+    "alan": "d",
+    "f": "1413-07-05",
+    "t": "1878-07-13",
+    "kaynak": "İslimye/Elhova/Malak Dervent kayıtları: Osmanlı idaresi 1413-07-05 → 1878-07-13 Berlin Antlaşması (ABİ MERKEZ: İslimye, 26,7 km; Yanbolu Doğu Rumeli'ye girdi — Berlin md.14)"
+   },
+   {
+    "alan": "v",
+    "k": "Şarkî Rumeli vilâyeti",
+    "f": "1878-07-13",
+    "t": "1885-09-18",
+    "kaynak": "TDV bulgaristan: 'Filibe, İslimye, Eski Zağra, Tatarpazarcığı, Burgaz ve Hasköy sancakları…' Şarkî Rumeli (İslimye kaydı; Elhova: Berlin Antlaşması 13 Temmuz 1878 md. 14) · ABİ MERKEZ: İslimye/Elhova BEYANLI YAKLAŞIKLIK (Yanbolu adıyla sancak okunmadı); künye sarki-rumeli 1878-07-13→1885-09-18"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-prensligi",
+    "f": "1885-09-18",
+    "t": "1908-10-05",
+    "kaynak": "TDV bulgaristan: Prenslik 1885'te Doğu Rumeli'yi topraklarına kattı (YIL; gün komşulardan: Eski Zağra·Hasköy·İslimye aynı gün — Elhova kaydı 1885-09-18) · t: 5 Ekim 1908 (TDV bulgaristan)"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1908-10-05",
+    "t": "1946-09-15",
+    "kaynak": "TDV bulgaristan: 5 Ekim 1908 bağımsızlık (İslimye/Elhova kayıtları)"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-halk",
+    "f": "1946-09-15",
+    "t": "1990-11-15",
+    "kaynak": "LoC Bulgaria Country Study (İslimye kaydı)"
+   },
+   {
+    "alan": "s",
+    "d": "bulgaristan-cumhuriyeti",
+    "f": "1990-11-15",
+    "t": "2000-12-31",
+    "kaynak": "LoC Bulgaria Country Study (İslimye kaydı)"
+   }
+  ]
+ }
 }

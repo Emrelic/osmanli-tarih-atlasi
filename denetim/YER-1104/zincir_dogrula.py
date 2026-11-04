@@ -3,7 +3,8 @@ Zincir biçimi (yerleşim dosyalarının alanlarıyla aynı):
   {"<ad>": {"lat":…, "lon":…, "kur": null | "YYYY-MM-DD", "bit": null | "YYYY-MM-DD",
             "zincir": [{"alan":"s","d":"<künye id>","f":…,"t":…,"kaynak":…},
                        {"alan":"d","f":…,"t":…,"kaynak":…},                       # doğrudan Osmanlı
-                       {"alan":"v","k":"<tâbi adı>","f":…,"t":…,"kaynak":…}]}}  # tâbi / dolaylı
+                       {"alan":"v","k":"<tâbi adı>","f":…,"t":…,"kaynak":…},     # tâbi / dolaylı
+                       {"alan":"isg","d":"<künye id>","f":…,"t":…,"kaynak":…}]}}  # işgal — sahiplik değişmez, sürekliliğe girmez
 Denetimler: (1) her dönemde kaynak var · (2) f < t, sıfır uzunluk yok · (3) dönemler boşluksuz ve çakışmasız
 (t == sonrakinin f'si) · (4) s: kimliği devletler.js'te var ve dönem künyenin f/t'si içinde · (5) zincir kur'dan
 (yoksa 1281-01-01'den ya da ilk dönemden) başlar, bit'e (yoksa 2000-12-31'e) kadar sürer · (6) kur öncesi dönem yok.
@@ -40,7 +41,18 @@ def main():
         if ad.startswith("_"):
             continue
         hata = []
-        z = kayit["zincir"]
+        # isg: sahipliği DEĞİŞTİRMEZ, üstüne biner (VERI-YAPISI) — zincir sürekliliğine girmez, ayrı sınanır
+        isg = [p for p in kayit["zincir"] if p.get("alan") == "isg"]
+        z = [p for p in kayit["zincir"] if p.get("alan") != "isg"]
+        for p in isg:
+            if not (p.get("kaynak") or "").strip():
+                hata.append("isg %s kaynaksız" % p.get("f"))
+            if p.get("d") not in K:
+                hata.append("isg %s künye yok: %s" % (p.get("f"), p.get("d")))
+            if anahtar(p["f"]) >= anahtar(p["t"]):
+                hata.append("isg %s ters ya da sıfır uzunluk" % p.get("f"))
+            if z and (anahtar(p["f"]) < anahtar(z[0]["f"]) or anahtar(p["t"]) > anahtar(z[-1]["t"])):
+                hata.append("isg %s → %s zincir dışında" % (p["f"], p["t"]))
         for i, p in enumerate(z):
             if not (p.get("kaynak") or "").strip():
                 hata.append("dönem %d kaynaksız" % i)
