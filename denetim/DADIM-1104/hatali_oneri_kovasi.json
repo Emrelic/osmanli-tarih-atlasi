@@ -2221,24 +2221,6 @@
    "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (TBMM ve işgal altındaki yerler, Mersin emsali): Yunan işgali altındaki yerde işgal boyunca d: OSMANLI + isg <işgalci>; s: tbmm TBMM'nin fiilen teslim aldığı günden başlar. Öneri isg eklemesini doğru yazıyor (TDV Edirne: Temmuz 1920 → 1922; ÖLÇÜT: geçici/askerî; Osmanlı/Türk iddiası sürdü, devir Lozan'da) AMA d: OSMANLI t'sini 1920-04-23'te bırakıyor → 1920-04-23 → 1920-07 arası ve işgal boyunca d dönemi bitmiş olur, işgal 'sahipsiz' kalır; d t'si teslim gününe uzamalı. Gün hassasiyeti: TDV yalnız ay/yıl verir; Edirne kaydındaki günler (1920-07-26/1922-11-10) kendi başına KOMŞUDAN (Kırklareli) olduğundan burada zincirleme devralınmaz: isg f/t ay ve yıl düzeyinde beyanla yazılmalı. TDV Mudanya Mütarekesi: Yunan tahliyesi 15 gün; Karaağaç dahil Meriç'in sağ kıyısı barışa dek müttefik işgalinde (Meriç doğu kıyısı) → bu nokta (lon 26.42) için teslim günü Meriç hattı işgaliyle ayrıca gözden geçirilmeli. 1913 Bulgar isg satırı atlasta var (TDV Edirne doğruladı). · ÖLÇÜT: geçici/askerî — TDV Edirne: 'Yunan işgaline uğradı... 1922'de kurtarıldı; Lozan Antlaşması ile Türkiye Cumhuriyeti'nin serhad şehri' (Osmanlı/Türk iddiası sürdü, devir Lozan'da). ÖNERİ: isg yunanistan Temmuz 1920 → 1922 eklenmeli (Edirne ili için; Meriç noktasına özgü gün kaynakta yok, YIL/AY). 1913 Bulgar işgali (1913-03-26 → 1913-07-21) TDV Edirne'de aynen doğrulandı: '26 Mart 1913'te Bulgarlar tarafından işgal edildi, 21 Temmuz'da ise geri alındı'. Dönem d: Osmanlı 1413-07-05 başlangıcı TDV Mûsâ Çelebi."
   },
   {
-   "ad": "Meriç (İpsala kuzeyi)",
-   "dosya_satir": "data/yerlesimler_ek24.js:55",
-   "alan": "s",
-   "d": "tbmm-turkiye",
-   "f": "1920-04-23",
-   "t": "1923-10-29",
-   "oneri": {
-    "f": "1920-04-23",
-    "t": "1923-10-29",
-    "d": "tbmm-turkiye",
-    "isg": "yunanistan 1920-07 → 1922 (bu dönemin içinde)"
-   },
-   "kaynak": "TDV «Edirne»",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Edirne» (Gökbilgin), https://islamansiklopedisi.org.tr/edirne (05.11.2026'da okundu)",
-   "alinti2": "Temmuz 1920’de Yunan işgaline uğradı. 1922’de kurtarıldı",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: DA-BRIEF 'TBMM ve işgal altındaki yerler' — işgal altındaki yerde s: tbmm TBMM'nin şehri fiilen teslim aldığı günden başlar; 1920-04-23'ten başlatılıp üstüne isg bindirmek (öneri ve atlasın Edirne kaydı böyle) kurala aykırı. Doğrusu: 1920-04-23 → teslim arası d: OSMANLI (hukukî egemen İstanbul hükûmeti) + isg yunanistan; s tbmm teslim gününden 1923-10-29'a. TBMM'nin 1920-04-23 başlangıcı kuralı korunur (künye f), yalnız bu yerleşimde sahiplik teslimde başlar. Künye tbmm-turkiye f 1920-04-23 → t 1923-10-29: teslim günü içinde kalır. Teslim günü için kaynak: TDV Mudanya Mütarekesi imza 1922-10-11 okundu; Doğu Trakya devir günü bu oturumda okunmadı. · TBMM 1920-04-23 atlas kuralı değişmez; Temmuz 1920-1922 arası Yunan isg bindirmesi için önceki satıra bak. Dönem KAYNAKSIZ kalan kısım: TBMM açılışı kaynağı DEVRALMA, yerleşim tanıklığı yok."
-  },
-  {
    "ad": "Manastır",
    "dosya_satir": "data/yerlesimler.js:494",
    "alan": "s",
@@ -3430,22 +3412,6 @@
    "dosya_satir": "data/yerlesimler_ek27.js:47",
    "alan": "s",
    "d": "sovyet-rusya",
-   "f": "1917-11-07",
-   "t": "1918-04-14",
-   "oneri": {
-    "t": "1918-03-03",
-    "ek": "ELVİYE-İ SELÂSE KURALI: s rusya->1918-03-03; sonra fiilî yönetim transkafkasya; Osmanlı girişinden isg osmanli; s osmanli 1918-06-04 Batum Antlaşması'ndan"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Batum»",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Batum», https://islamansiklopedisi.org.tr/batum",
-   "alinti2": "3 Mart 1918’de Rusya Bolşevik hükümeti ile imzalanan Brest-Litovsk Antlaşması gereğince Artvin ve Ardahan ile birlikte Osmanlı Devleti’ne bırakılan Batum, Nisan 1918’de müstakil bir sancak merkezi haline getirildi.",
-   "not": "KURAL UYGULAMASI (UMIT): TEK ÖLÇÜ — devralan (Osmanlı) Brest-Litovsk imzasında (1918-03-03) bölgeyi fiilen yönetmiyordu, bu yüzden esas gün TESLİM/fiilî giriş günüdür; atlastaki t=1918-04-14 (Batum'a giriş) korunur, Brest 1918-03-03 ic_not'a. Ön barış/kâğıt devir sayılmaz. · YÜKSELTME TURU (KAYNAKLI): KURAL KARARI (Elviye-i selâse): t=1918-03-03 TDV'nin Brest-Litovsk imza gününe denk gelir; ama TDV Brest'i Batum'un Osmanlı'ya DEVRİ sayar, atlas kuralı saymaz (s: rusya→1918-03-03, sonra fiilî transkafkasya [künye f 1917-11-07 t 1918-05-28 var], Osmanlı girişinden isg osmanli, s: osmanli 1918-06-04 Batum Antlaşması). Çelişki ic_not'ta iki yönüyle beyan edilmeli. Hüküm yalnız t ucunun gününü kapsar; sonraki katmanlar KASA'nın. ABİ MERKEZ Batum (Sarp'ın kendi maddesi yok). · ABİ MERKEZ: Batum — TDV İslâm Ansiklopedisi, «Batum», islamansiklopedisi.org.tr/batum · BEYANLI YAKLAŞIKLIK (Sarp'ın kendi maddesi yok). KURAL KARARI: TDV batum Brest-Litovsk'u Batum'un Osmanlı'ya devri sayar ('Nisan 1918'de müstakil sancak'); brief kuralı Brest'in bu bölgeyi devretmediğini söyler ve s:Osmanlı'yı 1918-06-04'ten başlatır — kural uygulandı, TDV çelişkisi ic_not'ta beyan edilmeli. Atlas satırı Sovyet Rusya 1917-11-07->1918-04-14; kuralda Rusya 1918-03-03'e kadar."
-  },
-  {
-   "ad": "Sarp",
-   "dosya_satir": "data/yerlesimler_ek27.js:47",
-   "alan": "s",
-   "d": "sovyet-rusya",
    "f": "1921-03-16",
    "t": "1921-10-13",
    "oneri": {
@@ -3487,38 +3453,6 @@
    "not": "KOORDİNATÖR KARARI (EMRELİC gece-33, 5 Kasım 2026): Onaylandı: Bizans devri 1367-06-14 (TDV Gelibolu); 1366-08 Savoy günüdür; bizans t ile Osmanlı f birlikte. · YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (Ortaçağ ölçütü: fiilî devir günü). Öneri f=1366-08-13 Savoy'un Gelibolu'yu ALDIĞI gündür; Bizans'a devir 14 Haziran 1367'dir. 1366-08-13→1367-06-14 Gelibolu Haçlı elindedir, Bizans değil; 'bizans' s: bu günden başlayamaz. Ayrıca Bolayır'ın kendisinin 1366'da el değiştirdiğine dair TDV tanıklığı yok (Gelibolu maddesi Bolayır'ı yalnız Süleyman Paşa türbesi bağlamında anar). Bizans f için TDV 14 Haziran 1367 (abi merkez Gelibolu, BEYANLI YAKLAŞIKLIK); Haçlı ara dönemi için künye yok (Savoy grep'te yok) — ara dönem d osmanli kalır ya da LAB'a künye sorusu. t: TDV 1377 (yıl) → bizans t 1377-01-01 olmalı ki aşağıdaki d dönemi ile boşluk açılmasın. Bolayır'ın Bizans'a geçişinin kendisi kanıtsız: ayrıca BEYAN. · ABİ MERKEZ: Gelibolu — TDV gelibolu; BEYANLI YAKLAŞIKLIK. 13 Ağustos 1366 Savoy → Gelibolu; 14 Haziran 1367 Bizans'a terk. Bolayır'ın kendisi için 1366'da el değiştirdiğine dair TDV tanıklığı YOK (yalnız Süleyman Paşa türbesi). ÖLÇÜT: geçici/askerî — Savoy Haçlı işgali; Bizans s 1367-06-14'ten. Bolayır'ın gerçekten kaybedilip kaybedilmediği bulunamadı. AD: Bolayır (Gelibolu yarımadası) ≠ Bolayır (Kırklareli)."
   },
   {
-   "ad": "Tırhala",
-   "dosya_satir": "data/yerlesimler.js:499",
-   "alan": "s",
-   "d": "bizans",
-   "f": "1390-01-01",
-   "t": "1394-01-01",
-   "oneri": {
-    "d": "Bizans değil: Tırhala'da Manuel Angelos'un yerel Tesalya idaresi (TDV Bizans demiyor)",
-    "f": "1390-01-01",
-    "t": "1394-01-01"
-   },
-   "kaynak": "https://islamansiklopedisi.org.tr/tesalya",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Tırhala» https://islamansiklopedisi.org.tr/tirhala ; «Tesalya» https://islamansiklopedisi.org.tr/tesalya",
-   "alinti2": "1359-1393 yıllarında burası Batı Tesalya’daki küçük Sırp beyliğinin ikametgâhı idi. || Daha sonra Alexis Angelos Philanthropenos Tesalya’nın idaresini üstlendi (1370-1390). Onun ardından yerine Manuel Angelos geçti (1390-1393).",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI: öneri \"yerel Tesalya idaresi (Manuel Angelos)\" yazıyor, ama o künye atlasta YOK (devletler.js'te Angelos/Tesalya grep: yok) ve ÇİFT-TDV kuralı şehir maddesini esas alır: TDV Tırhala 1359-1393 Sırp beyliği der, Manuel Angelos yalnız Tesalya maddesindedir. 1390 f ucu iki maddede de yılsız/farklı bağlamda. Mevcut d:bizans için TDV'de dayanak yok (doğru); yerine konacak sahip KASA/LAB künye kararıdır. Fetih ucu 795/796: hicrî kuralı \"kesişimin ilk günü\" — TDV hem 795 sonu hem 796 başı diyor, 1394-01-01 yıl düzeyi uyumlu ama gün ölçülemedi. · Osmanlı fethi (uç) TDV tirhala: 'I. Bayezid ve Gazi Evrenos ... 795 (1393) sonu ile 796 (1394) başı sefer sırasında fethetti' — YIL, 1394-01-01 yıl düzeyinde uyumlu, gün yok. Bizans sahipliği TDV'de yok: tirhala 1359-1393 'Sırp beyliği', tesalya 'Manuel Angelos'. Devredilen 'DEVRALMA' kaynağı yerleşim tanıklığı değil."
-  },
-  {
-   "ad": "İmralı Adası",
-   "dosya_satir": "data/yerlesimler.js:107",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11-01 (AY hassasiyeti: 'Kasım 1402')"
-   },
-   "kaynak": "TDV isa-celebi (okundu)",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Îsâ Çelebi», https://islamansiklopedisi.org.tr/isa-celebi (sayfa.py ham metin)",
-   "alinti2": "Kasım 1402 tarihi itibariyle Boğaz’ın Asya yakasında ve Marmara denizi güneyinde hâkimiyet sağladı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): Künye (devletler.js 'fetret-isa', harita:isa-celebi) f=1403-01-01; önerilen 1402-11-01 künyenin f'sinden ÖNCE (hayalet devlet). Atlasın mevcut f=1402-07-28 de aynı sorunu taşır. TDV Kasım 1402'yi (AY) veriyor, İmralı'yı anmıyor (ABİ MERKEZ Marmara güneyi). Komşu OSMANLI d t=1402-07-28 ile Kasım arası delik doğar; yıl/ay indirmesi yapılamaz. HATALI_ONERI: hayalet devlet + delik. · ABİ MERKEZ: Bursa/Marmara güneyi — TDV isa-celebi: Kasım 1402'den Marmara güneyi hâkimi; Ocak 1403'te Timur menşuruyla Bursa; Eylül 1403'te ölmüştü (Clavijo). 1402-07-28→1402-11 arası Isa dönemi değil (kaynaksız boşluk). Bitiş 1403-09-01: Ulubat savaşı günü TDV'de yok, yalnız 'Eylül 1403'te hayatta değildi' → üst sınır uyumlu, gün teyitsiz. BEYANLI YAKLAŞIKLIK."
-  },
-  {
    "ad": "Söke",
    "dosya_satir": "data/yerlesimler.js:145",
    "alan": "s",
@@ -3532,21 +3466,6 @@
    "kaynak2": "TDV İslâm Ansiklopedisi, «Aydınoğulları», https://islamansiklopedisi.org.tr/aydinogullari (ham metin)",
    "alinti2": "Cüneyd Bey de tekrar beyliğin başına geçmiştir (1422). Fakat yine rahat durmaması karşısında Sultan II. Murad, üzerine Anadolu Beylerbeyi Hamza Bey’i göndererek onu yakalattı ve ailesiyle birlikte idam ettirdi (829/1425-26).",
    "not": "YÜKSELTME TURU (HATALI_ONERI): Künye aydin f=1308-01-01 t=1425-06-01 (devletler.js). Öneri t≈1425-11 künye dışı → hayalet devlet. TDV: '829/1425-26' hicrî-miladî karışık, hicrî 829 başlangıcı ≈1425-11; atlasın 1425-06-01'i kaynakla çelişir ama düzeltme künye + komşu OSMANLI f ile birlikte olmalı. Metin ülke düzeyi (beylik toprakları). Kural: hicrî kesişim ilk günü, CLAUDE.md hicrî kuralı yıla indirmeden önce gelir. EMRELİC/KASA kararı. · 1422 YIL teyitli. Bitiş: TDV 'Cüneyd 829 (1425-26)'da idam, toprakları Osmanlı'ya geçti'; 1425-06-01 hicrî 829'dan ÖNCE (829 ≈ 1425-11..1426-10) → 1425-06-01 kaynakla çelişiyor. Kurala göre kesişim ilk günü, hicrî aralığıyla beyan. TDV balat: Balat 1426'da kesin Osmanlı."
-  },
-  {
-   "ad": "Kirmasti (M.Kemalpaşa)",
-   "dosya_satir": "data/yerlesimler.js:1730",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11-01 (AY hassasiyeti)"
-   },
-   "kaynak": "https://islamansiklopedisi.org.tr/isa-celebi",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Îsâ Çelebi», https://islamansiklopedisi.org.tr/isa-celebi (sayfa.py ham metin)",
-   "alinti2": "Kasım 1402 tarihi itibariyle Boğaz’ın Asya yakasında ve Marmara denizi güneyinde hâkimiyet sağladı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): Künye (devletler.js 'fetret-isa', harita:isa-celebi) f=1403-01-01; önerilen 1402-11-01 künyenin f'sinden ÖNCE (hayalet devlet). Atlasın mevcut f=1402-07-28 de aynı sorunu taşır. TDV Kasım 1402'yi (AY) Marmara güneyi için veriyor (Kirmasti = Bursa güneyi, ABİ MERKEZ beyanlı). Künye f dışı + delik → HATALI_ONERI. · ABİ MERKEZ: Bursa/Marmara güneyi. Isa Çelebi 1402 Kasım'dan itibaren; Ocak 1403'te Bursa. Bitiş: Eylül 1403'te ölmüştü; Ulubat günü TDV'de yok. BEYANLI YAKLAŞIKLIK."
   },
   {
    "ad": "Cübeyl",
@@ -3581,37 +3500,6 @@
    "not": "YÜKSELTME TURU (HATALI_ONERI): Cübeyl satırlarındaki 'KOORDİNATÖR KARARI' metni Lübnan kıyısı kararıdır (Cübeyl = Jubail, Katîf-Ahsâ kıyısı) ve bu satıra uygulanmaz. Öneri s'yi v'ye çeviriyor, alttaki s'yi düşürüyor: himaye kuralıyla çelişir. Künye suud-ikinci f 1824 t 1891 (t uyumlu). 1871 (YIL) alıntıdan okundu. · TDV lahsa: Suûdîler 'bölgede Osmanlı hâkimiyetini temsil etmeye başladı', 'Osmanlı-Mısır idaresinin vasalı', 1861'de Necid kaymakamı payesi. Bağımsız s: suud-ikinci TDV ile örtüşmüyor. 1871: Midhat Paşa Necid sancağı (Basra'ya bağlı), Abdullah b. Faysal mutasarrıf (YIL, gün yok; atlas 1871-04-20 gün kaynaksız). ÖLÇÜT: idareye katma — sancak (Necid, 1871). · DÜZELTME (UMIT): Lübnan kıyısı (gece-10) kararı bu yerleşime yanlış uygulanmıştı (Lübnan dışında), kaldırıldı."
   },
   {
-   "ad": "Truva yöresi (Tevfikiye)",
-   "dosya_satir": "data/yerlesimler_ek29.js:1112",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11-01 (AY: 'Kasım 1402'; Karesi idaresi Timur'dan)"
-   },
-   "kaynak": "https://islamansiklopedisi.org.tr/isa-celebi",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Îsâ Çelebi», https://islamansiklopedisi.org.tr/isa-celebi (sayfa.py ham metin)",
-   "alinti2": "Timur da ona kemer, külâh ve hil‘at yollayarak Karesi (Balıkesir) bölgesinin idaresini verdi.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): Künye (devletler.js 'fetret-isa', harita:isa-celebi) f=1403-01-01; önerilen 1402-11-01 künyenin f'sinden ÖNCE (hayalet devlet). Atlasın mevcut f=1402-07-28 de aynı sorunu taşır. Alıntı yılsız (Timur'un bahşi); Truva için yer düzeyinde kayıt yok. Karesi bahşi tarihi İzmir (16 Aralık 1402) sonrası → öneri 1402-11-01 ile ÇELİŞİR. KURAL: yılsız anlatım KAYNAKLI değil + hayalet devlet → HATALI_ONERI. · ABİ MERKEZ: Karesi/Bursa — TDV isa-celebi: Kasım 1402'den Marmara güneyi; Timur Karesi'nin idaresini verdi; 1403 yaz Isa 'Gelibolu'dan Anadolu'ya geçip Karesi vilayetini itaat altına aldı'. Truva yöresi (Karesi'nin batı ucu) için yer düzeyinde kayıt yok: BEYANLI YAKLAŞIKLIK. 1402-07-28→1402-11 arası kaynaksız."
-  },
-  {
-   "ad": "Lefke (Osmaneli)",
-   "dosya_satir": "data/yerlesimler.js:1713",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11 (AY; gün yok)",
-    "t": "1403-09-01 (en geç; Isa Ağustos 1403'te öldü)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Îsâ Çelebi», https://islamansiklopedisi.org.tr/isa-celebi (ham metin)",
-   "alinti2": "Kasım 1402 tarihi itibariyle Boğaz’ın Asya yakasında ve Marmara denizi güneyinde hâkimiyet sağladı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (hayalet devlet): öneri f='1402-11' (Kasım 1402) isa-celebi künyesinin f'si 1403-01-01'in ÖNCESİNDE; künye bu günü kapsamıyor, geçerli gün de değil ('AY; gün yok'). Erken tarih (Kasım 1402 hâkimiyeti, TDV Îsâ Çelebi) ic_not'a yazılır; dönem künye f'sinden (1403-01-01, TDV 'Ocak 1403') başlar. Ayrıca Lefke/Osmaneli'nin 'Marmara güneyi/Asya yakası' içinde olup Bursa'ya bağlı olduğu TDV'de okunmadı. t=1403-09-01 öneride 'en geç' diye aynı; TDV yalnız Eylül 1403'te Îsâ'nın ölmüş olduğunu söyler (Clavijo) — ölüm günü yok, t gün teyitsiz. 1402-07-28→1403-01-01 boşluğu ayrıca kapatılmalı. · f: TDV Emîr Süleyman maddesi Isa'yı 1402 KASIM'dan itibaren Marmara Anadolu yakası hâkimi sayar; TDV Îsâ Çelebi: Ocak 1403'te 'Türkler'in hükümdarı' kabul edildi, Eylül 1403'te artık hayatta değildi (Clavijo). 1402-07-28 (Ankara) ile 1402-11 arası sahip kaynakta yok (Timur ordusu dönemi): BULUNAMADI; boşluk d osmanli t uzatılarak değil, ayrı beyanla kapatılmalı. Bursa'nın 1403'te el değiştirmesi: Isa-Mehmed-Isa. Karar KASA/Emre. ABİ MERKEZ: Bursa — TDV Îsâ Çelebi / Süleyman Çelebi (Emîr) / Mehmed I maddeleri (fetret dönemi Bursa-Batı Anadolu hâkimiyeti); yerleşime özgü tanıklık yok. BEYANLI YAKLAŞIKLIK."
-  },
-  {
    "ad": "Maydos (Eceabat)",
    "dosya_satir": "data/yerlesimler.js:1762",
    "alan": "s",
@@ -3626,133 +3514,6 @@
    "kaynak2": "TDV İslâm Ansiklopedisi, «Gelibolu», https://islamansiklopedisi.org.tr/gelibolu (ham metin)",
    "alinti2": "13 Ağustos 1366’da Savoy (Savoia) Dükü Amedeo bir Haçlı filosu ile Gelibolu’yu alıp 14 Haziran 1367’de Bizans’a terketti.",
    "not": "KOORDİNATÖR KARARI (EMRELİC gece-33, 5 Kasım 2026): Onaylandı: Bizans devri 1367-06-14 (TDV Gelibolu); 1366-08 Savoy günüdür; bizans t ile Osmanlı f birlikte. · YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (Ortaçağ ölçütü: fiilî devir). f=1366-08-13 Savoy'un Gelibolu'yu aldığı gündür, Bizans'a devir 14 Haziran 1367; 'bizans' s: 1366-08-13'ten başlayamaz. Maydos'un Haçlılara geçtiğine tanıklık yok. t=1377-01-01 (YIL): TDV 'Bizans İmparatoru IV. Andronikos ... kaleyi Osmanlılar’a bıraktı. 1377’deki bu ikinci fetihle ...' — yıl teyitli, gün yok, [yalnız yıl teyitli], ABİ MERKEZ Gelibolu. Önerinin t kısmı doğru, f kısmı hatalı. · ABİ MERKEZ: Gelibolu — TDV gelibolu: 13 Ağustos 1366 Gelibolu'yu Haçlı filosuyla Amedeo aldı, 14 Haziran 1367'de Bizans'a bıraktı; IV. Andronikos kaleyi Murad'a bıraktı: «1377’deki bu ikinci fetihle Gelibolu kati olarak Osmanlı hâkimiyetine girmiş oldu» (atlas 1376-09-01, TDV Gelibolu 1377). ORTAÇAĞ ÖLÇÜTÜ: 1366-08-13 → 1367-06-14 arası Gelibolu fiilen Savoy/Haçlı elinde (Bizans adına), Maydos'un o dönemde Haçlılara geçtiğine dair tanıklık YOK. Atlas Bizans'ı sürdürüyorsa f=1366-08-13 (TDV günü). Maydos'a özgü tarih yok. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "Yalova",
-   "dosya_satir": "data/yerlesimler.js:113",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11 (AY; gün yok)",
-    "t": "1403-09-01 (en geç; Isa Ağustos 1403'te öldü)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir (sayfa.py ham metin)",
-   "alinti2": "Îsâ Çelebi ise 1402 yılının Kasım ayından itibaren Boğazlar’ın Anadolu yakasında kalan Marmara bölgesinin hâkimi durumundaydı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: devletler.js isa-celebi künyesi f 1403-01-01 → t 1403-09-01 (ad değil alan okundu; ic_not/kronoloji: Ocak 1403 Bursa'da saltanat ilanı). Önerilen f 1402-11 künye f'sinden önce; atlastaki mevcut f 1402-07-28 de zaten künye dışı. Ayrıca öneri alanı gün değil AY (1402-11) ve t yarısı mevcut t ile aynı (1403-09-01) = değişiklik değil. TDV Emîr Süleyman (ham metin): Îsâ'yı 1402 Kasım'dan itibaren Marmara bölgesi hâkimi sayar; TDV aynı maddede Venedik elçisini 24 Mart 1403'e bağlar. Künye sınıflaması (CLAUDE.md): aynı polity sürüyorsa künye GENİŞLET (f 1402-11) mümkün — bu kararı KASA/EMRELİC verir, satır künye genişlemeden KAYNAKLI yazılamaz. 1402-07-28 → künye f arası sahip kaynakta yok (BULUNAMADI); 1402-11 ay-hassasiyeti ic_not'a yazılır, gün uydurulmaz. · f: TDV Emîr Süleyman maddesi Isa'yı 1402 KASIM'dan itibaren Marmara Anadolu yakası hâkimi sayar; TDV Îsâ Çelebi: Ocak 1403'te 'Türkler'in hükümdarı' kabul edildi, Eylül 1403'te artık hayatta değildi (Clavijo). 1402-07-28 (Ankara) ile 1402-11 arası sahip kaynakta yok (Timur ordusu dönemi): BULUNAMADI; boşluk d osmanli t uzatılarak değil, ayrı beyanla kapatılmalı. Bursa'nın 1403'te el değiştirmesi: Isa-Mehmed-Isa. Karar KASA/Emre. ABİ MERKEZ: Bursa — TDV Îsâ Çelebi / Süleyman Çelebi (Emîr) / Mehmed I maddeleri (fetret dönemi Bursa-Batı Anadolu hâkimiyeti); yerleşime özgü tanıklık yok. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "Marmaracık",
-   "dosya_satir": "data/yerlesimler.js:80",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11 (AY; gün yok)",
-    "t": "1403-09-01 (en geç; Isa Ağustos 1403'te öldü)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir (sayfa.py ham metin)",
-   "alinti2": "Îsâ Çelebi ise 1402 yılının Kasım ayından itibaren Boğazlar’ın Anadolu yakasında kalan Marmara bölgesinin hâkimi durumundaydı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: devletler.js isa-celebi künyesi f 1403-01-01 → t 1403-09-01 (ad değil alan okundu; ic_not/kronoloji: Ocak 1403 Bursa'da saltanat ilanı). Önerilen f 1402-11 künye f'sinden önce; atlastaki mevcut f 1402-07-28 de zaten künye dışı. Ayrıca öneri alanı gün değil AY (1402-11) ve t yarısı mevcut t ile aynı (1403-09-01) = değişiklik değil. TDV Emîr Süleyman (ham metin): Îsâ'yı 1402 Kasım'dan itibaren Marmara bölgesi hâkimi sayar; TDV aynı maddede Venedik elçisini 24 Mart 1403'e bağlar. Künye sınıflaması (CLAUDE.md): aynı polity sürüyorsa künye GENİŞLET (f 1402-11) mümkün — bu kararı KASA/EMRELİC verir, satır künye genişlemeden KAYNAKLI yazılamaz. 1402-07-28 → künye f arası sahip kaynakta yok (BULUNAMADI); 1402-11 ay-hassasiyeti ic_not'a yazılır, gün uydurulmaz. · f: TDV Emîr Süleyman maddesi Isa'yı 1402 KASIM'dan itibaren Marmara Anadolu yakası hâkimi sayar; TDV Îsâ Çelebi: Ocak 1403'te 'Türkler'in hükümdarı' kabul edildi, Eylül 1403'te artık hayatta değildi (Clavijo). 1402-07-28 (Ankara) ile 1402-11 arası sahip kaynakta yok (Timur ordusu dönemi): BULUNAMADI; boşluk d osmanli t uzatılarak değil, ayrı beyanla kapatılmalı. Bursa'nın 1403'te el değiştirmesi: Isa-Mehmed-Isa. Karar KASA/Emre. ABİ MERKEZ: Bursa — TDV Îsâ Çelebi / Süleyman Çelebi (Emîr) / Mehmed I maddeleri (fetret dönemi Bursa-Batı Anadolu hâkimiyeti); yerleşime özgü tanıklık yok. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "Karaçepüş",
-   "dosya_satir": "data/yerlesimler.js:1716",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11 (AY; gün yok)",
-    "t": "1403-09-01 (en geç; Isa Ağustos 1403'te öldü)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir (sayfa.py ham metin)",
-   "alinti2": "Îsâ Çelebi ise 1402 yılının Kasım ayından itibaren Boğazlar’ın Anadolu yakasında kalan Marmara bölgesinin hâkimi durumundaydı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: devletler.js isa-celebi künyesi f 1403-01-01 → t 1403-09-01 (ad değil alan okundu; ic_not/kronoloji: Ocak 1403 Bursa'da saltanat ilanı). Önerilen f 1402-11 künye f'sinden önce; atlastaki mevcut f 1402-07-28 de zaten künye dışı. Ayrıca öneri alanı gün değil AY (1402-11) ve t yarısı mevcut t ile aynı (1403-09-01) = değişiklik değil. TDV Emîr Süleyman (ham metin): Îsâ'yı 1402 Kasım'dan itibaren Marmara bölgesi hâkimi sayar; TDV aynı maddede Venedik elçisini 24 Mart 1403'e bağlar. Künye sınıflaması (CLAUDE.md): aynı polity sürüyorsa künye GENİŞLET (f 1402-11) mümkün — bu kararı KASA/EMRELİC verir, satır künye genişlemeden KAYNAKLI yazılamaz. 1402-07-28 → künye f arası sahip kaynakta yok (BULUNAMADI); 1402-11 ay-hassasiyeti ic_not'a yazılır, gün uydurulmaz. · f: TDV Emîr Süleyman maddesi Isa'yı 1402 KASIM'dan itibaren Marmara Anadolu yakası hâkimi sayar; TDV Îsâ Çelebi: Ocak 1403'te 'Türkler'in hükümdarı' kabul edildi, Eylül 1403'te artık hayatta değildi (Clavijo). 1402-07-28 (Ankara) ile 1402-11 arası sahip kaynakta yok (Timur ordusu dönemi): BULUNAMADI; boşluk d osmanli t uzatılarak değil, ayrı beyanla kapatılmalı. Bursa'nın 1403'te el değiştirmesi: Isa-Mehmed-Isa. Karar KASA/Emre. ABİ MERKEZ: Bursa — TDV Îsâ Çelebi / Süleyman Çelebi (Emîr) / Mehmed I maddeleri (fetret dönemi Bursa-Batı Anadolu hâkimiyeti); yerleşime özgü tanıklık yok. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "Absu (Hypsu)",
-   "dosya_satir": "data/yerlesimler.js:1718",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11 (AY; gün yok)",
-    "t": "1403-09-01 (en geç; Isa Ağustos 1403'te öldü)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir (sayfa.py ham metin)",
-   "alinti2": "Îsâ Çelebi ise 1402 yılının Kasım ayından itibaren Boğazlar’ın Anadolu yakasında kalan Marmara bölgesinin hâkimi durumundaydı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: devletler.js isa-celebi künyesi f 1403-01-01 → t 1403-09-01 (ad değil alan okundu; ic_not/kronoloji: Ocak 1403 Bursa'da saltanat ilanı). Önerilen f 1402-11 künye f'sinden önce; atlastaki mevcut f 1402-07-28 de zaten künye dışı. Ayrıca öneri alanı gün değil AY (1402-11) ve t yarısı mevcut t ile aynı (1403-09-01) = değişiklik değil. TDV Emîr Süleyman (ham metin): Îsâ'yı 1402 Kasım'dan itibaren Marmara bölgesi hâkimi sayar; TDV aynı maddede Venedik elçisini 24 Mart 1403'e bağlar. Künye sınıflaması (CLAUDE.md): aynı polity sürüyorsa künye GENİŞLET (f 1402-11) mümkün — bu kararı KASA/EMRELİC verir, satır künye genişlemeden KAYNAKLI yazılamaz. 1402-07-28 → künye f arası sahip kaynakta yok (BULUNAMADI); 1402-11 ay-hassasiyeti ic_not'a yazılır, gün uydurulmaz. · f: TDV Emîr Süleyman maddesi Isa'yı 1402 KASIM'dan itibaren Marmara Anadolu yakası hâkimi sayar; TDV Îsâ Çelebi: Ocak 1403'te 'Türkler'in hükümdarı' kabul edildi, Eylül 1403'te artık hayatta değildi (Clavijo). 1402-07-28 (Ankara) ile 1402-11 arası sahip kaynakta yok (Timur ordusu dönemi): BULUNAMADI; boşluk d osmanli t uzatılarak değil, ayrı beyanla kapatılmalı. Bursa'nın 1403'te el değiştirmesi: Isa-Mehmed-Isa. Karar KASA/Emre. ABİ MERKEZ: Bursa — TDV Îsâ Çelebi / Süleyman Çelebi (Emîr) / Mehmed I maddeleri (fetret dönemi Bursa-Batı Anadolu hâkimiyeti); yerleşime özgü tanıklık yok. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "Kestel",
-   "dosya_satir": "data/yerlesimler.js:86",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11 (AY; gün yok)",
-    "t": "1403-09-01 (en geç; Isa Ağustos 1403'te öldü)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir (sayfa.py ham metin)",
-   "alinti2": "Îsâ Çelebi ise 1402 yılının Kasım ayından itibaren Boğazlar’ın Anadolu yakasında kalan Marmara bölgesinin hâkimi durumundaydı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: devletler.js isa-celebi künyesi f 1403-01-01 → t 1403-09-01 (ad değil alan okundu; ic_not/kronoloji: Ocak 1403 Bursa'da saltanat ilanı). Önerilen f 1402-11 künye f'sinden önce; atlastaki mevcut f 1402-07-28 de zaten künye dışı. Ayrıca öneri alanı gün değil AY (1402-11) ve t yarısı mevcut t ile aynı (1403-09-01) = değişiklik değil. TDV Emîr Süleyman (ham metin): Îsâ'yı 1402 Kasım'dan itibaren Marmara bölgesi hâkimi sayar; TDV aynı maddede Venedik elçisini 24 Mart 1403'e bağlar. Künye sınıflaması (CLAUDE.md): aynı polity sürüyorsa künye GENİŞLET (f 1402-11) mümkün — bu kararı KASA/EMRELİC verir, satır künye genişlemeden KAYNAKLI yazılamaz. 1402-07-28 → künye f arası sahip kaynakta yok (BULUNAMADI); 1402-11 ay-hassasiyeti ic_not'a yazılır, gün uydurulmaz. · f: TDV Emîr Süleyman maddesi Isa'yı 1402 KASIM'dan itibaren Marmara Anadolu yakası hâkimi sayar; TDV Îsâ Çelebi: Ocak 1403'te 'Türkler'in hükümdarı' kabul edildi, Eylül 1403'te artık hayatta değildi (Clavijo). 1402-07-28 (Ankara) ile 1402-11 arası sahip kaynakta yok (Timur ordusu dönemi): BULUNAMADI; boşluk d osmanli t uzatılarak değil, ayrı beyanla kapatılmalı. Bursa'nın 1403'te el değiştirmesi: Isa-Mehmed-Isa. Karar KASA/Emre. ABİ MERKEZ: Bursa — TDV Îsâ Çelebi / Süleyman Çelebi (Emîr) / Mehmed I maddeleri (fetret dönemi Bursa-Batı Anadolu hâkimiyeti); yerleşime özgü tanıklık yok. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "Ferecik (Feres)",
-   "dosya_satir": "data/yerlesimler.js:1658",
-   "alan": "s",
-   "d": "bulgaristan-kralligi",
-   "f": "1913-05-30",
-   "t": "1920-05-27",
-   "oneri": {
-    "t": "KARAR GEREKİR: 1919-10 (müttefik işgali, TDV ferecik; 'Ekim 1919'); hukukî Bulgar egemenlik sonu Neuilly (kaynak OKUNMADI)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Ferecik», https://islamansiklopedisi.org.tr/ferecik",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Bulgaristan», https://islamansiklopedisi.org.tr/bulgaristan (okundu 5.11.2026, sayfa.py ham metin)",
-   "alinti2": "Savaşı sona erdiren Neully Antlaşması’yla (27 Kasım 1919) Bulgaristan Sırplar lehine belirli bir stratejik toprak kaybına uğramış, Batı Trakya’nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan’a bırakmak durumunda kalmış ve Güney Dobruca’yı Romanya’ya veren Bükreş Barış Antlaşması hükümlerini de onaylamıştır.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: öneri s:bulgaristan t'yi işgal başlangıcına (1919-10, müttefik işgali) çekiyor; TEK KURAL (işgal ≠ sahiplik) ve TEK ÖLÇÜ'ye göre s ancak hukukî devir/ilhak gününde biter, işgal ayrı isg katmanıdır. Hukukî devir günü TDV Bulgaristan'da okundu: Neuilly 27 Kasım 1919 (devralan Müttefikler toprağı 15 Ekim 1919'dan fiilen yönettiği için imza günü). ÇELİŞKİ UYARISI: bu t ile s:yunanistan f arasında (bkz. sonraki satırlar) delik/ara dönem kalır; KASA ara hukukî sahibi kararlaştırmalı. Mevcut t=1920-05-27 (Hemetli günü) hiçbir kaynakta Ferecik'in devir günü değil. · ÇİFT-TDV: TDV batı-trakya: Fransız kuvvetleri 15 Ekim 1919'da işgal; Yunan işgali 22 Mayıs 1920, Hemetli hükûmeti 27 Mayıs 1920 (atlas t 1920-05-27 bu Hemetli günüyle çakışıyor, Ferecik'in Yunan devir günü DEĞİL); TDV ferecik (KENDİ madde): Ekim 1919-Mayıs 1920 müttefikler adına İTALYAN askerleri, Yunanlılar 1920 Haziran'ından itibaren. TEK KURAL: işgal ayrı isg satırı; Bulgar egemenliğinin hukuken bitişi (Neuilly 1919-11-27) bu partide kaynaktan okunmadı. Atlasta s bulgaristan ile isg fransa 1919-10-15..1920-05-27 ÇAKIŞIYOR."
-  },
-  {
-   "ad": "Pelekanon (Eskihisar)",
-   "dosya_satir": "data/yerlesimler.js:1725",
-   "alan": "s",
-   "d": "isa-celebi",
-   "f": "1402-07-28",
-   "t": "1403-09-01",
-   "oneri": {
-    "f": "1402-11 (AY; gün yok)",
-    "t": "1403-09-01 (en geç; Isa Ağustos 1403'te öldü)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Îsâ Çelebi», https://islamansiklopedisi.org.tr/isa-celebi (okundu 5.11.2026, sayfa.py ham metin); TDV İslâm Ansiklopedisi, «Süleyman Çelebi, Emîr», https://islamansiklopedisi.org.tr/suleyman-celebi-emir (okundu 5.11.2026, sayfa.py ham metin)",
-   "alinti2": "Kasım 1402 tarihi itibariyle Boğaz’ın Asya yakasında ve Marmara denizi güneyinde hâkimiyet sağladı. [Emîr Süleyman maddesi:] Îsâ Çelebi ise 1402 yılının Kasım ayından itibaren Boğazlar’ın Anadolu yakasında kalan Marmara bölgesinin hâkimi durumundaydı.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: künye `isa-celebi` f=1403-01-01, t=1403-09-01 (devletler.js ~2389); önerilen f=1402-11 künyeden ÖNCE → KAYNAKLI yazılmaz. Kaynak TDV (iki madde, ham metin) Kasım 1402'yi gerçekten veriyor; çıkış yolu künyeyi genişletmek (CLAUDE.md künye aşımı: aynı polity sürüyorsa künyeyi GENİŞLET). Diğer 4 Bursa-bölgesi satırı f=1403-01 (Ocak 1403, Bursa saltanatı) öneriyor — bu satırla tutarsız iki farklı ay; Kocaeli için Kasım 1402 TDV'de yerleşime değil 'Asya yakası/Marmara güneyi'ne verilmiştir (BÖLGE DÜZEYİ). Ayrıca mevcut f=1402-07-28 de künye öncesi (hayalet). 1402-07-28→f arası d OSMANLI t ile delik açılmamalı (Değişmez 1). · f: TDV Emîr Süleyman maddesi Isa'yı 1402 KASIM'dan itibaren Marmara Anadolu yakası hâkimi sayar; TDV Îsâ Çelebi: Ocak 1403'te 'Türkler'in hükümdarı' kabul edildi, Eylül 1403'te artık hayatta değildi (Clavijo). 1402-07-28 (Ankara) ile 1402-11 arası sahip kaynakta yok (Timur ordusu dönemi): BULUNAMADI; boşluk d osmanli t uzatılarak değil, ayrı beyanla kapatılmalı. Bursa'nın 1403'te el değiştirmesi: Isa-Mehmed-Isa. Karar KASA/Emre. ABİ MERKEZ: Bursa (Kocaeli yakası için Orhan Bey dönemi Bursa merkezli); Kocaeli'ye özel fetret kaynağı yok — TDV Îsâ Çelebi / Süleyman Çelebi (Emîr) / Mehmed I maddeleri (fetret dönemi Bursa-Batı Anadolu hâkimiyeti); yerleşime özgü tanıklık yok. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "İpsala",
-   "dosya_satir": "data/yerlesimler.js:398",
-   "alan": "s",
-   "d": "tbmm-turkiye",
-   "f": "1920-04-23",
-   "t": "1923-10-29",
-   "oneri": {
-    "f": "1922 (YIL; gün yok)",
-    "not": "1920-04-23→1922 d osmanli + isg yunanistan"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Edirne», https://islamansiklopedisi.org.tr/edirne",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Mudanya Mütârekesi», https://islamansiklopedisi.org.tr/mudanya-mutarekesi (okundu 5.11.2026, sayfa.py ham metin); TDV İslâm Ansiklopedisi, «Edirne», https://islamansiklopedisi.org.tr/edirne (okundu 5.11.2026, sayfa.py ham metin)",
-   "alinti2": "Mudanya Mütarekesi 11 Ekim 1922 sabahı imzalandı. … 5. Doğu Trakya’daki Yunan tahliyesi askerî kıtalar, araç gereçle cephaneler ve yiyecek depoları dahil on beş günde yapılacaktır.",
-   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (tarih uydurma / yıla indirme): öneri f='1922 (YIL)' — 1922-01-01'e inerse TBMM, Doğu Trakya'da Mudanya (11 Ekim 1922) ÖNCESİ 9 ay erken başlar; okunan TDV Mudanya, tahliyenin imza + 15 gün sonrasında olacağını söylüyor, yani yıl başı günü kaynakla çelişir. TDV Edirne: 'Temmuz 1920’de Yunan işgaline uğradı. 1922’de kurtarıldı' — yalnız yıl, ve şehir Edirne'dir (ABİ MERKEZ), İpsala değil. Yapı (TBMM kuralı Doğu Trakya'da işlemez; d osmanli + isg yunanistan 1920-07→; s tbmm teslimden) doğrudur, yalnız f'nin YIL olarak yazılması yanlış. Teslim günü bulunursa f o gün olmalı; bulunmazsa BULUNAMADI/BEYANLI (alt sınır 1922-10-11). · KURAL KARARI: TBMM 1920-04-23 kuralı Doğu Trakya'da işlemez (Yunan işgali Temmuz 1920'den 1922'ye, TDV edirne); ABİ MERKEZ: Edirne; gün Mudanya/Doğu Trakya tahliyesi kaynaktan okunmadı. BEYANLI YAKLAŞIKLIK."
   },
   {
    "ad": "Ordubad",
@@ -3784,6 +3545,132 @@
    "kaynak2": "TDV İslâm Ansiklopedisi, «Bağdat» https://islamansiklopedisi.org.tr/bagdat",
    "alinti2": "Şehir 1339-1340 yılına kadar İlhanlılar’ın hâkimiyetinde kaldı",
    "not": "YÜKSELTME TURU (HATALI_ONERI): HATALI: (1) öneri t=1339 → celayirli künyesinin f'si 1340-01-01; satır 2 f=1339 hayalet devlet olur, sadece bu satırı 1339'a çekmek 1339-1340 boşluğu yaratır; (2) abi merkez Bağdat'ın kendi TDV maddesi ilhanlı hâkimiyetini \"1339-1340 yılına kadar\" verir, yani mevcut 1340 uç TDV aralığının içinde (Bağdat atlas kaydında da aynı karar: \"ilhanli 1340-01-01'e uzuyor, boşluk doğmuyor\"). Celâyirli künyesinin f'sini 1339'a çekme künye kararıdır (EMRELİC/LAB), burada önerilmez. f=1281 Sâmerrâ'ya özgü kaynaksız, abi merkez beyanı. · Sâmerrâ'ya özgü tanık BULUNAMADI (TDV samerra'da İlhanlı/Celâyirli YOK). ABİ MERKEZ Bağdat: Celâyirli başlangıcı 1339 (YIL) → atlas 1340-01-01'den 1 yıl önce; f=1281 Sâmerrâ için kaynaksız. BEYANLI YAKLAŞIKLIK. Bağdat'ın kendi atlas kaydıyla ortak kontrol gerekir."
+  },
+  {
+   "ad": "Berde (Karabağ)",
+   "dosya_satir": "data/yerlesimler.js:2262",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1813-10-24",
+   "oneri": {
+    "t": "1805-05",
+    "d": "kacar"
+   },
+   "kaynak": "TDV Karabağ (islamansiklopedisi.org.tr/karabag)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Karabağ», islamansiklopedisi.org.tr/karabag",
+   "alinti2": "Ruslar’ın Ocak 1804’te Gence’yi işgal etmeleri üzerine İbrâhim Halil Han 1805 Mayısında Kürekçay’da imzaladığı on bir maddelik antlaşma ile Rusya’ya tâbi oldu.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI: Himaye/tâbilik devir değildir: Kürekçay'la Rusya'ya 'tâbi olma' (TDV) v: rusya yazar, alttaki s sürer; öneri ise Kaçar'ı 1805-05'e kadar s sahibi yapıyor. TDV karabag: hanlık 1747'den 1822 ilgasına yaşadı, Feth Ali Şah 'Karabağ hükümetini' İbrâhim Halil'e verdi (hanlık sahip, Kaçar üst egemen); Gülistan'la Karabağ Ruslar'a bırakıldı. Kaçar f 1794-01-01 (zend sonu) Karabağ için kanıtsız (TDV: Ağa Muhammed 1795/1797 Şuşa'yı alamadı). Ay-düzeyi 1805-05 kronolojide ayın 1'ine genişler: yalnız ic_not. · ÜLKE DÜZEYİ: 1794-01-01 (Zend sonu) Karabağ için doğrudan kanıt değil. TDV karabag: Ağa Muhammed 1795 ve 1797 kuşatmayı başaramadı; Şah olunca hanlık Kaçar'a bağlı özerk. Ocak 1804'te Rusya Gence'yi aldı; İbrâhim Halil Han 1805 MAYISINDA Kürekçay antlaşmasıyla Rusya'ya tâbi oldu (gün TDV'de yok) → Kaçar dönemi t = 1805-05 (gün başka kaynakla). Sonrası Rusya tâbi (v) → Gülistan 1813'te s rusya. Gün uydurulmadı."
+  },
+  {
+   "ad": "Yezd",
+   "dosya_satir": "data/yerlesimler.js:1512",
+   "alan": "s",
+   "d": "yezd-atabegligi",
+   "f": "1177-01-01",
+   "t": "1281-01-01",
+   "oneri": {
+    "t": "1318-03-05"
+   },
+   "kaynak": "TDV Yezd (islamansiklopedisi.org.tr/yezd)",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Yezd», islamansiklopedisi.org.tr/yezd",
+   "alinti2": "Yezd Atabegleri hânedanı Hacı Şah döneminde 718’de (1318) Muzafferîler tarafından yıkıldı.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET: yezd-atabegligi künyesi f 1141-01-01 t 1318-01-01; önerilen 1318-03-05 künye t'sinin DIŞINA düşer (hicrî 718 Muharrem 1 ≈ 1318-03-04/05 Jülyen). Ya yıl düzeyinde 1318-01-01, ya da künye t genişletilip (muzafferi künye f 1318-01-01 ile birlikte) gün kullanılır — künye kararı LAB. Ayrıca t 1281-01-01→1318 ilhanli (1281-1335) ile ÇAKIŞIR: TDV Salgurşah'ı Hülâgû'nun yerinde bıraktığını söyler (tâbi atabeglik) → s: yezd-atabegligi + v: ilhanli yazılmalı; ilhanli s'yi düzeltmeden uzatma yapılamaz. Kaynak t yılını (718/1318) doğru tarihliyor. · Mevcut kaynaklı dönemle ÇELİŞKİ (öncelik 2): TDV yezd Atabeglik hânedanının 718/1318'de Muzafferîler'ce yıkıldığını söyler; atlas t 1281-01-01. TDV: Salgurşah Hülâgû'ya itaat etti, Hülâgû onu yerinde bıraktı → Atabegler İlhanlı tâbii olarak 1318'e dek sürdü (hicrî 718 = 1318-03-?..1319; kesişim ilk günü 1318 başı ~1318-03-25; hicrî 718 Muharrem 1 tablo: proleptik Gregoryen 1318-03-13 = Jülyen 1318-03-05; atlas 1582 öncesi Jülyen gün yazdığı için Jülyen verildi; 718∩1318 ilk gün). İlhanlı dönemi (1281-1335) ile örtüşme KASA kararı: atabeglik s 1318'e uzatılıp İlhanlı v/üst egemen mi yazılacak."
+  },
+  {
+   "ad": "Sonârgâon",
+   "dosya_satir": "data/yerlesimler_asya.js:1042",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1340-01-01",
+   "t": "1538-01-01",
+   "oneri": {
+    "f": "1338-01-01",
+    "d": "bengal-sultanligi"
+   },
+   "kaynak": "Banglapedia (Asiatic Society of Bangladesh), 'Sonargaon', https://en.banglapedia.org/index.php/Sonargaon",
+   "kaynak2": "Banglapedia (Asiatic Society of Bangladesh), 'Sonargaon', https://en.banglapedia.org/index.php/Sonargaon (ham metin sayfa.py ile okundu)",
+   "alinti2": "The most glorious period of Sonargaon began in 1338 AD when it emerged to have been the capital of the earliest independent sultanat of Bengal founded by fakhruddin mubarak shah .",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: önerilen f 1338-01-01 < künye bengal-sultanligi f=1340-01-01 (data/devletler.js:7944). Kaynak 1338'i gerçekten tarihler (f uç, yer özgü), ama dönem künyeyi aşar; künye genişletilmeden yazılamaz. Delhi satırı t 1338 ile birlikte düşünülmeli (1338-1340 boşluk/çakışma). 1352 İlyas Şah, 1538 ucu bu kaynakta yok. · Banglapedia: Sonargaon 1338'de Fakhruddin Mubarak Shah ile bağımsız Bengal Sultanlığı başkenti (YIL); 1352'de Şemseddin İlyas Şah'a düştü, ondan sonra Bengal eyalet merkezi (Ghiyasuddin Azam Shah'ın bağımsız dönemi hariç). f 1340→1338 (YIL). 1338-1352 Fakhruddin sülalesi Lakhnauti'den ayrı bir sultanlıktır: künye kararı (bengal-sultanligi tek künye mi) KASA/EMRELİC'e kalır. 1538 ucu bu kaynakta yok (Sûr: bkz. sonraki satır)."
+  },
+  {
+   "ad": "Dakka (Dhaka)",
+   "dosya_satir": "data/yerlesimler_asya.js:1031",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1340-01-01",
+   "t": "1538-01-01",
+   "oneri": {
+    "f": "1338-01-01",
+    "d": "bengal-sultanligi"
+   },
+   "kaynak": "Banglapedia, 'Dhaka', https://en.banglapedia.org/index.php/Dhaka",
+   "kaynak2": "Banglapedia, 'Sonargaon', https://en.banglapedia.org/index.php/Sonargaon; devletler.js bengal-sultanligi f=1340-01-01",
+   "alinti2": "The most glorious period of Sonargaon began in 1338 AD when it emerged to have been the capital of the earliest independent sultanat of Bengal founded by fakhruddin mubarak shah .",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (hayalet devlet): oneri f=1338-01-01 ama devletler.js'te bengal-sultanligi f=1340-01-01 -> 1338 künye ÖNCESİ, hayalet devlet. Ayrıca 1338 olayı Sonargaon'un (Dhaka'ya ~25 km) başkentliğini tarihler, Dhaka'ya özgü tanık değil (Dhaka Banglapedia: yalnız 'grew as urban centre in Sultanate period', en eski anıt 1456). Doğrusu: f 1340-01-01 kalır, 1338'i ic_not'a yaz; künye f'sinin 1338'e çekilmesi sorusu LAB'a (künye açıkça Sonargaon-1338 ile uyumsuz). · ABİ MERKEZ: Sonârgâon — Banglapedia 'Sonargaon' (Fakhruddin Mubarak Shah 1338). BEYANLI YAKLAŞIKLIK; Dhaka'ya özgü Bengal tanığı: en eski cami 1456 (Banglapedia Dhaka) → Sultanlık dönemi Dhaka'da teyitli (yıl düzeyi), 1338 ucu abi merkezden. Zincirleme devralma değil: Sonargaon'un kendi kaynağı Banglapedia."
+  },
+  {
+   "ad": "Culfa",
+   "dosya_satir": "data/yerlesimler.js:2048",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1586-01-01",
+   "t": "1603-10-21",
+   "oneri": {
+    "f": "1578-01-01"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nahcıvan', https://islamansiklopedisi.org.tr/nahcivan",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Nahcıvan', https://islamansiklopedisi.org.tr/nahcivan (ham metin okundu)",
+   "alinti2": "986’da (1578) yeniden başlayan Osmanlı-Safevî mücadelesinde Osmanlılar’ın eline geçti ve şehirde ilk defa kalıcı şekilde Osmanlı idaresi kuruldu",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KOORDİNATÖR/EMRELİC KARARI + KAYNAK OKUMA HATASI: (1) Atlasın 1586-01-01'i Emre kararıdır (Bilge 2017; komşu Nahçıvan 33,9 km ve Ordubad ikisi 1585-01-01->1603-10-21, Ferhad Paşa seferi). (2) TDV cümlesinde '986’da (1578)' SAVAŞIN BAŞLANGICINI ('yeniden başlayan ... mücadele') tarihler; Nahçıvan'ın alınma yılını değil. Cümle 'o mücadelede ... eline geçti' der, yılsız. Yani oneri f=1578 kaynağı yanlış okur (986 H = 1578-03-10..1579-02-27). Karar değişmez, TDV günü ic_not'a yazılsın: 'TDV: 986 (1578) savaş başlangıcı; fetih yılı belirsiz'. t=1603 (TDV 1012/1603 Şah Abbas geri aldı) yıl düzeyinde uyumlu. · ABİ MERKEZ: Nahçıvan — TDV 'Nahcıvan' (Culfa Aras Cumhuriyeti kapsamında ve Nahçıvan ilçesi). BEYANLI YAKLAŞIKLIK. TDV: kalıcı Osmanlı idaresi 1578 (YIL), 1603 Şah Abbas geri aldı — t=1603 (YIL) uyumlu, atlasın 1586-01-01 başlangıcı (Emre kararı, Bilge 2017'ye dayalı) TDV 1578'den farklı. Hüküm verilmedi: Emre kararı ile TDV çelişkisi KASA/EMRELİC'te."
+  },
+  {
+   "ad": "Culfa",
+   "dosya_satir": "data/yerlesimler.js:2048",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1736-03-08",
+   "t": "1747-06-20",
+   "oneri": {
+    "f": "1736-01-01",
+    "d": "afsar"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nahcıvan', https://islamansiklopedisi.org.tr/nahcivan",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Nahcıvan', https://islamansiklopedisi.org.tr/nahcivan; devletler.js afsar f=1736-03-08",
+   "alinti2": "1149’da (1736) Nâdir Şah, Nahcıvan’ı Kuzey ve Güney Azerbaycan topraklarını içine alan Azerbaycan eyaletinin şehri olarak I. Abbas devrinde olduğu gibi Kengerli ulusunun ileri gelenlerinin idaresine verdi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (hayalet devlet + hicrî kuralı): oneri f=1736-01-01 ama afsar künye f=1736-03-08 -> 1736-01-01 künye öncesi, hayalet. Ayrıca TDV '1149 (1736)' hicrî: 1149 H = 1736-05-01..1737-04-19 (Jülyen, tabular), kesişimin ilk günü 1736-05-01, yani TDV tarihi 03-08'den SONRA bir güne işaret eder; oneri yönü (öne çekme) hicrî kuralıyla da desteklenmez. Bu cümle ayrıca Nâdir'in atamasını (olay) tarihler, f'yi (Afşar sahipliği başlangıcı) değil. Doğrusu: f 1736-03-08 (künye) kalır; ic_not'a TDV 1149 (1736) hicrî aralığıyla yaz. afsar künye t=1796-01-01 (Nadir Şah 1747'de öldü) ayrı bir künye sorusu (LAB). · ABİ MERKEZ: Nahçıvan — TDV 'Nahcıvan' (Culfa Aras Cumhuriyeti kapsamında ve Nahçıvan ilçesi). BEYANLI YAKLAŞIKLIK. YIL düzeyi: 1736 (Nâdir Şah). Gün (03-08 Mugan) Nahçıvan için kaynakta yok; afsar sahipliği KAYNAKLI (kısmen)."
+  },
+  {
+   "ad": "Culfa",
+   "dosya_satir": "data/yerlesimler.js:2048",
+   "alan": "s",
+   "d": "kacar",
+   "f": "1794-01-01",
+   "t": "1828-02-22",
+   "oneri": {
+    "f": "1797-01-01",
+    "d": "kacar (bağımlı hanlık)"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Nahcıvan', https://islamansiklopedisi.org.tr/nahcivan",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Nahcıvan', https://islamansiklopedisi.org.tr/nahcivan",
+   "alinti2": "Bağımsız bir hanlık iken 1797’den başlayarak Rusya’nın ilhakına kadar İran’a bağımlı hale geldi, Nahcıvan şehri de İran’ın şehirlerinden biri oldu; hanlık ise yine Kengerli ulusunun ileri gelenleri tarafından idare edildi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): KURAL UYGULAMASI (himaye/tâbilik devir değildir): TDV 'İran'a BAĞIMLI hale geldi, hanlık yine Kengerli ileri gelenlerince idare edildi' der -> bu tâbilik/himaye, ilhak değil. Atlas kuralı: v: <üstün> + alttaki s: sürer (Rus himayesi Megrelya emsali). Oneri 's: kacar (bağımlı hanlık) f=1797' kuralla çelişir. Tarih kısmı doğru ve ham metinde birebir: f 1797-01-01 [yalnız yıl teyitli], ucu 'f'. Doğrusu: v: kacar 1797-01-01 -> 1828-02-22 (TDV: Rusya ilhakına kadar; künye nahcivan-hanligi t 1828-02-22 ile) + s: nahcivan-hanligi 1747-01-01 -> 1828-02-22. Kacar künye f=1789-03-21; 1794-01-01 f kaynaksız ve s: kacar sahipliği yanlış. ABİ MERKEZ Nahçıvan, BEYANLI YAKLAŞIKLIK; Culfa tümeni (Nahçıvan/Ordubâd) belirsiz. · ABİ MERKEZ: Nahçıvan — TDV 'Nahcıvan' (Culfa Aras Cumhuriyeti kapsamında ve Nahçıvan ilçesi). BEYANLI YAKLAŞIKLIK. YIL düzeyi: kacar bağımlılığı 1797 (TDV), 1794 değil; bağımlı hanlık = tâbi (v:) olabilir; karar KASA."
+  },
+  {
+   "ad": "Balıkesir",
+   "dosya_satir": "data/yerlesimler.js:161",
+   "alan": "s",
+   "d": "isa-celebi",
+   "f": "1402-07-28",
+   "t": "1403-09-01",
+   "oneri": {
+    "f": "1402-12",
+    "not_f": "gün yok: Timur'un İzmir'i alışı 16 Aralık 1402'den sonra; Ankara 28 Temmuz 1402'den sonra Kasım 1402'de Asya yakasında hâkimiyet; AY hassasiyeti, YYYY-01 gün uydurulmaz"
+   },
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Îsâ Çelebi' (Nezihi Aykut), https://islamansiklopedisi.org.tr/isa-celebi",
+   "kaynak2": "TDV İslâm Ansiklopedisi, 'Îsâ Çelebi' (Nezihi Aykut), https://islamansiklopedisi.org.tr/isa-celebi (ham metin sayfa.py ile okundu)",
+   "alinti2": "Timur’un İzmir’i almasından (20 Cemâziyelevvel 805 / 16 Aralık 1402) hemen sonra ... Timur da ona kemer, külâh ve hil‘at yollayarak Karesi (Balıkesir) bölgesinin idaresini verdi.",
+   "not": "YÜKSELTME TURU (HATALI_ONERI): HAYALET DEVLET: künye isa-celebi f=1403-01-01 t=1403-09-01 (data/devletler.js:2389). Hem mevcut f 1402-07-28 hem önerilen 1402-12 künye f'sinin ÖNCESİNDE → dönem künyeyi aşıyor. Ayrıca öneri kaynakça açısından da gün taşımıyor (Aralık 1402 alt sınır, 'hemen sonra'; 'Kasım 1402' hâkimiyeti de ay düzeyi) ve YIL'a indirmek (1402-01-01) Osmanlı d t 1402-07-28 ile çakışır → indirme yapılmaz. Sınıf: aynı polity sürüyor → künye f genişletme kararı (LAB/EMRELİC), o zamana dek dönem 1403-01-01'de, erken gün ic_not'ta. t 1403-09-01: TDV 'Eylül 1403'te ölmüştü (Clavijo)', gün yok. · KOORDİNATÖR KARARI (EMRELİC gece-36, 5 Kasım 2026): İSA ÇELEBİ — 1402-07-28 (Ankara) → 1402-11-01: d: osmanli + isg timurlu (Bursa kuşağı Timur ordusunun elinde, Bursa Ağustos 1402 yağması; Osmanlı iddiası sürdü, Bayezid esir). 1402-11-01'den s: isa-celebi (TDV 'Kasım 1402' [yalnız ay]); künye fetret-isa f 1403-01-01 → 1402-11-01 GENİŞLETİLECEK (LAB). 1403 Ocak tanınması ic_not'a. Delik ve hayalet yok. [UMIT ölçümü: künye id 'fetret-isa', harita anahtarı 'isa-celebi'; timurlu künyesi 1370-04-09 → 1507-05-24, 1402 Anadolu dilimini kapsar.] · TDV Îsâ Çelebi: Ankara'dan sonra 'Balıkesir taraflarında gizlendi', Kasım 1402 itibariyle Asya yakasında hâkimiyet, Timur'dan (16 Aralık 1402 sonrası) Karesi idaresi + Bursa menşuru; Ocak 1403'te saltanatını ilân; Bursa'dan çekildi, baharda Timur ayrılınca Bursa'yı geri aldı; Karesi'yi Süleyman'ın desteğiyle yeniden aldı; Ulubat'ta Mehmed Çelebi'ye yenildi; Eylül 1403'te ölmüştü (Clavijo). Dolayısıyla 1402-07-28 başlangıcı (Ankara günü) Isa Çelebi için erken; t 1403-09-01 için kaynakta gün yok (Eylül 1403'te ölü). Hüküm: ONERI, gün YOK."
   }
  ],
  "CELISKI": [
@@ -4978,6 +4865,22 @@
    "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ: Treccani Fransız yeniden işgali 1801 (yıl). Atlas avusturya t / italya-napolyon f 1800-06-04; komşu avusturya (1799-04-27→1800-06-04) satırı KAYNAKLI. Öneriyi DEĞİŞTİRME, EMRELİC karar versin (1801 uygulanırsa 1800-06→1801 boşluğu doğar; Treccani 'occupata' diyor, idareye katma değil). Gün Treccani'de yok. · ÇELİŞKİ: Treccani Mantova'nın Fransızlarca 'yeniden işgali'ni 1801 (YIL) verir; atlas avusturya -> italya-napolyon geçişini 1800-06-04'te (Marengo sonrası) tutuyor. Mantova kalesi 1800 Haziranı'nda Avusturya elinde kalmış olabilir; kesin gün kaynakta yok. ONERİ: avusturya t = 1801 (YIL), italya-napolyon f = 1801 (YIL). TAHRİR ÖLÇÜTÜ: Fransız işgali 1801 öncesi Cisalpin idareye katmış belge yok; gün/ay BULUNAMADI."
   },
   {
+   "ad": "Bulgar (Bolgar)",
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:331",
+   "alan": "s",
+   "d": "kazan",
+   "f": "1438-01-01",
+   "t": "1552-10-02",
+   "oneri": {
+    "t": "1552-10-15 (TDV kazan-hanligi, kaynak günü) ; yaygın Jülyen 2 Ekim — iki gün ic_not'ta",
+    "f": "1437/1438 (YIL) ya da 1445 (TDV: iki görüş)"
+   },
+   "kaynak": "https://islamansiklopedisi.org.tr/kazan-hanligi",
+   "kaynak2": "TDV İslâm Ansiklopedisi, «Kazan Hanlığı», islamansiklopedisi.org.tr/kazan-hanligi",
+   "alinti2": "İki ay kadar süren kanlı çarpışmaların ardından 15 Ekim 1552’de Kazan düştü.",
+   "not": "CELISKI (UMIT, duzelt_kazan): TDV Kazan Hanlığı 15 Ekim 1552, atlas künye kazan t 1552-10-02 (Jülyen). 1582-10-15 öncesi kaynaktaki gün yazılır (CLAUDE.md Jülyen/Gregoryen sınırı); Jülyen 2 Ekim = Gregoryen 12 Ekim, 15 Ekim iki takvimle de eşleşmiyor → TDV'nin takvimi belirsiz. Bulgar'a özgü teslim günü kaynakta yok (abi merkez Kazan). Karar EMRELİC'in; künye t, rusya f ve kronoloji maddesi birlikte taşınır. · YÜKSELTME TURU (KAYNAKLI): ABİ MERKEZ: Kazan — Bulgar şehri Kazan Hanlığı'na tâbi (TDV bulgar) ve kaderini Kazan'la paylaştı; Bulgar'ın kendi teslim günü kaynakta yok, BEYANLI YAKLAŞIKLIK. TDV günü 15 Ekim 1552 (TDV esastır); yaygın Rus kaynağı 2 Ekim 1552 (Jülyen) — ikinci kaynak okunmadı, ic_not'ta iki gün beyan edilmeli. Dikkat: kazan künye t 1552-10-02 ve rusya f ile kronoloji maddesi birlikte taşınmalı (Değişmez 2). f önerisi (1437/38 ya da 1445) TDV'de iki görüş olarak anılıyor, Bulgar'ı tarihlemiyor → f için KAYNAKLI DEĞİL, 1438-01-01 kalır. ÖLÇÜT: idareye katma (TDV: fiilî ele geçiriş XVI. yy sonuna uzandı). · ÇELİŞKİ: atlas 1552-10-02; TDV kazan-hanligi 'IV. İvan 20 Ağustos'ta Kazan'a ulaştı, 15 Ekim 1552'de Kazan düştü'. 1582 öncesi kaynak günü yazılır: 15 Ekim. 2 Ekim (Jülyen, yaygın Rus kaynağı) ile 15 Ekim farkı takvim değil (2 Ekim Jülyen = 12 Ekim Gregoryen); kaynak hatası olabilir → ikinci bağımsız kaynak (Kazan'ın Rus kaynakları) gerekli. Bolgar şehrinin Kazan'a tâbiliği: TDV bulgar 'Bulgarlar bundan sonra Kazan Hanlığı’na tâbi olarak yaşadılar'. ÖLÇÜT: Rus fethi sonrası idareye katma (TDV: 'Kazan 1552’de işgal edildi, ülkenin fiilen ele geçirilmesi XVI. yy sonuna kadar sürdü') — askerî işgal ile idareye katma arasındaki ayrım; 1552 → s: rusya TDV kaynağıyla YIL düzeyinde teyitli, gün ÇELİŞKİLİ."
+  },
+  {
    "ad": "Absu (Hypsu)",
    "dosya_satir": "data/yerlesimler.js:1718",
    "alan": "s",
@@ -4991,52 +4894,6 @@
    "kaynak2": "TDV İslâm Ansiklopedisi, «Osman Gazi (Osman I)», https://islamansiklopedisi.org.tr/osman-i (sayfa.py ham metin)",
    "alinti2": "1304 seferinde Osman, Sakarya vadisinde Geyve, Mekece, Absu (Hypsu) ve Lefke’yi ele geçirmiş bulunuyordu. ... Orhan, Karaçepüş ve Absu hisarlarını fethetti.",
    "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ AYNI TDV MADDESİNİN İÇİNDE (TDV Osman I, ham): 1304 seferi cümlesi Absu'yu Osman'ın aldığı yerler arasında sayar; 705/1305 paragrafı (24 Temmuz 1305'te başlar) 'Orhan, Karaçepüş ve Absu hisarlarını fethetti' der. İki tarih (1304 / 1305-07-24 hicrî kuralıyla) bir arada duruyor; TDV Orhan da Absu'yu 705/1305'e koyuyor. Absu'nun kendi TDV şehir maddesi YOK (islamansiklopedisi.org.tr/absu → arama sayfasına düşüyor, madde başlığı 0). Üçüncü bağımsız akademik kaynak bulunamadı (TDV içinde arandı). Öneri 'SEÇİLMEDİ' diyor ve KAYNAKLI için tek ucu belirlemek gerekir; seçim yapılmadığı için KAYNAKLI verilemez. KARAR EMRELİC'indir. Hangi gün olursa olsun bu Absu bizans→osmanli devri yıl düzeyindedir (1304 ya da 1305). · ÇİFT-TDV ÇELİŞKİSİ: TDV Osman Gazi: Absu 1304 seferinde alınmış (703/1304); TDV Orhan: Orhan, 705/1305'te Karaçepüş, Karatigin ve Absu (Hypsu) kalelerini fethetti (hicrî 705 ∩ 1305 → 1305-07-24). Absu'nun kendi şehir maddesi yok; üçüncü bağımsız akademik kaynak bu partide bulunamadı. Hangisinin doğru olduğuna karar VERİLMEDİ; iki madde de beyan edildi. Atlas 1305-01-01 kronoloji maddesi (TDV orhan) değeri. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "Absu (Hypsu)",
-   "dosya_satir": "data/yerlesimler.js:1718",
-   "alan": "d",
-   "d": "OSMANLI",
-   "f": "1305-01-01",
-   "t": "1402-07-28",
-   "oneri": {
-    "f": "1304-01-01 VEYA 1305-07-24 — SEÇİLMEDİ"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Osman Gazi (Osman I)», https://islamansiklopedisi.org.tr/osman-i",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Osman Gazi (Osman I)», https://islamansiklopedisi.org.tr/osman-i (sayfa.py ham metin)",
-   "alinti2": "1304 seferinde Osman, Sakarya vadisinde Geyve, Mekece, Absu (Hypsu) ve Lefke’yi ele geçirmiş bulunuyordu. ... Orhan, Karaçepüş ve Absu hisarlarını fethetti.",
-   "not": "YÜKSELTME TURU (CELISKI): ÇELİŞKİ AYNI TDV MADDESİNİN İÇİNDE (TDV Osman I, ham): 1304 seferi cümlesi Absu'yu Osman'ın aldığı yerler arasında sayar; 705/1305 paragrafı (24 Temmuz 1305'te başlar) 'Orhan, Karaçepüş ve Absu hisarlarını fethetti' der. İki tarih (1304 / 1305-07-24 hicrî kuralıyla) bir arada duruyor; TDV Orhan da Absu'yu 705/1305'e koyuyor. Absu'nun kendi TDV şehir maddesi YOK (islamansiklopedisi.org.tr/absu → arama sayfasına düşüyor, madde başlığı 0). Üçüncü bağımsız akademik kaynak bulunamadı (TDV içinde arandı). Öneri 'SEÇİLMEDİ' diyor ve KAYNAKLI için tek ucu belirlemek gerekir; seçim yapılmadığı için KAYNAKLI verilemez. KARAR EMRELİC'indir. Hangi gün olursa olsun bu Absu bizans→osmanli devri yıl düzeyindedir (1304 ya da 1305). · Önceki satırla aynı çelişki. BEYANLI YAKLAŞIKLIK."
-  },
-  {
-   "ad": "Ferecik (Feres)",
-   "dosya_satir": "data/yerlesimler.js:1658",
-   "alan": "isg",
-   "d": "fransa-cumhuriyet",
-   "f": "1919-10-15",
-   "t": "1920-05-27",
-   "oneri": {
-    "d": "italya (TDV ferecik) — ÇİFT-TDV: batı-trakya Fransız der",
-    "t": "1920-06 (AY; TDV ferecik «1920 Haziranından itibaren»)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Ferecik», https://islamansiklopedisi.org.tr/ferecik",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Ferecik», https://islamansiklopedisi.org.tr/ferecik (okundu 5.11.2026, sayfa.py ham metin) ◄► TDV İslâm Ansiklopedisi, «Batı Trakya», https://islamansiklopedisi.org.tr/bati-trakya (okundu 5.11.2026, sayfa.py ham metin)",
-   "alinti2": "[ferecik] 1919 Ekiminden 1920 Mayısına kadar Ferecik müttefikler adına İtalyan askerlerince, 1920 Haziranından itibaren de Yunanlılar’ca işgal edildi ve bu fiilî durum 1923 Lozan Antlaşması ile hukuken tanınmış oldu. ◄► [batı-trakya] Bu cemiyet, İtilâf devletleri adına Fransız kuvvetlerinin Batı Trakya’yı işgali (15 Ekim 1919) sıralarında faaliyetini sürdürdü ve merkezini Gümülcine’ye nakletti.",
-   "not": "YÜKSELTME TURU (CELISKI): İKİ TDV MADDESİ ÇELİŞİYOR (ham metinden okundu): kendi şehir maddesi İtalyan (Ekim 1919-Mayıs 1920), Batı Trakya maddesi Fransız (15 Ekim 1919). Üçüncü akademik kaynak bu partide aranmadı/bulunmadı. ÇİFT-TDV kuralı uygulanırsa kendi madde (ferecik) esas: d=italya (künye f=1861 kapsar), t=1920-06 AY (gün yok; 'Haziranından itibaren Yunanlılar') — t kısmı ay düzeyindedir. Öneri DEĞİŞTİRİLMEDİ; karar EMRELİC. Not: f=1919-10-15 Fransız işgal günüdür, d italya ise f de 'Ekim 1919' AY'a inmeli (karma gün olmaz). Yunan işgali başlangıcı s:bulgaristan/yunanistan t/f 1920-05-27 ile (Hemetli günü) çakışma bunun dışında ayrı konu. · ÇİFT-TDV KARARI: iki TDV maddesi çelişiyor (batı-trakya: Fransız 15 Ekim 1919; ferecik: müttefikler adına İtalyan askerleri, Ekim 1919-Mayıs 1920). Üçüncü bağımsız akademik kaynak aranmadı/bulunmadı → ÇİFT-TDV kuralı gereği yerleşimin KENDİ şehir maddesi (ferecik) esas; batı-trakya beyanı: Fransız. t: 1920-05-27 yerine 1920 Haziran'ı (gün yok)."
-  },
-  {
-   "ad": "Ferecik (Feres)",
-   "dosya_satir": "data/yerlesimler.js:1658",
-   "alan": "s",
-   "d": "yunanistan",
-   "f": "1920-05-27",
-   "t": "1973-06-01",
-   "oneri": {
-    "f": "KARAR GEREKİR: isg yunanistan 1920-06 (AY) → 1923-07-24; s yunanistan f 1923-07-24 (Lozan imzası)"
-   },
-   "kaynak": "TDV İslâm Ansiklopedisi, «Ferecik», https://islamansiklopedisi.org.tr/ferecik",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Ferecik», https://islamansiklopedisi.org.tr/ferecik (okundu 5.11.2026, sayfa.py ham metin) ◄► TDV İslâm Ansiklopedisi, «Bulgaristan», https://islamansiklopedisi.org.tr/bulgaristan (okundu 5.11.2026, sayfa.py ham metin)",
-   "alinti2": "[ferecik] …1920 Haziranından itibaren de Yunanlılar’ca işgal edildi ve bu fiilî durum 1923 Lozan Antlaşması ile hukuken tanınmış oldu. ◄► [bulgaristan] Savaşı sona erdiren Neully Antlaşması’yla (27 Kasım 1919) Bulgaristan … Batı Trakya’nın tamamını kaybetmiş, Ege denizi kıyısını Yunanistan’a bırakmak durumunda kalmış …",
-   "not": "YÜKSELTME TURU (CELISKI): Öneri (s:yunanistan f=1923-07-24 Lozan imzası; arası isg yunanistan 1920-06→) TDV ferecik ile birebir uyumlu; Lozan imza günü 24 Temmuz 1923 TDV Batı Trakya'da okundu ('24 Temmuz 1923 tarihli Lozan Antlaşması') ama orada azınlık statüsü içindir. ÇELİŞKİ: TDV Bulgaristan, Neuilly (27 Kasım 1919) ile Batı Trakya'nın tamamının kaybedildiğini ve Ege kıyısının Yunanistan'a bırakıldığını söyler → hukukî Yunan egemenliği 1919/1920'ye çekilebilir (San Remo/Sèvres 1920 bu partide OKUNMADI). Lozan'dan öncesi s'siz kalır (1919-11-27→1923-07-24 delik). Öneri DEĞİŞTİRİLMEDİ; karar EMRELİC. ÖLÇÜT: geçici/askerî mi idareye katma mı — Yunan idaresine katma belgesi okunmadı. · TEK KURAL (işgal ≠ sahiplik): TDV ferecik açıkça «fiilî durum 1923 Lozan ile hukuken tanındı» der; TDV batı-trakya Lozan 24 Temmuz 1923 der. Alternatif hukukî devir günleri (San Remo/Sèvres 1920-08-10) bu partide kaynaktan OKUNMADI; TDV batı-trakya 'Yunan Sevri' azınlık antlaşmasıdır, devir antlaşması DEĞİLDİR. ÖLÇÜT: işgal boyunca idareye katma belgesi okunmadı. Karar Emre/KASA'da."
   },
   {
    "ad": "Parga",
@@ -5071,20 +4928,38 @@
    "not": "YÜKSELTME TURU (CELISKI): ÇİFT-TDV: TDV Nahcıvan (abi merkez) f=1387 (yıl), t=1412 verir; atlas t=1408-04-13 TDV Karakoyunlular (Serdrûd, bölge cümlesi) dayanaklı. Üçüncü akademik kaynak (Iranica/EI) açılmadı; Ordubad'ın kendi TDV maddesi yok. Karar EMRELİC'in; f için 1386 Toktamış kısa ele geçirişi TDV'de ayrıca anılıyor (atlasta Altın Orda katmanı yok). · ÇİFT-TDV, KARAR VERİLMEDİ: atlasın karakoyunlu 1408-04-13 ucu TDV 'Karakoyunlular' Serdrûd (bölge cümlesi, şehir tanıklığı değil, mevcut kaynakta beyanlı); TDV 'Nahcıvan' (abi merkez şehir maddesi) Karakoyunlu'ya geçişi 1412 verir. Üçüncü bağımsız kaynak (Iranica/EI) bu turda açılmadı (iranicaonline erişimi 404). ÇİFT-TDV kuralı: şehir maddesi esas olursa 1412; karar KASA/Emre'de. f için: Toktamış 1386 kısa süreli, Timur 1387 (YIL, gün YOK)."
   },
   {
-   "ad": "Kragujevac",
-   "dosya_satir": "data/yerlesimler.js:2502",
-   "alan": "d",
-   "d": "OSMANLI",
-   "f": "1738-08-01",
-   "t": "1830-10-17",
+   "ad": "Sonârgâon",
+   "dosya_satir": "data/yerlesimler_asya.js:1042",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
    "oneri": {
-    "d": "1804-1813 isyancı Sırbistan (Karadorde) / 1815-1830 Miloş idaresi: tâbi (v) olarak bölünmeli; kaynak: TDV sirbistan (1815) + Spasić 1998",
-    "f": "1815 YIL"
+    "f": "1302-01-01",
+    "t": "1338-01-01",
+    "d": "delhi-sultanligi"
    },
-   "kaynak": "en.wikipedia Kragujevac (ikincil; Spasić 1998 akademik monograf atfı): 1804'te Birinci Sırp Ayaklanması'yla kurtarıldı, 1815'te İkinci Ayaklanma'yla Osmanlı idaresinden çıktı; 6 Mayıs 1818 Miloš Obrenović Kragujevac'ı Sırbistan Knezliği başşehri ilân etti. TDV 'Sırbistan': 1815 İkinci Sırp isyanı, Miloš başknez, imtiyazlar genişletildi; 17 Ekim 1830 fermanı",
-   "kaynak2": "TDV İslâm Ansiklopedisi, «Sırbistan» https://islamansiklopedisi.org.tr/sirbistan ; Hrvatska enciklopedija «Kragujevac» https://www.enciklopedija.hr/clanak/kragujevac",
-   "alinti2": "Nihayet 17 Ekim 1830’da verilen bir imtiyaz fermanıyla Sırplar muhtar bir idare elde etti. || Prva prijestolnica Srbije nakon stjecanja autonomije (1818–41) te njezino upravno i kulturno središte.",
-   "not": "YÜKSELTME TURU (CELISKI): CELISKI: öneri v: tâbi 1815-1830 (Kragujevac). TDV Sırbistan: 1815 ayaklanması bastırıldı, imtiyazlar GENİŞLETİLMEYE BAŞLANDI, Miloş başknez; muhtar idare 17 Ekim 1830 fermanıyla (atlasın v: 1830-10-17 ucuyla uyumlu, öneri onu 15 yıl öne çekiyor). TDV Kragujevac'ı anmaz, 1815'te bir statü/gün değişimi vermez; 1804-13 isyancı Sırbistan için TDV \"1813'te isyan tamamıyla bastırıldı\" der (Kragujevac özgü tanık yok). Hrvatska enciklopedija: Kragujevac özerklik sonrası ilk başkent 1818-41 (çıkarım: 1818 statü işareti, ama özerkliğin başı yılsız). Üç akademik ifade üç ayrı yıl (1815/1818/1830) ve hukukî egemenlik Osmanlı; karar EMRELİC. Atlas v: kuralı (Osmanlı iddiası sürüyor + Sırp idaresi) uygulanabilir ama başlangıç ucu kaynakla tek yıla bağlanamadı. Spasić 1998 okunmadı. · ÇELİŞKİ ADAYI (hüküm Emre'nin): atlas 1738-1830 tek parça d:osmanli; Kragujevac 1818'den Sırp Knezliği başşehri (ikincil + TDV 1815 Miloş başknez). TDV: muhtar idare 17 Ekim 1830'da fermanla (ferman 'muhtar idare elde etti', yani 1815-30 arası fiilî özerklik, hukuki egemenlik Osmanlı). ÖLÇÜT: Osmanlı iddiası sürüyor, ama Sırp idaresi vergi topluyor → v:'Sırbistan' 1815→1830 tâbi katman önerisi. Gün BULUNAMADI. Dönem başı 1738-08-01 Semendire ay ucudur: TDV semendire."
+   "kaynak": "Banglapedia (Asiatic Society of Bangladesh), 'Sonargaon', https://en.banglapedia.org/index.php/Sonargaon",
+   "kaynak2": "Banglapedia (Asiatic Society of Bangladesh), 'Sonargaon', https://en.banglapedia.org/index.php/Sonargaon (ham metin sayfa.py ile okundu)",
+   "alinti2": "From this time the fortune of Sonagaon had been under a temporary eclipse till the rise of ghiyasuddin bahadur shah who initiated an independent rule in eastern Bengal with his seat of government at Sonargaon. With the fall of Bahadur Shah and annexation of Bengal to the empire of muhammad bin tughlaq , the metropolis of Sonargaon turned to have been the headquarters of the eastern province of Bengal for the following one decade.",
+   "not": "YÜKSELTME TURU (CELISKI): Öneri f=1302 (Delhi başlangıcı = Hindu yönetiminin sonu). Banglapedia: 1302'den sonra Sonargaon 'eclipse' ve Ghiyasuddin Bahadur Şah'ın bağımsız yönetimi; Tuğluk ilhakı onun düşüşünden SONRA (yılsız, 'one decade' → 1338'e kadar). Yani Delhi f=1302 kaynakla çelişir; Delhi başlangıcı Bahadur Şah'ın düşüşü (yıl kaynakta yok). Öneri t=1338 ise Banglapedia 'began in 1338 AD ... earliest independent sultanat' ile uyumlu (Bengal f satırına bkz.). Mevcut f 1281 de bu kaynakla desteklenmiyor. Öneri DEĞİŞTİRİLMEDİ; karar EMRELİC. Bahadur Şah dönemi (≈1302-?) künyesiz/Bengal. · Banglapedia Sonargaon: Hindu bağımsız yönetim 1302'de bitti; ardından Ghiyasuddin Bahadur Shah'ın Sonargaon'dan bağımsız yönetimi, düşüşünde Muhammed bin Tuğluk imparatorluğuna ilhak (gün/yıl verilmiyor → BULUNAMADI gün); 1338'de Fakhruddin Mubarak Shah ile 'earliest independent sultanat of Bengal'. Dolayısıyla Delhi dönemi 1302-1338 (YIL); 1281-1302 Deva, 1338 sonrası Bengal. ÖLÇÜT: idareye katma — Banglapedia 'annexation of Bengal to the empire of Muhammad bin Tughlaq' (1320'ler, yıl belirsiz). Bahadur Shah'ın bağımsız dönemi (Delhi dışı) künyesiz; BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "ad": "Dakka (Dhaka)",
+   "dosya_satir": "data/yerlesimler_asya.js:1031",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "oneri": {
+    "f": "1302-01-01",
+    "t": "1338-01-01",
+    "d": "delhi-sultanligi"
+   },
+   "kaynak": "Banglapedia, 'Dhaka', https://en.banglapedia.org/index.php/Dhaka",
+   "kaynak2": "Banglapedia, 'Sonargaon', https://en.banglapedia.org/index.php/Sonargaon",
+   "alinti2": "Sonargaon emerged to have been the capital of the Kingdom of Vanga under raja danauja rai ... and continued to maintain the status till the end of independent Hindu rule in East Bengal (1302). ... With the fall of Bahadur Shah and annexation of Bengal to the empire of muhammad bin tughlaq , the metropolis of Sonargaon turned to have been the headquarters of the eastern province of Bengal for the following one decade.",
+   "not": "YÜKSELTME TURU (CELISKI): CELISKI: oneri 'Delhi 1302-1338' ile Sonargaon (abi merkez) maddesi uyuşmuyor. Banglapedia 1302'yi BAĞIMSIZ HİNDU YÖNETİMİNİN SONU olarak verir, Delhi'nin alışını değil; sonra Gıyâseddin Bahadır Şah'ın bağımsız Sonargaon yönetimi gelir, Delhi (Muhammed b. Tuğluk) ilhakı onun düşüşünden sonradır ve '1338'e kadar yaklaşık on yıl' sürer (yani Delhi ~1328-1338, 1302-1328 arası Delhi değil). Yani 1302 f, Delhi'nin Sonargaon'u almasını tarihlemiyor. Ayrıca 'Dhaka'ya özgü Delhi tanıklığı' yok; Dhaka maddesi yalnız 'Sultanate period' der. t=1338 yıl düzeyinde Sonargaon'da Bengal Sultanlığı'nın doğuşuyla uyumlu (aşağıda bengal satırı). ÖLÇÜT: idareye katma; atlas Delhi f 1281 ve t 1340 Dhaka için kaynaksız kalır. Karar EMRELİC. · ABİ MERKEZ: Sonârgâon — Banglapedia 'Sonargaon' (Dakka'ya ~25 km; Doğu Bengal'in başkenti). BEYANLI YAKLAŞIKLIK. Dhaka'ya özgü Delhi tanıklığı yok: Banglapedia 'Dhaka': Hint-öncesi/Müslüman-öncesi varlığı 'cannot be ascertained', kentleşme Sultanlık döneminde (en eski anıt 1456 camisi). Sonargaon zinciri: 1281-1302 Deva (Danauja Rai) → 1302-1338 Delhi → 1338 Bengal. Dakka satırı bu zincire bağlanır; AD KARIŞMASI yok."
   }
  ]
 }

@@ -135,6 +135,16 @@ Aşağıdaki TEK KURAL bu ölçütün uygulamasıdır, onun yerine geçmez. Öl�
   - **Eğri teslimi 1687-12-14 (TDV):** dönem ile kronoloji maddesi aynı commit'te taşınır.
   - **Bukovina / Çernovitz:** habsburg t 1918-11-12. Rakip hükûmet: Ukrayna 1918-11-06, Romanya 1918-11-11.
   - **Rus himayesi (Megrelya vb.):** `v: rusya` + `s: <prenslik>` künye t'sine kadar sürer.
+- **EMRELİC gece-36 kararları (5 Kasım 2026):**
+  - **İsa Çelebi / Bursa kuşağı:** 1402-07-28 → 1402-11-01 `d: osmanli` + `isg timurlu`. `s: isa-celebi` 1402-11-01'den ([yalnız ay], TDV "Kasım 1402"). Künye `fetret-isa` f → 1402-11-01 genişletilecek (LAB). 1403 Ocak tanınması ic_not'a. Bu satırlarda 1403-01-01 ya da 1402-07-28 önerisi kararla çelişir.
+  - **Batı Trakya (Ferecik, Sofulu…):**
+    - 1919-10 → 1919-11-27: `d: bulgaristan` + `isg itilaf`.
+    - 1919-11-27 → 1920-05-14: `isg itilaf` + BEYANLI YAKLAŞIKLIK ("Thrace Interalliée" künye adayı LAB'a).
+    - 1920-05-14 → 1920-08-10: `isg yunanistan`.
+    - `s: yunanistan` 1920-08-10'dan (Trakya Antlaşması). Lozan ic_not'a.
+  - **Sırbistan muhtariyeti:** TDV 1830-10-17 esas; 1815-17 fiilî muhtariyet ic_not'a.
+  - **Teselya 1359-1393:** Sırp-Yunan hanedanı künye adayı LAB'a; o zamana dek abi merkez + beyan.
+  - **Doğu Trakya TBMM:** alt sınır Mudanya 1922-10-11. Esas gün teslim (Refet Paşa'nın girişi). TDV Edirne'de "Kasım 1922" varsa o alınır.
 - **Lübnan kıyısı (EMRELİC gece-10):** 1918-10'dan `d: osmanli` + `isg fransa`. `s:` Fransız mandası 1920-09-01'den (Büyük Lübnan). 1920-07-25 yalnız iç Suriye içindir.
 - **Hukukî iade + fiilî çekiliş (EMRELİC, 4 Kasım 2026 gece-4):**
   - Hukukî devir antlaşması ile idare birlikte kurulduysa `s:` antlaşma gününden başlar (Petsamo: Moskova Mütarekesi 1944-09-19; Gîlân: Reşt 1732-02-01).
