@@ -1077,7 +1077,7 @@ window.KRONOLOJI_INGILTERE = [
   d:"Beş büyük Avrupa gücünün katıldığı sözleşme, İstanbul ve Çanakkale boğazlarının barış zamanında bütün yabancı savaş gemilerine kapalı olmasını uluslararası güvenceye bağladı; bu, tek taraflı Hünkâr İskelesi Antlaşması'nın yerini aldı. Sözleşme, Britanya'nın Rusya'nın Akdeniz'e inmesini önleme stratejisinin diplomatik zaferiydi.",
   kaynak:"ingiltere (TDV)" },
 
-{ t:"1846-06-25", b:"Tahıl Yasaları kaldırıldı — serbest ticaret çağı başladı", tur:"reform",
+{ t:"1846-06-26", ic_not_t:"Hansard, House of Lords 26 June 1846 (Minutes): 'Received the Royal Assent. Corn Importation ...' — kaldırma yasalaşması 26 Haziran; 25 Haziran Lordlar üçüncü okuması. (KASA SALI kuyruğu L2-364; KASA PAZAR 4 Kasım 2026)", b:"Tahıl Yasaları kaldırıldı — serbest ticaret çağı başladı", tur:"reform",
   onem:5, dunya:2, kapsam:"ic", etiket:["ekonomi","reform","birlesik-krallik","irlanda","konu-ekonomi","konu-islahat"],
   yer_id:"Londra",
   d:"Başbakan Robert Peel, kendi partisinin çoğunluğuna rağmen tahıl ithalatını sınırlayan korumacı yasaları kaldırttı; karar Muhafazakâr Parti'yi ikiye böldü ama Britanya'yı on yıllar sürecek bir serbest ticaret dönemine soktu. Reform, İrlanda'daki Büyük Kıtlık'ın da baskısı altında hızlandı.",
@@ -1978,7 +1978,7 @@ window.KRONOLOJI_INGILTERE = [
   d:"Liddesdale Lordu William Douglas, Edinburgh Kalesi'ni İngilizlerden geri aldı; İngiliz işgali altındaki İskoçya'nın merkezi yeniden İskoç eline geçti.",
   kaynak:"Wikipedia 'Edinburgh Castle' (1341) — TDV dışı kaynak, akademik teyit bekler", yer_kon:[55.953,-3.189], ic_not_t:"ay/gün kaynakta yok; yıl hassasiyeti" },
 
-{ t:"1652-02-04", b:"Birlik Teklifi (Tender of Union) Edinburgh'da ilan edildi — İskoçya Cromwell'in Commonwealth'ine katıldı", tur:"siyaset",
+{ t:"1652-02-14", ic_not_takvim:"GREGORYEN 14 Şubat 1652 (Jülyen 4 Şubat; archontology.org 'Scotland and the Commonwealth': 'proclaimed ... at the Mercat Cross in Edinburgh on 4/14 Feb 1652'; CLAUDE.md Takvim; KASA SALI kuyruğu L2-227, KASA PAZAR 4 Kasım 2026)", b:"Birlik Teklifi (Tender of Union) Edinburgh'da ilan edildi — İskoçya Cromwell'in Commonwealth'ine katıldı", tur:"siyaset",
   onem:3, dunya:1, kapsam:"dis", etiket:["siyaset","iskocya","ingiltere","konu-siyaset"],
   yer_id:"",
   d:"Dunbar ve Worcester'den sonra İskoçya askerî olarak boyun eğdi; Tender of Union Edinburgh mercat cross'ta ilan edildi. Birleşme ordonansı 12 Nisan 1654'te çıktı, 1660'a dek İskoçya İngiliz Commonwealth'inin parçası sayıldı.",

@@ -2575,7 +2575,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Balšić hanedanının son idarecisi (Balša III), vârissiz ölümü öncesinde Zeta'yı akrabası Sırp despotu Stefan Lazarević'e miras bıraktı. Bu, Balšić hâkimiyetinin sonu ve Crnojević ailesinin yükselişine kadar geçen ara dönemin başlangıcıdır.",
   kaynak:"TDV `karadag`: '1421'de Balšići ailesinin son idarecisi Zeta'yı miras olarak Sırp despotuna bıraktı.'" },
 
-{ taraflar:["zeta"], t:"1451-01-01", b:"Crnojević ailesi Zeta'nın başına geçti", tur:"hukumdar",
+{ taraflar:["zeta"], t:"1451-01-01", ic_not_t:"Hrvatska enciklopedija 'Crnojevići': 'Stefan Crnojević (spominje se 1451–65) postaje 1452. mlet. vazal, dobivši naslov vojvode Gornje Zete' — 1451 ilk anılış; unvan 1452. İkinci kaynak bekleniyor. (KASA SALI kuyruğu L2-15; KASA PAZAR 4 Kasım 2026)", b:"Crnojević ailesi Zeta'nın başına geçti", tur:"hukumdar",
   onem:3, dunya:1, kapsam:"ic", etiket:["hukumdar","siyaset","konu-siyasi","konu-hanedan"], yer_id:"", kapsam_genis:true,
   d:"Sırp despotluğunun zayıflamasıyla yerel bir feodal aile olan Crnojevići, Stefan Crnojević önderliğinde Zeta'nın fiilî hâkimi hâline geldi; merkezleri başlangıçta Žabljak Crnojevića idi.",
   kaynak:"bulunamadı — TDV `karadag` maddesi Crnojević hanedanının başlangıcını tarihlendirmiyor; dayanak: J.V.A. Fine, The Late Medieval Balkans, 1994." },
@@ -2603,12 +2603,12 @@ window.KRONOLOJI_BALKAN = [
 { taraflar:["zeta"], t:"1484-01-01", b:"Cetinje Manastırı kuruldu", tur:"siyaset",
   onem:3, dunya:1, kapsam:"ic", etiket:["mimari","kultur","imar","konu-siyasi","konu-kultur","konu-imar"], yer_id:"Cetinje",
   d:"İvan Crnojević, yeni başkentindeki Meryem Ana Manastırı'nı (Cetinje Manastırı) kendi vakfı olarak inşa ettirdi. Manastır, sonraki dört asır boyunca Karadağ Ortodoks kilisesinin ve piskopos-prensliğin fiilî merkezi olacaktı.",
-  kaynak:"bulunamadı — TDV `karadag` kuruluş tarihini vermiyor; dayanak: standart akademik kaynak (Cetinje Manastırı ve Karadağ Millî Kütüphanesi resmî tarihçeleriyle çapraz doğrulandı)." },
+  kaynak:"Hrvatska enciklopedija, CETINJE (https://enciklopedija.hr/clanak/cetinje) — «ondje podignuo dvor (1482) i manastir (1484) u koji se ubrzo preselio i zetski (poslije crnogorski) metropolit» (KASA SALI kuyruğu L2-21; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV `karadag` kuruluş tarihini vermiyor; dayanak: standart akademik kaynak (Cetinje Manastırı ve Karadağ Millî Kütüphanesi resmî tarihçeleriyle çapraz doğrulandı)." },
 
 { odak_yer:["Cetinje"], taraflar:["zeta"], t:"1490-01-01", b:"Đurađ Crnojević babasının yerine geçti", tur:"hukumdar",
   onem:2, dunya:1, kapsam:"ic", etiket:["hukumdar","konu-hanedan"], yer_id:"", kapsam_genis:true,
   d:"İvan Crnojević'in ölümüyle oğlu Đurađ Crnojević Zeta'nın başına geçti; kısa hükümdarlığı (1490-1496) kültürel açıdan en parlak dönemlerden biri oldu — matbaanın kuruluşu bu döneme rastlar.",
-  kaynak:"bulunamadı — TDV tarih vermiyor; dayanak: standart akademik kaynak." },
+  kaynak:"Hrvatska enciklopedija, CRNOJEVIĆI (https://enciklopedija.hr/clanak/crnojevici) — «Njegov sin i nasljednik Đurađ (spominje se 1490–96) osnovao je 1493. tiskaru.» (KASA SALI kuyruğu L2-25; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV tarih vermiyor; dayanak: standart akademik kaynak." },
 
 { taraflar:["zeta"], t:"1493-01-01", b:"Đurađ Crnojević, Balkanlar'ın ilk Kiril matbaasını Cetine'de kurdu", tur:"siyaset",
   onem:4, dunya:2, kapsam:"ic", etiket:["bilim","kultur","imar","islahat","konu-siyasi","konu-bilim","konu-kultur","konu-imar","konu-islahat"], yer_id:"Cetinje",
@@ -2623,7 +2623,7 @@ window.KRONOLOJI_BALKAN = [
 { odak_yer:["Cetinje","Venedik"], taraflar:["zeta"], t:"1496-01-01", b:"Đurađ Crnojević Venedik'e kaçtı, kardeşi Stefan Osmanlı'nın eline geçti", tur:"hukumdar",
   onem:4, dunya:2, kapsam:"dis", etiket:["diplomasi","siyaset","konu-siyasi","konu-diplomasi","konu-hanedan"], yer_id:"", kapsam_genis:true,
   d:"Osmanlı beyi Firuz Bey'in güçlü bir kuvvetle Zeta'ya girmesi üzerine Đurađ Crnojević direnmekten vazgeçip Venedik'e sığındı; yerine geçen kardeşi Stefan, fiilen Osmanlı'nın onayıyla hüküm süren bir yönetici konumuna düştü.",
-  kaynak:"bulunamadı — TDV bu ayrıntıyı vermiyor, yalnız 'Fâtih Sultan Mehmed döneminin son yıllarında tesis edilen ilk Osmanlı idaresi'nden bahsediyor; dayanak: standart akademik kaynak." },
+  kaynak:"Hrvatska enciklopedija, CRNOJEVIĆI (https://enciklopedija.hr/clanak/crnojevici) — «Za njegova boravka u Mlecima u Zeti je vladao (1496–99) Stefan kao osman. eksponent.» (KASA SALI kuyruğu L2-26; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV bu ayrıntıyı vermiyor, yalnız 'Fâtih Sultan Mehmed döneminin son yıllarında tesis edilen ilk Osmanlı idaresi'nden bahsediyor; dayanak: standart akademik kaynak." },
 
 { taraflar:["zeta"], t:"1499-01-01", b:"Zeta İşkodra Sancağı'na bağlandı", tur:"toprak-kayip",
   onem:4, dunya:2, kapsam:"dis", etiket:["toprak-kayip","idari","konu-askeri","konu-idari"], yer_id:"İşkodra",
@@ -3180,7 +3180,7 @@ window.KRONOLOJI_BALKAN = [
   d:"Krallığın en güçlü hükümdarı I. Tvrtko'nun ölümüyle merkezî otorite hızla zayıfladı; taht bir dizi kısa ömürlü kral arasında el değiştirdi ve büyük derebeyler (başta Hrvoje Vukčić Hrvatinić) fiilî iktidarı ele geçirdi. Krallığın 1390'da ulaştığı Dalmaçya kıyısı birkaç yıl içinde elden çıktı.",
   kaynak:"veri (mevcut data/devletler.js kaydı, t:'1391-01-01') · standart akademik kaynak (Fine, The Late Medieval Balkans)." },
 
-{ odak_yer:["Ösek (Osijek)","Visoko"], taraflar:["bosna-kralligi"], t:"1394-07-01", b:"Đakovo Antlaşması — Macar veraseti kabul edildi, sonra tanınmadı", tur:"antlasma",
+{ odak_yer:["Ösek (Osijek)","Visoko"], taraflar:["bosna-kralligi"], t:"1394-07-01", ic_not_t:"ÇELİŞKİ: Hrvatski biografski leksikon 'Kotromanići': Đakovo buluşması Mayıs 1393'te beklendi ama olmadı ('do sastanka nije došlo'); 1394'te Dobor anlaşması. Madde metni ve günü ikinci akademik kaynakla (Fine 1994) karşılaştırılmalı. (KASA SALI kuyruğu L2-12; KASA PAZAR 4 Kasım 2026)", b:"Đakovo Antlaşması — Macar veraseti kabul edildi, sonra tanınmadı", tur:"antlasma",
   onem:3, dunya:1, kapsam:"dis", etiket:["diplomasi","idari","konu-idari","konu-diplomasi"], yer_id:"", odak_kimlik:["bosna-kralligi"], kapsam_genis:true,
   d:"Kral Stjepan Dabiša, Macar Kralı Sigismund'a bağlılığını tanıyıp erkek varisi olmaması hâlinde tahtın ona geçmesini kabul etti; karşılığında Somogy kontluğu unvanı aldı. Dabiša 1395'te ölünce Bosna soyluları bu antlaşmayı tanımayıp Sigismund yerine Kraliçe Jelena'yı seçti.",
   kaynak:"bulunamadı — TDV'de yok; standart akademik kaynak (Fine, The Late Medieval Balkans) — gün/ay (Temmuz 1394) ikincil kaynaklardan çıkarıldı, ORTA güven." },
@@ -4864,7 +4864,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Sind — Ergunlu] Kandehar'dan Bâbür'ün baskısıyla güneye inen Şah Beg, Câm Fîrûz'u yenerek Tatta'ya girdi ve şehri yağmaladı. Semmâ hâkimiyeti sona erdi; Sind, Orta Asya kökenli bir askerî hânedanın eline geçti. (Kaynaklarda 1520 ve 1521 tarihleri birlikte geçer.)",
   kaynak:"sind (TDV): \"XVI. yüzyılda Türk asıllı Argun hânedanının eline geçti\"; tarih için Cambridge History of India, III" },
 
-{ taraflar:["sind"], t:"1522-01-01", b:"Şah Beg Ergun öldü, yerine oğlu Şah Hasan geçti", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
+{ taraflar:["sind"], t:"1524-01-01", ic_not_t:"TDV İslâm Ansiklopedisi 'Hüseyin Şah Argun': 'Şah Bey'in 1524'te ölümü üzerine yerine ... oğlu Hüseyin Şah geçti' (Şah Hasan = Hüseyin Şah). Eski yıl 1522 Bâbür'ün Kandehar'ı alışıdır. Yalnız yıl (gün yok). (KASA SALI kuyruğu L2-31; KASA PAZAR 4 Kasım 2026)", b:"Şah Beg Ergun öldü, yerine oğlu Şah Hasan geçti", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-kisiler","konu-hanedan"], yer_id:"Tatta (Thatta)",
   d:"[Sind — Ergunlu] Şah Hasan Ergun, babasının kurduğu idareyi Bakkar ve Tatta arasında iki merkezli biçimde sürdürdü. Onun döneminde Sind, Bâbürlü ile Safevî arasındaki güç boşluğunda dengede durmayı becerdi.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, III; Ma'sumi, Ta'rikh-i Sind" },
@@ -5215,7 +5215,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Racput — Amber] Amber racası, Bâbürlü padişahı Muhammed Şah'ın izniyle taş ve kireçten dev astronomi aletleri kurdurdu. Yantra Mantra adı verilen bu yapılar, teleskop çağının eşiğinde çıplak gözle ulaşılabilecek en yüksek hassasiyeti hedefliyordu.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı. Dayanak: Cambridge History of India, IV; G. R. Kaye, The Astronomical Observatories of Jai Singh" },
 
-{ taraflar:["racput"], t:"1727-11-18", b:"Caypûr şehri kuruldu", tur:"sehircilik", onem:5, dunya:3, kapsam:"ic",
+{ taraflar:["racput"], t:"1727-11-29", ic_not_t:"A. Johnson-Roehr, JSAH 72/1 (2013) s.33: 'foundation ceremony … on 29 November 1727 (Pausa Vadi 1, VS 1784)'; aynı makale dn.25 tithi'yi 28 Kasım çevirir, Bhojanasāra 13 Aralık der. (KASA SALI kuyruğu L2-64; KASA PAZAR 4 Kasım 2026)", b:"Caypûr şehri kuruldu", tur:"sehircilik", onem:5, dunya:3, kapsam:"ic",
   etiket:["sehircilik","baskent","mimari","imar","konu-idari","konu-imar"], yer_id:"Caypûr (Jaipur)",
   d:"[Racput — Amber] Cey Singh II, dar bir dağ vadisindeki Amber'i bırakıp ovada ızgara planlı, dokuz bloklu yeni bir başşehir kurdurdu. Hint mimarî geleneğiyle geometrik şehir planlamasını birleştiren Caypûr, çağının en bilinçli tasarlanmış şehirlerinden biridir.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, IV; Percy Brown, Indian Architecture" },
@@ -5233,7 +5233,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 { taraflar:["racput"], t:"1818-01-06", b:"Mevâr İngilizler'le tâbilik antlaşması imzaladı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","tabiiyet","somurge","konu-siyasi","konu-diplomasi"], yer_id:"Udeypûr (Udaipur)",
   d:"[Racput — Mevâr] Maratha ve Pindârî yağmalarından bunalan Mevâr, dış siyasetini Doğu Hindistan Şirketi'ne devretti ve koruma karşılığında vergi ödemeyi kabul etti. Aynı yıl içinde Mârvâr, Bîkâner, Caypûr ve Caysalmer de benzer antlaşmalar imzaladı; Racputana bir bütün olarak İngiliz himayesine girdi.",
-  kaynak:"bulunamadı — TDV'de Racput maddesi yok. Dayanak: Cambridge History of India, V; C. U. Aitchison, Treaties, Engagements and Sanads (Racputana cildi)" },
+  kaynak:"C. U. Aitchison, Treaties… c.III (Rajputana), Udaipur No. I (EMRELİC okuması) (https://archive.org/download/india.history.resource.84884/84884_djvu.txt) — ««Done at Delhi, this 13th day of January»» (KASA SALI kuyruğu L2-89; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV'de Racput maddesi yok. Dayanak: Cambridge History of India, V; C. U. Aitchison, Treaties, Engagements and Sanads (Racputana cildi)" },
 
 { taraflar:["racput"], t:"1857-06-01", b:"Racput devletleri Hindistan ayaklanmasında İngiliz idaresine bağlı kaldı", tur:"siyaset", onem:4, dunya:3, kapsam:"dis",
   etiket:["siyaset","isyan","konu-siyasi","konu-isyan"], yer_id:"Ecmîr (Ajmer)",
@@ -5353,7 +5353,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 { t:"1805-01-01", b:"Travankur İngilizler'le tâbilik antlaşması imzaladı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","tabiiyet","somurge","konu-siyasi","konu-diplomasi"], yer_id:"Trivandrum (Thiruvananthapuram)",
   d:"[Travankur] Yardımcı kuvvet (subsidiary alliance) düzenine bağlanan krallık, ağır bir yıllık ödeme karşılığında iç işlerinde serbest kaldı. Bağımsız dış siyaset sona erdi; Travankur, İngiliz Hindistanı'nın en büyük prensliklerinden biri olarak XX. yüzyıla girdi.",
-  kaynak:"bulunamadı — dayanak: C. U. Aitchison, Treaties, Engagements and Sanads; Cambridge History of India, V" },
+  kaynak:"C. U. Aitchison, Treaties, Engagements and Sanads c.X (Madras), içindekiler (EMRELİC okuması) (https://archive.org/download/in.ernet.dli.2015.206811/2015.206811.A-Collection_djvu.txt) — ««dated 12th January 1805»» (KASA SALI kuyruğu L2-84; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — dayanak: C. U. Aitchison, Treaties, Engagements and Sanads; Cambridge History of India, V" },
 
 { taraflar:["travankur"], t:"1809-01-11", b:"Velu Thampi Dalavâ Kundara Bildirisi'ni okuyarak İngilizler'e karşı ayaklandı", tur:"isyan", onem:5, dunya:2, kapsam:"dis",
   etiket:["isyan","direnis","konu-isyan"], yer_id:"Kolam (Quilon)",
@@ -8227,7 +8227,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Modena komünü, kendi hizip savaşlarını bitirmek için Obizzo II d'Este'yi senyör olarak çağırdı; ertesi yıl Reggio da aynı yolu izledi. Este devleti bundan böyle iki merkezli yaşayacak — Ferrara papalık, Modena imparatorluk toprağı sayıldığı için hukukî statüleri bile farklıydı. Bu ikilik 1598'de devletin hayatını kurtaracaktır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ taraflar:["ferrara"], t:"1308-09-01",
+{ taraflar:["ferrara"], t:"1308-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] Treccani DBI 'Este, Francesco d'': Ferrara 5 Ağustos 1308 gecesi kapılarını papalık legatlarına açtı; 'Il 27 novembre Ferrara si accordò col governo della Serenissima'. Eski gün 1 Eylül ve 'Venedik işgali' günü kaynakta yok; Venedik müdahalesi 1308 içinde (Ağustos-Kasım). (KASA SALI kuyruğu L2-5; KASA PAZAR 4 Kasım 2026)",
   b:"Ferrara Savaşı — Venedik'in şehri işgali",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","rekabet","kriz","konu-askeri","konu-siyasi"],
@@ -8267,7 +8267,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Marki Niccolò III, karısı Parisina ile üvey oğlu Ugo'nun ilişkisini öğrenince ikisini de kale zindanında başlattı. Olay bütün İtalya'da anlatıldı ve yüzyıllar boyunca şiire, operaya, romana konu oldu. Byron'ın 'Parisina'sı bu vakadır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ taraflar:["ferrara"], t:"1429-01-02",
+{ taraflar:["ferrara"], t:"1429-12-01", ic_not_t:"[yalnız ay teyitli] Treccani DBI 'Este, Leonello d'': Guarino'nun 'arrivo a Ferrara (dicembre 1429)'. ÇELİŞKİ: DBI 'Guarini, Guarino' '23 aprile era già a Ferrara' der (yıl bağlamı net değil). Eski gün 2 Ocak desteksiz. (KASA SALI kuyruğu L2-14; KASA PAZAR 4 Kasım 2026)",
   b:"Guarino da Verona'nın Ferrara'ya çağrılması — hümanist sarayın kuruluşu",
   tur:"kultur", onem:4, dunya:3, kapsam:"ic",
   etiket:["egitim","kultur","felsefe","konu-din","konu-kultur","konu-imar","konu-egitim"],
@@ -8321,7 +8321,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   etiket:["diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"Ferrara",
   d:"Savaşı bitiren barışla Este devleti, Po'nun kuzeyindeki verimli Polesine bölgesini Venedik'e bıraktı. Toprak kaybı devletin tahıl üretim kapasitesini kalıcı olarak düşürdü. Ferrara bundan sonra genişlemeyi bırakıp bataklık kurutmaya ve kültürel prestije yatırım yapacaktır.",
-  kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
+  kaynak:"Treccani DBI ERCOLE I d'Este; Enciclopedia Italiana BAGNOLO MELLA (https://www.treccani.it/enciclopedia/ercole-i-d-este-duca-di-ferrara-modena-e-reggio_(Dizionario-Biografico)/) — «Ercole d'Este dovette sacrificare il Polesine, cedendone il pieno possesso ai Veneziani; 'nella pace conclusa a Bagnolo il 7 agosto'» (KASA SALI kuyruğu L2-22; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
 { taraflar:["ferrara"], t:"1492-09-02",
   b:"Addizione Erculea — Avrupa'nın ilk modern şehir genişletme planı",
@@ -8433,7 +8433,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   etiket:["hanedan","din","toprak-kayip","konu-askeri","konu-hanedan","konu-din"],
   yer_id:"Ferrara",
   d:"Alfonso II meşru erkek vâris bırakmadan ölünce papalık, 1332 vekâletindeki hükmü işletip Ferrara'yı doğrudan kendine bağladı; Este ailesi imparatorluk toprağı olan Modena'ya çekildi. Şehir bir hânedan başkenti olmaktan çıkıp taşra kasabasına döndü, saray ve kütüphane taşındı. İki farklı hukukî statüye sahip olmak, devleti yarı yarıya kurtardı.",
-  kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power; standart erken modern İtalya el kitapları" },
+  kaynak:"Treccani DBI CESARE d'Este (https://www.treccani.it/enciclopedia/cesare-d-este-duca-di-modena-e-reggio_(Dizionario-Biografico)/) — «Il 28 gennaio, dopo aver sentito messa in duomo ed essere stato ribenedetto dal vescovo, lasciò Ferrara» (KASA SALI kuyruğu L2-45; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power; standart erken modern İtalya el kitapları" },
 
 { taraflar:["ferrara"], t:"1598-02-01",
   b:"Modena'nın başkent olması — küçülmüş Este devletinin yeniden kurulması",
@@ -8604,7 +8604,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Bir boyacının kızı olan Caterina Benincasa, Avignon'a giderek Papa XI. Gregory'yi Roma'ya dönmeye ikna eden çevrenin başında yer aldı. Okuma yazması sınırlı bir kadının Avrupa siyasetinin en üst düzeyinde etkili olması çağı için olağanüstüdür. Mektupları İtalyan nesrinin klasikleri arasındadır; 1461'de aziz, 1970'te kilise doktoru ilan edildi.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Catherine of Siena, The Letters (standart neşir, Suzanne Noffke); Norman, Siena and the Virgin" },
 
-{ taraflar:["siena"], t:"1399-09-11",
+{ taraflar:["siena"], t:"1399-09-06", ic_not_t:"Treccani DBI 'Gian Galeazzo Visconti': 'il 6 settembre seguente fu la volta di Siena, datasi al duca di Milano' — eski gün 11 Eylül desteksiz. (KASA SALI kuyruğu L2-13; KASA PAZAR 4 Kasım 2026)",
   b:"Şehrin Milano dükü Gian Galeazzo Visconti'ye teslim olması",
   tur:"idari", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","isgal","konu-askeri","konu-siyasi","konu-idari"],
@@ -8706,7 +8706,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   etiket:["son","kusatma","toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"Siena",
   d:"Açlık dayanılmaz hâle gelince şehir teslim oldu; kuşatma öncesi kırk bine yakın olan nüfus sekiz bine düşmüştü. Direnmek isteyen yaklaşık yedi yüz aile Montalcino'ya çekilip 'Montalcino'daki Siena Cumhuriyeti'ni kurdu ve dört yıl daha dayandı. İtalya'da ortaçağ komün cumhuriyetleri çağı burada kapanır.",
-  kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Hook, Siena: A City and Its History" },
+  kaynak:"Treccani, Enciclopedia Italiana «Siena» + DBI «Cosimo I de' Medici» (https://www.treccani.it/enciclopedia/siena) — «teslim 17 Nisan 1555 (iki Treccani eseri aynı gün)» (KASA SALI kuyruğu L2-35; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV kapsamıyor; dayanak: Hook, Siena: A City and Its History" },
 
 { t:"1559-07-01", ic_not_t:"[yalnız ay teyitli: Enc. It. 'luglio 1559'; DBI Cateau-Cambrésis (nisan 1559) ile çelişki] Treccani, Enciclopedia Italiana 'Siena': 'fino al luglio 1559' — AY hassasiyeti (1559-07-01); eski gün 08-03 desteksiz (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)",
   b:"Montalcino'daki son cumhuriyetin sona ermesi ve Siena'nın Floransa'ya devri",
