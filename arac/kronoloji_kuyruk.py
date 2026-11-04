@@ -17,10 +17,6 @@ CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 BEKLET = {
     # L2E 927-951 (EMRELİC)
     "L2-1326": "Brabant 1354 → 1356-01-03 (Joyeuse Entrée) adayı: dayanak yalnız Persée'deki eser başlığı → KISMEN; metin okunmadan uygulanmaz (EMRELİC)",
-    # L2S 198-222 (S9): ajanın kendi ganzhi hesabı (Sinica IP engeli) — Academia Sinica teyidine kadar
-    "L2-559": "[çeviri doğrulanmadı] Batı Wei sonu 557-01-01 → 557-02-14 adayı (Zhou shu 3: 魏恭帝三年十二月庚子 禪位); künye ucu, Değişmez 2 ±30 gün kontrolü — Academia Sinica teyidi bekliyor",
-    "L2-565": "[çeviri doğrulanmadı] Shouyang 573-11-10 → 573-11-22 adayı (ZZTJ 171 冬十月乙巳; atlas 10. ayın 1. günü) — Academia Sinica teyidi bekliyor",
-    "L2-566": "[çeviri doğrulanmadı] Mang Dağı 575-08-21 tutmuyor (Zhou ordusunun Chang'an'dan hareketi 壬午); Bei Qi shu yalnız 8. ay; 575-09-11 (Zhou shu 八月癸卯, sınıra giriş) + metin ya da ay hassasiyeti — Academia Sinica teyidi bekliyor",
     # L2S 423-447 (S13)
     "L2-782": "Eritre BMA 1941-01-01 → ? : Keren düşüşü 03-27, Asmara teslimi 04-01 (Playfair, UK official history vol.I ch.XXIII); BMA resmî kuruluş günü kaynakta yok → madde Keren mi Asmara mı netleşmeden düzeltilmez",
     "L2-791": "Arnavutluk 1943-09-14 → 09-11 adayı (Ademi 2021: komite 11 Eylül bağımsızlığı yeniden ilan etti; 14 Eylül Biçaku çağrısı); kuruluş günü kaynakta ayrıca yok, tek kaynak",
@@ -52,6 +48,7 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    "L2-562": "Takvim: Tianbao 10/10/10 甲午 = 559-11-25 ölüm; 10/19 癸卯 = 559-12-04 發喪 (Academia Sinica)",
     "L2-607": "Takvim: Xianheng 4/12/25 丙午 = 674-02-06 (Academia Sinica)",
     # L2S 223-247 (S10) — EMRELİC Academia Sinica
     "L2-583": "Takvim: Wude 1/9/12 甲寅 = 618-10-06 (Academia Sinica; atlas 09-24 8. aya düşer) → TARIH DÜZELT",
@@ -98,6 +95,10 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    # L2S 198-222 (S9) — EMRELİC Academia Sinica
+    "L2-559": ("tarih düzelt", "557-01-01 → 557-02-14: Takvim: Batı Wei Gong Di 3/12/30 庚子 = 557-02-14 (Academia Sinica) 禪位 (Zhou shu 3); künye ucu — Değişmez 2 ±30 gün kontrolü"),
+    "L2-565": ("tarih düzelt", "573-11-10 → 573-11-22: Takvim: Chen Taijian 5/10/13 乙巳 = 573-11-22 (Academia Sinica) Shouyang alındı (ZZTJ 171)"),
+    "L2-566": ("tarih düzelt", "575-08-21 → 575-09-11 + metin «Zhou ordusu Qi sınırına girdi»: Takvim: Jiande 4/8/21 癸卯 = 575-09-11 (Academia Sinica); atlas 08-21 = 7/29 壬午 ordunun Chang'an'dan çıkışı → ic_not; Bei Qi shu 閏月己丑 çözülmez (Qi artık ayı 閏8 = 575-09-21…10-19, içinde 己丑 yok) → çelişki ic_not'a"),
     "L2-606": ("tarih düzelt", "674-01-01 → 674-02-12 + «[yalnız ay teyitli; gün teyitsiz]» (ay hassasiyeti; «674-02» yazılmaz — CLAUDE.md: ayın 1'ine genişler, Çin ayının başı 02-12'dir): Takvim: 咸亨5年 (Munmu 14) 正月 = 674-02-12…03-12 Jülyen (Academia Sinica, EMRELİC); Samguk sagi 7 十四年春正月"),
     "L2-770": ("tarih düzelt", "Taif Antlaşması 1934-06-14 → 1934-05-20 imza (Bostancı, Karadeniz Araştırmaları Enstitüsü Dergisi 10/21, 2024, s.51-76: 6 Safer 1353; metin 19, alt başlık 20 Mayıs — hicrî kesişim 20 Mayıs'ı verir, ic_not'ta iki gün beyan); onay 12 Haziran (Abdülaziz) / 26 Haziran (İmam Yahya), yürürlük ve mübadele 1934-06-26 → ayrı madde ya da ic_not; atlas 06-14 hiçbir uca uymuyor"),
     "L2-608": ("tarih düzelt", "683-08-29 → 683-08-26 (EMRELİC kararı): uzun sayım 9.12.11.5.18 yazıtın kendisi (birincil); GMT 584283 = Jülyen 683-08-26 (584285 ile 08-28); atlasın 08-29'u proleptik Gregoryendi → ic_not; Martin & Grube 2008 s.162 okununca kaynağa eklenir, günü değiştirmez"),
@@ -192,7 +193,7 @@ METIN = [
     ("L2-801", "Okinawa: örgütlü direniş 21 Haziran bitti, harekât resmen 2 Temmuz ilan edildi (Appleman, CMH); Ryukyu ABD idaresine hukukî devir ayrı gün"),
     ("L2-804", "Ağustos Devrimi 19 Ağustos 1945: kaynak (Tertrais, IGPDE) «ayaklanmanın başlangıcı» der; Bảo Đại feragati 25 Ağustos → metin başlangıç diline çekilir"),
     # L2S 198-222 (S9)
-    ("L2-562", "Gao Yang: ölüm 甲午 = 559-11-25 Jülyen (atlas günü tutar); metindeki «(4 Aralık 559)» 癸卯 發喪 (cenaze ilanı) günüdür → parantez düzeltilir [çeviri doğrulanmadı]"),
+    ("L2-562", "Gao Yang: ölüm 甲午 = 559-11-25 Jülyen (atlas günü tutar); metindeki «(4 Aralık 559)» 癸卯 發喪 (cenaze ilanı) günüdür → parantez düzeltilir (Academia Sinica)"),
     ("L2-577", "Áedán mac Gabráin: Annals of Ulster 606 (AI 609, [AU 606]) → 606 + ic_not 608/609; «Yerine Eochaid Buide geçti» annallarda yok → çıkarılır ya da kaynaklanır"),
     ("L2-575", "[BEKLE — tek dayanak EB1911] Frizya 600: bilinen en eski kral Aldgisl (~678, Vita Wilfridi) — 600 desteklenmiyor"),
     ("L2-576", "[BEKLE — tek dayanak EB1911] Gaskonya: Fredegar IV.21 açılamadı"),
