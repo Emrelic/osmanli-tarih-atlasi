@@ -152,7 +152,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | bali-kralliklari-pejeng | 1292-01-01 → 1343-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1292-01-01 / t 1343-01-01 (bölüm: eserin dizininden) |
 | mancukuo | 1932-03-09 → 1945-08-17 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China XIII (Republican China, Part 2) — f 1932-03-09 / t 1945-08-17 (bölüm: eserin dizininden) |
 | nanjing-wang-jingwei | 1940-03-30 → 1945-08-16 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China XIII — f 1940-03-30 / t 1945-08-16 (bölüm: eserin dizininden) |
-| endonezya-cumhuriyeti | 1945-08-17 → None | = → = | GIRISLI | GİRİŞLİ: Ricklefs, A History of Modern Indonesia since c.1200 — f 1945-08-17 / t None (bölüm: eserin dizininden) |
+| endonezya-cumhuriyeti | 1945-08-17 → None | = → = | KISMEN | U.S. Department of State, Office of the Historian, 'Decolonization of Asia and Africa, 1945–1960': 'the Indonesian struggle for independence from the Netherlands (1945–50)' (f yalnız yıl teyitli; 08-17 bildiri günü için Ricklefs, A History of Modern Indonesia — GİRİŞLİ; t açık) |
 | singapur-kolonisi | 1946-04-01 → 1959-06-03 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1946-04-01 / t 1959-06-03 (bölüm: eserin dizininden) |
 | singapur | 1959-06-03 → None | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1959-06-03 / t None (bölüm: eserin dizininden) |
 | endonezya-dogu-timor | 1975-12-07 → 1999-10-25 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1975-12-07 / t 1999-10-25 (bölüm: eserin dizininden) |
@@ -357,4 +357,4 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | ceibal | 0411-01-01 → 0889-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden) |
 | cholula | 0700-01-01 → 1519-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0700-01-01 / t 1519-01-01 (bölüm: eserin dizininden) |
 
-Sayım: GIRISLI 251 · KISMEN 51 · TEYIT 26 · DUZELT 21 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
+Sayım: GIRISLI 250 · KISMEN 52 · TEYIT 26 · DUZELT 21 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
