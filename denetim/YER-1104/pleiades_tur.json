@@ -1,0 +1,492 @@
+[
+ {
+  "ad": "Teb",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   25.664780999999998,
+   32.631884
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/786017 (Diospolis Magna/Thebai)",
+  "atlas": "Uksur (Luksor) (2.6 km)",
+  "madde": "Teb isyanı bastırıldı: Komanos Yukarı Mısır'ı Ptolemaios hâkimiyetine geri aldı"
+ },
+ {
+  "ad": "Efes",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   37.93854941548086,
+   27.341918657139203
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/956927190 (Temple of Hadrian (Ephesus))",
+  "atlas": "Ayasuluk (Selçuk) (2.7 km)",
+  "madde": "Mithridates Asia eyaletini işgal etti; Efes Vespers'i (80.000 Romalı katliamı)"
+ },
+ {
+  "ad": "Elefantin",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   24.09,
+   32.889
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/786021 (Elephantine)",
+  "atlas": "Asvan (1.0 km)",
+  "madde": "Kandake önderliğinde Kush Elefantin, Syene ve Philae'yi aldı; Augustus heykellerini yıktı"
+ },
+ {
+  "ad": "Kalhu (Nimrud)",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   36.100864,
+   43.329456
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/57783830 (Kalhu Archive 17)",
+  "atlas": "Musul (32.1 km)",
+  "madde": "II. Aşşurnasirpal Kalhu'yu (Nimrud) Asur'un yeni başkenti yaptı"
+ },
+ {
+  "ad": "Pınarbaşı Höyüğü",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Pınarbaşı (Konya havzası, Karaman): iskân sona erer"
+ },
+ {
+  "ad": "Dzheitun (Ahal)",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Jeitun: Jeitun yerleşimi sona erer (Bayes)"
+ },
+ {
+  "ad": "Qalʿat Sherqat",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   35.459547,
+   43.261508
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/637947000 (Assur Archive 51)",
+  "atlas": "Aşşur (0.4 km)",
+  "madde": "Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehri Medler/Babilliler tarafından"
+ },
+ {
+  "ad": "Nikopolis (Doğu Pontus)",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   40.1485567,
+   38.14353355
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/857248 (Nicopolis)",
+  "atlas": "Karahisâr-ı Şarkî (Şebinkarahisar) (28.5 km)",
+  "madde": "Pompeius Mithridates'i yendi; Pontus Roma'ya bağlandı"
+ },
+ {
+  "ad": "Sikyon",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   37.98449164804185,
+   22.70940570520207
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/807215246 (Ancient Stadium of Sikyon)",
+  "atlas": "Korint (17.3 km)",
+  "madde": "Aratos Sikyon'u Akhaia Birliği'ne kattı"
+ },
+ {
+  "ad": "Argos",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   37.63041122040726,
+   22.72167213453911
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/84693646 (Ancient Agora of Argos)",
+  "atlas": "Anabolu (Nauplion) (9.9 km)",
+  "madde": "Pyrrhos Argos'ta öldü"
+ },
+ {
+  "ad": "Lysimakheia (Gelibolu Yarımadası)",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   40.548232,
+   26.75081
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/501458 (Kardia/Lysimacheia)",
+  "atlas": "Bolayır (1.8 km)",
+  "madde": "Lysimakhos Lysimakheia'yı kurdu: Trakya Khersonesos'unda başkent"
+ },
+ {
+  "ad": "Baktra",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   36.767940877472505,
+   66.90109677963132
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/961886 (Bactra/Zariaspa)",
+  "atlas": "Belh (1.2 km)",
+  "madde": "Baktria ve Sogdiana İskender'e boyun eğdi; İskender Roksane ile evlendi"
+ },
+ {
+  "ad": "Miletos",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "Pleiades: 'Miletus' için uygun sonuç yok (0 ham sonuç)",
+  "atlas": null,
+  "madde": "Batı Anadolu kıyısı İskender'e geçti: Efes, Miletos ve Halikarnassos"
+ },
+ {
+  "ad": "Halikarnassos",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   37.03782914992575,
+   27.424156411709962
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/461581651 (Mausoleum at Halicarnassus)",
+  "atlas": "Bodrum (0.7 km)",
+  "madde": "Batı Anadolu kıyısı İskender'e geçti: Efes, Miletos ve Halikarnassos"
+ },
+ {
+  "ad": "Ithome (Messene)",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   37.17784262313196,
+   21.91891165430309
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/596063692 (Theatre of Messene)",
+  "atlas": "Arkadia (Kyparissía) (22.5 km)",
+  "madde": "Messenia Sparta'dan ayrıldı; Messene kuruldu"
+ },
+ {
+  "ad": "Teb (Boiotia)",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   38.319948833333335,
+   23.317653433333334
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/541138 (Thebai/Thebae)",
+  "atlas": "İstefe (Tebai) (0.3 km)",
+  "madde": "Pelopidas Teb'i kurtardı; Sparta garnizonu Kadmeia'dan atıldı"
+ },
+ {
+  "ad": "Eleusis (Attika)",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   38.03973985378436,
+   23.53846866395107
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/915090919 (\"Gymnasium\" at Eleusis)",
+  "atlas": "Salamis (boğaz) (Salamína) (10.2 km)",
+  "madde": "Korint'in çekilmesiyle Peloponnes Birliği'nin Atina seferi dağıldı"
+ },
+ {
+  "ad": "Nisibis",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   37.06751166666667,
+   41.215446666666665
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/874623 (Nisibis/Antiochia)",
+  "atlas": "Nusaybin (1.1 km)",
+  "madde": "Septimius Severus Mezopotamya'yı eyalet yaptı; Ktesifon yağmalandı"
+ },
+ {
+  "ad": "Premnis (Qasr İbrim)",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "Pleiades: 'Primis' için uygun sonuç yok (2 ham sonuç)",
+  "atlas": null,
+  "madde": "Petronius Kush'a karşı sefere çıkıp Pselkis, Premnis ve Napata'yı aldı; İbrim'e garnizon yerleştirdi"
+ },
+ {
+  "ad": "Philae",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   24.0252586030107,
+   32.88414092882277
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/786089 (Philae)",
+  "atlas": "Asvan (7.3 km)",
+  "madde": "Cornelius Gallus ilk Mısır prefekti oldu; Heroonpolis ve Teb isyanlarını bastırdı, Kush ile sınır gü"
+ },
+ {
+  "ad": "Beth-Shean",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   32.501276675699046,
+   35.50164434293987
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/719634078 (Roman theater of Scythopolis)",
+  "atlas": "Fihl (Pella) (12.0 km)",
+  "madde": "I. Seti Güney Kenan'dan Fenike kıyısına kadar sefer yaptı: Mısır Kenan ve Lübnan kıyısı üzerinde yen"
+ },
+ {
+  "ad": "Yenoam",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "Pleiades: 'Yenoam' için uygun sonuç yok (0 ham sonuç)",
+  "atlas": null,
+  "madde": "I. Seti Güney Kenan'dan Fenike kıyısına kadar sefer yaptı: Mısır Kenan ve Lübnan kıyısı üzerinde yen"
+ },
+ {
+  "ad": "Kadeş",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "Pleiades: 'Kinza' için uygun sonuç yok (0 ham sonuç)",
+  "atlas": null,
+  "madde": "I. Seti Güney Kenan'dan Fenike kıyısına kadar sefer yaptı: Mısır Kenan ve Lübnan kıyısı üzerinde yen"
+ },
+ {
+  "ad": "Akhetaton",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   27.644099597341675,
+   30.89818203754354
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/149576487 (Amarna)",
+  "atlas": "Mellevî (11.3 km)",
+  "madde": "IV. Amenhotep (Akhenaton) Mısır'ın başkentini Akhetaton'a (Amarna) taşıdı"
+ },
+ {
+  "ad": "Amada",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   22.73113925,
+   32.262603899999995
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/683591498 (Temple of Amada)",
+  "atlas": "İbrim (29.4 km)",
+  "madde": "II. Amenhotep Nubya'da Napata'ya ulaştı ve güney sınır steli dikti: Mısır'ın en güney noktası"
+ },
+ {
+  "ad": "Semne",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   21.50019,
+   30.967163
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/795856 (Semna)",
+  "atlas": "Vâdî Halfâ (52.1 km)",
+  "madde": "III. Sesostris Semne'de Mısır'ın güney sınırını II. Şelale'ye çekti; Nubyalıların geçişini yasakladı"
+ },
+ {
+  "ad": "Khalkedon",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   40.983393,
+   29.025789
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/520988 (Chalcedon)",
+  "atlas": "Kadıköy (1.0 km)",
+  "madde": "Khalkedon Konsili: İskenderiye Patriği Dioskoros mahkûm edildi; Mısır Kilisesi imparatorluk Kilisesi"
+ },
+ {
+  "ad": "Lysimakheia (Trakya kıyısı)",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   40.548232,
+   26.75081
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/501458 (Kardia/Lysimacheia)",
+  "atlas": "Bolayır (1.8 km)",
+  "madde": "Selevkos I Ptolemaios Keraunos tarafından öldürüldü; I. Antiokhos tahta çıktı"
+ },
+ {
+  "ad": "Milet",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   37.529912756625514,
+   27.28068093578901
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/65156147 (Delphinion (Miletos))",
+  "atlas": "Balat (Palatia) (2.2 km)",
+  "madde": "Lade Deniz Savaşı: Pers donanması İyon filosunu yendi; Milet düştü"
+ },
+ {
+  "ad": "Ragai",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   35.594267,
+   51.44716300000001
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/903104 (Rhaga(i)/Europos/Arsakia/Ray)",
+  "atlas": "Rey (0.0 km)",
+  "madde": "Dareios'un ordusu Medya isyancısı Fravartiş'i (Phraortes) yendi"
+ },
+ {
+  "ad": "Aşkelon",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   31.664797212161965,
+   34.550521466715146
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/687839 (Ashqelon/Ascalon)",
+  "atlas": "Askalân (0.0 km)",
+  "madde": "II. Nabukadnezar Aşkelon'u aldı, kralını esir etti ve şehri harabeye çevirdi"
+ },
+ {
+  "ad": "Lakiş",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   31.5655212,
+   34.8491898
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/687951 (Lachish)",
+  "atlas": "Hebron (24.4 km)",
+  "madde": "Sennacherib Yahuda'yı işgal etti; Lakiş'i aldı, Kudüs'ü kuşattı"
+ },
+ {
+  "ad": "Vaşşukanni",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "Pleiades: 'Wassukanni' için uygun sonuç yok (0 ham sonuç)",
+  "atlas": null,
+  "madde": "Mitanni (Hanigalbat) krallığı Habur-Fırat bölgesinde kuruldu"
+ },
+ {
+  "ad": "Djenné-Djenno",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Cenne-Ceno (Jenne-jeno): başlar"
+ },
+ {
+  "ad": "Teouma",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Teouma (Lapita mezarligi), Efate: başlar"
+ },
+ {
+  "ad": "Monte Verde",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Monte Verde II: başlar"
+ },
+ {
+  "ad": "Caral-Supe",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Norte Chico (Caral-Supe) Geç Arkaik kompleksi: başlar"
+ },
+ {
+  "ad": "Stonehenge",
+  "sonuc": "EKSİK",
+  "koordinat": [
+   51.180016168568415,
+   -1.8233403455558124
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/509089189 (Stonehenge)",
+  "atlas": "Edington (22.5 km)",
+  "madde": "Stonehenge (Aşama 1: hendek ve set): başlar"
+ },
+ {
+  "ad": "San Martin Tilcajete",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "San Martin Tilcajete ilk meydaninin Monte Alban tarafindan yakilmasi: meydan yakılır (Monte Albán sa"
+ },
+ {
+  "ad": "Cueva San Marcos",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Tehuacan Vadisi, San Marcos Magarasi - en eski misir (partial domestikat): en eski mısır (San Marcos"
+ },
+ {
+  "ad": "Los Morteros",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Los Morteros (Chao Vadisi, Peru) - en eski kerpic anit mimarisi: Amerika'nın en eski kerpiç anıtsal "
+ },
+ {
+  "ad": "Izapa",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Izapa (Chiapas): Orta Formatif krallik baskenti ve ilk beyaz kil yuzey: Izapa: Orta Formatif iskânı"
+ },
+ {
+  "ad": "Mulifanua (SU-17-1)",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Mulifanua (Lapita sitesi), Upolu, Samoa: Mulifanua: Samoa'da Lapita iskânı"
+ },
+ {
+  "ad": "Talepakemalai (site ECA)",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Talepakemalai (ECA), Eloaua Adasi, Mussau: Talepakemalai (Mussau) Lapita iskânı"
+ },
+ {
+  "ad": "Kamgot",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Kamgot (Erken Lapita yerlesmesi), Babase Adasi, Anir Adalari: Kamgot (Anir) erken Lapita iskânı"
+ },
+ {
+  "ad": "Afontova Gora-2",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "koordinat yok — Pleiades kapsamı dışı",
+  "atlas": null,
+  "madde": "Afontova Gora-2 (AG-2), Yenisey, Krasnoyarsk yakini: Afontova Gora-2: Üst Paleolitik Sibirya iskânı "
+ },
+ {
+  "ad": "Hisarlık",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   39.957438079553725,
+   26.238515616396768
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/550595 (Ilium/Troia)",
+  "atlas": "Truva yöresi (Tevfikiye) (0.1 km)",
+  "madde": "Troya I (Hisarlık, Erken Tunç Çağı başı): Troya Ia evresi başlar (Weninger 1995)"
+ },
+ {
+  "ad": "Shillourokambos",
+  "sonuc": "EKSİK",
+  "koordinat": null,
+  "kaynak": "Pleiades: 'Shillourokambos' için uygun sonuç yok (0 ham sonuç)",
+  "atlas": null,
+  "madde": "Klimonas ve Shillourokambos (Kıbrıs, Erken Aseramik Neolitik): Kıbrıs'ta ilk yerleşik köyler (Klimon"
+ },
+ {
+  "ad": "Qart-ḥadašt",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   36.853056,
+   10.323056
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/314921 (Carthago)",
+  "atlas": "Kartaca (Carthage) (0.1 km)",
+  "madde": "Karthago - kuruluş geleneği 814/813 vs arkeolojik ~760: Kartaca: kesintisiz iskânın başı (arkeolojik"
+ },
+ {
+  "ad": "Alexandreia",
+  "sonuc": "YAZIM",
+  "koordinat": [
+   31.199981971042178,
+   29.900727840753987
+  ],
+  "kaynak": "https://pleiades.stoa.org/places/464391493 (Caesareum of Alexandria)",
+  "atlas": "İskenderiye (1.7 km)",
+  "madde": "Iskenderiye'nin kurulusu: İskenderiye kurulur (gelenek)"
+ }
+]
