@@ -247,3 +247,81 @@ Takvimi açıkça veren Yunan akademik ya da Oxford kaynağı **bulunamadı**.
 - KASA §2a'daki üç ABD maddesini ve İlhanlı Sultâniye 1305'i uygulayabilir.
 - Emre/koordinatör §2b'deki "hangi olay" kararlarını vermeli: Altın Orda, Sokoto, Kanem t, Xia, Batı Göktürk, Uygur 744.
 - 19:00 sonrası (3 ajan) §3 ve §4 için ikinci tur öneriyorum: Avrupa satırlarının okunması (dbe.rah.es, HLS, IEG-Mainz, Encyclopedia of Ukraine doğrudan GET) ve 68–73 dosyaları.
+
+## 8. İkinci tur (4 Kasım 2026 öğleden sonra; R1 · R2 · R3, sırayla tek ajan)
+
+Ham kanıt `ikinci-kaynak/` altında: `sonuc_R1-avrupa2.md`, `sonuc_R2-aday.md`, `sonuc_R3-68-73.md`.
+Bu turda arama özeti teyit sayılmadı; sayfanın kendisi açıldı.
+
+### 8a. R1 — Avrupa'nın denenmemiş ve bulunamamış 18 satırı (§4)
+- **ÇİFT TEYİT, 6 tam satır:** D4, D7, D8, D15, D22, D35.
+  - D13'te yalnız Santiago kuruluşu teyitli; kaptanlığın kuruluşu bulunamadı.
+  - D11 ve D29'da yalnız yıl teyitli.
+- **ÇELİŞKİ, 4 satır:** D6, D11, D14, D16.
+- **ADAY, 4 satır:** D9, D10, D20, D21.
+- **BULUNAMADI, 2 satır:** D19, D26.
+
+**Düzeltme önerileri (KASA):**
+- **D7 Krum'un ölümü:** Treccani «13 aprile 814» diyor, künyedeki 13 Nisan ile tutuyor. Evren `bizans_balkan.js:26` → `0814-04-13`.
+- **D15 Suriye-Lübnan mandası:** Fransızlar 25 Temmuz 1920'de Şam'a girdi (encyclopedia.com «Maysalun»; TDV ile uyumlu). Künyedeki f = `1920-07-01` desteksiz → `1920-07-25`.
+
+**Açık kalanlar:**
+- **D16 Saygon:** Treccani 17 Şubat 1859, encyclopedia.com «Indochina» 18 Şubat 1859 diyor. Gün tek akademik kaynakla çözülmüyor; `ic_not`ta iki gün beyanla anılmalı.
+- **D11 Yeni Granada:** 1717–1723 arasında başarısız bir ilk kuruluş var, kalıcı kuruluş 1739. Hangi olayın kayda girdiğine karar gerekiyor.
+- **D14 Baracoa:** Columbia (encyclopedia.com) «c.1512» diyor, atlas 1511. Yaklaşık değer olduğu beyan edilmeli.
+
+### 8b. R2 — §3'teki 8 aday satır, sayfası okunarak
+- **ÇİFT TEYİT, 5 satır:**
+  - **D1 Augustus:** gün Fasti Praenestini'deki 16 Ocak kaydından, yıl Cumanum'dan.
+  - **D25 Alman Federal Antlaşması:** GHDI «June 8, 1815» diyor; 10 Haziran ayrımını yapmıyor.
+  - **D30 Hollanda Brezilyası t:** `1654-01-26`, Wiznitzer, *Jewish Social Studies* 16/2 (1954).
+  - **D32 ve D33 Prusya Krallığı:** `1701-01-18`, NDB 5 (Oestreich, 1961) ve DHM.
+- **D18 Ryswick:** yıl 1697 çift teyit (Eddins 2022, Cambridge); 20 Eylül günü ADAY kalıyor.
+- **ÇELİŞKİ, 1 satır:** E21 Kerma.
+  - Honegger 2014 MÖ 2550, kerma.ch MÖ 2450 diyor; ikisi de aynı Cenevre misyonundan.
+  - Atlasın −2449'u bu aralığın en geç ucu; beyan önerilir.
+- **ADAY, 1 satır:** D12 Río de la Plata.
+  - Kraliyet cédula'sının metni 1 Ağustos 1776; akademik sayfa açılamadı.
+  - Atlastaki `1776-01-01` her durumda yanlış; öneri `1776-08-01`.
+
+**Atlas içi tutarsızlıklar:**
+- **D30 f:** 16 Şubat 1630 Hollanda çıkarmasının ve Olinda'nın günüdür, Recife'nin değil. Recife'nin düşüşü 3 Mart 1630, ama yalnız arama özetinde görüldü.
+- **D32/D33:** brandenburg-markgrafligi t = `1701-01-01` ile Prusya Krallığı f = `1701-01-18` arasında 17 günlük açık var.
+
+### 8c. R3 — 68–73 dosyaları (16 uç; b) bölümleri madde listesi, BAS/ANT ucu yok)
+- **ÇİFT TEYİT, 9 uç (hepsi yalnız yıl):**
+  - 68 Yeni Babil: 626 / 539.
+  - 70 Ptolemaios: 323 / 30.
+  - 71 Delos Birliği: 478/7 / 404.
+  - 71 Atina demokrasisi: 508/7 / 338.
+  - 72 Çola KUR: c. 850.
+  - Kaynaklar: ağırlıkla OCD; 72 için Sastri *The Cōḻas* ve Devare (ISEAS).
+- **ÇELİŞKİ, 1 uç:** 71 İkinci Atina Birliği KUR.
+  - OCD (Tuplin) kuruluşu 379/8 diye veriyor.
+  - Atlasta künye −0377, kronoloji olayı −0376.
+  - Aynı olay için üç değer var; Cawkwell okunmalı.
+- **ADAY, 4 uç:**
+  - **69 Medya KUR:** OCD 678'i teyit etmiyor, devleti ~612'ye bağlıyor.
+  - **69 Medya YIK:** 550/49 yalnız arama özetinde görüldü.
+  - **73 Vijayanagara KUR ve YIK:** Talbot (ORE Asian History) yalnız "mid-14th" ve "mid-17th century" diyor.
+- **BULUNAMADI, 2 uç:**
+  - **72 Çola YIK:** TDV 1273, HCIP V 1279 diyor; Sastri cilt 2'nin OCR'ı bozuk.
+  - **71 İkinci Atina Birliği YIK (355).**
+- **Gün teyidi yok:**
+  - 68 KUR'un 23 Kasım günü yalnız Livius'ta var.
+  - 68 YIK'nin 12 Ekim günü için OCD «Babylon» açılmadı.
+  - 70 YIK'nin 1 Ağustos günü hiçbir kaynakta çıkmadı.
+- **Künye uyarısı:** *Babylonia: A Very Short Introduction* sayfasında yazar Trevor Bryce göründü; künye doğrulanmalı.
+
+### 8d. Toplam (ikinci tur, 42 satır ya da uç)
+| | R1 | R2 | R3 | Σ |
+|---|---|---|---|---|
+| ÇİFT TEYİT (gün/yıl, kısmî dahil) | 6 + 2 kısmî | 5 + 1 yıl | 9 (yıl) | 23 |
+| ÇELİŞKİ | 4 | 1 | 1 | 6 |
+| ADAY | 4 | 1 | 4 | 9 |
+| BULUNAMADI | 2 | 0 | 2 | 4 |
+| Σ | 18 | 8 | 16 | 42 |
+
+Kısmî satırlar ÇİFT TEYİT altında sayıldı: R1'de D13 (yalnız Santiago) ve D29 (yalnız yıl), R2'de D18 (yalnız yıl). D11'de de yalnız yıl teyitli, ama satır ÇELİŞKİ altında sayıldı.
+
+**Ayrıca:** EMRELİC'in 4 sorusu `EK-lab-sorular.md`de cevaplandı (Georgia, Florida, Çita, Bratislava/Košice).
