@@ -36,6 +36,15 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 663-674 (S25)
+    "L2-1040": "İskender Bey / Karadağ Sancağı 1528 → 1530 adayı [yalnız yıl]: Leksikon crnogorskih dinastija (CANU, Šćekić) «1530'a kadar yönetti, büyük olasılıkla öldü», sancak sonra kaldırıldı; 1528 Pavlović dipnotundan (okunmadı) → Pavlović s.32 ve Đurđev okunmadan uygulanmaz; sınıra bağlı, Değişmez 2 ±30 gün",
+    "L2-1043": "Şimbra Kure 1529-03-09 → 03-10 adayı: Encyclopaedia Aethiopica «Around or perhaps on 10 March 1529» (kaynak tahmin der); EBSCO 7 Mart; TDV vermez → kesin gün yok, atlas 09 Mart da desteksiz",
+    # L2E 1695-1706 (EMRELİC): gün satırları Academia Sinica teyidine kadar
+    "L2-2145": "[çeviri doğrulanmadı] 940-951 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-2152": "[çeviri doğrulanmadı] 940-951 ganzhi günü (Wuyue 947 «12. ayın son günü» 948'e düşebilir) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-2153": "[çeviri doğrulanmadı] 940-951 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-2155": "[çeviri doğrulanmadı] 940-951 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-2156": "[çeviri doğrulanmadı] 940-951 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
     # L2S 651-662 (S24)
     "L2-1023": "Kalikut #3 Vasco da Gama 1498-05-01 (ay başı yer tutucu): CHI V 17 Mayıs demirleme, Jackson/Subrahmanyam (ipucu) 20 Mayıs varış, 28 Mayıs Zamorin görüşmesi; aynı künyede 1498-05-20 tarihli ayrı madde var → yinelenen madde; 17/20 seçimi ve 28 Mayıs ayrı olay kararı",
     "L2-1030": "Câm Nizâmeddin ölümü 1508: Haig CHI III s.501 1439 cülus + 60 yıl (≈1499), kendi tablosu tutarsız; 1508 yalnız Vikipedi türevlerinde; TDV «Sind» vermez → L2-1002 ile birlikte karar",
@@ -172,6 +181,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-2150": ("tarih düzelt", "Güney Tang'ın Min'i yıkması 946 → 945: ZZTJ c.285 Jianzhou Kaiyun 2, 8. ay 丁亥'de alındı; künye L2-2149 zaten 945; Xin Wudai shi notu 946 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
     # L2E 1439-1450 + L2H 1367-1390 (EMRELİC, Academia Sinica)
     "L2-1892": ("tarih düzelt", "Batı Wei Wendi tahta çıkışı 535-01-01 → 535-02-18: Takvim: Datong 1/1/1 戊申 = 535-02-18 (Academia Sinica; Bei shi c.5); Xiaowu'nun ölümü Yongxi 3 閏12 癸巳 = 535-02-03 önce gelir → sıra düzelir"),
     "L2-1893": ("tarih düzelt", "Batı Wei 535-01-01 → 535-02-18: Takvim: Datong 1/1/1 戊申 = 535-02-18 (Academia Sinica); kaynak Zhou shu 3 → Bei shi c.5"),
@@ -403,6 +413,17 @@ METIN = [
     ("L2-1031", "Krişnadevarâya 1509: en erken yazıt 26 Temmuz 1509, taç giyme ~2 hafta sonra (Sastri 1966) → sınıra bağlıysa 1509-07-26 üst sınır, ic_not"),
     # L2E 1563-1574 (EMRELİC)
     ("L2-2016", "«Tang yarımadadan çıkarıldı» kaynağın değil ajanın yorumu → metin yumuşatılır (EMRELİC)"),
+    # L2S 663-674 (S25)
+    ("L2-1041", "Renée: 28 Haziran 1528 nikâh günüdür (Enciclopedia Italiana «Sposò il 28 giugno 1528 Ercole II»), Ferrara'ya geliş değil → «gelin gelmesi» → «evlenmesi»"),
+    ("L2-1042", "Villa del Principe 1529: DBI (Grendi) «ilk inşaat aşaması bitti»; Perino del Vaga 1528-36 çalıştı → «tamamlanması» ve «freskleriyle donatıldı» 1529'a oturmaz"),
+    ("L2-1035", "Ravenna 1512: Treccani «ünlü topçusuyla katıldı / Avrupa'nın en iyisi»; «belirleyici rol» ve toplarla siper yarma anlatısı Treccani'de yok → yumuşatılır"),
+    ("L2-1033", "Caterina Fieschi: DBI'da veba bakımı ve «otuz yıl» yok (1473'ten itibaren; 1489 kadınlar bölümü yönetimi) → ifade düzeltilir"),
+    ("L2-1044", "Bâbür ölümü 1530-12-26 (TDV, hicrî çift kontrol); Hümâyun adına hutbe ve sikke 1530-12-29 (TDV «Hümâyun») → başlık iki olayı birleştiriyor; Hümâyun cülusu ayrı kayıtsa 12-29"),
+    ("L2-1039", "Khanwa 1527-03-16: Bâbür «Cumartesi 13 Cemâziyelâhir 933»; Jülyen 16 Mart 1527 Cumartesi; Beveridge dipnotu 16, ana metin parantezi 17 Mart → iç çelişki ic_not; data/kronoloji_guney_asya.js:361 aynı olay (t 1527-03-16) → yinelenen madde"),
+    ("L2-1036", "Orlando furioso: data/kronoloji_italya.js:789 aynı olay t 1516-01-01 — doğru gün 1516-04-22 (DBI Mazzocchi «uscita in data 22 apr. 1516») → yinelenen madde birleşir, öteki kaydın günü düzelir"),
+    ("L2-1034", "[BEKLE — kaynak okunamadı] Ordenações Manuelinas 1512: basım yürürlük değildir; 1512'de yalnız Kitap I (17 Aralık 1512, arama özeti), beş kitap 1514; Encyclopedia.com «first printing 1514-1521» → «yürürlüğe girdi» desteksiz"),
+    # L2E 1695-1706 (EMRELİC)
+    ("L2-2146", "Liu Bin (Güney Han) 941 → 942: ZZTJ c.283 önceki hükümdar Tianfu 7, 4. ay öldü (EMRELİC; tarih düzelt satırıyla birlikte)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
