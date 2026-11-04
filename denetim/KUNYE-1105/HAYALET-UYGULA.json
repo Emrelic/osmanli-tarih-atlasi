@@ -468,8 +468,19 @@
   "guc": "ORTA",
   "kunye": "fetret-isa f 1403-01-01 → 1402-11-01 [yalnız ay]",
   "gun": "1402-11-01",
-  "islem": "devletler.js fetret-isa f → 1402-11-01 + '[yalnız ay, TDV Kasım 1402]'. İsa Çelebi yerleşimleri (LAB ölçümü: isa-celebi dönemleri 1402-07-28'den, 180 dönem): 1402-07-28 → 1402-10-31 d: osmanli + isg timurlu (Ankara sonrası Timur'un Anadolu'yu tutması); 1402-11-01'den İsa Çelebi. d: değeri D-ANAHTAR kararına bağlı ('isa-celebi' anahtar / 'fetret-isa' id). Değişmez 2: 1402-11-01 maddesi ölçülmeli.",
+  "islem": "devletler.js fetret-isa f → 1402-11-01 + '[yalnız ay, TDV Kasım 1402]'. İsa Çelebi yerleşimleri (LAB ölçümü: isa-celebi dönemleri 1402-07-28'den, 180 dönem): 1402-07-28 → 1402-10-31 d: osmanli + isg timurlu (Ankara sonrası Timur'un Anadolu'yu tutması); 1402-11-01'den İsa Çelebi. d: değeri D-ANAHTAR kararına bağlı ('isa-celebi' anahtar / 'fetret-isa' id). DEĞİŞMEZ 2 — LAB ölçümü origin/main: 1402-11 maddesi YOK → kronoloji_sinir madde önerisi {t:'1402-11-01', devlet:'fetret-isa', taraflar:['timurlu','fetret-isa'], odak_yer:['Bursa'], b:'İsa Çelebi Bursa'da hâkimiyet kurdu [yalnız ay]', kaynak:'TDV İSÂ ÇELEBİ'}.",
   "dayanak": "TDV (İSÂ ÇELEBİ — 'Kasım 1402'; UMIT/EMRELİC gece-36)",
   "onay": "EMRELİC 6 Kasım gece-36"
+ },
+ {
+  "d": "fetret-musa",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "guc": "GÜÇLÜ",
+  "kunye": "fetret-musa f 1411-02-17 → 1410-02-13",
+  "gun": "1410-02-13",
+  "islem": "devletler.js fetret-musa f → 1410-02-13 (Yanbolu, 8 Şevval 812). ic_not_f: '1411-02-17 (22 Şevval 813) Edirne'de hükümdarlık ilanı; 1410-06-15 Kosmidion yenilgisi, Temmuz 1410 ikinci yenilgi'. Edirne–Gelibolu hattı yerleşimleri: musa 1410-02-13 → 1410-06-14, süleyman 1410-06-15 → 1411-02-16, musa 1411-02-17'den. Öteki Rumeli yerleşimleri (mevcut musa-celebi 1410-02-13 başlangıçlı dönemler) 1411-02-17'ye KISALIR; ic_not '1410 Edirne-Gelibolu dışı kaynaksız'. d: değeri D-ANAHTAR kararına bağlı. DEĞİŞMEZ 2 — ölçüm (LAB + LAB PAZAR, origin/main): maddeler VAR — 1410-02-13 olaylar_ek5.js:58 (Yanbolu, Edirne'ye giriş), 1410-06-15 olaylar_ek3.js:17 (Kosmidion), 1411-02-17 olaylar_ek3.js:18 (taht) → yeni madde gerekmez.",
+  "dayanak": "TDV MÛSÂ ÇELEBİ: «Yanbolu'da … büyük başarı kazandı (8 Şevval 812 / 13 Şubat 1410). Edirne'yi aldı, Gelibolu'ya kadar indi» · «15 Haziran 1410'da … Kosmidion'da (Hasköy) yendi» · «hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)»",
+  "onay": "EMRELİC 6 Kasım gece-46"
  }
 ]
