@@ -29,6 +29,16 @@ BEKLET = {
     "L2-341":"Man Adası 1828: dayanak yalnız EB1911 (eski başvuru, en çok KISMEN) → tek başına düzeltme dayanağı değil; akademik kaynak aranacak",
     "L2-144":"Chūzan seikan (17. yy resmî derleme) tek başına KISMEN; modern akademik teyit (CHJ / Kerr, Okinawa) gelene kadar atlas günü kalır",
 }
+# Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
+# Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
+TAKVIM_AS = {
+    "L2-731": "Takvim: Shaoxing 7/11 丁未 = 1138-01-02 (丙午 = 01-01 tahttan indirme, Song shi c.475) (Academia Sinica)",
+    "L2-738": "Takvim: Jishō 4/10/21 庚子 = 1180-11-10 (Academia Sinica)",
+    "L2-740": "Takvim: Yōwa 1/8/15 = 1181-09-25 (8/13 丁巳 = 09-23) (Academia Sinica)",
+    "L2-743": "Takvim: Juei 3/2/7 丙寅 = 1184-03-20 (Academia Sinica)",
+    "L2-745": "Takvim: Genryaku 2/3/24 丁未 = 1185-04-25 (Academia Sinica)",
+    "L2-742": "Takvim: Juei 2/7/25 = 1183-08-14 (Academia Sinica; ganzhi yok, Çin–Japon ay başı eşdeğerliği VARSAYILDI; ay hassasiyetli satır)",
+}
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
     "L2-212": ("ic_not ekle (gün KALIR)", "Vincenzo II: atlas 1627-12-25 kalır; ic_not «25–26 Aralık gecesi (Treccani EI + DBI)»; DBI'dan saat okunursa karar"),
@@ -130,7 +140,9 @@ def main():
                     is_ = "atla (mevcut kaynak akademik; Britannica yerine konmaz)"
                     atla += 1
                 uyum = r.get("uyum", "")
-                if parti == "L2E_373-397" and any(k in (uyum + " " + r.get("okunan_cumle", "")).lower()
+                if no in TAKVIM_AS:
+                    uyum = TAKVIM_AS[no] + " | " + uyum
+                elif parti == "L2E_373-397" and any(k in (uyum + " " + r.get("okunan_cumle", "")).lower()
                                                    for k in ("ganzhi", "jülyen", "julyen", "julian")):
                     uyum = "[çeviri doğrulanmadı — ganzhi→Jülyen ajan hesabı, Academia Sinica toplu teyidi bekliyor] " + uyum
                 if no in DEGISTIR:
