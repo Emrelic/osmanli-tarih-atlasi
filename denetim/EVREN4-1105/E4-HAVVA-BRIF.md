@@ -43,4 +43,12 @@ HAVVA'ya özgü FARKLAR (bunlar ana brifin önündedir):
      1912, 1949) şehrin hangi gün el değiştirdiğini ara, bulamazsan "ÜLKE DÜZEYİ" notuyla yıl düzeyi KAYNAKLI.
    - Norveç: Store norske leksikon (snl.no); İskandinavya için Svenskt biografiskt lexikon, Dansk biografisk.
 6. Takvim: Çin/Japon/Kore/Vietnam ay-güneş günlerini ÇEVİRME; ifadeyi `not`a aynen yaz.
+6b. 🔴 YENİ KURAL (EMRELİC, 5 Kasım 01:05): KAYNAKLI hükmünün `alinti`sı sayfanın HAM metninden
+   (`sayfa.py oku`) gelmeli. WebFetch'in özetinden gelen alıntıyla KAYNAKLI verdiysen `not`a
+   "[alıntı özetten]" yaz. Mümkünse alıntıyı sayfa.py ile yeniden oku ve bu notu kaldır.
+6c. 🔴 YENİ KURAL (EMRELİC, 5 Kasım 01:25) — HANGİ UÇ: her satıra `"uc": "f" | "t" | "f+t"` alanı ekle:
+   alıntının tarihlediği uç. KAYNAKLI yalnız alıntı satırın KENDİ ucunu (o dönemin f'sini ya da t'sini)
+   ve o olayı tarihliyorsa verilir. Alıntı başka bir ucu ya da başka bir olayı tarihliyorsa (ör. komşu
+   dönemin ucu, kuşatma başı, ülke düzeyinde farklı olay) hüküm ONERI olur; `not`a hangi ucu tarihlediğini yaz.
+   İki uç da kaynaklıysa `"uc": "f+t"`; yalnız biri kaynaklıysa öteki uç için `not`a "öteki uç teyitsiz" yaz.
 7. Bitince kısa özet: yerleşim sayısı, KAYNAKLI / ONERI / BULUNAMADI / BAKILMADI sayıları, öne çıkan ONERI'ler.

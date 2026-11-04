@@ -1,0 +1,75 @@
+{
+ "Bû Sa'âde": [
+  {"sira": 944, "dosya_satir": "", "alan": "s", "d": "abdulkadir", "f": "1832-11-22", "t": "1844-03-04", "uc": "f",
+   "hukum": "BULUNAMADI", "kaynak": "TDV, ABDÜLKĀDİR el-CEZÂİRÎ, https://islamansiklopedisi.org.tr/abdulkadir-el-cezairi ; TDV, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir", "alinti": "Abdülkādir ... 22 Kasım 1832’de “emîrü’l-mü’minîn” unvanını aldı", "oneri": {},
+   "not": "Alıntı devletin kuruluş gününü verir (ÜLKE DÜZEYİ), Bû Sa'âde'nin Emîr'e bağlandığını tarihlemez; iki TDV maddesinde (sayfa.py ham metin) Bû Sa'âde/Bou Saada geçmez, t=1844-03-04 de bulunmadı (TDV: 14 Ağustos 1844 Isly, 10 Eylül 1844 Tanca/Ekim 1844, teslim 23 Aralık 1847). Zayıf ipucu: popüler yerel tarih sitesi (alger-roi) ve WebSearch özeti kasabanın bu devirde Kostantîne beyine bağlandığını söyler -> Emîr sahipliği şüpheli, ama kaynak yasak sınıfta, hüküm kurulmadı. Bakılan: TDV cezayir + abdulkadir-el-cezairi, alger-roi PDF (metin çıkmadı), WebSearch. Bakılmayan: Julien/Mercier, Ageron, EI2 'Bū Saʿāda'."},
+  {"sira": 946, "dosya_satir": "", "alan": "d", "d": "", "f": "1552-01-01", "t": "1671-01-01", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir (ham metin okundu)", "alinti": "", "oneri": {},
+   "not": "TDV Cezayir eyalet düzeyini verir (beylerbeyleri 1518-1587, paşalar 1587-1659, ağalar 1659-1671, dayılar 1671-1830; ÜLKE DÜZEYİ) ama Bû Sa'âde'yi anmaz; TDV'de Bû Sa'âde'ye ait Osmanlı idaresi tarihi yok. Titteri beyliği (1546, Medea) yalnız ikincil/Vikipedi özetinde; ABİ MERKEZ adayı Medea (Titteri) ama kaynak yasak sınıfta. d alanı boş (Osmanlı dönemi d: değeri verilmemiş). 1552 ve 1671 uçlarının dayanağı bulunamadı."}
+ ],
+ "Halâib": [
+  {"sira": 949, "dosya_satir": "", "alan": "s", "d": "habesistan", "f": "1517-04-13", "t": "1557-01-01", "uc": "t",
+   "hukum": "ONERI", "kaynak": "TDV, HABEŞ EYALETİ, https://islamansiklopedisi.org.tr/habes-eyaleti ; TDV, SUDAN, https://islamansiklopedisi.org.tr/sudan", "alinti": "Habeş beylerbeyiliğine getirildi (15 Şâban 962 / 5 Temmuz 1555)", "oneri": {"d": "osmanli", "f": "1554-04-10", "t": "1557-01-01"},
+   "not": "ABİ MERKEZ: Sevâkin (Halâib'e özgü tanıklık yok). 'habesistan' künyesi Habeşistan İmparatorluğu'dur (devletler.js:1975, Hıristiyan Habeş krallığı); TDV Habeş eyaleti Osmanlı eyaletidir ve Sevâkin sancağı 10 Nisan 1554'te Mısır'a bağlanmış (Abdülbâki Bey tayini), eyalet 5 Temmuz 1555'te kuruldu; TDV Sudan 'Func Sultanlığı sınırları içinde Sevâkin sancağı kurup Mısır'a bağladı' der. Halâib'in 1517-1554 arası sahibi bulunamadı (Bece/Func bölgesi); 1517-04-13 ucu TDV'de yok. Bölünme gerekebilir. Sevâkin merkezli ONERI Halâib için yaklaşıklıktır -> BEYANLI YAKLAŞIKLIK. t=1557 teyitsiz (1557 Masavva alımı). Alıntı 1555 olayını tarihler, satırın t'sini değil."},
+  {"sira": 950, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1885-02-05", "t": "1923-10-29", "uc": "f",
+   "hukum": "ONERI", "kaynak": "TDV, SUDAN, https://islamansiklopedisi.org.tr/sudan (ham metin)", "alinti": "19 Ocak 1899’da ... “condominium” ... adı verilen yeni bir idare başlattı", "oneri": {"d": "ingiliz-sudani", "f": "1899-01-19"},
+   "not": "TDV: 26 Ocak 1885'te Hartum Mehdî'ye geçti, Mehdî devleti 1899'a dek sürdü; Sudan'ın kontrolü fiilen İngiltere'ye 19 Ocak 1899 antlaşmasıyla geçti. 1885-02-05 -> 1899 arası İngiltere sahipliği TDV'de yok. 'ingiliz-sudani' künyesi var (devletler.js:9490, f 1899-01-19). Halâib'e özgü tanıklık yok (ÜLKE/SUDAN DÜZEYİ); Halâib'in 1899-1902 arası Mısır idaresinde kalıp kalmadığı bakılmadı. 1885-1899 aralığı için Mehdî devleti ya da Sevâkin (Mısır idaresi) olasılığı ayrı incelenmeli. t=1923-10-29 teyitsiz."},
+  {"sira": 951, "dosya_satir": "", "alan": "s", "d": "misir-kralligi", "f": "1923-10-29", "t": "1953-06-18", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV, SUDAN, https://islamansiklopedisi.org.tr/sudan", "alinti": "", "oneri": {},
+   "not": "TDV Sudan condominium'un 1956'ya dek sürdüğünü söyler; Halâib'in 1923-1953 arası hangi idareye bağlı olduğu (Mısır Krallığı mı Anglo-Mısır Sudanı mı) TDV Sudan ve TDV Habeş eyaletinde yok. Misir-kralligi künyesi f 1922-03-15 (künye f'den sonra dönem başlıyor, hayalet sorunu yok). Mısır-Sudan idarî sınırı (1899/1902) kaynağı bu turda bulunamadı. Bakılmayan: Handbook of the Anglo-Egyptian Sudan 1922 (archive.org handbkangloegyptiansudan; ia-ara ile kimlik bulundu, ia-oku yapılmadı)."},
+  {"sira": 953, "dosya_satir": "", "alan": "d", "d": "", "f": "1557-01-01", "t": "1885-02-05", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV, HABEŞ EYALETİ, https://islamansiklopedisi.org.tr/habes-eyaleti ; TDV, SUDAN", "alinti": "Masavva‘ ve Sevâkin’in yönetimi 1865’te Mısır Hidivi İsmâil Paşa’ya verildi", "oneri": {},
+   "not": "ABİ MERKEZ Sevâkin: Habeş eyaleti Sevâkin'den yönetildi, 1846 sâlyâne Mehmed Ali'ye, 1849'da Hicaz valisine, 1865'te Mısır hidivine (alıntı bu 1865 olayını tarihler, satırın ne f ne t ucunu; dönemin 1865'te v: Mısır'a bölünmesi gerekebilir). Halâib'e özgü tanıklık yok; d alanı boş. t=1885-02-05 TDV'de yok (Sudan 1885 Ocak'ta Mehdî'de). Bu dilim Osmanlı/Mısır tâbi katmanı için öneri: d: osmanli, 1865'ten v: mısır (Halâib özelinde teyitsiz)."}
+ ],
+ "Cîcîga": [
+  {"sira": 957, "dosya_satir": "", "alan": "s", "d": "habesistan", "f": "1887-01-06", "t": "1936-06-01", "uc": "f",
+   "hukum": "ONERI", "kaynak": "TDV, HARAR, https://islamansiklopedisi.org.tr/harar (ham metin, sayfa.py)", "alinti": "Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşler’i Şeleneko’da karşıladı", "oneri": {"f": "1887-01-01"},
+   "not": "ABİ MERKEZ: Harar (TDV: Jijiga Harar eyaletinin başlıca şehri; Harar Emirliği 1887'de Habeşler'ce işgal edildi, Kasım 1886 yürüyüş). Alıntı Şeleneko (Çelenko) muharebesini 7 Ocak 1887 verir (atlas 1887-01-06 ile 1 gün fark; TDV esas) — bu savaş günü bölge düzeyidir, Cîcîga'nın fiilî devir günü değil (Fetret emsali) -> YIL düzeyi önerildi, Cîcîga'ya özgü gün yok. Cîcîga'nın bu tarihte Harar'a bağlı olup olmadığı TDV'de açık değil. t=1936-06-01: TDV Harar 'Harar 1936-1941 İtalyan işgali' yıl düzeyi; 1936-06-01 İtalyan Doğu Afrikası birleşme tarihi (atlas künye), teyit edilmedi. Öteki uç teyitsiz. İtalyan işgali ise ayrı isg: katmanı olmalı (TEK KURAL)."}
+ ],
+ "Tacûra": [
+  {"sira": 962, "dosya_satir": "", "alan": "s", "d": "fransa-cumhuriyet", "f": "1884-01-01", "t": "1977-06-27", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "TDV, CİBUTİ, https://islamansiklopedisi.org.tr/cibuti (ham metin, sayfa.py)", "alinti": "27 Haziran 1977’de Cibuti Cumhuriyeti adıyla bağımsızlığını kazandı", "oneri": {},
+   "not": "ÜLKE DÜZEYİ: t ucu (1977-06-27) KAYNAKLI. f ucu: TDV Cibuti 'bölgeyi kendi himayesine aldı (1884)' (YIL; gün yok) fakat TDV SOMALİ 'Zeyla‘, Berberâ ve Tâcûre aynı yıl İngilizler tarafından Somaliland adıyla sömürgeleştirildi' der -> ÇİFT-TDV ÇELİŞKİSİ: Tâcûre için kendi şehir maddesi yok (arama sayfasında yalnız anma), üçüncü bağımsız akademik kaynak bu turda bulunamadı; karar verilmedi. Öteki uç (f) teyitsiz. Ayrıca Fransız hâkimiyeti 1862'de Ubûk antlaşmasıyla başlar (11 Mart 1862, Tâcûre Sultanı Ahmed Ebû Bekir) — dönemin Tâcûre için 1884'ten önce başlaması gerekebilir, teyitsiz."},
+  {"sira": 964, "dosya_satir": "", "alan": "s", "d": "cibuti", "f": "1977-06-27", "t": "2000-12-31", "uc": "f",
+   "hukum": "KAYNAKLI", "kaynak": "TDV, CİBUTİ, https://islamansiklopedisi.org.tr/cibuti (ham metin, sayfa.py)", "alinti": "27 Haziran 1977’de Cibuti Cumhuriyeti adıyla bağımsızlığını kazandı", "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f ucu kaynaklı. t=2000-12-31 pencere ucu, ölçüm değil — öteki uç teyitsiz."}
+ ],
+ "Baydoa": [
+  {"sira": 965, "dosya_satir": "", "alan": "s", "d": "italya", "f": "1905-01-01", "t": "1936-06-01", "uc": "f",
+   "hukum": "ONERI", "kaynak": "devletler.js:18576 italyan-somali künyesi (f 1905-03-19; künye kaynağı Vikipedi/ikincil — dayanak değil)", "alinti": "", "oneri": {"f": "1905-03-19"},
+   "not": "TDV SOMALİ ham metinde Baydoa/Beyâdo yok; 1905 olarak yalnız 'İngiltere 1905 yılında Somaliland'ı Aden’deki sömürgesiyle birleştirdi' geçer (İtalya değil). Dönem f=1905-01-01 künye f'sinden (1905-03-19) önce -> hayalet devlet; künye gününe çekmek önerilir ama künye f'nin kendisi akademik kaynakla teyitsiz. Baydoa iç bölge: İtalyan idaresinin Baydoa'ya fiilen ne zaman geldiği bulunamadı. Öteki uç (t) teyitsiz; İtalyan Doğu Afrikası 1936."},
+  {"sira": 966, "dosya_satir": "", "alan": "s", "d": "somali", "f": "1281-01-01", "t": "1905-01-01", "uc": "f",
+   "hukum": "ONERI", "kaynak": "devletler.js:2901 somali künyesi (f 1500-01-01, t 1927-01-01); TDV SOMALİ, https://islamansiklopedisi.org.tr/somali", "alinti": "", "oneri": {"f": "1500-01-01"},
+   "not": "Dönem f=1281 künye f'sinden (1500-01-01) önce -> hayalet devlet (künye gününe kısalt, 1281-1500 arası Baydoa sahibi ayrıca aranmalı). TDV Somali Baydoa için dönem vermez (Baytabo/Baidoa yalnız şehir listesinde). t=1905-01-01 teyitsiz. Baydoa-özel tanıklık yok."},
+  {"sira": 967, "dosya_satir": "", "alan": "s", "d": "somali-ingiliz-askeri-idaresi", "f": "1941-02-25", "t": "1950-04-01", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "TDV, SOMALİ, https://islamansiklopedisi.org.tr/somali (ham metin, sayfa.py)", "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi", "oneri": {},
+   "not": "ÜLKE DÜZEYİ: BM kararının (Kasım 1949 ilanı, on yıl İtalya idaresi) uygulamaya girdiği 1 Nisan 1950 -> t ucu. Alıntı 'ad verilmesi'ni de içerir; vesayet devri olarak okunması yorumdur, beyan edilir. f=1941-02-25 (Mogadişu'nun alınması) TDV'de yok — öteki uç teyitsiz."},
+  {"sira": 969, "dosya_satir": "", "alan": "s", "d": "somali-italyan-vesayet", "f": "1950-04-01", "t": "1960-07-01", "uc": "f+t",
+   "hukum": "KAYNAKLI", "kaynak": "TDV, SOMALİ, https://islamansiklopedisi.org.tr/somali (ham metin, sayfa.py)", "alinti": "Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)", "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f: 'Kasım 1949’da ... on yıl İtalya idaresinde kaldıktan sonra bağımsız olacağını ilân etti. 1 Nisan 1950’de uygulamaya konulan karar' ; t: 1 Temmuz 1960 bağımsızlık. Baydoa İtalyan Somalisi tarafındadır (TDV: Baytabo/Baidoa Somali şehirleri); Baydoa'ya özgü satır yok."}
+ ],
+ "Burao": [
+  {"sira": 970, "dosya_satir": "", "alan": "s", "d": "somali", "f": "1577-01-01", "t": "1884-07-18", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV, SOMALİ, https://islamansiklopedisi.org.tr/somali (ham metin)", "alinti": "", "oneri": {},
+   "not": "TDV Somali'de Burao (Bûrâv geçen tek yer: Bûrâv = Burco 151.000 nüfus, şehir listesi) tarihi yok; 1577 ve 1884-07-18 uçları bulunamadı. TDV 'Zeyla‘, Berberâ ve Tâcûre aynı yıl İngilizler Somaliland adıyla sömürgeleştirildi' der — Burao iç bölge. Burao'nun 1577'de var olup olmadığı (rule ④) sorgulanmadı: BAKILMADI'ya yakın; yalnız TDV Somali tarandı. Bakılmayan: Hunt/Lewis Somali tarihi, IA 'Somaliland' ciltleri."},
+  {"sira": 971, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1884-07-18", "t": "1960-06-26", "uc": "f+t",
+   "hukum": "ONERI", "kaynak": "TDV, SOMALİ, https://islamansiklopedisi.org.tr/somali ; devletler.js:14672 somali-ingiliz-himayesi künyesi", "alinti": "Zeyla‘, Berberâ ve Tâcûre aynı yıl İngilizler tarafından Somaliland adıyla sömürgeleştirildi", "oneri": {"d": "somali-ingiliz-himayesi", "f": "1884-01-01", "t": "1960-06-26"},
+   "not": "d önerisi: atlasta İngiliz Somalilandı Himayesi künyesi var (f 1884-01-01, t 1960-06-26; künye f yıl düzeyi, kendi ic_not'u TDV 1883/84 çelişkisini beyan ediyor). TDV Somali kıyı şehirlerini (Zeyla, Berbera, Tâcûre) anar, Burao'yu değil -> ABİ MERKEZ Berbera; 1884-07-18 gün ucu TDV'de yok, t=1960-06-26 TDV'de yok (TDV yalnız 1 Temmuz 1960 birleşme). Bölünme gerekmez; d değişimi (ingiltere -> himaye künyesi) ve gün ucları teyitsiz."},
+  {"sira": 973, "dosya_satir": "", "alan": "s", "d": "somaliland-1960", "f": "1960-06-26", "t": "1960-07-01", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "TDV, SOMALİ, https://islamansiklopedisi.org.tr/somali (ham metin, sayfa.py)", "alinti": "Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)", "oneri": {},
+   "not": "ÜLKE DÜZEYİ: t ucu (1960-07-01) birleşme/bağımsızlık günü TDV'de. f=1960-06-26 TDV'de yok — öteki uç teyitsiz (künye kaynağı dış: Office of the Historian, bu turda okunmadı)."},
+  {"sira": 975, "dosya_satir": "", "alan": "s", "d": "somaliland-cumhuriyeti", "f": "1991-05-18", "t": "2000-12-31", "uc": "f",
+   "hukum": "ONERI", "kaynak": "TDV, SOMALİ, https://islamansiklopedisi.org.tr/somali (ham metin, sayfa.py)", "alinti": "28 Mayıs 1991’de bağımsızlığını ilân etti", "oneri": {"f": "1991-05-28"},
+   "not": "TDV Somali: Muhammed İbrâhim Egāl Somaliland bölgesinde '28 Mayıs 1991’de bağımsızlığını ilân etti' (uluslararası tanınmadı). Atlas 1991-05-18 (Burao konferansı günü olarak bilinir, bu oturumda akademik kaynakla okunmadı). TDV esas kuralı: 28 Mayıs; 18 Mayıs ic_not'ta beyan edilmeli, çift teyit yok. Sovyet-ardılı kuralı değil ama bağımsızlık ilanı günü ilkesi. t=2000-12-31 pencere ucu — öteki uç teyitsiz."}
+ ],
+ "Debbe": [
+  {"sira": 979, "dosya_satir": "", "alan": "v", "d": "", "f": "1821-01-04", "t": "1885-01-26", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV, SUDAN, https://islamansiklopedisi.org.tr/sudan (ham metin, sayfa.py)", "alinti": "26 Ocak 1885’te Hartum’a giren ... Muhammed Ahmed el-Mehdî", "oneri": {},
+   "not": "ABİ MERKEZ Dongola (Debbe Dongola müdürlüğü): TDV Sudan çelişkili: 'Func ve Dongola ... 1820’de ... Mehmed Ali Paşa tarafından ilhakına kadar' (1820) ve 'Sudan’ı 1821-1882 yılları arasında ... ele geçirdiler' (Func sultanı Haziran 1821) -> f=1821-01-04 gün ucu yok; yıl 1820/1821 arası belirsiz (iki TDV ifadesi aynı madde içinde). t: alıntı Hartum'un 26 Ocak 1885 düşüşünü ve Mehdî'nin Dongola dahil hâkimiyetini tarihler, Debbe'nin düştüğü günü değil (başka olay) -> KAYNAKLI değil. d alanı boş (v: tâbi devlet adı yazılmamış). Bakılmayan: Hill, Biographical Dictionary of the Sudan; Shuqayr."}
+ ],
+ "Merevî": [
+  {"sira": 983, "dosya_satir": "", "alan": "v", "d": "", "f": "1821-01-04", "t": "1885-01-26", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV, SUDAN, https://islamansiklopedisi.org.tr/sudan (ham metin, sayfa.py)", "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı", "oneri": {},
+   "not": "ABİ MERKEZ Berber/Şendi (Merevî, Şayqiyye bölgesi; Dongola ile Berber arası) — TDV Sudan Merevî'yi anmaz. f: 1821 Haziran Func teslimi Sennâr olayıdır (başka olay, yıl düzeyi 1821 uyumlu); Merevî'ye özgü gün yok, 1820 ilhak ifadesi de TDV'de var (iç çelişki). t: 26 Ocak 1885 Hartum düşüşüdür, Merevî'nin değil. d alanı boş."}
+ ]
+}

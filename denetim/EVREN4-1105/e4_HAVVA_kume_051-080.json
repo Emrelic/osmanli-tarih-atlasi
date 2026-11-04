@@ -1,0 +1,5084 @@
+{
+ "Aynaroz (Athos)": [
+  {
+   "sira": 554,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1424-01-01",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, AYNAROZ, https://islamansiklopedisi.org.tr/aynaroz",
+   "alinti": "1430’da Selânik Türkler tarafından fethedilince Aynaroz da Osmanlı idaresine geçti",
+   "oneri": {
+    "t": "1430"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 51. t ucu: TDV AYNAROZ Osmanlı idaresine geçişi 1430 (Selânik fethi, YIL) verir; atlas 1424-01-01. f teyitsiz."
+  }
+ ],
+ "İleryoz (Leros)": [
+  {
+   "sira": 586,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1310-08-15",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. t=1310-08-15 (Leros/Tilos): TDV'de madde slug'ı açılmadı (ileriyoz); TDV RODOS yalnız Rodos adası 1309. Baktığım: TDV RODOS, TDV ileriyoz (açılmadı)."
+  }
+ ],
+ "İlyaki (Tilos)": [
+  {
+   "sira": 591,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1310-08-15",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. t=1310-08-15 (Leros/Tilos): TDV'de madde slug'ı açılmadı (ileriyoz); TDV RODOS yalnız Rodos adası 1309. Baktığım: TDV RODOS, TDV ileriyoz (açılmadı)."
+  }
+ ],
+ "Bozbaba (Ay Strati)": [
+  {
+   "sira": 599,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1453-05-29",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. Bu küme için kaynak aranmadı: Devrek 1309, Saroz 1357, Rezve 1369, Bozbaba/Çatalca 1453-05-29 (TDV istanbul-fetih slug'ı açılmadı)."
+  }
+ ],
+ "Lindos": [
+  {
+   "sira": 643,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1310-08-15",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RODOS, https://islamansiklopedisi.org.tr/rodos",
+   "alinti": "Rodos adası 1309’da Saint Jean şövalyelerinin (Hospitalier/İsbitâriyye) eline geçişine",
+   "oneri": {
+    "t": "1309"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 51. t ucu: TDV RODOS Rodos'un Saint Jean şövalyelerine geçişini 1309 (YIL) verir; atlas 1310-08-15. Gün yok. Lindos adanın bir parçasıdır, yerleşime özgü tanık okunmadı. f=1281 pencere başı, teyitsiz."
+  }
+ ],
+ "Devrek": [
+  {
+   "sira": 666,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1309-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. Bu küme için kaynak aranmadı: Devrek 1309, Saroz 1357, Rezve 1369, Bozbaba/Çatalca 1453-05-29 (TDV istanbul-fetih slug'ı açılmadı)."
+  }
+ ],
+ "Saroz kuzey kıyısı": [
+  {
+   "sira": 1515,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1357-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. Bu küme için kaynak aranmadı: Devrek 1309, Saroz 1357, Rezve 1369, Bozbaba/Çatalca 1453-05-29 (TDV istanbul-fetih slug'ı açılmadı)."
+  }
+ ],
+ "Rezve (Rezovo)": [
+  {
+   "sira": 1525,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1369-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. Bu küme için kaynak aranmadı: Devrek 1309, Saroz 1357, Rezve 1369, Bozbaba/Çatalca 1453-05-29 (TDV istanbul-fetih slug'ı açılmadı)."
+  }
+ ],
+ "Aydonat (Paramythia)": [
+  {
+   "sira": 1612,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1430-10-09",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. t=1430-10-09: TDV YANYA Yanya'nın Ekim 1430'da Sinan Paşa'ya teslimini verir (Sphrantzes) — gün yok ve bu başka yerin olayıdır. İSTİSNA ADAYI: bu kıyı yerleşimleri 1430'da Bizans değil Epiros Despotluğu/Tocco idaresindeydi (TDV YANYA: Epiros Despotluğu 1430'a kadar bağımsız). Baktığım: TDV YANYA."
+  }
+ ],
+ "Margiliç (Margariti)": [
+  {
+   "sira": 1616,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1430-10-09",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. t=1430-10-09: TDV YANYA Yanya'nın Ekim 1430'da Sinan Paşa'ya teslimini verir (Sphrantzes) — gün yok ve bu başka yerin olayıdır. İSTİSNA ADAYI: bu kıyı yerleşimleri 1430'da Bizans değil Epiros Despotluğu/Tocco idaresindeydi (TDV YANYA: Epiros Despotluğu 1430'a kadar bağımsız). Baktığım: TDV YANYA."
+  }
+ ],
+ "İgumenitsa (Gomenice)": [
+  {
+   "sira": 1624,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1430-10-09",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. t=1430-10-09: TDV YANYA Yanya'nın Ekim 1430'da Sinan Paşa'ya teslimini verir (Sphrantzes) — gün yok ve bu başka yerin olayıdır. İSTİSNA ADAYI: bu kıyı yerleşimleri 1430'da Bizans değil Epiros Despotluğu/Tocco idaresindeydi (TDV YANYA: Epiros Despotluğu 1430'a kadar bağımsız). Baktığım: TDV YANYA."
+  }
+ ],
+ "Çatalca": [
+  {
+   "sira": 1627,
+   "kume": 51,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1453-05-29",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 51. Bu küme için kaynak aranmadı: Devrek 1309, Saroz 1357, Rezve 1369, Bozbaba/Çatalca 1453-05-29 (TDV istanbul-fetih slug'ı açılmadı)."
+  }
+ ],
+ "North West River (Labrador)": [
+  {
+   "sira": 2554,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1855-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t=1855-01-01: TDV KANADA yalnız 1867 yasasını verir (1873 PEI, 1870 Rupert's Land, 1855 Newfoundland-Labrador YOK). Baktığım: TDV KANADA. İSTİSNA ADAYI (North West River, Labrador): Newfoundland kolonisine aitti, Kanada'ya katılmadı."
+  }
+ ],
+ "Nemiscau": [
+  {
+   "sira": 2564,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1870-07-15",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t=1870-07-15: TDV KANADA yalnız 1867 yasasını verir (1873 PEI, 1870 Rupert's Land, 1855 Newfoundland-Labrador YOK). Baktığım: TDV KANADA. İSTİSNA ADAYI (North West River, Labrador): Newfoundland kolonisine aitti, Kanada'ya katılmadı."
+  }
+ ],
+ "Mingan": [
+  {
+   "sira": 2573,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Fort Nipigon": [
+  {
+   "sira": 2580,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Chicoutimi": [
+  {
+   "sira": 2585,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Michipicoten": [
+  {
+   "sira": 2588,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Madawaska (Maliseet)": [
+  {
+   "sira": 2591,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Louisbourg": [
+  {
+   "sira": 2597,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Saint John (NB)": [
+  {
+   "sira": 2600,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Ossossané": [
+  {
+   "sira": 2603,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Quebec": [
+  {
+   "sira": 3417,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1867-07-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KANADA, https://islamansiklopedisi.org.tr/kanada",
+   "alinti": "1867 yılında çıkarılan Kanada yasası çeşitli kolonilerin üye olduğu konfederatif bir yapı öngörüyordu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t ucu YIL KAYNAKLI: TDV KANADA Konfederasyon yasası 1867; gün (1 Temmuz) TDV'de YOK [yalnız yıl teyitli]. f=1763-02-10 teyitsiz. Quebec/New Brunswick/Nova Scotia/Ontario kurucu üyeler (genel bilgi, okunmadı)."
+  }
+ ],
+ "Port-la-Joye (Charlottetown)": [
+  {
+   "sira": 3810,
+   "kume": 52,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1763-02-10",
+   "t": "1873-07-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 52. t=1873-07-01: TDV KANADA yalnız 1867 yasasını verir (1873 PEI, 1870 Rupert's Land, 1855 Newfoundland-Labrador YOK). Baktığım: TDV KANADA. İSTİSNA ADAYI (North West River, Labrador): Newfoundland kolonisine aitti, Kanada'ya katılmadı."
+  }
+ ],
+ "Iglulik": [
+  {
+   "sira": 3743,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Sanirajak (Hall Beach)": [
+  {
+   "sira": 3746,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Kugluktuk (Coppermine)": [
+  {
+   "sira": 3750,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Qikiqtarjuaq (Broughton Adası)": [
+  {
+   "sira": 3752,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Kinngait (Cape Dorset)": [
+  {
+   "sira": 3765,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Igluligaarjuk (Chesterfield Inlet)": [
+  {
+   "sira": 3769,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Kimmirut (Lake Harbour)": [
+  {
+   "sira": 3771,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Salluit (Sugluk)": [
+  {
+   "sira": 3773,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Ennadai (Ihalmiut, Karayer İnuit)": [
+  {
+   "sira": 3777,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Puvirnituq": [
+  {
+   "sira": 3780,
+   "kume": 74,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1880-09-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 74. f=1880-09-01 (Arktik adaların Kanada'ya devri): TDV KANADA'da 1880 YOK. Baktığım: TDV KANADA. Kanada Arktik Adaları devri kaynağı (Canadian Encyclopedia/LAC) aranmadı. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Sambalpur": [
+  {
+   "sira": 379,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1797-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Luang Prabang": [
+  {
+   "sira": 1370,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1353-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Savannakhet": [
+  {
+   "sira": 2162,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1353-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Tawau kıyısı (bölge)": [
+  {
+   "sira": 2918,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1878-01-22",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Ston": [
+  {
+   "sira": 2951,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1333-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Coweta (Creek/Mvskoke Konfederasyonu — Aşağı Kasabalar merkezi)": [
+  {
+   "sira": 3413,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1701-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Tsiroanomandidy": [
+  {
+   "sira": 4117,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1401-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Fomboni (Mohéli)": [
+  {
+   "sira": 4283,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1886-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Shunning (Fengqing)": [
+  {
+   "sira": 4292,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1327-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  },
+  {
+   "sira": 4294,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1382-04-14",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Labuan (Victoria)": [
+  {
+   "sira": 4334,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1368-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Nabil kıyısı (bölge)": [
+  {
+   "sira": 4371,
+   "kume": 53,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1875-05-07",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 53. Bu küme için kaynak aranmadı: __BOSLUK__ boşluk doldurma merdiveni uygulanmadı (her yerleşim ayrı soruşturma ister)."
+  }
+ ],
+ "Şerşel (Cherchell)": [
+  {
+   "sira": 558,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1519-09-01 (Zeyyânî sahipliğinin sonu): TDV ZEYYÂNÎLER hânedanı 1235-1550 verir, TDV TİLİMSÂN Zeyyânî hâkimiyetinin sonunu 960 (1553) verir, TDV CEZAYİR Hızır Reis'in Ekim 1519 arîzasını verir; 1519-09-01 gününü yerleşim için tarihleyen kaynak YOK. İSTİSNA ADAYI (Zeyyânî sahipliği): Setif/Guelma/Batna/Akbû doğuda Hafsî/Cezayir alanıdır, Zeyyânî değil (kaynak okunmadı). Baktığım: TDV CEZAYİR, ZEYYÂNÎLER, TİLİMSÂN."
+  },
+  {
+   "sira": 560,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  }
+ ],
+ "Setif": [
+  {
+   "sira": 561,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1519-09-01 (Zeyyânî sahipliğinin sonu): TDV ZEYYÂNÎLER hânedanı 1235-1550 verir, TDV TİLİMSÂN Zeyyânî hâkimiyetinin sonunu 960 (1553) verir, TDV CEZAYİR Hızır Reis'in Ekim 1519 arîzasını verir; 1519-09-01 gününü yerleşim için tarihleyen kaynak YOK. İSTİSNA ADAYI (Zeyyânî sahipliği): Setif/Guelma/Batna/Akbû doğuda Hafsî/Cezayir alanıdır, Zeyyânî değil (kaynak okunmadı). Baktığım: TDV CEZAYİR, ZEYYÂNÎLER, TİLİMSÂN."
+  },
+  {
+   "sira": 563,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 564,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1838-10-13",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1838-10-13 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR. HATA ADAYI: t=1838-10-13, TDV CEZAYİR Kostantîne'nin düşüşünü 13 Ekim 1837 verir; atlas günü bir yıl sonra (yazım hatası adayı), Kalme/Guelma 1837-10-13."
+  }
+ ],
+ "Mustagānim": [
+  {
+   "sira": 940,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1552-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1552-01-01: TDV TİLİMSÂN: Zeyyânî hâkimiyeti 960 (1553)'te kesin sona erdi (hicrî 960 = 1552-12 / 1553-11), yer-düzeyinde değil hânedan düzeyinde; bu yerleşimin geçişi tarihlenmedi. Baktığım: TDV TİLİMSÂN, CEZAYİR."
+  },
+  {
+   "sira": 942,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 943,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1832-11-22",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1832-11-22 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR."
+  }
+ ],
+ "Bû Sa'âde": [
+  {
+   "sira": 945,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1552-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1552-01-01: TDV TİLİMSÂN: Zeyyânî hâkimiyeti 960 (1553)'te kesin sona erdi (hicrî 960 = 1552-12 / 1553-11), yer-düzeyinde değil hânedan düzeyinde; bu yerleşimin geçişi tarihlenmedi. Baktığım: TDV TİLİMSÂN, CEZAYİR."
+  },
+  {
+   "sira": 947,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 948,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1832-11-22",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1832-11-22 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR."
+  }
+ ],
+ "Akbû (Benî Abbâs)": [
+  {
+   "sira": 2088,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1519-09-01 (Zeyyânî sahipliğinin sonu): TDV ZEYYÂNÎLER hânedanı 1235-1550 verir, TDV TİLİMSÂN Zeyyânî hâkimiyetinin sonunu 960 (1553) verir, TDV CEZAYİR Hızır Reis'in Ekim 1519 arîzasını verir; 1519-09-01 gününü yerleşim için tarihleyen kaynak YOK. İSTİSNA ADAYI (Zeyyânî sahipliği): Setif/Guelma/Batna/Akbû doğuda Hafsî/Cezayir alanıdır, Zeyyânî değil (kaynak okunmadı). Baktığım: TDV CEZAYİR, ZEYYÂNÎLER, TİLİMSÂN."
+  },
+  {
+   "sira": 2090,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 2091,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1857-07-11",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1857-07-11 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR."
+  }
+ ],
+ "Vargla (Ouargla)": [
+  {
+   "sira": 2092,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1552-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1552-01-01: TDV TİLİMSÂN: Zeyyânî hâkimiyeti 960 (1553)'te kesin sona erdi (hicrî 960 = 1552-12 / 1553-11), yer-düzeyinde değil hânedan düzeyinde; bu yerleşimin geçişi tarihlenmedi. Baktığım: TDV TİLİMSÂN, CEZAYİR."
+  },
+  {
+   "sira": 2094,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 2095,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1854-11-23",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1854-11-23 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR."
+  }
+ ],
+ "Aynı Beydâ": [
+  {
+   "sira": 2096,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1519-09-01 (Zeyyânî sahipliğinin sonu): TDV ZEYYÂNÎLER hânedanı 1235-1550 verir, TDV TİLİMSÂN Zeyyânî hâkimiyetinin sonunu 960 (1553) verir, TDV CEZAYİR Hızır Reis'in Ekim 1519 arîzasını verir; 1519-09-01 gününü yerleşim için tarihleyen kaynak YOK. İSTİSNA ADAYI (Zeyyânî sahipliği): Setif/Guelma/Batna/Akbû doğuda Hafsî/Cezayir alanıdır, Zeyyânî değil (kaynak okunmadı). Baktığım: TDV CEZAYİR, ZEYYÂNÎLER, TİLİMSÂN."
+  },
+  {
+   "sira": 2098,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 2099,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1844-03-04",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1844-03-04 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR."
+  }
+ ],
+ "Miliana": [
+  {
+   "sira": 3160,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1519-09-01 (Zeyyânî sahipliğinin sonu): TDV ZEYYÂNÎLER hânedanı 1235-1550 verir, TDV TİLİMSÂN Zeyyânî hâkimiyetinin sonunu 960 (1553) verir, TDV CEZAYİR Hızır Reis'in Ekim 1519 arîzasını verir; 1519-09-01 gününü yerleşim için tarihleyen kaynak YOK. İSTİSNA ADAYI (Zeyyânî sahipliği): Setif/Guelma/Batna/Akbû doğuda Hafsî/Cezayir alanıdır, Zeyyânî değil (kaynak okunmadı). Baktığım: TDV CEZAYİR, ZEYYÂNÎLER, TİLİMSÂN."
+  },
+  {
+   "sira": 3162,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  }
+ ],
+ "Kolo": [
+  {
+   "sira": 3163,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1519-09-01 (Zeyyânî sahipliğinin sonu): TDV ZEYYÂNÎLER hânedanı 1235-1550 verir, TDV TİLİMSÂN Zeyyânî hâkimiyetinin sonunu 960 (1553) verir, TDV CEZAYİR Hızır Reis'in Ekim 1519 arîzasını verir; 1519-09-01 gününü yerleşim için tarihleyen kaynak YOK. İSTİSNA ADAYI (Zeyyânî sahipliği): Setif/Guelma/Batna/Akbû doğuda Hafsî/Cezayir alanıdır, Zeyyânî değil (kaynak okunmadı). Baktığım: TDV CEZAYİR, ZEYYÂNÎLER, TİLİMSÂN."
+  },
+  {
+   "sira": 3165,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 3166,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1838-10-13",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1838-10-13 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR. HATA ADAYI: t=1838-10-13, TDV CEZAYİR Kostantîne'nin düşüşünü 13 Ekim 1837 verir; atlas günü bir yıl sonra (yazım hatası adayı), Kalme/Guelma 1837-10-13."
+  }
+ ],
+ "Kalme (Guelma)": [
+  {
+   "sira": 3167,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1519-09-01 (Zeyyânî sahipliğinin sonu): TDV ZEYYÂNÎLER hânedanı 1235-1550 verir, TDV TİLİMSÂN Zeyyânî hâkimiyetinin sonunu 960 (1553) verir, TDV CEZAYİR Hızır Reis'in Ekim 1519 arîzasını verir; 1519-09-01 gününü yerleşim için tarihleyen kaynak YOK. İSTİSNA ADAYI (Zeyyânî sahipliği): Setif/Guelma/Batna/Akbû doğuda Hafsî/Cezayir alanıdır, Zeyyânî değil (kaynak okunmadı). Baktığım: TDV CEZAYİR, ZEYYÂNÎLER, TİLİMSÂN."
+  },
+  {
+   "sira": 3169,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 3170,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1837-10-13",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1837-10-13 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR."
+  }
+ ],
+ "Batna": [
+  {
+   "sira": 3171,
+   "kume": 54,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 54. t=1519-09-01 (Zeyyânî sahipliğinin sonu): TDV ZEYYÂNÎLER hânedanı 1235-1550 verir, TDV TİLİMSÂN Zeyyânî hâkimiyetinin sonunu 960 (1553) verir, TDV CEZAYİR Hızır Reis'in Ekim 1519 arîzasını verir; 1519-09-01 gününü yerleşim için tarihleyen kaynak YOK. İSTİSNA ADAYI (Zeyyânî sahipliği): Setif/Guelma/Batna/Akbû doğuda Hafsî/Cezayir alanıdır, Zeyyânî değil (kaynak okunmadı). Baktığım: TDV CEZAYİR, ZEYYÂNÎLER, TİLİMSÂN."
+  },
+  {
+   "sira": 3173,
+   "kume": 55,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, CEZAYİR, https://islamansiklopedisi.org.tr/cezayir",
+   "alinti": "ağalar devri (1659-1671) ve dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 55. f ucu YIL KAYNAKLI: TDV CEZAYİR dayılar devri 1671-1830 (dayılık başlangıcı 1671; gün yok) [yalnız yıl teyitli]. t ucu 1830-07-05 TEYİTSİZ: TDV «5 Temmuz 1830 günü Cezayir şehrini işgal ettiler» yalnız Cezayir ŞEHRİNİ tarihler; iç yerleşimler (beylikler) o gün Fransız elinde değildi: İSTİSNA ADAYI."
+  },
+  {
+   "sira": 3174,
+   "kume": 79,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1844-02-12",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 79. f=1830-07-05: TDV CEZAYİR bu günü Cezayir ŞEHRİNİN işgali olarak verir, bu yerleşimin değil. t=1844-02-12 yerleşimin Fransız idaresine geçiş günü: TDV'de YOK (yalnız Kostantîne 13 Ekim 1837, Tafna 30 Mayıs 1837, Tanca 10 Eylül 1844). Baktığım: TDV CEZAYİR."
+  }
+ ],
+ "Kafrüşşeyh": [
+  {
+   "sira": 806,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Mahalletülkübrâ": [
+  {
+   "sira": 816,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Mît Gamr": [
+  {
+   "sira": 826,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Fâkûs": [
+  {
+   "sira": 836,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Sellûm": [
+  {
+   "sira": 862,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Behnesâ": [
+  {
+   "sira": 871,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Tahtâ": [
+  {
+   "sira": 881,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Ferşût": [
+  {
+   "sira": 891,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Esna": [
+  {
+   "sira": 901,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Ferâfire": [
+  {
+   "sira": 1019,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Sefâce": [
+  {
+   "sira": 3119,
+   "kume": 56,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-04-13",
+   "t": "1805-07-03",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 56. Bu küme için kaynak aranmadı: d 1517-04-13 (Mısır fethi) / 1805-07-03: önceki kümelerde okunan TDV MISIR, KAVALALI MEHMED ALİ PAŞA bu turda tekrar açılmadı."
+  }
+ ],
+ "Nâlût": [
+  {
+   "sira": 920,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 921,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 922,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 923,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 924,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Mızde": [
+  {
+   "sira": 927,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 928,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 929,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 930,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 931,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Sirte": [
+  {
+   "sira": 934,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 935,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 936,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 937,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 938,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Ğadâmis": [
+  {
+   "sira": 999,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz). İSTİSNA ADAYI: iç Fizan'da İtalyan hâkimiyeti 1912'de değil 1913-14'te kuruldu (okunmadı); TEK ÖLÇÜ: imza mı teslim mi."
+  },
+  {
+   "sira": 1000,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz. İSTİSNA ADAYI: Fizan'da Karamanlı idaresinin fiilî yayılımı okunmadı."
+  },
+  {
+   "sira": 1001,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Barış antlaşmaları imzalanıncaya kadar Trablus ve Bingazi İngiliz, Fizan Fransız askerî idaresine bırakıldı",
+   "oneri": {
+    "d": "fransa Fizan askerî idaresi (künye aranmalı)"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 59. TDV LİBYA: Fizan FRANSIZ askerî idaresindeydi, İngiliz değil: bu yerleşim 'libya-ingiliz-askeri-idaresi' sahibi olamaz; künye aranmalı (Fransız Fizan-Gadames askerî idaresi). t ucu GÜN KAYNAKLI: 24 Aralık 1951."
+  },
+  {
+   "sira": 1002,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 1003,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Sebha": [
+  {
+   "sira": 1028,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz). İSTİSNA ADAYI: iç Fizan'da İtalyan hâkimiyeti 1912'de değil 1913-14'te kuruldu (okunmadı); TEK ÖLÇÜ: imza mı teslim mi."
+  },
+  {
+   "sira": 1029,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz. İSTİSNA ADAYI: Fizan'da Karamanlı idaresinin fiilî yayılımı okunmadı."
+  },
+  {
+   "sira": 1030,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "Barış antlaşmaları imzalanıncaya kadar Trablus ve Bingazi İngiliz, Fizan Fransız askerî idaresine bırakıldı",
+   "oneri": {
+    "d": "fransa Fizan askerî idaresi (künye aranmalı)"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 59. TDV LİBYA: Fizan FRANSIZ askerî idaresindeydi, İngiliz değil: bu yerleşim 'libya-ingiliz-askeri-idaresi' sahibi olamaz; künye aranmalı (Fransız Fizan-Gadames askerî idaresi). t ucu GÜN KAYNAKLI: 24 Aralık 1951."
+  },
+  {
+   "sira": 1031,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 1032,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Sinâvin": [
+  {
+   "sira": 2110,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 2111,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 2112,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 2113,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 2114,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Vaddân (Cufre)": [
+  {
+   "sira": 2117,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 2118,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 2119,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 2120,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 2121,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Merâde": [
+  {
+   "sira": 2124,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 2125,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 2126,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 2127,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 2128,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Derne": [
+  {
+   "sira": 2999,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 3000,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 3001,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 3002,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 3003,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Beyzâ (Kirene)": [
+  {
+   "sira": 3155,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 3156,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 3157,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 3158,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 3159,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Tulmeyse": [
+  {
+   "sira": 3491,
+   "kume": 57,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "18 Ekim 1912’de Uşi (Ouchy/Lozan) Antlaşması imzalandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 57. t ucu GÜN KAYNAKLI: Uşi 18 Ekim 1912. f ucu AY KAYNAKLI: TDV «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi» (gün 26 yok; öteki uç gün teyitsiz)."
+  },
+  {
+   "sira": 3492,
+   "kume": 58,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1711’de dayılığa gelen Karamanlı Ahmed Bey",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 58. f ucu YIL KAYNAKLI: Karamanlı hânedanı 1711 (gün 29 Temmuz TDV'de yok). t ucu AY KAYNAKLI: «Mayıs 1835’te Trablus Limanı’na girdi ve bölgenin merkeze bağlandığı ilân edildi». Gün teyitsiz."
+  },
+  {
+   "sira": 3493,
+   "kume": 59,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "24 Aralık 1951’de Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 59. t ucu GÜN KAYNAKLI: 24 Aralık 1951. f ucu YIL KAYNAKLI: TDV «1943’te İtalyan-Alman kuvvetleri tamamen yenilip Libya’dan çıkınca ... Trablus ve Bingazi İngiliz ... askerî idaresine bırakıldı»; 23 Ocak günü TDV'de yok. Not: Libya t ucu = bağımsızlık ilanı."
+  },
+  {
+   "sira": 3494,
+   "kume": 60,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "1 Eylül 1969’da Kral İdrîs Türkiye’de bulunurken yapılan darbe ile krallık yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 60. f ucu GÜN KAYNAKLI: 24 Aralık 1951 («Kral I. İdrîs es-Senûsî devletin kurulduğunu ilân etti»). t ucu GÜN KAYNAKLI: 1 Eylül 1969."
+  },
+  {
+   "sira": 3495,
+   "kume": 61,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, LİBYA, https://islamansiklopedisi.org.tr/libya",
+   "alinti": "genç subaylar iktidarı ele geçirdiler ve cumhuriyeti kurdular",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 61. f ucu GÜN KAYNAKLI: 1 Eylül 1969 darbe, cumhuriyet. Künye adı 'Cemâhiriyye' 1977'den (TDV libya'da bulunmadı): künye sorusu. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Lübeck": [
+  {
+   "sira": 1164,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 June 1945, Avalon Project, https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "assumption of supreme authority with respect to Germany",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t ucu GÜN KAYNAKLI: belge başlığı 'June 5, 1945'; TEK KURAL istisnası (egemenliği açıkça devralma). f=1281 pencere başı teyitsiz."
+  },
+  {
+   "sira": 1166,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Rostock": [
+  {
+   "sira": 1168,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 June 1945, Avalon Project, https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "assumption of supreme authority with respect to Germany",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t ucu GÜN KAYNAKLI: belge başlığı 'June 5, 1945'; TEK KURAL istisnası (egemenliği açıkça devralma). f=1281 pencere başı teyitsiz."
+  }
+ ],
+ "Mainz": [
+  {
+   "sira": 1177,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 June 1945, Avalon Project, https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "assumption of supreme authority with respect to Germany",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t ucu GÜN KAYNAKLI: belge başlığı 'June 5, 1945'; TEK KURAL istisnası (egemenliği açıkça devralma). f=1281 pencere başı teyitsiz."
+  },
+  {
+   "sira": 1183,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Kassel": [
+  {
+   "sira": 1185,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 June 1945, Avalon Project, https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "assumption of supreme authority with respect to Germany",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t ucu GÜN KAYNAKLI: belge başlığı 'June 5, 1945'; TEK KURAL istisnası (egemenliği açıkça devralma). f=1281 pencere başı teyitsiz."
+  },
+  {
+   "sira": 1188,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Würzburg": [
+  {
+   "sira": 1190,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 June 1945, Avalon Project, https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "assumption of supreme authority with respect to Germany",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t ucu GÜN KAYNAKLI: belge başlığı 'June 5, 1945'; TEK KURAL istisnası (egemenliği açıkça devralma). f=1281 pencere başı teyitsiz."
+  },
+  {
+   "sira": 1195,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Ulm": [
+  {
+   "sira": 1197,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 June 1945, Avalon Project, https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "assumption of supreme authority with respect to Germany",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t ucu GÜN KAYNAKLI: belge başlığı 'June 5, 1945'; TEK KURAL istisnası (egemenliği açıkça devralma). f=1281 pencere başı teyitsiz."
+  },
+  {
+   "sira": 1199,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Freiburg": [
+  {
+   "sira": 1202,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1368-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. Bu küme için kaynak aranmadı: Freiburg 1368, Sion 1417 (HLS/NDB açılmadı)."
+  },
+  {
+   "sira": 1205,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Zürih": [
+  {
+   "sira": 1209,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1351-05-01",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, İSVİÇRE, https://islamansiklopedisi.org.tr/isvicre",
+   "alinti": "Luzern (1332), Zürih (1351), Glarus ve Zug (1353) kantonlarının da birliğe katılmasından sonra",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t ucu YIL KAYNAKLI: Zürih'in Konfederasyona katılışı 1351 (gün 1 Mayıs TDV'de yok) [yalnız yıl teyitli]. f teyitsiz."
+  }
+ ],
+ "Basel": [
+  {
+   "sira": 1214,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1501-07-13",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t=1501-07-13 (Basel'in Konfederasyona katılışı): TDV İSVİÇRE'de 1501 YOK. Baktığım: TDV İSVİÇRE. HLS (hls-dhs-dss.ch) madde numarası bilinmediği için açılmadı."
+  }
+ ],
+ "Düsseldorf": [
+  {
+   "sira": 3244,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1815-06-09",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. t=1815-06-09: TDV ALMANYA yalnız 1815 Viyana Kongresi / Alman Konfederasyonu'nu verir (Prusya'ya Ren eyaleti devri yok). Baktığım: TDV ALMANYA."
+  },
+  {
+   "sira": 3247,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Sion (Sitten)": [
+  {
+   "sira": 4215,
+   "kume": 62,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1417-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 62. Bu küme için kaynak aranmadı: Freiburg 1368, Sion 1417 (HLS/NDB açılmadı)."
+  }
+ ],
+ "Lecce": [
+  {
+   "sira": 418,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "TDV İslâm Ansiklopedisi, İTALYA, https://islamansiklopedisi.org.tr/italya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. f=1946-06-18: TDV İTALYA «2-3 Haziran 1946’da yapılan referandumla ... cumhuriyet yönetimine geçildi» verir (referandum günü, başka olay); 18 Haziran (sonuçların ilânı) TDV'de YOK. Baktığım: TDV İTALYA. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Lastovo (Lagosta)": [
+  {
+   "sira": 626,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "1947-09-15",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. Bu küme için kaynak aranmadı: t=1947-09-15 (Paris Barış Antlaşması yürürlüğü; TEK ÖLÇÜ ihlal adayı: yürürlük değil imza/teslim günü); f=1946-06-18 aşağıdaki gibi. Antlaşma metni aranmadı."
+  }
+ ],
+ "Pantelerya": [
+  {
+   "sira": 631,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "TDV İslâm Ansiklopedisi, İTALYA, https://islamansiklopedisi.org.tr/italya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. f=1946-06-18: TDV İTALYA «2-3 Haziran 1946’da yapılan referandumla ... cumhuriyet yönetimine geçildi» verir (referandum günü, başka olay); 18 Haziran (sonuçların ilânı) TDV'de YOK. Baktığım: TDV İTALYA. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Bormio": [
+  {
+   "sira": 1228,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "TDV İslâm Ansiklopedisi, İTALYA, https://islamansiklopedisi.org.tr/italya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. f=1946-06-18: TDV İTALYA «2-3 Haziran 1946’da yapılan referandumla ... cumhuriyet yönetimine geçildi» verir (referandum günü, başka olay); 18 Haziran (sonuçların ilânı) TDV'de YOK. Baktığım: TDV İTALYA. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Feltre": [
+  {
+   "sira": 1234,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "TDV İslâm Ansiklopedisi, İTALYA, https://islamansiklopedisi.org.tr/italya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. f=1946-06-18: TDV İTALYA «2-3 Haziran 1946’da yapılan referandumla ... cumhuriyet yönetimine geçildi» verir (referandum günü, başka olay); 18 Haziran (sonuçların ilânı) TDV'de YOK. Baktığım: TDV İTALYA. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Perugia": [
+  {
+   "sira": 1241,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "TDV İslâm Ansiklopedisi, İTALYA, https://islamansiklopedisi.org.tr/italya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. f=1946-06-18: TDV İTALYA «2-3 Haziran 1946’da yapılan referandumla ... cumhuriyet yönetimine geçildi» verir (referandum günü, başka olay); 18 Haziran (sonuçların ilânı) TDV'de YOK. Baktığım: TDV İTALYA. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Katanya (Catania)": [
+  {
+   "sira": 1244,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "TDV İslâm Ansiklopedisi, İTALYA, https://islamansiklopedisi.org.tr/italya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. f=1946-06-18: TDV İTALYA «2-3 Haziran 1946’da yapılan referandumla ... cumhuriyet yönetimine geçildi» verir (referandum günü, başka olay); 18 Haziran (sonuçların ilânı) TDV'de YOK. Baktığım: TDV İTALYA. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Guastalla": [
+  {
+   "sira": 1258,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "TDV İslâm Ansiklopedisi, İTALYA, https://islamansiklopedisi.org.tr/italya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. f=1946-06-18: TDV İTALYA «2-3 Haziran 1946’da yapılan referandumla ... cumhuriyet yönetimine geçildi» verir (referandum günü, başka olay); 18 Haziran (sonuçların ilânı) TDV'de YOK. Baktığım: TDV İTALYA. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Aosta": [
+  {
+   "sira": 2930,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "TDV İslâm Ansiklopedisi, İTALYA, https://islamansiklopedisi.org.tr/italya",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. f=1946-06-18: TDV İTALYA «2-3 Haziran 1946’da yapılan referandumla ... cumhuriyet yönetimine geçildi» verir (referandum günü, başka olay); 18 Haziran (sonuçların ilânı) TDV'de YOK. Baktığım: TDV İTALYA. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Lošinj (Lussino)": [
+  {
+   "sira": 4256,
+   "kume": 63,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "italya-cumhuriyeti",
+   "f": "1946-06-18",
+   "t": "1947-09-15",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 63. Bu küme için kaynak aranmadı: t=1947-09-15 (Paris Barış Antlaşması yürürlüğü; TEK ÖLÇÜ ihlal adayı: yürürlük değil imza/teslim günü); f=1946-06-18 aşağıdaki gibi. Antlaşma metni aranmadı."
+  }
+ ],
+ "Eski Basra (Zübeyr)": [
+  {
+   "sira": 451,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1494-10-02",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1494-10-02."
+  }
+ ],
+ "Âne": [
+  {
+   "sira": 676,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1508-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1508-01-01."
+  }
+ ],
+ "Bistâm": [
+  {
+   "sira": 687,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1503-01-01."
+  }
+ ],
+ "Dizfûl": [
+  {
+   "sira": 697,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1508-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1508-01-01."
+  }
+ ],
+ "Erdekân": [
+  {
+   "sira": 706,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1503-01-01."
+  }
+ ],
+ "Fesâ": [
+  {
+   "sira": 715,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1503-01-01."
+  }
+ ],
+ "Bender Lengeh": [
+  {
+   "sira": 728,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1503-01-01."
+  }
+ ],
+ "Çâhbahâr": [
+  {
+   "sira": 737,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1503-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1503-01-01."
+  }
+ ],
+ "Cibri (Güçlü)": [
+  {
+   "sira": 3600,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1508-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1508-01-01."
+  }
+ ],
+ "Cumai (Birlikköy)": [
+  {
+   "sira": 3606,
+   "kume": 64,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1508-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 64. TDV AKKOYUNLULAR okundu: 1469 Karakoyunlu'nun sonu ve Kirman'ın alınışı (YIL), 1503 Hemedan savaşı ve Murad'ın Bağdat'a kaçışı, Murad 1509'a kadar Bağdat'ta; 1508-01-01 ve 1503-01-01 yerleşim uçlarını tarihleyen cümle YOK. Baktığım: TDV AKKOYUNLULAR. t=1508-01-01."
+  }
+ ],
+ "Camboyluk bozkırı": [
+  {
+   "sira": 790,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Mıkıtın Rog Seçi (Nikopol)": [
+  {
+   "sira": 795,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Zaporojye bozkırı": [
+  {
+   "sira": 802,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Putivl": [
+  {
+   "sira": 1488,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Yedisan bozkırı": [
+  {
+   "sira": 2293,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Sumı": [
+  {
+   "sira": 2349,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Bahmut": [
+  {
+   "sira": 2353,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Mariupol": [
+  {
+   "sira": 2357,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Nikolayev (Mikolayiv)": [
+  {
+   "sira": 2364,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Volodymyr-Volynskyi (Włodzimierz)": [
+  {
+   "sira": 2685,
+   "kume": 65,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, UKRAYNA, https://islamansiklopedisi.org.tr/ukrayna",
+   "alinti": "24 Ağustos 1991’de bağımsızlığını kazanmasından sonra Ukrayna’nın",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 65. f ucu GÜN KAYNAKLI: 24 Ağustos 1991 bağımsızlık (TDV: «24 Ağustos 1991’de Ukrayna da bunlar arasına katıldı»). t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Fâzûğlî": [
+  {
+   "sira": 994,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı»."
+  }
+ ],
+ "Kurmuk": [
+  {
+   "sira": 1725,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı»."
+  }
+ ],
+ "Talodi": [
+  {
+   "sira": 1734,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı»."
+  }
+ ],
+ "Er-Renk": [
+  {
+   "sira": 1852,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı»."
+  }
+ ],
+ "Malakal": [
+  {
+   "sira": 1854,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı»."
+  }
+ ],
+ "Vav": [
+  {
+   "sira": 1856,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı»."
+  }
+ ],
+ "Tonc": [
+  {
+   "sira": 1857,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı»."
+  }
+ ],
+ "Gondokoro": [
+  {
+   "sira": 1858,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı». İSTİSNA ADAYI: Gondokoro (Rejaf) 1894-1910 Belçika Lado Enklavı içindeydi (genel bilgi, okunmadı)."
+  }
+ ],
+ "Kapoeta": [
+  {
+   "sira": 1859,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı». İSTİSNA ADAYI: Gondokoro (Rejaf) 1894-1910 Belçika Lado Enklavı içindeydi (genel bilgi, okunmadı)."
+  }
+ ],
+ "Maridi": [
+  {
+   "sira": 1874,
+   "kume": 66,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SUDAN, https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da “condominium” (iki devletin ortak hâkimiyeti) adı verilen yeni bir idare başlattı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 66. f ucu GÜN KAYNAKLI: 19 Ocak 1899. t ucu GÜN KAYNAKLI: «1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı». İSTİSNA ADAYI: Gondokoro (Rejaf) 1894-1910 Belçika Lado Enklavı içindeydi (genel bilgi, okunmadı)."
+  }
+ ],
+ "Hannover": [
+  {
+   "sira": 1175,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Heidelberg": [
+  {
+   "sira": 3920,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Durlach (Karlsruhe)": [
+  {
+   "sira": 3925,
+   "kume": 67,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya-federal-cumhuriyeti-bati",
+   "f": "1949-05-23",
+   "t": "1990-10-03",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ALMANYA, https://islamansiklopedisi.org.tr/almanya",
+   "alinti": "Almanya Federal Cumhuriyeti (23 Mayıs 1949)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 67. f ucu GÜN KAYNAKLI: 23 Mayıs 1949 [alıntı bağlam penceresinde başı kesik okundu]. t ucu 1990-10-03 TEYİTSİZ: TDV ALMANYA'da Birleşme günü YOK, gesetze-im-internet.de DNS erişilemedi, de.wikisource 404."
+  }
+ ],
+ "Ponoy": [
+  {
+   "sira": 1420,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz."
+  }
+ ],
+ "Koporye (Kaporye)": [
+  {
+   "sira": 1585,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz."
+  }
+ ],
+ "Eski Ladoga": [
+  {
+   "sira": 1920,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz."
+  }
+ ],
+ "Kirillov": [
+  {
+   "sira": 1926,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz. İSTİSNA ADAYI: Novgorod'un 1478 ilhakına dahil olmayabilir (Moskova/Vyatka/Beloozero alanı; Vyatka 1489 — okunmadı)."
+  }
+ ],
+ "Onega": [
+  {
+   "sira": 1936,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz."
+  }
+ ],
+ "Şenkursk": [
+  {
+   "sira": 1942,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz."
+  }
+ ],
+ "Solvıçegodsk": [
+  {
+   "sira": 1948,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz. İSTİSNA ADAYI: Novgorod'un 1478 ilhakına dahil olmayabilir (Moskova/Vyatka/Beloozero alanı; Vyatka 1489 — okunmadı)."
+  }
+ ],
+ "Totma": [
+  {
+   "sira": 1954,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz. İSTİSNA ADAYI: Novgorod'un 1478 ilhakına dahil olmayabilir (Moskova/Vyatka/Beloozero alanı; Vyatka 1489 — okunmadı)."
+  }
+ ],
+ "Slobodskoy": [
+  {
+   "sira": 1960,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz. İSTİSNA ADAYI: Novgorod'un 1478 ilhakına dahil olmayabilir (Moskova/Vyatka/Beloozero alanı; Vyatka 1489 — okunmadı)."
+  }
+ ],
+ "Varzuga": [
+  {
+   "sira": 2678,
+   "kume": 68,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "moskova",
+   "f": "1478-01-15",
+   "t": "1547-01-16",
+   "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, RUSYA, https://islamansiklopedisi.org.tr/rusya",
+   "alinti": "Tver ve Rjazan (1485), Büyük Novgorod (1478), Pskov (1510) gibi knezlikleri kendi bünyesi içine almıştır",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 68. f ucu YIL KAYNAKLI: Büyük Novgorod'un ilhakı 1478 (gün 15 Ocak TDV'de yok) [yalnız yıl teyitli]. t=1547-01-16 (IV. İvan'ın çar tacı) TDV RUSYA'da 1547 YOK, teyitsiz."
+  }
+ ],
+ "Soyo": [
+  {
+   "sira": 2249,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Luanda": [
+  {
+   "sira": 3580,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Massangano": [
+  {
+   "sira": 4057,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Pungo Andongo": [
+  {
+   "sira": 4059,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Luena (Moxico)": [
+  {
+   "sira": 4076,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Kuito (Bié)": [
+  {
+   "sira": 4082,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Kakonda (Caconda)": [
+  {
+   "sira": 4093,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Menongue": [
+  {
+   "sira": 4096,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Lubango": [
+  {
+   "sira": 4099,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Mosamedes (Namibe)": [
+  {
+   "sira": 4101,
+   "kume": 69,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "angola",
+   "f": "1975-11-11",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 69. f=1975-11-11 Angola bağımsızlığı: TDV ANGOLA maddesi bulunamadı/gün vermiyor (yalnız bir ülke listesinde 'Angola 11.09.1975' biçimsiz parçası görüldü, citable değil). Baktığım: TDV angola. t=2000-12-31 atlas veri ufku (gerçek devlet sonu değil)."
+  }
+ ],
+ "Kerkene (Kerkennah)": [
+  {
+   "sira": 3034,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3035,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3036,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3037,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Mâtir (Mateur)": [
+  {
+   "sira": 3125,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3126,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3127,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3128,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Kef": [
+  {
+   "sira": 3130,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3131,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3132,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3133,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Zağvân": [
+  {
+   "sira": 3135,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3136,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3137,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3138,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Kasrayn": [
+  {
+   "sira": 3140,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3141,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3142,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3143,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Medenîn": [
+  {
+   "sira": 3145,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3146,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3147,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3148,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Bin Gerdân": [
+  {
+   "sira": 3150,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3151,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3152,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3153,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Ğâru'l-Melh (Porto Farina)": [
+  {
+   "sira": 3476,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3477,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3478,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3479,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Mekter (Maktar)": [
+  {
+   "sira": 3481,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3482,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3483,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3484,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Metlâvî": [
+  {
+   "sira": 3486,
+   "kume": 70,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1574-08-25",
+   "t": "1705-07-12",
+   "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Eylül 1574’te Tunus’u geri aldı",
+   "oneri": {
+    "f": "1574-09-12"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 70. f ucu: TDV TUNUS Halkulvâdî (La Goulette) 6 Cemâziyelevvel 982 (24 Ağustos 1574) ele geçirildi, Tunus şehri 12 Eylül 1574; atlas 1574-08-25 ikisine de uymuyor. Tunus şehrinin alındığı gün ONERI. t ucu YIL: «1705’te Hüseynî ailesi eyalet yönetiminde yetki sahibi» (gün 12 Temmuz yok). İSTİSNA ADAYI: iç yerler (Kef, Mekter, Kasrayn, Medenîn, Metlâvî) ve güney, TDV: Sûs/Kayrevan 1551'den sonra Trablusgarp'a bağlıydı."
+  },
+  {
+   "sira": 3487,
+   "kume": 71,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1705-07-12",
+   "t": "1881-05-12",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "12 Mayıs 1881’de Tunus beyi ile Bardo Antlaşması’nı imzalayarak",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 71. t ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo (Fransız himayesi; TDV: resmen idareye girişi Mersâ 8 Haziran 1883). f ucu YIL KAYNAKLI: Hüseynî ailesi 1705; gün teyitsiz."
+  },
+  {
+   "sira": 3488,
+   "kume": 72,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 72. f ucu GÜN KAYNAKLI: 12 Mayıs 1881 Bardo («himayelerine aldıklarını duyurdular»). t ucu: atlas 1923-10-29 (Türkiye Cumhuriyeti ilânı günü kopyası, HATA ADAYI); TDV: himaye 1881-1956, bağımsızlık 20 Mart 1956."
+  },
+  {
+   "sira": 3489,
+   "kume": 73,
+   "dosya_satir": "",
+   "alan": "isg",
+   "d": "fransa-cumhuriyet",
+   "f": "1881-05-12",
+   "t": "1923-10-29",
+   "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TUNUS, https://islamansiklopedisi.org.tr/tunus",
+   "alinti": "20 Mart 1956’da Tunus bağımsızlığına kavuşurken",
+   "oneri": {
+    "t": "1956-03-20"
+   },
+   "not": "ÜLKE DÜZEYİ — küme 73. HATA ADAYI t=1923-10-29. TDV: Fransız himayesi 1881-1956, bağımsızlık 20 Mart 1956. alan sorusu: Tunus himaye (v: fransa) olarak yazılır, isg değil (Fransız Çinhindi emsali). f ucu GÜN KAYNAKLI: 12 Mayıs 1881."
+  }
+ ],
+ "Dundalk": [
+  {
+   "sira": 25,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Drogheda": [
+  {
+   "sira": 27,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Limerick": [
+  {
+   "sira": 1052,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Kilkenny": [
+  {
+   "sira": 1055,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Carlisle": [
+  {
+   "sira": 3215,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Oxford": [
+  {
+   "sira": 3216,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Liverpool": [
+  {
+   "sira": 3217,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Shrewsbury": [
+  {
+   "sira": 3218,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Aberystwyth": [
+  {
+   "sira": 3219,
+   "kume": 75,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1404-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 75. Bu küme için kaynak aranmadı: İrlanda 1922-12-06, Galler 1404 (Aberystwyth/Glyndŵr), 2000 ufku: İngiliz kaynakları (BHO, DIB) açılmadı."
+  }
+ ],
+ "Hâmi (Kumul)": [
+  {
+   "sira": 224,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1404-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Kobdo (Hovd)": [
+  {
+   "sira": 3284,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1635-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Halhın Gol (Buir Nur)": [
+  {
+   "sira": 3344,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1691-05-30",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Bulgan": [
+  {
+   "sira": 3351,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1691-05-30",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Bayanhongor": [
+  {
+   "sira": 3358,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1691-05-30",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Yuanjiang": [
+  {
+   "sira": 4306,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1382-04-14",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Lijiang": [
+  {
+   "sira": 4319,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1382-04-07",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Tonghai": [
+  {
+   "sira": 4363,
+   "kume": 76,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-yuan",
+   "f": "1368-09-14",
+   "t": "1382-01-16",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 76. Bu küme için kaynak aranmadı: Kuzey Yuan/Ming sınırı: Çin takvimi günleri çevrilmez, Mingshi/Cambridge History of China açılmadı."
+  }
+ ],
+ "Pag (Pago)": [
+  {
+   "sira": 610,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Hvar (Lesina)": [
+  {
+   "sira": 616,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Nadin": [
+  {
+   "sira": 1036,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Kostayniçe (Kostajnica)": [
+  {
+   "sira": 1550,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Udbina": [
+  {
+   "sira": 3366,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Gospić": [
+  {
+   "sira": 3370,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Sisak": [
+  {
+   "sira": 4270,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Karlovac": [
+  {
+   "sira": 4271,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Drežnik (Drežnik Grad)": [
+  {
+   "sira": 4274,
+   "kume": 80,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-10-14",
+   "t": "1813-01-01",
+   "uc": "",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 80. Bu küme için kaynak aranmadı: İlirya Eyaletleri 1809-10-14 (Schönbrunn) / 1813: Hrvatska enciklopedija açılmadı."
+  }
+ ],
+ "Rabat": [
+  {
+   "sira": 536,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş)."
+  },
+  {
+   "sira": 537,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FAS, https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak zorunda kaldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t ucu GÜN KAYNAKLI: Fes Antlaşması 30 Mart 1912 (TEK ÖLÇÜ: imza). f=1659: TDV SA‘DÎLER «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (YIL); 'fas' künyesi Alevî hânedanını 1659'da mı başlatıyor: künye sorusu."
+  }
+ ],
+ "Tarûdant": [
+  {
+   "sira": 2061,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş). İSTİSNA ADAYI: Sûs/Dr‘a güneyi Sa‘dîler'in başlangıç alanıdır (TDV başlık 1511-1659); f=1549 için Fas şehrinin alınışı yerleşime özgü değil."
+  },
+  {
+   "sira": 2062,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FAS, https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak zorunda kaldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t ucu GÜN KAYNAKLI: Fes Antlaşması 30 Mart 1912 (TEK ÖLÇÜ: imza). f=1659: TDV SA‘DÎLER «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (YIL); 'fas' künyesi Alevî hânedanını 1659'da mı başlatıyor: künye sorusu."
+  }
+ ],
+ "el-Hüseyme (Alhucemas)": [
+  {
+   "sira": 2067,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş). İSTİSNA ADAYI: Rif kıyısı."
+  },
+  {
+   "sira": 2064,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1673-01-01",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t=1673-01-01: TDV FAS bu yerin geçişini vermiyor (Alhucemas 1673, Tîdîkelt 1899, Beşşâr 1903 arandı: TDV FAS'ta YOK). İSTİSNA ADAYI: Tîdîkelt/Beşşâr Fas toprağı mıydı, okunmadı. Baktığım: TDV FAS."
+  }
+ ],
+ "Dârülbeyzâ (Anfa)": [
+  {
+   "sira": 2070,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş)."
+  },
+  {
+   "sira": 2071,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FAS, https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak zorunda kaldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t ucu GÜN KAYNAKLI: Fes Antlaşması 30 Mart 1912 (TEK ÖLÇÜ: imza). f=1659: TDV SA‘DÎLER «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (YIL); 'fas' künyesi Alevî hânedanını 1659'da mı başlatıyor: künye sorusu."
+  }
+ ],
+ "Tinğîr": [
+  {
+   "sira": 2075,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş). İSTİSNA ADAYI: Sûs/Dr‘a güneyi Sa‘dîler'in başlangıç alanıdır (TDV başlık 1511-1659); f=1549 için Fas şehrinin alınışı yerleşime özgü değil."
+  },
+  {
+   "sira": 2076,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FAS, https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak zorunda kaldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t ucu GÜN KAYNAKLI: Fes Antlaşması 30 Mart 1912 (TEK ÖLÇÜ: imza). f=1659: TDV SA‘DÎLER «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (YIL); 'fas' künyesi Alevî hânedanını 1659'da mı başlatıyor: künye sorusu."
+  }
+ ],
+ "Sefrû": [
+  {
+   "sira": 2080,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş)."
+  },
+  {
+   "sira": 2081,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FAS, https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak zorunda kaldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t ucu GÜN KAYNAKLI: Fes Antlaşması 30 Mart 1912 (TEK ÖLÇÜ: imza). f=1659: TDV SA‘DÎLER «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (YIL); 'fas' künyesi Alevî hânedanını 1659'da mı başlatıyor: künye sorusu."
+  }
+ ],
+ "Ğulmîm (Vâdî Nûn)": [
+  {
+   "sira": 2085,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş). İSTİSNA ADAYI: Sûs/Dr‘a güneyi Sa‘dîler'in başlangıç alanıdır (TDV başlık 1511-1659); f=1549 için Fas şehrinin alınışı yerleşime özgü değil."
+  },
+  {
+   "sira": 2086,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FAS, https://islamansiklopedisi.org.tr/fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa’nın ülkesi üzerindeki himayesini kabul eden antlaşmayı imzalamak zorunda kaldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t ucu GÜN KAYNAKLI: Fes Antlaşması 30 Mart 1912 (TEK ÖLÇÜ: imza). f=1659: TDV SA‘DÎLER «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (YIL); 'fas' künyesi Alevî hânedanını 1659'da mı başlatıyor: künye sorusu."
+  }
+ ],
+ "Aynı Sâlih (Tîdîkelt)": [
+  {
+   "sira": 2103,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş). İSTİSNA ADAYI: Tîdîkelt/Beşşâr Cezayir Sahrası'dır; Sa‘dî idaresi TDV'de okunmadı."
+  },
+  {
+   "sira": 2100,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1899-12-29",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t=1899-12-29: TDV FAS bu yerin geçişini vermiyor (Alhucemas 1673, Tîdîkelt 1899, Beşşâr 1903 arandı: TDV FAS'ta YOK). İSTİSNA ADAYI: Tîdîkelt/Beşşâr Fas toprağı mıydı, okunmadı. Baktığım: TDV FAS."
+  }
+ ],
+ "Beşşâr (Béchar)": [
+  {
+   "sira": 2107,
+   "kume": 77,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SA‘DÎLER, https://islamansiklopedisi.org.tr/sadiler",
+   "alinti": "Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 77. f ucu YIL KAYNAKLI: Fas'ın alınışı 956/1549 (hicrî 956 = 1549-01-22/1550-01-10; gün yok). t ucu YIL KAYNAKLI: «(1069/1659) ... Sa‘dîler hânedanı sona ermiş oldu» (Merakeş). İSTİSNA ADAYI: Tîdîkelt/Beşşâr Cezayir Sahrası'dır; Sa‘dî idaresi TDV'de okunmadı."
+  },
+  {
+   "sira": 2104,
+   "kume": 78,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1903-11-11",
+   "uc": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ — küme 78. t=1903-11-11: TDV FAS bu yerin geçişini vermiyor (Alhucemas 1673, Tîdîkelt 1899, Beşşâr 1903 arandı: TDV FAS'ta YOK). İSTİSNA ADAYI: Tîdîkelt/Beşşâr Fas toprağı mıydı, okunmadı. Baktığım: TDV FAS."
+  }
+ ]
+}

@@ -10,6 +10,7 @@ Girdi: `<scratchpad>\e4\kumeler.json` — her küme aynı (sahip, alan, f) döne
 (ör. küme 1: 108 yerleşimde `s: rusya-gecici-hukumet` f 1917-03-15). Sana verilen küme numaralarını işle.
 1. Küme başına ÜLKE DÜZEYİNDE tek akademik kaynakla hükmü kur: `f` (ve en sık `t`) günü o devletin
    kuruluş/devir günü mü? Kaynakta tarihi taşıyan cümleyi oku.
+1b. HANGİ UÇ (EMRELİC 01:25): her satıra `"uc": "f" | "t" | "f+t"` ekle; kuralın tamamı E4-HAVVA-BRIF.md madde 6c.
 2. Kümedeki her yerleşim için o hükmü uygula: KAYNAKLI (not: "ÜLKE DÜZEYİ — küme N").
 3. İSTİSNALARI ayıkla: yerleşimin koordinatına/bölgesine göre o gün devlet orayı fiilen yönetmiyorsa
    (işgal, iç savaş, geç teslim, ör. Sovyet Rusya 1917-11-07'de Kafkasya/Orta Asya/Sibirya'yı yönetmiyordu;
