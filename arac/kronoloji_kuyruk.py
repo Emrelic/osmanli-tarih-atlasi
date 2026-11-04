@@ -98,6 +98,8 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2S 687-698 (S27) — NAOJ ECO (KASA SALI)
+    "L2-1068": "Takvim: Tenshō 3/5/21 = 1575-06-29 Jülyen (NAOJ ECO; Gregoryen 07-09) — atlas günü doğru, ic_not_takvim «Gregoryen 1575-06-29» etiketi YANLIŞ → «Jülyen» (1582-10-15 öncesi)",
     # L2E 1695-1718 (EMRELİC, Academia Sinica; EŞLEŞİR)
     "L2-2145": "Takvim: 940-03-25 (Academia Sinica)",
     "L2-2147": "Takvim: Tianfu 6/8 辛亥 = 941-09-17 ve 9/庚申 = 09-26 ikisi de tutar; kaynak cümlesinde ay yok → yalnız yıl (Academia Sinica)",
@@ -437,6 +439,23 @@ METIN = [
     ("L2-2146", "Liu Bin (Güney Han) 941 → 942: ZZTJ c.283 önceki hükümdar Tianfu 7, 4. ay öldü (EMRELİC; tarih düzelt satırıyla birlikte)"),
     # L2E 1707-1718 (EMRELİC)
     ("L2-2165", "Gao Jichong: atlas 962 vekâlet yılı; resmî atama 963, 1. ay → ic_not (EMRELİC)"),
+    # L2S 687-698 (S27)
+    ("L2-1069", "Tenshō heyeti 1582-02-20: Kotobank yalnız «Tenshō 10, 1. ay»; NAOJ ECO Tenshō 10/1/28 = 1582-02-20 Jülyen → gün kaynakta yok, 1. aya oturur; ic_not_takvim eklenir «Jülyen» [yalnız ay teyitli]"),
+    ("L2-1057", "Siena 1554-01-26 (DBI Cosimo I «26-27 genn. 1554» gece saldırısı; teslim 1555-04-17); Siena yılbaşı 25 Mart → stil notu; devletler.js:6835 aynı olay → yinelenen madde"),
+    ("L2-1059", "[BEKLE — sıra çelişkisi] Udeypûr: d: «kale düştü, başşehri Udeypûr'a taşıdı» — Çitor 1567-68'de düştü, Udeypûr kuruluşu 1559 (1553 Akshaya Tritiya da öne sürülür); akademik kaynak açılamadı"),
+    ("L2-1058", "[BEKLE — tek dayanak belediye müzesi] Strada Nuova: karar 17 Mart 1550, 1558 inşaat başlangıcı (DBI Alessi'de 1558 Cantone dilekçesi); «Avrupa'nın ilk planlı saray caddesi» kaynaksız"),
+    ("L2-1061", "Cambiaso 1565: DBI yalnız Palazzo Grimaldi için «all'incirca»; «Ceneviz resim okulunun doğuşu» DBI'da yok; Doria freskleri 1544-47 → ifade düzeltilir"),
+    ("L2-1060", "Lan Xang 1560 (Journal of Mekong Societies 17/1, 2021; makale içinde 1566 da geçer); devletler.js 7482 ve 7485 aynı olay → yinelenen madde"),
+    ("L2-1067", "[BEKLE — tek dayanak Vikipedi] Tulsîdâs: yer_id «Benâres», şiirin ibaresi ve yaygın anlatım Ayodhya; kaynak alanındaki «Thapar cilt 1» atfı şüpheli"),
+    ("L2-1064", "[BEKLE — Asher 1992 açılmadı] Hümâyun Türbesi «1570 tamamlandı»: inşa 1565-1572 (yalnız Vikipedi) → 1572 olası"),
+    # L2S 675-686 (S26)
+    ("L2-1046", "Çausa 1539-06-26 (TDV «Şîr Şah» 9 Safer 946) gün tutar; yer_id «Patna» yaklaşık — Çausa Buxar yakını → yer düzeltilir"),
+    ("L2-1048", "Canano 1541: DBI c.17 «probabilmente 1541 (o 1543)», DSB «1541 or 1543» → «Vesalius'tan iki yıl önce» belirsizlik beyanıyla; ad Canano/Canani"),
+    ("L2-1049", "[BEKLE — yıl desteksiz] Şîr Şah yolu 1542: TDV yılsız «onun zamanında açıldı»; «rupiye» TDV'de geçmez"),
+    ("L2-1051", "[BEKLE — gün akademik kaynakta yok] Tanegaşima: Kotobank yalnız 1543; 8/25 yalnız turizm sitelerinde — NAOJ ECO Tenbun 12/8/25 = 1543-09-23 Jülyen (atlasla aynı, çeviri doğru; gün dayanağı eksik)"),
+    ("L2-1052", "[BEKLE — Asher 1977 açılmadı] Şîr Şah türbesi 1545-05-22: atlas günü ölüm civarı (TDV ölüm 23 Mayıs 1545), tamamlanma değil; tamamlanma 16 Ağustos 1545 ipucu; «ölümünden kısa süre önce inşasına başlanan» sorunlu (İslam Şah döneminde bitti)"),
+    ("L2-1055", "Cenova Yahudi sürgünü 1550: Zappia (Studi Emigrazione LXII/237, 2025) yıl teyitli, gün yok; Jewish Encyclopedia 1550'de bazılarına ikamet ve ticaret hakkı → metin iki olayı karıştırıyor olabilir, «izin verilen ailelerin çıkarılması» kontrol"),
+    ("L2-1056", "Carignano Bazilikası 1552-03-10 inşaatın başlaması (DBI «Sauli, Bendinelli» c.90, Fara 2017; «Alessi» c.2 yıl) → ic_not"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
