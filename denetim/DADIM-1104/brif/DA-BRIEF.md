@@ -145,6 +145,13 @@ Aşağıdaki TEK KURAL bu ölçütün uygulamasıdır, onun yerine geçmez. Öl�
   - **Sırbistan muhtariyeti:** TDV 1830-10-17 esas; 1815-17 fiilî muhtariyet ic_not'a.
   - **Teselya 1359-1393:** Sırp-Yunan hanedanı künye adayı LAB'a; o zamana dek abi merkez + beyan.
   - **Doğu Trakya TBMM:** alt sınır Mudanya 1922-10-11. Esas gün teslim (Refet Paşa'nın girişi). TDV Edirne'de "Kasım 1922" varsa o alınır.
+- **EMRELİC gece-41 kararları (5 Kasım 2026):**
+  - **Silopi:** işgal edilmedi (Eldem 2021). Mondros → 1920-04-23 `d: osmanli`, 1920-04-23'ten `s: tbmm`. Musul emsali Silopi'ye UYGULANMAZ.
+  - **İstanbul kuşağı:**
+    - 1918-11-13 → 1922-11-04: `d: osmanli` + `isg itilaf`.
+    - 1922-11-04 → 1923-10-02: `s: tbmm` + `isg itilaf`.
+    - 1923-10-02'den `s: tbmm` sürer. 10-06 giriş ve 11-01 saltanatın ilgası ic_not'a.
+  - **Tekirdağ / Doğu Trakya:** Mudanya'dan sonra şehir şehir teslim günüyle `s: tbmm`. O güne dek `d: osmanli` + `isg`.
 - **Lübnan kıyısı (EMRELİC gece-10):** 1918-10'dan `d: osmanli` + `isg fransa`. `s:` Fransız mandası 1920-09-01'den (Büyük Lübnan). 1920-07-25 yalnız iç Suriye içindir.
 - **Hukukî iade + fiilî çekiliş (EMRELİC, 4 Kasım 2026 gece-4):**
   - Hukukî devir antlaşması ile idare birlikte kurulduysa `s:` antlaşma gününden başlar (Petsamo: Moskova Mütarekesi 1944-09-19; Gîlân: Reşt 1732-02-01).
