@@ -26,6 +26,12 @@ Hiçbir veri dosyası değiştirilmedi; bunlar veri sahibine (KASA PAZAR) öneri
 akademik başvuru eseri ve iki ayrı Treccani eseri aynı günü veriyor; Britannica tek kaynak.
 Uyarı: iki Treccani eseri bağımsız sayılmaz ("çift teyit" yazılmaz).
 
+**Koordinatör kararları (EMRELİC 1 KASIM, 4 Kasım 2026, Emre'nin gece yetkisiyle):**
+- Sardinya **1720-09-02 ONAY** (Treccani, resmî devir); Britannica 24 Ağustos `ic_not`ta. Atlastaki
+  24 Şubat kaynaksız → düzeltme önerisi.
+- Safi: Portekiz dönemi **1508-01-01 + beyan** (CHA III, yıl düzeyi). 1488–1508 faktörya dönemi
+  egemenlik değildir, o aralık yerel/Vattâsî sahibinde kalır → **1488 kırpılır.**
+
 ## Ay/yıl düzeyinde kaynaklananlar (gün kaynakta yok)
 
 - 21 Safi: 1508 Portekiz fethi YIL düzeyinde (Cambridge History of Africa III s.398, Abun-Nasr).
