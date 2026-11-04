@@ -6906,11 +6906,12 @@
    "d": "afgan-durrani",
    "f": "1747-06-20",
    "t": "1834-05-06",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India vol. XX (1908), «Peshawar District», archive.org imperialgazettee20grea",
    "alinti": "Peshawar was often the seat of the Durrani court ... reoccupied in 1834 by the Sikhs",
    "oneri": {},
-   "not": "Bitiş YIL 1834 (IG + TDV). Başlangıç yıl olarak yok. Fiilî denetim notu: IG 1818'de Sihlerin vadiye ilerlediğini, 1823'te Ranjit Singh'in Azim Han'ı yendiğini ama 'Sikhs did not take actual possession ... exaction of a tribute' dediğini yazar; fiilî denetim 1834'te Sih'e geçer (atlas ucu uyumlu). 1823-1834 Sih haraçlı tâbiyeti `v:` katmanı olarak ic_not'a yazılabilir."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · Bitiş YIL 1834 (IG + TDV). Başlangıç yıl olarak yok. Fiilî denetim notu: IG 1818'de Sihlerin vadiye ilerlediğini, 1823'te Ranjit Singh'in Azim Han'ı yendiğini ama 'Sikhs did not take actual possession ... exaction of a tribute' dediğini yazar; fiilî denetim 1834'te Sih'e geçer (atlas ucu uyumlu). 1823-1834 Sih haraçlı tâbiyeti `v:` katmanı olarak ic_not'a yazılabilir.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:530",
@@ -8130,11 +8131,12 @@
    "d": "sih-imparatorlugu",
    "f": "1765-04-16",
    "t": "1849-03-29",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series: Punjab, Vol. II (Calcutta 1908), Lahore Division / Multan Division (archive.org dli.csl.2922), 'Lahore City' (The Sikhs), s. 36-37",
    "alinti": "On March 29, 1849 ... the young Maharaja Dalip Singh resigned the government to the British",
    "oneri": {},
-   "not": "KISMEN: t=1849-03-29 gunu IG'de var (Dalip Singh hukumeti Ingilizlere birakti). f=1765-04-16 gun/yil IG'de YOK: 'after Ahmad Shah's seventh invasion Kabuli Mal was ejected and the Sikhs again became masters' (1764-65 civari); IG '1767-97 Sikhler Lahor'u rahatsiz edilmeden yonetti'. TDV: 'XVIII. yuzyilin sonlarindan 1850'lere kadar Sihler'. Dolayisiyla f yil duzeyinde bile kaynaksiz — 1765 ancak kismen uyumlu. Ranjit Singh 1799 (IG: Amritsar/Gujranwala maddeleri 'made Lahore his capital in 1799')."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · KISMEN: t=1849-03-29 gunu IG'de var (Dalip Singh hukumeti Ingilizlere birakti). f=1765-04-16 gun/yil IG'de YOK: 'after Ahmad Shah's seventh invasion Kabuli Mal was ejected and the Sikhs again became masters' (1764-65 civari); IG '1767-97 Sikhler Lahor'u rahatsiz edilmeden yonetti'. TDV: 'XVIII. yuzyilin sonlarindan 1850'lere kadar Sihler'. Dolayisiyla f yil duzeyinde bile kaynaksiz — 1765 ancak kismen uyumlu. Ranjit Singh 1799 (IG: Amritsar/Gujranwala maddeleri 'made Lahore his capital in 1799').",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:435",
@@ -8874,11 +8876,12 @@
    "d": "pandya",
    "f": "1281-01-01",
    "t": "1311-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
    "alinti": "During the thirteenth century Tanjore passed ... under the Hoysala Ballalas ... and the Pandyas of Madura",
    "oneri": {},
-   "not": "YIL/YÜZYIL düzeyi (13. yy). IGI Hoysala Ballalar'ı da anar; 1281 ucu ve Pandya'ya geçiş günü kaynakta yok. TDV 'tancur' maddesi yok (arama sonuçsuz)."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YIL/YÜZYIL düzeyi (13. yy). IGI Hoysala Ballalar'ı da anar; 1281 ucu ve Pandya'ya geçiş günü kaynakta yok. TDV 'tancur' maddesi yok (arama sonuçsuz).",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1508",
@@ -8910,11 +8913,12 @@
    "d": "vijayanagara",
    "f": "1378-01-01",
    "t": "1532-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
    "alinti": "till the close of the fourteenth century, when it became part of the Hindu kingdom of Vijayanagar",
    "oneri": {},
-   "not": "YÜZYIL düzeyi: IGI 14. yy sonu der; 1378 günü/yılı kaynakta yok (1378 ± 20 kismen uyumlu)."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜZYIL düzeyi: IGI 14. yy sonu der; 1378 günü/yılı kaynakta yok (1378 ± 20 kismen uyumlu).",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1511",
@@ -8922,11 +8926,12 @@
    "d": "nayak-devletleri",
    "f": "1532-01-01",
    "t": "1676-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
    "alinti": "one of the generals of that kingdom declared himself independent",
    "oneri": {},
-   "not": "IGI: 16. yy'da Vijayanagar generallerinden biri bağımsız oldu, 17. yy başında halef devleti kurdu (Tancur Nayakları). 1532 ucu kaynakta yok; yalnız yüzyıl düzeyi. IGI ilgili cümlesi 'early part of the seventeenth century' ile bitiyor (devamı okunmadı)."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · IGI: 16. yy'da Vijayanagar generallerinden biri bağımsız oldu, 17. yy başında halef devleti kurdu (Tancur Nayakları). 1532 ucu kaynakta yok; yalnız yüzyıl düzeyi. IGI ilgili cümlesi 'early part of the seventeenth century' ile bitiyor (devamı okunmadı).",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1512",
@@ -8959,11 +8964,12 @@
    "d": "ingiliz-hindistani",
    "f": "1799-10-25",
    "t": "1947-08-15",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
    "alinti": "In October, 1799 ... Raja Sarabhoji resigned his dominions into the hands of",
    "oneri": {},
-   "not": "Açılış ucu: Ekim 1799 (IGI, gün yok; 25 Ekim günü bu kaynakta yok). Kapanış 1947 için aşağıdaki Hindistan satırına bkz."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · Açılış ucu: Ekim 1799 (IGI, gün yok; 25 Ekim günü bu kaynakta yok). Kapanış 1947 için aşağıdaki Hindistan satırına bkz.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1514",
@@ -9076,11 +9082,12 @@
    "d": "ingiliz-hindistani",
    "f": "1801-07-31",
    "t": "1947-08-15",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. V, «Arcot Town» (archive.org in.ernet.dli.2015.61232)",
    "alinti": "In the cession of the Carnatic to the English in 1801, Arcot was included",
    "oneri": {},
-   "not": "YIL düzeyi (1801). 31 Temmuz günü bu kaynakta yok. Kapanış 1947 için Hindistan satırı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YIL düzeyi (1801). 31 Temmuz günü bu kaynakta yok. Kapanış 1947 için Hindistan satırı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1574",
@@ -9126,7 +9133,7 @@
    "d": "meysur-racaligi",
    "f": "1799-05-04",
    "t": "1947-08-15",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXII, «Seringapatam Town» (archive.org in.ernet.dli.2015.207402)",
    "alinti": "By this victory Seringapatam became the property of the British, who leased it to Mysore",
    "oneri": {
@@ -9135,7 +9142,7 @@
     "t": "1881 (YIL)",
     "devam": "meysur-racaligi 1881→1947"
    },
-   "not": "YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (IGI 1908 vol. XXII «Seringapatam Town», ham metin yeniden okundu). uc=t (ve d değişimi): IGI 1799-1881 arası şehrin İngiliz mülkü olduğunu, Mysore'a kiralandığını (tâbilik/himaye değil, kira) ve 1881 'rendition' ile Mysore'a verildiğini birebir söyler. [yalnız yıl teyitli]: 1881 gün kaynakta yok → 1881-01-01. f: IGI'da 1799 yıl düzeyinde ('in 1799 he prolonged resistance till the place was stormed'), 1799-05-04 mevcut fetih günü korunur. Künyeler: ingiliz-hindistani f 1757-06-23/t 1947-08-15, meysur-racaligi f 1799-05-04 → günü kapsıyor. Mevcut satırın kaynağı 'ONERI' olarak kalan Mysore sahipliği (1799-1881) yanlıştır; kira = İngiliz egemenliği altında. · YÜKSELTME TURU (ONERI): [yalnız yıl teyitli] İkinci akademik kaynak bulunamadı; 'kiralama' ayrıntısı doğrulanmadı (yalnız 'ceded 1799, restored 1881', Wikipedia türevi). 1799-05-04 fetih günü hukukî devir günü değil (TEK ÖLÇÜ). Bakılan: genel web; Mysore Gazetteer açılmadı. · ÖNEMLİ: IGI 1908: 1799 zaferiyle Seringapatam İngilizlerin mülkü oldu, Mysore'a yıllık Rs 50.000'e KİRALANDI; 'rendition' 1881'de Mysore'a verildi (Bangalore kantonu karşılığı). Yani 1799-1881 arası sahip Mysore Racalığı değil, İngiliz. TDV Meysûr: 1799'da İngilizler eski racalığı yeniden kurdu (ülke düzeyi). Kira/antlaşma günü kaynakta yok (1799 YIL, 1881 YIL); 1799-05-04 fetih günü TEK KURAL'a göre hukukî devir olmayabilir — KASA karar versin.",
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (IGI 1908 vol. XXII «Seringapatam Town», ham metin yeniden okundu). uc=t (ve d değişimi): IGI 1799-1881 arası şehrin İngiliz mülkü olduğunu, Mysore'a kiralandığını (tâbilik/himaye değil, kira) ve 1881 'rendition' ile Mysore'a verildiğini birebir söyler. [yalnız yıl teyitli]: 1881 gün kaynakta yok → 1881-01-01. f: IGI'da 1799 yıl düzeyinde ('in 1799 he prolonged resistance till the place was stormed'), 1799-05-04 mevcut fetih günü korunur. Künyeler: ingiliz-hindistani f 1757-06-23/t 1947-08-15, meysur-racaligi f 1799-05-04 → günü kapsıyor. Mevcut satırın kaynağı 'ONERI' olarak kalan Mysore sahipliği (1799-1881) yanlıştır; kira = İngiliz egemenliği altında. · YÜKSELTME TURU (ONERI): [yalnız yıl teyitli] İkinci akademik kaynak bulunamadı; 'kiralama' ayrıntısı doğrulanmadı (yalnız 'ceded 1799, restored 1881', Wikipedia türevi). 1799-05-04 fetih günü hukukî devir günü değil (TEK ÖLÇÜ). Bakılan: genel web; Mysore Gazetteer açılmadı. · ÖNEMLİ: IGI 1908: 1799 zaferiyle Seringapatam İngilizlerin mülkü oldu, Mysore'a yıllık Rs 50.000'e KİRALANDI; 'rendition' 1881'de Mysore'a verildi (Bangalore kantonu karşılığı). Yani 1799-1881 arası sahip Mysore Racalığı değil, İngiliz. TDV Meysûr: 1799'da İngilizler eski racalığı yeniden kurdu (ülke düzeyi). Kira/antlaşma günü kaynakta yok (1799 YIL, 1881 YIL); 1799-05-04 fetih günü TEK KURAL'a göre hukukî devir olmayabilir — KASA karar versin.",
    "kaynak2": "",
    "alinti2": "By this victory Seringapatam became the property of the British, who leased it to Mysore for Rs. 50,000 a year. At the rendition in 1881 it was given up to Mysore, the Bangalore cantonment being taken over instead as an ‘ assigned tract.’",
    "oneri_son": {
@@ -9144,7 +9151,7 @@
     "t": "1881-01-01",
     "devam": "meysur-racaligi 1881-01-01 → 1947-08-15"
    },
-   "_etiket": "IKI_KAYNAKLI_ONERI"
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1442",
@@ -9166,11 +9173,12 @@
    "d": "vijayanagara",
    "f": "1336-01-01",
    "t": "1565-01-05",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIV, «Tungabhadra» (archive.org in.ernet.dli.2015.61206)",
    "alinti": "The kings of the ancient dynasty of Vijayanagar (1336-1565), the ruins of whose capital ... near Hampi",
    "oneri": {},
-   "not": "YIL düzeyi, her iki uç IGI ile uyumlu (1336, 1565). ÇELİŞKİ beyanı: TDV «Hindistan» hanedan listesi «Viyanagar Devleti (1339-1646)» der (hanedan, Penukonda sonrasıyla); şehre özgü değil. Mevcut DEVRALMA kaynağı da TDV Hindistan'a dayanıyor ama 1336 günü orada yok. Hüküm KASA'nın."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YIL düzeyi, her iki uç IGI ile uyumlu (1336, 1565). ÇELİŞKİ beyanı: TDV «Hindistan» hanedan listesi «Viyanagar Devleti (1339-1646)» der (hanedan, Penukonda sonrasıyla); şehre özgü değil. Mevcut DEVRALMA kaynağı da TDV Hindistan'a dayanıyor ama 1336 günü orada yok. Hüküm KASA'nın.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1387",
@@ -9216,11 +9224,12 @@
    "d": "ingiliz-hindistani",
    "f": "1800-10-12",
    "t": "1947-08-15",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXII, «Sandur» (archive.org in.ernet.dli.2015.207402)",
    "alinti": "when Bellary District was ceded to the Company",
    "oneri": {},
-   "not": "Kapanışı değil açılış: Bellary Nizam tarafından Şirket'e devredildi (IGI yıl vermiyor bu cümlede; 1800 Subsidiary devri başka kaynakta aranmalı). 1800-10-12 günü bu kaynakta teyitsiz. Kapanış için Hindistan satırı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · Kapanışı değil açılış: Bellary Nizam tarafından Şirket'e devredildi (IGI yıl vermiyor bu cümlede; 1800 Subsidiary devri başka kaynakta aranmalı). 1800-10-12 günü bu kaynakta teyitsiz. Kapanış için Hindistan satırı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1392",
@@ -9334,19 +9343,19 @@
    "d": "racput",
    "f": "1281-01-01",
    "t": "1305-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
    "alinti": "In 1304 it was taken by Ain-ul-mulk, and just a century later became the capital of the Muhammadan kingdom of Malwa",
    "oneri": {
     "t": "1304 (YIL; gün yok)"
    },
-   "not": "YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (IGI 1908 vol. XVII «Mandu (or Mandogarh)», ham metin yeniden okundu). uc=t: Racput sahipliğinin sonu = Ayn-ül-Mülk'ün Mândû'yu alışı (1304). [yalnız yıl teyitli]. IGI alanı 'Muhammadan' diye anar, Delhi adını vermez; Ayn-ül-Mülk Mültânî Delhi sultanlarının hizmetindeki komutandır (TDV Aynülmülk Mültânî: 'Delhi sultanlarının hizmetinde ... Mândû seferlerine katıldı', yıl yok) — devlet bağı TDV'den, yıl IGI'dan. KOMŞU: sonraki satırın f'si (delhi-sultanligi 1305-01-01) 1304-01-01'e birlikte taşınmalı. Racput künyesi f 1000/t 1947, delhi künyesi f 1206 günü kapsıyor. · YÜKSELTME TURU (ONERI): Bakılan: genel web; Mândû'nun 1304/1305 alımı için ikinci kaynak bulunamadı. · Racput→Delhi: IGI 1304'te Ayn-ül-mülk Mândû'yu aldı der; atlas 1305-01-01. YIL düzeyinde 1 yıl fark. Racput'un 1281 açılışı kaynakta yok.",
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (IGI 1908 vol. XVII «Mandu (or Mandogarh)», ham metin yeniden okundu). uc=t: Racput sahipliğinin sonu = Ayn-ül-Mülk'ün Mândû'yu alışı (1304). [yalnız yıl teyitli]. IGI alanı 'Muhammadan' diye anar, Delhi adını vermez; Ayn-ül-Mülk Mültânî Delhi sultanlarının hizmetindeki komutandır (TDV Aynülmülk Mültânî: 'Delhi sultanlarının hizmetinde ... Mândû seferlerine katıldı', yıl yok) — devlet bağı TDV'den, yıl IGI'dan. KOMŞU: sonraki satırın f'si (delhi-sultanligi 1305-01-01) 1304-01-01'e birlikte taşınmalı. Racput künyesi f 1000/t 1947, delhi künyesi f 1206 günü kapsıyor. · YÜKSELTME TURU (ONERI): Bakılan: genel web; Mândû'nun 1304/1305 alımı için ikinci kaynak bulunamadı. · Racput→Delhi: IGI 1304'te Ayn-ül-mülk Mândû'yu aldı der; atlas 1305-01-01. YIL düzeyinde 1 yıl fark. Racput'un 1281 açılışı kaynakta yok.",
    "kaynak2": "",
    "alinti2": "In 1304 it was taken by Ain-ul-mulk, and just a century later became the capital of the Muhammadan kingdom of Malwa under Hoshang Shah Ghori (1405-34).",
    "oneri_son": {
     "t": "1304-01-01"
    },
-   "_etiket": "IKI_KAYNAKLI_ONERI"
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:836",
@@ -9388,11 +9397,12 @@
    "d": "gucerat-sultanligi",
    "f": "1531-01-01",
    "t": "1535-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
    "alinti": "the kingdom being annexed to Gujarat (1531)",
    "oneri": {},
-   "not": "YIL düzeyi her iki uç: 1531 ilhak (IGI) ve 1535'te Hümâyûn Bahadır Şah'ı Mândû'da yendi/Mâlvâ'dan çıkardı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YIL düzeyi her iki uç: 1531 ilhak (IGI) ve 1535'te Hümâyûn Bahadır Şah'ı Mândû'da yendi/Mâlvâ'dan çıkardı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:839",
@@ -9414,11 +9424,12 @@
    "d": "babur-imparatorlugu",
    "f": "1561-03-29",
    "t": "1732-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
    "alinti": "In 1560-2 Mandu was finally incorporated in the Mughal empire",
    "oneri": {},
-   "not": "YIL aralığı (1560-62) içinde 1561 ucu uyumlu; 29 Mart günü IGI'de yok."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YIL aralığı (1560-62) içinde 1561 ucu uyumlu; 29 Mart günü IGI'de yok.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:841",
@@ -9426,11 +9437,12 @@
    "d": "maratha",
    "f": "1732-01-01",
    "t": "1818-06-03",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
    "alinti": "the country not passing finally to the present Dhar family till 1732",
    "oneri": {},
-   "not": "KISMEN/YIL: 1732 Dhar (Pûar) hanedanına kesin geçiş; IGI 1696'da Marathaların şehri 'geçici' tuttuğunu söyler (atlas 1696-1732'yi Bâbürlü sayıyor, uyumlu). Dhar Peşva'ya bağlı Maratha polity içinde mi — IGI açıkça yazmıyor."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · KISMEN/YIL: 1732 Dhar (Pûar) hanedanına kesin geçiş; IGI 1696'da Marathaların şehri 'geçici' tuttuğunu söyler (atlas 1696-1732'yi Bâbürlü sayıyor, uyumlu). Dhar Peşva'ya bağlı Maratha polity içinde mi — IGI açıkça yazmıyor.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:842",
@@ -43143,11 +43155,12 @@
    "d": "delhi-sultanligi",
    "f": "1281-01-01",
    "t": "1394-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "The Imperial Gazetteer of India, Vol. XIV (1908), «Kanauj Town» ve «Jaunpur District», https://archive.org/details/the-imperial-gazetteer-of-india-volume-14 (04.11.2026'da okundu)",
    "alinti": "Under the Muhammadans Kanauj became the seat of a governor",
    "oneri": {},
-   "not": "Düzey: dönem (Delhi'ye bağlı valilik, 1194 sonrası); IGI Jaunpur: 'Hindu governors ... paid allegiance to the king of Delhi'; 1394'te 'administration of all Hindustan, from Kanauj to Bihar' Khwaja-i-Jahan'a verildi (YIL). ÖLÇÜT: idareye katma — vali merkezi (seat of a governor)."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · Düzey: dönem (Delhi'ye bağlı valilik, 1194 sonrası); IGI Jaunpur: 'Hindu governors ... paid allegiance to the king of Delhi'; 1394'te 'administration of all Hindustan, from Kanauj to Bihar' Khwaja-i-Jahan'a verildi (YIL). ÖLÇÜT: idareye katma — vali merkezi (seat of a governor).",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:306",
@@ -43155,7 +43168,7 @@
    "d": "cavnpur-sultanligi",
    "f": "1394-01-01",
    "t": "1479-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "IGI Vol. XIV «Jaunpur District» (aynı)",
    "alinti": "In 1407 Ibrahim achieved his desire and took Kanauj, Sambhal, and Baran",
    "oneri": {
@@ -43163,7 +43176,7 @@
     "t": "1479-01-01",
     "d": "cavnpur-sultanligi"
    },
-   "not": "YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (Imperial Gazetteer of India XIV, «Kanauj Town»/«Jaunpur District»; alıntıda 'In 1407 Ibrahim ... took Kanauj' YIL). f=1407-01-01 [yalnız yıl teyitli; 1908 IGI = erken 20. yy kaynağı]. UYARI: 1394-1407 dilimi için komşu satır delhi-sultanligi t 1394→1407 uzatılmalı (IGI Kanauj'u 1394'te Delhi valisine verilmiş gösterir; IGI'de 1394-1407 arası Kanauj sahibi için tek cümle yok → beyanlı yaklaşıklık). t=1479 değişmiyor (öneri de değiştirmiyor); 1477 Husain Şah'ın Kanauj'a kaçışı IGI Jaunpur'da var, kesin Delhi'ye geçiş yılı okunmadı. Cavnpur künyesi 1394-1483 içinde → hayalet değil. · 1394'te Kanauj Khwaja-i-Jahan'ın (Delhi valisi) idaresine verilmişti; bağımsızlık sonrası Kanauj Ibrahim Shah tarafından 1407 (YIL) alındı → Cavnpur'un Kanauj'daki başlangıcı 1407 olmalı; 1394-1407 Delhi (Mahmud b. Firuz Tughlak bir süre Kanauj'da oturdu: IGI Kanauj Town, tarihsiz). IGI Kanauj Town: 'In the fifteenth century it was included for some years in the Sharki kingdom of Jaunpur' ('for some years' = kesintili); Jama Masjid 1406 (Ibrahim Shah). t=1479: IGI Jaunpur 1477'de Husain Shah Kanauj'a kaçtı ve orada yenildi (YIL); kesin Delhi'ye geçiş yılı okunmadı. ÖLÇÜT: idareye katma — Ibrahim Shah'ın 1407 fethi + cami inşası.",
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): mevcut kaynak yeterli (Imperial Gazetteer of India XIV, «Kanauj Town»/«Jaunpur District»; alıntıda 'In 1407 Ibrahim ... took Kanauj' YIL). f=1407-01-01 [yalnız yıl teyitli; 1908 IGI = erken 20. yy kaynağı]. UYARI: 1394-1407 dilimi için komşu satır delhi-sultanligi t 1394→1407 uzatılmalı (IGI Kanauj'u 1394'te Delhi valisine verilmiş gösterir; IGI'de 1394-1407 arası Kanauj sahibi için tek cümle yok → beyanlı yaklaşıklık). t=1479 değişmiyor (öneri de değiştirmiyor); 1477 Husain Şah'ın Kanauj'a kaçışı IGI Jaunpur'da var, kesin Delhi'ye geçiş yılı okunmadı. Cavnpur künyesi 1394-1483 içinde → hayalet değil. · 1394'te Kanauj Khwaja-i-Jahan'ın (Delhi valisi) idaresine verilmişti; bağımsızlık sonrası Kanauj Ibrahim Shah tarafından 1407 (YIL) alındı → Cavnpur'un Kanauj'daki başlangıcı 1407 olmalı; 1394-1407 Delhi (Mahmud b. Firuz Tughlak bir süre Kanauj'da oturdu: IGI Kanauj Town, tarihsiz). IGI Kanauj Town: 'In the fifteenth century it was included for some years in the Sharki kingdom of Jaunpur' ('for some years' = kesintili); Jama Masjid 1406 (Ibrahim Shah). t=1479: IGI Jaunpur 1477'de Husain Shah Kanauj'a kaçtı ve orada yenildi (YIL); kesin Delhi'ye geçiş yılı okunmadı. ÖLÇÜT: idareye katma — Ibrahim Shah'ın 1407 fethi + cami inşası.",
    "kaynak2": "",
    "alinti2": null,
    "oneri_son": {
@@ -43171,7 +43184,7 @@
     "f": "1407-01-01",
     "t": "1479-01-01"
    },
-   "_etiket": "IKI_KAYNAKLI_ONERI"
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:306",
@@ -43203,11 +43216,12 @@
    "d": "sur-hanedani",
    "f": "1540-05-17",
    "t": "1555-07-23",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "IGI Vol. XIV «Kalpi» ve «Kanauj Town» (aynı)",
    "alinti": "the Mughals were defeated by Sher Shah at Kanauj",
    "oneri": {},
-   "not": "f yıl düzeyinde (1540 muharebe, Kanauj yakını); gün yok. ÖLÇÜT: geçici/askerî DEĞİL — savaş sonrası Sur idaresi, belge okunmadı (idare belgesi bulunamadı). t=1555-07-23 Kanauj'a özgü tanık yok."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · f yıl düzeyinde (1540 muharebe, Kanauj yakını); gün yok. ÖLÇÜT: geçici/askerî DEĞİL — savaş sonrası Sur idaresi, belge okunmadı (idare belgesi bulunamadı). t=1555-07-23 Kanauj'a özgü tanık yok.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:310",
@@ -43215,11 +43229,12 @@
    "d": "babur-imparatorlugu",
    "f": "1555-07-23",
    "t": "1722-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "IGI Vol. XIV «Kanauj Town» (aynı)",
    "alinti": "Under Akbar ... Kanauj ... the head-quarters of a sarkar",
    "oneri": {},
-   "not": "Düzey: dönem (Akbar dönemi Ain-i-Akbari'de sarkar merkezi). ÖLÇÜT: idareye katma — sarkar merkezi (Ain-i-Akbari, IGI). Uçlar Kanauj'a özgü kaynaklı değil."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · Düzey: dönem (Akbar dönemi Ain-i-Akbari'de sarkar merkezi). ÖLÇÜT: idareye katma — sarkar merkezi (Ain-i-Akbari, IGI). Uçlar Kanauj'a özgü kaynaklı değil.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:311",
@@ -78833,11 +78848,12 @@
    "d": "maratha",
    "f": "1677-05-01",
    "t": "1698-01-08",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series / Vol. XII (1908), 'Gingee (Gingi)' s.242-245 — archive.org/details/the-imperial-gazetteer-of-india-volume-12 [1908 kaynağı]",
    "alinti": "In 1677 the fort fell to Sivaji by stratagem, and remained in Maratha hands for twenty-two years.",
    "oneri": {},
-   "not": "f 1677 YIL (05-01 günü kaynaksız). ÇELİŞKİ (kaynak içi): '22 yıl' → 1699 vs 'the fort fell in 1698' → 1698; uç 1698 YIL, 01-08 günü kaynaksız. ÖLÇÜT: idareye katma — Şivaji kaleyi ele geçirip merkez yaptı (Gazetteer: Sivaji'nin Gingee'ye taşıdığı vs. ayrıntı okunmadı)."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · f 1677 YIL (05-01 günü kaynaksız). ÇELİŞKİ (kaynak içi): '22 yıl' → 1699 vs 'the fort fell in 1698' → 1698; uç 1698 YIL, 01-08 günü kaynaksız. ÖLÇÜT: idareye katma — Şivaji kaleyi ele geçirip merkez yaptı (Gazetteer: Sivaji'nin Gingee'ye taşıdığı vs. ayrıntı okunmadı).",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1549",
@@ -78845,11 +78861,12 @@
    "d": "babur-imparatorlugu",
    "f": "1698-01-08",
    "t": "1750-09-11",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series / Vol. XII (1908), 'Gingee (Gingi)' s.242-245 — archive.org/details/the-imperial-gazetteer-of-india-volume-12 [1908 kaynağı]",
    "alinti": "The siege was prolonged for eight years, but the fort fell in 1698, and afterwards became the head-quarters of the Musalman standing army",
    "oneri": {},
-   "not": "f 1698 YIL (Zülfikar Han kuşatması 1690→1698). 'babur-imparatorlugu' etiketi: kale Delhi imparatorunun Arcot subası askerî merkeziydi; Arcot Nawab'ı (Karnatik) fiilen yerel yönetici — s: babur mı v: tâbi mi KASA kararı. 1750-09-11 günü kaynakta yok (1750 YIL)."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · f 1698 YIL (Zülfikar Han kuşatması 1690→1698). 'babur-imparatorlugu' etiketi: kale Delhi imparatorunun Arcot subası askerî merkeziydi; Arcot Nawab'ı (Karnatik) fiilen yerel yönetici — s: babur mı v: tâbi mi KASA kararı. 1750-09-11 günü kaynakta yok (1750 YIL).",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1550",
@@ -78857,11 +78874,12 @@
    "d": "fransa",
    "f": "1750-09-11",
    "t": "1761-04-05",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series / Vol. XII (1908), 'Gingee (Gingi)' s.242-245 — archive.org/details/the-imperial-gazetteer-of-india-volume-12 [1908 kaynağı]",
    "alinti": "In 1750 the French under M. Bussy captured it by a skilful and daringly executed night surprise, and held it with an efficient garrison for eleven years.",
    "oneri": {},
-   "not": "1750 YIL, 'eleven years' → 1761 (YIL); 09-11 ve 04-05 günleri kaynaksız. ÖLÇÜT UYARISI: Gazetteer yalnız 'garrison' (askerî garnizon) der; Fransa'nın Gingee'yi kendi idaresine kattığına (vergi/defter) dair belge okunmadı → ÖLÇÜT: geçici/askerî olabilir (isg yerine s: yazımı belgesiz). KASA kararı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · 1750 YIL, 'eleven years' → 1761 (YIL); 09-11 ve 04-05 günleri kaynaksız. ÖLÇÜT UYARISI: Gazetteer yalnız 'garrison' (askerî garnizon) der; Fransa'nın Gingee'yi kendi idaresine kattığına (vergi/defter) dair belge okunmadı → ÖLÇÜT: geçici/askerî olabilir (isg yerine s: yazımı belgesiz). KASA kararı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1551",
@@ -78869,11 +78887,12 @@
    "d": "ingiliz-hindistani",
    "f": "1761-04-05",
    "t": "1947-08-15",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series / Vol. XII (1908), 'Gingee (Gingi)' s.242-245 — archive.org/details/the-imperial-gazetteer-of-india-volume-12 [1908 kaynağı]",
    "alinti": "held it with an efficient garrison for eleven years.",
    "oneri": {},
-   "not": "f yalnız YIL (1750+11=1761, Gazetteer'in kendi toplamı); Britanya'nın kaleyi alış günü (04-05) bu oturumda okunmadı. Kapanış 1947-08-15 DEVRALMA kaynaklı (Indian Independence Act)."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · f yalnız YIL (1750+11=1761, Gazetteer'in kendi toplamı); Britanya'nın kaleyi alış günü (04-05) bu oturumda okunmadı. Kapanış 1947-08-15 DEVRALMA kaynaklı (Indian Independence Act).",
+   "_etiket": "ONERI_GUCLU_IGI"
   }
  ],
  "Norapat": [
@@ -82326,11 +82345,12 @@
    "d": "pagan",
    "f": "1281-01-01",
    "t": "1287-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series, Burma I (1908), archive.org in.ernet.dli.2015.120372 (Martaban maddesi dizini)",
    "alinti": "Martaban ... refounded (1269) by a king of Pagan",
    "oneri": {},
-   "not": "BAKILMADI TURU: ABİ MERKEZ: Martaban (Moulmein'in karşı yakası). BEYANLI YAKLAŞIKLIK: Imperial Gazetteer Martaban'ın 1269'da Pagan kralınca yeniden kurulduğunu söyler; 1281-1287 Pagan hâkimiyeti dolaylı. Moulmein kenti 1827'de İngilizlerce kuruldu (kent adı bu dönem için anılmıyor; varlık sorgusu: yerleşim 1281-1826 arasında kent değil, Martaban karşı yakası). Bitiş 1287 (Wareru) bu kaynakta yok. · eski: Aranmadı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: ABİ MERKEZ: Martaban (Moulmein'in karşı yakası). BEYANLI YAKLAŞIKLIK: Imperial Gazetteer Martaban'ın 1269'da Pagan kralınca yeniden kurulduğunu söyler; 1281-1287 Pagan hâkimiyeti dolaylı. Moulmein kenti 1827'de İngilizlerce kuruldu (kent adı bu dönem için anılmıyor; varlık sorgusu: yerleşim 1281-1826 arasında kent değil, Martaban karşı yakası). Bitiş 1287 (Wareru) bu kaynakta yok. · eski: Aranmadı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3685",
@@ -82374,11 +82394,12 @@
    "d": "konbaung",
    "f": "1757-05-06",
    "t": "1826-02-24",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series, Burma I (1908), archive.org in.ernet.dli.2015.120372 (Martaban dizini: 'subdued by Alaungpaya')",
    "alinti": "Martaban ... subdued by Alaungpaya",
    "oneri": {},
-   "not": "BAKILMADI TURU: ABİ MERKEZ: Martaban; YIL yok (Alaungpaya fethi 1757 civarı, kaynakta yıl yok). BEYANLI YAKLAŞIKLIK. 1826 bitişi için aşağıdaki Yandabo satırına bak. · eski: Aranmadı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: ABİ MERKEZ: Martaban; YIL yok (Alaungpaya fethi 1757 civarı, kaynakta yıl yok). BEYANLI YAKLAŞIKLIK. 1826 bitişi için aşağıdaki Yandabo satırına bak. · eski: Aranmadı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3689",
@@ -82386,11 +82407,12 @@
    "d": "ingiliz-hindistani",
    "f": "1826-02-24",
    "t": "1937-04-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series, Burma I (1908), archive.org in.ernet.dli.2015.120372, Burma tarihi (Treaty of Yandabo, Arakan ve Tenasserim devri)",
    "alinti": "cession of the provinces of Arakan and Tenasserim",
    "oneri": {},
-   "not": "BAKILMADI TURU: ÖLÇÜT: devir/ilhak — Yandabo (1826) Tenasserim'i devretti; Imperial Gazetteer Amherst Distr.: 'became British territory by Treaty of Yandabo'. ÜLKE/EYALET DÜZEYİ; Yandabo GÜNÜ (1826-02-24) bu metinde okunmadı, yalnız YIL. Moulmein kenti 1827'de kuruldu (kent bu tarihten önce yok; hükmü 1827 'varlık' kaydıyla birlikte düşün). · eski: Yandabo 1826-02-24 (ÖLÇÜT: devir/ilhak; Tenasserim ilhak) ülke düzeyi — okunmadı. TEK KURAL uyumlu."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: ÖLÇÜT: devir/ilhak — Yandabo (1826) Tenasserim'i devretti; Imperial Gazetteer Amherst Distr.: 'became British territory by Treaty of Yandabo'. ÜLKE/EYALET DÜZEYİ; Yandabo GÜNÜ (1826-02-24) bu metinde okunmadı, yalnız YIL. Moulmein kenti 1827'de kuruldu (kent bu tarihten önce yok; hükmü 1827 'varlık' kaydıyla birlikte düşün). · eski: Yandabo 1826-02-24 (ÖLÇÜT: devir/ilhak; Tenasserim ilhak) ülke düzeyi — okunmadı. TEK KURAL uyumlu.",
+   "_etiket": "ONERI_GUCLU_IGI"
   }
  ],
  "Kızıkermen (Gazi Kerman)": [
@@ -90080,11 +90102,12 @@
    "d": "toungoo",
    "f": "1510-10-16",
    "t": "1752-04-23",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series, Burma I (1908), archive.org in.ernet.dli.2015.120372, «Toungoo Town»",
    "alinti": "Mingyinyo, who defeated the Pegu army, and moved the capital to its present site in 1510 ... secured the complete independence of the Toungoo kingdom.",
    "oneri": {},
-   "not": "BAKILMADI TURU: YIL DÜZEYİ başlangıç 1510 (Imperial Gazetteer). 1510-10-16 günü yok. 1612: Ava'nın Mahadhammaraza'sı 'brought into subjection' — 'From that date Toungoo remained a dependency of the Burmese kingdom' (1612'den itibaren tâbi, atlas 'toungoo' devleti aynı hanedan: beyan). Bitiş 1752-04-23 bu kaynakta yok. · eski: BAKILDI: Hall 'Toungoo' (Tabinshwehti, 1599 Toungoo Min vb.) — Toungoo'nun 1510 kuruluşu/Ava'dan ayrılışı Hall'da yok (Mingyinyo anahtarı bulunamadı). 1510-10-16 mevcut kaynaksız. 1752 bitişi de Toungoo kentine özgü okunmadı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: YIL DÜZEYİ başlangıç 1510 (Imperial Gazetteer). 1510-10-16 günü yok. 1612: Ava'nın Mahadhammaraza'sı 'brought into subjection' — 'From that date Toungoo remained a dependency of the Burmese kingdom' (1612'den itibaren tâbi, atlas 'toungoo' devleti aynı hanedan: beyan). Bitiş 1752-04-23 bu kaynakta yok. · eski: BAKILDI: Hall 'Toungoo' (Tabinshwehti, 1599 Toungoo Min vb.) — Toungoo'nun 1510 kuruluşu/Ava'dan ayrılışı Hall'da yok (Mingyinyo anahtarı bulunamadı). 1510-10-16 mevcut kaynaksız. 1752 bitişi de Toungoo kentine özgü okunmadı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3665",
@@ -90092,11 +90115,12 @@
    "d": "konbaung",
    "f": "1752-04-23",
    "t": "1852-12-20",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series, Burma I (1908), archive.org in.ernet.dli.2015.120372, «Toungoo Town»",
    "alinti": "From that date Toungoo remained a dependency of the Burmese kingdom, though a fruitless attempt to shake off the Burmese yoke was made ... in 1761.",
    "oneri": {},
-   "not": "BAKILMADI TURU: ÜLKE/YIL DÜZEYİ: Burma krallığı (Konbaung) 1752-1852 Toungoo; 1761 Naungdawgyi isyanı bastırıldı. Başlangıç 1752-04-23 ve bitiş günü bu kaynakta yok; bitiş yılı 1852 aşağıdaki satırda. · eski: BAKILMADI: bu dönem için kaynak aranmadı (bütçe)."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: ÜLKE/YIL DÜZEYİ: Burma krallığı (Konbaung) 1752-1852 Toungoo; 1761 Naungdawgyi isyanı bastırıldı. Başlangıç 1752-04-23 ve bitiş günü bu kaynakta yok; bitiş yılı 1852 aşağıdaki satırda. · eski: BAKILMADI: bu dönem için kaynak aranmadı (bütçe).",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3666",
@@ -90104,11 +90128,12 @@
    "d": "ingiliz-hindistani",
    "f": "1852-12-20",
    "t": "1937-04-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India, Provincial Series, Burma I (1908), archive.org in.ernet.dli.2015.120372, «Toungoo Town» + Hall (atlas notu: Pegu 1852-12-20)",
    "alinti": "In the second Burmese War Toungoo was entered ... in 1853, although the District passed with the rest of the province of Pegu under British dominion in 1852.",
    "oneri": {},
-   "not": "BAKILMADI TURU: ÖLÇÜT: devir/ilhak (Pegu eyaletinin 1852 ilhakı). YIL DÜZEYİ 1852; GÜN 1852-12-20 Hall'dan (atlas notu), IGB'da yok. BEYAN: Toungoo kentine İngiliz sütunu 1853'te (Şubat-Mart) girdi ('entered with little resistance ... in 1853') — ham işgal 1853; hukukî ilhak 1852-12-20 (ic_not). Atlasın şüphesi ('Toungoo İngiliz oldu mu?') IGB'ye göre ÇÖZÜLDÜ: evet, Pegu ile birlikte 1852. · eski: BAKILDI: Hall: Pegu eyaleti 20 Aralık 1852'de ilhak edildi; 'remainder of the province of Pegu was systematically occupied'. Toungoo'nun Pegu eyaleti içinde olduğu/ilhak günü bu turda okunmadı (Britannica 403, Imperial Gazetteer aramasında kimlik bulunamadı). Şüphe: Toungoo'nun 1852'de İngiliz olup olmadığı BELİRSİZ — kontrol gerekir."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: ÖLÇÜT: devir/ilhak (Pegu eyaletinin 1852 ilhakı). YIL DÜZEYİ 1852; GÜN 1852-12-20 Hall'dan (atlas notu), IGB'da yok. BEYAN: Toungoo kentine İngiliz sütunu 1853'te (Şubat-Mart) girdi ('entered with little resistance ... in 1853') — ham işgal 1853; hukukî ilhak 1852-12-20 (ic_not). Atlasın şüphesi ('Toungoo İngiliz oldu mu?') IGB'ye göre ÇÖZÜLDÜ: evet, Pegu ile birlikte 1852. · eski: BAKILDI: Hall: Pegu eyaleti 20 Aralık 1852'de ilhak edildi; 'remainder of the province of Pegu was systematically occupied'. Toungoo'nun Pegu eyaleti içinde olduğu/ilhak günü bu turda okunmadı (Britannica 403, Imperial Gazetteer aramasında kimlik bulunamadı). Şüphe: Toungoo'nun 1852'de İngiliz olup olmadığı BELİRSİZ — kontrol gerekir.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3667",
@@ -97563,11 +97588,12 @@
    "d": "bicapur",
    "f": "1490-01-01",
    "t": "1686-09-12",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India VIII (1908), «Bijapur Town», archive.org dli.ernet.11615",
    "alinti": "In 1686 Aurangzeb took Bijapur, and put an end to its existence as an independent state.",
    "oneri": {},
-   "not": "BAKILMADI TURU: YIL DÜZEYİ: Âdilşâhî sonu 1686 (Imperial Gazetteer). İÇ TUTARSIZLIK 1686-09-12 / 09-22 ÇÖZÜLEMEDİ: IGV yalnız yıl verir; gün teyidi için Cambridge History of India IV veya Sarkar gerekir. Başlangıç 1490: IGV Yûsuf'un Bîcâpur'da kral ilânını yılsız anlatır, 1511'de öldüğünü yazar. Ardıl Sikandar Âdil Şah 1672-86 (son hükümdar). · eski: Âdilşâhî 1490-1686 aranmadı. İÇ TUTARSIZLIK: mevcut_kaynak metni kapanış olayını 1686-09-22 diye yazıyor, dönem t = 1686-09-12 — KASA hangisinin doğru olduğunu kaynakla çözmeli."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: YIL DÜZEYİ: Âdilşâhî sonu 1686 (Imperial Gazetteer). İÇ TUTARSIZLIK 1686-09-12 / 09-22 ÇÖZÜLEMEDİ: IGV yalnız yıl verir; gün teyidi için Cambridge History of India IV veya Sarkar gerekir. Başlangıç 1490: IGV Yûsuf'un Bîcâpur'da kral ilânını yılsız anlatır, 1511'de öldüğünü yazar. Ardıl Sikandar Âdil Şah 1672-86 (son hükümdar). · eski: Âdilşâhî 1490-1686 aranmadı. İÇ TUTARSIZLIK: mevcut_kaynak metni kapanış olayını 1686-09-22 diye yazıyor, dönem t = 1686-09-12 — KASA hangisinin doğru olduğunu kaynakla çözmeli.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1233",
@@ -97575,11 +97601,12 @@
    "d": "babur-imparatorlugu",
    "f": "1686-09-12",
    "t": "1724-10-11",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India VIII (1908), «Bijapur Town», archive.org dli.ernet.11615",
    "alinti": "In 1686 Aurangzeb took Bijapur ... Its vast and wonderful ruins passed, with the adjoining territory, to the Marathas during the decline of the Delhi empire.",
    "oneri": {},
-   "not": "BAKILMADI TURU: YIL DÜZEYİ başlangıç 1686. Bitiş 1724-10-11: IGV Mughal'dan doğrudan Marathalar'a geçiş der, Nizam dönemini ANMAZ — atlasın Nizam 1724-1760 ara dönemi bu kaynakta yok (Bidar maddesinde 'Mughals ... till the first of the Nizams declared independence, early in the eighteenth century' Bidar içindir). · eski: Babürlü 1686-1724 aranmadı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: YIL DÜZEYİ başlangıç 1686. Bitiş 1724-10-11: IGV Mughal'dan doğrudan Marathalar'a geçiş der, Nizam dönemini ANMAZ — atlasın Nizam 1724-1760 ara dönemi bu kaynakta yok (Bidar maddesinde 'Mughals ... till the first of the Nizams declared independence, early in the eighteenth century' Bidar içindir). · eski: Babürlü 1686-1724 aranmadı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1234",
@@ -97599,11 +97626,12 @@
    "d": "maratha",
    "f": "1760-01-01",
    "t": "1818-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India VIII (1908), «Bijapur Town», archive.org dli.ernet.11615",
    "alinti": "its ruins passed ... to the Marathas ... On the overthrow of the Peshwa, in 1818, they came into the hands of the British Government",
    "oneri": {},
-   "not": "BAKILMADI TURU: YIL DÜZEYİ: Marathalar → 1818 (Peşwa'nın yıkılışı). Başlangıç 1760 IGV'de yok. Gün uçları yok. · eski: Marathalar 1760-1818 aranmadı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: YIL DÜZEYİ: Marathalar → 1818 (Peşwa'nın yıkılışı). Başlangıç 1760 IGV'de yok. Gün uçları yok. · eski: Marathalar 1760-1818 aranmadı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1236",
@@ -97611,11 +97639,12 @@
    "d": "ingiliz-hindistani",
    "f": "1818-01-01",
    "t": "1947-08-15",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India VIII (1908), «Bijapur Town», archive.org dli.ernet.11615",
    "alinti": "On the overthrow of the Peshwa, in 1818, they came into the hands of the British Government, and were included within the territory then assigned to the Raja of Satara.",
    "oneri": {},
-   "not": "BAKILMADI TURU: YIL DÜZEYİ 1818. BEYAN GEREKİR: IGV 1818'de bölgenin 'Satara Rajası'na tahsis edilen toprak' içinde kaldığını söyler (Satara 1848'de İngilizlere katıldı) — 1818-1848 tâbi/ara statü; atlas tek 'ingiliz-hindistani' satırı. Bitiş 1947-08-15 okunmadı. · eski: İngiliz Hindistanı 1818-1947 aranmadı."
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · BAKILMADI TURU: YIL DÜZEYİ 1818. BEYAN GEREKİR: IGV 1818'de bölgenin 'Satara Rajası'na tahsis edilen toprak' içinde kaldığını söyler (Satara 1848'de İngilizlere katıldı) — 1818-1848 tâbi/ara statü; atlas tek 'ingiliz-hindistani' satırı. Bitiş 1947-08-15 okunmadı. · eski: İngiliz Hindistanı 1818-1947 aranmadı.",
+   "_etiket": "ONERI_GUCLU_IGI"
   }
  ],
  "Nam Dinh": [
@@ -98825,19 +98854,19 @@
    "d": "malva-sultanligi",
    "f": "1392-01-01",
    "t": "1561-03-29",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India vol. XXIV (1908), 'Ujjain Town' (archive.org: imperialgazettee24grea) [20. yy başı kaynak]",
    "alinti": "From 1401 to 1531 it was included in the kingdom of Malwa",
    "oneri": {
     "f": "1401-01-01"
    },
-   "not": "YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli]: 1401 -> 1401-01-01. Malva künye f 1392-01-01, 1401 künye içinde (hayalet değil). BAĞLI DEĞİŞİKLİK: delhi-sultanligi satırı (1305-1392) t=1392-01-01 ile bu f arasında 1392-1401 BOŞLUK doğar; IG bu aralıkta sahip adlandırmaz (Dilâver Han valiliği/Delhi tâbiliği okunmadı) — ya delhi t 1401-01-01'e uzatılır (KASA/EMRELİC kararı) ya da beyanlı yaklaşıklık. Not: IG Malwa'yı 1531'de bitirir, atlas t=1561-03-29; t bu satırın konusu değil (IG 'In 1562 it fell to Akbar'). · YIL düzeyi: IG Malwa krallığını 1401'de başlatır; atlas 1392 (künye). 1392-1401 arası IG sahip adlandırmaz. 1531-1562 arası IG sahip adlandırmaz (BULUNAMADI). Bitiş: IG 'In 1562 it fell to Akbar' (atlas 1561-03-29; bir yıl fark, IG yıl düzeyi, gün teyitsiz).",
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli]: 1401 -> 1401-01-01. Malva künye f 1392-01-01, 1401 künye içinde (hayalet değil). BAĞLI DEĞİŞİKLİK: delhi-sultanligi satırı (1305-1392) t=1392-01-01 ile bu f arasında 1392-1401 BOŞLUK doğar; IG bu aralıkta sahip adlandırmaz (Dilâver Han valiliği/Delhi tâbiliği okunmadı) — ya delhi t 1401-01-01'e uzatılır (KASA/EMRELİC kararı) ya da beyanlı yaklaşıklık. Not: IG Malwa'yı 1531'de bitirir, atlas t=1561-03-29; t bu satırın konusu değil (IG 'In 1562 it fell to Akbar'). · YIL düzeyi: IG Malwa krallığını 1401'de başlatır; atlas 1392 (künye). 1392-1401 arası IG sahip adlandırmaz. 1531-1562 arası IG sahip adlandırmaz (BULUNAMADI). Bitiş: IG 'In 1562 it fell to Akbar' (atlas 1561-03-29; bir yıl fark, IG yıl düzeyi, gün teyitsiz).",
    "kaynak2": "Imperial Gazetteer of India vol. XXIV (1908), 'Ujjain Town' (archive.org: imperialgazettee24grea) [20. yy başı kaynak]",
    "alinti2": "From 1401 to 1531 it was included in the kingdom of Malwa",
    "oneri_son": {
     "f": "1401-01-01"
    },
-   "_etiket": "IKI_KAYNAKLI_ONERI"
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:850",
@@ -98845,19 +98874,19 @@
    "d": "babur-imparatorlugu",
    "f": "1561-03-29",
    "t": "1732-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India vol. XXIV (1908), 'Ujjain Town' (archive.org: imperialgazettee24grea) [20. yy başı kaynak]",
    "alinti": "In 1743 Baji Rao Peshwa became deputy-governor, and Ujjain finally passed to Sindhia about 1750",
    "oneri": {
     "t": "1750-01-01"
    },
-   "not": "YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. IG 1733 Jai Singh ve 1743 Peşva'yı Babür atamalı vali/naib-vali olarak verir; Babür t'si 'yaklaşık 1750'. Bağlı: sonraki maratha satırı f aynı 1750-01-01 olmalı (çakışma/boşluk yok). Peşva'nın 1741-43 fiilî nüfuzu ve 1752 resmî devir başka kaynaklarda aranmadı; çelişki olursa EMRELİC. · YIL düzeyi, 'about 1750' (yaklaşık). IG: 1562 Akbar (Malwa Subası merkezi), 1733 Sawai Jai Singh vali, 1743 Peşva naib-vali (Mughal atamalı: hâlâ Babür egemenliği), ~1750 Sindhia. Atlas 'maratha 1732' IG ile çelişir. ÖLÇÜT: idareye katma — IG 'passed to Sindhia'.",
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. IG 1733 Jai Singh ve 1743 Peşva'yı Babür atamalı vali/naib-vali olarak verir; Babür t'si 'yaklaşık 1750'. Bağlı: sonraki maratha satırı f aynı 1750-01-01 olmalı (çakışma/boşluk yok). Peşva'nın 1741-43 fiilî nüfuzu ve 1752 resmî devir başka kaynaklarda aranmadı; çelişki olursa EMRELİC. · YIL düzeyi, 'about 1750' (yaklaşık). IG: 1562 Akbar (Malwa Subası merkezi), 1733 Sawai Jai Singh vali, 1743 Peşva naib-vali (Mughal atamalı: hâlâ Babür egemenliği), ~1750 Sindhia. Atlas 'maratha 1732' IG ile çelişir. ÖLÇÜT: idareye katma — IG 'passed to Sindhia'.",
    "kaynak2": "Imperial Gazetteer of India vol. XXIV (1908), 'Ujjain Town' (archive.org: imperialgazettee24grea) [20. yy başı kaynak]",
    "alinti2": "In 1743 Bajl Rao Peshwa became deputy-governor, and Ujjain finally passed to Sindhia about 1750.",
    "oneri_son": {
     "t": "1750-01-01"
    },
-   "_etiket": "IKI_KAYNAKLI_ONERI"
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:851",
@@ -98865,19 +98894,19 @@
    "d": "maratha",
    "f": "1732-01-01",
    "t": "1818-06-03",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Imperial Gazetteer of India vol. XXIV (1908), 'Ujjain Town' (archive.org: imperialgazettee24grea) [20. yy başı kaynak]",
    "alinti": "Ujjain finally passed to Sindhia about 1750. Until 1810 ... Ujjain was the chief town of his dominions",
    "oneri": {
     "f": "1750-01-01"
    },
-   "not": "YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. KÜNYE SORUSU: IG sahibi 'Sindhia' diye adlandırır; atlasta gvalyar künyesi f 1731-01-01 (Sindiya hanedanı, hayalet değil) mevcut ve 1818-06-03'ten sonra zaten gvalyar. 1750-1818 için d: maratha (konfederasyon, t 1818-06-03) mı gvalyar mı kararı KASA/EMRELİC'indir; oneri d'yi değiştirmediği için maratha bırakıldı. t=1818-06-03 bu satırın konusu değil (IG'de yok). · Sindhia hanedanı = Gvalyar Devleti; IG 1810'a dek Ujjain Sindhia'nın başlıca şehri. 'maratha' ile 'gvalyar' künye seçimi (1750-1818 arası) KASA'da karara bağlanmalı; 1818-06-03 ucu IG'de yok.",
+   "not": "KAYNAK SINIFI (EMRELİC, 5 Kasım 2026): Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI; tek başına KAYNAKLI vermez → ONERI-güçlü. Modern akademik kaynakla (Banglapedia, Cambridge History of India, TDV, hakemli makale) teyit edilirse KAYNAKLI olur. · YÜKSELTME TURU (KAYNAKLI): Ham IG metninden okundu; mevcut kaynak yeterli. [yalnız yıl teyitli; 'about 1750' yaklaşık]. KÜNYE SORUSU: IG sahibi 'Sindhia' diye adlandırır; atlasta gvalyar künyesi f 1731-01-01 (Sindiya hanedanı, hayalet değil) mevcut ve 1818-06-03'ten sonra zaten gvalyar. 1750-1818 için d: maratha (konfederasyon, t 1818-06-03) mı gvalyar mı kararı KASA/EMRELİC'indir; oneri d'yi değiştirmediği için maratha bırakıldı. t=1818-06-03 bu satırın konusu değil (IG'de yok). · Sindhia hanedanı = Gvalyar Devleti; IG 1810'a dek Ujjain Sindhia'nın başlıca şehri. 'maratha' ile 'gvalyar' künye seçimi (1750-1818 arası) KASA'da karara bağlanmalı; 1818-06-03 ucu IG'de yok.",
    "kaynak2": "Imperial Gazetteer of India vol. XXIV (1908), 'Ujjain Town' (archive.org: imperialgazettee24grea) [20. yy başı kaynak]",
    "alinti2": "Ujjain finally passed to Sindhia about 1750.",
    "oneri_son": {
     "f": "1750-01-01"
    },
-   "_etiket": "IKI_KAYNAKLI_ONERI"
+   "_etiket": "ONERI_GUCLU_IGI"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:852",

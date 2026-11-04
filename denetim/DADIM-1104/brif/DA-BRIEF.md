@@ -179,7 +179,7 @@ Aşağıdaki TEK KURAL bu ölçütün uygulamasıdır, onun yerine geçmez. Öl�
 ## Kaynak sırası (katı)
 - İslâm dünyası, Osmanlı ve komşuları: **TDV İslâm Ansiklopedisi** önce. Madde yalnız yıl veriyorsa ya da kapsamıyorsa sıradaki basamağa geç.
 - Avrupa: Treccani (güncel maddeler), Deutsche Biographie / NDB, Historisches Lexikon der Schweiz, Magyar Katolikus Lexikon, Hrvatska enciklopedija, British History Online.
-- Hindistan: Imperial Gazetteer 1908 (archive.org). Afrika: UNESCO GHA (archive.org açık ciltleri). Kanada: DCB. Çin, Orta Asya, İran: archive.org'daki açık Cambridge History ciltleri. İran için ayrıca Encyclopaedia Iranica.
+- Hindistan: Banglapedia, Cambridge History of India (CHI), hakemli makale. **Imperial Gazetteer of India (1907-09) EB1911 sınıfında İPUCU-ARTI'dır (EMRELİC, 5 Kasım 2026): tek başına KAYNAKLI vermez, ONERI-güçlü; modern akademik kaynakla teyit edilirse KAYNAKLI.** Afrika: UNESCO GHA (archive.org açık ciltleri). Kanada: DCB. Çin, Orta Asya, İran: archive.org'daki açık Cambridge History ciltleri. İran için ayrıca Encyclopaedia Iranica.
 - **Yasak ya da sınırlı kaynaklar:**
   - Vikipedi tek dayanak olamaz.
   - EB 1911 ve Enciclopedia Italiana (1929-37) eski başvuru eseridir: tek başına en çok `kismen` sayılır.
