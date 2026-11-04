@@ -1,0 +1,531 @@
+{
+ "Ndele (Dâru'l-Kûtî)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:635",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1911-01-12",
+   "t": "1960-08-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Orta Afrika Cumhuriyeti», https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti",
+   "alinti": "13 Ağustos 1960’ta bağımsızlığına kavuşan Orta Afrika Cumhuriyeti",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2730] t gün KAYNAKLI (ÜLKE DÜZEYİ). f 1911-01-12 teyitsiz (Senûsî'nin Fransızlarca öldürülüşü; TDV OAC tarihlemez). TDV: 1900'de Râbih'in ölümüyle 'Muhammed es-Senûsî Fransızlar’la anlaşmak zorunda kaldı' → 1900-1911 arası v: fransa (himaye) eklenmesi değerlendirilmeli (gün yok). TARAYICI: D. D. Cordell, Dar al-Kuti and the Last Years of the Trans-Saharan Slave Trade (1985). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:635",
+   "alan": "s",
+   "d": "darul-kuti",
+   "f": "1890-01-01",
+   "t": "1911-01-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Orta Afrika Cumhuriyeti», https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti",
+   "alinti": "1890’da Vedây Sultanlığı’na bağlı Dâr Kûtî’yi ele geçirdi. Şehrin emîrini tahtından indirip",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2731] f YIL KAYNAKLI (1890; Râbih Dâr Kûtî'yi aldı, Senûsî'yi emîr yaptı; TDV: idare merkezi N’délé). t 1911-01-12 teyitsiz (bkz. sira 2730). Not: 1890-1900 Senûsî Râbih'e bağlıdır (v: râbih ihtimali; künye ölçülmedi). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Begho (Bighu)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:669",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1957-03-06",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gana», https://islamansiklopedisi.org.tr/gana",
+   "alinti": "bugünkü Nsorkor yakınlarında bulunan ve XVIII. yüzyılda ortadan kalkan Begho",
+   "uc": "",
+   "oneri": {
+    "sil": "dönem kaldırılmalı — yerleşim 1899'da yok"
+   },
+   "not": "[sira 2732] [yerleşim yok] TDV Gana: Begho XVIII. yüzyılda ortadan kalktı. 1899-1957 İngiliz dönemi yerleşimsiz; merdiven ④: toprak komşu peteklere kalır. Ayrıca TDV: Aşanti 1901, bütün Gana 'bir yıl sonra' İngiliz sömürgesi (1899 günü kaynaksız). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:669",
+   "alan": "s",
+   "d": "gonja",
+   "f": "1550-01-01",
+   "t": "1899-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gana», https://islamansiklopedisi.org.tr/gana",
+   "alinti": "bugünkü Nsorkor yakınlarında bulunan ve XVIII. yüzyılda ortadan kalkan Begho",
+   "uc": "",
+   "oneri": {
+    "t": "XVIII. yy (Begho'nun terki; yıl kaynakla — TARAYICI: M. Posnansky'nin Begho kazı yayınları)"
+   },
+   "not": "[sira 2733] [yerleşim yok] Dönem 1899'a uzanıyor ama yer XVIII. yy'da terk edildi; t kırpılmalı, yıl bilinmediği için yıl yazılmadı. f 1550 teyitsiz (TDV: XVI. yy'da Begho şeyhleri Gonca kralını İslâm'a soktu — Gonja bağı yer için ayrıca sınanmalı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:669",
+   "alan": "s",
+   "d": "gana",
+   "f": "1957-03-06",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gana», https://islamansiklopedisi.org.tr/gana · Ghana Independence Act 1957, s. 5(2), legislation.gov.uk/ukpga/Eliz2/5-6/6/enacted",
+   "alinti": "Altın Sahili 6 Mart 1957 tarihinde Gana adıyla Kara Afrika’nın bağımsızlığını kazanan",
+   "uc": "f",
+   "oneri": {
+    "sil": "dönem kaldırılmalı — yerleşim 1957'de yok"
+   },
+   "not": "[sira 2734] f gün kaynakta doğru (1957-03-06) ama Begho XVIII. yy'da ortadan kalktı (TDV Gana); yerleşimsiz dönem. Ghana Act s.5(2): 'the sixth day of March, nineteen hundred and fifty-seven'. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Banyo": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:730",
+   "alan": "s",
+   "d": "alman-kamerun",
+   "f": "1901-09-02",
+   "t": "1916-02-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Adamava 1901’de İngiltere ve Almanya arasında paylaşıldı",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2735] f YIL KAYNAKLI (1901; gün 09-02 teyitsiz). t 1916-02-18 teyitsiz: Digre, 1914-1918-online: kuzeyde 1915'te Mora dışındaki bütün Alman direnci kırıldı; Banyo'nun düşüş günü kaynakla bulunmalı → TEK KURAL'a göre 1915 (düşüş) → 1916-03-04 isg ingiltere, ardından isg fransa (bkz. P039 Fransız Kamerun önerileri). TDV'nin 'fiilen son buldu (1918)' yılı hatalıdır (Mora 1916-02). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:730",
+   "alan": "s",
+   "d": "adamava",
+   "f": "1809-01-01",
+   "t": "1901-09-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Adamava 1901’de İngiltere ve Almanya arasında paylaşıldı",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2736] t YIL KAYNAKLI (1901). f 1809 teyitsiz; TDV Fumbina/Yola yönetimi için 1841 verir ('Fumbina Krallığı adıyla İslâmî bir yönetim kurdu (1841)') — Banyo lamidosunun Adamava'ya girişi ayrıca sınanmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:730",
+   "alan": "s",
+   "d": "kamerun",
+   "f": "1960-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Fransız Kamerunu Kamerun Cumhuriyeti adı altında 1 Ocak 1960’ta bağımsızlığını ilân etti",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2737] f gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Fumban (Bamum)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:786",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1916-02-16",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun · Brian Digre, «Colonial Warfare and Occupation (Africa)», 1914-1918-online. International Encyclopedia of the First World War (FU Berlin), https://encyclopedia.1914-1918-online.net/article/colonial-warfare-and-occupation-africa-2-0/",
+   "alinti": "İngiltere ile Fransa arasında imzalanan Londra Deklarasyonu (Temmuz 1919) bu paylaşımı resmîleştirirken | News of the German retreat finally led to the surrender of Mora in February 1916",
+   "uc": "",
+   "oneri": {
+    "isg": "fransa 1916-02-16 → 1919-06-28",
+    "f": "1919-06-28 (s: fransa, Versay imzası; TEK ÖLÇÜ — Fransa zaten yönetiyordu)",
+    "d_alt": "1916-02-16 → 1919-06-28 arası alttaki s: sahibi alman-kamerun olmalı — künye t 1916-02-18 → GENİŞLET 1919-06-28 sorusu LAB'a"
+   },
+   "not": "[sira 2738] ÖLÇÜT: geçici/askerî — TDV Kamerun: MC 1922 kararı 'işgal ettikleri yerleri' manda yönetimine bıraktı; 1916 paylaşımı geçici, Almanya'nın hakkı Versay'a (1919-06-28) kadar sürdü. Namibya/Kilve emsali (KARARLAR gece-56 (c)). Londra Deklarasyonu Temmuz 1919 (gün 07-10 İPUCU) ic_not'a. 1916-02-16 günü kaynakta yok (Mora teslimi 'February 1916'; alman-kamerun künye t 02-18). HAYALET: alman-kamerun t 1916-02-18 olduğundan isg katmanının altında künyeli sahip kalmıyor (Bukovina benzeri) → LAB. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:786",
+   "alan": "s",
+   "d": "fransiz-kamerun-mandasi",
+   "f": "1922-07-20",
+   "t": "1960-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Milletler Cemiyeti de bu fiilî durumu onaylayarak 20 Temmuz 1922’de aldığı bir kararla | Fransız Kamerunu Kamerun Cumhuriyeti adı altında 1 Ocak 1960’ta bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2739] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:786",
+   "alan": "s",
+   "d": "bamum",
+   "f": "1394-01-01",
+   "t": "1916-02-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2740] Bütçe: Bamum'un 1394 kuruluşu ve Alman idaresine giriş günü (1902 civarı Alman varlığı) aranmadı. Zincirde Alman dönemi yok — bamum s: 1916'ya kadar; v: alman-kamerun eksik olabilir. TARAYICI: C. Geary, Bamum yayınları; Deutsches Kolonial-Lexikon 'Bamum' (UB Frankfurt 503 verdi)."
+  }
+ ],
+ "Cape Coast": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:817",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1664-05-01",
+   "t": "1957-03-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Cape Coast», https://snl.no/Cape_Coast · TDV İslâm Ansiklopedisi, «Gana», https://islamansiklopedisi.org.tr/gana",
+   "alinti": "I 1659 erobret nederlenderne byen, men de ble fordrevet av engelskmennene i 1664 | Altın Sahili 6 Mart 1957 tarihinde Gana adıyla Kara Afrika’nın bağımsızlığını kazanan",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2741] f YIL (1664; gün 05-01 teyitsiz), t gün KAYNAKLI (TDV + Ghana Act çift teyit). Lex.dk İngiliz alışını 1663 verir ('englænderne overtog det i 1663') — çelişki ic_not'a. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:817",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1653-01-01",
+   "t": "1664-05-01",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Cape Coast», https://snl.no/Cape_Coast · Den Store Danske (lex.dk), «Cape Coast», https://lex.dk/Cape_Coast",
+   "alinti": "I 1652 tok svenskene over Cabo Corso og bygde et fort | I 1659 erobret nederlenderne byen",
+   "uc": "f+t",
+   "oneri": {
+    "bol": "s: isvec 1652-01-01 → 1659-01-01; s: hollanda 1659-01-01 → 1664-05-01",
+    "d": "isvec (1652-1659)"
+   },
+   "not": "[sira 2742] Dönem bölünmeli: kale (Carolusborg) İsveç'indir (1652), Hollanda 1659'da aldı (SNL). Lex.dk: 'bygget af Sverige i 1652 ... kortvarigt på bl.a. danske hænder' → 1658-59 Danimarka ara dilimi (yıl kaynakla). isvec künyesi mevcut. kur 1653 → 1652. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:817",
+   "alan": "s",
+   "d": "gana",
+   "f": "1957-03-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gana», https://islamansiklopedisi.org.tr/gana · Ghana Independence Act 1957, s. 5(2), legislation.gov.uk/ukpga/Eliz2/5-6/6/enacted",
+   "alinti": "Altın Sahili 6 Mart 1957 tarihinde Gana adıyla Kara Afrika’nın bağımsızlığını kazanan",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 2743] f gün KAYNAKLI, çift teyit (Ghana Act s.5(2)). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bangassu": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:845",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1912-01-01",
+   "t": "1960-08-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Orta Afrika Cumhuriyeti», https://islamansiklopedisi.org.tr/orta-afrika-cumhuriyeti",
+   "alinti": "13 Ağustos 1960’ta bağımsızlığına kavuşan Orta Afrika Cumhuriyeti",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2744] t gün KAYNAKLI (ÜLKE DÜZEYİ). f 1912 teyitsiz (Bangassou sultanlığının doğrudan idareye geçişi TDV'de yok). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:845",
+   "alan": "s",
+   "d": "zende",
+   "f": "1750-01-01",
+   "t": "1912-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2745] Bütçe: Zande/Nzakara Bangassou sultanlığı (1750 ve 1912 uçları) aranmadı; TDV OAC'de Bangassou geçmiyor. 1890'lardaki Fransız himaye antlaşması v: fransa olarak değerlendirilmeli."
+  }
+ ],
+ "Yaunde": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:885",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1916-02-16",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun · Brian Digre, «Colonial Warfare and Occupation (Africa)», 1914-1918-online. International Encyclopedia of the First World War (FU Berlin), https://encyclopedia.1914-1918-online.net/article/colonial-warfare-and-occupation-africa-2-0/",
+   "alinti": "İngiltere ile Fransa arasında imzalanan Londra Deklarasyonu (Temmuz 1919) bu paylaşımı resmîleştirirken | News of the German retreat finally led to the surrender of Mora in February 1916",
+   "uc": "",
+   "oneri": {
+    "isg": "fransa 1916-02-16 → 1919-06-28",
+    "f": "1919-06-28 (s: fransa, Versay imzası; TEK ÖLÇÜ — Fransa zaten yönetiyordu)",
+    "d_alt": "1916-02-16 → 1919-06-28 arası alttaki s: sahibi alman-kamerun olmalı — künye t 1916-02-18 → GENİŞLET 1919-06-28 sorusu LAB'a"
+   },
+   "not": "[sira 2746] ÖLÇÜT: geçici/askerî — TDV Kamerun: MC 1922 kararı 'işgal ettikleri yerleri' manda yönetimine bıraktı; 1916 paylaşımı geçici, Almanya'nın hakkı Versay'a (1919-06-28) kadar sürdü. Namibya/Kilve emsali (KARARLAR gece-56 (c)). Londra Deklarasyonu Temmuz 1919 (gün 07-10 İPUCU) ic_not'a. 1916-02-16 günü kaynakta yok (Mora teslimi 'February 1916'; alman-kamerun künye t 02-18). HAYALET: alman-kamerun t 1916-02-18 olduğundan isg katmanının altında künyeli sahip kalmıyor (Bukovina benzeri) → LAB. [alıntı ham metinden, sayfa.py] Yaunde için isg başlangıcı 1916-01 (bkz. sira 2748)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:885",
+   "alan": "s",
+   "d": "fransiz-kamerun-mandasi",
+   "f": "1922-07-20",
+   "t": "1960-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Milletler Cemiyeti de bu fiilî durumu onaylayarak 20 Temmuz 1922’de aldığı bir kararla | Fransız Kamerunu Kamerun Cumhuriyeti adı altında 1 Ocak 1960’ta bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2747] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:885",
+   "alan": "s",
+   "d": "alman-kamerun",
+   "f": "1888-11-30",
+   "t": "1916-02-16",
+   "hukum": "ONERI",
+   "kaynak": "Brian Digre, «Colonial Warfare and Occupation (Africa)», 1914-1918-online. International Encyclopedia of the First World War (FU Berlin), https://encyclopedia.1914-1918-online.net/article/colonial-warfare-and-occupation-africa-2-0/",
+   "alinti": "They abandoned Yaoundé in January 1916, and in a well-executed maneuver retreated",
+   "uc": "t",
+   "oneri": {
+    "t": "1916-01 (Almanların Yaunde'yi terki; gün kaynakla — 1916-01-01 İngiliz girişi İPUCU)",
+    "isg": "ingiltere 1916-01 → 1916-03-04 (paylaşım; İPUCU) → isg fransa (bkz. sira 2746)"
+   },
+   "not": "[sira 2748] t 1916-02-16 değil: Almanlar Yaunde'yi Ocak 1916'da bıraktı (yıl+ay KAYNAKLI). f 1888-11-30 BAKILMADI (istasyon kuruluşu). TARAYICI: Elango, IJAHS 18/4 (1985) 657-673 (JSTOR). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Yokadouma": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:897",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1916-02-16",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun · Brian Digre, «Colonial Warfare and Occupation (Africa)», 1914-1918-online. International Encyclopedia of the First World War (FU Berlin), https://encyclopedia.1914-1918-online.net/article/colonial-warfare-and-occupation-africa-2-0/",
+   "alinti": "İngiltere ile Fransa arasında imzalanan Londra Deklarasyonu (Temmuz 1919) bu paylaşımı resmîleştirirken | News of the German retreat finally led to the surrender of Mora in February 1916",
+   "uc": "",
+   "oneri": {
+    "isg": "fransa 1916-02-16 → 1919-06-28",
+    "f": "1919-06-28 (s: fransa, Versay imzası; TEK ÖLÇÜ — Fransa zaten yönetiyordu)",
+    "d_alt": "1916-02-16 → 1919-06-28 arası alttaki s: sahibi alman-kamerun olmalı — künye t 1916-02-18 → GENİŞLET 1919-06-28 sorusu LAB'a"
+   },
+   "not": "[sira 2749] ÖLÇÜT: geçici/askerî — TDV Kamerun: MC 1922 kararı 'işgal ettikleri yerleri' manda yönetimine bıraktı; 1916 paylaşımı geçici, Almanya'nın hakkı Versay'a (1919-06-28) kadar sürdü. Namibya/Kilve emsali (KARARLAR gece-56 (c)). Londra Deklarasyonu Temmuz 1919 (gün 07-10 İPUCU) ic_not'a. 1916-02-16 günü kaynakta yok (Mora teslimi 'February 1916'; alman-kamerun künye t 02-18). HAYALET: alman-kamerun t 1916-02-18 olduğundan isg katmanının altında künyeli sahip kalmıyor (Bukovina benzeri) → LAB. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:897",
+   "alan": "s",
+   "d": "fransiz-kamerun-mandasi",
+   "f": "1922-07-20",
+   "t": "1960-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Milletler Cemiyeti de bu fiilî durumu onaylayarak 20 Temmuz 1922’de aldığı bir kararla | Fransız Kamerunu Kamerun Cumhuriyeti adı altında 1 Ocak 1960’ta bağımsızlığını ilân etti",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2750] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:897",
+   "alan": "s",
+   "d": "alman-kamerun",
+   "f": "1905-01-01",
+   "t": "1916-02-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2751] Bütçe: Yokadouma Alman istasyonunun kuruluşu (1905) ve düşüş günü aranmadı. t 1916-02-16 için bkz. sira 2749 (ülke düzeyinde Mora teslimi Şubat 1916)."
+  }
+ ],
+ "Lodvar": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:913",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1912-01-01",
+   "t": "1963-12-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kenya», https://islamansiklopedisi.org.tr/kenya · Kenya Independence Act 1963, s. 1(1), legislation.gov.uk/ukpga/1963/54/enacted",
+   "alinti": "12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu | On and after 12th December 1963 ... no responsibility for the government of Kenya",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2752] t gün KAYNAKLI, çift teyit (TDV + Kenya Independence Act). f 1912 teyitsiz (Lodwar karakolunun kuruluşu aranmadı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Buta": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:929",
+   "alan": "s",
+   "d": "belcika-kongo",
+   "f": "1908-11-15",
+   "t": "1960-06-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi | Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2753] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:929",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1890-01-01",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2754] ÜLKE DÜZEYİ. t gün KAYNAKLI. f 1890 teyitsiz (TDV istasyon/yerleşim kuruluşunu tarihlemez; künye f 1885). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Aketi": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:944",
+   "alan": "s",
+   "d": "belcika-kongo",
+   "f": "1908-11-15",
+   "t": "1960-06-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi | Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2755] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:944",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1890-01-01",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2756] ÜLKE DÜZEYİ. t gün KAYNAKLI. f 1890 teyitsiz (TDV istasyon/yerleşim kuruluşunu tarihlemez; künye f 1885). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Moloundou": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:979",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1916-02-16",
+   "t": "1922-07-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kamerun», https://islamansiklopedisi.org.tr/kamerun · Brian Digre, «Colonial Warfare and Occupation (Africa)», 1914-1918-online. International Encyclopedia of the First World War (FU Berlin), https://encyclopedia.1914-1918-online.net/article/colonial-warfare-and-occupation-africa-2-0/",
+   "alinti": "İngiltere ile Fransa arasında imzalanan Londra Deklarasyonu (Temmuz 1919) bu paylaşımı resmîleştirirken | News of the German retreat finally led to the surrender of Mora in February 1916",
+   "uc": "",
+   "oneri": {
+    "isg": "fransa 1916-02-16 → 1919-06-28",
+    "f": "1919-06-28 (s: fransa, Versay imzası; TEK ÖLÇÜ — Fransa zaten yönetiyordu)",
+    "d_alt": "1916-02-16 → 1919-06-28 arası alttaki s: sahibi alman-kamerun olmalı — künye t 1916-02-18 → GENİŞLET 1919-06-28 sorusu LAB'a"
+   },
+   "not": "[sira 2757] ÖLÇÜT: geçici/askerî — TDV Kamerun: MC 1922 kararı 'işgal ettikleri yerleri' manda yönetimine bıraktı; 1916 paylaşımı geçici, Almanya'nın hakkı Versay'a (1919-06-28) kadar sürdü. Namibya/Kilve emsali (KARARLAR gece-56 (c)). Londra Deklarasyonu Temmuz 1919 (gün 07-10 İPUCU) ic_not'a. 1916-02-16 günü kaynakta yok (Mora teslimi 'February 1916'; alman-kamerun künye t 02-18). HAYALET: alman-kamerun t 1916-02-18 olduğundan isg katmanının altında künyeli sahip kalmıyor (Bukovina benzeri) → LAB. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:979",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1911-11-04",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2758] Bütçe: aranmadı. Şüphe: Molundu (Ngoko-Dja birleşimi) 1894 Alman-Fransız sınırına göre eski Kamerun'da bir Alman istasyonu olabilir; 'fransa 1900 → 1911' dilimi (Neukamerun devri) yanlış olabilir. TARAYICI: Deutsches Kolonial-Lexikon «Molundu» (UB Frankfurt 503 verdi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:979",
+   "alan": "s",
+   "d": "alman-kamerun",
+   "f": "1911-11-04",
+   "t": "1916-02-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 2759] Bütçe: aranmadı. 1911-11-04 Fas-Kongo antlaşması imzasıdır; TEK ÖLÇÜ'ye göre Almanya yönetmiyorsa teslim günü esas — teslim günü kaynakla bulunmalı (sira 2758 şüphesi geçerliyse bu dilim 1900'den başlar)."
+  }
+ ],
+ "Fort Portal (Toro)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1037",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1900-06-26",
+   "t": "1962-10-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uganda», https://islamansiklopedisi.org.tr/uganda · Uganda Independence Act 1962, s. 1(1), legislation.gov.uk/ukpga/Eliz2/10-11/57/enacted",
+   "alinti": "9 Ekim 1962 tarihinde Uganda’ya bağımsızlık âdeta hibe edildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2760] t gün KAYNAKLI, çift teyit (Uganda Independence Act s.1(1): 'On the ninth day of October, nineteen hundred and sixty-two'). f 1900-06-26 (Toro Antlaşması) teyitsiz; TDV yalnız Buganda antlaşmasını (1900) anar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1037",
+   "alan": "s",
+   "d": "toro",
+   "f": "1830-01-01",
+   "t": "1900-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uganda», https://islamansiklopedisi.org.tr/uganda",
+   "alinti": "1822 yılında kendi sorumluluğundaki bölgede tesis ettiği Toro Krallığı 1876’da tekrar Bunyoro Krallığı’na katıldı",
+   "uc": "f",
+   "oneri": {
+    "f": "1822-01-01",
+    "bol": "s: toro 1822 → 1876; s: bunyoro 1876 → Toro'nun yeniden kuruluşu (1891, Lugard — İPUCU, kaynakla); s: toro → 1900-06-26"
+   },
+   "not": "[sira 2761] f 1830 değil 1822 (TDV Uganda, YIL). TDV: 'Kabarega ... Toro Krallığı’nı 1876’da tekrar kendi idaresine soktu' → 1876'dan Toro'nun İngiliz desteğiyle yeniden kuruluşuna kadar bunyoro dilimi eklenmeli. Not: Fort Portal şehri 1891-93'te İngiliz kalesi olarak kuruldu; yerleşimin 1822'de var olduğu ayrıca sınanmalı (başkent Kabarole). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Mbandaka": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1068",
+   "alan": "s",
+   "d": "belcika-kongo",
+   "f": "1908-11-15",
+   "t": "1960-06-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi | Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2762] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1068",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Bağımsız Kongo Devleti’ni kurdu (1885) | Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2763] ÜLKE DÜZEYİ. f YIL (1885; gün 01-01 yıl hassasiyeti), t gün KAYNAKLI. Yerleşimin 1885'te var olduğu ve Serbest Devlet idaresine girdiği gün ayrıca sınanmadı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Djolu": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1098",
+   "alan": "s",
+   "d": "belcika-kongo",
+   "f": "1908-11-15",
+   "t": "1960-06-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi | Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 2764] f ve t gün KAYNAKLI (ÜLKE DÜZEYİ). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1098",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1900-01-01",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti», https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika hükümeti 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 2765] ÜLKE DÜZEYİ. t gün KAYNAKLI. f 1900 teyitsiz (TDV istasyon/yerleşim kuruluşunu tarihlemez; künye f 1885). [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}
