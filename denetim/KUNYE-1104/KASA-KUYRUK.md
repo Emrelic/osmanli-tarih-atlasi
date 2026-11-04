@@ -53,6 +53,21 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 
 - `tubu-tibesti`: 3 yerleşim (`data/yerlesimler_afrika2.js` s.103-116: Bardaî, Vûr, Zûâr) — hepsi s: tubu-tibesti 1281-01-01→1914-01-01, sonra fransa-cumhuriyet 1914-01-01→1960-08-11, sonra cad. EMRELİC kararına göre 1914-16 Fransız varlığı `isg:` (d: fransa-cumhuriyet; Zimmermann 1916: Zouar Aralık 1913, Bardaï 1914-06-23, fetih 1914-09-01; çekiliş 1916 CHA VII) olmalı, `s:` tubu-tibesti kalıcı yeniden işgale dek sürmeli — yeniden işgal günü kaynak bekliyor, şimdilik veri DEĞİŞMEZ. Ayrıca atlasın `Tibesti` bölge kaydı (`data/yerlesimler.js` s.1457, bos:'kabile', 'hiçbir devletin fiilen ulaşmadığı') bu künyeyle çelişiyor — eski not
 
-Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'**1948-01-04**', ust:'ingiltere'}] — ONERI.md. ⚠️ Önceki öneri t:'1923-10-29' idi; o uç UFUK-1923 sahte kesiğidir (UFUK-1923.md: Government of Burma Act 1935 Şan devletlerini 'British Burma' dışında sayar; İngiliz üst egemenliği Burma Independence Act 1947 ile 1948-01-04'te kalkar). Uç değişikliği EMRELİC onayına sunuldu.
+Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'**1948-01-04**', ust:'ingiltere'}] — ONERI.md. Önceki öneri t:'1923-10-29' UFUK-1923 sahte kesiğiydi; **EMRELİC onayladı (5 Kasım): t 1948-01-04** (Government of Burma Act 1935 Şan devletlerini 'British Burma' dışında sayar; İngiliz üst egemenliği Burma Independence Act 1947 ile 1948-01-04'te kalkar). ic_not: 'Hoare 1935 Hansard'da Şan devletlerini "British territory" diye anar — çelişen ifade.'
+
+## LAB UFUK-1923 — koordinat kontrolleri (KASA; ayrıntı `UFUK-1923.md`)
+
+| yerleşim | dosya (origin/main satır) | soru |
+|---|---|---|
+| Culfa | data/yerlesimler.js:2048 | nokta (38.955, 45.630) Aras'ın kuzey (Nahçıvan/Sovyet) yakasında mı? Evetse 1923-10-29 sonrası kacar/iran dönemleri silinir |
+| Astara | data/yerlesimler.js:2247 | nokta (38.4292, 48.8728) Astara-çay'ın güneyinde (İran Astarası) mı? Evetse 1828'den beri rusya/sovyet zinciri yanlış |
+| Caruru | data/yerlesimler_gamerika.js:67 | nokta Vaupés talveginin Kolombiya yakasında mı? Evetse Brezilya t → 1908-04-20 (Bogotá Antlaşması onay değişimi) |
+| San Ignacio de Zamucos | data/yerlesimler_gamerika.js:112 | nokta 10.10.1938 Chaco hakem kararının bölgesinde mi? Evetse Bolivya t → 1938-10-10 |
+| Fortín Muñoz (General Díaz) | data/yerlesimler_a78_amerika.js:1155 | aynı soru; karar bölgesinin güneyindeyse egemenlik 21.7.1938 antlaşması md.1'den |
+| Beyan G49.5 B72.5 | data/yerlesimler_gamerika.js:157 | nokta And su ayırım çizgisinin Arjantin tarafında mı? Evetse 1883-1923 Şili dönemi silinir (1881 Antlaşması) |
+| Bacirge (Esendere) | data/yerlesimler_sinir_dogu.js:76 | koordinat Esendere (Yüksekova, Hakkâri) mi? Evetse kacar/iran dönemleri silinir, Türkiye zinciri sürer |
+| El Paso del Norte | data/yerlesimler_kamerika.js:1373 | EMRELİC kararı: kayıt = Ciudad Juárez (1888'e dek adı) → koordinat (31.74, −106.48) Meksika yakasına taşınır, meksika 2000'e dek sürer, abd dönemi silinir. Mükerrer tarama (normalleştirilmiş ad + 3 km, LAB): 'Ciudad Juárez'/'Juarez'/'El Paso' kaydı YOK — birleştirilecek kayıt yok; Teksas El Paso'su atlasta ayrı kayıt olarak yok |
+| Gaşun Gobi | data/yerlesimler_ek21.js:143 | EMRELİC ölçütü: Qing lig/aymak bağlılığı (Halha aymakları = Dış, ligler = İç). Nokta (42.50, 103.00) Gashun Nur/Ejina (Alxa ligi) bölgesine yakın → İç Moğolistan olasılığı; kaynak (Atwood 2004 vb.) okunmadı → ÖNERİ kalır |
+| Alaşa kuzeyi | data/yerlesimler_ek21.js:146 | Alaşa = Alxa ligi → EMRELİC ölçütüyle İç Moğolistan; nokta (42.40, 105.50) bugünkü sınırın hangi tarafında? Kaynak okunmadı → ÖNERİ kalır |
 
 Toplam 30 alan düzeltmesi, 30 künye.
