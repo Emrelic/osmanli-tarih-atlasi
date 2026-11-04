@@ -88,6 +88,10 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
      - Hükümdar sıra numaraları Roma rakamıyla yazılır (Мехмед II).
      - MÖ → до н. э., MS → н. э. Ay adları küçük harfle ve hâl ekiyle yazılır ("29 мая 1453").
      - Ё harfi yalnız yerleşik adlarda kullanılır (Пётр). Tırnak «…».
+     - **Söz dizimi Rusçanın doğal sırasıdır**, Türkçenin değil.
+       - `#` yer tutucuları cümle içinde yer değiştirebilir.
+       - Birden çok `#` varsa birbirlerine göre sıraları korunur: ilk `#` ilk sayıdır.
+       - Örnekler: "# başı" → «начало #», "Haziran # ortası" → «середина июня #», "# sonu" → «конец #», "# civarı" → «около #», "Ağustos # başı" → «начало августа #».
    - **Emin değilsen:** özel adı modern Türkçe yazımıyla, Latin harfle bırak. Kiril harfine **çevirme**; uydurma ad üretme. Örnek: az bilinen bir kasaba ya da beylik adı Türkçe kalır.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
