@@ -4,22 +4,22 @@
   "d": "rusya-gecici-hukumet",
   "f": "1917-03-15",
   "satir": 119,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: Marquette Üniv. ders sayfası (academic.mu.edu/meissnerd/russian-rev.htm), Slavic Review (Cambridge) 'February 23 and March 8', Miami Üniv. 1917 zaman çizelgesi, prlib.ru (bot kontrolü), Treccani (madde açılmadı), history.state.gov (404)",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "Presidential Library (prlib.ru) «День в истории» — Император Николай II отрёкся от престола — https://www.prlib.ru/history/619096 (LAB SALI TK-RUS-157, DOGRULANDI)",
+  "alinti": "2 (15) марта 1917 года ... подписал ... Акт об отречении",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Çift tarihli (Jülyen+Gregoryen) akademik kaynak okunamadı. Okunanlar yetersiz: Slavic Review 'March 12 (February 27)' = Duma Geçici Komitesi kuruluşu, hükümet değil; Miami Üniv. yalnız 'March 2' (takvimsiz). Arama özeti (okunmadı, ipucu): Lvov hükümeti/tahttan çekilme 2 Mart O.S. = 15 Mart N.S.; 1917-03-15 bu ipucuyla tutarlı. Künye f=küme f tutarlı. Bilinen istisna bölgeler: 1917'de Alman işgalindeki Kurland/Litvanya/Polonya (Ventspils dahil olabilir; Kurland 1915'ten Alman işgali), Finlandiya Büyük Dükalığı. t: 1917-11-07 N.S. (25 Ekim O.S.) teyit edilmedi."
+  "not": "Çift tarih kaynakta: Jülyen 2 Mart = Gregoryen 15 Mart 1917; atlas N.S. Kaynak tahttan çekilme gününü tarihliyor; Geçici Hükümet aynı gün kuruldu (EMRELİC kararı, 5 Kas: TAKVIM-1104 kaynağı küme kaynağıdır). | önceki: ÜLKE DÜZEYİ. Çift tarihli (Jülyen+Gregoryen) akademik kaynak okunamadı. Okunanlar yetersiz: Slavic Review 'March 12 (February 27)' = Duma Geçici Komitesi kuruluşu, hükümet değil; Miami Üniv. yalnız 'March 2' (takvimsiz). Arama özeti (okunmadı, ipucu): Lvov hükümeti/tahttan çekilme 2 Mart O.S. = 15 Mart N.S.; 1917-03-15 bu ipucuyla tutarlı. Künye f=küme f tutarlı. Bilinen istisna bölgeler: 1917'de Alman işgalindeki Kurland/Litvanya/Polonya (Ventspils dahil olabilir; Kurland 1915'ten Alman işgali), Finlandiya Büyük Dükalığı. t: 1917-11-07 N.S. (25 Ekim O.S.) teyit edilmedi."
  },
  {
   "alan": "s",
   "d": "sovyet-rusya",
   "f": "1917-11-07",
   "satir": 115,
-  "hukum": "BULUNAMADI",
-  "kaynak": "Bakılan: Marquette Üniv. sayfası (academic.mu.edu/meissnerd/russian-rev.htm), Miami Üniv. 1917 çizelgesi, Britannica (403), history.state.gov (404)",
-  "alinti": "",
+  "hukum": "KAYNAKLI",
+  "kaynak": "Presidential Library (prlib.ru) «День в истории» — День Октябрьской революции 1917 года — https://www.prlib.ru/history/619694 (LAB SALI TK-RUS-160, DOGRULANDI)",
+  "alinti": "низложение Временного правительства ... 25 октября (7 ноября) 1917 г.",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ. Okunan akademik sayfalar 25 Ekim (O.S.) dışında tutarsız (Marquette 'November 6 (October 26)' yazıyor, 7 Kasım vermiyor; Miami '25 Ekim' takvimsiz). Çift tarihli kaynak bulunamadı. İpucu (arama özeti, okunmadı): iktidar el değiştirmesi gecesi 24-25 Ekim O.S. = 6-7 Kasım N.S.; Sovnarkom 26 Ekim O.S. = 8 Kasım N.S. Gün hükmü: 1917-11-07 makul ama kaynakla kapatılamadı; 8 Kasım (Sovnarkom/Kışlık Saray 25-26 Ekim O.S.) alternatifi var. Künye f=küme f. Bilinen istisna: Alman işgalindeki Kurland/Litvanya/Polonya, Ukrayna/Finlandiya/Baltık ve Kafkasya (1917-18 fiilen Sovyet dışı); bu yüzden t_dagilim'de 1918-11-18 gibi farklılıklar. Bitiş günleri (1991-12-26 vb.) teyit edilmedi."
+  "not": "Çift tarih kaynakta: Jülyen 25 Ekim = Gregoryen 7 Kasım 1917; atlas N.S. (EMRELİC kararı, 5 Kas). | önceki: ÜLKE DÜZEYİ. Okunan akademik sayfalar 25 Ekim (O.S.) dışında tutarsız (Marquette 'November 6 (October 26)' yazıyor, 7 Kasım vermiyor; Miami '25 Ekim' takvimsiz). Çift tarihli kaynak bulunamadı. İpucu (arama özeti, okunmadı): iktidar el değiştirmesi gecesi 24-25 Ekim O.S. = 6-7 Kasım N.S.; Sovnarkom 26 Ekim O.S. = 8 Kasım N.S. Gün hükmü: 1917-11-07 makul ama kaynakla kapatılamadı; 8 Kasım (Sovnarkom/Kışlık Saray 25-26 Ekim O.S.) alternatifi var. Künye f=küme f. Bilinen istisna: Alman işgalindeki Kurland/Litvanya/Polonya, Ukrayna/Finlandiya/Baltık ve Kafkasya (1917-18 fiilen Sovyet dışı); bu yüzden t_dagilim'de 1918-11-18 gibi farklılıklar. Bitiş günleri (1991-12-26 vb.) teyit edilmedi."
  },
  {
   "alan": "s",
@@ -96,7 +96,7 @@
   "kaynak": "Bakılan: history.state.gov Indonesia milestones (404); countrystudies.us/indonesia/16.htm (arama özeti; sayfa açılmadı); Cambridge/UNC özetleri",
   "alinti": "",
   "oneri": {},
-  "not": "ÜLKE DÜZEYİ ama SORUNLU. 1945-09-02 Japonya'nın resmî teslim günü; Hollanda'nın bu tarihte toprağı fiilen yönettiğine dair kaynak yok. Arama özeti: Endonezya 17 Ağustos 1945'te ilan etti, Hollanda egemenlik devri 27 Aralık 1949; Hollanda'nın dönüşü 1945 sonu. KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda, 1949-12-27'ye kadar - yani küme yerleşim-bazlı fiilî dönüş günleri ister, tek ülke günü olmaz. KÜNYE: künye f=1602-03-20 (VOC), küme f=1945-09-02 künye içinde ama 1942-45 Japon işgali ayrı isg katmanı olmalı. t=1949-12-27 doğru görünüyor (özet). Koordinatör kararı gerek."
+  "not": "EMRELİC (5 Kas): yerleşim izine verildi — Endonezya kuralı rakip hükûmet ve fiilî yönetim; Japon teslimi tek başına s: vermez; NICA dönüşü şehir şehir kaynakla. | ÜLKE DÜZEYİ ama SORUNLU. 1945-09-02 Japonya'nın resmî teslim günü; Hollanda'nın bu tarihte toprağı fiilen yönettiğine dair kaynak yok. Arama özeti: Endonezya 17 Ağustos 1945'te ilan etti, Hollanda egemenlik devri 27 Aralık 1949; Hollanda'nın dönüşü 1945 sonu. KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda, 1949-12-27'ye kadar - yani küme yerleşim-bazlı fiilî dönüş günleri ister, tek ülke günü olmaz. KÜNYE: künye f=1602-03-20 (VOC), küme f=1945-09-02 künye içinde ama 1942-45 Japon işgali ayrı isg katmanı olmalı. t=1949-12-27 doğru görünüyor (özet). Koordinatör kararı gerek."
  },
  {
   "alan": "s",

@@ -116,11 +116,11 @@
    "d": "rusya",
    "f": "1838-01-01",
    "t": "1854-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "ESBE «Туапсе» (А. Ф. Селиванов), ru.wikisource.org/wiki/ЭСБЕ/Туапсе [19. yy kaynağı]",
    "alinti": "На месте Т. в 1838 г. был построен Вельяминовский форт",
    "oneri": {},
-   "not": "f ucu YIL (1838) teyitli, gün teyitsiz; t ucu YIL (1854, 'покинут и взорван'). Kaynak kale kuruluşunu anlatır; idareye katma belgesi (vergi/defter) okunmadı, ÖLÇÜT: kaynak susuyor. Jülyen/Gregoryen farkı yıl düzeyinde etkisiz."
+   "not": "ESBE ipucu (Brockhaus-Efron 1890-1907) — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas). | f ucu YIL (1838) teyitli, gün teyitsiz; t ucu YIL (1854, 'покинут и взорван'). Kaynak kale kuruluşunu anlatır; idareye katma belgesi (vergi/defter) okunmadı, ÖLÇÜT: kaynak susuyor. Jülyen/Gregoryen farkı yıl düzeyinde etkisiz."
   },
   {
    "dosya_satir": "data/yerlesimler.js:763",
@@ -128,11 +128,11 @@
    "d": "cerkez",
    "f": "1854-01-01",
    "t": "1864-02-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "ESBE «Туапсе» (А. Ф. Селиванов), ru.wikisource.org/wiki/ЭСБЕ/Туапсе [19. yy kaynağı]",
    "alinti": "но во время Восточной войны, в 1854 г., был покинут и взорван",
    "oneri": {},
-   "not": "f ucu YIL (1854) teyitli. t ucu: Şubat 1864 Rus işgali (sıra 3). Çerkez denetimi doğrudan cümle değil ÇIKARIM: 1854-1864 arası Rus varlığı yok."
+   "not": "ESBE ipucu (Brockhaus-Efron 1890-1907) — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas). | f ucu YIL (1854) teyitli. t ucu: Şubat 1864 Rus işgali (sıra 3). Çerkez denetimi doğrudan cümle değil ÇIKARIM: 1854-1864 arası Rus varlığı yok."
   },
   {
    "dosya_satir": "data/yerlesimler.js:763",
@@ -140,11 +140,11 @@
    "d": "rusya",
    "f": "1864-02-01",
    "t": "1917-03-15",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "ESBE «Туапсе» (А. Ф. Селиванов), ru.wikisource.org/wiki/ЭСБЕ/Туапсе [19. yy kaynağı]",
    "alinti": "генерал Гейман занял Вельяминовский форт (февраль 1864 г.)",
    "oneri": {},
-   "not": "f ucu AY (1864-02) teyitli, gün yok; atlas 1864-02-01 ayın 1'i beyanlı. Jülyen: ESBE eski takvimle verir, 'Jülyen Şubat 1864' gün çevrilmedi. 'занял' askerî işgal; idareye katma belgesi okunmadı (TEK KURAL: karar LAB'a)."
+   "not": "ESBE ipucu (Brockhaus-Efron 1890-1907) — KAYNAKLI'dan indirildi (EMRELİC, 5 Kas). | f ucu AY (1864-02) teyitli, gün yok; atlas 1864-02-01 ayın 1'i beyanlı. Jülyen: ESBE eski takvimle verir, 'Jülyen Şubat 1864' gün çevrilmedi. 'занял' askerî işgal; idareye katma belgesi okunmadı (TEK KURAL: karar LAB'a)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:763",
