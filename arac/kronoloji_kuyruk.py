@@ -716,6 +716,16 @@ METIN = [
     ("L2-1301", "[BEKLE — olay karışıklığı] Galata 1296: Galata mı Pera mı yakıldı belirsiz; «Venedik-Ceneviz savaşı» Bizans-Venedik savaşıyla karışmış olabilir"),
     ("L2-1307", "[BEKLE — ad çelişkisi] Beloozero 1314: Roman'ın baba adı Glebovich / Mikhailovich çelişkili (yalnız Vikipedi)"),
     ("L2-1304", "Taisei / Eiji (Chūzan seikan 1650, ja.wikisource) yıl tutar; Taisei'nin ölümü Zhida 1/12/8 muhtemelen Ocak 1309 → NAOJ / Academia Sinica çevirisiyle ic_not; modern teyit (Smits, Kerr) açılmadı"),
+    # L2S 891-902 (S44)
+    ("L2-1285", "Mayıs Darbesi 1903-06-11: Tokovi istorije «May 28-29 1903» Jülyen + 13 = 11 Haziran Gregoryen → atlas doğru, ic_not «kaynak O.S. 29 Mayıs»"),
+    ("L2-1290", "Japonya'nın savaşa girişi 1914-08-23: TDV «japonya» günü birebir verir → kaynak alanındaki «TDV'de yok» yanlış, TDV ile değişir"),
+    ("L2-1294", "Aleksandros'un ölümü 1920-10-25 Gregoryen (Dimitriadis & Karamanou, Bull Acad Natl Med 2020): Jülyen 12 Ekim → ic_not; kaynak alanındaki History.com akademik değil → değişir; «Venizelos seçimleri kaybetti» okunmadı"),
+    ("L2-1295", "Kantō Depremi 1923-09-01 11:58 M7,9 (Nipponica, Heibonsha, Yamakawa): «100.000'i aşkın ölü» akademik kaynakta okunmadı, TDV 60.000 → rakam kaynaklanır ya da aralık verilir"),
+    ("L2-1296", "Dauphiné 1282 (HLS, Wildermann) yıl tutar; HLS Anna'yı adıyla anmaz → ad çıkarım, işaretlenir"),
+    ("L2-1293", "[BEKLE — gün yok] Pirinç Ayaklanmaları 1918-08-03: Heibonsha başlangıç 23 Temmuz 1918 (Uozu), Ağustos'ta gazeteyle yayıldı; 3 Ağustos hiçbir akademik kaynakta yok → başlık 23 Temmuz'a ya da Ağustos günü için monografi"),
+    ("L2-1297", "[BEKLE — yıl] Beloozero Mikhail 1283: PSRL X kronik alıntısı dönüşü 6795 (1285) altında; Vikipedi 1286 / 1283 kendi içinde çelişir; 1283 hiçbir yerde okunmadı"),
+    ("L2-1287", "Karadağ anayasası 1905-12-19: Nikoljdan 6 Aralık O.S. = 19 Aralık N.S. (atlasla uyumlu); gün cümlesi akademik kaynakta okunmadı (Istorijski zapisi 2010/4 özet); UCG 31 Ekim proklamasyonu → ic_not"),
+    ("L2-1288", "[BEKLE — ders slaytı] Nikola'nın kral ilanı 1910-08-28: «15 avgust 1910» O.S. = 28 Ağustos N.S. (atlasla uyumlu; UCG ders slaytı, hakemli değil)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
