@@ -768,6 +768,12 @@ METIN = [
     ("L2-896", "[BEKLE — metin] Grenada Coard «başbakanlığı» 1983-10-14: okunan derleme Bishop'ı 19 Ekim'e dek başbakan anar; Coard'ın başbakanlığı desteklenmedi → Payne-Sutton-Thorndike (1984) okunmadan karar yok"),
     ("L2-902", "[BEKLE — ay çelişkisi] Namibya TGNU feshi 1989-02-28: ABD Dışişleri 1989 insan hakları raporu «Mart 1989» der; BM S/20788 okunamadı (403)"),
     ("L2-891", "Kampuçya 1981-06-27: Pen Sovan başbakan atanması (Larousse Année 1981) gün tutar; Meclis 24-27 Haziran, anayasanın yürürlük günü (25 Haziran?) okunmadı → madde metni hangi olayı tarihliyor netleşmeli"),
+    # İkinci geçiş IG9
+    ("L2-846", "PNG seçimi 1964-02-15 (Bettison-Hughes-van der Veur, ANU Press 1965): oy verme 15 Şubat başladı, bitiş bölgeye göre 2-18 Mart → maddedeki «15 Mart» bitişi kaynakta yok, düzeltilmeli"),
+    ("L2-852", "Lüksemburg Jean 1964-11-12: dayanak gouvernement.lu resmî biyografisi (devlet yayını, akademik değil); CVCE tarayıcıda okunacak"),
+    ("L2-876", "[BEKLE — gün] Laos Kaysone başbakanlığı: ipucu 2 Aralık 1975 (kongre), atlas 8 Aralık yalnız popüler siteye dayanıyor"),
+    ("L2-878", "[BEKLE — gün] Bougainville: ABG Memoir imza günü 1976-08-07, atlas 08-09; ANU Press yalnız yıl veriyor"),
+    ("L2-886", "[BEKLE — metin] Kongo 1979: ipucu 5 Şubat Yhombi-Opango düşürüldü, 8 Şubat Sassou geçici başkan → madde iki olayı ayırmalı"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
