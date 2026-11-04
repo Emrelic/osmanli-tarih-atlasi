@@ -1,0 +1,671 @@
+{
+ "Zaklise (Zakynthos)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1840",
+   "alan": "s",
+   "d": "napoli",
+   "f": "1281-01-01",
+   "t": "1479-08-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Gedik Ahmed Paşa, https://islamansiklopedisi.org.tr/gedik-ahmed-pasa (sayfa.py); Yedi Ada Cumhuriyeti https://islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti",
+   "alinti": "1479’da Ege’de Kefalonya, Zanta ve Ayamavra’yı zaptetti.",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor: Osmanlı fethi 1479 (YIL; atlas 1479-08-01 günü teyitsiz). SAHİP UYARISI: TDV Mehmed II 'Tocco hânedanına ait Ayamavra, Kefalonya ve Zanta adalarını aldı'; yani önceki sahip Tocco dukalığı (Napoli Krallığı vasalı/akrabası), 'napoli' sahipliği kaynakta okunmadı; Tocco künyesi var mı LAB'a soru. f=1281 ufuk kesiği."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1840",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1797-10-17",
+   "t": "1800-03-21",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yedi Ada Cumhuriyeti, https://islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti (sayfa.py)",
+   "alinti": "Avusturya, Fransa ile 17 Ekim 1797’de Campo-Formio Antlaşması’nı imzaladı. ... 5. maddesi Venedik’e ait İyonya adalarının Fransa’ya bırakılmasını öngörüyordu.",
+   "oneri": {},
+   "not": "f 1797-10-17 imza günü teyitli (ÜLKE/ADA GRUBU DÜZEYİ: Zanta adıyla geçmiyor, 'İyonya adaları'). TEK ÖLÇÜ: Fransa Korfu'yu fiilen elinde tutuyor, imza günü. t=1800-03-21 TEYİT EDİLMEDİ ve ÇELİŞKİLİ: aynı madde 'Müttefik donanma ise ilk olarak 1799’da Zanta’yı ele geçirdi' (Zanta adıyla, YIL). Yani Zaklise'de Fransız dilimi 1799'da bitiyor; 1799-1800 Rus-Osmanlı işgali (atlas 'bu dilimi karşılayan devlet kimliği yok' beyanı mevcut)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1840",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1807-07-07",
+   "t": "1815-11-05",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yedi Ada Cumhuriyeti, https://islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti (sayfa.py)",
+   "alinti": "İngiliz kuvvetleri 1809’da Zanta, Kefalonya ve Çuka’da, 1810’da Ayamavra’da, 1814’te Pakso’da denetimi sağladılar.",
+   "oneri": {
+    "t": "1809"
+   },
+   "not": "t: TDV Zanta'yı adıyla 1809'da İngiliz denetimine koyuyor (YIL) -> atlas 1815-11-05 ile çelişir; 1809-1815 arası İngiliz fiilî denetim (isg ingiltere adayı; hukukî devir 1815-11-05 Paris, ÖLÇÜT: geçici/askerî), s birlesik-iyon-adalari 1815-11-05'ten. f: aynı madde 'Tilsitt 9 Temmuz 1807' (imza, atlas 07-07) ve 'Fransa ... 17.000 askerini yollayarak Yedi Ada’yı teslim aldı' (teslim günü verilmiyor). TEK ÖLÇÜ: Fransa o sırada fiilen yönetmiyor (Rus garnizonu), teslim günü kaynakta yok -> f seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1840",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1864-06-02",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yedi Ada Cumhuriyeti, https://islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti (sayfa.py)",
+   "alinti": "Yunanistan 21 Mayıs 1864’te adaları mülkiyetine geçirdi ve Kont Dimitrios Nikolaou Karousos’ı yöneticiliğe tayin etti.",
+   "oneri": {},
+   "not": "TDV 21 Mayıs 1864 der, takvim belirtmiyor. Yunanistan Jülyen kullandı: Jülyen 21 Mayıs 1864 = Gregoryen 2 Haziran 1864 (atlas hedef f 1864-06-02 ile uyumlu, ama TDV takvimi beyan etmediği için KAYNAKLI sayılmadı; 12 gün farkı LAB doğrular). Zincirde f 1864-05-21 görünüyor; kayıt dönüşümü ayrıca kontrol edilmeli. Londra 29 Mart 1864 devir antlaşması (TDV). t=1973-06-01 bu alıntıyla teyit edilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1840",
+   "alan": "d",
+   "d": "",
+   "f": "1479-08-01",
+   "t": "1482-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Gedik Ahmed Paşa https://islamansiklopedisi.org.tr/gedik-ahmed-pasa; Yedi Ada Cumhuriyeti https://islamansiklopedisi.org.tr/yedi-ada-cumhuriyeti (sayfa.py)",
+   "alinti": "Gedik Ahmed Paşa kumandasındaki Osmanlı donanması ... Ayamavra, Kefalonya ve Zanta’yı fethetti (884/1479). Fâtih’in ölümü üzerine bu hâkimiyet son buldu.",
+   "oneri": {},
+   "not": "f: fetih 1479 (YIL; gün teyitsiz; hicrî 884). t: 'Fâtih’in ölümü üzerine' son buldu; Fâtih'in ölümü TDV Mehmed II: 4 Rebîülevvel 886 (3 Mayıs 1481) -> t en erken 1481-05-03 civarı; atlas t 1482-01-01 (Venedik satın alması) TDV'de yok, Zaklise'ye özgü gün yok. İki ucu da seçmedim. ÖLÇÜT (tahrir): sancağa bağlama/defter okunmadı; ÜLKE DÜZEYİ fetih cümlesi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Tuzla (Larnaka)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1928",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1878-06-04",
+   "t": "1960-08-16",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kıbrıs https://islamansiklopedisi.org.tr/kibris ; Larnaka https://islamansiklopedisi.org.tr/larnaka (sayfa.py)",
+   "alinti": "Aynı gün Kıbrıs’ın İngiltere geçici idaresi altına girdiği resmen ilân edildi.",
+   "oneri": {
+    "f": "1878-07-15"
+   },
+   "not": "TDV Kıbrıs: 4 Haziran 1878 anlaşma İMZA ('fiilen yerleşmesine zemin hazırlayacak'), 1 Temmuz ek anlaşma, 15 Temmuz 1878 padişah onayı ve aynı gün geçici idarenin resmen ilânı. TEK ÖLÇÜ: İngiltere imza gününde adayı yönetmiyor -> devir/fiilî idare günü 1878-07-15 (yürürlük/onay). ÖLÇÜT: idareye katma DEĞİL geçici idare — TDV: Abdülhamid'in 'egemenlik haklarına zarar gelmemesi' şartı; İngiltere 5 Kasım 1914'te 'resmen ilhak etti' (TDV). Yani 1878-1914 Osmanlı egemenliği sürdü: LAB kararı (d osmanli + isg ingiltere 1878-07-15->1914-11-05, s ingiltere 1914-11-05'ten mi). Larnaka maddesi: '1878’de Kıbrıs’ın idaresi İngilizler’e devredilince Larnaka da onların kontrolü altına girdi' (yıl). t 1960-08-16: bkz. 642."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1928",
+   "alan": "s",
+   "d": "kibris-krallik",
+   "f": "1281-01-01",
+   "t": "1489-02-26",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Larnaka https://islamansiklopedisi.org.tr/larnaka (sayfa.py); Kıbrıs https://islamansiklopedisi.org.tr/kibris",
+   "alinti": "Lusignan hânedanı bu tarihten sonra geriledi ve 1473’te adanın yönetimi Venedik’e devredilince Larnaka da Venedikliler’in yönetimi altına girdi.",
+   "oneri": {
+    "t": "1473"
+   },
+   "not": "İKİ TDV MADDESİ ÇELİŞİYOR: Larnaka (şehir maddesi) Venedik yönetimini 1473'te başlatıyor; Kıbrıs maddesi 'Venedik’in Kıbrıs’taki hâkimiyeti 1489-1571' diyor (atlas t=1489-02-26). ÇİFT-TDV kuralı: üçüncü bağımsız kaynak aranmadı; şehir maddesi esas -> 1473 (YIL), Kıbrıs 1489 beyan. Seçimi LAB verir. f=1281 ufuk kesiği."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1928",
+   "alan": "d",
+   "d": "",
+   "f": "1570-09-09",
+   "t": "1878-06-04",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Larnaka https://islamansiklopedisi.org.tr/larnaka (sayfa.py); Kıbrıs https://islamansiklopedisi.org.tr/kibris",
+   "alinti": "29 Muharrem 978’de (3 Temmuz 1570) Larnaka körfezine demir atan donanma ertesi gün ... karaya asker çıkardı ... önemli bir direnişle karşılaşmadan şehri ele geçirdi.",
+   "oneri": {
+    "f": "1570-07"
+   },
+   "not": "Larnaka'ya özgü: donanma 3 Temmuz 1570 geldi, ertesi gün çıkarma, şehir 'önemli direnişle karşılaşmadan' alındı -> ay hassasiyeti 1570-07 (alınış günü cümlede yok, gün uydurulmadı). Atlas 1570-09-09 = Kıbrıs maddesinin Lefkoşe fethi günü (TDV: 'Osmanlı topraklarına katılması 8 Rebîülâhir 978’de (9 Eylül 1570) Lefkoşe’nin fethiyle başlamış', Magosa 1 Ağustos 1571, hukuken 7 Mart 1573 antlaşma). ÖLÇÜT: idareye katma — TDV: Tuzla kaza olarak örgütlendi, 1572 mufassal tahrir; fetih gününden d. Hangi gün: LAB (Larnaka 1570-07 / ada 1570-09-09). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1928",
+   "alan": "s",
+   "d": "kibris-cumhuriyeti",
+   "f": "1960-08-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kıbrıs https://islamansiklopedisi.org.tr/kibris (sayfa.py)",
+   "alinti": "Kıbrıs Cumhuriyeti 15-16 Ağustos 1960 gece yarısı resmen ilân edilmiş, böylece Kıbrıs’ta egemenlik Kıbrıs Türk ve Rum halkına devredilmiştir.",
+   "oneri": {},
+   "not": "f 1960-08-16 teyitli (gece yarısı 15-16 Ağustos; TDV ayrıca 16 Ağustos 1960'ta Türk ve Yunan birliklerinin çıkışını yazar). ÜLKE DÜZEYİ; Larnaka (İngiliz Üs Bölgeleri dışı) için ada kuralı. t=2000-12-31 ufuk."
+  }
+ ],
+ "Sömbeki (Simi)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1816",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1310-08-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Oniki Ada https://islamansiklopedisi.org.tr/oniki-ada ; Rodos https://islamansiklopedisi.org.tr/rodos (sayfa.py)",
+   "alinti": "1309 yılından beri Saint Jean şövalyelerinin elinde bulunan Rodos ve Oniki Ada 1522’de Kanûnî Sultan Süleyman tarafından fethedildi.",
+   "oneri": {
+    "t": "1309"
+   },
+   "not": "Alıntı yalnız t ucunu tarihliyor (1309 YIL; atlas 1310-08-15). TDV Rodos: 1309'a kadar adalar 'Bizanslılar, Cenevizliler ve Venedikliler arasında çekişmelere' sahne oldu -> sahip 'bizans' doğrulanmadı (ÜLKE/ADA GRUBU DÜZEYİ, Sömbeki adıyla yalnız idari bölümde geçer). f=1281 ufuk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1816",
+   "alan": "s",
+   "d": "rodos-sovalyeleri",
+   "f": "1310-08-15",
+   "t": "1522-12-21",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Oniki Ada https://islamansiklopedisi.org.tr/oniki-ada (sayfa.py)",
+   "alinti": "1309 yılından beri Saint Jean şövalyelerinin elinde bulunan Rodos ve Oniki Ada 1522’de Kanûnî Sultan Süleyman tarafından fethedildi.",
+   "oneri": {
+    "f": "1309"
+   },
+   "not": "TDV 1309 (YIL, Rodos ve Oniki Ada) der; atlas 1310-08-15. KÜNYE AŞIMI: rodos-sovalyeleri künye f 1310-01-01, 1309 künye dışı (künye mi genişler dönem mi 1310'da kalır: LAB). Aynı alıntı t ucunu 1522 (YIL) verir; gün için bkz. d satırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1816",
+   "alan": "d",
+   "d": "",
+   "f": "1522-12-21",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Rodos https://islamansiklopedisi.org.tr/rodos ; Oniki Ada https://islamansiklopedisi.org.tr/oniki-ada (sayfa.py)",
+   "alinti": "Zorlu ve kanlı çarpışmalar neticesinde 1 Safer 929’da (20 Aralık 1522) diğer adalarla birlikte Rodos’u fethetti.",
+   "oneri": {
+    "f": "1522-12-20"
+   },
+   "not": "TDV Rodos 20 Aralık 1522 (hicrî 1 Safer 929) verir, atlas 12-21; takvim (Jülyen/Gregoryen) belirtilmemiş, 1 gün fark LAB. Oniki Ada maddesi ÖLÇÜT idareye katma: adalar 'tahrir sistemiyle belirlenmiş statü, padişah haslarına ve timarlara bölünmüştü', 'Rodos sancağı Rodos, Sömbeki ve Kerpe kazalarından oluşuyordu' ('Herke ve Meis Rodos’a bağlı') -> d doğru. t=1923-07-24 (isg italya 1912-05 TDV: Rodos 17 Mayıs 1912'de işgal; Lozan 24 Temmuz 1923 imza, İtalya 11 Ocak 1924 onay) bu satırda teyit edilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Herke (Halki)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1819",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1310-08-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Oniki Ada https://islamansiklopedisi.org.tr/oniki-ada ; Rodos https://islamansiklopedisi.org.tr/rodos (sayfa.py)",
+   "alinti": "1309 yılından beri Saint Jean şövalyelerinin elinde bulunan Rodos ve Oniki Ada 1522’de Kanûnî Sultan Süleyman tarafından fethedildi.",
+   "oneri": {
+    "t": "1309"
+   },
+   "not": "Alıntı yalnız t ucunu tarihliyor (1309 YIL; atlas 1310-08-15). TDV Rodos: 1309'a kadar adalar 'Bizanslılar, Cenevizliler ve Venedikliler arasında çekişmelere' sahne oldu -> sahip 'bizans' doğrulanmadı (ÜLKE/ADA GRUBU DÜZEYİ, Herke adıyla yalnız idari bölümde geçer). f=1281 ufuk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1819",
+   "alan": "s",
+   "d": "rodos-sovalyeleri",
+   "f": "1310-08-15",
+   "t": "1522-12-21",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Oniki Ada https://islamansiklopedisi.org.tr/oniki-ada (sayfa.py)",
+   "alinti": "1309 yılından beri Saint Jean şövalyelerinin elinde bulunan Rodos ve Oniki Ada 1522’de Kanûnî Sultan Süleyman tarafından fethedildi.",
+   "oneri": {
+    "f": "1309"
+   },
+   "not": "TDV 1309 (YIL, Rodos ve Oniki Ada) der; atlas 1310-08-15. KÜNYE AŞIMI: rodos-sovalyeleri künye f 1310-01-01, 1309 künye dışı (künye mi genişler dönem mi 1310'da kalır: LAB). Aynı alıntı t ucunu 1522 (YIL) verir; gün için bkz. d satırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1819",
+   "alan": "d",
+   "d": "",
+   "f": "1522-12-21",
+   "t": "1923-07-24",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Rodos https://islamansiklopedisi.org.tr/rodos ; Oniki Ada https://islamansiklopedisi.org.tr/oniki-ada (sayfa.py)",
+   "alinti": "Zorlu ve kanlı çarpışmalar neticesinde 1 Safer 929’da (20 Aralık 1522) diğer adalarla birlikte Rodos’u fethetti.",
+   "oneri": {
+    "f": "1522-12-20"
+   },
+   "not": "TDV Rodos 20 Aralık 1522 (hicrî 1 Safer 929) verir, atlas 12-21; takvim (Jülyen/Gregoryen) belirtilmemiş, 1 gün fark LAB. Oniki Ada maddesi ÖLÇÜT idareye katma: adalar 'tahrir sistemiyle belirlenmiş statü, padişah haslarına ve timarlara bölünmüştü', 'Rodos sancağı Rodos, Sömbeki ve Kerpe kazalarından oluşuyordu' ('Herke ve Meis Rodos’a bağlı') -> d doğru. t=1923-07-24 (isg italya 1912-05 TDV: Rodos 17 Mayıs 1912'de işgal; Lozan 24 Temmuz 1923 imza, İtalya 11 Ocak 1924 onay) bu satırda teyit edilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "İskiathos": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1828",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1453-05-29",
+   "t": "1538-08-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Barbaros Hayreddin Paşa https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa (sayfa.py)",
+   "alinti": "1538 baharında Ege denizine açılarak Eğriboz’un güneyindeki Paros, Antiparos, Skyros, Egina (Ekin), Naksos (Nakşa), Andros ... adaları ... Osmanlı idaresine kattı.",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ: İskiathos adıyla geçmiyor (Skyros geçiyor); TDV 1538 baharı. Atlas t=1538-08-01 ('Kuzey Sporadlar' maddesi) 'bahar' ile uyumsuz görünüyor ama ada adıyla teyit yok. TDV'de 'İskiyatos' araması sonuçsuz. Alıntı yalnız t ucunu (yıl/mevsim) tarihliyor; f=1453-05-29 ve sahip venedik okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1828",
+   "alan": "s",
+   "d": "bizans",
+   "f": "1281-01-01",
+   "t": "1453-05-29",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: TDV arama 'iskiyatos' (sonuç yok); TDV Barbaros Hayreddin Paşa (ada adıyla yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İskiathos'un 1281-1453 sahibi Bizans mı Venedik/Latin mi kabul edilen kaynakta bulunamadı; Treccani/Hrvatska enc. bakılmadı (Yunan ada, Trecc. yok varsayımı). Atlas bizans kaydı tanıksız; yerleşim bu dönemde var mıydı + sahip için Yunan akademik kaynak (örn. Lock/Setton, Papacy and the Levant) aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1828",
+   "alan": "d",
+   "d": "",
+   "f": "1538-08-01",
+   "t": "1830-02-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Barbaros Hayreddin Paşa https://islamansiklopedisi.org.tr/barbaros-hayreddin-pasa (sayfa.py)",
+   "alinti": "1538 baharında Ege denizine açılarak ... Skyros ... adaları ile ... toplam yirmi sekiz ada ve iki kaleyi Osmanlı idaresine kattı.",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ, ada adıyla yok: Osmanlı idaresine katma 1538 (YIL, 'bahar'); atlas 1538-08-01 gün teyitsiz. ÖLÇÜT: idareye katma ('idaresine kattı') ama tahrir/sancak belgesi okunmadı. t=1830-02-03 teyit edilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Menorka (Mahon)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1886",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Mahón, https://www.treccani.it/enciclopedia/mahon/ (sayfa.py)",
+   "alinti": "divenendo poi possesso dei re aragonesi per la reconquista di Giacomo I nel 1232.",
+   "oneri": {},
+   "not": "Treccani Mahón Aragon hakimiyetini 1232'ye (I. Jaume) bağlar: f=1281 ufuk kesiği, Aragon sahipliği teyitli (ÜLKE DÜZEYİ). t=1479-01-19 (Aragon/Kastilya birliği) tarihlenmedi. TDV Aragon Minorka'yı krallığa dahil sayar (arama özeti, YIL yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1886",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1708-09-29",
+   "t": "1802-03-25",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Treccani Enciclopedia on line, Mahón, https://www.treccani.it/enciclopedia/mahon/ (sayfa.py)",
+   "alinti": "Durante l’amministrazione inglese, iniziata nel 1708 con la conquista di James Stanhope ... Nel 1782, in seguito all’attacco congiunto delle flotte francese e spagnola",
+   "oneri": {
+    "t": "1782"
+   },
+   "not": "f: İngiliz idaresi 1708 (YIL, Stanhope fethi; gün 1708-09-29 teyitsiz) KAYNAKLI düzeyinde. t ÇELİŞKİ: Treccani 1782'de Fransız-İspanyol saldırısı sonrası İngilizler 'tahliye etmek zorunda kaldı', 'da allora Mahón ... fece parte della Spagna, cui fu confermata dal trattato di Amiens' -> fiilî Menorka İspanyol 1782'den; atlas t=1802-03-25 Amiens imzası. TEK KURAL: hukukî devir Amiens (1802) ama fiilî egemenlik 1782 (işgal mi ilhak mı LAB). Seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1886",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1802-03-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Mahón, https://www.treccani.it/enciclopedia/mahon/ (sayfa.py)",
+   "alinti": "Da allora M., insieme con Minorca, fece parte della Spagna, cui fu confermata dal trattato di Amiens.",
+   "oneri": {
+    "f": "1782"
+   },
+   "not": "Treccani İspanya yönetimini 1782'den başlatır, Amiens (yıl alıntıda yok, etiket 'Trattato di Amiens') yalnız teyit eder; atlas f 1802-03-25 Amiens günü. 1708-09-29/1782 ile birlikte karar LAB'ın. t=2000 ufuk."
+  }
+ ],
+ "Kişm (Qeshm)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1911",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1622-04-23",
+   "t": "1736-03-08",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Encyclopaedia Iranica, Qeshm Island, https://www.iranicaonline.org/articles/qeshm-island/ (sayfa.py)",
+   "alinti": "On 2 February 1622 five English guns were landed ... The garrison surrendered ... and a Persian force was installed on the island",
+   "oneri": {
+    "f": "1622-02-02"
+   },
+   "not": "Qeshm'e ÖZGÜ: 2 Şubat 1622'de İngiliz topçusu kaleyi bombaladı, Portekiz garnizonu teslim oldu, adaya Pers kuvveti yerleşti (takvim O.S./N.S. belirtilmemiş, Boxer'dan). Atlas 1622-04-23 = Hürmüz şehrinin düşüşü (TDV hurmuz--iran: 'geri alındı (23 Nisan 1622)'), Kişm'e özgü değil; 1622-05-01 zincirde başka bir t. TEK ÖLÇÜ: Pers fiilî yönetimi 1622-02-02. t=1736-03-08 teyit edilmedi (Iranica: 1683 Hollanda, 1712-17 Umman istilâsı, 1755 Kavâsim ele geçirmesi, 1800 Muscat'a haraç -> Kişm'in 1622-1925 'safevi/afsar/zend/kacar' zinciri tartışmalı). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1911",
+   "alan": "s",
+   "d": "hurmuz-sultanligi",
+   "f": "1281-01-01",
+   "t": "1510-12-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Encyclopaedia Iranica, Qeshm Island (sayfa.py)",
+   "alinti": "From this period onward the island was an important dependency of the Kingdom of Hormuz",
+   "oneri": {},
+   "not": "Iranica: 1301'de Hürmüz hükümdarı sarayını Kişm'e taşıdı; 'bu dönemden itibaren' Hürmüz Krallığı'nın önemli bağımlı adası. Sahip hurmuz-sultanligi teyitli, f=1281 ufuk kesiği. t=1510-12-02 TEYİT EDİLMEDİ: Iranica Kişm'i 1552'de hâlâ 'Hormuzi mercantile center' sayar; 1510-15 safevi dilimini desteklemez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1911",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1515-04-01",
+   "t": "1622-04-23",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Encyclopaedia Iranica, Qeshm Island (sayfa.py)",
+   "alinti": "Two thousand Portuguese soldiers, supported by 1,000 Hormuzi troops, landed on 7 May 1621. They drove off the Persians",
+   "oneri": {
+    "f": "1621-05-07",
+    "t": "1622-02-02"
+   },
+   "not": "Iranica Kişm'de Portekiz idaresini 7 Mayıs 1621 çıkarmasından başlatır (öncesi: adada Pers garnizonu, Portekiz kale yapmak için 'dislodge' etti; 1514/15 Hürmüz vasallığı adaya Portekiz egemenliği getirmiyor). t 1622-02-02 (bkz. safevi satırı). ÇELİŞKİ: atlas Portekiz 1515-1622 tüm dilimi Kişm'de Iranica ile uyuşmuyor; 1515-1621 arası sahip (Hürmüz vasalı mı, Pers mi) belirsiz. TDV Hürmüz: Portekiz Hürmüz adasını 1514'te aldı, adaya özgü. Karar LAB. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Karistos (Kızılhisar)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1940",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1470-07-12",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eğriboz https://islamansiklopedisi.org.tr/egriboz (sayfa.py)",
+   "alinti": "Venedikliler 1304’te burayı müstahkem hale getirdiler ve 1470’e kadar Ege’deki en geli...",
+   "oneri": {},
+   "not": "ABİ MERKEZ/ADA DÜZEYİ: Eğriboz (Negroponte) şehri/adası; Karistos adıyla TDV'de geçmez. t 1470 (YIL; atlas 1470-07-12 gün teyitsiz). TDV: Eğriboz 1204 sonrası Venedikliler'in kontrolüne girdi (Karistos'un 1281-1470 arası Lombard baronlarına mı Venedik'e mi bağlı olduğu okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1940",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1831-01-01",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eğriboz https://islamansiklopedisi.org.tr/egriboz (sayfa.py)",
+   "alinti": "Savaş süresince Osmanlılar’ın elinde kalan şehir, barış antlaşması yürürlüğe girdikten sonra 1831’de Yunanlılar’a verildi.",
+   "oneri": {},
+   "not": "ÜLKE/ADA DÜZEYİ (Eğriboz şehri); f 1831 YIL düzeyi (gün 01-01 teyitsiz; Londra 1830 protokolü ve 1832 İstanbul antlaşması ayrımı LAB). t=1973-06-01 teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1940",
+   "alan": "d",
+   "d": "",
+   "f": "1470-07-12",
+   "t": "1831-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eğriboz https://islamansiklopedisi.org.tr/egriboz (sayfa.py)",
+   "alinti": "Osmanlı hâkimiyeti döneminde (1470-1831) önemli bir den...",
+   "oneri": {},
+   "not": "ABİ MERKEZ Eğriboz; Osmanlı dönemi 1470-1831 (YIL, iki uç da yıl düzeyinde). Gün 1470-07-12 ve 1831-01-01 teyitsiz. Karistos'a özgü tahrir/sancak belgesi okunmadı (ÖLÇÜT: Eğriboz sancağı). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Ösek (Osijek)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1775",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1281-01-01",
+   "t": "1526-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Hrvatska enciklopedija, Osijek, https://www.enciklopedija.hr/clanak/osijek (WebFetch özeti; sayfa.py SSL hatası verdi)",
+   "alinti": "Nakon osmanskoga osvojenja 1526. postao je snažnim vojnim uporištem",
+   "oneri": {},
+   "not": "WebFetch özeti. Osmanlı fethi 1526 (YIL, gün yok); atlas t=1526-09-01 gün teyitsiz. Alıntı yalnız t ucunu tarihliyor. f=1281 ufuk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1775",
+   "alan": "d",
+   "d": "",
+   "f": "1526-09-01",
+   "t": "1687-09-29",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Hrvatska enciklopedija, Osijek, https://www.enciklopedija.hr/clanak/osijek (WebFetch özeti)",
+   "alinti": "Nakon oslobođenja od osmanske vlasti 26. IX. 1687., grad je ponovno 1690. opsjela osmanska vojska",
+   "oneri": {
+    "t": "1687-09-26"
+   },
+   "not": "WebFetch özeti. t: 26 Eylül 1687 (gün verilmiş); atlas 1687-09-29 (3 gün fark; takvim belirtilmemiş, Gregoryen varsayımı). f: 1526 YIL. Not: Habsburg adı geçmiyor, 'oslobođenje'. TEK ÖLÇÜ: devralan (Habsburg) yer fiilen yönettiğine göre s macaristan-habsburg f=teslim günü; Osijek teslimi 26 IX (hukuki: Karlofça 1699 'ic_not'a). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Baç (Bács)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1778",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1281-01-01",
+   "t": "1526-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Hrvatska enciklopedija, Bač, https://www.enciklopedija.hr/clanak/bac (WebFetch özeti)",
+   "alinti": "Pod osmansku vlast došao je 1529.",
+   "oneri": {
+    "t": "1529"
+   },
+   "not": "WebFetch özeti; sayfanın Bač (Vojvodina) maddesi olduğu doğrulanmadı (koordinat 45.76,19.24 ile uyumlu). Osmanlı yönetimi 1529 (YIL) vs atlas 1526-09-01 -> ÇELİŞKİ, ABİ MERKEZ/Mohaç sonrası Budin 1526 sahipliği ile; seçilmedi. TDV 'Baç' maddesi yok (arama sonucu madde dışı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1778",
+   "alan": "d",
+   "d": "",
+   "f": "1526-09-01",
+   "t": "1687-09-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, Bač (WebFetch özeti)",
+   "alinti": "Pod osmansku vlast došao je 1529.",
+   "oneri": {
+    "f": "1529"
+   },
+   "not": "WebFetch özeti. f: 1529 (YIL). t=1687-09-06: Bač maddesinde 1687/Habsburg geçmiyor (yalnız 'Bač je stradao za Rákóczyjeve bune 1703.') -> t BULUNAMADI (Magyar Katolikus Lexikon/Srpska enc. bakılmadı). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Hatvan": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1782",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1281-01-01",
+   "t": "1544-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Magyar Katolikus Lexikon, Hatvan, https://lexikon.katolikus.hu/H/Hatvan.html (sayfa.py)",
+   "alinti": "1544: harc nélkül elesett. Fontos török közig. székhely volt.",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor: Hatvan 1544'te savaşsız düştü (YIL; atlas 1544-09-01 gün teyitsiz). TDV Budin: Hatvan Budin vilâyeti sancağı (yıl yok). f=1281 ufuk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1782",
+   "alan": "d",
+   "d": "",
+   "f": "1544-09-01",
+   "t": "1686-09-02",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Magyar Katolikus Lexikon, Hatvan (sayfa.py); TDV Budin https://islamansiklopedisi.org.tr/budin (sayfa.py)",
+   "alinti": "1596: a ker. csapatok rövid időre visszafoglalták, de végleg csak 1678: szabadult fel.",
+   "oneri": {},
+   "not": "f 1544 YIL teyit ('harc nélkül elesett', török közigazgatma merkezi; TDV Budin: Hatvan sancak -> d, ÖLÇÜT idareye katma). t ÇELİŞKİ: Lexikon 'végleg csak 1678' (kesin kurtuluş) der, atlas 1686-09-02 (TDV Budin 2 Eylül 1686 Budin zaptı, Hatvan'a özgü değil). 1678 yazım hatası mı bilinmiyor; seçilmedi. TDV Budin: 1596'da Hatvan sancağı yeni Eğri eyaletine aktarıldı (ic_not). | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Termiye (Kythnos)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1803",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1566-04-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nakşa https://islamansiklopedisi.org.tr/naksa (sayfa.py)",
+   "alinti": "Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ (Nakşa Dukalığı); ada adıyla yok. 1537-38 Osmanlı kontrolü, 1540 antlaşma ile hukukî devir, 1566'da düklük Yasef Nasi'ye verildi (haraçgüzâr vasal). Atlas t=1566-04-15 Nakşa kronolojisi maddesi; TDV'de 1566 yalnız Nasi'ye verme (Giacomo'nun kaçışı Kasım 1566). SAHİP UYARISI: 1205-1566 egemen Nakşa (Arkhipelagos) Dukalığı (Sanudo), 'venedik' değil; künyesi var mı LAB. f=1281 ufuk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1803",
+   "alan": "d",
+   "d": "",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nakşa https://islamansiklopedisi.org.tr/naksa (sayfa.py)",
+   "alinti": "Nakşa ve civar adaları bir sancak haline getirilip Süleyman Bey ilk sancak beyi olarak tayin edildi.",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ. ÖLÇÜT (tahrir/sancak): Nakşa ve civar adalar sancak yapıldı (1579'da Nasi'nin ölümü sonrası, yıl cümlede yok). Adaylar: 1537-38 kontrol, 1540 antlaşma, 1566 Nasi (vasal), ~1579 sancak; atlas 1566-04-15 hiçbirini birebir tutmuyor. tahrir ölçütü: sancak ~1579 sonrası. Seçilmedi. t=1830-02-03 teyit edilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Mikonos": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1807",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1566-04-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nakşa https://islamansiklopedisi.org.tr/naksa (sayfa.py)",
+   "alinti": "Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ (Nakşa Dukalığı); ada adıyla yok. 1537-38 Osmanlı kontrolü, 1540 antlaşma ile hukukî devir, 1566'da düklük Yasef Nasi'ye verildi (haraçgüzâr vasal). Atlas t=1566-04-15 Nakşa kronolojisi maddesi; TDV'de 1566 yalnız Nasi'ye verme (Giacomo'nun kaçışı Kasım 1566). SAHİP UYARISI: 1205-1566 egemen Nakşa (Arkhipelagos) Dukalığı (Sanudo), 'venedik' değil; künyesi var mı LAB. f=1281 ufuk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1807",
+   "alan": "d",
+   "d": "",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nakşa https://islamansiklopedisi.org.tr/naksa (sayfa.py)",
+   "alinti": "Nakşa ve civar adaları bir sancak haline getirilip Süleyman Bey ilk sancak beyi olarak tayin edildi.",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ. ÖLÇÜT (tahrir/sancak): Nakşa ve civar adalar sancak yapıldı (1579'da Nasi'nin ölümü sonrası, yıl cümlede yok). Adaylar: 1537-38 kontrol, 1540 antlaşma, 1566 Nasi (vasal), ~1579 sancak; atlas 1566-04-15 hiçbirini birebir tutmuyor. tahrir ölçütü: sancak ~1579 sonrası. Seçilmedi. t=1830-02-03 teyit edilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Folegandros": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1811",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1281-01-01",
+   "t": "1566-04-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nakşa https://islamansiklopedisi.org.tr/naksa (sayfa.py)",
+   "alinti": "Nakşa ve civarındaki adalar, 944-945 (1537-1538) yıllarında Barbaros Hayreddin Paşa’nın adalar seferiyle Osmanlı kontrolü altına girdi.",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ (Nakşa Dukalığı); ada adıyla yok. 1537-38 Osmanlı kontrolü, 1540 antlaşma ile hukukî devir, 1566'da düklük Yasef Nasi'ye verildi (haraçgüzâr vasal). Atlas t=1566-04-15 Nakşa kronolojisi maddesi; TDV'de 1566 yalnız Nasi'ye verme (Giacomo'nun kaçışı Kasım 1566). SAHİP UYARISI: 1205-1566 egemen Nakşa (Arkhipelagos) Dukalığı (Sanudo), 'venedik' değil; künyesi var mı LAB. f=1281 ufuk."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1811",
+   "alan": "d",
+   "d": "",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Nakşa https://islamansiklopedisi.org.tr/naksa (sayfa.py)",
+   "alinti": "Nakşa ve civar adaları bir sancak haline getirilip Süleyman Bey ilk sancak beyi olarak tayin edildi.",
+   "oneri": {},
+   "not": "BÖLGE DÜZEYİ. ÖLÇÜT (tahrir/sancak): Nakşa ve civar adalar sancak yapıldı (1579'da Nasi'nin ölümü sonrası, yıl cümlede yok). Adaylar: 1537-38 kontrol, 1540 antlaşma, 1566 Nasi (vasal), ~1579 sancak; atlas 1566-04-15 hiçbirini birebir tutmuyor. tahrir ölçütü: sancak ~1579 sonrası. Seçilmedi. t=1830-02-03 teyit edilmedi. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  }
+ ],
+ "Rab (Arbe)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1859",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1806-01-01",
+   "t": "1809-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, Rab (otok), https://www.enciklopedija.hr/clanak/rab-otok (WebFetch özeti)",
+   "alinti": "otok je 1805. bio priključen Napoleonovim Ilirskim pokrajinama.",
+   "oneri": {},
+   "not": "WebFetch özeti. Rab maddesi 1805'te Napolyon'un 'Illyrian Provinces'ına katılma der (anakronik: eyaletler 1809'da kuruldu; atlas ENKLAV-0072 de aynı uyarıyı yapıyor). Krk maddesi 1806 Kingdom of Italy (kayıtta). Rab'a özgü 1806 İtalya Krallığı cümlesi okunmadı; seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1859",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1809-01-01",
+   "t": "1813-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Hrvatska enciklopedija, Rab (otok) (WebFetch özeti)",
+   "alinti": "Od 1813. do 1918. bio je pod austrijskom vlašću.",
+   "oneri": {},
+   "not": "WebFetch özeti. t 1813 (YIL) Avusturya yönetiminin başlangıcı -> atlas t=1813-01-01 yıl düzeyinde uyumlu; alıntı yalnız t ucunu tarihliyor. f=1809: Rab maddesi eyalet katılımını 1805 verir, 1809 teyitsiz."
+  }
+ ],
+ "Bastia (Korsika)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1883",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1794-06-15",
+   "t": "1796-10-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Corsica, https://www.treccani.it/enciclopedia/corsica/ (sayfa.py); TDV İslâm Ansiklopedisi, Korsika https://islamansiklopedisi.org.tr/korsika (sayfa.py)",
+   "alinti": "la campagna di Napoleone in Italia costrinse gli Inglesi a evacuare l’isola (1796), che da allora seguì le sorti della Francia.",
+   "oneri": {},
+   "not": "ÇİFT TEYİT (YIL): Treccani 'Inglesi ... evacuare l’isola (1796)' ve TDV Korsika 'ada İngilizler’in eline geçmiş ve 1796’da tekrar Fransa’ya iade edilmiştir'. Alıntı yalnız t ucunu tarihliyor (atlas 1796-10-01, gün teyitsiz). f=1794-06-15: TDV'de 1794 yok, Treccani'de 1794 yok (Paoli 1793'te İngiltere'yi çağırdı) -> f teyitsiz. Bastia için ada düzeyi (ADA/ÜLKE DÜZEYİ); ÖLÇÜT: Anglo-Korsika Krallığı idareye katma (parlamento) kaynakta okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1883",
+   "alan": "s",
+   "d": "cenova",
+   "f": "1281-01-01",
+   "t": "1768-05-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Corsica (sayfa.py); TDV İslâm Ansiklopedisi, Korsika (sayfa.py)",
+   "alinti": "Genova, per non perdere la C. senza compensi, cedette i propri diritti in cambio di sussidi finanziari (trattato di Versailles, 1768).",
+   "oneri": {},
+   "not": "ÇİFT TEYİT (YIL 1768): Treccani Versailles 1768 + TDV 'Nihayet 1768’de Ceneviz ... adayı Fransa’ya satmıştır'. Alıntı yalnız t ucunu tarihliyor; gün 05-15 teyitsiz. Treccani: Fransız askerî idaresi 1769 (Pontenuovo) sonrası; Compiègne 1764'te Fransa kilit kalelerde garnizon -> TEK ÖLÇÜ imza günü. f=1281 ufuk."
+  }
+ ],
+ "Ayacyo (Ajaccio)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1884",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1794-06-15",
+   "t": "1796-10-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Corsica, https://www.treccani.it/enciclopedia/corsica/ (sayfa.py); TDV İslâm Ansiklopedisi, Korsika https://islamansiklopedisi.org.tr/korsika (sayfa.py)",
+   "alinti": "la campagna di Napoleone in Italia costrinse gli Inglesi a evacuare l’isola (1796), che da allora seguì le sorti della Francia.",
+   "oneri": {},
+   "not": "ÇİFT TEYİT (YIL): Treccani 'Inglesi ... evacuare l’isola (1796)' ve TDV Korsika 'ada İngilizler’in eline geçmiş ve 1796’da tekrar Fransa’ya iade edilmiştir'. Alıntı yalnız t ucunu tarihliyor (atlas 1796-10-01, gün teyitsiz). f=1794-06-15: TDV'de 1794 yok, Treccani'de 1794 yok (Paoli 1793'te İngiltere'yi çağırdı) -> f teyitsiz. Ajaccio için ada düzeyi (ADA/ÜLKE DÜZEYİ); ÖLÇÜT: Anglo-Korsika Krallığı idareye katma (parlamento) kaynakta okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1884",
+   "alan": "s",
+   "d": "cenova",
+   "f": "1281-01-01",
+   "t": "1768-05-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Corsica (sayfa.py); TDV İslâm Ansiklopedisi, Korsika (sayfa.py)",
+   "alinti": "Genova, per non perdere la C. senza compensi, cedette i propri diritti in cambio di sussidi finanziari (trattato di Versailles, 1768).",
+   "oneri": {},
+   "not": "ÇİFT TEYİT (YIL 1768): Treccani Versailles 1768 + TDV 'Nihayet 1768’de Ceneviz ... adayı Fransa’ya satmıştır'. Alıntı yalnız t ucunu tarihliyor; gün 05-15 teyitsiz. Treccani: Fransız askerî idaresi 1769 (Pontenuovo) sonrası; Compiègne 1764'te Fransa kilit kalelerde garnizon -> TEK ÖLÇÜ imza günü. f=1281 ufuk."
+  }
+ ],
+ "Trapani": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1936",
+   "alan": "s",
+   "d": "sicilya-kralligi",
+   "f": "1281-01-01",
+   "t": "1282-03-30",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Trapani, https://www.treccani.it/enciclopedia/trapani/ (sayfa.py)",
+   "alinti": "T. partecipò alla rivolta dei Vespri contro gli Angioini; accolse per prima Pietro d’Aragona (1282)",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor: Vespri isyanına katılma ve Pietro d'Aragona'yı kabul (1282, YIL). Atlas t=1282-03-30 (Vespri günü) ve Aragon'un Trapani'ye çıkışı 30 Ağustos 1282 (künye sicilya-aragon f) bu alıntıda gün olarak yok. Sahip: Treccani 'Angioini' der (sicilya-kralligi künyesi = Anjou Sicilya'sı). f=1281 ufuk."
+  }
+ ]
+}
