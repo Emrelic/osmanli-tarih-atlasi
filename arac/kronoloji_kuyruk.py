@@ -23,6 +23,10 @@ BEKLET = {
     "L2-365": "tek, Wiesbaden belediye sitesi",
     "L2-370": "tek, K. Dierks kişisel Namibya kronolojisi",
     "L2-371": "tek, K. Dierks kişisel Namibya kronolojisi",
+    "L2-397": "Elsass-Lothringen: yasa 1871-06-09 (RGBl 1871 Nr.25, 14 Haziran yayım; LeMO); 28 Haziran metinde yok — yürürlük günü olabilir, bulunmadı → aday",
+    "L2-158": "Kolomna 1385-03-25: Lavrentyev monografisi yalnız AYNA sitede (history.wikireading.ru) okundu; PSRL dipnotları sayfada yok → yayıncı/PSRL teyidi tarayıcı kuyruğunda",
+    "L2-380": "Jonker Afrikaner'in ölümü: aday 1861-08-16 — Pool, PhD Stellenbosch 1995 yalnız ÖZET okundu; 18 Ağustos yalnız kişisel site + Vikipedi; tam metin (403) tarayıcı kuyruğunda; L2-381 ile birlikte değişir",
+    "L2-381": "Jonker Afrikaner'in ölümü: L2-380 ile aynı karar",
     "L2-372": "İngiliz Burma: aday 1853-01-20 (NAM, ilan); 1852-12-20 yalnız özette → Aitchison'da İLHAK BİLDİRİSİ tarihi ile Rangoon İLAN günü ayrı bulunacak; tek kurala göre s: değişimi bildiri tarihi",
     "L2-341":"Man Adası 1828: dayanak yalnız EB1911 (eski başvuru, en çok KISMEN) → tek başına düzeltme dayanağı değil; akademik kaynak aranacak",
     "L2-144":"Chūzan seikan (17. yy resmî derleme) tek başına KISMEN; modern akademik teyit (CHJ / Kerr, Okinawa) gelene kadar atlas günü kalır",
@@ -46,6 +50,11 @@ ISARETLE = [
 ]
 # Metin düzeltmeleri (tarih kalır; koordinatör kararı, EMRELİC 1 KASIM, 4 Kasım 2026).
 METIN = [
+    ("L2-398", "Aşanti Pra geçişi: atlas «Aralık 1872», EB1911 «22 January 1873» (tek kaynak) → yıl 1873 tutuyor, metindeki ay düzeltilir ya da beyan"),
+    ("L2-400", "at sayısı «~1.100» → Handbook of Texas «more than 1,400 captured»"),
+    ("L2-386", "«~400 kişi» 22 Mayıs Captain George'un gelişine değil 4 Haziran teslimine ait (Chalfant 1933)"),
+    ("L2-385", "6 Ekim antlaşmasını Indian agent Wentworth yaptı; Wasson yalnız Paiute'leri topladı (Chalfant 1933)"),
+    ("L2-158", "Kolomna: Sergius'un aracılığıyla iade KANITLANMAMIŞ varsayım (Tula ile takas) — Lavrentyev; ifade yumuşatılır"),
     ("L2-366", "Venedik 1848-08-07: gün doğru (The Spectator 19.8.1848); yetkiyi Manin değil Castelli başkanlığındaki geçici hükümet devretti (Treccani DBI) → özne düzeltilir"),
     ("L2-369", "Venedik teslimi 1849-08-22: belgeyi Avusturya generali Gorzkowski imzaladı, Manin teslim kararını verdi (Treccani) → ifade kaynağa uydurulur"),
     ("L2-368", "Roma Cumhuriyeti: madde iki olayı 30 Haziran'a koyuyor → İKİ AYRI MADDE ya da başlık ayrımı (koordinatör): 1 Temmuz 1849 ateşkes, 2 Temmuz Garibaldi'nin ayrılışı (Britannica); 30 Haziran çöküşü yalnız popüler site"),
