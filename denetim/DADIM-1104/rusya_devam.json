@@ -1,0 +1,21 @@
+{
+ "toplam": 299,
+ "f_dagilim": [
+  [
+   "1991-12-26",
+   298
+  ],
+  [
+   "1991-12-25",
+   1
+  ]
+ ],
+ "sapan": [
+  {
+   "yer": "Viipuri (Vyborg)",
+   "dosya_satir": "data/yerlesimler_avrupa.js:383",
+   "simdiki": "s: rusya-federasyonu f=1991-12-25 · öncül sovyet-rusya t=1991-12-25",
+   "oneri": "f=1991-12-26 (142-N; devamcı devlet istisnası)"
+  }
+ ]
+}

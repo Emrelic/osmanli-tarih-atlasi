@@ -245,6 +245,51 @@ Bu karar TBMM 1920 ve Ege 1912 kararlarıyla tutarlıdır.
     - Arras 1482'de Auxerre Marguerite'in çeyizine yazıldı (yalnız Cosmovisions). Bu, 1482-1493 arası ayrı bir dilim demek olabilir; ölçülmedi.
   - **B5:** Besançon'a dokunulmaz. Dole 1479-05-25 teyit edilemedi. Franche-Comté olayları ic_not'a.
 
+## 9. Koordinatör kararları, gece partisi (EMRELİC, 4 Kasım 2026)
+Kararlar dadim_sonuc.json'daki ilgili ONERI satırlarının `not` alanına işlendi: 12 yerleşim, 23 satır. Günler her yerde kaynaktan alınacak.
+- **Varşova ve Krakov:**
+  - Generalgouvernement **ilhak değildir**, bu yüzden `s: polonya` sürer.
+  - `isg almanya` başlangıcı: Varşova'da 1939-09-28 teslimi, Krakov'da Eylül 1939 girişi. Bitiş 1945-01'deki kurtuluş.
+  - Kaynaksız 1939-10-06 düşer.
+  - 1945 sonrası için Lublin Komitesi/TRJN künyesi ölçülecek.
+- **Vilnius:**
+  - 1915-18: `isg almanya`. `s: rusya` Brest-Litovsk'a (1918-03-03) kadar sürer, sonra litvanya.
+  - 1919-20 ve Żeligowski sonrası: `isg polonya`.
+  - `s: polonya` 1922-03-24'ten başlar. 1923 tanıması ic_not'a yazılır.
+- **Murzuk:**
+  - `s: italya` 1947-09-15'e kadar; `isg fransa` 1943-01-07'den.
+  - 1947-09-15 ile 1951-12-24 arasında hukukî egemen yok. Kudüs 1948 ilkesine göre `s: fransa`.
+  - 1951-12-24'ten sonra libya.
+  - Fransız askerinin 1955-08'de çekilişi ic_not'a yazılır.
+- **Pûne, Gazne, Taşkent:** üçü de kurala uygun.
+  - Pûne: `s: maratha` 1818'deki teslim ya da ilhaka kadar sürer.
+  - Taşkent: `s: rusya` 1866 ilhakından başlar.
+- **Ahmedâbâd:** Bombay Başkanlığı toprağıdır, bu yüzden 1947-08-15. TDV'deki 1948 üçüncü bir kaynakla çürütülür ve ic_not'a yazılır.
+- **Zaria ve Katsina:**
+  - Önce iki TDV maddesinin aynı şehri anlatıp anlatmadığı ölçülecek.
+  - Üçüncü kaynak: Last, *The Sokoto Caliphate* ya da CHA V.
+- **Kaşgar:** soru açık bırakılır, üçüncü kaynak gerekiyor.
+- **Atina** (Şam emsali):
+  - `s: yunanistan` 1822'den.
+  - 1827-06'da `d: Osmanlı`.
+  - 1833'ten itibaren yeniden yunanistan.
+
+## 10. Evren 2: kronolojide en çok anılan 500 yerleşim (`evren2.json`, `evren2.py`)
+Ölçüm: ceb0ce402 üzerinde.
+- **Sayım yöntemi:**
+  - 167 dosya (`olaylar*.js` ve `kronoloji_sinir*.js`) taranır; yorum satırları ile `kaynak:` alanları atılır.
+  - Kesme işaretinden sonraki ek atılır, metinde 1-3 kelimelik dizilerin sayısı çıkarılır.
+  - Her yerleşim **ana adının** (parantez öncesi) kaç kez geçtiği sayılır. Evren 1'deki yerleşimler sayıma alınmaz.
+- **Elenenler:**
+  - Bölge, kıyı ve vadi noktaları.
+  - `_yt_` dosyalarında devlet adıyla aynı adı taşıyan yer tutucular (Mısır, İtalya…).
+  - Ana adı başka bir yerleşimle ortak olan parantezli adaşlar (Roma (Queensland)).
+  - Cins kelime ve kaynak adı listesi (Cambridge, Ordu, Kara, Bulgar…).
+- **Sonuç:** 2.812 aday arasından 500 yerleşim seçildi; eşik 17 anılma. İlk sıradakiler: Babil 325, Halep 257, Edirne 239, Bombay 210, Musul 190.
+  - 5.314 dönemin 2.347'si hedef (kaynağı boş ya da DEVRALMA).
+  - 39 parti var (`db_q01`–`q39`, 13'erli).
+- **Sınır:** sayım ad eşleşmesine dayanır. Kalan gürültü: bölge adları (Mora, Girit, Erdel), Haliç, Chengdu/Çengdu adaş çifti (mükerrer adayı, KASA-YER). Sıralamadaki yeri yaklaşıktır.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
