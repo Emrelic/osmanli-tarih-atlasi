@@ -584,6 +584,7 @@ tabi:[{ f:"1475-06-06", t:"1774-07-21", ust:"osmanli" }]
 | `f` | tâbiliğin BAŞLADIĞI gün (ISO) |
 | `t` | tâbiliğin BİTTİĞİ gün — **bir SINIR, bir "yıkılış" değil** |
 | `ust` | ÜST devletin `id:`i — `data/devletler.js`te var olan bir kimlik |
+| `yazi` | *(isteğe bağlı, POSTIT-178)* etikette "<üst>'e tâbi" yerine bu yazı ("Moğol vesayeti"). `ust` yoksa yalnız ETİKET: gövde rengi değişmez |
 
 **ÖLÇÜLEN KULLANIM (11 Ekim 2026):** **17 kayıt / 16 künye.** Bir künye birden
 çok dilim taşıyabilir (`dulkadir` · `misir-kavalali` · `karadag` ikişer).
