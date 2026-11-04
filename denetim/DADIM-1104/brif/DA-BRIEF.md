@@ -128,6 +128,13 @@ Aşağıdaki TEK KURAL bu ölçütün uygulamasıdır, onun yerine geçmez. Öl�
     - Altta `s: fas` sürer.
     - Tanca ayrıdır (uluslararası bölge künyesi).
   - Cezayir himaye değildir: fetih ve ilhak (1830-34 `isg`, `s: fransa` 1834-07-22).
+- **EMRELİC gece-33 kararları (5 Kasım 2026):**
+  - **Poznan (ve Poznań eyaleti):** 1918-12-27 (ayaklanma) → 1919-06-28 `d: almanya` + `isg polonya` (Naczelna Rada Ludowa, ic_not). `s: polonya` Versay imzası 1919-06-28'den; yürürlük 1920-01-10 ic_not'a. Draç emsali DEĞİL, Trento emsali.
+  - **Eski Alman/Avusturya toprağında ayaklanma ve fiilî denetim, antlaşmadan önce:** aynı desen (`d: eski` + `isg yeni`, `s:` imza günü).
+  - **Mevsim tarihleri:** "1386-1387 kışı" → aralığa düşen ilk yıl başı (1387-01-01), not "[1386-87 kışı; yalnız mevsim]".
+  - **Eğri teslimi 1687-12-14 (TDV):** dönem ile kronoloji maddesi aynı commit'te taşınır.
+  - **Bukovina / Çernovitz:** habsburg t 1918-11-12. Rakip hükûmet: Ukrayna 1918-11-06, Romanya 1918-11-11.
+  - **Rus himayesi (Megrelya vb.):** `v: rusya` + `s: <prenslik>` künye t'sine kadar sürer.
 - **Lübnan kıyısı (EMRELİC gece-10):** 1918-10'dan `d: osmanli` + `isg fransa`. `s:` Fransız mandası 1920-09-01'den (Büyük Lübnan). 1920-07-25 yalnız iç Suriye içindir.
 - **Hukukî iade + fiilî çekiliş (EMRELİC, 4 Kasım 2026 gece-4):**
   - Hukukî devir antlaşması ile idare birlikte kurulduysa `s:` antlaşma gününden başlar (Petsamo: Moskova Mütarekesi 1944-09-19; Gîlân: Reşt 1732-02-01).
