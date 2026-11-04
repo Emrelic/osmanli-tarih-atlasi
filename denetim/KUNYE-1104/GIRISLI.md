@@ -99,25 +99,22 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `sidamo-kralliklari` 1281-01-01 → 1897-01-01 — 0 / 0 / 0
 - `vollayta-kralligi` 1281-01-01 → 1894-01-17 — 0 / 0 / 0
 
-### New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV (29 künye, Σ yer-yıl 19332)
+### New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV (25 künye, Σ yer-yıl 17163)
 - `racput` 1000-01-01 → 1947-08-15 — 3959 / 19 / 23
 - `ahom` 1281-01-01 → 1826-02-24 — 1375 / 3 / 3
 - `nayak-devletleri` 1336-01-01 → 1763-01-01 — 1208 / 8 / 8
 - `kalacuri-tripuri` 0850-01-01 → None — 1001 / 1 / 1
-- `travankur` 1281-01-01 → 1949-07-01 — 890 / 2 / 2
 - `orissa` 1000-01-01 → 1568-01-01 — 861 / 3 / 3
 - `nepal` 1000-01-01 → None — 800 / 1 / 2
 - `seylan-sinhala` 1070-01-01 → 1518-01-01 — 777 / 4 / 4
 - `yadava` 1187-01-01 → 1318-01-01 — 712 / 15 / 15
 - `kalikut` 1100-01-01 → 1766-01-01 — 709 / 2 / 2
 - `sikkim-krallik` 1642-01-01 → 1975-05-16 — 667 / 2 / 2
-- `manipur` 1281-01-01 → 1949-10-15 — 662 / 1 / 2
 - `bati-ganga` 0350-01-01 → 1004-01-01 — 554 / 1 / 1
 - `ladak` 1281-01-01 → 1834-01-01 — 553 / 1 / 1
 - `gond-kralliklari` 1301-01-01 → 1781-01-01 — 521 / 2 / 2
 - `pallava` 0350-01-01 → 0897-01-01 — 457 / 1 / 1
 - `meysur-racaligi` 1799-05-04 → 1947-08-15 — 445 / 3 / 3
-- `bundela-orcha` 1531-01-01 → 1948-01-01 — 417 / 1 / 1
 - `kandy` 1469-01-01 → 1815-03-02 — 346 / 1 / 1
 - `yafna` 1281-01-01 → 1619-02-01 — 338 / 1 / 1
 - `kakatiya` 1163-01-01 → 1323-01-01 — 335 / 8 / 8
@@ -127,7 +124,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `pandya` 1190-01-01 → 1323-01-01 — 240 / 8 / 8
 - `kocin` 1102-01-01 → 1503-01-01 — 223 / 1 / 1
 - `madurai-sultanligi` 1335-01-01 → 1378-01-01 — 215 / 5 / 5
-- `cunagadh` 1748-01-01 → 1948-02-20 — 200 / 1 / 1
 - `kanva` -0074-01-01 → -0029-01-01 — 45 / 1 / 1
 
 ### Cambridge History of the Native Peoples of the Americas I (North America) (26 künye, Σ yer-yıl 13741)
@@ -283,12 +279,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 ### Cambridge History of Russia II (Lieven, ed.: Imperial Russia 1689-1917) / Encyclopedia of Ukraine (1 künye, Σ yer-yıl 1124)
 - `zaporojye` 1552-01-01 → 1775-06-16 — 1124 / 6 / 6
 
-### Gordon, The Marathas (NCHI II.4) (4 künye, Σ yer-yıl 978)
-- `gvalyar` 1731-01-01 → 1948-05-28 — 295 / 2 / 2
-- `kolhapur` 1710-01-01 → 1949-03-01 — 239 / 1 / 1
-- `baroda` 1721-01-01 → 1949-05-01 — 228 / 1 / 1
-- `indor` 1732-07-29 → 1948-05-28 — 216 / 1 / 1
-
 ### UNESCO General History of Africa VI + VIII / Cambridge History of Africa 5 + 8 (1 künye, Σ yer-yıl 893)
 - `liberya` 1822-04-25 → None — 893 / 5 / 5
 
@@ -327,11 +317,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 ### NCMH / Historia de Navarra (1 künye, Σ yer-yıl 596)
 - `navarra` 0824-01-01 → 1620-10-19 — 596 / 2 / 4
 
-### UNESCO General History of the Caribbean / Cambridge History of Latin America (3 künye, Σ yer-yıl 580)
-- `danimarka-bati-hint` 1672-01-01 → 1917-03-31 — 429 / 2 / 2
-- `panama-kanali-bolgesi` 1904-02-26 → 1979-10-01 — 151 / 2 / 2
-- `ispanyol-kuba` 1511-01-01 → 1898-12-10 — 0 / 0 / 0
-
 ### UNESCO General History of Africa V + VI / Cambridge History of Africa 4 + 5 (3 künye, Σ yer-yıl 548)
 - `pedi` 1650-01-01 → 1879-12-02 — 230 / 1 / 1
 - `bundu` 1690-01-01 → 1858-01-01 — 168 / 1 / 1
@@ -347,6 +332,10 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 - `hehe` 1850-01-01 → 1898-07-19 — 49 / 1 / 1
 - `yeke` 1856-01-01 → 1891-12-20 — 36 / 1 / 1
 - `shewa` 1813-01-01 → 1889-03-10 — 0 / 0 / 0
+
+### UNESCO General History of the Caribbean / Cambridge History of Latin America (2 künye, Σ yer-yıl 429)
+- `danimarka-bati-hint` 1672-01-01 → 1917-03-31 — 429 / 2 / 2
+- `ispanyol-kuba` 1511-01-01 → 1898-12-10 — 0 / 0 / 0
 
 ### Cambridge History of Japan III (Medieval Japan) (1 künye, Σ yer-yıl 428)
 - `sanzan` 1322-01-01 → 1429-01-01 — 428 / 4 / 4
