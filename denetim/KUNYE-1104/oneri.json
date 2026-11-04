@@ -580,8 +580,8 @@
 },
 {
 "id": "azuchi-momoyama",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Japan IV — f 1568-10-16 / t 1615-06-04 (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): Nobunaga'nın Kyoto'ya girişi 1568 Ekim (EBSCO Research Starters: ayın 26'sı Japon takvimiyle; Vikipedi bilgi kutusu 18 Ekim 1568) — künyedeki 1568-10-16 ile uyuşmuyor; Osaka kalesinin düşüşü 1615 yıl düzeyinde teyitli, 4 Haziran günü bulunmadı. DUZELT önerilmedi çünkü gün kaynağı akademik değil."
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — Cambridge History of Japan IV, ch.2 (Berry), s.~41: 'In the ninth month of 1568 Nobunaga entered Kyoto' (f AY teyitli — Japon ay takvimi, Eiroku 11/9; günü (9/26) NAOJ tablosuyla çevrilip 1568-10-16 ile karşılaştırılmalı: KASA SALI TAKVIM-CEVIRI.tsv yöntemi; LAB tarayıcısından eco.mtk.nao.ac.jp erişilemedi) · t 1615 bu bölümde yok"
 },
 {
 "id": "guney-ming",
@@ -625,8 +625,8 @@
 },
 {
 "id": "avad",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Richards, The Mughal Empire (NCHI I.5) + Bayly, Indian Society and the Making of the British Empire (NCHI II.1) — f 1722-01-01 / t 1856-02-07 (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): 7 Şubat 1856: İngilizlerin Lucknow'a girip Nevab Vacid Ali Şah'ı tahttan indirdiği tarih olarak ikincil kaynaklarda (gktoday, Vikipedi türevleri); resmî ilhak bildirisi için 13 Şubat 1856 çelişkili ve doğrulanmadı; '7 Şubat antlaşması' diye bir belge bulunamadı. f 1722 araştırılmadı."
+"hukum": "TEYIT",
+"kaynak": "EMRELİC JSTOR — Khorakiwala, Thresholds 41 (2013), s.144 dn.11: 'annexation of Awadh formally took place on 7 February 1856' · Chatterjee, EPW 39/37 (2004): 7 Şubat'ta Outram kralın antlaşmayı reddettiğini bildirdi (t 1856-02-07 GÜN teyitli; ic_not: Dalhousie minute 13 Şubat 1856; f 1722 okunmadı)"
 },
 {
 "id": "kakatiya",
@@ -1008,7 +1008,7 @@
 {
 "id": "eve-notse",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1884-07-05 (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): 5 Temmuz 1884: Nachtigal'in Togoville Kralı Mlapa III ile (imza Plakkou/Bagida'da tarihli metin) Togo himaye antlaşması (Vikipedi Togoville; afrolegends); Notse kentinden hiç söz etmiyor. Himaye ve başka bir şefliğin imzası Notse Birliği'nin sonu değildir (tarih kuralı)."
+"kaynak": "OLAY TÜRÜ YANLIŞ — EMRELİC Cambridge — CHA VI, ch.4, s.~231: 5 Temmuz 1884 Lomé/Togoville'de koruma ilanı; Notsé'den hiç söz edilmiyor. t 1884-07-05 beyanla KALIR (ic_not: '[olay türü yanlış: kıyı şefliğinin himaye antlaşması; Notsé için ayrı kaynak gerek]')"
 },
 {
 "id": "borgu",
@@ -1074,8 +1074,9 @@
 },
 {
 "id": "liberya",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa VI + VIII / Cambridge History of Africa 5 + 8 — f 1822-04-25 / t None (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): 25 Nisan 1822: Sherbro'dan gelen ilk kolonistlerin Christopolis'te Amerikan bayrağı çektiği ikincil özetlerde; Ocak 1822 (Providence Island) ile çelişiyor, Dozoa/Providence kimliği de tartışmalı (Wikipedia 'Providence Island, Liberia'). Birincil metin okunmadı. Uyarı: f bir ACS yerleşim tarihidir; cumhuriyet 1847-07-26. Gün düzeyi muğlak."
+"hukum": "DUZELT",
+"f": "1822-01-01",
+"kaynak": "EMRELİC Cambridge — Cambridge History of Africa V, ch.5, s.~192: yerleşimciler 'arrived in January 1822' → f 1822-04-25 → 1822-01-01, '[yalnız ay teyitli: Ocak 1822]' beyanıyla; ic_not: '25 Nisan 1822 teyitsiz aday (Christopolis bayrak töreni, ikincil kaynak)'; t açık"
 },
 {
 "id": "dan-guro",
@@ -1230,7 +1231,7 @@
 {
 "id": "herero",
 "hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1904-01-12 (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): Herero ayaklanmasının 12 Ocak 1904'te Okahandja'da başladığı sahistory.org.za ve Memorial de la Shoah özetlerinde geçiyor; ancak bu tarih savaşın BAŞLANGICIDIR, Herero polity'sinin sonu değildir (soykırım 1904-1908). Bir Vikipedi sürümü Şubat 1904 diyor, kaynaklar çelişiyor. Künye ucu 'başlangıç günü' olarak gün düzeyinde destekli, polity sonu olarak zayıf."
+"kaynak": "OLAY TÜRÜ YANLIŞ — EMRELİC Cambridge — CHA VI, ch.8, s.464-465: 1904 başı ayaklanmanın BAŞLANGICI; savaştan sonra 'All forms of chieftainship were proscribed' (gün yok). t 1904-01-12 kaynaklı uç bulunana dek KALIR; ic_not: '[olay türü yanlış: savaş başlangıcı; polity sonu savaş sonrası şefliklerin yasaklanması, gün teyitsiz]'. ARANACAK: 1905/1907 Alman Güneybatı Afrikası ordinansları (yerli şeflik ve toprak el koyma) — resmî metin"
 },
 {
 "id": "nama-orlam",
@@ -1549,8 +1550,8 @@
 },
 {
 "id": "buganda",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VIII / Cambridge History of Africa 3 + 8 — f 1300-01-01 / t 1966-05-24 (bölüm: eserin dizininden) · İPUCU (zayıf/ikincil kaynak — Vikipedi, haber, blog; KAYNAK SAYILMAZ, yalnız yol gösterir): 24 Mayıs 1966: Obote'nin emriyle Amin komutasında ordu Kabaka sarayına (Lubiri) saldırdı (Monitor.co.ug, New Vision). Ancak Buganda krallığının hukuken kaldırılması 1967 Anayasası'yla (promulgasyon günü kaynaklarda çıkmadı, bir hafıza kaydı 8 Eylül 1967 ama doğrulanmadı) ve kral 1993'te restore edildi. t=1966-05-24 olay tarihidir, krallığın kaldırılması değil: DUZELT adayı 1967 anayasası (gün teyitsiz)."
+"hukum": "KISMEN",
+"kaynak": "EMRELİC JSTOR — Africa Today 20/2 (1973): 'In May 1966 … direct confrontation' (t AY teyitli; 05-24 günü aranıyor). KARAR (EMRELİC): Uganda egemen devletti, Buganda içinde bir birimdi; birimin fiilen çöktüğü Mayıs 1966 uç olarak kalır; ic_not: 1967 Anayasası ile krallıkların kaldırılışı; f 1300 okunmadı"
 },
 {
 "id": "zulu-kralligi",
