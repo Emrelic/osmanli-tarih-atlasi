@@ -11,7 +11,7 @@
    "kaynak": "Bakılan: TDV delvine (S. Rizaj, 1994) ve TDV arnavutluk (Bilge, 1991) — sayfa.py ham metin",
    "alinti": "",
    "oneri": {},
-   "not": "TDV delvine yalnız «XI-XIII. yüzyıllarda Cermhal tepesinde kale olarak yeniden kuruldu» diyor; 1281-1430 arası Bizans sahipliğini (ya da başka bir sahibi) tarihlemiyor. Epir bölgesinde aynı dilimde Epir Despotluğu/Venedik/Sırp sahiplikleri de söz konusu olabilir; Delvine'ye özgü tanıklık yok."
+   "not": "KARAR EMRELİC (gece-59): Kuzey Epir kuralı: d: osmanli → Yunan girişi (kaynakla) isg yunanistan → 1913-12-17 Floransa → s: arnavutluk (ya da Yunan tahliyesi teslim günü, kaynakla; TEK ÖLÇÜ). 1912-11-15 katılım künye f'den önce, dönem başlatmaz (ic_not); 1912-11-28 Avlonya ilanı ic_not. 1430 v: kaynaksız → d: osmanli 1537-01-01 [yalnız yıl], öncesi yerel/Venedik/Arnavut beylikleri BEYANLI. | TDV delvine yalnız «XI-XIII. yüzyıllarda Cermhal tepesinde kale olarak yeniden kuruldu» diyor; 1281-1430 arası Bizans sahipliğini (ya da başka bir sahibi) tarihlemiyor. Epir bölgesinde aynı dilimde Epir Despotluğu/Venedik/Sırp sahiplikleri de söz konusu olabilir; Delvine'ye özgü tanıklık yok."
   },
   {
    "dosya_satir": "data/yerlesimler_epir.js:174",
@@ -24,10 +24,9 @@
    "kaynak": "TDV delvine, Skënder Rizaj, 1994, https://islamansiklopedisi.org.tr/delvine (sayfa.py)",
    "alinti": "Ancak 1537’ye kadar kesin bir Osmanlı hâkimiyeti sağlanamadı.",
    "oneri": {
-    "f": "1432 (yıl; ilk temas, tâbiiyet değil)",
-    "t": "1537 (yıl)"
+    "f": "1537-01-01"
    },
-   "not": "Alıntı yalnız t ucunu (1537) tarihliyor. f için TDV «Osmanlılar’la ilk teması 1432’de Sinan Paşa’nın akınları» diyor — akın, tâbiiyet değil; 1430-10-09 (Yanya) Delvine'yi kapsadığına dair tanıklık yok. Tahrir ölçütü: kaynak 1537'ye kadar kesin hâkimiyet yok diyor; v dönemi tutmak için ikinci kaynak gerek."
+   "not": "KARAR EMRELİC (gece-59): Kuzey Epir kuralı: d: osmanli → Yunan girişi (kaynakla) isg yunanistan → 1913-12-17 Floransa → s: arnavutluk (ya da Yunan tahliyesi teslim günü, kaynakla; TEK ÖLÇÜ). 1912-11-15 katılım künye f'den önce, dönem başlatmaz (ic_not); 1912-11-28 Avlonya ilanı ic_not. 1430 v: kaynaksız → d: osmanli 1537-01-01 [yalnız yıl], öncesi yerel/Venedik/Arnavut beylikleri BEYANLI. | Alıntı yalnız t ucunu (1537) tarihliyor. f için TDV «Osmanlılar’la ilk teması 1432’de Sinan Paşa’nın akınları» diyor — akın, tâbiiyet değil; 1430-10-09 (Yanya) Delvine'yi kapsadığına dair tanıklık yok. Tahrir ölçütü: kaynak 1537'ye kadar kesin hâkimiyet yok diyor; v dönemi tutmak için ikinci kaynak gerek."
   },
   {
    "dosya_satir": "data/yerlesimler_epir.js:174",
@@ -55,7 +54,7 @@
    "oneri": {
     "f": "1912-11-15"
    },
-   "not": "TDV delvine f için 15 Kasım 1912 diyor; TDV arnavutluk Avlonya ilanını 28 Kasım 1912 veriyor (iki TDV maddesi arası 13 gün; ilan ÖNCESİ katılma tutarsız). KÜNYE AŞIMI: künye arnavutluk-bagimsiz f 1912-11-28; öneri künye f'sinden 13 gün erken. Ayrıca atlas kuralı (Kuzey Epir: Floransa 1913-12-17'ye kadar isg yunanistan) ile çelişir. Karar Emre'nin; ikinci kaynak aranmalı. Çift-TDV kuralı: yerleşimin kendi maddesi esas."
+   "not": "KARAR EMRELİC (gece-59): Kuzey Epir kuralı: d: osmanli → Yunan girişi (kaynakla) isg yunanistan → 1913-12-17 Floransa → s: arnavutluk (ya da Yunan tahliyesi teslim günü, kaynakla; TEK ÖLÇÜ). 1912-11-15 katılım künye f'den önce, dönem başlatmaz (ic_not); 1912-11-28 Avlonya ilanı ic_not. 1430 v: kaynaksız → d: osmanli 1537-01-01 [yalnız yıl], öncesi yerel/Venedik/Arnavut beylikleri BEYANLI. | TDV delvine f için 15 Kasım 1912 diyor; TDV arnavutluk Avlonya ilanını 28 Kasım 1912 veriyor (iki TDV maddesi arası 13 gün; ilan ÖNCESİ katılma tutarsız). KÜNYE AŞIMI: künye arnavutluk-bagimsiz f 1912-11-28; öneri künye f'sinden 13 gün erken. Ayrıca atlas kuralı (Kuzey Epir: Floransa 1913-12-17'ye kadar isg yunanistan) ile çelişir. Karar Emre'nin; ikinci kaynak aranmalı. Çift-TDV kuralı: yerleşimin kendi maddesi esas."
   },
   {
    "dosya_satir": "data/yerlesimler_epir.js:174",
@@ -70,7 +69,7 @@
    "oneri": {
     "f": "1939-04-06"
    },
-   "not": "ÜLKE DÜZEYİ. TDV 6 Nisan 1939 diyor (cümle belirsiz: işgal 6'sı mı, Zogu'nun kaçışı mı); atlas 1939-04-07, künye f 1939-04-12. Bilinen tarih 7 Nisan'dır — TDV tarihi uyuşmuyor, ikinci kaynak olmadan değiştirme. Öneri yalnız TDV'nin yazdığı gün olarak beyan edildi."
+   "not": "KARAR EMRELİC (gece-59): Kuzey Epir kuralı: d: osmanli → Yunan girişi (kaynakla) isg yunanistan → 1913-12-17 Floransa → s: arnavutluk (ya da Yunan tahliyesi teslim günü, kaynakla; TEK ÖLÇÜ). 1912-11-15 katılım künye f'den önce, dönem başlatmaz (ic_not); 1912-11-28 Avlonya ilanı ic_not. 1430 v: kaynaksız → d: osmanli 1537-01-01 [yalnız yıl], öncesi yerel/Venedik/Arnavut beylikleri BEYANLI. | ÜLKE DÜZEYİ. TDV 6 Nisan 1939 diyor (cümle belirsiz: işgal 6'sı mı, Zogu'nun kaçışı mı); atlas 1939-04-07, künye f 1939-04-12. Bilinen tarih 7 Nisan'dır — TDV tarihi uyuşmuyor, ikinci kaynak olmadan değiştirme. Öneri yalnız TDV'nin yazdığı gün olarak beyan edildi."
   },
   {
    "dosya_satir": "data/yerlesimler_epir.js:174",
@@ -109,7 +108,7 @@
    "kaynak": "Bakılan: TDV arnavutluk (1991 baskısı, 1991 sonrası olayları kapsamıyor)",
    "alinti": "",
    "oneri": {},
-   "not": "TDV 1991 baskısıdır; 29 Nisan 1991 anayasal değişiklik ve Cumhuriyet adı bu kaynakta yok. Başka kaynak (Treccani/akademik) bu turda aranmadı ama TDV'nin kapsamadığı görüldü."
+   "not": "KARAR EMRELİC (gece-59): Kuzey Epir kuralı: d: osmanli → Yunan girişi (kaynakla) isg yunanistan → 1913-12-17 Floransa → s: arnavutluk (ya da Yunan tahliyesi teslim günü, kaynakla; TEK ÖLÇÜ). 1912-11-15 katılım künye f'den önce, dönem başlatmaz (ic_not); 1912-11-28 Avlonya ilanı ic_not. 1430 v: kaynaksız → d: osmanli 1537-01-01 [yalnız yıl], öncesi yerel/Venedik/Arnavut beylikleri BEYANLI. | TDV 1991 baskısıdır; 29 Nisan 1991 anayasal değişiklik ve Cumhuriyet adı bu kaynakta yok. Başka kaynak (Treccani/akademik) bu turda aranmadı ama TDV'nin kapsamadığı görüldü."
   }
  ],
  "Cicel": [
@@ -124,9 +123,9 @@
    "kaynak": "TDV cezayir (şehir), arama özeti «1513’ten beri Cicelli’nin hâkimi olan Oruç Reis»; TDV cezayir (ülke, S. Erinç/N. Saîdûnî) ve TDV oruc-reis (sayfa.py)",
    "alinti": "Muvahhidler’den sonra Doğu Cezayir Tunus’taki Hafsî Devleti’ne (1228-1574) tâbi oldu",
    "oneri": {
-    "t": "1513 (yıl; Oruç Reis Cicel'i alınca) — TDV oruc-reis ile çelişkili: 1514 sonrası"
+    "d": "hafsi"
    },
-   "not": "Alıntı yalnız bölge sahibini (Doğu Cezayir → Hafsî, Orta/Batı → Abdülvâdî/Zeyyânî) veriyor; Cicel Doğu Cezayir'de olduğundan s zeyyani yerine hafsi olabilir (ÜLKE DÜZEYİ, kontrol gerek). Cicel'i Oruç Reis ele geçirdi: TDV cezayir arama özeti «1513’ten beri Cicelli’nin hâkimi» (arama sonucu parçası, tam madde okunmadı) vs TDV oruc-reis 1514 baharı seferlerinden sonra «Cicel Kalesi’ni zaptettiler» (yıl yok). İki TDV çelişkisi beyan: seçmedim. 1513/14-1519 arası Oruç/Hızır Cicel sultanlığı — künyesiz; 1519-09-01 TDV'ye göre çok erken (arîza Ekim 1519)."
+   "not": "KARAR EMRELİC (gece-59): Hafsî alanı (zeyyani yanlış); Oruç Reis 1513/1514 çift TDV ic_not; Osmanlı 1519-10-01 [yalnız ay] (arîza). | Alıntı yalnız bölge sahibini (Doğu Cezayir → Hafsî, Orta/Batı → Abdülvâdî/Zeyyânî) veriyor; Cicel Doğu Cezayir'de olduğundan s zeyyani yerine hafsi olabilir (ÜLKE DÜZEYİ, kontrol gerek). Cicel'i Oruç Reis ele geçirdi: TDV cezayir arama özeti «1513’ten beri Cicelli’nin hâkimi» (arama sonucu parçası, tam madde okunmadı) vs TDV oruc-reis 1514 baharı seferlerinden sonra «Cicel Kalesi’ni zaptettiler» (yıl yok). İki TDV çelişkisi beyan: seçmedim. 1513/14-1519 arası Oruç/Hızır Cicel sultanlığı — künyesiz; 1519-09-01 TDV'ye göre çok erken (arîza Ekim 1519)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:607",
@@ -141,7 +140,7 @@
    "oneri": {
     "f": "1519-10-01 (ay hassasiyeti: Ekim 1519 arîza; gün teyitsiz)"
    },
-   "not": "ÜLKE DÜZEYİ. Arîza Ekim 1519; Yavuz Selim Hızır’ı Cezayir hâkimi olarak tanıdı, hutbe padişah adına okundu → 1519-09-01 arîzadan ÖNCE. TDV ayrıca «Cezayir doğrudan doğruya bir Osmanlı beylerbeyiliği haline geldi (1534)» — d (doğrudan) mü v mü ayrımı için 1534 ikinci aday; ölçütü Emre seçer."
+   "not": "KARAR EMRELİC (gece-59): Hafsî alanı (zeyyani yanlış); Oruç Reis 1513/1514 çift TDV ic_not; Osmanlı 1519-10-01 [yalnız ay] (arîza). | ÜLKE DÜZEYİ. Arîza Ekim 1519; Yavuz Selim Hızır’ı Cezayir hâkimi olarak tanıdı, hutbe padişah adına okundu → 1519-09-01 arîzadan ÖNCE. TDV ayrıca «Cezayir doğrudan doğruya bir Osmanlı beylerbeyiliği haline geldi (1534)» — d (doğrudan) mü v mü ayrımı için 1534 ikinci aday; ölçütü Emre seçer."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:607",
@@ -167,7 +166,7 @@
    "kaynak": "Bakılan: TDV cezayir (ülke), TDV cicel arama sonuçları; Fransız işgali 1839 için yalnız ipucu: Britannica/geneawiki (kabul dışı)",
    "alinti": "",
    "oneri": {},
-   "not": "TDV cezayir: Kostantîne Emîri Ahmed Bey 1830'dan sonra direndi, Fransızlar Kostantîne'yi 13 Ekim 1837'de aldı, Ahmed Bey 1848'de teslim; Cicel'in Kostantîne beyliğine bağlı olduğu veya 1839-05-13'te Fransızlara geçtiği TDV'de yok. İpucu (kabul dışı): 13 Mayıs 1839 Fransız işgali (geneawiki / Britannica arama özeti)."
+   "not": "KARAR EMRELİC (gece-59): Hafsî alanı (zeyyani yanlış); Oruç Reis 1513/1514 çift TDV ic_not; Osmanlı 1519-10-01 [yalnız ay] (arîza). | TDV cezayir: Kostantîne Emîri Ahmed Bey 1830'dan sonra direndi, Fransızlar Kostantîne'yi 13 Ekim 1837'de aldı, Ahmed Bey 1848'de teslim; Cicel'in Kostantîne beyliğine bağlı olduğu veya 1839-05-13'te Fransızlara geçtiği TDV'de yok. İpucu (kabul dışı): 13 Mayıs 1839 Fransız işgali (geneawiki / Britannica arama özeti)."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika.js:607",
@@ -210,7 +209,7 @@
    "oneri": {
     "f": "1519-10-01 (ay; gün teyitsiz)"
    },
-   "not": "ÜLKE DÜZEYİ; 1519-09-01 arîzadan önce. Cilfe iç bölge: Osmanlı idaresinin (tahrir/sancak) Cilfe'ye ulaştığına dair tanıklık yok; ABİ MERKEZ Cezayir beylerbeyiliği. Doğrudan beylerbeyilik 1534."
+   "not": "KARAR EMRELİC (gece-59): Abdülkadir devleti: künyesi VAR (ÖLÇÜM LAB PAZAR: devletler.js:1629 'abdulkadir', f 1832-11-22, t 1847-12-23; yerleşimlerde 10 satır kullanıyor) — 1832-47 dilimi s: abdulkadir adayı; 1830-32 ve 1847-52 BEYANLI. Tafna 1837-05-30 tanıma; 1830–52 dilimi künyeye göre (künye kapsamıyorsa BEYANLI). | ÜLKE DÜZEYİ; 1519-09-01 arîzadan önce. Cilfe iç bölge: Osmanlı idaresinin (tahrir/sancak) Cilfe'ye ulaştığına dair tanıklık yok; ABİ MERKEZ Cezayir beylerbeyiliği. Doğrudan beylerbeyilik 1534."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:229",
@@ -239,7 +238,7 @@
     "d": "KUNYE-ADAYI: Emîr Abdülkâdir Emirliği (künye var mı ölç)",
     "alan": "s"
    },
-   "not": "ÜLKE DÜZEYİ, ABİ MERKEZ yaklaşımı: Cilfe (Cezayir güneyi) Fransız işgali öncesi Abdülkādir'in güney hâkimiyet alanında olabilir; tanıklık Cilfe'ye özgü değil. 1852 kuruluşu (Fransız askerî üssü) için kabul edilen kaynak bulunamadı: yalnız ipucu — Britannica «founded in 1852 as a French military post», geneawiki (Kasım-Aralık 1852, Yousouf kolu) — kabul dışı."
+   "not": "KARAR EMRELİC (gece-59): Abdülkadir devleti: künyesi VAR (ÖLÇÜM LAB PAZAR: devletler.js:1629 'abdulkadir', f 1832-11-22, t 1847-12-23; yerleşimlerde 10 satır kullanıyor) — 1832-47 dilimi s: abdulkadir adayı; 1830-32 ve 1847-52 BEYANLI. Tafna 1837-05-30 tanıma; 1830–52 dilimi künyeye göre (künye kapsamıyorsa BEYANLI). | ÜLKE DÜZEYİ, ABİ MERKEZ yaklaşımı: Cilfe (Cezayir güneyi) Fransız işgali öncesi Abdülkādir'in güney hâkimiyet alanında olabilir; tanıklık Cilfe'ye özgü değil. 1852 kuruluşu (Fransız askerî üssü) için kabul edilen kaynak bulunamadı: yalnız ipucu — Britannica «founded in 1852 as a French military post», geneawiki (Kasım-Aralık 1852, Yousouf kolu) — kabul dışı."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:229",
@@ -349,7 +348,7 @@
    "oneri": {
     "f": "1483-01-01 (yıl)"
    },
-   "not": "TDV Şarkî dönemini 1483'te bitiriyor; 1479-1483 arası Cavnpur kalmalı. 1479 başka bir kaynakta Behlûl Lodî'nin fethi olabilir (aranmadı); KÜNYE cavnpur-sultanligi t=1483 de bunu destekliyor. t (1526) bu okumada yok; TDV 1495'te İskender Lûdî'nin Jaunpûr'da kalışından söz ediyor (Lodî hâkimiyeti)."
+   "not": "KARAR EMRELİC (gece-59): Şarkî t 1483 [yalnız yıl] (TDV) uygun. | TDV Şarkî dönemini 1483'te bitiriyor; 1479-1483 arası Cavnpur kalmalı. 1479 başka bir kaynakta Behlûl Lodî'nin fethi olabilir (aranmadı); KÜNYE cavnpur-sultanligi t=1483 de bunu destekliyor. t (1526) bu okumada yok; TDV 1495'te İskender Lûdî'nin Jaunpûr'da kalışından söz ediyor (Lodî hâkimiyeti)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:362",
@@ -362,7 +361,7 @@
    "kaynak": "Imperial Gazetteer of India, 1908, v.14, «Jaunpur City/District» (archive.org in.ernet.dli.2015.135659, ia-oku ham metin)",
    "alinti": "On the acquisition of the province of Benares in 1775, Jaunpur became British territory",
    "oneri": {},
-   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | IGI 1908 (tek başına; ikinci akademik kaynak aranmadı). YIL düzeyi; gün teyitsiz. Ara dönemler (Babür 1526, Sûr, Avad 1722) bu turda hedef değil. Aynı kaynak: «The District was ceded to the British in 1775»."
+   "not": "KARAR EMRELİC (gece-59): Şarkî t 1483 [yalnız yıl] (TDV) uygun. | IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | IGI 1908 (tek başına; ikinci akademik kaynak aranmadı). YIL düzeyi; gün teyitsiz. Ara dönemler (Babür 1526, Sûr, Avad 1722) bu turda hedef değil. Aynı kaynak: «The District was ceded to the British in 1775»."
   }
  ],
  "Chambéry": [
@@ -377,7 +376,7 @@
    "kaynak": "Bakılan: Treccani Dizionario di Storia «Savoia» (sayfa.py), HLS «Savoie» (403 Forbidden), Treccani Enciclopedia Italiana «Chambéry» (eski başvuru eseri, yalnız ipucu)",
    "alinti": "",
    "oneri": {},
-   "not": "Chambéry'nin 1281-1720 Savoya sahipliğini yerleşime özgü kabul edilen kaynak yok. Treccani Savoia: «cui furono costretti a rinunciare in cambio di quella di Sardegna (1720)» → YIL 1720 ülke düzeyinde (alıntı yalnız t ucunu tarihliyor). Treccani Ens. Italiana (1929-37, ipucu): Chambéry 1560'a dek Savoya başkenti."
+   "not": "KARAR EMRELİC (gece-59): Köln/Hamburg emsali: 1792-09-22 Fransız işgali isg → 1792-11-27 ilhak kararı ic_not (Sardinya iddiası sürdü) → Paris 1796-05-15 imzası s: fransa (TEK ÖLÇÜ); 1815 dönüşü ayrıca. | Chambéry'nin 1281-1720 Savoya sahipliğini yerleşime özgü kabul edilen kaynak yok. Treccani Savoia: «cui furono costretti a rinunciare in cambio di quella di Sardegna (1720)» → YIL 1720 ülke düzeyinde (alıntı yalnız t ucunu tarihliyor). Treccani Ens. Italiana (1929-37, ipucu): Chambéry 1560'a dek Savoya başkenti."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:245",
@@ -405,7 +404,7 @@
    "oneri": {
     "f": "1796-01-01 (yıl; hukukî devir)"
    },
-   "not": "Kayıtlı 1792-11-27 Konvansiyon ilhakıdır (MJP, kayıtta); Treccani Savoya'nın 1796 Paris Barışı'yla feragatini yazıyor. TEK KURAL: ilhak günü s'ye esas (1792 kalabilir) — hukukî devir 1796. Karar Emre'nin; gün veren ikinci kaynak aranmalı."
+   "not": "KARAR EMRELİC (gece-59): Köln/Hamburg emsali: 1792-09-22 Fransız işgali isg → 1792-11-27 ilhak kararı ic_not (Sardinya iddiası sürdü) → Paris 1796-05-15 imzası s: fransa (TEK ÖLÇÜ); 1815 dönüşü ayrıca. | Kayıtlı 1792-11-27 Konvansiyon ilhakıdır (MJP, kayıtta); Treccani Savoya'nın 1796 Paris Barışı'yla feragatini yazıyor. TEK KURAL: ilhak günü s'ye esas (1792 kalabilir) — hukukî devir 1796. Karar Emre'nin; gün veren ikinci kaynak aranmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:245",
@@ -418,7 +417,7 @@
    "kaynak": "Bakılan: Treccani Dizionario di Storia «Savoia» (sayfa.py); HLS «Savoie» (403)",
    "alinti": "",
    "oneri": {},
-   "not": "f (1815-11-20) için Chambéry'ye özgü gün bulunamadı. Treccani: «aveva ceduto (1860) Nizza e la S. alla Francia» → t YIL 1860 ülke düzeyi (alıntı yalnız t ucunu tarihliyor); 14 Haziran gün teyitsiz. Arama özeti (kabul dışı): devir 24 Mart 1860 Torino antlaşması."
+   "not": "KARAR EMRELİC (gece-59): Köln/Hamburg emsali: 1792-09-22 Fransız işgali isg → 1792-11-27 ilhak kararı ic_not (Sardinya iddiası sürdü) → Paris 1796-05-15 imzası s: fransa (TEK ÖLÇÜ); 1815 dönüşü ayrıca. | f (1815-11-20) için Chambéry'ye özgü gün bulunamadı. Treccani: «aveva ceduto (1860) Nizza e la S. alla Francia» → t YIL 1860 ülke düzeyi (alıntı yalnız t ucunu tarihliyor); 14 Haziran gün teyitsiz. Arama özeti (kabul dışı): devir 24 Mart 1860 Torino antlaşması."
   }
  ],
  "Debrecen": [
@@ -487,7 +486,7 @@
    "kaynak": "Bakılan: IGI v.11 «Dera Ismail Khan District» (archive.org TheImperialGazetteerOfIndia-Volume11); Punjab District Gazetteer DIK 1883 (gaz-dera-ismail-khan-1883, OCR)",
    "alinti": "",
    "oneri": {},
-   "not": "IGI 1908 v.11'de Nadir Şah dönemi yok; yer_kaynak'ta anılan DIK 1883 s.29 cümlesi bu oturumda OCR metninde anahtar eşleşmesi vermedi (OCR bozuk). Nadir Şah 1739 devri bu turda kaynakla görülmedi."
+   "not": "KARAR EMRELİC (gece-59): Sih 1836 IGI ipucu → ONERI; 1821 haraç v:. | IGI 1908 v.11'de Nadir Şah dönemi yok; yer_kaynak'ta anılan DIK 1883 s.29 cümlesi bu oturumda OCR metninde anahtar eşleşmesi vermedi (OCR bozuk). Nadir Şah 1739 devri bu turda kaynakla görülmedi."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:104",
@@ -502,7 +501,7 @@
    "oneri": {
     "f": "1750-01-01 (yaklaşık yıl)"
    },
-   "not": "IGI: Hot ailesi 300 yıl «practical independence» sonra Ahmed Şah Dürrânî'ce tâbi kılındı (~1750); 1794 Zaman Şah Muhammed Han'a Nevab unvanı verdi. IGI tek başına (IGI 1908). Künye durrani f 1747-10-01. Tâbiiyet vs doğrudan idare: ÖLÇÜT: kaynak vassalage diyor → s mi v mi Emre'ye."
+   "not": "KARAR EMRELİC (gece-59): Sih 1836 IGI ipucu → ONERI; 1821 haraç v:. | IGI: Hot ailesi 300 yıl «practical independence» sonra Ahmed Şah Dürrânî'ce tâbi kılındı (~1750); 1794 Zaman Şah Muhammed Han'a Nevab unvanı verdi. IGI tek başına (IGI 1908). Künye durrani f 1747-10-01. Tâbiiyet vs doğrudan idare: ÖLÇÜT: kaynak vassalage diyor → s mi v mi Emre'ye."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:104",
@@ -517,7 +516,7 @@
    "oneri": {
     "f": "1836-01-01 (yıl)"
    },
-   "not": "IGI: 1821'de Hafız Ahmed Han Mankera'da Ranjit Singh'e teslim oldu, Tank/Sûgar beylerine haraç kondu, Dera Fateh Han işgal edildi; AMA Dera İsmail Han 1836'ya dek bağımsız kaldı, o yıl Nao Nihal Singh Muhammed Han'ı azledip Diwan Lakhi Mal'ı Kardar atadı (idareye katma). ÖLÇÜT: idareye katma — 1836. DIK 1883 (OCR): «In 1836 the Sikhs annexed the Nawâb’s remaining territory». 1821 yalnız haraç/Mankera."
+   "not": "KARAR EMRELİC (gece-59): Sih 1836 IGI ipucu → ONERI; 1821 haraç v:. | IGI: 1821'de Hafız Ahmed Han Mankera'da Ranjit Singh'e teslim oldu, Tank/Sûgar beylerine haraç kondu, Dera Fateh Han işgal edildi; AMA Dera İsmail Han 1836'ya dek bağımsız kaldı, o yıl Nao Nihal Singh Muhammed Han'ı azledip Diwan Lakhi Mal'ı Kardar atadı (idareye katma). ÖLÇÜT: idareye katma — 1836. DIK 1883 (OCR): «In 1836 the Sikhs annexed the Nawâb’s remaining territory». 1821 yalnız haraç/Mankera."
   },
   {
    "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:104",
@@ -530,7 +529,7 @@
    "kaynak": "Punjab District Gazetteer, Dera Ismail Khan 1883-84, içindekiler bölümü (archive.org gaz-dera-ismail-khan-1883, OCR)",
    "alinti": "Annexation of the Punjab a.p. 1849",
    "oneri": {},
-   "not": "LAB PAZAR: alıntı arama özeti / içindekiler OCR'ından, madde gövdesi değil — ONERI. | ÜLKE DÜZEYİ (Pencap ilhakı); yalnız YIL (1849) bu okumada teyitli, 03-29 gün yerleşim kaynağında okunmadı. ZAYIF: tek kaynak içindekiler satırı. DIK 1883: «on the British occupation in 1849» (Leiah için)."
+   "not": "KARAR EMRELİC (gece-59): Sih 1836 IGI ipucu → ONERI; 1821 haraç v:. | LAB PAZAR: alıntı arama özeti / içindekiler OCR'ından, madde gövdesi değil — ONERI. | ÜLKE DÜZEYİ (Pencap ilhakı); yalnız YIL (1849) bu okumada teyitli, 03-29 gün yerleşim kaynağında okunmadı. ZAYIF: tek kaynak içindekiler satırı. DIK 1883: «on the British occupation in 1849» (Leiah için)."
   }
  ],
  "Derc (Derj)": [
@@ -612,9 +611,9 @@
    "kaynak": "TDV bogdan, Aurel Decei vb. 1992, https://islamansiklopedisi.org.tr/bogdan (sayfa.py ham metin)",
    "alinti": "Voyvoda Petru Aron 1455 Eylülünden itibaren Osmanlılar’a yılda 2000 altın vermek",
    "oneri": {
-    "f": "1455-09-01 (ay hassasiyeti)"
+    "f": "1455-09-01"
    },
-   "not": "ÜLKE DÜZEYİ. TDV: İstanbul'un fethinden sonra Boğdan Osmanlı'ya tâbi oldu, haraç 1455 Eylülünden. Atlas f 1456-06-01 kaynaksız. t ucu: TDV «5 Şubat 1859’da … Boğdan prensliğine seçilen» Cuza (sonraki dönem f'si ile aynı gün)."
+   "not": "KARAR EMRELİC (gece-59): v: osmanli 1455-09-01 [yalnız ay] (TDV Boğdan haracı); atlas 1456-06-01 dayanaksız. | ÜLKE DÜZEYİ. TDV: İstanbul'un fethinden sonra Boğdan Osmanlı'ya tâbi oldu, haraç 1455 Eylülünden. Atlas f 1456-06-01 kaynaksız. t ucu: TDV «5 Şubat 1859’da … Boğdan prensliğine seçilen» Cuza (sonraki dönem f'si ile aynı gün)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:753",
@@ -627,7 +626,7 @@
    "kaynak": "Bakılan: TDV bogdan (sayfa.py; 1806, 'Rus ordusu', 'işgal' anahtarları), TDV romanya",
    "alinti": "",
    "oneri": {},
-   "not": "TDV bogdan 1806 Rus işgalini anlatmıyor; yalnız «1812 Bükreş Antlaşması gereğince Boğdan’ın doğu kısmı … Rusya’ya bırakıldı» (Prut-Dinyester, Besarabya — Dorohoi Prut'un batısında, bu bırakılan kısımda değil). Kayıtlı kaynak ESBE (19. yy kaynağı, ipucu) + TDV akkirman 30 Kasım 1806 (okunmadı bu turda)."
+   "not": "KARAR EMRELİC (gece-59): v: osmanli 1455-09-01 [yalnız ay] (TDV Boğdan haracı); atlas 1456-06-01 dayanaksız. | TDV bogdan 1806 Rus işgalini anlatmıyor; yalnız «1812 Bükreş Antlaşması gereğince Boğdan’ın doğu kısmı … Rusya’ya bırakıldı» (Prut-Dinyester, Besarabya — Dorohoi Prut'un batısında, bu bırakılan kısımda değil). Kayıtlı kaynak ESBE (19. yy kaynağı, ipucu) + TDV akkirman 30 Kasım 1806 (okunmadı bu turda)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:753",
