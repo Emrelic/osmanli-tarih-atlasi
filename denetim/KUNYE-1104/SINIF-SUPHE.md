@@ -85,6 +85,8 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `sipsong-panna` | 1180-01-01 → 1950-01-01 | 669 | t 1950 genel kesim; tusi sistemi 1953 özerk bölgeyle bitti (İPUCU); Çin/Burma/Siyam çifte bağımlılık |
 | `oyo-imparatorlugu` | 1400-01-01 → 1836-01-01 | 436 | t 1836 Eski Oyo'nun düşüşü; Atiba'nın Yeni Oyo'su sürdü — polity sonu mu? |
 | `kalusa` | 1281-01-01 → 1763-01-01 | 482 | şeflik (Widmer 1988); t 1763 kalıntıların Havana'ya taşınması, polity çok önce çökmüştü |
+| `kuzey-bolgesi-sa` | 1863-07-06 → 1911-01-01 | 371 | Güney Avustralya'nın toprağı, ayrı polity değil (1910 Kabul Yasası, birincil); t yürürlüğü bildiriyle |
+| `diaguita-calchaqui-konfederasyonu` | 1281-01-01 → 1667-01-02 | 1158 | KAYNAKLI: Boixadós 2011 — son yenilgi/sürgün 1665; 1667 yalnız La Rioja kaydı → t 1667-01-02 dayanaksız (BEKLE) |
 | `kong-vattara` | 1710-01-01 → 1897-05-01 | 187 | KAYNAKLI: Études africaines (OpenEdition, Tauxier) — Kong'un yıkımı 1898; son Kong kralı 1913'te öldü → yıkım polity sonu mu? |
 | `loango` | 1550-01-01 → 1883-01-01 | 333 | KAYNAKLI: ANOM envanteri — 12 Mart 1883 Loango antlaşması 'souveraineté et commerce'; antlaşma, hanedan sürdü |
 | `pedi` | 1650-01-01 → 1879-12-02 | 230 | t 1879 Sekhukhune'nin yakalanması; 1881'de döndü (SAHO) — f 1650 de şüpheli (Thulare c.1800) |
