@@ -678,6 +678,29 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - **Dimetoka:** kasabanın tamamının mı, yalnız demiryolu şeridinin mi devredildiği belirsiz. Yiğit (Bilig 63, 2012) ve Bıyıklıoğlu (TTK 1987) okunmadan boyanmaz.
 - **Mersin emsali uygulamaları** (Hanak, Posof, İmroz, Görice): EMRELİC uygun buldu.
 
+## 29. Doğu Trakya 1912-13, Mustafapaşa onayı, Belgrad (EMRELİC, 4 Kasım 2026 gece-7; `karar34`)
+- **Kofçaz ve Dereköy** (1913-09-29 İstanbul Antlaşması ile Osmanlı'da kalan yerler): `d: osmanli` + `isg bulgaristan` 1912-10-24 → 1913-07-21 kesintisiz; Londra 1913-05-30 `ic_not`'a.
+  - Bu, **Üsküp kuralından sapmadır.** Gerekçe: Emre'nin H-0138 maddesi ve Londra devrinin hiç uygulanmadan geri alınması.
+  - EMRELİC sabah raporunda Emre'ye soracak; ONERI notu "Emre onayı bekliyor".
+- **Malko Tırnova** (Bulgaristan'da kalan yer): `isg` 1912-10-24 → 1913-05-30, ardından `s: bulgaristan` 1913-05-30'dan (Üsküp emsali).
+- **Kofçaz ve Dereköy TBMM zinciri:** Mersin emsali, uygun.
+- **Mustafapaşa:** öneri onaylandı.
+  - 1913-09-29 kaydı durur.
+  - Edirne kıyısındaki 1915 kırılmaları 1915-09-06'dan, "teslim günü teyitsiz" beyanıyla.
+  - Dimetoka hariç tutulur; karar Yiğit ve Bıyıklıoğlu okununca verilir.
+- **Belgrad:** kurtuluş TDV'nin 1944-10-20'si alınır. Atlastaki 1944-10-06 `ic_not`'a yazılır; büyük ihtimalle harekâtın başlangıcıdır.
+
+- **Hatay (EMRELİC gece-8):** İskenderun, Sincan ve Antakya için `isg fransa` uygun.
+  - `isg`, Levant zincirindeki Fransız mandasının `s:` gününde biter (İç Suriye 1920-07-25 emsali).
+  - Ankara 1921-10-20 sancağın özel rejimini teyit eder; `ic_not`'a yazılır.
+  - Hatay Devleti 1938-09-02 ve Türkiye'ye katılış 1939-06-29 (fiilî devir 07-23) ayrı bakılır; gün kaynakla.
+- **Huy:** Brüksel emsali uygun.
+
+## 30. BAKILMADI yeniden araştırma turu (UMIT, 4 Kasım 2026 gece)
+- Evren 1-3'te 600-1923 arası BAKILMADI satırı: **577 satır, 302 yerleşim.** Bunlar 24 partiye bölündü (`db_b_NN`, `bak_parti.py`; satır sayısı çok olan önce).
+- Sonuç dosyası `db_rb_NN.json` biçiminde; `bak_topla.py` yalnız eşleşen BAKILMADI satırının yerine koyar (eşleşme: `dosya_satir` + `alan` + `d` + `f`).
+- Evren 3'ün son partileri bittikçe kalan BAKILMADI satırları ikinci geçişle eklenir.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
