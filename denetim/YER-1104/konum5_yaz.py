@@ -52,6 +52,9 @@ KONUM = {  # ad: (lat, lon, dayanak) — GeoNames arama satırı LAB SALI okudu
     "Tellülkebîr": (30.54323, 31.78504, "GeoNames " + GN + "359710 (At Tall al Kabīr)"),
     "Ümmüdurman (Omdurman)": (15.64453, 32.47773, "GeoNames " + GN + "365137"),
     "Îmbâbe": (30.07625, 31.20666, "GeoNames " + GN + "355549 (Imbābah, Gize)"),
+    # yer6: TDV tarifi + GeoNames
+    "Rumkale": (37.27091, 37.83824, "GeoNames " + GN + "7619098 (Rum Kalesi, castle) · TDV tarifi: 'Fırat üzerinde inşa edilmiş Rumkale' "
+                "(«Fırat») — kale-şehir; Halfeti 4 km kuzeyde"),
 }
 YAZIM = {
     "Sèvres": ("Sevr", "YÜKSEK", "② eklenecek nokta Sevr ile aynı yer (TDV: 'Paris'in banliyösü Sevr')"),
@@ -82,11 +85,13 @@ OLAY = {
 }
 SEMT = {"Tophane", "Gruž", "Trianon (Versailles)"}
 KOORDSUZ = {  # yerleşim ama konum doğrulanamadı → koordinat yok
-    "Dara": "Darfur'daki Dara kalesi-kasabası; GeoNames yalnız kaba 'locality' (12,2 / 25,33) verdi — yanlış nokta riskli, koordinat yok",
-    "Rumkale": "kale-şehir (Hromkla); GeoNames'te kayıt yok — koordinat yok (Halfeti ~10 km kuzeyde, ABİ MERKEZ adayı)",
-    "Deyrülâkūl (Bağdat'a 50 mil)": "Dicle kıyısı ortaçağ kasabası; konum kaynakta yalnız uzaklıkla — koordinat yok",
-    "Ferâve": "Horasan ribatı (Ferâve); konum teyitsiz — koordinat yok",
-    "İtil (İdil ağzı)": "Hazar başkenti; arkeolojik yeri bulunmadı — koordinat yok",
+    "Dara": "Darfur'daki Dara kalesi-kasabası; GeoNames yalnız kaba 'locality' (12,2 / 25,33) ve aynı adlı başka yerler verdi; TDV'de "
+            "tarif yok — yanlış nokta riskli, koordinat yok",
+    "Deyrülâkūl (Bağdat'a 50 mil)": "TDV tarifi: 'Dicle nehri kıyısında', 'Nûmâniye yakınında', 'Bağdat'a 50 mil' («Saffârîler», "
+                                    "«Mütenebbî», «Muvaffak») — GeoNames'te kayıt yok; tarif tek noktaya yetmiyor, koordinat yok",
+    "Ferâve": "TDV tarifi: Horasan'da, 'Merv, Serahs ve Ferâve arasındaki topraklar', Nesâ-Bâverd ile anılır («Çağrı Bey», «Selçuklular») "
+              "— ribatın kalıntı yeri GeoNames'te bulunamadı, koordinat yok",
+    "İtil (İdil ağzı)": "Hazar başkenti; TDV'de konum tarifi yok, arkeolojik yeri kesinleşmedi → KONUM BİLİNMİYOR (EMRELİC kararı)",
 }
 SAHIP = {
     "Kailua-Kona": ("hawaii-kralligi", "1819-11-01", "Hawaii Krallığı (Kamehameha sarayı)", "madde", "KAYNAKLI (madde)"),
@@ -97,29 +102,40 @@ SAHIP = {
     "Barcs": ("macaristan-naiplik", "1921-08-20", "Sırp işgalinden Macar jandarmasına (Szigetvár ile) — Barcs'ın işgal dönemi KAYNAK-GEREK",
               "madde", "KAYNAK-GEREK"),
     "Selâ": ("muvahhidler", "1163-05-16", "Muvahhid şehri → 1248-04-26 Merînî (merini)", "madde (TDV)", "KAYNAKLI (madde)"),
-    "Cezîretülhadrâ (Algeciras)": ("sevilla-abbadiler", "1086-06-30", "Sevilla taifası limanı → Murâbıtlar'a (murabitlar) bırakıldı",
-                                   "madde (TDV)", "KAYNAK-GEREK (devir günü)"),
+    "Cezîretülhadrâ (Algeciras)": ("sevilla-abbadiler", "1086-06-30", "Hammûdîler → 450/1058 Abbâdîler (Sevilla) ele geçirdi → 1086 "
+                                   "Murâbıtlar'a (murabitlar) bırakıldı", "TDV «Hammûdîler»", "KAYNAKLI (hicrî yıl)"),
     "Thânesâr": (None, "1014-07-02", "Hindu krallığı şehri; Gazneli akını (fetih değil) — sahip KAYNAK-GEREK", "madde (TDV)", "KAYNAK-GEREK"),
-    "Somnât (Sûmenât)": ("caulukya", "1026-01-08", "Çaulukya (Solanki) Gucerat'ı → Gazneli geçici fethi", "madde (TDV)", "KAYNAK-GEREK"),
-    "Misilmeri": ("sicilya-emirligi", "1068-01-01", "Sicilya emirliği → Norman (sicilya-kralligi)", "madde", "KAYNAK-GEREK"),
+    "Somnât (Sûmenât)": ("caulukya", "1026-01-08", "Gazneli Mahmud 'Zilkade 416'da (8 Ocak 1026) Somnât Kalesi'ni fethetti' (geçici) — "
+                         "öncül sahip Çaulukya KAYNAK-GEREK", "TDV «Mahmûd-ı Gaznevî», «Gazneliler»", "KAYNAKLI (fetih günü); öncül KAYNAK-GEREK"),
+    "Misilmeri": ("sicilya-emirligi", "1068-01-01", "Palermo yolu üstünde; ABİ MERKEZ: Palermo — müslüman emîrlerde, 1072'de I. Ruggero "
+                  "Palermo'yu aldı (sicilya-kralligi)", "TDV «Sicilya» (Palermo 1072)", "BEYANLI YAKLAŞIKLIK (zincir Palermo'dan)"),
     "Rânye": ("misir-kavalali", "1816-01-01", "Mısır (Kavalalı) garnizonu çekildi → Necid", "madde", "KAYNAKLI (madde)"),
     "Menfûha": ("misir-kavalali", "1819-08-13", "Dir'iye sonrası Mısır garnizonu", "madde", "KAYNAKLI (madde)"),
     "Oskol": ("rusya", "1596-01-01", "Moskova Çarlığı'nın bozkır garnizonu (kuruluş 1593 — KAYNAK-GEREK)", "madde", "KAYNAKLI (madde)"),
-    "Altınköprü": ("safevi", "1625-01-01", "Safevî → Osmanlı (Hâfız Ahmed Paşa'nın Musul seferi)", "madde", "KAYNAK-GEREK"),
+    "Altınköprü": ("safevi", "1625-01-01", "Bağdat'ın düşüşünden sonra 'Kerkük ve Musul şahın kumandanlarından Kāsım Han tarafından "
+                   "zaptedildi' → Hâfız Ahmed Paşa Musul'u geri aldı. ABİ MERKEZ: Kerkük-Musul arası yol kasabası",
+                   "TDV «Hâfız Ahmed Paşa»", "BEYANLI YAKLAŞIKLIK (zincir Kerkük/Musul'dan)"),
     "Kırkağaç": ("OSMANLI", "1920-06-22", "Osmanlı → Yunan işgali (yaz taarruzu)", "madde", "KAYNAKLI (madde)"),
-    "Nazilli": ("OSMANLI", "1920-06-22", "Osmanlı; madde listesinde geçiyor — Yunan işgalinin Nazilli'ye ulaşıp ulaşmadığı KAYNAK-GEREK",
-                "madde", "KAYNAK-GEREK"),
-    "Gediz": ("OSMANLI", "1920-08-29", "Osmanlı (Uşak işgali maddesi) — Gediz'in işgali KAYNAK-GEREK", "madde", "KAYNAK-GEREK"),
+    "Nazilli": ("OSMANLI", "1920-06-22", "Osmanlı kazası (TDV «Aydın»: Aydın sancağının kazası) — 1920 Yunan işgaline girip girmediği "
+                "TDV'de yok; basamak ④ (DergiPark/Millî Mücadele monografisi) gerek", "TDV «Aydın» (idari bağ)", "KAYNAK-GEREK (işgal)"),
+    "Gediz": ("OSMANLI", "1920-08-29", "Osmanlı kazası (TDV «Kütahya»: 1520'den kaza) — 1920 işgali TDV'de yok; basamak ④ gerek",
+              "TDV «Kütahya» (idari bağ)", "KAYNAK-GEREK (işgal)"),
     "Oltu": ("safevi", "1534-01-01", "Safevî → Osmanlı (Pasin, Şüregel, Oltu kaleleri)", "madde", "KAYNAKLI (yıl)"),
     "Adakale": ("habsburg", "1738-08-17", "Avusturya → Osmanlı", "madde", "KAYNAKLI (madde)"),
     "Mozdok (Terek boyu)": ("rusya", "1763-01-01", "Rusya'nın kurduğu kale-kasaba (kur)", "madde", "KAYNAKLI (yıl)"),
-    "Fokşani (Focşani)": ("OSMANLI", "1789-08-01", "Eflak-Boğdan sınır kasabası (tâbi beylikler) — v: KAYNAK-GEREK", "madde", "KAYNAK-GEREK"),
+    "Fokşani (Focşani)": ("OSMANLI", "1789-08-01", "'Fokşani kasabası' (1772 barış görüşmeleri); '1 Ağustos 1789'da Fokşan'da' bozgun — "
+                          "Eflak-Boğdan sınırı, tâbi beylik (v:) hangisi KAYNAK-GEREK", "TDV «Vâsıf Ahmed Efendi», «Yûsuf Paşa, Koca»",
+                          "KAYNAKLI (gün); v: KAYNAK-GEREK"),
     "Kalafat": ("OSMANLI", "1790-01-01", "Eflak (tâbi) kıyısı", "madde", "KAYNAK-GEREK (v:)"),
     "Maçin": ("OSMANLI", "1791-07-09", "Osmanlı Tuna kalesi", "madde", "KAYNAKLI (madde)"),
     "Pazar": ("OSMANLI", "1916-03-08", "Osmanlı → Rus işgali; ABİ MERKEZ: Rize (Çaykıran 2021)", "madde + ABİ MERKEZ", "BEYANLI YAKLAŞIKLIK"),
     "Kızılrubat": ("OSMANLI", "1917-12-06", "Osmanlı → İngiliz hattı (Hânekîn ile)", "madde", "KAYNAKLI (madde)"),
-    "Gerger": ("memluk", "1467-01-01", "Memlük-Dulkadir sınırı (madde 'yaklaşık') — sahip KAYNAK-GEREK", "madde", "KAYNAK-GEREK"),
-    "Kadirli": ("memluk", "1471-01-01", "Memlük-Dulkadir çekişmesi (madde 'yaklaşık') — sahip KAYNAK-GEREK", "madde", "KAYNAK-GEREK"),
+    "Gerger": ("memluk", "1467-01-01", "Şehsuvar Bey 'Memlükler'in elindeki Besni, Gerger, Birecik ve Rumkale şehirlerini de zaptetti' "
+               "→ dulkadir", "TDV «Dulkadıroğulları»", "KAYNAKLI (yıl)"),
+    "Kadirli": ("dulkadir", "1471-01-01", "Şehsuvar Bey'in üssü → 1471 ilkbaharı 'Yeşbek, Kadirli ve Kozan'dan Dulkadırlılar'ı çıkardı' "
+                "→ memluk", "TDV «Dulkadıroğulları»", "KAYNAKLI (yıl/mevsim)"),
+    "Rumkale": ("memluk", "1467-01-01", "Fırat üzerinde kale-şehir; Memlük → Şehsuvar Bey zaptetti (dulkadir). Sonraki dönemde kaza "
+                "merkezi Halfeti'ye (TDV «Rıtl»: 'Rumkale'ninki (Halfeti)')", "TDV «Dulkadıroğulları», «Fırat»", "KAYNAKLI (yıl)"),
     "Blagay": ("hersek", "1448-01-01", "Stjepan Vukčić-Kosača'nın merkezi", "madde", "KAYNAKLI (madde)"),
     "Kraków": ("polonya-erken", "1525-04-08", "Polonya Krallığı başkenti", "madde", "KAYNAKLI (madde)"),
     "Tellülkebîr": ("misir-kavalali", "1882-09-13", "Hidiv Mısır'ı → İngiliz işgali", "madde", "KAYNAKLI (madde)"),

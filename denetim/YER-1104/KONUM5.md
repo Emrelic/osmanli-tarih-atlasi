@@ -15,7 +15,7 @@
 | 307 | Dahra | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1843-01-01 — Şelif vadisi ve Tenes'in işgali — Orléansville'in kurulması |
 | 308 | Mîzâb vahaları | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1882-01-01 — Mîzâb vahalarının (Gardâye) ilhakı |
 | 309 | Menevâşî | OLAY YERİ | — | koordinat yok | — | 1874 savaşı (Darfur) | 1874-11-02 — Darfur Sultanlığı'nın Mısır'a ilhakı — Zübeyr Paşa El-Fâşir'e girdi |
-| 310 | Dara | YERLEŞİM | — | koordinat yok | — | Darfur'daki Dara kalesi-kasabası; GeoNames yalnız kaba 'locality' (12,2 / 25,33) verdi — yanlış nokta riskli, koordinat yok | 1883-12-23 — Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın teslimi |
+| 310 | Dara | YERLEŞİM | — | koordinat yok | — | Darfur'daki Dara kalesi-kasabası; GeoNames yalnız kaba 'locality' (12,2 / 25,33) ve aynı adlı başka yerler verdi; TDV'de tarif yok — yanlış nokta riskli, koordinat yok | 1883-12-23 — Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın teslimi |
 | 311 | Bogos | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1872-01-01 — Bogos (Kerene) bölgesinin Mısır'a ilhakı |
 | 312 | Tagdempt | YAZIM | — | koordinat yok | — | → Tâhert (Tiaret) (DOĞRULA) Tagdemt, antik Tâhert'in harabe yeri — atlas noktası modern Tiaret'te | 1832-11-22 — Emîr Abdülkādir'in devletinin kuruluşu — batı Cezayir'de direnişin mer |
 | 313 | Tellülkebîr | YERLEŞİM | 30.54323, 31.78504 | GeoNames https://www.geonames.org/359710 (At Tall al Kabīr) | Fâkûs (20.7 km) |  | 1882-09-13 — Tel el-Kebîr Muharebesi — Urâbî ordusunun dağılması |
@@ -55,7 +55,7 @@
 | 347 | Selâ (Salé) | YAZIM | — | koordinat yok | — | → Selâ (YÜKSEK) ② eklenecek nokta (bu parti) ile aynı yer | 1163-05-16 — Abdülmü'min Selâ'da öldü; yerine Ebû Ya'kūb Yûsuf geçti |
 | 348 | Mağrib-i Aksâ | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1196-01-01 — Merînîler Abdülhak b. Mahyû liderliğinde bağımsız Mağrib-i Aksâ beyliğ |
 | 349 | Cebelimesâr | KALE/YAPI | — | koordinat yok | — | Yemen'de dağ kalesi — KALE/YAPI | 1047-01-01 — Ali es-Suleyhî Cebelimesâr'ı alarak isyan etti, Suleyhî hanedanı kurul |
-| 350 | Deyrülâkūl (Bağdat'a 50 mil) | YERLEŞİM | — | koordinat yok | — | Dicle kıyısı ortaçağ kasabası; konum kaynakta yalnız uzaklıkla — koordinat yok | 0876-04-01 — Ya'kūb b. Leys Bağdat yakınında Deyrülâkūl'de Abbâsî kuvvetlerine ilk  |
+| 350 | Deyrülâkūl (Bağdat'a 50 mil) | YERLEŞİM | — | koordinat yok | — | TDV tarifi: 'Dicle nehri kıyısında', 'Nûmâniye yakınında', 'Bağdat'a 50 mil' («Saffârîler», «Mütenebbî», «Muvaffak») — GeoNames'te kayıt yok; tarif tek noktaya yetmiyor, koordinat yok | 0876-04-01 — Ya'kūb b. Leys Bağdat yakınında Deyrülâkūl'de Abbâsî kuvvetlerine ilk  |
 | 351 | Katvân (Siriderya ötesi) | OLAY YERİ | — | koordinat yok | — | sınır sahrası | 0996-01-25 — Sebük Tegin aracılığıyla yapılan anlaşmayla Siriderya sahası Katvân'a  |
 | 352 | Lâmgân (Kâbil'in doğusu) | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1000-09-04 — Mahmud ilk Hint seferine çıktı; Lâmgân bölgesindeki Hint kalelerini el |
 | 353 | Kûhek (Semerkant'a yaklaşık 42 km) | OLAY YERİ | — | koordinat yok | — | 1003 savaşı (tepe/ırmak) | 1003-08-03 — Selçuk Bey'in oğlu Arslan Yabgu'nun Oğuzlar'ı Sâmânî İsmâil'le birlikt |
@@ -66,7 +66,7 @@
 | 358 | Thânesâr | YERLEŞİM | 29.97323, 76.83214 | GeoNames https://www.geonames.org/1254657 (Thanesar, Haryana) | Pânipat (66.4 km) |  | 1014-07-02 — Mahmud Thânesâr'a sefer düzenleyip şehirdeki tapınakları tahrip ettird |
 | 359 | Gur | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1020-04-27 — Mahmud Gur'a ikinci seferini düzenledi ve Afganlar'ı itaat altına aldı |
 | 360 | Somnât (Sûmenât) | YERLEŞİM | 20.88808, 70.40129 | GeoNames https://www.geonames.org/1255818 (Somnāth, Gucerat — Verāval'in 4 km doğusu) | Diu (63.8 km) |  | 1026-01-08 — Mahmud Gucerat'taki Somnât (Sûmenât) Kalesi'ni fethetti |
-| 361 | Ferâve | YERLEŞİM | — | koordinat yok | — | Horasan ribatı (Ferâve); konum teyitsiz — koordinat yok | 1035-08-01 — Mesud barış yaptı: Dihistan Çağrı Bey'e, Nesâ Tuğrul Bey'e, Ferâve Mûs |
+| 361 | Ferâve | YERLEŞİM | — | koordinat yok | — | TDV tarifi: Horasan'da, 'Merv, Serahs ve Ferâve arasındaki topraklar', Nesâ-Bâverd ile anılır («Çağrı Bey», «Selçuklular») — ribatın kalıntı yeri GeoNames'te bulunamadı, koordinat yok | 1035-08-01 — Mesud barış yaptı: Dihistan Çağrı Bey'e, Nesâ Tuğrul Bey'e, Ferâve Mûs |
 | 362 | Şahdiz (Dizkûh) | KALE/YAPI | — | koordinat yok | — | İsfahan yöresi Bâtınî kalesi — KALE/YAPI | 1107-01-01 — Muhammed Tapar İsfahan civarındaki Şahdiz (Dizkûh) Kalesi'ni zaptedip  |
 | 363 | Gazne'den Lahor'a | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1157-02-13 — Behram Şah öldü; Hüsrev Şah Gurlular karşısında Gazne'yi terk edip Lah |
 | 364 | Karasu | OLAY YERİ | — | koordinat yok | — | 1204 savaşı (ırmak) | 1204-01-01 — Gurlu Şehâbeddin Hârizm'e gelip Karasu'da Hârizm ordusunu yendi ve Gür |
@@ -119,11 +119,11 @@
 | 411 | Erdelan | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1723-11-10 — Erdelan'ın merkezi Senendec'in (Sine) teslimi |
 | 412 | Çortomlık burnu | YAZIM | — | koordinat yok | — | → Çortomlık Seçi (DOĞRULA) maddenin yer_id'si; Seç burunda kuruldu | 1652-01-01 — Çortomlık Seçi kuruldu |
 | 413 | Gerger | YERLEŞİM | 38.02807, 39.03418 | GeoNames https://www.geonames.org/324126 (Gerger ilçe merkezi — tarihî Gerger kalesi Fırat kıyısında, birkaç km doğuda; BEYANLI KONUM) | Siverek (39.3 km) |  | 1467-01-01 — Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık) |
-| 414 | Rumkale | YERLEŞİM | — | koordinat yok | — | kale-şehir (Hromkla); GeoNames'te kayıt yok — koordinat yok (Halfeti ~10 km kuzeyde, ABİ MERKEZ adayı) | 1467-01-01 — Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık) |
+| 414 | Rumkale | YERLEŞİM | 37.27091, 37.83824 | GeoNames https://www.geonames.org/7619098 (Rum Kalesi, castle) · TDV tarifi: 'Fırat üzerinde inşa edilmiş Rumkale' («Fırat») — kale-şehir; Halfeti 4 km kuzeyde | Birecik (30.0 km) |  | 1467-01-01 — Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık) |
 | 415 | Kadirli | YERLEŞİM | 37.37389, 36.09611 | GeoNames https://www.geonames.org/310892 | Sis (Kozan) (26.1 km) |  | 1471-01-01 — Emîr Yeşbek Şehsuvar Bey'i yendi; Besni Memlük idaresine döndü (yaklaş |
 | 416 | Szászsebes | YAZIM | — | koordinat yok | — | → Szászsebes (Sebeş) (YÜKSEK) ② eklenecek nokta (parti 4) ile aynı yer | 1551-07-26 — Erdel Habsburg idaresine geçti: Kolozsvár meclisi İzabella'nın feragat |
 | 417 | Karánsebes | YAZIM | — | koordinat yok | — | → Karánşebeş (Caransebeş) (YÜKSEK) ② eklenecek nokta (parti 1-3) ile aynı yer | 1551-07-01 — Erdel'in Banat kalelerinin (Temeşvar, Lippa, Lugos, Karánsebes) Macari |
 | 418 | mektup Halep'ten | YER DEĞİL | — | koordinat yok | — | bölge, ırmak, dağ, ada, rota ya da liste | 1554-04-07 — Petrovics Péter'in Lugos ve Karánsebes sancakbeyi atanması |
 | 419 | Blagay | YERLEŞİM | 43.25892, 17.88815 | GeoNames https://www.geonames.org/3203970 (Blagaj, Mostar yöresi — kuzeydeki eş adlılar değil) | Mostar (11.4 km) |  | 1448-01-01 — Stjepan Vukčić-Kosača 'St. Sava Dükü' — Hersek'in doğuşu |
 | 420 | Kraków | YAZIM | 50.06143, 19.93658 | GeoNames https://www.geonames.org/3094802 | Krakov (0.7 km) | → Krakov (DOĞRULA) konum atlas kaydına 0.7 km — aynı yer olabilir | 1525-04-08 — Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü |
-| 421 | İtil (İdil ağzı) | YERLEŞİM | — | koordinat yok | — | Hazar başkenti; arkeolojik yeri bulunmadı — koordinat yok | 0732-01-01 — Mervân b. Muhammed’in seferiyle «yeni Hazar başşehri» İtil (İdil ağzı) |
+| 421 | İtil (İdil ağzı) | YERLEŞİM | — | koordinat yok | — | Hazar başkenti; TDV'de konum tarifi yok, arkeolojik yeri kesinleşmedi → KONUM BİLİNMİYOR (EMRELİC kararı) | 0732-01-01 — Mervân b. Muhammed’in seferiyle «yeni Hazar başşehri» İtil (İdil ağzı) |

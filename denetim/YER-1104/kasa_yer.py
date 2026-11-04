@@ -222,7 +222,9 @@ def h(s):
 
 c4 = collections.Counter(x.get("sinif") for x in K4)
 M = ["# KASA-YER — YER-1104'ün KASA'ya teslim özeti\n",
-     "Ölçen: LAB SALI · 4 Kasım 2026 · `kasa_yer.py` (dal lab-1104-yer5). Evren: kronolojinin `yer` alanında geçen, atlas yerleşimiyle "
+     "Ölçen: LAB SALI · 4 Kasım 2026 · `kasa_yer.py` (dal lab-1104-yer6; yer6 turu: 26 KAYNAK-GEREK sahipten 13'ü TDV ve bölge "
+     "ansiklopedileriyle kaynaklandı — Hrvatska enciklopedija: Bileća, Slankamen; kalan 13 satırda denenen kaynak yazılı; Rumkale "
+     "TDV tarifi + GeoNames ile konumlandı, İtil 'konum bilinmiyor'). Evren: kronolojinin `yer` alanında geçen, atlas yerleşimiyle "
      "eşleşmeyen 1.247 ad (`yer_sinifla.py`). EKSİK sınıfının **421 adının tamamı** işlendi (anılma sırasıyla, DUR listesi hariç; parti "
      "1-3: 1-150, parti 4: 151-300, parti 5: 301-421).\n",
      "**EMRELİC kararı (4 Kasım 2026):** olay maddesinde geçen ad o yılda var olan gerçek bir kasabaysa YERLEŞİM'dir ve ②'ye eklenir "

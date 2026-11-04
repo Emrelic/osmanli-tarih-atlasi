@@ -127,17 +127,26 @@ SAHIP = {
                     "TDV «Sırbistan» (madde)", "KAYNAKLI (kur KAYNAK-GEREK)"),
     "Missolonghi": ("OSMANLI", "1826-04-22", "1821 isyanıyla Yunan isyancılar → 1826-04-22 Osmanlı aldı → 1829 Yunan (KAYNAK-GEREK)",
                     "TDV «Reşid Mehmed Paşa» (madde)", "KAYNAKLI (düşüş günü)"),
-    "Yanbolu (Yambol)": ("OSMANLI", "1410-02-13", "Osmanlı fetret içi savaş (Mûsâ — Süleyman); kasabanın fethi KAYNAK-GEREK", "madde", "KAYNAK-GEREK (kur)"),
+    # yer6 (TDV + bölge kaynakları turu) — güncellenen satırlarda kaynak adı yazılı
+    "Yanbolu (Yambol)": ("OSMANLI", "1410-02-13", "Bulgar kalesi → Osmanlı fethi 1373 (TDV: 'ikinci tarihin daha doğru olma ihtimali yüksek'; "
+                         "eski görüş 766/1365) → 1410 fetret savaşı Osmanlı içi. ÇELİŞKİ: kronolojideki 1369 maddesi (Timurtaş) TDV'nin iki "
+                         "tarihinden de farklı", "TDV «Yanbolu»", "KAYNAKLI (yıl) — fetih yılı çelişkisi beyanlı"),
     "Nizip": ("OSMANLI", "1839-06-24", "Nizip Muharebesi; kasaba Osmanlı (Mısır ordusu karşısında)", "madde", "KAYNAKLI (madde)"),
     "Kumanova": ("OSMANLI", "1912-10-23", "Osmanlı → Sırbistan (Kumanova savaşı)", "madde", "KAYNAKLI (madde)"),
-    "Zenta": (None, "1697-09-11", "Zenta bozgunu; kasabanın 1697 sahibi (Habsburg / Osmanlı) KAYNAK-GEREK", "madde", "KAYNAK-GEREK"),
-    "Dömeke": ("yunanistan", "1897-05-17", "1881'den Yunanistan; 1897 savaşında Osmanlı işgali (geçici)", "madde", "KAYNAK-GEREK (1881 devri)"),
-    "Bileća": ("bosna-kralligi", "1388-08-27", "Bosna Krallığı toprağı (Bileća yenilgisi)", "madde", "KAYNAK-GEREK"),
-    "Salankamen": (None, "1691-08-19", "1691 savaşı; kasabanın sahibi (Habsburg) KAYNAK-GEREK", "madde", "KAYNAK-GEREK"),
+    "Zenta": ("habsburg", "1697-09-08", "Habsburg tarafında kasaba-kale (1686'dan çarpışma alanı) → 8 Eylül 1697 Osmanlı zaptetti → "
+              "11 Eylül bozgun, Habsburg; ilk anılma 1216 (Szintarev)", "TDV «Zenta» (E. Afyoncu)", "KAYNAKLI (gün)"),
+    "Dömeke": ("yunanistan", "1897-05-17", "Osmanlı Tesalya kasabası (Dömeke) → 1881 Tesalya Yunan Krallığı'na → 1897 savaşında kısa "
+               "Osmanlı idaresi", "TDV «Tesalya», «Yenişehir»", "KAYNAKLI (1881 yıl)"),
+    "Bileća": ("bosna-kralligi", "1388-08-27", "ilk anılma 1387; 1388'de yakınında Bosna komutanı Vlatko Vuković Osmanlıları yendi → 1391 "
+               "knez Pavle Radinović → 1430'lar Kosača → 1465 Osmanlı", "Hrvatska enciklopedija «Bileća» (LZMK)", "KAYNAKLI"),
+    "Salankamen": ("OSMANLI", "1691-08-19", "Macar kalesi → 1521 Osmanlı (Srem sancağı) → 19.8.1691 savaştan sonra Habsburg (Askerî Sınır)",
+                   "Hrvatska enciklopedija «Slankamen»; TDV «Srem» (XVI. yy. Osmanlı kasabası)", "KAYNAKLI (gün)"),
     "Parkan": ("OSMANLI", "1683-10-09", "Osmanlı Parkan palankası → 1683-10-09 bozgun, Habsburg", "madde", "KAYNAKLI (madde)"),
-    "Sen Gotar": ("macaristan-habsburg", "1664-08-01", "Habsburg Macaristan'ı (Rába kıyısı)", "madde", "KAYNAK-GEREK"),
-    "Hisarcık (Grocka)": ("habsburg", "1739-07-22", "1718-1739 Habsburg Sırbistan'ı → 1739 Osmanlı (Belgrad Antlaşması)", "madde",
-                          "KAYNAK-GEREK"),
+    "Sen Gotar": ("macaristan-habsburg", "1664-08-01", "Habsburg Macaristan'ı (Rába kıyısı) — TDV'de madde ve içerik eşleşmesi yok "
+                  "(sengotar, vasvar-antlasmasi denendi)", "madde", "KAYNAK-GEREK"),
+    "Hisarcık (Grocka)": ("habsburg", "1739-07-22", "Pasarofça (1718) ile Belgrad ve havalisi Avusturya'ya → 1739 Osmanlı; savaş "
+                          "'Hisarcık Boğazı'nda 22 Temmuz' (TDV Hacı İvaz Paşa). ABİ MERKEZ: Belgrad",
+                          "TDV «Pasarofça Antlaşması», «Hacı İvaz Paşa»", "BEYANLI YAKLAŞIKLIK (zincir Belgrad'dan)"),
     "Kozluca": ("OSMANLI", "1774-06-25", "Osmanlı (Varna-Şumnu arası)", "madde", "KAYNAKLI (madde)"),
 }
 

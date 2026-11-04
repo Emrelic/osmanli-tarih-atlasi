@@ -123,7 +123,7 @@
   "konum": "koordinat yok",
   "tur": null,
   "sinif": "YERLEŞİM",
-  "not_": "Darfur'daki Dara kalesi-kasabası; GeoNames yalnız kaba 'locality' (12,2 / 25,33) verdi — yanlış nokta riskli, koordinat yok"
+  "not_": "Darfur'daki Dara kalesi-kasabası; GeoNames yalnız kaba 'locality' (12,2 / 25,33) ve aynı adlı başka yerler verdi; TDV'de tarif yok — yanlış nokta riskli, koordinat yok"
  },
  {
   "sira": 311,
@@ -659,7 +659,7 @@
   "konum": "koordinat yok",
   "tur": null,
   "sinif": "YERLEŞİM",
-  "not_": "Dicle kıyısı ortaçağ kasabası; konum kaynakta yalnız uzaklıkla — koordinat yok"
+  "not_": "TDV tarifi: 'Dicle nehri kıyısında', 'Nûmâniye yakınında', 'Bağdat'a 50 mil' («Saffârîler», «Mütenebbî», «Muvaffak») — GeoNames'te kayıt yok; tarif tek noktaya yetmiyor, koordinat yok"
  },
  {
   "sira": 351,
@@ -803,7 +803,7 @@
   "konum": "koordinat yok",
   "tur": null,
   "sinif": "YERLEŞİM",
-  "not_": "Horasan ribatı (Ferâve); konum teyitsiz — koordinat yok"
+  "not_": "TDV tarifi: Horasan'da, 'Merv, Serahs ve Ferâve arasındaki topraklar', Nesâ-Bâverd ile anılır («Çağrı Bey», «Selçuklular») — ribatın kalıntı yeri GeoNames'te bulunamadı, koordinat yok"
  },
  {
   "sira": 362,
@@ -1511,11 +1511,15 @@
   "sayi": 1,
   "madde_t": "1467-01-01",
   "madde": "Dulkadıroğlu Şehsuvar Bey Besni'yi Memlükler'den aldı (yaklaşık)",
-  "koordinat": null,
-  "konum": "koordinat yok",
-  "tur": null,
+  "koordinat": [
+   37.27091,
+   37.83824
+  ],
+  "konum": "GeoNames https://www.geonames.org/7619098 (Rum Kalesi, castle) · TDV tarifi: 'Fırat üzerinde inşa edilmiş Rumkale' («Fırat») — kale-şehir; Halfeti 4 km kuzeyde",
+  "tur": "GeoNames",
   "sinif": "YERLEŞİM",
-  "not_": "kale-şehir (Hromkla); GeoNames'te kayıt yok — koordinat yok (Halfeti ~10 km kuzeyde, ABİ MERKEZ adayı)"
+  "not_": "",
+  "en_yakin": "Birecik (30.0 km)"
  },
  {
   "sira": 415,
@@ -1617,6 +1621,6 @@
   "konum": "koordinat yok",
   "tur": null,
   "sinif": "YERLEŞİM",
-  "not_": "Hazar başkenti; arkeolojik yeri bulunmadı — koordinat yok"
+  "not_": "Hazar başkenti; TDV'de konum tarifi yok, arkeolojik yeri kesinleşmedi → KONUM BİLİNMİYOR (EMRELİC kararı)"
  }
 ]
