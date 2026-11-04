@@ -24,6 +24,7 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `moundville` | 1120-01-01 → 1450-01-01 | 330 | arkeolojik şeflik merkezi; radyokarbon aralığı |
 | `spiro` | 0850-01-01 → 1450-01-01 | 169 | arkeolojik tören merkezi; radyokarbon aralığı |
 | `sican` | 0750-01-01 → 1375-01-01 | 506 | arkeolojik kültür; radyokarbon aralığı |
+| `ahiler` | 1290-01-01 → 1354-01-01 | 74 | KAYNAKLI: TDV AHÎLİK — esnaf/fütüvvet teşkilatı maddesi; 'Ankara Ahîleri' siyasî yapı olarak tarihlenmiyor → devlet künyesi mi? |
 | `kaonde-ila` | 1281-01-01 → 1900-01-01 | 1238 | KAYNAKLI: Smith & Dale 1920 'The Ba-ila have never been a united people' — SINIF-HATASI (hasat 3) |
 | `tlingit` | 1281-01-01 → 1867-10-18 | 587 | t 1867-10-18 Alaska devri (NPS); Tlingitler taraf değil, siyasi birlikleri sürdü |
 | `nez-perce` | 1281-01-01 → 1877-10-05 | 597 | t 1877-10-05 Bear Paw teslimi (NPS) — savaş sonu, polity sonu değil |

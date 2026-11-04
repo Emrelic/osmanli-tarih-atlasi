@@ -60,6 +60,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ZENDLER (zendler): \"1751 yılının ilk aylarında\" Kerim Han Zendler'i \"fiilen İran’da iktidara geçirdi\" (f, yıl); \"Lutf Ali Han’ın öldürülmesiyle (Cemâziyelâhir 1209 / Aralık 1794) Zend hânedanı tarihe karıştı.\" (t, yıl; TDV ay verir: Aralık 1794, gün yok). Yıl hassasiyetinde teyit."
  },
  {
+  "id": "svahili-sehirleri",
+  "hukum": "KISMEN",
+  "veri_f": "1000-01-01",
+  "veri_t": "1698-12-13",
+  "bolge": "dogu-afrika",
+  "agirlik": 4808,
+  "tdv_madde": "kilve; sevahili",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de 'Svahili şehir devletleri' müstakil maddesi yok (aramalar: Svahili=0 sonuç, Swahili=içerik taraması, SEVÂHİLÎ=dil maddesi). En yakın madde KİLVE (/kilve; tek şehir devleti): açıklama \"Doğu Afrika sahilinde X-XVIII. yüzyıllar arasında hüküm süren bir sultanlık.\" ; \"Özellikle Ya‘rubî hânedanının üçüncü hâkimi Seyf b. Sultan, 1698’de yaptığı saldırı ile şehir devletlerinden Mozambik hariç tamamını ele geçirdi ve buraların idaresi için Nâsır b. Abdullah el-Mezrûî’yi vali tayin etti.\" t yılı 1698 teyitli (gün 12-13 Aralık TDV'de yok); f=1000 yalnız 'X. yüzyıl' (Kilve için) ile uyumlu, yıl yok. Kilve 1724'te Portekiz, 1744'te Uman'a bağlandı (TDV)."
+ },
+ {
   "id": "racput",
   "hukum": "GIRISLI",
   "veri_f": "1000-01-01",
@@ -555,6 +565,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) hanedan tablosu: \"Pallavalar (Tamil Nadu, 300-388)\" — TDV tablosu yalnız erken Pallavaları kapsıyor, f=350/t=897 ile doğrudan örtüşmüyor; ayrı Pallava maddesi okunmadı. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
  },
  {
+  "id": "mahra-sultanligi",
+  "hukum": "GIRISLI",
+  "veri_f": "1511-01-01",
+  "veri_t": "1967-11-30",
+  "bolge": "arabistan",
+  "agirlik": 457,
+  "tdv_madde": "yemen",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Mahra/Mehre madde başlığı yok (arama 'Mehre': Madde Başlıkları 0, içerik 59 — yalnız geçen sözler). YEMEN genel maddesinde (/yemen) yalnız 'Debâ, Mehre, Aden, Sebâ ve Râhiye’de kurulan panayırlar' ve Yâfi‘/Mehre kuvvetleri 1524 geçişi var — TDV genel madde (geçen cümle), 1511/1967 dayanağı değil."
+ },
+ {
   "id": "nkore",
   "hukum": "GIRISLI",
   "veri_f": "1450-01-01",
@@ -785,6 +805,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) tablosu: \"Madurai Pandyaları (Tamil Nadu, VII-X. yüzyıl)\" — yalnız yüzyıl hassasiyeti; f=601 yüzyıl olarak uyumlu, gün/yıl TDV'de yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
  },
  {
+  "id": "somali-italyan-vesayet",
+  "hukum": "TEYIT",
+  "veri_f": "1950-04-01",
+  "veri_t": "1960-07-01",
+  "bolge": "dogu-afrika",
+  "agirlik": 318,
+  "tdv_madde": "somali",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SOMALİ (/somali) — TDV genel madde (ülke maddesi): \"Birleşmiş Milletler, Kasım 1949’da Somali’nin on yıl İtalya idaresinde kaldıktan sonra bağımsız olacağını ilân etti. 1 Nisan 1950’de uygulamaya konulan kararla ... \" ; \"On yıllık sürenin dolmasının ardından Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960).\" f=1950-04-01 ve t=1960-07-01 günleri uyuşuyor (vesayet idaresinin başlangıcı/bağımsızlık)."
+ },
+ {
   "id": "maitraka",
   "hukum": "GIRISLI",
   "veri_f": "0465-01-01",
@@ -967,6 +997,16 @@
   "kaynak": "TARANMADI — KARAR (EMRELİC, 4 Kasım): TDV KAPSAMI DIŞI (Hindu/Budist Hint, Hristiyan Balkan/Kafkas, Afrika iç, bozkır öncesi, Germen, modern Avrupa) → akademik basamak; Cambridge kuyruğu"
  },
  {
+  "id": "yemen-arap-cumhuriyeti",
+  "hukum": "TEYIT",
+  "veri_f": "1962-09-26",
+  "veri_t": "1990-05-22",
+  "bolge": "arabistan",
+  "agirlik": 221,
+  "tdv_madde": "yemen",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): YEMEN (/yemen) — TDV genel madde (ülke maddesi, müstakil Kuzey Yemen maddesi yok). f: \"...görevi bırakıp kaçmak zorunda kaldı (26 Eylül 1962). Böylece Yemen’de monarşi sona erdi ve Mısır’ın desteğiyle Yemen Arap Cumhuriyeti (Kuzey Yemen) kuruldu\". t: \"Güney Yemen, Sovyetler Birliği’nin de desteklemesiyle 22 Mayıs 1990’da Kuzey Yemen’le birleşti.\" İki gün de veriyle birebir."
+ },
+ {
   "id": "kachchhapaghata-gwalior",
   "hukum": "GIRISLI",
   "veri_f": "0977-01-01",
@@ -1011,6 +1051,26 @@
   "kaynak": "TARANMADI — KARAR (EMRELİC, 4 Kasım): TDV KAPSAMI DIŞI (Hindu/Budist Hint, Hristiyan Balkan/Kafkas, Afrika iç, bozkır öncesi, Germen, modern Avrupa) → akademik basamak; Cambridge kuyruğu"
  },
  {
+  "id": "madurai-sultanligi",
+  "hukum": "GIRISLI",
+  "veri_f": "1335-01-01",
+  "veri_t": "1378-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 215,
+  "tdv_madde": "hindistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Madurai/Ma'bar Sultanlığı maddesi yok (arama 'Madurai': başlık 0, içerik 1 = HİNDİSTAN). HİNDİSTAN (/hindistan) yalnız hânedan tablosunda 'Madurai Pandyaları (Tamil Nadu, VII-X. yüzyıl)' der — farklı hânedan, TDV genel madde (tablo/geçen cümle); Sultanlık için tarih yok."
+ },
+ {
+  "id": "italyan-somali",
+  "hukum": "KISMEN",
+  "veri_f": "1905-03-19",
+  "veri_t": "1941-02-25",
+  "bolge": "dogu-afrika",
+  "agirlik": 212,
+  "tdv_madde": "makdisu; somali",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MAKDİŞU (/makdisu; şehir maddesi, müstakil İtalyan Somalisi maddesi yok): \"Zengibar Sultanı Seyyid Ali b. Hamûd 1905’te Makdişu’yu, 1906’da Somali sahilinde Zengibar’a ait bulunan bütün toprakları İtalya’ya sattı. 1911 yılında İtalya Somali’yi sömürge ilân ederek Makdişu’yu başşehir yaptı.\" ; \"II. Dünya Savaşı sırasında İtalya’nın Somali sömürgesi İngilizler tarafından işgal edildi\" (yıl yok). f yılı 1905 (Makdişu devri) uyumlu, gün 03-19 TDV'de yok, TDV 1911'de sömürge ilânı da der; t=1941 TDV'de yok."
+ },
+ {
   "id": "nagpur-bhonsle",
   "hukum": "GIRISLI",
   "veri_f": "1730-01-01",
@@ -1032,6 +1092,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KIBRIS (kibris): \"Kıbrıs Cumhuriyeti 15-16 Ağustos 1960 gece yarısı resmen ilân edilmiş\" (f; 16 Ağustos ile uyumlu)."
  },
  {
+  "id": "cunagadh",
+  "hukum": "GIRISLI",
+  "veri_f": "1748-01-01",
+  "veri_t": "1948-02-20",
+  "bolge": "guney-asya",
+  "agirlik": 200,
+  "tdv_madde": "nevvab",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Cunagadh/Junagadh maddesi yok (aramalar: 'Cunagadh' 0, 'Junagadh' başlık 0, içerik 1 = NEVVÂB). NEVVÂB (/nevvab) yalnız: \"Bâbürlüler’den kalan Kudh, Bahâvelpur, Baoni, Bopal, Cambay, Jaora, Junagadh, Kurnool ... gibi nevvâblıklar İngiliz hâkimiyetine girdikten sonra aynı şekilde devam etmiş\" — geçen cümle, tarih yok. (Bopal da aynı listede.)"
+ },
+ {
   "id": "saindhava",
   "hukum": "GIRISLI",
   "veri_f": "0726-01-01",
@@ -1051,6 +1121,16 @@
   "agirlik": 185,
   "tdv_madde": "sri-lanka",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SRİ LANKA maddesi Kotte Krallığı'nı kapsamıyor (1412/1597 yok); SEYLAN ve SERENDİB yalnız Sri Lanka'ya yönlendirir. Ayrı Kotte maddesi bulunamadı."
+ },
+ {
+  "id": "turk-sahi",
+  "hukum": "KISMEN",
+  "veri_f": "0665-01-01",
+  "veri_t": "0850-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 185,
+  "tdv_madde": "hindusahiler; kabil--afganistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de müstakil TÜRKŞÂHÎLER maddesi yok (arama 'Türkşâhîler': başlık 0, içerik 3). HİNDÛŞÂHÎLER (/hindusahiler, Enver Konukçu): \"Kâbil’de Budist Türkşâhîler’in (Türkîşâhîler) saltanatına son veren Brahman Kallâr’dır (Lalliya). ... yaklaşık 850 yılında Hindûşâhîler (Hindûşâhiyye) denilen bu hânedanı kurmuştur.\"; başlık açıklaması \"850 (?)-1026\". t=850 uyumlu (yaklaşık; yıl-hassasiyeti). KÂBİL (/kabil--afganistan): \"Kâbil’de Kuşan Devleti’nin ve arkasından hüküm süren Kâbilşâhîler hânedanının yıkılmasından sonra Türkşâhîler dönemi başladı.\" (yıl yok); \"(44/664) ... Türkşâhî hükümdarını ve mahallî yöneticileri haraca bağladılar\" — 664'te Türkşâhî var, kuruluş yılı 665 TDV'de yok. Not: Hindûşâhîler Kâbil'den 870'te uzaklaştırıldı (TDV)."
  },
  {
   "id": "hirvatistan-kralligi",
@@ -1104,6 +1184,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (SRİ LANKA, geçen cümle): Vijayabahu \"1070'te adayı tekrar ele geçirerek Sinhalî Devleti'ni ihya etti ve Polonnaruva'yı merkez yaptı\" (f yıl uyumlu); Parakramabahu I (1153-1186) zirve. t=1235 TDV'de yok. Ayrı Polonnaruva maddesi okunmadı."
  },
  {
+  "id": "swat-devleti",
+  "hukum": "GIRISLI",
+  "veri_f": "1915-04-24",
+  "veri_t": "1969-07-28",
+  "bolge": "guney-asya",
+  "agirlik": 163,
+  "tdv_madde": "imam-i-rabbani",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Swat Devleti maddesi yok (arama 'Swat': başlık 0, içerik 1 = İMÂM-ı RABBÂNÎ bibliyografyada 'Swâtî' geçer, alakasız). 1915/1969 için TDV dayanağı yok."
+ },
+ {
   "id": "kazembe",
   "hukum": "GIRISLI",
   "veri_f": "1740-01-01",
@@ -1123,6 +1213,16 @@
   "agirlik": 154,
   "tdv_madde": "somali",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (SOMALİ, geçen cümle; ayrı Somaliland maddesi yok, başlık eşleşmesi 0): \"28 Mayıs 1991'de bağımsızlığını ilân etti\" — veri 1991-05-18; yıl teyit, gün TDV'de 28 (olası baskı hatası, DUZELT için genel madde yetmez). Şubat 1997'de Egal özerk bölge başkanı seçildi (farklı olay). · KARAR (EMRELİC, 4 Kasım): genel madde → VERİ KALIR · ic_not: 'Bağımsızlık ilanı Burao'da 18 Mayıs 1991 (veri); TDV SOMALİ genel maddesi 28 Mayıs 1991 der — başka bir aşama olabilir.'"
+ },
+ {
+  "id": "eritre-federasyon",
+  "hukum": "TEYIT",
+  "veri_f": "1952-09-15",
+  "veri_t": "1962-11-14",
+  "bolge": "dogu-afrika",
+  "agirlik": 152,
+  "tdv_madde": "eritre",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ERİTRE (/eritre) — TDV genel madde (ülke maddesi; müstakil federasyon maddesi yok): \"Birleşmiş Milletler’in himayesinde İngiliz askerî idaresi altında kalan Eritre 15 Eylül 1952 tarihinde federe bir devlet olarak Etiyopya’ya bağlandı. Fakat Etiyopya yönetimi 14 Kasım 1962’de, federal yapı içerisinde ayrı parlamentosu ve kurumları bulunan Eritre’nin özerk statüsünü kaldırarak bölgeyi eyalet haline getirdi.\" f=1952-09-15 ve t=1962-11-14 gün gün uyuşuyor."
  },
  {
   "id": "azerbaycan-cumhuriyeti",
@@ -1146,6 +1246,16 @@
   "kaynak": "TARANMADI — KARAR (EMRELİC, 4 Kasım): TDV KAPSAMI DIŞI (Hindu/Budist Hint, Hristiyan Balkan/Kafkas, Afrika iç, bozkır öncesi, Germen, modern Avrupa) → akademik basamak; Cambridge kuyruğu"
  },
  {
+  "id": "arnavutluk-cumhuriyeti",
+  "hukum": "GIRISLI",
+  "veri_f": "1991-04-29",
+  "veri_t": null,
+  "bolge": "balkanlar",
+  "agirlik": 145,
+  "tdv_madde": "arnavutluk",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ARNAVUTLUK (/arnavutluk, Mustafa L. Bilge, cilt 3, 1991 baskı) — TDV genel madde (ülke maddesi). Madde 1991 öncesi durumu anlatır: \"Resmî adı Arnavutluk Halk Cumhuriyeti ... 1976’da kabul edilen yeni anayasayla devletin adı Arnavutluk Halk Cumhuriyeti olarak belirlendi. 11 Nisan 1985’te ölen Enver Hoca...\" — 1991 Nisan'daki Arnavutluk Cumhuriyeti ilânına dair tarih yok; f=1991-04-29 için TDV dayanağı yok."
+ },
+ {
   "id": "eritre",
   "hukum": "KISMEN",
   "veri_f": "1991-05-24",
@@ -1165,6 +1275,16 @@
   "tdv_madde": "",
   "tdv_disi": true,
   "kaynak": "TARANMADI — KARAR (EMRELİC, 4 Kasım): TDV KAPSAMI DIŞI (Hindu/Budist Hint, Hristiyan Balkan/Kafkas, Afrika iç, bozkır öncesi, Germen, modern Avrupa) → akademik basamak; Cambridge kuyruğu"
+ },
+ {
+  "id": "cemisgezek-beyligi",
+  "hukum": "GIRISLI",
+  "veri_f": "1281-01-01",
+  "veri_t": "1420-01-01",
+  "bolge": "anadolu",
+  "agirlik": 139,
+  "tdv_madde": "akkoyunlular; kurtler",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Çemişgezek maddesi yok (arama 'Çemişgezek': başlık 0, içerik 10). AKKOYUNLULAR (/akkoyunlular): \"Çemişgezek hâkimi Şeyh Hasan’ı itaat altına almak için o yörede bulunduğu sırada ... Âmid’i ele geçirdi (1452)\" — geçen cümle, beyliğin ucu değil. KÜRTLER (/kurtler): Şeref Han'ın sayısı 'Çemişgezek (Mücenkürd, Pertek, Sakaman emirliklerinden oluşur)' — TDV genel madde (geçen cümle); f=1281 / t=1420 için dayanak yok."
  },
  {
   "id": "tohar-yabgu",
@@ -1239,6 +1359,16 @@
   "tdv_madde": "",
   "tdv_disi": true,
   "kaynak": "TARANMADI — KARAR (EMRELİC, 4 Kasım): TDV KAPSAMI DIŞI (Hindu/Budist Hint, Hristiyan Balkan/Kafkas, Afrika iç, bozkır öncesi, Germen, modern Avrupa) → akademik basamak; Cambridge kuyruğu"
+ },
+ {
+  "id": "rupeniler",
+  "hukum": "GIRISLI",
+  "veri_f": "1092-01-01",
+  "veri_t": "1199-01-06",
+  "bolge": "anadolu",
+  "agirlik": 106,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: 'Rubenîler' (0/0), 'Kilikya' (başlık 0, içerik 48), 'Kilikya Ermeni Krallığı' (başlık 0, içerik 23) — TDV'de Rupenî/Kilikya Ermeni Prensliği maddesi yok; yalnız geçen sözler (ADANA, ANADOLU, ANTAKYA, BAYBARS vb. içerik taraması). 1092/1199 için TDV dayanağı yok (içerik maddelerinin ayrıntılı taraması yapılmadı)."
  },
  {
   "id": "cimma-sultanligi",
@@ -1344,6 +1474,16 @@
   "agirlik": 77,
   "tdv_madde": "ruanda",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): RUANDA (ruanda): \"Burundi’den ayrılan Ruanda 1 Temmuz 1962’de bağımsızlığını ilân etti.\" (f gün = bağımsızlık). Ek: \"1961’de yapılan referandumla monarşi yönetimi ilga edilerek cumhuriyete geçildi.\" — cumhuriyete geçiş 1961; ad 'Cumhuriyet' için f=1962 bağımsızlık olarak teyit."
+ },
+ {
+  "id": "ahiler",
+  "hukum": "GIRISLI",
+  "veri_f": "1290-01-01",
+  "veri_t": "1354-01-01",
+  "bolge": "anadolu",
+  "agirlik": 74,
+  "tdv_madde": "ahilik",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): AHÎLİK (/ahilik; ayrıca AHÎ, AHÎ EVRAN, AHÎ BABA başlıkları) bir kurum/teşkilat maddesidir; 'Ankara Ahîleri' (1290-1354) siyasî yapısına dair tarih yok — 'Ankara' yalnız bibliyografyada (Köprülü, 'Ankara ve Ahîler', Hayat Mecmuası 1926). SINIF notu: Ahîlik siyasî devlet değil, esnaf/fütüvvet teşkilatı."
  },
  {
   "id": "sitavaka-krallik",
@@ -1672,6 +1812,26 @@
   "tdv_disi": true
  },
  {
+  "id": "xueyantuo-kaganligi",
+  "hukum": "GIRISLI",
+  "veri_f": "0627-01-01",
+  "veri_t": "0646-01-01",
+  "bolge": "orta-asya",
+  "agirlik": 16,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: 'Xueyantuo' (0/0/0), 'Sir-Tardus' (başlık 0, içerik 7: DOKUZ OĞUZLAR, İNAK, ORDA, SAFEDÎ, SEB‘A, TÜRK, YABGU — yalnız geçen sözler). TDV'de Xueyantuo/Seyantolar/Sir-Tardu maddesi yok; 627/646 için dayanak yok."
+ },
+ {
+  "id": "transkafkasya",
+  "hukum": "GIRISLI",
+  "veri_f": "1917-11-07",
+  "veri_t": "1918-05-28",
+  "bolge": "kafkasya",
+  "agirlik": 16,
+  "tdv_madde": "gurcistan; azerbaycan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de müstakil Transkafkasya Federasyonu maddesi yok (arama: başlık 0, içerik 8 — AZERBAYCAN, BAKÜ, GÜRCİSTAN, HAZAR DENİZİ, KAFKASYA, RUSYA, ABAZALAR, FAŞ). TDV genel madde (geçen cümle): GÜRCİSTAN: \"Azerbaycan, Ermenistan ile beraber Seym adı verilen Transkafkasya Parlamentosu’na üye oldu. ... Seym’in üyeliğinden çıkarak 26 Mayıs 1918 tarihinde bağımsızlığını ilân etti.\"; AZERBAYCAN: \"... Seym meclisi dağıldı (Mart 1918)\" ve \"28 Mayıs 1918’de Azerbaycan Demokratik Cumhuriyeti ilân edildi.\" İPUCU: TDV'ye göre federasyonun fiilî sonu 26 Mayıs 1918 (Gürcistan çıkışı) olabilir, veride 05-28; TDV Seym'in dağılış tarihini vermiyor (AZERBAYCAN 'Mart 1918' Bakü Seymi'nden söz ediyor, farklı). f=1917-11-07 TDV'de yok. Gün önerisi yapılmadı (genel madde). [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
   "id": "sirp-krajina-cumhuriyeti",
   "hukum": "GIRISLI",
   "veri_f": "1991-12-19",
@@ -1723,6 +1883,36 @@
   "tdv_madde": "",
   "tdv_disi": true,
   "kaynak": "TARANMADI — KARAR (EMRELİC, 4 Kasım): TDV KAPSAMI DIŞI (Hindu/Budist Hint, Hristiyan Balkan/Kafkas, Afrika iç, bozkır öncesi, Germen, modern Avrupa) → akademik basamak; Cambridge kuyruğu"
+ },
+ {
+  "id": "tiris-el-garbiyye",
+  "hukum": "KISMEN",
+  "veri_f": "1976-04-14",
+  "veri_t": "1979-08-05",
+  "bolge": "kuzey-afrika",
+  "agirlik": 7,
+  "tdv_madde": "moritanya",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MORİTANYA (/moritanya) — TDV genel madde: \"14 Kasım 1975’te Madrid’de yapılan antlaşma ile İspanya Batı Sahrâ’dan çekilmeyi ve bölgeyi Fas ile Moritanya’ya bırakmayı kabul etti. Nisan 1976’da imzalanan bir antlaşma ile de Batı Sahrâ Fas ile Moritanya arasında taksim edildi.\" f ay-yıl (Nisan 1976) uyumlu, gün 14 TDV'de yok. t=1979-08-05 (Moritanya'nın çekilmesi) TDV'de yok. Tiris el-Garbiyye ayrı TDV maddesi yok."
+ },
+ {
+  "id": "bhopal-eyaleti-1949",
+  "hukum": "KISMEN",
+  "veri_f": "1949-06-01",
+  "veri_t": "1956-11-01",
+  "bolge": "guney-asya",
+  "agirlik": 7,
+  "tdv_madde": "bopal--devlet",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BOPAL (/bopal--devlet, devlet maddesi): \"1947’de Hindistan ve Pakistan devletleri kurulduğunda Bopal önceleri Haydarâbâd gibi kendi idaresini elinde bulundurdu ise de 1949’da Hindistan Birliği’ne katıldı. 1952’de nevvâblık idaresine son verildi; 1956’da da Bopal bölgesi Medya Pradeş eyaleti ile birleştirilerek Bopal şehri bu eyaletin merkezi haline getirildi.\" f yılı 1949 ve t yılı 1956 uyumlu; günler (06-01, 11-01) TDV'de yok. Not: TDV 'nevvâblık idaresi 1952'de sona erdi' der (monarşi sonu, Part C eyaleti 1956'ya kadar sürüyor)."
+ },
+ {
+  "id": "idrisi-asir",
+  "hukum": "KISMEN",
+  "veri_f": "1908-01-01",
+  "veri_t": "1934-06-14",
+  "bolge": "arabistan",
+  "agirlik": 7,
+  "tdv_madde": "asir--suudi-arabistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ASÎR (/asir--suudi-arabistan, bölge maddesi; müstakil İdrîsî Emirliği maddesi bulunamadı, 'Asîr' araması 88 başlık): \"Asîr üzerinde hak iddia eden Yemen ile Suudi Arabistan arasında İngiltere’nin aracılığı ile imzalanan Tâif Muahedesi (Mayıs 1934), diğer İdrîsî topraklarının da Suudi Arabistan’a dahil edilmesiyle kesin bir çözüme kavuştu.\"; \"1922’de Muhammed el-İdrisî’nin ölümü Asîr’in tamamen Suûd idaresine girmesine yol açtı.\" t yılı 1934 uyumlu ama TDV olay türü antlaşma (Mayıs 1934), veri 1934-06-14; ayrıca TDV 1922'de Suûd idaresi der (çelişki beyanı gerekir). f=1908 TDV'de yok (İdrîsî isyanı 'XIX. yy sonları' tarikat, 1911 Ebhâ kuşatması)."
  },
  {
   "id": "dogu-slavonya-untaes",
@@ -2427,5 +2617,35 @@
   "tdv_madde": "",
   "tdv_disi": true,
   "kaynak": "TARANMADI — KARAR (EMRELİC, 4 Kasım): TDV KAPSAMI DIŞI (Hindu/Budist Hint, Hristiyan Balkan/Kafkas, Afrika iç, bozkır öncesi, Germen, modern Avrupa) → akademik basamak; Cambridge kuyruğu"
+ },
+ {
+  "id": "derbent-hanligi",
+  "hukum": "KISMEN",
+  "veri_f": "1747-01-01",
+  "veri_t": "1806-01-01",
+  "bolge": "kafkasya",
+  "agirlik": 0,
+  "tdv_madde": "derbend--dagistan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): DERBEND (şehir maddesi, /derbend--dagistan; hanlık için müstakil madde yok, 'Derbent'/'Derbend' aramaları): \"Onun 1747’de öldürülmesinden sonra Derbend’de müstakil bir hanlık kuruldu. Şehir 1759 sonbaharında Kuba Hanı Feth Ali Han’ın idaresi altına girdi. 1796’ya kadar Kuba hanlarının hâkimiyetinde kaldıktan sonra ...\" ; \"II. Katerina’nın ölümü üzerine burayı boşaltan Ruslar 1806’da yeniden şehri işgal ettiler.\" ; \"1813’te imzalanan Gülistan ve 1828’deki Türkmençay antlaşmaları Derbend ve çevresindeki Rus idaresini onayladı.\" f=1747 (hanlık kuruluşu, Nâdir Şah ölümü sonrası) teyitli. t=1806 TDV'de 'Rus işgali' (1796'da da Rus işgali oldu, boşaltıldı); 1759-1796 Kuba hanlığı hâkimiyeti = kesinti notu. t olay türü işgal; 1813 antlaşma onayı ayrı."
+ },
+ {
+  "id": "somaliland-1960",
+  "hukum": "KISMEN",
+  "veri_f": "1960-06-26",
+  "veri_t": "1960-07-01",
+  "bolge": "dogu-afrika",
+  "agirlik": 0,
+  "tdv_madde": "berbera; somali",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BERBERÂ (/berbera): \"1941’e kadar İngiliz Somalisi’nin merkezi olarak kalan Berberâ, bu idarenin 1 Temmuz 1960 tarihinde İtalyan Somalisi ile birleştirilip Somali Cumhuriyeti’nin kurulması üzerine bu devletin sınırları içerisinde yer aldı.\" t=1960-07-01 teyitli. f=1960-06-26 (bağımsızlık günü) TDV'de yok. TDV'de müstakil Somaliland 1960 maddesi yok."
+ },
+ {
+  "id": "aden-kolonisi",
+  "hukum": "KISMEN",
+  "veri_f": "1937-04-01",
+  "veri_t": "1963-01-18",
+  "bolge": "arabistan",
+  "agirlik": 0,
+  "tdv_madde": "aden",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ADEN (/aden): \"Aden, önceleri idarî bakımdan Bombay eyaletine bağlandı; 1937 yılında ise doğrudan İngiltere’ye tâbi müstakil bir koloni (crown colony) haline getirildi.\" ; \"1961’de henüz koloni halinde bulunan Aden, federasyon ile anlaştı; 1963 yılında federasyona resmen üye oldu ve Aden Devleti adıyla anılmaya başladı.\" Yıllar (1937, 1963) teyitli; günler (04-01, 01-18) TDV'de yok."
  }
 ]

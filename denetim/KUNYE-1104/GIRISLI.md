@@ -178,11 +178,10 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **25** (bunlar yaln�
 ### NCMH / Historia de Navarra (1 künye, Σ yer-yıl 596)
 - `navarra` 0824-01-01 → 1620-10-19 — 596 / 2 / 4
 
-### UNESCO General History of Africa VIII / Cambridge History of Africa 8 (8 künye, Σ yer-yıl 591)
+### UNESCO General History of Africa VIII / Cambridge History of Africa 8 (7 künye, Σ yer-yıl 584)
 - `italyan-dogu-afrikasi` 1936-06-01 → 1941-11-30 — 500 / 95 / 95
 - `burundi-cumhuriyeti` 1966-11-28 → None — 68 / 2 / 2
 - `biafra` 1967-05-30 → 1970-01-15 — 11 / 5 / 5
-- `tiris-el-garbiyye` 1976-04-14 → 1979-08-05 — 7 / 2 / 2
 - `zimbabve-rodezya` 1979-06-01 → 1979-12-12 — 5 / 9 / 9
 - `namibya-gecici-ulusal-birlik-hukumeti` 1985-06-17 → 1989-02-28 — 0 / 0 / 0
 - `fransiz-birligi` 1946-10-27 → 1958-10-04 — 0 / 0 / 0
