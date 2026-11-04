@@ -15,8 +15,12 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
-    "L2-138": "önerge Şubat 1919'da sunuldu, Nisan'da oylandı; madde neyi anlatıyorsa o gün — Shimazu okununca karar",
     "L2-144": "Chūzan seikan (17. yy resmî derleme) tek başına KISMEN; modern akademik teyit (CHJ / Kerr, Okinawa) gelene kadar atlas günü kalır",
+}
+# Sonraki okumayla yerine yenisi gelen satırlar (aynı madde, eski öneri).
+GECERSIZ = {
+    ("L2_101-150", "L2-138"): "TARAYICI5 satırı geçerli (1919-04-11 oylama, Cambridge EAMIO böl.6)",
+    ("001-050", "44"): "Sardinya: 051-061 44-ek satırı geçerli (1720-09-02 Treccani, koordinatör kararı)",
 }
 UYGULANIR = {"TARIH_DUZELT": "tarih düzelt", "DOGRULANDI": "kaynak yenile"}
 
@@ -50,7 +54,9 @@ def main():
                     is_ = "atla (mevcut kaynak akademik; Britannica yerine konmaz)"
                     atla += 1
                 uyum = r.get("uyum", "")
-                if no in BEKLET:
+                if (parti, no) in GECERSIZ:
+                    is_, uyum = "GEÇERSİZ (yerine geçen satır var)", GECERSIZ[(parti, no)] + " | " + uyum
+                elif no in BEKLET:
                     is_, uyum = "BEKLE (uygulama)", BEKLET[no] + " | " + uyum
                 if no == "L2-47":
                     is_, uyum = "tarih düzelt", "1600-12-31 Jülyen (İngiltere) → 1601-01-10 Gregoryen (takvim kuralı; KASA PAZAR uyguladı)"
