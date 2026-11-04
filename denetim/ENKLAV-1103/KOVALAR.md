@@ -28,14 +28,14 @@
 | N6 | Slovakya 1919 'macaristan-naiplik' (Çekoslovak işgali yok) | 15 | VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK | 14 |
 | N4 | Napoli kimliği 1282 öncesine taşmış | 14 | VERİ ÖLÇÜMÜ | 0 |
 | I | Bölge/ülke adlı noktalar + o devirde olmayan şehirler | 77 | VERİ ÖLÇÜMÜ (ad deseni); kuruluş yılları KAYNAK-GEREK | 0 |
-| J | 0 noktalı parçalar (noktasız emilme) | 60 | VERİ ÖLÇÜMÜ | 0 |
+| J | 0 noktalı parçalar (noktasız emilme) | 78 | VERİ ÖLÇÜMÜ | 0 |
 | C | 1990'lar: RS / RSK / Herzeg-Bosna dönemi yok | 6 | KAYNAK-GEREK (ad listesi + günler); boşluk VERİ ÖLÇÜMÜ | 2 |
 | N3 | Kosova gölge cumhuriyeti toprak sahibi boyalı | 3 | MODEL + KAYNAK-GEREK | 3 |
 | D | Habsburg: aynı hükümdarın iki tacı ayrı kimlik | 2 | MODEL KARARI (Emre) · MOTOR/EVREN | 0 |
 | E | Çatı kimlikler: ayrı devletler tek kimlik / aynı hükümdar iki kimlik | 10 | MODEL KARARI (Emre) | 0 |
-| M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 23 | MOTOR SORUSU (HAVVA/Emre) | 0 |
+| M | Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) | 41 | MOTOR SORUSU (HAVVA/Emre) | 0 |
 
-Toplam satır: 656.
+Toplam satır: 702.
 
 ## 1. Hemen uygulanabilir — VERİ ÖLÇÜMÜ (dönem olgusu ölçüldü; halef/gün notu satırda)
 
@@ -769,7 +769,7 @@ _Bugünkü veride eşleşen satır yok._
 | Klosterneuburg | `data/yerlesimler_once1281_yt_avrupa.js:447` | kur=None bit=1281-01-01; ilk dönem — | kur: — (kaynakla); öncesi dönemler kırpılsın, toprak komşu peteklere (merdiven ④) | KAYNAK-GEREK (kuruluş yılı) | — |
 | Melun | `data/yerlesimler_once1281_yt_avrupa.js:500` | kur=None bit=1281-01-01; ilk dönem — | kur: — (kaynakla); öncesi dönemler kırpılsın, toprak komşu peteklere (merdiven ④) | KAYNAK-GEREK (kuruluş yılı) | — |
 
-### J · 0 noktalı parçalar (noktasız emilme) (60)
+### J · 0 noktalı parçalar (noktasız emilme) (78)
 
 - Dayanak: VERİ ÖLÇÜMÜ
 - Kural: Koşu 32'de içinde hiçbir yerleşim noktası olmayan kopuk parçalar; alan bölge poligonu/emilmeden.
@@ -837,6 +837,24 @@ _Bugünkü veride eşleşen satır yok._
 | K438 italya | `denetim/ENKLAV-1104/aday5.json` | 1894-05-05 → 1923-10-29 · 8847 km² · en büyük kesit 1894-05-05 | (ortak) | OLCUM | — |
 | K443 almanya | `denetim/ENKLAV-1104/aday5.json` | 1901-01-01 → 1916-02-18 · 8541 km² · en büyük kesit 1901-01-01 | (ortak) | OLCUM | — |
 | K445 meksika | `denetim/ENKLAV-1104/aday5.json` | 1854-06-30 → 1869-05-14 · 8423 km² · en büyük kesit 1854-06-30 | (ortak) | OLCUM | — |
+| K508 portekiz | `denetim/ENKLAV-1104/aday6.json` | 1505-01-01 → 1663-02-15 · 5725 km² · en büyük kesit 1505-01-01 | (ortak) | OLCUM | — |
+| K510 hollanda | `denetim/ENKLAV-1104/aday6.json` | 1663-02-15 → 1771-01-01 · 5695 km² · en büyük kesit 1700-01-01 | (ortak) | OLCUM | — |
+| K513 guney-afrika-birligi | `denetim/ENKLAV-1104/aday6.json` | 1917-02-06 → 1920-12-17 · 5597 km² · en büyük kesit 1917-02-06 | (ortak) | OLCUM | — |
+| K518 portekiz | `denetim/ENKLAV-1104/aday6.json` | 1891-06-11 → 1923-10-29 · 5471 km² · en büyük kesit 1903-01-01 | (ortak) | OLCUM | — |
+| K520 fransa-cumhuriyet | `denetim/ENKLAV-1104/aday6.json` | 1922-07-20 → 1923-10-29 · 5383 km² · en büyük kesit 1922-07-20 | (ortak) | OLCUM | — |
+| K541 habesistan | `denetim/ENKLAV-1104/aday6.json` | 1908-05-16 → 1923-10-29 · 4650 km² · en büyük kesit 1908-05-16 | (ortak) | OLCUM | — |
+| K546 ingiliz-malaya | `denetim/ENKLAV-1104/aday6.json` | 1909-07-10 → 1946-04-01 · 4508 km² · en büyük kesit 1909-07-10 | (ortak) | OLCUM | — |
+| K547 ingiliz-malaya | `denetim/ENKLAV-1104/aday6.json` | 1874-01-20 → 1888-01-01 · 4487 km² · en büyük kesit 1874-01-20 | (ortak) | OLCUM | — |
+| K555 qing-hanedani | `denetim/ENKLAV-1104/aday6.json` | 1676-03-01 → 1677-01-01 · 4260 km² · en büyük kesit 1676-04-05 | (ortak) | OLCUM | — |
+| K556 danimarka | `denetim/ENKLAV-1104/aday6.json` | 1620-11-19 → 1845-02-22 · 4253 km² · en büyük kesit 1641-01-01 | (ortak) | OLCUM | — |
+| K559 OSMANLI | `denetim/ENKLAV-1104/aday6.json` | 1738-05-08 → 1738-08-01 · 4209 km² · en büyük kesit 1738-05-08 | (ortak) | OLCUM | — |
+| K560 macaristan-habsburg | `denetim/ENKLAV-1104/aday6.json` | 1688-01-01 → 1688-06-01 · 4208 km² · en büyük kesit 1688-05-19 | (ortak) | OLCUM | — |
+| K562 norvec | `denetim/ENKLAV-1104/aday6.json` | 1905-06-07 → 1920-10-14 · 4190 km² · en büyük kesit 1905-06-07 | (ortak) | OLCUM | — |
+| K580 rusya-gecici-hukumet | `denetim/ENKLAV-1104/aday6.json` | 1917-03-15 → 1917-11-07 · 3634 km² · en büyük kesit 1917-05-01 | (ortak) | OLCUM | — |
+| K581 sovyet-rusya | `denetim/ENKLAV-1104/aday6.json` | 1917-11-07 → 1917-12-06 · 3634 km² · en büyük kesit 1917-11-07 | (ortak) | OLCUM | — |
+| K582 salzburg-baspiskoposlugu | `denetim/ENKLAV-1104/aday6.json` | 1281-01-01 → 1555-01-01 · 3549 km² · en büyük kesit 1281-01-01 | (ortak) | OLCUM | — |
+| K584 sovyet-rusya | `denetim/ENKLAV-1104/aday6.json` | 1917-11-07 → 1920-10-14 · 3513 km² · en büyük kesit 1918-01-01 | (ortak) | OLCUM | — |
+| K592 ingiltere | `denetim/ENKLAV-1104/aday6.json` | 1915-07-09 → 1920-12-17 · 3391 km² · en büyük kesit 1916-05-23 | (ortak) | OLCUM | — |
 
 ## 3. Yalnız KAYNAK-GEREK
 
@@ -901,10 +919,11 @@ _Bugünkü veride eşleşen satır yok._
 | almanya (962-1806 Kutsal Roma) | `data/devletler.js` | 153 s: dönemi 1806 öncesi | İmparatorluk çatısı + üye prenslikler (brixen, salzburg, tirol, prusya…) yan yana | EMRE KARARI | — |
 | kastilya / leon-kralligi (1037-1065, 1072-1157, 1230) | `data/devletler.js` | 23 s: dönemi | Kişisel birlik dönemlerinde aynı hükümdar iki kimlikle | EMRE KARARI | — |
 
-### M · Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) (23)
+### M · Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m) (41)
 
 - Dayanak: MOTOR SORUSU (HAVVA/Emre)
 - Kural: Kopukluk tâbinin komşu sayılmasından ya da < 1 km koridordan; veri düzeltmesi değil, evren/motor kararı.
+- Ortak öneri (aksi yazılmadıkça): Motor sorusu.
 
 | ad | dosya:satır | şimdi | öneri | güven | kronoloji |
 |---|---|---|---|---|---|
@@ -931,3 +950,21 @@ _Bugünkü veride eşleşen satır yok._
 | K436 | `denetim/ENKLAV-1104/hukumler5.json` | Maastricht-Roermond-Eupen 1590-1625 İspanyol, gövdeden 0,3 km'lik 'almanya' (Jülich) şeridiyle ayrı: değme payı (motor sorusu, K180/K371 ailesi). | Motor sorusu: < 1 km koridor DAR-AYRIM. | MOTOR SORUSU | — |
 | K453 | `denetim/ENKLAV-1104/hukumler5.json` | Meyyâfârikīn 1264 → 1281 İlhanlı, çevre Hısnkeyfa Eyyûbîleri (İlhanlı tâbisi): tâbinin yabancı sayılması (KOVALAR M). | Motor sorusu (KOVALAR M). | MOTOR SORUSU | — |
 | K494 | `denetim/ENKLAV-1104/hukumler5.json` | Bucumbura 1897 → 1916-06-06 Alman Doğu Afrikası, çevre 'burundi' (Alman himayesindeki krallık): tâbinin yabancı sayılması (KOVALAR M). Ek: Bukavu Belçika Kongos | Burundi v: (Alman himayesi); Bukavu kongo-serbest-devleti/belcika-kongosu (kaynakla). | MOTOR SORUSU | — |
+| K508 | `denetim/ENKLAV-1104/hukumler6.json` | Portekiz parçası 1505-1663, içinde hiç yerleşim noktası yok (Vijayanagara/Kalikut komşu): motorun noktasız toprak ataması. | Motor sorusu (HAVVA); Malabar Portekiz kalelerinin (Koçin, Kannur) noktaları ölçülsün. | MOTOR SORUSU | — |
+| K510 | `denetim/ENKLAV-1104/hukumler6.json` | Hollanda parçası 1663-1771, içinde nokta yok (Meysur/Nayak/Kalikut komşu): noktasız motor ataması (K508'in ardılı). | Motor sorusu; Koçin VOC noktası ölçülsün. | MOTOR SORUSU | — |
+| K513 | `denetim/ENKLAV-1104/hukumler6.json` | Güney Afrika Birliği parçası 1917-1920, içinde nokta yok (İngiliz/Portekiz komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K518 | `denetim/ENKLAV-1104/hukumler6.json` | Portekiz parçası 1891-1923, içinde nokta yok (İngiliz/Bemba komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K520 | `denetim/ENKLAV-1104/hukumler6.json` | Fransa parçası 1922-1923, içinde nokta yok (İngiliz Kamerunu komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K541 | `denetim/ENKLAV-1104/hukumler6.json` | Habeşistan parçası 1908-1923, içinde nokta yok (İtalya/Adal komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K546 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz Malaya parçası 1909-1946, içinde nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K547 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz Malaya parçası 1874-1888, içinde nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K555 | `denetim/ENKLAV-1104/hukumler6.json` | Qing parçası 1676-1677, içinde nokta yok (San-fan isyanı komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K556 | `denetim/ENKLAV-1104/hukumler6.json` | Danimarka parçası 1620-11-19 → 1845-02-22, içinde nokta yok: uçlar Tranquebar'ın (Tharangambadi) Danimarka dönemine uyuyor ama noktası yok — gerçek eksklav nokt | Tranquebar noktası eklensin (YER-1104 KASA-YER kuralıyla, kaynakla); motor sorusu. | MOTOR SORUSU | — |
+| K559 | `denetim/ENKLAV-1104/hukumler6.json` | Osmanlı parçası 1738-05-08 → 08-01, içinde nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K560 | `denetim/ENKLAV-1104/hukumler6.json` | Habsburg Macaristan parçası 1688, içinde nokta yok: noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K562 | `denetim/ENKLAV-1104/hukumler6.json` | Norveç parçası 1905-1920, içinde nokta yok (Rusya/Finlandiya komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K580 | `denetim/ENKLAV-1104/hukumler6.json` | Rus Geçici Hükûmeti parçası 1917, içinde nokta yok (İsveç komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K581 | `denetim/ENKLAV-1104/hukumler6.json` | K580'in Sovyet ardılı, 1917-11-07 → 12-06 (Finlandiya bağımsızlığı), nokta yok. | (ortak) | MOTOR SORUSU | — |
+| K582 | `denetim/ENKLAV-1104/hukumler6.json` | Salzburg başpiskoposluğu parçası 1281-1555, içinde nokta yok (Avusturya/Macar komşu): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |
+| K584 | `denetim/ENKLAV-1104/hukumler6.json` | Sovyet Rusya parçası 1917-1920-10-14 (Tartu: Petsamo Finlandiya'ya), içinde nokta yok: noktasız motor ataması. | Motor sorusu; Peçenga noktası ölçülsün. | MOTOR SORUSU | — |
+| K592 | `denetim/ENKLAV-1104/hukumler6.json` | İngiliz parçası 1915-07-09 → 1920-12-17, içinde nokta yok (Güney Afrika Birliği komşu; Alman Güneybatı Afrikası'nın teslimi 1915-07-09): noktasız motor ataması. | (ortak) | MOTOR SORUSU | — |

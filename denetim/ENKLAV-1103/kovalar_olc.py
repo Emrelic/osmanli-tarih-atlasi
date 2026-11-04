@@ -341,7 +341,7 @@ kova("I", "Bölge/ülke adlı noktalar + o devirde olmayan şehirler", "VERİ Ö
 # ================================================================================================
 S = []
 for dosya in ("ENKLAV-1103/adaylar.json", "ENKLAV-1104/aday2.json", "ENKLAV-1104/aday3.json", "ENKLAV-1104/aday4.json",
-              "ENKLAV-1104/aday5.json"):
+              "ENKLAV-1104/aday5.json", "ENKLAV-1104/aday6.json"):
     yol = os.path.join(KOK, "denetim", dosya)
     if not os.path.exists(yol):
         continue
@@ -427,13 +427,29 @@ kova_kural("N6", "Slovakya 1919 'macaristan-naiplik' (Çekoslovak işgali yok)",
            ("macaristan-naiplik", "macaristan-sovyet", "macaristan-halk-cumhuriyeti"),
            "1918-12 / 1919-01 Çekoslovak askerî işgali (şehir günüyle) → cekoslovakya; Trianon 1920-06-04 ic_not", "1919-01-01",
            ["cekoslovakya"], "ENKLAV-1104 K134")
+# K501-K600'den (ENKLAV6, 4 Kasım 2026)
+kova_kural("N7", "Tirol 1805-1810 'almanya' çatısı (Bavyera yazılmamış)", (46.6, 47.8, 10.1, 13.0), "1807-06-01", ("almanya",),
+           "1805-12-26 (Pressburg) → bavyera; Güney Tirol 1810-02-28 → italya-napolyon, Doğu Tirol 1809-10-14 → İlirya — kaynakla",
+           "1805-12-26", ["bavyera"], "ENKLAV-1104 K509, K516, K598")
+kova_kural("N8", "Lombardiya 1796-1799 Cisalpin dönemi yok", (44.9, 46.3, 8.4, 10.7), "1798-06-01",
+           ("avusturya", "milano-dukaligi", "ispanya"),
+           "1796-05-15 (Bonaparte Milano'da) → fransa-cumhuriyet, 1797-07-09 → italya-napolyon, 1799-04-28 (Suvorov) → avusturya — kaynakla",
+           "1796-05-15", ["fransa-cumhuriyet", "italya-napolyon"], "ENKLAV-1104 K549, K594")
+kova_kural("N9", "Dubrovnik doğrudan 'venedik'/'macaristan' (özerk cumhuriyet, haraç bağı)", (42.6, 43.0, 17.6, 18.3), "1400-01-01",
+           ("venedik", "macaristan"),
+           "d: dubrovnik-cumhuriyeti; v: venedik (1205-1358), macaristan (1358-1458), OSMANLI (1458 sonrası) — künye ve günler kaynakla",
+           "1358-02-18", ["dubrovnik-cumhuriyeti"], "ENKLAV-1104 K557, K558")
+kova_kural("N10", "Doğu Anadolu 1920-1923 'OSMANLI' (İstanbul) — TBMM idaresi yazılmamış", (37.5, 41.5, 38.5, 44.8), "1921-06-01",
+           ("OSMANLI",),
+           "1920-04-23 → tbmm-turkiye (bölge bölge TBMM idaresine giriş günü kaynakla; işgal altındaki yerler ayrı)", "1920-04-23",
+           ["tbmm-turkiye"], "ENKLAV-1104 K536")
 
 # ================================================================================================
 # M — tâbi devlet (motor sorusu) — hüküm listesi
 # ================================================================================================
 S = []
 for dosya in ("ENKLAV-1103/hukumler.json", "ENKLAV-1104/hukumler2.json", "ENKLAV-1104/hukumler3.json", "ENKLAV-1104/hukumler4.json",
-              "ENKLAV-1104/hukumler5.json"):
+              "ENKLAV-1104/hukumler5.json", "ENKLAV-1104/hukumler6.json"):
     yol = os.path.join(KOK, "denetim", dosya)
     if not os.path.exists(yol):
         continue

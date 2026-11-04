@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 50 / 100. Kova: BIRLESMELI 5, GERCEK 21, YAPAY-a 3, YAPAY-c 11, YAPAY-d 2, YAPAY-m 8, — 50. Güven: KAYNAK-GEREK 37, OLCUM 13, — 50.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 10, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 71, OLCUM 29.
 
 ## Kara eksklavları
 
@@ -515,343 +515,490 @@ Hükümlü: 50 / 100. Kova: BIRLESMELI 5, GERCEK 21, YAPAY-a 3, YAPAY-c 11, YAPA
 - En büyük kesit: 1351-01-01 · komşu: celayirli 55%, artuklu 33%, karakoyunlu 10%
 - Koridor: 45.0 km · eyyubi-hisnikeyfa 8/9, artuklu 1/9
 - İçindeki yerleşimler: Silopi (ilhanli); Cumai (Birlikköy) (ilhanli); Cibri (Güçlü) (ilhanli); Cizre (ilhanli); Şırnak (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Cizre-Silopi 1351-1353 'ilhanli', çevre Celâyirli/Artuklu: İlhanlı devleti 1335'ten sonra kukla hanlarla dağıldı; Cizre Bohtan beylerinin yurduydu. KOVALAR F (İlhanlı 1335-1357, ILHANLI.md) ailesi. Şırnak sahipsiz.
+  - Düzeltme önerisi: KOVALAR F kararına bağlansın; Cizre 1351-1353 sahibi kaynakla.
+  - Kaynak: bulunamadı (model bilgisi) — KOVALAR F'ye bakınız
 
 ### K552 · OSMANLI · 1400-01-01 → 1400-08-01 · 4.320 km²
 
 - En büyük kesit: 1400-01-01 · komşu: dulkadir 67%, memluk 32%
 - Koridor: 100.1 km · dulkadir 9/9
 - İçindeki yerleşimler: Behisni (Besni) (OSMANLI)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Besni 1400 Osmanlı (Yıldırım'ın 1399 Malatya-Behisni seferi) → 1400 Ağustos (Timur'un gelişi), Dulkadir/Memlük ortasında: kısa ama gerçek ileri karakol.
+  - Düzeltme önerisi: Uçlar TDV «Besni» ile.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K553 · avusturya-hollandasi · 1714-03-07 → 1795-10-01 · 4.301 km²
 
 - En büyük kesit: 1714-03-07 · komşu: hollanda 53%, almanya 40%, liege-piskoposlugu 7%
 - Koridor: 31.8 km · liege-piskoposlugu 6/9, hollanda 3/9
 - İçindeki yerleşimler: Roermond (avusturya-hollandasi)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Roermond — Avusturya Yukarı Gelre'si 1714 (Utrecht/Rastatt) → 1795: Hollanda ve Prusya Gelre'si arasında Avusturya Hollandası eksklavı, gerçek.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K554 · gelre-dukaligi · 1514-01-01 → 1536-12-10 · 4.263 km²
 
 - En büyük kesit: 1514-01-01 · komşu: almanya 55%, ispanya 16%, utrecht-piskoposlugu 11%
 - Koridor: 19.5 km · habsburg-hollandasi 9/9
 - İçindeki yerleşimler: Nijmegen (gelre-dukaligi); Arnhem (gelre-dukaligi); Hollanda (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Nijmegen-Arnhem Gelre dükalığı 1514-1536, komşu 'almanya' %55: Gelre (Egmond'lu Karl) Kutsal Roma içinde kendi toprağıydı; kopukluk çevre noktaların çatı 'almanya' boyanmasından. 'Hollanda' (bölge adı) sahipsiz.
+  - Düzeltme önerisi: Gelre çevresi noktaları (Zutphen, Roermond…) 1514-1538 gelre-dukaligi.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K555 · qing-hanedani · 1676-03-01 → 1677-01-01 · 4.260 km²
 
 - En büyük kesit: 1676-04-05 · komşu: san-fan 39%
 - Koridor: 57.0 km · san-fan 8/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Qing parçası 1676-1677, içinde nokta yok (San-fan isyanı komşu): noktasız motor ataması.
+  - Düzeltme önerisi: Motor sorusu.
+  - Kaynak: veri ölçümü
 
 ### K557 · macaristan · 1358-02-18 → 1459-03-07 · 4.233 km²
 
 - En büyük kesit: 1382-01-01 · komşu: bosna 43%
 - Koridor: 15.1 km · bosna 5/9, DENIZ/BOS 4/9
 - İçindeki yerleşimler: Dubrovnik (macaristan); Ston (macaristan); Çapljina (Čapljina) (sahipsiz); Mostar (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Dubrovnik-Ston 1358-02-18 (Zadar barışı) → 1459 'macaristan' doğrudan: Ragusa özerk cumhuriyetti, Macar tacına haraçgüzâr — doğrudan sahip değil.
+  - Düzeltme önerisi: Dubrovnik 1358-1458 d: dubrovnik-cumhuriyeti, v: macaristan; 1458 sonrası v: OSMANLI.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K558 · venedik · 1281-01-01 → 1358-02-18 · 4.231 km²
 
 - En büyük kesit: 1335-01-01 · komşu: bosna 44%
 - Koridor: 898.3 km · bizans 4/9, DENIZ/BOS 3/9, sirbistan-nemanjic 1/9, epir-despotlugu 1/9
 - İçindeki yerleşimler: Dubrovnik (venedik); Ston (venedik); Çapljina (Čapljina) (sahipsiz); Mostar (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Dubrovnik-Ston 1281 → 1358 'venedik' doğrudan: Venedik üstünlüğü (Venedikli kont) altında özerk komün — K557 ile aynı düzeltme ailesi.
+  - Düzeltme önerisi: Dubrovnik 1281-1358 d: dubrovnik-cumhuriyeti, v: venedik.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K559 · OSMANLI · 1738-05-08 → 1738-08-01 · 4.209 km²
 
 - En büyük kesit: 1738-05-08 · komşu: macaristan-habsburg 58%, avusturya 41%
 - Koridor: 30.2 km · avusturya 9/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Osmanlı parçası 1738-05-08 → 08-01, içinde nokta yok: noktasız motor ataması.
+  - Düzeltme önerisi: Motor sorusu.
+  - Kaynak: veri ölçümü
 
 ### K560 · macaristan-habsburg · 1688-01-01 → 1688-06-01 · 4.208 km²
 
 - En büyük kesit: 1688-05-19 · komşu: OSMANLI 58%, TABI 42%
 - Koridor: 25.9 km · TABI 4/9, OSMANLI 4/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Habsburg Macaristan parçası 1688, içinde nokta yok: noktasız motor ataması.
+  - Düzeltme önerisi: Motor sorusu.
+  - Kaynak: veri ölçümü
 
 ### K561 · rusya · 1813-01-01 → 1813-10-24 · 4.205 km²
 
 - En büyük kesit: 1813-01-01 · komşu: kacar 79%
 - Koridor: 167.2 km · karabag-hanligi 7/9, kacar 2/9
 - İçindeki yerleşimler: Lenkeran (rusya)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Lenkeran 1813-01-01 Rus hücumu → 1813-10-24 Gülistan antlaşması, Kaçar toprakları ortasında: savaş içi gerçek ileri parça.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K562 · norvec · 1905-06-07 → 1920-10-14 · 4.190 km²
 
 - En büyük kesit: 1905-06-07 · komşu: rusya 32%, finlandiya-buyuk-dukaligi 9%
 - Koridor: 98.9 km · finlandiya-buyuk-dukaligi 9/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Norveç parçası 1905-1920, içinde nokta yok (Rusya/Finlandiya komşu): noktasız motor ataması.
+  - Düzeltme önerisi: Motor sorusu.
+  - Kaynak: veri ölçümü
 
 ### K563 · zeta · 1378-01-01 → 1417-01-01 · 4.180 km²
 
 - En büyük kesit: 1378-01-01 · komşu: sirbistan 31%, topia 7%, macaristan 4%
 - Koridor: 54.7 km · topia 9/9
 - İçindeki yerleşimler: Leş (Alessio) (zeta); İşkodra (zeta); Bar (Antivari) (zeta)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Leş-İşkodra-Bar 1378-1417 'zeta' (Balşiçler): K503'teki Venedik Leş'i (1393'ten) ile ÇAKIŞIYOR. Balşiçler İşkodra'yı 1396'da Venedik'e bıraktı; Leş 1386/1393 Venedik.
+  - Düzeltme önerisi: Leş 1393 → venedik; İşkodra 1396 → venedik (çakışma giderilsin); Bar zeta sürer.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K564 · OSMANLI · 1781-01-01 → 1829-09-14 · 4.123 km²
 
 - En büyük kesit: 1792-01-09 · komşu: kirim 58%, rusya 50%, TABI 8%
 - Koridor: 219.0 km · TABI 8/9, rusya 1/9
 - İçindeki yerleşimler: Anapa (OSMANLI)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Anapa kalesi 1781 Osmanlı → 1829-09-14 Edirne antlaşması, Rus Kubanı ortasında: gerçek. Rus zapt araları (1791-1792, 1807, 1828-06) veride yok.
+  - Düzeltme önerisi: Anapa 1791-06 → 1792-01 (Yaş), 1807, 1828-06-12 → rusya araları kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K565 · ispanya · 1614-01-01 → 1681-01-01 · 4.079 km²
 
 - En büyük kesit: 1653-01-01 · komşu: sadi 73%, fas 73%
 - Koridor: 127.3 km · fas 9/9
 - İçindeki yerleşimler: Mamûra (Mehdiye) (ispanya)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Mamûra (Mehdiye) İspanyol presidiosu 1614 → 1681 Mevlây İsmâil'in geri alışı: gerçek.
+  - Düzeltme önerisi: Uçların günü kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K566 · karaman · 1419-01-01 → 1435-01-01 · 4.060 km²
 
 - En büyük kesit: 1419-01-01 · komşu: dulkadir 45%, memluk 33%, OSMANLI 21%
 - Koridor: 18.4 km · memluk 9/9
 - İçindeki yerleşimler: Kapadokya (sahipsiz); Kayseri (karaman)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
+  - Gerekçe: Kayseri 1419-1435 Karaman, çevre Dulkadir/Memlük: Karaman gövdesine Niğde-Aksaray hattıyla bağlı olmalı; 'Kapadokya' bölge adlı nokta sahipsiz — kopukluk noktasızlıktan olabilir.
+  - Düzeltme önerisi: Niğde-Kayseri arası noktaların 1419-1435 sahibi kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K567 · avusturya · 1708-01-01 → 1797-02-02 · 4.036 km²
 
 - En büyük kesit: 1746-01-01 · komşu: venedik 47%, parma 28%, modena 27%
 - Koridor: 61.4 km · parma 6/9, venedik 3/9
 - İçindeki yerleşimler: Mantova (avusturya); Guastalla (avusturya)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
+  - Gerekçe: Mantova 1708 Avusturya → 1797-02-02 Bonaparte'ın zaptı: Mantova dükalığı Milano'ya Cremona üzerinden bitişikti — kopukluk Cremona noktası/döneminden olabilir. Guastalla 1748'den Parma'ya.
+  - Düzeltme önerisi: Cremona 1714-1797 avusturya; Guastalla 1748 → parma.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K568 · bizans · 1372-01-01 → 1430-03-29 · 4.009 km²
 
 - En büyük kesit: 1403-06-01 · komşu: OSMANLI 22%, suleyman-celebi 22%, TABI 16%
 - Koridor: 147.3 km · OSMANLI 9/9
 - İçindeki yerleşimler: Kesendire (Kassandra) (bizans); Aynaroz (Athos) (bizans); Olynthos (sahipsiz); Selanik (bizans)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Selanik-Athos-Kesendire 1372-1430 sürekli 'bizans': Selanik 1387-1403 Osmanlı, 1403 Gelibolu antlaşmasıyla Bizans, 1423-1430 Venedik idaresindeydi; 1430-03-29 Osmanlı fethi (bitiş uyumlu).
+  - Düzeltme önerisi: Selanik 1387 → OSMANLI, 1403 → bizans, 1423-09 → venedik (TDV «Selanik» ile).
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K569 · iskocya · 1652-02-04 → 1660-05-29 · 3.978 km²
 
 - En büyük kesit: 1652-02-04 · komşu: ingiltere 20%
 - Koridor: 181.2 km · ingiltere 9/9
 - İçindeki yerleşimler: Dumbarton (iskocya); Dunadd (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Dumbarton 1652-02-04 → 1660-05-29 'iskocya': Cromwell döneminde İskoçya İngiliz Commonwealth'ine katılmıştı (1652 Tender of Union); İskoçya kimliği o dönemde ayrı devlet değil.
+  - Düzeltme önerisi: İskoçya noktaları 1652-1660 Commonwealth kimliği (ingiltere) ya da beyanlı birleşik künye.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K570 · eyyubi · 1207-07-28 → 1208-01-01 · 3.821 km²
 
 - En büyük kesit: 1207-07-28 · komşu: ahlatsahlar 26%
 - Koridor: 24.0 km · ahlatsahlar 9/9
 - İçindeki yerleşimler: Ahlat (eyyubi)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Ahlat 1207 Eyyûbî (el-Melikü'l-Evhad) zaptı, Ahlatşahlar kalıntısı ortasında: gerçek ileri parça.
+  - Düzeltme önerisi: Gün TDV «Ahlat» ile.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K571 · fransa-cumhuriyet · 1833-07-28 → 1841-01-01 · 3.799 km²
 
 - En büyük kesit: 1833-09-29 · komşu: abdulkadir 63%
 - Koridor: 99.4 km · abdulkadir 9/9
 - İçindeki yerleşimler: Mustagānim (fransa-cumhuriyet)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Mustagānim 1833-07-28 Fransız işgali, Abdülkādir toprakları ortasında kıyı garnizonu: gerçek.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K572 · almanya · 1353-03-06 → 1417-01-01 · 3.785 km²
 
 - En büyük kesit: 1353-03-06 · komşu: savoya 45%, isvicre 28%, visconti 27%
 - Koridor: 55.6 km · isvicre 8/9, savoya 1/9
 - İçindeki yerleşimler: Sion (Sitten) (almanya)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Sion 1353-1417 'almanya' (Kutsal Roma çatısı), çevre Savoya/İsviçre/Visconti: Valais Sion piskoposluğunun prensliğiydi; çatı kimliği kopukluk üretiyor.
+  - Düzeltme önerisi: Sion künyesi (sion-piskoposlugu) yoksa beyanlı çatı; KOVALAR çatı-kimlik kovasına.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K573 · almanya · 1516-01-23 → 1536-05-21 · 3.772 km²
 
 - En büyük kesit: 1516-01-23 · komşu: savoya 52%, fransa 31%, ispanya 13%
 - Koridor: 144.6 km · ispanya 9/9
 - İçindeki yerleşimler: Annemasse (savoya); Cenevre (almanya)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Cenevre 1516-1536 piskoposluk şehri (Kutsal Roma), Savoya toprakları ortasında; 1536 Bern ve Reform ile bağımsızlık — gerçek, ancak 'almanya' çatısı yerine yerel künye daha doğru. Annemasse Savoya.
+  - Düzeltme önerisi: Kimlik tercihi KASA'nın (cenevre künyesi).
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K574 · silla · 0553-01-01 → 0676-02-24 · 3.754 km²
 
 - En büyük kesit: 0671-01-01 · komşu: tang 31%, baekje 16%, bodeok-goguryeo 10%
 - Koridor: 45.1 km · tang 9/9
 - İçindeki yerleşimler: Sabi (Buyeo) (silla)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Sabi (Buyeo) 553 → 676 'silla': Sabi 660'a dek Baekje başkentiydi; 660-671 Tang (Ungjin kumandanlığı); Silla 671'de aldı (büyük kesit 671 bunu yansıtıyor).
+  - Düzeltme önerisi: Sabi 553-660 baekje, 660-671 tang, 671 → silla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K575 · macaristan-naiplik · 1918-11-11 → 1918-11-16 · 3.712 km²
 
 - En büyük kesit: 1918-11-11 · komşu: macaristan-habsburg 54%, sirbistan-kralligi 46%
 - Koridor: 254.3 km · macaristan-habsburg 9/9
 - İçindeki yerleşimler: Sirmium (Sremska Mitrovica) (sahipsiz); Dimitrofça (Sremska Mitrovica) (macaristan-naiplik); Ilok (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-d · güven OLCUM)
+  - Gerekçe: Dimitrofça 1918-11-11 → 11-16 'macaristan-naiplik', 5 günlük parça: Naiplik (1920) künyesi Kasım 1918'de anakronik; Sırp ordusu Srem'e Kasım 1918'de girdi. Sirmium, Ilok sahipsiz.
+  - Düzeltme önerisi: Srem noktaları 1918-11 sahibi (sirbistan-kralligi / macar-halk-cumhuriyeti) kaynakla; künye günü ölçülsün.
+  - Kaynak: veri ölçümü
 
 ### K576 · almanya · 1500-04-12 → 1759-01-01 · 3.693 km²
 
 - En büyük kesit: 1500-04-12 · komşu: avusturya 79%, venedik 20%, salzburg-baspiskoposlugu 1%
 - Koridor: 54.1 km · avusturya 9/9
 - İçindeki yerleşimler: Tarvis (Tarvisio) (almanya); Villach (almanya)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Villach-Tarvis Bamberg piskoposluğunun Karintiya eksklavı → 1759 Mariya Tereza'ya satış: gerçek eksklav; ancak 'almanya' çatısı yerine Bamberg künyesi doğru.
+  - Düzeltme önerisi: bamberg-piskoposlugu künyesi varsa ona; 1759 → avusturya.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K577 · OSMANLI · 1416-01-01 → 1419-01-01 · 3.682 km²
 
 - En büyük kesit: 1416-01-01 · komşu: eflak 59%
 - Koridor: 102.3 km · eflak 9/9
 - İçindeki yerleşimler: Babadağı (Babadag) (OSMANLI)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Babadağı 1416-1419 Osmanlı, Eflak'ın (Mirçe) Dobruca'sı ortasında: I. Mehmed'in Dobruca seferi parçası olarak gerçek olabilir.
+  - Düzeltme önerisi: Uçlar TDV «Babadağı» ile.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K578 · sovyet-rusya · 1917-12-15 → 1918-04-08 · 3.669 km²
 
 - En büyük kesit: 1917-12-15 · komşu: moldova-demokratik-cum 54%, romanya-kralligi 18%
 - Koridor: 118.3 km · moldova-demokratik-cum 9/9
 - İçindeki yerleşimler: Kili (sovyet-rusya)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Kili 1917-12-15 → 1918-04-08 'sovyet-rusya', çevre Moldova Demokratik Cumhuriyeti: Besarabya Ocak-Mart 1918'de Romen ordusunca alındı; Kili'nin Sovyet (Rumçerod) dönemi kısmen olabilir.
+  - Düzeltme önerisi: Kili 1918 Romen giriş günü kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K579 · OSMANLI · 1552-01-01 → 1695-01-01 · 3.644 km²
 
 - En büyük kesit: 1571-08-01 · komşu: TABI 79%, zaporojye 21%
 - Koridor: 89.8 km · TABI 9/9
 - İçindeki yerleşimler: Kızıkermen (Gazi Kerman) (OSMANLI)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Kızıkermen (Gazi Kerman) Osmanlı Özi kalesi, Kırım (TABI) ve Zaporojye arasında → 1695 Rus-Kazak zaptı: gerçek.
+  - Düzeltme önerisi: Kuruluş 1552 kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K580 · rusya-gecici-hukumet · 1917-03-15 → 1917-11-07 · 3.634 km²
 
 - En büyük kesit: 1917-05-01 · komşu: isvec 82%, finlandiya-buyuk-dukaligi 13%, norvec 1%
 - Koridor: 219.7 km · finlandiya-buyuk-dukaligi 8/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Rus Geçici Hükûmeti parçası 1917, içinde nokta yok (İsveç komşu): noktasız motor ataması.
+  - Düzeltme önerisi: Motor sorusu.
+  - Kaynak: veri ölçümü
 
 ### K581 · sovyet-rusya · 1917-11-07 → 1917-12-06 · 3.634 km²
 
 - En büyük kesit: 1917-11-07 · komşu: isvec 82%, finlandiya-buyuk-dukaligi 13%, norvec 1%
 - Koridor: 219.7 km · finlandiya-buyuk-dukaligi 8/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: K580'in Sovyet ardılı, 1917-11-07 → 12-06 (Finlandiya bağımsızlığı), nokta yok.
+  - Düzeltme önerisi: Motor sorusu.
+  - Kaynak: veri ölçümü
 
 ### K582 · salzburg-baspiskoposlugu · 1281-01-01 → 1555-01-01 · 3.549 km²
 
 - En büyük kesit: 1281-01-01 · komşu: avusturya 52%, macaristan 48%
 - Koridor: 114.2 km · avusturya 9/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Salzburg başpiskoposluğu parçası 1281-1555, içinde nokta yok (Avusturya/Macar komşu): noktasız motor ataması.
+  - Düzeltme önerisi: Motor sorusu.
+  - Kaynak: veri ölçümü
 
 ### K583 · venedik · 1407-01-01 → 1499-08-26 · 3.527 km²
 
 - En büyük kesit: 1443-01-01 · komşu: OSMANLI 26%, suleyman-celebi 26%, bizans 24%
 - Koridor: 59.1 km · OSMANLI 6/9, atinadukaligi 2/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: İnebahtı (venedik); Thermon (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: İnebahtı 1407 Venedik → 1499-08-26 Osmanlı fethi: gerçek kale eksklavı.
+  - Düzeltme önerisi: Yok.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K584 · sovyet-rusya · 1917-11-07 → 1920-10-14 · 3.513 km²
 
 - En büyük kesit: 1918-01-01 · komşu: norvec 55%, finlandiya-buyuk-dukaligi 35%, finlandiya 22%
 - Koridor: 3.1 km · norvec 9/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Sovyet Rusya parçası 1917-1920-10-14 (Tartu: Petsamo Finlandiya'ya), içinde nokta yok: noktasız motor ataması.
+  - Düzeltme önerisi: Motor sorusu; Peçenga noktası ölçülsün.
+  - Kaynak: veri ölçümü
 
 ### K585 · epir-despotlugu · 1204-04-13 → 1318-01-01 · 3.495 km²
 
 - En büyük kesit: 1281-01-01 · komşu: bizans 27%, atinadukaligi 4%, ahaya-prinkepsligi 0%
 - Koridor: 83.6 km · bizans 9/9
 - İçindeki yerleşimler: İnebahtı (epir-despotlugu); Thermon (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: İnebahtı 1204 → 1318 'epir-despotlugu': Naupaktos 1294'te çeyiz olarak Tarantolu Philippe'e (Angevin) geçti; 1294-1318 Epir yazımı şüpheli.
+  - Düzeltme önerisi: İnebahtı 1294 → angevin (Taranto) kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K586 · safevi · 1516-05-01 → 1517-05-01 · 3.420 km²
 
 - En büyük kesit: 1516-05-01 · komşu: memluk 54%, OSMANLI 46%
 - Koridor: 26.6 km · OSMANLI 9/9
 - İçindeki yerleşimler: Urfa (safevi); Göbekli Tepe (sahipsiz); Nevalı Çori (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Urfa 1516-1517 Safevî kalıntısı, Memlük ve Osmanlı arasında: Çaldıran sonrası Urfa'nın Osmanlı'ya geçişi 1516-1517 — kısa gerçek kalıntı. Göbekli Tepe, Nevalı Çori (arkeolojik) sahipsiz.
+  - Düzeltme önerisi: Urfa'nın Osmanlı'ya geçiş günü TDV «Urfa» ile.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K587 · birlesik-arap-cumhuriyeti · 1958-02-22 → 1961-09-28 · 3.395 km²
 
 - En büyük kesit: 1958-02-22 · komşu: tbmm-turkiye 59%, irak-kralligi 41%
 - Koridor: 14.7 km · tbmm-turkiye 9/9
 - İçindeki yerleşimler: Malikiye (Derik) (birlesik-arap-cumhuriyeti)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: Malikiye (Derik) 1958-1961 BAC, çevre Türkiye/Irak: Suriye'nin kuzeydoğu ucu (Cezîre) Suriye gövdesine Hasakah-Kamışlı üzerinden bitişik; kopukluk o hattaki noktasızlıktan. K588-K591 aynı aile.
+  - Düzeltme önerisi: Kamışlı, Hasakah (ve Cezîre) noktalarının Suriye dönemleri ölçülsün/eklensin.
+  - Kaynak: veri ölçümü
 
 ### K588 · suriye-arap-cumhuriyeti · 1961-09-28 → 2000-12-31 · 3.395 km²
 
 - En büyük kesit: 1961-09-28 · komşu: tbmm-turkiye 59%, irak-kralligi 41%
 - Koridor: 14.7 km · tbmm-turkiye 9/9
 - İçindeki yerleşimler: Malikiye (Derik) (suriye-arap-cumhuriyeti)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: K587 ile aynı: Malikiye 1961-2000 Suriye Arap Cumhuriyeti.
+  - Düzeltme önerisi: K587 ile aynı.
+  - Kaynak: veri ölçümü
 
 ### K589 · suriye-cumhuriyeti-1946 · 1946-04-17 → 1958-02-22 · 3.395 km²
 
 - En büyük kesit: 1946-04-17 · komşu: tbmm-turkiye 59%, irak-kralligi 41%
 - Koridor: 14.7 km · tbmm-turkiye 9/9
 - İçindeki yerleşimler: Malikiye (Derik) (suriye-cumhuriyeti-1946)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: K587 ile aynı: Malikiye 1946-1958 Suriye Cumhuriyeti.
+  - Düzeltme önerisi: K587 ile aynı.
+  - Kaynak: veri ölçümü
 
 ### K590 · suriye-lubnan-mandasi · 1920-07-24 → 1921-10-20 · 3.395 km²
 
 - En büyük kesit: 1920-07-24 · komşu: ingiltere 54%, tbmm-turkiye 46%
 - Koridor: 14.7 km · tbmm-turkiye 9/9
 - İçindeki yerleşimler: Malikiye (Derik) (suriye-lubnan-mandasi)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: K587 ile aynı aile: Malikiye 1920-07-24 → 1921-10-20 (Ankara antlaşması) Fransız mandası; çevre İngiliz Irak'ı ve TBMM.
+  - Düzeltme önerisi: K587 ile aynı; 1920-21 Cezîre sınırı kaynakla.
+  - Kaynak: veri ölçümü
 
 ### K591 · suriye-lubnan-mandasi · 1923-10-29 → 1946-04-17 · 3.395 km²
 
 - En büyük kesit: 1943-11-22 · komşu: tbmm-turkiye 59%, irak-kralligi 41%
 - Koridor: 14.7 km · tbmm-turkiye 9/9
 - İçindeki yerleşimler: Malikiye (Derik) (suriye-lubnan-mandasi)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: K587 ile aynı: Malikiye 1923-1946 Fransız mandası.
+  - Düzeltme önerisi: K587 ile aynı.
+  - Kaynak: veri ölçümü
 
 ### K592 · ingiltere · 1915-07-09 → 1920-12-17 · 3.391 km²
 
 - En büyük kesit: 1916-05-23 · komşu: guney-afrika-birligi 53%
 - Koridor: 16.0 km · guney-afrika-birligi 9/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: İngiliz parçası 1915-07-09 → 1920-12-17, içinde nokta yok (Güney Afrika Birliği komşu; Alman Güneybatı Afrikası'nın teslimi 1915-07-09): noktasız motor ataması.
+  - Düzeltme önerisi: Motor sorusu.
+  - Kaynak: veri ölçümü
 
 ### K593 · karakoyunlu · 1387-01-30 → 1405-02-18 · 3.377 km²
 
 - En büyük kesit: 1387-01-30 · komşu: mutahharten 38%, timurlu 32%, dulkadir 15%
 - Koridor: 71.4 km · timurlu 8/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: Bingöl (Çapakçur) (karakoyunlu)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Çapakçur (Bingöl) 1387-1405 Karakoyunlu, Mutahharten (Erzincan) ve Timurlu arasında: Timur istilası sırasında Karakoyunlu'nun Muş-Bingöl kalıntısı olabilir — kısmen.
+  - Düzeltme önerisi: Çapakçur 1387-1405 sahibi kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K594 · fransa-cumhuriyet · 1796-05-15 → 1797-05-12 · 3.355 km²
 
 - En büyük kesit: 1797-02-02 · komşu: milano-dukaligi 31%, parma 26%, venedik 13%
 - Koridor: 61.4 km · parma 6/9, venedik 3/9
 - İçindeki yerleşimler: Pavia (sahipsiz); Milano (fransa-cumhuriyet)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Milano 1796-05-15 → 1797-05-12 Fransız askerî idaresi (Transpadan), komşu Lombardiya noktaları hâlâ 'milano-dukaligi': K549 ile aynı aile; çevre noktalar 1796'da Fransız/Cisalpin olmalı. Pavia sahipsiz.
+  - Düzeltme önerisi: Lombardiya noktaları 1796-05-15 → fransa-cumhuriyet, 1797-07-09 → italya-napolyon; Milano 1797-05-12 → 07-09 arası kontrol.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K595 · memluk · 1335-01-01 → 1338-01-01 · 3.314 km²
 
 - En büyük kesit: 1335-01-01 · komşu: eretna 56%, cemisgezek-beyligi 28%, ilhanli 16%
 - Koridor: 48.9 km · ilhanli 9/9
 - İçindeki yerleşimler: Arapkir (memluk)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Arapkir 1335-1338 Memlük, İlhanlı çöküşü sonrası Eretna ve Çemişgezek arasında: Memlüklerin Malatya'dan kuzeye ilerleyişi — kısmen gerçek.
+  - Düzeltme önerisi: Uçlar kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K596 · fransa · 1659-01-01 → 1792-09-22 · 3.233 km²
 
 - En büyük kesit: 1703-01-01 · komşu: valo 45%, kayor 12%
 - Koridor: 1653.7 km · dan-guro 3/9, bundu 2/9, colof 1/9, futa-callon 1/9, solima-yalunka 1/9, bate 1/9
 - İçindeki yerleşimler: Saint-Louis (Ndar) (fransa)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Saint-Louis (Ndar) 1659 Fransız kuruluşu → 1792 (kimlik geçişi fransa → fransa-cumhuriyet, sahip değişimi değil): Valo/Kayor arasında gerçek. İngiliz işgalleri (1758-1779, 1809-1817) veride yok.
+  - Düzeltme önerisi: Saint-Louis 1758 → ingiltere, 1779 → fransa; 1809-07 → ingiltere, 1817 → fransa-cumhuriyet (kaynakla).
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K597 · fransa · 1417-09-04 → 1418-09-29 · 3.230 km²
 
 - En büyük kesit: 1417-09-04 · komşu: ingiltere 20%, bretanya 9%
 - Koridor: 66.7 km · bretanya 5/9, ingiltere 4/9
 - İçindeki yerleşimler: Cherbourg (fransa)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Cherbourg 1417-09-04 → 1418-09-29 Fransız: V. Henry'nin Normandiya fethi ortasında kuşatılan son Fransız kalelerinden; 1418 sonbaharında teslim — gerçek.
+  - Düzeltme önerisi: Teslim günü kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K598 · almanya · 1805-12-26 → 1809-10-14 · 3.215 km²
 
 - En büyük kesit: 1805-12-26 · komşu: avusturya 80%, italya-napolyon 20%
 - Koridor: 19.0 km · avusturya 9/9
 - İçindeki yerleşimler: Lienz (almanya)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Lienz 1805-12-26 → 1809-10-14 'almanya': Pressburg ile Doğu Tirol Bavyera'ya geçti — K516 ile aynı aile (Tirol 'almanya' çatısı yerine bavyera).
+  - Düzeltme önerisi: Lienz 1805-12-26 → bavyera; 1809-10-14 sonrası İlirya illeri (fransa) kaynakla.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K599 · almanya · 1281-01-01 → 1526-08-29 · 3.191 km²
 
 - En büyük kesit: 1523-01-01 · komşu: polonya-erken 57%, bohemya 43%, silezya-piast 19%
 - Koridor: 368.1 km · polonya-erken 7/9, bohemya 2/9
 - İçindeki yerleşimler: Kattowitz (Katowice) (almanya)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Katowice 1281-1526 'almanya' (çatı), çevre Polonya/Bohemya/Silezya Piastları: Yukarı Silezya Piast dükalıkları (Bytom/Racibórz), 1327'den Bohemya tacı altında; çatı kimliği kopukluk üretiyor.
+  - Düzeltme önerisi: Katowice 1281-1327 silezya-piast, 1327-1526 v: bohemya (kaynakla).
+  - Kaynak: bulunamadı (model bilgisi)
 
 ### K600 · fransa-cumhuriyet · 1960-06-20 → 1960-11-28 · 3.161 km²
 
 - En büyük kesit: 1960-08-15 · komşu: mali-federasyonu 57%
 - Koridor: 25.0 km · mali-federasyonu 9/9
 - İçindeki yerleşimler: Saint-Louis (Ndar) (fransa-cumhuriyet)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Saint-Louis 1960-06-20 → 1960-11-28 'fransa-cumhuriyet', çevre Mali Federasyonu: Saint-Louis Senegal'in şehridir (Mali Federasyonu 1960-06-20, Senegal 1960-08-20 ayrılık). 1960-11-28 Moritanya bağımsızlığı — nokta Moritanya başkenti zincirine (1957'ye dek) bağlanmış olabilir.
+  - Düzeltme önerisi: Saint-Louis 1960-06-20 → mali-federasyonu, 1960-08-20 → senegal.
+  - Kaynak: bulunamadı (model bilgisi)
 
 ## Deniz aşırı sömürge gövdeleri (ayrı)
 
@@ -860,4 +1007,7 @@ Hükümlü: 50 / 100. Kova: BIRLESMELI 5, GERCEK 21, YAPAY-a 3, YAPAY-c 11, YAPA
 - En büyük kesit: 1641-01-01 · komşu: nayak-devletleri 53%, bicapur 27%, portekiz 14%
 - Koridor: 7455.5 km · DENIZ/BOS 3/9, rusya 3/9, bicapur 1/9, safevi 1/9, isvec 1/9
 - İçindeki yerleşimler: —
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-m · güven OLCUM)
+  - Gerekçe: Danimarka parçası 1620-11-19 → 1845-02-22, içinde nokta yok: uçlar Tranquebar'ın (Tharangambadi) Danimarka dönemine uyuyor ama noktası yok — gerçek eksklav noktasız çizilmiş.
+  - Düzeltme önerisi: Tranquebar noktası eklensin (YER-1104 KASA-YER kuralıyla, kaynakla); motor sorusu.
+  - Kaynak: veri ölçümü

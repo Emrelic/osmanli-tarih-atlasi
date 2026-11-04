@@ -5357,7 +5357,7 @@
    "aciklama": "Koşu 32'de içinde hiçbir yerleşim noktası olmayan kopuk parçalar; alan bölge poligonu/emilmeden.",
    "hukumler": "",
    "motor": false,
-   "sayi": 60,
+   "sayi": 78,
    "satirlar": [
     {
      "ad": "E004 guney-afrika-birligi",
@@ -6014,6 +6014,204 @@
      "lat": 31.825,
      "lon": -113.956,
      "simdi": "1854-06-30 → 1869-05-14 · 8423 km² · en büyük kesit 1854-06-30",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K508 portekiz",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 11.998,
+     "lon": 75.602,
+     "simdi": "1505-01-01 → 1663-02-15 · 5725 km² · en büyük kesit 1505-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K510 hollanda",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 11.998,
+     "lon": 75.602,
+     "simdi": "1663-02-15 → 1771-01-01 · 5695 km² · en büyük kesit 1700-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K513 guney-afrika-birligi",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": -17.539,
+     "lon": 14.924,
+     "simdi": "1917-02-06 → 1920-12-17 · 5597 km² · en büyük kesit 1917-02-06",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K518 portekiz",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": -15.025,
+     "lon": 29.432,
+     "simdi": "1891-06-11 → 1923-10-29 · 5471 km² · en büyük kesit 1903-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K520 fransa-cumhuriyet",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 5.255,
+     "lon": 8.907,
+     "simdi": "1922-07-20 → 1923-10-29 · 5383 km² · en büyük kesit 1922-07-20",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K541 habesistan",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 12.907,
+     "lon": 41.67,
+     "simdi": "1908-05-16 → 1923-10-29 · 4650 km² · en büyük kesit 1908-05-16",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K546 ingiliz-malaya",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 2.562,
+     "lon": 102.469,
+     "simdi": "1909-07-10 → 1946-04-01 · 4508 km² · en büyük kesit 1909-07-10",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K547 ingiliz-malaya",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 2.562,
+     "lon": 102.469,
+     "simdi": "1874-01-20 → 1888-01-01 · 4487 km² · en büyük kesit 1874-01-20",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K555 qing-hanedani",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 23.14,
+     "lon": 116.287,
+     "simdi": "1676-03-01 → 1677-01-01 · 4260 km² · en büyük kesit 1676-04-05",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K556 danimarka",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 11.319,
+     "lon": 79.509,
+     "simdi": "1620-11-19 → 1845-02-22 · 4253 km² · en büyük kesit 1641-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K559 OSMANLI",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 45.02,
+     "lon": 22.318,
+     "simdi": "1738-05-08 → 1738-08-01 · 4209 km² · en büyük kesit 1738-05-08",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K560 macaristan-habsburg",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 45.008,
+     "lon": 22.317,
+     "simdi": "1688-01-01 → 1688-06-01 · 4208 km² · en büyük kesit 1688-05-19",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K562 norvec",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 69.568,
+     "lon": 29.727,
+     "simdi": "1905-06-07 → 1920-10-14 · 4190 km² · en büyük kesit 1905-06-07",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K580 rusya-gecici-hukumet",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 68.368,
+     "lon": 23.361,
+     "simdi": "1917-03-15 → 1917-11-07 · 3634 km² · en büyük kesit 1917-05-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K581 sovyet-rusya",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 68.368,
+     "lon": 23.361,
+     "simdi": "1917-11-07 → 1917-12-06 · 3634 km² · en büyük kesit 1917-11-07",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K582 salzburg-baspiskoposlugu",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 46.276,
+     "lon": 15.588,
+     "simdi": "1281-01-01 → 1555-01-01 · 3549 km² · en büyük kesit 1281-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K584 sovyet-rusya",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": 69.57,
+     "lon": 29.169,
+     "simdi": "1917-11-07 → 1920-10-14 · 3513 km² · en büyük kesit 1918-01-01",
+     "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
+     "kirilma": null,
+     "guven": "OLCUM",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K592 ingiltere",
+     "yer": "denetim/ENKLAV-1104/aday6.json",
+     "lat": -18.776,
+     "lon": 21.134,
+     "simdi": "1915-07-09 → 1920-12-17 · 3391 km² · en büyük kesit 1916-05-23",
      "oneri": "Parçayı üreten emilme bölgesini ölç (bolgeler.js / *_parca*.js, nokta koordinatı); tanık nokta ekle",
      "kirilma": null,
      "guven": "OLCUM",
@@ -7198,13 +7396,167 @@
    ]
   },
   {
+   "kod": "N7",
+   "ad": "Tirol 1805-1810 'almanya' çatısı (Bavyera yazılmamış)",
+   "dayanak": "VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK",
+   "aciklama": "(46.6, 47.8, 10.1, 13.0) kutusunda 1807-06-01 günü sahibi almanya olan noktalar.",
+   "hukumler": "ENKLAV-1104 K509, K516, K598",
+   "motor": false,
+   "sayi": 4,
+   "satirlar": [
+    {
+     "ad": "Landeck",
+     "yer": "data/yerlesimler_a78_avrupa.js:102",
+     "lat": 47.14,
+     "lon": 10.567,
+     "simdi": "s:almanya 1805-12-26→1814-06-03",
+     "oneri": "1805-12-26 (Pressburg) → bavyera; Güney Tirol 1810-02-28 → italya-napolyon, Doğu Tirol 1809-10-14 → İlirya — kaynakla",
+     "kirilma": "1805-12-26",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR: 1805-12-26 — Pressburg Barışı'nın yer ayrıntısı: Salzburg Avusturya'ya; Brixen, Tri"
+    },
+    {
+     "ad": "Innsbruck",
+     "yer": "data/yerlesimler_a78_avrupa.js:105",
+     "lat": 47.269,
+     "lon": 11.393,
+     "simdi": "s:almanya 1805-12-26→1814-06-03",
+     "oneri": "1805-12-26 (Pressburg) → bavyera; Güney Tirol 1810-02-28 → italya-napolyon, Doğu Tirol 1809-10-14 → İlirya — kaynakla",
+     "kirilma": "1805-12-26",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR: 1805-12-26 — Pressburg Barışı'nın yer ayrıntısı: Salzburg Avusturya'ya; Brixen, Tri"
+    },
+    {
+     "ad": "Lienz",
+     "yer": "data/yerlesimler_a78_avrupa.js:108",
+     "lat": 46.829,
+     "lon": 12.769,
+     "simdi": "s:almanya 1805-12-26→1814-06-03",
+     "oneri": "1805-12-26 (Pressburg) → bavyera; Güney Tirol 1810-02-28 → italya-napolyon, Doğu Tirol 1809-10-14 → İlirya — kaynakla",
+     "kirilma": "1805-12-26",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR (taraf): 1805-12-26 — Pressburg Barışı'nın yer ayrıntısı: Salzburg Avusturya'ya; Brixen, Tri"
+    },
+    {
+     "ad": "Brixen (Bressanone)",
+     "yer": "data/yerlesimler_a78_avrupa.js:114",
+     "lat": 46.715,
+     "lon": 11.656,
+     "simdi": "s:almanya 1805-12-26→1814-06-03",
+     "oneri": "1805-12-26 (Pressburg) → bavyera; Güney Tirol 1810-02-28 → italya-napolyon, Doğu Tirol 1809-10-14 → İlirya — kaynakla",
+     "kirilma": "1805-12-26",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR: 1805-12-26 — Pressburg Barışı'nın yer ayrıntısı: Salzburg Avusturya'ya; Brixen, Tri"
+    }
+   ]
+  },
+  {
+   "kod": "N8",
+   "ad": "Lombardiya 1796-1799 Cisalpin dönemi yok",
+   "dayanak": "VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK",
+   "aciklama": "(44.9, 46.3, 8.4, 10.7) kutusunda 1798-06-01 günü sahibi avusturya/milano-dukaligi/ispanya olan noktalar.",
+   "hukumler": "ENKLAV-1104 K549, K594",
+   "motor": false,
+   "sayi": 2,
+   "satirlar": [
+    {
+     "ad": "Como",
+     "yer": "data/yerlesimler_once1281_avrupa.js:22",
+     "lat": 45.8082,
+     "lon": 9.0832,
+     "simdi": "s:avusturya 1714-03-07→1859-06-04",
+     "oneri": "1796-05-15 (Bonaparte Milano'da) → fransa-cumhuriyet, 1797-07-09 → italya-napolyon, 1799-04-28 (Suvorov) → avusturya — kaynakla",
+     "kirilma": "1796-05-15",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Legnano",
+     "yer": "data/yerlesimler_ms1_1281_yeni.js:268",
+     "lat": 45.59788,
+     "lon": 8.91506,
+     "simdi": "s:milano-dukaligi 1395-05-11→1859-11-10",
+     "oneri": "1796-05-15 (Bonaparte Milano'da) → fransa-cumhuriyet, 1797-07-09 → italya-napolyon, 1799-04-28 (Suvorov) → avusturya — kaynakla",
+     "kirilma": "1796-05-15",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    }
+   ]
+  },
+  {
+   "kod": "N9",
+   "ad": "Dubrovnik doğrudan 'venedik'/'macaristan' (özerk cumhuriyet, haraç bağı)",
+   "dayanak": "VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK",
+   "aciklama": "(42.6, 43.0, 17.6, 18.3) kutusunda 1400-01-01 günü sahibi venedik/macaristan olan noktalar.",
+   "hukumler": "ENKLAV-1104 K557, K558",
+   "motor": false,
+   "sayi": 2,
+   "satirlar": [
+    {
+     "ad": "Dubrovnik",
+     "yer": "data/yerlesimler.js:2528",
+     "lat": 42.65,
+     "lon": 18.094,
+     "simdi": "s:macaristan 1358-02-18→1459-03-07",
+     "oneri": "d: dubrovnik-cumhuriyeti; v: venedik (1205-1358), macaristan (1358-1458), OSMANLI (1458 sonrası) — künye ve günler kaynakla",
+     "kirilma": "1358-02-18",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "VAR: 1358-02-18 — Zadar Antlaşması — Dubrovnik, Venedik'ten Macaristan himayesine geçti"
+    },
+    {
+     "ad": "Ston",
+     "yer": "data/yerlesimler_once1281_yt_avrupa.js:269",
+     "lat": 42.8333,
+     "lon": 17.7,
+     "simdi": "s:macaristan 1358-02-18→1459-03-07",
+     "oneri": "d: dubrovnik-cumhuriyeti; v: venedik (1205-1358), macaristan (1358-1458), OSMANLI (1458 sonrası) — künye ve günler kaynakla",
+     "kirilma": "1358-02-18",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    }
+   ]
+  },
+  {
+   "kod": "N10",
+   "ad": "Doğu Anadolu 1920-1923 'OSMANLI' (İstanbul) — TBMM idaresi yazılmamış",
+   "dayanak": "VERİ ÖLÇÜMÜ (boşluk); günler KAYNAK-GEREK",
+   "aciklama": "(37.5, 41.5, 38.5, 44.8) kutusunda 1921-06-01 günü sahibi OSMANLI olan noktalar.",
+   "hukumler": "ENKLAV-1104 K536",
+   "motor": false,
+   "sayi": 2,
+   "satirlar": [
+    {
+     "ad": "Ahlat",
+     "yer": "data/yerlesimler_ms1_1281_yeni.js:4",
+     "lat": 38.752777,
+     "lon": 42.494444,
+     "simdi": "—",
+     "oneri": "1920-04-23 → tbmm-turkiye (bölge bölge TBMM idaresine giriş günü kaynakla; işgal altındaki yerler ayrı)",
+     "kirilma": "1920-04-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    },
+    {
+     "ad": "Meyyâfârikīn",
+     "yer": "data/yerlesimler_ms1_1281_yeni.js:117",
+     "lat": 38.1428,
+     "lon": 41.0033,
+     "simdi": "—",
+     "oneri": "1920-04-23 → tbmm-turkiye (bölge bölge TBMM idaresine giriş günü kaynakla; işgal altındaki yerler ayrı)",
+     "kirilma": "1920-04-23",
+     "guven": "OLCUM (boşluk) · KAYNAK-GEREK (günler)",
+     "kronoloji": "YOK"
+    }
+   ]
+  },
+  {
    "kod": "M",
    "ad": "Tâbi devlet yabancı sayılıyor / motor değme payı (YAPAY-m)",
    "dayanak": "MOTOR SORUSU (HAVVA/Emre)",
    "aciklama": "Kopukluk tâbinin komşu sayılmasından ya da < 1 km koridordan; veri düzeltmesi değil, evren/motor kararı.",
    "hukumler": "",
    "motor": true,
-   "sayi": 23,
+   "sayi": 41,
    "satirlar": [
     {
      "ad": "E082",
@@ -7409,6 +7761,168 @@
      "yer": "denetim/ENKLAV-1104/hukumler5.json",
      "simdi": "Bucumbura 1897 → 1916-06-06 Alman Doğu Afrikası, çevre 'burundi' (Alman himayesindeki krallık): tâbinin yabancı sayılması (KOVALAR M). Ek: Bukavu Belçika Kongos",
      "oneri": "Burundi v: (Alman himayesi); Bukavu kongo-serbest-devleti/belcika-kongosu (kaynakla).",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K508",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Portekiz parçası 1505-1663, içinde hiç yerleşim noktası yok (Vijayanagara/Kalikut komşu): motorun noktasız toprak ataması.",
+     "oneri": "Motor sorusu (HAVVA); Malabar Portekiz kalelerinin (Koçin, Kannur) noktaları ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K510",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Hollanda parçası 1663-1771, içinde nokta yok (Meysur/Nayak/Kalikut komşu): noktasız motor ataması (K508'in ardılı).",
+     "oneri": "Motor sorusu; Koçin VOC noktası ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K513",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Güney Afrika Birliği parçası 1917-1920, içinde nokta yok (İngiliz/Portekiz komşu): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K518",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Portekiz parçası 1891-1923, içinde nokta yok (İngiliz/Bemba komşu): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K520",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Fransa parçası 1922-1923, içinde nokta yok (İngiliz Kamerunu komşu): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K541",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Habeşistan parçası 1908-1923, içinde nokta yok (İtalya/Adal komşu): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K546",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "İngiliz Malaya parçası 1909-1946, içinde nokta yok: noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K547",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "İngiliz Malaya parçası 1874-1888, içinde nokta yok: noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K555",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Qing parçası 1676-1677, içinde nokta yok (San-fan isyanı komşu): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K556",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Danimarka parçası 1620-11-19 → 1845-02-22, içinde nokta yok: uçlar Tranquebar'ın (Tharangambadi) Danimarka dönemine uyuyor ama noktası yok — gerçek eksklav nokt",
+     "oneri": "Tranquebar noktası eklensin (YER-1104 KASA-YER kuralıyla, kaynakla); motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K559",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Osmanlı parçası 1738-05-08 → 08-01, içinde nokta yok: noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K560",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Habsburg Macaristan parçası 1688, içinde nokta yok: noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K562",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Norveç parçası 1905-1920, içinde nokta yok (Rusya/Finlandiya komşu): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K580",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Rus Geçici Hükûmeti parçası 1917, içinde nokta yok (İsveç komşu): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K581",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "K580'in Sovyet ardılı, 1917-11-07 → 12-06 (Finlandiya bağımsızlığı), nokta yok.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K582",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Salzburg başpiskoposluğu parçası 1281-1555, içinde nokta yok (Avusturya/Macar komşu): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K584",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "Sovyet Rusya parçası 1917-1920-10-14 (Tartu: Petsamo Finlandiya'ya), içinde nokta yok: noktasız motor ataması.",
+     "oneri": "Motor sorusu; Peçenga noktası ölçülsün.",
+     "kirilma": null,
+     "guven": "MOTOR SORUSU",
+     "kronoloji": "—"
+    },
+    {
+     "ad": "K592",
+     "yer": "denetim/ENKLAV-1104/hukumler6.json",
+     "simdi": "İngiliz parçası 1915-07-09 → 1920-12-17, içinde nokta yok (Güney Afrika Birliği komşu; Alman Güneybatı Afrikası'nın teslimi 1915-07-09): noktasız motor ataması.",
+     "oneri": "Motor sorusu.",
      "kirilma": null,
      "guven": "MOTOR SORUSU",
      "kronoloji": "—"
