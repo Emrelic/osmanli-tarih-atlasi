@@ -361,5 +361,16 @@
   "islem": "devletler.js memel-bolgesi f → 1920-02-15 (Fransız generali Odry bölge idaresini devraldı — TEK ÖLÇÜ teslim). Mevcut f 1920-02-10'un dayanağı lithuanianphilately.com + '[g?] doğrulanmadı' notu (atlas kaydı, akademik değil). ic_not_f: 'Versay md. 99; Büyükelçiler Konferansı 1920-01-25 Fransa'ya temsil yetkisi; 1920-02-17 Odry Direktorya'yı tanıdı'. Künye içi kronoloji maddesi t:'1920-02-10' (kurulus) AYNI COMMIT'te 1920-02-15'e taşınır, kaynağı VLE ile değiştirilir. Klaipėda vb. yerleşimlerde 1920-02-10 kırılması varsa → 02-15 (02-10 → 02-14 s: almanya).",
   "dayanak": "Visuotinė lietuvių enciklopedija 'Klaipėdos kraštas' (vle.lt/straipsnis/klaipedos-krastas/, LAB açtı 6 Kasım): «1920 02 15 krašto valdymą perėmęs Prancūzijos generolas D. J. Odry 02 17 įteisino vokiečių įkurtą 7 narių Darbo komitetą»",
   "onay": "EMRELİC 6 Kasım gece-35 (TEK ÖLÇÜ 02-15; LAB kaynakla teyit)"
+ },
+ {
+  "d": "sardinya-piyemonte / savoya / Sardunya adası",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "sardinya-piyemonte f 1720-08-02 → 1720-09-02 · savoya t → 1720-09-01",
+  "gun": "1720-09-02",
+  "islem": "devletler.js sardinya-piyemonte f → 1720-09-02, savoya t → 1720-09-01 (anakarada unvan adanın teslim alınmasıyla geldi). ic_not: '1720-08-02 kaynaksız — Londra Antlaşması 1718-08-02 ile karışmış görünüyor; Londra 1718-08-02 adayı Vittorio Amedeo II'ye verdi; Utrecht 1713 imparatora; Lahey 1720-02-17'. Anakara yerleşimleri (Torino, Aosta, Nice, Chambéry, Bourg-Saint-Maurice, Thonon, Annemasse …) savoya → sardinya-piyemonte kırılması 1720-08-02 → 1720-09-02. Ada (Kalyari, Sasari, Oristano, Alghero — 4 dosyada): 1479-01-19 → 1708-07-31 s: tek id (ispanya ya da sardinya-aragon — biri seçilir), 1708-08-01 [yalnız ay] isg avusturya, Utrecht 1713 imzası s: habsburg, 1717-08-01 [yalnız ay] isg ispanya, 1720-02-17 → 1720-09-01 beyanlı (İspanyol tahliyesi / Avusturya aracılığı, gün yok), 1720-09-02'den s: sardinya-piyemonte. d:'sardinya' YAZILMAZ (D-ANAHTAR). Değişmez 2: 1720-09-02, 1708-08, 1713, 1717-08 kırılmaları için madde ölçülmeli/önerilmeli; 1720-08-02 maddeleri varsa 09-02'ye taşınır.",
+  "dayanak": "Treccani Enciclopedia Italiana 'Sardegna' (1936) tarih bölümü: «preso appena possesso della Sardegna (2 settembre 1720)»; «col trattato di Londra (2 agosto 1718) assegnò la Sardegna a re Vittorio Amedeo II»; «Il trattato di Utrecht (1713) assegnava l'isola all'imperatore»",
+  "onay": "EMRELİC 6 Kasım gece-37"
  }
 ]
