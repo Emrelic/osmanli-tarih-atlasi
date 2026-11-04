@@ -788,7 +788,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 9, YAPAY-c 27, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Kızıkermen (Gazi Kerman) Osmanlı Özi kalesi, Kırım (TABI) ve Zaporojye arasında → 1695 Rus-Kazak zaptı: gerçek.
   - Düzeltme önerisi: Kuruluş 1552 kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: bulunamadı (model bilgisi) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Kızıkermen Rus zaptı 1695 — akademik yol: Guskov, The New Past 4/2022, s.114-129, DOI 10.18522/2500-3224-2022-4-114-129 (PDF okunamadı: sitenin TLS sertifikası süresi dolmuş)
 
 ### K580 · rusya-gecici-hukumet · 1917-03-15 → 1917-11-07 · 3.634 km²
 

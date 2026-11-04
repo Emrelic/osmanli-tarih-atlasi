@@ -8,7 +8,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-d 2, YAPAY-m 13. Güven: KAYNAK-GEREK 22, KAYNAKLI 17, OLCUM 19.
+Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-d 2, YAPAY-m 13. Güven: KAYNAK-GEREK 21, KAYNAKLI 18, OLCUM 19.
 
 ## Kara eksklavları
 
@@ -300,7 +300,7 @@ Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Bombay 1757 → 1774-12-28 (Salsette'in alınışı) Şirket Bombay'ı, Maratha ortasında: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV «Bombay» (1668 Şirket) — 1774 okunmadı
+  - Kaynak: TDV «Bombay» (1668 Şirket) — 1774 okunmadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Thana kuşatması 1774-12-12…28; Surat 1775-03-06; Purandhar 1776-03-01; Salbai 1782
 
 ### K730 · venedik · 1570-09-09 → 1570-09-17 · 818 km²
 
@@ -407,10 +407,10 @@ Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-
 - En büyük kesit: 1421-01-01 · komşu: venedik 27%, sirbistan 8%
 - Koridor: 155.1 km · sirbistan 7/9, venedik 2/9
 - İçindeki yerleşimler: Bar (Antivari) (sirp-despotlugu)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Bar 1421 (III. Balša'nın ölümü) Sırp despotluğu → 1433 (sonra Venedik), Venedik Arnavutluğu ortasında: kısmen gerçek.
-  - Düzeltme önerisi: Uçlar kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Bar despotluk dönemi bitişi 1433 → 1443 (HE: 1443'te kesin Venedik); 1571 → OSMANLI.
+  - Kaynak: Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/bar — 'U prvoj polovici XV. st. Bar je naizmjence pod vlašću Balšića, Venecije i Stefana Lazarevića, a 1443. konačno je došao pod vlast Venecije … Godine 1571. osvojili su ga Osmanli' (1421 başlangıcı III. Balša'nın ölümü — HE yüzyıl düzeyinde, gün teyitsiz)
 
 ### K741 · ingiltere · 1895-06-16 → 1923-10-29 · 744 km²
 

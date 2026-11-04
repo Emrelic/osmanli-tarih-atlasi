@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K701-K758, EMRELİC'in istediği son aralık; ölçümde yabancı-kara aday toplamı 858 — K759-K858 işlenmedi). Sözlük ENKLAV-1103/hukumler.json ile aynı; kaynak hükümle birlikte arandı. KAYNAK5 (LAB SALI): 1 hüküm kaynak_toplu.py ile güncellendi.",
+"_aciklama": "ENKLAV-1104 hükümleri (K701-K758, EMRELİC'in istediği son aralık; ölçümde yabancı-kara aday toplamı 858 — K759-K858 işlenmedi). Sözlük ENKLAV-1103/hukumler.json ile aynı; kaynak hükümle birlikte arandı. KAYNAK5 (LAB SALI): 2 hüküm kaynak_toplu.py ile güncellendi.",
 "K701": {
 "hukum": "BIRLESMELI",
 "kova": "BIRLESMELI",
@@ -230,7 +230,8 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Bombay 1757 → 1774-12-28 (Salsette'in alınışı) Şirket Bombay'ı, Maratha ortasında: gerçek.",
 "duzeltme": "Yok.",
-"kaynak": "TDV «Bombay» (1668 Şirket) — 1774 okunmadı"
+"kaynak": "TDV «Bombay» (1668 Şirket) — 1774 okunmadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Thana kuşatması 1774-12-12…28; Surat 1775-03-06; Purandhar 1776-03-01; Salbai 1782",
+"aday_tarih": "Thana kuşatması 1774-12-12…28; Surat 1775-03-06; Purandhar 1776-03-01; Salbai 1782"
 },
 "K730": {
 "hukum": "GERCEK",
@@ -315,10 +316,10 @@
 "K740": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Bar 1421 (III. Balša'nın ölümü) Sırp despotluğu → 1433 (sonra Venedik), Venedik Arnavutluğu ortasında: kısmen gerçek.",
-"duzeltme": "Uçlar kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"duzeltme": "Bar despotluk dönemi bitişi 1433 → 1443 (HE: 1443'te kesin Venedik); 1571 → OSMANLI.",
+"kaynak": "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/bar — 'U prvoj polovici XV. st. Bar je naizmjence pod vlašću Balšića, Venecije i Stefana Lazarevića, a 1443. konačno je došao pod vlast Venecije … Godine 1571. osvojili su ga Osmanli' (1421 başlangıcı III. Balša'nın ölümü — HE yüzyıl düzeyinde, gün teyitsiz)"
 },
 "K741": {
 "hukum": "YAPAY",

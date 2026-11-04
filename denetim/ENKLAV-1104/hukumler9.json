@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K759-K858, son parti; liste 858'de kapanır). İçinde nokta olmayan parçalar kuralla YAPAY-m (OLCUM); noktalılar elle, kaynak hükümle birlikte (hukum9_yaz.py).",
+"_aciklama": "ENKLAV-1104 hükümleri (K759-K858, son parti; liste 858'de kapanır). İçinde nokta olmayan parçalar kuralla YAPAY-m (OLCUM); noktalılar elle, kaynak hükümle birlikte (hukum9_yaz.py). KAYNAK5 (LAB SALI): 3 hüküm kaynak_toplu.py ile güncellendi.",
 "K759": {
 "hukum": "YAPAY",
 "kova": "YAPAY-m",
@@ -35,10 +35,10 @@
 "K763": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Zadar 1920-11-12 (Rapallo) → 1947-09-15 (Paris barışı yürürlüğü) İtalyan eksklavı, Yugoslavya ortasında: bilinen gerçek eksklav. Nin sahipsiz.",
-"duzeltme": "Yok (1943-1944 Alman işgali ayrı kova).",
-"kaynak": "bulunamadı (model bilgisi)"
+"duzeltme": "Yok (de jure 1947 bitişi kalabilir); fiilî: 1943-09 İtalya kapitülasyonu → NDH, 1944-11 Yugoslavya — ayrı kova (beyan).",
+"kaynak": "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/zadar — 'Rapallskim ugovorom 1920. bio je … pripojen Italiji kao enklava na istočnoj obali Jadrana' · 'pod talijanskom upravom sve do kapitulacije Italije 1943.' · 'U studenome 1944. grad je napokon bio pripojen matici zemlji'"
 },
 "K764": {
 "hukum": "YAPAY",
@@ -51,10 +51,10 @@
 "K765": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Zadar 1540 → 1699 Venedik Dalmaçyası, Osmanlı ortasında: gerçek (1409'dan Venedik; 1540 başlangıcı topoloji kırılması).",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/zadar — '1409. Ladislav Napuljski prodao Mletačkoj Republici Zadar … Mlečani zadržali vlast nad gradom sve do pada Mletačke Republike (1797)' · 'ratovi s Osmanlijama, koji … nikada nisu osvojili grad'"
 },
 "K766": {
 "hukum": "BIRLESMELI",
@@ -214,7 +214,8 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Balaklava (Cembalo) 1349-1357 'altinorda' doğrudan, çevre Theodoro: Cembalo 1345'ten Ceneviz kalesiydi; Altınorda doğrudan yazımı şüpheli. Akyar sahipsiz.",
 "duzeltme": "Cembalo 1345-1475 ceneviz (kaynakla).",
-"kaynak": "TDV'de Balaklava maddesi yok — bulunamadı"
+"kaynak": "TDV'de Balaklava maddesi yok — bulunamadı · KISMEN — Cembalo 1357 Ceneviz başlangıcı akademik kaynakta OKUNMADI (EMRELİC Cambridge/JSTOR, 4 Kasım) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Ceneviz Cembalo 1357 (1345 iddiası da var)",
+"aday_tarih": "Ceneviz Cembalo 1357 (1345 iddiası da var)"
 },
 "K786": {
 "hukum": "GERCEK",
@@ -222,7 +223,8 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Balaklava 1357 → 1475 Ceneviz, Theodoro ortasında: gerçek.",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "bulunamadı (model bilgisi) · KISMEN — D. Kizilov, Acta Orientalia ASH 59/2 (2006), s.181: 'Ottoman conquest of 1475' (Kırım geneli; Cembalo için ABİ BÖLGE yılı, BEYANLI YAKLAŞIKLIK); TDV kefe: Haziran 1475; 1357 Ceneviz başlangıcı OKUNMADI · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Ceneviz 1357; Osmanlı 1475 (Kefe 6 Haziran — TDV Kefe: Haziran 1475)",
+"aday_tarih": "Ceneviz 1357; Osmanlı 1475 (Kefe 6 Haziran — TDV Kefe: Haziran 1475)"
 },
 "K787": {
 "hukum": "GERCEK",
@@ -230,7 +232,7 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Balaklava 1475-06 Osmanlı → 1475-12 (Mangup/Theodoro'nun düşüşü): kısa gerçek parça.",
 "duzeltme": "Yok.",
-"kaynak": "TDV «Gedik Ahmed Paşa»: Mangub (1475) — gün yok"
+"kaynak": "KISMEN — TDV, https://islamansiklopedisi.org.tr/kefe — 'harekât sonunda Kefe ile beraber bütün sahil şeridi fethedildi (Safer 880 / Haziran 1475)' · 'Balıklagu (Balıklava) ve İnkerman da Mangub'a bağlı' (başlangıç teyitli; Mangub'un düşüş günü KAYNAK-GEREK)"
 },
 "K788": {
 "hukum": "YAPAY",

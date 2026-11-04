@@ -115,6 +115,67 @@ U.update({
     "K715": dict(guven="KAYNAKLI", kaynak=TR + "limburgo/ — 'Estintasi la casata (1283), iniziò una guerra di successione, in cui Brabante vinse sul "
                  "Lussemburgo (1288)' (Worringen, veri 1288-06-05 ile uyumlu)"),
 })
+HE = "Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/"
+U.update({
+    # Balkan-Venedik (HE) · Kırım kıyısı (TDV Kefe)
+    "K740": dict(guven="KAYNAKLI", duzeltme="Bar despotluk dönemi bitişi 1433 → 1443 (HE: 1443'te kesin Venedik); 1571 → OSMANLI.",
+                 kaynak=HE + "bar — 'U prvoj polovici XV. st. Bar je naizmjence pod vlašću Balšića, Venecije i Stefana Lazarevića, a 1443. konačno je došao "
+                 "pod vlast Venecije … Godine 1571. osvojili su ga Osmanli' (1421 başlangıcı III. Balša'nın ölümü — HE yüzyıl düzeyinde, gün teyitsiz)"),
+    "K765": dict(guven="KAYNAKLI", kaynak=HE + "zadar — '1409. Ladislav Napuljski prodao Mletačkoj Republici Zadar … Mlečani zadržali vlast nad gradom sve do pada "
+                 "Mletačke Republike (1797)' · 'ratovi s Osmanlijama, koji … nikada nisu osvojili grad'"),
+    "K763": dict(guven="KAYNAKLI", duzeltme="Yok (de jure 1947 bitişi kalabilir); fiilî: 1943-09 İtalya kapitülasyonu → NDH, 1944-11 Yugoslavya — ayrı kova (beyan).",
+                 kaynak=HE + "zadar — 'Rapallskim ugovorom 1920. bio je … pripojen Italiji kao enklava na istočnoj obali Jadrana' · 'pod talijanskom upravom sve "
+                 "do kapitulacije Italije 1943.' · 'U studenome 1944. grad je napokon bio pripojen matici zemlji'"),
+    "K787": dict(kaynak="KISMEN — TDV, https://islamansiklopedisi.org.tr/kefe — 'harekât sonunda Kefe ile beraber bütün sahil şeridi fethedildi (Safer 880 / "
+                 "Haziran 1475)' · 'Balıklagu (Balıklava) ve İnkerman da Mangub'a bağlı' (başlangıç teyitli; Mangub'un düşüş günü KAYNAK-GEREK)"),
+})
+NCMH = "EMRELİC Cambridge okuması — "
+U.update({
+    "K677": dict(guven="KAYNAKLI", kaynak=NCMH + "New Cambridge Medieval History 7, ch.20 (B. Schnerb, 'Burgundy'), s.439: 'purchase of the county of Namur in "
+                 "1421'; 'became Burgundian in 1429' (yıl düzeyi; 23 Nisan günü teyitsiz) — Namur kendi kontluğu, 1421 → burgonya"),
+    "K678": dict(guven="KAYNAKLI", duzeltme="Namur burgonya f: 1421 satış (yıl teyitli; gün teyitsiz) — fiilî devir 1429 (III. John'un ölümü), beyanlı.",
+                 kaynak=NCMH + "NCMH 7, ch.20 (Schnerb), s.439: 'purchase of the county of Namur in 1421'; 'became Burgundian in 1429' (yıl düzeyi)"),
+    "K615": dict(guven="KAYNAKLI", kaynak=NCMH + "L. Bes, The Heirs of Vijayanagara (2022), Epilogue: 'taken by the British in 1781' — yıl teyitli; "
+                 "'12 November 1781' yalnız JRAS 1985 toplantı notunda, gün teyitsiz (beyanlı). ADAY: kuşatma 1781-10-21"),
+})
+KISMEN = {
+    "K372": "KISMEN — NCMH 6, ch.14b, s.440: 'Philip's marriage in 1369 to Margaret of Flanders' (yıl teyitli; Lille-Douai-Orchies adı geçmiyor, gün teyitsiz)",
+    "K786": "KISMEN — D. Kizilov, Acta Orientalia ASH 59/2 (2006), s.181: 'Ottoman conquest of 1475' (Kırım geneli; Cembalo için ABİ BÖLGE yılı, BEYANLI "
+            "YAKLAŞIKLIK); TDV kefe: Haziran 1475; 1357 Ceneviz başlangıcı OKUNMADI",
+    "K785": "KISMEN — Cembalo 1357 Ceneviz başlangıcı akademik kaynakta OKUNMADI (EMRELİC Cambridge/JSTOR, 4 Kasım)",
+}
+# EMRELİC 1 KASIM (4 Kasım 2026): web-özeti aday tarihleri — KAYNAKLI DEĞİL, yalnız yol gösterir; satırlar KAYNAK-GEREK kalır
+ADAY = {
+    "K614": "Portekiz 1554; Hollanda 1658 anlaşma, fiilen 1662 ya da 1676 (çelişik)",
+    "K615": "İngiliz kuşatması 1781-10-21 → zapt 1781-11-11/12",
+    "K729": "Thana kuşatması 1774-12-12…28; Surat 1775-03-06; Purandhar 1776-03-01; Salbai 1782",
+    "K604": "Amsterdam ayaklanması 1813-11-15; Lahey 11-16; üçlü hükümet bildirisi 11-21; Willem 11-30",
+    "K679": "K604 ile aynı (1813-11-15 … 11-30)",
+    "K677": "Namur satışı 1421-04-23; III. John öldü 1429-03-10, fiilî devir 1429",
+    "K678": "satış 1421-04-23; fiilî devir 1429 (III. John ölümü 1429-03-10)",
+    "K372": "Cesur Philippe – Marguerite evliliği 1369 (19 Haziran?)",
+    "K485": "Hacıbey 1415 Litvanya (Długosz), Osmanlı 1480 — TDV'de Hacıbey/Özi maddesi yok (arama 4 Kasım)",
+    "K579": "Kızıkermen Rus zaptı 1695 — akademik yol: Guskov, The New Past 4/2022, s.114-129, DOI 10.18522/2500-3224-2022-4-114-129 (PDF okunamadı: sitenin TLS sertifikası süresi dolmuş)",
+    "K635": "Rus zaptı 1695; İstanbul antlaşması 3 (14) Temmuz 1700 — Guskov 2022 arama özeti (veri 1700-07-14 Gregoryen ile uyumlu; '13 Temmuz' yanlış çeviri). PDF okunamadı",
+    "K629": "1700-07-14 (Jülyen 3 Temmuz) — Guskov 2022 arama özeti; iade/yıkım uygulama günü okunamadı",
+    "K624": "Küçük Kaynarca 1774-07-21 (TDV maddesinde Kızıkermen adı geçmiyor; Kılburun-Özü var)",
+    "K785": "Ceneviz Cembalo 1357 (1345 iddiası da var)",
+    "K786": "Ceneviz 1357; Osmanlı 1475 (Kefe 6 Haziran — TDV Kefe: Haziran 1475)",
+    "K164": "Semipalatinsk 1718",
+    "K691": "okunmadı",
+}
+for i in range(2, 10):
+    yol = os.path.join(BURA, "hukumler%d.json" % i)
+    H = json.load(open(yol, encoding="utf-8"))
+    d = 0
+    for k, a in ADAY.items():
+        if k in H and H[k].get("guven") == "KAYNAK-GEREK":
+            H[k]["aday_tarih"] = a
+            eski = H[k].get("kaynak", "").split(" · ADAY TARİH")[0].split(" · KISMEN")[0]
+            H[k]["kaynak"] = eski + (" · " + KISMEN[k] if k in KISMEN else "") + " · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): " + a
+            d += 1
+    if d:
+        json.dump(H, open(yol, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=0)
 n, korunan = 0, []
 for i in range(2, 10):
     yol = os.path.join(BURA, "hukumler%d.json" % i)

@@ -510,7 +510,8 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Semipalatinsk 1718 'rusya' (kale 1718, kayıt uyumlu), çevre cungar (koridor 247 km 8/9). İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716, Jeleznikovo 1717) atlasta nokta olarak yoksa kopukluk noktasız emilmeden. [KAYNAK-UMIT: bulunamadi — Semipalatinsk 1718 kuruluşu ve İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716) için okunabilir akademik sayfa bulunamadı; TDV'de yok. Cambridge History of Inner Asia ya da Perdue 'China Marches West' gerek.] [KAYNAK-UMIT: giris_gerek — EB 1911 'Semipalatinsk' (kismen) ya da Rusya-Cungar İrtiş hattı akademik makalesi okunmalı.] [KAYNAK-UMIT: bulunamadi — 1718 Semipalatinsk kalesi ve İrtiş hattı kuruluş tarihleri teyit edilemedi. China Marches West (Perdue) ödünç kilitli. Gerekli: Perdue ya da Cambridge History of Russia vol. 2 ilgili sayfa, ya da TDV 'Kazaklar'.]",
 "duzeltme": "İrtiş hattı kaleleri için nokta ve dönem.",
-"kaynak": "veri ölçümü (kayit.py Semipalatinsk)"
+"kaynak": "veri ölçümü (kayit.py Semipalatinsk) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Semipalatinsk 1718",
+"aday_tarih": "Semipalatinsk 1718"
 },
 "K165": {
 "hukum": "YAPAY",

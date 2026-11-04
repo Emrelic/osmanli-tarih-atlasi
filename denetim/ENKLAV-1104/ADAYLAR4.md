@@ -688,7 +688,7 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Burgonya'nın Kuzey payı (Arras, Lille) Dijon gövdesinden Fransa ve İngiliz toprağıyla ayrı: K222'nin öncülü, gerçek iki blok. Borç: başlangıç 1369-06-19 (Cesur Philippe'in Marguerite ile evliliği); Flandre-Artois Burgonya'ya Louis de Male'in ölümüyle (30 Ocak 1384) geçti. [KAYNAK-UMIT: giris_gerek — Flandre-Artois'nın 30 Ocak 1384 Burgonya'ya geçişi: Vaughan, Philip the Bold; HLS/Treccani değil, akademik Burgonya kaynağı okunmalı.] [KAYNAK-UMIT: bulunamadi — 30 Ocak 1384 (Flandre-Artois Burgonya'ya) bu ciltte okunmadi; Schnerb 'Burgundy' bolumu Philip'in 1404 olumuyle basliyor. Okunmali: Vaughan, Philip the Bold (1962) bolum 1-2.]
   - Düzeltme önerisi: Arras, Lille burgonya f → 1384-01-30 (kaynakla), öncesi flandre.
-  - Kaynak: veri ölçümü
+  - Kaynak: veri ölçümü · KISMEN — NCMH 6, ch.14b, s.440: 'Philip's marriage in 1369 to Margaret of Flanders' (yıl teyitli; Lille-Douai-Orchies adı geçmiyor, gün teyitsiz) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Cesur Philippe – Marguerite evliliği 1369 (19 Haziran?)
 
 ### K373 · sovyet-rusya · 1917-11-07 → 1920-04-27 · 13.311 km²
 

@@ -638,7 +638,7 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 11, YAPAY-b 5, YAPAY-c 31, YAPAY
 - **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
   - Gerekçe: Semipalatinsk 1718 'rusya' (kale 1718, kayıt uyumlu), çevre cungar (koridor 247 km 8/9). İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716, Jeleznikovo 1717) atlasta nokta olarak yoksa kopukluk noktasız emilmeden. [KAYNAK-UMIT: bulunamadi — Semipalatinsk 1718 kuruluşu ve İrtiş hattı kaleleri (Yamışevo 1715/16, Omsk 1716) için okunabilir akademik sayfa bulunamadı; TDV'de yok. Cambridge History of Inner Asia ya da Perdue 'China Marches West' gerek.] [KAYNAK-UMIT: giris_gerek — EB 1911 'Semipalatinsk' (kismen) ya da Rusya-Cungar İrtiş hattı akademik makalesi okunmalı.] [KAYNAK-UMIT: bulunamadi — 1718 Semipalatinsk kalesi ve İrtiş hattı kuruluş tarihleri teyit edilemedi. China Marches West (Perdue) ödünç kilitli. Gerekli: Perdue ya da Cambridge History of Russia vol. 2 ilgili sayfa, ya da TDV 'Kazaklar'.]
   - Düzeltme önerisi: İrtiş hattı kaleleri için nokta ve dönem.
-  - Kaynak: veri ölçümü (kayit.py Semipalatinsk)
+  - Kaynak: veri ölçümü (kayit.py Semipalatinsk) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Semipalatinsk 1718
 
 ### K165 · celayirli · 1383-01-01 → 1387-11-01 · 44.230 km²
 

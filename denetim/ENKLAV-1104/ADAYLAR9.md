@@ -8,7 +8,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 3, GERCEK 11, YAPAY-c 2, YAPAY-d 1, YAPAY-m 83. Güven: KAYNAK-GEREK 8, KAYNAKLI 6, OLCUM 86.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 3, GERCEK 11, YAPAY-c 2, YAPAY-d 1, YAPAY-m 83. Güven: KAYNAK-GEREK 6, KAYNAKLI 8, OLCUM 86.
 
 ## Kara eksklavları
 
@@ -47,10 +47,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 3, GERCEK 11, YAPAY-c 2, YAPAY-d 1, YAPA
 - En büyük kesit: 1943-09-23 · komşu: yugoslavya 39%
 - Koridor: 80.0 km · yugoslavya 8/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: Zadar (Zara) (italya); Nin (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Zadar 1920-11-12 (Rapallo) → 1947-09-15 (Paris barışı yürürlüğü) İtalyan eksklavı, Yugoslavya ortasında: bilinen gerçek eksklav. Nin sahipsiz.
-  - Düzeltme önerisi: Yok (1943-1944 Alman işgali ayrı kova).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Yok (de jure 1947 bitişi kalabilir); fiilî: 1943-09 İtalya kapitülasyonu → NDH, 1944-11 Yugoslavya — ayrı kova (beyan).
+  - Kaynak: Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/zadar — 'Rapallskim ugovorom 1920. bio je … pripojen Italiji kao enklava na istočnoj obali Jadrana' · 'pod talijanskom upravom sve do kapitulacije Italije 1943.' · 'U studenome 1944. grad je napokon bio pripojen matici zemlji'
 
 ### K764 · fransa-cumhuriyet · 1922-07-20 → 1923-10-29 · 460 km²
 
@@ -67,10 +67,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 3, GERCEK 11, YAPAY-c 2, YAPAY-d 1, YAPA
 - En büyük kesit: 1570-07-02 · komşu: OSMANLI 37%
 - Koridor: 34.2 km · OSMANLI 9/9
 - İçindeki yerleşimler: Zadar (Zara) (venedik); Nin (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Zadar 1540 → 1699 Venedik Dalmaçyası, Osmanlı ortasında: gerçek (1409'dan Venedik; 1540 başlangıcı topoloji kırılması).
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Hrvatska enciklopedija, https://www.enciklopedija.hr/clanak/zadar — '1409. Ladislav Napuljski prodao Mletačkoj Republici Zadar … Mlečani zadržali vlast nad gradom sve do pada Mletačke Republike (1797)' · 'ratovi s Osmanlijama, koji … nikada nisu osvojili grad'
 
 ### K766 · fas · 1912-11-27 → 1923-10-29 · 455 km²
 
@@ -270,7 +270,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 3, GERCEK 11, YAPAY-c 2, YAPAY-d 1, YAPA
 - **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
   - Gerekçe: Balaklava (Cembalo) 1349-1357 'altinorda' doğrudan, çevre Theodoro: Cembalo 1345'ten Ceneviz kalesiydi; Altınorda doğrudan yazımı şüpheli. Akyar sahipsiz.
   - Düzeltme önerisi: Cembalo 1345-1475 ceneviz (kaynakla).
-  - Kaynak: TDV'de Balaklava maddesi yok — bulunamadı
+  - Kaynak: TDV'de Balaklava maddesi yok — bulunamadı · KISMEN — Cembalo 1357 Ceneviz başlangıcı akademik kaynakta OKUNMADI (EMRELİC Cambridge/JSTOR, 4 Kasım) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Ceneviz Cembalo 1357 (1345 iddiası da var)
 
 ### K786 · ceneviz · 1357-01-01 → 1475-06-06 · 275 km²
 
@@ -280,7 +280,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 3, GERCEK 11, YAPAY-c 2, YAPAY-d 1, YAPA
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Balaklava 1357 → 1475 Ceneviz, Theodoro ortasında: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: bulunamadı (model bilgisi) · KISMEN — D. Kizilov, Acta Orientalia ASH 59/2 (2006), s.181: 'Ottoman conquest of 1475' (Kırım geneli; Cembalo için ABİ BÖLGE yılı, BEYANLI YAKLAŞIKLIK); TDV kefe: Haziran 1475; 1357 Ceneviz başlangıcı OKUNMADI · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Ceneviz 1357; Osmanlı 1475 (Kefe 6 Haziran — TDV Kefe: Haziran 1475)
 
 ### K787 · OSMANLI · 1475-06-06 → 1475-12-01 · 275 km²
 
@@ -290,7 +290,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 3, GERCEK 11, YAPAY-c 2, YAPAY-d 1, YAPA
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Balaklava 1475-06 Osmanlı → 1475-12 (Mangup/Theodoro'nun düşüşü): kısa gerçek parça.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV «Gedik Ahmed Paşa»: Mangub (1475) — gün yok
+  - Kaynak: KISMEN — TDV, https://islamansiklopedisi.org.tr/kefe — 'harekât sonunda Kefe ile beraber bütün sahil şeridi fethedildi (Safer 880 / Haziran 1475)' · 'Balıklagu (Balıklava) ve İnkerman da Mangub'a bağlı' (başlangıç teyitli; Mangub'un düşüş günü KAYNAK-GEREK)
 
 ### K788 · baden · 1815-06-09 → 1871-01-18 · 262 km²
 

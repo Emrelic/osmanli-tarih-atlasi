@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAPAY-d 2, YAPAY-m 28. Güven: KAYNAK-GEREK 35, KAYNAKLI 29, OLCUM 36.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAPAY-d 2, YAPAY-m 28. Güven: KAYNAK-GEREK 32, KAYNAKLI 32, OLCUM 36.
 
 ## Kara eksklavları
 
@@ -128,17 +128,17 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Nagapatnam Portekiz ticaret yerleşimi 1554 → 1658 Hollanda zaptı, Nayak toprakları ortasında: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: bulunamadı (model bilgisi) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Portekiz 1554; Hollanda 1658 anlaşma, fiilen 1662 ya da 1676 (çelişik)
 
 ### K615 · ingiliz-hindistani · 1781-11-12 → 1799-10-25 · 2.904 km²
 
 - En büyük kesit: 1781-11-12 · komşu: tancur-maratha 27%, danimarka 18%
 - Koridor: 84.4 km · tancur-maratha 9/9
 - İçindeki yerleşimler: Nagapatnam (ingiliz-hindistani)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Nagapatnam 1781-11-12 İngiliz zaptı (Hollanda'dan) → 1799 Tancur'un ilhakıyla gövdeye bağlanış: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: EMRELİC Cambridge okuması — L. Bes, The Heirs of Vijayanagara (2022), Epilogue: 'taken by the British in 1781' — yıl teyitli; '12 November 1781' yalnız JRAS 1985 toplantı notunda, gün teyitsiz (beyanlı). ADAY: kuşatma 1781-10-21
 
 ### K616 · taiping · 1863-12-04 → 1864-03-31 · 2.872 km²
 
@@ -228,7 +228,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Kızıkermen 1774-07-21 (Küçük Kaynarca) Rus, Kırım (bağımsızlaştırılmış) ve Zaporojye arasında → 1775 Zaporojye'nin dağıtılması: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV'de madde yok (arama/kizikerman) — bulunamadı
+  - Kaynak: TDV'de madde yok (arama/kizikerman) — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Küçük Kaynarca 1774-07-21 (TDV maddesinde Kızıkermen adı geçmiyor; Kılburun-Özü var)
 
 ### K625 · yugoslavya · 1918-11-11 → 1918-12-01 · 2.612 km²
 
@@ -278,7 +278,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Kızıkermen 1700-07-14 (İstanbul antlaşması ile iade) → 1774 Osmanlı, Kırım (TABI) ve Zaporojye arasında: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV'de madde yok — bulunamadı
+  - Kaynak: TDV'de madde yok — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): 1700-07-14 (Jülyen 3 Temmuz) — Guskov 2022 arama özeti; iade/yıkım uygulama günü okunamadı
 
 ### K630 · gurcistan · 1578-08-01 → 1578-08-09 · 2.519 km²
 
@@ -338,7 +338,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Kızıkermen 1695 Rus-Kazak zaptı → 1700-07-14 İstanbul antlaşması: gerçek kısa parça.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV'de madde yok — bulunamadı
+  - Kaynak: TDV'de madde yok — bulunamadı · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Rus zaptı 1695; İstanbul antlaşması 3 (14) Temmuz 1700 — Guskov 2022 arama özeti (veri 1700-07-14 Gregoryen ile uyumlu; '13 Temmuz' yanlış çeviri). PDF okunamadı
 
 ### K636 · ispanya · 1937-06-19 → 1939-04-01 · 2.275 km²
 
@@ -745,20 +745,20 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1366-09-21 · komşu: liege-piskoposlugu 50%, brabant-dukaligi 39%, hainaut-kontlugu 11%
 - Koridor: 41.1 km · liege-piskoposlugu 9/9
 - İçindeki yerleşimler: Namur (almanya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Namur 1190-1421 'almanya' (çatı), çevre Liège/Brabant/Hainaut: Namur kontluğu kendi künyesiyle olmalı; kopukluk çatı kimliğinden (Sion, Gelre ailesi).
   - Düzeltme önerisi: namur-kontlugu künyesi; 1421 → burgonya.
-  - Kaynak: Treccani «Namur» tarih vermedi — bulunamadı
+  - Kaynak: EMRELİC Cambridge okuması — New Cambridge Medieval History 7, ch.20 (B. Schnerb, 'Burgundy'), s.439: 'purchase of the county of Namur in 1421'; 'became Burgundian in 1429' (yıl düzeyi; 23 Nisan günü teyitsiz) — Namur kendi kontluğu, 1421 → burgonya
 
 ### K678 · burgonya · 1421-03-01 → 1430-08-04 · 1.512 km²
 
 - En büyük kesit: 1421-03-01 · komşu: liege-piskoposlugu 50%, brabant-dukaligi 39%, hainaut-kontlugu 11%
 - Koridor: 48.8 km · brabant-dukaligi 9/9
 - İçindeki yerleşimler: Namur (burgonya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Namur 1421 Burgonya'nın satın alışı → 1430-08-04 Brabant'ın Burgonya'ya geçişiyle gövdeye bağlanma: Liège/Brabant arasında gerçek Burgonya parçası.
-  - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Düzeltme önerisi: Namur burgonya f: 1421 satış (yıl teyitli; gün teyitsiz) — fiilî devir 1429 (III. John'un ölümü), beyanlı.
+  - Kaynak: EMRELİC Cambridge okuması — NCMH 7, ch.20 (Schnerb), s.439: 'purchase of the county of Namur in 1421'; 'became Burgundian in 1429' (yıl düzeyi)
 
 ### K679 · hollanda · 1813-11-15 → 1813-11-30 · 1.499 km²
 
@@ -768,7 +768,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Dordrecht 1813-11-15 → 11-30: K604 ile aynı Hollanda ayaklanması parçası.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: bulunamadı (model bilgisi) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): K604 ile aynı (1813-11-15 … 11-30)
 
 ### K680 · bizans · 1323-01-01 → 1331-03-02 · 1.479 km²
 
@@ -888,7 +888,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
   - Gerekçe: Hulst-Terneuzen 1281 → 1384-01-30 'fransa', çevre 'flandre' %40: Flandra kontluğu Fransız tacının feodu ama kendi devleti; 1384 Burgonya mirası (bitiş uyumlu).
   - Düzeltme önerisi: Hulst, Terneuzen 1281-1384 flandre.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: bulunamadı (model bilgisi) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): okunmadı
 
 ### K692 · bosna-sirp-cumhuriyeti · 1992-01-09 → 1995-12-14 · 1.297 km²
 
@@ -990,7 +990,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Amsterdam-Haarlem 1813-11-15 ayaklanma → 11-30 Hollanda geçici hükûmeti, Fransız idaresi ortasında: kısa gerçek parça.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: bulunamadı (model bilgisi) · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Amsterdam ayaklanması 1813-11-15; Lahey 11-16; üçlü hükümet bildirisi 11-21; Willem 11-30
 
 ### K607 · ingiltere · 1795-01-01 → 1802-01-01 · 3.056 km²
 

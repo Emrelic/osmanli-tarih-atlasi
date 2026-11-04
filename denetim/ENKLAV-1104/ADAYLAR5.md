@@ -848,7 +848,7 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
   - Gerekçe: Hacıbey (Odessa) 1441 → 1480 Litvanya, Litvanya gövdesinden Altın Orda/Kırım bozkırıyla ayrı: Vytautas döneminde Karadeniz kıyısına uzanan Litvanya iskeleleri bilinir. Düşük güven: 1441-1480 dönemi. [KAYNAK-UMIT: bulunamadi — Hacıbey'in 1441-1480 Litvanya sahipliği teyit edilemedi. Kaynaklar yalnız sonraki dönemi (Osmanlı, 1789 Rus) verir. İkinci kaynak (Kırım Hanlığı/Kocabey tarihi, Ukrayna Ansiklopedisi 'Odesa') okunmalı.] [KAYNAK-UMIT: bulunamadi — Hacibey 1441-1480 Litvanya yazimi kaynakla teyit edilemedi. Kirim Hanligi'nin kurulusu 1441 civari (Haci Giray) ayni donemde Litvanya'nin Karadeniz kiyisi iddiasi icin Ukrayna Ansiklopedisi / Kamyanets kaynagi gerek.]
   - Düzeltme önerisi: Hacıbey 1441-1480 sahibi kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: veri ölçümü · ADAY TARİH (EMRELİC web özeti, KAYNAKLI DEĞİL): Hacıbey 1415 Litvanya (Długosz), Osmanlı 1480 — TDV'de Hacıbey/Özi maddesi yok (arama 4 Kasım)
 
 ### K486 · guney-rusya-beyaz · 1919-08-30 → 1919-12-16 · 6.300 km²
 
