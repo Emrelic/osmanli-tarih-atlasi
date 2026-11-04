@@ -111,6 +111,13 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2S 855-878 (S41/S42) — NAOJ ECO (KASA SALI); atlasla aynı
+    "L2-1242": "Takvim: Keiō 4/3/14 = 1868-04-06 Gregoryen (NAOJ ECO)",
+    "L2-1246": "Takvim: Meiji 4/11/12 = 1871-12-23 Gregoryen (NAOJ ECO; Sekai Daihyakka)",
+    "L2-1247": "Takvim: Meiji 5/8/3 = 1872-09-05 Gregoryen (NAOJ ECO; Monbushō yayımı) — 8/2 = 09-04 Dajōkan bildirisi; ic_not_takvim «8/2 = 09-05» etiketi YANLIŞ → «8/3»",
+    "L2-1249": "Takvim: Meiji 5/10/4 = 1872-11-04 Gregoryen (NAOJ ECO; Nipponica) — popüler «4 Ekim» ay-güneş günüdür",
+    "L2-1251": "Takvim: askerlik yasası 1873-01-10 (Gregoryen takvime geçiş sonrası); ayrı olay Chōhei kokuyu Meiji 5/11/28 = 1872-12-28 (NAOJ ECO) → ic_not",
+    "L2-1261": "Takvim: Tırnova Anayasası 16 Nisan 1879 Jülyen (CEUP 2010) + 12 = 1879-04-28 Gregoryen — atlasla aynı",
     "L2-1234": "Takvim: Ansei 7/3/3 = 1860-03-24 Gregoryen (NAOJ ECO; Kotobank «万延1年3月3日» geriye dönük yıl adı — Man'en 3/18'de ilan edildi → ic_not) — atlasla aynı",
     "L2-1240": "Takvim: Keiō 3/10/14 = 1867-11-09 Gregoryen (NAOJ ECO; Kotobank Mypedia) — atlasla aynı; kabul ertesi gün 10/15 = 1867-11-10",
     # L2E 1779-1814: Goryeosa (Academia Sinica, EMRELİC) + Japon satırları (NAOJ ECO, KASA SALI); atlasla aynı
@@ -272,6 +279,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1244": ("tarih düzelt", "Kayor / Dekheulé 1868-10-26 → 1886-10-26 (YIL HATASI): Monteil 1963, Archives de sociologie des religions 8/16 s.77-104 (Persée) «Le 26 [octobre] Lat-Dyor tombe à Dyaqiê… il avait 44 ans»; Lat Dior 1842-1886, demiryolu 1880'ler; 27 Ekim (Valois raporu) ic_not; metin «Lat Dior'u yendi» → «Lat Dior savaşta düştü»"),
     "L2-1123": ("tarih düzelt", "Khalsa 1699-04-13 → 1699-04-09: 1 Baisakh Bikrami 1756 = 30 Mart 1699 Jülyen = 9 Nisan Gregoryen (EMRELİC eski takvim taraması); 13 Nisan modern Vaisakhi alışkanlığı; odak_yer Delhi → Anandpur/Keshgarh"),
     "L2-1186": ("tarih düzelt", "Quang Trung ilanı 1788-11-22 → 1788-12-22: Takvim: Qianlong 53 戊申, 11. ay 25. gün = 1788-12-22 Gregoryen (Academia Sinica, EMRELİC) — atlas «11. ay»ı Kasım okumuş; Tây Sơn takvimi Qing'den ±1 gün sapabilir → ic_not"),
     "L2-1155": ("tarih düzelt", "Gürcistan 1744-01-01 → 1744-07-01 + «[yalnız ay teyitli]»: Georgian National Encyclopedia «Teimuraz II» — «the Shah confirmed Teimuraz II as King of Kartli and Erekle as King of Kakheti in July 1744»; atlas metni TERS (Teimuraz Kaheti, Erekle Kartli diyor) → metin de düzeltilir; tek kaynak (Iranica 403)"),
@@ -679,6 +687,16 @@ METIN = [
     ("L2-1241", "[BEKLE — tek dayanak Vikipedi] Racputana kıtlığı: «iki yıl üst üste musonun gelmemesi» şüpheli — 1868 musonu geç/zayıf, 1869 bahar hasadı yok; kıtlık adı «1869»"),
     ("L2-1236", "Mescalero 1863 (NPS Fort Union) yıl tutar; «ilk» ifadesi okunan sayfada yok"),
     ("L2-1237", "Navaho 1864 (NPS Fort Union) yıl tutar; «10.000+» ve ölü sayısı okunan sayfada yok"),
+    # L2S 855-878 (S41/S42)
+    ("L2-1246", "Iwakura heyeti: «ABD ve on iki Avrupa ülkesi» → toplam 12 ülke (ABD + 11 Avrupa); «iki yıllık» → ~1 yıl 10 ay (Sekai Daihyakka)"),
+    ("L2-1248", "Demiryolu 1872: Shimbashi-Yokohama resmî açılış 14 Ekim 1872 (Nipponica); Mayıs 1872 Shinagawa-Yokohama geçici hattı → ic_not"),
+    ("L2-1243", "Charles Brooke 1868-08-03 ilan günü (Baring-Gould & Bampfylde 1909 s.307; tek, eski monografi); James Brooke 11 Haziran 1868 öldü → ic_not"),
+    ("L2-1245", "[BEKLE — tek dayanak Britannica] Mirambo 1871: Britannica «1870'ler»; «ölümüne kadar sürdü» çelişir (1880 Arapların barış isteği, Zanzibar desteği değişir)"),
+    ("L2-1254", "[BEKLE — kaynaksız] Sipopa: ölüm biçimi çelişkili (öldürüldü / Mamili isyanıyla indirildi); «muhafız suikastı» okunan hiçbir kaynakta yok"),
+    ("L2-1257", "Ponka 1877 (Schurz 1880 resmî mektubu; UNL): «üçte bir kayıp» ve «500 mil» kaynakta yok — UNL «ilk iki yılda beşte birinden fazla (158/730)», Schurz «about 700» → kayıp oranı düzeltilir, mil çıkarılır"),
+    ("L2-1272", "Vollayta 1890 (DAB, Haberland «ruled 1890-94»): «altı kez yendi» okunmadı; son yenilgi Kasım 1894, «1896» desteklenmez → 1894"),
+    ("L2-1258", "Satsuma 1877-02-15: Saigō ordusunun Kagoshima'dan hareketi (Nihon Daihyakka Zensho, Sekai Daihyakka); savaşın başlangıcı 29 Ocak (ja.Wikipedia ipucu) → «Saigō başlattı» ile 15 Şubat kabul, ic_not"),
+    ("L2-1268", "Datsu-A Ron 1885-03-16 (Kotobank): imzasız Jiji Shinpō başyazısı, Fukuzawa'ya atfedilir → «Fukuzawa yazdı» kesinliği yumuşatılır"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
