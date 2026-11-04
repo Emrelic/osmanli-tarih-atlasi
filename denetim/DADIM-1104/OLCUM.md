@@ -624,7 +624,13 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
     - 1914 Kuzey Epir Özerk Cumhuriyeti kuruldu (Korfu Protokolü 1914-05-17).
     - Yunan çekilişi 1914 başı.
     - 1914-16 Yunan ve İtalyan girişleri oldu.
-  - **EMRELİC kararına sunuldu.**
+  - **KARAR (EMRELİC):** Londra, Arnavutluk'un sınırını büyük devletlere bıraktı; sınırı Floransa Protokolü belirledi.
+    - Yunan girişinden 1913-12-17'ye kadar: `d: osmanli` + `isg yunanistan`.
+    - 1913-12-17'den itibaren `s: arnavutluk`.
+    - Avlonya ilanı ic_not'a yazılır; Draç emsaline göre bu yerleri bağlamaz.
+    - Korfu Protokolü (1914-05-17) Arnavutluk içinde özerklik tanıdı; `s: arnavutluk` sürer.
+    - 1914 Şubat-Mayıs fiilî yönetimi kaynakla gösterilirse KASA'ya **künye adayı** olarak: "Kuzey Epir Özerk Cumhuriyeti".
+    - Yunan işgali 1914-10 → 1916 ve İtalyan işgali 1916 → günleri kaynaktan alınır.
 - **Ufuk-1923 artığı** (`ufuk_1923.json`): Türkiye dışında 1923-10-29'da başlayan **28 dönem** var (Astara ve Culfa'dan genelleme).
   - Bu gün Türkiye Cumhuriyeti'nin ilanıdır; bu yerler için anlamsızdır. Eski ufkun kesiğinden kalmış.
   - Dağılım: Şan devletleri → ingiliz-burma 5; Malaya 2; Hollanda Doğu Hint 3; Kaçar 3 (Culfa, Astara, Bacirge); Moğolistan 2; Chaco 2; ABD-Meksika 2; ayrıca Kunfüze, Ferasan, Zerenc, Halâib, Sarp, Avsa, Caruru, Patagonya.
