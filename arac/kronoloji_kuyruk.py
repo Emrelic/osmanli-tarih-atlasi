@@ -15,6 +15,11 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 223-247 (S10): ajanın kendi ganzhi hesabıyla tarih düzelt adayları — Academia Sinica teyidine kadar
+    "L2-583": "[çeviri doğrulanmadı] Yanshi 618-09-24 → 10-06 adayı (9. ay 甲寅, ZZTJ 186) — Academia Sinica teyidi bekliyor",
+    "L2-584": "[çeviri doğrulanmadı] Xue Renguo teslimi 618-11-22 → 11-30 adayı (11. ay 己酉, ZZTJ 186; ad 薛仁果/仁杲) — Academia Sinica teyidi bekliyor",
+    "L2-599": "[çeviri doğrulanmadı] Jiankun dudufu 648-01-01 → 648-03-06 adayı (2. ay 戊午, ZZTJ 198; yıl üç kaynakta) — Academia Sinica teyidi bekliyor",
+    "L2-596": "Jiankun dudufu atlas 646: ZZTJ 198, Jiu Tang 3, Xin Tang 217 xia 648 der; Jiu Tang 195 yalnız anlatı sırası → L2-599 ile birleşir (yinelenen madde), Academia Sinica sonrası karar",
     # L2E 273-297 (EMRELİC @7fc83e4): ganzhi günleri Academia Sinica teyidine kadar BEKLE
     "L2-638": "[çeviri doğrulanmadı] ganzhi günü (908 / 913 / 915 / 918 Goryeo / 923) — Academia Sinica teyidi bekliyor (EMRELİC)",
     # L2S 173-197 (S8): ajanın kendi ganzhi hesabı, gün taşıyan iki madde — Academia Sinica teyidine kadar
@@ -121,6 +126,17 @@ METIN = [
     ("L2-537", "Gaya 479: unvan 輔國將軍、本國王 «kendi ülkesinin kralı»; «Gaya Kralı» ifadesi kaynakta yok"),
     ("L2-546", "[BEKLE — tek dayanak Treccani] Neustria 511: Treccani «Merovingi» üç krallığın doğuşunu 6.-7. yy dönüşüne koyar; 511 bölüşümü Neustria adı taşımaz"),
     ("L2-543", "Liang kuruluşu 502-04-20: gün doğru (丙辰, Academia Sinica) ama yıl adı Nan Qi Zhongxing 2, 3. ay — Liang Tianjian değil (Tianjian 1 bu günden sonra) → metindeki takvim ifadesi düzeltilir (EMRELİC)"),
+    # L2S 223-247 (S10)
+    ("L2-581", "Daxing alınışı 丙辰 617-12-12 (atlas günü); başlıktaki Yang You cülusu 癸亥 = 617-12-19 → ikisi ayrılır ya da cülus ic_not'a [çeviri doğrulanmadı]"),
+    ("L2-590", "[BEKLE — tek dayanak Vikipedi] Dubu Kağan (Ashina She'er): 634 akademik kaynakta yok; Jiu Tang 109 «yenildi, Tang'a sığındı» (635) — «ortadan kaldırıldı» değil"),
+    ("L2-593", "Domnall Brecc 642 Strathcarron (Annals of Ulster): «altın çağ bitti, Northumbria'ya bağımlı» yorumu kayıtta yok → yorum çıkarılır"),
+    ("L2-594", "[BEKLE — ay çelişkisi] Yanqi yıkılışı: Jiu Tang 3 10. ay 甲寅 sonrası, ZZTJ 197 9. ay; atlas 11-05 (10. ay başı) iki kaynakta da olay günü değil"),
+    ("L2-600", "Kuça fethi: ZZTJ 199 閏月丁丑 = 649-01-19 gün veriyor → ic_not «fetih günü yok» kaldırılır, gün hassasiyeti [çeviri doğrulanmadı]"),
+    ("L2-602", "Kuça fethi: ZZTJ 199 閏月丁丑 = 649-01-19 gün veriyor → ic_not «fetih günü yok» kaldırılır, gün hassasiyeti [çeviri doğrulanmadı]"),
+    ("L2-601", "[BEKLE — kuruluş yılı] Dört Garnizon 649-01-19 Kuça fethinin günü, garnizon kuruluşu değil; ZZTJ 200 Anxi'nin Kuça'ya taşınması 658 癸未 → olay adı ya da tarih"),
+    ("L2-605", "Dört Garnizon bileşimi: ZZTJ 龜茲/于闐/焉耆/疏勒 (Suyab yok), Jiu Tang 198 Suyab → çelişki ic_not'a iki kaynağıyla"),
+    # L2E 470-494 (EMRELİC)
+    ("L2-839", "[BEKLE — dayanak Universalis ipucu] Mali/Federasyon: de Gaulle'ün 13 Aralık 1959 konuşması Bamako'da değil Dakar'da → yer ya da olay tartışmalı (EMRELİC)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
