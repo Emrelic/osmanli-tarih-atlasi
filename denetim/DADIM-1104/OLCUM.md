@@ -729,6 +729,55 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
 - Evren 1-3'te 600-1923 arası BAKILMADI satırı: **577 satır, 302 yerleşim.** Bunlar 24 partiye bölündü (`db_b_NN`, `bak_parti.py`; satır sayısı çok olan önce).
 - Sonuç dosyası `db_rb_NN.json` biçiminde; `bak_topla.py` yalnız eşleşen BAKILMADI satırının yerine koyar (eşleşme: `dosya_satir` + `alan` + `d` + `f`).
 - Evren 3'ün son partileri bittikçe kalan BAKILMADI satırları ikinci geçişle eklenir.
+- **Hata ve onarım (UMIT, gece-10):** `bakilmadi.py` her birleştirmeden sonra notu tarıyordu.
+  - `bak_topla.py` eski notu " · eski: …" olarak sakladığı için eski "bakılmadı" ifadesi yeni BULUNAMADI hükümlerini yeniden BAKILMADI'ya çevirdi.
+  - Bu yüzden ara sayımlarda BAKILMADI şişkin göründü.
+  - Onarım: `bakilmadi.py` artık "BAKILMADI TURU:" satırlarını atlıyor. `bak_onar.py` 143 satırın hükmünü ajanın verdiği değere geri getirdi.
+  - Onarım sonrası: KAYNAKLI 2869 · ONERI 2035 · BULUNAMADI 1812 · BAKILMADI 525.
+- **EMRELİC gece-10 kararları (`karar36`):**
+  - Lübnan kıyısı (Trablusşam, Sûr, Cübeyl): `isg fransa` 1918-10'dan; `s:` manda 1920-09-01 (Büyük Lübnan).
+  - Vijaya ve Annam/Tonkin: himaye, `v: fransa` 1884-06-06 → 1945-03-09; `s: fransa` yalnız Koşinşin ve imtiyaz şehirleri.
+    - Kural 15 Vietnam yerleşimine uygulandı (enlem > 11,6, boylam 102-110).
+    - Angkor ve Vientiane ayrı tutuldu: Kamboçya ve Laos sorusu EMRELİC'e gitti.
+  - Tiflis: Transkafkasya 1917-11-28 (künye kapsamı şartı).
+  - Vilnius: 1915-09-19 `isg almanya`; `s: litvanya` 1918-03-23 + `isg almanya`.
+- **EMRELİC gece-11 kararları (`karar37`):**
+  - **Kamboçya:** `v: fransa` 1863-08-11 → 1945-03-09; 1884 sözleşmesi `ic_not`'a.
+  - **Siem Reap ve Battambang:** 1907'ye kadar `s: siam`.
+    - Fransa-Siyam antlaşmasının imzası 1907-03-23; Fransa orayı yönetmiyordu.
+    - TEK ÖLÇÜ gereği gün TESLİM günüdür (1907 yazı, kaynakla).
+  - **Vientiane:** doğrudan idare, `s: fransa`. 1893-10-03 imzasında Fransa sol yakayı fiilen yönetmiyorsa teslim günü alınır.
+  - **Luang Prabang:** `v: fransa`.
+  - **Lublin:** `polonya` künyesinin f'si 1918-11-11 (`devletler.js:5018`, UMIT ölçtü). 11-07 yazmak hayalet devlet olur.
+    - Lublin 11-11'de kalır; Daszyński hükûmeti `ic_not`'a yazılır.
+    - Künye f sorusu LAB'a gider: 11-07 Lublin hükûmeti mi, yoksa 1916 Naiplik Krallığı ayrı künye mi?
+- **LAB ölçümü (EMRELİC aracılığıyla, gece-12): künye düzeltmeleri.**
+  - **Trieste:** künye zaten var — `triyeste-serbest-toprak` (`devletler.js:15926`), 1947-09-15 → 1954-10-26.
+    - Bu aralık `s: triyeste-serbest-toprak`. A Bölgesi için + `isg ingiltere/abd`; B Bölgesi yerleşimi varsa + `isg yugoslavya`.
+    - **UMIT hatası:** "künye adayı, isg + BEYANLI" yazmadan önce `devletler.js`'e bakmadım. Yazım düzeltildi.
+    - 1954-10-26'dan `s: italya`; Osimo 1975 `ic_not`'a.
+  - **Tiflis:** `transkafkasya` künyesi var (`devletler.js:2985`, 1917-11-07 → 1918-05-28, şemsiye).
+    - Satırdaki 1917-11-28 bununla uyumlu.
+    - LAB künyenin f'sini 1917-11-28'e (Komiserlik, N.S.) çekmeyi öneriyor.
+  - **Polonya:** `polonya-naiplik-kralligi` (`devletler.js:2975`, 1916-11-05 → 1918-11-11) var. Lublin kararı değişmez.
+  - **Ders (brife eklendi):** "künye adayı" ya da "künye yok" demeden önce `devletler.js`'te ada/kimliğe göre grep yapılır.
+
+## 31. Mısır 1914-1923 (EMRELİC, 4 Kasım 2026 gece-12; `misir1914.py`, `misir_1914.json`)
+- **Ölçüm:** `isg ingiltere` 1914-12-18 → 1923-10-29 katmanı **57 yerleşimde** var.
+  - Dağılım: `yerlesimler_afrika.js` 46, `yerlesimler.js` 9, `ek28` 1, `p0043libya` 1.
+  - Tam liste `dosya_satir` ile `misir_1914.json`'da. Bunların 14'ü `dadim_sonuc`'ta da var; 43'ü yalnız bu dosyada.
+- **Karar:**
+  - Katman 57 yerleşimin hepsinden **kalkar**; 1923-10-29 ufuk artığıdır.
+  - Yerine `v: ingiltere` 1914-12-18 → **1922-02-28** gelir: himaye, tek taraflı bağımsızlık bildirisi, Annam emsali.
+  - `s: misir-sultanligi` → `misir-kralligi` aynen kalır.
+  - 1882-09 → 1914-12-18 `isg ingiltere` katmanı dokunulmadan kalır.
+  - 1936'ya uzatma reddedildi; 1922 bildirisi himayeyi hukuken bitirdi.
+  - `ic_not`'a yazılacaklar: Lozan md.17 (vazgeçiş 1914-11-05'ten geçerli), 1922 "ayrılmış konular", 1936-08-26 antlaşması, Kanal bölgesi.
+- **Değişmez 2 ölçümü (UMIT):**
+  - 1922-02-28 "İngiltere Mısır'ı bağımsız devlet ilan etti" maddesi `devletler.js:9263`'te var (`misir-sultanligi` künye kronolojisi, TDV Sa'd Zağlûl).
+  - Değişmez 2 evrenindeki (`olaylar*`, `kronoloji_sinir*`) en yakın madde 1922-03-15 Krallık ilanıdır (`kronoloji_sinir_afrika.js:16`, `kronoloji_sinir_ortadogu.js:19`), 15 gün sonra; ±30 gün içinde kalıyor.
+  - **KASA kuyruğuna öneri:** 1922-02-28 "himaye sona erdi" maddesinin Değişmez 2 evreninde ayrıca yazılması; şu an yalnız künye kronolojisinde.
+  - 1923-10-29 `isg` bitiş kırılması kalkınca o güne bağlı kronoloji ihtiyacı da düşer.
 
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
