@@ -185,11 +185,11 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | umman-zengibar | 1698-01-01 → 1964-01-12 | = → = | TEYIT | TDV zengibar — 'Portekiz istilâsının nihayet bulduğu 1698’de …' · '1964 yılındaki darbe' / 'koptuğu kara tarafına 1964’te yeniden bağlanan Zengibar' (yıl teyitli; t 01-12 günü teyitsiz) |
 | somali | 1500-01-01 → 1927-01-01 | = → = | KISMEN | TDV somali — 'Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927’de İtalyanlar tarafından işgal edildi' (t yıl teyitli; f 1500 teyitsiz) |
 | hausa-sehir-devletleri | 1000-01-01 → 1808-01-01 | = → = | KISMEN | TDV fulaniler — '21 Haziran 1804’te kralın askerlerini yenerek …' · 'Osman b. Fûdî, 1806-1808 yılları arasında … Gobir’in merkezi Alkalawa’yı zaptetti; daha sonra da Kano üzerinde hâkimiyet sağlayarak' (t 1808 yıl teyitli; f 1000 kova düzeyi — beyan) |
-| dacu | 1200-01-01 → 1400-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV / Cambridge History of Africa 3 — f 1200-01-01 / t 1400-01-01 (bölüm: eserin dizininden) |
+| dacu | 1200-01-01 → 1400-01-01 | = → 1350-01-01 | DUZELT | EMRELİC Cambridge — CHA III, ch.1, s.79: Darfur'da Daju 13. yy; 'mid fourteenth century' Tunjur yerini aldı → t 1400 → 1350 (BEYANLI YAKLAŞIKLIK: kaynak yalnız 'yüzyıl ortası' diyor, yıl temsilîdir; f 1200 de temsilî) |
 | kaffa-kralligi | 1390-01-01 → 1897-09-10 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1390-01-01 / t 1897-09-10 (bölüm: eserin dizininden) |
 | sidamo-kralliklari | 1281-01-01 → 1897-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1897-01-01 (bölüm: eserin dizininden) |
 | vollayta-kralligi | 1281-01-01 → 1894-01-17 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1894-01-17 (bölüm: eserin dizininden) |
-| nube | 0543-01-01 → 1504-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV / Cambridge History of Africa 3 — f 0543-01-01 / t 1504-01-01 (bölüm: eserin dizininden) |
+| nube | 0543-01-01 → 1504-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHA III, ch.1, s.78: kuzey Nubya krallığı 'beginning of the sixteenth century' (t 1504 yalnız yüzyıl başı düzeyinde; f 543 okunmadı) |
 | charrua | 1281-01-01 → 1831-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1281-01-01 / t 1831-01-01 (bölüm: eserin dizininden) |
 | bundu | 1690-01-01 → 1858-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa V + VI / Cambridge History of Africa 4 + 5 — f 1690-01-01 / t 1858-01-01 (bölüm: eserin dizininden) |
 | berabis | 1600-01-01 → 1894-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1600-01-01 / t 1894-01-01 (bölüm: eserin dizininden) |
@@ -213,7 +213,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | birom-plato | 1281-01-01 → 1903-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1903-01-01 (bölüm: eserin dizininden) |
 | damagaram | 1731-01-01 → 1899-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1731-01-01 / t 1899-01-01 (bölüm: eserin dizininden) |
 | adar | 1281-01-01 → 1899-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden) |
-| tuareg-air | 1405-01-01 → 1906-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1405-01-01 / t 1906-01-01 (bölüm: eserin dizininden) |
+| tuareg-air | 1405-01-01 → 1906-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHA III, ch.4, s.34: Agades yeni başkent (f 1405 yılı cümlede yok); t 1906 okunmadı |
 | tuareg-adag | 1281-01-01 → 1899-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden) |
 | tuareg-ivellemmedan | 1281-01-01 → 1899-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1899-01-01 (bölüm: eserin dizininden) |
 | liberya | 1822-04-25 → None | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa VI + VIII / Cambridge History of Africa 5 + 8 — f 1822-04-25 / t None (bölüm: eserin dizininden) |
@@ -246,9 +246,9 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | svazi | 1815-01-01 → 1903-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa VI + VII / Cambridge History of Africa 5 + 6-7 — f 1815-01-01 / t 1903-01-01 (bölüm: eserin dizininden) |
 | basuto | 1822-01-01 → 1868-03-12 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa VI / Cambridge History of Africa 5 — f 1822-01-01 / t 1868-03-12 (bölüm: eserin dizininden) |
 | griqua | 1804-01-01 → 1878-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa VI / Cambridge History of Africa 5 — f 1804-01-01 / t 1878-01-01 (bölüm: eserin dizininden) |
-| tsvana | 1700-01-01 → 1885-03-31 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1700-01-01 / t 1885-03-31 (bölüm: eserin dizininden) |
+| tsvana | 1700-01-01 → 1885-03-31 | = → = | KISMEN | EMRELİC Cambridge — CHA VI, ch.8, s.460: 'British Bechuanaland, annexed as a Crown colony in 1885' (t yıl teyitli; 03-31 günü teyitsiz; f 1700 okunmadı) |
 | herero | 1281-01-01 → 1904-01-12 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1904-01-12 (bölüm: eserin dizininden) |
-| nama-orlam | 1281-01-01 → 1904-10-03 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1904-10-03 (bölüm: eserin dizininden) |
+| nama-orlam | 1281-01-01 → 1904-10-03 | = → = | KISMEN | EMRELİC Cambridge — Cambridge History of Africa VI, ch.8, s.464: 'joined the uprising in October 1904 under the eighty-year-old Hendrik Witbooi' (t ay teyitli; 10-03 günü teyitsiz; f 1281 site ufku) |
 | xhosa | 1281-01-01 → 1878-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1281-01-01 / t 1878-01-01 (bölüm: eserin dizininden) |
 | tuareg-ahaggar | 1281-01-01 → 1902-05-07 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1902-05-07 (bölüm: eserin dizininden) |
 | tuareg-accer | 1281-01-01 → 1911-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1911-01-01 (bölüm: eserin dizininden) |
@@ -301,7 +301,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | songhay-imparatorlugu | 1464-01-01 → 1591-04-13 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV / Cambridge History of Africa 3 — f 1464-01-01 / t 1591-04-13 (bölüm: eserin dizininden) |
 | asanti | 1701-01-01 → 1902-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1701-01-01 / t 1902-01-01 (bölüm: eserin dizininden) |
 | dahomey | 1625-01-01 → 1894-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1625-01-01 / t 1894-01-01 (bölüm: eserin dizininden) |
-| benin-kralligi | 1180-01-01 → 1897-02-18 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1180-01-01 / t 1897-02-18 (bölüm: eserin dizininden) |
+| benin-kralligi | 1180-01-01 → 1897-02-18 | = → = | TEYIT | EMRELİC Cambridge — CHA VI, ch.5, s.273: 'conquest and looting of Benin in 1897' (t yıl teyitli; 02-18 günü teyitsiz; f 1180 okunmadı — beyan) |
 | oyo-imparatorlugu | 1400-01-01 → 1836-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VI / Cambridge History of Africa 3 + 5 — f 1400-01-01 / t 1836-01-01 (bölüm: eserin dizininden) |
 | kongo-kralligi | 1390-01-01 → 1914-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1390-01-01 / t 1914-01-01 (bölüm: eserin dizininden) |
 | ndongo | 1500-01-01 → 1671-01-01 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1500-01-01 / t 1671-01-01 (bölüm: eserin dizininden) |
@@ -312,7 +312,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | buganda | 1300-01-01 → 1966-05-24 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + VIII / Cambridge History of Africa 3 + 8 — f 1300-01-01 / t 1966-05-24 (bölüm: eserin dizininden) |
 | zulu-kralligi | 1816-01-01 → 1879-07-04 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa VI / Cambridge History of Africa 5 — f 1816-01-01 / t 1879-07-04 (bölüm: eserin dizininden) |
 | merina | 1787-01-01 → 1897-02-28 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1787-01-01 / t 1897-02-28 (bölüm: eserin dizininden) |
-| svahili-sehirleri | 1000-01-01 → 1698-12-13 | = → = | GIRISLI | GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1000-01-01 / t 1698-12-13 (bölüm: eserin dizininden) |
+| svahili-sehirleri | 1000-01-01 → 1698-12-13 | = → = | KISMEN | EMRELİC Cambridge — CHA IV, ch.7, s.530: Mombasa'nın üç yıllık Umman kuşatması Portekiz çekilmesiyle bitti (1698 yılı cümlede açık değil; 12-13 günü teyitsiz) |
 | aztek-imparatorlugu | 1428-01-01 → 1521-08-13 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1428-01-01 / t 1521-08-13 (bölüm: eserin dizininden) |
 | maya-sehir-devletleri | 1000-01-01 → 1697-03-13 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 1000-01-01 / t 1697-03-13 (bölüm: eserin dizininden) |
 | brezilya-imparatorlugu | 1822-09-07 → 1889-11-15 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1822-09-07 / t 1889-11-15 (bölüm: eserin dizininden) |
@@ -357,4 +357,4 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | ceibal | 0411-01-01 → 0889-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden) |
 | cholula | 0700-01-01 → 1519-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0700-01-01 / t 1519-01-01 (bölüm: eserin dizininden) |
 
-Sayım: GIRISLI 294 · KISMEN 34 · TEYIT 13 · DUZELT 8 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
+Sayım: GIRISLI 287 · KISMEN 39 · TEYIT 14 · DUZELT 9 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352

@@ -914,8 +914,9 @@
 },
 {
 "id": "dacu",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV / Cambridge History of Africa 3 — f 1200-01-01 / t 1400-01-01 (bölüm: eserin dizininden)"
+"hukum": "DUZELT",
+"t": "1350-01-01",
+"kaynak": "EMRELİC Cambridge — CHA III, ch.1, s.79: Darfur'da Daju 13. yy; 'mid fourteenth century' Tunjur yerini aldı → t 1400 → 1350 (BEYANLI YAKLAŞIKLIK: kaynak yalnız 'yüzyıl ortası' diyor, yıl temsilîdir; f 1200 de temsilî)"
 },
 {
 "id": "kaffa-kralligi",
@@ -934,8 +935,8 @@
 },
 {
 "id": "nube",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV / Cambridge History of Africa 3 — f 0543-01-01 / t 1504-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHA III, ch.1, s.78: kuzey Nubya krallığı 'beginning of the sixteenth century' (t 1504 yalnız yüzyıl başı düzeyinde; f 543 okunmadı)"
 },
 {
 "id": "charrua",
@@ -1054,8 +1055,8 @@
 },
 {
 "id": "tuareg-air",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1405-01-01 / t 1906-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHA III, ch.4, s.34: Agades yeni başkent (f 1405 yılı cümlede yok); t 1906 okunmadı"
 },
 {
 "id": "tuareg-adag",
@@ -1219,8 +1220,8 @@
 },
 {
 "id": "tsvana",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa V + VII / Cambridge History of Africa 4 + 6-7 — f 1700-01-01 / t 1885-03-31 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHA VI, ch.8, s.460: 'British Bechuanaland, annexed as a Crown colony in 1885' (t yıl teyitli; 03-31 günü teyitsiz; f 1700 okunmadı)"
 },
 {
 "id": "herero",
@@ -1229,8 +1230,8 @@
 },
 {
 "id": "nama-orlam",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1904-10-03 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — Cambridge History of Africa VI, ch.8, s.464: 'joined the uprising in October 1904 under the eighty-year-old Hendrik Witbooi' (t ay teyitli; 10-03 günü teyitsiz; f 1281 site ufku)"
 },
 {
 "id": "xhosa",
@@ -1494,8 +1495,8 @@
 },
 {
 "id": "benin-kralligi",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1180-01-01 / t 1897-02-18 (bölüm: eserin dizininden)"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC Cambridge — CHA VI, ch.5, s.273: 'conquest and looting of Benin in 1897' (t yıl teyitli; 02-18 günü teyitsiz; f 1180 okunmadı — beyan)"
 },
 {
 "id": "oyo-imparatorlugu",
@@ -1549,8 +1550,8 @@
 },
 {
 "id": "svahili-sehirleri",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + V / Cambridge History of Africa 3 + 4 — f 1000-01-01 / t 1698-12-13 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHA IV, ch.7, s.530: Mombasa'nın üç yıllık Umman kuşatması Portekiz çekilmesiyle bitti (1698 yılı cümlede açık değil; 12-13 günü teyitsiz)"
 },
 {
 "id": "aztek-imparatorlugu",
