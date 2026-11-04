@@ -506,7 +506,7 @@
    "oneri": {
     "f": "1300-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (delhi-sultanligi 1304-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, ÜLKE DÜZEYİ (Gucerât fethi; TDV: «1300 yılında» Anahilvâda ele geçirildi). Sûrat, Diu, Çampâner için ayrı kayıt yok. KARIŞIK: Çampâner Rajput elinde kalıp 1484'te Mahmud Begara'ya düştü (küme t 1484 bunu yansıtır), Diu Gucerat sahilidir. 1304 günü teyitsiz; önerilen f ülke düzeyinde 1300 (yerler için ayrıca yerel kaynak). Künye f 1206 tutarlı."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (delhi-sultanligi 1304-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV '1300'; Ulugh Han seferi 1299, ikinci sefer 1304 — yer bazında doğrulanacak. | YIL DÜZEYİ, ÜLKE DÜZEYİ (Gucerât fethi; TDV: «1300 yılında» Anahilvâda ele geçirildi). Sûrat, Diu, Çampâner için ayrı kayıt yok. KARIŞIK: Çampâner Rajput elinde kalıp 1484'te Mahmud Begara'ya düştü (küme t 1484 bunu yansıtır), Diu Gucerat sahilidir. 1304 günü teyitsiz; önerilen f ülke düzeyinde 1300 (yerler için ayrıca yerel kaynak). Künye f 1206 tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:760",
@@ -1396,11 +1396,11 @@
    "d": "yakub-beg",
    "f": "1864-06-04",
    "t": "1876-08-18",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "kaynak": "TDV Yakub Bey - https://islamansiklopedisi.org.tr/yakub-bey (Kuça, Kâşgar, Aksu, Turfan, Urumçi anahtarları bulunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yakub-beg 1864-06-04, 3 satır); yalnız gün ve devlet teyitli. Ürümçi, Uçturfan, Çarklık; s yakub-beg f 1864-06-04 (Kuça ayaklanması). KÜNYE AŞIMI: künye f 1865-01-01 > küme f 1864-06-04. Ürümçi (Dihua) Yakub Bey'e 1870'te geçti, Uçturfan 1867+, Çarklık 1870'ler; tek f yanlış (KARIŞIK). t dağılımı 1876-08-18 / 1877-10-18 / 1877-12-17 yer bazlı. Bakılmadı: Cambridge History of China 10, Kim Hodong monografisi."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yakub-beg 1864-06-04, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV'ye göre şehir şehir 1866/1870 (önceki karar); küme 1864 geçersiz. | Ürümçi, Uçturfan, Çarklık; s yakub-beg f 1864-06-04 (Kuça ayaklanması). KÜNYE AŞIMI: künye f 1865-01-01 > küme f 1864-06-04. Ürümçi (Dihua) Yakub Bey'e 1870'te geçti, Uçturfan 1867+, Çarklık 1870'ler; tek f yanlış (KARIŞIK). t dağılımı 1876-08-18 / 1877-10-18 / 1877-12-17 yer bazlı. Bakılmadı: Cambridge History of China 10, Kim Hodong monografisi."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2949",
@@ -2098,11 +2098,11 @@
    "d": "yakub-beg",
    "f": "1864-06-04",
    "t": "1877-10-18",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "kaynak": "TDV Yakub Bey - https://islamansiklopedisi.org.tr/yakub-bey (Kuça, Kâşgar, Aksu, Turfan, Urumçi anahtarları bulunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yakub-beg 1864-06-04, 3 satır); yalnız gün ve devlet teyitli. Ürümçi, Uçturfan, Çarklık; s yakub-beg f 1864-06-04 (Kuça ayaklanması). KÜNYE AŞIMI: künye f 1865-01-01 > küme f 1864-06-04. Ürümçi (Dihua) Yakub Bey'e 1870'te geçti, Uçturfan 1867+, Çarklık 1870'ler; tek f yanlış (KARIŞIK). t dağılımı 1876-08-18 / 1877-10-18 / 1877-12-17 yer bazlı. Bakılmadı: Cambridge History of China 10, Kim Hodong monografisi."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yakub-beg 1864-06-04, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV'ye göre şehir şehir 1866/1870 (önceki karar); küme 1864 geçersiz. | Ürümçi, Uçturfan, Çarklık; s yakub-beg f 1864-06-04 (Kuça ayaklanması). KÜNYE AŞIMI: künye f 1865-01-01 > küme f 1864-06-04. Ürümçi (Dihua) Yakub Bey'e 1870'te geçti, Uçturfan 1867+, Çarklık 1870'ler; tek f yanlış (KARIŞIK). t dağılımı 1876-08-18 / 1877-10-18 / 1877-12-17 yer bazlı. Bakılmadı: Cambridge History of China 10, Kim Hodong monografisi."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:253",
@@ -2148,11 +2148,11 @@
    "d": "yakub-beg",
    "f": "1864-06-04",
    "t": "1877-12-17",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "kaynak": "TDV Yakub Bey - https://islamansiklopedisi.org.tr/yakub-bey (Kuça, Kâşgar, Aksu, Turfan, Urumçi anahtarları bulunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yakub-beg 1864-06-04, 3 satır); yalnız gün ve devlet teyitli. Ürümçi, Uçturfan, Çarklık; s yakub-beg f 1864-06-04 (Kuça ayaklanması). KÜNYE AŞIMI: künye f 1865-01-01 > küme f 1864-06-04. Ürümçi (Dihua) Yakub Bey'e 1870'te geçti, Uçturfan 1867+, Çarklık 1870'ler; tek f yanlış (KARIŞIK). t dağılımı 1876-08-18 / 1877-10-18 / 1877-12-17 yer bazlı. Bakılmadı: Cambridge History of China 10, Kim Hodong monografisi."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yakub-beg 1864-06-04, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV'ye göre şehir şehir 1866/1870 (önceki karar); küme 1864 geçersiz. | Ürümçi, Uçturfan, Çarklık; s yakub-beg f 1864-06-04 (Kuça ayaklanması). KÜNYE AŞIMI: künye f 1865-01-01 > küme f 1864-06-04. Ürümçi (Dihua) Yakub Bey'e 1870'te geçti, Uçturfan 1867+, Çarklık 1870'ler; tek f yanlış (KARIŞIK). t dağılımı 1876-08-18 / 1877-10-18 / 1877-12-17 yer bazlı. Bakılmadı: Cambridge History of China 10, Kim Hodong monografisi."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:306",
@@ -2947,9 +2947,9 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya - https://islamansiklopedisi.org.tr/yugoslavya",
    "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
    "oneri": {
-    "f": "1918-12-01"
+    "not": "SHS Devleti adayı 1918-10-29 → 12-01, ardından Krallık 12-01; 11-11 dayanaksız"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-11-11, 3 satır); yalnız gün ve devlet teyitli. ÖNCEKİ KARAR: SHS Devleti 1918-11 (N11 kovası) ayrı; 1918-12-01 krallık. | GÜN düzeyi, f ucu: devletin kuruluşu 1 Aralık 1918. Küme f 1918-11-11 künye f'den (1918-12-01) önce = KÜNYE AŞIMI; 11 Kasım ateşkes günü (Ljubljana Slovenya Devleti 29 Ekim 1918'de ayrılmıştı, bu Yugoslav olmayan SHS Devleti). KARIŞIK: Brač (Dalmaçya, İtalyan işgali 1918-11) ve Bosanski Novi farklı fiilî idare. t 1941-05-03 (Brač?) / 1945-11-29."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-11-11, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): 11-11 dayanaksız. | ÖNCEKİ KARAR: SHS Devleti 1918-11 (N11 kovası) ayrı; 1918-12-01 krallık. | GÜN düzeyi, f ucu: devletin kuruluşu 1 Aralık 1918. Küme f 1918-11-11 künye f'den (1918-12-01) önce = KÜNYE AŞIMI; 11 Kasım ateşkes günü (Ljubljana Slovenya Devleti 29 Ekim 1918'de ayrılmıştı, bu Yugoslav olmayan SHS Devleti). KARIŞIK: Brač (Dalmaçya, İtalyan işgali 1918-11) ve Bosanski Novi farklı fiilî idare. t 1941-05-03 (Brač?) / 1945-11-29."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1168",
@@ -3810,9 +3810,9 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya - https://islamansiklopedisi.org.tr/yugoslavya",
    "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
    "oneri": {
-    "f": "1918-12-01"
+    "not": "SHS Devleti adayı 1918-10-29 → 12-01, ardından Krallık 12-01; 11-11 dayanaksız"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-11-11, 3 satır); yalnız gün ve devlet teyitli. ÖNCEKİ KARAR: SHS Devleti 1918-11 (N11 kovası) ayrı; 1918-12-01 krallık. | GÜN düzeyi, f ucu: devletin kuruluşu 1 Aralık 1918. Küme f 1918-11-11 künye f'den (1918-12-01) önce = KÜNYE AŞIMI; 11 Kasım ateşkes günü (Ljubljana Slovenya Devleti 29 Ekim 1918'de ayrılmıştı, bu Yugoslav olmayan SHS Devleti). KARIŞIK: Brač (Dalmaçya, İtalyan işgali 1918-11) ve Bosanski Novi farklı fiilî idare. t 1941-05-03 (Brač?) / 1945-11-29."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-11-11, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): 11-11 dayanaksız. | ÖNCEKİ KARAR: SHS Devleti 1918-11 (N11 kovası) ayrı; 1918-12-01 krallık. | GÜN düzeyi, f ucu: devletin kuruluşu 1 Aralık 1918. Küme f 1918-11-11 künye f'den (1918-12-01) önce = KÜNYE AŞIMI; 11 Kasım ateşkes günü (Ljubljana Slovenya Devleti 29 Ekim 1918'de ayrılmıştı, bu Yugoslav olmayan SHS Devleti). KARIŞIK: Brač (Dalmaçya, İtalyan işgali 1918-11) ve Bosanski Novi farklı fiilî idare. t 1941-05-03 (Brač?) / 1945-11-29."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1862",
@@ -8150,7 +8150,7 @@
    "oneri": {
     "f": "1300-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (delhi-sultanligi 1304-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, ÜLKE DÜZEYİ (Gucerât fethi; TDV: «1300 yılında» Anahilvâda ele geçirildi). Sûrat, Diu, Çampâner için ayrı kayıt yok. KARIŞIK: Çampâner Rajput elinde kalıp 1484'te Mahmud Begara'ya düştü (küme t 1484 bunu yansıtır), Diu Gucerat sahilidir. 1304 günü teyitsiz; önerilen f ülke düzeyinde 1300 (yerler için ayrıca yerel kaynak). Künye f 1206 tutarlı."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (delhi-sultanligi 1304-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV '1300'; Ulugh Han seferi 1299, ikinci sefer 1304 — yer bazında doğrulanacak. | YIL DÜZEYİ, ÜLKE DÜZEYİ (Gucerât fethi; TDV: «1300 yılında» Anahilvâda ele geçirildi). Sûrat, Diu, Çampâner için ayrı kayıt yok. KARIŞIK: Çampâner Rajput elinde kalıp 1484'te Mahmud Begara'ya düştü (küme t 1484 bunu yansıtır), Diu Gucerat sahilidir. 1304 günü teyitsiz; önerilen f ülke düzeyinde 1300 (yerler için ayrıca yerel kaynak). Künye f 1206 tutarlı."
   }
  ],
  "Pandua (Hazret Pandua)": [
@@ -9958,9 +9958,9 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya - https://islamansiklopedisi.org.tr/yugoslavya",
    "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
    "oneri": {
-    "f": "1918-12-01"
+    "not": "SHS Devleti adayı 1918-10-29 → 12-01, ardından Krallık 12-01; 11-11 dayanaksız"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-11-11, 3 satır); yalnız gün ve devlet teyitli. ÖNCEKİ KARAR: SHS Devleti 1918-11 (N11 kovası) ayrı; 1918-12-01 krallık. | GÜN düzeyi, f ucu: devletin kuruluşu 1 Aralık 1918. Küme f 1918-11-11 künye f'den (1918-12-01) önce = KÜNYE AŞIMI; 11 Kasım ateşkes günü (Ljubljana Slovenya Devleti 29 Ekim 1918'de ayrılmıştı, bu Yugoslav olmayan SHS Devleti). KARIŞIK: Brač (Dalmaçya, İtalyan işgali 1918-11) ve Bosanski Novi farklı fiilî idare. t 1941-05-03 (Brač?) / 1945-11-29."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-11-11, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): 11-11 dayanaksız. | ÖNCEKİ KARAR: SHS Devleti 1918-11 (N11 kovası) ayrı; 1918-12-01 krallık. | GÜN düzeyi, f ucu: devletin kuruluşu 1 Aralık 1918. Küme f 1918-11-11 künye f'den (1918-12-01) önce = KÜNYE AŞIMI; 11 Kasım ateşkes günü (Ljubljana Slovenya Devleti 29 Ekim 1918'de ayrılmıştı, bu Yugoslav olmayan SHS Devleti). KARIŞIK: Brač (Dalmaçya, İtalyan işgali 1918-11) ve Bosanski Novi farklı fiilî idare. t 1941-05-03 (Brač?) / 1945-11-29."
   },
   {
    "dosya_satir": "data/yerlesimler_ek29.js:302",
@@ -18221,7 +18221,7 @@
    "kaynak": "U.S. Department of State, Office of the Historian, Countries: Senegal - https://history.state.gov/countries/senegal",
    "alinti": "had withdrawn from the Federation of Mali and declared its independence on August 20, 1960",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (senegal 1960-08-20, 4 satır); yalnız gün ve devlet teyitli. GÜN düzeyi, f ucu. ÇELİŞKİ: TDV Senegal maddesi «Eylül 1960’ta bağımsızlığını ilân etti» diyor (TDV Mali: Federasyon'dan çekilme «iki ay sonra»). Resmî kurum sayfası 20 Ağustos'u açıkça veriyor; ikisi de not edildi. Künye f 1960-08-20 tutarlı. ABD tanıması 1960-09-24."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (senegal 1960-08-20, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): 1960-08-20 Mali Federasyonu'ndan fiilî ayrılış (history.state.gov) esas; TDV 'Eylül 1960' ic_not'a. | GÜN düzeyi, f ucu. ÇELİŞKİ: TDV Senegal maddesi «Eylül 1960’ta bağımsızlığını ilân etti» diyor (TDV Mali: Federasyon'dan çekilme «iki ay sonra»). Resmî kurum sayfası 20 Ağustos'u açıkça veriyor; ikisi de not edildi. Künye f 1960-08-20 tutarlı. ABD tanıması 1960-09-24."
   }
  ],
  "Menaka": [
@@ -18261,7 +18261,7 @@
    "kaynak": "U.S. Department of State, Office of the Historian, Countries: Senegal - https://history.state.gov/countries/senegal",
    "alinti": "had withdrawn from the Federation of Mali and declared its independence on August 20, 1960",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (senegal 1960-08-20, 4 satır); yalnız gün ve devlet teyitli. GÜN düzeyi, f ucu. ÇELİŞKİ: TDV Senegal maddesi «Eylül 1960’ta bağımsızlığını ilân etti» diyor (TDV Mali: Federasyon'dan çekilme «iki ay sonra»). Resmî kurum sayfası 20 Ağustos'u açıkça veriyor; ikisi de not edildi. Künye f 1960-08-20 tutarlı. ABD tanıması 1960-09-24."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (senegal 1960-08-20, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): 1960-08-20 Mali Federasyonu'ndan fiilî ayrılış (history.state.gov) esas; TDV 'Eylül 1960' ic_not'a. | GÜN düzeyi, f ucu. ÇELİŞKİ: TDV Senegal maddesi «Eylül 1960’ta bağımsızlığını ilân etti» diyor (TDV Mali: Federasyon'dan çekilme «iki ay sonra»). Resmî kurum sayfası 20 Ağustos'u açıkça veriyor; ikisi de not edildi. Künye f 1960-08-20 tutarlı. ABD tanıması 1960-09-24."
   }
  ],
  "Dakar": [
@@ -18287,7 +18287,7 @@
    "kaynak": "U.S. Department of State, Office of the Historian, Countries: Senegal - https://history.state.gov/countries/senegal",
    "alinti": "had withdrawn from the Federation of Mali and declared its independence on August 20, 1960",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (senegal 1960-08-20, 4 satır); yalnız gün ve devlet teyitli. GÜN düzeyi, f ucu. ÇELİŞKİ: TDV Senegal maddesi «Eylül 1960’ta bağımsızlığını ilân etti» diyor (TDV Mali: Federasyon'dan çekilme «iki ay sonra»). Resmî kurum sayfası 20 Ağustos'u açıkça veriyor; ikisi de not edildi. Künye f 1960-08-20 tutarlı. ABD tanıması 1960-09-24."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (senegal 1960-08-20, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): 1960-08-20 Mali Federasyonu'ndan fiilî ayrılış (history.state.gov) esas; TDV 'Eylül 1960' ic_not'a. | GÜN düzeyi, f ucu. ÇELİŞKİ: TDV Senegal maddesi «Eylül 1960’ta bağımsızlığını ilân etti» diyor (TDV Mali: Federasyon'dan çekilme «iki ay sonra»). Resmî kurum sayfası 20 Ağustos'u açıkça veriyor; ikisi de not edildi. Künye f 1960-08-20 tutarlı. ABD tanıması 1960-09-24."
   }
  ],
  "Diahav (Sine)": [
@@ -18313,7 +18313,7 @@
    "kaynak": "U.S. Department of State, Office of the Historian, Countries: Senegal - https://history.state.gov/countries/senegal",
    "alinti": "had withdrawn from the Federation of Mali and declared its independence on August 20, 1960",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (senegal 1960-08-20, 4 satır); yalnız gün ve devlet teyitli. GÜN düzeyi, f ucu. ÇELİŞKİ: TDV Senegal maddesi «Eylül 1960’ta bağımsızlığını ilân etti» diyor (TDV Mali: Federasyon'dan çekilme «iki ay sonra»). Resmî kurum sayfası 20 Ağustos'u açıkça veriyor; ikisi de not edildi. Künye f 1960-08-20 tutarlı. ABD tanıması 1960-09-24."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (senegal 1960-08-20, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): 1960-08-20 Mali Federasyonu'ndan fiilî ayrılış (history.state.gov) esas; TDV 'Eylül 1960' ic_not'a. | GÜN düzeyi, f ucu. ÇELİŞKİ: TDV Senegal maddesi «Eylül 1960’ta bağımsızlığını ilân etti» diyor (TDV Mali: Federasyon'dan çekilme «iki ay sonra»). Resmî kurum sayfası 20 Ağustos'u açıkça veriyor; ikisi de not edildi. Künye f 1960-08-20 tutarlı. ABD tanıması 1960-09-24."
   }
  ],
  "Yendi (Dagbon)": [
@@ -20123,7 +20123,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Uman - https://islamansiklopedisi.org.tr/uman (anahtar 1515, Zafâr, Masîre bulunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (umman 1515-04-01, 4 satır); yalnız gün ve devlet teyitli. TDV Uman: «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»; Portekiz Maskat civarından 1029/1620'de çıkarıldı (Ya‘rubî imamı Nâsır b. Mürşid). 1515 geçmiyor. KÜNYE AŞIMI: künye f 1624-01-01 > küme f 1515-04-01; ayrıca TDV'ye göre 1515'te Umman değil Portekiz/Hürmüz etkisi var — f çelişkili, kaynakla desteklenmedi. Bakılan: TDV Uman. Bakılmadı: Iranica/EI, DergiPark."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (umman 1515-04-01, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): farklı polity'ler (Nebhânî imamlığı, Portekiz sahil kaleleri 1507–1650, Ya'rubî 1624) — künye kapsam sorusu LAB SALI'ya. | TDV Uman: «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»; Portekiz Maskat civarından 1029/1620'de çıkarıldı (Ya‘rubî imamı Nâsır b. Mürşid). 1515 geçmiyor. KÜNYE AŞIMI: künye f 1624-01-01 > küme f 1515-04-01; ayrıca TDV'ye göre 1515'te Umman değil Portekiz/Hürmüz etkisi var — f çelişkili, kaynakla desteklenmedi. Bakılan: TDV Uman. Bakılmadı: Iranica/EI, DergiPark."
   }
  ],
  "Sarâb": [
@@ -21451,7 +21451,7 @@
    "oneri": {
     "f": "1300-01-01"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (delhi-sultanligi 1304-01-01, 3 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, ÜLKE DÜZEYİ (Gucerât fethi; TDV: «1300 yılında» Anahilvâda ele geçirildi). Sûrat, Diu, Çampâner için ayrı kayıt yok. KARIŞIK: Çampâner Rajput elinde kalıp 1484'te Mahmud Begara'ya düştü (küme t 1484 bunu yansıtır), Diu Gucerat sahilidir. 1304 günü teyitsiz; önerilen f ülke düzeyinde 1300 (yerler için ayrıca yerel kaynak). Künye f 1206 tutarlı."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (delhi-sultanligi 1304-01-01, 3 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV '1300'; Ulugh Han seferi 1299, ikinci sefer 1304 — yer bazında doğrulanacak. | YIL DÜZEYİ, ÜLKE DÜZEYİ (Gucerât fethi; TDV: «1300 yılında» Anahilvâda ele geçirildi). Sûrat, Diu, Çampâner için ayrı kayıt yok. KARIŞIK: Çampâner Rajput elinde kalıp 1484'te Mahmud Begara'ya düştü (küme t 1484 bunu yansıtır), Diu Gucerat sahilidir. 1304 günü teyitsiz; önerilen f ülke düzeyinde 1300 (yerler için ayrıca yerel kaynak). Künye f 1206 tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:815",
@@ -21473,11 +21473,13 @@
    "d": "mogolistan",
    "f": "1911-12-29",
    "t": "1919-11-22",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
    "alinti": "The Mongols accepted Russian aid and proclaimed their independence of Chinese rule in 1911",
-   "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan 1911-12-29, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, f ucu. Gün (1911-12-29) kaynaklarda yok; TDV Moğolistan: «bağımsızlıklarını ilân ettiler ... özerklik (18 Kasım 1911)» — farklı gün, ikisi de yazıldı, seçilmedi. Künye f 1911-12-29 = küme f tutarlı."
+   "oneri": {
+    "f": "1911-12-01"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan 1911-12-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV '18 Kasım' büyük ihtimalle Rus O.S. = 1911-12-01 N.S. (bağımsızlık ilanı, ambanın kovulması — fiilî idare). Çift tarihli kaynakla teyit edilirse künye f 1911-12-01; Bogd Han tahta çıkışı 12-29 ic_not. Teyit yoksa ONERI. | YIL DÜZEYİ, f ucu. Gün (1911-12-29) kaynaklarda yok; TDV Moğolistan: «bağımsızlıklarını ilân ettiler ... özerklik (18 Kasım 1911)» — farklı gün, ikisi de yazıldı, seçilmedi. Künye f 1911-12-29 = küme f tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2839",
@@ -21777,11 +21779,13 @@
    "d": "mogolistan",
    "f": "1911-12-29",
    "t": "1919-11-22",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
    "alinti": "The Mongols accepted Russian aid and proclaimed their independence of Chinese rule in 1911",
-   "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan 1911-12-29, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, f ucu. Gün (1911-12-29) kaynaklarda yok; TDV Moğolistan: «bağımsızlıklarını ilân ettiler ... özerklik (18 Kasım 1911)» — farklı gün, ikisi de yazıldı, seçilmedi. Künye f 1911-12-29 = küme f tutarlı."
+   "oneri": {
+    "f": "1911-12-01"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan 1911-12-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV '18 Kasım' büyük ihtimalle Rus O.S. = 1911-12-01 N.S. (bağımsızlık ilanı, ambanın kovulması — fiilî idare). Çift tarihli kaynakla teyit edilirse künye f 1911-12-01; Bogd Han tahta çıkışı 12-29 ic_not. Teyit yoksa ONERI. | YIL DÜZEYİ, f ucu. Gün (1911-12-29) kaynaklarda yok; TDV Moğolistan: «bağımsızlıklarını ilân ettiler ... özerklik (18 Kasım 1911)» — farklı gün, ikisi de yazıldı, seçilmedi. Künye f 1911-12-29 = küme f tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek19.js:135",
@@ -21839,11 +21843,13 @@
    "d": "mogolistan",
    "f": "1911-12-29",
    "t": "1919-11-22",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
    "alinti": "The Mongols accepted Russian aid and proclaimed their independence of Chinese rule in 1911",
-   "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan 1911-12-29, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, f ucu. Gün (1911-12-29) kaynaklarda yok; TDV Moğolistan: «bağımsızlıklarını ilân ettiler ... özerklik (18 Kasım 1911)» — farklı gün, ikisi de yazıldı, seçilmedi. Künye f 1911-12-29 = küme f tutarlı."
+   "oneri": {
+    "f": "1911-12-01"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan 1911-12-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV '18 Kasım' büyük ihtimalle Rus O.S. = 1911-12-01 N.S. (bağımsızlık ilanı, ambanın kovulması — fiilî idare). Çift tarihli kaynakla teyit edilirse künye f 1911-12-01; Bogd Han tahta çıkışı 12-29 ic_not. Teyit yoksa ONERI. | YIL DÜZEYİ, f ucu. Gün (1911-12-29) kaynaklarda yok; TDV Moğolistan: «bağımsızlıklarını ilân ettiler ... özerklik (18 Kasım 1911)» — farklı gün, ikisi de yazıldı, seçilmedi. Künye f 1911-12-29 = küme f tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek19.js:149",
@@ -21901,11 +21907,13 @@
    "d": "mogolistan",
    "f": "1911-12-29",
    "t": "1919-11-22",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "encyclopedia.com (Gale), 'Mongolia' - https://www.encyclopedia.com/places/asia/chinese-political-geography/mongolia",
    "alinti": "The Mongols accepted Russian aid and proclaimed their independence of Chinese rule in 1911",
-   "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan 1911-12-29, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, f ucu. Gün (1911-12-29) kaynaklarda yok; TDV Moğolistan: «bağımsızlıklarını ilân ettiler ... özerklik (18 Kasım 1911)» — farklı gün, ikisi de yazıldı, seçilmedi. Künye f 1911-12-29 = küme f tutarlı."
+   "oneri": {
+    "f": "1911-12-01"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogolistan 1911-12-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): TDV '18 Kasım' büyük ihtimalle Rus O.S. = 1911-12-01 N.S. (bağımsızlık ilanı, ambanın kovulması — fiilî idare). Çift tarihli kaynakla teyit edilirse künye f 1911-12-01; Bogd Han tahta çıkışı 12-29 ic_not. Teyit yoksa ONERI. | YIL DÜZEYİ, f ucu. Gün (1911-12-29) kaynaklarda yok; TDV Moğolistan: «bağımsızlıklarını ilân ettiler ... özerklik (18 Kasım 1911)» — farklı gün, ikisi de yazıldı, seçilmedi. Künye f 1911-12-29 = küme f tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek21.js:117",
@@ -22537,7 +22545,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Uman - https://islamansiklopedisi.org.tr/uman (anahtar 1515, Zafâr, Masîre bulunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (umman 1515-04-01, 4 satır); yalnız gün ve devlet teyitli. TDV Uman: «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»; Portekiz Maskat civarından 1029/1620'de çıkarıldı (Ya‘rubî imamı Nâsır b. Mürşid). 1515 geçmiyor. KÜNYE AŞIMI: künye f 1624-01-01 > küme f 1515-04-01; ayrıca TDV'ye göre 1515'te Umman değil Portekiz/Hürmüz etkisi var — f çelişkili, kaynakla desteklenmedi. Bakılan: TDV Uman. Bakılmadı: Iranica/EI, DergiPark."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (umman 1515-04-01, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): farklı polity'ler (Nebhânî imamlığı, Portekiz sahil kaleleri 1507–1650, Ya'rubî 1624) — künye kapsam sorusu LAB SALI'ya. | TDV Uman: «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»; Portekiz Maskat civarından 1029/1620'de çıkarıldı (Ya‘rubî imamı Nâsır b. Mürşid). 1515 geçmiyor. KÜNYE AŞIMI: künye f 1624-01-01 > küme f 1515-04-01; ayrıca TDV'ye göre 1515'te Umman değil Portekiz/Hürmüz etkisi var — f çelişkili, kaynakla desteklenmedi. Bakılan: TDV Uman. Bakılmadı: Iranica/EI, DergiPark."
   }
  ],
  "Şüveymiye": [
@@ -22551,7 +22559,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Uman - https://islamansiklopedisi.org.tr/uman (anahtar 1515, Zafâr, Masîre bulunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (umman 1515-04-01, 4 satır); yalnız gün ve devlet teyitli. TDV Uman: «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»; Portekiz Maskat civarından 1029/1620'de çıkarıldı (Ya‘rubî imamı Nâsır b. Mürşid). 1515 geçmiyor. KÜNYE AŞIMI: künye f 1624-01-01 > küme f 1515-04-01; ayrıca TDV'ye göre 1515'te Umman değil Portekiz/Hürmüz etkisi var — f çelişkili, kaynakla desteklenmedi. Bakılan: TDV Uman. Bakılmadı: Iranica/EI, DergiPark."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (umman 1515-04-01, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): farklı polity'ler (Nebhânî imamlığı, Portekiz sahil kaleleri 1507–1650, Ya'rubî 1624) — künye kapsam sorusu LAB SALI'ya. | TDV Uman: «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»; Portekiz Maskat civarından 1029/1620'de çıkarıldı (Ya‘rubî imamı Nâsır b. Mürşid). 1515 geçmiyor. KÜNYE AŞIMI: künye f 1624-01-01 > küme f 1515-04-01; ayrıca TDV'ye göre 1515'te Umman değil Portekiz/Hürmüz etkisi var — f çelişkili, kaynakla desteklenmedi. Bakılan: TDV Uman. Bakılmadı: Iranica/EI, DergiPark."
   }
  ],
  "Tumreyt": [
@@ -22565,7 +22573,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, Uman - https://islamansiklopedisi.org.tr/uman (anahtar 1515, Zafâr, Masîre bulunmadı)",
    "alinti": "",
    "oneri": {},
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (umman 1515-04-01, 4 satır); yalnız gün ve devlet teyitli. TDV Uman: «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»; Portekiz Maskat civarından 1029/1620'de çıkarıldı (Ya‘rubî imamı Nâsır b. Mürşid). 1515 geçmiyor. KÜNYE AŞIMI: künye f 1624-01-01 > küme f 1515-04-01; ayrıca TDV'ye göre 1515'te Umman değil Portekiz/Hürmüz etkisi var — f çelişkili, kaynakla desteklenmedi. Bakılan: TDV Uman. Bakılmadı: Iranica/EI, DergiPark."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (umman 1515-04-01, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): farklı polity'ler (Nebhânî imamlığı, Portekiz sahil kaleleri 1507–1650, Ya'rubî 1624) — künye kapsam sorusu LAB SALI'ya. | TDV Uman: «Portekizliler 1507’den itibaren Uman sahil şehirlerini ele geçirdiler»; Portekiz Maskat civarından 1029/1620'de çıkarıldı (Ya‘rubî imamı Nâsır b. Mürşid). 1515 geçmiyor. KÜNYE AŞIMI: künye f 1624-01-01 > küme f 1515-04-01; ayrıca TDV'ye göre 1515'te Umman değil Portekiz/Hürmüz etkisi var — f çelişkili, kaynakla desteklenmedi. Bakılan: TDV Uman. Bakılmadı: Iranica/EI, DergiPark."
   }
  ],
  "Dusa Mareb": [
@@ -25645,7 +25653,7 @@
    "oneri": {
     "f": "1897-01-27"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1897-02-28, 4 satır); yalnız gün ve devlet teyitli. GÜN düzeyi, f ucu: TDV Fransız yönetime el koymasını 27 Ocak 1897 diyor; atlas 1897-02-28. UYARI: yaygın literatürde sürgün 1897-02-28; TDV günü şüpheli olabilir — ikinci kaynak aranmalı (countrystudies.us/madagascar/5.htm açıldı, anahtar bulunmadı). Küme t 1960-06-26 TDV ile uyumlu. Künye f 1792 tutarlı. Merina krallığı kaldırılışı 1896-08 ilhak yasası TDV'de yok."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1897-02-28, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): tek kaynak. 1896-08-06 ilhak yasası, 1897-02-28 kraliçenin azli; TDV 01-27'nin neyi tarihlediği okunacak; ikinci kaynak. | GÜN düzeyi, f ucu: TDV Fransız yönetime el koymasını 27 Ocak 1897 diyor; atlas 1897-02-28. UYARI: yaygın literatürde sürgün 1897-02-28; TDV günü şüpheli olabilir — ikinci kaynak aranmalı (countrystudies.us/madagascar/5.htm açıldı, anahtar bulunmadı). Küme t 1960-06-26 TDV ile uyumlu. Künye f 1792 tutarlı. Merina krallığı kaldırılışı 1896-08 ilhak yasası TDV'de yok."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1745",
@@ -25713,7 +25721,7 @@
    "oneri": {
     "f": "1897-01-27"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1897-02-28, 4 satır); yalnız gün ve devlet teyitli. GÜN düzeyi, f ucu: TDV Fransız yönetime el koymasını 27 Ocak 1897 diyor; atlas 1897-02-28. UYARI: yaygın literatürde sürgün 1897-02-28; TDV günü şüpheli olabilir — ikinci kaynak aranmalı (countrystudies.us/madagascar/5.htm açıldı, anahtar bulunmadı). Küme t 1960-06-26 TDV ile uyumlu. Künye f 1792 tutarlı. Merina krallığı kaldırılışı 1896-08 ilhak yasası TDV'de yok."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1897-02-28, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): tek kaynak. 1896-08-06 ilhak yasası, 1897-02-28 kraliçenin azli; TDV 01-27'nin neyi tarihlediği okunacak; ikinci kaynak. | GÜN düzeyi, f ucu: TDV Fransız yönetime el koymasını 27 Ocak 1897 diyor; atlas 1897-02-28. UYARI: yaygın literatürde sürgün 1897-02-28; TDV günü şüpheli olabilir — ikinci kaynak aranmalı (countrystudies.us/madagascar/5.htm açıldı, anahtar bulunmadı). Küme t 1960-06-26 TDV ile uyumlu. Künye f 1792 tutarlı. Merina krallığı kaldırılışı 1896-08 ilhak yasası TDV'de yok."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1850",
@@ -25783,7 +25791,7 @@
    "oneri": {
     "f": "1897-01-27"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1897-02-28, 4 satır); yalnız gün ve devlet teyitli. GÜN düzeyi, f ucu: TDV Fransız yönetime el koymasını 27 Ocak 1897 diyor; atlas 1897-02-28. UYARI: yaygın literatürde sürgün 1897-02-28; TDV günü şüpheli olabilir — ikinci kaynak aranmalı (countrystudies.us/madagascar/5.htm açıldı, anahtar bulunmadı). Küme t 1960-06-26 TDV ile uyumlu. Künye f 1792 tutarlı. Merina krallığı kaldırılışı 1896-08 ilhak yasası TDV'de yok."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1897-02-28, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): tek kaynak. 1896-08-06 ilhak yasası, 1897-02-28 kraliçenin azli; TDV 01-27'nin neyi tarihlediği okunacak; ikinci kaynak. | GÜN düzeyi, f ucu: TDV Fransız yönetime el koymasını 27 Ocak 1897 diyor; atlas 1897-02-28. UYARI: yaygın literatürde sürgün 1897-02-28; TDV günü şüpheli olabilir — ikinci kaynak aranmalı (countrystudies.us/madagascar/5.htm açıldı, anahtar bulunmadı). Küme t 1960-06-26 TDV ile uyumlu. Künye f 1792 tutarlı. Merina krallığı kaldırılışı 1896-08 ilhak yasası TDV'de yok."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1960",
@@ -25895,7 +25903,7 @@
    "oneri": {
     "f": "1897-01-27"
    },
-   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1897-02-28, 4 satır); yalnız gün ve devlet teyitli. GÜN düzeyi, f ucu: TDV Fransız yönetime el koymasını 27 Ocak 1897 diyor; atlas 1897-02-28. UYARI: yaygın literatürde sürgün 1897-02-28; TDV günü şüpheli olabilir — ikinci kaynak aranmalı (countrystudies.us/madagascar/5.htm açıldı, anahtar bulunmadı). Küme t 1960-06-26 TDV ile uyumlu. Künye f 1792 tutarlı. Merina krallığı kaldırılışı 1896-08 ilhak yasası TDV'de yok."
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1897-02-28, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-47): tek kaynak. 1896-08-06 ilhak yasası, 1897-02-28 kraliçenin azli; TDV 01-27'nin neyi tarihlediği okunacak; ikinci kaynak. | GÜN düzeyi, f ucu: TDV Fransız yönetime el koymasını 27 Ocak 1897 diyor; atlas 1897-02-28. UYARI: yaygın literatürde sürgün 1897-02-28; TDV günü şüpheli olabilir — ikinci kaynak aranmalı (countrystudies.us/madagascar/5.htm açıldı, anahtar bulunmadı). Küme t 1960-06-26 TDV ile uyumlu. Künye f 1792 tutarlı. Merina krallığı kaldırılışı 1896-08 ilhak yasası TDV'de yok."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:2066",
