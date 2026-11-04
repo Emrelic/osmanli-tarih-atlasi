@@ -8,15 +8,15 @@ Dönem = yerleşim kaydının `s:` / `d:` / `v:` / `isg:` dizisindeki `{f, t, d}
 | ölçüm | adet |
 |---|---|
 | toplam dönem (231 dosya) | 47017 |
-| sorunlu dönem (tümü) | 2577 |
-| **sorunlu dönem — canlı dosyalarda** | **1072** |
+| sorunlu dönem (tümü) | 2448 |
+| **sorunlu dönem — canlı dosyalarda** | **943** |
 | künye yok (id ne `id` ne `harita:`) | 5 (hepsi canlı olmayan dosyalarda) |
 | BOYALAR'da yok (künye var, boya anahtarı yok) | 0 |
-| künye f'sinden önce başlayan | 1632 |
-| künye t'sinden sonra biten | 997 |
-| aşan künye sayısı (canlı) | 168 |
+| künye f'sinden önce başlayan | 1526 |
+| künye t'sinden sonra biten | 945 |
+| aşan künye sayısı (canlı) | 113 |
 
-Canlı dosyalarda sınıf dağılımı: BUYUK_ASIM 452 · ORTA_ASIM 421 · KUCUK_ASIM 116 · BASLANGIC_ARTIGI 81 · UFUK_ARTIGI 2
+Canlı dosyalarda sınıf dağılımı: ORTA_ASIM 421 · BUYUK_ASIM 323 · KUCUK_ASIM 116 · BASLANGIC_ARTIGI 81 · UFUK_ARTIGI 2
 
 Sınıflar: **KUCUK_ASIM** ≤31 gün (uç hizala / dönem KISALT) · **ORTA_ASIM** ≤1 yıl (kaynakla karar) · **BUYUK_ASIM** >1 yıl (künye GENİŞLET / ardıl künye / dönem yanlış) · **BASLANGIC_ARTIGI** dönem 1281-01-01 pencere başında açılıyor, künye daha geç kuruluyor · **UFUK_ARTIGI** künye ucu bilinen pencere günü (1923-10-29, 1945-05-08 …).
 
@@ -45,13 +45,11 @@ Sınıflar: **KUCUK_ASIM** ≤31 gün (uç hizala / dönem KISALT) · **ORTA_ASI
 | `mali-federasyonu` | 15 | 0 | 15 | 33 | 1959-04-04 → 1960-08-20 | ORTA_ASIM | künye t ucunu 1960-09-22'e GENİŞLET (dönemlerin 15/15'i aynı günde) — kaynakla |
 | `napoli` | 14 | 14 | 0 | 453 | 1282-03-30 → 1861-02-13 | BASLANGIC_ARTIGI | künye f ucunu 1281-01-01'e GENİŞLET (dönemlerin 14/14'i aynı günde) — kaynakla |
 | `umman` | 14 | 14 | 0 | 39722 | 1624-01-01 → (süren) | BUYUK_ASIM | künye f ucunu 1515-04-01'e GENİŞLET (dönemlerin 13/14'i aynı günde) — kaynakla |
-| `roma-cumhuriyeti` | 12 | 12 | 0 | 178405 | -0508-01-01 → -0026-01-16 | BUYUK_ASIM | dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye) |
 | `yakub-beg` | 12 | 12 | 0 | 211 | 1865-01-01 → 1878-03-16 | ORTA_ASIM | künye f ucunu 1864-06-04'e GENİŞLET (dönemlerin 12/12'i aynı günde) — kaynakla |
 | `bengal-sultanligi` | 10 | 0 | 10 | 5844 | 1340-01-01 → 1576-01-01 | ORTA_ASIM | künye t ucunu 1576-07-12'e GENİŞLET (dönemlerin 7/10'i aynı günde) — kaynakla |
 | `cungar` | 10 | 0 | 10 | 365 | 1634-01-01 → 1758-01-01 | ORTA_ASIM | künye t ucunu 1759-01-01'e GENİŞLET (dönemlerin 10/10'i aynı günde) — kaynakla |
 | `macaristan` | 10 | 0 | 10 | 6453 | 1000-01-01 → 1527-01-01 | BUYUK_ASIM | dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye) |
 | `afgan-durrani` | 9 | 6 | 5 | 5604 | 1747-10-01 → 1819-01-01 | ORTA_ASIM | künye f ucunu 1747-06-20'e GENİŞLET (dönemlerin 6/9'i aynı günde) — kaynakla |
-| `ahamenis` | 9 | 9 | 3 | 11904 | -0549-01-01 → -0329-01-01 | BUYUK_ASIM | dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye) |
 | `sur-hanedani` | 9 | 9 | 0 | 867 | 1540-05-17 → 1564-01-01 | BUYUK_ASIM | künye f ucunu 1538-01-01'e GENİŞLET (dönemlerin 9/9'i aynı günde) — kaynakla |
 | `almanya-muttefik-isgali` | 8 | 0 | 8 | 17 | 1945-06-05 → 1949-09-20 | KUCUK_ASIM | dönem uçlarını künyeye HİZALA (KISALT) |
 | `linyi-champa` | 8 | 0 | 8 | 1 | 0192-01-01 → 0999-12-31 | KUCUK_ASIM | dönem uçlarını künyeye HİZALA (KISALT) |
@@ -61,9 +59,11 @@ Sınıflar: **KUCUK_ASIM** ≤31 gün (uç hizala / dönem KISALT) · **ORTA_ASI
 | `filipin-racaliklari` | 7 | 0 | 7 | 23202 | 1001-01-01 → 1571-06-24 | BUYUK_ASIM | dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye) |
 | `malaka-sultanligi` | 7 | 0 | 7 | 5988 | 1400-01-01 → 1511-08-10 | BUYUK_ASIM | künye t ucunu 1528-01-01'e GENİŞLET (dönemlerin 7/7'i aynı günde) — kaynakla |
 | `sih-imparatorlugu` | 7 | 7 | 0 | 13602 | 1801-04-12 → 1849-03-29 | BUYUK_ASIM | künye f ucunu 1765-04-16'e GENİŞLET (dönemlerin 6/7'i aynı günde) — kaynakla |
-| `yeni-asur` | 7 | 5 | 3 | 74772 | -0910-01-01 → -0608-01-01 | BUYUK_ASIM | dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye) |
-| `aseramik-kuzey-levant-anadolu` | 6 | 1 | 6 | 825840 | -11219-01-01 → -7099-01-01 | BUYUK_ASIM | dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye) |
 | `babur-imparatorlugu` | 6 | 4 | 2 | 7872 | 1526-04-21 → 1857-09-21 | BUYUK_ASIM | dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye) |
+| `gucerat-sultanligi` | 6 | 0 | 6 | 56 | 1407-01-01 → 1573-01-01 | ORTA_ASIM | künye t ucunu 1573-02-26'e GENİŞLET (dönemlerin 6/6'i aynı günde) — kaynakla |
+| `mentese` | 6 | 0 | 6 | 517 | 1280-01-01 → 1424-01-01 | BUYUK_ASIM | künye t ucunu 1425-06-01'e GENİŞLET (dönemlerin 6/6'i aynı günde) — kaynakla |
+| `dashun` | 5 | 5 | 0 | 1029 | 1644-01-01 → 1647-01-01 | ORTA_ASIM | künye f ucunu 1643-10-11'e GENİŞLET (dönemlerin 3/5'i aynı günde) — kaynakla |
+| `bengal-nevabligi` | 4 | 0 | 4 | 2678 | 1717-01-01 → 1757-06-23 | BUYUK_ASIM | künye t ucunu 1764-10-22'e GENİŞLET (dönemlerin 3/4'i aynı günde) — kaynakla |
 
 Not: 'mekanik öneri' yalnız dönem uçlarının dağılımından çıkar; **künye ucunu değiştirmeden önce kaynak okunmalı** (CLAUDE.md künye aşımı sınıflaması: devlet öldüyse dönemi KISALT · aynı polity sürüyorsa künyeyi GENİŞLET · ardıl yapı geçtiyse ardıl künye; sınır kayması önerilince iki ucu da ölç). Örnek: `zend` künyesinin kendi ic_not'u 1747-1751 farkını bilinçli beyan ediyor (Kerim Han konsolidasyonu 1751).
 

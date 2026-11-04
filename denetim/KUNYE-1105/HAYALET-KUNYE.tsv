@@ -20,13 +20,11 @@ funj	15	0	15	66	1504-01-01	1821-06-14	ORTA_ASIM	künye t ucunu 1821-08-19'e GEN�
 mali-federasyonu	15	0	15	33	1959-04-04	1960-08-20	ORTA_ASIM	künye t ucunu 1960-09-22'e GENİŞLET (dönemlerin 15/15'i aynı günde) — kaynakla	yerlesimler.js, yerlesimler_afrika2.js, yerlesimler_e9353f.js
 napoli	14	14	0	453	1282-03-30	1861-02-13	BASLANGIC_ARTIGI	künye f ucunu 1281-01-01'e GENİŞLET (dönemlerin 14/14'i aynı günde) — kaynakla	yerlesimler.js, yerlesimler_avrupa.js
 umman	14	14	0	39722	1624-01-01		BUYUK_ASIM	künye f ucunu 1515-04-01'e GENİŞLET (dönemlerin 13/14'i aynı günde) — kaynakla	yerlesimler.js, yerlesimler_h2_afrika.js
-roma-cumhuriyeti	12	12	0	178405	-0508-01-01	-0026-01-16	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler.js, yerlesimler_avrupa.js, yerlesimler_mo_zincir.js
 yakub-beg	12	12	0	211	1865-01-01	1878-03-16	ORTA_ASIM	künye f ucunu 1864-06-04'e GENİŞLET (dönemlerin 12/12'i aynı günde) — kaynakla	yerlesimler_asya.js, yerlesimler_ortaasya3.js
 bengal-sultanligi	10	0	10	5844	1340-01-01	1576-01-01	ORTA_ASIM	künye t ucunu 1576-07-12'e GENİŞLET (dönemlerin 7/10'i aynı günde) — kaynakla	yerlesimler_asya.js
 cungar	10	0	10	365	1634-01-01	1758-01-01	ORTA_ASIM	künye t ucunu 1759-01-01'e GENİŞLET (dönemlerin 10/10'i aynı günde) — kaynakla	yerlesimler_asya.js, yerlesimler_ortaasya3.js
 macaristan	10	0	10	6453	1000-01-01	1527-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler.js, yerlesimler_ek.js
 afgan-durrani	9	6	5	5604	1747-10-01	1819-01-01	ORTA_ASIM	künye f ucunu 1747-06-20'e GENİŞLET (dönemlerin 6/9'i aynı günde) — kaynakla	yerlesimler_asya.js, yerlesimler_ek16.js, yerlesimler_nokta_asya_0917.js
-ahamenis	9	9	3	11904	-0549-01-01	-0329-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_sumer.js, yerlesimler_mo_zincir.js, yerlesimler_ms1_1281_yeni.js
 sur-hanedani	9	9	0	867	1540-05-17	1564-01-01	BUYUK_ASIM	künye f ucunu 1538-01-01'e GENİŞLET (dönemlerin 9/9'i aynı günde) — kaynakla	yerlesimler_asya.js
 almanya-muttefik-isgali	8	0	8	17	1945-06-05	1949-09-20	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler.js, yerlesimler_avrupa.js, yerlesimler_once1281_avrupa.js
 linyi-champa	8	0	8	1	0192-01-01	0999-12-31	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler_asya.js, yerlesimler_gdasya.js
@@ -36,134 +34,81 @@ bosna →bosna-kralligi	7	0	7	2072	1180-01-01	1463-05-01	KUCUK_ASIM	künye t ucu
 filipin-racaliklari	7	0	7	23202	1001-01-01	1571-06-24	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_gdasya.js
 malaka-sultanligi	7	0	7	5988	1400-01-01	1511-08-10	BUYUK_ASIM	künye t ucunu 1528-01-01'e GENİŞLET (dönemlerin 7/7'i aynı günde) — kaynakla	yerlesimler_asya.js, yerlesimler_gdasya.js
 sih-imparatorlugu	7	7	0	13602	1801-04-12	1849-03-29	BUYUK_ASIM	künye f ucunu 1765-04-16'e GENİŞLET (dönemlerin 6/7'i aynı günde) — kaynakla	yerlesimler_asya.js
-yeni-asur	7	5	3	74772	-0910-01-01	-0608-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler.js, yerlesimler_ek25.js, yerlesimler_mo_zincir.js
-aseramik-kuzey-levant-anadolu	6	1	6	825840	-11219-01-01	-7099-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_levant_anadolu.js
 babur-imparatorlugu	6	4	2	7872	1526-04-21	1857-09-21	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_asya.js, yerlesimler_hindistan.js
 gucerat-sultanligi	6	0	6	56	1407-01-01	1573-01-01	ORTA_ASIM	künye t ucunu 1573-02-26'e GENİŞLET (dönemlerin 6/6'i aynı günde) — kaynakla	yerlesimler_asya.js, yerlesimler_hint0912.js
 mentese	6	0	6	517	1280-01-01	1424-01-01	BUYUK_ASIM	künye t ucunu 1425-06-01'e GENİŞLET (dönemlerin 6/6'i aynı günde) — kaynakla	yerlesimler.js
-part	6	6	0	50964	-0249-01-01	0224-04-28	BUYUK_ASIM	künye f ucunu -0140-01-01'e GENİŞLET (dönemlerin 4/6'i aynı günde) — kaynakla	yerlesimler.js, yerlesimler_mo_sumer.js, yerlesimler_mo_zincir.js
-ur-3	6	4	4	7440	-2111-01-01	-2003-01-01	BUYUK_ASIM	künye f ucunu -2109-01-01'e GENİŞLET (dönemlerin 4/6'i aynı günde) — kaynakla	yerlesimler_mo_sumer.js, yerlesimler_mo_zincir.js
 dashun	5	5	0	1029	1644-01-01	1647-01-01	ORTA_ASIM	künye f ucunu 1643-10-11'e GENİŞLET (dönemlerin 3/5'i aynı günde) — kaynakla	yerlesimler_asya.js
-selevkos	5	3	5	31620	-0311-01-01	-0062-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler.js, yerlesimler_mo_sumer.js, yerlesimler_mo_zincir.js
-akad	4	4	0	12648	-2333-01-01	-2153-01-01	BUYUK_ASIM	künye f ucunu -2299-01-01'e GENİŞLET (dönemlerin 3/4'i aynı günde) — kaynakla	yerlesimler_mo_sumer.js
 bengal-nevabligi	4	0	4	2678	1717-01-01	1757-06-23	BUYUK_ASIM	künye t ucunu 1764-10-22'e GENİŞLET (dönemlerin 3/4'i aynı günde) — kaynakla	yerlesimler_asya.js
 benihalid	4	0	4	4291	1670-01-01	1830-01-01	BUYUK_ASIM	künye t ucunu 1841-10-01'e GENİŞLET (dönemlerin 4/4'i aynı günde) — kaynakla	yerlesimler.js
 grenada-devrimci-hukumet	4	0	4	1	1979-03-13	1983-10-25	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler_halef_1946.js
-iskender-imparatorlugu	4	4	0	2976	-0335-01-01	-0322-06-10	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler.js, yerlesimler_mo_sumer.js, yerlesimler_mo_zincir.js
 mazenderan-marasi	4	4	0	2191	1359-01-01	1596-01-01	BUYUK_ASIM	künye f ucunu 1353-01-01'e GENİŞLET (dönemlerin 4/4'i aynı günde) — kaynakla	yerlesimler.js
 meiji-japonya	4	0	4	76	1868-01-03	1947-05-03	ORTA_ASIM	künye t ucunu 1947-07-18'e GENİŞLET (dönemlerin 4/4'i aynı günde) — kaynakla	yerlesimler_a78_okyanusya.js, yerlesimler_ek_pasifik_adalar.js
 sardinya →sardinya-piyemonte	4	4	0	160	1720-08-02	1861-03-17	ORTA_ASIM	künye f ucunu 1720-02-24'e GENİŞLET (dönemlerin 4/4'i aynı günde) — kaynakla	yerlesimler.js, yerlesimler_avrupa.js
 tahiri	4	4	0	181	1454-07-01	1538-08-03	ORTA_ASIM	künye f ucunu 1454-01-01'e GENİŞLET (dönemlerin 4/4'i aynı günde) — kaynakla	yerlesimler.js, yerlesimler_nokta2.js
-babil-eski	3	3	1	53940	-1893-01-01	-1594-01-01	BUYUK_ASIM	künye f ucunu -1762-01-01'e GENİŞLET (dönemlerin 2/3'i aynı günde) — kaynakla	yerlesimler_mo_sumer.js, yerlesimler_mo_zincir.js
-bati-han	3	3	0	35340	-0205-01-01	0009-01-10	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_asya.js
 bicapur	3	0	3	364	1489-01-01	1686-09-22	ORTA_ASIM	künye t ucunu 1687-09-21'e GENİŞLET (dönemlerin 2/3'i aynı günde) — kaynakla	yerlesimler_asya.js
-casma-sechin	3	2	2	703080	-3399-01-01	-1009-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_boya_bekleyen.js
 eretna	3	0	3	1461	1335-01-01	1381-01-01	BUYUK_ASIM	künye t ucunu 1385-01-01'e GENİŞLET (dönemlerin 3/3'i aynı günde) — kaynakla	yerlesimler.js, yerlesimler_ek28.js, yerlesimler_ek29.js
 fransa	3	0	3	7919	0987-07-03	1792-09-22	ORTA_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_asya.js, yerlesimler_nokta3.js
 gilan-kiya	3	3	0	6574	1371-01-01	1592-01-01	BUYUK_ASIM	künye f ucunu 1353-01-01'e GENİŞLET (dönemlerin 3/3'i aynı günde) — kaynakla	yerlesimler.js
-kassit-babil	3	2	1	48360	-1594-01-01	-1154-01-01	BUYUK_ASIM	künye f ucunu -1464-01-01'e GENİŞLET (dönemlerin 2/3'i aynı günde) — kaynakla	yerlesimler_mo_sumer.js, yerlesimler_mo_zincir.js
 macaristan-naiplik	3	3	0	5	1918-11-16	1946-02-01	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler.js, yerlesimler_ek_bosluk.js, yerlesimler_ek_macaristan.js
 mogol-imparatorlugu	3	0	3	7671	1206-01-01	1260-01-01	BUYUK_ASIM	künye t ucunu 1281-01-01'e GENİŞLET (dönemlerin 2/3'i aynı günde) — kaynakla	yerlesimler_asya.js, yerlesimler_dogu_500_1281.js
-orta-anadolu-neolitik	3	2	2	781200	-8399-01-01	-5999-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_levant_anadolu.js
-qin-devleti	3	3	0	191580	-0769-01-01	-0220-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_asya.js
-roma-imp	3	3	0	4077	-0026-01-16	0395-01-17	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler.js, yerlesimler_avrupa.js
 sun-wu	3	0	3	121	0212-01-01	0280-01-01	ORTA_ASIM	künye t ucunu 0280-05-01'e GENİŞLET (dönemlerin 3/3'i aynı günde) — kaynakla	yerlesimler_asya.js
 tang-jin-shatuo-prensligi	3	1	3	2556	0902-01-01	0923-01-01	ORTA_ASIM	künye t ucunu 0923-05-13'e GENİŞLET (dönemlerin 2/3'i aynı günde) — kaynakla	yerlesimler_asya.js
 banten-sultanligi	2	2	0	537	1527-06-22	1813-01-01	BUYUK_ASIM	künye f ucunu 1526-01-01'e GENİŞLET (dönemlerin 2/2'i aynı günde) — kaynakla	yerlesimler_gdasya.js
 fransiz-cinhindi	2	0	2	284	1859-02-17	1954-07-21	ORTA_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_asya.js, yerlesimler_gdasya.js
-harappa	2	2	1	55800	-2599-01-01	-1899-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_iran_asya.js
 hirvatistan-bagimsiz	2	0	2	23	1941-04-10	1945-05-08	UFUK_ARTIGI	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler_halef_1946.js
-hitit	2	0	2	7440	-1649-01-01	-1179-01-01	BUYUK_ASIM	künye t ucunu -1199-01-01'e GENİŞLET (dönemlerin 2/2'i aynı günde) — kaynakla	yerlesimler_mo_zincir.js
 kaffa →kaffa-kralligi	2	2	1	39811	1390-01-01	1897-09-10	BASLANGIC_ARTIGI	künye f ucunu 1281-01-01'e GENİŞLET (dönemlerin 2/2'i aynı günde) — kaynakla	yerlesimler_afrika.js
-kartaca	2	2	1	220596	-0813-01-01	-0145-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_avrupa.js, yerlesimler_mo_zincir.js
-larsa	2	2	0	82956	-2024-01-01	-1762-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_sumer.js
-lidya	2	2	0	20460	-0679-01-01	-0545-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_zincir.js, yerlesimler_ms1_1281_yeni.js
-makedonya-krallik	2	1	2	106764	-0699-01-01	-0167-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_once1281_yt_avrupa.js
 maratha	2	1	1	5635	1674-06-06	1818-06-03	KUCUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_asya.js
-maya-orta-preklasik	2	2	0	74400	-0999-01-01	-0399-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_amerika.js
 modena	2	0	2	442	1598-01-29	1859-01-01	BUYUK_ASIM	künye t ucunu 1860-03-18'e GENİŞLET (dönemlerin 2/2'i aynı günde) — kaynakla	yerlesimler_avrupa.js
 nguyen-hanedani	2	2	0	351	1802-06-01	1945-08-30	ORTA_ASIM	künye f ucunu 1801-06-15'e GENİŞLET (dönemlerin 2/2'i aynı günde) — kaynakla	yerlesimler_asya.js, yerlesimler_gdasya.js
-olmek	2	1	1	223200	-1199-01-01	-0399-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_amerika.js
-ppnb-guney-levant	2	2	1	427800	-8649-01-01	-6749-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_levant_anadolu.js
 racput	2	0	2	247	1000-01-01	1947-08-15	ORTA_ASIM	künye t ucunu 1948-04-18'e GENİŞLET (dönemlerin 2/2'i aynı günde) — kaynakla	yerlesimler_asya.js
 vijayanagara	2	0	2	3652	1336-01-01	1646-01-01	BUYUK_ASIM	künye t ucunu 1656-01-01'e GENİŞLET (dönemlerin 2/2'i aynı günde) — kaynakla	yerlesimler_asya.js
-yangshao	2	2	2	520800	-4999-01-01	-2899-01-01	BUYUK_ASIM	dağınık aşım: dönem dönem incele (GENİŞLET / KISALT / ardıl künye)	yerlesimler_mo_dogu_asya.js
 abbasi	1	1	0	87	0749-11-28	1258-02-10	ORTA_ASIM	künye f ucunu 0749-09-02'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 ahiler	1	1	1	3287	1290-01-01	1354-01-01	BASLANGIC_ARTIGI	künye f ucunu 1281-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 aiz	1	0	1	91	1918-10-30	1920-01-01	ORTA_ASIM	künye t ucunu 1920-04-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 almanya	1	0	1	58	0962-02-02	1945-06-05	ORTA_ASIM	künye t ucunu 1945-08-02'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 austrasia	1	0	1	304	0511-01-01	0751-01-01	ORTA_ASIM	künye t ucunu 0751-11-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_avrupa.js
 bhopal	1	1	0	365	1708-01-01	1949-06-01	ORTA_ASIM	künye f ucunu 1707-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-bitinya	1	1	1	13392	-0297-01-01	-0073-01-01	BUYUK_ASIM	künye f ucunu -0261-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 bizans-afrika-eksarhligi	1	0	1	78	0591-01-01	0698-01-01	ORTA_ASIM	künye t ucunu 0698-03-20'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_afrika.js
 bogdan	1	1	0	28488	1359-01-01	1859-02-05	BASLANGIC_ARTIGI	künye f ucunu 1281-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
-caral-norte-chico	1	1	0	259656	-2999-01-01	-1999-01-01	BUYUK_ASIM	künye f ucunu -2301-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_amerika.js
-chavin	1	1	1	37200	-0949-01-01	-0399-01-01	BUYUK_ASIM	künye f ucunu -0899-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_amerika.js
-chu-devleti	1	1	1	20460	-0703-01-01	-0222-01-01	BUYUK_ASIM	künye f ucunu -0688-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_odak_yedek_1023.js
 dogu-sumatra-sultanliklari	1	1	0	9131	1615-01-01	1858-01-01	BUYUK_ASIM	künye f ucunu 1590-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_gdasya.js
 dogu-wei	1	0	1	159	0534-11-08	0550-01-01	ORTA_ASIM	künye t ucunu 0550-06-09'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-dogu-zhou	1	0	1	2232	-0769-01-01	-0248-01-01	BUYUK_ASIM	künye t ucunu -0254-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-ebla-1	1	0	1	3720	-2399-01-01	-2299-01-01	BUYUK_ASIM	künye t ucunu -2309-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_zincir.js
-elam-simaski	1	1	0	28272	-2099-01-01	-1899-01-01	BUYUK_ASIM	künye f ucunu -2023-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_zincir.js
-erken-harappa	1	1	0	74400	-3199-01-01	-2599-01-01	BUYUK_ASIM	künye f ucunu -2999-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_iran_asya.js
 ermenistan-demokratik-cumhuriyeti	1	0	1	1	1918-05-28	1920-12-02	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler_sinir_kuzey.js
-eski-asur	1	1	1	21576	-2024-01-01	-1749-01-01	BUYUK_ASIM	künye f ucunu -2023-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_zincir.js
-etrusk-sehir-devletleri	1	0	1	114204	-0574-01-01	-0088-01-01	BUYUK_ASIM	künye t ucunu -0395-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_zincir.js
 fransiz-bati-afrika	1	0	1	580	1895-06-16	1959-01-01	BUYUK_ASIM	künye t ucunu 1960-08-03'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 frizya-ozgurlugu	1	1	0	365	1101-01-01	1498-01-01	ORTA_ASIM	künye f ucunu 1100-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_nokta2.js
 galzay	1	0	1	82	1709-04-21	1738-01-01	ORTA_ASIM	künye t ucunu 1738-03-24'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-gandhara-mahajanapada	1	1	1	18600	-0599-01-01	-0515-01-01	BUYUK_ASIM	künye f ucunu -0549-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_once1281_yt_iran_orta_asya.js
 guney-han-10krallik	1	0	1	58	0917-01-01	0971-01-01	ORTA_ASIM	künye t ucunu 0971-02-28'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-han-devleti-zhou	1	1	0	10416	-0402-01-01	-0229-01-01	BUYUK_ASIM	künye f ucunu -0374-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_once1281_yt_dogu3.js
 ingiliz-hindistani	1	1	0	172	1757-06-23	1947-08-15	ORTA_ASIM	künye f ucunu 1757-01-02'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 ingiliz-malaya	1	1	0	306	1826-01-01	1957-08-31	ORTA_ASIM	künye f ucunu 1825-03-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 inka-imparatorlugu	1	1	0	57342	1438-01-01	1572-09-24	BASLANGIC_ARTIGI	künye f ucunu 1281-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_amerika.js
 kafsa-benirend-emirligi	1	0	1	22	1053-01-01	1159-01-01	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler_afrika.js
 karmati	1	0	1	217	0899-01-01	1076-01-01	ORTA_ASIM	künye t ucunu 1076-08-05'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 kocin	1	0	1	243	1102-01-01	1503-01-01	ORTA_ASIM	künye t ucunu 1503-09-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-kommagene	1	1	0	372	-0162-01-01	0072-01-01	BUYUK_ASIM	künye f ucunu -0161-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_once1281_yt_anadolu_kafkas.js
-kush-krallik	1	1	0	167400	-0749-01-01	0349-01-01	BUYUK_ASIM	künye f ucunu -0299-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_afrika.js
 kuzey-han-10krallik	1	0	1	153	0951-02-24	0979-01-01	ORTA_ASIM	künye t ucunu 0979-06-03'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 kuzey-yuan	1	0	1	10442	1368-09-14	1691-05-30	BUYUK_ASIM	künye t ucunu 1720-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 langobard	1	0	1	151	0568-01-01	0774-01-01	ORTA_ASIM	künye t ucunu 0774-06-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_once1281_yt_avrupa.js
 ligurya-cumhuriyeti	1	1	0	1	1797-06-15	1805-06-04	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler.js
 macaristan-habsburg	1	1	0	110	1526-12-17	1918-11-16	ORTA_ASIM	künye f ucunu 1526-08-29'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_p77_avrupa.js
 mantua	1	1	0	17165	1328-01-01	1708-01-01	BASLANGIC_ARTIGI	künye f ucunu 1281-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_avrupa.js
-mari-erken	1	0	1	27900	-2549-01-01	-2219-01-01	BUYUK_ASIM	künye t ucunu -2294-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_zincir.js
 mataram-sultanligi	1	0	1	20639	1587-01-01	1755-02-13	BUYUK_ASIM	künye t ucunu 1811-08-18'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 mirdasi	1	0	1	105	1024-01-01	1080-06-18	ORTA_ASIM	künye t ucunu 1080-10-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 mutapa	1	0	1	1826	1450-01-01	1695-01-01	BUYUK_ASIM	künye t ucunu 1700-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_e9353f.js
-nanyue	1	1	0	2976	-0203-01-01	-0110-01-01	BUYUK_ASIM	künye f ucunu -0195-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-naqada-kultur	1	1	1	125736	-3755-01-01	-3125-01-01	BUYUK_ASIM	künye f ucunu -3639-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_afrika.js
-natufiyen	1	1	0	184140	-12649-01-01	-9549-01-01	BUYUK_ASIM	künye f ucunu -12154-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_levant_anadolu.js
 neustria	1	0	1	304	0511-01-01	0751-01-01	ORTA_ASIM	künye t ucunu 0751-11-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_once1281_yt_avrupa.js
 norman-ifrikiye	1	0	1	11	1148-01-01	1160-01-01	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler_afrika.js
 onceki-shu	1	0	1	341	0907-01-01	0925-01-01	ORTA_ASIM	künye t ucunu 0925-12-08'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 oranj	1	1	0	8862	1854-04-07	1902-05-31	BUYUK_ASIM	künye f ucunu 1830-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_e9353f.js
-orta-asur	1	1	1	111228	-1362-01-01	-0910-01-01	BUYUK_ASIM	künye f ucunu -1219-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_zincir.js
 ozak	1	1	0	2	1943-09-10	1945-05-09	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler.js
 pandya-1	1	1	0	365	0601-01-01		ORTA_ASIM	künye f ucunu 0600-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-pontus	1	1	1	22692	-0280-01-01	-0062-01-01	BUYUK_ASIM	künye f ucunu -0219-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
-ppna-guney-levant	1	1	0	148800	-9699-01-01	-8649-01-01	BUYUK_ASIM	künye f ucunu -9299-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_levant_anadolu.js
-ppnc-guney-levant	1	0	1	111600	-6749-01-01	-6399-01-01	BUYUK_ASIM	künye t ucunu -6699-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_levant_anadolu.js
-qi-devleti	1	1	0	245520	-1045-01-01	-0220-01-01	BUYUK_ASIM	künye f ucunu -0385-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_once1281_yt_dogu3.js
 qing-hanedani	1	0	1	190	1616-01-01	1912-02-12	ORTA_ASIM	künye t ucunu 1912-08-20'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 rusya	1	0	1	172	1547-01-16	1917-03-15	ORTA_ASIM	künye t ucunu 1917-09-03'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
 rusya-federasyonu	1	1	0	1	1991-12-26		KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler_avrupa.js
 seylan-sinhala	1	0	1	243	1070-01-01	1518-01-01	ORTA_ASIM	künye t ucunu 1518-09-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 sfaks-hammu-emirligi	1	0	1	320	1062-01-01	1099-01-01	ORTA_ASIM	künye t ucunu 1099-11-17'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
-shang	1	1	1	139500	-1599-01-01	-1045-01-01	BUYUK_ASIM	künye f ucunu -1224-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_dogu_asya.js
 sonraki-han-5hanedan	1	0	1	11	0947-01-01	0951-02-13	KUCUK_ASIM	dönem uçlarını künyeye HİZALA (KISALT)	yerlesimler_asya.js
 sonraki-shu	1	0	1	47	0934-01-01	0965-01-01	ORTA_ASIM	künye t ucunu 0965-02-17'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-sparta	1	1	0	18600	-0799-01-01	-0191-01-01	BUYUK_ASIM	künye f ucunu -0749-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_once1281_yt_avrupa.js
 sui-liang-xiao-xian	1	0	1	313	0617-01-01	0621-01-01	ORTA_ASIM	künye t ucunu 0621-11-10'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
 sulu-sultanligi	1	1	0	64282	1457-01-01	1915-03-22	BASLANGIC_ARTIGI	künye f ucunu 1281-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-sumer-lagas-1	1	1	0	9300	-2499-01-01	-2349-01-01	BUYUK_ASIM	künye f ucunu -2474-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_mo_sumer.js
 tiris-el-garbiyye	1	1	0	48	1976-04-14	1979-08-05	ORTA_ASIM	künye f ucunu 1976-02-26'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_a78_afrika.js
 transvaal	1	1	0	8035	1852-01-01	1902-05-31	BUYUK_ASIM	künye f ucunu 1830-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_e9353f.js
 tsongkha	1	0	1	128	1008-01-01	1104-01-01	ORTA_ASIM	künye t ucunu 1104-05-08'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-wei-devleti-zhou	1	1	0	23436	-0402-01-01	-0224-01-01	BUYUK_ASIM	künye f ucunu -0339-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_odak_yedek_1023.js
 yan-liu-shouguang	1	0	1	304	0911-08-01	0913-01-01	ORTA_ASIM	künye t ucunu 0913-11-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
-zankle-messana	1	1	0	2232	-0729-01-01	-0288-01-01	BUYUK_ASIM	künye f ucunu -0723-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler.js
-zhao-devleti	1	1	1	6324	-0402-01-01	-0221-01-01	BUYUK_ASIM	künye f ucunu -0385-01-01'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_once1281_yt_dogu_gd_asya.js
 zhao-wang-rong	1	0	1	41	0907-01-01	0921-01-01	ORTA_ASIM	künye t ucunu 0921-02-11'e GENİŞLET (dönemlerin 1/1'i aynı günde) — kaynakla	yerlesimler_asya.js
