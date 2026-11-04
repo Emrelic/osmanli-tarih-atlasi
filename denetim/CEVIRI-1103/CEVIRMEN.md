@@ -93,6 +93,32 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
        - Birden çok `#` varsa birbirlerine göre sıraları korunur: ilk `#` ilk sayıdır.
        - Örnekler: "# başı" → «начало #», "Haziran # ortası" → «середина июня #», "# sonu" → «конец #», "# civarı" → «около #», "Ağustos # başı" → «начало августа #».
    - **Emin değilsen:** özel adı modern Türkçe yazımıyla, Latin harfle bırak. Kiril harfine **çevirme**; uydurma ad üretme. Örnek: az bilinen bir kasaba ya da beylik adı Türkçe kalır.
+   - **Ad önceliği** (olay metinlerinde, 4 Kasım 2026 düzeltisi):
+     1. **Rus tarih yazımında yerleşik bir olay ya da antlaşma adı varsa o ad kullanılır**, metindeki yer adı kuralından önce gelir. Örnekler:
+        - Edirne 1829 → «Адрианопольский мир»
+        - Küçük Kaynarca → «Кючук-Кайнарджийский мир»
+        - Yaş → «Ясский мир»
+        - Bükreş 1812 → «Бухарестский мир»
+        - Prut → «Прутский мир»
+        - İstanbul 1479 → «Константинопольский мир»
+        - Karlofça → «Карловицкий мир»
+        - Pasarofça → «Пожаревацкий мир»
+        - Ayastefanos → «Сан-Стефанский мир»
+     2. **Yerin Rus akademik yazımında yerleşik adı varsa o ad kullanılır.** Türkçe adın Kiril okunuşu kullanılmaz. Örnekler:
+        - Yanıkkale → Дьёр
+        - Uyvar → Нове-Замки
+        - İbrail → Брэила
+        - Ahıska → Ахалцихе
+        - Narda → Арта
+        - Belgrad, Niş → Ниш
+        - Vidin → Видин
+        - Özi → Очаков
+        - Hotin → Хотин
+        - Bender → Бендеры
+        - Akkirman → Аккерман
+     3. **Yerleşik ad yoksa** Türkçe ad Latin harfle kalır. Örnekler: Böğürdelen, Güvercinlik. Türkçe adın Kiril harf çevirisi (Яныккале, Сырпсындыгы gibi) **yazılmaz**.
+     4. **Kişi lakapları:** yerleşik Rusça karşılık varsa o kullanılır. Örnek: Kazıklı Voyvoda → «Влад Цепеш (Колосажатель)». Yoksa lakap Latin harfle kalır.
+     5. **Hanedan / beylik adları:** devlet adı dosyasındaki karşılık kullanılır. Örnekler: Teke → «Текеогуллары» değil, devlet listesindeki biçim. Karşılık yoksa Latin harfle kalır.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
