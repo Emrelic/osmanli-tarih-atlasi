@@ -98,6 +98,65 @@ Bu karar TBMM 1920 ve Ege 1912 kararlarıyla tutarlıdır.
 - **Künye genişletme:** `almanya-muttefik-isgali` t 1949-09-20 → **1949-10-07**. Aynı polity sürüyor: Sovyet bölgesi 10-07'ye kadar işgal altındaydı. Kayda konacak ic_not: "batı bölgeleri 1949-09-20'de BRD".
 - **Batı Berlin:** ayrı nokta **zaten var**. "Batı Berlin (Charlottenburg)", `yerlesimler_halef_1946.js`, `kur` 1948-12-07, Berlin noktasından 7,3 km; ayrıca "Spandau (Batı Berlin)". Yeni nokta açılmaz. Mükerrer taraması yapıldı: 3 km içinde ikinci nokta yok.
 
+### 5. Kudüs, Levant ve Çin kararları (EMRELİC, 4 Kasım 2026)
+- **Kudüs:**
+  - `s: filistin-mandasi` 1920-07-01'den başlar (Samuel'in sivil idaresi; San Remo tahsisiyle yetki devri).
+  - 1917-12-09 → 1920-07-01 arası `isg: ingiltere` olur.
+  - ic_not'a yazılacaklar: San Remo 1920-04-25, manda yürürlüğü 1923-09-29, Lozan.
+- **Kudüs Eski Şehir 1948-67:**
+  - `s: urdun-hasimi-krallik` Ürdün denetiminin başladığı günden başlar. Bu gün Mayıs 1948'de; günün kendisi kaynak bekliyor.
+  - 1967-06-07 → 1967-06-28 arası `isg: israil`.
+  - 1967-06-28'den sonra `s: israil-devleti`. ic_not'a yazılacaklar: 1950 ilhakı; BMGK 252 ve 478 (tanınmama).
+- **Batı Kudüs:** ayrı nokta **yok**. Kudüs noktasının 10 km çevresinde yalnız antik Gibea var. Mükerrer taraması temiz; nokta KASA-YER kuyruğuna eklendi.
+- **Wu (Zhu Yuanzhang 1364-68):**
+  - Yeni künye açılmaz. Bunun yerine `ming-hanedani` künyesinin `f` ucu (şimdi 1368-01-23) Wu krallığının ilanına **genişletilir**. İlan günü Ming shi'den alınmalı; kaynak bekliyor.
+  - Changsha 1364 ve Hangzhou 1366-12-15 `ming`'e yazılır.
+- **Kaifeng 1358-59 Kızıl Sarık/Song:** künyesi **yok**. Ölçümde yalnız 960-1279 `song` künyesi çıktı. Ayrı bir künye için yeni BOYALAR anahtarı gerekir; bu, KASA'nın künye kuyruğuna "renk partisi borcu" olarak girdi. O zamana kadar bu dönem yazılmaz.
+- **Urmiye ve Merâga** önerileri onaylandı.
+
+**Irak-Levant toplu ölçümü (ceb0ce402; enlem 29-38, boylam 34-49; 1917-1923 arasında başlayan dönemler):**
+
+| künye | dönem | örnek |
+|---|---|---|
+| `ingiltere` | 44 | Kudüs 1917-12-09→1920-07-01 · Gazze · Akkâ · Şehrizor 1918-10-30→1921-08-23 |
+| `irak-kralligi` | 37 | Bağdat, Musul, Kerkük 1921-08-23→ |
+| `suriye-lubnan-mandasi` | 25 | Halep, Şam 1920-07-25→ · Antakya 1920-07-24→ |
+| `fransa-cumhuriyet` | 21 | Beyrut 1918-10-07→1920-07-24 · Sayda · Trablusşam · Antakya |
+| `filistin-mandasi` | 9 | Kudüs, Gazze, Yafa, Akkâ 1920-07-01→ |
+| `suriye-arap-kralligi` | 4 | Şam, Hama, Humus 1918-10-01→1920-07-25 |
+| `urdun-emirligi` | 2 | Amman, Kerak 1921-02-01→ |
+
+- **Tek kurala göre yapılacak:** `ingiltere` (44) ve `fransa-cumhuriyet` (21) dönemleri `isg` olur; `s:` ilk hukukî devirden başlar.
+- **Filistin:** devir 1920-07-01'dir, bu karar verildi.
+- **Irak için açık soru:** Irak'taki 1918-1921 `ingiltere` dönemlerinin altında hangi `s:` sahibi duracak?
+  - `osmanli` künyesi 1922'de bitiyor; Lozan'ı beklemek hayalet devlet doğurur.
+  - Irak Krallığı 1921-08-23'te başlıyor.
+  - Bu yüzden Irak'ta San Remo/manda devrinin günü ya da bir manda künyesi gerekiyor. Karar koordinatörün.
+
+### 6. Irak-Levant 1917-1923: TEK KURAL'ın toplu uygulaması (EMRELİC, 4 Kasım 2026)
+**İlke:** işgal süresince sahip, son hukukî egemen olan Osmanlı'dır. Bu dönemler Osmanlı'nın `d:` alanına yazılır; `osmanli` 1922-11-01'e kadar sürer. İşgalci `isg` olarak işlenir. `s:` ancak yeni bir yönetim birimi açık bir tasarrufla kurulduğu gün değişir:
+- `filistin-mandasi`: 1920-07-01
+- `irak-kralligi`: 1921-08-23. San Remo 1920-04-25 ve 1920-11-11 geçici Arap hükûmeti ic_not'a yazılır. Yeni manda künyesi açılmaz.
+- `suriye-lubnan-mandasi`: 1920-07-01
+
+**Liste:** `levant_isg.json`. 65 dönem, her biri dosya:satır ile; hepsi `ingiltere` ya da `fransa-cumhuriyet` olup 1917-1923 arasında başlıyor. Ölçüm ağacı ceb0ce402.
+
+| sonraki s: | dönem | not |
+|---|---|---|
+| `irak-kralligi` | 31 | uç 1921-08-23, atlasla aynı |
+| `suriye-lubnan-mandasi` | 20 | **uç farkı:** atlas 1920-07-24 yazıyor, karar 1920-07-01 diyor (Beyrut, Trablusşam, Sayda, Antakya…) |
+| `filistin-mandasi` | 8 | uç 1920-07-01, atlasla aynı |
+| `tbmm-turkiye` | 3 | KARAR GEREK: Fransız işgali sonrası TBMM bölgesi (Antep/Urfa/Maraş türü) |
+| `urdun-emirligi` | 2 | KARAR GEREK |
+| `ingiltere` | 1 | KARAR GEREK |
+
+**Değişmez 2: ±30 gün içinde kronoloji maddesi var mı (ölçüm ceb0ce402):**
+- Filistin 1920-07-01: **var**. Kaynaklar `kronoloji_sinir_ortadogu.js` ("Filistin'de sivil manda yönetimi"), `kronoloji_sinir_once1281_geriye.js` ve `olaylar_p0050.js`.
+- Irak 1921-08-23: **var** (`kronoloji_sinir_komsu.js`, `irak-kralligi`).
+- Lübnan/Beyrut 1920-07-01: **madde bulunamadı**. Yalnız 1920-07-25 Fransızların Şam'a girişi var. Bu madde Lübnan yerleşimlerinin kırılmasını yer şartıyla karşılamayabilir. → **KASA kuyruğu: "kronoloji maddesi gerekli: Lübnan/Beyrut manda yönetiminin başlangıcı 1920-07-01".**
+
+**Şam için açık soru:** atlasta `suriye-arap-kralligi` 1918-10-01'de başlıyor; künye f'si de 1918-10-01. Koordinatör "1920-03-08 → 07-24 kendi s: dönemi" dedi. Tek kurala göre 1918-10-01 → 1920-03-08 arası nasıl yazılacak: Osmanlı `d:` + isg mi, yoksa 1918-10-01'den başlayan Arap idaresi açık bir tasarruf mu? Koordinatöre soruldu.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.

@@ -1,0 +1,522 @@
+[
+ {
+  "yer": "Antakya",
+  "dosya_satir": "data/yerlesimler.js:386",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-26 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-26 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-26 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Şehrizor",
+  "dosya_satir": "data/yerlesimler.js:865",
+  "simdiki": "s: ingiltere 1918-10-30 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1921-08-23 + isg ingiltere 1918-10-30 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Beyrut",
+  "dosya_satir": "data/yerlesimler.js:878",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-07 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-07 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-07 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Trablusşam",
+  "dosya_satir": "data/yerlesimler.js:880",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-13 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-13 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-13 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Kudüs",
+  "dosya_satir": "data/yerlesimler.js:882",
+  "simdiki": "s: ingiltere 1917-12-09 → 1920-07-01",
+  "sonraki_s": "filistin-mandasi",
+  "oneri": "d: (Osmanlı) 1917-12-09 → 1920-07-01 + isg ingiltere 1917-12-09 → 1920-07-01",
+  "uc_farki": false
+ },
+ {
+  "yer": "Gazze",
+  "dosya_satir": "data/yerlesimler.js:884",
+  "simdiki": "s: ingiltere 1917-11-07 → 1920-07-01",
+  "sonraki_s": "filistin-mandasi",
+  "oneri": "d: (Osmanlı) 1917-11-07 → 1920-07-01 + isg ingiltere 1917-11-07 → 1920-07-01",
+  "uc_farki": false
+ },
+ {
+  "yer": "Akkâ",
+  "dosya_satir": "data/yerlesimler.js:886",
+  "simdiki": "s: ingiltere 1918-09-23 → 1920-07-01",
+  "sonraki_s": "filistin-mandasi",
+  "oneri": "d: (Osmanlı) 1918-09-23 → 1920-07-01 + isg ingiltere 1918-09-23 → 1920-07-01",
+  "uc_farki": false
+ },
+ {
+  "yer": "Musul",
+  "dosya_satir": "data/yerlesimler.js:888",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Kerkük",
+  "dosya_satir": "data/yerlesimler.js:889",
+  "simdiki": "s: ingiltere 1918-05-07 → 1918-05-27",
+  "sonraki_s": "ingiltere",
+  "oneri": "KARAR GEREK — sonraki s: ingiltere açık tasarruf künyesi değil",
+  "uc_farki": null
+ },
+ {
+  "yer": "Kerkük",
+  "dosya_satir": "data/yerlesimler.js:889",
+  "simdiki": "s: ingiltere 1918-10-30 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1921-08-23 + isg ingiltere 1918-10-30 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Bağdat",
+  "dosya_satir": "data/yerlesimler.js:890",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Kerbelâ",
+  "dosya_satir": "data/yerlesimler.js:891",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Sayda",
+  "dosya_satir": "data/yerlesimler.js:1133",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-06 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-06 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-06 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Yafa",
+  "dosya_satir": "data/yerlesimler.js:1136",
+  "simdiki": "s: ingiltere 1917-11-16 → 1920-07-01",
+  "sonraki_s": "filistin-mandasi",
+  "oneri": "d: (Osmanlı) 1917-11-16 → 1920-07-01 + isg ingiltere 1917-11-16 → 1920-07-01",
+  "uc_farki": false
+ },
+ {
+  "yer": "Nablus",
+  "dosya_satir": "data/yerlesimler.js:1139",
+  "simdiki": "s: ingiltere 1918-09-21 → 1920-07-01",
+  "sonraki_s": "filistin-mandasi",
+  "oneri": "d: (Osmanlı) 1918-09-21 → 1920-07-01 + isg ingiltere 1918-09-21 → 1920-07-01",
+  "uc_farki": false
+ },
+ {
+  "yer": "Amman",
+  "dosya_satir": "data/yerlesimler.js:1142",
+  "simdiki": "s: ingiltere 1918-09-25 → 1921-02-01",
+  "sonraki_s": "urdun-emirligi",
+  "oneri": "KARAR GEREK — sonraki s: urdun-emirligi açık tasarruf künyesi değil",
+  "uc_farki": null
+ },
+ {
+  "yer": "Kerak",
+  "dosya_satir": "data/yerlesimler.js:1144",
+  "simdiki": "s: ingiltere 1918-01-01 → 1921-02-01",
+  "sonraki_s": "urdun-emirligi",
+  "oneri": "KARAR GEREK — sonraki s: urdun-emirligi açık tasarruf künyesi değil",
+  "uc_farki": null
+ },
+ {
+  "yer": "Rakka",
+  "dosya_satir": "data/yerlesimler.js:1146",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-26 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-26 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-26 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Deyrizor",
+  "dosya_satir": "data/yerlesimler.js:1148",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-26 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-26 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-26 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Han Yûnus",
+  "dosya_satir": "data/yerlesimler.js:1677",
+  "simdiki": "s: ingiltere 1917-11-07 → 1920-07-01",
+  "sonraki_s": "filistin-mandasi",
+  "oneri": "d: (Osmanlı) 1917-11-07 → 1920-07-01 + isg ingiltere 1917-11-07 → 1920-07-01",
+  "uc_farki": false
+ },
+ {
+  "yer": "Sâmerrâ",
+  "dosya_satir": "data/yerlesimler.js:2073",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Tikrit",
+  "dosya_satir": "data/yerlesimler.js:2074",
+  "simdiki": "s: ingiltere 1918-07-12 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-07-12 → 1921-08-23 + isg ingiltere 1918-07-12 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Hille",
+  "dosya_satir": "data/yerlesimler.js:2076",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Necef",
+  "dosya_satir": "data/yerlesimler.js:2077",
+  "simdiki": "s: ingiltere 1917-03-07 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-07 → 1921-08-23 + isg ingiltere 1917-03-07 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Kûfe",
+  "dosya_satir": "data/yerlesimler.js:2081",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Vâsıt",
+  "dosya_satir": "data/yerlesimler.js:2086",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Kût el-Amâre",
+  "dosya_satir": "data/yerlesimler.js:2087",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Erbil",
+  "dosya_satir": "data/yerlesimler.js:2093",
+  "simdiki": "s: ingiltere 1918-10-30 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1921-08-23 + isg ingiltere 1918-10-30 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Kifri",
+  "dosya_satir": "data/yerlesimler.js:2094",
+  "simdiki": "s: ingiltere 1918-04-28 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-04-28 → 1921-08-23 + isg ingiltere 1918-04-28 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Hânekîn",
+  "dosya_satir": "data/yerlesimler.js:2095",
+  "simdiki": "s: ingiltere 1917-12-06 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-12-06 → 1921-08-23 + isg ingiltere 1917-12-06 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Tuz Hurmatu",
+  "dosya_satir": "data/yerlesimler.js:2096",
+  "simdiki": "s: ingiltere 1918-04-01 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-04-01 → 1921-08-23 + isg ingiltere 1918-04-01 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Halepçe",
+  "dosya_satir": "data/yerlesimler.js:2097",
+  "simdiki": "s: ingiltere 1918-10-30 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1921-08-23 + isg ingiltere 1918-10-30 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Rewândiz",
+  "dosya_satir": "data/yerlesimler.js:2100",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Akra",
+  "dosya_satir": "data/yerlesimler.js:2101",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Duhok",
+  "dosya_satir": "data/yerlesimler.js:2102",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Zaho",
+  "dosya_satir": "data/yerlesimler.js:2103",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Telafer",
+  "dosya_satir": "data/yerlesimler.js:2104",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Sincar",
+  "dosya_satir": "data/yerlesimler.js:2105",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Âne",
+  "dosya_satir": "data/yerlesimler.js:2106",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Hît",
+  "dosya_satir": "data/yerlesimler.js:2107",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Fellûce",
+  "dosya_satir": "data/yerlesimler.js:2108",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Ramâdi",
+  "dosya_satir": "data/yerlesimler.js:2112",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Dîvâniye",
+  "dosya_satir": "data/yerlesimler.js:2113",
+  "simdiki": "s: ingiltere 1917-03-11 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1917-03-11 → 1921-08-23 + isg ingiltere 1917-03-11 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Tedmür (Palmyra)",
+  "dosya_satir": "data/yerlesimler_seyrek.js:87",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-01 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-01 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-01 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Silopi",
+  "dosya_satir": "data/yerlesimler_ek25.js:55",
+  "simdiki": "s: ingiltere 1918-10-30 → 1921-10-20",
+  "sonraki_s": "tbmm-turkiye",
+  "oneri": "KARAR GEREK — sonraki s: tbmm-turkiye açık tasarruf künyesi değil",
+  "uc_farki": null
+ },
+ {
+  "yer": "Azez (A'zâz)",
+  "dosya_satir": "data/yerlesimler_ek25.js:70",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Münbiç",
+  "dosya_satir": "data/yerlesimler_ek25.js:74",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Cerablus",
+  "dosya_satir": "data/yerlesimler_ek25.js:78",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Ayn el-Arab (Kobani)",
+  "dosya_satir": "data/yerlesimler_ek25.js:82",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Malikiye (Derik)",
+  "dosya_satir": "data/yerlesimler_ek25.js:86",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Mersin",
+  "dosya_satir": "data/yerlesimler_ek27.js:77",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1921-10-20",
+  "sonraki_s": "tbmm-turkiye",
+  "oneri": "KARAR GEREK — sonraki s: tbmm-turkiye açık tasarruf künyesi değil",
+  "uc_farki": null
+ },
+ {
+  "yer": "İskenderun",
+  "dosya_satir": "data/yerlesimler_ek27.js:90",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Refah",
+  "dosya_satir": "data/yerlesimler_ek28.js:173",
+  "simdiki": "s: ingiltere 1917-01-09 → 1920-07-01",
+  "sonraki_s": "filistin-mandasi",
+  "oneri": "d: (Osmanlı) 1917-01-09 → 1920-07-01 + isg ingiltere 1917-01-09 → 1920-07-01",
+  "uc_farki": false
+ },
+ {
+  "yer": "Deyrülkamer (Dayr al-Kamer)",
+  "dosya_satir": "data/yerlesimler_ek29.js:644",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-08 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-08 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-08 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Ba'lebek (Baalbek)",
+  "dosya_satir": "data/yerlesimler_ek29.js:660",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-08 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-08 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-08 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Sûr (Tyre) — Lübnan",
+  "dosya_satir": "data/yerlesimler_ek29.js:667",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-08 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-08 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-08 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Ḩīmū",
+  "dosya_satir": "data/yerlesimler_sinir_guney.js:None",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Jadlā’",
+  "dosya_satir": "data/yerlesimler_sinir_guney.js:None",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Sincan",
+  "dosya_satir": "data/yerlesimler_sinir_guney.js:None",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Babū",
+  "dosya_satir": "data/yerlesimler_sinir_guney.js:None",
+  "simdiki": "s: fransa-cumhuriyet 1918-10-30 → 1920-07-24",
+  "sonraki_s": "suriye-lubnan-mandasi",
+  "oneri": "d: (Osmanlı) 1918-10-30 → 1920-07-01 + isg fransa-cumhuriyet 1918-10-30 → 1920-07-01",
+  "uc_farki": true
+ },
+ {
+  "yer": "Gōrabī",
+  "dosya_satir": "data/yerlesimler_sinir_guney.js:None",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Tirwānīsh",
+  "dosya_satir": "data/yerlesimler_sinir_guney.js:None",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Cumai (Birlikköy)",
+  "dosya_satir": "data/yerlesimler_sinir_guney.js:None",
+  "simdiki": "s: ingiltere 1918-10-30 → 1921-10-20",
+  "sonraki_s": "tbmm-turkiye",
+  "oneri": "KARAR GEREK — sonraki s: tbmm-turkiye açık tasarruf künyesi değil",
+  "uc_farki": null
+ },
+ {
+  "yer": "İmâdiye (Amêdî)",
+  "dosya_satir": "data/yerlesimler_ok109.js:89",
+  "simdiki": "s: ingiltere 1918-11-08 → 1921-08-23",
+  "sonraki_s": "irak-kralligi",
+  "oneri": "d: (Osmanlı) 1918-11-08 → 1921-08-23 + isg ingiltere 1918-11-08 → 1921-08-23",
+  "uc_farki": false
+ },
+ {
+  "yer": "Remle (Ramla)",
+  "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:164",
+  "simdiki": "s: ingiltere 1917-01-01 → 1920-07-01",
+  "sonraki_s": "filistin-mandasi",
+  "oneri": "d: (Osmanlı) 1917-01-01 → 1920-07-01 + isg ingiltere 1917-01-01 → 1920-07-01",
+  "uc_farki": false
+ }
+]
