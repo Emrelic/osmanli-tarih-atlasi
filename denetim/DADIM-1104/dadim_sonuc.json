@@ -2098,14 +2098,13 @@
    "f": "1736-03-08",
    "t": "1796-01-01",
    "hukum": "ONERI",
-   "kaynak": "TDV İslâm Ansiklopedisi, «Horasan» md. (https://islamansiklopedisi.org.tr/horasan)",
+   "kaynak": "TDV «Horasan» (1163/1750 Ahmed Şah Abdalî) · Encyclopaedia Iranica «NISHAPUR i»: 'in 1750-51, the Afghan Aḥmad Shah Dorrāni attacked Khorasan…'; 'It passed to Āḡā Moḥammad Khan Qājār in 1796' · J. R. Perry, «AFSHARIDS», EIr I/6 s.587-589 — EMRELİC okuması",
    "alinti": "Nâdir Şah’ın ölümünden (1160/1747) sonra Belh, Herat, Meşhed ve Nîşâbur Afganlı Ahmed Şah Abdalî’nin kontrolüne geçti (1163/1750).",
    "oneri": {
-    "d": "afgan-durrani",
-    "f": "1750 (YIL; 1163 H)",
-    "t": "?"
+    "t": "1750-01-01",
+    "sonraki_d": "afgan-durrani (1750-01-01 → 1796-01-01; künye ve atlas karşılığı KASA'da)"
    },
-   "not": "MEVCUT KAYNAKLI SATIRLA ÇELİŞKİ: atlas Nîşâbur'u 1736→1796 afsar sayıyor (kaynak: TDV Avşarlılar, Şahruh Meşhed'de 1748). TDV Horasan ise 1750'de Nîşâbur'un Ahmed Şah Abdalî kontrolüne geçtiğini söylüyor; sonra 'Kaçar sülâlesi 1193’te (1779) iktidarı ele aldıktan sonra Horasan üzerinde yeniden kontrol sağladı'. İKİ TDV MADDESİ ÇELİŞİYOR (Horasan vs Avşarlılar); hangisinin doğru olduğuna karar vermiyorum. Satır kaynaklı olduğu için hedef değil, bilgi olarak yazıldı."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026): Afşar → Dürrânî geçişi TDV esas, 1750 (YIL; Iranica NISHAPUR 1750-51 ile uyumlu). ic_not: Perry (AFSHARIDS) Ahmed Şah'ın 1754 baharında kenti yine alamadığını, 1755'te yeniden sefer ettiğini, Nîşâbur'un ʿAbbâs-kulı Han Bayât yönetiminde Meşhed'e boyun eğmediğini yazar — Şahruh'a bağlılık kesintili. Kaçar f 1796 TEYİT (Iranica); TDV'nin 'Kaçar hâkimiyeti 1779 sonrası' ifadesi ic_not'ta beyan."
   },
   {
    "dosya_satir": "data/yerlesimler.js:2214",
@@ -2113,11 +2112,11 @@
    "d": "kacar",
    "f": "1796-01-01",
    "t": "1925-10-31",
-   "hukum": "BULUNAMADI",
-   "kaynak": "TDV İslâm Ansiklopedisi, «Horasan» md. (https://islamansiklopedisi.org.tr/horasan)",
-   "alinti": "Kaçar sülâlesi 1193’te (1779) iktidarı ele aldıktan sonra Horasan üzerinde yeniden kontrol sağladı.",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopaedia Iranica «NISHAPUR i»: Nîşâbur 1796da Ağa Muhammed Han Kaçara geçti — EMRELİC okuması",
+   "alinti": "It passed to Āḡā Moḥammad Khan Qājār in 1796",
    "oneri": {},
-   "not": "KISMEN, BÖLGE DÜZEYİ: Kaçar hâkimiyeti Horasan'da teyitli, ama Nîşâbur özelinde gün/yıl yok. Atlasın f=1796 ('şehinşahlık' tacı, TDV Kaçarlar) ile TDV Horasan'ın 1779'u arasında YIL farkı var: 1779 Kaçar iktidarı (Horasan'a hâkimiyet sonradan); karar KASA'nın. t=1925-10-31 bu okumada bakılmadı."
+   "not": "f 1796 TEYİT (YIL; koordinatör kararı). TDV Horasan Kaçar hâkimiyetini 1779 sonrası diye anar — ic_not beyanı. t ucu okunmadı."
   }
  ],
  "Merv (Mari)": [
@@ -2529,6 +2528,722 @@
    "alinti": "",
    "oneri": {},
    "not": "Kayıtta tek dönem var ve kaynaklı (Kroeger, Encyclopaedia Iranica 'Ctesiphon'); hedef dönem YOK. Araştırma yapılmadı. Bilgi: 224 sonrası Sasani/Arap/Abbasi zincirinin bu kayıtta hiç yazılmadığı görülüyor (tek dönem), ilgili iş ayrı."
+  }
+ ],
+ "Patna (Azîmâbâd)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:949",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1497-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Hüseyinşâhîler» md. (https://islamansiklopedisi.org.tr/huseyinsahiler); TDV «Bengal» md. (https://islamansiklopedisi.org.tr/bengal) — Patna için madde yok (tdv-ara patna/azimabad boş)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Patna/Azîmâbâd maddesi YOK. Delhi Sultanlığı'nın Patna'yı hangi yıllarda elinde tuttuğu hiçbir okunan maddede yok. Baktığım yer: tdv-ara patna/azimabad/bihar, Hüseyinşâhîler, Bengal (Patna/Bihâr geçmiyor), Ekber Şah, Sûrîler. Imperial Gazetteer (ia-ara) sonuç vermedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:950",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1497-01-01",
+   "t": "1538-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Hüseyinşâhîler» md. (https://islamansiklopedisi.org.tr/huseyinsahiler)",
+   "alinti": "Hüseyin Şah oğlu Dânyâl’i ona karşı gönderdi. İki ordu Patna’nın doğusundaki Barh’ta kamp kurduysa",
+   "oneri": {
+    "d": "delhi-sultanligi (Lodi) en az 1498'e kadar; bengal-sultanligi f 1497 teyitsiz",
+    "f": "?"
+   },
+   "not": "ÇELİŞKİ ŞÜPHESİ (karar KASA'nın): TDV 1498 antlaşmasında İskender-i Lûdî ile Hüseyin Şah ordularının Patna'NIN DOĞUSUNDAKİ Barh'ta karşılaştığını yazıyor, yani sınır Patna'nın doğusu; Patna'nın Bengal tarafında olduğunu söylemiyor. Atlas Patna'yı 1497'den beri Bengal'e veriyor. Kaynak Patna'nın sahibini AÇIKÇA yazmıyor; sınır cümlesinden çıkarım, KESİN DEĞİL. 1497 f ucu TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:951",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1538-01-01",
+   "t": "1564-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Azmi Özcan, «Sûrîler» md. (https://islamansiklopedisi.org.tr/suriler)",
+   "alinti": "Bihâr’daki Patna şehrini merkez yapan Şîr Şah, Bengal dahil Kuzey Hindistan’ın yeni hâkimi oldu ve hânedanını tesis etti (947/1540).",
+   "oneri": {},
+   "not": "KISMEN: Patna'nın Sûrî merkezi olduğu YIL düzeyinde teyitli (947 H = 1540). Atlas f=1538 (Gaur'un düşüşü: Hüseyinşâhîler md. 'Gavr’ı düşürdüler (1538)'), TDV Patna'yı 1540'ta Sûrî merkezi sayıyor; 1538-1540 arası Patna'nın sahibi TDV'de yok (Hüseyinşâhîler md.: Şîr Han Bihâr'ı ele geçirmek üzere gelen Kutub Han'ı yendi, 'Patna Luhânîleri' Bengal sultanıyla iş birliği yapıyordu; tarih yok). t: 'hânedanın Bengal’deki egemenliği 971 (1564) yılına kadar devam etti' Bengal için; Patna için t=1564 teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:952",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1564-01-01",
+   "t": "1574-08-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Azmi Özcan, «Sûrîler» md. (https://islamansiklopedisi.org.tr/suriler)",
+   "alinti": "hânedanın Bengal’deki egemenliği 971 (1564) yılına kadar devam etti",
+   "oneri": {},
+   "not": "Patna'nın 1564-1574 arası bengal-sultanligi (Karrânî) sahipliği TDV'de yok. TDV yalnız Sûrîler'in Bengal'deki egemenliğinin 1564'te sona erdiğini söylüyor (ÜLKE/BÖLGE DÜZEYİ). 'Kerrânîler/Karrânîler' TDV'de başlık değil (tdv-ara boş). Baktığım yer: Sûrîler, Hüseyinşâhîler."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:953",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1574-08-03",
+   "t": "1717-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Ekber Şah» md. (https://islamansiklopedisi.org.tr/ekber-sah)",
+   "alinti": "Mâlvâ, ... Bihâr, Bengal, Keşmir, Sind ... hâkimiyeti altına aldı.",
+   "oneri": {},
+   "not": "KISMEN, BÖLGE DÜZEYİ: Ekber Şah'ın Bihâr'ı hâkimiyetine aldığı teyitli ama YIL ve Patna yok; f=1574-08-03 ve t=1717 TDV'de yok. TDV Sûbedar md.: Azîmüşşân 'Bengal ve Bihâr sûbedarlığında' bulundu (Bahadır Şah dönemi, yıl yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:954",
+   "alan": "s",
+   "d": "bengal-nevabligi",
+   "f": "1717-01-01",
+   "t": "1764-10-22",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Sûbedar» md. (https://islamansiklopedisi.org.tr/subedar)",
+   "alinti": "Azîmüşşân da Bengal ve Bihâr sûbedarlığında bulunmuştur",
+   "oneri": {},
+   "not": "Bengal Nevâblığı'nın (1717) başlangıcı TDV'de yok: Murşid Kulı Han yalnız eyalet vergi sorumlusu (divan) olarak geçiyor, 1717 yok ('Murşid' md. başlığı tdv-ara'da yok). BULUNAMADI; mevcut DEVRALMA Banglapedia 'Subahdar' kaynağına dayanıyor, onu okumadım."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:955",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1764-10-22",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Hindistan» md. (https://islamansiklopedisi.org.tr/hindistan) tarandı",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Hindistan maddesinde Baksar/1764 YOK (aranan: Baksar, 1764: YOK); TDV Bâbürlüler: 'Baksar Savaşı’ndan sonra İngilizler’in himayesini kabul etti' (Şah Âlem, yıl yok). Patna için 1764-10-22 teyitsiz; Patna'nın 1764'te İngiliz eline geçtiği hiçbir okunan TDV maddesinde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:956",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "—",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu dönemin f ucu (1947-08-15) ülke düzeyindedir ve mevcut DEVRALMA kaynağı (Indian Independence Act 1947) var; ben okumadım, Patna için TDV'de bir şey yok."
+  }
+ ],
+ "Delhi": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:232",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1398-12-17",
+   "t": "1399-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Delhi» md. (https://islamansiklopedisi.org.tr/delhi)",
+   "alinti": "XIV. yüzyılın sonlarında Timur eski Delhi şehrini ve ona bağlı bütün eski yerleşim merkezlerini yıkmıştır.",
+   "oneri": {},
+   "not": "KISMEN: Timur'un Delhi'yi yıkması XIV. yy sonu (YIL yok); 1398-12-17 günü ve 1399-01-01 ucu TDV Delhi'de YOK. Timurlu'nun Delhi'yi 'ele geçirip elinde tuttuğu' (sahiplik) de yazmıyor, yıkım yazıyor. Yıkım ≠ egemenlik: bu 3 haftalık dilimin sahiplik olarak kaynağı yok. Baktığım yer: TDV Delhi, Delhi Sultanlığı ilişkili madde adı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:232",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1399-01-01",
+   "t": "1526-04-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Delhi» md. (https://islamansiklopedisi.org.tr/delhi)",
+   "alinti": "Tuğluklular’dan sonra hüküm süren Seyyidler ve Lûdîler ise yine Delhi’de yeni şehirler inşa etmişlerdir.",
+   "oneri": {},
+   "not": "KISMEN, devlet teyitli: Tuğluklular → Seyyidler (1414-1451) → Lûdîler (1451-1526) Delhi Sultanlığı'nın hânedanları (TDV ilişkili madde başlıkları), Lûdîler başkenti Agra'ya taşıdı. Delhi'nin Delhi Sultanlığı'nda kaldığı YIL düzeyinde. f 1399 uç TDV'de yok. t: 'Bâbürlü hâkimiyeti kurulunca ... (1526)' YIL; Panipat günü (04-21) bu okumada yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:232",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Delhi» md. (https://islamansiklopedisi.org.tr/delhi)",
+   "alinti": "Lûdîler’in hükümet merkezini Agra’ya taşımaları üzerine Delhi ... Bâbürlü hâkimiyeti kurulunca şehir tekrar değer kazandı (1526).",
+   "oneri": {},
+   "not": "f YIL düzeyinde teyitli (1526; TDV Bâbürlüler md. 'Bâbür 932 (1526)'). t: TDV Bâbürlüler: «17 Mayıs 1540’ta Kannevc Meydan Savaşı da Bâbürlüler’in yenilgisi ve Agra ile Delhi’yi boşaltıp Lahor’a çekilmeleriyle sonuçlandı» — atlas t=1540-05-17 GÜN düzeyinde UYUMLU (Bâbürlüler md., https://islamansiklopedisi.org.tr/baburluler). TDV'de 'Şîr Şah’ın (1540-1545) iktidarı' da var."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:232",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Azmi Özcan, «Sûrîler» md. (https://islamansiklopedisi.org.tr/suriler)",
+   "alinti": "Delhi’ye girdi (4 Ramazan 962 / 23 Temmuz 1555). Böylece Sûrîler’in Delhi’deki hâkimiyeti sona erdi",
+   "oneri": {},
+   "not": "t GÜN düzeyinde teyitli: 23 Temmuz 1555 (TDV'nin kendi verdiği tarih; 4 Ramazan 962 hicrî karşılığı TDV'de yazılı). f=1540-05-17: Kannevc'te Bâbürlüler'in Delhi'yi boşaltması günü (Bâbürlüler md.), Sûrî'nin Delhi'ye girişi değil; TDV Sûrîler md. hânedanı 947/1540'ta kurulmuş sayar (YIL). ÇELİŞKİ (İKİ TDV MADDESİ): Delhi md. 'Hümâyun 1550 yılında iktidarı geri aldıysa' diyor, Sûrîler ve Bâbürlüler md. 1555 diyor; karar vermedim, KASA ikinci kaynakla karar versin."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:232",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1788-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bâbürlüler» md. (https://islamansiklopedisi.org.tr/baburluler)",
+   "alinti": "Hümâyun 1555’te Hindistan’a geri döndü. Sûrîler’den İskender’i mağlûp ederek Delhi’yi zaptetti.",
+   "oneri": {},
+   "not": "KISMEN: f UCU TEYİTLİ (1555-07-23, yukarıdaki satırla aynı kaynak). t=1788-01-01 TDV'de yok: TDV Bâbürlüler hükümdar listesinde 1788: 'Bîdâr Baht 1202 (1788)' ve 'II. Şah Âlem (ikinci hükümdarlığı) 1203 (1788)' yer alır, Bâbürlü hükümdarlığı sürüyor. Maratha geçmiyor. TDV Delhi: Bâbürlü sultanı Bahadır Şah'tan İngilizler idareyi 1858'de devraldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:232",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1788-01-01",
+   "t": "1803-09-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bâbürlüler» md. (https://islamansiklopedisi.org.tr/baburluler)",
+   "alinti": "Bîdâr Baht ve Muînüddin II. Ekber de İngilizler’in gölgesinde varlıklarını kabul ettirebilmişlerdi.",
+   "oneri": {},
+   "not": "Marata sahipliği (1788-1803) TDV Delhi/Bâbürlüler/Agra maddelerinde YOK (aranan 'Marat': Delhi'de YOK; Agra'da yalnız 'Cât ve Maratalar idaresinde'). 1803 ucu için bkz. sonraki satır. Baktığım yer: Delhi, Bâbürlüler, Agra."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:232",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1803-09-11",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Delhi» md. (https://islamansiklopedisi.org.tr/delhi); TDV İslâm Ansiklopedisi, «Bâbürlüler» md. (https://islamansiklopedisi.org.tr/baburluler)",
+   "alinti": "Bahadır Şah’tan idareyi teslim almalarına kadar sürdürmüştür. ... 1858’de İngilizler’in son Bâbürlü sultanı",
+   "oneri": {
+    "f": "ÇELİŞKİ: TDV Delhi: Bâbürlü sultanı idaresi 1858'e kadar; atlas ingiliz f=1803-09-11"
+   },
+   "not": "KURAL KARARI (F8, de jure/fiilî): TDV Delhi md. şehrin 1858'de İngilizler'in son Bâbürlü sultanı Bahadır Şah'tan 'idareyi teslim almalarına kadar' Müslüman sultanlıkların merkezi olduğunu söylüyor; TDV Bâbürlüler md. Şah Âlem'in (1760-1806) Baksar'dan sonra 'İngilizler’in himayesini kabul ettiğini' yazıyor (YIL yok). 1803-09-11 günü TDV'de YOK. Atlas 1803'ten itibaren ingiliz-hindistani; de jure devir günü hangisi, KASA/Emre karar vermeli, ben değiştirmedim. 1911'de İngilizler idare merkezini Kalküta'dan Delhi'ye taşıdı (TDV Delhi). Bağımsız Hindistan'ın başşehri 1947 (TDV Delhi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:232",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Delhi» md. (https://islamansiklopedisi.org.tr/delhi)",
+   "alinti": "1947’de ise Bağımsız Hindistan Devleti’nin başşehri oldu.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, KISMEN: f YIL düzeyinde (1947); 15 Ağustos günü TDV Delhi'de yok (mevcut DEVRALMA kaynağı Indian Independence Act 1947'de gün var; okumadım). t=2000-12-31 ufuk işareti."
+  }
+ ],
+ "Agra": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:239",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1504-01-01",
+   "t": "1526-04-21",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, İdris Bostan, «Agra» md. (https://islamansiklopedisi.org.tr/agra)",
+   "alinti": "İskender-i Lûdî tarafından yeniden inşa edilerek (1495) hükümet merkezi oldu.",
+   "oneri": {
+    "f": "1495 (YIL; TDV Agra) — atlas kur/f 1504-01-01 ile çelişir; ayrıca Agra 1081'de Gazneli kalesi (TDV)"
+   },
+   "not": "TDV Agra: şehir 1081'de Gazneli İbrâhim zamanında Çavhanlar'dan alındı (kalesi vardı); Alâeddin Şah zamanında Biyana eyaletine bağlandı; Lûdî İskender 1495'te yeniden inşa edip hükümet merkezi yaptı. Atlas 1504 f/kur. 1504 TDV'de YOK; Agra 1504'ten çok önce var ve Delhi Sultanlığı'na bağlı. Kaynak 1495 diyor (YIL); karar KASA'nın. Ayrıca atlasta 1504 öncesi Agra sahibi yazılı değilse boşluk olabilir (bu partide yalnız bu satır var)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:240",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, İdris Bostan, «Agra» md. (https://islamansiklopedisi.org.tr/agra)",
+   "alinti": "Sultan İbrâhim (1517-1526), Pânîpet Meydan Savaşı’nda Bâbür’e yenilince şehir Bâbürlüler’in başşehri oldu (1526).",
+   "oneri": {},
+   "not": "f YIL düzeyinde teyitli (1526). t: TDV Bâbürlüler: «17 Mayıs 1540’ta Kannevc Meydan Savaşı ... Agra ile Delhi’yi boşaltıp Lahor’a çekilmeleriyle sonuçlandı» — atlas t=1540-05-17 GÜN düzeyinde UYUMLU (TDV İslâm Ansiklopedisi, «Bâbürlüler» md. (https://islamansiklopedisi.org.tr/baburluler))."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:241",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bâbürlüler» md. (https://islamansiklopedisi.org.tr/baburluler)",
+   "alinti": "Agra ile Delhi’yi boşaltıp Lahor’a çekilmeleriyle sonuçlandı",
+   "oneri": {},
+   "not": "KISMEN: f=1540-05-17 Bâbürlüler'in Agra'yı boşalttığı gün (Sûrî'nin Agra'yı alışı değil). Agra'nın Sûrî elinde olduğunu doğrudan söyleyen cümle yok (TDV Sûrîler md. Şîr Şah'ın merkezi Patna, Delhi'de Şîrgarh). t=1555-07-23 Delhi'nin (Agra değil) Bâbürlü dönüş günü (TDV Sûrîler md.); Agra için gün YOK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:242",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1761-01-14",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, İdris Bostan, «Agra» md. (https://islamansiklopedisi.org.tr/agra)",
+   "alinti": "Bâbürlüler dönemi boyunca idarî ve askerî bir merkez oldu. XVIII. yüzyılın ikinci yarısından itibaren Cât ve Maratalar idaresinde kalan şehir",
+   "oneri": {},
+   "not": "KISMEN: Agra'nın Ekber, Cihangir, Şah Cihan'da Bâbürlü başkenti olduğu teyitli; f=1555 Agra için YOK. t=1761-01-14: TDV yalnız 'XVIII. yüzyılın ikinci yarısından itibaren Cât ve Maratalar' diyor (YIL yok). ÖNERİ DEĞİL, bilgi: Cât (Jat) idaresi ayrı künye gerektirebilir; bu atlasta 'maratha' tek sahip."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:243",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1761-01-14",
+   "t": "1803-10-17",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, İdris Bostan, «Agra» md. (https://islamansiklopedisi.org.tr/agra)",
+   "alinti": "XVIII. yüzyılın ikinci yarısından itibaren Cât ve Maratalar idaresinde kalan şehir, 1803’te İngiltere’nin hâkimiyetine girdi.",
+   "oneri": {
+    "d": "Cât (Jat) ve maratha — ortak/ardışık; tarih yok"
+   },
+   "not": "KISMEN: t YIL düzeyinde teyitli (1803, İngiltere); f=1761-01-14 yok. TDV yalnız 'Cât ve Maratalar' diyor; atlas 'maratha' tek. Cât'ın payı için künye var mı ölçmedim. Karar KASA'nın."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:244",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1803-10-17",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, İdris Bostan, «Agra» md. (https://islamansiklopedisi.org.tr/agra)",
+   "alinti": "1803’te İngiltere’nin hâkimiyetine girdi.",
+   "oneri": {},
+   "not": "f YIL düzeyinde teyitli (1803; gün 10-17 TDV'de yok). t=1947-08-15 Agra için TDV'de yok (ÜLKE DÜZEYİ mevcut DEVRALMA'da)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:245",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "—",
+   "alinti": "",
+   "oneri": {},
+   "not": "Hindistan Cumhuriyeti f=1947-08-15: TDV Agra maddesi 1947'den söz etmiyor (aranan 1947 okunmadı, Agra md. İngiliz sonrası yok). Mevcut DEVRALMA kaynağı ülke düzeyi, ben okumadım."
+  }
+ ],
+ "Burhânpûr": [
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:100",
+   "alan": "s",
+   "d": "farukiler",
+   "f": "1398-01-01",
+   "t": "1601-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, A. S. Bazmee Ansari, «Burhânpûr» md. (https://islamansiklopedisi.org.tr/burhanpur)",
+   "alinti": "Nasîr Han el-Fârûkī tarafından 801 (1398-99) yılı civarında devletin yeni merkezi olarak kurulmuş",
+   "oneri": {},
+   "not": "f: kuruluş 801 (1398-99) CİVARI (YIL; 801 H = 1398-09-20..1399-09-08 tablo hesabı ±2 gün; atlasın 1398-01-01'i bu aralığın 9 ay ÖNCESİ, kesişimin ilk günü 1398-09-20 olurdu — kaynak 'civarında' diyor, düzeltme önermiyorum, KASA karar versin). t: «1599’da ... işgal edildi ve iki yıl sonra Fârûkī hânedanının Bâbürlü İmparatorluğu’na katılması üzerine kesin olarak Ekber Şah’ın eline geçti» → 1601 YIL (Fârûkîler md. de Handeş 1009/1601). 1599 işgal vs 1601 kesin katılma: atlas 1601 ile uyumlu, ama 1599-1601 Bâbürlü işgali ayrı katman olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:101",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1601-01-01",
+   "t": "1860-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, A. S. Bazmee Ansari, «Burhânpûr» md. (https://islamansiklopedisi.org.tr/burhanpur)",
+   "alinti": "Fârûkī hânedanının Bâbürlü İmparatorluğu’na katılması üzerine kesin olarak Ekber Şah’ın eline geçti.",
+   "oneri": {},
+   "not": "KISMEN: f YIL (1601) teyitli. t=1860-01-01 TDV'de yok (TDV 1728'de Nizâmülmülk Âsafcâh'ın Burhânpûr valiliği ve surları geçiyor; sonrası yok). ÖNERİ DEĞİL, bilgi: 1728 Nizâmülmülk valisi (Bâbürlü valisi, bağımsızlık değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:102",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1860-01-01",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, A. S. Bazmee Ansari, «Burhânpûr» md. (https://islamansiklopedisi.org.tr/burhanpur)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Burhânpûr'un İngiliz yönetimine geçişi (1860) ve 1947 TDV Burhânpûr'da YOK (madde İngiliz dönemini hiç anlatmıyor; aranan: İngiliz). Mevcut DEVRALMA ülke düzeyi (Independence Act); okumadım."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:103",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "—",
+   "alinti": "",
+   "oneri": {},
+   "not": "Hindistan Cumhuriyeti f=1947-08-15: TDV Burhânpûr'da yok; mevcut DEVRALMA ülke düzeyi, okumadım."
+  }
+ ],
+ "Asîrgarh": [
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:86",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1370-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fârûkîler» md. (https://islamansiklopedisi.org.tr/farukiler)",
+   "alinti": "Asîrgarh, Satpura dağlarının doğu ucunda Hindu racalarının ve onların emrindeki Racpûtlar’ın oturduğu müstahkem mevki idi.",
+   "oneri": {},
+   "not": "Delhi Sultanlığı'nın Asîrgarh'ı 1281-1370 elinde tuttuğu TDV'de YOK: yalnız 'Tuğluklular devrinde ticarî ve askerî bakımdan büyük önem taşıyan yol Asîrgarh’tan geçmekteydi' (sahiplik değil, yol). Sonraki satır: TDV'ye göre Asîrgarh Fârûkîler'den ÖNCE Hindu racaların/Racpûtlar'ın. Baktığım yer: Fârûkîler (Asîrgarh), Burhânpûr, Delhi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:86",
+   "alan": "s",
+   "d": "farukiler",
+   "f": "1370-01-01",
+   "t": "1601-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fârûkîler» md. (https://islamansiklopedisi.org.tr/farukiler)",
+   "alinti": "Nasîr Han Hindular’ın zayıflığından faydalanarak Asîrgarh’ı Racpûtlar’dan aldı.",
+   "oneri": {
+    "f": "1399 sonrası (Melik Ahmed'in 1399 ölümünden sonra, Nasîr Han) — YIL aralığı; atlas f=1370 ile çelişir"
+   },
+   "not": "ÇELİŞKİ: TDV Fârûkîler: hânedan 772/1370'te kuruldu (Melik Ahmed); 'Melik Ahmed’in 1399’da ölümünden sonra yerine Nasîr Han geçti. Nasîr Han ... Asîrgarh’ı Racpûtlar’dan aldı.' Yani Asîrgarh'ın Fârûkîler'e geçişi 1399 SONRASI, 1370 hânedanın kuruluşu. 1370-~1399 Asîrgarh'ın sahibi (Racpûtlar/Hindu raca) TDV'de künyesiz. t=1601: TDV 'Handeş Bâbürlüler’e bağlı eyalet haline getirildi (1009/1601)', Asîrgarh kuşatması 1601'de düştü → atlas t=1601 YIL düzeyinde teyitli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:87",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1601-01-01",
+   "t": "1860-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fârûkîler» md. (https://islamansiklopedisi.org.tr/farukiler)",
+   "alinti": "Bâbürlü ordusu 1601’de Handeş’i istilâ edip Asîrgarh’ı kuşattı; muhasara sonunda şehir Bâbürlüler’in eline geçti.",
+   "oneri": {},
+   "not": "KISMEN: f YIL (1601; 1009 H). t=1860 TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:88",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1860-01-01",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fârûkîler» md. (https://islamansiklopedisi.org.tr/farukiler)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İngiliz dönemi (1860-1947) Asîrgarh için TDV'de YOK; mevcut DEVRALMA ülke düzeyi, okumadım."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_hindistan.js:89",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "—",
+   "alinti": "",
+   "oneri": {},
+   "not": "Hindistan Cumhuriyeti f=1947-08-15 Asîrgarh için TDV'de yok; mevcut DEVRALMA ülke düzeyi, okumadım."
+  }
+ ],
+ "Aşşur": [
+  {
+   "dosya_satir": "-",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Lendering, J., Livius.org: Assur (https://www.livius.org/articles/place/assur/)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Partide kaynağı boş ya da DEVRALMA olan dönem YOK (5 dönemin hepsi kaynaklı / beyanlı) → hedef yok, araştırma yapılmadı. BİLGİ (tek okuma): Livius «sacked by the Medes and Babylonians in 614» — atlas yeni-asur t=-0613 (astronomik yıl = MÖ 614) ile UYUMLU; Livius 'Išme-Dagan ... vassal of Hammurabi' (Şamşi-Adad sonrası) mevcut samsi-adad t=-1775 (MÖ 1776) ile çelişmiyor."
+  }
+ ],
+ "Ninova": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_zincir.js:12",
+   "alan": "s",
+   "d": "yeni-asur",
+   "f": "-0910-01-01",
+   "t": "-0611-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ninevâ» md. (https://islamansiklopedisi.org.tr/nineva)",
+   "alinti": "Şehir görkemli dönemini milâttan önce 612 yılına kadar sürdürmüş, bu tarihte, Bâbilliler’le birleşerek ... Medler ... ele geçirilerek",
+   "oneri": {},
+   "not": "KISMEN: t YIL düzeyinde teyitli (MÖ 612 = astronomik -0611, atlas t=-0611-01-01 ile UYUMLU; Medler+Bâbilliler 3 aylık kuşatma, gün yok). f: TDV Ninevâ'yı 'Asur Kralı II. Asurnasirpal (m.ö. 884-858) ... krallığın başkenti haline getirdi' diyor (MÖ 884 = astronomik -0883); atlas yeni-asur f=-0910 (MÖ 911) TDV'de YOK ve Ninova için ~27 yıl önce. Ninova'nın daha önceki Asur sahipliği için TDV 'Asur Krallığı’na başkentlik yapan' ve MÖ III-II. binyıl çivi yazısı belgeleri der (sahiplik yılı yok). Karar KASA'nın (f ucu başkent oluşunu değil krallığın başlangıcını izliyor olabilir)."
+  }
+ ],
+ "Şam": [
+  {
+   "dosya_satir": "data/yerlesimler.js:876",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1516-09-27",
+   "t": "1918-10-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Şam» md., Osmanlı Dönemi bölümü, Ş. Tufan Buzpınar (https://islamansiklopedisi.org.tr/sam--suriye)",
+   "alinti": "6 Ramazan 922’de (3 Ekim 1516) Şam’a girdi",
+   "oneri": {
+    "f": "1516-10-03 (TDV: 6 Ramazan 922 = 3 Ekim 1516; Şam'a giriş günü) — atlas 1516-09-27 ile çelişir; Mercidâbık (922/1516) YIL"
+   },
+   "not": "ÇELİŞKİ (karar KASA'nın): TDV Şam md. padişahın önce 'Mastaba denilen yerde karargâh kurup kadıların, müftülerin ve ileri gelenlerin itaatlerini kabul ettiğini' (gün yok), sonra 6 Ramazan 922'de (3 Ekim 1516) Şam'a girdiğini yazıyor. Atlas f=1516-09-27 TDV'de YOK (itaat/teslim günü olabilir, kaynak vermiyor). Hicrî çeviri: 6 Ramazan 922 = 1516-10-03 (TDV'nin kendi verdiği Miladî karşılık; tablo kontrolü ±2 gün). t: TDV başlığı 'Osmanlı Dönemi (1516-1918)' YIL; KURAL KARARI (F8): 1918-10-01 İngiliz/Avustralya ordusunun girişi FİİLÎ; de jure devir antlaşma günündedir (Mondros ateşkesi 30 Ekim 1918 değil, barış antlaşması) — atlas t'sini değiştirmedim. BİLGİ (aynı md.): Ekim 1520-Ocak 1521'de Şam Beylerbeyi Canbirdi Gazâlî isyan edip Şam'da hâkimiyeti ele geçirdi, bağımsızlık ilân etti (Ocak 1521 sonunda bastırıldı); Haziran 1771'de Ebü'z-Zeheb Muhammed (Mısır valisi Ali Bey'e tâbi) Şam'ı işgal etti — her ikisi tek d: bloğunda katman olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:876",
+   "alan": "s",
+   "d": "suriye-lubnan-mandasi",
+   "f": "1920-07-25",
+   "t": "1946-04-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Şam» md., Osmanlı Dönemi bölümü, Ş. Tufan Buzpınar (https://islamansiklopedisi.org.tr/sam--suriye)",
+   "alinti": "Fransızlar temmuzda Suriyeliler’i ağır bir yenilgiye uğrattıktan sonra Şam’a girerek Faysal yönetimine son verdiler (25 Temmuz 1920).",
+   "oneri": {},
+   "not": "f GÜN düzeyinde teyitli (25 Temmuz 1920 Fransızların Şam'a girişi) — atlas f=1920-07-25 ile UYUMLU. KURAL KARARI (F8) uyarısı: TDV 'Nisan 1920’de San Remo Antlaşması’yla Fransa’nın manda yönetimine verilen Şam' diyor; de jure devir antlaşma günü olsaydı San Remo (Nisan 1920, gün TDV'de yok) olurdu, atlas fiilî giriş gününü kullanıyor — karar KASA/Emre'nin, ben değiştirmedim. t: TDV 'Fransa 1946 ilkbaharında Şam’ı tamamen terketti' (YIL/ilkbahar; 17 Nisan günü TDV Şam'da YOK). Ayrıca TDV: Şam 1924'te Halep, Hama, Humus ile birleştirilip yeni idarî yapı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:876",
+   "alan": "s",
+   "d": "suriye-cumhuriyeti-1946",
+   "f": "1946-04-17",
+   "t": "1958-02-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Şam» md., Osmanlı Dönemi bölümü, Ş. Tufan Buzpınar (https://islamansiklopedisi.org.tr/sam--suriye)",
+   "alinti": "Şam, 1958-1961’de Mısır ve Suriye’nin birleşmesiyle oluşan Birleşik Arap Cumhuriyeti devri hariç bağımsız Suriye Arap Cumhuriyeti’nin başşehri oldu.",
+   "oneri": {},
+   "not": "KISMEN: Şam'ın Fransa'dan sonra bağımsız Suriye'nin başşehri olduğu ve BAC devrinin 1958'de başladığı YIL düzeyinde teyitli; f=1946-04-17 için TDV 'Fransa 1946 ilkbaharında Şam’ı tamamen terketti' (gün yok, 17 Nisan TDV Şam'da yok; mevcut DEVRALMA kaynağı TDV 'Suriye' ve FRUS'u gösteriyor, ben okumadım)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:876",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1961-09-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Şam» md., Osmanlı Dönemi bölümü, Ş. Tufan Buzpınar (https://islamansiklopedisi.org.tr/sam--suriye)",
+   "alinti": "1958-1961’de Mısır ve Suriye’nin birleşmesiyle oluşan Birleşik Arap Cumhuriyeti devri hariç",
+   "oneri": {},
+   "not": "KISMEN: BAC devri 1958-1961 YIL düzeyinde teyitli (ÜLKE/ŞEHİR düzeyi, Şam başşehir olarak anılıyor); gün yok. DİKKAT: mevcut DEVRALMA metni TDV Mısır'dan «1 Şubat 1958'de ... birleşti» alıntılıyor ama dönem f=1958-02-22 — alıntıdaki gün (1 Şubat) ile f'deki gün (22 Şubat) FARKLI; hangisinin doğru olduğuna karar vermedim, Şam md. yalnız yıl veriyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:876",
+   "alan": "s",
+   "d": "suriye-arap-cumhuriyeti",
+   "f": "1961-09-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Şam» md., Osmanlı Dönemi bölümü, Ş. Tufan Buzpınar (https://islamansiklopedisi.org.tr/sam--suriye)",
+   "alinti": "1958-1961’de Mısır ve Suriye’nin birleşmesiyle oluşan Birleşik Arap Cumhuriyeti devri hariç bağımsız Suriye Arap Cumhuriyeti’nin başşehri oldu.",
+   "oneri": {},
+   "not": "KISMEN: BAC sonrası bağımsız Suriye Arap Cumhuriyeti'nin başşehri (1961 YIL dolaylı: BAC '1958-1961'); 28 Eylül 1961 günü TDV Şam'da YOK (mevcut DEVRALMA FRUS'a dayanıyor, okumadım). TDV: Kasım 1970'te Hâfız Esed iktidarı ele geçirdi (devlet adı değişmedi)."
+  }
+ ],
+ "İstefe (Tebai)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:560",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1456-06-04",
+   "t": "1821-03-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İstefe» md. (https://islamansiklopedisi.org.tr/istefe)",
+   "alinti": "Böylece Thebai ve Boiotia savaş olmadan Osmanlı topraklarına katıldı.",
+   "oneri": {
+    "f": "1460 (YIL; TDV) — atlas 1456-06-04 ile çelişir; 1456-1460 arası atinadukaligi (Franco Acciajuoli) Osmanlı'ya TÂBİ",
+    "t": "1831 (YIL, 'yeni Yunan devletine resmen katıldı') — atlas 1821-03-25; 1821'de Diakos ele geçirdi, 1822'de geri alındı"
+   },
+   "not": "ÇELİŞKİ: TDV İstefe: «Osmanlılar 860’ta (1456) Atina’yı aldılar, Thebai’yi de Franco’ya bıraktılar. 1460 yılında ... Fâtih Sultan Mehmed onun hâkimiyetine son verdi. Böylece Thebai ve Boiotia savaş olmadan Osmanlı topraklarına katıldı.» Yani Osmanlı doğrudan hâkimiyeti 1460 (YIL); 1456 Atina'nın alınışı, Thebai değil. Atlasın atinadukaligi t=1456-06-04 / OSMANLI f=1456-06-04 ucu bu şehir için TDV ile uyuşmuyor. Ayrıca TDV: 'Acciajuoli prensleri 1435 yılından sonra Osmanlılar’a tâbi olmuşlardır' → 1435-1460 arası tâbi katmanı (v:) olabilir (TDV'de gün yok). t: TDV «1821’de Diakos kumandası altında Yunan âsileri tarafından ele geçirildi ve 1822’de geri alındı. 1829’un yazında Dimitrios İpsilantis tarafından tekrar kuşatıldı ve 1831’de yeni Yunan devletine resmen katıldı.» KURAL (F8): de jure devir antlaşma günüdür; TDV 1831 'resmen' diyor, antlaşma/günü yok (YIL). Atlas yunanistan f=1821-03-25 isyan başlangıcıdır (şehre özgü değil). Hangi uçların alınacağı KASA'nın."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:560",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İstefe» md. (https://islamansiklopedisi.org.tr/istefe)",
+   "alinti": "1831’de yeni Yunan devletine resmen katıldı.",
+   "oneri": {
+    "f": "1831 (YIL; TDV)"
+   },
+   "not": "ÇELİŞKİ: atlas f=1821-03-25 (Yunan İsyanı başlangıcı, ülke düzeyi olay). TDV İstefe: 1821'de isyancılar şehri aldı (gün yok), 1822'de Osmanlı geri aldı (yani 1822-?? itibaren yine Osmanlı), 1829 İpsilantis kuşatması, '1831’de yeni Yunan devletine resmen katıldı'. Mevcut DEVRALMA kaynağı (TDV Mora) şehre özgü değil. t=1973-06-01 (cunta, monarşinin kaldırılması) bu madde için ilgisiz; ben bakmadım (mevcut Britannica kaynaklı)."
+  }
+ ],
+ "Çerkask (Razdory)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:72",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» md. (https://islamansiklopedisi.org.tr/altin-orda-hanligi)",
+   "alinti": "Altın Orda Hanlığı 1241-1502 yılları arasında Deştikıpçak’ta hüküm süren bir Türk-Moğol devleti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, KISMEN: Altın Orda'nın 1502'de sona erdiği YIL düzeyinde teyitli (TDV md. başlığı '1241-1502'; Şeyh Ahmed Han 1481-1502 sonrası parçalanma: 'Kırım, Kazan ... hanlıklar'). Ama Don/Çerkask/Razdory TDV'de YOK, bu mevkiin Altın Orda'ya aidiyeti kaynakta yazılı değil; atlas t=1502-03-01 (Kırım'ın Saray'ı alışı) gün TDV'de yok. f=1281 ufuk işareti. Baktığım yer: TDV Altın Orda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:72",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1721-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Russia» (https://www.treccani.it/enciclopedia/russia/)",
+   "alinti": "la rivoluzione del febbraio 1917 (marzo secondo il calendario gregoriano) che, con l’abdicazione di Nicola II, pose termine al regime zarista",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, KISMEN: t Şubat/Mart 1917 (YIL/ay; Nicola II'nin tahttan çekilmesi) teyitli; atlas 1917-03-15 günü Treccani'de yok. f=1721 (Don Kazakları'nın Rusya'ya bağlanışı) Treccani Russia'da okunan bölümlerde YOK. Çerkask'a özgü kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:72",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Russia» (https://www.treccani.it/enciclopedia/russia/)",
+   "alinti": "rivoluzione del febbraio 1917 ... abdicazione di Nicola II ... Rivoluzione d’ottobre",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, KISMEN: iki uç (Şubat/Mart 1917 çöküşü, Ekim Devrimi) ay/yıl düzeyinde; Treccani Russia 'Geçici Hükümet' adını anmıyor (okunan bölümde). Gün düzeyi kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:72",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Russia» (https://www.treccani.it/enciclopedia/russia/)",
+   "alinti": "il 25 dicembre la RSFSR assumeva la nuova denominazione ufficiale di Federazione Russa",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f Ekim Devrimi (YIL/ay), t Aralık 1991 SSCB'nin dağılması. GÜN ÇELİŞKİSİ: Treccani RSFSR'nin Rusya Federasyonu adını 25 Aralık aldığını söylüyor; atlas t=1991-12-26 (SSCB Cumhuriyetler Konseyi Bildirgesi günü, mevcut DEVRALMA kaynağında). Karar KASA'nın (F8 de jure günü)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek6.js:72",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Russia» (https://www.treccani.it/enciclopedia/russia/)",
+   "alinti": "il 25 dicembre la RSFSR assumeva la nuova denominazione ufficiale di Federazione Russa",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f Aralık 1991 (yıl/ay); 25/26 Aralık farkı yukarıdaki satırla aynı, karar KASA'nın. t=2000-12-31 ufuk işareti."
+  }
+ ],
+ "Zaporojye Seçi": [
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:138",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» md. (https://islamansiklopedisi.org.tr/altin-orda-hanligi)",
+   "alinti": "Altın Orda Hanlığı 1241-1502 yılları arasında Deştikıpçak’ta hüküm süren bir Türk-Moğol devleti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, KISMEN: Altın Orda'nın 1502'de sona erdiği YIL düzeyinde teyitli; Dnepr alt havzası/Zaporojye TDV'de YOK, bu mevkiin Altın Orda'ya aidiyeti yazılı değil. f=1281 ufuk işareti; t=1502-03-01 gün yok. Baktığım yer: TDV Altın Orda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:137",
+   "alan": "s",
+   "d": "zaporojye",
+   "f": "1552-01-01",
+   "t": "1775-06-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), «Zaporozhian Sich» (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CA%5CZaporozhianSich.htm)",
+   "alinti": "The first Sich was established ca 1552 by Prince Dmytro Vyshnevetsky on Mala Khortytsia Island",
+   "oneri": {},
+   "not": "f YIL düzeyinde teyitli (ca 1552, Mala Hortitsa adası). t GÜN düzeyinde teyitli: «That last Sich was destroyed by a Russian army on 15–16 June 1775» — atlas t=1775-06-16 UYUMLU. DİKKAT: madde SEKİZ ayrı Seç sayıyor (Hortitsa 1552-1558'de Kırım Tatarları'nca yıkıldı; Tomakivka; Bazavluk; Mykytyn Rih; Çortomlık 1652-1709; Kamianka 1709-1711; Oleşki Seçi 1711-1734 Kırım Hanlığı denetimindeki topraklarda; Yeni Seç/Pidpilna 1734-1775). Atlasın tek koordinatı (47.75, 34.8) hangi Seç'e karşılık geliyor ölçmedim; 1711-1734 Kırım denetimi alt Dnepr'deki Oleşki içindir. Ayrıca Treccani Ucraina: Seç 'alla fine del 16° sec.' kurulmuş diyor (Hortitsa 1552 ile farklı vurgu); 1569'da orta Dnepr Litvanya'dan Polonya'ya geçti — karar KASA'nın."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:138",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1775-06-16",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Encyclopedia of Ukraine (CIUS), «Zaporozhian Sich» (https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CZ%5CA%5CZaporozhianSich.htm)",
+   "alinti": "That last Sich was destroyed by a Russian army on 15–16 June 1775 during the reign of Catherine II.",
+   "oneri": {},
+   "not": "f GÜN düzeyinde teyitli (15–16 Haziran 1775, atlas f=1775-06-16 UYUMLU). t=1917-03-15: Treccani Russia (ÜLKE DÜZEYİ): Şubat/Mart 1917 Nicola II tahttan çekildi (gün yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:138",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Russia» (https://www.treccani.it/enciclopedia/russia/)",
+   "alinti": "la rivoluzione del febbraio 1917 (marzo secondo il calendario gregoriano) che, con l’abdicazione di Nicola II",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, KISMEN: f Şubat/Mart 1917 (YIL/ay); t Ekim Devrimi (YIL/ay). Treccani Russia 'Geçici Hükümet' adını anmıyor. Gün kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:138",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-08-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Ucraina» (https://www.treccani.it/enciclopedia/ucraina/)",
+   "alinti": "L’Ucraina proclamò l’indipendenza dall’Unione Sovietica nell’agosto 1991",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, KISMEN: t Ağustos 1991 (YIL/ay) teyitli, atlas t=1991-08-24 günü Treccani Ucraina'da yok (mevcut DEVRALMA Yüksek Rada metnini gösteriyor, okumadım). f Ekim Devrimi için Treccani Russia (Rivoluzione d’ottobre, ay/yıl). KURAL (F8) notu: 24 Ağustos 1991 bir bağımsızlık İLANIdır; SSCB'nin hukuken sona erdiği gün 1991-12-26 (Çerkask/Tver satırlarında kullanılan gün). Hangisinin esas alınacağı KASA/Emre kararı; değiştirmedim."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek4.js:138",
+   "alan": "s",
+   "d": "ukrayna",
+   "f": "1991-08-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Ucraina» (https://www.treccani.it/enciclopedia/ucraina/)",
+   "alinti": "L’Ucraina proclamò l’indipendenza dall’Unione Sovietica nell’agosto 1991, entrando a far parte della CSI.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, KISMEN: f Ağustos 1991 (YIL/ay); gün yok. Aynı F8 notu yukarıdaki satırla geçerli (24 Ağustos ilan vs 26 Aralık SSCB sonu). t=2000-12-31 ufuk işareti."
+  }
+ ],
+ "Paris": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1218",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1420-12-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Parigi» (https://www.treccani.it/enciclopedia/parigi/)",
+   "alinti": "P. subì la dominazione inglese dal 1420 al 1436, quando il conestabile Arturo di Richemont entrò in città.",
+   "oneri": {},
+   "not": "KISMEN: t YIL düzeyinde teyitli (İngiliz egemenliği 1420'de başlıyor; Treccani 'dal 1420'; atlas t=1420-12-01, ay hassasiyeti kaynakta yok). Fransa'nın bu dönemde Paris'in sahibi olduğu dolaylı: 'Con Filippo il Bello furono tenuti a P. i primi Stati generali (1302)'; f=1281 ufuk işareti. Atlas 1281-1420 satırını 1000-1281 satırından ayrı tutuyor; aynı d: (fransa)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1218",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1436-04-13",
+   "t": "1792-09-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani Enciclopedia on line, «Parigi» (https://www.treccani.it/enciclopedia/parigi/)",
+   "alinti": "P. subì la dominazione inglese dal 1420 al 1436, quando il conestabile Arturo di Richemont entrò in città.",
+   "oneri": {},
+   "not": "KISMEN: f YIL düzeyinde teyitli (1436; 13 Nisan günü Treccani'de yok, mevcut FRANSA-KONTROL satırı Britannica'ya dayanıyor, okumadım). t=1792-09-22: Treccani 'La Rivoluzione fu un evento eminentemente parigino ... la caduta della monarchia' (YIL/gün yok); Cumhuriyet ilanı günü Treccani Parigi'de YOK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1218",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani Enciclopedia on line, «Parigi» (https://www.treccani.it/enciclopedia/parigi/)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani Parigi okunan bölümlerde Cumhuriyet ilanı (1792-09-22) YOK. BİLGİ (karar KASA'nın, öneri değil): Treccani 1848 Seconda Repubblica, Secondo Impero, 1871 Comune (~2 ay), Terza Repubblica'yı anıyor; atlas 1792-2000 tek 'fransa-cumhuriyet' bloğu tutuyor (Birinci İmparatorluk 1804-1814/15, Restorasyon, Temmuz Monarşisi, İkinci İmparatorluk künyesi bu dönemde ayrı yok). Fiilî işgal (1940-44 Alman) F8'e göre isg: katmanı olur; Treccani Parigi'de okunan kısımda bu tarih yok (ölçülmedi)."
+  }
+ ],
+ "Toul": [
+  {
+   "dosya_satir": "-",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "hukum": "BULUNAMADI",
+   "kaynak": "—",
+   "alinti": "",
+   "oneri": {},
+   "not": "Partide kaynağı boş ya da DEVRALMA olan dönem YOK (3 dönemin hepsi kaynaklı: Treccani TOUL, FRANSA-KONTROL) → hedef yok, araştırma yapılmadı."
   }
  ]
 }

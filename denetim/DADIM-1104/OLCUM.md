@@ -45,6 +45,30 @@ Kaynak sınıfları (s/d/v, 27.755 dönem):
 - **Ülke düzeyi kaynak** beyanlı yaklaşıklıktır.
 - **Önerilerdeki `YYYY-MM` biçimi ay hassasiyetidir.** KASA bunu `YYYY-MM-01` + beyan olarak yazar (CLAUDE.md: gün yaz).
 
+## Koordinatör kararları (EMRELİC 1 KASIM, 4 Kasım 2026; Emre isterse değiştirir)
+
+### 1. Sovyet ardılları
+- **Karar:** cumhuriyetin başlangıcı bağımsızlık ilanı günüdür. Örnek: Türkmenistan 1991-10-27. Kayda konacak `ic_not`: "SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991".
+- **Ölçüm (ceb0ce402):**
+  - Künyelerin `f`'si bu kuralla zaten uyumlu.
+  - Ardıl künyeyle başlayan 525 yerleşim döneminden yalnız **3'ü tutarsız**:
+
+  | yerleşim | dosya | dönem | şimdiki f | olması gereken |
+  |---|---|---|---|---|
+  | Brest-Litovsk | `yerlesimler_p0037.js` | `belarus` | 1991-12-25 | 1991-08-25 (künye f) |
+  | Grodno | `yerlesimler_p0037.js` | `belarus` | 1991-12-25 | 1991-08-25 (künye f) |
+  | Viipuri (Vyborg) | `yerlesimler_avrupa.js` | `rusya-federasyonu` | 1991-12-25 | 1991-12-26 (künye f) |
+
+  - Belarus satırlarında önceki dönemin `t`'si de aynı güne çekilir.
+
+### 2. ÇİFT-TDV
+- **Karar:** iki TDV maddesi çelişiyorsa önce üçüncü, bağımsız bir akademik kaynak aranır (Iranica, EI, Cambridge).
+- Bulunamazsa yerleşimin **kendi şehir maddesindeki** TDV tarihi esastır; öteki madde `ic_not`ta beyan edilir.
+- **Bu kurala göre karar verilenler:**
+  - Bağdat Karakoyunlu/Akkoyunlu: TDV «Bağdat» esas.
+  - Sana: TDV «San'â» esas.
+- **Iranica bekleniyor:** Nîşâbur Afşar/Abdalî için «NISHAPUR» maddesi okunacak (EMRELİC okutuyor).
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
