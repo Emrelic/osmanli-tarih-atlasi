@@ -2709,5 +2709,1211 @@
     "kaynak": "gün komşudan: Zigetvar (1989. évi XXXI. törvény; macaristan-cumhuriyeti künyesi) · BEYANLI YAKLAŞIKLIK"
    }
   ]
+ },
+ "Selâ": {
+  "lat": 34.0531,
+  "lon": -6.79846,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Rabat», «Muvahhidler», «Abdülmü'min». Selâ (Salé) Murâbıtlar döneminde de vardı (TDV rabat: 'Murâbıtlar döneminde Selâ’ya yönelik düşman saldırılarını engellemek için ribât') ama Murâbıt-Muvahhid devri günü kaynakta YOK: zincir kaynağın günle desteklediği en erken noktadan (16 Mayıs 1163, Abdülmü'min'in Selâ'da vefatı) başlar. ATLAS ÇELİŞKİSİ: Rabat (5,3 km) komşu kaydı Fas→Fransız himayesini 1923-10-29'da yapıyor (künye fas-fransiz-himayesi f=1912-03-30 ve TDV rabat 1912) ve Merînî devrini 1251'de başlatıyor (TDV muvahhidler 1248); ayrıca fas-krallik künyesi 1956-03-02. Rabat-Selâ 'Ebûrakrâk Cumhuriyeti' (Zeydân dönemi) künyesiz, tarihsiz.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "muvahhidler",
+    "f": "1163-05-16",
+    "t": "1248-04-26",
+    "kaynak": "TDV abdulmumin-el-kumi: Abdülmü'min 'Selâ'da vefat etti' (16 Mayıs 1163) — Muvahhid sultanı Selâ'dadır; TDV rabat: 'Irmağın sağ yakasında Selâ şehri bulunmaktaydı… Muvahhidler’in ilk hükümdarı Abdülmü’min… 1150 ordugâh' · t: TDV muvahhidler: 'Merînîler 646’da (1248) Fas, Selâ ve Tâze’yi… Muvahhidler’den aldılar' (hicrî 646 ∩ 1248 = 1 Muharrem 646 = 1248-04-26, tabular, Jülyen) · ÇELİŞKİ: TDV rabat aynı olayı 649 (1251) verir (Selâvî III,17) — iki TDV maddesi, Selâ'yı adıyla anan muvahhidler maddesi esas alındı (hanedan maddesi)"
+   },
+   {
+    "alan": "s",
+    "d": "merini",
+    "f": "1248-04-26",
+    "t": "1549-01-01",
+    "kaynak": "TDV muvahhidler: 646'da (1248) Merînîler Selâ'yı aldı · TDV rabat: 'Merînî Hükümdarı Ebû Yahyâ Ebû Bekir b. Abdülhak 649’da (1251) Rabat ve Selâ’yı ele geçirdi… Selâ VII-VIII. (XIII-XIV.) yüzyıllarda… önemli bir liman şehri' · t: künye merini t=1549-01-01 (Vattâsîler'in sonu; TDV rabat Hasan el-Vezzân X./XVI. yüzyıl başı Rabat'ı Portekiz tehlikesi altında anar, Selâ'nın sahibi değişmez) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sadi",
+    "f": "1549-01-01",
+    "t": "1659-01-01",
+    "kaynak": "künye sadi 1511..1659 · TDV rabat: 'Sa‘dî Hükümdarı Ebü’l-Meâlî Zeydân en-Nâsır dönemindeki (1603-1627) iç karışıklıklar sırasında Rabat ve Selâ halkı… bağımsızlığını ilân etti' (Ebûrakrâk/Rabat-Selâ Cumhuriyeti; tarihsiz, KÜNYE YOK) — bağımsız dönem tarihsiz olduğundan zincire AYRI dönem olarak yazılmadı, sadi içinde BEYANLI · f: TDV 'Sa‘dîler' 956/1549 Fas'ın alınışı YIL · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "fas",
+    "f": "1659-01-01",
+    "t": "1912-03-30",
+    "kaynak": "künye fas (Sâdî/Alevî) 1549..; Sa'dî sonu 1659 = künye sadi t · TDV rabat: 'Fas’ta hüküm süren Filâlî hükümdarlarının dikkatini çekti… III. Muhammed (1757-1790)… Rabat ve Selâ'dan Haçlı donanmasına…' (Alevî/Filâlî idaresi) · t: TDV rabat: 'Fransız himayesi dönemi (1912)'; künye fas-fransiz-himayesi f=1912-03-30 (Fes Antlaşması)"
+   },
+   {
+    "alan": "isg",
+    "d": "fransa-cumhuriyet",
+    "f": "1911-07-19",
+    "t": "1912-03-30",
+    "kaynak": "TDV rabat: '19 Temmuz 1911’de Rabat ve Selâ, Fransız kuvvetleri tarafından işgal edildi' — askerî işgal, Fes Antlaşması'na (30 Mart 1912) kadar sahiplik Fas'ta (isg)"
+   },
+   {
+    "alan": "s",
+    "d": "fas-fransiz-himayesi",
+    "f": "1912-03-30",
+    "t": "1956-03-02",
+    "kaynak": "TDV rabat: 'Fas’ta Fransız himayesi dönemi (1912)'; Fransız Mareşal Lyautey yönetim merkezini Rabat'a nakletti · künye fas-fransiz-himayesi 1912-03-30..1956-03-02 (Fes Antlaşması; bağımsızlık bildirisi 2 Mart 1956, uca.edu DADM)"
+   },
+   {
+    "alan": "s",
+    "d": "fas-krallik",
+    "f": "1956-03-02",
+    "t": "2000-12-31",
+    "kaynak": "künye fas-krallik f=1956-03-02 (2 Mart 1956 Fransa-Fas ortak bildirisi; uca.edu DADM, TDV 'Fas') · Rabat/Selâ ülkenin başkenti"
+   }
+  ]
+ },
+ "Cezîretülhadrâ (Algeciras)": {
+  "lat": 36.13326,
+  "lon": -5.45051,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Hammûdîler», «Abbâdîler», «Murâbıtlar», «Nasrîler», «Merînîler». Cezîretülhadrâ TDV'de ayrı madde değil. Hammûdî başlangıcı (Cezîretülhadrâ'da 1016-1023) günsüz; zincir künye f=1023'ten. 1379 yıkımı / 1704 yeniden iskân TDV'de yok (kur/bit yazılmadı). Muvahhid devri (1147-1229) ve 1229-1238 BOŞLUK, ABİ MERKEZ Cebelitârık. KÜNYE EKSİĞİ: Hammûdîler'in Cezîretülhadrâ kolu (malaga-hammudiler t=1057-03-10 < 1058-02-28). ATLAS ÇELİŞKİSİ: parti kaydı ilk_sahip sevilla-abbadiler 1086-06-30 ('Murâbıtlar'a bırakıldı'); TDV murabitlar devir günü vermiyor (479/1086).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "malaga-hammudiler",
+    "f": "1023-01-01",
+    "t": "1058-02-28",
+    "kaynak": "TDV hammudiler (https://islamansiklopedisi.org.tr/hammudiler): 'Hammûdîler 1016-1058 yılları arasında Kurtuba, İşbîliye, Mâleka ve Cezîretülhadrâ’da hüküm süren hânedan'; 'Kāsım’ın oğlu Muhammed el-Mehdî ile torunu Kāsım el-Vâsiḳ da Abbâdîler tarafından ele geçirilinceye kadar (450/1058) Cezîretülhadrâ’yı yönettiler' · f: Hammûdî hâkimiyeti 1016'dan, ama Cezîretülhadrâ'da başlangıç günü yok; künye malaga-hammudiler f=1023-01-01 (Kāsım'ın düşüşü 414/1023) alındı, BEYANLI · t: hicrî 450 ∩ 1058 = 1 Muharrem 450 = 1058-02-28 (tabular, Jülyen) · KÜNYE ARALIĞI: künye t=1057-03-10 (Malaga), Cezîretülhadrâ'nın düşüşü 450/1058 → künyeyi aşar; künye yok: 'Hammûdîler (Cezîretülhadrâ kolu)'"
+   },
+   {
+    "alan": "s",
+    "d": "sevilla-abbadiler",
+    "f": "1058-02-28",
+    "t": "1086-01-01",
+    "kaynak": "TDV hammudiler: Abbâdîler 450/1058'de Cezîretülhadrâ Hammûdîleri'ni ele geçirdi · TDV abbadiler: Abbâd 'Cezîretülhadrâ’yı Hammûdîler’den alarak oğlu İsmâil…'; Kastilya Kralı VI. Alfonso 1085'te Cezîretülhadrâ'ya kadar ilerledi · ÇELİŞKİ: TDV abbadiler ele geçirişi 1053 öncesi sırasında anar, TDV hammudiler 450/1058 — hanedan maddesi (hammudiler) esas · t: TDV murabitlar 479/1086 (YIL; gün yok)"
+   },
+   {
+    "alan": "s",
+    "d": "murabitlar",
+    "f": "1086-01-01",
+    "t": "1147-03-23",
+    "kaynak": "TDV murabitlar (https://islamansiklopedisi.org.tr/murabitlar): Yûsuf b. Tâşfîn 'Cezîretülhadrâ’nın (Algeciras) kendisine verilmesi şartıyla Endülüs’e geçti (479/1086)' → Zellâka 12 Receb 479 öncesi (YIL; hicrî 479 ∩ 1086 = 1086-04-18 tabular ama devir günü yok → YIL) · TDV abbadiler: Yûsuf 1088 ilkbaharında Cezîretülhadrâ'ya çıktı · t: künye murabitlar t=1147-03-23 (Muvahhid Merakeş fethi); Endülüs'te Cezîretülhadrâ'nın Muvahhid'e geçiş günü kaynakta YOK · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "muvahhidler",
+    "f": "1147-03-23",
+    "t": "1238-05-12",
+    "kaynak": "ABİ MERKEZ: Cebelitârık (8,8 km) — TDV cebelitarik: Abdülmü'min 554-555'te (1159-60) şehri inşa ettirdi (Muvahhid Endülüs'te) · TDV muvahhidler: 'Muvahhidler… Endülüs’te hüküm süren hânedan (1130-1269)'; Muvahhid'in Cezîretülhadrâ'ya girişi ve 1147-1159 arası kaynakta tarihsiz · 1229-1238: Cebelitârık komşu kaydı 1229-1281 BOŞLUK; TDV muvahhidler 'Endülüs’te Hûdîler ve Nasrîler gibi mahallî hânedanlıklar kurulurken' şehir adı yok — künye yok: Muvahhid ardılı mahallî hânedanlar; en yakın künye muvahhidler (t=1269) kullanıldı, t: künye granada f=1238-05-12 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "granada",
+    "f": "1238-05-12",
+    "t": "1333-01-01",
+    "kaynak": "künye granada f=1238-05-12 · TDV nasriler (https://islamansiklopedisi.org.tr/nasriler): 'II. Muhammed… Kastilya Krallığı’na karşı Cezîretülhadrâ (Algeciras), Runde, Cebelitârık ve Tarîf şehirlerini askerî üs olarak verdiği Merînîler’le ittifak kurdu' (1275 sonrası Merînî garnizonu — mülkiyet Nasrî, BEYANLI: Merînî üssü olarak Nasrî'den ayrı sayılmadı) · t: TDV nasriler: Nasrî Sultanı, Cebelitârık'ın geri alınması karşılığında 'Cezîretülhadrâ’yı vermeyi teklif etti… (733/1333)' (hicrî 733 ∩ 1333 → YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "merini",
+    "f": "1333-01-01",
+    "t": "1344-01-01",
+    "kaynak": "TDV nasriler: Cezîretülhadrâ Merînî hükümdarına verildi (733/1333, YIL) — komşu Cebelitârık ile aynı olay: gün komşudan Cebelitârık merini 1333-01-01 (TDV cebelitarik '733’te (1333)') · t: TDV nasriler 'Cezîretülhadrâ ve Tarîf kaybedilmiş… barış (744/1344)'; TDV merinîler: Salado/Tarîf yenilgisi (30 Ekim 1340) sonrası 'Hıristiyanlar… Cezîretülhadrâ’yı işgal ettiler' (YIL 1344; hicrî 744 ∩ 1344)"
+   },
+   {
+    "alan": "s",
+    "d": "kastilya",
+    "f": "1344-01-01",
+    "t": "1369-01-01",
+    "kaynak": "TDV merinîler: 'Hıristiyanlar… Cezîretülhadrâ’yı işgal ettiler' · TDV nasriler: 'çeyrek asırdır Kastilya işgalinde olan Cezîretülhadrâ’yı kurtardı' (770/1369) · f: 744/1344 YIL · t: 770/1369 YIL (hicrî 770 ∩ 1369)"
+   },
+   {
+    "alan": "s",
+    "d": "granada",
+    "f": "1369-01-01",
+    "t": "1462-08-20",
+    "kaynak": "TDV nasriler: V. Muhammed 'Merînî donanmasının desteğiyle… Cezîretülhadrâ’yı kurtardı' (770/1369) · TDV merinîler: Nasrî ordusu karadan, Merînî donanması denizden Cezîretülhadrâ'yı geri aldı (768-772) · 1369 sonrası şehrin akıbeti (yıkım/terk) TDV'de YOK; yerleşimin toprağı Nasrî'de · t: gün komşudan Cebelitârık granada→kastilya 1462-08-20 (komşu kaydı; Campo de Gibraltar) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "kastilya",
+    "f": "1462-08-20",
+    "t": "1479-01-19",
+    "kaynak": "ABİ MERKEZ: Cebelitârık (8,8 km) — gün komşudan: Cebelitârık 1462-08-20 (komşu kaydı kaynağı) · künye kastilya t=1479-01-19 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "ispanya",
+    "f": "1479-01-19",
+    "t": "2000-12-31",
+    "kaynak": "künye ispanya f=1479-01-19 (komşu Cebelitârık kaydı: Simancas 1479; TDV İspanya Kastilya-Aragon birliği). Cebelitârık 1704'te İngiltere'ye geçti; Algeciras (Cezîretülhadrâ) İspanya'da KALDI — komşunun ingiltere dönemi ALINMADI · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Somnât (Sûmenât)": {
+  "lat": 20.88808,
+  "lon": 70.40129,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız fetih günü: TDV «Mahmûd-ı Gaznevî» (8 Ocak 1026) ve EB1911 «Somnath» (Verāval yanında ruin şehir, Junagarh devleti içinde). ÇAULUKYA sahipliği (1026-1297) ve 1297-1748 arası dönemler Somnât'ın kendi adıyla TARİHLİ KAYNAĞI olmayan ABİ MERKEZ (Diu/Cûnâgadh) BEYANLI YAKLAŞIKLIK; Çaulukya→Vâghelâ geçişi künyesiz. İlk anılış/fetih kuruluş değildir (kur yok). Atlas çelişkisi yok; Cûnâgadh kaydının 1573-02-26 ucu gucerat künyesinin t'sini (1573-01-01) aşıyor.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "caulukya",
+    "f": "1026-01-08",
+    "t": "1297-01-01",
+    "kaynak": "TDV mahmud-i-gaznevi (https://islamansiklopedisi.org.tr/mahmud-i-gaznevi): «Gazneli ordusu 16 Zilkade 416’da (8 Ocak 1026) Somnât Kalesi’ni fethetti» (Sûmenât, Kathiavar yarımadasında şehir) · Kathiawar'daki Somnât'ın hükümdarı: künye caulukya (Gucerat Çaulukya/Solanki 0942-1297) — Çaulukya'nın Somnât'a bağlılığı bu turda KAYNAKLA TEYİT EDİLEMEDİ (TDV Mahmud adını anmıyor; EB1911 Somnath maddesi yalnız şehri/tapınağı anar) · Gazneli fethi yağma seferidir, kalıcı idare TDV'de yok → isg yazılmadı (bitiş günü kaynakta yok) · t: künye caulukya t=1297-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "racput",
+    "f": "1297-01-01",
+    "t": "1304-01-01",
+    "kaynak": "ABİ MERKEZ: Diu (63,7 km) + Cûnâgadh (70,7 km) — komşu kayıtlar racput 1281-01-01..1304 (Diu) / ..1472 (Cûnâgadh); EB1911 Junagarh: Somnât harabeleri Junagarh eyaleti içindedir · f: künye caulukya t · t: gün komşudan Diu racput→delhi 1304-01-01 (IGI VIII, Bombay Presidency: History) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "delhi-sultanligi",
+    "f": "1304-01-01",
+    "t": "1407-01-01",
+    "kaynak": "ABİ MERKEZ: Diu — gün komşudan: Diu 1304-01-01 / 1407-01-01 (The Imperial Gazetteer of India, vol. VIII, Oxford 1908, «Bombay Presidency: History») · Delhi'nin Gucerat fethi (1299-1304) Somnât'ı da kapsar: Somnât'ın kendi adıyla tarihli kaynağı bulunamadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "gucerat-sultanligi",
+    "f": "1407-01-01",
+    "t": "1573-02-26",
+    "kaynak": "ABİ MERKEZ: Diu/Cûnâgadh — Gucerat Sultanlığı künye f=1407-01-01 (Diu: IGI VIII 1907 Wadhwan devri); Cûnâgadh 1472'de Gucerat'a geçti, Somnât/Prabhas kıyı şeridi Gucerat Sultanlığı'nın Sorath sancağında · t: gün komşudan Cûnâgadh 1573-02-26 · KÜNYE ARALIĞI: künye gucerat-sultanligi t=1573-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "babur-imparatorlugu",
+    "f": "1573-02-26",
+    "t": "1748-01-01",
+    "kaynak": "ABİ MERKEZ: Cûnâgadh — gün komşudan: Cûnâgadh 1573-02-26 (Akbar'ın Gucerat'ı alışı) / 1748-01-01 (Cunagadh Nevablığı kuruluşu; künye cunagadh f=1748-01-01) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "cunagadh",
+    "f": "1748-01-01",
+    "t": "1947-11-09",
+    "kaynak": "EB1911 «Junagarh»: «It includes the sacred mountain of Girnar and the ruined temple of Somnath» — Somnât, Junagarh devleti içindedir (EB 1911 eski başvuru eseri; tek başına dayanak) · künye cunagadh 1748-01-01..1948-02-20 · t: gün komşudan Cûnâgadh 1947-11-09 (Hindistan'a katılış, Britannica Junagadh)"
+   },
+   {
+    "alan": "s",
+    "d": "hindistan-cumhuriyeti",
+    "f": "1947-11-09",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Cûnâgadh 1947-11-09 (Britannica Junagadh); künye hindistan-cumhuriyeti f=1947-08-15 · Somnât Gucerat eyaletinde"
+   }
+  ]
+ },
+ "Misilmeri": {
+  "lat": 38.03183,
+  "lon": 13.44795,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız Palermo emsaliyle (ABİ MERKEZ, 12,1 km, BEYANLI): zincirin TAMAMI Palermo komşu kaydının günleridir (zincirleme devralma değil — Palermo kayıtları kendi kaynaklarıyla kaynaklıdır). Misilmeri'nin kendi adıyla tarihli kaynak bulunamadı (TDV sicilya, Treccani Misilmeri/Ruggero I okundu: anmıyor). 1068 başlangıcı atlas olayı, kaynaksız. Sicilya Kralı'nın 1860 Garibaldi dönemi (Sicilya Diktatörlüğü) künyesiz, zincire alınmadı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "sicilya-emirligi",
+    "f": "1068-01-01",
+    "t": "1072-01-01",
+    "kaynak": "ABİ MERKEZ: Palermo (12,1 km) — TDV sicilya (https://islamansiklopedisi.org.tr/sicilya) + TDV kelbiler: Kelbî emirliği 947, 1053 sonrası mahallî emirlikler, Palermo 1072 Norman; künye sicilya-emirligi 0947..1091 · f: 1068 YIL = atlas'ın Misilmeri muharebesi olayı (bu turda kaynağı OKUNAMADI: TDV sicilya ve Treccani Misilmeri/Ruggero I sayfaları Misilmeri'yi anmıyor) · Misilmeri (Menzilü'l-Emîr) 1068'den önce de vardı (Arap iskânı), başlangıç kaynağın okunduğu en erken yıldır · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sicilya-kralligi",
+    "f": "1072-01-01",
+    "t": "1281-01-01",
+    "kaynak": "ABİ MERKEZ: Palermo (12,1 km) — TDV sicilya: Ruggero '1071’de Catania’yı ve 1072’de Palermo’yu ağabeyinin adına ele geçirdi' (YIL; gün yok) · gün komşudan: Palermo 1072-01-01 · künye sicilya-kralligi 1072-01-01.. · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sicilya-kralligi",
+    "f": "1281-01-01",
+    "t": "1282-03-30",
+    "kaynak": "ABİ MERKEZ: Palermo (12,1 km) — Künye sicilya-kralligi t=1282-03-30 (Sicilya Vesperleri; Palermo komşu kaydı: Treccani DBI «Federico III d'Aragona», «Carlo I d'Angiò») · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sicilya-aragon",
+    "f": "1282-03-30",
+    "t": "1816-12-01",
+    "kaynak": "ABİ MERKEZ: Palermo (12,1 km) — 30 Mart 1282 Sicilya Vesperleri → 30 Ağustos 1282'ye dek Communitas Siciliae (Sicilya Komünü) — künye yok: Sicilya Komünü (komşu Palermo kaydı bu 5 ayı __BOSLUK__ yazar; Treccani DBI «Federico III d'Aragona», «Carlo I d'Angiò»), en yakın künye sicilya-aragon (f=1282-08-30) kullanıldı → KÜNYE ARALIĞI (5 ay) · gün komşudan: Palermo 1282-08-30 (Aragon'un Trapani'ye çıkışı; Britannica 'Sicilian Vespers') · 1302 Caltabellotta; Savoya (1713-20) ve Habsburg (1720-35) dönemleri aynı krallığın hanedan değişimi (künye sicilya-aragon genişliği) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "napoli",
+    "f": "1816-12-01",
+    "t": "1861-02-13",
+    "kaynak": "ABİ MERKEZ: Palermo (12,1 km) — gün komşudan: Palermo 1816-12-01 (İki Sicilya Krallığı kuruluşu; Britannica 'Ferdinand I of the Two Sicilies') / 1861-02-13 (künye napoli t) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "italya",
+    "f": "1861-02-13",
+    "t": "1946-06-18",
+    "kaynak": "ABİ MERKEZ: Palermo (12,1 km) — gün komşudan: Palermo 1861-02-13 → 1946-06-18 (Italya Krallığı cumhuriyete dönüştü; Meniconi, Convegni Nomos 1/2026 — Palermo kaydı) · künye italya 1861-03-17..1946-06-18 (KÜNYE ARALIĞI: künye f=1861-03-17) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "italya-cumhuriyeti",
+    "f": "1946-06-18",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Palermo (12,1 km) — künye italya-cumhuriyeti f=1946-06-18 (İtalyan Savunma Bakanlığı; 2 Haziran oylama / 18 Haziran ilan — Palermo komşu kaydı) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Rânye": {
+  "lat": 21.2504,
+  "lon": 42.84751,
+  "kur": null,
+  "bit": null,
+  "not": "KURULAMADI: TDV'de Rânye/Râniye maddesi yok (tdv-ara boş; arama 'Rânye' için başlık ve içerik 0 sonuç); TDV Suûdîler, Vehhâbîlik, İbrâhim Paşa (Kavalalı), Muhammed Ali Paşa, Dir'iye maddelerinde Rânye geçmiyor. 1816 'Mısır garnizonu çekildi → Necid' olayı kaynaklanamadı; yakın büyük merkez (komşu) kaydı yok (komsular boş). 1281-1816 ve sonrası için Ranyah (Hicaz-Necid-Asir sınırı) sahibi: Mekke Şerifliği (künye mekke-serifligi 0969-1919) / Suûdîler arasında kabile bölgesi; kaynaklı zincir kurulamadı.",
+  "zincir": []
+ },
+ "Menfûha": {
+  "lat": 24.6005,
+  "lon": 46.72722,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız Riyad emsaliyle (ABİ MERKEZ, 13,6 km, BEYANLI) ve TDV «Suûdîler» (1744/45, 1824, 1891, 1902 YIL) üzerinden. Menfûha'nın kendi adıyla tarihli kaynağı bulunamadı: TDV'de Menfûha maddesi yok (arama: ÂRIZ ve A‘ŞÂ maddelerinde yer adı olarak geçer: 'şair A‘şâ’nın yaşadığı Menfûha'). 1744 öncesi (Hacrülyemâme/Yemâme, Dahhâm b. Davvâs dönemi) künyesiz — kur yok; zincir künye suud-birinci f=1744'ten başlar (kaynağın desteklediği en erken künyeli dönem; 1281-1744 KAYNAKSIZ, yazılmadı). 1819-08-13 Mısır garnizonu olayı zincirdeki 'v' dönemi içinde. Riyad kaydındaki Mısır dönemi 1818-09-09 → 1824-06-01 komşudan alındı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "suud-birinci",
+    "f": "1744-01-01",
+    "t": "1818-09-09",
+    "kaynak": "ABİ MERKEZ: Riyad (13,6 km; Menfûha bugün Riyad'ın semti, 1819'da ayrı kasaba) — TDV suudiler (https://islamansiklopedisi.org.tr/suudiler): Dir'iye ittifakı '1157 (1744) veya 1158 (1745)' (YIL); Menfûha/Riyad-Hacrülyemâme bölgesi Dir'iye emirliğine katıldı (Riyad'ın Suûdî fethi günü TDV suudiler'de verilmiyor) · t: gün komşudan Riyad 1818-09-09 (Dir'iye'nin düşüşü; TDV ibrahim-pasa-kavalali: 'Nisan 1818’de… Dir‘iye’yi kuşattı ve beş ay süren kuşatmanın ardından zaptetti') · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Mısır (İbrâhim Paşa)",
+    "f": "1818-09-09",
+    "t": "1824-06-01",
+    "kaynak": "ABİ MERKEZ: Riyad (13,6 km; Menfûha bugün Riyad'ın semti, 1819'da ayrı kasaba) — TDV suudiler: '1824’te Türkî b. Abdullah… Riyad’ı muhafaza eden küçük Mısır askerî birliğini buradan çıkararak Suûd Emirliği’ni yeniden tesis etti' (Riyad'da Mısır garnizonu) · TDV ibrahim-pasa-kavalali: Dir'iye 1818 · Menfûha'nın kendi garnizonu: atlas olayı 1819-08-13 'Mısır garnizonu' (bu turda kaynaklanamadı) · f: gün komşudan Riyad 1818-09-09 · t: gün komşudan Riyad 1824-06-01 (TDV suudiler 1824 YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "suud-ikinci",
+    "f": "1824-06-01",
+    "t": "1891-01-01",
+    "kaynak": "ABİ MERKEZ: Riyad (13,6 km; Menfûha bugün Riyad'ın semti, 1819'da ayrı kasaba) — TDV suudiler: Türkî b. Abdullah 1824'te Riyad'ı aldı, 1834'e dek emirlik; Faysal 1843'te ikinci kez; Riyad ve civarı 'Necid kaymakamlığı' unvanıyla Abdullah b. Faysal'ın idaresine verildi (Osmanlı Bağdat vilâyetine bağlı Necid kaymakamlığı — tâbiyet BEYANLI, sahiplik Suûdî emirliğinde bırakıldı) · künye suud-ikinci 1824-06-01..1891-01-24 · t: TDV suudiler 'sonuçta 1891’de Suûd ailesi tamamen Riyad’dan çıkarıldı' (YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sammar",
+    "f": "1891-01-01",
+    "t": "1902-01-15",
+    "kaynak": "ABİ MERKEZ: Riyad (13,6 km; Menfûha bugün Riyad'ın semti, 1819'da ayrı kasaba) — TDV suudiler: İbnü'r-Reşîd 1891'de Suûd ailesini Riyad'dan çıkardı; '1902 yılında Abdülazîz b. Abdurrahman… Riyad'ı ele geçirdi' (YIL) · t: gün komşudan Riyad 1902-01-15 (künye suud-ucuncu f) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "suud-ucuncu",
+    "f": "1902-01-15",
+    "t": "1932-09-18",
+    "kaynak": "ABİ MERKEZ: Riyad (13,6 km; Menfûha bugün Riyad'ın semti, 1819'da ayrı kasaba) — TDV suudiler: Abdülazîz b. Abdurrahman (İbn Suûd) 1902'de Riyad'ı aldı; künye suud-ucuncu 1902-01-15..1932-09-18 · gün komşudan Riyad · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "suudi-arabistan",
+    "f": "1932-09-18",
+    "t": "2000-12-31",
+    "kaynak": "OH saudi-arabia: 'The name of the state was changed to the Kingdom of Saudi Arabia by a decree of September 18, 1932' (Riyad komşu kaydı kaynağı) · künye suudi-arabistan f=1932-09-18 · TDV suudi-arabistan (gün vermiyor)"
+   }
+  ]
+ },
+ "Oskol": {
+  "lat": 51.3025,
+  "lon": 37.84613,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız kuruluş yılı: Nikon Letopisi 1593 (ru.wikipedia'da aktarılan; ikinci akademik kaynak bulunamadı: ESBE Оскол maddesi nehir maddesi). kur yazılmadı (kuruluş 1593/1596 tartışmalı, gün yok, Vikipedi tek dayanak olamaz). 1593 öncesi (Yabanıl Saha; 1571 Ust-Ubla ostrogu) şehir yok. 1917-2000 kaynakları künyeden — TDV 'Rusya'/'Sovyetler Birliği' bu turda OKUNMADI. 1941-43 Alman işgali isg olarak bu turda yazılmadı (kaynaksız).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1593-01-01",
+    "t": "1917-03-15",
+    "kaynak": "ru.wikipedia «Старый Оскол» (tek başına dayanak değil; Nikon Letopisi 1593 satırını aktarır): 'Никоновская летопись за 1593 год: повеление… царя Фёдора Иоанновича… город поставили' — Oskol kalesi 1593'te (kuruluş yılı tartışmalı: 1593/1596, şehir statüsü 1596) Moskova Çarlığı'nın güney sınırında kuruldu; Belgorod Hattı'nın parçası (1655'e dek 'Oskol') · künye rusya 1547-01-16..1917-03-15 · 1593 YIL · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "kaynak": "künye rusya-gecici-hukumet (devletler.js) 1917-03-15..1917-11-07 (Şubat Devrimi / Ekim Devrimi); Oskol Rusya ortasında iç bölge — bu turda TDV 'Rusya' maddesi okunmadı; ikinci kaynak bulunamadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sovyet-rusya",
+    "f": "1917-11-07",
+    "t": "1991-12-26",
+    "kaynak": "künye sovyet-rusya 1917-11-07..1991-12-26 (devletler.js); Stary Oskol Kursk/Belgorod bölgesinde RSFSR içinde (1941-43 Alman işgali bu turda kaynaklanmadı; isg yazılmadı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "rusya-federasyonu",
+    "f": "1991-12-26",
+    "t": "2000-12-31",
+    "kaynak": "künye rusya-federasyonu f=1991-12-26 (devletler.js); Belgorod Oblastı içinde · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Altınköprü": {
+  "lat": 35.75344,
+  "lon": 44.14727,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Kerkük» (Altınköprü Kerkük sancağının nahiyesi; 28 Ekim 1918 geri çekilme), TDV «Musul [Irak]» (1625 Altınköprü mevkii). 1281-1534 ve 1534-1624 dönemleri Kerkük emsali ABİ MERKEZ BEYANLI (Altınköprü'yü adıyla anan tarihli belge bulunamadı). 1918-10-30→1921 komşu gibi 's: ingiltere' (idare) — TDV Kerkük 'İngiliz idaresi kuruldu'. Atlas çelişkisi: parti kaydı ilk_sahip safevi 1625-01-01; TDV'ye göre 1625'te bölge Osmanlı'ya geri geçti (Safevî 1624-1625), zincir buna uyar.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "ilhanli",
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "kaynak": "ABİ MERKEZ: Kerkük (38,7 km, aynı sancak) — TDV kerkuk (https://islamansiklopedisi.org.tr/kerkuk): 'Sancak Nefsikerkük, Köysancak, Erbil ve Altınköprü’den oluşuyordu' (1284/1867-68) ve Altınköprü Kerkük'ün nahiyesidir; Altınköprü Erbil-Kerkük arası köprü/geçit · gün komşudan: Kerkük ilhanli 1281-01-01..1340-01-01 (künye ilhanli 1256-1353) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "celayirli",
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "kaynak": "ABİ MERKEZ: Kerkük (38,7 km, aynı sancak) — TDV kerkuk (https://islamansiklopedisi.org.tr/kerkuk): 'Sancak Nefsikerkük, Köysancak, Erbil ve Altınköprü’den oluşuyordu' (1284/1867-68) ve Altınköprü Kerkük'ün nahiyesidir; Altınköprü Erbil-Kerkük arası köprü/geçit · gün komşudan: Kerkük celayirli (künye celayirli f=1340-01-01) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "karakoyunlu",
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "kaynak": "ABİ MERKEZ: Kerkük (38,7 km, aynı sancak) — TDV kerkuk (https://islamansiklopedisi.org.tr/kerkuk): 'Sancak Nefsikerkük, Köysancak, Erbil ve Altınköprü’den oluşuyordu' (1284/1867-68) ve Altınköprü Kerkük'ün nahiyesidir; Altınköprü Erbil-Kerkük arası köprü/geçit · gün komşudan: Kerkük karakoyunlu 1411-01-01..1469-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "akkoyunlu",
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "kaynak": "ABİ MERKEZ: Kerkük (38,7 km, aynı sancak) — TDV kerkuk (https://islamansiklopedisi.org.tr/kerkuk): 'Sancak Nefsikerkük, Köysancak, Erbil ve Altınköprü’den oluşuyordu' (1284/1867-68) ve Altınköprü Kerkük'ün nahiyesidir; Altınköprü Erbil-Kerkük arası köprü/geçit · gün komşudan: Kerkük akkoyunlu 1469-01-01..1508-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "safevi",
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "kaynak": "ABİ MERKEZ: Kerkük (38,7 km, aynı sancak) — TDV kerkuk (https://islamansiklopedisi.org.tr/kerkuk): 'Sancak Nefsikerkük, Köysancak, Erbil ve Altınköprü’den oluşuyordu' (1284/1867-68) ve Altınköprü Kerkük'ün nahiyesidir; Altınköprü Erbil-Kerkük arası köprü/geçit · gün komşudan: Kerkük safevi 1508-01-01..1534-12-04 (Kanunî'nin Bağdat seferi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1534-12-04",
+    "t": "1624-01-01",
+    "kaynak": "ABİ MERKEZ: Kerkük (38,7 km, aynı sancak) — TDV kerkuk (https://islamansiklopedisi.org.tr/kerkuk): 'Sancak Nefsikerkük, Köysancak, Erbil ve Altınköprü’den oluşuyordu' (1284/1867-68) ve Altınköprü Kerkük'ün nahiyesidir; Altınköprü Erbil-Kerkük arası köprü/geçit · gün komşudan: Kerkük 1534-12-04 (TDV kerkuk; Osmanlı idaresi) · t: TDV musul--irak 'Şah Abbas’ın karşı harekâtıyla şehir tekrar Safevîler’in eline geçti (1033/1624)' (Musul/Kerkük, YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "safevi",
+    "f": "1624-01-01",
+    "t": "1625-01-01",
+    "kaynak": "ABİ MERKEZ: Kerkük (38,7 km, aynı sancak) — TDV kerkuk (https://islamansiklopedisi.org.tr/kerkuk): 'Sancak Nefsikerkük, Köysancak, Erbil ve Altınköprü’den oluşuyordu' (1284/1867-68) ve Altınköprü Kerkük'ün nahiyesidir; Altınköprü Erbil-Kerkük arası köprü/geçit · TDV musul--irak (https://islamansiklopedisi.org.tr/musul--irak): Kerkük/Musul 1033/1624 Safevî; TDV hafiz-ahmed-pasa: 'Kerkük ve Musul şahın kumandanlarından Kāsım Han tarafından zaptedildi' (YIL) · Altınköprü mevkiinde 10.000 İran taraftarı toplanmıştı (1625) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1625-01-01",
+    "t": "1918-10-30",
+    "kaynak": "TDV musul--irak: 'Ordu Diyarbekir civarında iken 10.000 İran taraftarının Altınköprü mevkiinde toplandığı haberi gelince Karaman Beylerbeyi Çerkez Hasan kumandasında 4000 kişilik öncü kuvvet bunları Kerkük’e kadar kovalayarak Kerkük de dahil bölgeyi kontrol altına aldı' (1035/1625, YIL) — Altınköprü adıyla anılır · TDV kerkuk: Kerkük kalesi '1746 tarihli Osmanlı-İran Antlaşması ile Osmanlı Devleti’ne devredildi'; '28 Ekim 1918’de… Osmanlı birlikleri burayı boşaltıp Altınköprü’ye çekildiler' (Altınköprü Mondros'a dek Osmanlı elinde; Kerkük'ün 7-27 Mayıs 1918 İngiliz işgali Altınköprü'yü kapsamadı) · t: gün komşudan Kerkük 1918-10-30 (Mondros)"
+   },
+   {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1918-10-30",
+    "t": "1921-08-23",
+    "kaynak": "TDV kerkuk: 'Altınköprü’ye çekildiler ve böylece Kerkük’te İngiliz idaresi kurulmuş oldu' (Ekim 1918) · gün komşudan: Kerkük 1918-10-30 → 1921-08-23 (İngiliz idaresi; neighbor s: yazdı — işgal mi idare mi BEYANLI; TDV 'Irak, 1922 İngiliz-Irak Antlaşması ile İngiliz himayesi') · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "irak-kralligi",
+    "f": "1921-08-23",
+    "t": "1958-07-14",
+    "kaynak": "gün komşudan: Kerkük 1921-08-23 (Irak Krallığı; TDV irak--ulke ve faysal-i, 23 Ağustos 1921); TDV kerkuk: Kerkük 5 Haziran 1926 Ankara antlaşmasıyla Irak'a bırakıldı (Altınköprü nahiyesi Kerkük livâsında)"
+   },
+   {
+    "alan": "s",
+    "d": "irak-cumhuriyeti",
+    "f": "1958-07-14",
+    "t": "2000-12-31",
+    "kaynak": "künye irak-cumhuriyeti f=1958-07-14 (Library of Congress Iraq Country Study — Kerkük komşu kaydı); TDV kerkuk: Irak yönetiminde Kerkük vilâyeti"
+   }
+  ]
+ },
+ "Kırkağaç": {
+  "lat": 39.10638,
+  "lon": 27.66925,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: Bilgi, TÜBA 2023 ch.04 (Kırkağaç Yunan işgali 24 Haziran 1920 — adıyla geçer, 'Alaşehir, Soma ve Kırkağaç'; ATLAS ÇELİŞKİSİ: parti kaydı 1920-06-22 'Osmanlı→Yunan işgali' — 22 Haziran Akhisar'dır). 1281-1920 Soma emsali ABİ MERKEZ (BEYANLI): Kırkağaç'ın 1281-1413 sahibi (Karesi/Saruhan sınırı) kendi adıyla kaynaklanamadı; TDV'de Kırkağaç maddesi yok (içerikte yalnız Karaosmanoğulları). Yunan işgali isg (sahiplik tbmm-turkiye'de kesintisiz).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bizans",
+    "f": "1281-01-01",
+    "t": "1297-01-01",
+    "kaynak": "ABİ MERKEZ: Soma (10,2 km; Kırkağaç ile aynı Bergama/Saruhan kenar ovası) — gün komşudan: Soma bizans 1281-01-01..1297-01-01 (komşu kaydı: bölge sahibi Bergama zinciri) · TDV soma maddesi yok (302); Kırkağaç için TDV içerik taraması: KARAOSMANOĞULLARI 'ailenin nüfuzunu Kırkağaç taraflarına kadar yaydı' (XVIII. yy, Osmanlı âyanı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "karesi",
+    "f": "1297-01-01",
+    "t": "1345-01-01",
+    "kaynak": "ABİ MERKEZ: Soma (10,2 km; Kırkağaç ile aynı Bergama/Saruhan kenar ovası) — gün komşudan: Soma karesi 1297-01-01..1345-01-01 (künye karesi 1297-1345) · TDV soma maddesi yok (302); Kırkağaç için TDV içerik taraması: KARAOSMANOĞULLARI 'ailenin nüfuzunu Kırkağaç taraflarına kadar yaydı' (XVIII. yy, Osmanlı âyanı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1345-01-01",
+    "t": "1920-04-23",
+    "kaynak": "ABİ MERKEZ: Soma (10,2 km; Kırkağaç ile aynı Bergama/Saruhan kenar ovası) — gün komşudan: Soma 1345-01-01 (Karesi'nin Osmanlı'ya katılışı) .. 1920-04-23 (TBMM açılışı, TDV turkiye-buyuk-millet-meclisi) · 1402-07-28..1413-07-05 Fetret Devri: Soma komşu kaydı bu aralığı s: isa-celebi / mehmed-celebi / suleyman-celebi künyeleriyle yazar (TDV isa-celebi, fetret-devri, ankara-savasi, mehmed-i, musa-celebi, suleyman-celebi-emir) — künye yok: bu üç şehzade künyesi devletler.js'te BULUNAMADI; Osmanlı şehzadeleri olduklarından d: içinde BEYANLI (Fetret ayrıntısı Soma kaydında) · TDV soma maddesi yok (302); Kırkağaç için TDV içerik taraması: KARAOSMANOĞULLARI 'ailenin nüfuzunu Kırkağaç taraflarına kadar yaydı' (XVIII. yy, Osmanlı âyanı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "gün komşudan: Soma tbmm-turkiye 1920-04-23 (TDV turkiye-buyuk-millet-meclisi) · künye tbmm-turkiye 1920-04-23..1923-10-29 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "yunanistan",
+    "f": "1920-06-24",
+    "t": "1922-09-13",
+    "kaynak": "gün komşudan: Soma isg yunanistan 1920-06-24..1922-09-13 — Nejdet Bilgi, 'Millî Mücadele Döneminde Manisa', Millî Mücadele’nin Yerel Tarihi 1918-1923, TÜBA 2023, ch.04 (doi 10.53478/TUBA.978-625-8352-63-4.ch04): '22 Haziran’da Akhisar, 23 Haziran’da Salihli, 24 Haziran’da Alaşehir, Soma ve Kırkağaç … işgal edildi' (Kırkağaç adıyla geçer; atlas 22 Haziran değil 24 Haziran) · isg: Yunan ordusu yeri kendi idaresine katmadı (Manisa Yunan işgal bölgesi askerî idare) · t: Soma 1922-09-13 (TÜBA ch.04 — boşaltma)"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "TDV 'Türkiye Cumhuriyeti'; Cumhuriyet ilanı 1923-10-29 (künye turkiye-cumhuriyeti f)"
+   }
+  ]
+ },
+ "Oltu": {
+  "lat": 40.53944,
+  "lon": 41.98722,
+  "kur": null,
+  "bit": null,
+  "not": "KURULAMADI (UMIT denetimi): taslak zincir 1878-1918'i Osmanlı bırakıyor; oysa komşular Sarıkamış (Kars) ve Artvin 1878'de Rusya'ya geçiyor (Berlin / Kars oblastı) ve Oltu Kars oblastının okrugu olarak bilinir — Oltu'ya özgü kaynak okunmadı. Yanlış zincir eksik zincirden kötüdür: taslak 'taslak_zincir'de, KASA'ya verilmez. Gerekli: Oltu 1878-1918 (Rus) ve 1918-1921 (Osmanlı / Ermeni / TBMM) için kaynak — M. Sarı, Elviye-i Selâse (TÜBA 2022) ya da TDV Kars. · Önceki not: Kaynaklı: TDV «Kars» (940/1534 Irakeyn: Pasin, Şüregel, Oltu Osmanlı'ya geçti, YIL) ve TDV «Çıldır Eyaleti» (1536 Dulkadırlı Mehmed Han Oltu, Penek'i aldı; Oltu sancağı). TDV İÇİ ÇELİŞKİ: Kars 1534 / Çıldır 1536 — 1534 alındı (atlas olayıyla da uyumlu). 1281-1534 Sarıkamış/Pasinler emsali ABİ MERKEZ BEYANLI (Oltu'yu adıyla anan kaynak yok). 1878-1918 Rus işgali/Ermeni hâkimiyeti (Kars/Sarıkamış'ta var) Oltu için kaynaklanamadı.",
+  "zincir": [],
+  "taslak_zincir": [
+   {
+    "alan": "s",
+    "d": "ilhanli",
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "kaynak": "ABİ MERKEZ: Sarıkamış (55,3 km) / Pasinler (67,7 km) emsali — gün komşudan: Sarıkamış ilhanli 1281-01-01..1340-01-01 (Oltu'nun Ilhanlı hâkimiyeti kendi adıyla kaynaklanamadı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "celayirli",
+    "f": "1340-01-01",
+    "t": "1386-01-01",
+    "kaynak": "ABİ MERKEZ: Sarıkamış (55,3 km) / Pasinler (67,7 km) emsali — gün komşudan: Sarıkamış celayirli 1340-01-01..1386-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "timurlu",
+    "f": "1386-01-01",
+    "t": "1408-04-13",
+    "kaynak": "ABİ MERKEZ: Sarıkamış (55,3 km) / Pasinler (67,7 km) emsali — gün komşudan: Sarıkamış timurlu 1386-01-01..1408-04-13 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "karakoyunlu",
+    "f": "1408-04-13",
+    "t": "1467-01-01",
+    "kaynak": "ABİ MERKEZ: Sarıkamış (55,3 km) / Pasinler (67,7 km) emsali — gün komşudan: Sarıkamış karakoyunlu 1408-04-13..1467-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "akkoyunlu",
+    "f": "1467-01-01",
+    "t": "1501-07-01",
+    "kaynak": "ABİ MERKEZ: Sarıkamış (55,3 km) / Pasinler (67,7 km) emsali — gün komşudan: Sarıkamış akkoyunlu 1467-01-01..1501-07-01 (künye akkoyunlu 1340-1514) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "safevi",
+    "f": "1501-07-01",
+    "t": "1534-01-01",
+    "kaynak": "TDV kars (https://islamansiklopedisi.org.tr/kars): «Kanûnî Sultan Süleyman’ın Irakeyn Seferi sırasında (940/1534) Pasin, Şüregel, Oltu gibi kalelerin Osmanlılar tarafından ele geçirildi» (Oltu adıyla; Safevî elinden) · TDV çildir-eyaleti: Oltu çevresi Çıldır Atabegliği/İmereti–Safevî rekabeti alanı · Sarıkamış safevi 1501-07-01..1534-06-01 emsali — f: künye safevi f=1501-07-01 · t: hicrî 940 ∩ 1534 → 1534-01-01 (YIL; gün yok) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1534-01-01",
+    "t": "1920-04-23",
+    "kaynak": "TDV kars: 940/1534 Irakeyn Seferi'nde Oltu kalesi Osmanlılar'ca ele geçirildi (YIL) · ÇELİŞKİ: TDV çildir-eyaleti (https://islamansiklopedisi.org.tr/c%C4%B1ldir-eyaleti): «1536’da… Erzurum Beylerbeyi Dulkadırlı Mehmed Han (Paşa)… Oltu, Penek gibi kaleleri ele geçirdi»; «Gorgora’ya Oltu sancağı verildi» (1578-79) · (1536 YIL) — iki TDV maddesi; Oltu'yu adıyla anan, 1534 Irakeyn'e bağlayan Kars maddesi esas alındı, Çıldır maddesi (1536) ic_not · TDV erzurum: Erzurum beylerbeyiliği 1568-1574 sancak listesinde Oltu; TDV çildir-eyaleti: Oltu sancağı XVII. yy. Çıldır eyaletinde (Oltu sancağı Çıldır eyaletine bağlıydı; yurtluk-ocaklık, Osmanlı idaresi); TDV erzurum: Cumhuriyet'te Erzurum'un kazası; TDV sarikamis-harekati: 1914 Aralık'ta Oltu-Bardız yönü Osmanlı 10. Kolordu hedefi (Oltu Osmanlı topraklarında) · UYARI KAYNAK-GEREK: 1878-1918 Rus dönemi (Sarıkamış/Artvin komşuları 1878-07-13'te Rusya'ya geçti; TDV sarikamis-harekati 1914'te 'Rus ordusunun Oltu grubu' ve 10. Kolordu'nun İd-Oltu-Bardız hattı) Oltu için KAYNAKLANAMADI — Oltu'nun 1878 sonrası Osmanlı mı Rus mu olduğu doğrulanmadı, zincirde Osmanlı bırakıldı (BEYANLI, yanlış olabilir) · t: gün komşudan Pasinler 1920-04-23 (TBMM açılışı)"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "ABİ MERKEZ: Sarıkamış (55,3 km) / Pasinler (67,7 km) emsali — gün komşudan: Pasinler tbmm-turkiye 1920-04-23..1923-10-29 (künye tbmm-turkiye) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Pasinler/Sarıkamış turkiye-cumhuriyeti 1923-10-29 (TDV 'Türkiye Cumhuriyeti'); TDV erzurum: Oltu Cumhuriyet döneminde Erzurum kazası/ilçesi"
+   }
+  ]
+ },
+ "Adakale": {
+  "lat": 44.71667,
+  "lon": 22.45,
+  "kur": null,
+  "bit": "1972-01-01",
+  "not": "Kaynaklı: TDV «Adakale» (1691 hâkimiyet, Ağustos 1738 Yeğen Mehmed Paşa, 1878 Berlin'de anılmaması, Lozan 1923, 1972 baraj). bit=1972-01-01 YIL (TDV: ada baraj sularında kaldı). ATLAS ÇELİŞKİSİ: parti kaydı 1738-08-17 (TDV yalnız 'Ağustos 1738' → 1738-08-01 AY); Orsova komşu kaydı 1738-05-08'de d yazıyor (Adakale TDV Ağustos 1738) ve 1791'e dek d, Adakale ise 1923'e dek d: komşunun 1791-08-04 Habsburg devri Adakale'ye UYGULANMADI (TDV: Osmanlı hâkimiyeti 1923'e dek sürdü). 1281-1691 ve 1717 dönemleri Orsova emsali ABİ MERKEZ BEYANLI.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "macaristan",
+    "f": "1281-01-01",
+    "t": "1524-01-01",
+    "kaynak": "ABİ MERKEZ: Orsova (Eski Orsova, 4,0 km) — gün komşudan: Orsova macaristan 1281-01-01..1524-01-01 · TDV adakale (https://islamansiklopedisi.org.tr/adakale): «XV. yüzyılda Tuna boylarına gelen Osmanlılar, buradaki önemli mevkileri ele geçirmişlerse de adanın hâkimiyet altına alınması 1691’de gerçekleşti» · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1524-01-01",
+    "t": "1688-01-01",
+    "kaynak": "ABİ MERKEZ: Orsova (Eski Orsova, 4,0 km) — gün komşudan: Orsova d 1524-01-01..1688-01-01 · ÇELİŞKİ: TDV adakale (https://islamansiklopedisi.org.tr/adakale): ada hâkimiyeti 1691 — 1524-1691 arası ada için Orsova emsali, BEYANLI (TDV: Osmanlılar kaleyi 'yeniden inşa etti') · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1688-01-01",
+    "t": "1691-01-01",
+    "kaynak": "ABİ MERKEZ: Orsova (Eski Orsova, 4,0 km) — gün komşudan: Orsova hab 1688-01-01 (TDV: 1691'e dek ada Osmanlı hâkimiyetine tam alınamadı) · f: Orsova emsali, ADAKALE'nin kendi 1688-1691 sahibi kaynakta yok · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1691-01-01",
+    "t": "1717-01-01",
+    "kaynak": "TDV adakale (https://islamansiklopedisi.org.tr/adakale): «adanın hâkimiyet altına alınması 1691’de gerçekleşti. Osmanlılar burada bulunan kaleyi yeniden inşa ettiler» (YIL) · t: «Bir süre sonra Avusturya’nın hâkimiyeti altına giren ada» (yıl yok) → gün komşudan Orsova hab f=1717-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "macaristan-habsburg",
+    "f": "1717-01-01",
+    "t": "1738-08-01",
+    "kaynak": "TDV adakale (https://islamansiklopedisi.org.tr/adakale): «Bir süre sonra Avusturya’nın hâkimiyeti altına giren ada, Serdârıekrem Yeğen Mehmed Paşa tarafından Ağustos 1738’de tekrar Osmanlı topraklarına katıldı» · f: gün komşudan Orsova 1717-01-01 (Avusturya'nın giriş yılı TDV'de yok) BEYANLI · t: AY (Ağustos 1738; atlas 17 Ağustos'u kaynaksız) → 1738-08-01"
+   },
+   {
+    "alan": "d",
+    "f": "1738-08-01",
+    "t": "1923-01-01",
+    "kaynak": "TDV adakale (https://islamansiklopedisi.org.tr/adakale): «Vidin sancağına bağlı bir muhafızlık»; «1830’da Sırbistan’a muhtariyet verilmesi ve 1867’de Osmanlı askerinin diğer Sırp kalelerinden çekilmesine rağmen Adakale’de Osmanlı hâkimiyeti devam etmiştir. 1878 Berlin Antlaşması’nda Adakale’den hiç bahsedilmemiş olması, buranın Osmanlı idaresine bağlı kalmasını sağlamıştır»; Avusturya-Macaristan adaya el koymak istedi ama 'Osmanlı hükümranlık hakkını korumakta ısrar etmiş' (fiilî Avusturya işgal/idaresi 1878-1918: TDV 'zaman zaman işgal teşebbüsleri'; isg yazılmadı, kaynaklı gün yok) · «Türkiye, Trianon (4 Haziran 1920) ile Adakale’nin Romanya’ya geçmiş görünmesini kabul etmemiş, adanın Romanya’ya bağlılığı ancak Lozan Antlaşması’yla (1923) kesinleşmiştir» · t: 1923 YIL (Lozan'ın günü TDV adakale'de yok; BEYANLI)"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1923-01-01",
+    "t": "1947-12-30",
+    "kaynak": "TDV adakale (https://islamansiklopedisi.org.tr/adakale): Lozan Antlaşması (1923) ile Romanya'ya bağlılık kesinleşti (YIL; gün yok) · künye romanya-kralligi 1881-03-26..1947-12-30 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1972-01-01",
+    "kaynak": "gün komşudan: Orsova/Turnu Severin romanya-halk 1947-12-30 (künye romanya-halk) · t: TDV adakale (https://islamansiklopedisi.org.tr/adakale): «Romanya ve Yugoslavya tarafından 1972 yılında Tuna nehri üzerinde ortaklaşa yaptırılan barajın suları altında kalan tarihî bir ada» (YIL; bit)"
+   }
+  ]
+ },
+ "Gerger": {
+  "lat": 38.02807,
+  "lon": 39.03418,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Dulkadıroğulları» (Şehsuvar Bey'in Gerger zaptı, 1467/1472) ve TDV «Adıyaman» (1515/1519). ATLAS ÇELİŞKİSİ: Kâhta komşu kaydı Memlûk→Dulkadır'ı 1400-1402'de yazıyor, Şehsuvar dönemini (1467-72) yazmıyor; Birecik komşusu 1277-1516 kesintisiz Memlûk — TDV'ye göre Birecik/Rumkale/Besni/Gerger 1467'de Dulkadır'a geçti. Memlûk ardıl idaresi (1472-1516) ve 1281-1467 arası Akkoyunlu/İlhanlı geçişleri Gerger için kendi adıyla kaynaklanamadı. 1832-41 Mısır idaresi Gerger için kaynaklanamadı.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1281-01-01",
+    "t": "1467-01-01",
+    "kaynak": "TDV dulkadirogullari (https://islamansiklopedisi.org.tr/dulkadirogullari): «Şehsuvar Bey… Memlükler’in elindeki Besni, Gerger, Birecik ve Rumkale şehirlerini de zaptetti. … Memlük ordusu önce 1467 yılı sonbaharında Turnadağı eteklerinde, ertesi yılın ilkbaharında ise Antep yakınlarında Dulkadırlı kuvvetlerine yenildi» → Gerger, Dulkadır zaptından önce Memlûk elindeydi · TDV adiyaman: yöre 'Artuklu, Eyyûbî ve Selçuklular… daha sonra Moğol, Akkoyunlu, Dulkadıroğulları Beyliği ve Memlük idarelerinde' (Akkoyunlu/İlhanlı geçişleri Gerger için tarihsiz: Siverek 1465-1507 Akkoyunlu, Kâhta Memlûk — Kâhta emsali Memlûk) · ABİ MERKEZ: Kâhta (45,3 km) / Siverek (39,3 km) — gün komşudan: Kâhta memluk 1281-01-01.. (künye memluk 1250-01-01..1517-04-13) · t: YIL 1467 (zapt en geç 1467 sonbaharı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "dulkadir",
+    "f": "1467-01-01",
+    "t": "1472-01-01",
+    "kaynak": "TDV dulkadirogullari (https://islamansiklopedisi.org.tr/dulkadirogullari): «Şehsuvar Bey… Memlükler’in elindeki Besni, Gerger, Birecik ve Rumkale şehirlerini de zaptetti. … Memlük ordusu önce 1467 yılı sonbaharında Turnadağı eteklerinde, ertesi yılın ilkbaharında ise Antep yakınlarında Dulkadırlı kuvvetlerine yenildi» (zapt yılı: 1467 sonbahar savaşlarından önce → 1467 YIL; BEYANLI: kesin gün yok) · t: Şehsuvar Bey 'Kahire’de idam edildi (1472)' — Memlûk denetimi geri geldi (YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1472-01-01",
+    "t": "1516-08-24",
+    "kaynak": "TDV dulkadirogullari: Şehsuvar Bey'in 1472'de idamından sonra 'Şahbudak Bey Memlükler tarafından ikinci defa Dulkadıroğulları Beyliği’nin başına getirildi' (Dulkadırlılar Memlûk tâbii; Gerger'in 1472-1516 sahibi Memlûk/Dulkadır tâbiyeti BEYANLI) · ABİ MERKEZ: Kâhta (45,3 km) / Siverek (39,3 km) — gün komşudan: Kâhta memluk 1402-07-28..1516-08-24 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1516-08-24",
+    "t": "1920-04-23",
+    "kaynak": "gün komşudan: Kâhta d 1516-08-24 (Mercidâbık; komşu kaydı) · TDV adiyaman (https://islamansiklopedisi.org.tr/adiyaman): «Osmanlı idarî teşkilâtında Besni’nin bir nahiyesi iken 1519’dan itibaren Gerger, Kâhta ve Besni ile birlikte Maraş eyaletine bağlı sancaklar arasında yer aldı»; «Yavuz Sultan Selim tarafından 1515’te Diyarbekir’in fethi sırasında kesin olarak Osmanlı topraklarına katıldı» (Hısnımansûr/Adıyaman; ÇELİŞKİ 1515 ↔ 1516-08-24: Kâhta komşu kaydı esas, BEYANLI) · Osmanlı idaresi 1519-1920; TDV adiyaman: 1841'de kaza, 1849 Diyarbekir sancağı… Cumhuriyet'e dek Osmanlı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "gün komşudan: Siverek/Kâhta tbmm-turkiye 1920-04-23..1923-10-29 (TDV turkiye-buyuk-millet-meclisi; künye tbmm-turkiye) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Siverek/Kâhta 1923-10-29 (TDV 'Türkiye Cumhuriyeti'); TDV adiyaman: 22 Haziran 1954'te Besni, Gerger ve Kâhta ilçeleriyle Adıyaman ili kuruldu"
+   }
+  ]
+ },
+ "Rumkale": {
+  "lat": 37.27091,
+  "lon": 37.83824,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Dulkadıroğulları» (Şehsuvar Bey'in Rumkale zaptı, 1467 öncesi), TDV «Gaziantep», «Rıtl» (Rumkale = Halfeti). Memlûk dönemi, Birecik komşusu emsali ABİ MERKEZ BEYANLI. ATLAS ÇELİŞKİSİ: Birecik komşu kaydı 1277'den 1516'ya kesintisiz Memlûk (TDV'ye göre Birecik de 1467'de Dulkadır'a geçti); Antep komşusundaki 1832-41 Mısır (İbrahim Paşa) 'v' dönemi Rumkale için kaynaklanamadı (yazılmadı).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1281-01-01",
+    "t": "1467-01-01",
+    "kaynak": "TDV dulkadirogullari (https://islamansiklopedisi.org.tr/dulkadirogullari): «Şehsuvar Bey… Memlükler’in elindeki Besni, Gerger, Birecik ve Rumkale şehirlerini de zaptetti. … Memlük ordusu önce 1467 yılı sonbaharında Turnadağı eteklerinde, ertesi yılın ilkbaharında ise Antep yakınlarında Dulkadırlı kuvvetlerine yenildi» → Rumkale Memlûk elindeydi · gün komşudan: Birecik (30,0 km) memluk 1277-01-01..1516-08-24 (komşu kaydı; künye memluk 1250-1517) · Rumkale Selçuklu/Artuklu/Eyyûbî/Moğol dönemleri: kendi adıyla kaynaklanamadı (Rumkale 1281'de Memlûk; Fırat üzerinde kale: TDV fırat 'Rumkale'ni…') · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "dulkadir",
+    "f": "1467-01-01",
+    "t": "1472-01-01",
+    "kaynak": "TDV dulkadirogullari (https://islamansiklopedisi.org.tr/dulkadirogullari): «Şehsuvar Bey… Memlükler’in elindeki Besni, Gerger, Birecik ve Rumkale şehirlerini de zaptetti. … Memlük ordusu önce 1467 yılı sonbaharında Turnadağı eteklerinde, ertesi yılın ilkbaharında ise Antep yakınlarında Dulkadırlı kuvvetlerine yenildi» (zapt 1467 öncesi → 1467 YIL, BEYANLI) · t: Şehsuvar Bey 'Kahire’de idam edildi (1472)' (YIL); Memlûk denetimi dönüşü · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1472-01-01",
+    "t": "1516-08-24",
+    "kaynak": "gün komşudan: Birecik (30,0 km) memluk .. 1516-08-24 · TDV dulkadirogullari: 1472'de Şahbudak Bey Memlükler tarafından ikinci defa Dulkadıroğulları'nın başına getirildi (Memlûk tâbii, BEYANLI) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1516-08-24",
+    "t": "1920-04-23",
+    "kaynak": "gün komşudan: Birecik/Antep d 1516-08-24 (komşu kaydı) · TDV gaziantep: «Halep eyaletine bağlı Antep sancağı Rumkale, Menbic ve Maarretünnu‘mân…» (Rumkale Osmanlı Antep sancağında) · TDV rıtl: 'Rumkale’ninki (Halfeti)' (kaza merkezi Halfeti) · t: gün komşudan Birecik/Antep 1920-04-23 (TBMM) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "gün komşudan: Birecik/Antep tbmm-turkiye 1920-04-23..1923-10-29 (künye tbmm-turkiye) · Antep komşu kaydı Fransız işgalini isg yazar (1919-1921): Rumkale için işgal sahası kaynaklanamadı, isg yazılmadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Birecik/Antep 1923-10-29 (TDV 'Türkiye Cumhuriyeti'; künye turkiye-cumhuriyeti f)"
+   }
+  ]
+ },
+ "Kadirli": {
+  "lat": 37.37389,
+  "lon": 36.09611,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Dulkadıroğulları» (Şehsuvar Bey'in Kadirli üssü 1468-1471; Yeşbek 1471). 1281-1468 Sis emsali ABİ MERKEZ BEYANLI (Kadirli'yi adıyla anan tarihli kaynak bulunamadı; Ramazanoğulları tâbiyeti). 1516-1920 Sis/Erzin/Osmaniye emsali. Kilikya Fransız işgali (1918-1921) Kadirli için kaynaklanamadı. Atlas çelişkisi: parti kaydı 1471-01-01 'Dulkadır→Memlûk' TDV ile uyumlu; Dulkadır'ın Kadirli'ye giriş yılı (1468) kaynaklı değil, Memlûk-Dulkadır savaş sırası (1467 sonbahar/1468 ilkbahar) YIL.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "kilikya-ermeni",
+    "f": "1281-01-01",
+    "t": "1375-04-14",
+    "kaynak": "ABİ MERKEZ: Sis/Kozan (26,1 km; Çukurova, Kadirli doğu kanadı) — gün komşudan: Sis kilikya-ermeni 1199-01-06..1375-04-14 (künye kilikya-ermeni; Sis krallığın başkenti) · Kadirli'nin 1281-1375 sahibi kendi adıyla kaynaklanamadı (Ramazanoğulları 1352+ Çukurova: TDV dulkadirogullari: Çukurova 'Ramazanoğulları’na ait')  · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1375-04-14",
+    "t": "1468-01-01",
+    "kaynak": "ABİ MERKEZ: Sis/Kozan (26,1 km; Çukurova, Kadirli doğu kanadı) — gün komşudan: Sis memluk 1375-04-14 (Sis'in düşüşü) · TDV dulkadirogullari: Şehsuvar Bey 'Memlükler’e yardım eden Ramazanoğulları’na ait Çukurova’ya inmesi ve oralara hâkim olması' (Çukurova Memlûk tâbii Ramazanoğulları idaresinde; künye ramazanoglu 1352-1608: tâbiyet BEYANLI, sahiplik Memlûk'te) · t: Şehsuvar Bey'in Kadirli'ye çekilişi 1468 ilkbahar sonrası (YIL) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "dulkadir",
+    "f": "1468-01-01",
+    "t": "1471-01-01",
+    "kaynak": "TDV dulkadirogullari (https://islamansiklopedisi.org.tr/dulkadirogullari): «Şehsuvar Bey… Memlükler’in elindeki Besni, Gerger, Birecik ve Rumkale şehirlerini de zaptetti. … Memlük ordusu önce 1467 yılı sonbaharında Turnadağı eteklerinde, ertesi yılın ilkbaharında ise Antep yakınlarında Dulkadırlı kuvvetlerine yenildi» «Şehsuvar Bey Kadirli’ye çekilerek Memlük kuvvetlerine baskın yapıp zayiat verdirince Memlükler geri dönmek zorunda kaldı» (1468 YIL) · t: «Emîr Yeşbek kumandasındaki Memlük kuvvetleri 1471 yılı ilkbaharında Şehsuvar Bey’i Savron deresinde yendiler… Yeşbek, Kadirli ve Kozan’dan Dulkadırlılar’ı çıkardıktan sonra Halep’e döndü» (1471 YIL; atlas 1471-01-01)"
+   },
+   {
+    "alan": "s",
+    "d": "memluk",
+    "f": "1471-01-01",
+    "t": "1516-08-24",
+    "kaynak": "TDV dulkadirogullari: Yeşbek 1471'de Kadirli ve Kozan'dan Dulkadırlılar'ı çıkardı (Memlûk denetimi) · gün komşudan: Sis memluk 1375-04-14..1516-08-24 / Erzin memluk .. 1516-08-24 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1516-08-24",
+    "t": "1920-04-23",
+    "kaynak": "gün komşudan: Sis/Erzin d 1516-08-24 (Mercidâbık) · TDV adana: Kadirli Adana vilâyetinin ilçesi (Adana içeriği: 'Kadirli, Karaisalı, Karataş, Kozan' ilçe listesi) · Kilikya Fransız işgali (Erzin 1918-10-30, Osmaniye 1918-12-23, komşu isg kayıtları): Kadirli için kaynaklanamadı, isg yazılmadı · t: gün komşudan Osmaniye/Erzin 1920-04-23 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "gün komşudan: Osmaniye/Erzin tbmm-turkiye 1920-04-23..1923-10-29 (künye tbmm-turkiye) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Sis/Osmaniye/Erzin 1923-10-29 (TDV 'Türkiye Cumhuriyeti'; künye turkiye-cumhuriyeti f)"
+   }
+  ]
+ },
+ "Mozdok (Terek boyu)": {
+  "lat": 43.73976,
+  "lon": 44.65157,
+  "kur": "1763-01-01",
+  "bit": null,
+  "not": "Kaynaklı: TDV «Çerkezler» (Mozdok Kalesi 1763'te Ruslar'ca yaptırıldı; YIL). kur=1763-01-01 YIL yazıldı (kaynaklı kuruluş, gün yok). 1917-2000 Vladikavkaz emsali (künye tabanlı); TDV 'Rusya'/'Sovyetler Birliği' bu turda OKUNMADI. Kabardey topraklarındaki kale: Kabarday/Osmanlı itirazı TDV'de var, sahiplik Rus.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1763-01-01",
+    "t": "1917-03-15",
+    "kaynak": "TDV cerkezler (https://islamansiklopedisi.org.tr/cerkezler): «Karışıklıktan yararlanan Ruslar, Osmanlı Devleti ve prenslerin itirazına rağmen 1763’te Mozdok Kalesi’ni yaptırdı» (Kabarday) · kuruluş YIL (gün yok); Rus kalesi, Azak'tan Mozdok'a uzanan müstahkem hat (TDV cerkezler) · TDV seyh-mansur: Şeyh Mansûr 'Mozdok ile Vladikafkas kalelerini' alamadı (1785-1787) — kale Rus elinde kaldı (işgal değil) · künye rusya 1547-01-16..1917-03-15"
+   },
+   {
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "kaynak": "gün komşudan: Vladikavkaz (79,6 km) rusya-gecici-hukumet 1917-03-15..1917-11-07 (künye) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sovyet-rusya",
+    "f": "1917-11-07",
+    "t": "1991-12-26",
+    "kaynak": "gün komşudan: Vladikavkaz sovyet-rusya 1917-11-07..1991-12-26 (künye); Mozdok Kuzey Osetya (RSFSR özerk cumhuriyeti) içinde; TDV osetler: Mozdok önemli şehirler arasında · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "rusya-federasyonu",
+    "f": "1991-12-26",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Vladikavkaz rusya-federasyonu 1991-12-26 (künye); TDV osetler/kabartaylar: Mozdok Kuzey Osetya'da · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Fokşani (Focşani)": {
+  "lat": 45.7,
+  "lon": 27.18333,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: EB1911 «Focshani» (Milcov = Moldavia-Walachia sınırı; EB1911 eski başvuru eseri, tek başına dayanak), TDV «Küçük Kaynarca», «Vâsıf Ahmed Efendi», «Hasan Paşa Kethüdâ» (Fokşan 1772 görüşmeleri / Ağustos 1789 bozgunu). Fokşani'nin hangi yakada olduğu (Boğdan/Eflak) ve tâbi beylik KAYNAK-GEREK: Boğdan yakası BEYANLI. Zincirin tamamı Bârlad ve Râmnicu Sărat komşu emsalidir (ABİ MERKEZ, BEYANLI). Fokşani 1281'de var mıydı: ilk anılış 1575 (kaynaklanamadı) — 1281-1575 arası bölge sahibi. NOT: isg dönemlerinde sıralama komşu kayıtlarından.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "altinorda",
+    "f": "1281-01-01",
+    "t": "1359-01-01",
+    "kaynak": "ABİ MERKEZ: Bârlad/Bîrlad (69,8 km; Boğdan) ve Râmnicu Sărat (36,6 km; Eflak) — gün komşudan: Bârlad altinorda 1281-01-01..1359-01-01 (künye altinorda 1242-1502); Fokşani'nin ilk anılışı 1575 öncesinde yerleşim kaynaklı değil (kuruluş yok) — bölge sahibi · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "bogdan",
+    "f": "1359-01-01",
+    "t": "1456-06-01",
+    "kaynak": "ABİ MERKEZ: Bârlad/Bîrlad (69,8 km; Boğdan) ve Râmnicu Sărat (36,6 km; Eflak) — gün komşudan: Bârlad bogdan 1359-01-01..1456-06-01 (künye bogdan 1359-1859) · EB1911 «Focshani» (Wikisource): «on the river Milcov, which formed the ancient frontier of the former principalities of Moldavia and Walachia» (Fokşani Milcov sınırında; Boğdan yakası Fokşani, Eflak yakası Focşanii Munteni — şehir Putna/Boğdan tarafındadır, BEYANLI) · TDV Vâsıf Ahmed Efendi / Küçük Kaynarca: 'Fokşan(i) kasabasında barış görüşmeleri' (Ağustos 1772) · TDV Hasan Paşa Kethüdâ: 'kuvvetler ağustos başında Fokşan’da' (1789 yenilgisi) · Fokşani Boğdan yakasında · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Boğdan Voyvodalığı",
+    "f": "1456-06-01",
+    "t": "1859-02-05",
+    "kaynak": "ABİ MERKEZ: Bârlad/Bîrlad (69,8 km; Boğdan) ve Râmnicu Sărat (36,6 km; Eflak) — gün komşudan: Bârlad v 1456-06-01..1859-02-05 (Boğdan'ın Osmanlı'ya haracgüzâr oluşu) · EB1911 «Focshani» (Wikisource): «on the river Milcov, which formed the ancient frontier of the former principalities of Moldavia and Walachia» (Fokşani Milcov sınırında; Boğdan yakası Fokşani, Eflak yakası Focşanii Munteni — şehir Putna/Boğdan tarafındadır, BEYANLI) · TDV Vâsıf Ahmed Efendi / Küçük Kaynarca: 'Fokşan(i) kasabasında barış görüşmeleri' (Ağustos 1772) · TDV Hasan Paşa Kethüdâ: 'kuvvetler ağustos başında Fokşan’da' (1789 yenilgisi) · Eflak-Boğdan sınırında Boğdan yakası (tâbi beylik: Boğdan; Eflak yakası Focşanii Munteni ayrı) BEYANLI · TDV Küçük Kaynarca/Vâsıf: 1772 Fokşani barış görüşmeleri · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1789-08-01",
+    "t": "1792-01-09",
+    "kaynak": "EB1911 «Focshani» (Wikisource): «on the river Milcov, which formed the ancient frontier of the former principalities of Moldavia and Walachia» (Fokşani Milcov sınırında; Boğdan yakası Fokşani, Eflak yakası Focşanii Munteni — şehir Putna/Boğdan tarafındadır, BEYANLI) · TDV Vâsıf Ahmed Efendi / Küçük Kaynarca: 'Fokşan(i) kasabasında barış görüşmeleri' (Ağustos 1772) · TDV Hasan Paşa Kethüdâ: 'kuvvetler ağustos başında Fokşan’da' (1789 yenilgisi) · TDV hasan-pasa-kethuda: 'kuvvetler ağustos başında Fokşan’da (Foczani/Fokschany)' yenildi (1789-08-01 AY başı; atlas 1789-08-01) — Rus-Avusturya birleşik kuvvetleri Boğdan'ı işgal etti · t: gün komşudan Kalas (Galatz) isg rusya 1789-05-01..1792-01-09 (Yaş Antlaşması 9 Ocak 1792; komşu kaydı) · isg: Rus işgali sahipliği değiştirmedi (Boğdan beyi Osmanlı tâbii) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1806-11-30",
+    "t": "1812-05-28",
+    "kaynak": "gün komşudan: Bârlad/Kalas isg rusya 1806-11-30..1812-05-28 (Bükreş Antlaşması 28 Mayıs 1812; komşu kayıtları) — 1806-12-25 Eflak tarafı Rimnic'te · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1828-05-07",
+    "t": "1834-01-01",
+    "kaynak": "gün komşudan: Bârlad/Kalas isg rusya 1828-05-07..1834-01-01 (Edirne Antlaşması 1829 sonrası Rus askerî idaresi/Organik Nizamname; komşu kayıtları) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "v",
+    "k": "Birleşik Prensler (Eflak-Boğdan)",
+    "f": "1859-02-05",
+    "t": "1877-05-21",
+    "kaynak": "gün komşudan: Bârlad v 1859-02-05..1877-05-21 (Cuza'nın çifte seçimi; künye romanya f=1859-02-05) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1877-04-24",
+    "t": "1878-01-31",
+    "kaynak": "gün komşudan: Bârlad/Buzău isg rusya 1877-04-24..1878-01-31 (komşu kayıtları) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya",
+    "f": "1877-05-21",
+    "t": "1881-03-26",
+    "kaynak": "gün komşudan: Bârlad romanya 1877-05-21..1881-03-26 (künye romanya 1859-02-05..1881-03-26) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1881-03-26",
+    "t": "1947-12-30",
+    "kaynak": "gün komşudan: Bârlad/Buzău romanya-kralligi 1881-03-26..1947-12-30 (künye romanya-kralligi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "kaynak": "gün komşudan: romanya-halk 1947-12-30..1989-12-22 (künye romanya-halk) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-cumhuriyeti",
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: romanya-cumhuriyeti 1989-12-22 (künye romanya-cumhuriyeti f) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Maçin": {
+  "lat": 45.24371,
+  "lon": 28.13564,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Dobruca» (Maçin Kuzey Dobruca şehri; Berlin 1878 sonrası Romanya idaresi), TDV «Başmukātaa Kalemi». Zincirin tamamı İshakçı (25,6 km) komşu emsalidir — ABİ MERKEZ BEYANLI (Maçin'in kendi adıyla tarihli kaynağı bulunamadı; 1281-1393 ve 1402-1419 sahibi Dobruca emsali). Maçin 1791-07-09 (Maçin muharebesi/atlas olayı) kaynaklanmadı; İbrail komşu kaydındaki Rus isg dönemleri (1809-12, 1828-29, 1877-78) Maçin için KAYNAKLANAMADI, isg yazılmadı. ATLAS ÇELİŞKİSİ: İshakçı komşu kaydında Romanya 1878-07-13'te başlıyor (künye romanya f 1859 ok).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "altinorda",
+    "f": "1281-01-01",
+    "t": "1359-01-01",
+    "kaynak": "ABİ MERKEZ: İshakçı (Isaccea, 25,6 km; Dobruca) ve İbrail (13,1 km) — gün komşudan: İshakçı altinorda 1281-01-01..1359-01-01 (künye altinorda; Kuzey Dobruca Altın Orda'da) · Maçin'in 1281-1393 sahibi kendi adıyla kaynaklanamadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "bulgar-carligi",
+    "f": "1359-01-01",
+    "t": "1393-09-01",
+    "kaynak": "ABİ MERKEZ: İshakçı (Isaccea, 25,6 km; Dobruca) ve İbrail (13,1 km) — gün komşudan: İshakçı bulgar-carligi 1359-01-01..1393-09-01 (künye bulgar-carligi 1185-1396; Dobruca despotluğu Bulgar çarlığına bağlı) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1393-09-01",
+    "t": "1402-07-28",
+    "kaynak": "ABİ MERKEZ: İshakçı (Isaccea, 25,6 km; Dobruca) ve İbrail (13,1 km) — gün komşudan: İshakçı d 1393-09-01..1402-07-28 (Dobruca'nın Osmanlı'ya katılışı; Bâyezid-i Yıldırım) · TDV dobruca (https://islamansiklopedisi.org.tr/dobruca): «Kuzey Dobruca’da Maçin, Karaharmanlık, Esterbend gibi halkının çoğu hıristiyan olan şehirler de vardı» (Osmanlı Dobrucası) · Osmanlı Dobrucası · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "eflak",
+    "f": "1402-07-28",
+    "t": "1419-01-01",
+    "kaynak": "ABİ MERKEZ: İshakçı (Isaccea, 25,6 km; Dobruca) ve İbrail (13,1 km) — gün komşudan: İshakçı eflak 1402-07-28..1419-01-01 (Mircea; künye eflak 1330-1859) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1419-01-01",
+    "t": "1878-07-13",
+    "kaynak": "ABİ MERKEZ: İshakçı (Isaccea, 25,6 km; Dobruca) ve İbrail (13,1 km) — gün komşudan: İshakçı d 1419-01-01..1878-07-13 (Berlin Antlaşması) · TDV dobruca (https://islamansiklopedisi.org.tr/dobruca): «Kuzey Dobruca’da Maçin, Karaharmanlık, Esterbend gibi halkının çoğu hıristiyan olan şehirler de vardı» (Osmanlı Dobrucası) · TDV başmukātaa kalemi: «İbrâil, İsakça, Tulça, Maçin, Ahyolu mukātaaları» (Osmanlı mukātaa); 1850'de Maçin kazası Dobruca'da (TDV dobruca) · Maçin Antlaşması (1791) / 9 Temmuz 1791 Maçin muharebesi Osmanlı kalesi (atlas olayı, kaynaksız) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya",
+    "f": "1878-07-13",
+    "t": "1881-03-26",
+    "kaynak": "ABİ MERKEZ: İshakçı (Isaccea, 25,6 km; Dobruca) ve İbrail (13,1 km) — gün komşudan: İshakçı romanya 1878-07-13..1881-03-26 (Berlin Antlaşması; TDV dobruca: 'Romanya ve Bulgaristan, 1878’den sonra… Berlin Antlaşması hükümleri') (künye romanya 1859-1881) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1881-03-26",
+    "t": "1947-12-30",
+    "kaynak": "gün komşudan: İshakçı/İbrail romanya-kralligi 1881-03-26..1947-12-30 (künye romanya-kralligi) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-halk",
+    "f": "1947-12-30",
+    "t": "1989-12-22",
+    "kaynak": "gün komşudan: romanya-halk 1947-12-30..1989-12-22 (künye romanya-halk) · TDV dobruca: Sovyet orduları 1944'te Dobruca'ya girip 1958'e kadar kaldı (isg yazılmadı: Romanya idaresi sürdü) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "romanya-cumhuriyeti",
+    "f": "1989-12-22",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: romanya-cumhuriyeti 1989-12-22 (künye f) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
+ },
+ "Pazar": {
+  "lat": 41.18019,
+  "lon": 40.88663,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız Rize/Arhavi emsaliyle (ABİ MERKEZ, BEYANLI): Pazar'ın (Atina, Lazistan) kendi adıyla tarihli kaynağı bulunamadı; TDV'de 'Pazar' maddesi yok (tdv-ara 'Pazar' başlığı başka). Pazar Çaykıran 2021'e göre 1916-03-08'de işgal edildi (Rize ile birlikte, atlas olayı) — Rus işgali isg, sahiplik Osmanlı'da kesintisiz. Rize 1918-03-02'de Osmanlı'ya döndü; Pazar için kaynaklanamadı. isg 1918'e dek sürer.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "trabzon-rum",
+    "f": "1281-01-01",
+    "t": "1461-08-15",
+    "kaynak": "ABİ MERKEZ: Rize (35,3 km) ve Arhavi (40,8 km) — gün komşudan: Arhavi trabzon-rum 1281-01-01..1461-08-15; Rize trabzon-rum 1204-01-01..1461-08-15 (künye trabzon-rum; Trabzon İmparatorluğu doğuda Batum'a dek) · Pazar (Atina) Rize ile Arhavi arasındadır · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1461-08-15",
+    "t": "1920-04-23",
+    "kaynak": "ABİ MERKEZ: Rize (35,3 km) ve Arhavi (40,8 km) — gün komşudan: Rize/Arhavi d 1461-08-15 (Trabzon'un fethi) .. 1920-04-23 (TBMM) · Rus işgali (Rize 1916-03-08..1918-03-02) isg olarak ayrıca · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1916-03-08",
+    "t": "1917-03-15",
+    "kaynak": "ABİ MERKEZ: Rize (35,3 km) ve Arhavi (40,8 km) — gün komşudan: Rize rusya 1916-03-08..1917-03-15 (Rus işgali; atlas olayı 1916-03-08; Çaykıran 2021 — Rize komşu kaydı) · isg: sahiplik Osmanlı'da kesintisiz · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "kaynak": "ABİ MERKEZ: Rize (35,3 km) ve Arhavi (40,8 km) — gün komşudan: Rize rusya-gecici-hukumet 1917-03-15..1917-11-07 (isg) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "transkafkasya",
+    "f": "1917-11-07",
+    "t": "1918-03-02",
+    "kaynak": "ABİ MERKEZ: Rize (35,3 km) ve Arhavi (40,8 km) — gün komşudan: Rize transkafkasya 1917-11-07..1918-03-02 (Transkafkasya Komiserliği/Seym altında işgal; isg) · Hopa 1918-03-14 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "tbmm-turkiye",
+    "f": "1920-04-23",
+    "t": "1923-10-29",
+    "kaynak": "ABİ MERKEZ: Rize (35,3 km) ve Arhavi (40,8 km) — gün komşudan: Rize/Arhavi tbmm-turkiye 1920-04-23..1923-10-29 (künye tbmm-turkiye) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "turkiye-cumhuriyeti",
+    "f": "1923-10-29",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Rize (35,3 km) ve Arhavi (40,8 km) — gün komşudan: Rize/Arhavi turkiye-cumhuriyeti 1923-10-29 (TDV 'Türkiye Cumhuriyeti'; künye f)"
+   }
+  ]
+ },
+ "Kızılrubat": {
+  "lat": 33.82112,
+  "lon": 44.41145,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı yalnız Bağdat emsaliyle (ABİ MERKEZ, BEYANLI). TDV'de Kızılrubat/Hânekîn maddesi yok (tdv-ara boş; arama 'hanekin' için madde yok; TDV 'Irak [Ülke]' Hânekîn'i demiryolu hattı olarak anar). Kızılrubat atlas olayı (1917-12-06) kaynaklanamadı — Bağdat'ın 1917-03-11'i kullanıldı, Kızılrubat'ta fark 9 aya varabilir. İşgal/idare sınıflaması (İngiliz idaresi s:) komşudan.",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "ilhanli",
+    "f": "1281-01-01",
+    "t": "1340-01-01",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat ilhanli 1258-02-10..1340-01-01 (künye ilhanli 1256-1353); Kızılrubat'ın (Kızıl Ribât, Diyâlâ-Hânekîn yolu hanı) 1281 sahibi kendi adıyla kaynaklanamadı · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "celayirli",
+    "f": "1340-01-01",
+    "t": "1411-01-01",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat celayirli 1340-01-01..1411-01-01 (timurlu işgalleri 1393-1405: Bağdat 'celayirli/timurlu' sıçraması Kızılrubat için YAZILMADI) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "karakoyunlu",
+    "f": "1411-01-01",
+    "t": "1469-01-01",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat karakoyunlu 1411-01-01..1469-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "akkoyunlu",
+    "f": "1469-01-01",
+    "t": "1508-01-01",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat akkoyunlu 1469-01-01..1508-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "safevi",
+    "f": "1508-01-01",
+    "t": "1534-12-04",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat safevi 1508-01-01..1534-12-04 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1534-12-04",
+    "t": "1623-11-28",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat d 1534-12-04 (Kanunî'nin Bağdat'ı alışı).. · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "safevi",
+    "f": "1623-11-28",
+    "t": "1638-12-24",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat safevi 1623-11-28..1638-12-24 (Şah Abbas) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1638-12-24",
+    "t": "1917-03-11",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat d 1638-12-24 (IV. Murad'ın Bağdat'ı alışı) .. 1917-03-11 (İngiliz Bağdat'ı aldı) · Kızılrubat atlas olayı: 1917-12-06 'Osmanlı→İngiliz hattı (Hânekîn ile)' — bu olay Bağdat'ın 1917-03-11'inden FARKLI (Bağdat'a göre ~9 ay geç), Kızılrubat kendi günü kaynaklanamadı; Bağdat ucu BEYANLI · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1917-03-11",
+    "t": "1921-08-23",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat ingiltere 1917-03-11..1921-08-23 (İngiliz idaresi; komşu s: yazdı) · Kızılrubat için 1917-12-06 (atlas olayı, kaynaksız) UYGULANMADI · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "irak-kralligi",
+    "f": "1921-08-23",
+    "t": "1958-07-14",
+    "kaynak": "ABİ MERKEZ: Bağdat (53,7 km; Diyâlâ/Hânekîn yolu) — gün komşudan: Bağdat irak-kralligi 1921-08-23 (Faysal I; TDV irak--ulke) .. 1958-07-14 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "irak-cumhuriyeti",
+    "f": "1958-07-14",
+    "t": "2000-12-31",
+    "kaynak": "gün komşudan: Bağdat/Kerkük irak-cumhuriyeti 1958-07-14 (Library of Congress Iraq Country Study; künye irak-cumhuriyeti f)"
+   }
+  ]
+ },
+ "Blagay": {
+  "lat": 43.25892,
+  "lon": 17.88815,
+  "kur": null,
+  "bit": null,
+  "not": "Kaynaklı: TDV «Mostar» (Blagaj 1452'de Hersek içinde; 1466-1468 Osmanlı fethi; Hersek'in merkezi Blagaj). 1281-1435 Koniçe emsali ABİ MERKEZ BEYANLI (Hum'un 1281-1326 sahibi kaynaklanamadı). 1466 sonrası Mostar komşu emsali (gün komşudan, BEYANLI). TDV 'Sarı Saltuk': Blagay'da türbe (Hersek'te Blagay). ATLAS ÇELİŞKİSİ: parti kaydı ilk_sahip hersek 1448-01-01 'Stjepan Vukčić'in merkezi' — künye hersek f=1435-01-01; TDV mostar 1452'yi anar. Koniçe komşu kaydı 'bosna' künye id'si kunye.json'da yok (bosna-kralligi alındı); Mostar/Koniçe 'avusturya' id'si de yok (habsburg alındı).",
+  "zincir": [
+   {
+    "alan": "s",
+    "d": "bosna-kralligi",
+    "f": "1281-01-01",
+    "t": "1435-01-01",
+    "kaynak": "ABİ MERKEZ: Koniçe (Konjic, 44,1 km) — gün komşudan: Koniçe bosna 1281-01-01..1463-06-01 (komşu kaydı künye 'bosna'; gerçek künye bosna-kralligi 1180-1463-05-01) · Hum/Zahumlje'nin 1281-1326 sahibi (Sırp/Bosna) KAYNAKLANAMADI; Blagay 1435 öncesi Bosna'nın Hum bölgesinde Kosača tâbii · t: künye hersek f=1435-01-01 · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "hersek",
+    "f": "1435-01-01",
+    "t": "1466-01-01",
+    "kaynak": "TDV mostar (https://islamansiklopedisi.org.tr/mostar): «Mostar’ın adı ilk defa 3 Nisan 1452 tarihli bir Dubrovnik belgesinde geçer. Burada, Vladislav Hercegović adındaki prensin babasına karşı ayaklandığında Blagaj’ı ve Neretva Köprüsü üzerindeki iki küçük kaleden… bölgeyi ele geçirdiğinden söz edilir. 1466-1468’de Blagaj, Osmanlılar tarafından fethedildikten az önce Mostar da zaptedilmiş olmalıdır» · «Hersek’in merkezi Blagaj’ın yerini Mostar alınca» (1483 sonrası) · Blagaj Kosača/Hersek Dükalığı'nın merkezi (TDV: 'Hersek’in merkezi Blagaj') · gün komşudan: Mostar hersek 1452-04-03..1466-01-01 · f: künye hersek f=1435-01-01 (Stjepan Vukčić Kosača) · t: 1466-1468 aralığı, ilk yıl alındı (YIL, BEYANLI; Mostar komşu kaydı 1466-01-01) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1466-01-01",
+    "t": "1878-07-29",
+    "kaynak": "TDV mostar (https://islamansiklopedisi.org.tr/mostar): «Mostar’ın adı ilk defa 3 Nisan 1452 tarihli bir Dubrovnik belgesinde geçer. Burada, Vladislav Hercegović adındaki prensin babasına karşı ayaklandığında Blagaj’ı ve Neretva Köprüsü üzerindeki iki küçük kaleden… bölgeyi ele geçirdiğinden söz edilir. 1466-1468’de Blagaj, Osmanlılar tarafından fethedildikten az önce Mostar da zaptedilmiş olmalıdır» · «Hersek’in merkezi Blagaj’ın yerini Mostar alınca» (1483 sonrası) · Blagaj'ın Osmanlı fethi · gün komşudan: Mostar d 1466-01-01..1908-10-05 · TDV mostar: Hersek fethi 888 (1483) ile tamamlandı; künye bosna-eyaleti 1463-06-01..1878-07-29 (Berlin: Avusturya işgali 29 Temmuz 1878) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "isg",
+    "d": "bosna-isgal",
+    "f": "1878-07-29",
+    "t": "1908-10-05",
+    "kaynak": "gün komşudan: Mostar/Koniçe isg avusturya 1878-07-29..1908-10-05 (künye bosna-isgal 1878-07-13..1908-10-06; Berlin Antlaşması hükümranlık Osmanlı'da) — isg: nominal Osmanlı hükümranlığı sürdü · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "d",
+    "f": "1878-07-29",
+    "t": "1908-10-05",
+    "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar d (Osmanlı hükümranlığı) 1878-07-29..1908-10-05 (isg avusturya ile birlikte) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "habsburg",
+    "f": "1908-10-05",
+    "t": "1918-11-11",
+    "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar avusturya 1908-10-05..1918-11-11 (ilhak; künye habsburg 1282-12-27..1918-11-12) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "sirbistan-kralligi",
+    "f": "1918-11-11",
+    "t": "1918-12-01",
+    "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar sirbistan-kral 1918-11-11..1918-12-01 (künye sirbistan-kralligi 1882-03-06..1918-12-01) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1918-12-01",
+    "t": "1941-04-10",
+    "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar yugoslavya 1918-12-01..1941-04-10 (SHS Krallığı; künye yugoslavya) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "hirvatistan-bagimsiz",
+    "f": "1941-04-10",
+    "t": "1945-05-06",
+    "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar hirvatistan-ba.. 1941-04-10..1945-05-06 (NDH; künye hirvatistan-bagimsiz 1941-04-10..1945-05-08) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya",
+    "f": "1945-05-06",
+    "t": "1945-11-29",
+    "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar yugoslavya 1945-05-06..1945-11-29 (künye yugoslavya t=1945-11-29) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "yugoslavya-federal",
+    "f": "1945-11-29",
+    "t": "1992-03-03",
+    "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar yugoslavya-fed.. 1945-11-29..1992-03-03 (künye yugoslavya-federal 1945-11-29..1992-04-27) · BEYANLI YAKLAŞIKLIK"
+   },
+   {
+    "alan": "s",
+    "d": "bosna-hersek",
+    "f": "1992-03-03",
+    "t": "2000-12-31",
+    "kaynak": "ABİ MERKEZ: Mostar (11,4 km) — gün komşudan: Mostar bosna-hersek 1992-03-03 (künye bosna-hersek f=1992-03-03) · BEYANLI YAKLAŞIKLIK"
+   }
+  ]
  }
 }

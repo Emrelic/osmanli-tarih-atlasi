@@ -122,3 +122,29 @@ Açık borç:
 - **Romanya geçişi:** Orsova Romanya'yı 1918-01-01'de (YIL) başlatıyor. Mehádia'da Trianon günü (1920-06-04) kullanıldı. Banat'ın Romanya'ya geçiş günü kayıtlar arasında tutarsız.
 - **Novigrad / Vaç:** MKL'ye göre Nógrád 1594-1663 arasında Habsburg'daydı. Vaç'ın 1544-1684 kesintisiz Osmanlı zinciri gözden geçirilmeli.
 - **Doğrulayıcı:** Boş zincirli noktalar artık ⏸ KURULAMADI olarak sayılıyor ve çıkış kodu 2 dönüyor. Daha önce bunlar ✅ görünüyordu.
+
+### Parti 3 — 20 nokta (denetim: 14 ✅ · 4 ❌ künye aralığı · 2 ⏸)
+
+| nokta | durum | özet |
+|---|---|---|
+| Selâ | ✅ | TDV Muvahhidler/Merînîler: Merînî 1248-04-26 (646). Fransız 1911-07-19 `isg` |
+| Cezîretülhadrâ (Algeciras) | ❌ künye | Hammûdî düşüşü TDV'de 450/1058, `malaga-hammudiler` künyesi ise 1057-03-10'da bitiyor. Murâbıt geçişi 479/1086 (YIL) |
+| Somnât | ❌ künye | Gazneli fethi 8 Ocak 1026 (TDV). Çaulukya sahipliği KAYNAK-GEREK. 1026-1748 Diu/Cûnâgadh emsali. `gucerat-sultanligi` t'si 1573-01-01, komşu 02-26 diyor |
+| Misilmeri | ❌ künye | Zincirin tamamı Palermo'dan (ABİ MERKEZ). `sicilya-aragon` 1282-08-30'da başlıyor, komşu 03-30 diyor (Sicilya Komünü künyesiz). `italya` 1861-03-17'de başlıyor, komşu 02-13 diyor |
+| Rânye | ⏸ | Komşusu yok, TDV'de geçmiyor |
+| Menfûha | ✅ | Riyad'dan; zincir 1744'te başlıyor, kur yok (beyanlı) |
+| Oskol | ✅ | Zincir 1593'te başlıyor. 1593 kuruluşu yalnız ru.wikipedia aktarımında var, bu yüzden `kur` yazılmadı. **KASA:** kaynaklı bir kuruluş okunmadan 1593 başlangıcı yayına alınmamalı |
+| Altınköprü | ✅ | TDV Kerkük/Musul: 1625'te geri alındı, Mondros'a dek Osmanlı |
+| Kırkağaç | ✅ | Yunan işgali 1920-06-24'ten itibaren `isg` (TÜBA). Listedeki 06-22 Akhisar'ın günüydü |
+| Oltu | ⏸ (UMIT) | Taslak zincir 1878-1918'i Osmanlı bırakıyordu. Komşular Sarıkamış ve Artvin 1878'de Rus oluyor, Oltu da Kars oblastı okruguydu. Bu yüzden taslak `taslak_zincir` alanına alındı ve KASA'ya verilmiyor |
+| Adakale | ✅ | TDV: Ağustos 1738 (AY), Osmanlı Lozan'a dek; `bit` 1972 baraj (YIL) |
+| Mozdok | ✅ | TDV Çerkezler: kale 1763'te yaptırıldı, `kur` 1763-01-01 (YIL) |
+| Fokşani, Maçin, Pazar, Kızılrubat, Gerger, Rumkale, Kadirli, Blagay | ✅ | Hepsi ABİ MERKEZ ile beyanlı (Bârlad, İshakçı, Rize, Bağdat, Dulkadıroğulları, Sis, Koniçe/Mostar). Kızılrubat'ın 1917 günü Bağdat'ın 03-11'i, olaydan 9 ay önce olabilir |
+
+**KASA'ya (parti 3):**
+- **Künyesiz:** Sicilya Komünü (1282) · Hammûdîlerin Cezîretülhadrâ kolu · Ebûrakrâk (Rabat-Selâ) cumhuriyeti · Fetret şehzade künyeleri (`isa-celebi`, `mehmed-celebi`, `suleyman-celebi`). Soma kaydı bu şehzadeleri `s:` olarak yazıyor, ama devletler.js'te bu id'ler yok.
+- **Rabat kaydı:**
+  - Fransız himayesi orada 1923-10-29'da başlıyor; künye ve TDV 1912-03-30 diyor.
+  - Merînî geçişi 1251 olarak yazılı. TDV Rabat da 649/1251 der, ama TDV Muvahhidler ve Selâ 646/1248 der.
+- **Oltu kaydı:** 1534'teki fetih TDV Kars'ta var. TDV Çıldır Eyaleti ise 1536 diyor.
+- **Mekke ve Necid:** Rânye için kaynak bulunamadı.
