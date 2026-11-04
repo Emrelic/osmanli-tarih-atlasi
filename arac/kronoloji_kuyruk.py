@@ -270,6 +270,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1186": ("tarih düzelt", "Quang Trung ilanı 1788-11-22 → 1788-12-22: Takvim: Qianlong 53 戊申, 11. ay 25. gün = 1788-12-22 Gregoryen (Academia Sinica, EMRELİC) — atlas «11. ay»ı Kasım okumuş; Tây Sơn takvimi Qing'den ±1 gün sapabilir → ic_not"),
     "L2-1155": ("tarih düzelt", "Gürcistan 1744-01-01 → 1744-07-01 + «[yalnız ay teyitli]»: Georgian National Encyclopedia «Teimuraz II» — «the Shah confirmed Teimuraz II as King of Kartli and Erekle as King of Kakheti in July 1744»; atlas metni TERS (Teimuraz Kaheti, Erekle Kartli diyor) → metin de düzeltilir; tek kaynak (Iranica 403)"),
     "L2-1212": ("tarih düzelt", "Sam Houston «ilk başkanı seçildi» 1836-10-01 → 1836-09-05 seçim günü (TSHA, Nance «Republic of Texas»: «On election day, September 5»); yemin 1836-10-22 ic_not"),
     "L2-1208": ("tarih düzelt", "Menotti ayaklanması 1831-02-04 → 1831-02-03: Treccani DBI «Menotti, Ciro» — tutuklama sabahı 3 Şubat, hareket aynı akşam; madde ayaklanma ile idamı birleştiriyor → idam 1831-05-26 («Il 26 maggio 1831 la sentenza fu eseguita») ayrı madde"),
@@ -285,7 +286,7 @@ DEGISTIR = {
     "L2-2256": ("tarih düzelt", "Otto I 1190 → 1188: NDB 1188 (belge), en geç Nisan 1189; atlas 1190 EB1911 saltanat aralığına dayanır (EMRELİC)"),
     "L2-2237": ("tarih düzelt", "Foix Roger-Bernard I 1148 → 1149: Gran Enciclopèdia Catalana Roger-Bernard I 1149-88, Roger III 1124-48 → 1148/1149 ic_not'ta beyan (EMRELİC)"),
     "L2-1120": ("tarih düzelt", "Charnock Kalküta 1690-08-24 → 1690-09-03 Gregoryen: İngiliz Doğu Hindistan Şirketi kaydı O.S. — «24 Ağustos 1690» Jülyen'de Pazar, Gregoryen'de Perşembe (haftanın günüyle ölçüldü); Banglapedia ve Calcutta Past and Present 24 Ağustos (O.S.), TDV 1690 → ic_not iki gün; «üç köyü birleştirerek» TDV ve Banglapedia'da yok; 2003 Kalküta Yüksek Mahkemesi Charnock'ı «kurucu» saymaz"),
-    "L2-1110": ("tarih düzelt", "Üç Senyörlük İsyanı 1673-12-01 → 1673-12-28: Hummel, Eminent Chinese of the Ch'ing Period «Wu San-kuei» — «set up the standard of revolt on December 28, 1673» (Kangxi 12/11/21 beklenir; Wikisource özeti okundu, Cambridge History of China 9 okunamadı)"),
+    "L2-1110": ("tarih düzelt", "Üç Senyörlük İsyanı 1673-12-01 → 1673-12-28: Hummel, Eminent Chinese «Wu San-kuei» — «set up the standard of revolt on December 28, 1673»; Takvim: Kangxi 12/11/21 = 1673-12-28 Gregoryen (Academia Sinica, EMRELİC) — çift teyit"),
     # LAB L2L 1451-1550 + HAVVA L2H 1575-1694 + EMRELİC — Academia Sinica / NAOJ takvim düzeltmeleri
     "L2-1956": ("tarih düzelt", "617-02-10 → 617-02-15: Takvim: 1. ay 5. gün 丙辰 = 617-02-15 (Academia Sinica, EMRELİC; (JDN+49) mod 60 çapraz)"),
     "L2-1957": ("tarih düzelt", "617-02-10 → 617-02-15: Takvim: 1. ay 5. gün 丙辰 = 617-02-15 (Academia Sinica, EMRELİC; (JDN+49) mod 60 çapraz)"),
@@ -640,7 +641,6 @@ METIN = [
     ("L2-1201", "[BEKLE — akademik sayfa okunmadı] Minh Mạng tahta çıkışı 1820-01-01 → 1820-02-14 adayı (Gia Long 3 Şubat 1820 öldü; yalnız Vikipedi)"),
     ("L2-1206", "[BEKLE — gün yok] Choctaw / Dancing Rabbit Creek: Encyclopedia of Alabama imza 27 Eylül 1830, 15 Eylül günü yok (UTK Papers of Andrew Jackson ipucu)"),
     # L2S 771-806 (S34/S36)
-    ("L2-1186", "[BEKLE — Academia Sinica] Quang Trung ilanı atlas 1788-11-22: kaynaklar 25. gün, 11. ay, Mậu Thân = 1788-12-22 Gregoryen der — atlas ay-güneş «11. ay»ı Gregoryen Kasım sanmış görünür; Qianlong 53/11/25 Academia Sinica ile çevrilip tarih düzelt"),
     ("L2-1183", "[BEKLE — Colvin/Boulègue okunmadı] Abdul Kader'in Cayor seferi 1786: Boulègue 1999 Bunxoy «c. 1796», Colvin JAH 1974 s.599-601 1796; 1786 Trarza emiri Ali Kouri'nin Dagana yakınında yenilgisi → madde 1796'ya ya da metin düzeltilir"),
     ("L2-1175", "Chickamauga: yerleşimler 1776-77 kışında kuruldu; «ayrılıp grubu oluşturdu» savaş başlangıcıyla aynı an değil (Tennessee Encyclopedia: 1776 yazı Island Flats saldırısı)"),
     ("L2-1184", "[BEKLE — rakamlar kaynaksız] Cenova 1786 nüfus/gelir dökümü: Bitossi 1995 ilk sistematik nüfus tahmini 1797"),
