@@ -973,6 +973,32 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Osmanlı f: atlas 1534-12-04 (`data/olaylar.js:86`), TDV 28 Kasım 1534. 6 günlük farkın kaynağı LAB'a.
 - **Sınır:** çift teyit yok, Iranica denenmedi. Bulunamayanlar: TDV «Hille» içerik, «Kûfe», «Hânekîn». LAB'a 8 soru.
 
+## 41. ONERI yükseltme turu — 1. GEÇİŞ TAMAM (108/108; UMIT, 5 Kasım 2026)
+- **Toplam (`topla.py`):** KAYNAKLI 3640 · ONERI 1453 · BULUNAMADI 1963 · BAKILMADI 187. ONERI turdan önce 1726 idi.
+- **Kova:** HATALI_ONERI 370 · CELISKI 108. `tarayici_gerekli` 77.
+- **İkinci geçiş:** eski ölçütle sınanan 5 parti yeni ölçütle yeniden sınanıyor.
+  - y_002b birleşti: 5 KAYNAKLI, 6 HATALI.
+  - y_003b, y_005b, y_006b, y_009b koşuyor.
+- **Kova desenleri, sıklık sırasıyla:**
+  1. Hayalet devlet: önerilen gün künyenin f/t'si dışında. En sık örnekler isa-celebi, celayirli 1339, tay-son 1772/73, rusya-gecici-hukumet uzatmaları, bengal 1338, candar 1291/1304.
+  2. Yıla indirme delik, çakışma ya da sıfır uzunluk doğuruyor. Fetret satırlarında sistemik.
+  3. Himaye/tâbilik devir sayılmış: Nahçıvan, Ordubad, Culfa, Bălți, Annam, Larache.
+  4. Savaş işgali sahiplik sayılmış: Oreşek, Huy, Nedrûme, Alacahisar, Bolonya 1945.
+  5. Koordinatör ve bölge kararlarıyla çelişki: Londra 1913, Musul, Lübnan, İstanbul kuşağı, Bosna 1908.
+- **Bu turda yazılan koordinatör kararları:** gece-33, 36, 38, 41, 45, 52 (DA-BRIEF). Küme işleri:
+  - Irak (`bagdat_kume.json`, §40).
+  - Telavi (`telavi_os.json`).
+  - Dobruca/Enez/Hürmüz (`dobruca_kume.json`, koşuyor).
+- **UMIT düzeltmeleri (ajan hükmü bozuldu):**
+  - Sarp: önce TEK ÖLÇÜ ile düzeltildi, sonra elviye kuralına geri alındı.
+  - Cübeyl: Lübnan notu yanlış yere yapışmıştı.
+  - İzdin: dolaylı çıkarım.
+  - Kazan 1552: CELISKI.
+  - Musul 1517: 04-03 → 04-01.
+  - Çorum: 1398-07-15.
+  - Ubârî: Fizan kararı.
+  - Telavi: koşullu ONERI'den KAYNAKLI'ya.
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.
