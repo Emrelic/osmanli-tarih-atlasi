@@ -126,3 +126,96 @@ Karar: **okunmadı (JSTOR'da gün veren kaynak yok).** "Verkhneudinsk Chita capi
 Teyit: Uygur 744 (çift), Qing 1616 (yıl), Krum 13 Nisan 814 (Treccani ile çift). Bursa: 1403/1410/1413 yılları teyit; Süleyman'ın Bursa'yı alışı kaynakta belirsiz (1403 sonu ya da 1404 sonu), atlasın Mart 1404'ü bu aralıkta.
 ② **Bulamadım:** Bulgar 681 (ODB kapalı), Kanem kuruluş yüzyılı ve 1897/1902 ayrımı (ORE 403), EI² ölüm günleri (Brill 403), Košice dönüş günü, Çita taşınma günü (JSTOR'da yok), *Sons of Bayezid* 112–113.
 ③ **İstiyorum:** Bursa 1404-03-01 için *Sons of Bayezid* s. 112–113 (kütüphane/Google Books) okunsun; okunana dek `olaylar_ek5.js` 1404-03-01 maddesine "Kastritsis 2022: 1403 sonu ya da 1404 sonu" beyanı eklenmesini öneririm. Doğu Göktürk-2 `t` ve `uygur` `f` 744'e indirilsin (B10 önerisi bu okumayla güçlendi).
+
+---
+
+## Lot B (UMIT)
+
+Kalem başına ≤15 dk; yalnız JSTOR (görüntüleyicide sayfa okundu). Arama parçası teyit sayılmadı.
+
+### K161 — Siak 1590–1615 Johor'a bağlı mı?
+- Karar: **teyit (genel; yıl aralığı kaynakta yok).** Kaynak, 1526 sonrası Siak'ta Johor (Melaka soyu) prenslerinin hükümdar olarak tahta çıkarıldığını ve Johor'un Siak üzerinde hak iddia ettiğini söyler; bu iddianın yalnız ova kesiminde tanındığını da ekler. 1590–1615 için ayrıca tarih vermez.
+- Barbara Watson Andaya, "Recreating a Vision: Daratan and Kepulauan in Historical Context", *Bijdragen tot de Taal-, Land- en Volkenkunde* 153/4 (1997), s. 483–508, s. 489. https://www.jstor.org/stable/27865385
+- Alıntı: "Johor princes… continued to be installed as rulers in places such as Kampar and Siak."
+- Not: aynı sayfa: "Johor might thus claim authority over Siak… but recognition… never reached far beyond the lowlands." Haritada "Johor'a bağlı" boyaması beyanlı olmalı (nominal metbuluk).
+
+### K241 — Lampung 1808–1811: Banten mı, Daendels'in Hollanda'sı mı?
+- Karar: **çelişki adayı (gün kaynaklı): Lampung 22 Kasım 1808'de Banten'den ayrıldı.** Daendels'in 22 Kasım 1808 nizamnamesiyle Lampung, Tangerang ve Jasinga başka idari birimlere bağlandı. Banten sultanlığı da 1808'de Hollanda "domain"i ilan edildi. ⇒ 1808-11-22'den sonra Lampung Banten'in değil, Hollanda (Daendels) idaresinin.
+- Sartono Kartodirdjo, *The Peasants' Revolt of Banten in 1888* (KITLV Verhandelingen 50, 1966), bölüm III "Political Development", s. 73, dn. 15 (açık erişim). https://www.jstor.org/stable/10.1163/j.ctt1w76vfh.6
+- Alıntı (dn. 15): "Lampung, Tangerang and Djasinga were brought under other administrative units… Nov. 22, 1808"
+- Ek: aynı sayfa: "After the annexation of the Banten sultanate by Daendels in 1808…"
+
+### K269 — Cirebon 1619–1677: Mataram mı, Banten mı?
+- Karar: **okunmadı.** Sutherland, "Notes on Java's Regent Families I" (*Indonesia* 16, 1973) ve Guillot, "Banten in 1678" (*Indonesia* 57, 1993, s. 89) okundu; ikisi de 1619–1677 metbuluğunu tarihlemiyor. Guillot yalnız 1678'de Batavia ile "Cirebon meselesi" çatışmasının başladığını yazar (https://www.jstor.org/stable/3351243).
+
+### K302 — Kuching 1819–22 Brunei'nin mi? Brooke'a devir günü 1841
+- Karar: **Brooke günü teyit: 24 Eylül 1841** (Brooke'un kendi mektubundan); Sultan'ın kesin feragati **1 Ağustos 1842**. 1819–22 Brunei egemenliği: **okunmadı** (kaynak 1830'lar için Brunei valisi Pengeran Makota'yı anar, 1819–22'yi değil).
+- Graham Irwin, *Nineteenth-Century Borneo: A Study in Diplomatic Rivalry* (KITLV 1955), bölüm IV "The White Raja of Sarawak", s. 76–77 (açık erişim). https://www.jstor.org/stable/10.1163/j.ctvbnm4tq.10
+- Alıntılar: s. 76 "on the 24th September, 1841, I became the governor of Sarawak" · s. 77 "at ten o'clock in the evening of August 1st, 1842"
+- Not: Şubat 1841'de "Resident of Sarawak" unvanı var, egemenlik devri yok (s. 76). Atlas 1841 için 24 Eylül'ü, Brunei'nin hukukî devri için 1 Ağustos 1842'yi ayrı madde olarak düşünmeli.
+
+### K042 — Harmand (25.8.1883) ve Patenôtre (6.6.1884) Huế antlaşmaları
+- Karar: **ikisi de teyit.**
+- (a) Harmand: Bernard Dahm, Brötel'in *Französischer Imperialismus in Vietnam* kitabı üzerine inceleme, *Journal of Southeast Asian Studies* 4/2 (Eylül 1973), inceleme metninin 2. sayfası. https://www.jstor.org/stable/20070055 — Alıntı: "on August 25, 1883, the imposition on Hue of the French protectorate (Harmand Convention)"
+- (b) Patenôtre: Nguyên Thê Anh, "The Vietnamese Monarchy under French Colonial Rule 1884–1945", *Modern Asian Studies* 19/1 (1985), s. 147–162, s. 147. https://www.jstor.org/stable/312324 — Alıntı: "The protectorate treaty of 6 June 1884 was the first act"
+
+### K130 — Nguyễn Ánh Phú Xuân'ı aldı (1801-06-15?); Thăng Long 1802
+- Karar: **okunmadı.** Dutton, "Flaming Tiger, Burning Dragon" (*EASTM* 21, 2003, s. 78'de "1801" geçiyor) açıldı ama metin katmanı eksik yüklendi; "June 1801" araması alakasız sonuç verdi.
+
+### K135 — Fransızlar Zinder'i aldı (30.7.1899?)
+- Karar: **ay teyit (Temmuz 1899), gün okunmadı.** Kaynak Meynier'nin Temmuz 1899'da Zinder'e varışını ve Cazemajou'nun 1899'daki intikamını (sarki Amadou Kouran Daga'nın öldürülmesi) yazar. Kalıcı Fransız garnizonu **Ağustos 1900**'de kuruldu; bu ayrı bir kırılma olabilir.
+- Camille Lefebvre, "Zinder 1906, histoires d'un complot: Penser le moment de l'occupation coloniale", *Annales HSS* 72/4 (2017), s. 945–981, s. 952. https://www.jstor.org/stable/90024821
+- Alıntılar: "qui avaient stupéfié le lieutenant Octave Meynier à son arrivée en juillet 1899" · "Les militaires français s'installent à Zinder en août 1900"
+
+### K213 — El-Hac Ömer Segu'yu 10.3.1861'de mi aldı? Cenne 1862?
+- Karar: **ay teyit (Mart 1861), gün okunmadı.** Hamdullahi seferine çıkış Nisan 1862. Cenne'nin alınış günü bulunamadı.
+- Humphrey J. Fisher, Mahibou ve Triaud'nun *Voilà ce qui est arrivé* (Bayân mâ waqa'a) neşri üzerine inceleme, *BSOAS* 48/1 (1985), s. 133–134, s. 133. https://www.jstor.org/stable/618786
+- Alıntı: "'Umar's conquest of the Bambara capital of Segu in March 1861"
+- Destek (yıl): John H. Hanson, "Historical Writing in Nineteenth Century Segu", *History in Africa* 12 (1985), s. 105: Umar Segu'da 1861/62, Masina seferi 1862–64. https://www.jstor.org/stable/3171715
+
+### K174 — Duala Alman himayesi 12–14.7.1884; 1868–84 Hollanda egemenliği?
+- Karar: **teyit.** Antlaşma 12 Temmuz 1884'te imzalandı; Nachtigal bayrağı 14 Temmuz 1884'te çekti. **Hollanda egemenliği: kaynakta yok.** 41 sayfalık bölüm tarandı, "Dutch/Netherlands" geçmiyor. Bölüm, 1840–1884 arasında yöreyi gayriresmî olarak İngilizlerin (tüccar ve misyonerler) yönettiğini yazar. 1868, Woermann firmasının ticarete başladığı yıldır; bu bir egemenlik tarihi değildir.
+- Mieke van der Linden, *The Acquisition of Africa (1870–1914): The Nature of International Law* (Brill Nijhoff 2017), bölüm 7 "German Cameroon", s. 180, 191, 194–195 (açık erişim). https://www.jstor.org/stable/10.1163/j.ctv2gjx0ns.10
+- Alıntılar: s. 191 "On 12 July 1884, Germany and the African rulers Bell, Akwa and Didos signed" · s. 180 "On 14 July 1884, Nachtigal hoisted the German flag in Cameroon"
+- Not: s. 195'e göre şirketler antlaşmayı iki gün sonra, 14 Temmuz'da Nachtigal'e devretti. Egemenlik önce şirketlere geçti.
+
+### K203 — Rehoboth Basterleri 1870 yerleşimi ve 1885 Alman himayesi
+- Karar: **1870 teyit; 1885 yıl teyit, gün okunmadı.**
+- Hartmut Lang, "The transition from communal to private land ownership in Rehoboth, Namibia", *Zeitschrift für Ethnologie* 124/2 (1999), s. 319–333, s. 319–320. https://www.jstor.org/stable/25842719
+- Alıntılar: "After a two year trek they arrived in 1870 in Rehoboth." · "In 1885 a treaty of protection and friendship between the Basters and the German Imperial Government"
+
+## Lot D (UMIT, JSTOR kısmı)
+
+### E020 — Kızıl Ordu Kaunas'ı aldı (1 Ağustos 1944?)
+- Karar: **okunmadı.** Aramalar ("Kaunas August 1944", "Kovno liberated August 1, 1944") gün veren bir sayfa getirmedi.
+
+### E024 — Sevilla Temmuz 1936; kuzeyle bağlantı
+- Karar: **okunmadı.** İngilizce ve İspanyolca aramalar (Queipo de Llano, Triana, julio 1936) yalnız darbenin 18 Temmuz'da başladığını veriyor; Sevilla'nın düşüş günü ve kuzeyle (Mola) bağlantı günü bulunamadı.
+
+### K454 — Quilon (Kollam) Hollanda dönemi ve İngiliz geçişi
+- Karar: **Hollanda alışı yıl teyit (1661 sonu)**; İngiliz geçişi okunmadı.
+- Glenn J. Ames, *Renascent Empire? The House of Braganza and the Quest for Stability in Portuguese Monsoon Asia, ca. 1640–1683* (Amsterdam UP 2000), bölüm VI, s. 149 (açık erişim). https://www.jstor.org/stable/j.ctt46n20b.10
+- Alıntı: "Van Goens… had taken a powerful fleet to Malabar in late 1661. This force quickly captured Quilon"
+- Koshy, "The Dutch Conquest of Kerala" (*Proc. Indian History Congress* 57, 1996) okundu; Quilon için gün vermiyor.
+
+### K485 — Hacıbey (Odessa) 25 Eylül 1789 (Jülyen 14 Eylül?)
+- Karar: **okunmadı.** "Hadjibey/Khadzhibei 1789" aramaları ilgili sonuç vermedi.
+
+### E081 — Herceg-Bosna ilanı 18.11.1991 ve fiilî sonu
+- Karar: **18 Kasım 1991 teyit.** Ek bilgi: Herceg-Bosna 28 Ağustos 1993'te "Cumhuriyet" ilan edildi. Fiilî sonu olarak yalnız ay okundu: Mart 1994'te ABD baskısıyla Müslüman–Hırvat federasyonu anlaşması (18 Mart günü bu kaynakta yok). Ayrıca Gromes 2014 (PRIF raporu, https://www.jstor.org/stable/resrep14600.7, s. 14): Bosna–Hırvat savaşı "Ende Februar 1994"te bitti.
+- Mojmír Križan, "Postkommunistische Wiedergeburt ethnischer Nationalismen und der Dritte Balkan-Krieg", *Osteuropa* 45/3 (1995), s. 201–218, s. 211–212. https://www.jstor.org/stable/44919095
+- Alıntılar: s. 211 "am 18. November 1991 im Süden von BiH die „Kroatische Gemeinschaft Herceg-Bosna"" · s. 212 "im März 1994 zustande gekommene Abkommen der Muslime und Kroaten"
+
+## LAB soruları
+
+### Vigo 1936 — milliyetçilere geçiş günü
+- Karar: **okunmadı.** "Vigo 20 July 1936" araması yalnız İngiliz konsolosluk raporuna ve 20 Temmuz'daki Alman karşıtı eylemlere atıf getirdi; Vigo'nun düşüş günü yok.
+
+### İskoçya 1652 — Commonwealth'e katılış
+- Karar: **okunmadı (gün yok).** Derek Hirst, "The English Republic and the Meaning of Britain", *Journal of Modern History* 66/3 (1994), s. 451–486, s. 461–465 okundu (https://www.jstor.org/stable/2124481). Tender of Union'ı ve Glasgow'un onu reddetmesini anlatıyor ama Tender, 1654 ve 1657 için gün vermiyor. Kaynak: C. S. Terry (ed.), *The Cromwellian Union* (1902).
+
+### Kili 1918 — Romanya'ya geçiş
+- Karar: **okunmadı.** "Bessarabia union April 9, 1918" ve "Sfatul Tarii March 1918" aramaları gün veren sayfa getirmedi. Kolstø vd., *Europe-Asia Studies* 45/6 (1993) açıldı, metin katmanı yüklenmedi.
+
+### Nazilli ve Gediz 1920 — Yunan işgali günleri
+- Karar: **okunmadı (JSTOR'da yok).** "Nazilli 1920 Greek" araması gün veren sayfa getirmedi (Jensen 1979, *IJMES* 10 genel). DergiPark JSTOR'da değil.
