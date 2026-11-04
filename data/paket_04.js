@@ -560,7 +560,7 @@ window.OLAYLAR_EK20 = [
 //    ⇒ `CLAUDE.md §4`ün COĞRAFÎ boşluğu: Batı Avrupa'nın iç hânedan tarihi
 //    TDV'de %0 ölçülmüş. Dayanak standart akademik anlatı (Utrecht-Rastatt
 //    sonrası düzenlemeler, 1720 Lahey Antlaşması).
-{ t:"1720-02-24",
+{ t:"1720-09-02", ic_not_t:"Treccani Dizionario di Storia 'Sardegna': 'Vittorio Amedeo II di Savoia, che prese possesso dell'isola il 2 sett. 1720' · Enc. Italiana 'Sardegna': 'preso appena possesso della Sardegna (2 settembre 1720)'; Britannica 24 Ağustos 1720 'formally took possession' (9 gün fark, ic_not); eski 1720-02-24 hiçbir kaynakta yok (KASA SALI kuyruğu 44-ek, koordinatör kararı, KASA 4 Kasım 2026)",
   b:"Sardinya İspanya'dan Savoy hânedanına geçti — Sardinya Krallığı doğdu",
   tur:"antlasma",
   onem:1, dunya:2, kapsam:"dis",
