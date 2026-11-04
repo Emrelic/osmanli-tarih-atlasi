@@ -101,6 +101,31 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
    - **Ad muhafazakârlığı:** emin değilsen modern Türkçe yazımı bırak; Almanca ekzonim UYDURMA,
      Türkçe adı "Almancalaştırma" (önceki bir geçişte "Yalayiridas" gibi uydurma biçimler çıktı).
      Yerleşik Almanca adı olmayan hanedan/boy/kişi adları Türkçe yazımla kalır.
+3c. **Portekizce (pt) ölçüsü:** Portekizce akademik tarih yazımının yerleşik adları (Portekiz ve
+   Brezilya üniversitelerinin Osmanlı/Bizans/İslâm tarihi yayınları, *Enciclopédia Luso-Brasileira*
+   kullanımı). Akademik ve sade, **Avrupa Portekizcesi yazımı** (AO 1990 imlâsıyla: "ação", "ótimo";
+   Brezilya'ya özgü kelime seçmekten kaçın). Düğme dili kısa ("Mostrar", "Fechar").
+   - Império Otomano; sultão; grão-vizir; janízaros; beylerbeyi → beylerbei; sancak → sanjaco
+     (sancak adı olarak geçerse sancak); timar → timar; devşirme → devshirme; kadı → cádi;
+     şeyhülislâm → xeique do Islão (şeyhülislam).
+   - Kent **29 Mayıs 1453 fethine kadar (kuşatma dahil) Constantinopla**, sonrası **Istambul**
+     (metin "Kostantiniyye" diyorsa Constantinopla). Edirne: fetihten önce Adrianópolis, sonra
+     Edirne. Belgrad → Belgrado, Viyana → Viena, Mora → Moreia, Rumeli → Rumélia, Eflak → Valáquia,
+     Boğdan → Moldávia, Erdel → Transilvânia, Kırım Hanlığı → Canato da Crimeia, Memlükler →
+     mamelucos / sultanato mameluco, Selçuklular → seljúcidas, Safevîler → safávidas, Akkoyunlu →
+     Ak Koyunlu, Karakoyunlu → Kara Koyunlu, Venedik → Veneza, Cenova → Génova, Macaristan → Hungria. İşkodra → Shkodër ("Escútari"
+     KULLANILMAZ — Portekizcede Üsküdar ile karışır; Üsküdar → Üsküdar).
+   - Türkçe terimi parantez içinde açıklama olarak EKLEME ("tipografia (Matbaa)" yok): yalnız
+     kaynakta olan parantez kalır.
+   - Kişiler: Maomé II (Mehmed II; Fâtih lakabı yalnız metin veriyorsa "o Conquistador"),
+     Bajazeto I (Bayezid I), Solimão I (o Magnífico yalnız metin lakabı veriyorsa; Kanuni → o
+     Legislador), Murad, Selim; Batılılar Portekizcedeki yerleşik adla (Carlos V, Sacro Império
+     Romano-Germânico). Yerleşik Portekizce biçimi olmayan sultan adı (Orhan, Murad, Selim,
+     Mustafa, Ahmed, Mahmud, Abdülhamid…) akademik transliterasyonla kalır.
+   - Rakamlar Batı rakamı; `#` şablonları ve tarih denetimi rakamla çalışır. MÖ → a.C., MS → d.C.
+     Ay adları küçük harfle (janeiro, fevereiro …). Binlik ayracı nokta, ondalık virgül (kaynaktaki
+     sayı biçimini değiştirme).
+   - Uydurma ad üretme: emin değilsen modern Türkçe yazımı bırak.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
