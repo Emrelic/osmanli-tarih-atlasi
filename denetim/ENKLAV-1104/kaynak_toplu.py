@@ -96,6 +96,10 @@ U.update({
                  duzeltme="Yok.", kaynak=TDV + "miknas (K231 ile aynı)"),
     "K463": dict(guven="KAYNAKLI", kaynak=TDV + "zebid — 'Müttefik Osmanlı-Memlük ordusu 19 Cemâziyelevvel 922'de (20 Haziran 1516) Zebîd'i ele geçirdi. Şehrin idaresi "
                  "Memlük emîrlerinden Barsbay'a verildi'"),
+    "K386": dict(guven="KAYNAKLI", duzeltme="Bombay portekiz f → 1534 (Bahadır Şah - Nuno da Cunha antlaşması; veri 1521); Bombay 1661 → ingiltere (çeyiz); "
+                 "Thane 1739 Maratha kaynakla.",
+                 kaynak=TDV + "bombay — 'Portekizliler'in 1507'de yaptıkları saldırı başarılı olamadı; ancak şehir yirmi yedi yıl sonra Sultan Bahadır Şah "
+                 "Gucerâtî ile … Nuno da Cunha arasında imzalanan antlaşma ile Portekizliler'e bırakıldı. 1661'de … çeyiz olarak İngilizler'e'"),
     "K213": dict(guven="KAYNAKLI", kaynak=TDV + "cenne — 'Cenne 1861'de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi; 1893'te ise Fransız "
                  "kuvvetlerince işgal edil[di]' (tekrur kimliği Hacı Ömer devletiyse veri yıl düzeyinde doğru; 03-10 bitişi KAYNAK-GEREK)"),
 })

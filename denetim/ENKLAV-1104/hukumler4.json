@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K301-K400). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. KAYNAK5 (LAB SALI): 16 hüküm kaynak_toplu.py ile güncellendi.",
+"_aciklama": "ENKLAV-1104 hükümleri (K301-K400). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. KAYNAK5 (LAB SALI): 17 hüküm kaynak_toplu.py ile güncellendi.",
 "K301": {
 "hukum": "YAPAY",
 "kova": "YAPAY-k",
@@ -683,10 +683,10 @@
 "K386": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Bombay ve Thane 1521 → 1740 Portekiz. Bombay 1661'de Catherine'in çeyizi olarak İngiltere'ye geçti (fiilen 1665); 1661-1740 Portekiz yazımı yanlış. Thane-Bassein 1739'da Marathalara düştü (bitiş uyumlu).",
-"duzeltme": "Bombay portekiz t → 1661/1665, sonra ingiltere (kaynakla).",
-"kaynak": "veri ölçümü"
+"duzeltme": "Bombay portekiz f → 1534 (Bahadır Şah - Nuno da Cunha antlaşması; veri 1521); Bombay 1661 → ingiltere (çeyiz); Thane 1739 Maratha kaynakla.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/bombay — 'Portekizliler'in 1507'de yaptıkları saldırı başarılı olamadı; ancak şehir yirmi yedi yıl sonra Sultan Bahadır Şah Gucerâtî ile … Nuno da Cunha arasında imzalanan antlaşma ile Portekizliler'e bırakıldı. 1661'de … çeyiz olarak İngilizler'e'"
 },
 "K387": {
 "hukum": "YAPAY",

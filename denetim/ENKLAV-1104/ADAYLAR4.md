@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 6, YAPAY-c 25, YAPAY-d 4, YAPAY-k 12, YAPAY-m 6. Güven: KAYNAK-GEREK 30, KAYNAKLI 18, OLCUM 52.
+Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 6, YAPAY-c 25, YAPAY-d 4, YAPAY-k 12, YAPAY-m 6. Güven: KAYNAK-GEREK 29, KAYNAKLI 19, OLCUM 52.
 
 ## Kara eksklavları
 
@@ -825,10 +825,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 6, YAPAY-c 25, YAPAY
 - En büyük kesit: 1600-01-01 · komşu: ahmednagar 52%, gucerat-sultanligi 12%, babur-imparatorlugu 5%
 - Koridor: 180.8 km · bicapur 6/9, ahmednagar 3/9
 - İçindeki yerleşimler: Bombay (portekiz); Thane (portekiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Bombay ve Thane 1521 → 1740 Portekiz. Bombay 1661'de Catherine'in çeyizi olarak İngiltere'ye geçti (fiilen 1665); 1661-1740 Portekiz yazımı yanlış. Thane-Bassein 1739'da Marathalara düştü (bitiş uyumlu).
-  - Düzeltme önerisi: Bombay portekiz t → 1661/1665, sonra ingiltere (kaynakla).
-  - Kaynak: veri ölçümü
+  - Düzeltme önerisi: Bombay portekiz f → 1534 (Bahadır Şah - Nuno da Cunha antlaşması; veri 1521); Bombay 1661 → ingiltere (çeyiz); Thane 1739 Maratha kaynakla.
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/bombay — 'Portekizliler'in 1507'de yaptıkları saldırı başarılı olamadı; ancak şehir yirmi yedi yıl sonra Sultan Bahadır Şah Gucerâtî ile … Nuno da Cunha arasında imzalanan antlaşma ile Portekizliler'e bırakıldı. 1661'de … çeyiz olarak İngilizler'e'
 
 ### K387 · endulus-emevi · 1013-01-01 → 1031-01-01 · 11.952 km²
 
