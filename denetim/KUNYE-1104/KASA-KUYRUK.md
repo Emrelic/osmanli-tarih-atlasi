@@ -15,22 +15,23 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | 8 | `bidar` | f | 1489-01-01 | **1492-01-01** | TDV beridsahiler — '… Bîder’de Berîdşâhîler bağımsızlıklarını ilân etmişlerdir (1492)' · hükümdar listesi 'Kāsım Berîd Şah 897 (1492)' · 'II. İbrâhim Şah 1619’d |
 | 9 | `nguyen-hanedani` | t | 1945-08-30 | **1945-08-25** | EMRELİC Cambridge (Parti 3) — ÇİFT TEYİT: Cambridge History of Southeast Asia II, ch.6, s.~358: 'the enforced abdication of Emperor Bao Dai as head of state on  |
 | 10 | `malay-sultanliklari` | t | 1909-07-10 | **1909-07-15** | EMRELİC JSTOR — Klein, Historical Journal 12/1 (1969), s.134: 'Final accord was attained on 10 March 1909' (imza) · Chan Su-ming, JMBRAS 38/1 (1965), s.~167: Ke |
-| 11 | `bundela-orcha` | t | 1948-01-01 | **1948-04-01** | ⑧ resmî neşir — Government of India, Ministry of States, White Paper on Indian States (1950), archive.org in.ernet.dli.2015.207474 — 'The United State of Vindhy |
-| 12 | `dacu` | t | 1400-01-01 | **1350-01-01** | EMRELİC Cambridge — CHA III, ch.1, s.79: Darfur'da Daju 13. yy; 'mid fourteenth century' Tunjur yerini aldı → t 1400 → 1350 (BEYANLI YAKLAŞIKLIK: kaynak yalnız  |
-| 13 | `tuareg-adag` | t | 1899-01-01 | **1903-01-01** | Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' — GENEL ANSİKLOPEDİ (en  |
-| 14 | `tuareg-ivellemmedan` | t | 1899-01-01 | **1917-01-01** | KARAR (EMRELİC, 4 Kasım 2026): künye bütün İvellemmedan konfederasyonunu kapsar; polity doğu koluyla (Kel Dinnik) sürdü → künye kuralı gereği kısaltılmaz, t 189 |
-| 15 | `liberya` | f | 1822-04-25 | **1822-01-01** | EMRELİC Cambridge — Cambridge History of Africa V, ch.5, s.~192: yerleşimciler 'arrived in January 1822' → f 1822-04-25 → 1822-01-01, '[yalnız ay teyitli: Ocak  |
-| 16 | `navaho` | t | 1868-06-01 | **1868-08-12** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-navaho-1868-1015): |
-| 17 | `savni` | t | 1795-08-03 | **1795-12-02** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0 |
-| 18 | `miami` | t | 1795-08-03 | **1795-12-02** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0 |
-| 19 | `sauk` | t | 1832-09-21 | **1833-02-13** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-sauk-and-foxes-183 |
-| 20 | `sosoni` | t | 1868-07-03 | **1869-02-24** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-eastern-band-shosh |
-| 21 | `ute` | t | 1880-01-01 | **1880-06-15** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/agreement-with-the-confederated-ba |
-| 22 | `pavni` | t | 1857-09-24 | **1858-05-26** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-pawnee-1857-0764): |
-| 23 | `klamath` | t | 1864-01-01 | **1870-02-17** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-klamath-etc-1864-0 |
-| 24 | `sahaptin` | t | 1855-01-01 | **1859-04-18** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-yakima-1855-0698): |
-| 25 | `ponka` | t | 1858-01-01 | **1859-04-11** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-ponca-1858-0772):  |
-| 26 | `powhatan` | t | 1646-10-01 | **1646-10-05** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, |
+| 11 | `guney-ming` | f | 1644-04-25 | **1644-06-06** | EMRELİC yerel arşiv — Struve, 'The Southern Ming, 1644–1662', Cambridge History of China VII, ch.11: 'On 5 June 1644 the prince entered Nanking in formal proces |
+| 12 | `bundela-orcha` | t | 1948-01-01 | **1948-04-01** | ⑧ resmî neşir — Government of India, Ministry of States, White Paper on Indian States (1950), archive.org in.ernet.dli.2015.207474 — 'The United State of Vindhy |
+| 13 | `dacu` | t | 1400-01-01 | **1350-01-01** | EMRELİC Cambridge — CHA III, ch.1, s.79: Darfur'da Daju 13. yy; 'mid fourteenth century' Tunjur yerini aldı → t 1400 → 1350 (BEYANLI YAKLAŞIKLIK: kaynak yalnız  |
+| 14 | `tuareg-adag` | t | 1899-01-01 | **1903-01-01** | Larousse (Encyclopédie Larousse, 'Touareg') — 'conduit à la soumission des Iwellemmeden de l'Ouest (Kel Ataram) et des Ifoghas en 1903' — GENEL ANSİKLOPEDİ (en  |
+| 15 | `tuareg-ivellemmedan` | t | 1899-01-01 | **1917-01-01** | KARAR (EMRELİC, 4 Kasım 2026): künye bütün İvellemmedan konfederasyonunu kapsar; polity doğu koluyla (Kel Dinnik) sürdü → künye kuralı gereği kısaltılmaz, t 189 |
+| 16 | `liberya` | f | 1822-04-25 | **1822-01-01** | EMRELİC Cambridge — Cambridge History of Africa V, ch.5, s.~192: yerleşimciler 'arrived in January 1822' → f 1822-04-25 → 1822-01-01, '[yalnız ay teyitli: Ocak  |
+| 17 | `navaho` | t | 1868-06-01 | **1868-08-12** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-navaho-1868-1015): |
+| 18 | `savni` | t | 1795-08-03 | **1795-12-02** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0 |
+| 19 | `miami` | t | 1795-08-03 | **1795-12-02** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-wyandot-etc-1795-0 |
+| 20 | `sauk` | t | 1832-09-21 | **1833-02-13** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-sauk-and-foxes-183 |
+| 21 | `sosoni` | t | 1868-07-03 | **1869-02-24** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-eastern-band-shosh |
+| 22 | `ute` | t | 1880-01-01 | **1880-06-15** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/agreement-with-the-confederated-ba |
+| 23 | `pavni` | t | 1857-09-24 | **1858-05-26** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-pawnee-1857-0764): |
+| 24 | `klamath` | t | 1864-01-01 | **1870-02-17** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-klamath-etc-1864-0 |
+| 25 | `sahaptin` | t | 1855-01-01 | **1859-04-18** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-yakima-1855-0698): |
+| 26 | `ponka` | t | 1858-01-01 | **1859-04-11** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-ponca-1858-0772):  |
+| 27 | `powhatan` | t | 1646-10-01 | **1646-10-05** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, |
 
 ## Künye adı değişiklikleri (metin; çeviriler sonra bayat görünecek)
 
@@ -50,4 +51,4 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 
 Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] — ONERI.md.
 
-Toplam 26 alan düzeltmesi, 26 künye.
+Toplam 27 alan düzeltmesi, 27 künye.

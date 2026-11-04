@@ -588,8 +588,9 @@
 },
 {
 "id": "guney-ming",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of China VII (Ming, Part 1) — f 1644-04-25 / t 1662-01-01 (bölüm: eserin dizininden) · HÜCUM (Sonnet ajan, 4 Kasım; LAB elemesinden geçti): İPUCU (Vikipedi Yongli Emperor, Li Dingguo; ctext.org entity): Yongli İmparatoru Birmanya'dan Qing'e teslim edildi (22 Ocak 1662 İPUCU) ve Haziran/1 Haziran 1662'de Kunming'de boğduruldu (Mayıs 1662 diyen de var); atlas t=1662-01-01 yıl hassasiyetidir, yıl 1662 tutarlı ama gün/ay kaynaklarda tutarsız (11 Haziran görülmedi). f=1644-04-25 Chongzhen'in ölümüdür (Jülyen), Hongguang'ın Nanjing'de tahta çıkışı Haziran 1644: f seçimi gözden geçirilmeli. Akademik kaynak okunamadı. [LAB elemesi: ajan KISMEN dedi; dayanak İPUCU/ikincil düzeyde → GIRISLI] · GATED: Struve, The Southern Ming 1644-1662 (Yale 1984); Cambridge History of China vol. 7 (Mote/Twitchett); Ming Shilu / Qing Shilu"
+"hukum": "DUZELT",
+"f": "1644-06-06",
+"kaynak": "EMRELİC yerel arşiv — Struve, 'The Southern Ming, 1644–1662', Cambridge History of China VII, ch.11: 'On 5 June 1644 the prince entered Nanking in formal procession'; 6 Haziran'da Devlet Koruyucusu (jianguo) unvanı (hükümetin kuruluşu / naipliğin başı); 'The Prince of Fu formally became emperor on 19 June' (Hongguang) · ÖNERİ f 1644-04-25 → 1644-06-06 (EMRELİC kararı: polity'nin kuruluş eylemi; 04-25 Chongzhen'in Pekin'de ölümüdür, Güney Ming'in kuruluşu değil) · ic_not: 'Chongzhen'in ölümü 25 Nisan 1644; Fu prensi 5 Haziran Nanjing'e girdi, 6 Haziran jianguo, 19 Haziran Hongguang olarak tahta çıktı (Struve, CHC VII ch.11).' · t 1662 YIL teyitli (bölüm başlığı 1644–1662; Yongli) · önceki ajan notu: naklarda tutarsız (11 Haziran görülmedi). f=1644-04-25 Chongzhen'in ölümüdür (Jülyen), Hongguang'ın Nanjing'de tahta çıkışı Haziran 1644: f seçimi gözden geçirilmeli. Akademik kaynak okunamadı. [LAB elemesi: ajan KISMEN dedi; dayanak İPUCU/ikincil düzeyde → GIRISLI] · GATED: Struve, The Southern Ming 1644-1662 (Yale 1984); Cambridge History of China vol. 7 (Mote/Twitchett); Ming Shilu / Qing Shilu"
 },
 {
 "id": "tungning",

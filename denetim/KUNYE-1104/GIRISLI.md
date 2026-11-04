@@ -246,9 +246,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **29** (bunlar yaln�
 ### TDV ve Iranica'da madde yok (1 künye, Σ yer-yıl 410)
 - `imereti` 1490-01-01 → 1810-02-20 — 410 / 2 / 2
 
-### Cambridge History of China VII (Ming, Part 1) (1 künye, Σ yer-yıl 370)
-- `guney-ming` 1644-04-25 → 1662-01-01 — 370 / 55 / 55
-
 ### UNESCO General History of Africa VI / Cambridge History of Africa 5 (4 künye, Σ yer-yıl 354)
 - `griqua` 1804-01-01 → 1878-01-01 — 148 / 2 / 2
 - `zulu-kralligi` 1816-01-01 → 1879-07-04 — 114 / 2 / 2
