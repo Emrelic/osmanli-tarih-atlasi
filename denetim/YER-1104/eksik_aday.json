@@ -1,0 +1,1028 @@
+[
+ {
+  "sira": 1,
+  "ad": "Pelusium",
+  "sayi": 5,
+  "koordinat": [
+   31.0427961,
+   32.540289
+  ],
+  "osm": "historic/archaeological_site · مصر",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Feremâ (0.7 km)"
+  ],
+  "madde_t": "-0054-01-01",
+  "madde": "Gabinius XII. Ptolemaios'u Roma ordusuyla Mısır tahtına geri oturttu; İskenderiye'de Roma garnizonu ",
+  "taraflar": "Mısır (isyancı Berenike IV) ← Roma (Gabinius, Auletes'i geri getirdi)",
+  "madde_kaynak": "Cassius Dio, Roma Tarihi (Cary çevirisi, LacusCurtius/Thayer) 39.55-58 (okundu: «Gabinius abandoned the Parthian project and hastened to Egypt»)",
+  "maddeler": [
+   "-0054-01-01 — Gabinius XII. Ptolemaios'u Roma ordusuyla Mısır tahtına geri oturttu; ",
+   "-0168-01-01 — IV. Antiokhos Mısır'a saldırdı; Altıncı Suriye Savaşı'nda Memphis ve N",
+   "-0331-01-01 — İskender Mısır'a girdi; Pers satrapı Mazakes teslim oldu, Mısır Makedo"
+  ],
+  "elle": "YAZIM'a geç → Feremâ (yeni nokta değil)"
+ },
+ {
+  "sira": 2,
+  "ad": "Karkemiş",
+  "sayi": 5,
+  "koordinat": [
+   36.8294712,
+   38.0153987
+  ],
+  "osm": "historic/archaeological_site · Türkiye",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Cerablus (0.5 km)"
+  ],
+  "madde_t": "-0716-01-01",
+  "madde": "II. Sargon Karkemiş'i aldı; Pisiris'in krallığı Asur eyaleti oldu",
+  "taraflar": "Karkemiş → Asur",
+  "madde_kaynak": "Livius.org (J. Lendering), «Assyria», https://www.livius.org/articles/place/assyria/ (Sargon II captured Karkemiš); Tadmor, JCS 12 (1958)",
+  "maddeler": [
+   "-0716-01-01 — II. Sargon Karkemiş'i aldı; Pisiris'in krallığı Asur eyaleti oldu",
+   "-0876-01-01 — II. Aşşurnasirpal Fırat'ı geçip Karkemiş'ten ve Yeni Hitit/Arami devle",
+   "-1174-01-01 — Karkemiş'te Kuzi-Teşub «Büyük Kral» unvanıyla Hitit mirasını sürdürdü"
+  ],
+  "elle": "YAZIM'a geç → Cerablus (yakın ama ayrı höyük — KASA karar) (yeni nokta değil)"
+ },
+ {
+  "sira": 3,
+  "ad": "Teb",
+  "sayi": 4,
+  "koordinat": null,
+  "osm": "OSM adayı maddenin yerinden 2740 km uzak — reddedildi",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0185-01-01",
+  "madde": "Teb isyanı bastırıldı: Komanos Yukarı Mısır'ı Ptolemaios hâkimiyetine geri aldı",
+  "taraflar": "Teb'in yerli firavunları → Ptolemaios (V.-VI. Ptolemaios)",
+  "madde_kaynak": "Veïsse, Les «révoltes égyptiennes», Peeters 2004; Hölbl, A History of the Ptolemaic Empire, Routledge 2001 (ikisi de doğrudan açılmadı)",
+  "maddeler": [
+   "-0185-01-01 — Teb isyanı bastırıldı: Komanos Yukarı Mısır'ı Ptolemaios hâkimiyetine ",
+   "-0204-01-01 — Teb'de ayrılıkçı yerli firavunlar çıktı: Yukarı Mısır Ptolemaios hâkim",
+   "-0749-01-01 — Kush (Napata) kralı Kashta Yukarı Mısır'a ilerledi; Elefantin ve Teb'e"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 4,
+  "ad": "Efes",
+  "sayi": 3,
+  "koordinat": [
+   37.9404456,
+   27.3393194
+  ],
+  "osm": "historic/archaeological_site · Türkiye",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Ayasuluk (Selçuk) (2.8 km)"
+  ],
+  "madde_t": "-0087-01-01",
+  "madde": "Mithridates Asia eyaletini işgal etti; Efes Vespers'i (80.000 Romalı katliamı)",
+  "taraflar": "Asia eyaleti (Roma) → Pontus (VI. Mithridates)",
+  "madde_kaynak": "Appianos, Mithridatika 17-23; Plutarkhos, Sulla 11; McGing (1986)",
+  "maddeler": [
+   "-0087-01-01 — Mithridates Asia eyaletini işgal etti; Efes Vespers'i (80.000 Romalı k",
+   "-0333-01-01 — Batı Anadolu kıyısı İskender'e geçti: Efes, Miletos ve Halikarnassos",
+   "-0559-01-01 — Kroisos Lidya tahtına çıktı; Efes ve İyonya Rum kentlerini haraca bağl"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 5,
+  "ad": "Kaneş (Kültepe)",
+  "sayi": 3,
+  "koordinat": null,
+  "osm": "place/locality · Slovensko",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-1749-01-01",
+  "madde": "Kuşşara kralı Anitta Kaneş'i başkent yaptı ve Hattuşa'yı yıktı",
+  "taraflar": "Hattuşa → Kuşşara (Anitta)",
+  "madde_kaynak": "Bryce 2005, s.55-57 (PDF okundu) — «After Pithana's conquest, Nesa became the new seat of the Kussaran dynasty.»",
+  "maddeler": [
+   "-1749-01-01 — Kuşşara kralı Anitta Kaneş'i başkent yaptı ve Hattuşa'yı yıktı",
+   "-1835-01-01 — Kaneş (Kültepe) karumunun II. tabakası yıkıldı; Anadolu şehir devletle",
+   "-1899-01-01 — Aşşurlu tüccarlar Kaneş (Kültepe) karumunu kurdu; Eski Asur ticaret ağ"
+  ],
+  "elle": "OSM Slovakya'da bir yer verdi; Kaneş Kayseri yakını Kültepe'dir"
+ },
+ {
+  "sira": 6,
+  "ad": "Çamurlu",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "place/village · Türkiye",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1413-07",
+  "madde": "Çelebi Mehmed birliği yeniden kurdu",
+  "taraflar": null,
+  "madde_kaynak": "mehmed-i",
+  "maddeler": [
+   "1413-07 — Çelebi Mehmed birliği yeniden kurdu",
+   "1413-07-05 — Çamurlu Savaşı — birliğin yeniden kurulması"
+  ],
+  "elle": "OSM Türkiye'de köy verdi; 1413 Çamurlu Savaşı Bulgaristan'da (Samokov yakını)"
+ },
+ {
+  "sira": 7,
+  "ad": "Karlofça",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "boundary/administrative · Hrvatska",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Karlovac (0.3 km)"
+  ],
+  "madde_t": "1699-01-26",
+  "madde": "Karlofça Antlaşması — ilk büyük toprak kaybı",
+  "taraflar": null,
+  "madde_kaynak": "karlofca",
+  "maddeler": [
+   "1699-01-26 — Karlofça Antlaşması — ilk büyük toprak kaybı",
+   "1698-11-13 — Karlofça barış görüşmeleri başladı"
+  ],
+  "elle": "OSM Hırvatistan'da Karlovac verdi; Karlofça Antlaşması Sremski Karlovci'dir (Sırbistan)"
+ },
+ {
+  "sira": 8,
+  "ad": "Dumlupınar",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "place/suburb · Türkiye",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1922-09-09",
+  "madde": "Büyük Taarruz ve İzmir'in kurtuluşu",
+  "taraflar": null,
+  "madde_kaynak": "milli-mucadele",
+  "maddeler": [
+   "1922-09-09 — Büyük Taarruz ve İzmir'in kurtuluşu",
+   "1922-08-30 — Başkumandanlık Meydan Muharebesi — Kütahya'nın kurtuluşu"
+  ],
+  "elle": "OSM bir semt verdi; Dumlupınar Kütahya'dadır"
+ },
+ {
+  "sira": 9,
+  "ad": "Plataia",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0430-01-01",
+  "madde": "Peloponnes Savaşı başladı: Peloponnes Birliği Atina'ya karşı seferber oldu",
+  "taraflar": "Peloponnes Birliği (Sparta, Korint, Teb) ⇄ Atina ve Delos Birliği",
+  "madde_kaynak": "Thucydides 2.1-2, 2.10-12; Hornblower, S., A Commentary on Thucydides I (Oxford UP, 1991)",
+  "maddeler": [
+   "-0430-01-01 — Peloponnes Savaşı başladı: Peloponnes Birliği Atina'ya karşı seferber ",
+   "-0478-01-01 — Salamis (29 Eylül 480) ve Plataia: Pers istilası geri püskürtüldü"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 10,
+  "ad": "Elefantin",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0024-01-01",
+  "madde": "Kandake önderliğinde Kush Elefantin, Syene ve Philae'yi aldı; Augustus heykellerini yıktı",
+  "taraflar": "Roma (Mısır, Syene garnizonu) → Kush (Kandake)",
+  "madde_kaynak": "Strabon, Geographika 17.1.53-54 (Loeb, Jones çevirisi; LacusCurtius/Thayer, okundu) (okundu: «took Syenê and Elephantinê and Philae, and enslaved the inhabitant",
+  "maddeler": [
+   "-0024-01-01 — Kandake önderliğinde Kush Elefantin, Syene ve Philae'yi aldı; Augustus",
+   "-1424-01-01 — II. Amenhotep Nubya'da Napata'ya ulaştı ve güney sınır steli dikti: Mı"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 11,
+  "ad": "Kalhu (Nimrud)",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "place/village · Nigeria",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0878-01-01",
+  "madde": "II. Aşşurnasirpal Kalhu'yu (Nimrud) Asur'un yeni başkenti yaptı",
+  "taraflar": null,
+  "madde_kaynak": "Livius.org (J. Lendering), «Kalhu (Nimrud)», https://www.livius.org/articles/place/kalhu-nimrud/ («chose Kalhu, until then a small town»)",
+  "maddeler": [
+   "-0878-01-01 — II. Aşşurnasirpal Kalhu'yu (Nimrud) Asur'un yeni başkenti yaptı",
+   "-1259-01-01 — I. Şalmaneser Kalhu (Nimrud) şehrini kurdu"
+  ],
+  "elle": "OSM Nijerya'da köy verdi; Nimrud Irak'ta, Musul güneyi"
+ },
+ {
+  "sira": 12,
+  "ad": "Pınarbaşı Höyüğü",
+  "sayi": 2,
+  "koordinat": [
+   39.8757529,
+   26.2897629
+  ],
+  "osm": "historic/archaeological_site · Türkiye",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-7999-01-01",
+  "madde": "Pınarbaşı (Konya havzası, Karaman): iskân sona erer",
+  "taraflar": null,
+  "madde_kaynak": "Baird vd. 2018 PNAS 115(14) (iki alanda iskân 'ending between 8200 and 7800 cal BC'; Bayes analizi ~8000 cal BC) · https://pmc.ncbi.nlm.nih.gov/articles/PMC5889",
+  "maddeler": [
+   "-7999-01-01 — Pınarbaşı (Konya havzası, Karaman): iskân sona erer",
+   "-9599-01-01 — Pınarbaşı (Konya havzası, Karaman): Neolitik iskân başlar (ilk kanıtlı"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 13,
+  "ad": "Dzheitun (Ahal)",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-5926-01-01",
+  "madde": "Jeitun: Jeitun yerleşimi sona erer (Bayes)",
+  "taraflar": null,
+  "madde_kaynak": "Heit 2019, Chap. 3 (aynı model, 'End Jeitun') · https://www.sidestone.com/openaccess/9789088907654.pdf",
+  "maddeler": [
+   "-5926-01-01 — Jeitun: Jeitun yerleşimi sona erer (Bayes)",
+   "-6098-01-01 — Jeitun: Jeitun yerleşimi başlar (Bayes)"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 14,
+  "ad": "Ix-Xagħra",
+  "sayi": 2,
+  "koordinat": [
+   36.0502996,
+   14.2648446
+  ],
+  "osm": "boundary/administrative · Malta",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Gozo (Cittadella, Rabat) (2.4 km)",
+   "Xagħra (Brochtorff Çemberi) (0.4 km)"
+  ],
+  "madde_t": "-2419-01-01",
+  "madde": "Xağra Brochtorff Çemberi (Gozo, Malta): son gömüler",
+  "taraflar": null,
+  "madde_kaynak": "Aynı makale, 'Fig. 18: end 1241' (son gömüler; özet: last burials probably 24th century cal BC) · aynı",
+  "maddeler": [
+   "-2419-01-01 — Xağra Brochtorff Çemberi (Gozo, Malta): son gömüler",
+   "-3511-01-01 — Xağra Brochtorff Çemberi (Gozo, Malta): kayaya oyulmuş mezarda gömüler"
+  ],
+  "elle": "YAZIM'a geç → Xagħra (Brochtorff Çemberi) (yeni nokta değil)"
+ },
+ {
+  "sira": 15,
+  "ad": "Tongatapu",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "boundary/administrative · Tonga",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0742-01-01",
+  "madde": "Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Tongatapu Lapita evresi sona erer",
+  "taraflar": null,
+  "madde_kaynak": "Burley vd. 2015, PLoS ONE 10(3): e0120795 - Bayesci ortak model, Tongatapu Lapita evresi bitisi · https://pmc.ncbi.nlm.nih.gov/articles/PMC4370570/",
+  "maddeler": [
+   "-0742-01-01 — Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Tongatapu Lapita evresi s",
+   "-0887-01-01 — Nukuleka (ilk Lapita kiyilanisi), Tongatapu: Nukuleka: Tonga'nın ilk L"
+  ],
+  "elle": "ada (bölge), yerleşim değil"
+ },
+ {
+  "sira": 16,
+  "ad": "Tembladera",
+  "sayi": 2,
+  "koordinat": [
+   -7.2531814,
+   -79.1307899
+  ],
+  "osm": "place/town · Perú",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0799-01-01",
+  "madde": "Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Töreni merkezler terk edilir",
+  "taraflar": null,
+  "madde_kaynak": "Tsurumi E. 2008, 'La secuencia cronológica de los centros ceremoniales de la Pampa de las Hamacas y Tembladera, valle medio de Jequetepeque', Boletín de Arqueol",
+  "maddeler": [
+   "-0799-01-01 — Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Tören",
+   "-1499-01-01 — Pampa de las Hamacas töreni merkezleri (Jequetepeque, Formatif): Hamac"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 17,
+  "ad": "Nekhen",
+  "sayi": 2,
+  "koordinat": [
+   25.116667,
+   32.7
+  ],
+  "osm": "place/locality · مصر",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-3463-01-01",
+  "madde": "Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naqada IIB/IIC)",
+  "taraflar": null,
+  "madde_kaynak": "Dee vd. 2013, Tablo 1: Naqada IIB/IIC gecisi (HK11 cop birikimi Naqada IIC'ye uzanir) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+  "maddeler": [
+   "-3463-01-01 — Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naq",
+   "-3639-01-01 — Hierakonpolis HK11C (Naqada IC-IIB iskan): Hierakonpolis HK11C iskânı "
+  ],
+  "elle": null
+ },
+ {
+  "sira": 18,
+  "ad": "Kom el-Ahmar",
+  "sayi": 2,
+  "koordinat": [
+   31.56,
+   31.075556
+  ],
+  "osm": "place/locality · مصر",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Bürüllüs (Baltîm) (1.4 km)"
+  ],
+  "madde_t": "-3463-01-01",
+  "madde": "Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naqada IIB/IIC)",
+  "taraflar": null,
+  "madde_kaynak": "Dee vd. 2013, Tablo 1: Naqada IIB/IIC gecisi (HK11 cop birikimi Naqada IIC'ye uzanir) · https://pmc.ncbi.nlm.nih.gov/articles/PMC3780825/",
+  "maddeler": [
+   "-3463-01-01 — Hierakonpolis HK11C (Naqada IC-IIB iskan): HK11C iskânı sona erer (Naq",
+   "-3639-01-01 — Hierakonpolis HK11C (Naqada IC-IIB iskan): Hierakonpolis HK11C iskânı "
+  ],
+  "elle": null
+ },
+ {
+  "sira": 19,
+  "ad": "Tell Mureybet (Mureybit)",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-10149-01-01",
+  "madde": "Mureybet: başlar",
+  "taraflar": null,
+  "madde_kaynak": "Benz M. (ed.) exoriente PPND, Mureybet sayfasi (Ibanez 2008; Evin & Stordeur 2008) · https://exoriente.org/associated_projects/ppnd_site.php?s=44",
+  "maddeler": [
+   "-10149-01-01 — Mureybet: başlar",
+   "-7949-01-01 — Mureybet: sona erer"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 20,
+  "ad": "Tell Abu Hureyra",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-11219-01-01",
+  "madde": "Ebu Hureyre (Abu Hureyra): başlar",
+  "taraflar": null,
+  "madde_kaynak": "Benz M. (ed.) exoriente PPND, Abu Hureyra sayfasi (Moore 2000 kazi dizisi kalibre 14C ozeti) · https://exoriente.org/associated_projects/ppnd_site.php?s=2",
+  "maddeler": [
+   "-11219-01-01 — Ebu Hureyre (Abu Hureyra): başlar",
+   "-7099-01-01 — Ebu Hureyre (Abu Hureyra): sona erer"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 21,
+  "ad": "Qalʿat Sherqat",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0613-01-01",
+  "madde": "Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehri Medler/Babilliler tarafından",
+  "taraflar": null,
+  "madde_kaynak": "Grayson, ABC 3, 12. yıl, Livius çevirisi okundu — «They went along the Tigris and encamped against Aššur. They did battle against the city and destroyed it.»",
+  "maddeler": [
+   "-0613-01-01 — Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur şehr",
+   "-1971-01-01 — Aşşur (Eski Asur dönemi belge başlangıcı ve MÖ 614 düşüşü): Aşşur: Esk"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 22,
+  "ad": "Tell Halaf (Guzana)",
+  "sayi": 2,
+  "koordinat": [
+   36.8230854,
+   40.0395506
+  ],
+  "osm": "place/village · سوريا",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Ceylanpınar (2.5 km)",
+   "Qaţţīnah (2.1 km)"
+  ],
+  "madde_t": "-5499-01-01",
+  "madde": "Halaf kültürü: Halaf döneminin en geç tarihi (üst sınır)",
+  "taraflar": null,
+  "madde_kaynak": "Campbell, S. & Fletcher, A. 2010, 'Questioning the Halaf-Ubaid Transition', in Carter & Philip (eds.), Beyond the Ubaid, SAOC 63, s. 78 · https://isac-assets.s3",
+  "maddeler": [
+   "-5499-01-01 — Halaf kültürü: Halaf döneminin en geç tarihi (üst sınır)",
+   "-5899-01-01 — Halaf kültürü: Halaf kültürü: yükseliş başlar (tarihli en erken uç)"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 23,
+  "ad": "Arad",
+  "sayi": 2,
+  "koordinat": [
+   46.1753793,
+   21.3196342
+  ],
+  "osm": "boundary/administrative · România",
+  "koordinat_guven": "REFERANSLI (Peşte, 226 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1849-08-13",
+  "madde": "Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı",
+  "taraflar": null,
+  "madde_kaynak": "bulunamadı (TDV) — honvedelem.hu «Surrender at Világos» · en.wikipedia «Surrender at Világos»",
+  "maddeler": [
+   "1849-08-13 — Világos'ta Macar ordusu Ruslara teslim oldu — Macar Devrimi bastırıldı",
+   "1849-10-06 — Arad'da 13 Macar general idam edildi, Peşte'de Batthyány Lajos kurşuna"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 24,
+  "ad": "İnönü",
+  "sayi": 2,
+  "koordinat": [
+   39.8160441,
+   30.1427534
+  ],
+  "osm": "boundary/administrative · Türkiye",
+  "koordinat_guven": "REFERANSLI (Eskişehir, 32 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1921-01-10",
+  "madde": "Birinci İnönü Muharebesi: düzenli ordunun ilk zaferi",
+  "taraflar": null,
+  "madde_kaynak": "milli-mucadele",
+  "maddeler": [
+   "1921-01-10 — Birinci İnönü Muharebesi: düzenli ordunun ilk zaferi",
+   "1921-04-01 — İkinci İnönü Muharebesi: Yunan taarruzunun ikinci kez kırılması"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 25,
+  "ad": "Nukuʻalofa",
+  "sayi": 2,
+  "koordinat": [
+   -21.1343401,
+   -175.201808
+  ],
+  "osm": "place/city · Tonga",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1893-02-18",
+  "madde": "I. George Tupou'nun ölümü, II. George Tupou'nun tahta çıkışı (Tonga)",
+  "taraflar": null,
+  "madde_kaynak": "bulunamadı — akademik/kurumsal kaynak: Britannica + Find a Grave çapraz kontrol edildi",
+  "maddeler": [
+   "1893-02-18 — I. George Tupou'nun ölümü, II. George Tupou'nun tahta çıkışı (Tonga)",
+   "1918-04-05 — II. George Tupou'nun ölümü, Sālote Tupou III'ün tahta çıkışı (Tonga)"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 26,
+  "ad": "Berka",
+  "sayi": 2,
+  "koordinat": null,
+  "osm": "OSM adayı maddenin yerinden 2283 km uzak — reddedildi",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1911-10-16",
+  "madde": "Derne'nin İtalyan çıkarmasıyla elden çıkışı",
+  "taraflar": null,
+  "madde_kaynak": "trablusgarp-savasi",
+  "maddeler": [
+   "1911-10-16 — Derne'nin İtalyan çıkarmasıyla elden çıkışı",
+   "1911-11-05 — İtalya'nın tek taraflı ilhak kararnâmesi"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 27,
+  "ad": "Otrar",
+  "sayi": 2,
+  "koordinat": [
+   42.8522475,
+   68.3025534
+  ],
+  "osm": "place/locality · Қазақстан",
+  "koordinat_guven": "REFERANSLI (Hucend, 306 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1218-01-01",
+  "madde": "Otrar'da 450 kişilik Moğol kervanı öldürüldü; Alâeddin Muhammed Cengiz Han'ın tazminat isteğini redd",
+  "taraflar": null,
+  "madde_kaynak": "TDV İslâm Ansiklopedisi, HÂRİZMŞAHLAR maddesi, https://islamansiklopedisi.org.tr/harizmsahlar : «450 kişilik bir Moğol kervanının Otrar’da öldürülmesi üzerine .",
+  "maddeler": [
+   "1218-01-01 — Otrar'da 450 kişilik Moğol kervanı öldürüldü; Alâeddin Muhammed Cengiz",
+   "1219-01-01 — Moğol orduları Hârizmşah topraklarına girdi; Otrar, Sığnak ve Hucend g"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 28,
+  "ad": "Çayeli",
+  "sayi": 2,
+  "koordinat": [
+   41.0878328,
+   40.7236973
+  ],
+  "osm": "boundary/administrative · Türkiye",
+  "koordinat_guven": "REFERANSLI (Rize, 18 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1916-03-08",
+  "madde": "Rize'nin Rus işgali: Doğu Karadeniz kıyısının düşüşü",
+  "taraflar": null,
+  "madde_kaynak": "rize · Çaykıran 2021, Askerî Tarih Araştırmaları Dergisi, doi 10.46953/askeritarih.814421",
+  "maddeler": [
+   "1916-03-08 — Rize'nin Rus işgali: Doğu Karadeniz kıyısının düşüşü",
+   "1918-03-02 — Rize'nin kurtuluşu: Doğu Karadeniz kıyısının geri alınışı"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 29,
+  "ad": "Karaburun",
+  "sayi": 1,
+  "koordinat": [
+   38.6354423,
+   26.5098027
+  ],
+  "osm": "boundary/administrative · Türkiye",
+  "koordinat_guven": "REFERANSLI (Serez, 372 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1416-05-01",
+  "madde": "Şeyh Bedreddin isyanı",
+  "taraflar": null,
+  "madde_kaynak": "bedreddin-simavi",
+  "maddeler": [
+   "1416-05-01 — Şeyh Bedreddin isyanı"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 30,
+  "ad": "Otlukbeli",
+  "sayi": 1,
+  "koordinat": [
+   40.0065681,
+   39.8924942
+  ],
+  "osm": "place/village · Türkiye",
+  "koordinat_guven": "REFERANSLI (Erzincan, 44 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1473-08-11",
+  "madde": "Otlukbeli Savaşı",
+  "taraflar": null,
+  "madde_kaynak": "otlukbeli-savasi",
+  "maddeler": [
+   "1473-08-11 — Otlukbeli Savaşı"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 31,
+  "ad": "Mercidabık",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "boundary/administrative · Türkiye",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Kilis (0.6 km)"
+  ],
+  "madde_t": "1516-08-24",
+  "madde": "Mercidabık Zaferi",
+  "taraflar": null,
+  "madde_kaynak": "mercidabik-muharebesi",
+  "maddeler": [
+   "1516-08-24 — Mercidabık Zaferi"
+  ],
+  "elle": "OSM Kilis'te bir yer verdi; Mercidabık Halep kuzeyi Dâbık'tır (Suriye)"
+ },
+ {
+  "sira": 32,
+  "ad": "Ridaniye",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1517-01-22",
+  "madde": "Ridaniye — Mısır'ın fethi ve hilâfet",
+  "taraflar": null,
+  "madde_kaynak": "ridaniye-savasi",
+  "maddeler": [
+   "1517-01-22 — Ridaniye — Mısır'ın fethi ve hilâfet"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 33,
+  "ad": "Haçova (Mezőkeresztes)",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "OSM adayı maddenin yerinden 1807 km uzak — reddedildi",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1596-10-26",
+  "madde": "Haçova Meydan Muharebesi",
+  "taraflar": null,
+  "madde_kaynak": "hacova-meydan-savasi",
+  "maddeler": [
+   "1596-10-26 — Haçova Meydan Muharebesi"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 34,
+  "ad": "Granbosa (Gramvousa)",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1692-01-01",
+  "madde": "Granbosa Kalesi'nin fethi — Girit'in Venedik'te kalan kayalık kalelerinden biri",
+  "taraflar": null,
+  "madde_kaynak": "girit",
+  "maddeler": [
+   "1692-01-01 — Granbosa Kalesi'nin fethi — Girit'in Venedik'te kalan kayalık kaleleri"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 35,
+  "ad": "Suda",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "boundary/administrative · السودان",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1715-01-01",
+  "madde": "Suda ve Spinalonga kalelerinin fethi — Girit'te son Venedik izinin silinmesi",
+  "taraflar": null,
+  "madde_kaynak": "girit",
+  "maddeler": [
+   "1715-01-01 — Suda ve Spinalonga kalelerinin fethi — Girit'te son Venedik izinin sil"
+  ],
+  "elle": "OSM Sudan verdi; maddedeki Suda Girit'teki Suda Körfezi/kalesidir"
+ },
+ {
+  "sira": 36,
+  "ad": "Spinalonga",
+  "sayi": 1,
+  "koordinat": [
+   35.2977829,
+   25.738044
+  ],
+  "osm": "place/islet · Ελλάς",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1715-01-01",
+  "madde": "Suda ve Spinalonga kalelerinin fethi — Girit'te son Venedik izinin silinmesi",
+  "taraflar": null,
+  "madde_kaynak": "girit",
+  "maddeler": [
+   "1715-01-01 — Suda ve Spinalonga kalelerinin fethi — Girit'te son Venedik izinin sil"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 37,
+  "ad": "Bucaş",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "place/island · Philippines",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1672-10-18",
+  "madde": "Bucaş Antlaşması — en geniş sınırlar",
+  "taraflar": null,
+  "madde_kaynak": "bucas-antlasmasi",
+  "maddeler": [
+   "1672-10-18 — Bucaş Antlaşması — en geniş sınırlar"
+  ],
+  "elle": "OSM Filipinler'de ada verdi; yer belirsiz — madde metnine bak"
+ },
+ {
+  "sira": 38,
+  "ad": "Küçük Kaynarca",
+  "sayi": 1,
+  "koordinat": [
+   41.0336202,
+   30.3246733
+  ],
+  "osm": "place/village · Türkiye",
+  "koordinat_guven": "REFERANSLI (Bahçesaray, 504 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1774-07-21",
+  "madde": "Küçük Kaynarca Antlaşması",
+  "taraflar": null,
+  "madde_kaynak": "kucuk-kaynarca-antlasmasi",
+  "maddeler": [
+   "1774-07-21 — Küçük Kaynarca Antlaşması"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 39,
+  "ad": "Sevr",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "OSM adayı maddenin yerinden 2787 km uzak — reddedildi",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1920-04",
+  "madde": "TBMM'nin açılışı ve Sevr",
+  "taraflar": null,
+  "madde_kaynak": "sevr-antlasmasi",
+  "maddeler": [
+   "1920-04 — TBMM'nin açılışı ve Sevr"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 40,
+  "ad": "Tepedelen",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1820-03-01",
+  "madde": "Tepedelenli Ali Paşa'nın azli ve Yanya kuşatmasının başlaması",
+  "taraflar": null,
+  "madde_kaynak": "tepedelenli-ali-pasa (TDV, Kemal Beydilli) · hursid-ahmed-pasa (TDV, Cevdet Küçük) · yunanistan (TDV, Mehmet Hacısalihoğlu)",
+  "maddeler": [
+   "1820-03-01 — Tepedelenli Ali Paşa'nın azli ve Yanya kuşatmasının başlaması"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 41,
+  "ad": "Pandeleimon Manastırı",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1822-02-14",
+  "madde": "Tepedelenli Ali Paşa'nın öldürülmesi — Yanya kuşatmasının sonu",
+  "taraflar": null,
+  "madde_kaynak": "tepedelenli-ali-pasa (TDV, Kemal Beydilli) · hursid-ahmed-pasa (TDV, Cevdet Küçük)",
+  "maddeler": [
+   "1822-02-14 — Tepedelenli Ali Paşa'nın öldürülmesi — Yanya kuşatmasının sonu"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 42,
+  "ad": "Karánşebeş (Caransebeş)",
+  "sayi": 1,
+  "koordinat": [
+   45.4217366,
+   22.2311185
+  ],
+  "osm": "boundary/administrative · România",
+  "koordinat_guven": "REFERANSLI (Lugos (Lugoj), 39 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "1552-08-01",
+  "madde": "Lugoş (Lugoj) ve Karánşebeş kalelerinin fethi — Temeşvar seferinin devamı",
+  "taraflar": null,
+  "madde_kaynak": "TDV `timisvar` (`temesvar` yönlendirme gövdesi döndürür) — AYNEN: \"Üç haftalık direnişten sonra 4 Şâban 959'da (26 Temmuz 1552) kale garnizonu teslim oldu.\" ve ",
+  "maddeler": [
+   "1552-08-01 — Lugoş (Lugoj) ve Karánşebeş kalelerinin fethi — Temeşvar seferinin dev"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 43,
+  "ad": "Hüfûf",
+  "sayi": 1,
+  "koordinat": [
+   25.3696585,
+   49.5865224
+  ],
+  "osm": "place/city · السعودية",
+  "koordinat_guven": "REFERANSLI (Lahsa, 1 km)",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Lahsa (1.5 km)"
+  ],
+  "madde_t": "1913-07-08",
+  "madde": "İbn Suud Lahsa'yı aldı — Osmanlı'nın Körfez kıyısındaki hâkimiyetinin sonu",
+  "taraflar": null,
+  "madde_kaynak": "TDV `lahsa` — AYNEN: \"merkezi Hüfûf'a yerleşti (8 Temmuz 1913)\" · hassasiyet: GÜN",
+  "maddeler": [
+   "1913-07-08 — İbn Suud Lahsa'yı aldı — Osmanlı'nın Körfez kıyısındaki hâkimiyetinin "
+  ],
+  "elle": "YAZIM'a geç → Lahsa (yeni nokta değil)"
+ },
+ {
+  "sira": 44,
+  "ad": "Thapsus (Tunus kıyısı)",
+  "sayi": 1,
+  "koordinat": [
+   35.6191155,
+   11.0424054
+  ],
+  "osm": "historic/ruins · تونس",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0045-01-01",
+  "madde": "Thapsus: Caesar Juba I'i yendi; Doğu Numidia Africa Nova eyaleti oldu",
+  "taraflar": "Numidia (Juba I) ve Pompeius yanlıları → Roma (Africa Nova)",
+  "madde_kaynak": "Appianos, İç Savaşlar 2.95-100; Dion Kassios 43.2-9; Bellum Africum 79-86",
+  "maddeler": [
+   "-0045-01-01 — Thapsus: Caesar Juba I'i yendi; Doğu Numidia Africa Nova eyaleti oldu"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 45,
+  "ad": "Pharsalus (Tesalya)",
+  "sayi": 1,
+  "koordinat": [
+   39.3627108,
+   22.2835063
+  ],
+  "osm": "historic/archaeological_site · Ελλάς",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0047-01-01",
+  "madde": "Pharsalus: Caesar Pompeius'u yendi",
+  "taraflar": "Senato ordusu (Pompeius) → Caesar",
+  "madde_kaynak": "https://www.livius.org/articles/battle/pharsalus-48-bce/ (Livius.org): \"on 9 August 48 BCE\" (Roma takvimi); Caesar, Bellum Civile 3.82-99",
+  "maddeler": [
+   "-0047-01-01 — Pharsalus: Caesar Pompeius'u yendi"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 46,
+  "ad": "Alesia (Burgonya)",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "place/hamlet · United States",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0051-01-01",
+  "madde": "Alesia: Caesar Vercingetorix'i kuşatıp yendi, Galya'nın direnişi kırıldı",
+  "taraflar": "Galya (Vercingetorix) → Roma (Caesar)",
+  "madde_kaynak": "https://www.livius.org/articles/battle/alesia-52-bce/ (Livius.org); Caesar, Bellum Gallicum 7.68-89",
+  "maddeler": [
+   "-0051-01-01 — Alesia: Caesar Vercingetorix'i kuşatıp yendi, Galya'nın direnişi kırıl"
+  ],
+  "elle": "OSM ABD'de mezra verdi; Alesia Fransa'da (Alise-Sainte-Reine)"
+ },
+ {
+  "sira": 47,
+  "ad": "Bibracte (Galya)",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "OSM sonuç yok (uygun tür)",
+  "koordinat_guven": "—",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0057-01-01",
+  "madde": "Caesar'ın Galya seferi başladı: Helvetii yenildi",
+  "taraflar": "Galya (Helvetii) → Roma (Caesar)",
+  "madde_kaynak": "Caesar, Bellum Gallicum 1.2-54; Cary, M. & Scullard, H. H., A History of Rome (Macmillan, 3. bs. 1975) s. 252",
+  "maddeler": [
+   "-0057-01-01 — Caesar'ın Galya seferi başladı: Helvetii yenildi"
+  ],
+  "elle": null
+ },
+ {
+  "sira": 48,
+  "ad": "Nikopolis (Doğu Pontus)",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "place/city · Україна",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Mıkıtın Rog Seçi (Nikopol) (2.3 km)"
+  ],
+  "madde_t": "-0065-01-01",
+  "madde": "Pompeius Mithridates'i yendi; Pontus Roma'ya bağlandı",
+  "taraflar": "Pontus Krallığı → Roma (Pompeius)",
+  "madde_kaynak": "Plutarkhos, Pompeius 32-36; Appianos, Mithridatika 97-100",
+  "maddeler": [
+   "-0065-01-01 — Pompeius Mithridates'i yendi; Pontus Roma'ya bağlandı"
+  ],
+  "elle": "OSM Ukrayna'da Nikopol verdi; Pontus Nikopolisi Sivas-Suşehri/Koyulhisar yöresidir"
+ },
+ {
+  "sira": 49,
+  "ad": "Nemrut",
+  "sayi": 1,
+  "koordinat": null,
+  "osm": "natural/volcano · Türkiye",
+  "koordinat_guven": "OSM REDDEDİLDİ",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [],
+  "madde_t": "-0069-01-01",
+  "madde": "I. Antiokhos Theos Kommagene tahtına çıktı",
+  "taraflar": "Kommagene → Antiokhos I Theos",
+  "madde_kaynak": "Sullivan, R. D., Near Eastern Royalty and Rome 100-30 BC (1990); Dörner, F. K. & Young, R., Der Thron der Götter auf dem Nemrud Dag (1967)",
+  "maddeler": [
+   "-0069-01-01 — I. Antiokhos Theos Kommagene tahtına çıktı"
+  ],
+  "elle": "OSM Nemrut yanardağını verdi; maddedeki Nemrut belirsiz (Adıyaman Nemrut Dağı ya da Kalhu) — madde metnine bak"
+ },
+ {
+  "sira": 50,
+  "ad": "Cirta (Konstantine)",
+  "sayi": 1,
+  "koordinat": [
+   36.3641642,
+   6.6084281
+  ],
+  "osm": "boundary/administrative · ⵍⵣⵣⴰⵢⴻⵔ الجزائر",
+  "koordinat_guven": "REFERANSSIZ — DOĞRULA",
+  "mukerrer_ad": [],
+  "mukerrer_3km": [
+   "Konstantin (0.6 km)"
+  ],
+  "madde_t": "-0111-01-01",
+  "madde": "Jugurtha Cirta'yı aldı: Roma Numidia işlerine müdahale etti",
+  "taraflar": "Numidia (Adherbal) → Jugurtha",
+  "madde_kaynak": "Livius, Periochae 64 (Perseus, lat); Treccani, Enciclopedia Italiana, 'Giugurta' — «Adherbal bello petitus ab Iugurtha et in oppido Cirta obsessus ... ab eo occ",
+  "maddeler": [
+   "-0111-01-01 — Jugurtha Cirta'yı aldı: Roma Numidia işlerine müdahale etti"
+  ],
+  "elle": "YAZIM'a geç → Konstantin (yeni nokta değil)"
+ }
+]
