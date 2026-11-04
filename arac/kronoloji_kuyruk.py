@@ -657,6 +657,16 @@ METIN = [
     ("L2-1168", "Bengal kıtlığı 1770: «nüfusun yaklaşık üçte biri» → Metcalf «up to a quarter» (en çok dörtte bir)"),
     ("L2-1165", "Buksar 1764-10-23 (Metcalf + Sarkar, çift teyit) KALIR; Britannica 22 Ekim ipucu → ic_not"),
     ("L2-1170", "[BEKLE — haber kaynağı] Pontianak 1771-10-23: hicrî 14 Receb 1185 ile uyumlu; akademik teyit Tarikhuna 4/1 (2024) açılmadı"),
+    # L2S 807-818 (S37)
+    ("L2-1189", "Fallen Timbers 1794-08-20 (NPS, Gale) gün tutar; aynı olay 3 kayıtta: devletler.js:4580, devletler.js:4567, kronoloji_cok_kuzey_amerika_k2.js:29 → yinelenen madde"),
+    ("L2-1192", "II. Herakli'nin ölümü 1798-01-11 (Georgian Encyclopedia) gün tutar; ölüm yeri Telavi → yer_id «Tiflis» düzeltilir"),
+    ("L2-1199", "Horseshoe Bend 1814-03-27 (Encyclopedia of Alabama): savaş Tohopeka'da (Tallapoosa, Yukarı Creek) → odak_yer Coweta (Aşağı Kasabalar) yanlış"),
+    ("L2-1190", "Karadağ Zakonik 1798: yıl tutar; gün çelişkili — CEEOL özeti 8 Ekim, arama özetleri 18/29 Ekim (O.S./N.S., Lučindan) → yıl hassasiyeti kalır, ic_not"),
+    ("L2-1193", "[BEKLE — yıl desteksiz] Solimana 1800: Encyclopaedia Africana (Fyle) yalnız «18. yüzyılda kuruldu»; atlasın kendi f=1720 maddesiyle de çelişir"),
+    ("L2-1195", "[BEKLE — olay kaynakta yok] Futa Toro 1807-04-04 «Jagodo suikastı»: okunan kaynaklarda yok; ikinciller 26 Nisan 1806, Gouriki'de Bundu almamisi tarafından → Robinson-Curtin-Johnson 1972 (Persée) s.578 ve Ware 2014 s.142 okunmalı"),
+    ("L2-1196", "[BEKLE — Malabar takvimi] Kundara Bildirisi 1809-01-11: Quilon Gazetteer «1st Makaram 984 (16th January, 1809)»; Trivandrum Gazetteer ve Nagam Aiya yalnız «January 1809»; 1 Makaram 984 kaba hesapla ~11-12 Ocak (Makara saṅkrānti) → Kerala takvim tablosuyla çevrilmeden karar yok"),
+    ("L2-1197", "[BEKLE — olay kaynakta yok] Betsileo 1810 «Radama I dört krallığı fethetti»: Encyclopedia of World Cultures Merina fethini ~1830 (künye t=1830 ile uyumlu); TDV 1810 yalnız Radama'nın tahta çıkışı; Larousse ilhakı Andrianampoinimerina'ya verir → beyanlı yaklaşık ya da kaldırılır"),
+    ("L2-1187", "[BEKLE — tek dayanak Britannica YZ özeti] Betsimisaraka 1791: «üçüncü hükümdarın ölümünden sonra çöktü»; atlasın 1803 anarşi maddesi ve künye t=1817 ile iç çelişki → Kent 1970 / Cambridge History of Africa c.5"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
