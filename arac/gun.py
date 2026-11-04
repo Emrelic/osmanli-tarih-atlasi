@@ -15,7 +15,9 @@ yalnız giriş/çıkış ve gösterim biçimidir.
 ## Sözleşme (onaylı kurallar)
   · Takvim PROLEPTİK GREGORYEN (1582 öncesi de). Bugünkü app.js `gunIdx` (JS Date) ve
     denetle `gun_no` (Python ordinal) ikisi de böyle ⇒ bugünkü her gün BİREBİR aynı sayı.
-    Kaynağın Jülyen olup olmadığı AYRI bir veri sorusudur, burada çevrilmez.
+    Kaynağın Jülyen olup olmadığı AYRI bir veri sorusudur, burada çevrilmez — veri kuralı
+    CLAUDE.md "Takvim" (Emre, 4 Kasım 2026): 1582-10-15 öncesi kaynaktaki gün (Jülyen kalır),
+    sonrası Gregoryen (geç geçenlerin günü veride çevrilir). Bu sayaç yalnız sayar.
   · Yıl ASTRONOMİK (ISO 8601): 0 yılı VAR. MÖ 1 = 0000 · MÖ 3000 = -2999 · MS 1 = 0001.
   · Sıfır günü 1970-01-01 = 0 (app.js `gunIdx` ile aynı; denetle ordinal'i = gun + 719163).
   · Girdi: ^([+-]?)(\\d{1,6})(-MM(-GG)?)?$ — 908 ≡ 0908 ≡ +000908 · "1453" = 1453-01-01 ·
