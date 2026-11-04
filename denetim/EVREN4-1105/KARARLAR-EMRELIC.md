@@ -123,4 +123,8 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - 1919-01-14 → 1919-12-11 `isg ingiltere`.
   - Ardından 1920-07-25'e kadar Arap idaresi.
   - Fransızların fiilî girişi 1921'de, günü bilinmiyor: `1921-01-01` + "[yalnız yıl]". 1920-07-25 ile Fransız girişi arası BEYANLI.
+- **LAB SALI notu (7e22e5eb3):**
+  - Moab, Salt ve Aclûn yerel hükûmetleri tek sınıf olarak YENI-KUNYE-ADAY'a girdi; karar Emre'de.
+  - UYGULA'ya `norvec-1814` f **1814-02-19** (SNL) girdi. 🔴 Değişmez 2 gereği aynı commit'te kronoloji_sinir'e 1814-02-19 maddesi yazılmalı; şu an yalnız Kiel 01-14 maddesi var.
+  - Bu durumda Norveç naiplik dilimi 1814-01-14 → 02-19'a daralır.
 - **Kerak:** 1920-21 Moab Arap Hükûmeti için künye sorusu LAB'a gider; o zamana kadar BEYANLI yazılır. Emirlik Şubat 1921'den başlar (02-01 ay hassasiyetidir) ve öyle kalır. 04-11 merkezî hükûmetin kuruluşudur, `ic_not`a yazılır.
