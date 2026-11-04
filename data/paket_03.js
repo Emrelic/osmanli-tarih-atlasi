@@ -359,7 +359,7 @@ window.OLAYLAR_EK16 = [
   gun:"17 Ekim 1797",
   yer:"Split (Spalato), Zadar (Zara), Şibenik (Sebenico), Dubrovnik çevresi, Kotor (Cattaro), Korfu, Kefalonya, Zaklise (Zakynthos), Ayamavra (Lefkada), Preveze, Parga",
   yer_id:"Split (Spalato)", kisiler:"Napolyon Bonapart, Ludwig von Cobenzl",
-  d:"Napolyon Bonapart ile Avusturya temsilcisi Kont Cobenzl arasında 17 Ekim 1797'de imzalanan Campo Formio Antlaşması, bin yıllık Venedik Cumhuriyeti'ni resmen ortadan kaldırdı ve topraklarını paylaştırdı: Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya bırakıldı, Oniki Ada ve İyon Adaları (Korfu, Kefalonya, Zakynthos, Lefkada, Preveze ve Parga dahil Venedik'in Arnavutluk-Mora kıyısındaki üsleri) ise Fransa'ya geçti. Avusturya ayrıca Alçak Ülkeler'deki (bugünkü Belçika) topraklarını Fransa'ya bıraktı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Campo Formio').",
+  d:"Napolyon Bonapart ile Avusturya temsilcisi Kont Cobenzl arasında 17 Ekim 1797'de imzalanan Campo Formio Antlaşması, bin yıllık Venedik Cumhuriyeti'ni resmen ortadan kaldırdı ve topraklarını paylaştırdı: Adige nehrinin doğusu, İstria ve Dalmaçya kıyısı (Split, Zadar, Şibenik, Kotor dahil) Avusturya'ya bırakıldı, İyon Adaları (Korfu, Kefalonya, Zakynthos, Lefkada, Preveze ve Parga dahil Venedik'in Arnavutluk-Mora kıyısındaki üsleri) ise Fransa'ya geçti. Avusturya ayrıca Alçak Ülkeler'deki (bugünkü Belçika) topraklarını Fransa'ya bıraktı.", ic_not_d:"⚠️ TDV'de bu antlaşmanın müstakil maddesi yoktur; dayanak standart akademik kaynak (Encyclopaedia Britannica, 'Treaty of Campo Formio').",
   kaynak:"bulunamadı", duygu:["⚔️","😔"] },
 
 { t:"1809-09-17", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
@@ -521,7 +521,7 @@ window.OLAYLAR_EK16 = [
   ic_not_gun:"KUTU-H4-1015: madde 30 Ağustos'tu — bu, Rusya'nın ve 1712 sonrası İsveç'in kullandığı Jülyen takvimin günüdür (SNL, lex.dk). TDV isvec 10 Eylül 1721 der; Britannica '10 Eylül [30 Ağustos Eski Takvim]'. Kural: kaynağın günü, çevirme yok — birincil kaynak TDV'nin günü yazıldı, takvim beyan edildi. Yerleşimlerdeki 1721-08-30 kırılmaları (Riga vb.) 11 gün fark ile ±30 gün içinde kalıyor; onlara dokunulmadı.",
   yer:"Riga, Tallinn (Reval), Tartu (Dorpat), Pärnu, Cēsis (Wenden), Narva, Lappeenranta",
   yer_id:"Riga", kisiler:"I. Petro (Büyük Petro), XII. Karl'ın ardılları",
-  d:"21 yıl süren Büyük Kuzey Savaşı'nı sona erdiren Nystad Antlaşması 30 Ağustos 1721'de Finlandiya'da imzalandı; İsveç, Rusya'ya Estonya, Livonya (Riga dahil), İngermanland ve güneydoğu Finlandiya'nın (Karelya) bir bölümünü bıraktı, buna karşılık Finlandiya'nın geri kalanını geri aldı ve tazminat ödendi. Antlaşma, İsveç'in büyük devlet statüsünün sonu ve Rusya'nın bir Avrupa imparatorluğu olarak yükselişinin resmî tescili sayılır — I. Petro bu zaferden sonra 'İmparator' unvanını aldı.",
+  d:"21 yıl süren Büyük Kuzey Savaşı'nı sona erdiren Nystad Antlaşması 10 Eylül 1721'de (Jülyen 30 Ağustos) Finlandiya'da imzalandı; İsveç, Rusya'ya Estonya, Livonya (Riga dahil), İngermanland ve güneydoğu Finlandiya'nın (Karelya) bir bölümünü bıraktı, buna karşılık Finlandiya'nın geri kalanını geri aldı ve tazminat ödendi. Antlaşma, İsveç'in büyük devlet statüsünün sonu ve Rusya'nın bir Avrupa imparatorluğu olarak yükselişinin resmî tescili sayılır — I. Petro bu zaferden sonra 'İmparator' unvanını aldı.",
   kaynak:"TDV İslâm Ansiklopedisi, 'İsveç', islamansiklopedisi.org.tr/isvec ; 'Avrupa' (30 Ağustos 1721 Jülyen) — «Nystad [Niştat] Antlaşması, 10 Eylül 1721»", ic_not_d:"DUNYA-1102 hücre 5 (KASA, 2 Kasım 2026): teyit çift teyit. Önceki kaynak (isvec · rusya · Store norske leksikon 'freden i Nystad' · Britannica 'Peace of N) dayanak olamaz, değiştirildi. İsveç maddesi açılıp okundu (10 Eylül 1721 Gregoryen). Avrupa maddesi 30 Ağustos verir (arama özeti, sayfa açılmadı); iki tarih aynı gün. Atlasın takvim beyanı TDV ile uyumlu.", duygu:["😔"] },
 
 { t:"1815-06-09", k:"antlasma", etiket:["toprak-kayip","toprak-kazanc","konu-askeri","konu-diplomasi"],
@@ -545,7 +545,7 @@ window.OLAYLAR_EK16 = [
   gun:"13 Haziran 1611",
   yer:"Smolensk",
   yer_id:"Smolensk", kisiler:"III. Zygmunt (Lehistan), Şeyn (Rus komutan)",
-  d:"Kargaşalar Dönemi'nde (Smuta) Lehistan Kralı III. Zygmunt'un ordusu, Eylül 1609'dan beri kuşattığı Smolensk'in surlarına 13 Haziran 1611'de bir lağım patlatarak gedik açtı ve şehri ele geçirdi; 20 aylık direniş sona erdi. Smolensk 1654'e kadar Lehistan-Litvanya'da kaldı ve bu düşüş, aynı yıl imzalanacak Deulino Mütarekesi'nin (1618) zeminini hazırladı.",
+  d:"Kargaşalar Dönemi'nde (Smuta) Lehistan Kralı III. Zygmunt'un ordusu, Eylül 1609'dan beri kuşattığı Smolensk'in surlarına 13 Haziran 1611'de bir lağım patlatarak gedik açtı ve şehri ele geçirdi; 20 aylık direniş sona erdi. Smolensk 1654'e kadar Lehistan-Litvanya'da kaldı ve bu düşüş, yedi yıl sonra imzalanacak Deulino Mütarekesi'nin (1618) zeminini hazırladı.",
   kaynak:"bulunamadı — TDV bu kuşatmayı müstakil ele almıyor, dayanak: standart akademik kaynak (Siege of Smolensk 1609-1611 tarihyazımı)", duygu:["😔"] },
 
 { t:"1617-02-27", k:"antlasma", etiket:["toprak-kayip","konu-askeri","konu-diplomasi"],
