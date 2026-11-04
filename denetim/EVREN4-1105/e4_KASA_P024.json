@@ -1,0 +1,776 @@
+{
+ "Mega": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:557",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1897-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya · US Office of the Historian, «Ethiopia», https://history.state.gov/countries/ethiopia",
+   "alinti": "1936’da Cibuti’ye kaçarak arkasından İngiltere’ye geçen ve beş yıl orada kalan Hâile Selâsiye | The Italians invaded Ethiopia and occupied Addis Ababa on May 6, 1936.",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 1814] ÜLKE DÜZEYİ; t YIL 1936 (gün teyitsiz; 1936-06-01 AOI künye günü, ilhak 1936-05-09 [İPUCU]). f 1897-01-01 teyitsiz (Borana'nın Menelik'e katılışı TDV'de yok). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:557",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1815] [KÜME K17] Ülke düzeyi küme ajanına bırakıldı. KARARLAR gece-18: f 1941-05-05 ya da kendi kurtuluş günü."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:557",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1816] [KÜME K15] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:557",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1817] [KÜME K18] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:557",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1818] [KÜME K19] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Kebrî Dehar": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:586",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1897-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Harar», https://islamansiklopedisi.org.tr/harar · TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "XX. yüzyılın başlarından itibaren Harar eyaleti içinde yer alan ... Ogaden’e | 1936’da Cibuti’ye kaçarak arkasından İngiltere’ye geçen ve beş yıl orada kalan Hâile Selâsiye",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 1819] ÜLKE DÜZEYİ; t YIL 1936. f 1897-01-01 teyitsiz: TDV «Harar» Ogaden'in Harar eyaletine katılışı 'XX. yüzyılın başlarından itibaren' (YÜZYIL). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:586",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Evfât», https://islamansiklopedisi.org.tr/evfat · TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Habeşistan’da 1285-1415 yılları arasında hüküm süren bir İslâm emirliği | merkezi Denkalî çölündeki Aussa’ya nakledilen Harar Sultanlığı da Galla göçebeleri tarafından yıkıldı (1577)",
+   "uc": "t",
+   "oneri": {
+    "f": "1415-01-01",
+    "bol": "1281→1415 evfat (künye var; Ogaden'e uzanışı kaynaksız → BEYANLI)"
+   },
+   "not": "[sira 1820] Hayalet: adal künyesi f 1415-01-01, dönem 1281'den başlıyor; TDV «Evfât» 1285-1415. t 1577 YIL teyitli (Harar Sultanlığı Aussa'ya taşındı ve yıkıldı, TDV «Etiyopya»; TDV «Harar»: Emîr Muhammed 1577'de Webi kıyısında yenildi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:586",
+   "alan": "s",
+   "d": "somali",
+   "f": "1577-01-01",
+   "t": "1897-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "merkezi Denkalî çölündeki Aussa’ya nakledilen Harar Sultanlığı da Galla göçebeleri tarafından yıkıldı (1577)",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 1821] f 1577 YIL teyitli (Adal'ın çöküşü). 'somali' künyesi (Somali Sultanlıkları) Ogaden'de bir sultanlığı karşılamıyor: TDV «Somali» ve «Harar» Ogaden'in 1577-1897 siyasî sahibini vermiyor (Ogaden kabileleri). t 1897: TDV «Somali» iç bölgelerin Menelik'e geçişini tarihsiz ('bu dönemde') verir — BULUNAMADI. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:586",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1822] [KÜME K17] Ülke düzeyi küme ajanına bırakıldı. KARARLAR gece-18: f 1941-05-05."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:586",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1823] [KÜME K15] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:586",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1824] [KÜME K18] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:586",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1825] [KÜME K19] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Kelâfo": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:595",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1897-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Harar», https://islamansiklopedisi.org.tr/harar · TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "XX. yüzyılın başlarından itibaren Harar eyaleti içinde yer alan ... Ogaden’e | 1936’da Cibuti’ye kaçarak arkasından İngiltere’ye geçen ve beş yıl orada kalan Hâile Selâsiye",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 1826] ÜLKE DÜZEYİ; t YIL 1936. f 1897 teyitsiz (TDV «Harar» XX. yy başı). Not: Ogaden'de İtalyan ilerleyişi 1935 sonbaharında başladı [İPUCU, Walwal/Gorrahei] — t günü ayrıca sınanmalı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:595",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Evfât», https://islamansiklopedisi.org.tr/evfat · TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Habeşistan’da 1285-1415 yılları arasında hüküm süren bir İslâm emirliği | merkezi Denkalî çölündeki Aussa’ya nakledilen Harar Sultanlığı da Galla göçebeleri tarafından yıkıldı (1577)",
+   "uc": "t",
+   "oneri": {
+    "f": "1415-01-01",
+    "bol": "1281→1415 evfat (BEYANLI)"
+   },
+   "not": "[sira 1827] Kebrî Dehar (sira 1820) gerekçesi: adal hayaleti 1281-1415; t 1577 teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:595",
+   "alan": "s",
+   "d": "somali",
+   "f": "1577-01-01",
+   "t": "1897-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "merkezi Denkalî çölündeki Aussa’ya nakledilen Harar Sultanlığı da Galla göçebeleri tarafından yıkıldı (1577)",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 1828] Kebrî Dehar (sira 1821) gerekçesi: f 1577 teyitli; 1577-1897 sahibi ve t 1897 kaynakta yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:595",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1941-11-30",
+   "t": "1974-09-12",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1829] [KÜME K17] Ülke düzeyi küme ajanına bırakıldı. KARARLAR gece-18: f 1941-05-05."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:595",
+   "alan": "s",
+   "d": "etiyopya-derg",
+   "f": "1974-09-12",
+   "t": "1991-05-29",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1830] [KÜME K15] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:595",
+   "alan": "s",
+   "d": "etiyopya-gecis-hukumeti",
+   "f": "1991-05-29",
+   "t": "1995-08-22",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1831] [KÜME K18] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:595",
+   "alan": "s",
+   "d": "etiyopya-federal",
+   "f": "1995-08-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1832] [KÜME K19] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Borama": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:621",
+   "alan": "s",
+   "d": "somali",
+   "f": "1577-01-01",
+   "t": "1884-07-18",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "merkezi Denkalî çölündeki Aussa’ya nakledilen Harar Sultanlığı da Galla göçebeleri tarafından yıkıldı (1577)",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 1833] f 1577 YIL teyitli. 1577-1884 Borama (Gadabursi ülkesi) sahibi kaynakta yok: TDV «Zeylâ» kıyıyı XVII. yy'da Muhâ'ya, 1875'te Mısır'a bağlar (iç bölge değil). t 1884-07-18: kronoloji maddesi 1884-07-14 diyor (4 gün fark); TDV «Somali» İngiliz sömürgeleştirmesini yılsız ('aynı yıl') verir — BULUNAMADI. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:621",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-07-18",
+   "t": "1960-06-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Somalia», https://history.state.gov/countries/somalia",
+   "alinti": "Somaliland, which had been a British protectorate until June 26, 1960",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 1834] t gün teyitli (26 Haziran 1960). f 1884-07-18 teyitsiz (bkz. sira 1833). Not: künye somali-ingiliz-himayesi (f 1884-01-01, t 1960-06-26) var ama hiçbir yerleşimde kullanılmıyor; Borama ve kardeş kayıtlar d: ingiltere yazıyor — himaye/ilhak ayrımı (TAHRİR) koordinatöre. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:621",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Evfât», https://islamansiklopedisi.org.tr/evfat · TDV İslâm Ansiklopedisi, «Etiyopya», https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Habeşistan’da 1285-1415 yılları arasında hüküm süren bir İslâm emirliği | merkezi Denkalî çölündeki Aussa’ya nakledilen Harar Sultanlığı da Galla göçebeleri tarafından yıkıldı (1577)",
+   "uc": "t",
+   "oneri": {
+    "f": "1415-01-01",
+    "bol": "1281→1415 evfat (künye var)"
+   },
+   "not": "[sira 1835] Hayalet: adal künyesi f 1415. Borama Zeylâ'nın iç bölgesidir; TDV «Evfât»: Evfât 1285-1415, yıkılınca 'Zeyla‘ın güneyindeki Adel Emirliği onun yerini aldı' — 1281-1415 sahibi evfat (1281-1285 belirsiz). t 1577 teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:621",
+   "alan": "s",
+   "d": "somaliland-1960",
+   "f": "1960-06-26",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "US Office of the Historian, «Somalia», https://history.state.gov/countries/somalia",
+   "alinti": "Somaliland, which had been a British protectorate until June 26, 1960 | The United States recognized the Somali Republic on July 1, 1960",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1836] ÜLKE DÜZEYİ, gün düzeyinde f+t (himaye 26 Haziran 1960'ta bitti; Somali Cumhuriyeti 1 Temmuz 1960). [alıntı İngilizce kaynağın dilinde] [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:621",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "1991-05-18",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1837] [KÜME K27] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:621",
+   "alan": "s",
+   "d": "somaliland-cumhuriyeti",
+   "f": "1991-05-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "28 Mayıs 1991’de bağımsızlığını ilân etti",
+   "uc": "f",
+   "oneri": {
+    "f": "1991-05-28"
+   },
+   "not": "[sira 1838] TDV «Somali»: Egāl 28 Mayıs 1991'de bağımsızlığını ilân etti. Künye somaliland-cumhuriyeti f 1991-05-18 (Burao Konferansı; dayanağı gazete — theeastafrican). ÇELİŞKİ: TDV 05-28, yaygın kabul 05-18 (Burao) — kural gereği TDV esas, 05-18 ic_not; bağımsız akademik ikinci kaynak bulunursa o esas alınır. Künye f'si de aynı commit'te (LAB). Somali Cumhuriyeti t 1991-05-18 (sira 1837, K27) bununla bağlı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Berâve": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:667",
+   "alan": "s",
+   "d": "somali",
+   "f": "1500-01-01",
+   "t": "1905-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali · TDV İslâm Ansiklopedisi, «Makdişu», https://islamansiklopedisi.org.tr/makdisu",
+   "alinti": "Berâve, Merkâ ve Makdişu 1828 yılında ... Bû Saîd hânedanına tâbi oldu | Berâve, Merkâ ve Varşeyh şehirleriyle beraber Makdişu 1892 yılında ... kiralandı",
+   "uc": "f+t",
+   "oneri": {
+    "bol": "somali 1500→1828; v umman-zengibar 1828→1892; 1892→1905/06 İtalyan kirası/himayesi (v italya ya da ic_not)",
+    "t": "1892-01-01"
+   },
+   "not": "[sira 1839] TDV «Somali»: Berâve, Merkâ ve Makdişu 1828'de Zengibar Bû Saîd hânedanına tâbi oldu (künye umman-zengibar var). TDV «Makdişu»: Berâve 1892'de Makdişu ile birlikte İtalya'ya kiralandı, 'İtalyan himayesindeki kıyılar' ilân edildi. Günler YIL. P007 Mogadişu emsali (orada 1698 Umman da önerildi; Berâve için 1698 kaynakta yok). TDV «Somali» ayrıca '2 Mart 1891' İngiliz-İtalyan anlaşmasıyla Berâve ve Merkâ'nın İtalyan elinde kaldığını yazar — 1891/1892 ic_not. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:667",
+   "alan": "s",
+   "d": "italya",
+   "f": "1905-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Makdişu», https://islamansiklopedisi.org.tr/makdisu · TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1905’te Makdişu’yu, 1906’da Somali sahilinde Zengibar’a ait bulunan bütün toprakları İtalya’ya sattı | 2 Mart 1891’de İngilizler’in İtalyanlar’la anlaşmasının ardından ... Berâve ve Merkâ gibi şehirler İtalyanlar’ın elinde kaldı",
+   "uc": "f",
+   "oneri": {
+    "f": "1906-01-01"
+   },
+   "not": "[sira 1840] TDV «Makdişu»: Zengibar 1905'te yalnız Makdişu'yu, 1906'da kalan Zengibar kıyılarını İtalya'ya sattı → Berâve satışı 1906 (YIL). [İPUCU: Benâdir limanlarının satış sözleşmesi Ocak 1905 imzalı olabilir — sözleşme metni TARAYICI.] t 1936-06-01 AOI künye günü, teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:667",
+   "alan": "s",
+   "d": "makdisu-sultanligi",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1841] Berâve'nin 1281-1500 sahibi: TDV «Makdişu» Berâve'yi ancak 1892 kirasında anar; Makdişu Sultanlığı'nın Berâve'ye hâkimiyeti okunan maddelerde yok (kayıttaki kaynak:'makdisu' abi merkez varsayımı). TDV «Berâve» maddesi yok (arama boş). Künye makdisu-sultanligi 1269-1500 kapsıyor; kaynak gerek."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:667",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 1842] ÜLKE DÜZEYİ; t gün teyitli (1 Nisan 1950). f 1941-02-25 teyitsiz (TDV «Somali» ve «Makdişu»da 1941 İngiliz girişi tarihsiz). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:667",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1843] [KÜME K27] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:667",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi | Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1844] ÜLKE DÜZEYİ; gün düzeyinde f+t. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bardere": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:676",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1905-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "iç bölgelerde Geledi kabilesinin nüfuzu devam ediyordu",
+   "uc": "",
+   "oneri": {
+    "f": "1500-01-01"
+   },
+   "not": "[sira 1845] Hayalet: künye somali (Somali Sultanlıkları) f 1500-01-01, dönem 1281'den başlıyor; 1281-1500 sahibi BULUNAMADI (BEYANLI). TDV «Somali» iç bölgeler için yalnız 'Geledi kabilesinin nüfuzu' der (tarihsiz). t 1905: iç Cuba vadisinde İtalyan idaresinin başlangıcı TDV'de yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:676",
+   "alan": "s",
+   "d": "italya",
+   "f": "1905-01-01",
+   "t": "1936-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1846] TDV «Somali» ve «Makdişu» 1905'i yalnız kıyı (Makdişu) satışı için verir; Bardere'nin İtalyan idaresine giriş günü yok. [İPUCU: Cuba'nın batı kıyısı (Trans-Juba) 1925'e kadar İngiliz Kenya'sındaydı; Bardere'nin nehrin hangi yakasında olduğu ölçülmeli.] TARAYICI: Italian Somaliland iç bölge işgal tarihleri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:676",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 1847] ÜLKE DÜZEYİ; t gün. f 1941-02-25 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:676",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1848] [KÜME K27] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:676",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi | Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1849] ÜLKE DÜZEYİ; gün düzeyinde f+t. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Cilib": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:685",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1905-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "iç bölgelerde Geledi kabilesinin nüfuzu devam ediyordu",
+   "uc": "",
+   "oneri": {
+    "f": "1500-01-01"
+   },
+   "not": "[sira 1850] Bardere (sira 1845) gerekçesi: somali künyesi f 1500, 1281-1500 hayalet. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:685",
+   "alan": "s",
+   "d": "italya",
+   "f": "1905-01-01",
+   "t": "1936-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1851] Bardere (sira 1846) gerekçesi; Cilib'e özgü İtalyan giriş günü yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:685",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 1852] ÜLKE DÜZEYİ; t gün. f teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:685",
+   "alan": "s",
+   "d": "somali-cumhuriyeti",
+   "f": "1960-07-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1853] [KÜME K27] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:685",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "1 Nisan 1950’de uygulamaya konulan kararla Cibuti’den Kenya’ya kadar bütün topraklara Somali adı verildi | Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1854] ÜLKE DÜZEYİ; gün düzeyinde f+t. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Nâsir": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:796",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla | 1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1855] ÜLKE DÜZEYİ: kondominyum 19 Ocak 1899, bağımsızlık 1 Ocak 1956 (TDV «Sudan»). TAHRİR notu: güneyde İngiliz-Mısır fiilî idaresi 1899'dan yıllarca sonra kuruldu; kayıt öncesini kasıtlı boşluk tutuyor — yerleşime özgü idare kuruluş günü kaynakta yok. Nâsir: Nuer ülkesi, karakol 1900'ler [İPUCU]. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bentiu": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:804",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla | 1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1856] ÜLKE DÜZEYİ: kondominyum 19 Ocak 1899, bağımsızlık 1 Ocak 1956 (TDV «Sudan»). TAHRİR notu: güneyde İngiliz-Mısır fiilî idaresi 1899'dan yıllarca sonra kuruldu; kayıt öncesini kasıtlı boşluk tutuyor — yerleşime özgü idare kuruluş günü kaynakta yok. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Deym Zübeyr": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:816",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla | 1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1857] ÜLKE DÜZEYİ: kondominyum 19 Ocak 1899, bağımsızlık 1 Ocak 1956 (TDV «Sudan»). TAHRİR notu: güneyde İngiliz-Mısır fiilî idaresi 1899'dan yıllarca sonra kuruldu; kayıt öncesini kasıtlı boşluk tutuyor — yerleşime özgü idare kuruluş günü kaynakta yok. Deym Zübeyr: Bahrülgazâl'in Mehdî'ye teslimi Nisan 1884 (TDV «Sudan»); 1884-1899 arası kayıtta boş — sınanmalı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Şembe": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:828",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla | 1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1858] ÜLKE DÜZEYİ: kondominyum 19 Ocak 1899, bağımsızlık 1 Ocak 1956 (TDV «Sudan»). TAHRİR notu: güneyde İngiliz-Mısır fiilî idaresi 1899'dan yıllarca sonra kuruldu; kayıt öncesini kasıtlı boşluk tutuyor — yerleşime özgü idare kuruluş günü kaynakta yok. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Nimule": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:842",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla | 1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1859] ÜLKE DÜZEYİ: kondominyum 19 Ocak 1899, bağımsızlık 1 Ocak 1956 (TDV «Sudan»). TAHRİR notu: güneyde İngiliz-Mısır fiilî idaresi 1899'dan yıllarca sonra kuruldu; kayıt öncesini kasıtlı boşluk tutuyor — yerleşime özgü idare kuruluş günü kaynakta yok. Nimule: [İPUCU] bölge Uganda himayesine (künye uganda-protektorasi var) bağlı olup 1914 Sudan-Uganda sınır düzenlemesiyle Sudan'a geçmiş olabilir — ONERI adayı, kaynakla sınanmalı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Yambio": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:854",
+   "alan": "s",
+   "d": "ingiliz-sudani",
+   "f": "1899-01-19",
+   "t": "1956-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "19 Ocak 1899’da Sudan’da yönetimin çerçevesini oluşturan bir antlaşmanın imzalanmasıyla | 1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1860] ÜLKE DÜZEYİ: kondominyum 19 Ocak 1899, bağımsızlık 1 Ocak 1956 (TDV «Sudan»). TAHRİR notu: güneyde İngiliz-Mısır fiilî idaresi 1899'dan yıllarca sonra kuruldu; kayıt öncesini kasıtlı boşluk tutuyor — yerleşime özgü idare kuruluş günü kaynakta yok. Yambio: Zande ülkesi; [İPUCU] Kral Gbudwe'nin 1905'te düşüşüyle İngiliz-Mısır idaresi — f ONERI adayı, kaynakla sınanmalı. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "El-Menâkıl": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:945",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-06-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Funclar’ın reisi Amâre (Dûnkas), 1504 yılında ... Alve Krallığı’na karşı bağımsızlığını ilân etti | Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1861] f YIL (1504), t AY (1821 Haziranı; 14 Haziran günü bu maddelerde yok). Çift teyit: TDV «Func» aynı 1504 yılını verir. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:945",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Funclar’ın reisi Amâre (Dûnkas), 1504 yılında ... Alve Krallığı’na karşı bağımsızlığını ilân etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "[sira 1862] t YIL (Funcların Alve'ye karşı bağımsızlık ilânı 1504; künye nube t 1504-01-01). f 1281 ufuk. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:945",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "26 Ocak 1885’te Hartum’a giren | 2 Eylül 1898 tarihinde Kerkeri savaşında Teâyişî büyük bir yenilgiye uğradı ve Mehdî Devleti yıkıldı",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1898-09-02",
+    "sonra": "1898-09-02→1899-01-19 İngiliz-Mısır (isg ingiltere ya da ingiltere, kaynakla)"
+   },
+   "not": "[sira 1863] ABİ MERKEZ Hartum: f gün teyitli (26 Ocak 1885). t: künye mehdi t 1898-09-02 — dönem 1899-01-19'a uzanıyor = hayalet dilim (Değişmez/künye aşımı). Mehdî Devleti 2 Eylül 1898'de yıkıldı (TDV «Sudan»); 1899-01-19 kondominyumdur. Not: Cezîre'nin Mehdîlere geçişi Hartum'dan önce (1884) olmuş olabilir — sınanmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:945",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı | 26 Ocak 1885’te Hartum’a giren",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 1864] d: v kid misir-kavalali. f AY (1821 Haziranı), t gün (ABİ MERKEZ Hartum 26 Ocak 1885). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Ümmü Bedr": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:959",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1882-09-07",
+   "t": "1899-01-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan · TDV İslâm Ansiklopedisi, «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "Ocak 1883’te Ubeyyid’e giren Mehdî’nin kuvvetleri kısa zamanda diğer şehirleri de ele geçirdi | 2 Eylül 1898 tarihinde Kerkeri savaşında Teâyişî büyük bir yenilgiye uğradı ve Mehdî Devleti yıkıldı",
+   "uc": "t",
+   "oneri": {
+    "t": "1898-09-02",
+    "sonra": "1898-09-02→1899-01-19 İngiliz-Mısır (kaynakla)"
+   },
+   "not": "[sira 1865] t: künye mehdi t 1898-09-02, dönem 1899-01-19'a uzanıyor (hayalet dilim). f 1882-09-07 teyitsiz: TDV «Kordofan» Mehdî kuvvetlerinin Ocak 1883'te Ubeyyid'e girip 'kısa zamanda diğer şehirleri' aldığını yazar (Ubeyyid 19 Ocak 1883, TDV «Sudan»). ABİ MERKEZ önerisi: Ümmü Bedr Kordofan'dadır, kayıttaki m:'Hartum' yerine Ubeyyid (TDV «Kordofan») — f ONERI adayı 1883-01-19 (Ümmü Bedr'e özgü gün yok). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:959",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "XVI. yüzyılda Func Sultanlığı’nın bölgenin özellikle orta kesimlerini etkisi altına aldığı",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 1866] Ümmü Bedr batı Kordofan çölündedir; TDV «Kordofan» ve «Sudan» Nûbe (Makurya-Alve) hâkimiyetinin buraya uzandığını yazmaz (XIV. yy müslüman göçleri, XVI. yy'da Func 'orta kesimler'). 1281-1504 sahibi BULUNAMADI. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:959",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-08-19",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "Dârfûr Sultanlığı da batı kesimlerine hâkim olmaya çalıştı | Dârfûr Sultanı Muhammed Teyrab bölgeyi tamamen işgal ederek ülkesine kattı | Kordofan ... Osmanlı-Mısır idaresine bağlandı (1821)",
+   "uc": "t",
+   "oneri": {
+    "d": "darfur",
+    "bol": "funj yalnız orta/doğu Kordofan; batı Kordofan XVII. yy sonundan Dârfûr nüfuzu, XVIII. yy sonunda Teyrab'ın ilhakı → darfur (yıl BULUNAMADI; Teyrab 1768-1787, TDV «Dârfûr»)"
+   },
+   "not": "[sira 1867] TDV «Kordofan»: Dârfûr Sultanlığı XVII. yy sonundan batı Kordofan'a hâkim olmaya çalıştı, yüzyılın sonuna doğru Sultan Teyrab bölgeyi tamamen işgal ederek ülkesine kattı; 1821'de Bâre'deki Dârfûr garnizonu yıkıldı. → Ümmü Bedr'in 1821 öncesi sahibi Func değil Dârfûr (en azından Teyrab'dan sonra). t 1821 YIL teyitli (08-19 Bâre günü bu maddede yok). ÖLÇÜT: idareye katma — 'ülkesine kattı'. Künye darfur f 1695 kapsıyor. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:959",
+   "alan": "v",
+   "d": "misir-kavalali",
+   "f": "1821-08-19",
+   "t": "1882-09-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kordofan», https://islamansiklopedisi.org.tr/kordofan",
+   "alinti": "Kordofan ... Osmanlı-Mısır idaresine bağlandı (1821)",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 1868] d: v kid misir-kavalali. f YIL (1821). t 1882-09-07 teyitsiz (bkz. sira 1865: TDV Ocak 1883 Ubeyyid). [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}

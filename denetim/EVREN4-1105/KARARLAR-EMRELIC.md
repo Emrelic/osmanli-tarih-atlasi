@@ -106,6 +106,22 @@ Kararlar:
   - **Sardunya:** Savoya adayı 1720-09-02'de teslim aldı (Treccani EI «Sardegna», birebir). `sardinya-piyemonte` künyesinin f'si 1720-08-02 kaynaksız görünüyor; 1718-08-02 Londra Antlaşması ile karışmış olabilir.
     - Sassari önerisinde (P007) de TSV 1720-09-02, veri satırı 1720-02-24 diyordu. Gün teslim günü olmalı: 1720-09-02.
 
+## LAB SALI: SHS Devleti (d546b19cf)
+
+Künye ölçümü (origin/main):
+- `yugoslavya` f 1918-12-01
+- `sirbistan-kralligi` t 1918-12-01
+- `karadag` t 1918-11-26
+- Država SHS künyesi YOK
+
+Yeni künye adayı `shs-devleti` 1918-10-29 → 1918-11-30. `harita:'yugoslavya'` ile açılırsa renkler.py değişmez. Aday YENI-KUNYE-ADAY'da.
+
+- **Bosna (Dubiça, Brod, Tuzla):** `yugoslavya` 1918-11-11 dönemleri hayalet; doğru sahip `shs-devleti`.
+- **Ostrovica:** `sirbistan-kralligi` 11-11 dönemi, yer Sırp ordusunun işgal bölgesinde değilse `shs-devleti` olur.
+- **11-11 günü:** neyi tarihlediği belli değil. Ulusal Konsey'in Saraybosna'da yönetimi aldığı gün kaynakla bulunmalı.
+- Künye açılana kadar BEYANLI yazılır.
+- **Bar:** TDV'deki "26 Ekim" TDV içi bir ay hatasıdır, `ic_not`a böyle yazıldı. Doğru gün 1918-11-26; `karadag` künyesinin t'siyle tutarlı.
+
 ## LAB SALI cevabı (lab-1104-kunye f2ed94442)
 
 - EMRELİC'in onayladığı künye uygulamaları LAB'ın `HAYALET-UYGULA.json` dosyasında, 14 madde: Ming f 1356-04-10, ming t / guney-ming f, venedik, zend, bengal, mali-fed, edo.
