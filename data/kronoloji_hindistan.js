@@ -269,7 +269,7 @@ window.KRONOLOJI_HINDISTAN = [
   yer_id:"Srinagar (Keşmir)",
   d:"[Bâbürlü] İki buçuk asırdır bağımsız yaşayan Şah Mîr hanedanının Keşmir Sultanlığı'na son verildi; vadinin serin yaylaları Bâbürlü hükümdarları için yazlık bahçe kompleksleriyle (Şalimar Bağı, Nişat Bağı) ünlü bir yaz sarayına dönüşecekti.",
   kaynak:"kesmir (TDV)" },
-{ taraflar:["babur-imparatorlugu"], t:"1600-12-31", b:"İngiliz Doğu Hindistan Şirketi Londra'da imtiyaz fermanıyla kuruldu", tur:"kurulus", onem:3, dunya:4, kapsam:"dis",
+{ taraflar:["babur-imparatorlugu"], t:"1601-01-10", ic_not_takvim:"GREGORYEN 10 Ocak 1601 (CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri) — kaynak günü 31 Aralık 1600 Jülyen/eski üslup", b:"İngiliz Doğu Hindistan Şirketi Londra'da imtiyaz fermanıyla kuruldu", tur:"kurulus", onem:3, dunya:4, kapsam:"dis",
   etiket:["ekonomi","kurulus","konu-siyasi","konu-ekonomi"],
   yer_id:"Londra",
   d:"[Bâbürlü — dış] Kraliçe I. Elizabeth'in imtiyaz fermanıyla kurulan şirket henüz Hindistan'da tek bir ticaret istasyonuna sahip değildi; iki buçuk asır sonra aynı şirket bütün alt kıtayı fiilen yönetecek bir gücе dönüşecekti — bu tohum, İngiliz Hindistanı'nın uzak başlangıç noktasıdır.",

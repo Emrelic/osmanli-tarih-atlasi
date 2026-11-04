@@ -6706,14 +6706,15 @@ window.DEVLETLER = [
 // ================================================================================
 
 { id:"iskocya", ad:"İskoçya Krallığı", tur:"krallik", bolge:"bati-avrupa",
-  f:"0843-01-01", t:"1707-05-01", baskent:"Scone → Edinburgh", harita:"iskocya",
+  f:"0843-01-01", t:"1707-05-12", baskent:"Scone → Edinburgh", harita:"iskocya",
+  ic_not_takvim:"t GREGORYEN 12 Mayıs 1707 = Birlik Yasası 'upon the First day of May' 1707 eski üslup (legislation.gov.uk Union with Scotland Act Art. I; CLAUDE.md Takvim, Emre 4 Kasım 2026; UMIT EK-julyen-oneri #24)",
   ozet:"Kenneth MacAlpin'in Pikte ve İskoç krallıklarını birleştirmesiyle doğan krallık; 1603'te İngiltere ile kişisel taç birliğine girdi, 1707 Birlik Yasası ile Büyük Britanya Krallığı'nda eridi.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
     { odak_yer:["Perth (İskoçya)"], t:"0843-01-01", tur:"kurulus", b:"Kenneth MacAlpin, Pikte ve İskoç krallıklarını birleştirdi" },
     { odak_yer:["Perth (İskoçya)"], t:"1314-06-24", tur:"savas", b:"Bannockburn Savaşı'nda İngiltere'ye karşı bağımsızlığını pekiştirdi" },
-    { odak_yer:["Perth (İskoçya)"], t:"1603-03-24", tur:"birlesme", b:"VI. James, İngiltere tahtına da geçip iki krallık kişisel birlik kurdu" },
-    { odak_yer:["Perth (İskoçya)"], t:"1707-05-01", tur:"son", b:"Birlik Yasası ile İngiltere'yle birleşip Büyük Britanya Krallığı'nı oluşturdu" }
+    { odak_yer:["Perth (İskoçya)"], t:"1603-04-03", tur:"birlesme", b:"VI. James, İngiltere tahtına da geçip iki krallık kişisel birlik kurdu", ic_not_takvim:"GREGORYEN 3 Nisan 1603 — kaynak günü 24 Mart 1603 eski üslup (CLAUDE.md Takvim; UMIT EK-julyen-oneri #3)" },
+    { odak_yer:["Perth (İskoçya)"], t:"1707-05-12", tur:"son", b:"Birlik Yasası ile İngiltere'yle birleşip Büyük Britanya Krallığı'nı oluşturdu", ic_not_takvim:"GREGORYEN 12 Mayıs 1707 — kaynak günü 1 Mayıs 1707 eski üslup (CLAUDE.md Takvim; UMIT EK-julyen-oneri #24)" }
   ]
 },
 { id:"irlanda", ad:"İrlanda (Gal Beylikleri ve Krallığı)", tur:"krallik", bolge:"bati-avrupa",
