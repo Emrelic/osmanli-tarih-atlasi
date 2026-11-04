@@ -124,6 +124,31 @@ Kararlar:
 - **Peru:** rakip hükûmet kuralı uygulanır. Her şehir kendi ilan ve fiilî idare günüyle: Trujillo 1820-12-29, Lima 1821-07-28.
 - **Mersin 1922-01-03** emsalle uyumlu.
 
+## LAB SALI: gece-50 soruları (158b1d870, HAYALET-KARAR; satırlar öneri, kaynak turu yapılmadı)
+
+1. **mehdi:** künyenin t'si (1898-09-02, Ümmüdürman) devletin sonu değil; Halife Kordofan'da sürdü.
+   - GENİŞLET adayı: Ümmü Dübeykerât, Halife'nin ölümü, 1899-11 (gün kaynakla bulunacak).
+   - `ingiliz-sudani` f 1899-01-19 (kondominyum).
+   - Nil boyu: 1898-09-02 → 1899-01-18 isg (İngiliz-Mısır), ardından `ingiliz-sudani`.
+   - Kordofan `mehdi`'de kalır.
+2. **adal 1281-1415:** zaten UYGULA'da; bu dönemler `evfat`'a geçiyor.
+   - `evfat` f 1285 (TDV); 1281-1284 beyanlı.
+   - Kelâfo, Filtu gibi güney uçlarının Evfât içinde olup olmadığına kaynakla bakılmalı.
+3. **somali:** künye f 1500, bir toplu sınıf künyesi ("Somali Sultanlıkları"). Künye 1281'e yayılmaz; Bardere, Cilib ve Hudur 1281-1500 beyanlı.
+4. **peru-cumhuriyeti:** f 1824-12-09 → GENİŞLET adayı 1821-07-28 (Lima'da bağımsızlık ilanı).
+   - Trujillo 1820-12-29 → 1821-07-27 arası ya beyanlı yazılır ya künye f'si daha geri çekilir; karar EMRELİC'te.
+   - Kralcı yerler `s: ispanya`. `peru-valiligi` künyesi yok.
+5. **Vyatka/Hlınov:** yeni künye adayı (t 1489-08, Jülyen). `novgorod-cumhuriyeti` id'si de yok; Novgorod başka bir adla kayıtlı olabilir.
+6. **yeni-granada-valiligi:** t 1810-07-20 devletin sonu değil; kralcı valilik sürdü (1816 Morillo).
+   - GENİŞLET adayı: 1819-08-10 (Sámano'nun kaçışı) ya da 1821'de son kalelerin düşüşü.
+   - Santa Marta 1820-11'e kadar valilikte kalır.
+   - `buyuk-kolombiya` id'si yok.
+7. **pueblo-bagimsizligi:** t → 1693; Santa Fe'nin fiilen geri alınışı 1693-12-30 (gün kaynakla bulunacak).
+8. **somali-ingiliz-himayesi:** künye hiçbir yerleşimde kullanılmıyor; yerleşimler `d:"ingiltere"` yazıyor.
+   - Künyenin BOYALAR'da kendi rengi var (#5282ac; ingiltere #7e3d8f). `d:` değerini çevirmek haritadaki rengi değiştirir.
+   - Motor, id BOYALAR'daysa `harita:` alanını okumaz; bu yüzden künyeye `harita:"ingiltere"` eklemek işe yaramaz.
+   - Karar Emre'de (D-ANAHTAR benzeri).
+
 ## LAB SALI: SHS Devleti (d546b19cf)
 
 Künye ölçümü (origin/main):
