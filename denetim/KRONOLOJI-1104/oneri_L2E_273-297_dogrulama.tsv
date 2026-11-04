@@ -1,0 +1,26 @@
+no	dosya_satir	tarih_atlas	kaynak	url	okunan_cumle	hassasiyet	uyum	sonuc
+L2-655	data/devletler.js#min-krallik#1	0925-01-01	Xin Wudai shi 68	https://zh.wikisource.org/wiki/新五代史/卷68	"審知同光三年卒; 十二月，延稟、延鈞皆以兵入，執延翰殺之 (yil 926 cikarim; atlas basligindaki ""~2 ay sonra"" desteklenmiyor)"	yil	FARKLI	TARIH_DUZELT
+L2-654	data/devletler.js#qi-li-maozhen#1	0924-01-01	Xin Wudai shi 40	https://zh.wikisource.org/wiki/新五代史/卷40	同光二年，以疾卒，年六十九 (ay yok)	yil	UYUMLU	DOGRULANDI
+L2-653	data/kronoloji_cok_dogu_500_1281.js#KRONOLOJI_COK_DOGU_500_1281[111]	0923-11-18	Xin Wudai shi 3	https://zh.wikisource.org/wiki/新五代史/卷03	龍德三年冬十月 戊寅，皇帝崩。梁亡 (戊寅=923-11-18 Jul.; ceviri dogrulanmadi); juan 5: 己卯，滅梁 (=11-19)	gun	UYUMLU	DOGRULANDI
+L2-652	data/kronoloji_cok_dogu_500_1281.js#KRONOLOJI_COK_DOGU_500_1281[110]	0923-05-13	Xin Wudai shi 5	https://zh.wikisource.org/wiki/新五代史/卷05	夏四月己巳，皇帝即位，大赦，改元，國號唐 (己巳=923-05-13 Jul.; ceviri dogrulanmadi)	gun	UYUMLU	DOGRULANDI
+L2-651	data/devletler.js#tang-jin-shatuo-prensligi#1	0923-01-01	Xin Wudai shi 5	https://zh.wikisource.org/wiki/新五代史/卷05	同光元年…夏四月己巳，皇帝即位…國號唐	yil	UYUMLU	DOGRULANDI
+L2-650	data/kronoloji_cok_dogu_500_1281.js#KRONOLOJI_COK_DOGU_500_1281[108]	0921-02-11	Zizhi tongjian 271	https://zh.wikisource.org/wiki/資治通鑑/卷271	龍德元年(921): 二月，吳改元順義 ardindan 趙王方焚香受菉，二人斷其首; gun yok (Jiu Wudai 54 okumasi tutarsiz)	ay	KISMEN	DOGRULANDI
+L2-649	data/devletler.js#zhao-wang-rong#1	0921-01-01	Xin Wudai shi 5	https://zh.wikisource.org/wiki/新五代史/卷05	十八年…趙將張文禮弒其君鎔 (Tianyou 18 = 921)	yil	UYUMLU	DOGRULANDI
+L2-648	data/devletler.js#hubaekje#1	0920-01-01	worldhistory.org (yeterli degil)	https://www.worldhistory.org/Later_Three_Kingdoms_Period/	Samguk sagi okunmadi	yil	KISMEN	KAYNAK_UYGUN_DEGIL
+L2-647	data/kronoloji_cok_dogu_500_1281.js#KRONOLOJI_COK_DOGU_500_1281[107]	0919-05-03	Xin Wudai shi 61	https://zh.wikisource.org/wiki/新五代史/卷61	夏四月，溫奉玉冊、寶綬尊隆演即吳王位…改天祐十六年為武義元年 (gun yok)	ay	KISMEN	DOGRULANDI
+L2-646	data/devletler.js#sonraki-liang-5hanedan#9	0919-01-01			Huliu savasi okunan metinde yok	yil	KISMEN	BULUNAMADI
+L2-645	data/kronoloji_cok_dogu_500_1281.js#KRONOLOJI_COK_DOGU_500_1281[231]	0918-07-24	Goryeosa 1	https://zh.wikisource.org/wiki/高麗史/卷一	至六月乙卯，騎將洪儒…密謀，夜詣太祖第; 夏六月丙辰，卽位于布政殿 (乙卯=918-07-24, 丙辰=07-25 Jul.; ceviri dogrulanmadi)	gun	KISMEN	DOGRULANDI
+L2-644	data/devletler.js#sonraki-liang-5hanedan#8	0916-01-01			916 Jin ilerleyisi okunmadi	yil	KISMEN	BULUNAMADI
+L2-643	data/devletler.js#onceki-shu#5	0916-01-01	Xin Wudai shi 63 (dipnot)	https://zh.wikisource.org/wiki/新五代史/卷63	dipnot: 通鑑卷二六九貞明二年(即通正元年); kar/kusatma cumlesi okunmadi	yil	KISMEN	BULUNAMADI
+L2-642	data/devletler.js#sonraki-liang-5hanedan#7	0915-01-01	Zizhi tongjian 269	https://zh.wikisource.org/wiki/資治通鑑/卷269	貞明元年(915): 夏四月 逼德倫以書求援於晉; 六月庚寅朔 賀德倫上印節，請王兼領天雄軍	ay	UYUMLU	DOGRULANDI
+L2-641	data/devletler.js#onceki-shu#4	0915-01-01	Xin Wudai shi 63	https://zh.wikisource.org/wiki/新五代史/卷63	五年條: 遣王宗儔等攻岐，取其秦、鳳、階、成四州，至大散關 (Yongping 5 = 915)	yil	KISMEN	DOGRULANDI
+L2-640	data/devletler.js#kalacuri-tripuri#1	0915-01-01	Wikipedia (yalniz ipucu)	https://en.wikipedia.org/wiki/Kalachuris_of_Tripuri		yil	KISMEN	KAYNAK_UYGUN_DEGIL
+L2-639	data/kronoloji_cok_dogu_500_1281.js#KRONOLOJI_COK_DOGU_500_1281[103]	0913-11-01	Zizhi tongjian 269	https://zh.wikisource.org/wiki/資治通鑑/卷269	乾化三年: 庚午 晉王以周德威為盧龍節度使 (baslik 十二月 okundu; 庚午=913-11-02 Jul. ya da 914-01-01, ceviri dogrulanmadi); idam 914 Ocak	ay	KISMEN	DOGRULANDI
+L2-638	data/devletler.js#yan-liu-shouguang#1	0913-01-01	Zizhi tongjian 269	https://zh.wikisource.org/wiki/資治通鑑/卷269	均王上乾化三年(913): 晉王以周德威為盧龍節度使; 晉王方宴，將吏擒守光適至; 乾化四年春正月丙辰獻於太廟，自臨斬劉守光	yil	UYUMLU	DOGRULANDI
+L2-637	data/devletler.js#yan-liu-shouguang#0	0911-08-01	Xin Wudai shi 39	https://zh.wikisource.org/wiki/新五代史/卷39	守光遂以梁乾化元年八月，自號大燕皇帝，改元曰應天	ay	UYUMLU	DOGRULANDI
+L2-636	data/devletler.js#onceki-shu#2	0911-01-01	Xin Wudai shi 63	https://zh.wikisource.org/wiki/新五代史/卷63	911 Qi ile kopus metinde yok	yil	KISMEN	BULUNAMADI
+L2-635	data/devletler.js#sonraki-liang-5hanedan#2	0908-01-01	Xin Wudai shi 4	https://zh.wikisource.org/wiki/新五代史/卷04	五年正月辛卯，克用卒，年五十三。子存勗立; 乃為燕出兵攻破潞州，梁圍乃解去	yil	KISMEN	DOGRULANDI
+L2-634	data/devletler.js#onceki-shu#1	0908-01-01	Xin Wudai shi 63	https://zh.wikisource.org/wiki/新五代史/卷63	908 Chang an ortak saldirisi metinde yok	yil	KISMEN	BULUNAMADI
+L2-633	data/kronoloji_cok_dogu_500_1281.js#KRONOLOJI_COK_DOGU_500_1281[89]	0907-06-01	Xin Wudai shi 40	https://zh.wikisource.org/wiki/新五代史/卷40	及梁太祖即位…獨茂貞不能，但稱岐王 (ay yok; yil 907)	yil	KISMEN	DOGRULANDI
+L2-632	data/devletler.js#zhao-wang-rong#0	0907-01-01	Jiu Wudai shi 54	https://zh.wikisource.org/wiki/舊五代史/卷54	鎔復奉唐朝正朔，稱天祐七年 (=910; 907 kurulus cumlesi okunmadi)	yil	KISMEN	BULUNAMADI
+L2-631	data/kronoloji_cok_dogu_500_1281.js#KRONOLOJI_COK_DOGU_500_1281[87]	0907-01-01	Xin Wudai shi 39	https://zh.wikisource.org/wiki/新五代史/卷39	梁開平元年…乃自稱盧龍節度使…執仁恭而幽之	yil	UYUMLU	DOGRULANDI

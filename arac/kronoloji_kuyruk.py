@@ -15,9 +15,9 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2E 273-297 (EMRELİC @7fc83e4): ganzhi günleri Academia Sinica teyidine kadar BEKLE
+    "L2-638": "[çeviri doğrulanmadı] ganzhi günü (908 / 913 / 915 / 918 Goryeo / 923) — Academia Sinica teyidi bekliyor (EMRELİC)",
     # L2S 173-197 (S8): ajanın kendi ganzhi hesabı, gün taşıyan iki madde — Academia Sinica teyidine kadar
-    "L2-543": "[çeviri doğrulanmadı] 丙辰 = 0502-04-20 ajan hesabı (atlasla aynı) — Academia Sinica teyidi bekliyor",
-    "L2-544": "[çeviri doğrulanmadı] 壬申 = 0506-02-14 ajan hesabı (atlasla aynı; 己卯 = 02-21 Yang Jiqi teslimi) — Academia Sinica teyidi bekliyor",
     "L2-489": "Agathokles darbesi -0315: Austin/Diodoros MÖ 316 der, literatürde 317/316 ikilemi → ikinci akademik kaynak gelmeden atlas -0316 kalır",
     "L2-318": "Santo Domingo: kural teslim (kapitülasyon) günü; 07-07 teslim mi fiilî devir mi belirsiz → Diario de la Reconquista okununca karar; 07-09 fiilî devir ise ic_not",
     # 351-375: DOGRULANDI ama dayanak tek ve ansiklopedi dışı web (kişisel kronoloji, belediye, dernek)
@@ -37,6 +37,11 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2E 273-297 + S8 (EMRELİC, Academia Sinica; EŞLEŞİR)
+    "L2-645": "Takvim: Goryeo Taejo 1/6 乙卯 = 918-07-24, 丙辰 = 07-25 cülus (Zhenming 4 takvimi; Academia Sinica)",
+    "L2-652": "Takvim: Tongguang 1/4 己巳 = 923-05-13 (Academia Sinica)",
+    "L2-653": "Takvim: Longde 3/10 戊寅 = 923-11-18; 己卯 = 11-19 Liang'ın sonu (Academia Sinica)",
+    "L2-544": "Takvim: Liang Tianjian 5/1/6 壬申 = 506-02-14 (Academia Sinica)",
     # L2E 298-322 (EMRELİC, Academia Sinica; EŞLEŞİR)
     "L2-656": "Takvim: Liao Tianxian 1/1/3 庚申 = 926-02-17 (Academia Sinica)",
     "L2-657": "Takvim: Liao Tianxian 1/2/19 丙午 = 926-04-04 (Academia Sinica)",
@@ -68,6 +73,12 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    # L2E 273-297 takvim düzeltmeleri (EMRELİC, Academia Sinica)
+    "L2-635": ("tarih düzelt", "908-01-01 → 908-02-23: Takvim: Tianyou 5/1 辛卯 = 908-02-23 Li Keyong öldü, Cunxu tahta (Academia Sinica)"),
+    "L2-639": ("tarih düzelt", "913-11-01 → 914-01-01: Takvim: Qianhua 3/12 庚午 = 914-01-01 (11. ayda 庚午 yok; 913-11-02 10. aya düşer) Zhou Dewei Lulong valisi (Academia Sinica)"),
+    "L2-642": ("tarih düzelt", "915-01-01 → 915-07-15: Takvim: Zhenming 1/6/1 庚寅朔 = 915-07-15 He Delun mührü Jin'e teslim etti (Academia Sinica)"),
+    "L2-651": ("tarih düzelt", "923-01-01 → 923-05-13: Takvim: Tongguang 1/4 己巳 = 923-05-13 Cunxu imparator, «國號唐» (Academia Sinica); künye ucu"),
+    "L2-655": ("metin düzelt (tarih kalır)", "Min: başlıktaki «yaklaşık iki ay sonra» desteksiz — Wang Shenzhi 925 öldü, Wang Yanhan 926 civarı öldürüldü, yaklaşık bir yıl sonra (Xin Wudai shi 68; EMRELİC)"),
     # L2E 298-322 takvim düzeltmeleri (EMRELİC Academia Sinica + KASA SALI NAOJ ECO)
     "L2-675": ("tarih düzelt", "938-01-01 → 938-11-25: Takvim: Liao Huitong 1/11/1 甲辰朔 = 938-11-25 (Academia Sinica); Nanjing/16 eyalet tasarrufu o ay"),
     "L2-676": ("tarih düzelt", "940-01-01 → 940-01-22: Takvim: Tengyō 2/12/11 丁未 = 940-01-22 Jülyen (NAOJ ECO; Academia Sinica ile aynı) Shimotsuke; ic_not: Kōzuke 2/12/15 辛亥 = 940-01-26"),
@@ -109,6 +120,7 @@ METIN = [
     ("L2-533", "Linyi 446: «Kandarapura» adı Song shu'da yok (Qusu kalesi alındı, Yangmai oğluyla kaçtı); «akınlar azaldı» kaynaksız"),
     ("L2-537", "Gaya 479: unvan 輔國將軍、本國王 «kendi ülkesinin kralı»; «Gaya Kralı» ifadesi kaynakta yok"),
     ("L2-546", "[BEKLE — tek dayanak Treccani] Neustria 511: Treccani «Merovingi» üç krallığın doğuşunu 6.-7. yy dönüşüne koyar; 511 bölüşümü Neustria adı taşımaz"),
+    ("L2-543", "Liang kuruluşu 502-04-20: gün doğru (丙辰, Academia Sinica) ama yıl adı Nan Qi Zhongxing 2, 3. ay — Liang Tianjian değil (Tianjian 1 bu günden sonra) → metindeki takvim ifadesi düzeltilir (EMRELİC)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
