@@ -925,6 +925,34 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
 - **İşlem:** YOK ve KISMEN çıkan 26 satıra `_alinti_kontrol` etiketi ve not eklendi: "KASA uygulamadan önce kaynağı açıp cümleyi doğrulasın".
 - **Kural:** DA-BRIEF'e "ALINTI HAM METİNDEN; WebFetch/WebSearch özeti alıntı sayılmaz" eklendi.
 - **Sınır:** örneklem ham metin kapsamını ölçer, alıntının hükmü desteklediğini ölçmez. Yorum hataları (yanlış olayı tarihleyen cümle) bu ölçümde görünmez.
+- **Şüpheli 4 satırın yeniden okunması (EMRELİC isteği; UMIT, sayfa.py ham metin):**
+  - **Kumamoto:** LoC Japan "1336 to 1392 … became the new shogun" birebir; "Ashikaga rule (1336-1573)" başka sayfada. Ajanın "By 1573 … banished" parçası yeniden ifadedir. Hüküm KAYNAKLI kalır [yalnız yıl teyitli]; alıntı düzeltilmeli.
+  - **Kâzerûn:** Iranica Bâbor cümlesi birebir (bir kelime atlanmış), ikinci parça makalede yok. Cümle Fars'ın Karakoyunlu'ya geçişini yıl vermeden anlatıyor, 1452'yi tarihlemiyor. **KAYNAKLI → ONERI.**
+  - **Şarköy:** TDV Tekirdağ cümlesi kısaltılmış ama birebir; "1357 [?]" ve "1357-1358 yıllarında". Hüküm KAYNAKLI kalır [yalnız yıl teyitli, kaynak çekinceli].
+  - **Clervaux:** Treccani "Passato all’ Austria nel 1714" birebir; ölçüm yalnız kesme işareti farkıyla düşmüştü. Ama cümle satırın t ucunu (1714) tarihliyor, f ucunu (1697-09-20) değil. **KAYNAKLI → ONERI** (yanlış olayı tarihleyen alıntı).
+  - **Sonuç:** 4 şüpheliden 2'si gerçek hata. İkisi de "olay-tarih uyumu" hatası: alıntı sayfada var ama satırın değiştirdiği ucu tarihlemiyor.
+  - **Sıradaki iş:** yükseltme turu sonunda HATALI_ONERI ve CELISKI kovalarından 20'lik örneklemle olay-tarih uyumu ölçülecek (EMRELİC).
+
+## 39. Olay-uç uyumu örneklemi (EMRELİC isteği, 5 Kasım 2026; `uc_orneklem.py`, `uc_uygula.py`, `uc_sonuc.json`)
+- **Örneklem (tohum 1105):** 40 satır, yükseltme turunda KAYNAKLI'ya çıkanlardan (`_etiket` IKI_KAYNAKLI_ONERI); 10 satır, HATALI_ONERI/CELISKI kovasından. Ajan alıntı ve not alanlarını okudu, sayfa açmadı.
+- **İlk 40:** UC_DOGRU 8 · YIL_DUZEYI 27 · UC_YANLIS 3 · OLAY_FARKLI 2.
+  - UC_YANLIS %7,5. UC_YANLIS ile OLAY_FARKLI birlikte %12,5.
+  - YIL_DUZEYI = uçlardan biri yalnız yıl teyitli. Çoğu "[yalnız yıl teyitli]" beyanıyla uyumlu; hata değildir.
+- **Kova 10:** UC_DOGRU 1 · YIL_DUZEYI 7 · UC_YANLIS 1 · OLAY_FARKLI 1. 9 kova hükmü yerinde, 1'i yersiz.
+- **Eşik:** UC_YANLIS %10'un altında kaldı. `uc` sütunu yine de 5 Kasım'dan beri brifte zorunludur (y_058'den itibaren bütün partiler).
+- **İşlem (`uc_uygula.py`):**
+  - 5 satır KAYNAKLI → ONERI. Etiket UC_ORNEKLEM_INDIRILDI.
+    - Hille t 1534: alıntı f ucunu (1508, Bağdat) tarihliyor.
+    - Timbuktu f 1329: alıntı t ucunu (1430) tarihliyor; TDV 729/1329 cümlesi yalnız notta.
+    - Mazara del Vallo: alıntı 827 ve 1091'i tarihliyor, 1000 ve 1073'ü değil.
+    - Kerma: alıntı Dongola'nın 1820 sefer yılı (ülke düzeyi).
+    - Tikrit: alıntı Bağdat maddesinden, 1467 çıkarım.
+  - Alaşehir germiyan: kova hükmü yersiz, öneri 5 Kasım koordinatör kararıyla uyumlu. Etiket HATALI_ONERI → KOVA_YERSIZ. Asıl borç germiyan 1300-1390 diliminin kaynaksızlığıdır.
+- **Desenler:**
+  - Alıntı başka ucu tarihliyor, kanıt yalnız notta duruyor.
+  - Komşu ya da abi merkezin maddesi; ülke düzeyi olay. Karakurum, Kabartay, Oran ve Fergana beyanlı olduğu için hata sayılmadı.
+  - Gün hicrî tablo çıkarımı, alıntıda yalnız yıl var (Ohri, Nahçıvan, Kütahya).
+- **Sınır:** örneklem alıntı alanını ölçer, ham sayfayı açmaz. Kanıtı notta olan satırlar (Hille, Timbuktu) kaynak açılıp alıntıya taşınırsa yeniden KAYNAKLI olabilir.
 
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.

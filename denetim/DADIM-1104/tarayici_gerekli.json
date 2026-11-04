@@ -245,6 +245,11 @@
   "kaynak": "UNESCO WHC 1277 https://whc.unesco.org/en/list/1277/ (sayfa.py 3 denemede HTTP 503; tarayıcıyla açılıp 1189 cümlesi ham okunmalı)"
  },
  {
+  "ad": "Mulhouse",
+  "dosya_satir": "data/yerlesimler_avrupa.js:225",
+  "kaynak": "Historisches Lexikon der Schweiz 'Mülhausen' https://hls-dhs-dss.ch/de/articles/007089/ (403, tarayıcıyla; arama özeti: 1515-1798 zugewandter Ort, 4 Ocak 1798 oylama, 15 Mart 1798 birleşme; okunmadı)"
+ },
+ {
   "ad": "Çanakkale",
   "dosya_satir": "data/yerlesimler.js:162",
   "kaynak": "Reyhan Körpe (ÇOMÜ) — Çimenlik/Sarıçay ağzı 14. yy başı Bituperi/Vituperio liman yerleşimi; makale künyesi bulunamadı (DergiPark / ÇOMÜ Tarih Dergisi / Temmuz 2026 haberleri). Bulunursa kur 1452 geri çekilir (EMRELİC/UMIT)."

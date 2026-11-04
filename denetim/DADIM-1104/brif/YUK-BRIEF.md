@@ -11,6 +11,11 @@ Bütün atlas kuralları `DA-BRIEF.md`dedir; önce onu baştan sona oku ve harfi
 - İkinci bir kaynak da bulursan `not` alanına "çift teyit" yaz.
 - Önerinin gün hassasiyeti kaynakta yoksa ve yalnız yıl teyit ediliyorsa: KAYNAKLI yaz, ama `not` alanına "[yalnız yıl teyitli]" ekle ve `oneri` gününü yıla indir (`YYYY-01-01` + beyan).
 
+## Hangi ucu tarihliyor (zorunlu, EMRELİC 5 Kasım 2026)
+- KAYNAKLI hükmü yalnız alıntı önerinin DEĞİŞTİRDİĞİ ucu (f ya da t) ve o olayı tarihliyorsa verilir.
+- Başka ucu, başka olayı ya da yılsız anlatımı tarihleyen alıntı → ONERI.
+- Her KAYNAKLI satıra `uc` alanı yaz: "f", "t" ya da "f+t".
+
 ## Künye okuma uyarısı
 - Künyenin adına değil, `f`/`t` alanına ve `ic_not`'una bak.
   - Örnek: `almanya` künyesinin adı "Kutsal Roma 962-1806" ama alanları f 0962 → t 1945-06-05; ic_not "Nazi Almanyası ayrı künye açılmadı: aynı polity" diyor.

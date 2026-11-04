@@ -108,6 +108,14 @@ Aşağıdaki TEK KURAL bu ölçütün uygulamasıdır, onun yerine geçmez. Öl�
     - Luang Prabang `v: fransa`.
 - **Künye var mı, ölç (gece-12):** "künye adayı", "künye yok" ya da "id bilinmiyor" yazmadan önce depodaki `data/devletler.js`'te devletin adını ve olası kimliğini grep'le ara. Örnek hata: Trieste Serbest Toprağı (`triyeste-serbest-toprak`) zaten vardı.
 - **Hayalet devlet kontrolü (gece-11):** Fiilî yönetim ya da Draç emsaliyle erken bir gün önerirken önce künyenin `f`'sine bak. Künye o günü kapsamıyorsa yerleşimi künye gününde bırak, erken günü `ic_not`'a yaz, künye sorusunu LAB'a gönder.
+- **🔴 KAYNAKLI = ALINTI SATIRIN DEĞİŞTİRDİĞİ UCU TARİHLER (EMRELİC, 5 Kasım 2026):**
+  - Alıntı, satırın kullandığı ucu (f ya da t) ve o ucun olayını tarihlemelidir.
+  - Başka ucu ya da başka olayı tarihleyen alıntı ONERI'dir.
+  - Yıl vermeden olayı anlatan cümle de ONERI'dir; bu bir tarih teyidi değildir.
+  - İlk vakalar:
+    - Kâzerûn: Iranica cümlesi Fars'ın geçişini yılsız anlatıyor.
+    - Clervaux: Treccani'nin 1714'ü satırın t'sidir, f'yi (1697) tarihlemez.
+  - Her KAYNAKLI satıra `uc` alanı yaz: "f", "t" ya da "f+t". Bu alan alıntının hangi ucu tarihlediğini söyler.
 - **🔴 ALINTI HAM METİNDEN (EMRELİC, 5 Kasım 2026):**
   - `alinti` / `alinti2` alanına yalnız sayfanın **ham metninden birebir** kopyalanmış cümle yazılır (`sayfa.py oku` çıktısı).
   - WebFetch ya da WebSearch'ün **özetlediği** metin alıntı sayılmaz. Sayfayı özetleyen bir araçla okunan cümle KAYNAKLI hükmüne dayanak olamaz.

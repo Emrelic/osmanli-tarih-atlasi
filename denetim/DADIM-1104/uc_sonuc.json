@@ -1,0 +1,512 @@
+[
+ {
+  "ad": "Washington (D.C.)",
+  "dosya_satir": "-",
+  "d": "abd",
+  "f": "1790-07-01 (AY)",
+  "t": "2000-12-31",
+  "uc": "f",
+  "sinif": "UC_DOGRU",
+  "gerekce": "Treccani \"luglio 1790\" ay düzeyinde, aynı olay (başkent yeri komisyonu); gün yok, AY beyanı doğru."
+ },
+ {
+  "ad": "Timbuktu",
+  "dosya_satir": "data/yerlesimler.js:1210",
+  "d": "tuareg-ivellemmedan",
+  "f": "1430-01-01",
+  "t": "1468-01-01",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 1430 ve 1468 yıllarını açıkça verir; ikisi de yıl düzeyi, olay doğru."
+ },
+ {
+  "ad": "Semendire",
+  "dosya_satir": "data/yerlesimler.js:570",
+  "d": "sirbistan",
+  "f": "1281-01-01",
+  "t": "1439-08-27",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"başşehir (1430-1459)\" yalnız yıl; olay başkent oluşu, despotluğa geçişle tam örtüşmüyor."
+ },
+ {
+  "ad": "Tâif",
+  "dosya_satir": "data/yerlesimler.js:1628",
+  "d": "hicaz-kralligi",
+  "f": "1916-09-17",
+  "t": "1925-12-19",
+  "uc": "t",
+  "sinif": "UC_DOGRU",
+  "gerekce": "TDV \"8 Eylül 1924 Tâif'i ele geçirmesi\" gün düzeyinde, doğru uç ve olay."
+ },
+ {
+  "ad": "Ohri",
+  "dosya_satir": "data/yerlesimler.js:495",
+  "d": "OSMANLI",
+  "f": "1385-01-01",
+  "t": "1402-07-28",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"muhtemelen 787 (1385)\" yıl ve kesin değil; 1385-02-12 hicrî çıkarımı."
+ },
+ {
+  "ad": "Karakurum",
+  "dosya_satir": "data/yerlesimler_asya.js:2820",
+  "d": "qing-hanedani",
+  "f": "1635-01-01",
+  "t": "1911-12-29",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "Dolon Nor 1691 yıl düzeyi; olay ülke (Halha) düzeyi, Karakurum özelinde değil (beyanlı)."
+ },
+ {
+  "ad": "Musul",
+  "dosya_satir": "data/yerlesimler.js:888",
+  "d": "OSMANLI",
+  "f": "1516-08-24",
+  "t": "1624-01-01",
+  "uc": "f",
+  "sinif": "UC_DOGRU",
+  "gerekce": "TDV \"923 Rebîülevvel, Nisan 1517\" Musul alınışı, ay düzeyi, doğru olay."
+ },
+ {
+  "ad": "Herseknovi (Herceg Novi)",
+  "dosya_satir": "data/yerlesimler_ek.js:247",
+  "d": "OSMANLI",
+  "f": "1482-01-01",
+  "t": "1687-09-30",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "\"Godine 1483. zaposjeli\" yalnız yıl."
+ },
+ {
+  "ad": "Kafsa",
+  "dosya_satir": "data/yerlesimler_afrika.js:413",
+  "d": "OSMANLI",
+  "f": "1574-08-25",
+  "t": "1705-07-12",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 964 (1557) Turgut Reis zaptı, yıl; olay doğru."
+ },
+ {
+  "ad": "Eski Van (Tuşpa)",
+  "dosya_satir": "data/yerlesimler.js:368",
+  "d": "akkoyunlu",
+  "f": "1467-01-01",
+  "t": "1502-01-01",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 1467 ve \"1507'de Safevî Van'a girdi\" yıl düzeyi."
+ },
+ {
+  "ad": "Dili",
+  "dosya_satir": "data/yerlesimler_asya.js:4270",
+  "d": "endonezya-dogu-timor",
+  "f": "1975-12-07",
+  "t": "1999-10-25",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "Alıntı \"početak prosinca 1975\" ve \"sredina 1976\"; 1976-07-17 günü alıntıda yok, t bulanık."
+ },
+ {
+  "ad": "Banaluka",
+  "dosya_satir": "data/yerlesimler.js:579",
+  "d": "OSMANLI",
+  "f": "1528-01-01",
+  "t": "1908-10-05",
+  "uc": "t",
+  "sinif": "UC_DOGRU",
+  "gerekce": "TDV \"7 Ekim 1908\" ilhak günü; gün düzeyi, doğru olay (ülke düzeyi ilhak)."
+ },
+ {
+  "ad": "Tokat",
+  "dosya_satir": "data/yerlesimler.js:350",
+  "d": "burhaneddin",
+  "f": "1381-01-01",
+  "t": "1393-06-01",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 1398 Burhaneddin'in ölümü ve Osmanlı'nın Tokat'ı alması, yalnız yıl."
+ },
+ {
+  "ad": "Kabartay (Nalçik)",
+  "dosya_satir": "data/yerlesimler.js:766",
+  "d": "sovyet-rusya",
+  "f": "1917-11-07",
+  "t": "1991-12-26",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "\"1918'de Sovyet idaresi kuruldu\" yıl, bölge (Kabartay) düzeyi."
+ },
+ {
+  "ad": "Hille",
+  "dosya_satir": "data/yerlesimler.js:2076",
+  "d": "safevi",
+  "f": "1508-01-01",
+  "t": "1534-12-04",
+  "uc": "t",
+  "sinif": "UC_YANLIS",
+  "gerekce": "Alıntı alanı yalnız f=1508'i (Bağdat) tarihliyor; değişen uç t=1534-11-28 için alıntı yok (kanıt notta, Bağdat md.); ayrıca abi merkez Bağdat."
+ },
+ {
+  "ad": "Taraz (Evliya-Ata)",
+  "dosya_satir": "data/yerlesimler_ok107.js:224",
+  "d": "hokand",
+  "f": "1815-01-01",
+  "t": "1864-09-22",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"1864'te ... Evliyaata ... işgal\" yıl düzeyi, doğru uç ve olay."
+ },
+ {
+  "ad": "Fergana",
+  "dosya_satir": "",
+  "d": "hokand-hanligi",
+  "f": "1710-01-01",
+  "t": "1876-02-01",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "f: TDV 1121/1710 yalnız yıl; t: \"Şubat 1876\" ay. Ülke (hanlık) düzeyi."
+ },
+ {
+  "ad": "Kerma",
+  "dosya_satir": "data/yerlesimler_afrika.js:869",
+  "d": "Mısır (Kavalalı)",
+  "f": "1821-01-04",
+  "t": "1885-01-26",
+  "uc": "f",
+  "sinif": "OLAY_FARKLI",
+  "gerekce": "Alıntı Dongola md.: 1820 İsmâil Kâmil seferi (sefer yılı, ülke düzeyi); Kerma'nın alınışını tarihlemiyor."
+ },
+ {
+  "ad": "Timbuktu",
+  "dosya_satir": "data/yerlesimler.js:1210",
+  "d": "mali-imparatorlugu",
+  "f": "1281-01-01",
+  "t": "1430-01-01",
+  "uc": "f",
+  "sinif": "UC_YANLIS",
+  "gerekce": "Alıntı alanları t=1430'u ve genel Mali garnizonunu tarihliyor; değişen uç f=1329 için cümle alıntıda yok (kanıt yalnız notta: TDV 729/1329)."
+ },
+ {
+  "ad": "Karaman",
+  "dosya_satir": "data/yerlesimler.js:205",
+  "d": "karaman",
+  "f": "1402-09-15",
+  "t": "1468-01-01",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"875 (1471) baharında Lârende'yi aldı\" yıl/mevsim; f=1402-07-28 değişimi için alıntı yok."
+ },
+ {
+  "ad": "Turfan",
+  "dosya_satir": "data/yerlesimler_asya.js:2931",
+  "d": "qing-hanedani",
+  "f": "1876-08-18",
+  "t": "1912-02-12",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"1877'de Turfan'ı yeniden işgal\" yıl düzeyi."
+ },
+ {
+  "ad": "Kafsa",
+  "dosya_satir": "data/yerlesimler_afrika.js:413",
+  "d": "hafsi",
+  "f": "1281-01-01",
+  "t": "1574-08-25",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 964 (1557) Turgut Reis zaptı, yıl düzeyi."
+ },
+ {
+  "ad": "Iğdır",
+  "dosya_satir": "data/yerlesimler_ek26.js:57",
+  "d": "timurlu",
+  "f": "1386-01-01",
+  "t": "1408-04-13",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 1404 Timur zaptı, 1406 Karakoyunlu'ya geçiş; yıl düzeyi."
+ },
+ {
+  "ad": "Priştine",
+  "dosya_satir": "data/yerlesimler.js:569",
+  "d": "sirbistan",
+  "f": "1342-01-01",
+  "t": "1455-06-01",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 842-848 (1439-1444) doğrudan Osmanlı idaresi; yalnız yıl."
+ },
+ {
+  "ad": "Kütahya",
+  "dosya_satir": "data/yerlesimler.js:168",
+  "d": null,
+  "f": "1833-02-02",
+  "t": "1833-06-30",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "Alıntı yalnız \"Kütahya Antlaşması (1833)\" yılı; 1833-02-02 ve 06-30 uç günleri alıntıda yok."
+ },
+ {
+  "ad": "Kâbil",
+  "dosya_satir": "data/yerlesimler_asya.js:551",
+  "d": "ingiltere",
+  "f": "1839-08-07",
+  "t": "1842-01-06",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 1839 işgal, \"1841'de çekilen\" (gerçek 1842 başı; t=1842-01-06 ile yıl uyumsuz); alıntı ham metinde yalnız KISMEN bulunmuş."
+ },
+ {
+  "ad": "Oran",
+  "dosya_satir": "data/yerlesimler.js:1126",
+  "d": "fransa-cumhuriyet",
+  "f": "1831-01-04",
+  "t": "1962-07-05",
+  "uc": "f",
+  "sinif": "UC_DOGRU",
+  "gerekce": "TDV Cezayir \"22 Temmuz 1834\" gün düzeyi; Vehrân 4 Ocak 1831 işgali ayrı isg ucu; Genel Valilik ülke düzeyi ama kural gereği."
+ },
+ {
+  "ad": "Ereğli (Konya)",
+  "dosya_satir": "data/yerlesimler.js:222",
+  "d": null,
+  "f": "1832-09-13",
+  "t": "1833-06-15",
+  "uc": "d",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"1832'de ... işgal edildi\" yıl; uç günleri alıntıda yok."
+ },
+ {
+  "ad": "Bakü",
+  "dosya_satir": "data/yerlesimler.js:815",
+  "d": "zend",
+  "f": "1747-06-20",
+  "t": "1794-01-01",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"kurulduğunda (1747)\" yıl düzeyi."
+ },
+ {
+  "ad": "Bender",
+  "dosya_satir": "data/yerlesimler.js:1566",
+  "d": "Boğdan Voyvodalığı",
+  "f": "1456-06-01",
+  "t": "1538-09-01",
+  "uc": "f",
+  "sinif": "UC_DOGRU",
+  "gerekce": "TDV \"1455 Eylülünden itibaren\" ay düzeyi; haraç/tâbiyet olayı (ülke düzeyi)."
+ },
+ {
+  "ad": "Manisa",
+  "dosya_satir": "data/yerlesimler.js:172",
+  "d": "yunanistan",
+  "f": "1919-05-26",
+  "t": "1922-09-09",
+  "uc": "t",
+  "sinif": "UC_DOGRU",
+  "gerekce": "TDV \"8 Eylül'de Türk birlikleri şehre girdi\" gün düzeyi, Manisa özelinde."
+ },
+ {
+  "ad": "Nahçıvan",
+  "dosya_satir": "data/yerlesimler_asya.js:800",
+  "d": "timurlu",
+  "f": "1386-01-01",
+  "t": "1408-04-13",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 789 (1387) ve 815 (1412); günler hicrî tablo çıkarımı, alıntıda yok."
+ },
+ {
+  "ad": "Mazara del Vallo",
+  "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:59",
+  "d": "__BOSLUK__",
+  "f": "1000-01-01",
+  "t": "1073-01-01",
+  "uc": "f+t",
+  "sinif": "UC_YANLIS",
+  "gerekce": "Alıntı 827 fethi ve 1091 sonu; satırın uçları 1000 ve 1073'ü tarihlemiyor; t=1073 ile 1091 sonu da gerilim yaratır."
+ },
+ {
+  "ad": "Gao",
+  "dosya_satir": "data/yerlesimler_e9353f.js:158",
+  "d": "tuareg-ivellemmedan",
+  "f": "1770-01-01",
+  "t": "1898-01-01",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"1770'te Gao ... Tuaregler'in kontrolüne girdi\" yıl; t=1898 alıntıda yok."
+ },
+ {
+  "ad": "Astrahan",
+  "dosya_satir": "data/yerlesimler.js:1186",
+  "d": "altinorda",
+  "f": "1281-01-01",
+  "t": "1502-03-01",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "\"In 1466 ... Astrakhan became the capital of an independent khanate\" yıl; Altın Orda sonu mu Astrahan bağımsızlığı mı belirsiz (Büyük Orda 1502)."
+ },
+ {
+  "ad": "Kafsa",
+  "dosya_satir": "data/yerlesimler_afrika.js:412",
+  "d": "fransa-cumhuriyet",
+  "f": "1881-05-12",
+  "t": "1923-10-29",
+  "uc": "f",
+  "sinif": "UC_DOGRU",
+  "gerekce": "TDV \"11 Kasım 1881\" Kafsa'nın ele geçirilişi gün düzeyi; himaye başlangıcı Bardo 1881-05-12, burası şehir düzeyi olay."
+ },
+ {
+  "ad": "Ahmedâbâd",
+  "dosya_satir": "data/yerlesimler_asya.js:751",
+  "d": "maratha",
+  "f": "1753-04-01",
+  "t": "1818-01-01",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"1758'de Maratalar'ın eline geçen\" yıl."
+ },
+ {
+  "ad": "Gazne",
+  "dosya_satir": "data/yerlesimler_asya.js:558",
+  "d": "cagatay",
+  "f": "1281-01-01",
+  "t": "1370-04-09",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"Timur 1401'de Gazne'yi ele geçirdi\" yıl; Çağatay f=1281 künye ucu."
+ },
+ {
+  "ad": "Lucca",
+  "dosya_satir": "data/yerlesimler_avrupa.js:527",
+  "d": "langobard",
+  "f": "0568-01-01",
+  "t": "0774-01-01",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "Treccani Toscana \"569-774\" yıl düzeyi, bölge düzeyi (Lucca merkez)."
+ },
+ {
+  "ad": "Tikrit",
+  "dosya_satir": "data/yerlesimler.js:2074",
+  "d": "akkoyunlu",
+  "f": "1469-01-01",
+  "t": "1508-01-01",
+  "uc": "f",
+  "sinif": "OLAY_FARKLI",
+  "gerekce": "Alıntı Bağdat md.: Karakoyunlu 1410-1467 sonra Akkoyunlu; Tikrit özel tanık yok (abi merkez), 1467 çıkarım, Akkoyunlu yılı yok."
+ },
+ {
+  "ad": "Humus",
+  "dosya_satir": "data/yerlesimler.js:1676",
+  "d": null,
+  "f": "1832-07-08",
+  "t": "1841-02-25",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 1246/1831 ve 1840 yıl; atlas günleri (1832-07-08, 1841-02-25) alıntıyla çelişir; hicrî 1246 de 1831 ile iç tutarsız.",
+  "kova_hukmu_dogru": true
+ },
+ {
+  "ad": "Gence",
+  "dosya_satir": "data/yerlesimler.js:812",
+  "d": "karakoyunlu",
+  "f": "1406-10-21",
+  "t": "1469-04-01",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV \"Akkoyunlu hâkimiyeti (1468-1501)\" dönem başı, yıl düzeyi; Emre kararı 1469-04-01 ile çelişir.",
+  "kova_hukmu_dogru": true
+ },
+ {
+  "ad": "Bağdat",
+  "dosya_satir": "data/yerlesimler.js:890",
+  "d": "karakoyunlu",
+  "f": "1411-01-01",
+  "t": "1469-01-01",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "\"Bağdat'ı (1470)\" yıl; aynı TDV şehir md. 1467 der (çift-TDV çelişkisi).",
+  "kova_hukmu_dogru": true
+ },
+ {
+  "ad": "Badajoz",
+  "dosya_satir": "data/yerlesimler_avrupa.js:263",
+  "d": "ispanya",
+  "f": "1479-01-19",
+  "t": "1936-08-14",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "Treccani \"Nel 1811 ... nel 1812\" yıl düzeyi; künye id hatası ayrı.",
+  "kova_hukmu_dogru": true
+ },
+ {
+  "ad": "Alaşehir",
+  "dosya_satir": "data/yerlesimler.js:1971",
+  "d": "germiyan",
+  "f": "1300-01-01",
+  "t": "1390-01-01",
+  "uc": "t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV Alaşehir \"1391'de fethedilinceye kadar\" yıl düzeyi, doğru olay; öneri koordinatör kararıyla uyumlu.",
+  "kova_hukmu_dogru": false
+ },
+ {
+  "ad": "Gazne",
+  "dosya_satir": "data/yerlesimler_asya.js:563",
+  "d": "ingiltere",
+  "f": "1839-07-23",
+  "t": "1842-09-06",
+  "uc": "f+t",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV yalnız 1839-1842 yıl; t için DNB 6 Eylül 1842 gün; f=1839-07-23 alıntıda yok; iki ayrı işgal (Aralık 1841 kopuşu).",
+  "kova_hukmu_dogru": true
+ },
+ {
+  "ad": "Vecde (Oujda)",
+  "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:83",
+  "d": "fas",
+  "f": "1659-01-01",
+  "t": "1912-03-30",
+  "uc": "f",
+  "sinif": "UC_DOGRU",
+  "gerekce": "Alıntı \"19 Mart 1907 olaydan birkaç gün sonra Vücde işgali\" ay düzeyi, doğru olay.",
+  "kova_hukmu_dogru": true
+ },
+ {
+  "ad": "Murzuk (Fizan)",
+  "dosya_satir": "data/yerlesimler.js:1120",
+  "d": "OSMANLI",
+  "f": "1835-05-26",
+  "t": "1912-10-18",
+  "uc": "f",
+  "sinif": "OLAY_FARKLI",
+  "gerekce": "Alıntı 1838 TAYİN yılı; olay (fiilî Osmanlı otoritesi) 1839 sonrası, satır ucundaki olay tayin değil.",
+  "kova_hukmu_dogru": true
+ },
+ {
+  "ad": "İstefe (Tebai)",
+  "dosya_satir": "data/yerlesimler.js:560",
+  "d": "OSMANLI",
+  "f": "1456-06-04",
+  "t": "1821-03-25",
+  "uc": "f",
+  "sinif": "YIL_DUZEYI",
+  "gerekce": "TDV 1460 Thebai'nin Osmanlı'ya katılması, yıl düzeyi; atlas 1456-06-04 ile çelişir.",
+  "kova_hukmu_dogru": true
+ },
+ {
+  "ad": "Santiago (Şili)",
+  "dosya_satir": "data/yerlesimler_amerika.js:612",
+  "d": "ispanyol-peru",
+  "f": "1542-11-20",
+  "t": "1818-02-12",
+  "uc": "f+t",
+  "sinif": "UC_YANLIS",
+  "gerekce": "Alıntı 1810-1813 İspanyol idaresinin kopuşunu anlatır; f=1542-11-20 ya da t=1818-02-12'yi tarihlemez.",
+  "kova_hukmu_dogru": true
+ }
+]
