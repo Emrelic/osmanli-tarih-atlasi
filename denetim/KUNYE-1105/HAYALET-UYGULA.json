@@ -482,5 +482,16 @@
   "islem": "devletler.js fetret-musa f → 1410-02-13 (Yanbolu, 8 Şevval 812). ic_not_f: '1411-02-17 (22 Şevval 813) Edirne'de hükümdarlık ilanı; 1410-06-15 Kosmidion yenilgisi, Temmuz 1410 ikinci yenilgi'. Edirne–Gelibolu hattı yerleşimleri: musa 1410-02-13 → 1410-06-14, süleyman 1410-06-15 → 1411-02-16, musa 1411-02-17'den. Öteki Rumeli yerleşimleri (mevcut musa-celebi 1410-02-13 başlangıçlı dönemler) 1411-02-17'ye KISALIR; ic_not '1410 Edirne-Gelibolu dışı kaynaksız'. d: değeri D-ANAHTAR kararına bağlı. DEĞİŞMEZ 2 — ölçüm (LAB + LAB PAZAR, origin/main): maddeler VAR — 1410-02-13 olaylar_ek5.js:58 (Yanbolu, Edirne'ye giriş), 1410-06-15 olaylar_ek3.js:17 (Kosmidion), 1411-02-17 olaylar_ek3.js:18 (taht) → yeni madde gerekmez.",
   "dayanak": "TDV MÛSÂ ÇELEBİ: «Yanbolu'da … büyük başarı kazandı (8 Şevval 812 / 13 Şubat 1410). Edirne'yi aldı, Gelibolu'ya kadar indi» · «15 Haziran 1410'da … Kosmidion'da (Hasköy) yendi» · «hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)»",
   "onay": "EMRELİC 6 Kasım gece-46"
+ },
+ {
+  "d": "umman (model)",
+  "tur": "KUNYE + YERLESIM",
+  "karar": "EMRELİC",
+  "guc": "ORTA",
+  "kunye": "umman f 1624-01-01 → 1615-01-31 (hicrî 1024 ∩ 1615)",
+  "gun": "1615-01-31",
+  "islem": "KÜNYE: umman (Ya'rubî/Bû Saîd) f → 1615-01-31. TDV YA'RUBÎLER cümlesi hicrî veriyor: «Nâsır b. Mürşid … biat etmesiyle kurulmuştur (1024/1615). Nâsır b. Mürşid'e 1034'te (1624) biat edildiği de söylenmektedir» → TDV esas (hicrî 1024 = 1615-01-31 → 1616-01-19, ∩ 1615 → ilk gün); ic_not_f iki ifadeyle (1024/1615 · 1034/1624). nebhani t 1624-01-01 → 1615-01-30 (künye ardışıklığı). MASKAT: TDV YA'RUBÎLER «I. Sultân b. Seyf … Portekizliler'den Maskat'ı aldı (1060/1650)» → mevcut 1650-01-26 hicrî 1060 (1650-01-05 → 1650-12-25) içinde, TUTARLI — '1620' TDV MASKAT ve YA'RUBÎLER'de BULUNAMADI (H3 notu çürük; 1630 Portekiz barış antlaşması var: «Portekizliler barış antlaşması yapmak zorunda kaldı (1630)»). YAN BULGU: TDV MASKAT «Osmanlı Devleti … 1552'de ele geçirdiği fakat kısa bir [süre sonra] … kaptırdığı Maskat» → 1552 kısa isg osmanli dilimi (Pîrî Reis; gün kaynakla). YERLEŞİMLER: iç Umman (Nizva, Buraymî, Rustak…) nebhani → 1615-01-31 umman; 1515-04-01 artığı (Hürmüz kopyası) bütün iç Umman ve Zufâr satırlarından KALKAR. Nizva/Buraymî yer_yama_1923_1945.js + yer_yama_halef_1946.js yerlesimler.js'e uyar (künye f değiştiği için 1624 değil 1615-01-31). Sahil kaleleri kale kale: Maskat portekiz 1507 → 1650-01-26 (Matrah ve Suhâr kaleleri de Nâsır'ın ölümünde Portekiz'deydi — TDV; düşüş günleri kaynakla), Sûr vb. Cülfâr ve Şârika: s: hurmuz-sultanligi + v: portekiz 1515-04-01 → 1622 (gece-39), 1622 → Ya'rubî alışı (Nâsır'ın Culfâr seferi, TDV) kaynakla. Zufâr (Salala, Mirbât, Tâka, Hâsik …) 1515 → 1624 BEYANLI (kesiri-sultanligi künyesi VAR 1450 → — Zufâr Kesîrî denetimi kaynakla teyit edilirse o). Sokotra çelişkisi (umman ↔ mahra-sultanligi) AYRI satır, kaynakla. MÜKERRER: nebhani (20 ref, #60121b) kalır, nebhani-umman (#f480cf) — renk farklı → D-ANAHTAR.md ek bölüm (Emre).",
+  "dayanak": "TDV YA'RUBÎLER + MASKAT + UMMAN (LAB açtı, 6 Kasım)",
+  "onay": "EMRELİC 6 Kasım gece-49"
  }
 ]

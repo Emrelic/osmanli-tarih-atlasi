@@ -62,4 +62,10 @@ Düzeltme sonucu ya **renk değiştirir** (çoğunluk) ya da **künye seçimi** 
 - ÇOKLU dörtlü: tarih aralığına göre (a) — KASA betikle önerir, LAB denetler.
 - fransiz-fas: künye VAR — `fas-fransiz-himayesi` (1912-03-30 → 1956-03-02, harita:"fas"; ölçüldü). 5 dönem (1946-1956) → (a) d:"fas-fransiz-himayesi"; renk 'fas' anahtarına düşer mi, künye id BOYALAR'da mı — KASA sınasın.
 
+## Ek: mükerrer künye — renk farkı yüzünden Emre kararı (6 Kasım)
+
+- `nebhani` «Nebhânîler (Uman)» 1281 → 1624, BOYALAR `#60121b` — yerleşimlerde 20 kaynak satırı (yerlesimler.js 9, yerlesimler_h2_afrika.js 11).
+- `nebhani-umman` «Nebhânîler (Umman Meliklikleri)» 1154 → 1624, BOYALAR `#f480cf` — yalnız kendi künye satırı.
+- EMRELİC kuralı: referansı çok olan id kalır (`nebhani`), f 1154'e genişler; renkler farklı olduğu için birleşme Emre'ye. `nebhani-umman` BOYALAR girdisi kullanılmayan girdi olarak kalır (renkler.py motor tuzu).
+
 Kararla birlikte `denetle.py`ye "`d:` künye id'si mi" denetimi eklenmesi önerilir (bugün 2326 dönem sessiz geçiyor).
