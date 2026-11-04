@@ -109,7 +109,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | san-devletleri | 1281-01-01 → 1923-10-29 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t 1923-10-29 (bölüm: eserin dizininden) |
 | lan-xang | 1353-01-01 → 1707-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHSEA I, ch.3, s.~173: 'King of Lan Sang at Luang Prabang in 1353' (f yıl teyitli) · ch.7, s.428: 'seventeenth century it was divided into three separate kingdoms' (t 1707 yalnız yüzyıl düzeyinde — laos-kralliklari f ile birlikte ikinci kaynak gerek) |
 | angkor-kmer | 0802-01-01 → 1431-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHSEA I, ch.3, s.~170: 'sent an expedition to sack Angkor in 1431' (t yıl teyitli; f 802 okunmadı) |
-| malay-sultanliklari | 1281-01-01 → 1909-07-10 | = → = | KISMEN | EB 1911 'Malay States (Siamese)' (Wikisource) — 'Kelantan, Trengganu, Kedah and Perlis … passed from Siamese to British protection in 1909' (t yalnız yıl, EB 1911 en çok 'kısmen'); 07-10 günü: 1909 İngiliz-Siyam antlaşması 10 Mart'ta imzalandı, onaylar Temmuz 1909'da değiştirildi — resmî metin (UK Treaty Series 1909) açık erişimde bulunamadı; f 1281 site ufku |
+| malay-sultanliklari | 1281-01-01 → 1909-07-10 | = → 1909-07-15 | DUZELT | EMRELİC JSTOR — Klein, Historical Journal 12/1 (1969), s.134: 'Final accord was attained on 10 March 1909' (imza) · Chan Su-ming, JMBRAS 38/1 (1965), s.~167: Kelantan'da 'first British Adviser on July 15th, 1909' (fiilî devir) · LeVos, JMBRAS 70/1 (1997): 'July 1909'. Verideki 07-10 hiçbir kaynakta yok → t 1909-07-10 → 1909-07-15 (Kelantan günü; Kedah-Trengganu-Perlis için Temmuz 1909 beyanlı; imza 1909-03-10 ic_not); f 1281 site ufku |
 | cohor-sultanligi | 1528-01-01 → 1923-10-29 | = → = | GIRISLI | GİRİŞLİ: Andaya & Andaya, A History of Malaysia — f 1528-01-01 / t 1923-10-29 (bölüm: eserin dizininden) |
 | palembang-sultanligi | 1281-01-01 → 1825-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1825-01-01 (bölüm: eserin dizininden) |
 | banten-sultanligi | 1527-06-22 → 1813-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1527-06-22 / t 1813-01-01 (bölüm: eserin dizininden) |
@@ -117,7 +117,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | banda-adalari | 1281-01-01 → 1621-03-08 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1621-03-08 (bölüm: eserin dizininden) |
 | bali-kralliklari | 1478-01-01 → 1908-04-28 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1478-01-01 / t 1908-04-28 (bölüm: eserin dizininden) |
 | pagaruyung | 1281-01-01 → 1833-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1833-01-01 (bölüm: eserin dizininden) |
-| timor-beylikleri | 1281-01-01 → 1769-10-10 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t 1769-10-10 (bölüm: eserin dizininden) |
+| timor-beylikleri | 1281-01-01 → 1769-10-10 | = → = | TEYIT | EMRELİC JSTOR (OA) — H. Hägerdal, Lords of the Land, Lords of the Sea (KITLV/Brill 2012), ch.10 'Colonial retreat and maintenance', s.~398: Dili'deki yeni Portekiz yerleşimi 'founded there on 10 October 1769' (t GÜN teyitli) · s.~396: Lifau'nun boşaltılması 'During the night of 11 August 1769' — ayrı olay, ic_not (f 1281 site ufku) |
 | azuchi-momoyama | 1568-10-16 → 1615-06-04 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Japan IV — f 1568-10-16 / t 1615-06-04 (bölüm: eserin dizininden) |
 | guney-ming | 1644-04-25 → 1662-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VII (Ming, Part 1) — f 1644-04-25 / t 1662-01-01 (bölüm: eserin dizininden) |
 | tungning | 1650-01-01 → 1683-10-05 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China IX (Ch'ing to 1800, Part 1) — f 1650-01-01 / t 1683-10-05 (bölüm: eserin dizininden) |
@@ -357,4 +357,4 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | ceibal | 0411-01-01 → 0889-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden) |
 | cholula | 0700-01-01 → 1519-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0700-01-01 / t 1519-01-01 (bölüm: eserin dizininden) |
 
-Sayım: GIRISLI 246 · KISMEN 55 · TEYIT 27 · DUZELT 21 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
+Sayım: GIRISLI 245 · KISMEN 54 · TEYIT 28 · DUZELT 22 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352

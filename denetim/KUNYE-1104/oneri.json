@@ -534,8 +534,9 @@
 },
 {
 "id": "malay-sultanliklari",
-"hukum": "KISMEN",
-"kaynak": "EB 1911 'Malay States (Siamese)' (Wikisource) — 'Kelantan, Trengganu, Kedah and Perlis … passed from Siamese to British protection in 1909' (t yalnız yıl, EB 1911 en çok 'kısmen'); 07-10 günü: 1909 İngiliz-Siyam antlaşması 10 Mart'ta imzalandı, onaylar Temmuz 1909'da değiştirildi — resmî metin (UK Treaty Series 1909) açık erişimde bulunamadı; f 1281 site ufku"
+"hukum": "DUZELT",
+"t": "1909-07-15",
+"kaynak": "EMRELİC JSTOR — Klein, Historical Journal 12/1 (1969), s.134: 'Final accord was attained on 10 March 1909' (imza) · Chan Su-ming, JMBRAS 38/1 (1965), s.~167: Kelantan'da 'first British Adviser on July 15th, 1909' (fiilî devir) · LeVos, JMBRAS 70/1 (1997): 'July 1909'. Verideki 07-10 hiçbir kaynakta yok → t 1909-07-10 → 1909-07-15 (Kelantan günü; Kedah-Trengganu-Perlis için Temmuz 1909 beyanlı; imza 1909-03-10 ic_not); f 1281 site ufku"
 },
 {
 "id": "cohor-sultanligi",
@@ -574,8 +575,8 @@
 },
 {
 "id": "timor-beylikleri",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t 1769-10-10 (bölüm: eserin dizininden)"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC JSTOR (OA) — H. Hägerdal, Lords of the Land, Lords of the Sea (KITLV/Brill 2012), ch.10 'Colonial retreat and maintenance', s.~398: Dili'deki yeni Portekiz yerleşimi 'founded there on 10 October 1769' (t GÜN teyitli) · s.~396: Lifau'nun boşaltılması 'During the night of 11 August 1769' — ayrı olay, ic_not (f 1281 site ufku)"
 },
 {
 "id": "azuchi-momoyama",
