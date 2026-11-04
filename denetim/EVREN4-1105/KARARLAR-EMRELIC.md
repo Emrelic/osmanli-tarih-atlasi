@@ -106,6 +106,24 @@ Kararlar:
   - **Sardunya:** Savoya adayı 1720-09-02'de teslim aldı (Treccani EI «Sardegna», birebir). `sardinya-piyemonte` künyesinin f'si 1720-08-02 kaynaksız görünüyor; 1718-08-02 Londra Antlaşması ile karışmış olabilir.
     - Sassari önerisinde (P007) de TSV 1720-09-02, veri satırı 1720-02-24 diyordu. Gün teslim günü olmalı: 1720-09-02.
 
+## 5 Kasım 2026 gece-50 — P019-P026 üzerine
+
+- **(a) Kazan 1552:** 1552-10-02 kalır. 1582'den önce kaynağın verdiği gün yazılır, bu gün Jülyendir. TDV'nin 15 Ekim'i `ic_not`a.
+- **(b) Port Royal:** TAHRİR'in ikinci sınavı uygulanır. Fransa'nın iddiası Utrecht'e kadar sürdü; bağlılık yemini işgal altında alındı.
+  - 1710-10-13 → `isg ingiltere`.
+  - 1713-04-11 Utrecht imzasından itibaren `s: ingiltere` (İngiltere yeri zaten yönetiyordu, TEK ÖLÇÜ).
+- **(c) Darfur 1874-83:** `v: misir-kavalali`'ye birleştirilir. Fethi Kavalalı Mısır'ı yaptı; Osmanlı metbûluğu Mısır künyesinin modelinde yer alır.
+- **(d) moskova 1325:** öneri kabul. Metropolit'in taşınması toprak devri değildir. Her şehir kendi günüyle:
+  - Uglich 1329
+  - Serpuhov 1339
+  - Temnikov 1536 (`kasim`, Kasım Hanlığı)
+  - Kostroma 14. yy ortası [BEYANLI]
+
+  BSE akademik ansiklopedi sayılır; mümkünse ikinci kaynak (RGO ya da BRE) eklenir.
+- **Hayalet soruları LAB'a:** mehdi t, adal/evfat, `peru-cumhuriyeti` f 1824.
+- **Peru:** rakip hükûmet kuralı uygulanır. Her şehir kendi ilan ve fiilî idare günüyle: Trujillo 1820-12-29, Lima 1821-07-28.
+- **Mersin 1922-01-03** emsalle uyumlu.
+
 ## LAB SALI: SHS Devleti (d546b19cf)
 
 Künye ölçümü (origin/main):
