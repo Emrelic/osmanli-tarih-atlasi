@@ -1,0 +1,79 @@
+[
+ {
+  "d": "yugoslavya",
+  "tur": "YERLESIM",
+  "karar": "DONEM_KISALT",
+  "islem": "18 periods starting 1918-11-11 (and 1918-11-26 Cetinje/Podgorica): cut f to 1918-12-01; gap → State of Slovenes, Croats and Serbs (29 Oct 1918) for former Austro-Hungarian lands / Serbia and Montenegro (Kingdom of Serbia, Kingdom of Montenegro) for the rest; Italian isg on occupied Adriatic coast",
+  "kunye": "",
+  "gun": "1918-12-01",
+  "guc": "GÜÇLÜ",
+  "dayanak": "Hrvatska enciklopedija, Kraljevina Srba, Hrvata i Slovenaca (Leksikografski zavod Miroslav Krleža) — «Kraljevstvo Srba, Hrvata i Slovenaca (Kraljevstvo SHS) nastalo je 1. XII. 1918. ujedinjenjem kraljevina Srbije i Crne Gore»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "mirdasi",
+  "tur": "YERLESIM",
+  "karar": "DONEM_KISALT",
+  "islem": "Halep period ending 1080-10-01: cut t to 1080-06-18; gap from 1080-06-18 → Ukaylî (Müslim b. Kureyş) state, if in data (ukayli) else existing next owner",
+  "kunye": "",
+  "gun": "1080-06-18",
+  "guc": "GÜÇLÜ",
+  "dayanak": "TDV İslâm Ansiklopedisi, MİRDÂSÎLER (Erdoğan Merçil) — «içeri girmeye muvaffak oldu (26 Zilhicce 472 / 18 Haziran 1080)»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "yakub-beg",
+  "tur": "YERLESIM",
+  "karar": "DONEM_KISALT",
+  "islem": "12 periods starting 1864-06-04 (Kashgar, Hotan...): cut f to 1865-01-01 (künye f; TDV: Yakub Beg sent to Kashgar Jan 1865; he became ruler only in 1867); gap 1864-06-04→1865-01-01 to the prior local power (Kashgar khojas/Kokand-sent Sıddık Beg, or Qing nominal) - check data; ends 1877-12-17 are inside künye t 1878-03-16 (TDV: Kashgar fell 16 Dec 1877, all E. Turkestan 16 Mar 1878)",
+  "kunye": "",
+  "gun": "1865-01-01",
+  "guc": "GÜÇLÜ",
+  "dayanak": "TDV İslâm Ansiklopedisi, YÂKUB BEG — «Bunun üzerine Âlim Kul, Yâkub Beg’i 1000 kişilik bir kuvvetin başında Kâşgar’a gönderdi (Ocak 1865).»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "mentese",
+  "tur": "YERLESIM",
+  "karar": "DONEM_KISALT",
+  "islem": "6 periods ending 1425-06-01 (and starting 1402-07-28): cut t to 1424-01-01 (TDV year 827/1424: Murad II took Menteşe); gap → osmanli; start 1402-07-28 is Ankara day, TDV says Timur restored Menteşe after Ankara (1402) - inside künye f 1280? yes, no issue",
+  "kunye": "",
+  "gun": "1424-01-01",
+  "guc": "ORTA",
+  "dayanak": "TDV İslâm Ansiklopedisi, MENTEŞEOĞULLARI — «II. Murad 827’de (1424) Menteşe topraklarını ele geçirdiği zaman»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "mazenderan-marasi",
+  "tur": "YERLESIM",
+  "karar": "DONEM_KISALT",
+  "islem": "4 periods (Bârfurûş, Eşref, Sârî) starting 1353-01-01: cut f to 1359-01-01 (TDV 760/1359 victory at Dâbû, then Âmül); Sârî only after Kemâleddin's capture (undated) and again Timur gave Sârî to İskender Şeyhî; gap → Efrâsiyâb/Çulabî state if present",
+  "kunye": "",
+  "gun": "1359-01-01",
+  "guc": "ORTA",
+  "dayanak": "TDV İslâm Ansiklopedisi, MAR'AŞÎLER — «Dâbû yakınlarında Seyyid Kıvâmüddin’in yaklaşık 300 dervişten oluşan ordusuna yenilerek öldürüldü (760/1359).»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "evfat / ifat-sultanligi",
+  "tur": "KUNYE_BIRLESTIR",
+  "karar": "MÜKERRER",
+  "guc": "ÖLÇÜM",
+  "islem": "ifat-sultanligi'nin referansları evfat'a taşınır: yerlesimler.js 1 dönem, kronoloji_cok_derin_asya_afrika_1024.js 3, kronoloji_sinir_zincir_1281sonra_1024.js 3, devlet_harita_ust.js 2, ufuk_bantlari_ust.js 3 (bu ikisi üretilmiş/yardımcı mı — KASA kontrol etsin); devletler.js'ten ifat-sultanligi künyesi silinir. BOYALAR'daki 'ifat-sultanligi' girdisi KALIR (renkler.py motor tuzu, DOKUNULMAZ) — kullanılmayan girdi olarak beyan. Ardından adal'ın 1281→1415 dönemleri (36) evfat'a taşınır; kırılma günü değişmiyorsa Değişmez 2 maddesi gerekmez.",
+  "kunye": "evfat kalır (23 referans) · ifat-sultanligi silinir (13 referans)",
+  "gun": "",
+  "dayanak": "LAB ölçümü origin/main (git grep); TDV HARAR 'Evfât Emirliği (1285-1415)'",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "malaka-sultanligi",
+  "tur": "YERLESIM",
+  "karar": "DONEM_KISALT",
+  "guc": "ORTA",
+  "islem": "Malaka şehri ve çevresi dönemleri 1511-08-10'da biter, sonra s: portekiz (Portekiz Malakası); 1511→1528 sürgün sarayı toprak tutmadığı sürece harita konusu değil, ic_not; cohor-sultanligi f 1528 DOĞRU.",
+  "kunye": "malaka t 1511-08-10 doğru; ic_not: 'Sultan Mahmud Şah sürgünde (Bintan/Kampar) 1511–1528; Johor 1528'",
+  "gun": "1511-08-10",
+  "dayanak": "TDV MALAKA: '10 Ağustos 1511 tarihinde Alfonso de Albuquerque tarafından ele geçirildi'",
+  "onay": "EMRELİC 5 Kasım"
+ }
+]
