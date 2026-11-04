@@ -28,6 +28,13 @@ ISARETLE = [
     ("L2-243", "Hainaut 1679", "Nijmegen İspanya imzası 1678-09-17 ise madde 1678'e taşınabilir (Pireneler ile birlikte bakılıyor)"),
     ("L2-240", "Orange 1672", "Treccani EI yalnız Mart 1660 işgalini veriyor"),
 ]
+# Metin düzeltmeleri (tarih kalır; koordinatör kararı, EMRELİC 1 KASIM, 4 Kasım 2026).
+METIN = [
+    ("L2-253", "Sardunya 1713: Utrecht'te Avusturya'ya VERİLMEDİ (Bavyera seçmenine vaat, Rastatt'ta uygulanmadı); Sicilya'nın Savoya'ya devri Ağustos 1713 — dayanak Bianchi 2025 (Larousse genel ansiklopedi, ek)"),
+    ("L2-272", "Paris 1763: yalnız Mississippi'nin DOĞUSU İngiltere'ye; batı yakasının İspanya'ya devri bu antlaşmada değil, Fontainebleau 1762-11-03 (ayrı madde VAR: devletler.js:18770 louisiana; o maddenin kaynağı yalnız Vikipedi) — Yale Avalon metni"),
+    ("L2-280", "Poynings Yasası «kaldırıldı» → «değiştirildi» (Yelverton Yasası 1782; Cambridge bölümü)"),
+    ("L2-285", "Liège 1789-08-18: başlangıç günü KALIR; başlık kaynağa uydurulur — prens-piskoposun kaçışı/devrilişi o gün değil (ULiège)"),
+]
 # Sonraki okumayla yerine yenisi gelen satırlar (aynı madde, eski öneri).
 GECERSIZ = {
     ("L2_101-150", "L2-138"): "TARAYICI5 satırı geçerli (1919-04-11 oylama, Cambridge EAMIO böl.6)",
@@ -80,6 +87,9 @@ def main():
         with open(yol, encoding="utf-8") as f:
             for r in csv.DictReader(f, delimiter="\t"):
                 yer.setdefault(r.get("no", ""), (r.get("dosya_satir", ""), r.get("tarih_atlas", "")))
+    for no, ne in METIN:
+        ds, t = yer.get(no, ("", ""))
+        satir.append(["koordinator", no, "metin düzelt (tarih kalır)", ds, t, ne, "", "", "", ""])
     for no, ad, neden in ISARETLE:
         ds, t = yer.get(no, ("", ""))
         satir.append(["koordinator", no, "işaretle «[olay kaynakta yok]» (metin düzeltilmez)", ds, t, ad + " — " + neden,
