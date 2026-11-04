@@ -48,12 +48,12 @@
 {
 "id": "cenova",
 "hukum": "KISMEN",
-"kaynak": "Treccani genova — 'Nel maggio-giugno 1797 la Repubblica aristocratica finì sotto la pressione di Bonaparte' (t ay teyitli; f 1099 compagna teyitsiz)"
+"kaynak": "Treccani genova — 'Nel maggio-giugno 1797 la Repubblica aristocratica finì sotto la pressione di Bonaparte' (t ay teyitli; f 1099 compagna teyitsiz) · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: t 1797-06-14 gün teyitli (Treccani DBI 'Rivarola')): t GÜN TEYİT: Treccani Dizionario Biografico, 'Rivarola, Stefano' (treccani.it/enciclopedia/stefano-rivarola_(Dizionario-Biografico)/): 'la convenzione sottoscritta il 6 giugno a Mombello da Napoleone Bonaparte e dai rappresentanti della Repubblica' ... 'prevedeva la decadenza del regime oligarchico il 14 giugno' (1797-06-14); 'Lupi, Luigi Alessandro' maddesi (arama özeti): geçici hükümet 14 Haziran 1797'de göreve başladı. Enciclopedia Treccani 'Genova': 'Nel maggio-giugno 1797 la Repubblica aristocratica finì sotto la pressione di Bonaparte.' Polity notu: ardıl Ligurya Cumhuriyeti ayrı künye. f 1099: Treccani 'Genova' sayfasında Compagna/komün başlangıcı 1099 değil, şehir özerkliği 11. yy. (1056 civarı) ile anlatılıyor; 1099 Compagna communis doğrulanmadı."
 },
 {
 "id": "savoya",
 "hukum": "KISMEN",
-"kaynak": "Treccani savoia — 'Il ducato di Savoia (1416-1720) … titolo regio, cambiato poi nel 1720 in quello di re di Sardegna' (t yıl teyitli; f 1032 teyitsiz; 1416 kontluk → dukalık)"
+"kaynak": "Treccani savoia — 'Il ducato di Savoia (1416-1720) … titolo regio, cambiato poi nel 1720 in quello di re di Sardegna' (t yıl teyitli; f 1032 teyitsiz; 1416 kontluk → dukalık) · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: Treccani Enciclopedia Italiana 'Savoia'): Treccani Enciclopedia Italiana 'Savoia' (treccani.it/enciclopedia/savoia_(Enciclopedia-Italiana)/, ilk 100k karakter okundu): 'Con Amedeo VIII i conti di Savoia nel 1416 assunsero il titolo ducale'; 'nel 1713 il trattato di Utrecht dava a Vittorio Amedeo II la Sicilia, col relativo titolo regio, cambiato poi nel 1720 in quello di Sardegna' (t yıl 1720; gün YOK; 08-02 teyitsiz); Umberto I (Biancamano) 'vissuto tra il sec. X e l'XI', ö. 'il 10 luglio 1047 (o 1048)' — 1032 geçmiyor. TDV: 'savoya' = 0 madde başlığı (yalnız Timişvar'da Prens Eugen). Polity notu: 1720'de Sardinya Krallığı aynı hanedan/devlet sürekliliği."
 },
 {
 "id": "mantua",
@@ -131,7 +131,7 @@
 {
 "id": "litvanya-buyuk-dukalik",
 "hukum": "KISMEN",
-"kaynak": "Visuotinė lietuvių enciklopedija 'Lietuvos Didžioji Kunigaikštystė' (R. Petrauskas) — 'Dėl LDK susikūrimo laiko nėra bendros nuomonės. Dauguma istorikų jos pradžia laiko … Mindaugo laikais (13 a. antras ketvirtis)' · '1569 Liublino unija LDK su Lenkija sudarė federacinę … valstybę' (t yıl teyitli; f 1236 kuruluş için tartışmalı — beyan: 13. yy 2. çeyreği)"
+"kaynak": "Visuotinė lietuvių enciklopedija 'Lietuvos Didžioji Kunigaikštystė' (R. Petrauskas) — 'Dėl LDK susikūrimo laiko nėra bendros nuomonės. Dauguma istorikų jos pradžia laiko … Mindaugo laikais (13 a. antras ketvirtis)' · '1569 Liublino unija LDK su Lenkija sudarė federacinę … valstybę' (t yıl teyitli; f 1236 kuruluş için tartışmalı — beyan: 13. yy 2. çeyreği) · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: t 1569-07-01 gün teyitli (VLE) AMA VLE Lublin Birliği'ni federasyon sayar, LDK kurumları 1795'e dek sürer → 1569 polity sonu değil: SINIF-SUPHE (GENİŞLET adayı 1795)): t gün: VLE 'Liublino unija' (vle.lt/straipsnis/liublino-unija/): '07 01 Lenkijos ir LDK seimai sudarė analogiško turinio raštus, skelbiančius abiejų valstybių sąjungą' (1569-07-01 birlik senetleri; kral onayı 07 04) — gün teyitli, FAKAT aynı madde birliği federasyon sayar ve LDK'nın ayrı kurumlarını koruduğunu söyler: yani 1569 LDK polity'sinin sonu DEĞİL (devam eder; ortak devlet Rzeczpospospolita, LDK 1795'e dek) → SINIF/olay-türü uyarısı. f: VLE 'Mindaugas' (vle.lt/straipsnis/mindaugas/): '1236 Mindaugas sudarė sąjungą su Voluinės ... kunigaikščiu Danieliumi' (Mindaugas'ın ilk tarihli eylemi, kuruluş değil), 'Lietuvos didysis kunigaikštis (nuo 13 a. 4 dešimtmečio)', '1253 07 buvo karūnuotas Lietuvos karaliumi' (gün yok); LDK maddesi: 'Dauguma istorikų jos pradžia laiko ... Mindaugo laikais (13 a. antras ketvirtis)'. 1236 = yaklaşık/kavramsal, gün yok."
 },
 {
 "id": "norvec",
@@ -166,7 +166,7 @@
 {
 "id": "moskova",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge — CHR I, ch.10, s.245: taç giyme 16 Ocak 1547 (takvim belirtilmemiş, Jülyen — Gregoryen'e çevrilmesi gerekebilir, beyan); f 1283 kaynakta yok (Daniil ö. 1303, ch.6 Martin s.143)"
+"kaynak": "EMRELİC Cambridge — CHR I, ch.10, s.245: taç giyme 16 Ocak 1547 (takvim belirtilmemiş, Jülyen — Gregoryen'e çevrilmesi gerekebilir, beyan); f 1283 kaynakta yok (Daniil ö. 1303, ch.6 Martin s.143) · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: t 1547-01-16 (Jülyen) gün teyitli (prlib) AMA çarlık taç giymesi unvan değişimidir → aynı polity (rusya künyesi ile ardıl ayrımı) SINIF-SUPHE): t TEYIT: Rusya Cumhurbaşkanlığı Kütüphanesi (prlib.ru/history/618950): '26 января 1547 г. (16 января по юлианскому календарю)' Moskova metropoliti Makarios'un Uspenski Katedrali'nde İvan IV'ü çarlığa taçlandırması ('проведена московским митрополитом Макарием') — 1582 öncesi Jülyen gün 1547-01-16 korunur (Gregoryen 26 Ocak yalnız beyan). BRE (aynı konu, arama sonucu özeti): 'по инициативе митр. Макария 16.1.1547 состоялось венчание'. f KISMEN/GÜN YOK: BRE 'Даниил Александрович' / 'Москва' maddeleri (bigenc.ru, sayfa 401 login duvarı — AÇILMADI, yalnız arama sonucu özeti): Moskova Daniil'e Aleksandr Nevski'nin vasiyetiyle udel oldu, 'формально княжил с 1263, фактически – с 1271'; Daniil'in bağımsız eylemleri 1282'de başlar; 'ок. 1283–1303' yalnız hükümdar listesinde yaklaşık tarih. Yani 1283 teyitli kuruluş günü değil, yaklaşık; kaynak 1263/1271 verir."
 },
 {
 "id": "ryazan",
@@ -202,8 +202,8 @@
 },
 {
 "id": "bohemya",
-"hukum": "KISMEN",
-"kaynak": "SONNET AJAN (LAB SALI denetimi) — Ferdinand'ın Bohemya kralı seçilişi 23 Ekim 1526 (EB 1911, Vikikaynak: 'These electors, on the 23rd of October (1526), chose Ferdinand of Habsburg as their king.'); başka kaynak 24 Ekim; taç giyme Şubat 1527 (habsburger.net). Künyedeki 1526-12-05 için kaynak bulunamadı. Önerilen DUZELT: t 1526-10-23, ancak EB 1911 en çok KISMEN sayıldığından akademik teyit gerekli; Mohaç ölümü 1526-08-29 alternatif uç."
+"hukum": "SINIF-HATASI",
+"kaynak": "SONNET AJAN (LAB SALI denetimi) — Ferdinand'ın Bohemya kralı seçilişi 23 Ekim 1526 (EB 1911, Vikikaynak: 'These electors, on the 23rd of October (1526), chose Ferdinand of Habsburg as their king.'); başka kaynak 24 Ekim; taç giyme Şubat 1527 (habsburger.net). Künyedeki 1526-12-05 için kaynak bulunamadı. Önerilen DUZELT: t 1526-10-23, ancak EB 1911 en çok KISMEN sayıldığından akademik teyit gerekli; Mohaç ölümü 1526-08-29 alternatif uç. · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: t 1526: Habsburg Ferdinand'ın seçimi (23.10.1526, Historický ústav AV ČR) HANEDAN DEĞİŞİMİDİR; Bohemya Krallığı 1918'e dek sürer → künye t GENİŞLET adayı (1918-10-28), veri 1526-12-05 kaynaksız): t: Biografický slovník českých zemí, Historický ústav AV ČR, 'FERDINAND I. 1503–1564' (biography.hiu.cas.cz/wiki/FERDINAND_I._1503–1564): '23. 10. 1526 rozhodla ve prospěch F.' = seçim komisyonu Habsburglu Ferdinand lehine karar verdi (Bohemya tahtının Jagiello hanedanından Habsburg'a geçtiği gün; taç giyme Şubat 1527 başka kaynaklarda, bu sayfada yok). Veride 1526-12-05 için hiçbir kaynak bulunamadı (TDV 'Çeh' maddesi Bohemya krallığı hakkında yalnız Çekoslovakya yönlendirmesi, 1198/1526 yok). 1526 öncesi Jülyen kabulü: 1582 öncesi, kaynak günü. UYARI: Bohemya Krallığı 1526'da bitmez — hanedan değişimi, polity 1918'e dek sürer (Habsburg Monarşisi içinde); t 1526-10-23 'Jagiello dönemi sonu/Habsburg Bohemya'sına geçiş' olarak ancak künye tanımı buna izin veriyorsa geçerli. f 1198 (Přemysl Otakar I) bulunamadı."
 },
 {
 "id": "iskocya",
@@ -401,18 +401,18 @@
 },
 {
 "id": "goryeo",
-"hukum": "KISMEN",
-"kaynak": "EMRELİC JSTOR — Vermeersch, JKS 18:1 (2013), s.~116: 'founder King T'aejo (r. 918-43)' (f yıl) · Duncan, Korean Studies 18 (1994): t 1392 (yıl); 07-25 ve 08-05 günleri teyitsiz"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC JSTOR — Vermeersch, JKS 18:1 (2013), s.~116: 'founder King T'aejo (r. 918-43)' (f yıl) · Duncan, Korean Studies 18 (1994): t 1392 (yıl); 07-25 ve 08-05 günleri teyitsiz · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: Goryeosa + Taejo Sillok (birincil, ay-güneş orijinali; DB yangnyeok karşılığı) — çeviri EMRELİC/Academia Sinica ile teyit edilebilir): f: Goryeosa (db.history.go.kr, Kore Tarih Veritabanı Goryeo-dönemi kaynakları, kr_001_0020_0010_0010) Taejo 1: '(戊寅)元年 夏六月 丙辰 卽位于布政殿, 國號高麗, 改元天授' = Wang Geon 918, 6. ay (lunar) bingchen günü (lunar 6/15; DB 'yangnyeok' karşılığı 07-25) Buljeong-jeon'da tahta çıkıp ülke adını Goryeo yaptı (kuruluş günü). t: Taejo Sillok 1, 1/7/17 (sillok.history.go.kr): '十七日丙申, 太祖卽位于壽昌宮'; aynı kayıtta 12. gün (辛卯) Gongyang'ın Taejo ile ittifak/ziyaret girişimi — Goryeo'nun sonu = Joseon'un kuruluş günü (lunar 1392/7/17 丙申; DB/veri 08-05 Jülyen). Lunar orijinal verildi, çeviriyi koordinatör doğrular."
 },
 {
 "id": "joseon",
-"hukum": "KISMEN",
-"kaynak": "EMRELİC JSTOR — Deuchler, Journal of Korean Studies 2 (1980), s.71: 'Yi T'aejo … ascended the throne in 1392' (f yıl) · Caprio, JKS 16:1 (2011): 'August 1910 annexation of Korea' (t ay); günler (08-05, 08-29) teyitsiz"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC JSTOR — Deuchler, Journal of Korean Studies 2 (1980), s.71: 'Yi T'aejo … ascended the throne in 1392' (f yıl) · Caprio, JKS 16:1 (2011): 'August 1910 annexation of Korea' (t ay); günler (08-05, 08-29) teyitsiz · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: Taejo Sillok 1/7/17 丙申 + Encyclopedia of Korean Culture (1910-08-29)): f: Joseon Wangjo Sillok (Taejo Sillok 1, Taejo 1/7/17, sillok.history.go.kr, devlet arşivi neşri): '十七日丙申, 太祖卽位于壽昌宮' = Taejo Suchang Sarayı'nda tahta çıktı (ORİJİNAL AY-GÜNEŞ: Hongwu 25 / Taejo 1, 7. ay 17. gün, ganzhi bingshen 丙申 — koordinatör çevirir). t: Encyclopedia of Korean Culture (encykorea.aks.ac.kr) 'Hanil Byeonghap Joyak' E0061926: '일본은 ... 사회단체의 집회를 철저히 금지하고 원로대신들을 연금한 뒤인 8월 29일 이를 반포하였다' (1910-08-29 ilhak antlaşması ilanı; Madde 1 egemenliğin devri; Joseon/Daehan Jeguk aynı polity)."
 },
 {
 "id": "edo-bakufu",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge — Cambridge History of Japan IV, ch.1 (Hall), s.4: 'Tokugawa Ieyasu … received appointment as shogun in 1603' (f yıl teyitli; 03-24 günü — Keichō 8/2/12 dönüşümü — ayrı kaynak ister) · CHJ V, ch.5 (Jansen), s.357: 'On January 2 and 3, 1868, an assembly at the court was convened' (t 1868-01-03 GÜN teyitli, Gregoryen)"
+"kaynak": "EMRELİC Cambridge — Cambridge History of Japan IV, ch.1 (Hall), s.4: 'Tokugawa Ieyasu … received appointment as shogun in 1603' (f yıl teyitli; 03-24 günü — Keichō 8/2/12 dönüşümü — ayrı kaynak ister) · CHJ V, ch.5 (Jansen), s.357: 'On January 2 and 3, 1868, an assembly at the court was convened' (t 1868-01-03 GÜN teyitli, Gregoryen) · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: f GÜN TEYİT (Nipponica 1603-03-24). t: Kotobank ansiklopedileri bakufu'yu 1867-11-09 (大政奉還) ile bitirir; veri 1868-01-03 王政復古 — olay türü seçimi (EMRELİC)): f TEYIT: Kotobank (kotobank.jp/word/江戸幕府-36933) — Nipponica (日本大百科全書): '1603年3月24日（慶長8年2月12日）徳川家康が征夷大将軍になったときに開府し' (Gregoryen 24 Mart 1603 = Keichō 8/2/12; 1603 > 1582 olduğundan atlas Gregoryen ile uyumlu); Sekai Daihyakka Jiten: '1603年（慶長8）2月12日征夷大将軍に任命されて'. t KISMEN: aynı maddede Nipponica '1867年11月9日（慶応3年10月14日）15代将軍慶喜が大政奉還上表を提出したことによって閉じた' (bakufu'nun kapanışı = taisei hōkan sunuşu, 1867-11-09 Gregoryen), Sekai Daihyakka '1867年（慶応3）10月15日 ... 大政奉還までの265年'; yani Kotobank'ın üç ansiklopedisi de bakufu'yu 1867'de bitirir, 1868-01-03 (Ōsei fukkō/şogunluğun kaldırılışı, CHJ V Jansen ile teyitli gün) bu kaynaklarda uç olarak geçmez. Veri 1868-01-03 'şogunluk makamının kaldırıldığı ilân günü' olarak savunulabilir ama ansiklopedik kaynak 1867-11-09/10 der: uç ölçütü (taisei hōkan mı, ōsei fukkō mu) polity kararı koordinatörde."
 },
 {
 "id": "sanzan",
@@ -421,8 +421,8 @@
 },
 {
 "id": "ryukyu",
-"hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge (Parti 2) — Ai Abe, Asian Journal of International Law 13(1), 2024: '27 March 1879 … Ryukyu Shobun' (t 1879-03-27 GÜN TEYİT) · f 1429 OKUNMADI — DİKKAT: aynı makaledeki '1470 Shō Hashi' kaynak hatası görünüyor (Shō Hashi birleşmesi 1429; 1470 ikinci Shō hanedanı), f için KULLANILMAZ → KISMEN · EMRELİC Parti 3: f OKUNMADI"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC Cambridge (Parti 2) — Ai Abe, Asian Journal of International Law 13(1), 2024: '27 March 1879 … Ryukyu Shobun' (t 1879-03-27 GÜN TEYİT) · f 1429 OKUNMADI — DİKKAT: aynı makaledeki '1470 Shō Hashi' kaynak hatası görünüyor (Shō Hashi birleşmesi 1429; 1470 ikinci Shō hanedanı), f için KULLANILMAZ → KISMEN · EMRELİC Parti 3: f OKUNMADI · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: Kotobank (山川 日本史小辞典 1429; 世界大百科 '79年3月27日')): f (yıl): Kotobank / 山川 日本史小辞典 改訂新版 '琉球王国': '1429年，尚巴志(しょうはし)が沖縄本島の北山・中山・南山の3王国を統一して樹立した王国。' ve 世界大百科事典(旧版): '29年には山南王他魯毎を倒して琉球の統一に成功し，琉球王国を樹立した' (yıl düzeyi; veri 1429-01-01 yıl hassasiyeti, '1470' hatası kullanılmadı). t: Kotobank 琉球処分 (arama sonucu alıntıları, sayfa gövdesi içinde) 世界大百科事典(旧版): '79年3月27日，松田は300名の兵士，160名余の警官を率いて〈琉球藩〉を廃し〈沖縄県〉を設置する旨を琉球側に布告し，3月31日限りで王宮首里城の明渡しを命じた' (= Abe 2024 ile aynı 1879-03-27); Nipponica: 3月11日 bildiri, 31日 şato teslimi; 廃藩置県の項: '79年4月4日の琉球藩の廃止、沖縄県の設置で完成'. Gregoryen (Meiji 12)."
 },
 {
 "id": "nguyen-hanedani",
@@ -533,7 +533,7 @@
 {
 "id": "angkor-kmer",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge — CHSEA I, ch.3, s.~170: 'sent an expedition to sack Angkor in 1431' (t yıl teyitli; f 802 okunmadı)"
+"kaynak": "EMRELİC Cambridge — CHSEA I, ch.3, s.~170: 'sent an expedition to sack Angkor in 1431' (t yıl teyitli; f 802 okunmadı) · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: Persée Aséanie 26 (2010) — Jayavarman II, f): f: Persée, 'Localisation, identité et origine du Javā de Jayavarman II', Aséanie 26 (2010), s.65 (persee.fr/doc/asean_0859-9009_2010_num_26_1_2150): Coedès'e göre Jayavarman II 'aurait libéré le Cambodge de la suzeraineté de Javā vers 802' — 'vers 802' YAKLAŞIK; Sdok Kak Thom steli (1052) sonradan yazılmış, 802-850 hüküm süresi bugün sorgulanıyor (Cambridge JRAS 'Jayavarman II's Military Power' + Antiquity lidar makalesi arama özetleri: yaklaşık 770-835 radyokarbon). Yani f 802 = geleneksel yıl, gün yok, 'vers' (yaklaşık). t 1431: bu oturumda yeni kaynak bulunamadı (Persée sayfasının yalnız ilk sayfası açıldı; 1431 geçmiyor); CHSEA I s.~170 önceki notta kaldı."
 },
 {
 "id": "malay-sultanliklari",
@@ -942,7 +942,7 @@
 {
 "id": "nube",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge — CHA III ch.1 s.78: kuzey Nubya krallığı 'beginning of the sixteenth century' · EMRELİC JSTOR — Spaulding, Transafrican Journal of History 4 (1974), s.26-40: Soba 'by the Funj, quite possibly in 1504' (t 1504 muğlak yıl, beyan; f 543 okunmadı)"
+"kaynak": "EMRELİC Cambridge — CHA III ch.1 s.78: kuzey Nubya krallığı 'beginning of the sixteenth century' · EMRELİC JSTOR — Spaulding, Transafrican Journal of History 4 (1974), s.26-40: Soba 'by the Funj, quite possibly in 1504' (t 1504 muğlak yıl, beyan; f 543 okunmadı) · B İKİNCİ GEÇİŞ (B4, 5 Kasım; LAB elemesi: TDV NÛBE (543 misyon; olay türü notu)): TDV 'Nûbe' (islamansiklopedisi.org.tr/nube): Nubyalılar 'VI. yüzyılın başlarından itibaren' Hıristiyanlığı kabul etti, misyonerlik faaliyetinin başlangıcı 543 (olay = Hıristiyanlaşma/misyon, devletin kuruluşu DEĞİL); Makarra (Dongola) ve Alve (Sûbâ) devletleri 6. yy.da anılır; 'XVI. yüzyıl başlarında kurulan Func Sultanlığı' (1504 yılı verilmez). Persée (Journal de la Société des Africanistes? 1932, arama özeti): 'Julianus et Longinius en 543 et 569' misyoner; Makarra birleşmesi, Alve sonu, Soba'nın düşüşü TDV'de YOK. f 543 = Hıristiyanlaşma olayı; polity başlangıcı ayrı (Nobadia/Makuria daha eski). t 1504 TDV'de yok (Spaulding önceki not)."
 },
 {
 "id": "charrua",

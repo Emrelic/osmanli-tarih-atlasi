@@ -77,6 +77,9 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `zulu-kralligi` | 1816-01-01 → 1879-07-04 | 114 | t 1879-07-04 Ulundi savaş günü; düzenleme Eylül 1879, ilhak 1887 (hasat 1) |
 | `herero` | 1281-01-01 → 1904-01-12 | 1246 | t 1904-01-12 ayaklanmanın başlangıcı (hasat 1/2) |
 | `banten-sultanligi` | 1527-06-22 → 1813-01-01 | 867 | 1684 VOC bağlanması vasallık (TDV) — t 1813 ayrıca kaynak ister (hasat 1) |
+| `bohemya` | 1198-01-01 → 1526-12-05 | 3964 | KAYNAKLI: Habsburg Ferdinand'ın seçimi 23.10.1526 (Historický ústav AV ČR) hanedan değişimi; krallık 1918'e dek → t GENİŞLET adayı |
+| `litvanya-buyuk-dukalik` | 1236-01-01 → 1569-07-01 | 8776 | KAYNAKLI: VLE — Lublin Birliği (1569) federasyon; LDK kurumları 1795'e dek → 1569 son değil |
+| `moskova` | 1283-01-01 → 1547-01-16 | 8417 | 1547 IV. İvan'ın çar taç giymesi (prlib) unvan değişimi; Moskova knezliği → Rus çarlığı aynı polity mi (ardıl künye ayrımı) |
 | `toro` | 1830-01-01 → 1900-06-26 | 70 | t 1900 Toro Antlaşması (himaye); krallık bugün sürüyor |
 | `ibadan` | 1829-01-01 → 1893-08-15 | 65 | t 1893-08-15 Lagos himaye antlaşması; Baale yönetimi sürdü |
 | `kocin` | 1102-01-01 → 1503-01-01 | 223 | t 1503 Portekiz himayesi; Cochin krallığı 1949'a dek |
