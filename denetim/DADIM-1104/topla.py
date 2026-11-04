@@ -12,6 +12,9 @@ T = json.load(open(ANA, encoding="utf-8")) if os.path.exists(ANA) else {}
 for yol in sys.argv[1:]:
     for ad, satirlar in json.load(open(yol, encoding="utf-8")).items():
         if not ad.startswith("_"):
+            if ad in T and T[ad] != satirlar:
+                print("UYARI: %s zaten var — eski %d satır yerine yeni %d satır (koordinatör notları yeniden işlenmeli)"
+                      % (ad, len(T[ad]), len(satirlar)), file=sys.stderr)
             T[ad] = satirlar
 json.dump(T, open(ANA, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 

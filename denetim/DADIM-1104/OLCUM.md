@@ -353,6 +353,30 @@ Kararlar 11 yerleşimin ONERI satırlarına yazıldı (40 satır, `not` alanı).
     - ② 1994/95'ten (Oslo) yeni `filistin-ulusal-yonetimi` künyesi: A bölgelerindeki şehirler (Gazze, Nablus) için.
     - ③ Nablus'un 1988 filistin-devleti dilimi her hâlde düşer, çünkü bildirgenin denetimi yok.
 
+## 13. Filistin 1967 sonrası kararı + q07-q08 kararları (EMRELİC, 4 Kasım 2026 akşam)
+- **Filistin (BEKLE; Emre görene kadar KASA uygulamaz):**
+  - Seçenek (1) ve (2) reddedildi. Seçenek (3) reddedildi; Nablus 1988 dilimi KALIR.
+  - **İlke:** ilhak yoksa `isg`; `s:` olmaz. "Denetim = sahiplik" yalnız hiçbir hukukî iddia sahibi yokken geçerlidir.
+  - **Gazze, Han Yûnus, Refah:**
+    - s: misir 1948 → 1988-11-15, sonra filistin-devleti.
+    - isg israil 1967-06 → 2000.
+    - Eklenecek: isg israil 1956-11 → 1957-03.
+  - **Nablus:** s: urdun → 1988-11-15, sonra filistin-devleti. isg israil 1967-06 → 2000.
+  - Filistin Ulusal Yönetimi için künye açılmaz; Oslo ic_not'a yazılır.
+  - Kaynak: BMGK 242, UAD 2004, TDV.
+  - dadim_sonuc'a 4 ONERI satırı yazıldı (`_etiket`: "Filistin 1967 sonrası — EMRELİC").
+- **q07-q08 kararları** (8 yerleşim, 21 satır):
+  - Trabzon 1916-18: isg rusya.
+  - Nahçıvan 1918-21: zincir "fiilî yönetim + halef ilanı" ölçütüyle kurulur.
+  - Derbend: TDV'deki Kuba zinciri esas alınır.
+  - Ravenna: Venedik 1449-1509 dilimi eklenir.
+  - Tarsus: TDV esas.
+  - Smolensk: 1654-10-13 Gregoryen'den itibaren isg rusya, Andrusovo'ya kadar.
+  - İzmit 1920-21: isg ingiltere/yunanistan.
+  - **Ganzhou ad karışması:**
+    - Gansu noktası veride **zaten var**: "Zhangye (Ganzhou)", `data/yerlesimler_asya.js:2257`, 38.93°N 100.45°E.
+    - Yeni nokta gerekmez. KASA-YER kuyruğuna giden iş: kronolojideki Gansu anılmalarının bağını Zhangye'ye çevirmek.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
