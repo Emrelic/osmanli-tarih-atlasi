@@ -52,7 +52,7 @@
   "kaynak": "TDV İslâm Ansiklopedisi, 'Türkiye Büyük Millet Meclisi' - https://islamansiklopedisi.org.tr/turkiye-buyuk-millet-meclisi",
   "alinti": "23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı",
   "oneri": {},
-  "not": "Meclisin açılışı 23 Nisan 1920 teyitli. Aynı madde: hükûmet 24 Nisan'daki teklifle değil, 2 Mayıs 1920 kanununun kabulünden sonra kuruldu. Künye 'TBMM Hükümeti' f=23 Nisan meclis açılışına dayanıyor; hükûmet kuruluşu 1920-05-02 — f'yi açılış günü tutmak Emre kararı."
+  "not": "KARAR EMRELİC (5 Kas): 23 Nisan 1920 atlas kuralı, değişmez. | Meclisin açılışı 23 Nisan 1920 teyitli. Aynı madde: hükûmet 24 Nisan'daki teklifle değil, 2 Mayıs 1920 kanununun kabulünden sonra kuruldu. Künye 'TBMM Hükümeti' f=23 Nisan meclis açılışına dayanıyor; hükûmet kuruluşu 1920-05-02 — f'yi açılış günü tutmak Emre kararı."
  },
  {
   "alan": "s",
@@ -120,7 +120,7 @@
   "oneri": {
    "f": "1991-05-28"
   },
-  "not": "LoC: EPRDF 27-28 Mayıs gecesi Addis Ababa'ya girdi, şehri ve ulusal hükûmeti denetime aldı; 29 Mayıs hiçbir kabul kaynakta okunmadı. Resmî Geçiş Hükümeti LoC'ye göre Temmuz 1991 başına ertelendi (charter günü okunamadı). Karar: 28 Mayıs (fiilî iktidar) ya da Temmuz 1991 (kurumsal kuruluş) — Emre'ye. Künye f=05-29 kaynakta yok."
+  "not": "KARAR EMRELİC (5 Kas): f 1991-05-28 (fiilî idare: EPRDF 27/28 Mayıs gecesi Addis'e girdi, LoC); Temmuz 1991 konferansı ic_not'a. | LoC: EPRDF 27-28 Mayıs gecesi Addis Ababa'ya girdi, şehri ve ulusal hükûmeti denetime aldı; 29 Mayıs hiçbir kabul kaynakta okunmadı. Resmî Geçiş Hükümeti LoC'ye göre Temmuz 1991 başına ertelendi (charter günü okunamadı). Karar: 28 Mayıs (fiilî iktidar) ya da Temmuz 1991 (kurumsal kuruluş) — Emre'ye. Künye f=05-29 kaynakta yok."
  },
  {
   "alan": "s",
@@ -199,7 +199,7 @@
   "oneri": {
    "f": "1792-09-21"
   },
-  "not": "Larousse 21 Eylül 1792 (Konvansiyon ilk günü: krallığın kaldırılması ve Cumhuriyet). 22 Eylül = Yıl I başlangıcı/tarihleme kararı (yalnız ipucu kaynaklar). Karar Emre'de."
+  "not": "KARAR EMRELİC (5 Kas): f 1792-09-21 (Larousse: krallığın kaldırılışı); 22 Eylül 'Yıl I' ic_not'a. ATOMİK: künye f + kümedeki bütün 09-22 uçları (fransa-kralligi t dahil) aynı commit'te; Değişmez 2 maddesinin günü de. KASA'ya TEK KALEM. | Larousse 21 Eylül 1792 (Konvansiyon ilk günü: krallığın kaldırılması ve Cumhuriyet). 22 Eylül = Yıl I başlangıcı/tarihleme kararı (yalnız ipucu kaynaklar). Karar Emre'de."
  },
  {
   "alan": "s",
@@ -361,9 +361,9 @@
   "kaynak": "TDV İslâm Ansiklopedisi, 'Abbas Hilmi II' - https://islamansiklopedisi.org.tr/abbas-hilmi-ii",
   "alinti": "19 Aralık 1914’te İngiltere Mısır’ı himayesine aldı",
   "oneri": {
-   "f": "1914-12-19"
+   "alan": "v"
   },
-  "not": "TDV 19 Aralık 1914 (himaye); TDV 'Hüseyin Kâmil' 20 Aralık 1914 tahta çıkış (arama özeti). 18 Aralık hiçbir kabul kaynakta okunmadı. ÖLÇÜT: idareye katma değil, 'himaye' (korumalı devlet) — isg/s seçimi Emre. KÜNYE: ingiltere künye f=0927-01-01 (dönem içinde, aşım yok)."
+  "not": "KARAR EMRELİC (5 Kas): önceki karar (gece-12) geçerli: v: ingiltere (himaye), isg ya da s değil. Gün 1914-12-18 himaye ilanı (London Gazette — bu turda okunmadı). TDV Abbas Hilmi 19 Aralık = hidivin azli + Hüseyin Kâmil sultanlığı, ic_not'a. | TDV 19 Aralık 1914 (himaye); TDV 'Hüseyin Kâmil' 20 Aralık 1914 tahta çıkış (arama özeti). 18 Aralık hiçbir kabul kaynakta okunmadı. ÖLÇÜT: idareye katma değil, 'himaye' (korumalı devlet) — isg/s seçimi Emre. KÜNYE: ingiltere künye f=0927-01-01 (dönem içinde, aşım yok)."
  },
  {
   "alan": "s",
@@ -396,7 +396,7 @@
   "kaynak": "Library of Congress Country Studies, Libya - http://countrystudies.us/libya/24.htm",
   "alinti": "Tripoli fell to the British in January 1943",
   "oneri": {},
-  "not": "LoC yalnız 'Ocak 1943' veriyor (ay); 23 Ocak günü kabul kaynakta okunmadı (ipucu: Vikipedi). KÜNYE UYUŞMAZLIĞI: künye f=1943-01-01, küme f=1943-01-23 — künye gün olarak teyitsiz. Fezzan Fransız idaresi (Ocak 1943, aynı kaynak) ayrı polity. Önerilen: ay hassasiyeti '1943-01' + beyan veya Tripoli düşüş günü için akademik kaynak."
+  "not": "KARAR EMRELİC (5 Kas): Kirenayka Kasım 1942'de işgal; künye f ve yerleşim günleri şehir şehir — LAB SALI'ya iletildi. | LoC yalnız 'Ocak 1943' veriyor (ay); 23 Ocak günü kabul kaynakta okunmadı (ipucu: Vikipedi). KÜNYE UYUŞMAZLIĞI: künye f=1943-01-01, küme f=1943-01-23 — künye gün olarak teyitsiz. Fezzan Fransız idaresi (Ocak 1943, aynı kaynak) ayrı polity. Önerilen: ay hassasiyeti '1943-01' + beyan veya Tripoli düşüş günü için akademik kaynak."
  },
  {
   "alan": "s",
@@ -440,7 +440,7 @@
   "kaynak": "Dictionary of Canadian Biography, 'The Integration of the Province of Quebec into the British Empire, 1763-91' - https://www.biographi.ca/special.php?project_id=60&p=2",
   "alinti": "signed on 10 Feb. 1763, Great Britain assumed control of the former territory",
   "oneri": {},
-  "not": "Paris Antlaşması 10 Şubat 1763 imza günü (DCB arama özeti: 'France formally ceded Canada'). Küme yerleşimleri Rupert House/Moose Factory/Mistassini: Hudson Bay çevresi zaten HBC/İngiliz iddiasında; antlaşma Kanada'yı (Fransız Kanadası) devretti — bu yerleşimler için kaynak antlaşmaya özgü değil, ABİ MERKEZ/yerel kaynak gerekir. Künye f tutarlı. TEK ÖLÇÜ: İngiltere fiilen yönetiyordu (1760 Montréal kapitülasyonu) → imza günü."
+  "not": "KARAR EMRELİC (5 Kas): Hudson Bay yerleşimleri yerleşim izine (Paris 1763 onlar için dayanak değil). | Paris Antlaşması 10 Şubat 1763 imza günü (DCB arama özeti: 'France formally ceded Canada'). Küme yerleşimleri Rupert House/Moose Factory/Mistassini: Hudson Bay çevresi zaten HBC/İngiliz iddiasında; antlaşma Kanada'yı (Fransız Kanadası) devretti — bu yerleşimler için kaynak antlaşmaya özgü değil, ABİ MERKEZ/yerel kaynak gerekir. Künye f tutarlı. TEK ÖLÇÜ: İngiltere fiilen yönetiyordu (1760 Montréal kapitülasyonu) → imza günü."
  },
  {
   "alan": "s",
@@ -451,7 +451,7 @@
   "kaynak": "Real Academia de la Historia, Diccionario Biográfico electrónico, 'Juan II de Aragón y de Navarra' - https://dbe.rah.es/biografias/10845/juan-ii-de-aragon-y-de-navarra",
   "alinti": "Barcelona, 19.I.1479.",
   "oneri": {},
-  "not": "Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
+  "not": "KARAR EMRELİC (5 Kas): 1479-01-19 RAH esas; PARES 20 Ocak ic_not'a. | Juan II 19 Ocak 1479'da öldü, Fernando Aragón tahtına geçti (RAH). PARES kaydı 20 Ocak veriyor — bir gün çelişki. Yerleşimler (Kalyari, Barselona, Menorka) Aragon Tacı toprakları; 'ispanya' devleti için bu gün hanedan birliği (Castilla 1474'ten beri Isabel); hukukî birleşme değil — künye beyanı gerek. Çift tarih: RAH 19, PARES 20 Ocak."
  },
  {
   "alan": "s",
