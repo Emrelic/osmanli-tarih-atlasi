@@ -1,0 +1,153 @@
+﻿taban hücre 5531 · hizasız (boşaltıldı) 34
+
+=== ORAN · 1600-06-15 · R=5 km · penceredeki presidio 3 (Oran, Melîle (Melilla), Mersa'l-Kebîr)
+   kırpıldı Melîle (Melilla)              4,689 km² → Nedrûme + Vecde (Oujda) + Debdû
+   kırpıldı Mersa'l-Kebîr                 3,270 km² → Mustagānim + Muaskar + Ayn Temûşent
+   kalan    Oran                              0 km²
+   kalan    Melîle (Melilla)                 51 km²
+   kalan    Mersa'l-Kebîr                    46 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 133,500.3 → 133,500.3 km² (fark +0.000)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 1 · yeni: ['Oran(ispanya)∈Ayn Temûşent(OSMANLI)']
+
+=== ORAN · 1600-06-15 · R=10 km · penceredeki presidio 3 (Oran, Melîle (Melilla), Mersa'l-Kebîr)
+   kırpıldı Melîle (Melilla)              4,536 km² → Nedrûme + Vecde (Oujda) + Debdû
+   kırpıldı Mersa'l-Kebîr                 3,134 km² → Mustagānim + Muaskar + Ayn Temûşent
+   kalan    Oran                              0 km²
+   kalan    Melîle (Melilla)                204 km²
+   kalan    Mersa'l-Kebîr                   182 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 133,500.3 → 133,500.3 km² (fark +0.002)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== ORAN · 1600-06-15 · R=15 km · penceredeki presidio 3 (Oran, Melîle (Melilla), Mersa'l-Kebîr)
+   kırpıldı Melîle (Melilla)              4,430 km² → Nedrûme + Vecde (Oujda) + Debdû
+   kırpıldı Mersa'l-Kebîr                 2,973 km² → Mustagānim + Muaskar + Ayn Temûşent
+   kalan    Oran                              0 km²
+   kalan    Melîle (Melilla)                310 km²
+   kalan    Mersa'l-Kebîr                   343 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 133,500.3 → 133,500.3 km² (fark +0.001)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== ORAN · 1750-06-15 · R=10 km · penceredeki presidio 3 (Oran, Melîle (Melilla), Mersa'l-Kebîr)
+   kırpıldı Melîle (Melilla)              4,536 km² → Nedrûme + Vecde (Oujda) + Debdû
+   kırpıldı Mersa'l-Kebîr                 3,134 km² → Mustagānim + Muaskar + Ayn Temûşent
+   kalan    Oran                              0 km²
+   kalan    Melîle (Melilla)                204 km²
+   kalan    Mersa'l-Kebîr                   182 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 133,500.3 → 133,500.3 km² (fark +0.002)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== ORAN · 1720-06-15 · R=10 km · penceredeki presidio 1 (Melîle (Melilla))
+   kırpıldı Melîle (Melilla)              4,536 km² → Nedrûme + Vecde (Oujda) + Debdû
+   kalan    Melîle (Melilla)                204 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 133,500.3 → 133,500.3 km² (fark +0.002)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== ORAN · 1820-06-15 · R=10 km · penceredeki presidio 1 (Melîle (Melilla))
+   kırpıldı Melîle (Melilla)              4,536 km² → Nedrûme + Vecde (Oujda) + Debdû
+   kalan    Melîle (Melilla)                204 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 133,500.3 → 133,500.3 km² (fark +0.002)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== BÂDİS · 1600-06-15 · R=5 km · penceredeki presidio 2 (Melîle (Melilla), Bâdis (Peñón de Vélez))
+   kırpıldı Melîle (Melilla)              4,589 km² → Vecde (Oujda) + el-Hüseyme (Alhucemas) + Debdû
+   kalan    Melîle (Melilla)                 51 km²
+   kalan    Bâdis (Peñón de Vélez)            0 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 93,086.2 → 93,086.2 km² (fark -0.011)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== BÂDİS · 1600-06-15 · R=10 km · penceredeki presidio 2 (Melîle (Melilla), Bâdis (Peñón de Vélez))
+   kırpıldı Melîle (Melilla)              4,436 km² → Vecde (Oujda) + el-Hüseyme (Alhucemas) + Debdû
+   kalan    Melîle (Melilla)                204 km²
+   kalan    Bâdis (Peñón de Vélez)            0 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 93,086.2 → 93,086.2 km² (fark -0.008)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== BÂDİS · 1600-06-15 · R=15 km · penceredeki presidio 2 (Melîle (Melilla), Bâdis (Peñón de Vélez))
+   kırpıldı Melîle (Melilla)              4,330 km² → Vecde (Oujda) + el-Hüseyme (Alhucemas) + Debdû
+   kalan    Melîle (Melilla)                310 km²
+   kalan    Bâdis (Peñón de Vélez)            0 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 93,086.2 → 93,086.2 km² (fark -0.011)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== FAS KUZEY · 1650-06-15 · R=10 km · penceredeki presidio 4 (Tanca, Sebte (Ceuta), el-Arâiş (Larache), Mamûra (Mehdiye))
+   kırpıldı Tanca                           445 km² → Arzila (Asilah) + Tıtvân (Tetuan)
+   kırpıldı Sebte (Ceuta)                   426 km² → Ronda + Tıtvân (Tetuan)
+   kırpıldı el-Arâiş (Larache)            1,250 km² → Arzila (Asilah) + Kasrülkebîr
+   kırpıldı Mamûra (Mehdiye)              3,960 km² → Rabat + Miknâs (Meknes) + Kasrülkebîr + Vezzân (Ouezzane)
+   kalan    Tanca                           210 km²
+   kalan    Sebte (Ceuta)                   100 km²
+   kalan    el-Arâiş (Larache)              185 km²
+   kalan    Mamûra (Mehdiye)                161 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 63,859.0 → 63,859.1 km² (fark +0.058)
+   nokta-başka-sahip çelişkisi ÖNCE 1 · SONRA 0
+
+=== KIRIM · 1400-06-15 · R=10 km · penceredeki presidio 3 (Kefe, Sudak (Suğdak), Balaklava (Cembalo))
+   kırpıldı Kefe                            102 km² → Eski Kırım (Solhat) + Arabat
+   kırpıldı Sudak (Suğdak)                  146 km² → Karasubazar + Eski Kırım (Solhat)
+   kırpıldı Balaklava (Cembalo)              51 km² → Mankup + İnkirman (Kalamita)
+   kalan    Kefe                            187 km²
+   kalan    Sudak (Suğdak)                  218 km²
+   kalan    Balaklava (Cembalo)             146 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 36,805.3 → 36,805.3 km² (fark -0.000)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== KIRIM · 1600-06-15 · R=10 km · penceredeki presidio 0 ()
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 36,805.3 → 36,805.3 km² (fark +0.000)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== ANGOLA · 1700-06-15 · R=10 km · penceredeki presidio 2 (Massangano, Kambambe (Cambambe))
+   kırpıldı Massangano                   17,941 km² → Kabasa + Luanda + Uije (Uíge)
+   kırpıldı Kambambe (Cambambe)          17,835 km² → Kabasa + Luanda + Pungo Andongo
+   kalan    Massangano                      315 km²
+   kalan    Kambambe (Cambambe)             315 km²
+   noktasız parça ÖNCE : YOK
+   noktasız parça SONRA: YOK
+   alan korunumu: 340,075.3 → 340,075.4 km² (fark +0.002)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+=== HİNDİSTAN GD · 1700-06-15 · R=10 km · penceredeki presidio 3 (Madras (Chennai), Pondişeri, Tranquebar (Tharangambadi))
+   kırpıldı Madras (Chennai)             12,749 km² → Arkot (Arcot) + Kançipuram (Kanchipuram)
+   kırpıldı Pondişeri                     6,365 km² → Tancûr (Thanjavur) + Cinci (Gingee) + Kançipuram (Kanchipuram)
+   kırpıldı Tranquebar (Tharangambadi)    2,969 km² → Nagapatnam + Tancûr (Thanjavur)
+   kalan    Madras (Chennai)                213 km²
+   kalan    Pondişeri                       182 km²
+   kalan    Tranquebar (Tharangambadi)      128 km²
+   noktasız parça ÖNCE : karnatik: 41 km² @13.6K 79.7D; tancur-maratha: 52 km² @11.57K 79.13D
+   noktasız parça SONRA: tancur-maratha: 52 km² @11.57K 79.13D
+   alan korunumu: 243,709.9 → 243,709.9 km² (fark -0.001)
+   nokta-başka-sahip çelişkisi ÖNCE 0 · SONRA 0
+
+BAYRAK KAPALI: enklav_gunu('1600-06-15') = 0 (0 beklenir)
+
+=== DÜNYA, taban hücre etkisi (devir simülasyonu YOK) R=10 km
+  1500-06-15: 6 presidio, 6 kırpıldı, toplam 8,279 km² · Safi (Asfi) 6,073 · Arzila (Asilah) 1,335 · Sebte (Ceuta) 426 · Tanca 421 · Melîle (Melilla) 24 · Calais 0
+  1600-06-15: 10 presidio, 8 kırpıldı, toplam 43,207 km² · Massangano 17,941 · Hûglî (Hooghly) 14,202 · Malaka 5,893 · Mazagan (El Jadida) 3,693 · Mersa'l-Kebîr 584 · Tanca 445 · Sebte (Ceuta) 426 · Melîle (Melilla) 24
+  1700-06-15: 15 presidio, 12 kırpıldı, toplam 70,411 km² · Massangano 17,941 · Kambambe (Cambambe) 17,835 · Madras (Chennai) 12,749 · Malaka 5,893 · Pondişeri 5,883 · el-Hüseyme (Alhucemas) 3,968 · Mazagan (El Jadida) 3,693 · Bombay 742
+  1800-06-15: 12 presidio, 10 kırpıldı, toplam 54,813 km² · Massangano 17,941 · Kambambe (Cambambe) 17,835 · Malaka 5,893 · Pondişeri 5,883 · el-Hüseyme (Alhucemas) 3,968 · Lifau (Oecussi) 1,698 · Tranquebar (Tharangambadi) 673 · Cebelitarık (Gibraltar) 472
+  1900-06-15: 12 presidio, 10 kırpıldı, toplam 52,142 km² · Massangano 17,941 · Kambambe (Cambambe) 17,835 · Pondişeri 5,883 · el-Hüseyme (Alhucemas) 3,968 · Sevâkin 2,170 · Atapupu 1,724 · Lifau (Oecussi) 1,698 · Cebelitarık (Gibraltar) 472
+
+süre 10 sn

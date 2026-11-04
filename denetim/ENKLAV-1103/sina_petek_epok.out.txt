@@ -1,0 +1,76 @@
+﻿
+=== ORAN · 1600-06-15
+  R=0: 0.0 sn · önbellek anahtarı eski biçim · pay {}
+     Melîle (Melilla)              4,740 km²
+     Mersa'l-Kebîr                 3,316 km²
+     noktasız parça: YOK
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 133,500.3 km²
+  R=10: 0.1 sn · önbellek anahtarı ENKLAV ile · pay {'enklav_kirp': 2, 'enklav_kirp_km2': 7670.216747078703}
+     Melîle (Melilla)                204 km²
+     Mersa'l-Kebîr                   182 km²
+     noktasız parça: YOK
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 133,500.3 km²
+     kayıt: ('Melîle (Melilla)', 'Nedrûme + Vecde (Oujda) + Debdû', 4536.223633295434, 'ENKLAV KIRP 10 km')
+     kayıt: ("Mersa'l-Kebîr", 'Mustagānim + Muaskar + Ayn Temûşent', 3133.9931137832687, 'ENKLAV KIRP 10 km')
+  KORUNUM farkı (açık − kapalı): +0.002 km²
+
+=== ORAN (Osmanlı devri — kırpma YOK beklenir) · 1800-06-15
+  R=0: 0.0 sn · önbellek anahtarı eski biçim · pay {}
+     Melîle (Melilla)              4,740 km²
+     Mersa'l-Kebîr                 3,316 km²
+     noktasız parça: YOK
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 133,500.3 km²
+  R=10: 0.0 sn · önbellek anahtarı ENKLAV ile · pay {'enklav_kirp': 1, 'enklav_kirp_km2': 4536.223633295434}
+     Melîle (Melilla)                204 km²
+     Mersa'l-Kebîr                 3,316 km²
+     noktasız parça: YOK
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 133,500.3 km²
+     kayıt: ('Melîle (Melilla)', 'Nedrûme + Vecde (Oujda) + Debdû', 4536.223633295434, 'ENKLAV KIRP 10 km')
+  KORUNUM farkı (açık − kapalı): +0.002 km²
+
+=== BÂDİS · 1650-06-15
+  R=0: 0.0 sn · önbellek anahtarı eski biçim · pay {}
+     Melîle (Melilla)              4,640 km²
+     noktasız parça: YOK
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 93,086.2 km²
+  R=10: 0.0 sn · önbellek anahtarı ENKLAV ile · pay {'enklav_kirp': 1, 'enklav_kirp_km2': 4436.229818194886}
+     Melîle (Melilla)                204 km²
+     noktasız parça: YOK
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 93,086.2 km²
+     kayıt: ('Melîle (Melilla)', 'Vecde (Oujda) + el-Hüseyme (Alhucemas) + Debdû', 4436.229818194886, 'ENKLAV KIRP 10 km')
+  KORUNUM farkı (açık − kapalı): -0.008 km²
+
+=== KIRIM 1400 · 1400-06-15
+  R=0: 0.0 sn · önbellek anahtarı eski biçim · pay {}
+     Kefe                            290 km²
+     noktasız parça: YOK
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 36,805.3 km²
+  R=10: 0.0 sn · önbellek anahtarı ENKLAV ile · pay {'enklav_kirp': 3, 'enklav_kirp_km2': 299.8064283302545}
+     Kefe                            187 km²
+     Sudak (Suğdak)                  218 km²
+     Balaklava (Cembalo)             146 km²
+     noktasız parça: YOK
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 36,805.3 km²
+     kayıt: ('Kefe', 'Eski Kırım (Solhat) + Arabat', 102.3923644587213, 'ENKLAV KIRP 10 km')
+     kayıt: ('Sudak (Suğdak)', 'Karasubazar + Eski Kırım (Solhat)', 146.15409618484037, 'ENKLAV KIRP 10 km')
+     kayıt: ('Balaklava (Cembalo)', 'Mankup + İnkirman (Kalamita)', 51.259967686692825, 'ENKLAV KIRP 10 km')
+  KORUNUM farkı (açık − kapalı): -0.000 km²
+
+=== LUGOS __BOSLUK__ (kırpma YOK beklenir) · 1690-06-15
+  R=0: 0.0 sn · önbellek anahtarı eski biçim · pay {}
+     noktasız parça: {'macaristan-habsburg': [5, 7]}
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 62,810.5 km²
+  R=10: 0.0 sn · önbellek anahtarı ENKLAV ile · pay {'enklav_kirp': 0, 'enklav_kirp_km2': 0}
+     noktasız parça: {'macaristan-habsburg': [5, 7]}
+     nokta-başka-sahip çelişkisi: 0 []
+     pencere alanı 62,810.5 km²
+  KORUNUM farkı (açık − kapalı): +0.000 km²

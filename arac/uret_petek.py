@@ -5975,6 +5975,176 @@ def _olu_bilesenler(olu, hucre):
     return out
 
 
+# ═══ 🆕 MOTOR-ENKLAV-KIRP-1104 — PRESİDİONUN HÜCRESİ KALE YARIÇAPIYLA SINIRLI ═══
+# KUSUR (LAB ölçümü, `denetim/ENKLAV-1103/MOTOR-SORU.md`, koşu 32): `enklav:true`
+#   kalelerin karada noktasız "enklav parçası" — Oran 1.430 km² (1509-1841),
+#   Bâdis 174 km² (1564-1673). Kaynağı ÖLÇÜLDÜ (koşu 32 `petek_govde.js`):
+#   ZAMANSIZ hücreler değil, BU İŞLEVİN DEVRİ. Oran'ın kendi taban hücresi 0 km²,
+#   parça Sîdî Bel Abbès'in (kur 1843) 7.196 km²'lik hücresinde; Bâdis'in taban
+#   hücresi 0 km² (ada), parça Nekor'un (bit 1281) hücresinde. Sahnede olmayan
+#   komşunun peteği yürüyüşle paylaştırılırken presidio da ALICI oluyor.
+#   `_ENKLAV` yalnız yetim YÜZ devrini kesiyordu; varlık devrini kesmiyordu.
+# KURAL (Emre, 4 Kasım 2026): `g` gününde `enklav:true` dönemindeki SAHNEDEKİ
+#   nokta ① devirden pay ALMAZ, ② kendi taban hücresinin yalnız kaleden
+#   ≤ ENKLAV_KIRP_KM km'lik kısmını tutar. Artık, artığa değen sahnedeki
+#   enklav-OLMAYAN komşulara yerel Voronoi ile bölünür (komşu yoksa en yakın
+#   enklav-olmayan sahnedeki noktaya).
+# 📌 GÜNE BAĞLI, ZAMANSIZ DEĞİL: Kefe 1475-1774 Osmanlı sancak merkezidir,
+#    Oran 1708-1732 / 1792-1831 Osmanlı'dır — o günlerde hücre KIRPILMAZ.
+#    (Yetim yüz kuralı `_ENKLAV` zamansız kaldı; ona dokunulmadı.)
+# Bayrak: MOTOR_ENKLAV_KIRP_KM=<km>. Yok/0 ⇒ işlev hiç çağrılmaz, petek_epok
+#   anahtarı ve çıktısı BİREBİR eski. Değer MOTOR_* olduğu için önbellek tuzuna girer.
+ENKLAV_KIRP_KM = float(os.environ.get("MOTOR_ENKLAV_KIRP_KM") or 0.0)
+_ENKLAV_GUN_EZBER = {}
+
+
+def enklav_gunu(g):
+    """g gününde `enklav:true` dönemi süren yerleşimler (bayrak kapalıysa boş)."""
+    if ENKLAV_KIRP_KM <= 0 or not _ENKLAV:
+        return frozenset()
+    v = _ENKLAV_GUN_EZBER.get(g)
+    if v is None:
+        G = gn(g)
+        # `__BOSLUK__` dönemi kırpılmaz: beyanlı deliğin toprağını komşuya vermek
+        # kaynaksız sahip yazmak olurdu (Lugos 1689-1691).
+        v = frozenset(i for i in _ENKLAV
+                      if any(p.get("enklav") and p.get("d") != "__BOSLUK__"
+                             and gn(p["f"]) <= G < gn(p["t"])
+                             for p in YERLER[i]["s"]))
+        _ENKLAV_GUN_EZBER[g] = v
+    return v
+
+
+def _enklav_disk(p, r_km):
+    """Noktanın çevresinde r_km yarıçaplı daire (derece uzayında elips)."""
+    return _scale(p.buffer(1.0, quad_segs=32),
+                  r_km / _km_derece(p.y), r_km / 110.574, origin=p)
+
+
+def _enklav_kirp(hucre, taban, enk, sahne_kume, r_km, tol=1e-12):
+    """`hucre` listesini YERİNDE düzeltir: enk'teki her sahnedeki nokta
+    `taban[j] ∩ daire(j, r_km)` tutar; artık enklav-olmayan sahnedeki komşulara
+    yerel Voronoi ile verilir. Döner: [(ad, artık km², alıcı adları), ...]."""
+    kayit = []
+    hedef = [j for j in sorted(enk) if j in sahne_kume
+             and hucre[j] is not None and not hucre[j].is_empty]
+    if not hedef:
+        return kayit
+    alici = sorted(j for j in sahne_kume if j not in enk)
+    if not alici:
+        return kayit
+    alici_kume = set(alici)
+    h_agac = STRtree(hucre)                  # komşu ADAYI için (bayat olabilir; aşağıda yeniden sınanır)
+
+    def _deger(a, b):
+        """a ile b ≥ ~1 km ORTAK KENAR paylaşıyor mu (köşe/kıl payı temas sayılmaz —
+        sınamada 71 km²'lik kopuk Kongo payı köşe temasından doğdu). Pay 0,002°
+        (~200 m): kenar ortak değil de kıl payı ayrık olsa da (yuvarlanmış girdi) değer."""
+        try:
+            return a.boundary.intersection(b.buffer(0.002)).length >= 0.01
+        except Exception:
+            return a.intersects(b)
+    n_agac = STRtree([noktalar[j] for j in alici])
+    for j in hedef:
+        h = hucre[j]
+        p = noktalar[j]
+        disk = _enklav_disk(p, r_km)
+        tb = taban[j]
+        kal = Polygon() if tb is None or tb.is_empty else poligonal(tb.intersection(disk))
+        if not kal.is_empty:
+            kal = poligonal(kal.intersection(h))
+        # Dairenin içinde de olsa kaleden KOPUK parça (lagün/burun ötesi) kalede kalmaz:
+        # yalnız noktaya en yakın bileşen tutulur — yoksa presidio yeni bir parça doğurur.
+        _kp = _poligonlar(kal)
+        if len(_kp) > 1:
+            kal = min(_kp, key=lambda q: q.distance(p))
+        art = poligonal(h.difference(kal)) if not kal.is_empty else h
+        if art.is_empty or art.area <= tol:
+            continue
+        hucre[j] = kal
+        _al_top = set()
+        _geri = 0.0
+        for c in _poligonlar(art):         # artık BİLEŞEN BİLEŞEN: her biri kendi komşusuna
+            if c.area <= tol:
+                continue
+            _tam = c.buffer(0.02)
+            komsu = [k for k in sorted({int(q) for q in h_agac.query(_tam)})
+                     if k in alici_kume and not hucre[k].is_empty and _deger(c, hucre[k])]
+            if not komsu:
+                # Hiçbir enklav-olmayan komşuya değmiyor: kalenin ARDINDA kalmış (burun,
+                # yarımada — Melîle'nin Üç Çatal burnu). Kaleye değiyorsa kalede kalır;
+                # değmiyorsa en yakın enklav-olmayan sahnedeki noktaya (eski yol).
+                if not kal.is_empty and _deger(c, kal):
+                    hucre[j] = poligonal(unary_union([hucre[j], c]))
+                    _geri += _ham_km2(c)
+                    continue
+                komsu = [alici[int(n_agac.nearest(c.representative_point()))]]
+            ver = {}
+            if len(komsu) == 1:
+                ver[komsu[0]] = c
+            else:
+                try:
+                    _vd = voronoi_diagram(MultiPoint([noktalar[k] for k in komsu]),
+                                          envelope=box(*c.buffer(1.0).bounds))
+                    _bolge = list(getattr(_vd, "geoms", []))
+                except Exception:
+                    _bolge = []
+                for _b in _bolge:          # Voronoi sırası girdi sırası DEĞİL — noktayla eşle
+                    s = next((k for k in komsu if _b.covers(noktalar[k])), None)
+                    if s is None:
+                        continue
+                    pg = poligonal(_b.intersection(c))
+                    if pg.is_empty or pg.area <= tol:
+                        continue
+                    ver[s] = poligonal(unary_union([ver[s], pg])) if s in ver else pg
+                _kalan = poligonal(c.difference(unary_union(list(ver.values())))) if ver else c
+                if not _kalan.is_empty and _kalan.area > tol:
+                    k2 = komsu[int(STRtree([noktalar[k] for k in komsu])
+                                   .nearest(_kalan.representative_point()))]
+                    ver[k2] = poligonal(unary_union([ver.get(k2, Polygon()), _kalan]))
+            # Voronoi payı alıcının hücresine DEĞMİYORSA (kopuk pay) ona değen komşuya
+            # geçer — alıcı tarafında yeni parça doğmasın (sınamada 71 km² kopuk Kongo
+            # payı). Tur tur: verilen her pay hücreyi büyütür, zincir böyle çözülür.
+            bek = [(k, s) for k, geo in ver.items() for s in _poligonlar(geo) if s.area > tol]
+            for _tur in range(len(bek) + 1):
+                kalan_bek = []
+                for k, s in bek:
+                    if _deger(s, hucre[k]):
+                        kk = k
+                    else:
+                        _d = [r for r in sorted({int(q) for q in h_agac.query(s.buffer(0.02))}
+                                                | set(_al_top) | set(komsu))
+                              if r in alici_kume and not hucre[r].is_empty and _deger(s, hucre[r])]
+                        if not _d:
+                            kalan_bek.append((k, s))
+                            continue
+                        kk = max(_d, key=lambda r: s.boundary.intersection(
+                            hucre[r].buffer(0.002)).length)
+                    hucre[kk] = poligonal(unary_union([hucre[kk], s]))
+                    _al_top.add(kk)
+                if len(kalan_bek) == len(bek):
+                    break
+                bek = kalan_bek
+            for k, s in bek:                # hiçbir alıcıya değmeyen: kaleye değiyorsa kalede,
+                if not hucre[j].is_empty and _deger(s, hucre[j]):      # değilse Voronoi sahibine
+                    hucre[j] = poligonal(unary_union([hucre[j], s]))
+                    _geri += _ham_km2(s)
+                else:
+                    hucre[k] = poligonal(unary_union([hucre[k], s]))
+                    _al_top.add(k)
+        kayit.append((YERLER[j]["ad"], _ham_km2(art) - _geri,
+                      " + ".join(YERLER[k]["ad"] for k in sorted(_al_top))[:80]))
+    return kayit
+
+
+def _varlik_anahtar(g):
+    """petek_epok önbellek anahtarı — bayrak kapalıyken ESKİSİYLE BİREBİR."""
+    devir = devir_kumesi(g)
+    a = ("MO", devir) if _mo_tavanli(g) else devir
+    _enk = enklav_gunu(g)
+    return (a, "ENKLAV", _enk) if _enk else a
+
+
 def petek_epok(g):
     """g tarihinde geçerli petek listesi; kurulmamış/yok olmuş noktanın payı
     o tarihte sahnede olan komşulara **Voronoi kuralıyla PAYLAŞTIRILMIŞ** hâlde.
@@ -5998,7 +6168,10 @@ def petek_epok(g):
                   for _i, b in enumerate(_BANT_HAM[MO_SAAT])]
         _butce = MO_SAAT * NEHIR_KM_SAAT
     _anah = ("MO", devir) if _mo_t else devir
-    if not devir and not _mo_t:
+    _enk = enklav_gunu(g)                 # 🆕 MOTOR-ENKLAV-KIRP-1104 (bayrak kapalıyken boş)
+    if _enk:
+        _anah = (_anah, "ENKLAV", _enk)   # = _varlik_anahtar(g)
+    if not devir and not _mo_t and not _enk:
         return PETEK_D
     if _anah in _VARLIK_ONBELLEK:
         return _VARLIK_ONBELLEK[_anah]
@@ -6178,6 +6351,24 @@ def petek_epok(g):
             _pay["paylastirilan"] += 1
         _pay["alici"] += len(_verildi)
 
+    # 🆕 MOTOR-ENKLAV-KIRP-1104 — devir BİTTİKTEN SONRA: presidio aldığı payı ve
+    #    kaleden uzak taban toprağını sahnedeki enklav-olmayan komşulara bırakır.
+    if _enk:
+        # İŞLEMSEL: kopya üzerinde çalışır, BAŞARIRSA yerine konur. Patlarsa o gün
+        # eski davranış (kırpmasız) sürer ve ADIYLA basılır — yarım taşınmış toprak
+        # (delik) bırakmaz, 7-16 saatlik koşuyu da öldürmez. Sessiz ölüm yok.
+        _hk = list(hucre)
+        try:
+            _ek = _enklav_kirp(_hk, _taban, _enk, sahne_kume, ENKLAV_KIRP_KM, _EPOK_PAY_TOL)
+            hucre = _hk
+            _pay["enklav_kirp"] = len(_ek)
+            _pay["enklav_kirp_km2"] = sum(r[1] for r in _ek)
+            for _ad, _km, _al in _ek:
+                kayit.append((_ad, _al, _km, "ENKLAV KIRP %g km" % ENKLAV_KIRP_KM))
+        except Exception as _e:
+            _pay["enklav_kirp_hata"] = str(_e)[:120]
+            print(f"  🔴 ENKLAV KIRPMA DÜŞTÜ ({g}) — bu gün kırpmasız: {str(_e)[:120]}")
+
     _VARLIK_ONBELLEK[_anah] = hucre
     _VARLIK_DEVIR[_anah] = kayit
     _VARLIK_PAY[_anah] = _pay
@@ -6206,8 +6397,7 @@ for _g in (EPOK, "1500-06-15", "1700-06-15", "1900-06-15"):
 # ⚠️ Son iki kova BAŞARISIZLIK DEĞİLDİR ve öyle raporlanmamalı. Tek komşusu
 # olan bir peteği "bölemedik" diye saymak, bölünecek şey olmadığı hâlde
 # kusur uydurmak olurdu.
-_pe_ozet = petek_epok(EPOK) and _VARLIK_PAY.get(("MO", devir_kumesi(EPOK)) if _mo_tavanli(EPOK)
-                                                  else devir_kumesi(EPOK))
+_pe_ozet = petek_epok(EPOK) and _VARLIK_PAY.get(_varlik_anahtar(EPOK))
 if _pe_ozet:
     _tp = (_pe_ozet["paylastirilan"] + _pe_ozet["tek_komsu"]
            + _pe_ozet["komsusuz"])
@@ -6220,6 +6410,16 @@ if _pe_ozet:
         print(f"     ⚠️ artık {_pe_ozet['artik_km2']:,.0f} km² en yakın "
               f"canlıya verildi — SESSİZ KAYIP YOK")
     print(f"     ÖNGÖRÜ: denetim/EPOK-ONGORU.md")
+    if _pe_ozet.get("enklav_kirp"):
+        print(f"     🏰 enklav kırpma ({EPOK}): {_pe_ozet['enklav_kirp']} presidio, "
+              f"{_pe_ozet['enklav_kirp_km2']:,.0f} km² komşulara")
+# 🆕 MOTOR-ENKLAV-KIRP-1104 — bayrak durumu her koşunun logunda (sessiz bayrak yok)
+if ENKLAV_KIRP_KM > 0:
+    print(f"  🏰 ENKLAV KIRPMA AÇIK (MOTOR_ENKLAV_KIRP_KM={ENKLAV_KIRP_KM:g}): "
+          + " · ".join(f"{_g[:4]}: {len(enklav_gunu(_g))} presidio"
+                       for _g in ("1500-06-15", "1600-06-15", "1700-06-15", "1900-06-15")))
+else:
+    print("  🏰 enklav kırpma KAPALI (MOTOR_ENKLAV_KIRP_KM yok) — presidio devirden pay alabilir")
 
 # ⚠️ KUŞATILMIŞLIK DEVİRLERİ ADIYLA VE EPOKUYLA YAZILIR — koordinatörün şartı.
 # Sebep: %90 çizgisi 12 kayıtlık bir dağılımdan çıktı. İleride kasıtlı bir
