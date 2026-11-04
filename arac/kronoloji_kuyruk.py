@@ -24,6 +24,7 @@ BEKLET = {
     "L2-370": "tek, K. Dierks kişisel Namibya kronolojisi",
     "L2-371": "tek, K. Dierks kişisel Namibya kronolojisi",
     "L2-384":"Payut 1862-04-06: Chalfant, Story of Inyo (1933) akademik olmayan yerel tarih → en çok KISMEN, tek başına düzeltme dayanağı değil",
+    "L2-732": "Gaeta: Treccani «nel 1136», atlas 1140 → ikinci kaynak gelene kadar BEKLE (EMRELİC)",
     "L2-372": "İngiliz Burma: aday 1853-01-20 (NAM, ilan); 1852-12-20 yalnız özette → Aitchison'da İLHAK BİLDİRİSİ tarihi ile Rangoon İLAN günü ayrı bulunacak; tek kurala göre s: değişimi bildiri tarihi",
     "L2-341":"Man Adası 1828: dayanak yalnız EB1911 (eski başvuru, en çok KISMEN) → tek başına düzeltme dayanağı değil; akademik kaynak aranacak",
     "L2-144":"Chūzan seikan (17. yy resmî derleme) tek başına KISMEN; modern akademik teyit (CHJ / Kerr, Okinawa) gelene kadar atlas günü kalır",
@@ -55,7 +56,7 @@ METIN = [
     ("L2-1479", "Avignon 1790-08-27: Archives parlementaires t.XVIII s.369-370 — Meclis ilhakı REDDETMEDİ, krala havale etti ve çevreye birlik yerleştirilmesini istedi → «reddetti» düzeltilir"),
     ("L2-1425", "Kandiye kuşatması: metin «Mayıs 1648», tarih 1648-01-01; TDV «Kandiye»: ~23 yıllık abluka/kuşatma, teslim 6 Eylül 1669; Mayıs 1648 hiçbir akademik kaynakta yok → «Mayıs» ifadesi kaldırılır"),
     ("L2-1547", "Şamil: 8 Mart 1840 TDV'de yok; TDV imamlık 19 Eylül 1834, İçkeri yönetimi Ahulgoh (4.9.1839) sonrası (gün yok), İşkarti-İrpili Temmuz 1840 → gün yalnız Vikipedi, madde ifadesi/günü TDV'ye uydurulur"),
-    ("L2-1609", "[BEKLE — karar] Kamerun 1884-08-17 hiçbir kaynakta yok; GHDI bayrak çekme 14 Temmuz 1884, antlaşma 12 Temmuz (Duala satırı L2-410 ile tutarlı) → «resmî başlangıç» hangisi, koordinatör"),
+    ("L2-1609", "[TARIH] Kamerun: 1884-08-17 desteksiz, düşer → s: değişimi antlaşma günü 1884-07-12 (koordinatör kararı; Duala L2-410 ile tutarlı); bayrak çekme 14 Temmuz (GHDI) ic_not'a"),
     ("L2-1408", "[BEKLE — tek, akademik olmayan kaynak] Yafna: «II. Cankili Goa'ya götürüldü» kaynaklarda yok (Vikipedi: asıldı) → Abeysinghe okununca"),
     ("L2-465", "Derviş hareketi: madde «yenildi» ile «direniş sona erdi»yi tek güne (1920-01-01) sıkıştırıyor; TDV: 1920 başı İngiliz saldırısı, direnişin sonu Seyyid Muhammed'in ölümü 21 Aralık 1920 → iki olay ayrılır (ilgili TARIH_DUZELT satırı)"),
     ("L2-470", "Enver Paşa: TDV'ye göre Ekim 1921'de Buhara'ya gitti, Basmacıları örgütlemek için Şubat 1922 sonunda Duşanbe kışlaklarına; «1921 sonunda başına geçti» TDV'de yok → ifade TDV'ye uydurulur"),
@@ -71,7 +72,7 @@ METIN = [
     ("L2-435", "Paris Antlaşması onayı 1899-02-06: oy «52-27» → «57-27» (Voteview Senato kaydı, birincil)"),
     ("L2-447", "Basra işgali: atlas 22 Kasım, 1914-1918-online (Çetinsaya) 23 Kasım 1914 → çelişki ic_not'a; Fâv 6 Kasım 1914 okundu; TDV bulunamadı"),
     ("L2-434", "[BEKLE — tek, akademik olmayan kaynak] «silah bırakmak üzere toplananları katletti» kaynaklı değil; kaynaklarda Ambiky'nin top ateşiyle alınması ve Toera'nın öldürülmesi var"),
-    ("L2-441", "Asîr/İdrîsî (devletler.js:22003): madde Hafâir ANTLAŞMASI ve kaymakamlığı anlatıyor; TDV «Cîzân» 1911'de Hafâir'de Osmanlı'nın YENİLGİSİNİ veriyor — aynı olay değil → 1911'e taşınmaz; «Ocak 1910» yalnız Vikipedi, «[olay kaynakta yok]» beyanı (koordinatöre bildirildi)"),
+    ("L2-441", "[TARIH] Asîr/İdrîsî (devletler.js:22003): 1910-01-01 → 1909-10 (AY; «Ekim 1909'un sonlarında» Said Paşa heyeti Sabya'da İdrîsî ile görüştü: bağlılık, hutbe, «kaymakam rütbesi», zekâtın üçte biri — Duysak, YL/Dr tezi Marmara 2005 s.97-98) KISMEN; «Hafâir» adı tezde geçmiyor → ic_not; TDV «Cîzân» 1911 Hafâir yenilgisi ayrı olay"),
     ("L2-449", "[TEK KURAL — yerleşim/künye] Ruanda-Urundi: künye ruanda-urundi-mandasi f=1922-07-20 (MC onayı) — 1916-04/05 → manda başlangıcı arası Ruanda/Urundi yerleşimlerinde (Kigali, Usumbura vb.) isg: belçika; s: manda ile (Orts-Milner 1919-05-30 ya da MC 1922-07-20; günler kaynaktan); KASA PAZAR ölçsün"),
     ("L2-410", "Duala 1884-07-12: gün doğru; antlaşmayı Duala şefleriyle Nachtigal değil Alman konsolos Emil Schulze imzaladı (Pretoria Univ. Law Press, German Colonialism böl.7) → özne düzeltilir; Nachtigal'in 14 Temmuz bayrak çekişi doğrulanmadı"),
     ("L2-420", "[BEKLE — tek, akademik olmayan kaynak] Kenya kuzey 1890-07-01: tarih doğru (GHI); antlaşma Madde I Alman alanının kuzeyini (Umba hattı) veriyor; İngiliz alanının kuzey sınırı 1891 İngiliz-İtalyan protokolleri (yalnız arama özeti) → ifade kontrol"),
@@ -129,6 +130,9 @@ def main():
                     is_ = "atla (mevcut kaynak akademik; Britannica yerine konmaz)"
                     atla += 1
                 uyum = r.get("uyum", "")
+                if parti == "L2E_373-397" and any(k in (uyum + " " + r.get("okunan_cumle", "")).lower()
+                                                   for k in ("ganzhi", "jülyen", "julyen", "julian")):
+                    uyum = "[çeviri doğrulanmadı — ganzhi→Jülyen ajan hesabı, Academia Sinica toplu teyidi bekliyor] " + uyum
                 if no in DEGISTIR:
                     is_, uyum = DEGISTIR[no]
                 elif (parti, no) in GECERSIZ:
@@ -146,7 +150,8 @@ def main():
                 yer.setdefault(r.get("no", ""), (r.get("dosya_satir", ""), r.get("tarih_atlas", "")))
     for no, ne in METIN:
         ds, t = yer.get(no, ("", ""))
-        is_ = ("tek kural ölçümü (yerleşim s:/isg)" if ne.startswith("[TEK KURAL")
+        is_ = ("tarih düzelt (koordinatör)" if ne.startswith("[TARIH]")
+               else "tek kural ölçümü (yerleşim s:/isg)" if ne.startswith("[TEK KURAL")
                else "BEKLE metin (tek, akademik olmayan kaynak)" if ne.startswith("[BEKLE")
                else "metin düzelt (tarih kalır)")
         satir.append(["koordinator", no, is_, ds, t, ne, "", "", "", ""])
