@@ -581,7 +581,7 @@
 {
 "id": "azuchi-momoyama",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge — Cambridge History of Japan IV, ch.2 (Berry), s.~41: 'In the ninth month of 1568 Nobunaga entered Kyoto' (f AY teyitli — Japon ay takvimi, Eiroku 11/9; günü (9/26) NAOJ tablosuyla çevrilip 1568-10-16 ile karşılaştırılmalı: KASA SALI TAKVIM-CEVIRI.tsv yöntemi; LAB tarayıcısından eco.mtk.nao.ac.jp erişilemedi) · t 1615 bu bölümde yok"
+"kaynak": "f GÜN TEYİTLİ — EMRELİC Cambridge — Cambridge History of Japan IV, ch.2 (Berry), s.~41: 'In the ninth month of 1568 Nobunaga entered Kyoto' + KASA SALI, NAOJ ECO Japanese Calendar Database: Eiroku 11/9/26 = Jülyen 1568-10-16 = Gregoryen 1568-10-26 → veri f 1568-10-16 (Jülyen, 1582 öncesi atlas uzlaşımı) DOĞRU; ic_not: 'Takvim: Eiroku 11/9/26 (NAOJ ECO) = Jülyen 1568-10-16 = Gregoryen 1568-10-26' · t 1615-06-04 okunmadı"
 },
 {
 "id": "guney-ming",
