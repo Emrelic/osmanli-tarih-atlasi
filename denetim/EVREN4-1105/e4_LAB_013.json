@@ -13,7 +13,7 @@
    "oneri": {
     "t": "XV. yüzyılın sonları (yıl yok)"
    },
-   "not": "Alıntı t ucunu tarihliyor: atlas t=1400-01-01, TDV Sudan 'XV. yy sonları', TDV Dârfûr 'XV. yüzyılda'; 1400 kaynakta yok. f ucu: TDV Dârfûr 'XIII ve XIV. yüzyıllar boyunca buraya hâkim olan Dâcûlar' (yüzyıl düzeyi; f=1281 atlas ufku, olay tarihi değil). Tarih uydurmadım. Sonuç: Tuncûr f de aynı yönde kayar (1400 -> XV. yy sonu). Yerleşimin kendi TDV maddesi yok (tdv-ara boş); ABİ MERKEZ/bölge düzeyi: Dârfûr bölgesi (Fâşir merkezli sultanlık), yerleşime özgü tanıklık değil."
+   "not": "KARAR EMRELİC (gece-57): Darfur 1874: TDV 'ilhak edildi' → TAHRİR idareye katma: s: misir-kavalali (v: değil). dacu t 1400 kaynaksız → 'XV. yy sonları' [yalnız yüzyıl] BEYANLI ONERI. | Alıntı t ucunu tarihliyor: atlas t=1400-01-01, TDV Sudan 'XV. yy sonları', TDV Dârfûr 'XV. yüzyılda'; 1400 kaynakta yok. f ucu: TDV Dârfûr 'XIII ve XIV. yüzyıllar boyunca buraya hâkim olan Dâcûlar' (yüzyıl düzeyi; f=1281 atlas ufku, olay tarihi değil). Tarih uydurmadım. Sonuç: Tuncûr f de aynı yönde kayar (1400 -> XV. yy sonu). Yerleşimin kendi TDV maddesi yok (tdv-ara boş); ABİ MERKEZ/bölge düzeyi: Dârfûr bölgesi (Fâşir merkezli sultanlık), yerleşime özgü tanıklık değil."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:303",
@@ -35,11 +35,13 @@
    "f": "1874-11-02",
    "t": "1883-12-23",
    "uc": "f+t",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "TDV İslâm Ansiklopedisi, «Sudan» maddesi — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "Dârfûr, Hidiv İsmâil Paşa döneminde Osmanlı-Mısır Sudanı’na ilhak edildi",
-   "oneri": {},
-   "not": "f: 1874 yıl düzeyi (TDV Sudan: ilhak ... İbrâhim öldürüldü (1874)). t: TDV Sudan 'Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi' (ay düzeyi; atlas 1883-12-23 ay ile uyumlu, gün kaynakta yok). UYARI alan: TDV 'ilhak' diyor; atlas alanı v (tâbi). Tahrir/idareye katma ölçütü: TDV ilhak=Mısır Sudanı'na katıldı; alan sorusu EMRELİC'te (kaynak v/s ayrımını açıkça vermiyor). TDV Dârfûr: 'önceleri Mısır’daki Osmanlı-hidiv idaresine ... bağlı gölge sultanlar' (1874 sonrası). Yerleşimin kendi TDV maddesi yok (tdv-ara boş); ABİ MERKEZ/bölge düzeyi: Dârfûr bölgesi (Fâşir merkezli sultanlık), yerleşime özgü tanıklık değil."
+   "oneri": {
+    "alan": "s"
+   },
+   "not": "KARAR EMRELİC (gece-57): Darfur 1874: TDV 'ilhak edildi' → TAHRİR idareye katma: s: misir-kavalali (v: değil). dacu t 1400 kaynaksız → 'XV. yy sonları' [yalnız yüzyıl] BEYANLI ONERI. | f: 1874 yıl düzeyi (TDV Sudan: ilhak ... İbrâhim öldürüldü (1874)). t: TDV Sudan 'Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi' (ay düzeyi; atlas 1883-12-23 ay ile uyumlu, gün kaynakta yok). UYARI alan: TDV 'ilhak' diyor; atlas alanı v (tâbi). Tahrir/idareye katma ölçütü: TDV ilhak=Mısır Sudanı'na katıldı; alan sorusu EMRELİC'te (kaynak v/s ayrımını açıkça vermiyor). TDV Dârfûr: 'önceleri Mısır’daki Osmanlı-hidiv idaresine ... bağlı gölge sultanlar' (1874 sonrası). Yerleşimin kendi TDV maddesi yok (tdv-ara boş); ABİ MERKEZ/bölge düzeyi: Dârfûr bölgesi (Fâşir merkezli sultanlık), yerleşime özgü tanıklık değil."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:303",
@@ -95,7 +97,7 @@
    "oneri": {
     "t": "XV. yüzyılın sonları (yıl yok)"
    },
-   "not": "Alıntı t ucunu tarihliyor: atlas t=1400-01-01, TDV Sudan 'XV. yy sonları', TDV Dârfûr 'XV. yüzyılda'; 1400 kaynakta yok. f ucu: TDV Dârfûr 'XIII ve XIV. yüzyıllar boyunca buraya hâkim olan Dâcûlar' (yüzyıl düzeyi; f=1281 atlas ufku, olay tarihi değil). Tarih uydurmadım. Sonuç: Tuncûr f de aynı yönde kayar (1400 -> XV. yy sonu). Yerleşimin kendi TDV maddesi yok (tdv-ara boş); ABİ MERKEZ/bölge düzeyi: Dârfûr bölgesi (Fâşir merkezli sultanlık), yerleşime özgü tanıklık değil."
+   "not": "KARAR EMRELİC (gece-57): Darfur 1874: s: misir-kavalali (v: değil). dacu t 1400 → 'XV. yy sonları' [yalnız yüzyıl] BEYANLI ONERI. | Alıntı t ucunu tarihliyor: atlas t=1400-01-01, TDV Sudan 'XV. yy sonları', TDV Dârfûr 'XV. yüzyılda'; 1400 kaynakta yok. f ucu: TDV Dârfûr 'XIII ve XIV. yüzyıllar boyunca buraya hâkim olan Dâcûlar' (yüzyıl düzeyi; f=1281 atlas ufku, olay tarihi değil). Tarih uydurmadım. Sonuç: Tuncûr f de aynı yönde kayar (1400 -> XV. yy sonu). Yerleşimin kendi TDV maddesi yok (tdv-ara boş); ABİ MERKEZ/bölge düzeyi: Dârfûr bölgesi (Fâşir merkezli sultanlık), yerleşime özgü tanıklık değil."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:315",
@@ -117,11 +119,13 @@
    "f": "1874-11-02",
    "t": "1883-12-23",
    "uc": "f+t",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "TDV İslâm Ansiklopedisi, «Sudan» maddesi — https://islamansiklopedisi.org.tr/sudan",
    "alinti": "Dârfûr, Hidiv İsmâil Paşa döneminde Osmanlı-Mısır Sudanı’na ilhak edildi",
-   "oneri": {},
-   "not": "f: 1874 yıl düzeyi (TDV Sudan: ilhak ... İbrâhim öldürüldü (1874)). t: TDV Sudan 'Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi' (ay düzeyi; atlas 1883-12-23 ay ile uyumlu, gün kaynakta yok). UYARI alan: TDV 'ilhak' diyor; atlas alanı v (tâbi). Tahrir/idareye katma ölçütü: TDV ilhak=Mısır Sudanı'na katıldı; alan sorusu EMRELİC'te (kaynak v/s ayrımını açıkça vermiyor). TDV Dârfûr: 'önceleri Mısır’daki Osmanlı-hidiv idaresine ... bağlı gölge sultanlar' (1874 sonrası). Yerleşimin kendi TDV maddesi yok (tdv-ara boş); ABİ MERKEZ/bölge düzeyi: Dârfûr bölgesi (Fâşir merkezli sultanlık), yerleşime özgü tanıklık değil."
+   "oneri": {
+    "alan": "s"
+   },
+   "not": "KARAR EMRELİC (gece-57): Darfur 1874: s: misir-kavalali (v: değil). dacu t 1400 → 'XV. yy sonları' [yalnız yüzyıl] BEYANLI ONERI. | f: 1874 yıl düzeyi (TDV Sudan: ilhak ... İbrâhim öldürüldü (1874)). t: TDV Sudan 'Dârfûr ve Bahrülgazâl Aralık 1883 ve Nisan 1884’te Mehdî kuvvetlerine teslim edildi' (ay düzeyi; atlas 1883-12-23 ay ile uyumlu, gün kaynakta yok). UYARI alan: TDV 'ilhak' diyor; atlas alanı v (tâbi). Tahrir/idareye katma ölçütü: TDV ilhak=Mısır Sudanı'na katıldı; alan sorusu EMRELİC'te (kaynak v/s ayrımını açıkça vermiyor). TDV Dârfûr: 'önceleri Mısır’daki Osmanlı-hidiv idaresine ... bağlı gölge sultanlar' (1874 sonrası). Yerleşimin kendi TDV maddesi yok (tdv-ara boş); ABİ MERKEZ/bölge düzeyi: Dârfûr bölgesi (Fâşir merkezli sultanlık), yerleşime özgü tanıklık değil."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:315",
@@ -175,7 +179,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Tibet» maddesi — https://islamansiklopedisi.org.tr/tibet",
    "alinti": "Phag Mo Gru Pa mezhebi galip geldi ve idarenin başına geçti (1354).",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu tarihliyor (1354, yıl; atlas 1354-01-01 = yalnız yıl). f=1281 atlas ufku; TDV: XIII. yy ikinci yarısında Moğol nüfuzu, Tibet 'doğrudan doğruya Yüan (Kubilay) hânedanı tarafından idare edildi' (gün/yıl yok). Yuan = Çin hanedanı mı Moğol hâkimiyeti mi sorusu ayrı; çelişki yok. Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
+   "not": "KARAR EMRELİC (gece-57): uygun. | Alıntı yalnız t ucunu tarihliyor (1354, yıl; atlas 1354-01-01 = yalnız yıl). f=1281 atlas ufku; TDV: XIII. yy ikinci yarısında Moğol nüfuzu, Tibet 'doğrudan doğruya Yüan (Kubilay) hânedanı tarafından idare edildi' (gün/yıl yok). Yuan = Çin hanedanı mı Moğol hâkimiyeti mi sorusu ayrı; çelişki yok. Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2993",
@@ -188,7 +192,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Tibet» maddesi — https://islamansiklopedisi.org.tr/tibet",
    "alinti": "Phag Mo Gru Pa mezhebi galip geldi ve idarenin başına geçti (1354).",
    "oneri": {},
-   "not": "f: 1354 (yıl düzeyi). TDV: 'Bu dönemde ... dBus bölgesinin Ne’u Gdong şehrini başkent edinen yeni yönetim iktidarda uzun süre kalamadı' — yönetim Phagmodrupa; Şigatse'nin 1565-1642 Tsang hükümdarlarının merkezi olduğu TDV'de yok (BULUNAMADI; Tibet genel d: tibet 1354-1642 ülke düzeyinde tutulabilir). t=1642 TDV'de yok, Treccani'de var (bkz. sıra 169). Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
+   "not": "KARAR EMRELİC (gece-57): uygun. | f: 1354 (yıl düzeyi). TDV: 'Bu dönemde ... dBus bölgesinin Ne’u Gdong şehrini başkent edinen yeni yönetim iktidarda uzun süre kalamadı' — yönetim Phagmodrupa; Şigatse'nin 1565-1642 Tsang hükümdarlarının merkezi olduğu TDV'de yok (BULUNAMADI; Tibet genel d: tibet 1354-1642 ülke düzeyinde tutulabilir). t=1642 TDV'de yok, Treccani'de var (bkz. sıra 169). Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2993",
@@ -201,7 +205,7 @@
    "kaynak": "Treccani, Enciclopedia on line, «Tibet» — https://www.treccani.it/enciclopedia/tibet/",
    "alinti": "nel 1642 il capo mongolo Gushri Khan, che aveva conquistato il paese",
    "oneri": {},
-   "not": "f: 1642 yıl düzeyi (Gushri Han 5. Dalay Lama'ya dünyevî iktidarı devretti). TDV da 'Koşot Moğolları ülkeyi beşinci dalai-lamanın yönetimine bıraktılar' der (yıl yok). t=1720: Treccani 'Una breve conquista zungara (1717-20) portò all’intervento della Cina; ... protettorato mancese (1720- 1912)' -> t 1720 yıl düzeyinde de teyit. Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
+   "not": "KARAR EMRELİC (gece-57): uygun. | f: 1642 yıl düzeyi (Gushri Han 5. Dalay Lama'ya dünyevî iktidarı devretti). TDV da 'Koşot Moğolları ülkeyi beşinci dalai-lamanın yönetimine bıraktılar' der (yıl yok). t=1720: Treccani 'Una breve conquista zungara (1717-20) portò all’intervento della Cina; ... protettorato mancese (1720- 1912)' -> t 1720 yıl düzeyinde de teyit. Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2993",
@@ -214,7 +218,7 @@
    "kaynak": "Treccani, Enciclopedia on line, «Tibet» — https://www.treccani.it/enciclopedia/tibet/",
    "alinti": "l’epoca del protettorato mancese (1720- 1912)",
    "oneri": {},
-   "not": "f: 1720 (yıl) — ayrıca TDV Tibet: '1720’de Ch’ing hânedanı yönetimindeki Çin bölgeyi ele geçirdi ve askerlerini yerleştirerek ülkeyi doğrudan yönetmeye başladı' (tahrir/idareye katma ölçütü: askerî yerleştirme + doğrudan yönetim; Treccani 'protettorato' diyor; TDV 1751 'vasal devlet' diyor — alan s yerine v/protektora kayma sorusu EMRELİC'te, iki kaynak ikisini de yazdım). t: 1912 yıl düzeyi; atlas günü 1912-02-12 kaynakta yok. Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
+   "not": "KARAR EMRELİC (gece-57): uygun. | f: 1720 (yıl) — ayrıca TDV Tibet: '1720’de Ch’ing hânedanı yönetimindeki Çin bölgeyi ele geçirdi ve askerlerini yerleştirerek ülkeyi doğrudan yönetmeye başladı' (tahrir/idareye katma ölçütü: askerî yerleştirme + doğrudan yönetim; Treccani 'protettorato' diyor; TDV 1751 'vasal devlet' diyor — alan s yerine v/protektora kayma sorusu EMRELİC'te, iki kaynak ikisini de yazdım). t: 1912 yıl düzeyi; atlas günü 1912-02-12 kaynakta yok. Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2993",
@@ -227,7 +231,7 @@
    "kaynak": "Treccani, Enciclopedia on line, «Tibet» — https://www.treccani.it/enciclopedia/tibet/",
    "alinti": "dopo la caduta dell’Impero (1912), la guarnigione cinese fu espulsa.",
    "oneri": {},
-   "not": "f: 1912 (yıl; Qing çöküşü sonrası Çin garnizonu kovuldu). t: Treccani 'Nel 1951 la Cina riprese il controllo militare ed economico del T.' (yıl düzeyi, gün TDV 23 Mayıs 1951). UYARI: Treccani Simla 1913-14 anlaşmasının Tibet'i Çin toprağı saydığını (iç/dış bölge) not ediyor -> hukukî statü tartışmalı, fiilî özerklik; TDV ise 'II. Dünya Savaşı sırasında' Çin askerini çıkardılar der (TDV tarihi hatalı/yaklaşık, Treccani 1912 esas alındı; çelişki beyan edildi). Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
+   "not": "KARAR EMRELİC (gece-57): uygun. | f: 1912 (yıl; Qing çöküşü sonrası Çin garnizonu kovuldu). t: Treccani 'Nel 1951 la Cina riprese il controllo militare ed economico del T.' (yıl düzeyi, gün TDV 23 Mayıs 1951). UYARI: Treccani Simla 1913-14 anlaşmasının Tibet'i Çin toprağı saydığını (iç/dış bölge) not ediyor -> hukukî statü tartışmalı, fiilî özerklik; TDV ise 'II. Dünya Savaşı sırasında' Çin askerini çıkardılar der (TDV tarihi hatalı/yaklaşık, Treccani 1912 esas alındı; çelişki beyan edildi). Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2993",
@@ -240,7 +244,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Tibet» maddesi — https://islamansiklopedisi.org.tr/tibet",
    "alinti": "ertesi yıl yerel bir devlet olarak tanıyıp özerklik verdi (23 Mayıs 1951).",
    "oneri": {},
-   "not": "f: 23 Mayıs 1951 gün düzeyi (Onyedi Madde Antlaşması). TDV: 1950 işgal + 'resmen ilhak'; antlaşma günü TEK ÖLÇÜ ile esas. PLA Lhasa'ya girişi (Eylül 1951) bu kaynakta yok. Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
+   "not": "KARAR EMRELİC (gece-57): uygun. | f: 23 Mayıs 1951 gün düzeyi (Onyedi Madde Antlaşması). TDV: 1950 işgal + 'resmen ilhak'; antlaşma günü TEK ÖLÇÜ ile esas. PLA Lhasa'ya girişi (Eylül 1951) bu kaynakta yok. Şigatse'nin kendi TDV maddesi yok (Tibet maddesinde yalnız şehir adı geçer); bölge düzeyi: ÜLKE DÜZEYİ (Tibet), ABİ MERKEZ = Lhasa/Tibet hükûmeti."
   }
  ],
  "Banda Neira": [
@@ -255,7 +259,7 @@
    "kaynak": "Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. ",
    "alinti": "",
    "oneri": {},
-   "not": "Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. TDV Endonezya yalnız XV. yy Maluku için 'Ambon, Banda ... Ternate, Tidor, Gilolo ve Batjan prensliklerinin yönetimindeydiler' diyor (Banda'nın Ternate/Tidore sultanlıklarına bağlı olduğu iddiası; atlas banda-adalari ayrı künye) — çelişki ipucu, tarih yok; kaynak 1621'i vermiyor. Banda Neira'nın TDV maddesi yok; bölge düzeyi (ÜLKE DÜZEYİ: Endonezya/Hollanda Doğu Hint)."
+   "not": "KARAR EMRELİC (gece-57): Hollanda akademik kaynağı aranacak (Hanna 'Indonesian Banda'; Loth; Ricklefs): 1621 Coen fethi, 1796/1810 İngiliz, 1817 iade — Banda'ya özgü günler; Japon 1942–45 isg. Bulunana kadar BULUNAMADI. | Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. TDV Endonezya yalnız XV. yy Maluku için 'Ambon, Banda ... Ternate, Tidor, Gilolo ve Batjan prensliklerinin yönetimindeydiler' diyor (Banda'nın Ternate/Tidore sultanlıklarına bağlı olduğu iddiası; atlas banda-adalari ayrı künye) — çelişki ipucu, tarih yok; kaynak 1621'i vermiyor. Banda Neira'nın TDV maddesi yok; bölge düzeyi (ÜLKE DÜZEYİ: Endonezya/Hollanda Doğu Hint)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4253",
@@ -268,7 +272,7 @@
    "kaynak": "Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. ",
    "alinti": "",
    "oneri": {},
-   "not": "Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. Hollanda'nın Banda'yı ele geçirişi (1621) bu kaynaklarda yok. Bilgi sahibi olduğum ipucu (Coen, Banda katliamı 1621) kaynaklı değil, KAYNAKLI sayılmadı. Banda Neira'nın TDV maddesi yok; bölge düzeyi (ÜLKE DÜZEYİ: Endonezya/Hollanda Doğu Hint)."
+   "not": "KARAR EMRELİC (gece-57): Hollanda akademik kaynağı aranacak (Hanna 'Indonesian Banda'; Loth; Ricklefs): 1621 Coen fethi, 1796/1810 İngiliz, 1817 iade — Banda'ya özgü günler; Japon 1942–45 isg. Bulunana kadar BULUNAMADI. | Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. Hollanda'nın Banda'yı ele geçirişi (1621) bu kaynaklarda yok. Bilgi sahibi olduğum ipucu (Coen, Banda katliamı 1621) kaynaklı değil, KAYNAKLI sayılmadı. Banda Neira'nın TDV maddesi yok; bölge düzeyi (ÜLKE DÜZEYİ: Endonezya/Hollanda Doğu Hint)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4253",
@@ -281,7 +285,7 @@
    "kaynak": "Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. ",
    "alinti": "",
    "oneri": {},
-   "not": "Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. TDV Endonezya yalnız Palembang bağlamında 'geçici İngiliz idaresinin (1811-1816)' diyor (Java/Sumatra düzeyi, Banda'ya özgü değil, atlas 1810-08-09/1817-03-25 ile uyumsuz uçlar: 1811 vs 1810, 1816 vs 1817). Banda'ya özgü gün bulunamadı. Banda Neira'nın TDV maddesi yok; bölge düzeyi (ÜLKE DÜZEYİ: Endonezya/Hollanda Doğu Hint)."
+   "not": "KARAR EMRELİC (gece-57): Hollanda akademik kaynağı aranacak (Hanna 'Indonesian Banda'; Loth; Ricklefs): 1621 Coen fethi, 1796/1810 İngiliz, 1817 iade — Banda'ya özgü günler; Japon 1942–45 isg. Bulunana kadar BULUNAMADI. | Bakılan yerler: TDV Endonezya (Banda'ya özgü 1621/1810/1817 yok); Treccani Indonesia (Banda yalnız coğrafya); Britannica 403/web.archive boş; encyclopedia.com 404. TDV Endonezya yalnız Palembang bağlamında 'geçici İngiliz idaresinin (1811-1816)' diyor (Java/Sumatra düzeyi, Banda'ya özgü değil, atlas 1810-08-09/1817-03-25 ile uyumsuz uçlar: 1811 vs 1810, 1816 vs 1817). Banda'ya özgü gün bulunamadı. Banda Neira'nın TDV maddesi yok; bölge düzeyi (ÜLKE DÜZEYİ: Endonezya/Hollanda Doğu Hint)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4253",
@@ -296,7 +300,7 @@
    "oneri": {
     "f": "1816"
    },
-   "not": "f ucu: TDV ülke düzeyinde 1816 (yıl) der; atlas Banda f=1817-03-25 (gün kaynaksız; Banda'ya özgü teslim günü bulunamadı) — TEK ÖLÇÜ: teslim günü esas, günü bulamadım; 1816 yalnız ülke düzeyi, Banda 1817 olabilir. t ucu: 'Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu' (1942, yıl/ay: Mart 1942 Cakarta; atlas 1942-03-09 Java teslimi, TDV'de gün yok). Banda Neira'nın TDV maddesi yok; bölge düzeyi (ÜLKE DÜZEYİ: Endonezya/Hollanda Doğu Hint)."
+   "not": "KARAR EMRELİC (gece-57): Hollanda akademik kaynağı aranacak (Hanna 'Indonesian Banda'; Loth; Ricklefs): 1621 Coen fethi, 1796/1810 İngiliz, 1817 iade — Banda'ya özgü günler; Japon 1942–45 isg. Bulunana kadar BULUNAMADI. | f ucu: TDV ülke düzeyinde 1816 (yıl) der; atlas Banda f=1817-03-25 (gün kaynaksız; Banda'ya özgü teslim günü bulunamadı) — TEK ÖLÇÜ: teslim günü esas, günü bulamadım; 1816 yalnız ülke düzeyi, Banda 1817 olabilir. t ucu: 'Endonezya adalarının Japonlar tarafından işgal edilmesiyle Hollanda sömürge idaresi son buldu' (1942, yıl/ay: Mart 1942 Cakarta; atlas 1942-03-09 Java teslimi, TDV'de gün yok). Banda Neira'nın TDV maddesi yok; bölge düzeyi (ÜLKE DÜZEYİ: Endonezya/Hollanda Doğu Hint)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4253",
@@ -339,7 +343,7 @@
    "oneri": {
     "t": "1484"
    },
-   "not": "ÇELİŞKİ: IG Bariya maddesi, Çauhan Racputları 'about the year 1244' Çampâner şehir ve kalesini aldı ve 1484'te Mahmûd Begara'ya yenilene kadar orada hüküm sürdü. Atlas racput 1281-1304 sonra delhi-sultanligi 1304-1484 yazıyor; IG racput'u 1484'e kadar sürdürüyor (Racput t 1304 -> 1484; 1304-1484 Delhi dilimi yanlış olabilir, hedef dışı satır). Alıntı yalnız t ucunu tarihliyor; f=1281 atlas ufku (IG: ~1244 yıl düzeyi, 'about'). Gucerat Sultanlığı'nın (Muzaffarî) bağımsızlığı 1407 civarı Delhi bağını koparır; bu IG'den okunmadı (yorum). Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
+   "not": "KARAR EMRELİC (gece-57): IGI ipucu → ONERI; modern teyit (Mîrât-ı Sikenderî neşri ya da TDV 'Gücerât Sultanlığı'). | ÇELİŞKİ: IG Bariya maddesi, Çauhan Racputları 'about the year 1244' Çampâner şehir ve kalesini aldı ve 1484'te Mahmûd Begara'ya yenilene kadar orada hüküm sürdü. Atlas racput 1281-1304 sonra delhi-sultanligi 1304-1484 yazıyor; IG racput'u 1484'e kadar sürdürüyor (Racput t 1304 -> 1484; 1304-1484 Delhi dilimi yanlış olabilir, hedef dışı satır). Alıntı yalnız t ucunu tarihliyor; f=1281 atlas ufku (IG: ~1244 yıl düzeyi, 'about'). Gucerat Sultanlığı'nın (Muzaffarî) bağımsızlığı 1407 civarı Delhi bağını koparır; bu IG'den okunmadı (yorum). Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:815",
@@ -352,7 +356,7 @@
    "kaynak": "Imperial Gazetteer of India, Oxford 1908, cilt VII (archive.org dli.ernet.16982, ia-oku ham metin), «Bariya» maddesi",
    "alinti": "ruled till defeated by MahmQd Begara in 1484",
    "oneri": {},
-   "not": "IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | f: 1484 yıl düzeyi (Mahmûd Begara'nın Çampâner'i Çauhanlar'dan alışı; gün yok). Atlas f=1484-01-01 = yalnız yıl. t=1573-02-26: TDV Gucerât 'Ekber Kasım 1572’de Gucerât’a vardı' ve eyalet yapıldı (Çampâner'e özgü gün yok; Ahmedâbâd'ın 26 Şubat 1573 düşüşü bu kaynakta okunmadı). Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
+   "not": "KARAR EMRELİC (gece-57): IGI ipucu → ONERI; modern teyit (Mîrât-ı Sikenderî neşri ya da TDV 'Gücerât Sultanlığı'). | IGI ipucu (EMRELİC gece-55: Imperial Gazetteer 1907-09 EB1911 sınıfı, tek başına KAYNAKLI vermez; modern akademik teyit gerek) — KAYNAKLI'dan indirildi. | f: 1484 yıl düzeyi (Mahmûd Begara'nın Çampâner'i Çauhanlar'dan alışı; gün yok). Atlas f=1484-01-01 = yalnız yıl. t=1573-02-26: TDV Gucerât 'Ekber Kasım 1572’de Gucerât’a vardı' ve eyalet yapıldı (Çampâner'e özgü gün yok; Ahmedâbâd'ın 26 Şubat 1573 düşüşü bu kaynakta okunmadı). Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:815",
@@ -365,7 +369,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât» maddesi — https://islamansiklopedisi.org.tr/gucerat",
    "alinti": "Ekber Kasım 1572’de Gucerât’a vardı.",
    "oneri": {},
-   "not": "f ucu: TDV bölge düzeyinde 'Ekber Kasım 1572’de Gucerât’a vardı ... Gucerât Bâbürlü Devleti’nin bir eyaleti haline getirildi' (ay düzeyi, fetih günü yok). Atlas 1573-02-26 ile çelişmiyor, teyit de etmiyor (gün kaynaksız). t=1753: TDV 'Ahmedâbâd 1758’de Maratalar’ca işgal edilince Gucerât’taki Bâbürlü hâkimiyeti sona ermiş oldu' (Gucerât düzeyi 1758, atlas Çampâner 1753-04-01: IG Bariya/Maratha: 1725'te Pilaji Gaekwad 'Baroda, Nandod, Champaner, Broach, Surat' üzerinde hak/tribut iddiası kurdu — tribut, idareye katma değil; ÖLÇÜT: kaynak susuyor). Çelişki: Maratha dönemi 1725 (iddia) / 1753 (atlas) / 1758 (TDV, Ahmedâbâd) — seçmedim. Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
+   "not": "KARAR EMRELİC (gece-57): IGI ipucu → ONERI; modern teyit (Mîrât-ı Sikenderî neşri ya da TDV 'Gücerât Sultanlığı'). | f ucu: TDV bölge düzeyinde 'Ekber Kasım 1572’de Gucerât’a vardı ... Gucerât Bâbürlü Devleti’nin bir eyaleti haline getirildi' (ay düzeyi, fetih günü yok). Atlas 1573-02-26 ile çelişmiyor, teyit de etmiyor (gün kaynaksız). t=1753: TDV 'Ahmedâbâd 1758’de Maratalar’ca işgal edilince Gucerât’taki Bâbürlü hâkimiyeti sona ermiş oldu' (Gucerât düzeyi 1758, atlas Çampâner 1753-04-01: IG Bariya/Maratha: 1725'te Pilaji Gaekwad 'Baroda, Nandod, Champaner, Broach, Surat' üzerinde hak/tribut iddiası kurdu — tribut, idareye katma değil; ÖLÇÜT: kaynak susuyor). Çelişki: Maratha dönemi 1725 (iddia) / 1753 (atlas) / 1758 (TDV, Ahmedâbâd) — seçmedim. Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:815",
@@ -380,7 +384,7 @@
    "oneri": {
     "f": "1758 (Gucerât/Ahmedâbâd düzeyi; Çampâner'e özgü değil)"
    },
-   "not": "Bkz. 158: f ucu için bölge düzeyi 1758 (TDV) ile atlas 1753-04-01 farklı; Çampâner'e özgü tanıklık yok. t=1818: TDV 'Maratalar şehri 1817’ye k[adar]' (Ahmedâbâd, metin kesik okundu) — Marata egemenliğinin bölgede 1817'ye dek sürdüğünü gösterir (atlas t 1818-01-01 ile 1 yıl farkı, ülke düzeyi). IG: Bariya devletinin İngiltere ile bağı 1803'ten (Çampâner Panch Mahals'ta Sindhia/Marata elinden İngiltere'ye geçiş günü bulunamadı). Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
+   "not": "KARAR EMRELİC (gece-57): IGI ipucu → ONERI; modern teyit (Mîrât-ı Sikenderî neşri ya da TDV 'Gücerât Sultanlığı'). | Bkz. 158: f ucu için bölge düzeyi 1758 (TDV) ile atlas 1753-04-01 farklı; Çampâner'e özgü tanıklık yok. t=1818: TDV 'Maratalar şehri 1817’ye k[adar]' (Ahmedâbâd, metin kesik okundu) — Marata egemenliğinin bölgede 1817'ye dek sürdüğünü gösterir (atlas t 1818-01-01 ile 1 yıl farkı, ülke düzeyi). IG: Bariya devletinin İngiltere ile bağı 1803'ten (Çampâner Panch Mahals'ta Sindhia/Marata elinden İngiltere'ye geçiş günü bulunamadı). Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:815",
@@ -393,7 +397,7 @@
    "kaynak": "TDV Gucerât; IG cilt VII (Bariya); IG cilt XX (Panch Mahals/Pavagarh bulunamadı); TDV tdv-ara (Çampaner, boş)",
    "alinti": "",
    "oneri": {},
-   "not": "Bakılan yerler: TDV Gucerât (Marata 1817'ye k..., sonrası kesik/İngiliz geçişi yok), IG VII Bariya (İngiliz bağı 1803), IG XX 'Pavagarh/Panch Mahals' anahtarları OCR'da bulunamadı. Çampâner/Panch Mahals'ın Marata'dan (Sindhia) İngiltere'ye geçişi (1853'te Panch Mahals oluşumu, kaynaksız bilgi) kaynakla okunmadı. t=1947-08-15: IG kapsam dışı (1908). Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
+   "not": "KARAR EMRELİC (gece-57): IGI ipucu → ONERI; modern teyit (Mîrât-ı Sikenderî neşri ya da TDV 'Gücerât Sultanlığı'). | Bakılan yerler: TDV Gucerât (Marata 1817'ye k..., sonrası kesik/İngiliz geçişi yok), IG VII Bariya (İngiliz bağı 1803), IG XX 'Pavagarh/Panch Mahals' anahtarları OCR'da bulunamadı. Çampâner/Panch Mahals'ın Marata'dan (Sindhia) İngiltere'ye geçişi (1853'te Panch Mahals oluşumu, kaynaksız bilgi) kaynakla okunmadı. t=1947-08-15: IG kapsam dışı (1908). Çampâner'in TDV maddesi yok; bölge düzeyi (Gucerât) + IG Bariya maddesi (Çampâner'in Çauhan hanedanı)."
   }
  ],
  "Benâres (Vârânasî)": [
@@ -501,7 +505,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Bûne» maddesi — https://islamansiklopedisi.org.tr/bune",
    "alinti": "1830’da Cezayir’i işgal eden Fransızlar iki yıl sonra da Bûne’yi ele geçirdiler",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu tarihliyor: Fransızlar Bûne'yi 1832'de ele geçirdi (yıl; atlas 1832-03-01 gün kaynaksız). f=1830-07-05 Cezayir şehrinin düşüşüdür (TDV Cezayir), Bûne'ye özgü değil. TDV Bûne Konstantin Beyliği'nden hiç söz etmiyor; TDV: Bûne 1832'ye kadar Osmanlı dönemi devam etti -> 1830-1832 arası konstantin-beyligi/v mi, Osmanlı d mi? Kaynak 1830-32 için ayrı bir sahip belirtmiyor (TDV Cezayir: Kostantîne Emîri Ahmed Bey Konstantin'i 13 Ekim 1837'ye dek elinde tuttu; Bûne'nin ona bağlı olduğu yazılmıyor). Seçmedim."
+   "not": "KARAR EMRELİC (gece-57): Fransız 1832 (TDV Bûne; 1832-03-27 Armandy, günü kaynakla); 1830-08 kısa Fransız işgali isg; 1830–32 Konstantin beyliği d: osmanli. Cezayir bağımsızlığı 1962-07-03 (Fransa'nın tanıması, TEK ÖLÇÜ); referandum 07-01 ve ilan 07-05 ic_not. | Alıntı yalnız t ucunu tarihliyor: Fransızlar Bûne'yi 1832'de ele geçirdi (yıl; atlas 1832-03-01 gün kaynaksız). f=1830-07-05 Cezayir şehrinin düşüşüdür (TDV Cezayir), Bûne'ye özgü değil. TDV Bûne Konstantin Beyliği'nden hiç söz etmiyor; TDV: Bûne 1832'ye kadar Osmanlı dönemi devam etti -> 1830-1832 arası konstantin-beyligi/v mi, Osmanlı d mi? Kaynak 1830-32 için ayrı bir sahip belirtmiyor (TDV Cezayir: Kostantîne Emîri Ahmed Bey Konstantin'i 13 Ekim 1837'ye dek elinde tuttu; Bûne'nin ona bağlı olduğu yazılmıyor). Seçmedim."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1155",
@@ -514,7 +518,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir» maddesi — https://islamansiklopedisi.org.tr/cezayir",
    "alinti": "1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı",
    "oneri": {},
-   "not": "ÇELİŞKİ: atlas f=1962-07-05 (bağımsızlık ilanı/Fransa devri günü). TDV Cezayir bağımsızlığı 1 Temmuz 1962 referandumuna ve sonrasındaki 'bağımsızlığın ilân edilmesi'ne bağlar; 5 Temmuz günü bu maddede YOK, ilan günü verilmemiş. 18 Mart 1962 Evian. Gün seçmedim; 5 Temmuz için ayrı kaynak (Fransız/BM) gerek."
+   "not": "KARAR EMRELİC (gece-57): Fransız 1832 (TDV Bûne; 1832-03-27 Armandy, günü kaynakla); 1830-08 kısa Fransız işgali isg; 1830–32 Konstantin beyliği d: osmanli. Cezayir bağımsızlığı 1962-07-03 (Fransa'nın tanıması, TEK ÖLÇÜ); referandum 07-01 ve ilan 07-05 ic_not. | ÇELİŞKİ: atlas f=1962-07-05 (bağımsızlık ilanı/Fransa devri günü). TDV Cezayir bağımsızlığı 1 Temmuz 1962 referandumuna ve sonrasındaki 'bağımsızlığın ilân edilmesi'ne bağlar; 5 Temmuz günü bu maddede YOK, ilan günü verilmemiş. 18 Mart 1962 Evian. Gün seçmedim; 5 Temmuz için ayrı kaynak (Fransız/BM) gerek."
   }
  ],
  "Bern": [
@@ -542,7 +546,7 @@
    "kaynak": "Treccani, Enciclopedia on line, «Berna» — https://www.treccani.it/enciclopedia/berna/",
    "alinti": "alleata dei cosiddetti cantoni forestali (1353)",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu tarihliyor (1353 yıl; Orman kantonlarıyla ittifak). f=1281 atlas ufku: Treccani 'Alla fine del sec. 13° B., acquistata piena autonomia' (XIII. yy sonu, yıl yok) — Bern fiilen özerk, Reich'a bağlılık hukukî: sahip 'almanya' ağır; ÖLÇÜT: kaynak susuyor. Dönem içeriği olarak almanya (Reich'a doğrudan bağlı şehir, 1218) çelişmiyor."
+   "not": "KARAR EMRELİC (gece-57): 1803-02-19 Arabuluculuk Senedi imzası kalır; yürürlük 03-10 ve Treccani 1802 (Stecklikrieg) ic_not. | Alıntı yalnız t ucunu tarihliyor (1353 yıl; Orman kantonlarıyla ittifak). f=1281 atlas ufku: Treccani 'Alla fine del sec. 13° B., acquistata piena autonomia' (XIII. yy sonu, yıl yok) — Bern fiilen özerk, Reich'a bağlılık hukukî: sahip 'almanya' ağır; ÖLÇÜT: kaynak susuyor. Dönem içeriği olarak almanya (Reich'a doğrudan bağlı şehir, 1218) çelişmiyor."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:462",
@@ -596,7 +600,7 @@
    "kaynak": "Danmarkshistorien/lex.dk, «Ribebrevet, 5. marts 1460» (Bjørn Poulsen, Aarhus Üniv.) — https://danmarkshistorien.lex.dk/Ribebrevet,_5._marts_1460",
    "alinti": "Hertugdømmet Slesvig og grevskabet Holsten var fra 1435 forenet under hertug Adolf 8.",
    "oneri": {},
-   "not": "Alıntı yalnız t ucunu (1460, Ribebrevet 5 Mart; seçim 2 Mart) çevreliyor; f=1281 atlas ufku. SAHİPLİK SORUSU: Danmarkshistorien Schleswig'i Danimarka'nın leni sayıyor ('Christian 1. havde lensret til hertugdømmet Slesvig') ama dükalık kendi hükümdarı altında; lex.dk Aabenraa: 1335'te imtiyazı 'hertug Valdemar 5.' verdi, 1404'te Margrete 1. Aabenraa Slot'u rehin aldı (Danimarka tacı etkili). 1281-1460 boyunca 'danimarka' vs Schleswig dükalığı ayrımı kaynakla çözülemedi; seçmedim."
+   "not": "KARAR EMRELİC (gece-57): uygun. | Alıntı yalnız t ucunu (1460, Ribebrevet 5 Mart; seçim 2 Mart) çevreliyor; f=1281 atlas ufku. SAHİPLİK SORUSU: Danmarkshistorien Schleswig'i Danimarka'nın leni sayıyor ('Christian 1. havde lensret til hertugdømmet Slesvig') ama dükalık kendi hükümdarı altında; lex.dk Aabenraa: 1335'te imtiyazı 'hertug Valdemar 5.' verdi, 1404'te Margrete 1. Aabenraa Slot'u rehin aldı (Danimarka tacı etkili). 1281-1460 boyunca 'danimarka' vs Schleswig dükalığı ayrımı kaynakla çözülemedi; seçmedim."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:338",
@@ -609,7 +613,7 @@
    "kaynak": "Danmarkshistorien/lex.dk, «Ribebrevet, 5. marts 1460» (Bjørn Poulsen, Aarhus Üniv.) — https://danmarkshistorien.lex.dk/Ribebrevet,_5._marts_1460",
    "alinti": "fra 1460 og frem til 1864 regerede som fyrste i Slesvig og Holsten",
    "oneri": {},
-   "not": "f: 5 Mart 1460 (mektup tarihi 'Datering 05.03.1460'; 2 Mart 1460 Ribe'de hükümdar ilanı — atlas 5 Mart ile uyumlu). t: 1864 yıl düzeyi (atlas 1864-10-30 Viyana Antlaşması günü bu kaynakta yok). lex.dk Aabenraa ek: 'Byen tilhørte 1544-1721 den gottorpske del af Slesvig' (Gottorp bölüşümü; Aabenraa dükalığın Gottorp payında)."
+   "not": "KARAR EMRELİC (gece-57): uygun. | f: 5 Mart 1460 (mektup tarihi 'Datering 05.03.1460'; 2 Mart 1460 Ribe'de hükümdar ilanı — atlas 5 Mart ile uyumlu). t: 1864 yıl düzeyi (atlas 1864-10-30 Viyana Antlaşması günü bu kaynakta yok). lex.dk Aabenraa ek: 'Byen tilhørte 1544-1721 den gottorpske del af Slesvig' (Gottorp bölüşümü; Aabenraa dükalığın Gottorp payında)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:338",
@@ -622,7 +626,7 @@
    "kaynak": "Den Store Danske / lex.dk, «Aabenraa» (Nationalmuseet yazarları: Askgaard, Worsøe, Kjær) — https://lex.dk/Aabenraa",
    "alinti": "Da byen 1864-1920 var under preussisk styre",
    "oneri": {},
-   "not": "f: 1864, t: 1920 (yıl düzeyi; Aabenraa Prusya yönetimi). t günü: lex.dk Genforeningen 'overdragelse ... underskrevet i Paris 5. juli 1920 med virkning fra 15. juni samme år' (imza 5 Temmuz, yürürlük/teslim 15 Haziran; atlas t=1920-06-15 teslim günüyle uyumlu). f günü 1864-10-30 bu kaynaklarda yok; 1864-67 Prusya-Avusturya ortak yönetim/Schleswig'in Prusya idaresi ayrımı (Gastein 1865) kaynakta okunmadı."
+   "not": "KARAR EMRELİC (gece-57): uygun. | f: 1864, t: 1920 (yıl düzeyi; Aabenraa Prusya yönetimi). t günü: lex.dk Genforeningen 'overdragelse ... underskrevet i Paris 5. juli 1920 med virkning fra 15. juni samme år' (imza 5 Temmuz, yürürlük/teslim 15 Haziran; atlas t=1920-06-15 teslim günüyle uyumlu). f günü 1864-10-30 bu kaynaklarda yok; 1864-67 Prusya-Avusturya ortak yönetim/Schleswig'in Prusya idaresi ayrımı (Gastein 1865) kaynakta okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:338",
@@ -635,7 +639,7 @@
    "kaynak": "lex.dk, «Genforeningen» — https://lex.dk/Genforeningen",
    "alinti": "underskrevet i Paris 5. juli 1920 med virkning fra 15. juni samme år",
    "oneri": {},
-   "not": "f: devir 15 Haziran 1920 'virkning fra' (fiilî devir/teslim); imza Paris 5 Temmuz 1920; genforening 9 Temmuz 1920 (lex.dk). TEK ÖLÇÜ: Danimarka toprağı henüz yönetmiyordu -> teslim günü (15 Haziran) esas, imza 5 Temmuz ve yürürlük `ic_not`'a."
+   "not": "KARAR EMRELİC (gece-57): uygun. | f: devir 15 Haziran 1920 'virkning fra' (fiilî devir/teslim); imza Paris 5 Temmuz 1920; genforening 9 Temmuz 1920 (lex.dk). TEK ÖLÇÜ: Danimarka toprağı henüz yönetmiyordu -> teslim günü (15 Haziran) esas, imza 5 Temmuz ve yürürlük `ic_not`'a."
   }
  ]
 }
