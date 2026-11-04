@@ -13,7 +13,10 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from kronoloji_takvim_tarama import BRITANYA, RUSYA, gun as _gun
 
 # Takvim kanadı kaynakla belirlenmiş (Gregoryen olduğu bilinen) satırlar — uyarı düşmez
-TAKVIM_TEMIZ = set()
+TAKVIM_TEMIZ = {
+    "L2-227",  # Tender of Union: archontology «4/14 Feb 1652» iki günü veriyor → 02-14 Gregoryen (KASA PAZAR d74d5acc2)
+    "L2-346",  # Gimry: atlas 1832-10-29 = Jülyen 17 Ekim + 12, zaten Gregoryen (KASA PAZAR)
+}
 
 
 def takvim_kanadi(r):
