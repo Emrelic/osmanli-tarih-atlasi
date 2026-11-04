@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAPAY-d 2, YAPAY-m 28. Güven: KAYNAK-GEREK 40, KAYNAKLI 24, OLCUM 36.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAPAY-d 2, YAPAY-m 28. Güven: KAYNAK-GEREK 35, KAYNAKLI 29, OLCUM 36.
 
 ## Kara eksklavları
 
@@ -235,10 +235,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1918-11-11 · komşu: sirbistan-kralligi 62%
 - Koridor: 24.8 km · sirbistan-kralligi 9/9
 - İçindeki yerleşimler: Bosna Brod'u (Bosanski Brod) (yugoslavya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Bosanski Brod 1918-11-11 → 12-01 'yugoslavya' (Sloven-Hırvat-Sırp Devleti), çevre 'sirbistan-kralligi' %62: Bosna 29 Ekim 1918'den SHS Devleti'ndeydi, Sırbistan Krallığı değil.
   - Düzeltme önerisi: Bosna noktaları 1918-10-29 → yugoslavya (SHS Devleti), 1918-12-01 → SHS Krallığı.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Hrvatska enciklopedija, 'Država Slovenaca, Hrvata i Srba', https://www.enciklopedija.hr/clanak/drzava-slovenaca-hrvata-i-srba — 'od … zaključaka Hrvatskoga sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918.'; Dalmacija, Bosna i Hercegovina Narodno vijeće'nin alanında (KOVALAR N11 kova kaynağı)
 
 ### K626 · burhaneddin · 1393-06-01 → 1398-07-01 · 2.609 km²
 
@@ -395,10 +395,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1359-01-01 · komşu: bulgar-carligi 44%, dobruca-despotlugu 29%
 - Koridor: 43.2 km · dobruca-despotlugu 9/9
 - İçindeki yerleşimler: Mangalya (Mangalia) (bulgaristan)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Mangalya 1359-1393 'bulgaristan', çevre Bulgar çarlığı/Dobruca despotluğu: Mangalya Dobruca despotluğunun (Dobrotiç) kıyı şehriydi; 'bulgaristan' kalıntısı şüpheli.
   - Düzeltme önerisi: Mangalya 1359-1388 dobruca-despotlugu (kaynakla).
-  - Kaynak: TDV'de madde yok (arama/mangalya) — bulunamadı
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/varna — Dobruca prensliği 1369'dan (başşehir Varna); Mangalya için ABİ MERKEZ: Varna/Dobruca — BEYANLI YAKLAŞIKLIK
 
 ### K642 · ingiltere · 1895-06-16 → 1923-10-29 · 2.185 km²
 
@@ -425,10 +425,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1918-11-11 · komşu: avusturya 33%, sirbistan-kralligi 30%
 - Koridor: 61.2 km · avusturya 4/9, sirbistan-kralligi 4/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: Sin (Sinj) (yugoslavya); Solin (sahipsiz); Klis (yugoslavya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Sinj-Klis 1918-11-11 → 12-01 'yugoslavya' (SHS Devleti), komşu 'avusturya' %33: Dalmaçya noktaları Kasım 1918'de hâlâ Avusturya — K625 ailesi. Solin sahipsiz.
   - Düzeltme önerisi: Dalmaçya noktaları 1918-10-29 → yugoslavya (SHS Devleti); İtalyan işgal bölgesi ayrıca.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Hrvatska enciklopedija, 'Država Slovenaca, Hrvata i Srba', https://www.enciklopedija.hr/clanak/drzava-slovenaca-hrvata-i-srba — 'od … zaključaka Hrvatskoga sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918.'; Dalmacija, Bosna i Hercegovina Narodno vijeće'nin alanında (KOVALAR N11 kova kaynağı)
 
 ### K645 · sirbistan-nedic · 1941-08-29 → 1944-10-06 · 2.118 km²
 
@@ -535,10 +535,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1918-11-11 · komşu: sirbistan-kralligi 41%, avusturya 0%
 - Koridor: 33.9 km · sirbistan-kralligi 9/9
 - İçindeki yerleşimler: Dubrovnik (yugoslavya); Ston (yugoslavya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Dubrovnik-Ston 1918-11-11 → 12-01 'yugoslavya' (SHS Devleti), çevre 'sirbistan-kralligi' %41: K625/K644 ailesi.
   - Düzeltme önerisi: K625 ile aynı.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Hrvatska enciklopedija, 'Država Slovenaca, Hrvata i Srba', https://www.enciklopedija.hr/clanak/drzava-slovenaca-hrvata-i-srba — 'od … zaključaka Hrvatskoga sabora 29. X. 1918. do proglašenja Kraljevstva Srba, Hrvata i Slovenaca u Beogradu 1. XII. 1918.'; Dalmacija, Bosna i Hercegovina Narodno vijeće'nin alanında (KOVALAR N11 kova kaynağı)
 
 ### K656 · OSMANLI · 1916-03-08 → 1918-03-02 · 1.953 km²
 
@@ -605,10 +605,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 7, GERCEK 32, YAPAY-a 4, YAPAY-c 27, YAP
 - En büyük kesit: 1337-09-09 · komşu: eretna 66%
 - Koridor: 54.7 km · eretna 6/9, cemisgezek-beyligi 3/9
 - İçindeki yerleşimler: Kelkit (ilhanli)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Kelkit 1335-1348 'ilhanli', çevre Eretna %66: İlhanlı sonrası kukla han dönemi — KOVALAR F ailesi.
-  - Düzeltme önerisi: KOVALAR F kararına bağlansın.
-  - Kaynak: TDV'de Kelkit maddesi yok — KOVALAR F (ILHANLI.md)
+  - Düzeltme önerisi: Kelkit 1335-1348 eretna (Erzincan-Şebinkarahisar arası; ABİ bölge: Eretna Erzincan'ı).
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/eretnaogullari — Eretna ölümünde (1352) '… Erzincan, Doğu Karahisar ve Dârende hâkimiyetindeydi' (alıntı ENKLAV-1103/ILHANLI.md'de; kova düzeyi) — BEYANLI YAKLAŞIKLIK
 
 ### K663 · portekiz · 1914-06-25 → 1942-02-24 · 1.844 km²
 

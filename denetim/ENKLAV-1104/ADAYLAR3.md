@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 13, YAPAY-b 2, YAPAY-c 35, YAPAY-d 2, YAPAY-k 10, YAPAY-m 3. Güven: KAYNAK-GEREK 29, KAYNAKLI 5, OLCUM 66.
+Hükümlü: 100 / 100. Kova: GERCEK 37, YAPAY-a 13, YAPAY-b 2, YAPAY-c 33, YAPAY-d 2, YAPAY-k 10, YAPAY-m 3. Güven: KAYNAK-GEREK 23, KAYNAKLI 11, OLCUM 66.
 
 ## Kara eksklavları
 
@@ -115,20 +115,20 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 13, YAPAY-b 2, YAPAY-c 35, YAPAY
 - En büyük kesit: 1436-01-01 · komşu: karakoyunlu 30%, trabzon-rum 17%, dulkadir 16%
 - Koridor: 28.2 km · karakoyunlu 9/9
 - İçindeki yerleşimler: Çemişgezek (akkoyunlu); Tunceli (Kalan) (sahipsiz); Hozat (sahipsiz); Kiğı (akkoyunlu); Kemah (akkoyunlu); Erzincan (akkoyunlu); Refahiye (akkoyunlu); Kelkit (akkoyunlu) … +2
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Akkoyunlu Erzincan-Kemah-Bayburt-Şebinkarahisar payı 1436-1465, Diyarbakır gövdesinden Karakoyunlu Çapakçur (Bingöl) ile ayrı (koridor 28 km 9/9). Kara Yülük oğullarının Erzincan kolu bilinir; Bingöl'ün Karakoyunlu olup olmadığı kaynakla.
   - Düzeltme önerisi: Çapakçur 1436-1465 sahibi kaynakla (TDV Akkoyunlular).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/bayburt — Kara Yûsuf'un zaptından sonra 'Akkoyunlu Karayülük Osman Bey bu bölgeyi yeniden ele geçirdi … uzun süre Akkoyunlular'ın elinde kal[dı]' (1501'e dek)
 
 ### K213 · tekrur · 1861-01-01 → 1861-03-10 · 33.035 km²
 
 - En büyük kesit: 1861-01-01 · komşu: bambara 41%, massina 18%, mossi-vagadugu 11%
 - Koridor: 492.3 km · bambara 9/9
 - İçindeki yerleşimler: Cenne (Djenné) (tekrur)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Cenne (Djenné) 1861-01-01 → 03-10 'tekrur' (Hacı Ömer), çevre Bambara (Segu). Hacı Ömer Segu'yu 10 Mart 1861'de aldı; Cenne Masina'nındı ve Ömer'e 1862'de geçti. Cenne'nin 1861 başında Tekrur yazılması yanlış ve yıl hassasiyetli.
   - Düzeltme önerisi: Cenne tekrur f → 1862 (Masina'nın düşüşü, kaynakla); önce massina.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/cenne — 'Cenne 1861'de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi; 1893'te ise Fransız kuvvetlerince işgal edil[di]' (tekrur kimliği Hacı Ömer devletiyse veri yıl düzeyinde doğru; 03-10 bitişi KAYNAK-GEREK)
 
 ### K214 · sovyet-rusya · 1917-11-07 → 2000-12-31 · 33.011 km²
 
@@ -275,30 +275,30 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 13, YAPAY-b 2, YAPAY-c 35, YAPAY
 - En büyük kesit: 1348-01-01 · komşu: celayirli 41%, lur-i-buzurg 28%, incu 20%
 - Koridor: 348.0 km · celayirli 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Luristan (ilhanli); Burûcird (ilhanli); Nihâvend (ilhanli)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Luristan, Burûcird, Nihâvend 1340-1353 'ilhanli'. İlhanlı devleti 1335'te dağıldı; 1340 sonrası kukla hanlar Çobanoğulları/Celâyirlilerin elindeydi. Luristan Lur-i Küçek atabeylerinindi (komşu lur-i-buzurg 28%). 13 yıllık İlhanlı eksklavı kimlik uzatmasından.
-  - Düzeltme önerisi: Luristan/Burûcird 1340-1353 sahibi (lur-i-kucek atabeyliği) kaynakla (Iranica 'Lur-e Kučak').
-  - Kaynak: veri ölçümü
+  - Düzeltme önerisi: Burûcird-Hürremâbâd 1340-1353 lur-i-kucek (Şücâüddin Mahmûd, 1349'da öldü).
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/lur-i-kucek — Hürremâbâd merkezli atabeglik; Şücâüddin Mahmûd 750/1349'da öldürüldü (alıntı ENKLAV-1103/ILHANLI.md'de; kova düzeyi)
 
 ### K231 · merini · 1237-01-01 → 1245-01-01 · 30.669 km²
 
 - En büyük kesit: 1237-01-01 · komşu: muvahhidler 51%
 - Koridor: 48.0 km · muvahhidler 9/9
 - İçindeki yerleşimler: Hunayfire (Khenifra) (sahipsiz); Miknâs (Meknes) (merini); Velîlâ (Oualili) (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Miknâs 1237-1245 'merini', çevre Muvahhid. Merînîler Miknâs'ı 1244-45'te geçici aldı, Fas'ı 1248'de; 1237 başlangıcı erken. Hunayfire, Velîlâ sahipsiz.
-  - Düzeltme önerisi: Miknâs merini f → 1244/45 (kaynakla, TDV Merînîler).
-  - Kaynak: veri ölçümü
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Miknâs 1237-1245 Merînî, Muvahhid toprağı ortasında: TDV veriyi doğruluyor — 634/1237 Merînîler aldı, Muvahhidler 643/1245-46'da geri aldı (önceki YAPAY-c hükmü düzeldi).
+  - Düzeltme önerisi: Yok.
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/miknas — 'Miknâs, 634'te (1237) … Merînîler'in eline geçti. Muvahhidler şehri 643'te (1245-46) geri aldılarsa da Merînîler iki yıl sonra tekrar Miknâs'a hâkim oldular'
 
 ### K232 · merini · 1247-01-01 → 1250-04-05 · 30.669 km²
 
 - En büyük kesit: 1247-01-01 · komşu: muvahhidler 51%
 - Koridor: 48.0 km · muvahhidler 9/9
 - İçindeki yerleşimler: Hunayfire (Khenifra) (sahipsiz); Miknâs (Meknes) (merini); Velîlâ (Oualili) (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: K231 ile aynı (Miknâs) 1247-1250 kesiti: Fas 1248'de Merînî'ye geçti; Miknâs'ın Fas'tan önce kopuk Merînî kalması dönem uçlarından.
-  - Düzeltme önerisi: K231 ile aynı; Fas merini f 1248 kontrol.
-  - Kaynak: veri ölçümü
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Miknâs 1247-1250 Merînî (iki yıl sonraki ikinci zapt), Fas'ın 1248'e dek Muvahhid kalması: TDV ile gerçek (önceki YAPAY-c düzeldi).
+  - Düzeltme önerisi: Yok.
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/miknas (K231 ile aynı)
 
 ### K233 · abd · 1818-01-01 → 1842-01-01 · 30.390 km²
 
@@ -435,10 +435,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 13, YAPAY-b 2, YAPAY-c 35, YAPAY
 - En büyük kesit: 1336-01-01 · komşu: sirbistan-nemanjic 16%, sirbistan 13%, napoli 10%
 - Koridor: 58.9 km · sirbistan-nemanjic 9/9
 - İçindeki yerleşimler: Preveze (bizans); Parga (bizans); Stratos (sahipsiz); Vonitsa (bizans); Arta (bizans); Yanya (bizans); Souli (Sûli) (bizans); Aydonat (Paramythia) (bizans) … +15
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Epir (Yanya, Arta, Preveze) 1334 → 1361-05-05 'bizans', çevre Sırp. Epir Despotluğu (Orsini) 1340'a dek ayrıydı; III. Andronikos 1340'ta ilhak etti; Sırplar 1348'de aldı (Simeon Uroš). Bizans dönemi yalnız 1340-1348; 1334-1340 ve 1348-1361 yanlış.
-  - Düzeltme önerisi: Epir noktaları 1334-1340 epir-despotlugu, 1340-1348 bizans, 1348 → sirbistan (kaynakla, TIB).
-  - Kaynak: veri ölçümü
+  - Düzeltme önerisi: Yanya-Arta 1342 → sirbistan-nemanjic (Duşan), 1355 → Symeon Uroš (Epir-Tesalya), 1366-67 → Preljubović.
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/yanya — '1342'de Sırp Kralı Stefan Duşan tarafından ilhak edildi. Onun 1355'te ölümünden sonra üvey kardeşi Symeon Uroş, Epir ve Tesalya'nın idaresini eline aldı. 1366-1367'de şehir … Tomas Preljubović'in idaresine girdi'
 
 ### K251 · babur-imparatorlugu · 1600-08-28 → 1610-01-01 · 28.346 km²
 

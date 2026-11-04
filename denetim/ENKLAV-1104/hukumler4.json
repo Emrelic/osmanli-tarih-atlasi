@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K301-K400). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı.",
+"_aciklama": "ENKLAV-1104 hükümleri (K301-K400). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. KAYNAK5 (LAB SALI): 16 hüküm kaynak_toplu.py ile güncellendi.",
 "K301": {
 "hukum": "YAPAY",
 "kova": "YAPAY-k",
@@ -67,26 +67,26 @@
 "K309": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Erzurum-Pasinler-Aşkale 1378 → 1381 Eretna, Sivas gövdesinden Mutahharten'in Erzincan'ıyla ayrı (koridor 130 km 9/9). Eretna son yıllarında (Alâeddin Ali, Kadı Burhâneddin vezirliği) Erzurum'u tutup tutmadığı kaynakla; bitiş 1381 Eretna'nın sonuyla uyumlu.",
 "duzeltme": "Erzurum 1378-1381 sahibi kaynakla (TDV Eretnaoğulları, Erzurum).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/erzurum — 'Erzurum 1360'ta Eretnaoğulları'nın ve onların Erzincan valisi olan Mutahharten'in nüfuzu altına girdi. 1385'te Karakoyunlular'ın eline geçen şehir' (1378-1381 Eretna dönemi bu aralıkta)"
 },
 "K310": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Erzurum 1351 → 1353 'ilhanli'. İlhanlı devleti 1335'te dağıldı; 1351'de Erzurum Çobanoğulları/Eretna/yerel beyler arasındaydı. Hayalet İlhanlı uzatması (K230 ile aynı aile).",
-"duzeltme": "Erzurum 1351-1353 sahibi kaynakla (Çobanoğulları t 1357).",
-"kaynak": "veri ölçümü"
+"duzeltme": "Erzurum 1336 → sutayogullari (Hacı Togay), 1340 → cobaniler (Şeyh Hasan), 1360 → eretna (Mutahharten).",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/erzurum — 'Sutay Noyan'ın oğlu Hacı Togay'ın eline geçti (1336). Emîr Çoban'ın torunu Şeyh Hasan 1340'ta Erzurum'a gelerek Togaylılar'ı şehirden uzaklaştırdı' · 'Erzurum 1360'ta Eretnaoğulları'nın … nüfuzu altına girdi'"
 },
 "K311": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Musul-Ninova-Telafer Zengî payı 1144-12-24 (Urfa'nın fethi) → 1149, Halep gövdesinden Artuklu toprağıyla ayrı (koridor 156 km 7/9). Zengî ülkesi Cezîre üzerinden bütün olabilir; içteki 11 noktanın 8'i sahipsiz (antik) — alan şişkin. Düşük güven.",
 "duzeltme": "Cezîre (Rakka, Harran) 1144-1149 sahibi kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/harran — 'Harran Musul Atabegliği'ne (Zengîler) bağlandı … Harran'ı üs edinerek 1144 yılında Urfa'yı … geri aldı'"
 },
 "K312": {
 "hukum": "GERCEK",
@@ -153,12 +153,12 @@
 "kaynak": "veri ölçümü"
 },
 "K320": {
-"hukum": "GERCEK",
-"kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Kastamonu-Sinop 1073 → 1204 'bizans', çevre Büyük Selçuklu (koridor 80 km 9/9). Malazgirt sonrası Paflagonya'nın bir kısmı Bizans'ta kaldı (Kastamonu Komnenos ailesinin yurdu, 1130'larda geri alındı); Danişmendli/Selçuklu araya girişi gerçek olabilir. 131 yıllık kesintisiz Bizans tutuşu ve Sinop'un 1214 Selçuklu fethi ayrıca sınanmalı.",
-"duzeltme": "Kastamonu 1073-1204 sahiplik zinciri kaynakla (TDV Kastamonu).",
-"kaynak": "veri ölçümü"
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Kastamonu-Sinop 1073-1204 sürekli 'bizans': TDV'ye göre Kastamonu Aleksios Komnenos (1081-1118) döneminde Dânişmendlilere geçti; Sinop 13. yy başında Trabzon Komnenoslarının, 2 Kasım 1214'te Selçuklu.",
+"duzeltme": "Kastamonu bizans t → Dânişmendli fethi (I. Aleksios dönemi; yıl KAYNAK-GEREK); Sinop 1204 → trabzon, 1214-11-02 → selcuklu.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/kastamonu — 'Ardından Bizans hâkimiyetine giren Kastamonu, İmparator Aleksios Komnenos zamanında Dânişmendliler tarafından fethedildi' · TDV, https://islamansiklopedisi.org.tr/sinop — 'Trabzon'daki Komnenoslar'ın egemenliğine giren Sinop, I. İzzeddin Keykâvus tarafından fethedildi (26 Cemâziyelâhir 611 / 2 Kasım 1214)'"
 },
 "K321": {
 "hukum": "GERCEK",
@@ -275,10 +275,10 @@
 "K335": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Göksun, Zamantı, Elbistan 1335 → 1339 'ilhanli', çevre Eretna. İlhanlı Ebû Saîd 1335'te öldü; Elbistan'da Dulkadiroğulları 1337'de kuruldu. Hayalet İlhanlı uzatması (K230/K310 ailesi).",
-"duzeltme": "Elbistan 1337 → dulkadir (kaynakla, TDV Dulkadiroğulları); 1335-1337 eretna.",
-"kaynak": "veri ölçümü"
+"duzeltme": "Elbistan-Göksun 1337 → dulkadir (Memlük tâbii Karaca Bey).",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/dulkadirogullari — Karaca Bey 1337'de Memlük sultanınca Elbistan yöresi Türkmenlerinin başına getirildi (alıntı ENKLAV-1103/ILHANLI.md'de; kova düzeyi)"
 },
 "K336": {
 "hukum": "GERCEK",
@@ -339,26 +339,26 @@
 "K343": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Epir (Yanya, Arta, Preveze) 1371-11 → 1372 'bizans': 1371'de Epir Sırp Thomas Preljubović (Yanya) ve Arnavut beyliklerinin (Arta) elindeydi. K250 ile aynı aile.",
 "duzeltme": "K250 ile aynı.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/yanya (K250 ile aynı — 1366-67'den Preljubović)"
 },
 "K344": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Harran-Akçakale Zengî payı 1132 → 1144-12-24, Musul gövdesinden Artuklu toprağıyla ayrı (koridor 156 km); bitiş Urfa'nın fethiyle uyumlu. Düşük güven: Zengî'nin Harran'ı tutuşu ve Cezîre bağlantısı kaynakla.",
 "duzeltme": "Yok; Jadlā’ sahipsiz.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/harran (K311 ile aynı)"
 },
 "K345": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Sivas-Zara-İmranlı Kadı Burhâneddin payı 1393 → 1398-07-15 (Burhâneddin'in ölümü), Kayseri/Tokat gövdesinden Dulkadir toprağıyla ayrı (koridor 68 km 8/9). Bitiş uyumlu; Dulkadir'in Sivas-Kayseri arasına girişi kaynakla.",
 "duzeltme": "Yok.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/sivas — '1381-1398 yılları arasında Sivas'ta kendi adına devlet kuran Kadı Burhâneddin' · 'Kadı Burhâneddin'in ölümünden (800/1398) sonra … Sivas'ı … I. Bayezid'e bıraktı'"
 },
 "K346": {
 "hukum": "YAPAY",
@@ -475,10 +475,10 @@
 "K360": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Kiğı ve Bayburt 1501-07 → 1502 Safevî, Tebriz gövdesinden Akkoyunlu toprağıyla ayrı (koridor 60 km 9/9): Şah İsmail'in Erzincan'dan başlayan 1500-1501 seferi sırasında doğuya kayan çekirdekle kuzeydoğu Anadolu payı ayrılmış olabilir. Düşük güven.",
 "duzeltme": "Kiğı, Bayburt 1500-1502 sahipliği kaynakla (TDV Safevîler, İsmail I).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/bayburt — 'uzun süre Akkoyunlular'ın elinde kalan şehir ve yöresi 1501'de Safevîler tarafından alındı'"
 },
 "K361": {
 "hukum": "YAPAY",
@@ -603,10 +603,10 @@
 "K376": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Silvan-Siirt-Batman Osmanlı payı 1514-09-06 → 1515-02-25, Çaldıran sonrası İdrîs-i Bitlisî'nin Kürt beylerini Osmanlı'ya bağlamasıyla; Diyarbekir 1515'te Safevî'den alındı — arada Safevî toprağı. Günler kaynakla.",
 "duzeltme": "Silvan, Siirt Osmanlı f günleri (TDV Diyarbekir, İdrîs-i Bitlisî).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/siirt — 'Yavuz Sultan Selim'in Çaldıran'da … kazandığı zafer sonrasında (920/1514) Siirt çevredeki başka yerlerle birlikte Osmanlı topraklarına katıldı'"
 },
 "K377": {
 "hukum": "YAPAY",
@@ -627,10 +627,10 @@
 "K379": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Silistre, Tutrakan, Varna 1388 → 1393-06-17 'bulgar-carligi', çevre Osmanlı (koridor 17 km 9/9). Çandarlı Ali Paşa 1388'de Silistre-Şumnu hattını aldı; Varna Dobruca despotluğunun (İvanko) elindeydi. Tırnova çarlığına bağlı kopuk pay yazımı yanlış.",
-"duzeltme": "Silistre 1388 OSMANLI, Varna dobruca-despotlugu (kaynakla, TDV Silistre).",
-"kaynak": "veri ölçümü"
+"duzeltme": "Silistre-Tutrakan 1388 → OSMANLI (Çandarlı Ali Paşa); Varna 1369'dan dobruca-despotlugu, 1393 → OSMANLI.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/silistre — '790 (1388) kışında Çandarlı Ali Paşa kumandasındaki Osmanlı ordusu Silistre'yi ele geçirdi' · TDV, https://islamansiklopedisi.org.tr/varna — '1369'dan itibaren Varna … Dobruca Prensliği'nin … başşehri'"
 },
 "K380": {
 "hukum": "GERCEK",
@@ -651,10 +651,10 @@
 "K382": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Sivas-Zara-İmranlı 1402-07-28 → 1408-06 'timurlu', çevre Mutahharten. Timur 1404 Temmuz'unda Anadolu'dan ayrıldı (TDV Timur); Sivas bölgesi sonra yerel beylere/Mehmed Çelebi'ye geçti. 6 yıllık Timurlu dönemi yanlış.",
-"duzeltme": "Sivas timurlu t → 1404-07 (TDV Timur), sonrası kaynakla (Mehmed Çelebi / Kara Yülük).",
-"kaynak": "veri ölçümü; TDV Timur (KAYNAK-1104 K044)"
+"duzeltme": "Sivas 1402-1408 sahibi Mezid Bey (Timur'un bıraktığı) — künye/beyan; 810/1407-08 → OSMANLI.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/sivas — 'takip eden yıllarda Sivas şehri Mezid Bey'in yönetiminde kaldı … 810 (1407-1408) yılında ikinci defa Osmanlılar tarafından ele geçirildi'"
 },
 "K383": {
 "hukum": "YAPAY",
@@ -699,10 +699,10 @@
 "K388": {
 "hukum": "YAPAY",
 "kova": "YAPAY-m",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Çorum-Amasya-Merzifon 1256 → 1281 'ilhanli', çevre Selçuklu (6/9). Anadolu Selçukluları İlhanlı tâbisiydi; aynı coğrafyada tâbi ve metbû yan yana boyanınca kopukluk üretiliyor. İlhanlı doğrudan idaresi 1277 sonrası güçlendi.",
 "duzeltme": "Selçuklu 1256-1308 ilhanli v: (tâbi) beyanı; motor sorusu.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/amasya — '1243 Kösedağ Savaşı'ndan sonra … Moğollar şehri zaptettiler ve … Moğol valileri tarafından idare edilmeye başladı' (noktasız parça yine motor sorusu)"
 },
 "K389": {
 "hukum": "GERCEK",
@@ -715,10 +715,10 @@
 "K390": {
 "hukum": "YAPAY",
 "kova": "YAPAY-m",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Çorum-Amasya 1243-07-01 (Kösedağ) → 1256 'mogol-imparatorlugu', çevre Selçuklu ve Trabzon: K388 ile aynı tâbi-metbû yan yana boyama.",
 "duzeltme": "K388 ile aynı.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/amasya (K388 ile aynı — 1243 Moğol)"
 },
 "K391": {
 "hukum": "YAPAY",
@@ -779,10 +779,10 @@
 "K398": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Safranbolu-Eflani-Karabük 1281 → 1308 'selcuklu', çevre Bizans ve Ahiler. 13. yüzyıl sonunda Batı Karadeniz iç kesimi Çobanoğulları (Kastamonu) uç beyliğindeydi; Selçuklu doğrudan idaresi şüpheli.",
-"duzeltme": "Safranbolu 1281-1308 sahibi (cobanogullari) kaynakla.",
-"kaynak": "veri ölçümü"
+"duzeltme": "Safranbolu 1281-1304 bizans, 1304 → candar (Gazan'ın ölümünden sonra Candaroğlu Süleyman Bey).",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/safranbolu — 'Bir süre Bizans idaresi altında kalan kalenin … 1304'te Gāzân Han'ın ölümünden sonra harekete geçen Candaroğlu Süleyman Bey tarafından Kastamonu ile birlikte ele geçirildiği belirtilir'"
 },
 "K399": {
 "hukum": "YAPAY",
@@ -795,9 +795,9 @@
 "K400": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Gence 1406-10-21 → 1408-04-13 Karakoyunlu, Tebriz gövdesinden Timurlu (Mîrânşah/Ebû Bekir) toprağıyla ayrı (koridor 107 km 8/9). Kara Yûsuf 1406'da Tebriz'i aldı, Serdrûd (Nisan 1408) Mîrânşah'ı öldürdü (bitiş uyumlu). Gence'nin bu arada Karakoyunlu oluşu kaynakla.",
 "duzeltme": "Yok; Gence günleri kaynakla (TDV Karakoyunlular).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/gence — 'XV. yüzyılın başlarında bu bölge Karakoyunlular'ın eline geçti. Gence ve Berdea hâkimi … Emîr Karaman Karakoyunlu beylerbeyi idi' (gün yok)"
 }
 }

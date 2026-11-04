@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 11, YAPAY-b 5, YAPAY-c 31, YAPAY-d 3, YAPAY-k 13, YAPAY-m 2. Güven: KAYNAK-GEREK 43, KAYNAKLI 12, OLCUM 45.
+Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 11, YAPAY-b 5, YAPAY-c 31, YAPAY-d 3, YAPAY-k 13, YAPAY-m 2. Güven: KAYNAK-GEREK 42, KAYNAKLI 13, OLCUM 45.
 
 ## Kara eksklavları
 
@@ -75,10 +75,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 11, YAPAY-b 5, YAPAY-c 31, YAPAY
 - En büyük kesit: 1916-07-27 · komşu: TABI 46%, OSMANLI 39%
 - Koridor: 27.2 km · TABI 6/9, DENIZ/BOS 3/9
 - İçindeki yerleşimler: Mekke (hicaz); Cidde (hicaz); Râbiğ (hicaz); Bedir (hicaz); Yenbu (hicaz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Hicaz isyanının ilk aylarında Mekke-Cidde-Râbiğ-Yenbu kıyı payı, Taif'teki Osmanlı garnizonu ve Medine ile Hicaz'ın öteki parçasından ayrı (koridor 27 km TABI 6/9); bitiş 1916-09-17, Taif'in teslimi (Eylül 1916) ile uyumlu görünüyor. Koridor 'TABI' (Osmanlı'ya bağlı) boyası Taif çevresi için doğru mu sınanmalı.
   - Düzeltme önerisi: Taif teslim günü TDV ile; koridor TABI kimliği kontrol.
-  - Kaynak: veri ölçümü; TDV Şerîf Hüseyin (Haziran 1916 isyan) — KAYNAK-1104 K029
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/taif — 'Tâif … Şerîf Hüseyin'in eline geçti (17 Eylül 1916)' · 'Osmanlılar Hicaz'dan çekilince (30 Ekim 1918)'
 
 ### K108 · ingiliz-kuzey-amerika · 1870-07-15 → 1871-07-20 · 65.299 km²
 

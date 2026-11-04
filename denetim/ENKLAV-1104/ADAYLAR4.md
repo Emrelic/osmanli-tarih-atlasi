@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY-d 4, YAPAY-k 12, YAPAY-m 6. Güven: KAYNAK-GEREK 46, KAYNAKLI 2, OLCUM 52.
+Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 6, YAPAY-c 25, YAPAY-d 4, YAPAY-k 12, YAPAY-m 6. Güven: KAYNAK-GEREK 30, KAYNAKLI 18, OLCUM 52.
 
 ## Kara eksklavları
 
@@ -95,30 +95,30 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1379-01-01 · komşu: mutahharten 26%, celayirli 22%, karakoyunlu 13%
 - Koridor: 129.7 km · mutahharten 9/9
 - İçindeki yerleşimler: Erzurum (eretna); Pasinler (Hasankale) (eretna); Aşkale (eretna)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Erzurum-Pasinler-Aşkale 1378 → 1381 Eretna, Sivas gövdesinden Mutahharten'in Erzincan'ıyla ayrı (koridor 130 km 9/9). Eretna son yıllarında (Alâeddin Ali, Kadı Burhâneddin vezirliği) Erzurum'u tutup tutmadığı kaynakla; bitiş 1381 Eretna'nın sonuyla uyumlu.
   - Düzeltme önerisi: Erzurum 1378-1381 sahibi kaynakla (TDV Eretnaoğulları, Erzurum).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/erzurum — 'Erzurum 1360'ta Eretnaoğulları'nın ve onların Erzincan valisi olan Mutahharten'in nüfuzu altına girdi. 1385'te Karakoyunlular'ın eline geçen şehir' (1378-1381 Eretna dönemi bu aralıkta)
 
 ### K310 · ilhanli · 1351-01-01 → 1353-01-01 · 20.488 km²
 
 - En büyük kesit: 1351-01-01 · komşu: eretna 26%, celayirli 22%, karakoyunlu 13%
 - Koridor: 721.5 km · karakoyunlu 4/9, celayirli 4/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: Erzurum (ilhanli); Pasinler (Hasankale) (ilhanli); Aşkale (ilhanli)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Erzurum 1351 → 1353 'ilhanli'. İlhanlı devleti 1335'te dağıldı; 1351'de Erzurum Çobanoğulları/Eretna/yerel beyler arasındaydı. Hayalet İlhanlı uzatması (K230 ile aynı aile).
-  - Düzeltme önerisi: Erzurum 1351-1353 sahibi kaynakla (Çobanoğulları t 1357).
-  - Kaynak: veri ölçümü
+  - Düzeltme önerisi: Erzurum 1336 → sutayogullari (Hacı Togay), 1340 → cobaniler (Şeyh Hasan), 1360 → eretna (Mutahharten).
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/erzurum — 'Sutay Noyan'ın oğlu Hacı Togay'ın eline geçti (1336). Emîr Çoban'ın torunu Şeyh Hasan 1340'ta Erzurum'a gelerek Togaylılar'ı şehirden uzaklaştırdı' · 'Erzurum 1360'ta Eretnaoğulları'nın … nüfuzu altına girdi'
 
 ### K311 · zengi-musul · 1144-12-24 → 1149-01-01 · 20.230 km²
 
 - En büyük kesit: 1144-12-24 · komşu: artuklu 8%, begteginli 4%
 - Koridor: 155.6 km · artuklu 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Musul (zengi-musul); Ninova (sahipsiz); Telafer (sahipsiz); Zaho (sahipsiz); Malikiye (Derik) (sahipsiz); Silopi (sahipsiz); Cumai (Birlikköy) (sahipsiz); Cibri (Güçlü) (sahipsiz) … +3
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Musul-Ninova-Telafer Zengî payı 1144-12-24 (Urfa'nın fethi) → 1149, Halep gövdesinden Artuklu toprağıyla ayrı (koridor 156 km 7/9). Zengî ülkesi Cezîre üzerinden bütün olabilir; içteki 11 noktanın 8'i sahipsiz (antik) — alan şişkin. Düşük güven.
   - Düzeltme önerisi: Cezîre (Rakka, Harran) 1144-1149 sahibi kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/harran — 'Harran Musul Atabegliği'ne (Zengîler) bağlandı … Harran'ı üs edinerek 1144 yılında Urfa'yı … geri aldı'
 
 ### K312 · aztek-imparatorlugu · 1466-01-01 → 1520-09-04 · 20.181 km²
 
@@ -205,10 +205,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1080-01-01 · komşu: buyuk-selcuklu 25%
 - Koridor: 80.4 km · buyuk-selcuklu 9/9
 - İçindeki yerleşimler: Kastamonu (sahipsiz); Sinop (bizans)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Kastamonu-Sinop 1073 → 1204 'bizans', çevre Büyük Selçuklu (koridor 80 km 9/9). Malazgirt sonrası Paflagonya'nın bir kısmı Bizans'ta kaldı (Kastamonu Komnenos ailesinin yurdu, 1130'larda geri alındı); Danişmendli/Selçuklu araya girişi gerçek olabilir. 131 yıllık kesintisiz Bizans tutuşu ve Sinop'un 1214 Selçuklu fethi ayrıca sınanmalı.
-  - Düzeltme önerisi: Kastamonu 1073-1204 sahiplik zinciri kaynakla (TDV Kastamonu).
-  - Kaynak: veri ölçümü
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Kastamonu-Sinop 1073-1204 sürekli 'bizans': TDV'ye göre Kastamonu Aleksios Komnenos (1081-1118) döneminde Dânişmendlilere geçti; Sinop 13. yy başında Trabzon Komnenoslarının, 2 Kasım 1214'te Selçuklu.
+  - Düzeltme önerisi: Kastamonu bizans t → Dânişmendli fethi (I. Aleksios dönemi; yıl KAYNAK-GEREK); Sinop 1204 → trabzon, 1214-11-02 → selcuklu.
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/kastamonu — 'Ardından Bizans hâkimiyetine giren Kastamonu, İmparator Aleksios Komnenos zamanında Dânişmendliler tarafından fethedildi' · TDV, https://islamansiklopedisi.org.tr/sinop — 'Trabzon'daki Komnenoslar'ın egemenliğine giren Sinop, I. İzzeddin Keykâvus tarafından fethedildi (26 Cemâziyelâhir 611 / 2 Kasım 1214)'
 
 ### K321 · roma-cumhuriyeti · -0068-01-0 → -0026-01-1 · 19.408 km²
 
@@ -335,10 +335,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1335-12-01 · komşu: eretna 58%, memluk 23%, kilikya-ermeni 19%
 - Koridor: 81.9 km · eretna 9/9
 - İçindeki yerleşimler: Göksun (ilhanli); Zamantı (Pınarbaşı) (ilhanli); Elbistan (ilhanli)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Göksun, Zamantı, Elbistan 1335 → 1339 'ilhanli', çevre Eretna. İlhanlı Ebû Saîd 1335'te öldü; Elbistan'da Dulkadiroğulları 1337'de kuruldu. Hayalet İlhanlı uzatması (K230/K310 ailesi).
-  - Düzeltme önerisi: Elbistan 1337 → dulkadir (kaynakla, TDV Dulkadiroğulları); 1335-1337 eretna.
-  - Kaynak: veri ölçümü
+  - Düzeltme önerisi: Elbistan-Göksun 1337 → dulkadir (Memlük tâbii Karaca Bey).
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/dulkadirogullari — Karaca Bey 1337'de Memlük sultanınca Elbistan yöresi Türkmenlerinin başına getirildi (alıntı ENKLAV-1103/ILHANLI.md'de; kova düzeyi)
 
 ### K336 · almanya · 1944-07-16 → 1944-07-28 · 17.500 km²
 
@@ -405,30 +405,30 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1371-11-01 · komşu: sirbistan-nemanjic 26%, katalan 14%, epir-despotlugu 10%
 - Koridor: 144.6 km · katalan 6/9, sirbistan 3/9
 - İçindeki yerleşimler: Preveze (bizans); Parga (bizans); Stratos (sahipsiz); Vonitsa (bizans); Arta (bizans); Yanya (bizans); Souli (Sûli) (bizans); Aydonat (Paramythia) (bizans) … +8
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Epir (Yanya, Arta, Preveze) 1371-11 → 1372 'bizans': 1371'de Epir Sırp Thomas Preljubović (Yanya) ve Arnavut beyliklerinin (Arta) elindeydi. K250 ile aynı aile.
   - Düzeltme önerisi: K250 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/yanya (K250 ile aynı — 1366-67'den Preljubović)
 
 ### K344 · zengi-musul · 1132-01-01 → 1144-12-24 · 16.431 km²
 
 - En büyük kesit: 1135-01-01 · komşu: urfa-kontlugu 38%, inalogullari 6%, artuklu 5%
 - Koridor: 155.6 km · artuklu 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Jadlā’ (sahipsiz); Akçakale (sahipsiz); Harran (zengi-musul)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Harran-Akçakale Zengî payı 1132 → 1144-12-24, Musul gövdesinden Artuklu toprağıyla ayrı (koridor 156 km); bitiş Urfa'nın fethiyle uyumlu. Düşük güven: Zengî'nin Harran'ı tutuşu ve Cezîre bağlantısı kaynakla.
   - Düzeltme önerisi: Yok; Jadlā’ sahipsiz.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/harran (K311 ile aynı)
 
 ### K345 · burhaneddin · 1393-06-01 → 1398-07-15 · 16.410 km²
 
 - En büyük kesit: 1393-06-01 · komşu: haciemir 23%, dulkadir 17%, mutahharten 17%
 - Koridor: 68.1 km · dulkadir 8/9, OSMANLI 1/9
 - İçindeki yerleşimler: Sivas (burhaneddin); İmranlı (burhaneddin); Zara (burhaneddin); Karahisâr-ı Şarkî (Şebinkarahisar) (burhaneddin)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Sivas-Zara-İmranlı Kadı Burhâneddin payı 1393 → 1398-07-15 (Burhâneddin'in ölümü), Kayseri/Tokat gövdesinden Dulkadir toprağıyla ayrı (koridor 68 km 8/9). Bitiş uyumlu; Dulkadir'in Sivas-Kayseri arasına girişi kaynakla.
   - Düzeltme önerisi: Yok.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/sivas — '1381-1398 yılları arasında Sivas'ta kendi adına devlet kuran Kadı Burhâneddin' · 'Kadı Burhâneddin'in ölümünden (800/1398) sonra … Sivas'ı … I. Bayezid'e bıraktı'
 
 ### K346 · selcuklu · 1297-01-01 → 1300-01-01 · 16.243 km²
 
@@ -565,10 +565,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1501-07-01 · komşu: akkoyunlu 74%, OSMANLI 25%
 - Koridor: 60.3 km · akkoyunlu 9/9
 - İçindeki yerleşimler: Kiğı (safevi); Bayburt (safevi)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Kiğı ve Bayburt 1501-07 → 1502 Safevî, Tebriz gövdesinden Akkoyunlu toprağıyla ayrı (koridor 60 km 9/9): Şah İsmail'in Erzincan'dan başlayan 1500-1501 seferi sırasında doğuya kayan çekirdekle kuzeydoğu Anadolu payı ayrılmış olabilir. Düşük güven.
   - Düzeltme önerisi: Kiğı, Bayburt 1500-1502 sahipliği kaynakla (TDV Safevîler, İsmail I).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/bayburt — 'uzun süre Akkoyunlular'ın elinde kalan şehir ve yöresi 1501'de Safevîler tarafından alındı'
 
 ### K361 · ispanya · 1810-05-25 → 1818-02-12 · 14.571 km²
 
@@ -725,10 +725,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1515-01-01 · komşu: safevi 78%, cizre-botan 33%
 - Koridor: 15.3 km · safevi 9/9
 - İçindeki yerleşimler: Batman (sahipsiz); Meyyâfârikīn (OSMANLI); Siirt (OSMANLI); Erzen (sahipsiz); Hallan Çemi (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Silvan-Siirt-Batman Osmanlı payı 1514-09-06 → 1515-02-25, Çaldıran sonrası İdrîs-i Bitlisî'nin Kürt beylerini Osmanlı'ya bağlamasıyla; Diyarbekir 1515'te Safevî'den alındı — arada Safevî toprağı. Günler kaynakla.
   - Düzeltme önerisi: Silvan, Siirt Osmanlı f günleri (TDV Diyarbekir, İdrîs-i Bitlisî).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/siirt — 'Yavuz Sultan Selim'in Çaldıran'da … kazandığı zafer sonrasında (920/1514) Siirt çevredeki başka yerlerle birlikte Osmanlı topraklarına katıldı'
 
 ### K377 · babur-imparatorlugu · 1714-01-01 → 1750-09-11 · 12.842 km²
 
@@ -755,10 +755,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1388-01-01 · komşu: OSMANLI 41%, eflak 24%, bulgaristan 12%
 - Koridor: 17.1 km · OSMANLI 9/9
 - İçindeki yerleşimler: Tutrakan (bulgar-carligi); Silistre (bulgar-carligi); Varna (bulgar-carligi); Balçık (Balchik) (bulgar-carligi); Hacıoğlupazarcığı (Dobrich) (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Silistre, Tutrakan, Varna 1388 → 1393-06-17 'bulgar-carligi', çevre Osmanlı (koridor 17 km 9/9). Çandarlı Ali Paşa 1388'de Silistre-Şumnu hattını aldı; Varna Dobruca despotluğunun (İvanko) elindeydi. Tırnova çarlığına bağlı kopuk pay yazımı yanlış.
-  - Düzeltme önerisi: Silistre 1388 OSMANLI, Varna dobruca-despotlugu (kaynakla, TDV Silistre).
-  - Kaynak: veri ölçümü
+  - Düzeltme önerisi: Silistre-Tutrakan 1388 → OSMANLI (Çandarlı Ali Paşa); Varna 1369'dan dobruca-despotlugu, 1393 → OSMANLI.
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/silistre — '790 (1388) kışında Çandarlı Ali Paşa kumandasındaki Osmanlı ordusu Silistre'yi ele geçirdi' · TDV, https://islamansiklopedisi.org.tr/varna — '1369'dan itibaren Varna … Dobruca Prensliği'nin … başşehri'
 
 ### K380 · lehistan · 1621-09-15 → 1625-01-01 · 12.470 km²
 
@@ -785,10 +785,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1402-09-15 · komşu: haciemir 24%, dulkadir 23%, memluk 20%
 - Koridor: 299.7 km · mutahharten 9/9
 - İçindeki yerleşimler: Sivas (timurlu); İmranlı (timurlu); Zara (timurlu)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Sivas-Zara-İmranlı 1402-07-28 → 1408-06 'timurlu', çevre Mutahharten. Timur 1404 Temmuz'unda Anadolu'dan ayrıldı (TDV Timur); Sivas bölgesi sonra yerel beylere/Mehmed Çelebi'ye geçti. 6 yıllık Timurlu dönemi yanlış.
-  - Düzeltme önerisi: Sivas timurlu t → 1404-07 (TDV Timur), sonrası kaynakla (Mehmed Çelebi / Kara Yülük).
-  - Kaynak: veri ölçümü; TDV Timur (KAYNAK-1104 K044)
+  - Düzeltme önerisi: Sivas 1402-1408 sahibi Mezid Bey (Timur'un bıraktığı) — künye/beyan; 810/1407-08 → OSMANLI.
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/sivas — 'takip eden yıllarda Sivas şehri Mezid Bey'in yönetiminde kaldı … 810 (1407-1408) yılında ikinci defa Osmanlılar tarafından ele geçirildi'
 
 ### K383 · abd · 1776-07-04 → 1783-09-03 · 12.117 km²
 
@@ -845,10 +845,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1260-01-01 · komşu: selcuklu 44%, cobanogullari 19%, trabzon-rum 13%
 - Koridor: 378.8 km · selcuklu 6/9, DENIZ/BOS 3/9
 - İçindeki yerleşimler: Çorum (sahipsiz); Amasya (ilhanli); Merzifon (selcuklu); Ladik (Amasya) (sahipsiz); Osmancık (__BOSLUK__)
-- **Hüküm: YAPAY** (YAPAY-m · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-m · güven KAYNAKLI)
   - Gerekçe: Çorum-Amasya-Merzifon 1256 → 1281 'ilhanli', çevre Selçuklu (6/9). Anadolu Selçukluları İlhanlı tâbisiydi; aynı coğrafyada tâbi ve metbû yan yana boyanınca kopukluk üretiliyor. İlhanlı doğrudan idaresi 1277 sonrası güçlendi.
   - Düzeltme önerisi: Selçuklu 1256-1308 ilhanli v: (tâbi) beyanı; motor sorusu.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/amasya — '1243 Kösedağ Savaşı'ndan sonra … Moğollar şehri zaptettiler ve … Moğol valileri tarafından idare edilmeye başladı' (noktasız parça yine motor sorusu)
 
 ### K389 · ingiltere · 1816-04-23 → 1965-02-18 · 11.810 km²
 
@@ -865,10 +865,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1243-07-01 · komşu: selcuklu 44%, cobanogullari 19%
 - Koridor: 480.6 km · DENIZ/BOS 4/9, selcuklu 3/9, trabzon-rum 2/9
 - İçindeki yerleşimler: Çorum (sahipsiz); Amasya (mogol-imparatorlugu); Merzifon (selcuklu); Ladik (Amasya) (sahipsiz); Osmancık (__BOSLUK__)
-- **Hüküm: YAPAY** (YAPAY-m · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-m · güven KAYNAKLI)
   - Gerekçe: Çorum-Amasya 1243-07-01 (Kösedağ) → 1256 'mogol-imparatorlugu', çevre Selçuklu ve Trabzon: K388 ile aynı tâbi-metbû yan yana boyama.
   - Düzeltme önerisi: K388 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/amasya (K388 ile aynı — 1243 Moğol)
 
 ### K391 · polonya · 1919-07-01 → 1923-03-15 · 11.674 km²
 
@@ -945,10 +945,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1297-01-01 · komşu: cobanogullari 36%, bizans 25%, ceneviz 12%
 - Koridor: 73.4 km · bizans 7/9, ahiler 2/9
 - İçindeki yerleşimler: Karabük (sahipsiz); Safranbolu (selcuklu); Eflani (selcuklu); Bartın (selcuklu)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Safranbolu-Eflani-Karabük 1281 → 1308 'selcuklu', çevre Bizans ve Ahiler. 13. yüzyıl sonunda Batı Karadeniz iç kesimi Çobanoğulları (Kastamonu) uç beyliğindeydi; Selçuklu doğrudan idaresi şüpheli.
-  - Düzeltme önerisi: Safranbolu 1281-1308 sahibi (cobanogullari) kaynakla.
-  - Kaynak: veri ölçümü
+  - Düzeltme önerisi: Safranbolu 1281-1304 bizans, 1304 → candar (Gazan'ın ölümünden sonra Candaroğlu Süleyman Bey).
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/safranbolu — 'Bir süre Bizans idaresi altında kalan kalenin … 1304'te Gāzân Han'ın ölümünden sonra harekete geçen Candaroğlu Süleyman Bey tarafından Kastamonu ile birlikte ele geçirildiği belirtilir'
 
 ### K399 · ilhanli · 1308-01-01 → 1309-01-01 · 10.652 km²
 
@@ -965,10 +965,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 6, YAPAY-c 24, YAPAY
 - En büyük kesit: 1406-10-21 · komşu: timurlu 50%, gurcistan 26%, sirvansah 16%
 - Koridor: 106.5 km · timurlu 8/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: Gence (karakoyunlu); Samkir (Gardman bolgesi) (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Gence 1406-10-21 → 1408-04-13 Karakoyunlu, Tebriz gövdesinden Timurlu (Mîrânşah/Ebû Bekir) toprağıyla ayrı (koridor 107 km 8/9). Kara Yûsuf 1406'da Tebriz'i aldı, Serdrûd (Nisan 1408) Mîrânşah'ı öldürdü (bitiş uyumlu). Gence'nin bu arada Karakoyunlu oluşu kaynakla.
   - Düzeltme önerisi: Yok; Gence günleri kaynakla (TDV Karakoyunlular).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/gence — 'XV. yüzyılın başlarında bu bölge Karakoyunlular'ın eline geçti. Gence ve Berdea hâkimi … Emîr Karaman Karakoyunlu beylerbeyi idi' (gün yok)
 
 ## Deniz aşırı sömürge gövdeleri (ayrı)
 

@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K401-K500). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı.",
+"_aciklama": "ENKLAV-1104 hükümleri (K401-K500). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. KAYNAK5 (LAB SALI): 11 hüküm kaynak_toplu.py ile güncellendi.",
 "K401": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
@@ -123,26 +123,26 @@
 "K416": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Harput-Palu Dulkadir payı 1378-1400, Elbistan gövdesinden Memlûk Malatya'sıyla ayrı (koridor 44 km 9/9). Dulkadir'in Harput'u tuttuğu dönemler bilinir (TDV Dulkadiroğulları: 'doğuda Harput'tan'), uçlar kaynakla.",
 "duzeltme": "Harput dulkadir dönemleri kaynakla.",
-"kaynak": "veri ölçümü; TDV Dulkadiroğulları (yayılım)"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/harput — 'buranın Dulkadırlı, Kadı Burhâneddin, Karakoyunlu ve Akkoyunlu devletleri arasında sık sık el değiştirmesine yol açtı. 1465'te Uzun Hasan şehri kesin biçimde Akkoyunlular'a kattı' (yıl yok — kısmen)"
 },
 "K417": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "K416'nın 1402-1429 kesiti.",
 "duzeltme": "K416 ile aynı.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/harput (K416 ile aynı — kısmen)"
 },
 "K418": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "K416'nın 1436-1465 kesiti.",
 "duzeltme": "K416 ile aynı.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/harput — bitiş 1465 Uzun Hasan ile birebir"
 },
 "K419": {
 "hukum": "YAPAY",
@@ -267,18 +267,18 @@
 "K434": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Diyarbakır-Ergani 1240 → 1303 'selcuklu', çevre İlhanlı. Âmid 1241 sonrası Moğol/İlhanlı ve Artuklu (Mardin) idaresindeydi; Anadolu Selçuklu doğrudan yönetimi yok.",
 "duzeltme": "Diyarbakır 1240-1303 sahibi kaynakla (TDV Diyarbekir).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/diyarbakir — '638 (1240-41) yılında da … II. Gıyâseddin Keyhusrev Âmid'i zaptetti. Burası 1257'de kısa bir süre için Meyyâfârikīn Hâkimi e[line geçti]' (başlangıç birebir; Moğol dönemi KAYNAK-GEREK)"
 },
 "K435": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Diyarbakır 1422-1429 Akkoyunlu, öteki Akkoyunlu payından Karakoyunlu şeridiyle (28 km) ayrı. Kara Yülük Osman'ın Âmid merkezli dönemi; kopukluğun genişliği kaynakla.",
 "duzeltme": "Yok.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/diyarbakir — 'şehir 1401'de Karayülük Osman Bey'e verildi … 1409, 1411 ve 1418'de … Kara Yûsuf … başarılı olamadı. 1423'te oğlu İskender … aynı âkıbete uğradı' (Akkoyunlu Âmid'i, gerçek)"
 },
 "K436": {
 "hukum": "YAPAY",
@@ -499,10 +499,10 @@
 "K463": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Zebîd 1516-06 → 1517-07-06 Memlûk, Mısır gövdesinden Kızıldeniz ve Yemen toprağıyla ayrı: Memlûk Yemen seferi (1515-16, Tâhirîlerin yıkılışı) — gerçek denizaşırı pay. Bitiş Memlûk Yemen'inin Osmanlı'yı tanıması.",
 "duzeltme": "Yok; günler kaynakla (TDV Zebîd).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/zebid — 'Müttefik Osmanlı-Memlük ordusu 19 Cemâziyelevvel 922'de (20 Haziran 1516) Zebîd'i ele geçirdi. Şehrin idaresi Memlük emîrlerinden Barsbay'a verildi'"
 },
 "K464": {
 "hukum": "GERCEK",
@@ -531,10 +531,10 @@
 "K467": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Muş 1403 → 1405-02-18 (Timur'un ölümü) 'timurlu', çevre Mutahharten: ENKLAV-1104 K382 ile aynı — Timur 1404 Temmuz'unda Anadolu'dan ayrıldı.",
 "duzeltme": "K382 ile aynı.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/mus — 'Muş, 789'da (1387) Karakoyunlu topraklarına sahip olan Timur'un idaresi altına girdi. Arkasından Akkoyunlular'ın eline geçti' (1403-1405 Timurlu dönemi kısmen)"
 },
 "K468": {
 "hukum": "GERCEK",
@@ -627,10 +627,10 @@
 "K479": {
 "hukum": "YAPAY",
 "kova": "YAPAY-d",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Siirt 1394-01 → 04-25 'celayirli', çevre Cizre-Botan: Timur'un 1394 seferi sırasında 4 aylık kesit; yıl hassasiyetli uç ile sefer günü hizasız.",
 "duzeltme": "Siirt 1394 geçişi kaynakla (TDV Siirt: Timur istilâsı).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/diyarbakir — '25 veya 26 Nisan 1394'te Timur tarafından zaptedilerek' (veri bitişi 1394-04-25 Âmid'in düşüşüyle birebir; Siirt için ABİ MERKEZ: Âmid — beyan)"
 },
 "K480": {
 "hukum": "YAPAY",
@@ -665,12 +665,12 @@
 "kaynak": "veri ölçümü"
 },
 "K484": {
-"hukum": "YAPAY",
-"kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Leskofça-Kurşunlu-Ürküp 1444-11 → 1455-06 OSMANLI, çevre Sırp Despotluğu (koridor 3 km). Segedin barışı (1444) Sırp topraklarını iade etti; Güney Morava hattının Osmanlı'ya kesin geçişi 1454-55. 1444 başlangıcı ve 3 km'lik koridor sınanmalı.",
-"duzeltme": "Leskofça vb. Osmanlı f kaynakla (TDV).",
-"kaynak": "veri ölçümü"
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Leskofça-Kurşunlu-Ürküp 1444-11 → 1455 Osmanlı, Sırp Despotluğu ortasında: TDV'ye göre 1444 Segedin antlaşmasında Semendire ve 24 kale Brankoviç'e geri verilirken Kruševac ve Dubočica (Leskofça) Osmanlı'da kaldı — gerçek kalıntı (önceki YAPAY-c hükmü düzeldi).",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/leskofca — '1444 Segedin Antlaşması'nda Semendire ve yirmi dört büyük kale Brankoviç'e geri verilirken Kruševac ve onunla beraber Dubočica, Osma[nlı'da kaldı]'"
 },
 "K485": {
 "hukum": "GERCEK",
@@ -755,10 +755,10 @@
 "K495": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Karaferye (Veria) 1385 → 1387-05-08 Sırp (Duşan sonrası yerel beylik), çevre Osmanlı ve TABI. Karaferye'nin Osmanlı fethi 1385-87; düşük güven. 4 nokta sahipsiz (antik).",
 "duzeltme": "Karaferye Osmanlı f kaynakla (TDV Karaferye).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/karaferye — bir Meteora yazmasında 'Türkler'in Véria'ya hâkim oldukları 1385-86'; 'Diğer Yunan kaynakları ise şehrin Türkler tarafından alınmasının 8 Mayıs 1387'[de olduğunu]' — iki görüş, veri 1387-05-08 ile uyumlu (çelişki beyanlı)"
 },
 "K496": {
 "hukum": "YAPAY",
@@ -771,10 +771,10 @@
 "K497": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Kelkit-Şebinkarahisar Akkoyunlu payı 1410 → 1422, Diyarbakır gövdesinden Çemişgezek, Dulkadir ve Karakoyunlu ile ayrı. Düşük güven.",
 "duzeltme": "Kaynakla (TDV Akkoyunlular).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/bayburt (K212 ile aynı: Karayülük Osman Bey dönemi Akkoyunlu)"
 },
 "K498": {
 "hukum": "GERCEK",

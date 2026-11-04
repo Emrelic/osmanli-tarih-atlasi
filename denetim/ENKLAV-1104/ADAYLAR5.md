@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY-d 5, YAPAY-k 10, YAPAY-m 4. Güven: KAYNAK-GEREK 42, KAYNAKLI 2, OLCUM 56.
+Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY-d 5, YAPAY-k 10, YAPAY-m 4. Güven: KAYNAK-GEREK 31, KAYNAKLI 13, OLCUM 56.
 
 ## Kara eksklavları
 
@@ -165,30 +165,30 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - En büyük kesit: 1378-01-01 · komşu: memluk 34%, cemisgezek-beyligi 22%, celayirli 19%
 - Koridor: 44.3 km · memluk 9/9
 - İçindeki yerleşimler: Arsamosata (sahipsiz); Palu (dulkadir); Harput (Elazığ) (dulkadir)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Harput-Palu Dulkadir payı 1378-1400, Elbistan gövdesinden Memlûk Malatya'sıyla ayrı (koridor 44 km 9/9). Dulkadir'in Harput'u tuttuğu dönemler bilinir (TDV Dulkadiroğulları: 'doğuda Harput'tan'), uçlar kaynakla.
   - Düzeltme önerisi: Harput dulkadir dönemleri kaynakla.
-  - Kaynak: veri ölçümü; TDV Dulkadiroğulları (yayılım)
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/harput — 'buranın Dulkadırlı, Kadı Burhâneddin, Karakoyunlu ve Akkoyunlu devletleri arasında sık sık el değiştirmesine yol açtı. 1465'te Uzun Hasan şehri kesin biçimde Akkoyunlular'a kattı' (yıl yok — kısmen)
 
 ### K417 · dulkadir · 1402-07-28 → 1429-01-01 · 9.603 km²
 
 - En büyük kesit: 1402-07-28 · komşu: memluk 34%, cemisgezek-beyligi 22%, akkoyunlu 19%
 - Koridor: 44.3 km · memluk 9/9
 - İçindeki yerleşimler: Arsamosata (sahipsiz); Palu (dulkadir); Harput (Elazığ) (dulkadir)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: K416'nın 1402-1429 kesiti.
   - Düzeltme önerisi: K416 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/harput (K416 ile aynı — kısmen)
 
 ### K418 · dulkadir · 1436-01-01 → 1465-01-01 · 9.603 km²
 
 - En büyük kesit: 1436-01-01 · komşu: akkoyunlu 54%, memluk 34%, karakoyunlu 11%
 - Koridor: 44.3 km · memluk 9/9
 - İçindeki yerleşimler: Arsamosata (sahipsiz); Palu (dulkadir); Harput (Elazığ) (dulkadir)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: K416'nın 1436-1465 kesiti.
   - Düzeltme önerisi: K416 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/harput — bitiş 1465 Uzun Hasan ile birebir
 
 ### K419 · ilhanli · 1351-01-01 → 1353-01-01 · 9.603 km²
 
@@ -335,20 +335,20 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - En büyük kesit: 1281-01-01 · komşu: eyyubi 61%, ilhanli 60%, artuklu 24%
 - Koridor: 362.5 km · ilhanli 8/9, kilikya-ermeni 1/9
 - İçindeki yerleşimler: Diyarbakır (selcuklu); Çayönü Tepesi (sahipsiz); Ergani (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Diyarbakır-Ergani 1240 → 1303 'selcuklu', çevre İlhanlı. Âmid 1241 sonrası Moğol/İlhanlı ve Artuklu (Mardin) idaresindeydi; Anadolu Selçuklu doğrudan yönetimi yok.
   - Düzeltme önerisi: Diyarbakır 1240-1303 sahibi kaynakla (TDV Diyarbekir).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/diyarbakir — '638 (1240-41) yılında da … II. Gıyâseddin Keyhusrev Âmid'i zaptetti. Burası 1257'de kısa bir süre için Meyyâfârikīn Hâkimi e[line geçti]' (başlangıç birebir; Moğol dönemi KAYNAK-GEREK)
 
 ### K435 · akkoyunlu · 1422-01-01 → 1429-01-01 · 8.927 km²
 
 - En büyük kesit: 1422-01-01 · komşu: karakoyunlu 35%, memluk 24%, dulkadir 20%
 - Koridor: 28.2 km · karakoyunlu 9/9
 - İçindeki yerleşimler: Diyarbakır (akkoyunlu); Çayönü Tepesi (sahipsiz); Ergani (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Diyarbakır 1422-1429 Akkoyunlu, öteki Akkoyunlu payından Karakoyunlu şeridiyle (28 km) ayrı. Kara Yülük Osman'ın Âmid merkezli dönemi; kopukluğun genişliği kaynakla.
   - Düzeltme önerisi: Yok.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/diyarbakir — 'şehir 1401'de Karayülük Osman Bey'e verildi … 1409, 1411 ve 1418'de … Kara Yûsuf … başarılı olamadı. 1423'te oğlu İskender … aynı âkıbete uğradı' (Akkoyunlu Âmid'i, gerçek)
 
 ### K436 · ispanya · 1590-03-04 → 1625-06-05 · 8.906 km²
 
@@ -625,10 +625,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - En büyük kesit: 1517-04-13 · komşu: yemen 75%, tahiri 10%
 - Koridor: 634.8 km · yemen 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Zebîd (memluk)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Zebîd 1516-06 → 1517-07-06 Memlûk, Mısır gövdesinden Kızıldeniz ve Yemen toprağıyla ayrı: Memlûk Yemen seferi (1515-16, Tâhirîlerin yıkılışı) — gerçek denizaşırı pay. Bitiş Memlûk Yemen'inin Osmanlı'yı tanıması.
   - Düzeltme önerisi: Yok; günler kaynakla (TDV Zebîd).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/zebid — 'Müttefik Osmanlı-Memlük ordusu 19 Cemâziyelevvel 922'de (20 Haziran 1516) Zebîd'i ele geçirdi. Şehrin idaresi Memlük emîrlerinden Barsbay'a verildi'
 
 ### K464 · prusya · 1792-09-02 → 1792-10-01 · 7.289 km²
 
@@ -665,10 +665,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - En büyük kesit: 1405-01-01 · komşu: karakoyunlu 31%, mutahharten 23%, eyyubi-hisnikeyfa 5%
 - Koridor: 64.9 km · mutahharten 9/9
 - İçindeki yerleşimler: Muş (timurlu)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Muş 1403 → 1405-02-18 (Timur'un ölümü) 'timurlu', çevre Mutahharten: ENKLAV-1104 K382 ile aynı — Timur 1404 Temmuz'unda Anadolu'dan ayrıldı.
   - Düzeltme önerisi: K382 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/mus — 'Muş, 789'da (1387) Karakoyunlu topraklarına sahip olan Timur'un idaresi altına girdi. Arkasından Akkoyunlular'ın eline geçti' (1403-1405 Timurlu dönemi kısmen)
 
 ### K468 · ilhanli · 1261-01-01 → 1262-01-01 · 7.068 km²
 
@@ -785,10 +785,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - En büyük kesit: 1394-01-01 · komşu: karakoyunlu 35%, cizre-botan 33%, eyyubi-hisnikeyfa 13%
 - Koridor: 21.3 km · cizre-botan 9/9
 - İçindeki yerleşimler: Siirt (celayirli)
-- **Hüküm: YAPAY** (YAPAY-d · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-d · güven KAYNAKLI)
   - Gerekçe: Siirt 1394-01 → 04-25 'celayirli', çevre Cizre-Botan: Timur'un 1394 seferi sırasında 4 aylık kesit; yıl hassasiyetli uç ile sefer günü hizasız.
   - Düzeltme önerisi: Siirt 1394 geçişi kaynakla (TDV Siirt: Timur istilâsı).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/diyarbakir — '25 veya 26 Nisan 1394'te Timur tarafından zaptedilerek' (veri bitişi 1394-04-25 Âmid'in düşüşüyle birebir; Siirt için ABİ MERKEZ: Âmid — beyan)
 
 ### K480 · bizans · 1345-09-25 → 1371-11-01 · 6.354 km²
 
@@ -835,10 +835,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - En büyük kesit: 1448-01-01 · komşu: sirp-despotlugu 68%, sirbistan 32%
 - Koridor: 3.4 km · sirp-despotlugu 9/9
 - İçindeki yerleşimler: Leskofça (Leskovac) (OSMANLI); Kurşunlu (Kuršumlija) (OSMANLI); Ürküp (Prokuplje) (OSMANLI)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Leskofça-Kurşunlu-Ürküp 1444-11 → 1455-06 OSMANLI, çevre Sırp Despotluğu (koridor 3 km). Segedin barışı (1444) Sırp topraklarını iade etti; Güney Morava hattının Osmanlı'ya kesin geçişi 1454-55. 1444 başlangıcı ve 3 km'lik koridor sınanmalı.
-  - Düzeltme önerisi: Leskofça vb. Osmanlı f kaynakla (TDV).
-  - Kaynak: veri ölçümü
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Leskofça-Kurşunlu-Ürküp 1444-11 → 1455 Osmanlı, Sırp Despotluğu ortasında: TDV'ye göre 1444 Segedin antlaşmasında Semendire ve 24 kale Brankoviç'e geri verilirken Kruševac ve Dubočica (Leskofça) Osmanlı'da kaldı — gerçek kalıntı (önceki YAPAY-c hükmü düzeldi).
+  - Düzeltme önerisi: Yok.
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/leskofca — '1444 Segedin Antlaşması'nda Semendire ve yirmi dört büyük kale Brankoviç'e geri verilirken Kruševac ve onunla beraber Dubočica, Osma[nlı'da kaldı]'
 
 ### K485 · litvanya-buyuk-dukalik · 1441-01-01 → 1480-01-01 · 6.300 km²
 
@@ -935,10 +935,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - En büyük kesit: 1385-01-01 · komşu: OSMANLI 52%, katalan 22%, TABI 11%
 - Koridor: 74.0 km · TABI 5/9, OSMANLI 4/9
 - İçindeki yerleşimler: Pydna (Kítros) (sahipsiz); Aigai (Vergina) (sahipsiz); Karaferye (Veria) (sirbistan); Pella (sahipsiz); Yenice-i Vardar (sahipsiz); Vodina (Edessa) (sirbistan)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Karaferye (Veria) 1385 → 1387-05-08 Sırp (Duşan sonrası yerel beylik), çevre Osmanlı ve TABI. Karaferye'nin Osmanlı fethi 1385-87; düşük güven. 4 nokta sahipsiz (antik).
   - Düzeltme önerisi: Karaferye Osmanlı f kaynakla (TDV Karaferye).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/karaferye — bir Meteora yazmasında 'Türkler'in Véria'ya hâkim oldukları 1385-86'; 'Diğer Yunan kaynakları ise şehrin Türkler tarafından alınmasının 8 Mayıs 1387'[de olduğunu]' — iki görüş, veri 1387-05-08 ile uyumlu (çelişki beyanlı)
 
 ### K496 · itilaf-emaneti · 1919-09-10 → 1920-11-12 · 6.169 km²
 
@@ -955,10 +955,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY
 - En büyük kesit: 1418-01-01 · komşu: karakoyunlu 63%, trabzon-rum 16%, OSMANLI 10%
 - Koridor: 140.8 km · cemisgezek-beyligi 4/9, dulkadir 3/9, karakoyunlu 2/9
 - İçindeki yerleşimler: Kelkit (akkoyunlu); Karahisâr-ı Şarkî (Şebinkarahisar) (akkoyunlu)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Kelkit-Şebinkarahisar Akkoyunlu payı 1410 → 1422, Diyarbakır gövdesinden Çemişgezek, Dulkadir ve Karakoyunlu ile ayrı. Düşük güven.
   - Düzeltme önerisi: Kaynakla (TDV Akkoyunlular).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV, https://islamansiklopedisi.org.tr/bayburt (K212 ile aynı: Karayülük Osman Bey dönemi Akkoyunlu)
 
 ### K498 · macaristan-habsburg · 1557-01-01 → 1566-09-02 · 6.094 km²
 

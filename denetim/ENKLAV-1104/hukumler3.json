@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K201-K300). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı.",
+"_aciklama": "ENKLAV-1104 hükümleri (K201-K300). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. KAYNAK5 (LAB SALI): 6 hüküm kaynak_toplu.py ile güncellendi.",
 "K201": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
@@ -91,18 +91,18 @@
 "K212": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Akkoyunlu Erzincan-Kemah-Bayburt-Şebinkarahisar payı 1436-1465, Diyarbakır gövdesinden Karakoyunlu Çapakçur (Bingöl) ile ayrı (koridor 28 km 9/9). Kara Yülük oğullarının Erzincan kolu bilinir; Bingöl'ün Karakoyunlu olup olmadığı kaynakla.",
 "duzeltme": "Çapakçur 1436-1465 sahibi kaynakla (TDV Akkoyunlular).",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/bayburt — Kara Yûsuf'un zaptından sonra 'Akkoyunlu Karayülük Osman Bey bu bölgeyi yeniden ele geçirdi … uzun süre Akkoyunlular'ın elinde kal[dı]' (1501'e dek)"
 },
 "K213": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Cenne (Djenné) 1861-01-01 → 03-10 'tekrur' (Hacı Ömer), çevre Bambara (Segu). Hacı Ömer Segu'yu 10 Mart 1861'de aldı; Cenne Masina'nındı ve Ömer'e 1862'de geçti. Cenne'nin 1861 başında Tekrur yazılması yanlış ve yıl hassasiyetli.",
 "duzeltme": "Cenne tekrur f → 1862 (Masina'nın düşüşü, kaynakla); önce massina.",
-"kaynak": "veri ölçümü"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/cenne — 'Cenne 1861'de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi; 1893'te ise Fransız kuvvetlerince işgal edil[di]' (tekrur kimliği Hacı Ömer devletiyse veri yıl düzeyinde doğru; 03-10 bitişi KAYNAK-GEREK)"
 },
 "K214": {
 "hukum": "YAPAY",
@@ -235,26 +235,26 @@
 "K230": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Luristan, Burûcird, Nihâvend 1340-1353 'ilhanli'. İlhanlı devleti 1335'te dağıldı; 1340 sonrası kukla hanlar Çobanoğulları/Celâyirlilerin elindeydi. Luristan Lur-i Küçek atabeylerinindi (komşu lur-i-buzurg 28%). 13 yıllık İlhanlı eksklavı kimlik uzatmasından.",
-"duzeltme": "Luristan/Burûcird 1340-1353 sahibi (lur-i-kucek atabeyliği) kaynakla (Iranica 'Lur-e Kučak').",
-"kaynak": "veri ölçümü"
+"duzeltme": "Burûcird-Hürremâbâd 1340-1353 lur-i-kucek (Şücâüddin Mahmûd, 1349'da öldü).",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/lur-i-kucek — Hürremâbâd merkezli atabeglik; Şücâüddin Mahmûd 750/1349'da öldürüldü (alıntı ENKLAV-1103/ILHANLI.md'de; kova düzeyi)"
 },
 "K231": {
-"hukum": "YAPAY",
-"kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Miknâs 1237-1245 'merini', çevre Muvahhid. Merînîler Miknâs'ı 1244-45'te geçici aldı, Fas'ı 1248'de; 1237 başlangıcı erken. Hunayfire, Velîlâ sahipsiz.",
-"duzeltme": "Miknâs merini f → 1244/45 (kaynakla, TDV Merînîler).",
-"kaynak": "veri ölçümü"
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Miknâs 1237-1245 Merînî, Muvahhid toprağı ortasında: TDV veriyi doğruluyor — 634/1237 Merînîler aldı, Muvahhidler 643/1245-46'da geri aldı (önceki YAPAY-c hükmü düzeldi).",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/miknas — 'Miknâs, 634'te (1237) … Merînîler'in eline geçti. Muvahhidler şehri 643'te (1245-46) geri aldılarsa da Merînîler iki yıl sonra tekrar Miknâs'a hâkim oldular'"
 },
 "K232": {
-"hukum": "YAPAY",
-"kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "K231 ile aynı (Miknâs) 1247-1250 kesiti: Fas 1248'de Merînî'ye geçti; Miknâs'ın Fas'tan önce kopuk Merînî kalması dönem uçlarından.",
-"duzeltme": "K231 ile aynı; Fas merini f 1248 kontrol.",
-"kaynak": "veri ölçümü"
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Miknâs 1247-1250 Merînî (iki yıl sonraki ikinci zapt), Fas'ın 1248'e dek Muvahhid kalması: TDV ile gerçek (önceki YAPAY-c düzeldi).",
+"duzeltme": "Yok.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/miknas (K231 ile aynı)"
 },
 "K233": {
 "hukum": "GERCEK",
@@ -395,10 +395,10 @@
 "K250": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Epir (Yanya, Arta, Preveze) 1334 → 1361-05-05 'bizans', çevre Sırp. Epir Despotluğu (Orsini) 1340'a dek ayrıydı; III. Andronikos 1340'ta ilhak etti; Sırplar 1348'de aldı (Simeon Uroš). Bizans dönemi yalnız 1340-1348; 1334-1340 ve 1348-1361 yanlış.",
-"duzeltme": "Epir noktaları 1334-1340 epir-despotlugu, 1340-1348 bizans, 1348 → sirbistan (kaynakla, TIB).",
-"kaynak": "veri ölçümü"
+"duzeltme": "Yanya-Arta 1342 → sirbistan-nemanjic (Duşan), 1355 → Symeon Uroš (Epir-Tesalya), 1366-67 → Preljubović.",
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/yanya — '1342'de Sırp Kralı Stefan Duşan tarafından ilhak edildi. Onun 1355'te ölümünden sonra üvey kardeşi Symeon Uroş, Epir ve Tesalya'nın idaresini eline aldı. 1366-1367'de şehir … Tomas Preljubović'in idaresine girdi'"
 },
 "K251": {
 "hukum": "GERCEK",

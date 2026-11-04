@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K101-K200). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı.",
+"_aciklama": "ENKLAV-1104 hükümleri (K101-K200). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. KAYNAK5 (LAB SALI): 1 hüküm kaynak_toplu.py ile güncellendi.",
 "K101": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
@@ -51,10 +51,10 @@
 "K107": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Hicaz isyanının ilk aylarında Mekke-Cidde-Râbiğ-Yenbu kıyı payı, Taif'teki Osmanlı garnizonu ve Medine ile Hicaz'ın öteki parçasından ayrı (koridor 27 km TABI 6/9); bitiş 1916-09-17, Taif'in teslimi (Eylül 1916) ile uyumlu görünüyor. Koridor 'TABI' (Osmanlı'ya bağlı) boyası Taif çevresi için doğru mu sınanmalı.",
 "duzeltme": "Taif teslim günü TDV ile; koridor TABI kimliği kontrol.",
-"kaynak": "veri ölçümü; TDV Şerîf Hüseyin (Haziran 1916 isyan) — KAYNAK-1104 K029"
+"kaynak": "TDV, https://islamansiklopedisi.org.tr/taif — 'Tâif … Şerîf Hüseyin'in eline geçti (17 Eylül 1916)' · 'Osmanlılar Hicaz'dan çekilince (30 Ekim 1918)'"
 },
 "K108": {
 "hukum": "GERCEK",
