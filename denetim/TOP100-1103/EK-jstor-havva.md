@@ -219,3 +219,19 @@ Kalem başına ≤15 dk; yalnız JSTOR (görüntüleyicide sayfa okundu). Arama 
 
 ### Nazilli ve Gediz 1920 — Yunan işgali günleri
 - Karar: **okunmadı (JSTOR'da yok).** "Nazilli 1920 Greek" araması gün veren sayfa getirmedi (Jensen 1979, *IJMES* 10 genel). DergiPark JSTOR'da değil.
+
+## KASA öncelikli
+
+### 1) Niş'in Habsburglarca alınışı — 1688 mi, 1689 mu?
+- Karar: **1689 (ay: Eylül 1689) — TDV'nin "24 Eylül 1688"i ile çelişki; Bánlaky'nin 1689'u ile uyumlu.** Bu, bağımsız üçüncü kaynaktır ve mühimme defterlerine (MD 98–99) dayanır.
+- Frederick F. Anscombe, "The Ottoman Empire in Recent International Politics – II: The Case of Kosovo", *The International History Review* 28/4 (Aralık 2006), s. 758–793, s. 775. https://www.jstor.org/stable/40109813
+- Alıntı: "The Habsburgs took Nis in September 1689 and, in October, they captured Kosovo"
+- Muharebe ile şehir ayrımı: Anscombe muharebeyi ayrıca anmıyor ve şehrin alınışı için gün vermiyor, yalnız "Eylül 1689" diyor. Aynı sayfada geri alış: "Nis surrendered in September 1690, and Belgrade on 8 October." Ayrıca Kasım 1688'de Hersek ve Yenipazar'da isyan var; Niş 1688'de Osmanlı'daydı. Bunu sayfadaki 1688 mühimme kayıtları da destekliyor (MD 98, Aralık 1688 – Haziran 1689 seferberlik emirleri).
+- Öneri: Niş `s:` kırılması 1689-09-24 (muharebe günü, Bánlaky). Kalenin teslim günü kaynakta ayrıca yoksa `ic_not`a "şehir Eylül 1689'da alındı (Anscombe 2006); TDV 1688 — çelişki, iki kaynakla beyan" yazılsın. 1690 Eylül geri alışı da kontrol edilmeli: kaynak Eylül 1690 diyor, gün vermiyor.
+- Stoye / Hochedlinger / Südost-Forschungen / AHY: JSTOR'da gün veren sayfa bulunamadı ("Nish 1689 Ludwig Baden", "Nis September 1689" aramaları).
+
+### 2) Plevne'nin düşüşü — 10 Aralık 1877 (Jülyen 28 Kasım)
+- Karar: **10 Aralık 1877 teyit, Gregoryen.** Kaynak kendi kronolojisini tutarlı biçimde Gregoryen veriyor: Prut geçişi 24 Nisan 1877 (Jülyen 12 Nisan), Edirne mütarekesi 31 Ocak 1878 (Jülyen 19 Ocak). Buna göre 10 Aralık, Jülyen 28 Kasım'ın karşılığıdır. Jülyen günü kaynakta açıkça yazılmıyor; dönüşüm 12 gün farkla bizim hesabımızdır.
+- F. V. Greene, "Campaign Notes in Turkey: 1877–'78", *The North American Review* 128/270 (Mayıs 1879), s. 462–480, s. 462. https://www.jstor.org/stable/25100751
+- Alıntı: "From the passage of the Danube to the fall of Plevna, June 28 to December 10, 1877."
+- Kaynak niteliği: Greene, Rus ordusu yanındaki ABD askerî ataşesiydi; çağdaş tanıklıktır, hakemli modern akademik yayın değildir. Slavic Review / SEER'de gün veren sayfa bulunamadı ("Plevna 10 December 1877", "Plevna November 28 1877" aramaları).
