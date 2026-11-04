@@ -1,0 +1,4 @@
+no	is	dosya_satir	kuyruk_tarihi	main_yeni_tarih	uyum
+L2-47	tarih düzelt	data/kronoloji_hindistan.js:272	1600-12-31	1601-01-10	1600-12-31 Jülyen (İngiltere) → 1601-01-10 Gregoryen (takvim kuralı; KASA PAZAR uyguladı)
+L2-1420	BEKLE metin (tek, akademik olmayan kaynak)	data/kronoloji_ingiltere.js#KRONOLOJI_INGILTERE[254]	1641-10-23	1641-11-02	[BEKLE — ipucu, DIB okunamadı] 1641 ayaklanması: DNB'ye göre Charlemont 22 Ekim akşamı alındı, 23 değil
+L2-1454	metin düzelt (tarih kalır)	data/kronoloji_ingiltere.js#KRONOLOJI_INGILTERE[93]	1745-08-19	1745-08-30	[TAKVİM] Charles Edward 1745: 19 Ağustos Glenfinnan sancak töreni, karaya çıkış değil (çıkış 23 Temmuz eski = 3 Ağustos 
