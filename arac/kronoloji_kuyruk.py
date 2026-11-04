@@ -36,6 +36,10 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2E 1391-1402 (EMRELİC): ganzhi günleri Academia Sinica teyidine kadar
+    "L2-1845": "[çeviri doğrulanmadı] Pingcheng'e taşınma: Wei shu c.2 天興元年秋七月 (398, 7. ay) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1851": "[çeviri doğrulanmadı] Liu Song Wen tahta çıkışı: Song shu c.5 八月丁酉 — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1846": "[çeviri doğrulanmadı] Liu Song kuruluşu 420 六月丁卯 — Academia Sinica çevirisi bekliyor (EMRELİC)",
     "L2-968": "Fîrûz Şah Topra/Meerut sütunları 1356-01-01 → 1367-09-01 ZAYIF aday: Razavi (IHC Proceedings 70, 2009-10, s.996) «Eylül 1367 makara/halat» — makale açılmadı, ikincil alıntı; Meerut anılmıyor → Razavi tam metni ya da Afif neşri gelmeden uygulanmaz",
     # L2S YENI-TARAYICI (S16)
     "L2-819": "Kosta Rika 1948-04-24 → 04-19 adayı: Archivo Nacional iç savaşı 12 Mart-19 Nisan, Meksika Büyükelçiliği Paktı 19 Nisan; 24 Nisan Figueres'in San José'ye girişi olabilir (okunmadı) → madde hangi olayı anlatıyor netleşmeden uygulanmaz",
@@ -127,6 +131,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-979": ("metin düzelt (tarih kalır)", "Yoshimitsu 1401: 1401 Mayıs'ta yalnız ilk elçilik; kangō ticareti 1404'ten itibaren (Nipponica/Ikegami «kangō», Digital Daijisen) → 1401 KALIR, metin «Ming'e ilk elçiliği gönderdi» olur; kangō 1404 ic_not'a (ya da ayrı madde)"),
     "L2-932": ("tarih düzelt", "Modena Este'ye: 1288-06-01 → 1288-12-15 (Treccani EI «Modena»: «Il 15 dicembre 1288 … offrire il dominio e le chiavi della città a Obizzo»); fiilî giriş 1289-01-23 ic_not; +197 gün — s:/sınıra bağlıysa kırılma ve ±30 gün komşu maddeler (Reggio 1289) birlikte taşınır; tek kaynak"),
     "L2-1401": ("tarih düzelt", "Tondibi / Dendi künye ucu 1591-01-01 → 1591-03-01 + «[yalnız ay teyitli; gün teyitsiz]» (Kaba, Journal of African History 1981: Mart 1591); Ta'rikh es-Sudan rivayeti 12 Nisan 1591 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
     # L2S 198-222 (S9) — EMRELİC Academia Sinica
@@ -293,6 +298,13 @@ METIN = [
     ("L2-977", "Kinkaku-ji 1397: 1397'de yapılan Kitayama-dono ve Shariden; Kinkaku-ji adı ve Zen tapınağı olması 1422 (vasiyet) → ad anakronik, ifade düzeltilir (Kotobank Daijisen)"),
     ("L2-978", "Stećci: UNESCO WHC 1504 Kotromanić'e bağlı zirve iddiası taşımaz; yayılım Bosna dışında Hersek, Hırvatistan, Karadağ, Sırbistan → metin daraltılır"),
     ("L2-965", "Kefe 1346 (Wheelis, EID 8(9) 2002) yıl tutar; «üçte biri» rakamı makalede yok → rakam çıkarılır ya da kaynaklanır"),
+    # L2S 615-626 (S21)
+    ("L2-993", "Ferrara Konsili 1438-01-08 yalnız Latin açılışı; Bizans heyeti 8 Şubat Venedik'e çıktı, VIII. Ioannes 4 Mart 1438 Ferrara'ya geldi (DBI Guarini) → «8 Ocak'ta Bizans heyeti gelip görüşmeler başladı» düzeltilir; Floransa'ya taşınma «veba» değil «salgın korkusu ve mali sebepler» (Enciclopedia Italiana)"),
+    ("L2-986", "[BEKLE — sayfa tam okunmadı] Parisina ve Ugo 1425-05-21 (DBI 68) gün tutar; Ugo «üvey oğul» değil, Niccolò'nun Stella de' Tolomei'den gayrimeşru oğlu; «kale zindanında başlattı» bozuk"),
+    ("L2-987", "Bernardino 1427-08-15 (DBI 9) gün tutar; «vaazlardan sonra şehir kanunları değişti» DBI'da yok → çıkarılır"),
+    ("L2-990", "Kapilendra 1434 (Haig CHI III) yıl tutar; devletler.js orissa kaydında aynı olay iki kez (1435-01-01 ve 1434-01-01) → yinelenen madde birleşir; 29 Haziran 1435 taç giyme yalnız Madala Panji tabanlı ikincil"),
+    ("L2-989", "Taccola De ingeneis tek günlük olay değil: 1419 başladı, III-IV ciltler 1431-33, eser 1450 bitti (DBI 70); 1433-01-02 kaynaksız → yıl hassasiyeti ve süre ifadesi"),
+    ("L2-985", "Fonte Gaia 1419-10-20: DBI 62'ye göre son ödemenin (saldo) günü, iş kısa süre önce bitti → metin «tamamlandı / son ödeme» beyanı"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
