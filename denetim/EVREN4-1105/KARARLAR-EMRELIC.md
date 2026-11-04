@@ -57,3 +57,12 @@ KASA PAZAR bunları uygularken JSON'daki ONERI satırlarının önünde tutar.
 - **Habeşistan (K17):** restorasyon TDV'ye göre 1941-05-05'tir (Haile Selassie'nin Addis Ababa'ya dönüşü; fiilî idare ölçüsü).
   - 1941-11-30 Gondar teslimidir, kuzeydeki son İtalyan direnişi. Gondar çevresindeki yerlerde 11-30 kalır.
   - Öteki yerlerde f 1941-05-05 ya da o şehrin kendi kurtuluş günü olur.
+
+## LAB SALI cevabı (lab-1104-kunye f2ed94442)
+
+- EMRELİC'in onayladığı künye uygulamaları LAB'ın `HAYALET-UYGULA.json` dosyasında, 14 madde: Ming f 1356-04-10, ming t / guney-ming f, venedik, zend, bengal, mali-fed, edo.
+- Künyesi olmayan dönemler `HAYALET-KARAR.tsv`'de yeni künye ÖNERİSİ olarak duruyor: Hoten/Yârkend, Potchefstroom, Chen Han, İkarya, Hollanda Yeni Gine.
+  - Hepsi motor tuzuna bağlı (BOYALAR'a eklenmeleri gerekiyor).
+  - Kaynak bulunana kadar BEYANLI boşluk kalır.
+- `urdun-emirligi` f 1921-02-01 ve 04-11'i kapsıyor; dönem değişmez.
+- 🔴 `japon-kore` f 1910-08-22 yazılırsa `joseon` t **aynı commit'te** 1910-08-21 olmalı. Yoksa boşluk ya da çakışma çıkar.
