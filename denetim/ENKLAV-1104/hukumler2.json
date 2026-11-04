@@ -35,10 +35,10 @@
 "K105": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Çengdu 1236-10-31 → 1260 'mogol-imparatorlugu', çevre song (koridor 351 km song 7/9). Moğollar Çengdu'yu 1236'da yağmaladı; Siçuan cephesi Song'la çekişmeli. Tek noktalı parça; 24 yıllık kesintisiz Moğol tutuşu şüpheli (şehir birkaç kez el değiştirdi). [KAYNAK-UMIT: bulunamadi — Çengdu 1236-10-31 / 1260 için TDV Cengiz Han maddesinde Çengdu/Sişuan anahtarları yok, EB 1911 Jenghiz Khan'da yok. Yuan Shi / Song Shi birincil neşirleri (Wikisource) ve Cambridge History of China vol.6 (archive.org'da tam metin yok, ödünç) okunamadı → giriş gerek. Hüküm modelin YAPAY-c önerisi kaynaksız.] [KAYNAK-UMIT: bulunamadi — Hüküm kaynaksız kalır. Moğol Siçuan seferi bölümü (Franke/Rachewiltz) ya da Song Shi/Yuan Shi neşri gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Çengdu 1236-10-31 → 1260 'mogol-imparatorlugu', çevre song (koridor 351 km song 7/9). Moğollar Çengdu'yu 1236'da yağmaladı; Siçuan cephesi Song'la çekişmeli. Tek noktalı parça; 24 yıllık kesintisiz Moğol tutuşu şüpheli (şehir birkaç kez el değiştirdi). [KAYNAK-UMIT: bulunamadi — Çengdu 1236-10-31 / 1260 için TDV Cengiz Han maddesinde Çengdu/Sişuan anahtarları yok, EB 1911 Jenghiz Khan'da yok. Yuan Shi / Song Shi birincil neşirleri (Wikisource) ve Cambridge History of China vol.6 (archive.org'da tam metin yok, ödünç) okunamadı → giriş gerek. Hüküm modelin YAPAY-c önerisi kaynaksız.] [KAYNAK-UMIT: bulunamadi — Hüküm kaynaksız kalır. Moğol Siçuan seferi bölümü (Franke/Rachewiltz) ya da Song Shi/Yuan Shi neşri gerek.] [KAYNAK-UMIT (celiski): Bu bölümde 1236 Chengdu alınışı yok; Ch'eng-tu Mart 1258'de (Möngke'nin Sichuan seferi) alındı. — \"Ch'eng-tu … (taken March 1258)\" · 1236-1260 kesintisiz Moğol tutuşu desteklenmiyor: hüküm (şüpheli) doğru yönde; 1236 yağması ile 1258 kalıcı alınış ayrılmalı. 1236-1258 Song dönemi kaynakla kurulmalı.]",
 "duzeltme": "Çengdu 1236-1260 sahiplik zinciri kaynakla; muhtemelen YAPAY-c.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 6, ch. 5 (M. Rossabi, \"The reign of Khubilai khan\"), s. 421 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K106": {
 "hukum": "GERCEK",
@@ -147,10 +147,10 @@
 "K119": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Taiyuan 1218-08-23 → 1225 'mogol-imparatorlugu', çevre jin (koridor 111 km 9/9); Pingyao sahipsiz. Mukali 1218'de Taiyuan'ı aldı; kuzey Şansi (Datong, Xinzhou) Moğol elindeyse kopukluk ara nokta eksikliğindendir. [KAYNAK-UMIT: bulunamadi — Mukali'nin Taiyuan'ı 1218-08-23'te alması ve Şansi'nin Moğol elinde olması TDV/EB'de bulunamadı (Taiyuan/Shansi anahtarları yok). Yuan Shi 'Muhuli' biyografisi (juan 119) ve Jin Shi okunmadı → giriş gerek.] [KAYNAK-UMIT: bulunamadi — Mukali'nin 1218 Taiyuan'ı alması kaynaklanamadı. Cambridge History of China vol. 6 Moğol-Jin bölümü elle okunmalı.]",
+"guven": "KAYNAKLI",
+"gerekce": "Taiyuan 1218-08-23 → 1225 'mogol-imparatorlugu', çevre jin (koridor 111 km 9/9); Pingyao sahipsiz. Mukali 1218'de Taiyuan'ı aldı; kuzey Şansi (Datong, Xinzhou) Moğol elindeyse kopukluk ara nokta eksikliğindendir. [KAYNAK-UMIT: bulunamadi — Mukali'nin Taiyuan'ı 1218-08-23'te alması ve Şansi'nin Moğol elinde olması TDV/EB'de bulunamadı (Taiyuan/Shansi anahtarları yok). Yuan Shi 'Muhuli' biyografisi (juan 119) ve Jin Shi okunmadı → giriş gerek.] [KAYNAK-UMIT: bulunamadi — Mukali'nin 1218 Taiyuan'ı alması kaynaklanamadı. Cambridge History of China vol. 6 Moğol-Jin bölümü elle okunmalı.] [KAYNAK-UMIT (celiski): Mukali Taiyuan'ı 1218 Ekim'inde aldı (gün yok). — \"T'ai-yüan ... was taken in October\" · Atlasın 1218-08-23 başlangıcı kaynakla çelişiyor: ay Ekim 1218. Gün yoksa 1218-10-01 + beyan (yıl/ay hassasiyeti).]",
 "duzeltme": "Datong/Xinzhou 1215-1225 sahipliği kaynakla; Pingyao dönemi.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 6, ch. 4 (T. T. Allsen, \"The rise of the Mongolian empire and Mongolian rule in north China\"), s. 358 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K120": {
 "hukum": "YAPAY",
@@ -331,10 +331,10 @@
 "K142": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Batı Yunnan Qing payı (Tengyue, Yongchang, Lijiang) 1858-1873, Qing gövdesinden Dali'deki Pingnan (Panthay) sultanlığıyla ayrı (koridor 21 km 9/9); bitiş 1873-01-15 Dali'nin düşüşü. Düşük güven: Tengyue/Yongchang'ın bu yıllarda Panthay eline geçip geçmediği kaynakla sınanmalı (Panthaylar batı Yunnan'ın çoğunu tuttu). [KAYNAK-UMIT: bulunamadi — Panthay/Dali (Du Wenxiu sultanlığı 1856-1873), Tengyue-Yongchang'ın 1858-1873 sahibi bu kaynaklarda bulunamadı (EB 'Yun-nan' kısa maddesi Panthay anmıyor; TDV Çin'de yok). Yıl-gün için Cambridge Hist. of China vol.10-11 (ödünç, erişilemedi) / Encyclopaedia Iranica yok → giriş gerek.] [KAYNAK-UMIT: giris_gerek — Cambridge History of China vol. 10 (archive.org metni mevcut, 798 KB) içinde 'Panthay', 'Tali', 'Tu Wen-hsiu' anahtarlarıyla aranmalı.]",
+"guven": "KAYNAKLI",
+"gerekce": "Batı Yunnan Qing payı (Tengyue, Yongchang, Lijiang) 1858-1873, Qing gövdesinden Dali'deki Pingnan (Panthay) sultanlığıyla ayrı (koridor 21 km 9/9); bitiş 1873-01-15 Dali'nin düşüşü. Düşük güven: Tengyue/Yongchang'ın bu yıllarda Panthay eline geçip geçmediği kaynakla sınanmalı (Panthaylar batı Yunnan'ın çoğunu tuttu). [KAYNAK-UMIT: bulunamadi — Panthay/Dali (Du Wenxiu sultanlığı 1856-1873), Tengyue-Yongchang'ın 1858-1873 sahibi bu kaynaklarda bulunamadı (EB 'Yun-nan' kısa maddesi Panthay anmıyor; TDV Çin'de yok). Yıl-gün için Cambridge Hist. of China vol.10-11 (ödünç, erişilemedi) / Encyclopaedia Iranica yok → giriş gerek.] [KAYNAK-UMIT: giris_gerek — Cambridge History of China vol. 10 (archive.org metni mevcut, 798 KB) içinde 'Panthay', 'Tali', 'Tu Wen-hsiu' anahtarlarıyla aranmalı.] [KAYNAK-UMIT (kismen): Du Wenxiu 1856'da Dali'de krallık kurdu, 1873'te öldü; Ma Rulong 1862'de Qing'e teslim oldu. · Pingnan/Dali çerçevesi teyitli (1856-1873); Batı Yunnan Qing cepleri (Tengyue, Yongchang) ve Dali'nin düşüş günü (1873-01-15) okunmadı.]",
 "duzeltme": "Tengyue/Yongchang 1858-1873 sahibi kaynakla; Dali Eski Kenti sahipsiz.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 11 pt 2, ch. 4 (Batı Yunnan Müslüman isyanı), ~s. 213 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K143": {
 "hukum": "GERCEK",
@@ -459,18 +459,18 @@
 "K158": {
 "hukum": "YAPAY",
 "kova": "YAPAY-b",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Yangzhou 1645-05-20 → 06-08 'qing', çevre güney-ming (koridor 134 km 6/9). Qing Huai hattından inerek Yangzhou'yu aldı; arkadaki Huai'an/Xuzhou teslim olmuştu. 19 günlük kopukluk, kuzey Jiangsu noktalarının Qing f günlerinin Nanjing'in düşüşüne (1645-06-08) bağlanmasından. [KAYNAK-UMIT: giris_gerek — Okunmadı. Yangzhou 1645 (Dodo, Mayıs 1645) için Cambridge History of China vol. 7 ya da Wakeman 'The Great Enterprise' sayfası gerek; Britannica 403, EB 1911 'Yangchow' maddesi okunmadı.] [KAYNAK-UMIT: bulunamadi — Qing'in Yangzhou'yu Mayıs 1645'te alması kaynaklanamadı. Wakeman 'The Great Enterprise' ya da vol. 9 Part 1 ('Conquest') elle okunmalı.]",
+"guven": "KAYNAKLI",
+"gerekce": "Yangzhou 1645-05-20 → 06-08 'qing', çevre güney-ming (koridor 134 km 6/9). Qing Huai hattından inerek Yangzhou'yu aldı; arkadaki Huai'an/Xuzhou teslim olmuştu. 19 günlük kopukluk, kuzey Jiangsu noktalarının Qing f günlerinin Nanjing'in düşüşüne (1645-06-08) bağlanmasından. [KAYNAK-UMIT: giris_gerek — Okunmadı. Yangzhou 1645 (Dodo, Mayıs 1645) için Cambridge History of China vol. 7 ya da Wakeman 'The Great Enterprise' sayfası gerek; Britannica 403, EB 1911 'Yangchow' maddesi okunmadı.] [KAYNAK-UMIT: bulunamadi — Qing'in Yangzhou'yu Mayıs 1645'te alması kaynaklanamadı. Wakeman 'The Great Enterprise' ya da vol. 9 Part 1 ('Conquest') elle okunmalı.] [KAYNAK-UMIT (kismen): Shi Kefa Yangzhou'yu ölümüne savundu; Nanjing 8 Haziran 1645'te teslim oldu. Yangzhou'nun düşüş günü bu bölümde yok. — \"defended to the death\" · Bitiş (Nanjing 1645-06-08) atlasın 06-08 bitişiyle birebir; Yangzhou 1645-05-20 başlangıcı teyitsiz (CHC 7, Struve s. 656-658 okunmalı).]",
 "duzeltme": "Huai'an, Xuzhou Qing f günleri kaynakla (Mayıs 1645).",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 9 pt 1, ch. 2 (J. Dennerline, \"The Shun-chih reign\"), s. 86 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K159": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Wuchang 1275-01-15 → 1276-01-18 'yuan': Bayan Yangzi'yi Ezhou'da geçti, Song'un Yingzhou kalesini arkada bırakarak aşağı indi; Xiangyang gövdesinden Song toprağıyla ayrı kalmış olabilir. Nanchang, Jiujiang sahipsiz (koridor song 9/9). Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. Bayan'ın Yangzi geçişi (Ocak 1275, Ezhou/Wuchang) için Cambridge History of China vol. 6 (Alien Regimes) bölümü gerek; açık metin bulunamadı.] [KAYNAK-UMIT: bulunamadi — Yangzi geçişi ve Wuchang/Ezhou günleri kaynaklanamadı; hüküm kaynaksız.]",
+"guven": "KAYNAKLI",
+"gerekce": "Wuchang 1275-01-15 → 1276-01-18 'yuan': Bayan Yangzi'yi Ezhou'da geçti, Song'un Yingzhou kalesini arkada bırakarak aşağı indi; Xiangyang gövdesinden Song toprağıyla ayrı kalmış olabilir. Nanchang, Jiujiang sahipsiz (koridor song 9/9). Düşük güven. [KAYNAK-UMIT: giris_gerek — Okunmadı. Bayan'ın Yangzi geçişi (Ocak 1275, Ezhou/Wuchang) için Cambridge History of China vol. 6 (Alien Regimes) bölümü gerek; açık metin bulunamadı.] [KAYNAK-UMIT: bulunamadi — Yangzi geçişi ve Wuchang/Ezhou günleri kaynaklanamadı; hüküm kaynaksız.] [KAYNAK-UMIT (kismen): Bayan Yangzi'yi Han-k'ou'da Ocak 1275'te geçti (ay teyitli, gün yok). Wuchang teslimi okunmadı. — \"crossed the Yangtze at Han-k'ou in January 1275\" · Atlasın 1275-01-15 ayı uyumlu; gün teyitsiz.]",
 "duzeltme": "Han ırmağı hattı (Yingzhou, Fuzhou) 1275 sahipliği kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 6, ch. 5 (M. Rossabi), s. 434 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K160": {
 "hukum": "GERCEK",
@@ -659,10 +659,10 @@
 "K183": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Ji'an 1856-03-02 → 1858-09-22 'taiping', Nanjing gövdesinden Qing toprağıyla ayrı (koridor 80 km 9/9). Shi Dakai'nin Jiangxi seferi (1855-56) birçok Jiangxi şehrini aldı; Ji'an Qing'e 1858'de düştü. Taiping'in Jiangxi'deki öteki şehirleri nokta olarak yoksa alan yanlış, kopukluk büyük ölçüde gerçek. [KAYNAK-UMIT: giris_gerek — Okunmadı. Ji'an'ın Taiping eline geçişi (Shi Dakai Jiangxi seferi 1855-56) için Cambridge History of China vol. 10 gerek; EB 1911 'Taiping' sayfası bulunamadı.] [KAYNAK-UMIT: bulunamadi — Ji'an'ın Taiping'e geçişi kaynaklanamadı. Vol. 10 Taiping bölümü 'Shih Ta-k'ai' ve 'Kiangsi' anahtarlarıyla aranmalı.]",
+"guven": "KAYNAKLI",
+"gerekce": "Ji'an 1856-03-02 → 1858-09-22 'taiping', Nanjing gövdesinden Qing toprağıyla ayrı (koridor 80 km 9/9). Shi Dakai'nin Jiangxi seferi (1855-56) birçok Jiangxi şehrini aldı; Ji'an Qing'e 1858'de düştü. Taiping'in Jiangxi'deki öteki şehirleri nokta olarak yoksa alan yanlış, kopukluk büyük ölçüde gerçek. [KAYNAK-UMIT: giris_gerek — Okunmadı. Ji'an'ın Taiping eline geçişi (Shi Dakai Jiangxi seferi 1855-56) için Cambridge History of China vol. 10 gerek; EB 1911 'Taiping' sayfası bulunamadı.] [KAYNAK-UMIT: bulunamadi — Ji'an'ın Taiping'e geçişi kaynaklanamadı. Vol. 10 Taiping bölümü 'Shih Ta-k'ai' ve 'Kiangsi' anahtarlarıyla aranmalı.] [KAYNAK-UMIT (kismen): Shi Dakai 1856'da Jiangxi'nin çoğunu aldı; Ji'an adı geçmiyor, günler yok. · Taiping'in 1856 Jiangxi tutuşu genel çerçevede teyitli; Ji'an 1856-03-02 / 1858-09-22 günleri teyitsiz.]",
 "duzeltme": "Jiangxi Taiping şehirleri (Ruizhou, Linjiang, Fuzhou) 1856-1858 noktaları kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 10, ch. 6 (P. Kuhn, \"The Taiping Rebellion\"), s. 291 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K184": {
 "hukum": "GERCEK",

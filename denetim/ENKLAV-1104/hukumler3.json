@@ -307,10 +307,10 @@
 "K239": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Wuchang 1911-10-10 (Wuchang ayaklanması) → 1912-02-12 (tahttan feragat) cumhuriyetçi Hubei, öteki devrimci eyaletlerden Qing toprağıyla ayrı (koridor 202 km 9/9). İlk haftalarda gerçek; Hunan (22 Ekim) ve Jiangxi katılımıyla bağlantı kurulmuş olmalı — sonraki kesitler sınanmalı. [KAYNAK-UMIT: giris_gerek — Okunmadı (EB 1911 dönemden önce; Cambridge History of China vol. 11 gerek). Wuchang 10 Ekim 1911, Hunan 22 Ekim, 12 Şubat 1912 feragat: sayfa açılmadı.] [KAYNAK-UMIT: bulunamadi — 10 Ekim 1911, 22 Ekim Hunan, 12 Şubat 1912 tarihleri bu turda kaynaklanamadı.]",
+"guven": "KAYNAKLI",
+"gerekce": "Wuchang 1911-10-10 (Wuchang ayaklanması) → 1912-02-12 (tahttan feragat) cumhuriyetçi Hubei, öteki devrimci eyaletlerden Qing toprağıyla ayrı (koridor 202 km 9/9). İlk haftalarda gerçek; Hunan (22 Ekim) ve Jiangxi katılımıyla bağlantı kurulmuş olmalı — sonraki kesitler sınanmalı. [KAYNAK-UMIT: giris_gerek — Okunmadı (EB 1911 dönemden önce; Cambridge History of China vol. 11 gerek). Wuchang 10 Ekim 1911, Hunan 22 Ekim, 12 Şubat 1912 feragat: sayfa açılmadı.] [KAYNAK-UMIT: bulunamadi — 10 Ekim 1911, 22 Ekim Hunan, 12 Şubat 1912 tarihleri bu turda kaynaklanamadı.] [KAYNAK-UMIT (tam): Wuchang ayaklanması 10 Ekim 1911; Qing'in tahttan feragati 12 Şubat 1912. Hunan'ın katılımı (22 Ekim) okunmadı. — \"Ch'ing abdicated on 12 February\" · İki uç gün düzeyinde teyitli; kopukluğun bitişini sağlayan Hunan/Jiangxi katılım günleri ayrıca okunmalı.]",
 "duzeltme": "Hunan (Changsha 1911-10-22), Jiangxi şehirleri cin-cumhuriyeti f kontrol.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 11 pt 2, ch. 9 (1911 Devrimi), s. 525, 531 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K240": {
 "hukum": "YAPAY",
@@ -524,7 +524,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Taşkurgan (Sarıkol) 1864-06-04 → 1865 'qing', çevre Yakub Bey ve Hokand. 1864 Dungan/Kaşgar ayaklanmasında Qing Tarım garnizonları düştü; Sarıkol'un kısa süre Qing'e bağlı kalması mümkün. Düşük güven. [KAYNAK-UMIT: bulunamadi — Sarıkol 1864-65 Qing bağlılığı için Cambridge History of China vol. 10 (Fletcher) ya da Kim Ho-dong 'Holy War in China' gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — Sarıkol'un 1864-65 Qing bağlılığı kaynaklanamadı. Cambridge History of China vol. 10 (Fletcher) 'Sarikol/Tashkurgan' ile aranmalı.]",
+"gerekce": "Taşkurgan (Sarıkol) 1864-06-04 → 1865 'qing', çevre Yakub Bey ve Hokand. 1864 Dungan/Kaşgar ayaklanmasında Qing Tarım garnizonları düştü; Sarıkol'un kısa süre Qing'e bağlı kalması mümkün. Düşük güven. [KAYNAK-UMIT: bulunamadi — Sarıkol 1864-65 Qing bağlılığı için Cambridge History of China vol. 10 (Fletcher) ya da Kim Ho-dong 'Holy War in China' gerek; okunmadı.] [KAYNAK-UMIT: bulunamadi — Sarıkol'un 1864-65 Qing bağlılığı kaynaklanamadı. Cambridge History of China vol. 10 (Fletcher) 'Sarikol/Tashkurgan' ile aranmalı.] [KAYNAK-UMIT: bulunamadi — 1864-65 Sarıkol Qing bağlılığı bölümde yok; Sarıkol 'Yarkand ilçesinin parçası', 1834'te Hokand işgali anılıyor. Hükmün düşük güvenli iddiası desteklenmedi.]",
 "duzeltme": "Taşkurgan 1864-1865 sahibi kaynakla.",
 "kaynak": "veri ölçümü"
 },
