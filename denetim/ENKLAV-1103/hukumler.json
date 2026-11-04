@@ -123,10 +123,10 @@
 "E016": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
-"guven": "KAYNAK-GEREK",
-"gerekce": "1853 antlaşmasıyla Berar İngilizlere atandı; Nizam'ın Marathwada'sı (Evrengâbâd) Nanded hattında ana gövdeye bitişikti. 34 km 'İngiliz koridoru' Berar peteğinin noktasız şişmesi.",
+"guven": "KAYNAKLI",
+"gerekce": "1853 antlaşmasıyla Berar İngilizlere atandı; Nizam'ın Marathwada'sı (Evrengâbâd) Nanded hattında ana gövdeye bitişikti. 34 km 'İngiliz koridoru' Berar peteğinin noktasız şişmesi. [KAYNAK-UMIT (kismen): Berar 1853'ten beri İngiliz hükümetince Nizam adına yönetilen Hyderabad Assigned Districts idi. — \"administered by the British Government on behalf of His Highness the Nizam of Hyderabad since 1853\" · 1853 devri teyitli ama egemenlik Nizam'da kaldı (yönetim İngiliz, atanmış bölge). Nanded/Hingoli bitişikliği okunmadı. Hüküm YAPAY makul; Berar statüsü v: olarak beyan edilmeli.]",
 "duzeltme": "Nanded/Hingoli'ye Nizam noktası (kaynakla).",
-"kaynak": "bulunamadı (Aitchison, Treaties)"
+"kaynak": "Imperial Gazetteer of India 1908, Provincial Series Berar, madde Berar (archive.org in.ernet.dli.2015.206982) · önceki: bulunamadı (Aitchison, Treaties)"
 },
 "E017": {
 "hukum": "BIRLESMELI",
@@ -148,7 +148,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Nyangwe'yi Svahili-Arap tüccar beylikleri tuttu; Zengibar sultanlığı orada fiilî hâkim değildi. 883 km koridor.",
+"gerekce": "Nyangwe'yi Svahili-Arap tüccar beylikleri tuttu; Zengibar sultanlığı orada fiilî hâkim değildi. 883 km koridor. [KAYNAK-UMIT: bulunamadi — Nyangwe 1893 sahibi ve Kongo Serbest Devleti 04.03.1893 teyitsiz. Giriş: GHA VI Congo bölümü. Svahili-Arap devleti yönünde hüküm makul.]",
 "duzeltme": "Nyangwe 1893 öncesi sahibi kaynakla; Kongo Serbest Devleti 04.03.1893 (teyitsiz).",
 "kaynak": "bulunamadı"
 },
@@ -156,7 +156,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Bagration sonrası Sovyetler 27.07.1944'te Şiauliai'ye ulaşıp Litvanya cebini Letonya'dan kesti; Kaunas 01.08.1944. 5 günlük cephe anı.",
+"gerekce": "Bagration sonrası Sovyetler 27.07.1944'te Şiauliai'ye ulaşıp Litvanya cebini Letonya'dan kesti; Kaunas 01.08.1944. 5 günlük cephe anı. [KAYNAK-UMIT: giris_gerek — Bagration sonrası Şiauliai 27.07.1944, Kaunas 01.08.1944: Glantz & House, When Titans Clashed gibi akademik kaynak okunmalı.]",
 "duzeltme": "yok",
 "kaynak": "bulunamadı"
 },
@@ -524,7 +524,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-b",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Ölçüldü: Irgen (Zabaykalye, Çita yakını) 1654-1917 rusya, 1917-11-07 → 1991 kesintisiz sovyet-rusya; Uzak Doğu Cumhuriyeti dönemi yok. Çita (UDC) tek nokta; UDC Zabaykalye'yi ve Amur/Primorye'yi kapsayan bitişik bir tampon devletti, 16 bin km² 'enklav' çevre noktaların UDC'ye yazılmamasından.",
+"gerekce": "Ölçüldü: Irgen (Zabaykalye, Çita yakını) 1654-1917 rusya, 1917-11-07 → 1991 kesintisiz sovyet-rusya; Uzak Doğu Cumhuriyeti dönemi yok. Çita (UDC) tek nokta; UDC Zabaykalye'yi ve Amur/Primorye'yi kapsayan bitişik bir tampon devletti, 16 bin km² 'enklav' çevre noktaların UDC'ye yazılmamasından. [KAYNAK-UMIT: giris_gerek — Uzak Doğu Cumhuriyeti 06.04.1920 kuruluş, 10-14.11.1920 Çita başkent, 14.11.1922 katılma: Carr, The Bolshevik Revolution; Smele akademik kaynak okunmalı.]",
 "duzeltme": "Irgen ve Zabaykalye/Amur noktalarına 1920-1922 UDC dönemi (gün bulunamadı; kuruluş ve Çita başkent geçişi kaynakla sınansın).",
 "kaynak": "bulunamadı (TDV kapsamıyor; akademik UDC kaynağı gerek)"
 },
@@ -540,7 +540,7 @@
 "hukum": "GERCEK",
 "kova": "GERCEK",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Sevilla 1936-07-18 → 1939-04-01 ispanya-milliyetci; Seville darbe günü Queipo de Llano'nun elinde, Cumhuriyet toprağıyla çevrili, Afrika Ordusu bağlantısı Ağustos ortasında kuruldu. Atlas tutarlı; alan şişkin (Cádiz/Córdoba/Granada milliyetçi tutuldu, bu noktalar ayrıca sınanmalı). Ilipa (Alcalá del Río) kayıtta bit 1281: dönemsiz (ölçüldü).",
+"gerekce": "Sevilla 1936-07-18 → 1939-04-01 ispanya-milliyetci; Seville darbe günü Queipo de Llano'nun elinde, Cumhuriyet toprağıyla çevrili, Afrika Ordusu bağlantısı Ağustos ortasında kuruldu. Atlas tutarlı; alan şişkin (Cádiz/Córdoba/Granada milliyetçi tutuldu, bu noktalar ayrıca sınanmalı). Ilipa (Alcalá del Río) kayıtta bit 1281: dönemsiz (ölçüldü). [KAYNAK-UMIT: giris_gerek — Sevilla 18.07.1936 Queipo de Llano: Preston, The Spanish Civil War; Thomas okunmalı.]",
 "duzeltme": "Cádiz, Córdoba, Granada, Huelva milliyetçi dönemleri 1936-07 sonrası sınansın; Ilipa'ya dönem ya da kaldırma.",
 "kaynak": "bulunamadı (TDV kapsamaz; akademik İç Savaş kaynağı gerek)"
 },

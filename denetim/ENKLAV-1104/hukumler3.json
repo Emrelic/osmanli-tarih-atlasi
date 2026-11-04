@@ -691,10 +691,10 @@
 "K287": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Sirhind 1809-04-25 → 1849 'sih-imparatorlugu', çevre İngiliz (koridor 23 km). 1809 Amritsar Antlaşması Ranjit Singh'i Satluj'un kuzeyiyle sınırladı; Sirhind Satluj-ötesi (Cis-Sutlej) Patiala toprağı, İngiliz himayesinde. Sih İmparatorluğu yazımı yanlış.",
+"guven": "KAYNAKLI",
+"gerekce": "Sirhind 1809-04-25 → 1849 'sih-imparatorlugu', çevre İngiliz (koridor 23 km). 1809 Amritsar Antlaşması Ranjit Singh'i Satluj'un kuzeyiyle sınırladı; Sirhind Satluj-ötesi (Cis-Sutlej) Patiala toprağı, İngiliz himayesinde. Sih İmparatorluğu yazımı yanlış. [KAYNAK-UMIT (tam): 1809 anlaşmasıyla Ranjit Singh Satluj'un sol yakasına tecavüz etmemeyi, karşılığında kuzeydeki fetihlerinde egemenliğinin tanınmasını kabul etti; Cis-Sutlej Sih beylikleri İngiliz himayesine girdi. — \"not to encroach on the left bank of the Sutlej\" · Sirhind Satluj'un sol yakasında; sih-imparatorlugu yazımı yanlış. Patiala adı bu pasajda yok; 1849 bitiş ayrıca kaynaklanmadı.]",
 "duzeltme": "Sirhind 1809-1849 sahibi patiala (İngiliz v:) kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "Imperial Gazetteer of India 1908, Punjab Vol. I (archive.org dli.ernet.15107), tarih bölümü · önceki: veri ölçümü"
 },
 "K288": {
 "hukum": "GERCEK",
@@ -780,7 +780,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Yelisavetgrad ve Novomirgorod 1740 → 1775-06-16 'rusya', çevre Lehistan, Zaporojye, TABI. Yeni Sırbistan kolonisi 1752'de, Aziz Yelizaveta kalesi 1754'te kuruldu; 1740 başlangıcı o devirde yok. 1775-06-16 Zaporojye Siçi'nin kaldırılması (bitiş uyumlu).",
+"gerekce": "Yelisavetgrad ve Novomirgorod 1740 → 1775-06-16 'rusya', çevre Lehistan, Zaporojye, TABI. Yeni Sırbistan kolonisi 1752'de, Aziz Yelizaveta kalesi 1754'te kuruldu; 1740 başlangıcı o devirde yok. 1775-06-16 Zaporojye Siçi'nin kaldırılması (bitiş uyumlu). [KAYNAK-UMIT: giris_gerek — Yeni Sırbistan 1752 / Aziz Yelizaveta kalesi 1754: Treccani/Rusça akademik (Brockhaus-Efron) ya da Encyclopedia of Ukraine (internet) okunmalı.]",
 "duzeltme": "Yelisavetgrad kur 1754, Novomirgorod 1752 (kaynakla); öncesi kırp.",
 "kaynak": "veri ölçümü"
 },
@@ -795,9 +795,9 @@
 "K300": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Gvalyar kalesi 1761-01-14 (Panipat) → 1783-07-21 'babur', çevre Maratha, Bundela, Avad. Gvalyar 1761 sonrası Gohad Câtlarının (Rana), sonra Mahadji Sindhia'nın; Popham 3 Ağustos 1780'de İngilizler adına aldı, 1781-83 Gohad'a verildi, Sindhia 1783'te geri aldı. Bâbürlü dönemi yanlış.",
+"guven": "KAYNAKLI",
+"gerekce": "Gvalyar kalesi 1761-01-14 (Panipat) → 1783-07-21 'babur', çevre Maratha, Bundela, Avad. Gvalyar 1761 sonrası Gohad Câtlarının (Rana), sonra Mahadji Sindhia'nın; Popham 3 Ağustos 1780'de İngilizler adına aldı, 1781-83 Gohad'a verildi, Sindhia 1783'te geri aldı. Bâbürlü dönemi yanlış. [KAYNAK-UMIT (kismen): Panipat 1761 sonrası Gohad Cât şefi Lokendra Singh kaleyi aldı, Sindhia kısa sürede çıkardı; 1780'de Popham tugayı aldı, Gohad Rana'sına verildi, Sindhia 1784'te geri aldı. — \"retaken by Sindhia in 1784\" · Zincir (Gohad/Sindhia/İngiliz 1780) teyitli. ÇELİŞKİ: gerekçedeki 1783-07-21 yerine IGI 1784 diyor. Bâbürlü yazımı yanlış.]",
 "duzeltme": "Gvalyar 1761-1783 zinciri (gohad / maratha / ingiliz) kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "Imperial Gazetteer of India 1908, Vol. XII (Einme to Gwalior), madde Gwalior City (archive.org in.ernet.dli.2015.207390) · önceki: veri ölçümü"
 }
 }
