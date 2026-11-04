@@ -98,7 +98,8 @@
   "bolge": "kuzey-afrika",
   "agirlik": 2274,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de madde yok. Arama: 'Guanche' (başlıklarda 0 sonuç), 'Kanarya Adaları' (yalnız Afrika, Cezayir, Coğrafya, Hayvan, İspanya, Seydi Ali Reis içerik eşleşmesi; polity maddesi yok)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de madde yok. Arama: 'Guanche' (başlıklarda 0 sonuç), 'Kanarya Adaları' (yalnız Afrika, Cezayir, Coğrafya, Hayvan, İspanya, Seydi Ali Reis içerik eşleşmesi; polity maddesi yok). · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "yarkent-hanligi",
@@ -152,6 +153,17 @@
   "tdv_disi": true
  },
  {
+  "id": "kalacuri-tripuri",
+  "hukum": "GIRISLI",
+  "veri_f": "0850-01-01",
+  "veri_t": null,
+  "bolge": "guney-asya",
+  "agirlik": 1001,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Kalachuri (0 sonuç). Kalaçuri/Çedi maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
   "id": "chamba",
   "hukum": "GIRISLI",
   "veri_f": "0550-01-01",
@@ -159,7 +171,8 @@
   "bolge": "guney-asya",
   "agirlik": 998,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Chamba Krallığı maddesi yok. Aramalar: 'Çamba' (yalnız içerik eşleşmesi: Ferruhsiyer, Nizâmülmülk Âsafcâh, Ordu); HİNDİSTAN makalesinde Chamba yok (Champa/Câbe farklı)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Chamba Krallığı maddesi yok. Aramalar: 'Çamba' (yalnız içerik eşleşmesi: Ferruhsiyer, Nizâmülmülk Âsafcâh, Ordu); HİNDİSTAN makalesinde Chamba yok (Champa/Câbe farklı). · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "portekiz-hindistani-goa",
@@ -292,7 +305,8 @@
   "bolge": "anadolu",
   "agirlik": 633,
   "tdv_madde": "sis, ermeniler",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Kilikya Ermeni Krallığı maddesi yok. Aramalar: 'Kilikya' ve 'Kilikya Ermeni Krallığı' (başlık eşleşmesi 0; içerik: Adana, Anadolu Beylikleri, Haçlılar, Hıristiyanlık vb.), 'Sis' (ŞÎS = Şît, alakasız), 'Ermeniler' (madde yok). 1199/1375 TDV'de okunmadı."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Kilikya Ermeni Krallığı maddesi yok. Aramalar: 'Kilikya' ve 'Kilikya Ermeni Krallığı' (başlık eşleşmesi 0; içerik: Adana, Anadolu Beylikleri, Haçlılar, Hıristiyanlık vb.), 'Sis' (ŞÎS = Şît, alakasız), 'Ermeniler' (madde yok). 1199/1375 TDV'de okunmadı. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "zambiya",
@@ -335,6 +349,17 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KENYA (/kenya): \"ve 12 Aralık 1963 tarihinde ülke bağımsızlığına kavuştu\" (f=1963-12-12 bağımsızlık/Dominyon). \"birinci yıl dönümünde de Kenyatta bağımsız Kenya’nın ilk devlet başkanı seçildi\" (Cumhuriyet 12.12.1964 ile uyumlu)."
  },
  {
+  "id": "gond-kralliklari",
+  "hukum": "GIRISLI",
+  "veri_f": "1301-01-01",
+  "veri_t": "1781-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 521,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Gond (27 gürültülü sonuç; ilgili dedicated madde yok). · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
   "id": "mozambik",
   "hukum": "TEYIT",
   "veri_f": "1975-06-25",
@@ -375,6 +400,28 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MEYSÛR (meysur): Tipu Sultan \"muharebe meydanında öldü (Mayıs 1799)\"; Hindu hanedandan beş yaşında bir çocuk tahta çıkarılıp racalık yeniden kuruldu (1799, gün yok); \"Bölgedeki İngiliz hâkimiyeti 1947'ye kadar sürdü\" ve racalık Hindistan devletine katıldı (t yıl teyit, gün yok). Gün TDV'de yok; ayrıca madde Wodeyar adını anmıyor."
  },
  {
+  "id": "cola",
+  "hukum": "GIRISLI",
+  "veri_f": "0850-01-01",
+  "veri_t": "1279-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 439,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Cola Chola (0 sonuç). Çola maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "bundela-orcha",
+  "hukum": "GIRISLI",
+  "veri_f": "1531-01-01",
+  "veri_t": "1948-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 417,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Bundela (yalnız baburluler, evrengzib; geçen cümle). Orchha/Bundela maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
   "id": "israil-devleti",
   "hukum": "TEYIT",
   "veri_f": "1948-05-14",
@@ -392,7 +439,8 @@
   "bolge": "guney-asya",
   "agirlik": 380,
   "tdv_madde": "bengal-sultanligi",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BENGAL SULTANLIĞI (/bengal-sultanligi; TDV genel madde/geçen cümle): \"Sena hânedanına mensup olan Ballâl Sen (Vallâle Sena 1108-1119), Gavr (Leknevtî) şehrini kurarak\" ve Bengal \"Muhammed Bahtiyâr tarafından 1203-1204 yıllarında Türk hâkimiyeti altına alındı\" (Sena'nın Batı Bengal'daki sonu; atlas t=1260 Doğu Bengal devamıyla ilgili TDV'de yok, f=1095 yok). Dedicated Sena maddesi yok; DUZELT yazılmadı. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BENGAL SULTANLIĞI (/bengal-sultanligi; TDV genel madde/geçen cümle): \"Sena hânedanına mensup olan Ballâl Sen (Vallâle Sena 1108-1119), Gavr (Leknevtî) şehrini kurarak\" ve Bengal \"Muhammed Bahtiyâr tarafından 1203-1204 yıllarında Türk hâkimiyeti altına alındı\" (Sena'nın Batı Bengal'daki sonu; atlas t=1260 Doğu Bengal devamıyla ilgili TDV'de yok, f=1095 yok). Dedicated Sena maddesi yok; DUZELT yazılmadı. [LAB elemesi: ajan KISMEN dedi → GIRISLI] · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "bulgaristan-cumhuriyeti",
@@ -462,7 +510,19 @@
   "bolge": "guney-asya",
   "agirlik": 338,
   "tdv_madde": "seylan; sri-lanka",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SEYLAN (/seylan) yalnız \"bk. SRİ LANKA\". SRİ LANKA (/sri-lanka; genel madde): Yafna/Cafna anılmaz; \"1505 yılında adaya gelen Portekizliler, Sinhalî ve Tamil mukavemetlerini kırarak\" (Yafna'nın sonu 1619 yok). Dedicated madde yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SEYLAN (/seylan) yalnız \"bk. SRİ LANKA\". SRİ LANKA (/sri-lanka; genel madde): Yafna/Cafna anılmaz; \"1505 yılında adaya gelen Portekizliler, Sinhalî ve Tamil mukavemetlerini kırarak\" (Yafna'nın sonu 1619 yok). Dedicated madde yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
+ },
+ {
+  "id": "candela",
+  "hukum": "GIRISLI",
+  "veri_f": "0950-01-01",
+  "veri_t": "1309-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 331,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Chandela (0), Candella (yalnız /hindistan genel madde). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "pandya-1",
@@ -473,6 +533,17 @@
   "agirlik": 320,
   "tdv_madde": "hindistan",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): HİNDİSTAN (hindistan) tablosu: \"Madurai Pandyaları (Tamil Nadu, VII-X. yüzyıl)\" — yalnız yüzyıl hassasiyeti; f=601 yüzyıl olarak uyumlu, gün/yıl TDV'de yok. [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
+ },
+ {
+  "id": "maitraka",
+  "hukum": "GIRISLI",
+  "veri_f": "0465-01-01",
+  "veri_t": "0766-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 301,
+  "tdv_madde": "gucerat",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Maitraka (yalnız gucerat), Valabhi (0). GUCERÂT (/gucerat; genel madde/geçen cümle): \"milâttan önce IV. yüzyıldan itibaren sırasıyla Maurialar, Sakalar, Guptalar, Maitrakalar\" — tarih Maitraka'ya özgü değil. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "kazakistan",
@@ -505,6 +576,17 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MALAVİ, slug malavi. 'Malavi 1964’te bağımsızlığını elde etti.' Yıl teyitli; 6 Temmuz günü TDV'de yok."
  },
  {
+  "id": "licchavi-nepal",
+  "hukum": "GIRISLI",
+  "veri_f": "0464-01-01",
+  "veri_t": "0750-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 250,
+  "tdv_madde": "nepal",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): NEPAL (/nepal; ülke maddesi, genel madde/geçen cümle): \"II. yüzyıldan sonra Kuzey Hindistan'dan gelerek ülkeyi istilâ eden Lichavi toplulukları\"; \"IX. yüzyılın sonlarında ülkenin hâkimiyeti Thakuri hânedanına, XII. yüzyıldan itibaren Malla hânedanına geçti.\" Licchavi f/t (464/750) verilmiyor. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
   "id": "hoysala",
   "hukum": "GIRISLI",
   "veri_f": "1026-01-01",
@@ -515,6 +597,17 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (HİNDİSTAN tablo/geçen cümle; ayrı madde değil, DUZELT için yetmez): HİNDİSTAN (hindistan) tablosu: \"Hoysalar (Orta ve Güney Dekken, 1110-1327)\" — TDV tablo yıllarını verir (veri 1026-1343). Tablo hanedan siyasi yükselişi/sonu için tarihlendirme; olay türü açıklanmıyor. [LAB elemesi: ajan KISMEN dedi → GIRISLI] · KARAR (EMRELİC, 4 Kasım): genel maddedeki tablo/geçen cümle 'TDV esas' kuralının dayanağı olmaz → VERİ KALIR, BEKLE kalktı · ic_not: 'Hanedan uçları kaynaktan kaynağa değişir; TDV HİNDİSTAN tablosu 1110-1327 verir (veri 1026-1343).' — ikinci akademik kaynakla kesinleşecek"
  },
  {
+  "id": "pandya",
+  "hukum": "GIRISLI",
+  "veri_f": "1190-01-01",
+  "veri_t": "1323-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 240,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Pandya (yalnız hindistan, institute-of-policy-studies). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
   "id": "eftalit",
   "hukum": "GIRISLI",
   "veri_f": "0457-01-01",
@@ -522,7 +615,19 @@
   "bolge": "orta-asya",
   "agirlik": 231,
   "tdv_madde": "abdal",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Eftalit (abdal, afganistan, belh, enusirvan...). ABDAL (/abdal; sufi terimi maddesi, genel madde/geçen cümle): \"Milâttan sonra V ve VI. yüzyıllarda Orta Asya tarihinde önemli bir rol oynamış olan\" \"Eftalit veya Akhun diye bilinen kavmin\" — kuruluş/son günü yok. Dedicated Eftalit maddesi yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Eftalit (abdal, afganistan, belh, enusirvan...). ABDAL (/abdal; sufi terimi maddesi, genel madde/geçen cümle): \"Milâttan sonra V ve VI. yüzyıllarda Orta Asya tarihinde önemli bir rol oynamış olan\" \"Eftalit veya Akhun diye bilinen kavmin\" — kuruluş/son günü yok. Dedicated Eftalit maddesi yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
+ },
+ {
+  "id": "baroda",
+  "hukum": "GIRISLI",
+  "veri_f": "1721-01-01",
+  "veri_t": "1949-05-01",
+  "bolge": "guney-asya",
+  "agirlik": 228,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Baroda (90 gürültülü, ilgili madde yok: cunagerh, bohra...), Gaykvad (0). Baroda/Gaikvad maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "gepid",
@@ -532,7 +637,19 @@
   "bolge": "balkanlar",
   "agirlik": 225,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Gepid maddesi yok. Aramalar: 'Gepid' (başlık 0; içerik: BELGRAD, MACARİSTAN, TÜRK), 'Gepidler' (başlık 0; içerik: BELGRAD, TÜRK)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Gepid maddesi yok. Aramalar: 'Gepid' (başlık 0; içerik: BELGRAD, MACARİSTAN, TÜRK), 'Gepidler' (başlık 0; içerik: BELGRAD, TÜRK). · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
+ },
+ {
+  "id": "indor",
+  "hukum": "GIRISLI",
+  "veri_f": "1732-07-29",
+  "veri_t": "1948-05-28",
+  "bolge": "guney-asya",
+  "agirlik": 216,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Holkar (bopal--sehir, hafiz-rahmet-han, hindistan; hiçbiri İndor/Holkar maddesi değil). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "kibris-cumhuriyeti",
@@ -543,6 +660,17 @@
   "agirlik": 205,
   "tdv_madde": "kibris",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KIBRIS (kibris): \"Kıbrıs Cumhuriyeti 15-16 Ağustos 1960 gece yarısı resmen ilân edilmiş\" (f; 16 Ağustos ile uyumlu)."
+ },
+ {
+  "id": "saindhava",
+  "hukum": "GIRISLI",
+  "veri_f": "0726-01-01",
+  "veri_t": "0915-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 189,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Saindhava (0 sonuç). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "hirvatistan-kralligi",
@@ -582,7 +710,19 @@
   "bolge": "orta-asya",
   "agirlik": 172,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Kushan (6 sonuç: asya, isfahan, kafkasya...), Kuşanlar (11: afganistan, belh, gazne, gekher, halac, hindistan...). Kuşan İmparatorluğu için dedicated TDV maddesi yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Kushan (6 sonuç: asya, isfahan, kafkasya...), Kuşanlar (11: afganistan, belh, gazne, gekher, halac, hindistan...). Kuşan İmparatorluğu için dedicated TDV maddesi yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
+ },
+ {
+  "id": "kazembe",
+  "hukum": "GIRISLI",
+  "veri_f": "1740-01-01",
+  "veri_t": "1899-01-01",
+  "bolge": "dogu-afrika",
+  "agirlik": 159,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Kazembe (yalnız hilli-muhakkik, alakasız). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "somaliland-cumhuriyeti",
@@ -592,7 +732,7 @@
   "bolge": "dogu-afrika",
   "agirlik": 154,
   "tdv_madde": "somali",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (SOMALİ, geçen cümle; ayrı Somaliland maddesi yok, başlık eşleşmesi 0): \"28 Mayıs 1991'de bağımsızlığını ilân etti\" — veri 1991-05-18; yıl teyit, gün TDV'de 28 (olası baskı hatası, DUZELT için genel madde yetmez). Şubat 1997'de Egal özerk bölge başkanı seçildi (farklı olay)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV genel madde (SOMALİ, geçen cümle; ayrı Somaliland maddesi yok, başlık eşleşmesi 0): \"28 Mayıs 1991'de bağımsızlığını ilân etti\" — veri 1991-05-18; yıl teyit, gün TDV'de 28 (olası baskı hatası, DUZELT için genel madde yetmez). Şubat 1997'de Egal özerk bölge başkanı seçildi (farklı olay). · KARAR (EMRELİC, 4 Kasım): genel madde → VERİ KALIR · ic_not: 'Bağımsızlık ilanı Burao'da 18 Mayıs 1991 (veri); TDV SOMALİ genel maddesi 28 Mayıs 1991 der — başka bir aşama olabilir.'"
  },
  {
   "id": "azerbaycan-cumhuriyeti",
@@ -625,6 +765,17 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TOHÂRİSTAN, slug toharistan. '630’da bölgeye gelen Budist hacı, Tohâristan hâkimi Tong Yabgu Kağan’ın ağabeyi Tardu’yu ziyaret etti. Tohâristan Yabguluğu, Batı Göktürk Devleti’nin hâkimiyetinde iken ...' (f 630 yabguluğun başlangıcı olarak değil, hacı ziyareti; başlangıç 558 sonrası Göktürk hâkimiyeti). t: 'Tohâristan Yabguluğu 759’da Çin sarayına yine bir elçi yolladı ... Çin kaynakları ... bu son elçi ... Tohâristan Yabguluğu 759 yılından sonra da varlığını sürdürdü ... İslâm kaynaklarında onların adından 871’de söz edilir.' => 759 SON DEĞİL (son Çin elçisi). [LAB elemesi: ajan KISMEN dedi → GIRISLI]"
  },
  {
+  "id": "tancur-maratha",
+  "hukum": "GIRISLI",
+  "veri_f": "1676-01-01",
+  "veri_t": "1855-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 124,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Tancavur (0), Maratha (baburluler, cencire, nizamsahiler...), Maratalar (38 gürültülü). Tancur Maratha maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
   "id": "portekiz-seylani",
   "hukum": "KISMEN",
   "veri_f": "1505-01-01",
@@ -632,7 +783,7 @@
   "bolge": "guney-asya",
   "agirlik": 122,
   "tdv_madde": "sri-lanka",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SRİ LANKA (/sri-lanka; TDV genel madde/geçen cümle): \"1505 yılında adaya gelen Portekizliler, Sinhalî ve Tamil mukavemetlerini kırarak\" (f yıl teyit: varış); \"1656’da yönetimi devralan Hollandalılar 1660 yılında Kandy Krallığı’nın da yardımıyla onları adadan atarak\" (atlas t=1658-06-22; TDV 1656/1660 verir, çelişki beyanı: DUZELT yazılmadı çünkü genel madde)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SRİ LANKA (/sri-lanka; TDV genel madde/geçen cümle): \"1505 yılında adaya gelen Portekizliler, Sinhalî ve Tamil mukavemetlerini kırarak\" (f yıl teyit: varış); \"1656’da yönetimi devralan Hollandalılar 1660 yılında Kandy Krallığı’nın da yardımıyla onları adadan atarak\" (atlas t=1658-06-22; TDV 1656/1660 verir, çelişki beyanı: DUZELT yazılmadı çünkü genel madde). · KARAR (EMRELİC, 4 Kasım): genel madde → VERİ KALIR · ic_not: 't 1658-06-22 Jaffna'nın Hollandalılarca alınışı olabilir; TDV SRİ LANKA genel maddesindeki 1656/1660 başka olayları (Kolombo 1656) tarihliyor.'"
  },
  {
   "id": "ozbekistan",
@@ -643,6 +794,17 @@
   "agirlik": 121,
   "tdv_madde": "ozbekistan",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ÖZBEKİSTAN (ozbekistan, II. Tarih): \"Sovyetler Birliği sisteminin çöküşüyle birlikte 31 Ağustos 1991 tarihinde Özbekistan Cumhuriyeti bağımsızlığını ilân etti.\" (f gün)."
+ },
+ {
+  "id": "danimarka-hindistani",
+  "hukum": "GIRISLI",
+  "veri_f": "1620-11-19",
+  "veri_t": "1868-10-16",
+  "bolge": "guney-asya",
+  "agirlik": 113,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Tranquebar (0), Danimarka (/danimarka ülke maddesi + alakasız dilbilimciler). Danimarka Hindistanı/Tranquebar-Serampore için madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "cimma-sultanligi",
@@ -662,7 +824,8 @@
   "bolge": "kuzey-afrika",
   "agirlik": 102,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Vandal maddesi yok. Aramalar: 'Vandallar' (başlık 0, içerik 32: Afrika, Berberîler, Bizans 534, Bûne 431 vb. geçen cümleler), 'Vandal' (başlık 0, içerik 39). Dedicated madde olmadığından f/t okunmadı."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Vandal maddesi yok. Aramalar: 'Vandallar' (başlık 0, içerik 32: Afrika, Berberîler, Bizans 534, Bûne 431 vb. geçen cümleler), 'Vandal' (başlık 0, içerik 39). Dedicated madde olmadığından f/t okunmadı. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "morityus",
@@ -713,7 +876,8 @@
   "bolge": "guney-asya",
   "agirlik": 80,
   "tdv_madde": "abdal",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Alkhon için dedicated madde yok; ABDAL maddesi yalnız \"Akhun\" adını Eftalit eşanlamı olarak geçirir, Alkhon/Toramana/Mihirakula tarihi yok (genel madde/geçen cümle). Aramalar: Eftalit, Kidarit(0)."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Alkhon için dedicated madde yok; ABDAL maddesi yalnız \"Akhun\" adını Eftalit eşanlamı olarak geçirir, Alkhon/Toramana/Mihirakula tarihi yok (genel madde/geçen cümle). Aramalar: Eftalit, Kidarit(0). · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "ruanda-cumhuriyeti",
@@ -733,7 +897,8 @@
   "bolge": "guney-asya",
   "agirlik": 72,
   "tdv_madde": "sri-lanka",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SRİ LANKA (/sri-lanka; genel madde): Kotte/Sitavaka anılmaz. Aramalar: Seylan (seylan, serendib). Dedicated madde yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): SRİ LANKA (/sri-lanka; genel madde): Kotte/Sitavaka anılmaz. Aramalar: Seylan (seylan, serendib). Dedicated madde yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "toro",
@@ -766,6 +931,16 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): UGANDA (uganda): \"9 Ekim 1962 tarihinde Uganda’ya bağımsızlık âdeta hibe edildi.\" (t gün teyit). f=1894-06-18 (himaye ilanı) TDV'de yok."
  },
  {
+  "id": "karabag-hanligi",
+  "hukum": "TEYIT",
+  "veri_f": "1747-01-01",
+  "veri_t": "1822-01-01",
+  "bolge": "kafkasya",
+  "agirlik": 62,
+  "tdv_madde": "karabag",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KARABAĞ (karabag): \"Nâdir Şah’ın 1747’de öldürülmesinden sonra Horasan’dan kaçıp Karabağ’a gelen Penah Ali burada Karabağ Hanlığı’nı kurdu.\" (f yıl) ve \"1822’de çarın fermanıyla hanlık lağvedildi.\" (t yıl). 1805 Kürekçay: \"Rusya’ya tâbi oldu\" — tâbiiyet son değil."
+ },
+ {
   "id": "ispanyol-sahra",
   "hukum": "GIRISLI",
   "veri_f": "1884-12-26",
@@ -774,6 +949,17 @@
   "agirlik": 56,
   "tdv_madde": "bati-sahra",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BATI SAHRÂ, slug bati-sahra okundu: İspanya'nın 1884 kuruluş günü (26 Aralık) ve 26 Şubat 1976 çekilişi geçmiyor; yalnız '6 Kasım 1975’te ... yeşil yürüyüş' ve 1884-1894 Sahrâlı saldırıları. Gün/ay TDV'de yok."
+ },
+ {
+  "id": "maukhari",
+  "hukum": "GIRISLI",
+  "veri_f": "0550-01-01",
+  "veri_t": "0606-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 56,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Kannauj (yalnız siddik-hasan-han, içerik eşleşmesi). Maukhari maddesi yok (ikinci arama: Maukhari yazılmadı, Kannauj ve hanedan adıyla eşdeğer). · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "kktc",
@@ -794,6 +980,17 @@
   "agirlik": 50,
   "tdv_madde": "bati-sahra",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BATI SAHRÂ okundu (ayrı SADC maddesi aranmadı/yok); 27 Şubat 1976 ilanı gün olarak bulunamadı."
+ },
+ {
+  "id": "hehe",
+  "hukum": "GIRISLI",
+  "veri_f": "1850-01-01",
+  "veri_t": "1898-07-19",
+  "bolge": "dogu-afrika",
+  "agirlik": 49,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Hehe (0 sonuç). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "slovenya",
@@ -836,6 +1033,27 @@
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): KARABAĞ (/karabag): 2 Eylül 1991 cumhuriyet ilanı yok. Yalnız \"Dağlık Karabağ Özerk Bölgesi’nin tesisine karar verildi ve bu karar 24 Temmuz 1923’te ilân edildi.\"; \"Ermeniler 21 Şubat 1988’de Karabağ’ın Ermenistan’a ait olduğunu ilân ettiler\". Aramalar: Karabağ (karabag, karabagi)."
  },
  {
+  "id": "ayudha-kannauj",
+  "hukum": "GIRISLI",
+  "veri_f": "0783-01-01",
+  "veri_t": "0815-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 32,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Kannauj (yalnız siddik-hasan-han). Ayudha Hanedanı maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "galzay",
+  "hukum": "GIRISLI",
+  "veri_f": "1709-04-21",
+  "veri_t": "1738-01-01",
+  "bolge": "iran",
+  "agirlik": 29,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Hotakî/Gılzay devleti maddesi yok. Aramalar: 'Hotakîler' ve 'Hotaki' (0 sonuç), 'Gılzay' (yalnız İRAN içinde 'Gılzayî Afganlıları lideri Mîr Veys' geçen cümle), 'Mîr Veys' (başlık 0; Fetih Ali Han içinde Mîr Mahmûd geçişi)."
+ },
+ {
   "id": "kibris-turk-federe-devleti",
   "hukum": "TEYIT",
   "veri_f": "1975-02-13",
@@ -864,6 +1082,17 @@
   "agirlik": 18,
   "tdv_madde": "revan",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): REVAN (/revan; şehir maddesi, genel madde/geçen cümle): \"ancak 1918 Haziranında başşehri Revan olan Ermenistan’ı tanıdı.\" (28 Mayıs 1918 günü yok; Osmanlı tanıması Haziran 1918); \"Gümrü Antlaşması ile birlikte (2 Aralık 1920) ...\"; \"Revan aynı yıl oluşturulan Ermenistan Sovyet Sosyalist Cumhuriyeti’nin başşehri oldu.\" t=1920-12-02 Gümrü antlaşması günü ile uyumlu ama TDV bunu cumhuriyetin sonu olarak değil Türklerin göçü bağlamında tarihler."
+ },
+ {
+  "id": "xueyantuo",
+  "hukum": "GIRISLI",
+  "veri_f": "0628-01-01",
+  "veri_t": "0646-10-29",
+  "bolge": "orta-asya",
+  "agirlik": 16,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Sir-Tarüş (alakasız: ev, hikaye, roman, varlik). Xueyantuo/Sir-Tarduş maddesi yok (tek arama; ikinci arama için Töles/Tölös ayrı not). · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
  },
  {
   "id": "mozambik-gecis-hukumeti",
@@ -943,7 +1172,8 @@
   "bolge": "orta-asya",
   "agirlik": 0,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Kidarit (0 sonuç); Eftalit aramasında da ilgili madde yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Kidarit (0 sonuç); Eftalit aramasında da ilgili madde yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "pala",
@@ -953,7 +1183,8 @@
   "bolge": "guney-asya",
   "agirlik": 0,
   "tdv_madde": "bengal-sultanligi",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Pala Hanedanı (78 gürültülü). BENGAL SULTANLIĞI (/bengal-sultanligi; genel madde/geçen cümle): \"650’den itibaren Pala ve Sena hânedanları tarafından idare edildi\" — Pâla başlangıç/sonu (750/1120) yok. Dedicated Pâla maddesi yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Pala Hanedanı (78 gürültülü). BENGAL SULTANLIĞI (/bengal-sultanligi; genel madde/geçen cümle): \"650’den itibaren Pala ve Sena hânedanları tarafından idare edildi\" — Pâla başlangıç/sonu (750/1120) yok. Dedicated Pâla maddesi yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "kamarupa",
@@ -963,7 +1194,8 @@
   "bolge": "guney-asya",
   "agirlik": 0,
   "tdv_madde": "asam--hindistan",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ASAM (/asam--hindistan; genel madde/geçen cümle): \"Kâmtâ Krallığı (Farsça kaynaklarda Kâmrûp)\"; \"Şemseddin İlyas Şah döneminde (1340-1357) Kâmrûp ele geçirildi.\" Kâmtâ (Koch öncesi, 13-16. yy) farklı polity; Varman/Mleccha/Pala Kamarupa'sı (350-1150) için dedicated madde yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ASAM (/asam--hindistan; genel madde/geçen cümle): \"Kâmtâ Krallığı (Farsça kaynaklarda Kâmrûp)\"; \"Şemseddin İlyas Şah döneminde (1340-1357) Kâmrûp ele geçirildi.\" Kâmtâ (Koch öncesi, 13-16. yy) farklı polity; Varman/Mleccha/Pala Kamarupa'sı (350-1150) için dedicated madde yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "koch-bihar",
@@ -973,7 +1205,8 @@
   "bolge": "guney-asya",
   "agirlik": 0,
   "tdv_madde": "asam--hindistan",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ASAM maddesi Koch Bihar/Koch Krallığı'nı anmaz (Kâmtâ ve Ahum anılır). Aramalar: Manipur (asam), Asam. Dedicated madde yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ASAM maddesi Koch Bihar/Koch Krallığı'nı anmaz (Kâmtâ ve Ahum anılır). Aramalar: Manipur (asam), Asam. Dedicated madde yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "chutiya",
@@ -983,7 +1216,8 @@
   "bolge": "guney-asya",
   "agirlik": 0,
   "tdv_madde": "asam--hindistan",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ASAM maddesi Chutiya'yı anmaz; yalnız \"1228'de ... Ahumlar Asam'a girerek Ahum Krallığı'nı kurdular.\" (farklı polity). Dedicated madde yok."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): ASAM maddesi Chutiya'yı anmaz; yalnız \"1228'de ... Ahumlar Asam'a girerek Ahum Krallığı'nı kurdular.\" (farklı polity). Dedicated madde yok. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "butan",
@@ -993,7 +1227,8 @@
   "bolge": "guney-asya",
   "agirlik": 0,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Butan maddesi yok. Aramalar: 'butan' (başlık yok; yalnız Asam ve Hindistan içinde geçen cümleler), 'Wangchuck' (0 sonuç), /butan slug'ı arama sayfasına düşüyor."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Butan maddesi yok. Aramalar: 'butan' (başlık yok; yalnız Asam ve Hindistan içinde geçen cümleler), 'Wangchuck' (0 sonuç), /butan slug'ı arama sayfasına düşüyor. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "kerayit",
@@ -1003,7 +1238,8 @@
   "bolge": "orta-asya",
   "agirlik": 0,
   "tdv_madde": "",
-  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Kerâyit maddesi yok. Aramalar: 'Kerayit' (başlık 0; içerik: Cengiz Han, Hülâgû — Ong Han geçen cümle), 'Kereyit' (yalnız TATARLAR içinde bir sayım). Ong Han ülkesinin 1199/1203 tarihleri okunmadı."
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Kerâyit maddesi yok. Aramalar: 'Kerayit' (başlık 0; içerik: Cengiz Han, Hülâgû — Ong Han geçen cümle), 'Kereyit' (yalnız TATARLAR içinde bir sayım). Ong Han ülkesinin 1199/1203 tarihleri okunmadı. · KARAR (EMRELİC): TDV KAPSAMI DIŞI → akademik basamak; Cambridge kuyruğunda",
+  "tdv_disi": true
  },
  {
   "id": "cebele-kadilari",
@@ -1024,5 +1260,112 @@
   "agirlik": 0,
   "tdv_madde": "madagaskar",
   "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MADAGASKAR, slug madagaskar. t: 'ada ... 26 Haziran 1960 tarihinde bağımsızlığını kazandı' (GÜN teyitli). f: '1890’da ... Kraliçe III. Ranavalona’yı Fransa’nın himayesi altına girmeye mecbur bıraktılar ve 27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler' — künye f 1896-08-06 (ilhak kanunu) TDV'de yok; TDV farklı olayı (27 Ocak 1897 yönetime el koyma) tarihler."
+ },
+ {
+  "id": "gazneli-lahor",
+  "hukum": "KISMEN",
+  "veri_f": "1157-01-01",
+  "veri_t": "1186-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 0,
+  "tdv_madde": "gazneliler",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): GAZNELİLER (/gazneliler): \"Behram Şah 552’de (1157) öldü ve yerine oğlu Hüsrev Şah geçti.\"; \"Sonuçta Hüsrev Şah Gazne’yi terkederek Lahor şehrine yerleşti.\" (tarihsiz); \"Gurlular bir hile ile onu esir alarak Gazneli Devleti’ne son verdiler (582/1186).\" t=1186 teyit (yıl; gün TDV'de yok); f=1157 Behram Şah ölümü/Hüsrev Şah cülûsu — Lahor'a taşınma tarihsiz, farklı olay tipi."
+ },
+ {
+  "id": "beja-krallik",
+  "hukum": "GIRISLI",
+  "veri_f": "0800-01-01",
+  "veri_t": null,
+  "bolge": "misir-sudan",
+  "agirlik": 0,
+  "tdv_madde": "bece",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): BECE (/bece; halk maddesi): \"Ya‘kūbî ... hüküm süren altı Bece krallığından bahseder\" (tarihsiz); \"18 Nisan 831’de yapılan antlaşmaya göre Beceliler ülkelerindeki camilere dokunmayacaklar\". Hadariba/Baqlin krallıkları adıyla ve f=0800 için tarih yok."
+ },
+ {
+  "id": "vakataka",
+  "hukum": "GIRISLI",
+  "veri_f": "0255-01-01",
+  "veri_t": "0540-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Vakataka (0 sonuç). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "katyuri",
+  "hukum": "GIRISLI",
+  "veri_f": "0790-01-01",
+  "veri_t": "1200-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Kumaon (yalnız tugluklular, geçen cümle). Katyuri maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "somavamsi",
+  "hukum": "GIRISLI",
+  "veri_f": "0950-01-01",
+  "veri_t": "1110-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Orissa (32 gürültülü: bengal, bihar, budizm...). Somavamsi maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "silahara",
+  "hukum": "GIRISLI",
+  "veri_f": "0765-01-01",
+  "veri_t": "1265-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Konkan (bahadir-sah-i, behmeniler, cencire, mahmud-i-gavan, nizamsahiler). Silahara maddesi yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "kalabhra",
+  "hukum": "GIRISLI",
+  "veri_f": "0500-01-01",
+  "veri_t": "0590-01-01",
+  "bolge": "guney-asya",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Kalabhra (0 sonuç). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "xianbei",
+  "hukum": "GIRISLI",
+  "veri_f": "0155-01-01",
+  "veri_t": "0235-01-01",
+  "bolge": "orta-asya",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Aramalar: Xianbei (0), Sienpi (0). Dedicated madde yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "vollayta-kralligi",
+  "hukum": "GIRISLI",
+  "veri_f": "1281-01-01",
+  "veri_t": "1894-01-17",
+  "bolge": "dogu-afrika",
+  "agirlik": 0,
+  "tdv_madde": "",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): Arama: Wolaita (0 sonuç). Dedicated madde yok. ETİYOPYA maddesinde de Wolaita 1894 yok. · TDV KAPSAMI DIŞI (müstakil madde yok) → akademik basamak; Cambridge kuyruğu",
+  "tdv_disi": true
+ },
+ {
+  "id": "sirvan-hanligi",
+  "hukum": "GIRISLI",
+  "veri_f": "1748-01-01",
+  "veri_t": "1820-01-01",
+  "bolge": "kafkasya",
+  "agirlik": 0,
+  "tdv_madde": "azerbaycan",
+  "kaynak": "TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): TDV'de Şirvan (Şamahı) Hanlığı maddesi yok. Arama 'Şirvan Hanlığı' (başlık 0, içerik 42 gevşek eşleşme); AZERBAYCAN maddesi hanlığın 1748/1820 tarihlerini vermiyor (yalnız 'Kuzey Azerbaycan’da Karabağ, Şeki, Gence, Bakü, Derbend, Kuba, Nahcıvan, Taliş ve Revan' yarı bağımsız devletler; Şirvanşahlar 799-1607 farklı varlık)."
  }
 ]
