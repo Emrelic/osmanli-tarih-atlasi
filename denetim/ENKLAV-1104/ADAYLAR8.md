@@ -8,7 +8,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-d 2, YAPAY-m 13. Güven: KAYNAK-GEREK 23, KAYNAKLI 16, OLCUM 19.
+Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-d 2, YAPAY-m 13. Güven: KAYNAK-GEREK 22, KAYNAKLI 17, OLCUM 19.
 
 ## Kara eksklavları
 
@@ -157,10 +157,10 @@ Hükümlü: 58 / 58. Kova: BIRLESMELI 1, GERCEK 30, YAPAY-a 3, YAPAY-c 9, YAPAY-
 - En büyük kesit: 1288-06-05 · komşu: almanya 84%, liege-piskoposlugu 13%
 - Koridor: 70.2 km · almanya 9/9
 - İçindeki yerleşimler: Eupen (brabant-dukaligi)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Eupen 1288-06-05 (Worringen savaşı: Limburg Brabant'a) → 1430 Burgonya: gerçek eksklav; başlangıç Worringen günüyle birebir.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Treccani, https://www.treccani.it/enciclopedia/limburgo/ — 'Estintasi la casata (1283), iniziò una guerra di successione, in cui Brabante vinse sul Lussemburgo (1288)' (Worringen, veri 1288-06-05 ile uyumlu)
 
 ### K716 · avusturya · 1800-06-04 → 1814-04-16 · 1.105 km²
 

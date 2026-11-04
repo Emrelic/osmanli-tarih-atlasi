@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY-d 5, YAPAY-k 10, YAPAY-m 4. Güven: KAYNAK-GEREK 31, KAYNAKLI 13, OLCUM 56.
+Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 12, YAPAY-b 7, YAPAY-c 27, YAPAY-d 5, YAPAY-k 10, YAPAY-m 4. Güven: KAYNAK-GEREK 3, KAYNAKLI 41, OLCUM 56.
 
 ## Kara eksklavları
 
@@ -25,10 +25,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1492-01-01 · komşu: TABI 31%, imereti 17%
 - Koridor: 106.2 km · imereti 9/9
 - İçindeki yerleşimler: Sohum (gurcistan); Nizhny Arkhyz (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Sohum 1490 → 1578 'gurcistan', çevre İmereti. Birleşik Gürcistan krallığı 1490'da bölündü; Sohum Abhazya/Megrelya (Dadiani) idaresindeydi. ENKLAV-1104 K339 ile aynı aile (1490 sonrası 'gurcistan' kalıntısı).
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Sohum 1490 → 1578 'gurcistan', çevre İmereti. Birleşik Gürcistan krallığı 1490'da bölündü; Sohum Abhazya/Megrelya (Dadiani) idaresindeydi. ENKLAV-1104 K339 ile aynı aile (1490 sonrası 'gurcistan' kalıntısı). [KAYNAK-UMIT (kismen): Sohum kalesi 1451'de Osmanlı'ya itaat etti, haracı kesince 1454'te Osmanlı donanmasınca tahrip edilip yeniden alındı; Abhazya ve Sohum'da 125 yıl idarî düzen kurulamadı; 1578'de İran seferi sırasında Sohum eyaleti kuruldu (Çerkez Haydar Paşa). Gürcü kralına bağlılık yazmaz. — "1578’de İran seferi esnasında Sohum eyaleti oluşturuldu" · 1578 bitişi TDV'yle uyumlu (Osmanlı eyaleti, atlas 1578-08). 1490-1578 'gurcistan' sahipliğini TDV desteklemez; sahibi adlandırmaz ('idarî düzen kurulamadı', XIII. yy sonu önem kaybı, Cenevizliler). YAPAY hükmü doğru, yeni sahip için 'abhazya/megrelya' TDV'de yok, bulunamadı; Osmanlı etkisi 1451/1454'ten itibaren notlanabilir.]
   - Düzeltme önerisi: Sohum 1490-1578 sahibi (abhazya / megrelya-prensligi) kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, SOHUM, https://islamansiklopedisi.org.tr/sohum · önceki: veri ölçümü
 
 ### K403 · papalik · 1512-06-24 → 1540-01-01 · 10.159 km²
 
@@ -85,40 +85,40 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1714-03-07 · komşu: almanya 48%, fransa 28%, liege-piskoposlugu 23%
 - Koridor: 13.2 km · liege-piskoposlugu 9/9
 - İçindeki yerleşimler: Virton (avusturya-hollandasi); Lüksemburg (avusturya-hollandasi); Arlon (avusturya-hollandasi); Neufchâteau (Belçika) (avusturya-hollandasi); Wiltz (avusturya-hollandasi); Bastogne (avusturya-hollandasi); Clervaux (avusturya-hollandasi); St. Vith (Sankt Vith) (avusturya-hollandasi)
-- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
-  - Gerekçe: Lüksemburg-Arlon-Virton 1714-1795 'avusturya-hollandasi', gövdeden 13 km'lik Liège prens-piskoposluğu şeridiyle ayrı. Lüksemburg dükalığı Namur kontluğuyla bitişikti; Liège şeridi Namur-Lüksemburg sınır noktalarının eksikliğinden olabilir (Bouillon dükalığı ayrı).
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAKLI)
+  - Gerekçe: Lüksemburg-Arlon-Virton 1714-1795 'avusturya-hollandasi', gövdeden 13 km'lik Liège prens-piskoposluğu şeridiyle ayrı. Lüksemburg dükalığı Namur kontluğuyla bitişikti; Liège şeridi Namur-Lüksemburg sınır noktalarının eksikliğinden olabilir (Bouillon dükalığı ayrı). [KAYNAK-UMIT (kismen): Lüksemburg Burgonya Filippo il Buono'ya geçti (Treccani: Estates 1451'de bağlılık yemini etti), Habsburglar, 1555'te II. Felipe'ye; 1714'te Avusturya'ya geçti; devrim döneminde Fransa'ya katıldı. — "Passato all’ Austria nel 1714, il L. fu annesso alla Francia" · 1714 başlangıcı teyitli. 1795 sonu Treccani'de yalnız 'devrim dönemi'. Parçanın gövdeden ayrılması (Liège şeridi, Namur-Lüksemburg noktaları) coğrafi iddia; Treccani bunu söylemiyor, bulunamadı.]
   - Düzeltme önerisi: Namur-Lüksemburg sınırı (Dinant, Rochefort, Marche) noktaları ve sahipleri kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, LUSSEMBURGO, https://www.treccani.it/enciclopedia/lussemburgo/ · önceki: veri ölçümü
 
 ### K409 · burgonya · 1443-11-21 → 1482-03-27 · 9.780 km²
 
 - En büyük kesit: 1477-01-01 · komşu: almanya 76%, liege-piskoposlugu 23%
 - Koridor: 13.2 km · liege-piskoposlugu 9/9
 - İçindeki yerleşimler: Virton (burgonya); Lüksemburg (burgonya); Arlon (burgonya); Neufchâteau (Belçika) (burgonya); Wiltz (burgonya); Bastogne (burgonya); Clervaux (burgonya); St. Vith (Sankt Vith) (burgonya)
-- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
-  - Gerekçe: K408 ile aynı parça, Burgonya dönemi (1443-11-21 Lüksemburg'un Burgonya'ya geçişi → 1482).
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAKLI)
+  - Gerekçe: K408 ile aynı parça, Burgonya dönemi (1443-11-21 Lüksemburg'un Burgonya'ya geçişi → 1482). [KAYNAK-UMIT (kismen): Elisabetta di Görlitz haklarını Filippo il Buono'ya devretti, Estates ona 1451'de bağlılık yemini etti. — "al quale nel 1451 gli Stati del ducato prestarono giuramento di fedeltà" · ÇELİŞKİ ihtimali: atlas f=1443-11-21; Treccani yemini 1451 verir (fetih 1443 ayrı bir olay olabilir, bu sayfada yok). 1482 bitişi (Maria di Borgogna-Maximilian evliliği 1477) Treccani'de yıl yok. f için Treccani 1451 gösterir; 1443 ikinci kaynakla doğrulanmalı.]
   - Düzeltme önerisi: K408 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, LUSSEMBURGO, https://www.treccani.it/enciclopedia/lussemburgo/ · önceki: veri ölçümü
 
 ### K410 · habsburg-hollandasi · 1482-03-27 → 1516-01-23 · 9.780 km²
 
 - En büyük kesit: 1482-03-27 · komşu: almanya 76%, liege-piskoposlugu 23%
 - Koridor: 13.2 km · liege-piskoposlugu 9/9
 - İçindeki yerleşimler: Virton (habsburg-hollandasi); Lüksemburg (habsburg-hollandasi); Arlon (habsburg-hollandasi); Neufchâteau (Belçika) (habsburg-hollandasi); Wiltz (habsburg-hollandasi); Bastogne (habsburg-hollandasi); Clervaux (habsburg-hollandasi); St. Vith (Sankt Vith) (habsburg-hollandasi)
-- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
-  - Gerekçe: K408 ile aynı parça, Habsburg Hollandası (1482-1516).
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAKLI)
+  - Gerekçe: K408 ile aynı parça, Habsburg Hollandası (1482-1516). [KAYNAK-UMIT (kismen): Burgonya mirası Maria di Borgogna-Massimiliano evliliğiyle Habsburglara, sonra Carlo V'e geçti. — "Passato, in seguito al matrimonio di Maria di Borgogna con Massimiliano , agli Asburgo" · Habsburg'a geçiş teyitli (yılı yok; evlilik 1477). Atlas f=1482-03-27 (Maria'nın ölümü) bu sayfada yok. 1516 bitiş (Carlos I İspanya tahtı) bu sayfada yok.]
   - Düzeltme önerisi: K408 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, LUSSEMBURGO, https://www.treccani.it/enciclopedia/lussemburgo/ · önceki: veri ölçümü
 
 ### K411 · ispanya · 1516-01-23 → 1714-03-07 · 9.777 km²
 
 - En büyük kesit: 1534-01-01 · komşu: almanya 76%, liege-piskoposlugu 23%
 - Koridor: 13.2 km · liege-piskoposlugu 9/9
 - İçindeki yerleşimler: Virton (ispanya); Lüksemburg (ispanya); Arlon (ispanya); Neufchâteau (Belçika) (ispanya); Wiltz (ispanya); Bastogne (ispanya); Clervaux (ispanya); St. Vith (Sankt Vith) (ispanya)
-- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
-  - Gerekçe: K408 ile aynı parça, İspanyol Hollandası (1516-1714).
+- **Hüküm: YAPAY** (YAPAY-a · güven KAYNAKLI)
+  - Gerekçe: K408 ile aynı parça, İspanyol Hollandası (1516-1714). [KAYNAK-UMIT (celiski): Treccani: Lüksemburg Carlo V'e geçti, 1555'te II. Felipe'nin eline geçti, 1714'te Avusturya'ya. — "nel 1555 venne in possesso di Filippo II di Spagna" · Atlas 1516'dan 'ispanya' diyor; Treccani İspanya hükümdarına devri 1555 verir (V. Carlos 1516'dan beri İspanya kralıydı, bu nedenle kesin bir çelişki değil, kimlik ayrımı: Habsburg Hollandası/İspanya). 1714 bitişi teyitli.]
   - Düzeltme önerisi: K408 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, LUSSEMBURGO, https://www.treccani.it/enciclopedia/lussemburgo/ · önceki: veri ölçümü
 
 ### K412 · fransa-cumhuriyet · 1895-06-16 → 1923-10-29 · 9.764 km²
 
@@ -166,9 +166,9 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 44.3 km · memluk 9/9
 - İçindeki yerleşimler: Arsamosata (sahipsiz); Palu (dulkadir); Harput (Elazığ) (dulkadir)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: Harput-Palu Dulkadir payı 1378-1400, Elbistan gövdesinden Memlûk Malatya'sıyla ayrı (koridor 44 km 9/9). Dulkadir'in Harput'u tuttuğu dönemler bilinir (TDV Dulkadiroğulları: 'doğuda Harput'tan'), uçlar kaynakla.
+  - Gerekçe: Harput-Palu Dulkadir payı 1378-1400, Elbistan gövdesinden Memlûk Malatya'sıyla ayrı (koridor 44 km 9/9). Dulkadir'in Harput'u tuttuğu dönemler bilinir (TDV Dulkadiroğulları: 'doğuda Harput'tan'), uçlar kaynakla. [KAYNAK-UMIT (kismen): Halil Bey Harput'u zaptetti, Memlûk baskısıyla teslim etti, on yıl sonra yeniden aldı; Memlûk komutanı Berkuk 1378'de Halil Bey'e karşı sefer gönderdi; 1381'de Halil Bey yenilince Harput'a çekildi. — "Halil Bey on yıl sonra bu şehri tekrar ele geçirdi." · Dulkadır'ın Harput'u tuttuğu teyitli (1360'lar-1381). 1378 başlangıcı ve 1400 bitişi için gün/yıl yok; 1381'de Harput hâlâ Halil Bey'in üssü. GERCEK hükmü kaynakla uyumlu, uç tarihleri bulunamadı.]
   - Düzeltme önerisi: Harput dulkadir dönemleri kaynakla.
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/harput — 'buranın Dulkadırlı, Kadı Burhâneddin, Karakoyunlu ve Akkoyunlu devletleri arasında sık sık el değiştirmesine yol açtı. 1465'te Uzun Hasan şehri kesin biçimde Akkoyunlular'a kattı' (yıl yok — kısmen)
+  - Kaynak: TDV İslâm Ansiklopedisi, DULKADIROĞULLARI (Refet Yinanç), https://islamansiklopedisi.org.tr/dulkadirogullari · önceki: veri ölçümü; TDV Dulkadiroğulları (yayılım)
 
 ### K417 · dulkadir · 1402-07-28 → 1429-01-01 · 9.603 km²
 
@@ -176,9 +176,9 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 44.3 km · memluk 9/9
 - İçindeki yerleşimler: Arsamosata (sahipsiz); Palu (dulkadir); Harput (Elazığ) (dulkadir)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: K416'nın 1402-1429 kesiti.
+  - Gerekçe: K416'nın 1402-1429 kesiti. [KAYNAK-UMIT (tam): Dulkadırlılar Harput'u 1429'da Akkoyunlular'a kaptırdılar (sonra 1440 evliliğinden sonra geri aldılar). — "Dulkadırlılar 1429’da Akkoyunlular’a kaptırdıkları Harput’u geri aldılar." · 1429 bitişi birebir uyumlu. Başlangıç (1402-07-28) bu sayfada yok; Harput maddesi (XIV. yy sonrası Dulkadırlı/Karakoyunlu/Akkoyunlu arasında el değiştirdi) genel. GERCEK hükmü doğru, f için bulunamadı.]
   - Düzeltme önerisi: K416 ile aynı.
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/harput (K416 ile aynı — kısmen)
+  - Kaynak: TDV İslâm Ansiklopedisi, DULKADIROĞULLARI (Refet Yinanç), https://islamansiklopedisi.org.tr/dulkadirogullari · önceki: veri ölçümü
 
 ### K418 · dulkadir · 1436-01-01 → 1465-01-01 · 9.603 km²
 
@@ -186,19 +186,19 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 44.3 km · memluk 9/9
 - İçindeki yerleşimler: Arsamosata (sahipsiz); Palu (dulkadir); Harput (Elazığ) (dulkadir)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: K416'nın 1436-1465 kesiti.
+  - Gerekçe: K416'nın 1436-1465 kesiti. [KAYNAK-UMIT (celiski): Dulkadırlılar Harput'u 1440'ta Çakmak'ın Nasreddin Mehmed'in kızıyla evliliğinden sonra geri aldılar; Melik Arslan 1464'te Uzun Hasan'a Harput'u bırakmak zorunda kaldı; Harput maddesi: 1465'te Uzun Hasan şehri kesin biçimde Akkoyunlular'a kattı. — "Bu evlilik sayesinde Dulkadırlılar 1429’da Akkoyunlular’a kaptırdıkları Harput’u geri aldılar." · Atlas f=1436; TDV geri alışı 1440 evliliğinin sonucu olarak verir (1436 değil, 1440 sonrası). Bitiş 1464/1465 uyumlu. Düzeltme: K418 f yaklaşık 1440 (gün yok; TDV yıl vermiyor 'geri aldılar' diyor, evlilik 1440).]
   - Düzeltme önerisi: K416 ile aynı.
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/harput — bitiş 1465 Uzun Hasan ile birebir
+  - Kaynak: TDV İslâm Ansiklopedisi, DULKADIROĞULLARI, https://islamansiklopedisi.org.tr/dulkadirogullari ; HARPUT, https://islamansiklopedisi.org.tr/harput · önceki: veri ölçümü
 
 ### K419 · ilhanli · 1351-01-01 → 1353-01-01 · 9.603 km²
 
 - En büyük kesit: 1351-01-01 · komşu: memluk 34%, cemisgezek-beyligi 22%, eretna 13%
 - Koridor: 81.2 km · eretna 9/9
 - İçindeki yerleşimler: Arsamosata (sahipsiz); Palu (ilhanli); Harput (Elazığ) (ilhanli)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Harput-Palu 1351-1353 'ilhanli': ILHANLI.md HARPUT-DİYARBEKİR-CEZİRE grubu (KAYNAK-GEREK); kukla İlhanlar Doğu Anadolu'da Hacı Togay/Çobânî çekişmesiyle örtüşmüyor.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Harput-Palu 1351-1353 'ilhanli': ILHANLI.md HARPUT-DİYARBEKİR-CEZİRE grubu (KAYNAK-GEREK); kukla İlhanlar Doğu Anadolu'da Hacı Togay/Çobânî çekişmesiyle örtüşmüyor. [KAYNAK-UMIT: bulunamadi — 1351-1353 Harput-Palu 'ilhanli' dönemi için kaynakta yıl yok: 1351-53 İlhanlı sonrasıdır (Ebû Saîd 1335'te öldü), kukla İlhan dönemidir. YAPAY hükmü TDV'nin dolaylı genel çerçevesiyle çelişmez ama doğrulanmadı. Palu'nun TDV maddesi bulunamadı.] [KAYNAK-UMIT (kismen): Harput 1234'e dek Artuklu'da kaldi; 1234'te Anadolu Selcuklulari, Kosedag'dan bir sure sonra Ilhanlilar zapteti; XIV. yuzyildan sonra Dulkadirli, Kadi Burhaneddin, Karakoyunlu ve Akkoyunlu arasinda el degistirdi; 1465'te Uzun Hasan kesin olarak Akkoyunlular'a kattı. — "Kösedağ Savaşı’ndan bir süre sonra da İlhanlılar tarafından zaptedildi." · Ilhanli zaptı teyitli ama yilsiz; 1351-1353 icin 'ilhanli' yazimi TDV'de yok: Ilhanli devleti Ebu Said (1335) sonrasi dagildi, Harput'un o yillardaki sahibi TDV Harput'ta belirtilmiyor. YAPAY hukmu mantikli ama kaynakla kesinlesmedi. Palu icin TDV maddesi yok (Palu yalniz Cubukoglu/Belek baglaminda geciyor).]
   - Düzeltme önerisi: ILHANLI.md ile.
-  - Kaynak: veri ölçümü; ILHANLI.md
+  - Kaynak: TDV Islam Ansiklopedisi 'Harput' (islamansiklopedisi.org.tr/harput) · önceki: veri ölçümü; ILHANLI.md
 
 ### K420 · abdulkadir · 1841-01-01 → 1843-01-01 · 9.453 km²
 
@@ -215,10 +215,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1709-01-01 · komşu: lehistan 69%, kazak-hetmanligi 30%
 - Koridor: 236.7 km · lehistan 9/9
 - İçindeki yerleşimler: Kiev (rusya)
-- **Hüküm: YAPAY** (YAPAY-m · güven KAYNAK-GEREK)
-  - Gerekçe: Kiev 1667-02-09 (Andrusovo) → 1764 Rus, gövdeden 'lehistan' koridoruyla (237 km) ayrı. Kiev sol yaka Hetmanlığı (Rus tâbisi) üzerinden Rusya'ya bağlıydı; kopukluk Hetmanlığın tâbi/ayrı kimlikle boyanmasından (motor sorusu).
+- **Hüküm: YAPAY** (YAPAY-m · güven KAYNAKLI)
+  - Gerekçe: Kiev 1667-02-09 (Andrusovo) → 1764 Rus, gövdeden 'lehistan' koridoruyla (237 km) ayrı. Kiev sol yaka Hetmanlığı (Rus tâbisi) üzerinden Rusya'ya bağlıydı; kopukluk Hetmanlığın tâbi/ayrı kimlikle boyanmasından (motor sorusu). [KAYNAK-UMIT (kismen): Andrusovo antlaşması 13 Ocak 1667'de imzalandı; Sol Yaka Ukrayna Moskova yönetiminde kaldı, Sağ Yaka Polonya'ya; Kiev iki yıl Moskova elinde kalacaktı ama Moskova onu kalıcı olarak elinde tuttu (1686 Ebedî Barış doğruladı). — "Kyiv was to remain in Muscovite hands for two years" · Kiev'in Rus olması teyitli; ancak tarih ÇELİŞKİSİ: kaynak 13 Ocak 1667 (Jülyen yazım, tarih gösterimi açık değil), atlas 1667-02-09. Hetmanlık (Sol Yaka) Moskova himayesinde, yani Rus tâbisi: motor sorusu kaynakla desteklenir. 1764 bitişi (Hetmanlığın kaldırılması) bu sayfada yok.]
   - Düzeltme önerisi: Kazak Hetmanlığı v: (Rus tâbiliği) beyanı; motor sorusu.
-  - Kaynak: veri ölçümü
+  - Kaynak: Encyclopedia of Ukraine, Andrusovo, Treaty of, 1984, https://www.encyclopediaofukraine.com/display.asp?linkpath=pages%5CA%5CN%5CAndrusovotreatyof.htm · önceki: veri ölçümü
 
 ### K422 · OSMANLI · 1832-07-29 → 1841-02-25 · 9.407 km²
 
@@ -265,10 +265,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1304-01-01 · komşu: arborea 25%
 - Koridor: 2369.8 km · DENIZ/BOS 4/9, napoli 1/9, sirbistan-nemanjic 1/9, bulgar-carligi 1/9, macaristan 1/9, altinorda 1/9
 - İçindeki yerleşimler: Sasari (Sassari) (ceneviz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Sassari 1281 → 1354 'ceneviz'. Sassari 1284-1323 Ceneviz himayesinde serbest komündü; 1323'ten Aragon'un Sardinya fethine girdi. 1323-1354 Ceneviz yazımı yanlış.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Sassari 1281 → 1354 'ceneviz'. Sassari 1284-1323 Ceneviz himayesinde serbest komündü; 1323'ten Aragon'un Sardinya fethine girdi. 1323-1354 Ceneviz yazımı yanlış. [KAYNAK-UMIT (celiski): Sassari 1236'da komün oldu (Pisa'nın koyduğu sınırlarla); Cenovalılara geçti (1294); 1323'te infante Alfonso d'Aragona'ya teslim oldu; 1324, 1325, 1329'da isyan etti. — "Passata ai Genovesi (1294), nel 1323 si diede all’infante Alfonso d’Aragona" · 1323 Aragon düzeltmesi TAM teyitli. Ancak Cenevizli dönem Treccani'de 1294'ten (atlasta 1281, gerekçede 1284); 'Ceneviz himayesinde serbest komün 1284-1323' kaynakta yok: Sassari 1294'te Cenovalılara geçti. Düzeltme: Sassari ceneviz f=1294 (yıl), 1323 aragon.]
   - Düzeltme önerisi: Sassari 1323 → aragon (kaynakla).
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, SASSARI, https://www.treccani.it/enciclopedia/sassari/ · önceki: veri ölçümü
 
 ### K427 · anjou-kontlugu · 1203-01-01 → 1204-01-01 · 9.194 km²
 
@@ -276,7 +276,7 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 7.5 km · fransa 9/9
 - İçindeki yerleşimler: Tours (anjou-kontlugu)
 - **Hüküm: YAPAY** (YAPAY-k · güven KAYNAK-GEREK)
-  - Gerekçe: Tours 1203 → 1204 'anjou-kontlugu', çevre Fransa. Anjou-Touraine Plantagenet (İngiliz tacı) mülküydü; II. Philippe 1203-1205'te aldı. 'anjou-kontlugu' ile 'ingiltere' iki kimlik.
+  - Gerekçe: Tours 1203 → 1204 'anjou-kontlugu', çevre Fransa. Anjou-Touraine Plantagenet (İngiliz tacı) mülküydü; II. Philippe 1203-1205'te aldı. 'anjou-kontlugu' ile 'ingiltere' iki kimlik. [KAYNAK-UMIT: bulunamadi — Touraine/Tours için yıl veya gün bulunamadı; Treccani Touraine'i anmıyor. 1203-1204 Tours geçişi teyit edilemedi. İkinci aday kaynak (Dictionnaire, HLS değil) aranmalı.] [KAYNAK-UMIT: bulunamadi — Tours'un 1203-1204 gecisi okunamadi. Okunmali: Powicke 'Loss of Normandy' ya da Baldwin 'Philip Augustus' (Anjou-Touraine 1204-05 fethi).]
   - Düzeltme önerisi: Tours 1203-1204 kimliği ingiltere/plantagenet tek ölçüt.
   - Kaynak: veri ölçümü
 
@@ -305,10 +305,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1622-05-01 · komşu: nebhani 21%, portekiz 6%
 - Koridor: 354.3 km · nebhani 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Dubay (Dubai) (sahipsiz); Acman (Ajman) (sahipsiz); Ras el-Hayme (Cülfâr) (umman)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Cülfâr-Dubay-Acman 1622-05 → 1624 'umman', çevre Nebhânî. Hürmüz'ün düşüşünden (1622) sonra Cülfâr Portekiz'den Ya'rubîlere (1633) geçti; 1622-1624 Umman yazımı şüpheli. Dubay, Acman sahipsiz.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Cülfâr-Dubay-Acman 1622-05 → 1624 'umman', çevre Nebhânî. Hürmüz'ün düşüşünden (1622) sonra Cülfâr Portekiz'den Ya'rubîlere (1633) geçti; 1622-1624 Umman yazımı şüpheli. Dubay, Acman sahipsiz. [KAYNAK-UMIT (celiski): Nâsır b. Mürşid (1615-1640) Culfâr'daki (Re'sülhayme) İran birliklerine karşı 1633'te Ali b. Ahmed komutasında ordu gönderdi ve başarılı oldu; Portekizliler Hürmüz'ü 1622'de kaybetti. — "Culfâr’daki (Re’sülhayme) İran birliklerine karşı 1633’te" · ÇELİŞKİ: Cülfâr 1622-1633 arası Umman değil, kaynağa göre İran (Safevî) birlikleri elindeydi; 1633'te Ya'rubî ordusu başarılı oldu. Atlas 1622-05 → 1624 'umman' yazımı YAPAY; sahibi Safevî/İran ya da boş. Portekiz iddiası kaynakta yok. Gün bulunamadı.]
   - Düzeltme önerisi: Cülfâr 1622-1633 sahibi kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, YA‘RUBÎLER, https://islamansiklopedisi.org.tr/yarubiler · önceki: veri ölçümü
 
 ### K432 · ingiltere · 1885-02-05 → 1891-02-19 · 8.970 km²
 
@@ -336,9 +336,9 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 362.5 km · ilhanli 8/9, kilikya-ermeni 1/9
 - İçindeki yerleşimler: Diyarbakır (selcuklu); Çayönü Tepesi (sahipsiz); Ergani (sahipsiz)
 - **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
-  - Gerekçe: Diyarbakır-Ergani 1240 → 1303 'selcuklu', çevre İlhanlı. Âmid 1241 sonrası Moğol/İlhanlı ve Artuklu (Mardin) idaresindeydi; Anadolu Selçuklu doğrudan yönetimi yok.
+  - Gerekçe: Diyarbakır-Ergani 1240 → 1303 'selcuklu', çevre İlhanlı. Âmid 1241 sonrası Moğol/İlhanlı ve Artuklu (Mardin) idaresindeydi; Anadolu Selçuklu doğrudan yönetimi yok. [KAYNAK-UMIT (celiski): 1259'da Hülâgû Diyarbekir'i aldı ve Moğollar'a tâbi Anadolu Selçuklu Devleti'ne geri verdi; Moğollar bütün Diyarbekir havalisine hâkim oldular; 1303'te Gâzân Han Diyarbekir bölgesini Mardin Artuklu Sultanı II. Necmeddin Gazi'ye verdi. — "1303’te Gāzân Han Diyarbekir bölgesini Mardin Artuklu Sultanı" · 1303 bitişi TAM teyitli (atlas 1303-01-01 yıl düzeyi). 'Selçuklu' boyası kısmen: TDV 1259'da Selçuklu'ya geri verildiğini söyler ama fiilen Moğol hâkimiyeti. 1240-1259 arası sahip: Moğol/Selçuklu tâbiliği, doğrudan Selçuklu değil. Karşı görüş: atlas 'selcuklu' tâbi sayılabilir; önerilen düzeltme 1259'dan sonra ilhanli.]
   - Düzeltme önerisi: Diyarbakır 1240-1303 sahibi kaynakla (TDV Diyarbekir).
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/diyarbakir — '638 (1240-41) yılında da … II. Gıyâseddin Keyhusrev Âmid'i zaptetti. Burası 1257'de kısa bir süre için Meyyâfârikīn Hâkimi e[line geçti]' (başlangıç birebir; Moğol dönemi KAYNAK-GEREK)
+  - Kaynak: TDV İslâm Ansiklopedisi, DİYARBAKIR (Nejat Göyünç), https://islamansiklopedisi.org.tr/diyarbakir · önceki: veri ölçümü
 
 ### K435 · akkoyunlu · 1422-01-01 → 1429-01-01 · 8.927 km²
 
@@ -346,9 +346,9 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 28.2 km · karakoyunlu 9/9
 - İçindeki yerleşimler: Diyarbakır (akkoyunlu); Çayönü Tepesi (sahipsiz); Ergani (sahipsiz)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: Diyarbakır 1422-1429 Akkoyunlu, öteki Akkoyunlu payından Karakoyunlu şeridiyle (28 km) ayrı. Kara Yülük Osman'ın Âmid merkezli dönemi; kopukluğun genişliği kaynakla.
+  - Gerekçe: Diyarbakır 1422-1429 Akkoyunlu, öteki Akkoyunlu payından Karakoyunlu şeridiyle (28 km) ayrı. Kara Yülük Osman'ın Âmid merkezli dönemi; kopukluğun genişliği kaynakla. [KAYNAK-UMIT (tam): Âmid 1401'de Karayülük Osman Bey'e verildi ve Akkoyunlu hâkimiyeti başladı; Kara Yûsuf 1409, 1411 ve 1418'de, İskender 1423'te kuşatıp alamadı; Osman Bey 1435'te ölünce Âmid şehzadelerin eline geçti. — "Karayülük Osman Bey’e verildi ve böylece bölgede Akkoyunlu hâkimiyeti başlamış oldu" · 1422-1429 aralığında Âmid Akkoyunlu elindeydi (Karakoyunlu alamadı) GERCEK hükmü doğru; atlasın 1422-1429 kesiti kısa (kaynağa göre 1401'den 1435+). Koridorun genişliği (28 km) kaynakta yok.]
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/diyarbakir — 'şehir 1401'de Karayülük Osman Bey'e verildi … 1409, 1411 ve 1418'de … Kara Yûsuf … başarılı olamadı. 1423'te oğlu İskender … aynı âkıbete uğradı' (Akkoyunlu Âmid'i, gerçek)
+  - Kaynak: TDV İslâm Ansiklopedisi, DİYARBAKIR, https://islamansiklopedisi.org.tr/diyarbakir · önceki: veri ölçümü
 
 ### K436 · ispanya · 1590-03-04 → 1625-06-05 · 8.906 km²
 
@@ -365,10 +365,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1361-05-05 · komşu: sirbistan 25%, bulgar-carligi 22%, OSMANLI 15%
 - Koridor: 106.5 km · OSMANLI 9/9
 - İçindeki yerleşimler: Praviște (Eleftheroupoli) (bizans); Kavala (bizans); Gümülcine (bizans); İskeçe (bizans)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Kavala-Gümülcine-Praviște Bizans payı 1361 → 1371-11 (Çirmen sonrası), Osmanlı Trakyası ile ayrı (koridor 107 km). Hristupolis (Kavala) 1350'ler-60'larda Bizanslı Aleksios/Ioannes kardeşlerin elindeydi; Gümülcine 1361'de Osmanlı'ya geçmiş olabilir — iç sahip sınanmalı.
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Kavala-Gümülcine-Praviște Bizans payı 1361 → 1371-11 (Çirmen sonrası), Osmanlı Trakyası ile ayrı (koridor 107 km). Hristupolis (Kavala) 1350'ler-60'larda Bizanslı Aleksios/Ioannes kardeşlerin elindeydi; Gümülcine 1361'de Osmanlı'ya geçmiş olabilir — iç sahip sınanmalı. [KAYNAK-UMIT (celiski): Gümülcine 1344'te Aydınoğlu Umur Bey tarafından zaptedildi; Osmanlı hâkimiyetine girişi Evrenos Bey'in ~1361 akınlarına, bazı kaynaklarda 1363'e bağlanır; son araştırmalar 1371 Çirmen savaşından biraz öncesini vurgular; 1371'den 1912'ye kesintisiz Osmanlı. Kavala 1345 Sırp yayılması sırasında Bizans'ta kaldı; Osmanlı alışı 1373-74 ya da 1383 (barışla), 1390'da Bayezid yeniden aldı. — "1371’den 1912’ye kadar kesintisiz olarak Osmanlı idaresi altında kalmıştır." · Parçanın iki ucu ayrı: Gümülcine'de Bizans payı 1361-63'ten itibaren Osmanlı (ya da 1371 öncesi); Kavala'da ise Bizans 1371'de bitmez, 1373-83'e dek sürer. Atlas 'bizans 1361→1371-11' tek parça olarak Kavala için erken, Gümülcine için doğrudur (1371 teyitli kısmen). Gün yok; Gümülcine Osmanlı f yıl 1361/1363 ya da ~1371 (yeni araştırma).]
   - Düzeltme önerisi: Gümülcine Osmanlı f kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, GÜMÜLCİNE, https://islamansiklopedisi.org.tr/gumulcine ; KAVALA, https://islamansiklopedisi.org.tr/kavala · önceki: veri ölçümü
 
 ### K438 · italya · 1894-05-05 → 1923-10-29 · 8.847 km²
 
@@ -395,10 +395,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1402-07-28 · komşu: isa-celebi 37%, germiyan 23%, aydin 19%
 - Koridor: 42.6 km · aydin 9/9
 - İçindeki yerleşimler: Sart (timurlu); Manisa (timurlu); Akhisar (Manisa) (timurlu)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Sart-Manisa-Akhisar 1402-07-28 → 08-17 'timurlu', çevre Aydın: Ankara sonrası Timurlu boyasının Saruhan'a verilmesi (K044 ailesi; Timur beylikleri iade etti).
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Sart-Manisa-Akhisar 1402-07-28 → 08-17 'timurlu', çevre Aydın: Ankara sonrası Timurlu boyasının Saruhan'a verilmesi (K044 ailesi; Timur beylikleri iade etti). [KAYNAK-UMIT (tam): 1402 Ankara Savaşı'ndan sonra Anadolu beylikleri ihya edilirken Orhan Bey Timur'un desteğiyle Manisa'ya gelip 17 Ağustos 1402'de beyliğin başına geçti; Saruhan Beyliği on iki yıllık aradan sonra yeniden kuruldu. — "Orhan Bey, Timur’un desteğiyle Manisa’ya gelip 17 Ağustos 1402’de beyliğin başına geçti" · Atlas t=1402-08-17 birebir. YAPAY hükmü doğru: 28 Temmuz-17 Ağustos 1402 'timurlu' boyası, Manisa'nın bu aralıkta Saruhan'a dönmediği iddiası değil, ama Timur'un desteği Saruhan'ı geri getirdi; K044 ailesiyle birlikte Saruhan 17 Ağustos 1402'den itibaren boyanmalı.]
   - Düzeltme önerisi: K044 ile; Saruhan iade günü kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, SARUHANOĞULLARI, https://islamansiklopedisi.org.tr/saruhanogullari · önceki: veri ölçümü
 
 ### K441 · sirbistan-nemanjic · 1334-01-01 → 1345-01-01 · 8.686 km²
 
@@ -435,10 +435,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1512-06-24 · komşu: ferrara 30%, san-marino 26%, floransa 14%
 - Koridor: 43.5 km · ferrara 9/9
 - İçindeki yerleşimler: San Marino (Monte Titano) (san-marino); Rimini (papalik); Ravenna (papalik); Bolonya (papalik)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: San Marino, Rimini, Ravenna 1276 → 1532 'papalik', çevre Ferrara. San Marino bağımsız cumhuriyetti; Ravenna 1441-1509 Venedik'in, Rimini Malatesta senyörlüğündeydi (nominal Papalık vikaryası).
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: San Marino, Rimini, Ravenna 1276 → 1532 'papalik', çevre Ferrara. San Marino bağımsız cumhuriyetti; Ravenna 1441-1509 Venedik'in, Rimini Malatesta senyörlüğündeydi (nominal Papalık vikaryası). [KAYNAK-UMIT (celiski): San Marino piskoposların ve Malatesta'ların baskısına rağmen bağımsızlığını korudu (1460-63 Pius II ve Urbino ile ittifak, Malatesta kalelerini aldı). Ravenna 1449-1509 arası Venedik'in doğrudan hâkimiyetine indi, 1509'da Kilise Devleti'ne geçti. Rimini 13. yy sonundan 1500'e dek Malatesta signoria'sı, 1500'de Cesare Borgia, 1503-09 Venedik, sonra Kilise. — "ridurla (1449-1509) sotto il suo dominio diretto" · YAPAY hükmü doğru: San Marino ayrı kimlik (bağımsız), Rimini 1276-1500 Malatesta (nominal Papalık vikaryası), Ravenna Venedik'te. ÇELİŞKİ: atlas/gerekçe Ravenna Venedik 1441-1509 diyor, Treccani 1449-1509 verir. Düzeltme: Ravenna venedik f=1449 (yıl; 1441 Treccani'de yok).]
   - Düzeltme önerisi: San Marino ayrı kimlik; Ravenna 1441-1509 venedik (kaynakla).
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, SAN MARINO https://www.treccani.it/enciclopedia/san-marino/ ; RAVENNA https://www.treccani.it/enciclopedia/ravenna/ ; RIMINI https://www.treccani.it/enciclopedia/rimini/ · önceki: veri ölçümü
 
 ### K445 · meksika · 1854-06-30 → 1869-05-14 · 8.423 km²
 
@@ -465,30 +465,30 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1917-03-15 · komşu: almanya 48%
 - Koridor: 12.7 km · almanya 9/9
 - İçindeki yerleşimler: Ventspils (Windau) (rusya-gecici-hukumet)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Ventspils (Windau) 1917-03-15 → 11-07 'rusya-gecici-hukumet', çevre Alman: Kurland 1915 yazında Alman işgaline girdi (Windau Temmuz 1915); 1915-1918 Rus yazımı yanlış.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Ventspils (Windau) 1917-03-15 → 11-07 'rusya-gecici-hukumet', çevre Alman: Kurland 1915 yazında Alman işgaline girdi (Windau Temmuz 1915); 1915-1918 Rus yazımı yanlış. [KAYNAK-UMIT (kismen): Letonya'nın bileşenleri Livonia ve Kurland 1721 ve 1795'ten Rusya altındaydı ve Birinci Dünya Savaşı'nda Almanlar tarafından işgal edildi. — "occupate dai Tedeschi nella Prima guerra mondiale" · Almanya'nın Kurland'ı Birinci Dünya Savaşı'nda işgal ettiği teyitli; 1915 yazı ve Ventspils (Windau) için gün/yıl bu kaynakta yok. 1917-03-15 → 11-07 'rusya-gecici-hukumet' yazımı yanlış (YAPAY) yönü doğru, ama 1915-07 başlangıcı ve 1918-11 bitişi bulunamadı.]
   - Düzeltme önerisi: Ventspils 1915-07 → 1918-11 almanya (Ober Ost, kaynakla).
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, LETTONIA, https://www.treccani.it/enciclopedia/lettonia/ · önceki: veri ölçümü
 
 ### K448 · rusya · 1915-08-01 → 1917-03-15 · 8.141 km²
 
 - En büyük kesit: 1916-07-16 · komşu: almanya 48%
 - Koridor: 12.7 km · almanya 9/9
 - İçindeki yerleşimler: Ventspils (Windau) (rusya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: K447'nin 1915-08 → 1917-03 kesiti ('rusya').
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: K447'nin 1915-08 → 1917-03 kesiti ('rusya'). [KAYNAK-UMIT (kismen): Livonia ve Kurland Rus egemenliğinden Birinci Dünya Savaşı'nda Alman işgaline geçti. — "occupate dai Tedeschi nella Prima guerra mondiale" · K447 ile aynı: 1915-08 → 1917-03 'rusya' yazımının yanlış olduğu genel olarak (Alman işgali) teyitli; Ventspils'in 1915 Temmuz'da işgali bu kaynakta yok (bulunamadı). Kurland'ın tamamı 1915 yazından Alman işgalinde (bilinen), ikinci kaynak (Baltık tarihi) gerekli.]
   - Düzeltme önerisi: K447 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, LETTONIA, https://www.treccani.it/enciclopedia/lettonia/ · önceki: veri ölçümü
 
 ### K449 · yugoslavya · 1991-09-22 → 1999-06-10 · 8.079 km²
 
 - En büyük kesit: 1991-09-22 · komşu: kosova-golge-cumhuriyeti 54%, makedonya 23%
 - Koridor: 12.0 km · kosova-golge-cumhuriyeti 9/9
 - İçindeki yerleşimler: Prizren (yugoslavya-federal); Priştine (yugoslavya-federal)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Prizren-Priştine 1991-09-22 → 1999-06-10 'yugoslavya', çevre 'kosova-golge-cumhuriyeti'. Kosova 'gölge cumhuriyeti' paralel kurumlar ağıydı, toprak denetimi yoktu (Sırp/FRY idaresi 1999-06-10'a dek). Gölge cumhuriyetin toprak sahibi boyanması model hatası.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Prizren-Priştine 1991-09-22 → 1999-06-10 'yugoslavya', çevre 'kosova-golge-cumhuriyeti'. Kosova 'gölge cumhuriyeti' paralel kurumlar ağıydı, toprak denetimi yoktu (Sırp/FRY idaresi 1999-06-10'a dek). Gölge cumhuriyetin toprak sahibi boyanması model hatası. [KAYNAK-UMIT (kismen): 1989 Sırbistan anayasası özerkliği kısıtladı; 1991'de Kosova'da Rugova'nın başkanlığında paralel bir Arnavut devleti kuruldu, referandumdan sonra Kosova Cumhuriyeti ilan edildi, yalnız Tiran tanıdı. Mart-Haziran 1999 NATO saldırısı sona erince Belgrad barış planını kabul etti; 1244 sayılı BM kararı Kosova'yı UNMIK'in geçici denetimine koydu. — "nel 1991 si costituì in K. uno Stato albanese parallelo" · 1991 'paralel devlet' ve Haziran 1999 FRY çekilmesi teyitli (YAPAY hükmü yönce doğru: gölge cumhuriyet kurumsal ağdı). Treccani 22 Eylül 1991 gününü ve 10 Haziran 1999'u vermez; Kumanovo yok, gün için BM 1244 (10 Haziran 1999) ikinci kaynak gerek. Bir 'toprak sahibi' olarak boyanmaması düzeltmesi desteklenir.]
   - Düzeltme önerisi: kosova-golge-cumhuriyeti s: dönemleri v:/beyan ya da kaldır; FRY 1999-06-10'a dek (Kumanovo) — kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, KOSOVO, https://www.treccani.it/enciclopedia/kosovo/ · önceki: veri ölçümü
 
 ### K450 · sicilya-kralligi · 1136-01-01 → 1282-03-30 · 8.009 km²
 
@@ -505,10 +505,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1118-05-06 · komşu: inalogullari 33%, saltuklu 12%, artuklu 3%
 - Koridor: 183.5 km · saltuklu 9/9
 - İçindeki yerleşimler: Batman (sahipsiz); Meyyâfârikīn (buyuk-selcuklu); Hallan Çemi (sahipsiz)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Meyyâfârikīn-Batman 1115 → 1121-03-22 'buyuk-selcuklu', çevre Saltuklu. Meyyâfârikīn 12. yüzyıl başında Selçuklu valilerinden Artuklu İlgazi'ye geçti (1118-1121); Büyük Selçuklu doğrudan idaresi ve Saltuklu çevresi sınanmalı. İçteki 3 noktanın 2'si sahipsiz.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Meyyâfârikīn-Batman 1115 → 1121-03-22 'buyuk-selcuklu', çevre Saltuklu. Meyyâfârikīn 12. yüzyıl başında Selçuklu valilerinden Artuklu İlgazi'ye geçti (1118-1121); Büyük Selçuklu doğrudan idaresi ve Saltuklu çevresi sınanmalı. İçteki 3 noktanın 2'si sahipsiz. [KAYNAK-UMIT (celiski): Meyyâfârikīn Mayıs 1109'da Sökmen el-Kutbî'ye geçti, 1111'de Muhammed Tapar tarafından iktâ verildi; 508 (1115)'te Muhammed Tapar Sökmen'in oğlu İbrâhim'den alıp kendi memlüklerinden Karaca es-Sâkī'ye iktâ etti; 515'te (1121) Mahmûd b. Muhammed Tapar şehri Necmeddin İlgazi'nin topraklarına iktâ olarak kattı. — "508 (1115) yılında Sökmen’in oğlu İbrâhim’in elinden alarak kendi memlüklerinden Karaca es-Sâkī’ye iktâ etti." · ÇELİŞKİ (hükmü değiştirir): atlas 1115 → 1121-03-22 'buyuk-selcuklu' yazımı TDV ile UYUMLU (Selçuklu iktâsı, Karaca es-Sâkī); bitiş de 515 (1121, ~22 Mart 1121) ile uyumlu. İlgazi 1121'de aldı, kaynakta 1118 yok. 'Sahibi Artuklu 1115-1121' önerisi yanlış; Saltuklu çevresi (Erzurum) Meyyâfârikīn'le ilgisiz. YAPAY değil, hüküm düzeltilmeli.]
   - Düzeltme önerisi: Meyyâfârikīn 1115-1121 sahibi kaynakla (TDV Meyyâfârikîn).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, MEYYÂFÂRİKÎN, https://islamansiklopedisi.org.tr/meyyafarikin · önceki: veri ölçümü
 
 ### K452 · eyyubi · 1185-04-04 → 1191-01-01 · 7.966 km²
 
@@ -535,10 +535,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1795-01-01 · komşu: karnatik 28%, hollanda 25%, travankur 19%
 - Koridor: 78.0 km · hollanda 9/9
 - İçindeki yerleşimler: Kolam (Quilon) (ingiliz-hindistani)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Kolam (Quilon) 1795-01-01 → 10-20 'ingiliz-hindistani', çevre Hollanda. Quilon Travankor krallığındaydı; İngilizler Hollanda Koçin'ini 20 Ekim 1795'te aldı (bitiş uyumlu). Quilon'un 1795 başından İngiliz yazımı yanlış.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Kolam (Quilon) 1795-01-01 → 10-20 'ingiliz-hindistani', çevre Hollanda. Quilon Travankor krallığındaydı; İngilizler Hollanda Koçin'ini 20 Ekim 1795'te aldı (bitiş uyumlu). Quilon'un 1795 başından İngiliz yazımı yanlış. [KAYNAK-UMIT: bulunamadi — Quilon'un Travancore'da, İngilizlerin Hollanda Cochin'ini Ekim 1795'te alması gerekçesi teyit edilmedi. Quilon (Kollam) maddesi için Imperial Gazetteer cilt XX (Pubna to Sirhind) ya da Travancore State Manual okunmalı.] [KAYNAK-UMIT: bulunamadi — Quilon 1795 sahibi kaynakta dogrulanmadi. Travancore State Manual / IGI 'Travancore State' maddesi okunmali. (Hollandali Koçin 20 Ekim 1795 tarihi de bulunamadi.)] [KAYNAK-UMIT (kismen): Hollanda Quilon'u 1661 sonunda aldı; İngiliz geçişi okunmadı. · Quilon'un Hollanda dönemi teyitli; 1795 İngiliz yazımı teyitsiz.]
   - Düzeltme önerisi: Quilon 1795 sahibi (travankur) kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: G. J. Ames (2000), s. 149 — HAVVA JSTOR okuması · önceki: veri ölçümü
 
 ### K455 · ispanya · 1939-01-15 → 1939-04-01 · 7.948 km²
 
@@ -595,10 +595,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1344-01-01 · komşu: sirbistan 48%, bizans 22%, napoli 14%
 - Koridor: 60.3 km · bizans 8/9, sirbistan 1/9
 - İçindeki yerleşimler: Akçahisar (Kruja) (sirbistan-nemanjic); Mat (Mati) (sirbistan-nemanjic); Leş (Alessio) (sirbistan-nemanjic); İşkodra (sirbistan-nemanjic); Bar (Antivari) (sirbistan-nemanjic)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Akçahisar (Kruja), Mat, Leş 1281 → 1345 'sirbistan-nemanjic', çevre Bizans. Kuzey-orta Arnavutluk 1272'den Anjou 'Arnavutluk Krallığı', Bizans ve yerel beyler arasında el değiştirdi; Sırp hâkimiyeti 1340'larda (Duşan). 1281'den Sırp yazımı yanlış.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Akçahisar (Kruja), Mat, Leş 1281 → 1345 'sirbistan-nemanjic', çevre Bizans. Kuzey-orta Arnavutluk 1272'den Anjou 'Arnavutluk Krallığı', Bizans ve yerel beyler arasında el değiştirdi; Sırp hâkimiyeti 1340'larda (Duşan). 1281'den Sırp yazımı yanlış. [KAYNAK-UMIT (celiski): Arnavutluk 1230'da Bulgar çarı Ivan Asen II tarafından fethedildi; kısa süre sonra büyük bölümü Raşka (Sırp) krallarına geçti; 1389 Kosova sonrası Türkler geldi. — "poco dopo passò per la maggior parte ai re serbi della Rascia" · Treccani Sırp hâkimiyetini 1230'dan sonra (yılsız) verir, Anjou Arnavutluk Krallığı'nı (1272) anmaz. Atlasın 1281 'sirbistan-nemanjic' yazımı Treccani'ye göre KISMEN destekli (Sırp), YAPAY hükmü (Sırp yazımı 1281'de yanlış, 1340'larda Duşan) ile çelişir. Anjou 1272 ve Kruja/Leş zinciri bulunamadı.]
   - Düzeltme önerisi: Kruja/Leş 1281-1345 zinciri (anjou-arnavutluk / bizans) kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, ALBANIA, https://www.treccani.it/enciclopedia/albania/ · önceki: veri ölçümü
 
 ### K461 · macaristan · 1527-01-01 → 1528-01-01 · 7.607 km²
 
@@ -626,9 +626,9 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 634.8 km · yemen 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Zebîd (memluk)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: Zebîd 1516-06 → 1517-07-06 Memlûk, Mısır gövdesinden Kızıldeniz ve Yemen toprağıyla ayrı: Memlûk Yemen seferi (1515-16, Tâhirîlerin yıkılışı) — gerçek denizaşırı pay. Bitiş Memlûk Yemen'inin Osmanlı'yı tanıması.
+  - Gerekçe: Zebîd 1516-06 → 1517-07-06 Memlûk, Mısır gövdesinden Kızıldeniz ve Yemen toprağıyla ayrı: Memlûk Yemen seferi (1515-16, Tâhirîlerin yıkılışı) — gerçek denizaşırı pay. Bitiş Memlûk Yemen'inin Osmanlı'yı tanıması. [KAYNAK-UMIT (tam): Memlûk Sultanı Kansu Gavri Portekiz tehlikesi sırasında Tâhirîler'e savaş açtı; 1516'da Zebîd yakınında Tâhirîler yenildi, Zebîd Memlûkler'in eline geçti; Müttefik Osmanlı-Memlûk ordusu 19 Cemâziyelevvel 922'de (20 Haziran 1516) Zebîd'i ele geçirdi; Memlûk emîri Barsbay'a verildi; Tâhirî II. Âmir 15 Nisan 1517'de San'a yakınında öldürüldü. — "Zebîd’i ele geçirdi. Şehrin idaresi Memlük emîrlerinden Barsbay’a verildi." · f=1516-06-20 TDV ile BİREBİR (20 Haziran 1516). GERCEK hükmü doğru (Memlûk denizaşırı pay, Tâhirî çöküşü). t=1517-07-06 bu sayfalarda yok: TDV 'ertesi yıl' Barsbay'ın ölümü ve Osmanlı desteğiyle Emîr İskender'in Zebîd'e hâkim olmasını verir (1517); 6 Temmuz günü bulunamadı.]
   - Düzeltme önerisi: Yok; günler kaynakla (TDV Zebîd).
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/zebid — 'Müttefik Osmanlı-Memlük ordusu 19 Cemâziyelevvel 922'de (20 Haziran 1516) Zebîd'i ele geçirdi. Şehrin idaresi Memlük emîrlerinden Barsbay'a verildi'
+  - Kaynak: TDV İslâm Ansiklopedisi, ZEBÎD, https://islamansiklopedisi.org.tr/zebid ; TÂHİRÎLER, https://islamansiklopedisi.org.tr/tahiriler--yemen · önceki: veri ölçümü
 
 ### K464 · prusya · 1792-09-02 → 1792-10-01 · 7.289 km²
 
@@ -645,10 +645,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1477-01-01 · komşu: fransa 80%, ingiltere 9%
 - Koridor: 40.3 km · fransa 9/9
 - İçindeki yerleşimler: Amiens (burgonya)
-- **Hüküm: YAPAY** (YAPAY-d · güven KAYNAK-GEREK)
-  - Gerekçe: Amiens 1477-01-01 → 01-05 'burgonya', çevre Fransa. XI. Louis Amiens'i 1471'de aldı; 4 günlük kesit yıl hassasiyetli uç ile Nancy (1477-01-05) günü arasında.
+- **Hüküm: YAPAY** (YAPAY-d · güven KAYNAKLI)
+  - Gerekçe: Amiens 1477-01-01 → 01-05 'burgonya', çevre Fransa. XI. Louis Amiens'i 1471'de aldı; 4 günlük kesit yıl hassasiyetli uç ile Nancy (1477-01-05) günü arasında. [KAYNAK-UMIT: bulunamadi — Amiens'in 1471'de XI. Louis tarafından alındığı iddiası teyit edilemedi. Ayrı kaynak (Dizionario Biografico 'Luigi XI', IEG, HLS değil) okunmalı. Bu aralıkta (Ocak 1477 4 gün) kesit yıl düzeyi uç ile Nancy günü arasındaki uyumsuzluk: Karl der Kühne 5 Ocak 1477'de Nancy'de öldü (NDB'den okunmadı).] [KAYNAK-UMIT (tam): Arras 1435'te Philippe'e 'Somme towns' (Saint-Quentin, Corbie, Doullens, Amiens, Abbeville) 400.000 ecu karsiliginda geri alinabilir olarak rehin verildi; Louis XI Ekim 1465 Conflans Antlasmasi ile Somme kentlerini Charles'a geri verdi; Charles'in kaybettigi kentler arasinda Amiens 1471'de Fransizlarca geri alindi; Eylul 1475 Soleuvre ateskesi 1477'ye dek surdu. — "notably Amiens, retaken by the French in 1471" · Amiens 1477-01-01 -> 01-05 'burgonya' yazimi YANLIS: Amiens 1471'den beri Fransiz. Duzeltme (Amiens burgonya t -> 1471) kaynakla dogru; gun kaynakta yok (yil). Nancy 5 Ocak 1477 bu ciltte okunmadi.]
   - Düzeltme önerisi: Amiens burgonya t → 1471 (kaynakla).
-  - Kaynak: veri ölçümü
+  - Kaynak: The New Cambridge Medieval History vol.7 (c.1415-c.1500), B. Schnerb 'Burgundy' (archive.org the-new-cambridge-medieval-history-vol.-7) · önceki: veri ölçümü
 
 ### K466 · bizans · 1402-07-28 → 1424-02-22 · 7.235 km²
 
@@ -666,19 +666,19 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 64.9 km · mutahharten 9/9
 - İçindeki yerleşimler: Muş (timurlu)
 - **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
-  - Gerekçe: Muş 1403 → 1405-02-18 (Timur'un ölümü) 'timurlu', çevre Mutahharten: ENKLAV-1104 K382 ile aynı — Timur 1404 Temmuz'unda Anadolu'dan ayrıldı.
+  - Gerekçe: Muş 1403 → 1405-02-18 (Timur'un ölümü) 'timurlu', çevre Mutahharten: ENKLAV-1104 K382 ile aynı — Timur 1404 Temmuz'unda Anadolu'dan ayrıldı. [KAYNAK-UMIT (kismen): Moğol döneminin ardından Karakoyunlu yönetimine geçen Muş, 789'da (1387) Timur'un idaresi altına girdi; arkasından Akkoyunlular'ın eline geçti. — "Muş, 789’da (1387) Karakoyunlu topraklarına sahip olan Timur’un idaresi altına girdi." · Muş'un Timur'a geçişi TDV'de 1387'dir (1403-1405 değil). 1403-1405-02-18 'timurlu' dönemi için TDV'de gün/yıl yok (Mutahharten bahsi de yok). Timur 1404'te Anadolu'dan ayrıldı ve Timur'un 1405'te ölümü bilinen olgu. YAPAY hükmüne dolaylı destek, K382 ile ayrıca doğrulanmalı.]
   - Düzeltme önerisi: K382 ile aynı.
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/mus — 'Muş, 789'da (1387) Karakoyunlu topraklarına sahip olan Timur'un idaresi altına girdi. Arkasından Akkoyunlular'ın eline geçti' (1403-1405 Timurlu dönemi kısmen)
+  - Kaynak: TDV İslâm Ansiklopedisi, MUŞ, https://islamansiklopedisi.org.tr/mus · önceki: veri ölçümü
 
 ### K468 · ilhanli · 1261-01-01 → 1262-01-01 · 7.068 km²
 
 - En büyük kesit: 1261-01-01 · komşu: lului 11%, eyyubi-hisnikeyfa 8%
 - Koridor: 95.6 km · lului 8/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: Zaho (sahipsiz); Malikiye (Derik) (sahipsiz); Silopi (sahipsiz); Cumai (Birlikköy) (sahipsiz); Cibri (Güçlü) (sahipsiz); Cizre (ilhanli); Şırnak (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Zaho-Silopi-Derik 1261 → 1262 İlhanlı, çevre Lü'lüî (Musul isyanı 1261-62): Musul'un Lü'lüî oğullarınca İlhanlı'ya karşı isyanı sırasında kuzey noktaları İlhanlı'da kalmış olabilir; 7 noktanın 6'sı sahipsiz.
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Zaho-Silopi-Derik 1261 → 1262 İlhanlı, çevre Lü'lüî (Musul isyanı 1261-62): Musul'un Lü'lüî oğullarınca İlhanlı'ya karşı isyanı sırasında kuzey noktaları İlhanlı'da kalmış olabilir; 7 noktanın 6'sı sahipsiz. [KAYNAK-UMIT (tam): 1251'de Eyyûbî el-Melikü'n-Nâsır ile Bedreddin Lü'lü Cizre'yi aldı; şehir 660'ta (1261-62) Moğol istilâsına uğradı, Moğollar Hıristiyan bir vali tayin etti, Hülâgû sonra Cizre'yi Emîr Tûdân'a verdi. — "şehir 660’ta (1261-62) Moğol istilâsına uğradı. Moğollar buraya hıristiyan bir vali tayin ettiler." · 1261-1262 İlhanlı/Moğol hâkimiyeti Cizre için TEYİTLİ (GERCEK hükmü destekli); hicrî 660 = ~2 Aralık 1261 - 20 Kasım 1262. Zaho/Silopi/Derik/Şırnak noktaları bu madde dışı. Moğol işgalinin gün ve bitişi (1262-01-01) bulunamadı.]
   - Düzeltme önerisi: Kuzey Cezire noktalarının 1261-1262 dönemleri kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, CİZRE, https://islamansiklopedisi.org.tr/cizre · önceki: veri ölçümü
 
 ### K469 · altinorda · 1325-01-01 → 1341-01-01 · 6.938 km²
 
@@ -705,10 +705,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1270-01-01 · komşu: saluzzo 38%, almanya 18%, asti-komunu 12%
 - Koridor: 107.6 km · saluzzo 5/9, orange-prensligi 3/9, DENIZ/BOS 1/9
 - İçindeki yerleşimler: Torino (provence-kontlugu)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Torino 1270 → 1276 'provence-kontlugu' (Anjou'lu Charles'ın Piyemonte payı), Provence gövdesinden Saluzzo ve Orange ile ayrı. Düşük güven.
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Torino 1270 → 1276 'provence-kontlugu' (Anjou'lu Charles'ın Piyemonte payı), Provence gövdesinden Saluzzo ve Orange ile ayrı. Düşük güven. [KAYNAK-UMIT (tam): Asti gücünün 1270'te çökmesinden sonra Torino, Provence kontu ve Sicilya kralı Carlo d'Angiò'nun signoria'sını tanımak zorunda kaldı; 1276'da Monferrato markisi Guglielmo VII'ye geçti; 1280'de Tommaso III di Savoia markisi Monferrato'dan geri aldı. — "nel 1270 ... T. fu costretta a riconoscere la signoria angioina, dalla quale nel 1276" · 1270 ve 1276 yıllarıyla BİREBİR teyitli; GERCEK hükmü doğru. Gün yok (yıl düzeyi). Provence kontlukları adı: Treccani 'Carlo d'Angiò conte di Provenza'. Düşük güven kaldırılabilir (yıl hassasiyeti).]
   - Düzeltme önerisi: Torino 1270-1276 sahibi kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, TORINO, https://www.treccani.it/enciclopedia/torino/ · önceki: veri ölçümü
 
 ### K472 · OSMANLI · 1589-01-01 → 1590-03-21 · 6.696 km²
 
@@ -735,10 +735,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1501-07-01 · komşu: akkoyunlu 51%, gilan-kiya 16%, timurlu 6%
 - Koridor: 65.5 km · akkoyunlu 9/9
 - İçindeki yerleşimler: Alamut (Alamut Kalesi, Kazvin vilayeti) (safevi)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Alamut 1501-07 → 1503 Safevî, çevre Akkoyunlu. Şah İsmail Irak-ı Acem'i 1503 Hemedan (Elma Kulağı) zaferiyle aldı; Alamut'un 1501'de Safevî oluşu şüpheli.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Alamut 1501-07 → 1503 Safevî, çevre Akkoyunlu. Şah İsmail Irak-ı Acem'i 1503 Hemedan (Elma Kulağı) zaferiyle aldı; Alamut'un 1501'de Safevî oluşu şüpheli. [KAYNAK-UMIT: bulunamadi — Alamut'un 1501-07 → 1503 arasında Safevî olup olmadığı yıl/gün olarak bulunamadı: TDV Safevî dönemini yılsız verir. Şah İsmail'in Irak-ı Acem'i 1503 Hemedan zaferiyle aldığı bu madde dışı (Safevîler maddesi okunmalı). Düzeltme (Alamut safevi f=1503) teyitsiz.] [KAYNAK-UMIT (kismen): Sah Ismail Tebriz'de Akkoyunlu hanedanina karşi katliamlara girişti; 909'da (1503) Irak-i Arab ve Fars hakimi Murad Bey'e karşı yuruyup Hemedan yakinindaki savasta galip geldi. Alamut Kalesi Safeviler zamaninda tamir edilip siyasi suclular icin hapishane oldu (yil verilmiyor). — "909’da (1503) Irâk-ı Arab ve Fars hâkimi Murad Bey’e karşı yürüyen Şah İsmâil" · 1503 Hemedan zaferi TEYITLI; Alamut'un 1501-07 -> 1503 arasi Safevi olmasi TDV'de yok (Alamut maddesi Safevi donemini yilsiz anar). Duzeltme (Alamut safevi f=1503) mantikli ama gun/yil kaynakli degil; kesin 'Alamut'un Safevi'ye gecis yili' arastirilmali.]
   - Düzeltme önerisi: Alamut safevi f → 1503 (kaynakla).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV Islam Ansiklopedisi 'Safeviler' ve 'Alamut' (islamansiklopedisi.org.tr/safeviler, /alamut) · önceki: veri ölçümü
 
 ### K475 · papalik · 1860-09-14 → 1860-09-29 · 6.519 km²
 
@@ -755,20 +755,20 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1341-01-01 · komşu: moskova 73%, rostov-knezligi 27%
 - Koridor: 68.5 km · moskova 9/9
 - İçindeki yerleşimler: Suzdal (nijni-novgorod-suzdal)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Suzdal 1341 → 1392 Nijni Novgorod-Suzdal büyük knezliği, Nijni Novgorod gövdesinden Moskova toprağıyla ayrı olabilir. Düşük güven: Suzdal-Nijni arası Gorodets bölgesi sahipliği.
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Suzdal 1341 → 1392 Nijni Novgorod-Suzdal büyük knezliği, Nijni Novgorod gövdesinden Moskova toprağıyla ayrı olabilir. Düşük güven: Suzdal-Nijni arası Gorodets bölgesi sahipliği. [KAYNAK-UMIT (kismen): 1237-38 Moğol istilasından sonra Vladimir-Suzdal bölündü ve Suzdal dukalığı oluştu (ilk dük Svjatoslav Vsevolodovič, 1238-46); 1246'dan itibaren Suzdal, Suzdal-Nižnij Novgorod prenslerinin hâkimiyetine girdi, bunlar 1392'de Moskova büyük dukasına boyun eğdi. — "Dal 1246 S. fu sottoposta al predominio dei principi S.-Nižnij Novgorod" · Suzdal'ın Suzdal-Nijni Novgorod prensliğine bağlılığı ve 1392 bitişi (Moskova'ya teslim) TEYİTLİ. 1341 başlangıcı Treccani'de yok. Suzdal'ın gövdeden Moskova toprağıyla ayrı olduğu iddiası (coğrafya) desteklenmez; Suzdal knezliğin parçasıydı, GERCEK kopukluk yok gibi. Gorodets/Vladimir bulunamadı.]
   - Düzeltme önerisi: Gorodets/Vladimir sahipliği kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, SUZDAL', https://www.treccani.it/enciclopedia/suzdal/ · önceki: veri ölçümü
 
 ### K477 · fransa-cumhuriyet · 1801-01-01 → 1807-12-10 · 6.462 km²
 
 - En büyük kesit: 1804-01-01 · komşu: toskana 32%, papalik 32%, piombino 8%
 - Koridor: 18.5 km · toskana 9/9
 - İçindeki yerleşimler: Tarquinia (sahipsiz); Vulci (sahipsiz); Orbetello (fransa-cumhuriyet)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Stato dei Presidi (Orbetello) 1801 (Lunéville/Aranjuez) → 1807 Fransız, Toskana (Etrurya) ile çevrili: gerçek eksklav. Borç: Tarquinia ve Vulci Papalık toprağıydı, Fransız yazımı yanlış.
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
+  - Gerekçe: Stato dei Presidi (Orbetello) 1801 (Lunéville/Aranjuez) → 1807 Fransız, Toskana (Etrurya) ile çevrili: gerçek eksklav. Borç: Tarquinia ve Vulci Papalık toprağıydı, Fransız yazımı yanlış. [KAYNAK-UMIT (celiski): Stato dei Presidi (Orbetello, Port'Ercole, Porto Santo Stefano, Talamone, Ansedonia, Porto Longone) 1557'den İspanyol, 1707'de Avusturya, 1736'da Napoli Burbonlarına geçti; 1800'de Fransızlar tarafından işgal edildi; 1801 Floransa barışıyla Etrurya Krallığı'na katıldı, sonra Toskana Büyük Dukalığı'na. — "Incorporato nel Regno d’Etruria con la pace di Firenze (1801)" · ÇELİŞKİ: Treccani'ye göre Presidi 1800'de Fransız işgalinde, 1801'de ETRURYA Krallığı'na katılmış; atlasın 1801-1807-12-10 'fransa-cumhuriyet' yazımı 1801'den itibaren yanlış (Etrurya = Toskana yanı). 1800 işgal yılı doğru. Tarquinia/Vulci Papalık toprağı Treccani'de bulunamadı.]
   - Düzeltme önerisi: Tarquinia, Vulci papalik (kaynakla).
-  - Kaynak: veri ölçümü
+  - Kaynak: Treccani, STATO DEI PRESIDI, https://www.treccani.it/enciclopedia/stato-dei-presidi/ · önceki: veri ölçümü
 
 ### K478 · almanya · 1482-03-27 → 1516-01-23 · 6.415 km²
 
@@ -786,19 +786,19 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 21.3 km · cizre-botan 9/9
 - İçindeki yerleşimler: Siirt (celayirli)
 - **Hüküm: YAPAY** (YAPAY-d · güven KAYNAKLI)
-  - Gerekçe: Siirt 1394-01 → 04-25 'celayirli', çevre Cizre-Botan: Timur'un 1394 seferi sırasında 4 aylık kesit; yıl hassasiyetli uç ile sefer günü hizasız.
+  - Gerekçe: Siirt 1394-01 → 04-25 'celayirli', çevre Cizre-Botan: Timur'un 1394 seferi sırasında 4 aylık kesit; yıl hassasiyetli uç ile sefer günü hizasız. [KAYNAK-UMIT (kismen): Siirt İlhanlılar ve halefleri Celâyirliler'in hâkimiyeti altına girdi, Timur istilâsını gördü, 1462'ye doğru Akkoyunlu'ya geçti. Diyarbakır 26 Nisan 1394'te Timur tarafından zaptedildi. — "Timur istilâsını da gördükten sonra 866’ya (1462) doğru Akkoyunlular tarafından ele geçirildi" · Timur'un Diyarbakır'ı almasının günü 26 Nisan 1394 (Siirt için gün yok); atlas t=1394-04-25 bir gün öncedir. Siirt 1394'te Celâyirli'den Timurlu'ya geçişi TDV'de açıkça yok; Celâyirli sahipliği ve Timur istilası genel olarak teyitli. Siirt için gün bulunamadı.]
   - Düzeltme önerisi: Siirt 1394 geçişi kaynakla (TDV Siirt: Timur istilâsı).
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/diyarbakir — '25 veya 26 Nisan 1394'te Timur tarafından zaptedilerek' (veri bitişi 1394-04-25 Âmid'in düşüşüyle birebir; Siirt için ABİ MERKEZ: Âmid — beyan)
+  - Kaynak: TDV İslâm Ansiklopedisi, SİİRT, https://islamansiklopedisi.org.tr/siirt ; DİYARBAKIR, https://islamansiklopedisi.org.tr/diyarbakir · önceki: veri ölçümü
 
 ### K480 · bizans · 1345-09-25 → 1371-11-01 · 6.354 km²
 
 - En büyük kesit: 1355-01-01 · komşu: sirbistan 24%
 - Koridor: 144.6 km · katalan 6/9, sirbistan 3/9
 - İçindeki yerleşimler: Kesendire (Kassandra) (bizans); Aynaroz (Athos) (bizans); Olynthos (sahipsiz); Selanik (bizans); Lanzaka (Lagkadas) (bizans)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Kesendire-Aynaroz-Olynthos 1345-09-25 (Serez'in Duşan'a düşüşü) → 1371 Bizans, çevre Katalan/Sırp. Halkidiki ve Athos 1345-1371 Sırp İmparatorluğu'ndaydı (Athos Duşan'ın himayesinde); Bizans yazımı yanlış.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Kesendire-Aynaroz-Olynthos 1345-09-25 (Serez'in Duşan'a düşüşü) → 1371 Bizans, çevre Katalan/Sırp. Halkidiki ve Athos 1345-1371 Sırp İmparatorluğu'ndaydı (Athos Duşan'ın himayesinde); Bizans yazımı yanlış. [KAYNAK-UMIT (kismen): Selânik 1342'de Zelotlar tarafından alındı, 1349'da Bizanslılar şehre yeniden hâkim oldu; Kavala 1345 Sırp yayılması sırasında Bizans'ta kaldı; Aynaroz maddesi Duşan'ı anmaz. — "1349’da Bizanslılar şehre yeniden hâkim oldu." · Selanik 1345-1371 arasında Bizans'ta (Sırp değil) — atlasın Bizans yazımı Selanik için doğru, ÇELİŞKİ: 'Halkidiki ve Athos Sırp' iddiası TDV Aynaroz/Selânik maddelerinde yok (bulunamadı). Başlangıç 1345-09-25 (Serez) bu sayfalarda yok. Kesendire/Olynthos ayrıca doğrulanmadı.]
   - Düzeltme önerisi: Halkidiki noktaları 1345-1371 sirbistan (kaynakla).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, SELÂNİK, https://islamansiklopedisi.org.tr/selanik ; KAVALA ; AYNAROZ · önceki: veri ölçümü
 
 ### K481 · gurcistan · 1578-08-01 → 1578-08-09 · 6.347 km²
 
@@ -816,7 +816,7 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 0.3 km · almanya 9/9
 - İçindeki yerleşimler: Eupen (ispanya); Maastricht (ispanya); Roermond (ispanya)
 - **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Maastricht-Roermond-Eupen 1629-09-14 → 1714 İspanyol, gövdeden 0,3 km 'almanya' ile ayrı. Maastricht 1632'de Hollanda'ya geçti (Frederik Hendrik); 1632-1714 İspanyol yazımı yanlış. Ayrıca değme payı (K436).
+  - Gerekçe: Maastricht-Roermond-Eupen 1629-09-14 → 1714 İspanyol, gövdeden 0,3 km 'almanya' ile ayrı. Maastricht 1632'de Hollanda'ya geçti (Frederik Hendrik); 1632-1714 İspanyol yazımı yanlış. Ayrıca değme payı (K436). [KAYNAK-UMIT: bulunamadi — Maastricht'in 1632'de Frederik Hendrik tarafından alındığı iddiası teyit edilemedi. Ayrıca K436 değme payı bulunamadı. HLS/BNF/Dutch biyografi sözlüğü ya da NDB 'Friedrich Heinrich' gerek.] [KAYNAK-UMIT: giris_gerek — Maastricht'in Frederik Hendrik tarafindan 1632'de (Agustos) alinmasi icin dogru cilt (Cambridge Modern History vol.IV) acik kopyada bulunamadi. Okunmali: Israel, The Dutch Republic 1477-1806 (1632 Maastricht kusatmasi).]
   - Düzeltme önerisi: Maastricht ispanya t → 1632-08 (kaynakla) → hollanda.
   - Kaynak: veri ölçümü
 
@@ -825,20 +825,20 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1281-01-01 · komşu: resuli 49%
 - Koridor: 109.0 km · resuli 9/9
 - İçindeki yerleşimler: Moha (yemen)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Moha 1281 → 1517-04-15 'yemen', çevre Resûlî. Yemen 1229-1454 Resûlî, 1454-1517 Tâhirî idaresindeydi; 'yemen' çatı kimliği Moha'yı Resûlî gövdesinden ayırıyor.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Moha 1281 → 1517-04-15 'yemen', çevre Resûlî. Yemen 1229-1454 Resûlî, 1454-1517 Tâhirî idaresindeydi; 'yemen' çatı kimliği Moha'yı Resûlî gövdesinden ayırıyor. [KAYNAK-UMIT (kismen): Resûlîler Yemen'de 1229-1454 hüküm sürdü; Tâhirîler 858 (1454) yılında Resûlî topraklarının tamamını ele geçirip hânedana son verdi ve Yemen'de 1454-1517 hüküm sürdü; Tâhirî II. Âmir 23 Rebîülevvel 923 / 15 Nisan 1517'de öldürüldü, hânedana son verildi. — "Yemen’de Resûlîler’den sonra 1454-1517 yılları arasında hüküm süren Sünnî bir hânedan." · Zincir (Resûlî 1229-1454 → Tâhirî 1454-1517) ve atlas t=1517-04-15 BİREBİR teyitli (15 Nisan 1517). Moha adı TDV'de geçmiyor, Moha'nın bu zincirde olması dolaylı. 1281 başlangıcı (atlas) Resûlî dönemine düşer; Moha 1281-1454 resuli, 1454-1517 tahiri düzeltmesi zincir olarak doğru ama kentin özel kaydı bulunamadı.]
   - Düzeltme önerisi: Moha 1281-1454 resuli, 1454-1517 tahiri (kaynakla).
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, RESÛLÎLER https://islamansiklopedisi.org.tr/resuliler ; TÂHİRÎLER https://islamansiklopedisi.org.tr/tahiriler--yemen · önceki: veri ölçümü
 
 ### K484 · OSMANLI · 1444-11-01 → 1455-06-01 · 6.331 km²
 
 - En büyük kesit: 1448-01-01 · komşu: sirp-despotlugu 68%, sirbistan 32%
 - Koridor: 3.4 km · sirp-despotlugu 9/9
 - İçindeki yerleşimler: Leskofça (Leskovac) (OSMANLI); Kurşunlu (Kuršumlija) (OSMANLI); Ürküp (Prokuplje) (OSMANLI)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: Leskofça-Kurşunlu-Ürküp 1444-11 → 1455 Osmanlı, Sırp Despotluğu ortasında: TDV'ye göre 1444 Segedin antlaşmasında Semendire ve 24 kale Brankoviç'e geri verilirken Kruševac ve Dubočica (Leskofça) Osmanlı'da kaldı — gerçek kalıntı (önceki YAPAY-c hükmü düzeldi).
-  - Düzeltme önerisi: Yok.
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/leskofca — '1444 Segedin Antlaşması'nda Semendire ve yirmi dört büyük kale Brankoviç'e geri verilirken Kruševac ve onunla beraber Dubočica, Osma[nlı'da kaldı]'
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Leskofça-Kurşunlu-Ürküp 1444-11 → 1455-06 OSMANLI, çevre Sırp Despotluğu (koridor 3 km). Segedin barışı (1444) Sırp topraklarını iade etti; Güney Morava hattının Osmanlı'ya kesin geçişi 1454-55. 1444 başlangıcı ve 3 km'lik koridor sınanmalı. [KAYNAK-UMIT (celiski): Dubočica (Leskofça) 1428'de II. Murad tarafından ya da büyük ihtimalle 1433'te Osmanlı hâkimiyetine girdi; 1444 Segedin Antlaşması'nda Kruševac ve Dubočica Osmanlı tarafında kaldı; tahrir parçaları 1445, Ekim 1446 ve Mart 1447'de Osmanlı elinde gösterir; 1454'ten 1878'e Osmanlı idarî birimi. — "Kruševac ve onunla beraber Dubočica, Osmanlı tarafında kaldı." · ÇELİŞKİ: atlas gerekçesi 'Segedin barışı Sırp topraklarını iade etti, güney Morava kesin geçişi 1454-55'. TDV'ye göre Leskofça/Dubočica Segedin'de Osmanlı'da KALDI. Atlas OSMANLI 1444-11 → 1455 yazımı (f=1444) destekli; Kurşunlu/Ürküp ayrıca doğrulanmadı. Başlangıç gün 1444-11-01 bulunamadı.]
+  - Düzeltme önerisi: Leskofça vb. Osmanlı f kaynakla (TDV).
+  - Kaynak: TDV İslâm Ansiklopedisi, LESKOFÇA, https://islamansiklopedisi.org.tr/leskofca · önceki: veri ölçümü
 
 ### K485 · litvanya-buyuk-dukalik · 1441-01-01 → 1480-01-01 · 6.300 km²
 
@@ -846,7 +846,7 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 131.3 km · altinorda 9/9
 - İçindeki yerleşimler: Hacıbey (Odessa) (litvanya-buyuk-dukalik)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Hacıbey (Odessa) 1441 → 1480 Litvanya, Litvanya gövdesinden Altın Orda/Kırım bozkırıyla ayrı: Vytautas döneminde Karadeniz kıyısına uzanan Litvanya iskeleleri bilinir. Düşük güven: 1441-1480 dönemi.
+  - Gerekçe: Hacıbey (Odessa) 1441 → 1480 Litvanya, Litvanya gövdesinden Altın Orda/Kırım bozkırıyla ayrı: Vytautas döneminde Karadeniz kıyısına uzanan Litvanya iskeleleri bilinir. Düşük güven: 1441-1480 dönemi. [KAYNAK-UMIT: bulunamadi — Hacıbey'in 1441-1480 Litvanya sahipliği teyit edilemedi. Kaynaklar yalnız sonraki dönemi (Osmanlı, 1789 Rus) verir. İkinci kaynak (Kırım Hanlığı/Kocabey tarihi, Ukrayna Ansiklopedisi 'Odesa') okunmalı.] [KAYNAK-UMIT: bulunamadi — Hacibey 1441-1480 Litvanya yazimi kaynakla teyit edilemedi. Kirim Hanligi'nin kurulusu 1441 civari (Haci Giray) ayni donemde Litvanya'nin Karadeniz kiyisi iddiasi icin Ukrayna Ansiklopedisi / Kamyanets kaynagi gerek.]
   - Düzeltme önerisi: Hacıbey 1441-1480 sahibi kaynakla.
   - Kaynak: veri ölçümü
 
@@ -915,10 +915,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1723-08-06 · komşu: TABI 21%, safevi 18%
 - Koridor: 63.2 km · safevi 9/9
 - İçindeki yerleşimler: Bakü (rusya)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: Bakü 1723-08-06 → 09-23 Rus, Derbend'den Safevî şeridiyle ayrı: ENKLAV-1104 K195 ile aynı — Rus Hazar kıyı şeridi bitişikti, kopukluk Derbend-Şâbüran arası noktadan.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Bakü 1723-08-06 → 09-23 Rus, Derbend'den Safevî şeridiyle ayrı: ENKLAV-1104 K195 ile aynı — Rus Hazar kıyı şeridi bitişikti, kopukluk Derbend-Şâbüran arası noktadan. [KAYNAK-UMIT (celiski): Bakü 1723'te I. Petro tarafından Rus topraklarına katıldı, fakat kısa bir süre sonra Nâdir Şah zamanında yeniden İran'ın eline geçti (1734); 1747'de Bakü Hanlığı; 1813 Gülistan. — "Bakü 1723’te I. Petro tarafından Rus topraklarına katıldı" · 1723 Rus katılımı teyitli. ÇELİŞKİ: TDV Rus hâkimiyetini 1734'e kadar (Nâdir Şah) sürdürdüğünü ima eder; atlas t=1723-09-23 (Petersburg antlaşması) kaynakla teyitsiz: Rus dönemi 1723-1734'e uzar. Gün (1723-08-06) bu sayfada yok. Derbend-Şâbüran kopukluğu coğrafi iddia, bulunamadı.]
   - Düzeltme önerisi: K195 ile aynı.
-  - Kaynak: veri ölçümü
+  - Kaynak: TDV İslâm Ansiklopedisi, BAKÜ, https://islamansiklopedisi.org.tr/baku · önceki: veri ölçümü
 
 ### K494 · alman-dogu-afrikasi · 1897-01-01 → 1916-06-06 · 6.265 km²
 
@@ -936,9 +936,9 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 74.0 km · TABI 5/9, OSMANLI 4/9
 - İçindeki yerleşimler: Pydna (Kítros) (sahipsiz); Aigai (Vergina) (sahipsiz); Karaferye (Veria) (sirbistan); Pella (sahipsiz); Yenice-i Vardar (sahipsiz); Vodina (Edessa) (sirbistan)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: Karaferye (Veria) 1385 → 1387-05-08 Sırp (Duşan sonrası yerel beylik), çevre Osmanlı ve TABI. Karaferye'nin Osmanlı fethi 1385-87; düşük güven. 4 nokta sahipsiz (antik).
+  - Gerekçe: Karaferye (Veria) 1385 → 1387-05-08 Sırp (Duşan sonrası yerel beylik), çevre Osmanlı ve TABI. Karaferye'nin Osmanlı fethi 1385-87; düşük güven. 4 nokta sahipsiz (antik). [KAYNAK-UMIT (celiski): Karaferye 1347'de Sırp çarı Duşan tarafından alındı; 1371 Çirmen Savaşı'na kadar sembolik de olsa Sırp Krallığı'nın parçası kaldı; Meteora yazması Türkler'in Véria'ya hâkim olduğu yılı 1385-86 verir, Yunan kaynakları fethi 8 Mayıs 1387'de yazar. — "Türkler tarafından alınmasının 8 Mayıs 1387’de olduğunu yazar." · Atlas t=1387-05-08 TDV'yle (Yunan kaynakları) BİREBİR. ÇELİŞKİ: Sırp hâkimiyeti TDV'ye göre 1371 Çirmen'e dek 'sembolik'; 1385-1387 Sırp yazımı kaynakla desteklenmez (ya Bizans/yerel beylik ya Osmanlı akını). Karaferye Osmanlı f = 1385-86 (hicrî ayrı) ya da 8 Mayıs 1387; iki kaynak adayı beyan edilmeli.]
   - Düzeltme önerisi: Karaferye Osmanlı f kaynakla (TDV Karaferye).
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/karaferye — bir Meteora yazmasında 'Türkler'in Véria'ya hâkim oldukları 1385-86'; 'Diğer Yunan kaynakları ise şehrin Türkler tarafından alınmasının 8 Mayıs 1387'[de olduğunu]' — iki görüş, veri 1387-05-08 ile uyumlu (çelişki beyanlı)
+  - Kaynak: TDV İslâm Ansiklopedisi, KARAFERYE, https://islamansiklopedisi.org.tr/karaferye · önceki: veri ölçümü
 
 ### K496 · itilaf-emaneti · 1919-09-10 → 1920-11-12 · 6.169 km²
 
@@ -956,9 +956,9 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - Koridor: 140.8 km · cemisgezek-beyligi 4/9, dulkadir 3/9, karakoyunlu 2/9
 - İçindeki yerleşimler: Kelkit (akkoyunlu); Karahisâr-ı Şarkî (Şebinkarahisar) (akkoyunlu)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: Kelkit-Şebinkarahisar Akkoyunlu payı 1410 → 1422, Diyarbakır gövdesinden Çemişgezek, Dulkadir ve Karakoyunlu ile ayrı. Düşük güven.
+  - Gerekçe: Kelkit-Şebinkarahisar Akkoyunlu payı 1410 → 1422, Diyarbakır gövdesinden Çemişgezek, Dulkadir ve Karakoyunlu ile ayrı. Düşük güven. [KAYNAK-UMIT (celiski): Şebinkarahisar Timur istilâsının ardından 811'de (1408) Gözleroğlu'nun, on yıl sonra (1418) Karakoyunlu Türkmenleri'nin, 864'te (1459-60) Akkoyunlular'ın eline geçti. Akkoyunlular maddesi: Karayülük Osman Karahisar'ı oğlu Kemah hâkimi Yâkub Bey'e verdi (~1421 sonrası). — "Timur’un istilâsının ardından 811’de (1408) Gözleroğlu’nun, on yıl sonra Karakoyunlu Türkmenleri’nin" · ÇELİŞKİ: atlasın 1410-1422 Akkoyunlu payı Şebinkarahisar için desteksiz: 1408 Gözleroğlu, 1418 Karakoyunlu, 1459-60 Akkoyunlu. Akkoyunlular maddesinde Karahisar (Yâkub Bey) ~1421-22'den sonra anılır (Şebinkarahisar mı Karahisar-ı Şarkî mi belirsiz). Kelkit TDV'de geçmiyor. Önerilen: f≈1421 (yıl, ikinci kaynak gerek).]
   - Düzeltme önerisi: Kaynakla (TDV Akkoyunlular).
-  - Kaynak: TDV, https://islamansiklopedisi.org.tr/bayburt (K212 ile aynı: Karayülük Osman Bey dönemi Akkoyunlu)
+  - Kaynak: TDV İslâm Ansiklopedisi, ŞEBİNKARAHİSAR, https://islamansiklopedisi.org.tr/sebinkarahisar ; AKKOYUNLULAR, https://islamansiklopedisi.org.tr/akkoyunlular · önceki: veri ölçümü
 
 ### K498 · macaristan-habsburg · 1557-01-01 → 1566-09-02 · 6.094 km²
 
@@ -997,10 +997,10 @@ Hükümlü: 100 / 100. Kova: GERCEK 36, YAPAY-a 12, YAPAY-b 7, YAPAY-c 26, YAPAY
 - En büyük kesit: 1809-07-09 · komşu: antandroy 29%, antemoro 10%
 - Koridor: 6212.3 km · DENIZ/BOS 4/9, lunda-imparatorlugu 2/9, portekiz 1/9, bemba 1/9, loango 1/9
 - İçindeki yerleşimler: Tolanaro (Fort Dauphin) (fransa-cumhuriyet)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
-  - Gerekçe: DENİZ AŞIRI: Tolanaro (Fort-Dauphin) 1792 → 1897 'fransa-cumhuriyet'. Fransız Fort-Dauphin kolonisi 1643-1674 arasıydı, sonra terk edildi; 1792 başlangıcı kimlik devri artefaktı, 19. yüzyıl Fransız varlığı 1895 sonrası.
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: DENİZ AŞIRI: Tolanaro (Fort-Dauphin) 1792 → 1897 'fransa-cumhuriyet'. Fransız Fort-Dauphin kolonisi 1643-1674 arasıydı, sonra terk edildi; 1792 başlangıcı kimlik devri artefaktı, 19. yüzyıl Fransız varlığı 1895 sonrası. [KAYNAK-UMIT: bulunamadi — Fort-Dauphin 1643-1674 Fransız kolonisi bilgisi bu kaynakta yok (bulunamadı). Madagaskar'ın Fransız kolonisi oluşu 1896'dır: atlasın 1897 bitişi Fransız'ın tüm adayı aldığı döneme denk, yazım Tolanaro 1792-1897 için ancak 1885-96 sonrası teyitli, 1792'den önce ve 1792-1885 arasındaki Fransız yazımı desteksiz.] [KAYNAK-UMIT (tam): Merina krali I. Radama'nin Jean Rene komutasindaki kuvvetleri Fort-Dauphin'e (guney-dogu) 1825'te ulasti ve dogu kiyisinin efendisi iddiasi guclendi; 1855'te Fort-Dauphin garnizonu guneydoğu halklari tarafindan kusatiliyordu (Ranavalona'nin garnizonu). Fransiz Fort-Dauphin kolonisi 1643-1674 (bu ciltte yok). — "Fort Dauphin in the extreme south-east of the island was reached in 1825" · Tolanaro 1792-1897 'fransa-cumhuriyet' YANLIS: 19. yuzyilda Fort-Dauphin Merina Krallığı (Radama I, 1825 -> Ranavalona garnizonu) elinde, Fransa 1896 (ilhak) / 1897 (Merina tahtinin kaldirilmasi). Duzeltme: Tolanaro ~1825-1895 merina (Imerina), ondan once Antanosy; Fransiz donemi 1643-1674 ayri.]
   - Düzeltme önerisi: Tolanaro 1674-1895 sahibi (Antanosy) kaynakla.
-  - Kaynak: veri ölçümü
+  - Kaynak: UNESCO General History of Africa vol.VI (archive.org general_history_africa_vi), Madagascar bolumu · önceki: veri ölçümü
 
 ### K491 · fransa-cumhuriyet · 1919-01-01 → 1919-04-01 · 6.290 km²
 

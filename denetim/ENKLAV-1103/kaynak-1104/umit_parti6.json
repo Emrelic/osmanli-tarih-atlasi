@@ -1,0 +1,261 @@
+{
+ "K080": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda denenmedi.",
+  "alinti": "",
+  "not": "Galiçya-Avusturya Silezyası (Teschen) komşuluğu için Treccani 'Galizia', HLS ya da EB 1911 'Silesia'/'Galicia' (kismen) sayfası okunmalı."
+ },
+ "K100": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda denenmedi.",
+  "alinti": "",
+  "not": "Treccani 'Guerra civile spagnola' ve Badajoz 14 Ağustos 1936 için akademik sayfa okunmalı."
+ },
+ "K105": {
+  "teyit": "bulunamadi",
+  "kaynak": "Cambridge History of China vol. 6 (archive.org tam metin, the-cambridge-history-of-ancient-china-...pdfdrive_20221117)",
+  "teyit_edilen": "'Szechwan' ve 'Ch'eng-tu' anahtarları yalnız Liao/Tangut/Tang bağlamlı sayfaları verdi; 1236 Çengdu yağması ya da 1236-1260 sahipliği çıkmadı.",
+  "alinti": "",
+  "not": "Hüküm kaynaksız kalır. Moğol Siçuan seferi bölümü (Franke/Rachewiltz) ya da Song Shi/Yuan Shi neşri gerek."
+ },
+ "K119": {
+  "teyit": "bulunamadi",
+  "kaynak": "Cambridge History of China vol. 6 (archive.org tam metin)",
+  "teyit_edilen": "'T'ai-yuan', 'Muqali', 'Mukhali', 'Mu-hua-li' yazımlarıyla eşleşme çıkmadı (OCR yazım farkı olabilir).",
+  "alinti": "",
+  "not": "Mukali'nin 1218 Taiyuan'ı alması kaynaklanamadı. Cambridge History of China vol. 6 Moğol-Jin bölümü elle okunmalı."
+ },
+ "K126": {
+  "teyit": "giris_gerek",
+  "kaynak": "UNESCO General History of Africa VII (archive.org: general-history-of-africa-vol-7); yalnız dizin okundu",
+  "teyit_edilen": "Dizinde 'Huila Highlands, 183' ve 'Humbe, 169, 174, 176, 178, 188, 189' girişleri var (Angola bölümü); sayfa metni açılmadı.",
+  "alinti": "",
+  "not": "Lubango/Huíla'nın Nyaneka-Humbe toprağı olduğu ve 1885 Sá da Bandeira kuruluşu için GHA VII s.169-189 civarı okunmalı. Dizin teyit değildir."
+ },
+ "K127": {
+  "teyit": "kismen",
+  "kaynak": "Cambridge History of China vol. 9 (Ch'ing Dynasty, Part 2 / to 1800), R. Kent Guy bölümü, archive.org PDFDrive metni",
+  "teyit_edilen": "Wu Sangui isyanı 1673'te başladı (Guizhou valisi teslim oldu, Yunnan valisi öldürüldü); 1674'te Hunan (P'ien-yüan) valisi görevini terk etti, Sichuan valisi teslim oldu. Changsha'nın gün düzeyinde alınışı verilmiyor.",
+  "alinti": "In 1674, the governor of P'ien-yiian (later renamed Hunan) abandoned his post",
+  "not": "Hunan'ın Wu cephesine geçişi 1674'tür; 1673-12-28 f günü Changsha için uyumsuz, düzeltme yönü (f'i 1674'e çekmek) kısmen teyitli. Gün kaynaksız; OCR 'yiian' = yüan."
+ },
+ "K135": {
+  "teyit": "bulunamadi",
+  "kaynak": "GHA VII (archive.org general-history-of-africa-vol-7), Zinder anahtarı",
+  "teyit_edilen": "Zinder yalnız Trablus-Kano kervan yolu ve dizin girişi (s.441) olarak geçiyor; Fransız fethi günü yok.",
+  "alinti": "",
+  "not": "Zinder'in 30 Temmuz 1899'da alınışı kaynaklanamadı. Damagaram/Fransız fethi için Cambridge History of Africa vol. 6 ya da hakemli makale gerek."
+ },
+ "K137": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV 'Nogaylar' (islamansiklopedisi.org.tr/nogaylar); TDV arama 'yayik'",
+  "teyit_edilen": "Nogaylar maddesi Nogay ordasını Deştikıpçak'ta gösteriyor ama 'Yayık' geçmiyor. Arama özeti Yayık havzasını Başkırt/Batu/Hazar maddelerinde anıyor; sayfa açılmadı, teyit değil.",
+  "alinti": "",
+  "not": "Uralsk (Yaitsk) kuruluş yılı ve Nogay-Yayık bağı kaynaklanamadı. TDV 'Başkırtlar' ve 'Edige' maddeleri ile Rus tarihi kaynağı gerek."
+ },
+ "K142": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda Panthay/Tali anahtarı aranmadı.",
+  "alinti": "",
+  "not": "Cambridge History of China vol. 10 (archive.org metni mevcut, 798 KB) içinde 'Panthay', 'Tali', 'Tu Wen-hsiu' anahtarlarıyla aranmalı."
+ },
+ "K149": {
+  "teyit": "kismen",
+  "kaynak": "UNESCO General History of Africa VII, sömürgeleşme bölümü (archive.org general-history-of-africa-vol-7)",
+  "teyit_edilen": "İngiliz seferleri: Kontagora 1900, Adamawa 1901, Bauchi 1902; Kano, Sokoto ve Burwuri 1903. Aylar/günler verilmiyor.",
+  "alinti": "Bauchi in 1902, Kano, Sokoto and Burwuri in 1903",
+  "not": "Gerekçenin yıl düzeyi teyitli: Bauchi 1902'de İngiliz seferiyle düştü, Sokoto 1903'te. Atlasın 1903-01-01 Bauchi sokoto başlangıcı 1902 tarihli kaynakla çelişiyor; ingiltere f'si için gün kaynaksız (yalnız 1902)."
+ },
+ "K158": {
+  "teyit": "bulunamadi",
+  "kaynak": "Cambridge History of China vol. 7 (Ming) ve vol. 9-11, archive.org metni",
+  "teyit_edilen": "Yang-chou anahtarı yalnız 1356-66 Ming-Wu seferleri ve 1868 Yangzhou olayını verdi; 1645 Qing alınışı çıkmadı. Vol. 9 Part 1 OCR boş.",
+  "alinti": "",
+  "not": "Qing'in Yangzhou'yu Mayıs 1645'te alması kaynaklanamadı. Wakeman 'The Great Enterprise' ya da vol. 9 Part 1 ('Conquest') elle okunmalı."
+ },
+ "K159": {
+  "teyit": "bulunamadi",
+  "kaynak": "Cambridge History of China vol. 6 (Khubilai Khan dönemi bölümü), archive.org metni",
+  "teyit_edilen": "Khubilai 1273 yazında Bayan'ı komutan atadı; haritada Bayan'ın ana ordusu Hsiang-yang-Yangzi hattında gösterilmiş. Ocak 1275 Yangzi geçişi/Wuchang cümlesi bulunamadı.",
+  "alinti": "",
+  "not": "Yangzi geçişi ve Wuchang/Ezhou günleri kaynaklanamadı; hüküm kaynaksız."
+ },
+ "K161": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "TDV arama 'johor' yalnız aday listesi verdi; sayfa açılmadı.",
+  "alinti": "",
+  "not": "Siak-Johor bağlılığı için Cambridge History of Southeast Asia ya da Johor tarihi akademik sayfa gerek."
+ },
+ "K164": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda denenmedi.",
+  "alinti": "",
+  "not": "EB 1911 'Semipalatinsk' (kismen) ya da Rusya-Cungar İrtiş hattı akademik makalesi okunmalı."
+ },
+ "K174": {
+  "teyit": "bulunamadi",
+  "kaynak": "GHA VII (archive.org general-history-of-africa-vol-7)",
+  "teyit_edilen": "Duala yalnız dizin girişinde (s.289); Temmuz 1884 Alman antlaşması cümlesi arama anahtarlarıyla çıkmadı.",
+  "alinti": "",
+  "not": "Hollanda egemenliği dayanağı yok (önceki tur gibi). Duala-Alman antlaşması günleri için Kamerun tarihi bölümü elle okunmalı."
+ },
+ "K183": {
+  "teyit": "bulunamadi",
+  "kaynak": "Cambridge History of China vol. 10 (archive.org metni)",
+  "teyit_edilen": "'Chi-an' yalnız sözlük (glossary) girişinde çıktı; Taiping Jiangxi seferi cümlesi bulunmadı.",
+  "alinti": "",
+  "not": "Ji'an'ın Taiping'e geçişi kaynaklanamadı. Vol. 10 Taiping bölümü 'Shih Ta-k'ai' ve 'Kiangsi' anahtarlarıyla aranmalı."
+ },
+ "K190": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda denenmedi.",
+  "alinti": "",
+  "not": "Valdivia 1645 yeniden kuruluş ve Şubat 1820 Cochrane için Memoria Chilena/Diccionario Biográfico de Chile ya da Cambridge History of Latin America gerek."
+ },
+ "K203": {
+  "teyit": "bulunamadi",
+  "kaynak": "GHA VII (dizin) ve GHA VI (metin), archive.org",
+  "teyit_edilen": "GHA VI'da 'Rehoboth' ve 'Basters' geçmiyor; GHA VII'de yalnız 'Rehoboth river' dizin girişi var.",
+  "alinti": "",
+  "not": "Baster/Rehoboth 1870 ve 1885 himaye antlaşması kaynaklanamadı. Namibya tarihi akademik kaynağı gerek."
+ },
+ "K213": {
+  "teyit": "bulunamadi",
+  "kaynak": "UNESCO GHA VI, 19. yy İslam devrimleri bölümü (archive.org general_history_africa_vi)",
+  "teyit_edilen": "Cenne (Jenne) Segu famalarına bağlı arma yönetimi altındaydı, Hamdullahi hilafeti ('Nukuma' savaşı) Masina'da kuruldu. Hacı Ömer'in 1861 Segu ve 1862 Masina/Cenne olayları arama anahtarlarıyla çıkmadı.",
+  "alinti": "",
+  "not": "1861-03-10 Segu ve Cenne'nin Ömer'e geçiş yılı kaynaklanamadı. Hacı Ömer bölümü elle okunmalı."
+ },
+ "E006": {
+  "teyit": "celiski",
+  "kaynak": "Imperial Gazetteer of India vol. XI (1908), 'Dholka Town' maddesi, archive.org in.ernet.dli.2015.11608",
+  "teyit_edilen": "Dholka Marathalarca 1736'da alındı, 1757'de Gaekwar eline geçti, 1804'te İngilizlere devredildi. Wadhwan maddesi bulunamadı.",
+  "alinti": "It was taken by the Marathas in 1736",
+  "not": "Gerekçe 'Dholka 1817-18'e dek Peşva/Gaekwad' diyor; IG 1804 İngiliz devrini söylüyor (sonrası geri verildi mi belirtilmiyor). Dholka için 1803-02-18 f'si yaklaşık bir yıl erken; 1804 civarı. Wadhwan açık."
+ },
+ "K217": {
+  "teyit": "kismen",
+  "kaynak": "Cambridge History of China vol. 7 (Ming, Part 1), Southern Ming/Li Tzu-ch'eng bölümü, archive.org metni",
+  "teyit_edilen": "Li Zicheng Wu Sangui ve Dorgon'un birleşik gücüne yenilip Pekin'e döndü; 3 Haziran'da Shun imparatoru ilan etti. Şansi üzerinden ilerleyiş ve Qing girişi günü bu çıktıda okunmadı.",
+  "alinti": "On 3 June, in the midst of one last frenzied orgy of looting",
+  "not": "Atlasın Pekin dashun f=1644-04-25 'alınış' günü teyitsiz, 3 Haziran Shun enthronement teyitli. Şansi-Hebei Shun dönemleri kaynaklanmadı."
+ },
+ "K219": {
+  "teyit": "giris_gerek",
+  "kaynak": "GHA VII dizin (archive.org general-history-of-africa-vol-7)",
+  "teyit_edilen": "Dizinde 'Wolamo, 270' ve 'Kaffa, 270' var; sayfa metni açılmadı.",
+  "alinti": "",
+  "not": "Gamo/Wolaita'nın Menelik fethi için GHA VII s.270 civarı (Etiyopya bölümü) okunmalı. Dizin teyit değildir."
+ },
+ "E010": {
+  "teyit": "giris_gerek",
+  "kaynak": "EB 1911 Vol. 21 (dli.bengal.10689.3455) tarandı",
+  "teyit_edilen": "'PENZA' anahtarı yalnız Penzance/Phillimore sayfalarını verdi; Penza (Rusya) maddesi bu OCR'da bulunamadı.",
+  "alinti": "",
+  "not": "Penza 1663 kale kuruluşu kaynaksız. EB 1911 tek başına kismen sayılacağından güncel akademik Rus kaynağı gerek."
+ },
+ "K238": {
+  "teyit": "celiski",
+  "kaynak": "Imperial Gazetteer of India vol. VI (1908), 'Asirgarh' maddesi, archive.org dli.ernet.11612",
+  "teyit_edilen": "1295'te Asirgarh Chauhan Rajputlarının kalesiydi ve Ala-ud-din Khilji tarafından alındı; sonra Khandesh Faruki krallarında, 1600'de Ekber aldı. Yadava (Devagiri) sahipliği geçmiyor.",
+  "alinti": "In 1295 Asirgarh was a stronghold of the Chauhan Rajputs",
+  "not": "Gerekçe 'Yadava' diyor; IG Chauhan Rajput diyor (1281-1295 sahibi). 1281'de Delhi sahipliği yanlış; 1295 civarı Khilji fethi (1908 kaynak, modern doğrulama gerek). Burhanpur kısmı bakılmadı."
+ },
+ "K239": {
+  "teyit": "bulunamadi",
+  "kaynak": "Cambridge History of China vol. 11 (archive.org); TDV 'Çin'",
+  "teyit_edilen": "Vol. 11'de Wuchang ayaklanması yalnız kaynakça girişlerinde; TDV Çin maddesinde Wuchang/1911 yok.",
+  "alinti": "",
+  "not": "10 Ekim 1911, 22 Ekim Hunan, 12 Şubat 1912 tarihleri bu turda kaynaklanamadı."
+ },
+ "K241": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda denenmedi.",
+  "alinti": "",
+  "not": "Lampung-Banten bağlılığı için Ricklefs ya da Cambridge History of Southeast Asia gerek."
+ },
+ "K250": {
+  "teyit": "celiski",
+  "kaynak": "TDV İslâm Ansiklopedisi, 'Yanya' (Machiel Kiel), https://islamansiklopedisi.org.tr/yanya",
+  "teyit_edilen": "Yanya 1318'de Bizans'a katıldı (özerkliğini kısmen korudu), 1342'de Sırp Kralı Stefan Duşan'a ilhak edildi, 1355'ten sonra Symeon Uroş yönetti; 1366-67'de Preljubović.",
+  "alinti": "1342'de Sırp Kralı Stefan Duşan tarafından ilhak edildi.",
+  "not": "Gerekçe Bizans 1340-1348, Sırp 1348 diyor; TDV Bizans'a katılış 1318, Sırp ilhak 1342 diyor. Atlasın bizans 1334-1361 aralığı iki uçta da yanlış (Yanya için Sırp bitiş 1342'den önce). III. Andronikos 1340 ilhakı bu kaynakta yok; Preveze/Arta için ayrı bakılmalı."
+ },
+ "K266": {
+  "teyit": "bulunamadi",
+  "kaynak": "TDV 'Yakub Bey' (islamansiklopedisi.org.tr/yakub-bey)",
+  "teyit_edilen": "Sarıkol, Taşkurgan ve 1864 anahtarlarının hiçbiri çıkmadı.",
+  "alinti": "",
+  "not": "Sarıkol'un 1864-65 Qing bağlılığı kaynaklanamadı. Cambridge History of China vol. 10 (Fletcher) 'Sarikol/Tashkurgan' ile aranmalı."
+ },
+ "E012": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda denenmedi.",
+  "alinti": "",
+  "not": "Orel 3 Ekim 1941 için Glantz/Erickson ya da Das Deutsche Reich und der Zweite Weltkrieg vol. 4 gerek."
+ },
+ "K269": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda denenmedi.",
+  "alinti": "",
+  "not": "Cirebon-Mataram bağlılığı için Ricklefs ya da Cambridge History of Southeast Asia gerek."
+ },
+ "K274": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "Bu turda denenmedi.",
+  "alinti": "",
+  "not": "Mérida 1542, Sotuta ve 1546-47 isyanı için Restall 'Maya Conquistador' ya da Cambridge History of the Native Peoples gerek."
+ },
+ "K284": {
+  "teyit": "kismen",
+  "kaynak": "TDV 'Türkmenler' (https://islamansiklopedisi.org.tr/turkmenler) ve 'Avşarlılar' (https://islamansiklopedisi.org.tr/avsarlilar, Faruk Sümer)",
+  "teyit_edilen": "Teke ve Yomutlar XVI. yüzyılın ikinci yarısında Küçük Balhan ile Kızılarvat arasındaki Küren dağı çevresine yerleşti (Türkmen yurdu). Avşarlı merkezi Meşhed/Horasan'dır (Nâdir Şah, Şâhruh). Kızılarvat'ın 1747-1796 Afşar ya da Zend sahipliği geçmiyor.",
+  "alinti": "Küçük Balhan ile Kızılarvat ortasındaki Küren dağı çevresine göç etti",
+  "not": "Hüküm (Kızılarvat Türkmen boyları, Afşar değil) yönüyle kismen teyitli; kesin yıl aralığı kaynaksız. Afşar sınırı Horasan'a çekilmeli."
+ },
+ "K298": {
+  "teyit": "giris_gerek",
+  "kaynak": "Encyclopedia of Ukraine (tahmini URL açılmadı: 'file not found')",
+  "teyit_edilen": "Sayfa bulunamadı; teyit yok.",
+  "alinti": "",
+  "not": "Yeni Sırbistan 1752 ve Aziz Yelizaveta 1754 için doğru IEU slug'ı ya da akademik makale gerek."
+ },
+ "K302": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "TDV 'Brunei' slug'ı yok (arama sayfasına yönlendi).",
+  "alinti": "",
+  "not": "Kuching'in Brunei'ye bağlılığı ve 1841 Brooke için Cambridge History of Southeast Asia gerek."
+ },
+ "K307": {
+  "teyit": "bulunamadi",
+  "kaynak": "GHA VII (archive.org general-history-of-africa-vol-7)",
+  "teyit_edilen": "1890 Helgoland (Heligoland) Antlaşması Doğu Afrika'nın paylaşımını tamamladı; Karagwe'nin Alman tarafında kalması ayrıca okunmadı.",
+  "alinti": "",
+  "not": "Karagwe/Kigali sahipliği kaynaklanamadı; antlaşma varlığı teyitli, bölge ayrıntısı değil."
+ },
+ "E019": {
+  "teyit": "bulunamadi",
+  "kaynak": "GHA VII (archive.org general-history-of-africa-vol-7)",
+  "teyit_edilen": "'Nyangwe' anahtarı eşleşme vermedi; Tippu Tip yalnız genel cümlede ve kaynakçada geçiyor.",
+  "alinti": "",
+  "not": "Nyangwe 1893 sahibi ve Kongo Serbest Devleti 4 Mart 1893 kaynaklanamadı."
+ },
+ "K312": {
+  "teyit": "giris_gerek",
+  "kaynak": "",
+  "teyit_edilen": "TDV 'Aztek' slug'ı yok; sayfa açılmadı.",
+  "alinti": "",
+  "not": "Tepeaca Aztek eyaleti ve Cortés 1520 seferi için Hassig 'Aztec Warfare' ya da Cambridge Native Peoples gerek."
+ }
+}

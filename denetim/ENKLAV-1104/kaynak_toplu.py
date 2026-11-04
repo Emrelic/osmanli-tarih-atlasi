@@ -103,17 +103,33 @@ U.update({
     "K213": dict(guven="KAYNAKLI", kaynak=TDV + "cenne — 'Cenne 1861'de Hacı Ömer el-Hadîdî yönetimindeki Fûlânîler tarafından ele geçirildi; 1893'te ise Fransız "
                  "kuvvetlerince işgal edil[di]' (tekrur kimliği Hacı Ömer devletiyse veri yıl düzeyinde doğru; 03-10 bitişi KAYNAK-GEREK)"),
 })
-n = 0
+TR = "Treccani, https://www.treccani.it/enciclopedia/"
+U.update({
+    "K426": dict(guven="KAYNAKLI", duzeltme="Sassari 1236 komün (Pisa sözleşmeleri), 1294 → ceneviz, 1323 → aragon; 'ceneviz' 1281-1294 ve 1323-1354 yanlış.",
+                 kaynak=TR + "sassari/ — 'Nel 1236 i nuovi elementi urbani costituirono il comune … imposte da Pisa. Passata ai Genovesi (1294), nel 1323 si "
+                 "diede all'infante Alfonso d'Aragona'"),
+    "K444": dict(guven="KAYNAKLI", kaynak=TR + "san-marino/ — 'mantenne la propria indipendenza, protetta dai conti di Montefeltro e da privilegi papali' "
+                 "(San Marino 'papalik' yazımı yanlış); " + TR + "rimini/ — 13. yy sonu Malatesta senyörlüğü"),
+    "K409": dict(guven="KAYNAKLI", kaynak=TR + "lussemburgo/ — 'Elisabetta cedette i suoi diritti a Filippo il Buono, duca di Borgogna, al quale nel 1451 gli "
+                 "Stati del ducato prestarono giuramento di fedeltà' (veri 1443-11-21 fiilî zapt; 1451 Stati yemini — beyan)"),
+    "K715": dict(guven="KAYNAKLI", kaynak=TR + "limburgo/ — 'Estintasi la casata (1283), iniziò una guerra di successione, in cui Brabante vinse sul "
+                 "Lussemburgo (1288)' (Worringen, veri 1288-06-05 ile uyumlu)"),
+})
+n, korunan = 0, []
 for i in range(2, 10):
     yol = os.path.join(BURA, "hukumler%d.json" % i)
     H = json.load(open(yol, encoding="utf-8"))
     deg = 0
     for k, v in U.items():
         if k in H:
+            # UMIT'in (umit-1104-enklavkaynak) kaynakladığı satır önce gelir (EMRELİC kararı): orada KAYNAKLI ve kaynak benimkinden farklıysa dokunma
+            if H[k].get("guven") == "KAYNAKLI" and H[k].get("kaynak") != v.get("kaynak") and "KAYNAK5" not in H[k].get("kaynak", ""):
+                korunan.append(k)
+                continue
             H[k].update(v)
             deg += 1
     if deg:
         H["_aciklama"] = H["_aciklama"].split(" KAYNAK5")[0] + " KAYNAK5 (LAB SALI): %d hüküm kaynak_toplu.py ile güncellendi." % deg
         json.dump(H, open(yol, "w", encoding="utf-8", newline="\n"), ensure_ascii=False, indent=0)
         n += deg
-print("güncellendi", n, "/", len(U))
+print("güncellendi", n, "/", len(U), "· UMIT'te zaten KAYNAKLI, korundu:", korunan)

@@ -1,0 +1,19 @@
+{
+"_aciklama": "EMRELİC 1 KASIM okuması — Cambridge PDF'leri (CHC 7, CHSEA 1) ve Wellesley Despatches (Lot D), 4 Kasım 2026. K330, K333, K362, K482, K372, K427, K313, E088, E091 okunmadı.",
+"K351": {"teyit": "kismen", "kaynak": "The Cambridge History of China, vol. 7, ch. 3 (J. D. Langlois, \"The Hung-wu reign\"), s. 146 — EMRELİC okuması",
+ "teyit_edilen": "Basalawarmi 6 Ocak 1382'de intihar etti (Yuan'ın Yunnan idaresinin sonu); Dali Nisan 1382'de teslim oldu (gün yok). Kunming'in düşüş günü, Lijiang ve Yuanjiang geçmiyor.",
+ "alinti": "On 6 January 1382, Basalawarmi ... committed suicide",
+ "not": "Ming'in Yunnan fethi çerçevesi (Ocak-Nisan 1382) teyitli; Lijiang'ın 1382-03-16 → 04-07 'kuzey-yuan' kesiti günleri teyitsiz."},
+"K363": {"teyit": "kismen", "kaynak": "The Cambridge History of China, vol. 7, ch. 3 (J. D. Langlois), s. 146 — EMRELİC okuması",
+ "teyit_edilen": "K351 ile aynı: Basalawarmi 6 Ocak 1382; Dali Nisan 1382; Yuanjiang geçmiyor.",
+ "alinti": "On 6 January 1382, Basalawarmi ... committed suicide",
+ "not": "Çerçeve teyitli; Yuanjiang 1382-04-14 bitişi teyitsiz."},
+"K317": {"teyit": "celiski", "kaynak": "The Cambridge History of Southeast Asia, vol. 1, ch. 7, s. 416, 423; ch. 10, s. 577 — EMRELİC okuması",
+ "teyit_edilen": "Ayutthaya Ağustos 1569'da düştü (gün yok); Naresuan'ın bağımsızlığı bu kaynakta 1585-86, 1584 değil. Chanthaburi 1767 sonrası dağılan güç merkezleri arasında anılıyor.",
+ "alinti": "Ayutthaya fell in August 1569",
+ "not": "Başlangıç ayı (1569-08) teyitli; bitiş 1584-05-03 kaynakla çelişiyor (CHSEA: 1585-86) — iki kaynak beyanı gerek. Chanthaburi'nin 1569-84 ayrı durumu teyitsiz."},
+"E108": {"teyit": "celiski", "kaynak": "The Despatches, Minutes and Correspondence of the Marquess Wellesley, Supplement — Carnatic (Malcolm), s. 51-67 — EMRELİC okuması (birincil belge neşri)",
+ "teyit_edilen": "Karnatik antlaşması 25 Temmuz 1801'de 'nihayet akdedildi', 26'sında Lord Clive'a sunuldu; Navvâb Umdat ul-Umara 15 Temmuz 1801'de öldü. Vellore ve Gingee okunmadı.",
+ "alinti": "finally concluded on the 25th of July",
+ "not": "Atlasın 1801-07-31 bitişi kaynakla çelişiyor: antlaşma 1801-07-25 (birincil belge neşri; akademik ikinci kaynak gerek)."}
+}

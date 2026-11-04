@@ -1,0 +1,59 @@
+{
+"_aciklama": "EMRELİC 1 KASIM okuması — The Cambridge History of China PDF bölümleri (Anadolu Üniv. erişimi, Emre izniyle EMRELİC tarayıcısında indirildi; 4 Kasım 2026). UMIT SALI okuma lotu A.",
+"K119": {
+"teyit": "celiski",
+"kaynak": "The Cambridge History of China, vol. 6, ch. 4 (T. T. Allsen, \"The rise of the Mongolian empire and Mongolian rule in north China\"), s. 358 — EMRELİC okuması",
+"teyit_edilen": "Mukali Taiyuan'ı 1218 Ekim'inde aldı (gün yok).",
+"alinti": "T'ai-yüan ... was taken in October",
+"not": "Atlasın 1218-08-23 başlangıcı kaynakla çelişiyor: ay Ekim 1218. Gün yoksa 1218-10-01 + beyan (yıl/ay hassasiyeti)."
+},
+"K105": {
+"teyit": "celiski",
+"kaynak": "The Cambridge History of China, vol. 6, ch. 5 (M. Rossabi, \"The reign of Khubilai khan\"), s. 421 — EMRELİC okuması",
+"teyit_edilen": "Bu bölümde 1236 Chengdu alınışı yok; Ch'eng-tu Mart 1258'de (Möngke'nin Sichuan seferi) alındı.",
+"alinti": "Ch'eng-tu … (taken March 1258)",
+"not": "1236-1260 kesintisiz Moğol tutuşu desteklenmiyor: hüküm (şüpheli) doğru yönde; 1236 yağması ile 1258 kalıcı alınış ayrılmalı. 1236-1258 Song dönemi kaynakla kurulmalı."
+},
+"K159": {
+"teyit": "kismen",
+"kaynak": "The Cambridge History of China, vol. 6, ch. 5 (M. Rossabi), s. 434 — EMRELİC okuması",
+"teyit_edilen": "Bayan Yangzi'yi Han-k'ou'da Ocak 1275'te geçti (ay teyitli, gün yok). Wuchang teslimi okunmadı.",
+"alinti": "crossed the Yangtze at Han-k'ou in January 1275",
+"not": "Atlasın 1275-01-15 ayı uyumlu; gün teyitsiz."
+},
+"K158": {
+"teyit": "kismen",
+"kaynak": "The Cambridge History of China, vol. 9 pt 1, ch. 2 (J. Dennerline, \"The Shun-chih reign\"), s. 86 — EMRELİC okuması",
+"teyit_edilen": "Shi Kefa Yangzhou'yu ölümüne savundu; Nanjing 8 Haziran 1645'te teslim oldu. Yangzhou'nun düşüş günü bu bölümde yok.",
+"alinti": "defended to the death",
+"not": "Bitiş (Nanjing 1645-06-08) atlasın 06-08 bitişiyle birebir; Yangzhou 1645-05-20 başlangıcı teyitsiz (CHC 7, Struve s. 656-658 okunmalı)."
+},
+"K183": {
+"teyit": "kismen",
+"kaynak": "The Cambridge History of China, vol. 10, ch. 6 (P. Kuhn, \"The Taiping Rebellion\"), s. 291 — EMRELİC okuması",
+"teyit_edilen": "Shi Dakai 1856'da Jiangxi'nin çoğunu aldı; Ji'an adı geçmiyor, günler yok.",
+"alinti": "",
+"not": "Taiping'in 1856 Jiangxi tutuşu genel çerçevede teyitli; Ji'an 1856-03-02 / 1858-09-22 günleri teyitsiz."
+},
+"K142": {
+"teyit": "kismen",
+"kaynak": "The Cambridge History of China, vol. 11 pt 2, ch. 4 (Batı Yunnan Müslüman isyanı), ~s. 213 — EMRELİC okuması",
+"teyit_edilen": "Du Wenxiu 1856'da Dali'de krallık kurdu, 1873'te öldü; Ma Rulong 1862'de Qing'e teslim oldu.",
+"alinti": "",
+"not": "Pingnan/Dali çerçevesi teyitli (1856-1873); Batı Yunnan Qing cepleri (Tengyue, Yongchang) ve Dali'nin düşüş günü (1873-01-15) okunmadı."
+},
+"K266": {
+"teyit": "bulunamadi",
+"kaynak": "The Cambridge History of China, vol. 10, ch. 8 (J. Fletcher, \"Ch'ing Inner Asia c. 1800\") — EMRELİC okuması",
+"teyit_edilen": "",
+"alinti": "",
+"not": "1864-65 Sarıkol Qing bağlılığı bölümde yok; Sarıkol 'Yarkand ilçesinin parçası', 1834'te Hokand işgali anılıyor. Hükmün düşük güvenli iddiası desteklenmedi."
+},
+"K239": {
+"teyit": "tam",
+"kaynak": "The Cambridge History of China, vol. 11 pt 2, ch. 9 (1911 Devrimi), s. 525, 531 — EMRELİC okuması",
+"teyit_edilen": "Wuchang ayaklanması 10 Ekim 1911; Qing'in tahttan feragati 12 Şubat 1912. Hunan'ın katılımı (22 Ekim) okunmadı.",
+"alinti": "Ch'ing abdicated on 12 February",
+"not": "İki uç gün düzeyinde teyitli; kopukluğun bitişini sağlayan Hunan/Jiangxi katılım günleri ayrıca okunmalı."
+}
+}
