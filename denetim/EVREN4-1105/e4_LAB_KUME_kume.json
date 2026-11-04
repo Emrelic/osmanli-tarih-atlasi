@@ -740,11 +740,11 @@
   "d": "akkoyunlu",
   "f": "1469-01-01",
   "satir": 8,
-  "hukum": "BAKILMADI",
+  "hukum": "ONERI",
   "kaynak": "",
   "alinti": "",
   "oneri": {},
-  "not": "KARIŞIK KÜME — tek gün birden çok olayı kapsıyor ya da künye f ile tutarsız; YERLEŞİM izine verildi (LAB PAZAR). | Aranmadi. Kunye f 1340 vs kume f 1469 (Uzun Hasan'in Fars/Irak fethi). Kume t 1503 (Sah Ismail) ve 1508: ayri olaylar karisik.",
+  "not": "KARAR EMRELİC (gece-42): çift TDV: Karakoyunlu'nun yıkılışı 1467-11 (Cihan Şah'ın ölümü) ile Ebû Saîd'in yenilgisi 1469 — kümedeki yerleşimler hangisine bağlıysa ayrılır; iki cümle ic_not'a. Yerleşim izine. | KARIŞIK KÜME — tek gün birden çok olayı kapsıyor ya da künye f ile tutarsız; YERLEŞİM izine verildi (LAB PAZAR). | Aranmadi. Kunye f 1340 vs kume f 1469 (Uzun Hasan'in Fars/Irak fethi). Kume t 1503 (Sah Ismail) ve 1508: ayri olaylar karisik.",
   "_yer_izi": true
  },
  {
@@ -1589,12 +1589,13 @@
   "d": "akkoyunlu",
   "f": "1467-01-01",
   "satir": 5,
-  "hukum": "KAYNAKLI",
+  "hukum": "ONERI",
   "uc": "f",
   "kaynak": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR - https://islamansiklopedisi.org.tr/akkoyunlular ; UZUN HASAN - https://islamansiklopedisi.org.tr/uzun-hasan",
   "alinti": "1467’de üzerine yürüyen amansız düşmanı Karakoyunlu Hükümdarı Cihan Şah’ı gafil avlayarak Karakoyunlu Devleti’ne son verdi",
   "oneri": {},
-  "not": "YIL DÜZEYİ (DA-BRIEF 'en az yıl'); gün teyitsiz. | YIL düzeyi, BÖLGE DÜZEYİ. TDV Uzun Hasan: Cihan Şah öldürüldü 12 Rebîülâhir 872 / 10 Kasım 1467 (hicrî ve milâdî birlikte verilmiş, çevrilmedi) - atlas 1467-01-01 yıl düzeyi olduğundan uyumlu. Hakkâri yerleşimleri için TDV HAKKÂRİ 'XV. yüzyılın ikinci yarısında yörede Akkoyunlular’ın hâkim olduğu' (1472 Meydan Medresesi) - yerleşime özgü gün yok. Gever/Hoşap/Şemdinli/Şeyhrumi için tanık zayıf. Künye f 1340 - tutarlı."
+  "not": "KARAR EMRELİC (gece-42): çift TDV: Karakoyunlu'nun yıkılışı 1467-11 (Cihan Şah'ın ölümü) ile Ebû Saîd'in yenilgisi 1469 — kümedeki yerleşimler hangisine bağlıysa ayrılır; iki cümle ic_not'a. Yerleşim izine. | YIL DÜZEYİ (DA-BRIEF 'en az yıl'); gün teyitsiz. | YIL düzeyi, BÖLGE DÜZEYİ. TDV Uzun Hasan: Cihan Şah öldürüldü 12 Rebîülâhir 872 / 10 Kasım 1467 (hicrî ve milâdî birlikte verilmiş, çevrilmedi) - atlas 1467-01-01 yıl düzeyi olduğundan uyumlu. Hakkâri yerleşimleri için TDV HAKKÂRİ 'XV. yüzyılın ikinci yarısında yörede Akkoyunlular’ın hâkim olduğu' (1472 Meydan Medresesi) - yerleşime özgü gün yok. Gever/Hoşap/Şemdinli/Şeyhrumi için tanık zayıf. Künye f 1340 - tutarlı.",
+  "_yer_izi": true
  },
  {
   "alan": "s",
@@ -1755,8 +1756,12 @@
   "uc": "f",
   "kaynak": "en.wikipedia Bechuanaland_Protectorate (yalnız İPUCU, okundu); TDV Botsvana yok; Britannica 403.",
   "alinti": "",
-  "oneri": {},
-  "not": "KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | İPUCU (Vikipedi, KAYNAKLI değil): 'Protectorate established 31 March 1885'; 'Expanded 1890' (kuzeye Ngamiland'ı kapsayacak şekilde). Atlas f=1885-03-31 güneydeki ilk himaye alanı için tutarlı; Toteng (Ngamiland) ve muhtemelen Ganzi (Ghanzi) 1890 genişlemesiyle girdi → f KARIŞIK, bu iki yer için f=1890 olabilir (kaynak okunmadı, akademik kaynak lazım). ÖLÇÜT/TEK KURAL: protectorate = himaye, s mi v mi tartışmalı (Fransız Çinhindi emsali: himaye = v:); alan 's' korunuyorsa EMRELİC kararı gerek. İngiltere künye 927: aşım yok. t=1966-09-30 bağımsızlık (İPUCU, Vikipedi) botsvana künyesiyle uyumlu.",
+  "oneri": {
+   "d": "ingiliz-becuanaland",
+   "alan": "s",
+   "not": "Ngamiland yerleşimleri (Toteng, Ganzi) 1890'dan, kaynakla; öncesi Tswana beylikleri BEYANLI ya da bos:'kabile'"
+  },
+  "not": "KARAR EMRELİC (gece-42): protektora künyesiyle s: (tunus-beyligi-fransiz emsali). | KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | İPUCU (Vikipedi, KAYNAKLI değil): 'Protectorate established 31 March 1885'; 'Expanded 1890' (kuzeye Ngamiland'ı kapsayacak şekilde). Atlas f=1885-03-31 güneydeki ilk himaye alanı için tutarlı; Toteng (Ngamiland) ve muhtemelen Ganzi (Ghanzi) 1890 genişlemesiyle girdi → f KARIŞIK, bu iki yer için f=1890 olabilir (kaynak okunmadı, akademik kaynak lazım). ÖLÇÜT/TEK KURAL: protectorate = himaye, s mi v mi tartışmalı (Fransız Çinhindi emsali: himaye = v:); alan 's' korunuyorsa EMRELİC kararı gerek. İngiltere künye 927: aşım yok. t=1966-09-30 bağımsızlık (İPUCU, Vikipedi) botsvana künyesiyle uyumlu.",
   "_yer_izi": true
  },
  {
@@ -1781,7 +1786,11 @@
   "kaynak": "TDV İslâm Ansiklopedisi, KÜÇÜK KAYNARCA ANTLAŞMASI - https://islamansiklopedisi.org.tr/kucuk-kaynarca-antlasmasi ; TDV KIRIM (İnalcık) - https://islamansiklopedisi.org.tr/kirim",
   "alinti": "hazırlanan antlaşma metni delegelerce imzalandı ... (12 Cemâziyelevvel 1188 / 21 Temmuz 1774)",
   "oneri": {},
-  "not": "TDV Küçük Kaynarca: imza 21 Temmuz 1774 (hicrî 12 Cemâziyelevvel 1188 çevrilmedi); sadrazam onayı 23 Temmuz, Küçük Kaynarca'ya gelişi 25 Temmuz, ertesi gün (26 Temmuz) üç dilde nüshalar → antlaşma ünvan maddesinde '26 Temmuz 1774' yazar; TDV Kırım: 'Küçük Kaynarca Antlaşması’nın (21 Temmuz 1774) 3. maddesiyle Kırım, Bucak, Kuban, Yedisan ... müstakil tanınacaklar'. Tutarlı: imza 21, onay/teati 26 (26 yürürlük/ic_not'a). TEK ÖLÇÜ: Rusya Kırım'ı zaten fiilen işgal etmişti (1771), kurulan Kırım bağımsız; f=imza günü uyumlu. KARIŞIK: Tuapse ve Soçi (Çerkez kıyısı) antlaşmada adıyla geçmez; TDV Kırım 'Kabartay’da Çerkez kabileleri Kırım hanlarını metbû tanırlardı' ve Osmanlı Kuban ve Karadeniz kıyısındaki Nogay ve Çerkezleri kendi tebaası saydı: Tuapse/Soçi için f sınır belirsizliği, Kuban Nogay bozkırı ve Kuban (Yekaterinodar) için TDV sözü doğrudan. t=1783-04-19: TDV 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)' = Jülyen 8 Nisan = Gregoryen 19 Nisan; atlas ile tutarlı (alıntı t ucunu tarihliyor, f'yi değil). Künye f 1441 / t 1783-04-19: aşım yok."
+  "not": "KARAR EMRELİC (gece-42): 1774-07-21 imza = Kırım bağımsızlığı; Tuapse/Soçi ONERI. | TDV Küçük Kaynarca: imza 21 Temmuz 1774 (hicrî 12 Cemâziyelevvel 1188 çevrilmedi); sadrazam onayı 23 Temmuz, Küçük Kaynarca'ya gelişi 25 Temmuz, ertesi gün (26 Temmuz) üç dilde nüshalar → antlaşma ünvan maddesinde '26 Temmuz 1774' yazar; TDV Kırım: 'Küçük Kaynarca Antlaşması’nın (21 Temmuz 1774) 3. maddesiyle Kırım, Bucak, Kuban, Yedisan ... müstakil tanınacaklar'. Tutarlı: imza 21, onay/teati 26 (26 yürürlük/ic_not'a). TEK ÖLÇÜ: Rusya Kırım'ı zaten fiilen işgal etmişti (1771), kurulan Kırım bağımsız; f=imza günü uyumlu. KARIŞIK: Tuapse ve Soçi (Çerkez kıyısı) antlaşmada adıyla geçmez; TDV Kırım 'Kabartay’da Çerkez kabileleri Kırım hanlarını metbû tanırlardı' ve Osmanlı Kuban ve Karadeniz kıyısındaki Nogay ve Çerkezleri kendi tebaası saydı: Tuapse/Soçi için f sınır belirsizliği, Kuban Nogay bozkırı ve Kuban (Yekaterinodar) için TDV sözü doğrudan. t=1783-04-19: TDV 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)' = Jülyen 8 Nisan = Gregoryen 19 Nisan; atlas ile tutarlı (alıntı t ucunu tarihliyor, f'yi değil). Künye f 1441 / t 1783-04-19: aşım yok.",
+  "_onerili_yer": {
+   "Tuapse": "Küçük Kaynarca'da adıyla geçmiyor (Çerkez kıyısı); Kuban maddesi okunmalı",
+   "Soçi": "Küçük Kaynarca'da adıyla geçmiyor; Kuban maddesi okunmalı"
+  }
  },
  {
   "alan": "s",
@@ -1877,7 +1886,8 @@
   "kaynak": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR - https://islamansiklopedisi.org.tr/akkoyunlular",
   "alinti": "1467’de üzerine yürüyen amansız düşmanı Karakoyunlu Hükümdarı Cihan Şah’ı gafil avlayarak Karakoyunlu Devleti’ne son verdi",
   "oneri": {},
-  "not": "ÇİFT-TDV ÇELİŞKİSİ (sen karar verme): TDV Akkoyunlular maddesi Karakoyunlu devletinin sonunu 1467 verir (Cihan Şah), ardından 'Kirman (1469) ve Bağdat’ı (1470) ele geçirdi'; aynı sayfanın ilişkili madde özeti 'KARAKOYUNLULAR ... (1351-1469)' der (Karakoyunlular maddesi: okunmadı). Alıntı Karakoyunlu'nun BİTİŞİNİ (1467) tarihliyor, Akkoyunlu f'sini yerleşim bazında değil → ONERI: f 1467 (YIL DÜZEYİ) ya da 1469 (Ebû Saîd'in ölümü 1469, TDV 'ölünceye kadar da (874/1469)' Cihangir için); Azerbaycan'da Akkoyunlu hâkimiyeti 1467 sonrası mı 1469 sonrası mı kaynakla çözülmeli. Atlas 1469-04-01 gün düzeyi TDV'de yok. Sarab/Meşkinşehr/Sakkız/Şeyh Salû için yer-özgü tanıklık yok. Künye 1340-1514: aşım yok."
+  "not": "KARAR EMRELİC (gece-42): çift TDV: Karakoyunlu'nun yıkılışı 1467-11 (Cihan Şah'ın ölümü) ile Ebû Saîd'in yenilgisi 1469 — kümedeki yerleşimler hangisine bağlıysa ayrılır; iki cümle ic_not'a. Yerleşim izine. | ÇİFT-TDV ÇELİŞKİSİ (sen karar verme): TDV Akkoyunlular maddesi Karakoyunlu devletinin sonunu 1467 verir (Cihan Şah), ardından 'Kirman (1469) ve Bağdat’ı (1470) ele geçirdi'; aynı sayfanın ilişkili madde özeti 'KARAKOYUNLULAR ... (1351-1469)' der (Karakoyunlular maddesi: okunmadı). Alıntı Karakoyunlu'nun BİTİŞİNİ (1467) tarihliyor, Akkoyunlu f'sini yerleşim bazında değil → ONERI: f 1467 (YIL DÜZEYİ) ya da 1469 (Ebû Saîd'in ölümü 1469, TDV 'ölünceye kadar da (874/1469)' Cihangir için); Azerbaycan'da Akkoyunlu hâkimiyeti 1467 sonrası mı 1469 sonrası mı kaynakla çözülmeli. Atlas 1469-04-01 gün düzeyi TDV'de yok. Sarab/Meşkinşehr/Sakkız/Şeyh Salû için yer-özgü tanıklık yok. Künye 1340-1514: aşım yok.",
+  "_yer_izi": true
  },
  {
   "alan": "s",
@@ -1913,7 +1923,13 @@
   "kaynak": "TDV İslâm Ansiklopedisi, ASTARHAN HANLIĞI - https://islamansiklopedisi.org.tr/astarhan-hanligi",
   "alinti": "1466-1556 yılları arasında hüküm süren hanlıklardan biri",
   "oneri": {},
-  "not": "KÜME GÜNÜ teyitli (yıl); ama Samara, Kamışin, Kızlar 1556'da yoktu → bu yerleşimlerde dönem kuruluşla başlamalı (yerleşim izi). | YIL DÜZEYİ, BÖLGE DÜZEYİ ve KARIŞIK: TDV Astarhan Hanlığı 1466-1556; 'Rus Çarı IV. İvan ... Kazan Hanlığı’nı yıkınca (1552) ... Derviş Han’ı Astarhan hükümdarı yapmış, sonra da hanlığı işgal etmiştir'; Rusya'nın Astarhan'ı almasının yılı madde başlığında 1556 (hanlığın bitişi); TDV'de ayrı yıl yok. Alıntı hanlığın BİTİŞ yılını verir (Rus idaresi = bitiş). Terek deltası/Kızlar (Kızlar 1735'te kuruldu), Kamışin (1668), Samara (1586), Beldjamen (kimliği belirlenemedi; Cezayir Beldjamen? yer-uyuşmazlığı, mükerrer/konum kontrolü gerek) 1556'da Rus yerleşimi değildi/mevcut değildi; f=1556-01-01 yıl-başı yuvarlama. TAHRİR/ÖLÇÜT: TDV 'işgal' dedi; Rus idaresine katma belgesi yok → isg mi s mi EMRELİC. Künye 1547-01-16: aşım yok."
+  "not": "KARAR EMRELİC (gece-42): Samara 1586, Kamışin 1668, Kızlar 1735 zinciri kuruluşla başlar; öncesi sorulmaz. | KÜME GÜNÜ teyitli (yıl); ama Samara, Kamışin, Kızlar 1556'da yoktu → bu yerleşimlerde dönem kuruluşla başlamalı (yerleşim izi). | YIL DÜZEYİ, BÖLGE DÜZEYİ ve KARIŞIK: TDV Astarhan Hanlığı 1466-1556; 'Rus Çarı IV. İvan ... Kazan Hanlığı’nı yıkınca (1552) ... Derviş Han’ı Astarhan hükümdarı yapmış, sonra da hanlığı işgal etmiştir'; Rusya'nın Astarhan'ı almasının yılı madde başlığında 1556 (hanlığın bitişi); TDV'de ayrı yıl yok. Alıntı hanlığın BİTİŞ yılını verir (Rus idaresi = bitiş). Terek deltası/Kızlar (Kızlar 1735'te kuruldu), Kamışin (1668), Samara (1586), Beldjamen (kimliği belirlenemedi; Cezayir Beldjamen? yer-uyuşmazlığı, mükerrer/konum kontrolü gerek) 1556'da Rus yerleşimi değildi/mevcut değildi; f=1556-01-01 yıl-başı yuvarlama. TAHRİR/ÖLÇÜT: TDV 'işgal' dedi; Rus idaresine katma belgesi yok → isg mi s mi EMRELİC. Künye 1547-01-16: aşım yok.",
+  "_onerili_yer": {
+   "Samara": "kuruluş 1586 — zincir kur: ile başlar (kaynakla)",
+   "Kamışin": "kuruluş 1668 — kur: (kaynakla)",
+   "Kızlar": "kuruluş 1735 — kur: (kaynakla)",
+   "Terek deltası (Kızlar)": "kuruluş 1735 — kur: (kaynakla)"
+  }
  },
  {
   "alan": "s",
