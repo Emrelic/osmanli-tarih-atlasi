@@ -36,6 +36,7 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    "L2-1277": "Khongjom 1891-04-23 → 1891-04-25 adayı: London Gazette 26192 (14 Ağu 1891) s.4372 Graham raporu — Tamu kolonu 23 Nisan çıktı, Palel çatışması 25 Nisan; 23 Nisan Manipur resmî anma günü (Khongjom Parva) → olay kimliği (Khongjom mu Palel mi) netleşmeden uygulanmaz, ic_not iki kaynak",
     "L2-1311": "Aleksandr Mihayloviç Tver knezi 1325 → 1326 adayı: encyclopedia.com (Encyclopedia of Russian History) «In 1326, after Khan Uzbek had executed … Dmitry»; BRE arama özetinde 1326, sayfa 401 → tek dayanak encyclopedia.com (zayıf), ikinci teyit gelmeden uygulanmaz",
     # L2H 1575-1694 / L2L 1451-1550 (EMRELİC Academia Sinica turu)
     "L2-2043": "An Lushan ayaklanması 755-12-08 (ayın başı): Tianbao 14, 11. ay = 755-12-08…756-01-06; 甲子 = 755-12-16 — bağlama göre [yalnız ay] ya da 甲子 günü (Academia Sinica, EMRELİC; (JDN+49) mod 60 çapraz)",
@@ -282,6 +283,8 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-1282": ("tarih düzelt", "Evangelika 1901-11-08 → 1901-11-21 N.S. (+13; Yunanistan 1923'e dek Jülyen) — TAKVIM-OS-TUR3 kronoloji_balkan.js:953 ile aynı karar; O.S. yalnız Vikipedi dipnotundan, Carabott 1993 (J. Mediterranean Studies 3/1) okunmadı → ic_not «kaynak O.S. 8 Kasım»"),
+    "L2-1283": ("tarih düzelt", "Aro Seferi «dört koldan başlattı» 1901-11-28 → 1901-12-01: Montanaro nihai raporu (London Gazette 27473 s.5881) — 28 Kasım yalnız Enyong Nehri keşfi, ilk çatışma 30 Kasım Esu-Itu, kollar 1 Aralık (Akwete), 2 Aralık (Oguta), 3 Aralık (Ungwana) yürüdü → ic_not; Arochukwu'nun alınış günü s.5882 okunmadı"),
     "L2-1218": ("tarih düzelt", "Yunan 3 Eylül ayaklanması 1843-09-03 → 1843-09-15 Gregoryen: Yunanistan 1923'e dek Jülyen kullandı, «3 Σεπτεμβρίου 1843» O.S. (+12); atlas aynı dönemin 1844 Anayasası'nı (L2-1219, 18 Mart O.S. = 30 Mart N.S.) çevirmiş — iki madde tutarsızdı → ic_not «kaynak O.S. 3 Eylül»; Meclis sayfası 403, Clogg/Dakin açılamadı"),
     "L2-1244": ("tarih düzelt", "Kayor / Dekheulé 1868-10-26 → 1886-10-26 (YIL HATASI): Monteil 1963, Archives de sociologie des religions 8/16 s.77-104 (Persée) «Le 26 [octobre] Lat-Dyor tombe à Dyaqiê… il avait 44 ans»; Lat Dior 1842-1886, demiryolu 1880'ler; 27 Ekim (Valois raporu) ic_not; metin «Lat Dior'u yendi» → «Lat Dior savaşta düştü»"),
     "L2-1123": ("tarih düzelt", "Khalsa 1699-04-13 → 1699-04-09: 1 Baisakh Bikrami 1756 = 30 Mart 1699 Jülyen = 9 Nisan Gregoryen (EMRELİC eski takvim taraması); 13 Nisan modern Vaisakhi alışkanlığı; odak_yer Delhi → Anandpur/Keshgarh"),
@@ -735,6 +738,12 @@ METIN = [
     ("L2-1318", "Kör Johann 1346-08-26 Crécy (NDB «† 26.8.1346 bei Crécy») gün tutar"),
     ("L2-1320", "[BEKLE — Sumption okunmadı] Calais 1347-08-03: yalnız Vikipedi (Sumption s.580-583, Wagner s.73-74 atfı); Britannica özeti 1 Ağustos işareti / 4 Ağustos teslim → İngiliz kaynağı O.S. mi? 1582 öncesi, çevrilmez; teslim günü netleşmeli"),
     ("L2-1322", "[BEKLE — künye çakışması] Pskov 1349: Rus kaynakları Andrey'in Pskov kniazlığını 1341-1348 verir; künye f=1348 ile çakışma kontrolü gerekir"),
+    # L2S 879-890 (S43)
+    ("L2-1274", "Ertuğrul 1890-09-16 (TDV «japonya») gün tutar; «587'den fazla» → TDV 581"),
+    ("L2-1276", "Manipur 1891-03-24: metin Tikendrajit'in Surçandra'yı indirmesini (Eylül 1890 darbesi) anlatır; 24 Mart Kangla çatışması ve Quinton heyetinin öldürülmesidir (Assam Administration Report) → başlık ve metin değişir"),
+    ("L2-1279", "Lugalo 1891-08-17 (Masele 2021, Tanzania Zamani 13/1) gün tutar; odak_yer Kalenga → olay Lugalo'da (Iringa'nın 22 km doğusu)"),
+    ("L2-1280", "Yamada 1892 (Esenbel, BSOAS 59/2, 1996) yıl tutar; bir DergiPark makalesi 1893 der → ic_not"),
+    ("L2-1275", "Çeitharol Kumbaba: kaynak alanındaki «Routledge» yalnız Cilt I; 1886-1891'i kapsayan Cilt III Foundation Books 2013 → künye düzeltilir"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
