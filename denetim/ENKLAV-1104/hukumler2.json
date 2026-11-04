@@ -1,0 +1,203 @@
+{
+"_aciklama": "ENKLAV-1104 hükümleri (K101-K200). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı.",
+"K101": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Dalmaçya-Kotor-Dubrovnik 'avusturya' gövdesi Avusturya'dan Hırvatistan (macaristan-habsburg, koridor 88 km 9/9) ile ayrı: 1867 Uzlaşması sonrası Dalmaçya Cisleithania toprağıydı, Hırvatistan-Slavonya Macar tacına bağlı — bilinen gerçek ayrıklık. Üç ayrı borç: (i) 1813-1867 arası aynı imparatorluk içinde iki kimlik (YAPAY-k niteliği); (ii) Mostar, Foça, Trebinye 'avusturya' — Bosna-Hersek 1878 işgal / 1908 ilhak sonrası ortak (kondominyum) idare, Cisleithania değil; (iii) 1918-10-29 sonrası Dalmaçya SHS Devleti'ne geçti (bkz. K053), atlas 1919-09-10'a dek Avusturya tutuyor. İçte 12 sahipsiz nokta.",
+"duzeltme": "1867 öncesi kesitler için avusturya/macaristan-habsburg ayrımı beyan; Bosna noktaları 1878-1918 ayrı kimlik (avusturya-macaristan ortak idare) önerisi; Dalmaçya noktaları avusturya t → 1918-10-29 (SHS).",
+"kaynak": "veri ölçümü (detay.py); tarihsel iddialar kaynak gerek"
+},
+"K102": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tek nokta: Nguigmi 1281-1913 'kanem-tubu'; çevre kanem-bornu (koridor 271 km 9/9). Nguigmi Çad Gölü kuzeybatı kıyısında Kanuri/Bornu kasabası; Tubu (Teda) göçebe kimliğine 632 yıllık kesintisiz sahiplik şüpheli, ölçüldü: kayıtta dönem kaynaksız.",
+"duzeltme": "Nguigmi 1281-1913 sahibi kaynakla (Bornu mu, Tubu mu); 70.931 km² petek tek noktadan — Değişmez 3 açısından bölge noktası gerek.",
+"kaynak": "veri ölçümü (kayit.py Nguigmi: s dönemi kaynaksız)"
+},
+"K103": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "1578-1588 Osmanlı Şirvan'ı (Şamahı, Bakü, Derbend, Şeki) ile Osmanlı Gürcistan/Erivan hattı arasında Safevî Karabağ-Gence (koridor 61 km safevi 8/9); büyük kesit 1583-08-01. Özdemiroğlu Osman Paşa'nın 1578 Şirvan fethi ve Gence'nin 1588'de alınışı bu kopukluğu kapatır: gerçek.",
+"duzeltme": "Yok; 1578-10-05 günü TDV Özdemiroğlu Osman Paşa ile teyit edilmeli.",
+"kaynak": "TDV İslâm Ansiklopedisi, \"Gence\" (Oktay Efendizade), https://islamansiklopedisi.org.tr/gence — Ferhad Paşa 20 Temmuz 1588'de Erzurum'dan çıkıp mukavemetsiz Gence önüne geldi [kısmen: Gence'nin 1588 yazında alınışı kopukluğun bitişini teyit eder; 1588-09-01 günü TDV'de yok]"
+},
+"K104": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "1815-1871 'almanya' kimliği Hamburg, Bremen, Lübeck, Rostock, Stralsund, Kiel'e verilmiş, Prusya ayrı 'prusya' kimliği (koridor 51 km prusya 9/9). Alman Konfederasyonu (1815-1866) Prusya'yı da içeren gevşek birlikti; Hamburg/Bremen/Lübeck ayrı hür şehirler, Mecklenburg ayrı dükalık. Kopukluk çatı kimlik ile üye devletin yan yana boyanmasından. Ayrıca Stralsund 1815'ten Prusya'dır (Viyana Kongresi, İsveç Pomeranyası).",
+"duzeltme": "Kuzey Alman küçük devletleri için ya ayrı kimlik ya beyanlı 'Alman Konfederasyonu üyesi'; Stralsund 1815-06-09 → prusya (kaynakla).",
+"kaynak": "veri ölçümü (detay.py iç sahipler)"
+},
+"K105": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Çengdu 1236-10-31 → 1260 'mogol-imparatorlugu', çevre song (koridor 351 km song 7/9). Moğollar Çengdu'yu 1236'da yağmaladı; Siçuan cephesi Song'la çekişmeli. Tek noktalı parça; 24 yıllık kesintisiz Moğol tutuşu şüpheli (şehir birkaç kez el değiştirdi).",
+"duzeltme": "Çengdu 1236-1260 sahiplik zinciri kaynakla; muhtemelen YAPAY-c.",
+"kaynak": "veri ölçümü"
+},
+"K106": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Bombay Başkanlığı (Bombay, Sûrat, Broaç, Thane; 1817-11-17'den Pûne) İngiliz Bengal/Madras gövdelerinden Maratha toprağıyla ayrı (koridor 278 km maratha 6/9): 1818 Peşvalığın yıkılışına dek bilinen ayrıklık.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü (detay.py)"
+},
+"K107": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Hicaz isyanının ilk aylarında Mekke-Cidde-Râbiğ-Yenbu kıyı payı, Taif'teki Osmanlı garnizonu ve Medine ile Hicaz'ın öteki parçasından ayrı (koridor 27 km TABI 6/9); bitiş 1916-09-17, Taif'in teslimi (Eylül 1916) ile uyumlu görünüyor. Koridor 'TABI' (Osmanlı'ya bağlı) boyası Taif çevresi için doğru mu sınanmalı.",
+"duzeltme": "Taif teslim günü TDV ile; koridor TABI kimliği kontrol.",
+"kaynak": "veri ölçümü; TDV Şerîf Hüseyin (Haziran 1916 isyan) — KAYNAK-1104 K029"
+},
+"K108": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Britanya Kolumbiyası 1870-07-15 (Rupert's Land'in Kanada'ya devri) → 1871-07-20 (Kanada'ya katılış) ayrı İngiliz kolonisi; öteki 'ingiliz-kuzey-amerika' gövdesinden Dene toprağıyla ayrı (koridor 131 km). Bitiş günü bilinen katılış günüyle aynı.",
+"duzeltme": "Yok; Vancouver (Granville) sahipsiz.",
+"kaynak": "veri ölçümü"
+},
+"K109": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "1304 Malva: Mandu ve Uccayn 'racput', Dhâr 'paramara' — aynı Paramara krallığı iki kimlikle boyanmış; 'racput' çatı kimliği Malva'yı öteki Racput gövdesinden Delhi toprağıyla (319 km) ayrı gösteriyor. Malva 1305'te Ayn el-Mülk Mültânî ile Delhi'ye geçti (bitiş uyumlu).",
+"duzeltme": "Mandu, Uccayn, İndor 1304-1305 → paramara (Dhâr ile aynı); 1305 Delhi günü kaynakla.",
+"kaynak": "veri ölçümü (detay.py iç sahipler)"
+},
+"K110": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ak-Meçit 1815 → 1853-07-28 'hokand' (bitiş Perovski'nin zaptıyla uyumlu), çevre kazak-hanligi (koridor 121 km 9/9). Hokand'ın Sir-Derya kale zinciri (Culek, Yanıkurgan, Türkistan) atlasta nokta olarak yoksa ya da Kazak boyalıysa kopukluk yapaydır. 1815 başlangıcı kale kuruluşundan önce olabilir.",
+"duzeltme": "Sir-Derya Hokand kaleleri için nokta/dönem; Ak-Meçit kuruluş yılı kaynakla.",
+"kaynak": "veri ölçümü (kayit.py Ak-Meçit: 1815 dönemi DEVRALMA)"
+},
+"K111": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Fort Union Ticaret Karakolu (1828/29, American Fur Co.) Louisiana Satın Alması içinde hukuken ABD, fiilen Hidatsa/Mandan toprağında: K008 ile aynı model (hukukî ABD karakolu, çevre kızılderili petekleri).",
+"duzeltme": "Yok; K008 ile aynı beyan.",
+"kaynak": "veri ölçümü; model K008 (ENKLAV-1103)"
+},
+"K112": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Nahçıvan, Ordubad, Culfa, Şerur, Iğdır, Şuşa 1917-11-07 → 1920-04-27 'sovyet-rusya' kesintisiz; oysa bu bölge 1917-1920'de Transkafkasya Komiserliği/Federasyonu, Ermenistan ve Azerbaycan cumhuriyetleri, 1918 Osmanlı işgali ve İngiliz idaresi altındaydı; Sovyet idaresi Azerbaycan'da 1920-04-28, Nahçıvan'da 1920 Temmuz sonrası. Ara dönem yok: Ukrayna sol yakası (E046-E051) ve Çita (E021) ile aynı kova.",
+"duzeltme": "Bu noktalara 1917-11 → 1920 transkafkasya / ermenistan / azerbaycan / OSMANLI (1918) dönemleri kaynakla.",
+"kaynak": "veri ölçümü (detay.py iç sahipler)"
+},
+"K113": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Mewar (Udeypûr, Çitor) 1679-1707 'racput' çatı kimliğiyle öteki Racput devletlerinden Bâbürlü toprağıyla (116 km) ayrı. Racput devletleri (Mewar, Marwar, Amber, Bikaner) ayrı siyasî birimlerdi; Marwar 1679-1707 Bâbürlü işgalinde (Evrengzîb). Coğrafî ayrılık gerçek, 'tek devlet' kopukluğu çatı kimliğin ürünü.",
+"duzeltme": "Racput çatı kimliği ya ayrı devletlere bölünsün ya beyanlı 'Racput devletleri' olarak eksklav sayılmasın (motor/evren sorusu).",
+"kaynak": "veri ölçümü"
+},
+"K114": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Peşâver 1175-1178 'gazneli' (son Gazneliler Lahor'da), çevre gurlu (koridor 83 km 5/9). Gurlu Muizzeddin 1175'te Multan'ı aldı, Peşâver'i 1179'da; arada Gazneli Peşâver Lahor gövdesinden Gurlu Multan/Gomal hattıyla ayrı görünebilir. Bannu sahipsiz.",
+"duzeltme": "Peşâver gazneli t ucu 1178-01-01 → Gurlu zaptı 1178-1180 aralığında (TDV yalnız aralık verir; gün/yıl ikinci kaynakla); kopukluk 1175-76 Multan fethinden başlar.",
+"kaynak": "TDV İslâm Ansiklopedisi, \"Gurlular\" (Iqtidar Husain Siddiqui), https://islamansiklopedisi.org.tr/gurlular — Muizzüddin Mültan'ı 571/1175-76'da aldı, \"1178-1180’de Peşâver’i zaptetti\" [kısmen: Peşâver bitişi atlasta 1178 başı, TDV 1178-1180]"
+},
+"K115": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Tek nokta bir beyan noktası ('Beyan G31.5 B56.5'); Uruguay'ın kuzeyi 1828-1831 Charrúa peteğiyle (koridor 104 km 9/9) ayrılıyor. Kopukluk noktasız bölge emilmesi: Uruguay kuzey yerleşimleri (Tacuarembó, Salto vb.) nokta olarak yok.",
+"duzeltme": "Kuzey Uruguay yerleşim noktaları; beyan noktası yerine şehir tanığı.",
+"kaynak": "veri ölçümü"
+},
+"K116": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Iquique/Putre (Tarapacá) 'sili-cumhuriyeti' Şili gövdesinden Tocopilla 'bolivya-cumhuriyeti' (1871-05-08 → 1888-07-13) ile ayrı. Şili Bolivya kıyısını (Antofagasta, Tocopilla) Pasifik Savaşı başında 1879'da işgal etti, 1884 Valparaíso mütarekesi; Tocopilla'nın 1888'e dek Bolivya kalması yanlış. Ölçüldü (kayit.py Tocopilla).",
+"duzeltme": "Tocopilla sili-cumhuriyeti f → 1879 işgal günü (kaynakla), ic_not: hukukî devir 1884/1904.",
+"kaynak": "veri ölçümü (kayit.py Tocopilla)"
+},
+"K117": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Gaskonya/Guyenne (Bordo, Bayonne; 1360 Brétigny sonrası Poitiers, Limoges, La Rochelle) İngiliz tacının kıta mülkü, İngiltere'den Fransa ve denizle ayrı: Yüzyıl Savaşları'nın bilinen ayrıklığı. Bitiş 1451-08-20 Bayonne'un düşüşüyle uyumlu (Bordo 1453'te son kez).",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K118": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "'nayak-devletleri' çatı kimliği Keladi/İkkeri (Mangalor, Banavasi) ile Madurai/Tancur/Cinci Nayaklarını tek devlet sayıyor; ayrı hanedanlar arasındaki Meysur toprağı (koridor 178 km 9/9) yapay kopukluk üretiyor.",
+"duzeltme": "Nayak devletleri ayrı kimliklere bölünsün (Keladi, Madurai, Tancur, Cinci) ya da eksklav evreninden beyanla çıksın.",
+"kaynak": "veri ölçümü"
+},
+"K119": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Taiyuan 1218-08-23 → 1225 'mogol-imparatorlugu', çevre jin (koridor 111 km 9/9); Pingyao sahipsiz. Mukali 1218'de Taiyuan'ı aldı; kuzey Şansi (Datong, Xinzhou) Moğol elindeyse kopukluk ara nokta eksikliğindendir.",
+"duzeltme": "Datong/Xinzhou 1215-1225 sahipliği kaynakla; Pingyao dönemi.",
+"kaynak": "veri ölçümü"
+},
+"K120": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Taiyuan 1126-09-21 → 1126-09-26 'jin' 5 günlük kopukluk; çevre song. Jin Taiyuan'ı Eylül 1126'da uzun kuşatmadan sonra aldı; 5 günlük parça komşu noktaların (Xinzhou vb.) geçiş günleriyle hizasızlık.",
+"duzeltme": "Taiyuan ve kuzey komşularının Jin f günleri hizalansın (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K121": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bondugu 1893-07-12 'fransa-cumhuriyet' (Hertslet, İngiliz-Fransız antlaşması), çevre Gonja, Buna, Mossi, Asanti (koridor 434 km). Fildişi Kıyısı iç bölgesi (Baule, Abron) Fransız himaye antlaşmaları atlasta yoksa kıyıdan kopukluk yapaydır. Aday aralığı 1792'den başlıyor ama Bondugu parçası 1893 sonrası (ölçüldü).",
+"duzeltme": "Fildişi Kıyısı iç yerleşimlerinin 1889-1898 Fransız dönemleri kaynakla.",
+"kaynak": "veri ölçümü (kayit.py Bondugu)"
+},
+"K122": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Madurai/Trichinopoly 'nayak-devletleri' 1676-1702: K118 ile aynı çatı kimlik (Madurai Nayakları ayrı hanedan).",
+"duzeltme": "K118 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K123": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Fetret: Mehmed Çelebi'nin Bursa-Balıkesir-Söğüt payı 1410-05-06 → 1413-07-05, Amasya-Tokat gövdesinden Karaman/Candar toprağıyla (34 km) ayrı. Çamurlu (1413-07-05) bitişi uyumlu. Ankara çevresinin bu yıllarda Karaman'da olup olmadığı sınanmalı.",
+"duzeltme": "Ankara/Kırşehir 1410-1413 sahibi TDV (Mehmed I, Fetret Devri) ile.",
+"kaynak": "veri ölçümü"
+},
+"K124": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Quivira (Kansas) 1853-1859 'wicita': K087 ile aynı nokta. Handbook of Texas: Wichita 1719'a dek Oklahoma'ya indi; Kansas'a ancak İç Savaş sonrası döndüler. 1853-1859 Kansas Wichita dönemi desteksiz.",
+"duzeltme": "Quivira wicita 1719 sonrası dönemleri kaldırılsın (K087).",
+"kaynak": "Handbook of Texas, 'Wichita Indians', https://tshaonline.org/handbook/entries/wichita-indians (KAYNAK-1104 K087)"
+},
+"K125": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Malavi Gölü kıyısı 'umman-zengibar': Nkhotakota 1840-1895 (Cumbe'nin Zengibar sultanına bağlılığı bilinir), ama Mankhamba (Maravi) 1800-1891 Zengibar — Maravi/Chewa merkezi Zengibar egemenliğinde değildi (ölçüldü kayit.py). Koridor 498 km Ngoni/Yao.",
+"duzeltme": "Mankhamba 1800-1891 sahibi kaynakla (maravi/chewa); Nkhotakota Cumbe bağlılığı beyanlı v: olarak.",
+"kaynak": "veri ölçümü (kayit.py Nkhotakota, Mankhamba)"
+}
+}
