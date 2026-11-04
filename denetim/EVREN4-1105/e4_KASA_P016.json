@@ -1,0 +1,1064 @@
+{
+ "Patan (Anhilvâda)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1304-01-01",
+   "t": "1407-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât» (https://islamansiklopedisi.org.tr/gucerat)",
+   "alinti": "Anahilvâda’yı ele geçirdikten sonra 1300 yılında ... vali (nâzım) olarak tayin edildi | 1407’de Muzaffer Şah",
+   "oneri": {
+    "f": "1300-01-01 [yalnız yıl; Anahilvâda'nın zaptı 1300'den önce, İPUCU 1299]"
+   },
+   "uc": "f+t",
+   "not": "[sira 1277] Anahilvâda = Patan, adıyla anılır. t 1407 YIL teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "gucerat-sultanligi",
+   "f": "1407-01-01",
+   "t": "1572-11-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât» (https://islamansiklopedisi.org.tr/gucerat)",
+   "alinti": "1407’de Muzaffer Şah unvanıyla Gucerât Sultanlığı’nın temellerini attı | Ekber Kasım 1572’de Gucerât’a vardı",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1278] f YIL, t AY (18 Kasım günü TDV'de yok). BÖLGE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "racput",
+   "f": "1281-01-01",
+   "t": "1304-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât» (https://islamansiklopedisi.org.tr/gucerat)",
+   "alinti": "Anahilvâda’yı ele geçirdikten sonra 1300 yılında",
+   "oneri": {
+    "t": "1300-01-01 [yalnız yıl]"
+   },
+   "uc": "t",
+   "not": "[sira 1279] Bkz. sira 1277; f 1281 ufuk. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1572-11-18",
+   "t": "1753-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât» (https://islamansiklopedisi.org.tr/gucerat)",
+   "alinti": "Ekber Kasım 1572’de Gucerât’a vardı | Ahmedâbâd 1758’de Maratalar’ca işgal edilince ... Bâbürlü hâkimiyeti sona ermiş",
+   "oneri": {
+    "t": "1758 (TDV, BÖLGE DÜZEYİ: Ahmedâbâd) — Patan'a özgü gün kaynakla (İPUCU: Gaekwad 1766)"
+   },
+   "uc": "f+t",
+   "not": "[sira 1280] f AY teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1753-04-01",
+   "t": "1818-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât» (https://islamansiklopedisi.org.tr/gucerat)",
+   "alinti": "Maratalar şehri 1817’ye kadar yönetmeyi sürdürdüler. Bu tarihte Gucerât Gāikvard tarafından İngilizler’e teslim edildi",
+   "oneri": {
+    "d": "baroda (Gaekwad) — Patan Baroda Devleti'nde kaldı; KARARLAR gece-20 m.6 «Patan / Baroda çakışması» LAB'da"
+   },
+   "uc": "",
+   "not": "[sira 1281] TDV t 1817 (atlas 1818). f bkz. sira 1280. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1818-01-01",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gucerât» (https://islamansiklopedisi.org.tr/gucerat) ; Indian Independence Act 1947, s.1(1) (https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/enacted)",
+   "alinti": "Bu tarihte Gucerât Gāikvard tarafından İngilizler’e teslim edildi | As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions",
+   "oneri": {
+    "d": "s: baroda + v: ingiltere (LAB kararı bekleniyor)",
+    "f": "1817 (TDV) ↔ 1818"
+   },
+   "uc": "",
+   "not": "[sira 1282] Patan 1947'ye dek Baroda prensliğindeydi (İPUCU; LAB'daki çakışma). t GÜN IIA. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "caulukya",
+   "f": "0942-01-01",
+   "t": "1243-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1283] Mevcut kaynak Majumdar (okunmuş); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "vaghela",
+   "f": "1243-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1284] Mevcut kaynak Majumdar; boya beyanı; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:804",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1285] [KÜME K10] Ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Râcmahal": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1013",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1592-01-01",
+   "t": "1717-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1286] TDV'de «Râcmahal» maddesi yok (arama/racmahal). TDV «Bengal» Bâbürlü katılışını 1576 verir; 1592 (Man Singh'in merkezi) ve 1717 Râcmahal'e özgü okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1013",
+   "alan": "s",
+   "d": "bengal-nevabligi",
+   "f": "1717-01-01",
+   "t": "1757-06-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "Bâbürlü hâkimiyeti 1757’ye kadar devam etmiş ve bu tarihte ... Plassey savaşında İngilizler’e yenilmesi",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1287] t YIL; f 1717 teyitsiz. TDV nevablığı Bâbürlü hâkimiyeti içinde sayar. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1013",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1757-06-23",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal) ; Indian Independence Act 1947, s.1(1) (https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/enacted)",
+   "alinti": "Plassey savaşında İngilizler’e yenilmesi üzerine bölge tamamen İngilizler’in eline geçmiştir | As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1288] f YIL (1757, aynı cümlede — yıl bağlamdan; 06-23 günü yok), t GÜN. BÖLGE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1013",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1289] [KÜME K10] Ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Hûglî (Hooghly)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1538-01-01",
+   "t": "1564-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1290] Mevcut kaynak TDV (kronoloji maddesi); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1564-01-01",
+   "t": "1576-07-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "Bengal’in Bâbürlü İmparatorluğu’na dahil olması 1576’da Ekber Şah zamanında gerçekleşmiştir.",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1291] t YIL; f 1564 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1576-07-12",
+   "t": "1580-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "Bengal’in Bâbürlü İmparatorluğu’na dahil olması 1576’da Ekber Şah zamanında gerçekleşmiştir.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1292] f YIL; t 1580 (Portekiz) teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1632-06-24",
+   "t": "1717-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1293] TDV «Bengal» 1632 Hûglî kuşatmasını anmıyor; TDV'de «Hûglî» maddesi yok. İPUCU: kuşatma Haziran → Eylül 1632; 06-24 kuşatmanın başı olabilir, TAHRİR'e göre s: düşüş gününden. TARAYICI: J. Flores / Campos, «History of the Portuguese in Bengal» (1919, archive.org)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "bengal-nevabligi",
+   "f": "1717-01-01",
+   "t": "1757-06-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "Bâbürlü hâkimiyeti 1757’ye kadar devam etmiş",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1294] t YIL; f 1717 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "bağımsız bir devlet olduğu 1340 yılına kadar Delhi Sultanlığı’nın bir eyaleti olarak kaldı",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1295] t YIL; f 1281 ufuk. BÖLGE DÜZEYİ. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "bengal-sultanligi",
+   "f": "1340-01-01",
+   "t": "1538-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "bağımsız bir devlet olduğu 1340 yılına kadar",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1296] f YIL; t 1538 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1580-01-01",
+   "t": "1632-06-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1297] TDV «Bengal» Portekiz Hûglî'sini anmıyor; bkz. sira 1293 TARAYICI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1757-06-23",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bengal» (https://islamansiklopedisi.org.tr/bengal) ; Indian Independence Act 1947, s.1(1) (https://www.legislation.gov.uk/ukpga/Geo6/10-11/30/enacted)",
+   "alinti": "Plassey savaşında İngilizler’e yenilmesi üzerine bölge tamamen İngilizler’in eline geçmiştir | As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1298] f YIL (bağlamdan 1757), t GÜN. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1073",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1299] [KÜME K10] Ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Satâra": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1306",
+   "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1490-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1300] Mevcut kaynak TDV kronoloji maddesi (Kalyani); bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1306",
+   "alan": "s",
+   "d": "yadava",
+   "f": "1281-01-01",
+   "t": "1318-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1301] TDV'de «Satâra» maddesi yok (arama/satara); başka kaynak bu turda aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1306",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1318-01-01",
+   "t": "1347-08-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1302] TDV'de «Satâra» maddesi yok (arama/satara); başka kaynak bu turda aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1306",
+   "alan": "s",
+   "d": "bicapur",
+   "f": "1490-01-01",
+   "t": "1674-06-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1303] TDV'de «Satâra» maddesi yok (arama/satara); başka kaynak bu turda aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1306",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1674-06-06",
+   "t": "1818-06-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1304] TDV'de «Satâra» maddesi yok (arama/satara); başka kaynak bu turda aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1306",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1818-06-03",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Kaydın kendi kaynağı (iç çelişki)",
+   "alinti": "",
+   "oneri": {
+    "bol": "1818 → 1848-04-05: s: satara racalığı (künye YOK → LAB) + v: ingiltere · 1848-04-05 → 1947-08-15: s: ingiliz-hindistani"
+   },
+   "uc": "",
+   "not": "[sira 1305] Kaydın kendi notu: «Pratap Singh Bhonsle İngiliz himayesinde yerli racalık olarak 1848-04-05 lapse'ına dek sürdü» — TAHRİR'e göre 1818-1848 doğrudan İngiliz idaresi değil. Akademik kaynak okunmadı; 1818-06-03 günü teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1306",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1306] [KÜME K10] Ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Çaul (Chaul)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1354",
+   "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1490-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1307] Mevcut kaynak TDV kronoloji maddesi; bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1354",
+   "alan": "s",
+   "d": "ahmednagar",
+   "f": "1490-01-01",
+   "t": "1521-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1308] TDV'de «Çaul» maddesi yok (arama/caul). İPUCU: Portekiz 1521'de Çaul'da yalnız kale (Revdanda) kurdu, kasaba Nizamşâhî'de kaldı — TAHRİR sorusu; 1740 Maratha devri kaynakla bulunacak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1354",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1521-01-01",
+   "t": "1740-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1309] TDV'de «Çaul» maddesi yok (arama/caul). İPUCU: Portekiz 1521'de Çaul'da yalnız kale (Revdanda) kurdu, kasaba Nizamşâhî'de kaldı — TAHRİR sorusu; 1740 Maratha devri kaynakla bulunacak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1354",
+   "alan": "s",
+   "d": "yadava",
+   "f": "1281-01-01",
+   "t": "1318-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1310] TDV'de «Çaul» maddesi yok (arama/caul). İPUCU: Portekiz 1521'de Çaul'da yalnız kale (Revdanda) kurdu, kasaba Nizamşâhî'de kaldı — TAHRİR sorusu; 1740 Maratha devri kaynakla bulunacak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1354",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1318-01-01",
+   "t": "1347-08-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1311] TDV'de «Çaul» maddesi yok (arama/caul). İPUCU: Portekiz 1521'de Çaul'da yalnız kale (Revdanda) kurdu, kasaba Nizamşâhî'de kaldı — TAHRİR sorusu; 1740 Maratha devri kaynakla bulunacak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1354",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1740-01-01",
+   "t": "1818-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1312] TDV'de «Çaul» maddesi yok (arama/caul). İPUCU: Portekiz 1521'de Çaul'da yalnız kale (Revdanda) kurdu, kasaba Nizamşâhî'de kaldı — TAHRİR sorusu; 1740 Maratha devri kaynakla bulunacak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1354",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1818-01-01",
+   "t": "1947-08-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1313] TDV'de «Çaul» maddesi yok (arama/caul). İPUCU: Portekiz 1521'de Çaul'da yalnız kale (Revdanda) kurdu, kasaba Nizamşâhî'de kaldı — TAHRİR sorusu; 1740 Maratha devri kaynakla bulunacak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1354",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1314] [KÜME K10] Ülke düzeyi ayrı ajanda."
+  }
+ ],
+ "Kandy": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1664",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1815-03-02",
+   "t": "1948-02-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sri Lanka» (https://islamansiklopedisi.org.tr/sri-lanka)",
+   "alinti": "1815’te de Kandy Krallığı’nın merkezini ele geçirip | 4 Şubat 1948 tarihinde Seylan ... bağımsızlık verildi",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1315] f YIL (03-02 Kandy Sözleşmesi günü yok), t GÜN. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1664",
+   "alan": "s",
+   "d": "seylan-sinhala",
+   "f": "1281-01-01",
+   "t": "1469-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sri Lanka» (https://islamansiklopedisi.org.tr/sri-lanka)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1316] TDV «Sri Lanka» Kandy Krallığı'nın kuruluş yılını vermiyor (1469 teyitsiz); Sinhala krallıklarının tarihi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1664",
+   "alan": "s",
+   "d": "kandy",
+   "f": "1469-01-01",
+   "t": "1815-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sri Lanka» (https://islamansiklopedisi.org.tr/sri-lanka)",
+   "alinti": "1815’te de Kandy Krallığı’nın merkezini ele geçirip Sri Lanka’yı bir İngiliz kolonisi yaptılar",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1317] t YIL; f 1469 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Yafna (Jaffna)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1669",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1658-06-21",
+   "t": "1796-02-16",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sri Lanka» (https://islamansiklopedisi.org.tr/sri-lanka)",
+   "alinti": "1795’te adada ticarî bir üs elde eden İngilizler 1802’de Hollanda topraklarını devraldılar.",
+   "oneri": {
+    "t": "Cafna'nın İngilizlere teslimi 1795 (gün kaynakla; İPUCU 1795-09-28)",
+    "isg_ekle": {
+     "d": "ingiltere",
+     "f": "1795 teslim günü",
+     "t": "1802-03-27 (Amiens imza, İPUCU)"
+    },
+    "s_ingiltere_f": "1802"
+   },
+   "uc": "",
+   "not": "[sira 1318] 1796-02-16 Kolombo'nun teslim günüdür, Cafna'nın değil. ÖLÇÜT: geçici/askerî — Hollanda iddiası Amiens'e dek sürdü (TDV «1802’de ... devraldılar»). f 1658: TDV ada düzeyinde Hollanda'yı 1656/1660 verir, Cafna'nın 1658 günü teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1669",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1796-02-16",
+   "t": "1948-02-04",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sri Lanka» (https://islamansiklopedisi.org.tr/sri-lanka)",
+   "alinti": "İngilizler 1802’de Hollanda topraklarını devraldılar | 4 Şubat 1948 tarihinde Seylan ... bağımsızlık verildi",
+   "oneri": {
+    "f": "1802 (Amiens 1802-03-27 imzası İPUCU; TEK ÖLÇÜ: İngiltere yönetiyordu → imza günü)",
+    "onune": "isg ingiltere 1795 → 1802 (sira 1318)"
+   },
+   "uc": "t",
+   "not": "[sira 1319] t GÜN teyitli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1669",
+   "alan": "s",
+   "d": "yafna",
+   "f": "1281-01-01",
+   "t": "1619-02-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sri Lanka» (https://islamansiklopedisi.org.tr/sri-lanka)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1320] TDV «Sri Lanka» Cafna Tamil Krallığı'nı tarihsiz anar; 1619 Portekiz fethi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1669",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1619-02-01",
+   "t": "1658-06-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sri Lanka» (https://islamansiklopedisi.org.tr/sri-lanka)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1321] TDV yalnız «yüzyılın sonuna doğru sahil bölgelerinin kontrolünü» der; Cafna 1619 ve 1658 günleri yok."
+  }
+ ],
+ "Yilan (Kavalan / Gamalan)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2602",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1812-01-01",
+   "t": "1895-04-17",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1322] Bütçe; mevcut kaynak Shepherd 1993 / Teng 2004 (akademik, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2602",
+   "alan": "s",
+   "d": "japon-tayvani",
+   "f": "1895-04-17",
+   "t": "1945-10-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1323] Bütçe. NOT (kural uygulaması, sınanmadı): TEK ÖLÇÜ — Japonya Şimonoseki imzasında (1895-04-17) Tayvan'ı yönetmiyordu → s: japon-tayvani TESLİM günü (Keelung açığında devir 1895-06-02 İPUCU; Formoza Cumhuriyeti 1895-05-25 rakip hükûmet; şehre Japon giriş günü kaynakla)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2602",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1945-10-25",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1324] Bütçe. 1945-10-25 Tayvan'ın ÇC'ye teslimi; Japonya'nın hukukî feragati San Francisco 1952-04-28 / Taipei Antlaşması ic_not adayı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2602",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1812-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1325] Bütçe."
+  }
+ ],
+ "Taitung (Beinan / Pi-lam)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2621",
+   "alan": "s",
+   "d": "japon-tayvani",
+   "f": "1895-04-17",
+   "t": "1945-10-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1326] Bütçe. NOT (kural uygulaması, sınanmadı): TEK ÖLÇÜ — Japonya Şimonoseki imzasında (1895-04-17) Tayvan'ı yönetmiyordu → s: japon-tayvani TESLİM günü (Keelung açığında devir 1895-06-02 İPUCU; Formoza Cumhuriyeti 1895-05-25 rakip hükûmet; şehre Japon giriş günü kaynakla)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2621",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1875-01-01",
+   "t": "1895-04-17",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1327] Bütçe."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2621",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1945-10-25",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1328] Bütçe. 1945-10-25 Tayvan'ın ÇC'ye teslimi; Japonya'nın hukukî feragati San Francisco 1952-04-28 / Taipei Antlaşması ic_not adayı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2621",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1875-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1329] Bütçe."
+  }
+ ],
+ "Paramushir (Severo-Kurilsk)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2677",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1711-01-01",
+   "t": "1875-05-07",
+   "hukum": "ONERI",
+   "kaynak": "内閣府 北方対策本部, «北方領土問題の経緯» (https://www8.cao.go.jp/hoppo/mondai/02.html)",
+   "alinti": "1875年（明治8年）、明治政府は、樺太千島交換条約を結び…ロシアから千島列島を譲り受けました",
+   "oneri": {
+    "t": "1875 teslim günü (Kuzey Kurillerin Japon görevlilere fiilen teslimi; kaynakla bulunacak) — imza 1875-05-07 ic_not"
+   },
+   "uc": "t",
+   "not": "[sira 1330] TEK ÖLÇÜ: Japonya imzada Kuzey Kurilleri yönetmiyordu → s: TESLİM günü. 1855 Şimoda: «得撫島から北のクリル諸島はロシア領として確認» (ic_not). f 1711 teyitsiz. Yıl Japon devir yılı ifadesiyle (明治8年). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2677",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1875-05-07",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "kaynak": "内閣府 北方対策本部, «北方領土問題の経緯» (https://www8.cao.go.jp/hoppo/mondai/02.html)",
+   "alinti": "ソ連軍が千島列島最北端の占守島に上陸したのは…8月18日 | 8月31日までに…得撫島まで占領を完了",
+   "oneri": {
+    "f": "bkz. sira 1330 (teslim günü)",
+    "t": "Sovyet ilhakı (İPUCU 1946-02-02 Yüksek Sovyet Prezidyumu kararnamesi; kaynakla)",
+    "isg_ekle": {
+     "d": "sovyet-rusya",
+     "f": "Paramuşir'in Sovyet işgali 1945-08-18 ile 08-31 arası (gün kaynakla)",
+     "t": "ilhak günü"
+    }
+   },
+   "uc": "",
+   "not": "[sira 1331] TEK KURAL: savaş işgali ilhaka dek isg; 1945-09-02 Japon teslim belgesi egemenlik devri değil (ic_not). Yıl başlıktan (1945年8月9日 paragrafı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2677",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1332] [KÜME K03]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2677",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1945-09-02",
+   "t": "1991-12-26",
+   "hukum": "ONERI",
+   "kaynak": "内閣府 北方対策本部, «北方領土問題の経緯» (https://www8.cao.go.jp/hoppo/mondai/02.html)",
+   "alinti": "8月31日までに…得撫島まで占領を完了",
+   "oneri": {
+    "f": "Sovyet ilhak günü (İPUCU 1946-02-02; kaynakla) — önünde isg sovyet-rusya (sira 1331)"
+   },
+   "uc": "",
+   "not": "[sira 1333] t 1991-12-26 K03 ülke düzeyi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2677",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1711-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1334] Bütçe."
+  }
+ ],
+ "Iwo Jima (Volkan Adaları)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2703",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1891-01-01",
+   "t": "1945-09-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1335] 内閣官房 領土・主権展示館 PDF (cas.go.jp/jp/ryodo/tenjikan/pdf/kikaku_230124_2.pdf) ve 環境省 PDF ham metne çevrilemedi; yalnız arama özeti «1891年 勅令» (teyit değil). TARAYICI: cas.go.jp PDF. İPUCU 1891-09-09."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2703",
+   "alan": "s",
+   "d": "abd",
+   "f": "1945-09-02",
+   "t": "1968-06-26",
+   "hukum": "ONERI",
+   "kaynak": "Kural uygulaması — KARARLAR-EMRELIC (Şuri emsali: isg ryukyu-abd-idaresi); EBSCO Research Starters, «United States Hands Okinawa to Japan» (Wright 2021, 'residual sovereignty')",
+   "alinti": "",
+   "oneri": {
+    "alan": "isg",
+    "d": "abd",
+    "f": "ABD'nin Iwo Jima'yı alışı 1945-03 (gün kaynakla; İPUCU 1945-03-26)",
+    "t": "1968-06-26",
+    "s": "meiji-japonya → japonya-devleti kesintisiz"
+   },
+   "uc": "",
+   "not": "[sira 1336] TEK KURAL: San Francisco md. 3 ile Japonya 'residual sovereignty' korudu; ABD idaresi egemenlik değil → isg. Ada-özgü kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2703",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1968-06-26",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Kural uygulaması (bkz. sira 1336)",
+   "alinti": "",
+   "oneri": {
+    "f": "1947-05-03 (s: kesintisiz; 1945-1968 arası isg abd katmanı)"
+   },
+   "uc": "",
+   "not": "[sira 1337] 1968-06-26 iade günü teyitsiz (yalnız arama özeti: 環境省 «昭和43年6月26日 小笠原諸島が日本に返還»)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2703",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1891-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1338] Bütçe."
+  }
+ ],
+ "Nagoya": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3204",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1610-01-01",
+   "t": "1868-01-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1339] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3204",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1868-01-03",
+   "t": "1947-05-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1340] Bütçe. NOT (kural uygulaması, sınanmadı): Müttefik işgali 1945-09-02 → 1952-04-28 (SCAP) TEK KURAL'a göre isg katmanı adayı; s: Japonya kesintisiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3204",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1341] Bütçe; künye japonya-devleti f (1947-05-03) okunmadı."
+  }
+ ],
+ "Hiroşima": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3266",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1589-01-01",
+   "t": "1603-03-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1342] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3266",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1343] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3266",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1868-01-03",
+   "t": "1947-05-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1344] Bütçe. NOT (kural uygulaması, sınanmadı): Müttefik işgali 1945-09-02 → 1952-04-28 (SCAP) TEK KURAL'a göre isg katmanı adayı; s: Japonya kesintisiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3266",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1345] Bütçe; künye japonya-devleti f (1947-05-03) okunmadı."
+  }
+ ],
+ "Sendai": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3363",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1600-01-01",
+   "t": "1603-03-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1346] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3363",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1347] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3363",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1868-01-03",
+   "t": "1947-05-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1348] Bütçe. NOT (kural uygulaması, sınanmadı): Müttefik işgali 1945-09-02 → 1952-04-28 (SCAP) TEK KURAL'a göre isg katmanı adayı; s: Japonya kesintisiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3363",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1349] Bütçe; künye japonya-devleti f (1947-05-03) okunmadı."
+  }
+ ],
+ "Hirosaki": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3383",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1611-01-01",
+   "t": "1868-01-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1350] Bütçe; künye ucu, şehre özgü kaynak aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3383",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1868-01-03",
+   "t": "1947-05-03",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1351] Bütçe. NOT (kural uygulaması, sınanmadı): Müttefik işgali 1945-09-02 → 1952-04-28 (SCAP) TEK KURAL'a göre isg katmanı adayı; s: Japonya kesintisiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3383",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1352] Bütçe; künye japonya-devleti f (1947-05-03) okunmadı."
+  }
+ ]
+}
