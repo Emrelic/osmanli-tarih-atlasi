@@ -3521,8 +3521,8 @@ window.DEVLETLER = [
     { odak_yer:["Menaka"], t:"1899-01-01", tur:"son", b:"Fransız işgaline uğradı" }
   ]
 },
-{ id:"liberya", ad:"Liberya Cumhuriyeti", tur:"cumhuriyet", bolge:"bati-afrika",
-  f:"1822-04-25", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Monrovia",
+{ id:"liberya", ic_not:"f 1822-04-25 → 1822-01-01 [yalnız ay teyitli: Ocak 1822] Cambridge History of Africa V ch.5 s.~192: yerleşimciler 'arrived in January 1822'. 25 Nisan 1822 teyitsiz aday (Christopolis bayrak töreni, ikincil kaynak). (LAB KASA-KUYRUK.md; KASA PAZAR 4 Kasım 2026)", ad:"Liberya Cumhuriyeti", tur:"cumhuriyet", bolge:"bati-afrika",
+  f:"1822-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Monrovia",
   ozet:"Amerikan Sömürgeleştirme Cemiyeti'nin kurduğu yerleşimden doğan, 1847'de bağımsızlığını ilân eden Afrika'nın ilk cumhuriyeti; hiçbir zaman sömürge olmadı. TDV'de ayrı madde yok; standart akademik kaynağa göre yazıldı. (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"bulunamadı — standart akademik el kitabı — çevrimiçi doğrulanmadı. 1822 Amerikan Sömürgeleştirme Cemiyeti yerleşimi; 1847-07-26 bağımsız cumhuriyet. 🔴 HİÇ İNGİLİZ KOLONİSİ OLMADI — `ingiltere` yazmak §3.5 hayaleti üretir (bu turda son anda durduruldu).",
   kronoloji:[
@@ -5852,8 +5852,8 @@ window.DEVLETLER = [
     { odak_yer:["Hanoi"], t:"1460-01-01", tur:"hukumdar", b:"Lê Thánh Tông tahta çıktı (1460-1497); imparatorluğu on üç idarî bölgeye ayırıp güneye doğru genişledi (Champa pahasına)", kaynak:"bulunamadı (TDV) — standart akademik kaynak, çevrimiçi ikincil kaynaklarla ('Le Thanh Tong') doğrulandı. `campa` künyesindeki 1471 Vijaya düşüşü olayıyla TUTARLI — aynı hükümdarın seferi." }
   ]
 },
-{ id:"nguyen-hanedani", ad:"Nguyễn Hanedanı (Vietnam)", tur:"hanedanlik", bolge:"guneydogu-asya",
-  f:"1802-06-01", t:"1945-08-30", baskent:"Huế", harita:"nguyen-hanedani",
+{ id:"nguyen-hanedani", ic_not:"t 1945-08-30 → 1945-08-25 ÇİFT TEYİT: Cambridge History of Southeast Asia II ch.6 s.~358: 'the enforced abdication of Emperor Bao Dai as head of state on 25 August' + P. Asselin, Vietnam's American War (CUP 2018) ch.1 s.43: 'On 25 August … Bao Dai abdicated'. 30 Ağustos 1945 Huế (Ngọ Môn) devir töreni — tören; tasarruf günü 25 Ağustos. f 1802-06-01 günü teyitsiz (CHSEA I ch.10: yıl 1802). (LAB KASA-KUYRUK.md; KASA PAZAR 4 Kasım 2026)", ad:"Nguyễn Hanedanı (Vietnam)", tur:"hanedanlik", bolge:"guneydogu-asya",
+  f:"1802-06-01", t:"1945-08-25", baskent:"Huế", harita:"nguyen-hanedani",
   ozet:"Gia Long'un Tây Sơn'a son verip Vietnam'ı yeniden birleştirdiği son hanedan; Fransız baskısıyla 1880'lerde protektora hâline geldi (1923 sonrasında da sürdü, 1945'e dek).",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
   kronoloji:[
@@ -6748,7 +6748,7 @@ window.DEVLETLER = [
     { odak_yer:["Rennes"], t:"1532-08-13", tur:"son", b:"Birleşme Fermanı ile Fransa Krallığı'na daimi olarak katıldı" }
   ]
 },
-{ id:"burgonya", ad:"Burgonya Dükalığı (Valois)", tur:"dukalik", bolge:"bati-avrupa",
+{ id:"burgonya", ic_not:"Ad '(Valois)' düştü (EMRELİC kararı, Mantova ilkesi: hanedan değişimi polity değişimi değildir; dükalık 1032-1482 tek polity, f 1032 kalır). Kapet dükleri 1032–1361; tâca dönüş 1361; Valois 1363 (Cesur Philippe; NCMH VI ch.14a s.~408 'in 1363 a newly constituted Burgundy was conferred on Philip') – 1482 (Blockmans, NCMH I ch.VIII s.~231: 'Mary died on 27 March 1482'); asıl dükalık toprağı 1477'de Fransız işgali, Arras 1482 (NCMH VII ch.20 s.~455). f 1032 okunmadı. (LAB KASA-KUYRUK.md; KASA PAZAR 4 Kasım 2026)", ad:"Burgonya Dükalığı", tur:"dukalik", bolge:"bati-avrupa",
   f:"1032-01-01", t:"1482-03-27", baskent:"Dijon", harita:"burgonya",
   ozet:"Valois kolunun 14. yüzyıldan itibaren Flandre ve Hollanda'yı da katarak Fransa ile Almanya arasında neredeyse bağımsız bir güç hâline getirdiği dükalık; Nancy'de Cesur Charles'ın ölümüyle mirası Habsburg ve Fransa arasında paylaşıldı.",
   kaynak:"bulunamadı — TDV'de müstakil maddesi yok, dayanak: standart akademik kaynak",
