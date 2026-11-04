@@ -233,7 +233,7 @@
 {
 "id": "burgonya",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — NCMH VII ch.20 PDF s.20: Cesur Şarl 1477'de öldü (ara olay); t 1482-03-27 (Marie'nin ölümü / Arras antlaşması) OKUNMADI; f 1032 okunmadı"
+"kaynak": "EMRELİC Cambridge — Blockmans, New Cambridge Modern History I, ch.VIII, s.~231: 'Mary died on 27 March 1482' (t GÜN TEYİT, Valois Burgonya devletinin sonu olarak); ic_not: dükalık toprağının 1477'de Fransa'ya geçişi (NCMH VII ch.20 s.~455); yerleşim kontrolü UMIT'te. DİKKAT (LAB): künye adı 'Valois' ama f 1032 (Kapet dükalığının başı) — Valois Burgonya 1363 (Cesur Philippe); f kapsamı KASA/Emre kararı ister"
 },
 {
 "id": "navarra",
@@ -380,7 +380,7 @@
 {
 "id": "vijayanagara",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC yerel arşiv (Cambridge PDF, pypdf) — Metcalf özet kronolojisi '1346–1565' — özet kronoloji f/t düzeltmesine DAYANAK OLAMAZ; 1565 Talikota, imparatorluk Aravidu hanedanıyla 1646'ya sürdü → veri DEĞİŞMEZ; Stein, Vijayanagara (NCHI I.2) tarayıcı kuyruğunda"
+"kaynak": "EMRELİC Cambridge — Stein, Cambridge Economic History of India I, ch.IV, s.~108: 'Sangama dynasty … 1336–1485' (f 1336 YIL TEYİT; ic_not: Morrison c.1350) · t 1646: Morrison'a göre Aravidu 'c. 1569–1654'; 1646 Cambridge'de bulunmadı → DEĞİŞMEZ, KISMEN"
 },
 {
 "id": "maratha",
@@ -434,8 +434,8 @@
 },
 {
 "id": "racput",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1000-01-01 / t 1947-08-15 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — Copland, The Princes of India in the Endgame of Empire (NCHI III.8), s.255/262: Ağustos 1947 katılma senedi; devletler 1948-49'da Rajasthan Birliği'ne katılarak sona erdi. Prenslik kuralı (polity birleşmeye dek sürer) t'yi birleşme gününe götürür ama gün kaynakta yok → t 1947-08-15 DEĞİŞMEZ, beyanlı; ŞEMSİYE KÜNYE kararı Emre'de; f 1000 okunmadı"
 },
 {
 "id": "nayak-devletleri",
@@ -1080,8 +1080,8 @@
 },
 {
 "id": "dan-guro",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1898-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHA VII, ch.7 (Suret-Canale), s.~330: orman kuşağında 'The decisive years were from 1908 to 1912' (halklar adıyla anılmıyor) → t 1898 DEĞİŞMEZ; ic_not: '1898 teyitsiz; CHA VII orman kuşağı fethini 1908–12'ye koyuyor'"
 },
 {
 "id": "kru-grebo",
@@ -1105,8 +1105,8 @@
 },
 {
 "id": "banda-gbaya",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: UNESCO General History of Africa IV + VII / Cambridge History of Africa 3 + 6-7 — f 1281-01-01 / t 1903-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHA VII, ch.7, s.~390: Baya (Gbaya) direnişi 1931'e dek sürdü → t 1903 fethin bitişi DEĞİL; DEĞİŞMEZ, beyanlı"
 },
 {
 "id": "tio",
@@ -1580,8 +1580,8 @@
 },
 {
 "id": "brezilya-imparatorlugu",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas III (South America) / Cambridge History of Latin America — f 1822-09-07 / t 1889-11-15 (bölüm: eserin dizininden)"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC Cambridge — Cambridge History of Latin America III, ch.4 (Bethell), s.~186: 'final step was taken on 7 September 1822 on the banks of the River Ipiranga' (f GÜN teyitli) · Fausto, A Concise History of Brazil (Cambridge), ch.3, s.144: 15 Kasım 1889 (t GÜN teyitli)"
 },
 {
 "id": "haiti",
