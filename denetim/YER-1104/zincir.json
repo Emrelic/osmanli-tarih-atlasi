@@ -1,0 +1,28 @@
+{
+"_aciklama": "YER-1104 eklenecek noktaların tam sahiplik zinciri (UMIT SALI, 4 Kasım 2026). Kaynak listesi: KASA-YER.md ② (KAYNAKLI satırlar). Biçim ve denetim: zincir_dogrula.py. alan s = yabancı sahip (d: künye id), d = doğrudan Osmanlı, v = tâbi/dolaylı (k: tâbi adı). Ufuk 2000-12-31; kur yoksa zincir 1281-01-01'den (atlas çekirdeği) başlar ve ilk anılış kur: yapılmaz (VERI-YAPISI). ABİ MERKEZ ve 'gün komşudan' satırları beyanlıdır.",
+"Arad": {
+ "lat": 46.18333, "lon": 21.31667, "kur": null, "bit": null,
+ "zincir": [
+  {"alan": "s", "d": "macaristan", "f": "1281-01-01", "t": "1526-11-10",
+   "kaynak": "MKL «Arad»: 'vára 1177: említik először, várispánság központja volt' (Macar kraliyet kalesi/ispanlık merkezi) · t: TDV suleyman-i Szapolyai'nin seçimi 10 Kasım 1526 — ABİ MERKEZ: Lippa/Temeşvar zinciri (BALKAN-MACAR-0081) ile aynı kırılma, BEYANLI"},
+  {"alan": "v", "k": "Macaristan (Zapolya vasal krallığı)", "f": "1526-11-10", "t": "1541-08-29",
+   "kaynak": "ABİ MERKEZ: Lippa (Lipova) — Arad ve Lippa aynı Maros kalesi hattında; TDV timisvar: Timiş bölgesi Szapolyai yanlısı Petrovics'in elinde · BEYANLI YAKLAŞIKLIK (Arad'ı adıyla anan 1526-41 belgesi okunmadı)"},
+  {"alan": "v", "k": "Erdel Prensliği", "f": "1541-08-29", "t": "1551-07-01",
+   "kaynak": "ABİ MERKEZ: Lippa/Temeşvar — TDV timisvar: 1541 Budin beylerbeyiliği ve haraçgüzâr Erdel Prensliği; Petrovics'in Lipova-Tımışvar bölgesi · t: Bánlaky (MEK 09477) 0013/988: Báthory Endre Temmuz 1551 ortası Banat kalelerini Ferdinand adına teslim aldı · BEYANLI YAKLAŞIKLIK"},
+  {"alan": "s", "d": "macaristan-habsburg", "f": "1551-07-01", "t": "1551-10-01",
+   "kaynak": "ABİ MERKEZ: Lippa — Bánlaky (MEK 09477) 0013/988 Banat kaleleri Ferdinand'a (Temmuz 1551) · t: Bánlaky 0013/992: Sokollu Mehmed 8 Eylül–5 Ekim 1551 Çanad önünde; birlikleri Maros boyundaki Nagylak, Fellak, Egres, Csálya, Zádorlak, Eperjes, Pálélés ve Bodorlak (Mondorlak) palankalarını aldı — Arad'ın 10-15 km çevresi; Arad adıyla geçmiyor → AY, ALT SINIR, BEYANLI"},
+  {"alan": "d", "f": "1551-10-01", "t": "1688-06-22",
+   "kaynak": "MKL «Arad»: '1551-1688: a törökök kezén volt' (YIL; gün Bánlaky 0013/992 Maros palankalarının Eylül-Ekim 1551 alınışından: AY, BEYANLI) · TDV timisvar: Tımışvar beylerbeyiliğinin sabit sancakları arasında 'Göle (Gyula) ve Arad (birlikte)' · t: MKL 1688 (YIL) — gün komşudan: Lippa 22 Haziran 1688 (TDV lipova: Caraffa kuşatması '12-22 Haziran 1688' teslim; aynı Maros seferi) BEYANLI"},
+  {"alan": "s", "d": "macaristan-habsburg", "f": "1688-06-22", "t": "1918-11-16",
+   "kaynak": "MKL «Arad»: 1688 sonrası Habsburg; kale 1763-83'te yeniden yapıldı · 1849: 'a honvédsereg féléves ostromzár után vette be' ve 6 Ekim 1849 Arad şehitleri — 1848-49 Macar ihtilâl hükûmetinin künyesi devletler.js'te YOK: dönem macaristan-habsburg içinde BEYANLI (KASA: künye açılırsa 1849 honvéd dönemi ayrı yazılır) · t: TDV macaristan (G. Dávid) 1918 · Temeşvar/Lippa ile aynı uç"},
+  {"alan": "s", "d": "macaristan-naiplik", "f": "1918-11-16", "t": "1920-06-04",
+   "kaynak": "F8 (Emre, 5 Eki 2026): de jure devir antlaşma gününde — TDV birinci-dunya-savasi: '4 Haziran 1920'de Macaristan ile Trianon … antlaşmaları imzalandı' · Lippa/Yanova emsali"},
+  {"alan": "s", "d": "romanya-kralligi", "f": "1920-06-04", "t": "1947-12-30",
+   "kaynak": "F8: Trianon 4 Haziran 1920 — Arad ili Romanya'ya (TDV birinci-dunya-savasi; Lippa/Yanova emsali)"},
+  {"alan": "s", "d": "romanya-halk", "f": "1947-12-30", "t": "1989-12-22",
+   "kaynak": "LoC Romania Country Study (Lippa/Yanova emsali)"},
+  {"alan": "s", "d": "romanya-cumhuriyeti", "f": "1989-12-22", "t": "2000-12-31",
+   "kaynak": "LoC Romania Country Study (Lippa/Yanova emsali)"}
+ ]
+}
+}
