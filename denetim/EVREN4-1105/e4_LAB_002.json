@@ -6,11 +6,13 @@
    "d": "japon-kore",
    "f": "1910-08-29",
    "t": "1945-09-09",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «한일합병», Yun Byeong-seok, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0061925 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «미군정청», Jung Yong-wook, 2012/2026 — https://encykorea.aks.ac.kr/Article/E0019891",
    "alinti": "8월 29일에야 순종으로 하여금 양국(讓國)의 조칙을 내리게 하였다. / 9월 9일 총독부 제1회의실에서 일본의 조선 총독 아베로부터 항복문서에 조인을 받았다.",
-   "oneri": {},
-   "not": "ÜLKE DÜZEYİ (Ganghwa maddesi 1910/1945'i anmıyor). f ucu 1910-08-29 = ilhak ilanı/ferman günü; encykorea AYNI maddede antlaşma imzasını 1910-08-22 (Lee Wan-yong-Terauchi) olarak da veriyor. TEK ÖLÇÜ: Japonya Residency-General ile zaten fiilen yönetiyorsa imza günü 08-22 gerekir; karar EMRELİC'te, ikisi de kaynaklı. t ucu: 1945-09-09 Hodge'un Seul'de Japon genel valisinden teslim belgesini imzalatması (38. paralel güneyi; Ganghwa güneyde)."
+   "oneri": {
+    "f": "1910-08-22"
+   },
+   "not": "KARAR EMRELİC (5 Kas): s: japonya 1910-08-22 (ilhak antlaşması imzası; TEK ÖLÇÜ — 1905'ten beri fiilî idare). 08-29 fermanı ve yürürlük ic_not'a. | ÜLKE DÜZEYİ (Ganghwa maddesi 1910/1945'i anmıyor). f ucu 1910-08-29 = ilhak ilanı/ferman günü; encykorea AYNI maddede antlaşma imzasını 1910-08-22 (Lee Wan-yong-Terauchi) olarak da veriyor. TEK ÖLÇÜ: Japonya Residency-General ile zaten fiilen yönetiyorsa imza günü 08-22 gerekir; karar EMRELİC'te, ikisi de kaynaklı. t ucu: 1945-09-09 Hodge'un Seul'de Japon genel valisinden teslim belgesini imzalatması (38. paralel güneyi; Ganghwa güneyde)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3511",
@@ -130,11 +132,13 @@
    "d": "japon-kore",
    "f": "1910-08-29",
    "t": "1945-09-09",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «한일합병», Yun Byeong-seok, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0061925 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «미군정청», Jung Yong-wook, 2012/2026 — https://encykorea.aks.ac.kr/Article/E0019891",
    "alinti": "8월 29일에야 순종으로 하여금 양국(讓國)의 조칙을 내리게 하였다.",
-   "oneri": {},
-   "not": "ÜLKE DÜZEYİ. Chungju maddesi 1910/1945'i anmıyor. İmza 1910-08-22 / ferman 1910-08-29 (TEK ÖLÇÜ kararı EMRELİC); t: 1945-09-09 teslim imzası."
+   "oneri": {
+    "f": "1910-08-22"
+   },
+   "not": "KARAR EMRELİC (5 Kas): s: japonya 1910-08-22 (ilhak antlaşması imzası; TEK ÖLÇÜ — 1905'ten beri fiilî idare). 08-29 fermanı ve yürürlük ic_not'a. | ÜLKE DÜZEYİ. Chungju maddesi 1910/1945'i anmıyor. İmza 1910-08-22 / ferman 1910-08-29 (TEK ÖLÇÜ kararı EMRELİC); t: 1945-09-09 teslim imzası."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3536",
@@ -184,7 +188,7 @@
    "oneri": {
     "t": "900-01-01"
    },
-   "not": "f=551: BÖLGE DÜZEYİ (yukarı Han 10 gun; Chungju adı anılmıyor; 551 Ureuk Daemunsan'a yerleşti = Silla elinde, Chungju maddesi). Gukwon-sogyeong 557 kesin. t ÇELİŞKİ: Cheonggil 900-10'da Gukwon'u (Chungju) Gungye'ye teslim etti → Silla/yerel güç sonu 900, atlas 901. Gün yok (lunar Ekim 900)."
+   "not": "KARAR EMRELİC (5 Kas): Taebong künye aşımı (künye f 901, Chungju 900) LAB SALI'ya iletildi. | f=551: BÖLGE DÜZEYİ (yukarı Han 10 gun; Chungju adı anılmıyor; 551 Ureuk Daemunsan'a yerleşti = Silla elinde, Chungju maddesi). Gukwon-sogyeong 557 kesin. t ÇELİŞKİ: Cheonggil 900-10'da Gukwon'u (Chungju) Gungye'ye teslim etti → Silla/yerel güç sonu 900, atlas 901. Gün yok (lunar Ekim 900)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3536",
@@ -198,7 +202,7 @@
    "oneri": {
     "f": "900-01-01"
    },
-   "not": "f: Chungju Taebong/Gungye'ye 900'de (Ekim lunar) geçti; 'Taebong' adı 911'de, 901'de Hu-Goguryeo (aynı devlet, atlas künyesi 901). Öneri yıl düzeyi: f=900; künye f=901 → KÜNYE AŞIMI riski, EMRELİC kararı. Yerel kuvvet sahipliği (Cheonggil) 'Silla'dan' mı 'bağımsız' mı: kaynak susuyor."
+   "not": "KARAR EMRELİC (5 Kas): Taebong künye aşımı (künye f 901, Chungju 900) LAB SALI'ya iletildi. | f: Chungju Taebong/Gungye'ye 900'de (Ekim lunar) geçti; 'Taebong' adı 911'de, 901'de Hu-Goguryeo (aynı devlet, atlas künyesi 901). Öneri yıl düzeyi: f=900; künye f=901 → KÜNYE AŞIMI riski, EMRELİC kararı. Yerel kuvvet sahipliği (Cheonggil) 'Silla'dan' mı 'bağımsız' mı: kaynak susuyor."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3536",
@@ -252,7 +256,7 @@
    "oneri": {
     "t": "1633-01-01"
    },
-   "not": "f ucu: Ming shi Lüshun'u Jinzhou-wei içinde 'Hongwu 20' (1387) Zhongzuo qianhusuo ile belgeliyor (Jinzhou 'Hongwu 5, 6. ay'). 1368-09-14 ülke düzeyi. t ucu ÇELİŞKİ: Qing shi gao Lüshun'un Tiancong 7 (=1633; sayfa başlığı okunan bölümde görünmedi, arama özeti 'Tiancong 7' dedi) yılında Ming'den alındığını yazıyor: '7. ay, jiachen günü Beile Yuetuo Lüshun'un alındığını bildirdi' (Taizong 本紀; 6. ay jimao günü sefer çıkışı). Çeviri Academia Sinica ile EMRELİC'te. Ming 1621'den sonra da Lüshun'u (Huang Long) tuttu."
+   "not": "KARAR EMRELİC (5 Kas): 1633 önerisi doğru yönde; Qing shi gao ifadesi (天聰七年七月甲辰 貝勒岳託等奏克旅順口) EMRELİC'e çeviriye gönderildi. | f ucu: Ming shi Lüshun'u Jinzhou-wei içinde 'Hongwu 20' (1387) Zhongzuo qianhusuo ile belgeliyor (Jinzhou 'Hongwu 5, 6. ay'). 1368-09-14 ülke düzeyi. t ucu ÇELİŞKİ: Qing shi gao Lüshun'un Tiancong 7 (=1633; sayfa başlığı okunan bölümde görünmedi, arama özeti 'Tiancong 7' dedi) yılında Ming'den alındığını yazıyor: '7. ay, jiachen günü Beile Yuetuo Lüshun'un alındığını bildirdi' (Taizong 本紀; 6. ay jimao günü sefer çıkışı). Çeviri Academia Sinica ile EMRELİC'te. Ming 1621'den sonra da Lüshun'u (Huang Long) tuttu."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2782",
@@ -266,7 +270,7 @@
    "oneri": {
     "f": "1633-01-01"
    },
-   "not": "f ucu: Qing shi gao'ya göre Lüshun 1633'te alındı (Tiancong 7, 7. ay, jiachen); atlas 1621 hatalı. t ucu: 1898-03-27 Pekin sözleşmesi imzası (Guangxu 24, 3. ay 3. gün); Rusya 'kiracı', Qing egemenliği sürdü (journals.igps.ru özeti, okunmadı) — ÖLÇÜT: kiralama ≠ devir; s:rusya mı v:rusya mı kararı EMRELİC'te. Lüshun'un 1894-11 Japon işgali (arama özeti) hiç okunmadı."
+   "not": "KARAR EMRELİC (5 Kas): 1633 önerisi doğru yönde; Qing shi gao ifadesi (天聰七年七月甲辰 貝勒岳託等奏克旅順口) EMRELİC'e çeviriye gönderildi. | f ucu: Qing shi gao'ya göre Lüshun 1633'te alındı (Tiancong 7, 7. ay, jiachen); atlas 1621 hatalı. t ucu: 1898-03-27 Pekin sözleşmesi imzası (Guangxu 24, 3. ay 3. gün); Rusya 'kiracı', Qing egemenliği sürdü (journals.igps.ru özeti, okunmadı) — ÖLÇÜT: kiralama ≠ devir; s:rusya mı v:rusya mı kararı EMRELİC'te. Lüshun'un 1894-11 Japon işgali (arama özeti) hiç okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2782",
@@ -278,7 +282,7 @@
    "kaynak": "FRUS 1898 d112 (Peking Convention, Art. I, III) ; FRUS 1905 d915 (Portsmouth Treaty, Art. V) — history.state.gov",
    "alinti": "The Emperor of China agrees hereby to lease Port Arthur and Talien. / August 23 (September 5), 1905",
    "oneri": {},
-   "not": "f: 27 Mart 1898 imza (kira süresi 25 yıl imza gününden). t: Portsmouth 1905-09-05 (Jülyen 23 Ağustos 1905), Madde V Rusya'nın kiralama haklarını Japonya'ya Çin rızasıyla devreder; Japonya Port Arthur'u 1905-01 başında zaten teslim almıştı (arama özeti, okunmadı) → TEK ÖLÇÜ imza günü. Rusya kiracıdır, egemen değil (bkz. qing satırı)."
+   "not": "KARAR EMRELİC (5 Kas): s: rusya 1898-03-27 kalır (kiralanıp idaresi devredilen yer emsali, yerlesimler_asya.js:2050); ic_not: 'kira; Qing egemenliği hukuken sürdü'. Portsmouth 1905-09-05'ten s: meiji-japonya doğru. | f: 27 Mart 1898 imza (kira süresi 25 yıl imza gününden). t: Portsmouth 1905-09-05 (Jülyen 23 Ağustos 1905), Madde V Rusya'nın kiralama haklarını Japonya'ya Çin rızasıyla devreder; Japonya Port Arthur'u 1905-01 başında zaten teslim almıştı (arama özeti, okunmadı) → TEK ÖLÇÜ imza günü. Rusya kiracıdır, egemen değil (bkz. qing satırı)."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2782",
@@ -289,8 +293,10 @@
    "hukum": "ONERI",
    "kaynak": "FRUS 1946 v10 d899 (Benninghoff, Dairen 10 Mayıs 1946) — history.state.gov/historicaldocuments/frus1946v10/d899",
    "alinti": "the actual administration of the 'Port Arthur Naval Base Area' [Chinese Government]",
-   "oneri": {},
-   "not": "BELİRSİZ: 1945 Çin-Sovyet anlaşması fiilî idareyi Çin'e bırakıyor, ancak Sovyet komutanın güvenlik/savunma önerilerine uyma şartıyla; Sovyet askerî varlığı 1955'e kadar sürdü; FRUS 1947 v7 d591 arama özeti SSCB'nin Çin'in sivil yönetimi devralmasına izin vermediğini söylüyor (sayfa okunmadı). ÖLÇÜT: geçici/askerî (ortak üs) → 'isg sovyet' ya da 's: cin-cumhuriyeti' arasında seçmiyorum. 1945-09-02 Japon teslimi bu kaynaklarda okunmadı."
+   "oneri": {
+    "not": "s: cin-cumhuriyeti 1945-09-02 → 1949-10-01, sonra cin-halk-cumhuriyeti; + isg sovyet 1945-08-22 (Kızıl Ordu girişi) → 1955-05-31 (tahliye); fiilî ÇC idaresi kurulmadı → ic_not"
+   },
+   "not": "KARAR EMRELİC (5 Kas): Çin-Sovyet antlaşması 1945-08-14 sivil idareyi Çin'e bıraktı, deniz üssü ortak; Sovyet askerî varlığı TAHRİR ölçütüyle isg. Günler (08-22, 05-31) ikinci kaynakla teyit edilecek. | BELİRSİZ: 1945 Çin-Sovyet anlaşması fiilî idareyi Çin'e bırakıyor, ancak Sovyet komutanın güvenlik/savunma önerilerine uyma şartıyla; Sovyet askerî varlığı 1955'e kadar sürdü; FRUS 1947 v7 d591 arama özeti SSCB'nin Çin'in sivil yönetimi devralmasına izin vermediğini söylüyor (sayfa okunmadı). ÖLÇÜT: geçici/askerî (ortak üs) → 'isg sovyet' ya da 's: cin-cumhuriyeti' arasında seçmiyorum. 1945-09-02 Japon teslimi bu kaynaklarda okunmadı."
   }
  ],
  "Altay (Şara Sume)": [
@@ -487,7 +493,7 @@
     "f": "1644-01-01",
     "not": "dönem kırpma önerisi"
    },
-   "not": "YERLEŞİM O DEVİRDE YOK: Røros madenci yerleşimi 1644'te (Rauhåmmåren) başladı, ilk eritme 1646. 1530 Olav Engelbrektson jordebok'unda tek çiftlik (Rørosgård) — arama özeti, okunmadı. Öneri: 1281-1537 dönemi kırp (yerleşim yok), toprak komşu peteklere kalır (CLAUDE.md merdiven ④). t=1537 ülke düzeyi: SNL Norgesparagrafen 1536. Karar EMRELİC."
+   "not": "KARAR EMRELİC (5 Kas): dönem kırpması KASA kuyruğuna. | YERLEŞİM O DEVİRDE YOK: Røros madenci yerleşimi 1644'te (Rauhåmmåren) başladı, ilk eritme 1646. 1530 Olav Engelbrektson jordebok'unda tek çiftlik (Rørosgård) — arama özeti, okunmadı. Öneri: 1281-1537 dönemi kırp (yerleşim yok), toprak komşu peteklere kalır (CLAUDE.md merdiven ④). t=1537 ülke düzeyi: SNL Norgesparagrafen 1536. Karar EMRELİC."
   }
  ],
  "Hamar": [
@@ -518,7 +524,7 @@
     "f": "1660-01-01",
     "not": "dönem kırpma önerisi"
    },
-   "not": "YERLEŞİM O DEVİRDE ANILMIYOR: SNL Mosjøen'in ilk bosetma olarak 1660'larda anıldığını söylüyor (Mo gård Vefsn'de daha eski olabilir; aranmadı). Sámi pazarı Halsøya 'reformasyondan önce' ama ilk anılış 1690. Öneri: 1281-1537 kırp ya da Mo gård/Vefsn ABİ MERKEZ beyanı; kaynak susuyor."
+   "not": "KARAR EMRELİC (5 Kas): dönem kırpması KASA kuyruğuna. | YERLEŞİM O DEVİRDE ANILMIYOR: SNL Mosjøen'in ilk bosetma olarak 1660'larda anıldığını söylüyor (Mo gård Vefsn'de daha eski olabilir; aranmadı). Sámi pazarı Halsøya 'reformasyondan önce' ama ilk anılış 1690. Öneri: 1281-1537 kırp ya da Mo gård/Vefsn ABİ MERKEZ beyanı; kaynak susuyor."
   }
  ],
  "Alta": [
