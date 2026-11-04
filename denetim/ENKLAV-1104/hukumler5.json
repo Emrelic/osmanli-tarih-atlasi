@@ -1,0 +1,403 @@
+{
+"_aciklama": "ENKLAV-1104 hükümleri (K401-K500). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı.",
+"K401": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Sohum Osmanlı kalesi 1578 (Lala Mustafa seferi) → 1810-07-11 (Rus zaptı), Osmanlı gövdesinden Megrelya prensliğiyle ayrı (koridor 48 km 9/9): Abhaz kıyısında gerçek kale eksklavı; bitiş uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K402": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sohum 1490 → 1578 'gurcistan', çevre İmereti. Birleşik Gürcistan krallığı 1490'da bölündü; Sohum Abhazya/Megrelya (Dadiani) idaresindeydi. ENKLAV-1104 K339 ile aynı aile (1490 sonrası 'gurcistan' kalıntısı).",
+"duzeltme": "Sohum 1490-1578 sahibi (abhazya / megrelya-prensligi) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K403": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Ostia-Vatikan-Cerveteri Papalık parçası 1512-1540, çevre 'napoli' (koridor 55 km 9/9); içteki 9 noktanın 8'i sahipsiz. Roma Papalık gövdesinin kendisidir; kopukluk Lazio noktalarının dönemsizliğinden.",
+"duzeltme": "Lazio noktalarına 1512-1540 papalik dönemleri.",
+"kaynak": "veri ölçümü"
+},
+"K404": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Gürcistan Demokratik Cumhuriyeti'nin Ardahan-Artvin payı 1919-04-20 → 1920-07-07, Gürcistan gövdesinden İngiliz işgalindeki Batum vilayetiyle ayrı (koridor 15 km 9/9): Batum Temmuz 1920'de Gürcistan'a devredildi — gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K405": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Eçmiyadzin-Armavir Safevî payı 1635-08-08 (IV. Murad'ın Revan'ı alışı) → 1636-04-01 (Safevî geri alışı), Osmanlı Revan'ıyla Safevî gövdesinden ayrı: gerçek; uçlar bilinenle uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K406": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Casale, Vercelli, Legnano 1943-09-23 → 1945-04-28 'italya' (Krallık), çevre Salò Cumhuriyeti. Kuzey İtalya bu dönemde Alman işgali/Salò idaresindeydi; Krallık (güneyde, Müttefik bölgesi) yazımı yanlış.",
+"duzeltme": "Piyemonte-Lombardiya noktaları 1943-09-23 → 1945-04-25/28 salo-cumhuriyeti.",
+"kaynak": "veri ölçümü"
+},
+"K407": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Tallinn 1941-08-17 → 08-28 Sovyet cebi (Tallinn 28 Ağustos 1941'de tahliye edildi), Alman Ostland ile çevrili: gerçek cephe anı; bitiş uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K408": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Lüksemburg-Arlon-Virton 1714-1795 'avusturya-hollandasi', gövdeden 13 km'lik Liège prens-piskoposluğu şeridiyle ayrı. Lüksemburg dükalığı Namur kontluğuyla bitişikti; Liège şeridi Namur-Lüksemburg sınır noktalarının eksikliğinden olabilir (Bouillon dükalığı ayrı).",
+"duzeltme": "Namur-Lüksemburg sınırı (Dinant, Rochefort, Marche) noktaları ve sahipleri kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K409": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "K408 ile aynı parça, Burgonya dönemi (1443-11-21 Lüksemburg'un Burgonya'ya geçişi → 1482).",
+"duzeltme": "K408 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K410": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "K408 ile aynı parça, Habsburg Hollandası (1482-1516).",
+"duzeltme": "K408 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K411": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "K408 ile aynı parça, İspanyol Hollandası (1516-1714).",
+"duzeltme": "K408 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K412": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1895 → 1923 'fransa-cumhuriyet' parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta), çevre ingiltere: noktasız emilme (KOVALAR J).",
+"duzeltme": "KOVALAR J.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K413": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1919 → 1923 'ingiliz-sudani' parçası 0 nokta: noktasız emilme.",
+"duzeltme": "KOVALAR J.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K414": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Beyşehir-Seydişehir 1402-07-28 → 09-15 Karaman, çevre 'timurlu' (koridor 155 km): Ankara sonrası 7 haftalık kesit, Timurlu boyasının Batı/Orta Anadolu'ya yayılmasından (ENKLAV-1104 K044: Timur beylikleri canlandırdı, TDV Timur).",
+"duzeltme": "K044 düzeltmesiyle birlikte (Timurlu → iade edilen beylikler).",
+"kaynak": "veri ölçümü; TDV Timur (KAYNAK-1104 K044)"
+},
+"K415": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1910 → 1923 'portekiz' parçası 0 nokta, koridor 0 km (değme): noktasız emilme.",
+"duzeltme": "KOVALAR J.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K416": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Harput-Palu Dulkadir payı 1378-1400, Elbistan gövdesinden Memlûk Malatya'sıyla ayrı (koridor 44 km 9/9). Dulkadir'in Harput'u tuttuğu dönemler bilinir (TDV Dulkadiroğulları: 'doğuda Harput'tan'), uçlar kaynakla.",
+"duzeltme": "Harput dulkadir dönemleri kaynakla.",
+"kaynak": "veri ölçümü; TDV Dulkadiroğulları (yayılım)"
+},
+"K417": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "K416'nın 1402-1429 kesiti.",
+"duzeltme": "K416 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K418": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "K416'nın 1436-1465 kesiti.",
+"duzeltme": "K416 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K419": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Harput-Palu 1351-1353 'ilhanli': ILHANLI.md HARPUT-DİYARBEKİR-CEZİRE grubu (KAYNAK-GEREK); kukla İlhanlar Doğu Anadolu'da Hacı Togay/Çobânî çekişmesiyle örtüşmüyor.",
+"duzeltme": "ILHANLI.md ile.",
+"kaynak": "veri ölçümü; ILHANLI.md"
+},
+"K420": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Şelif-Tenes Abdülkadir payı 1841-1843, Fransız ilerleyişiyle öteki payından ayrı: ENKLAV-1104 K397 ile aynı çerçeve (TDV Abdülkādir: Tagdempt, Muasker, Tilimsân'ın işgali; 16 Mayıs 1843 ordugâh baskını).",
+"duzeltme": "Yok.",
+"kaynak": "TDV İslâm Ansiklopedisi, \"Abdülkādir el-Cezâirî\" (Ercüment Kuran) [kısmen]"
+},
+"K421": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kiev 1667-02-09 (Andrusovo) → 1764 Rus, gövdeden 'lehistan' koridoruyla (237 km) ayrı. Kiev sol yaka Hetmanlığı (Rus tâbisi) üzerinden Rusya'ya bağlıydı; kopukluk Hetmanlığın tâbi/ayrı kimlikle boyanmasından (motor sorusu).",
+"duzeltme": "Kazak Hetmanlığı v: (Rus tâbiliği) beyanı; motor sorusu.",
+"kaynak": "veri ölçümü"
+},
+"K422": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Trablusşam-Tartus 1832-07-29 → 1841-02-25 OSMANLI, çevre TABI (Mısır). İbrâhim Paşa 1832'de Suriye kıyısını aldı; Mısır Suriye'yi 1840'a dek tuttu (TDV Hicaz/İbrâhim Paşa, KAYNAK-1104 K036). Trablusşam'ın v: (Mısır) dönemi eksik.",
+"duzeltme": "Trablusşam, Tartus 1832 → 1840/41 v: misir-kavalali (gün kaynakla).",
+"kaynak": "TDV İslâm Ansiklopedisi, \"İbrâhim Paşa, Kavalalı\" ve \"Hicaz\" (KAYNAK-1104 K036)"
+},
+"K423": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1759 → 1772 'babur-imparatorlugu' parçası 0 nokta: noktasız emilme.",
+"duzeltme": "KOVALAR J.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K424": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Ahılkelek-Posof 1918-04-25 → 1920-12-02 'sovyet-rusya', çevre Gürcistan DC: KOVALAR A-KAF (1917'den kesintisiz Sovyet boyası, ara dönem yok).",
+"duzeltme": "KOVALAR A-KAF.",
+"kaynak": "veri ölçümü"
+},
+"K425": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Port Arthur (Lüşun) 1898-03-27 kira → 1905-09-05 (Portsmouth) Rus: Rus kira bölgesi gerçek eksklav (Mançurya Demiryolu ile bağlı ama Çin toprağında).",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K426": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sassari 1281 → 1354 'ceneviz'. Sassari 1284-1323 Ceneviz himayesinde serbest komündü; 1323'ten Aragon'un Sardinya fethine girdi. 1323-1354 Ceneviz yazımı yanlış.",
+"duzeltme": "Sassari 1323 → aragon (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K427": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tours 1203 → 1204 'anjou-kontlugu', çevre Fransa. Anjou-Touraine Plantagenet (İngiliz tacı) mülküydü; II. Philippe 1203-1205'te aldı. 'anjou-kontlugu' ile 'ingiltere' iki kimlik.",
+"duzeltme": "Tours 1203-1204 kimliği ingiltere/plantagenet tek ölçüt.",
+"kaynak": "veri ölçümü"
+},
+"K428": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Twente (Enschede) 1528 (Habsburg'a geçiş) → 1543-09-07 (Venlo, Gelre'nin teslimi) İspanyol Habsburg, Hollanda gövdesinden Gelre dükalığıyla ayrı: gerçek; bitiş uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K429": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Enschede 1581-07-26 (Abjurasyon) → 1597 (Maurits'in zaptı) İspanyol, isyancı Hollanda toprağıyla ayrı: gerçek.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K430": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "DENİZ AŞIRI: Tolanaro (Fort-Dauphin) 1792 → 1897 'fransa-cumhuriyet'. Fransız Fort-Dauphin kolonisi 1643-1674 arasıydı, sonra terk edildi; 1792 başlangıcı kimlik devri artefaktı, 19. yüzyıl Fransız varlığı 1895 sonrası.",
+"duzeltme": "Tolanaro 1674-1895 sahibi (Antanosy) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K431": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Cülfâr-Dubay-Acman 1622-05 → 1624 'umman', çevre Nebhânî. Hürmüz'ün düşüşünden (1622) sonra Cülfâr Portekiz'den Ya'rubîlere (1633) geçti; 1622-1624 Umman yazımı şüpheli. Dubay, Acman sahipsiz.",
+"duzeltme": "Cülfâr 1622-1633 sahibi kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K432": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Akīk 1885-1891 İngiliz-Mısır kıyı karakolu, Mehdî toprağıyla çevrili: ENKLAV-1104 K166 ile aynı çerçeve.",
+"duzeltme": "Yok; kimlik notu (Mısır).",
+"kaynak": "veri ölçümü"
+},
+"K433": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Akīk 1884-02-20 → 1885-02-05 'OSMANLI' (d:): ENKLAV-1104 K201 ile aynı — Kızıldeniz kıyısı Mısır Hidivliği (TABI) idaresindeydi.",
+"duzeltme": "K201 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K434": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Diyarbakır-Ergani 1240 → 1303 'selcuklu', çevre İlhanlı. Âmid 1241 sonrası Moğol/İlhanlı ve Artuklu (Mardin) idaresindeydi; Anadolu Selçuklu doğrudan yönetimi yok.",
+"duzeltme": "Diyarbakır 1240-1303 sahibi kaynakla (TDV Diyarbekir).",
+"kaynak": "veri ölçümü"
+},
+"K435": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Diyarbakır 1422-1429 Akkoyunlu, öteki Akkoyunlu payından Karakoyunlu şeridiyle (28 km) ayrı. Kara Yülük Osman'ın Âmid merkezli dönemi; kopukluğun genişliği kaynakla.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K436": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Maastricht-Roermond-Eupen 1590-1625 İspanyol, gövdeden 0,3 km'lik 'almanya' (Jülich) şeridiyle ayrı: değme payı (motor sorusu, K180/K371 ailesi).",
+"duzeltme": "Motor sorusu: < 1 km koridor DAR-AYRIM.",
+"kaynak": "veri ölçümü"
+},
+"K437": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kavala-Gümülcine-Praviște Bizans payı 1361 → 1371-11 (Çirmen sonrası), Osmanlı Trakyası ile ayrı (koridor 107 km). Hristupolis (Kavala) 1350'ler-60'larda Bizanslı Aleksios/Ioannes kardeşlerin elindeydi; Gümülcine 1361'de Osmanlı'ya geçmiş olabilir — iç sahip sınanmalı.",
+"duzeltme": "Gümülcine Osmanlı f kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K438": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1894 → 1923 'italya' parçası 0 nokta: noktasız emilme.",
+"duzeltme": "KOVALAR J.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K439": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Bizans Mora'sı (Mistra, Sparta, Geraki) 1262 sonrası (aday 1281) → 1449, Konstantinopolis gövdesinden Ahaya prinkepsliği ve denizle ayrı: Mora Despotluğu'nun bilinen ayrıklığı. İçteki 7 noktanın 6'sı sahipsiz.",
+"duzeltme": "Yok; Mora noktalarının dönemleri.",
+"kaynak": "veri ölçümü"
+},
+"K440": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sart-Manisa-Akhisar 1402-07-28 → 08-17 'timurlu', çevre Aydın: Ankara sonrası Timurlu boyasının Saruhan'a verilmesi (K044 ailesi; Timur beylikleri iade etti).",
+"duzeltme": "K044 ile; Saruhan iade günü kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K441": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Görice-Kesriye 1334 → 1345 'sirbistan-nemanjic', çevre 'sirbistan' (9/9): aynı Sırp krallığının iki kimliği.",
+"duzeltme": "sirbistan / sirbistan-nemanjic tek ölçüt.",
+"kaynak": "veri ölçümü"
+},
+"K442": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "Serez-Drama-Praviște 1913-08-10 (Bükreş) → 1913-11-14 (Atina) Yunan, gövdeden 'OSMANLI' koridoruyla (5/9) ayrı. 1913'te Doğu Makedonya'da Osmanlı toprağı yoktu (Selanik 1912 Yunan); koridordaki Osmanlı noktaları Balkan Savaşı geçişlerinin yazılmamasından.",
+"duzeltme": "Koridordaki Osmanlı noktaları 1912 → yunanistan/bulgaristan (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K443": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1901 → 1916 'almanya' Kamerun parçası 0 nokta: noktasız emilme.",
+"duzeltme": "KOVALAR J.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K444": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "San Marino, Rimini, Ravenna 1276 → 1532 'papalik', çevre Ferrara. San Marino bağımsız cumhuriyetti; Ravenna 1441-1509 Venedik'in, Rimini Malatesta senyörlüğündeydi (nominal Papalık vikaryası).",
+"duzeltme": "San Marino ayrı kimlik; Ravenna 1441-1509 venedik (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K445": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1854 → 1869 'meksika' parçası 0 nokta: noktasız emilme.",
+"duzeltme": "KOVALAR J.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K446": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "OLCUM",
+"gerekce": "Pskov 1941-07-09 → 1944-07-23 Alman (günler uyumlu), çevre 'sovyet-rusya' ve 'ostland': ENKLAV-1104 K357 ile aynı — Kuzeybatı Rusya işgal dönemleri eksik; ayrıca 'almanya'/'ostland' iki kimlik.",
+"duzeltme": "K357 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K447": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ventspils (Windau) 1917-03-15 → 11-07 'rusya-gecici-hukumet', çevre Alman: Kurland 1915 yazında Alman işgaline girdi (Windau Temmuz 1915); 1915-1918 Rus yazımı yanlış.",
+"duzeltme": "Ventspils 1915-07 → 1918-11 almanya (Ober Ost, kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K448": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "K447'nin 1915-08 → 1917-03 kesiti ('rusya').",
+"duzeltme": "K447 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K449": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Prizren-Priştine 1991-09-22 → 1999-06-10 'yugoslavya', çevre 'kosova-golge-cumhuriyeti'. Kosova 'gölge cumhuriyeti' paralel kurumlar ağıydı, toprak denetimi yoktu (Sırp/FRY idaresi 1999-06-10'a dek). Gölge cumhuriyetin toprak sahibi boyanması model hatası.",
+"duzeltme": "kosova-golge-cumhuriyeti s: dönemleri v:/beyan ya da kaldır; FRY 1999-06-10'a dek (Kumanovo) — kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K450": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Capua-Gaeta 1136 → 1282-03-30 'sicilya-kralligi', çevre 'napoli' (9/9). Napoli 1282 Sicilya Akşam Duası'na dek Sicilya krallığının parçasıydı; 'napoli' kimliği 1282 öncesine taşmış.",
+"duzeltme": "napoli künye f / noktaların 1282-03-30 öncesi sicilya-kralligi.",
+"kaynak": "veri ölçümü"
+}
+}
