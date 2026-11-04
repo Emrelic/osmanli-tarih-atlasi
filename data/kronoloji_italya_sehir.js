@@ -1070,7 +1070,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Modena komünü, kendi hizip savaşlarını bitirmek için Obizzo II d'Este'yi senyör olarak çağırdı; ertesi yıl Reggio da aynı yolu izledi. Este devleti bundan böyle iki merkezli yaşayacak — Ferrara papalık, Modena imparatorluk toprağı sayıldığı için hukukî statüleri bile farklıydı. Bu ikilik 1598'de devletin hayatını kurtaracaktır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ taraflar:["ferrara"], t:"1308-09-01",
+{ taraflar:["ferrara"], t:"1308-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] Treccani DBI 'Este, Francesco d'': Ferrara 5 Ağustos 1308 gecesi kapılarını papalık legatlarına açtı; 'Il 27 novembre Ferrara si accordò col governo della Serenissima'. Eski gün 1 Eylül ve 'Venedik işgali' günü kaynakta yok; Venedik müdahalesi 1308 içinde (Ağustos-Kasım). (KASA SALI kuyruğu L2-5; KASA PAZAR 4 Kasım 2026)",
   b:"Ferrara Savaşı — Venedik'in şehri işgali",
   tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","rekabet","kriz","konu-askeri","konu-siyasi"],
@@ -1110,7 +1110,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Marki Niccolò III, karısı Parisina ile üvey oğlu Ugo'nun ilişkisini öğrenince ikisini de kale zindanında başlattı. Olay bütün İtalya'da anlatıldı ve yüzyıllar boyunca şiire, operaya, romana konu oldu. Byron'ın 'Parisina'sı bu vakadır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ taraflar:["ferrara"], t:"1429-01-02",
+{ taraflar:["ferrara"], t:"1429-12-01", ic_not_t:"[yalnız ay teyitli] Treccani DBI 'Este, Leonello d'': Guarino'nun 'arrivo a Ferrara (dicembre 1429)'. ÇELİŞKİ: DBI 'Guarini, Guarino' '23 aprile era già a Ferrara' der (yıl bağlamı net değil). Eski gün 2 Ocak desteksiz. (KASA SALI kuyruğu L2-14; KASA PAZAR 4 Kasım 2026)",
   b:"Guarino da Verona'nın Ferrara'ya çağrılması — hümanist sarayın kuruluşu",
   tur:"kultur", onem:4, dunya:3, kapsam:"ic",
   etiket:["egitim","kultur","felsefe","konu-din","konu-kultur","konu-imar","konu-egitim"],
@@ -1164,7 +1164,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   etiket:["diplomasi","toprak-kayip","konu-askeri","konu-diplomasi"],
   yer_id:"Ferrara",
   d:"Savaşı bitiren barışla Este devleti, Po'nun kuzeyindeki verimli Polesine bölgesini Venedik'e bıraktı. Toprak kaybı devletin tahıl üretim kapasitesini kalıcı olarak düşürdü. Ferrara bundan sonra genişlemeyi bırakıp bataklık kurutmaya ve kültürel prestije yatırım yapacaktır.",
-  kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
+  kaynak:"Treccani DBI ERCOLE I d'Este; Enciclopedia Italiana BAGNOLO MELLA (https://www.treccani.it/enciclopedia/ercole-i-d-este-duca-di-ferrara-modena-e-reggio_(Dizionario-Biografico)/) — «Ercole d'Este dovette sacrificare il Polesine, cedendone il pieno possesso ai Veneziani; 'nella pace conclusa a Bagnolo il 7 agosto'» (KASA SALI kuyruğu L2-22; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
 { taraflar:["ferrara"], t:"1492-09-02",
   b:"Addizione Erculea — Avrupa'nın ilk modern şehir genişletme planı",
@@ -1276,7 +1276,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   etiket:["hanedan","din","toprak-kayip","konu-askeri","konu-hanedan","konu-din"],
   yer_id:"Ferrara",
   d:"Alfonso II meşru erkek vâris bırakmadan ölünce papalık, 1332 vekâletindeki hükmü işletip Ferrara'yı doğrudan kendine bağladı; Este ailesi imparatorluk toprağı olan Modena'ya çekildi. Şehir bir hânedan başkenti olmaktan çıkıp taşra kasabasına döndü, saray ve kütüphane taşındı. İki farklı hukukî statüye sahip olmak, devleti yarı yarıya kurtardı.",
-  kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power; standart erken modern İtalya el kitapları" },
+  kaynak:"Treccani DBI CESARE d'Este (https://www.treccani.it/enciclopedia/cesare-d-este-duca-di-modena-e-reggio_(Dizionario-Biografico)/) — «Il 28 gennaio, dopo aver sentito messa in duomo ed essere stato ribenedetto dal vescovo, lasciò Ferrara» (KASA SALI kuyruğu L2-45; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power; standart erken modern İtalya el kitapları" },
 
 { taraflar:["ferrara"], t:"1598-02-01",
   b:"Modena'nın başkent olması — küçülmüş Este devletinin yeniden kurulması",
@@ -1447,7 +1447,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Bir boyacının kızı olan Caterina Benincasa, Avignon'a giderek Papa XI. Gregory'yi Roma'ya dönmeye ikna eden çevrenin başında yer aldı. Okuma yazması sınırlı bir kadının Avrupa siyasetinin en üst düzeyinde etkili olması çağı için olağanüstüdür. Mektupları İtalyan nesrinin klasikleri arasındadır; 1461'de aziz, 1970'te kilise doktoru ilan edildi.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Catherine of Siena, The Letters (standart neşir, Suzanne Noffke); Norman, Siena and the Virgin" },
 
-{ taraflar:["siena"], t:"1399-09-11",
+{ taraflar:["siena"], t:"1399-09-06", ic_not_t:"Treccani DBI 'Gian Galeazzo Visconti': 'il 6 settembre seguente fu la volta di Siena, datasi al duca di Milano' — eski gün 11 Eylül desteksiz. (KASA SALI kuyruğu L2-13; KASA PAZAR 4 Kasım 2026)",
   b:"Şehrin Milano dükü Gian Galeazzo Visconti'ye teslim olması",
   tur:"idari", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","isgal","konu-askeri","konu-siyasi","konu-idari"],
@@ -1549,7 +1549,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   etiket:["son","kusatma","toprak-kayip","konu-askeri","konu-siyasi"],
   yer_id:"Siena",
   d:"Açlık dayanılmaz hâle gelince şehir teslim oldu; kuşatma öncesi kırk bine yakın olan nüfus sekiz bine düşmüştü. Direnmek isteyen yaklaşık yedi yüz aile Montalcino'ya çekilip 'Montalcino'daki Siena Cumhuriyeti'ni kurdu ve dört yıl daha dayandı. İtalya'da ortaçağ komün cumhuriyetleri çağı burada kapanır.",
-  kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Hook, Siena: A City and Its History" },
+  kaynak:"Treccani, Enciclopedia Italiana «Siena» + DBI «Cosimo I de' Medici» (https://www.treccani.it/enciclopedia/siena) — «teslim 17 Nisan 1555 (iki Treccani eseri aynı gün)» (KASA SALI kuyruğu L2-35; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV kapsamıyor; dayanak: Hook, Siena: A City and Its History" },
 
 { t:"1559-07-01", ic_not_t:"[yalnız ay teyitli: Enc. It. 'luglio 1559'; DBI Cateau-Cambrésis (nisan 1559) ile çelişki] Treccani, Enciclopedia Italiana 'Siena': 'fino al luglio 1559' — AY hassasiyeti (1559-07-01); eski gün 08-03 desteksiz (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)",
   b:"Montalcino'daki son cumhuriyetin sona ermesi ve Siena'nın Floransa'ya devri",

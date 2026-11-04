@@ -252,7 +252,7 @@ window.YER_YAMA_JAPONYA = [
  },
  {
   "dosya": "kronoloji_japonya.js",
-  "t": "1919-02-13",
+  "t": "1919-04-11",
   "b": "Japonya, Paris Barış Konferansı'nda ırksal eşitlik önergesini sundu — reddedildi",
   "yer_id": "Paris",
   "kaynak": "bulunamadı (TDV) — dayanak: Marius B. Jansen, a.g.e. Havuzda kayıtlı (48,86 / 2,35)",

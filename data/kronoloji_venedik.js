@@ -122,7 +122,7 @@ window.KRONOLOJI_VENEDIK = [
 { t:"1358-02-18", b:"Zadar Antlaşması — Dalmaçya'nın Macaristan'a bırakılması", tur:"toprak-kayip", onem:4, dunya:2, kapsam:"dis", yer_id:"Zadar (Zara)",
   etiket:["antlasma","toprak-kayip","konu-askeri","konu-diplomasi"],
   d:"Macaristan Krallığı karşısında yenilen Venedik, Dalmaçya kıyısındaki bütün şehirlerinden vazgeçti ve doge \"Dalmaçya dukası\" unvanını bıraktı. Adriyatik'in doğu kıyısı ancak elli yıl sonra geri alınabildi.",
-  kaynak:"bulunamadı — gün DOĞRULANMADI · TDV `dalmacya` slug CANLI (gövdesi OKUNMADI)" },
+  kaynak:"Hrvatska enciklopedija, ZADARSKI MIR (https://enciklopedija.hr/clanak/zadarski-mir) — «dana 18. II. 1358. u sakristiji crkve samostana sv. Frane u Zadru; Venecija se odrekla 'prava na Dalmaciju od polovice Kvarnera do područja Drača'» (KASA SALI kuyruğu L2-10; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — gün DOĞRULANMADI · TDV `dalmacya` slug CANLI (gövdesi OKUNMADI)" },
 
 { t:"1363-08-09", b:"Girit'te Aziz Titus isyanı — sömürge yönetimine karşı ayaklanma", tur:"isyan", onem:4, dunya:1, kapsam:"ic", yer_id:"Kandiye (Girit)",
   etiket:["isyan","milliyetcilik","konu-siyasi","konu-isyan"],

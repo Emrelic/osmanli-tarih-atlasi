@@ -87,7 +87,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Sind — Ergunlu] Kandehar'dan Bâbür'ün baskısıyla güneye inen Şah Beg, Câm Fîrûz'u yenerek Tatta'ya girdi ve şehri yağmaladı. Semmâ hâkimiyeti sona erdi; Sind, Orta Asya kökenli bir askerî hânedanın eline geçti. (Kaynaklarda 1520 ve 1521 tarihleri birlikte geçer.)",
   kaynak:"sind (TDV): \"XVI. yüzyılda Türk asıllı Argun hânedanının eline geçti\"; tarih için Cambridge History of India, III" },
 
-{ taraflar:["sind"], t:"1522-01-01", b:"Şah Beg Ergun öldü, yerine oğlu Şah Hasan geçti", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
+{ taraflar:["sind"], t:"1524-01-01", ic_not_t:"TDV İslâm Ansiklopedisi 'Hüseyin Şah Argun': 'Şah Bey'in 1524'te ölümü üzerine yerine ... oğlu Hüseyin Şah geçti' (Şah Hasan = Hüseyin Şah). Eski yıl 1522 Bâbür'ün Kandehar'ı alışıdır. Yalnız yıl (gün yok). (KASA SALI kuyruğu L2-31; KASA PAZAR 4 Kasım 2026)", b:"Şah Beg Ergun öldü, yerine oğlu Şah Hasan geçti", tur:"hukumdar", onem:3, dunya:1, kapsam:"ic",
   etiket:["hukumdar","konu-kisiler","konu-hanedan"], yer_id:"Tatta (Thatta)",
   d:"[Sind — Ergunlu] Şah Hasan Ergun, babasının kurduğu idareyi Bakkar ve Tatta arasında iki merkezli biçimde sürdürdü. Onun döneminde Sind, Bâbürlü ile Safevî arasındaki güç boşluğunda dengede durmayı becerdi.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, III; Ma'sumi, Ta'rikh-i Sind" },
@@ -438,7 +438,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Racput — Amber] Amber racası, Bâbürlü padişahı Muhammed Şah'ın izniyle taş ve kireçten dev astronomi aletleri kurdurdu. Yantra Mantra adı verilen bu yapılar, teleskop çağının eşiğinde çıplak gözle ulaşılabilecek en yüksek hassasiyeti hedefliyordu.",
   kaynak:"bulunamadı — TDV'de müstakil madde bulunamadı. Dayanak: Cambridge History of India, IV; G. R. Kaye, The Astronomical Observatories of Jai Singh" },
 
-{ taraflar:["racput"], t:"1727-11-18", b:"Caypûr şehri kuruldu", tur:"sehircilik", onem:5, dunya:3, kapsam:"ic",
+{ taraflar:["racput"], t:"1727-11-29", ic_not_t:"A. Johnson-Roehr, JSAH 72/1 (2013) s.33: 'foundation ceremony … on 29 November 1727 (Pausa Vadi 1, VS 1784)'; aynı makale dn.25 tithi'yi 28 Kasım çevirir, Bhojanasāra 13 Aralık der. (KASA SALI kuyruğu L2-64; KASA PAZAR 4 Kasım 2026)", b:"Caypûr şehri kuruldu", tur:"sehircilik", onem:5, dunya:3, kapsam:"ic",
   etiket:["sehircilik","baskent","mimari","imar","konu-idari","konu-imar"], yer_id:"Caypûr (Jaipur)",
   d:"[Racput — Amber] Cey Singh II, dar bir dağ vadisindeki Amber'i bırakıp ovada ızgara planlı, dokuz bloklu yeni bir başşehir kurdurdu. Hint mimarî geleneğiyle geometrik şehir planlamasını birleştiren Caypûr, çağının en bilinçli tasarlanmış şehirlerinden biridir.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, IV; Percy Brown, Indian Architecture" },
@@ -456,7 +456,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 { taraflar:["racput"], t:"1818-01-06", b:"Mevâr İngilizler'le tâbilik antlaşması imzaladı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","tabiiyet","somurge","konu-siyasi","konu-diplomasi"], yer_id:"Udeypûr (Udaipur)",
   d:"[Racput — Mevâr] Maratha ve Pindârî yağmalarından bunalan Mevâr, dış siyasetini Doğu Hindistan Şirketi'ne devretti ve koruma karşılığında vergi ödemeyi kabul etti. Aynı yıl içinde Mârvâr, Bîkâner, Caypûr ve Caysalmer de benzer antlaşmalar imzaladı; Racputana bir bütün olarak İngiliz himayesine girdi.",
-  kaynak:"bulunamadı — TDV'de Racput maddesi yok. Dayanak: Cambridge History of India, V; C. U. Aitchison, Treaties, Engagements and Sanads (Racputana cildi)" },
+  kaynak:"C. U. Aitchison, Treaties… c.III (Rajputana), Udaipur No. I (EMRELİC okuması) (https://archive.org/download/india.history.resource.84884/84884_djvu.txt) — ««Done at Delhi, this 13th day of January»» (KASA SALI kuyruğu L2-89; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — TDV'de Racput maddesi yok. Dayanak: Cambridge History of India, V; C. U. Aitchison, Treaties, Engagements and Sanads (Racputana cildi)" },
 
 { taraflar:["racput"], t:"1857-06-01", b:"Racput devletleri Hindistan ayaklanmasında İngiliz idaresine bağlı kaldı", tur:"siyaset", onem:4, dunya:3, kapsam:"dis",
   etiket:["siyaset","isyan","konu-siyasi","konu-isyan"], yer_id:"Ecmîr (Ajmer)",
@@ -576,7 +576,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
 { t:"1805-01-01", b:"Travankur İngilizler'le tâbilik antlaşması imzaladı", tur:"antlasma", onem:5, dunya:3, kapsam:"dis",
   etiket:["antlasma","tabiiyet","somurge","konu-siyasi","konu-diplomasi"], yer_id:"Trivandrum (Thiruvananthapuram)",
   d:"[Travankur] Yardımcı kuvvet (subsidiary alliance) düzenine bağlanan krallık, ağır bir yıllık ödeme karşılığında iç işlerinde serbest kaldı. Bağımsız dış siyaset sona erdi; Travankur, İngiliz Hindistanı'nın en büyük prensliklerinden biri olarak XX. yüzyıla girdi.",
-  kaynak:"bulunamadı — dayanak: C. U. Aitchison, Treaties, Engagements and Sanads; Cambridge History of India, V" },
+  kaynak:"C. U. Aitchison, Treaties, Engagements and Sanads c.X (Madras), içindekiler (EMRELİC okuması) (https://archive.org/download/in.ernet.dli.2015.206811/2015.206811.A-Collection_djvu.txt) — ««dated 12th January 1805»» (KASA SALI kuyruğu L2-84; KASA PAZAR 4 Kasım 2026) · önceki: bulunamadı — dayanak: C. U. Aitchison, Treaties, Engagements and Sanads; Cambridge History of India, V" },
 
 { taraflar:["travankur"], t:"1809-01-11", b:"Velu Thampi Dalavâ Kundara Bildirisi'ni okuyarak İngilizler'e karşı ayaklandı", tur:"isyan", onem:5, dunya:2, kapsam:"dis",
   etiket:["isyan","direnis","konu-isyan"], yer_id:"Kolam (Quilon)",

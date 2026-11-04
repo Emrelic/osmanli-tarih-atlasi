@@ -861,7 +861,7 @@ window.KRONOLOJI_ISPANYA = [
 { t:"1752-04-12", b:"San Fernando Güzel Sanatlar Akademisi'nin kuruluşu", tur:"kultur", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["kultur","kultur","konu-kultur"],
   d:"Ferdinand VI'nın fermanıyla kurulan akademi, resim, heykel ve mimarlık eğitimini devlet gözetiminde kurumsallaştırdı; 18. yüzyıl sonunda Goya'nın da hocalık yaptığı kurum, modern İspanyol sanat eğitiminin temelini attı.",
-  kaynak:"standart akademik kaynak" },
+  kaynak:"Real Academia de Bellas Artes de San Fernando, Dosier de prensa (2021) s.6 — kurumun resmî belgesi (EMRELİC okuması) — ««La Academia fue inaugurada oficialmente el 12 de abril de 1752»» (KASA SALI kuyruğu L2-269; KASA PAZAR 4 Kasım 2026) · önceki: standart akademik kaynak" },
 
 { t:"1781-01-01", b:"Real Jardín Botánico'nun (Kraliyet Botanik Bahçesi) bugünkü yerine taşınması", tur:"bilim", onem:2, dunya:1, kapsam:"ic", yer_id:"Madrid",
   etiket:["bilim","konu-bilim"],

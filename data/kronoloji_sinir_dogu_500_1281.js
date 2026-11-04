@@ -1105,7 +1105,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "sinir_id": []
  },
  {
-  "t": "0982-01-01",
+  "t": "0982-01-01", "kaynak": "Song shi juan 485 (Wikisource metin kopyası) (https://zh.wikisource.org/wiki/宋史/卷485) — «繼捧立，以太平興國七年率族人入朝 | NOT: Taiping xingguo 7 = 982; Zhonghua 1977 künyesi doğrulanamadı» (KASA SALI kuyruğu 6; KASA PAZAR 4 Kasım 2026)",
   "devlet": "xiazhou-dangxiang",
   "taraflar": [
    "song",
@@ -2271,7 +2271,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "ic_not": "BEYANLI YAKLAŞIKLIK: Samguk sagi Hyoso 3 (694) 'Songak ve Ugeum kalelerini inşa etti' der; mülkiyeti açıkça 'ilhak' diye yazmaz. Silla'nın 676-694 arası fiilî denetimi kaynakta yok. Gün yok: yıl."
  },
  {
-  "t": "0532-01-01",
+  "t": "0532-01-01", "kaynak": "Samguk sagi, Silla bongi (Beopheung 19), ko.wikisource (https://ko.wikisource.org/wiki/삼국사기/권04) — «十九年，金官國主金仇亥，與妃及三子…以國帑寶物來降 | NOT: sayfa başlığı 19년(532년); Shultz çevirisi künyesi doğrulanmadı» (KASA SALI kuyruğu 7; KASA PAZAR 4 Kasım 2026)",
   "devlet": "silla",
   "taraflar": [
    "silla",
@@ -2347,7 +2347,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "kesinlik": "yil"
  },
  {
-  "t": "0538-01-01",
+  "t": "0538-01-01", "kaynak": "Samguk sagi, Baekje bongi (Seong 16), ko.wikisource (https://ko.wikisource.org/wiki/삼국사기/권26/성왕) — «十六年 春 移都於泗沘 一名所夫里 國號南扶餘 | NOT: sayfa başlığı 16년(538년); Best 2007 sayfası doğrulanmadı» (KASA SALI kuyruğu 9; KASA PAZAR 4 Kasım 2026)",
   "devlet": "baekje",
   "taraflar": [
    "baekje"
@@ -2530,7 +2530,7 @@ window.KRONOLOJI_SINIR_DOGU_500_1281 = [
   "ic_not_takvim": "Ay-günes takvimi gün adı (ganzhi) 丙辰 -> Jülyen 1273-07-21 (JDN hesabı, sınama: 乙巳 = 960-02-04; 戊申 = 1135-01-19 KOJA_REF ile uyumlu); Gregoryen karsiligi 1273-07-28"
  },
  {
-  "t": "1270-09-05",
+  "t": "1270-09-05", "kaynak": "Jeong Inji vd., Goryeosa juan 26 (Wonjong 11. yıl) — birincil metin, Wikisource neşri (basılı neşir künyesi doğrulanamadı); karşılaştırma: Encyclopedia of Korean Culture (encykorea.aks.ac.kr) 'Sambyeolcho hangjaeng' (https://zh.wikisource.org/wiki/高麗史/卷二十六) — «「丙戌，三別抄入據珍島，侵掠州郡。」 ; ay başı: 「八月戊辰朔」» (KASA SALI kuyruğu 56; KASA PAZAR 4 Kasım 2026)",
   "devlet": "sambyeolcho-rejimi",
   "taraflar": [
    "sambyeolcho-rejimi",

@@ -294,7 +294,7 @@ window.KRONOLOJI_SINIR_CIN_SANGUO = [
   "ic_not_takvim": "ic_not_takvim: Çin ay-güneş takvimi ganzhi gün adı 庚午 (延康元年 10. ay) → Jülyen 0220-12-10 (JDN hesabı; sınama: 乙卯 = 220-11-25, 丁酉 = 311-07-13) = Gregoryen 0220-12-10; 1582 öncesi gün Jülyen kalır"
  },
  {
-  "t": "0266-02-08",
+  "t": "0266-02-08", "kaynak": "Fang Xuanling vd., Jin shu juan 3 (Wudi ji) — birincil metin, Wikisource neşri (basılı neşir künyesi doğrulanamadı); Chen Shou, Sanguozhi, Wei zhi juan 4 (Chenliu Wang ji) (https://zh.wikisource.org/wiki/晉書/卷003) — «「冬十二月丙寅，設壇于南郊」 ; 「禮畢，即洛陽宮幸太極前殿」 ; Wei zhi: 「十二月壬戌，天祿永終，歷數在晉」» (KASA SALI kuyruğu 51; KASA PAZAR 4 Kasım 2026)",
   "devlet": "bati-jin",
   "taraflar": [
    "bati-jin",

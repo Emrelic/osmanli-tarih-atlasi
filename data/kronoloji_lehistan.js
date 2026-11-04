@@ -155,7 +155,7 @@ window.KRONOLOJI_LEHISTAN = [
   onem:5, dunya:4, kapsam:"ic", etiket:["antlasma","siyaset","konu-siyasi","konu-diplomasi"],
   yer_id:"",
   d:"Polonya Krallığı ile Litvanya Büyük Düklüğü tek bir devlet, tek meclis ve ortak seçilmiş kral altında birleşti; Ukrayna toprakları Litvanya'dan Polonya tacına aktarıldı. Polonya anlatısında Lublin, Avrupa'nın en büyük ve en özgün siyasî yapılarından birinin — İki Ulusun Cumhuriyeti'nin — kuruluş belgesidir ve gönüllü birlik olması özellikle vurgulanır.",
-  kaynak:"el-kitabi", yer_kon:[51.2465,22.5684] },
+  kaynak:"AGAD, «Union of Lublin 1st July 1569» (Varşova 2018) s.4 (EMRELİC okuması, PDF) (https://agad.gov.pl/MoW/unia2C_eng.pdf) — ««On 1 July 1569 the parties have exchanged acts and swore the related oaths»» (KASA SALI kuyruğu L2-203; KASA PAZAR 4 Kasım 2026) · önceki: el-kitabi", yer_kon:[51.2465,22.5684] },
 
 { t:"1572-07-07", b:"II. Zygmunt August öldü — Jagiellon hanedanı sona erdi", tur:"son",
   onem:5, dunya:2, kapsam:"ic", etiket:["siyaset","konu-siyasi","konu-kisiler","konu-hanedan"],
@@ -456,7 +456,7 @@ window.KRONOLOJI_LEHISTAN = [
   onem:5, dunya:4, kapsam:"dis", etiket:["toprak-kayip","antlasma","konu-askeri","konu-diplomasi"],
   yer_id:"", kapsam_genis:true,
   d:"Üç komşu devlet, cumhuriyetin yaklaşık üçte birini ve nüfusunun üçte birini aralarında paylaştı; sejm baskı altında paylaşımı onaylamak zorunda kaldı. Polonya anlatısında birinci taksim, hem bir felaket hem de reform hareketini doğuran sarsıntıdır: kaybın ardından ülke kendini kurtarmak için köklü değişime girişti.",
-  kaynak:"el-kitabi", yer_id:"St. Petersburg" },
+  kaynak:"D. Dukwicz röportajı, Dzieje.pl (PAP 2017) — ZAYIF kaynak (EMRELİC okuması) — «sözleşme 5 Ağustos 1772 tarihli (geriye tarihlenmiş olabilir); 18 Eylül 1772 üç elçi Varşova'da bildiriyi sundu» (KASA SALI kuyruğu L2-278; KASA PAZAR 4 Kasım 2026) · önceki: el-kitabi", yer_id:"St. Petersburg" },
 
 { t:"1773-10-14", b:"Millî Eğitim Komisyonu kuruldu", tur:"kurulus",
   onem:4, dunya:2, kapsam:"ic", etiket:["kultur","siyaset","konu-siyasi","konu-kultur"],
