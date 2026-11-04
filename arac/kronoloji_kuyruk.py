@@ -36,13 +36,19 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2E 1439-1450 (EMRELİC): gün taşıyan ganzhi satırları Academia Sinica teyidine kadar
+    "L2-1889": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1890": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1891": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1892": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1893": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1894": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    "L2-1895": "[çeviri doğrulanmadı] 534-536 ganzhi günü (Wei shu / Zhou shu / Bei shi) — Academia Sinica çevirisi bekliyor (EMRELİC)",
+    # L2H 1271-1342 (HAVVA)
+    "L2-1766": "Hitit (Telipinu?) MÖ 1460 → MÖ 1525 (-1524) düşük güvenli aday: kaynaklar 1550-1525 arası ayrışıyor; konvansiyon Bryce 2005 (CLAUDE.md) — Bryce'tan madde olayı netleşmeden uygulanmaz",
     # L2S 591-602 (S19)
     "L2-954": "Ceneviz ipek loncası 1320 → 1432 adayı: SLSP (memoriedigitaliliguri.it) ekstresi Arte della Seta 1432 — yazar okunamadı; Di Tucci 1948 (Atti SLSP LXXI) ile teyit gerek; 1320'yi destekleyen akademik kaynak yok",
     "L2-959": "Muhammed b. Tuğluk bakır sikkesi 1329 → 1331 adayı: TDV «Tuğluklular» 731-732 (1331-1332); Haig yıl vermez; Jackson (Delhi Sultanate) teyidi gerek",
-    # L2E 1391-1402 (EMRELİC): ganzhi günleri Academia Sinica teyidine kadar
-    "L2-1845": "[çeviri doğrulanmadı] Pingcheng'e taşınma: Wei shu c.2 天興元年秋七月 (398, 7. ay) — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1851": "[çeviri doğrulanmadı] Liu Song Wen tahta çıkışı: Song shu c.5 八月丁酉 — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1846": "[çeviri doğrulanmadı] Liu Song kuruluşu 420 六月丁卯 — Academia Sinica çevirisi bekliyor (EMRELİC)",
     "L2-968": "Fîrûz Şah Topra/Meerut sütunları 1356-01-01 → 1367-09-01 ZAYIF aday: Razavi (IHC Proceedings 70, 2009-10, s.996) «Eylül 1367 makara/halat» — makale açılmadı, ikincil alıntı; Meerut anılmıyor → Razavi tam metni ya da Afif neşri gelmeden uygulanmaz",
     # L2S YENI-TARAYICI (S16)
     "L2-819": "Kosta Rika 1948-04-24 → 04-19 adayı: Archivo Nacional iç savaşı 12 Mart-19 Nisan, Meksika Büyükelçiliği Paktı 19 Nisan; 24 Nisan Figueres'in San José'ye girişi olabilir (okunmadı) → madde hangi olayı anlatıyor netleşmeden uygulanmaz",
@@ -87,6 +93,12 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2E 1391-1402 antik (EMRELİC, Academia Sinica; EŞLEŞİR)
+    "L2-1846": "Takvim: Yongchu 1/6/14 丁卯 = 420-07-10 (Academia Sinica)",
+    "L2-1853": "Takvim: Taiyan 3/11/13 甲申 = 437-12-25 (Academia Sinica)",
+    "L2-1861": "Takvim: Jianyuan 1/4/23 甲午 = 479-05-29 (Academia Sinica; kaynak Nan Qi shu c.2, c.8 değil)",
+    "L2-1865": "Takvim: Yongming 11/7/30 戊寅 = 493-08-27 Wudi'nin ölümü (Academia Sinica)",
+    "L2-1867": "Takvim: Yongtai 1/7/30 己酉 = 498-09-01 Mingdi'nin ölümü, veliahdın tahta çıkışı (Academia Sinica)",
     "L2-562": "Takvim: Tianbao 10/10/10 甲午 = 559-11-25 ölüm; 10/19 癸卯 = 559-12-04 發喪 (Academia Sinica)",
     "L2-607": "Takvim: Xianheng 4/12/25 丙午 = 674-02-06 (Academia Sinica)",
     # L2S 223-247 (S10) — EMRELİC Academia Sinica
@@ -134,6 +146,19 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    # L2H 1271-1342 (HAVVA) — antik kronoloji konvansiyonu (CLAUDE.md: Mısır Shaw 2000, Ur III Frayne RIME, Hitit Bryce 2005; MÖ n = -(n-1))
+    "L2-1752": ("kaynak yenile (tarih KALIR)", "III. Ramses: atlas -1183 = MÖ 1184 = Shaw (ed.), Oxford History of Ancient Egypt 2000 (1184-1153) → KALIR; HDM 1185 ve Potts 1184 konvansiyon farkı ic_not'a (HAVVA önerisi reddedildi: konvansiyon Shaw)"),
+    "L2-1753": ("kaynak yenile (tarih KALIR)", "Setnakht: atlas -1185 = MÖ 1186 = Shaw 2000 (1186-1184) → KALIR; kaynaktaki MÖ 1187 konvansiyon farkı ic_not'a (HAVVA önerisi reddedildi)"),
+    "L2-1765": ("tarih düzelt", "III. Thutmose: -1457 → -1478 (MÖ 1479 tahta çıkış = Shaw 2000, 1479-1425); atlasın MÖ 1458'i Hatshepsut'un ölümüyle tek başına hükmün başlangıcı → ic_not; madde «firavun oldu» dediği için çıkış"),
+    "L2-1774": ("tarih düzelt", "Şulgi tahta çıkışı: -2094 → -2093 (MÖ 2094 = -(2094-1); VERI-YAPISI MÖ n = -(n-1); orta kronoloji Frayne RIME 3/2, 2094-2047)"),
+    # L2E 1391-1402 antik ganzhi (EMRELİC, Academia Sinica)
+    "L2-1845": ("tarih düzelt", "Pingcheng'e taşınma 398 → 398-07-30 + «[yalnız ay teyitli; gün teyitsiz]»: Wei shu c.2 天興元年秋七月 = 398-07-30…08-28 (Academia Sinica); Academia Sinica yılı Huangshi 3 diye etiketler, Tianxing yıl adı 12. ayda ilan edildi → ic_not"),
+    "L2-1851": ("tarih düzelt", "Liu Song Wendi tahta çıkışı → 424-09-17: Takvim: Yuanjia 1/8/9 丁酉 = 424-09-17 (Academia Sinica; Song shu c.5); Shaodi'nin indirilişi Jingping 2/5/25 乙酉 = 424-07-07 → ic_not"),
+    "L2-1876": ("tarih düzelt", "Anagui 520-09-27 → 520-09-28 + «[yalnız ay teyitli]»: Zhengguang 1, 9. ay = 520-09-28…10-26 (Academia Sinica); atlasın 09-27'si 8. aya düşer"),
+    "L2-1843": ("kaynak yenile (tarih KALIR)", "Kuzey Liang 397: Long'an 1, 3. ay = 397-04-14…05-12 (Academia Sinica) → atlas yıl düzeyinde; sınıra bağlıysa 397-04-14 + «[yalnız ay teyitli]» önerilir"),
+    "L2-1844": ("kaynak yenile (tarih KALIR)", "Kuzey Liang 397: Long'an 1, 3. ay = 397-04-14…05-12 (Academia Sinica) → sınıra bağlıysa 397-04-14 + «[yalnız ay teyitli]»"),
+    "L2-1848": ("kaynak yenile (tarih KALIR)", "Hu Xia 407: Yixi 3, 6. ay = 407-07-21…08-18 (Academia Sinica) → sınıra bağlıysa 407-07-21 + «[yalnız ay teyitli]»"),
+    "L2-1849": ("kaynak yenile (tarih KALIR)", "Hu Xia 407: Yixi 3, 6. ay = 407-07-21…08-18 (Academia Sinica) → sınıra bağlıysa 407-07-21 + «[yalnız ay teyitli]»"),
     "L2-953": ("tarih düzelt", "Alâeddin Halacî ölümü 1316-01-04 → 1316-01-06 (TDV «Halacîler»; CLAUDE.md: tarih çelişkisinde TDV esas) — ic_not: Iranica 3 Ocak (6 Şevval 715), Haig CHI III 2 Ocak; atlasın 4 Ocak'ı akademik kaynakta yok"),
     "L2-960": ("tarih düzelt", "Este papalık vekilliği 1332-01-02 → 1332-01-17 tören ve resmî devir (Treccani DBI «Este, Obizzo d'»); 29 Haziran 1329 Johannes XXII'nin vekâlet yetkisi (10 yıl, yıllık 10.000 florin) ic_not; «erkek soy tükenirse papalığa döner / 1598» DBI'da okunmadı → metin kontrol"),
     "L2-979": ("metin düzelt (tarih kalır)", "Yoshimitsu 1401: 1401 Mayıs'ta yalnız ilk elçilik; kangō ticareti 1404'ten itibaren (Nipponica/Ikegami «kangō», Digital Daijisen) → 1401 KALIR, metin «Ming'e ilk elçiliği gönderdi» olur; kangō 1404 ic_not'a (ya da ayrı madde)"),
@@ -315,6 +340,11 @@ METIN = [
     ("L2-958", "Devletâbâd 1327: TDV iç tutarsızlığı — «Delhi Sultanlığı» Devagiri'yi «ikinci idarî merkez», «Tuğluklular» «başşehir» der → iki madde ic_not'a"),
     ("L2-957", "[BEKLE — kaynaksız ifadeler] Hammîr/Çitor 1326: «Tuğluk merkezinin dikkati Dekken'e kayınca» ve «Guhila yan kolu» Haig'de yok; Hammîr'in ölümü 1364"),
     ("L2-963", "Siena Duomo Nuovo: Consiglio generale kararı 23 Ağustos 1339 (212 evet/132 hayır; Bartalini, Il duomo nuovo di Siena); işler 1339 sonunda fiilen başladı → ic_not"),
+    # L2E 1439-1450 (EMRELİC)
+    ("L2-1892", "Batı Wei kuruluşu: kaynak Bei shi c.5, Datong 1, 1. ay 戊申; Xiaowu'nun ölümü (Yongxi 3, 閏12. ay 癸巳) tahta çıkıştan ÖNCE gelir — atlasta sıra ters → sıra düzeltilir"),
+    ("L2-1893", "Batı Wei: kaynak alanı Zhou shu 3 Kuzey Zhou'nun kuruluşunu anlatır, yanlış → Bei shi c.5 ile değişir; Xiaowu ölümü/tahta çıkış sırası düzeltilir"),
+    ("L2-1899", "Van Xuan 544: atlasın kaynağı (Sui shu 53, 602) yanlış olay → Liang shu c.3: Li Bi 544 (Datong 10, 1. ay) unvanı aldı"),
+    ("L2-1897", "Champa 539: Liang shu 54 Rudravarman'ı adıyla anmaz → ad yorum olarak işaretlenir ya da kaynaklanır"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
