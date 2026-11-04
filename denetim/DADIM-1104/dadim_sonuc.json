@@ -6519,5 +6519,3211 @@
    "oneri": {},
    "not": "Viyana dönemlerinin hepsinin `mevcut_kaynak` alanı dolu (AVMAC, AEIOU, Parlament Österreich vb.); boş ya da DEVRALMA yok. 1938-1945 'almanya' kaynağı genel ('Encyclopaedia Britannica ilgili ülke/tarih maddesi') — jenerik kaynak; yerleşime özgü teyit bu partide yapılmadı (brif: kaynaklı dönem baştan doğrulanmaz)."
   }
+ ],
+ "Gazne": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:558",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1370-04-09",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gazne» md., Enver Konukçu, https://islamansiklopedisi.org.tr/gazne (04.11.2026'da okundu)",
+   "alinti": "Ardından Çağataylılar yöreye hâkim oldular. ... Timur 1401'de Afganistan ile birlikte Gazne'yi ele geçirdi",
+   "oneri": {
+    "f": "1281-01-01",
+    "t": "1401-01-01",
+    "d": "cagatay"
+   },
+   "not": "TDV Gazne Çağatay hâkimiyetini tarihsiz verir, Timur'un alışı 1401 (YIL). Atlasta timurlu 1370-04-09'dan başlıyor; Gazne için kaynak 1401'i veriyor (1370 künye/Timur'un Mâverâünnehr tahtı, Gazne'ye özgü değil). t=1401 YIL hassasiyetli; gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:558",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1370-04-09",
+   "t": "1504-10-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Gazne» md. (aynı URL)",
+   "alinti": "Timur 1401'de Afganistan ile birlikte Gazne'yi ele geçirdi ... Timurlular'dan sonra Argun hânedanı 1504 yılına kadar Gazne ve Kâbil'e hâkim oldu",
+   "oneri": {
+    "f": "1401-01-01",
+    "t": "1405-01-01",
+    "d": "timurlu"
+   },
+   "not": "Timurlu hâkimiyeti 1401 (YIL) → Timur'un ölümü 1405 sonrası 'kısa bir müddet' (Pîr Muhammed). Sonra 1504'e kadar Argun hânedanı (TDV); atlasta Argun künyesi var mı bilinmiyor → 1405(YIL, yaklaşık)-1504 dilimi için ya Argun künyesi ya BEYANLI boşluk/yaklaşıklık. Bitiş 1405 kaynakta tam değil ('kısa bir müddet'): 1405 yaklaşıktır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:558",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1504-10-01",
+   "t": "1738-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Gazne» md. (aynı URL)",
+   "alinti": "Bâbür Kâbil'i ele geçirdikten sonra Gazne'ye girdi ... 1738'de Nâdir Şah tarafından zaptedilen",
+   "oneri": {},
+   "not": "Bâbür 1504 (Kâbil), Gazne'ye girişi sonra (yıl yok); 'Uzun süre Bâbürlü himayesinde' → himaye/yaklaşıklık; BEYANLI YAKLAŞIKLIK. t=1738 YIL doğrulandı. f gün (1504-10-01) bu maddede yok (Kâbil için başka kaynak gerekir)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:560",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1738-01-01",
+   "t": "1747-06-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Gazne» md. (aynı URL)",
+   "alinti": "1738'de Nâdir Şah tarafından zaptedilen Gazne'yi 1747'de Ahmed Şah Dürrânî Afganistan topraklarına kattı",
+   "oneri": {},
+   "not": "Uçlar YIL (1738, 1747); gün (1747-06-20 Nâdir Şah ölümü künye ucu) bu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:561",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1747-06-20",
+   "t": "1819-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Gazne» md. + TDV «Afganistan» md. https://islamansiklopedisi.org.tr/afganistan",
+   "alinti": "Gazne'yi 1747'de Ahmed Şah Dürrânî Afganistan topraklarına kattı · Dost Muhammed Kâbil'de hükümdarlığını ilân etti (1819)",
+   "oneri": {},
+   "not": "f 1747 YIL (TDV Gazne). t 1819 YIL: TDV Afganistan 'hânedan değişmiş oldu (1819)' — ÜLKE DÜZEYİ (Gazne'ye özgü değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:562",
+   "alan": "s",
+   "d": "afganistan",
+   "f": "1819-01-01",
+   "t": "1839-07-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Afganistan» md. https://islamansiklopedisi.org.tr/afganistan",
+   "alinti": "Kâbil'de hükümdarlığını ilân etti (1819) ... İngilizler 1839'da ... Afganistan'ı işgal ettiler",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Barakzay (Dost Muhammed) hâkimiyeti 1819-1839, Gazne'ye özgü cümle yok. 1839-07-23 günü bu kaynakta yok (yıl 1839)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:563",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1839-07-23",
+   "t": "1842-09-06",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Gazne» md.: «Birinci Afgan-İngiliz savaşında (1839-1842) Gazne iki defa İngilizler tarafından işgal edildi»; TDV «Afganistan»: 'Dost Muhammed üç yıl içinde İngilizler'i ülkeden çıkardı'",
+   "alinti": "Gazne iki defa İngilizler tarafından işgal edildi",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1839-07-23",
+    "t": "1842-09-06"
+   },
+   "not": "TEK KURAL: savaş işgali = isg (Kâbil 1839-42 örneği gibi); s: değil. Kaynak kelimesi 'işgal'. s: ingiltere dönemi isg olmalı ve altında s: afganistan sürmeli. Uç günleri TDV'de yok (yıl: 1839-1842). Ek: TDV Gazne 'İngilizler'in Afganistan'ı işgali 1880'de sona erdi' diyor (II. savaş) — 1842 ucuyla çelişmez ama TDV maddesi içinde beyan edilmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:564",
+   "alan": "s",
+   "d": "afganistan",
+   "f": "1842-09-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Afganistan» md. (aynı URL) + TDV «Gazne»",
+   "alinti": "Dost Muhammed üç yıl içinde İngilizler'i ülkeden çıkardıysa da",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. 1842 YIL (TDV: 1839+üç yıl). TDV Gazne: İngiliz işgali 1880'de sona erdi (II. Afgan-İngiliz Savaşı, 1878-80 ikinci işgal); 1979 Sovyet müdahalesi, 1981 mücahid geçici ele geçirişi — isg: sovyetler 1979-89 katmanı atlasta düşünülebilir (ONERI değil, gözlem)."
+  }
+ ],
+ "Köhne Ürgenç (Gürgenç)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2413",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1379-01-01",
+   "t": "1505-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Hârizm» md. https://islamansiklopedisi.org.tr/harizm ; TDV «Gürgenç» md. https://islamansiklopedisi.org.tr/gurgenc (04.11.2026'da okundu)",
+   "alinti": "1379 seferinde bölgeyi kesin olarak ele geçirdi ... Şeybânî Han 1502'de Hârizm'i işgal etti",
+   "oneri": {
+    "f": "1379-01-01",
+    "t": "1502-01-01",
+    "d": "timurlu"
+   },
+   "not": "f 1379 YIL KAYNAKLI (TDV Hârizm). t: TDV Hârizm Şeybânî Han'ın Hârizm işgalini 1502 yazar (atlas 1505). 1405 sonrası Timurlu zinciri kesintili: 1405'ten sonra Özbekler işgal, Emîr Şah Melik 1413'te geri aldı, Ebülhayr 1430-31'de kuzeyi işgal (Gürgenç maddesi: Timurlu hâkimiyetine son verdi, sonra ayrıldı); 1388 Timur yıkımı. 'Kuzey ve Batı Hârizm Cuci ulusu hanlarıyla Kongrat beyleri, Güney/Doğu Emîr Abdülhâlik Fîrûz Şah ve Hüseyin Hatmî' (15. yy sonu). BEYANLI YAKLAŞIKLIK: 1405-1502 arası şehir adlı sahiplik tek bir Timurlu zincirine indirgenemez. 1505 günü TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2413",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1505-01-01",
+   "t": "1512-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Hârizm» md. (aynı URL)",
+   "alinti": "Özbekler'den Şeybânî Han (Şeybak Han) 1502'de Hârizm'i işgal edip bozkır boylarının yönetimine bıraktı",
+   "oneri": {
+    "f": "1502-01-01",
+    "t": "1511-01-01",
+    "d": "buhara"
+   },
+   "not": "Kaynak 1502 (YIL) Şeybânî işgalini, 1511 (YIL) İlbars Han'ın Hârizm'i ele geçirişini verir. Atlas 1512 ucu: TDV «Hîve Hanlığı» başlığı 1512-1920, İlbars Han (1512-1525); TDV «Hârizm» 1511 → ÇİFT-TDV çelişkisi, kendi şehir maddesi (Gürgenç) ikisini de vermiyor; üçüncü bağımsız kaynak aranmadı. Karar KASA'nın: 1511 (Hârizm md.) / 1512 (Hîve Hanlığı md.) not'ta beyan edilmeli. Şeybânî'nin işgalci olarak 'bozkır boylarının yönetimine bırakması' → TEK KURAL açısından isg: aday, kaynak ilhak/devir diye yazmıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2413",
+   "alan": "s",
+   "d": "hive",
+   "f": "1512-01-01",
+   "t": "1740-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Hârizm» md.: «Hîve Hanlığı (Arapşahlar) ... 1740 yılına kadar Hârizm'e hâkim oldu» ve TDV «Hîve Hanlığı» md. https://islamansiklopedisi.org.tr/hive-hanligi",
+   "alinti": "Hîve Hanlığı (Arapşahlar) adıyla tanınan bu mahallî hânedan 1740 yılına kadar Hârizm'e hâkim oldu",
+   "oneri": {},
+   "not": "t 1740 YIL doğrulandı (TDV Hîve: Nâdir Şah ertesi yıl, 1740, kanlı muharebeden sonra Hîve'yi işgal etti). f: 1511 (Hârizm md.) / 1512 (Hîve Hanlığı md.) ÇİFT-TDV beyanı. ÜLKE/BÖLGE DÜZEYİ: Gürgenç'e özgü cümle yok. 1538 Ubeydullah, 1593-98 II. Abdullah istilâları geçici."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2413",
+   "alan": "s",
+   "d": "afsar",
+   "f": "1740-01-01",
+   "t": "1747-06-20",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Hîve Hanlığı» md. https://islamansiklopedisi.org.tr/hive-hanligi",
+   "alinti": "Nâdir Şah, 1747'de öldürülmesine kadar Hîve'yi kendi tayin ettiği valilerle idare etmeye çalıştı",
+   "oneri": {
+    "alan": "isg",
+    "d": "afsar",
+    "f": "1740-01-01",
+    "t": "1747-06-20"
+   },
+   "not": "Kaynak fiili 'işgal etti' ve 'idare etmeye çalıştı' diyor, ilhak/devir yok; TEK KURAL → isg: aday (altında s: hive sürer). Karar KASA'nın (valilerle idare = idareye katılma sayılırsa s: kalır). Ayrıca 1740 sonlarında Küçük Orda Kazak Hanı Ebü'l-Hayr kısa süre Hîve'yi işgal etti. Uçlar YIL: 1740, 1747 (Gāib istiklâlini 1747'de ilân etti)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2413",
+   "alan": "s",
+   "d": "hive",
+   "f": "1747-06-20",
+   "t": "1920-04-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Hîve Hanlığı» md. (aynı URL) ve TDV «Hârizm» md.",
+   "alinti": "26 Nisan 1920'de Hârizm Halk Cumhuriyeti ilân edildi",
+   "oneri": {},
+   "not": "t 1920-04-26 GÜN doğrulandı (TDV Hîve). f 1747 YIL (Gāib Han istiklâlini ilân etti). 1873-05-29 Rus ele geçirişi: 'Rus vasalı haline gelen Hîve Hanlığı varlığını sürdürdü' → sahiplik değişmez, v: rusya katmanı adayı (gözlem). Günü 1920-04-26 ile kaynakta 2 Şubat 1920 Abdullah'ın tahttan çekilmesi ayrı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2413",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1924-01-01",
+   "t": "1991-10-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Hârizm» md.: «1924'te Hîve Hanlığı'nın ... batı tarafı da Türkmenistan Sovyet Sosyalist Cumhuriyeti'ne bırakıldı»",
+   "alinti": "1924'te ... batı tarafı da Türkmenistan Sovyet Sosyalist Cumhuriyeti'ne bırakıldı",
+   "oneri": {},
+   "not": "f 1924 YIL (gün yok). Gürgenç = Türkmenistan SSC tarafı (Köhne Ürgenç). t 1991-10-27 koordinatör kararı (Türkmenistan bağımsızlık ilanı); ic_not: SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991. Not: TDV Hârizm md. 'Ürgenç' (Özbekistan Hârizm vilâyeti merkezi) ile Köhne Ürgenç'in karışmaması gerek."
+  }
+ ],
+ "İznik": [
+  {
+   "dosya_satir": "data/yerlesimler.js:157",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1331-03-02",
+   "t": "1402-07-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İznik» md., https://islamansiklopedisi.org.tr/iznik (04.11.2026'da okundu)",
+   "alinti": "şehir Orhan Bey'in eline geçmiştir (2 Mart 1331)",
+   "oneri": {},
+   "not": "f GÜN doğrulandı (2 Mart 1331). t 1402-07-28: TDV İznik 'Ankara Savaşı'ndan sonra Timur'un ordularınca tahrip edilen İznik Fetret dönemi karışıklıklarından etkilenmiştir' — gün yok, t kaynakta yıl düzeyinde (1402)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:157",
+   "alan": "s",
+   "d": "isa-celebi",
+   "f": "1402-07-28",
+   "t": "1403-09-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «İznik» md. okundu; şehir adlı Fetret sahipliği cümlesi yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV İznik: 'Yıldırım Bayezid'in oğlu Mûsâ Çelebi ve Bedreddin Simâvî bir süre burada ikamet etmiştir' (ikamet, sahiplik değil, tarihsiz). İsa/Mehmed/Süleyman Çelebi paylaşımı İznik için kaynakta yok. ABİ MERKEZ adayı: Bursa (Fetret'te Bursa'nın kaderini izler) — Bursa zinciri ayrı kaynaklanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:157",
+   "alan": "s",
+   "d": "mehmed-celebi",
+   "f": "1403-09-01",
+   "t": "1404-03-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «İznik» md.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Fetret dilimi; İznik'e özgü kaynak yok (bkz. önceki satır)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:157",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1404-03-01",
+   "t": "1410-05-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «İznik» md.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Fetret dilimi; İznik'e özgü kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:157",
+   "alan": "s",
+   "d": "mehmed-celebi",
+   "f": "1410-05-06",
+   "t": "1413-07-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «İznik» md.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Fetret dilimi; İznik'e özgü kaynak yok. TDV: 1423'te Küçük Mustafa isyanında İznik merkez yapıldı (Osmanlı iç isyanı, sahiplik değişimi değil)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:157",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1413-07-05",
+   "t": "1920-04-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV «İznik» md. (aynı URL)",
+   "alinti": "İznik 21 Eylül 1920'de Yunan kuvvetlerince işgal edildi ve bu tarihten itibaren dört defa el değiştirdi",
+   "oneri": {
+    "alan": "isg",
+    "d": "yunanistan",
+    "f": "1920-09-21",
+    "t": "?"
+   },
+   "not": "Dönem uçlarında d: OSMANLI kaynaklı değil (1413 Çelebi Mehmed birleşmesi İznik için kaynakta yok); 1920-04-23 TBMM kuralı. EKLENMELİ: isg: yunanistan 1920-09-21 → bitiş tarihi TDV'de yok ('dört defa el değiştirdi'); bitiş için başka kaynak (Kurtuluş Savaşı akademik yayınları) gerek. Fiilî işgal, TEK KURAL: s: değil isg:."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:157",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «İznik» md.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KURAL KARARI: TBMM 1920-04-23 atlas kuralıdır; İznik'e özgü TBMM cümlesi TDV İznik'te yok (yalnız Yunan işgali 21 Eylül 1920). Ülke düzeyi kaynak TDV «Türkiye Cumhuriyeti»/«Türkiye Büyük Millet Meclisi» ile aranmalı; bu partide aranmadı."
+  }
+ ],
+ "Konya": [
+  {
+   "dosya_satir": "data/yerlesimler.js:203",
+   "alan": "s",
+   "d": "karaman",
+   "f": "1366-01-01",
+   "t": "1397-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Konya» md., https://islamansiklopedisi.org.tr/konya (04.11.2026'da okundu)",
+   "alinti": "Konya Karamanoğulları Beyliği'nin merkezi durumuna gelmişti ... şehir ancak 799'da (1397) Osmanlı hâkimiyetine girdi",
+   "oneri": {},
+   "not": "t 1397 YIL (799 hicrî) doğrulandı; f 1366 bu maddede yok (Karaman 1366 için TDV Karamanoğulları/Eretnaoğulları atlasta zaten var). TDV: Murad 1386'da kuşatıp Karamanoğlu'na iade etti (sahiplik değişmedi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:203",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1397-07-01",
+   "t": "1402-07-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Konya» md. (aynı URL)",
+   "alinti": "şehir ancak 799'da (1397) Osmanlı hâkimiyetine girdi",
+   "oneri": {},
+   "not": "f YIL (1397; gün yok). t: TDV 'Ankara Savaşı sonunda Karaman Beyliği ... Konya'yı yeniden ele geçirdi' — yıl 1402, gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:203",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1402-07-28",
+   "t": "1402-09-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Konya» md.",
+   "alinti": "1402 Ankara Savaşı sonunda Karaman Beyliği güçlendi ve Konya'yı yeniden ele geçirdi",
+   "oneri": {},
+   "not": "TDV Konya'da Timurlu hâkimiyeti cümlesi yok; 1402'de doğrudan Karaman ele geçirişi var. Timurlu dilimi (48 gün) kaynakta desteksiz; atlas yaklaşıklığı ise beyanlı olmalı ya da dilim kaldırılıp karaman f=1402 (YIL) yapılmalı. Karar KASA'nın."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:203",
+   "alan": "s",
+   "d": "karaman",
+   "f": "1402-09-15",
+   "t": "1468-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Konya» md. (aynı URL)",
+   "alinti": "872 Ramazanında (Nisan 1468) ... Konya'yı aldı",
+   "oneri": {
+    "f": "1402-09-15",
+    "t": "1468-04-01",
+    "d": "karaman"
+   },
+   "not": "f: 1402 YIL (gün yok). t: TDV hicrî 872 Ramazan (Nisan 1468) — ay hassasiyeti; atlasta 1468-01-01 yıl başı yazılı, kesişim (hicrî 872 Ramazan ∩ Nisan 1468) ilk günü hesaplanıp ic_not'ta hicrî aralıkla beyan edilmeli. Ara olaylar: Çelebi Mehmed 1414'te (817) Konya'yı alıp Karamanoğulları'na bıraktı; II. Murad 1437'de iade etti — sahiplik değişmez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:203",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1468-01-01",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Konya» md. (aynı URL)",
+   "alinti": "1468 yılında Fâtih Sultan Mehmed Konya'yı Karamanoğulları'ndan aldıktan sonra",
+   "oneri": {},
+   "not": "f: 872 Ramazan (Nisan 1468) → 1468-04 ay hassasiyeti (bkz. önceki satır; 1468-01-01 yıl başı hatalı yaklaşık). t 1920-04-23: KURAL KARARI — TBMM 1920-04-23 atlas kuralı; TDV Konya yalnız 'Ekim 1920'de Ankara hükümeti kuvvetleri isyanı bastırdı' der."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:204",
+   "alan": "v",
+   "d": null,
+   "f": "1832-11-21",
+   "t": "1833-06-30",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Konya» md. (aynı URL)",
+   "alinti": "İbrâhim Paşa idaresindeki Mısır kuvvetleri Konya'yı işgal etti (21 Aralık 1832)",
+   "oneri": {
+    "alan": "isg",
+    "d": "misir-eyaleti (Kavalalı)",
+    "f": "1832-12-21",
+    "t": "1833-06-30"
+   },
+   "not": "TEK KURAL: savaş işgali isg:. TDV f günü 21 ARALIK 1832 (atlasta 21 Kasım). t: 'Kütahya Antlaşması ile de burayı boşaltıp Toroslar'a çekildi' — gün yok (1833 yılı bile TDV Konya'da yok); 1833-06-30 kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:203",
+   "alan": "isg",
+   "d": "italya",
+   "f": "1919-04-01",
+   "t": "1920-03-11",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Konya» md. (aynı URL)",
+   "alinti": "Nisan 1919'da Konya'ya gelen bir İtalyan birliği 11-12 Mart 1920'de geri çekildi",
+   "oneri": {
+    "alan": "isg",
+    "d": "italya",
+    "f": "1919-04",
+    "t": "1920-03-12"
+   },
+   "not": "EKLENMELİ: isg italya (Nisan 1919 - 11/12 Mart 1920); f ay hassasiyeti (gün yok), t 11 ya da 12 Mart (kaynak ikisini yazıyor). Aynı TDV maddesi: 'Millî Mücadele yıllarında başka bir işgale uğramadı'. Ayrıca atlasta bu dilim şu an yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:203",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Konya» md. (aynı URL)",
+   "alinti": "İsyan Ankara hükümetinin gönderdiği kuvvetlerce bastırıldı",
+   "oneri": {},
+   "not": "KURAL KARARI: TBMM 1920-04-23 atlas kuralıdır; TDV Konya Ekim 1920'de Ankara hükümeti kuvvetlerinin Konya isyanını bastırdığını ve 1922'de Büyük Taarruz hazırlıklarında rol aldığını yazar (Ankara denetimi doğrulanır, 23 Nisan günü doğrulanmaz). hüküm: dönem doğrulandı (KAYNAKLI-ÜLKE/KURAL), oneri yok."
+  }
+ ],
+ "Sivas": [
+  {
+   "dosya_satir": "data/yerlesimler.js:351",
+   "alan": "s",
+   "d": "eretna",
+   "f": "1335-01-01",
+   "t": "1381-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sivas» md., https://islamansiklopedisi.org.tr/sivas (04.11.2026'da okundu)",
+   "alinti": "Şehir önce Alâeddin Eretna, daha sonra onun veziri Kadı Burhâneddin tarafından merkez yapıldı",
+   "oneri": {},
+   "not": "Sıra Eretna → Burhâneddin doğrulandı. t 1381 YIL: 'Kadı Burhâneddin ... 1381-1398 yılları arasında Sivas'ta kendi adına devlet kuran'. f 1335 TDV Sivas'ta yok (yalnız 'XIV. yüzyılın ikinci yarısında İlhanlı zayıflaması'); f için TDV Eretnaoğulları gerek (arama yapılmadı) — mevcut İlhanlı→Eretna 1335 ucu bu maddeyle doğrulanmaz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:351",
+   "alan": "s",
+   "d": "burhaneddin",
+   "f": "1381-01-01",
+   "t": "1398-07-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Sivas» md. (aynı URL)",
+   "alinti": "Kadı Burhâneddin Ahmed'in ... 1381-1398 yılları arasında Sivas'ta kendi adına devlet kuran",
+   "oneri": {},
+   "not": "f 1381 YIL, t 1398 YIL ('ölümünden (800/1398) sonra ... Sivas'ı I. Bayezid'e bıraktı'); gün (1398-07-15) bu maddede yok, ölüm günü TDV kadi-burhaneddin maddesinden (DEVRALMA kaynağı) gelir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:351",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1398-07-15",
+   "t": "1402-07-28",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Sivas» md. (aynı URL)",
+   "alinti": "Timur'un ... ilk hedeflerinden biri haline geldi ve ardından kuşatılarak teslim alındı (1400)",
+   "oneri": {
+    "f": "1398-07-15",
+    "t": "1400-01-01",
+    "d": "OSMANLI"
+   },
+   "not": "f YIL doğrulandı (1398: şehir ileri gelenleri Sivas'ı I. Bayezid'e bıraktı). t: TDV Timur'un Sivas'ı 1400'de aldığını yazar (atlas Osmanlı'yı 1402-07-28 Ankara'ya kadar uzatıyor) → t 1400 (YIL). Sonraki dilim için isg/s kararı bir sonraki satırda."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:351",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1402-07-28",
+   "t": "1408-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Sivas» md. (aynı URL)",
+   "alinti": "Timur'un Anadolu'yu istilâsını takip eden yıllarda Sivas şehri Mezid Bey'in yönetiminde kaldı",
+   "oneri": {
+    "alan": "isg",
+    "d": "timurlu",
+    "f": "1400-01-01",
+    "t": "1407-06-01"
+   },
+   "not": "Timurlu dönemi 1400'de başlar (YIL), 1402 değil. TDV 'Timur'un işgali' der ve kalan yönetimi 'Mezid Bey'in yönetimi' diye verir (Mezid = Timurlu valisi?). TEK KURAL: işgal/istilâ = isg: ; ilhak/devir tarihi kaynakta yok. Karar KASA'nın (ya isg timurlu 1400-1407/08, ya s timurlu beyanlı). t: TDV 'Çelebi Mehmed ... 810 (1407-1408) yılında ikinci defa Osmanlılar tarafından ele geçirildi' — hicrî 810 ≈ 1407-1408 ile atlas 1408-06-01'in uyumu kontrol edilmeli (kesişimin ilk günü; hicrî 810 aralığı ic_not'a yazılmalı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:351",
+   "alan": "s",
+   "d": "mehmed-celebi",
+   "f": "1408-06-01",
+   "t": "1413-07-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Sivas» md. (aynı URL)",
+   "alinti": "Şiddetli mukavemetten sonra 810 (1407-1408) yılında ikinci defa Osmanlılar tarafından ele geçirildi",
+   "oneri": {
+    "f": "1407-1408",
+    "t": "1413-07-05",
+    "d": "mehmed-celebi"
+   },
+   "not": "f: hicrî 810 ∩ 1407-1408 — kesişimin ilk günü KASA hesaplar; 1408-06-01 hicrî 810'un sonunda ya da sonrasında olabilir (ölçülmedi). Aynı maddede Çelebi Mehmed 1418'de kaleyi onarttı (Osmanlı egemenliği devam)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:351",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1413-07-05",
+   "t": "1920-04-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Sivas» md. (aynı URL)",
+   "alinti": "1418'de Ak Bey isimli kumandanı eliyle tamir ettirdi ... Osmanlı İdaresi Dönemi",
+   "oneri": {},
+   "not": "ÜLKE/DÖNEM DÜZEYİ: Sivas'ın 1413 sonrası sürekli Osmanlı olduğu ('Osmanlı İdaresi Dönemi' başlığı) doğrulanır; f günü (1413-07-05 Çelebi Mehmed'in tek tahta çıkışı) bu maddede yok. t KURAL KARARI (TBMM 1920-04-23)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:351",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1920-04-23",
+   "t": "1923-10-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Sivas» md. (aynı URL): Sivas Kongresi 4-11 Eylül 1919",
+   "alinti": "4-11 Eylül 1919'da Mustafa Kemal'in başkanlığında ... birleşme toplantısının yapıldığı",
+   "oneri": {},
+   "not": "KURAL KARARI: TBMM 1920-04-23 atlas kuralıdır; TDV Sivas bu günü vermez, yalnız Sivas Kongresi (1919) ve Millî Mücadele merkezliğini anlatır → dolaylı (ÜLKE DÜZEYİ). Sivas'ta başka bir işgal TDV'de anılmıyor."
+  }
+ ],
+ "Kurtuba (Córdoba)": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:264",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kurtuba» md., https://islamansiklopedisi.org.tr/kurtuba (04.11.2026'da okundu)",
+   "alinti": "şehir Kastilya-Léon Kralı III. Fernando tarafından kolayca zaptedildi. Tekrar hıristiyan hâkimiyetine girmesiyle",
+   "oneri": {},
+   "not": "Kastilya sahipliği 1236'dan sürüyor (YIL); 1281 yapay bölme ucu (aynı s: kastilya, dönem birleşmeli: 1236-01-01 → 1479). 1479-01-19 bitişi bu maddede yok; TDV «İspanya» 1479'u da vermiyor (bkz. ispanya satırı). TDV Kurtuba 1281-1479 ara olay anmaz → sürekli Kastilya varsayımı BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:264",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «İspanya» md. https://islamansiklopedisi.org.tr/ispanya + TDV «Kurtuba» okundu",
+   "alinti": "Kastilyalı Izabella ile Aragonlu II. Ferdinand arasındaki evlilik (1469)",
+   "oneri": {},
+   "not": "TDV İspanya'da 1479 YOK (arandı); verdiği: evlilik 1469, Granada 1492 (reconquista tamam), Karl 1516'da 'Kastilya ve Aragon kralı'. Hâkimiyet birliği için kaynaklı 1479-01-19 günü (Fernando'nun Aragon tahtına çıkışı) TDV'de bulunamadı; Treccani/başka akademik kaynak aranmadı (bütçe). Kurtuba için Kastilya Tacı → İspanya devri aslında hanedan birliğidir, ilhak değil: KASA künye kararı."
+  }
+ ],
+ "Zaragoza": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:281",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sarakusta» md., Câsim el-Ubûdî, https://islamansiklopedisi.org.tr/sarakusta (04.11.2026'da okundu)",
+   "alinti": "Aragon Kralı I. Alfonso kumandasındaki müttefik ordunun ... şehri almasıyla ... (4 Ramazan 512 / 19 Aralık 1118)",
+   "oneri": {},
+   "not": "Aragon sahipliği 1118'den başlar (mevcut ilk aragon dönemi aynı); 1281 yapay bölme ucu (aynı s: aragon, birleştirilebilir: 1118-12-19 → 1479). TDV Sarakusta 1479'u içermez; bitiş 1479-01-19 TDV'de yok (bkz. Kurtuba ispanya notu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:281",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1936-07-19",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «İspanya» md., TDV «Sarakusta» md. okundu",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV İspanya 1479'u vermez (bkz. Kurtuba). 1936-07-19 ucu: mevcut Gran Enciclopèdia Catalana kaynaklı komşu dönemle ilişkili; İspanya İç Savaşı TDV İspanya 'Franco ... (1936-1939)' yıl düzeyinde. Zaragoza'ya özgü sahiplik cümlesi TDV Sarakusta'da 1118 sonrası yok → ÜLKE DÜZEYİ varsayım."
+  }
+ ],
+ "Tinmel (Tin Mal)": [
+  {
+   "dosya_satir": "",
+   "alan": "-",
+   "d": "-",
+   "f": "-",
+   "t": "-",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV arama «Tinmel» (islamansiklopedisi.org.tr/arama/tinmel): 14 madde içeriği eşleşmesi; TDV İbn Tûmert, Abdülmü'min el-Kûmî, Mağrib, Fas",
+   "alinti": "Tinmellel Camii'nde biat merasimi icra",
+   "oneri": {},
+   "not": "Parti dosyasında Tinmel'in HİÇ dönemi yok (donemler listesi boş, yeni yerleşim kaydı). Kaynak ipucu: TDV 'Tinmellel' adıyla: İbn Tûmert 517 (1123) yılında Tinmel'e yerleşti/mezarı Tinmellel'de; Abdülmü'min'in ölümü Tinmellel Camii'nde biatla açıklandı; Tinmellel Ulucamii 1153-54 (Mağrib md.). Doğru dönemler (muvahhidler, murabitlar öncesi/sonrası) için TDV «İbn Tûmert» ve «Muvahhidler» maddesi okunmalı; bu partide sınırlı bütçe sebebiyle okunmadı."
+  }
+ ],
+ "Merakeş": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1199",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Merakeş» md., https://islamansiklopedisi.org.tr/merakes ; TDV «Fas» md. https://islamansiklopedisi.org.tr/fas (04.11.2026'da okundu)",
+   "alinti": "930'da (1524) Sa‘dîler'den Ahmed el-A‘rec Merakeş'i savaşsız ele geçirdi ve burayı yeniden başşehir yaptı",
+   "oneri": {
+    "f": "1524-01-01",
+    "t": "1659-01-01",
+    "d": "sadi"
+   },
+   "not": "f: Merakeş'in kendi şehir maddesi 930/1524 verir, TDV Fas ülke maddesi de 'Sa‘dîler 1524'te Merakeş'i ele geçirerek' der (iki TDV md. uyumlu) → 1524 (hicrî 930 ∩ 1524, YIL). t: TDV Fas md. içinde çelişki: 'Sa‘dîler döneminde (1511-1659)' ve 'Sa‘dî şeriflerinin iktidarını 1660'ta Hasanî şerifleri ele geçirdiler' — iki ucu da beyan edilmeli; 1659 atlas ucu korunabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1199",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Fas» md. (aynı URL) + TDV «Merakeş» md.",
+   "alinti": "Sa‘dî şeriflerinin iktidarını 1660'ta Hasanî şerifleri ele geçirdiler",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Merakeş'e özgü 1659/1660 cümlesi yok. f TDV Fas'ta 1660 (aynı md. 'Sa‘dîler 1511-1659' diyor) — beyan. t 1912-03-30 GÜN doğrulandı (TDV Merakeş: '30 Mart 1912'de Sultan Abdülhafîz ile imzaladıkları antlaşma uyarınca himaye dönemini başlatan Fransızlar'). Fransızlar 7 Eylül 1912'de Merakeş'e girdi (ham giriş günü, ic_not'a)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1199",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Merakeş» md. (aynı URL)",
+   "alinti": "30 Mart 1912'de Sultan Abdülhafîz ile imzaladıkları antlaşma uyarınca himaye dönemini başlatan Fransızlar 7 Eylül'de Merakeş'e girdiler",
+   "oneri": {},
+   "not": "f GÜN doğrulandı (hukukî devir günü, TEK KURAL uyumlu: 1912-09-07 ham giriş ic_not). t 1956-03-02 günü TDV'de yok; TDV Fas: 'Fransa'nın hâkimiyetinden kurtularak bağımsızlığını kazandığı 1956 yılında' (YIL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1199",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Fas» md. (aynı URL)",
+   "alinti": "Fransa'nın hâkimiyetinden kurtularak bağımsızlığını kazandığı 1956 yılında",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL (1956); 1956-03-02 günü TDV Fas'ta okunan kesitte yok."
+  }
+ ],
+ "Fas (Fez)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1198",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Fas» (şehir) md., https://islamansiklopedisi.org.tr/fas--fas (04.11.2026'da okundu); TDV «Fas» (ülke) md.",
+   "alinti": "İktidar Sa‘dîler'in eline geçtikten sonra (1549) Masmûdeler'e yakınlığı sebebiyle Merakeş merkez olarak seçilmişse de",
+   "oneri": {},
+   "not": "f 1549 YIL (Fez'in kendi şehir md.). ÇİFT-TDV beyanı: TDV Fas ülke md. 'Fas şehri de 1550'de Sa‘dîler'in eline geçti' → şehir maddesi esas (1549), ülke maddesi 1550 not'ta. t: TDV Fas ülke md. içinde 1659 (Sa‘dîler 1511-1659) ve 1660 (Hasanî şeriflerin iktidarı) çelişkisi; şehir md. 1603 (Ahmed el-Mansûr'un ölümü) sonrası oğulları arasında mücadele anlatır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1198",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Fas» şehir md. (aynı URL)",
+   "alinti": "30 Mart 1912 tarihinde Fransa ile Fas arasında bir himaye (protektora) antlaşmasının imzalanmasında",
+   "oneri": {},
+   "not": "t GÜN doğrulandı (30 Mart 1912, Fez'in kendi md.). f: Filâlîler dönemi yapıları anılır; f 1659/1660 ÜLKE DÜZEYİ (TDV Fas ülke md., bkz. Merakeş notu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1198",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Fas» şehir md. (aynı URL)",
+   "alinti": "30 Mart 1912 tarihinde ... bir himaye (protektora) antlaşmasının imzalanmasında",
+   "oneri": {},
+   "not": "f GÜN doğrulandı. Fez 21 Mayıs 1911'de Fransız ordusunca işgal edildi (TDV: 'bir Avrupa ordusunun Fas halkı ile ilk teması') → TEK KURAL: isg fransa 1911-05-21 → 1912-03-30 EKLENMELİ (aday, kaynak 'ordu Fas'a girdi ve duruma hâkim oldu (21 Mayıs 1911)'). t 1956 YIL (TDV Fas ülke md.)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1198",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Fas» (ülke) md.",
+   "alinti": "Fransa'nın hâkimiyetinden kurtularak bağımsızlığını kazandığı 1956 yılında",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL; 1956-03-02 günü bu kesitte yok."
+  }
+ ],
+ "Miknâs (Meknes)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:54",
+   "alan": "s",
+   "d": "sadi",
+   "f": "1549-01-01",
+   "t": "1659-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Miknâs» md., https://islamansiklopedisi.org.tr/miknas (04.11.2026'da okundu)",
+   "alinti": "Nâsır ... Miknâs'ı Sa‘dî Sultanı Mevlây Muhammed eş-Şeyh'e teslim etmeye razı oldu (955/1548)",
+   "oneri": {
+    "f": "1548-01-01",
+    "t": "1659-01-01",
+    "d": "sadi"
+   },
+   "not": "TDV Miknâs devri 955 (1548) yazar (atlas 1549; Fez md. 1549 ülke düzeyi). Hicrî 955 ∩ 1548 → yıl düzeyi, kesişimin ilk günü KASA hesaplar. Merînî→Sa‘dî devri bir antlaşma/teslim (de jure) — s: Merînî t 1549 → 1548 kısalır; ardından şehirde Muhammed eş-Şeyh otorite kurdu. t 1659: TDV Miknâs'ta okunmadı (Fas md. 1659/1660)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:54",
+   "alan": "s",
+   "d": "fas",
+   "f": "1659-01-01",
+   "t": "1912-03-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Miknâs» md. (aynı URL)",
+   "alinti": "Miknâs, en parlak dönemini Alevî (Fîlâlî) Sultanı Mevlây İsmâil zamanında (1672-1727) yaşadı",
+   "oneri": {},
+   "not": "Miknâs'ın Alevî hâkimiyeti 1672-1727 anlatılıyor; f 1659/1660 ve t 1912-03-30 Miknâs md. kesitinde yok → ÜLKE DÜZEYİ (bkz. Fas/Merakeş satırları). TDV: 8 Mart 1576'da Miknâs önünde savaş (Sa‘dî iç mücadelesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:54",
+   "alan": "s",
+   "d": "fas-fransiz-himayesi",
+   "f": "1912-03-30",
+   "t": "1956-03-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Fas» şehir md. https://islamansiklopedisi.org.tr/fas--fas",
+   "alinti": "30 Mart 1912 tarihinde Fransa ile Fas arasında bir himaye (protektora) antlaşmasının imzalanmasında",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: 1912-03-30 antlaşma günü Fez md. + Merakeş md.; Miknâs md.'sinde 1912 cümlesi okunan kesitte çıkmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:54",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1956-03-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Fas» (ülke) md.",
+   "alinti": "Fransa'nın hâkimiyetinden kurtularak bağımsızlığını kazandığı 1956 yılında",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL (1956)."
+  }
+ ],
+ "İskenderiye": [
+  {
+   "dosya_satir": "data/yerlesimler.js:966",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1517-05-19",
+   "t": "1805-07-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İskenderiye» md., https://islamansiklopedisi.org.tr/iskenderiye (04.11.2026'da okundu)",
+   "alinti": "Osmanlı idaresine geçti (27 Rebîülâhir 923 / 19 Mayıs 1517)",
+   "oneri": {},
+   "not": "f GÜN doğrulandı. t 1805: TDV 'Mehmed Ali Paşa döneminin (1805-1848)' YIL; 1805-07-03 günü bu md.'de yok. Arada: Fransız işgali 1798 (zaten isg), Mart 1807'de İskenderiye hâkimi Emîn Ağa şehri İngilizler'e teslim etti ('Bir süre sonra ... İngiliz donanması İskenderiye'den çekildi') → EKLENMELİ isg ingiltere 1807-03 → 1807 (bitiş günü bu kesitte yok); 1807 ayrı bir isg olmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:966",
+   "alan": "v",
+   "d": "-",
+   "k": "Kavalalı hanedanı",
+   "f": "1805-07-03",
+   "t": "1914-12-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «İskenderiye» md. (aynı URL) + TDV «Mısır» md. https://islamansiklopedisi.org.tr/misir",
+   "alinti": "Mehmed Ali Paşa döneminin (1805-1848) başlangıcında İskenderiye'de 142 meslek zümresi vardı",
+   "oneri": {},
+   "not": "f 1805 YIL (gün yok), ÜLKE DÜZEYİ (Mehmed Ali Mısır'ın valisi/hâkimi). t: TDV Mısır 'Abbas Hilmi'yi ... 19 Aralık'ta görevden alarak yerine amcası Hüseyin Kâmil'i Mısır sultanı olarak ilân etti' — atlas 1914-12-18; TDV günü 19 Aralık 1914 (18 Aralık himaye ilânı bu kesitte doğrulanmadı) → ONERI adayı: 1914-12-19 (görevden alma), KASA ölçsün; v: hanedan ucu 1914-12-18 ile 12-19 bir gün farkı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:966",
+   "alan": "s",
+   "d": "misir-sultanligi",
+   "f": "1914-12-18",
+   "t": "1922-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Mısır» md. (aynı URL)",
+   "alinti": "yerine amcası Hüseyin Kâmil'i Mısır sultanı olarak ilân etti",
+   "oneri": {
+    "f": "1914-12-19"
+   },
+   "not": "ÜLKE DÜZEYİ. TDV: 19 Aralık 1914 görevden alma ve Hüseyin Kâmil'in sultan ilânı (atlas 18 Aralık; 1 gün). t 1922-03-15 TDV'de yok; TDV 'bağımsız bir devlet ilân edilmesi şekilden öteye gitmiyordu' (28 Şubat 1922 bildirgesi, İngiltere kayıtları) — kral unvanı günü bu kesitte okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:966",
+   "alan": "isg",
+   "d": "ingiltere",
+   "f": "1914-12-18",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Mısır» md. (aynı URL); TDV «İskenderiye» md.",
+   "alinti": "Mısır'ın bağımsız bir devlet ilân edilmesi şekilden öteye gitmiyordu",
+   "oneri": {
+    "f": "1882-09-13",
+    "t": "1922-02-28"
+   },
+   "not": "Bu isg: ingiltere dönemi 1882'den beri süren isg: ingiltere (1882-09-13→1914-12-18) ile çakışık/ardışık görünüyor; TDV İskenderiye: 'Urabî Paşa olayını bahane eden İngilizler'ce 1882'de işgal edildi' (YIL). 1914-12-18'de 'himaye' ilânı TDV'de okunmadı. 1923-10-29 bitişi (Cumhuriyet günü) Mısır için kaynaksız görünüyor; TDV Mısır: 1922'de sınırlı bağımsızlık, İngiliz müdahale hakkı sürdü, 1936 antlaşmasına kadar. Önerim: 1882→1922 tek isg (28 Şubat 1922 = bağımsızlık bildirgesi, TDV 'Mısır' kesitinde '28 Şubat 1922' aranmıştı fakat gün cümlesi okunmadı; KASA doğrulamalı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:966",
+   "alan": "s",
+   "d": "misir-kralligi",
+   "f": "1922-03-15",
+   "t": "1953-06-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Mısır» md. (aynı URL)",
+   "alinti": "anayasa 19 Nisan 1923'te resmen yayımlandı ... Krala başbakanı tayin ve azletme ... hakkı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Krallık rejimi doğrulanır (1923 anayasası), 1922-03-15 günü bu kesitte yok. t 1953-06-18: TDV'de 16 Ocak 1953 partilerin kapatılması, 10 Aralık 1952 anayasanın kaldırılması; cumhuriyet ilânı 18 Haziran 1953 bu kesitte okunmadı (ÖLÇÜLEMEDİ)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:966",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1971-09-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Mısır» md. (aynı URL)",
+   "alinti": "Mısır, Birleşik Arap Cumhuriyeti adını kullanmaya devam etti",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: TDV Mısır-Suriye birleşmesi (1958) ve 28 Eylül 1961 Suriye ayrılışı sonrası Mısır'ın BAC adını sürdürmesi doğrulanır; 1958-02-22 günü okunan kesitte yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:966",
+   "alan": "s",
+   "d": "misir-arap-cumhuriyeti",
+   "f": "1971-09-11",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV «Mısır» md. (aynı URL)",
+   "alinti": "11 Eylül 1971'deki referandumla kabul edilen yeni anayasa ile devletin adı Mısır Arap Cumhuriyeti olarak değiştirildi",
+   "oneri": {},
+   "not": "GÜN doğrulandı (ÜLKE DÜZEYİ)."
+  }
+ ],
+ "Atina": [
+  {
+   "dosya_satir": "data/yerlesimler.js:504",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1456-06-04",
+   "t": "1687-09-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Atina» md., https://islamansiklopedisi.org.tr/atina (04.11.2026'da okundu)",
+   "alinti": "Tırhala sancak beyi Turahan Bey, Mayıs 1456'da şehri ele geçirdi",
+   "oneri": {
+    "f": "1456-05-01",
+    "t": "1687-09-29",
+    "d": "OSMANLI"
+   },
+   "not": "TDV f için AY (Mayıs 1456) verir, gün yok; atlasta 1456-06-04. 'Mayıs' ile çelişir (kale/akropolis teslimi ayrı olabilir; TDV Fâtih'in 1458 Mora harekâtında Atina'ya geldiğini de anar, cümle kesik kaldı). Öneri: f ay hassasiyeti ('1456-05', gün TDV'de yok) ya da 1456-06-04 için ikinci akademik kaynak (Setton, Papacy and the Levant II) — bu partide aranmadı. Ayrıca TDV: Atina 1397 civarı 'muhtemelen' Osmanlı eline geçip kısa sürede kaybedildi; II. Nerio (1435-55) Osmanlı'ya TÂBİ — atlasta bu dönemler s: atinadukaligi içinde, v: katmanı olabilir (gözlem)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:504",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Atina» md. (aynı URL)",
+   "alinti": "Atina Kalesi âsiler tarafından işgal edildi ise de (1821) çok geçmeden Reşid Paşa tarafından kurtarıldı; ... 1833'te Yunanlılar'a bırakıldı",
+   "oneri": {
+    "f": "1833-01-01",
+    "t": "1973-06-01",
+    "d": "yunanistan",
+    "alan": "s"
+   },
+   "not": "TEK KURAL: 1821'de Kale'nin isyancılarca işgali geçici; 'çok geçmeden Reşid Paşa tarafından kurtarıldı'. TDV'ye göre şehir 1833'te Yunanlılar'a bırakıldı (YIL, gün yok; atlasta mevcut OSMANLI 1827-06-05→1833-03-31 dönemiyle birlikte 1833-03-31 sonrası). s: yunanistan 1821-03-25 f ucu Atina için DESTEKSİZ; 1821-1833 arası d: OSMANLI sürmeli (beyan: Kale 1821-22 isyancılarda, 1827 Reşid Paşa), iki katman çakışıyor (yunanistan 1821-1973 ile OSMANLI 1827-1833 aynı anda). f: 1833 YIL; de jure devir günü (Londra/Konstantinopolis Antl. 1832, TEK KURAL: 'egemenlik devri günü') TDV Atina'da yok — başka kaynak gerek."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:504",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1827-06-05",
+   "t": "1833-03-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Atina» md. (aynı URL)",
+   "alinti": "çarpışmalar sırasında harap olan şehir 1833'te Yunanlılar'a bırakıldı",
+   "oneri": {
+    "f": "1688-04-08",
+    "t": "1833-03-31",
+    "d": "OSMANLI"
+   },
+   "not": "t 1833 YIL doğrulandı (gün yok). f 1827-06-05 TDV'de yok; TDV 1821'de Kale'nin âsilerden 'çok geçmeden' kurtarıldığını söyler (Reşid Paşa, Akropolis 1827'de teslim — gün TDV'de yok). Bu dönem, ayrı bir OSMANLI dönemi yerine 1688-04-08→1833 tek dönem olmalı (şu an 1821-03-25→1973 yunanistan dönemiyle çakışma var)."
+  }
+ ],
+ "Lahor": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:436",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Lahor», https://islamansiklopedisi.org.tr/lahor",
+   "alinti": "Bâbür Şah'ın Hindistan'a gelip Lûdî Sultanlığı'na son vermesiyle el değiştiren şehir",
+   "oneri": {},
+   "not": "TDV Lahor Babur'u (devlet) teyit ediyor ama yil/gun vermiyor; IG Punjab II Lahore City 'The Mughals' de Panipat gunu yok. Devlet dogru, uc teyitsiz. TDV: Humayun doneminde Kamran Mirza'nin isgali var (tarihsiz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:436",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Lahor», https://islamansiklopedisi.org.tr/lahor ; Imperial Gazetteer of India, Provincial Series: Punjab, Vol. II (Calcutta 1908), Lahore Division / Multan Division (archive.org dli.csl.2922)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Lahor ve IG Lahore City Sur hanedanini hic anmiyor (yalniz Babur->Humayun/Kamran->Ekber). Sur donemi bu iki kaynakta teyitsiz; Delhi Sultanligi/Sur kaynagi (TDV 'Sûrîler', Cambridge/Majumdar) aranmali. Bakilmayan: TDV 'Şîr Şah'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:436",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1752-04-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Lahor», https://islamansiklopedisi.org.tr/lahor",
+   "alinti": "1588-1599 yılları arasında Lahor'da oturan Ekber Şah",
+   "oneri": {},
+   "not": "Devlet teyitli (Ekber 1588-99 Lahor'da oturdu; Cihangir basskent yapti; Sah Cihan, Evrengzib). 1555-07-23 ucu kaynakta yok. 1752 sonu icin bkz. Durrani satiri. TDV 'Nadir Sah 1737'de Kabil'den Lahor'a butun bolgeyi hakimiyeti altina aldi, 1739'da ayrildi' der (IG: Zakariya Han fidye verdi, sehir yagmalanmadi) — gecici isgal/vergi, sahiplik degisimi sayilmaz; atlas Babur'u surdurur (TEK KURAL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:436",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1752-04-01",
+   "t": "1765-04-16",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Lahor», https://islamansiklopedisi.org.tr/lahor ; Imperial Gazetteer of India, Provincial Series: Punjab, Vol. II (Calcutta 1908), Lahore Division / Multan Division (archive.org dli.csl.2922)",
+   "alinti": "Ahmad Shah Durrani occupied Lahore in 1748",
+   "oneri": {},
+   "not": "IG: Durrani 1748'de Lahor'u isgal etti, 1755'te 4. seferde tekrar (sehir Prens Timur'a verildi); TDV: 'Ahmed Sah Durrani zamaninda (1747-1773) karisikliklar'. 1752-04-01 devir gunu bu iki kaynakta YOK (1752 Mugal-Durrani devri baska kaynak ister). TEK KURAL geregi 1748-1752 isgalleri isg yazilmamali: Mugal valisi (Mu'in-ul-Mulk) gorevde kaldi. Mevcut 1752 TEK KURAL ile uyumlu; kaynak aranacak (TDV 'Ahmed Şah Dürrânî', 'Pencap')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:436",
+   "alan": "s",
+   "d": "sih-imparatorlugu",
+   "f": "1765-04-16",
+   "t": "1849-03-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Provincial Series: Punjab, Vol. II (Calcutta 1908), Lahore Division / Multan Division (archive.org dli.csl.2922), 'Lahore City' (The Sikhs), s. 36-37",
+   "alinti": "On March 29, 1849 ... the young Maharaja Dalip Singh resigned the government to the British",
+   "oneri": {},
+   "not": "KISMEN: t=1849-03-29 gunu IG'de var (Dalip Singh hukumeti Ingilizlere birakti). f=1765-04-16 gun/yil IG'de YOK: 'after Ahmad Shah's seventh invasion Kabuli Mal was ejected and the Sikhs again became masters' (1764-65 civari); IG '1767-97 Sikhler Lahor'u rahatsiz edilmeden yonetti'. TDV: 'XVIII. yuzyilin sonlarindan 1850'lere kadar Sihler'. Dolayisiyla f yil duzeyinde bile kaynaksiz — 1765 ancak kismen uyumlu. Ranjit Singh 1799 (IG: Amritsar/Gujranwala maddeleri 'made Lahore his capital in 1799')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:435",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1849-03-29",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Provincial Series: Punjab, Vol. II (Calcutta 1908), Lahore Division / Multan Division (archive.org dli.csl.2922), 'Lahore City', s. 37 ; TDV Islam Ansiklopedisi, «Lahor», https://islamansiklopedisi.org.tr/lahor",
+   "alinti": "On March 29, 1849, at the conclusion of the second Sikh War ... resigned the government to the British",
+   "oneri": {},
+   "not": "f=1849-03-29 IG ile gun duzeyinde dogrulandi. t=1947: TDV 'Bu tarihlerden 1947'ye kadar Ingilizler'ce yonetilen Lahor 1947'den sonra Pakistan topraklarina katildi' (yil duzeyi; 1947-08-15 kaynakta gun yok, ulke duzeyi)."
+  }
+ ],
+ "Multan": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:443",
+   "alan": "s",
+   "d": "sind",
+   "f": "1527-01-01",
+   "t": "1557-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Multan», https://islamansiklopedisi.org.tr/multan",
+   "alinti": "Bu hânedana, Sind bölgesinin hâkimi Hüseyin Şah Argun son verdi (Rebîülâhir 933 / Ocak 1527)",
+   "oneri": {},
+   "not": "KISMEN: f=1527-01 (ay/yil) TDV ile uyumlu, 1527-01-01 ay hassasiyeti. t=1557-01-01 kaynaksiz: TDV Argun'dan sonra 'sehir Baburluler'e bagli bir eyalet merkezi haline geldi' der (arada Sind/Argun hakimiyeti suresi belirtilmez). 1557 icin Akbar-donemi kaynagi (Majumdar/IG Multan District 'History', s. 227-228) aranmali; ZIT OLASILIK: TDV'ye gore Sind donemi hic yok ya da kisa."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:444",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1557-01-01",
+   "t": "1752-04-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Multan», https://islamansiklopedisi.org.tr/multan",
+   "alinti": "1750’de Afganlı Ahmed Şah Dürrânî’nin eline geçinceye kadar",
+   "oneri": {
+    "alan": "isg",
+    "d": "afgan-durrani",
+    "f": "1750 (YIL)",
+    "t": "1752-04-01"
+   },
+   "not": "TDV Multan: Baburlu eyalet merkezi, '1750'de Ahmed Sah Durrani'nin eline gecinceye kadar'. Atlas t=1752-04-01. TEK KURAL: ham ele gecirme (1750) isg, s Durrani devir gunu (1752-04-01) — KASA: ya Durrani'ye 1750 isg satiri ekle ya da mevcudu koru; 1752 devir gunu TDV'de YOK (kaynak ayrica aranmali). f=1557 kaynaksiz (bkz. Sind satiri)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:445",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1752-04-01",
+   "t": "1818-06-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Multan», https://islamansiklopedisi.org.tr/multan",
+   "alinti": "Sihler’in yönetimine girdi (1818)",
+   "oneri": {},
+   "not": "KISMEN: t yil duzeyi TDV ile teyit (1818; atlas 1818-06-02). f: TDV 1750 (ele gecirme); 1752-04-01 kaynakta yok (bkz. Baburlu satiri)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:446",
+   "alan": "s",
+   "d": "sih-imparatorlugu",
+   "f": "1818-06-02",
+   "t": "1849-03-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Multan», https://islamansiklopedisi.org.tr/multan ; Imperial Gazetteer of India, Provincial Series: Punjab, Vol. II (Calcutta 1908), Lahore Division / Multan Division (archive.org dli.csl.2922) (Multan District, History)",
+   "alinti": "bu tarihten sonra ... Sihler’in yönetimine girdi (1818)",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiliz-hindistani",
+    "f": "1849-01-22",
+    "t": "1849-03-29"
+   },
+   "not": "f yil duzeyinde TDV ile teyitli (1818). t=1849-03-29 (Punjab ilhaki, IG Lahore City). Ek ONERI (TEK KURAL): IG Multan: 'city stormed January 2, 1849; fort surrendered at discretion by Mulraj on January 22' — Ocak 1849'dan ilhaka kadar Ingiliz isg katmani eklenebilir; TDV '1848'den itibaren Ingiliz hakimiyetinde' der (Mulraj isyani Nisan 1848). KASA karar verir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:447",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1849-03-29",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Provincial Series: Punjab, Vol. II (Calcutta 1908), Lahore Division / Multan Division (archive.org dli.csl.2922), Lahore City s.37 (Punjab ilhaki 1849-03-29) ; TDV Islam Ansiklopedisi, «Multan», https://islamansiklopedisi.org.tr/multan",
+   "alinti": "The District at once passed under direct British rule",
+   "oneri": {},
+   "not": "f=1849-03-29 IG (Punjab geneli); TDV Multan '1848'den itibaren Ingiliz hakimiyetinde' (isg/Mulraj isyani asamasi; ham 1848 isg). t: TDV 'Mültan 1947'de Pakistan topraklarina katildi' (yil duzeyi)."
+  }
+ ],
+ "Kartaca (Carthage)": [
+  {
+   "dosya_satir": "",
+   "alan": "",
+   "d": "",
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu yerlesimde kaynagi bos ya da DEVRALMA donem YOK (16 donemin hepsi kaynakli). Hedef donem olmadigindan bakilmadi."
+  }
+ ],
+ "Anyang": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1938",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-09-14",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi, juan 42 «Dili zhi 3» (zh.wikisource.org/wiki/明史/卷42; okundu)",
+   "alinti": "彰德府元彰德路，直隸中書省。洪武元年閏七月為府",
+   "oneri": {
+    "t": "1368-08-14 (閏7月 ilk gunu; gun teyitsiz, 08-14/15)"
+   },
+   "not": "Yuan Zhangde Lu'su Hongwu 1 (閏7月) Ming 'fu' oldu; Ming shi 2: 8. ay 己巳 = 1368-09-13 oldugundan 閏7月 ~1368-08-14/15..09-12 arasinda. Atlas 1368-09-14 (Dadu'nun dusmesi) ULKE DUZEYI; Anyang icin fu-kurulus ayi ondan once. 'Anyang kenti Yuan sonunda lagvedildi, Hongwu 1 9. ay yeniden kuruldu' (Ming shi 42). Oneri beyanli yaklasiklik, 'ic_not'ta yaz. f=1281 kunye ucu (Yuan shi dili zhi 'Zhangde lu' ayri okunmadi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1938",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-09-14",
+   "t": "1644-06-06",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi, juan 42 «Dili zhi 3» (zh.wikisource.org/wiki/明史/卷42; okundu) ; Ming shi juan 24 «Zhuanglie di 2» (zh.wikisource.org/wiki/明史/卷24; okundu)",
+   "alinti": "甲申，賊至彰德，趙王常㳛降",
+   "oneri": {
+    "t": "1644-04-02",
+    "d_sonraki": "dashun (Li Zicheng) f=1644-04-02"
+   },
+   "not": "Ming shi 24 Chongzhen 17 2. ay 甲申 = 1644-04-02 (Gregoryen; ganzhi tablosuyla hesaplandi): Li Zicheng Zhangde'ye girdi, Zhao Wang Chang Fu teslim oldu. Atlas Ming'i 1644-06-06'ya (Qing Pekin) dek surduruyor — Anyang icin 2 ay 4 gun erken. TEK KURAL: Shun (Dashun, 1644-02-08 Xi'an'da ilan) rejimi idareyi kendisine kattiysa s dashun (KURAL KARARI gerekebilir: isg mi s mi — Shun Zhili/Henan'a memur atadi); ham fetih gunu not'a. Ming kenti 1368 icin: KAYNAKLI yil (Ming shi 42 Hongwu 1)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1939",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1644-06-06",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "kaynak": "Qing shi gao, juan 4 «Shizu 1» (zh.wikisource.org/wiki/清史稿/卷4; okundu)",
+   "alinti": "葉臣等大軍平直隸、河南、山西府九、州二十七、縣一百四十一",
+   "oneri": {
+    "f": "1644-12 (AY; gun teyitsiz) — Anyang icin Qing fethi 1644-06-06'dan sonra",
+    "d": "qing-hanedani"
+   },
+   "not": "Qing shi gao 4: Shunzhi 1 (1644) 6. ay 'Wang Aoyong'u Shandong, Henan'i iknaya (招撫) gonder'; 10. ay Heshuo vd. Shandong/Henan'i fethe; 12. ay 'Ye Chen vd. Zhili, Henan, Shanxi'yi pasifize etti (平)'. 1644-06-06 Pekin giris gunu ULKE DUZEYI; Zhangde/Anyang Shun'un elindeydi (bkz. Ming satiri). Anyang'a ozgu Qing giris gunu bulunamadi. Mevcut 1644-06-06 beyanli yaklasiklik olarak korunabilir ('ULKE DUZEYI')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1940",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing hanedani 1912-02-12 abdikasyon fermani (zh.wikisource 清帝退位詔書) — mevcut kayittan devralindi, bu oturumda yeniden acilmadi",
+   "alinti": "特率皇帝將統治權公諸全國，定為共和立憲國體",
+   "oneri": {},
+   "not": "ULKE DUZEYI: Qing'in sona erisi/Cin Cumhuriyeti 1912-02-12 ulke duzeyinde dogru; sehre ozgu tanik yok. KASA beyanli yaklasiklik yazar. 1938-45 Japon isgali (Anyang 1938-01 civari Japonlarin eline gecti) isg katmani olarak beyanli yaklasiklikta kalir; bu oturumda dogrulanmadi."
+  }
+ ],
+ "Luoyang": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1897",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1368-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Ming shi 42 (zh.wikisource.org/wiki/明史/卷42): «河南府元河南府路，屬河南江北行中書省。洪武元年爲府»; Yuan shi 59 (mevcut kayit)",
+   "alinti": "河南府元河南府路 ... 洪武元年爲府",
+   "oneri": {},
+   "not": "KISMEN: Yuan 'Henan fu lu' = Luoyang; t=1368-04-01 yil duzeyinde (Hongwu 1) uyumlu, ay hassasiyeti (04-01) teyitsiz — Ming shi 42 yalniz 'Hongwu 1'. f=1281 kunye ucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1898",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-04-01",
+   "t": "1641-03-08",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi 42 + Ming shi 24 «Zhuanglie di 2» (zh.wikisource.org/wiki/明史/卷24; okundu)",
+   "alinti": "丙申，李自成陷河南，福王常洵遇害",
+   "oneri": {
+    "t": "1641-03-01"
+   },
+   "not": "Ming shi 24 Chongzhen 14 1. ay 丙申 = 1641-03-01 (Gregoryen; ganzhi hesabi, ay-gun tablosu). Atlas 1641-03-08: 7 gun fark. Ming shi cumlesi 'Henan'i dusurdu, Fu Wang Chang Xun oldurulduyle' — Luoyang'in dusus haberi/tarihi; ganzhi gunu mahkeme kaydidir, fiili dusus 1-2 gun once olabilir. f: Ming shi 42 'Hongwu 1' yil duzeyi (04-01 ay hassasiyeti teyitsiz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1899",
+   "alan": "s",
+   "d": "dashun",
+   "f": "1641-03-08",
+   "t": "1645-01-18",
+   "hukum": "ONERI",
+   "kaynak": "Ming shi 24 (okundu) ; Qing shi gao juan 4 (zh.wikisource.org/wiki/清史稿/卷4; okundu)",
+   "alinti": "戊辰，多鐸軍至孟津，賊將黃士欣等遁走，濱河十五寨堡望風納款",
+   "oneri": {
+    "f": "1641-03-01",
+    "t": "1645-01-11 civari (teyitsiz; atlas 1645-01-18)"
+   },
+   "not": "f: Ming shi 24 丙申 = 1641-03-01. t: Qing shi gao 4 Shunzhi 1 12. ay: 戊辰 (=1645-01-11) Dodo Mengjin'de, 己巳 (=01-12) Shanzhou'da — Luoyang bu iki gun arasinda gecildi; atlas 1645-01-18 (乙亥) 6-7 gun gec. Luoyang'a ozgu Qing gunu metinde yok, o yuzden ONERI zayif. KURAL KARARI: 1641'de Li Zicheng henuz devlet kurmamisti (Xinshun 1643, Dashun ilani 1644-02-08); 1641-1643 'dashun' s yazmak TEK KURAL ile celisebilir (isg mi?). Koordinator karari gerekli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1900",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1645-01-18",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Qing shi gao 4 (bkz. Dashun satiri)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu satirin KAPANISI 1912-02-12 ULKE DUZEYI (devralma). Acilis 1645-01-18 icin bkz. Dashun satirindaki celiski (Qing shi gao 4: Dodo 戊辰 1645-01-11 Mengjin)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1901",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing hanedani 1912-02-12 abdikasyon fermani (zh.wikisource 清帝退位詔書) — mevcut kayittan devralindi, bu oturumda yeniden acilmadi",
+   "alinti": "特率皇帝將統治權公諸全國，定為共和立憲國體",
+   "oneri": {},
+   "not": "ULKE DUZEYI: Qing'in sona erisi/Cin Cumhuriyeti 1912-02-12 ulke duzeyinde dogru; sehre ozgu tanik yok. KASA beyanli yaklasiklik yazar."
+  }
+ ],
+ "Lhasa": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2984",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1281-01-01",
+   "t": "1354-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Tibet», https://islamansiklopedisi.org.tr/tibet",
+   "alinti": "Tibet, Çin İmparatorluğu’nun bir parçası halinde doğrudan doğruya Yüan (Kubilay) hânedanı tarafından idare edildi",
+   "oneri": {},
+   "not": "BOLGE DUZEYI (Tibet maddesi; Lhasa maddesi TDV'de yok). t=1354: 'Phag Mo Gru Pa mezhebi galip geldi ve idarenin basina gecti (1354)' yil duzeyi uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2984",
+   "alan": "s",
+   "d": "tibet",
+   "f": "1354-01-01",
+   "t": "1642-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Tibet», https://islamansiklopedisi.org.tr/tibet",
+   "alinti": "Phag Mo Gru Pa mezhebi galip geldi ve idarenin başına geçti (1354)",
+   "oneri": {},
+   "not": "BOLGE DUZEYI. KISMEN: f yil 1354 TDV; t=1642 TDV'de YOK ('Koshot Mogollari ulkeyi besinci dalay-lamanin yonetimine biraktilar', yil yok); mevcut devralma kaynagi Treasury of Lives, listeli kaynak degil. NOT: TDV'ye gore Phagmodrupa baskenti Ne'u Gdong, Lhasa'nin 1354-1642 arasi fiili sahibi (Rinpungpa/Tsangpa) 'tibet' kunyesiyle genellenmis."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2985",
+   "alan": "s",
+   "d": "tibet-ganden-phodrang",
+   "f": "1642-01-01",
+   "t": "1720-09-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Tibet», https://islamansiklopedisi.org.tr/tibet ; mevcut Petech kaydi (1720-09-24)",
+   "alinti": "1720’de Ch’ing hânedanı yönetimindeki Çin",
+   "oneri": {},
+   "not": "KISMEN: t=1720 TDV yil + Petech (mevcut isg/qing satirlari 1720-09-24). f=1642 TDV'de yok (yalniz 'Koshot Mogollari besinci dalay-lamaya biraktilar'); 1642 icin Petech/Shakabpa/Cambridge History of Inner Asia aranmali. Beyan: 1717-11-30..1720-09-24 Cungar isgali (isg satiri) bu satirla cakisiyor, 1642->1717-11-30 kismi gerekir mi, KASA bakar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2987",
+   "alan": "s",
+   "d": "tibet-ganden-phodrang",
+   "f": "1912-02-12",
+   "t": "1951-05-23",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Tibet», https://islamansiklopedisi.org.tr/tibet",
+   "alinti": "1951’de ... tanıyıp özerklik verdi (23 Mayıs 1951)",
+   "oneri": {},
+   "not": "KISMEN: t=1951-05-23 TDV ile gun duzeyinde dogrulandi ('Mayis 1951 yerel devlet olarak taniyip ozerklik verdi (23 Mayis 1951)'); ayrica '1950'de isgal edip resmen ilhak etti' (PLA Lhasa'ya 1951-09-09'da girdi; Lhasa icin isg satiri gerekmez). f=1912-02-12 ULKE DUZEYI (Qing abdikasyonu): TDV Tibet tarihlendirmesi karisik (1908 Cin isgali, 'II. Dunya Savasi sirasinda' Cin askerinin cikarilmasi) ve 1912/1913 bagimsizlik gununu VERMIYOR. KURAL KARARI: Tibet'in fiili ayrilisi 1912-13 (Cin garnizonu Aralik 1912), 13. Dalay Lama ilani Subat 1913 — atlas 1912-02-12 kullaniyor; kaynak yok."
+  }
+ ],
+ "Kaşgar": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2889",
+   "alan": "s",
+   "d": "mogulistan",
+   "f": "1347-01-01",
+   "t": "1514-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kasgar», https://islamansiklopedisi.org.tr/kasgar",
+   "alinti": "Duğlatlar ... Kâşgar’ı tekrar ele geçirerek burada 1499 veya 1514 yılına kadar hüküm sürdüler",
+   "oneri": {},
+   "not": "KISMEN: t=1514 yil TDV (alternatif 1499 beyan). f=1347 TDV'de yok (TDV: Kasgar 1227'de Cagatay payi; sonra Mahmud/Mesud Yalavac; XIV. yy ikinci yarisinda Duglat emirleri). Duglat emirleri = Mogulistan kunyesiyle genellenmis olmali."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2890",
+   "alan": "s",
+   "d": "yarkent-hanligi",
+   "f": "1514-01-01",
+   "t": "1705-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kasgar», https://islamansiklopedisi.org.tr/kasgar",
+   "alinti": "1499 veya 1514 yılına kadar hüküm sürdüler. 1606’da Çağatay hânedanına mensup Emîr İsmâil Kâşgar’a hâkim oldu",
+   "oneri": {},
+   "not": "KISMEN: f=1514 yil (TDV 1499 veya 1514 — ic_not'ta alternatif beyan). t=1705-01-01 TDV'de YOK ve TDV'ye ters: 1678'de Afak Hoca 'Kalmuklar'in yardimiyla emir oldu' (Cungar/Kalmuk nufuzu 1678'den). 1705 icin Cambridge History of Inner Asia / Zotov (TDV bibliyografyasi) aranmali."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2891",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1705-01-01",
+   "t": "1759-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kasgar», https://islamansiklopedisi.org.tr/kasgar",
+   "alinti": "Âfâk (Appak, Abak) Hoca, Kalmuklar’ın yardımıyla 1678’de şehrin emîri oldu",
+   "oneri": {},
+   "not": "TDV Kasgar Cungar'i dogrudan anmiyor; yalniz 'Kalmuklar'in yardimiyla 1678'de Afak Hoca emir oldu; Hocalar donemi XIX. yy'a dek'. Atlas 1705-1759 Cungar satirini TDV desteklemiyor, 1678 baslangici oneri olabilir (Kalmuk himayesi) — ama bu Hoca emirligi + Kalmuk vesayeti; devlet sahipligi degil. Baska akademik kaynak sart. ÇİFT-TDV degil, tek TDV."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2892",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1759-01-01",
+   "t": "1864-06-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kasgar», https://islamansiklopedisi.org.tr/kasgar",
+   "alinti": "1759’da Çin Tarım havzasının tamamını işgal etti ve merkezi Yârkend olan mahallî bir yönetim kurdu",
+   "oneri": {},
+   "not": "f yil duzeyi TDV ile teyit (1759). TDV 'isgal' sozcugunu kullaniyor; Cin kendi ulke iddiasiyla idareyi kurdu (Yarkend merkezli) — isg degil s. t=1864-06-04 icin bkz. Yakub Beg satiri (TDV: Yakub Han 1864 yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2893",
+   "alan": "s",
+   "d": "yakub-beg",
+   "f": "1864-06-04",
+   "t": "1877-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kasgar», https://islamansiklopedisi.org.tr/kasgar",
+   "alinti": "1877’de Yâkub Han’ın ölümü üzerine Çinliler’in Kâşgar’ı istilâ etmesiyle",
+   "oneri": {},
+   "not": "KISMEN: devlet (Yakub Han, Kasgar devleti) teyitli; TDV: 1870 Ingiliz anlasmasi, 1872'den itibaren Abdulaziz adina hutbe, 1875 veraset; t yil 1877 (ic_not: gun 1877-12-17 teyitsiz). f=1864-06-04 kaynakta YOK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2894",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1877-12-17",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kasgar», https://islamansiklopedisi.org.tr/kasgar",
+   "alinti": "Çinliler’in Kâşgar’ı istilâ etmesi (1877) ... 1884’te Çin yönetimi bölgede Doğu Türkistan (Sinkiang) vilâyetini kurdu",
+   "oneri": {},
+   "not": "KISMEN: f yil 1877 TDV ('istila' = Qing'in kendi toprak iddiasini geri almasi, isg degil). t=1912-02-12 ULKE DUZEYI (mevcut Qing fermani). 1884 Sinkiang vilayeti beyan."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2895",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1933-11-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing hanedani 1912-02-12 abdikasyon fermani (zh.wikisource 清帝退位詔書) — mevcut kayittan devralindi, bu oturumda yeniden acilmadi",
+   "alinti": "特率皇帝將統治權公諸全國",
+   "oneri": {},
+   "not": "ULKE DUZEYI: Qing'in sona erisi/Cin Cumhuriyeti 1912-02-12 ulke duzeyinde dogru; sehre ozgu tanik yok. KASA beyanli yaklasiklik yazar. TDV Kasgar '1930'da Sovyetler himaye ilan etti; 1933'te Uygurlar Kasgar'da Sovyet karsiti Dogu Turkistan cumhuriyeti kurma tesebbusunde bulundularsa da basarili olamadilar' der — bu satir icin cikis 1933-11-12 (DET icin TDV 'Turkistan' — ayri)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2897",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1934-03-21",
+   "t": "1949-10-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kasgar», https://islamansiklopedisi.org.tr/kasgar",
+   "alinti": "1933’te Uygurlar, Kâşgar’da ... bir Doğu Türkistan cumhuriyeti kurma teşebbüsünde bulundularsa da başarılı olamadılar",
+   "oneri": {},
+   "not": "ÇİFT-TDV / KURAL KARARI: Mevcut kaynak TDV 'Turkistan' (1934-03-21 Cin Kasgar'a girdi, DET cekildi); yerlesimin KENDI sehir maddesi (TDV Kasgar) ise 1933 girisiminin 'basarili olamadigini' soyluyor, gun vermiyor. ÇİFT-TDV kurali: ucuncu bagimsiz kaynak (Forbes 1986 s.122-123 mevcut kayitta; Cambridge History of China 12-13) bulunamadi; Kasgar maddesi esas ise 1933-11-12..1934-03-21 DET/Ma Zhongying donemi satirinin varligi sorgulanir. Karari koordinator ver."
+  }
+ ],
+ "Ordu-Balık (Ordu-Baliq)": [
+  {
+   "dosya_satir": "",
+   "alan": "",
+   "d": "",
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Partide donem listesi BOS (donemler=[], neden: baskent:uygur) — hedef donem yok, sahiplik zinciri partide yok. Bakilmadi; yerlesimin donemleri baska dosyada olabilir."
+  }
+ ],
+ "Orhun Vadisi (Ötüken bölgesi)": [
+  {
+   "dosya_satir": "",
+   "alan": "",
+   "d": "",
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Partide donem listesi BOS (donemler=[], neden: baskent:uygur) — hedef donem yok. Bakilmadi."
+  }
+ ],
+ "Pannonia": [
+  {
+   "dosya_satir": "",
+   "alan": "",
+   "d": "",
+   "f": "",
+   "t": "",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu yerlesimde kaynagi bos ya da DEVRALMA donem YOK (3 donemin hepsi kaynakli, AVMAC-A-1029). Hedef donem olmadigindan bakilmadi."
+  }
+ ],
+ "Almalık (Almalığ)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:215",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1347-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kulca», https://islamansiklopedisi.org.tr/kulca",
+   "alinti": "Moğollar’ın hâkimiyetine giren bölge Cengiz Han’ın ölümünün ardından ikinci oğlu Çağatay’ın payına düştü",
+   "oneri": {},
+   "not": "BOLGE DUZEYI (TDV Kulca = Ili vadisi; Almalik maddesi TDV'de yok, tdv-ara 'almalik' bos). KISMEN: devlet teyitli; f=1281 kunye; t=1347 TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:217",
+   "alan": "s",
+   "d": "mogulistan",
+   "f": "1347-01-01",
+   "t": "1634-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kulca», https://islamansiklopedisi.org.tr/kulca",
+   "alinti": "1508’de son Çağatay Hanı Ahmed Han’ın öldürülmesiyle Şeybânîler’e intikal etti",
+   "oneri": {},
+   "not": "TDV Kulca MOGULISTAN'i anmiyor; Ili'nin Cagatay -> 1508 Seybani'ye gectigini soyluyor (TDV ic celiskisi/atlasa ters: Kasgar TDV Duglat emirlerini 1499/1514'e dek anar). Atlas Mogulistan 1347-1634'u kaynaksiz. Mogulistan icin Cambridge History of Inner Asia / Iranica aranmali."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:218",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1634-01-01",
+   "t": "1755-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kulca», https://islamansiklopedisi.org.tr/kulca",
+   "alinti": "XVI. yüzyılın sonlarında veya XVII. yüzyılın başlarında Oyratlar’ın ... 1755’te de Çinliler’in eline geçti",
+   "oneri": {},
+   "not": "BOLGE DUZEYI. KISMEN: devlet (Oyrat/Cungar) teyitli; f=1634 TDV'de yok ('XVI. yy sonu/XVII. yy basi'); t yil 1755 TDV ile uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:219",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1755-01-01",
+   "t": "1871-07-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kulca», https://islamansiklopedisi.org.tr/kulca",
+   "alinti": "1755’te de Çinliler’in eline geçti",
+   "oneri": {},
+   "not": "BOLGE DUZEYI (Kulca/Ili). f yil 1755 TDV; Cinliler Ili'de Ning-yuan-chen (Yining) 1762'de kurdu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:220",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1871-07-04",
+   "t": "1882-03-22",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kulca», https://islamansiklopedisi.org.tr/kulca",
+   "alinti": "1871’de sadece Kulca dahil Yukarı İli havzasını işgal ettiler ... 1883’te de Kulca Ruslar tarafından tamamen boşaltıldı",
+   "oneri": {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1871-07-04",
+    "t": "1883 (YIL)"
+   },
+   "not": "TEK KURAL: TDV 'isgal ettiler' diyor; Rus 'gecici isgal' (devir 1881 Petersburg antlasmasi). Satir alan=s degil isg olmali; t=1882-03-22 TDV'de yok: TDV 1883'te 'tamamen bosaltildi' (gun yok). 1871-07-04 gunu TDV'de yok (yil 1871). Kulca ≠ Almalik: Almalik (Huocheng yakini) Kuldja bolgesindedir; Rus isgal alani Yukari Ili. Kendi kaynak ara: Cambridge History of China cilt 11. "
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:221",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1882-03-22",
+   "t": "1912-02-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Kulca», https://islamansiklopedisi.org.tr/kulca",
+   "alinti": "1883’te de Kulca Ruslar tarafından tamamen boşaltıldı",
+   "oneri": {
+    "f": "1883 (YIL; gun teyitsiz)"
+   },
+   "not": "Rus isgalinin sonu TDV'ye gore 1883 (atlas 1882-03-22 kaynaksiz). Qing satiri ancak Rus bosaltmasindan itibaren (isg bittiginde) basliyor; Petersburg Antlasmasi 1881-02-24 (TDV'de yok). t=1912 ULKE DUZEYI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:222",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1912-02-12",
+   "t": "1949-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Qing hanedani 1912-02-12 abdikasyon fermani (zh.wikisource 清帝退位詔書) — mevcut kayittan devralindi, bu oturumda yeniden acilmadi",
+   "alinti": "特率皇帝將統治權公諸全國",
+   "oneri": {},
+   "not": "ULKE DUZEYI: Qing'in sona erisi/Cin Cumhuriyeti 1912-02-12 ulke duzeyinde dogru; sehre ozgu tanik yok. KASA beyanli yaklasiklik yazar. TDV Kulca: 1944'te Kulca'da Dogu Turkistan Cumhuriyeti ilan edildi (7 Agustos) — atlas satiri 1944-49 icin kontrol."
+  }
+ ],
+ "Karşi (Nahşeb)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js:126",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1370-04-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'karsi' (islamansiklopedisi.org.tr/karsi; kisi/kelime maddesi, yerlesim degil); TDV arama 'Nesef' yalniz Nesefi kisi maddeleri; iranicaonline.org/articles/nakhsab 404",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Karsi/Nahseb/Nesef SEHIR maddesi YOK (bakildi: karsi, nesef aramasi). Iranica Nakhshab 404 verdi. Bu satir Cagatay/Timur/Buhara/Sovyet donemleri icin kaynaksiz kaldi. Oneri: Cambridge History of Iran / Barthold, 'Turkestan Down to the Mongol Invasion'; ayrica 1920-09-02 Sovyet satiri icin: Buhara Halk Sovyet Cumhuriyeti ilani 1920-10-08 — Kizil Ordu Buhara'yi 1920-09-02'de aldi (Karsi'nin 1920 Eylul'de dustugunu dogrulayan kaynak yok) ; TEK KURAL: Sovyet-Rusya isgali / BHSC ayri devlet olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js:126",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1370-04-09",
+   "t": "1500-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'karsi' (islamansiklopedisi.org.tr/karsi; kisi/kelime maddesi, yerlesim degil); TDV arama 'Nesef' yalniz Nesefi kisi maddeleri; iranicaonline.org/articles/nakhsab 404",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Karsi/Nahseb/Nesef SEHIR maddesi YOK (bakildi: karsi, nesef aramasi). Iranica Nakhshab 404 verdi. Bu satir Cagatay/Timur/Buhara/Sovyet donemleri icin kaynaksiz kaldi. Oneri: Cambridge History of Iran / Barthold, 'Turkestan Down to the Mongol Invasion'; ayrica 1920-09-02 Sovyet satiri icin: Buhara Halk Sovyet Cumhuriyeti ilani 1920-10-08 — Kizil Ordu Buhara'yi 1920-09-02'de aldi (Karsi'nin 1920 Eylul'de dustugunu dogrulayan kaynak yok) ; TEK KURAL: Sovyet-Rusya isgali / BHSC ayri devlet olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js:126",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1500-01-01",
+   "t": "1920-09-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'karsi' (islamansiklopedisi.org.tr/karsi; kisi/kelime maddesi, yerlesim degil); TDV arama 'Nesef' yalniz Nesefi kisi maddeleri; iranicaonline.org/articles/nakhsab 404",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Karsi/Nahseb/Nesef SEHIR maddesi YOK (bakildi: karsi, nesef aramasi). Iranica Nakhshab 404 verdi. Bu satir Cagatay/Timur/Buhara/Sovyet donemleri icin kaynaksiz kaldi. Oneri: Cambridge History of Iran / Barthold, 'Turkestan Down to the Mongol Invasion'; ayrica 1920-09-02 Sovyet satiri icin: Buhara Halk Sovyet Cumhuriyeti ilani 1920-10-08 — Kizil Ordu Buhara'yi 1920-09-02'de aldi (Karsi'nin 1920 Eylul'de dustugunu dogrulayan kaynak yok) ; TEK KURAL: Sovyet-Rusya isgali / BHSC ayri devlet olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek14.js:126",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1920-09-02",
+   "t": "1991-08-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV 'karsi' (islamansiklopedisi.org.tr/karsi; kisi/kelime maddesi, yerlesim degil); TDV arama 'Nesef' yalniz Nesefi kisi maddeleri; iranicaonline.org/articles/nakhsab 404",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV'de Karsi/Nahseb/Nesef SEHIR maddesi YOK (bakildi: karsi, nesef aramasi). Iranica Nakhshab 404 verdi. Bu satir Cagatay/Timur/Buhara/Sovyet donemleri icin kaynaksiz kaldi. Oneri: Cambridge History of Iran / Barthold, 'Turkestan Down to the Mongol Invasion'; ayrica 1920-09-02 Sovyet satiri icin: Buhara Halk Sovyet Cumhuriyeti ilani 1920-10-08 — Kizil Ordu Buhara'yi 1920-09-02'de aldi (Karsi'nin 1920 Eylul'de dustugunu dogrulayan kaynak yok) ; TEK KURAL: Sovyet-Rusya isgali / BHSC ayri devlet olabilir."
+  }
+ ],
+ "Taşkent": [
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:77",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1370-04-09",
+   "t": "1485-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Taskent», https://islamansiklopedisi.org.tr/taskent",
+   "alinti": "Timurlular arasında başlayan taht mücadelesi neticesinde Taşkent ve çevresi Yûnus Han’ın idaresine girdi (890/1485)",
+   "oneri": {},
+   "not": "KISMEN: t=1485 yil TDV (hicri 890; Yunus Han'in idaresine girdi). f=1370-04-09 kunye; TDV 'Cagatay -> Timur ve halefleri; 1410'da Mirza Ulug Bey'e mulk' (gun yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:79",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1503-01-01",
+   "t": "1809-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Taskent», https://islamansiklopedisi.org.tr/taskent",
+   "alinti": "908’de (1503) Taşkent’i Özbek Şeybânî Han aldı ... 1784’te ... bağımsız Taşkent Devleti’ni kurdu",
+   "oneri": {
+    "t": "1784 (YIL)",
+    "sonraki": "taskent-devleti (kunye yok) 1784 → 1809"
+   },
+   "not": "f yil 1503 TDV ile teyit (hicri 908; Seybani Han). AMA TDV: 1784'te Seyhantahur hakimi Yunus Hoca dort bolgeyi birlestirip BAGIMSIZ TASKENT DEVLETI kurdu; Taskent 1809'da Hokand'a katildi. Atlas 'buhara' 1503-1809: 1784-1809 donemi bagimsiz Taskent olmali (kunye yok, yeni devlet kunyesi gerek). Ayrica Seybani Han'in 1503'te kurdugu devlet 'buhara' degil Seybani/Ozbek devleti (kunye karari)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:80",
+   "alan": "s",
+   "d": "hokand",
+   "f": "1809-01-01",
+   "t": "1865-06-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Taskent», https://islamansiklopedisi.org.tr/taskent",
+   "alinti": "Sultan Hoca döneminde Hokand Hanlığı’nın egemenliğine girdi (1809) ... Haziran 1865’te Çarlık Rusyası orduları tarafından işgal edilen",
+   "oneri": {},
+   "not": "f yil 1809 ve t=1865-06 (ay) TDV ile uyumlu; 1865-06-17 gunu kaynakta yok (ay-yil: Haziran 1865)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:81",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1865-06-17",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Taskent», https://islamansiklopedisi.org.tr/taskent",
+   "alinti": "Haziran 1865’te Çarlık Rusyası orduları tarafından işgal edilen Taşkent ... 1867’de kurulan Türkistan Genel Gubernatörlüğü’",
+   "oneri": {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1865-06-17 (TDV: Haziran 1865)",
+    "t": "ilhak gunu (TDV'de yok; 1866-67 arasi, Turkistan Genel Gubernatorlugu 1867)"
+   },
+   "not": "TEK KURAL: Haziran 1865 Rus askeri isgali -> isg; s Rusya ilhak/devir gununden. TDV ilhak gunu vermiyor (yalniz 'Haziran 1865'te isgal', '1867'de kurulan Turkistan Genel Gubernatorlugu'). Rus ilhak karari icin ek kaynak (Cambridge History of Inner Asia / Becker, Russia's Protectorates) sart. t=1917-03-15 ULKE DUZEYI (mevcut kayit)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:82",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Taskent», https://islamansiklopedisi.org.tr/taskent",
+   "alinti": "1917 Bolşevik İhtilâli’nin ardından Sovyetler Birliği yönetimine giren Taşkent",
+   "oneri": {},
+   "not": "TDV Taskent Subat/Mart 1917'yi anmiyor; yalniz 'Bolsevik ihtilali'nin ardindan Sovyet yonetimine giren'. Satir ULKE DUZEYI (Nikola II tahttan cekildi); sehre ozgu tanik yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:83",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1918-04-30",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Taskent», https://islamansiklopedisi.org.tr/taskent",
+   "alinti": "1917 Bolşevik İhtilâli’nin ardından Sovyetler Birliği yönetimine giren Taşkent ertesi yıl Türkistan Otonom Cumhuriyeti’nin başşehri oldu",
+   "oneri": {},
+   "not": "TDV Taskent gun vermiyor. Mevcut devralma kaynagi Hokand Muhtariyeti (1917-11-27) Taskent'in sahibini degil Hokand'inkini anlatir — yerlesim tanikligi DEGIL. 1918 Turkistan Otonom Cumhuriyeti basskenti (TDV yil 1918; atlas 1918-04-30). Taskent'in gercek Sovyet iktidari: 1917 Ekim sonu (O.S.)/Kasim basi — Taskent Sovyeti ayaklanmasi; kaynak ayri aranmali. KASA: bu satirin kaynagi 'ULKE/ETKI DUZEYI' beyan edilmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek15.js:85",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1924-09-16",
+   "t": "1991-08-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV Islam Ansiklopedisi, «Taskent», https://islamansiklopedisi.org.tr/taskent",
+   "alinti": "1924’te Özbekistan Sovyet Sosyalist Cumhuriyeti topraklarına katılan Taşkent 1930 yılında bu cumhuriyetin başşehri yapıldı ... Taşkent 31 Ağustos 1991’de kurulan bağımsız Özbekistan Cumhuriyeti’nin başşehri oldu",
+   "oneri": {},
+   "not": "KISMEN: f yil 1924 TDV (atlas 1924-09-16 TDV 'Turkistan' maddesinden; Taskent maddesi gun vermiyor; Ozbek SSC resmen 1924-10-27 — ÇİFT-TDV: kendi sehir maddesi yalniz '1924' diyor, celiski yok). t=1991-08-31 TDV Taskent ile GUN DUZEYINDE teyitli (Ozbekistan bagimsizlik ilani); koordinator kurali: 'SSCB'nin sona erisi 1991-12-26; uluslararasi taninma Aralik 1991' ic_not beyani."
+  }
+ ],
+ "Dijon": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:214",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1477-01-05",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "kaynak": "Cosmovisions «Bourgogne» (popüler — DAYANAK DEĞİL); BnF Fr.5325 katalog kaydı (biblissima)",
+   "alinti": "",
+   "oneri": {
+    "isg": "fransa 1477-01-?? (Dijon girişi, gün BULUNAMADI) → 1477-03-18",
+    "s_burgonya_t": "1477-03-18",
+    "s_fransa_f": "1477-03-18"
+   },
+   "not": "BEKLE — KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026): yapı TEK KURAL'a uygun (1477-01-29 Estates teslimi Marie hakkı saklı şartlı emanet; 1477-03-18 Arras aktıyla Dijon parlamentosu = açık tasarruf), AMA akademik kaynak gelene kadar UYGULANMAZ. Gerekli: Chevanne 1930 (Mém. Soc. archéol. Beaune s.195-245) / NCMH VII c.20 / Vaughan, Charles the Bold / Paravicini — EMRELİC tarayıcı kuyruğunda. ic_not adayları: Arras 1482-12-23 (dükalık anılmaz), Senlis 1493-05-23, Cambrai 1529-08-05. Şimdiki 1477-01-05 = Şarl'ın ölümü, devir değil."
+  }
+ ],
+ "Auxerre": [
+  {
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:79",
+   "alan": "s",
+   "d": "burgonya",
+   "f": "1435-01-01",
+   "t": "1477-01-01",
+   "hukum": "ONERI",
+   "kaynak": "herodote.net (popüler — DAYANAK DEĞİL); Cosmovisions",
+   "alinti": "",
+   "oneri": {
+    "f": "1435-09-21 (Arras I)",
+    "t": "Dijon 1477 kararına bağlı"
+   },
+   "not": "BEKLE — KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026): Arras I günü akademik kaynaktan (NCMH VII) gelene kadar UYGULANMAZ. Arras 1482'de Auxerre Marguerite çeyizine yazılmış olabilir (yalnız Cosmovisions) — 1482-1493 ayrı dilim, ölçülmedi."
+  }
+ ],
+ "Tancûr (Thanjavur)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1508",
+   "alan": "s",
+   "d": "pandya",
+   "f": "1281-01-01",
+   "t": "1311-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
+   "alinti": "During the thirteenth century Tanjore passed ... under the Hoysala Ballalas ... and the Pandyas of Madura",
+   "oneri": {},
+   "not": "YIL/YÜZYIL düzeyi (13. yy). IGI Hoysala Ballalar'ı da anar; 1281 ucu ve Pandya'ya geçiş günü kaynakta yok. TDV 'tancur' maddesi yok (arama sonuçsuz)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1508",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1311-01-01",
+   "t": "1335-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
+   "alinti": "subjection of the south to the Muhammadan successors of Malik Kafur's invasion",
+   "oneri": {},
+   "not": "IGI yalnız 'Malik Kâfûr istilâsının Müslüman ardılları' der; Delhi ile Madurai Sultanlığı'nı ayırmaz, 1311/1335/1378 uçları yok. Delhi (1311-1335) ve Madurai (1335-1378) dönemleri ayrı ayrı teyit EDİLEMEDİ; ikisi birlikte 'Müslüman egemenliği 14. yy' olarak kismen desteklenir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1509",
+   "alan": "s",
+   "d": "madurai-sultanligi",
+   "f": "1335-01-01",
+   "t": "1378-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
+   "alinti": "Muhammadan successors of Malik Kafur's invasion till the close of the fourteenth century",
+   "oneri": {},
+   "not": "Bkz. Delhi satırı: IGI 14. yy sonuna kadar 'Müslüman' egemenlik der, Madurai Sultanlığı'nı adıyla anmaz. Bu satır kismen (yüzyıl düzeyi) desteklenir ama devlet adı teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1510",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1378-01-01",
+   "t": "1532-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
+   "alinti": "till the close of the fourteenth century, when it became part of the Hindu kingdom of Vijayanagar",
+   "oneri": {},
+   "not": "YÜZYIL düzeyi: IGI 14. yy sonu der; 1378 günü/yılı kaynakta yok (1378 ± 20 kismen uyumlu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1511",
+   "alan": "s",
+   "d": "nayak-devletleri",
+   "f": "1532-01-01",
+   "t": "1676-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
+   "alinti": "one of the generals of that kingdom declared himself independent",
+   "oneri": {},
+   "not": "IGI: 16. yy'da Vijayanagar generallerinden biri bağımsız oldu, 17. yy başında halef devleti kurdu (Tancur Nayakları). 1532 ucu kaynakta yok; yalnız yüzyıl düzeyi. IGI ilgili cümlesi 'early part of the seventeenth century' ile bitiyor (devamı okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1512",
+   "alan": "s",
+   "d": "tancur-maratha",
+   "f": "1676-01-01",
+   "t": "1799-10-25",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
+   "alinti": "founded (about 1674) a Maratha dynasty which continued in power until the close of the eighteenth century",
+   "oneri": {
+    "f": "1674 (about; YIL, gün yok)",
+    "isg_ekle": "ingiliz-hindistani 1773→1776 (YIL)"
+   },
+   "not": "Mevcut kaynaklı dönemle açık çelişki DEĞİL ama fark: IGI 'about 1674' (Venkaji), atlas 1676 (Ekoji). Zayıf (about). Ayrıca IGI: 1773'te İngilizler Tancur'u Arcot Nevvabı adına işgal etti, 1776'da Raca'ya geri verildi — TEK KURAL: isg ingiliz-hindistani 1773→1776 (YIL) eklenebilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1513",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1799-10-25",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIII, «Tanjore District» ve «Tanjore Town» (archive.org in.ernet.dli.2015.73053)",
+   "alinti": "In October, 1799 ... Raja Sarabhoji resigned his dominions into the hands of",
+   "oneri": {},
+   "not": "Açılış ucu: Ekim 1799 (IGI, gün yok; 25 Ekim günü bu kaynakta yok). Kapanış 1947 için aşağıdaki Hindistan satırına bkz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1514",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan",
+   "alinti": "bölünme planı 14 Ağustos 1947'de fiilen uygulamaya konuldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehre özgü değil). TDV Hindistan: «14 Ağustos 1947'de fiilen uygulamaya konuldu» (bölünme planı, Pakistan); atlastaki 15 Ağustos 1947 günü Indian Independence Act md.1 kaynağına dayanıyor (bu oturumda açılmadı). İki gün farklı olayları anlatıyor; hüküm KASA'nın. Dönem sonu 2000-12-31 veri ufku yer tutucusu."
+  }
+ ],
+ "Polonnaruwa": [
+  {
+   "dosya_satir": "data/yerlesimler_dogu_500_1281.js:None",
+   "alan": "s",
+   "d": "cola/polonnaruwa/seylan-sinhala",
+   "f": "1017-01-01",
+   "t": "1288-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "(hedef dışı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Üç dönemin üçü de mevcut kaynaklı (Majumdar CIP IV/V, archive.org tam metin); kaynağı boş/DEVRALMA dönem yok. Yeni kaynak aranmadı. Not: 2. dönemin sahibi 'polonnaruwa' renkler.py BOYALAR'da yok (kayıtlı BOŞLUK BEYANI); 3. dönem ucu 1288 yer tutucu görünüyor."
+  }
+ ],
+ "Arkot (Arcot)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1568",
+   "alan": "s",
+   "d": "pandya",
+   "f": "1281-01-01",
+   "t": "1311-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. V, «Arcot Town» (archive.org in.ernet.dli.2015.61232); TDV «Hindistan» (hanedan listesi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "IGI Arcot Town maddesi yalnız 1712'den sonrasını anlatır; 1281-1712 arası (Pandya, Delhi, Vijayanagara, Bîcâpûr, Bâbürlü) şehre özgü kaynak bulunamadı. TDV 'arkot/arcot' maddesi yok (arama başlıkta sonuç vermedi). Bölge düzeyi (Tamil Nadu kuzeyi) Vijayanagara/Bîcâpûr/Bâbürlü zinciri başka kaynak ister."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1568",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1311-01-01",
+   "t": "1378-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. V, «Arcot Town» (archive.org in.ernet.dli.2015.61232); TDV «Hindistan» (hanedan listesi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "IGI Arcot Town maddesi yalnız 1712'den sonrasını anlatır; 1281-1712 arası (Pandya, Delhi, Vijayanagara, Bîcâpûr, Bâbürlü) şehre özgü kaynak bulunamadı. TDV 'arkot/arcot' maddesi yok (arama başlıkta sonuç vermedi). Bölge düzeyi (Tamil Nadu kuzeyi) Vijayanagara/Bîcâpûr/Bâbürlü zinciri başka kaynak ister."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1569",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1378-01-01",
+   "t": "1656-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. V, «Arcot Town» (archive.org in.ernet.dli.2015.61232); TDV «Hindistan» (hanedan listesi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "IGI Arcot Town maddesi yalnız 1712'den sonrasını anlatır; 1281-1712 arası (Pandya, Delhi, Vijayanagara, Bîcâpûr, Bâbürlü) şehre özgü kaynak bulunamadı. TDV 'arkot/arcot' maddesi yok (arama başlıkta sonuç vermedi). Bölge düzeyi (Tamil Nadu kuzeyi) Vijayanagara/Bîcâpûr/Bâbürlü zinciri başka kaynak ister."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1570",
+   "alan": "s",
+   "d": "bicapur",
+   "f": "1656-01-01",
+   "t": "1687-09-21",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. V, «Arcot Town» (archive.org in.ernet.dli.2015.61232); TDV «Hindistan» (hanedan listesi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "IGI Arcot Town maddesi yalnız 1712'den sonrasını anlatır; 1281-1712 arası (Pandya, Delhi, Vijayanagara, Bîcâpûr, Bâbürlü) şehre özgü kaynak bulunamadı. TDV 'arkot/arcot' maddesi yok (arama başlıkta sonuç vermedi). Bölge düzeyi (Tamil Nadu kuzeyi) Vijayanagara/Bîcâpûr/Bâbürlü zinciri başka kaynak ister."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1571",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1687-09-21",
+   "t": "1714-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. V, «Arcot Town» (archive.org in.ernet.dli.2015.61232); TDV «Hindistan» (hanedan listesi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "IGI Arcot Town maddesi yalnız 1712'den sonrasını anlatır; 1281-1712 arası (Pandya, Delhi, Vijayanagara, Bîcâpûr, Bâbürlü) şehre özgü kaynak bulunamadı. TDV 'arkot/arcot' maddesi yok (arama başlıkta sonuç vermedi). Bölge düzeyi (Tamil Nadu kuzeyi) Vijayanagara/Bîcâpûr/Bâbürlü zinciri başka kaynak ister."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1572",
+   "alan": "s",
+   "d": "karnatik",
+   "f": "1714-01-01",
+   "t": "1801-07-31",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. V, «Arcot Town» (archive.org in.ernet.dli.2015.61232); TDV «Hindistan» listesi «Arcot nevvâbları (1707-1858)»",
+   "alinti": "In 1712 ... Saadat-ullah Khan ... transferred his head-quarters to Arcot",
+   "oneri": {
+    "f": "1712 (IGI) / 1707 (TDV liste) — YIL",
+    "ara_donemler": "meysur 1780→1782 (YIL); isg fransa 1758→1760 (YIL)"
+   },
+   "not": "IGI: 1712'de Saadetullah Han karargâhını Arkot'a taşıdı, yönetim merkezi oldu; TDV hanedan listesi Arcot nevvâblarını 1707-1858 verir. Atlas 1714 ile iki kaynak uyuşmuyor (YIL düzeyi). IGI ayrıca: 1740 Maratha istilası (Raghuji Bhonsla), 1751 İngiliz garnizonu, 1758 Fransızlar (Lally), 1760 Coote geri aldı, 1780-1782 Haydar Ali elinde — bu ara dönemler atlasta yok; TEK KURAL gereği çoğu isg adayı (gün yok, YIL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1573",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1801-07-31",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. V, «Arcot Town» (archive.org in.ernet.dli.2015.61232)",
+   "alinti": "In the cession of the Carnatic to the English in 1801, Arcot was included",
+   "oneri": {},
+   "not": "YIL düzeyi (1801). 31 Temmuz günü bu kaynakta yok. Kapanış 1947 için Hindistan satırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1574",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan",
+   "alinti": "bölünme planı 14 Ağustos 1947'de fiilen uygulamaya konuldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehre özgü değil). TDV Hindistan: «14 Ağustos 1947'de fiilen uygulamaya konuldu» (bölünme planı, Pakistan); atlastaki 15 Ağustos 1947 günü Indian Independence Act md.1 kaynağına dayanıyor (bu oturumda açılmadı). İki gün farklı olayları anlatıyor; hüküm KASA'nın. Dönem sonu 2000-12-31 veri ufku yer tutucusu."
+  }
+ ],
+ "Seringapatam (Şrirangapatnam)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1437",
+   "alan": "s",
+   "d": "hoysala",
+   "f": "1281-01-01",
+   "t": "1343-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Hindistan» hanedan listesi: «Hoysalar (Orta ve Güney Dekken, 1110-1327)»; Imperial Gazetteer of India, Oxford 1908, vol. XXII, «Seringapatam Town» (archive.org in.ernet.dli.2015.207402)",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÇELİŞKİ (ONERI değil, hüküm KASA'nın): atlas Hoysala'yı 1343'te bitiriyor (III. Ballala'nın ölümü), TDV listesi hanedanı 1110-1327 verir. TDV hanedan düzeyidir, şehre özgü değil. IGI Seringapatam 1454'e kadar Hoysala'yı anmaz. 1281-1343 şehir tanıklığı bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1437",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1343-01-01",
+   "t": "1565-01-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXII, «Seringapatam Town» (archive.org in.ernet.dli.2015.207402)",
+   "alinti": "In 1454 the Hebbar of Nagamangala ... obtained permission from the Vijayanagar king to erect a fort",
+   "oneri": {},
+   "not": "IGI: 1454'te Vijayanagar kralının izniyle kale ve valilik (Danayak), 1495'te doğrudan Vijayanagar mülkü, vali 'Sri Ranga Rayal' → Vijayanagar egemenliği 1454'ten itibaren kaynaklı. 1343 açılış ucu KAYNAKTA YOK (1343-1454 arası belirsiz); TDV Hindistan: Vijayanagar 1339'da kuruldu (liste). Başlangıç 1343 için kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1440",
+   "alan": "s",
+   "d": "meysur-racaligi",
+   "f": "1799-05-04",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXII, «Seringapatam Town» (archive.org in.ernet.dli.2015.207402)",
+   "alinti": "By this victory Seringapatam became the property of the British, who leased it to Mysore",
+   "oneri": {
+    "d": "ingiliz-hindistani",
+    "f": "1799 (hukukî devir günü teyitsiz; fetih 1799-05-04)",
+    "t": "1881 (YIL)",
+    "devam": "meysur-racaligi 1881→1947"
+   },
+   "not": "ÖNEMLİ: IGI 1908: 1799 zaferiyle Seringapatam İngilizlerin mülkü oldu, Mysore'a yıllık Rs 50.000'e KİRALANDI; 'rendition' 1881'de Mysore'a verildi (Bangalore kantonu karşılığı). Yani 1799-1881 arası sahip Mysore Racalığı değil, İngiliz. TDV Meysûr: 1799'da İngilizler eski racalığı yeniden kurdu (ülke düzeyi). Kira/antlaşma günü kaynakta yok (1799 YIL, 1881 YIL); 1799-05-04 fetih günü TEK KURAL'a göre hukukî devir olmayabilir — KASA karar versin."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1442",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan",
+   "alinti": "bölünme planı 14 Ağustos 1947'de fiilen uygulamaya konuldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehre özgü değil). TDV Hindistan: «14 Ağustos 1947'de fiilen uygulamaya konuldu» (bölünme planı, Pakistan); atlastaki 15 Ağustos 1947 günü Indian Independence Act md.1 kaynağına dayanıyor (bu oturumda açılmadı). İki gün farklı olayları anlatıyor; hüküm KASA'nın. Dönem sonu 2000-12-31 veri ufku yer tutucusu."
+  }
+ ],
+ "Vijayanagara (Hampi)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1386",
+   "alan": "s",
+   "d": "vijayanagara",
+   "f": "1336-01-01",
+   "t": "1565-01-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXIV, «Tungabhadra» (archive.org in.ernet.dli.2015.61206)",
+   "alinti": "The kings of the ancient dynasty of Vijayanagar (1336-1565), the ruins of whose capital ... near Hampi",
+   "oneri": {},
+   "not": "YIL düzeyi, her iki uç IGI ile uyumlu (1336, 1565). ÇELİŞKİ beyanı: TDV «Hindistan» hanedan listesi «Viyanagar Devleti (1339-1646)» der (hanedan, Penukonda sonrasıyla); şehre özgü değil. Mevcut DEVRALMA kaynağı da TDV Hindistan'a dayanıyor ama 1336 günü orada yok. Hüküm KASA'nın."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1387",
+   "alan": "s",
+   "d": "bicapur",
+   "f": "1565-01-05",
+   "t": "1686-09-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Bîcâpûr» (islamansiklopedisi.org.tr/bicapur); Imperial Gazetteer of India, Oxford 1908, vol. XXIV, «Tungabhadra» (archive.org in.ernet.dli.2015.61206)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Talikota sonrası Hampi'nin kime geçtiği kaynakta yok. TDV Bîcâpûr Hampi/Vijayanagar'ı anmaz; IGI XXIV Talikota'yı içermiyor (aranıp bulunamadı). Hampi'nin Âdilşâhî elinde olduğu doğrulanamadı; Vijayanagar hanedanı TDV listesine göre 1646'ya kadar sürer (Penukonda/Çandragiri)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1389",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1686-09-12",
+   "t": "1724-10-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Bîcâpûr»",
+   "alinti": "İskender Âdilşah devrinde Evrengzîb şehri ele geçirerek (1686)",
+   "oneri": {},
+   "not": "TDV 1686'yı YIL olarak verir (Bîcâpûr'un düşüşü); gün yok (1686-09-12 teyitsiz). Hampi'nin Bâbürlü'ye geçişi şehre özgü kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1390",
+   "alan": "s",
+   "d": "haydarabad-nizam",
+   "f": "1724-10-11",
+   "t": "1800-10-12",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Haydarâbâd Nizamlığı» (islamansiklopedisi.org.tr/haydarabad-nizamligi); Imperial Gazetteer of India, Oxford 1908, vol. XXII, «Sandur» (archive.org in.ernet.dli.2015.207402)",
+   "alinti": "fiilen bağımsızlığını ilân etti (11 Ekim 1724)",
+   "oneri": {
+    "ara_donem": "meysur 1775-76 → 1799-05-04 (YIL; gün yok), sonra haydarabad-nizam 1799→1800-10-12"
+   },
+   "not": "Nizam devletinin kuruluş günü TDV ile TEYİT (11 Ekim 1724) — ama Hampi için değil, devlet için. IGI Sandur: «In the campaign of 1775-6 Haidar Ali, after getting possession of Bellary...» → Hampi (Bellary) 1775-76'dan 1799'a Mysore (Haydar Ali/Tipu) elindeydi; 1799'da Seringapatam bölüşmesiyle Nizam'a geçti, 1800'de Bellary İngilizlere devredildi. Atlas 1724→1800 kesintisiz Nizam diyor: 1775/76→1799 Mysore ara dönemi eksik (YIL düzeyi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1391",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1800-10-12",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XXII, «Sandur» (archive.org in.ernet.dli.2015.207402)",
+   "alinti": "when Bellary District was ceded to the Company",
+   "oneri": {},
+   "not": "Kapanışı değil açılış: Bellary Nizam tarafından Şirket'e devredildi (IGI yıl vermiyor bu cümlede; 1800 Subsidiary devri başka kaynakta aranmalı). 1800-10-12 günü bu kaynakta teyitsiz. Kapanış için Hindistan satırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1392",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan",
+   "alinti": "bölünme planı 14 Ağustos 1947'de fiilen uygulamaya konuldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehre özgü değil). TDV Hindistan: «14 Ağustos 1947'de fiilen uygulamaya konuldu» (bölünme planı, Pakistan); atlastaki 15 Ağustos 1947 günü Indian Independence Act md.1 kaynağına dayanıyor (bu oturumda açılmadı). İki gün farklı olayları anlatıyor; hüküm KASA'nın. Dönem sonu 2000-12-31 veri ufku yer tutucusu."
+  }
+ ],
+ "Pûne (Poona)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1283",
+   "alan": "s",
+   "d": "yadava",
+   "f": "1281-01-01",
+   "t": "1318-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Hindistan» hanedan listesi: «Devâgirî Yadavaları (Kuzey Dekken, 1190-1294)»",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÇELİŞKİ: TDV listesi Yadava 1190-1294 verir, atlas 1318'e kadar uzatıyor. TDV hanedan düzeyidir (Alâeddin Halacî'nin 1296 akını); Pûne'ye özgü kaynak yok. Atlas 1318 (Harapaladeva'nın ölümü) neye dayandığı ayrı kaynak ister. Hüküm KASA'nın."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1283",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1318-01-01",
+   "t": "1347-08-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Hindistan»",
+   "alinti": "",
+   "oneri": {},
+   "not": "Pûne için 1318-1347 Delhi tasarrufu şehir/bölge kaynağında bulunamadı (IGI Poona City 1604'ten başlar)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1285",
+   "alan": "s",
+   "d": "ahmednagar",
+   "f": "1490-01-01",
+   "t": "1636-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XX, «Poona City» (archive.org in.ernet.dli.2015.86475); TDV «Nizamşâhîler» (islamansiklopedisi.org.tr/nizamsahiler)",
+   "alinti": "first mention of Poona in history ... 1604, granted by the Sultan of Ahmadnagar to Maloji",
+   "oneri": {},
+   "not": "KISMEN/YIL: IGI 1604'te Pûne'nin Ahmednagar Sultanı'na ait olduğunu gösterir (dönem içi tanık). TDV Nizamşâhîler (1490-1636; Hindistan listesinde 1490-1633 — iki TDV tarihi tutmuyor, hüküm KASA'nın). 1490/1636 uçları şehre özgü değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1286",
+   "alan": "s",
+   "d": "bicapur",
+   "f": "1636-01-01",
+   "t": "1674-06-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XX, «Poona City» (archive.org in.ernet.dli.2015.86475)",
+   "alinti": "In 1637 the grant was confirmed in favour of Shahji, father of Sivaji",
+   "oneri": {},
+   "not": "IGI 1637'de Şahcî'nin cagirini onaylayan makamı yazmaz (Bîcâpûr adı geçmez). 1663'te Şayista Han (Bâbürlü) açık şehri ele geçirdi, Sivaji bir kaç gün sonra baskınla çıkardı — kısa Bâbürlü işgali (YIL, TEK KURAL isg adayı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1287",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1674-06-06",
+   "t": "1817-11-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XX, «Poona City» (archive.org in.ernet.dli.2015.86475)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1674-06-06 (Sivaji'nin taç giymesi) şehir kaynağında yok; IGI yalnız Sivaji ailesinin 1604/1637 cagirini ve 1663 olayını anar. Şehir bu tarihte 'Maratha' sahipliğine ne zaman geçti: kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1288",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1817-11-17",
+   "t": "1947-08-15",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XX, «Poona City» (archive.org in.ernet.dli.2015.86475)",
+   "alinti": "The result was the flight of the Peshwa's army and the immediate occupation of the city by the British",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiliz-hindistani",
+    "f": "1817-11-17",
+    "t": "1818 (ilhak günü teyitsiz)",
+    "sonra_s": "ingiliz-hindistani 1818→1947-08-15"
+   },
+   "not": "TEK KURAL: Yeraoda savaşı 16-17 Kasım 1817'de Pûne İngilizlerce işgal edildi (IGI; 17 Kasım günü teyit). Hukukî devir/ilhak ise Peşva II. Bâcî Rao'nun 1818'de tahttan indirilmesiyle (IGI: 'After the deposition of the Peshwa Baji Rao II (1818)') — gün kaynakta yok. Bu yüzden 1817-11-17 → ilhak = isg (ingiliz-hindistani), s: ilhaktan sonra. KURAL KARARI gerekebilir: Peşva Maratha polity'sinin içinde olduğundan işgal mi iç iktidar devri mi? KASA/koordinatör."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1289",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan",
+   "alinti": "bölünme planı 14 Ağustos 1947'de fiilen uygulamaya konuldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehre özgü değil). TDV Hindistan: «14 Ağustos 1947'de fiilen uygulamaya konuldu» (bölünme planı, Pakistan); atlastaki 15 Ağustos 1947 günü Indian Independence Act md.1 kaynağına dayanıyor (bu oturumda açılmadı). İki gün farklı olayları anlatıyor; hüküm KASA'nın. Dönem sonu 2000-12-31 veri ufku yer tutucusu."
+  }
+ ],
+ "Mandu (Mândû)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:836",
+   "alan": "s",
+   "d": "racput",
+   "f": "1281-01-01",
+   "t": "1305-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
+   "alinti": "In 1304 it was taken by Ain-ul-mulk, and just a century later became the capital of the Muhammadan kingdom of Malwa",
+   "oneri": {
+    "t": "1304 (YIL; gün yok)"
+   },
+   "not": "Racput→Delhi: IGI 1304'te Ayn-ül-mülk Mândû'yu aldı der; atlas 1305-01-01. YIL düzeyinde 1 yıl fark. Racput'un 1281 açılışı kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:836",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1305-01-01",
+   "t": "1392-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
+   "alinti": "In 1235 the Muhammadans first appeared ... held in fief ... till in 1401 Dilawar Khan assumed the insignia of royalty",
+   "oneri": {
+    "t": "1401 (YIL)"
+   },
+   "not": "Dönem sonu: IGI Mâlvâ'yı Delhi'ye bağlı iktâ olarak 1401'e kadar tutar (Dilâver Han Gûrî 1401'de egemenlik alâmetlerini aldı, Mândû 1401 civarı başkent). Atlas 1392. İki ucu ölç: 1392 ↔ 1401 (YIL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:837",
+   "alan": "s",
+   "d": "malva-sultanligi",
+   "f": "1392-01-01",
+   "t": "1531-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
+   "alinti": "From 1401 till 1531, when it was annexed to Gujarat, the province of Malwa or Mandu ... remained an independent State",
+   "oneri": {
+    "f": "1401 (IGI; TDV'ye karşı kontrol)"
+   },
+   "not": "IGI Mâlvâ Sultanlığı'nı 1401-1531 verir; atlas 1392. TDV Mâlvâ Sultanlığı maddesi bu oturumda açılmadı (bulunamadı/aranmadı) — TDV'ye karşı doğrulanmalı. 1531 kapanışı KAYNAKLI (Gujarat'a ilhak)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:838",
+   "alan": "s",
+   "d": "gucerat-sultanligi",
+   "f": "1531-01-01",
+   "t": "1535-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
+   "alinti": "the kingdom being annexed to Gujarat (1531)",
+   "oneri": {},
+   "not": "YIL düzeyi her iki uç: 1531 ilhak (IGI) ve 1535'te Hümâyûn Bahadır Şah'ı Mândû'da yendi/Mâlvâ'dan çıkardı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:839",
+   "alan": "s",
+   "d": "malva-sultanligi",
+   "f": "1535-01-01",
+   "t": "1561-03-29",
+   "hukum": "ONERI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
+   "alinti": "In 1535 Humayun attacked Bahadur Shah and drove him out of Malwa ... During the rule of the Suri dynasty (1540-55)",
+   "oneri": {
+    "bolunme": "babur-imparatorlugu 1535→1540; suri(künye?) 1540→1555; malva-sultanligi 1555→1561"
+   },
+   "not": "IGI: 1535'te Hümâyûn Mâlvâ'dan Bahadır Şah'ı çıkardı; 1540-55 Sûrî hanedanı (Şîr Şah'ın valisi Şucâat Han, sonra oğlu Baz Bahadur); 1562'de Baz Bahadur Ekber'e boyun eğdi, 1560-2'de Bâbürlü'ye katıldı. Yani 1535-1561 'malva-sultanligi' bölünmeli: Bâbürlü (Hümâyûn) 1535→~1540, Sûrî 1540→1555, Baz Bahadur 1555→1560-62. Gün yok (YIL). Sûrî künye id'si atlasta aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:840",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1561-03-29",
+   "t": "1732-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
+   "alinti": "In 1560-2 Mandu was finally incorporated in the Mughal empire",
+   "oneri": {},
+   "not": "YIL aralığı (1560-62) içinde 1561 ucu uyumlu; 29 Mart günü IGI'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:841",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1732-01-01",
+   "t": "1818-06-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Imperial Gazetteer of India, Oxford 1908, vol. XVII, «Mandu (or Mandogarh)» ve «Malwa» (archive.org in.ernet.dli.2015.207395)",
+   "alinti": "the country not passing finally to the present Dhar family till 1732",
+   "oneri": {},
+   "not": "KISMEN/YIL: 1732 Dhar (Pûar) hanedanına kesin geçiş; IGI 1696'da Marathaların şehri 'geçici' tuttuğunu söyler (atlas 1696-1732'yi Bâbürlü sayıyor, uyumlu). Dhar Peşva'ya bağlı Maratha polity içinde mi — IGI açıkça yazmıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:842",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan",
+   "alinti": "bölünme planı 14 Ağustos 1947'de fiilen uygulamaya konuldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehre özgü değil). TDV Hindistan: «14 Ağustos 1947'de fiilen uygulamaya konuldu» (bölünme planı, Pakistan); atlastaki 15 Ağustos 1947 günü Indian Independence Act md.1 kaynağına dayanıyor (bu oturumda açılmadı). İki gün farklı olayları anlatıyor; hüküm KASA'nın. Dönem sonu 2000-12-31 veri ufku yer tutucusu."
+  }
+ ],
+ "Ahmedâbâd": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:748",
+   "alan": "s",
+   "d": "gucerat-sultanligi",
+   "f": "1411-02-26",
+   "t": "1572-11-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahmedâbâd» (Mustafa Oğuz), https://islamansiklopedisi.org.tr/ahmedabad",
+   "alinti": "I. Ahmed Şah (1411-1442) tarafından ... kuruldu (1411)",
+   "oneri": {},
+   "not": "YIL düzeyi kurucu hükümdar ve 1411; 26 Şubat günü TDV'de yok. Bitiş 1572-73 için aşağıdaki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:750",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1572-11-18",
+   "t": "1753-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahmedâbâd» (Mustafa Oğuz), https://islamansiklopedisi.org.tr/ahmedabad",
+   "alinti": "Ekber Şah'ın 1572-1573 yıllarında yaptığı iki sefer sonunda ... Bâbürlüler'in hâkimiyeti altına girdi",
+   "oneri": {},
+   "not": "YIL düzeyi (1572-73 aralığı atlas 1572-11-18'i kapsar). TDV ayrıca Hümâyûn'un (1530-1540) kısa süreli ilhakından söz eder — atlasta yok (ara dönem, YIL)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:751",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1753-04-01",
+   "t": "1818-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahmedâbâd» (Mustafa Oğuz), https://islamansiklopedisi.org.tr/ahmedabad",
+   "alinti": "1758'de Maratalar'ın, 1818'de ise İngilizler'in eline geçen şehir",
+   "oneri": {
+    "f": "1758 (YIL)"
+   },
+   "not": "TDV Maratha'ya geçişi 1758 verir; atlas 1753-04-01. 5 yıl fark — iki ucu ölç: atlas 1753'te Maratha'ya, TDV 1758'de. Gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:752",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1818-01-01",
+   "t": "1947-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahmedâbâd» (Mustafa Oğuz), https://islamansiklopedisi.org.tr/ahmedabad",
+   "alinti": "1818'de ise İngilizler'in eline geçen şehir",
+   "oneri": {},
+   "not": "YIL düzeyi; 1 Ocak günü TDV'de yok (1818 yıl içinde tarih yer tutucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:753",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Ahmedâbâd» (Mustafa Oğuz), https://islamansiklopedisi.org.tr/ahmedabad; TDV İslâm Ansiklopedisi, «Hindistan», https://islamansiklopedisi.org.tr/hindistan",
+   "alinti": "Hindistan'ın bağımsızlığını elde ettiği 1948'e kadar İngiliz hâkimiyeti altında",
+   "oneri": {
+    "f": "1948 (TDV Ahmedâbâd) ↔ 1947-08-15 (atlas)"
+   },
+   "not": "ÇİFT TDV ÇELİŞKİSİ: TDV Ahmedâbâd 'bağımsızlık 1948' der; TDV Hindistan 1947'yi verir (14 Ağustos 1947 plan). Atlas 15 Ağustos 1947 (Act). ÇİFT-TDV kuralı: şehrin kendi maddesi (1948) esas, öteki TDV (Hindistan, 1947) not — AMA 1948 açıkça yaygın tarihle (1947) çelişir; bağımsız kaynak (Act) aranmadı. Hüküm KASA'nın. ÜLKE DÜZEYİ (şehre özgü değil). TDV Hindistan: «14 Ağustos 1947'de fiilen uygulamaya konuldu» (bölünme planı, Pakistan); atlastaki 15 Ağustos 1947 günü Indian Independence Act md.1 kaynağına dayanıyor (bu oturumda açılmadı). İki gün farklı olayları anlatıyor; hüküm KASA'nın."
+  }
+ ],
+ "Kandehar": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:591",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1773-01-01",
+   "t": "1819-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Afganistan», https://islamansiklopedisi.org.tr/afganistan; «Kandehar» (islamansiklopedisi.org.tr/kandehar)",
+   "alinti": "1747'de Nâdir Şah'ın öldürülmesinden sonra ... Kandehar'ı ele geçirdi ve orada Abdâlî reisleri tarafından hükümdar ilân edildi",
+   "oneri": {
+    "f": "1747 (YIL)",
+    "kur": "1747 (YIL)"
+   },
+   "not": "Atlas Kandehar'ı 1773'te başlatıyor (Ahmed Şah'ın ölümü). TDV: Ahmed Şah 1747'de Kandehar'da hükümdar ilân edildi; devlet başşehri 1775'te Kâbil'e taşındı (TDV 'Devletin başşehri Kâbil'e taşındı (1775)'). Yani Kandehar 1747-1775 başkenttir; 'başkent:afgan-durrani' + kur 1773 çelişir. 1747 gün yok (Nâdir Şah'ın ölümü 1747 yılı). TDV Kandehar maddesi tarihleri vermez (yalnız 'Nâdir Şah sonrası Ahmed Şah Dürrânî eski şehrin doğusunda Ahmedşâhî kurdu')."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:592",
+   "alan": "s",
+   "d": "afganistan",
+   "f": "1819-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Afganistan», https://islamansiklopedisi.org.tr/afganistan",
+   "alinti": "Dost Muhammed ... Kandehar'ı kardeşi Kühendil'e bırakarak kendisi Kâbil'de hükümdarlığını ilân etti (1819)",
+   "oneri": {},
+   "not": "YIL düzeyi: 1819 hanedan değişimi (Sadozay→Barakzay). Kandehar'ın Kâbil'e bağlılığı belirsiz: Kandehar Kühendil'e bırakıldı (Barakzay Kandehar sardarları) — ayrı polity mi bu atlasta yok. 2000-12-31 veri ufku yer tutucusu."
+  }
+ ],
+ "Edo (Tokyo)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3134",
+   "alan": "s",
+   "d": "muromachi",
+   "f": "1457-01-01",
+   "t": "1573-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Takauji'nin kurduğu Muromachi hükümeti döneminde (1338-1573)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). TDV: Muromachi 1338-1573. 1457 (Edo Kalesi) şehre özgü kaynak yok; Edo'nun 'muromachi' sahipliği Kantô'nun fiilî yönetimi nedeniyle BEYANLI YAKLAŞIKLIK olabilir (TDV'de bu ayrım yok; kaynak bulunamadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3135",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1573-08-15",
+   "t": "1603-03-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1573'te Muramachi devri kapandı ve yerine Azuchi-Momoyama dönemi (1573-1603) başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). YIL düzeyi (1573-1603). Edo'nun Tokugava'ya Hideyoşi eliyle verilişi (1590) TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3136",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Ieyashu 1603'te şogun tayin edildi ve Yedo'da (Tokyo) Togukava hükümetini kurdu",
+   "oneri": {},
+   "not": "Şehre özgü (Edo adı açıkça geçer): Yedo (Tokyo) 1603'te Tokugava hükümetinin merkezi. YIL düzeyi; 24 Mart günü TDV'de yok. Kapanış: 'Bu tarihten 1867'ye kadar süren Yedo dönemi'; 1868 Meiji — TDV iki yıl (1867 şogun istifası, 1868 Meiji) verir, atlas 1868-01-03 (Ōsei Fukko) ile uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3137",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1868-01-03",
+   "t": "1947-05-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1868'de ... Meiji dönemi başladı ... İmparator, Kyoto'dan Tokyo'daki şogunun sarayına taşındı (1869)",
+   "oneri": {},
+   "not": "YIL düzeyi. TDV: 1868 Meiji dönemi; 1869'da imparator Tokyo'ya taşındı (Edo→Tokyo). Dönem sonu 1947-05-03 TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3138",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Japonya'da 3 Mayıs 1947 yeni anayasa bulunamadı (anahtar '1947' yalnız Egami tezi). Mevcut kaynak history.com/Senate pdf — yasak/sınırlı kaynak sınıfı; akademik kaynak (Cambridge History of Japan / Iranica gibi açık metin) aranmadı. Ülke düzeyi."
+  }
+ ],
+ "Kyoto": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3122",
+   "alan": "s",
+   "d": "kamakura",
+   "f": "1281-01-01",
+   "t": "1333-07-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Kamakura devri 142 yıllık hâkimiyetin ardından ... 1333'te yıkıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). TDV: şogunluk 1192'de Kamakura'da kuruldu, 1221'de Hôjô hâkimiyeti, 1333'te yıkıldı; Kyoto'da imparator ailesi oturuyordu. YIL düzeyi. 1333-07-04 günü TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3121",
+   "alan": "s",
+   "d": "kenmu",
+   "f": "1333-07-04",
+   "t": "1336-12-10",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Ertesi yıl, imparatorun ... eski gücüne kavuştuğu Kemmu dönemi başladı. ... 1336'da Ashikaga Takauji ... Kyoto'yu zaptetti",
+   "oneri": {
+    "f": "1334 (YIL)"
+   },
+   "not": "ÇELİŞKİ (YIL): TDV Kemmu'yu 1334'te başlatır ('ertesi yıl'), atlas 1333-07-04. 1336'da Takauji'nin Kyoto'yu zaptı (atlas 1336-12-10 ile YIL uyumlu). Kyoto adı açıkça geçer."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3123",
+   "alan": "s",
+   "d": "muromachi",
+   "f": "1336-12-10",
+   "t": "1573-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Takauji'nin kurduğu Muromachi hükümeti döneminde (1338-1573) Kyoto'daki Kuzey Sarayı'na",
+   "oneri": {},
+   "not": "Şehre özgü (Kyoto): Takauji 1336'da Kyoto'yu aldı; Muromachi hükümeti TDV'de 1338-1573. YIL; atlas 1336-12-10 (1336) uyumlu, 1338 resmî şogunluk yılı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3124",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1573-08-15",
+   "t": "1603-03-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1568'de Nobunaga imparatorun oturduğu Kyoto'ya girdi. 1573'te Muramachi devri kapandı",
+   "oneri": {},
+   "not": "Şehre özgü (Kyoto): Nobunaga 1568'de Kyoto'ya girdi, 1573'te Muromachi kapandı. YIL düzeyi (1573); gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3125",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Ieyashu 1603'te şogun tayin edildi ve Yedo'da (Tokyo) Togukava hükümetini kurdu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). Kyoto'da imparator oturmaya devam etti, hükümet Yedo'da; sahiplik ülke düzeyi (Tokugava şogunluğu). YIL düzeyi. Kapanış: 1867 şogun istifası / 1868."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3126",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1868-01-03",
+   "t": "1947-05-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1868'de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı. 1869'da ... İmparator, Kyoto'dan Tokyo'daki ... taşındı",
+   "oneri": {},
+   "not": "Şehre özgü: Kyoto'dan Tokyo'ya taşınma 1869. Meiji 1868 (YIL). 1947 ucu TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3127",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "",
+   "oneri": {},
+   "not": "Edo satırındaki gerekçe aynı: TDV'de 1947 anayasası yok; ülke düzeyi, akademik teyit aranmadı."
+  }
+ ],
+ "Kamakura": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3174",
+   "alan": "s",
+   "d": "kamakura",
+   "f": "1281-01-01",
+   "t": "1333-07-04",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1192'de Minamoto Yorimoto kendini şogun ilân ettirerek Kamakura'da askerî hükümetini kurdu ... 1333'te yıkıldı",
+   "oneri": {},
+   "not": "Şehre özgü (Kamakura adı geçer): şogunluk hükümeti Kamakura'da 1192'de kuruldu, Kamakura devri 1333'te yıkıldı. YIL düzeyi (1333); 1333-07-04 günü TDV'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3174",
+   "alan": "s",
+   "d": "kenmu",
+   "f": "1333-07-04",
+   "t": "1336-12-10",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Ertesi yıl, imparatorun bütün Japonya üzerinde eski gücüne kavuştuğu Kemmu dönemi başladı",
+   "oneri": {
+    "f": "1334 (YIL)"
+   },
+   "not": "ÇELİŞKİ (YIL): TDV Kemmu'yu 1334'te başlatır; atlas 1333-07-04. Kamakura şehri için Kemmu döneminde (Kenmu hükümeti Kamakura'yı yönetti) şehre özgü kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3176",
+   "alan": "s",
+   "d": "muromachi",
+   "f": "1336-12-10",
+   "t": "1573-08-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Muromachi hükümeti döneminde (1338-1573)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). BEYANLI YAKLAŞIKLIK: Kamakura'nın Muromachi dönemindeki fiilî yönetimi (Kantô Kubô/Kamakura-fu) için TDV'de kaynak yok, bulunamadı; BEYANLI YAKLAŞIKLIK adayı. YIL düzeyi ülke."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3177",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1573-08-15",
+   "t": "1603-03-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1573'te Muramachi devri kapandı ve yerine Azuchi-Momoyama dönemi (1573-1603) başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). Şehre özgü kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3178",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Ieyashu 1603'te şogun tayin edildi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). YIL düzeyi; şehir adı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3179",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1868-01-03",
+   "t": "1947-05-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1868'de ... Meiji dönemi başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). YIL düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3180",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bkz. Edo satırı: TDV'de 1947 anayasası yok."
+  }
+ ],
+ "Kōchi": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3289",
+   "alan": "s",
+   "d": "azuchi-momoyama",
+   "f": "1601-01-01",
+   "t": "1603-03-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1573'te ... Azuchi-Momoyama dönemi (1573-1603) başladı ... Ieyashu 1603'te şogun tayin edildi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). TDV Kōchi/Tosa'yı anmaz. Dönem kapanışı (1603) ve Azuchi-Momoyama 1573-1603 aralığı teyitli; Kōchi kuruluşu (1601) şehre özgü kaynak bulunamadı — kur 1601 TDV'de yok. 1601'in Azuchi-Momoyama'ya mı yoksa fiilen Tokugawa-Yamauchi (Tosa Han) düzenine mi yazıldığı ayrı akademik kaynak ister."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3290",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "Ieyashu 1603'te şogun tayin edildi ve Yedo'da (Tokyo) Togukava hükümetini kurdu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). YIL düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3291",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1868-01-03",
+   "t": "1947-05-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "1868'de ... Meiji dönemi başladı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (şehir adı geçmiyor). YIL düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3292",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Japonya» (Hee Soo Lee vd.), https://islamansiklopedisi.org.tr/japonya",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bkz. Edo satırı."
+  }
+ ],
+ "Mao (Kanem)": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:297",
+   "alan": "s",
+   "d": "kanem-bornu",
+   "f": "1281-01-01",
+   "t": "1902-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bornu» (Davut Dursun), https://islamansiklopedisi.org.tr/bornu",
+   "alinti": "1902 yılında Bornu Fransa, İngiltere ve Almanya arasında paylaşıldı. Kânim ile Damergu Fransız",
+   "oneri": {},
+   "not": "YIL düzeyi; kapanış ucu 1902 (kaynak yalnız yıl). ÜLKE DÜZEYİ: TDV Kânim-Bornu devletini anlatır, Mao'yu anmaz. Dikkat: TDV'ye göre XIV. yy'da ülke kuzeydeki Bulalar'ın işgaline uğradı, May Ömer b. İdris (1382-1387) Çad Gölü'nün batısına çekildi; Kânim Bornu'ya ancak İdris Katakarmabi (1497-1519) ile kısmen, İdris b. Ali Elevmâ (1564-1596) ile tamamen katıldı. Mao için ~1380-1564 arası kanem-bornu sahipliği belirsiz (Bulala); bu aralık için tarihli kaynak bulunamadı, uç uydurulmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:297",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1902-01-01",
+   "t": "1960-08-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bornu», https://islamansiklopedisi.org.tr/bornu",
+   "alinti": "Kânim ile Damergu Fransız, Kukava ile birlikte Ngornu ve merkezî Bornu İngiliz",
+   "oneri": {},
+   "not": "YIL düzeyi (1902 başlangıç). Kânim'in Fransız payına düşmesi TDV'de var. 1960-08-11 ucu bu kaynakta yok (Çad bağımsızlığı bu partide ayrıca bakılmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:298",
+   "alan": "s",
+   "d": "cad",
+   "f": "1960-08-11",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynak Britannica ülke maddeleri; bu partide Çad bağımsızlık günü ayrıca doğrulanmadı."
+  }
+ ],
+ "Birni N'gazargamu": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:312",
+   "alan": "s",
+   "d": "kanem-bornu",
+   "f": "1465-01-01",
+   "t": "1902-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bornu», https://islamansiklopedisi.org.tr/bornu",
+   "alinti": "May Ali (Gaci) b. Dûneme (1465-1497) kuzeyde Birni N’gazargamu şehrini kurdu ve burayı devletin merkezi yaptı",
+   "oneri": {},
+   "not": "Kuruluş: TDV yalnız hükümdarlık aralığını (1465-1497) verir; 1465 hükümdarlığın başlangıcıdır, şehrin kuruluş yılı değil (kuruluş yılı kaynakta açık değil; atlas kur=1465 beyanlı yaklaşıklık olmalı). Kapanış: TDV 1902 paylaşımı, 'merkezî Bornu İngiliz'. UYARI: TDV'ye göre Fûlânîler Birni N'gazargamu'yu ele geçirmişti; Kânimî 1809'da geri aldı (Dûneme b. Ahmed 1808-1811). Yani 1808-09 arasında şehir Fûlânî elinde; TDV'de ayrı devlet/gün yok, dönem yazılmamalı, ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:313",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1902-01-01",
+   "t": "1960-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Bornu», https://islamansiklopedisi.org.tr/bornu",
+   "alinti": "Kukava ile birlikte Ngornu ve merkezî Bornu İngiliz",
+   "oneri": {},
+   "not": "YIL düzeyi (1902). 1960-10-01 ucu bu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:314",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynak Britannica; bu partide ayrıca bakılmadı."
+  }
+ ],
+ "Murzuk (Fizan)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1120",
+   "alan": "s",
+   "d": "kanem-bornu",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fizan» (https://islamansiklopedisi.org.tr/fizan)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Fizan'da Kânim-Bornu hâkimiyeti ya da 1577 yok. TDV Osmanlı bağlanmasını 1551 (Trablusgarp fethi) ile ilişkilendirir ve Fizan'ı evlâd-ı Muhammed'in fiilen bağımsız yönettiğini söyler. Murzuk'un Kânim-Bornu'ya ait olduğu bu kaynakta teyit edilemedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1120",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1577-01-01",
+   "t": "1711-07-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fizan», https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Trablusgarp’ı ele geçirerek eyalet haline getirdiler ve Fizan da bu eyalete bağlı bir sancak olarak teşkilâtlandırıldı",
+   "oneri": {
+    "f": "1551-01-01 (YIL; Fizan sancağı teşkilâtı, TDV'de yıl yok, Trablusgarp fethi 1551)"
+   },
+   "not": "1577 TDV'de yok. TDV: Fizan sancak olarak teşkilâtlandı ama evlâd-ı Muhammed sülâlesi bağımsızlığını korudu, vergi şartıyla iç işlerde serbest bırakıldı (yani fiilî tâbilik: v: kapsamı tartışmalı). TDV 1711'i Karamanlı yönetimi için verir (gün yok). Karar Emre/KASA'nın; 1577 ve 1551 arasında TDV tek yıl vermez, bu yüzden uç değişimi önerilmedi, sadece beyan."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1120",
+   "alan": "v",
+   "d": null,
+   "k": "Trablusgarp Ocaklığı (Karamanlılar)",
+   "f": "1711-07-29",
+   "t": "1835-05-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fizan», https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Karamanlı Ahmed Bey’in 1711’de Trablusgarp yönetimini ele geçirmesi ... Fizan Karamanlı yönetimine tâbi oldu",
+   "oneri": {},
+   "not": "YIL düzeyi (1711; gün TDV'de yok). 1835: TDV 'Bâbıâlî 1835’te Karamanlı yönetimine son verdi'. ÇELİŞKİ/UYARI: Abdülcelîl'in evlâd-ı Süleyman'ı 1831'de evlâd-ı Muhammed'i yenip Fizan'ı ele geçirdi; Osmanlı otoritesi Fizan'da ancak 1838'de Aşkar Ali Paşa ile yeniden tesis edildi (1839 Mısrâte zaferi). Yani 1835-05-26'dan 1838'e Fizan fiilen Osmanlı elinde değildi; atlasın d: OSMANLI 1835-05-26 başlangıcı Fizan için ~1838 olmalı (YIL; gün yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1120",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1835-05-26",
+   "t": "1912-10-18",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fizan», https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Fizan’da Osmanlı otoritesinin yeniden tesisi, 1838’de tayin edilen Aşkar Ali Paşa ile mümkün olabildi",
+   "oneri": {
+    "f": "1838-01-01 (YIL; kaynakta 'tayin' yılı, gün yok; asıl fiilî hâkimiyet 1839 sonrası)"
+   },
+   "not": "Başlangıç: 1831-1838 arası Fizan'ı fiilen evlâd-ı Süleyman tutuyor; bu aralık için atlasta devlet yok (yerel emirlik). Kapanış: TDV 'Uşi Antlaşması ile (19 Ekim 1912) Osmanlı hâkimiyeti sona erdi' — atlas 1912-10-18 (Uşi imza günü Trablusgarp maddesinde de böyle); TDV Fizan 19 Ekim diyor: KURAL KARARI / ÇİFT-TDV beyanı, 18'i atlasın şehir maddesi ('Trablusgarp') esas. Fiilî: İtalyanlar Fizan'a ancak Ağustos 1914'te girdi, çekildi, 1930'da yeniden işgal etti: bu aralık TEK KURAL gereği isg: değil, s: italya devir gününden (TDV Fizan fiilî işgal tarihlerini ic_not'a)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1120",
+   "alan": "s",
+   "d": "italya",
+   "f": "1912-10-18",
+   "t": "1943-01-23",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fizan», https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Fransızlar 7 Ocak 1943’te Merzûk’u ... ele geçirdiler; Ocak 1943’te ... Fizan Fransız idaresi altına girdi",
+   "oneri": {
+    "t": "1943-01-07 (Murzuk Fransızlarca alındı)",
+    "ek": "isg: fransa 1943-01-07 → 1955-08 (TDV: Fransızlar Ağustos 1955 antlaşmasıyla Fizan'ı terketti; gün yok)"
+   },
+   "not": "Italya s: ucu Fizan için 1943-01-23 değil, TDV'ye göre 1943-01-07 (Murzuk). TEK KURAL: Fransız askerî işgali = isg:; s: italya hukukî devire (Barış Antlaşması, 1947) kadar sürer, kaynak bu partide okunmadı. UYARI: 1943-01-23 Trablus'un İngiliz eline geçtiği gündür, Fizan'a uygulanamaz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1120",
+   "alan": "s",
+   "d": "libya-ingiliz-askeri-idaresi",
+   "f": "1943-01-23",
+   "t": "1951-12-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fizan», https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Ocak 1943’te imzalanan İngiliz-Fransız antlaşmasıyla Fizan Fransız idaresi altına girdi",
+   "oneri": {
+    "d": "fransa (isg:) 1943-01 → 1955-08"
+   },
+   "not": "Fizan İngiliz değil Fransız askerî idaresindedir; libya-ingiliz-askeri-idaresi dönemi Murzuk için yanlış görünüyor. Şehir 1951-12-24'te Libya Birleşik Krallığı'na girer (TDV: Fizan üç otonom bölgeden biri) ama Fransızlar 1955'e kadar kaldı; uçlar: hukukî devir (1951-12-24) ile fiilî Fransız varlığı (1955-08) ayrı katman."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1120",
+   "alan": "s",
+   "d": "libya-krallik",
+   "f": "1951-12-24",
+   "t": "1969-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fizan», https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "24 Aralık 1951’de ... Libya Birleşik Krallığı’nda Fizan üç otonom bölgeden biri oldu",
+   "oneri": {},
+   "not": "Başlangıç günü teyitli. Fransız çekilişi Ağustos 1955 (isg katmanı). Bitiş 1969-09: TDV 'Eylül 1969’da iş başına gelen ihtilâl hükümeti' (ay düzeyi; atlas 09-01 TDV Libya'dan)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1120",
+   "alan": "s",
+   "d": "libya-cumhuriyet-cemahiriye",
+   "f": "1969-09-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fizan», https://islamansiklopedisi.org.tr/fizan",
+   "alinti": "Eylül 1969’da iş başına gelen ihtilâl hükümeti ... Fizan’ınkini de el-Muhâfazâtü’l-cenûbiyye olarak değiştirdi",
+   "oneri": {},
+   "not": "AY düzeyi (Eylül 1969); gün TDV Libya maddesinden (zaten künyede). cemahiriye unvanı 1977 sonrasıdır; bu dönem adı bu partide ele alınmadı."
+  }
+ ],
+ "Sokoto": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:275",
+   "alan": "s",
+   "d": "sokoto",
+   "f": "1812-01-01",
+   "t": "1903-01-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Osman b. Fûdî», https://islamansiklopedisi.org.tr/osman-b-fudi ; «Hevsâ», https://islamansiklopedisi.org.tr/hevsa",
+   "alinti": "Osman b. Fûdî 1812’de Sokoto halifeliğinin kuruluşunu ilân ederek İslâmî bir yönetim kurdu",
+   "oneri": {},
+   "not": "YIL düzeyi başlangıç (1812). TDV Sokoto'yu Muhammed Bello'nun başşehri olarak anar; şehrin kuruluş yılı TDV'de yok. Kapanış: TDV Hevsâ 'Sokoto Emirliği’nin 1903’te İngilizler tarafından işgali' — YIL; atlas 01-15 günü kaynakta yok. TEK KURAL: TDV 'işgal' diyor; s: ingiltere hukukî devir/ilan gününden başlamalı, ham işgal günü ic_not. Hukukî ilan günü bu partide kaynakla okunamadı (Britannica 403, IA araması boş döndü) — gün UYDURULMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:276",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1903-01-15",
+   "t": "1960-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hevsâ», https://islamansiklopedisi.org.tr/hevsa",
+   "alinti": "1903’te Sokoto Emirliği’nin İngilizler tarafından işgali sırasında",
+   "oneri": {},
+   "not": "YIL düzeyi (1903). Gün teyitsiz [yalnız yıl teyitli]. 1960-10-01 ucu bu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:277",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynak Britannica (yasak-sınırlı listede değil ama bu partide ayrıca bakılmadı)."
+  }
+ ],
+ "Zaria (Zazzau)": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:257",
+   "alan": "s",
+   "d": "hausa-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1806-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hevsâ», https://islamansiklopedisi.org.tr/hevsa",
+   "alinti": "Başlıcaları Kano, Katsina, Gobir, Zaria, Biram, Rano ve Daura olan bu şehir devletlerinin",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Zaria'nın Hausa şehir devleti oluşu yıl vermeden anılır). Bitiş ucu ÇİFT-TDV ÇELİŞKİSİ: «Osman b. Fûdî» maddesi 'Zaria 1806'da ele geçirildi'; «Hevsâ» maddesi 'Osman b. Fûdî 21 Haziran 1804’teki zaferden sonra aynı yıl (1804) Zaria ile Katsina’yı… ele geçirdi'. Üçüncü bağımsız akademik kaynak aranmadı/bulunamadı (Britannica 403, IA boş); Zaria'nın kendi TDV şehir maddesi yok. Karar vermedim; her iki TDV beyan edilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:257",
+   "alan": "s",
+   "d": "sokoto",
+   "f": "1806-01-01",
+   "t": "1903-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV «Hevsâ» vs TDV «Osman b. Fûdî»",
+   "alinti": "aynı yıl Zaria ile Katsina’yı, 1808’de de Gobir’i ele geçirerek (Hevsâ) / 1806’da Zaria ele geçirildi (Osman b. Fûdî)",
+   "oneri": {
+    "f": "1804-01-01 (YIL, Hevsâ maddesine göre) ya da 1806-01-01 (Osman b. Fûdî maddesine göre)"
+   },
+   "not": "ÇİFT-TDV: iki madde çelişir (1804 / 1806). Yerleşimin kendi TDV maddesi olmadığından esas hangisi, KASA/koordinatör kararı. Atlas bugün 1806. 1903 kapanışı TDV Hevsâ'da YIL düzeyinde var (Sokoto Emirliği'nin İngiliz işgali). TEK KURAL notu Sokoto satırındaki gibi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:258",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1903-01-01",
+   "t": "1960-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hevsâ»",
+   "alinti": "1903’te Sokoto Emirliği’nin İngilizler tarafından işgali sırasında",
+   "oneri": {},
+   "not": "YIL düzeyi; ÜLKE DÜZEYİ (Sokoto Emirliği). Zaria'ya özgü tarih yok. 1960-10-01 ucu kaynakta yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:259",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynak Britannica; ayrıca bakılmadı."
+  }
+ ],
+ "Kano": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:237",
+   "alan": "s",
+   "d": "hausa-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1807-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hevsâ», https://islamansiklopedisi.org.tr/hevsa",
+   "alinti": "Başlıcaları Kano, Katsina, Gobir, Zaria, Biram, Rano ve Daura olan bu şehir devletlerinin içinde en iyi tanınanı ... Kano’dur",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. UYARI (v:/isg: adayı, atlasta yok): TDV'ye göre Kano XV. yüzyılda bir süre Bornu'nun vasal devleti oldu; 1513-1516 arasında Songay hükümdarı Askiya Muhammed Kano'yu işgal etti ve cizyeye bağladı; sonra Bornu, Katsina, Cukun cizyeye bağladı — tarihler yalnız 1513-1516 verilmiş, öteki YIL bile yok. Bitiş 1807: TDV Osman b. Fûdî maddesi Kano'nun fethini yıl vermeden anar ('Kano, Katsina ve Daura emirliklerine gönderilen kuvvetler başarılar elde etti', 1806 bağlamı); TDV Hevsâ cihad için 1804-1808 aralığı verir. 1807 TDV'de YOK: BULUNAMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:237",
+   "alan": "s",
+   "d": "sokoto",
+   "f": "1807-01-01",
+   "t": "1903-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV «Osman b. Fûdî», «Hevsâ» (Kano maddesi yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kano'nun Sokoto'ya geçiş yılı TDV'de açık yok (cihad 1804-1808). Kapanış 1903: TDV yalnız 'Sokoto Emirliği 1903'te İngilizlerce işgal'; Kano'ya özgü tarih yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:238",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1903-01-01",
+   "t": "1960-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hevsâ»",
+   "alinti": "1903’te Sokoto Emirliği’nin İngilizler tarafından işgali",
+   "oneri": {},
+   "not": "YIL düzeyi; ÜLKE DÜZEYİ (Sokoto Emirliği). TEK KURAL: işgal dili; s: hukukî ilan gününden olmalı, gün bu partide okunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:239",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynak Britannica; ayrıca bakılmadı."
+  }
+ ],
+ "Katsina": [
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:249",
+   "alan": "s",
+   "d": "hausa-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1808-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hevsâ», https://islamansiklopedisi.org.tr/hevsa",
+   "alinti": "21 Haziran 1804’te kazandığı zaferden sonra ... aynı yıl Zaria ile Katsina’yı, 1808’de de Gobir’i ele geçirerek",
+   "oneri": {
+    "t": "1804-01-01 (YIL; Hevsâ maddesi)"
+   },
+   "not": "ÇİFT-TDV ÇELİŞKİSİ: «Hevsâ» Katsina'yı 1804; «Osman b. Fûdî» maddesi Katsina için yıl vermez (1806 sonrası bağlamda 'Katsina... ordular gönderdi', Alkalawa 1808 sonrası). Atlas 1808 muhtemelen Gobir'in düşüş yılıyla karışmış. Katsina'nın kendi TDV şehir maddesi yok; karar KASA/koordinatörün. TDV Hevsâ ayrıca: Kano ile Katsina arasında uzun savaş 1570-1650."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:249",
+   "alan": "s",
+   "d": "sokoto",
+   "f": "1808-01-01",
+   "t": "1903-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hevsâ»",
+   "alinti": "1903’te Sokoto Emirliği’nin İngilizler tarafından işgali",
+   "oneri": {},
+   "not": "Kapanış YIL düzeyi, ÜLKE DÜZEYİ. Açılış yılı için yukarıdaki ÇİFT-TDV notuna bak (1804 ya da kaynak yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:250",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1903-01-01",
+   "t": "1960-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Hevsâ»",
+   "alinti": "1903’te Sokoto Emirliği’nin İngilizler tarafından işgali",
+   "oneri": {},
+   "not": "YIL düzeyi, ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_e9353f.js:251",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mevcut kaynak Britannica; ayrıca bakılmadı."
+  }
+ ],
+ "Meroe": [
+  {
+   "dosya_satir": "data/yerlesimler_mo_afrika.js:9",
+   "alan": "s",
+   "d": "kush-krallik",
+   "f": "-0299-01-01",
+   "t": "0349-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Mevcut kaynak (Peeters vd. 2026, PNAS) zaten dönemi taşıyor; TDV'de «Meroe» maddesi yok (tdv-ara boş)",
+   "alinti": "subsequent Meroitic period (300 BCE to 350 CE)",
+   "oneri": {},
+   "not": "Hedef dönem değil (kaynak dolu); yeniden doğrulanmadı. ÜLKE DÜZEYİ (künye aralığı), şehre özgü değil. Çıkış: TDV'de Meroe/Meroitik madde bulunamadı."
+  }
+ ],
+ "Varşova": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1292",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1795-10-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Varsavia» (https://www.treccani.it/enciclopedia/varsavia/)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani Lublin Birliği'ni anmıyor. Mevcut DEVRALMA kaynağı (Encyclopedia of Ukraine, Lublin Birliği 1 Temmuz 1569) ülke düzeyindedir; Varşova'ya özgü tanıklık bu partide bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1292",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1795-10-24",
+   "t": "1807-07-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani «Varsavia», https://www.treccani.it/enciclopedia/varsavia/",
+   "alinti": "La terza spartizione della Polonia, che fece di V. una città provinciale della Prussia",
+   "oneri": {},
+   "not": "ÜLKE/DEVİR DÜZEYİ: Varşova'nın III. Paylaşımla Prusya'ya geçtiği teyitli; Treccani YIL bile vermiyor, 1795-10-24 günü bu kaynakta yok (gün teyitsiz). 1794'te Rus karşıtı ayaklanma, Suvorov aynı yıl yeniden fethetti: Rus 1794-95 işgal dönemi atlasta yok, Treccani gün vermiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1292",
+   "alan": "s",
+   "d": "varsova-dukaligi",
+   "f": "1807-07-09",
+   "t": "1815-06-09",
+   "hukum": "ONERI",
+   "kaynak": "Treccani «Varsavia», https://www.treccani.it/enciclopedia/varsavia/",
+   "alinti": "costituito con il trattato di Tilsit del 7 luglio 1807 ... Il Congresso di Vienna (1815) decretò il passaggio ... alla Russia",
+   "oneri": {
+    "f": "1807-07-07 (Treccani; Tilsit Fransa-Rusya) ya da 1807-07-09 (atlas, Fransa-Prusya Tilsit)"
+   },
+   "not": "KURAL KARARI: Treccani dukalığın kuruluşunu 7 Temmuz 1807 Tilsit ile verir; atlas 9 Temmuz (Prusya'nın toprak terki). De jure devir Prusya antlaşma günü ise 07-09 kalır; ayrıca Treccani 22 Temmuz 1807 Anayasa verir. Bitiş: Treccani yalnız 'Viyana Kongresi (1815)' YIL; 1815-06-09 kaynakta yok. Fiilî olarak Rus orduları 1813'te Varşova'yı almıştı (Treccani'de yok) — TEK KURAL gereği isg: rusya 1813 → 1815-06-09 adayı, gün/yıl kaynaksız bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1292",
+   "alan": "s",
+   "d": "polonya",
+   "f": "1918-11-11",
+   "t": "1939-10-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani «Varsavia», https://www.treccani.it/enciclopedia/varsavia/",
+   "alinti": "l’11 novembre 1918 divenne la capitale della Polonia ricostituita",
+   "oneri": {},
+   "not": "Başlangıç günü teyitli. Bitiş ucu ONERI: Treccani 'capitolò il 28 settembre' (1939); USHMM de Varşova'nın 28 Eylül 1939'da teslim olduğunu yazar; Generalgouvernement 26 Ekim 1939'da kuruldu (USHMM 'German Administration of Poland'). 1939-10-06 (Kock teslimi) hiçbir yerde Varşova'ya bağlanmıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1292",
+   "alan": "s",
+   "d": "polonya-genel-hukumeti",
+   "f": "1939-10-06",
+   "t": "1945-01-17",
+   "hukum": "ONERI",
+   "kaynak": "USHMM Holocaust Encyclopedia «German Administration of Poland», https://encyclopedia.ushmm.org/content/en/article/german-administration-of-poland",
+   "alinti": "organized into the \"Generalgouvernement\" (General Government) of Poland on October 26, 1939",
+   "oneri": {
+    "f": "1939-10-26",
+    "ek": "isg: almanya 1939-09-28 → 1939-10-26 (Varşova teslimi 28 Eylül; TEK KURAL: s: hukukî devirden = GG kuruluşu)"
+   },
+   "not": "TEK KURAL uygulaması: ham işgal 1939-09-28 (Treccani+USHMM) ic_not; s: polonya-genel-hukumeti GG kuruluş gününden (1939-10-26). 1945-01-17 ucu bu kaynaklarda okunmadı."
+  }
+ ],
+ "Vilnius": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1293",
+   "alan": "s",
+   "d": "litvanya-buyuk-dukalik",
+   "f": "1281-01-01",
+   "t": "1569-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Vilnius» (https://www.treccani.it/enciclopedia/vilnius/)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani Vilnius'un 1281-1569 dönemini anlatmıyor; mevcut DEVRALMA ülke düzeyinde. Şehre özgü kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1293",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1795-10-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Vilnius»",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani Lublin Birliği'ni anmıyor. Bitiş için aşağıdaki Rusya satırına bak."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1293",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1795-10-24",
+   "t": "1915-09-18",
+   "hukum": "ONERI",
+   "kaynak": "Treccani «Vilnius», https://www.treccani.it/enciclopedia/vilnius/",
+   "alinti": "Annessa alla Russia nel 1793 ... Occupata dai Tedeschi nel 1915",
+   "oneri": {
+    "f": "1793-01-01 (YIL; Treccani) — ŞÜPHELİ"
+   },
+   "not": "ÇELİŞKİ: Treccani Vilnius'un Rusya'ya 1793'te katıldığını yazar; bilinen III. Paylaşım 1795'tir (II. Paylaşım Vilnius'u içermiyor). Treccani'nin 1793'ü hatalı olabilir; karar KASA'nın, ikinci bağımsız kaynak bu partide bulunamadı. Bitiş: 1915 YIL teyitli, 09-18 günü Treccani'de yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1293",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1915-09-18",
+   "t": "1918-02-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani «Vilnius», https://www.treccani.it/enciclopedia/vilnius/",
+   "alinti": "Occupata dai Tedeschi nel 1915",
+   "oneri": {},
+   "not": "YIL düzeyi; kaynak 'işgal' diyor. TEK KURAL: s: almanya değil isg: almanya olmalı (Rusya Brest-Litovsk 1918-03-03'te feragat edene ya da Litvanya devletine kadar). Atlasın mevcut BEYANLI YAKLAŞIKLIK kaydı bu satırı kapsıyor ama TEK KURAL'a göre isg: yazılmalı; gün kaynakla okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1293",
+   "alan": "s",
+   "d": "litvanya",
+   "f": "1918-02-16",
+   "t": "1919-01-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani 1918 Litvanya bağımsızlığını ve Vilnius'u anmıyor. Bağımsızlık ilanı 16 Şubat 1918 için Litvanya kaynağı (ör. lituanistika/LRT) bu partide okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1293",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1940-08-06",
+   "t": "1941-07-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani «Vilnius», https://www.treccani.it/enciclopedia/vilnius/",
+   "alinti": "fu annessa all’URSS nel 1940",
+   "oneri": {},
+   "not": "YIL düzeyi (1940); 08-06 günü Treccani'de yok [yalnız yıl teyitli]. 1941-1944 Alman işgali Treccani'de YIL: 'Occupata dai Tedeschi (1941-44)'. TEK KURAL: Ostland s: değil isg: almanya adayı, gün kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1293",
+   "alan": "s",
+   "d": "polonya",
+   "f": "1919-04-19",
+   "t": "1920-07-12",
+   "hukum": "ONERI",
+   "kaynak": "Treccani «Vilnius»",
+   "alinti": "Occupata dai Tedeschi nel 1915 e poi dai Polacchi e dai Russi",
+   "oneri": {
+    "d": "isg: polonya 1919-04-19 → 1920-07-12 (TEK KURAL adayı)"
+   },
+   "not": "Mevcut satır kaynaklı (LRT/Britannica) ama Treccani 'occupata' (işgal) diyor; hukukî devir 1920-07-12 Sovyet-Litvanya antlaşmasıdır ve 1922-03-24 Polonya katılımıdır. TEK KURAL gereği 1919-04-19 → 1920-07-12 isg: polonya + s: sovyet-rusya olmalı. KASA koordinatör kararı gerekir."
+  }
+ ],
+ "Krakov": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1173",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1795-10-24",
+   "t": "1809-10-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani «Cracovia», https://www.treccani.it/enciclopedia/cracovia/",
+   "alinti": "Passata all’Austria nel 1795",
+   "oneri": {},
+   "not": "YIL düzeyi (1795); gün 10-24 bu kaynakta yok. Mevcut kaynak 1809 ucu için ayrı (Schönbrunn)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1173",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1846-11-11",
+   "t": "1918-11-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani «Cracovia»",
+   "alinti": "nel 1846 perse la sua autonomia e fu incorporata all’Austria",
+   "oneri": {},
+   "not": "1846 YIL teyitli. Mevcut kaynak (Kargol 2023) zaten daha iyi; 1918-11-11 ucu için bkz. Polonya satırı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1173",
+   "alan": "s",
+   "d": "polonya",
+   "f": "1918-11-11",
+   "t": "1939-10-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Cracovia»",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani Krakov'un 1918/Polonya'ya katılışını anmıyor. 1918-11-11 Varşova'nın tarihidir (Treccani Varsavia); Krakov Avusturya'dan Galiçya'dan ayrılıp daha önce (Ekim 1918) Polonya idaresine geçti, de jure devir Saint-Germain Antlaşması (10 Eylül 1919) olabilir — bu partide kaynakla okunamadı (TEK KURAL adayı). Bitiş: Treccani 'Nel 1939 fu occupata dai Tedeschi' YIL; GG 26 Ekim 1939 (USHMM)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1173",
+   "alan": "s",
+   "d": "polonya-genel-hukumeti",
+   "f": "1939-10-06",
+   "t": "1945-01-17",
+   "hukum": "ONERI",
+   "kaynak": "USHMM Holocaust Encyclopedia «German Administration of Poland», https://encyclopedia.ushmm.org/content/en/article/german-administration-of-poland",
+   "alinti": "organized into the \"Generalgouvernement\" ... on October 26, 1939 ... with the seat in Krakow",
+   "oneri": {
+    "f": "1939-10-26",
+    "ek": "isg: almanya 1939 (YIL; Treccani 'Nel 1939 fu occupata dai Tedeschi') → 1939-10-26"
+   },
+   "not": "TEK KURAL uygulaması: GG kuruluş günü 1939-10-26 (Krakov başkent); 1939-10-06 kaynakta yok. Treccani 1945 'liberata dai Russi' YIL."
+  }
+ ],
+ "Stokholm": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1282",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "kaynak": "Treccani «Stoccolma», https://www.treccani.it/enciclopedia/stoccolma/ ; mevcut DEVRALMA: Encyclopedia of World Biography (Gale) 'Gustavus I'",
+   "alinti": "dopo le rivolte guidate da Gustavo Vasa, respinti i Danesi, dal 16° sec. S. può essere considerata la capitale",
+   "oneri": {},
+   "not": "UYARI: 1523-06-06 Strängnäs'te kral seçimi günüdür; Stokholm şehri Danimarkalılardan bu günden sonra alındı. Treccani 1520'de Kristiyan II fethi ('Stockholm Kanlı Banyosu') ve Gustav Vasa'nın Danimarkalıları püskürtmesini anar ama gün/yıl vermez; şehrin teslim günü bu partide kaynakla bulunamadı (snl.no Gustav_Vasa 404). Tarih uydurulmadı; 1520-1523 arasında Danimarka (Kalmar Birliği) denetimi için atlas dönemi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1282",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1523-06-06",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani «Stoccolma»",
+   "alinti": "",
+   "oneri": {},
+   "not": "Treccani yalnız 'dal 16° sec. capitale della Svezia' der; 1523-06-06 günü Stokholm'ün teslimini göstermez (yukarıdaki satıra bak)."
+  }
+ ],
+ "Helsinki": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1285",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1550-06-12",
+   "t": "1809-09-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani «Helsinki», https://www.treccani.it/enciclopedia/helsinki/ ; Store norske leksikon «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "Fondata nel 1550 da Gustavo Vasa ... (SNL: forordning av 1550, som også påbød grunnleggingen av Helsinki)",
+   "oneri": {},
+   "not": "YIL düzeyi [yalnız yıl teyitli; gün 06-12 teyitsiz]. Treccani: ilk yerleşim Vantaa Nehri üzerinde, 1640'ta Estnäs yarımadasına taşındı (konum notu). Bitiş: SNL 'I 1809 måtte Sverige avstå Finland til Russland' ve '17. september samme år, ved en avtale i Hamina' — GÜN teyitli (1809-09-17)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1285",
+   "alan": "s",
+   "d": "finlandiya-buyuk-dukaligi",
+   "f": "1809-09-17",
+   "t": "1917-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "17. september samme år, ved en avtale i Hamina, måtte Sverige avstå hele Finland og Åland",
+   "oneri": {},
+   "not": "Zaten kaynaklı; bu turda aynı SNL metni yeniden okundu, gün ve 1917-12-06 ('Den 6. desember 1917 erklærte en ... Landdag Finlands fulle uavhengighet') teyitli. Hukukî devir: Hamina; SNL Mart 1809'da Porvoo Landdag'ında Çar'a biat edildiğini de yazar (fiilî). Rusya Bolşevik hükûmeti Finlandiya'yı 31 Aralık 1917'de tanıdı (SNL) — ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1285",
+   "alan": "s",
+   "d": "finlandiya",
+   "f": "1917-12-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon «Finlands historie», https://snl.no/Finlands_historie",
+   "alinti": "Den 6. desember 1917 erklærte en borgerlig dominert Landdag Finlands fulle uavhengighet",
+   "oneri": {},
+   "not": "Başlangıç günü teyitli (bağımsızlık ilanı). Sovyet ardılı sayılmaz (Finlandiya Rus İmparatorluğu'ndan 1917'de ayrıldı, SSCB ardılı değil). Mevcut kaynak (Jussila vd.) kitap düzeyinde; sayfa yok."
+  }
  ]
 }

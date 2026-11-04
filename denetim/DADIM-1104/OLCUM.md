@@ -155,7 +155,95 @@ Bu karar TBMM 1920 ve Ege 1912 kararlarıyla tutarlıdır.
 - Irak 1921-08-23: **var** (`kronoloji_sinir_komsu.js`, `irak-kralligi`).
 - Lübnan/Beyrut 1920-07-01: **madde bulunamadı**. Yalnız 1920-07-25 Fransızların Şam'a girişi var. Bu madde Lübnan yerleşimlerinin kırılmasını yer şartıyla karşılamayabilir. → **KASA kuyruğu: "kronoloji maddesi gerekli: Lübnan/Beyrut manda yönetiminin başlangıcı 1920-07-01".**
 
-**Şam için açık soru:** atlasta `suriye-arap-kralligi` 1918-10-01'de başlıyor; künye f'si de 1918-10-01. Koordinatör "1920-03-08 → 07-24 kendi s: dönemi" dedi. Tek kurala göre 1918-10-01 → 1920-03-08 arası nasıl yazılacak: Osmanlı `d:` + isg mi, yoksa 1918-10-01'den başlayan Arap idaresi açık bir tasarruf mu? Koordinatöre soruldu.
+**Koordinatörün ek kararları (4 Kasım, ikinci ve üçüncü tur):**
+- **Şam:** `suriye-arap-kralligi` 1918-10-01 **kalır**. Faysal'ın Arap hükümeti yerel bir yönetimdir ve krallığın kendisidir. 1920-03-08 krallığın ilanıdır, ic_not'a yazılır. 1920-07-25 kalır: Gouraud yönetimi doğrudan devraldı.
+- **Lübnan kıyısı ve Antakya/İskenderun:** manda ne 07-01'de ne 07-24'te başlar. Başlangıç, Büyük Lübnan'ın ve Halep Devleti'nin kurulduğu Eylül günüdür.
+  - Bu gün **ÇELİŞKİLİ:** TDV «Lübnan» "Eylül 1921" diyor, koordinatör bellekten 1920-09-01 diyor.
+  - Üçüncü kaynak aranıyor; bulunana kadar KASA uygulamaz. Bulununca iki kaynak ic_not'a yazılır.
+  - Değişmez 2: Büyük Lübnan için kronoloji maddesi **yok** (ölçüldü). Madde KASA kuyruğunda.
+- **Musul vilayeti** (Musul, Kerkük, Erbil, Süleymaniye):
+  - İşgal boyunca sahip `d:` Osmanlı, işgalci `isg ingiltere` olarak yazılır. Bunlar Mayıs 1918'deki kısa Kerkük girişi ve Mondros sonrası dönemdir.
+  - 1921-08-23'ten itibaren sahip `irak-kralligi`.
+  - ic_not: Musul meselesi; Milletler Cemiyeti kararı 1925-12-16; Ankara Antlaşması 1926-06-05.
+  - Türkiye bu toprakları fiilen yönetmediği için `s:` almaz.
+- **Mersin, Silopi, Cumai:**
+  - İşgal boyunca `d:` Osmanlı + `isg`.
+  - `s: tbmm` TBMM'nin şehri **fiilen teslim aldığı** günden başlar; Ankara Antlaşması'nın imza günü (1921-10-20) değil.
+  - Silopi ve Cumai'deki "ingiltere" işgalcisi şüpheli, çünkü Ankara Antlaşması Fransa'yla yapıldı. İşgalci ve bitiş günü ölçülecek.
+- **Amman ve Kerak:**
+  - 1918 sonbaharı → 1920-07: `suriye-arap-kralligi`.
+  - Ardından yerel hükümetler, sonra 1921 Abdullah emirliği.
+  - Kerak'ın 1918-01-01'i büyük ihtimalle yıl yer tutucusu.
+
+**Şam için açık soru** (çözüldü, yukarıda): atlasta `suriye-arap-kralligi` 1918-10-01'de başlıyor; künye f'si de 1918-10-01. Koordinatör "1920-03-08 → 07-24 kendi s: dönemi" dedi. Tek kurala göre 1918-10-01 → 1920-03-08 arası nasıl yazılacak: Osmanlı `d:` + isg mi, yoksa 1918-10-01'den başlayan Arap idaresi açık bir tasarruf mu? Koordinatöre soruldu.
+
+## 7. Levant/Aachen araştırma sonuçları (UMIT, 4 Kasım 2026 akşamı — `levant_arastirma.json`)
+- **S1 Büyük Lübnan:**
+  - Sonuç: 1920-09-01, gün hassasiyetinde.
+  - 318 sayılı kararname 31 Ağustos 1920 tarihli; ilan 1 Eylül 1920'de yapıldı.
+  - Kaynaklar: AUB Libraries rehberi, TDV «Halep» (Gouraud'nun 1 Eylül 1920 bildirisi) ve LoC (yalnız yıl veriyor).
+  - TDV «Lübnan»daki "Eylül 1921" büyük ihtimalle yazım hatası. Bu bir ÇİFT-TDV durumu: TDV «Halep» ile TDV «Lübnan» çelişiyor.
+  - Hakemli çift teyit yok, çünkü Longrigg ve Zamir açılamadı. **KASA, 1920-09-01'i ic_not beyanıyla uygulayabilir.**
+- **S2 Halep Devleti:**
+  - Kuruluş 1920-09-01 (TDV «Halep»).
+  - İskenderun aynı bildiriyle Halep'e bağlandı; ayrı bir gün yok.
+  - İşgal zinciri (TDV «İskenderun»): İngiliz 1918-11-09, Fransız 1918-11-10, Fransız idaresi Ekim 1919.
+- **S3 Mersin:**
+  - Fransız çıkarması 1918-12-17 (TDV «Mersin»). Atlastaki 1918-10-30 kaynaksız.
+  - TBMM kuvvetleri 1922-01-03'te şehre girdi; son Fransız birliği 1922-01-04'te ayrıldı.
+  - **Öneri:** `isg fransa` 1918-12-17 → 1922-01-03, ardından `s: tbmm` 1922-01-03'ten başlar.
+  - Not: atlasta işgalci zaten fransa-cumhuriyet yazıyor.
+- **S3 Silopi ve Cumai:** BULUNAMADI.
+  - TDV «Nusaybin»e göre işgalci önce İngiliz, sonra Fransız olabilir.
+  - Ankara Antlaşması'nın günü iki TDV maddesinde farklı: 20 Ekim (TDV «İskenderun») ve 21 Ekim (TDV «Nusaybin»).
+  - Silopi ve Cumai ABİ MERKEZ merdivenine (Nusaybin ya da Cizre) gider.
+- **S4 Amman ve Kerak:**
+  - Amman'ı Arap kuvvetleri 1918-09-25'te aldı (TDV «Amman»). 1918-1920 arası sahibi Şam'daki Faysal yönetimi.
+  - Ürdün Emirliği'nin kuruluşu için TDV yalnız "Şubat 1921" diyor; 1921-04-11 teyit edilemedi.
+  - Kerak'ın günü BULUNAMADI. 1920-07 → 1921 arası yerel hükümetler dönemi için kaynak yok.
+- **S5 Kerkük:**
+  - İngilizler 1918-05-07'de girdi; Osmanlı 1918-05-27'de geri aldı (TDV «Kerkük»).
+  - Öneri: bu aralık `isg ingiltere`, `d:` Osmanlı sürer.
+  - İngilizlerin çekiliş günü akademik bir kaynakta bulunamadı.
+- **S6 Aachen:**
+  - Hukukî ilhak Lunéville Antlaşması'yla, 1801-02-09 (Treccani «Luneville»).
+  - Campo Formio'da yalnız gizli madde var; Roer département'ı 1798'de kuruldu. Ayrı bir ilhak yasası bulunamadı.
+  - **Öneri:** `isg fransa` 1794 → 1801-02-09, `s: fransa` 1801-02-09'dan başlar.
+  - Rheinische Geschichte sayfası SSL hatası verdi; teyit sayılmadı.
+- **S7 Brüksel:**
+  - İlhak kararı 1795-10-01 (9 Vendémiaire IV). Kaynak: Digithèque MJP, Univ. Perpignan; birincil belge neşri.
+  - Sayfanın dipnotunda "8 vendémiaire" yazıyor; kaynak içinde 1 günlük çelişki var.
+  - **Öneri:** `s: fransa` 1795-10-01'den başlar; çelişki ic_not'a yazılır.
+
+## 8. Burgonya (EMRELİC vakası, 4 Kasım 2026)
+- **Ölçüm** (ceb0ce402): bölgede 1400-1530 dönemine uyan 3 nokta var.
+  - Dijon (`data/yerlesimler_avrupa.js:214`): s burgonya → 1477-01-05, s fransa 1477-01-05 → 1792. Kaynak DEVRALMA.
+  - Auxerre (`data/yerlesimler_ms1_1281_yeni.js:79-80`): s burgonya 1435-01-01 → 1477-01-01. Bu tarihler yalnız yıl yer tutucusu; Arras I'in günü 1435-09-21.
+  - Besançon (`data/yerlesimler_avrupa.js:216`): s almanya → 1516-01-23, sonra ispanya.
+- Beaune, Chalon, Autun, Mâcon, Dole, Gray, Salins ve Nevers **veride yok** → KASA-YER kuyruğu.
+- **Koordinatör kararı:**
+  - XI. Louis'nin dükalığı tâca bağlaması (réunion) ve Dijon Estates'in tanıması kaynakla teyit edilirse, `s: fransa` o günden başlar ve isg ara dönemi yazılmaz.
+  - Arras 1482, Senlis 1493, Madrid 1526 ve Cambrai 1529 ic_not'a yazılır.
+- **Araştırma sonucu** (`burgonya_arastirma.json`): yalnız ikincil kaynaklar okunabildi, hakemli kaynak ele geçmedi. **İstisna teyitli DEĞİL.**
+  - **B1:**
+    - Açık bir réunion kararnamesi bulunamadı.
+    - Estates 1477-01-29'da dükalığı **Marie'nin hakları saklı, Dauphin evliliği şartıyla** teslim etti. Bu bir emanet; egemenliğin üstlenilmesi değil.
+    - Louis XI'in Ocak 1477 mektupları da Marie'nin hakkını koruyacağını söylüyor.
+    - İlk açık egemenlik tasarrufu: Louis XI'in 1477-03-18 tarihli Arras aktı; Dijon'da parlamento kurdu (Cosmovisions, BnF Fr.5325 kaydı).
+    - Tek kurala göre öneri:
+      - Dijon: s burgonya → 1477-03-18 · isg fransa 1477-01 (giriş günü BULUNAMADI) → 1477-03-18 · s fransa 1477-03-18'den.
+      - Gün yarı teyitli; KASA uygulamadan önce Chevanne 1930 okunmalı: "Les États de Bourgogne et la réunion du Duché à la France en 1477", Mém. Soc. archéol. Beaune, s. 195-245.
+    - Dijon'daki şimdiki 1477-01-05 ucu Şarl'ın ölüm günü; devir günü değil.
+  - **B2:**
+    - Arras: 1482-12-23. Dükalık antlaşmada anılmıyor (sessiz tanıma).
+    - Senlis: 1493-05-23. Cambrai: 1529-08-05.
+    - Bunlar yalnız ic_not'a girer. Hakemli çift teyit eksik.
+  - **B3:** dükalık için düşer. Marie'nin ölüm günü kaynakta 25 Mart, brifte 27 Mart; çelişki.
+  - **B4 (Auxerre):**
+    - 1435-01-01 → 1435-09-21 (Arras I). Kaynak popüler (herodote.net), hakemli teyit yok.
+    - 1477 ucu B1'e bağlı.
+    - Arras 1482'de Auxerre Marguerite'in çeyizine yazıldı (yalnız Cosmovisions). Bu, 1482-1493 arası ayrı bir dilim demek olabilir; ölçülmedi.
+  - **B5:** Besançon'a dokunulmaz. Dole 1479-05-25 teyit edilemedi. Franche-Comté olayları ic_not'a.
 
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
