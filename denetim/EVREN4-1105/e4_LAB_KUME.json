@@ -27,6 +27,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:763",
    "alan": "s",
+   "d": "kirim",
+   "f": "1774-07-21",
+   "t": "1783-04-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KÜÇÜK KAYNARCA ANTLAŞMASI - https://islamansiklopedisi.org.tr/kucuk-kaynarca-antlasmasi ; TDV KIRIM (İnalcık) - https://islamansiklopedisi.org.tr/kirim",
+   "alinti": "hazırlanan antlaşma metni delegelerce imzalandı ... (12 Cemâziyelevvel 1188 / 21 Temmuz 1774)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kirim 1774-07-21, 4 satır); yalnız gün ve devlet teyitli. TDV Küçük Kaynarca: imza 21 Temmuz 1774 (hicrî 12 Cemâziyelevvel 1188 çevrilmedi); sadrazam onayı 23 Temmuz, Küçük Kaynarca'ya gelişi 25 Temmuz, ertesi gün (26 Temmuz) üç dilde nüshalar → antlaşma ünvan maddesinde '26 Temmuz 1774' yazar; TDV Kırım: 'Küçük Kaynarca Antlaşması’nın (21 Temmuz 1774) 3. maddesiyle Kırım, Bucak, Kuban, Yedisan ... müstakil tanınacaklar'. Tutarlı: imza 21, onay/teati 26 (26 yürürlük/ic_not'a). TEK ÖLÇÜ: Rusya Kırım'ı zaten fiilen işgal etmişti (1771), kurulan Kırım bağımsız; f=imza günü uyumlu. KARIŞIK: Tuapse ve Soçi (Çerkez kıyısı) antlaşmada adıyla geçmez; TDV Kırım 'Kabartay’da Çerkez kabileleri Kırım hanlarını metbû tanırlardı' ve Osmanlı Kuban ve Karadeniz kıyısındaki Nogay ve Çerkezleri kendi tebaası saydı: Tuapse/Soçi için f sınır belirsizliği, Kuban Nogay bozkırı ve Kuban (Yekaterinodar) için TDV sözü doğrudan. t=1783-04-19: TDV 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)' = Jülyen 8 Nisan = Gregoryen 19 Nisan; atlas ile tutarlı (alıntı t ucunu tarihliyor, f'yi değil). Künye f 1441 / t 1783-04-19: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:763",
+   "alan": "s",
    "d": "rusya-federasyonu",
    "f": "1991-12-26",
    "t": "2000-12-31",
@@ -103,7 +115,47 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya-federasyonu 1991-12-26, 94 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (5 Kas): 142-N 1991-12-26 birincil metin (devamcı devlet kuralı); history.state.gov 12-25 Gorbaçov istifası ic_not'a. | Sayfa 26 Aralik vermiyor; 25 Aralik (bayrak, Gorbacov istifasi) ayri olay. Devamcilik cumlesi de yok. 1991-12-26 (142-N) icin kaynak BULUNAMADI; Kremlin/Duma/BM yazismasi bakilmadi. Kunye f = kume f tutarli. ULKE DUZEYI, 94 yerlesim tek olay."
   }
  ],
+ "Aberdeen": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:123",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1707-05-12",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İNGİLTERE (https://islamansiklopedisi.org.tr/ingiltere, yıl 1707 yok); Treccani Dizionario di Storia slug'ı bulunamadı; parliament.uk robots yasağı; en.wikipedia Acts_of_Union_1707 (İPUCU, okundu).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1707-05-12, 4 satır); yalnız gün ve devlet teyitli. TDV İngiltere: 'Kraliçe Anne’nin saltanatında, 1603’ten beri aynı krala tâbi olan İskoçya ve İngiltere’nin yönetimleri Birleşik Krallık adıyla tek çatı altına alındı' (yıl yok). İPUCU (Vikipedi): Union Acts commencement 1 May 1707, royal assent 6 March 1707. TAKVİM: Britanya 1752'ye dek Jülyen; Jülyen 1 Mayıs 1707 = Gregoryen 12 Mayıs 1707 → atlas f=1707-05-12 bu çeviriyle uyumlu (takvim belirsizliğini ic_not'ta beyan et). TEK ÖLÇÜ: İskoçya'yı İngiltere fiilen yönetmiyordu (kendi parlamentosu 1707'ye dek) → imza değil FİİLÎ BİRLEŞME günü (1 Mayıs 1707 Jülyen) uyumlu; Union antlaşma metni 22 Temmuz 1706 imza (ic_not). Akademik kaynakla okunmadığı için BULUNAMADI. | VERİ DEĞİŞTİ: dönem güncel veride birebir yok."
+  }
+ ],
+ "Dumfries": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:126",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1707-05-12",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İNGİLTERE (https://islamansiklopedisi.org.tr/ingiltere, yıl 1707 yok); Treccani Dizionario di Storia slug'ı bulunamadı; parliament.uk robots yasağı; en.wikipedia Acts_of_Union_1707 (İPUCU, okundu).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1707-05-12, 4 satır); yalnız gün ve devlet teyitli. TDV İngiltere: 'Kraliçe Anne’nin saltanatında, 1603’ten beri aynı krala tâbi olan İskoçya ve İngiltere’nin yönetimleri Birleşik Krallık adıyla tek çatı altına alındı' (yıl yok). İPUCU (Vikipedi): Union Acts commencement 1 May 1707, royal assent 6 March 1707. TAKVİM: Britanya 1752'ye dek Jülyen; Jülyen 1 Mayıs 1707 = Gregoryen 12 Mayıs 1707 → atlas f=1707-05-12 bu çeviriyle uyumlu (takvim belirsizliğini ic_not'ta beyan et). TEK ÖLÇÜ: İskoçya'yı İngiltere fiilen yönetmiyordu (kendi parlamentosu 1707'ye dek) → imza değil FİİLÎ BİRLEŞME günü (1 Mayıs 1707 Jülyen) uyumlu; Union antlaşma metni 22 Temmuz 1706 imza (ic_not). Akademik kaynakla okunmadığı için BULUNAMADI. | VERİ DEĞİŞTİ: dönem güncel veride birebir yok."
+  }
+ ],
  "Ennis": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:146",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "1922-12-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İNGİLTERE (1603 yalnız taç birliği geçer, İrlanda yok); en.wikipedia Nine_Years'_War_(Ireland) ve Treaty_of_Mellifont (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1603-03-30, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Dokuz Yıl Savaşı 30 Mart 1603'te Mellifont antlaşmasıyla bitti (atlas f=1603-03-30 bu gün). Ama Mellifont bir BARIŞ/teslim antlaşmasıdır; Ulster'daki yerler (Cavan, Donegal, Derry) bundan sonra da Gaelic lordlarının elinde kaldı ve idareye katılma/Plantation ancak Earls'ün Kaçışı 1607'den sonra (kaynak okunmadı). Ennis (Clare, Munster) 1570'lerden shire. KARIŞIK: TEK ÖLÇÜ/TAHRİR ÖLÇÜTÜ: İngiltere'nin fiilen yönettiği gün bulunmalı; Mellifont günü Ulster için fiilî idare günü olmayabilir. Ayrıca İrlanda Krallığı 1801'e dek ayrı krallık (İngiltere ile kişisel birlik) — s: ingiltere sahipliği kaynaklı mı sorusu EMRELİC'te. t=1922-12-06 İrlanda Özgür Devleti (3 yer), Derry/Kuzey İrlanda t=2000 yer tutucu."
+  },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:146",
    "alan": "s",
@@ -118,6 +170,18 @@
   }
  ],
  "Cavan": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:150",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "1922-12-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İNGİLTERE (1603 yalnız taç birliği geçer, İrlanda yok); en.wikipedia Nine_Years'_War_(Ireland) ve Treaty_of_Mellifont (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1603-03-30, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Dokuz Yıl Savaşı 30 Mart 1603'te Mellifont antlaşmasıyla bitti (atlas f=1603-03-30 bu gün). Ama Mellifont bir BARIŞ/teslim antlaşmasıdır; Ulster'daki yerler (Cavan, Donegal, Derry) bundan sonra da Gaelic lordlarının elinde kaldı ve idareye katılma/Plantation ancak Earls'ün Kaçışı 1607'den sonra (kaynak okunmadı). Ennis (Clare, Munster) 1570'lerden shire. KARIŞIK: TEK ÖLÇÜ/TAHRİR ÖLÇÜTÜ: İngiltere'nin fiilen yönettiği gün bulunmalı; Mellifont günü Ulster için fiilî idare günü olmayabilir. Ayrıca İrlanda Krallığı 1801'e dek ayrı krallık (İngiltere ile kişisel birlik) — s: ingiltere sahipliği kaynaklı mı sorusu EMRELİC'te. t=1922-12-06 İrlanda Özgür Devleti (3 yer), Derry/Kuzey İrlanda t=2000 yer tutucu."
+  },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:150",
    "alan": "s",
@@ -491,6 +555,18 @@
   {
    "dosya_satir": "data/yerlesimler_asya.js:1409",
    "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1490-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, BEHMENÎLER - https://islamansiklopedisi.org.tr/behmeniler",
+   "alinti": "BEHMENÎLER 1347-1527 yılları arasında Hindistan’ın Dekken bölgesinde hüküm süren bir hânedan.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (behmeni 1347-08-03, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (f=1347; TDV hükümdar listesi 'Alâeddin Behmen Şah 748 (1347)'). Gün/ay TDV'de yok: atlas 1347-08-03 gün düzeyi başka kaynaktan (bu okumada yok). TDV: Alâeddin Hasan 'Goa, Dabhol, Kolapur ve Telingina’yı da hâkimiyeti altına aldı' (kuruluş dönemi 1347-1358; Goa/Kolhapur için tutarlı). KARIŞIK: Kurnool ve Vişakapatnam (Behmenî hâkimiyetine ne zaman girdiği TDV'de yok) ve Goa'nın kalıcı Behmenî tarihi (başka kaynaklar 1470'ler der, okunmadı) için f=kuruluş günü ÜLKE DÜZEYİ yaklaşıklıktır; yerleşim-özgü f kaynağı yok. t=1490 (3 yer) ve 1512: halef sultanlıklar (Bijapur/Golconda), TDV 'Bîder’de Berîdşâhîler (1487-1619) Behmenîler’in halefleri', t kaynağı okunmadı. Künye 1347-1527: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1409",
+   "alan": "s",
    "d": "hindistan-cumhuriyeti",
    "f": "1947-08-15",
    "t": "2000-12-31",
@@ -544,6 +620,18 @@
   }
  ],
  "Vişâkapatnam": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1639",
+   "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1512-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, BEHMENÎLER - https://islamansiklopedisi.org.tr/behmeniler",
+   "alinti": "BEHMENÎLER 1347-1527 yılları arasında Hindistan’ın Dekken bölgesinde hüküm süren bir hânedan.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (behmeni 1347-08-03, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (f=1347; TDV hükümdar listesi 'Alâeddin Behmen Şah 748 (1347)'). Gün/ay TDV'de yok: atlas 1347-08-03 gün düzeyi başka kaynaktan (bu okumada yok). TDV: Alâeddin Hasan 'Goa, Dabhol, Kolapur ve Telingina’yı da hâkimiyeti altına aldı' (kuruluş dönemi 1347-1358; Goa/Kolhapur için tutarlı). KARIŞIK: Kurnool ve Vişakapatnam (Behmenî hâkimiyetine ne zaman girdiği TDV'de yok) ve Goa'nın kalıcı Behmenî tarihi (başka kaynaklar 1470'ler der, okunmadı) için f=kuruluş günü ÜLKE DÜZEYİ yaklaşıklıktır; yerleşim-özgü f kaynağı yok. t=1490 (3 yer) ve 1512: halef sultanlıklar (Bijapur/Golconda), TDV 'Bîder’de Berîdşâhîler (1487-1619) Behmenîler’in halefleri', t kaynağı okunmadı. Künye 1347-1527: aşım yok."
+  },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1639",
    "alan": "s",
@@ -627,6 +715,18 @@
   {
    "dosya_satir": "data/yerlesimler_asya.js:2021",
    "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ÇİN (Ming kuruluşu anlatımı) - https://islamansiklopedisi.org.tr/cin ; arama özeti 'Ming devrine kadar [1368]' - https://islamansiklopedisi.org.tr/arama/ming-hanedani",
+   "alinti": "nihayet 1368 yılında yerini Ming sülâlesine bıraktı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ming-hanedani 1368-01-23, 4 satır); yalnız gün ve devlet teyitli. LAB PAZAR: alıntı TDV arama sayfası parçasından, madde gövdesi değil — ONERI. Ming künyesi 1356'ya genişliyor (EMRELİC). | ÜLKE DÜZEYİ, YIL DÜZEYİ: TDV (arama sonuç parçası; madde gövdesi 'cin' maddesinde bulunamadı, bu cümle arama sayfası parçası, KAYNAKLI zayıf): Yüan 1368'de Ming'e bırakıldı, Ming 1368-1644. Gün 1368-01-23: İPUCU (Vikipedi Hongwu Emperor: enthronement 23 January 1368; Wu dönemi 31 January 1367 - 23 January 1368), TDV'de gün yok. KARIŞIK: Suzhou (1367'de Zhu Yuanzhang aldı, Wu hükümeti), Nanchang (1363-64), Hefei, Hengyang yerleşimleri Ming'e f=hanedan kuruluşundan ÖNCE Zhu'nun 'Wu' devletinde → yerleşim-özgü f ya da öncül devlet (Wu) gerekir (kaynak okunmadı). t=1644-04-25 Çongzhen'in ölümü (hanedan düzeyi, Güney Ming 1662'ye dek); Hengyang/Nanchang/Suzhou Qing'e 1645'te geçti → t yerleşim için yanlış olabilir, kaynak okunmadı. Ay-güneş günleri çevrilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2021",
+   "alan": "s",
    "d": "guney-ming",
    "f": "1644-04-25",
    "t": "1645-06-08",
@@ -667,6 +767,18 @@
   {
    "dosya_satir": "data/yerlesimler_asya.js:2077",
    "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ÇİN (Ming kuruluşu anlatımı) - https://islamansiklopedisi.org.tr/cin ; arama özeti 'Ming devrine kadar [1368]' - https://islamansiklopedisi.org.tr/arama/ming-hanedani",
+   "alinti": "nihayet 1368 yılında yerini Ming sülâlesine bıraktı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ming-hanedani 1368-01-23, 4 satır); yalnız gün ve devlet teyitli. LAB PAZAR: alıntı TDV arama sayfası parçasından, madde gövdesi değil — ONERI. Ming künyesi 1356'ya genişliyor (EMRELİC). | ÜLKE DÜZEYİ, YIL DÜZEYİ: TDV (arama sonuç parçası; madde gövdesi 'cin' maddesinde bulunamadı, bu cümle arama sayfası parçası, KAYNAKLI zayıf): Yüan 1368'de Ming'e bırakıldı, Ming 1368-1644. Gün 1368-01-23: İPUCU (Vikipedi Hongwu Emperor: enthronement 23 January 1368; Wu dönemi 31 January 1367 - 23 January 1368), TDV'de gün yok. KARIŞIK: Suzhou (1367'de Zhu Yuanzhang aldı, Wu hükümeti), Nanchang (1363-64), Hefei, Hengyang yerleşimleri Ming'e f=hanedan kuruluşundan ÖNCE Zhu'nun 'Wu' devletinde → yerleşim-özgü f ya da öncül devlet (Wu) gerekir (kaynak okunmadı). t=1644-04-25 Çongzhen'in ölümü (hanedan düzeyi, Güney Ming 1662'ye dek); Hengyang/Nanchang/Suzhou Qing'e 1645'te geçti → t yerleşim için yanlış olabilir, kaynak okunmadı. Ay-güneş günleri çevrilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2077",
+   "alan": "s",
    "d": "guney-ming",
    "f": "1644-04-25",
    "t": "1645-06-08",
@@ -704,6 +816,18 @@
   }
  ],
  "Nanchang": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2149",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ÇİN (Ming kuruluşu anlatımı) - https://islamansiklopedisi.org.tr/cin ; arama özeti 'Ming devrine kadar [1368]' - https://islamansiklopedisi.org.tr/arama/ming-hanedani",
+   "alinti": "nihayet 1368 yılında yerini Ming sülâlesine bıraktı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ming-hanedani 1368-01-23, 4 satır); yalnız gün ve devlet teyitli. LAB PAZAR: alıntı TDV arama sayfası parçasından, madde gövdesi değil — ONERI. Ming künyesi 1356'ya genişliyor (EMRELİC). | ÜLKE DÜZEYİ, YIL DÜZEYİ: TDV (arama sonuç parçası; madde gövdesi 'cin' maddesinde bulunamadı, bu cümle arama sayfası parçası, KAYNAKLI zayıf): Yüan 1368'de Ming'e bırakıldı, Ming 1368-1644. Gün 1368-01-23: İPUCU (Vikipedi Hongwu Emperor: enthronement 23 January 1368; Wu dönemi 31 January 1367 - 23 January 1368), TDV'de gün yok. KARIŞIK: Suzhou (1367'de Zhu Yuanzhang aldı, Wu hükümeti), Nanchang (1363-64), Hefei, Hengyang yerleşimleri Ming'e f=hanedan kuruluşundan ÖNCE Zhu'nun 'Wu' devletinde → yerleşim-özgü f ya da öncül devlet (Wu) gerekir (kaynak okunmadı). t=1644-04-25 Çongzhen'in ölümü (hanedan düzeyi, Güney Ming 1662'ye dek); Hengyang/Nanchang/Suzhou Qing'e 1645'te geçti → t yerleşim için yanlış olabilir, kaynak okunmadı. Ay-güneş günleri çevrilmedi."
+  },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2149",
    "alan": "s",
@@ -769,6 +893,18 @@
     "f": "1644-06-07"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (guney-ming 1644-04-25, 14 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (5 Kas): guney-ming f 1644-06-07 (監國, Chongzhen 17/5/3, Academia Sinica); ming-hanedani t 1644-06-06; tahta çıkış 1644-06-19 ic_not; HAYALET-UYGULA'da (LAB SALI fa773d0b0). | MİNGSHİ AYNEN (崇禎十七年, 京師失守 sonrası): '五月庚寅，稱監國。' ve '壬寅自立於南京，偽號弘光。' Ay-güneş günleri ÇEVRİLMEDİ (ganzhi 庚寅 / 壬寅, 五月). Güney Ming ruhsatı 崇禎十七年五月 (监国 / ardından Hongguang), 1644-04-25 ise Chongzhen'in ölümü = Kuzey Ming sonu; Nan Ming f'si bu gün OLAMAZ. Batı karşılığı akademik kaynakla (ör. Cambridge History of China 7) tablo çevirisi gerek; yalnız ipucu: Vikipedi 五月三日 監國 / 十五日 登基. Öneri: f yıl-ay hassasiyeti '1644-05' + ic_not beyanı veya tablo çevirisi sonrası gün."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2235",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV ÇİN (Wu Sangui/Yunnan/Üç Derebeyi yok); en.wikipedia Revolt_of_the_Three_Feudatories (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (qing-hanedani 1681-12-07, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Üç Derebeyi isyanı 1673-1681; '1680'de Hunan, Guizhou, Guangxi ve Sichuan Qing tarafından geri alındı', Kunming 1681'de. Atlas f=1681-12-07 (Yunnan düşüşü ile ilişkili görünüyor; kaynakta gün okunmadı). KARIŞIK: Guiyang (Guizhou) 1680'de geri alındığı için f=1681-12-07 geç olabilir; Mianning (Lincang), Chuxiong, Kaihua (Wenshan) Yunnan, 1681 sonu. Yunnan'ın Wu Sangui'den Qing'e fiilen geçişi: Kunming düşüşü (Qing Shi Gao/Kangxi 20 kayıt günü olabilir: 'Academia Sinica ile çevrilecek', ben çevirmedim). TEK ÖLÇÜ: Wu Sangui Zhou devleti 1678 → Yunnan isyancı devlet; s: qing önceki zincir 'Zhou/Wu' olmalı, yoksa TEK KURAL (isyan işgali) açısından bakılmalı. Künye 1616-1912 aşım yok."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:2235",
@@ -1547,6 +1683,18 @@
   {
    "dosya_satir": "data/yerlesimler_ek20.js:106",
    "alan": "s",
+   "d": "mogulistan",
+   "f": "1347-01-01",
+   "t": "1634-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV Çağatay Hanlığı (https://islamansiklopedisi.org.tr/cagatay-hanligi: Moğulistan/1347/1514/1634 yok); TDV 'mogulistan' slug'ı bulunamadı; en.wikipedia Moghulistan (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogulistan 1347-01-01, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Moghulistan 1347 kuruluş; 1462'ye dek bütün, 1462'den sonra batı (Yarkent Hanlığı) ve doğu (Turfan Hanlığı); Vikipedi sonu 1705/1660'lar. Atlas künyesi t=1680 ve kümede t 1514 (2 yer) / 1634 (2 yer) tutarsız. KARIŞIK: Altay (Şara Sume), Uç Turfan, Çarklık (Ruoqiang), Issık Göl havzası coğrafi olarak farklı hanlık parçaları; f=1347 künye f'sinden gelir (yıl düzeyi), yerleşim-özgü değil. Kaynak aranması gereken: Iranica/EI 'Moghulistan', Cambridge History of Inner Asia (erişilemedi). Künye f=1347: hayalet yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek20.js:106",
+   "alan": "s",
    "d": "cin-halk-cumhuriyeti",
    "f": "1949-10-01",
    "t": "2000-12-31",
@@ -1661,6 +1809,42 @@
   {
    "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
    "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TİMUR - https://islamansiklopedisi.org.tr/timur",
+   "alinti": "Timur 788’de (1386) buraya yürüdü. “Üç yıllık sefer” diye anılan (1386-1388)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (timurlu 1386-01-01, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, BÖLGE DÜZEYİ: TDV: İran'a 788 (1386) yürüdü, Üç yıllık sefer (1386-1388) boyunca 'Mâzenderan, Luristan ve Gürcistan üzerinden Azerbaycan’a giderek Karabağ’a ulaştı'; 'Kuzey İran ve Azerbaycan’ı ele geçirmesi'. Alıntı seferin başlangıç yılını tarihliyor, Şeyh Salû, Meşkinşehr, Sarab, Sakkız'ın ele geçiriliş günü TDV'de yok; f=1386-01-01 yıl-başı yuvarlama. Sarab/Meşkinşehr (Azerbaycan), Sakkız (Kürdistan/Zagros) için yer-özgü tanıklık yok: bölge sahibi (Timur) beyanlı yaklaşıklık. t=1408-04-13: Sardrud muharebesi (Karakoyunlu Kara Yusuf, ülke düzeyi savaş günü, yerleşim devri değil; kaynak okunmadı). Künye 1370-04-09 - 1507-05-24: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR - https://islamansiklopedisi.org.tr/akkoyunlular",
+   "alinti": "1467’de üzerine yürüyen amansız düşmanı Karakoyunlu Hükümdarı Cihan Şah’ı gafil avlayarak Karakoyunlu Devleti’ne son verdi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (akkoyunlu 1469-04-01, 4 satır); yalnız gün ve devlet teyitli. ÇİFT-TDV ÇELİŞKİSİ (sen karar verme): TDV Akkoyunlular maddesi Karakoyunlu devletinin sonunu 1467 verir (Cihan Şah), ardından 'Kirman (1469) ve Bağdat’ı (1470) ele geçirdi'; aynı sayfanın ilişkili madde özeti 'KARAKOYUNLULAR ... (1351-1469)' der (Karakoyunlular maddesi: okunmadı). Alıntı Karakoyunlu'nun BİTİŞİNİ (1467) tarihliyor, Akkoyunlu f'sini yerleşim bazında değil → ONERI: f 1467 (YIL DÜZEYİ) ya da 1469 (Ebû Saîd'in ölümü 1469, TDV 'ölünceye kadar da (874/1469)' Cihangir için); Azerbaycan'da Akkoyunlu hâkimiyeti 1467 sonrası mı 1469 sonrası mı kaynakla çözülmeli. Atlas 1469-04-01 gün düzeyi TDV'de yok. Sarab/Meşkinşehr/Sakkız/Şeyh Salû için yer-özgü tanıklık yok. Künye 1340-1514: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SAFEVÎLER - https://islamansiklopedisi.org.tr/safeviler",
+   "alinti": "Elvend Diyarbekir’e kaçtı. İsmâil Tebriz’e girerek tahta oturdu.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (safevi 1501-07-01, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (907/1501): TDV 'İran’da 1501-1736 yılları arasında hüküm süren bir hânedan'; Şerûr yakınında Elvend yenildi, İsmâil Tebriz'e girip tahta oturdu. Ay/gün (Temmuz 1501) TDV'de yok: atlas f=1501-07-01 ay düzeyi başka kaynak (okunmadı). BÖLGE DÜZEYİ: Sarab, Meşkinşehr, Sakkız'ın Safevî eline geçiş günü yerel kaynakta yok (Sakkız Kürdistan, geç olabilir). f önceki Akkoyunlu t=1501-07-01 ile sınırdaş. t=1736-03-08: Nadir Şah kurultayı (ülke düzeyi, TDV hükümdar listesi 'Abbas III 1144-1148 (1732-1736)'), t ucu bu satırın konusu değil. Künye 1501-07-01 - 1736-03-08: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_dogu.js:136",
+   "alan": "s",
    "d": "afsar",
    "f": "1736-03-08",
    "t": "1747-06-20",
@@ -1715,6 +1899,18 @@
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:253",
    "alan": "s",
+   "d": "mogulistan",
+   "f": "1347-01-01",
+   "t": "1514-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV Çağatay Hanlığı (https://islamansiklopedisi.org.tr/cagatay-hanligi: Moğulistan/1347/1514/1634 yok); TDV 'mogulistan' slug'ı bulunamadı; en.wikipedia Moghulistan (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogulistan 1347-01-01, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Moghulistan 1347 kuruluş; 1462'ye dek bütün, 1462'den sonra batı (Yarkent Hanlığı) ve doğu (Turfan Hanlığı); Vikipedi sonu 1705/1660'lar. Atlas künyesi t=1680 ve kümede t 1514 (2 yer) / 1634 (2 yer) tutarsız. KARIŞIK: Altay (Şara Sume), Uç Turfan, Çarklık (Ruoqiang), Issık Göl havzası coğrafi olarak farklı hanlık parçaları; f=1347 künye f'sinden gelir (yıl düzeyi), yerleşim-özgü değil. Kaynak aranması gereken: Iranica/EI 'Moghulistan', Cambridge History of Inner Asia (erişilemedi). Künye f=1347: hayalet yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:253",
+   "alan": "s",
    "d": "cin-halk-cumhuriyeti",
    "f": "1949-10-01",
    "t": "2000-12-31",
@@ -1737,6 +1933,18 @@
    "alinti": "On 12 February 1912, the last emperor's mother signed the Act of Abdication",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (cin-cumhuriyeti 1912-02-12, 24 satır); yalnız gün ve devlet teyitli. LAB PAZAR: kaynak üniversite kütüphanesi rehberi, hakemli değil — KAYNAKLI'dan indirildi; gün doğru görünüyor, akademik kaynak gerek. | ÜLKE DÜZEYİ. Qing'in tahttan çekilme günü (hükümdarlığın hukukî devri) teyitli; kaynak üniversite kütüphane rehberidir (hakemli değil, zayıf). KÜNYE: künye f=1911-10-10 (Wuchang) ≠ küme f=1912-02-12; Cumhuriyet ilanı/Sun inauguration 1912-01-01 (arama özeti, okunmadı) - sınıflandırma: künye 'Wuchang ayaklanması' ile 'devlet' günlerini karıştırıyor, bu küme için gün Qing'den devir günüdür. Yuan Shikai geçici başkan 1912-03-10 (özet). Bilinen istisna: Moğolistan (1911-12 bağımsızlık), Tibet, Sincan fiilî durumu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:306",
+   "alan": "s",
+   "d": "mogulistan",
+   "f": "1347-01-01",
+   "t": "1514-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV Çağatay Hanlığı (https://islamansiklopedisi.org.tr/cagatay-hanligi: Moğulistan/1347/1514/1634 yok); TDV 'mogulistan' slug'ı bulunamadı; en.wikipedia Moghulistan (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogulistan 1347-01-01, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Moghulistan 1347 kuruluş; 1462'ye dek bütün, 1462'den sonra batı (Yarkent Hanlığı) ve doğu (Turfan Hanlığı); Vikipedi sonu 1705/1660'lar. Atlas künyesi t=1680 ve kümede t 1514 (2 yer) / 1634 (2 yer) tutarsız. KARIŞIK: Altay (Şara Sume), Uç Turfan, Çarklık (Ruoqiang), Issık Göl havzası coğrafi olarak farklı hanlık parçaları; f=1347 künye f'sinden gelir (yıl düzeyi), yerleşim-özgü değil. Kaynak aranması gereken: Iranica/EI 'Moghulistan', Cambridge History of Inner Asia (erişilemedi). Künye f=1347: hayalet yok."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:306",
@@ -2081,6 +2289,18 @@
   {
    "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:136",
    "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1368-01-23",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ÇİN (Ming kuruluşu anlatımı) - https://islamansiklopedisi.org.tr/cin ; arama özeti 'Ming devrine kadar [1368]' - https://islamansiklopedisi.org.tr/arama/ming-hanedani",
+   "alinti": "nihayet 1368 yılında yerini Ming sülâlesine bıraktı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ming-hanedani 1368-01-23, 4 satır); yalnız gün ve devlet teyitli. LAB PAZAR: alıntı TDV arama sayfası parçasından, madde gövdesi değil — ONERI. Ming künyesi 1356'ya genişliyor (EMRELİC). | ÜLKE DÜZEYİ, YIL DÜZEYİ: TDV (arama sonuç parçası; madde gövdesi 'cin' maddesinde bulunamadı, bu cümle arama sayfası parçası, KAYNAKLI zayıf): Yüan 1368'de Ming'e bırakıldı, Ming 1368-1644. Gün 1368-01-23: İPUCU (Vikipedi Hongwu Emperor: enthronement 23 January 1368; Wu dönemi 31 January 1367 - 23 January 1368), TDV'de gün yok. KARIŞIK: Suzhou (1367'de Zhu Yuanzhang aldı, Wu hükümeti), Nanchang (1363-64), Hefei, Hengyang yerleşimleri Ming'e f=hanedan kuruluşundan ÖNCE Zhu'nun 'Wu' devletinde → yerleşim-özgü f ya da öncül devlet (Wu) gerekir (kaynak okunmadı). t=1644-04-25 Çongzhen'in ölümü (hanedan düzeyi, Güney Ming 1662'ye dek); Hengyang/Nanchang/Suzhou Qing'e 1645'te geçti → t yerleşim için yanlış olabilir, kaynak okunmadı. Ay-güneş günleri çevrilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:136",
+   "alan": "s",
    "d": "guney-ming",
    "f": "1644-04-25",
    "t": "1647-05-16",
@@ -2164,6 +2384,18 @@
     "f": "1860-11-07"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-02-13, 5 satır); yalnız gün ve devlet teyitli. DÜZELTME (LAB SALI ölçümü): künye id'si sardinya-piyemonte (1720-08-02 → 1861-03-17, 1860-11-07'yi kapsıyor); 'sardinya' harita anahtarıdır, d: olarak yazılmaz. | KARAR EMRELİC (gece-34): Gaeta günü yanlış genellenmiş. Napoli bölgesi s: sardinya 1860-11-07 (Vittorio Emanuele'nin devralması, Treccani; TEK ÖLÇÜ teslim); plebisit 1860-10-21 ve ilhak dekreti 12-17 ic_not'a; 1861-03-17'den italya-kralligi. Gaeta 1861-02-13 yalnız Gaeta için. | sayfa.py ham metin. Alinti Gaeta teslimini (Burbon direnisinin sonu) tarihliyor, Italya'ya gecisi degil; ayni madde: 7 Kasim 1860 Vittorio Emanuele Napoli'de resmen ulkeyi devraldi (plebisit 21 Ekim 1860); Messina/Civitella Mart 1861. KUNYE f=1861-03-17 (kume f 02-13 kunyeden ONCE: KUNYE ASIMI). Brindisi, Foggia, Reggio vb. 1860'ta devralinmis olabilir; yerlesim bazli f dogrulanmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:123",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "-0026-01-16",
+   "t": "0395-01-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV Roma İmparatorluğu slug'ı bulunamadı (arama boş); en.wikipedia Augustus (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (roma-imp -0026-01-16, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi Augustus: 'Reign 16 January 27 BC'): atlas f=-0026-01-16 bu günün astronomik yıl karşılığıdır. ÜLKE/REJİM DÜZEYİ: Brindisi (MÖ 266), Cartagena (MÖ 209), Reggio Calabria zaten Roma Cumhuriyeti toprağıydı; f Cumhuriyet → Prinkipat rejim değişimidir, yer değişimi değil → öncül zincirde 'roma-cumhuriyeti' olmalı, yoksa ABİ MERKEZ Roma; Braga (Bracara Augusta, MÖ 16-13 civarı kuruluş, kaynak okunmadı) için f daha geç olabilir. Künye f=-0026-01-16: aşım yok. t=0395-01-17: Theodosius I'in ölümü (Roma'nın doğu/batı bölünmesi), ülke düzeyi, kaynak okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler.js:123",
@@ -2312,6 +2544,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:762",
    "alan": "s",
+   "d": "kirim",
+   "f": "1774-07-21",
+   "t": "1783-04-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KÜÇÜK KAYNARCA ANTLAŞMASI - https://islamansiklopedisi.org.tr/kucuk-kaynarca-antlasmasi ; TDV KIRIM (İnalcık) - https://islamansiklopedisi.org.tr/kirim",
+   "alinti": "hazırlanan antlaşma metni delegelerce imzalandı ... (12 Cemâziyelevvel 1188 / 21 Temmuz 1774)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kirim 1774-07-21, 4 satır); yalnız gün ve devlet teyitli. TDV Küçük Kaynarca: imza 21 Temmuz 1774 (hicrî 12 Cemâziyelevvel 1188 çevrilmedi); sadrazam onayı 23 Temmuz, Küçük Kaynarca'ya gelişi 25 Temmuz, ertesi gün (26 Temmuz) üç dilde nüshalar → antlaşma ünvan maddesinde '26 Temmuz 1774' yazar; TDV Kırım: 'Küçük Kaynarca Antlaşması’nın (21 Temmuz 1774) 3. maddesiyle Kırım, Bucak, Kuban, Yedisan ... müstakil tanınacaklar'. Tutarlı: imza 21, onay/teati 26 (26 yürürlük/ic_not'a). TEK ÖLÇÜ: Rusya Kırım'ı zaten fiilen işgal etmişti (1771), kurulan Kırım bağımsız; f=imza günü uyumlu. KARIŞIK: Tuapse ve Soçi (Çerkez kıyısı) antlaşmada adıyla geçmez; TDV Kırım 'Kabartay’da Çerkez kabileleri Kırım hanlarını metbû tanırlardı' ve Osmanlı Kuban ve Karadeniz kıyısındaki Nogay ve Çerkezleri kendi tebaası saydı: Tuapse/Soçi için f sınır belirsizliği, Kuban Nogay bozkırı ve Kuban (Yekaterinodar) için TDV sözü doğrudan. t=1783-04-19: TDV 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)' = Jülyen 8 Nisan = Gregoryen 19 Nisan; atlas ile tutarlı (alıntı t ucunu tarihliyor, f'yi değil). Künye f 1441 / t 1783-04-19: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:762",
+   "alan": "s",
    "d": "rusya-federasyonu",
    "f": "1991-12-26",
    "t": "2000-12-31",
@@ -2323,6 +2567,18 @@
   }
  ],
  "Terek deltası (Kızlar)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:784",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1556-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ASTARHAN HANLIĞI - https://islamansiklopedisi.org.tr/astarhan-hanligi",
+   "alinti": "1466-1556 yılları arasında hüküm süren hanlıklardan biri",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1556-01-01, 4 satır); yalnız gün ve devlet teyitli. KÜME GÜNÜ teyitli (yıl); ama Samara, Kamışin, Kızlar 1556'da yoktu → bu yerleşimlerde dönem kuruluşla başlamalı (yerleşim izi). | YIL DÜZEYİ, BÖLGE DÜZEYİ ve KARIŞIK: TDV Astarhan Hanlığı 1466-1556; 'Rus Çarı IV. İvan ... Kazan Hanlığı’nı yıkınca (1552) ... Derviş Han’ı Astarhan hükümdarı yapmış, sonra da hanlığı işgal etmiştir'; Rusya'nın Astarhan'ı almasının yılı madde başlığında 1556 (hanlığın bitişi); TDV'de ayrı yıl yok. Alıntı hanlığın BİTİŞ yılını verir (Rus idaresi = bitiş). Terek deltası/Kızlar (Kızlar 1735'te kuruldu), Kamışin (1668), Samara (1586), Beldjamen (kimliği belirlenemedi; Cezayir Beldjamen? yer-uyuşmazlığı, mükerrer/konum kontrolü gerek) 1556'da Rus yerleşimi değildi/mevcut değildi; f=1556-01-01 yıl-başı yuvarlama. TAHRİR/ÖLÇÜT: TDV 'işgal' dedi; Rus idaresine katma belgesi yok → isg mi s mi EMRELİC. Künye 1547-01-16: aşım yok."
+  },
   {
    "dosya_satir": "data/yerlesimler.js:784",
    "alan": "s",
@@ -2484,6 +2740,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:1249",
    "alan": "s",
+   "d": "dogu-francia",
+   "f": "0843-08-10",
+   "t": "0962-02-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV ALMANYA (843/Verdun yok); en.wikipedia Treaty_of_Verdun (İPUCU, okundu); Treccani Dizionario di Storia slug'ı bulunamadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (dogu-francia 0843-08-10, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Verdun antlaşması 'Signed 10 August 843' (atlas f=0843-08-10 ile uyumlu). TEK ÖLÇÜ: Ludwig der Deutsche Bavyera'yı zaten yönettiği için imza günü uygun; Hamburg (Nordalbingia/Sakson), Magdeburg, Augsburg (Bavyera), Münster (Sakson): Verdun'da Doğu Francia payına düşen Ren doğusu ülkesi, yerleşim-özgü tanık yok → ÜLKE DÜZEYİ. t=0962-02-02 Otto I'in imparatorluk taç giymesi (rejim tarihi), Kutsal Roma künyesi f aynı. Akademik kaynak (NDB/HLS/Treccani) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1249",
+   "alan": "s",
    "d": "almanya",
    "f": "0962-02-02",
    "t": "1281-01-01",
@@ -2558,6 +2826,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:1252",
    "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı (yalnız TDV Almanya'da Verdun/962/Magdeburg aranmış, ilgili kayıt yok).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya 1000-01-01, 4 satır); yalnız gün ve devlet teyitli. ŞÜPHELİ: f=1000-01-01 ve t=1281-01-01 (3 yer) / 1112-01-01 (1 yer) yuvarlak yıl-başı değerleri; yerleşim-özgü tanıklık yok. Köln, Koblenz, Magdeburg, Baden-Baden: Roma/Frank/Doğu Francia önceki zincirde olmalı (962 öncesi dogu-francia); 1000 sonrası f'nin bir olaya bağlı olmadığı görünüyor (olası 'yaklaşık' atama). t=1281-01-01 için bir olay hatırlatan bir şey yok (Köln 1288 Worringen serbest şehir; kaynak okunmadı). KARIŞIK/YUVARLAMA. Künye 0962-02-02 - 1945-06-05: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1252",
+   "alan": "s",
    "d": "almanya-muttefik-isgali",
    "f": "1945-06-05",
    "t": "1949-05-23",
@@ -2593,6 +2873,18 @@
   }
  ],
  "Gleiwitz (Gliwice)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1276",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1526-12-05",
+   "t": "1742-06-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV AVUSTURYA (Silezya yalnız 1740-80 Prusya savaşları, 1526 yalnız Mohaç); künye avusturya devletler.js'te var (f 1282-12-27, t 1918-11-12).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
+  },
   {
    "dosya_satir": "data/yerlesimler.js:1276",
    "alan": "s",
@@ -5856,6 +6148,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:160",
    "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "1922-12-06",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İNGİLTERE (1603 yalnız taç birliği geçer, İrlanda yok); en.wikipedia Nine_Years'_War_(Ireland) ve Treaty_of_Mellifont (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1603-03-30, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Dokuz Yıl Savaşı 30 Mart 1603'te Mellifont antlaşmasıyla bitti (atlas f=1603-03-30 bu gün). Ama Mellifont bir BARIŞ/teslim antlaşmasıdır; Ulster'daki yerler (Cavan, Donegal, Derry) bundan sonra da Gaelic lordlarının elinde kaldı ve idareye katılma/Plantation ancak Earls'ün Kaçışı 1607'den sonra (kaynak okunmadı). Ennis (Clare, Munster) 1570'lerden shire. KARIŞIK: TEK ÖLÇÜ/TAHRİR ÖLÇÜTÜ: İngiltere'nin fiilen yönettiği gün bulunmalı; Mellifont günü Ulster için fiilî idare günü olmayabilir. Ayrıca İrlanda Krallığı 1801'e dek ayrı krallık (İngiltere ile kişisel birlik) — s: ingiltere sahipliği kaynaklı mı sorusu EMRELİC'te. t=1922-12-06 İrlanda Özgür Devleti (3 yer), Derry/Kuzey İrlanda t=2000 yer tutucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:160",
+   "alan": "s",
    "d": "irlanda-serbest-devlet",
    "f": "1922-12-06",
    "t": "1937-12-29",
@@ -6110,6 +6414,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:267",
    "alan": "s",
+   "d": "roma-imp",
+   "f": "-0026-01-16",
+   "t": "0395-01-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV Roma İmparatorluğu slug'ı bulunamadı (arama boş); en.wikipedia Augustus (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (roma-imp -0026-01-16, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi Augustus: 'Reign 16 January 27 BC'): atlas f=-0026-01-16 bu günün astronomik yıl karşılığıdır. ÜLKE/REJİM DÜZEYİ: Brindisi (MÖ 266), Cartagena (MÖ 209), Reggio Calabria zaten Roma Cumhuriyeti toprağıydı; f Cumhuriyet → Prinkipat rejim değişimidir, yer değişimi değil → öncül zincirde 'roma-cumhuriyeti' olmalı, yoksa ABİ MERKEZ Roma; Braga (Bracara Augusta, MÖ 16-13 civarı kuruluş, kaynak okunmadı) için f daha geç olabilir. Künye f=-0026-01-16: aşım yok. t=0395-01-17: Theodosius I'in ölümü (Roma'nın doğu/batı bölünmesi), ülke düzeyi, kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:267",
+   "alan": "s",
    "d": "bati-roma",
    "f": "0395-01-17",
    "t": "0476-08-28",
@@ -6213,6 +6529,18 @@
   }
  ],
  "Braga": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:321",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "-0026-01-16",
+   "t": "0395-01-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV Roma İmparatorluğu slug'ı bulunamadı (arama boş); en.wikipedia Augustus (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (roma-imp -0026-01-16, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi Augustus: 'Reign 16 January 27 BC'): atlas f=-0026-01-16 bu günün astronomik yıl karşılığıdır. ÜLKE/REJİM DÜZEYİ: Brindisi (MÖ 266), Cartagena (MÖ 209), Reggio Calabria zaten Roma Cumhuriyeti toprağıydı; f Cumhuriyet → Prinkipat rejim değişimidir, yer değişimi değil → öncül zincirde 'roma-cumhuriyeti' olmalı, yoksa ABİ MERKEZ Roma; Braga (Bracara Augusta, MÖ 16-13 civarı kuruluş, kaynak okunmadı) için f daha geç olabilir. Künye f=-0026-01-16: aşım yok. t=0395-01-17: Theodosius I'in ölümü (Roma'nın doğu/batı bölünmesi), ülke düzeyi, kaynak okunmadı."
+  },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:321",
    "alan": "s",
@@ -6394,6 +6722,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:441",
    "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı (yalnız TDV Almanya'da Verdun/962/Magdeburg aranmış, ilgili kayıt yok).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya 1000-01-01, 4 satır); yalnız gün ve devlet teyitli. ŞÜPHELİ: f=1000-01-01 ve t=1281-01-01 (3 yer) / 1112-01-01 (1 yer) yuvarlak yıl-başı değerleri; yerleşim-özgü tanıklık yok. Köln, Koblenz, Magdeburg, Baden-Baden: Roma/Frank/Doğu Francia önceki zincirde olmalı (962 öncesi dogu-francia); 1000 sonrası f'nin bir olaya bağlı olmadığı görünüyor (olası 'yaklaşık' atama). t=1281-01-01 için bir olay hatırlatan bir şey yok (Köln 1288 Worringen serbest şehir; kaynak okunmadı). KARIŞIK/YUVARLAMA. Künye 0962-02-02 - 1945-06-05: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:441",
+   "alan": "s",
    "d": "almanya-muttefik-isgali",
    "f": "1945-06-05",
    "t": "1949-05-23",
@@ -6444,6 +6784,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:447",
    "alan": "s",
+   "d": "dogu-francia",
+   "f": "0843-08-10",
+   "t": "0962-02-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV ALMANYA (843/Verdun yok); en.wikipedia Treaty_of_Verdun (İPUCU, okundu); Treccani Dizionario di Storia slug'ı bulunamadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (dogu-francia 0843-08-10, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Verdun antlaşması 'Signed 10 August 843' (atlas f=0843-08-10 ile uyumlu). TEK ÖLÇÜ: Ludwig der Deutsche Bavyera'yı zaten yönettiği için imza günü uygun; Hamburg (Nordalbingia/Sakson), Magdeburg, Augsburg (Bavyera), Münster (Sakson): Verdun'da Doğu Francia payına düşen Ren doğusu ülkesi, yerleşim-özgü tanık yok → ÜLKE DÜZEYİ. t=0962-02-02 Otto I'in imparatorluk taç giymesi (rejim tarihi), Kutsal Roma künyesi f aynı. Akademik kaynak (NDB/HLS/Treccani) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:447",
+   "alan": "s",
    "d": "almanya",
    "f": "0962-02-02",
    "t": "1000-01-01",
@@ -6452,6 +6804,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya 0962-02-02, 6 satır); yalnız gün ve devlet teyitli. WebFetch/arama özeti, ipucu: Otto I 2 Şubat 962'de Papa XII. Ioannes tarafından taçlandı. Künye f=0962-02-02 tutarlı ama künye adı 'Kutsal Roma 962-1806' iken t=1945 (künye iç tutarsızlığı). Kümede t_dagilim 1281 ve 1000: Hamburg, Köln, Koblenz, Magdeburg, Augsburg, Münster için t=1000/1281 — f=962-02-02 çoğu Alman kentinin 962'den öncesi Doğu Frank (Alman) krallığı idi; 962 imparatorluk tacı ≠ yerleşimin devlete katılışı. Yerleşim düzeyi KARIŞIK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:447",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı (yalnız TDV Almanya'da Verdun/962/Magdeburg aranmış, ilgili kayıt yok).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya 1000-01-01, 4 satır); yalnız gün ve devlet teyitli. ŞÜPHELİ: f=1000-01-01 ve t=1281-01-01 (3 yer) / 1112-01-01 (1 yer) yuvarlak yıl-başı değerleri; yerleşim-özgü tanıklık yok. Köln, Koblenz, Magdeburg, Baden-Baden: Roma/Frank/Doğu Francia önceki zincirde olmalı (962 öncesi dogu-francia); 1000 sonrası f'nin bir olaya bağlı olmadığı görünüyor (olası 'yaklaşık' atama). t=1281-01-01 için bir olay hatırlatan bir şey yok (Köln 1288 Worringen serbest şehir; kaynak okunmadı). KARIŞIK/YUVARLAMA. Künye 0962-02-02 - 1945-06-05: aşım yok."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:447",
@@ -6479,6 +6843,18 @@
   }
  ],
  "Augsburg": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:453",
+   "alan": "s",
+   "d": "dogu-francia",
+   "f": "0843-08-10",
+   "t": "0962-02-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV ALMANYA (843/Verdun yok); en.wikipedia Treaty_of_Verdun (İPUCU, okundu); Treccani Dizionario di Storia slug'ı bulunamadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (dogu-francia 0843-08-10, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Verdun antlaşması 'Signed 10 August 843' (atlas f=0843-08-10 ile uyumlu). TEK ÖLÇÜ: Ludwig der Deutsche Bavyera'yı zaten yönettiği için imza günü uygun; Hamburg (Nordalbingia/Sakson), Magdeburg, Augsburg (Bavyera), Münster (Sakson): Verdun'da Doğu Francia payına düşen Ren doğusu ülkesi, yerleşim-özgü tanık yok → ÜLKE DÜZEYİ. t=0962-02-02 Otto I'in imparatorluk taç giymesi (rejim tarihi), Kutsal Roma künyesi f aynı. Akademik kaynak (NDB/HLS/Treccani) okunmadı."
+  },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:453",
    "alan": "s",
@@ -6683,6 +7059,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:534",
    "alan": "s",
+   "d": "roma-imp",
+   "f": "-0026-01-16",
+   "t": "0395-01-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV Roma İmparatorluğu slug'ı bulunamadı (arama boş); en.wikipedia Augustus (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (roma-imp -0026-01-16, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi Augustus: 'Reign 16 January 27 BC'): atlas f=-0026-01-16 bu günün astronomik yıl karşılığıdır. ÜLKE/REJİM DÜZEYİ: Brindisi (MÖ 266), Cartagena (MÖ 209), Reggio Calabria zaten Roma Cumhuriyeti toprağıydı; f Cumhuriyet → Prinkipat rejim değişimidir, yer değişimi değil → öncül zincirde 'roma-cumhuriyeti' olmalı, yoksa ABİ MERKEZ Roma; Braga (Bracara Augusta, MÖ 16-13 civarı kuruluş, kaynak okunmadı) için f daha geç olabilir. Künye f=-0026-01-16: aşım yok. t=0395-01-17: Theodosius I'in ölümü (Roma'nın doğu/batı bölünmesi), ülke düzeyi, kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:534",
+   "alan": "s",
    "d": "bati-roma",
    "f": "0395-01-17",
    "t": "0476-08-23",
@@ -6825,6 +7213,34 @@
    "alinti": "As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hindistan-cumhuriyeti 1947-08-15, 21 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | ÜLKE DÜZEYİ. Resmî mevzuat. Künye 'Dominyon 1947; Cumhuriyet 1950-01-26' - künye f doğru. Bilinen istisna: 1947-08-15'te Hindistan'a katılmamış prenslik devletleri (Haydarabad 1948-09, Cunagadh 1947-11, Keşmir 1947-10-26, Fransız/Portekiz kolonileri Pondicherry/Goa) ve Pakistan'a giden Pencap/Bengal bölgeleri."
+  }
+ ],
+ "Kolhapûr": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1316",
+   "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1490-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, BEHMENÎLER - https://islamansiklopedisi.org.tr/behmeniler",
+   "alinti": "BEHMENÎLER 1347-1527 yılları arasında Hindistan’ın Dekken bölgesinde hüküm süren bir hânedan.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (behmeni 1347-08-03, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (f=1347; TDV hükümdar listesi 'Alâeddin Behmen Şah 748 (1347)'). Gün/ay TDV'de yok: atlas 1347-08-03 gün düzeyi başka kaynaktan (bu okumada yok). TDV: Alâeddin Hasan 'Goa, Dabhol, Kolapur ve Telingina’yı da hâkimiyeti altına aldı' (kuruluş dönemi 1347-1358; Goa/Kolhapur için tutarlı). KARIŞIK: Kurnool ve Vişakapatnam (Behmenî hâkimiyetine ne zaman girdiği TDV'de yok) ve Goa'nın kalıcı Behmenî tarihi (başka kaynaklar 1470'ler der, okunmadı) için f=kuruluş günü ÜLKE DÜZEYİ yaklaşıklıktır; yerleşim-özgü f kaynağı yok. t=1490 (3 yer) ve 1512: halef sultanlıklar (Bijapur/Golconda), TDV 'Bîder’de Berîdşâhîler (1487-1619) Behmenîler’in halefleri', t kaynağı okunmadı. Künye 1347-1527: aşım yok."
+  }
+ ],
+ "Goa": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1366",
+   "alan": "s",
+   "d": "behmeni",
+   "f": "1347-08-03",
+   "t": "1490-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, BEHMENÎLER - https://islamansiklopedisi.org.tr/behmeniler",
+   "alinti": "BEHMENÎLER 1347-1527 yılları arasında Hindistan’ın Dekken bölgesinde hüküm süren bir hânedan.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (behmeni 1347-08-03, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (f=1347; TDV hükümdar listesi 'Alâeddin Behmen Şah 748 (1347)'). Gün/ay TDV'de yok: atlas 1347-08-03 gün düzeyi başka kaynaktan (bu okumada yok). TDV: Alâeddin Hasan 'Goa, Dabhol, Kolapur ve Telingina’yı da hâkimiyeti altına aldı' (kuruluş dönemi 1347-1358; Goa/Kolhapur için tutarlı). KARIŞIK: Kurnool ve Vişakapatnam (Behmenî hâkimiyetine ne zaman girdiği TDV'de yok) ve Goa'nın kalıcı Behmenî tarihi (başka kaynaklar 1470'ler der, okunmadı) için f=kuruluş günü ÜLKE DÜZEYİ yaklaşıklıktır; yerleşim-özgü f kaynağı yok. t=1490 (3 yer) ve 1512: halef sultanlıklar (Bijapur/Golconda), TDV 'Bîder’de Berîdşâhîler (1487-1619) Behmenîler’in halefleri', t kaynağı okunmadı. Künye 1347-1527: aşım yok."
   }
  ],
  "Madras (Chennai)": [
@@ -8189,6 +8605,18 @@
   {
    "dosya_satir": "data/yerlesimler_ek22.js:111",
    "alan": "s",
+   "d": "rusya",
+   "f": "1556-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ASTARHAN HANLIĞI - https://islamansiklopedisi.org.tr/astarhan-hanligi",
+   "alinti": "1466-1556 yılları arasında hüküm süren hanlıklardan biri",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1556-01-01, 4 satır); yalnız gün ve devlet teyitli. KÜME GÜNÜ teyitli (yıl); ama Samara, Kamışin, Kızlar 1556'da yoktu → bu yerleşimlerde dönem kuruluşla başlamalı (yerleşim izi). | YIL DÜZEYİ, BÖLGE DÜZEYİ ve KARIŞIK: TDV Astarhan Hanlığı 1466-1556; 'Rus Çarı IV. İvan ... Kazan Hanlığı’nı yıkınca (1552) ... Derviş Han’ı Astarhan hükümdarı yapmış, sonra da hanlığı işgal etmiştir'; Rusya'nın Astarhan'ı almasının yılı madde başlığında 1556 (hanlığın bitişi); TDV'de ayrı yıl yok. Alıntı hanlığın BİTİŞ yılını verir (Rus idaresi = bitiş). Terek deltası/Kızlar (Kızlar 1735'te kuruldu), Kamışin (1668), Samara (1586), Beldjamen (kimliği belirlenemedi; Cezayir Beldjamen? yer-uyuşmazlığı, mükerrer/konum kontrolü gerek) 1556'da Rus yerleşimi değildi/mevcut değildi; f=1556-01-01 yıl-başı yuvarlama. TAHRİR/ÖLÇÜT: TDV 'işgal' dedi; Rus idaresine katma belgesi yok → isg mi s mi EMRELİC. Künye 1547-01-16: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek22.js:111",
+   "alan": "s",
    "d": "rusya-federasyonu",
    "f": "1991-12-26",
    "t": "2000-12-31",
@@ -8223,6 +8651,18 @@
    "alinti": "низложение Временного правительства ... 25 октября (7 ноября) 1917 г.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sovyet-rusya 1917-11-07, 115 satır); yalnız gün ve devlet teyitli. Çift tarih kaynakta: Jülyen 25 Ekim = Gregoryen 7 Kasım 1917; atlas N.S. (EMRELİC kararı, 5 Kas). | önceki: ÜLKE DÜZEYİ. Okunan akademik sayfalar 25 Ekim (O.S.) dışında tutarsız (Marquette 'November 6 (October 26)' yazıyor, 7 Kasım vermiyor; Miami '25 Ekim' takvimsiz). Çift tarihli kaynak bulunamadı. İpucu (arama özeti, okunmadı): iktidar el değiştirmesi gecesi 24-25 Ekim O.S. = 6-7 Kasım N.S.; Sovnarkom 26 Ekim O.S. = 8 Kasım N.S. Gün hükmü: 1917-11-07 makul ama kaynakla kapatılamadı; 8 Kasım (Sovnarkom/Kışlık Saray 25-26 Ekim O.S.) alternatifi var. Künye f=küme f. Bilinen istisna: Alman işgalindeki Kurland/Litvanya/Polonya, Ukrayna/Finlandiya/Baltık ve Kafkasya (1917-18 fiilen Sovyet dışı); bu yüzden t_dagilim'de 1918-11-18 gibi farklılıklar. Bitiş günleri (1991-12-26 vb.) teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek22.js:125",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1556-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ASTARHAN HANLIĞI - https://islamansiklopedisi.org.tr/astarhan-hanligi",
+   "alinti": "1466-1556 yılları arasında hüküm süren hanlıklardan biri",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1556-01-01, 4 satır); yalnız gün ve devlet teyitli. KÜME GÜNÜ teyitli (yıl); ama Samara, Kamışin, Kızlar 1556'da yoktu → bu yerleşimlerde dönem kuruluşla başlamalı (yerleşim izi). | YIL DÜZEYİ, BÖLGE DÜZEYİ ve KARIŞIK: TDV Astarhan Hanlığı 1466-1556; 'Rus Çarı IV. İvan ... Kazan Hanlığı’nı yıkınca (1552) ... Derviş Han’ı Astarhan hükümdarı yapmış, sonra da hanlığı işgal etmiştir'; Rusya'nın Astarhan'ı almasının yılı madde başlığında 1556 (hanlığın bitişi); TDV'de ayrı yıl yok. Alıntı hanlığın BİTİŞ yılını verir (Rus idaresi = bitiş). Terek deltası/Kızlar (Kızlar 1735'te kuruldu), Kamışin (1668), Samara (1586), Beldjamen (kimliği belirlenemedi; Cezayir Beldjamen? yer-uyuşmazlığı, mükerrer/konum kontrolü gerek) 1556'da Rus yerleşimi değildi/mevcut değildi; f=1556-01-01 yıl-başı yuvarlama. TAHRİR/ÖLÇÜT: TDV 'işgal' dedi; Rus idaresine katma belgesi yok → isg mi s mi EMRELİC. Künye 1547-01-16: aşım yok."
   },
   {
    "dosya_satir": "data/yerlesimler_ek22.js:125",
@@ -11822,6 +12262,18 @@
   {
    "dosya_satir": "data/yerlesimler_h2_rusya.js:393",
    "alan": "s",
+   "d": "rusya",
+   "f": "1556-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, ASTARHAN HANLIĞI - https://islamansiklopedisi.org.tr/astarhan-hanligi",
+   "alinti": "1466-1556 yılları arasında hüküm süren hanlıklardan biri",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1556-01-01, 4 satır); yalnız gün ve devlet teyitli. KÜME GÜNÜ teyitli (yıl); ama Samara, Kamışin, Kızlar 1556'da yoktu → bu yerleşimlerde dönem kuruluşla başlamalı (yerleşim izi). | YIL DÜZEYİ, BÖLGE DÜZEYİ ve KARIŞIK: TDV Astarhan Hanlığı 1466-1556; 'Rus Çarı IV. İvan ... Kazan Hanlığı’nı yıkınca (1552) ... Derviş Han’ı Astarhan hükümdarı yapmış, sonra da hanlığı işgal etmiştir'; Rusya'nın Astarhan'ı almasının yılı madde başlığında 1556 (hanlığın bitişi); TDV'de ayrı yıl yok. Alıntı hanlığın BİTİŞ yılını verir (Rus idaresi = bitiş). Terek deltası/Kızlar (Kızlar 1735'te kuruldu), Kamışin (1668), Samara (1586), Beldjamen (kimliği belirlenemedi; Cezayir Beldjamen? yer-uyuşmazlığı, mükerrer/konum kontrolü gerek) 1556'da Rus yerleşimi değildi/mevcut değildi; f=1556-01-01 yıl-başı yuvarlama. TAHRİR/ÖLÇÜT: TDV 'işgal' dedi; Rus idaresine katma belgesi yok → isg mi s mi EMRELİC. Künye 1547-01-16: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:393",
+   "alan": "s",
    "d": "rusya-gecici-hukumet",
    "f": "1917-03-15",
    "t": "1917-11-07",
@@ -13206,6 +13658,42 @@
   {
    "dosya_satir": "data/yerlesimler_kalite4.js:30",
    "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TİMUR - https://islamansiklopedisi.org.tr/timur",
+   "alinti": "Timur 788’de (1386) buraya yürüdü. “Üç yıllık sefer” diye anılan (1386-1388)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (timurlu 1386-01-01, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, BÖLGE DÜZEYİ: TDV: İran'a 788 (1386) yürüdü, Üç yıllık sefer (1386-1388) boyunca 'Mâzenderan, Luristan ve Gürcistan üzerinden Azerbaycan’a giderek Karabağ’a ulaştı'; 'Kuzey İran ve Azerbaycan’ı ele geçirmesi'. Alıntı seferin başlangıç yılını tarihliyor, Şeyh Salû, Meşkinşehr, Sarab, Sakkız'ın ele geçiriliş günü TDV'de yok; f=1386-01-01 yıl-başı yuvarlama. Sarab/Meşkinşehr (Azerbaycan), Sakkız (Kürdistan/Zagros) için yer-özgü tanıklık yok: bölge sahibi (Timur) beyanlı yaklaşıklık. t=1408-04-13: Sardrud muharebesi (Karakoyunlu Kara Yusuf, ülke düzeyi savaş günü, yerleşim devri değil; kaynak okunmadı). Künye 1370-04-09 - 1507-05-24: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:30",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR - https://islamansiklopedisi.org.tr/akkoyunlular",
+   "alinti": "1467’de üzerine yürüyen amansız düşmanı Karakoyunlu Hükümdarı Cihan Şah’ı gafil avlayarak Karakoyunlu Devleti’ne son verdi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (akkoyunlu 1469-04-01, 4 satır); yalnız gün ve devlet teyitli. ÇİFT-TDV ÇELİŞKİSİ (sen karar verme): TDV Akkoyunlular maddesi Karakoyunlu devletinin sonunu 1467 verir (Cihan Şah), ardından 'Kirman (1469) ve Bağdat’ı (1470) ele geçirdi'; aynı sayfanın ilişkili madde özeti 'KARAKOYUNLULAR ... (1351-1469)' der (Karakoyunlular maddesi: okunmadı). Alıntı Karakoyunlu'nun BİTİŞİNİ (1467) tarihliyor, Akkoyunlu f'sini yerleşim bazında değil → ONERI: f 1467 (YIL DÜZEYİ) ya da 1469 (Ebû Saîd'in ölümü 1469, TDV 'ölünceye kadar da (874/1469)' Cihangir için); Azerbaycan'da Akkoyunlu hâkimiyeti 1467 sonrası mı 1469 sonrası mı kaynakla çözülmeli. Atlas 1469-04-01 gün düzeyi TDV'de yok. Sarab/Meşkinşehr/Sakkız/Şeyh Salû için yer-özgü tanıklık yok. Künye 1340-1514: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:30",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SAFEVÎLER - https://islamansiklopedisi.org.tr/safeviler",
+   "alinti": "Elvend Diyarbekir’e kaçtı. İsmâil Tebriz’e girerek tahta oturdu.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (safevi 1501-07-01, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (907/1501): TDV 'İran’da 1501-1736 yılları arasında hüküm süren bir hânedan'; Şerûr yakınında Elvend yenildi, İsmâil Tebriz'e girip tahta oturdu. Ay/gün (Temmuz 1501) TDV'de yok: atlas f=1501-07-01 ay düzeyi başka kaynak (okunmadı). BÖLGE DÜZEYİ: Sarab, Meşkinşehr, Sakkız'ın Safevî eline geçiş günü yerel kaynakta yok (Sakkız Kürdistan, geç olabilir). f önceki Akkoyunlu t=1501-07-01 ile sınırdaş. t=1736-03-08: Nadir Şah kurultayı (ülke düzeyi, TDV hükümdar listesi 'Abbas III 1144-1148 (1732-1736)'), t ucu bu satırın konusu değil. Künye 1501-07-01 - 1736-03-08: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kalite4.js:30",
+   "alan": "s",
    "d": "afsar",
    "f": "1736-03-08",
    "t": "1747-06-20",
@@ -13321,6 +13809,18 @@
   }
  ],
  "Kuban Nogay bozkırı": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_bozkir.js:126",
+   "alan": "s",
+   "d": "kirim",
+   "f": "1774-07-21",
+   "t": "1783-04-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KÜÇÜK KAYNARCA ANTLAŞMASI - https://islamansiklopedisi.org.tr/kucuk-kaynarca-antlasmasi ; TDV KIRIM (İnalcık) - https://islamansiklopedisi.org.tr/kirim",
+   "alinti": "hazırlanan antlaşma metni delegelerce imzalandı ... (12 Cemâziyelevvel 1188 / 21 Temmuz 1774)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kirim 1774-07-21, 4 satır); yalnız gün ve devlet teyitli. TDV Küçük Kaynarca: imza 21 Temmuz 1774 (hicrî 12 Cemâziyelevvel 1188 çevrilmedi); sadrazam onayı 23 Temmuz, Küçük Kaynarca'ya gelişi 25 Temmuz, ertesi gün (26 Temmuz) üç dilde nüshalar → antlaşma ünvan maddesinde '26 Temmuz 1774' yazar; TDV Kırım: 'Küçük Kaynarca Antlaşması’nın (21 Temmuz 1774) 3. maddesiyle Kırım, Bucak, Kuban, Yedisan ... müstakil tanınacaklar'. Tutarlı: imza 21, onay/teati 26 (26 yürürlük/ic_not'a). TEK ÖLÇÜ: Rusya Kırım'ı zaten fiilen işgal etmişti (1771), kurulan Kırım bağımsız; f=imza günü uyumlu. KARIŞIK: Tuapse ve Soçi (Çerkez kıyısı) antlaşmada adıyla geçmez; TDV Kırım 'Kabartay’da Çerkez kabileleri Kırım hanlarını metbû tanırlardı' ve Osmanlı Kuban ve Karadeniz kıyısındaki Nogay ve Çerkezleri kendi tebaası saydı: Tuapse/Soçi için f sınır belirsizliği, Kuban Nogay bozkırı ve Kuban (Yekaterinodar) için TDV sözü doğrudan. t=1783-04-19: TDV 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)' = Jülyen 8 Nisan = Gregoryen 19 Nisan; atlas ile tutarlı (alıntı t ucunu tarihliyor, f'yi değil). Künye f 1441 / t 1783-04-19: aşım yok."
+  },
   {
    "dosya_satir": "data/yerlesimler_ek_bozkir.js:126",
    "alan": "s",
@@ -14012,6 +14512,18 @@
    "alinti": "2 (15) марта 1917 года ... подписал ... Акт об отречении",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya-gecici-hukumet 1917-03-15, 119 satır); yalnız gün ve devlet teyitli. Çift tarih kaynakta: Jülyen 2 Mart = Gregoryen 15 Mart 1917; atlas N.S. Kaynak tahttan çekilme gününü tarihliyor; Geçici Hükümet aynı gün kuruldu (EMRELİC kararı, 5 Kas: TAKVIM-1104 kaynağı küme kaynağıdır). | önceki: ÜLKE DÜZEYİ. Çift tarihli (Jülyen+Gregoryen) akademik kaynak okunamadı. Okunanlar yetersiz: Slavic Review 'March 12 (February 27)' = Duma Geçici Komitesi kuruluşu, hükümet değil; Miami Üniv. yalnız 'March 2' (takvimsiz). Arama özeti (okunmadı, ipucu): Lvov hükümeti/tahttan çekilme 2 Mart O.S. = 15 Mart N.S.; 1917-03-15 bu ipucuyla tutarlı. Künye f=küme f tutarlı. Bilinen istisna bölgeler: 1917'de Alman işgalindeki Kurland/Litvanya/Polonya (Ventspils dahil olabilir; Kurland 1915'ten Alman işgali), Finlandiya Büyük Dükalığı. t: 1917-11-07 N.S. (25 Ekim O.S.) teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:167",
+   "alan": "s",
+   "d": "mogulistan",
+   "f": "1347-01-01",
+   "t": "1634-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV Çağatay Hanlığı (https://islamansiklopedisi.org.tr/cagatay-hanligi: Moğulistan/1347/1514/1634 yok); TDV 'mogulistan' slug'ı bulunamadı; en.wikipedia Moghulistan (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (mogulistan 1347-01-01, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Moghulistan 1347 kuruluş; 1462'ye dek bütün, 1462'den sonra batı (Yarkent Hanlığı) ve doğu (Turfan Hanlığı); Vikipedi sonu 1705/1660'lar. Atlas künyesi t=1680 ve kümede t 1514 (2 yer) / 1634 (2 yer) tutarsız. KARIŞIK: Altay (Şara Sume), Uç Turfan, Çarklık (Ruoqiang), Issık Göl havzası coğrafi olarak farklı hanlık parçaları; f=1347 künye f'sinden gelir (yıl düzeyi), yerleşim-özgü değil. Kaynak aranması gereken: Iranica/EI 'Moghulistan', Cambridge History of Inner Asia (erişilemedi). Künye f=1347: hayalet yok."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:167",
@@ -17269,6 +17781,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:764",
    "alan": "s",
+   "d": "kirim",
+   "f": "1774-07-21",
+   "t": "1783-04-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, KÜÇÜK KAYNARCA ANTLAŞMASI - https://islamansiklopedisi.org.tr/kucuk-kaynarca-antlasmasi ; TDV KIRIM (İnalcık) - https://islamansiklopedisi.org.tr/kirim",
+   "alinti": "hazırlanan antlaşma metni delegelerce imzalandı ... (12 Cemâziyelevvel 1188 / 21 Temmuz 1774)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kirim 1774-07-21, 4 satır); yalnız gün ve devlet teyitli. TDV Küçük Kaynarca: imza 21 Temmuz 1774 (hicrî 12 Cemâziyelevvel 1188 çevrilmedi); sadrazam onayı 23 Temmuz, Küçük Kaynarca'ya gelişi 25 Temmuz, ertesi gün (26 Temmuz) üç dilde nüshalar → antlaşma ünvan maddesinde '26 Temmuz 1774' yazar; TDV Kırım: 'Küçük Kaynarca Antlaşması’nın (21 Temmuz 1774) 3. maddesiyle Kırım, Bucak, Kuban, Yedisan ... müstakil tanınacaklar'. Tutarlı: imza 21, onay/teati 26 (26 yürürlük/ic_not'a). TEK ÖLÇÜ: Rusya Kırım'ı zaten fiilen işgal etmişti (1771), kurulan Kırım bağımsız; f=imza günü uyumlu. KARIŞIK: Tuapse ve Soçi (Çerkez kıyısı) antlaşmada adıyla geçmez; TDV Kırım 'Kabartay’da Çerkez kabileleri Kırım hanlarını metbû tanırlardı' ve Osmanlı Kuban ve Karadeniz kıyısındaki Nogay ve Çerkezleri kendi tebaası saydı: Tuapse/Soçi için f sınır belirsizliği, Kuban Nogay bozkırı ve Kuban (Yekaterinodar) için TDV sözü doğrudan. t=1783-04-19: TDV 'Kırım çarlığın bir vilâyeti haline getirildi (8 Nisan 1783)' = Jülyen 8 Nisan = Gregoryen 19 Nisan; atlas ile tutarlı (alıntı t ucunu tarihliyor, f'yi değil). Künye f 1441 / t 1783-04-19: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:764",
+   "alan": "s",
    "d": "rusya-gecici-hukumet",
    "f": "1917-03-15",
    "t": "1917-11-07",
@@ -17307,6 +17831,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:1272",
    "alan": "s",
+   "d": "avusturya",
+   "f": "1526-12-05",
+   "t": "1742-06-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV AVUSTURYA (Silezya yalnız 1740-80 Prusya savaşları, 1526 yalnız Mohaç); künye avusturya devletler.js'te var (f 1282-12-27, t 1918-11-12).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1272",
+   "alan": "s",
    "d": "almanya",
    "f": "1871-01-18",
    "t": "1945-06-05",
@@ -17315,6 +17851,20 @@
    "alinti": "Alman İmparatorluğu kuruldu ve Prusya Kralı I. Wilhelm (1861-1888) Alman imparatoru ilân edildi (18 Ocak 1871)",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya 1871-01-18, 6 satır); yalnız gün ve devlet teyitli. sayfa.py. Gün teyitli. Künye adı 'Almanya (Kutsal Roma 962-1806)' ile f=962 ama dönem 1871 Alman İmparatorluğu — künye adı/tarih tutarsızlığı (künye f 962, t 1945). Not: Breslau, Gleiwitz, Köln... Prusya idi, imparatorluk ÜLKE DÜZEYİ başlangıcı 1871-01-18."
+  }
+ ],
+ "Jeseník (Freiwaldau)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1279",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1526-12-05",
+   "t": "1918-11-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV AVUSTURYA (Silezya yalnız 1740-80 Prusya savaşları, 1526 yalnız Mohaç); künye avusturya devletler.js'te var (f 1282-12-27, t 1918-11-12).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
   }
  ],
  "Hadramut": [
@@ -17420,6 +17970,42 @@
   {
    "dosya_satir": "data/yerlesimler.js:2050",
    "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TİMUR - https://islamansiklopedisi.org.tr/timur",
+   "alinti": "Timur 788’de (1386) buraya yürüdü. “Üç yıllık sefer” diye anılan (1386-1388)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (timurlu 1386-01-01, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, BÖLGE DÜZEYİ: TDV: İran'a 788 (1386) yürüdü, Üç yıllık sefer (1386-1388) boyunca 'Mâzenderan, Luristan ve Gürcistan üzerinden Azerbaycan’a giderek Karabağ’a ulaştı'; 'Kuzey İran ve Azerbaycan’ı ele geçirmesi'. Alıntı seferin başlangıç yılını tarihliyor, Şeyh Salû, Meşkinşehr, Sarab, Sakkız'ın ele geçiriliş günü TDV'de yok; f=1386-01-01 yıl-başı yuvarlama. Sarab/Meşkinşehr (Azerbaycan), Sakkız (Kürdistan/Zagros) için yer-özgü tanıklık yok: bölge sahibi (Timur) beyanlı yaklaşıklık. t=1408-04-13: Sardrud muharebesi (Karakoyunlu Kara Yusuf, ülke düzeyi savaş günü, yerleşim devri değil; kaynak okunmadı). Künye 1370-04-09 - 1507-05-24: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2050",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR - https://islamansiklopedisi.org.tr/akkoyunlular",
+   "alinti": "1467’de üzerine yürüyen amansız düşmanı Karakoyunlu Hükümdarı Cihan Şah’ı gafil avlayarak Karakoyunlu Devleti’ne son verdi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (akkoyunlu 1469-04-01, 4 satır); yalnız gün ve devlet teyitli. ÇİFT-TDV ÇELİŞKİSİ (sen karar verme): TDV Akkoyunlular maddesi Karakoyunlu devletinin sonunu 1467 verir (Cihan Şah), ardından 'Kirman (1469) ve Bağdat’ı (1470) ele geçirdi'; aynı sayfanın ilişkili madde özeti 'KARAKOYUNLULAR ... (1351-1469)' der (Karakoyunlular maddesi: okunmadı). Alıntı Karakoyunlu'nun BİTİŞİNİ (1467) tarihliyor, Akkoyunlu f'sini yerleşim bazında değil → ONERI: f 1467 (YIL DÜZEYİ) ya da 1469 (Ebû Saîd'in ölümü 1469, TDV 'ölünceye kadar da (874/1469)' Cihangir için); Azerbaycan'da Akkoyunlu hâkimiyeti 1467 sonrası mı 1469 sonrası mı kaynakla çözülmeli. Atlas 1469-04-01 gün düzeyi TDV'de yok. Sarab/Meşkinşehr/Sakkız/Şeyh Salû için yer-özgü tanıklık yok. Künye 1340-1514: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2050",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SAFEVÎLER - https://islamansiklopedisi.org.tr/safeviler",
+   "alinti": "Elvend Diyarbekir’e kaçtı. İsmâil Tebriz’e girerek tahta oturdu.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (safevi 1501-07-01, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (907/1501): TDV 'İran’da 1501-1736 yılları arasında hüküm süren bir hânedan'; Şerûr yakınında Elvend yenildi, İsmâil Tebriz'e girip tahta oturdu. Ay/gün (Temmuz 1501) TDV'de yok: atlas f=1501-07-01 ay düzeyi başka kaynak (okunmadı). BÖLGE DÜZEYİ: Sarab, Meşkinşehr, Sakkız'ın Safevî eline geçiş günü yerel kaynakta yok (Sakkız Kürdistan, geç olabilir). f önceki Akkoyunlu t=1501-07-01 ile sınırdaş. t=1736-03-08: Nadir Şah kurultayı (ülke düzeyi, TDV hükümdar listesi 'Abbas III 1144-1148 (1732-1736)'), t ucu bu satırın konusu değil. Künye 1501-07-01 - 1736-03-08: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2050",
+   "alan": "s",
    "d": "afsar",
    "f": "1736-03-08",
    "t": "1747-06-20",
@@ -17470,6 +18056,42 @@
    "alinti": "bağımsız bir devlet kurdu (1340)",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (celayirli 1340-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | sayfa.py ham metin. Devletin kurulusu YIL duzeyi 1340 (kunye f=1340-01-01 tutarli). KARISIK: TDV 'Uveys 1358'de Azerbaycan ile Tebriz'i, 1364'te Musul ve Diyarbekir'i aldi' - kumedeki Sarab/Sakkiz (KB Iran) 1340'ta Celayirli degil olabilir; yerlesim bazinda f dogrulanmadi. oneri yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2055",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1386-01-01",
+   "t": "1408-04-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, TİMUR - https://islamansiklopedisi.org.tr/timur",
+   "alinti": "Timur 788’de (1386) buraya yürüdü. “Üç yıllık sefer” diye anılan (1386-1388)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (timurlu 1386-01-01, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ, BÖLGE DÜZEYİ: TDV: İran'a 788 (1386) yürüdü, Üç yıllık sefer (1386-1388) boyunca 'Mâzenderan, Luristan ve Gürcistan üzerinden Azerbaycan’a giderek Karabağ’a ulaştı'; 'Kuzey İran ve Azerbaycan’ı ele geçirmesi'. Alıntı seferin başlangıç yılını tarihliyor, Şeyh Salû, Meşkinşehr, Sarab, Sakkız'ın ele geçiriliş günü TDV'de yok; f=1386-01-01 yıl-başı yuvarlama. Sarab/Meşkinşehr (Azerbaycan), Sakkız (Kürdistan/Zagros) için yer-özgü tanıklık yok: bölge sahibi (Timur) beyanlı yaklaşıklık. t=1408-04-13: Sardrud muharebesi (Karakoyunlu Kara Yusuf, ülke düzeyi savaş günü, yerleşim devri değil; kaynak okunmadı). Künye 1370-04-09 - 1507-05-24: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2055",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-04-01",
+   "t": "1501-07-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, AKKOYUNLULAR - https://islamansiklopedisi.org.tr/akkoyunlular",
+   "alinti": "1467’de üzerine yürüyen amansız düşmanı Karakoyunlu Hükümdarı Cihan Şah’ı gafil avlayarak Karakoyunlu Devleti’ne son verdi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (akkoyunlu 1469-04-01, 4 satır); yalnız gün ve devlet teyitli. ÇİFT-TDV ÇELİŞKİSİ (sen karar verme): TDV Akkoyunlular maddesi Karakoyunlu devletinin sonunu 1467 verir (Cihan Şah), ardından 'Kirman (1469) ve Bağdat’ı (1470) ele geçirdi'; aynı sayfanın ilişkili madde özeti 'KARAKOYUNLULAR ... (1351-1469)' der (Karakoyunlular maddesi: okunmadı). Alıntı Karakoyunlu'nun BİTİŞİNİ (1467) tarihliyor, Akkoyunlu f'sini yerleşim bazında değil → ONERI: f 1467 (YIL DÜZEYİ) ya da 1469 (Ebû Saîd'in ölümü 1469, TDV 'ölünceye kadar da (874/1469)' Cihangir için); Azerbaycan'da Akkoyunlu hâkimiyeti 1467 sonrası mı 1469 sonrası mı kaynakla çözülmeli. Atlas 1469-04-01 gün düzeyi TDV'de yok. Sarab/Meşkinşehr/Sakkız/Şeyh Salû için yer-özgü tanıklık yok. Künye 1340-1514: aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2055",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, SAFEVÎLER - https://islamansiklopedisi.org.tr/safeviler",
+   "alinti": "Elvend Diyarbekir’e kaçtı. İsmâil Tebriz’e girerek tahta oturdu.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (safevi 1501-07-01, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (907/1501): TDV 'İran’da 1501-1736 yılları arasında hüküm süren bir hânedan'; Şerûr yakınında Elvend yenildi, İsmâil Tebriz'e girip tahta oturdu. Ay/gün (Temmuz 1501) TDV'de yok: atlas f=1501-07-01 ay düzeyi başka kaynak (okunmadı). BÖLGE DÜZEYİ: Sarab, Meşkinşehr, Sakkız'ın Safevî eline geçiş günü yerel kaynakta yok (Sakkız Kürdistan, geç olabilir). f önceki Akkoyunlu t=1501-07-01 ile sınırdaş. t=1736-03-08: Nadir Şah kurultayı (ülke düzeyi, TDV hükümdar listesi 'Abbas III 1144-1148 (1732-1736)'), t ucu bu satırın konusu değil. Künye 1501-07-01 - 1736-03-08: aşım yok."
   },
   {
    "dosya_satir": "data/yerlesimler.js:2055",
@@ -18284,6 +18906,48 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (etiyopya-federal 1995-08-22, 22 satır); yalnız gün ve devlet teyitli. Anayasa 8 Aralık 1994 kabul (constituteproject önsöz). Yürürlük günü 21 mi 22 Ağustos 1995 — kabul kaynakta okunamadı; ipucu 21 Ağustos. Künye f=22 kontrol edilmeli."
   }
  ],
+ "Wick": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:127",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1707-05-12",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İNGİLTERE (https://islamansiklopedisi.org.tr/ingiltere, yıl 1707 yok); Treccani Dizionario di Storia slug'ı bulunamadı; parliament.uk robots yasağı; en.wikipedia Acts_of_Union_1707 (İPUCU, okundu).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1707-05-12, 4 satır); yalnız gün ve devlet teyitli. TDV İngiltere: 'Kraliçe Anne’nin saltanatında, 1603’ten beri aynı krala tâbi olan İskoçya ve İngiltere’nin yönetimleri Birleşik Krallık adıyla tek çatı altına alındı' (yıl yok). İPUCU (Vikipedi): Union Acts commencement 1 May 1707, royal assent 6 March 1707. TAKVİM: Britanya 1752'ye dek Jülyen; Jülyen 1 Mayıs 1707 = Gregoryen 12 Mayıs 1707 → atlas f=1707-05-12 bu çeviriyle uyumlu (takvim belirsizliğini ic_not'ta beyan et). TEK ÖLÇÜ: İskoçya'yı İngiltere fiilen yönetmiyordu (kendi parlamentosu 1707'ye dek) → imza değil FİİLÎ BİRLEŞME günü (1 Mayıs 1707 Jülyen) uyumlu; Union antlaşma metni 22 Temmuz 1706 imza (ic_not). Akademik kaynakla okunmadığı için BULUNAMADI. | VERİ DEĞİŞTİ: dönem güncel veride birebir yok."
+  }
+ ],
+ "Stornoway": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:129",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1707-05-12",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İNGİLTERE (https://islamansiklopedisi.org.tr/ingiltere, yıl 1707 yok); Treccani Dizionario di Storia slug'ı bulunamadı; parliament.uk robots yasağı; en.wikipedia Acts_of_Union_1707 (İPUCU, okundu).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1707-05-12, 4 satır); yalnız gün ve devlet teyitli. TDV İngiltere: 'Kraliçe Anne’nin saltanatında, 1603’ten beri aynı krala tâbi olan İskoçya ve İngiltere’nin yönetimleri Birleşik Krallık adıyla tek çatı altına alındı' (yıl yok). İPUCU (Vikipedi): Union Acts commencement 1 May 1707, royal assent 6 March 1707. TAKVİM: Britanya 1752'ye dek Jülyen; Jülyen 1 Mayıs 1707 = Gregoryen 12 Mayıs 1707 → atlas f=1707-05-12 bu çeviriyle uyumlu (takvim belirsizliğini ic_not'ta beyan et). TEK ÖLÇÜ: İskoçya'yı İngiltere fiilen yönetmiyordu (kendi parlamentosu 1707'ye dek) → imza değil FİİLÎ BİRLEŞME günü (1 Mayıs 1707 Jülyen) uyumlu; Union antlaşma metni 22 Temmuz 1706 imza (ic_not). Akademik kaynakla okunmadığı için BULUNAMADI. | VERİ DEĞİŞTİ: dönem güncel veride birebir yok."
+  }
+ ],
+ "Derry": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:164",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İNGİLTERE (1603 yalnız taç birliği geçer, İrlanda yok); en.wikipedia Nine_Years'_War_(Ireland) ve Treaty_of_Mellifont (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1603-03-30, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Dokuz Yıl Savaşı 30 Mart 1603'te Mellifont antlaşmasıyla bitti (atlas f=1603-03-30 bu gün). Ama Mellifont bir BARIŞ/teslim antlaşmasıdır; Ulster'daki yerler (Cavan, Donegal, Derry) bundan sonra da Gaelic lordlarının elinde kaldı ve idareye katılma/Plantation ancak Earls'ün Kaçışı 1607'den sonra (kaynak okunmadı). Ennis (Clare, Munster) 1570'lerden shire. KARIŞIK: TEK ÖLÇÜ/TAHRİR ÖLÇÜTÜ: İngiltere'nin fiilen yönettiği gün bulunmalı; Mellifont günü Ulster için fiilî idare günü olmayabilir. Ayrıca İrlanda Krallığı 1801'e dek ayrı krallık (İngiltere ile kişisel birlik) — s: ingiltere sahipliği kaynaklı mı sorusu EMRELİC'te. t=1922-12-06 İrlanda Özgür Devleti (3 yer), Derry/Kuzey İrlanda t=2000 yer tutucu."
+  }
+ ],
  "Jönköping": [
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:348",
@@ -18324,6 +18988,18 @@
    "alinti": "Alman İmparatorluğu kuruldu ve Prusya Kralı I. Wilhelm (1861-1888) Alman imparatoru ilân edildi (18 Ocak 1871)",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya 1871-01-18, 6 satır); yalnız gün ve devlet teyitli. sayfa.py. Gün teyitli. Künye adı 'Almanya (Kutsal Roma 962-1806)' ile f=962 ama dönem 1871 Alman İmparatorluğu — künye adı/tarih tutarsızlığı (künye f 962, t 1945). Not: Breslau, Gleiwitz, Köln... Prusya idi, imparatorluk ÜLKE DÜZEYİ başlangıcı 1871-01-18."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:437",
+   "alan": "s",
+   "d": "dogu-francia",
+   "f": "0843-08-10",
+   "t": "0962-02-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV ALMANYA (843/Verdun yok); en.wikipedia Treaty_of_Verdun (İPUCU, okundu); Treccani Dizionario di Storia slug'ı bulunamadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (dogu-francia 0843-08-10, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Verdun antlaşması 'Signed 10 August 843' (atlas f=0843-08-10 ile uyumlu). TEK ÖLÇÜ: Ludwig der Deutsche Bavyera'yı zaten yönettiği için imza günü uygun; Hamburg (Nordalbingia/Sakson), Magdeburg, Augsburg (Bavyera), Münster (Sakson): Verdun'da Doğu Francia payına düşen Ren doğusu ülkesi, yerleşim-özgü tanık yok → ÜLKE DÜZEYİ. t=0962-02-02 Otto I'in imparatorluk taç giymesi (rejim tarihi), Kutsal Roma künyesi f aynı. Akademik kaynak (NDB/HLS/Treccani) okunmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:437",
@@ -21138,6 +21814,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya-birlesik 1990-10-03, 11 satır); yalnız gün ve devlet teyitli. Resmî sayfalarda 3 Ekim 1990 cümlesi bulunamadı; arama özeti 3 Ekim 1990 diyor (ONERI). Künye f ile küme f tutarlı. t_dagilim 2000-12-31 (açık uçlu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:76",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1112-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı (yalnız TDV Almanya'da Verdun/962/Magdeburg aranmış, ilgili kayıt yok).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (almanya 1000-01-01, 4 satır); yalnız gün ve devlet teyitli. ŞÜPHELİ: f=1000-01-01 ve t=1281-01-01 (3 yer) / 1112-01-01 (1 yer) yuvarlak yıl-başı değerleri; yerleşim-özgü tanıklık yok. Köln, Koblenz, Magdeburg, Baden-Baden: Roma/Frank/Doğu Francia önceki zincirde olmalı (962 öncesi dogu-francia); 1000 sonrası f'nin bir olaya bağlı olmadığı görünüyor (olası 'yaklaşık' atama). t=1281-01-01 için bir olay hatırlatan bir şey yok (Köln 1288 Worringen serbest şehir; kaynak okunmadı). KARIŞIK/YUVARLAMA. Künye 0962-02-02 - 1945-06-05: aşım yok."
   }
  ],
  "Port Louis": [
@@ -21168,6 +21856,18 @@
    "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:113",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1966-11-30",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İngiltere (Karayip/Barbados/Grenada anılmıyor); en.wikipedia West_Indies_Federation (yalnız İPUCU, okundu). Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1962-05-31, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi, KAYNAKLI değil): West Indies Federation 3 Ocak 1958 - 31 Mayıs 1962 (atlas f ile tutarlı). Kabul edilen akademik kaynakta bulunamadı. KARIŞIK: Bridgetown (Barbados), Basseterre (St Kitts), Plymouth (Montserrat), St George's (Grenada) ayrı kolonilerdi, 31 Mayıs 1962 federasyonun dağılışıdır, her birinin devri ayrı; ingiltere önceki zincirde Federasyon üzerinden mi doğrudan mı sahipti zincire bakılmalı. t uçları: Barbados 1966-11-30, Grenada 1974-02-07, St Kitts-Nevis 1983-09-19 (bağımsızlıklar, tek tek doğrulanmadı); Montserrat hâlâ İngiliz (t=2000-12-31 yer tutucu). Künye: ingiltere künyesi 0927-01-01 ile f/t aşımı yok."
   }
  ],
  "Basseterre": [
@@ -21182,6 +21882,18 @@
    "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:116",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1983-09-19",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İngiltere (Karayip/Barbados/Grenada anılmıyor); en.wikipedia West_Indies_Federation (yalnız İPUCU, okundu). Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1962-05-31, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi, KAYNAKLI değil): West Indies Federation 3 Ocak 1958 - 31 Mayıs 1962 (atlas f ile tutarlı). Kabul edilen akademik kaynakta bulunamadı. KARIŞIK: Bridgetown (Barbados), Basseterre (St Kitts), Plymouth (Montserrat), St George's (Grenada) ayrı kolonilerdi, 31 Mayıs 1962 federasyonun dağılışıdır, her birinin devri ayrı; ingiltere önceki zincirde Federasyon üzerinden mi doğrudan mı sahipti zincire bakılmalı. t uçları: Barbados 1966-11-30, Grenada 1974-02-07, St Kitts-Nevis 1983-09-19 (bağımsızlıklar, tek tek doğrulanmadı); Montserrat hâlâ İngiliz (t=2000-12-31 yer tutucu). Künye: ingiltere künyesi 0927-01-01 ile f/t aşımı yok."
   }
  ],
  "Plymouth (Montserrat)": [
@@ -21196,6 +21908,18 @@
    "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:119",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İngiltere (Karayip/Barbados/Grenada anılmıyor); en.wikipedia West_Indies_Federation (yalnız İPUCU, okundu). Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1962-05-31, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi, KAYNAKLI değil): West Indies Federation 3 Ocak 1958 - 31 Mayıs 1962 (atlas f ile tutarlı). Kabul edilen akademik kaynakta bulunamadı. KARIŞIK: Bridgetown (Barbados), Basseterre (St Kitts), Plymouth (Montserrat), St George's (Grenada) ayrı kolonilerdi, 31 Mayıs 1962 federasyonun dağılışıdır, her birinin devri ayrı; ingiltere önceki zincirde Federasyon üzerinden mi doğrudan mı sahipti zincire bakılmalı. t uçları: Barbados 1966-11-30, Grenada 1974-02-07, St Kitts-Nevis 1983-09-19 (bağımsızlıklar, tek tek doğrulanmadı); Montserrat hâlâ İngiliz (t=2000-12-31 yer tutucu). Künye: ingiltere künyesi 0927-01-01 ile f/t aşımı yok."
   }
  ],
  "St. George's": [
@@ -21222,6 +21946,18 @@
    "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:122",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1974-02-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İngiltere (Karayip/Barbados/Grenada anılmıyor); en.wikipedia West_Indies_Federation (yalnız İPUCU, okundu). Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1962-05-31, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi, KAYNAKLI değil): West Indies Federation 3 Ocak 1958 - 31 Mayıs 1962 (atlas f ile tutarlı). Kabul edilen akademik kaynakta bulunamadı. KARIŞIK: Bridgetown (Barbados), Basseterre (St Kitts), Plymouth (Montserrat), St George's (Grenada) ayrı kolonilerdi, 31 Mayıs 1962 federasyonun dağılışıdır, her birinin devri ayrı; ingiltere önceki zincirde Federasyon üzerinden mi doğrudan mı sahipti zincire bakılmalı. t uçları: Barbados 1966-11-30, Grenada 1974-02-07, St Kitts-Nevis 1983-09-19 (bağımsızlıklar, tek tek doğrulanmadı); Montserrat hâlâ İngiliz (t=2000-12-31 yer tutucu). Künye: ingiltere künyesi 0927-01-01 ile f/t aşımı yok."
   }
  ],
  "Hillsborough (Carriacou)": [
@@ -21248,6 +21984,88 @@
    "alinti": "selvstyrende sammenslutning af de fleste britiske kolonier i Caribien i perioden 3.1.1958-31.5.1962",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bati-hint-federasyonu 1958-01-03, 6 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin. f 3 Ocak 1958 gun duzeyinde. Kunye f=kume f; kunye t 1962-05-31 de ayni sayfada (t bu isin disi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:125",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1974-02-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV İngiltere (Karayip/Barbados/Grenada anılmıyor); en.wikipedia West_Indies_Federation (yalnız İPUCU, okundu). Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1962-05-31, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi, KAYNAKLI değil): West Indies Federation 3 Ocak 1958 - 31 Mayıs 1962 (atlas f ile tutarlı). Kabul edilen akademik kaynakta bulunamadı. KARIŞIK: Bridgetown (Barbados), Basseterre (St Kitts), Plymouth (Montserrat), St George's (Grenada) ayrı kolonilerdi, 31 Mayıs 1962 federasyonun dağılışıdır, her birinin devri ayrı; ingiltere önceki zincirde Federasyon üzerinden mi doğrudan mı sahipti zincire bakılmalı. t uçları: Barbados 1966-11-30, Grenada 1974-02-07, St Kitts-Nevis 1983-09-19 (bağımsızlıklar, tek tek doğrulanmadı); Montserrat hâlâ İngiliz (t=2000-12-31 yer tutucu). Künye: ingiltere künyesi 0927-01-01 ile f/t aşımı yok."
+  }
+ ],
+ "Tillaberi": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:313",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1960-08-03",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FİLDİŞİ SAHİLİ - https://islamansiklopedisi.org.tr/fildisi-sahili ; TDV NİJER - https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "Odienne’i de işgal ederek (1898) XIX. yüzyılın sonunda ... yerlerin hepsini denetimleri altına almış",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1898-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK (iki ülke): Fildişi tarafı (Buake/Bouaké, Daloa) için TDV f=1898 YIL DÜZEYİ ile uyumlu (alıntı Odienne işgali + 'yerlerin hepsini denetim altına'; aynı madde 'kesin otorite 1918'e kadar mümkün olmadı' diyor; gün yok). Nijer tarafı (Tillaberi, Tera, Say) için 1898 DESTEKSİZ: TDV Nijer '1904’te Nijer’in batısını Zinder askerî bölgesi adıyla işgal eden Fransızlar' (yıl düzeyi); Nijer f için ONERI: ayrı küme yapılıp f≈1904 (TDV) ya da bağlı kaynak aranmalı. t uçları: Nijer 1960-08-03 (TDV Nijer: '3 Ağustos 1960 tarihinde tam bağımsızlığa kavuştu') ve Fildişi 1960-08-07 (TDV: '7 Ağustos 1960 tarihinde de tam bağımsızlığını elde etti') ikisi de TDV ile birebir. Künye fransa-cumhuriyet f 1792-09-22: aşım yok. 1898 öncesi sahibi (Samori/yerel) zinciri ayrı bakılmalı."
+  }
+ ],
+ "Tera": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:340",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1960-08-03",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FİLDİŞİ SAHİLİ - https://islamansiklopedisi.org.tr/fildisi-sahili ; TDV NİJER - https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "Odienne’i de işgal ederek (1898) XIX. yüzyılın sonunda ... yerlerin hepsini denetimleri altına almış",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1898-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK (iki ülke): Fildişi tarafı (Buake/Bouaké, Daloa) için TDV f=1898 YIL DÜZEYİ ile uyumlu (alıntı Odienne işgali + 'yerlerin hepsini denetim altına'; aynı madde 'kesin otorite 1918'e kadar mümkün olmadı' diyor; gün yok). Nijer tarafı (Tillaberi, Tera, Say) için 1898 DESTEKSİZ: TDV Nijer '1904’te Nijer’in batısını Zinder askerî bölgesi adıyla işgal eden Fransızlar' (yıl düzeyi); Nijer f için ONERI: ayrı küme yapılıp f≈1904 (TDV) ya da bağlı kaynak aranmalı. t uçları: Nijer 1960-08-03 (TDV Nijer: '3 Ağustos 1960 tarihinde tam bağımsızlığa kavuştu') ve Fildişi 1960-08-07 (TDV: '7 Ağustos 1960 tarihinde de tam bağımsızlığını elde etti') ikisi de TDV ile birebir. Künye fransa-cumhuriyet f 1792-09-22: aşım yok. 1898 öncesi sahibi (Samori/yerel) zinciri ayrı bakılmalı."
+  }
+ ],
+ "Say": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:389",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1960-08-03",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FİLDİŞİ SAHİLİ - https://islamansiklopedisi.org.tr/fildisi-sahili ; TDV NİJER - https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "Odienne’i de işgal ederek (1898) XIX. yüzyılın sonunda ... yerlerin hepsini denetimleri altına almış",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1898-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK (iki ülke): Fildişi tarafı (Buake/Bouaké, Daloa) için TDV f=1898 YIL DÜZEYİ ile uyumlu (alıntı Odienne işgali + 'yerlerin hepsini denetim altına'; aynı madde 'kesin otorite 1918'e kadar mümkün olmadı' diyor; gün yok). Nijer tarafı (Tillaberi, Tera, Say) için 1898 DESTEKSİZ: TDV Nijer '1904’te Nijer’in batısını Zinder askerî bölgesi adıyla işgal eden Fransızlar' (yıl düzeyi); Nijer f için ONERI: ayrı küme yapılıp f≈1904 (TDV) ya da bağlı kaynak aranmalı. t uçları: Nijer 1960-08-03 (TDV Nijer: '3 Ağustos 1960 tarihinde tam bağımsızlığa kavuştu') ve Fildişi 1960-08-07 (TDV: '7 Ağustos 1960 tarihinde de tam bağımsızlığını elde etti') ikisi de TDV ile birebir. Künye fransa-cumhuriyet f 1792-09-22: aşım yok. 1898 öncesi sahibi (Samori/yerel) zinciri ayrı bakılmalı."
+  }
+ ],
+ "Buake (Bouaké)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:680",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1960-08-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FİLDİŞİ SAHİLİ - https://islamansiklopedisi.org.tr/fildisi-sahili ; TDV NİJER - https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "Odienne’i de işgal ederek (1898) XIX. yüzyılın sonunda ... yerlerin hepsini denetimleri altına almış",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1898-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK (iki ülke): Fildişi tarafı (Buake/Bouaké, Daloa) için TDV f=1898 YIL DÜZEYİ ile uyumlu (alıntı Odienne işgali + 'yerlerin hepsini denetim altına'; aynı madde 'kesin otorite 1918'e kadar mümkün olmadı' diyor; gün yok). Nijer tarafı (Tillaberi, Tera, Say) için 1898 DESTEKSİZ: TDV Nijer '1904’te Nijer’in batısını Zinder askerî bölgesi adıyla işgal eden Fransızlar' (yıl düzeyi); Nijer f için ONERI: ayrı küme yapılıp f≈1904 (TDV) ya da bağlı kaynak aranmalı. t uçları: Nijer 1960-08-03 (TDV Nijer: '3 Ağustos 1960 tarihinde tam bağımsızlığa kavuştu') ve Fildişi 1960-08-07 (TDV: '7 Ağustos 1960 tarihinde de tam bağımsızlığını elde etti') ikisi de TDV ile birebir. Künye fransa-cumhuriyet f 1792-09-22: aşım yok. 1898 öncesi sahibi (Samori/yerel) zinciri ayrı bakılmalı."
+  }
+ ],
+ "Daloa": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:725",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1960-08-07",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, FİLDİŞİ SAHİLİ - https://islamansiklopedisi.org.tr/fildisi-sahili ; TDV NİJER - https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "Odienne’i de işgal ederek (1898) XIX. yüzyılın sonunda ... yerlerin hepsini denetimleri altına almış",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (fransa-cumhuriyet 1898-01-01, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK (iki ülke): Fildişi tarafı (Buake/Bouaké, Daloa) için TDV f=1898 YIL DÜZEYİ ile uyumlu (alıntı Odienne işgali + 'yerlerin hepsini denetim altına'; aynı madde 'kesin otorite 1918'e kadar mümkün olmadı' diyor; gün yok). Nijer tarafı (Tillaberi, Tera, Say) için 1898 DESTEKSİZ: TDV Nijer '1904’te Nijer’in batısını Zinder askerî bölgesi adıyla işgal eden Fransızlar' (yıl düzeyi); Nijer f için ONERI: ayrı küme yapılıp f≈1904 (TDV) ya da bağlı kaynak aranmalı. t uçları: Nijer 1960-08-03 (TDV Nijer: '3 Ağustos 1960 tarihinde tam bağımsızlığa kavuştu') ve Fildişi 1960-08-07 (TDV: '7 Ağustos 1960 tarihinde de tam bağımsızlığını elde etti') ikisi de TDV ile birebir. Künye fransa-cumhuriyet f 1792-09-22: aşım yok. 1898 öncesi sahibi (Samori/yerel) zinciri ayrı bakılmalı."
   }
  ],
  "Bukavu": [
@@ -21846,6 +22664,44 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (madagaskar 1960-06-26, 6 satır); yalnız gün ve devlet teyitli. sayfa.py. Gün teyitli (bağımsızlık günü). Künye f tutarlı. Not: s: madagaskar öncesi Fransız yönetimi ayrı dönem."
   }
  ],
+ "Toteng": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1938",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı: TDV Botsvana maddesi slug'ı bulunamadı (arama boş); Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tsvana 1700-01-01, 5 satır); yalnız gün ve devlet teyitli. f=1700-01-01 künye f'sidir (Tsvana Krallıkları yıl düzeyi), yerleşime özgü değil. KARIŞIK olasılığı: Ganzi (Ghanzi, San/Kalahari), Tshane, Toteng (Ngamiland) yerleşimlerinin 1700'de Tsvana toprağı olup olmadığı kaynakla sınanmadı. t=1885-03-31 İPUCU (Vikipedi): Bechuanaland Protectorate 31 Mart 1885'te kuruldu; bkz. sonraki küme. Hiç aranmadığı için BAKILMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1938",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "kaynak": "en.wikipedia Bechuanaland_Protectorate (yalnız İPUCU, okundu); TDV Botsvana yok; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1885-03-31, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | İPUCU (Vikipedi, KAYNAKLI değil): 'Protectorate established 31 March 1885'; 'Expanded 1890' (kuzeye Ngamiland'ı kapsayacak şekilde). Atlas f=1885-03-31 güneydeki ilk himaye alanı için tutarlı; Toteng (Ngamiland) ve muhtemelen Ganzi (Ghanzi) 1890 genişlemesiyle girdi → f KARIŞIK, bu iki yer için f=1890 olabilir (kaynak okunmadı, akademik kaynak lazım). ÖLÇÜT/TEK KURAL: protectorate = himaye, s mi v mi tartışmalı (Fransız Çinhindi emsali: himaye = v:); alan 's' korunuyorsa EMRELİC kararı gerek. İngiltere künye 927: aşım yok. t=1966-09-30 bağımsızlık (İPUCU, Vikipedi) botsvana künyesiyle uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1938",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: en.wikipedia Bechuanaland_Protectorate (İPUCU); TDV Botsvana slug'ı bulunamadı; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (botsvana 1966-09-30, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): 'It became independent as the Republic of Botswana on 30 September 1966'. Kabul edilen kaynakta okunmadı; atlas f=1966-09-30 künye f ile aynı, tutarlı. Bağımsızlık günü ilan günü kuralı (Orta Asya emsali değil; Britanya bağımsızlığında bağımsızlık = devir günü). Künye f=1966-09-30 hayalet yok. Yer örnekleri Serove/Kanye/Toteng/Ganzi/Tshane bağımsızlık günü için ülke düzeyi. t=2000-12-31 yer tutucu."
+  }
+ ],
  "Mananjary": [
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1960",
@@ -21860,6 +22716,82 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (madagaskar 1960-06-26, 6 satır); yalnız gün ve devlet teyitli. sayfa.py. Gün teyitli (bağımsızlık günü). Künye f tutarlı. Not: s: madagaskar öncesi Fransız yönetimi ayrı dönem."
   }
  ],
+ "Ganzi (Ghanzi)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1977",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı: TDV Botsvana maddesi slug'ı bulunamadı (arama boş); Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tsvana 1700-01-01, 5 satır); yalnız gün ve devlet teyitli. f=1700-01-01 künye f'sidir (Tsvana Krallıkları yıl düzeyi), yerleşime özgü değil. KARIŞIK olasılığı: Ganzi (Ghanzi, San/Kalahari), Tshane, Toteng (Ngamiland) yerleşimlerinin 1700'de Tsvana toprağı olup olmadığı kaynakla sınanmadı. t=1885-03-31 İPUCU (Vikipedi): Bechuanaland Protectorate 31 Mart 1885'te kuruldu; bkz. sonraki küme. Hiç aranmadığı için BAKILMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1977",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "kaynak": "en.wikipedia Bechuanaland_Protectorate (yalnız İPUCU, okundu); TDV Botsvana yok; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1885-03-31, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | İPUCU (Vikipedi, KAYNAKLI değil): 'Protectorate established 31 March 1885'; 'Expanded 1890' (kuzeye Ngamiland'ı kapsayacak şekilde). Atlas f=1885-03-31 güneydeki ilk himaye alanı için tutarlı; Toteng (Ngamiland) ve muhtemelen Ganzi (Ghanzi) 1890 genişlemesiyle girdi → f KARIŞIK, bu iki yer için f=1890 olabilir (kaynak okunmadı, akademik kaynak lazım). ÖLÇÜT/TEK KURAL: protectorate = himaye, s mi v mi tartışmalı (Fransız Çinhindi emsali: himaye = v:); alan 's' korunuyorsa EMRELİC kararı gerek. İngiltere künye 927: aşım yok. t=1966-09-30 bağımsızlık (İPUCU, Vikipedi) botsvana künyesiyle uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1977",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: en.wikipedia Bechuanaland_Protectorate (İPUCU); TDV Botsvana slug'ı bulunamadı; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (botsvana 1966-09-30, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): 'It became independent as the Republic of Botswana on 30 September 1966'. Kabul edilen kaynakta okunmadı; atlas f=1966-09-30 künye f ile aynı, tutarlı. Bağımsızlık günü ilan günü kuralı (Orta Asya emsali değil; Britanya bağımsızlığında bağımsızlık = devir günü). Künye f=1966-09-30 hayalet yok. Yer örnekleri Serove/Kanye/Toteng/Ganzi/Tshane bağımsızlık günü için ülke düzeyi. t=2000-12-31 yer tutucu."
+  }
+ ],
+ "Serove (Serowe)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2006",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı: TDV Botsvana maddesi slug'ı bulunamadı (arama boş); Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tsvana 1700-01-01, 5 satır); yalnız gün ve devlet teyitli. f=1700-01-01 künye f'sidir (Tsvana Krallıkları yıl düzeyi), yerleşime özgü değil. KARIŞIK olasılığı: Ganzi (Ghanzi, San/Kalahari), Tshane, Toteng (Ngamiland) yerleşimlerinin 1700'de Tsvana toprağı olup olmadığı kaynakla sınanmadı. t=1885-03-31 İPUCU (Vikipedi): Bechuanaland Protectorate 31 Mart 1885'te kuruldu; bkz. sonraki küme. Hiç aranmadığı için BAKILMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2006",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "kaynak": "en.wikipedia Bechuanaland_Protectorate (yalnız İPUCU, okundu); TDV Botsvana yok; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1885-03-31, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | İPUCU (Vikipedi, KAYNAKLI değil): 'Protectorate established 31 March 1885'; 'Expanded 1890' (kuzeye Ngamiland'ı kapsayacak şekilde). Atlas f=1885-03-31 güneydeki ilk himaye alanı için tutarlı; Toteng (Ngamiland) ve muhtemelen Ganzi (Ghanzi) 1890 genişlemesiyle girdi → f KARIŞIK, bu iki yer için f=1890 olabilir (kaynak okunmadı, akademik kaynak lazım). ÖLÇÜT/TEK KURAL: protectorate = himaye, s mi v mi tartışmalı (Fransız Çinhindi emsali: himaye = v:); alan 's' korunuyorsa EMRELİC kararı gerek. İngiltere künye 927: aşım yok. t=1966-09-30 bağımsızlık (İPUCU, Vikipedi) botsvana künyesiyle uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2006",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: en.wikipedia Bechuanaland_Protectorate (İPUCU); TDV Botsvana slug'ı bulunamadı; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (botsvana 1966-09-30, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): 'It became independent as the Republic of Botswana on 30 September 1966'. Kabul edilen kaynakta okunmadı; atlas f=1966-09-30 künye f ile aynı, tutarlı. Bağımsızlık günü ilan günü kuralı (Orta Asya emsali değil; Britanya bağımsızlığında bağımsızlık = devir günü). Künye f=1966-09-30 hayalet yok. Yer örnekleri Serove/Kanye/Toteng/Ganzi/Tshane bağımsızlık günü için ülke düzeyi. t=2000-12-31 yer tutucu."
+  }
+ ],
  "Toliara (Tuléar)": [
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:2066",
@@ -21872,6 +22804,82 @@
    "alinti": "ada, ilk anayasanın hazırlanmasından (1959) sonra 26 Haziran 1960 tarihinde bağımsızlığını kazandı",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (madagaskar 1960-06-26, 6 satır); yalnız gün ve devlet teyitli. sayfa.py. Gün teyitli (bağımsızlık günü). Künye f tutarlı. Not: s: madagaskar öncesi Fransız yönetimi ayrı dönem."
+  }
+ ],
+ "Tshane": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2088",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı: TDV Botsvana maddesi slug'ı bulunamadı (arama boş); Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tsvana 1700-01-01, 5 satır); yalnız gün ve devlet teyitli. f=1700-01-01 künye f'sidir (Tsvana Krallıkları yıl düzeyi), yerleşime özgü değil. KARIŞIK olasılığı: Ganzi (Ghanzi, San/Kalahari), Tshane, Toteng (Ngamiland) yerleşimlerinin 1700'de Tsvana toprağı olup olmadığı kaynakla sınanmadı. t=1885-03-31 İPUCU (Vikipedi): Bechuanaland Protectorate 31 Mart 1885'te kuruldu; bkz. sonraki küme. Hiç aranmadığı için BAKILMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2088",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "kaynak": "en.wikipedia Bechuanaland_Protectorate (yalnız İPUCU, okundu); TDV Botsvana yok; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1885-03-31, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | İPUCU (Vikipedi, KAYNAKLI değil): 'Protectorate established 31 March 1885'; 'Expanded 1890' (kuzeye Ngamiland'ı kapsayacak şekilde). Atlas f=1885-03-31 güneydeki ilk himaye alanı için tutarlı; Toteng (Ngamiland) ve muhtemelen Ganzi (Ghanzi) 1890 genişlemesiyle girdi → f KARIŞIK, bu iki yer için f=1890 olabilir (kaynak okunmadı, akademik kaynak lazım). ÖLÇÜT/TEK KURAL: protectorate = himaye, s mi v mi tartışmalı (Fransız Çinhindi emsali: himaye = v:); alan 's' korunuyorsa EMRELİC kararı gerek. İngiltere künye 927: aşım yok. t=1966-09-30 bağımsızlık (İPUCU, Vikipedi) botsvana künyesiyle uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2088",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: en.wikipedia Bechuanaland_Protectorate (İPUCU); TDV Botsvana slug'ı bulunamadı; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (botsvana 1966-09-30, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): 'It became independent as the Republic of Botswana on 30 September 1966'. Kabul edilen kaynakta okunmadı; atlas f=1966-09-30 künye f ile aynı, tutarlı. Bağımsızlık günü ilan günü kuralı (Orta Asya emsali değil; Britanya bağımsızlığında bağımsızlık = devir günü). Künye f=1966-09-30 hayalet yok. Yer örnekleri Serove/Kanye/Toteng/Ganzi/Tshane bağımsızlık günü için ülke düzeyi. t=2000-12-31 yer tutucu."
+  }
+ ],
+ "Kanye (Ngvaketse)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2124",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "Bakılmadı: TDV Botsvana maddesi slug'ı bulunamadı (arama boş); Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tsvana 1700-01-01, 5 satır); yalnız gün ve devlet teyitli. f=1700-01-01 künye f'sidir (Tsvana Krallıkları yıl düzeyi), yerleşime özgü değil. KARIŞIK olasılığı: Ganzi (Ghanzi, San/Kalahari), Tshane, Toteng (Ngamiland) yerleşimlerinin 1700'de Tsvana toprağı olup olmadığı kaynakla sınanmadı. t=1885-03-31 İPUCU (Vikipedi): Bechuanaland Protectorate 31 Mart 1885'te kuruldu; bkz. sonraki küme. Hiç aranmadığı için BAKILMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2124",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "hukum": "ONERI",
+   "kaynak": "en.wikipedia Bechuanaland_Protectorate (yalnız İPUCU, okundu); TDV Botsvana yok; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1885-03-31, 5 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | İPUCU (Vikipedi, KAYNAKLI değil): 'Protectorate established 31 March 1885'; 'Expanded 1890' (kuzeye Ngamiland'ı kapsayacak şekilde). Atlas f=1885-03-31 güneydeki ilk himaye alanı için tutarlı; Toteng (Ngamiland) ve muhtemelen Ganzi (Ghanzi) 1890 genişlemesiyle girdi → f KARIŞIK, bu iki yer için f=1890 olabilir (kaynak okunmadı, akademik kaynak lazım). ÖLÇÜT/TEK KURAL: protectorate = himaye, s mi v mi tartışmalı (Fransız Çinhindi emsali: himaye = v:); alan 's' korunuyorsa EMRELİC kararı gerek. İngiltere künye 927: aşım yok. t=1966-09-30 bağımsızlık (İPUCU, Vikipedi) botsvana künyesiyle uyumlu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2124",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: en.wikipedia Bechuanaland_Protectorate (İPUCU); TDV Botsvana slug'ı bulunamadı; Britannica 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (botsvana 1966-09-30, 5 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): 'It became independent as the Republic of Botswana on 30 September 1966'. Kabul edilen kaynakta okunmadı; atlas f=1966-09-30 künye f ile aynı, tutarlı. Bağımsızlık günü ilan günü kuralı (Orta Asya emsali değil; Britanya bağımsızlığında bağımsızlık = devir günü). Künye f=1966-09-30 hayalet yok. Yer örnekleri Serove/Kanye/Toteng/Ganzi/Tshane bağımsızlık günü için ülke düzeyi. t=2000-12-31 yer tutucu."
   }
  ],
  "Oruro (Villa de San Felipe de Austria)": [
@@ -22204,6 +23212,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:593",
    "alan": "s",
+   "d": "avusturya",
+   "f": "1526-12-05",
+   "t": "1919-09-10",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV AVUSTURYA (Silezya yalnız 1740-80 Prusya savaşları, 1526 yalnız Mohaç); künye avusturya devletler.js'te var (f 1282-12-27, t 1918-11-12).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1526-12-05, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | KARIŞIK: f=1526-12-05 (Habsburg/Bohemya tacı) gün düzeyi kaynağı bulunamadı; TDV yalnız 'Mohaç 1526' der. t uçları ayrı olaylar: Gleiwitz ve Breslau 1742-06-11 (Breslau ön barışı; Prusya'ya Silezya) — ÖN BARIŞ ≠ DEVİR kuralı: hukukî devir Berlin Barışı (1742-07-28, kaynak okunmadı); Jeseník (Freiwaldau) ve Karviná (Fryštát) Avusturya Silezyası, t=1918-11-11 (Karl feragat) ve 1919-09-10 (Saint-Germain imza, TEK ÖLÇÜ emsali) → ayrı olay. Künye: bu kayıtta null görünüyor ama devletler.js'te `avusturya` künyesi 1282-12-27 - 1918-11-12 var (eşleşme hatası araç-tarafı, KASA'ya: id doğrulaması)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:593",
+   "alan": "s",
    "d": "itilaf-emaneti",
    "f": "1919-09-10",
    "t": "1920-07-28",
@@ -22322,6 +23342,18 @@
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:67",
    "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV ÇİN (Wu Sangui/Yunnan/Üç Derebeyi yok); en.wikipedia Revolt_of_the_Three_Feudatories (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (qing-hanedani 1681-12-07, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Üç Derebeyi isyanı 1673-1681; '1680'de Hunan, Guizhou, Guangxi ve Sichuan Qing tarafından geri alındı', Kunming 1681'de. Atlas f=1681-12-07 (Yunnan düşüşü ile ilişkili görünüyor; kaynakta gün okunmadı). KARIŞIK: Guiyang (Guizhou) 1680'de geri alındığı için f=1681-12-07 geç olabilir; Mianning (Lincang), Chuxiong, Kaihua (Wenshan) Yunnan, 1681 sonu. Yunnan'ın Wu Sangui'den Qing'e fiilen geçişi: Kunming düşüşü (Qing Shi Gao/Kangxi 20 kayıt günü olabilir: 'Academia Sinica ile çevrilecek', ben çevirmedim). TEK ÖLÇÜ: Wu Sangui Zhou devleti 1678 → Yunnan isyancı devlet; s: qing önceki zincir 'Zhou/Wu' olmalı, yoksa TEK KURAL (isyan işgali) açısından bakılmalı. Künye 1616-1912 aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:67",
+   "alan": "s",
    "d": "cin-cumhuriyeti",
    "f": "1912-02-12",
    "t": "1949-10-01",
@@ -22386,6 +23418,18 @@
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:89",
    "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV ÇİN (Wu Sangui/Yunnan/Üç Derebeyi yok); en.wikipedia Revolt_of_the_Three_Feudatories (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (qing-hanedani 1681-12-07, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Üç Derebeyi isyanı 1673-1681; '1680'de Hunan, Guizhou, Guangxi ve Sichuan Qing tarafından geri alındı', Kunming 1681'de. Atlas f=1681-12-07 (Yunnan düşüşü ile ilişkili görünüyor; kaynakta gün okunmadı). KARIŞIK: Guiyang (Guizhou) 1680'de geri alındığı için f=1681-12-07 geç olabilir; Mianning (Lincang), Chuxiong, Kaihua (Wenshan) Yunnan, 1681 sonu. Yunnan'ın Wu Sangui'den Qing'e fiilen geçişi: Kunming düşüşü (Qing Shi Gao/Kangxi 20 kayıt günü olabilir: 'Academia Sinica ile çevrilecek', ben çevirmedim). TEK ÖLÇÜ: Wu Sangui Zhou devleti 1678 → Yunnan isyancı devlet; s: qing önceki zincir 'Zhou/Wu' olmalı, yoksa TEK KURAL (isyan işgali) açısından bakılmalı. Künye 1616-1912 aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:89",
+   "alan": "s",
    "d": "cin-cumhuriyeti",
    "f": "1912-02-12",
    "t": "1949-10-01",
@@ -22446,6 +23490,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (san-fan 1673-12-28, 5 satır); yalnız gün ve devlet teyitli. Takvim: kaynak Bati gunu vermiyor; ay-gunes gunu elle cevrilmedi - Academia Sinica ile EMRELIC'te cevrilecek. Yil (1673) arama ozetinde tutarli ama okunmadi. t_dagilim: 4 yerlesim 1681-12-07, 1 tanesi 1680-01-01 (KARISIK olasi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:131",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1912-02-12",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakılan: TDV ÇİN (Wu Sangui/Yunnan/Üç Derebeyi yok); en.wikipedia Revolt_of_the_Three_Feudatories (İPUCU).",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (qing-hanedani 1681-12-07, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Üç Derebeyi isyanı 1673-1681; '1680'de Hunan, Guizhou, Guangxi ve Sichuan Qing tarafından geri alındı', Kunming 1681'de. Atlas f=1681-12-07 (Yunnan düşüşü ile ilişkili görünüyor; kaynakta gün okunmadı). KARIŞIK: Guiyang (Guizhou) 1680'de geri alındığı için f=1681-12-07 geç olabilir; Mianning (Lincang), Chuxiong, Kaihua (Wenshan) Yunnan, 1681 sonu. Yunnan'ın Wu Sangui'den Qing'e fiilen geçişi: Kunming düşüşü (Qing Shi Gao/Kangxi 20 kayıt günü olabilir: 'Academia Sinica ile çevrilecek', ben çevirmedim). TEK ÖLÇÜ: Wu Sangui Zhou devleti 1678 → Yunnan isyancı devlet; s: qing önceki zincir 'Zhou/Wu' olmalı, yoksa TEK KURAL (isyan işgali) açısından bakılmalı. Künye 1616-1912 aşım yok."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_asya.js:131",
