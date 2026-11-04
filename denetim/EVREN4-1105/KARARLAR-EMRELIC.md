@@ -149,6 +149,37 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-63 — P031-P040 üzerine
+
+Künye ölçümü (KASA):
+
+| Künye | f | t |
+|---|---|---|
+| `alman-dogu-afrikasi` | 1885-02-27 | 1919-06-28 |
+| `alman-guneybati-afrikasi` | 1884-08-07 | 1915-07-09 |
+| `alman-togo` | 1884-07-05 | 1914-08-26 |
+| `alman-kamerun` | 1884-07-12 | 1916-02-18 |
+| `ovambo` | 1600-01-01 | 1917-02-06 |
+| `ruanda-urundi-mandasi` | 1922-07-20 | 1962-07-01 |
+
+Alman Yeni Gine'si için künye YOK.
+
+- **(a) Urundi, Ruanda, Gitega:** Namibya/Versay modeli uygulanır. Belçika bölgeyi "Kongo'nun parçası" olarak yönetti, ama Almanya'nın iddiası Versay'a kadar sürdü; TAHRİR'in ikinci sınavı bu yüzden işgal der.
+  - 1916 fethinden itibaren `isg belcika`.
+  - 1919-06-28 Versay imzasından itibaren `s: belcika` (Belçika yeri zaten yönetiyordu).
+  - 1922-07-20'den itibaren `ruanda-urundi-mandasi`.
+  - Tabora: 1916-09-19'da Belçikalılar aldı, `isg belcika`. Ardından İngiliz bölgesine devredildi; devir günü kaynakla bulunacak.
+- **(b) Alman sömürge künyeleri:** t → 1919-06-28 GENİŞLET. İşgal katmanının altında künyeli bir sahip olmalı; bu Alman Doğu Afrikası emsaliyle de tutarlı.
+  - Bukovina'dan farkı: orada Habsburg devleti çöktü ve rakip hükûmet vardı. Burada Almanya ayakta kaldı ve iddiasını Versay'a kadar korudu.
+  - LAB'a künye maddesi olarak gider: `alman-kamerun`, `ovambo`, `alman-guneybati-afrikasi`, `alman-togo`, Yeni Gine (künyesi yok).
+  - Künyelerin kronoloji t maddeleri de birlikte taşınır.
+- **(c) Yuquot/Nootka:**
+  - 1846-06-15 Oregon Antlaşması imzasından itibaren `s: ingiltere`. İngiltere bölgeyi HBC eliyle fiilen yönetiyordu (TEK ÖLÇÜ).
+  - Vancouver Adası kolonisi 1849-01-13. Künyesi varsa o günden künyeye geçilir, yoksa `ic_not`a yazılır.
+  - 1818-1846 Oregon ortak işgali: ortak egemenlik, BEYANLI (Sahalin/Ussuri emsali).
+  - 1790-94 Nootka konvansiyonları `ic_not`a.
+- **Onaylananlar:** Jülyen çevirileri (Ak-Meçit, Halifax, Kökçetav, Herson), Fort Albany (DCB), Kahnawake, Madagaskar 1897-01-27 (TDV), Dikva, Rabaul.
+
 ## LAB SALI: gece-56 soruları (4c01c52ee; satırlar HAYALET-KARAR'da, kaynak turu yapılmadı)
 
 1. **Laos:** Luang Prabang kraliyet devleti 1893'te bitmedi; Fransız himayesi bir vasallıktır (Kamboçya kuralı).
