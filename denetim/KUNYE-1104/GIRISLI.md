@@ -252,9 +252,6 @@ Haritada hiç yerleşim dönemi olmayan GİRİŞLİ künye: **25** (bunlar yaln�
 ### Cambridge History of China V (Five Dynasties and Sung, Part 1) (1 künye, Σ yer-yıl 50)
 - `sonraki-jin-5hanedan` 0936-01-01 → 0947-03-10 — 50 / 5 / 5
 
-### Cambridge History of Russia III (1 künye, Σ yer-yıl 47)
-- `kirgizistan` 1991-08-31 → None — 47 / 5 / 5
-
 ### King, The Moldovans (Hoover 2000) (1 künye, Σ yer-yıl 41)
 - `transdinyester` 1990-09-02 → None — 41 / 4 / 4
 

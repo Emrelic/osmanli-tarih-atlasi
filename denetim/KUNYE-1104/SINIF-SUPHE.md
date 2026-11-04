@@ -101,6 +101,7 @@ Ağırlık = harita ağırlığı (yerleşim-yıl, origin/main ceb0ce402).
 | `guney-ming` | 1644-04-25 → 1662-01-01 | 370 | f 1644-04-25 Chongzhen'in ölümüydü — DUZELT önerildi (1644-06-06, Struve) |
 | `meysur-racaligi` | 1799-05-04 → 1947-08-15 | 445 | f 1799-05-04 Tipu'nun ölümü; Wodeyar restorasyonu ayrı (TDV) |
 | `tungning` | 1650-01-01 → 1683-10-05 | 199 | KAYNAKLI: Andrade 2008 ch.11 — Zheng filosu Tayvan'a 30 Nisan 1661; Hollanda teslimi Şubat 1662 ('for the first time, Formosa was ruled by a Chinese state'); son 1683 (yıl). Veri f 1650 Xiamen dönemi Zheng rejimi mi? Künye kapsamı: Zheng deniz devleti (f 1650 savunulur) mı, Tayvan'daki Tungning (f 1661/1662) mi |
+| `tohar-yabgu` | 0630-01-01 → 0759-01-01 | 129 | KAYNAKLI: TDV TOHÂRİSTAN — 759 son Çin elçisidir, 'Tohâristan Yabguluğu 759 yılından sonra da varlığını sürdürdü'; 871'de İslâm kaynaklarında anılır. f 630 hacı ziyareti, kuruluş değil |
 | `aleut` | 1281-01-01 → 1784-08-14 | 0 | t 1784-08-14 Kodiak'a (Alutiiq) iniş — Aleut (Unangan) değil |
 | `karagve` | 1450-01-01 → 1890-07-01 | 440 | t 1890-07-01 Anglo-Alman sınır antlaşması — Karagwe'nin sonu değil |
 | `eve-notse` | 1281-01-01 → 1884-07-05 | 604 | t 1884-07-05 kıyı Togo himaye antlaşması — Notse taraf değil |

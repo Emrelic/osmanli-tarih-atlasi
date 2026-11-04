@@ -33,6 +33,7 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | 26 | `ponka` | t | 1858-01-01 | **1859-04-11** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-ponca-1858-0772):  |
 | 27 | `powhatan` | t | 1646-10-01 | **1646-10-05** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, |
 | 28 | `diaguita-calchaqui-konfederasyonu` | t | 1667-01-02 | **1665-12-01** | KARAR (EMRELİC, 4 Kasım): t 1667-01-02 → 1665-12-01 (AY hassasiyeti; gün kaynakta yok) — Boixadós, 'El fin de las guerras calchaquíes. La desnaturalización de l |
+| 29 | `makedonya` | f | 1991-09-08 | **1991-09-17** | TDV TARAMA (Sonnet ajan, 4 Kasım; LAB elemesi): MAKEDONYA, slug makedonya. '8 Eylül 1991’de yapılan referanduma dayanarak 17 Eylül 1991’de Makedonya Yugoslavya’ |
 
 ## Künye adı değişiklikleri (metin; çeviriler sonra bayat görünecek)
 
@@ -53,4 +54,4 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 
 Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] — ONERI.md.
 
-Toplam 28 alan düzeltmesi, 28 künye.
+Toplam 29 alan düzeltmesi, 29 künye.
