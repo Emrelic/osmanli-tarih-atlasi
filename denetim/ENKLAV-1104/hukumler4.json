@@ -52,7 +52,7 @@
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
 "guven": "KAYNAK-GEREK",
-"gerekce": "Kigali 1907 → 1916-05-06 Alman Doğu Afrikası (Ruanda rezidentliği; Belçika zaptı Mayıs 1916), gövdeden 'ingiltere' şeridiyle ayrı (koridor 126 km 6/9). Koridordaki İngiliz boyası Karagve'den (Bveranyange) geliyor: Karagve 1890 Helgoland antlaşmasıyla Alman tarafında kaldı — K369 ile aynı hata. [KAYNAK-UMIT: bulunamadi — Karagwe/Kigali sahipliği kaynaklanamadı; antlaşma varlığı teyitli, bölge ayrıntısı değil.]",
+"gerekce": "Kigali 1907 → 1916-05-06 Alman Doğu Afrikası (Ruanda rezidentliği; Belçika zaptı Mayıs 1916), gövdeden 'ingiltere' şeridiyle ayrı (koridor 126 km 6/9). Koridordaki İngiliz boyası Karagve'den (Bveranyange) geliyor: Karagve 1890 Helgoland antlaşmasıyla Alman tarafında kaldı — K369 ile aynı hata. [KAYNAK-UMIT: bulunamadi — Karagwe/Kigali sahipliği kaynaklanamadı; antlaşma varlığı teyitli, bölge ayrıntısı değil.] [KAYNAK-UMIT: bulunamadi — Antlaşmanın varlığı teyitli ('Heligoland Treaty (1890)'), bölge ayrıntısı değil. Gerekli: Louis, 'Ruanda-Urundi 1884-1919' ya da Cambridge History of Africa cilt 6.]",
 "duzeltme": "Bveranyange/Karagve 1890-1916 alman-dogu-afrikasi (K369, kaynakla).",
 "kaynak": "veri ölçümü"
 },
@@ -91,10 +91,10 @@
 "K312": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Tepeaca 1466 → 1520-09-04 Aztek haraç eyaleti, Aztek gövdesinden 27 km'lik bağımsız Nahua şehir devletleri (Tlaxcala, Huexotzinco) şeridiyle ayrı. Tlaxcala'nın Aztek ülkesi içinde bağımsız kaldığı bilinir; bitiş Cortés'in Tepeaca seferi (Eylül 1520). [KAYNAK-UMIT: giris_gerek — Tepeaca'nın Aztek haraç eyaleti olması ve Cortés Tepeaca seferi (1520): Cambridge History of Native Peoples of the Americas / Hassig, Aztec Warfare okunmalı.] [KAYNAK-UMIT: giris_gerek — Tepeaca Aztek eyaleti ve Cortés 1520 seferi için Hassig 'Aztec Warfare' ya da Cambridge Native Peoples gerek.]",
+"guven": "KAYNAKLI",
+"gerekce": "Tepeaca 1466 → 1520-09-04 Aztek haraç eyaleti, Aztek gövdesinden 27 km'lik bağımsız Nahua şehir devletleri (Tlaxcala, Huexotzinco) şeridiyle ayrı. Tlaxcala'nın Aztek ülkesi içinde bağımsız kaldığı bilinir; bitiş Cortés'in Tepeaca seferi (Eylül 1520). [KAYNAK-UMIT: giris_gerek — Tepeaca'nın Aztek haraç eyaleti olması ve Cortés Tepeaca seferi (1520): Cambridge History of Native Peoples of the Americas / Hassig, Aztec Warfare okunmalı.] [KAYNAK-UMIT: giris_gerek — Tepeaca Aztek eyaleti ve Cortés 1520 seferi için Hassig 'Aztec Warfare' ya da Cambridge Native Peoples gerek.] [KAYNAK-UMIT (kismen): Noche Triste sonrası Tlaxcala'ya varan Cortés Tepeaca eyaletine yürüdü (Kitap IX 'The war at Tepeaca'), 'Mexican garrison'ı yenip Tepeaca'ya girdi; Guacachula ve Izúcar'da Mexica garnizonları vardı. Tlaxcala müttefik. Tepeaca'nın Aztek haraç eyaleti olduğu ve 1466 başlangıcı geçmiyor. — \"defeats the Mexican garrison, 272 ; enters Tepeaca, 273\" · Hüküm GERCEK için 1520 sonu (Cortés'in Tepeaca seferi, Eylül 1520 civarı) yön olarak teyitli; tam gün (1520-09-04) ve 1466 başlangıcı TEYİT EDİLEMEDİ. Kaynak birincil anı neşridir, akademik ikinci kaynak (Hassig 'Aztec Warfare', Gibson) kilitli.]",
 "duzeltme": "Yok; 1466 başlangıcı kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "Díaz del Castillo, B., The True History of the Conquest of New Spain (Maudslay çev., Hakluyt Soc. 1910), archive.org truehistoryofcon0002bern, bölüm CXXIX-CXXXIV ve dizin 'Tepeaca' (birincil belge neşri; Hassig ve Gibson ödünç kilitli) · önceki: veri ölçümü"
 },
 "K313": {
 "hukum": "YAPAY",
