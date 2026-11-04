@@ -207,6 +207,10 @@ METIN = [
     # L2E 989-1000 (EMRELİC)
     ("L2-1393", "Saluzzo: Fransa'ya katılma 1549 (Treccani) yıl tutar; 1 Ağustos ve 23 Şubat 1548 (davet/işgal) ayrı olaylar → metin yalnız 1549 katılmayı anlatmalı"),
     ("L2-1404", "Askia Nuh 1599: Kaba (JAH 1981) kardeşin adını «el-Mustafa» verir, «Harun» değil → ad düzeltilir"),
+    # L2E 1001-1012 (EMRELİC)
+    ("L2-1409", "Paris Lodron: kaptıl seçimi 1619-11-13 (NDB); 1621 papalık onayı ayrı olay → ic_not"),
+    ("L2-1417", "[BEKLE — bölüşme günü yok] Pomeranya: kaynaktaki 10 Mart 1637 Bogislaw XIV'ün ölümüdür, bölüşme değil → olay ve gün yeniden"),
+    ("L2-1420", "[BEKLE — ipucu, DIB okunamadı] 1641 ayaklanması: DNB'ye göre Charlemont 22 Ekim akşamı alındı, 23 değil"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
