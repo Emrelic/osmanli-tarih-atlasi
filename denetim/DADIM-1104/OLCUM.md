@@ -432,6 +432,54 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Sınıf 4 yerleşim yerleşim ilerler.
 - **Sınır:** desen sezgiseldir. A→B→A olmayan işgaller bu taramada görünmez; örneğin işgalin sonunda üçüncü bir sahibe geçiş. Bunlar D adımının yerleşim taramasında yakalanır.
 
+## 17. TAHRİR ÖLÇÜTÜ taraması, 1. tur: sınıf 2, 3 ve 5'in bir kısmı (`tahrir_sonuc.json`)
+- **Kapsam:** 35 desen, 490 aday satır.
+  - Hükümler: **isg 161**, **s 114**, **kukla-kalir 56**, **BULUNAMADI 159**. BULUNAMADI'ların 57'si sınıf 5'te işlenmemiş satırlar.
+  - Sınıf 4 (169) ve 6 (341) bu turda ele alınmadı. Sınıf 4 için 2. tur çalışıyor (`tahrir_sonuc_s4.json`).
+- **En çok satırı etkileyen desenler:**
+  - meiji-japonya 1942-45, Hollanda Doğu Hint: **isg (b)**, 79 satır. Kaynak: LoC Indonesia (16. ve 25. Ordu, deniz komutanlığı idaresi).
+  - italyan-dogu-afrikasi 1936-41, Habeşistan: **s (a)**, 64 satır. 1936-06-01 kararnamesiyle AOI'ye governatorato olarak katıldı; İngiltere ve Fransa 1938'de tanıdı (Treccani).
+  - meiji-japonya: Filipinler, Burma, Malaya **isg**, 36 satır.
+  - salo-cumhuriyeti **kukla-kalir**, 17 satır.
+  - ispanya-milliyetci 1936-39 **s**, 23 satır (iç savaşta rakip hükûmet).
+  - Ostland ve SSCB'deki Alman idaresi **isg**, 31 satır. Kaynak zayıf.
+  - Südetler, Güney Slovakya, Elsas-Lorraine, Besarabya 1940 **s (a)**.
+  - Protektora, Slovakya, NDH, Helvetik **kukla-kalir**.
+- **Açık sorular (EMRELİC'e):**
+  - **sirbistan-nedic:** kukla künyesi var, ama Treccani "occupata militarmente" diyor. Kural (b) mi uygulanır, (c) mi?
+  - **Habeşistan 1936-41:** kural (a) uygulandığında s: italya çıkıyor. 1941'de İmparator'un dönüşü ve savaş sonrası hükümsüzlük ic_not'a yazılır.
+- **Bulunamayanlar:**
+  - Hainan, Portekiz Timoru, Besarabya/Transnistria 1941-44, Finlandiya 1941-44, Eupen-Malmedy, Moğolistan 1919-21, Lombardiya 1799-1800.
+  - Ukrayna 1917-20 iç savaşı: rakip rejimler olduğu için tahrir ölçütü uygulanmıyor.
+  - Sınıf 5'in kalanı.
+- **Yanlış sınıflanmış satırlar:** sınıf 2'de 1805-16 almanya ve avusturya satırları (7 satır) var; bunlar sınıf 5'e ait.
+
+## 18. Kararlar: Nedić, Habeşistan, Baltık; yeniden sınama sonucu (EMRELİC, 4 Kasım 2026 akşam)
+- **sirbistan-nedic:**
+  - Sınıfı (b): askerî idareye tâbi, kendi devlet iddiası yok.
+  - Veride **12 `s:` dönemi** var: Niş, Belgrad, Kragujevac… 1941-08-29 → 1944-10-06.
+  - Öneri: altta `s: yugoslavya` sürer (sürgün hükûmeti), üstte `isg almanya`. Nedić hükûmetinin kuruluşu (1941-08-29) ic_not'a yazılır.
+  - KASA notu: künye veriden düşünce BOYALAR'da **ölü renk +1** kalır. Tuz dosyasına dokunulmaz.
+- **Habeşistan 1936-41:** `s: italya`.
+  - İdareye katmanın belgeleri: 1936-05-09 ilhak ilanı ve 1936-06-01 AOI kararnamesi.
+  - Tanınmama ve 1941 iadesi ic_not'a.
+  - Ölçüt Filistin kararıyla tutarlı: İtalya kattı, İsrail katmadı.
+- **Baltık 1940** (ölçüm, ceb0ce402; 12 yerleşim):
+  - Zincir her yerde aynı: estonya / letonya / litvanya → **s: sovyet-rusya 1940-08-06** → **s: ostland 1941-07/08** → s: sovyet-rusya 1944 → s: *-cumhuriyeti-yeniden 1990/91.
+  - Sovyet ilhakı `s:` olarak yazılmış ve ölçüte uygun. Tanınmama (Welles bildirisi 1940-07-23 vb.) ic_not'a.
+  - ⚠️ **Gün sorunu:** üç cumhuriyete de 1940-08-06 yazılmış. SSCB Yüksek Sovyeti'nin kabul günleri farklı: Litvanya 08-03, Letonya 08-05, Estonya 08-06. Günler kaynaktan teyit edilmeli.
+  - ⚠️ **Ostland:** atlasta `s:` olarak yazılmış. Ostland bir Reichskommissariat'tı, ilhak değildi (tahrir 1. tur: isg). Öneri: 1941-44 arası `s: sovyet-rusya` sürer, üstte `isg almanya`.
+  - Klaipėda 1939 Alman ilhakı `s:` olarak kalır (EMRELİC (a): Memel 1939).
+- **Yeniden sınama sonucu** (`yeniden_sina_sonuc.json`; 75 ONERI satırı işaretlendi):
+  - Desenlerin çoğunda idareye katma ya da katmama belgesi **BULUNAMADI**. Ölçüt gereği "antlaşmaya kadar isg" önerileri **ASKIDA**; mevcut atlas verisi kalır.
+    - Askıdakiler: Habsburg Macaristan 1686-99, Belgrad ve Semendire, Fransız Belçika 1794-95, Milano 1706, Rus Baltık 1710, İngiliz Kap, Malta, Pûne, Pagan.
+  - **isg kalır:**
+    - Niğbolu ve Rusçuk 1877-78 (TDV "işgal").
+    - Konya ve Karaman 1832-33. Bu ikisinde dayanak zayıf: yalnız arama özeti var.
+  - **Smolensk:** "Andrusovo'ya kadar isg" önerisi geri çekildi; atlastaki 1654 kalır. Gregoryen düzeltmesi 10-13 geçerli.
+  - **Araştırılmadı:** Rus Orta Asya, Hazar 1723, Artvin, Saygon, Dijon, Venedik/Verona.
+  - Habsburg Macaristan ve Rus Baltık için TDV dışı kaynak gerekiyor: Cambridge, DergiPark, Hrvatska enciklopedija. EMRELİC tarayıcısından okunabilir.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.

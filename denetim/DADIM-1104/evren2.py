@@ -41,7 +41,7 @@ E1_ANA = {ana(e) for e in E1}
 CINS = {"Cambridge", "Oxford", "Bulgar", "Ordu", "Kara", "Roman", "Kızıl", "Mari", "Leiden", "Princeton", "Brill", "Harvard",
         "Yale", "Chicago", "Berkeley", "Göktürk", "Türk", "Arap", "Tatar", "Kuzey", "Güney", "Doğu", "Batı", "Büyük", "Yeni", "Eski",
         "Orta", "Yukarı", "Aşağı", "Ak", "Han", "Bey", "Sultan", "Kral", "Paşa", "Hatun", "Emir", "Şah", "Kale", "Hisar", "Saray",
-        "Şeyh", "Konstantin", "İsmail", "Pazar", "Liman", "Ada", "Dağ", "Nehir", "Çay", "Göl", "Deniz", "Su", "Kum", "Taş", "Altın", "Gümüş", "Demir", "Bakır"}
+        "Şeyh", "Konstantin", "İsmail", "David", "Pazar", "Liman", "Ada", "Dağ", "Nehir", "Çay", "Göl", "Deniz", "Su", "Kum", "Taş", "Altın", "Gümüş", "Demir", "Bakır"}
 
 
 def ele(y):

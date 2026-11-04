@@ -4722,7 +4722,7 @@
     "isg": "fransa-cumhuriyet 1794 (ay: Brüksel Temmuz / Aachen Eylül; gün kaynak gerek) → ilhak günü",
     "s_f": "1795-10-01 (KAYNAK GEREK — koordinatör bellekten: 9 Vendémiaire IV ilhak kararnamesi; teyit edilmezse yalnız yıl 1795)"
    },
-   "not": "KOORDİNATÖR KURALI (EMRELİC, 4 Kasım 2026 — tek kural): savaş işgali, ilhak/egemenlik devrine kadar isg; s: sahipliği hukukî ilhak/devir gününden başlar; ham işgal günü ic_not. İstisna: işgalci egemenliği açıkça devralırsa (Berlin Deklarasyonu 1945-06-05) sahiplik o gün. Treccani «Belgio»: Jemappes (1792) ve Fleurus (1794) 'segnarono ben presto l'annessione del paese alla Francia (confermata dai Trattati di Campoformio e di Lunéville)' — ilhak kararnamesinin günü bu maddede YOK. Önceki yazım (1794'ten s: sahiplik) bu kuralla geri alındı."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95 (Treccani Fleurus sonrası / TDV 1795 çelişik, idare belgesi yok). · KOORDİNATÖR KURALI (EMRELİC, 4 Kasım 2026 — tek kural): savaş işgali, ilhak/egemenlik devrine kadar isg; s: sahipliği hukukî ilhak/devir gününden başlar; ham işgal günü ic_not. İstisna: işgalci egemenliği açıkça devralırsa (Berlin Deklarasyonu 1945-06-05) sahiplik o gün. Treccani «Belgio»: Jemappes (1792) ve Fleurus (1794) 'segnarono ben presto l'annessione del paese alla Francia (confermata dai Trattati di Campoformio e di Lunéville)' — ilhak kararnamesinin günü bu maddede YOK. Önceki yazım (1794'ten s: sahiplik) bu kuralla geri alındı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:409",
@@ -4747,7 +4747,7 @@
    },
    "kaynak": "Treccani «Bruxelles»: 'tra 1794 e 1815 fu occupata dai Francesi'",
    "alinti": "tra 1794 e 1815 fu occupata dai Francesi",
-   "not": "KOORDİNATÖR KURALI (EMRELİC, 4 Kasım 2026 — tek kural): savaş işgali, ilhak/egemenlik devrine kadar isg; s: sahipliği hukukî ilhak/devir gününden başlar; ham işgal günü ic_not. İstisna: işgalci egemenliği açıkça devralırsa (Berlin Deklarasyonu 1945-06-05) sahiplik o gün. Treccani «Belgio»: Jemappes (1792) ve Fleurus (1794) 'segnarono ben presto l'annessione del paese alla Francia (confermata dai Trattati di Campoformio e di Lunéville)' — ilhak kararnamesinin günü bu maddede YOK. Önceki yazım (1794'ten s: sahiplik) bu kuralla geri alındı."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95 (Treccani Fleurus sonrası / TDV 1795 çelişik, idare belgesi yok). · KOORDİNATÖR KURALI (EMRELİC, 4 Kasım 2026 — tek kural): savaş işgali, ilhak/egemenlik devrine kadar isg; s: sahipliği hukukî ilhak/devir gününden başlar; ham işgal günü ic_not. İstisna: işgalci egemenliği açıkça devralırsa (Berlin Deklarasyonu 1945-06-05) sahiplik o gün. Treccani «Belgio»: Jemappes (1792) ve Fleurus (1794) 'segnarono ben presto l'annessione del paese alla Francia (confermata dai Trattati di Campoformio e di Lunéville)' — ilhak kararnamesinin günü bu maddede YOK. Önceki yazım (1794'ten s: sahiplik) bu kuralla geri alındı."
   }
  ],
  "Cenova": [
@@ -6909,7 +6909,7 @@
     "f": "1832-12-21",
     "t": "1833-06-30"
    },
-   "not": "TEK KURAL: savaş işgali isg:. TDV f günü 21 ARALIK 1832 (atlasta 21 Kasım). t: 'Kütahya Antlaşması ile de burayı boşaltıp Toroslar'a çekildi' — gün yok (1833 yılı bile TDV Konya'da yok); 1833-06-30 kaynaksız."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Mısır 1832-33 (ZAYIF: dayanak TDV Ereğli arama özeti — teyit sayılmaz; Ereğli maddesi açılmalı). · TEK KURAL: savaş işgali isg:. TDV f günü 21 ARALIK 1832 (atlasta 21 Kasım). t: 'Kütahya Antlaşması ile de burayı boşaltıp Toroslar'a çekildi' — gün yok (1833 yılı bile TDV Konya'da yok); 1833-06-30 kaynaksız."
   },
   {
    "dosya_satir": "data/yerlesimler.js:203",
@@ -6926,7 +6926,7 @@
     "f": "1919-04",
     "t": "1920-03-12"
    },
-   "not": "EKLENMELİ: isg italya (Nisan 1919 - 11/12 Mart 1920); f ay hassasiyeti (gün yok), t 11 ya da 12 Mart (kaynak ikisini yazıyor). Aynı TDV maddesi: 'Millî Mücadele yıllarında başka bir işgale uğramadı'. Ayrıca atlasta bu dilim şu an yok."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Mısır 1832-33 (ZAYIF: dayanak TDV Ereğli arama özeti — teyit sayılmaz; Ereğli maddesi açılmalı). · EKLENMELİ: isg italya (Nisan 1919 - 11/12 Mart 1920); f ay hassasiyeti (gün yok), t 11 ya da 12 Mart (kaynak ikisini yazıyor). Aynı TDV maddesi: 'Millî Mücadele yıllarında başka bir işgale uğramadı'. Ayrıca atlasta bu dilim şu an yok."
   },
   {
    "dosya_satir": "data/yerlesimler.js:203",
@@ -7946,7 +7946,7 @@
     "f": "1871-07-04",
     "t": "1883 (YIL)"
    },
-   "not": "TEK KURAL: TDV 'isgal ettiler' diyor; Rus 'gecici isgal' (devir 1881 Petersburg antlasmasi). Satir alan=s degil isg olmali; t=1882-03-22 TDV'de yok: TDV 1883'te 'tamamen bosaltildi' (gun yok). 1871-07-04 gunu TDV'de yok (yil 1871). Kulca ≠ Almalik: Almalik (Huocheng yakini) Kuldja bolgesindedir; Rus isgal alani Yukari Ili. Kendi kaynak ara: Cambridge History of China cilt 11. "
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · TEK KURAL: TDV 'isgal ettiler' diyor; Rus 'gecici isgal' (devir 1881 Petersburg antlasmasi). Satir alan=s degil isg olmali; t=1882-03-22 TDV'de yok: TDV 1883'te 'tamamen bosaltildi' (gun yok). 1871-07-04 gunu TDV'de yok (yil 1871). Kulca ≠ Almalik: Almalik (Huocheng yakini) Kuldja bolgesindedir; Rus isgal alani Yukari Ili. Kendi kaynak ara: Cambridge History of China cilt 11. "
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:221",
@@ -7960,7 +7960,7 @@
    "oneri": {
     "f": "1883 (YIL; gun teyitsiz)"
    },
-   "not": "Rus isgalinin sonu TDV'ye gore 1883 (atlas 1882-03-22 kaynaksiz). Qing satiri ancak Rus bosaltmasindan itibaren (isg bittiginde) basliyor; Petersburg Antlasmasi 1881-02-24 (TDV'de yok). t=1912 ULKE DUZEYI."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · Rus isgalinin sonu TDV'ye gore 1883 (atlas 1882-03-22 kaynaksiz). Qing satiri ancak Rus bosaltmasindan itibaren (isg bittiginde) basliyor; Petersburg Antlasmasi 1881-02-24 (TDV'de yok). t=1912 ULKE DUZEYI."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:222",
@@ -8051,7 +8051,7 @@
     "t": "1784 (YIL)",
     "sonraki": "taskent-devleti (kunye yok) 1784 → 1809"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece; günler kaynaktan): isg rusya 1865-06-17 → 1866 ilhak kararı (gün kaynaktan); s: rusya ilhaktan. · f yil 1503 TDV ile teyit (hicri 908; Seybani Han). AMA TDV: 1784'te Seyhantahur hakimi Yunus Hoca dort bolgeyi birlestirip BAGIMSIZ TASKENT DEVLETI kurdu; Taskent 1809'da Hokand'a katildi. Atlas 'buhara' 1503-1809: 1784-1809 donemi bagimsiz Taskent olmali (kunye yok, yeni devlet kunyesi gerek). Ayrica Seybani Han'in 1503'te kurdugu devlet 'buhara' degil Seybani/Ozbek devleti (kunye karari)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece; günler kaynaktan): isg rusya 1865-06-17 → 1866 ilhak kararı (gün kaynaktan); s: rusya ilhaktan. · f yil 1503 TDV ile teyit (hicri 908; Seybani Han). AMA TDV: 1784'te Seyhantahur hakimi Yunus Hoca dort bolgeyi birlestirip BAGIMSIZ TASKENT DEVLETI kurdu; Taskent 1809'da Hokand'a katildi. Atlas 'buhara' 1503-1809: 1784-1809 donemi bagimsiz Taskent olmali (kunye yok, yeni devlet kunyesi gerek). Ayrica Seybani Han'in 1503'te kurdugu devlet 'buhara' degil Seybani/Ozbek devleti (kunye karari)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek15.js:80",
@@ -8080,7 +8080,7 @@
     "f": "1865-06-17 (TDV: Haziran 1865)",
     "t": "ilhak gunu (TDV'de yok; 1866-67 arasi, Turkistan Genel Gubernatorlugu 1867)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece; günler kaynaktan): isg rusya 1865-06-17 → 1866 ilhak kararı (gün kaynaktan); s: rusya ilhaktan. · TEK KURAL: Haziran 1865 Rus askeri isgali -> isg; s Rusya ilhak/devir gununden. TDV ilhak gunu vermiyor (yalniz 'Haziran 1865'te isgal', '1867'de kurulan Turkistan Genel Gubernatorlugu'). Rus ilhak karari icin ek kaynak (Cambridge History of Inner Asia / Becker, Russia's Protectorates) sart. t=1917-03-15 ULKE DUZEYI (mevcut kayit)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece; günler kaynaktan): isg rusya 1865-06-17 → 1866 ilhak kararı (gün kaynaktan); s: rusya ilhaktan. · TEK KURAL: Haziran 1865 Rus askeri isgali -> isg; s Rusya ilhak/devir gununden. TDV ilhak gunu vermiyor (yalniz 'Haziran 1865'te isgal', '1867'de kurulan Turkistan Genel Gubernatorlugu'). Rus ilhak karari icin ek kaynak (Cambridge History of Inner Asia / Becker, Russia's Protectorates) sart. t=1917-03-15 ULKE DUZEYI (mevcut kayit)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek15.js:82",
@@ -8602,7 +8602,7 @@
     "t": "1818 (ilhak günü teyitsiz)",
     "sonra_s": "ingiliz-hindistani 1818→1947-08-15"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece; günler kaynaktan): isg ingiltere 1817-11-17 → 1818 (Peşva teslimi/ilhak ilanı, gün kaynaktan); s: Peşva (maratha) o güne kadar sürer. · TEK KURAL: Yeraoda savaşı 16-17 Kasım 1817'de Pûne İngilizlerce işgal edildi (IGI; 17 Kasım günü teyit). Hukukî devir/ilhak ise Peşva II. Bâcî Rao'nun 1818'de tahttan indirilmesiyle (IGI: 'After the deposition of the Peshwa Baji Rao II (1818)') — gün kaynakta yok. Bu yüzden 1817-11-17 → ilhak = isg (ingiliz-hindistani), s: ilhaktan sonra. KURAL KARARI gerekebilir: Peşva Maratha polity'sinin içinde olduğundan işgal mi iç iktidar devri mi? KASA/koordinatör."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: İngiliz koloni devirleri. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 gece; günler kaynaktan): isg ingiltere 1817-11-17 → 1818 (Peşva teslimi/ilhak ilanı, gün kaynaktan); s: Peşva (maratha) o güne kadar sürer. · TEK KURAL: Yeraoda savaşı 16-17 Kasım 1817'de Pûne İngilizlerce işgal edildi (IGI; 17 Kasım günü teyit). Hukukî devir/ilhak ise Peşva II. Bâcî Rao'nun 1818'de tahttan indirilmesiyle (IGI: 'After the deposition of the Peshwa Baji Rao II (1818)') — gün kaynakta yok. Bu yüzden 1817-11-17 → ilhak = isg (ingiliz-hindistani), s: ilhaktan sonra. KURAL KARARI gerekebilir: Peşva Maratha polity'sinin içinde olduğundan işgal mi iç iktidar devri mi? KASA/koordinatör."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:1289",
@@ -10006,7 +10006,7 @@
     "f": "1859-02-17",
     "t": "1862-01-01"
    },
-   "not": "TEK KURAL UYGULAMASI: 1859 Fransız ele geçirişi savaş işgalidir, hukukî devir 1862 (Saygon Antlaşması). Öneri: isg fransiz 1859-02-17 → 1862 ve s: fransiz-cinhindi 1862'den (1862-01-01 YIL hassasiyeti; gün kaynakta okunmadı — antlaşma gününü TDV/İSAM/Fransız akademik kaynakla bulmak gerekir). EB1911 ayrıca 1867'de altı ilin tamamen işgal edildiğini yazar (Batı illeri) — Saygon 1862 devir bölgesinde (Gia Định) olduğundan 1867'ye bağlı değildir. 1859-02-17 ham işgal günü ic_not olarak kalsın. Bitiş 1954-07-21 (Cenevre) kaynaklı dönem kapanışıdır, bu dosyada doğrulanmadı."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · TEK KURAL UYGULAMASI: 1859 Fransız ele geçirişi savaş işgalidir, hukukî devir 1862 (Saygon Antlaşması). Öneri: isg fransiz 1859-02-17 → 1862 ve s: fransiz-cinhindi 1862'den (1862-01-01 YIL hassasiyeti; gün kaynakta okunmadı — antlaşma gününü TDV/İSAM/Fransız akademik kaynakla bulmak gerekir). EB1911 ayrıca 1867'de altı ilin tamamen işgal edildiğini yazar (Batı illeri) — Saygon 1862 devir bölgesinde (Gia Định) olduğundan 1867'ye bağlı değildir. 1859-02-17 ham işgal günü ic_not olarak kalsın. Bitiş 1954-07-21 (Cenevre) kaynaklı dönem kapanışıdır, bu dosyada doğrulanmadı."
   }
  ],
  "Vijaya (Quy Nhơn)": [
@@ -11665,7 +11665,7 @@
     "f": "1710 (YIL; gün kaynakta yok)",
     "t": "1721-09-10"
    },
-   "not": "TEK KURAL: Hr.enc. 1710'u veriyor (Büyük Kuzey Savaşı sonucu Rus idaresi); egemenlik devri Nystad 1721-09-10 (mevcut kaynak TDV İsveç/Avrupa). Öneri: 1710-1721-09-10 isg rusya + s rusya 1721-09-10'dan. Teslim günü (1710) bu kaynakta yok, uydurulmadı."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Rus Baltık 1710-21. · TEK KURAL: Hr.enc. 1710'u veriyor (Büyük Kuzey Savaşı sonucu Rus idaresi); egemenlik devri Nystad 1721-09-10 (mevcut kaynak TDV İsveç/Avrupa). Öneri: 1710-1721-09-10 isg rusya + s rusya 1721-09-10'dan. Teslim günü (1710) bu kaynakta yok, uydurulmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek11.js:52",
@@ -11929,7 +11929,7 @@
     "f": "1795",
     "t": "1802"
    },
-   "not": "TEK KURAL: fetih = isg ingiltere 1795-1802 (iade 1802). Gün kaynakta yok (YIL). Mevcut s ingiltere etiketi buna göre isg olmalı."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: İngiliz Kap 1795/1806-14. · TEK KURAL: fetih = isg ingiltere 1795-1802 (iade 1802). Gün kaynakta yok (YIL). Mevcut s ingiltere etiketi buna göre isg olmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_e9353f.js:596",
@@ -11958,7 +11958,7 @@
     "f": "1806",
     "t": "hukukî devir (1814 civarı; bu kaynakta yok)"
    },
-   "not": "TEK KURAL: 1806 fetih isg; s ingiltere hukukî devirden (Londra Antlaşması 1814; GÜN BULUNAMADI, Hr.enc bu sayfada yok). 1910 t: aşağıdaki satır."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: İngiliz Kap 1795/1806-14. · TEK KURAL: 1806 fetih isg; s ingiltere hukukî devirden (Londra Antlaşması 1814; GÜN BULUNAMADI, Hr.enc bu sayfada yok). 1910 t: aşağıdaki satır."
   },
   {
    "dosya_satir": "data/yerlesimler_e9353f.js:598",
@@ -12013,7 +12013,7 @@
     "f": "1797-05-12",
     "t": "1797-10-17"
    },
-   "not": "TEK KURAL (mevcut kaynağı dolu ama kuralla çelişir): işgal = isg; hukukî devir Campo Formio 1797-10-17 (Avusturya). TDV 'işgal' sözcüğünü kullanır."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · TEK KURAL (mevcut kaynağı dolu ama kuralla çelişir): işgal = isg; hukukî devir Campo Formio 1797-10-17 (Avusturya). TDV 'işgal' sözcüğünü kullanır."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1193",
@@ -13349,7 +13349,7 @@
     "f": "1556-03-12",
     "t": "1699-01-26 (Karlofça; hukukî devir) — isg/Habsburg 1687-1699 katmanı ayrı"
    },
-   "not": "ÇELİŞKİ: atlas t=1687-08-12 (Mohaç II sonrası); TDV: Erdel 'genel olarak Osmanlı idaresi altında kaldı'; 'Mihály Apafiy (1662-1690) İstanbul’un emriyle hareket etti'; Avusturya 'Macaristan ve Budin’i aldıktan sonra 1697’de Erdel’i de işgal ettiler'; '1699 Karlofça Antlaşması ile Erdel Avusturya’ya terkedildi'. TEK KURAL: hukukî devir günü 1699-01-26 (Karlofça), önceki Habsburg işgali isg:avusturya olarak yazılmalı; s:/v: Osmanlı tâbiliği 1699'a dek; TDV 'işgal' tarihi (1697) ile atlasın 1687 kaydı çelişiyor — ÇİFT KAYNAK gerek (TDV Erdel md. 1697; kronoloji 1687 Balázsfalva/Mohaç gerekçesi bu oturumda okunmadı). 1556-03-12 başı TDV'de yok (BULUNAMADI); tâbilik 1541'den beri sürer, 1551-56 Habsburg dönemi ayrı."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Macaristan 1686/92-99. · ÇELİŞKİ: atlas t=1687-08-12 (Mohaç II sonrası); TDV: Erdel 'genel olarak Osmanlı idaresi altında kaldı'; 'Mihály Apafiy (1662-1690) İstanbul’un emriyle hareket etti'; Avusturya 'Macaristan ve Budin’i aldıktan sonra 1697’de Erdel’i de işgal ettiler'; '1699 Karlofça Antlaşması ile Erdel Avusturya’ya terkedildi'. TEK KURAL: hukukî devir günü 1699-01-26 (Karlofça), önceki Habsburg işgali isg:avusturya olarak yazılmalı; s:/v: Osmanlı tâbiliği 1699'a dek; TDV 'işgal' tarihi (1697) ile atlasın 1687 kaydı çelişiyor — ÇİFT KAYNAK gerek (TDV Erdel md. 1697; kronoloji 1687 Balázsfalva/Mohaç gerekçesi bu oturumda okunmadı). 1556-03-12 başı TDV'de yok (BULUNAMADI); tâbilik 1541'den beri sürer, 1551-56 Habsburg dönemi ayrı."
   }
  ],
  "Honolulu": [
@@ -14088,7 +14088,7 @@
     "t": "1690-10-08",
     "d": "isg: macaristan-habsburg (s: OSMANLI sürer)"
    },
-   "not": "KURAL KARARI: TEK KURAL — savaş işgali isg:, devir/ilhak antlaşması yok (Belgrad 1690'da geri alındı, Karlofça 1699 ile bırakılmadı). TDV 'bir ara elden çıktı' ifadesi işgal niteliğine uygun. 1717-1718 için ayrı satır: Pasarofça 1718 ile devir. Mevcut s: satırının kaynağı dönemin 'f' gününü TDV Süleyman II'den (1690) alıyor; 1688-09-06 Belgrad'ın düştüğü gün TDV Belgrad'da YOK, YIL."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Belgrad 1688-90 / 1717-39 (TDV 'bir ara elden çıktı', idare belgesi yok). · KURAL KARARI: TEK KURAL — savaş işgali isg:, devir/ilhak antlaşması yok (Belgrad 1690'da geri alındı, Karlofça 1699 ile bırakılmadı). TDV 'bir ara elden çıktı' ifadesi işgal niteliğine uygun. 1717-1718 için ayrı satır: Pasarofça 1718 ile devir. Mevcut s: satırının kaynağı dönemin 'f' gününü TDV Süleyman II'den (1690) alıyor; 1688-09-06 Belgrad'ın düştüğü gün TDV Belgrad'da YOK, YIL."
   },
   {
    "dosya_satir": "data/yerlesimler.js:571",
@@ -14104,7 +14104,7 @@
     "t": "1739-09-18",
     "d": "macaristan-habsburg (1717-08-18→1718-07-21 isg: macaristan-habsburg)"
    },
-   "not": "KURAL KARARI: TEK KURAL — s: hukukî devir gününden: Pasarofça Antlaşması (TDV YIL 1718; gün TDV Belgrad'da yok — antlaşma günü 21 Temmuz 1718 başka kaynakla teyit edilmeli, uydurmadım). 1717 Ağustos Eugen'in fethi (atlas 1717-08-18) isg: katmanına. t: TDV 'Belgrad Antlaşması (1739)' YIL; atlas 09-18 antlaşma günü (kendi kaynağı). Avusturya 1789 işgali TDV: 'elli yıl sonra tekrar ... (1789) Ziştovi (1791)' ile atlas isg satırı uyumlu."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Belgrad 1688-90 / 1717-39 (TDV 'bir ara elden çıktı', idare belgesi yok). · KURAL KARARI: TEK KURAL — s: hukukî devir gününden: Pasarofça Antlaşması (TDV YIL 1718; gün TDV Belgrad'da yok — antlaşma günü 21 Temmuz 1718 başka kaynakla teyit edilmeli, uydurmadım). 1717 Ağustos Eugen'in fethi (atlas 1717-08-18) isg: katmanına. t: TDV 'Belgrad Antlaşması (1739)' YIL; atlas 09-18 antlaşma günü (kendi kaynağı). Avusturya 1789 işgali TDV: 'elli yıl sonra tekrar ... (1789) Ziştovi (1791)' ile atlas isg satırı uyumlu."
   },
   {
    "dosya_satir": "data/yerlesimler.js:571",
@@ -14185,7 +14185,7 @@
     "t": "1944-10-20",
     "d": "isg: almanya (s: yugoslavya)"
    },
-   "not": "KURAL KARARI (mevcut kaynaklı satır; okurken çelişki): TDV Belgrad 1941-1944 dönemini 'Alman işgali' diye yazar; TEK KURAL: işgalci egemenliği devralmadıkça isg:. Nedić hükûmeti kukla (Berlin Deklarasyonu'ndaki gibi egemenlik devri yok) → isg: almanya, s: yugoslavya kalmalı. Belgrad'ın fiilî Almanlarca alınışı Nisan 1941, TDV'de gün yok (uydurmadım). TDV 20 Ekim 1944 Belgrad kurtuluş/başşehir günü (atlasın 1944-10-06 Nedić ayrılışı ile 14 gün fark)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Belgrad 1688-90 / 1717-39 (TDV 'bir ara elden çıktı', idare belgesi yok). · KURAL KARARI (mevcut kaynaklı satır; okurken çelişki): TDV Belgrad 1941-1944 dönemini 'Alman işgali' diye yazar; TEK KURAL: işgalci egemenliği devralmadıkça isg:. Nedić hükûmeti kukla (Berlin Deklarasyonu'ndaki gibi egemenlik devri yok) → isg: almanya, s: yugoslavya kalmalı. Belgrad'ın fiilî Almanlarca alınışı Nisan 1941, TDV'de gün yok (uydurmadım). TDV 20 Ekim 1944 Belgrad kurtuluş/başşehir günü (atlasın 1944-10-06 Nedić ayrılışı ile 14 gün fark)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:571",
@@ -15994,7 +15994,7 @@
     "bolunme": "dogu-got ... 538(?) | bizans 538(?)-539 | dogu-got 539-552/553 | bizans 553-568",
     "kesin": "539 (YIL) Gotlar Milano'yu geri aldı"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN: Enc. Ital. Milano — Belisarius İtalya'ya çıkınca Milanolular 'Rumları kurtarıcı olarak' karşıladı (bizans, yıl metinde yok; 538 civarı), sonra Uraia 539'da Milano'yu kuşatıp yağmaladı (Gotlar). Yani atlasın 493→553 kesintisiz dogu-got dilimi yanlış basitleştirme: ~538 Bizans / 539 Got dönüşü. 538 ve 552-553 uçları metinde yıl olarak yok; yalnız 539 YIL okundu."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN: Enc. Ital. Milano — Belisarius İtalya'ya çıkınca Milanolular 'Rumları kurtarıcı olarak' karşıladı (bizans, yıl metinde yok; 538 civarı), sonra Uraia 539'da Milano'yu kuşatıp yağmaladı (Gotlar). Yani atlasın 493→553 kesintisiz dogu-got dilimi yanlış basitleştirme: ~538 Bizans / 539 Got dönüşü. 538 ve 552-553 uçları metinde yıl olarak yok; yalnız 539 YIL okundu."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1230",
@@ -16021,7 +16021,7 @@
     "t": "0774-01-01 (YIL, KAYNAKLI: Pavia 774)",
     "f": "568/569 — Enc. Ital. yıl vermez; Milano'nun düşüşü Alboin'in girişi, 569 (Paulus Diaconus) — bu oturumda okunmadı"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN. t=774 yıl: Enc. Ital. Lombardia 'Pavia (774) Desiderio Carlo'ya teslim oldu' (ÜLKE DÜZEYİ). f=568-01-01: Enc. Ital. Alboin işgalini yıl vermeden anlatır; atlas 568'i = Lombard göçü yılı, Milano'nun düşüşü ayrı (569 ya da sonrası) — kaynak bulunamadı, ARAŞTIRILMALI (DBI 'Alboino' sayfası 208 baytlık boş/yönlendirme döndü)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN. t=774 yıl: Enc. Ital. Lombardia 'Pavia (774) Desiderio Carlo'ya teslim oldu' (ÜLKE DÜZEYİ). f=568-01-01: Enc. Ital. Alboin işgalini yıl vermeden anlatır; atlas 568'i = Lombard göçü yılı, Milano'nun düşüşü ayrı (569 ya da sonrası) — kaynak bulunamadı, ARAŞTIRILMALI (DBI 'Alboino' sayfası 208 baytlık boş/yönlendirme döndü)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1230",
@@ -16037,7 +16037,7 @@
     "d": "karolenj-italya",
     "s_notu": "almanya f 0962-02-02 -> 0961-01-01"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN: Enc. Ital. Lombardia 'Ottone ... cinta in Milano la corona ferrea (961)' → Otto I İtalya Krallığı tacını Milano'da 961'de giydi; 962-02-02 İMPARATORLUK tacı (DBI Giovanni XII, mevcut DEVRALMA kaynağı) Roma'da, Milano'ya özgü değil. Yani Milano için Alman (Otto) hâkimiyeti 961'de (YIL) başlar. Karolenj dilim sahibi (774) KISMEN doğrulandı (Enc. Ital.: Carlo, Pavia başkent kalır)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KISMEN: Enc. Ital. Lombardia 'Ottone ... cinta in Milano la corona ferrea (961)' → Otto I İtalya Krallığı tacını Milano'da 961'de giydi; 962-02-02 İMPARATORLUK tacı (DBI Giovanni XII, mevcut DEVRALMA kaynağı) Roma'da, Milano'ya özgü değil. Yani Milano için Alman (Otto) hâkimiyeti 961'de (YIL) başlar. Karolenj dilim sahibi (774) KISMEN doğrulandı (Enc. Ital.: Carlo, Pavia başkent kalır)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1230",
@@ -16053,7 +16053,7 @@
     "t": "1097-01-01",
     "d": "almanya"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · Bkz. karolenj-italya satırı: f=961 YIL (Enc. Ital., KISMEN). t=1097 (komün/konsolato) mevcut kaynaklı (Treccani Enc. Ital. 'riportare al 1097 l'origine del consolato')."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · Bkz. karolenj-italya satırı: f=961 YIL (Enc. Ital., KISMEN). t=1097 (komün/konsolato) mevcut kaynaklı (Treccani Enc. Ital. 'riportare al 1097 l'origine del consolato')."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1230",
@@ -16068,7 +16068,7 @@
     "isg": "avusturya 1706-09-24 → 1714-03-07 (isg)",
     "s_avusturya_f": "1714-03-07 (Rastatt; mevcut)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KURAL KARARI (TEK KURAL): Enc. Ital.: Eugenio di Savoia 24 Eylül 1706'da Milano kapısında, ilk Avusturya valisi oldu; hukukî devir 1713-14 (Utrecht/Rastatt; İspanya Avusturya ile 1725 Viyana'ya dek barışmadı — bu oturumda okunmadı) → 1706-09-24→1714-03-07 `isg: avusturya` olmalı, `s: ispanya` 1714-03-07'ye dek sürer (atlas zaten ispanya t=1714-03-07). '24 Eylül' Eugen'in şehrin eşiğine gelişi; şehir/kale teslim günü metinde yok (gün KISMEN, 'fiilî işgal başı' yaklaşık). Rastatt günü 1714-03-07 KAYNAKLI değil (GEC/TDV 'Belçika' mevcut kaynakta). t=1796-05-15 (mevcut satır: Napolyon Milano'ya girdi) → TEK KURAL: bu da işgal; s avusturya 1797 Campo Formio/Cisalpina kuruluşu 1797-07-09'a dek sürmeli, 1796-05-15→1797-07-09 `isg: fransa-cumhuriyet`. Bu oturumda Campo Formio kaynağı okunmadı (öneri kural türevidir)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KURAL KARARI (TEK KURAL): Enc. Ital.: Eugenio di Savoia 24 Eylül 1706'da Milano kapısında, ilk Avusturya valisi oldu; hukukî devir 1713-14 (Utrecht/Rastatt; İspanya Avusturya ile 1725 Viyana'ya dek barışmadı — bu oturumda okunmadı) → 1706-09-24→1714-03-07 `isg: avusturya` olmalı, `s: ispanya` 1714-03-07'ye dek sürer (atlas zaten ispanya t=1714-03-07). '24 Eylül' Eugen'in şehrin eşiğine gelişi; şehir/kale teslim günü metinde yok (gün KISMEN, 'fiilî işgal başı' yaklaşık). Rastatt günü 1714-03-07 KAYNAKLI değil (GEC/TDV 'Belçika' mevcut kaynakta). t=1796-05-15 (mevcut satır: Napolyon Milano'ya girdi) → TEK KURAL: bu da işgal; s avusturya 1797 Campo Formio/Cisalpina kuruluşu 1797-07-09'a dek sürmeli, 1796-05-15→1797-07-09 `isg: fransa-cumhuriyet`. Bu oturumda Campo Formio kaynağı okunmadı (öneri kural türevidir)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1230",
@@ -16086,7 +16086,7 @@
     "t": "hukukî devir günü (Villafranca ön barış 11 Temmuz 1859 / Zürih 10 Kasım 1859 — ADAY, kaynak okunmadı)",
     "s_f": "devir günü"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KURAL KARARI: 1859-06-04 Magenta SAVAŞ günüdür (Avusturya çekilişi 5-6 Haziran, V. Emanuele girişi 8 Haziran) — hukukî devir değil; TEK KURAL → isg/ya da Avusturya s'si devre kadar sürer. Aday devir günleri (Villafranca 11.7.1859, Zürih 10.11.1859, Lombardiya'nın ilhakı 1859 sonu) bu oturumda kaynakla OKUNMADI; Treccani sayfa denemeleri (zurigo, seconda-guerra-d-indipendenza) boş çıktı; TDV italya '1859' içermiyor. t=1861-03-17: TDV italya 'yeniden kurulan İtalya Krallığı’na 17 Mart 1861’de ... Vittorio Emanuele getirildi' GÜN KAYNAKLI (ÜLKE DÜZEYİ) — sardinya künyesi bu günde İtalya'ya devrolur."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · KURAL KARARI: 1859-06-04 Magenta SAVAŞ günüdür (Avusturya çekilişi 5-6 Haziran, V. Emanuele girişi 8 Haziran) — hukukî devir değil; TEK KURAL → isg/ya da Avusturya s'si devre kadar sürer. Aday devir günleri (Villafranca 11.7.1859, Zürih 10.11.1859, Lombardiya'nın ilhakı 1859 sonu) bu oturumda kaynakla OKUNMADI; Treccani sayfa denemeleri (zurigo, seconda-guerra-d-indipendenza) boş çıktı; TDV italya '1859' içermiyor. t=1861-03-17: TDV italya 'yeniden kurulan İtalya Krallığı’na 17 Mart 1861’de ... Vittorio Emanuele getirildi' GÜN KAYNAKLI (ÜLKE DÜZEYİ) — sardinya künyesi bu günde İtalya'ya devrolur."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1230",
@@ -16137,7 +16137,7 @@
     "f": "1946-06-02 (referandum; hukukî ilan günü ayrı karar)",
     "d": "italya-cumhuriyeti"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · ÇELİŞKİ: TDV cumhuriyete geçişi 2-3 Haziran 1946 referandumuna bağlar; atlasın 18 Haziran'ı (DEVRALMA 'difesa.it') TDV'de yok. Hangi günün 'hukukî devir' olduğu KURAL KARARI (referandum 2.6, Cassazione ilanı 18.6 [kaynak okunmadı], 10.6 ön sonuç [okunmadı]). Devlet KAYNAKLI."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Avusturya Milano 1706-14 (Treccani yalnız Utrecht 1713 devri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ: Milano 1706 → Avusturya idaresi o yıl kuruldu mu (kendi valisi, Consiglio segreto)? Belgelenirse s: avusturya 1706'dan, Rastatt 1714 ic_not; yoksa önceki isg önerisi kalır. YENİDEN SINANACAK. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam; günler kaynaktan): 1706 girişi (gün kaynaktan) → 1714-03-07 Rastatt: isg avusturya, s: ispanya sürer; ic_not 'İspanya'nın feragati Viyana 1725'. 1859: Villafranca (1859-07-11) ön barış; hukukî devir Zürih (1859-11-10) → Magenta sonrası Sardunya girişi (1859-06, gün kaynaktan) → Zürih isg sardinya, s: sardinya Zürih'ten. 1796-97 Fransız girişi isg. · ÇELİŞKİ: TDV cumhuriyete geçişi 2-3 Haziran 1946 referandumuna bağlar; atlasın 18 Haziran'ı (DEVRALMA 'difesa.it') TDV'de yok. Hangi günün 'hukukî devir' olduğu KURAL KARARI (referandum 2.6, Cassazione ilanı 18.6 [kaynak okunmadı], 10.6 ön sonuç [okunmadı]). Devlet KAYNAKLI."
   }
  ],
  "Humus": [
@@ -16616,7 +16616,7 @@
     "t": "1721-09-10",
     "d": "isvec"
    },
-   "not": "f=1621 YIL düzeyinde KAYNAKLI. Treccani 'İsveç 1710'a kadar, 1710'da Rusya'ya geçti' diyor. TEK KURAL: askerî ele geçiriş (Riga kuşatması 1709-10, teslim 1710) isg'dir; s sahiplik Nystad (1721-09-10, TDV 'İsveç') gününde Rusya'ya geçer ⇒ s isvec t=1721-09-10 KORUNUR; EKLENMELİ: isg rusya f=1710 (YIL; gün kaynakta okunamadı — teslim günü ayrı kaynakla aranmalı) t=1721-09-10. 1621-09-15 günü Jülyen olabilir (1582 sonrası atlas Gregoryen): gün Treccani'de yok, teyitsiz; ayrıca çevrim kontrolü gerek."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Rus Baltık 1710-21. · f=1621 YIL düzeyinde KAYNAKLI. Treccani 'İsveç 1710'a kadar, 1710'da Rusya'ya geçti' diyor. TEK KURAL: askerî ele geçiriş (Riga kuşatması 1709-10, teslim 1710) isg'dir; s sahiplik Nystad (1721-09-10, TDV 'İsveç') gününde Rusya'ya geçer ⇒ s isvec t=1721-09-10 KORUNUR; EKLENMELİ: isg rusya f=1710 (YIL; gün kaynakta okunamadı — teslim günü ayrı kaynakla aranmalı) t=1721-09-10. 1621-09-15 günü Jülyen olabilir (1582 sonrası atlas Gregoryen): gün Treccani'de yok, teyitsiz; ayrıca çevrim kontrolü gerek."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1286",
@@ -17547,7 +17547,7 @@
     "d": "ingiltere",
     "ek": "isg ingiltere 1800-09-05 → 1814 (Paris Antlaşması, günü 1814-05-30 teyit edilmeli; Treccani/TDV'de yok)"
    },
-   "not": "KURAL KARARI (TEK KURAL): TDV 'işgal edildi' sözcüğünü kullanır; Treccani hukukî devri Paris Antlaşması 1814'e bağlar (YIL). Amiens 1802 geri verilmesini öngördü, uygulanmadı — bu kaynaklarda yok. ⇒ 1800-09-05→1814 isg ingiltere, s ingiltere f=1814 (hukukî devir, ek kaynak: antlaşma metni 1814-05-30 aranmalı). t=1964: TDV 'referandumla İngiltere'den ... bağımsızlığını aldı' (YIL 1964; 1964-09-21 künye); TDV Malta'nın 1979'a dek İngiltere'nin adayı terk etmemesini ve Cumhuriyetin 1979'da kurulduğunu söyler (atlas malta 1964-2000 uyumlu, Cumhuriyet ayrı dilim değil)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: İngiliz Malta 1800-14. · KURAL KARARI (TEK KURAL): TDV 'işgal edildi' sözcüğünü kullanır; Treccani hukukî devri Paris Antlaşması 1814'e bağlar (YIL). Amiens 1802 geri verilmesini öngördü, uygulanmadı — bu kaynaklarda yok. ⇒ 1800-09-05→1814 isg ingiltere, s ingiltere f=1814 (hukukî devir, ek kaynak: antlaşma metni 1814-05-30 aranmalı). t=1964: TDV 'referandumla İngiltere'den ... bağımsızlığını aldı' (YIL 1964; 1964-09-21 künye); TDV Malta'nın 1979'a dek İngiltere'nin adayı terk etmemesini ve Cumhuriyetin 1979'da kurulduğunu söyler (atlas malta 1964-2000 uyumlu, Cumhuriyet ayrı dilim değil)."
   }
  ],
  "Haliç": [
@@ -17621,7 +17621,7 @@
     "f": "1723-08-06",
     "t": "1735-03-21"
    },
-   "not": "KURAL KARARI: TDV 'Rus topraklarına katıldı' (ilhak) der; Iranica 'temporary Russian occupation; ended 1735 Treaty of Ganja'. TEK KURAL: egemenlik devri gerçekleşene dek isg. Hukukî devir (1723 St. Petersburg antlaşması) kaynaklarda okunmadı; devir günü verilmezse isg uygun. Ayrıca Gence Antlaşması 1735 (TDV azerbaycan: ilk Rus akını Nâdir Şah zamanı 1735 der) — yıl düzeyi, gün kaynakta yok. Karar KASA/Emre'nin."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KURAL KARARI: TDV 'Rus topraklarına katıldı' (ilhak) der; Iranica 'temporary Russian occupation; ended 1735 Treaty of Ganja'. TEK KURAL: egemenlik devri gerçekleşene dek isg. Hukukî devir (1723 St. Petersburg antlaşması) kaynaklarda okunmadı; devir günü verilmezse isg uygun. Ayrıca Gence Antlaşması 1735 (TDV azerbaycan: ilk Rus akını Nâdir Şah zamanı 1735 der) — yıl düzeyi, gün kaynakta yok. Karar KASA/Emre'nin."
   },
   {
    "dosya_satir": "data/yerlesimler.js:815",
@@ -17725,7 +17725,7 @@
     "t": "1920-04-28",
     "ek": "isg ingiltere (Mondros sonrası-1919) eklenmeli; tarihler teyitsiz"
    },
-   "not": "f=1918-09-15 KAYNAKLI (TDV azerbaycan; Bakü'nün alınışı). ADR 28 Mayıs 1918 (TDV bakü) Tiflis'te; Bakü'nün ADR'ye geçişi 15 Eylül. t: TDV Kızıl Ordu 27 Nisan işgal, AzSSR 28 Nisan ⇒ TEK KURAL: ham işgal 27 Nisan ic_not, sahiplik 28 Nisan. İngiliz işgali (TDV azerbaycan 'Kasım 1919' — çelişkili/belirsiz; atlasta isg ingiltere yok) için üçüncü kaynak gerekli."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · f=1918-09-15 KAYNAKLI (TDV azerbaycan; Bakü'nün alınışı). ADR 28 Mayıs 1918 (TDV bakü) Tiflis'te; Bakü'nün ADR'ye geçişi 15 Eylül. t: TDV Kızıl Ordu 27 Nisan işgal, AzSSR 28 Nisan ⇒ TEK KURAL: ham işgal 27 Nisan ic_not, sahiplik 28 Nisan. İngiliz işgali (TDV azerbaycan 'Kasım 1919' — çelişkili/belirsiz; atlasta isg ingiltere yok) için üçüncü kaynak gerekli."
   },
   {
    "dosya_satir": "data/yerlesimler.js:815",
@@ -19397,7 +19397,7 @@
     "t": "1738-08-01",
     "d": "macaristan-habsburg"
    },
-   "not": "TEK KURAL: 1717-08 Ağustos'ta Osmanlı'nın terki/Avusturya girişi savaş işgalidir (TDV: 'terketti', ay düzeyi; atlas 1717-08-18 = Belgrad düşüş günü, Semendire'ye özgü değil) → isg macaristan-habsburg 1717-08 → de jure devir günü; s: macaristan-habsburg Pasarofça günü 1718-07-21'den başlamalı. Bitiş AY (Ağustos 1738, 'Avusturyalılar’ın geri çekilmesi') ✓ → bkz. sonraki satır. Pasarofça günü TDV Semendire'de yok: ONERI günü kronoloji/Pasarofça kaynağıyla teyit edilmeli (uydurma yapılmadı)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Sırbistan 1688-90 / 1717-39. · TEK KURAL: 1717-08 Ağustos'ta Osmanlı'nın terki/Avusturya girişi savaş işgalidir (TDV: 'terketti', ay düzeyi; atlas 1717-08-18 = Belgrad düşüş günü, Semendire'ye özgü değil) → isg macaristan-habsburg 1717-08 → de jure devir günü; s: macaristan-habsburg Pasarofça günü 1718-07-21'den başlamalı. Bitiş AY (Ağustos 1738, 'Avusturyalılar’ın geri çekilmesi') ✓ → bkz. sonraki satır. Pasarofça günü TDV Semendire'de yok: ONERI günü kronoloji/Pasarofça kaynağıyla teyit edilmeli (uydurma yapılmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:570",
@@ -19512,7 +19512,7 @@
     "t": "1654-10-13",
     "d": "lehistan"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): Rusya 1918'e dek Jülyen: 1654-10-03 J = 1654-10-13 G. TEK KURAL: isg rusya 1654-10-13 → Andrusovo (1667 Ocak/Şubat; Jülyen günü kaynaktan, Gregoryen'e çevrilir); s: rusya Andrusovo'dan. 1686 Ebedî Barış ic_not. · Başlangıç ONAY: 3 Haziran 1611 (J) = 13 Haziran 1611 (G) ✓ (atlas Gregoryen). ESBE 'присоединен' (ilhak) der → TEK KURAL ile uyumlu (s: lehistan). Deulino (1618) ateşkesi şehrin Polonya'da kalışını teyit eder (ek 'de jure' gün TDV/ESBE'de yok). BİTİŞ HATASI: atlas 1654-10-03, ESBE 3 Ekim 1654 JÜLYEN günüdür (Rus kaynak) → 1582-10-15 sonrası atlas Gregoryen olmalı: 3 Ekim 1654 (J) = 13 Ekim 1654 (G) (17. yy'da +10 gün; 1611 satırındaki 3→13 Haziran çevirisiyle tutarlı). Bkz. sonraki satır. ESBE eski başvuru eseri olduğundan tek başına 'kısmen'; bağımsız ikinci (akademik/BRE-Bolşaya Rossiyskaya Entsiklopediya) kaynakla çift teyit önerilir. Günler ESBE'de Jülyen (eski takvim) verilir."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): Treccani 'nel 1654 tornò alla Russia' — s: rusya fetihten (atlas zaten 1654); 'Andrusovo'ya kadar isg' önerisi GERİ ÇEKİLDİ; Andrusovo 1667 ic_not. Jülyen→Gregoryen düzeltmesi (1654-10-13) GEÇERLİ. KISMEN (eski başvuru eseri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): Rusya 1918'e dek Jülyen: 1654-10-03 J = 1654-10-13 G. TEK KURAL: isg rusya 1654-10-13 → Andrusovo (1667 Ocak/Şubat; Jülyen günü kaynaktan, Gregoryen'e çevrilir); s: rusya Andrusovo'dan. 1686 Ebedî Barış ic_not. · Başlangıç ONAY: 3 Haziran 1611 (J) = 13 Haziran 1611 (G) ✓ (atlas Gregoryen). ESBE 'присоединен' (ilhak) der → TEK KURAL ile uyumlu (s: lehistan). Deulino (1618) ateşkesi şehrin Polonya'da kalışını teyit eder (ek 'de jure' gün TDV/ESBE'de yok). BİTİŞ HATASI: atlas 1654-10-03, ESBE 3 Ekim 1654 JÜLYEN günüdür (Rus kaynak) → 1582-10-15 sonrası atlas Gregoryen olmalı: 3 Ekim 1654 (J) = 13 Ekim 1654 (G) (17. yy'da +10 gün; 1611 satırındaki 3→13 Haziran çevirisiyle tutarlı). Bkz. sonraki satır. ESBE eski başvuru eseri olduğundan tek başına 'kısmen'; bağımsız ikinci (akademik/BRE-Bolşaya Rossiyskaya Entsiklopediya) kaynakla çift teyit önerilir. Günler ESBE'de Jülyen (eski takvim) verilir."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1299",
@@ -19528,7 +19528,7 @@
     "t": "1917-03-15",
     "d": "rusya (+ isg rusya 1654-10-13 → Andrusovo)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): Rusya 1918'e dek Jülyen: 1654-10-03 J = 1654-10-13 G. TEK KURAL: isg rusya 1654-10-13 → Andrusovo (1667 Ocak/Şubat; Jülyen günü kaynaktan, Gregoryen'e çevrilir); s: rusya Andrusovo'dan. 1686 Ebedî Barış ic_not. · KURAL KARARI (TEK KURAL): 3 Ekim 1654 (J) = 13 Ekim 1654 (G) savaş işgalidir (iki aylık kuşatma, ele geçirme); egemenlik devri ESBE'ye göre Andrusovo (1667; Rusya'ya 13,5 yıllığına) ve kalıcı olarak 1686 (Sonsuz Barış). Uygulama önerisi: isg rusya 1654-10-13 → 1667 (Andrusovo günü), s: rusya 1667 (Andrusovo, ESBE 'уступлен') — ya da s: rusya doğrudan 1654'ten, ama o durumda TEK KURAL ('ham işgal günü ic_not') ihlal olur. Karar KASA'nın/Emre'nin; 1654-10-03 hâlâ Jülyen günüdür → 1654-10-13 çevrilmeli. Hukukî tanınma 1686 Sonsuz Barış ic_not beyanı. Bitiş 1917-03-15 ÜLKE DÜZEYİ (Rusya: 2 Mart 1917 J = 15 Mart G ✓). ESBE eski başvuru eseri olduğundan tek başına 'kısmen'; bağımsız ikinci (akademik/BRE-Bolşaya Rossiyskaya Entsiklopediya) kaynakla çift teyit önerilir. Günler ESBE'de Jülyen (eski takvim) verilir."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): Treccani 'nel 1654 tornò alla Russia' — s: rusya fetihten (atlas zaten 1654); 'Andrusovo'ya kadar isg' önerisi GERİ ÇEKİLDİ; Andrusovo 1667 ic_not. Jülyen→Gregoryen düzeltmesi (1654-10-13) GEÇERLİ. KISMEN (eski başvuru eseri). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): Rusya 1918'e dek Jülyen: 1654-10-03 J = 1654-10-13 G. TEK KURAL: isg rusya 1654-10-13 → Andrusovo (1667 Ocak/Şubat; Jülyen günü kaynaktan, Gregoryen'e çevrilir); s: rusya Andrusovo'dan. 1686 Ebedî Barış ic_not. · KURAL KARARI (TEK KURAL): 3 Ekim 1654 (J) = 13 Ekim 1654 (G) savaş işgalidir (iki aylık kuşatma, ele geçirme); egemenlik devri ESBE'ye göre Andrusovo (1667; Rusya'ya 13,5 yıllığına) ve kalıcı olarak 1686 (Sonsuz Barış). Uygulama önerisi: isg rusya 1654-10-13 → 1667 (Andrusovo günü), s: rusya 1667 (Andrusovo, ESBE 'уступлен') — ya da s: rusya doğrudan 1654'ten, ama o durumda TEK KURAL ('ham işgal günü ic_not') ihlal olur. Karar KASA'nın/Emre'nin; 1654-10-03 hâlâ Jülyen günüdür → 1654-10-13 çevrilmeli. Hukukî tanınma 1686 Sonsuz Barış ic_not beyanı. Bitiş 1917-03-15 ÜLKE DÜZEYİ (Rusya: 2 Mart 1917 J = 15 Mart G ✓). ESBE eski başvuru eseri olduğundan tek başına 'kısmen'; bağımsız ikinci (akademik/BRE-Bolşaya Rossiyskaya Entsiklopediya) kaynakla çift teyit önerilir. Günler ESBE'de Jülyen (eski takvim) verilir."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1299",
@@ -20583,7 +20583,7 @@
     "d": "sirvansah",
     "isg": null
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · t: YIL (1509) KAYNAKLI (gün yok). Şirvanşah sahipliğinin başlangıcı (1382) ve 1382-1509 arası TDV Derbend'de tanıklanmadı (Şirvanşahlar yalnız 1554'te Kāsım Mirza bağlamında anılır): f BULUNAMADI. Başka kaynak aranmadı (TDV maddesinde sahip adı yok)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · t: YIL (1509) KAYNAKLI (gün yok). Şirvanşah sahipliğinin başlangıcı (1382) ve 1382-1509 arası TDV Derbend'de tanıklanmadı (Şirvanşahlar yalnız 1554'te Kāsım Mirza bağlamında anılır): f BULUNAMADI. Başka kaynak aranmadı (TDV maddesinde sahip adı yok)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:817",
@@ -20600,7 +20600,7 @@
     "d": "safevi",
     "isg": null
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · f: YIL KAYNAKLI. Bölünme: Safevî 1509→1578-10-05; OSMANLI 1578-10-05→1603/1607 (mevcut kaynaklı satır; TDV içinde çelişki: 'I. Abbas ... (1603) Derbend'i alıp' vs '1607'ye kadar süren Osmanlı hâkimiyeti' — hangisi doğru TDV'den ayırt edilemez, BEYAN); Safevî 1603 veya 1607→1722. Safevî dönemi içi: 1554 Kāsım Mirza geçici, 1577 Nisan şehir halkı ayaklanması (isg/boşluk adayı, süre bilinmiyor). t: TEK KURAL: 'Ağustos 1722 işgal' = isg rusya; Safevî sahipliği devir günü 12 Eylül 1723'e kadar sürer (TDV, Petersburg antlaşması; kaynak günü Jülyen olabilir, TDV takvim yazmaz). Önerideki t yalnız Osmanlı kesintisinin başını gösterir; ikinci kesinti için yukarıya bkz."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · f: YIL KAYNAKLI. Bölünme: Safevî 1509→1578-10-05; OSMANLI 1578-10-05→1603/1607 (mevcut kaynaklı satır; TDV içinde çelişki: 'I. Abbas ... (1603) Derbend'i alıp' vs '1607'ye kadar süren Osmanlı hâkimiyeti' — hangisi doğru TDV'den ayırt edilemez, BEYAN); Safevî 1603 veya 1607→1722. Safevî dönemi içi: 1554 Kāsım Mirza geçici, 1577 Nisan şehir halkı ayaklanması (isg/boşluk adayı, süre bilinmiyor). t: TEK KURAL: 'Ağustos 1722 işgal' = isg rusya; Safevî sahipliği devir günü 12 Eylül 1723'e kadar sürer (TDV, Petersburg antlaşması; kaynak günü Jülyen olabilir, TDV takvim yazmaz). Önerideki t yalnız Osmanlı kesintisinin başını gösterir; ikinci kesinti için yukarıya bkz."
   },
   {
    "dosya_satir": "data/yerlesimler.js:817",
@@ -20617,7 +20617,7 @@
     "d": "rusya",
     "isg": "rusya"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · TEK KURAL: işgal (TDV: Ağustos 1722) isg rusya; s rusya f=Petersburg devir günü 12 Eylül 1723 (TDV'deki gün; Rusya Jülyen kullandığından bu gün Jülyen olabilir, Gregoryen karşılığı ayrıca teyit edilmeli — ben çevirmedim). isg ucu: 1722-09-03 atlas günü TDV'de yok (TDV 'Ağustos 1722'). t: 1735 Gence Antlaşması YIL KAYNAKLI (gün teyitsiz)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · TEK KURAL: işgal (TDV: Ağustos 1722) isg rusya; s rusya f=Petersburg devir günü 12 Eylül 1723 (TDV'deki gün; Rusya Jülyen kullandığından bu gün Jülyen olabilir, Gregoryen karşılığı ayrıca teyit edilmeli — ben çevirmedim). isg ucu: 1722-09-03 atlas günü TDV'de yok (TDV 'Ağustos 1722'). t: 1735 Gence Antlaşması YIL KAYNAKLI (gün teyitsiz)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:817",
@@ -20651,7 +20651,7 @@
     "d": "afsar",
     "isg": null
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · Sahip (Afşar/Nâdir) kısmen KAYNAKLI; t: YIL 1747 (Nâdir'in öldürülmesi). TDV Nâdir hâkimiyetinin 1734-35 ve 1741-42'de kurulabildiğini söyler, süreklilik açık değil (cümle tam okunamadı)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · Sahip (Afşar/Nâdir) kısmen KAYNAKLI; t: YIL 1747 (Nâdir'in öldürülmesi). TDV Nâdir hâkimiyetinin 1734-35 ve 1741-42'de kurulabildiğini söyler, süreklilik açık değil (cümle tam okunamadı)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:817",
@@ -20668,7 +20668,7 @@
     "d": null,
     "isg": null
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · ÇELİŞKİ: TDV'de Zend sahipliği YOK. 1747→1759 müstakil Derbend Hanlığı, 1759 (sonbahar, AY) →1796 Kuba Hanlığı (Feth Ali Han). Atlasta Kuba/Derbend Hanlığı künyesi var mı bilinmiyor (d: boş bırakıldı); yoksa BEYANLI BOŞLUK. t: 10 Mayıs 1796 Rus kuşatma sonu (TDV: 'bir haftalık kuşatma sonunda 10 Mayıs'ta ele geçirildi'; yıl 1796 cümlede açık) → TEK KURAL: isg rusya 1796-05-10 (devir/ilhak yok; Ruslar Katerina'nın ölümü üzerine boşalttı, 1796 sonu, gün yok)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · ÇELİŞKİ: TDV'de Zend sahipliği YOK. 1747→1759 müstakil Derbend Hanlığı, 1759 (sonbahar, AY) →1796 Kuba Hanlığı (Feth Ali Han). Atlasta Kuba/Derbend Hanlığı künyesi var mı bilinmiyor (d: boş bırakıldı); yoksa BEYANLI BOŞLUK. t: 10 Mayıs 1796 Rus kuşatma sonu (TDV: 'bir haftalık kuşatma sonunda 10 Mayıs'ta ele geçirildi'; yıl 1796 cümlede açık) → TEK KURAL: isg rusya 1796-05-10 (devir/ilhak yok; Ruslar Katerina'nın ölümü üzerine boşalttı, 1796 sonu, gün yok)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:817",
@@ -20685,7 +20685,7 @@
     "d": null,
     "isg": "rusya"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · ÇELİŞKİ: TDV'de Kaçar sahipliği YOK (Kaçar yalnız saldırgan: Ağa Muhammed Şah). Öneri: Kuba Hanlığı (1796'ya kadar) → isg rusya 1796-05-10→1796 sonu (boşaltma, tarih yok) → hanlık → isg rusya 1806 (YIL; Derbend'in 1806 Rus işgali) → s rusya Gülistan 1813 (YIL; atlas 1813-10-24 gün teyitsiz, Gregoryen karşılığı J 12 Ekim; kaynakta gün yok). Kaçar dönemi için bu satırın tamamı Derbend'e özgü kaynaksızdır. TEK KURAL."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · ÇELİŞKİ: TDV'de Kaçar sahipliği YOK (Kaçar yalnız saldırgan: Ağa Muhammed Şah). Öneri: Kuba Hanlığı (1796'ya kadar) → isg rusya 1796-05-10→1796 sonu (boşaltma, tarih yok) → hanlık → isg rusya 1806 (YIL; Derbend'in 1806 Rus işgali) → s rusya Gülistan 1813 (YIL; atlas 1813-10-24 gün teyitsiz, Gregoryen karşılığı J 12 Ekim; kaynakta gün yok). Kaçar dönemi için bu satırın tamamı Derbend'e özgü kaynaksızdır. TEK KURAL."
   },
   {
    "dosya_satir": "data/yerlesimler.js:817",
@@ -20719,7 +20719,7 @@
     "d": "sovyet-rusya",
     "isg": "sovyet-rusya"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · KURAL KARARI: TEK KURAL (işgal → isg; s devir/ilhak gününden). TDV: Kasım 1917'den 1920 baharına kadar Derbend'de millî/İslâmî teşkilâtlar (Dağıstan, atlas künyesiz KODLANMADI notu), 1918 ve 1920 iç çatışmalar, 1920 baharı (AY) Bolşevik işgali = isg sovyet-rusya (YIL-mevsim; gün yok), s sovyet-rusya f aday 1921 (YIL; Dağıstan MSSC kuruluşu, TDV 'RSFSR'ye dahil', gün yok). Atlasın 1917-11-07 başlangıcı TDV ile örtüşmüyor. t=1991-12-26: devamcı devlet kuralı (SSCB sonu)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-2; günler kaynaktan): TDV zinciri esas: 1747 sonrası müstakil hanlık → Kuba Hanlığı (1759-1796) → 1796-05-10 Rus işgali → 1806 yeniden; zend 1747-94 ve kacar 1794-1813 dilimleri düşer. · KURAL KARARI: TEK KURAL (işgal → isg; s devir/ilhak gününden). TDV: Kasım 1917'den 1920 baharına kadar Derbend'de millî/İslâmî teşkilâtlar (Dağıstan, atlas künyesiz KODLANMADI notu), 1918 ve 1920 iç çatışmalar, 1920 baharı (AY) Bolşevik işgali = isg sovyet-rusya (YIL-mevsim; gün yok), s sovyet-rusya f aday 1921 (YIL; Dağıstan MSSC kuruluşu, TDV 'RSFSR'ye dahil', gün yok). Atlasın 1917-11-07 başlangıcı TDV ile örtüşmüyor. t=1991-12-26: devamcı devlet kuralı (SSCB sonu)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:817",
@@ -21714,7 +21714,7 @@
     "t": "1471-01-01",
     "d": "karaman"
    },
-   "not": "t: TDV Karaman 1468'de Fâtih Konya'ya girdiğinde Karamanlı Pîr Ahmed Lârende'ye çekilip mücadeleyi oradan sürdürdü; 'kesin Osmanlı hâkimiyeti' 1471 baharında (875) İshak Paşa'nın Lârende'yi almasıyla kuruldu → Lârende/Karaman 1468'de Osmanlı'ya geçmedi. Atlasın 1468-01-01'i Konya (Fâtih 1468) ile karışıyor. Öneri t/f: YIL 1471 (ilkbahar; ay/gün yok; atlas YIL kuralı 1471-01-01). f 1402 YIL (804). Aradaki 1421 Memlük zaptı (824) TDV'de kısa Memlük işgali (isg memluk?), Karamanlı İbrâhim Bey Osmanlı yardımıyla geri aldı — dönemler bunlar için bölünmedi."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Mısır 1832-33 (ZAYIF, aynı). · t: TDV Karaman 1468'de Fâtih Konya'ya girdiğinde Karamanlı Pîr Ahmed Lârende'ye çekilip mücadeleyi oradan sürdürdü; 'kesin Osmanlı hâkimiyeti' 1471 baharında (875) İshak Paşa'nın Lârende'yi almasıyla kuruldu → Lârende/Karaman 1468'de Osmanlı'ya geçmedi. Atlasın 1468-01-01'i Konya (Fâtih 1468) ile karışıyor. Öneri t/f: YIL 1471 (ilkbahar; ay/gün yok; atlas YIL kuralı 1471-01-01). f 1402 YIL (804). Aradaki 1421 Memlük zaptı (824) TDV'de kısa Memlük işgali (isg memluk?), Karamanlı İbrâhim Bey Osmanlı yardımıyla geri aldı — dönemler bunlar için bölünmedi."
   },
   {
    "dosya_satir": "data/yerlesimler.js:205",
@@ -21746,7 +21746,7 @@
     "t": "1833-06-30",
     "isg": "misir"
    },
-   "not": "TEK KURAL (savaş işgali ilhak/devir olmadan isg) gereği bu satırın alanı v: değil isg: olmalı (işgalci: Kavalalı Mehmed Ali Paşa'nın Mısır ordusu). Kaynaklanamadı: TDV Karaman 1832-33'ü anmıyor; uçlar (1832-11-21, 1833-06-30) bu oturumda doğrulanamadı → BULUNAMADI uç; yalnız alan düzeltmesi ONERI. Kütahya Barışı 1833-05-08 (Mehmed Ali Adana ilhakı) Karaman'ı kapsamaz."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Mısır 1832-33 (ZAYIF, aynı). · TEK KURAL (savaş işgali ilhak/devir olmadan isg) gereği bu satırın alanı v: değil isg: olmalı (işgalci: Kavalalı Mehmed Ali Paşa'nın Mısır ordusu). Kaynaklanamadı: TDV Karaman 1832-33'ü anmıyor; uçlar (1832-11-21, 1833-06-30) bu oturumda doğrulanamadı → BULUNAMADI uç; yalnız alan düzeltmesi ONERI. Kütahya Barışı 1833-05-08 (Mehmed Ali Adana ilhakı) Karaman'ı kapsamaz."
   },
   {
    "dosya_satir": "data/yerlesimler.js:205",
@@ -22068,7 +22068,7 @@
     "d": "rusya",
     "isg": "rusya 1704 (YIL, gün yok) -> 1721-09-10"
    },
-   "not": "1721 devri (Nystad) KAYNAKLI YIL düzeyinde; gün 1721-09-10 TDV'ye dayanır (mevcut DEVRALMA). TEK KURAL: 1704 Rus fethi (EI/Treccani 'Nel 1704 fu presa dai Russi'; gün kaynakta yok) isg olmalı: EKLE isg:rusya 1704 (YIL) → 1721-09-10, s:isvec ucu 1721-09-10'da kalır (şimdi de öyle). Gün bulunmadı, uydurulmadı."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Rus Baltık 1704/10-21. · 1721 devri (Nystad) KAYNAKLI YIL düzeyinde; gün 1721-09-10 TDV'ye dayanır (mevcut DEVRALMA). TEK KURAL: 1704 Rus fethi (EI/Treccani 'Nel 1704 fu presa dai Russi'; gün kaynakta yok) isg olmalı: EKLE isg:rusya 1704 (YIL) → 1721-09-10, s:isvec ucu 1721-09-10'da kalır (şimdi de öyle). Gün bulunmadı, uydurulmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek11.js:64",
@@ -22097,7 +22097,7 @@
     "d": "sovyet-rusya",
     "isg": "almanya 1918-02-24 -> 1918-11 (gün yok); sovyet-rusya 1918-12-22 -> 1919-01-14"
    },
-   "not": "EI 1936 (eski eser, en çok kısmen): Tartu 22 Şubat 1918'de Bolşeviklerin eline düştü, 2 gün sonra (24 Şubat 1918) Alman ordusu aldı. Bitiş 1918-02-24 EI ile uyumlu. Başlangıç 1917-11-07 için Tartu'ya özgü kaynak yok (EI: 'Il dominio russo durò sinché l'Estonia non conquistò nel 1918 l'indipendenza'). EKLE: isg:almanya 1918-02-24 → (Kasım 1918, gün bulunamadı) ve isg:sovyet-rusya 1918-12-22 → 1919-01-14 (EI: 'Tartu ricadde (22 dicembre 1918) sotto i bolscevichi russi, che la tennero sino al 14 gennaio 1919'); Barış Tartu 1920-02-02 (EI). Estonya s: 24 Şubat 1918 bağımsızlık ilanı günü kuralı zaten uygulanmış."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Rus Baltık 1704/10-21. · EI 1936 (eski eser, en çok kısmen): Tartu 22 Şubat 1918'de Bolşeviklerin eline düştü, 2 gün sonra (24 Şubat 1918) Alman ordusu aldı. Bitiş 1918-02-24 EI ile uyumlu. Başlangıç 1917-11-07 için Tartu'ya özgü kaynak yok (EI: 'Il dominio russo durò sinché l'Estonia non conquistò nel 1918 l'indipendenza'). EKLE: isg:almanya 1918-02-24 → (Kasım 1918, gün bulunamadı) ve isg:sovyet-rusya 1918-12-22 → 1919-01-14 (EI: 'Tartu ricadde (22 dicembre 1918) sotto i bolscevichi russi, che la tennero sino al 14 gennaio 1919'); Barış Tartu 1920-02-02 (EI). Estonya s: 24 Şubat 1918 bağımsızlık ilanı günü kuralı zaten uygulanmış."
   },
   {
    "dosya_satir": "data/yerlesimler_ek11.js:64",
@@ -22275,7 +22275,7 @@
     "d": "fransa-cumhuriyet",
     "isg": "fransa-cumhuriyet 1794 (YIL; Fleurus) → 1795-10-01 (ilhak)"
    },
-   "not": "İlhak yılı 1795 TDV ile KAYNAKLI (YIL; gün 10-01 kaynakta yok, mevcut künye günü). Treccani Belgio: Jemappes (1792) ve Fleurus (1794) zaferleri ilhakı getirdi, Campoformio (1797) onayladı. TEK KURAL (Brüksel 1794 emsali): Fransız fethi (Mons 1794 yazı) ile ilhak (1795) arası isg:fransa-cumhuriyet; s:avusturya-hollandasi ucu şimdi 1795-10-01 — kalır. Ek ic_not: Avusturya 1797 Campoformio'da resmen tanıdı (TDV). Mons'a özgü 1794 işgal günü bulunamadı."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95. · İlhak yılı 1795 TDV ile KAYNAKLI (YIL; gün 10-01 kaynakta yok, mevcut künye günü). Treccani Belgio: Jemappes (1792) ve Fleurus (1794) zaferleri ilhakı getirdi, Campoformio (1797) onayladı. TEK KURAL (Brüksel 1794 emsali): Fransız fethi (Mons 1794 yazı) ile ilhak (1795) arası isg:fransa-cumhuriyet; s:avusturya-hollandasi ucu şimdi 1795-10-01 — kalır. Ek ic_not: Avusturya 1797 Campoformio'da resmen tanıdı (TDV). Mons'a özgü 1794 işgal günü bulunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:411",
@@ -23657,7 +23657,7 @@
     "d": "ingiliz-hindistani",
     "isg": "ingiltere"
    },
-   "not": "KURAL KARARI (TEK KURAL): 1885 Kasım'ındaki Mandalay seferi ('Mandalay expedition', 'at annexation the local officials surrendered') işgal/askerî ele geçirmedir; hukukî ilhak (annexation) Üst Burma'nın 1 Ocak 1886'da ilan edilmesiyle olur (BU GÜN BU OTURUMDA KAYNAKLA DOĞRULANMADI: IGI Myingyan maddesi yalnız 'annexation' der, günü vermez; KASA kaynağını bulsun). Öneri: isg: ingiltere 1885-11-28 → 1886-01-01 (isg alanı), s: ingiliz-hindistani 1886-01-01'den. 1885-11-28 (Mandalay'ın düşüşü) de bu kaynakta yok. IGI: 'throughout 1886 portions of the District were practically held by dacoits'; Pagan'ın Burmese governor'ü İngilizlere teslim olup altı ay sonra isyana katıldı (fiilî denetim ilkesi: işgal ≠ sahiplik). t=1937-04-01 aranmadı."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: İngiliz Yukarı Burma 1885-86. · KURAL KARARI (TEK KURAL): 1885 Kasım'ındaki Mandalay seferi ('Mandalay expedition', 'at annexation the local officials surrendered') işgal/askerî ele geçirmedir; hukukî ilhak (annexation) Üst Burma'nın 1 Ocak 1886'da ilan edilmesiyle olur (BU GÜN BU OTURUMDA KAYNAKLA DOĞRULANMADI: IGI Myingyan maddesi yalnız 'annexation' der, günü vermez; KASA kaynağını bulsun). Öneri: isg: ingiltere 1885-11-28 → 1886-01-01 (isg alanı), s: ingiliz-hindistani 1886-01-01'den. 1885-11-28 (Mandalay'ın düşüşü) de bu kaynakta yok. IGI: 'throughout 1886 portions of the District were practically held by dacoits'; Pagan'ın Burmese governor'ü İngilizlere teslim olup altı ay sonra isyana katıldı (fiilî denetim ilkesi: işgal ≠ sahiplik). t=1937-04-01 aranmadı."
   }
  ],
  "Jingzhou": [
@@ -24119,7 +24119,7 @@
     "d": null,
     "isg": null
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · KISMEN (EI 1937 eski eser, tek kaynak; ikinci akademik kaynak aranmalı). Teodorik Verona'da Odoaker'i yendi (27 Eylül 489). ORTAÇAĞ ÖLÇÜTÜ: şehrin fiilen el değiştirdiği gün olarak savaş günü önerilir (şehrin teslim günü kaynakta yok). Önerilen: odoakar t = dogu-got f = 0489-09-27; künye uçları (493-03-05 Ravenna) ülke düzeyidir. KASA karar verir."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · KISMEN (EI 1937 eski eser, tek kaynak; ikinci akademik kaynak aranmalı). Teodorik Verona'da Odoaker'i yendi (27 Eylül 489). ORTAÇAĞ ÖLÇÜTÜ: şehrin fiilen el değiştirdiği gün olarak savaş günü önerilir (şehrin teslim günü kaynakta yok). Önerilen: odoakar t = dogu-got f = 0489-09-27; künye uçları (493-03-05 Ravenna) ülke düzeyidir. KASA karar verir."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:472",
@@ -24136,7 +24136,7 @@
     "d": null,
     "isg": null
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · KISMEN: f önerisi Odoaker satırıyla birlikte. t=553-01-01 ucu (Bizans) için EI 1937 ve Treccani online'da Narses/Gotik Savaş cümlesi YOK (arandı: Narsete, Giustiniano, Totila → bulunamadı); ÜLKE DÜZEYİ künye. Yer-özgü Bizans fethi (Verona Gotlar'ın elinde geç kalmış olabilir) ayrıca araştırılmalı."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · KISMEN: f önerisi Odoaker satırıyla birlikte. t=553-01-01 ucu (Bizans) için EI 1937 ve Treccani online'da Narses/Gotik Savaş cümlesi YOK (arandı: Narsete, Giustiniano, Totila → bulunamadı); ÜLKE DÜZEYİ künye. Yer-özgü Bizans fethi (Verona Gotlar'ın elinde geç kalmış olabilir) ayrıca araştırılmalı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:472",
@@ -24221,7 +24221,7 @@
     "d": null,
     "isg": "avusturya/Kutsal Roma (Maximilian I) 1509 → 1517 [yıl, gün yok]; fransa-cumhuriyet 1796-06-01 → 1797-05-12 (EI)"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · f YIL kaynaklı: 'nel 1405 si dà a Venezia', 'dominio veneto (1405-1797)' (EI). Venedik hâkimiyeti 'interrotto dall'occupazione imperiale del 1509-17' (Treccani + EI) → atlasta eksik: TEK KURAL gereği isg olarak yazılmalı (Cambrai Birliği, 1509-1517 yılları, gün yok). 1 Haziran 1796 Fransız girişi (EI, GÜN kaynaklı) → 1797-05-12'ye kadar isg fransa (tarafsız Venedik toprağında işgal). Ayrıca mevcut kaynaklı satır 1797-05-12→1797-10-17 'fransa-cumhuriyet' alan s: TEK KURAL'a göre isg olmalı (devir Campo Formio 1797-10-17; Verona fiilen Ocak 1798'de Avusturya'ya teslim edildi — EI: 'consegnata nel gennaio 1798 agli Austriaci'). t ucu 1797-05-12 şehre özgü kaynakta yok (Treccani online t=1796 Fransız gelişi der); ÇİFT-TDV benzeri iç çelişki değil, aynı kurumun iki maddesi."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · f YIL kaynaklı: 'nel 1405 si dà a Venezia', 'dominio veneto (1405-1797)' (EI). Venedik hâkimiyeti 'interrotto dall'occupazione imperiale del 1509-17' (Treccani + EI) → atlasta eksik: TEK KURAL gereği isg olarak yazılmalı (Cambrai Birliği, 1509-1517 yılları, gün yok). 1 Haziran 1796 Fransız girişi (EI, GÜN kaynaklı) → 1797-05-12'ye kadar isg fransa (tarafsız Venedik toprağında işgal). Ayrıca mevcut kaynaklı satır 1797-05-12→1797-10-17 'fransa-cumhuriyet' alan s: TEK KURAL'a göre isg olmalı (devir Campo Formio 1797-10-17; Verona fiilen Ocak 1798'de Avusturya'ya teslim edildi — EI: 'consegnata nel gennaio 1798 agli Austriaci'). t ucu 1797-05-12 şehre özgü kaynakta yok (Treccani online t=1796 Fransız gelişi der); ÇİFT-TDV benzeri iç çelişki değil, aynı kurumun iki maddesi."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:472",
@@ -24238,7 +24238,7 @@
     "d": null,
     "isg": "avusturya 1814-02-04 → 1814-04-16"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · f YIL kaynaklı (1805; Presburg 26 Aralık atlas künyesi). EI: Avusturya birlikleri 4 Şubat 1814'te Verona'ya girdi; atlas Avusturya s: 1814-04-16 (Mantova mütarekesi, Schiarino-Rizzino). TEK KURAL: 1814-02-04 → 1814-04-16 arası isg avusturya (sahiplik 04-16'da). s:italya-napolyon satırının kendisi aynı kalır (kapanış ucu değişmez)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-3; günler kaynaktan): Öneriler uygun: 1509-1517 isg (Maximilian), 1796-97 isg fransa, 1814 Avusturya isg — kaynakla işlenir. · f YIL kaynaklı (1805; Presburg 26 Aralık atlas künyesi). EI: Avusturya birlikleri 4 Şubat 1814'te Verona'ya girdi; atlas Avusturya s: 1814-04-16 (Mantova mütarekesi, Schiarino-Rizzino). TEK KURAL: 1814-02-04 → 1814-04-16 arası isg avusturya (sahiplik 04-16'da). s:italya-napolyon satırının kendisi aynı kalır (kapanış ucu değişmez)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:472",
@@ -25178,7 +25178,7 @@
     "d": null,
     "isg": "fransa-cumhuriyet 1794 (YIL) → 1795-10-01"
    },
-   "not": "Piskoposluk egemenliği 1281'de de sürüyor (Treccani: 925'ten beri prens-piskopos; hükümet 1794 Fransız fethine dek). TEK KURAL (Brüksel 1794 emsali): fetih 1794 (YIL, Treccani) -> hukukî ilhak 1795 (TDV: 'Fransa 1795'te Liège bölgesi de dahil olmak üzere bütün Belçika'yı topraklarına katmıştı', YIL; atlas 1795-10-01 gün olarak kaynakta yok). Bu yüzden öneri: piskoposluk 1794'e kadar kalsın, ARADA isg fransa-cumhuriyet 1794 (ay/gün TDV-Treccani'de yok) → 1795-10-01 eklensin. Dönem uçları dar kaynakla ONERI."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95. · Piskoposluk egemenliği 1281'de de sürüyor (Treccani: 925'ten beri prens-piskopos; hükümet 1794 Fransız fethine dek). TEK KURAL (Brüksel 1794 emsali): fetih 1794 (YIL, Treccani) -> hukukî ilhak 1795 (TDV: 'Fransa 1795'te Liège bölgesi de dahil olmak üzere bütün Belçika'yı topraklarına katmıştı', YIL; atlas 1795-10-01 gün olarak kaynakta yok). Bu yüzden öneri: piskoposluk 1794'e kadar kalsın, ARADA isg fransa-cumhuriyet 1794 (ay/gün TDV-Treccani'de yok) → 1795-10-01 eklensin. Dönem uçları dar kaynakla ONERI."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:415",
@@ -25736,7 +25736,7 @@
     "d": null,
     "isg": null
    },
-   "not": "KISMEN (Enciclopedia Italiana tek kaynak). Gent 1378-1385 isyan eder (Westroozebeke 27.11.1382 yenilgisi); 1384'te şehir Kont'a (Burgonyalı Philip) bağlanmadı: 'resistette fino al 1385' — Gent'in fiilî teslimi 1385 (YIL). Fiilî yönetim ilkesi ile burgonya yalnız fiilen yönettiği yerde sahiplik kazanır: 1384-01-30 (kont ölümü; kaynakta gün yok) Gent için erken -> ONERI: bitiş/başlangıç 1385'e çekilmeli ya da 1384-1385 arası beyanlı yaklaşıklık. Gün 1385 Tournai Aralık 18 (aranmadı: bu turda kaynağında gün yok)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95. · KISMEN (Enciclopedia Italiana tek kaynak). Gent 1378-1385 isyan eder (Westroozebeke 27.11.1382 yenilgisi); 1384'te şehir Kont'a (Burgonyalı Philip) bağlanmadı: 'resistette fino al 1385' — Gent'in fiilî teslimi 1385 (YIL). Fiilî yönetim ilkesi ile burgonya yalnız fiilen yönettiği yerde sahiplik kazanır: 1384-01-30 (kont ölümü; kaynakta gün yok) Gent için erken -> ONERI: bitiş/başlangıç 1385'e çekilmeli ya da 1384-1385 arası beyanlı yaklaşıklık. Gün 1385 Tournai Aralık 18 (aranmadı: bu turda kaynağında gün yok)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:406",
@@ -25753,7 +25753,7 @@
     "d": null,
     "isg": null
    },
-   "not": "KISMEN. Burgonya dönemi Gent'te 1385 Tournai ile başlar (Treccani: 'si sottomise al nuovo conte, Filippo l'Ardito, duca di Borgogna'). 1384-01-30 yalnız Burgonya'nın Flandre mirasının başlangıcı olabilir (Gent dışında). Gent'in 1451-53 (Gavre) ve 1467/1477 isyanları sahipliği değiştirmez. 1482-03-27 (Maria'nın ölümü) bu kaynakta Gent için YOK (mevcut dönem K)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95. · KISMEN. Burgonya dönemi Gent'te 1385 Tournai ile başlar (Treccani: 'si sottomise al nuovo conte, Filippo l'Ardito, duca di Borgogna'). 1384-01-30 yalnız Burgonya'nın Flandre mirasının başlangıcı olabilir (Gent dışında). Gent'in 1451-53 (Gavre) ve 1467/1477 isyanları sahipliği değiştirmez. 1482-03-27 (Maria'nın ölümü) bu kaynakta Gent için YOK (mevcut dönem K)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:406",
@@ -25770,7 +25770,7 @@
     "d": null,
     "isg": "fransa-cumhuriyet 1794 (YIL) → 1795-10-01 (TEK KURAL, Brüksel emsali)"
    },
-   "not": "ÜLKE DÜZEYİ: TDV bütün Belçika için 1795 ilhakı (YIL). TDV'de Gent'e özgü cümle yok ('Gand' aramasında TDV'de Gent maddesi bulunamadı). Gent'e özgü Fransız fethi (1792-94) tarihi TDV/Treccani'de bulunamadı -> BULUNAMADI. 1795-10-01 gün TDV'de yok (YIL). Bitiş 1814-02-02: TDV 'Hollanda ile 1815 Viyana' diyor; 1814 gün kaynağı bu turda yok."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95. · ÜLKE DÜZEYİ: TDV bütün Belçika için 1795 ilhakı (YIL). TDV'de Gent'e özgü cümle yok ('Gand' aramasında TDV'de Gent maddesi bulunamadı). Gent'e özgü Fransız fethi (1792-94) tarihi TDV/Treccani'de bulunamadı -> BULUNAMADI. 1795-10-01 gün TDV'de yok (YIL). Bitiş 1814-02-02: TDV 'Hollanda ile 1815 Viyana' diyor; 1814 gün kaynağı bu turda yok."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:406",
@@ -25997,7 +25997,7 @@
     "d": null,
     "isg": null
    },
-   "not": "TDV Osmanlı dönemini 1393-1878 olarak verir (atlas 1388-01-01). Çar İvan Şişman 1371-1393 (TDV: kale ile ilgili olabilir); en eski sikke Mihail Asen (1360-1371) ve İvan Sratsimir (1356-1396). 1380-1388'de Rusçuk 'Rosi' adıyla bir Bruggelu tüccar notunda geçer — bu sahiplik kanıtı değil. 1281'de Rusçuk'un (köy) Bulgar çarlığı sahipliği şehre özgü kanıtı bulunamadı (BÖLGE DÜZEYİ). ONERI: bitiş 1388 → 1393 (YIL)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Rus 1877-78. · TDV Osmanlı dönemini 1393-1878 olarak verir (atlas 1388-01-01). Çar İvan Şişman 1371-1393 (TDV: kale ile ilgili olabilir); en eski sikke Mihail Asen (1360-1371) ve İvan Sratsimir (1356-1396). 1380-1388'de Rusçuk 'Rosi' adıyla bir Bruggelu tüccar notunda geçer — bu sahiplik kanıtı değil. 1281'de Rusçuk'un (köy) Bulgar çarlığı sahipliği şehre özgü kanıtı bulunamadı (BÖLGE DÜZEYİ). ONERI: bitiş 1388 → 1393 (YIL)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:489",
@@ -26014,7 +26014,7 @@
     "d": null,
     "isg": null
    },
-   "not": "TDV 1393'ü Osmanlı döneminin başı sayar (Evliya Çelebi'ye atıf: Yıldırım fethetti, Ankara'dan sonra elden çıktı, Çelebi Mehmed tekrar aldı — Evliya akademik birincil kaynak değil, TDV 'mahallî kaynaklardan duymuş olmalı' diyor). Bitiş 1402-07-28 Ankara Savaşı günü komşudan; Rusçuk'a özgü gün yok."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Rus 1877-78. · TDV 1393'ü Osmanlı döneminin başı sayar (Evliya Çelebi'ye atıf: Yıldırım fethetti, Ankara'dan sonra elden çıktı, Çelebi Mehmed tekrar aldı — Evliya akademik birincil kaynak değil, TDV 'mahallî kaynaklardan duymuş olmalı' diyor). Bitiş 1402-07-28 Ankara Savaşı günü komşudan; Rusçuk'a özgü gün yok."
   },
   {
    "dosya_satir": "data/yerlesimler.js:489",
@@ -26099,7 +26099,7 @@
     "d": null,
     "isg": "rusya 1878-02-21 → 1878-07-13 (TDV: 21 Şubat 1878 garnizon çekildi; Berlin ile Bulgaristan'a katıldı)"
    },
-   "not": "TEK KURAL: savaş işgali Berlin devrine kadar isg:. TDV 'Direniş 1878'in Ocak ayındaki Edirne antlaşmasına kadar sürdü. 21 Şubat'ta Osmanlı garnizonu Rusçuk'u terketti' — 21 Şubat 1878 (yıl ve gün aynı cümlede 1878'e bağlı). Berlin Antlaşması günü (13 Temmuz 1878) TDV Rusçuk'ta YIL; şehir Bulgaristan Devleti'ne katıldı. Başlangıç 1413-07-05 TDV'de yok (Çelebi Mehmed 'tekrar aldı', Evliya) -> BULUNAMADI gün. Ayrıca TDV: 1810/1811'de Rus bombardımanı: atlas isg rusya 1810-09-26→1811-07-04 satırı TDV 'Rusçuk 1811'de defalarca bombalanmış ve yıkılmış' ile uyumlu ama TDV Rusçuk'un Ruslarca TUTULDUĞUNU söylemez (kuşatıldı)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Rus 1877-78. · TEK KURAL: savaş işgali Berlin devrine kadar isg:. TDV 'Direniş 1878'in Ocak ayındaki Edirne antlaşmasına kadar sürdü. 21 Şubat'ta Osmanlı garnizonu Rusçuk'u terketti' — 21 Şubat 1878 (yıl ve gün aynı cümlede 1878'e bağlı). Berlin Antlaşması günü (13 Temmuz 1878) TDV Rusçuk'ta YIL; şehir Bulgaristan Devleti'ne katıldı. Başlangıç 1413-07-05 TDV'de yok (Çelebi Mehmed 'tekrar aldı', Evliya) -> BULUNAMADI gün. Ayrıca TDV: 1810/1811'de Rus bombardımanı: atlas isg rusya 1810-09-26→1811-07-04 satırı TDV 'Rusçuk 1811'de defalarca bombalanmış ve yıkılmış' ile uyumlu ama TDV Rusçuk'un Ruslarca TUTULDUĞUNU söylemez (kuşatıldı)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:489",
@@ -27012,7 +27012,7 @@
     "t": "1549-01-01",
     "d": "gurcistan"
    },
-   "not": "KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI (CIFT-TDV): mevcut t=1551 TDV Kars/Ardahan-Cildir havzasi olayindan (Artvin degil); TDV Artvin (sehrin kendi maddesi, esas): Osmanli 1536-37 ele gecirdi, Livane sancagi kuruldu, bolge sonra elden cikti (tarihsiz), 1549da yeniden zaptedildi; 1578-79 sağlamlasti. Ucuncu bagimsiz akademik kaynak aranmadi. Oneri t=1549 (YIL). Daha oncesi: TDV Artvin Yavuzun (Trabzon valisi sehzade Selim) yardimiyla Gurculerin kovuldugunu, Osmanli himayesinde yari mustakil kaldigini yazar (tarihsiz, Samtskhe/Atabegler yerel yonetim): sahiplik Gurcistan degil yerel Atabeg beylikleri olabilir, KASA beyanli yaklasiklik yazsin. f=1281 icin kaynak yok (TDV: Selcuklu doneminde Azerbaycan Atabegleri uc beyligi; XIII. yuzyil Mogol-Ilhanli istilalari tarihsiz)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI (CIFT-TDV): mevcut t=1551 TDV Kars/Ardahan-Cildir havzasi olayindan (Artvin degil); TDV Artvin (sehrin kendi maddesi, esas): Osmanli 1536-37 ele gecirdi, Livane sancagi kuruldu, bolge sonra elden cikti (tarihsiz), 1549da yeniden zaptedildi; 1578-79 sağlamlasti. Ucuncu bagimsiz akademik kaynak aranmadi. Oneri t=1549 (YIL). Daha oncesi: TDV Artvin Yavuzun (Trabzon valisi sehzade Selim) yardimiyla Gurculerin kovuldugunu, Osmanli himayesinde yari mustakil kaldigini yazar (tarihsiz, Samtskhe/Atabegler yerel yonetim): sahiplik Gurcistan degil yerel Atabeg beylikleri olabilir, KASA beyanli yaklasiklik yazsin. f=1281 icin kaynak yok (TDV: Selcuklu doneminde Azerbaycan Atabegleri uc beyligi; XIII. yuzyil Mogol-Ilhanli istilalari tarihsiz)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek27.js:37",
@@ -27029,7 +27029,7 @@
     "d": "OSMANLI",
     "isg": "rusya (1877-78 savasi; gun TDVde yok) -> 1878-07-13; ayrica rusya Haziran 1828 isgali (AY)"
    },
-   "not": "KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI (On baris != devir; TEK KURAL): TDV: Ayastefanos 3 Mart 1878de (on antlasma; atlas f=1878-03-03) Artvin kapsama girdi, ama kesin hukuki devir 13 Temmuz 1878 Berlin md. 58 (TDV); Muahede-i Kat'iyye 8 Subat 1879 (Istanbul) goc hakkini duzenler. Berlin gunu esas, Ayastefanos-Berlin arasi isg rusya. f=1549 (YIL) yukaridaki satirla ayni gerekce. TDV ayrica Haziran 1828 Rus isgali (AY) anar: Edirne Muahedesi Ahiskayi terk etti ama Artvin Batum sancaginda Osmanli kaldi (isg katmani 1828 icin yok; bitis gunu TDVde yok). 2 Kasim 1914te Melo Sinir Taburu Ruslari kovdu, Artvin 'dort ay kadar' Osmanli elinde (AY; atlasta yok, isg/fiili denetim kisa dilim, gun 1914-11-02 TDVde)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI (On baris != devir; TEK KURAL): TDV: Ayastefanos 3 Mart 1878de (on antlasma; atlas f=1878-03-03) Artvin kapsama girdi, ama kesin hukuki devir 13 Temmuz 1878 Berlin md. 58 (TDV); Muahede-i Kat'iyye 8 Subat 1879 (Istanbul) goc hakkini duzenler. Berlin gunu esas, Ayastefanos-Berlin arasi isg rusya. f=1549 (YIL) yukaridaki satirla ayni gerekce. TDV ayrica Haziran 1828 Rus isgali (AY) anar: Edirne Muahedesi Ahiskayi terk etti ama Artvin Batum sancaginda Osmanli kaldi (isg katmani 1828 icin yok; bitis gunu TDVde yok). 2 Kasim 1914te Melo Sinir Taburu Ruslari kovdu, Artvin 'dort ay kadar' Osmanli elinde (AY; atlasta yok, isg/fiili denetim kisa dilim, gun 1914-11-02 TDVde)."
   },
   {
    "dosya_satir": "data/yerlesimler_ek27.js:37",
@@ -27045,7 +27045,7 @@
     "t": "1917-03-15",
     "d": "rusya"
    },
-   "not": "KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI: f ONERI yukaridaki satirla (s: Berlin gununden, onceki donem isg). TDV Artvin Kars oblastinda oldugunu ve 1914-15 4 aylik Osmanli kesintisini anar; t=1917-03-15 TDVde yok (TDV 'Carlik yonetimi yikilinca' der, tarih yok): ULKE DUZEYI."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI: f ONERI yukaridaki satirla (s: Berlin gununden, onceki donem isg). TDV Artvin Kars oblastinda oldugunu ve 1914-15 4 aylik Osmanli kesintisini anar; t=1917-03-15 TDVde yok (TDV 'Carlik yonetimi yikilinca' der, tarih yok): ULKE DUZEYI."
   },
   {
    "dosya_satir": "data/yerlesimler_ek27.js:38",
@@ -27073,7 +27073,7 @@
     "t": "1918-03-03",
     "d": "sovyet-rusya"
    },
-   "not": "KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI: TDV Artvin Rus bosaltmasini 18 Aralik 1917 Erzincan Atesikesine, hukuki donusu 3 Mart 1918 Brest-Litovsk'a baglar; Osmanli birlikleri '1918 Martinda' girdi (gun TDV Artvinde yok, atlas 1918-03-28 Sari TUBA kaynakli). F8 (de jure devir antlasma gununde) + TEK KURAL ile s: sahiplik Brest-Litovsk 1918-03-03'ten (OSMANLI donemi f=03-03), 03-03 ile 03-28 arasi ic_not (fiili giris 28 Mart). Alternatif: fiili denetim ilkesi (isgal sayilmayan idare) 28 Mart kalir: KASA/Emre karar. 18 Aralik 1917-Mart 1918 arasi Rus yonetimi fiilen yok (bosluk). f=1917-11-07 TDVde yok."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI: TDV Artvin Rus bosaltmasini 18 Aralik 1917 Erzincan Atesikesine, hukuki donusu 3 Mart 1918 Brest-Litovsk'a baglar; Osmanli birlikleri '1918 Martinda' girdi (gun TDV Artvinde yok, atlas 1918-03-28 Sari TUBA kaynakli). F8 (de jure devir antlasma gununde) + TEK KURAL ile s: sahiplik Brest-Litovsk 1918-03-03'ten (OSMANLI donemi f=03-03), 03-03 ile 03-28 arasi ic_not (fiili giris 28 Mart). Alternatif: fiili denetim ilkesi (isgal sayilmayan idare) 28 Mart kalir: KASA/Emre karar. 18 Aralik 1917-Mart 1918 arasi Rus yonetimi fiilen yok (bosluk). f=1917-11-07 TDVde yok."
   },
   {
    "dosya_satir": "data/yerlesimler_ek27.js:38",
@@ -27090,7 +27090,7 @@
     "d": "ingiltere",
     "isg": "ingiltere"
    },
-   "not": "KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI (TEK KURAL): TDV acikca 'isgal' diyor; mevcut satir alan s: ingiltere (sahiplik) - isg: ingiltere olmali, d/s sahip Osmanli (veya Mondros sonrasi bosluk) kalir. Gunler (17 Aralik 1918; Nisan 1920 AY) TDVde mevcut kaynakla ayni, degismez. Sonraki satir gurcistan-demokratik-cumhuriyeti 1920-04-01 -> 1921-02-23: 'Ingilizler cekilirken sehri Gurcistana biraktilar' (TDV): Gurcu yonetimi hukuki devirsiz, Moskova 1921e dek Osmanli/TBMM iddiasi surer: isg mi s mi KASA TEK KURALa gore degerlendirsin."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI (TEK KURAL): TDV acikca 'isgal' diyor; mevcut satir alan s: ingiltere (sahiplik) - isg: ingiltere olmali, d/s sahip Osmanli (veya Mondros sonrasi bosluk) kalir. Gunler (17 Aralik 1918; Nisan 1920 AY) TDVde mevcut kaynakla ayni, degismez. Sonraki satir gurcistan-demokratik-cumhuriyeti 1920-04-01 -> 1921-02-23: 'Ingilizler cekilirken sehri Gurcistana biraktilar' (TDV): Gurcu yonetimi hukuki devirsiz, Moskova 1921e dek Osmanli/TBMM iddiasi surer: isg mi s mi KASA TEK KURALa gore degerlendirsin."
   },
   {
    "dosya_satir": "data/yerlesimler_ek27.js:38",
@@ -27106,7 +27106,7 @@
     "t": "1923-10-29",
     "d": "tbmm-turkiye"
    },
-   "not": "KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI: uc kaynakli gun: 23 Subat 1921 Gurcu cevabi (atlas f), 27 Subat 1921 kesin katilim (fiili, TDV), 16 Mart 1921 Moskova (hukuki). Savas isgali degil, devir/terk: fiili denetim ilkesine gore f=1921-02-27, 23 Subat ve 16 Mart ic_not; F8 (de jure antlasma gunu) uygulanirsa f=1921-03-16: iki kural celisir, KASA/Emre karar versin. TBMM 1920-04-23 kurali bu satiri etkilemez (Artvin o gunden TBMM sahipliginde degildi: Gurcu yonetimi)."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · KURAL UYGULAMASI (UMIT, 4 Kasım 2026 akşam; OLCUM §14 elviye-i selâse kararı): Artvin Batum sancağı içinde → Brest-Litovsk devretmez: s: rusya → 1918-03-03, sonra transkafkasya; isg osmanli Osmanlı girişi (Mart 1918, gün kaynaktan) → 1918-06-04; s: OSMANLI Batum Antlaşması 1918-06-04'ten. Berlin 1878-07-13 hukukî devir (Ayastefanos ön barış → arası isg rusya). · KURAL KARARI: uc kaynakli gun: 23 Subat 1921 Gurcu cevabi (atlas f), 27 Subat 1921 kesin katilim (fiili, TDV), 16 Mart 1921 Moskova (hukuki). Savas isgali degil, devir/terk: fiili denetim ilkesine gore f=1921-02-27, 23 Subat ve 16 Mart ic_not; F8 (de jure antlasma gunu) uygulanirsa f=1921-03-16: iki kural celisir, KASA/Emre karar versin. TBMM 1920-04-23 kurali bu satiri etkilemez (Artvin o gunden TBMM sahipliginde degildi: Gurcu yonetimi)."
   }
  ],
  "Kadıköy": [
@@ -27261,7 +27261,7 @@
     "d": "OSMANLI",
     "isg": "macaristan-habsburg 1692-06-05 → 1699-01-26"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · f: TDV «27 Ağustos 1660’ta Osmanlılar’a savaş açan … Rákóczi’ye karşı … sefer çerçevesinde Varad Kalesi ve şehri alındı»; kuşatma 45 gün sürdü (TDV), yani 27 Ağustos savaş ilanı/sefer bağlamında, teslim günü değil olabilir: YIL (1660) kesin, gün teyitsiz. t: TDV yalnız YIL (1692) verir, 1692-06-05 atlasın kendi günü (teyitsiz). TEK KURAL: 1692 Habsburg fethi antlaşmasız → isg; s macaristan-habsburg Karlofça 1699-01-26'dan (TDV Amcazâde: «26 Ocak 1699’da Karlofça’da»)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Macaristan 1686/92-99 (Neoacquistica belgesine ulaşılamadı). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · f: TDV «27 Ağustos 1660’ta Osmanlılar’a savaş açan … Rákóczi’ye karşı … sefer çerçevesinde Varad Kalesi ve şehri alındı»; kuşatma 45 gün sürdü (TDV), yani 27 Ağustos savaş ilanı/sefer bağlamında, teslim günü değil olabilir: YIL (1660) kesin, gün teyitsiz. t: TDV yalnız YIL (1692) verir, 1692-06-05 atlasın kendi günü (teyitsiz). TEK KURAL: 1692 Habsburg fethi antlaşmasız → isg; s macaristan-habsburg Karlofça 1699-01-26'dan (TDV Amcazâde: «26 Ocak 1699’da Karlofça’da»)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1542",
@@ -27278,7 +27278,7 @@
     "d": "macaristan-habsburg",
     "isg": ""
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · Mevcut kaynaklı satırla (TDV macaristan) çelişki değil, uç ayarı: f ucu 1692-06-05 yerine Karlofça 1699-01-26; aradaki 1692-1699 isg."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Macaristan 1686/92-99 (Neoacquistica belgesine ulaşılamadı). · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · Mevcut kaynaklı satırla (TDV macaristan) çelişki değil, uç ayarı: f ucu 1692-06-05 yerine Karlofça 1699-01-26; aradaki 1692-1699 isg."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1543",
@@ -27544,7 +27544,7 @@
     "d": "OSMANLI",
     "isg": ""
    },
-   "not": "Mevcut f=1395-01-01 (YIL) önceki Bulgar dönemiyle (t=1395-06-03) ÇAKIŞIYOR; TDV: Rovine savaşı sonrası Yıldırım Bayezid aldı, Osmanlı hâkimiyeti 1395-1878, fetih günü anonim Bulgar kroniklerine göre 3 Haziran 1395 (tek kaynaklı gün). Rovine ve Şişman'ın 'Osmanlı vasalı olarak oturması' (TDV): fetih öncesi tâbilik ayrıca incelenebilir. Ankara 28 Temmuz 1402 (t) TDV Mûsâ Çelebi md. ilişkili-madde listesinde teyitli."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Rus 1877-78 (TDV Niğbolu/Bulgaristan 'işgal'); mevcut s: rusya → isg. Gün: TDV 4 Temmuz 1877 (takvim belirsiz) / atlas 07-16. · Mevcut f=1395-01-01 (YIL) önceki Bulgar dönemiyle (t=1395-06-03) ÇAKIŞIYOR; TDV: Rovine savaşı sonrası Yıldırım Bayezid aldı, Osmanlı hâkimiyeti 1395-1878, fetih günü anonim Bulgar kroniklerine göre 3 Haziran 1395 (tek kaynaklı gün). Rovine ve Şişman'ın 'Osmanlı vasalı olarak oturması' (TDV): fetih öncesi tâbilik ayrıca incelenebilir. Ankara 28 Temmuz 1402 (t) TDV Mûsâ Çelebi md. ilişkili-madde listesinde teyitli."
   },
   {
    "dosya_satir": "data/yerlesimler.js:488",
@@ -27629,7 +27629,7 @@
     "d": "OSMANLI",
     "isg": "rusya 1877-07-16 → 1878-07-13"
    },
-   "not": "TEK KURAL: 1877 Rus işgali antlaşmasız → Berlin (1878-07-13, atlasın kendi günü, bu oturumda yeniden teyit edilmedi) devrine kadar d OSMANLI sürer, Rus dönemi isg olarak yazılır. TDV Niğbolu 'Osmanlı hâkimiyeti 1395-1878' (YIL)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Rus 1877-78 (TDV Niğbolu/Bulgaristan 'işgal'); mevcut s: rusya → isg. Gün: TDV 4 Temmuz 1877 (takvim belirsiz) / atlas 07-16. · TEK KURAL: 1877 Rus işgali antlaşmasız → Berlin (1878-07-13, atlasın kendi günü, bu oturumda yeniden teyit edilmedi) devrine kadar d OSMANLI sürer, Rus dönemi isg olarak yazılır. TDV Niğbolu 'Osmanlı hâkimiyeti 1395-1878' (YIL)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:488",
@@ -27646,7 +27646,7 @@
     "d": "rusya",
     "isg": "rusya"
    },
-   "not": "alan s → isg olmalı (TEK KURAL: Rus işgali, ilhak yok; Berlin'e dek). TAKVİM: TDV günü '4 Temmuz 1877' takvim belirtmiyor; Rus (Jülyen) tarihiyle 4 Temmuz = Gregoryen 16 Temmuz = atlasın 1877-07-16 günü (ELLE çevrildi, TDV açıkça Jülyen demiyor → teyit eksik; Rus kaynağı gerekebilir). 1877-06-27 (Tuna geçişi) Niğbolu'ya özgü değil."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ): isg KALIR — işgalci ilhak etmedi / geçici askerî ('işgal', TDV). Desen: Rus 1877-78 (TDV Niğbolu/Bulgaristan 'işgal'); mevcut s: rusya → isg. Gün: TDV 4 Temmuz 1877 (takvim belirsiz) / atlas 07-16. · alan s → isg olmalı (TEK KURAL: Rus işgali, ilhak yok; Berlin'e dek). TAKVİM: TDV günü '4 Temmuz 1877' takvim belirtmiyor; Rus (Jülyen) tarihiyle 4 Temmuz = Gregoryen 16 Temmuz = atlasın 1877-07-16 günü (ELLE çevrildi, TDV açıkça Jülyen demiyor → teyit eksik; Rus kaynağı gerekebilir). 1877-06-27 (Tuna geçişi) Niğbolu'ya özgü değil."
   },
   {
    "dosya_satir": "data/yerlesimler.js:488",
@@ -27891,7 +27891,7 @@
     "d": "cagatay",
     "isg": ""
    },
-   "not": "ŞEHİR MADDESİ: Tuva Han (1282-1307, Çağatay) Endican çevresine Türk kabileleri yerleştirdi (f için dolaylı; gün/yıl yok). TDV: 777 (1375-76) savaşından sonra şehir Timur'un eline geçti ve oğlu Ömer Şeyh'e verildi → Timurlu hâkimiyeti 1370-04-09'da (Timur'un tahta çıkışı/künye) değil 1375-76'da başlar. Hicrî ifade aynen: «777 (1375-76)»; gün yok, YIL 1375 yazıldı (1375-76 aralığı). Kamerüddin = Moğolistan Çağatay Hanı (TDV ifadesi 'Çağatay Hanı')."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · ŞEHİR MADDESİ: Tuva Han (1282-1307, Çağatay) Endican çevresine Türk kabileleri yerleştirdi (f için dolaylı; gün/yıl yok). TDV: 777 (1375-76) savaşından sonra şehir Timur'un eline geçti ve oğlu Ömer Şeyh'e verildi → Timurlu hâkimiyeti 1370-04-09'da (Timur'un tahta çıkışı/künye) değil 1375-76'da başlar. Hicrî ifade aynen: «777 (1375-76)»; gün yok, YIL 1375 yazıldı (1375-76 aralığı). Kamerüddin = Moğolistan Çağatay Hanı (TDV ifadesi 'Çağatay Hanı')."
   },
   {
    "dosya_satir": "data/yerlesimler_ek15.js:115",
@@ -27908,7 +27908,7 @@
     "d": "timurlu",
     "isg": ""
    },
-   "not": "ÇİFT-TDV ÇELİŞKİSİ: TDV Endican (kendi şehir maddesi) Özbek fethini 1503 verir; TDV Fergana (mevcut kaynak) Bâbür'ün 1504'te bölgeyi bırakıp Kâbil'e gittiğini yazar (bölge cümlesi). Üçüncü bağımsız akademik kaynak aranmadı (bütçe) → kural gereği şehir maddesi (Endican, 1503) esas, TDV Fergana 1504 ic_not'ta beyan edilmeli. Hüküm verilmedi/karar KASA'da; yalnız yıl düzeyi. f ucu için bkz. önceki satır (1375-76). Not: Şeybânî Özbek hükümdarı → atlas etiketi buhara (Şeybânî/Buhara Hanlığı) olduğundan tutarlı."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · ÇİFT-TDV ÇELİŞKİSİ: TDV Endican (kendi şehir maddesi) Özbek fethini 1503 verir; TDV Fergana (mevcut kaynak) Bâbür'ün 1504'te bölgeyi bırakıp Kâbil'e gittiğini yazar (bölge cümlesi). Üçüncü bağımsız akademik kaynak aranmadı (bütçe) → kural gereği şehir maddesi (Endican, 1503) esas, TDV Fergana 1504 ic_not'ta beyan edilmeli. Hüküm verilmedi/karar KASA'da; yalnız yıl düzeyi. f ucu için bkz. önceki satır (1375-76). Not: Şeybânî Özbek hükümdarı → atlas etiketi buhara (Şeybânî/Buhara Hanlığı) olduğundan tutarlı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek15.js:115",
@@ -27925,7 +27925,7 @@
     "d": "buhara",
     "isg": ""
    },
-   "not": "TDV Endican: Özbeklerin 1503 fethinden sonra XVII. yüzyılda Kırgız hanları hâkimiyeti, yüzyıl sonuna doğru Hokand'a bağlanma — bu 1710'dan (TDV Hokand Hanlığı 1710-1876) önce. Yani Buhara 1504-1710 tek parça görünmüyor; t ve ara dönem (Kırgız han) tarihsiz, günü/yılı BULUNAMADI. Kırgız Hanlığı için künye var mı bilinmiyor. f 1503 ÇİFT-TDV'ye bkz."
+   "not": "YENİDEN SINAMA: ARAŞTIRILMADI (araç bütçesi) — Rus Orta Asya 1860'lar, Rus Hazar 1723, Artvin, Saygon, Dijon 1477, Venedik/Verona 1796-97; öneri ASKIDA, mevcut veri kalır. · TDV Endican: Özbeklerin 1503 fethinden sonra XVII. yüzyılda Kırgız hanları hâkimiyeti, yüzyıl sonuna doğru Hokand'a bağlanma — bu 1710'dan (TDV Hokand Hanlığı 1710-1876) önce. Yani Buhara 1504-1710 tek parça görünmüyor; t ve ara dönem (Kırgız han) tarihsiz, günü/yılı BULUNAMADI. Kırgız Hanlığı için künye var mı bilinmiyor. f 1503 ÇİFT-TDV'ye bkz."
   },
   {
    "dosya_satir": "data/yerlesimler_ek15.js:115",
@@ -28046,7 +28046,7 @@
     "d": "fransa",
     "isg": ""
    },
-   "not": "ÇELİŞKİ (zayıf): EI 'Ypres' (1929-37; eski başvuru eseri, tek başına en çok KISMEN) Fransa'ya ilhakı 1678'den 1713'e dek verir; atlas 1697'de Ryswick ile İspanya'ya iade yazıyor (kaynak DEVRALMA + nl.wikipedia). Çatışma çözülmeden İspanya dönemi 1697-1714 şüpheli: Ryswick'te Ypres'in iadesi ve 1701-13 arası Fransız garnizonu için akademik 3. kaynak (British History Online / Alçak Ülkeler monografisi) aranmalı; t=1713 yılı Utrecht Antlaşması'na (Nisan 1713) karşılık gelir, atlasın 1714-03-07 (Rastatt) günüyle de karışabilir. Hüküm kesin değil: KASA 3. kaynakla çözmeli. EI'nin 'annessa' ifadesi ilhak anlamında TEK KURAL ile uyumlu."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95. · ÇELİŞKİ (zayıf): EI 'Ypres' (1929-37; eski başvuru eseri, tek başına en çok KISMEN) Fransa'ya ilhakı 1678'den 1713'e dek verir; atlas 1697'de Ryswick ile İspanya'ya iade yazıyor (kaynak DEVRALMA + nl.wikipedia). Çatışma çözülmeden İspanya dönemi 1697-1714 şüpheli: Ryswick'te Ypres'in iadesi ve 1701-13 arası Fransız garnizonu için akademik 3. kaynak (British History Online / Alçak Ülkeler monografisi) aranmalı; t=1713 yılı Utrecht Antlaşması'na (Nisan 1713) karşılık gelir, atlasın 1714-03-07 (Rastatt) günüyle de karışabilir. Hüküm kesin değil: KASA 3. kaynakla çözmeli. EI'nin 'annessa' ifadesi ilhak anlamında TEK KURAL ile uyumlu."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:407",
@@ -28063,7 +28063,7 @@
     "d": "fransa-cumhuriyet",
     "isg": "fransa-cumhuriyet 1794 (EI: Fleurus 1794-06-26 sonrası; Ypres'in düştüğü gün aranmalı) → 1795-10-01"
    },
-   "not": "ÜLKE DÜZEYİ. TDV: ilhak 1795 (YIL; Campoformio 1797'de Avusturya tanıdı), EI ilhakı Fleurus (26 Haziran 1794) sonrasına bağlar — iki kaynak aynı ilhak için 1794/1795 verir, ÇİFT KAYNAK ÇELİŞKİSİ. TEK KURAL (Brüksel 1794 emsali): 1794 Fransız fethi → ilhak gününe kadar isg; s 1795-10-01 (atlasın günü; kaynakta gün yok: yalnız yıl teyitli). Not: Campoformio 1797 'resmî tanıma' (TDV) de hukukî devir sayılabilir: karar KASA/Emre'nin (TEK KURAL ilhak gününü esas alır). t=1814-02-02: Müttefik Genel Valiliği işgali (mevcut kaynak) → TEK KURAL'a göre isg, devir ayrı (Paris 1814-05-30 / Londra 1814-06-21, mevcut nottan; bu oturumda okunmadı)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Fransız Belçika 1794-95. · ÜLKE DÜZEYİ. TDV: ilhak 1795 (YIL; Campoformio 1797'de Avusturya tanıdı), EI ilhakı Fleurus (26 Haziran 1794) sonrasına bağlar — iki kaynak aynı ilhak için 1794/1795 verir, ÇİFT KAYNAK ÇELİŞKİSİ. TEK KURAL (Brüksel 1794 emsali): 1794 Fransız fethi → ilhak gününe kadar isg; s 1795-10-01 (atlasın günü; kaynakta gün yok: yalnız yıl teyitli). Not: Campoformio 1797 'resmî tanıma' (TDV) de hukukî devir sayılabilir: karar KASA/Emre'nin (TEK KURAL ilhak gününü esas alır). t=1814-02-02: Müttefik Genel Valiliği işgali (mevcut kaynak) → TEK KURAL'a göre isg, devir ayrı (Paris 1814-05-30 / Londra 1814-06-21, mevcut nottan; bu oturumda okunmadı)."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:407",
@@ -28099,7 +28099,7 @@
     "d": "OSMANLI",
     "isg": "macaristan-habsburg 1686-10-01 → 1699-01-26"
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · f: TDV Mohaç Osmanlı idaresinin 1526'dan değil 1541'den (Budin vilâyeti/Mohaç sancağı, YIL) başladığını gösterir; 1526 Mohaç Muharebesi'nden sonra şehir Budin'e yürüyen ordu tarafından yakılıp tahrip edildi (TDV), 1529'da 'Kanûnî’nin himayesi altındaki Kral János' buraya davet edildi → 1526-1541 arası Szapolyai tâbiliği gibi görünüyor (Varad emsali: v macaristan 1526-11-10 → 1541-08-29, atlas Varad satırında böyle); 1526-09-01 ile 1541 arasının sahibi ayrı satır gerekir (gün BULUNAMADI). t: TDV 'müttefik güçler 1686 yılının sonbaharında Mohaç’la birlikte bu bölgeyi kontrol altına aldı' (YIL/mevsim). TEK KURAL: savaş fethi antlaşmasız → isg; s macaristan-habsburg Karlofça 1699-01-26'dan (TDV Amcazâde Hüseyin Paşa md.: '26 Ocak 1699’da Karlofça’da', Varad kaydı ile aynı). Karlofça'nın Mohaç'ı Avusturya'ya bıraktığı bu md.'de ayrıca okunmadı (bölge Macaristan içi)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Macaristan 1686/92-99. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · f: TDV Mohaç Osmanlı idaresinin 1526'dan değil 1541'den (Budin vilâyeti/Mohaç sancağı, YIL) başladığını gösterir; 1526 Mohaç Muharebesi'nden sonra şehir Budin'e yürüyen ordu tarafından yakılıp tahrip edildi (TDV), 1529'da 'Kanûnî’nin himayesi altındaki Kral János' buraya davet edildi → 1526-1541 arası Szapolyai tâbiliği gibi görünüyor (Varad emsali: v macaristan 1526-11-10 → 1541-08-29, atlas Varad satırında böyle); 1526-09-01 ile 1541 arasının sahibi ayrı satır gerekir (gün BULUNAMADI). t: TDV 'müttefik güçler 1686 yılının sonbaharında Mohaç’la birlikte bu bölgeyi kontrol altına aldı' (YIL/mevsim). TEK KURAL: savaş fethi antlaşmasız → isg; s macaristan-habsburg Karlofça 1699-01-26'dan (TDV Amcazâde Hüseyin Paşa md.: '26 Ocak 1699’da Karlofça’da', Varad kaydı ile aynı). Karlofça'nın Mohaç'ı Avusturya'ya bıraktığı bu md.'de ayrıca okunmadı (bölge Macaristan içi)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1776",
@@ -28116,7 +28116,7 @@
     "d": "macaristan-habsburg",
     "isg": ""
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · Mevcut kaynaklı satır; yalnız f ucu TEK KURAL'a göre ilhak/devir gününe (Karlofça 1699-01-26) kayar, 1686-10-01 → isg."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Macaristan 1686/92-99. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · Mevcut kaynaklı satır; yalnız f ucu TEK KURAL'a göre ilhak/devir gününe (Karlofça 1699-01-26) kayar, 1686-10-01 → isg."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1776",
@@ -28133,7 +28133,7 @@
     "d": "macaristan-naiplik",
     "isg": ""
    },
-   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · ÜLKE DÜZEYİ, ÇELİŞKİ/KÜNYE UYARISI: TDV'ye göre nâiplik 1 Mart 1920'de başlar; 1918-11-16'dan önce 'halk cumhuriyeti' (Károlyi, 31 Ekim 1918 'pat çiçeği devrimi', cumhuriyet ilanı günü TDV'de yok), 1919'da 121 gün Sovyet Cumhuriyeti (Béla Kun), Romanya Budapeşte'yi işgal etti, Horthy 16 Kasım 1919'da Budapeşte'ye girdi. Atlasın künyesi 'macaristan-naiplik' f=1918-11-16 (halk cumhuriyetinin ilanı, TDV'de gün yok) — künye sahibi etiketi 1918-1920 için yanlış olabilir; Varad satırındaki F8 kararı (Trianon 1920-06-04) etkilenmez, ancak naiplik başlangıcı ve 1918-11-16 arası ayrı künye (macar-halk-cumhuriyeti/konsey) gerektirebilir: KASA/Emre karar. TDV 1946-02-01'i vermiyor (1946: bulunamadı); t için 1946 Macar I. kanunu yalnız mevcut kaynakta (net.jogtar.hu)."
+   "not": "YENİDEN SINAMA (TAHRİR ÖLÇÜTÜ, 4 Kasım 2026 akşam; yeniden_sina_sonuc.json): idareye katma ya da katmama belgesi BULUNAMADI → 'fetih → antlaşma arası isg' önerisi ASKIDA; ölçüt gereği MEVCUT ATLAS VERİSİ KALIR. Belge gelince yeniden açılır. Desen: Habsburg Macaristan 1686/92-99. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): macaristan-naiplik künyesi BÖLÜNÜR (KASA 'renk partisi borcu' — yeni BOYALAR anahtarları tuz dosyası, ayrı renk partisi): Macar Halk Cumhuriyeti 1918-11-16 → 1919-03-21 · Sovyet Macaristan → 1919-08-01 · Romen işgali isg · naiplik 1920-03-01. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-4; günler kaynaktan): DÜZELTME — TAHRİR ÖLÇÜTÜ (VERI-YAPISI §151): ölçüt antlaşma günü DEĞİL idareye katmadır. Habsburg geri aldığı Macaristan'ı kendi toprağı saydı ve idare etti (Neoacquistica Commissio, kamara, komitat) → kaynak bu katmayı belgeliyorsa s: habsburg FETİH gününden (Mohaç 1687, Varad 1692), Karlofça 1699-01-26 ic_not; kaynak susuyorsa mevcut veri kalır + BULUNAMADI. Önceki 'Karlofça'ya kadar isg' önerisi YENİDEN SINANACAK (YENIDEN-SINA.md). · ÜLKE DÜZEYİ, ÇELİŞKİ/KÜNYE UYARISI: TDV'ye göre nâiplik 1 Mart 1920'de başlar; 1918-11-16'dan önce 'halk cumhuriyeti' (Károlyi, 31 Ekim 1918 'pat çiçeği devrimi', cumhuriyet ilanı günü TDV'de yok), 1919'da 121 gün Sovyet Cumhuriyeti (Béla Kun), Romanya Budapeşte'yi işgal etti, Horthy 16 Kasım 1919'da Budapeşte'ye girdi. Atlasın künyesi 'macaristan-naiplik' f=1918-11-16 (halk cumhuriyetinin ilanı, TDV'de gün yok) — künye sahibi etiketi 1918-1920 için yanlış olabilir; Varad satırındaki F8 kararı (Trianon 1920-06-04) etkilenmez, ancak naiplik başlangıcı ve 1918-11-16 arası ayrı künye (macar-halk-cumhuriyeti/konsey) gerektirebilir: KASA/Emre karar. TDV 1946-02-01'i vermiyor (1946: bulunamadı); t için 1946 Macar I. kanunu yalnız mevcut kaynakta (net.jogtar.hu)."
   },
   {
    "dosya_satir": "data/yerlesimler.js:1776",
@@ -30255,7 +30255,7 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "AD KARIŞMASI: evren 2 ad sayımıyla seçildi; kronoloji/olay dosyalarında 'David' geçen 89 satırın hiçbiri Chiriquí/Panama değil (David Atwill, Gürcü David, Kartli kralı vb. kişi adları). Yerleşimde araştırma yapılmadı (yalnız kendi dönemlerine bakma kuralı; kronolojide anılan yer bu değil). Kayıt öneri: evren 2'den çıkar, 'kronolojide anılma' etiketi yanlış."
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): EVREN 2 DIŞI: kronolojideki 89 'David' anılmasının hepsi kişi adı (AD KARIŞMASI). Satırlar bilgi olarak kalır; ad sayımı kara listesine 'David' eklendi. · AD KARIŞMASI: evren 2 ad sayımıyla seçildi; kronoloji/olay dosyalarında 'David' geçen 89 satırın hiçbiri Chiriquí/Panama değil (David Atwill, Gürcü David, Kartli kralı vb. kişi adları). Yerleşimde araştırma yapılmadı (yalnız kendi dönemlerine bakma kuralı; kronolojide anılan yer bu değil). Kayıt öneri: evren 2'den çıkar, 'kronolojide anılma' etiketi yanlış."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_amerika.js:1748",
@@ -30656,7 +30656,7 @@
    "oneri": {
     "d": "v: Ahıska (Samtshe/Meshiya) Atabegliği, İlhanlı→Karakoyunlu→Akkoyunlu'ya tâbi (künye/boya yok); s:gurcistan değil"
    },
-   "not": "ÇELİŞKİ: TDV Ahıska atabegleri yarı bağımsız ve İlhanlı/Karakoyunlu/Akkoyunlu'ya bağlı sayar (1268-1578); TDV Gürcistan: 15. yy'da Gürcistan 3 krallık + 5 beyliğe ayrıldı, Akkoyunlu Yâkub 1486'da Samtshe'yi ele geçirdi. Atlasın 1281-1578 s:gurcistan'ı kaynaksız. ÖLÇÜT: idareye katma değil — tâbi yarı bağımsız atabeglik (TDV). Uç günleri kaynakta YOK (yalnız yıl: 1268, 1486, 1578).",
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): 1918 Osmanlı dönemi Batum Antlaşması'yla UYGUN. 1919 TAHRİR ÖLÇÜTÜ ile yeniden sınanır: Gürcistan Demokratik Cumhuriyeti bölgeyi kendi idarî birimine (Ahalsihe kazası) kattıysa — kaynak belgeliyorsa — s: gurcistan (isg DEĞİL); belgelemiyorsa isg gurcistan kalır. Feragat 1921-03-16 Moskova ve 1921-10-13 Kars ic_not. Kızılordu girişiyle (1921-02/03, gün kaynaktan) Sovyet Gürcistan dönemi. · ÇELİŞKİ: TDV Ahıska atabegleri yarı bağımsız ve İlhanlı/Karakoyunlu/Akkoyunlu'ya bağlı sayar (1268-1578); TDV Gürcistan: 15. yy'da Gürcistan 3 krallık + 5 beyliğe ayrıldı, Akkoyunlu Yâkub 1486'da Samtshe'yi ele geçirdi. Atlasın 1281-1578 s:gurcistan'ı kaynaksız. ÖLÇÜT: idareye katma değil — tâbi yarı bağımsız atabeglik (TDV). Uç günleri kaynakta YOK (yalnız yıl: 1268, 1486, 1578).",
    "dosya_satir": "data/yerlesimler.js:1131"
   },
   {
@@ -30684,7 +30684,7 @@
     "f": "BULUNAMADI (TDV başlangıç yılı vermiyor)",
     "t": "1635 (YIL; gün yok)"
    },
-   "not": "ÖLÇÜT: belirsiz — TDV 'eline geçen' (idareye katma/işgal ayrımı yok). Başlangıç için TDV Gürcistan 1603 Şah Abbas bağlamı okundu ama Ahıska'yı açıkça adlandırmıyor; tarih uydurulmadı.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): 1918 Osmanlı dönemi Batum Antlaşması'yla UYGUN. 1919 TAHRİR ÖLÇÜTÜ ile yeniden sınanır: Gürcistan Demokratik Cumhuriyeti bölgeyi kendi idarî birimine (Ahalsihe kazası) kattıysa — kaynak belgeliyorsa — s: gurcistan (isg DEĞİL); belgelemiyorsa isg gurcistan kalır. Feragat 1921-03-16 Moskova ve 1921-10-13 Kars ic_not. Kızılordu girişiyle (1921-02/03, gün kaynaktan) Sovyet Gürcistan dönemi. · ÖLÇÜT: belirsiz — TDV 'eline geçen' (idareye katma/işgal ayrımı yok). Başlangıç için TDV Gürcistan 1603 Şah Abbas bağlamı okundu ama Ahıska'yı açıkça adlandırmıyor; tarih uydurulmadı.",
    "dosya_satir": "data/yerlesimler.js:1132"
   },
   {
@@ -30724,7 +30724,7 @@
     "t": "1921-03-16",
     "d": "osmanli (s) — 1918 öncesi/arası: transkafkasya; isg gurcistan 1919-04-13+ → 1921-03-16; sonra sovyet (Gürcistan SSC) s 1921-03-16"
    },
-   "not": "ÇELİŞKİ: atlas 1917-11 → 1991 kesintisiz sovyet-rusya; TDV Ahıska 1918-21'i ayrı anlatır. (1) 'Haziran 1918 ... iki sancağı (Ahıska, Ahılkelek) resmen Türkiye’ye bıraktı' (TDV 'Trabzon Antlaşması' yazıyor; atlas kuralı Batum 1918-06-04 — gün koordinatör kuralından, TDV Ahıska'da ay düzeyi). Brest-Litovsk Ahıska'yı devretmedi; Osmanlı girişi isg osmanli, s Batum 1918-06-04'ten. (2) 'Mondros'a göre Millî Şûra'ya katıldılar'; 13 Nisan 1919 İngilizler Kars'ı işgal edip Şûra dağılınca Ahıska Gürcistan tarafından işgal edildi → isg gurcistan, başlangıç günü TDV'de YOK (≥1919-04-13). (3) 16 Mart 1921 Moskova Antlaşması ile Gürcistan SSC'ye bağlandı → s sovyet 1921-03-16. ÖLÇÜT: (1) idareye katma — antlaşma devri; (2) geçici/askerî — işgal, Osmanlı/Millî Şûra iddiası sürerken; (3) idareye katma — Tiflis vilâyetine bağlama. 1917-11-07→1918 arası Ahıska'nın sahibi (Transkafkasya Komiserliği) TDV Ahıska'da YOK.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): 1918 Osmanlı dönemi Batum Antlaşması'yla UYGUN. 1919 TAHRİR ÖLÇÜTÜ ile yeniden sınanır: Gürcistan Demokratik Cumhuriyeti bölgeyi kendi idarî birimine (Ahalsihe kazası) kattıysa — kaynak belgeliyorsa — s: gurcistan (isg DEĞİL); belgelemiyorsa isg gurcistan kalır. Feragat 1921-03-16 Moskova ve 1921-10-13 Kars ic_not. Kızılordu girişiyle (1921-02/03, gün kaynaktan) Sovyet Gürcistan dönemi. · ÇELİŞKİ: atlas 1917-11 → 1991 kesintisiz sovyet-rusya; TDV Ahıska 1918-21'i ayrı anlatır. (1) 'Haziran 1918 ... iki sancağı (Ahıska, Ahılkelek) resmen Türkiye’ye bıraktı' (TDV 'Trabzon Antlaşması' yazıyor; atlas kuralı Batum 1918-06-04 — gün koordinatör kuralından, TDV Ahıska'da ay düzeyi). Brest-Litovsk Ahıska'yı devretmedi; Osmanlı girişi isg osmanli, s Batum 1918-06-04'ten. (2) 'Mondros'a göre Millî Şûra'ya katıldılar'; 13 Nisan 1919 İngilizler Kars'ı işgal edip Şûra dağılınca Ahıska Gürcistan tarafından işgal edildi → isg gurcistan, başlangıç günü TDV'de YOK (≥1919-04-13). (3) 16 Mart 1921 Moskova Antlaşması ile Gürcistan SSC'ye bağlandı → s sovyet 1921-03-16. ÖLÇÜT: (1) idareye katma — antlaşma devri; (2) geçici/askerî — işgal, Osmanlı/Millî Şûra iddiası sürerken; (3) idareye katma — Tiflis vilâyetine bağlama. 1917-11-07→1918 arası Ahıska'nın sahibi (Transkafkasya Komiserliği) TDV Ahıska'da YOK.",
    "dosya_satir": "data/yerlesimler.js:1132"
   },
   {
@@ -30878,7 +30878,7 @@
     "f": "BULUNAMADI (I. Murad dönemi; TDV yıl vermiyor)",
     "d": "OSMANLI → araya Candaroğulları → I. Bayezid döneminde yeniden OSMANLI (yıl yok)"
    },
-   "not": "ÇELİŞKİ: atlas 1354-08-01'den 1402'ye kesintisiz Osmanlı; TDV Çankırı Osmanlı girişini I. Murad dönemine bağlar, 'uzun süreli olmadı' ve I. Bayezid'de yeniden alındığını söyler. 1354-08-01'in Çankırı için kaynağı yok (atlas günü başka bir olaydan). Gün/yıl TDV'de YOK, tarih uydurulmadı. ÖLÇÜT: idareye katma kanıtı (tahrir) bu dönem için yok; geçici kayıt kuşkusu.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): Kaynak yıl vermiyorsa veri KALIR → BULUNAMADI. İsfendiyar ara dönemleri için ilk adres TDV «Çankırı» ve «İsfendiyaroğulları». · ÇELİŞKİ: atlas 1354-08-01'den 1402'ye kesintisiz Osmanlı; TDV Çankırı Osmanlı girişini I. Murad dönemine bağlar, 'uzun süreli olmadı' ve I. Bayezid'de yeniden alındığını söyler. 1354-08-01'in Çankırı için kaynağı yok (atlas günü başka bir olaydan). Gün/yıl TDV'de YOK, tarih uydurulmadı. ÖLÇÜT: idareye katma kanıtı (tahrir) bu dönem için yok; geçici kayıt kuşkusu.",
    "dosya_satir": "data/yerlesimler.js:1693"
   },
   {
@@ -30892,7 +30892,7 @@
    "oneri": {
     "d": "candar (Timur'a tâbi) — 1402 sonrası; Timurlu kendi idaresi yok"
    },
-   "not": "TDV Candaroğulları: Ankara Savaşı’nda (1402) Yıldırım yenilince İsfendiyar Bey 'Kastamonu dahil beyliğin eski topraklarına tekrar sahip oldu'; Timur ona Çankırı ve Kalecik'i verdi ve İsfendiyar 'Timur’a tâbi olarak' beyliğin başına geçti. Timur doğrudan idare kurmadı (ÖLÇÜT: idareye katma kanıtı YOK; tâbi bey). Atlasın 2 aylık s:timurlu penceresi kaynaksız; gün TDV'de yok.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): Kaynak yıl vermiyorsa veri KALIR → BULUNAMADI. İsfendiyar ara dönemleri için ilk adres TDV «Çankırı» ve «İsfendiyaroğulları». · TDV Candaroğulları: Ankara Savaşı’nda (1402) Yıldırım yenilince İsfendiyar Bey 'Kastamonu dahil beyliğin eski topraklarına tekrar sahip oldu'; Timur ona Çankırı ve Kalecik'i verdi ve İsfendiyar 'Timur’a tâbi olarak' beyliğin başına geçti. Timur doğrudan idare kurmadı (ÖLÇÜT: idareye katma kanıtı YOK; tâbi bey). Atlasın 2 aylık s:timurlu penceresi kaynaksız; gün TDV'de yok.",
    "dosya_satir": "data/yerlesimler.js:1693"
   },
   {
@@ -30918,7 +30918,7 @@
    "oneri": {
     "d": "1413-07-05'ten sonra: Osmanlı himayesindeki Kasım (v?) → İsfendiyar yeniden (II. Murad öncesi) → 'bir süre sonra Osmanlılar'a katıldı'; uçlar BULUNAMADI"
    },
-   "not": "ÖLÇÜT: idareye katma — Çankırı sancak merkezi; '1521 tarihli Tahrir Defteri' (TDV Çankırı: BA TD 100, 438). ÇELİŞKİ: 1413-07-05 ile 1920 arası kesintisiz Osmanlı değil: TDV Çankırı 'İsfendiyar Bey II. Murad döneminde Çankırı’yı tekrar ele geçirdi. Bir süre sonra yeniden Osmanlılar’a katıldı'. Arayı kapatmak için Candaroğulları 1421 sonrası yıl/gün BULUNAMADI. Bitiş 1920-04-23 atlas TBMM kuralı (KURAL KARARI: kaynak okunmadı, kural olduğu gibi).",
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): Kaynak yıl vermiyorsa veri KALIR → BULUNAMADI. İsfendiyar ara dönemleri için ilk adres TDV «Çankırı» ve «İsfendiyaroğulları». · ÖLÇÜT: idareye katma — Çankırı sancak merkezi; '1521 tarihli Tahrir Defteri' (TDV Çankırı: BA TD 100, 438). ÇELİŞKİ: 1413-07-05 ile 1920 arası kesintisiz Osmanlı değil: TDV Çankırı 'İsfendiyar Bey II. Murad döneminde Çankırı’yı tekrar ele geçirdi. Bir süre sonra yeniden Osmanlılar’a katıldı'. Arayı kapatmak için Candaroğulları 1421 sonrası yıl/gün BULUNAMADI. Bitiş 1920-04-23 atlas TBMM kuralı (KURAL KARARI: kaynak okunmadı, kural olduğu gibi).",
    "dosya_satir": "data/yerlesimler.js:1693"
   },
   {
@@ -31373,7 +31373,7 @@
    "oneri": {
     "d": "kartaca (Hannibal) -0216 → -0211 (YIL; gün yok), sonra roma-cumhuriyeti"
    },
-   "not": "ÇELİŞKİ: atlas -0337'den -0026'ya kesintisiz Roma; Treccani Capua 216-211 BC Hannibal'e geçiş ('si dette' = gönüllü → s, ÖLÇÜT: idareye katma kanıtı yok, geçici/askerî sayılabilir; Capua 211'de teslim, 'privata dell’autonomia politica'). Başlangıç: Treccani 'si alleò coi Romani nel 340' (müttefiklik, katma değil); atlas -0337 (Livy VIII, civitas sine suffragio) mevcut kaynaklı. Mevcut Livius/Livy dayanağı korunur. AD KARIŞMASI olasılığı: Treccani 'Capua' = antik Capua (bugünkü Santa Maria Capua Vetere), koordinat ona uyar (41.086,14.250); ortaçağ/yeni Capua (840 Saraceni yıkımı, Casilinum'a taşınma) ayrı yerdir — kronolojideki 'Capua' anılmaları hangisi, kontrol edilmedi.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): AD KARIŞMASI belirsiz: nokta antik Capua (S. Maria Capua Vetere, 41.086/14.250, yerlesimler_mo_zincir.js:24). Ortaçağ Capua'sı (856 sonrası, Volturno kıyısı ~41.106/14.213) veride AYRI NOKTA YOK → KASA-YER. Kronoloji anılmalarının bağlamı (dönem/bölge) okunup 856 sonrası olanlar yeni noktaya bağlanır. · ÇELİŞKİ: atlas -0337'den -0026'ya kesintisiz Roma; Treccani Capua 216-211 BC Hannibal'e geçiş ('si dette' = gönüllü → s, ÖLÇÜT: idareye katma kanıtı yok, geçici/askerî sayılabilir; Capua 211'de teslim, 'privata dell’autonomia politica'). Başlangıç: Treccani 'si alleò coi Romani nel 340' (müttefiklik, katma değil); atlas -0337 (Livy VIII, civitas sine suffragio) mevcut kaynaklı. Mevcut Livius/Livy dayanağı korunur. AD KARIŞMASI olasılığı: Treccani 'Capua' = antik Capua (bugünkü Santa Maria Capua Vetere), koordinat ona uyar (41.086,14.250); ortaçağ/yeni Capua (840 Saraceni yıkımı, Casilinum'a taşınma) ayrı yerdir — kronolojideki 'Capua' anılmaları hangisi, kontrol edilmedi.",
    "dosya_satir": "data/yerlesimler_mo_zincir.js:24"
   },
   {
@@ -31458,7 +31458,7 @@
     "d": "part; ara isg roma: 116 (Trajan), 165 (Avidius Cassius) YIL; sonra sasani 3. yy",
     "t": "224 (Livius yalnız 'third century' der)"
    },
-   "not": "Başlangıç 141 BCE = atlas -0140 (astronomik yıl); aynı kaynak mevcut. ÇELİŞKİ ADAYI: Livius 'twin cities were captured several times by the Romans: Trajan took them in 116, Avidius Cassius ...' (165, 'this may have been the end of Seleucia'); Septimius Severus'un seferi — ÖLÇÜT: geçici/askerî (Part iddiası sürdü), gün BULUNAMADI. Bitiş: 'In the third century, the city was renamed Veh-Ardašir by the Sasanians'; Carus 283. 224-04-28 uç kaynakta yok; Sasani sahipliği 224'ten itibaren ÖNERİ (YIL düzeyi). Livius ikincil; TDV/Iranica doğrulaması bu partide yapılmadı. AD KARIŞMASI olasılığı: Livius sayfası kendi başlığında 'Seleucia in Pieria' ve 'on the Euphrates' ile karıştırılmamasını söyler; koordinat Tell Umar (Tigris) — kronoloji maddelerindeki 'Seleukeia' (en çok anılan) hangisi, kontrol edilmedi.",
+   "not": "KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026 akşam-5): Nokta Dicle Seleukeia'sı (33.10/44.52, yerlesimler_mo_zincir.js:8). Pieria Seleukeia'sı ve Fırat Seleukeia'sı (Zeugma) için veride nokta yok (ölçüldü) → kronoloji anılmalarının bağlamı okunup ayrılır; Pieria/Zeugma anılmaları varsa KASA-YER. · Başlangıç 141 BCE = atlas -0140 (astronomik yıl); aynı kaynak mevcut. ÇELİŞKİ ADAYI: Livius 'twin cities were captured several times by the Romans: Trajan took them in 116, Avidius Cassius ...' (165, 'this may have been the end of Seleucia'); Septimius Severus'un seferi — ÖLÇÜT: geçici/askerî (Part iddiası sürdü), gün BULUNAMADI. Bitiş: 'In the third century, the city was renamed Veh-Ardašir by the Sasanians'; Carus 283. 224-04-28 uç kaynakta yok; Sasani sahipliği 224'ten itibaren ÖNERİ (YIL düzeyi). Livius ikincil; TDV/Iranica doğrulaması bu partide yapılmadı. AD KARIŞMASI olasılığı: Livius sayfası kendi başlığında 'Seleucia in Pieria' ve 'on the Euphrates' ile karıştırılmamasını söyler; koordinat Tell Umar (Tigris) — kronoloji maddelerindeki 'Seleukeia' (en çok anılan) hangisi, kontrol edilmedi.",
    "dosya_satir": "data/yerlesimler_mo_zincir.js:8"
   },
   {
