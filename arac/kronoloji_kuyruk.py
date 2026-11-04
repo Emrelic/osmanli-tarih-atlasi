@@ -15,6 +15,7 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    "L2-1389": "İspanyol Peru: Núñez Vela 1544-09-18 tutuklandı — tek dayanak encyclopedia.com (zayıf) → akademik kaynak gelmeden kaynak yenilenmez (EMRELİC)",
     "L2-898": "Hun Sen 1985-01-14: tek dayanak Encyclopedia.com (Gale künyesi doğrulanmadı) → ikinci kaynak gelmeden kaynak yenilenmez",
     # L2E 927-951 (EMRELİC)
     "L2-1326": "Brabant 1354 → 1356-01-03 (Joyeuse Entrée) adayı: dayanak yalnız Persée'deki eser başlığı → KISMEN; metin okunmadan uygulanmaz (EMRELİC)",
@@ -96,6 +97,7 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-932": ("tarih düzelt", "Modena Este'ye: 1288-06-01 → 1288-12-15 (Treccani EI «Modena»: «Il 15 dicembre 1288 … offrire il dominio e le chiavi della città a Obizzo»); fiilî giriş 1289-01-23 ic_not; +197 gün — s:/sınıra bağlıysa kırılma ve ±30 gün komşu maddeler (Reggio 1289) birlikte taşınır; tek kaynak"),
     "L2-1401": ("tarih düzelt", "Tondibi / Dendi künye ucu 1591-01-01 → 1591-03-01 + «[yalnız ay teyitli; gün teyitsiz]» (Kaba, Journal of African History 1981: Mart 1591); Ta'rikh es-Sudan rivayeti 12 Nisan 1591 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
     # L2S 198-222 (S9) — EMRELİC Academia Sinica
     "L2-559": ("tarih düzelt", "557-01-01 → 557-02-14: Takvim: Batı Wei Gong Di 3/12/30 庚子 = 557-02-14 (Academia Sinica) 禪位 (Zhou shu 3); künye ucu — Değişmez 2 ±30 gün kontrolü"),
@@ -224,6 +226,20 @@ METIN = [
     ("L2-941", "Codex Cumanicus 1303: Kuun 1880 baskısında «Suğdak» adı okunmadı; «Codex Venetianus anno 1303 conscriptus» yalnız Latin-Fars-Kuman ilk bölüm için → ifade daraltılır"),
     ("L2-945", "[BEKLE — yıl uyuşmazlığı] Varangal: Haig (CHI III, 1928) 1308, modern kaynaklar 1309-10; Koh-i Nûr rivayeti Haig'de yok"),
     ("L2-950", "Ravi Varma Kançi 1312 (Sastri, History of South India s.231, «till about 1312»): taç giyme ve «kendini hükümdar ilân etti» Sastri'de yok; seferi 1317'de Kakatiya ordusu bozdu, «Delhi seferleri bozdu» değil → metin düzeltilir"),
+    # L2E 1025-1036 (EMRELİC)
+    ("L2-1444", "[BEKLE — takvim UYARISI] Passaro 1718-08-11 zaten Gregoryen (İngiliz kayıtlarındaki 31 Temmuz eski takvim); ajanın «22 Ağustos'a çevir» önerisi YANLIŞ, UYGULANMAZ — atlas günü KALIR, kaynak okununca kaynak yenilenir (EMRELİC)"),
+    ("L2-1440", "[BEKLE — ipucu] Orange: 1702 / 1714 çelişkisi"),
+    ("L2-1434", "[BEKLE — tek dayanak müze sitesi] imza 1 Nisan 1683, geriye tarihlenmiş 31 Mart (ipucu)"),
+    # L2S 567-578 (S17)
+    ("L2-933", "Celâleddin Halacî 1290-06-13 (TDV «Fîrûz Şah Halacî») gün tutar; ilan Kîlûgari'de (Delhi yakını), tahta oturuş sonra → «Delhi'de kurdu» düzeltilir"),
+    ("L2-935", "Mangrai/Chiang Mai: aynı olay devletler.js'te 1296-04-12 ile iki kez (7457/7460) → yinelenen madde birleşir"),
+    ("L2-931", "Bạch Đằng 1288: aynı olay devletler.js:8203'te 1288-04-09 ile de var → yinelenen madde birleşir; tek dayanak Britannica (akademik kaynak bekliyor)"),
+    ("L2-937", "Curzola 1298-09-08 (Treccani EI) gün tutar → ic_not «gün DOĞRULANMADI» kaldırılır; Marco Polo'nun esirler arasında olması EI'de yok → ifade kaynaklanır ya da çıkarılır"),
+    ("L2-928", "[BEKLE — iddia okunmadı] Este/Ferrara: «unvanı şehir meclisinden aldı, ne imparator ne papa» okunan sayfalarda yok"),
+    ("L2-929", "[BEKLE — iddia okunmadı] Siena: Gran Tavola «kıtanın en büyük bankası» üstünlük iddiası okunan sayfalarda yok"),
+    ("L2-927", "[BEKLE — kaynaksız] Sidama: «idari yapı en az 9. yüzyıla izleniyor» kaynaksız; göç anlatısı (Yemericho, 16. yy) maddeyle çelişir"),
+    # L2E 977-988 (EMRELİC)
+    ("L2-1389", "[BEKLE — tek dayanak encyclopedia.com] Núñez Vela'yı tutuklayan Audiencia'dır, Pizarro değil → fail düzeltilir"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
