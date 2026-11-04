@@ -296,6 +296,63 @@ Kararlar dadim_sonuc.json'daki ilgili ONERI satırlarının `not` alanına işle
     - q06'dan sonraki brife "AD KARIŞMASI" notu eklendi.
     - Peloponez için ayrı bir "Mora" noktası var mı? Ölçülmedi, KASA-YER.
 
+## 11. Koordinatör kararları, evren 2 q01-q04 (EMRELİC, 4 Kasım 2026 akşam)
+Kararlar 11 yerleşimin ONERI satırlarına yazıldı (40 satır, `not` alanı).
+- **Akkâ ve Remle:** Levant kararına bağlı. İşgal süresince `d:` Osmanlı ve `isg ingiltere`; 1920-07-01'den sonra `filistin-mandasi`.
+- **Humus (Şam emsali):**
+  - 1918-10 → 1920-07-25 `s: suriye-arap-kralligi`.
+  - Ardından `suriye-lubnan-mandasi`.
+  - 1922 Milletler Cemiyeti onayı ic_not'a yazılır.
+- **Basra:**
+  - `isg ingiltere` 1914-11-22 → 1921-08-23.
+  - 1775-79 arası `isg zend`.
+- **Milano:**
+  - 1706 → 1714-03-07 (Rastatt) `isg avusturya`; İspanya'nın 1725 Viyana feragati ic_not'a.
+  - 1859: Sardunya girişi (Haziran) → Zürih 1859-11-10 `isg sardinya`. Villafranca bir ön barıştır, hukukî devir sayılmaz.
+- **Selanik:**
+  - `s: bizans` 1403-06-09'dan başlar; bu, hukukî tasarruftur.
+  - 06-17 tahliyesi ic_not'a.
+  - Gelibolu Antlaşması'nın günü kaynakta varsa o gün esas alınır.
+- **Kars:** Safevî dilimleri eklenir; 1828 ve 1855 Rus girişleri `isg`.
+- **Urfa:** TDV «Şanlıurfa» zinciri uygulanır.
+- **Amasya:** Osmanlı `f` 1398.
+- **Erzurum:** 1916-18 dilimleri `isg rusya` olur; 1829'daki Rus işgali `isg` olarak eklenir.
+- **Gelibolu:** 1366 → 1367 `isg savoy`, sonra `s: bizans`.
+  - **Genel ölçüt:** ortaçağda antlaşma yoksa yönetimin fiilen devredildiği gün esas alınır.
+
+## 12. Kararlar (EMRELİC, 4 Kasım 2026 akşam) ve Filistin 1967 sonrası ölçümü
+- **Sisam:**
+  - Londra emsali uygulanmaz.
+  - v: Sisam Prensliği sürer.
+  - 1912-11 → isg yunanistan.
+  - s: yunanistan, büyük devletlerin 1914 Şubat notasından başlar.
+  - Atina 1913-11-14 ve Lozan ic_not'a yazılır.
+- **Draç:**
+  - Halef ilanı yalnız fiilen yönetilen yere uygulanır (Avlonya).
+  - Draç: 1912-11-29 → Sırp çekilişi isg sirbistan.
+  - s: arnavutluk Londra 1913-05-30'dan.
+  - Bu ölçüt brife "fiilî yönetim + halef ilanı" olarak eklendi.
+- **Gazze 1948-67:** s: Mısır (Kudüs 1948 ilkesi). Tüm Filistin Hükümeti ic_not'a. 1967'den isg israil.
+- **Filistin, 1967 sonrası ölçümü** (ceb0ce402; karar **BEKLE**):
+  - **Künyeler** (`devletler.js`):
+    - `filistin-mandasi` (1920-07-01 → 1948-05-14).
+    - `filistin-devleti` (f 1988-11-15, Cezayir bildirgesi; BOYALAR'da var).
+    - `filistin-pentapolis` (antik).
+    - **Filistin Ulusal Yönetimi / Oslo (1994) künyesi YOK.** Tüm Filistin Hükümeti (1948) künyesi YOK.
+  - **Gazze Şeridi noktaları:**
+    - Gazze (`data/yerlesimler.js:884`), Han Yûnus (`:1677`), Refah (`data/yerlesimler_ek28.js:171`).
+    - Üçünde de dönem zinciri aynı: filistin-mandasi → misir-kralligi 1948-05-14 → misir-cumhuriyeti 1953-06-18 → birlesik-arap-cumhuriyeti 1958-02-22 → **s: israil-devleti 1967-06-05 → 2000-12-31** (kaynak DEVRALMA).
+  - **Batı Şeria:**
+    - Nablus (`data/yerlesimler.js:1141`): urdun-hasimi-krallik 1948-05-14 → israil-devleti 1967-06-05 → **filistin-devleti 1988-11-15 → 2000-12-31**.
+  - **Tutarsızlık:**
+    - Atlas Gazze'yi 2000'e kadar İsrail'e, Nablus'u 1988'den itibaren Filistin Devleti'ne veriyor.
+    - 1988 bildirgesi toprak üzerinde denetim kurmadı; Oslo sonrası Filistin Ulusal Yönetimi (Gazze-Eriha 1994-05-04, Nablus 1995-12) için künye yok.
+  - **Eksik:** Gazze'de 1956-11 → 1957-03 İsrail işgali (Süveyş) isg olarak yok.
+  - **Karar seçenekleri** (EMRELİC/Emre):
+    - ① 1967 → 2000 isg israil, s: için hukukî egemen yok. Fiilî denetim ilkesiyle s: israil yazılır, ic_not: BMGK 242, uluslararası tanınmama.
+    - ② 1994/95'ten (Oslo) yeni `filistin-ulusal-yonetimi` künyesi: A bölgelerindeki şehirler (Gazze, Nablus) için.
+    - ③ Nablus'un 1988 filistin-devleti dilimi her hâlde düşer, çünkü bildirgenin denetimi yok.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
