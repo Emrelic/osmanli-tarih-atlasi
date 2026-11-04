@@ -341,7 +341,7 @@ kova("I", "Bölge/ülke adlı noktalar + o devirde olmayan şehirler", "VERİ Ö
 # ================================================================================================
 S = []
 for dosya in ("ENKLAV-1103/adaylar.json", "ENKLAV-1104/aday2.json", "ENKLAV-1104/aday3.json", "ENKLAV-1104/aday4.json",
-              "ENKLAV-1104/aday5.json", "ENKLAV-1104/aday6.json"):
+              "ENKLAV-1104/aday5.json", "ENKLAV-1104/aday6.json", "ENKLAV-1104/aday7.json"):
     yol = os.path.join(KOK, "denetim", dosya)
     if not os.path.exists(yol):
         continue
@@ -463,13 +463,18 @@ kova_kural("N10", "Doğu Anadolu 1920-1923 'OSMANLI' (İstanbul) — TBMM idares
            ("OSMANLI",),
            "1920-04-23 → tbmm-turkiye (bölge bölge TBMM idaresine giriş günü kaynakla; işgal altındaki yerler ayrı)", "1920-04-23",
            ["tbmm-turkiye"], "ENKLAV-1104 K536")
+# K601-K700'den (ENKLAV7, 4 Kasım 2026)
+kova_kural("N11", "Bosna-Dalmaçya 1918-11 SHS Devleti yazılmamış", (42.4, 45.9, 13.5, 19.7), "1918-11-20",
+           ("sirbistan-kralligi", "avusturya", "macaristan-habsburg"),
+           "1918-10-29 → yugoslavya (Sloven-Hırvat-Sırp Devleti), 1918-12-01 Krallık; İtalyan işgal bölgesi (Londra antlaşması hattı) ayrı — kaynakla",
+           "1918-10-29", ["yugoslavya"], "ENKLAV-1104 K625, K644, K655")
 
 # ================================================================================================
 # M — tâbi devlet (motor sorusu) — hüküm listesi
 # ================================================================================================
 S = []
 for dosya in ("ENKLAV-1103/hukumler.json", "ENKLAV-1104/hukumler2.json", "ENKLAV-1104/hukumler3.json", "ENKLAV-1104/hukumler4.json",
-              "ENKLAV-1104/hukumler5.json", "ENKLAV-1104/hukumler6.json"):
+              "ENKLAV-1104/hukumler5.json", "ENKLAV-1104/hukumler6.json", "ENKLAV-1104/hukumler7.json"):
     yol = os.path.join(KOK, "denetim", dosya)
     if not os.path.exists(yol):
         continue

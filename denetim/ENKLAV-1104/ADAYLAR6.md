@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 20, KAYNAKLI 51, OLCUM 29.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 38, YAPAY-a 9, YAPAY-c 27, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 18, KAYNAKLI 53, OLCUM 29.
 
 ## Kara eksklavları
 
@@ -125,10 +125,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1690-08-24 · komşu: maratha 57%, portekiz 24%
 - Koridor: 42.2 km · maratha 9/9
 - İçindeki yerleşimler: Raygad (babur-imparatorlugu)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
-  - Gerekçe: Raygad 1689-11-03 Babür zaptı (Zülfikâr Han) → 1733 Maratha geri alışı, Maratha toprakları ortasında: gerçek kale eksklavı. 1707 sonrası Babür yerine Janjira Siddi denetimi olabilir.
-  - Düzeltme önerisi: 1707-1733 sahibi (babur / janjira) kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Raygad 1689-11-03 Babür → veri 1733'e dek Babür diyor; Gordon'a göre Marathalar 1692'de Raigad'ı geri aldı. 1707 Siddi denetimi kaynakta yok; 1733 yalnız Janjira kuşatması bağlamında.
+  - Düzeltme önerisi: Raygad babur-imparatorlugu t → 1692 (Maratha geri alışı; gün KAYNAK-GEREK).
+  - Kaynak: S. Gordon, The Marathas 1600-1818 (New Cambridge History of India II.4), böl. 4 — 'In November 1689, Zulfiqar Khan bought access to Raigad' · 'In 1692 … Panhala and Raigad were retaken'; böl. 5 (1733 Janjira) (Cambridge, EMRELİC okuması)
 
 ### K513 · guney-afrika-birligi · 1917-02-06 → 1920-12-17 · 5.597 km²
 
@@ -398,7 +398,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Azemmûr 1541 Portekiz tahliyesi → Sa'dîler, 1549'da Sa'dîlerin Fas'ı alışına dek Vattâsî ve Portekiz toprakları arasında: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sadiler — '1541'de Agādîr'i ele geçirdi. Aynı yıl … Portekizliler'i Safî ve Azemmûr'u terketmeye … mecbur bıraktı' · 'Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)' · ÇELİŞKİ: TDV «Fas» Fas şehrinin düşüşünü 1550 verir
+  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sadiler — 1541 Portekiz tahliyesi, 956/1549 Fas şehri · CHA 3 böl. 5 (Abun-Nasr) Azemmour 1513 fethini teyit eder, tahliye yılı vermez (Cambridge, EMRELİC okuması)
 
 ### K540 · portekiz · 1513-09-03 → 1514-01-01 · 4.682 km²
 
@@ -408,7 +408,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Azemmûr 1513-09-03 Portekiz zaptı: Vattâsî kıyısında presidio — gerçek. 1514 bitişi kopukluğun sonu (Mazagão 1514 ile kıyı bağı), sahip değişimi değil.
   - Düzeltme önerisi: Yok.
-  - Kaynak: TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fas — Portekiz Azemmûr'u 1541'e dek tuttu; başlangıç 1513 TDV'de okunmadı · TDV «Meczûb» '(1508) Portekizliler'in Azemmûr'u işgali' der — 1508 başarısız kuşatma mı işgal mi, KAYNAK-GEREK (çelişki beyanlı)
+  - Kaynak: Cambridge History of Africa 3, böl. 5 (J. M. Abun-Nasr) — 'conquest of Safi (1508) and Azemmour (1513)' (Cambridge, EMRELİC okuması) · TDV «Meczûb» 1508 tarihi Safi'ye ait olabilir — çelişki büyük ölçüde çözüldü (Azemmûr 1513)
 
 ### K541 · habesistan · 1908-05-16 → 1923-10-29 · 4.650 km²
 
@@ -995,10 +995,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1960-08-15 · komşu: mali-federasyonu 57%
 - Koridor: 25.0 km · mali-federasyonu 9/9
 - İçindeki yerleşimler: Saint-Louis (Ndar) (fransa-cumhuriyet)
-- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
   - Gerekçe: Saint-Louis 1960-06-20 → 1960-11-28 'fransa-cumhuriyet', çevre Mali Federasyonu: Saint-Louis Senegal'in şehridir (Mali Federasyonu 1960-06-20, Senegal 1960-08-20 ayrılık). 1960-11-28 Moritanya bağımsızlığı — nokta Moritanya başkenti zincirine (1957'ye dek) bağlanmış olabilir.
   - Düzeltme önerisi: Saint-Louis 1960-06-20 → mali-federasyonu, 1960-08-20 → senegal.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Cambridge History of Africa 8, böl. 12 — Mali Federasyonu'nun 'break-up … immediately after its independence in August 1960' (Cambridge, EMRELİC okuması) (günler yok; Senegal 1960-08-20 KAYNAK-GEREK)
 
 ## Deniz aşırı sömürge gövdeleri (ayrı)
 

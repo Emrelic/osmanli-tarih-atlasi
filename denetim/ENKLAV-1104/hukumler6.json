@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 54 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
+"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 56 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
 "K501": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
@@ -89,12 +89,12 @@
 "kaynak": "bulunamadı (model bilgisi)"
 },
 "K512": {
-"hukum": "GERCEK",
-"kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Raygad 1689-11-03 Babür zaptı (Zülfikâr Han) → 1733 Maratha geri alışı, Maratha toprakları ortasında: gerçek kale eksklavı. 1707 sonrası Babür yerine Janjira Siddi denetimi olabilir.",
-"duzeltme": "1707-1733 sahibi (babur / janjira) kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Raygad 1689-11-03 Babür → veri 1733'e dek Babür diyor; Gordon'a göre Marathalar 1692'de Raigad'ı geri aldı. 1707 Siddi denetimi kaynakta yok; 1733 yalnız Janjira kuşatması bağlamında.",
+"duzeltme": "Raygad babur-imparatorlugu t → 1692 (Maratha geri alışı; gün KAYNAK-GEREK).",
+"kaynak": "S. Gordon, The Marathas 1600-1818 (New Cambridge History of India II.4), böl. 4 — 'In November 1689, Zulfiqar Khan bought access to Raigad' · 'In 1692 … Panhala and Raigad were retaken'; böl. 5 (1733 Janjira) (Cambridge, EMRELİC okuması)"
 },
 "K513": {
 "hukum": "YAPAY",
@@ -310,7 +310,7 @@
 "guven": "KAYNAKLI",
 "gerekce": "Azemmûr 1541 Portekiz tahliyesi → Sa'dîler, 1549'da Sa'dîlerin Fas'ı alışına dek Vattâsî ve Portekiz toprakları arasında: gerçek.",
 "duzeltme": "Yok.",
-"kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sadiler — '1541'de Agādîr'i ele geçirdi. Aynı yıl … Portekizliler'i Safî ve Azemmûr'u terketmeye … mecbur bıraktı' · 'Fas şehrine girip Vattâsî hâkimiyetine son verdi (956/1549)' · ÇELİŞKİ: TDV «Fas» Fas şehrinin düşüşünü 1550 verir"
+"kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/sadiler — 1541 Portekiz tahliyesi, 956/1549 Fas şehri · CHA 3 böl. 5 (Abun-Nasr) Azemmour 1513 fethini teyit eder, tahliye yılı vermez (Cambridge, EMRELİC okuması)"
 },
 "K540": {
 "hukum": "GERCEK",
@@ -318,7 +318,7 @@
 "guven": "KAYNAKLI",
 "gerekce": "Azemmûr 1513-09-03 Portekiz zaptı: Vattâsî kıyısında presidio — gerçek. 1514 bitişi kopukluğun sonu (Mazagão 1514 ile kıyı bağı), sahip değişimi değil.",
 "duzeltme": "Yok.",
-"kaynak": "TDV İslâm Ansiklopedisi, https://islamansiklopedisi.org.tr/fas — Portekiz Azemmûr'u 1541'e dek tuttu; başlangıç 1513 TDV'de okunmadı · TDV «Meczûb» '(1508) Portekizliler'in Azemmûr'u işgali' der — 1508 başarısız kuşatma mı işgal mi, KAYNAK-GEREK (çelişki beyanlı)"
+"kaynak": "Cambridge History of Africa 3, böl. 5 (J. M. Abun-Nasr) — 'conquest of Safi (1508) and Azemmour (1513)' (Cambridge, EMRELİC okuması) · TDV «Meczûb» 1508 tarihi Safi'ye ait olabilir — çelişki büyük ölçüde çözüldü (Azemmûr 1513)"
 },
 "K541": {
 "hukum": "YAPAY",
@@ -795,9 +795,9 @@
 "K600": {
 "hukum": "YAPAY",
 "kova": "YAPAY-c",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Saint-Louis 1960-06-20 → 1960-11-28 'fransa-cumhuriyet', çevre Mali Federasyonu: Saint-Louis Senegal'in şehridir (Mali Federasyonu 1960-06-20, Senegal 1960-08-20 ayrılık). 1960-11-28 Moritanya bağımsızlığı — nokta Moritanya başkenti zincirine (1957'ye dek) bağlanmış olabilir.",
 "duzeltme": "Saint-Louis 1960-06-20 → mali-federasyonu, 1960-08-20 → senegal.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Cambridge History of Africa 8, böl. 12 — Mali Federasyonu'nun 'break-up … immediately after its independence in August 1960' (Cambridge, EMRELİC okuması) (günler yok; Senegal 1960-08-20 KAYNAK-GEREK)"
 }
 }

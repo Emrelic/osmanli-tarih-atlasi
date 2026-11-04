@@ -161,6 +161,22 @@ U.update({
     "K507": dict(guven="KAYNAKLI", kaynak="Oxford Dictionary of the Middle Ages, 'Tmutarakan'' — 'From c.1100 it formed part of the nomadic empires of "
                  "the Pontic steppe'" + OX + " (yalnız erken dönem; 1475 Osmanlı zinciri KAYNAK-GEREK — kısmen)"),
 })
+# EMRELİC Cambridge PDF okuması (Anadolu Üniversitesi erişimi)
+CB = " (Cambridge, EMRELİC okuması)"
+U.update({
+    "K512": dict(hukum="YAPAY", kova="YAPAY-c", guven="KAYNAKLI",
+                 gerekce="Raygad 1689-11-03 Babür → veri 1733'e dek Babür diyor; Gordon'a göre Marathalar 1692'de Raigad'ı geri aldı. 1707 Siddi "
+                 "denetimi kaynakta yok; 1733 yalnız Janjira kuşatması bağlamında.",
+                 duzeltme="Raygad babur-imparatorlugu t → 1692 (Maratha geri alışı; gün KAYNAK-GEREK).",
+                 kaynak="S. Gordon, The Marathas 1600-1818 (New Cambridge History of India II.4), böl. 4 — 'In November 1689, Zulfiqar Khan bought "
+                 "access to Raigad' · 'In 1692 … Panhala and Raigad were retaken'; böl. 5 (1733 Janjira)" + CB),
+    "K540": dict(guven="KAYNAKLI", kaynak="Cambridge History of Africa 3, böl. 5 (J. M. Abun-Nasr) — 'conquest of Safi (1508) and Azemmour (1513)'" + CB +
+                 " · TDV «Meczûb» 1508 tarihi Safi'ye ait olabilir — çelişki büyük ölçüde çözüldü (Azemmûr 1513)"),
+    "K539": dict(guven="KAYNAKLI", kaynak=TDV + "sadiler — 1541 Portekiz tahliyesi, 956/1549 Fas şehri · CHA 3 böl. 5 (Abun-Nasr) Azemmour 1513 "
+                 "fethini teyit eder, tahliye yılı vermez" + CB),
+    "K600": dict(guven="KAYNAKLI", kaynak="Cambridge History of Africa 8, böl. 12 — Mali Federasyonu'nun 'break-up … immediately after its independence "
+                 "in August 1960'" + CB + " (günler yok; Senegal 1960-08-20 KAYNAK-GEREK)"),
+})
 U["K542"] = dict(kaynak="TDV'de Çemişgezek beyliği maddesi yok (cemisgezek, cemiskezek-beyligi, cemisgezek-beyligi denendi); Oxford okunmadı — bulunamadı")
 U["K551"] = dict(kaynak="TDV'de Bohtan / Cezîre-i İbn Ömer maddesi 1351 tarihini vermiyor (bohtan, cizre, cezire-i-ibn-omer denendi) — bulunamadı; "
                  "KOVALAR F'ye bakınız")
