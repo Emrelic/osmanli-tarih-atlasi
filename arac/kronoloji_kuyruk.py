@@ -15,6 +15,10 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 198-222 (S9): ajanın kendi ganzhi hesabı (Sinica IP engeli) — Academia Sinica teyidine kadar
+    "L2-559": "[çeviri doğrulanmadı] Batı Wei sonu 557-01-01 → 557-02-14 adayı (Zhou shu 3: 魏恭帝三年十二月庚子 禪位); künye ucu, Değişmez 2 ±30 gün kontrolü — Academia Sinica teyidi bekliyor",
+    "L2-565": "[çeviri doğrulanmadı] Shouyang 573-11-10 → 573-11-22 adayı (ZZTJ 171 冬十月乙巳; atlas 10. ayın 1. günü) — Academia Sinica teyidi bekliyor",
+    "L2-566": "[çeviri doğrulanmadı] Mang Dağı 575-08-21 tutmuyor (Zhou ordusunun Chang'an'dan hareketi 壬午); Bei Qi shu yalnız 8. ay; 575-09-11 (Zhou shu 八月癸卯, sınıra giriş) + metin ya da ay hassasiyeti — Academia Sinica teyidi bekliyor",
     # L2S 423-447 (S13)
     "L2-782": "Eritre BMA 1941-01-01 → ? : Keren düşüşü 03-27, Asmara teslimi 04-01 (Playfair, UK official history vol.I ch.XXIII); BMA resmî kuruluş günü kaynakta yok → madde Keren mi Asmara mı netleşmeden düzeltilmez",
     "L2-791": "Arnavutluk 1943-09-14 → 09-11 adayı (Ademi 2021: komite 11 Eylül bağımsızlığı yeniden ilan etti; 14 Eylül Biçaku çağrısı); kuruluş günü kaynakta ayrıca yok, tek kaynak",
@@ -185,6 +189,11 @@ METIN = [
     ("L2-800", "Protektora hükûmeti fiilen 5 Mayıs 1945 sona erdi (Bienert tutuklandı); «Sovyet işgaliyle çöktü» kaynakla uyuşmaz — Prag 9 Mayıs kurtarıldı (Historická penologie 2/2006)"),
     ("L2-801", "Okinawa: örgütlü direniş 21 Haziran bitti, harekât resmen 2 Temmuz ilan edildi (Appleman, CMH); Ryukyu ABD idaresine hukukî devir ayrı gün"),
     ("L2-804", "Ağustos Devrimi 19 Ağustos 1945: kaynak (Tertrais, IGPDE) «ayaklanmanın başlangıcı» der; Bảo Đại feragati 25 Ağustos → metin başlangıç diline çekilir"),
+    # L2S 198-222 (S9)
+    ("L2-562", "Gao Yang: ölüm 甲午 = 559-11-25 Jülyen (atlas günü tutar); metindeki «(4 Aralık 559)» 癸卯 發喪 (cenaze ilanı) günüdür → parantez düzeltilir [çeviri doğrulanmadı]"),
+    ("L2-577", "Áedán mac Gabráin: Annals of Ulster 606 (AI 609, [AU 606]) → 606 + ic_not 608/609; «Yerine Eochaid Buide geçti» annallarda yok → çıkarılır ya da kaynaklanır"),
+    ("L2-575", "[BEKLE — tek dayanak EB1911] Frizya 600: bilinen en eski kral Aldgisl (~678, Vita Wilfridi) — 600 desteklenmiyor"),
+    ("L2-576", "[BEKLE — tek dayanak EB1911] Gaskonya: Fredegar IV.21 açılamadı"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
