@@ -23,3 +23,25 @@ KASA PAZAR bunları uygularken JSON'daki ONERI satırlarının önünde tutar.
 - 1920-04-23'te işgal altındaki yer `d: osmanli` + `isg <işgalci>` kalır, TBMM'ye kurtuluş gününde geçer.
 - Bolu istisnadır: `s: tbmm` kalır, durum `ic_not`a yazılır.
 - **Uygulama ASKIDA:** Emre'nin TBMM 1920-22 kararı bekleniyor.
+
+## 5 Kasım 2026 gece-17 — P005/P006 üzerine
+
+- **(a) Kerak ve Deyrizor:** Şam emsali onaylandı. 1918-10 → 1920-07-25 arası `s: suriye-arap-kralligi`.
+  - Deyrizor: 1919-12'de kısa bir İngiliz işgali varsa `isg` yazılır. Fransız mandası `s:` TDV'ye göre 1921'den başlar; gün kaynakla bulunur, bulunmazsa yıl beyanı.
+  - Kerak: 1920-07-25'ten sonra yerel hükûmetler, ardından Ürdün Emirliği.
+  - **Ölçüm:** `urdun-emirligi` künyesinin f'si 1921-02-01. EMRELİC 1921-04-11 dedi; künye günüyle çelişiyor, LAB'a sorulur. 1920-07-25 ile künye f'si arası BEYANLI boşluk olur.
+- **(b) Bukovina (Suçava):** Trento emsali.
+  - `isg romanya`, Rumen ordusunun Çernovitz'e girdiği günden başlar (1918-11-11, kaynakla teyit edilecek).
+  - `s: romanya` 1919-12-10'dan başlar: Romanya Saint-Germain'i o gün imzaladı ve bölgeyi zaten yönetiyordu (TEK ÖLÇÜ).
+  - 1918-11-28 Bukovina Kongresi ve Avusturya'nın 1919-09-10 imzası `ic_not`a yazılır.
+  - **Ölçüm:** `habsburg` künyesinin t'si 1918-11-12. 1918-11-12 → 1919-12-10 arasında isg katmanının altında künyeli bir `s:` sahibi kalmıyor; bu soru LAB'a gider.
+- **(c) Nikarya:** Ege adaları emsali uygulanır. `s: yunanistan` 1914-02-13'ten başlar (Büyük Devletler notası; Yunanistan adayı zaten yönetiyordu).
+  - Öncesi: 1912-07-17 Serbest Nikarya Devleti (**ölçüm: künye YOK**, LAB'a), ardından 1912-11'den Yunan donanması `isg`.
+  - TDV Lozan 1923 `ic_not`a yazılır.
+- **(d) Amasra:** üçüncü bir kaynak aranır. Bulunmazsa TDV «Fâtih Camii» ve «Ceneviz»in 1461'i ile TDV «II. Mehmed»in 1459'u birlikte `ic_not`a yazılır; mevcut gün değişmez.
+- **(e) Ağraham burnu 1578-1606:** TAHRİR ölçütü uygulanır. Yer sancağa ya da tahrir defterine girdiyse `d:`, yerel bey tâbi kaldıysa `v:`, kaynak susuyorsa BULUNAMADI. Bakılacak maddeler: TDV «Özdemiroğlu Osman Paşa», «Şirvan».
+- **(f) LAB SALI'ya gidecek künye soruları:**
+  - Potchefstroom: Boer cumhuriyeti 1838-52.
+  - Ji'an: Chen Han 1358-68. Zhu Wu ayrı künye istemez; Ming künyesi GENİŞLET ile f 1356-04-10'a çekilir ve Zhu Wu onun içinde kalır.
+  - Norveç naiplik dilimi 1814-01-14 → 05-17; şimdilik BEYANLI.
+- P005/P006'nın öteki önerileri uygun.
