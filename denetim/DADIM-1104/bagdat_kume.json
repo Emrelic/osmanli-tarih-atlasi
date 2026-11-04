@@ -759,5 +759,12 @@
   "Safevî Bağdat f: mevcut 1508-01-01 hicrî 914’ün (1508-05-02) öncesidir; TDV yalnız yıl+hicrî yıl verir. Kronolojide Şah İsmâil’in Bağdat girişi için gün varsa onun kaynağı ne?",
   "Osmanlı Bağdat f: TDV 28 Kasım 1534 (21 Cemâziyelevvel 941); atlas 1534-12-04. 6 günlük fark neyin? Tüm şehir zincirleri (Vâsıt, Hille, Necef, Kerbelâ, Kûfe, Tikrit, Sâmerrâ, Hânekîn) aynı 1534-12-04’ü kullanıyor.",
   "TDV «Basra» \"1383’te Timurlular\" ve «Müşa‘şa‘lar» \"Timurlular’ın kontrolündeki Havîza (1442)\": güney Irak/Huzistan’da Timurlu denetimi hâlâ kaynaklı mı? Eski Basra (Zübeyr) kaydı için ayrı araştırma."
- ]
+ ],
+ "karar": {
+  "kim": "EMRELİC gece-45, 5 Kasım 2026",
+  "zincir": "Kerbelâ, Necef, Kûfe Hille zincirini izler (Celâyirli 1431'e kadar)",
+  "osmanli_f": "1534-11-28 (TDV, Jülyen, fiilî giriş); 10 şehir + olaylar.js:86 + olaylar_ek14.js:83 aynı commit",
+  "karakoyunlu_akkoyunlu": "1469-12-19 alt sınır ONERI; 1470 ic_not; olaylar_ek10.js:585 birlikte",
+  "safevi_bagdat_f": "1508-05-02 alt sınır onaylandı"
+ }
 }
