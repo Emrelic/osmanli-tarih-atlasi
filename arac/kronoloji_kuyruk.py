@@ -39,12 +39,6 @@ BEKLET = {
     # L2S 663-674 (S25)
     "L2-1040": "İskender Bey / Karadağ Sancağı 1528 → 1530 adayı [yalnız yıl]: Leksikon crnogorskih dinastija (CANU, Šćekić) «1530'a kadar yönetti, büyük olasılıkla öldü», sancak sonra kaldırıldı; 1528 Pavlović dipnotundan (okunmadı) → Pavlović s.32 ve Đurđev okunmadan uygulanmaz; sınıra bağlı, Değişmez 2 ±30 gün",
     "L2-1043": "Şimbra Kure 1529-03-09 → 03-10 adayı: Encyclopaedia Aethiopica «Around or perhaps on 10 March 1529» (kaynak tahmin der); EBSCO 7 Mart; TDV vermez → kesin gün yok, atlas 09 Mart da desteksiz",
-    # L2E 1695-1706 (EMRELİC): gün satırları Academia Sinica teyidine kadar
-    "L2-2145": "[çeviri doğrulanmadı] 940-951 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-2152": "[çeviri doğrulanmadı] 940-951 ganzhi günü (Wuyue 947 «12. ayın son günü» 948'e düşebilir) — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-2153": "[çeviri doğrulanmadı] 940-951 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-2155": "[çeviri doğrulanmadı] 940-951 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-2156": "[çeviri doğrulanmadı] 940-951 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
     # L2S 651-662 (S24)
     "L2-1023": "Kalikut #3 Vasco da Gama 1498-05-01 (ay başı yer tutucu): CHI V 17 Mayıs demirleme, Jackson/Subrahmanyam (ipucu) 20 Mayıs varış, 28 Mayıs Zamorin görüşmesi; aynı künyede 1498-05-20 tarihli ayrı madde var → yinelenen madde; 17/20 seçimi ve 28 Mayıs ayrı olay kararı",
     "L2-1030": "Câm Nizâmeddin ölümü 1508: Haig CHI III s.501 1439 cülus + 60 yıl (≈1499), kendi tablosu tutarsız; 1508 yalnız Vikipedi türevlerinde; TDV «Sind» vermez → L2-1002 ile birlikte karar",
@@ -104,6 +98,14 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2E 1695-1718 (EMRELİC, Academia Sinica; EŞLEŞİR)
+    "L2-2145": "Takvim: 940-03-25 (Academia Sinica)",
+    "L2-2147": "Takvim: Tianfu 6/8 辛亥 = 941-09-17 ve 9/庚申 = 09-26 ikisi de tutar; kaynak cümlesinde ay yok → yalnız yıl (Academia Sinica)",
+    "L2-2153": "Takvim: 947-03-10 (Academia Sinica)",
+    "L2-2155": "Takvim: 951-02-13 (Academia Sinica)",
+    "L2-2156": "Takvim: 951-02-24 (Academia Sinica)",
+    "L2-2158": "Takvim: Guangshun 2/10 丁酉 = 952-11-04 Wang Kui Changsha'ya girdi (Academia Sinica)",
+    "L2-2159": "Takvim: Guangshun 2/10 丁酉 = 952-11-04 (Academia Sinica)",
     # L2E 1427-1438 + 1551-1574 + L2H (EMRELİC, Academia Sinica) + NAOJ (KASA SALI)
     "L2-1882": "Takvim: Xiaochang 2/9/15 辛亥 = 526-10-06 (Academia Sinica)",
     "L2-1884": "Takvim: Wutai 1/4/13 庚子 = 528-05-17 (Academia Sinica; sinocal Jianyi 1 diye etiketler — Xiaozhuang'ın tahta çıkışı → ic_not)",
@@ -181,7 +183,16 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
-    "L2-2150": ("tarih düzelt", "Güney Tang'ın Min'i yıkması 946 → 945: ZZTJ c.285 Jianzhou Kaiyun 2, 8. ay 丁亥'de alındı; künye L2-2149 zaten 945; Xin Wudai shi notu 946 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
+    # L2E 1695-1718 (EMRELİC, Academia Sinica): yer tutucu YYYY-01-01 → kaynak günü
+    "L2-2146": ("tarih düzelt", "Liu Bin (Güney Han) 941-01-01 → 942-06-10: Takvim: Tianfu 7/4 丁丑 = 942-06-10 (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
+    "L2-2148": ("tarih düzelt", "943-01-01 → 943-04-15: Takvim: Tianfu 8/3 丙戌 = 943-04-15 (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
+    "L2-2149": ("tarih düzelt", "Min künye ucu 945 → 945-10-02: Takvim: Kaiyun 2/8 丁亥 = 945-10-02 Jianzhou alındı (ZZTJ c.285) (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
+    "L2-2150": ("tarih düzelt", "Güney Tang'ın Min'i yıkması 946 → 945-10-02: Takvim: Kaiyun 2/8 丁亥 = 945-10-02 (ZZTJ c.285; Academia Sinica); Xin Wudai shi notu 946 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
+    "L2-2151": ("tarih düzelt", "947-01-01 → 947-03-10: Takvim: Tianfu 12/2 辛未 = 947-03-10 (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
+    "L2-2152": ("tarih düzelt", "Wuyue 947-01-01 → 948-02-12: Takvim: Tianfu 12, 12. ayın son günü 庚戌 = 948-02-12 — yıl da kayar (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
+    "L2-2154": ("tarih düzelt", "951-01-01 → 951-12-04: Takvim: Guangshun 1/11 辛酉 = 951-12-04 (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
+    "L2-2157": ("tarih düzelt", "Chengdu seli 952-01-01 → 952-07-07: Takvim: Guangshun 2/6 丁酉 = 952-07-07 (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
+    "L2-2162": ("tarih düzelt", "Liu Chang 958-01-01 → 958-09-18: Takvim: Xiande 5/8 辛巳 = 958-09-18 (Academia Sinica; EMRELİC) — atlas yer tutucu, kaynak gün veriyor"),
     # L2E 1439-1450 + L2H 1367-1390 (EMRELİC, Academia Sinica)
     "L2-1892": ("tarih düzelt", "Batı Wei Wendi tahta çıkışı 535-01-01 → 535-02-18: Takvim: Datong 1/1/1 戊申 = 535-02-18 (Academia Sinica; Bei shi c.5); Xiaowu'nun ölümü Yongxi 3 閏12 癸巳 = 535-02-03 önce gelir → sıra düzelir"),
     "L2-1893": ("tarih düzelt", "Batı Wei 535-01-01 → 535-02-18: Takvim: Datong 1/1/1 戊申 = 535-02-18 (Academia Sinica); kaynak Zhou shu 3 → Bei shi c.5"),
@@ -424,6 +435,8 @@ METIN = [
     ("L2-1034", "[BEKLE — kaynak okunamadı] Ordenações Manuelinas 1512: basım yürürlük değildir; 1512'de yalnız Kitap I (17 Aralık 1512, arama özeti), beş kitap 1514; Encyclopedia.com «first printing 1514-1521» → «yürürlüğe girdi» desteksiz"),
     # L2E 1695-1706 (EMRELİC)
     ("L2-2146", "Liu Bin (Güney Han) 941 → 942: ZZTJ c.283 önceki hükümdar Tianfu 7, 4. ay öldü (EMRELİC; tarih düzelt satırıyla birlikte)"),
+    # L2E 1707-1718 (EMRELİC)
+    ("L2-2165", "Gao Jichong: atlas 962 vekâlet yılı; resmî atama 963, 1. ay → ic_not (EMRELİC)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
