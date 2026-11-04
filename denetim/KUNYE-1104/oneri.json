@@ -509,13 +509,13 @@
 },
 {
 "id": "ava",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1297-01-01 / t 1555-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHSEA I, ch.3, s.~165: Ava kuruluşu 14. yy 2. yarısı · ch.7, s.413: 'By 1527 Ava was in Shan hands' — künye Pinya-Sagaing-Ava birleşik (1297 Pinya; 1555 Bayinnaung'un Shan Ava'sını alışı) olduğu için çelişki değil, kapsam farkı: 1527-1555 Shan dönemi ayrı dilim adayı; 1297 ve 1555 ikinci kaynakla teyit edilmeli"
 },
 {
 "id": "lan-na",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1262-01-01 / t 1558-04-02 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHSEA I: Mangrai kurucu (ö. 1317), 1281 Haripunjaya zaptı; ch.7, s.416: Bayinnaung 'even defeated Chiengmai' (t 1558 yılı bu cümlede yok; f 1262 Chiang Rai teyitsiz)"
 },
 {
 "id": "san-devletleri",
@@ -524,13 +524,13 @@
 },
 {
 "id": "lan-xang",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1353-01-01 / t 1707-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHSEA I, ch.3, s.~173: 'King of Lan Sang at Luang Prabang in 1353' (f yıl teyitli) · ch.7, s.428: 'seventeenth century it was divided into three separate kingdoms' (t 1707 yalnız yüzyıl düzeyinde — laos-kralliklari f ile birlikte ikinci kaynak gerek)"
 },
 {
 "id": "angkor-kmer",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 0802-01-01 / t 1431-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHSEA I, ch.3, s.~170: 'sent an expedition to sack Angkor in 1431' (t yıl teyitli; f 802 okunmadı)"
 },
 {
 "id": "malay-sultanliklari",
@@ -604,8 +604,8 @@
 },
 {
 "id": "fransiz-cinhindi",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia II — f 1859-02-17 / t 1954-07-21 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHSEA II, ch.1, s.44: Saigon 'captured early in 1859' (f yıl/mevsim teyitli; 02-17 günü teyitsiz); t Cenevre 1954 (07-21 günü teyitsiz)"
 },
 {
 "id": "san-fan",
@@ -649,8 +649,8 @@
 },
 {
 "id": "ho-hanedani",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1400-03-01 / t 1407-06-17 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "ÇELİŞKİ BEYANI — EMRELİC Cambridge — CHSEA I, ch.3, s.149-150: 'in 1406, Ming armies … capturing Ho Quy Ly' (Ming seferi 1406 sonu başlar); veri t 1407-06-17 (Ho Quy Ly'nin yakalanması) — iki tarih ic_not'ta; f 1400 yıl teyitli"
 },
 {
 "id": "karnatik",
@@ -659,8 +659,8 @@
 },
 {
 "id": "tran-hanedani",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1225-01-01 / t 1400-03-01 (bölüm: eserin dizininden)"
+"hukum": "TEYIT",
+"kaynak": "EMRELİC Cambridge — Cambridge History of Southeast Asia I, ch.3, s.148: 'proclaiming a new dynasty in 1225'; t 1400 (Ho Quy Ly) yıl teyitli; günler teyitsiz"
 },
 {
 "id": "hoysala",
@@ -669,8 +669,8 @@
 },
 {
 "id": "laos-kralliklari",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1707-01-01 / t 1893-10-03 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHSEA II, ch.1, s.51: Temmuz 1893 Bangkok krizi, Taylar Mekong doğusundan vazgeçti (t yıl teyitli; 10-03 antlaşma günü okunmadı)"
 },
 {
 "id": "seylan-sinhala",
@@ -694,8 +694,8 @@
 },
 {
 "id": "sarawak-brooke",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of Southeast Asia II — f 1841-09-24 / t 1946-07-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "EMRELİC Cambridge — CHSEA II, ch.1, s.22: 'raja there from 1841' · ch.6, s.~354: Taç'a devir 1946 (yıllar teyitli; 09-24 ve 07-01 günleri teyitsiz)"
 },
 {
 "id": "dogu-sumatra-sultanliklari",

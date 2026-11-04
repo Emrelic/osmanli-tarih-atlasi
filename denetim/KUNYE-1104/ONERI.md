@@ -104,11 +104,11 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | travankur | 1281-01-01 → 1949-07-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1949-07-01 (bölüm: eserin dizininden) |
 | kandy | 1469-01-01 → 1815-03-02 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1469-01-01 / t 1815-03-02 (bölüm: eserin dizininden) |
 | yafna | 1281-01-01 → 1619-02-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1281-01-01 / t 1619-02-01 (bölüm: eserin dizininden) |
-| ava | 1297-01-01 → 1555-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1297-01-01 / t 1555-01-01 (bölüm: eserin dizininden) |
-| lan-na | 1262-01-01 → 1558-04-02 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1262-01-01 / t 1558-04-02 (bölüm: eserin dizininden) |
+| ava | 1297-01-01 → 1555-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHSEA I, ch.3, s.~165: Ava kuruluşu 14. yy 2. yarısı · ch.7, s.413: 'By 1527 Ava was in Shan hands' — künye Pinya-Sagaing-Ava birleşik (1297 Pinya; 1555 Bayinnaung'un Shan Ava'sını alışı) olduğu için çelişki değil, kapsam farkı: 1527-1555 Shan dönemi ayrı dilim adayı; 1297 ve 1555 ikinci kaynakla teyit edilmeli |
+| lan-na | 1262-01-01 → 1558-04-02 | = → = | KISMEN | EMRELİC Cambridge — CHSEA I: Mangrai kurucu (ö. 1317), 1281 Haripunjaya zaptı; ch.7, s.416: Bayinnaung 'even defeated Chiengmai' (t 1558 yılı bu cümlede yok; f 1262 Chiang Rai teyitsiz) |
 | san-devletleri | 1281-01-01 → 1923-10-29 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1281-01-01 / t 1923-10-29 (bölüm: eserin dizininden) |
-| lan-xang | 1353-01-01 → 1707-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1353-01-01 / t 1707-01-01 (bölüm: eserin dizininden) |
-| angkor-kmer | 0802-01-01 → 1431-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 0802-01-01 / t 1431-01-01 (bölüm: eserin dizininden) |
+| lan-xang | 1353-01-01 → 1707-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHSEA I, ch.3, s.~173: 'King of Lan Sang at Luang Prabang in 1353' (f yıl teyitli) · ch.7, s.428: 'seventeenth century it was divided into three separate kingdoms' (t 1707 yalnız yüzyıl düzeyinde — laos-kralliklari f ile birlikte ikinci kaynak gerek) |
+| angkor-kmer | 0802-01-01 → 1431-01-01 | = → = | KISMEN | EMRELİC Cambridge — CHSEA I, ch.3, s.~170: 'sent an expedition to sack Angkor in 1431' (t yıl teyitli; f 802 okunmadı) |
 | malay-sultanliklari | 1281-01-01 → 1909-07-10 | = → = | GIRISLI | GİRİŞLİ: Andaya & Andaya, A History of Malaysia — f 1281-01-01 / t 1909-07-10 (bölüm: eserin dizininden) |
 | cohor-sultanligi | 1528-01-01 → 1923-10-29 | = → = | GIRISLI | GİRİŞLİ: Andaya & Andaya, A History of Malaysia — f 1528-01-01 / t 1923-10-29 (bölüm: eserin dizininden) |
 | palembang-sultanligi | 1281-01-01 → 1825-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1825-01-01 (bölüm: eserin dizininden) |
@@ -123,7 +123,7 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | tungning | 1650-01-01 → 1683-10-05 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China IX (Ch'ing to 1800, Part 1) — f 1650-01-01 / t 1683-10-05 (bölüm: eserin dizininden) |
 | cin-cumhuriyeti | 1911-10-10 → None | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China XII (Republican China, Part 1) — f 1911-10-10 / t None (bölüm: eserin dizininden) |
 | mogolistan | 1911-12-29 → 1924-11-26 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Inner Asia / Bawden, The Modern History of Mongolia — f 1911-12-29 / t 1924-11-26 (bölüm: eserin dizininden) |
-| fransiz-cinhindi | 1859-02-17 → 1954-07-21 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1859-02-17 / t 1954-07-21 (bölüm: eserin dizininden) |
+| fransiz-cinhindi | 1859-02-17 → 1954-07-21 | = → = | KISMEN | EMRELİC Cambridge — CHSEA II, ch.1, s.44: Saigon 'captured early in 1859' (f yıl/mevsim teyitli; 02-17 günü teyitsiz); t Cenevre 1954 (07-21 günü teyitsiz) |
 | san-fan | 1673-12-28 → 1681-12-07 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China IX — f 1673-12-28 / t 1681-12-07 (bölüm: eserin dizininden) |
 | dashun | 1644-01-01 → 1647-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China VII — f 1644-01-01 / t 1647-01-01 (bölüm: eserin dizininden) |
 | yadava | 1187-01-01 → 1318-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1187-01-01 / t 1318-01-01 (bölüm: eserin dizininden) |
@@ -132,16 +132,16 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | pandya | 1190-01-01 → 1323-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1190-01-01 / t 1323-01-01 (bölüm: eserin dizininden) |
 | taiping | 1851-01-11 → 1864-07-19 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of China X (Late Ch'ing, Part 1) — f 1851-01-11 / t 1864-07-19 (bölüm: eserin dizininden) |
 | madurai-sultanligi | 1335-01-01 → 1378-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1335-01-01 / t 1378-01-01 (bölüm: eserin dizininden) |
-| ho-hanedani | 1400-03-01 → 1407-06-17 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1400-03-01 / t 1407-06-17 (bölüm: eserin dizininden) |
+| ho-hanedani | 1400-03-01 → 1407-06-17 | = → = | KISMEN | ÇELİŞKİ BEYANI — EMRELİC Cambridge — CHSEA I, ch.3, s.149-150: 'in 1406, Ming armies … capturing Ho Quy Ly' (Ming seferi 1406 sonu başlar); veri t 1407-06-17 (Ho Quy Ly'nin yakalanması) — iki tarih ic_not'ta; f 1400 yıl teyitli |
 | karnatik | 1690-01-01 → 1801-07-31 | = → = | GIRISLI | GİRİŞLİ: Bayly (NCHI II.1) / Cambridge History of India V — f 1690-01-01 / t 1801-07-31 (bölüm: eserin dizininden) |
-| tran-hanedani | 1225-01-01 → 1400-03-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1225-01-01 / t 1400-03-01 (bölüm: eserin dizininden) |
+| tran-hanedani | 1225-01-01 → 1400-03-01 | = → = | TEYIT | EMRELİC Cambridge — Cambridge History of Southeast Asia I, ch.3, s.148: 'proclaiming a new dynasty in 1225'; t 1400 (Ho Quy Ly) yıl teyitli; günler teyitsiz |
 | hoysala | 1026-01-01 → 1343-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1026-01-01 / t 1343-01-01 (bölüm: eserin dizininden) |
-| laos-kralliklari | 1707-01-01 → 1893-10-03 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia I (Tarling, ed.) — f 1707-01-01 / t 1893-10-03 (bölüm: eserin dizininden) |
+| laos-kralliklari | 1707-01-01 → 1893-10-03 | = → = | KISMEN | EMRELİC Cambridge — CHSEA II, ch.1, s.51: Temmuz 1893 Bangkok krizi, Taylar Mekong doğusundan vazgeçti (t yıl teyitli; 10-03 antlaşma günü okunmadı) |
 | seylan-sinhala | 1070-01-01 → 1518-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1070-01-01 / t 1518-01-01 (bölüm: eserin dizininden) |
 | cunagadh | 1748-01-01 → 1948-02-20 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1748-01-01 / t 1948-02-20 (bölüm: eserin dizininden) |
 | kocin | 1102-01-01 → 1503-01-01 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1102-01-01 / t 1503-01-01 (bölüm: eserin dizininden) |
 | samudra-pasai | 1281-01-01 → 1521-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1281-01-01 / t 1521-01-01 (bölüm: eserin dizininden) |
-| sarawak-brooke | 1841-09-24 → 1946-07-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of Southeast Asia II — f 1841-09-24 / t 1946-07-01 (bölüm: eserin dizininden) |
+| sarawak-brooke | 1841-09-24 → 1946-07-01 | = → = | KISMEN | EMRELİC Cambridge — CHSEA II, ch.1, s.22: 'raja there from 1841' · ch.6, s.~354: Taç'a devir 1946 (yıllar teyitli; 09-24 ve 07-01 günleri teyitsiz) |
 | dogu-sumatra-sultanliklari | 1615-01-01 → 1858-01-01 | = → = | GIRISLI | GİRİŞLİ: Ricklefs — f 1615-01-01 / t 1858-01-01 (bölüm: eserin dizininden) |
 | bugis-kralliklari | 1330-01-01 → 1905-08-06 | = → = | GIRISLI | GİRİŞLİ: Ricklefs / Andaya — f 1330-01-01 / t 1905-08-06 (bölüm: eserin dizininden) |
 | meysur-racaligi | 1799-05-04 → 1947-08-15 | = → = | GIRISLI | GİRİŞLİ: New Cambridge History of India (ilgili cilt) / Cambridge History of India III-IV — f 1799-05-04 / t 1947-08-15 (bölüm: eserin dizininden) |
@@ -357,4 +357,4 @@ Hüküm: TEYIT (f/t kaynakla uyumlu) · DUZELT (önerilen uç farklı) · KISMEN
 | ceibal | 0411-01-01 → 0889-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0411-01-01 / t 0889-01-01 (bölüm: eserin dizininden) |
 | cholula | 0700-01-01 → 1519-01-01 | = → = | GIRISLI | GİRİŞLİ: Cambridge History of the Native Peoples of the Americas II (Mesoamerica) / Cambridge History of Latin America — f 0700-01-01 / t 1519-01-01 (bölüm: eserin dizininden) |
 
-Sayım: GIRISLI 303 · KISMEN 26 · TEYIT 12 · DUZELT 8 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
+Sayım: GIRISLI 294 · KISMEN 34 · TEYIT 13 · DUZELT 8 · KAYNAK-YETERLI 2 · SINIF-HATASI 1 · toplam 352 / 352
