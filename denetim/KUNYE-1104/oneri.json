@@ -217,13 +217,13 @@
 },
 {
 "id": "irlanda-serbest-devlet",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Oxford Companion to Irish History — 1922-12-06 / 1937-12-29"
+"hukum": "KISMEN",
+"kaynak": "⑧ resmî neşir — Irish Statute Book, Constitution of Ireland: 'In operation as from 29th December, 1937' (t GÜN teyitli; f 1922-12-06 bu sayfada yok)"
 },
 {
 "id": "irlanda-cumhuriyeti",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Oxford Companion to Irish History — 1937-12-29 Bunreacht / 1949-04-18"
+"hukum": "TEYIT",
+"kaynak": "⑧ resmî neşir — Irish Statute Book, Constitution of Ireland: 'Enacted by the People 1st July, 1937 · In operation as from 29th December, 1937' (f GÜN teyitli) · S.I. 27/1949: 'The 18th day of April, 1949, is hereby appointed as the day on which The Republic of Ireland Act, 1948 … shall come into operation' (künye adındaki 1949-04-18 teyitli; t açık)"
 },
 {
 "id": "bretanya",
@@ -1255,13 +1255,13 @@
 },
 {
 "id": "kanada",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Oxford/Cambridge History of the United States/Canada — f 1867-07-01 / t None (bölüm: eserin dizininden)"
+"hukum": "TEYIT",
+"kaynak": "⑧ resmî neşir — Justice Canada, The Constitution Acts 1867 to 1982 (laws-lois.justice.gc.ca/eng/Const/FullText.html), Constitution Act 1867 not 4: 'The first day of July, 1867, was fixed by proclamation dated May 22, 1867' (f GÜN teyitli; t açık — pencere ucu)"
 },
 {
 "id": "inuit",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1000-01-01 / t 1880-09-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "⑧ resmî neşir — Justice Canada (aynı derleme): 'Adjacent Territories Order, dated July 31, 1880' · emirname metni (Wikisource transkripsiyonu): 'From and after the first day of September, 1880, all British Territories and Possessions in North America, not already included within the Dominion of Canada … shall … become and be annexed' (t 1880-09-01 GÜN teyitli; f 1000 Thule geleneği okunmadı)"
 },
 {
 "id": "dene",
@@ -1475,8 +1475,8 @@
 },
 {
 "id": "payut",
-"hukum": "GIRISLI",
-"kaynak": "GİRİŞLİ: Cambridge History of the Native Peoples of the Americas I (North America) — f 1281-01-01 / t 1872-01-01 (bölüm: eserin dizininden)"
+"hukum": "KISMEN",
+"kaynak": "Kappler / OSU Tribal Treaties Database: 1872 yılını taşıyan yürürlük belgesi 'Executive Order: Malheur Reserve, September 12, 1872' (Kuzey Payut) — künye t 1872-01-01'in kastettiği olay künyede belirtilmemiş; ADAY t 1872-09-12 (beyan gerek; Pyramid Lake 1874, Walker River 1874 emirnameleri öteki Payut grupları için)"
 },
 {
 "id": "yavapai",
