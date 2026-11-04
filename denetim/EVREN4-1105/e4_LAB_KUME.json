@@ -3088,6 +3088,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (etiyopya-federal 1995-08-22, 22 satır); yalnız gün ve devlet teyitli. Anayasa 8 Aralık 1994 kabul (constituteproject önsöz). Yürürlük günü 21 mi 22 Ağustos 1995 — kabul kaynakta okunamadı; ipucu 21 Ağustos. Künye f=22 kontrol edilmeli."
   }
  ],
+ "Darfur": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1456",
+   "alan": "s",
+   "d": "tunciler",
+   "f": "1400-01-01",
+   "t": "1695-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Dârfûr — https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tunciler 1400-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Dârfûr yalnız yüzyıl veriyor: «XV. yüzyılda özellikle orta bölgedeki durum tamamen Tuncûrlar’ın lehine dönmüştür»; 1400 yıl/gün düzeyinde tarihlenmiyor (YÜZYIL DÜZEYİ). Künye f 1400-01-01 = küme f, tutarlı. Bakılan: TDV Dârfûr. Bakılmadı: İSAM/DergiPark."
+  }
+ ],
  "Bozkır (Deşt-i Kıpçak)": [
   {
    "dosya_satir": "data/yerlesimler.js:1504",
@@ -3208,6 +3222,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:1601",
    "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1672-08-27",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Lehistan (U+lehistan) ve Encyclopedia of Ukraine Lublin Union sayfası (kısa sayfa)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (lehistan 1569-07-01, 4 satır); yalnız gün ve devlet teyitli. TDV Lehistan maddesinde 1569/Lublin geçmiyor; Encyclopedia of Ukraine sayfası 1569 içermiyor (çekilen sayfa kısa). Künye f = küme f (1569-07-01) tutarlı. KARIŞIK: Yazlofça (Yazlovets, Podolya) , Mogilev (Doğu Belarus), Pinsk, Lutsk (Volhynia) aynı f ile; Lutsk/Volhynia Lublin'de Litvanya'dan Polonya Tacı'na geçti, Pinsk/Mogilev Litvanya'da kaldı, Yazlovets 1569 öncesi Polonya Podolyası — her yer için ayrı kontrol gerekir. t dağılımı 4 farklı (1672 Bucaş, 1772/1793/1795 bölüşmeler). Bakılmadı: Treccani/Polski Słownik."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "s",
    "d": "itilaf-emaneti",
    "f": "1919-09-10",
    "t": "1923-03-15",
@@ -3230,6 +3256,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ukrayna 1991-08-24, 10 satır); yalnız gün ve devlet teyitli. 24 Ağustos 1991 resmî Rada metni doğrudan okunamadı (404); countrystudies.us/ukraine 404. Arama özeti: Act 24 Ağustos 1991, 1 Aralık referandum. Künye f tutarlı. 1991 öncesi sahiplik (SSCB) ayrı."
   }
  ],
+ "Baç (Bács)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1778",
+   "alan": "s",
+   "d": "yugoslavya-federal-cumhuriyeti",
+   "f": "1992-04-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya — https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "27 Nisan 1992’de Sırbistan ve Karadağ ... Yugoslavya Federal Cumhuriyeti ... adı altında ... yeni bir Yugoslav devleti kurdu",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya-federal-cumhuriyeti 1992-04-27, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit. Künye f 1992-04-27 tutarlı. Küme t 2000-12-31 (veri sınırı); TDV: «4 Şubat 2003’te kabul edilen anayasal şartla Yugoslavya Federal Cumhuriyeti yerine Sırbistan ve Karadağ Devlet Birliği kuruldu» = künye t 2003-02-04 ile tutarlı. Baç/Becskerek/Dimitrofça Voyvodina, Kurşunlu Sırbistan: hepsi FRY toprağı (Kosova hariç sorun yok)."
+  }
+ ],
  "Hatvan": [
   {
    "dosya_satir": "data/yerlesimler.js:1782",
@@ -3245,6 +3285,30 @@
     "not": "1918-11-16 kırılması macaristan-halk-cumhuriyeti'ne; 1919-03-21 macar-sovyet-cumhuriyeti (fiilî kontrol); 1919-08-01'den macaristan-naiplik (künye f → 1919-08-01); Romen işgali şehir şehir isg romanya (Budapeşte 1919-08-04 → 11-14/16)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-naiplik 1918-11-16, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-39): Peidl/Friedrich/Huszár → Horthy aynı polity; 1920-03-01 naiplik ilanı ic_not; künye düzeltmesi LAB SALI UYGULA'da. | KARAR EMRELİC (gece-38): künye f → 1920-03-01 (Horthy naipliği). ÖLÇÜM (LAB PAZAR): ayrı künyeler VAR — macaristan-halk-cumhuriyeti (Károlyi) 1918-11-16 → 1919-03-21 (devletler.js:17210), macar-sovyet-cumhuriyeti 1919-03-21 → 1919-08-01 (17204); macaristan-naiplik f 1918-11-16 bunlarla ÇAKIŞIYOR. 1919-08-01 → 1920-03-01 (Romen işgali / Friedrich hükûmeti) künyesiz. LAB SALI'ya. | LAB PAZAR: kaynak kurum portalı (habsburger.net), akademik değil — ONERI (Austria-Forum emsali). | sayfa.py ham metin. Künye f=1918-11-16 ile küme f tutarlı. Cumhuriyet ilanı günü. DİKKAT: künye adı 'Naiplik' ama f cumhuriyet ilanı (Naiplik 1920-03-01'de başlar); ad/f uyumsuzluğu LAB'a. TDV Macaristan madde: halk cumhuriyeti ilanını gün vermeden anlatıyor (31 Ekim 1918 devrim); TDV'de 16 Kasım 1918 yok. Habsburger.net müze/kurum portalı, tarihçi yazarlı; hakemli makale değil - Emre uygun görmezse ONERI say. t ucu (Trianon 1920-06-04 olan 1 yerleşim) bu satırda doğrulanmadı. Hatvan/Debrecen/Szombathely vb. ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1782",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Macaristan — https://islamansiklopedisi.org.tr/macaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-halk 1946-02-01, 4 satır); yalnız gün ve devlet teyitli. TDV Macaristan maddesi 1946 cumhuriyet ilânını/1 Şubat 1946'yı içermiyor (yalnız 1949 Komekon ve 23 Ekim 1989). t ucu için TDV: «23 Ekim 1989 tarihinde halk cumhuriyeti yerine Macaristan Cumhuriyeti ilân edildi» = küme t 1989-10-23 (alıntı yalnız t ucunu tarihliyor). Künye adı «II. Cumhuriyet 1946 → Halk Cumhuriyeti 1949-08-20»: künye f 1946-02-01 küme f ile tutarlı. Bakılmadı: Magyar Katolikus Lexikon."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1782",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Macaristan — https://islamansiklopedisi.org.tr/macaristan",
+   "alinti": "23 Ekim 1989 tarihinde halk cumhuriyeti yerine Macaristan Cumhuriyeti ilân edildi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-cumhuriyeti 1989-10-23, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit. Künye f 1989-10-23 tutarlı."
   }
  ],
  "Termiye (Kythnos)": [
@@ -3444,6 +3508,18 @@
   }
  ],
  "Kişm (Qeshm)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1911",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1515-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Safeviler — https://islamansiklopedisi.org.tr/safeviler",
+   "alinti": "Özbekler’i ağır bir yenilgiye uğrattı (916/1510). Merv ve Herat hâkimiyet altına alındı.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (safevi 1510-12-02, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK: küme günü yalnız bazı yerleşimler için teyitli (Kişm / Zula-Nakfa-Ğındâ ayrı) — yerleşim satırları ayrıca sınanmalı. | YIL DÜZEYİ (1510): Horasan'ın (Merv, Herat) Safevî hâkimiyetine girişi; gün (1510-12-02) TDV'de yok. KARIŞIK: Kişm (Qeshm) Basra Körfezi adasıdır — Horasan fethiyle aynı f taşımaz (Hürmüz Krallığı/Portekiz, Safevî 1622'den: TDV «1622’de Portekizliler, İngilizler’in desteğiyle Hürmüz’den uzaklaştırıldı» — Hürmüz'ü tarihliyor, Kişm'i değil); Kişm için f ayrıca sorgulanmalı. Turşiz/Kelât-ı Nâdirî/Esferâyin Horasan: tutarlı. t dağılımı 1736-03-08 (3) ve 1515-04-01 (1, hangisi belirsiz). Künye f 1501-07-01 < küme f: tutarlı. Kelât-ı Nâdirî adı Nadir Şah dönemine ait."
+  },
   {
    "dosya_satir": "data/yerlesimler.js:1911",
    "alan": "s",
@@ -4210,6 +4286,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:2521",
    "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1918-11-11",
+   "t": "1918-12-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sirbistan-kralligi 1918-11-11, 4 satır); yalnız gün ve devlet teyitli. TDV: «1918’den sonra Sırp-Hırvat ve Sloven Krallığı’nın bir parçası sayılan alan» (yıl düzeyi, Sırbistan Krallığı'na geçiş günü yok). Küme f 1918-11-11 (Travnik, Vişegrad, Visoko, Orašje) için gün kaynağı bulunamadı; Bosna'da Sırp ordusu girişi/Ulusal Konsey günleri başka kaynaktan sorulmalı. Künye t 1918-12-01 = küme t tutarlı; KÜNYE f 1882 ile çelişmez. KARIŞIK: Orašje Posavina (Hırvat çoğunluk) — SHS Devleti (29 Ekim 1918) önceliği tartışmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2521",
+   "alan": "s",
    "d": "yugoslavya",
    "f": "1918-12-01",
    "t": "1945-11-29",
@@ -4218,6 +4306,30 @@
    "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-12-01, 5 satır); yalnız gün ve devlet teyitli. Künye f=1918-12-01 küme f ile tutarlı. ÜLKE DÜZEYİ. KARIŞIK/KONTROL: Kuršumlija 1878'den beri Sırbistan toprağı (önceki sahip sırbistan, SHS'ye 1 Aralık 1918'de birleşme); Travnik/Visoko/Vişegrad/Orašje önceki sahip avusturya (t 1918-11-11 - ara dönem 11 Kas-1 Ara boşluk: TDV'de Bosna-Hersek 28 Ekim 1918 meclis kararı, 25 Kasım 1918 Novi Sad kararı geçiyor, ara boşluk yerleşim düzeyinde beyan gerektirir). t ucu 1941-04-10/1941-08-29 satırları bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2521",
+   "alan": "isg",
+   "d": "avusturya",
+   "f": "1878-07-29",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2521",
+   "alan": "s",
+   "d": "bosna-hersek",
+   "f": "1992-03-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya — https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "3 Mart 1992’de Bosna-Hersek Cumhuriyeti’nin bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bosna-hersek 1992-03-03, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit (TDV Yugoslavya maddesi; TDV Bosna-Hersek yalnız «Mart 1992 başında» referandum diyor, çelişmez). Künye f 1992-03-03 tutarlı."
   }
  ],
  "Yalta": [
@@ -4262,6 +4374,18 @@
   {
    "dosya_satir": "data/yerlesimler_seyrek.js:282",
    "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1918-11-11",
+   "t": "1918-12-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sirbistan-kralligi 1918-11-11, 4 satır); yalnız gün ve devlet teyitli. TDV: «1918’den sonra Sırp-Hırvat ve Sloven Krallığı’nın bir parçası sayılan alan» (yıl düzeyi, Sırbistan Krallığı'na geçiş günü yok). Küme f 1918-11-11 (Travnik, Vişegrad, Visoko, Orašje) için gün kaynağı bulunamadı; Bosna'da Sırp ordusu girişi/Ulusal Konsey günleri başka kaynaktan sorulmalı. Künye t 1918-12-01 = küme t tutarlı; KÜNYE f 1882 ile çelişmez. KARIŞIK: Orašje Posavina (Hırvat çoğunluk) — SHS Devleti (29 Ekim 1918) önceliği tartışmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:282",
+   "alan": "s",
    "d": "yugoslavya",
    "f": "1918-12-01",
    "t": "1945-11-29",
@@ -4270,6 +4394,30 @@
    "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-12-01, 5 satır); yalnız gün ve devlet teyitli. Künye f=1918-12-01 küme f ile tutarlı. ÜLKE DÜZEYİ. KARIŞIK/KONTROL: Kuršumlija 1878'den beri Sırbistan toprağı (önceki sahip sırbistan, SHS'ye 1 Aralık 1918'de birleşme); Travnik/Visoko/Vişegrad/Orašje önceki sahip avusturya (t 1918-11-11 - ara dönem 11 Kas-1 Ara boşluk: TDV'de Bosna-Hersek 28 Ekim 1918 meclis kararı, 25 Kasım 1918 Novi Sad kararı geçiyor, ara boşluk yerleşim düzeyinde beyan gerektirir). t ucu 1941-04-10/1941-08-29 satırları bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:282",
+   "alan": "isg",
+   "d": "avusturya",
+   "f": "1878-07-29",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_seyrek.js:282",
+   "alan": "s",
+   "d": "bosna-hersek",
+   "f": "1992-03-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya — https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "3 Mart 1992’de Bosna-Hersek Cumhuriyeti’nin bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bosna-hersek 1992-03-03, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit (TDV Yugoslavya maddesi; TDV Bosna-Hersek yalnız «Mart 1992 başında» referandum diyor, çelişmez). Künye f 1992-03-03 tutarlı."
   }
  ],
  "Visoko": [
@@ -4288,6 +4436,18 @@
   {
    "dosya_satir": "data/yerlesimler_ek2.js:51",
    "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1918-11-11",
+   "t": "1918-12-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sirbistan-kralligi 1918-11-11, 4 satır); yalnız gün ve devlet teyitli. TDV: «1918’den sonra Sırp-Hırvat ve Sloven Krallığı’nın bir parçası sayılan alan» (yıl düzeyi, Sırbistan Krallığı'na geçiş günü yok). Küme f 1918-11-11 (Travnik, Vişegrad, Visoko, Orašje) için gün kaynağı bulunamadı; Bosna'da Sırp ordusu girişi/Ulusal Konsey günleri başka kaynaktan sorulmalı. Künye t 1918-12-01 = küme t tutarlı; KÜNYE f 1882 ile çelişmez. KARIŞIK: Orašje Posavina (Hırvat çoğunluk) — SHS Devleti (29 Ekim 1918) önceliği tartışmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek2.js:51",
+   "alan": "s",
    "d": "yugoslavya",
    "f": "1918-12-01",
    "t": "1945-11-29",
@@ -4296,6 +4456,30 @@
    "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-12-01, 5 satır); yalnız gün ve devlet teyitli. Künye f=1918-12-01 küme f ile tutarlı. ÜLKE DÜZEYİ. KARIŞIK/KONTROL: Kuršumlija 1878'den beri Sırbistan toprağı (önceki sahip sırbistan, SHS'ye 1 Aralık 1918'de birleşme); Travnik/Visoko/Vişegrad/Orašje önceki sahip avusturya (t 1918-11-11 - ara dönem 11 Kas-1 Ara boşluk: TDV'de Bosna-Hersek 28 Ekim 1918 meclis kararı, 25 Kasım 1918 Novi Sad kararı geçiyor, ara boşluk yerleşim düzeyinde beyan gerektirir). t ucu 1941-04-10/1941-08-29 satırları bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek2.js:51",
+   "alan": "isg",
+   "d": "avusturya",
+   "f": "1878-07-29",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek2.js:51",
+   "alan": "s",
+   "d": "bosna-hersek",
+   "f": "1992-03-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya — https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "3 Mart 1992’de Bosna-Hersek Cumhuriyeti’nin bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bosna-hersek 1992-03-03, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit (TDV Yugoslavya maddesi; TDV Bosna-Hersek yalnız «Mart 1992 başında» referandum diyor, çelişmez). Künye f 1992-03-03 tutarlı."
   }
  ],
  "Bazavluk Seçi": [
@@ -5496,6 +5680,18 @@
   {
    "dosya_satir": "data/yerlesimler_afrika.js:726",
    "alan": "s",
+   "d": "italya",
+   "f": "1889-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eritre — https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "1889’da Asmara ve Keren’i ele geçiren İtalyanlar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1889-01-01, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK: küme günü yalnız bazı yerleşimler için teyitli (Kişm / Zula-Nakfa-Ğındâ ayrı) — yerleşim satırları ayrıca sınanmalı. | YIL DÜZEYİ (1889): Keren (Kerene) için. Sömürge adı: «Eritre sömürgesi adını verdiler (1890)». KARIŞIK: Nakfa, Zula (Masavva çevresi, 1885'te alınmış: «1885’te Masavva‘ ve Beilul’u»), Ğındâ ayrı tarihli olabilir; küme tek f (1889-01-01) kullanıyor. TEK KURAL: ele geçirme 1889 yıl, resmî sömürge 1890 — idareye katma günü kaynakta yok. t 1936-06-01 doğrulanmadı (alıntı yalnız f). Künye f 1861 aşımı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:726",
+   "alan": "s",
    "d": "eritre-ingiliz-askeri-idaresi",
    "f": "1941-04-01",
    "t": "1952-09-15",
@@ -5602,6 +5798,30 @@
   {
    "dosya_satir": "data/yerlesimler_afrika.js:840",
    "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-07-18",
+   "t": "1960-06-26",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali; Vikipedi IPUCU (dayanak degil): en.wikipedia British_Somaliland «1884–1960» (yıl)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1884-07-18, 4 satır); yalnız gün ve devlet teyitli. TDV Somali maddesinde 1884/1887 geçmiyor. Vikipedi ipucu: koruyuculuk 1884 (yıl). Gün 1884-07-18 kaynaksız. t 1960-06-26 TDV'de yok (TDV yalnız «Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)»). Künye f 0927 aşımı yok (İngiltere süregelen)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:840",
+   "alan": "s",
+   "d": "somaliland-1960",
+   "f": "1960-06-26",
+   "t": "1960-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-1960 1960-06-26, 4 satır); yalnız gün ve devlet teyitli. TDV: «Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)» — bu cümle küme t ucunu (1960-07-01, birleşme) tarihliyor; alıntı yalnız t ucunu tarihliyor. f 1960-06-26 (İngiliz Somaliland bağımsızlığı) TDV'de yok. Künye f/t = küme f/t tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:840",
+   "alan": "s",
    "d": "somali-cumhuriyeti",
    "f": "1960-07-01",
    "t": "1991-05-18",
@@ -5610,6 +5830,20 @@
    "alinti": "The United States recognized the Somali Republic on July 1, 1960.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somali-cumhuriyeti 1960-07-01, 14 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | LoC Somalia Country Study (arama özeti): British Somaliland 26 Haziran 1960 bağımsız, 1 Temmuz 1960'ta Trust Territory ile birleşip Somali Cumhuriyeti. Okunan: Office of the Historian. Künye f tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:840",
+   "alan": "s",
+   "d": "somaliland-cumhuriyeti",
+   "f": "1991-05-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
+   "oneri": {
+    "f": "1991-05-28"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
   }
  ],
  "Lasanod": [
@@ -5628,6 +5862,30 @@
   {
    "dosya_satir": "data/yerlesimler_afrika.js:849",
    "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-07-18",
+   "t": "1960-06-26",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali; Vikipedi IPUCU (dayanak degil): en.wikipedia British_Somaliland «1884–1960» (yıl)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1884-07-18, 4 satır); yalnız gün ve devlet teyitli. TDV Somali maddesinde 1884/1887 geçmiyor. Vikipedi ipucu: koruyuculuk 1884 (yıl). Gün 1884-07-18 kaynaksız. t 1960-06-26 TDV'de yok (TDV yalnız «Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)»). Künye f 0927 aşımı yok (İngiltere süregelen)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:849",
+   "alan": "s",
+   "d": "somaliland-1960",
+   "f": "1960-06-26",
+   "t": "1960-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-1960 1960-06-26, 4 satır); yalnız gün ve devlet teyitli. TDV: «Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)» — bu cümle küme t ucunu (1960-07-01, birleşme) tarihliyor; alıntı yalnız t ucunu tarihliyor. f 1960-06-26 (İngiliz Somaliland bağımsızlığı) TDV'de yok. Künye f/t = küme f/t tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:849",
+   "alan": "s",
    "d": "somali-cumhuriyeti",
    "f": "1960-07-01",
    "t": "1991-05-18",
@@ -5636,6 +5894,20 @@
    "alinti": "The United States recognized the Somali Republic on July 1, 1960.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somali-cumhuriyeti 1960-07-01, 14 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | LoC Somalia Country Study (arama özeti): British Somaliland 26 Haziran 1960 bağımsız, 1 Temmuz 1960'ta Trust Territory ile birleşip Somali Cumhuriyeti. Okunan: Office of the Historian. Künye f tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:849",
+   "alan": "s",
+   "d": "somaliland-cumhuriyeti",
+   "f": "1991-05-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
+   "oneri": {
+    "f": "1991-05-28"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
   }
  ],
  "Ebû Hamed": [
@@ -6030,6 +6302,30 @@
   {
    "dosya_satir": "data/yerlesimler_ortaasya2.js:192",
    "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kazakistan — https://islamansiklopedisi.org.tr/kazakistan; Kazaklar — https://islamansiklopedisi.org.tr/kazaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kazak-hanligi 1500-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Kazaklar'da 1465/1500 yok; Kazakistan'da Kazak Hanlığı kuruluşu yıl vermiyor. Künye f 1465 < küme f 1500 (künye içinde). KARIŞIK: t dağılımı 1847 (3) ve 1831 (1; Aral kuzeyi/Küçük Cüz veya Sığnak?). TDV: «Ruslar Kazaklar’ın han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi» (başka olay)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:192",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kazakistan — https://islamansiklopedisi.org.tr/kazakistan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1847-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Kazakistan: 1822 Sibirya Kazakları Nizamnamesi (Orta Cüz idaresi), «han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi»; 1847 f için tarihleyen cümle yok (başka olaylar). KARIŞIK: bölgeye göre Rus idaresi 1822/1845 öncesi başlıyor; tek f 1847-01-01 ülke düzeyi yaklaşıklık. Künye aşımı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:192",
+   "alan": "s",
    "d": "rusya-gecici-hukumet",
    "f": "1917-03-15",
    "t": "1917-11-07",
@@ -6128,6 +6424,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (irlanda-serbest-devlet 1922-12-06, 6 satır); yalnız gün ve devlet teyitli. WebFetch/arama özeti, ipucu düzeyi: Anayasa 5 Aralık 1922 UK Kraliyet onayı, 6 Aralık 1922 kraliyet bildirisiyle yürürlük. Kabul kaynak okunamadı; hüküm KAYNAKLI değil. Künye f=1922-12-06 tutarlı. Kuzey İrlanda'ya dahil olmayan 6 yerleşim (Ennis, Cavan, Waterford, Galway, Wexford, Donegal) — hepsi güney 26 il; Cavan/Donegal Ulster'da ama NI dışı, doğru. TDV'de madde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:140",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV (arama/irlanda — madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (irlanda 1000-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV'de İrlanda maddesi yok; Norman/1171/1281 anahtarları bulunamadı. KARIŞIK: t 1171 (Wexford: Norman fethi) ile t 1281 (Galway, Donegal, Derry) farklı; 1281-01-01 ne olayı tarihliyor belirsiz. Künye f 1000-01-01 = küme f. Bakılmadı: Dictionary of Irish Biography, Cambridge Hist. of Ireland."
   }
  ],
  "Wexford": [
@@ -6142,6 +6450,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (irlanda-serbest-devlet 1922-12-06, 6 satır); yalnız gün ve devlet teyitli. WebFetch/arama özeti, ipucu düzeyi: Anayasa 5 Aralık 1922 UK Kraliyet onayı, 6 Aralık 1922 kraliyet bildirisiyle yürürlük. Kabul kaynak okunamadı; hüküm KAYNAKLI değil. Künye f=1922-12-06 tutarlı. Kuzey İrlanda'ya dahil olmayan 6 yerleşim (Ennis, Cavan, Waterford, Galway, Wexford, Donegal) — hepsi güney 26 il; Cavan/Donegal Ulster'da ama NI dışı, doğru. TDV'de madde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:157",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1000-01-01",
+   "t": "1171-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV (arama/irlanda — madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (irlanda 1000-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV'de İrlanda maddesi yok; Norman/1171/1281 anahtarları bulunamadı. KARIŞIK: t 1171 (Wexford: Norman fethi) ile t 1281 (Galway, Donegal, Derry) farklı; 1281-01-01 ne olayı tarihliyor belirsiz. Künye f 1000-01-01 = küme f. Bakılmadı: Dictionary of Irish Biography, Cambridge Hist. of Ireland."
   }
  ],
  "Donegal": [
@@ -6168,6 +6488,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (irlanda-serbest-devlet 1922-12-06, 6 satır); yalnız gün ve devlet teyitli. WebFetch/arama özeti, ipucu düzeyi: Anayasa 5 Aralık 1922 UK Kraliyet onayı, 6 Aralık 1922 kraliyet bildirisiyle yürürlük. Kabul kaynak okunamadı; hüküm KAYNAKLI değil. Künye f=1922-12-06 tutarlı. Kuzey İrlanda'ya dahil olmayan 6 yerleşim (Ennis, Cavan, Waterford, Galway, Wexford, Donegal) — hepsi güney 26 il; Cavan/Donegal Ulster'da ama NI dışı, doğru. TDV'de madde yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:160",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV (arama/irlanda — madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (irlanda 1000-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV'de İrlanda maddesi yok; Norman/1171/1281 anahtarları bulunamadı. KARIŞIK: t 1171 (Wexford: Norman fethi) ile t 1281 (Galway, Donegal, Derry) farklı; 1281-01-01 ne olayı tarihliyor belirsiz. Künye f 1000-01-01 = küme f. Bakılmadı: Dictionary of Irish Biography, Cambridge Hist. of Ireland."
   }
  ],
  "Brest": [
@@ -6908,6 +7240,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:482",
    "alan": "s",
+   "d": "italya",
+   "f": "1861-03-17",
+   "t": "1943-09-23",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Kingdom_of_Italy",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-03-17, 4 satır); yalnız gün ve devlet teyitli. Vikipedi ipucu: «existed from 17 March 1861» ; KAYNAKLI değil (Treccani sayfası bulunamadı). KARIŞIK: Chiavenna (Lombardiya, Sardinya'ya 1859 Zürih), Piombino/Orbetello (Toskana, 1860 ilhak), Gaeta (İki Sicilya'dan 13 Şubat 1861 düştü) — hepsi 1861-03-17'de İtalya'ya geçmiş sayılıyor; önceki sahipler zincirde. t 1946-06-18 (3) ve 1943-09-23 (1; muhtemelen RSI/ayrı). Künye f = küme f."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:482",
+   "alan": "s",
    "d": "italya-cumhuriyeti",
    "f": "1946-06-18",
    "t": "2000-12-31",
@@ -7097,6 +7441,18 @@
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:661",
    "alan": "s",
+   "d": "italya",
+   "f": "1861-03-17",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Kingdom_of_Italy",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-03-17, 4 satır); yalnız gün ve devlet teyitli. Vikipedi ipucu: «existed from 17 March 1861» ; KAYNAKLI değil (Treccani sayfası bulunamadı). KARIŞIK: Chiavenna (Lombardiya, Sardinya'ya 1859 Zürih), Piombino/Orbetello (Toskana, 1860 ilhak), Gaeta (İki Sicilya'dan 13 Şubat 1861 düştü) — hepsi 1861-03-17'de İtalya'ya geçmiş sayılıyor; önceki sahipler zincirde. t 1946-06-18 (3) ve 1943-09-23 (1; muhtemelen RSI/ayrı). Künye f = küme f."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:661",
+   "alan": "s",
    "d": "italya-cumhuriyeti",
    "f": "1946-06-18",
    "t": "2000-12-31",
@@ -7108,6 +7464,18 @@
   }
  ],
  "Orbetello": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:667",
+   "alan": "s",
+   "d": "italya",
+   "f": "1861-03-17",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Kingdom_of_Italy",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-03-17, 4 satır); yalnız gün ve devlet teyitli. Vikipedi ipucu: «existed from 17 March 1861» ; KAYNAKLI değil (Treccani sayfası bulunamadı). KARIŞIK: Chiavenna (Lombardiya, Sardinya'ya 1859 Zürih), Piombino/Orbetello (Toskana, 1860 ilhak), Gaeta (İki Sicilya'dan 13 Şubat 1861 düştü) — hepsi 1861-03-17'de İtalya'ya geçmiş sayılıyor; önceki sahipler zincirde. t 1946-06-18 (3) ve 1943-09-23 (1; muhtemelen RSI/ayrı). Künye f = küme f."
+  },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:667",
    "alan": "s",
@@ -7201,6 +7569,22 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hindistan-cumhuriyeti 1947-08-15, 21 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | ÜLKE DÜZEYİ. Resmî mevzuat. Künye 'Dominyon 1947; Cumhuriyet 1950-01-26' - künye f doğru. Bilinen istisna: 1947-08-15'te Hindistan'a katılmamış prenslik devletleri (Haydarabad 1948-09, Cunagadh 1947-11, Keşmir 1947-10-26, Fransız/Portekiz kolonileri Pondicherry/Goa) ve Pakistan'a giden Pencap/Bengal bölgeleri."
   }
  ],
+ "Karaçi": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:664",
+   "alan": "s",
+   "d": "pakistan",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Pakistan — https://islamansiklopedisi.org.tr/pakistan",
+   "alinti": "plan 14 Ağustos 1947’de fiilen uygulamaya konuldu",
+   "oneri": {
+    "f": "1947-08-14"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
+  }
+ ],
  "Pandua (Hazret Pandua)": [
   {
    "dosya_satir": "data/yerlesimler_asya.js:1002",
@@ -7213,6 +7597,22 @@
    "alinti": "As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hindistan-cumhuriyeti 1947-08-15, 21 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | ÜLKE DÜZEYİ. Resmî mevzuat. Künye 'Dominyon 1947; Cumhuriyet 1950-01-26' - künye f doğru. Bilinen istisna: 1947-08-15'te Hindistan'a katılmamış prenslik devletleri (Haydarabad 1948-09, Cunagadh 1947-11, Keşmir 1947-10-26, Fransız/Portekiz kolonileri Pondicherry/Goa) ve Pakistan'a giden Pencap/Bengal bölgeleri."
+  }
+ ],
+ "Çatgam (Chittagong)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:1053",
+   "alan": "s",
+   "d": "pakistan",
+   "f": "1947-08-15",
+   "t": "1971-12-16",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Pakistan — https://islamansiklopedisi.org.tr/pakistan",
+   "alinti": "plan 14 Ağustos 1947’de fiilen uygulamaya konuldu",
+   "oneri": {
+    "f": "1947-08-14"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
   }
  ],
  "Kolhapûr": [
@@ -7377,6 +7777,18 @@
   {
    "dosya_satir": "data/yerlesimler_asya.js:3228",
    "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Japonya — https://islamansiklopedisi.org.tr/japonya; tokugawa yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (edo-bakufu 1603-03-24, 4 satır); yalnız gün ve devlet teyitli. TDV Japonya: «1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı» (t ucu, yıl); 1603 Şogunluk atamasından TDV'de söz yok. Vikipedi ipucu: Meiji Restorasyonu 3 Ocak 1868 (t ucu). Takvim: 24 Mart 1603 = Keichō 8/2/12 (NAOJ ile çevrilecek, çevirmedim; kaynak okunmadı). Künye f/t = küme f/t."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3228",
+   "alan": "s",
    "d": "meiji-japonya",
    "f": "1868-01-03",
    "t": "1947-05-03",
@@ -7385,9 +7797,33 @@
    "alinti": "girmesini sağlayan Meiji dönemi başladı",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1868-01-03, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1868). Gün 1868-01-03 (Ōsei fukkō) teyitsiz; Japon takvimi günü elle çevrilmedi (慶応3年12月9日 çevirisi toplu EMRELİC). Tam cümle: '1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı' (15 kelime sınırı için kısaltıldı). ÜLKE DÜZEYİ; Kunashiri (Kuril, 1869 sonrası/1875 Petersburg Antlaşması) ve Fukui/Nagazaki/Matsumae/Yamaguchi farklı sahiplik geçmişi - KARIŞIK, t_dagilim 1869-01-27 (Matsumae?) bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3228",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Japonya — https://islamansiklopedisi.org.tr/japonya; en.wikipedia Japan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (japonya-devleti 1947-05-03, 4 satır); yalnız gün ve devlet teyitli. TDV Japonya'da 1947 Anayasası yürürlük günü yok (yalnız Egami Namio tezi 1947). Vikipedi 3 May 1947 içermiyor. Künye f = küme f (1947-05-03: yürürlük günü). Bakılmadı: NDL/Japon hakemli kaynak."
   }
  ],
  "Nagazaki": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3313",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Japonya — https://islamansiklopedisi.org.tr/japonya; tokugawa yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (edo-bakufu 1603-03-24, 4 satır); yalnız gün ve devlet teyitli. TDV Japonya: «1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı» (t ucu, yıl); 1603 Şogunluk atamasından TDV'de söz yok. Vikipedi ipucu: Meiji Restorasyonu 3 Ocak 1868 (t ucu). Takvim: 24 Mart 1603 = Keichō 8/2/12 (NAOJ ile çevrilecek, çevirmedim; kaynak okunmadı). Künye f/t = küme f/t."
+  },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3313",
    "alan": "s",
@@ -7399,6 +7835,18 @@
    "alinti": "girmesini sağlayan Meiji dönemi başladı",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1868-01-03, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1868). Gün 1868-01-03 (Ōsei fukkō) teyitsiz; Japon takvimi günü elle çevrilmedi (慶応3年12月9日 çevirisi toplu EMRELİC). Tam cümle: '1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı' (15 kelime sınırı için kısaltıldı). ÜLKE DÜZEYİ; Kunashiri (Kuril, 1869 sonrası/1875 Petersburg Antlaşması) ve Fukui/Nagazaki/Matsumae/Yamaguchi farklı sahiplik geçmişi - KARIŞIK, t_dagilim 1869-01-27 (Matsumae?) bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3313",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Japonya — https://islamansiklopedisi.org.tr/japonya; en.wikipedia Japan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (japonya-devleti 1947-05-03, 4 satır); yalnız gün ve devlet teyitli. TDV Japonya'da 1947 Anayasası yürürlük günü yok (yalnız Egami Namio tezi 1947). Vikipedi 3 May 1947 içermiyor. Künye f = küme f (1947-05-03: yürürlük günü). Bakılmadı: NDL/Japon hakemli kaynak."
   }
  ],
  "Matsumae": [
@@ -7413,6 +7861,30 @@
    "alinti": "girmesini sağlayan Meiji dönemi başladı",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1868-01-03, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1868). Gün 1868-01-03 (Ōsei fukkō) teyitsiz; Japon takvimi günü elle çevrilmedi (慶応3年12月9日 çevirisi toplu EMRELİC). Tam cümle: '1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı' (15 kelime sınırı için kısaltıldı). ÜLKE DÜZEYİ; Kunashiri (Kuril, 1869 sonrası/1875 Petersburg Antlaşması) ve Fukui/Nagazaki/Matsumae/Yamaguchi farklı sahiplik geçmişi - KARIŞIK, t_dagilim 1869-01-27 (Matsumae?) bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3401",
+   "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Japonya — https://islamansiklopedisi.org.tr/japonya; tokugawa yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (edo-bakufu 1603-03-24, 4 satır); yalnız gün ve devlet teyitli. TDV Japonya: «1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı» (t ucu, yıl); 1603 Şogunluk atamasından TDV'de söz yok. Vikipedi ipucu: Meiji Restorasyonu 3 Ocak 1868 (t ucu). Takvim: 24 Mart 1603 = Keichō 8/2/12 (NAOJ ile çevrilecek, çevirmedim; kaynak okunmadı). Künye f/t = küme f/t."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3401",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Japonya — https://islamansiklopedisi.org.tr/japonya; en.wikipedia Japan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (japonya-devleti 1947-05-03, 4 satır); yalnız gün ve devlet teyitli. TDV Japonya'da 1947 Anayasası yürürlük günü yok (yalnız Egami Namio tezi 1947). Vikipedi 3 May 1947 içermiyor. Künye f = küme f (1947-05-03: yürürlük günü). Bakılmadı: NDL/Japon hakemli kaynak."
   }
  ],
  "Mrauk U (Arakan)": [
@@ -8225,6 +8697,30 @@
   {
    "dosya_satir": "data/yerlesimler_ek9.js:134",
    "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kazakistan — https://islamansiklopedisi.org.tr/kazakistan; Kazaklar — https://islamansiklopedisi.org.tr/kazaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kazak-hanligi 1500-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Kazaklar'da 1465/1500 yok; Kazakistan'da Kazak Hanlığı kuruluşu yıl vermiyor. Künye f 1465 < küme f 1500 (künye içinde). KARIŞIK: t dağılımı 1847 (3) ve 1831 (1; Aral kuzeyi/Küçük Cüz veya Sığnak?). TDV: «Ruslar Kazaklar’ın han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi» (başka olay)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek9.js:134",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kazakistan — https://islamansiklopedisi.org.tr/kazakistan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1847-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Kazakistan: 1822 Sibirya Kazakları Nizamnamesi (Orta Cüz idaresi), «han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi»; 1847 f için tarihleyen cümle yok (başka olaylar). KARIŞIK: bölgeye göre Rus idaresi 1822/1845 öncesi başlıyor; tek f 1847-01-01 ülke düzeyi yaklaşıklık. Künye aşımı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek9.js:134",
+   "alan": "s",
    "d": "rusya-gecici-hukumet",
    "f": "1917-03-15",
    "t": "1917-11-07",
@@ -8689,6 +9185,30 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek24.js:134",
+   "alan": "s",
+   "d": "bulgaristan-halk",
+   "f": "1946-09-15",
+   "t": "1990-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "1946’da yapılan halk oylamasıyla cumhuriyet ilân edildi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bulgaristan-halk 1946-09-15, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (1946): cumhuriyetin ilânı; gün (15 Eylül) TDV'de yok (halk oylaması 8 Eylül, ilân 15 Eylül Vikipedi bilgisi, okunmadı). Künye adı «Halk Cumhuriyeti 1947-12-04». t 1990-11-15 TDV'de yok: yalnız «1990 yılında çok partili demokratik parlamenter bir sistem kurulmuş» (yıl)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek24.js:134",
+   "alan": "s",
+   "d": "bulgaristan-cumhuriyeti",
+   "f": "1990-11-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bulgaristan-cumhuriyeti 1990-11-15, 4 satır); yalnız gün ve devlet teyitli. TDV: «Ülkede 1990 yılında çok partili demokratik parlamenter bir sistem kurulmuş» — rejim değişimini yıl düzeyinde veriyor, devlet adının (Bulgaristan Cumhuriyeti) 15 Kasım 1990 değişimini tarihlemiyor; başka olay. Künye f = küme f."
   }
  ],
  "Münbiç": [
@@ -8809,6 +9329,18 @@
    "alinti": "7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1908-10-05, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): Bosna 1908-10-05 imza (önceki karar) kalır; TDV 10-07 ic_not. | TDV esas: ilhak ilanı 7 Ekim 1908; atlas 5 Ekim = Franz Joseph manifesto tarihi (kaynak okunmadı, ipucu). İkinci bağımsız akademik kaynak aranmadı (TDV esas kuralı; çelişki ic_not'ta iki kaynakla beyan edilmeli: 5 Ekim manifesto tarihi, 6-7 Ekim duyuru). Künye avusturya eşleşmedi (null). ÖLÇÜT: idareye katma - ilhak ilanı. Vişegrad/Travnik/Visoko/Orašje Bosna-Hersek ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:302",
+   "alan": "s",
+   "d": "bosna-hersek",
+   "f": "1992-03-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya — https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "3 Mart 1992’de Bosna-Hersek Cumhuriyeti’nin bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bosna-hersek 1992-03-03, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit (TDV Yugoslavya maddesi; TDV Bosna-Hersek yalnız «Mart 1992 başında» referandum diyor, çelişmez). Künye f 1992-03-03 tutarlı."
   }
  ],
  "Ulukışla": [
@@ -8901,6 +9433,18 @@
    "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-12-01, 5 satır); yalnız gün ve devlet teyitli. Künye f=1918-12-01 küme f ile tutarlı. ÜLKE DÜZEYİ. KARIŞIK/KONTROL: Kuršumlija 1878'den beri Sırbistan toprağı (önceki sahip sırbistan, SHS'ye 1 Aralık 1918'de birleşme); Travnik/Visoko/Vişegrad/Orašje önceki sahip avusturya (t 1918-11-11 - ara dönem 11 Kas-1 Ara boşluk: TDV'de Bosna-Hersek 28 Ekim 1918 meclis kararı, 25 Kasım 1918 Novi Sad kararı geçiyor, ara boşluk yerleşim düzeyinde beyan gerektirir). t ucu 1941-04-10/1941-08-29 satırları bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:805",
+   "alan": "s",
+   "d": "yugoslavya-federal-cumhuriyeti",
+   "f": "1992-04-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya — https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "27 Nisan 1992’de Sırbistan ve Karadağ ... Yugoslavya Federal Cumhuriyeti ... adı altında ... yeni bir Yugoslav devleti kurdu",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya-federal-cumhuriyeti 1992-04-27, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit. Künye f 1992-04-27 tutarlı. Küme t 2000-12-31 (veri sınırı); TDV: «4 Şubat 2003’te kabul edilen anayasal şartla Yugoslavya Federal Cumhuriyeti yerine Sırbistan ve Karadağ Devlet Birliği kuruldu» = künye t 2003-02-04 ile tutarlı. Baç/Becskerek/Dimitrofça Voyvodina, Kurşunlu Sırbistan: hepsi FRY toprağı (Kosova hariç sorun yok)."
   }
  ],
  "Nyenskans (Nyen)": [
@@ -8965,6 +9509,18 @@
    "alinti": "низложение Временного правительства ... 25 октября (7 ноября) 1917 г.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sovyet-rusya 1917-11-07, 115 satır); yalnız gün ve devlet teyitli. Çift tarih kaynakta: Jülyen 25 Ekim = Gregoryen 7 Kasım 1917; atlas N.S. (EMRELİC kararı, 5 Kas). | önceki: ÜLKE DÜZEYİ. Okunan akademik sayfalar 25 Ekim (O.S.) dışında tutarsız (Marquette 'November 6 (October 26)' yazıyor, 7 Kasım vermiyor; Miami '25 Ekim' takvimsiz). Çift tarihli kaynak bulunamadı. İpucu (arama özeti, okunmadı): iktidar el değiştirmesi gecesi 24-25 Ekim O.S. = 6-7 Kasım N.S.; Sovnarkom 26 Ekim O.S. = 8 Kasım N.S. Gün hükmü: 1917-11-07 makul ama kaynakla kapatılamadı; 8 Kasım (Sovnarkom/Kışlık Saray 25-26 Ekim O.S.) alternatifi var. Künye f=küme f. Bilinen istisna: Alman işgalindeki Kurland/Litvanya/Polonya, Ukrayna/Finlandiya/Baltık ve Kafkasya (1917-18 fiilen Sovyet dışı); bu yüzden t_dagilim'de 1918-11-18 gibi farklılıklar. Bitiş günleri (1991-12-26 vb.) teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1014",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1772-08-05",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Lehistan (U+lehistan) ve Encyclopedia of Ukraine Lublin Union sayfası (kısa sayfa)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (lehistan 1569-07-01, 4 satır); yalnız gün ve devlet teyitli. TDV Lehistan maddesinde 1569/Lublin geçmiyor; Encyclopedia of Ukraine sayfası 1569 içermiyor (çekilen sayfa kısa). Künye f = küme f (1569-07-01) tutarlı. KARIŞIK: Yazlofça (Yazlovets, Podolya) , Mogilev (Doğu Belarus), Pinsk, Lutsk (Volhynia) aynı f ile; Lutsk/Volhynia Lublin'de Litvanya'dan Polonya Tacı'na geçti, Pinsk/Mogilev Litvanya'da kaldı, Yazlovets 1569 öncesi Polonya Podolyası — her yer için ayrı kontrol gerekir. t dağılımı 4 farklı (1672 Bucaş, 1772/1793/1795 bölüşmeler). Bakılmadı: Treccani/Polski Słownik."
   }
  ],
  "Kılburun (Kinburn)": [
@@ -9029,6 +9585,30 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1082",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi — https://islamansiklopedisi.org.tr/musa-celebi (Emîr Süleyman maddesi slug'ı bulunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:1082",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi, Fahameddin Başar, 2020 — https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
   }
  ],
  "İmranlı": [
@@ -9060,6 +9640,30 @@
     "not": "1918-11-16 kırılması macaristan-halk-cumhuriyeti'ne; 1919-03-21 macar-sovyet-cumhuriyeti (fiilî kontrol); 1919-08-01'den macaristan-naiplik (künye f → 1919-08-01); Romen işgali şehir şehir isg romanya (Budapeşte 1919-08-04 → 11-14/16)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-naiplik 1918-11-16, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-39): Peidl/Friedrich/Huszár → Horthy aynı polity; 1920-03-01 naiplik ilanı ic_not; künye düzeltmesi LAB SALI UYGULA'da. | KARAR EMRELİC (gece-38): künye f → 1920-03-01 (Horthy naipliği). ÖLÇÜM (LAB PAZAR): ayrı künyeler VAR — macaristan-halk-cumhuriyeti (Károlyi) 1918-11-16 → 1919-03-21 (devletler.js:17210), macar-sovyet-cumhuriyeti 1919-03-21 → 1919-08-01 (17204); macaristan-naiplik f 1918-11-16 bunlarla ÇAKIŞIYOR. 1919-08-01 → 1920-03-01 (Romen işgali / Friedrich hükûmeti) künyesiz. LAB SALI'ya. | LAB PAZAR: kaynak kurum portalı (habsburger.net), akademik değil — ONERI (Austria-Forum emsali). | sayfa.py ham metin. Künye f=1918-11-16 ile küme f tutarlı. Cumhuriyet ilanı günü. DİKKAT: künye adı 'Naiplik' ama f cumhuriyet ilanı (Naiplik 1920-03-01'de başlar); ad/f uyumsuzluğu LAB'a. TDV Macaristan madde: halk cumhuriyeti ilanını gün vermeden anlatıyor (31 Ekim 1918 devrim); TDV'de 16 Kasım 1918 yok. Habsburger.net müze/kurum portalı, tarihçi yazarlı; hakemli makale değil - Emre uygun görmezse ONERI say. t ucu (Trianon 1920-06-04 olan 1 yerleşim) bu satırda doğrulanmadı. Hatvan/Debrecen/Szombathely vb. ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kdmacar.js:114",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Macaristan — https://islamansiklopedisi.org.tr/macaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-halk 1946-02-01, 4 satır); yalnız gün ve devlet teyitli. TDV Macaristan maddesi 1946 cumhuriyet ilânını/1 Şubat 1946'yı içermiyor (yalnız 1949 Komekon ve 23 Ekim 1989). t ucu için TDV: «23 Ekim 1989 tarihinde halk cumhuriyeti yerine Macaristan Cumhuriyeti ilân edildi» = küme t 1989-10-23 (alıntı yalnız t ucunu tarihliyor). Künye adı «II. Cumhuriyet 1946 → Halk Cumhuriyeti 1949-08-20»: künye f 1946-02-01 küme f ile tutarlı. Bakılmadı: Magyar Katolikus Lexikon."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kdmacar.js:114",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Macaristan — https://islamansiklopedisi.org.tr/macaristan",
+   "alinti": "23 Ekim 1989 tarihinde halk cumhuriyeti yerine Macaristan Cumhuriyeti ilân edildi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-cumhuriyeti 1989-10-23, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit. Künye f 1989-10-23 tutarlı."
   }
  ],
  "Tzintzuntzan": [
@@ -9310,6 +9914,18 @@
    "alinti": "In May 1544 Blasco Núñez Vela, sent by Charles I of Spain to rule as the first viceroy of Peru, arrived in Lima.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanyol-peru 1542-11-20, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | 20 Kasım 1542 Yeni Yasalar (Barselona) arama özetinde; encyclopedia.com yalnız 1542 Yeni Yasalar ve 1544 ilk vali varışı. Kuruluş 1542-11-20 mi fiilî 1544 mü belirsiz. KARIŞIK: t_dagilim 1818 Şili, 1819 Gran Kolombiya, 1821, 1822 Quito, 1824 ayrı olaylar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:583",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV arama/kolombiya (özet), Büyük Kolombiya",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kolombiya-cumhuriyeti 1831-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV arama özeti «1819’da kurulmuş olan Büyük Kolombiya’dan 1829’da Venezuela, 1830’da ...» — arama özeti okunmuş sayılmaz; madde bulunamadı. Künye f 1831-01-01 = küme f (Yeni Granada ayrılış yıl). Bakılmadı: Banco de la República / Biblioteca Luis Ángel Arango."
   }
  ],
  "São Paulo": [
@@ -9418,6 +10034,18 @@
     "not": "Küba: ispanyol-kuba t 1899-01-01 (Havana teslimi; Paris feragati 1898-12-10 ic_not'a); 1899-01-01 → 1902-05-20 s: abd + BEYANLI YAKLAŞIKLIK, isg yok, ic_not 'ABD ilhak etmedi (Teller Değişikliği); askerî hükûmet; künye adayı kuba-abd-askeri-hukumeti'; ardından kuba-cumhuriyeti. s: abd (gerçek) yalnız Porto Riko ve Guam 1898-12-10. | KESİN (EMRELİC): kuba-cumhuriyeti f → 1902-05-20 (TEK ÖLÇÜ teslim; ABD idareyi 05-20 öğlen devretti) — künye düzeltmesi KASA-KUYRUK. ABD askerî dilimi son günü 05-19 (atlas t ucu dışlayıcı: t = 1902-05-20). ic_not aynen: 'the Republic of Cuba was formally installed on May 19, 1902' (history.state.gov/countries/cuba)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1898-12-10, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): Küba kararı. KAYNAK (LAB PAZAR sayfa.py, history.state.gov/countries/cuba): 'the Republic of Cuba was formally installed on May 19, 1902. On May 20, 1902, the United States [ended] its occupation authority' — künye f 05-19 kaynakla uyumlu; ABD işgal yetkisinin devri 05-20 (TEK ÖLÇÜ teslim günü?) — EMRELİC'e. | KARAR EMRELİC (gece-29): Paris 1898-12-10 İspanya feragati, ABD'ye devir yok (Küba). ÖLÇÜM (LAB PAZAR): ABD askerî hükûmeti künyesi YOK; kuba-cumhuriyeti künye f 1902-05-19 (EMRELİC 05-20 — bir gün fark, kaynakla). 1898-12-10 → 1902 arası alttaki s: (ispanyol-kuba t 1898-12-10) boş kalıyor — EMRELİC'e soru. | Paris 1898 Küba'yı devretmedi (history.state.gov) → Küba yerleşimlerinde isg abd (TEK KURAL), s: abd yalnız Porto Riko/Guam. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. KARIŞIK: Paris Antlaşması imza 1898-12-10 (kaynakta 'signed the Treaty of Paris on December 10, 1898'). Puerto Rico (San Juan) bu günde ABD'ye devredildi: KAYNAKLI (s:abd 1898-12-10, TEK ÖLÇÜ imza günü; yürürlük 1899-04-11). Küba (Baracoa, Santiago, Havana, Cienfuegos, Santa Clara) DEVREDİLMEDİ — kaynak 'guaranteeing the independence of Cuba'; ABD yönetimi askerî işgaldir -> isg abd (1899-01-01'den, kaynakla okunmadı) ve s: abd olmamalı; Küba bağımsızlığı 1902-05-20 (t_dagilim). TEK KURAL (işgal=isg). Künye f=1776-07-04 aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1088",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Republic_of_Cuba_(1902–1959)",
+   "alinti": "Raising the Cuban flag on the Governor General's Palace at noon on 20 May 1902",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kuba-cumhuriyeti 1902-05-20, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC: künye f → 1902-05-20 (LAB SALI UYGULA'da). | Vikipedi ipucu 20 Mayıs 1902 (devir günü). KAYNAKLI değil (TDV'de Küba yok). Künye f 1902-05-19, küme f 1902-05-20: 1 gün fark (künye aşımı değil, küme sonra). Karşılık beyanı gerekir."
   }
  ],
  "San Juan": [
@@ -9608,7 +10236,61 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (funj 1504-01-01, 12 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Yalnız yıl (yaklaşık 1504); gün/ay yok — f=1504-01-01 'yalnız yıl teyitli; gün teyitsiz' olarak kalmalı. Britannica (403 değil ama okunmadı): Sennar 1504-05. Künye f=1504-01-01 tutarlı."
   }
  ],
+ "Kutum": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:289",
+   "alan": "s",
+   "d": "tunciler",
+   "f": "1400-01-01",
+   "t": "1695-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Dârfûr — https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tunciler 1400-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Dârfûr yalnız yüzyıl veriyor: «XV. yüzyılda özellikle orta bölgedeki durum tamamen Tuncûrlar’ın lehine dönmüştür»; 1400 yıl/gün düzeyinde tarihlenmiyor (YÜZYIL DÜZEYİ). Künye f 1400-01-01 = küme f, tutarlı. Bakılan: TDV Dârfûr. Bakılmadı: İSAM/DergiPark."
+  }
+ ],
+ "Zâlincî": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:303",
+   "alan": "s",
+   "d": "tunciler",
+   "f": "1400-01-01",
+   "t": "1695-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Dârfûr — https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tunciler 1400-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Dârfûr yalnız yüzyıl veriyor: «XV. yüzyılda özellikle orta bölgedeki durum tamamen Tuncûrlar’ın lehine dönmüştür»; 1400 yıl/gün düzeyinde tarihlenmiyor (YÜZYIL DÜZEYİ). Künye f 1400-01-01 = küme f, tutarlı. Bakılan: TDV Dârfûr. Bakılmadı: İSAM/DergiPark."
+  }
+ ],
+ "Ümmü Keddâde": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:315",
+   "alan": "s",
+   "d": "tunciler",
+   "f": "1400-01-01",
+   "t": "1695-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Dârfûr — https://islamansiklopedisi.org.tr/darfur",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tunciler 1400-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Dârfûr yalnız yüzyıl veriyor: «XV. yüzyılda özellikle orta bölgedeki durum tamamen Tuncûrlar’ın lehine dönmüştür»; 1400 yıl/gün düzeyinde tarihlenmiyor (YÜZYIL DÜZEYİ). Künye f 1400-01-01 = küme f, tutarlı. Bakılan: TDV Dârfûr. Bakılmadı: İSAM/DergiPark."
+  }
+ ],
  "Nakfa": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
+   "alan": "s",
+   "d": "italya",
+   "f": "1889-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eritre — https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "1889’da Asmara ve Keren’i ele geçiren İtalyanlar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1889-01-01, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK: küme günü yalnız bazı yerleşimler için teyitli (Kişm / Zula-Nakfa-Ğındâ ayrı) — yerleşim satırları ayrıca sınanmalı. | YIL DÜZEYİ (1889): Keren (Kerene) için. Sömürge adı: «Eritre sömürgesi adını verdiler (1890)». KARIŞIK: Nakfa, Zula (Masavva çevresi, 1885'te alınmış: «1885’te Masavva‘ ve Beilul’u»), Ğındâ ayrı tarihli olabilir; küme tek f (1889-01-01) kullanıyor. TEK KURAL: ele geçirme 1889 yıl, resmî sömürge 1890 — idareye katma günü kaynakta yok. t 1936-06-01 doğrulanmadı (alıntı yalnız f). Künye f 1861 aşımı yok."
+  },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
    "alan": "s",
@@ -9651,6 +10333,18 @@
   }
  ],
  "Ğındâ": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:401",
+   "alan": "s",
+   "d": "italya",
+   "f": "1889-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eritre — https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "1889’da Asmara ve Keren’i ele geçiren İtalyanlar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1889-01-01, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK: küme günü yalnız bazı yerleşimler için teyitli (Kişm / Zula-Nakfa-Ğındâ ayrı) — yerleşim satırları ayrıca sınanmalı. | YIL DÜZEYİ (1889): Keren (Kerene) için. Sömürge adı: «Eritre sömürgesi adını verdiler (1890)». KARIŞIK: Nakfa, Zula (Masavva çevresi, 1885'te alınmış: «1885’te Masavva‘ ve Beilul’u»), Ğındâ ayrı tarihli olabilir; küme tek f (1889-01-01) kullanıyor. TEK KURAL: ele geçirme 1889 yıl, resmî sömürge 1890 — idareye katma günü kaynakta yok. t 1936-06-01 doğrulanmadı (alıntı yalnız f). Künye f 1861 aşımı yok."
+  },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:401",
    "alan": "s",
@@ -10376,6 +11070,30 @@
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:624",
    "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-07-18",
+   "t": "1960-06-26",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali; Vikipedi IPUCU (dayanak degil): en.wikipedia British_Somaliland «1884–1960» (yıl)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1884-07-18, 4 satır); yalnız gün ve devlet teyitli. TDV Somali maddesinde 1884/1887 geçmiyor. Vikipedi ipucu: koruyuculuk 1884 (yıl). Gün 1884-07-18 kaynaksız. t 1960-06-26 TDV'de yok (TDV yalnız «Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)»). Künye f 0927 aşımı yok (İngiltere süregelen)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:624",
+   "alan": "s",
+   "d": "somaliland-1960",
+   "f": "1960-06-26",
+   "t": "1960-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-1960 1960-06-26, 4 satır); yalnız gün ve devlet teyitli. TDV: «Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)» — bu cümle küme t ucunu (1960-07-01, birleşme) tarihliyor; alıntı yalnız t ucunu tarihliyor. f 1960-06-26 (İngiliz Somaliland bağımsızlığı) TDV'de yok. Künye f/t = küme f/t tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:624",
+   "alan": "s",
    "d": "somali-cumhuriyeti",
    "f": "1960-07-01",
    "t": "1991-05-18",
@@ -10384,6 +11102,20 @@
    "alinti": "The United States recognized the Somali Republic on July 1, 1960.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somali-cumhuriyeti 1960-07-01, 14 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | LoC Somalia Country Study (arama özeti): British Somaliland 26 Haziran 1960 bağımsız, 1 Temmuz 1960'ta Trust Territory ile birleşip Somali Cumhuriyeti. Okunan: Office of the Historian. Künye f tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:624",
+   "alan": "s",
+   "d": "somaliland-cumhuriyeti",
+   "f": "1991-05-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
+   "oneri": {
+    "f": "1991-05-28"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
   }
  ],
  "Afgoye": [
@@ -10944,6 +11676,18 @@
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:1073",
    "alan": "s",
+   "d": "italya",
+   "f": "1889-01-01",
+   "t": "1936-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Eritre — https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "1889’da Asmara ve Keren’i ele geçiren İtalyanlar",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1889-01-01, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK: küme günü yalnız bazı yerleşimler için teyitli (Kişm / Zula-Nakfa-Ğındâ ayrı) — yerleşim satırları ayrıca sınanmalı. | YIL DÜZEYİ (1889): Keren (Kerene) için. Sömürge adı: «Eritre sömürgesi adını verdiler (1890)». KARIŞIK: Nakfa, Zula (Masavva çevresi, 1885'te alınmış: «1885’te Masavva‘ ve Beilul’u»), Ğındâ ayrı tarihli olabilir; küme tek f (1889-01-01) kullanıyor. TEK KURAL: ele geçirme 1889 yıl, resmî sömürge 1890 — idareye katma günü kaynakta yok. t 1936-06-01 doğrulanmadı (alıntı yalnız f). Künye f 1861 aşımı yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1073",
+   "alan": "s",
    "d": "eritre-ingiliz-askeri-idaresi",
    "f": "1941-04-01",
    "t": "1952-09-15",
@@ -10998,6 +11742,30 @@
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:1087",
    "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-07-18",
+   "t": "1960-06-26",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali; Vikipedi IPUCU (dayanak degil): en.wikipedia British_Somaliland «1884–1960» (yıl)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1884-07-18, 4 satır); yalnız gün ve devlet teyitli. TDV Somali maddesinde 1884/1887 geçmiyor. Vikipedi ipucu: koruyuculuk 1884 (yıl). Gün 1884-07-18 kaynaksız. t 1960-06-26 TDV'de yok (TDV yalnız «Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)»). Künye f 0927 aşımı yok (İngiltere süregelen)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1087",
+   "alan": "s",
+   "d": "somaliland-1960",
+   "f": "1960-06-26",
+   "t": "1960-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-1960 1960-06-26, 4 satır); yalnız gün ve devlet teyitli. TDV: «Somali Devleti bağımsızlığını ilân etti (1 Temmuz 1960)» — bu cümle küme t ucunu (1960-07-01, birleşme) tarihliyor; alıntı yalnız t ucunu tarihliyor. f 1960-06-26 (İngiliz Somaliland bağımsızlığı) TDV'de yok. Künye f/t = küme f/t tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1087",
+   "alan": "s",
    "d": "somali-cumhuriyeti",
    "f": "1960-07-01",
    "t": "1991-05-18",
@@ -11006,6 +11774,20 @@
    "alinti": "The United States recognized the Somali Republic on July 1, 1960.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somali-cumhuriyeti 1960-07-01, 14 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | LoC Somalia Country Study (arama özeti): British Somaliland 26 Haziran 1960 bağımsız, 1 Temmuz 1960'ta Trust Territory ile birleşip Somali Cumhuriyeti. Okunan: Office of the Historian. Künye f tutarlı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1087",
+   "alan": "s",
+   "d": "somaliland-cumhuriyeti",
+   "f": "1991-05-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Somali — https://islamansiklopedisi.org.tr/somali",
+   "alinti": "iç karışıklıkları bahane ederek 28 Mayıs 1991’de bağımsızlığını ilân etti",
+   "oneri": {
+    "f": "1991-05-28"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (somaliland-cumhuriyeti 1991-05-18, 4 satır); yalnız gün ve devlet teyitli. TDV 28 Mayıs 1991 diyor; atlas 18 Mayıs. İkinci bağımsız akademik kaynak OKUNMADI: genel bilgide Burao Konferansı 18 Mayıs 1991 bilinir (TDV tipo olabilir). ÇİFT-TDV/çift kaynak kuralı: TDV esas ama Emre karar versin. Künye f = küme f (1991-05-18)."
   }
  ],
  "Vanlaveyn": [
@@ -13006,6 +13788,18 @@
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:28",
    "alan": "s",
+   "d": "toungoo",
+   "f": "1555-01-01",
+   "t": "1752-04-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Myanmar — https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (toungoo 1555-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Myanmar: «Toungoo hânedanı geldi (1531)» ve «Toungoo hânedanının 1752’de yıkılması» (t ucu yıl; küme t 1752-04-23). 1555 (Ava'nın alınışı, Yukarı Birmanya: Shwebo, Yenangyaung, Myitkyina, Pyinmana) TDV'de yok. Künye f 1510 ile TDV 1531 farklı (künye sorusu LAB'a: TDV 1531, atlas 1510). Alıntı başka olayı tarihliyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:28",
+   "alan": "s",
    "d": "konbaung",
    "f": "1752-04-23",
    "t": "1885-11-28",
@@ -13029,6 +13823,18 @@
   }
  ],
  "Yenangyaung": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:35",
+   "alan": "s",
+   "d": "toungoo",
+   "f": "1555-01-01",
+   "t": "1752-04-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Myanmar — https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (toungoo 1555-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Myanmar: «Toungoo hânedanı geldi (1531)» ve «Toungoo hânedanının 1752’de yıkılması» (t ucu yıl; küme t 1752-04-23). 1555 (Ava'nın alınışı, Yukarı Birmanya: Shwebo, Yenangyaung, Myitkyina, Pyinmana) TDV'de yok. Künye f 1510 ile TDV 1531 farklı (künye sorusu LAB'a: TDV 1531, atlas 1510). Alıntı başka olayı tarihliyor."
+  },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:35",
    "alan": "s",
@@ -13149,6 +13955,18 @@
    "dosya_satir": "data/yerlesimler_gdasya.js:140",
    "alan": "s",
    "d": "hollanda-dogu-hint",
+   "f": "1816-08-19",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Dutch_East_Indies",
+   "alinti": "independent Dutch control was restored in 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hollanda-dogu-hint 1816-08-19, 4 satır); yalnız gün ve devlet teyitli. TDV Endonezya: 1816 tarihlemiyor (Raffles ve Hollanda'nın geri gelişi genel). Vikipedi: «1806–1816 French and British interregnum»; 19 Ağustos 1816 gün kaynağı bulunamadı. TEK ÖLÇÜ: antlaşma 13 Ağustos 1814 (Anglo-Dutch), fiilî teslim Ağustos 1816 (Batavya). t 1942-03-09 (Japon teslimi) TDV'de yok. Künye f 1602 ile aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:140",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
    "f": "1945-09-02",
    "t": "1949-12-27",
    "hukum": "BULUNAMADI",
@@ -13159,6 +13977,18 @@
   }
  ],
  "Myitkyina": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:179",
+   "alan": "s",
+   "d": "toungoo",
+   "f": "1555-01-01",
+   "t": "1752-04-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Myanmar — https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (toungoo 1555-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Myanmar: «Toungoo hânedanı geldi (1531)» ve «Toungoo hânedanının 1752’de yıkılması» (t ucu yıl; küme t 1752-04-23). 1555 (Ava'nın alınışı, Yukarı Birmanya: Shwebo, Yenangyaung, Myitkyina, Pyinmana) TDV'de yok. Künye f 1510 ile TDV 1531 farklı (künye sorusu LAB'a: TDV 1531, atlas 1510). Alıntı başka olayı tarihliyor."
+  },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:179",
    "alan": "s",
@@ -13234,6 +14064,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (__BOSLUK__ 1767-04-07, 6 satır); yalnız gün ve devlet teyitli. sayfa.py. YIL düzeyi: Ayutthaya 1767'de düştü ve eyaletler bağımsız ilan edildi — boşluğun doğası (BOŞLUK) kaynaklı. 7 Nisan günü yalnız arama özeti (ipucu), kaynakta yalnız 'burned in 1767'. Bitişi (1767-10-01) teyit edilmedi."
   }
  ],
+ "Sisophon": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:206",
+   "alan": "s",
+   "d": "demokratik-kampucya",
+   "f": "1975-04-17",
+   "t": "1979-01-07",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Democratic_Kampuchea (TDV'de Kampuçya yok)",
+   "alinti": "Khmer Rouge capture of Phnom Penh 17 April 1975",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (demokratik-kampucya 1975-04-17, 4 satır); yalnız gün ve devlet teyitli. TDV'de Kamboçya/Kampuçya maddesi bulunamadı. Vikipedi ipucu: başlangıç 17 Nisan 1975 (PnomPen düşüşü), 5 Ocak 1976 anayasa. Biçim: KAYNAKLI değil. Künye f/t = küme f/t (1975-04-17 → 1979-01-07). Kompong Cham/Oudong/Sisophon/Preah Vihear için yerleşime özgü teyit yok."
+  }
+ ],
  "Uthai Thani": [
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:232",
@@ -13285,6 +14129,18 @@
   }
  ],
  "Pyinmana": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:262",
+   "alan": "s",
+   "d": "toungoo",
+   "f": "1555-01-01",
+   "t": "1752-04-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Myanmar — https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (toungoo 1555-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Myanmar: «Toungoo hânedanı geldi (1531)» ve «Toungoo hânedanının 1752’de yıkılması» (t ucu yıl; küme t 1752-04-23). 1555 (Ava'nın alınışı, Yukarı Birmanya: Shwebo, Yenangyaung, Myitkyina, Pyinmana) TDV'de yok. Künye f 1510 ile TDV 1531 farklı (künye sorusu LAB'a: TDV 1531, atlas 1510). Alıntı başka olayı tarihliyor."
+  },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:262",
    "alan": "s",
@@ -13493,6 +14349,18 @@
    "dosya_satir": "data/yerlesimler_gdasya.js:339",
    "alan": "s",
    "d": "hollanda-dogu-hint",
+   "f": "1816-08-19",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Dutch_East_Indies",
+   "alinti": "independent Dutch control was restored in 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hollanda-dogu-hint 1816-08-19, 4 satır); yalnız gün ve devlet teyitli. TDV Endonezya: 1816 tarihlemiyor (Raffles ve Hollanda'nın geri gelişi genel). Vikipedi: «1806–1816 French and British interregnum»; 19 Ağustos 1816 gün kaynağı bulunamadı. TEK ÖLÇÜ: antlaşma 13 Ağustos 1814 (Anglo-Dutch), fiilî teslim Ağustos 1816 (Batavya). t 1942-03-09 (Japon teslimi) TDV'de yok. Künye f 1602 ile aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:339",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
    "f": "1945-09-02",
    "t": "1949-12-27",
    "hukum": "BULUNAMADI",
@@ -13604,7 +14472,45 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (belcika-kongo 1908-11-15, 16 satır); yalnız gün ve devlet teyitli. sayfa.py ile teyit edilemedi (Persée robots / RAH JS) | [alıntı özetten] | İkinci kaynak: CRISP Courrier hebdomadaire 1985 (Cairn) 15 Kasım 1908. Yasa kraliyet onayı 18 Ekim 1908; yürürlük/fiilî devir 15 Kasım (TEK ÖLÇÜ: fiilî devir günü)."
   }
  ],
+ "Port Moresby": [
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:110",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Territory_of_Papua_and_New_Guinea",
+   "alinti": "Papua and New Guinea Act 1949   1 July 1949",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (papua-yeni-gine-avustralya 1949-07-01, 4 satır); yalnız gün ve devlet teyitli. Vikipedi bilgi kutusu 1 Temmuz 1949 (yasa). Yasanın yürürlük günü akademik/AustLII kaynakla OKUNMADI. Künye f/t = küme f/t (1949-07-01 → 1975-09-16 bağımsızlık: Vikipedi ‘Independence 16 September 1975’)."
+  }
+ ],
  "Kazak bozkırı (Sarısu)": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya.js:30",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kazakistan — https://islamansiklopedisi.org.tr/kazakistan; Kazaklar — https://islamansiklopedisi.org.tr/kazaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kazak-hanligi 1500-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Kazaklar'da 1465/1500 yok; Kazakistan'da Kazak Hanlığı kuruluşu yıl vermiyor. Künye f 1465 < küme f 1500 (künye içinde). KARIŞIK: t dağılımı 1847 (3) ve 1831 (1; Aral kuzeyi/Küçük Cüz veya Sığnak?). TDV: «Ruslar Kazaklar’ın han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi» (başka olay)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sibirya.js:30",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kazakistan — https://islamansiklopedisi.org.tr/kazakistan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1847-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Kazakistan: 1822 Sibirya Kazakları Nizamnamesi (Orta Cüz idaresi), «han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi»; 1847 f için tarihleyen cümle yok (başka olaylar). KARIŞIK: bölgeye göre Rus idaresi 1822/1845 öncesi başlıyor; tek f 1847-01-01 ülke düzeyi yaklaşıklık. Künye aşımı yok."
+  },
   {
    "dosya_satir": "data/yerlesimler_sibirya.js:30",
    "alan": "s",
@@ -13946,6 +14852,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tbmm-turkiye 1920-04-23, 28 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | KARAR EMRELİC (5 Kas): 23 Nisan 1920 atlas kuralı, değişmez. | Meclisin açılışı 23 Nisan 1920 teyitli. Aynı madde: hükûmet 24 Nisan'daki teklifle değil, 2 Mayıs 1920 kanununun kabulünden sonra kuruldu. Künye 'TBMM Hükümeti' f=23 Nisan meclis açılışına dayanıyor; hükûmet kuruluşu 1920-05-02 — f'yi açılış günü tutmak Emre kararı."
   }
  ],
+ "Becskerek (Zrenjanin)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:304",
+   "alan": "s",
+   "d": "yugoslavya-federal-cumhuriyeti",
+   "f": "1992-04-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya — https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "27 Nisan 1992’de Sırbistan ve Karadağ ... Yugoslavya Federal Cumhuriyeti ... adı altında ... yeni bir Yugoslav devleti kurdu",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya-federal-cumhuriyeti 1992-04-27, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit. Künye f 1992-04-27 tutarlı. Küme t 2000-12-31 (veri sınırı); TDV: «4 Şubat 2003’te kabul edilen anayasal şartla Yugoslavya Federal Cumhuriyeti yerine Sırbistan ve Karadağ Devlet Birliği kuruldu» = künye t 2003-02-04 ile tutarlı. Baç/Becskerek/Dimitrofça Voyvodina, Kurşunlu Sırbistan: hepsi FRY toprağı (Kosova hariç sorun yok)."
+  }
+ ],
  "Birecik": [
   {
    "dosya_satir": "data/yerlesimler_ek_bosluk.js:38",
@@ -13958,6 +14878,20 @@
    "alinti": "23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tbmm-turkiye 1920-04-23, 28 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | KARAR EMRELİC (5 Kas): 23 Nisan 1920 atlas kuralı, değişmez. | Meclisin açılışı 23 Nisan 1920 teyitli. Aynı madde: hükûmet 24 Nisan'daki teklifle değil, 2 Mayıs 1920 kanununun kabulünden sonra kuruldu. Künye 'TBMM Hükümeti' f=23 Nisan meclis açılışına dayanıyor; hükûmet kuruluşu 1920-05-02 — f'yi açılış günü tutmak Emre kararı."
+  }
+ ],
+ "Dimitrofça (Sremska Mitrovica)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_bosluk.js:78",
+   "alan": "s",
+   "d": "yugoslavya-federal-cumhuriyeti",
+   "f": "1992-04-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Yugoslavya — https://islamansiklopedisi.org.tr/yugoslavya",
+   "alinti": "27 Nisan 1992’de Sırbistan ve Karadağ ... Yugoslavya Federal Cumhuriyeti ... adı altında ... yeni bir Yugoslav devleti kurdu",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya-federal-cumhuriyeti 1992-04-27, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit. Künye f 1992-04-27 tutarlı. Küme t 2000-12-31 (veri sınırı); TDV: «4 Şubat 2003’te kabul edilen anayasal şartla Yugoslavya Federal Cumhuriyeti yerine Sırbistan ve Karadağ Devlet Birliği kuruldu» = künye t 2003-02-04 ile tutarlı. Baç/Becskerek/Dimitrofça Voyvodina, Kurşunlu Sırbistan: hepsi FRY toprağı (Kosova hariç sorun yok)."
   }
  ],
  "Şemdinli (Şemdinni)": [
@@ -14084,6 +15018,54 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1410-02-13, 5 satır); yalnız gün ve devlet teyitli. TDV: Yanbolu savaşı '8 Şevval 812 / 13 Şubat 1410' (hicrî+milâdî birlikte, çevrilmedi), 'Edirne’yi aldı, Gelibolu’ya kadar indi'. Bu bir SAVAŞ günüdür, bölge/ülke düzeyi; Fetret kuralı: yerleşime özgü fiilî devir günü değildir, gün düzeyinde KAYNAKLI sayılmadı -> 'YIL düzeyi 1410, ABİ MERKEZ Edirne'. Edirne'nin alındığı gün TDV'de yok. t ucu Kosmidion 15 Haziran 1410 TDV'de var (Emîr Süleyman Musa'yı yendi) - cluster t uyumlu (t ucu). Küme KARIŞIK: Vize (Trakya) ve Alasonya (Tesalya, Gelibolu Antlaşması 1403'ten beri Bizans) aynı Musa Çelebi toprağı değil. Künye null."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi — https://islamansiklopedisi.org.tr/musa-celebi (Emîr Süleyman maddesi slug'ı bulunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi, Fahameddin Başar, 2020 — https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
+   "alan": "s",
+   "d": "bulgaristan-halk",
+   "f": "1946-09-15",
+   "t": "1990-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "1946’da yapılan halk oylamasıyla cumhuriyet ilân edildi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bulgaristan-halk 1946-09-15, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (1946): cumhuriyetin ilânı; gün (15 Eylül) TDV'de yok (halk oylaması 8 Eylül, ilân 15 Eylül Vikipedi bilgisi, okunmadı). Künye adı «Halk Cumhuriyeti 1947-12-04». t 1990-11-15 TDV'de yok: yalnız «1990 yılında çok partili demokratik parlamenter bir sistem kurulmuş» (yıl)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:19",
+   "alan": "s",
+   "d": "bulgaristan-cumhuriyeti",
+   "f": "1990-11-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bulgaristan-cumhuriyeti 1990-11-15, 4 satır); yalnız gün ve devlet teyitli. TDV: «Ülkede 1990 yılında çok partili demokratik parlamenter bir sistem kurulmuş» — rejim değişimini yıl düzeyinde veriyor, devlet adının (Bulgaristan Cumhuriyeti) 15 Kasım 1990 değişimini tarihlemiyor; başka olay. Künye f = küme f."
   }
  ],
  "Şehâre": [
@@ -14554,6 +15536,18 @@
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:387",
    "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1831-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kazakistan — https://islamansiklopedisi.org.tr/kazakistan; Kazaklar — https://islamansiklopedisi.org.tr/kazaklar",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kazak-hanligi 1500-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Kazaklar'da 1465/1500 yok; Kazakistan'da Kazak Hanlığı kuruluşu yıl vermiyor. Künye f 1465 < küme f 1500 (künye içinde). KARIŞIK: t dağılımı 1847 (3) ve 1831 (1; Aral kuzeyi/Küçük Cüz veya Sığnak?). TDV: «Ruslar Kazaklar’ın han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi» (başka olay)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:387",
+   "alan": "s",
    "d": "sovyet-rusya",
    "f": "1917-11-07",
    "t": "1991-12-16",
@@ -14588,6 +15582,18 @@
    "alinti": "2 (15) марта 1917 года ... подписал ... Акт об отречении",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya-gecici-hukumet 1917-03-15, 119 satır); yalnız gün ve devlet teyitli. Çift tarih kaynakta: Jülyen 2 Mart = Gregoryen 15 Mart 1917; atlas N.S. Kaynak tahttan çekilme gününü tarihliyor; Geçici Hükümet aynı gün kuruldu (EMRELİC kararı, 5 Kas: TAKVIM-1104 kaynağı küme kaynağıdır). | önceki: ÜLKE DÜZEYİ. Çift tarihli (Jülyen+Gregoryen) akademik kaynak okunamadı. Okunanlar yetersiz: Slavic Review 'March 12 (February 27)' = Duma Geçici Komitesi kuruluşu, hükümet değil; Miami Üniv. yalnız 'March 2' (takvimsiz). Arama özeti (okunmadı, ipucu): Lvov hükümeti/tahttan çekilme 2 Mart O.S. = 15 Mart N.S.; 1917-03-15 bu ipucuyla tutarlı. Künye f=küme f tutarlı. Bilinen istisna bölgeler: 1917'de Alman işgalindeki Kurland/Litvanya/Polonya (Ventspils dahil olabilir; Kurland 1915'ten Alman işgali), Finlandiya Büyük Dükalığı. t: 1917-11-07 N.S. (25 Ekim O.S.) teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:447",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kazakistan — https://islamansiklopedisi.org.tr/kazakistan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (rusya 1847-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV Kazakistan: 1822 Sibirya Kazakları Nizamnamesi (Orta Cüz idaresi), «han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi»; 1847 f için tarihleyen cümle yok (başka olaylar). KARIŞIK: bölgeye göre Rus idaresi 1822/1845 öncesi başlıyor; tek f 1847-01-01 ülke düzeyi yaklaşıklık. Künye aşımı yok."
   },
   {
    "dosya_satir": "data/yerlesimler_ortaasya3.js:447",
@@ -14664,6 +15670,20 @@
    "alinti": "23 Nisan 1920 Cuma günü düzenlenen merasimle açıldı",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tbmm-turkiye 1920-04-23, 28 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | KARAR EMRELİC (5 Kas): 23 Nisan 1920 atlas kuralı, değişmez. | Meclisin açılışı 23 Nisan 1920 teyitli. Aynı madde: hükûmet 24 Nisan'daki teklifle değil, 2 Mayıs 1920 kanununun kabulünden sonra kuruldu. Künye 'TBMM Hükümeti' f=23 Nisan meclis açılışına dayanıyor; hükûmet kuruluşu 1920-05-02 — f'yi açılış günü tutmak Emre kararı."
+  }
+ ],
+ "Samarai": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:59",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Territory_of_Papua_and_New_Guinea",
+   "alinti": "Papua and New Guinea Act 1949   1 July 1949",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (papua-yeni-gine-avustralya 1949-07-01, 4 satır); yalnız gün ve devlet teyitli. Vikipedi bilgi kutusu 1 Temmuz 1949 (yasa). Yasanın yürürlük günü akademik/AustLII kaynakla OKUNMADI. Künye f/t = küme f/t (1949-07-01 → 1975-09-16 bağımsızlık: Vikipedi ‘Independence 16 September 1975’)."
   }
  ],
  "Çelyabinsk": [
@@ -16394,6 +17414,18 @@
   {
    "dosya_satir": "data/yerlesimler_p0037.js:102",
    "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1793-01-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Lehistan (U+lehistan) ve Encyclopedia of Ukraine Lublin Union sayfası (kısa sayfa)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (lehistan 1569-07-01, 4 satır); yalnız gün ve devlet teyitli. TDV Lehistan maddesinde 1569/Lublin geçmiyor; Encyclopedia of Ukraine sayfası 1569 içermiyor (çekilen sayfa kısa). Künye f = küme f (1569-07-01) tutarlı. KARIŞIK: Yazlofça (Yazlovets, Podolya) , Mogilev (Doğu Belarus), Pinsk, Lutsk (Volhynia) aynı f ile; Lutsk/Volhynia Lublin'de Litvanya'dan Polonya Tacı'na geçti, Pinsk/Mogilev Litvanya'da kaldı, Yazlovets 1569 öncesi Polonya Podolyası — her yer için ayrı kontrol gerekir. t dağılımı 4 farklı (1672 Bucaş, 1772/1793/1795 bölüşmeler). Bakılmadı: Treccani/Polski Słownik."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_p0037.js:102",
+   "alan": "s",
    "d": "rusya-gecici-hukumet",
    "f": "1917-03-15",
    "t": "1917-11-07",
@@ -16448,6 +17480,18 @@
     "isg": "almanya"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sovyet-rusya 1917-11-07, 115 satır); yalnız gün ve devlet teyitli. Çift tarih kaynakta: Jülyen 25 Ekim = Gregoryen 7 Kasım 1917; atlas N.S. (EMRELİC kararı, 5 Kas). | önceki: ÜLKE DÜZEYİ. Okunan akademik sayfalar 25 Ekim (O.S.) dışında tutarsız (Marquette 'November 6 (October 26)' yazıyor, 7 Kasım vermiyor; Miami '25 Ekim' takvimsiz). Çift tarihli kaynak bulunamadı. İpucu (arama özeti, okunmadı): iktidar el değiştirmesi gecesi 24-25 Ekim O.S. = 6-7 Kasım N.S.; Sovnarkom 26 Ekim O.S. = 8 Kasım N.S. Gün hükmü: 1917-11-07 makul ama kaynakla kapatılamadı; 8 Kasım (Sovnarkom/Kışlık Saray 25-26 Ekim O.S.) alternatifi var. Künye f=küme f. Bilinen istisna: Alman işgalindeki Kurland/Litvanya/Polonya, Ukrayna/Finlandiya/Baltık ve Kafkasya (1917-18 fiilen Sovyet dışı); bu yüzden t_dagilim'de 1918-11-18 gibi farklılıklar. Bitiş günleri (1991-12-26 vb.) teyit edilmedi. | İSTİSNA (b): koordinat almanya işgal kutusunda — Ober Ost / Kongre Polonyası 1915'ten Alman-Avusturya işgalinde (EMRELİC örneği; gün ve sınır yerleşim başına kaynakla)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_p0037.js:117",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1795-10-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Lehistan (U+lehistan) ve Encyclopedia of Ukraine Lublin Union sayfası (kısa sayfa)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (lehistan 1569-07-01, 4 satır); yalnız gün ve devlet teyitli. TDV Lehistan maddesinde 1569/Lublin geçmiyor; Encyclopedia of Ukraine sayfası 1569 içermiyor (çekilen sayfa kısa). Künye f = küme f (1569-07-01) tutarlı. KARIŞIK: Yazlofça (Yazlovets, Podolya) , Mogilev (Doğu Belarus), Pinsk, Lutsk (Volhynia) aynı f ile; Lutsk/Volhynia Lublin'de Litvanya'dan Polonya Tacı'na geçti, Pinsk/Mogilev Litvanya'da kaldı, Yazlovets 1569 öncesi Polonya Podolyası — her yer için ayrı kontrol gerekir. t dağılımı 4 farklı (1672 Bucaş, 1772/1793/1795 bölüşmeler). Bakılmadı: Treccani/Polski Słownik."
   },
   {
    "dosya_satir": "data/yerlesimler_p0037.js:117",
@@ -17100,6 +18144,22 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bolivya-cumhuriyeti 1825-08-06, 9 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | Gun duzeyinde ilan teyitli. ULKE DUZEYI; Mojos/Chiquitos gibi yerlerde fiili idare ayri olabilir. Kunye f=kume f."
   }
  ],
+ "Dera İsmail Han": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:104",
+   "alan": "s",
+   "d": "pakistan",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Pakistan — https://islamansiklopedisi.org.tr/pakistan",
+   "alinti": "plan 14 Ağustos 1947’de fiilen uygulamaya konuldu",
+   "oneri": {
+    "f": "1947-08-14"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
+  }
+ ],
  "Vitim (Vitimskoye zimov'e / Vitimskiy ostrog)": [
   {
    "dosya_satir": "data/yerlesimler_nokta_asya_0917.js:120",
@@ -17502,6 +18562,18 @@
    "alinti": "In May 1544 Blasco Núñez Vela, sent by Charles I of Spain to rule as the first viceroy of Peru, arrived in Lima.",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ispanyol-peru 1542-11-20, 7 satır); yalnız gün ve devlet teyitli. KARIŞIK KÜME — YERLEŞİM izine (LAB PAZAR). | 20 Kasım 1542 Yeni Yasalar (Barselona) arama özetinde; encyclopedia.com yalnız 1542 Yeni Yasalar ve 1544 ilk vali varışı. Kuruluş 1542-11-20 mi fiilî 1544 mü belirsiz. KARIŞIK: t_dagilim 1818 Şili, 1819 Gran Kolombiya, 1821, 1822 Quito, 1824 ayrı olaylar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1455",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV arama/kolombiya (özet), Büyük Kolombiya",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kolombiya-cumhuriyeti 1831-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV arama özeti «1819’da kurulmuş olan Büyük Kolombiya’dan 1829’da Venezuela, 1830’da ...» — arama özeti okunmuş sayılmaz; madde bulunamadı. Künye f 1831-01-01 = küme f (Yeni Granada ayrılış yıl). Bakılmadı: Banco de la República / Biblioteca Luis Ángel Arango."
   }
  ],
  "Porkhov": [
@@ -17578,6 +18650,34 @@
    "alinti": "The Republic of German Austria was proclaimed on 12 November 1918",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya-cumhuriyet 1918-11-12, 5 satır); yalnız gün ve devlet teyitli. sayfa.py ham metin; kurumsal portal (ONB) - kalite siniri, akademik teyit onerilir, bu yuzden ONERI(degisiklik yok). Ilan edilen devlet 'Deutschösterreich'; Saint-Germain ile 'Österreich' adi (kunye adi Avusturya Cumhuriyeti). Klagenfurt/Villach (Karintiya, 1918-19 yugoslav isgali ve Ekim 1920 plebisit) icin 12 Kasim gunu fiilî idare icin dogrulanmadi."
+  }
+ ],
+ "Aitape (Eitape)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:56",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Territory_of_Papua_and_New_Guinea",
+   "alinti": "Papua and New Guinea Act 1949   1 July 1949",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (papua-yeni-gine-avustralya 1949-07-01, 4 satır); yalnız gün ve devlet teyitli. Vikipedi bilgi kutusu 1 Temmuz 1949 (yasa). Yasanın yürürlük günü akademik/AustLII kaynakla OKUNMADI. Künye f/t = küme f/t (1949-07-01 → 1975-09-16 bağımsızlık: Vikipedi ‘Independence 16 September 1975’)."
+  }
+ ],
+ "Kieta": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:72",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Territory_of_Papua_and_New_Guinea",
+   "alinti": "Papua and New Guinea Act 1949   1 July 1949",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (papua-yeni-gine-avustralya 1949-07-01, 4 satır); yalnız gün ve devlet teyitli. Vikipedi bilgi kutusu 1 Temmuz 1949 (yasa). Yasanın yürürlük günü akademik/AustLII kaynakla OKUNMADI. Künye f/t = küme f/t (1949-07-01 → 1975-09-16 bağımsızlık: Vikipedi ‘Independence 16 September 1975’)."
   }
  ],
  "Čakovec (Csáktornya)": [
@@ -17777,6 +18877,32 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (tbmm-turkiye 1920-04-23, 28 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | KARAR EMRELİC (5 Kas): 23 Nisan 1920 atlas kuralı, değişmez. | Meclisin açılışı 23 Nisan 1920 teyitli. Aynı madde: hükûmet 24 Nisan'daki teklifle değil, 2 Mayıs 1920 kanununun kabulünden sonra kuruldu. Künye 'TBMM Hükümeti' f=23 Nisan meclis açılışına dayanıyor; hükûmet kuruluşu 1920-05-02 — f'yi açılış günü tutmak Emre kararı."
   }
  ],
+ "Tatarpazarcığı": [
+  {
+   "dosya_satir": "data/yerlesimler.js:431",
+   "alan": "s",
+   "d": "bulgaristan-halk",
+   "f": "1946-09-15",
+   "t": "1990-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "1946’da yapılan halk oylamasıyla cumhuriyet ilân edildi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bulgaristan-halk 1946-09-15, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (1946): cumhuriyetin ilânı; gün (15 Eylül) TDV'de yok (halk oylaması 8 Eylül, ilân 15 Eylül Vikipedi bilgisi, okunmadı). Künye adı «Halk Cumhuriyeti 1947-12-04». t 1990-11-15 TDV'de yok: yalnız «1990 yılında çok partili demokratik parlamenter bir sistem kurulmuş» (yıl)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:431",
+   "alan": "s",
+   "d": "bulgaristan-cumhuriyeti",
+   "f": "1990-11-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bulgaristan-cumhuriyeti 1990-11-15, 4 satır); yalnız gün ve devlet teyitli. TDV: «Ülkede 1990 yılında çok partili demokratik parlamenter bir sistem kurulmuş» — rejim değişimini yıl düzeyinde veriyor, devlet adının (Bulgaristan Cumhuriyeti) 15 Kasım 1990 değişimini tarihlemiyor; başka olay. Künye f = küme f."
+  }
+ ],
  "Kuban (Yekaterinodar)": [
   {
    "dosya_satir": "data/yerlesimler.js:764",
@@ -17924,6 +19050,30 @@
     "not": "1918-11-16 kırılması macaristan-halk-cumhuriyeti'ne; 1919-03-21 macar-sovyet-cumhuriyeti (fiilî kontrol); 1919-08-01'den macaristan-naiplik (künye f → 1919-08-01); Romen işgali şehir şehir isg romanya (Budapeşte 1919-08-04 → 11-14/16)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-naiplik 1918-11-16, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-39): Peidl/Friedrich/Huszár → Horthy aynı polity; 1920-03-01 naiplik ilanı ic_not; künye düzeltmesi LAB SALI UYGULA'da. | KARAR EMRELİC (gece-38): künye f → 1920-03-01 (Horthy naipliği). ÖLÇÜM (LAB PAZAR): ayrı künyeler VAR — macaristan-halk-cumhuriyeti (Károlyi) 1918-11-16 → 1919-03-21 (devletler.js:17210), macar-sovyet-cumhuriyeti 1919-03-21 → 1919-08-01 (17204); macaristan-naiplik f 1918-11-16 bunlarla ÇAKIŞIYOR. 1919-08-01 → 1920-03-01 (Romen işgali / Friedrich hükûmeti) künyesiz. LAB SALI'ya. | LAB PAZAR: kaynak kurum portalı (habsburger.net), akademik değil — ONERI (Austria-Forum emsali). | sayfa.py ham metin. Künye f=1918-11-16 ile küme f tutarlı. Cumhuriyet ilanı günü. DİKKAT: künye adı 'Naiplik' ama f cumhuriyet ilanı (Naiplik 1920-03-01'de başlar); ad/f uyumsuzluğu LAB'a. TDV Macaristan madde: halk cumhuriyeti ilanını gün vermeden anlatıyor (31 Ekim 1918 devrim); TDV'de 16 Kasım 1918 yok. Habsburger.net müze/kurum portalı, tarihçi yazarlı; hakemli makale değil - Emre uygun görmezse ONERI say. t ucu (Trianon 1920-06-04 olan 1 yerleşim) bu satırda doğrulanmadı. Hatvan/Debrecen/Szombathely vb. ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1785",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Macaristan — https://islamansiklopedisi.org.tr/macaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-halk 1946-02-01, 4 satır); yalnız gün ve devlet teyitli. TDV Macaristan maddesi 1946 cumhuriyet ilânını/1 Şubat 1946'yı içermiyor (yalnız 1949 Komekon ve 23 Ekim 1989). t ucu için TDV: «23 Ekim 1989 tarihinde halk cumhuriyeti yerine Macaristan Cumhuriyeti ilân edildi» = küme t 1989-10-23 (alıntı yalnız t ucunu tarihliyor). Künye adı «II. Cumhuriyet 1946 → Halk Cumhuriyeti 1949-08-20»: künye f 1946-02-01 küme f ile tutarlı. Bakılmadı: Magyar Katolikus Lexikon."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1785",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Macaristan — https://islamansiklopedisi.org.tr/macaristan",
+   "alinti": "23 Ekim 1989 tarihinde halk cumhuriyeti yerine Macaristan Cumhuriyeti ilân edildi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-cumhuriyeti 1989-10-23, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit. Künye f 1989-10-23 tutarlı."
   }
  ],
  "Paros": [
@@ -18138,6 +19288,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:2222",
    "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Safeviler — https://islamansiklopedisi.org.tr/safeviler",
+   "alinti": "Özbekler’i ağır bir yenilgiye uğrattı (916/1510). Merv ve Herat hâkimiyet altına alındı.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (safevi 1510-12-02, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK: küme günü yalnız bazı yerleşimler için teyitli (Kişm / Zula-Nakfa-Ğındâ ayrı) — yerleşim satırları ayrıca sınanmalı. | YIL DÜZEYİ (1510): Horasan'ın (Merv, Herat) Safevî hâkimiyetine girişi; gün (1510-12-02) TDV'de yok. KARIŞIK: Kişm (Qeshm) Basra Körfezi adasıdır — Horasan fethiyle aynı f taşımaz (Hürmüz Krallığı/Portekiz, Safevî 1622'den: TDV «1622’de Portekizliler, İngilizler’in desteğiyle Hürmüz’den uzaklaştırıldı» — Hürmüz'ü tarihliyor, Kişm'i değil); Kişm için f ayrıca sorgulanmalı. Turşiz/Kelât-ı Nâdirî/Esferâyin Horasan: tutarlı. t dağılımı 1736-03-08 (3) ve 1515-04-01 (1, hangisi belirsiz). Künye f 1501-07-01 < küme f: tutarlı. Kelât-ı Nâdirî adı Nadir Şah dönemine ait."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2222",
+   "alan": "s",
    "d": "afsar",
    "f": "1736-03-08",
    "t": "1747-06-20",
@@ -18180,6 +19342,18 @@
   {
    "dosya_satir": "data/yerlesimler.js:2226",
    "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Safeviler — https://islamansiklopedisi.org.tr/safeviler",
+   "alinti": "Özbekler’i ağır bir yenilgiye uğrattı (916/1510). Merv ve Herat hâkimiyet altına alındı.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (safevi 1510-12-02, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK: küme günü yalnız bazı yerleşimler için teyitli (Kişm / Zula-Nakfa-Ğındâ ayrı) — yerleşim satırları ayrıca sınanmalı. | YIL DÜZEYİ (1510): Horasan'ın (Merv, Herat) Safevî hâkimiyetine girişi; gün (1510-12-02) TDV'de yok. KARIŞIK: Kişm (Qeshm) Basra Körfezi adasıdır — Horasan fethiyle aynı f taşımaz (Hürmüz Krallığı/Portekiz, Safevî 1622'den: TDV «1622’de Portekizliler, İngilizler’in desteğiyle Hürmüz’den uzaklaştırıldı» — Hürmüz'ü tarihliyor, Kişm'i değil); Kişm için f ayrıca sorgulanmalı. Turşiz/Kelât-ı Nâdirî/Esferâyin Horasan: tutarlı. t dağılımı 1736-03-08 (3) ve 1515-04-01 (1, hangisi belirsiz). Künye f 1501-07-01 < küme f: tutarlı. Kelât-ı Nâdirî adı Nadir Şah dönemine ait."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:2226",
+   "alan": "s",
    "d": "afsar",
    "f": "1736-03-08",
    "t": "1747-06-20",
@@ -18219,6 +19393,18 @@
   }
  ],
  "Esferâyin": [
+  {
+   "dosya_satir": "data/yerlesimler.js:2229",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1510-12-02",
+   "t": "1736-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Safeviler — https://islamansiklopedisi.org.tr/safeviler",
+   "alinti": "Özbekler’i ağır bir yenilgiye uğrattı (916/1510). Merv ve Herat hâkimiyet altına alındı.",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (safevi 1510-12-02, 4 satır); yalnız gün ve devlet teyitli. KARIŞIK: küme günü yalnız bazı yerleşimler için teyitli (Kişm / Zula-Nakfa-Ğındâ ayrı) — yerleşim satırları ayrıca sınanmalı. | YIL DÜZEYİ (1510): Horasan'ın (Merv, Herat) Safevî hâkimiyetine girişi; gün (1510-12-02) TDV'de yok. KARIŞIK: Kişm (Qeshm) Basra Körfezi adasıdır — Horasan fethiyle aynı f taşımaz (Hürmüz Krallığı/Portekiz, Safevî 1622'den: TDV «1622’de Portekizliler, İngilizler’in desteğiyle Hürmüz’den uzaklaştırıldı» — Hürmüz'ü tarihliyor, Kişm'i değil); Kişm için f ayrıca sorgulanmalı. Turşiz/Kelât-ı Nâdirî/Esferâyin Horasan: tutarlı. t dağılımı 1736-03-08 (3) ve 1515-04-01 (1, hangisi belirsiz). Künye f 1501-07-01 < küme f: tutarlı. Kelât-ı Nâdirî adı Nadir Şah dönemine ait."
+  },
   {
    "dosya_satir": "data/yerlesimler.js:2229",
    "alan": "s",
@@ -18946,6 +20132,18 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1603-03-30, 4 satır); yalnız gün ve devlet teyitli. İPUCU (Vikipedi): Dokuz Yıl Savaşı 30 Mart 1603'te Mellifont antlaşmasıyla bitti (atlas f=1603-03-30 bu gün). Ama Mellifont bir BARIŞ/teslim antlaşmasıdır; Ulster'daki yerler (Cavan, Donegal, Derry) bundan sonra da Gaelic lordlarının elinde kaldı ve idareye katılma/Plantation ancak Earls'ün Kaçışı 1607'den sonra (kaynak okunmadı). Ennis (Clare, Munster) 1570'lerden shire. KARIŞIK: TEK ÖLÇÜ/TAHRİR ÖLÇÜTÜ: İngiltere'nin fiilen yönettiği gün bulunmalı; Mellifont günü Ulster için fiilî idare günü olmayabilir. Ayrıca İrlanda Krallığı 1801'e dek ayrı krallık (İngiltere ile kişisel birlik) — s: ingiltere sahipliği kaynaklı mı sorusu EMRELİC'te. t=1922-12-06 İrlanda Özgür Devleti (3 yer), Derry/Kuzey İrlanda t=2000 yer tutucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:164",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV (arama/irlanda — madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (irlanda 1000-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV'de İrlanda maddesi yok; Norman/1171/1281 anahtarları bulunamadı. KARIŞIK: t 1171 (Wexford: Norman fethi) ile t 1281 (Galway, Donegal, Derry) farklı; 1281-01-01 ne olayı tarihliyor belirsiz. Künye f 1000-01-01 = küme f. Bakılmadı: Dictionary of Irish Biography, Cambridge Hist. of Ireland."
   }
  ],
  "Jönköping": [
@@ -19154,6 +20352,22 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hindistan-cumhuriyeti 1947-08-15, 21 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | ÜLKE DÜZEYİ. Resmî mevzuat. Künye 'Dominyon 1947; Cumhuriyet 1950-01-26' - künye f doğru. Bilinen istisna: 1947-08-15'te Hindistan'a katılmamış prenslik devletleri (Haydarabad 1948-09, Cunagadh 1947-11, Keşmir 1947-10-26, Fransız/Portekiz kolonileri Pondicherry/Goa) ve Pakistan'a giden Pencap/Bengal bölgeleri."
   }
  ],
+ "Attock": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:499",
+   "alan": "s",
+   "d": "pakistan",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Pakistan — https://islamansiklopedisi.org.tr/pakistan",
+   "alinti": "plan 14 Ağustos 1947’de fiilen uygulamaya konuldu",
+   "oneri": {
+    "f": "1947-08-14"
+   },
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (pakistan 1947-08-15, 4 satır); yalnız gün ve devlet teyitli. TDV 14 Ağustos 1947; atlas 15 Ağustos (Hindistan Bağımsızlık Yasası 'appointed day' 15 Ağustos 1947, Pakistan 14'ünü kutlar). İkinci kaynak OKUNMADI; Emre karar. t 1971-12-16 (Çatgam/Chittagong): TDV «Doğu Pakistan Aralık 1971’de Bengladeş adıyla bağımsızlığını ilân etti» (alıntı t ucu, ay düzeyi). Künye f = küme f 1947-08-15 (künye de değişmeli)."
+  }
+ ],
  "Çampâner": [
   {
    "dosya_satir": "data/yerlesimler_asya.js:815",
@@ -19186,6 +20400,18 @@
   {
    "dosya_satir": "data/yerlesimler_asya.js:3275",
    "alan": "s",
+   "d": "edo-bakufu",
+   "f": "1603-03-24",
+   "t": "1868-01-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Japonya — https://islamansiklopedisi.org.tr/japonya; tokugawa yok",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (edo-bakufu 1603-03-24, 4 satır); yalnız gün ve devlet teyitli. TDV Japonya: «1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı» (t ucu, yıl); 1603 Şogunluk atamasından TDV'de söz yok. Vikipedi ipucu: Meiji Restorasyonu 3 Ocak 1868 (t ucu). Takvim: 24 Mart 1603 = Keichō 8/2/12 (NAOJ ile çevrilecek, çevirmedim; kaynak okunmadı). Künye f/t = küme f/t."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3275",
+   "alan": "s",
    "d": "meiji-japonya",
    "f": "1868-01-03",
    "t": "1947-05-03",
@@ -19194,6 +20420,32 @@
    "alinti": "girmesini sağlayan Meiji dönemi başladı",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (meiji-japonya 1868-01-03, 5 satır); yalnız gün ve devlet teyitli. YIL düzeyi (1868). Gün 1868-01-03 (Ōsei fukkō) teyitsiz; Japon takvimi günü elle çevrilmedi (慶応3年12月9日 çevirisi toplu EMRELİC). Tam cümle: '1868’de ülkeyi yeniden dış dünyaya açan ... Meiji dönemi başladı' (15 kelime sınırı için kısaltıldı). ÜLKE DÜZEYİ; Kunashiri (Kuril, 1869 sonrası/1875 Petersburg Antlaşması) ve Fukui/Nagazaki/Matsumae/Yamaguchi farklı sahiplik geçmişi - KARIŞIK, t_dagilim 1869-01-27 (Matsumae?) bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3275",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1947-05-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Japonya — https://islamansiklopedisi.org.tr/japonya; en.wikipedia Japan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (japonya-devleti 1947-05-03, 4 satır); yalnız gün ve devlet teyitli. TDV Japonya'da 1947 Anayasası yürürlük günü yok (yalnız Egami Namio tezi 1947). Vikipedi 3 May 1947 içermiyor. Künye f = küme f (1947-05-03: yürürlük günü). Bakılmadı: NDL/Japon hakemli kaynak."
+  }
+ ],
+ "Oudong": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3825",
+   "alan": "s",
+   "d": "demokratik-kampucya",
+   "f": "1975-04-17",
+   "t": "1979-01-07",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Democratic_Kampuchea (TDV'de Kampuçya yok)",
+   "alinti": "Khmer Rouge capture of Phnom Penh 17 April 1975",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (demokratik-kampucya 1975-04-17, 4 satır); yalnız gün ve devlet teyitli. TDV'de Kamboçya/Kampuçya maddesi bulunamadı. Vikipedi ipucu: başlangıç 17 Nisan 1975 (PnomPen düşüşü), 5 Ocak 1976 anayasa. Biçim: KAYNAKLI değil. Künye f/t = küme f/t (1975-04-17 → 1979-01-07). Kompong Cham/Oudong/Sisophon/Preah Vihear için yerleşime özgü teyit yok."
   }
  ],
  "Banda Açe": [
@@ -19238,6 +20490,18 @@
     "alan": "isg"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1811-08-18, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): Cava 1811–16 isg (önceki karar). | ÖLÇÜT: geçici/askerî - TDV 'geçici İngiliz idaresinin (1811-1816)' (Cakarta maddesi: 'beş yıllık geçici İngiliz idaresi'), 1816'da Hollanda'ya devredildi. TEK KURAL AYKIRILIĞI: işgal/geçici idare 'isg ingiltere' yazılır (Kâbil 1839-42, Rodos emsali); s ingiltere hukukî devir (yok) gerektirir. Raffles vergi/arazi sistemi (toprağı devlet arazisi ilanı) idareye katma işareti olabilir (tahrir ölçütü) - TDV susar/yorumsuz: Emre kararı. Gün 1811-08-18 teyitsiz (TDV yıl). t=1816-08-19: TDV yalnız 1816 yılını verir (Hollanda'ya devir). Blitar/Bojonegoro/Yogyakarta Orta-Doğu Cava, Batavia: İngiliz girişi farklı günlerde (Yogyakarta 1812 Haziran) - KARIŞIK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:4137",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1816-08-19",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Dutch_East_Indies",
+   "alinti": "independent Dutch control was restored in 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hollanda-dogu-hint 1816-08-19, 4 satır); yalnız gün ve devlet teyitli. TDV Endonezya: 1816 tarihlemiyor (Raffles ve Hollanda'nın geri gelişi genel). Vikipedi: «1806–1816 French and British interregnum»; 19 Ağustos 1816 gün kaynağı bulunamadı. TEK ÖLÇÜ: antlaşma 13 Ağustos 1814 (Anglo-Dutch), fiilî teslim Ağustos 1816 (Batavya). t 1942-03-09 (Japon teslimi) TDV'de yok. Künye f 1602 ile aşım yok."
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:4137",
@@ -19519,6 +20783,30 @@
    "dosya_satir": "data/yerlesimler_ek29.js:857",
    "alan": "s",
    "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi — https://islamansiklopedisi.org.tr/musa-celebi (Emîr Süleyman maddesi slug'ı bulunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:857",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi, Fahameddin Başar, 2020 — https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:857",
+   "alan": "s",
+   "d": "suleyman-celebi",
    "f": "1402-07-28",
    "t": "1410-02-13",
    "hukum": "BULUNAMADI",
@@ -19526,6 +20814,30 @@
    "alinti": "",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1402-07-28, 5 satır); yalnız gün ve devlet teyitli. Fetret kuralı: 28 Temmuz 1402 Ankara Savaşı günü ülke/olay düzeyidir, yerleşimin devir günü değil; gün düzeyinde KAYNAKLI sayılmadı. Yıl düzeyi (1402) ve ABİ MERKEZ Edirne (Süleyman Rumeli'de Edirne'de). KARIŞIK/ÇELİŞKİ: TDV Fetret: Gelibolu Antlaşması (Şubat 1403) ile Selânik ve Tesalya Bizans'a bırakıldı -> Alasonya (Tesalya) için t=1403-02 uyumlu, ama Alasonya t=1410-02-13 Musa'ya çelişir (bu satırda t ucu doğrulanmadı). Künye yok (suleyman-celebi künyesi null): künye sorusu LAB'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:857",
+   "alan": "s",
+   "d": "bulgaristan-halk",
+   "f": "1946-09-15",
+   "t": "1990-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "1946’da yapılan halk oylamasıyla cumhuriyet ilân edildi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bulgaristan-halk 1946-09-15, 4 satır); yalnız gün ve devlet teyitli. YIL DÜZEYİ (1946): cumhuriyetin ilânı; gün (15 Eylül) TDV'de yok (halk oylaması 8 Eylül, ilân 15 Eylül Vikipedi bilgisi, okunmadı). Künye adı «Halk Cumhuriyeti 1947-12-04». t 1990-11-15 TDV'de yok: yalnız «1990 yılında çok partili demokratik parlamenter bir sistem kurulmuş» (yıl)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:857",
+   "alan": "s",
+   "d": "bulgaristan-cumhuriyeti",
+   "f": "1990-11-15",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bulgaristan — https://islamansiklopedisi.org.tr/bulgaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (bulgaristan-cumhuriyeti 1990-11-15, 4 satır); yalnız gün ve devlet teyitli. TDV: «Ülkede 1990 yılında çok partili demokratik parlamenter bir sistem kurulmuş» — rejim değişimini yıl düzeyinde veriyor, devlet adının (Bulgaristan Cumhuriyeti) 15 Kasım 1990 değişimini tarihlemiyor; başka olay. Künye f = küme f."
   }
  ],
  "Corabia": [
@@ -19726,6 +21038,18 @@
     "not": "Küba: ispanyol-kuba t 1899-01-01 (Havana teslimi; Paris feragati 1898-12-10 ic_not'a); 1899-01-01 → 1902-05-20 s: abd + BEYANLI YAKLAŞIKLIK, isg yok, ic_not 'ABD ilhak etmedi (Teller Değişikliği); askerî hükûmet; künye adayı kuba-abd-askeri-hukumeti'; ardından kuba-cumhuriyeti. s: abd (gerçek) yalnız Porto Riko ve Guam 1898-12-10. | KESİN (EMRELİC): kuba-cumhuriyeti f → 1902-05-20 (TEK ÖLÇÜ teslim; ABD idareyi 05-20 öğlen devretti) — künye düzeltmesi KASA-KUYRUK. ABD askerî dilimi son günü 05-19 (atlas t ucu dışlayıcı: t = 1902-05-20). ic_not aynen: 'the Republic of Cuba was formally installed on May 19, 1902' (history.state.gov/countries/cuba)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1898-12-10, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): Küba kararı. KAYNAK (LAB PAZAR sayfa.py, history.state.gov/countries/cuba): 'the Republic of Cuba was formally installed on May 19, 1902. On May 20, 1902, the United States [ended] its occupation authority' — künye f 05-19 kaynakla uyumlu; ABD işgal yetkisinin devri 05-20 (TEK ÖLÇÜ teslim günü?) — EMRELİC'e. | KARAR EMRELİC (gece-29): Paris 1898-12-10 İspanya feragati, ABD'ye devir yok (Küba). ÖLÇÜM (LAB PAZAR): ABD askerî hükûmeti künyesi YOK; kuba-cumhuriyeti künye f 1902-05-19 (EMRELİC 05-20 — bir gün fark, kaynakla). 1898-12-10 → 1902 arası alttaki s: (ispanyol-kuba t 1898-12-10) boş kalıyor — EMRELİC'e soru. | Paris 1898 Küba'yı devretmedi (history.state.gov) → Küba yerleşimlerinde isg abd (TEK KURAL), s: abd yalnız Porto Riko/Guam. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. KARIŞIK: Paris Antlaşması imza 1898-12-10 (kaynakta 'signed the Treaty of Paris on December 10, 1898'). Puerto Rico (San Juan) bu günde ABD'ye devredildi: KAYNAKLI (s:abd 1898-12-10, TEK ÖLÇÜ imza günü; yürürlük 1899-04-11). Küba (Baracoa, Santiago, Havana, Cienfuegos, Santa Clara) DEVREDİLMEDİ — kaynak 'guaranteeing the independence of Cuba'; ABD yönetimi askerî işgaldir -> isg abd (1899-01-01'den, kaynakla okunmadı) ve s: abd olmamalı; Küba bağımsızlığı 1902-05-20 (t_dagilim). TEK KURAL (işgal=isg). Künye f=1776-07-04 aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1096",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Republic_of_Cuba_(1902–1959)",
+   "alinti": "Raising the Cuban flag on the Governor General's Palace at noon on 20 May 1902",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kuba-cumhuriyeti 1902-05-20, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC: künye f → 1902-05-20 (LAB SALI UYGULA'da). | Vikipedi ipucu 20 Mayıs 1902 (devir günü). KAYNAKLI değil (TDV'de Küba yok). Künye f 1902-05-19, küme f 1902-05-20: 1 gün fark (künye aşımı değil, küme sonra). Karşılık beyanı gerekir."
   }
  ],
  "Havana (La Habana)": [
@@ -19742,6 +21066,18 @@
     "not": "Küba: ispanyol-kuba t 1899-01-01 (Havana teslimi; Paris feragati 1898-12-10 ic_not'a); 1899-01-01 → 1902-05-20 s: abd + BEYANLI YAKLAŞIKLIK, isg yok, ic_not 'ABD ilhak etmedi (Teller Değişikliği); askerî hükûmet; künye adayı kuba-abd-askeri-hukumeti'; ardından kuba-cumhuriyeti. s: abd (gerçek) yalnız Porto Riko ve Guam 1898-12-10. | KESİN (EMRELİC): kuba-cumhuriyeti f → 1902-05-20 (TEK ÖLÇÜ teslim; ABD idareyi 05-20 öğlen devretti) — künye düzeltmesi KASA-KUYRUK. ABD askerî dilimi son günü 05-19 (atlas t ucu dışlayıcı: t = 1902-05-20). ic_not aynen: 'the Republic of Cuba was formally installed on May 19, 1902' (history.state.gov/countries/cuba)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1898-12-10, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): Küba kararı. KAYNAK (LAB PAZAR sayfa.py, history.state.gov/countries/cuba): 'the Republic of Cuba was formally installed on May 19, 1902. On May 20, 1902, the United States [ended] its occupation authority' — künye f 05-19 kaynakla uyumlu; ABD işgal yetkisinin devri 05-20 (TEK ÖLÇÜ teslim günü?) — EMRELİC'e. | KARAR EMRELİC (gece-29): Paris 1898-12-10 İspanya feragati, ABD'ye devir yok (Küba). ÖLÇÜM (LAB PAZAR): ABD askerî hükûmeti künyesi YOK; kuba-cumhuriyeti künye f 1902-05-19 (EMRELİC 05-20 — bir gün fark, kaynakla). 1898-12-10 → 1902 arası alttaki s: (ispanyol-kuba t 1898-12-10) boş kalıyor — EMRELİC'e soru. | Paris 1898 Küba'yı devretmedi (history.state.gov) → Küba yerleşimlerinde isg abd (TEK KURAL), s: abd yalnız Porto Riko/Guam. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. KARIŞIK: Paris Antlaşması imza 1898-12-10 (kaynakta 'signed the Treaty of Paris on December 10, 1898'). Puerto Rico (San Juan) bu günde ABD'ye devredildi: KAYNAKLI (s:abd 1898-12-10, TEK ÖLÇÜ imza günü; yürürlük 1899-04-11). Küba (Baracoa, Santiago, Havana, Cienfuegos, Santa Clara) DEVREDİLMEDİ — kaynak 'guaranteeing the independence of Cuba'; ABD yönetimi askerî işgaldir -> isg abd (1899-01-01'den, kaynakla okunmadı) ve s: abd olmamalı; Küba bağımsızlığı 1902-05-20 (t_dagilim). TEK KURAL (işgal=isg). Künye f=1776-07-04 aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1103",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Republic_of_Cuba_(1902–1959)",
+   "alinti": "Raising the Cuban flag on the Governor General's Palace at noon on 20 May 1902",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kuba-cumhuriyeti 1902-05-20, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC: künye f → 1902-05-20 (LAB SALI UYGULA'da). | Vikipedi ipucu 20 Mayıs 1902 (devir günü). KAYNAKLI değil (TDV'de Küba yok). Künye f 1902-05-19, küme f 1902-05-20: 1 gün fark (künye aşımı değil, küme sonra). Karşılık beyanı gerekir."
   }
  ],
  "Mendoza": [
@@ -20088,6 +21424,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (libya-cumhuriyet-cemahiriye 1969-09-01, 13 satır); yalnız gün ve devlet teyitli. [alıntı özetten] | 1 Eylül 1969 darbe ve Libya Arap Cumhuriyeti ilanı. Küme adı 'Cumhuriyet-Cemahiriye': Jamahiriya ilanı (1977) bu sayfada yok; 1969 f yalnız Libya Arap Cumhuriyeti'ni teyit eder. Künye ayrıştırması öneri."
   }
  ],
+ "Kompong Cham": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:67",
+   "alan": "s",
+   "d": "demokratik-kampucya",
+   "f": "1975-04-17",
+   "t": "1979-01-07",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Democratic_Kampuchea (TDV'de Kampuçya yok)",
+   "alinti": "Khmer Rouge capture of Phnom Penh 17 April 1975",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (demokratik-kampucya 1975-04-17, 4 satır); yalnız gün ve devlet teyitli. TDV'de Kamboçya/Kampuçya maddesi bulunamadı. Vikipedi ipucu: başlangıç 17 Nisan 1975 (PnomPen düşüşü), 5 Ocak 1976 anayasa. Biçim: KAYNAKLI değil. Künye f/t = küme f/t (1975-04-17 → 1979-01-07). Kompong Cham/Oudong/Sisophon/Preah Vihear için yerleşime özgü teyit yok."
+  }
+ ],
  "Lampung": [
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:123",
@@ -20186,6 +21536,20 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hollanda-dogu-hint 1945-09-02, 24 satır); yalnız gün ve devlet teyitli. EMRELİC (5 Kas): yerleşim izine verildi — Endonezya kuralı rakip hükûmet ve fiilî yönetim; Japon teslimi tek başına s: vermez; NICA dönüşü şehir şehir kaynakla. | ÜLKE DÜZEYİ ama SORUNLU. 1945-09-02 Japonya'nın resmî teslim günü; Hollanda'nın bu tarihte toprağı fiilen yönettiğine dair kaynak yok. Arama özeti: Endonezya 17 Ağustos 1945'te ilan etti, Hollanda egemenlik devri 27 Aralık 1949; Hollanda'nın dönüşü 1945 sonu. KURAL (DA-BRIEF Endonezya 1945-49): Cumhuriyet'in yönettiği yerde s: endonezya 1945-08-17'den; Hollanda'nın geri aldığı yerde s: hollanda, 1949-12-27'ye kadar - yani küme yerleşim-bazlı fiilî dönüş günleri ister, tek ülke günü olmaz. KÜNYE: künye f=1602-03-20 (VOC), küme f=1945-09-02 künye içinde ama 1942-45 Japon işgali ayrı isg katmanı olmalı. t=1949-12-27 doğru görünüyor (özet). Koordinatör kararı gerek."
   }
  ],
+ "Preah Vihear": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:234",
+   "alan": "s",
+   "d": "demokratik-kampucya",
+   "f": "1975-04-17",
+   "t": "1979-01-07",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Democratic_Kampuchea (TDV'de Kampuçya yok)",
+   "alinti": "Khmer Rouge capture of Phnom Penh 17 April 1975",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (demokratik-kampucya 1975-04-17, 4 satır); yalnız gün ve devlet teyitli. TDV'de Kamboçya/Kampuçya maddesi bulunamadı. Vikipedi ipucu: başlangıç 17 Nisan 1975 (PnomPen düşüşü), 5 Ocak 1976 anayasa. Biçim: KAYNAKLI değil. Künye f/t = küme f/t (1975-04-17 → 1979-01-07). Kompong Cham/Oudong/Sisophon/Preah Vihear için yerleşime özgü teyit yok."
+  }
+ ],
  "Bantaeng": [
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:254",
@@ -20256,6 +21620,18 @@
     "alan": "isg"
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (ingiltere 1811-08-18, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): Cava 1811–16 isg (önceki karar). | ÖLÇÜT: geçici/askerî - TDV 'geçici İngiliz idaresinin (1811-1816)' (Cakarta maddesi: 'beş yıllık geçici İngiliz idaresi'), 1816'da Hollanda'ya devredildi. TEK KURAL AYKIRILIĞI: işgal/geçici idare 'isg ingiltere' yazılır (Kâbil 1839-42, Rodos emsali); s ingiltere hukukî devir (yok) gerektirir. Raffles vergi/arazi sistemi (toprağı devlet arazisi ilanı) idareye katma işareti olabilir (tahrir ölçütü) - TDV susar/yorumsuz: Emre kararı. Gün 1811-08-18 teyitsiz (TDV yıl). t=1816-08-19: TDV yalnız 1816 yılını verir (Hollanda'ya devir). Blitar/Bojonegoro/Yogyakarta Orta-Doğu Cava, Batavia: İngiliz girişi farklı günlerde (Yogyakarta 1812 Haziran) - KARIŞIK."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:305",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1816-08-19",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Dutch_East_Indies",
+   "alinti": "independent Dutch control was restored in 1816",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (hollanda-dogu-hint 1816-08-19, 4 satır); yalnız gün ve devlet teyitli. TDV Endonezya: 1816 tarihlemiyor (Raffles ve Hollanda'nın geri gelişi genel). Vikipedi: «1806–1816 French and British interregnum»; 19 Ağustos 1816 gün kaynağı bulunamadı. TEK ÖLÇÜ: antlaşma 13 Ağustos 1814 (Anglo-Dutch), fiilî teslim Ağustos 1816 (Batavya). t 1942-03-09 (Japon teslimi) TDV'de yok. Künye f 1602 ile aşım yok."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:305",
@@ -20488,6 +21864,30 @@
   {
    "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
    "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1410-06-15",
+   "t": "1411-02-17",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi — https://islamansiklopedisi.org.tr/musa-celebi (Emîr Süleyman maddesi slug'ı bulunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (suleyman-celebi 1410-06-15, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'suleyman-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | FETRET kuralı: 1410-06-15 (Kosmidion) savaş günü, bölge düzeyi, yerleşime özgü f değil → YIL düzeyi/ABİ MERKEZ gerekir. TDV Mûsâ Çelebi t ucunu veriyor: «Emîr Süleyman’ı ... ortadan kaldırdı ve burada hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)» (alıntı yalnız t ucunu tarihliyor; küme t 1411-02-17 ile tutarlı). Künye yok (kunye null) → künye sorusu LAB'a."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
+   "alan": "s",
+   "d": "musa-celebi",
+   "f": "1411-02-17",
+   "t": "1413-07-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mûsâ Çelebi, Fahameddin Başar, 2020 — https://islamansiklopedisi.org.tr/musa-celebi",
+   "alinti": "hükümdarlığını ilân etti (22 Şevval 813 / 17 Şubat 1411)",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (musa-celebi 1411-02-17, 4 satır); yalnız gün ve devlet teyitli. ÖLÇÜM (LAB PAZAR, origin/main): 'musa-celebi' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde: hicrî + mîlâdî çift verilmiş (çevirmedim). FETRET kuralı: ülke/hükümdarlık ilânı düzeyi (Edirne); Alasonya/Sliven/Umur Fakih/Karpuzlu için yerleşime özgü tanıklık değil → ÜLKE DÜZEYİ, ABİ MERKEZ Edirne. t ucu: TDV «(5 Rebîülâhir 816 / 5 Temmuz 1413)» = küme t 1413-07-05 tutarlı. Künye yok (null)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_sinir_kuzey.js:15",
+   "alan": "s",
    "d": "tbmm-turkiye",
    "f": "1920-04-23",
    "t": "1923-10-29",
@@ -20538,6 +21938,18 @@
     "not": "Küba: ispanyol-kuba t 1899-01-01 (Havana teslimi; Paris feragati 1898-12-10 ic_not'a); 1899-01-01 → 1902-05-20 s: abd + BEYANLI YAKLAŞIKLIK, isg yok, ic_not 'ABD ilhak etmedi (Teller Değişikliği); askerî hükûmet; künye adayı kuba-abd-askeri-hukumeti'; ardından kuba-cumhuriyeti. s: abd (gerçek) yalnız Porto Riko ve Guam 1898-12-10. | KESİN (EMRELİC): kuba-cumhuriyeti f → 1902-05-20 (TEK ÖLÇÜ teslim; ABD idareyi 05-20 öğlen devretti) — künye düzeltmesi KASA-KUYRUK. ABD askerî dilimi son günü 05-19 (atlas t ucu dışlayıcı: t = 1902-05-20). ic_not aynen: 'the Republic of Cuba was formally installed on May 19, 1902' (history.state.gov/countries/cuba)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (abd 1898-12-10, 6 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-30): Küba kararı. KAYNAK (LAB PAZAR sayfa.py, history.state.gov/countries/cuba): 'the Republic of Cuba was formally installed on May 19, 1902. On May 20, 1902, the United States [ended] its occupation authority' — künye f 05-19 kaynakla uyumlu; ABD işgal yetkisinin devri 05-20 (TEK ÖLÇÜ teslim günü?) — EMRELİC'e. | KARAR EMRELİC (gece-29): Paris 1898-12-10 İspanya feragati, ABD'ye devir yok (Küba). ÖLÇÜM (LAB PAZAR): ABD askerî hükûmeti künyesi YOK; kuba-cumhuriyeti künye f 1902-05-19 (EMRELİC 05-20 — bir gün fark, kaynakla). 1898-12-10 → 1902 arası alttaki s: (ispanyol-kuba t 1898-12-10) boş kalıyor — EMRELİC'e soru. | Paris 1898 Küba'yı devretmedi (history.state.gov) → Küba yerleşimlerinde isg abd (TEK KURAL), s: abd yalnız Porto Riko/Guam. | KARIŞIK KÜME — farklı yerleşimler farklı olay/günde; yerleşim satırları ayrı sınanmalı (LAB PAZAR). | sayfa.py. KARIŞIK: Paris Antlaşması imza 1898-12-10 (kaynakta 'signed the Treaty of Paris on December 10, 1898'). Puerto Rico (San Juan) bu günde ABD'ye devredildi: KAYNAKLI (s:abd 1898-12-10, TEK ÖLÇÜ imza günü; yürürlük 1899-04-11). Küba (Baracoa, Santiago, Havana, Cienfuegos, Santa Clara) DEVREDİLMEDİ — kaynak 'guaranteeing the independence of Cuba'; ABD yönetimi askerî işgaldir -> isg abd (1899-01-01'den, kaynakla okunmadı) ve s: abd olmamalı; Küba bağımsızlığı 1902-05-20 (t_dagilim). TEK KURAL (işgal=isg). Künye f=1776-07-04 aşım yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek_karayip_adalar.js:38",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Republic_of_Cuba_(1902–1959)",
+   "alinti": "Raising the Cuban flag on the Governor General's Palace at noon on 20 May 1902",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kuba-cumhuriyeti 1902-05-20, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC: künye f → 1902-05-20 (LAB SALI UYGULA'da). | Vikipedi ipucu 20 Mayıs 1902 (devir günü). KAYNAKLI değil (TDV'de Küba yok). Künye f 1902-05-19, küme f 1902-05-20: 1 gün fark (künye aşımı değil, küme sonra). Karşılık beyanı gerekir."
   }
  ],
  "Scarborough (Tobago)": [
@@ -21765,6 +23177,18 @@
   }
  ],
  "Gaeta": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:49",
+   "alan": "s",
+   "d": "italya",
+   "f": "1861-03-17",
+   "t": "1946-06-18",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi IPUCU (dayanak degil): en.wikipedia Kingdom_of_Italy",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (italya 1861-03-17, 4 satır); yalnız gün ve devlet teyitli. Vikipedi ipucu: «existed from 17 March 1861» ; KAYNAKLI değil (Treccani sayfası bulunamadı). KARIŞIK: Chiavenna (Lombardiya, Sardinya'ya 1859 Zürih), Piombino/Orbetello (Toskana, 1860 ilhak), Gaeta (İki Sicilya'dan 13 Şubat 1861 düştü) — hepsi 1861-03-17'de İtalya'ya geçmiş sayılıyor; önceki sahipler zincirde. t 1946-06-18 (3) ve 1943-09-23 (1; muhtemelen RSI/ayrı). Künye f = küme f."
+  },
   {
    "dosya_satir": "data/yerlesimler_nokta2.js:49",
    "alan": "s",
@@ -23078,6 +24502,34 @@
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (venezuela-cumhuriyeti 1830-01-13, 6 satır); yalnız gün ve devlet teyitli. sayfa.py: alinti BASKA olayi tarihliyor (Valencia Kurucu Kongresi 6 Mayis-14 Ekim 1830); 13 Ocak 1830 (Jefe Superior kararnamesi, Anales de Venezuela) yalniz arama ozeti - okunmadi. Gun degisikligi onerilmiyor; f=1830-01-13 teyitsiz, yil (1830) teyitli. Kunye f=kume f."
   }
  ],
+ "Riohacha": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1600",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV arama/kolombiya (özet), Büyük Kolombiya",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kolombiya-cumhuriyeti 1831-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV arama özeti «1819’da kurulmuş olan Büyük Kolombiya’dan 1829’da Venezuela, 1830’da ...» — arama özeti okunmuş sayılmaz; madde bulunamadı. Künye f 1831-01-01 = küme f (Yeni Granada ayrılış yıl). Bakılmadı: Banco de la República / Biblioteca Luis Ángel Arango."
+  }
+ ],
+ "Montería": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1630",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV arama/kolombiya (özet), Büyük Kolombiya",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (kolombiya-cumhuriyeti 1831-01-01, 4 satır); yalnız gün ve devlet teyitli. TDV arama özeti «1819’da kurulmuş olan Büyük Kolombiya’dan 1829’da Venezuela, 1830’da ...» — arama özeti okunmuş sayılmaz; madde bulunamadı. Künye f 1831-01-01 = küme f (Yeni Granada ayrılış yıl). Bakılmadı: Banco de la República / Biblioteca Luis Ángel Arango."
+  }
+ ],
  "Merauke": [
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:23",
@@ -23310,6 +24762,18 @@
   {
    "dosya_satir": "data/yerlesimler_halef_1946.js:88",
    "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1918-11-11",
+   "t": "1918-12-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (sirbistan-kralligi 1918-11-11, 4 satır); yalnız gün ve devlet teyitli. TDV: «1918’den sonra Sırp-Hırvat ve Sloven Krallığı’nın bir parçası sayılan alan» (yıl düzeyi, Sırbistan Krallığı'na geçiş günü yok). Küme f 1918-11-11 (Travnik, Vişegrad, Visoko, Orašje) için gün kaynağı bulunamadı; Bosna'da Sırp ordusu girişi/Ulusal Konsey günleri başka kaynaktan sorulmalı. Künye t 1918-12-01 = küme t tutarlı; KÜNYE f 1882 ile çelişmez. KARIŞIK: Orašje Posavina (Hırvat çoğunluk) — SHS Devleti (29 Ekim 1918) önceliği tartışmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+   "alan": "s",
    "d": "yugoslavya",
    "f": "1918-12-01",
    "t": "1941-04-10",
@@ -23318,6 +24782,18 @@
    "alinti": "1 Aralık 1918’de anayasa ile yönetilen Sırp, Hırvat ve Sloven Krallığı olarak görülen devlet kuruldu",
    "oneri": {},
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (yugoslavya 1918-12-01, 5 satır); yalnız gün ve devlet teyitli. Künye f=1918-12-01 küme f ile tutarlı. ÜLKE DÜZEYİ. KARIŞIK/KONTROL: Kuršumlija 1878'den beri Sırbistan toprağı (önceki sahip sırbistan, SHS'ye 1 Aralık 1918'de birleşme); Travnik/Visoko/Vişegrad/Orašje önceki sahip avusturya (t 1918-11-11 - ara dönem 11 Kas-1 Ara boşluk: TDV'de Bosna-Hersek 28 Ekim 1918 meclis kararı, 25 Kasım 1918 Novi Sad kararı geçiyor, ara boşluk yerleşim düzeyinde beyan gerektirir). t ucu 1941-04-10/1941-08-29 satırları bu alıntıyla doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+   "alan": "isg",
+   "d": "avusturya",
+   "f": "1878-07-29",
+   "t": "1908-10-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Bosna-Hersek — https://islamansiklopedisi.org.tr/bosna-hersek",
+   "alinti": "29 Temmuz’da başlayan işgal 20 Ekim 1878’de tamamlandı",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (avusturya 1878-07-29, 4 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-38): t 1908-10-05 imza, TDV 10-07 ic_not. | ÖLÇÜM (LAB PAZAR, origin/main): 'avusturya' devletler.js'te künye DEĞİL (D-ANAHTAR / boya anahtarı) — LAB SALI'ya. | f ucu gün düzeyinde (29 Temmuz 1878). ÖLÇÜT: geçici/askerî — Osmanlı hakları 1908'e kadar sürdü (TDV: «Osmanlı Devleti’nin hakları 1908’deki kati ilhaka kadar resmen sürmüştü»). t ucu: TDV «7 Ekim 1908’de buranın resmen Avusturya-Macaristan toprağı olduğu ilân edildi»; küme t 1908-10-05 ile 2 gün farklı (alıntı t ucu; TDV 7 Ekim, ilân günü; 5 Ekim kararı olabilir) — Emre'ye bırakıldı. Künye yok (kunye null). | İSTİSNA (a): 1878-07-29 günü zincirde isg avusturya (1878-07-29 → 1908-10-05) var; o gün avusturya fiilen yönetmiyordu — dönem başı/isg ilişkisi yerleşim kaynağıyla sınanmalı."
   }
  ],
  "Mianning (Lincang)": [
@@ -23765,6 +25241,30 @@
     "not": "1918-11-16 kırılması macaristan-halk-cumhuriyeti'ne; 1919-03-21 macar-sovyet-cumhuriyeti (fiilî kontrol); 1919-08-01'den macaristan-naiplik (künye f → 1919-08-01); Romen işgali şehir şehir isg romanya (Budapeşte 1919-08-04 → 11-14/16)."
    },
    "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-naiplik 1918-11-16, 5 satır); yalnız gün ve devlet teyitli. KARAR EMRELİC (gece-39): Peidl/Friedrich/Huszár → Horthy aynı polity; 1920-03-01 naiplik ilanı ic_not; künye düzeltmesi LAB SALI UYGULA'da. | KARAR EMRELİC (gece-38): künye f → 1920-03-01 (Horthy naipliği). ÖLÇÜM (LAB PAZAR): ayrı künyeler VAR — macaristan-halk-cumhuriyeti (Károlyi) 1918-11-16 → 1919-03-21 (devletler.js:17210), macar-sovyet-cumhuriyeti 1919-03-21 → 1919-08-01 (17204); macaristan-naiplik f 1918-11-16 bunlarla ÇAKIŞIYOR. 1919-08-01 → 1920-03-01 (Romen işgali / Friedrich hükûmeti) künyesiz. LAB SALI'ya. | LAB PAZAR: kaynak kurum portalı (habsburger.net), akademik değil — ONERI (Austria-Forum emsali). | sayfa.py ham metin. Künye f=1918-11-16 ile küme f tutarlı. Cumhuriyet ilanı günü. DİKKAT: künye adı 'Naiplik' ama f cumhuriyet ilanı (Naiplik 1920-03-01'de başlar); ad/f uyumsuzluğu LAB'a. TDV Macaristan madde: halk cumhuriyeti ilanını gün vermeden anlatıyor (31 Ekim 1918 devrim); TDV'de 16 Kasım 1918 yok. Habsburger.net müze/kurum portalı, tarihçi yazarlı; hakemli makale değil - Emre uygun görmezse ONERI say. t ucu (Trianon 1920-06-04 olan 1 yerleşim) bu satırda doğrulanmadı. Hatvan/Debrecen/Szombathely vb. ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_p77_avrupa.js:54",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Macaristan — https://islamansiklopedisi.org.tr/macaristan",
+   "alinti": "",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-halk 1946-02-01, 4 satır); yalnız gün ve devlet teyitli. TDV Macaristan maddesi 1946 cumhuriyet ilânını/1 Şubat 1946'yı içermiyor (yalnız 1949 Komekon ve 23 Ekim 1989). t ucu için TDV: «23 Ekim 1989 tarihinde halk cumhuriyeti yerine Macaristan Cumhuriyeti ilân edildi» = küme t 1989-10-23 (alıntı yalnız t ucunu tarihliyor). Künye adı «II. Cumhuriyet 1946 → Halk Cumhuriyeti 1949-08-20»: künye f 1946-02-01 küme f ile tutarlı. Bakılmadı: Magyar Katolikus Lexikon."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_p77_avrupa.js:54",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Macaristan — https://islamansiklopedisi.org.tr/macaristan",
+   "alinti": "23 Ekim 1989 tarihinde halk cumhuriyeti yerine Macaristan Cumhuriyeti ilân edildi",
+   "oneri": {},
+   "not": "KÜME HÜKMÜ — ÜLKE DÜZEYİ (macaristan-cumhuriyeti 1989-10-23, 4 satır); yalnız gün ve devlet teyitli. f ucu gün düzeyinde teyit. Künye f 1989-10-23 tutarlı."
   }
  ],
  "Hamilton (Bermuda)": [
