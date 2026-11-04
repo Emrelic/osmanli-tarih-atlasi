@@ -176,17 +176,6 @@
   "onay": "EMRELİC 5 Kasım (gece-19)"
  },
  {
-  "d": "urdun-emirligi",
-  "tur": "KUNYE",
-  "karar": "EMRELİC",
-  "islem": "ic_not: '1921-04-11 ilk hükûmetin kuruluşu'; f 02-01 TDV ÜRDÜN ile teyit (H4).",
-  "kunye": "urdun-emirligi f 1921-02-01 KALIR",
-  "gun": "",
-  "guc": "ORTA",
-  "dayanak": "LAB ölçümü + EMRELİC",
-  "onay": "EMRELİC 5 Kasım (gece-19)"
- },
- {
   "d": "habsburg / Bukovina",
   "tur": "KUNYE",
   "karar": "EMRELİC",
@@ -273,5 +262,49 @@
   "islem": "t 1482-03-27 ÇİFT TEYİT: NDB 16 (1990) 'Maria' «† 27.3.1482 Brügge» + ADB 20 (1884) «starb schon am 27. März 1482 … in Brügge»; Treccani Enc. Italiana (Ganshof 1934) «morta a Bruges il 28 marzo 1482» → ÇELİŞKİ ic_not'a (iki kaynak vs bir). Düklük (Dijon ve çevresi) yerleşimleri: Cesur Charles'ın ölümü 1477-01-05'ten sonra Fransız fiilî ilhakı — NDB «Frankreich … besetzte sofort das Herzogtum», ADB «widerstandslos an sich gerissen» (gün yok); Dijon teslim günü açılmış kaynakta YOK (29 Ocak yalnız arama özeti) → kırılma 1477-01-05 ALT SINIR + beyan 'fiilî ilhak Ocak 1477, gün teyitsiz' (1477-01-01 yazılamaz: tetikleyen olaydan önce düşer). ic_not: Arras 1482-12-23 (Treccani 'Borgogna' «3 dicembre 1482» — dizgi hatası olabilir, iki gün beyan). Değişmez 2: 1477-01-05 Nancy maddesi ölçülmeli.",
   "dayanak": "deutsche-biographie.de/sfz58282.html (NDB+ADB 'Maria'); treccani.it 'Maria duchessa di Borgogna' (Enc. Italiana); Treccani 'Borgogna' (H4B)",
   "onay": "EMRELİC 5 Kasım gece-27 (Dijon günü yoksa ay beyanı — LAB: alt sınır 01-05)"
+ },
+ {
+  "d": "zend (1747-51 dilimi)",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "1747-06-20 → 1749-12-31 zend dönemleri s: afsar (künye 1736-03-08 → 1796 kapsıyor; Âdil Şah 1747-07-06 → İbrâhim Şah 1748-12-08 → 1749); 1750-01-01 → 1750-12-31 BEYANLI dilim (III. İsmâil adına Ebü'l-Feth / Ali Merdan Han / Kerim Han üçlüsü — zend DEĞİL; künyesiz → __BOSLUK__ + beyan ya da kaynak) ; 1751-01-01'den zend. Nâdir Şah ölümü: veri 1747-06-20 KALIR; ic_not: 'TDV Avşarlılar 21 Mayıs 1747 = 11 Cemâziyelevvel 1160 — ay kayması; 11 Cemâziyelâhir 1160 = 1747-06-20 (tabular)'.",
+  "kunye": "zend f 1751-01-01 KALIR",
+  "gun": "1750-01-01",
+  "guc": "ORTA",
+  "dayanak": "TDV KERİM HAN ZEND, AVŞARLILAR, ZENDLER, İSFAHAN (H4A); EMRELİC hicrî çapraz",
+  "onay": "EMRELİC 6 Kasım gece-28"
+ },
+ {
+  "d": "urdun-emirligi (f)",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "f → 1921-03-02 (Abdullah Amman'a geldi, emirliğin kuruluşu başladı). ic_not_f: 'TDV ÜRDÜN: Şubat 1921 emîr ilânı [yalnız ay]; Maan 1920-11-21 (Maan 1925'e dek Hicaz iddiasında — ayrı soru); ilk hükûmet 1921-04-11 (arama özeti) / 05-11 (Başbakanlık, açılamadı) — ÇELİŞKİ'. Önceki UYGULA 'f 02-01 KALIR' satırının yerine geçer. Moab/Salt/Aclûn yerel hükûmetleri (aday) t ucu buna göre 1921-03-01. Değişmez 2: 1921-03-02 maddesi ölçülmeli.",
+  "kunye": "urdun-emirligi f 1921-02-01 → 1921-03-02",
+  "gun": "1921-03-02",
+  "guc": "ORTA",
+  "dayanak": "el-Meşâkıbe 2021, Al-Hussein Bin Talal Univ. hakemli dergi (H4A); TDV ÜRDÜN",
+  "onay": "EMRELİC 6 Kasım gece-28"
+ },
+ {
+  "d": "taebong (f)",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "f → 0899-08-10 (Tang Guanghua 2, 7. ay, ayın 1'i — Gungye'nin Yanggil'i yenip bağımsızlaşması; EKC 궁예 899-07). ic_not_f: '[yalnız ay]; EKC 태봉 Yanggil yenilgisi 900 — ÇELİŞKİ; 894 10. ay (894-11-02…) Myeongju'da 將軍; Songak 三國史記 光化元年二月 葺松岳城 vs EKC 898-07 — ÇELİŞKİ; 901 天復元年 善宗自稱王 (krallık ilanı)'. 899-08-10 öncesi Gungye dönemleri Yanggil'in (künyesiz) — ölçülmeli. Chungju 900-10-26 [yalnız ay] (LAB PAZAR EVREN4).",
+  "kunye": "taebong f 0901-01-01 → 0899-08-10 [yalnız ay]",
+  "gun": "0899-08-10",
+  "guc": "ORTA",
+  "dayanak": "Encyclopedia of Korean Culture 궁예/태봉; 三國史記 卷50 弓裔傳 (H4A); çeviri Academia Sinica (EMRELİC gece-28)",
+  "onay": "EMRELİC 6 Kasım gece-28"
+ },
+ {
+  "d": "tungning (f)",
+  "tur": "KUNYE",
+  "karar": "EMRELİC",
+  "islem": "f → 1661-05-02 (永曆十五年四月初四 赤崁城/Provintia teslimi — Tayvan'da ilk fiilî idare, TEK ÖLÇÜ; Gregoryen). ic_not_f: '鹿耳門 çıkarması 四月初一 = 1661-04-29; 五月 改赤崁地方為東都明京 (1661-05-28…) [yalnız ay]; Zeelandia teslimi 1662-02-01 (VOC, teyitsiz); Zheng Jing'in 東寧 adı'. Zeelandia/Tainan kalesi yerleşimi varsa 1662-02-01 kırılması (VOC → tungning). 1650 Xiamen dönemleri tungning DEĞİL → guney-ming (Yongli; Xiamen 1663 kaybı kaynakla). Değişmez 2: 1661-05-02 maddesi ölçülmeli.",
+  "kunye": "tungning f 1650-01-01 → 1661-05-02",
+  "gun": "1661-05-02",
+  "guc": "ORTA",
+  "dayanak": "從征實錄 (Yang Ying, wikisource birincil metin, H4A); çeviri Academia Sinica (EMRELİC gece-28)",
+  "onay": "EMRELİC 6 Kasım gece-28"
  }
 ]
