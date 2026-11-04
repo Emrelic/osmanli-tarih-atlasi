@@ -12,11 +12,15 @@ site o maddede Türkçeyi gösterir, bu betik yalnız bayatı/eksiği yeniden ç
                                                       # cevap: {"tur":..., "kayit":{id: metin | {b,d}}}
   py arac/ceviri.py yaz    [--dil en]                 # dosyaları yeniden böl + data/ceviri_dizin.js
   py arac/ceviri.py temizle --dil en                  # Türkçesi silinmiş (yetim) kayıtları at
+  py arac/ceviri.py denetim [--dil en]                # eksik/bayat/yetim tablosu + tavan (BEKLENEN_CEVIRI_*)
+  py arac/ceviri.py kuyruk  [--dil en] [--cikti klasor]  # dil×tür başına çevrilecekler (is.json biçimi)
 
 `uygula` özeti ÇEVİRİNİN YAPILDIĞI andaki Türkçeden değil, GİRDİDEKİ `kaynak`tan
 alır: is.json'daki Türkçe çevirmene gittiği metindir; arada Türkçe değiştiyse
 kayıt doğduğu anda bayat olur (doğru davranış — eski metnin çevirisidir).
 Çıkış: 0 tamam · 1 hata · 2 ölçülemedi (node yok / çıkarıcı çöktü).
+`denetim` çıkışı: 0 tavan aşılmadı (açık borç "borç" diye basılır) · 1 tavan aşıldı (gerileme) ·
+2 ölçülemedi. CLAUDE.md "Tavanlar": tavan yalnız iner, iyileşince aynı commit'te düşürülür.
 """
 import argparse, hashlib, json, os, re, subprocess, sys
 
@@ -33,6 +37,30 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
           ("pt", "Português"), ("de", "Deutsch"), ("ja", "日本語"), ("fa", "فارسی"),
           ("it", "Italiano"), ("ko", "한국어"), ("pl", "Polski"), ("nl", "Nederlands"),
           ("el", "Ελληνικά")]
+
+# TAVANLAR (CLAUDE.md "Tavanlar"): 4 Kasım 2026 ölçümü, birleşik dal. {dil: {tür: sayı}}.
+# Yalnız GERİLEME bloke eder; iyileşince aynı commit'te İNDİRİLİR, YÜKSELTİLMEZ (yeni Türkçe
+# madde eklenince çeviri kuyruğu çevrilir — tavan açılmaz). Tamamlanan dil 0'a iner.
+# Listede olmayan dil/tür tavanı 0'dır. yetim denetimde yalnız BASILIR (arayüzdeki yetimler
+# bilinçli: sözlüğe elle eklenen şablon/birleşik metinler).
+BEKLENEN_CEVIRI_EKSIK = {
+    "en": {"arayuz": 0, "devlet": 0, "olay": 2},
+    "ar": {"arayuz": 0, "devlet": 0, "olay": 2},
+    "es": {"arayuz": 0, "devlet": 0, "olay": 2},
+    "de": {"arayuz": 0, "devlet": 0, "olay": 2},
+    "pt": {"arayuz": 0, "devlet": 0, "olay": 1119},
+    "ru": {"arayuz": 0, "devlet": 0, "olay": 3518},
+    "fr": {"arayuz": 0, "devlet": 0, "olay": 4718},
+}
+BEKLENEN_CEVIRI_BAYAT = {
+    "en": {"arayuz": 0, "devlet": 0, "olay": 53},
+    "ar": {"arayuz": 0, "devlet": 0, "olay": 53},
+    "es": {"arayuz": 0, "devlet": 0, "olay": 53},
+    "de": {"arayuz": 0, "devlet": 0, "olay": 53},
+    "pt": {"arayuz": 0, "devlet": 0, "olay": 41},
+    "ru": {"arayuz": 0, "devlet": 0, "olay": 17},
+    "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
+}
 
 
 try:
@@ -184,15 +212,59 @@ def dizin_yaz():
     return var
 
 
+def aktif_diller():
+    """Çeviri dosyası olan (dil seçicide görünen) diller, DILLER sırasıyla."""
+    return [k for k, _ in DILLER if k != "tr" and any(dosyalar(k, t) for t in TURLER)]
+
+
+def denetim_olc(j=None, diller=None):
+    """{dil: {tür: {tamam,bayat,eksik,yetim}}} — j verilmezse çıkarıcıdan okunur (ölçülemezse SystemExit 2)."""
+    j = j or cikar()
+    sonuc = {}
+    for dil in (diller or aktif_diller()):
+        sonuc[dil] = {}
+        for tur in TURLER:
+            t, b, e, y = kiyasla(turkce(j, tur), oku(dil, tur), tur)
+            sonuc[dil][tur] = {"tamam": len(t), "bayat": len(b), "eksik": len(e), "yetim": len(y)}
+    return sonuc
+
+
+def denetim_hukmu(sonuc):
+    """(çıkış 0/1, satırlar). 1 = herhangi bir dil×tür×{eksik,bayat} tavanı aşıyor."""
+    satirlar = ["%-4s %-7s %7s %7s %7s   %s" % ("dil", "tür", "eksik", "bayat", "yetim", "tavan (eksik/bayat)")]
+    asan, borc, indir = [], 0, []
+    for dil, turler in sonuc.items():
+        for tur, v in turler.items():
+            te = BEKLENEN_CEVIRI_EKSIK.get(dil, {}).get(tur, 0)
+            tb = BEKLENEN_CEVIRI_BAYAT.get(dil, {}).get(tur, 0)
+            isaret = ""
+            if v["eksik"] > te or v["bayat"] > tb:
+                asan.append((dil, tur)); isaret = "  ✗ TAVAN AŞILDI"
+            elif v["eksik"] < te or v["bayat"] < tb:
+                indir.append((dil, tur)); isaret = "  ↓ tavan indirilebilir"
+            borc += v["eksik"] + v["bayat"]
+            satirlar.append("%-4s %-7s %7d %7d %7d   %d/%d%s" % (dil, tur, v["eksik"], v["bayat"], v["yetim"], te, tb, isaret))
+    if asan:
+        satirlar.append("✗  çeviri tavanı AŞILDI: %s → py arac/ceviri.py kuyruk; çevirt; uygula"
+                        % ", ".join("%s/%s" % x for x in asan))
+    else:
+        satirlar.append("✓  çeviri tavanı aşılmadı · açık borç %d madde (eksik+bayat)" % borc)
+    if indir:
+        satirlar.append("   (iyileşme: BEKLENEN_CEVIRI_* değerlerini aynı commit'te indir: %s)"
+                        % ", ".join("%s/%s" % x for x in indir))
+    return (1 if asan else 0), satirlar
+
+
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("komut", choices=["durum", "bayat", "uygula", "yaz", "temizle"])
+    ap.add_argument("komut", choices=["durum", "bayat", "uygula", "yaz", "temizle", "denetim", "kuyruk"])
     ap.add_argument("--dil")
     ap.add_argument("--tur", choices=TURLER)
     ap.add_argument("--cikti"); ap.add_argument("--girdi"); ap.add_argument("--is", dest="is_")
     ap.add_argument("--sinir", type=int, default=0); ap.add_argument("--atla", type=int, default=0)
     a = ap.parse_args()
     diller = [a.dil] if a.dil else [k for k, _ in DILLER if k != "tr"]
+    ad_diller = [a.dil] if a.dil else None
 
     if a.komut == "yaz":
         for dil in diller:
@@ -203,6 +275,34 @@ def main():
         return 0
 
     j = cikar()
+    if a.komut == "denetim":
+        kod, satirlar = denetim_hukmu(denetim_olc(j, ad_diller))
+        print("\n".join(satirlar))
+        return kod
+
+    if a.komut == "kuyruk":
+        import tempfile
+        klasor = a.cikti or os.path.join(tempfile.gettempdir(), "atlas_ceviri_kuyruk")
+        os.makedirs(klasor, exist_ok=True)
+        toplam = 0
+        for dil in (ad_diller or aktif_diller()):
+            for tur in TURLER:
+                tr = turkce(j, tur)
+                _, b, e, _ = kiyasla(tr, oku(dil, tur), tur)
+                ids = e + b
+                yol = os.path.join(klasor, "%s_%s.json" % (dil, tur))
+                if not ids:
+                    if os.path.exists(yol): os.remove(yol)
+                    continue
+                is_ = {"dil": dil, "tur": tur,
+                       "kaynak": {i: tr[i] if tur == "olay" else next(iter(tr[i].values())) for i in ids}}
+                with open(yol, "w", encoding="utf-8") as f:
+                    json.dump(is_, f, ensure_ascii=False, indent=1)
+                toplam += len(ids)
+                print("[%s/%s] eksik %d · bayat %d → %s" % (dil, tur, len(e), len(b), yol))
+        print("kuyruk: %d madde · klasör %s · çevirt → py arac/ceviri.py uygula --dil <dil> --is <dosya> --girdi cevap.json" % (toplam, klasor))
+        return 0
+
     if a.komut == "durum":
         for dil in diller:
             satir = []

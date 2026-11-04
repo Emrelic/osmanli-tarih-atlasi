@@ -2097,7 +2097,22 @@ def main():
         _kapi_ihlali = True
         print("\n✗  sınama kapısı ÖLÇEMEDİ: %s" % str(_e)[:90])
 
-    if (_kapi_ihlali or yoklar or izlenmeyenler or kayitsiz or damga_tutarsiz
+    # 🆕 ÇEVİRİ TAVANI (EMRELİC 4 Kasım 2026): Türkçe madde/devlet/arayüz metni eklenince ya da
+    # değişince bütün aktif dillerde karşılığı olmalı; eksik/bayat sayısı BEKLENEN_CEVIRI_*
+    # tavanını aşarsa (gerileme) yayın durur. Çare: py arac/ceviri.py kuyruk → çevir → uygula.
+    try:
+        import ceviri as _cv
+        _cv_kod, _cv_satir = _cv.denetim_hukmu(_cv.denetim_olc())
+        _ceviri_ihlali = _cv_kod != 0
+        print()
+        print("%s  ÇEVİRİ TAVANI (eksik+bayat, dil × tür):" % ("✗" if _ceviri_ihlali else "✓"))
+        for _s in _cv_satir:
+            print("     " + _s)
+    except (Exception, SystemExit) as _e:                   # noqa: BLE001
+        _ceviri_ihlali = True
+        print("\n✗  ÇEVİRİ TAVANI ÖLÇÜLEMEDİ: %s" % str(_e)[:90])
+
+    if (_kapi_ihlali or _ceviri_ihlali or yoklar or izlenmeyenler or kayitsiz or damga_tutarsiz
             # 🔴 `iz_kosu` ve `iz_olculemedi` BİLEREK YOK (Emre onayı, 1 Ekim
             #   2026): biri `D229`un yapısal koşu bayatı, öteki `D204`ün
             #   ölçülemeyeni. İkisi de basılır, ikisi de BLOKE ETMEZ. Bloke

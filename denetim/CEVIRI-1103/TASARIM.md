@@ -155,3 +155,24 @@ sıradadır, çünkü Osmanlı coğrafyasının büyük kısmının dilidir.
   veri dosyasına dokunmaz (yalnız data/ceviri_* ekler); ölçüm push kapısının worktree'sinde.
 - Değişmez 2 evrenine dokunulmadı: çeviri yalnız görüntü katmanıdır. denetle.py veri dosyalarını
   okur, çeviri dosyalarını okumaz.
+
+## 10. Çeviri borcunun izlenmesi (EMRELİC, 4 Kasım 2026)
+
+Emre'nin kuralı: siteye eklenen ya da değiştirilen her Türkçe öğe (kronoloji maddesi, devlet adı,
+arayüz metni) AKTİF BÜTÜN DİLLERDE de bulunmalıdır. İzleme araçları `arac/ceviri.py`dedir:
+
+- `py arac/ceviri.py denetim [--dil xx]` — dil × tür (arayuz/devlet/olay) için eksik · bayat · yetim
+  sayısı ve tavan. Çıkış: 0 tavan aşılmadı · 1 tavan aşıldı (gerileme) · 2 ölçülemedi.
+- Tavanlar `BEKLENEN_CEVIRI_EKSIK` / `BEKLENEN_CEVIRI_BAYAT` (arac/ceviri.py başı): 4 Kasım ölçümü;
+  yalnız gerileme bloke eder, iyileşince aynı commit'te İNDİRİLİR, yükseltilmez (CLAUDE.md
+  "Tavanlar"). Tamamlanan dilin tavanı 0'dır. Yeni dil açılınca tavanı o günkü ölçümdür.
+  Yetim yalnız basılır (arayüz yetimleri bilinçli: sözlüğe elle eklenen şablonlar).
+- `py arac/denetle_yayin.py` bu denetimi bir satır olarak koşturur; tavan aşımı yayını durdurur.
+- `py arac/ceviri.py kuyruk [--dil xx] [--cikti klasor]` — çevrilecek (eksik + bayat) maddeleri dil × tür
+  başına `<dil>_<tür>.json` olarak yazar (`bayat` komutunun `is.json` biçimi; varsayılan klasör
+  `%TEMP%/atlas_ceviri_kuyruk`). Çevirmen ajan bunu okur.
+
+İş akışı: **Veri değiştiren her push'tan sonra `ceviri.py kuyruk` çıkar; çeviri oturumu bayat/eksikleri
+çevirip `uygula` eder; yayın kapısı tavanla izler.** Yeni Türkçe madde eklendiği için tavan aşılıyorsa
+tavan AÇILMAZ: önce kuyruk çevrilir (bilinçli toplu eklemede ise CLAUDE.md tavan kuralıyla aşımın
+kaynağı ölçülüp sonradan raporlanır).
