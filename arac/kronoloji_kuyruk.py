@@ -36,13 +36,11 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 651-662 (S24)
+    "L2-1023": "Kalikut #3 Vasco da Gama 1498-05-01 (ay başı yer tutucu): CHI V 17 Mayıs demirleme, Jackson/Subrahmanyam (ipucu) 20 Mayıs varış, 28 Mayıs Zamorin görüşmesi; aynı künyede 1498-05-20 tarihli ayrı madde var → yinelenen madde; 17/20 seçimi ve 28 Mayıs ayrı olay kararı",
+    "L2-1030": "Câm Nizâmeddin ölümü 1508: Haig CHI III s.501 1439 cülus + 60 yıl (≈1499), kendi tablosu tutarsız; 1508 yalnız Vikipedi türevlerinde; TDV «Sind» vermez → L2-1002 ile birlikte karar",
     # L2E 1427-1438 (EMRELİC)
-    "L2-1882": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1883": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1884": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1885": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1887": "[çeviri doğrulanmadı] 526-530 ganzhi günü — Academia Sinica çevirisi bekliyor (EMRELİC)",
-    "L2-1879": "Poluohan Bailing: Wei shu c.9 olayı Zhengguang 5, 3. ay başlığına koyar; atlas 523-03-31 ZZTJ kaoyi'ye (四年冬) dayanır → çelişki ic_not'a iki kaynağıyla; karar gelmeden uygulanmaz (EMRELİC)",
+    "L2-1879": "Poluohan Bailing: Wei shu c.9 Zhengguang 5, 3. ay = 524-04-19…05-18 (Academia Sinica); atlas 523-03-31 ZZTJ kaoyi (四年冬) → 523/524 çelişkisi ic_not'a iki kaynağıyla; karar gelmeden uygulanmaz (EMRELİC)",
     "L2-1878": "Anagui 522: Wei shu 103'te 522'de yeniden kağan olma yok (521'de hâlâ Huaishuo'da asker istiyor) → metin BEKLE; tarih önerisi uygulanmaz (EMRELİC)",
     # L2H 1271-1390 (HAVVA)
     "L2-1804": "Sun Wu: atlasın 212'si dayanaksız; kuruluş 222 (Huang Wu ilanı) ya da 229 (Sun Quan imparator) → hangisi künye ucu karar (EMRELİC)",
@@ -97,6 +95,21 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2E 1427-1438 + 1551-1574 + L2H (EMRELİC, Academia Sinica) + NAOJ (KASA SALI)
+    "L2-1882": "Takvim: Xiaochang 2/9/15 辛亥 = 526-10-06 (Academia Sinica)",
+    "L2-1884": "Takvim: Wutai 1/4/13 庚子 = 528-05-17 (Academia Sinica; sinocal Jianyi 1 diye etiketler — Xiaozhuang'ın tahta çıkışı → ic_not)",
+    "L2-1887": "Takvim: Yong'an 3/9 辛卯 = 530-10-25; 戊戌 = 530-11-01 (Academia Sinica)",
+    "L2-1883": "Takvim: Keitai 21/6/3 甲午 = 527-07-16 Jülyen (NAOJ ECO: 6/1 壬辰 = 07-14; Academia Sinica ile aynı)",
+    "L2-1885": "Takvim: Keitai 22/11/11 甲子 = 528-12-07 Jülyen (NAOJ ECO: 11/1 甲寅 = 11-27; Academia Sinica ile aynı)",
+    "L2-1806": "Takvim: Huangchu 1 庚午 = 220-12-10; 辛未 = 12-11 (Academia Sinica)",
+    "L2-2001": "Takvim: Zhenguan 22 閏12 丁丑 = 649-01-19 (Academia Sinica; L2-600/602 ile aynı)",
+    "L2-2003": "Takvim: Zhenguan 23/1 辛亥 = 649-02-22 (Academia Sinica)",
+    "L2-2007": "Takvim: Xianqing 3/2/1 甲寅 = 658-03-10 (Academia Sinica) — atlas yıl düzeyinde; sınıra bağlıysa gün",
+    "L2-2009": "Takvim: Longshuo 1, 3. ay = 661-04-05…05-03 (Academia Sinica) — atlas yıl düzeyinde; sınıra bağlıysa 661-04-05 + [yalnız ay]",
+    "L2-2012": "Takvim: Longshuo 3/9 戊午 = 663-10-14 (Academia Sinica; Baekgang) — atlas yıl düzeyinde; sınıra bağlıysa gün",
+    "L2-2015": "Takvim: Shangyuan 2/1/21 丙寅 = 675-02-21 (Academia Sinica)",
+    "L2-2019": "Takvim: Tianshou 1 «9. ay» 壬午 = 690-10-16 (Academia Sinica); Wu Zhou takvim reformu: kaynağın Xia 9. ayı = Zhou 11. ay (11/9) → ic_not",
+    "L2-2024": "Takvim: Shenlong 1/1 乙巳 = 705-02-22, 丙午 = 705-02-23; 2. ay 甲寅 = 705-03-03 Wu Zhou'nun sonu (Academia Sinica)",
     # L2E 1439-1450 (EMRELİC, Academia Sinica) + NAOJ (KASA SALI)
     "L2-1889": "Takvim: Yongxi 3/7 丁未 = 534-08-21 ayrılış; 己酉 = 534-08-23 Gao Huan Luoyang'a girdi (Academia Sinica)",
     "L2-1890": "Takvim: Yongxi 3/10 丙寅 = 534-11-08 (Academia Sinica); Doğu Wei Tianping 1/10 丙子 = 534-11-18 Ye'ye taşınma",
@@ -175,7 +188,7 @@ DEGISTIR = {
     # L2E 1391-1402 antik ganzhi (EMRELİC, Academia Sinica)
     "L2-1845": ("tarih düzelt", "Pingcheng'e taşınma 398 → 398-07-30 + «[yalnız ay teyitli; gün teyitsiz]»: Wei shu c.2 天興元年秋七月 = 398-07-30…08-28 (Academia Sinica); Academia Sinica yılı Huangshi 3 diye etiketler, Tianxing yıl adı 12. ayda ilan edildi → ic_not"),
     "L2-1851": ("tarih düzelt", "Liu Song Wendi tahta çıkışı → 424-09-17: Takvim: Yuanjia 1/8/9 丁酉 = 424-09-17 (Academia Sinica; Song shu c.5); Shaodi'nin indirilişi Jingping 2/5/25 乙酉 = 424-07-07 → ic_not"),
-    "L2-1876": ("tarih düzelt", "Anagui 520-09-27 → 520-09-28 + «[yalnız ay teyitli]»: Zhengguang 1, 9. ay = 520-09-28…10-26 (Academia Sinica); atlasın 09-27'si 8. aya düşer"),
+    "L2-1876": ("tarih düzelt", "Anagui 520-09-27 → 520-09-28 + «[yalnız ay teyitli]»: Zhengguang 1, 9. ay = 520-09-28…10-26 (Academia Sinica); atlasın 09-27'si 8. aya düşer — gün adayı: 9/21 壬辰 = 520-10-18 (Wei shu; madde Anagui'nin gelişiyse bu gün yazılır)"),
     "L2-1843": ("kaynak yenile (tarih KALIR)", "Kuzey Liang 397: Long'an 1, 3. ay = 397-04-14…05-12 (Academia Sinica) → atlas yıl düzeyinde; sınıra bağlıysa 397-04-14 + «[yalnız ay teyitli]» önerilir"),
     "L2-1844": ("kaynak yenile (tarih KALIR)", "Kuzey Liang 397: Long'an 1, 3. ay = 397-04-14…05-12 (Academia Sinica) → sınıra bağlıysa 397-04-14 + «[yalnız ay teyitli]»"),
     "L2-1848": ("kaynak yenile (tarih KALIR)", "Hu Xia 407: Yixi 3, 6. ay = 407-07-21…08-18 (Academia Sinica) → sınıra bağlıysa 407-07-21 + «[yalnız ay teyitli]»"),
@@ -381,6 +394,15 @@ METIN = [
     ("L2-1016", "Ginkaku-ji 1489: Kannon-den üst yapısının kurulduğu yıl; inşaat 1482 başladı, Yoshimasa 1490 tamamlanmadan öldü (Hikihara, Kyoto-fu Maizō Bunkazai Ronshū 6) → «inşa ettirdi» süre ifadesine çekilir"),
     ("L2-1017", "Cenova 1492 Sefarad sürgünleri: atlas «birkaç gün bekletildi, kalıcı izin yok»; Zappia (Studi Emigrazione 2025) yanaşma ve oturma izni verildiğini, JVL 3 günlük inme izni ve 31 Ocak 1493 geri çekilişi yazar → metin düzeltilir"),
     ("L2-1019", "Ferrara'ya kabul: 20 Kasım 1492 kaçakların pasaportu (Jewish Encyclopedia), resmî dük kararı 1 Şubat 1493 (Modena arşiv kataloğu) → iki gün ayrılır"),
+    # L2S 651-662 (S24)
+    ("L2-1020", "[BEKLE — kurum sayfası] Crnojević matbaası 1493: Karadağ Millî Kütüphanesi Obod der, atlas «Cetine»; kurucu Ivan / Đurađ ihtilaflı; yıl akademik kaynakta okunmadı"),
+    ("L2-1021", "Palazzo dei Diamanti: DBI (Rossetti) inşaatın ilk belgesi 1495 (taş ve kiremit sözleşmesi); 1493 yalnız ikincil; «elmas kesimli mermer» → Verona taşı"),
+    ("L2-1025", "Pinturicchio Piccolomini Kitaplığı: sözleşme 29 Haziran 1502 (DBI), freskler sonra (6 Eylül 1502 hâlâ Perugia'da); atlas 1502-01-02 uyuşmaz; «Raphael'in katkısı» tartışmalı"),
+    ("L2-1027", "[BEKLE — ipucu] Kalikut #4: «hüküm süren Zamorin suikaste kurban gitti» 1503'e bağlanmış; suikast savaşın sonunda (~1513)"),
+    ("L2-1032", "Polesella 1509-12-22 (DBI Quazza): «quasi interamente» → «imhası» yumuşatılır"),
+    ("L2-1031", "Krişnadevarâya 1509: en erken yazıt 26 Temmuz 1509, taç giyme ~2 hafta sonra (Sastri 1966) → sınıra bağlıysa 1509-07-26 üst sınır, ic_not"),
+    # L2E 1563-1574 (EMRELİC)
+    ("L2-2016", "«Tang yarımadadan çıkarıldı» kaynağın değil ajanın yorumu → metin yumuşatılır (EMRELİC)"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
