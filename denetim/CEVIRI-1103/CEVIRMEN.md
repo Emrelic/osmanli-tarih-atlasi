@@ -66,6 +66,29 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
    - Rakamlar Batı rakamı; `#` şablonları ve tarih denetimi rakamla çalışır. MÖ → a. C., MS → d. C.
      Ay adları küçük harfle (enero, febrero …). Ters soru/ünlem işareti (¿ ¡) kullan.
    - Uydurma ad üretme: emin değilsen modern Türkçe yazımı bırak.
+3c. **Rusça (ru) ölçüsü:** Rus akademik tarih yazımının yerleşik adları: RAN Doğu Bilimleri Enstitüsü (Институт востоковедения РАН) Osmanlı tarihi yayınları, «История Османского государства, общества и цивилизации» (Rusça baskısı), Büyük Rus Ansiklopedisi (БРЭ). Dil akademik, sade ve çağdaş Rusçadır. Düğme dili kısa ve emir kipindedir («Показать», «Закрыть»).
+   - **Devlet ve kurumlar:**
+     - Османская империя; султан; великий визирь; янычары.
+     - Kurum adları: бейлербей; санджак; тимар; девширме; кади; шейх-уль-ислам; диван.
+   - **İstanbul:**
+     - 29 Mayıs 1453 fethine kadar (kuşatma dahil) **Константинополь**, sonrası **Стамбул**.
+     - Metin "Kostantiniyye" diyorsa: Константинополь.
+     - Edirne: fetihten önce Адрианополь, sonra Эдирне.
+   - **Yer ve devlet adları:**
+     - Belgrad → Белград, Viyana → Вена, Mora → Морея, Rumeli → Румелия.
+     - Eflak → Валахия, Boğdan → Молдавия (Молдавское княжество), Erdel → Трансильвания.
+     - Kırım Hanlığı → Крымское ханство, Venedik → Венеция (Венецианская республика).
+     - Memlükler → мамлюки / Мамлюкский султанат, Selçuklular → сельджуки, Safevîler → Сефевиды.
+     - Akkoyunlu → Ак-Коюнлу, Karakoyunlu → Кара-Коюнлу, Kutsal Roma → Священная Римская империя.
+   - **Kişiler:**
+     - Osmanlı sultanları: Мехмед II (Завоеватель yalnız metin lakabı veriyorsa), Баязид I, Сулейман I (Великолепный ya da Кануни yalnız metin lakabı veriyorsa), Мурад, Селим, Осман, Орхан.
+     - Batılılar Rus akademik yazımıyla: Карл V, Иван IV, Пётр I, Екатерина II.
+   - **Yazım ayrıntıları:**
+     - Rakamlar Batı rakamıyla yazılır. `#` şablonları ve tarih denetimi rakamla çalışır.
+     - Hükümdar sıra numaraları Roma rakamıyla yazılır (Мехмед II).
+     - MÖ → до н. э., MS → н. э. Ay adları küçük harfle ve hâl ekiyle yazılır ("29 мая 1453").
+     - Ё harfi yalnız yerleşik adlarda kullanılır (Пётр). Tırnak «…».
+   - **Emin değilsen:** özel adı modern Türkçe yazımıyla, Latin harfle bırak. Kiril harfine **çevirme**; uydurma ad üretme. Örnek: az bilinen bir kasaba ya da beylik adı Türkçe kalır.
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
