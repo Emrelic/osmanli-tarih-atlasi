@@ -233,7 +233,9 @@
 {
 "id": "burgonya",
 "hukum": "KISMEN",
-"kaynak": "EMRELİC Cambridge — Blockmans, New Cambridge Modern History I, ch.VIII, s.~231: 'Mary died on 27 March 1482' (t GÜN TEYİT, Valois Burgonya devletinin sonu olarak); ic_not: dükalık toprağının 1477'de Fransa'ya geçişi (NCMH VII ch.20 s.~455); yerleşim kontrolü UMIT'te. DİKKAT (LAB): künye adı 'Valois' ama f 1032 (Kapet dükalığının başı) — Valois Burgonya 1363 (Cesur Philippe); f kapsamı KASA/Emre kararı ister"
+"ad": "Burgonya Dükalığı",
+"ad_gerekce": "EMRELİC kararı (Mantova ilkesi): hanedan değişimi polity değişimi değildir; dükalık 1032-1482 tek polity → '(Valois)' düşer, f 1032 KALIR",
+"kaynak": "EMRELİC Cambridge — Blockmans, New Cambridge Modern History I, ch.VIII, s.~231: 'Mary died on 27 March 1482' (t GÜN TEYİT) · KARAR (EMRELİC): f 1032 kalır, künye adı 'Burgonya Dükalığı' ('(Valois)' düşer); ic_not: 'Kapet dükleri 1032–1361; Valois 1363 (Cesur Philippe) – 1482 (Mary'nin ölümü); asıl dükalık toprağı 1477'de Fransız işgali, Arras 1482' (NCMH VII ch.20 s.~455); 1363 günü NCMH VI/VII okunduğunda; f 1032 okunmadı → KISMEN"
 },
 {
 "id": "navarra",

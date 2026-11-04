@@ -31,6 +31,12 @@ Kaynak alanı `ONERI.md`deki tam metindir; kısaltılmadan `kaynak:`/`ic_not:`a 
 | 24 | `ponka` | t | 1858-01-01 | **1859-04-11** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/treaty-with-the-ponca-1858-0772):  |
 | 25 | `powhatan` | t | 1646-10-01 | **1646-10-05** | ⑧ antlaşma neşri — Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database (treaties.okstate.edu/treaties/powhatan-treaty-1646): 'October 5, |
 
+## Künye adı değişiklikleri (metin; çeviriler sonra bayat görünecek)
+
+| künye | şimdiki ad | önerilen ad | gerekçe |
+|---|---|---|---|
+| `burgonya` | Burgonya Dükalığı (Valois) | **Burgonya Dükalığı** | EMRELİC kararı (Mantova ilkesi): hanedan değişimi polity değişimi değildir; dükalık 1032-1482 tek polity → '(Valois)' düşer, f 1032 KALIR |
+
 Ayrıca künye dışı öneri (tabi alanı): `san-devletleri` tabi:[{f:'1888-04-01', t:'1923-10-29', ust:'ingiltere'}] — ONERI.md.
 
 Toplam 25 alan düzeltmesi, 25 künye.
