@@ -75,5 +75,16 @@
   "gun": "1511-08-10",
   "dayanak": "TDV MALAKA: '10 Ağustos 1511 tarihinde Alfonso de Albuquerque tarafından ele geçirildi'",
   "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "ming-hanedani / guney-ming",
+  "tur": "KUNYE_GENISLET",
+  "karar": "KUNYE_GENISLET",
+  "guc": "ORTA (gün: Academia Sinica çevirisi EMRELİC)",
+  "islem": "devletler.js: ming-hanedani t 1644-04-25 → 1644-06-06; guney-ming f 1644-04-25 → 1644-06-07 (Zhu Yousong Nanjing'de 監國, 崇禎十七年五月初三). guney-ming ic_not: '1644-06-19 (五月十五) Hongguang tahta çıkışı'. EVREN4 guney-ming kümesi (14 satır): Nanjing tarafındaki dönemlerin 04-25→06-06 dilimi s: ming-hanedani, 06-07'den guney-ming; kuzey (Pekin) dönemleri 04-25'te Shun'a geçer, DEĞİŞMEZ. AYNI COMMIT'te kronoloji_cin.js'e madde: 1644-06-07 'Zhu Yousong (Fu prensi) Nanjing'de 監國 oldu' (Değişmez 2 — 04-25 maddesinin ±30 penceresi 05-25'te kapanır). guney-ming t 1662-01-01 → Yongli'nin ölümü 永曆十六年四月 = 1662-05-18…06-16; gün kaynaktan gelmezse 1662-05-18 + ay-düzeyi beyanı (Zheng'in Yongli takvimini 1683'e dek kullanması t'yi etkilemez; tungning ayrı künye VAR, devletler.js:7763).",
+  "kunye": "ming-hanedani t 1644-06-06 · guney-ming f 1644-06-07 · guney-ming t 1662-05-18 (ay beyanlı)",
+  "gun": "1644-06-07",
+  "dayanak": "Struve, The Southern Ming 1644–1662 (Yale 1984) — Hongguang sarayı Ming'in devamı (LAB açmadı); çeviri: Academia Sinica 兩千年中西曆轉換 (EMRELİC, 5 Kasım)",
+  "onay": "EMRELİC 5 Kasım"
  }
 ]
