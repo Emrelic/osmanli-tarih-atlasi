@@ -23,7 +23,7 @@ BEKLET = {
     "L2-365": "tek, Wiesbaden belediye sitesi",
     "L2-370": "tek, K. Dierks kişisel Namibya kronolojisi",
     "L2-371": "tek, K. Dierks kişisel Namibya kronolojisi",
-    "L2-372": "İngiliz Burma: aday 1853-01-20 (National Army Museum, ilhak ilanı); 1852-12-20 yalnız özette → Aitchison ile teyit",
+    "L2-372": "İngiliz Burma: aday 1853-01-20 (NAM, ilan); 1852-12-20 yalnız özette → Aitchison'da İLHAK BİLDİRİSİ tarihi ile Rangoon İLAN günü ayrı bulunacak; tek kurala göre s: değişimi bildiri tarihi",
     "L2-341":"Man Adası 1828: dayanak yalnız EB1911 (eski başvuru, en çok KISMEN) → tek başına düzeltme dayanağı değil; akademik kaynak aranacak",
     "L2-144":"Chūzan seikan (17. yy resmî derleme) tek başına KISMEN; modern akademik teyit (CHJ / Kerr, Okinawa) gelene kadar atlas günü kalır",
 }
@@ -33,8 +33,8 @@ DEGISTIR = {
     "L2-311": ("ic_not ekle (gün KALIR)", "Ligurya: s: değişimi Haziran 1805 ilhak tasarrufu (Cenova senatosu talebi + Napolyon kabulü; Treccani «4 giugno 1805»); 4 Ekim 1805 département düzenlemesi ic_not'a — Treccani'nin iki maddesi iki ayrı olayı tarihliyor"),
     "L2-346": ("ic_not ekle (gün KALIR)", "Gimry: atlas 1832-10-29 KALIR (Gregoryen = 17 Ekim Jülyen, Rus askerî sayımı); TDV iç çelişkisi (Müridizm 29 Kasım, Şeyh Şâmil 20 Kasım 1832) → «TDV esas» işlemez; ic_not'a iki TDV günü; üçüncü kaynak Gammer 1994 tarayıcı kuyruğunda"),
     "L2-326": ("tarih düzelt", "Kassel 1813-09-28 → 10-01 (madde «alınış»); ic_not «[tek kaynak] 28 Eylül ilk baskın»"),
-    "L2-352": ("kaynak yenile", "Mauritius çıraklık 1835: Nwulia, ASR 21/1 (1978) «1 February 1835»; atlas 1835-01-01 YIL hassasiyetinde ise tarih kalır, gün yazılacaksa 1835-02-01"),
-    "L2-364": ("tarih düzelt", "Tahıl Yasaları kraliyet onayı 1846-06-26 (Hansard Lordlar 26.6.1846 «Received the Royal Assent»); atlas 25 Haziran Lordlar son oylaması olabilir — madde «kaldırıldı» (yasalaşma) diyorsa 26 Haziran"),
+    "L2-352": ("kaynak yenile (tarih KALIR)", "Mauritius 1835 (devletler.js:14867, t=1835-01-01 YIL düzeyi) → tarih kalır; kaynak Nwulia, ASR 21/1 (1978) «1 February 1835» eklenir (gün ic_not'a, tek kaynak)"),
+    "L2-364": ("tarih düzelt", "Tahıl Yasaları: madde «kaldırıldı» (yasalaşma) → 1846-06-26 kraliyet onayı (Hansard Lordlar 26.6.1846 «Received the Royal Assent»); 25 Haziran Lordlar oylaması ic_not'a"),
     "L2-227": ("tarih düzelt", "1652-02-04 Jülyen → 1652-02-14 Gregoryen (İngiltere 1752'ye dek Jülyen; mekanik çeviri); ic_not'a iki gün"),
 }
 # Kaynakta olayın kendisi bulunamayan maddeler: metin düzeltilmez, işaretlenir.
@@ -47,7 +47,7 @@ ISARETLE = [
 METIN = [
     ("L2-366", "Venedik 1848-08-07: gün doğru (The Spectator 19.8.1848); yetkiyi Manin değil Castelli başkanlığındaki geçici hükümet devretti (Treccani DBI) → özne düzeltilir"),
     ("L2-369", "Venedik teslimi 1849-08-22: belgeyi Avusturya generali Gorzkowski imzaladı, Manin teslim kararını verdi (Treccani) → ifade kaynağa uydurulur"),
-    ("L2-368", "Roma Cumhuriyeti: madde iki olayı 30 Haziran'a koyuyor; Britannica 1 Temmuz ateşkes, 2 Temmuz Garibaldi'nin ayrılışı → metin bölünür ya da ayrılış 1849-07-02; 30 Haziran çöküşü yalnız popüler site"),
+    ("L2-368", "Roma Cumhuriyeti: madde iki olayı 30 Haziran'a koyuyor → İKİ AYRI MADDE ya da başlık ayrımı (koordinatör): 1 Temmuz 1849 ateşkes, 2 Temmuz Garibaldi'nin ayrılışı (Britannica); 30 Haziran çöküşü yalnız popüler site"),
     ("L2-374", "Ankober'in yakılması kaynakta yok (gün/yıl doğrulandı) → «[olay kaynakta yok]» ifadesi"),
     ("L2-333", "Mandsaur 1818-01-06: gün doğru (birincil metin); antlaşma «Narmada güneyi» değil «Satpura güneyi» diyor → ifade düzeltilir"),
     ("L2-253", "Sardunya 1713: Utrecht'te Avusturya'ya VERİLMEDİ (Bavyera seçmenine vaat, Rastatt'ta uygulanmadı); Sicilya'nın Savoya'ya devri Ağustos 1713 — dayanak Bianchi 2025 (Larousse genel ansiklopedi, ek)"),
