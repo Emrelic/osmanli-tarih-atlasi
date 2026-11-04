@@ -339,8 +339,8 @@
     },
     {
      "yol": "data/kronoloji_hindistan.js",
-     "sha": "2ed7467977922a0d",
-     "bayt": 87925
+     "sha": "9a4894953ba48b96",
+     "bayt": 88473
     },
     {
      "yol": "data/kronoloji_sinir_polonya_1915.js",
@@ -348,7 +348,7 @@
      "bayt": 13778
     }
    ],
-   "bayt": 1119062
+   "bayt": 1119610
   },
   {
    "paket": "data/paket_10.js",
@@ -437,8 +437,8 @@
     },
     {
      "yol": "data/kronoloji_guney_asya.js",
-     "sha": "c36f6c0502b53c91",
-     "bayt": 111197
+     "sha": "6cd2b276aaa03ce2",
+     "bayt": 111873
     },
     {
      "yol": "data/kronoloji_gurcistan.js",
@@ -452,8 +452,8 @@
     },
     {
      "yol": "data/kronoloji_italya_sehir.js",
-     "sha": "9c2d0a948d5d5cc0",
-     "bayt": 133795
+     "sha": "b3b5be86f2668029",
+     "bayt": 134537
     },
     {
      "yol": "data/kronoloji_katalan.js",
@@ -551,7 +551,7 @@
      "bayt": 172365
     }
    ],
-   "bayt": 2129265
+   "bayt": 2130683
   },
   {
    "paket": "data/paket_13.js",

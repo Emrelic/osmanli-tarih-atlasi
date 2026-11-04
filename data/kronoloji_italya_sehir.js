@@ -1150,7 +1150,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Papa II. Paul, Borso'yu Ferrara dükü ilan etti; aile böylece hem imparatorluk hem papalık tarafından hükümdar sayıldı. Borso törenden birkaç ay sonra öldü ve yerine kardeşi Ercole geçti. İki efendiye birden bağlı olmak Este'nin hem gücü hem kırılganlığıydı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ taraflar:["ferrara"], t:"1482-05-03",
+{ taraflar:["ferrara"], t:"1482-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] Treccani DBI 'Ercole I d'Este': 'guerra di Ferrara (1482-1484)' — yalnız yıl; eski gün 05-03 teyitsiz (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)",
   b:"Tuz Savaşı — Venedik ve Papalığın Ferrara'ya saldırması",
   tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","ticaret","ittifak","konu-askeri","konu-diplomasi","konu-ekonomi"],
@@ -1431,7 +1431,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Salgın birkaç ay içinde şehir nüfusunun yarısından fazlasını öldürdü; vakanüvis Agnolo di Tura kendi beş çocuğunu eliyle gömdüğünü yazdı. Katedral genişletmesi durdu, vergi tabanı çöktü, Dokuzlar'ı ayakta tutan orta tabaka eridi. Siena, Kara Ölüm'ün Avrupa'da en ağır vurduğu büyük şehirdir ve ortaçağdaki nüfusuna bir daha hiç ulaşmadı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bowsky, Siena under the Nine; William M. Bowsky, 'The Impact of the Black Death upon Sienese Government and Society', Speculum 39 (1964)" },
 
-{ taraflar:["siena"], t:"1355-03-25",
+{ taraflar:["siena"], t:"1355-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] Treccani, Enciclopedia Italiana 'Siena': 1355 (Dokuzlar rejiminin sonu; gün yok) — eski gün 03-25 (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)",
   b:"Dokuzlar rejiminin devrilmesi — altın çağın sonu",
   tur:"isyan", onem:5, dunya:1, kapsam:"ic",
   etiket:["isyan","siyaset","kriz","konu-siyasi","konu-isyan"],
@@ -1551,7 +1551,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Açlık dayanılmaz hâle gelince şehir teslim oldu; kuşatma öncesi kırk bine yakın olan nüfus sekiz bine düşmüştü. Direnmek isteyen yaklaşık yedi yüz aile Montalcino'ya çekilip 'Montalcino'daki Siena Cumhuriyeti'ni kurdu ve dört yıl daha dayandı. İtalya'da ortaçağ komün cumhuriyetleri çağı burada kapanır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Hook, Siena: A City and Its History" },
 
-{ t:"1559-08-03",
+{ t:"1559-07-01", ic_not_t:"[yalnız ay teyitli: Enc. It. 'luglio 1559'; DBI Cateau-Cambrésis (nisan 1559) ile çelişki] Treccani, Enciclopedia Italiana 'Siena': 'fino al luglio 1559' — AY hassasiyeti (1559-07-01); eski gün 08-03 desteksiz (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)",
   b:"Montalcino'daki son cumhuriyetin sona ermesi ve Siena'nın Floransa'ya devri",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["son","birlesme","diplomasi","konu-siyasi","konu-diplomasi"],

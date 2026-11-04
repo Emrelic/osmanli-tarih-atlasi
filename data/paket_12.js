@@ -5100,12 +5100,12 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // künye: racput  ·  1281-01-01 → 1923-10-29  ·  642 yıl
 // ═══════════════════════════════════════════════════════════════════════════
 
-{ odak_yer:["Çitor"], taraflar:["racput"], t:"1301-07-11", b:"Alâeddin Halacî Ranthambor'u aldı; Hammîradeva öldürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Çitor"], taraflar:["racput"], t:"1301-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] P. Jackson, NCHI 3 (CUP 2010) s.~111: 700/1301 — yalnız yıl; eski gün 1301-07-11 desteksiz (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)", b:"Alâeddin Halacî Ranthambor'u aldı; Hammîradeva öldürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","kusatma","toprak-kayip","konu-askeri","konu-kisiler"], yer_id:"",
   d:"[Racput — Çevhân] Bir yıl süren kuşatmanın ardından düşen Ranthambor, Delhi Sultanlığı'nın Racputana'ya ilk büyük darbesidir. Kale düşerken kadınların toplu olarak ateşe atlaması (cevher), Racput destan geleneğinin kurucu sahnelerinden biri oldu.", ic_not_d:"yer_id boş: Ranthambor atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de Ranthambor maddesi yok. Dayanak: Peter Jackson, The Delhi Sultanate (Cambridge 1999); Cambridge History of India, III" },
 
-{ taraflar:["racput"], t:"1303-08-26", b:"Çitor Kalesi Alâeddin Halacî'nin eline geçti", tur:"savas", onem:5, dunya:2, kapsam:"dis",
+{ taraflar:["racput"], t:"1303-08-26", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] P. Jackson, NCHI 3 (CUP 2010) s.~111: 703/1303 — yıl teyitli; gün sınıra bağlı (yerleşim kırılması) olduğu için korunur (KASA SALI kuyruğu, KASA 4 Kasım 2026)", b:"Çitor Kalesi Alâeddin Halacî'nin eline geçti", tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","kusatma","toprak-kayip","konu-askeri"], yer_id:"Çitor (Chittorgarh)",
   d:"[Racput — Guhila/Mevâr] Racputana'nın en güçlü kalesi, aylarca süren kuşatmanın sonunda düştü ve sultan kaleyi oğlu Hızır Han'a verdi. Çitor'un ilk düşüşü, Mevâr'ın siyasî merkezini kaybettiği ve yeniden kuruluşunu dağlarda arayacağı uzun bir dönemi başlattı.",
   kaynak:"bulunamadı — TDV'de Çitor maddesi yok (`citor` 302). Dayanak: Peter Jackson, a.g.e.; Cambridge History of India, III" },
@@ -5160,7 +5160,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Racput — Mevâr] Çitor'un savunulamayacağını gören rânâ, Aravalli dağlarının içinde göl kenarında yeni bir başşehir kurdu. Coğrafyayı savunma stratejisine çeviren bu tercih, Mevâr'ın Bâbürlü baskısı altında varlığını sürdürmesini sağladı.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, IV; Percy Brown, Indian Architecture" },
 
-{ taraflar:["racput","babur-imparatorlugu"], t:"1576-06-18", b:"Haldigâtî Muharebesi: Mahârânâ Pratap ile Bâbürlü ordusu çarpıştı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ taraflar:["racput","babur-imparatorlugu"], t:"1576-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] C. Talbot, The Last Hindu Emperor (CUP 2015) böl.5; JESHO 55 (2012): 1576 — yalnız yıl; eski gün 06-18 okunmadı (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)", b:"Haldigâtî Muharebesi: Mahârânâ Pratap ile Bâbürlü ordusu çarpıştı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","direnis","konu-askeri","konu-isyan"], yer_id:"Udeypûr (Udaipur)",
   d:"[Racput — Mevâr / Bâbürlü] Ekber'in Racput kumandanı Man Singh'in yönettiği ordu ile Mahârânâ Pratap'ın kuvvetleri dar bir dağ geçidinde karşılaştı. Muharebe Bâbürlü lehine bitse de Pratap ele geçirilemedi ve dağlarda yirmi yıl süren bir gerilla direnişi başlattı — Racputların Racputlarla savaştığı bu meydan, imparatorluğun hem gücünün hem çelişkisinin resmidir. (Haldigâtî geçidi Udeypûr'un kuzeyindedir.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — TDV `ekber-sah` maddesi muharebeyi anmıyor. Dayanak: Cambridge History of India, IV; Satish Chandra, Medieval India" },
@@ -8307,7 +8307,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Papa II. Paul, Borso'yu Ferrara dükü ilan etti; aile böylece hem imparatorluk hem papalık tarafından hükümdar sayıldı. Borso törenden birkaç ay sonra öldü ve yerine kardeşi Ercole geçti. İki efendiye birden bağlı olmak Este'nin hem gücü hem kırılganlığıydı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Dean, Land and Power in Late Medieval Ferrara" },
 
-{ taraflar:["ferrara"], t:"1482-05-03",
+{ taraflar:["ferrara"], t:"1482-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] Treccani DBI 'Ercole I d'Este': 'guerra di Ferrara (1482-1484)' — yalnız yıl; eski gün 05-03 teyitsiz (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)",
   b:"Tuz Savaşı — Venedik ve Papalığın Ferrara'ya saldırması",
   tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","ticaret","ittifak","konu-askeri","konu-diplomasi","konu-ekonomi"],
@@ -8588,7 +8588,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Salgın birkaç ay içinde şehir nüfusunun yarısından fazlasını öldürdü; vakanüvis Agnolo di Tura kendi beş çocuğunu eliyle gömdüğünü yazdı. Katedral genişletmesi durdu, vergi tabanı çöktü, Dokuzlar'ı ayakta tutan orta tabaka eridi. Siena, Kara Ölüm'ün Avrupa'da en ağır vurduğu büyük şehirdir ve ortaçağdaki nüfusuna bir daha hiç ulaşmadı.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Bowsky, Siena under the Nine; William M. Bowsky, 'The Impact of the Black Death upon Sienese Government and Society', Speculum 39 (1964)" },
 
-{ taraflar:["siena"], t:"1355-03-25",
+{ taraflar:["siena"], t:"1355-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] Treccani, Enciclopedia Italiana 'Siena': 1355 (Dokuzlar rejiminin sonu; gün yok) — eski gün 03-25 (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)",
   b:"Dokuzlar rejiminin devrilmesi — altın çağın sonu",
   tur:"isyan", onem:5, dunya:1, kapsam:"ic",
   etiket:["isyan","siyaset","kriz","konu-siyasi","konu-isyan"],
@@ -8708,7 +8708,7 @@ window.KRONOLOJI_ITALYA_SEHIR = [
   d:"Açlık dayanılmaz hâle gelince şehir teslim oldu; kuşatma öncesi kırk bine yakın olan nüfus sekiz bine düşmüştü. Direnmek isteyen yaklaşık yedi yüz aile Montalcino'ya çekilip 'Montalcino'daki Siena Cumhuriyeti'ni kurdu ve dört yıl daha dayandı. İtalya'da ortaçağ komün cumhuriyetleri çağı burada kapanır.",
   kaynak:"bulunamadı — TDV kapsamıyor; dayanak: Hook, Siena: A City and Its History" },
 
-{ t:"1559-08-03",
+{ t:"1559-07-01", ic_not_t:"[yalnız ay teyitli: Enc. It. 'luglio 1559'; DBI Cateau-Cambrésis (nisan 1559) ile çelişki] Treccani, Enciclopedia Italiana 'Siena': 'fino al luglio 1559' — AY hassasiyeti (1559-07-01); eski gün 08-03 desteksiz (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)",
   b:"Montalcino'daki son cumhuriyetin sona ermesi ve Siena'nın Floransa'ya devri",
   tur:"son", onem:5, dunya:2, kapsam:"dis",
   etiket:["son","birlesme","diplomasi","konu-siyasi","konu-diplomasi"],
