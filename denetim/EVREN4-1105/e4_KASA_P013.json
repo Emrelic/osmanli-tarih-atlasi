@@ -1,0 +1,788 @@
+{
+ "Üstyurt kuzeyi": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:205",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1644-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "10 Ekim 1731’de toplanan Han Şûrası ... Bökenbay Batur, Eset Batur ... sadakat sözü vermelerine yol açtı",
+   "oneri": {
+    "bolunme": "s: kazak-hanligi 1644 → 1845 + v: rusya 1731-10-10 → 1845 eklenmeli; t 1847 → 1845-01-01 [yalnız yıl]"
+   },
+   "uc": "f+t",
+   "not": "[sira 1039] 1847 (Kopal tahkimatı) Yedisu'ya aittir, Üstyurt kuzeyi (Küçük Cüz/Adaylar) için ilgisiz kırılma. TDV: Küçük Cüz 1731 sadakat yemini; 'Ruslar Kazaklar’ın han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi' → Rus subaylarının şûrası. ÖLÇÜT: idareye katma — han seçiminin kaldırılıp Rus subay yönetimine geçiş (TDV). f 1644 teyitsiz: TDV «Nogaylar» 1644'ü Kalmukların Kabarda seferi olarak verir, Kazak hâkimiyeti değil; 17. yy'da bölge Kalmuk baskısında (kalmuk-hanligi künyesi f 1632). İPUCU: 1824 Küçük Cüz hanlığının kaldırılışı (kaynak okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:205",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "han seçimini 1845 yılına kadar idare ettiler. Bu tarihten sonra yeni han seçimine izin verilmedi",
+   "oneri": {
+    "f": "1845-01-01"
+   },
+   "uc": "f",
+   "not": "[sira 1040] f 1847 Kopal (Yedisu) kırılması Üstyurt'a uymaz; TDV Küçük Cüz için 1845 (yalnız yıl). ÖLÇÜT: idareye katma — Rus subaylarının yönetimindeki şûra. t 1917-03-15 ülke düzeyi (K01). Yıl hassasiyeti; Değişmez 2 için kronoloji maddesi gerekir. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:205",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1041] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:205",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1500-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1042] [KÜME K04] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:205",
+   "alan": "s",
+   "d": "nogay",
+   "f": "1500-01-01",
+   "t": "1644-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Nogaylar» (https://islamansiklopedisi.org.tr/nogaylar)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1043] TDV Nogaylar: 'Doğu sınırının Emba nehri üzerinden Aral denizine kadar uzanmakta olduğu anlaşılmaktadır' (Nogay varlığını destekler) ama 1500 ve 1644 uçlarını tarihleyen cümle yok; 1644 Kalmukların Kabarda seferidir. İPUCU: 17. yy Kalmuk istilası — 'bir bölümü de Kalmuklar’ın idaresi altına girdi' (yılsız). Kalmuk dönemi ayrı dilim olabilir (kalmuk-hanligi f 1632-01-01)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:205",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1044] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:205",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "16 Aralık 1991 tarihinde Kazakistan Cumhuriyeti’nin bağımsızlığı hakkındaki kanunun kabulüyle",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1045] ÜLKE DÜZEYİ. t 2000-12-31 pencere ucu. ic_not: SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 (EMRELİC ardıl kuralı). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Guryev (Atyrau)": [
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:233",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1640-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1046] TDV'de Guryev/Atırav maddesi yok (arama: atirau, atirav, guryev, yayik — sonuç 0); TDV «Kazakistan» Guryev'i anmaz. f 1640 (kale kuruluşu) teyitsiz. t 1917-03-15 ülke düzeyi (K01). TARAYICI: Russian akademik şehir monografisi gerekir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:233",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1047] [KÜME K01] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:233",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1048] [KÜME K02] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ortaasya2.js:233",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kazakistan» (Cevdet Küçük; https://islamansiklopedisi.org.tr/kazakistan)",
+   "alinti": "16 Aralık 1991 tarihinde Kazakistan Cumhuriyeti’nin bağımsızlığı hakkındaki kanunun kabulüyle",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1049] ÜLKE DÜZEYİ. t 2000-12-31 pencere ucu. ic_not: SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Cork": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:137",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "1922-12-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution of the Irish Free State (Saorstát Eireann) Act, 1922, Art. 83 — Irish Statute Book, Office of the Attorney General (https://www.irishstatutebook.ie/eli/1922/act/1/enacted/en/print.html)",
+   "alinti": "announced ... not later than the sixth day of December, Nineteen hundred and twenty-two, by Proclamation",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1050] ÜLKE DÜZEYİ. Anayasa bildiriyle yürürlüğe girer, son gün 6 Aralık 1922. f 1281-01-01 pencere ucu (Cork 1171-77'den beri İngiliz tacının; DIB TARAYICI). İPUCU: Geçici Hükûmet Dublin Castle'ı 1922-01-16'da devraldı (kaynak okunmadı) — TEK ÖLÇÜ tartışması için ic_not adayı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:137",
+   "alan": "s",
+   "d": "irlanda-serbest-devlet",
+   "f": "1922-12-06",
+   "t": "1937-12-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution of the Irish Free State (Saorstát Eireann) Act, 1922, Art. 83 — Irish Statute Book, Office of the Attorney General (https://www.irishstatutebook.ie/eli/1922/act/1/enacted/en/print.html)",
+   "alinti": "announced ... not later than the sixth day of December, Nineteen hundred and twenty-two, by Proclamation",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1051] ÜLKE DÜZEYİ. t teyitsiz: 1937 Constitution (Consequential Provisions) Act (17 Aralık 1937, irishstatutebook.ie/eli/1937/act/40) yürürlüğü yalnız 'coming into operation of the Constitution' diye anar, 29 Aralık günü okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:137",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1000-01-01",
+   "t": "1171-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1052] t 1171 (II. Henry'nin gelişi, Mac Carthaig'in bağlılığı) için DIB «Henry II» ve «Cogan, Miles de» denendi: dib.ie 307 yönlendirme, açılmadı. TARAYICI: DIB Henry II, https://www.dib.ie/biography/henry-ii-a3949. Arama özeti (teyit değil): Henry Cork'u kraliyet mülkü saydı (1171-72); Cogan Cork'u Kasım 1177'de aldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:137",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1171-01-01",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1053] f 1171 için aynı: DIB açılmadı. TARAYICI: DIB Henry II ve Cogan (https://www.dib.ie/biography/cogan-miles-milo-de-a1800). İPUCU: Cork'ta fiilî Anglo-Norman idare Kasım 1177 (Cogan) — f 1171 mi 1177 mi kaynakla seçilmeli."
+  }
+ ],
+ "Monaghan": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:149",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1281-01-01",
+   "t": "1603-03-30",
+   "hukum": "ONERI",
+   "kaynak": "KARARLAR-EMRELIC.md gece-21 (Mellifont: 1603-03-30 Jülyen → 1603-04-09 Gregoryen)",
+   "alinti": "",
+   "oneri": {
+    "t": "1603-04-09"
+   },
+   "uc": "",
+   "not": "[sira 1054] Mellifont emsali (Tuam/Newry/Omagh): 1603-03-30 O.S. → 1603-04-09 Gregoryen; ic_not 'O.S. 30 Mart'. irlanda künyesi t'si de aynı commit'te. f 1281-01-01 pencere ucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:149",
+   "alan": "s",
+   "d": "irlanda-serbest-devlet",
+   "f": "1922-12-06",
+   "t": "1937-12-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution of the Irish Free State (Saorstát Eireann) Act, 1922, Art. 83 — Irish Statute Book, Office of the Attorney General (https://www.irishstatutebook.ie/eli/1922/act/1/enacted/en/print.html)",
+   "alinti": "announced ... not later than the sixth day of December, Nineteen hundred and twenty-two, by Proclamation",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1055] ÜLKE DÜZEYİ. t teyitsiz (1937 günü okunmadı; bkz. Cork). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:149",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "1922-12-06",
+   "hukum": "ONERI",
+   "kaynak": "Constitution of the Irish Free State (Saorstát Eireann) Act, 1922, Art. 83 — Irish Statute Book, Office of the Attorney General (https://www.irishstatutebook.ie/eli/1922/act/1/enacted/en/print.html) ; KARARLAR-EMRELIC.md gece-21 (Mellifont: 1603-03-30 Jülyen → 1603-04-09 Gregoryen)",
+   "alinti": "announced ... not later than the sixth day of December, Nineteen hundred and twenty-two, by Proclamation",
+   "oneri": {
+    "f": "1603-04-09"
+   },
+   "uc": "t",
+   "not": "[sira 1056] t 1922-12-06 ülke düzeyinde teyitli. f Mellifont emsaliyle 1603-04-09 (Gregoryen; O.S. 30 Mart). Mevcut Lewis 1837 (1613 borough) dönem ucunu tarihlemez. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Sligo": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:158",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "1922-12-06",
+   "hukum": "ONERI",
+   "kaynak": "Constitution of the Irish Free State (Saorstát Eireann) Act, 1922, Art. 83 — Irish Statute Book, Office of the Attorney General (https://www.irishstatutebook.ie/eli/1922/act/1/enacted/en/print.html) ; KARARLAR-EMRELIC.md gece-21 (Mellifont: 1603-03-30 Jülyen → 1603-04-09 Gregoryen)",
+   "alinti": "announced ... not later than the sixth day of December, Nineteen hundred and twenty-two, by Proclamation",
+   "oneri": {
+    "f": "1603-04-09"
+   },
+   "uc": "t",
+   "not": "[sira 1057] t ülke düzeyinde teyitli; f Mellifont emsali 1603-04-09 (O.S. 30 Mart). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:158",
+   "alan": "s",
+   "d": "irlanda-serbest-devlet",
+   "f": "1922-12-06",
+   "t": "1937-12-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution of the Irish Free State (Saorstát Eireann) Act, 1922, Art. 83 — Irish Statute Book, Office of the Attorney General (https://www.irishstatutebook.ie/eli/1922/act/1/enacted/en/print.html)",
+   "alinti": "announced ... not later than the sixth day of December, Nineteen hundred and twenty-two, by Proclamation",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1058] ÜLKE DÜZEYİ. t teyitsiz (1937 günü okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:158",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1281-01-01",
+   "t": "1603-03-30",
+   "hukum": "ONERI",
+   "kaynak": "KARARLAR-EMRELIC.md gece-21 (Mellifont: 1603-03-30 Jülyen → 1603-04-09 Gregoryen)",
+   "alinti": "",
+   "oneri": {
+    "t": "1603-04-09"
+   },
+   "uc": "",
+   "not": "[sira 1059] Mellifont emsali; f 1281 pencere ucu. İPUCU: Sligo kalesi 1245 Anglo-Norman (FitzGerald) — Gal/İngiliz ayrımı kaynakla bakılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:158",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1060] Bütçe. Mevcut BEYANLI pencere dönemi."
+  }
+ ],
+ "Tralee": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:161",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1603-03-30",
+   "t": "1922-12-06",
+   "hukum": "ONERI",
+   "kaynak": "Constitution of the Irish Free State (Saorstát Eireann) Act, 1922, Art. 83 — Irish Statute Book, Office of the Attorney General (https://www.irishstatutebook.ie/eli/1922/act/1/enacted/en/print.html) ; KARARLAR-EMRELIC.md gece-21 (Mellifont: 1603-03-30 Jülyen → 1603-04-09 Gregoryen)",
+   "alinti": "announced ... not later than the sixth day of December, Nineteen hundred and twenty-two, by Proclamation",
+   "oneri": {
+    "f": "1603-04-09"
+   },
+   "uc": "t",
+   "not": "[sira 1061] t ülke düzeyinde teyitli; f Mellifont emsali 1603-04-09. İPUCU: Tralee Desmond (FitzGerald) kontlarının merkezi; Desmond isyanı 1583 ve el koyma 1586 ile İngiliz idaresi 1603'ten önce başlamış olabilir (kaynak okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:161",
+   "alan": "s",
+   "d": "irlanda-serbest-devlet",
+   "f": "1922-12-06",
+   "t": "1937-12-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Constitution of the Irish Free State (Saorstát Eireann) Act, 1922, Art. 83 — Irish Statute Book, Office of the Attorney General (https://www.irishstatutebook.ie/eli/1922/act/1/enacted/en/print.html)",
+   "alinti": "announced ... not later than the sixth day of December, Nineteen hundred and twenty-two, by Proclamation",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1062] ÜLKE DÜZEYİ. t teyitsiz (1937 günü okunmadı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:161",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1281-01-01",
+   "t": "1603-03-30",
+   "hukum": "ONERI",
+   "kaynak": "KARARLAR-EMRELIC.md gece-21 (Mellifont: 1603-03-30 Jülyen → 1603-04-09 Gregoryen)",
+   "alinti": "",
+   "oneri": {
+    "t": "1603-04-09"
+   },
+   "uc": "",
+   "not": "[sira 1063] Mellifont emsali. İPUCU: Desmond kontluğu İngiliz tacına bağlı bir Anglo-Norman lordluktu; 1281-1603 'irlanda' (Gal) sahipliği tartışmalı — kaynakla bakılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:161",
+   "alan": "s",
+   "d": "irlanda",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1064] Bütçe. Mevcut BEYANLI pencere dönemi."
+  }
+ ],
+ "Quimper": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:171",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1532-08-13",
+   "t": "1792-09-22",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Bretagna» (https://www.treccani.it/enciclopedia/bretagna/)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1065] f 1532-08-13 (birlik fermanı) okunmadı. Treccani Bretagna birleşmeyi 1491 evliliğine bağlar: 'il matrimonio ... Anna, con il re di Francia Carlo VIII (1491) ... unì la B. alla Corona di Francia'. Enc. Italiana «Quimper» (1935) 1532'yi anmaz. ÇELİŞKİ İPUCU: 1491 (fiilî Fransız tacı) / 1532 (hukukî birlik) — TAHRİR ölçütüyle seçilmeli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:171",
+   "alan": "s",
+   "d": "bretanya",
+   "f": "1281-01-01",
+   "t": "1532-08-13",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, «Bretagna» ; Enciclopedia Italiana (1935), «Quimper» (https://www.treccani.it/enciclopedia/quimper_(Enciclopedia-Italiana)/)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1066] Bretanya dükalığı sahipliği Quimper için destekli (Enc. It.: 1344 Charles de Blois, Jean IV kuşatması) ama t 1532-08-13 okunmadı; Treccani birleşmeyi 1491 evliliğine bağlar (bkz. sira 1065)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:171",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1067] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Rouen": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:176",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1449-10-29",
+   "t": "1792-09-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Rouen» (https://www.treccani.it/enciclopedia/rouen/)",
+   "alinti": "Nel 1449, con Carlo VII, tornava ai Francesi.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1068] f YIL düzeyi (gün 10-29 teyitsiz). t 1792-09-22 ülke düzeyi, teyitsiz (K22 kapsamı). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:176",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1419-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Rouen» (https://www.treccani.it/enciclopedia/rouen/)",
+   "alinti": "fu occupata da Enrico V d’Inghilterra dopo un lungo assedio (1418-19)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1069] t YIL düzeyi (1418-19; gün 01-19 teyitsiz). f 1281 pencere ucu; Fransız sahipliği 'fu presa nel 1204 da Filippo Augusto'. ÖLÇÜT: idareye katma — Lancaster Normandiyası (Troyes 1420); 'occupata' kelimesi beyan edilmeli. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:176",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1419-01-19",
+   "t": "1449-10-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Rouen» (https://www.treccani.it/enciclopedia/rouen/)",
+   "alinti": "occupata da Enrico V ... (1418-19) | Nel 1449, con Carlo VII, tornava ai Francesi",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1070] İki uç YIL düzeyi; günler (1419-01-19, 1449-10-29) teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:176",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1071] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Calais": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:182",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1558-01-07",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Calais» (https://www.treccani.it/enciclopedia/calais/)",
+   "alinti": "Gli Spagnoli se ne impadronirono nel 1596 ... col trattato di Vervins (1598)",
+   "oneri": {
+    "bolunme": "isg ispanya 1596-01-01 → 1598-01-01 [yalnız yıl] eklenmeli; fransa dönemi bu dilimde kesilir"
+   },
+   "uc": "f",
+   "not": "[sira 1072] f YIL teyitli: 'fino alla riconquista di Francesco di Guisa nel 1558'. ÖLÇÜT: geçici/askerî — savaşta alınıp Vervins'le iade (TEK KURAL: isg). Günler kaynakta yok (İPUCU: düşüş Nisan 1596, Vervins 1598-05-02). t 1792 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:182",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1347-08-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Calais» (https://www.treccani.it/enciclopedia/calais/)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1073] Treccani Calais İngiliz fethini 'dopo 11 mesi di assedio' diye anar, 1347 yılını vermez. t teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:182",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1074] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Orléans": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:195",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1792-09-22",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Orléans» (https://www.treccani.it/enciclopedia/orleans/)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1075] Treccani Fransız sürekliliğini destekler ('resistette agli attacchi inglesi finché fu liberata da Giovanna d’Arco (1429)') ama dönem uçlarını tarihlemez; f pencere, t 1792 ülke düzeyi (K22)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:195",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Orléans» (https://www.treccani.it/enciclopedia/orleans/)",
+   "alinti": "Nella guerra franco -prussiana fu conquistata dalle forze bavaresi (1870), dai Francesi e di nuovo dai Tedeschi.",
+   "oneri": {
+    "ekle": "isg almanya 1870 (iki dilim: Bavyera girişi → Fransız geri alışı; Alman ikinci girişi → 1871 barışı) [günler kaynakta yok]"
+   },
+   "uc": "",
+   "not": "[sira 1076] [KÜME K22] istisnası: yerleşime özgü tanıklık. ÖLÇÜT: geçici/askerî — Orléans Frankfurt'ta devredilmedi. İPUCU (teyitsiz): 1870-10-11, 1870-11-09, 1870-12-04. Colmar'daki isg almanya 1870 emsali. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Angers": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:198",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1792-09-22",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Angers» (https://www.treccani.it/enciclopedia/angers/)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1077] Treccani Angers maddesinde tarih bölümü yok (yalnız 'Capitale storica dell’Angiò'). f pencere, t ülke düzeyi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:198",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1078] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:198",
+   "alan": "s",
+   "d": "anjou-kontlugu",
+   "f": "1000-01-01",
+   "t": "1204-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1079] Bütçe; mevcut Treccani Angers ham kaynağı yeniden okunmadı (güncel çevrim içi maddede 1204 geçmiyor — kontrol edilmeli)."
+  }
+ ],
+ "Périgueux": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:202",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Périgueux» (https://www.treccani.it/enciclopedia/perigueux/)",
+   "alinti": "P. subì devastazioni durante la guerra dei Cent’anni (fu conquistata dagli Inglesi nel 1369)",
+   "oneri": {
+    "bolunme": "s: ingiltere dilimi eklenmeli (f 1369 Treccani; bitiş kaynakta yok)"
+   },
+   "uc": "",
+   "not": "[sira 1080] Kesintisiz fransa 1281-1792 kaynakla çelişir. İPUCU: Brétigny/Calais 1360-10-24 Périgord'u İngiltere'ye bıraktı (Limoges kaydı bu günü kullanır) — Treccani'nin 1369'u bu dilimin ucu mu, ayrı fetih mi belirsiz; ikinci kaynak gerekir. ÖLÇÜT kaynakta yok. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:202",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1081] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Limoges": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:207",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1370-01-01",
+   "t": "1792-09-22",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, Enciclopedia on line, «Limoges» (https://www.treccani.it/enciclopedia/limoges/)",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1082] Treccani Limoges Yüz Yıl Savaşı/İngiliz dönemini anmaz ('a metà del 14° sec., dalla giurisdizione della Corona'). f 1370 teyitsiz. İPUCU: 1370 Cité'nin Berry dükine teslimi (Ağustos) ve Kara Prens'in yağması (19 Eylül) — Cité/Château ayrımı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:207",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1360-10-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, «Limoges»",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1083] t 1360-10-24 (Calais onayı) Treccani'de yok. Treccani «Bretigny» slug'ı açılmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:207",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1360-10-24",
+   "t": "1370-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Treccani, «Limoges»",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1084] Treccani İngiliz dönemini anmaz; uçlar teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:207",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1085] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Colmar": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:223",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "1871-05-10",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1086] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı. Not: Treccani «Colmar» t'yi destekler: 'passò alla Germania in seguito al trattato di Francoforte (1871)'."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:223",
+   "alan": "isg",
+   "d": "almanya",
+   "f": "1870-10-12",
+   "t": "1871-05-10",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Colmar» (https://www.treccani.it/enciclopedia/colmar/)",
+   "alinti": "passò alla Germania in seguito al trattato di Francoforte (1871)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1087] t YIL düzeyi (Frankfurt 1871-05-10 imza, TEK ÖLÇÜ). f 1870-10-12 mevcut Sée 1884 kaynağından, teyitsiz bu turda. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:223",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1918-11-18",
+   "t": "1940-08-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treccani, Enciclopedia on line, «Colmar» (https://www.treccani.it/enciclopedia/colmar/)",
+   "alinti": "passò alla Germania ... (1871) e ritornò alla Francia nel 1918.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1088] f YIL düzeyi (gün 11-18 teyitsiz; Versailles md. 51 iadeyi 1918-11-11 mütarekesinden sayar — ic_not adayı). t 1940-08-02 mevcut Grandhomme 2014 kaynağından, bu turda teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:223",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1679-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Colmar» (https://www.treccani.it/enciclopedia/colmar/)",
+   "alinti": "Unita alla Francia nel 1673",
+   "oneri": {
+    "ic_not": "Treccani 1673 (birleşme) — EMRE KARARI 1679 esas, gün değişmez"
+   },
+   "uc": "",
+   "not": "[sira 1089] KURAL KARARI: EMRE KARARI 14 Ekim 2026 (KARARLAR-1014 m.29) 1679 Nijmegen'i esas alır; Treccani 1673'ü verir. TAHRİR sorusu: 1673 Fransız işgali idareye katma mıydı? Yalnız ic_not önerisi. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:223",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1679-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "kaynak": "Treccani, Enciclopedia on line, «Colmar» (https://www.treccani.it/enciclopedia/colmar/)",
+   "alinti": "Unita alla Francia nel 1673",
+   "oneri": {
+    "ic_not": "Treccani 1673 — f 1679 EMRE KARARI"
+   },
+   "uc": "",
+   "not": "[sira 1090] KURAL KARARI (bkz. sira 1089). t 1792 ülke düzeyi, teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:223",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1940-08-02",
+   "t": "1945-02-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Ministère des Armées, Mission Libération, «Libération de Colmar : la fin de la campagne d’Alsace» (https://www.defense.gouv.fr/mission-liberation/vivre-liberation/liberation-via-ses-historiens/regards-dhistoriens-liberation/liberation-colmar)",
+   "alinti": "Le 2 février, les premiers blindés français du colonel Schlesser ... pénètrent les premiers dans Colmar",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1091] t teyitli (giriş günü). ic_not: 3 Şubat şehir güvenceye alındı, 4 Şubat 'la ville est prise', 8 Şubat resmî giriş. f 1940-08-02 mevcut Grandhomme kaynağından, bu turda teyitsiz. Yıl bağlamdan ('En février 1945'). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:223",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1945-02-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Ministère des Armées, Mission Libération, «Libération de Colmar : la fin de la campagne d’Alsace» (https://www.defense.gouv.fr/mission-liberation/vivre-liberation/liberation-via-ses-historiens/regards-dhistoriens-liberation/liberation-colmar)",
+   "alinti": "Le 2 février, les premiers blindés français du colonel Schlesser ... pénètrent les premiers dans Colmar",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1092] Fiilî denetim ilkesi: ilk giriş 1945-02-02 (direniş sürüyor); 02-04 'la ville est prise' ic_not'a. t 2000-12-31 pencere ucu. Resmî devlet tarih sayfası (Ministère des Armées). Yıl bağlamdan (aynı paragraf/başlık: 'En février 1945', '9 février 1945'). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Montpellier": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:247",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1349-04-18",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana, «senyoria de Montpeller» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/senyoria-de-montpeller)",
+   "alinti": "El 13 d’abril de 1349 Jaume III vengué Montpeller ... en prengueren possessió pel maig següent",
+   "oneri": {
+    "f": "1349-05-01 [ay hassasiyeti; gün kaynakta yok]"
+   },
+   "uc": "f",
+   "not": "[sira 1093] TEK ÖLÇÜ: Fransa satıştan önce Montpellier'yi yönetmiyordu → s: TESLİM (Mayıs 1349). Satış günü GEC'de 13 Nisan (atlasta 04-18) — ic_not'a. Pere III satışı geçersiz saydı, 1351'de vazgeçti (ic_not). t 1792 teyitsiz (K22). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:247",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1094] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ]
+}

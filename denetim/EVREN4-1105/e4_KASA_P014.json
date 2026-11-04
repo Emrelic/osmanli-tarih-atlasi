@@ -1,0 +1,938 @@
+{
+ "Perpignan": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:250",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1659-11-07",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Perpinyà» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/perpinya)",
+   "alinti": "El 1642 restà formalitzat el setge de Perpinyà ... La plaça capitulà al setembre.",
+   "oneri": {
+    "f": "1642-09-01 [ay hassasiyeti; gün kaynakta yok]"
+   },
+   "uc": "f",
+   "not": "[sira 1095] TAHRİR: Prensipat 1641'den Fransız egemenliğinde; Fransızlar Perpignan'ı 1642 Eylülünden yönetti (GEC: 'menyspreu a les constitucions ... exaccions'). ÖLÇÜT: idareye katma — Fransız idaresi ve vergisi. Pireneler 1659-11-07 ic_not'a: 'El 1659 el tractat dels Pirineus donava definitivament el Rosselló ... a França'. İPUCU: kapitülasyon 9 Eylül 1642 (teyitsiz). t 1792 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:250",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1344-01-01",
+   "t": "1463-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Perpinyà» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/perpinya)",
+   "alinti": "Pere III envaí el Rosselló i assetjà la ciutat el 1344 ... s’apoderà de Perpinyà | ocuparen la població (1463)",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1096] İki uç YIL düzeyi. 1463: Fransızlar şehri aldı ve 'esdevingué cap d’una nova organització administrativa francesa' — ÖLÇÜT: idareye katma, s: fransa doğru (Bayonne 1462 rehin antlaşması ic_not). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:250",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1463-01-01",
+   "t": "1493-01-19",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Perpinyà» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/perpinya)",
+   "alinti": "Joan II arribà al començament del 1473 ... hom hagué de capitular (1475)",
+   "oneri": {
+    "bolunme": "s: aragon 1473-01-01 → 1475-01-01 [yalnız yıl] araya girer",
+    "t": "1493 teslim günü (Ferran II'nin girişi; gün kaynakta yok)"
+   },
+   "uc": "f+t",
+   "not": "[sira 1097] GEC: 1473 başında halk Fransızlara karşı ayaklandı, II. Juan şehre girdi; 1474 XI. Louis yeniden kuşattı, 1475'te teslim. t: 'L’ocupació francesa perdurà fins el 1493 ... tractat de Barcelona' ve 'El mateix 1493, Ferran II entrà a Perpinyà' → TEK ÖLÇÜ: İspanya yönetmiyordu, s: TESLİM günü; Barselona imzası 1493-01-19 ic_not'a. f 1463 teyitli (sira 1096). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:250",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1493-01-19",
+   "t": "1659-11-07",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Perpinyà» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/perpinya)",
+   "alinti": "El mateix 1493, Ferran II entrà a Perpinyà | La plaça capitulà al setembre [1642]",
+   "oneri": {
+    "f": "1493 teslim günü (gün kaynakta yok; İPUCU Eylül 1493)",
+    "t": "1642-09-01 [ay hassasiyeti]"
+   },
+   "uc": "f+t",
+   "not": "[sira 1098] f TEK ÖLÇÜ (teslim, imza 01-19 ic_not); t Fransız idaresinin başlangıcı (bkz. sira 1095). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:250",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1792-09-22",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1099] [KÜME K22] Ülke düzeyi küme ajanına bırakıldı."
+  }
+ ],
+ "Salamanca": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:256",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1100] ÜLKE DÜZEYİ: II. Juan'ın ölümüyle II. Ferdinand Aragon tahtına geçti, Kastilya-Aragon birliği (künye ispanya f ile aynı kaynak). f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:256",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1936-07-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago) ; Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479) | Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1101] ÜLKE DÜZEYİ: f birlik (19 Ocak 1479), t ayaklanma 18-19 Temmuz 1936; Salamanca'ya özgü gün okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:256",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1085-05-25",
+   "t": "1157-08-21",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Enciclopedia Italiana (Treccani), «Salamanca» (https://www.treccani.it/enciclopedia/salamanca_(Enciclopedia-Italiana)/)",
+   "alinti": "Salamanca ritornò cristiana soltanto dopo la conquista di Toledo (1085)",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1102] [KISMEN: Enciclopedia Italiana 1929-37 tek başına, eski başvuru eseri] f YIL düzeyi (Toledo'nun alınışı; gün 05-25 teyitsiz). t 1157 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:256",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1157-08-21",
+   "t": "1230-09-24",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1103] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:256",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1230-09-24",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1104] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:256",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-19",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1105] ÜLKE DÜZEYİ: Salamanca şehre özgü ayaklanma günü GEC'de yok (başarılı şehir listesinde adı geçmez). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:256",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1106] ÜLKE DÜZEYİ: savaşın sonu 1939-04-01 (Franco'nun son tebliği). t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Bilbao": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:260",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1107] ÜLKE DÜZEYİ: II. Juan'ın ölümüyle II. Ferdinand Aragon tahtına geçti, Kastilya-Aragon birliği (künye ispanya f ile aynı kaynak). f 1281 pencere ucu. Bizkaia lordluğu Kastilya tacına bağlı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:260",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1937-06-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago) ; Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "19 de gener de 1479 | l’11 de juny fou trencat el “cinyell de ferro” de Bilbao, ciutat ocupada el 19",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1108] f ÜLKE DÜZEYİ (birlik); t şehre özgü: Bilbao 19 Haziran 1937'de Franco birliklerince alındı (Kuzey seferi 1937). Gün/ay alıntıda, yıl bağlamdan (aynı paragraf: 'Santander ... 26 d’agost de 1937'). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:260",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1109] ÜLKE DÜZEYİ: savaşın sonu 1939-04-01 (Franco'nun son tebliği). t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Cuenca": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:262",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1110] ÜLKE DÜZEYİ: II. Juan'ın ölümüyle II. Ferdinand Aragon tahtına geçti, Kastilya-Aragon birliği (künye ispanya f ile aynı kaynak). f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:262",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "El 26 de març de 1939 les tropes de Franco trencaren el front ... el 28 entraren a Madrid",
+   "oneri": {
+    "bolunme": "s: ispanya-milliyetci <Cuenca'nın düşüşü, 1939-03 sonu> → 1939-04-01 araya girer; gün kaynakta yok"
+   },
+   "uc": "",
+   "not": "[sira 1111] Cuenca savaş sonuna dek Cumhuriyet bölgesindeydi; kesintisiz ispanya 1479-2000 son günlerdeki milliyetçi girişini atlar (Teruel/Castellón emsali). f 1479 ülke düzeyi teyitli (GEC Joan II). [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Murcia": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:266",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "El 26 de març de 1939 les tropes de Franco trencaren el front ... el 30 a València",
+   "oneri": {
+    "bolunme": "s: ispanya-milliyetci <Murcia'nın düşüşü, 1939-03 sonu> → 1939-04-01 araya girer; gün kaynakta yok"
+   },
+   "uc": "",
+   "not": "[sira 1112] Murcia savaş sonuna dek Cumhuriyet bölgesindeydi. f 1479 ülke düzeyi teyitli (GEC Joan II). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:266",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1296-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1113] t 1296 (II. Jaume'nin Murcia'yı alışı) için kaynak okunmadı; TDV «Mürsiye» bu turda açılmadı. İPUCU: GEC «regne de Múrcia»."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:266",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1304-08-08",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1114] ÜLKE DÜZEYİ t. f 1304-08-08 (Torrellas) teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:266",
+   "alan": "s",
+   "d": "murabitlar",
+   "f": "1091-01-01",
+   "t": "1147-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1115] Bütçe; mevcut TDV «Mürsiye» kaynaklı dönem yeniden okunmadı."
+  }
+ ],
+ "A Coruña": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1116] ÜLKE DÜZEYİ: II. Juan'ın ölümüyle II. Ferdinand Aragon tahtına geçti, Kastilya-Aragon birliği (künye ispanya f ile aynı kaynak). f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1936-07-20",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1117] ÜLKE DÜZEYİ f. t 1936-07-20 teyitsiz (GEC genel 18-19 Temmuz; Coruña'ya özgü gün yok). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "-0026-01-16",
+   "t": "0395-01-17",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1118] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0409-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1119] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "suev",
+   "f": "0409-01-01",
+   "t": "0585-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1120] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "vizigot",
+   "f": "0585-01-01",
+   "t": "0711-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1121] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-20",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1122] ÜLKE DÜZEYİ t. f 1936-07-20 teyitsiz (şehre özgü gün GEC'de yok). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0711-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1123] Bütçe; mevcut BOŞLUK BEYANI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:269",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1124] ÜLKE DÜZEYİ: savaşın sonu 1939-04-01 (Franco'nun son tebliği). t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Teruel": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:282",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1125] ÜLKE DÜZEYİ: II. Juan'ın ölümüyle II. Ferdinand Aragon tahtına geçti, Kastilya-Aragon birliği (künye ispanya f ile aynı kaynak). f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:282",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1936-07-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago) ; Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479) | Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1126] ÜLKE DÜZEYİ iki uç; Teruel'e özgü ayaklanma günü okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:282",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1171-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1127] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:282",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-19",
+   "t": "1938-01-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "L’ofensiva republicana contra Terol —que es rendí el 7 de gener de 1938",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1128] t şehre özgü teyitli (7 Ocak 1938 teslim). f ÜLKE DÜZEYİ 18-19 Temmuz 1936 (aynı maddenin giriş cümlesi). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:282",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1129] ÜLKE DÜZEYİ: savaşın sonu 1939-04-01 (Franco'nun son tebliği). t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:282",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1938-02-22",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "les tropes del govern de Burgos tornaren a prendre la ciutat (22 febrer de 1938)",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1130] f şehre özgü teyitli; t ÜLKE DÜZEYİ 1939-04-01: 'Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.' [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Girona": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:285",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1131] ÜLKE DÜZEYİ: II. Juan'ın ölümüyle II. Ferdinand Aragon tahtına geçti, Kastilya-Aragon birliği (künye ispanya f ile aynı kaynak). f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:285",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "inicià, el 23 de desembre de 1938, l’ofensiva general sobre Catalunya",
+   "oneri": {
+    "bolunme": "s: ispanya-milliyetci <Girona'nın düşüşü, 1939 Ocak sonu-Şubat başı> → 1939-04-01 araya girer; gün kaynakta yok"
+   },
+   "uc": "",
+   "not": "[sira 1132] Katalonya seferi 1938-12-23'te başladı, 'el 15 de gener de 1939 caigué Tarragona'; Girona'nın düşüş günü okunmadı (GEC «Girona» maddesi 1939'u anmıyor). İPUCU: 1939-02-04 (teyitsiz). f 1479 ülke düzeyi teyitli (GEC Joan II). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:285",
+   "alan": "s",
+   "d": "barselona-kontlugu",
+   "f": "1000-01-01",
+   "t": "1164-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1133] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:285",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1164-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1134] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  }
+ ],
+ "Castellón": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:303",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago)",
+   "alinti": "Joan II ... (Medina del Campo, ... 1398 — Barcelona, 19 de gener de 1479)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1135] ÜLKE DÜZEYİ: II. Juan'ın ölümüyle II. Ferdinand Aragon tahtına geçti, Kastilya-Aragon birliği (künye ispanya f ile aynı kaynak). f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:303",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1479-01-19",
+   "t": "1938-06-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Joan II de Catalunya-Aragó» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/joan-ii-de-catalunya-arago) ; Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "19 de gener de 1479 | Castelló de la Plana caigué el 14 de juny",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1136] f ÜLKE DÜZEYİ; t şehre özgü (Llevant savaşı). Gün/ay alıntıda, yıl bağlamdan (aynı paragraf: '15 d’abril de 1938'). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:303",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1251-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1137] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:303",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana, «Guerra Civil Espanyola» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/guerra-civil-espanyola)",
+   "alinti": "Guerra civil iniciada el 18-19 de juliol de 1936 i acabada l’1 d’abril de 1939.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1138] ÜLKE DÜZEYİ: savaşın sonu 1939-04-01 (Franco'nun son tebliği). t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Lagos (Algarve)": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:310",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1580-08-25",
+   "t": "1640-12-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz Krallığı’nı da ilhak etmiş olarak (1580) | Portekiz, İspanya ile 1580’den beri sürdürdüğü birlikteliğine son verdi (1640)",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1139] ÜLKE DÜZEYİ, iki uç YIL düzeyi; günler (1580-08-25, 1640-12-01) teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:310",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1640-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz, İspanya ile 1580’den beri sürdürdüğü birlikteliğine son verdi (1640)",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1140] ÜLKE DÜZEYİ, YIL düzeyi; gün 12-01 teyitsiz. t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:310",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1281-01-01",
+   "t": "1580-08-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz Krallığı’nı da ilhak etmiş olarak (1580)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1141] ÜLKE DÜZEYİ, YIL düzeyi; gün 08-25 (Alcântara) teyitsiz; ic_not adayı: Tomar Kortesi 1581. f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Coimbra": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:320",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1580-08-25",
+   "t": "1640-12-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz Krallığı’nı da ilhak etmiş olarak (1580) | Portekiz, İspanya ile 1580’den beri sürdürdüğü birlikteliğine son verdi (1640)",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1142] ÜLKE DÜZEYİ, iki uç YIL düzeyi; günler (1580-08-25, 1640-12-01) teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:320",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1640-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz, İspanya ile 1580’den beri sürdürdüğü birlikteliğine son verdi (1640)",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1143] ÜLKE DÜZEYİ, YIL düzeyi; gün 12-01 teyitsiz. t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:320",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1281-01-01",
+   "t": "1580-08-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz Krallığı’nı da ilhak etmiş olarak (1580)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1144] ÜLKE DÜZEYİ, YIL düzeyi; gün 08-25 (Alcântara) teyitsiz; ic_not adayı: Tomar Kortesi 1581. f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:320",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1064-01-01",
+   "t": "1065-12-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Enciclopedia Italiana (Treccani), «Coimbra» (https://www.treccani.it/enciclopedia/coimbra_(Enciclopedia-Italiana)/)",
+   "alinti": "definitivamente riconquistata da Ferdinando Magno, re di León, nel 1064",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1145] [KISMEN: Enciclopedia Italiana 1929-37 tek başına] f YIL düzeyi. Kaynak I. Fernando'yu 're di León' diye anar; atlas d 'kastilya' — I. Fernando hem Kastilya hem León kralıydı, beyan edilmeli. t 1065-12-27 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:320",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1065-12-27",
+   "t": "1072-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1146] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:320",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1072-01-01",
+   "t": "1097-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1147] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:320",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1097-01-01",
+   "t": "1281-01-01",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1148] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  }
+ ],
+ "Bragança": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:324",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1580-08-25",
+   "t": "1640-12-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz Krallığı’nı da ilhak etmiş olarak (1580) | Portekiz, İspanya ile 1580’den beri sürdürdüğü birlikteliğine son verdi (1640)",
+   "oneri": {},
+   "uc": "f+t",
+   "not": "[sira 1149] ÜLKE DÜZEYİ, iki uç YIL düzeyi; günler (1580-08-25, 1640-12-01) teyitsiz. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:324",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1640-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz, İspanya ile 1580’den beri sürdürdüğü birlikteliğine son verdi (1640)",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1150] ÜLKE DÜZEYİ, YIL düzeyi; gün 12-01 teyitsiz. t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:324",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1281-01-01",
+   "t": "1580-08-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya» (https://islamansiklopedisi.org.tr/ispanya)",
+   "alinti": "Portekiz Krallığı’nı da ilhak etmiş olarak (1580)",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1151] ÜLKE DÜZEYİ, YIL düzeyi; gün 08-25 (Alcântara) teyitsiz; ic_not adayı: Tomar Kortesi 1581. f 1281 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Sønderborg": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:339",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1920-06-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Lex (Den Store Danske), «Genforeningen» (https://lex.dk/Genforeningen)",
+   "alinti": "underskrevet i Paris 5. juli 1920 med virkning fra 15. juni samme år",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1152] TEK ÖLÇÜ: Danimarka bölgeyi önceden yönetmiyordu; 15 Haziran devrin geçerlilik günü. ic_not: imza 1920-07-05, Genforening 1920-07-09; 1. bölge plebisiti 10 Şubat 1920 (%74 Danimarka); plebisit süresince bölge uluslararası komisyon (CIS) idaresinde — ayrı dilim adayı. t 2000-12-31 pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:339",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "1460-03-05",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1153] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:339",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1864-10-30",
+   "t": "1920-06-15",
+   "hukum": "ONERI",
+   "kaynak": "Lex (Den Store Danske), «de slesvigske krige» (https://lex.dk/de_slesvigske_krige)",
+   "alinti": "Ved Wienerfreden, der blev undertegnet 30. oktober 1864 ... Hertugdømmet Slesvig blev forvaltet af Preussen",
+   "oneri": {
+    "bolunme": "s: prusya 1864-10-30 → 1871-01-18, ardından s: almanya 1871-01-18 → 1920-06-15",
+    "t_kaynak": "Lex (Den Store Danske), «Genforeningen» (https://lex.dk/Genforeningen)"
+   },
+   "uc": "f+t",
+   "not": "[sira 1154] f 1864-10-30 Viyana imzası teyitli (TEK ÖLÇÜ: Prusya-Avusturya bölgeyi zaten işgal etmişti → imza günü). almanya künyesinin özeti 1806-1871'i kapsamıyor; Schleswig'i Prusya yönetti (prusya künyesi t 1871-01-18, hayalet yok). t 1920-06-15 Lex «Genforeningen»: 'underskrevet i Paris 5. juli 1920 med virkning fra 15. juni samme år'. İPUCU: 1865 Gastein (Schleswig Prusya idaresine), 1867 Prusya eyaleti; imzadan önceki işgal (1864 Şubat-Ekim) isg prusya/avusturya olarak yazılabilir, günler okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:339",
+   "alan": "s",
+   "d": "schleswig-holstein",
+   "f": "1460-03-05",
+   "t": "1864-10-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Lex, «Wienerfreden (1864)», Claus Bjørn (https://lex.dk/Wienerfreden_(1864))",
+   "alinti": "Wienerfreden (1864), fredsslutning 30.10.1864 ... Danmark afstod hertugdømmerne Slesvig, Holsten og Lauenborg",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1155] t teyitli. f 1460-03-05 mevcut Ribebrevet kaynağından, bu turda teyitsiz. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Tønder": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:341",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1920-06-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Lex (Den Store Danske), «Genforeningen» (https://lex.dk/Genforeningen)",
+   "alinti": "underskrevet i Paris 5. juli 1920 med virkning fra 15. juni samme år",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1156] TEK ÖLÇÜ: Danimarka bölgeyi önceden yönetmiyordu; 15 Haziran devrin geçerlilik günü. ic_not: imza 1920-07-05, Genforening 1920-07-09; 1. bölge plebisiti 10 Şubat 1920 (%74 Danimarka); plebisit süresince bölge uluslararası komisyon (CIS) idaresinde — ayrı dilim adayı. t 2000-12-31 pencere ucu. Tønder'e özgü: Lex — 'Tønder lå dog i den zone, der havde dansk flertal, og byen kom dermed til Danmark' (şehirde %77 Almanya oyu). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:341",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "1460-03-05",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "[sira 1157] Bütçe; mevcut kaynaklı/BEYANLI dönem bu turda yeniden okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:341",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1864-10-30",
+   "t": "1920-06-15",
+   "hukum": "ONERI",
+   "kaynak": "Lex (Den Store Danske), «de slesvigske krige» (https://lex.dk/de_slesvigske_krige)",
+   "alinti": "Ved Wienerfreden, der blev undertegnet 30. oktober 1864 ... Hertugdømmet Slesvig blev forvaltet af Preussen",
+   "oneri": {
+    "bolunme": "s: prusya 1864-10-30 → 1871-01-18, ardından s: almanya 1871-01-18 → 1920-06-15",
+    "t_kaynak": "Lex (Den Store Danske), «Genforeningen» (https://lex.dk/Genforeningen)"
+   },
+   "uc": "f+t",
+   "not": "[sira 1158] f 1864-10-30 Viyana imzası teyitli (TEK ÖLÇÜ: Prusya-Avusturya bölgeyi zaten işgal etmişti → imza günü). almanya künyesinin özeti 1806-1871'i kapsamıyor; Schleswig'i Prusya yönetti (prusya künyesi t 1871-01-18, hayalet yok). t 1920-06-15 Lex «Genforeningen»: 'underskrevet i Paris 5. juli 1920 med virkning fra 15. juni samme år'. İPUCU: 1865 Gastein (Schleswig Prusya idaresine), 1867 Prusya eyaleti; imzadan önceki işgal (1864 Şubat-Ekim) isg prusya/avusturya olarak yazılabilir, günler okunmadı. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:341",
+   "alan": "s",
+   "d": "schleswig-holstein",
+   "f": "1460-03-05",
+   "t": "1864-10-30",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Lex, «Wienerfreden (1864)», Claus Bjørn (https://lex.dk/Wienerfreden_(1864))",
+   "alinti": "Wienerfreden (1864), fredsslutning 30.10.1864 ... Danmark afstod hertugdømmerne Slesvig, Holsten og Lauenborg",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1159] t teyitli. f 1460-03-05 mevcut Ribebrevet kaynağından, bu turda teyitsiz. [alıntı ham metinden, sayfa.py]"
+  }
+ ],
+ "Uddevalla": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:366",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1537-01-01",
+   "t": "1658-03-08",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Uddevalla», Lars Mæhlum (https://snl.no/Uddevalla)",
+   "alinti": "Sammen med resten av Bohuslän ble byen svensk etter freden i Roskilde i 1658.",
+   "oneri": {},
+   "uc": "t",
+   "not": "[sira 1160] t YIL düzeyi. f 1537 teyitsiz (norvec-kralligi künye t ile aynı; SNL Bohuslän 1658'e dek bölgeyi 'norsk' sayar — Danimarka-Norveç). [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:366",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1658-03-08",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Uddevalla», Lars Mæhlum (https://snl.no/Uddevalla)",
+   "alinti": "Sammen med resten av Bohuslän ble byen svensk etter freden i Roskilde i 1658.",
+   "oneri": {},
+   "uc": "f",
+   "not": "[sira 1161] f YIL düzeyi. Takvim: Roskilde 26 Şubat 1658 Jülyen (Danimarka-Norveç 1700'e dek Jülyen) = 8 Mart 1658 Gregoryen — atlas günü Gregoryen karşılık; SNL takvim belirtmez. TEK ÖLÇÜ: İsveç'in Bohuslän'ı imzadan önce yönetip yönetmediği okunmadı. t pencere ucu. [alıntı ham metinden, sayfa.py]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:366",
+   "alan": "s",
+   "d": "norvec-kralligi",
+   "f": "1281-01-01",
+   "t": "1537-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Store norske leksikon, «Bohuslän», Lars Mæhlum (https://snl.no/Bohusl%C3%A4n)",
+   "alinti": "Bortsett fra årene 1523 til 1532 var Bohuslän norsk fram til freden i Roskilde i 1658",
+   "oneri": {
+    "bolunme": "norvec-kralligi dönemi 1523-1532 kesilmeli; aradaki sahip kaynakta yok"
+   },
+   "uc": "",
+   "not": "[sira 1162] SNL 1523-1532'de Bohuslän'ın Norveç'e ait olmadığını söyler, sahibini adlandırmaz. İPUCU: Danimarka kralı I. Frederik'in doğrudan tımarı/rehni olabilir (teyitsiz) — kaynakla bakılmalı. f 1281 pencere, t 1537 teyitsiz. [alıntı ham metinden, sayfa.py]"
+  }
+ ]
+}
