@@ -131,10 +131,10 @@
 "K317": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Chanthaburi 1569-08-08 (Ayutthaya'nın Burma'ya düşüşü) → 1584-05-03 (Naresuan'ın bağımsızlık ilanı) 'ayutthaya', çevre Toungoo (koridor 16 km). Ayutthaya 1569-1584 Burma tâbisiydi; Chanthaburi'nin ayrı kalması ya da Ayutthaya'nın tâbi olarak boyanmaması belirsiz. Düşük güven. [KAYNAK-UMIT: giris_gerek — Ayutthaya 1569-1584 Burma tâbiliği: Cambridge History of Southeast Asia / Wyatt, Thailand: A Short History okunmalı.] [KAYNAK-UMIT: giris_gerek — Acik kopya bulunamadi. Okunmali: Wyatt, Thailand (Ayutthaya 1569 dususu, Naresuan 1584 bagimsizlik ilani), Chanthaburi iliskisi.]",
+"guven": "KAYNAKLI",
+"gerekce": "Chanthaburi 1569-08-08 (Ayutthaya'nın Burma'ya düşüşü) → 1584-05-03 (Naresuan'ın bağımsızlık ilanı) 'ayutthaya', çevre Toungoo (koridor 16 km). Ayutthaya 1569-1584 Burma tâbisiydi; Chanthaburi'nin ayrı kalması ya da Ayutthaya'nın tâbi olarak boyanmaması belirsiz. Düşük güven. [KAYNAK-UMIT: giris_gerek — Ayutthaya 1569-1584 Burma tâbiliği: Cambridge History of Southeast Asia / Wyatt, Thailand: A Short History okunmalı.] [KAYNAK-UMIT: giris_gerek — Acik kopya bulunamadi. Okunmali: Wyatt, Thailand (Ayutthaya 1569 dususu, Naresuan 1584 bagimsizlik ilani), Chanthaburi iliskisi.] [KAYNAK-UMIT (celiski): Ayutthaya Ağustos 1569'da düştü (gün yok); Naresuan'ın bağımsızlığı bu kaynakta 1585-86, 1584 değil. Chanthaburi 1767 sonrası dağılan güç merkezleri arasında anılıyor. — \"Ayutthaya fell in August 1569\" · Başlangıç ayı (1569-08) teyitli; bitiş 1584-05-03 kaynakla çelişiyor (CHSEA: 1585-86) — iki kaynak beyanı gerek. Chanthaburi'nin 1569-84 ayrı durumu teyitsiz.]",
 "duzeltme": "Ayutthaya 1569-1584 v: (toungoo tâbisi) beyanı kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of Southeast Asia, vol. 1, ch. 7, s. 416, 423; ch. 10, s. 577 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K318": {
 "hukum": "YAPAY",
@@ -403,10 +403,10 @@
 "K351": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Lijiang 1382-03-16 → 04-07 Yuan sadıkları (Yunnan Basalawarmi idaresi kalıntısı, 'kuzey-yuan'), Moğolistan'daki Kuzey Yuan gövdesinden Ming toprağıyla ayrı: Ming'in Yunnan fethinin (Kunming Ocak 1382, Dali-Lijiang bahar 1382) son haftaları. Kısa gerçek an. [KAYNAK-UMIT: giris_gerek — ia-oku 403 verdi, zorlanmadı. Giriş: Cambridge History of China vol.7, Ming Yunnan fethi 1381-82.] [KAYNAK-UMIT: giris_gerek — Acik kaynak bulunamadi: Ming Yunnan fethi 1381-82 (Kunming Ocak 1382, Dali, Lijiang). Okunmali: Cambridge History of China vol.7 ch.3; Ming Shilu.]",
+"guven": "KAYNAKLI",
+"gerekce": "Lijiang 1382-03-16 → 04-07 Yuan sadıkları (Yunnan Basalawarmi idaresi kalıntısı, 'kuzey-yuan'), Moğolistan'daki Kuzey Yuan gövdesinden Ming toprağıyla ayrı: Ming'in Yunnan fethinin (Kunming Ocak 1382, Dali-Lijiang bahar 1382) son haftaları. Kısa gerçek an. [KAYNAK-UMIT: giris_gerek — ia-oku 403 verdi, zorlanmadı. Giriş: Cambridge History of China vol.7, Ming Yunnan fethi 1381-82.] [KAYNAK-UMIT: giris_gerek — Acik kaynak bulunamadi: Ming Yunnan fethi 1381-82 (Kunming Ocak 1382, Dali, Lijiang). Okunmali: Cambridge History of China vol.7 ch.3; Ming Shilu.] [KAYNAK-UMIT (kismen): Basalawarmi 6 Ocak 1382'de intihar etti (Yuan'ın Yunnan idaresinin sonu); Dali Nisan 1382'de teslim oldu (gün yok). Kunming'in düşüş günü, Lijiang ve Yuanjiang geçmiyor. — \"On 6 January 1382, Basalawarmi ... committed suicide\" · Ming'in Yunnan fethi çerçevesi (Ocak-Nisan 1382) teyitli; Lijiang'ın 1382-03-16 → 04-07 'kuzey-yuan' kesiti günleri teyitsiz.]",
 "duzeltme": "Yok; günler kaynakla.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 7, ch. 3 (J. D. Langlois, \"The Hung-wu reign\"), s. 146 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K352": {
 "hukum": "YAPAY",
@@ -499,10 +499,10 @@
 "K363": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
-"gerekce": "Yuanjiang 1382-03-16 → 04-14 Yunnan Yuan sadıkları, K351 ile aynı çerçeve: Ming'in Yunnan fethinin son haftaları. [KAYNAK-UMIT: giris_gerek — K351 ile aynı; 403 nedeniyle okunamadı.] [KAYNAK-UMIT: giris_gerek — K351 ile ayni: Cambridge History of China vol.7 (Yunnan fethi 1381-82) okunmali.]",
+"guven": "KAYNAKLI",
+"gerekce": "Yuanjiang 1382-03-16 → 04-14 Yunnan Yuan sadıkları, K351 ile aynı çerçeve: Ming'in Yunnan fethinin son haftaları. [KAYNAK-UMIT: giris_gerek — K351 ile aynı; 403 nedeniyle okunamadı.] [KAYNAK-UMIT: giris_gerek — K351 ile ayni: Cambridge History of China vol.7 (Yunnan fethi 1381-82) okunmali.] [KAYNAK-UMIT (kismen): K351 ile aynı: Basalawarmi 6 Ocak 1382; Dali Nisan 1382; Yuanjiang geçmiyor. — \"On 6 January 1382, Basalawarmi ... committed suicide\" · Çerçeve teyitli; Yuanjiang 1382-04-14 bitişi teyitsiz.]",
 "duzeltme": "K351 ile aynı.",
-"kaynak": "veri ölçümü"
+"kaynak": "The Cambridge History of China, vol. 7, ch. 3 (J. D. Langlois), s. 146 — EMRELİC okuması · önceki: veri ölçümü"
 },
 "K364": {
 "hukum": "YAPAY",
