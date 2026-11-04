@@ -48,9 +48,9 @@ window.OLAYLAR_AVMAC_C_1029 = [
   tur:"kurulus", onem:4, dunya:2, kapsam:"dis",
   etiket:["siyaset","konu-siyasi"],
   yer:"Budapeşte", yer_id:"Peşte", kisiler:"Mihály Károlyi",
-  d:"Károlyi 31 Ekim 1918'de (Pat Çiçeği Devrimi) Karl tarafından başbakan atanmıştı. 16 Kasım 1918'de Millî Konsey ve hükûmet Halk Cumhuriyeti'ni ilân etti; 11 Ocak 1919'da Károlyi geçici cumhurbaşkanı oldu. macaristan-naiplik ve macaristan-halk-cumhuriyeti künyeleri bu günden başlar.",
+  d:"Károlyi 31 Ekim 1918'de (Pat Çiçeği Devrimi) Karl tarafından başbakan atanmıştı. 16 Kasım 1918'de Millî Konsey ve hükûmet Halk Cumhuriyeti'ni ilân etti; 11 Ocak 1919'da Károlyi geçici cumhurbaşkanı oldu. macaristan-naiplik ve macaristan-halk-cumhuriyeti künyeleri bu günden başlar. Bu olayla Aquincum-Óbuda-Pest, Estergon, Eğri, Segedin (Szeged), Debrecen, Varad ve Yukarı Macaristan dahil Macaristan Krallığı'nın Hırvatistan dışındaki şehirleri Macaristan Halk Cumhuriyeti'ne geçti.",
   ic_not:"TDV macaristan Pat Çiçeği Devrimi'ni 31 Ekim diye verir ve halk cumhuriyetinin ilânına gün vermez; 16 Kasım günü Orange Files / archontology ve Ludovika yayınından alındı.",
-  kaynak:"TDV macaristan (31 Ekim 1918; cumhuriyet günü yok) · https://theorangefiles.hu/the-first-hungarian-republic/ · https://www.archontology.org/nations/hungary/karoly4.php" },
+  kaynak:"TDV macaristan (31 Ekim 1918; cumhuriyet günü yok) · https://theorangefiles.hu/the-first-hungarian-republic/ · https://www.archontology.org/nations/hungary/karoly4.php · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Vizi László Tamás, 'Az első magyar köztársaság születése: Budapest 1918. november 16.', Acta Scientiarum Socialium 48 (2018), s. 59-67, DOI 10.33566/asc.2755, s. 63 (néphatározat metni; KN XLI. kötet 457) ; çelişki için Hrvatski sabor, 'Hrvatski građanski sabor 1848.–1918.' (https://www.sabor.hr/sites/default/files/uploads/inline-files/PDF3.pdf) ; N. Stančić, HAZU Dan neovisnosti 2011 konuşması (https://historiografija.hr/wp-content/uploads/2026/01/2011-HAZU-Dan-neovisnosti_Stancic.pdf) ; TDV 'Macaristan' md.: '31 Ekim 1918'de “pat çiçeği devrimi” neticesinde ... Károlyi başbakan oldu' (cumhuriyet günü yok)" },
 
 { t:"1919-03-21",
   b:"Béla Kun hükûmeti Macar Sovyet Cumhuriyeti'ni ilân etti",

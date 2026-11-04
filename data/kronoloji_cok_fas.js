@@ -359,7 +359,7 @@ window.KRONOLOJI_COK_FAS = [
   ic_not_d:"HARİTADA KARŞILIĞI YOK (OCAK_NOTU)." },
 
 { odak_yer:["Rabat","Fas (Fez)"], t:"1912-08-12", b:"Abdülhafîz tahttan çekildi, yerine Mevlây Yûsuf getirildi", tur:"hukumdar", onem:4, dunya:2, kapsam:"ic",
-  etiket:["hukumdar","hanedan","konu-hanedan"], yer_id:"", odak_kimlik:"fas", taraflar:["fas"],
+  etiket:["hukumdar","hanedan","konu-hanedan"], yer_id:"", odak_kimlik:"fas-fransiz-himayesi", taraflar:["fas"],
   d:"Himaye antlaşmasından sonra askerlerin Fas şehrindeki ayaklanmasını (17 Mayıs 1912) bastıran Fransızlar, ülkeyi sultan adına yeniden zapta girişti ve Lyautey'i genel vali atadı. Himaye doğrudan idareye dönüşünce Abdülhafîz tahttan çekilip Fransa'ya gitti; yerine Fransızlarla iş birliğine yatkın kardeşi Mevlây Yûsuf geçti.",
   kaynak:"TDV `abdulhafiz-el-alevi`: \"Fransız himayesinin doğrudan idare şeklini alması üzerine Abdülhafîz de sultanlıktan çekilmeye ve Fransa’ya gitmeye mecbur oldu (12 Ağustos 1912).\"",
   gun:"12 Ağustos 1912" },

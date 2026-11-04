@@ -555,8 +555,8 @@ window.OLAYLAR_P0049 = [
   b:"Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi",
   gun:"16 Mart 1921",
   yer:"Moskova; Kars, Ahıska", yer_id:"Kars", kisiler:"",
-  d:"TBMM hükümeti ile Sovyet Rusya arasında 16 Mart 1921'de Moskova Antlaşması imzalandı. TDV'nin Kars maddesine göre bu antlaşma ile 13 Ekim 1921'deki Kars Antlaşması'nın sınır düzenlemeleri sonucunda Kars yeni Türk devletinin sınırları içinde kaldı. Ahıska maddesine göre ise Ahıska bu antlaşmayla Gürcistan Sovyet Sosyalist Cumhuriyeti'nin Tiflis vilâyetine bağlandı. Doğu sınırı, yedi ay sonra Güney Kafkasya cumhuriyetleriyle imzalanan Kars Antlaşması'yla kesinleşecekti.",
-  kaynak:"kars · ahiska" },
+  d:"TBMM hükümeti ile Sovyet Rusya arasında 16 Mart 1921'de Moskova Antlaşması imzalandı. TDV'nin Kars maddesine göre bu antlaşma ile 13 Ekim 1921'deki Kars Antlaşması'nın sınır düzenlemeleri sonucunda Kars yeni Türk devletinin sınırları içinde kaldı. Ahıska maddesine göre ise Ahıska bu antlaşmayla Gürcistan Sovyet Sosyalist Cumhuriyeti'nin Tiflis vilâyetine bağlandı. Doğu sınırı, yedi ay sonra Güney Kafkasya cumhuriyetleriyle imzalanan Kars Antlaşması'yla kesinleşecekti. Bu antlaşmayla Batum ve Acara (Hulo, Sarp, Murvaneti, Makhalak'auri) Sovyet Gürcistanı'na bırakıldı.",
+  kaynak:"kars · ahiska · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Batum' ve 'Ahıska'" },
 
 { t:"1921-06-01", k:"siyaset", etiket:["kurtulus","toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"İtalyanlar Antalya'yı boşaltmaya başladı",
@@ -725,9 +725,9 @@ window.OLAYLAR_P0050 = [
   gun:"6 Mart 1882 (Sırp takvimiyle 22 Şubat)",
   yer:"Belgrad, Niş, Semendire, Kragujevac", yer_id:"Belgrad",
   kisiler:"Kral I. Milan (Milan Obrenoviç)",
-  d:"1878'de bağımsızlığını kazanan ve aynı yıl Osmanlı elindeki Niş'i de alan Sırbistan Prensliği, Milan Obrenoviç döneminde krallığa dönüştürüldü. Belgrad'da çıkarılan kanunun ilk maddesiyle prenslik Sırbistan Krallığı ilan edildi ve Prens Milan I. Milan adıyla kral oldu; kanun aynı gün resmî Srpske novine gazetesinde yayımlandı. Böylece 1878'e kadar Osmanlı'ya bağlı bir prenslik olan Sırbistan, Balkanlar'da krallık unvanıyla yerini aldı.",
+  d:"1878'de bağımsızlığını kazanan ve aynı yıl Osmanlı elindeki Niş'i de alan Sırbistan Prensliği, Milan Obrenoviç döneminde krallığa dönüştürüldü. Belgrad'da çıkarılan kanunun ilk maddesiyle prenslik Sırbistan Krallığı ilan edildi ve Prens Milan I. Milan adıyla kral oldu; kanun aynı gün resmî Srpske novine gazetesinde yayımlandı. Böylece 1878'e kadar Osmanlı'ya bağlı bir prenslik olan Sırbistan, Balkanlar'da krallık unvanıyla yerini aldı. Bu ilânla Sırbistan Prensliği'nin tamamı (Belgrad, Niş, Yagodina, İvranye, Leskofça, Ürküp, Şehirköy vd.) Sırbistan Krallığı oldu.",
   ic_not_gun:"TDV sirbistan yalnız yıl verir ('Prens Milan Obrenoviç 1882'de krallığını ilân etti'). Gün BİRİNCİL kaynaktan: 'Zakon o proglašenju Knjažestva Srbije za Kraljevinu', Srpske novine sy. 41, Pazartesi 22 Şubat 1882 (metin Vikizvornik transkripsiyonundan okundu; Vikizvornik burada dayanak değil, neşrin taşıyıcısı). 🔴 TAKVİM: Sırbistan 1882'de Jülyen kullanıyordu; 22 Şubat Jülyen = 6 Mart Gregoryen (+12 gün). ÇEVİRME YAPILDI çünkü atlasın 19. yüzyıl komşu kayıtları Gregoryen (VERI-YAPISI TAKVİM: yapıldıysa yazılır). Atlasın 1882-03-06 kırılması ve kronoloji_sirbistan.js aynı günü DAYANAK ALINMADI.",
-  kaynak:"sirbistan · nis + Zakon o proglašenju Knjažestva Srbije za Kraljevinu, Srpske novine 41 (22.II.1882)" },
+  kaynak:"sirbistan · nis + Zakon o proglašenju Knjažestva Srbije za Kraljevinu, Srpske novine 41 (22.II.1882) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sırbistan' (islamansiklopedisi.org.tr/sirbistan)" },
 
 // ── Filistin sivil idaresi 1920 ───────────────────────────────────
 { t:"1920-07-01", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],
@@ -735,9 +735,9 @@ window.OLAYLAR_P0050 = [
   gun:"1 Temmuz 1920",
   yer:"Kudüs, Gazze, Yafa, Akkâ, Nablus", yer_id:"Kudüs",
   kisiler:"Yüksek Komiser Herbert Samuel",
-  d:"1917'de General Allenby'nin Gazze'yi ve ardından Kudüs'ü almasıyla Filistin'de dört yüz yıllık Osmanlı hâkimiyeti sona ermiş, Kudüs 1917-1920 arasında İngiliz askerî yönetiminde kalmıştı. 1920 San Remo Konferansı Filistin'i İngiliz mandasına verdi; İngiltere Temmuz 1920'den itibaren bölgede sivil bir manda yönetimi kurarak ülkeyi bir yüksek komiser aracılığıyla yönetmeye başladı. Sivil idarenin başında yüksek komiser Herbert Samuel vardı. Aynı yıl başlayan Arap ayaklanmaları ve yahudi-Arap çatışmaları manda döneminin bütününe damga vuracaktı.",
+  d:"1917'de General Allenby'nin Gazze'yi ve ardından Kudüs'ü almasıyla Filistin'de dört yüz yıllık Osmanlı hâkimiyeti sona ermiş, Kudüs 1917-1920 arasında İngiliz askerî yönetiminde kalmıştı. 1920 San Remo Konferansı Filistin'i İngiliz mandasına verdi; İngiltere Temmuz 1920'den itibaren bölgede sivil bir manda yönetimi kurarak ülkeyi bir yüksek komiser aracılığıyla yönetmeye başladı. Sivil idarenin başında yüksek komiser Herbert Samuel vardı. Aynı yıl başlayan Arap ayaklanmaları ve yahudi-Arap çatışmaları manda döneminin bütününe damga vuracaktı. Bu olayla Tiberya (Filistin) İngiliz sivil manda idaresine geçti.",
   ic_not_gun:"TDV filistin AY verir: 'İngiltere, Temmuz 1920 tarihinden itibaren Filistin'de bir sivil manda yönetimi kurdu'. Gün RESMÎ kaynaktan: 'An Interim Report on the Civil Administration of Palestine during the period 1st July, 1920–30th June, 1921', H. Samuel, Parlamentoya sunulan rapor, Ağustos 1921 — künye Yale/HathiTrust/WorldCat kataloglarından okundu; raporun GÖVDESİ OKUNMADI, gün raporun resmî dönem başlığından. Gregoryen. Atlasın 1920-07-01 kırılması DAYANAK ALINMADI.",
-  kaynak:"filistin · kudus · gazze + Interim Report on the Civil Administration of Palestine, 1st July 1920–30th June 1921 (HMSO 1921)" },
+  kaynak:"filistin · kudus · gazze + Interim Report on the Civil Administration of Palestine, 1st July 1920–30th June 1921 (HMSO 1921) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Filistin' (islamansiklopedisi.org.tr/filistin) — açıldı, okundu" },
 
 // ── Mısır Krallığı 1922 ───────────────────────────────────────────
 { t:"1922-03-15", k:"siyaset", kapsam:"ic", etiket:["siyaset","konu-siyasi"],

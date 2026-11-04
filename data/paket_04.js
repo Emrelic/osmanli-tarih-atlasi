@@ -660,8 +660,8 @@ window.OLAYLAR_EK20 = [
   etiket:["siyaset","diplomasi","antlasma","konu-siyasi","konu-diplomasi"],
   yer:"Tilsit",
   kisiler:"III. Friedrich Wilhelm, Napolyon Bonapart, I. Aleksandr",
-  d:"Jena-Auerstedt bozgunundan sonra Prusya, Napolyon ile Tilsit'te ağır bir barışı kabul etmek zorunda kaldı (9 Temmuz 1807). Elbe'nin batısındaki bütün toprakları ile 1793 ve 1795 paylaşımlarında aldığı Polonya topraklarını bıraktı; bu ikincilerden Varşova Dukalığı kuruldu ve Białystok çevresi Rusya'ya verildi. Prusya nüfusunun ve toprağının yaklaşık yarısını yitirdi, ordusu 42.000 ile sınırlandı. Atlasta Poznan ve Toruń bu günden itibaren Varşova Dukalığı'na, Białystok ise Rusya'ya geçer.",
-  kaynak:"prusya" },
+  d:"Jena-Auerstedt bozgunundan sonra Prusya, Napolyon ile Tilsit'te ağır bir barışı kabul etmek zorunda kaldı (9 Temmuz 1807). Elbe'nin batısındaki bütün toprakları ile 1793 ve 1795 paylaşımlarında aldığı Polonya topraklarını bıraktı; bu ikincilerden Varşova Dukalığı kuruldu ve Białystok çevresi Rusya'ya verildi. Prusya nüfusunun ve toprağının yaklaşık yarısını yitirdi, ordusu 42.000 ile sınırlandı. Atlasta Poznan ve Toruń bu günden itibaren Varşova Dukalığı'na, Białystok ise Rusya'ya geçer. Bu antlaşmayla Łódź ve Częstochowa (1772 sonrası Prusya'ya geçen Polonya eyaletleri) Varşova Dukalığı'na geçti; Gdańsk (Danzig) bağımsız serbest şehir oldu.",
+  kaynak:"prusya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Fransa–Rusya Tilsit Antlaşması 7 Temmuz 1807, md. 5-6 — Digithèque MJP https://mjp.univ-perp.fr/traites/1807tilsit.htm" },
 
 
 { t:"1648-10-24",

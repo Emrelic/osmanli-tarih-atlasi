@@ -202,6 +202,9 @@ G — Renk ve bölge (senin işin değil)
 | 25–30 | Avustralya ve Okyanusya (6 dilim) | **bitti** (birinci geçiş, 6 dilim tek envanter) — 54 künye · 147 yerleşim · 15 madde; yasak kaynaklı 8 künye + 2 madde | künye 8 kaynak (BM, legislation.gov.uk, history.state.gov; Nauru/Kiribati/Samoa çift teyit), 0 tarih; madde 2 kaynak + 1 beyan (Rabaul 12/17 Eylül 1914). Gilbert-Ellice günleri teyitsiz | (bu push) |
 | — | **DÜNYA birinci geçiş bitti** (30 hücre) — yalnız künye + madde | | | |
 | — | 🔴 **D ADIMI: YAPILMADI** — yerleşim `s:` dönemlerinin yıl yıl kaynakla teyidi birinci geçişte hiçbir hücrede yapılmadı (tablodaki "yerleşim" sayıları yalnız envanterdir). İKİNCİ GEÇİŞ olarak aynı kıta sırasıyla (Avrupa → Asya → Afrika → Amerika → Okyanusya) yapılacak. | | | |
+| — | **Koordinatör kararı (EMRELİC, 3/4 Kasım gecesi; Emre onayı bekliyor) — TAKVİM** | 1582-10-15 öncesi: kaynaktaki gün (pratikte Jülyen) kalır, toplu çevirme yok · 1582-10-15 sonrası: atlas günleri Gregoryen; geç geçen yerlerin (Rusya 1918'e dek, Britanya 1752'ye dek, İsveç 1753, Yunanistan 1923, Rumi takvim) kaynak günleri çevrilir ve ic_not'ta beyan edilir. Rus günleri UMIT `EK-rus-julyen.md` listesiyle, kırılmayla birlikte taşınacak. Not: `arac/gun.py` yorumu "proleptik Gregoryen" diyor — kuralla çelişiyor, değiştirilmedi (yalnız not). | | |
+| — | **Koordinatör kararı (EMRELİC, 4 Kasım; Emre onayı bekliyor) — ANTİK KRONOLOJİ** | Mısır: Shaw (ed.), *Oxford History of Ancient Egypt* (2000) · Mezopotamya: orta kronoloji (Ur III: Frayne, RIME) · Hitit: Bryce 2005. Öteki konvansiyonlar yalnız ic_not'ta beyan edilir. UMIT tutarsız kayıtları (Mısır Eski Krallık, Ur III, Akkad) öneri olarak listeliyor. | | |
+| — | **Harita anahtarı → künye id (UMIT `EK-harita-anahtari.md`, 4 Kasım)** | 1042 `s:` dönemi künye id'si yerine `harita:` anahtarı taşıyor. Motor `d` BOYALAR'daysa onu boyar (uret_petek.py:1141) ⇒ çeviri renk değiştirir. (1) Karışık gruplar (aynı polity iki renkte) TEK satırları çevrildi: 164/186 (22 satır UMIT ölçümünden sonra değişmiş, atlandı). (2) Yalnız-anahtar grupları (~830: fetret-süleyman/musa/mehmed/isa, avusturya, bosna, atina, kaffa) HAVVA renk partisi (id'ye anahtarın rengi) main'e indikten sonra tek commit'te. BÖL 116 + YOK 89 ayrı iş. | | |
 | — | Emre kararları (2 Kasım, EMRELİC aracılığıyla) | bizans t 1461-08-15 → 1453-05-29 (TDV) + 6 Argolis/Saronik yerleşimi 1349–1460 mora-despotlugu (abi merkez Mora/Tripoliçe) · tikal-mutal → tikal-mutul birleşti (künye silindi) · Chavín t -0399 (zaten) · Danimarka Hindistanı → kirilma-tasima oturumu | | (bu push) |
 
 ## İkinci geçiş planı (sıra)
@@ -221,12 +224,78 @@ G — Renk ve bölge (senin işin değil)
 5. **Değişmez 3b binmeleri (veri işi)** — koşu 32 inişinde tavan 46 → 51 gün: 1160 Rus knezlikleri (Çernigov × Ryazan 80 552 km², × Vladimir-Suzdal, × Smolensk…), 1060 Kiev × Polotsk, 1040 Bohemya × Polonya. Kaynakla çözülecek.
    **(a) yapıldı** (1c0bc7998 + df2d2b99f, kapı 534a118d7): 2 304 yasak kaynaklı dönem künye kaynağını BEYANLI devraldı.
    Kalan yasak dönem: iç kırılma 662 · künye kaynağı da yasak 351 · alan sırası farklı ~190 · __BOSLUK__ 53.
-   (b) yalnız-taraf kapanışları ve (c) kaynaksız ~18 000 dönem: koordinatör/Emre onayı bekliyor.
+   **Emre kararı (3 Kasım 2026): önce (c), sonra (b).**
+   **(c) yapıldı** (3 Kasım, KASA, `d_madde_devral.py`): ölçüm anındaki kaynaksız `s:` dönemi 13 948 (hücre sayımı
+   çift sayıyordu). Dönemi açan (yoksa kapatan) kırılmanın ±30 günündeki, Değişmez 2s alâka ölçütünü geçen (önce yer
+   kolu ±30 gün; taraf kolu yalnız ±1 gün) ve yasak/zayıf/atlas-içi olmayan kaynaklı maddenin kaynağı BEYANLI yazıldı:
+   **5 448 dönem (dosyada)** (açılış/yer 1 980 · açılış/taraf 3 422 · kapanış/yer 1 277 · kapanış/taraf 2 739
+   eşleşmesinin dosyada tek anlamlı olanları). Taraf kolu ±1 güne daraltıldı çünkü ±30 günde yanlış olay seçiyordu
+   (1917-11-07 Ekim Devrimi kırılması 255 Avrupa yerleşiminde 20 gün sonraki "Hokand Muhtariyeti" maddesine bağlanıyordu —
+   Değişmez 2s de bu kırılmayı aynı yanlış maddeyle KAPALI sayıyor; (b)'nin ilk işi). `kur:`dan önceki 10 dönem
+   (Çanakkale, Uzunköprü — bölge vekili, Değişmez 5a-muaf kilidi) bilerek kaynaksız bırakıldı.
+   Kalan kaynaksız ~8 500: alâkalı kaynaklı madde yok 4 520 · aynı (f,t,d) kopyaları farklı maddeye düştüğü için
+   dokunulmadı ~3 970 (yerleşim bloğu bazında ikinci tur yapılabilir). Beyan: "olayın kaynağıdır, yerleşim
+   tanıklığı değil" — taraf kolu yerleşimi anmaz, (b) bunu kapatır.
+   **(b) hücre 6 (Avrupa 1800–2000) ilk tur** (3 Kasım, KASA, `b_envanter.py` + 2 ajan + `b_uygula.py`): 3 563 `s:`
+   kırılma birimi → yer kolu 1 281 · yalnız taraf 2 104 (141 madde) · madde yok 178. En kalabalık 40 madde (1 667 birim)
+   araştırıldı: teyit 1 208 · çelişki 50 · okunmadı 154 · yanlış madde 255 (ayrıca 2 madde için yeni madde önerildi, uygulanmadı:
+   1923-10-29 "Ahlat: safevî → TC" yerine Cumhuriyet'in ilanı · 1918-11-11 I. Karl yerine Polonya 30/31 Ekim). 31 maddeye kaynaklı yer cümlesi eklendi
+   (yasak kaynaklıların kaynağı değiştirildi). 2 yeni madde: 1917-11-07 Ekim Devrimi (FRUS 1918) ve 1917-12-15 Moldova
+   Demokratik Cumhuriyeti (Scurtu 2022) — 255 birim Hokand 1917-11-27 maddesine yanlış bağlıydı.
+   **Kırılma taşıması gerekenler (uygulanmadı, kaynak ajan dökümünde):** Hırvatistan-Slavonya 13 yerleşim 1918-11-16 /
+   1920-06-04 → 1918-10-29 (Sabor) · Polonya: Kraków 1918-10-30, Lublin/Kielce/Radom/Chełm/Zamość 1918-10-31 (atlasta
+   1918-11-11) · Hollanda: Middelburg, 's-Hertogenbosch, Breda 1810-03-31 (atlasta 07-09) · Alman İmparatorluğu 1871-01-01
+   (anayasa) mı 01-18 (ilan) mı · Edirne 1920-04-23 TBMM'ye geçiş kaynaksız (TDV: Temmuz 1920 Yunan işgali) ·
+   `macaristan-naiplik` 1918-11-16 için uygun kimlik mi · SSCB sonu: atlas 12-26, DoS 12-25, TDV 12-31 (çelişki beyanı) ·
+   olaylar.js "Cumhuriyet'in ilanı" t:"1923-10" ay hassasiyetinde (gün 29). Döküm: `denetim/DUNYA-1102/ikinci-gecis-b/dokum_h6.md`.
+   **Hücre 6 ikinci tur** (kalan 101 madde, 437 birim, 2 ajan): teyit 333 · çelişki 40 · okunmadı 30 · yanlış madde 34.
+   64 maddeye yer cümlesi eklendi; yalnız archontology / LoC countrystudies / napoleon-series dayanaklı 10 öneri
+   UYGULANMADI (zayıf tek kaynak). **Hücre 6 toplam:** 141 maddenin hepsi tarandı · 95 maddeye yer cümlesi · 2 yeni madde
+   · teyit 1 541 · çelişki 90 · okunmadı 184 · yanlış madde 289.
+   Önerilen, uygulanmayan yeni maddeler (yanlış eşleşmenin gerçek olayı; kırılma günüyle birlikte ele alınmalı):
+   1939-10-08 Katowice ilhak kararnamesi · 1918-12-27 Büyük Polonya Ayaklanması · 1807-07-07 Tilsit (Kotor) ·
+   1920-07-28 Teschen · 1920-10-14 Tartu md. IV (Petsamo) · 1864-06-02 İyon Adaları Yunanistan'a (yalnız archontology) ·
+   1918-02-24 Estonya / 1918-02-16 Litvanya bağımsızlıkları · 1921-03-18 Riga Barışı · 1918-11-13 Saksonya / 1918-11-08
+   Bavyera · 1944-10-13 Riga · 1945-01-20 Macar mütarekesi (Güney Slovakya) · 1816-12-08 İki Sicilya kuruluş yasası.
+   Veri kusurları: boş `eski` sahip (Varna #40, Bosna #55, Makedonya #57, Kili/Kahul/Bolgrad #89) · Freiburg/Konstanz
+   "almanya" (Baden olmalı) · Ostland 1941-09-01 · Dimetoka 1922 · Groningen 1813-11-16 · Sondrio 1859-06-28 ·
+   Kraków/Katowice/Białystok 1944-45 günleri · Görice 1912 Yunan işgali. Ayrıntı `dokum_h6.md` + `ajan_sonuclari_h6.json`.
+   **(b) hücre 12 (Asya 1800–2000)** (3 Kasım, KASA, 3 ajan): 4 299 birim → yer 915 · yalnız taraf 2 345 (127 madde) ·
+   madde yok 1 039. 127 maddenin hepsi tarandı (5'i Avrupa turunda işlenmişti, atlandı): teyit 1 162 · çelişki 51 ·
+   okunmadı 208 · yanlış madde 294. 98 maddeye yer cümlesi; 1 yeni madde: 1923-10-29 Türkiye Cumhuriyeti ilânı (TDV Millî
+   Mücadele + Mustafa Kemal Atatürk) — 237 birim bozuk "Ahlat: safevî → TC" maddesine bağlıydı.
+   Önerilen, uygulanmayan 12 yeni madde: 1917-11-28 Transkafkasya Komiserliği (31 Kafkas yeri; harita 11-07, 21 gün erken) ·
+   1926-06-05 Ankara Antlaşması (TDV kendi içinde tutarsız) · 1921-02-23 Ardahan-Artvin TBMM'ye · 1877-12-16 Kâşgar ·
+   1914-11-07 Çingtao · 1810-12-02 Île de France · 1920-12-02 Ermenistan sovyetleşmesi · 1948-04-18 Udaipur · 1919-05-26
+   Turabe · 1915 Amâre · 1825-04 Malaka · 1965-11-08 BIOT.
+   Kırılma günü çelişkileri: 1920-04-23 TBMM kırılması işgal altındaki 23 yerde (İstanbul, Trakya, İzmir/Manisa/Aydın,
+   Antalya/Muğla, Adana/Antep/Çukurova) · 1949-10-01 Kanton/Chongqing/Kunming (Ekim-Aralık 1949'da düştü) · Almatı 1847 →
+   1854 · Champasak 1893 (sağ yaka antlaşma dışı) · Timor 1860-08-23 · Garapan 1914-10-14 · Kolonia 1914-10-07 · Taichung
+   1895-08-28 · Kaohsiung 1895-10-13 · Hisar Haziran 1922 · Darvaz · Musul vilayeti 1921 (hukuken 1926) · Aizu/Hakodate
+   1868-69 · Şuri 1946 · Sarp ve Bacirge 1923-10-29 · vietnam-dc→vietnam-dc 1975 sahip aynılığı. Ayrıntı `dokum_h12.md`.
+   **(b) hücre 18 (Afrika 1800–2000)** (3 Kasım, KASA, 2 ajan): 2 812 birim → yer 880 · yalnız taraf 1 179 (91 madde) ·
+   madde yok 753. 91 maddenin hepsi tarandı (10'u önceki turlarda işlenmişti): teyit 856 · çelişki 37 · okunmadı 116.
+   56 maddeye yer cümlesi; derechos.org'a dayanan Dahla 1979 önerisi uygulanmadı.
+   Önerilen, uygulanmayan yeni maddeler: 1941-04-06 Addis Ababa'nın düşüşü · 1943 Fizan Fransız askerî idaresi (TDV, yalnız
+   yıl) · Segu 1861 (TDV el-Hâc Ömer) · Komorlar Fransız himayesi 1886 (TDV) · Duala 1914-09-27 · São Tomé 1975-07-12.
+   Kırılma günü çelişkileri: **Etiyopya 1941** — 56 yer tek kırılmada 1941-11-27 (Gondar) el değiştiriyor; Playfair (İngiliz
+   resmî tarihi) çoğunu Şubat–Mayıs 1941'e koyuyor (Harar 03-26, Cîcîga 03-17, Mega 02-18, Moyale 02-22, Debre Markos 04-04,
+   Gambela 03-25…) — kırılma bölünmeli · Fizan 1943 eski/yeni sahip (İngiliz değil Fransız) · Somaliland TDV 1991-05-28 ↔
+   atlas 05-18 · Cilib 1941-02-22 · Mali/Segu 1861 Fransa'ya değil el-Hâc Ömer'e (Fransa 1893–94) · Kukava 1902 · Cezayir
+   1962-07-03 tanıma ↔ 07-05 · Etiyopya anayasası 1995-08-21 ↔ 08-22 · Dahla 1979-08-10 · Kaédi Moritanya yakası · boş
+   `eski` sahip (Fizan, Dârfûr) · Komorlar __BOSLUK__ eski sahip. Ayrıntı `dokum_h18.md`.
+   **(b) ilk tur toplamı (hücre 6+12+18, 1800–2000):** 359 madde tarandı · 249 maddeye yer cümlesi · 3 yeni madde ·
+   2sk yalnız-taraf görünür+maskeli 6 081 → 5 253 (−828); YER anılarak kapanan 6 365 → 7 010. Sırada: aynı kıtaların 1500–1800 hücreleri (5, 11, 17), sonra Amerika.
 5b. **Künye kaynak borcu** (2 Kasım, KASA, main 534a118d7; birinci geçiş yalnız hücre öncelik listelerini işledi):
    hâlâ yasak 191 · "bulunamadı — standart akademik kaynak" 259 · ZAYIF KAYNAK 16 · countrystudies/globalsecurity/
    archontology 24 · "BRIT" kısaltması 11 (birinci geçiş regex'i kaçırdı). Çıplak anahtar 219 = `data/kimlikler.js`
    kayıt defterine işaret, zayıf sayılmaz.
-6. **Mükerrer künye adayları** — chimu ↔ chimu-krallik, ternate ↔ ternate-sultanligi, tidore ↔ tidore-sultanligi, ogedey-ulusu ↔ ogedey-ulusu-kaydu (Emre kararı bekliyor).
+6. **Mükerrer künye adayları** — chimu ↔ chimu-krallik, ternate ↔ ternate-sultanligi, tidore ↔ tidore-sultanligi, ogedey-ulusu ↔ ogedey-ulusu-kaydu.
+   **Birleştirildi** (Emre kararı 3 Kasım 2026): silinen künyelerin hiçbirini yerleşim `s:` dönemi kullanmıyordu (ölçüldü);
+   haritadaki id kaldı. chimu → chimu-krallik (1450/1460 maddeleri taşındı; iki madde `taraflar` atfı çevrildi) ·
+   ternate → ternate-sultanligi ve tidore → tidore-sultanligi ("bulunamadı" kaynağı yerine TDV Endonezya + Ricklefs) ·
+   ogedey-ulusu-kaydu → ogedey-ulusu (kaydu maddeleri Wikipedia dayanaklı, taşınmadı). Künye 2279 → 2275.
+7. **Tahiti t** — Emre kararı (3 Kasım 2026): 9 Eylül 1842 himaye günü kalır (zaten öyleydi, Persée 1933); karar ic_not_t'ye yazıldı.
 
 ## girdi.py değişikliği gereken (tuz — dokunulmaz, liste)
 - (boş)

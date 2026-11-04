@@ -80,8 +80,8 @@ window.YERLESIMLER_HINT0912 = [
          "TDV'de BOŞ döner; madde Gaikwar yazıyor — §4'ün Türkçe yazım " +
          "ekseni, bu turda beni de ısırdı.",
   s:[{f:"1281-01-01", t:"1304-01-01", d:"racput"},
-     {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi"},
-     {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi"},
+     {f:"1304-01-01", t:"1407-01-01", d:"delhi-sultanligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Gucerat Sultanlığı Wadhwan'yi Delhi Sultanlığı'dan devraldı — Wadhwan» (1407-01-01, taraf kolu) kaynağı — The Imperial Gazetteer of India, vol. VIII, Oxford 1908, «Bombay Presidency: History», s. 282-285 (archive.org dli.ernet.11615): “Zafar Khan ... was left more and more to himself ... and finally assumed the title of king in 1407” ; Gazetteer of the Bombay Presidency, vol. VIII: Kathiawar, Bombay 1884 (archive.org in.ernet.dli.2015.281422), Wadhwan maddesi: Wadhwan parganası Gucerat padişahı Ahmed … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1407-01-01", t:"1573-02-26", d:"gucerat-sultanligi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Gucerat Sultanlığı Wadhwan'yi Delhi Sultanlığı'dan devraldı — Wadhwan» (1407-01-01, taraf kolu) kaynağı — The Imperial Gazetteer of India, vol. VIII, Oxford 1908, «Bombay Presidency: History», s. 282-285 (archive.org dli.ernet.11615): “Zafar Khan ... was left more and more to himself ... and finally assumed the title of king in 1407” ; Gazetteer of the Bombay Presidency, vol. VIII: Kathiawar, Bombay 1884 (archive.org in.ernet.dli.2015.281422), Wadhwan maddesi: Wadhwan parganası Gucerat padişahı Ahmed … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1573-02-26", t:"1721-01-01", d:"babur-imparatorlugu"},
      {f:"1721-01-01", t:"1949-05-01", d:"baroda"},{f:"1949-05-01",t:"2000-12-31",d:"hindistan-cumhuriyeti",kaynak:"Britannica India; Baroda 1 Mayis 1949'da Bombay Eyaleti'ne katildi"}] },
 

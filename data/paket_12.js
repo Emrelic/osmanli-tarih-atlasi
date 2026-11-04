@@ -9348,14 +9348,14 @@ window.OLAYLAR_2S_0918 = [
 // ── 4. ROMANYA KRALLIĞI'NIN İLANI ─────────────────────────────────────
 { t:"1881-03-26", b:"Romanya Krallığı ilan edildi — Prenslik Krallığa dönüştü", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Bükreş",
   etiket:["antlasma","konu-siyasi"],
-  d:"1877-78 Osmanlı-Rus Savaşı sonrası Berlin Kongresi'nde bağımsızlığı tanınan Romanya Prensliği, 26 Mart 1881'de (Jülyen takvimiyle 14 Mart) Kral I. Carol'un taç giymesiyle Krallığa dönüştürüldü; Babadağı, Birlad, Buzău ve başşehir Bükreş dahil bütün ülke idarî olarak yeni krallığın parçası oldu.",
-  kaynak:"standart akademik/ansiklopedik (Kingdom of Romania proclamation, 26 Mart 1881 — Hitchins, Rumania 1866-1947) — TDV kapsam dışı, gün kaynakta AÇIKÇA veriliyor, veriyle birebir örtüşüyor" },
+  d:"1877-78 Osmanlı-Rus Savaşı sonrası Berlin Kongresi'nde bağımsızlığı tanınan Romanya Prensliği, 26 Mart 1881'de (Jülyen takvimiyle 14 Mart) Kral I. Carol'un taç giymesiyle Krallığa dönüştürüldü; Babadağı, Birlad, Buzău ve başşehir Bükreş dahil bütün ülke idarî olarak yeni krallığın parçası oldu. Krallık ilanıyla Romanya'nın tamamı (Yaş, Kalas, İbrail, Köstence, Tulça, Calafat ve öteki şehirler) Romanya Krallığı oldu.",
+  kaynak:"standart akademik/ansiklopedik (Kingdom of Romania proclamation, 26 Mart 1881 — Hitchins, Rumania 1866-1947) — TDV kapsam dışı, gün kaynakta AÇIKÇA veriliyor, veriyle birebir örtüşüyor · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): archontology.org Romania polity (Romania Official Gazette No. 60, 15/27 Mar 1881, p. 1809), https://archontology.org/nations/romania/01_polity.php ; TDV 'Romanya', https://islamansiklopedisi.org.tr/romanya" },
 
 // ── 5. ADAMAVA'NIN ALMAN-İNGİLİZ PAYLAŞIMI ───────────────────────────
 { t:"1901-09-02", b:"Adamava Emirliği Almanya ile İngiltere arasında paylaşıldı", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Garua (Garoua)",
   etiket:["askeri","toprak-kayip","konu-askeri"],
-  d:"Sokoto Halifeliği'ne tâbi Adamava (Fombina) Emirliği, Alman ve İngiliz sömürge kuvvetlerinin 1899-1901 seferleri sonunda ikiye bölündü: doğu kesimi (Garua, Banyo, Marua, Ngaunder dahil) Alman Kamerun'a, batı kesimi (başşehir Yola) İngiliz Kuzey Nijerya'ya katıldı; Emir Zübeyr sürgüne gönderildi.",
-  kaynak:"standart akademik/ansiklopedik (Adamawa Wars 1899-1907, Anglo-German partition 1901; Emir Zübeyr'in Kasım 1901'de Garua yakınında bozguna uğraması — Wikipedia 'Adamawa Emirate'/'Adamawa Wars') — TDV kapsam dışı; kaynak yalnız 1901 YILINI doğruluyor, AY/GÜN kaynaksız — veri kaydının kendi günü (1901-09-02) devralındı" },
+  d:"Sokoto Halifeliği'ne tâbi Adamava (Fombina) Emirliği, Alman ve İngiliz sömürge kuvvetlerinin 1899-1901 seferleri sonunda ikiye bölündü: doğu kesimi (Garua, Banyo, Marua, Ngaunder dahil) Alman Kamerun'a, batı kesimi (başşehir Yola) İngiliz Kuzey Nijerya'ya katıldı; Emir Zübeyr sürgüne gönderildi. Bu olayla Rey Buba (Adamava (Alman payı)) Alman Kamerunu idaresine geçti.",
+  kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): https://islamansiklopedisi.org.tr/kamerun; https://islamansiklopedisi.org.tr/adamava · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Adamawa Wars 1899-1907, Anglo-German partition 1901; Emir Zübeyr'in Kasım 1901'de Garua yakınında bozguna uğraması — Wikipedia 'Adamawa Emirate'/'Adamawa Wars') — TDV k" },
 
 // ── 6. UBANGİ-ŞARİ'NİN FRANSIZ İSTİLASI ──────────────────────────────
 { t:"1903-01-01", b:"Fransız kuvvetleri Ubangi-Şari'nin iç kesimlerini (Bambari-Bria hattı) ele geçirdi", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Bambari",
@@ -9372,8 +9372,8 @@ window.OLAYLAR_2S_0918 = [
 // ── 8. AHAL TEKKE / TÜRKMEN BÖLGESİNİN RUSYA'YA DÜŞÜŞÜ ───────────────
 { t:"1881-01-24", b:"Göktepe Muharebesi — Ahal Tekke Türkmenleri Rusya'ya yenildi", tur:"savas", onem:4, dunya:3, kapsam:"dis", yer_id:"Dihistan ovası (Meşhed-i Misriyân)",
   etiket:["askeri","savas","konu-askeri"],
-  d:"General Mihail Skobelev komutasındaki Rus kuvvetleri, 24 Ocak 1881'de Göktepe (Geok Tepe) kalesini düşürerek Ahal Tekke Türkmenlerinin direnişini kırdı; Dihistan ovası, Ebîverd ve Nesâ dahil Hazar ötesi Türkmen bölgesi Rus İmparatorluğu'na katılma sürecine girdi (Transhazar Bölgesi 1881'de kuruldu).",
-  kaynak:"standart akademik/ansiklopedik (Battle of Geok Tepe, 24 Ocak 1881 — Britannica 'Battle of Gökdepe', Edgar, Tribal Nation) — TDV kapsam dışı; veri 1881-01-30 taşıyor, kaynak 24 Ocak diyor — 6 GÜNLÜK FARK bildiriliyor, veri kaydı gözden geçirilmeli" },
+  d:"General Mihail Skobelev komutasındaki Rus kuvvetleri, 24 Ocak 1881'de Göktepe (Geok Tepe) kalesini düşürerek Ahal Tekke Türkmenlerinin direnişini kırdı; Dihistan ovası, Ebîverd ve Nesâ dahil Hazar ötesi Türkmen bölgesi Rus İmparatorluğu'na katılma sürecine girdi (Transhazar Bölgesi 1881'de kuruldu). Bu olayla Kızılarvat ve Aşkabad (Ahal Türkmen toprakları) Rusya'ya geçti.",
+  kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Türkmenistan', tarih bölümü (islamansiklopedisi.org.tr/turkmenistan) — açıldı, okundu ('24 Ocak'ta genel taarruza geçtiler') · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Battle of Geok Tepe, 24 Ocak 1881 — Britannica 'Battle of Gökdepe', Edgar, Tribal Nation) — TDV kapsam dışı; veri 1881-01-30 taşıyor, kaynak 24 Ocak diyor — 6 GÜNLÜK FA" },
 
 // ── 9. DÂRÜ'L-KÛTÎ'NİN FRANSIZLARA DÜŞÜŞÜ ─────────────────────────────
 { t:"1911-01-12", b:"Sultan Mohammed es-Senûsî'nin Dâru'l-Kûtî Sultanlığı Fransız kuvvetlerince ortadan kaldırıldı", tur:"toprak-kayip", onem:3, dunya:2, kapsam:"dis", yer_id:"Ndele (Dâru'l-Kûtî)",
@@ -9385,8 +9385,8 @@ window.OLAYLAR_2S_0918 = [
 // ── 10. ERİTRE'NİN İTALYANLARA DÜŞÜŞÜ ─────────────────────────────────
 { t:"1889-01-01", b:"İtalya, Asmara ve Keren dahil Eritre yaylasını ilhak etti", tur:"toprak-kayip", onem:3, dunya:3, kapsam:"dis", yer_id:"Asmara",
   etiket:["antlasma","toprak-kayip","konu-siyasi"],
-  d:"Habeşistan İmparatoru II. Yohannes'in 1889'da ölümüyle doğan güç boşluğundan yararlanan İtalya, Uccialli (Wuchale) Antlaşması'nın (2 Mayıs 1889) ardından Asmara ve Keren dahil Eritre yaylasını fiilen ilhak etti; 1 Ocak 1890'da resmen 'Eritre' adıyla koloni ilan edildi.",
-  kaynak:"standart akademik/ansiklopedik (Treaty of Wuchale 2 Mayıs 1889, Eritrea colony proclaimed 1 Ocak 1890 — Britannica 'Eritrea/History') — TDV kapsam dışı, GÜN KABA (veri 1889-01-01 taşıyor, gerçek ilhak süreci Mayıs 1889-Ocak 1890 arası — veri kaydı bu geniş pencereyle uyumlu)" },
+  d:"Habeşistan İmparatoru II. Yohannes'in 1889'da ölümüyle doğan güç boşluğundan yararlanan İtalya, Uccialli (Wuchale) Antlaşması'nın (2 Mayıs 1889) ardından Asmara ve Keren dahil Eritre yaylasını fiilen ilhak etti; 1 Ocak 1890'da resmen 'Eritre' adıyla koloni ilan edildi. Bu olayla Kerene İtalya idaresine geçti.",
+  kaynak:"Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): https://islamansiklopedisi.org.tr/eritre · önceki kaynak yasak listede, değiştirildi: standart akademik/ansiklopedik (Treaty of Wuchale 2 Mayıs 1889, Eritrea colony proclaimed 1 Ocak 1890 — Britannica 'Eritrea/History') — TDV kapsam dışı, GÜN KABA (veri 1889-01-01 taşıyor, gerçek ilhak" },
 
 // ── 11. HISNIKEYFÂ EYYÛBÎLERİ'NİN AKKOYUNLULARA DÜŞÜŞÜ ────────────────
 { t:"1462-01-01", b:"Akkoyunlu Uzun Hasan, Hısnıkeyfâ Eyyûbî kolunu ortadan kaldırdı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"Hasankeyf",
@@ -10000,8 +10000,8 @@ window.OLAYLAR_2S_0919 = [
 // KARAR-UYG-1015 (Emre #13) — Güney Afrika: 37 nokta ingiltere → guney-afrika-birligi 1910-05-31
 { t:"1910-05-31", b:"Güney Afrika Birliği kuruldu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Kap (Cape Town)",
   etiket:["siyasi","kurulus","konu-siyasi"], taraflar:["guney-afrika-birligi","ingiltere"],
-  d:"1909 tarihli South Africa Act uyarınca Kap, Natal, Transvaal ve Oranj Nehri kolonileri 31 Mayıs 1910'da Britanya İmparatorluğu'na bağlı Güney Afrika Birliği adıyla birleşti; yürütme merkezi Pretoria, yasama merkezi Cape Town oldu.",
-  kaynak:"Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909) — AYNEN: \"the thirty-first day of May, one thousand nine hundred and ten\" · South Africa Act 1909 md. 18, 23 · TDV `guney-afrika-cumhuriyeti`: \"1910 yılında … Güney Afrika Birliği Devleti'ni kurdular\" · hassasiyet: GÜN" },
+  d:"1909 tarihli South Africa Act uyarınca Kap, Natal, Transvaal ve Oranj Nehri kolonileri 31 Mayıs 1910'da Britanya İmparatorluğu'na bağlı Güney Afrika Birliği adıyla birleşti; yürütme merkezi Pretoria, yasama merkezi Cape Town oldu. Bu birleşmeyle Kap, Natal, Transvaal ve Oranj kolonilerinin şehirleri (Kimberley, Durban, Pietermaritzburg, Potchefstroom, Port Elizabeth vd.) Güney Afrika Birliği’ne geçti.",
+  kaynak:"Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909) — AYNEN: \"the thirty-first day of May, one thousand nine hundred and ten\" · South Africa Act 1909 md. 18, 23 · TDV `guney-afrika-cumhuriyeti`: \"1910 yılında … Güney Afrika Birliği Devleti'ni kurdular\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Güney Afrika Cumhuriyeti' (islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti); US Office of the Historian, South Africa (history.state.gov/countries/south-africa)" },
 
 // KARAR-UYG-1015 — Soyo (Kongo ağzının güney yakası) Portekiz 1885-02-14
 { t:"1885-02-14", b:"Kongo Hür Devleti ile Portekiz sınır sözleşmesi — Kongo ağzının güney yakası Portekiz'e", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Soyo",
@@ -10438,8 +10438,8 @@ window.OLAYLAR_2S0920 = [
   gun:"10 Ağustos 1913", yer:"Kavala, Drama, Serez, Praviște (Eleftheroupoli), Makedonya",
   kisiler:"Bulgaristan, Sırbistan, Yunanistan ve Karadağ murahhasları",
   etiket:["antlasma","toprak-kaybi","konu-siyasi"],
-  d:"İkinci Balkan Savaşı, Bulgaristan ile Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması'yla sona erdi. Birinci savaşta Bulgaristan'ın eline geçen Kavala, Drama ve Serez havzası bu antlaşmayla Yunanistan'a bırakıldı.",
-  kaynak:"TDV `balkan-savasi` — AYNEN: \"II. Balkan Savaşı 10 Ağustos 1913'te Bulgaristan'la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi.\" · hassasiyet: GÜN" },
+  d:"İkinci Balkan Savaşı, Bulgaristan ile Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması'yla sona erdi. Birinci savaşta Bulgaristan'ın eline geçen Kavala, Drama ve Serez havzası bu antlaşmayla Yunanistan'a bırakıldı. Bu antlaşmayla Tutrakan (Turtukaya) Romanya'ya geçti.",
+  kaynak:"TDV `balkan-savasi` — AYNEN: \"II. Balkan Savaşı 10 Ağustos 1913'te Bulgaristan'la Sırbistan, Yunanistan ve Karadağ arasında imzalanan Bükreş Antlaşması ile sona erdi.\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Bükreş Antlaşması 10 Ağustos 1913, md. 2 — Digithèque MJP https://mjp.univ-perp.fr/traites/1913bucarest.htm ; Tudorancea, Historical Yearbook 9 (2012)" },
 
 // =====================================================================
 // 2. PARTİ — ANADOLU · KAFKASYA · ARABİSTAN-KÖRFEZ (11 madde)
@@ -10469,16 +10469,16 @@ window.OLAYLAR_2S0920 = [
   b:"Gürcistan bağımsızlığını ilân etti — Transkafkasya Seymi dağıldı",
   gun:"26 Mayıs 1918", yer:"Kutaisi, Tiflis, Gürcistan",
   kisiler:"Gürcistan Millî Konseyi", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
-  d:"Brest-Litovsk sonrasında kurulan Transkafkasya Seymi'nden çıkan Gürcistan bağımsızlığını ilân etti ve Gürcistan Demokratik Cumhuriyeti kuruldu. Kutaisi ile birlikte batı Gürcistan bu yeni devletin idaresine geçti.",
-  kaynak:"TDV `gurcistan` — AYNEN: \"26 Mayıs 1918 tarihinde bağımsızlığını ilân etti\" · hassasiyet: GÜN" },
+  d:"Brest-Litovsk sonrasında kurulan Transkafkasya Seymi'nden çıkan Gürcistan bağımsızlığını ilân etti ve Gürcistan Demokratik Cumhuriyeti kuruldu. Kutaisi ile birlikte batı Gürcistan bu yeni devletin idaresine geçti. Bu ilanla Sohum, Poti, Zugdidi, Gori, Telavi ve Duşeti Gürcistan Demokratik Cumhuriyeti'ne geçti.",
+  kaynak:"TDV `gurcistan` — AYNEN: \"26 Mayıs 1918 tarihinde bağımsızlığını ilân etti\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Gürcistan' (islamansiklopedisi.org.tr/gurcistan)" },
 
 // ── 1918 · Azerbaycan ────────────────────────────────────────────────
 { t:"1918-05-28", k:"siyaset", onem:3, dunya:3, kapsam:"dis", yer_id:"Gence",
   b:"Azerbaycan Demokratik Cumhuriyeti ilân edildi",
   gun:"28 Mayıs 1918", yer:"Gence, Bakü, Azerbaycan, Revan",
   kisiler:"Azerbaycan Millî Şûrası", etiket:["siyasi","toprak-kaybi","konu-siyasi"],
-  d:"Gürcistan'ın ayrılmasından iki gün sonra Azerbaycan Demokratik Cumhuriyeti ilân edildi; ilk merkez Gence oldu. Aynı gün Revan'da Ermenistan Cumhuriyeti de kuruldu ve Transkafkasya üç ayrı devlete bölündü.",
-  kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI" },
+  d:"Gürcistan'ın ayrılmasından iki gün sonra Azerbaycan Demokratik Cumhuriyeti ilân edildi; ilk merkez Gence oldu. Aynı gün Revan'da Ermenistan Cumhuriyeti de kuruldu ve Transkafkasya üç ayrı devlete bölündü. Bu ilanla Şamahı, Kabala, Ereş, Şâbüran, Salyan, Kuba, Şeki ve Berde Azerbaycan Demokratik Cumhuriyeti'ne geçti.",
+  kaynak:"TDV `azerbaycan` — AYNEN: \"28 Mayıs 1918'de Azerbaycan Demokratik Cumhuriyeti ilân edildi\" · hassasiyet: GÜN · Revan/Ermenistan kolu için TDV kaynağı BULUNAMADI: `ermenistan` slug'ı ÖLÜ (302) ve `gurcistan` maddesi Ermenistan ile Azerbaycan'ın ilân tarihlerini vermiyor. Aynı gün ilânı metinde yazıldı, TDV'ye DAYANDIRILMADI · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan' (islamansiklopedisi.org.tr/azerbaycan)" },
 
 // ── 1918 · Halep ─────────────────────────────────────────────────────
 { t:"1918-10-27", k:"isgal", onem:4, dunya:4, kapsam:"dis", yer_id:"Halep",
@@ -10493,8 +10493,8 @@ window.OLAYLAR_2S0920 = [
   b:"Kızıl Ordu Azerbaycan'ı işgal etti — Demokratik Cumhuriyet'in sonu",
   gun:"27 Nisan 1920", yer:"Bakü, Gence, Azerbaycan",
   kisiler:"Kızıl Ordu", etiket:["askeri","toprak-kaybi","konu-askeri"],
-  d:"Kızıl Ordu Azerbaycan'a girerek parlamento ve hükümeti feshetti; iki yıllık Azerbaycan Demokratik Cumhuriyeti sona erdi. Bakü'nün petrol havzası ile Gence böylece Sovyet idaresine geçti.",
-  kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN" },
+  d:"Kızıl Ordu Azerbaycan'a girerek parlamento ve hükümeti feshetti; iki yıllık Azerbaycan Demokratik Cumhuriyeti sona erdi. Bakü'nün petrol havzası ile Gence böylece Sovyet idaresine geçti. Bu işgalle Şamahı, Kabala, Ereş, Şâbüran, Salyan, Kuba, Şeki ve Berde Sovyet Rusya denetimine geçti.",
+  kaynak:"TDV `azerbaycan` — AYNEN: \"27 Nisan 1920'de Azerbaycan'ı işgal eden Kızıl Ordu parlamento ve hükümeti feshederek Azerbaycan Demokratik Cumhuriyeti'ne son verdi\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Azerbaycan'" },
 
 // ── 1920 · Meyselûn ──────────────────────────────────────────────────
 { t:"1920-07-24", k:"savas", onem:4, dunya:4, kapsam:"dis", yer_id:"Şam",
@@ -10652,7 +10652,7 @@ window.OLAYLAR_SESSIZBORC0919 = [
 
 { t:"1525-04-08", k:"antlasma", kapsam:"dis", etiket:["antlasma","diplomasi","konu-diplomasi"], b:"Kraków Barışı — Cermen tarikatı devleti Prusya Dükalığı'na dönüştü", gun:"8 Nisan 1525", yer:"Kraków; Prusya — Königsberg", yer_id:"Königsberg", kisiler:"Brandenburglu Albrecht, I. Zygmunt", d:"Cermen Şövalyeleri'nin büyük üstadı Brandenburglu Albrecht, Polonya'ya karşı yardım bulamayınca Kraków Barışı'nı imzaladı. Tarikat devleti (Ordensstaat) Polonya'nın metbûluğu altında, Brandenburg hanedanına geçen irsî ve dünyevî bir dükalık oldu. Merkez Königsberg'di; Albrecht 1544'te burada Albertus Üniversitesi'ni kurdu. Dükalık 1701'de Prusya Krallığı'na dönüştü.", kaynak:"NDB 'Albrecht' (deutsche-biographie.de/sfz56560): 'mußte er am 8.4.1525 unter Vermittlung von Brandenburg-Ansbach und Liegnitz den Frieden zu Krakau eingehen, der Preußen als ein erbliches weltliches Herzogtum den Brandenburgern beließ, jedoch unter polnische Lehnshoheit.' · 'Begründung der Königsberger Albertus-Universität am 17.8.1544'" },
 
-{ t:"1918-11-12", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin sonu", gun:"12 Kasım 1918", yer:"Viyana", yer_id:"Viyana", kisiler:"İmparator I. Karl", d:"İmparator I. Karl'ın 11 Kasım'da devlet işlerinden elini çekmesinin ertesi günü Geçici Millî Meclis devlet ve hükümet şekli hakkındaki kanunu kabul etti ve cumhuriyet ilân edildi. Habsburg Avusturyası'nın yerini Viyana merkezli Birinci Cumhuriyet aldı.", kaynak:"Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik): 'Am 12. November 1918 wird in Österreich die Erste Republik ausgerufen.' · '11. November 1918: Kaiser Karl I. erklärt sich unter dem Druck der Ereignisse bereit, auf eine Teilhabe an den Regierungsgeschäften zu verzichten' · TDV avusturya (1804-1867 Avusturya İmparatorluğu, 1867-1918 Avusturya-Macaristan)", ic_not_kaynak:"TDV avusturya imparatorun devlet işlerinden çekilişini 18 Kasım diye verir ('İmparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla'); Parlament Österreich 11 Kasım 1918 der. Avusturya anayasa hukuku olayında kurumun kendi kaydı esas alınmıştır — §4'ün TDV önceliği 'İslâm dünyası, Osmanlı ve komşuları' içindir (koordinatör hükmü, 5 Ekim 2026). Aynı olayı 18 Kasım'a koyan olaylar_ok109.js maddesi mükerrer olduğu için kaldırıldı (ONCE1281-OK109-UYGULA-1004).",
+{ t:"1918-11-12", k:"siyaset", kapsam:"dis", etiket:["siyaset","konu-siyasi"], b:"Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin sonu", gun:"12 Kasım 1918", yer:"Viyana", yer_id:"Viyana", kisiler:"İmparator I. Karl", d:"İmparator I. Karl'ın 11 Kasım'da devlet işlerinden elini çekmesinin ertesi günü Geçici Millî Meclis devlet ve hükümet şekli hakkındaki kanunu kabul etti ve cumhuriyet ilân edildi. Habsburg Avusturyası'nın yerini Viyana merkezli Birinci Cumhuriyet aldı. Bu ilânla Viyana, Linz, Salzburg, Innsbruck, Klagenfurt, Bregenz ve öteki Alman-Avusturya şehirleri Avusturya Cumhuriyeti'nin (Deutschösterreich) toprağı oldu.", kaynak:"Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik): 'Am 12. November 1918 wird in Österreich die Erste Republik ausgerufen.' · '11. November 1918: Kaiser Karl I. erklärt sich unter dem Druck der Ereignisse bereit, auf eine Teilhabe an den Regierungsgeschäften zu verzichten' · TDV avusturya (1804-1867 Avusturya İmparatorluğu, 1867-1918 Avusturya-Macaristan) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Parlament Österreich, 'Geburt der Republik' (parlament.gv.at/verstehen/historisches/1918-1945/geburt-der-republik)", ic_not_kaynak:"TDV avusturya imparatorun devlet işlerinden çekilişini 18 Kasım diye verir ('İmparatorun 18 Kasım'da devlet işlerinden çekildiğini açıklamasıyla'); Parlament Österreich 11 Kasım 1918 der. Avusturya anayasa hukuku olayında kurumun kendi kaydı esas alınmıştır — §4'ün TDV önceliği 'İslâm dünyası, Osmanlı ve komşuları' içindir (koordinatör hükmü, 5 Ekim 2026). Aynı olayı 18 Kasım'a koyan olaylar_ok109.js maddesi mükerrer olduğu için kaldırıldı (ONCE1281-OK109-UYGULA-1004).",
   alt_kutu:[9.4, 42.3, 26.8, 51.3],
   alt_kronoloji:[
     { t:"1918-10-28", b:"Prag: Çekoslovak devleti ilan edildi — Bohemya, Moravya, Silezya ayrıldı", d:"Prag'daki Çekoslovak Ulusal Komitesi bağımsız devleti ilan etti ve kuruluş kanununu çıkardı. Bohemya, Moravya ve Avusturya Silezyası monarşiden koptu; Slovakya'nın katılımı iki gün sonra Martin bildirisiyle geldi.", yer_kon:[50.087, 14.421], kaynak:"Zákon č. 11/1918 Sb. (28 Ekim 1918) — Çekoslovak devletinin kuruluş kanunu" },

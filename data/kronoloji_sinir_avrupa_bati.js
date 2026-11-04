@@ -189,8 +189,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Paris"], t:"1801-02-09", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","almanya"], sinir_id:"dg5-fr-de-2",
   b:"Lunéville Antlaşması — Ren'in sol yakası Fransa'ya", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","almanya","habsburg"],
-  d:"Fransa ile Kutsal Roma İmparatorluğu arasındaki Lunéville Antlaşması, Ren'in sol yakasını Fransa'ya bıraktı ve Fransa–Almanya sınırını Ren nehrine taşıdı. Bu hat 1814'e kadar sürdü; bugünkü sınırın yalnız Alsas kesimindeki Ren parçası onunla çakışır, geri kalanının koordinatı haritada yoktur.",
-  kaynak:"Lunéville Antlaşması metni (Digithèque MJP, 1801luneville)" },
+  d:"Fransa ile Kutsal Roma İmparatorluğu arasındaki Lunéville Antlaşması, Ren'in sol yakasını Fransa'ya bıraktı ve Fransa–Almanya sınırını Ren nehrine taşıdı. Bu hat 1814'e kadar sürdü; bugünkü sınırın yalnız Alsas kesimindeki Ren parçası onunla çakışır, geri kalanının koordinatı haritada yoktur. Bu antlaşmayla Ren'in sol yakası (Köln, Aachen, Koblenz, Trier) Fransa'ya geçti.",
+  kaynak:"Lunéville Antlaşması metni (Digithèque MJP, 1801luneville) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Traité de Lunéville, 9 février 1801, md. VI — Digithèque MJP (mjp.univ-perp.fr/traites/1801luneville.htm)" },
 
 { odak_yer:["Badajoz","İspanya"], t:"1801-06-06", devlet:"ispanya", devletler:["ispanya","portekiz"], sinir_id:"d1923-es-pt-olivenza",
   b:"Badajoz Antlaşması — Olivenza İspanya'ya geçti, Guadiana fiilî sınır oldu", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"",
@@ -207,8 +207,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Paris"], t:"1810-07-09", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","hollanda"], sinir_id:"dg5-nl-de",
   b:"Holland Krallığı'nın Fransa'ya ilhakı (Rambouillet Kararnamesi)", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","konu-siyasi","fransa-cumhuriyet","hollanda","almanya"],
-  d:"Rambouillet Kararnamesi'yle Holland Krallığı Fransa'ya katıldı. Hollanda'nın Alman devletleriyle olan sınırı böylece Fransa'nın sınırı oldu.",
-  kaynak:"parlement.com 'Koninkrijk Holland (1806-1810)' (Montesquieu Instituut)" },
+  d:"Rambouillet Kararnamesi'yle Holland Krallığı Fransa'ya katıldı. Hollanda'nın Alman devletleriyle olan sınırı böylece Fransa'nın sınırı oldu. Rambouillet Kararnamesi'yle Amsterdam, Rotterdam, Lahey, Utrecht, Haarlem, Dordrecht, Groningen, Leeuwarden ve Enschede (Holland Krallığı) Fransa'ya ilhak edildi.",
+  kaynak:"parlement.com 'Koninkrijk Holland (1806-1810)' (Montesquieu Instituut) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Parlement.com (Montesquieu Instituut), 'Koninkrijk Holland (1806-1810)', https://www.parlement.com/id/vh8lnhrp8wtc/koninkrijk_holland_1806_1810" },
 
 { odak_yer:["Paris"], t:"1810-11-12", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"dg5-sa-ch-3",
   b:"Valais'nin Simplon departmanı olarak Fransa'ya katılması", tur:"toprak-kazanc", onem:2, dunya:2, kapsam:"dis", yer_id:"",
@@ -219,8 +219,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1814-05-30", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","isvicre"], sinir_id:"d1923-fr-ch",
   b:"Birinci Paris Antlaşması — Fransa–İsviçre sınırının bugünkü hattı", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"Paris",
   etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","isvicre","sardinya-piyemonte"],
-  d:"Napolyon'un yenilgisinden sonra imzalanan Birinci Paris Antlaşması Fransa'nın sınırlarını yeniden çizdi ve İsviçre Konfederasyonu'nun bağımsızlığını bugünküne büyük ölçüde benzeyen sınırlarla tanıdı. 1815 bildirisi, 1818 Bern sözleşmesi ve 1824 Neuchâtel tutanağı hattı tamamladı; 1862 Dappes takası dışında bu hat yaklaşık 140 yıl değişmedi. ABD Dışişleri çalışması antlaşmanın gününü bir yerde 20 Mayıs olarak veriyor; İsviçre Tarih Sözlüğü 30 Mayıs diyor.",
-  kaynak:"IBS No. 11 France–Switzerland · HLS 'Pariser Frieden' · Digithèque MJP (1814paris)" },
+  d:"Napolyon'un yenilgisinden sonra imzalanan Birinci Paris Antlaşması Fransa'nın sınırlarını yeniden çizdi ve İsviçre Konfederasyonu'nun bağımsızlığını bugünküne büyük ölçüde benzeyen sınırlarla tanıdı. 1815 bildirisi, 1818 Bern sözleşmesi ve 1824 Neuchâtel tutanağı hattı tamamladı; 1862 Dappes takası dışında bu hat yaklaşık 140 yıl değişmedi. ABD Dışişleri çalışması antlaşmanın gününü bir yerde 20 Mayıs olarak veriyor; İsviçre Tarih Sözlüğü 30 Mayıs diyor. Bu antlaşmayla Nice (Kont Nice, 1792 sınırı dışında) Fransa'dan ayrıldı; Hulst (deniz–Meuse arası topraklar) Hollanda'ya geçti.",
+  kaynak:"IBS No. 11 France–Switzerland · HLS 'Pariser Frieden' · Digithèque MJP (1814paris) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Birinci Paris Antlaşması 30 Mayıs 1814, md. 2-3, 6 ve gizli md. 3 — Digithèque MJP https://mjp.univ-perp.fr/traites/1814paris.htm" },
 
 // ── G4 (1815-06-09 → 1878-07-13) ────────────────────────────────────
 // Başka dosyada ZATEN bulunan G4 maddeleri yazılmadı: Viyana 1815 · Londra 1839 · Villafranca ve Zürih 1859 ·
@@ -230,8 +230,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Paris"], t:"1815-11-20", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","almanya"], sinir_id:"dg4-fr-de-1815",
   b:"İkinci Paris Antlaşması — Fransa'nın doğu sınırı 1790 hattına yakın biçimde daraltıldı", tur:"antlasma", onem:4, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","fransa-cumhuriyet","almanya","sardinya-piyemonte"],
-  d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı.", ic_not_d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı; haritada 1815-1871 Fransa–Almanya hattı bu yüzden çizilmiyor.",
-  kaynak:"HLS 'Pariser Frieden' (30 Mayıs 1814 ve 20 Kasım 1815) · IBS No. 12 (1814'te Savoy'un bir kısmı Fransa'ya)" },
+  d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı. Bu antlaşmayla Chambéry (Savoie) Sardinya'ya geri verildi.", ic_not_d:"Waterloo'dan sonra imzalanan İkinci Paris Antlaşması, 1814 Birinci Paris Antlaşması'nın çizdiği Fransa sınırını yeniden düzenledi; 1814'te Fransa'ya bırakılan Savoy kısmı da bu düzenlemenin konusuydu. Bu hattın 1870'e kadar aynen sürüp sürmediğini açıkça söyleyen bir kaynak bulunamadı; haritada 1815-1871 Fransa–Almanya hattı bu yüzden çizilmiyor.",
+  kaynak:"HLS 'Pariser Frieden' (30 Mayıs 1814 ve 20 Kasım 1815) · IBS No. 12 (1814'te Savoy'un bir kısmı Fransa'ya) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): İkinci Paris Antlaşması 20 Kasım 1815, md. 1 §4 — Digithèque MJP https://mjp.univ-perp.fr/traites/1815paris.htm" },
 
 { odak_yer:["Cenevre","Torino"], t:"1816-03-16", devlet:"isvicre", devletler:["isvicre","sardinya-piyemonte"], sinir_id:"dg4-sa-ch-cenevre",
   b:"Torino Antlaşması — Savoy'dan Cenevre'ye bırakılan komünler ve Cenevre–Savoy sınırı", tur:"antlasma", onem:2, dunya:1, kapsam:"dis", yer_id:"",
@@ -260,8 +260,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1830-10-04", devlet:"belcika", devletler:["belcika","hollanda"], sinir_id:"dg4-be-fr-fiili",
   b:"Belçika'nın bağımsızlık ilanı — Fransa sınırı fiilen Belçika'nın oldu", tur:"kurulus", onem:4, dunya:4, kapsam:"dis", yer_id:"Brüksel",
   etiket:["sinir","konu-siyasi","belcika","hollanda","fransa-cumhuriyet"],
-  d:"Brüksel'deki geçici hükûmet Belçika'nın Birleşik Hollanda Krallığı'ndan ayrıldığını ilan etti. Birleşik Hollanda'nın Fransa ile 1820'de çizilen sınırı fiilen yeni devletin sınırı oldu. Hukukî sınır ve uluslararası kabul 1839 Londra Antlaşması'yla geldi.",
-  kaynak:"Belçika Devlet Arşivi (arch.be) ve Wallonie portalı (4 Ekim 1830) · Nationaal Archief ve parlement.com (Londra 19 Nisan 1839)" },
+  d:"Brüksel'deki geçici hükûmet Belçika'nın Birleşik Hollanda Krallığı'ndan ayrıldığını ilan etti. Birleşik Hollanda'nın Fransa ile 1820'de çizilen sınırı fiilen yeni devletin sınırı oldu. Hukukî sınır ve uluslararası kabul 1839 Londra Antlaşması'yla geldi. Bağımsızlık ilanıyla Brugge, Gent, Ypres, Anvers, Leuven, Mons, Tournai ve Roermond (Belçika vilayetleri) Belçika'nın oldu.",
+  kaynak:"Belçika Devlet Arşivi (arch.be) ve Wallonie portalı (4 Ekim 1830) · Nationaal Archief ve parlement.com (Londra 19 Nisan 1839) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): archontology.org Belgium polity (Bulletin officiel No. 4, 8 Oct 1830, p. 3), https://archontology.org/nations/belgium/01_polity.php" },
 
 { odak_yer:["Bayonne"], t:"1856-12-02", devlet:"fransa-cumhuriyet", devletler:["fransa-cumhuriyet","ispanya"], sinir_id:"d1923-fr-es-bati",
   b:"Bayonne Antlaşması — Pirenelerde Bidasoa'dan Navarra'ya sınırın ayrıntılı çizimi", tur:"antlasma", onem:3, dunya:2, kapsam:"dis", yer_id:"",
@@ -369,8 +369,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Berlin"], t:"1920-01-10", devlet:"belcika", devletler:["belcika","almanya"], sinir_id:"d1923-be-de",
   b:"Versay Antlaşması ile Eupen-Malmedy ve Tarafsız Moresnet Belçika'ya geçti", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","belcika","almanya"],
-  d:"Versay Antlaşması'nın 32-34. maddeleri 1816'dan beri ortak yönetilen Tarafsız Moresnet'i ve Eupen ile Malmedy bölgelerini Belçika'ya bıraktı. 35. madde yedi üyeli bir komisyonu yeni hattı yerinde belirlemekle görevlendirdi. Komisyon raporunu 6 Kasım 1922'de Aachen'de tamamladı; Raeren–Kalterherberg demiryolu hattı Belçika'ya bırakıldı. Eupen-Malmedy'nin kesin devrine ilişkin Milletler Cemiyeti kararının günü okunabilir bir kaynakta bulunamadı.",
-  kaynak:"Versay md. 32-35 (Avalon) · IBS No. 7 Belgium–Germany" },
+  d:"Versay Antlaşması'nın 32-34. maddeleri 1816'dan beri ortak yönetilen Tarafsız Moresnet'i ve Eupen ile Malmedy bölgelerini Belçika'ya bıraktı. 35. madde yedi üyeli bir komisyonu yeni hattı yerinde belirlemekle görevlendirdi. Komisyon raporunu 6 Kasım 1922'de Aachen'de tamamladı; Raeren–Kalterherberg demiryolu hattı Belçika'ya bırakıldı. Eupen-Malmedy'nin kesin devrine ilişkin Milletler Cemiyeti kararının günü okunabilir bir kaynakta bulunamadı. Bu antlaşmayla St. Vith (Malmedy Kreis'ı) Belçika'ya geçti.",
+  kaynak:"Versay md. 32-35 (Avalon) · IBS No. 7 Belgium–Germany · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Versay Antlaşması md. 34 — Avalon Project https://avalon.law.yale.edu/imt/partiii.asp" },
 
 { odak_yer:["Tarvis","İtalya"], t:"1920-01-01", devlet:"italya", devletler:["italya","avusturya-cumhuriyet"], sinir_id:"d1923-it-at",
   b:"Saint-Germain Antlaşması yürürlüğe girdi — Güney Tirol ve Tarvis İtalya'ya", tur:"toprak-kazanc", onem:5, dunya:4, kapsam:"dis", yer_id:"",
@@ -387,14 +387,14 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { odak_yer:["Danimarka","Almanya"], t:"1920-07-05", devlet:"danimarka", devletler:["danimarka","almanya"], sinir_id:"d1923-dk-de",
   b:"Kuzey Schleswig Danimarka'ya geçti — yeni Danimarka–Almanya sınırı", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","plebisit","konu-siyasi","danimarka","almanya"],
-  d:"Versay Antlaşması'nın 109-114. maddeleri Schleswig'de halk oylaması öngördü. Birinci bölge 10 Şubat 1920'de Danimarka'yı seçti. Başlıca Müttefik Devletler ile Danimarka arasında 5 Temmuz 1920'de Paris'te imzalanan antlaşmayla Kuzey Schleswig Danimarka'ya geçti ve 1864 Viyana Antlaşması'nın Kongeå hattı yerini yeni sınıra bıraktı. Versay'ın 111. maddesiyle kurulan komisyon hattı Temmuz 1920 – Mayıs 1921 arasında 1:5.000 ölçekli 18 paftada işaretledi. Hat o günden beri değişmedi.",
-  kaynak:"IBS No. 81 Denmark–Germany (Viyana 1864, halk oylaması, Paris 5 Temmuz 1920, komisyon haritaları)" },
+  d:"Versay Antlaşması'nın 109-114. maddeleri Schleswig'de halk oylaması öngördü. Birinci bölge 10 Şubat 1920'de Danimarka'yı seçti. Başlıca Müttefik Devletler ile Danimarka arasında 5 Temmuz 1920'de Paris'te imzalanan antlaşmayla Kuzey Schleswig Danimarka'ya geçti ve 1864 Viyana Antlaşması'nın Kongeå hattı yerini yeni sınıra bıraktı. Versay'ın 111. maddesiyle kurulan komisyon hattı Temmuz 1920 – Mayıs 1921 arasında 1:5.000 ölçekli 18 paftada işaretledi. Hat o günden beri değişmedi. Bu devirle Haderslev, Aabenraa, Sønderborg ve Tønder (Kuzey Schleswig, 1. bölge) Danimarka'ya geçti.",
+  kaynak:"IBS No. 81 Denmark–Germany (Viyana 1864, halk oylaması, Paris 5 Temmuz 1920, komisyon haritaları) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): International Boundary Study No. 81, Denmark–Germany (ABD Dışişleri, 1968), s. 8-9 (library.law.fsu.edu/Digital-Collections/LimitsinSeas/pdf/ibs081.pdf)" },
 
 { odak_yer:["İtalya","Fiume"], t:"1920-11-12", devlet:"italya", devletler:["italya","yugoslavya"], sinir_id:"d1923-it-shs",
   b:"Rapallo Antlaşması — İtalya ile SHS Krallığı arasında Julian Alpleri sınırı ve Fiume Serbest Devleti", tur:"antlasma", onem:5, dunya:4, kapsam:"dis", yer_id:"",
   etiket:["sinir","antlasma","konu-siyasi","italya","yugoslavya"],
-  d:"İtalya ile Sırp-Hırvat-Sloven Krallığı Rapallo'da doğu sınırlarını belirledi. Hat Peč'ten Julian Alplerinin su bölümüyle Castua'ya indi. Zara (Zadar) md. 2 ile İtalya'ya bırakılarak bir anklav oldu; md. 3 Cherso (Cres) ve Lussin adalarını, Lagosta ve Pelagosa'yı İtalya'ya, eski Avusturya-Macaristan'ın öteki bütün adalarını SHS Krallığı'na bıraktı; Fiume serbest devlet ilan edildi; hattı yerinde çizmek için karma bir komisyon kuruldu. Bu hattın koordinatı haritada yoktur: 1947 Paris Antlaşması'yla neredeyse tamamı ortadan kalktı. Antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı.",
-  kaynak:"Rapallo Antlaşması md. 1-5 (LNTS c.18 s.397-403, forost.ungarisches-institut.de kopyası) · İtalya ile Barış Antlaşması 1947 md. 3 (UK TS 1948/50)" },
+  d:"İtalya ile Sırp-Hırvat-Sloven Krallığı Rapallo'da doğu sınırlarını belirledi. Hat Peč'ten Julian Alplerinin su bölümüyle Castua'ya indi. Zara (Zadar) md. 2 ile İtalya'ya bırakılarak bir anklav oldu; md. 3 Cherso (Cres) ve Lussin adalarını, Lagosta ve Pelagosa'yı İtalya'ya, eski Avusturya-Macaristan'ın öteki bütün adalarını SHS Krallığı'na bıraktı; Fiume serbest devlet ilan edildi; hattı yerinde çizmek için karma bir komisyon kuruldu. Bu hattın koordinatı haritada yoktur: 1947 Paris Antlaşması'yla neredeyse tamamı ortadan kalktı. Antlaşmanın yürürlük günü okunabilir bir kaynakta bulunamadı. Bu antlaşmayla Krk, Rab, Pag, Uzunada, Hvar, Korçula, Vis ve Mliyet adaları SHS Krallığı'na; Lošinj ve Lastovo İtalya'ya geçti.",
+  kaynak:"Rapallo Antlaşması md. 1-5 (LNTS c.18 s.397-403, forost.ungarisches-institut.de kopyası) · İtalya ile Barış Antlaşması 1947 md. 3 (UK TS 1948/50) · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Traité de Rapallo (12.11.1920) — Digithèque MJP, Université de Perpignan, https://mjp.univ-perp.fr/traites/1920rapallo.htm" },
 
 { odak_yer:["Helsinki"], t:"1920-12-31", devlet:"finlandiya", devletler:["finlandiya","norvec"], sinir_id:"d1923-fi-no-petsamo",
   b:"Tartu Barışı yürürlüğe girdi — Petsamo Finlandiya'ya geçti, Norveç'le yeni sınır", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis", yer_id:"",
@@ -405,8 +405,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1922-12-06", devlet:"irlanda-serbest-devlet", devletler:["irlanda-serbest-devlet","ingiltere"], sinir_id:"d1923-ie-gb",
   b:"İrlanda Serbest Devleti kuruldu — Kuzey İrlanda ile sınır uluslararası sınır oldu", tur:"kurulus", onem:5, dunya:4, kapsam:"dis", yer_id:"Dublin",
   etiket:["sinir","antlasma","konu-siyasi","irlanda-serbest-devlet","ingiltere"],
-  d:"İngiliz-İrlanda Antlaşması'nı uygulayan 1922 Anayasası, ilanın en geç 6 Aralık 1922'de yapılmasını şart koştu. Sınır, 1920 İrlanda Hükûmeti Yasası'nın Kuzey İrlanda'ya ayırdığı altı kontluğun sınırıydı. Antlaşmanın 12. maddesi sınırın bir komisyonca düzeltilebileceğini öngörüyordu. 1923'te bu komisyon henüz kurulmamıştı; 1925 anlaşması onun yetkisini kaldırıp hattı olduğu gibi sabitledi. İlanın kesin günü kaynakta geçmiyor.",
-  kaynak:"Constitution of the Irish Free State Act 1922, md. 83 ve Antlaşma md. 11-12 (irishstatutebook.ie) · Government of Ireland Act 1920 s.1(2) (legislation.gov.uk) · Treaty (Confirmation of Amending Agreement) Act 1925" },
+  d:"İngiliz-İrlanda Antlaşması'nı uygulayan 1922 Anayasası, ilanın en geç 6 Aralık 1922'de yapılmasını şart koştu. Sınır, 1920 İrlanda Hükûmeti Yasası'nın Kuzey İrlanda'ya ayırdığı altı kontluğun sınırıydı. Antlaşmanın 12. maddesi sınırın bir komisyonca düzeltilebileceğini öngörüyordu. 1923'te bu komisyon henüz kurulmamıştı; 1925 anlaşması onun yetkisini kaldırıp hattı olduğu gibi sabitledi. İlanın kesin günü kaynakta geçmiyor. Serbest Devlet'in kuruluşuyla Cork, Limerick, Galway, Waterford, Sligo, Donegal ve öteki güney kontlukları İrlanda Serbest Devleti'ne geçti.",
+  kaynak:"Constitution of the Irish Free State Act 1922, md. 83 ve Antlaşma md. 11-12 (irishstatutebook.ie) · Government of Ireland Act 1920 s.1(2) (legislation.gov.uk) · Treaty (Confirmation of Amending Agreement) Act 1925 · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): archontology.org Ireland polity (Ireland State Gazette Extra No. 94, 6 Dec 1922; London Gazette No. 32775), https://archontology.org/nations/eire/01_polity.php" },
 
 // ── KUTU-F1-1014 — İtalya / Alpler / Ren / Comtat (Emre kutu 0078 H-0004 · 0082 H-0048/49/52/53/79 · 0083 H-0007 · 0088 H-0003)
 // Her madde bir yerleşim kırılmasına bağlıdır (yer_id). Gün vermeyen kaynakta YYYY-01-01 + kesinlik:"yil".
@@ -551,8 +551,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1815-06-09", devlet:"prusya", devletler:["prusya","almanya"], sinir_id:"",
   b:"Ren Eyaleti ve Vestfalya Prusya'ya, Valtellina Avusturya'ya, Lucca Bourbon-Parma'ya geçti", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Köln",
   etiket:["sinir","antlasma","konu-siyasi","prusya","avusturya","lucca-dukaligi"],
-  d:"Viyana Kongresi'nin 9 Haziran 1815 Nihai Senedi Ren'in iki yakasındaki toprakları (Köln, Aachen, Trier, Koblenz, Düsseldorf) ve Vestfalya'yı (Münster, Dortmund) Prusya'ya verdi; Prusya Ren topraklarını fiilen 5 Nisan 1815'te devralmış, Vestfalya zilyetlik patentini 21 Haziran'da yayımlamıştı. Erfurt da Prusya'ya döndü. Aynı senetle Valtellina, Chiavenna ve Bormio Avusturya'nın Lombardiya-Venedik Krallığı'na, Lucca ise dükalık olarak Bourbon-Parma hanedanına bırakıldı.",
-  kaynak:"Viyana Kongresi Nihai Senedi (9 Haziran 1815) · dilibri RLB (Ren, 5 Nisan 1815) · Preußische Gesetzsammlung 1815 No. 303 (his-data.de) · HLS «Veltlin» · künye lucca-dukaligi" },
+  d:"Viyana Kongresi'nin 9 Haziran 1815 Nihai Senedi Ren'in iki yakasındaki toprakları (Köln, Aachen, Trier, Koblenz, Düsseldorf) ve Vestfalya'yı (Münster, Dortmund) Prusya'ya verdi; Prusya Ren topraklarını fiilen 5 Nisan 1815'te devralmış, Vestfalya zilyetlik patentini 21 Haziran'da yayımlamıştı. Erfurt da Prusya'ya döndü. Aynı senetle Valtellina, Chiavenna ve Bormio Avusturya'nın Lombardiya-Venedik Krallığı'na, Lucca ise dükalık olarak Bourbon-Parma hanedanına bırakıldı. Bu senetle Ferrara, Bolonya ve Ravenna legasyonları Papalık'a döndü.",
+  kaynak:"Viyana Kongresi Nihai Senedi (9 Haziran 1815) · dilibri RLB (Ren, 5 Nisan 1815) · Preußische Gesetzsammlung 1815 No. 303 (his-data.de) · HLS «Veltlin» · künye lucca-dukaligi · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Acte final du Congrès de Vienne, 9 juin 1815, md. 103 — Digithèque MJP (mjp.univ-perp.fr/traites/1815vienne2.htm)" },
 
 { t:"1328-01-01", kesinlik:"yil", devlet:"lucca-cumhuriyeti", devletler:["lucca-cumhuriyeti"], sinir_id:"",
   b:"Castruccio Castracani öldü — Lucca yabancı senyörlerin eline geçti", tur:"toprak-kayip", onem:2, dunya:1, kapsam:"dis", yer_id:"Lucca",
@@ -594,8 +594,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1860-03-22", devlet:"sardinya-piyemonte", devletler:["sardinya-piyemonte","toskana"], sinir_id:"",
   b:"Toskana ve Emilia halkoylamalarla Sardinya Krallığı'na katıldı", tur:"birlesme", onem:4, dunya:3, kapsam:"dis", yer_id:"Floransa",
   etiket:["konu-siyasi","sardinya-piyemonte","toskana","parma"],
-  d:"11-12 Mart 1860 halkoylamalarının ardından Emilia'nın (Parma, Piacenza, Modena, Bologna, Ferrara) sonuçları 18 Mart'ta Kral Vittorio Emanuele II'ye sunuldu; Toskana'nın (Floransa, Pisa, Siena, Lucca, Elba) Sardinya Krallığı'na birleşme kararnamesi 22 Mart 1860 tarihlidir. Toskana Büyük Dükalığı ile Parma ve Modena dükalıkları böylece sona erdi.",
-  kaynak:"iris.unito.it — Genta, «Plebisciti» (Torino Üniversitesi) · Treccani «Piacenza»" },
+  d:"11-12 Mart 1860 halkoylamalarının ardından Emilia'nın (Parma, Piacenza, Modena, Bologna, Ferrara) sonuçları 18 Mart'ta Kral Vittorio Emanuele II'ye sunuldu; Toskana'nın (Floransa, Pisa, Siena, Lucca, Elba) Sardinya Krallığı'na birleşme kararnamesi 22 Mart 1860 tarihlidir. Toskana Büyük Dükalığı ile Parma ve Modena dükalıkları böylece sona erdi. Bu halkoylamalarla Piombino ve Orbetello (Toskana) ile Bolonya, Ravenna, Rimini ve Guastalla (Emilia) Sardinya Krallığı'na katıldı.",
+  kaynak:"iris.unito.it — Genta, «Plebisciti» (Torino Üniversitesi) · Treccani «Piacenza» · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Pier Luigi Ballini, L'Assemblea Toscana del 1859-60 (Polistampa, 2012), Comitato Fiorentino per il Risorgimento özeti (risorgimentofirenze.it/lassemblea-toscana-del-1859-60)" },
 
 { t:"1866-10-03", devlet:"italya", devletler:["italya","avusturya"], sinir_id:"",
   b:"Viyana Barışı — Venedik ve Veneto İtalya'ya geçti", tur:"antlasma", onem:4, dunya:3, kapsam:"dis", yer_id:"Belluno",
@@ -724,8 +724,8 @@ window.KRONOLOJI_SINIR_AVRUPA_BATI = [
 { t:"1947-09-15", devlet:"yugoslavya-federal", devletler:["yugoslavya-federal","italya-cumhuriyeti"], sinir_id:"",
   b:"Pula Yugoslavya'ya devredildi", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis", yer_id:"Pula (Pola)",
   etiket:["konu-siyasi","yugoslavya-federal","italya-cumhuriyeti"],
-  d:"10 Şubat 1947 Paris Barışı İstria'yı Yugoslavya'ya bıraktı; 1945'ten beri Müttefik askerî idaresindeki Pula'yı 15 Eylül 1947'de Yugoslav (Hırvat) makamları devraldı. Şehrin İtalyan nüfusunun büyük kısmı devirden önce göç etti.",
-  kaynak:"Istrapedia «Pula» · Hrvatska enciklopedija «Pula»" },
+  d:"10 Şubat 1947 Paris Barışı İstria'yı Yugoslavya'ya bıraktı; 1945'ten beri Müttefik askerî idaresindeki Pula'yı 15 Eylül 1947'de Yugoslav (Hırvat) makamları devraldı. Şehrin İtalyan nüfusunun büyük kısmı devirden önce göç etti. Bu antlaşmayla Fiume (Rijeka) Yugoslavya'ya geçti.",
+  kaynak:"Istrapedia «Pula» · Hrvatska enciklopedija «Pula» · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): Hrvatska enciklopedija 'Rijeka' (enciklopedija.hr/clanak/rijeka)" },
 
 { t:"1918-11-13", devlet:"sirbistan-kralligi", devletler:["sirbistan-kralligi","macaristan-naiplik","yugoslavya"], sinir_id:"",
   b:"Sırp birlikleri Subotica'ya (Szabadka) girdi", tur:"isgal", onem:2, dunya:1, kapsam:"dis", yer_id:"Subotica (Szabadka)",

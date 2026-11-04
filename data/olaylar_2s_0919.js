@@ -498,8 +498,8 @@ window.OLAYLAR_2S_0919 = [
 // KARAR-UYG-1015 (Emre #13) — Güney Afrika: 37 nokta ingiltere → guney-afrika-birligi 1910-05-31
 { t:"1910-05-31", b:"Güney Afrika Birliği kuruldu", tur:"kurulus", onem:3, dunya:3, kapsam:"dis", yer_id:"Kap (Cape Town)",
   etiket:["siyasi","kurulus","konu-siyasi"], taraflar:["guney-afrika-birligi","ingiltere"],
-  d:"1909 tarihli South Africa Act uyarınca Kap, Natal, Transvaal ve Oranj Nehri kolonileri 31 Mayıs 1910'da Britanya İmparatorluğu'na bağlı Güney Afrika Birliği adıyla birleşti; yürütme merkezi Pretoria, yasama merkezi Cape Town oldu.",
-  kaynak:"Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909) — AYNEN: \"the thirty-first day of May, one thousand nine hundred and ten\" · South Africa Act 1909 md. 18, 23 · TDV `guney-afrika-cumhuriyeti`: \"1910 yılında … Güney Afrika Birliği Devleti'ni kurdular\" · hassasiyet: GÜN" },
+  d:"1909 tarihli South Africa Act uyarınca Kap, Natal, Transvaal ve Oranj Nehri kolonileri 31 Mayıs 1910'da Britanya İmparatorluğu'na bağlı Güney Afrika Birliği adıyla birleşti; yürütme merkezi Pretoria, yasama merkezi Cape Town oldu. Bu birleşmeyle Kap, Natal, Transvaal ve Oranj kolonilerinin şehirleri (Kimberley, Durban, Pietermaritzburg, Potchefstroom, Port Elizabeth vd.) Güney Afrika Birliği’ne geçti.",
+  kaynak:"Birlik Bildirisi, London Gazette no. 28314 (3 Aralık 1909) — AYNEN: \"the thirty-first day of May, one thousand nine hundred and ten\" · South Africa Act 1909 md. 18, 23 · TDV `guney-afrika-cumhuriyeti`: \"1910 yılında … Güney Afrika Birliği Devleti'ni kurdular\" · hassasiyet: GÜN · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Güney Afrika Cumhuriyeti' (islamansiklopedisi.org.tr/guney-afrika-cumhuriyeti); US Office of the Historian, South Africa (history.state.gov/countries/south-africa)" },
 
 // KARAR-UYG-1015 — Soyo (Kongo ağzının güney yakası) Portekiz 1885-02-14
 { t:"1885-02-14", b:"Kongo Hür Devleti ile Portekiz sınır sözleşmesi — Kongo ağzının güney yakası Portekiz'e", tur:"antlasma", onem:2, dunya:2, kapsam:"dis", yer_id:"Soyo",

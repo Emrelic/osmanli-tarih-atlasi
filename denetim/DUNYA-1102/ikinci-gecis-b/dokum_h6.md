@@ -1,0 +1,159 @@
+
+## Hücre 6 — çelişki ve okunmadı dökümü (ajan sonucu, uygulanmadı)
+- **1918-11-16** Macar Millî Konseyi Macaristan Halk Cumhuriyeti'ni ilân etti — Károlyi önderliğinde monarşi resmen kalktı
+  - çelişki `Ösek (Osijek)`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Varadin (Petrovaradin)`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Varasd (Varaždin)`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Sisak`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Karlovac`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Kostayniçe (Kostajnica)`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Jasenovaç (Jasenovac)`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Udbina`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Gospić`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Cetin (Cetingrad)`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+  - çelişki `Drežnik (Drežnik Grad)`: Kaynak: Hırvat Saboru 29 Ekim 1918'de Macaristan'la bağı kopardı ve Sırp-Hırvat-Sloven Devleti'ne katıldı; 16 Kasım 1918'de bu yer artık Macar Halk Cumhuriyeti'nin değil. Atlasta 1918-10-29'da macaristan-habsburg → SHS Devleti kırılması olmalı. (Yerin Hırvatis
+- **1920-06-04** Trianon Antlaşması — Macaristan toprağının üçte ikisini kaybetti
+  - çelişki `Zagreb`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Ösek (Osijek)`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Varadin (Petrovaradin)`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Varasd (Varaždin)`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Sisak`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Karlovac`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Kostayniçe (Kostajnica)`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Jasenovaç (Jasenovac)`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Udbina`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Gospić`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Cetin (Cetingrad)`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Drežnik (Drežnik Grad)`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - çelişki `Dimitrofça (Sremska Mitrovica)`: Hırvatistan-Slavonya 29 Ekim 1918'de Macaristan'dan ayrıldı (Sabor); TDV Trianon kaybını 'Hırvatistan hariç' hesaplıyor. Bu yer 1918-1920 arasında Macar Naipliği'nin değildi; kırılma 1918-10-29'a (SHS Devleti) taşınmalı, Trianon yalnız hukukî tanıma.
+  - okunmadı (1): Eisenstadt (Kismarton)
+- **1920-04-23** Türkiye Büyük Millet Meclisi'nin açılışı
+  - çelişki `Edirne`: TDV 'Edirne': Temmuz 1920 Yunan işgali, 1922 kurtuluş. 23.4.1920'de TBMM'ye geçtiğine dair tanık yok; atlasın Temmuz 1920 Yunan işgali kırılması olup olmadığı ölçülmeli.
+  - okunmadı (32): Enez, Çanakkale, Çeşme, Zonguldak, Lüleburgaz, Keşan, İpsala, Kilitbahir, Gelibolu, Çimpe, Kırklareli, Bozcaada, İmroz, Maydos (Eceabat), Ayvalık, Behramkale (Assos), Saroz kuzey kıyısı, Uzunköprü, Havsa, Meriç (İpsala kuzeyi), Lalapaşa, Kofçaz, Dereköy (Kırklareli), Demirköy, İğneada, Vize, Lapseki (Lampsakos), Çanakkale yöresi (Kepez), Truva yöresi (Tevfikiye), Uluköy (Akçadam), Küfkaynapınarı (Azatlı), Karpuzlu (Yenikarpuzlu)
+- **1918-11-11** İmparator I. Karl devlet işlerine katılmaktan vazgeçtiğini bildirdi (Avusturya için)
+  - çelişki `Krakov`: Kaynak: 28 Ekim 1918'de kurulan Polonya Tasfiye Komisyonu iki gün sonra (30 Ekim) Galiçya'da yönetimi aldı; 11 Kasım değil.
+  - çelişki `Kielce`: Kielce Avusturya işgal bölgesindeydi (bölge düzeyi; yer adı kaynakta geçmiyor).
+  - çelişki `Radom (Polonya)`: Radom Avusturya işgal bölgesindeydi (bölge düzeyi; yer adı kaynakta geçmiyor).
+  - çelişki `Lublin`: Avusturya-Macaristan işgalindeki Kongre Polonyası'nda devir 31 Ekim 1918'de başladı; Lublin'de Daszyński hükümeti 6-7 Kasım gecesi kuruldu (aynı kaynak).
+  - çelişki `Chełm (Kholm)`: Bölge düzeyi; yer adı kaynakta geçmiyor.
+  - çelişki `Zamość`: Bölge düzeyi; yer adı kaynakta geçmiyor.
+  - okunmadı (25): Broumov (Braunau), Jeseník (Freiwaldau), Brakya (Brač), Dubrovnik, Split (Spalato), Kotor (Cattaro), Sin (Sinj), Klis, Herseknovi (Herceg Novi), Bihaç (Bihać), Opava (Troppau), Ostrava (Mährisch Ostrau), Bosna Dubiçası (Bosanska Dubica), Bosna Novi'si (Bosanski Novi), Bosna Brod'u (Bosanski Brod), Krupa (Bosanska Krupa), Ostrovica (Stara Ostrovica, Kulen Vakuf), Dimitrofça (Sremska Mitrovica), Bijeljina, Orašje, České Budějovice (Budweis), Třeboň (Wittingau), Maribor (Marburg), Ptuj (Pettau), Ston
+- **1919-09-10** Saint-Germain Antlaşması — Avusturya'nın küçülüşü hukuka geçti
+  - okunmadı (1): Pula (Pola)
+- **1861-03-17** İtalya Krallığı'nın ilânı — Sardinya, Toskana ve güney İtalya'nın birleşmesi
+  - okunmadı (21): Sondrio, Chiavenna, Bormio, Parma, Piacenza, Modena, Ravenna, Rimini, Perugia, Lucca, Piombino, Orbetello, Guastalla, Oristano, Alghero, Gaeta, Salerno, Benevento, Melfi, Aosta, Como
+- **1830-02-03** Londra Protokolü — Yunanistan'ın bağımsızlığının tanınması
+  - okunmadı (4): İskiros (Skyros), İskopelos, İskiathos, Alonisos
+- **1917-12-06** Finlandiya bağımsızlığını ilan etti — İsveç ve Norveç ile sınırlar Finlandiya'nın oldu
+  - okunmadı (20): Turku (Åbo), Hämeenlinna, Viipuri (Vyborg), Vaasa, Kokkola, Pori, Tampere, Jyväskylä, Kuopio, Iisalmi, Nurmes, Joensuu, Savonlinna, Mikkeli, Lappeenranta, Tornio, Oulu, Rovaniemi, Sodankylä, İnari
+- **1878-07-13** Berlin Antlaşması: Bosna-Hersek A-M işgaline, Sırbistan ve Karadağ bağımsız
+  - okunmadı (5): İvranye (Vranje), Leskofça (Leskovac), Kurşunlu (Kuršumlija), Ürküp (Prokuplje), Bar (Antivari)
+- **1989-12-31** Polonya Halk Cumhuriyeti adı Polonya Cumhuriyeti (III. Cumhuriyet) olarak değiştirildi; Varşova, Gdansk, Pozna
+  - okunmadı (17): Krakov, Łódź, Częstochowa, Kielce, Radom (Polonya), Liegnitz (Legnica), Oppeln (Opole), Glatz (Kłodzko), Gleiwitz (Gliwice), Kattowitz (Katowice), Elbing (Elbląg), Torun (Toruń), Stettin (Szczecin), Lublin, Chełm (Kholm), Zamość, Białystok
+- **1814-04-16** Eugène Mantova'da mütareke imzaladı: İtalya Krallığı çöktü, Avusturya Milano'yu aldı
+  - okunmadı (16): Venedik, Verona, Padova, Brescia, Bergamo, Sondrio, Chiavenna, Bormio, Udine, Belluno, Feltre, Ferrara, Modena, Bolonya, Ravenna, Rimini
+- **1871-01-18** Alman İmparatorluğu ilan edildi — Prusya eyaletleri imparatorluğun parçası oldu
+  - çelişki `Berlin`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Breslau (Wrocław)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Liegnitz (Legnica)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Oppeln (Opole)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Glatz (Kłodzko)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Gleiwitz (Gliwice)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Kattowitz (Katowice)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Königsberg`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Gdansk`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Poznan`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Elbing (Elbląg)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Torun (Toruń)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Stettin (Szczecin)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Hannover`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Magdeburg`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+  - çelişki `Klaipėda (Memel)`: Archontology 'Deutsches Reich' adını Alman Konfederasyonu anayasasının yürürlüğüyle 1.1.1871'den başlatır; 18.1.1871 imparatorluk ilanıdır (iki farklı olay). Prusya şehirleri 1867'den beri Kuzey Alman Konfederasyonu'ndaydı. Karar: kırılma günü 1 Ocak mı 18 Oca
+- **1920-11-12** Rapallo Antlaşması — İtalya ile SHS Krallığı arasında Julian Alpleri sınırı ve Fiume Serbest Devleti
+  - okunmadı (5): Şibenik (Sebenico), Knin, Vrana (Urana), Nadin, Pula (Pola)
+- **1810-07-09** Holland Krallığı'nın Fransa'ya ilhakı (Rambouillet Kararnamesi)
+  - çelişki `Middelburg`: Zeeland 31.3.1810'da Fransa'ya devredildi; 9.7.1810 değil.
+  - çelişki `'s-Hertogenbosch`: Brabant 31.3.1810'da Fransa'ya devredildi.
+  - çelişki `Breda`: Brabant 31.3.1810'da Fransa'ya devredildi.
+  - okunmadı (1): Nijmegen
+- **1830-10-04** Belçika'nın bağımsızlık ilanı — Fransa sınırı fiilen Belçika'nın oldu
+  - okunmadı (6): Clervaux, Arlon, Bastogne, Neufchâteau (Belçika), Virton, Wiltz
+- **1941-07-28** Reichskommissariat Ostland kuruldu — Baltık ülkeleri ve Belarus Alman sivil idaresine girdi
+  - çelişki `Vilnius`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Minsk`: Genel Komiser 17 Temmuz 1941'de atandı, Minsk'e 1 Eylül 1941'de geldi (sivil idare başlangıcı). VLE de 1941-09-01 diyor.
+  - çelişki `Cēsis (Wenden)`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Daugavpils (Dünaburg)`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Kaunas`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Šiauliai`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Tartu (Dorpat)`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Pärnu`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Rēzekne (Rositten)`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Jelgava (Mitau)`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Liepāja (Libau)`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+  - çelişki `Ventspils (Windau)`: VLE: Ostland yapıları 1941-08..1941-11 arası kuruldu, iki reichskomisariat 1941-09-01'de oluştu; madde/kırılma günü 1941-07-28. Ayrıca bu yerler 1941 yazından beri Alman ASKERÎ işgalindeydi; atlas eski devleti sovyet-rusya gösteriyor (askerî işgal dönemi eksik
+- **1815-06-09** Viyana Kongresi Nihai Senedi — Napolyon sonrası Avrupa haritası yeniden çizildi
+  - okunmadı (1): Torun (Toruń)
+- **1920-05-27** Gümülcine'nin işgali — Batı Trakya'nın kaybı
+  - çelişki `Dimetoka`: TDV Dimetoka'yı 1922'de Yunanistan'a bağlıyor; atlas 1920-05-27.
+  - okunmadı (5): Çirmen, Ferecik (Feres), Orestiada (Kumçiftliği), Stérna, Távri
+- **1913-11-14** Atina Antlaşması: Yunanistan ile barış ve Selanik-Yanya'nın devri
+  - çelişki `Vodina (Edessa)`: Fiilî geçiş 1912.
+  - çelişki `Karaferye (Veria)`: Fiilî geçiş 1912; antlaşma 14 Kasım 1913 (TDV: 'Antlaşma 14 Kasım 1913’te Atina’da imzalandı.'). Atlas 1912-1913 arasını boş ('' eski) gösteriyor olabilir.
+  - çelişki `Yenice-i Vardar`: Fiilî Yunan hâkimiyeti 1912 sonbaharı.
+  - çelişki `Kesriye (Kastoria)`: Fiilî geçiş 1912 (yıl).
+  - okunmadı (4): Lanzaka (Lagkadas), Alasonya (Elassona), Kılkış (Avrathisar), Filorina (Florina)
+- **1815-11-05** Ayamavra ve İyon Adaları'nın İngiliz himayesine geçişi — Napolyon sonrası düzen
+  - okunmadı (1): Parga
+- **1813-01-01** Avusturya'nın İlirya Eyaletleri'ni ve Dalmaçya'yı geri alması — Napolyon idaresinin sonu
+  - okunmadı (1): Lastovo (Lagosta)
+- **1813-11-30** Prens Willem'in Scheveningen'e çıkışı: Leiden, Delft ve Arnhem bağımsız Hollanda'ya döndü
+  - çelişki `Groningen`: Kaynak Groningen'de Fransız idaresinin sonunun 16 Kasım 1813'te baron Rosin'in (Kazak birliği) bildirisiyle teyit edildiğini söylüyor; atlas 1813-11-30.
+  - okunmadı (5): Leeuwarden, Nijmegen, Middelburg, Enschede, Stavoren (Starum)
+- **1945-04-04** Sovyet ordusu Macaristan'ı Alman denetiminden çıkardı — son Alman birlikleri ülkeden atıldı
+  - çelişki `Uyvar`: Madde (Macaristan'ın 4 Nisan 1945 kurtuluşu) bu kırılmanın olayı değil. Hukukî iade 20 Ocak 1945 ateşkesiyle (md. 2: Macaristan 31.12.1937 sınırlarına çekilir; md. 19: Viyana kararları hükümsüz).
+  - çelişki `Kassa (Košice)`: Waters: ertesi gün ateşkes ve 'Kassa was officially Košice again.' Avalon md. 19 ile çift teyit (hukukî 20 Ocak 1945).
+  - çelişki `Komárom (Komárno)`: Madde (Macaristan'ın 4 Nisan 1945 kurtuluşu) bu kırılmanın olayı değil. Hukukî iade 20 Ocak 1945 ateşkesiyle (md. 2: Macaristan 31.12.1937 sınırlarına çekilir; md. 19: Viyana kararları hükümsüz).
+  - çelişki `Somorja (Šamorín)`: Madde (Macaristan'ın 4 Nisan 1945 kurtuluşu) bu kırılmanın olayı değil. Hukukî iade 20 Ocak 1945 ateşkesiyle (md. 2: Macaristan 31.12.1937 sınırlarına çekilir; md. 19: Viyana kararları hükümsüz).
+  - çelişki `Fülek (Fiľakovo)`: Madde (Macaristan'ın 4 Nisan 1945 kurtuluşu) bu kırılmanın olayı değil. Hukukî iade 20 Ocak 1945 ateşkesiyle (md. 2: Macaristan 31.12.1937 sınırlarına çekilir; md. 19: Viyana kararları hükümsüz).
+- **1945-05-09** Bohemya-Moravya Protektorasi sona erdi; Olomouc, Brno ve Cesky Tesin cevresi Cekoslovakya'ya dondu
+  - okunmadı (2): Broumov (Braunau), Jeseník (Freiwaldau)
+- **1859-06-04** Magenta Muharebesi — Lombardiya Avusturya'dan Sardinya'ya geçti
+  - çelişki `Sondrio`: Aynı sayfa bağlamı Haziran 1859 ('On June 22', 'the 24th of June'): Garibaldi tugayı Sondrio'ya 28 Haziran 1859'da vardı; atlas 1859-06-04. Kaynak İtalyan Savunma Bakanlığı müze yayını. HLS 'Veltlin' 403 verdi.
+  - okunmadı (3): Chiavenna, Bormio, Como
+- **1815-06-09** Ren Eyaleti ve Vestfalya Prusya'ya, Valtellina Avusturya'ya, Lucca Bourbon-Parma'ya geçti
+  - okunmadı (1): Rimini
+- **1945-01-17** Sovyet ve Polonya birlikleri Varsova'yi kurtardi; Genel Hukumet topraklari Lublin merkezli Polonya yonetimine 
+  - çelişki `Krakov`: USHMM Krakow; dzieje.pl: 18.01 'Armia Czerwona zajęła Kraków'. Harita 17 Ocak — kaynak 18 Ocak (1 gün).
+  - çelişki `Kattowitz (Katowice)`: dzieje.pl (Muzeum Historii Polski) kalendarı; harita 17 Ocak, kaynak 27 Ocak 1945. Varşova maddesi Katowice'yi kapsamaz; ayrı madde gerekir.
+  - çelişki `Białystok`: Koniuszek 2013: PKWN pełnomocnikleri 29 VII 1944'te Białystok'a geldi; Białystok voyvodalığı 22 VIII 1944'ten Polonya idaresinde. Harita 17.01.1945 sovyet-rusya->polonya-halk — yaklaşık 5 ay geç.
+- **1918-11-11** Polonya'nın bağımsızlığı — Naiplik Konseyi ordunun komutasını Piłsudski'ye verdi
+  - çelişki `Białystok`: IPN Białystok: Alman tahliyesi ve Polonya ordusunun girişi 19 Şubat 1919. Ayrıca eski sahip 'sovyet-rusya' değil Alman işgali (Ober Ost) olmalı. Harita 11.11.1918 erken.
+  - okunmadı (2): Łódź, Częstochowa
+- **1918-11-26** Karadağ Sırbistan'la birleşti: 1913 sınırı devletlerarası olmaktan çıktı
+  - çelişki `Peç (Pejë)`: TDV: Karadağ'da 1920'ye kadar, sonra Sırbistan — harita 26.11.1918 karadag->sirbistan-kralligi. Ayrıca 1918 birleşmesinden sonra Sırbistan ayrı devlet değil (SHS Krallığı) — künye denetlenmeli.
+  - okunmadı (2): Cetinje, Bar (Antivari)
+- **1814-05-30** Birinci Paris Antlaşması — Fransa–İsviçre sınırının bugünkü hattı
+  - okunmadı (1): Elba
+- **1939-03-14** Slovak Meclisi bağımsızlığı ilan etti; Slovakya Çekoslovakya'dan ayrıldı (Bratislava, Nitra, Trenčín, Levice v
+  - çelişki `Léva (Levice)`: Levice 1. Viyana Hakemliği (2.11.1938) ile Macaristan'a geçti; 14.03.1939'da Çekoslovakya'da değildi. Kaynak resmî belediye portalı (akademik değil) — ikinci kaynak önerilir.
+- **1945-04-04** Bratislava'nin Sovyetlerce alinmasiyla Slovak Cumhuriyeti coktu, Slovakya Cekoslovakya'ya dondu (Kosice hukume
+  - çelişki `Eperjes (Prešov)`: Prešov 20 Ocak 1945 (harita 4 Nisan). Kaynak haber sitesi — akademik teyit gerekir.
+  - çelişki `Léva (Levice)`: Levice 1938-44 Macaristan'daydı; 20.12.1944'te Çekoslovakya'ya döndü — eski sahip slovakya-cumhuriyeti değil.
+  - çelişki `Trencsén (Trenčín)`: Trenčín 10 Nisan 1945 (harita 4 Nisan, 6 gün). Kaynak haber sitesi.
+- **1947-09-15** Pula Yugoslavya'ya devredildi
+  - okunmadı (1): Lastovo (Lagosta)
+- **1814-01-28** Dubrovnik'te Fransız idaresinin sonu — eski Osmanlı haraçgüzârı şehre Avusturya kuvvetleri girdi
+  - çelişki `Kotor (Cattaro)`: Fransız idaresi 1813'te bitti, 1814'te kısa Karadağ idaresi, sonra Avusturya. Harita fransa->avusturya 1814-01-01 Karadağ aralığını atlıyor.
+  - çelişki `Herseknovi (Herceg Novi)`: HE yalnız yıl veriyor; Dubrovnik maddesinin (28.01.1814) olayı Herceg Novi için tanıklanmıyor.
+- **1864-07-01** Büyük Çerkes Sürgünü'nün doruk noktası
+  - okunmadı (1): Maykop (Çerkezya)
+- **1939-10-06** Poznań, Łódź ve Toruń Alman Reich'ına katıldı (Wartheland / Danzig-Batı Prusya), Generalgouvernement'a bağlanm
+  - çelişki `Krakov`: Genel Hükümet sivil idaresi 26 Ekim 1939'da başladı (harita 6 Ekim, 20 gün). Kraków Alman ordusunca Eylül 1939 ilk haftasında işgal edildi.
+- **1922-06-03** Yukarı Silezya Sözleşmesi yürürlüğe girdi: bölge paylaşıldı
+  - çelişki `Kattowitz (Katowice)`: Fiilî devir 20 Haziran 1922 (harita 3 Haziran, 17 gün).
+- **1814-05-24** VII. Pius Roma'ya döndü: Papalık yönetimi yeniden kuruldu
+  - çelişki `Perugia`: 1814'te Umbria Fransa'dan doğrudan Papalığa değil, önce Murat'ın Napoli birliklerine geçti; papalık otoritesi Rivarola ile sonra kuruldu (gün yok). Treccani 24 Mayıs 1814 dönüşünü vermiyor.
+- **1913-05-14** Karadağ İşkodra'yı boşalttı; büyük devletlerin uluslararası kolordusu şehre girdi
+  - çelişki `Peç (Pejë)`: TDV: Karadağ işgali I. Balkan Savaşı'nda (1912; gün yok). Harita 30.05.1913 (Londra Antlaşması); madde İşkodra tahliyesi — yanlış madde. Günlü kaynak gerekli.
+- **1912-11-28** Arnavutluk'un istiklâlinin ilânı — Avlonya'da İsmâil Kemali
+  - çelişki `Görice (Korçë)`: Görice 28.11.1912'de bağımsız Arnavutluk'un denetimine geçmedi; Yunan işgali (gün yok). Ayrı madde ve günlü kaynak gerekli.

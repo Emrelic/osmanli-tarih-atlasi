@@ -18619,7 +18619,7 @@ window.KRONOLOJI_COK_DOGU_500_1281 = [
   ],
   "yer": "Chan Chan",
   "taraflar": [
-   "chimu"
+   "chimu-krallik"
   ],
   "d": "Olah ve ark. Chimú İmparatorluğu'nu 1200–1470 CE arasına koyar: Moche ve Sicán kültürlerinin ardılı, Peru kıyısının büyük bölümünü fetheden ve sonunda İnkalarca yenilen devlet. Chan Chan, Moche Vadisi'nin aşağı kesiminde 13 devasa kraliyet külliyesinden oluşan başkenttir.",
   "kaynak": "Olah G. ve ark., «Ancient DNA and spatial modeling reveal a pre-Inca trans-Andean parrot trade», Nature Communications 17, 2117 (2026), doi:10.1038/s41467-026-69167-9 (Europe PMC PMC12976122 tam metin okundu; Chimú cümlesi kendi atıflarına [53,54,115] dayanır, onlar açılmadı): \"The Chimú Empire (1200–1470 CE) succeeded the Moche and Sicán cultures and conquered much of the Peruvian coast before it was conquered by the Incas\" | Olah G. ve ark., «Ancient DNA and spatial modeling reveal a pre-Inca trans-Andean parrot trade», Nature Communications 17, 2117 (2026), doi:10.1038/s41467-026-69167-9 (Europe PMC PMC12976122 tam metin okundu; Chimú cümlesi kendi atıflarına [53,54,115] dayanır, onlar açılmadı): \"Chan Chan is the vast capital of the Chimú Empire comprised mainly by 13 gigantic “royal compounds” in the lower Moche Valley\"",

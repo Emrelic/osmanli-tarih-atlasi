@@ -345,8 +345,8 @@ window.OLAYLAR_EK8 = [
   "yer": "Londra",
   "yer_id": "Andros",
   "kisiler": "II. Mahmud, Reşid Mehmed Paşa",
-  "d": "İngiltere, Fransa ve Rusya'nın Londra'da imzaladığı protokol, Edirne Antlaşması'nın öngördüğü özerkliği aşarak Yunanistan'ı BAĞIMSIZ bir devlet olarak tanıdı. Hükümler: Mora yarımadası, Attika ve Eğriboz ile Kiklad adaları yeni devlete bırakıldı; sınır Arta-Volos hattında çizildi; Osmanlı Devleti'ne tazminat ödenmesi kararlaştırıldı; devletin yönetim biçimi 'bağımsız monarşi' olarak belirlendi. Bu, imparatorluktan kopan İLK bağımsız devlettir ve sonraki Balkan bağımsızlıklarının hukukî örneğini kurmuştur.",
-  "kaynak": "yunanistan",
+  "d": "İngiltere, Fransa ve Rusya'nın Londra'da imzaladığı protokol, Edirne Antlaşması'nın öngördüğü özerkliği aşarak Yunanistan'ı BAĞIMSIZ bir devlet olarak tanıdı. Hükümler: Mora yarımadası, Attika ve Eğriboz ile Kiklad adaları yeni devlete bırakıldı; sınır Arta-Volos hattında çizildi; Osmanlı Devleti'ne tazminat ödenmesi kararlaştırıldı; devletin yönetim biçimi 'bağımsız monarşi' olarak belirlendi. Bu, imparatorluktan kopan İLK bağımsız devlettir ve sonraki Balkan bağımsızlıklarının hukukî örneğini kurmuştur. Londra Protokolü'yle bağımsızlığı tanınan Yunanistan'a Kiklad adaları (Nakşa, İstendil, Santorini, Paros, Değirmenlik, Sire, Mikonos vd.) dahil oldu.",
+  "kaynak": "yunanistan · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Yunanistan', https://islamansiklopedisi.org.tr/yunanistan",
   "duygu": [
    "🤝"
   ]
@@ -411,7 +411,7 @@ window.OLAYLAR_EK8 = [
 
 { t:"1609-01-01", tur:"kayip", etiket:["askeri","isyan","konu-askeri","konu-isyan"], kapsam:"dis", b:"Rus kuvvetlerinin Kasım şehrini zaptı, Uraz Muhammed Han", yer_kon:[54.945,41.393], gun:"1609", ic_not_gun:"1609 — TDV gün vermiyor", yer:"Kasimov", kisiler:"Uraz Muhammed Han, II. Sahte Dimitri", d:"Rusya'daki İç Karışıklıklar Devri'nin (Smuta) yansıması olarak Rus kuvvetleri Kâsım şehrini kuşatıp zaptetti, halkının çoğunu kılıçtan geçirdi. Hanlığın başındaki Uraz Muhammed, II. Sahte Dimitri'yi desteklediği için hedef alınmıştı; ertesi yıl (1610) kendisi de bir komployla öldürüldü.", kaynak:"kasim-hanligi (TDV — CANLI, madde gövdesinde birebir tarih ve bağlam)" },
 
-{ t:"1921-08-14", tur:"kurulus", etiket:["idari","konu-siyasi","konu-idari"], kapsam:"dis", b:"Tannu Tuva Halk Cumhuriyeti bağımsızlığını ilan etti", yer_kon:[51.7191, 94.4378], gun:"14 Ağustos 1921", yer:"Tuva", kisiler:"-", d:"Tuvan Halk Devrimci Partisi önderliğinde bağımsızlık ilan edildi; ilk anayasanın ilk maddesi devletin 'uluslararası ilişkilerde Sovyet Rusya'nın himayesi altında' hareket ettiğini belirtiyordu.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482" },
+{ t:"1921-08-14", tur:"kurulus", etiket:["idari","konu-siyasi","konu-idari"], kapsam:"dis", b:"Tannu Tuva Halk Cumhuriyeti bağımsızlığını ilan etti", yer_kon:[51.7191, 94.4378], gun:"14 Ağustos 1921", yer:"Tuva", kisiler:"-", d:"Tuvan Halk Devrimci Partisi önderliğinde bağımsızlık ilan edildi; ilk anayasanın ilk maddesi devletin 'uluslararası ilişkilerde Sovyet Rusya'nın himayesi altında' hareket ettiğini belirtiyordu. Bu olayla Kızıl (Belotsarsk, Tannu-Tuva) Tannu-Tuva Halk Cumhuriyeti'ne geçti.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482 · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): 'Novye issledovaniya Tuvy' (nit.tuva.asia/nit/article/download/536/912), Tannu-Tuva ulus cumhuriyetinin ilanı üzerine makale — PDF açıldı, okundu" },
 
 { t:"1922-03-03", tur:"idari", etiket:["idari","konu-idari"], kapsam:"dis", b:"Tannu Tuva hükûmeti fiilen göreve başladı", yer_kon:[51.7191, 94.4378], gun:"3 Mart 1922", yer:"Tuva", kisiler:"-", d:"Şubat 1922'deki ilk parti toplantısının ardından kurulan hükûmet fiilen göreve başladı.", kaynak:"nit.tuva.asia — \"Novye issledovaniya Tuvy\" (Tuva'nın Yeni Araştırmaları), Tuva tarih-kültürü üzerine hakemli açık erişim dergi, Scopus/WoS/DOAJ indeksli, ISSN 2079-8482" },
 
@@ -541,8 +541,8 @@ window.OLAYLAR_EK9 = [
 { t:"1883-12-23", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
   b:"Darfur'un Mehdî kuvvetlerine geçişi — Slatin Paşa'nın teslimi",
   gun:"23 Aralık 1883", yer:"Darfur, Dara, El-Fâşir", kisiler:"Rudolf Slatin Paşa, Şeyh Madibbo b. Ali, Muhammed Ahmed el-Mehdî",
-  d:"Darfur genel valisi Slatin Paşa, 1882'den beri Rizeykāt kabilesinin Mehdîci ayaklanmasıyla uğraşıyordu; askerlerinin yenilgileri onun hıristiyan oluşuna yüklediğini düşünerek 1883'te açıkça müslüman oldu ve Abdülkādir adını aldı. Hicks Paşa'nın ordusunun kasım 1883'te Kordofan'da yok edilmesinden sonra direnişin anlamı kalmadı ve 23 Aralık 1883'te Emîr Madibbo'ya teslim oldu. Darfur'daki küçük Mısır karakolları da kısa sürede aynı yolu izledi; on yıllık Türk-Mısır idaresi bitti.",
-  kaynak:"darfur", duygu:["😔"], yer_id:"Darfur" },
+  d:"Darfur genel valisi Slatin Paşa, 1882'den beri Rizeykāt kabilesinin Mehdîci ayaklanmasıyla uğraşıyordu; askerlerinin yenilgileri onun hıristiyan oluşuna yüklediğini düşünerek 1883'te açıkça müslüman oldu ve Abdülkādir adını aldı. Hicks Paşa'nın ordusunun kasım 1883'te Kordofan'da yok edilmesinden sonra direnişin anlamı kalmadı ve 23 Aralık 1883'te Emîr Madibbo'ya teslim oldu. Darfur'daki küçük Mısır karakolları da kısa sürede aynı yolu izledi; on yıllık Türk-Mısır idaresi bitti. Bu olayla Cebel Merre (Dârfûr) Mehdî devleti idaresine geçti.",
+  kaynak:"darfur · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): https://islamansiklopedisi.org.tr/muhammed-ahmed-el-mehdi (TDV İslâm Ansiklopedisi, 'MUHAMMED AHMED el-MEHDÎ')", duygu:["😔"], yer_id:"Darfur" },
 
 { t:"1884-01-15", k:"kayip", etiket:["toprak-kayip","isyan","konu-askeri","konu-isyan"],
   b:"Fâşir garnizonunun Mehdîcilere teslimi",
@@ -750,14 +750,14 @@ window.OLAYLAR_EK9 = [
 { t:"1898-09-02", k:"fetih", etiket:["toprak-kazanc","savas","konu-askeri"],
   b:"Ümmüdurman Muharebesi — Mehdî devletinin yıkılışı",
   gun:"2 Eylül 1898", yer:"Ümmüdurman (Omdurman), Hartum karşısı", kisiler:"Herbert Kitchener, Abdullah b. Muhammed et-Teâyişî",
-  d:"Kitchener'ın topçu ve makineli tüfekle donanmış İngiliz-Mısır ordusu 2 Eylül 1898'de Ümmüdurman önünde Halife Abdullah et-Teâyişî'nin kuvvetlerini birkaç saatte dağıttı. Ertesi gün Hartum'a girildi ve on üç yıl önce Gordon'un öldürüldüğü sarayda bayrak çekildi. Mehdî devletinin başkenti düştü; Halife 1899 sonunda takip harekâtında öldürüldü. Fiilî hâkimiyet bu tarihte el değiştirir — 19 Ocak 1899 ise idarenin hukukî çerçevesini kuran antlaşmadır.",
-  kaynak:"sudan", duygu:["🎉","😔"], yer_id:"Hartum" },
+  d:"Kitchener'ın topçu ve makineli tüfekle donanmış İngiliz-Mısır ordusu 2 Eylül 1898'de Ümmüdurman önünde Halife Abdullah et-Teâyişî'nin kuvvetlerini birkaç saatte dağıttı. Ertesi gün Hartum'a girildi ve on üç yıl önce Gordon'un öldürüldüğü sarayda bayrak çekildi. Mehdî devletinin başkenti düştü; Halife 1899 sonunda takip harekâtında öldürüldü. Fiilî hâkimiyet bu tarihte el değiştirir — 19 Ocak 1899 ise idarenin hukukî çerçevesini kuran antlaşmadır. Mehdî devletinin bu yenilgisiyle Dârfûr (El-Fâşir, Nyala, Cenîne, Kutum vd.) Ali Dinar’ın yeniden kurduğu Dârfûr Sultanlığı’na geçti.",
+  kaynak:"sudan · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sudan' ve 'Dârfûr' (islamansiklopedisi.org.tr/sudan, /darfur)", duygu:["🎉","😔"], yer_id:"Hartum" },
 
 { t:"1899-01-19", k:"antlasma", etiket:["antlasma","diplomasi","konu-diplomasi"],
   b:"Kondominyum Antlaşması — Sudan'ın İngiliz-Mısır ortak idaresi",
   gun:"19 Ocak 1899", yer:"Kahire · Sudan", kisiler:"Lord Cromer, Butros Gali Paşa",
-  d:"Ümmüdurman'dan dört ay sonra Kahire'de imzalanan antlaşma Sudan'ı 'Anglo-Mısır Sudanı' adıyla iki devletin ortak idaresine bağladı: iki bayrak birlikte çekilecek, genel vali hidiv tarafından İngiltere'nin muvafakatiyle atanacaktı. Uygulamada idare tamamen İngilizlerin elindeydi. Osmanlı Devleti, Sudan üzerindeki haklarının Mısır üzerinden kendisine ait olduğunu ileri sürerek antlaşmaya taraf olmadı ve tanımadı; ama fiilen dışarıda kaldı.",
-  kaynak:"sudan", duygu:["🤝"], yer_id:"Kahire" },
+  d:"Ümmüdurman'dan dört ay sonra Kahire'de imzalanan antlaşma Sudan'ı 'Anglo-Mısır Sudanı' adıyla iki devletin ortak idaresine bağladı: iki bayrak birlikte çekilecek, genel vali hidiv tarafından İngiltere'nin muvafakatiyle atanacaktı. Uygulamada idare tamamen İngilizlerin elindeydi. Osmanlı Devleti, Sudan üzerindeki haklarının Mısır üzerinden kendisine ait olduğunu ileri sürerek antlaşmaya taraf olmadı ve tanımadı; ama fiilen dışarıda kaldı. Bu antlaşmayla 22. paralelin güneyindeki Sudan toprakları (Dongola, Hartum, Sennar, Kordofan, Sevakin kıyısı vd.) İngiliz-Mısır ortak idaresine (İngiliz-Mısır Sudanı) geçti.",
+  kaynak:"sudan · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Sudan' (islamansiklopedisi.org.tr/sudan); 1899 Anglo-Mısır Sudan Antlaşması metni md. I (en.wikisource.org/wiki/Sudan_Convention_(1899))", duygu:["🤝"], yer_id:"Kahire" },
 
 // ---------------------------------------------------------------------------
 // K) KIZILDENİZ — md.44, Zeyla'nın yanlış maddeye bağlanması
@@ -1220,8 +1220,8 @@ window.OLAYLAR_EK10 = [
 { t:"1877-05-21", ic_not_t:"eski gün 1877-05-09 = Jülyen (9 Mayıs O.S.; TDV romanya Rumen takvimiyle verir) → Gregoryen 21 Mayıs; devletler.js romanya maddesi ve yerleşim zincirleri 1877-05-21 (kron-balkan, 28 Eki 2026)", k:"kayip", etiket:["toprak-kayip","siyaset","konu-siyasi","konu-askeri"],
   b:"Romanya'nın bağımsızlığını ilân etmesi — Eflak-Boğdan tâbiliğinin sonu",
   gun:"21 Mayıs 1877 (9 Mayıs O.S.)", yer:"Bükreş", yer_id:"Bükreş", kisiler:"Prens I. Carol",
-  d:"93 Harbi'nin ilânından iki hafta sonra Romanya Prensliği bağımsızlığını ilân etti ve savaşa Rusya'nın yanında girdi; Plevne kuşatmasındaki payı Osmanlı yenilgisinde belirleyici oldu. Dört yüz yılı aşkın Eflak ve Boğdan tâbiliği böylece fiilen sona erdi; bağımsızlık Berlin Kongresi'nde (1878) uluslararası tanıma kazandı. Harita bu tarihten itibaren Romanya'yı tâbi değil kendi rengiyle bağımsız devlet olarak gösterir.",
-  kaynak:"romanya", duygu:["😔"] },
+  d:"93 Harbi'nin ilânından iki hafta sonra Romanya Prensliği bağımsızlığını ilân etti ve savaşa Rusya'nın yanında girdi; Plevne kuşatmasındaki payı Osmanlı yenilgisinde belirleyici oldu. Dört yüz yılı aşkın Eflak ve Boğdan tâbiliği böylece fiilen sona erdi; bağımsızlık Berlin Kongresi'nde (1878) uluslararası tanıma kazandı. Harita bu tarihten itibaren Romanya'yı tâbi değil kendi rengiyle bağımsız devlet olarak gösterir. Bağımsızlık ilanıyla Eflak ve Boğdan'ın tamamı (Yaş, Kalas, İbrail, Yergöğü, Calafat, Botoşani vd.) bağımsız Romanya oldu.",
+  kaynak:"romanya · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Romanya', https://islamansiklopedisi.org.tr/romanya", duygu:["😔"] },
   // PAKET-0076-BITIR-1004 · 0076/H-0037 — TDV romanya: "9 Mayıs 1877 tarihinde bağımsızlığını ilân etti" (taslak: denetim/SINIR-CIZGI-0076-YAMA-olaylar.js ①)
 
 { t:"1832-01-01", k:"kayip", etiket:["toprak-kayip","diplomasi","konu-diplomasi"],

@@ -189,6 +189,15 @@ dersler/                 kuralların vakaları (DIZIN.md) · denetim/ teslimler 
 - **Takvim (ay-güneş Çin/Kore/Japon · Jülyen/Gregoryen):** kaynak Batı karşılığını veriyorsa o gün;
   vermiyorsa tabloyla çevir (NAOJ, Academia Sinica…) + `ic_not` beyanı; çevrilemezse yıl/ay
   hassasiyeti (`YYYY-01-01` + beyan). *(Emre, 14 Ekim 2026)*
+  **Jülyen/Gregoryen sınırı** *(Emre, 4 Kasım 2026)*: **1582-10-15 öncesi** kaynaktaki gün yazılır
+  (pratikte Jülyen), toplu çevirme yapılmaz. **1582-10-15 sonrası** atlas günü Gregoryendir; geç
+  geçen yerlerin (Britanya 1752, İsveç 1753, Rusya 1918, Yunanistan 1923, Rumî takvim) kaynak günü
+  çevrilir ve `ic_not`ta iki günüyle beyan edilir; gün taşınınca kırılma ve madde birlikte taşınır.
+  Sayaç (`arac/gun.py`) proleptik Gregoryen sayar; bu yalnız sayı sistemidir, veriyi çevirmez.
+- **Antik kronoloji konvansiyonu** *(Emre, 4 Kasım 2026)*: Mısır — Shaw (ed.), *The Oxford History
+  of Ancient Egypt* (2000); Mezopotamya — orta kronoloji (Ur III: Frayne, RIME); Hitit — Bryce,
+  *The Kingdom of the Hittites* (2005). Öteki kronolojiler (kısa/uzun, başka hanedan listeleri)
+  yalnız `ic_not`ta beyan edilir; bir devlet kaydının bütün uçları aynı konvansiyonda olmalı.
 - **Teyit kampanyası:** yalnız yıl teyitli madde sınıra bağlı değilse `YYYY-01-01`e iner; bağlıysa
   "[yalnız yıl teyitli; gün teyitsiz]" notuyla kalır (`arac/teyit_uygula.py --yil-karari`).
 - Kaynakta kesin okunan "şu yer, şu tarihte, şu devletin" tanıklığı

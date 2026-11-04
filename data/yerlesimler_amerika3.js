@@ -101,94 +101,94 @@ window.YERLESIMLER_AMERIKA3 = [
 
 { ad:"Zacatecas", tur:"sehir", lat:22.7709, lon:-102.5832, g:1, k:1,
   kur:"1546-09-08",
-  s:[{f:"1546-09-08",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1546-09-08",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 8 Eylül 1546 gümüş keşfi ve yerleşimin kuruluşu; TDV bu taneciği kapsamıyor (amerika maddesi gövdesi okundu, geçmiyor)" },
 // k gerekçesi: Nueva Galicia'nın gümüş başkenti, sonra Zacatecas intendanslığının merkezi — k:1
 
 { ad:"Durango (Victoria de Durango)", tur:"sehir", lat:24.0277, lon:-104.6532, g:1, k:1,
   kur:"1563-07-08",
-  s:[{f:"1563-07-08",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1563-07-08",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 8 Temmuz 1563, Francisco de Ibarra; Nueva Vizcaya'nın başkenti. TDV taneciği kapsamıyor" },
 // k gerekçesi: Nueva Vizcaya eyaletinin başkenti — k:1
 
 { ad:"Saltillo", tur:"sehir", lat:25.4232, lon:-101.0053, g:0, k:1,
   kur:"1577-07-25",
-  s:[{f:"1577-07-25",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1577-07-25",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 1577, Alberto del Canto; sonradan Coahuila'nın başkenti. TDV taneciği kapsamıyor" },
 // k gerekçesi: Coahuila eyalet merkezi — k:1
 
 { ad:"Monterrey", tur:"sehir", lat:25.6866, lon:-100.3161, g:1, k:1,
   kur:"1596-09-20",
-  s:[{f:"1596-09-20",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1596-09-20",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Monterrey kuruldu — Nuevo León'un başkenti» (1596-09-20, yer kolu) kaynağı — Peter Gerhard, The North Frontier of New Spain (Princeton: Princeton University Press, 1982) — kuzey serhaddin standart idarî coğrafyası · hassasiyet: GÜN · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 20 Eylül 1596, Diego de Montemayor; Nuevo León'un başkenti. TDV taneciği kapsamıyor" },
 // k gerekçesi: Nuevo León eyaletinin başkenti — k:1
 
 { ad:"Chihuahua (San Felipe el Real)", tur:"sehir", lat:28.6353, lon:-106.0889, g:1, k:1,
   kur:"1709-10-12",
-  s:[{f:"1709-10-12",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1709-10-12",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 12 Ekim 1709 kuruluşu (San Felipe el Real de Chihuahua). TDV taneciği kapsamıyor" },
 // k gerekçesi: ölçülen yalanın MERKEZİ — 683 km öteden Acoma Pueblo'dan emiliyordu. k:1
 
 { ad:"San José del Parral", tur:"sehir", lat:26.9333, lon:-105.6667, g:0, k:2,
   kur:"1631-01-01",
-  s:[{f:"1631-01-01",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1631-01-01",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 1631 gümüş keşfi; 1640-1731 arası Nueva Vizcaya'nın fiilî idarî merkezi. GÜN BİLİNMİYOR, CLAUDE.md §4 gereği YYYY-01-01 yazıldı, uydurulmadı" },
 // k gerekçesi: bir asır boyunca Nueva Vizcaya'nın fiilî merkezi — k:2
 
 { ad:"Monclova (Santiago de la Monclova)", tur:"sehir", lat:26.9014, lon:-101.4211, g:0, k:2,
   kur:"1689-01-01",
-  s:[{f:"1689-01-01",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1689-01-01",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 1689 yeniden kuruluşu (önceki 1577/1674 denemeleri kalıcı olmadı); Coahuila'nın ilk başkenti. GÜN BİLİNMİYOR" },
 // k gerekçesi: Coahuila'nın ilk eyalet merkezi, sonra Saltillo'ya devretti — k:2
 
 { ad:"Culiacán (San Miguel de Culiacán)", tur:"sehir", lat:24.8091, lon:-107.3940, g:0, k:2,
   kur:"1531-01-01",
-  s:[{f:"1531-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem"},
-     {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1531-01-01",t:"1535-04-17",d:"yeni-ispanya-ilk-donem",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Yeni İspanya Genel Valiliği kuruldu» (1535-04-17, taraf kolu) kaynağı — amerika (varlık ve sınır) — TDV amerika birebir: '…Kuzey Amerika’daki sömürgelerini, merkezi Meksika’da olan bir genel valilikle yönetimi altına almıştı. Bu genel valiliğin sınırları Meksika, Yucatan yarımadası ve Guatemala bölgelerini kapsıyordu.' · Kuruluş yılı, 17 Nisan günü ve Mendoza için bulunamadı — TDV amerika vermiyor; gün devlet künyesinin başlangıç gününden devralındı, günün kendisi de … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1535-04-17",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Yeni İspanya Genel Valiliği kuruldu» (1535-04-17, taraf kolu) kaynağı — amerika (varlık ve sınır) — TDV amerika birebir: '…Kuzey Amerika’daki sömürgelerini, merkezi Meksika’da olan bir genel valilikle yönetimi altına almıştı. Bu genel valiliğin sınırları Meksika, Yucatan yarımadası ve Guatemala bölgelerini kapsıyordu.' · Kuruluş yılı, 17 Nisan günü ve Mendoza için bulunamadı — TDV amerika vermiyor; gün devlet künyesinin başlangıç gününden devralındı, günün kendisi de … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 1531, Nuño Beltrán de Guzmán; kuzeybatının en eski İspanyol yerleşimi. GÜN BİLİNMİYOR. 1531-1535 arası KASTEN ispanya: yeni-ispanya künyesi devletler.js'te 1535-04-17'de başlıyor, §3.5 hayalet sınavı" },
 // k gerekçesi: Sinaloa'nın idarî merkezi — k:2
 
 { ad:"Álamos", tur:"sehir", lat:27.0264, lon:-108.9364, g:0, k:2,
   kur:"1682-01-01",
-  s:[{f:"1682-01-01",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1682-01-01",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 1682 gümüş yatağı ve real de minas kuruluşu; Sonora'nın güney kapısı. GÜN BİLİNMİYOR" },
 // k gerekçesi: Sonora'nın en zengin maden merkezi — k:2
 
 { ad:"Arizpe", tur:"sehir", lat:30.3378, lon:-110.1631, g:0, k:2,
   kur:"1646-01-01",
-  s:[{f:"1646-01-01",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1646-01-01",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 1646 Cizvit misyonu; 1776'da Provincias Internas'ın başkenti yapıldı. GÜN BİLİNMİYOR" },
 // k gerekçesi: 1776-1780'ler Provincias Internas başkenti — k:2
 
 { ad:"Pitic (Hermosillo)", tur:"sehir", lat:29.0729, lon:-110.9559, g:0, k:2,
   kur:"1700-01-01",
-  s:[{f:"1700-01-01",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1700-01-01",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 1700 civarı Presidio de Pitic; 1828'de Hermosillo adını aldı. GÜN BİLİNMİYOR" },
 // k gerekçesi: Sonora kıyı ovasının merkezi — k:2
 
 { ad:"Loreto (Baja California)", tur:"liman", lat:26.0111, lon:-111.3436, g:0, k:1,
   kur:"1697-10-25",
-  s:[{f:"1697-10-25",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1697-10-25",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 25 Ekim 1697, Juan María de Salvatierra; Kaliforniyalar'ın ilk kalıcı İspanyol yerleşimi ve 1697-1777 başkenti. TDV taneciği kapsamıyor" },
 // k gerekçesi: Kaliforniyalar'ın başkenti (1697-1777) — k:1
 // ⚠️ Baja California 1848'den SONRA da Meksika'da kaldı; `abd` YAZILMADI.
 
 { ad:"Misión San Vicente Ferrer", tur:"kale", lat:31.3319, lon:-116.2469, g:0, k:2,
   kur:"1780-08-27",
-  s:[{f:"1780-08-27",t:"1821-09-27",d:"yeni-ispanya"},
-     {f:"1821-09-27",t:"2000-12-31",d:"meksika"}],
+  s:[{f:"1780-08-27",t:"1821-09-27",d:"yeni-ispanya",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1821-09-27",t:"2000-12-31",d:"meksika",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Iturbide Mexico City’ye girdi; Meksika bağımsızlığı (ertesi gün bağımsızlık bildirgesi) — Tilantongo» (1821-09-27, taraf kolu) kaynağı — Watanabe-O’Kelly, H., «Mexican independence from Spain and the first Mexican emperor», OUPblog, 30.06.2021, https://blog.oup.com/2021/06/mexican-independence-from-spain-and-the-first-mexican-emperor/ (açıldı 22.10.2026): «On 27 September 1821, Iturbide entered Mexico City.» «On the following day, amid general euphoria, the Act of Independence was signed.» | BEYANLI YAKLAŞIKLIK: Tilantongo’nun … · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"}],
   kaynak:"Peter Gerhard, The North Frontier of New Spain (1982) — 27 Ağustos 1780, Dominiken misyonu ve presidio; kuzey Baja California'nın sınır karakolu" },
 // 🔴 BU KAYIT ÖLÇÜMÜN İKİNCİ TURUNDA DOĞDU — VARSAYIMLA DEĞİL.
 // İlk 12 nokta yazıldıktan sonra ızgara YENİDEN koşuldu: 1870'te `abd` boyanan
@@ -228,8 +228,8 @@ window.YERLESIMLER_AMERIKA3 = [
 
 { ad:"Manaus (Forte de São José do Rio Negro)", tur:"kale", lat:-3.1190, lon:-60.0217, g:1, k:1,
   kur:"1669-01-01",
-  s:[{f:"1669-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1669-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"John Hemming, Amazon Frontier / Red Gold (Harvard Univ. Press) — 1669 Forte de São José do Rio Negro, Francisco da Mota Falcão; Rio Negro ağzının Portekiz karakolu, 1832'de Manaus adını aldı. GÜN BİLİNMİYOR, uydurulmadı" },
 // k gerekçesi: orta Amazon'un merkezi — ölçülen yalanın çekirdeği (958 km öteden
@@ -237,24 +237,24 @@ window.YERLESIMLER_AMERIKA3 = [
 
 { ad:"Santarém (Tapajós)", tur:"sehir", lat:-2.4400, lon:-54.7080, g:0, k:2,
   kur:"1661-01-01",
-  s:[{f:"1661-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1661-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"John Hemming, Amazon Frontier — 1661 Cizvit misyonu (Tapajós ağzı), 1758'de vila. GÜN BİLİNMİYOR" },
 // k gerekçesi: Tapajós-Amazon kavşağı — k:2
 
 { ad:"Óbidos (Pauxis)", tur:"kale", lat:-1.9075, lon:-55.5175, g:0, k:2,
   kur:"1697-01-01",
-  s:[{f:"1697-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1697-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"John Hemming, Amazon Frontier — 1697 Forte dos Pauxis; Amazon'un en dar boğazını tutan Portekiz kalesi. GÜN BİLİNMİYOR" },
 // k gerekçesi: Amazon'un en dar geçidini denetleyen kale — k:2
 
 { ad:"Tabatinga", tur:"kale", lat:-4.2528, lon:-69.9381, g:0, k:2,
   kur:"1766-01-01",
-  s:[{f:"1766-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1766-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"John Hemming, Amazon Frontier — 1766 Portekiz sınır karakolu (Solimões üzerinde, İspanyol Maynas'a karşı). GÜN BİLİNMİYOR" },
 // k gerekçesi: yukarı Amazon'un Portekiz sınır karakolu — batı Amazon'u
@@ -262,24 +262,24 @@ window.YERLESIMLER_AMERIKA3 = [
 
 { ad:"Barcelos (Mariuá)", tur:"sehir", lat:-0.9750, lon:-62.9236, g:0, k:2,
   kur:"1758-01-01",
-  s:[{f:"1758-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1758-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"John Hemming, Amazon Frontier — 1758'de Rio Negro kaptanlığının ilk başkenti (Mariuá karmelit misyonu üzerine). GÜN BİLİNMİYOR" },
 // k gerekçesi: Rio Negro kaptanlığının ilk başkenti — k:2
 
 { ad:"Macapá", tur:"kale", lat:0.0389, lon:-51.0664, g:0, k:2,
   kur:"1758-01-01",
-  s:[{f:"1758-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1758-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"John Hemming, Amazon Frontier — 1758 Vila de São José de Macapá; Fortaleza inşaatı 1764. Amazon ağzının kuzey yakasını Fransız Guyanası'na karşı tutar. GÜN BİLİNMİYOR" },
 // k gerekçesi: Amazon ağzının kuzey kıyısı, Fransa'ya karşı sınır — k:2
 
 { ad:"Cuiabá", tur:"sehir", lat:-15.6014, lon:-56.0979, g:1, k:1,
   kur:"1719-04-08",
-  s:[{f:"1719-04-08",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1719-04-08",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"Charles R. Boxer, The Golden Age of Brazil 1695-1750 (Univ. of California Press, 1962) — 8 Nisan 1719 altın keşfi ve arraial kuruluşu (Pascoal Moreira Cabral); 1727'de Vila Real do Bom Jesus do Cuiabá" },
 // k gerekçesi: Mato Grosso'nun merkezi — 1038 km öteden Sucre'den emilip
@@ -287,40 +287,40 @@ window.YERLESIMLER_AMERIKA3 = [
 
 { ad:"Vila Bela da Santíssima Trindade", tur:"sehir", lat:-15.0069, lon:-59.9506, g:0, k:1,
   kur:"1752-03-19",
-  s:[{f:"1752-03-19",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1752-03-19",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"Charles R. Boxer, The Golden Age of Brazil (1962) — 19 Mart 1752, Antônio Rolim de Moura; Mato Grosso kaptanlığının başkenti, 1750 Madrid Antlaşması sınırını fiilen tutmak için kuruldu" },
 // k gerekçesi: Mato Grosso kaptanlığının başkenti (1752-1820) — k:1
 
 { ad:"Forte Príncipe da Beira", tur:"kale", lat:-12.4181, lon:-64.4200, g:0, k:2,
   kur:"1776-06-20",
-  s:[{f:"1776-06-20",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1776-06-20",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"Charles R. Boxer / John Hemming — 20 Haziran 1776 temel atma; Guaporé üzerinde İspanyol Moxos'a karşı Portekiz sınır kalesi" },
 // k gerekçesi: Guaporé sınır hattı — Rondônia'yı Bolivya'dan emilmekten kurtarır. k:2
 
 { ad:"Vila Boa de Goiás", tur:"sehir", lat:-15.9339, lon:-50.1400, g:0, k:1,
   kur:"1727-01-01",
-  s:[{f:"1727-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1727-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"Charles R. Boxer, The Golden Age of Brazil (1962) — 1727 altın arraial'i (Bartolomeu Bueno da Silva), 1739'da vila ve Goiás kaptanlığının başkenti. GÜN BİLİNMİYOR" },
 // k gerekçesi: Goiás kaptanlığının başkenti — Cerrado boşluğunu kapatır. k:1
 
 { ad:"Oeiras (Piauí)", tur:"sehir", lat:-7.0250, lon:-42.1311, g:0, k:1,
   kur:"1712-01-01",
-  s:[{f:"1712-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1712-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"Stuart B. Schwartz, Sugar Plantations in the Formation of Brazilian Society (Cambridge Univ. Press, 1985) — 1712 Vila da Mocha, 1761'de Oeiras adıyla Piauí kaptanlığının başkenti. GÜN BİLİNMİYOR" },
 // k gerekçesi: Piauí kaptanlığının başkenti — Caatinga boşluğunu kapatır. k:1
 
 { ad:"São Cristóvão (Sergipe)", tur:"sehir", lat:-11.0147, lon:-37.2064, g:0, k:1,
   kur:"1590-01-01",
-  s:[{f:"1590-01-01",t:"1822-09-07",d:"portekiz-brezilyasi"},
-     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu"},
+  s:[{f:"1590-01-01",t:"1822-09-07",d:"portekiz-brezilyasi",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
+     {f:"1822-09-07",t:"1889-11-15",d:"brezilya-imparatorlugu",kaynak:"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan etti (Ipiranga); São Miguel das Missões ve Serra da Barriga …» (1822-09-07, taraf kolu) kaynağı — Infopedia, Grito do Ipiranga (https://www.infopedia.pt/artigos/$grito-do-ipiranga); Todamateria, Independência do Brasil · BEYANLI: olayın kaynağıdır, yerleşim tanıklığı değil"},
      {f:"1889-11-15",t:"2000-12-31",d:"brezilya-cumhuriyeti"}],
   kaynak:"Stuart B. Schwartz, Sugar Plantations in the Formation of Brazilian Society (1985) — 1590, Cristóvão de Barros; Sergipe kaptanlığının başkenti. GÜN BİLİNMİYOR" },
 // k gerekçesi: Sergipe kaptanlığının başkenti — k:1

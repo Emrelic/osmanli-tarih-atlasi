@@ -179,8 +179,8 @@ window.OLAYLAR_P0049 = [
   b:"Moskova Antlaşması — TBMM ile Sovyet Rusya doğu sınırını belirledi",
   gun:"16 Mart 1921",
   yer:"Moskova; Kars, Ahıska", yer_id:"Kars", kisiler:"",
-  d:"TBMM hükümeti ile Sovyet Rusya arasında 16 Mart 1921'de Moskova Antlaşması imzalandı. TDV'nin Kars maddesine göre bu antlaşma ile 13 Ekim 1921'deki Kars Antlaşması'nın sınır düzenlemeleri sonucunda Kars yeni Türk devletinin sınırları içinde kaldı. Ahıska maddesine göre ise Ahıska bu antlaşmayla Gürcistan Sovyet Sosyalist Cumhuriyeti'nin Tiflis vilâyetine bağlandı. Doğu sınırı, yedi ay sonra Güney Kafkasya cumhuriyetleriyle imzalanan Kars Antlaşması'yla kesinleşecekti.",
-  kaynak:"kars · ahiska" },
+  d:"TBMM hükümeti ile Sovyet Rusya arasında 16 Mart 1921'de Moskova Antlaşması imzalandı. TDV'nin Kars maddesine göre bu antlaşma ile 13 Ekim 1921'deki Kars Antlaşması'nın sınır düzenlemeleri sonucunda Kars yeni Türk devletinin sınırları içinde kaldı. Ahıska maddesine göre ise Ahıska bu antlaşmayla Gürcistan Sovyet Sosyalist Cumhuriyeti'nin Tiflis vilâyetine bağlandı. Doğu sınırı, yedi ay sonra Güney Kafkasya cumhuriyetleriyle imzalanan Kars Antlaşması'yla kesinleşecekti. Bu antlaşmayla Batum ve Acara (Hulo, Sarp, Murvaneti, Makhalak'auri) Sovyet Gürcistanı'na bırakıldı.",
+  kaynak:"kars · ahiska · Yer teyidi (DUNYA-1102 D(b), 3 Kasım 2026): TDV İslâm Ansiklopedisi, 'Batum' ve 'Ahıska'" },
 
 { t:"1921-06-01", k:"siyaset", etiket:["kurtulus","toprak-kazanc","konu-askeri","konu-siyasi"],
   b:"İtalyanlar Antalya'yı boşaltmaya başladı",
