@@ -508,6 +508,30 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
 - **Cezayir 1830-48 ölçümü** (soru S7 için): veride **35 Cezayir noktası** `s: fransa`'ya 1830-1844 arasında geçiyor; her biri kendi fetih gününde.
   - Tahrir ölçütüne göre Genel Valilik (1834-07-22) öncesi `isg` adayı. Sonrası, idareye katma (Cezayir'in Fransa'ya bağlanması) olarak ayrıca ölçülecek.
 
+## 20. Toplu kararlar ve tarayıcı okumaları (EMRELİC, 4 Kasım 2026 gece)
+- **Kıbrıs 1878-1914** (S1):
+  - `d: Osmanlı` + `isg ingiltere` → 1914-11-05, ardından `s: ingiltere`; Lozan md. 20 ic_not'a.
+  - Veride 6 nokta etkileniyor: Lefkoşa, Magosa, Girne, Baf, Limasol, Tuzla (`toplu_kural.json`).
+- **Mısır 1882-1914:**
+  - `v:` Osmanlı (Hidivlik) + `isg ingiltere` → 1914-12-18, ardından himaye.
+  - Ölçüt "s: ingiltere 1882-1914" deseniyle aradı; veride bu desende **dilim çıkmadı**. Mısır zinciri başka künyelerle kurulmuş olabilir; ayrıca ölçülecek.
+- **Cezayir 1830-34** (S4/S7):
+  - 1830-34 arası fetihler `isg fransa` → 1834-07-22'den itibaren `s:`; `v:` Cezayir Ocağı sürer.
+  - 10 nokta etkileniyor: Cezayir, Oran, Annaba, Bicâye, Şerşel, Medea, Mersa'l-Kebîr, Blida, Miliana, Mustaganem (`toplu_kural.json`). 1834 sonrası fetihler kendi günüyle kalır.
+- **Lahsa** (S5 değişti): İbn Suud 1913'te aldı ve idaresine kattı; bu bir fetih, `s: suud` 1913'ten. 1914 Mayıs → 1915-12-26 arası `v: osmanli`.
+- **Otranto:** `isg osmanli`. **Erzincan çevresi 1390-1402:** `v:` Mutahharten. **Uydu devletler:** S2 kabul edildi.
+- **Habsburg Macaristan (A1):** askı kalktı, idareye katma belgelendi.
+  - Kaynak: Hodson, *Austrian History Yearbook* 38 (2007) s.103, 106. 1685 kameral idare, 1688 Neoacquistica, öşür.
+  - `s: habsburg` fetih gününden; Karlofça ic_not'a.
+  - Belgrad 1688-90 ve Temeşvar'a uygulanmaz.
+- **Rus Estonya ve Livonya 1710 (A2):** askı kalktı, idareye katma belgelendi.
+  - Kaynak: 1710 kapitülasyonları; CUP *Encyclopedia of European Migration and Minorities*.
+  - `s: rusya` kapitülasyon gününden (Riga 1710-07, Reval 1710-09; Jülyen → Gregoryen). Narva 1704. Nystad ic_not'a.
+- **Baltık SSCB'ye kabul günleri (A3):**
+  - Letonya 1940-08-05 ve Estonya 1940-08-06 teyitli.
+  - Litvanya'da 08-03 / 08-05 çelişkisi var (Oxford Companion 08-05); ikisi de ic_not'a yazılır, **BEKLE**.
+- **Slot sayacı:** `slot.py` eklendi; en çok 6 ajan, dolunca `al` reddediyor.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
