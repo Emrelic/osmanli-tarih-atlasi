@@ -172,7 +172,7 @@
   "kunye": "etiyopya-federal f 1995-08-21",
   "gun": "1995-08-21",
   "guc": "ORTA",
-  "dayanak": "Federal Negarit Gazeta / WIPO Lex (EMRELİC)",
+  "dayanak": "Federal Negarit Gazeta / WIPO Lex (EMRELİC) · H4B TEYİT: WIPO Lex ET007 «Entry into force: August 21, 1995» (açıldı)",
   "onay": "EMRELİC 5 Kasım (gece-19)"
  },
  {
@@ -194,7 +194,7 @@
   "kunye": "habsburg t 1918-11-12 KALIR",
   "gun": "1918-11-11",
   "guc": "ORTA",
-  "dayanak": "EMRELİC kararı (KASA'ya verildi)",
+  "dayanak": "EMRELİC kararı (KASA'ya verildi) · H4B TEYİT: Encyclopedia of Ukraine (Kubijovyč/Zhukovsky) «on 6 November it took power … including Chernivtsi» · «On 11 November the Romanian army occupied Chernivtsi and all Bukovyna» · «unification of Bukovyna with Romania on 28 November» — EMRELİC kuralının üç günü birebir",
   "onay": "EMRELİC 5 Kasım (gece-19)"
  },
  {
@@ -240,5 +240,16 @@
   "islem": "devletler.js bengal-nevabligi t → 1765-08-12; ic_not_t: 'Plassey 1757-06-23; Baksar 1764-10-22; 1765 sonrası Nizâmet (nominal nevvâb) 1793'e dek — harita için v: değil'. Yerleşimlerde 1757-06-23 → 1765-08-11 dilimi s: bengal-nevabligi (Mîr Câfer / Mîr Kâsım; Mungîr dahil). DEĞİŞMEZ 2 — LAB ölçümü origin/main: 1765-08-12 maddesi YALNIZ data/kronoloji_hindistan.js:414'te (taraflar: babur-imparatorlugu) — bu dosya Değişmez 2 evreninde DEĞİL; olaylar*.js / kronoloji_sinir*.js'te 1765-08 maddesi YOK → kronoloji_sinir'e madde önerisi: 1765-08-12 'Allahâbâd Antlaşması: Divânî Şirket'e geçti — Bengal-Bihar-Orissa İngiliz idaresine', taraflar [bengal-nevabligi, ingiliz-hindistani]. Plassey maddeleri VAR (kronoloji_sinir_nokta2.js:46 taraflar bengal-nevabligi+ingiliz-hindistani) — 1757 kırılması kalkınca o madde serbest kalır, silinmez.",
   "dayanak": "EMRELİC kararı (gece-23); kronoloji_hindistan.js:414 Allahâbâd 1765-08-12",
   "onay": "EMRELİC 5 Kasım gece-23"
+ },
+ {
+  "d": "norvec-1814",
+  "tur": "KUNYE_GENISLET",
+  "karar": "KUNYE_GENISLET",
+  "guc": "GÜÇLÜ",
+  "kunye": "norvec-1814 f 1814-05-17 → 1814-02-19",
+  "gun": "1814-02-19",
+  "islem": "devletler.js norvec-1814 f → 1814-02-19 (Christian Frederik'in 19 Şubat bildirileriyle naip olarak iktidarı alması). ic_not_f: '1814-01-14 Kiel antlaşması (Danimarka Norveç'i İsveç'e bıraktı); 1814-02-16 Eidsvoll ileri gelenler toplantısı; 1814-05-17 anayasa ve kral seçimi'. Norveç yerleşimleri: 1814-01-14 → 02-18 s: danimarka (Christian Frederik Danimarka valisi), 02-19'dan norvec-1814. DEĞİŞMEZ 2 — LAB ölçümü origin/main: olaylar*/kronoloji_sinir*'te 1814-02 Norveç maddesi YOK (yalnız 01-14 Kiel, olaylar_ek16.js:150) → kronoloji_sinir'e madde önerisi: 1814-02-19 'Christian Frederik naip olarak Norveç'te iktidarı aldı (Kiel'i tanımama)', taraflar [norvec-1814, danimarka]; Kiel 01-14 maddesi Danimarka→İsveç devri için kalır.",
+  "dayanak": "Store norske leksikon 'Christian Frederik': «Med proklamasjonene av 19. februar tok han enevoldsmakten på kort sikt»; SNL 'stormannsmøtet': «holdt på Eidsvoll 16. februar 1814»",
+  "onay": "EMRELİC 5 Kasım (GENİŞLET; gün snl.no'dan — H4B)"
  }
 ]
