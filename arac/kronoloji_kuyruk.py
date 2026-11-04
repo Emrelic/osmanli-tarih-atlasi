@@ -36,6 +36,9 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2S 591-602 (S19)
+    "L2-954": "Ceneviz ipek loncası 1320 → 1432 adayı: SLSP (memoriedigitaliliguri.it) ekstresi Arte della Seta 1432 — yazar okunamadı; Di Tucci 1948 (Atti SLSP LXXI) ile teyit gerek; 1320'yi destekleyen akademik kaynak yok",
+    "L2-959": "Muhammed b. Tuğluk bakır sikkesi 1329 → 1331 adayı: TDV «Tuğluklular» 731-732 (1331-1332); Haig yıl vermez; Jackson (Delhi Sultanate) teyidi gerek",
     # L2E 1391-1402 (EMRELİC): ganzhi günleri Academia Sinica teyidine kadar
     "L2-1845": "[çeviri doğrulanmadı] Pingcheng'e taşınma: Wei shu c.2 天興元年秋七月 (398, 7. ay) — Academia Sinica çevirisi bekliyor (EMRELİC)",
     "L2-1851": "[çeviri doğrulanmadı] Liu Song Wen tahta çıkışı: Song shu c.5 八月丁酉 — Academia Sinica çevirisi bekliyor (EMRELİC)",
@@ -131,6 +134,8 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    "L2-953": ("tarih düzelt", "Alâeddin Halacî ölümü 1316-01-04 → 1316-01-06 (TDV «Halacîler»; CLAUDE.md: tarih çelişkisinde TDV esas) — ic_not: Iranica 3 Ocak (6 Şevval 715), Haig CHI III 2 Ocak; atlasın 4 Ocak'ı akademik kaynakta yok"),
+    "L2-960": ("tarih düzelt", "Este papalık vekilliği 1332-01-02 → 1332-01-17 tören ve resmî devir (Treccani DBI «Este, Obizzo d'»); 29 Haziran 1329 Johannes XXII'nin vekâlet yetkisi (10 yıl, yıllık 10.000 florin) ic_not; «erkek soy tükenirse papalığa döner / 1598» DBI'da okunmadı → metin kontrol"),
     "L2-979": ("metin düzelt (tarih kalır)", "Yoshimitsu 1401: 1401 Mayıs'ta yalnız ilk elçilik; kangō ticareti 1404'ten itibaren (Nipponica/Ikegami «kangō», Digital Daijisen) → 1401 KALIR, metin «Ming'e ilk elçiliği gönderdi» olur; kangō 1404 ic_not'a (ya da ayrı madde)"),
     "L2-932": ("tarih düzelt", "Modena Este'ye: 1288-06-01 → 1288-12-15 (Treccani EI «Modena»: «Il 15 dicembre 1288 … offrire il dominio e le chiavi della città a Obizzo»); fiilî giriş 1289-01-23 ic_not; +197 gün — s:/sınıra bağlıysa kırılma ve ±30 gün komşu maddeler (Reggio 1289) birlikte taşınır; tek kaynak"),
     "L2-1401": ("tarih düzelt", "Tondibi / Dendi künye ucu 1591-01-01 → 1591-03-01 + «[yalnız ay teyitli; gün teyitsiz]» (Kaba, Journal of African History 1981: Mart 1591); Ta'rikh es-Sudan rivayeti 12 Nisan 1591 → çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
@@ -305,6 +310,11 @@ METIN = [
     ("L2-990", "Kapilendra 1434 (Haig CHI III) yıl tutar; devletler.js orissa kaydında aynı olay iki kez (1435-01-01 ve 1434-01-01) → yinelenen madde birleşir; 29 Haziran 1435 taç giyme yalnız Madala Panji tabanlı ikincil"),
     ("L2-989", "Taccola De ingeneis tek günlük olay değil: 1419 başladı, III-IV ciltler 1431-33, eser 1450 bitti (DBI 70); 1433-01-02 kaynaksız → yıl hassasiyeti ve süre ifadesi"),
     ("L2-985", "Fonte Gaia 1419-10-20: DBI 62'ye göre son ödemenin (saldo) günü, iş kısa süre önce bitti → metin «tamamlandı / son ödeme» beyanı"),
+    # L2S 591-602 (S19)
+    ("L2-961", "İbn Battûta: «altı yıl Delhi kadısı» → TDV «yedi yıldan fazla» (22 Temmuz 1342'ye dek)"),
+    ("L2-958", "Devletâbâd 1327: TDV iç tutarsızlığı — «Delhi Sultanlığı» Devagiri'yi «ikinci idarî merkez», «Tuğluklular» «başşehir» der → iki madde ic_not'a"),
+    ("L2-957", "[BEKLE — kaynaksız ifadeler] Hammîr/Çitor 1326: «Tuğluk merkezinin dikkati Dekken'e kayınca» ve «Guhila yan kolu» Haig'de yok; Hammîr'in ölümü 1364"),
+    ("L2-963", "Siena Duomo Nuovo: Consiglio generale kararı 23 Ağustos 1339 (212 evet/132 hayır; Bartalini, Il duomo nuovo di Siena); işler 1339 sonunda fiilen başladı → ic_not"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
