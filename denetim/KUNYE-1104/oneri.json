@@ -580,8 +580,8 @@
 },
 {
 "id": "azuchi-momoyama",
-"hukum": "KISMEN",
-"kaynak": "f GÜN TEYİTLİ — EMRELİC Cambridge — Cambridge History of Japan IV, ch.2 (Berry), s.~41: 'In the ninth month of 1568 Nobunaga entered Kyoto' + KASA SALI, NAOJ ECO: Eiroku 11/9/26 = Jülyen 1568-10-16 = Gregoryen 1568-10-26 → veri f 1568-10-16 DOĞRU; ic_not: 'Takvim: Eiroku 11/9/26 (NAOJ ECO) = Jülyen 1568-10-16 = Gregoryen 1568-10-26' · t YIL teyitli: CHJ IV ch.4 (Asao): 'Ieyasu renewed his attack in May of 1615 … Osaka Castle was entered and burned. Hideyori and his mother committed suicide' + CHJ IV ch.1 (Hall) 1615; 'May' büyük olasılıkla Japon 5. ayı (Keichō 20/5/8 → Gregoryen 1615-06-04?) — NAOJ çevirisi KASA SALI'de bekliyor"
+"hukum": "TEYIT",
+"kaynak": "f: EMRELİC Cambridge — Cambridge History of Japan IV, ch.2 (Berry), s.~41: 'In the ninth month of 1568 Nobunaga entered Kyoto' + KASA SALI, NAOJ ECO: Eiroku 11/9/26 = Jülyen 1568-10-16 = Gregoryen 1568-10-26 (veri f Jülyen karşılığı, 1582-10-15 öncesi atlas kuralı) · t: CHJ IV ch.4 (Asao): 'Ieyasu renewed his attack in May of 1615 … Osaka Castle was entered and burned. Hideyori and his mother committed suicide' + CHJ IV ch.1 (Hall) + KASA SALI, NAOJ ECO: Keichō 20/5/8 (Hideyori'nin intiharı) = Gregoryen 1615-06-04 (Jülyen 05-25); 5/7 kale düşüşü = 06-03 → veri t 1615-06-04 DOĞRU. ic_not: 'Takvim: Eiroku 11/9/26 = Jülyen 1568-10-16 = Gregoryen 1568-10-26 · Keichō 20/5/8 = Gregoryen 1615-06-04 (Jülyen 05-25); 5/7 kale düşüşü = 06-03 (NAOJ ECO). İki uç farklı takvimde: atlas kuralı 1582-10-15 öncesi Jülyen, sonrası Gregoryen.'"
 },
 {
 "id": "guney-ming",
