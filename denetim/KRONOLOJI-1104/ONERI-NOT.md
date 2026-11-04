@@ -24,6 +24,10 @@ kaynak bulundu 36 · tarih düzelt 3 · bulunamadı 5 · çekilemedi 6.
 **Gün çelişkisi:** 3 Amiens (25/27 Mart) · 35 Cenova 1797 (6/14/15 Haziran; olay hükûmet
 kuruluşu) · 16 Nagpur (1853/1854) · 34 Granada (2 Ocak teyitli; Britannica Crusades "12 Ocak").
 
+**Doğrulama geçişi sonrası (`oneri_001-050_dogrulama.tsv`):** Madrid 1670-07-18 uygun (TNA
+kataloğu, birincil kayıt). Sardinya 1720-08-24 **ADAY** kalır: yalnız Britannica'ya dayanıyor,
+Treccani ("Sardegna" / "Vittorio Amedeo II") ile ikinci akademik teyit bekler (EMRELİC 1 KASIM).
+
 **Sıradaki adım (doğrulama geçişi):** her "kaynak bulundu" satırında kaynak sayfası GET ile
 açılıp rakamı taşıyan cümle okunur; künye kataloğa bakılır; ancak ondan sonra veri sahibine
 (KASA PAZAR) öneri olarak gider.
