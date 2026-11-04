@@ -98,3 +98,14 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
    - Qing'in 1912-02-12 tahttan çekilişi `ic_not`a.
 6. **Patan / Baroda çakışması** LAB'a: hangi künye hangi tarihte, Gaekwad'ın tâbiliği.
 - **TBMM K05 ASKIDA kalır.** Kurtuluş günleri TDV şehir maddelerinden ayrı bir okumayla alınacak.
+
+## 5 Kasım 2026 gece-21 — P001/P002 üzerine
+
+- **Mellifont (Tuam, Newry, Omagh):** 1603-03-30 Jülyen → **1603-04-09** Gregoryen. Britanya/İrlanda kuralı uygulanır. `ic_not`: "O.S. 30 Mart".
+- **Roermond:** TEK ÖLÇÜ uygulanır; devralan yönetmiyordu, gün TESLİM günüdür. Limburg'un Hollanda'ya fiilî devri 1839 yazındadır, gün kaynakla bulunacak.
+- **Tranquebar:** TEK ÖLÇÜ'ye göre İngiltere'ye teslim günü 1845-11-07'dir, kaynakla teyit edilecek.
+- Roermond ve Tranquebar'ın imza günleri `ic_not`a yazılır.
+- **Onaylananlar:** Aluşta `cenova` 1380-11-27, Dinant, Leknev, Broaç, Mungîr, Kannûr (Arakkal künye sorusu LAB'a), Xuzhou/Baoding `dashun` dilimi.
+- **Rus Kuzey Bölgesi** künye sorusu LAB'a gider.
+- **Oslo/Tønsberg:** KARARLAR esastır. P001 ajanının "danimarka uzasın" önerisi uygulanmaz.
+- **TBMM kurtuluş günleri:** kaynak sırası TDV şehir maddeleri, sonra *Atatürk Araştırma Merkezi Dergisi*, sonra *Türk İstiklal Harbi* (Genelkurmay).
