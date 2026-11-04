@@ -86,5 +86,71 @@
   "gun": "1644-06-07",
   "dayanak": "Struve, The Southern Ming 1644–1662 (Yale 1984) — Hongguang sarayı Ming'in devamı (LAB açmadı); çeviri: Academia Sinica 兩千年中西曆轉換 (EMRELİC, 5 Kasım)",
   "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "ming-hanedani (f)",
+  "tur": "KUNYE_GENISLET",
+  "karar": "KUNYE_GENISLET",
+  "guc": "ORTA",
+  "islem": "devletler.js ming-hanedani f 1368-01-23 → 1356-04-10 (至正十六年三月庚寅, Jülyen, Academia Sinica — EMRELİC). ic_not_f: 'Ming shi j.1: 三月癸未 (1356-04-03) 進攻集慶; 庚寅 (04-10) 再敗元兵於蔣山 … 太祖入城 (gün yok) → alınış ≥04-10, giriş günü teyitsiz; 1364-02-04 (二十四年春正月丙寅朔) 即吳王位; 1368-01-23 Hongwu hanedan ilanı'. Ayrı Wu künyesi AÇILMAZ. Değişmez 2: kronoloji_cin.js:139 1356-04-10 maddesi VAR.",
+  "kunye": "ming-hanedani f 1356-04-10",
+  "gun": "1356-04-10",
+  "dayanak": "明史 卷1 (zh.wikisource.org/wiki/明史/卷1, oldid 2594614, bu oturumda açıldı): «三月癸未，進攻集慶 … 庚寅，再敗元兵於蔣山 … 太祖入城»",
+  "onay": "EMRELİC 5 Kasım (f GENİŞLET; gün seçimi LAB: 04-03 saldırıda Fushou hâlâ savaşıyor, şehir 庚寅'dan sonra giriliyor → 04-10 kaynağa uyan en erken gün)"
+ },
+ {
+  "d": "venedik",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "ARA_ISG",
+  "islem": "devletler.js venedik t → 1797-05-12 (Büyük Konsey oligarşinin sonunu ilan etti); yerleşimlerde 05-12 → 1797-10-17 (Campoformio) dilimi isg fransa; sonrası Avusturya (fiilî teslim günü ayrıca kaynak ister)",
+  "kunye": "venedik t",
+  "gun": "1797-05-12",
+  "guc": "GÜÇLÜ",
+  "dayanak": "Treccani, Napoleone I imperatore (Enciclopedia Italiana) ; Treccani, Campoformio trattato di — «Il 12 maggio 1797 il Maggior Consiglio decreta la fine della vecchia oligarchia | la nuova repubblica democratica, ridotta di fatto alle sole lagune, occupate anch'esse dai Francesi | Il 17 ottobre il trattato di Campoformio consacra e perfeziona quello di Leoben. | Il trattato previde la cessione di Venezia con i suoi domini all'Austria.»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "zend",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "DONEM_KISALT",
+  "islem": "1747-06-20'den başlayan 124 zend dönemi f 1751-01-01'e kısalır (ay beyanlı: TDV 'Ocak 1751'); 1747-51 dilimi sahibi kaynakla (H4: TDV Afşarlar / Ali Merdan Han) — bulunamazsa abi merkez merdiveni (İsfahan)",
+  "kunye": "zend f 1751-01-01 KALIR",
+  "gun": "1751-01-01",
+  "guc": "GÜÇLÜ (f) / AÇIK (dilim)",
+  "dayanak": "TDV KERİM HAN (H3) — «»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "bengal-sultanligi",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "KUNYE_GENISLET",
+  "islem": "Rajmahal savaşı 12 Temmuz 1576 — künye t ve dönemler; Değişmez 2 maddesi ölçülmeli",
+  "kunye": "bengal t 1576-07-12",
+  "gun": "1576-07-12",
+  "guc": "ORTA",
+  "dayanak": "Banglapedia (Asiatic Society of Bangladesh), 'Daud Khan Karrani'; TDV İslâm Ansiklopedisi, BENGAL — «Finally, a decisive battle was fought at Rajmahal on 12 July 1576. Daud was ultimately defeated and executed. | (TDV) Bengal’in Bâbürlü İmparatorluğu’na dahil olması 1576’da Ekber Şah zamanında gerçekleşmiştir.»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "mali-federasyonu",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "ARDIL_KUNYE",
+  "islem": "Senegal'in ayrılışı 1960-08-20 — mali-federasyonu t; ardıl Mali Cumhuriyeti 1960-09-22 (FRUS çıkarımı, beyanlı)",
+  "kunye": "mali-federasyonu t 1960-08-20",
+  "gun": "1960-08-20",
+  "guc": "ORTA",
+  "dayanak": "FRUS 1958-60 vol. XIV, belge 75 (Office of the Historian, dipnot + 23 Eylül 1960 memorandumu); Library of Congress ad kaydı/ülke profili — «declaring Senegal’s independence and requesting recognition | has decided to adopt the name of Republic of Mali»",
+  "onay": "EMRELİC 5 Kasım"
+ },
+ {
+  "d": "edo-bakufu",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "KISMEN",
+  "islem": "ic_not_t: '1867-11-09 大政奉還 güç iadesi ilan edildi, Tokugawa idaresi fiilen sürdü; t 1868-01-03 王政復古'. Yerleşimler Boshin'de fiilî devirle geçer; Edo şehri 1868-05-03 teslim (TEK ÖLÇÜ)",
+  "kunye": "edo t 1868-01-03 KALIR",
+  "gun": "1868-01-03",
+  "guc": "ORTA",
+  "dayanak": "B4 Kotobank (Nipponica)",
+  "onay": "EMRELİC 5 Kasım"
  }
 ]
