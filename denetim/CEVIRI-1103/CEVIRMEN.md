@@ -48,6 +48,21 @@ Büyük girdide çıktıyı tek Write ile yazamıyorsan parçalara böl: `<girdi
      `#` şablonları ve tarih denetimi rakam üzerinden çalışır. MÖ → ق.م (sayıdan sonra:
      "500 ق.م"), MS → م. Hicrî aylar Arapça adıyla (محرم، صفر، ربيع الأول …).
    - Latin harfli kısaltma, kaynak adı, dosya adı (TDV, Shaw, data/devletler.js) aynen kalır.
+3b. **Fransızca (fr) ölçüsü:** Fransız Osmanistiği ve bizantinoloji kullanımı — Robert Mantran
+   (dir.), *Histoire de l'Empire ottoman*; *Encyclopédie de l'Islam* (EI2 fr.); *Le Monde
+   byzantin* (PUF). Akademik düzyazı, "passé simple" yerine anlatı için "passé composé"/şimdiki
+   zaman yerine metnin zamanı ne ise o (kronoloji dili: kısa, olgusal).
+   - l'Empire ottoman; padişah → le sultan; sadrazam → le grand vizir; Yeniçeri → les janissaires;
+     beylerbeyi → beylerbey; sancak → sandjak; timar → timar; devşirme → devchirmé; kadı → cadi.
+   - 1453 öncesi Constantinople, sonrası Istanbul (Fransız Osmanistiğinin yaygın kullanımı).
+     Edirne/Andrinople aynı mantıkla; Belgrade, Vienne, la Morée, la Roumélie, la Valachie,
+     la Moldavie, la Transylvanie, le khanat de Crimée, les Mamelouks, les Séfévides,
+     les Seldjoukides, les Qaraqoyunlu / Aqqoyunlu, Venise, Raguse (Dubrovnik).
+   - Kişiler: Mehmed II (le Conquérant yalnız metin lakabı veriyorsa), Bayezid Ier, Soliman le
+     Magnifique (metin "Kanuni" diyorsa: Soliman le Législateur / le Magnifique), Charles Quint.
+   - Sayı: Fransız tipografisi — binlik ayracı boşluk ("10 000"), ondalık virgül; tarih
+     "29 mai 1453"; MÖ → av. J.-C. ("500 av. J.-C."), MS → apr. J.-C.; yüzyıl Roma rakamıyla
+     ("XVe siècle").
 4. Kod, kimlik, dosya yolu, değişken adı gibi görünen ya da çevrilemeyen öğeyi AYNEN bırak.
 5. Arayüz metni kısa ve düğme diliyle: "Göster" → "Show", "Kapat" → "Close". Cümle parçası
    gelirse parça olarak çevir (bir cümlenin ortası olabilir; büyük/küçük harfi koru).
