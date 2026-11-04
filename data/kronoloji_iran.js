@@ -185,7 +185,7 @@ window.KRONOLOJI_IRAN = [
   etiket:["askeri","savas","konu-askeri"],
   d:"[Safevî] Şah Abbas, yeni ordusuyla 1590'da kaybedilen toprakları geri almak için sefere çıktı; Tebriz, Erivan ve Şirvan'ı geri aldı. Osmanlı ile aralıklarla 36 yıl süren bu uzun savaş dizisi, İran tarihyazımında Şah Abbas'ın \"intikam ve restorasyon\" döneminin omurgasıdır ve nihayetinde Kasr-ı Şirin ile bugünkü Türkiye-İran sınırının temelini kurdu.",
   kaynak:"kasrisirin-antlasmasi (TDV, HTTP 200 + başlık «KASRIŞÎRİN ANTLAŞMASI», 14 Eylül 2026 sınandı; eski kasr-i-sirin-antlasmasi 302 ÖLÜ)", yer_id:"Tebriz" },
-{ t:"1622-05-01", b:"Hürmüz'ün Portekiz'den geri alınması", gun:"Mayıs 1622? — ay TDV-dışı kaynağa dayanıyor ve kesinleştirilemedi (Iranica'ya erişilemedi) · TDV `safeviler`, `ilhanlilar`, `kacarlar`, `zendler` … ay/gün vermiyor", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
+{ t:"1622-04-23", ic_not_t:"TDV İslâm Ansiklopedisi 'Hürmüz' (islamansiklopedisi.org.tr/hurmuz--iran): 'geri alındı (23 Nisan 1622)' — eski Mayıs 1622 tahmini düzeltildi; yerleşim kırılmaları (Hürmüz Adası, Kişm, Bender Abbas) birlikte taşındı (HAVVA 2s A-16; KASA PAZAR 4 Kasım 2026)", b:"Hürmüz'ün Portekiz'den geri alınması", gun:"23 Nisan 1622 (TDV hürmüz)", tur:"toprak-kazanc", onem:3, dunya:2, kapsam:"dis",
   etiket:["askeri","toprak","konu-askeri"],
   d:"[Safevî] Şah Abbas, İngiliz Doğu Hindistan Şirketi donanmasının desteğiyle Hürmüz Boğazı'ndaki Portekiz kalesini ele geçirdi; Basra Körfezi ticaret yolları üzerindeki Avrupalı tekel bu şekilde kırıldı ve İran'ın deniz ticaretindeki konumu güçlendi.",
   kaynak:"Encyclopaedia Iranica, madde: HORMUZ ii. Islamic period", yer_id:"Hürmüz Adası" },
