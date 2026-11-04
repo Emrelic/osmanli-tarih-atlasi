@@ -16,4 +16,5 @@ kronoloji oturumu) iletilir. Düzeltilince ilgili çeviriler kendiliğinden baya
 | OLAYLAR_EK12:1913-08-31:0 | "elli yedi gün" | 31 Ağu–25 Eki 1913 ≈ 55 gün; uçları doğrula | iletilecek |
 | OLAYLAR_ILIRYA0072:1779-01-01:0 | id 1779, metin "1820'de şehrin emîri" | tarih tutarsız | iletilecek |
 | OLAYLAR_EK16:1611-07-16:0 | "aynı yıl imzalanacak Deulino (1618)" | 1611 ≠ 1618 | iletilecek |
+| OLAYLAR_ORTACAG_*:1205-03-01:0 (ar parti 012) | "Haçlılar'ın İstanbul'u işgali (Şubat 1204)" | kentin düşüşü 12-13 Nisan 1204 | iletilecek |
 | OLAYLAR_EK6:1547-01-01:0 | Sana'nın fethi id'si Taiz'den (1547-02-01) önce, metin "Taiz'in ardından" | sıra/gün çelişkisi | iletilecek |
