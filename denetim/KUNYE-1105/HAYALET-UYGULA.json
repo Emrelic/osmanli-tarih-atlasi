@@ -526,5 +526,16 @@
   "guc": "ORTA",
   "dayanak": "EMRELİC gece-53",
   "onay": "EMRELİC 6 Kasım gece-53"
+ },
+ {
+  "d": "alman sömürge künyeleri (Versay)",
+  "tur": "KUNYE + YERLESIM + MADDE",
+  "karar": "KUNYE_GENISLET",
+  "guc": "ORTA",
+  "kunye": "alman-kamerun t 1916-02-18 · alman-guneybati-afrikasi t 1915-07-09 · alman-togo t 1914-08-26 → hepsi 1919-06-28 (alman-dogu-afrikasi zaten 1919-06-28)",
+  "gun": "1919-06-28",
+  "islem": "devletler.js (LAB ölçümü origin/main): alman-guneybati-afrikasi :18622, alman-togo :18632, alman-kamerun :18640 — t → 1919-06-28 (Versay imzası; Almanya iddiasını imzaya dek sürdürdü, isg katmanının altında künyeli sahip). Her künyenin eski t gününde künye içi kronoloji maddesi VAR (1'er) → SİLİNMEZ, tur:'isgal' olarak kalır (fiilî işgal/teslim olayı); künye t'sine 1919-06-28 'Versay: Almanya … üzerindeki haklarından feragat etti' maddesi eklenir (aynı commit). Yerleşimler: eski t → 1919-06-27 s: alman-* + isg (guney-afrika-birligi / ingiltere / fransa — mevcut fiilî sahip); 1919-06-28 → 1922-07-19 s: idareci devlet (Namibya/Tanganika emsali — ingiltere / fransa / guney-afrika-birligi), mandalar 1922-07-20'den (ingiliz-kamerun, fransiz-kamerun-mandasi, fransiz-togo, ingiliz-togoland — hepsi f 1922-07-20) ve guneybati-afrika-mandasi 1920-12-17'den. NOT: Dikva (Kamerun) 1916-1922 aralığı GENİŞLET ile YALNIZ 1919-06-28'e dek kapanır; 1919-06-28 → 1922-07-19 dilimi idareci devletle (ingiltere) doldurulmalı. Değişmez 2: kronoloji_sinir_afrika.js:21 (1916-02-18) ve :23 (1915-07-09) isg maddeleri olarak kalır; 1919-06-28 maddeleri Kamerun, Togo için de önerilir (Namibya önerisi UYGULA'da, gece-31).",
+  "dayanak": "Versay Antlaşması md. 119 (1919-06-28); EMRELİC gece-63 (KASA SALI)",
+  "onay": "EMRELİC 6 Kasım gece-63"
  }
 ]
