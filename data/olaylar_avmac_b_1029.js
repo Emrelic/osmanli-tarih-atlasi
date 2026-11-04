@@ -13,9 +13,9 @@ window.OLAYLAR_AVMAC_B_1029 = [
   kaynak:"ADB 29 (Alfons Huber), 'Rudolf IV., Herzog von Oesterreich' — deutsche-biographie.de/sfz74670.html — «Am 26. Januar 1363 übergab sie ihm und seinen Brüdern als ihren nächsten Verwandten das Land Tirol»", duygu:["📋"] },
 
 { t:"1526-10-23", k:"taht", etiket:["siyaset","konu-siyasi"],
-  b:"I. Ferdinand Bohemya kralı seçildi — Habsburg Bohemya tacını aldı", gun:"23 Ekim 1526", yer:"Prag", yer_id:"Prag", kisiler:"I. Ferdinand",
+  b:"I. Ferdinand Bohemya kralı seçildi — Habsburg Bohemya tacını aldı", gun:"23 Ekim 1526", yer:"Prag, Brno, Broumov (Braunau), Glatz (Kłodzko), Hradec Králové, Olomouc, Ostrava (Mährisch Ostrau), Třeboň (Wittingau), České Budějovice (Budweis)", yer_id:"Prag", kisiler:"I. Ferdinand",
   d:"Mohaç'ta II. Lajos'un ölümünün ardından Bohemya Diyeti, seçim şartları (imtiyazların teyidi) karşılığında Ferdinand'ı kral seçti; taç giyme Şubat 1527'dedir. Bohemya, Moravya ve Silezya böylece Habsburg tacına bağlandı.",
-  ic_not_d:"GÜN ÇELİŞKİSİ: bir Çek kaynak özeti 23 Ekim 1526 verir (aramada tek başına teyit edilmedi); bir müzayede/ansiklopedi özeti 24 Ekim der; atlasın Prag kırılması 22 Ekim 1526'dır. Bu madde 23 Ekim'i taşır, kaynak teyidi borçtur. Atlasın Brno/Olomouc/Opava kırılması ise 1526-08-29 (Mohaç günü) — bu madde onları KAPSAMAZ, ayrı düzeltme borcu.",
+  ic_not_d:"GÜN ÇELİŞKİSİ: bir Çek kaynak özeti 23 Ekim 1526 verir (aramada tek başına teyit edilmedi); bir müzayede/ansiklopedi özeti 24 Ekim der; atlasın Prag kırılması 22 Ekim 1526'dır. Bu madde 23 Ekim'i taşır, kaynak teyidi borçtur. Bohemya+Moravya yerleşimlerinin (Prag, Brno, Olomouc, Ostrava, Glatz, Hradec Králové, Broumov, Třeboň, České Budějovice) Habsburg'a geçiş uçları 1526-08-29 (Mohaç) idi, bu maddenin gününe (1526-10-23) çekildi; Silezya yerleşimleri ayrı maddede (1526-12-05, olaylar_2s_1019.js). (UMIT TOP100-1103 48-habsburg.md, KASA 4 Kasım 2026)",
   kaynak:"Habsburger.net «Ferdinand I: new crowns for the Habsburgs» · Encyclopedia.com «Ferdinand I» · bulunamadı (TDV, gün)", duygu:["👑"] },
 
 { t:"1527-11-03", k:"taht", etiket:["siyaset","konu-siyasi"],
