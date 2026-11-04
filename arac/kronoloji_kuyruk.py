@@ -9,12 +9,34 @@ Girdi: denetim/KRONOLOJI-1104/oneri_*_dogrulama.tsv (+ tarayici_sonuc.tsv notlar
     py arac/kronoloji_kuyruk.py
 """
 import collections, csv, glob, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from kronoloji_takvim_tarama import BRITANYA, RUSYA, gun as _gun
+
+# Takvim kanadı kaynakla belirlenmiş (Gregoryen olduğu bilinen) satırlar — uyarı düşmez
+TAKVIM_TEMIZ = set()
+
+
+def takvim_kanadi(r):
+    """1582-1752 Britanya/İrlanda ya da 1582-1918 Rusya penceresinde gün taşıyan satır → (kanat, fark)."""
+    g = _gun(r.get("tarih_atlas", ""))
+    if not g or g[1:] == (1, 1):
+        return None
+    metin = " ".join(r.get(k, "") or "" for k in ("dosya_satir", "uyum", "kaynak", "okunan_cumle"))
+    if (1582, 10, 15) <= g <= (1752, 9, 13) and BRITANYA.search(metin):
+        return ("Britanya/İrlanda", "+10" if g < (1700, 3, 1) else "+11")
+    if (1582, 10, 15) <= g <= (1918, 2, 13) and RUSYA.search(metin):
+        return ("Rusya", "+10" if g < (1700, 3, 1) else "+11" if g < (1800, 3, 1) else "+12" if g < (1900, 3, 1) else "+13")
+    return None
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 KOK = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    # L2E 1013-1024 / 1037-1048 (EMRELİC) — İngiliz/İrlanda 1582-1752 eski takvim şüphesi
+    "L2-1422": "[TAKVİM — eski/yeni takvim kanadı belirsiz] Kilkenny 1642-10-24 (CELT): İngiliz/İrlanda 1582-1752 kaynağı Jülyen olabilir (+10 gün → 11-03); İrlanda Konfederasyonu kimi zaman yeni takvim kullandı → kaynağın kanadı belirlenene kadar uygulanmaz (EMRELİC sistemik uyarısı)",
+    "L2-1423": "[TAKVİM — eski/yeni takvim kanadı belirsiz] Cessation 1643-09-15 (Rushworth, zayıf): eski takvim olabilir (+10 → 09-25) → kanat belirlenene kadar uygulanmaz",
+    "L2-1451": "[TAKVİM — kanat belirsiz] Woodes Rogers ölümü 1732-07-15: İngiliz kaynağı eski takvim olabilir (+11 → 07-26) → kanat belirlenene kadar uygulanmaz",
     "L2-1389": "İspanyol Peru: Núñez Vela 1544-09-18 tutuklandı — tek dayanak encyclopedia.com (zayıf) → akademik kaynak gelmeden kaynak yenilenmez (EMRELİC)",
     "L2-898": "Hun Sen 1985-01-14: tek dayanak Encyclopedia.com (Gale künyesi doğrulanmadı) → ikinci kaynak gelmeden kaynak yenilenmez",
     # L2E 927-951 (EMRELİC)
@@ -229,7 +251,7 @@ METIN = [
     # L2E 1025-1036 (EMRELİC)
     ("L2-1444", "[BEKLE — takvim UYARISI] Passaro 1718-08-11 zaten Gregoryen (İngiliz kayıtlarındaki 31 Temmuz eski takvim); ajanın «22 Ağustos'a çevir» önerisi YANLIŞ, UYGULANMAZ — atlas günü KALIR, kaynak okununca kaynak yenilenir (EMRELİC)"),
     ("L2-1440", "[BEKLE — ipucu] Orange: 1702 / 1714 çelişkisi"),
-    ("L2-1434", "[BEKLE — tek dayanak müze sitesi] imza 1 Nisan 1683, geriye tarihlenmiş 31 Mart (ipucu)"),
+    ("L2-1434", "Habsburg-Lehistan ittifakı 1683-03-31 KALIR (Wasilewski; imza 1 Nisan, belge 31 Mart'a geriye tarihlendi) → ic_not'a iki gün (EMRELİC, 1013-1024 esas)"),
     # L2S 567-578 (S17)
     ("L2-933", "Celâleddin Halacî 1290-06-13 (TDV «Fîrûz Şah Halacî») gün tutar; ilan Kîlûgari'de (Delhi yakını), tahta oturuş sonra → «Delhi'de kurdu» düzeltilir"),
     ("L2-935", "Mangrai/Chiang Mai: aynı olay devletler.js'te 1296-04-12 ile iki kez (7457/7460) → yinelenen madde birleşir"),
@@ -240,6 +262,9 @@ METIN = [
     ("L2-927", "[BEKLE — kaynaksız] Sidama: «idari yapı en az 9. yüzyıla izleniyor» kaynaksız; göç anlatısı (Yemericho, 16. yy) maddeyle çelişir"),
     # L2E 977-988 (EMRELİC)
     ("L2-1389", "[BEKLE — tek dayanak encyclopedia.com] Núñez Vela'yı tutuklayan Audiencia'dır, Pizarro değil → fail düzeltilir"),
+    # L2E 1037-1048 (EMRELİC)
+    ("L2-1454", "[TAKVİM] Charles Edward 1745: 19 Ağustos Glenfinnan sancak töreni, karaya çıkış değil (çıkış 23 Temmuz eski = 3 Ağustos yeni); 19 Ağustos eski takvim = 30 Ağustos Gregoryen → olay ve gün birlikte düzeltilir, ic_not iki takvim"),
+    ("L2-1457", "[BEKLE — gün desteksiz] Encyclopédie: kaynak yalnız «Haziran 1751»; 28 Haziran desteksiz"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
@@ -374,6 +399,11 @@ def main():
                     is_, uyum = "BEKLE (uygulama)", BEKLET[no] + " | " + uyum
                 if no == "L2-47":
                     is_, uyum = "tarih düzelt", "1600-12-31 Jülyen (İngiltere) → 1601-01-10 Gregoryen (takvim kuralı; KASA PAZAR uyguladı)"
+                elif is_.startswith(("tarih düzelt", "kaynak yenile")):
+                    tk = takvim_kanadi(r)
+                    if tk and no not in TAKVIM_TEMIZ:
+                        uyum = ("[TAKVİM KANADI KONTROL — %s kaynağı 1582 sonrası Jülyen olabilir (%s gün); "
+                                "kaynağın eski/yeni takvim olduğu belirlenmeden gün uygulanmaz] " % tk) + uyum
                 satir.append([parti, no, is_, r.get("dosya_satir", ""), r.get("tarih_atlas", ""), uyum,
                               r.get("hassasiyet", ""), kaynak, r.get("url", ""), r.get("okunan_cumle", "")])
     yer = {}
