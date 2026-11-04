@@ -333,12 +333,12 @@
 {
 "id": "delhi-sultanligi",
 "hukum": "TEYIT",
-"kaynak": "TDV delhi-sultanligi — 'Hindistan’da Delhi merkez olmak üzere kurulan … sultanlık (1206-1526)' · 'bağımsız bir sultanlık haline gelişi, Muizzüddin’in 1206’da öldürülüp … Kutbüddin Aybeg’in tahta geçmesinden sonra olmuştur' (yıl teyitli; t 04-21 Pânîpat günü bu alıntıda yok; eski 'TDV'de müstakil maddesi yok' notu YANLIŞ)"
+"kaynak": "TDV delhi-sultanligi — 'sultanlık (1206-1526)' · 'bağımsız bir sultanlık haline gelişi, Muizzüddin’in 1206’da öldürülüp Kutbüddin Aybeg’in tahta geçmesinden sonra' · 'Pânîpet Savaşı’nda İbrâhîm-i Lûdî’yi mağlûp ederek öldürttü (21 Nisan 1526)' (t GÜN teyitli; f yıl teyitli; eski 'TDV'de yok' notu YANLIŞ)"
 },
 {
 "id": "sur-hanedani",
 "hukum": "TEYIT",
-"kaynak": "TDV suriler (Azmi Özcan) — 'Kuzey Hindistan’da hüküm süren bir İslâm hânedanı (1540-1564)' (yıl teyitli; f 05-17 Kannauj günü teyitsiz; eski 'TDV'de yok' notu YANLIŞ)"
+"kaynak": "TDV suriler (Azmi Özcan) — 'Kuzey Hindistan’da hüküm süren bir İslâm hânedanı (1540-1564)' · 'Bengal dahil Kuzey Hindistan’ın yeni hâkimi oldu ve hânedanını tesis etti (947/1540)' (yıl teyitli; f 05-17 Kanevc günü TDV'de yok; eski 'TDV'de yok' notu YANLIŞ)"
 },
 {
 "id": "cungar",
@@ -348,7 +348,7 @@
 {
 "id": "meysur",
 "hukum": "KISMEN",
-"kaynak": "TDV tipu-sultan — 'Tîpû Sultan, Srirangapatam savaşında yenilerek hayatını kaybetti (29 Zilkade 1213/4 Mayıs 1799)' (t gün teyitli); TDV meysur: sultanlık 1760-1799 (Haydar Ali dönemi künyede 1761 — bir yıl fark, beyan); f 1610 Vodeyar teyitsiz"
+"kaynak": "TDV tipu-sultan — '(29 Zilkade 1213/4 Mayıs 1799)' (t GÜN teyitli) · TDV haydar-ali-han / meysur: Haydar Ali dönemi 1760'tan (künye özetindeki 1761 → 1760, ic_not beyanı); f 1610 Vodeyar TDV'de yok"
 },
 {
 "id": "mataram-sultanligi",
