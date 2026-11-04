@@ -36,6 +36,7 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
+    "L2-646": "[çeviri doğrulanmadı] Huliu muharebesi 貞明四年 12. ay 癸亥 = 919-01-28 ajan hesabı (12. ay başı 庚子 = 919-01-05); atlas 919-01-01 yıl hassasiyetiyle uyumlu — Academia Sinica teyidi bekliyor (EMRELİC)",
     # HAVVA L2H 1851-1950 / LAB L2L 1951-2052
     "L2-2324": "Risiera di San Sabba 1944-04-06 → 04-04 adayı: dayanak Trieste belediye müzesi sayfası + USF — belediye sayfası tek dayanak olamaz (AJAN-BRIF kural 5); akademik ikinci kaynak gerekli (HAVVA)",
     "L2-2465": "Skrunda radarı 1998-09-04 (OSCE basın bildirisi günü): Rusya yükümlülüğü 31 Ağustos 1998 yerine getirdi (kapatma), OSCE doğrulama ziyareti 3 Eylül → madde kapatmayı mı doğrulamayı mı anlatıyor netleşmeden uygulanmaz (LAB)",
@@ -755,6 +756,12 @@ METIN = [
     ("L2-737", "Kuzey Fujiwara tarafsızlığı: 日本人名大辞典 «源平争乱では中立をまもる», Britannica Japan 1181 Mutsu valisi atandı, Yoritomo'nun arkasına saldırmadı; 1183'te Yoshinaka'yı kışkırttı → «tarafsızlık» basitleştirme, ic_not"),
     ("L2-753", "Sit muharebesi 1238-03-04 (Rudakov, Vestnik MGPU 2024 no.4; Polovtsov RBS t.18) gün tutar; Vsevolod Konstantinoviç'in ölümü, Yaroslavl yağması ve Vasili'nin 1249'a dek knezliği okunmadı"),
     ("L2-760", "[BEKLE — yıl zayıf] Atina Dukalığı 1267: Miller, Latins in the Levant (1908) ve Gregorovius — Viterbo Atina'dan söz etmez, Dük John'un Charles'ı tanıdığına delil yok, tanıma Dük William'a bağlanır (~1280) → 1267 iki kaynakla zayıf"),
+    # İkinci geçiş IG4
+    ("L2-660", "Gaeta Docibilis II: «dux» unvanı 930'dan (Treccani DBI «Docibile», c.40: «a partire dal 930 … dux et ypatos; dal 939 … soltanto dux»); DBI unvanın Napoli karşısında siyasi bağımsızlık işareti sayılmaması gerektiğini söyler → «bağımsızlığını gösterir» düzeltilir"),
+    ("L2-632", "[KÜNYE] Zhao 907: Wang Rong 907'de 趙王 olarak Liang takvimini kullanan vasal; bağımsız «kuruldu» 907 değil, Tang takvimine dönüş 天祐七年 = 910 (JWDS j.54, ZZTJ j.266) → künye ucu sınıflaması"),
+    ("L2-636", "Shu-Qi savaşı 911 (ZZTJ j.268) yıl tutar; kaynakta savaşı Shu başlatır, atlas «Qi saldırdı» der → sıra düzeltilir"),
+    ("L2-694", "[BEKLE — tarih kaynaksız] Dali 982: Song shi j.488 tam metin — ilk Dali elçisi 熙寧九年 (1076), 願為臣妾 başvurusu 政和五年 (1115); 982 kaydı yok, yalnız Vikipedi infobox → madde gözden geçirilir"),
+    ("L2-705", "[BEKLE — kayıt yok] Dublin Sigtrygg 1036: Annals of Ulster, Chronicon Scotorum, Inisfallen (CELT) tam metin — çekilme kaydı yok, AU 1035'te Sitriuc Áth Cliath'ta faal; DIB okunamadı"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
