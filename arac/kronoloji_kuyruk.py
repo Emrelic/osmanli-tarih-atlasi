@@ -16,13 +16,15 @@ CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
     "L2-318": "Santo Domingo: kural teslim (kapitülasyon) günü; 07-07 teslim mi fiilî devir mi belirsiz → Diario de la Reconquista okununca karar; 07-09 fiilî devir ise ic_not",
-    "L2-346": "Gimry: atlas 1832-10-29 (Gregoryen; 17 Ekim O.S.); TDV kendi içinde çelişiyor (Müridizm 29 Kasım, Şeyh Şâmil 20 Kasım 1832) → ic_not'ta iki TDV maddesiyle beyan; karar koordinatör",
+    "L2-341": "Man Adası 1828: dayanak yalnız EB1911 (eski başvuru, en çok KISMEN) → tek başına düzeltme dayanağı değil; akademik kaynak aranacak",
     "L2-144":"Chūzan seikan (17. yy resmî derleme) tek başına KISMEN; modern akademik teyit (CHJ / Kerr, Okinawa) gelene kadar atlas günü kalır",
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
     "L2-212": ("ic_not ekle (gün KALIR)", "Vincenzo II: atlas 1627-12-25 kalır; ic_not «25–26 Aralık gecesi (Treccani EI + DBI)»; DBI'dan saat okunursa karar"),
     "L2-311": ("ic_not ekle (gün KALIR)", "Ligurya: s: değişimi Haziran 1805 ilhak tasarrufu (Cenova senatosu talebi + Napolyon kabulü; Treccani «4 giugno 1805»); 4 Ekim 1805 département düzenlemesi ic_not'a — Treccani'nin iki maddesi iki ayrı olayı tarihliyor"),
+    "L2-346": ("ic_not ekle (gün KALIR)", "Gimry: atlas 1832-10-29 KALIR (Gregoryen = 17 Ekim Jülyen, Rus askerî sayımı); TDV iç çelişkisi (Müridizm 29 Kasım, Şeyh Şâmil 20 Kasım 1832) → «TDV esas» işlemez; ic_not'a iki TDV günü; üçüncü kaynak Gammer 1994 tarayıcı kuyruğunda"),
+    "L2-326": ("tarih düzelt", "Kassel 1813-09-28 → 10-01 (madde «alınış»); ic_not «[tek kaynak] 28 Eylül ilk baskın»"),
     "L2-227": ("tarih düzelt", "1652-02-04 Jülyen → 1652-02-14 Gregoryen (İngiltere 1752'ye dek Jülyen; mekanik çeviri); ic_not'a iki gün"),
 }
 # Kaynakta olayın kendisi bulunamayan maddeler: metin düzeltilmez, işaretlenir.
