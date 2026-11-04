@@ -206,8 +206,8 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 13, YAPAY-b 2, YAPAY-c 35, YAPAY
 - Koridor: 33.9 km · rusya 9/9
 - İçindeki yerleşimler: Şamahı (safevi); Ereş (safevi); Kabala (safevi); Şeki (Nuha) (safevi); Kuba (safevi)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: Şemâhî-Şeki-Kuba Safevî payı, en büyük kesit 1733-08-17: TDV Şirvan — Nâdir 17 Ağustos 1733'te Şemâhî'ye girdi; Bakü-Salyan kıyısı Rus (1735 Gence'ye dek), Gence-Tiflis Osmanlı: 1733-1735 Safevî Şirvan'ı gerçekten kopuk. Ama 1724-06-24 İstanbul Muahedesi Şemâhî ve Şirvan merkezini Osmanlı'ya verdi; aday aralığının 1723-1733 kısmı 'safevi' için yanlış (bkz. K275 OSMANLI 1724-1725).
-  - Düzeltme önerisi: Şemâhî, Şeki, Kabala, Ereş 1724-06-24 → 1733-08-17 OSMANLI (v:? Hacı Dâvud / Surhay tâbiliği, kaynakla); 1733-08-17 → safevi.
+  - Gerekçe: Şemâhî-Şeki-Kuba Safevî payı, en büyük kesit 1733-08-17: TDV Şirvan — Nâdir 17 Ağustos 1733'te Şemâhî'ye girdi; Bakü-Salyan kıyısı Rus (1735 Gence'ye dek), Gence-Tiflis Osmanlı: 1733-1735 Safevî Şirvan'ı gerçekten kopuk. Ama 1724-06-24 İstanbul Muahedesi Şemâhî ve Şirvan merkezini Osmanlı'ya verdi; aday aralığının 1723-1733 kısmı 'safevi' için yanlış (bkz. K275 OSMANLI 1724-1725). [ÇÖZÜM (EMRELİC, TDV esas): Şemâhî-Şeki-Kabala-Ereş 1724-06-24 → 1733-08-17 OSMANLI; hüküm GERÇEK yalnız 1733-08-17 → 1735-03-21 Safevî kesiti için; 1723-08-06 → 1724-06-24 Rus/Hacı Dâvud kesiti ayrıca kaynakla.]
+  - Düzeltme önerisi: Şemâhî, Şeki, Kabala, Ereş: safevi dönemi 1724-06-24 → 1733-08-17 aralığından çıkar, OSMANLI yaz (TDV Şirvan; Hacı Dâvud/Surhay tâbiliği varsa v:); 1733-08-17 → safevi.
   - Kaynak: TDV İslâm Ansiklopedisi, "Şirvan" (Mustafa Aydın), https://islamansiklopedisi.org.tr/sirvan — "(24 Haziran 1724) Osmanlı Devleti ... Şirvan’ın merkezî kesimiyle birlikte Şemâhî’yi de aldı"; "Nâdir Şah 17 Ağustos 1733’te Şemâhî’ye girdi"
 
 ### K224 · guney-afrika-birligi · 1910-05-31 → 1961-05-31 · 32.055 km²
@@ -666,7 +666,7 @@ Hükümlü: 100 / 100. Kova: GERCEK 35, YAPAY-a 13, YAPAY-b 2, YAPAY-c 35, YAPAY
 - Koridor: 57.6 km · kaheti-kralligi 5/9, safevi 4/9
 - İçindeki yerleşimler: Şamahı (OSMANLI); Ereş (OSMANLI); Kabala (OSMANLI); Şeki (Nuha) (OSMANLI)
 - **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
-  - Gerekçe: Osmanlı Şemâhî-Şeki-Kabala 1724-06-24 (İstanbul Muahedesi) → 1725-09-04, Osmanlı Gence/Tiflis gövdesinden Kaheti ve Safevî noktalarıyla ayrı (koridor 58 km). TDV Şirvan: 24 Haziran 1724 Muahedesi Şemâhî'yi Osmanlı'ya verdi; Bakü-Salyan kıyısı Rus'ta kaldı. Bitiş günü dayanağı kaynakla.
+  - Gerekçe: Osmanlı Şemâhî-Şeki-Kabala 1724-06-24 (İstanbul Muahedesi) → 1725-09-04, Osmanlı Gence/Tiflis gövdesinden Kaheti ve Safevî noktalarıyla ayrı (koridor 58 km). TDV Şirvan: 24 Haziran 1724 Muahedesi Şemâhî'yi Osmanlı'ya verdi; Bakü-Salyan kıyısı Rus'ta kaldı. Bitiş günü dayanağı kaynakla. [ÇÖZÜM (EMRELİC, TDV esas): K223 ile çelişki Osmanlı lehine kapandı; bu parça 1724-1733 Osmanlı Şirvan'ının ilk kesitidir.]
   - Düzeltme önerisi: 1725-09-04 bitişi ve K223 ile çakışma (1724-1733 safevi) birlikte çözülsün.
   - Kaynak: TDV İslâm Ansiklopedisi, "Şirvan" (Mustafa Aydın), https://islamansiklopedisi.org.tr/sirvan — "(24 Haziran 1724) Osmanlı Devleti ... Şirvan’ın merkezî kesimiyle birlikte Şemâhî’yi de aldı"
 

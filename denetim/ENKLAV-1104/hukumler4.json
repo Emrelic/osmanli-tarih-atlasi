@@ -1,0 +1,403 @@
+{
+"_aciklama": "ENKLAV-1104 hükümleri (K301-K400). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı.",
+"K301": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Kunfüze-Tihâme 1814-05 → 1815-03 'suud', çevre 'suud-birinci' (7/9): aynı Birinci Suûd Devleti iki kimlikle boyanmış. Tihâme sahipsiz.",
+"duzeltme": "suud / suud-birinci tek kimlik.",
+"kaynak": "veri ölçümü (secim4.py koridor)"
+},
+"K302": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sambas ve Kuching 1819 → 1822-12 'hollanda-dogu-hint', çevre Pontianak. Sambas'ta Hollanda 1818-19'da yerleşti, ama Kuching (Sarawak) Brunei sultanlığınındı (1841 Brooke): Kuching'in Hollanda yazımı yanlış.",
+"duzeltme": "Kuching 1819-1841 brunei (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K303": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Bhuc (Kutch) 1510-1707 'racput' çatı kimliği: Kutch Jadeja racalığı ayrı devlet; öteki Racput devletlerinden Bâbürlü/Sind toprağıyla ayrı. K113/K261 kovası.",
+"duzeltme": "K113 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K304": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "İlorin emirliği 1897-01 → 1897-02-16 (Royal Niger Co. zaptı) Sokoto'ya bağlı, Bida'nın (Nupe, Ocak 1897) RNC'ye düşmesiyle Sokoto gövdesinden İngiliz toprağıyla ayrı: kısa gerçek savaş anı; bitiş uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K305": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Görice-Kesriye 1385 → 1387-04-09 OSMANLI, Osmanlı gövdesinden 6 km'lik TABI şeridiyle ayrı (koridor TABI 9/9): tâbi beyliğin yabancı sayılması (motor sorusu, K078 ailesi). 1385 yıl hassasiyetli başlangıç ayrıca sınanmalı.",
+"duzeltme": "Motor sorusu; Görice/Kesriye Osmanlı f kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K306": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Yezd 1503 → 1504-12-06 Akkoyunlu kalıntısı (Murad Bey / yerel valiler), Şah İsmail'in İran'ı ele geçirişi sırasında öteki Akkoyunlu payından Safevî toprağıyla ayrı (koridor 248 km). Bitiş Yezd'in Safevî'ye düşüşüyle uyumlu görünüyor; günler kaynakla.",
+"duzeltme": "Yezd geçiş günü kaynakla (TDV Akkoyunlular / Yezd).",
+"kaynak": "veri ölçümü"
+},
+"K307": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kigali 1907 → 1916-05-06 Alman Doğu Afrikası (Ruanda rezidentliği; Belçika zaptı Mayıs 1916), gövdeden 'ingiltere' şeridiyle ayrı (koridor 126 km 6/9). Koridordaki İngiliz boyası Karagve'den (Bveranyange) geliyor: Karagve 1890 Helgoland antlaşmasıyla Alman tarafında kaldı — K369 ile aynı hata.",
+"duzeltme": "Bveranyange/Karagve 1890-1916 alman-dogu-afrikasi (K369, kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K308": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "OLCUM",
+"gerekce": "Maan 1918-09-25 → 09-27 OSMANLI, çevre 'ingiltere' (koridor 144 km 9/9). Arap kuvvetleri Maan'a Eylül 1918'de girdi; 2 günlük kesit çevre noktalarının (Amman 25 Eylül) ve Maan'ın geçiş günleri hizasızlığından. Çevrenin 'ingiltere' (Arap Ordusu değil) boyanması da sınanmalı.",
+"duzeltme": "Maan OSMANLI t ve Hicaz/Arap ordusu kimliği kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K309": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Erzurum-Pasinler-Aşkale 1378 → 1381 Eretna, Sivas gövdesinden Mutahharten'in Erzincan'ıyla ayrı (koridor 130 km 9/9). Eretna son yıllarında (Alâeddin Ali, Kadı Burhâneddin vezirliği) Erzurum'u tutup tutmadığı kaynakla; bitiş 1381 Eretna'nın sonuyla uyumlu.",
+"duzeltme": "Erzurum 1378-1381 sahibi kaynakla (TDV Eretnaoğulları, Erzurum).",
+"kaynak": "veri ölçümü"
+},
+"K310": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Erzurum 1351 → 1353 'ilhanli'. İlhanlı devleti 1335'te dağıldı; 1351'de Erzurum Çobanoğulları/Eretna/yerel beyler arasındaydı. Hayalet İlhanlı uzatması (K230 ile aynı aile).",
+"duzeltme": "Erzurum 1351-1353 sahibi kaynakla (Çobanoğulları t 1357).",
+"kaynak": "veri ölçümü"
+},
+"K311": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Musul-Ninova-Telafer Zengî payı 1144-12-24 (Urfa'nın fethi) → 1149, Halep gövdesinden Artuklu toprağıyla ayrı (koridor 156 km 7/9). Zengî ülkesi Cezîre üzerinden bütün olabilir; içteki 11 noktanın 8'i sahipsiz (antik) — alan şişkin. Düşük güven.",
+"duzeltme": "Cezîre (Rakka, Harran) 1144-1149 sahibi kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K312": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tepeaca 1466 → 1520-09-04 Aztek haraç eyaleti, Aztek gövdesinden 27 km'lik bağımsız Nahua şehir devletleri (Tlaxcala, Huexotzinco) şeridiyle ayrı. Tlaxcala'nın Aztek ülkesi içinde bağımsız kaldığı bilinir; bitiş Cortés'in Tepeaca seferi (Eylül 1520).",
+"duzeltme": "Yok; 1466 başlangıcı kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K313": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Senlis, Soissons, Laon 1422 → 1429-07-16 'fransa', çevre İngiliz. Bu şehirler 1422-1429'da İngiliz-Burgonya idaresindeydi; VII. Charles'ın Reims taç giyme yolculuğunda (17 Temmuz 1429 sonrası) teslim oldular. 1422'den Fransız yazımı yanlış.",
+"duzeltme": "Senlis, Soissons, Laon 1422-1429 ingiltere/burgonya; fransa f → 1429 Temmuz-Ağustos (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K314": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1892 → 1898 'fransa-cumhuriyet' Fildişi Kıyısı iç parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta), çevre Dan-Guro: noktasız emilme (K196 ailesi).",
+"duzeltme": "Emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K315": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sakya 1720-01 → 09-24 'tibet-ganden-phodrang', çevre 'qing' (koridor 147 km 9/9). Qing Lhasa'ya 24 Eylül 1720'de girdi (bitiş uyumlu); 1717-1720 Cungar işgali modelde yoksa ve Qing boyası Tibet'e erken giriyorsa kopukluk geçiş günü hizasızlığıdır.",
+"duzeltme": "Orta Tibet noktaları qing f → 1720-09-24; 1717-1720 cungar dönemi (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K316": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Aseb 1882-03-10 (İtalyan devlet idaresi) → 1941-04 İtalyan; 1882-1885 Massawa öncesi gerçek ayrık kıyı karakolu. 1890 sonrası Eritre kıyı şeridiyle bağlanmalıydı; koridor 'habesistan' (Danakil kıyısı) 6/9 — 1890-1941 kesiti noktasız Danakil boyasından (YAPAY-a niteliğinde).",
+"duzeltme": "Danakil kıyısı (Beylul, Edd) 1890 sonrası italya noktaları.",
+"kaynak": "veri ölçümü"
+},
+"K317": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Chanthaburi 1569-08-08 (Ayutthaya'nın Burma'ya düşüşü) → 1584-05-03 (Naresuan'ın bağımsızlık ilanı) 'ayutthaya', çevre Toungoo (koridor 16 km). Ayutthaya 1569-1584 Burma tâbisiydi; Chanthaburi'nin ayrı kalması ya da Ayutthaya'nın tâbi olarak boyanmaması belirsiz. Düşük güven.",
+"duzeltme": "Ayutthaya 1569-1584 v: (toungoo tâbisi) beyanı kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K318": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Kastamonu-Sinop 330-05-11 → 395-01-17 'bizans', çevre 'roma-imp'. Doğu-Batı bölünmesi 395'te; 330 (Konstantinopolis'in açılışı) ile 395 arası tek Roma İmparatorluğu iki kimlikle boyanmış.",
+"duzeltme": "bizans künye f / noktaların 330 geçişi 395'e (tek ölçüt).",
+"kaynak": "veri ölçümü"
+},
+"K319": {
+"hukum": "YAPAY",
+"kova": "YAPAY-d",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kastamonu-Sinop MÖ 26 → MÖ 24 'roma-imp', çevre Galatya Keltleri. Galatya MÖ 25'te Roma eyaleti oldu; 2 yıllık kopukluk yıl hassasiyetli uçların hizasızlığından.",
+"duzeltme": "Galatya roma f MÖ 25 ile Paflagonya uçları hizalansın (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K320": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kastamonu-Sinop 1073 → 1204 'bizans', çevre Büyük Selçuklu (koridor 80 km 9/9). Malazgirt sonrası Paflagonya'nın bir kısmı Bizans'ta kaldı (Kastamonu Komnenos ailesinin yurdu, 1130'larda geri alındı); Danişmendli/Selçuklu araya girişi gerçek olabilir. 131 yıllık kesintisiz Bizans tutuşu ve Sinop'un 1214 Selçuklu fethi ayrıca sınanmalı.",
+"duzeltme": "Kastamonu 1073-1204 sahiplik zinciri kaynakla (TDV Kastamonu).",
+"kaynak": "veri ölçümü"
+},
+"K321": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kastamonu-Sinop MÖ 68 → MÖ 26 'roma-cumhuriyeti' (Pontus-Bithynia eyaleti, Pompeius MÖ 63), Roma gövdesinden Galatya Kelt tetrarklıklarıyla ayrı: tâbi krallıkların araya girdiği bilinen yapı. Düşük güven; MÖ 68 başlangıcı Pompeius öncesi.",
+"duzeltme": "Sinop roma f → MÖ 70/63 (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K322": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Derbend 1501-07 → 1538 'safevi', çevre Şirvanşah (koridor 69 km 9/9). Şirvanşahlar 1538'de Tahmasb ilhakına dek Şirvan'ı (Derbend dahil) tâbi olarak tuttu (TDV Şirvan: 1538). Derbend'in 1501'den doğrudan Safevî yazımı yanlış.",
+"duzeltme": "Derbend 1501-1538 sirvansah (Safevî v:) kaynakla.",
+"kaynak": "veri ölçümü; TDV Şirvan (Şirvanşahlar'a 1538'de son verildi)"
+},
+"K323": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Derbend 1794 → 1813-10-24 'kacar', çevre Kuba hanlığı. Derbend 1806'da Rus eline geçti (Gülistan 1813 tanıdı); 1794-1806 Derbend hanlığı/Kuba hanı idaresinde. Kaçar yazımı yanlış.",
+"duzeltme": "Derbend 1794-1806 derbend/kuba hanlığı, 1806 → rusya (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K324": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Derbend 1747 → 1794 'zend', çevre Kuba hanlığı. Zendler Kafkasya'ya uzanmadı; Derbend hanlığı 1765'ten Kuba hanı Feth Ali Han'ın elindeydi.",
+"duzeltme": "Derbend 1747-1794 derbend-hanligi / kuba-hanligi (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K325": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Eyyûbî Meyyâfârikîn-Bitlis payı 1192 → 1232, Suriye/Cezîre Eyyûbî gövdesinden Artuklu toprağıyla ayrı (koridor 89 km): el-Evhad/el-Eşref'in Ahlat-Meyyâfârikîn melikliği bilinir. Hallan Çemi (tarihöncesi) sahipsiz.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K326": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "DENİZ AŞIRI: Priangan (Bandung, Sukabumi) 1663 → 1743 'hollanda-dogu-hint', Batavia'dan Banten ile ayrı. Priangan VOC'a Mataram antlaşmalarıyla 1677 (batı) ve 1705 (doğu) geçti; 1663 başlangıcı erken. 4/5 nokta sahipsiz.",
+"duzeltme": "Priangan noktaları VOC f → 1677/1705 (kaynakla), öncesi mataram.",
+"kaynak": "veri ölçümü"
+},
+"K327": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "DENİZ AŞIRI: 1902 → 1915 'almanya' Güneybatı Afrika parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta): noktasız emilme.",
+"duzeltme": "Emilme bölgesi ölçülsün.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K328": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1915-07-09 → 1920-12-17 'guney-afrika-birligi' Güneybatı Afrika parçası İÇİNDE HİÇ YERLEŞİM YOK (0 nokta): K327'nin işgal sonrası devamı.",
+"duzeltme": "K327 ile aynı.",
+"kaynak": "veri ölçümü (iç nokta 0)"
+},
+"K329": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Gdańsk 1920-01-10 → 11-15 'itilaf-emaneti', çevre Polonya. 'itilaf-emaneti' kimliği birbirinden ayrı Müttefik idaresindeki toprakları (Danzig, Memel, plebisit bölgeleri) tek devlet sayıyor; kopukluk kimlik birleşiminden. Danzig'in Serbest Şehir oluşu 15 Kasım 1920 (bitiş uyumlu).",
+"duzeltme": "itilaf-emaneti bölgeleri ayrı kimlik ya da eksklav evreninden beyanla çıksın.",
+"kaynak": "veri ölçümü"
+},
+"K330": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Gdańsk 1281 → 1308 'polonya-erken', çevre Töton Devleti (koridor 124 km 9/9). Pomeranya Gdańsk dükalığı 1294'e dek Mestwin II'nin ayrı dükalığıydı; Polonya'ya bağlanma 1294-1308 (Przemysł II / Władysław). Ayrıca Pomeranya Büyük Polonya'ya bitişikti; Töton koridoru Kulm bölgesi değil — kopukluk 1281-1294 kimliğinden.",
+"duzeltme": "Gdańsk 1281-1294 pomeranya-dukaligi (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K331": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Saint-Louis (Senegal) Fransız kalesi, Fransız gövdesinden Volof (Kayor) toprağıyla ayrı: gerçek sömürge karakolu. Borç: 1758-1779 ve 1809-1817 İngiliz işgalleri kesintisiz Fransız gösteriliyorsa yanlış.",
+"duzeltme": "Saint-Louis 1758-1779, 1809-1817 ingiltere dönemleri kontrol (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K332": {
+"hukum": "YAPAY",
+"kova": "YAPAY-m",
+"guven": "OLCUM",
+"gerekce": "Fianarantsoa 1830 → 1897-02-28 'merina', çevre 'fransa-cumhuriyet' (koridor 17 km 9/9). 1895-1897 Fransız himayesindeki Merina krallığının yabancı sayılması (K208 ile aynı).",
+"duzeltme": "K208 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K333": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Yarlung (Nêdong/Tsetang) 1281 → 1354 'sakya', çevre Yuan. Nêdong Phagmodrupa tümeninin merkeziydi (Sakya'nın rakibi, 1354'te Sakya'yı devirdi); Sakya'ya yazılması ve Yuan'dan ayrı boyanması yanlış.",
+"duzeltme": "Nêdong 1281-1354 phagmodrupa (Yuan tâbi) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K334": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Bedahşan (Feyzâbâd) 1879-10-12 → 1880-08-11 Afgan, Kâbil'in İngiliz işgali (K247) sırasında öteki Afgan toprağından ayrı: gerçek savaş anı.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K335": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Göksun, Zamantı, Elbistan 1335 → 1339 'ilhanli', çevre Eretna. İlhanlı Ebû Saîd 1335'te öldü; Elbistan'da Dulkadiroğulları 1337'de kuruldu. Hayalet İlhanlı uzatması (K230/K310 ailesi).",
+"duzeltme": "Elbistan 1337 → dulkadir (kaynakla, TDV Dulkadiroğulları); 1335-1337 eretna.",
+"kaynak": "veri ölçümü"
+},
+"K336": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Brest-Litovsk 1944-07-16 → 07-28 Alman, Bagration'da kuşatılmış cep (Kızıl Ordu 28 Temmuz 1944'te aldı): gerçek cephe anı; bitiş uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K337": {
+"hukum": "YAPAY",
+"kova": "YAPAY-b",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Bono-Manso 1896-01-20 (Kumasi'nin işgali) → 1899 İngiliz, çevre 'asanti' (5/9) ve Gonja. Asante 1896'dan İngiliz himayesindeydi; Asante petekleri 1896-1900 için hâlâ 'asanti' ise kopukluk himaye döneminin eksikliğinden.",
+"duzeltme": "Asante noktaları 1896-01-20 → ingiltere (himaye v:) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K338": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "DENİZ AŞIRI: Bordo 1452-10-23 (Talbot'un geri alışı) → 1453-10-19 (son teslim) İngiliz: Yüzyıl Savaşları'nın son İngiliz Gaskonyası; günler bilinenle uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K339": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Zagem ve Telavi (Kaheti) 1484 → 1492 'gurcistan', çevre Kartli krallığı. Kaheti 1465'ten ayrı krallıktı (I. Giorgi); birleşik Gürcistan kimliğinin Kaheti'de sürmesi yanlış.",
+"duzeltme": "Kaheti noktaları 1465 → kaheti-kralligi (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K340": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Plaisance (Placentia, Newfoundland) 1662 → 1713 Fransız kolonisi, Yeni Fransa'dan deniz ve Beothuk toprağıyla ayrı: gerçek. Borç: Utrecht (1713) Newfoundland'ı İngiltere'ye verdi; atlas 1763'e dek Fransız tutuyor.",
+"duzeltme": "Plaisance fransa t → 1713-04-11 (Utrecht), sonra ingiltere.",
+"kaynak": "veri ölçümü"
+},
+"K341": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAKLI",
+"gerekce": "Mâzenderan-Cürcân payı 1337 → 1353 'ilhanli' (Togay Timur'un İlhanlı hanlığı iddiası), Serbedâr toprağıyla ayrı (koridor 229 km 8/9). TDV Serbedârîler: Yahyâ Kerrâbî Togay Timur'u 13 Aralık 1353'te öldürttü — bitiş teyitli. Not: Âmül Bâvendî merkezi; Mâzenderan'ın tamamı Togay Timur'un mu, kaynakla.",
+"duzeltme": "Âmül 1337-1353 sahibi (bavendi) kontrol.",
+"kaynak": "TDV İslâm Ansiklopedisi, \"Serbedârîler\" (Erdoğan Merçil), https://islamansiklopedisi.org.tr/serbedariler — \"onu karargâhında öldürttü (16 Zilkade 754 / 13 Aralık 1353)\""
+},
+"K342": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Nâsik 1803-08-12 → 1818 'maratha' (Peşva), Peşva çekirdeğinden 20 km'lik Nizam/İngiliz şeridiyle ayrı. Bassein (1802) sonrası Peşva toprağı Nâsik-Pûne arasında bitişikti; 20 km kopukluk ara noktaların sahipliğinden.",
+"duzeltme": "Nâsik-Ahmednagar arası noktaların 1803-1818 sahibi kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K343": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Epir (Yanya, Arta, Preveze) 1371-11 → 1372 'bizans': 1371'de Epir Sırp Thomas Preljubović (Yanya) ve Arnavut beyliklerinin (Arta) elindeydi. K250 ile aynı aile.",
+"duzeltme": "K250 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K344": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Harran-Akçakale Zengî payı 1132 → 1144-12-24, Musul gövdesinden Artuklu toprağıyla ayrı (koridor 156 km); bitiş Urfa'nın fethiyle uyumlu. Düşük güven: Zengî'nin Harran'ı tutuşu ve Cezîre bağlantısı kaynakla.",
+"duzeltme": "Yok; Jadlā’ sahipsiz.",
+"kaynak": "veri ölçümü"
+},
+"K345": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Sivas-Zara-İmranlı Kadı Burhâneddin payı 1393 → 1398-07-15 (Burhâneddin'in ölümü), Kayseri/Tokat gövdesinden Dulkadir toprağıyla ayrı (koridor 68 km 8/9). Bitiş uyumlu; Dulkadir'in Sivas-Kayseri arasına girişi kaynakla.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K346": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Kaş, Patara, Finike 1297 → 1300 'selcuklu', çevre İnançoğulları. 13. yüzyıl sonunda Likya kıyısı Teke/Menteşe ve İnanç beyliklerinin elindeydi; son Selçuklu sultanlarının buraya hükmü yok.",
+"duzeltme": "Likya noktaları 1297-1300 sahibi (teke/mentese) kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K347": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "Verona, Padova, Mantova 1159 → 1281 'almanya' (Kutsal Roma çatı kimliği); Tirol kontluğu ayrı kimlik. Lombardiya şehirleri özerk komünlerdi: K147/K229 çatı kimlik kovası.",
+"duzeltme": "K147 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K348": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Padang 1795-08-18 → 1819-05-01 İngiliz işgali (Napolyon savaşları; 1819'da Hollanda'ya iade), Bencoolen'den Hollanda/Minangkabau toprağıyla ayrı: gerçek; günler bilinenle uyumlu.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K349": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Berber 1884-05 (Mehdîlere düşüşü) → 1885-01-26 (Hartum) Mehdî, Kordofan gövdesinden Mısır elindeki Hartum hattıyla ayrı: gerçek; K279 ile aynı çerçeve.",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K350": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Azak 1711-07-21 (Prut ile iade) → 1739-09-18 (Belgrad) Osmanlı, Kırım tâbiliği ötesinde kale eksklavı (K288/K289). Borç: Ruslar Azak'ı 1736'da (Haziran) aldı; 1736-1739 kesiti yanlış.",
+"duzeltme": "Azak OSMANLI t → 1736-06 (kaynakla), 1736-1739 rusya.",
+"kaynak": "veri ölçümü"
+}
+}
