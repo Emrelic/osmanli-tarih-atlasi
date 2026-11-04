@@ -1,0 +1,680 @@
+{
+ "Köln": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1252",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1801-02-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Colonia, https://www.treccani.it/enciclopedia/colonia/ (sayfa.py)",
+   "alinti": "C. fu dichiarata città libera dell’impero [1297] ... Occupata dai Francesi (1794)",
+   "oneri": {},
+   "not": "Sahip almanya (imparatorluk özgür kenti 1297) doğrulanıyor; f=1281 ufuk kesiği, alıntı onu tarihlemiyor. Alıntı yalnız t ucunu tarihliyor: Fransız işgali 1794 (yıl); atlas t=1801-02-09 Lunéville. ÖLÇÜT (TEK KURAL): 1794-1801 arası idareye katma belgesi okunmadı; isg fransa-cumhuriyet 1794→1801 ayrımı için kaynak aranmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1252",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1801-02-09",
+   "t": "1815-06-09",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Treccani Enciclopedia on line, Colonia (sayfa.py)",
+   "alinti": "Occupata dai Francesi (1794), con il trattato di Parigi passò alla Prussia (1814)",
+   "oneri": {},
+   "not": "Treccani: Fransız işgali 1794, Prusya'ya geçiş Paris antlaşması 1814 (yıl). Atlas t=1815-06-09 (Viyana Nihai Senedi md.25, kayıtta). Çelişki beyan: Treccani 1814, atlas 1815-06-09; f için 1794 işgal mi 1801 ilhak mı TEK KURAL'a bağlı (ilhak 1801 -> s; 1794-1801 isg). Seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1252",
+   "alan": "s",
+   "d": "frank",
+   "f": "0481-01-01",
+   "t": "0843-08-10",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Colonia (sayfa.py)",
+   "alinti": "cadde definitivamente in mano dei Franchi nel 456",
+   "oneri": {
+    "f": "0456"
+   },
+   "not": "Treccani Köln'ün Franklara kesin geçişini 456 verir (353'te Frank/Alaman tahribi). KÜNYE AŞIMI: frank künye f 0481-01-01; 456 künye dışı, künye mi genişler dönem mi 481'de kalır karar LAB'ın. Verdun t=0843-08-10 bu alıntıyla teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1252",
+   "alan": "s",
+   "d": "orta-francia-lotharingia",
+   "f": "0855-09-29",
+   "t": "0925-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: Treccani colonia, lorena (yönlendirme sayfası), lotaringia (yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Köln'ün 855-925 Lotharingia'ya ait olduğu Treccani Colonia maddesinde yok. Aranmadı: NDB, Deutsche Biographie."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1252",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0355-01-01",
+   "t": "0356-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: Treccani colonia (sayfa.py)",
+   "alinti": "Semidistrutta da Franchi e Alamanni (353)",
+   "oneri": {},
+   "not": "Treccani 353 Frank/Alaman tahribini söyler, 355-356 sorusuna cevap vermez (Ammianus atlas kaydında, okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1252",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "0356-01-01",
+   "t": "0395-01-17",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: Treccani colonia (sayfa.py)",
+   "alinti": "",
+   "oneri": {},
+   "not": "356-395 Roma sahipliğini tarihleyen cümle Treccani'de yok (yalnız 353 ve 456). Ammianus 16.3.2 kayıtta; ham metin okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1252",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0395-01-17",
+   "t": "0481-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Colonia (sayfa.py)",
+   "alinti": "cadde definitivamente in mano dei Franchi nel 456",
+   "oneri": {
+    "t": "0456",
+    "d": "frank"
+   },
+   "not": "Boşluk 395-481: Treccani Franklara kesin geçişi 456 verir; 456-481 aralığı frank künyesi f=481 dışı (KÜNYE AŞIMI). 395-456 sahibi kaynakta yok."
+  }
+ ],
+ "Yazlofça (Yazlovets)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "s",
+   "d": "galicya-volhinya",
+   "f": "1281-01-01",
+   "t": "1340-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Araştırılmadı (Galiçya-Volhinya/Litvanya/Polonya 1281-1569); kayıttaki Lvov ABİ MERKEZ zinciri okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "s",
+   "d": "litvanya-buyuk-dukalik",
+   "f": "1340-01-01",
+   "t": "1349-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Araştırılmadı (Galiçya-Volhinya/Litvanya/Polonya 1281-1569); kayıttaki Lvov ABİ MERKEZ zinciri okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "s",
+   "d": "polonya-erken",
+   "f": "1349-01-01",
+   "t": "1569-07-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Araştırılmadı (Galiçya-Volhinya/Litvanya/Polonya 1281-1569); kayıttaki Lvov ABİ MERKEZ zinciri okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1699-01-26",
+   "t": "1772-08-05",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kamaniçe, https://islamansiklopedisi.org.tr/kamanice (sayfa.py)",
+   "alinti": "1699’daki Karlofça Antlaşması ile Kamaniçe Osmanlılar tarafından tahliye edildi.",
+   "oneri": {},
+   "not": "ABİ MERKEZ/ÜLKE DÜZEYİ: Yazlofça Kamaniçe eyaletinin sancağı (TDV); eyalet 1699'da tahliye edildi (YIL). Gün 1699-01-26: TDV Amcazâde Hüseyin Paşa maddesi 'Nihayet 26 Ocak 1699’da Karlofça’da' (arama sayfası alıntısı, sayfa.py). t=1772-08-05 bu alıntıyla teyit edilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "d",
+   "d": "",
+   "f": "1672-08-27",
+   "t": "1684-08-24",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Kamaniçe (sayfa.py); ayrıca Bucaş Antlaşması maddesi",
+   "alinti": "Kamaniçe dokuz gün süren kuşatmadan sonra zaptedildi (3 Cemâziyelevvel 1083 / 27 Ağustos 1672)",
+   "oneri": {},
+   "not": "f 1672-08-27 teyitli (Kamaniçe zaptı; ABİ MERKEZ). Madde: 'Kamaniçe eyaletinin dört sancağı (Kamaniçe, Bar, Mejibuji/Medžybiž, Yazlofça/Jazloveć)' -> sancağa bağlı, d doğru. Bucaş-İzvança 18-23 Ekim 1672 hâkimiyeti tesis etti. t=1684-08-24: TDV eyaleti 1699'a kadar Osmanlıda gösterir, Yazlofça'nın 1684'te Lehlere geçişi (Wilanów, kayıtta) TDV'de yok; atlas ile çelişki ihtimali. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1772-08-05",
+   "t": "1919-09-10",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: TDV kamanice, Treccani galizia (anahtar sözcük yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1772-08-05 Avusturya'ya geçiş, Yazlofça için okunmadı. TDV Kamaniçe Rus ilhakını 1793 verir (Podolya, farklı bölge)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1601",
+   "alan": "s",
+   "d": "polonya",
+   "f": "1923-03-15",
+   "t": "1939-09-17",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Araştırılmadı (1923-03-15 Büyükelçiler Konferansı atama)."
+  }
+ ],
+ "Barselona": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1228",
+   "alan": "s",
+   "d": "aragon",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "ONERI",
+   "uc": "",
+   "kaynak": "Treccani Enciclopedia on line, Barcellona, https://www.treccani.it/enciclopedia/barcellona/ (sayfa.py)",
+   "alinti": "Raimondo Berengario IV (1131-62), che sposando Petronilla d’Aragona determinò la fine dell’autonomia della contea",
+   "oneri": {},
+   "not": "Alıntı sahipliğin Aragon tacına geçtiğini söyler (1131-62); 1281 f ufuk kesiği ve t=1479-01-19 ucunu tarihlemiyor (uc yok). Treccani 1461-72 isyanını 'Giovanni II d’Aragona'ya karşı' anlatır; 1479 gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1228",
+   "alan": "s",
+   "d": "vizigot",
+   "f": "0507-01-01",
+   "t": "0711-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Barcellona (sayfa.py)",
+   "alinti": "sede provvisoria del governo visigoto dopo il 415",
+   "oneri": {
+    "f": "0415"
+   },
+   "not": "Treccani Barselona'nın 415'ten sonra Vizigot hükûmetinin geçici merkezi olduğunu söyler; TDV İspanya: Vizigotlar yarımadayı 415'te idarelerine aldı. KÜNYE AŞIMI: vizigot f 0418-01-01 (415 künye dışı). t=711: TDV 'Roderich’in yenilmesi' 711 (ÜLKE DÜZEYİ)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1228",
+   "alan": "s",
+   "d": "emevi",
+   "f": "0711-01-01",
+   "t": "0750-08-05",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Endülüs, https://islamansiklopedisi.org.tr/endulus (sayfa.py)",
+   "alinti": "712 yılında ... Mûsâ b. Nusayr ... ertesi yıl içerisinde ... Barselona (Berşelûne) ... hâkimiyet altına alındı",
+   "oneri": {
+    "f": "0713"
+   },
+   "not": "TDV: Mûsâ 712'de geçti, 'ertesi yıl içerisinde' Barselona alındı -> 713 (yıl; şehre özgü cümle). Atlas f 0711. t=0750-08-05: Emevî Hilâfeti sonu künyede; Endülüs valilik dönemi 756'ya kadar."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1228",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "0750-08-05",
+   "t": "0801-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Endülüs (sayfa.py); Treccani Barcellona",
+   "alinti": "801 yılında Endülüs’ün en önemli sınır şehirlerinden biri olan Berşelûne’yi ele geçiren Franklar",
+   "oneri": {
+    "d": "endulus-emevi",
+    "t": "0801"
+   },
+   "not": "TDV Barselona'nın 801'e kadar Endülüs (Müslüman) elinde olduğunu gösterir. 750-756 arası Endülüs'te tek devlet yok (valiler); 756'dan endulus-emevi (künye var, devletler.js). Treccani: 'capoluogo della Marca hispanica franca (801)'. Yıl düzeyi, gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1228",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1939-01-26",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Barcellona (sayfa.py)",
+   "alinti": "Violentemente bombardata dall’aviazione italiana (1938), fu conquistata dai falangisti nel 1939.",
+   "oneri": {},
+   "not": "YIL düzeyi: Milliyetçilerin Barselona'yı alışı 1939. Gün 1939-01-26 teyitsiz (künye kronolojisi/GEC kayıtta). t=1939-04-01 teyit edilmedi."
+  }
+ ],
+ "Gleiwitz (Gliwice)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1276",
+   "alan": "s",
+   "d": "silezya-piast",
+   "f": "1281-01-01",
+   "t": "1335-08-24",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Slesia, https://www.treccani.it/enciclopedia/slesia/ (sayfa.py)",
+   "alinti": "finché finirono per riconoscere la sovranità boema, consolidatasi nel 1339",
+   "oneri": {
+    "t": "1339"
+   },
+   "not": "Treccani Silezya dükalarının Bohemya egemenliğini tanımasını 1339'da konsolide görür; atlas t=1335-08-24 (Trentschin, kayıtta). Çelişki beyan: 1335 (kayıt) / 1339 (Treccani); seçilmedi. Sahip silezya-piast: Treccani 'rimanendo polacca con Boleslao III ... deboli legami' (ülke düzeyi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1276",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1742-06-11",
+   "t": "1871-01-18",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Slesia (sayfa.py)",
+   "alinti": "con il trattato di Aquisgrana (1748) passò alla Prussia (eccetto Troppau e Teschen)",
+   "oneri": {},
+   "not": "Treccani 1748 Aachen'i verir, atlas 1742-06-11 (Breslau ön barışı; Berlin 1742-07-28 kesin). ÖN BARIŞ≠DEVİR kuralı için Berlin 1742 kontrol edilmeli. Alıntı Silezya düzeyi (ÜLKE DÜZEYİ), Gleiwitz'e özgü değil. Seçilmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1276",
+   "alan": "s",
+   "d": "polonya-halk",
+   "f": "1945-06-05",
+   "t": "1989-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: Treccani slesia (sayfa.py)",
+   "alinti": "con lo slittamento dei confini polacchi sulla linea Oder-Neisse, anche la parte di Alta S. ... fu annessa dalla Polonia",
+   "oneri": {},
+   "not": "Treccani Oder-Neisse sonrası Polonya ilhakını yıl vermeden söyler; 1945-06-05 f günü tarihlenmiyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1276",
+   "alan": "s",
+   "d": "polonya-iii-cumhuriyet",
+   "f": "1989-12-31",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Araştırılmadı (polonya-iii-cumhuriyet 1989-12-31)."
+  }
+ ],
+ "Tuggurt": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1741",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1552-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mizâb, https://islamansiklopedisi.org.tr/mizab (sayfa.py)",
+   "alinti": "Tugurt, Vargla ve Mizâb vadisi, 959 (1552) yılında beylerbeyi Sâlih Reis’in ... seferi esnasında Osmanlı topraklarına katıldı",
+   "oneri": {
+    "t": "1552"
+   },
+   "not": "Alıntı yalnız t ucunu tarihliyor (yıl). Tuggurt'ta Zeyyânî egemenliğini gösteren kaynak yok: TDV Tilimsân Zeyyânî sınırını Kostantîne'ye kadar der ama Tuggurt'tan söz etmez. Sahiplik BULUNAMADI."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1741",
+   "alan": "d",
+   "d": "",
+   "f": "1552-01-01",
+   "t": "1671-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Mizâb (sayfa.py)",
+   "alinti": "Tugurt, Vargla ve Mizâb vadisi, 959 (1552) yılında ... Osmanlı topraklarına katıldı",
+   "oneri": {},
+   "not": "f=1552 YIL düzeyi (gün yok). Tahrir ölçütü: kaynak susuyor; Mizâb için 'belli oranda vergi öderken idaresi kendi şeyhlerine bırakılmıştı' (Biskre, Lağvât gibi) -> Tugurt için d yerine v olabilir, kaynak ayırmıyor. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1741",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV Cezayir, https://islamansiklopedisi.org.tr/cezayir (sayfa.py)",
+   "alinti": "1830’a kadar süren Cezayir’deki Osmanlı-Türk hâkimiyeti ... dayılar devri (1671-1830)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: dayılar devri 1671 (yıl). Tuggurt'a özgü tanıklık yok; v niteliği Cezayir Ocağı'nın Sahra'ya uzanışı için kaynak susuyor. t=1830-07-05 Cezayir şehrinin işgali (TDV: '5 Temmuz 1830 günü Cezayir şehrini işgal ettiler'), Tuggurt için değil."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1741",
+   "alan": "v",
+   "d": "",
+   "f": "1830-07-05",
+   "t": "1854-12-02",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: TDV cezayir, mizab, tilimsan (sayfa.py)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1830-07-05→1854-12-02 Tuggurt'un Osmanlı tâbiliği ve Fransız ilhak günü (1854-12-02) bu maddelerde yok; TDV Cezayir Fransız hâkimiyetini kıyıya bağlı verir (1840'a kadar 'sınırlı işgal')."
+  }
+ ],
+ "Abu Dabi": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1386",
+   "alan": "s",
+   "d": "ebuzabi-seyhligi",
+   "f": "1761-01-01",
+   "t": "1820-01-08",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ebûzabî, https://islamansiklopedisi.org.tr/ebuzabi (sayfa.py)",
+   "alinti": "Ebûzabî adasına 1761’de geldiler",
+   "oneri": {},
+   "not": "f=1761 YIL düzeyi (TDV). t=1820-01-08 teyitli DEĞİL (sonraki ONERI satırı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1386",
+   "alan": "s",
+   "d": "ebuzabi-seyhligi",
+   "f": "1761-01-01",
+   "t": "1820-01-08",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ebûzabî (sayfa.py)",
+   "alinti": "İngiltere ... hepsinin kendi himayesi altında olduğunu açıkladı (1892) ... genel bir barış antlaşmasının imzalanmasına ön ayak oldu (1820)",
+   "oneri": {
+    "t": "1892"
+   },
+   "not": "1820 genel barış antlaşmasıdır, egemenlik devri değil; TDV: İngiltere 1892'de Ebûzabî'yi himayesi altında ilan etti (künye t=1892). Şeyhlik 1820'den sonra da sürer."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1386",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1820-01-08",
+   "t": "1971-12-02",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Birleşik Arap Emirlikleri, https://islamansiklopedisi.org.tr/birlesik-arap-emirlikleri (sayfa.py)",
+   "alinti": "1892’de İngilizler’in sahil şeyhleriyle yaptığı yeni bir antlaşmayla ... dış işleri ve savunma İngiliz yönetimine bağlı kaldılar",
+   "oneri": {
+    "f": "1892",
+    "alan": "v"
+   },
+   "not": "1820: 'Gemilere saldırılmaması konusunda ... antlaşma imzalandı' (sahipliği devretmez; idareye katma belgesi yok). Dış işleri/savunma İngiltere'ye bağlılık 1892 (yıl) -> himaye (v). t: 'Mart 1971’de İngilizler’in Körfez’den tamamıyla çekilmesi', BAE kuruluşu 2 Aralık 1971."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1386",
+   "alan": "s",
+   "d": "birlesik-arap-emirlikleri",
+   "f": "1971-12-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Birleşik Arap Emirlikleri (sayfa.py)",
+   "alinti": "devletinin kuruluşunu 2 Aralık 1971’de Dübey’de ilân ettiler.",
+   "oneri": {},
+   "not": "f=1971-12-02 gün teyitli (Ras el-Hayme Şubat 1972'de katıldı; Abu Dabi ilk altı emirlikte)."
+  }
+ ],
+ "Medea (Titteri)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1738",
+   "alan": "s",
+   "d": "zeyyani",
+   "f": "1281-01-01",
+   "t": "1519-09-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: TDV cezayir, tilimsan, medea arama (sayfa.py)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Medea'nın Zeyyânî elinde olduğuna dair cümle yok; TDV Medea'yı yalnız Osmanlı Titteri sancağı merkezi olarak anar. Zeyyânî sınırı Kostantîne'ye kadar genişledi (TDV Tilimsân) ama Medea adlanmaz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1738",
+   "alan": "d",
+   "d": "",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV Cezayir, https://islamansiklopedisi.org.tr/cezayir (sayfa.py)",
+   "alinti": "Hacı Hüseyin’i Cezayir halkının Ekim 1519 tarihli arîzasıyla Yavuz Sultan Selim’e göndererek yardım istedi",
+   "oneri": {
+    "f": "1519-10"
+   },
+   "not": "ÜLKE/ABİ MERKEZ (Cezayir): Cezayir'in Osmanlıya bağlanışı Ekim 1519 (ay), doğrudan beylerbeyilik 1534; Titteri (merkezi Medea) beylik sancağı - Medea'nın katılma günü kaynakta yok. Atlas f=1519-09-01. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1738",
+   "alan": "v",
+   "d": "",
+   "f": "1671-01-01",
+   "t": "1830-07-05",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV Cezayir (sayfa.py)",
+   "alinti": "Doğu (merkezi Kostantîne), Titteri (merkezi Medea) ve Batı ... sancaklarıydı ... Beyler yıllık vergilerini baharda dayıya gönderirlerdi.",
+   "oneri": {},
+   "not": "Dayılar devri 1671-1830 (TDV); Titteri beyliği vergi gönderen sancak -> v. f=1671 YIL düzeyi (ÜLKE DÜZEYİ). t=1830: Cezayir'in işgali 5 Temmuz 1830."
+  }
+ ],
+ "Bordo": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1221",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1453-10-19",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Bordeaux, https://www.treccani.it/enciclopedia/bordeaux/ (sayfa.py)",
+   "alinti": "Sottomessa dai re francesi (1451), perse tutti i suoi privilegi.",
+   "oneri": {},
+   "not": "Treccani yalnız 1451 Fransız boyun eğdirişini verir; 1452-10-23 İngiliz dönüşü ve 1453 anılmaz. Atlas f=1453-10-19 için gün/yıl kaynağı bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1221",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1451-06-30",
+   "t": "1452-10-23",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Bordeaux (sayfa.py)",
+   "alinti": "Sottomessa dai re francesi (1451), perse tutti i suoi privilegi.",
+   "oneri": {},
+   "not": "f=1451 YIL düzeyi (gün 06-30 teyitsiz); t=1452-10-23 teyit edilmedi (Treccani İngiliz dönüşünü anmaz)."
+  }
+ ],
+ "Hamburg": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1249",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1945-06-05",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Amburgo, https://www.treccani.it/enciclopedia/amburgo/ (sayfa.py)",
+   "alinti": "Occupata dai Francesi nel 1806 subì un lungo assedio (marzo 1813 - maggio 1814)",
+   "oneri": {},
+   "not": "Atlas Hamburg'u 1281-1945 kesintisiz almanya yazıyor; Treccani Fransız işgali 1806 ve kuşatma 1813-14 verir -> isg fransa katmanı yok. İlhak (1810) ölçütü okunmadı. Ayrıca 'Nel corso del 16° sec., divenne una città libera dell’Impero' (almanya sahipliği). Alıntı t'yi (1806) tarihliyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1249",
+   "alan": "s",
+   "d": "frank",
+   "f": "0804-01-01",
+   "t": "0843-08-10",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: Treccani amburgo (sayfa.py)",
+   "alinti": "Sorta probabilmente come fortezza nell’808 ... elevata nell’834 ad arcivescovato",
+   "oneri": {},
+   "not": "Treccani kuruluş (808) ve başpiskoposluk (834) verir; Frank egemenliğini 804'ten tarihlemez."
+  }
+ ],
+ "Harar": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1393",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1887-01-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Harar, https://islamansiklopedisi.org.tr/harar (sayfa.py)",
+   "alinti": "Emîr Abdullah 5000 kişiyle 7 Ocak 1887 günü Habeşler’i Şeleneko’da karşıladı",
+   "oneri": {
+    "t": "1887-01-07"
+   },
+   "not": "Harar emirliği 1887'de Habeş işgaline kadar sürdü (TDV). Şeleneko savaşı 7 Ocak 1887 (şehre giriş günü verilmemiş); atlas t 1887-01-06. 11 Ekim 1875 → 20 Mayıs 1885 Mısır idaresi (TDV: Harar şehri Muhammed Raûf Paşa’ya teslim edildi (11 Ekim)) atlasta yok -> aralık eklenmeli. f 1281 ufuk kesiği: TDV Harar'ın başkent oluşu 1520."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1393",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1887-01-06",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Harar (sayfa.py)",
+   "alinti": "1936-1941 yıllarını İtalyan ... işgali altında geçiren Harar",
+   "oneri": {
+    "f": "1887-01-07"
+   },
+   "not": "f: Şeleneko 7 Ocak 1887 (alıntı: 'Harar’ı ele geçiren Habeşler'); atlas 01-06. t=1936 YIL düzeyi (İtalyan işgali 1936-1941). Tahrir ölçütü: kaynak susuyor."
+  }
+ ],
+ "Bozkır (Deşt-i Kıpçak)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1504",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1721-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakıldı: TDV kazaklar, don-kazaklari (arama), altin-orda",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bozkır noktasının (Don batı yakası) 1721'den Rusya'ya bağlandığına dair TDV cümlesi yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1504",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, Altın Orda Hanlığı, https://islamansiklopedisi.org.tr/altin-orda-hanligi (sayfa.py)",
+   "alinti": "Şeyh Ahmed Han (1481-1502) ... Taht mücadelesine giren prenslerin artması ... devletin parçalanmasına yol açtı.",
+   "oneri": {
+    "t": "1502"
+   },
+   "not": "Alıntı yalnız t ucunu tarihliyor (1502 yıl; madde başlığı '1241-1502'). f=1281 ufuk kesiği. ÜLKE DÜZEYİ: nokta sahibi Nogay/Kırım ayrışmasıyla belirsiz. t=1502-03-01 gün teyitsiz."
+  }
+ ],
+ "Vologda": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1302",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani Enciclopedia on line, Vologda, https://www.treccani.it/enciclopedia/vologda/ (sayfa.py)",
+   "alinti": "lungamente contesa a Novgorod dai principi di Mosca, passò definitivamente sotto questi nel 1478",
+   "oneri": {
+    "t": "1478"
+   },
+   "not": "Alıntı yalnız t ucunu tarihliyor (1478 yıl; atlas 1478-01-15 gün teyitsiz). 'Lungamente contesa' -> Moskova baskısı 1478'den önce; Novgorod sahipliği kesintisiz mi belirsiz (arama özetleri 1390'lar Moskova'ya geçişini söylüyor, akademik kaynak okunmadı)."
+  }
+ ],
+ "Saratov": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1306",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1590-07-12",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Treccani Enciclopedia on line, Saratov, https://www.treccani.it/enciclopedia/saratov/ (sayfa.py)",
+   "alinti": "Fondata verso il 1590 quale avamposto contro i popoli della steppa",
+   "oneri": {},
+   "not": "f YIL düzeyi ('verso il 1590'); gün 07-12 başka kaynakta (Немцы России, robots nedeniyle okunamadı). t=1917-03-15 teyit edilmedi (ÜLKE DÜZEYİ)."
+  }
+ ],
+ "Vladikavkaz": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1312",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1784-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Rus Tarih Topluluğu portalı (history.ru), 240 лет Владикавказу, https://history.ru/read/articles/240-let-vladikavkazu (sayfa.py) - portal, akademik değil",
+   "alinti": "отсчитывается с момента основания здесь крепости в 1784 году",
+   "oneri": {
+    "f": "1784-05-06"
+   },
+   "not": "Portal metni: Potemkin raporu Nisan 1784, 'Уже 6 мая ... была заложена новая крепость'. Kale kuruluşu bölgenin Rus egemenliği başlangıcı olmayabilir (Osetya'nın katılışı okunmadı). Portal ipucu sayılır, KAYNAKLI değil."
+  }
+ ],
+ "Darfur": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1456",
+   "alan": "v",
+   "d": "",
+   "f": "1874-11-02",
+   "t": "1883-12-23",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, Dârfûr, https://islamansiklopedisi.org.tr/darfur (sayfa.py)",
+   "alinti": "Dârfûr’un Mısır tarafından zaptı Hidiv İsmâil Paşa döneminde Zübeyir Paşa ordusunca gerçekleştirilmiş",
+   "oneri": {},
+   "not": "f YIL düzeyi (1874: son bağımsız sultan İbrâhim öldürüldü); gün 11-02 teyitsiz. Alan v (Osmanlı-Mısır tâbi). t: 'Osmanlı-Mısır hâkimiyeti süresince ... 1883’te mehdî hareketi başlamıştır' (yıl); 1883-12-23 gün TDV'de yok."
+  }
+ ],
+ "Zagros içi": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1507",
+   "alan": "s",
+   "d": "ilhanli",
+   "f": "1281-01-01",
+   "t": "1335-12-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, İlhanlılar, https://islamansiklopedisi.org.tr/ilhanlilar (sayfa.py)",
+   "alinti": "Ebû Said 1335 yılında henüz otuz yaşında iken ölmüş veya zehirlenerek öldürülmüştür",
+   "oneri": {
+    "t": "1335"
+   },
+   "not": "Alıntı yalnız t ucunu tarihliyor (YIL; atlas 1335-12-01 gün teyitsiz). Nokta Lur-ı Büzürg bölgesinde: TDV Luristan 'Lur-ı Büzürg (1155-1424) ... zaman zaman birer İlhanlı vilâyeti statüsüne girdilerse de' -> İlhanlı sahipliği ara ara. BEYANLI YAKLAŞIKLIK."
+  }
+ ]
+}
