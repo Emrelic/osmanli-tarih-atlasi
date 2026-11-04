@@ -109,7 +109,7 @@ window.CEVIRI_DIZIN = {
    ],
    [
     "ceviri_ru_devlet.js",
-    "6153fad8"
+    "c5d53f45"
    ]
   ]
  }
