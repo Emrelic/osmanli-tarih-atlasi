@@ -1,5 +1,5 @@
 """Sonraki 100 KARA-EKSKLAV (koridorda yabancı kara >= 5/9, >= 50 km²), alan büyükten küçüğe, K101-K200.
-Deniz aşırı sömürge gövdesi ayrılır: devlet metropol/sömürge ailesinden VE koridor > 500 km."""
+Deniz aşırı sömürge gövdesi ayrılır: devlet metropol/sömürge ailesinden VE koridor > 500 km VE koridorda deniz/boşluk örneği."""
 import json, os, sys, collections
 SP = os.path.dirname(os.path.abspath(__file__))
 J = json.load(open(os.path.join(SP, "..", "olcum2.json"), encoding="utf-8"))
@@ -27,7 +27,8 @@ sec = kara[100:200]
 for i, a in enumerate(sec, 101):
     a["no"] = "K%03d" % i
     a["S"] = "KARA-EKSKLAV"
-    a["somurge"] = bool(a["devlet"].startswith(SOM) and (a.get("koridor_km") or 0) > 500)
+    a["somurge"] = bool(a["devlet"].startswith(SOM) and (a.get("koridor_km") or 0) > 500
+                        and ((a.get("koridor") or {}).get("DENIZ/BOS", 0) >= 1 or a["koridor_km"] > 2000))
 json.dump(sec, open(os.path.join(SP, "aday2.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 print("toplam yabanci-kara", len(kara), "secilen", len(sec), "somurge", sum(a["somurge"] for a in sec))
 for a in sec:

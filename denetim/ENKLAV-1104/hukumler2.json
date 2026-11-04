@@ -199,5 +199,205 @@
 "gerekce": "Malavi Gölü kıyısı 'umman-zengibar': Nkhotakota 1840-1895 (Cumbe'nin Zengibar sultanına bağlılığı bilinir), ama Mankhamba (Maravi) 1800-1891 Zengibar — Maravi/Chewa merkezi Zengibar egemenliğinde değildi (ölçüldü kayit.py). Koridor 498 km Ngoni/Yao.",
 "duzeltme": "Mankhamba 1800-1891 sahibi kaynakla (maravi/chewa); Nkhotakota Cumbe bağlılığı beyanlı v: olarak.",
 "kaynak": "veri ölçümü (kayit.py Nkhotakota, Mankhamba)"
+},
+"K126": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tek nokta Lubango 1700-1902 'ovimbundu', çevre portekiz (koridor 123 km 9/9). Lubango Huíla yaylasında Nyaneka-Humbe toprağı; Ovimbundu krallıkları Bié/Bailundo merkezli kuzeydeydi. Portekiz Sá da Bandeira kolonisi 1885'te kuruldu; atlas 1902'ye dek ovimbundu tutuyor (ölçüldü kayit.py).",
+"duzeltme": "Lubango 1700-1885 sahibi (Nyaneka/Huíla) ve Portekiz f ucu (1885 Sá da Bandeira) kaynakla.",
+"kaynak": "veri ölçümü (kayit.py Lubango)"
+},
+"K127": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Changsha 1673-12-28 'san-fan': f günü Wu Sangui'nin Yunnan'da isyan ilanı; Hunan'a ilerleyiş ve Changsha'nın alınışı 1674 başındadır. Parça Yunnan-Guizhou gövdesine 1674-03-26'da bağlanıyor — kopukluk Changsha f'sinin isyan gününe çekilmesinden (ölçüldü kayit.py: dönem kaynaksız).",
+"duzeltme": "Changsha san-fan f → Wu Sangui kuvvetlerinin Changsha'ya girişi (1674, gün kaynakla; Eminent Chinese 'WU Sangui').",
+"kaynak": "veri ölçümü (kayit.py Changsha)"
+},
+"K128": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Yeni Kaledonya/Kolombiya HBC bölgesi (Fort Langley, Fort Kamloops) 1812-1858, Rupert's Land gövdesinden Dene/Secwépemc petekleriyle ayrı: K024/K032 ile aynı model (hukukî İngiliz ticaret bölgesi, yerli toprağında karakol). 1858-08-02 Britanya Kolumbiyası kolonisinin kuruluşu.",
+"duzeltme": "Yok; model beyanı.",
+"kaynak": "veri ölçümü; model K024/K032 (ENKLAV-1103)"
+},
+"K129": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "1185-1187 Bizans Sofya/Plevne payı, Trakya gövdesinden Bulgar isyanı (Asen-Petro 1185) toprağıyla ayrı görünüyor; ama koridor yerleşimleri İslimye, Vize, Demirköy, Kofçaz, Malko Tırnova SAHİPSİZ (7/7) ve içteki 13 noktanın 11'i sahipsiz: Trakya ve Tuna noktalarının 1185 dönemi yok, kopukluk noktasız emilmeyle şişmiş.",
+"duzeltme": "Trakya/Tuna noktalarına 12. yüzyıl Bizans dönemleri (kaynakla); 1185 isyan sınırı TIB ile.",
+"kaynak": "veri ölçümü (detay.py koridor yerleşimleri)"
+},
+"K130": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tây Sơn'un orta Vietnam payı (Quy Nhơn, Hội An, Đà Nẵng, Nha Trang) 1801-06-15 → 1802-06-01, Nguyễn Ánh'ın Phú Xuân'ı (Huế) almasıyla Thăng Long'daki kuzey Tây Sơn gövdesinden ayrı (koridor 218 km nguyen 7/9). Huế'nin 15 Haziran 1801 düşüşü ve 1802 Nguyễn zaferi bilinen çerçeve.",
+"duzeltme": "Yok; Quy Nhơn'un düşüşü ve Thăng Long'un alınışı (1802) günleri kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K131": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tek nokta Borisoglebsk 1441-1663 'nogay' (kayıtta kur yok). Borisoglebsk Rus kalesi olarak 17. yüzyıl sonunda (1698) kuruldu; 1441-1663 o devirde yoktu (merdiven ④). Koridor 957 km: nokta peteği Don-Hoper bozkırını Nogay'a boyuyor.",
+"duzeltme": "Borisoglebsk kur: kuruluş yılı (kaynakla) ve önceki dönemler kırpılsın; toprak komşu peteklere kalsın.",
+"kaynak": "veri ölçümü (kayit.py Borisoglebsk: kur yok, 1441-1663 nogay DEVRALMA)"
+},
+"K132": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "K131 ile aynı nokta (Borisoglebsk) 1500-1502 kesiti.",
+"duzeltme": "K131 ile aynı.",
+"kaynak": "veri ölçümü (kayit.py Borisoglebsk)"
+},
+"K133": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Potchefstroom 1838-11-01 → 1852-01-17 'ingiltere' (ölçüldü kayit.py, dönem kaynaksız). Potchefstroom 1838'de Voortrekker'lerce kuruldu; Britanya iddiası (1836 Cape Punishment Act, 25° güneye dek) fiilî idare değildi; 1848 Orange River Sovereignty Vaal'ın kuzeyini kapsamadı; Sand River (1852-01-17) Transvaal'ı tanıdı. Fiilen Boer toprağı.",
+"duzeltme": "Potchefstroom 1838-1852 sahibi: Voortrekker/Potchefstroom cumhuriyeti (transvaal öncülü) — kimlik ve günler kaynakla; 'ingiltere' ise beyanlı hukukî iddia.",
+"kaynak": "veri ölçümü (kayit.py Potchefstroom)"
+},
+"K134": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "OLCUM",
+"gerekce": "1919-07-25 → 1920-06-04: Kassa, Nitra, Komárom, Léva, Uyvar, Eperjes 'macaristan-naiplik'; Çekoslovakya yalnız Munkács/Ungvár (Rutenya) ile görünüyor. Slovakya 1919 başından Çekoslovak askerî idaresindeydi (Macar Sovyet Cumhuriyeti'nin Haziran 1919 kısa işgali hariç); atlas Trianon'a (1920-06-04) dek hukukî Macar sahipliğini fiilî idarenin yerine koymuş.",
+"duzeltme": "Slovak şehirleri cekoslovakya f → 1919 başı fiilî işgal günleri (Kassa, Bratislava vb., kaynakla); Trianon ic_not'ta hukukî devir.",
+"kaynak": "veri ölçümü (detay.py iç sahipler)"
+},
+"K135": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Gouré 1899-01-01 'fransa-cumhuriyet' (önce damagaram), koridor kanem-bornu 9/9 (215 km). Fransızlar Zinder'i (Damagaram başkenti) 30 Temmuz 1899'da aldı; Gouré'nin yıl başına çekilmiş f'si ile Zinder/Damagaram'ın atlasta Bornu boyalı kalması kopukluk üretiyor.",
+"duzeltme": "Zinder ve Damagaram noktaları fransa-cumhuriyet f → 1899-07-30 (kaynakla); Gouré f aynı güne.",
+"kaynak": "veri ölçümü (kayit.py Goure)"
+},
+"K136": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAKLI",
+"gerekce": "Arkot, Cinci, Vellor 1347-08-03 → 1378 'delhi-sultanligi'; Behmenî (1347) Dekken'i kapatınca Delhi'den 686 km kopuk. TDV Tuğluklular: Ma'ber Delhi idaresinden 735/1334-35'te çıktı — güney Tamil ülkesinde 1347 sonrası Delhi idaresi yok; bölge Madurai Sultanlığı ve Vijayanagara arasında.",
+"duzeltme": "Arkot/Cinci/Vellor delhi t → 1334-08-30 (735 ∩ 1334), sonrası madurai-sultanligi / vijayanagara (günler kaynakla).",
+"kaynak": "TDV İslâm Ansiklopedisi, \"Tuğluklular\" (S. Haluk Kortel), https://islamansiklopedisi.org.tr/tugluklular — \"Ma’ber, Delhi Sultanlığı’nın idaresinden çıkmış oldu (735/1334-35)\""
+},
+"K137": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tek nokta Uralsk (Yayık) 1441-1502 'nogay' (kayıtta kur yok). Yaitsk Kazak kasabası 16. yüzyıl sonu/1613'te kuruldu; 15. yüzyılda yerleşim yok (merdiven ④). Nogay'ın Yayık havzası göçebe toprağı gerçek, ama nokta peteği Astarhan koridoruyla yapay ayrıklık üretiyor.",
+"duzeltme": "Uralsk kur yılı kaynakla, önceki dönemler kırpılsın; Nogay Yayık toprağı için uygun tanık nokta (Saraycık) önerilir.",
+"kaynak": "veri ölçümü (kayit.py Uralsk: kur yok)"
+},
+"K138": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Ukek ve Petrovsk 1466-1556 'astarhan', çevre nogay (koridor 85 km 9/9); Saratov sahipsiz. Petrovsk 1698'de, Saratov 1590'da kuruldu; Ukek Altın Orda şehri 14. yüzyıl sonunda harap. Noktaların hiçbiri 1466-1556'da yaşayan yerleşim değil (merdiven ④): Astarhan'ın orta Volga eksklavı nokta artefaktı.",
+"duzeltme": "Petrovsk ve Ukek kur/bit alanları kaynakla; o devirde yoksa dönemleri kırpılsın.",
+"kaynak": "veri ölçümü (kayit.py Ukek, Petrovsk: kur/bit yok)"
+},
+"K139": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "Tek nokta bir bölge adı ('Ural eteği') 1556-1640 'rusya'; İlek sahipsiz. Bölge adlı nokta Yayık-İlek bozkırını Rusya'ya boyuyor (koridor nogay 9/9). Şehir tanığı değil.",
+"duzeltme": "'Ural eteği' bölge noktası kaldırılsın ya da gerçek yerleşim tanığıyla değiştirilsin (Değişmez 3).",
+"kaynak": "veri ölçümü"
+},
+"K140": {
+"hukum": "YAPAY",
+"kova": "YAPAY-a",
+"guven": "OLCUM",
+"gerekce": "K139 ile aynı bölge noktası ('Ural eteği') 1441-1502 'altinorda'.",
+"duzeltme": "K139 ile aynı.",
+"kaynak": "veri ölçümü"
+},
+"K141": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tara 1594 → 1598-08-20 'rusya' (Tara 1594 Rus kalesi), çevre sibir-hanligi (koridor 428 km 9/9); koridordaki Abalak 'sibir-hanligi'. Tobolsk 1587'de Rus kalesi olarak kuruldu ve Abalak onun 20 km yakınında: 1594-1598'de Tobol-İrtiş kavşağı Rus'tu, Küçüm Han güneydoğu bozkırında. Kopukluk Abalak/Tobolsk çevresinin Sibir boyalı kalmasından.",
+"duzeltme": "Abalak ve Tobolsk çevresi rusya f → 1587 (kaynakla); Sibir Hanlığı t 1598-08-20 (Irmen) uyumlu.",
+"kaynak": "veri ölçümü (detay.py koridor)"
+},
+"K142": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Batı Yunnan Qing payı (Tengyue, Yongchang, Lijiang) 1858-1873, Qing gövdesinden Dali'deki Pingnan (Panthay) sultanlığıyla ayrı (koridor 21 km 9/9); bitiş 1873-01-15 Dali'nin düşüşü. Düşük güven: Tengyue/Yongchang'ın bu yıllarda Panthay eline geçip geçmediği kaynakla sınanmalı (Panthaylar batı Yunnan'ın çoğunu tuttu).",
+"duzeltme": "Tengyue/Yongchang 1858-1873 sahibi kaynakla; Dali Eski Kenti sahipsiz.",
+"kaynak": "veri ölçümü"
+},
+"K143": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "İspanyol Hollandası (Brüksel, Arras, Lille, Namur, Mons, Ypres) 1516-1714, İspanya'dan Fransa ile ayrı (koridor 762 km fransa 9/9): bilinen Habsburg ayrıklığı ('İspanyol Yolu'). Bitiş 1714-03-07 Rastatt. Ayrı not: Arras (1640/1659) ve Lille (1667/1668) Fransa'ya geçti — atlas günleri sınanmalı.",
+"duzeltme": "Yok; Arras/Lille/Tournai Fransa'ya geçiş günleri kontrol.",
+"kaynak": "veri ölçümü"
+},
+"K144": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "New Orleans ve Natchez 1762-11-03 → 1763-11-03 'fransa': Fontainebleau (1762-11-03) Batı Louisiana'yı İspanya'ya devretti, Fransız idaresi New Orleans'ta sürdü; Kanada Paris (1763-02-10) ile gitti. Fransız Louisiana kalıntısı Choctaw toprağıyla ayrı. Düşük güven: Natchez Paris 1763 ile İngiltere'ye geçti; 1763-11-03 bitişinin dayanağı belirsiz.",
+"duzeltme": "Natchez fransa t → 1763-02-10 (Paris); New Orleans fransa t → İspanyol idaresinin fiilen başladığı gün (1766, Ulloa) — kaynakla.",
+"kaynak": "veri ölçümü"
+},
+"K145": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Fort Selkirk (Yukon, HBC 1848) 1848-1870: K128 ile aynı model (hukukî İngiliz ticaret bölgesi, yerli toprağında karakol); 1870-07-15 Rupert's Land/Kuzeybatı Bölgesi'nin Kanada'ya devri.",
+"duzeltme": "Yok; model beyanı.",
+"kaynak": "veri ölçümü; model K024/K032"
+},
+"K146": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Doğu Prusya 1920-01-10 → 1939-09-01, Almanya'dan Polonya Koridoru ile ayrı (koridor 80 km polonya 9/9): 20. yüzyılın bilinen eksklavı. Ayrı borç: Torun (Toruń) 1920-01-10 kesitinde 'almanya' — Toruń Versay ile Polonya'ya geçti (Ocak 1920); Kulm ve Marienburg sahipsiz.",
+"duzeltme": "Toruń almanya t ≤ 1920-01-10 kontrol (Polonya f Ocak 1920, kaynakla); Kulm, Marienburg dönemleri.",
+"kaynak": "veri ölçümü"
+},
+"K147": {
+"hukum": "YAPAY",
+"kova": "YAPAY-k",
+"guven": "OLCUM",
+"gerekce": "1000-1281 'almanya' (Kutsal Roma İmparatorluğu çatı kimliği) Karintiya/Görz/Villach payı, Brixen piskoposluğu ve Salzburg başpiskoposluğu ayrı kimlikle boyandığı için gövdeden ayrı (koridor 85 km brixen 9/9). İmparatorluk prenslikleri İmparatorluğun içindeydi: çatı kimlik + üye yan yana boyama artefaktı. İçteki 17 noktanın 9'u sahipsiz.",
+"duzeltme": "Kutsal Roma İmparatorluğu üyeleri ya ayrı kimlik (Karintiya dükalığı vb.) ya beyanlı çatı; eksklav evreninden beyanla çıkarılsın.",
+"kaynak": "veri ölçümü"
+},
+"K148": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "OLCUM",
+"gerekce": "Basutoland (Maseru, Thaba Bosiu) 1910-05-31 → 1966-10-04, Güney Afrika Birliği içinde İngiliz yüksek komiserlik bölgesi: klasik enklav (bağımsız Lesotho 1966-10-04).",
+"duzeltme": "Yok.",
+"kaynak": "veri ölçümü"
+},
+"K149": {
+"hukum": "YAPAY",
+"kova": "YAPAY-c",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Tek nokta Bauchi 1903-01-01 → 01-15 'sokoto', çevre ingiltere (koridor 290 km 9/9). Bauchi emirliği İngilizlerce 1902'de işgal edildi; Kano (Şubat 1903) ve Sokoto (Mart 1903) sonradan. 1903 başında Bauchi'nin Sokoto'da kalması ve 15 günlük parça hizasız dönemden.",
+"duzeltme": "Bauchi ingiltere f → 1902 işgal günü (kaynakla).",
+"kaynak": "veri ölçümü"
+},
+"K150": {
+"hukum": "GERCEK",
+"kova": "GERCEK",
+"guven": "KAYNAK-GEREK",
+"gerekce": "Herat 1353 → 1381-04-01 'kert' tek nokta, çevre serbedariler (koridor 250 km 9/9; Kâin serbedariler). Kert hanedanı Herat merkezliydi; Kert'in ana gövdesi başka yerdeyse (Gur/Gazne) kopukluk Serbedâr Kuhistan'ıyla gerçek olabilir; Kâin'in Serbedâr mı Kert mi olduğu kaynakla. Bitiş 1381 Timur'un Herat'ı alışıyla uyumlu.",
+"duzeltme": "Kâin ve Kuhistan 1353-1381 sahibi (Iranica 'Kart dynasty', 'Sarbedarids').",
+"kaynak": "veri ölçümü"
 }
 }

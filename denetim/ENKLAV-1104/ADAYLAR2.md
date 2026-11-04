@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 25 / 100. Kova: GERCEK 10, YAPAY-a 3, YAPAY-b 2, YAPAY-c 4, YAPAY-d 1, YAPAY-k 5, — 75. Güven: KAYNAK-GEREK 11, KAYNAKLI 3, OLCUM 11, — 75.
+Hükümlü: 50 / 100. Kova: GERCEK 19, YAPAY-a 6, YAPAY-b 2, YAPAY-c 16, YAPAY-d 1, YAPAY-k 6, — 50. Güven: KAYNAK-GEREK 25, KAYNAKLI 4, OLCUM 21, — 50.
 
 ## Kara eksklavları
 
@@ -265,168 +265,250 @@ Hükümlü: 25 / 100. Kova: GERCEK 10, YAPAY-a 3, YAPAY-b 2, YAPAY-c 4, YAPAY-d 
 - En büyük kesit: 1700-01-01 · komşu: portekiz 32%, ovambo 10%
 - Koridor: 122.9 km · portekiz 9/9
 - İçindeki yerleşimler: Lubango (ovimbundu)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Tek nokta Lubango 1700-1902 'ovimbundu', çevre portekiz (koridor 123 km 9/9). Lubango Huíla yaylasında Nyaneka-Humbe toprağı; Ovimbundu krallıkları Bié/Bailundo merkezli kuzeydeydi. Portekiz Sá da Bandeira kolonisi 1885'te kuruldu; atlas 1902'ye dek ovimbundu tutuyor (ölçüldü kayit.py).
+  - Düzeltme önerisi: Lubango 1700-1885 sahibi (Nyaneka/Huíla) ve Portekiz f ucu (1885 Sá da Bandeira) kaynakla.
+  - Kaynak: veri ölçümü (kayit.py Lubango)
 
 ### K127 · san-fan · 1673-12-28 → 1674-03-26 · 57.850 km²
 
 - En büyük kesit: 1674-03-15 · komşu: qing-hanedani 64%
 - Koridor: 171.5 km · qing-hanedani 6/9, DENIZ/BOS 3/9
 - İçindeki yerleşimler: Changsha (san-fan)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Changsha 1673-12-28 'san-fan': f günü Wu Sangui'nin Yunnan'da isyan ilanı; Hunan'a ilerleyiş ve Changsha'nın alınışı 1674 başındadır. Parça Yunnan-Guizhou gövdesine 1674-03-26'da bağlanıyor — kopukluk Changsha f'sinin isyan gününe çekilmesinden (ölçüldü kayit.py: dönem kaynaksız).
+  - Düzeltme önerisi: Changsha san-fan f → Wu Sangui kuvvetlerinin Changsha'ya girişi (1674, gün kaynakla; Eminent Chinese 'WU Sangui').
+  - Kaynak: veri ölçümü (kayit.py Changsha)
 
 ### K128 · ingiliz-kuzey-amerika · 1812-01-01 → 1858-08-02 · 57.672 km²
 
 - En büyük kesit: 1843-06-10 · komşu: secwepemc 26%, dene 5%
 - Koridor: 130.7 km · dene 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Fort Langley (ingiliz-kuzey-amerika); Vancouver (Granville) (sahipsiz); Fort Kamloops (ingiliz-kuzey-amerika)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Yeni Kaledonya/Kolombiya HBC bölgesi (Fort Langley, Fort Kamloops) 1812-1858, Rupert's Land gövdesinden Dene/Secwépemc petekleriyle ayrı: K024/K032 ile aynı model (hukukî İngiliz ticaret bölgesi, yerli toprağında karakol). 1858-08-02 Britanya Kolumbiyası kolonisinin kuruluşu.
+  - Düzeltme önerisi: Yok; model beyanı.
+  - Kaynak: veri ölçümü; model K024/K032 (ENKLAV-1103)
 
 ### K129 · bizans · 1185-01-01 → 1187-01-01 · 57.536 km²
 
 - En büyük kesit: 1185-01-01 · komşu: bulgar-carligi 30%
 - Koridor: 275.2 km · bulgar-carligi 5/9, DENIZ/BOS 4/9
 - İçindeki yerleşimler: İhtiman (sahipsiz); Sofya (bizans); Lofça (Loveč) (sahipsiz); Plevne (bizans); Şehirköy (Pirot) (sahipsiz); Ziştovi (Svishtov) (sahipsiz); Zimnicea (sahipsiz); Niğbolu (sahipsiz) … +5
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: 1185-1187 Bizans Sofya/Plevne payı, Trakya gövdesinden Bulgar isyanı (Asen-Petro 1185) toprağıyla ayrı görünüyor; ama koridor yerleşimleri İslimye, Vize, Demirköy, Kofçaz, Malko Tırnova SAHİPSİZ (7/7) ve içteki 13 noktanın 11'i sahipsiz: Trakya ve Tuna noktalarının 1185 dönemi yok, kopukluk noktasız emilmeyle şişmiş.
+  - Düzeltme önerisi: Trakya/Tuna noktalarına 12. yüzyıl Bizans dönemleri (kaynakla); 1185 isyan sınırı TIB ile.
+  - Kaynak: veri ölçümü (detay.py koridor yerleşimleri)
 
 ### K130 · tay-son · 1801-06-15 → 1802-06-01 · 57.321 km²
 
 - En büyük kesit: 1801-06-15 · komşu: siyam-chakri 18%, campa 8%, nguyen-hanedani 5%
 - Koridor: 217.6 km · nguyen-hanedani 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Nha Trang (Kauthara) (tay-son); Vijaya (Quy Nhơn) (tay-son); Quang Ngai (tay-son); Hội An (Faifo) (tay-son); Đà Nẵng (Tourane) (tay-son)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Tây Sơn'un orta Vietnam payı (Quy Nhơn, Hội An, Đà Nẵng, Nha Trang) 1801-06-15 → 1802-06-01, Nguyễn Ánh'ın Phú Xuân'ı (Huế) almasıyla Thăng Long'daki kuzey Tây Sơn gövdesinden ayrı (koridor 218 km nguyen 7/9). Huế'nin 15 Haziran 1801 düşüşü ve 1802 Nguyễn zaferi bilinen çerçeve.
+  - Düzeltme önerisi: Yok; Quy Nhơn'un düşüşü ve Thăng Long'un alınışı (1802) günleri kaynakla.
+  - Kaynak: veri ölçümü
 
 ### K131 · nogay · 1556-01-01 → 1644-01-01 · 56.750 km²
 
 - En büyük kesit: 1556-01-01 · komşu: rusya 27%, don-kazak 17%
 - Koridor: 957.0 km · rusya 5/9, DENIZ/BOS 4/9
 - İçindeki yerleşimler: Borisoglebsk (nogay)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Tek nokta Borisoglebsk 1441-1663 'nogay' (kayıtta kur yok). Borisoglebsk Rus kalesi olarak 17. yüzyıl sonunda (1698) kuruldu; 1441-1663 o devirde yoktu (merdiven ④). Koridor 957 km: nokta peteği Don-Hoper bozkırını Nogay'a boyuyor.
+  - Düzeltme önerisi: Borisoglebsk kur: kuruluş yılı (kaynakla) ve önceki dönemler kırpılsın; toprak komşu peteklere kalsın.
+  - Kaynak: veri ölçümü (kayit.py Borisoglebsk: kur yok, 1441-1663 nogay DEVRALMA)
 
 ### K132 · nogay · 1500-01-01 → 1502-03-01 · 56.745 km²
 
 - En büyük kesit: 1500-01-01 · komşu: altinorda 31%, astarhan 12%
 - Koridor: 957.0 km · altinorda 5/9, DENIZ/BOS 4/9
 - İçindeki yerleşimler: Borisoglebsk (nogay)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: K131 ile aynı nokta (Borisoglebsk) 1500-1502 kesiti.
+  - Düzeltme önerisi: K131 ile aynı.
+  - Kaynak: veri ölçümü (kayit.py Borisoglebsk)
 
 ### K133 · ingiltere · 1838-11-01 → 1852-01-17 · 56.296 km²
 
 - En büyük kesit: 1848-01-01 · komşu: transvaal 22%, tsvana 21%, oranj 17%
 - Koridor: 289.9 km · basuto 7/9, oranj 2/9
 - İçindeki yerleşimler: Potchefstroom (ingiltere)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Potchefstroom 1838-11-01 → 1852-01-17 'ingiltere' (ölçüldü kayit.py, dönem kaynaksız). Potchefstroom 1838'de Voortrekker'lerce kuruldu; Britanya iddiası (1836 Cape Punishment Act, 25° güneye dek) fiilî idare değildi; 1848 Orange River Sovereignty Vaal'ın kuzeyini kapsamadı; Sand River (1852-01-17) Transvaal'ı tanıdı. Fiilen Boer toprağı.
+  - Düzeltme önerisi: Potchefstroom 1838-1852 sahibi: Voortrekker/Potchefstroom cumhuriyeti (transvaal öncülü) — kimlik ve günler kaynakla; 'ingiltere' ise beyanlı hukukî iddia.
+  - Kaynak: veri ölçümü (kayit.py Potchefstroom)
 
 ### K134 · cekoslovakya · 1919-07-25 → 1920-06-04 · 55.748 km²
 
 - En büyük kesit: 1919-09-10 · komşu: macaristan-naiplik 65%, polonya 25%, itilaf-emaneti 14%
 - Koridor: 18.8 km · itilaf-emaneti 9/9
 - İçindeki yerleşimler: Komárom (Komárno) (macaristan-naiplik); Uyvar (macaristan-naiplik); Léva (Levice) (macaristan-naiplik); Nitra (Nyitra) (macaristan-naiplik); Munkács (Mukacheve) (cekoslovakya); Ungvár (Uzhhorod) (cekoslovakya); Kassa (Košice) (macaristan-naiplik); Eperjes (Prešov) (macaristan-naiplik)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven OLCUM)
+  - Gerekçe: 1919-07-25 → 1920-06-04: Kassa, Nitra, Komárom, Léva, Uyvar, Eperjes 'macaristan-naiplik'; Çekoslovakya yalnız Munkács/Ungvár (Rutenya) ile görünüyor. Slovakya 1919 başından Çekoslovak askerî idaresindeydi (Macar Sovyet Cumhuriyeti'nin Haziran 1919 kısa işgali hariç); atlas Trianon'a (1920-06-04) dek hukukî Macar sahipliğini fiilî idarenin yerine koymuş.
+  - Düzeltme önerisi: Slovak şehirleri cekoslovakya f → 1919 başı fiilî işgal günleri (Kassa, Bratislava vb., kaynakla); Trianon ic_not'ta hukukî devir.
+  - Kaynak: veri ölçümü (detay.py iç sahipler)
 
 ### K135 · fransa-cumhuriyet · 1899-01-01 → 1902-01-01 · 55.741 km²
 
 - En büyük kesit: 1901-07-10 · komşu: kanem-bornu 53%, kanem-tubu 20%
 - Koridor: 215.4 km · kanem-bornu 9/9
 - İçindeki yerleşimler: Goure (fransa-cumhuriyet)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Gouré 1899-01-01 'fransa-cumhuriyet' (önce damagaram), koridor kanem-bornu 9/9 (215 km). Fransızlar Zinder'i (Damagaram başkenti) 30 Temmuz 1899'da aldı; Gouré'nin yıl başına çekilmiş f'si ile Zinder/Damagaram'ın atlasta Bornu boyalı kalması kopukluk üretiyor.
+  - Düzeltme önerisi: Zinder ve Damagaram noktaları fransa-cumhuriyet f → 1899-07-30 (kaynakla); Gouré f aynı güne.
+  - Kaynak: veri ölçümü (kayit.py Goure)
 
 ### K136 · delhi-sultanligi · 1347-08-03 → 1378-01-01 · 55.703 km²
 
 - En büyük kesit: 1350-01-01 · komşu: madurai-sultanligi 24%, vijayanagara 17%, behmeni 2%
 - Koridor: 686.2 km · behmeni 9/9
 - İçindeki yerleşimler: Pondişeri (sahipsiz); Cinci (Gingee) (delhi-sultanligi); Arkot (Arcot) (delhi-sultanligi); Vellor (Vellore) (delhi-sultanligi)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAKLI)
+  - Gerekçe: Arkot, Cinci, Vellor 1347-08-03 → 1378 'delhi-sultanligi'; Behmenî (1347) Dekken'i kapatınca Delhi'den 686 km kopuk. TDV Tuğluklular: Ma'ber Delhi idaresinden 735/1334-35'te çıktı — güney Tamil ülkesinde 1347 sonrası Delhi idaresi yok; bölge Madurai Sultanlığı ve Vijayanagara arasında.
+  - Düzeltme önerisi: Arkot/Cinci/Vellor delhi t → 1334-08-30 (735 ∩ 1334), sonrası madurai-sultanligi / vijayanagara (günler kaynakla).
+  - Kaynak: TDV İslâm Ansiklopedisi, "Tuğluklular" (S. Haluk Kortel), https://islamansiklopedisi.org.tr/tugluklular — "Ma’ber, Delhi Sultanlığı’nın idaresinden çıkmış oldu (735/1334-35)"
 
 ### K137 · nogay · 1441-01-01 → 1502-03-01 · 54.114 km²
 
 - En büyük kesit: 1441-01-01 · komşu: altinorda 62%
 - Koridor: 321.6 km · astarhan 7/9, DENIZ/BOS 2/9
 - İçindeki yerleşimler: Uralsk (Yayık) (nogay)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Tek nokta Uralsk (Yayık) 1441-1502 'nogay' (kayıtta kur yok). Yaitsk Kazak kasabası 16. yüzyıl sonu/1613'te kuruldu; 15. yüzyılda yerleşim yok (merdiven ④). Nogay'ın Yayık havzası göçebe toprağı gerçek, ama nokta peteği Astarhan koridoruyla yapay ayrıklık üretiyor.
+  - Düzeltme önerisi: Uralsk kur yılı kaynakla, önceki dönemler kırpılsın; Nogay Yayık toprağı için uygun tanık nokta (Saraycık) önerilir.
+  - Kaynak: veri ölçümü (kayit.py Uralsk: kur yok)
 
 ### K138 · astarhan · 1466-01-01 → 1556-01-01 · 52.729 km²
 
 - En büyük kesit: 1502-03-01 · komşu: nogay 81%, altinorda 74%
 - Koridor: 85.3 km · nogay 9/9
 - İçindeki yerleşimler: Ukek (Uvek) (astarhan); Saratov (sahipsiz); Petrovsk (Saratov) (astarhan)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Ukek ve Petrovsk 1466-1556 'astarhan', çevre nogay (koridor 85 km 9/9); Saratov sahipsiz. Petrovsk 1698'de, Saratov 1590'da kuruldu; Ukek Altın Orda şehri 14. yüzyıl sonunda harap. Noktaların hiçbiri 1466-1556'da yaşayan yerleşim değil (merdiven ④): Astarhan'ın orta Volga eksklavı nokta artefaktı.
+  - Düzeltme önerisi: Petrovsk ve Ukek kur/bit alanları kaynakla; o devirde yoksa dönemleri kırpılsın.
+  - Kaynak: veri ölçümü (kayit.py Ukek, Petrovsk: kur/bit yok)
 
 ### K139 · rusya · 1556-01-01 → 1640-01-01 · 52.711 km²
 
 - En büyük kesit: 1598-01-01 · komşu: nogay 36%
 - Koridor: 61.9 km · nogay 9/9
 - İçindeki yerleşimler: Ural eteği (rusya); İlek (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: Tek nokta bir bölge adı ('Ural eteği') 1556-1640 'rusya'; İlek sahipsiz. Bölge adlı nokta Yayık-İlek bozkırını Rusya'ya boyuyor (koridor nogay 9/9). Şehir tanığı değil.
+  - Düzeltme önerisi: 'Ural eteği' bölge noktası kaldırılsın ya da gerçek yerleşim tanığıyla değiştirilsin (Değişmez 3).
+  - Kaynak: veri ölçümü
 
 ### K140 · altinorda · 1441-01-01 → 1502-03-01 · 52.664 km²
 
 - En büyük kesit: 1465-01-01 · komşu: nogay 36%
 - Koridor: 61.9 km · nogay 9/9
 - İçindeki yerleşimler: Ural eteği (altinorda); İlek (sahipsiz)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-a · güven OLCUM)
+  - Gerekçe: K139 ile aynı bölge noktası ('Ural eteği') 1441-1502 'altinorda'.
+  - Düzeltme önerisi: K139 ile aynı.
+  - Kaynak: veri ölçümü
 
 ### K141 · rusya · 1594-01-01 → 1598-08-20 · 52.092 km²
 
 - En büyük kesit: 1595-01-01 · komşu: sibir-hanligi 35%
 - Koridor: 427.6 km · sibir-hanligi 9/9
 - İçindeki yerleşimler: Tara (rusya)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Tara 1594 → 1598-08-20 'rusya' (Tara 1594 Rus kalesi), çevre sibir-hanligi (koridor 428 km 9/9); koridordaki Abalak 'sibir-hanligi'. Tobolsk 1587'de Rus kalesi olarak kuruldu ve Abalak onun 20 km yakınında: 1594-1598'de Tobol-İrtiş kavşağı Rus'tu, Küçüm Han güneydoğu bozkırında. Kopukluk Abalak/Tobolsk çevresinin Sibir boyalı kalmasından.
+  - Düzeltme önerisi: Abalak ve Tobolsk çevresi rusya f → 1587 (kaynakla); Sibir Hanlığı t 1598-08-20 (Irmen) uyumlu.
+  - Kaynak: veri ölçümü (detay.py koridor)
 
 ### K142 · qing-hanedani · 1858-05-17 → 1873-01-15 · 51.390 km²
 
 - En büyük kesit: 1858-05-17 · komşu: pingnan 29%, konbaung 12%, san-devletleri 8%
 - Koridor: 20.9 km · pingnan 9/9
 - İçindeki yerleşimler: Tengyue (Tengchong) (qing-hanedani); Yongchang (Baoshan) (qing-hanedani); Dali Eski Kenti (sahipsiz); Lijiang (qing-hanedani)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Batı Yunnan Qing payı (Tengyue, Yongchang, Lijiang) 1858-1873, Qing gövdesinden Dali'deki Pingnan (Panthay) sultanlığıyla ayrı (koridor 21 km 9/9); bitiş 1873-01-15 Dali'nin düşüşü. Düşük güven: Tengyue/Yongchang'ın bu yıllarda Panthay eline geçip geçmediği kaynakla sınanmalı (Panthaylar batı Yunnan'ın çoğunu tuttu).
+  - Düzeltme önerisi: Tengyue/Yongchang 1858-1873 sahibi kaynakla; Dali Eski Kenti sahipsiz.
+  - Kaynak: veri ölçümü
+
+### K143 · ispanya · 1516-01-23 → 1714-03-07 · 50.824 km²
+
+- En büyük kesit: 1562-01-01 · komşu: fransa 35%, habsburg-hollandasi 32%, almanya 24%
+- Koridor: 762.2 km · fransa 9/9
+- İçindeki yerleşimler: Arras (ispanya); Mons (ispanya); Namur (ispanya); Tournai (ispanya); Eupen (ispanya); Lille (ispanya); Cassel (sahipsiz); Brüksel (ispanya) … +14
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: İspanyol Hollandası (Brüksel, Arras, Lille, Namur, Mons, Ypres) 1516-1714, İspanya'dan Fransa ile ayrı (koridor 762 km fransa 9/9): bilinen Habsburg ayrıklığı ('İspanyol Yolu'). Bitiş 1714-03-07 Rastatt. Ayrı not: Arras (1640/1659) ve Lille (1667/1668) Fransa'ya geçti — atlas günleri sınanmalı.
+  - Düzeltme önerisi: Yok; Arras/Lille/Tournai Fransa'ya geçiş günleri kontrol.
+  - Kaynak: veri ölçümü
 
 ### K144 · fransa · 1762-11-03 → 1763-11-03 · 50.169 km²
 
 - En büyük kesit: 1762-11-03 · komşu: yeni-ispanya 30%, choctaw 8%
 - Koridor: 126.0 km · choctaw 9/9
 - İçindeki yerleşimler: New Orleans (fransa); Natchez (Grand Village) (fransa)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: New Orleans ve Natchez 1762-11-03 → 1763-11-03 'fransa': Fontainebleau (1762-11-03) Batı Louisiana'yı İspanya'ya devretti, Fransız idaresi New Orleans'ta sürdü; Kanada Paris (1763-02-10) ile gitti. Fransız Louisiana kalıntısı Choctaw toprağıyla ayrı. Düşük güven: Natchez Paris 1763 ile İngiltere'ye geçti; 1763-11-03 bitişinin dayanağı belirsiz.
+  - Düzeltme önerisi: Natchez fransa t → 1763-02-10 (Paris); New Orleans fransa t → İspanyol idaresinin fiilen başladığı gün (1766, Ulloa) — kaynakla.
+  - Kaynak: veri ölçümü
 
 ### K145 · ingiliz-kuzey-amerika · 1848-01-01 → 1870-07-15 · 49.957 km²
 
 - En büyük kesit: 1867-10-18 · komşu: abd 14%, dene 13%
 - Koridor: 314.9 km · dene 6/9, DENIZ/BOS 3/9
 - İçindeki yerleşimler: Fort Selkirk (ingiliz-kuzey-amerika)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Fort Selkirk (Yukon, HBC 1848) 1848-1870: K128 ile aynı model (hukukî İngiliz ticaret bölgesi, yerli toprağında karakol); 1870-07-15 Rupert's Land/Kuzeybatı Bölgesi'nin Kanada'ya devri.
+  - Düzeltme önerisi: Yok; model beyanı.
+  - Kaynak: veri ölçümü; model K024/K032
 
 ### K146 · almanya · 1920-01-10 → 1939-09-01 · 49.677 km²
 
 - En büyük kesit: 1920-01-10 · komşu: polonya 41%, itilaf-emaneti 20%, litvanya 4%
 - Koridor: 79.6 km · polonya 9/9
 - İçindeki yerleşimler: Torun (Toruń) (almanya); Kulm (Chełmno) (sahipsiz); Marienburg (Malbork) (sahipsiz); Elbing (Elbląg) (almanya); Königsberg (almanya)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Doğu Prusya 1920-01-10 → 1939-09-01, Almanya'dan Polonya Koridoru ile ayrı (koridor 80 km polonya 9/9): 20. yüzyılın bilinen eksklavı. Ayrı borç: Torun (Toruń) 1920-01-10 kesitinde 'almanya' — Toruń Versay ile Polonya'ya geçti (Ocak 1920); Kulm ve Marienburg sahipsiz.
+  - Düzeltme önerisi: Toruń almanya t ≤ 1920-01-10 kontrol (Polonya f Ocak 1920, kaynakla); Kulm, Marienburg dönemleri.
+  - Kaynak: veri ölçümü
 
 ### K147 · almanya · 1000-01-01 → 1281-01-01 · 49.585 km²
 
 - En büyük kesit: 1276-11-21 · komşu: macaristan 23%, salzburg-baspiskoposlugu 12%, brixen-piskoposlugu 4%
 - Koridor: 85.2 km · brixen-piskoposlugu 9/9
 - İçindeki yerleşimler: Fiume (Rijeka) (sahipsiz); Umag (B bölgesi) (sahipsiz); Koper (Capodistria, B bölgesi) (sahipsiz); Trieste (sahipsiz); Görz (Gorizia) (almanya); Ljubljana (sahipsiz); Ptuj (Pettau) (sahipsiz); Tarvis (Tarvisio) (almanya) … +9
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-k · güven OLCUM)
+  - Gerekçe: 1000-1281 'almanya' (Kutsal Roma İmparatorluğu çatı kimliği) Karintiya/Görz/Villach payı, Brixen piskoposluğu ve Salzburg başpiskoposluğu ayrı kimlikle boyandığı için gövdeden ayrı (koridor 85 km brixen 9/9). İmparatorluk prenslikleri İmparatorluğun içindeydi: çatı kimlik + üye yan yana boyama artefaktı. İçteki 17 noktanın 9'u sahipsiz.
+  - Düzeltme önerisi: Kutsal Roma İmparatorluğu üyeleri ya ayrı kimlik (Karintiya dükalığı vb.) ya beyanlı çatı; eksklav evreninden beyanla çıkarılsın.
+  - Kaynak: veri ölçümü
 
 ### K148 · ingiltere · 1910-05-31 → 1966-10-04 · 49.461 km²
 
 - En büyük kesit: 1955-11-23 · komşu: guney-afrika-birligi 70%
 - Koridor: 277.0 km · guney-afrika-birligi 9/9
 - İçindeki yerleşimler: Thaba Bosiu (ingiltere); Maseru (ingiltere)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven OLCUM)
+  - Gerekçe: Basutoland (Maseru, Thaba Bosiu) 1910-05-31 → 1966-10-04, Güney Afrika Birliği içinde İngiliz yüksek komiserlik bölgesi: klasik enklav (bağımsız Lesotho 1966-10-04).
+  - Düzeltme önerisi: Yok.
+  - Kaynak: veri ölçümü
 
 ### K149 · sokoto · 1903-01-01 → 1903-01-15 · 49.174 km²
 
 - En büyük kesit: 1903-01-01 · komşu: ingiltere 75%
 - Koridor: 290.2 km · ingiltere 9/9
 - İçindeki yerleşimler: Bauci (Bauchi) (sokoto)
-- Hüküm: — (sırada)
+- **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
+  - Gerekçe: Tek nokta Bauchi 1903-01-01 → 01-15 'sokoto', çevre ingiltere (koridor 290 km 9/9). Bauchi emirliği İngilizlerce 1902'de işgal edildi; Kano (Şubat 1903) ve Sokoto (Mart 1903) sonradan. 1903 başında Bauchi'nin Sokoto'da kalması ve 15 günlük parça hizasız dönemden.
+  - Düzeltme önerisi: Bauchi ingiltere f → 1902 işgal günü (kaynakla).
+  - Kaynak: veri ölçümü
 
 ### K150 · kert · 1353-01-01 → 1381-04-01 · 49.118 km²
 
 - En büyük kesit: 1353-01-01 · komşu: serbedariler 34%
 - Koridor: 249.5 km · serbedariler 9/9
 - İçindeki yerleşimler: Herat (kert)
-- Hüküm: — (sırada)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+  - Gerekçe: Herat 1353 → 1381-04-01 'kert' tek nokta, çevre serbedariler (koridor 250 km 9/9; Kâin serbedariler). Kert hanedanı Herat merkezliydi; Kert'in ana gövdesi başka yerdeyse (Gur/Gazne) kopukluk Serbedâr Kuhistan'ıyla gerçek olabilir; Kâin'in Serbedâr mı Kert mi olduğu kaynakla. Bitiş 1381 Timur'un Herat'ı alışıyla uyumlu.
+  - Düzeltme önerisi: Kâin ve Kuhistan 1353-1381 sahibi (Iranica 'Kart dynasty', 'Sarbedarids').
+  - Kaynak: veri ölçümü
 
 ### K151 · OSMANLI · 1689-08-01 → 1690-09-27 · 48.546 km²
 
@@ -751,13 +833,6 @@ Hükümlü: 25 / 100. Kova: GERCEK 10, YAPAY-a 3, YAPAY-b 2, YAPAY-c 4, YAPAY-d 
 - Hüküm: — (sırada)
 
 ## Deniz aşırı sömürge gövdeleri (ayrı)
-
-### K143 · ispanya · 1516-01-23 → 1714-03-07 · 50.824 km²
-
-- En büyük kesit: 1562-01-01 · komşu: fransa 35%, habsburg-hollandasi 32%, almanya 24%
-- Koridor: 762.2 km · fransa 9/9
-- İçindeki yerleşimler: Arras (ispanya); Mons (ispanya); Namur (ispanya); Tournai (ispanya); Eupen (ispanya); Lille (ispanya); Cassel (sahipsiz); Brüksel (ispanya) … +14
-- Hüküm: — (sırada)
 
 ### K160 · portekiz · 1507-01-01 → 1650-01-26 · 45.753 km²
 
