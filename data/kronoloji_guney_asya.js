@@ -323,12 +323,12 @@ window.KRONOLOJI_GUNEY_ASYA = [
 // künye: racput  ·  1281-01-01 → 1923-10-29  ·  642 yıl
 // ═══════════════════════════════════════════════════════════════════════════
 
-{ odak_yer:["Çitor"], taraflar:["racput"], t:"1301-07-11", b:"Alâeddin Halacî Ranthambor'u aldı; Hammîradeva öldürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ odak_yer:["Çitor"], taraflar:["racput"], t:"1301-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] P. Jackson, NCHI 3 (CUP 2010) s.~111: 700/1301 — yalnız yıl; eski gün 1301-07-11 desteksiz (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)", b:"Alâeddin Halacî Ranthambor'u aldı; Hammîradeva öldürüldü", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","kusatma","toprak-kayip","konu-askeri","konu-kisiler"], yer_id:"",
   d:"[Racput — Çevhân] Bir yıl süren kuşatmanın ardından düşen Ranthambor, Delhi Sultanlığı'nın Racputana'ya ilk büyük darbesidir. Kale düşerken kadınların toplu olarak ateşe atlaması (cevher), Racput destan geleneğinin kurucu sahnelerinden biri oldu.", ic_not_d:"yer_id boş: Ranthambor atlasın yerleşim kayıtlarında yok.",
   kaynak:"bulunamadı — TDV'de Ranthambor maddesi yok. Dayanak: Peter Jackson, The Delhi Sultanate (Cambridge 1999); Cambridge History of India, III" },
 
-{ taraflar:["racput"], t:"1303-08-26", b:"Çitor Kalesi Alâeddin Halacî'nin eline geçti", tur:"savas", onem:5, dunya:2, kapsam:"dis",
+{ taraflar:["racput"], t:"1303-08-26", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] P. Jackson, NCHI 3 (CUP 2010) s.~111: 703/1303 — yıl teyitli; gün sınıra bağlı (yerleşim kırılması) olduğu için korunur (KASA SALI kuyruğu, KASA 4 Kasım 2026)", b:"Çitor Kalesi Alâeddin Halacî'nin eline geçti", tur:"savas", onem:5, dunya:2, kapsam:"dis",
   etiket:["askeri","kusatma","toprak-kayip","konu-askeri"], yer_id:"Çitor (Chittorgarh)",
   d:"[Racput — Guhila/Mevâr] Racputana'nın en güçlü kalesi, aylarca süren kuşatmanın sonunda düştü ve sultan kaleyi oğlu Hızır Han'a verdi. Çitor'un ilk düşüşü, Mevâr'ın siyasî merkezini kaybettiği ve yeniden kuruluşunu dağlarda arayacağı uzun bir dönemi başlattı.",
   kaynak:"bulunamadı — TDV'de Çitor maddesi yok (`citor` 302). Dayanak: Peter Jackson, a.g.e.; Cambridge History of India, III" },
@@ -383,7 +383,7 @@ window.KRONOLOJI_GUNEY_ASYA = [
   d:"[Racput — Mevâr] Çitor'un savunulamayacağını gören rânâ, Aravalli dağlarının içinde göl kenarında yeni bir başşehir kurdu. Coğrafyayı savunma stratejisine çeviren bu tercih, Mevâr'ın Bâbürlü baskısı altında varlığını sürdürmesini sağladı.",
   kaynak:"bulunamadı — dayanak: Cambridge History of India, IV; Percy Brown, Indian Architecture" },
 
-{ taraflar:["racput","babur-imparatorlugu"], t:"1576-06-18", b:"Haldigâtî Muharebesi: Mahârânâ Pratap ile Bâbürlü ordusu çarpıştı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
+{ taraflar:["racput","babur-imparatorlugu"], t:"1576-01-01", ic_not_t:"[yalnız yıl teyitli; gün teyitsiz] C. Talbot, The Last Hindu Emperor (CUP 2015) böl.5; JESHO 55 (2012): 1576 — yalnız yıl; eski gün 06-18 okunmadı (KASA SALI kuyruğu, teyit kampanyası kuralı, KASA 4 Kasım 2026)", b:"Haldigâtî Muharebesi: Mahârânâ Pratap ile Bâbürlü ordusu çarpıştı", tur:"savas", onem:5, dunya:3, kapsam:"dis",
   etiket:["askeri","direnis","konu-askeri","konu-isyan"], yer_id:"Udeypûr (Udaipur)",
   d:"[Racput — Mevâr / Bâbürlü] Ekber'in Racput kumandanı Man Singh'in yönettiği ordu ile Mahârânâ Pratap'ın kuvvetleri dar bir dağ geçidinde karşılaştı. Muharebe Bâbürlü lehine bitse de Pratap ele geçirilemedi ve dağlarda yirmi yıl süren bir gerilla direnişi başlattı — Racputların Racputlarla savaştığı bu meydan, imparatorluğun hem gücünün hem çelişkisinin resmidir. (Haldigâtî geçidi Udeypûr'un kuzeyindedir.)", ic_not_d:"yer_id yakın kayıtlı yerleşime bağlandı; konum açıklaması okur metninde bırakıldı",
   kaynak:"bulunamadı — TDV `ekber-sah` maddesi muharebeyi anmıyor. Dayanak: Cambridge History of India, IV; Satish Chandra, Medieval India" },
