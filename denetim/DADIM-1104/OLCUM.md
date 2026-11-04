@@ -480,6 +480,34 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - **Araştırılmadı:** Rus Orta Asya, Hazar 1723, Artvin, Saygon, Dijon, Venedik/Verona.
   - Habsburg Macaristan ve Rus Baltık için TDV dışı kaynak gerekiyor: Cambridge, DergiPark, Hrvatska enciklopedija. EMRELİC tarayıcısından okunabilir.
 
+## 19. TAHRİR ÖLÇÜTÜ 2. tur: sınıf 4, Osmanlı sınırı (`tahrir_sonuc_s4.json`)
+- **Hükümler (169 aday):** `s` 60, `isg` 2, BULUNAMADI 107. BULUNAMADI'nın 88'i araştırıldı ama kaynak çıkmadı; 19'u hiç işlenmedi.
+  - `s` hükümlerinin 22'si yere özel belgeye dayanıyor.
+  - 38'i yalnız desen kaynağına dayanıyor; satırlarında "DESEN" notu var: Bayezid dönemi beylikleri 1390-1402 ve Sırp despotluğu 1444-59.
+- **İdareye katmanın belgelendiği yerler:**
+  - Bağdat 1623-38: Safevî beylerbeyi Safî Kulı Han (Iranica ve TDV) → `s: safevi`.
+  - Lefkada 1715-18: tahrir defteri (TK TD 87).
+  - Győr 1594-98: beylerbeyi tayini.
+  - Kastamonu 1392.
+  - Menteşe ve Teke: Bayezid'in valileri.
+- **isg çıkanlar:**
+  - Tunus 1573-74: İspanyol işgali, Hafsî kukla.
+  - Limni 1656-57.
+- **Atlas ile TDV çelişkileri (KASA'ya):**
+  - Anapa 1774-81.
+  - Doğubayazıt: TDV'ye göre 1514'ten itibaren Osmanlı.
+  - Van ve Erciş: Safevî dönüşü 1536.
+  - Kerkük: Safevî dönemi 1624-30.
+  - Silistre: 1388 / 1390 / 1394.
+  - Birgi, Tire, Ayasuluk 1390-1402: TDV'ye göre Tire'de İsa Bey bırakıldı.
+  - Erzincan, Kemah, Kelkit, Refahiye 1390-1402: doğrudan Osmanlı idaresi değil (Mutahharten); `v:` adayı.
+- **BULUNAMADI ağırlığı:**
+  - Habsburg 1688-90 Sırbistan (16 yer), Estergon 1595-1605.
+  - Irak'taki Safevî yerleri 1623-38 (15 yer, Bağdat dışında).
+  - Gerekli kaynaklar: Ćirković, Ivić (Sırp akademik) ve Iranica dışı Safevî kaynakları.
+- **Cezayir 1830-48 ölçümü** (soru S7 için): veride **35 Cezayir noktası** `s: fransa`'ya 1830-1844 arasında geçiyor; her biri kendi fetih gününde.
+  - Tahrir ölçütüne göre Genel Valilik (1834-07-22) öncesi `isg` adayı. Sonrası, idareye katma (Cezayir'in Fransa'ya bağlanması) olarak ayrıca ölçülecek.
+
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
 - `ONERILER.md`: ONERI satırları, bayraklarıyla.
