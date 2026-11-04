@@ -78,11 +78,12 @@
    "d": "sovyet-rusya",
    "f": "1945-05-08",
    "t": "1991-08-21",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Treccani Enciclopedia on line, 'Lettonia' - https://www.treccani.it/enciclopedia/lettonia/ (sayfa.py)",
    "alinti": "Occupata dai Tedeschi (1941-45), tornò a far parte dell’URSS alla fine della Seconda guerra mondiale",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-29): SSCB'ye katılış 1940-08-05 (Yüksek Sovyet kararı; kaynakla); 1940-06-17 → 08-05 isg sovyet. Bağımsızlık: 1990-05-04 ilan, fiilen yönetmedi (Draç emsali) → fiilî 1991-08-21 kalır, 1990 ic_not'a. | ÜLKE DÜZEYİ: f YIL (1945) teyitli; gün 05-08 yok. t için bkz. letonya-cumhuriyeti-yeniden satırı (çelişki)."
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı f gününü belirsiz veriyor ('alla fine') — KAYNAKLI'dan indirildi. | KARAR EMRELİC (gece-29): SSCB'ye katılış 1940-08-05 (Yüksek Sovyet kararı; kaynakla); 1940-06-17 → 08-05 isg sovyet. Bağımsızlık: 1990-05-04 ilan, fiilen yönetmedi (Draç emsali) → fiilî 1991-08-21 kalır, 1990 ic_not'a. | ÜLKE DÜZEYİ: f YIL (1945) teyitli; gün 05-08 yok. t için bkz. letonya-cumhuriyeti-yeniden satırı (çelişki).",
+   "uc": "-"
   },
   {
    "dosya_satir": "data/yerlesimler_a78_avrupa.js:165",
@@ -534,11 +535,12 @@
    "d": "",
    "f": "1471-01-01",
    "t": "1920-04-23",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "TDV İslâm Ansiklopedisi, 'Alanya' - https://islamansiklopedisi.org.tr/alanya (sayfa.py)",
    "alinti": "1481’de tahrir emini ... tarafından yapılan tahrirde Alâiye, sancak statüsünde mirlivâ hassı olarak kaydedilmiştir",
    "oneri": {},
-   "not": "f YIL 1471 (ilhak) + tahrir ölçütü: 1481 tahriri (BA, MAD 16029) sancak statüsü = idareye katma belgesi. t 1920-04-23 atlas kuralı (TBMM), TDV'de yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı dönem içindeki başka bir olayı (idarî birim/tahrir) tarihliyor, f'yi değil — KAYNAKLI'dan indirildi. | f YIL 1471 (ilhak) + tahrir ölçütü: 1481 tahriri (BA, MAD 16029) sancak statüsü = idareye katma belgesi. t 1920-04-23 atlas kuralı (TBMM), TDV'de yok. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR).",
+   "uc": "-"
   }
  ],
  "Andros": [

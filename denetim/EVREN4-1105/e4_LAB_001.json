@@ -1170,11 +1170,12 @@
    "d": "ispanya",
    "f": "1479-01-19",
    "t": "1720-09-02",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Treccani, «Cagliari», treccani.it/enciclopedia/cagliari/",
    "alinti": "Vittorio Amedeo II di Savoia divenne quindi re di Sardegna nel 1720",
    "oneri": {},
-   "not": "[alıntı özetten] | Savoya devri YIL (1720) teyitli, ispanya t ucu yıl düzeyinde uyumlu. Hedef t=1720-09-02 zincirdeki 1720-02-24 ile farklı (tutarsızlık); gün teyitsiz. f=1479 bu kaynakta yok. Treccani 1700-18 arası kısa Avusturya ve İspanyol hâkimiyeti anar: ara dönem atlasta olmayabilir. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR)."
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı yalnız t ucunu tarihliyor — KAYNAKLI'dan indirildi. | [alıntı özetten] | Savoya devri YIL (1720) teyitli, ispanya t ucu yıl düzeyinde uyumlu. Hedef t=1720-09-02 zincirdeki 1720-02-24 ile farklı (tutarsızlık); gün teyitsiz. f=1479 bu kaynakta yok. Treccani 1700-18 arası kısa Avusturya ve İspanyol hâkimiyeti anar: ara dönem atlasta olmayabilir. | VERİ DEĞİŞTİ: bu dönem güncel veride (lab-1104-kunye) birebir yok; KASA önce zinciri yeniden okusun (LAB PAZAR).",
+   "uc": "t"
   },
   {
    "dosya_satir": "data/yerlesimler.js:1881",
@@ -1907,11 +1908,12 @@
    "d": "norvec-isvec-birligi",
    "f": "1814-11-04",
    "t": "1905-06-07",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "SNL «Unionsoppløsningen i 1905» (Sejersted/Dørum), https://snl.no/Unionsoppl%C3%B8sningen_i_1905",
    "alinti": "Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905.",
    "oneri": {},
-   "not": "[alıntı özetten] | t ucu GÜN 1905-06-07 (Storting kararı). Not: Karlstad müzakereleri 31 Ağustos-23 Eylül 1905; İsveç 26 Ekim'i sayar (ikincil arama özeti). f=1814-11-04 teyitsiz (SNL Kielfreden: union til 1905, gün yok)."
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı yalnız t ucunu tarihliyor — KAYNAKLI'dan indirildi. | [alıntı özetten] | t ucu GÜN 1905-06-07 (Storting kararı). Not: Karlstad müzakereleri 31 Ağustos-23 Eylül 1905; İsveç 26 Ekim'i sayar (ikincil arama özeti). f=1814-11-04 teyitsiz (SNL Kielfreden: union til 1905, gün yok).",
+   "uc": "t"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:369",
@@ -1943,11 +1945,12 @@
    "d": "danimarka",
    "f": "1537-01-01",
    "t": "1814-01-14",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Store norske leksikon (nynorsk), «Kielfreden», https://snl.no/Kielfreden",
    "alinti": "Fredsavtalen, Kieltraktaten, vart underteikna 14. januar 1814.",
    "oneri": {},
-   "not": "[alıntı özetten] | t ucu GÜN: 1814-01-14 Kiel imza (TEK ÖLÇÜ: imza günü atlas kuralı). f=1537 ucu teyitsiz."
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı yalnız t ucunu tarihliyor — KAYNAKLI'dan indirildi. | [alıntı özetten] | t ucu GÜN: 1814-01-14 Kiel imza (TEK ÖLÇÜ: imza günü atlas kuralı). f=1537 ucu teyitsiz.",
+   "uc": "t"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:369",
@@ -2133,11 +2136,12 @@
    "d": "norvec-isvec-birligi",
    "f": "1814-11-04",
    "t": "1905-06-07",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "SNL «Unionsoppløsningen i 1905» (Sejersted/Dørum), https://snl.no/Unionsoppl%C3%B8sningen_i_1905",
    "alinti": "Oppløsningen av unionen ble vedtatt av Stortinget 7. juni 1905.",
    "oneri": {},
-   "not": "[alıntı özetten] | t ucu GÜN 1905-06-07 (Storting kararı). Not: Karlstad müzakereleri 31 Ağustos-23 Eylül 1905; İsveç 26 Ekim'i sayar (ikincil arama özeti). f=1814-11-04 teyitsiz (SNL Kielfreden: union til 1905, gün yok)."
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı yalnız t ucunu tarihliyor — KAYNAKLI'dan indirildi. | [alıntı özetten] | t ucu GÜN 1905-06-07 (Storting kararı). Not: Karlstad müzakereleri 31 Ağustos-23 Eylül 1905; İsveç 26 Ekim'i sayar (ikincil arama özeti). f=1814-11-04 teyitsiz (SNL Kielfreden: union til 1905, gün yok).",
+   "uc": "t"
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:375",

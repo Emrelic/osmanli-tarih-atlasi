@@ -158,11 +158,12 @@
    "d": "joseon",
    "f": "1392-08-05",
    "t": "1910-08-29",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «충주시», Han Jeong-su·Choi Yeong-jun, 1995/2024 — https://encykorea.aks.ac.kr/Article/E0058216 ; Encyclopedia of Korean Culture (Hanguk minjok munhwa daebaekgasajeon), AKS, «조선», Oh Jong-rok, 2021/2024 — https://encykorea.aks.ac.kr/Article/E0051904",
    "alinti": "1395년(태조 4) … 충청도의 계수관(界首官)이 되었다. 1895년 … 관찰부 … 충청북도의 중심지가 되었다.",
    "oneri": {},
-   "not": "[alıntı özetten] | f yalnız ay (1392 lunar 7. ay). t: 1910 ilhak (iki gün; bkz. Ganghwa notu)."
+   "not": "HANGİ UÇ (EMRELİC kuralı): alıntı dönem içindeki başka bir olayı (idarî birim/tahrir) tarihliyor, f'yi değil — KAYNAKLI'dan indirildi. | [alıntı özetten] | f yalnız ay (1392 lunar 7. ay). t: 1910 ilhak (iki gün; bkz. Ganghwa notu).",
+   "uc": "-"
   },
   {
    "dosya_satir": "data/yerlesimler_asya.js:3536",
