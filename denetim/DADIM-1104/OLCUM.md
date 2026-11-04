@@ -289,6 +289,12 @@ Kararlar dadim_sonuc.json'daki ilgili ONERI satırlarının `not` alanına işle
   - 5.314 dönemin 2.347'si hedef (kaynağı boş ya da DEVRALMA).
   - 39 parti var (`db_q01`–`q39`, 13'erli).
 - **Sınır:** sayım ad eşleşmesine dayanır. Kalan gürültü: bölge adları (Mora, Girit, Erdel), Haliç, Chengdu/Çengdu adaş çifti (mükerrer adayı, KASA-YER). Sıralamadaki yeri yaklaşıktır.
+  - **Ad karışması ölçüldü** (q01 bulgusu):
+    - "Mora" (`yerlesimler_ek7.js`, 61.0°N 14.5°E) İsveç'teki Mora kasabasıdır; kronolojide geçen 170 anılma Peloponez'e ait.
+    - "Haliç" (`yerlesimler_ms1_1281_yeni.js`, 49.1°N 24.7°E) Halych'tir (Galiçya); anılmaların çoğu İstanbul Haliç'i.
+    - İkisi de sayımda yanlış yüksek çıktı. Kendi dönemleri yine de teyit edilir.
+    - q06'dan sonraki brife "AD KARIŞMASI" notu eklendi.
+    - Peloponez için ayrı bir "Mora" noktası var mı? Ölçülmedi, KASA-YER.
 
 ## Teslim dosyaları
 - `dadim_sonuc.json`: bütün satırlar. Satır biçimi: dosya:satır · alan · d · f/t · hüküm (KAYNAKLI / ONERI / BULUNAMADI) · kaynak · alıntı · öneri · not.
