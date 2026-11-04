@@ -90,7 +90,7 @@ window.KRONOLOJI_RUSYA = [
   kapsam_genis:true,
   d:"IV. İvan'ın gözden geçirilmiş kanunnamesi, merkezî idareyi ve mahkeme sistemini güçlendirdi, yerel valilerin (namestnik) keyfî uygulamalarını sınırladı.",
   kaynak:"Cambridge History of Russia, c.1", yer_id:"Moskova" },
-{ t:"1552-10-02", b:"Kazan Hanlığı fethedildi", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis",
+{ t:"1552-10-02", ic_not_t:"ÇELİŞKİ: TDV 'Kazan Hanlığı' 15 Ekim 1552 verir; atlas 2 Ekim 1552 (Jülyen; Gregoryen karşılığı 12 Ekim). TDV'nin 15 Ekim'i iki takvimle de tutmaz. CLAUDE.md Takvim kuralı (1582 öncesi kaynağın Jülyen günü) gereği atlas günü kalır (HAVVA 2s A-59; EMRELİC kararı; KASA PAZAR 4 Kasım 2026)", b:"Kazan Hanlığı fethedildi", tur:"toprak-kazanc", onem:4, dunya:3, kapsam:"dis",
   etiket:["askeri","toprak","konu-askeri"],
   yer_id:"Kazan",
   d:"IV. İvan'ın bizzat yönettiği uzun kuşatmanın ardından Kazan Hanlığı'nın başşehri düştü; Moğol-Tatar devletlerinden birinin ilk kez tamamen ilhakıydı. Rus tarihyazımı bunu Rusya'nın Avrupa devletinden Avrasya imparatorluğuna dönüşümünün başlangıcı sayar — İdil-Ural bölgesinin kapıları açıldı.",
