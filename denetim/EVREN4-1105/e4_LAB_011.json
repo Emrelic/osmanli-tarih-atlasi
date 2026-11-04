@@ -287,7 +287,7 @@
    "kaynak": "Bakılan: en.wikipedia Trujillo, Honduras (ipucu); encyclopedia.com 'Honduras' (1525 geçmiyor); encyclopedia.com 'Trujillo' (Peru, yanlış yer)",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-51): künye aşımı (Guatemala Genel Kaptanlığı 1539 / künye 1609) LAB SALI'ya. | Wikipedia (ipucu): Medina'nın Trujillo'yu kurması, 1525 (gün yok). Kabul edilen akademik kaynakta kuruluş günü bulunamadı. t=1535-04-17 Yeni İspanya künyesi."
+   "not": "ÖLÇÜM (LAB SALI 2f76b5018): Meksika İmparatorluğu için ayrı künye gerekmez — meksika (f 1821-09-27) Iturbide'yi kapsar; Orta Amerika 1822-01-05 → 1823-06-30 s: meksika, orta-amerika-federasyonu f 1823-07-01 bitişik. guatemala-kaptanligi f 1609 unvan tarihi; GENİŞLET adayı (Audiencia 1543/44 ya da Alvarado 1527). | KARAR EMRELİC (gece-51): künye aşımı (Guatemala Genel Kaptanlığı 1539 / künye 1609) LAB SALI'ya. | Wikipedia (ipucu): Medina'nın Trujillo'yu kurması, 1525 (gün yok). Kabul edilen akademik kaynakta kuruluş günü bulunamadı. t=1535-04-17 Yeni İspanya künyesi."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1497",
@@ -302,7 +302,7 @@
    "oneri": {
     "f": "1539"
    },
-   "not": "KARAR EMRELİC (gece-51): künye aşımı (Guatemala Genel Kaptanlığı 1539 / künye 1609) LAB SALI'ya. | KÜNYE AŞIMI: dönem f=1539 ise künye f=1609. Kaynak 'that year' = 1539 diyor (Lempira'nın öldürüldüğü yıl), Honduras'ın Guatemala Genel Kaptanlığı'na bağlanışı; tarihleme gevşek olabilir (kaptanlık resmen 1609'da kurulmuş kabul ediliyor, atlas künyesi). Seçmedim, iki ucu da beyan ediyorum. Aynı kaynak: 'Independence: September 15, 1821' (t ucu, ülke düzeyi). Honduras ayrı iki vilayet: Comayagua ve Tegucigalpa; Trujillo vilayeti Comayagua'ya bağlı."
+   "not": "ÖLÇÜM (LAB SALI 2f76b5018): Meksika İmparatorluğu için ayrı künye gerekmez — meksika (f 1821-09-27) Iturbide'yi kapsar; Orta Amerika 1822-01-05 → 1823-06-30 s: meksika, orta-amerika-federasyonu f 1823-07-01 bitişik. guatemala-kaptanligi f 1609 unvan tarihi; GENİŞLET adayı (Audiencia 1543/44 ya da Alvarado 1527). | KARAR EMRELİC (gece-51): künye aşımı (Guatemala Genel Kaptanlığı 1539 / künye 1609) LAB SALI'ya. | KÜNYE AŞIMI: dönem f=1539 ise künye f=1609. Kaynak 'that year' = 1539 diyor (Lempira'nın öldürüldüğü yıl), Honduras'ın Guatemala Genel Kaptanlığı'na bağlanışı; tarihleme gevşek olabilir (kaptanlık resmen 1609'da kurulmuş kabul ediliyor, atlas künyesi). Seçmedim, iki ucu da beyan ediyorum. Aynı kaynak: 'Independence: September 15, 1821' (t ucu, ülke düzeyi). Honduras ayrı iki vilayet: Comayagua ve Tegucigalpa; Trujillo vilayeti Comayagua'ya bağlı."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1497",
@@ -319,7 +319,7 @@
     "f": "1822",
     "t": "1823"
    },
-   "not": "KARAR EMRELİC (gece-51): künye aşımı (Guatemala Genel Kaptanlığı 1539 / künye 1609) LAB SALI'ya. | Boşluk dönemi kaynakta 'Meksika İmparatorluğu 1822-23' diye dolu; yıl düzeyi (ay/gün yok). Devlet kimliği künyesi ölçülmedi (devletler.js'te 'meksika' bağımsız dönem künyesi var; imparatorluk dönemi ayrı mı bilinmiyor - LAB'a). 1821-09-15 ile 1822 arası geçiş. ÜLKE DÜZEYİ (Trujillo özel tanıklık değil)."
+   "not": "ÖLÇÜM (LAB SALI 2f76b5018): Meksika İmparatorluğu için ayrı künye gerekmez — meksika (f 1821-09-27) Iturbide'yi kapsar; Orta Amerika 1822-01-05 → 1823-06-30 s: meksika, orta-amerika-federasyonu f 1823-07-01 bitişik. guatemala-kaptanligi f 1609 unvan tarihi; GENİŞLET adayı (Audiencia 1543/44 ya da Alvarado 1527). | KARAR EMRELİC (gece-51): künye aşımı (Guatemala Genel Kaptanlığı 1539 / künye 1609) LAB SALI'ya. | Boşluk dönemi kaynakta 'Meksika İmparatorluğu 1822-23' diye dolu; yıl düzeyi (ay/gün yok). Devlet kimliği künyesi ölçülmedi (devletler.js'te 'meksika' bağımsız dönem künyesi var; imparatorluk dönemi ayrı mı bilinmiyor - LAB'a). 1821-09-15 ile 1822 arası geçiş. ÜLKE DÜZEYİ (Trujillo özel tanıklık değil)."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1497",
@@ -332,7 +332,7 @@
    "kaynak": "encyclopedia.com 'Honduras' (Worldmark Encyclopedia of Nations / ABD Dışişleri) https://www.encyclopedia.com/places/latin-america-and-caribbean/honduran-political-geography/honduras ; sayfa.py ham metin",
    "alinti": "In 1823, Honduras joined the newly formed United Provinces of Central America",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: f ucu YIL düzeyi (1823; gün kaynakta yok). Aynı sayfa başka girdide 'member of the United Provinces of Central America from 1824 to 1838' diyor - 1823 vs 1824 iç çelişki, iki girdiyi de yazdım. t: 'collapse in 1838' yıl düzeyi, atlas t=1838-05-30."
+   "not": "ÖLÇÜM (LAB SALI 2f76b5018): Meksika İmparatorluğu için ayrı künye gerekmez — meksika (f 1821-09-27) Iturbide'yi kapsar; Orta Amerika 1822-01-05 → 1823-06-30 s: meksika, orta-amerika-federasyonu f 1823-07-01 bitişik. guatemala-kaptanligi f 1609 unvan tarihi; GENİŞLET adayı (Audiencia 1543/44 ya da Alvarado 1527). | ÜLKE DÜZEYİ: f ucu YIL düzeyi (1823; gün kaynakta yok). Aynı sayfa başka girdide 'member of the United Provinces of Central America from 1824 to 1838' diyor - 1823 vs 1824 iç çelişki, iki girdiyi de yazdım. t: 'collapse in 1838' yıl düzeyi, atlas t=1838-05-30."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1497",
@@ -345,7 +345,7 @@
    "kaynak": "Bakılan: encyclopedia.com 'Honduras' (1838 geçişleri)",
    "alinti": "",
    "oneri": {},
-   "not": "KARAR EMRELİC (gece-51): künye aşımı (Guatemala Genel Kaptanlığı 1539 / künye 1609) LAB SALI'ya. | Federasyon çöküşü (yıl 1838) ile Honduras bağımsızlık ilanı (26 Ekim 1838) arası boşluğun sahibini söyleyen kaynak yok; beyanlı boşluk korunur. t ucu (1838-10-26) row 71'de kaynaklı."
+   "not": "ÖLÇÜM (LAB SALI 2f76b5018): Meksika İmparatorluğu için ayrı künye gerekmez — meksika (f 1821-09-27) Iturbide'yi kapsar; Orta Amerika 1822-01-05 → 1823-06-30 s: meksika, orta-amerika-federasyonu f 1823-07-01 bitişik. guatemala-kaptanligi f 1609 unvan tarihi; GENİŞLET adayı (Audiencia 1543/44 ya da Alvarado 1527). | KARAR EMRELİC (gece-51): künye aşımı (Guatemala Genel Kaptanlığı 1539 / künye 1609) LAB SALI'ya. | Federasyon çöküşü (yıl 1838) ile Honduras bağımsızlık ilanı (26 Ekim 1838) arası boşluğun sahibini söyleyen kaynak yok; beyanlı boşluk korunur. t ucu (1838-10-26) row 71'de kaynaklı."
   },
   {
    "dosya_satir": "data/yerlesimler_kamerika.js:1497",
@@ -358,7 +358,7 @@
    "kaynak": "encyclopedia.com 'Honduras' (Worldmark Encyclopedia of Nations) https://www.encyclopedia.com/places/latin-america-and-caribbean/honduran-political-geography/honduras ; sayfa.py ham metin",
    "alinti": "After Honduras declared itself independent on 26 October 1838",
    "oneri": {},
-   "not": "f ucu GÜN düzeyinde teyit (26 Ekim 1838, bağımsızlık ilanı günü). ÜLKE DÜZEYİ: Trujillo özel tanıklık değil; Wikipedia (ipucu) Trujillo'nun Honduras bağımsızlığında başkentlik statüsünü kaybettiğini söyler. Kayıttaki kaynakla (Worldmark) aynı."
+   "not": "ÖLÇÜM (LAB SALI 2f76b5018): Meksika İmparatorluğu için ayrı künye gerekmez — meksika (f 1821-09-27) Iturbide'yi kapsar; Orta Amerika 1822-01-05 → 1823-06-30 s: meksika, orta-amerika-federasyonu f 1823-07-01 bitişik. guatemala-kaptanligi f 1609 unvan tarihi; GENİŞLET adayı (Audiencia 1543/44 ya da Alvarado 1527). | f ucu GÜN düzeyinde teyit (26 Ekim 1838, bağımsızlık ilanı günü). ÜLKE DÜZEYİ: Trujillo özel tanıklık değil; Wikipedia (ipucu) Trujillo'nun Honduras bağımsızlığında başkentlik statüsünü kaybettiğini söyler. Kayıttaki kaynakla (Worldmark) aynı."
   }
  ],
  "Alasonya (Elassona)": [
