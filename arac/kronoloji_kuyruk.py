@@ -15,21 +15,9 @@ D = os.path.join(KOK, "denetim", "KRONOLOJI-1104")
 CIKTI = os.path.join(D, "KUYRUK-KASA-PAZAR.tsv")
 # Koordinatör kararıyla bekletilenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 BEKLET = {
-    # L2E 298-322 (EMRELİC @f9f4326): ganzhi günleri Academia Sinica teyidine kadar BEKLE
-    "L2-656": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-657": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-663": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-664": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-665": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-666": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-667": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-671": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-672": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-675": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-676": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-677": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-678": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
-    "L2-680": "[çeviri doğrulanmadı] ganzhi günü (926 / 936-938 / 959 / Masakado 939-40) — Academia Sinica teyidi bekliyor (EMRELİC)",
+    # L2S 173-197 (S8): ajanın kendi ganzhi hesabı, gün taşıyan iki madde — Academia Sinica teyidine kadar
+    "L2-543": "[çeviri doğrulanmadı] 丙辰 = 0502-04-20 ajan hesabı (atlasla aynı) — Academia Sinica teyidi bekliyor",
+    "L2-544": "[çeviri doğrulanmadı] 壬申 = 0506-02-14 ajan hesabı (atlasla aynı; 己卯 = 02-21 Yang Jiqi teslimi) — Academia Sinica teyidi bekliyor",
     "L2-489": "Agathokles darbesi -0315: Austin/Diodoros MÖ 316 der, literatürde 317/316 ikilemi → ikinci akademik kaynak gelmeden atlas -0316 kalır",
     "L2-318": "Santo Domingo: kural teslim (kapitülasyon) günü; 07-07 teslim mi fiilî devir mi belirsiz → Diario de la Reconquista okununca karar; 07-09 fiilî devir ise ic_not",
     # 351-375: DOGRULANDI ama dayanak tek ve ansiklopedi dışı web (kişisel kronoloji, belediye, dernek)
@@ -49,6 +37,16 @@ BEKLET = {
 # Doğu Asya ganzhi günleri — Academia Sinica (sinocal luso, Jülyen) ile EMRELİC 1 KASIM doğruladı, 4 Kasım 2026.
 # Sinocal'de Japon yıl adı yok: aynı gün Çin takvimiyle sorgulandı, ganzhi gün adı eşleşti.
 TAKVIM_AS = {
+    # L2E 298-322 (EMRELİC, Academia Sinica; EŞLEŞİR)
+    "L2-656": "Takvim: Liao Tianxian 1/1/3 庚申 = 926-02-17 (Academia Sinica)",
+    "L2-657": "Takvim: Liao Tianxian 1/2/19 丙午 = 926-04-04 (Academia Sinica)",
+    "L2-663": "Takvim: 壬申 = 936-01-08 (Academia Sinica)",
+    "L2-664": "Takvim: 壬申 = 936-01-08 (Academia Sinica)",
+    "L2-665": "Takvim: 9/8 甲午 = 936-09-26 (Academia Sinica)",
+    "L2-666": "Takvim: 11/12 丁酉 = 936-11-28 (Academia Sinica)",
+    "L2-667": "Takvim: 11/12 丁酉 = 936-11-28 (Academia Sinica)",
+    "L2-671": "Takvim: 閏11/26 辛巳 = 937-01-11 (Academia Sinica)",
+    "L2-672": "Takvim: 閏11/26 辛巳 = 937-01-11 (Academia Sinica)",
     "L2-731": "Takvim: Shaoxing 7/11 丁未 = 1138-01-02 (丙午 = 01-01 tahttan indirme, Song shi c.475) (Academia Sinica)",
     "L2-738": "Takvim: Jishō 4/10/21 庚子 = 1180-11-10 (Academia Sinica)",
     "L2-740": "Takvim: Yōwa 1/8/15 = 1181-09-25 (8/13 丁巳 = 09-23) (Academia Sinica)",
@@ -70,6 +68,12 @@ TAKVIM_AS = {
 }
 # Koordinatör kararıyla iş türü değişenler (EMRELİC 1 KASIM, 4 Kasım 2026).
 DEGISTIR = {
+    # L2E 298-322 takvim düzeltmeleri (EMRELİC Academia Sinica + KASA SALI NAOJ ECO)
+    "L2-675": ("tarih düzelt", "938-01-01 → 938-11-25: Takvim: Liao Huitong 1/11/1 甲辰朔 = 938-11-25 (Academia Sinica); Nanjing/16 eyalet tasarrufu o ay"),
+    "L2-676": ("tarih düzelt", "940-01-01 → 940-01-22: Takvim: Tengyō 2/12/11 丁未 = 940-01-22 Jülyen (NAOJ ECO; Academia Sinica ile aynı) Shimotsuke; ic_not: Kōzuke 2/12/15 辛亥 = 940-01-26"),
+    "L2-677": ("tarih düzelt", "940-01-01 → 940-01-26: Takvim: Tengyō 2/12/15 辛亥 = 940-01-26 Jülyen (NAOJ ECO) Kōzuke alındı — Shinnō ilanı Kōzuke'de bundan sonra; ilan günü Shōmonki'de yok → «[en erken tanık günü; ilan günü teyitsiz]» ic_not"),
+    "L2-678": ("tarih düzelt", "940-03-01 → 940-03-25: Takvim: Tengyō 3/2/14 庚戌 = 940-03-25 Jülyen (NAOJ ECO; Academia Sinica ile aynı) Masakado öldürüldü; künye t: aynı gün"),
+    "L2-680": ("tarih düzelt", "959-04-08 → 959-06-07: ajan çevirisi 60 gün kaymış; Takvim: Xiande 6/4 癸卯 = 959-06-07 Waqiao (Academia Sinica); 壬辰 = 05-27 Qianning, 辛丑 = 06-05 Yijin, 5/1 乙巳 = 06-09 Yingzhou → ic_not"),
     "L2-212": ("ic_not ekle (gün KALIR)", "Vincenzo II: atlas 1627-12-25 kalır; ic_not «25–26 Aralık gecesi (Treccani EI + DBI)»; DBI'dan saat okunursa karar"),
     "L2-311": ("ic_not ekle (gün KALIR)", "Ligurya: s: değişimi Haziran 1805 ilhak tasarrufu (Cenova senatosu talebi + Napolyon kabulü; Treccani «4 giugno 1805»); 4 Ekim 1805 département düzenlemesi ic_not'a — Treccani'nin iki maddesi iki ayrı olayı tarihliyor"),
     "L2-346": ("kaynak yenile + ic_not (gün KALIR)", "Gimry: AY teyitli — Arreguín-Toft, How the Weak Win Wars (CUP 2005) böl.3 «killed in battle at Gimri in October of 1832»; atlas 1832-10-29 KALIR (gün teyitsiz); TDV'nin iki Kasım günü (Müridizm 29, Şeyh Şâmil 20 Kasım) bu kaynakla çürüyor → ic_not"),
@@ -97,6 +101,14 @@ METIN = [
     # L2E 298-322 (EMRELİC)
     ("L2-658", "Nanzhao sonu: Nanzhao yeshi 929 / Dian lüe 928 — 1 yıl çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
     ("L2-659", "Nanzhao/Da Tianxing: Nanzhao yeshi 929 / Dian lüe 928 — 1 yıl çelişki ic_not'a iki kaynağıyla (EMRELİC)"),
+    # L2S 173-197 (S8; no sütunu sira→liste2 düzeltildi)
+    ("L2-539", "Güney Qi-Kuzey Wei 490: kaynakta «barış antlaşması» yok — Nan Qi shu 57 «復通好» (489 ilişki yenilendi), Wei shu 7 489-491 elçilikleri → «elçilik ilişkisi yenilendi» diye yazılır"),
+    ("L2-549", "[BEKLE — Mart/Nisan] Vandal sonu: atlas «Mart 534»; Pauly-Wissowa RE «Anfang April 534»; Treccani 533/536 → üçüncü kaynak"),
+    ("L2-550", "Luoyang/Jinyong 538: kuşatanlar Hou Jing ve Gao Aocao (Gao Huan arkadan); «Yuwen Tai Hengnong'a çekildi» değil, Batı Wei ordusu/imparatoru Hongnong'a gitti (Zhou shu 2, Zizhi tongjian 158)"),
+    ("L2-553", "«Haziran 551» Çin 6. ayıdır, Jülyen değil → ay ifadesi düzeltilir ya da çevrilir (Zhou shu 50)"),
+    ("L2-533", "Linyi 446: «Kandarapura» adı Song shu'da yok (Qusu kalesi alındı, Yangmai oğluyla kaçtı); «akınlar azaldı» kaynaksız"),
+    ("L2-537", "Gaya 479: unvan 輔國將軍、本國王 «kendi ülkesinin kralı»; «Gaya Kralı» ifadesi kaynakta yok"),
+    ("L2-546", "[BEKLE — tek dayanak Treccani] Neustria 511: Treccani «Merovingi» üç krallığın doğuşunu 6.-7. yy dönüşüne koyar; 511 bölüşümü Neustria adı taşımaz"),
     # L2S 098-122 (S5)
     ("L2-458", "Vix notası: 1914-1918-online iki maddede 19 / 20 Mart çelişkisi → gün 20 Mart kalır, çelişki ic_not'a iki maddesiyle"),
     ("L2-464", "Letonya Strazdumuiža: imza 3 Temmuz sabahı; «Riga'dan çekildi» değil — çekilme süresi 5 Temmuz akşamı, Kuzey Tugayı 6 Temmuz Riga'ya girdi (1914-1918-online «Cēsis, Battle of»)"),
