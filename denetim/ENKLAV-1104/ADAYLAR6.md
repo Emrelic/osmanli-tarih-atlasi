@@ -6,7 +6,7 @@ Evren ve sınıflama: `denetim/ENKLAV-1103/ADAYLAR.md` § Evren. Kova ve güven 
 
 ## Hüküm özeti
 
-Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 24, KAYNAKLI 47, OLCUM 29.
+Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAPAY-d 3, YAPAY-m 18. Güven: KAYNAK-GEREK 20, KAYNAKLI 51, OLCUM 29.
 
 ## Kara eksklavları
 
@@ -75,10 +75,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1715-08-01 · komşu: altinorda 37%, TABI 27%, ceneviz 9%
 - Koridor: 213.7 km · TABI 5/9, DENIZ/BOS 4/9
 - İçindeki yerleşimler: Anapa (OSMANLI); Temrük (Temryuk) (OSMANLI); Taman (OSMANLI); Phanagoria (sahipsiz)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Taman yarımadası (Anapa, Temrük, Taman) Osmanlı Kefe eyaleti 1475-1774, Kırım (TABI) ve Kerç boğazıyla gövdeden ayrı: gerçek. Phanagoria antik nokta sahipsiz (önemsiz).
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Oxford Dictionary of the Middle Ages, 'Tmutarakan'' — 'From c.1100 it formed part of the nomadic empires of the Pontic steppe' (Oxford Reference, EMRELİC okuması — alıntı) (yalnız erken dönem; 1475 Osmanlı zinciri KAYNAK-GEREK — kısmen)
 
 ### K508 · portekiz · 1505-01-01 → 1663-02-15 · 5.725 km²
 
@@ -428,7 +428,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - **Hüküm: YAPAY** (YAPAY-a · güven KAYNAK-GEREK)
   - Gerekçe: Çemişgezek 1420-1422 Akkoyunlu, çevre Karakoyunlu: içteki 3 noktanın 2'si (Kalan, Hozat) sahipsiz; Çemişgezek Melkişî beylerinin yurduydu, Akkoyunlu bağlılığı kaynakla sınanmalı.
   - Düzeltme önerisi: Dersim noktalarına 1420-1422 sahip (kaynakla).
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: TDV'de Çemişgezek beyliği maddesi yok (cemisgezek, cemiskezek-beyligi, cemisgezek-beyligi denendi); Oxford okunmadı — bulunamadı
 
 ### K543 · OSMANLI · 1713-06-24 → 1812-05-28 · 4.572 km²
 
@@ -505,10 +505,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1498-01-01 · komşu: almanya 22%, gelre-dukaligi 8%, habsburg-hollandasi 8%
 - Koridor: 370.5 km · almanya 7/9, braunschweig-luneburg-dukaligi 2/9
 - İçindeki yerleşimler: Leeuwarden (saksonya)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Leeuwarden — Frizya 1498 Saksonya dükü Albrecht'e (kalıtsal potestat) → 1515 V. Karl'a satış: Saksonya gövdesinden uzak gerçek ilhak.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Oxford Encyclopedia of the Reformation (2005), 'Friesland' — 'In 1524 Friesland belonged to the empire of Charles V' (Oxford Reference, EMRELİC okuması — alıntı) (1498 Saksonya ve 1515 satış okunmadı — kısmen)
 
 ### K551 · ilhanli · 1351-01-01 → 1353-01-01 · 4.391 km²
 
@@ -518,7 +518,7 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - **Hüküm: YAPAY** (YAPAY-c · güven KAYNAK-GEREK)
   - Gerekçe: Cizre-Silopi 1351-1353 'ilhanli', çevre Celâyirli/Artuklu: İlhanlı devleti 1335'ten sonra kukla hanlarla dağıldı; Cizre Bohtan beylerinin yurduydu. KOVALAR F (İlhanlı 1335-1357, ILHANLI.md) ailesi. Şırnak sahipsiz.
   - Düzeltme önerisi: KOVALAR F kararına bağlansın; Cizre 1351-1353 sahibi kaynakla.
-  - Kaynak: bulunamadı (model bilgisi) — KOVALAR F'ye bakınız
+  - Kaynak: TDV'de Bohtan / Cezîre-i İbn Ömer maddesi 1351 tarihini vermiyor (bohtan, cizre, cezire-i-ibn-omer denendi) — bulunamadı; KOVALAR F'ye bakınız
 
 ### K552 · OSMANLI · 1400-01-01 → 1400-08-01 · 4.320 km²
 
@@ -705,10 +705,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1833-09-29 · komşu: abdulkadir 63%
 - Koridor: 99.4 km · abdulkadir 9/9
 - İçindeki yerleşimler: Mustagānim (fransa-cumhuriyet)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Mustagānim 1833-07-28 Fransız işgali, Abdülkādir toprakları ortasında kıyı garnizonu: gerçek.
   - Düzeltme önerisi: Yok.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Oxford Dictionary of the Renaissance, 'Africa' — Mostaganem İspanyol 'enclaves that were subsequently lost' listesinde, yılsız (Oxford Reference, EMRELİC okuması — alıntı) (1833 Fransız işgali okunmadı — kısmen)
 
 ### K572 · almanya · 1353-03-06 → 1417-01-01 · 3.785 km²
 
@@ -965,10 +965,10 @@ Hükümlü: 100 / 100. Kova: BIRLESMELI 5, GERCEK 39, YAPAY-a 9, YAPAY-c 26, YAP
 - En büyük kesit: 1417-09-04 · komşu: ingiltere 20%, bretanya 9%
 - Koridor: 66.7 km · bretanya 5/9, ingiltere 4/9
 - İçindeki yerleşimler: Cherbourg (fransa)
-- **Hüküm: GERCEK** (GERCEK · güven KAYNAK-GEREK)
+- **Hüküm: GERCEK** (GERCEK · güven KAYNAKLI)
   - Gerekçe: Cherbourg 1417-09-04 → 1418-09-29 Fransız: V. Henry'nin Normandiya fethi ortasında kuşatılan son Fransız kalelerinden; 1418 sonbaharında teslim — gerçek.
   - Düzeltme önerisi: Teslim günü kaynakla.
-  - Kaynak: bulunamadı (model bilgisi)
+  - Kaynak: Oxford Dictionary of the Middle Ages (2010), 'Cherbourg' — Yüzyıl Savaşları'nda 'sovereignty changed six times' (Oxford Reference, EMRELİC okuması — alıntı) (1418 teslim günü okunmadı — kısmen)
 
 ### K598 · almanya · 1805-12-26 → 1809-10-14 · 3.215 km²
 

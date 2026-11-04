@@ -1,5 +1,5 @@
 {
-"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 48 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
+"_aciklama": "ENKLAV-1104 hükümleri (K501-K600). Alanlar ve kova sözlüğü ENKLAV-1103/hukumler.json ile aynı. guven: OLCUM = yalnız ölçülmüş veri olgusu (iki kimlik, noktasızlık, gün aralığı); KAYNAK-GEREK = tarihsel iddia model bilgisidir, KASA kaynak sırasıyla teyit etmeden uygulamaz (bu partide kaynak okunmadı; okunanlar 'KAYNAKLI'). KAYNAK4 (LAB SALI): 54 hüküm TDV / Hrvatska enciklopedija / Treccani ile güncellendi (kaynak6_uygula.py).",
 "K501": {
 "hukum": "YAPAY",
 "kova": "YAPAY-a",
@@ -51,10 +51,10 @@
 "K507": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Taman yarımadası (Anapa, Temrük, Taman) Osmanlı Kefe eyaleti 1475-1774, Kırım (TABI) ve Kerç boğazıyla gövdeden ayrı: gerçek. Phanagoria antik nokta sahipsiz (önemsiz).",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Oxford Dictionary of the Middle Ages, 'Tmutarakan'' — 'From c.1100 it formed part of the nomadic empires of the Pontic steppe' (Oxford Reference, EMRELİC okuması — alıntı) (yalnız erken dönem; 1475 Osmanlı zinciri KAYNAK-GEREK — kısmen)"
 },
 "K508": {
 "hukum": "YAPAY",
@@ -334,7 +334,7 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Çemişgezek 1420-1422 Akkoyunlu, çevre Karakoyunlu: içteki 3 noktanın 2'si (Kalan, Hozat) sahipsiz; Çemişgezek Melkişî beylerinin yurduydu, Akkoyunlu bağlılığı kaynakla sınanmalı.",
 "duzeltme": "Dersim noktalarına 1420-1422 sahip (kaynakla).",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "TDV'de Çemişgezek beyliği maddesi yok (cemisgezek, cemiskezek-beyligi, cemisgezek-beyligi denendi); Oxford okunmadı — bulunamadı"
 },
 "K543": {
 "hukum": "GERCEK",
@@ -395,10 +395,10 @@
 "K550": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Leeuwarden — Frizya 1498 Saksonya dükü Albrecht'e (kalıtsal potestat) → 1515 V. Karl'a satış: Saksonya gövdesinden uzak gerçek ilhak.",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Oxford Encyclopedia of the Reformation (2005), 'Friesland' — 'In 1524 Friesland belonged to the empire of Charles V' (Oxford Reference, EMRELİC okuması — alıntı) (1498 Saksonya ve 1515 satış okunmadı — kısmen)"
 },
 "K551": {
 "hukum": "YAPAY",
@@ -406,7 +406,7 @@
 "guven": "KAYNAK-GEREK",
 "gerekce": "Cizre-Silopi 1351-1353 'ilhanli', çevre Celâyirli/Artuklu: İlhanlı devleti 1335'ten sonra kukla hanlarla dağıldı; Cizre Bohtan beylerinin yurduydu. KOVALAR F (İlhanlı 1335-1357, ILHANLI.md) ailesi. Şırnak sahipsiz.",
 "duzeltme": "KOVALAR F kararına bağlansın; Cizre 1351-1353 sahibi kaynakla.",
-"kaynak": "bulunamadı (model bilgisi) — KOVALAR F'ye bakınız"
+"kaynak": "TDV'de Bohtan / Cezîre-i İbn Ömer maddesi 1351 tarihini vermiyor (bohtan, cizre, cezire-i-ibn-omer denendi) — bulunamadı; KOVALAR F'ye bakınız"
 },
 "K552": {
 "hukum": "GERCEK",
@@ -563,10 +563,10 @@
 "K571": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Mustagānim 1833-07-28 Fransız işgali, Abdülkādir toprakları ortasında kıyı garnizonu: gerçek.",
 "duzeltme": "Yok.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Oxford Dictionary of the Renaissance, 'Africa' — Mostaganem İspanyol 'enclaves that were subsequently lost' listesinde, yılsız (Oxford Reference, EMRELİC okuması — alıntı) (1833 Fransız işgali okunmadı — kısmen)"
 },
 "K572": {
 "hukum": "YAPAY",
@@ -771,10 +771,10 @@
 "K597": {
 "hukum": "GERCEK",
 "kova": "GERCEK",
-"guven": "KAYNAK-GEREK",
+"guven": "KAYNAKLI",
 "gerekce": "Cherbourg 1417-09-04 → 1418-09-29 Fransız: V. Henry'nin Normandiya fethi ortasında kuşatılan son Fransız kalelerinden; 1418 sonbaharında teslim — gerçek.",
 "duzeltme": "Teslim günü kaynakla.",
-"kaynak": "bulunamadı (model bilgisi)"
+"kaynak": "Oxford Dictionary of the Middle Ages (2010), 'Cherbourg' — Yüzyıl Savaşları'nda 'sovereignty changed six times' (Oxford Reference, EMRELİC okuması — alıntı) (1418 teslim günü okunmadı — kısmen)"
 },
 "K598": {
 "hukum": "YAPAY",

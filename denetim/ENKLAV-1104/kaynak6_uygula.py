@@ -150,6 +150,20 @@ U.update({
                  "breve restaurazione austriaca (1799-1800)'"),
     "K594": dict(guven="KAYNAKLI", kaynak=TR + "milano/ — Lodi zaferi sonrası Napolyon'un Milano'ya girişi (1796), Cisalpin başkenti (1797)"),
 })
+# EMRELİC Oxford Reference okuması (yalnız alıntı) — kısmen
+U.update({
+    "K550": dict(guven="KAYNAKLI", kaynak="Oxford Encyclopedia of the Reformation (2005), 'Friesland' — 'In 1524 Friesland belonged to the empire "
+                 "of Charles V'" + OX + " (1498 Saksonya ve 1515 satış okunmadı — kısmen)"),
+    "K597": dict(guven="KAYNAKLI", kaynak="Oxford Dictionary of the Middle Ages (2010), 'Cherbourg' — Yüzyıl Savaşları'nda 'sovereignty changed six "
+                 "times'" + OX + " (1418 teslim günü okunmadı — kısmen)"),
+    "K571": dict(guven="KAYNAKLI", kaynak="Oxford Dictionary of the Renaissance, 'Africa' — Mostaganem İspanyol 'enclaves that were subsequently lost' "
+                 "listesinde, yılsız" + OX + " (1833 Fransız işgali okunmadı — kısmen)"),
+    "K507": dict(guven="KAYNAKLI", kaynak="Oxford Dictionary of the Middle Ages, 'Tmutarakan'' — 'From c.1100 it formed part of the nomadic empires of "
+                 "the Pontic steppe'" + OX + " (yalnız erken dönem; 1475 Osmanlı zinciri KAYNAK-GEREK — kısmen)"),
+})
+U["K542"] = dict(kaynak="TDV'de Çemişgezek beyliği maddesi yok (cemisgezek, cemiskezek-beyligi, cemisgezek-beyligi denendi); Oxford okunmadı — bulunamadı")
+U["K551"] = dict(kaynak="TDV'de Bohtan / Cezîre-i İbn Ömer maddesi 1351 tarihini vermiyor (bohtan, cizre, cezire-i-ibn-omer denendi) — bulunamadı; "
+                 "KOVALAR F'ye bakınız")
 U["K593"] = dict(kaynak="TDV «Bingöl» okundu: Timur 14. yy sonunda Çapakçur'da ordugâh kurdu; 15. yy ortasında Akkoyunlu, sonra Akkoyunlu-Karakoyunlu "
                  "çekişmesi — 1387-1405 Karakoyunlu sahipliği TDV'de yok (KAYNAK-GEREK kalır)")
 n = 0
