@@ -1,0 +1,241 @@
+{
+ "Vetluga": [
+  {
+   "sira": 2048,
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:246",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1325-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Ветлуга», https://dic.academic.ru/dic.nsf/bse/158917/ · Поспелов, Географические названия мира (aynı sayfa) — İPUCU",
+   "alinti": "В документе 1636 г. упоминается как с. Шулепниково",
+   "oneri": {
+    "kirp": "altinorda 1281→1325 ve moskova 1325→1547 dilimleri kalkar; rusya dilimi f 1547-01-16 → 1636-01-01"
+   },
+   "not": "Merdiven ④: yerleşim 1281-1636 arasında kaynakta yok. BSE: 'Город возник в 1778' (şehir statüsü, ic_not); ilk anılış 1636 köy (Поспелов, ipucu). Mevcut DEVRALMA 1325 metropolitlik maddesi bu yerle ilgisiz. f 1636 için akademik ikinci kaynak gerek."
+  }
+ ],
+ "Ağdere (Martakert)": [
+  {
+   "sira": 2128,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "daglik-karabag",
+   "f": "1991-09-02",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "akademik/resmî kaynak okunmadı (TDV «Karabağ» denenmedi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "daglik-karabag 1991-09-02 → 2000-12-31 (künye f 1991-09-02). KUŞKU (rakip hükûmet = fiilî kontrol): Ağdere/Martakert 1992 yazında Azerbaycan denetimine geçti, 1993'te Ermeni güçleri geri aldı — bu ara dilim zincirde yok; günler kaynakla bulunmalı. Kayıt halef_1946 katmanı noktası."
+  }
+ ],
+ "Grozni (Groznıy)": [
+  {
+   "sira": 2169,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "akademik kaynak okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "ickerya 1991-11-01 → 2000-02-06 künyeyle aynı. KUŞKU (fiilî kontrol): Grozni 1995 başından Ağustos 1996'ya (Hasavyurt 1996-08-31) Rus denetimindeydi; ara dilim zincirde yok — günler kaynakla. Halef_1946 katmanı noktası."
+  }
+ ],
+ "Urus-Martan": [
+  {
+   "sira": 2246,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "akademik kaynak okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "ickerya 1991-11-01 → 2000-02-06. Urus-Martan için 1995-96 Rus denetimi dilimi aynı soruyu taşıyor (Grozni ile). Halef_1946 katmanı noktası."
+  }
+ ],
+ "Tumreyt": [
+  {
+   "sira": 2018,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:726",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zafâr», https://islamansiklopedisi.org.tr/zafar · TDV İslâm Ansiklopedisi, «Resûlîler», https://islamansiklopedisi.org.tr/resuliler",
+   "alinti": "şehir 678'de (1279) Resûlî topraklarına katıldı.",
+   "oneri": {
+    "d": "resuli",
+    "t": "1454-01-01",
+    "sonraki_donem": "s: kesiri-sultanligi 1454-01-01 → (Bû Saîd geçişi, kaynakla)"
+   },
+   "not": "TDV «Zafâr» birebir: Zafâr 678'de (1279) Resûlî topraklarına katıldı; 1311-1330 yarı müstakil Resûlî kolu, 730'dan (1330) tam bağımsız; 767'den (1366) sonra yeniden Taiz Resûlîleri; Resûlîler'in IX. (XV.) yy'da yıkılmasının ardından Kesîrîler. TDV «Resûlîler»: Tâhirîler 858'de (1454) Resûlî topraklarının tamamını ele geçirdi. Nebhânîler iç Umman hanedanıdır; Zufâr'da sahip değildir → YANLIŞ SAHİP. Öneri: s: resuli 1281 → 1454 (künye 1229-1454; 1330-1366 bağımsız Zafâr Resûlî kolu künyesiz, BEYANLI ic_not), ardından s: kesiri-sultanligi 1454 → (künye 1450-1967). Zincirdeki s: umman 1515-04-01 dilimi ayrıca HAYALET (umman künye f 1624) ve Bû Saîd'in Zufâr'ı alış günü (19. yy) kaynakta bulunamadı. Abi merkez: Zafâr şehri (Salâle) — yer Zafâr eyaletinde (TDV: on vilâyet arasında Tâka, Sümreyt). ÖLÇÜT: idareye katma — Resûlî valisi atandı (Özdemir Sungur), iktâ (TDV Zafâr). 1454 yalnız yıl."
+  }
+ ],
+ "Tâka (Zufâr)": [
+  {
+   "sira": 2020,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:710",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zafâr», https://islamansiklopedisi.org.tr/zafar · TDV İslâm Ansiklopedisi, «Resûlîler», https://islamansiklopedisi.org.tr/resuliler",
+   "alinti": "şehir 678'de (1279) Resûlî topraklarına katıldı.",
+   "oneri": {
+    "d": "resuli",
+    "t": "1454-01-01",
+    "sonraki_donem": "s: kesiri-sultanligi 1454-01-01 → (Bû Saîd geçişi, kaynakla)"
+   },
+   "not": "TDV «Zafâr» birebir: Zafâr 678'de (1279) Resûlî topraklarına katıldı; 1311-1330 yarı müstakil Resûlî kolu, 730'dan (1330) tam bağımsız; 767'den (1366) sonra yeniden Taiz Resûlîleri; Resûlîler'in IX. (XV.) yy'da yıkılmasının ardından Kesîrîler. TDV «Resûlîler»: Tâhirîler 858'de (1454) Resûlî topraklarının tamamını ele geçirdi. Nebhânîler iç Umman hanedanıdır; Zufâr'da sahip değildir → YANLIŞ SAHİP. Öneri: s: resuli 1281 → 1454 (künye 1229-1454; 1330-1366 bağımsız Zafâr Resûlî kolu künyesiz, BEYANLI ic_not), ardından s: kesiri-sultanligi 1454 → (künye 1450-1967). Zincirdeki s: umman 1515-04-01 dilimi ayrıca HAYALET (umman künye f 1624) ve Bû Saîd'in Zufâr'ı alış günü (19. yy) kaynakta bulunamadı. Abi merkez: Zafâr şehri (Salâle) — yer Zafâr eyaletinde (TDV: on vilâyet arasında Tâka, Sümreyt). ÖLÇÜT: idareye katma — Resûlî valisi atandı (Özdemir Sungur), iktâ (TDV Zafâr). 1454 yalnız yıl."
+  }
+ ],
+ "İskuşubân": [
+  {
+   "sira": 2116,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:645",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali · TDV «Adal» slug tutmadı (arama sayfasına düştü)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV «Somali»: Adel Sultanlığı merkezi Zeylâ, 1543'te Ahmed Grân'ın ölümüyle yıkıldı; Mâcerteyn Sultanlığı XIX. yy'da bağımsız. İskuşubân (Bari, KD Somali) Adal sınırları içinde mi — kaynak susuyor. KÜNYE AŞIMI: adal künye f 1415 → 1281-1415 hayalet (LAB evfat UYGULA; Evfât'ın KD Somali'yi kapsayıp kapsamadığı ayrıca soru). t 1577 (Aussa'ya taşınma) bu yer için teyitsiz."
+  },
+  {
+   "sira": 2117,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:645",
+   "alan": "s",
+   "d": "italyan-somali",
+   "f": "1927-01-01",
+   "t": "1941-02-25",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Mâcerteyn ve Obbia emirliklerine ait topraklar ise 1927'de İtalyanlar tarafından işgal edildi.",
+   "oneri": {},
+   "not": "f YIL teyitli (1927). Alula emsali (LAB UYGULA): s: somali + v: italya 1889 → 1927 dilimi bu zincirde de yok — eklenmeli (1889 himaye günü kaynakla). TDV 'işgal' diyor; idareye katma (doğrudan sömürge idaresi) → s: italyan-somali (künye f 1905). t 1941-02-25 teyitsiz."
+  }
+ ],
+ "Şüveymiye": [
+  {
+   "sira": 2121,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:717",
+   "alan": "s",
+   "d": "nebhani",
+   "f": "1281-01-01",
+   "t": "1515-04-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zafâr», https://islamansiklopedisi.org.tr/zafar · TDV İslâm Ansiklopedisi, «Resûlîler», https://islamansiklopedisi.org.tr/resuliler",
+   "alinti": "şehir 678'de (1279) Resûlî topraklarına katıldı.",
+   "oneri": {
+    "d": "resuli",
+    "t": "1454-01-01",
+    "sonraki_donem": "s: kesiri-sultanligi 1454-01-01 → (Bû Saîd geçişi, kaynakla)"
+   },
+   "not": "TDV «Zafâr» birebir: Zafâr 678'de (1279) Resûlî topraklarına katıldı; 1311-1330 yarı müstakil Resûlî kolu, 730'dan (1330) tam bağımsız; 767'den (1366) sonra yeniden Taiz Resûlîleri; Resûlîler'in IX. (XV.) yy'da yıkılmasının ardından Kesîrîler. TDV «Resûlîler»: Tâhirîler 858'de (1454) Resûlî topraklarının tamamını ele geçirdi. Nebhânîler iç Umman hanedanıdır; Zufâr'da sahip değildir → YANLIŞ SAHİP. Öneri: s: resuli 1281 → 1454 (künye 1229-1454; 1330-1366 bağımsız Zafâr Resûlî kolu künyesiz, BEYANLI ic_not), ardından s: kesiri-sultanligi 1454 → (künye 1450-1967). Zincirdeki s: umman 1515-04-01 dilimi ayrıca HAYALET (umman künye f 1624) ve Bû Saîd'in Zufâr'ı alış günü (19. yy) kaynakta bulunamadı. Abi merkez: Zafâr şehri (Salâle) — yer Zafâr eyaletinde (TDV: on vilâyet arasında Tâka, Sümreyt). ÖLÇÜT: idareye katma — Resûlî valisi atandı (Özdemir Sungur), iktâ (TDV Zafâr). 1454 yalnız yıl."
+  }
+ ],
+ "Verder": [
+  {
+   "sira": 2044,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:589",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "",
+   "oneri": {},
+   "not": "Verder (Ogaden) için Adal aidiyeti kaynakta yok. KÜNYE AŞIMI: adal f 1415 → 1281-1415 hayalet (evfat UYGULA). t 1577 teyitsiz."
+  },
+  {
+   "sira": 2045,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:589",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Somali», https://islamansiklopedisi.org.tr/somali",
+   "alinti": "Bu arada Somali'nin kuzeybatısındaki Ugādîn (Ogaden) Etiyopya'ya verildi.",
+   "oneri": {
+    "t": "İtalyan çekilişi 1941 (gün kaynakla)",
+    "sonraki_donem": "s: somali-ingiliz-askeri-idaresi 1941 → 1948 (Ogaden Etiyopya'ya teslim, gün kaynakla)"
+   },
+   "not": "Yıl bağlamdan: aynı paragrafta '1948'de … bir komisyon kurdular'. AÇIK ÇELİŞKİ: zincir 1941-11-30'da (Gondar teslimi) doğrudan habesistan'a geçiyor; TDV Ogaden'in Etiyopya'ya ancak 1948 civarı verildiğini yazar. Arada İngiliz askerî idaresi (künye somali-ingiliz-askeri-idaresi 1941-02-25→1950-04-01 var). Gondar 11-30 kuralı (gece-18) yalnız Gondar çevresi içindir. İtalyan dönemi f 1936-06-01 (E4-BİLİNEN AOI) teyitsiz; Ogaden 1935'ten İtalyan elinde (ic_not, kaynakla)."
+  }
+ ],
+ "Tara": [
+  {
+   "sira": 1986,
+   "dosya_satir": "data/yerlesimler_ek18.js:112",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1594-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "dic.academic.ru BSE/SIE araması «Тара» (madde bulunamadı; bir deneme 502)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Tara 1594 kuruluşu akademik kaynakta okunmadı. künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Verhoturye": [
+  {
+   "sira": 2047,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:21",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1598-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Верхотурье», https://dic.academic.ru/dic.nsf/bse/73910/",
+   "alinti": "В. основан в 1598 как укрепленное поселение на высоком берегу реки",
+   "oneri": {},
+   "not": "f YIL teyitli (1598). künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Yekaterinburg": [
+  {
+   "sira": 2095,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:24",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1723-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Свердловск», https://dic.academic.ru/dic.nsf/bse/169787/ · Советская историческая энциклопедия «СВЕРДЛОВСК», https://dic.academic.ru/dic.nsf/sie/15628/",
+   "alinti": "Датой основания города считается 7(18) ноября 1723",
+   "oneri": {
+    "f": "1723-11-18"
+   },
+   "not": "BSE kuruluş gününü O.S./Gregoryen çift verir: 7 Kasım O.S. = 18 Kasım 1723 Gregoryen (Rusya O.S. kuralı → Gregoryen yazılır; O.S. ic_not). SIE: '24 нояб. 1723 состоялось офиц. открытие з-да и крепости' (ic_not). ESBE 1721 Tatişçev girişimi ic_not [19. yy kaynağı]. künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ]
+}

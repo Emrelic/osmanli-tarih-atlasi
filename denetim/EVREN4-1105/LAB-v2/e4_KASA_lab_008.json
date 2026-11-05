@@ -1,0 +1,296 @@
+{
+ "Umag (B bölgesi)": [
+  {
+   "sira": 2244,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "triyeste-serbest-toprak",
+   "f": "1947-09-15",
+   "t": "1954-10-26",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "KARARLAR-EMRELIC.md / E4-BILINEN-KARARLAR.md — LAB SALI gece-101..105 (7)",
+   "alinti": "",
+   "oneri": {
+    "t": "1954-10-05"
+   },
+   "not": "Kural uygulaması (TEK ÖLÇÜ): B bölgesi 1945'ten beri Yugoslav askerî idaresindeydi → imza günü (Londra Memorandumu 1954-10-05); 10-26 A bölgesinin fiilî devri ic_not. Künye triyeste-serbest-toprak BÖLÜNMEZ; karar EMRELİC'te (bekliyor). f 1947-09-15 (Paris Antlaşması yürürlüğü) kaynak okunmadı. Zincirde 1947 öncesi ve 1954 sonrası (yugoslavya-federal) dilim yok — ardılsız."
+  }
+ ],
+ "Vatikan": [
+  {
+   "sira": 2247,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "vatikan",
+   "f": "1929-06-07",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Patti lateranensi, 11 febbraio 1929 — vatican.va (Segreteria di Stato), https://www.vatican.va/roman_curia/secretariat_state/archivio/documents/rc_seg-st_19290211_patti-lateranensi_it.html",
+   "alinti": "entrerà in vigore all’atto stesso dello scambio delle ratifiche",
+   "oneri": {
+    "f": "1929-02-11"
+   },
+   "not": "Resmî metin: imza 11 Şubat 1929; 'PROCESSO VERBALE DELLO SCAMBIO DELLE RATIFICHE, 7 giugno 1929' = yürürlük. TEK ÖLÇÜ: Kutsal Makam Vatikan'ı 1870'ten beri fiilen yönetiyordu → s: imza günü, yürürlük (06-07) ic_not. Künye vatikan f 1929-06-07 de birlikte değişir (LAB). Kural uygulaması — EMRELİC onayı gerekir (devlet doğuşu yürürlükle mi?). 1929 öncesi zincir yok."
+  }
+ ],
+ "Villach": [
+  {
+   "sira": 2053,
+   "dosya_satir": "data/yerlesimler_avrupa.js:493",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1759-01-01",
+   "t": "1809-10-14",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: villach.at Stadtgeschichte — SSL sertifika hatası (TARAYICI). Not: 'avusturya' kimliği data/devletler.js'te künye olarak YOK (renkler.py BOYALAR'da var); habsburg künyesi ayrı. 1809: Villach Fransız işgali Schönbrunn (10-14) imzasından önce olabilir → isg sorusu."
+  },
+  {
+   "sira": 2054,
+   "dosya_satir": "data/yerlesimler_avrupa.js:493",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1938-03-13",
+   "t": "1945-04-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Nazi Conspiracy and Aggression, Vol. IV, Doc. 2307-PS (Reichsgesetzblatt 1938 I s. 237) — Avalon Project, Yale Law School, https://avalon.law.yale.edu/imt/2307-ps.asp",
+   "alinti": "Law concerning the Reunion of Austria with the German Reich, March 13, 1938",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f (birincil belge neşri). Öteki uç 1945-04-27 teyitsiz: Avusturya II. Cumhuriyeti 1945-04-27 (Unabhängigkeitserklärung, StGBl. 1/1945): RIS PDF 503 verdi, okunamadı. history.state.gov/countries/austria: «A provisional government was established in Austria on April 25, 1945» ve Demokratik Cumhuriyet ilanı 14 Mayıs — 27 Nisan ile çelişiyor, iki gün de ic_not'a. Villach (Karintiya): Nazi idaresi Mayıs 1945 başına (Karintiya'da teslim, İngiliz girişi 1945-05-08, ipucu) dek sürdü; fiilî ölçüyle t 05-08 adayı, teyitsiz."
+  },
+  {
+   "sira": 2055,
+   "dosya_satir": "data/yerlesimler_avrupa.js:493",
+   "alan": "s",
+   "d": "avusturya-ikinci-cumhuriyet",
+   "f": "1945-04-27",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "history.state.gov/countries/austria",
+   "alinti": "A provisional government was established in Austria on April 25, 1945",
+   "oneri": {},
+   "not": "Baktım: Avusturya II. Cumhuriyeti 1945-04-27 (Unabhängigkeitserklärung, StGBl. 1/1945): RIS PDF 503 verdi, okunamadı. history.state.gov/countries/austria: «A provisional government was established in Austria on April 25, 1945» ve Demokratik Cumhuriyet ilanı 14 Mayıs — 27 Nisan ile çelişiyor, iki gün de ic_not'a. Alıntı 27 Nisan'ı değil 25 Nisan'ı tarihler → teyit yok. Yerel fiilî giriş (Villach 05-08, Hartberg/WN Kızıl Ordu) ayrıca okunmalı."
+  }
+ ],
+ "Say": [
+  {
+   "sira": 1954,
+   "dosya_satir": "data/yerlesimler_afrika2.js:389",
+   "alan": "s",
+   "d": "zerma",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "1591’de Songay Sultanlığı’nın yıkılmasından sonra ... Say şehri giderek önem kazandı",
+   "oneri": {},
+   "not": "Baktım: TDV «Nijer» — Say'ı Dendi bölgesinin merkezi ve XIX. yy başında Muhammed Cûbû'nun Kādirî merkezi olarak anar; 1281 sahibi ve 1898 Fransız giriş günü yok. Sahip şüphesi: 'zerma' künyesi Say için uygun görünmüyor (Say Dendi/Songay alanı; 1464-1591 songhay-imparatorlugu künyesi VAR, kapsam teyitsiz). f = varoluş: 1281'de Say'ın varlığı teyitsiz."
+  },
+  {
+   "sira": 1955,
+   "dosya_satir": "data/yerlesimler_afrika2.js:389",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "1958’de kısmî, 3 Ağustos 1960 tarihinde ise tam bağımsızlığa kavuştu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f; öteki uç 2000-12-31 açık uç."
+  }
+ ],
+ "Tahoua": [
+  {
+   "sira": 1984,
+   "dosya_satir": "data/yerlesimler_afrika2.js:251",
+   "alan": "s",
+   "d": "adar",
+   "f": "1281-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: TDV «Nijer» Tahoua'yı yalnız bugünkü şehir olarak anar; Adar ve 1899 Fransız giriş günü yok. UNESCO GHA bakılmadı."
+  },
+  {
+   "sira": 1985,
+   "dosya_satir": "data/yerlesimler_afrika2.js:251",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "1958’de kısmî, 3 Ağustos 1960 tarihinde ise tam bağımsızlığa kavuştu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f; öteki uç 2000-12-31 açık uç."
+  }
+ ],
+ "Tera": [
+  {
+   "sira": 1992,
+   "dosya_satir": "data/yerlesimler_afrika2.js:340",
+   "alan": "s",
+   "d": "zerma",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: TDV «Nijer» — Zerma devletçikleri ve 1898 Fransız girişi için gün/yıl yok. Tera için 'gurma' künyesi (VAR) kapsamı sorusu."
+  },
+  {
+   "sira": 1993,
+   "dosya_satir": "data/yerlesimler_afrika2.js:340",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "1958’de kısmî, 3 Ağustos 1960 tarihinde ise tam bağımsızlığa kavuştu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f; öteki uç 2000-12-31 açık uç."
+  }
+ ],
+ "Tillaberi": [
+  {
+   "sira": 1999,
+   "dosya_satir": "data/yerlesimler_afrika2.js:313",
+   "alan": "s",
+   "d": "zerma",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: TDV «Nijer» — Zerma devletçikleri ve 1898 Fransız girişi için gün/yıl yok; Tillabéri'nin 1281 varlığı teyitsiz."
+  },
+  {
+   "sira": 2000,
+   "dosya_satir": "data/yerlesimler_afrika2.js:313",
+   "alan": "s",
+   "d": "nijer",
+   "f": "1960-08-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Nijer», https://islamansiklopedisi.org.tr/nijer",
+   "alinti": "1958’de kısmî, 3 Ağustos 1960 tarihinde ise tam bağımsızlığa kavuştu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, uc f; öteki uç 2000-12-31 açık uç."
+  }
+ ],
+ "Umuahia": [
+  {
+   "sira": 2245,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "biafra",
+   "f": "1967-05-30",
+   "t": "1970-01-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Biafra», https://www.enciklopedija.hr/clanak/biafra",
+   "alinti": "u svibnju 1967. pukovnik ... Ojukwu ... jednostrano je proglasio odcjepljenje",
+   "oneri": {},
+   "not": "AY düzeyi (Mayıs 1967); 30 Mayıs günü teyitsiz. Öteki uç: HE «u posljednjoj ofenzivi u siječnju 1970» (ay). 🔴 Rakip hükûmet/fiilî ölçü: Umuahia (Enugu'dan sonra Biafra başkenti) federal güçlere 1969 Nisan'da düştü (ipucu, gün teyitsiz) → t ONERI adayı; nijerya ardıl dilimi zincirde yok."
+  }
+ ],
+ "Sibiti": [
+  {
+   "sira": 1959,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1243",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-08-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "history.state.gov, Guide to Recognition: Republic of the Congo, https://history.state.gov/countries/congo-republic",
+   "alinti": "On that date, the Republic of the Congo’s independence from French Equatorial Africa was proclaimed",
+   "oneri": {},
+   "not": "Alıntı yalnız t'yi (1960-08-15) tarihler. f 1900 (Sibiti'nin Fransız karakolu) kaynaksız; öteki uç teyitsiz."
+  },
+  {
+   "sira": 1960,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1243",
+   "alan": "s",
+   "d": "kongo-brazzaville",
+   "f": "1960-08-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "history.state.gov, Guide to Recognition: Republic of the Congo, https://history.state.gov/countries/congo-republic",
+   "alinti": "On that date, the Republic of the Congo’s independence from French Equatorial Africa was proclaimed",
+   "oneri": {},
+   "not": "Resmî ABD yayını; cümle bağımsızlık ilanını tarihler (yalnız tanıma cümlesi değil: 'On that date ... independence ... was proclaimed'; tarih önceki cümlede August 15, 1960). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Tornio": [
+  {
+   "sira": 2007,
+   "dosya_satir": "data/yerlesimler_ek8.js:130",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: uppslagsverket.fi «Torneå» (içerik boş). t 1523-06-06 mevcut kaynağı Gale (ticari, en çok ONERI-güçlü). f 1281: Tornio'nun 1281 varlığı ve İsveç sahipliği teyitsiz (Pähkinäsaari 1323 öncesi kuzey Pohjanmaa belirsiz)."
+  }
+ ],
+ "Becskerek (Zrenjanin)": [
+  {
+   "sira": 2130,
+   "dosya_satir": "data/yerlesimler_ek_macaristan.js:304",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1992-04-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Jugoslavija», https://www.enciklopedija.hr/clanak/jugoslavija",
+   "alinti": "Federativna Narodna Republika Jugoslavija (FNRJ) proglašena je 29. XI. 1945",
+   "oneri": {},
+   "not": "t: aynı madde «Srbija i Crna Gora proglasile su 27. IV. 1992. Saveznu Republiku Jugoslaviju». ÜLKE DÜZEYİ."
+  }
+ ],
+ "Benkovac": [
+  {
+   "sira": 2131,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sirp-krajina-cumhuriyeti",
+   "f": "1991-12-19",
+   "t": "1995-08-07",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Hrvatska enciklopedija, mrežno izdanje (LZMK), «Benkovac», https://www.enciklopedija.hr/clanak/benkovac",
+   "alinti": "Godine 1991., tijekom srpske agresije, grad i okolno područje zaposjednuti su",
+   "oneri": {},
+   "not": "YIL düzeyi. t: «Oslobođen u vojno-redarstvenoj akciji Oluja 1995.» Gün teyitsiz: Benkovac Oluja'da 1995-08-05'te alındı (ipucu) — künye t 08-07. 1991 işgali RSK ilanından (12-19) önce: SAO Krajina dilimi zincirde yok (künye sorusu)."
+  }
+ ]
+}

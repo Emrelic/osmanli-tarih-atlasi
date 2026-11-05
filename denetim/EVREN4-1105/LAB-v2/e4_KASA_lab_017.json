@@ -1,0 +1,253 @@
+{
+ "Çelyabinsk": [
+  {
+   "sira": 2106,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:15",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1736-09-02",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Челябинск», https://dic.academic.ru/dic.nsf/bse/149708/ · SIE «ЧЕЛЯБИНСК», https://dic.academic.ru/dic.nsf/sie/19846/",
+   "alinti": "Основан в 1736 как русская крепость на месте башкирского поселка Селяба",
+   "oneri": {},
+   "not": "f YIL teyitli (1736; BSE ve SIE çift). Gün 09-02 teyitsiz: kuruluş günü O.S. 2 Eylül ise Gregoryen 1736-09-13 olmalı (Rusya O.S. kuralı) — günlü kaynakla sınanmalı. künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Şadrinsk": [
+  {
+   "sira": 2120,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:63",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1662-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Шадринск», https://dic.academic.ru/dic.nsf/bse/150820/",
+   "alinti": "",
+   "oneri": {},
+   "not": "BSE gövdesi kuruluş yılı vermiyor. Aynı sayfadaki Поспелов özeti (İPUCU): 'Упоминается в документе 1622 г. как Шадринская заимка' — atlas 1662 ile çelişiyor (40 yıl; baskı hatası olabilir). Akademik ikinci kaynak gerek. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Sığnak (Sunak Kurgan)": [
+  {
+   "sira": 1982,
+   "dosya_satir": "data/yerlesimler_ortaasya3.js:447",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1465-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Encyclopaedia Iranica, «Abu'l-Ḵayr Khan» (Yu. Bregel), https://www.iranicaonline.org/articles/abul-kayr-khan-oglan/",
+   "alinti": "In 1446 Abu'l-Ḵayr captured the regions … of the Sīr Daryā, with the towns of Sïḡnaq",
+   "oneri": {
+    "t": "1446-01-01",
+    "sonraki_donem": "s: ebulhayr-ozbek-ulusu 1446-01-01 → 1468 (Ebülhayr'ın ölümü 872/1468, aynı madde)"
+   },
+   "not": "Sığnak Ebülhayr'ın başkenti oldu ('Sïḡnaq then became his capital'). Altın Orda dönemi 1465'te değil 1446'da biter (yalnız yıl). Ebülhayr künyesi 1429-1468 kapsar. 1281-1446 arası Ak Orda (Altın Orda doğu kanadı) — Ak Orda künyesi yok, altinorda kalabilir."
+  }
+ ],
+ "Alay vadisi (bölge)": [
+  {
+   "sira": 2123,
+   "dosya_satir": "data/yerlesimler_a78_asya.js:439",
+   "alan": "s",
+   "d": "kirgizistan",
+   "f": "1991-08-31",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Kyrgyzstan», https://history.state.gov/countries/kyrgyzstan",
+   "alinti": "",
+   "oneri": {},
+   "not": "state.gov yalnız tanıma gününü verir (1991-12-25) — bağımsızlığı tarihlemez. 1991-08-31 bağımsızlık ilanı EMRELİC kuralıyla (Sovyet ardılı = ilan günü) uyumlu; ilan günü için akademik/resmî kaynak okunmadı."
+  }
+ ],
+ "Dholavira": [
+  {
+   "sira": 2151,
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js:11",
+   "alan": "s",
+   "d": "gec-harappa",
+   "f": "-1899-01-01",
+   "t": "-1599-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DA öncelik 2: mevcut kaynak UNESCO WHC 1645 / ICOMOS 2021 değerlendirmesi (akademik-resmî), antik evre sınırları künye ile hizalı; bu turda yeniden okunmadı."
+  },
+  {
+   "sira": 2152,
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js:11",
+   "alan": "s",
+   "d": "harappa",
+   "f": "-2599-01-01",
+   "t": "-1899-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DA öncelik 2: mevcut kaynak UNESCO WHC 1645 / ICOMOS 2021 değerlendirmesi (akademik-resmî), antik evre sınırları künye ile hizalı; bu turda yeniden okunmadı."
+  },
+  {
+   "sira": 2153,
+   "dosya_satir": "data/yerlesimler_mo_iran_asya.js:11",
+   "alan": "s",
+   "d": "erken-harappa",
+   "f": "-2999-01-01",
+   "t": "-2599-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DA öncelik 2: mevcut kaynak UNESCO WHC 1645 / ICOMOS 2021 değerlendirmesi (akademik-resmî), antik evre sınırları künye ile hizalı; bu turda yeniden okunmadı. Not: erken-harappa künye f -3199, dönem f -2999 (künye içinde)."
+  }
+ ],
+ "Udeypûr (Udaipur)": [
+  {
+   "sira": 2024,
+   "dosya_satir": "data/yerlesimler_asya.js:706",
+   "alan": "s",
+   "d": "racput",
+   "f": "1559-01-01",
+   "t": "1948-04-18",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Imperial Gazetteer of India (archive.org araması sonuç vermedi); history.state.gov India",
+   "alinti": "",
+   "oneri": {},
+   "not": "Udaipur'un 1559 kuruluşu (Udai Singh II) akademik kaynakta okunmadı. 🔴 KÜNYE AŞIMI: dönem t 1948-04-18, racput künye t 1947-08-15 (devletler.js:7070) — 1947-08-15 → 1948-04-18 arası hayalet dilim. Hindistan'a katılış / Rajasthan Birleşik Devleti (1948-04-18) için künye kararı LAB'a."
+  },
+  {
+   "sira": 2025,
+   "dosya_satir": "data/yerlesimler_asya.js:706",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1948-04-18",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: India», https://history.state.gov/countries/india",
+   "alinti": "",
+   "oneri": {},
+   "not": "state.gov yalnız 1947-08-15 Hindistan Dominyonu'nu verir; Udaipur'un 1948-04-18 Rajasthan'a katılışı yok."
+  }
+ ],
+ "Tomsk": [
+  {
+   "sira": 2004,
+   "dosya_satir": "data/yerlesimler_ek9.js:71",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1604-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Томск», https://dic.academic.ru/dic.nsf/bse/140297/ · SIE «ТОМСК», https://dic.academic.ru/dic.nsf/sie/17679/",
+   "alinti": "Основан в 1604.",
+   "oneri": {},
+   "not": "f YIL teyitli (BSE ve SIE çift: 'Осн. как адм. пункт в 1604'). künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Gaochang": [
+  {
+   "sira": 2167,
+   "dosya_satir": "data/yerlesimler_once1281_yt_hint.js:66",
+   "alan": "s",
+   "d": "gaochang",
+   "f": "0520-01-01",
+   "t": "0640-08-30",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DA öncelik 2: dönemin mevcut kaynağı birincil metinden okunmuş alıntı taşıyor; bu turda yeniden okunmadı. 🔴 Not: gün ucu ajanın kendi JDN ganzhi çevirisi ('JDN hesabı') — EMRELİC kuralı gereği ajan elle çevirmez; ifade CIN-TAKVIM toplu Academia Sinica çevirisine gönderilmeli."
+  }
+ ],
+ "Thimphu": [
+  {
+   "sira": 1997,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bhutan",
+   "f": "1616-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV/akademik kaynak okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "bhutan 1616 → 2000 (künye f 1616, Şabdrung'un gelişi). Thimphu'nun f=varoluş günü (Tashichho Dzong 1641; başkent 1955 ic_not) kaynakla sınanmalı. Halef_1946 katmanı noktası."
+  }
+ ],
+ "Trivandrum (Thiruvananthapuram)": [
+  {
+   "sira": 2010,
+   "dosya_satir": "data/yerlesimler_asya.js:1615",
+   "alan": "s",
+   "d": "travankur",
+   "f": "1281-01-01",
+   "t": "1949-07-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "archive.org Travancore State Manual (1940) bulundu, okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "travankur 1281 (epok) → 1949-07-01 (Travancore-Cochin birleşmesi). 1947 Hindistan'a katılış belgesi ve 1949-07-01 için kaynak okunmadı."
+  },
+  {
+   "sira": 2011,
+   "dosya_satir": "data/yerlesimler_asya.js:1615",
+   "alan": "s",
+   "d": "hindistan-cumhuriyeti",
+   "f": "1949-07-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: India», https://history.state.gov/countries/india",
+   "alinti": "",
+   "oneri": {},
+   "not": "1949-07-01 Travancore-Cochin birleşmesi state.gov'da yok."
+  }
+ ],
+ "Voloçanka (Voloçanı zimovyesi)": [
+  {
+   "sira": 2067,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:60",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1643-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "dic.academic.ru BSE/SIE araması «Волочанка» (madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1643 kuruluşu teyitsiz. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Sayansk ostrogu": [
+  {
+   "sira": 1956,
+   "dosya_satir": "data/yerlesimler_sibirya2.js:30",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1709-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "dic.academic.ru BSE/SIE araması «Саянский острог» (yalnız «Саянский хребет»)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1709 kuruluşu teyitsiz. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ]
+}

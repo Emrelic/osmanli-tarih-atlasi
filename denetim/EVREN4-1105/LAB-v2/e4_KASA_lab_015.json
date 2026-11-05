@@ -1,0 +1,256 @@
+{
+ "Tunduru": [
+  {
+   "sira": 2019,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1525",
+   "alan": "s",
+   "d": "yao",
+   "f": "1800-01-01",
+   "t": "1899-01-01",
+   "hukum": "ONERI",
+   "uc": "",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Tanzanya», https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890'da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere'ye, Tanzan…",
+   "oneri": {
+    "sonraki_donem_d": "alman-dogu-afrikasi"
+   },
+   "not": "Hedef dönemin (yao 1800→1899) uçları kaynakta YOK (öteki uç teyitsiz). AÇIK ÇELİŞKİ (sonraki dönem): Tunduru (-11.11, 37.36) güney Tanzanya iç kesimidir; TDV «Tanzanya» 1890 anlaşmasıyla anakarayı Almanya'ya bırakır, İngiliz işgali I. Dünya Savaşı'nda, Versay 1919. Zincirdeki s:ingiltere 1899-01-01→1961-12-09 dilimi 1919-06-28'e kadar YANLIŞ SAHİP: alman-dogu-afrikasi (künye 1885-02-27→1919-06-28) + savaş isg ingiltere (1916-17, gün kaynakla) → Versay 1919-06-28 s: ingiltere → 1922-07-20 ingiliz-tanganika-mandasi (Kilve/Bagamoyo emsali). 1899 günü (Alman istasyonu?) kaynakta bulunamadı."
+  }
+ ],
+ "Umtali (Mutare)": [
+  {
+   "sira": 2027,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "alan": "s",
+   "d": "manica",
+   "f": "1281-01-01",
+   "t": "1891-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV «Zimbabve» denenmedi; history.state.gov Zimbabwe (Manica dönemi yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "manica 1281→1891: Manica krallığının sonu / Umtali'nin 1890-91 BSAC kuruluşu için akademik kaynak okunmadı. f=1281 epok damgası. Ayrıca kural: Şirket (BSAC) dönemi BEYANLI."
+  },
+  {
+   "sira": 2028,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "alan": "s",
+   "d": "rodezya-udi",
+   "f": "1965-11-11",
+   "t": "1979-06-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Zimbabwe», https://history.state.gov/countries/zimbabwe",
+   "alinti": "minority white government in its unilateral declaration of independence (UDI) in 1965",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ; f yalnız YIL (1965) teyitli, gün 11-11 teyitsiz (E4-BİLİNEN: Rodezya UDI 1965-11-11 fiilî). Öteki uç (t 1979-06-01) teyitsiz. Resmî devlet yayını."
+  },
+  {
+   "sira": 2029,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "alan": "s",
+   "d": "zimbabve-rodezya",
+   "f": "1979-06-01",
+   "t": "1979-12-12",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Zimbabwe», https://history.state.gov/countries/zimbabwe",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zimbabve-Rodezya 1979-06-01 → 1979-12-12 state.gov sayfasında yok; legislation.gov.uk Zimbabwe Act 1979 (ukpga/1979/60) Independence Day'i Order in Council'e bırakıyor, gün vermiyor."
+  },
+  {
+   "sira": 2030,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "alan": "s",
+   "d": "ingiliz-guney-rodezya",
+   "f": "1979-12-12",
+   "t": "1980-04-18",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Zimbabwe», https://history.state.gov/countries/zimbabwe",
+   "alinti": "upon Zimbabwe's attainment of independence on that same date [April 18, 1980]",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (1980-04-18) tarihliyor; f 1979-12-12 (Soames'in gelişi / Southern Rhodesia Act 1979) teyitsiz → uç kuralıyla ONERI, değişiklik önerisi yok. legislation.gov.uk ukpga/1979/60 okundu (gün vermiyor)."
+  },
+  {
+   "sira": 2031,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1880",
+   "alan": "s",
+   "d": "zimbabve",
+   "f": "1980-04-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Zimbabwe», https://history.state.gov/countries/zimbabwe",
+   "alinti": "upon Zimbabwe's attainment of independence on that same date [April 18, 1980]",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, gün teyitli (bağımsızlığın kendisini tarihliyor, yalnız tanımayı değil). Umtali o gün ayrıca el değiştirmedi."
+  }
+ ],
+ "Zomba": [
+  {
+   "sira": 2100,
+   "dosya_satir": "data/yerlesimler_afrika2.js:1729",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1891-01-01",
+   "t": "1964-07-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Office of the Historian, U.S. Department of State, «A Guide to the United States' History of Recognition…: Malawi», https://history.state.gov/countries/malawi",
+   "alinti": "upon Malawi's attainment of independence on the same date [July 6, 1964]",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (1964-07-06) tarihliyor; f 1891-01-01 teyitsiz → ONERI. ÖNERİ ADAYI (kaynakla teyit şart): künye ingiliz-nyasaland (1891-05-14 → 1964-07-06, devletler.js:10301) var; protektora ilanı 1891-05-14 künye günüdür — f 1891-01-01 bu güne hizalanmalı mı, ve Zomba'nın 1891 öncesi varlığı (konsolosluk/misyon, Yao reisleri) f=varoluş kuralıyla sınanmalı. «Malawi previously had been under British sovereignty as Nyasaland»."
+  }
+ ],
+ "Thohoyandou": [
+  {
+   "sira": 2237,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "venda-bantustan",
+   "f": "1979-09-13",
+   "t": "1994-04-27",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "history.state.gov (Venda tanınmadı, sayfa yok); SAHO yalnız ipucu sınıfı — açılmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "venda-bantustan 1979-09-13 → 1994-04-27 künyeyle aynı; Thohoyandou'nun kuruluşu (başkent inşası) ve Status of Venda Act 1979 için resmî/akademik metin okunmadı. Kayıt halef_1946 katmanı noktası (dosya_satir yok); bantustan s: kuralı (gece-102) — tanınmadığı ic_not'a."
+  }
+ ],
+ "Toliara (Tuléar)": [
+  {
+   "sira": 2003,
+   "dosya_satir": "data/yerlesimler_afrika2.js:2066",
+   "alan": "s",
+   "d": "sakalava-menabe",
+   "f": "1600-01-01",
+   "t": "1897-02-28",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Madagaskar», https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV «Madagaskar» Toliara'yı yalnız bugünkü şehir olarak anar; Sakalava/Menabe ve 1897 Fransız girişi Toliara için yok (yalnız Merina 27 Ocak 1897). KUŞKU: Toliara (Fiherenana/Masikoro bölgesi) Menabe'nin güneyinde; sahip ve 1600 f kaynakla sınanmalı."
+  }
+ ],
+ "Ust-Tsilma": [
+  {
+   "sira": 2033,
+   "dosya_satir": "data/yerlesimler_ek8.js:213",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "dic.academic.ru BSE/SIE araması «Усть-Цильма» (madde yok; iki deneme, biri 502)",
+   "alinti": "",
+   "oneri": {},
+   "not": "novgorod 1281→1478 dilimi: Ust-Tsilma'nın kuruluş yılı akademik kaynakta okunmadı. f=varoluş kuralı: kuruluş 1478 sonrasıysa novgorod ve moskova dilimleri kırpılır (Merdiven ④) — kuruluş günü aranmalı."
+  }
+ ],
+ "Vaygaç": [
+  {
+   "sira": 2042,
+   "dosya_satir": "data/yerlesimler_ek8.js:324",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1877-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Вайгач», https://dic.academic.ru/dic.nsf/bse/72423/",
+   "alinti": "",
+   "oneri": {},
+   "not": "BSE «Вайгач» (ada) yerleşim adlarını sayar (Вайгач, Долгая Губа, Варнек), kuruluş yılı vermez; 1877 f'si teyitsiz. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Yarensk": [
+  {
+   "sira": 2092,
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:186",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "«Русская история» (Энциклопедия Отечество) özeti, dic.academic.ru/dic.nsf/brokgauz_efron/120874/ sayfasındaki 'öteki sözlükler' bölümü — İPUCU sınıfı; ESBE «Яренск» (aynı sayfa, gövde kuruluş vermiyor) [19. yy kaynağı]",
+   "alinti": "Впервые упоминается в 1384 как Еренский городок.",
+   "oneri": {
+    "f": "1384-01-01"
+   },
+   "not": "f ileri: 1281 epok damgası; yerleşimin ilk anılışı 1384 (yalnız yıl). Merdiven ④: 1281-1383 kırpılır. İpucu kaynağı → ONERI; akademik teyit (BSE/SIE maddesi yok) gerek. 1384'te Vıçegda'nın Novgorod mu Moskova/Perm piskoposluğu mu olduğu teyitsiz (sahip sorusu açık)."
+  }
+ ],
+ "Sarapul": [
+  {
+   "sira": 1951,
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:365",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1596-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Уральская историческая энциклопедия (УрО РАН, 2000), «Сарапул» — dic.academic.ru/dic.nsf/bse/130092/ sayfasındaki madde özeti (gövde açılmadı); ayrıca Поспелов, Географические названия мира (aynı sayfa): «Впервые упоминается в 1596 г.»",
+   "alinti": "Первое пос. возникло в 1596 как с.Вознесенское.",
+   "oneri": {},
+   "not": "f YIL teyitli (1596; ilk yerleşim, f=varoluş). 1780 şehir statüsü ic_not. künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Solikamsk": [
+  {
+   "sira": 1963,
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:212",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1430-01-01",
+   "t": "1478-01-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Соликамск», https://dic.academic.ru/dic.nsf/bse/134201/",
+   "alinti": "В 1472 вместе с Пермью Великой присоединён к Московскому государству.",
+   "oneri": {
+    "t": "1472-01-01"
+   },
+   "not": "f 1430: BSE '15. yy 2. çeyreği' (1425-1450) + Поспелов 'около 1430' (aynı sayfa) — uyumlu, yıl düzeyi. t: novgorod dönemi 1478-01-15'te (Novgorod'un düşüşü) değil, Perm Velikaya'nın Moskova'ya katılışında 1472'de biter (yalnız yıl). Sonraki dilim s: moskova 1472-01-01 → 1547-01-16 (künye moskova 1283-1547 kapsar). D2: 1472 kronoloji maddesi gerekir."
+  }
+ ],
+ "Stavropol (Volga)": [
+  {
+   "sira": 1972,
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:407",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1738-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Тольятти», https://dic.academic.ru/dic.nsf/bse/171409/",
+   "alinti": "Основан в 1738.",
+   "oneri": {},
+   "not": "Stavropol (Volga) = bugünkü Tolyatti. f YIL teyitli (1738). İç not: Поспелов ve 'Города России' (aynı sayfa) 1737 (Tatişçev'in kalesi) — iki kaynaklı ic_not. künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ],
+ "Sterlitamak": [
+  {
+   "sira": 1973,
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:428",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1766-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Большая советская энциклопедия, 3. изд. (1969-78), «Стерлитамак», https://dic.academic.ru/dic.nsf/bse/136062/",
+   "alinti": "С. основан в 1766 в качестве складского и транзитного пункта",
+   "oneri": {},
+   "not": "f YIL teyitli (1766). Уральская ист. энц. (aynı sayfa özet): 1730'larda Aşkadar yam posta istasyonu — f=varoluş açısından ic_not (alt sınır sorusu). künye rusya 1547-01-16 → 1917-03-15 kapsıyor. Öteki uç (t 1917-03-15, II. Nikolay feragati 2 Mart O.S. = 15 Mart Gregoryen) teyitsiz; kronoloji maddesine bağlı."
+  }
+ ]
+}

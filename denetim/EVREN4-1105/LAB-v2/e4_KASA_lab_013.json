@@ -1,0 +1,348 @@
+{
+ "Sis (Kozan)": [
+  {
+   "sira": 2230,
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:100",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1185-01-01",
+   "t": "1199-01-06",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktım: TDV 'sis', 'kozan', 'kilikya' slugları (madde yok / arama sayfası). Rupenî künyesi (rupeniler, 1092-01-01 → 1199-01-06) aralığı kapsar; Sis'in Rupenîlere geçiş günü kaynakla bulunmadı. Treccani EI 1936 yalnız ipucu."
+  }
+ ],
+ "Hierakonpolis HK11C (Naqada IC-IIB iskan)": [
+  {
+   "sira": 2172,
+   "dosya_satir": "data/yerlesimler_mo_afrika.js:7",
+   "alan": "s",
+   "d": "naqada-kultur",
+   "f": "-3639-01-01",
+   "t": "-3463-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe (arkeolojik künye dönemi; Dee vd. 2013 okunmadı)."
+  }
+ ],
+ "Teymâ": [
+  {
+   "sira": 1995,
+   "dosya_satir": "data/yerlesimler_seyrek.js:117",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1921-11-02",
+   "t": "1932-09-18",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Teymâ», https://islamansiklopedisi.org.tr/teyma",
+   "alinti": "Teymâ, 1830 yılından itibaren yarı bağımsız halde Rummân ailesine mensup emîrler arasında",
+   "oneri": {
+    "d": "s: Teymâ (Rummân) emirliği — künye YOK, BEYANLI; Suûdî katmanı v:",
+    "not": "1836-1921 __BOSLUK__ da Rummân emirliğiyle doldurulabilir (künye adayı, LAB)"
+   },
+   "not": "TDV: Teymâ 1830'dan 1950'ye dek yarı bağımsız Rummân emirlerinde; Kral Abdülazîz'le 'iyi ilişkiler'. Himaye/dolaylı idare kuralı: yerli s: + koruyucu v:. 1921-11-02 (Hâil'in düşüşü) Teymâ'yı dolaylı etkiler; gün ic_not."
+  },
+  {
+   "sira": 1996,
+   "dosya_satir": "data/yerlesimler_seyrek.js:117",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Teymâ», https://islamansiklopedisi.org.tr/teyma",
+   "alinti": "katledilmesinin (1950) ardından Teymâ, Suûdî hâkimiyetine geçti",
+   "oneri": {
+    "f": "1950-01-01 [YIL] (s: suudi-arabistan)",
+    "v": "suudi-arabistan 1932-09-18 → 1950 (Rummân emirliği üstünde)"
+   },
+   "not": "Doğrudan Suûdî idaresi 1950'den. 1932-09-18 krallık ilanı (künye) ic_not. Gün bulunmadı."
+  }
+ ],
+ "Asosa": [
+  {
+   "sira": 2126,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1057",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019 ; TDV İslâm Ansiklopedisi «Etiyopya» (L. Öztürk, II. Tarih), https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "t": "1941-05-05",
+    "f": "yerel İtalyan giriş günü (teyitsiz) — ALT BÖLGE İSTİSNASI adayı"
+   },
+   "not": "f 1936-06-01 resmî metinle ülke düzeyinde tarihli ama yerleşim o gün İtalyan idaresinde olmayabilir (rakip hükûmet/fiilî ölçü): Asosa (Beni Şangul): İtalyan girişi 1936 sonu/1937 olası; 1941 Mart'ta Sudan-Belçika birliklerince alındığı ipucu (kaynak okunmadı). t: TDV «Etiyopya» 5 Mayıs 1941 (gece-18 K17 kuralı); şehrin kendi kurtuluş günü teyitsiz."
+  }
+ ],
+ "Sokota": [
+  {
+   "sira": 1961,
+   "dosya_satir": "data/yerlesimler_afrika.js:733",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "isg": "italya <Sokota'nın işgal günü, 1936 başı, teyitsiz> → 1936-06-01"
+   },
+   "not": "t ucu (1936-06-01) AOI kuruluşuyla resmî metinle tarihli; ama TEK KURAL: savaş işgali ilhaka dek isg — Sokota 1936-06-01'den önce İtalyan işgalindeydi, işgal dilimi zincirde yok (gün teyitsiz). f 1281: habesistan künye f 1270 kapsar; Sokota'nın 1281 varlığı teyitsiz (öteki uç teyitsiz). İlhak kararnamesi 1936-05-09 ic_not."
+  },
+  {
+   "sira": 1962,
+   "dosya_satir": "data/yerlesimler_afrika.js:733",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019 ; TDV İslâm Ansiklopedisi «Etiyopya» (L. Öztürk, II. Tarih), https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "t": "1941-05-05"
+   },
+   "not": "f 1936-06-01 resmî metinle KAYNAKLI (ÜLKE DÜZEYİ). Sokota (Wag) 1936 başında İtalyan işgalinde (ülke düzeyi f uygun). t: TDV «Etiyopya» Hâile Selâsiye'nin 5 Mayıs 1941'de tahta dönüşü («... 5 Mayıs’ta tekrar tahtına oturdu») — EMRELİC gece-18 (K17): Gondar çevresi dışındaki yerlerde f/t 1941-05-05 ya da şehrin kendi kurtuluş günü; 1941-11-30 (künye t) yalnız Gondar çevresi. Şehrin kendi kurtuluş günü teyitsiz. Künye italyan-dogu-afrikasi t 1941-11-30 değişmez (Gondar)."
+  }
+ ],
+ "Vukro": [
+  {
+   "sira": 2068,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1020",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "isg": "italya <Vukro'nun işgali, 1935 Ekim-Kasım, teyitsiz> → 1936-06-01"
+   },
+   "not": "t (1936-06-01) resmî metinle tarihli; TEK KURAL gereği 1935 sonbaharından AOI'ye dek isg italya dilimi eksik (gün teyitsiz). f 1281 teyitsiz."
+  },
+  {
+   "sira": 2069,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1020",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019 ; TDV İslâm Ansiklopedisi «Etiyopya» (L. Öztürk, II. Tarih), https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "t": "1941-05-05"
+   },
+   "not": "f 1936-06-01 resmî metinle KAYNAKLI (ÜLKE DÜZEYİ). Vukro (Tigre) 1935 sonbaharından İtalyan işgalinde (ülke düzeyi f uygun). t: TDV «Etiyopya» Hâile Selâsiye'nin 5 Mayıs 1941'de tahta dönüşü («... 5 Mayıs’ta tekrar tahtına oturdu») — EMRELİC gece-18 (K17): Gondar çevresi dışındaki yerlerde f/t 1941-05-05 ya da şehrin kendi kurtuluş günü; 1941-11-30 (künye t) yalnız Gondar çevresi. Şehrin kendi kurtuluş günü teyitsiz. Künye italyan-dogu-afrikasi t 1941-11-30 değişmez (Gondar)."
+  }
+ ],
+ "Zula": [
+  {
+   "sira": 2101,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1073",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1889-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Eritre», https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "1865’te Hidiv İsmâil Paşa Masavva‘ı Mısır’a bağlayarak bir kaymakamlık şeklinde teşkilâtlandırdı",
+   "oneri": {
+    "d": "Zula kıyısı: osmanli (Habeş eyaleti, Masavva/Arkiko; Özdemir Paşa ~1557) → misir-kavalali 1865 → italya 1885 (TDV: «1885’te Masavva‘ ve Beilul’u ... ele geçiren İtalyanlar») — kapsam teyitsiz"
+   },
+   "not": "Kıyıdaki Zula (Adulis) için 1281-1889 tek parça habesistan şüpheli: TDV «Etiyopya» Özdemir Paşa'nın Masavva ve bağlı toprakları aldığını yazar. Zula'nın Masavva naipliğine/Osmanlı-Mısır idaresine bağlılık günleri kaynakla teyit edilmeli (Orhonlu, Habeş Eyaleti 1974). f 1281 öteki uç teyitsiz."
+  },
+  {
+   "sira": 2102,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1073",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-04-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019 ; TDV İslâm Ansiklopedisi «Eritre», https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "t": "1941-03-28"
+   },
+   "not": "f 1936-06-01 resmî metinle KAYNAKLI (ülke düzeyi; Eritre zaten İtalyan kolonisiydi). t: TDV «Eritre» «Asmara ve Masavva‘ı ele geçirdiler (28 Mart 1941)». Çelişki: yaygın günler Asmara 1941-04-01, Masavva 1941-04-08 (kaynak okunmadı); TDV esas kuralı → 03-28, öteki günler ic_not. Künye eritre-ingiliz-askeri-idaresi f 1941-04-01 ile birlikte değerlendirilmeli (LAB). Zula Masavva'ya yakın: Masavva günü (04-08) abi merkez adayı."
+  },
+  {
+   "sira": 2103,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1073",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1962-11-14",
+   "t": "1974-09-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Eritre», https://islamansiklopedisi.org.tr/eritre ; TDV «Etiyopya»",
+   "alinti": "Etiyopya yönetimi 14 Kasım 1962’de ... özerk statüsünü kaldırarak bölgeyi eyalet haline getirdi",
+   "oneri": {},
+   "not": "İki TDV maddesi aynı günü verir (bağımsız değil, çift teyit sayılmaz). Öteki uç 1974-09-12: TDV «Etiyopya» yalnız '1974’te ... darbe' (yıl)."
+  },
+  {
+   "sira": 2104,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:1073",
+   "alan": "s",
+   "d": "eritre",
+   "f": "1991-05-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Etiyopya» (L. Öztürk, II. Tarih), https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Mayıs 1991’de hükümete karşı savaşan gerillalar Asmara ve Assab ... ele geçirdiler",
+   "oneri": {},
+   "not": "AY düzeyi (Mayıs 1991); 24 Mayıs günü teyitsiz. TDV «Eritre»: bağımsızlık ilanı 24 Mayıs 1993 — ic_not. 🔴 Zula Masavva yakınında: EPLF Masavva'yı Şubat 1990'da aldı (Fenkil, ipucu) — rakip hükûmet/fiilî ölçüyle erken gün, ama künye eritre f 1991-05-24 kapsamıyor → hayalet kuralı: künye gününde kal, 1990 ic_not, künye sorusu LAB."
+  }
+ ],
+ "Ğındâ": [
+  {
+   "sira": 2109,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:401",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1889-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi «Eritre», https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "1885’te Masavva‘ ve Beilul’u, 1889’da Asmara ve Keren’i ele geçiren İtalyanlar",
+   "oneri": {},
+   "not": "Alıntı t'yi yalnız YIL ve abi merkez (Asmara/Keren 1889) düzeyinde tarihler; Ğındâ'nın kendi İtalyan giriş günü teyitsiz (ABİ MERKEZ adayı Asmara). 1557-1589 Osmanlı Tigre seferleri geçici (TDV «Etiyopya»). f 1281 öteki uç teyitsiz."
+  },
+  {
+   "sira": 2110,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:401",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-04-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019 ; TDV İslâm Ansiklopedisi «Eritre», https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "t": "1941-03-28"
+   },
+   "not": "f 1936-06-01 resmî metinle KAYNAKLI (ülke düzeyi; Eritre zaten İtalyan kolonisiydi). t: TDV «Eritre» «Asmara ve Masavva‘ı ele geçirdiler (28 Mart 1941)». Çelişki: yaygın günler Asmara 1941-04-01, Masavva 1941-04-08 (kaynak okunmadı); TDV esas kuralı → 03-28, öteki günler ic_not. Künye eritre-ingiliz-askeri-idaresi f 1941-04-01 ile birlikte değerlendirilmeli (LAB)."
+  },
+  {
+   "sira": 2111,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:401",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1962-11-14",
+   "t": "1974-09-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Eritre», https://islamansiklopedisi.org.tr/eritre ; TDV «Etiyopya»",
+   "alinti": "Etiyopya yönetimi 14 Kasım 1962’de ... özerk statüsünü kaldırarak bölgeyi eyalet haline getirdi",
+   "oneri": {},
+   "not": "İki TDV maddesi aynı günü verir (bağımsız değil, çift teyit sayılmaz). Öteki uç 1974-09-12: TDV «Etiyopya» yalnız '1974’te ... darbe' (yıl)."
+  },
+  {
+   "sira": 2112,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:401",
+   "alan": "s",
+   "d": "eritre",
+   "f": "1991-05-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Etiyopya» (L. Öztürk, II. Tarih), https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Mayıs 1991’de hükümete karşı savaşan gerillalar Asmara ve Assab ... ele geçirdiler",
+   "oneri": {},
+   "not": "AY düzeyi; 24 Mayıs günü teyitsiz; TDV «Eritre» 24 Mayıs 1993 ilanı ic_not. Ğındâ cephe hattıydı (1990); erken EPLF denetimi teyitsiz."
+  }
+ ],
+ "Akobo": [
+  {
+   "sira": 2122,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:800",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (yerleşim o gün ayrıca el değiştirmedi). uc f. Öteki uç (2000-12-31) teyitsiz: 1983 sonrası güneyde SPLA fiilî denetim dilimleri künyesiz, ayrıca bakılmadı. history.state.gov/countries/sudan yalnız tanımayı (1956-01-01) tarihler."
+  }
+ ],
+ "Asella": [
+  {
+   "sira": 2125,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:537",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019 ; TDV İslâm Ansiklopedisi «Etiyopya» (L. Öztürk, II. Tarih), https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "t": "1941-05-05"
+   },
+   "not": "f 1936-06-01 resmî metinle KAYNAKLI (ÜLKE DÜZEYİ). Arsi'de İtalyan giriş günü teyitsiz. t: TDV «Etiyopya» Hâile Selâsiye'nin 5 Mayıs 1941'de tahta dönüşü («... 5 Mayıs’ta tekrar tahtına oturdu») — EMRELİC gece-18 (K17): Gondar çevresi dışındaki yerlerde f/t 1941-05-05 ya da şehrin kendi kurtuluş günü; 1941-11-30 (künye t) yalnız Gondar çevresi. Şehrin kendi kurtuluş günü teyitsiz. Künye italyan-dogu-afrikasi t 1941-11-30 değişmez (Gondar)."
+  }
+ ],
+ "Ağere Maryam": [
+  {
+   "sira": 2129,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:549",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Normattiva (İtalya resmî mevzuat portalı), REGIO DECRETO-LEGGE 1 giugno 1936, n. 1019 «Ordinamento e amministrazione dell'Africa Orientale Italiana», https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1936-06-01;1019 ; TDV İslâm Ansiklopedisi «Etiyopya» (L. Öztürk, II. Tarih), https://islamansiklopedisi.org.tr/etiyopya",
+   "alinti": "Entrata in vigore del provvedimento: 01/06/1936.",
+   "oneri": {
+    "t": "1941-05-05",
+    "f": "yerel İtalyan giriş günü (teyitsiz) — ALT BÖLGE İSTİSNASI adayı"
+   },
+   "not": "f 1936-06-01 resmî metinle ülke düzeyinde tarihli ama yerleşim o gün İtalyan idaresinde olmayabilir (rakip hükûmet/fiilî ölçü): Ağere Maryam (Sidamo): Ras Desta 1936 sonuna/1937 Şubat'ına dek Sidamo'yu tutuyordu (ipucu, kaynak okunmadı); İtalyan giriş günü gerekir. t: TDV «Etiyopya» 5 Mayıs 1941 (gece-18 K17 kuralı); şehrin kendi kurtuluş günü teyitsiz."
+  }
+ ],
+ "Bor": [
+  {
+   "sira": 2135,
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:832",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi «Sudan», https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (yerleşim o gün ayrıca el değiştirmedi). uc f. Öteki uç (2000-12-31) teyitsiz: 1983 sonrası güneyde SPLA fiilî denetim dilimleri künyesiz, ayrıca bakılmadı. history.state.gov/countries/sudan yalnız tanımayı (1956-01-01) tarihler."
+  }
+ ]
+}
