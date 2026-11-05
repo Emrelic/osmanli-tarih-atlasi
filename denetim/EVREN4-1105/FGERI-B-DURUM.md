@@ -61,6 +61,25 @@ Dosya: `FGERI-ONERI-B.json`. 102 kayıt, 50 künye grubu; Mapimí ve Marcapata d
   - 🔴 KASA notu: 1991-11-18 → 12-19 "beyanlı SAO" dilimi künyesiz kalırsa sahipsiz olur. D1 kuralı gereği önceki sahip `yugoslavya-federal` BEYANLI korunur.
 - **Tannu-Tuva:** "sovyet-rusya BEYANLI" tek blok yanlıştır. 1914 Rus himayesi, ardından 1918–21 Beyaz, Çin/Moğol ve Kızıl dilimleri yerleşim düzeyinde `isg` zinciri olarak kaynakla yazılır (Paine, Forbes). Ayrı künye gerekmez. Alt `s:` için **EMRELİC kararı.**
 
+## EMRELİC kararları (gece-125) + KASA künye ölçümü
+
+- **Fiume:**
+  - Rakip hükûmet kuralı: `fiume-serbest-devleti` f **1920-12-29** (Carnaro'nun fiilen sona erişi) = `carnaro-naiplik` t (t = ardıl f). Rapallo 11-12 `ic_not`a.
+  - `carnaro-naiplik` f GENİŞLET 1919-09-12 (künye bugün 1920-09-08).
+  - 1918-11-17 → 1919-09-12 dilimi tek başına `isg` yazılmaz; D1 gereği altında `s:` olmalı. Fiilî denetim İtalyan Ulusal Konseyi ve çoğunluğu İtalyan Müttefik kuvvetlerindeydi → `s: italya` BEYANLI (`italya` 1861-03-17 → 1946-06-18, hayalet değil), `isg` katmanı yok.
+  - 1918-10-29 → 11-17 arası SHS denetimi kaynakla gösterilirse ayrı BEYANLI dilim olur.
+  - `fiume-serbest-devleti` t 1924-01-27 kalır (imza); 03-16 `ic_not`a.
+- **Benkovac:**
+  - KASA ölçümü: `habsburg` t **1918-11-12**, `yugoslavya` f 1918-12-01, `shs-devleti` YOK.
+  - → Habsburg'u 1918-12-01'e uzatmak **HAYALET üretir** (EMRELİC'in şartı tutmadı).
+  - Karar: `shs-devleti` adayı AYNI commit'te açılır. Öncelikli aday; Maribor, Ptuj ve Ston için de gerekiyor. Zincir: … `habsburg` → 1918-10-29 `shs-devleti` → 1918-12-01 `yugoslavya`.
+  - ⚠️ `habsburg` t 1918-11-12 ile SHS f 1918-10-29 arasında 2 hafta çakışma olacak; künye kararında hizalanmalı (LAB). `itilaf-emaneti` Dalmaçya'ya uygulanmaz.
+- **Tannu-Tuva:** himaye kuralı onaylandı.
+  - 1914-04-17 (Gregoryen; O.S. 04-04, kaynakla) → `s:` yerli Uryanhay yönetimi + `v: rusya`. Yerli künye yoksa `s: rusya` BEYANLI.
+  - 1917 sonrası Beyaz, Çin/Moğol ve Kızıl dilimleri `isg` zinciridir. 1921-08-14 `tannu-tuva` (künye VAR: 1921-08-14 → 1944-10-11).
+  - ⚠️ KASA ölçümü: `rusya` künyesi t **1917-03-15**'te bitiyor. Ardından `rusya-gecici-hukumet` (1917-03-15 → 1917-11-07) ve `sovyet-rusya` (1917-11-07 →) geliyor. Rus dilimi 1917-03-15'te `rusya-gecici-hukumet`'e geçmeli, yoksa hayalet olur.
+- **Onaylananlar:** Malolos f 1898-06-12 GENİŞLET; Vukovar RSK t 1996-01-15 GENİŞLET; 1991 SAO dilimi `yugoslavya-federal` BEYANLI.
+
 ## Öneri: ikinci tur
 
 - 79 BULUNAMADI ve 22 kaynaksız kayıt için daha dar partiler gerekiyor: künye grubu başına 10–15 kayıt, ülke kaynağı önceden belirlenmiş.
