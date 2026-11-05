@@ -1,0 +1,225 @@
+{
+ "Grenoble": [
+  {
+   "sira": 3226,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "dauphine-viennois",
+   "f": "1281-01-01",
+   "t": "1349-07-16",
+   "mevcut_kaynak": "FRANSA-KONTROL (27 Ekim 2026): Grenoble Dauphiné'nin başkentidir; künye dauphine-viennois 1349-07-16'ya dek (Lyon'da 'Transport du Dauphiné à la France' senedi;"
+  },
+  {
+   "sira": 3227,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1349-07-16",
+   "t": "1792-09-22",
+   "mevcut_kaynak": "künye dauphine-viennois t (1349-07-16 devir senedi); veliaht unvanı 'Dauphin' Fransa tahtının varisine geçti"
+  }
+ ],
+ "Motril": [
+  {
+   "sira": 3228,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "granada",
+   "f": "1281-01-01",
+   "t": "1489-12-22",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Pamplona": [
+  {
+   "sira": 3229,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "navarra",
+   "f": "1281-01-01",
+   "t": "1512-07-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3230,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1512-07-25",
+   "t": "1936-07-19",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3231,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-19",
+   "t": "1939-04-01",
+   "mevcut_kaynak": "Gran Enciclopèdia Catalana, «el Divuit de Juliol» (https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol): «El 18 tingueren lloc els [aixe"
+  },
+  {
+   "sira": 3232,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1939-04-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Künye ispanya-milliyetci t 1939-04-01 (BRIT «Francisco Franco»: «Franco won a complete and unconditional victory on April 1, 1939»; künye kronolojisi). · IBER-K"
+  }
+ ],
+ "Nykøbing (Falster)": [
+  {
+   "sira": 3233,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Uppsala": [
+  {
+   "sira": 3236,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1000-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Treccani Enciclopedia on line, Uppsala maddesi, Istituto della Enciclopedia Italiana (https://www.treccani.it/enciclopedia/; ham metin ham/tre_uppsala.txt; TDV "
+  }
+ ],
+ "Düsseldorf": [
+  {
+   "sira": 3243,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1871-01-18",
+   "t": "1945-06-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3245,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "prusya",
+   "f": "1815-06-09",
+   "t": "1871-01-18",
+   "mevcut_kaynak": "Viyana Kongresi Nihai Senedi 9 Haziran 1815: Berg toprakları (Jülich-Kleve-Berg Eyaleti) Prusya'ya; Vestfalya için Prusya zilyetlik patenti 21 Haziran 1815 (his"
+  }
+ ],
+ "Mathura": [
+  {
+   "sira": 3249,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1526-04-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3250,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3251,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1555-07-23",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3252,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1555-07-23",
+   "t": "1770-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3253,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1770-01-01",
+   "t": "1803-10-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3254,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1803-10-17",
+   "t": "1947-08-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Pânipat": [
+  {
+   "sira": 3256,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1281-01-01",
+   "t": "1526-04-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3257,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1526-04-21",
+   "t": "1540-05-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3258,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sur-hanedani",
+   "f": "1540-05-17",
+   "t": "1556-11-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3259,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1556-11-05",
+   "t": "1788-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3260,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "maratha",
+   "f": "1788-01-01",
+   "t": "1803-09-11",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3261,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1803-09-11",
+   "t": "1947-08-15",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

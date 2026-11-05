@@ -1,0 +1,207 @@
+{
+ "Serro (Vila do Príncipe)": [
+  {
+   "sira": 2839,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1714-01-29",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan "
+  }
+ ],
+ "Pirenópolis (Meia Ponte)": [
+  {
+   "sira": 2842,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1754-08-10",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan "
+  }
+ ],
+ "Viana (Maranhão)": [
+  {
+   "sira": 2845,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1757-07-08",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan "
+  }
+ ],
+ "Minas (Villa de la Concepción de las Minas)": [
+  {
+   "sira": 2848,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1817-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Dom Pedro Brezilya'nın Portekiz'den bağımsızlığını ilan "
+  },
+  {
+   "sira": 2850,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1783-01-01",
+   "t": "1814-06-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2851,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1814-06-20",
+   "t": "1817-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2852,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "uruguay-cumhuriyeti",
+   "f": "1828-08-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bannu (Edwardesabad)": [
+  {
+   "sira": 2853,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1849-03-29",
+   "t": "1947-08-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Ingiliz Hindistani bolundu: Hindistan Dominyonu (Delhi, "
+  },
+  {
+   "sira": 2854,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sih-imparatorlugu",
+   "f": "1848-01-01",
+   "t": "1849-03-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2855,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "pakistan",
+   "f": "1947-08-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "https://history.state.gov/countries/pakistan"
+  }
+ ],
+ "Havta (Havtat Benî Temîm)": [
+  {
+   "sira": 2856,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1819-08-13",
+   "t": "1824-06-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Mısır garnizonu Harc'taki Süleymiye'den çekilip Menfûha'y"
+  },
+  {
+   "sira": 2857,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-birinci",
+   "f": "1795-01-01",
+   "t": "1818-09-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2858,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-ikinci",
+   "f": "1824-06-01",
+   "t": "1838-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2859,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-ikinci",
+   "f": "1840-01-01",
+   "t": "1891-01-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2860,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sammar",
+   "f": "1891-01-24",
+   "t": "1902-01-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2861,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-ucuncu",
+   "f": "1902-01-15",
+   "t": "1932-09-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2862,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1818-09-09",
+   "t": "1819-08-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2863,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1838-01-01",
+   "t": "1840-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2864,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau"
+  }
+ ],
+ "Sofiysk (Amur)": [
+  {
+   "sira": 2865,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1859-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm"
+  }
+ ],
+ "Coxim": [
+  {
+   "sira": 2869,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1872-11-06",
+   "t": "1889-11-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Brezilya'da cumhuriyet ilan edildi — 1872 Paraguay sınır"
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "Karlskrona": [
+  {
+   "sira": 3333,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1281-01-01",
+   "t": "1658-03-08",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3334,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "isvec",
+   "f": "1658-03-08",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Selenginsk": [
+  {
+   "sira": 3335,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1665-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Külâb (Kulob)": [
+  {
+   "sira": 3339,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cagatay",
+   "f": "1281-01-01",
+   "t": "1370-04-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3340,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1370-04-09",
+   "t": "1500-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3341,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "buhara",
+   "f": "1500-01-01",
+   "t": "1920-09-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3342,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1920-09-02",
+   "t": "1991-09-09",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Halhın Gol (Buir Nur)": [
+  {
+   "sira": 3345,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3346,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1911-12-29",
+   "t": "1919-11-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3347,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1919-11-22",
+   "t": "1921-07-11",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3348,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1921-07-11",
+   "t": "1924-11-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3349,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriy"
+  }
+ ],
+ "Bulgan": [
+  {
+   "sira": 3352,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3353,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1911-12-29",
+   "t": "1919-11-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3354,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1919-11-22",
+   "t": "1921-07-11",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3355,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1921-07-11",
+   "t": "1924-11-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3356,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriy"
+  }
+ ],
+ "Bayanhongor": [
+  {
+   "sira": 3359,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1691-05-30",
+   "t": "1911-12-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3360,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1911-12-29",
+   "t": "1919-11-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3361,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1919-11-22",
+   "t": "1921-07-11",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3362,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1921-07-11",
+   "t": "1924-11-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3363,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriy"
+  }
+ ],
+ "Udbina": [
+  {
+   "sira": 3364,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1281-01-01",
+   "t": "1527-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3365,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1689-01-01",
+   "t": "1809-10-14",
+   "mevcut_kaynak": "HE Udbina (1689, YIL) · Svištov'a (1791) dek sınır kalesi"
+  },
+  {
+   "sira": 3367,
+   "sinif": "DIGER",
+   "alan": "d",
+   "d": "",
+   "f": "1527-05-01",
+   "t": "1689-01-01",
+   "mevcut_kaynak": "HE Udbina: 'potkraj svibnja' 1527 (AY; gün yok) → 1689 (YIL)"
+  }
+ ],
+ "Gospić": [
+  {
+   "sira": 3368,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1281-01-01",
+   "t": "1527-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3369,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1689-01-01",
+   "t": "1809-10-14",
+   "mevcut_kaynak": "HE Gospić (1689, YIL)"
+  },
+  {
+   "sira": 3371,
+   "sinif": "DIGER",
+   "alan": "d",
+   "d": "",
+   "f": "1527-05-01",
+   "t": "1689-01-01",
+   "mevcut_kaynak": "HE Gospić: 1527 (YIL) → 1689 (YIL) · BALKAN-MACAR-0081 H-0027: yıl damgası 1527-01-01 Cetin günüyle çakışıp Gospić'i Hırvatların Ferdinand'ı seçtiği gün Osmanlı"
+  }
+ ]
+}

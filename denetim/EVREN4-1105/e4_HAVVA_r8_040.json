@@ -1,0 +1,90 @@
+{
+ "Sretensk": [
+  {"sira": 2496, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1689-01-01", "t": "1917-03-15", "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "FRUS 1918, Russia, Vol. I, belge 6 (Milyukov notu, Petrograd 5/18 Mart 1917), history.state.gov/historicaldocuments/frus1918Russiav01/d6",
+   "alinti": "By an act dated in Pskov March 2/15, 1917, Emperor Nicholas II renounced the throne",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. Yalnız t ucu: tahttan feragat 2/15 Mart 1917 (Jülyen 2 = Gregoryen 15). Aynı belge: Grand Duke Mihail 3/16 Mart 1917'de yüksek iktidarı kabul etmedi, yani monarşinin hukuken sonu 1917-03-16 sayılabilir; ucu 03-15 mi 03-16 mı bırakmak ülke düzeyi karardır. Öteki uç (f) teyitsiz, ayrı satırda."},
+  {"sira": 2496, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1689-01-01", "t": "1917-03-15", "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Brokgauz-Efron (booksite.ru/fulltext/1/001/007/097/97572.htm): yalnız 'önce ostrog, 1783-1798 şehir' der, tarih yok; BSE Nerchinsk maddesi (booksite.ru/fulltext/1/001/008/081/347.htm) Nerchinsk içindir. 1689 yalnız Vikipedi ve bir haber metninde (ipucu).",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILDI, BULUNAMADI: Vikipedi (yalnız ipucu) 1689 diyor; web araması özetine göre BRE (old.bigenc.ru/domestic_history/text/4161744) farklı bir tarih veriyor (Nizhniy Noviy ostrog, 1704 sonrası, ilk anış 1714, Sretenskiy adı 1719 kilisesiyle) ama sunucuya erişilemedi (zaman aşımı / ECONNREFUSED), ham metin okunamadı. Bu BRE özeti doğruysa f=1689 yanlış ve ~1714 olur; teyit için BRE maddesi ham okunmalı. Sretensk 1689 Nerchinsk Antlaşması ile sınırın Rus tarafına kalan ostrogdur ama yerleşime özgü kaynak bulunamadı."}
+ ],
+ "Ust-Maya": [
+  {"sira": 2500, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1844-01-01", "t": "1917-03-15", "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "FRUS 1918, Russia, Vol. I, belge 6 (Milyukov notu), history.state.gov/historicaldocuments/frus1918Russiav01/d6",
+   "alinti": "By an act dated in Pskov March 2/15, 1917, Emperor Nicholas II renounced the throne",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. Yalnız t ucu (Jülyen 2 = Gregoryen 15 Mart 1917; Mihail 3/16 Mart'ta reddetti). f ucu teyitsiz, ayrı satırda."},
+  {"sira": 2500, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1844-01-01", "t": "1917-03-15", "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Web araması (Rusça, Ust-Maya / Usť-Mayskiy, Aldan): 1844 hiçbir kaynakta çıkmadı. Vikipedi ipucu: yerleşim 1930'da altın madenciliği üssü olarak kurulmuş, 1931'de Ust-Maysky bölgesi merkezi (kaynaksız).",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILDI, BULUNAMADI: 1844 için dayanak yok; Vikipedi ipucu 1930 kuruluşunu söylüyor (kaynaksız, tek dayanak olamaz). Yerleşim 1844'te var mıydı sorusu açık: 1844 tarihini kim kaynakladıysa (Rus Amerikan Kumpanyası/ Maya keşfi? Mayskiy yolu?) belirsiz. Aldan-Maya ağzında 19. yy Yakut/Rus köyü olabileceği kaynakla gösterilemedi. Varsa Yakutiya yerel ansiklopedisi (Sakha Entsiklopediya) ya da Ust-Maya tarihçesi lazım; yerleşimin dönem başında var olduğu ispatsız. Öneri: 1930'a kadar kırpmak YA DA 'yaklaşıklık beyanı' ile bırakmak KASA kararı."}
+ ],
+ "Hantayka zimovyesi": [
+  {"sira": 2504, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1610-01-01", "t": "1917-03-15", "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "M. I. Belov, 'Podvig Semena Dezhneva' (monografi), bölüm 5, booksite.ru/dejnev/05_3.html (Turukhansk ostroğu 1607 = Davyd Zherebtsov)",
+   "alinti": "В год построения Туруханского острога мангазейские стрельцы достигли Енисейского залива. На реке Хантайке было поставлено Хантайское зимовье.",
+   "oneri": {"f": "1607-01-01", "t": "", "d": "rusya"},
+   "not": "YIL düzeyi, dolaylı: metin zimovyenin 'Turukhansk ostroğunun kurulduğu yıl' kurulduğunu söyler; aynı metin ostroğu 1607'ye koyar (Zherebtsov, Turukhan ağzı). Yani 1607; atlastaki 1610 kaynakta yok. Yalnız tek monografi (Belov), çift teyit yok. Ek ipucu (arama özeti, ham okunmadı): arşiv belgelerinde Hantayka zimovyesi 1630'da anılır, 1679'da saldırıya uğradığı yazılır. Gün yok: YYYY-01-01. t (1917) ayrıca ülke düzeyi: FRUS 1918 Russia I belge 6, 'Pskov March 2/15, 1917' tahttan feragat; bu satırın kendi ucu f'dir, t için öteki uç teyitsiz sayılmalı ya da Sretensk satırındaki ülke düzeyi kaynak kullanılmalı."}
+ ],
+ "Başkurt toprakları (İdil-Ural)": [
+  {"sira": 2508, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1555-01-01", "t": "1917-03-15", "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "Başkurdistan Ansiklopedisi (bashenc.online/en/articles/103155/, 'Accession of Bashkortostan to Russia')",
+   "alinti": "In 1557, negotiations ended with the conclusion of an agreement between the Bashkirs and the Russian Government",
+   "oneri": {"f": "1557-01-01", "t": "", "d": "rusya"},
+   "not": "YIL düzeyi. Aynı madde: 1554-57 arası Kazan'daki Rus valisi Gorbaty-Shuysky ile müzakere, kuzeybatı kabileleriyle başlayıp merkez/güneydoğu/doğuya genişledi; 1557'de anlaşma ve 'zhalovannye gramoty'. Atlastaki 1555 müzakerenin ortası; bölge düzeyinde süreç 1552-1557 (arama özeti: Kuzeev 1957, Etnograficheskoe obozrenie, tarihçiler 1552-1557 arasında farklı 'ana tarih' önerir; ham okunamadı, robots engeli). Bazı tarihçiler fetih sayar (Donnelly), tarih tartışmalı. ÖLÇÜT: idareye katma / sözleşmeyle bağlanma, yıl 1557. Trans-Ural Başkurtlarının bir kısmı sonradan (Kuchumovich mücadelesi sırasında) katıldı, yani bölge içi geç katılımlar var. t ucu ülke düzeyi, ayrı kaynakta (bkz. Sretensk satırı)."},
+  {"sira": 2512, "dosya_satir": "", "alan": "s", "d": "nogay", "f": "1502-01-01", "t": "1555-01-01", "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "Başkurdistan Ansiklopedisi (bashenc.online/en/articles/103155/); f için arama özeti: Başkurt tarihi literatürü (Wikipedia History of Bashkortostan, ipucu)",
+   "alinti": "In 1557, negotiations ended with the conclusion of an agreement between the Bashkirs and the Russian Government",
+   "oneri": {"f": "", "t": "1557-01-01", "d": "nogay"},
+   "not": "t ucu rusya satırıyla birlikte 1557'ye çekilmeli (Nogay ile Rus arasında boşluk/çakışma kalmasın). f=1502 için kaynak YOK (BULUNAMADI): arama özeti 15. yy ikinci yarısından 16. yy ilk yarısına Başkurt topraklarının üç siyasî güce (Kazan Hanlığı, Sibir Hanlığı, Nogay Ordusu) bağlı olduğunu söylüyor; yani bölgenin tamamı Nogay değil, kısmî. 1502 tarihi bölgeye özgü kaynaklanmadı (1502 Büyük Orda'nın yıkılışı ülke düzeyi olabilir, ham okunmadı). Bu yerleşim (İdil-Ural Başkurt toprakları) için tek devlete verilen sahiplik yaklaşıklıktır: BEYANLI YAKLAŞIKLIK önerilir, Kazan Hanlığı 1552'ye kadar batı kısmında da hak sahibi."}
+ ],
+ "Fort McPherson (Teetł'it Zheh)": [
+  {"sira": 2514, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1840-01-01", "t": "1870-07-15", "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "f: Parks Canada, Fort McPherson NHSC (pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=324) + DCB 'Bell, John' (biographi.ca/en/bio/bell_john_1868_9E.html). t: Rupert's Land and North-Western Territory Order, 22 Haziran 1870 (justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html)",
+   "alinti": "In 1840 John Bell of the Hudson's Bay Company built the first Fort McPherson | from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "f: YIL (1840); DCB: Bell 1839'da Peel'i keşfetti, 'the following year he established a post, Fort McPherson'. İlk yer 6 km yukarıdaydı, 1848'de bugünkü yere taşındı (Parks Canada) — yerleşim koordinatı taşınma notu. t: Order'a göre North-Western Territory 15 Temmuz 1870'ten itibaren Kanada Dominyonu'na katıldı (Jülyen/Gregoryen sorunu yok, Britanya). Not: Order metni 22 Haziran 1870 tarihli, yürürlük 15 Temmuz. ÖLÇÜT: idareye katma — Kanada hukuki devri (TEK ÖLÇÜ: İngiltere zaten yönetiyordu, devir günü yürürlük günüdür, ic_not'a yürürlük gününü yaz). Hudson's Bay Company imtiyazlı ticaret yeri; egemenlik Britanya tacı (Rupert's Land HBC mülkiyeti), d: ingiliz-kuzey-amerika uygun."}
+ ],
+ "Déline (Fort Franklin, Büyük Ayı Gölü)": [
+  {"sira": 2516, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1825-01-01", "t": "1870-07-15", "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "f: Parks Canada, Déline Fishery / Franklin's Fort NHSC (pc.gc.ca/apps/dfhd/page_nhs_eng.aspx?id=1820). t: Rupert's Land and North-Western Territory Order 1870 (justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html)",
+   "alinti": "The fort provided a staging area and winter quarters for two years, from 1825 to 1827 | from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "f: YIL (1825). DİKKAT süreklilik: Fort Franklin Franklin'in 2. keşif seferinin kışlağı (1825-1827), HBC Faktörü Dease yer seçti; Parks Canada: 'There are no known above ground remains'. 1827 sonrası HBC postunun sürekli işletildiği bu kaynakta yok ('During 1820's the Hudson Bay Company re-opened its store'). Yerleşim 1827'den 1870'e sürekli var mıydı, ispatsız: dönem içi boşluk riski. Sahiplik açısından bölge Britanya iddiasındaydı (HBC Kuzeybatı Bölgesi); t: Order, 15 Temmuz 1870."}
+ ],
+ "Fort Selkirk": [
+  {"sira": 2518, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1848-01-01", "t": "1870-07-15", "uc": "f+t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "f: DCB 'Campbell, Robert' (biographi.ca/en/bio/campbell_robert_1808_94_12E.html); Sights and Sites of the Yukon (sightsandsites.ca/rivers/site/fort-selkirk). t: Rupert's Land and North-Western Territory Order 1870 (justice.gc.ca/.../p1t31.html)",
+   "alinti": "a new post, Fort Selkirk, was finally opened at the junction in 1848 | from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "f: YIL (1848). 🔴 SÜREKLİLİK SORUNU: DCB 'In 1852 Fort Selkirk was ransacked by the Chilkat'; HBC yeniden açmadı (Sights and Sites: 'no white traders came to this area' 40 yıl, 1889'da Arthur Harper postu; Schwatka 1883'te yalnız bacalar kalmıştı; HBC dönüşü 1938, Canadian Encyclopedia). Yani 1852-08-18 (Chilkat baskını, Sights and Sites; tarih kaynaklarda 18 Ağustos / 21 Ağustos farklı) ile 1889 arası yerleşim yok. Öneri: dönemi bölmek ya da 1852'de kısaltıp 1889'dan yeniden başlatmak (KASA kararı, Yukon'da 1870 öncesi Britanya egemenliği/Chilkat-Tlingit fiilî kontrolü ayrıca sorgulanmalı: bölge fiilen Tlingit ticaret ağındaydı). Pelly-Yukon ağzı, Rupert's Land dışı North-Western Territory (Order kapsamı)."}
+ ],
+ "Fort Simpson (Łı́ı́dlı̨ı̨ Kų́ę́)": [
+  {"sira": 2520, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1804-01-01", "t": "1870-07-15", "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Rupert's Land and North-Western Territory Order 1870 (justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html)",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "Yalnız t ucu. Metin: North-Western Territory bu tarihte Kanada Dominyonu'nun parçası olur. f ucu teyitsiz, ayrı satırda."},
+  {"sira": 2520, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1804-01-01", "t": "1870-07-15", "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "FortWiki Fort Simpson (fortwiki.com/Fort_Simpson_(1)) ve Canadian Encyclopedia özeti (thecanadianencyclopedia.ca/en/article/fort-simpson, robots/boş döndü) — ham metin DCB/akademik değil",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKILDI, BULUNAMADI (akademik teyit): ipucu — Kuzeybatı Şirketi 'Fort of the Forks' 1803 (FortWiki, wiki: ipucu) ya da 1804 (Canadian Encyclopedia, arama özeti, ham okunamadı); 1811'e kadar terk; HBC Fort Simpson'u 1822'de yeniden kurdu, George Simpson'un adıyla. Yani atlas f=1804 ile iki sorun: (a) 1803/1804 çelişkisi, (b) 1811-1822 boşluğu: sürekli yerleşim değil. Öneri: HBC dönemi için f=1822 (yıl) ya da 1804 Kuzeybatı Şirketi ticaret karakolu olarak beyanla bırakmak; Nancy Anderson/HBCA 'Fort Simpson B.200 (1818-1948)' kayıtları teyit için aranmalı. İkinci kaynak (DCB 'Simpson, George', Fort Simpson ham geçmiyor) bulunamadı."}
+ ]
+}

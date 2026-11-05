@@ -1,0 +1,288 @@
+{
+ "Outjo": [
+  {
+   "sira": 2807,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1895-01-01",
+   "t": "1915-07-09",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine tesli"
+  },
+  {
+   "sira": 2808,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1915-07-09",
+   "t": "1920-12-17",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine teslim"
+  },
+  {
+   "sira": 2809,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guneybati-afrika-mandasi f ucunun kaynağı — f: MC manda metni, AALCO 9. oturum eki (aalco.int, PDF metin katm"
+  },
+  {
+   "sira": 2810,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye namibya f ucunun kaynağı — Office of the Historian, history.state.gov/countries/namibia — «The United States "
+  }
+ ],
+ "Ambositra": [
+  {
+   "sira": 2811,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1830-01-01",
+   "t": "1960-06-26",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransiz Madagaskari (Tamatave, Antsirabe, Fianarantsoa, "
+  },
+  {
+   "sira": 2812,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "betsileo",
+   "f": "1281-01-01",
+   "t": "1830-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2813,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye madagaskar f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar) — "
+  }
+ ],
+ "İhosy (Bara)": [
+  {
+   "sira": 2814,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-06-26",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransiz Madagaskari (Tamatave, Antsirabe, Fianarantsoa, "
+  },
+  {
+   "sira": 2815,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "antandroy",
+   "f": "1281-01-01",
+   "t": "1900-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2816,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye madagaskar f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar) — "
+  }
+ ],
+ "Valvis Körfezi": [
+  {
+   "sira": 2817,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1878-03-12",
+   "t": "1910-05-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Güney Afrika Birliği kuruldu» (1910-05-31, taraf kolu) k"
+  },
+  {
+   "sira": 2818,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1793-01-01",
+   "t": "1878-03-12",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2821,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1994-03-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "SAHO: 1 Mart 1994 devir"
+  }
+ ],
+ "Aranos": [
+  {
+   "sira": 2822,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1900-01-01",
+   "t": "1915-07-09",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine tesli"
+  },
+  {
+   "sira": 2823,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1915-07-09",
+   "t": "1920-12-17",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine teslim"
+  },
+  {
+   "sira": 2824,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guneybati-afrika-mandasi f ucunun kaynağı — f: MC manda metni, AALCO 9. oturum eki (aalco.int, PDF metin katm"
+  },
+  {
+   "sira": 2825,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye namibya f ucunun kaynağı — Office of the Historian, history.state.gov/countries/namibia — «The United States "
+  }
+ ],
+ "Ambovombe (Antandroy)": [
+  {
+   "sira": 2826,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-06-26",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransiz Madagaskari (Tamatave, Antsirabe, Fianarantsoa, "
+  },
+  {
+   "sira": 2827,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "antandroy",
+   "f": "1281-01-01",
+   "t": "1900-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2828,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye madagaskar f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar) — "
+  }
+ ],
+ "Bethanie": [
+  {
+   "sira": 2829,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1904-10-03",
+   "t": "1915-07-09",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine tesli"
+  },
+  {
+   "sira": 2830,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1915-07-09",
+   "t": "1920-12-17",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine teslim"
+  },
+  {
+   "sira": 2831,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guneybati-afrika-mandasi f ucunun kaynağı — f: MC manda metni, AALCO 9. oturum eki (aalco.int, PDF metin katm"
+  },
+  {
+   "sira": 2832,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nama-orlam",
+   "f": "1281-01-01",
+   "t": "1904-10-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2833,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye namibya f ucunun kaynağı — Office of the Historian, history.state.gov/countries/namibia — «The United States "
+  }
+ ],
+ "Varmbad (Warmbad)": [
+  {
+   "sira": 2834,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1904-10-03",
+   "t": "1915-07-09",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine tesli"
+  },
+  {
+   "sira": 2835,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1915-07-09",
+   "t": "1920-12-17",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Alman Güneybatı Afrikası Güney Afrika kuvvetlerine teslim"
+  },
+  {
+   "sira": 2836,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "guneybati-afrika-mandasi",
+   "f": "1920-12-17",
+   "t": "1990-03-21",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye guneybati-afrika-mandasi f ucunun kaynağı — f: MC manda metni, AALCO 9. oturum eki (aalco.int, PDF metin katm"
+  },
+  {
+   "sira": 2837,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nama-orlam",
+   "f": "1281-01-01",
+   "t": "1904-10-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2838,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "namibya",
+   "f": "1990-03-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye namibya f ucunun kaynağı — Office of the Historian, history.state.gov/countries/namibia — «The United States "
+  }
+ ]
+}

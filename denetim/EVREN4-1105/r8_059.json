@@ -1,0 +1,216 @@
+{
+ "Gmünd (Aşağı Avusturya)": [
+  {
+   "sira": 2923,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "avusturya-cumhuriyet",
+   "f": "1918-11-12",
+   "t": "1938-03-13",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin s"
+  }
+ ],
+ "Landeck": [
+  {
+   "sira": 2924,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "avusturya-cumhuriyet",
+   "f": "1918-11-12",
+   "t": "1938-03-13",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Avusturya Cumhuriyeti'nin ilânı — Habsburg monarşisinin s"
+  },
+  {
+   "sira": 2925,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1805-12-26",
+   "t": "1814-06-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2926,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1814-06-03",
+   "t": "1918-11-12",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Aosta": [
+  {
+   "sira": 2927,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "savoya",
+   "f": "1281-01-01",
+   "t": "1720-08-02",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Saluzzo: savoya kontluğu / dükalığı hâkimiyeti sona erdi"
+  },
+  {
+   "sira": 2928,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "sardinya-piyemonte",
+   "f": "1720-08-02",
+   "t": "1861-03-17",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Saluzzo: savoya kontluğu / dükalığı hâkimiyeti sona erdi "
+  },
+  {
+   "sira": 2929,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "italya",
+   "f": "1861-03-17",
+   "t": "1946-06-18",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Saluzzo, Taormina: italya krallığı hâkimiyeti başladı (ön"
+  }
+ ],
+ "Daru": [
+  {
+   "sira": 2931,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-11-06",
+   "t": "1906-09-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Papua Bolgesi Avustralya idaresine devredildi (Papua Kan"
+  },
+  {
+   "sira": 2932,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1906-09-01",
+   "t": "1949-07-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Papua Bolgesi Avustralya idaresine devredildi (Papua Kanu"
+  },
+  {
+   "sira": 2933,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "mevcut_kaynak": "https://history.state.gov/countries/papua-new-guinea"
+  },
+  {
+   "sira": 2934,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "papua-yeni-gine",
+   "f": "1975-09-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "https://history.state.gov/countries/papua-new-guinea"
+  }
+ ],
+ "Vanimo": [
+  {
+   "sira": 2935,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1884-11-03",
+   "t": "1914-09-17",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Avustralya kuvvetleri Alman Yeni Ginesi'ni isgal etti (R"
+  },
+  {
+   "sira": 2936,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1914-09-17",
+   "t": "1949-07-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Avustralya kuvvetleri Alman Yeni Ginesi'ni isgal etti (Ra"
+  },
+  {
+   "sira": 2937,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "mevcut_kaynak": "https://history.state.gov/countries/papua-new-guinea"
+  },
+  {
+   "sira": 2938,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "papua-yeni-gine",
+   "f": "1975-09-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "https://history.state.gov/countries/papua-new-guinea"
+  }
+ ],
+ "Lorengau (Manus)": [
+  {
+   "sira": 2939,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1914-11-01",
+   "t": "1949-07-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Papua ve Yeni Gine Yasası ile Avustralya idaresindeki Pa"
+  },
+  {
+   "sira": 2940,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1911-01-01",
+   "t": "1914-11-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2941,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "mevcut_kaynak": "https://history.state.gov/countries/papua-new-guinea"
+  },
+  {
+   "sira": 2942,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "papua-yeni-gine",
+   "f": "1975-09-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "https://history.state.gov/countries/papua-new-guinea"
+  }
+ ],
+ "Avarua (Rarotonga)": [
+  {
+   "sira": 2943,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1901-06-11",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Yeni Zelanda sınırları Cook Adaları ve Niue'yi kapsayacak"
+  }
+ ],
+ "Banaba (Ocean Island)": [
+  {
+   "sira": 2944,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1900-01-01",
+   "t": "1979-07-12",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Gilbert Adaları Kiribati adıyla Britanya'dan bağımsız ol"
+  },
+  {
+   "sira": 2945,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kiribati",
+   "f": "1979-07-12",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kiribati f ucunun kaynağı — Kiribati Act 1979 (c. 27) s.1 ve Kiribati Independence Order 1979 (SI 1979/719) —"
+  }
+ ]
+}

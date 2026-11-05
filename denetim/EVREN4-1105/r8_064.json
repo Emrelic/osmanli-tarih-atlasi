@@ -1,0 +1,333 @@
+{
+ "Tırgovişte": [
+  {
+   "sira": 3085,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "eflak",
+   "f": "1330-01-01",
+   "t": "1462-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3086,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3087,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1462-06-01",
+   "t": "1859-02-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3088,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3089,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "mevcut_kaynak": "TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабр"
+  },
+  {
+   "sira": 3090,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1828-05-07",
+   "t": "1834-01-01",
+   "mevcut_kaynak": "TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25"
+  },
+  {
+   "sira": 3091,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  },
+  {
+   "sira": 3092,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  }
+ ],
+ "Buzău": [
+  {
+   "sira": 3093,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "eflak",
+   "f": "1330-01-01",
+   "t": "1462-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3094,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3095,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1462-06-01",
+   "t": "1859-02-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3096,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3097,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "mevcut_kaynak": "TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабр"
+  },
+  {
+   "sira": 3098,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1828-05-07",
+   "t": "1834-01-01",
+   "mevcut_kaynak": "TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1828-04-25 (Rus kolordusunun Memleketeyn'e girişi; ESBE «Турецкие войны России» '25"
+  },
+  {
+   "sira": 3099,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  },
+  {
+   "sira": 3100,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  }
+ ],
+ "Tırgu Jiu": [
+  {
+   "sira": 3101,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "eflak",
+   "f": "1330-01-01",
+   "t": "1462-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3102,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "macaristan-habsburg",
+   "f": "1718-07-21",
+   "t": "1739-09-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3103,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1881-03-26",
+   "t": "1947-12-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3104,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1462-06-01",
+   "t": "1718-07-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3105,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1739-09-18",
+   "t": "1859-02-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3106,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1859-02-05",
+   "t": "1877-05-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3107,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "rusya",
+   "f": "1806-12-25",
+   "t": "1812-05-28",
+   "mevcut_kaynak": "TAKVİM-1015 (Emre #10: atlas günleri Gregoryen, Jülyen gün çevrildi): Jülyen 1806-12-13 (Miloradoviç'in Bükreş'e girişi; ESBE «Турецкие войны России» '13 декабр"
+  },
+  {
+   "sira": 3108,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-halk",
+   "f": "1947-12-30",
+   "t": "1989-12-22",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  },
+  {
+   "sira": 3109,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "romanya-cumhuriyeti",
+   "f": "1989-12-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "LoC Romania Country Study"
+  }
+ ],
+ "Soroka (Soroca)": [
+  {
+   "sira": 3110,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bogdan",
+   "f": "1359-01-01",
+   "t": "1456-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3111,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1812-05-28",
+   "t": "1917-03-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3114,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "romanya-kralligi",
+   "f": "1918-04-09",
+   "t": "1940-06-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3115,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1456-06-01",
+   "t": "1812-05-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3116,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "moldova-demokratik-cum",
+   "f": "1917-12-15",
+   "t": "1918-04-09",
+   "mevcut_kaynak": "Moldova Demokratik Cumhuriyeti: 15 Aralık 1917 (J. 2 Aralık) ilan, 9 Nisan 1918 (J. 27 Mart) Romanya ile birleşme — BNR bnr.ro; Sfatul Țării"
+  },
+  {
+   "sira": 3117,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "moldova",
+   "f": "1991-08-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye moldova f ucunun kaynağı — https://ipn.md/en/27-august-1991-the-day-moldovas-independence-was-proclaimed-7967"
+  }
+ ],
+ "Beyzâ (Kirene)": [
+  {
+   "sira": 3154,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1551-08-15",
+   "t": "1711-07-29",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Miliana": [
+  {
+   "sira": 3161,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kolo": [
+  {
+   "sira": 3164,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kalme (Guelma)": [
+  {
+   "sira": 3168,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

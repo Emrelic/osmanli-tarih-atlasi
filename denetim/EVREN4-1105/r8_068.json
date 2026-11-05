@@ -1,0 +1,306 @@
+{
+ "Johor": [
+  {
+   "sira": 3297,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "malay-sultanliklari",
+   "f": "1281-01-01",
+   "t": "1400-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3298,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "malaka-sultanligi",
+   "f": "1400-01-01",
+   "t": "1528-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3299,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cohor-sultanligi",
+   "f": "1528-01-01",
+   "t": "1923-10-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3300,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "federe-olmayan-malay-devletleri",
+   "f": "1945-09-02",
+   "t": "1946-04-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye federe-olmayan-malay-devletleri t ucunun kaynağı — worldstatesmen.org/Malaysia.htm (Malayan Union kapsamı) · "
+  },
+  {
+   "sira": 3301,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "malaya-birligi",
+   "f": "1946-04-01",
+   "t": "1948-01-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malaya-birligi f ucunun kaynağı — worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi · BEYANLI: o"
+  },
+  {
+   "sira": 3302,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1957-08-31",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Malaya bagimsizligi 1957-08-31; Malezya 1963-09-16 ayni kimlik"
+  }
+ ],
+ "Patani": [
+  {
+   "sira": 3303,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "malay-sultanliklari",
+   "f": "1281-01-01",
+   "t": "1786-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3304,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "siyam-chakri",
+   "f": "1786-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3305,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "langkasuka",
+   "f": "0500-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "SAHİP: langkasuka (BOYALAR'da mevcut; BOŞLUK BEYANI karşılandı, 27 Ekim 2026 — beyanlı yaklaşıklık aşağıdaki kaynakla) · Coedès, G., The Indianized States of So"
+  }
+ ],
+ "Padang": [
+  {
+   "sira": 3306,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "pagaruyung",
+   "f": "1281-01-01",
+   "t": "1663-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3307,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1663-01-01",
+   "t": "1795-08-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3308,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1795-08-18",
+   "t": "1819-05-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3309,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1819-05-01",
+   "t": "1942-03-09",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Banten": [
+  {
+   "sira": 3311,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sunda-pajajaran",
+   "f": "1281-01-01",
+   "t": "1527-06-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3312,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "banten-sultanligi",
+   "f": "1527-06-22",
+   "t": "1811-08-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3313,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1811-08-18",
+   "t": "1816-08-19",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3314,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1816-08-19",
+   "t": "1942-03-09",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Surakarta (Solo)": [
+  {
+   "sira": 3316,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mataram-sultanligi",
+   "f": "1745-02-17",
+   "t": "1811-08-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3317,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1811-08-18",
+   "t": "1816-08-19",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3318,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "surakarta",
+   "f": "1816-08-19",
+   "t": "1946-06-16",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Makassar": [
+  {
+   "sira": 3319,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gova-makassar",
+   "f": "1281-01-01",
+   "t": "1667-11-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3320,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1667-11-18",
+   "t": "1942-03-09",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Ambon": [
+  {
+   "sira": 3322,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ternate-sultanligi",
+   "f": "1281-01-01",
+   "t": "1512-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3323,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1512-01-01",
+   "t": "1605-02-23",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3324,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1605-02-23",
+   "t": "1810-02-19",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3325,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1810-02-19",
+   "t": "1817-03-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3326,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1817-03-25",
+   "t": "1942-03-09",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cebu": [
+  {
+   "sira": 3328,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "filipin-racaliklari",
+   "f": "1281-01-01",
+   "t": "1565-04-27",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3329,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1565-04-27",
+   "t": "1898-08-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3330,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-08-13",
+   "t": "1901-07-04",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3331,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "filipin-commonwealth",
+   "f": "1945-09-02",
+   "t": "1946-07-04",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipin-commonwealth t ucunun kaynağı — OH philippines — 'autonomous commonwealth in 1935' (ajan özeti) · 'Th"
+  },
+  {
+   "sira": 3332,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "filipinler-cumhuriyeti",
+   "f": "1946-07-04",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye filipinler-cumhuriyeti f ucunun kaynağı — https://www.govinfo.gov/link/statute/61/1174 · BEYANLI: olayın kayn"
+  }
+ ]
+}

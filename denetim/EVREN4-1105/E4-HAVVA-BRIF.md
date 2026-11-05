@@ -54,4 +54,29 @@ HAVVA'ya özgü FARKLAR (bunlar ana brifin önündedir):
 6d. 🔴 HİCRÎ ÇEVİRİ (EMRELİC, 5 Kasım 03:35): kaynak mîlâdî karşılık vermiyorsa ve sen çevirmek
    zorundaysan TEK tabular varyant kullanılır: Perşembe epoch'u (ör. 1 Rebîülevvel 923 = 1517-03-23 Jülyen).
    1582-10-15 öncesi sonuç Jülyen'dir. Çeviriyi `not`a "hicrî X → (tabular, Perşembe epoch) Y" diye beyan et.
+6e. 🔴 KAYNAK SINIFI — ANSİKLOPEDİLER (EMRELİC gece-98, UMIT aktardı, 5 Kasım ~04:15):
+   - Ulusal akademik ansiklopedi KAYNAKLI verebilir: TDV, VLE (Litvanya), Hrvatska enciklopedija, SNL (snl.no),
+     lex.dk / Dansk Biografisk Leksikon, BRE (Büyük Rus), Treccani (güncel, Enciclopedia on line / DBI), DCB,
+     Encyclopedia of Ukraine, Iranica, Kotobank'taki akademik Japon sözlükleri.
+   - Ticari / genel ansiklopedi en çok ONERI-güçlü verir, KAYNAKLI VERMEZ: Gale / encyclopedia.com (Columbia
+     Encyclopedia dahil), Larousse, Britannica, EBSCO Research Starters, World History Encyclopedia.
+     Bunlarla bulduğun ucu ONERI yaz, `not`a "ticari ansiklopedi — ONERI-güçlü" de.
+6g. 🔴 f = VAROLUŞ GÜNÜ (EMRELİC, 5 Kasım gece; bütün EVREN4 partilerinde geçerli, kalıcı karar sabah Emre'nin):
+   - Yerleşimin İLK dönem f'si, yerleşimin var olduğu ilk gündür (kuruluş / ilk anılış / karakolun açılışı).
+     İlçe/belediye/şehir STATÜSÜ günü f değildir; `not`a ic_not olarak yazılır.
+   - Kuruluş kaynaksızsa ilçe/belediye günü BEYANLI alt sınır olarak kalır (`not`a "BEYANLI ALT SINIR").
+   - f geriye çekilirse (ör. atlas 1780 şehir statüsü, kaynak 1691 ilk anılış) şu şartlar ZORUNLU:
+     (i) açılan yeni ilk dilimin sahibi kaynaklı ya da ABİ MERKEZ zinciriyle beyanlı olmalı; sahipsiz ya da
+         hayalet dilim YOK;
+     (ii) o dilimin künyesinin f/t'si (data/devletler.js) aralığı kapsamalı — grep ile ölç;
+     (iii) satıra `"f_geri": {"eski_f": "...", "yeni_f": "...", "sahip": "...", "kaynak": "..."}` alanı ekle
+         (F-GERİ listesi bundan toplanır).
+   - Yerleşim dönem başında yoksa (f ileri gider) eski kural geçerli: ONERI ile kırp.
+6f. Bölge kaynak ipuçları (5 Kasım gece, HAVVA ve UMIT turlarından):
+   - Brezilya: cidades.ibge 403; ama `biblioteca.ibge.gov.br/visualizacao/dtb/<eyalet>/<belediye>.pdf`
+     belediye tarihçesi PDF'leri açılır (UMIT r8_106'da 8/8 KAYNAKLI). PDF'i sayfa.py oku ile çek.
+   - Meksika: INAH Ollin, UNAM-IIH (historicas.unam.mx). And: Revista del AGN Perú.
+   - Kanada: DCB (biographi.ca), Justice Canada Order in Council metinleri, Parks Canada.
+   - Kapalı: Te Ara / NZ History / DNZB / ADB (robots), banrepcultural (bot kalkanı), Florida Memory (robots),
+     thecanadianencyclopedia.ca (robots), bigenc.ru (401), Britannica (403).
 7. Bitince kısa özet: yerleşim sayısı, KAYNAKLI / ONERI / BULUNAMADI / BAKILMADI sayıları, öne çıkan ONERI'ler.

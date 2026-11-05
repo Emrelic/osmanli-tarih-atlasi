@@ -1,0 +1,261 @@
+{
+ "Bijeljina": [
+  {
+   "sira": 2655,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "d",
+   "d": "",
+   "f": "1533-01-01",
+   "t": "1908-10-05",
+   "mevcut_kaynak": "Adem Handžić, 'The Origins and Development of Bijeljina in the 16th Century', Prilozi za orijentalnu filologiju 36, s. 277-312 (ilçe c. 1520'de Osmanlı hâkimiye"
+  },
+  {
+   "sira": 2656,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1908-10-05",
+   "t": "1918-11-11",
+   "mevcut_kaynak": "Bosna ilhakı 1908-10-05; komşu Tuzla/İzvornik zinciriyle aynı (atlas emsali, ayrı kaynak BORÇ)"
+  },
+  {
+   "sira": 2657,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sirbistan-kralligi",
+   "f": "1918-11-11",
+   "t": "1918-12-01",
+   "mevcut_kaynak": "komşu Tuzla zinciri emsali"
+  },
+  {
+   "sira": 2658,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1918-12-01",
+   "t": "1941-04-10",
+   "mevcut_kaynak": "komşu Tuzla zinciri emsali"
+  },
+  {
+   "sira": 2659,
+   "sinif": "DIGER",
+   "alan": "isg",
+   "d": "avusturya",
+   "f": "1878-07-29",
+   "t": "1908-10-05",
+   "mevcut_kaynak": "berlin-antlasmasi"
+  },
+  {
+   "sira": 2660,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bosna-sirp-cumhuriyeti",
+   "f": "1992-01-09",
+   "t": "1995-12-14",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2661,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "hirvatistan-bagimsiz",
+   "f": "1941-04-10",
+   "t": "1945-05-31",
+   "mevcut_kaynak": "NDH Bosna'yı kapsadı; komşu Tuzla zinciri emsali (Z5-1008)"
+  },
+  {
+   "sira": 2662,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1945-05-31",
+   "t": "1945-11-29",
+   "mevcut_kaynak": "komşu Tuzla zinciri emsali; 1945-11-29 FHC ilanı (künye yugoslavya-federal f)"
+  }
+ ],
+ "Gölköy (Habsamana)": [
+  {
+   "sira": 2663,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "haciemir",
+   "f": "1350-01-01",
+   "t": "1427-06-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Hacıemîroğulları Beyliği'nin ilhakı — Ordu ve Ünye» (142"
+  },
+  {
+   "sira": 2664,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "trabzon-rum",
+   "f": "1281-01-01",
+   "t": "1350-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2666,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1427-06-01",
+   "t": "1920-04-23",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2667,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1398-06-01",
+   "t": "1402-07-28",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Ayaş": [
+  {
+   "sira": 2668,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "timurlu",
+   "f": "1402-07-28",
+   "t": "1404-03-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Ankara Savaşı — Fetret Devri başladı» (1402-07-28, yer ko"
+  },
+  {
+   "sira": 2669,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mehmed-celebi",
+   "f": "1404-03-01",
+   "t": "1406-01-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Emîr Süleyman Ankara'yı Çelebi Mehmed'den aldı» (1406-01"
+  },
+  {
+   "sira": 2670,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1406-01-01",
+   "t": "1410-05-06",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Emîr Süleyman Ankara'yı Çelebi Mehmed'den aldı» (1406-01-"
+  },
+  {
+   "sira": 2671,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mehmed-celebi",
+   "f": "1410-05-06",
+   "t": "1413-07-05",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Çelebi Mehmed Bursa ve Ankara'yı yeniden aldı — Anadolu p"
+  },
+  {
+   "sira": 2673,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1413-07-05",
+   "t": "1920-04-23",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Varzuga": [
+  {
+   "sira": 2677,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Volodymyr-Volynskyi (Włodzimierz)": [
+  {
+   "sira": 2680,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1795-10-24",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm"
+  },
+  {
+   "sira": 2683,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "lehistan",
+   "f": "1569-07-01",
+   "t": "1795-10-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2684,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kiev-rusu",
+   "f": "0988-01-01",
+   "t": "1199-01-01",
+   "mevcut_kaynak": "Encyclopedia of Ukraine (CIUS) 'Volhynia' (encyclopediaofukraine.com/display.asp?linkpath=pages%5CV%5CO%5CVolhynia.htm): Volodymyr-Volynskyi’yi 988’de Büyük Kne"
+  }
+ ],
+ "Abalessa": [
+  {
+   "sira": 2686,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tuareg-ahaggar",
+   "f": "1281-01-01",
+   "t": "1902-05-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Tit Muharebesi — Ahaggar Tuaregi Fransız kuvvetlerine ye"
+  },
+  {
+   "sira": 2687,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1902-05-07",
+   "t": "1962-07-05",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Tit Muharebesi — Ahaggar Tuaregi Fransız kuvvetlerine yen"
+  }
+ ],
+ "Vûr": [
+  {
+   "sira": 2688,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1914-01-01",
+   "t": "1960-08-11",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransiz Cadi (Ndjamena, Abeshe, Sarh, Mundu) bagimsiz Ca"
+  },
+  {
+   "sira": 2689,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tubu-tibesti",
+   "f": "1281-01-01",
+   "t": "1914-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Arlit": [
+  {
+   "sira": 2690,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1906-01-01",
+   "t": "1960-08-03",
+   "mevcut_kaynak": "ABİ MERKEZ: Agadez (TDV nijer: «Fransızlar, Agâdes’i işgal edip … (1906)»; Aïr bölgesi ABİ MERKEZ Agadez’den devralındı)"
+  },
+  {
+   "sira": 2691,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tuareg-air",
+   "f": "1405-01-01",
+   "t": "1906-01-01",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

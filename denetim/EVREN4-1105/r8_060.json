@@ -1,0 +1,162 @@
+{
+ "Maribor (Marburg)": [
+  {
+   "sira": 2946,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1918-11-11",
+   "t": "1945-11-29",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İmparator I. Karl devlet işlerine katılmaktan vazgeçtiğin"
+  }
+ ],
+ "Ptuj (Pettau)": [
+  {
+   "sira": 2947,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1918-11-11",
+   "t": "1945-11-29",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «İmparator I. Karl devlet işlerine katılmaktan vazgeçtiğin"
+  },
+  {
+   "sira": 2948,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1555-01-01",
+   "t": "1918-11-11",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Ston": [
+  {
+   "sira": 2949,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "venedik",
+   "f": "1333-01-01",
+   "t": "1358-02-18",
+   "mevcut_kaynak": "HE 'Ston': '1333., zajedno s Pelješcem, došlo u posjed Dubrovačke Republike'; HE 'Pelješac': 1333 satın alma (YIL — gün bulunamadı). ABİ MERKEZ: Dubrovnik — atl"
+  },
+  {
+   "sira": 2950,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "macaristan",
+   "f": "1358-02-18",
+   "t": "1459-03-07",
+   "mevcut_kaynak": "ABİ MERKEZ: Dubrovnik — HE 'Dubrovačka Republika': Macar himayesi 1358 (Višegrad, 27.V.1358; atlas Dubrovnik 1358-02-18 Zadar barışı gününü kullanıyor) · zincir"
+  },
+  {
+   "sira": 2952,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1806-05-27",
+   "t": "1814-01-28",
+   "mevcut_kaynak": "gün komşudan: Dubrovnik (27.V.1806 Fransız zaptı, HE 'Dubrovačka Republika'; HE 'Pelješac': 1808 sonrası Fransız idaresi) · BEYAN: HE Pelješac Fransız idaresini"
+  },
+  {
+   "sira": 2953,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "avusturya",
+   "f": "1814-01-28",
+   "t": "1918-11-11",
+   "mevcut_kaynak": "gün komşudan: Dubrovnik (F. Bona, Kolo 2/2008; olaylar_p0050.js) · HE 'Pelješac': 1815 Habsburg, Dalmaçya Krallığı Dubrovnik çevresi"
+  },
+  {
+   "sira": 2954,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "yugoslavya",
+   "f": "1918-11-11",
+   "t": "1945-11-29",
+   "mevcut_kaynak": "gün komşudan: Dubrovnik (HE Pelješac: Yugoslavya içinde; İtalyan işgali Pelješac için ANILMIYOR)"
+  }
+ ],
+ "Simancas": [
+  {
+   "sira": 2956,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1000-01-01",
+   "t": "1085-01-01",
+   "mevcut_kaynak": "Treccani online Simancas «conquistata una prima volta ai musulmani da Alfonso III di León» | Treccani Enciclopedia Italiana (1936) SIMANCAS «nei suoi pressi Ram"
+  }
+ ],
+ "Santa Cruz de La Palma": [
+  {
+   "sira": 2958,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1493-05-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "J. S. López García, 'Urbanismo y arquitectura de una ciudad marítima: Santa Cruz de La Palma ...', TEBETO Anexo 7, Puerto del Rosario 2014, pp. 19-42 (dialnet.u"
+  },
+  {
+   "sira": 2959,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "guanche-politileri",
+   "f": "1000-01-01",
+   "t": "1493-05-03",
+   "mevcut_kaynak": "YEREL POLİTİ (guanche-politileri; boya kimliği denetim/BOYA-ATLANTIK-KUZEY-1029.tsv ile bekliyor): La Palma'nın Benahoare cantón'ları (Guanche politisi) BOYALAR"
+  }
+ ],
+ "Valverde (El Hierro)": [
+  {
+   "sira": 2961,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1000-01-01",
+   "t": "1479-01-19",
+   "mevcut_kaynak": "BOŞLUK BEYANI: El Hierro'nun Bimbape politisi BOYALAR dışı; señorío dönemi tarihlenemedi (La Gomera ile aynı gerekçe). f 1000-01-01 UFUK SINIR İŞARETİDİR."
+  }
+ ],
+ "Malabo (Santa Isabel)": [
+  {
+   "sira": 2962,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1472-01-01",
+   "t": "1778-03-11",
+   "mevcut_kaynak": "Nominal Portekiz iddiası: keşif 1472 (Britannica); San Ildefonso 1 Ekim 1777 ve El Pardo 11 Mart 1778 devri (ES: Revista General de Marina Aralık 2012 'La cruz "
+  },
+  {
+   "sira": 2963,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1778-03-11",
+   "t": "1968-10-12",
+   "mevcut_kaynak": "El Pardo 11 Mart 1778 (yukarıdaki kaynaklar). 🔴 BEYANLI YAKLAŞIKLIK: Nisan 1778 Argelejo seferi başarısız; İngiliz Port Clarence girişimi 1827-1833 (RGM: «Entre"
+  },
+  {
+   "sira": 2964,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ekvator-ginesi",
+   "f": "1968-10-12",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "ekvator-ginesi künyesi (f 1968-10-12)."
+  }
+ ],
+ "Port Blair (Andaman)": [
+  {
+   "sira": 2966,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1858-01-01",
+   "t": "1947-08-15",
+   "mevcut_kaynak": "Andaman'da İngiliz cezaevi kolonisi 1858'de (Isyan sonrası) kuruldu; 1789'daki Blair ilk yerleşimi 1796'da terk edildi. 1858 öncesi adalar yerli (Andamanlı) top"
+  }
+ ]
+}

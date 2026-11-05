@@ -1,0 +1,297 @@
+{
+ "Amritsar": [
+  {
+   "sira": 3263,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1577-01-01",
+   "t": "1752-04-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3264,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "afgan-durrani",
+   "f": "1752-04-01",
+   "t": "1765-04-16",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3265,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sih-imparatorlugu",
+   "f": "1765-04-16",
+   "t": "1849-03-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3266,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1849-03-29",
+   "t": "1947-08-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bahâvelpûr": [
+  {
+   "sira": 3268,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bahavelpur",
+   "f": "1748-01-01",
+   "t": "1955-10-14",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Çitor (Chittorgarh)": [
+  {
+   "sira": 3269,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "racput",
+   "f": "1281-01-01",
+   "t": "1303-08-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3270,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "delhi-sultanligi",
+   "f": "1303-08-26",
+   "t": "1311-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3271,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "racput",
+   "f": "1311-01-01",
+   "t": "1535-03-08",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3272,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gucerat-sultanligi",
+   "f": "1535-03-08",
+   "t": "1537-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3273,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "racput",
+   "f": "1537-01-01",
+   "t": "1568-02-23",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3274,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1568-02-23",
+   "t": "1615-02-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3275,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "racput",
+   "f": "1615-02-05",
+   "t": "1948-04-18",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "İndor (Indore)": [
+  {
+   "sira": 3276,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1715-01-01",
+   "t": "1732-07-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3277,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "indor",
+   "f": "1732-07-29",
+   "t": "1948-05-28",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bhopâl": [
+  {
+   "sira": 3278,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bhopal",
+   "f": "1707-01-01",
+   "t": "1949-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3279,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "bhopal-eyaleti-1949",
+   "f": "1949-06-01",
+   "t": "1956-11-01",
+   "mevcut_kaynak": "tsv künye bhopal-eyaleti-1949"
+  }
+ ],
+ "Haydarâbâd (Dekken)": [
+  {
+   "sira": 3280,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "golkonda",
+   "f": "1591-01-01",
+   "t": "1687-09-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3281,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "babur-imparatorlugu",
+   "f": "1687-09-21",
+   "t": "1724-10-11",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3282,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "haydarabad-nizam",
+   "f": "1724-10-11",
+   "t": "1948-09-17",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kobdo (Hovd)": [
+  {
+   "sira": 3285,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1635-01-01",
+   "t": "1755-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3286,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1755-01-01",
+   "t": "1912-08-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3287,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mogolistan",
+   "f": "1912-08-20",
+   "t": "1924-11-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3288,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mogolistan-halk-cumhuriyeti",
+   "f": "1924-11-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mogolistan-halk-cumhuriyeti f ucunun kaynağı — TDV mogolistan — '...26 Kasım 1924'te Moğolistan Halk Cumhuriy"
+  }
+ ],
+ "Battambang": [
+  {
+   "sira": 3289,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "angkor-kmer",
+   "f": "1281-01-01",
+   "t": "1431-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3290,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kamboc-kralligi",
+   "f": "1431-01-01",
+   "t": "1795-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3291,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "siyam-chakri",
+   "f": "1795-01-01",
+   "t": "1907-03-23",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3292,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransiz-cinhindi",
+   "f": "1907-03-23",
+   "t": "1953-11-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3293,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "funan",
+   "f": "0500-01-01",
+   "t": "0550-01-01",
+   "mevcut_kaynak": "SAHİP: funan (BOYALAR'da mevcut; BOŞLUK BEYANI karşılandı, 27 Ekim 2026 — beyanlı yaklaşıklık aşağıdaki kaynakla) · Coedès, G., The Indianized States of Southea"
+  },
+  {
+   "sira": 3294,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "chenla",
+   "f": "0550-01-01",
+   "t": "0802-01-01",
+   "mevcut_kaynak": "SAHİP BEYANLI: chenla (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S."
+  },
+  {
+   "sira": 3295,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "angkor-kmer",
+   "f": "0802-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Coedès, G., The Indianized States of Southeast Asia, ed. W. F. Vella, çev. S. B. Cowing (Honolulu: East-West Center Press, 1968); archive.org/details/theindiani"
+  },
+  {
+   "sira": 3296,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "demokratik-kampucya",
+   "f": "1975-04-17",
+   "t": "1979-01-07",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye demokratik-kampucya f ucunun kaynağı — DC-Cam DK Anayasası (d.dccam.org); Marxists.org anayasa metni 5.1.1976"
+  }
+ ]
+}

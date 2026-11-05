@@ -1,0 +1,162 @@
+{
+ "Fort Liard": [
+  {
+   "sira": 2522,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1805-01-01",
+   "t": "1870-07-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Rupert's Land Kanada'ya devredildi — 49. paralel sınırı "
+  }
+ ],
+ "Fort Nelson (BC)": [
+  {
+   "sira": 2524,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1805-01-01",
+   "t": "1871-07-20",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Britanya Kolumbiyası Kanada'ya katıldı — Pasifik kesimin"
+  },
+  {
+   "sira": 2525,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1871-07-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "British Columbia Terms of Union (Konsey kararı 16.05.1871; Justice Canada, Constitution Enactment No. 4): 'from and after the twentieth day of July, one thousan"
+  }
+ ],
+ "Dease Lake": [
+  {
+   "sira": 2526,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1838-01-01",
+   "t": "1871-07-20",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Britanya Kolumbiyası Kanada'ya katıldı — Pasifik kesimin"
+  },
+  {
+   "sira": 2527,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1871-07-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "British Columbia Terms of Union (Konsey kararı 16.05.1871; Justice Canada, Constitution Enactment No. 4): 'from and after the twentieth day of July, one thousan"
+  }
+ ],
+ "Hebron (Labrador)": [
+  {
+   "sira": 2528,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "newfoundland-dominyonu",
+   "f": "1855-01-01",
+   "t": "1934-02-16",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye newfoundland-dominyonu t ucunun kaynağı — f: heritage.nf.ca (Memorial University of Newfoundland, 'Responsibl"
+  },
+  {
+   "sira": 2529,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1830-01-01",
+   "t": "1855-01-01",
+   "mevcut_kaynak": "Labrador Newfoundland kolonisine aitti ve 1867'de Kanada'ya KATILMADI; gerçek devir 1949 (Newfoundland'ın Kanada'ya katılışı) — VERI_UFKU (1281-1923) DIŞI ⇒ t ="
+  },
+  {
+   "sira": 2530,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "newfoundland-komisyon-hukumeti",
+   "f": "1934-02-16",
+   "t": "1949-03-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye newfoundland-komisyon-hukumeti f ucunun kaynağı — https://www.thecanadianencyclopedia.ca/en/article/newfoundl"
+  }
+ ],
+ "Nain (Labrador)": [
+  {
+   "sira": 2531,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "newfoundland-dominyonu",
+   "f": "1855-01-01",
+   "t": "1934-02-16",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye newfoundland-dominyonu t ucunun kaynağı — f: heritage.nf.ca (Memorial University of Newfoundland, 'Responsibl"
+  },
+  {
+   "sira": 2532,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1771-01-01",
+   "t": "1855-01-01",
+   "mevcut_kaynak": "Labrador Newfoundland kolonisine aitti ve 1867'de Kanada'ya KATILMADI; gerçek devir 1949 (Newfoundland'ın Kanada'ya katılışı) — VERI_UFKU (1281-1923) DIŞI ⇒ t ="
+  },
+  {
+   "sira": 2533,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "newfoundland-komisyon-hukumeti",
+   "f": "1934-02-16",
+   "t": "1949-03-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye newfoundland-komisyon-hukumeti f ucunun kaynağı — https://www.thecanadianencyclopedia.ca/en/article/newfoundl"
+  }
+ ],
+ "Nelson House (Nisichawayasihk)": [
+  {
+   "sira": 2534,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1802-01-01",
+   "t": "1870-07-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Rupert's Land Kanada'ya devredildi — 49. paralel sınırı "
+  }
+ ],
+ "Hopedale (Agvituk)": [
+  {
+   "sira": 2536,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "newfoundland-dominyonu",
+   "f": "1855-01-01",
+   "t": "1934-02-16",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye newfoundland-dominyonu t ucunun kaynağı — f: heritage.nf.ca (Memorial University of Newfoundland, 'Responsibl"
+  },
+  {
+   "sira": 2537,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1782-01-01",
+   "t": "1855-01-01",
+   "mevcut_kaynak": "Labrador Newfoundland kolonisine aitti ve 1867'de Kanada'ya KATILMADI; gerçek devir 1949 (Newfoundland'ın Kanada'ya katılışı) — VERI_UFKU (1281-1923) DIŞI ⇒ t ="
+  },
+  {
+   "sira": 2538,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "newfoundland-komisyon-hukumeti",
+   "f": "1934-02-16",
+   "t": "1949-03-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye newfoundland-komisyon-hukumeti f ucunun kaynağı — https://www.thecanadianencyclopedia.ca/en/article/newfoundl"
+  }
+ ],
+ "Lac la Ronge": [
+  {
+   "sira": 2539,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1782-01-01",
+   "t": "1870-07-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Rupert's Land Kanada'ya devredildi — 49. paralel sınırı "
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "SG̱ang Gwaay (Ninstints)": [
+  {"sira": 2561, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1858-08-02", "t": "1871-07-20",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: 21 & 22 Vict. c.99 'An Act to provide for the Government of British Columbia' [2nd August, 1858], metin: Wikisource 'Proclamation of the Colony of British Columbia' (Douglas ilanı içinde Yasa metni) https://en.wikisource.org/wiki/Proclamation_of_the_Colony_of_British_Columbia ; t: British Columbia Terms of Union / Order in Council, Justice Canada Enactment No. 4 https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "f: shall include Queen Charlotte's Island, and all other Islands adjacent to the said Territories || t: from and after the twentieth day of July, one thousand eight hundred and seventy-one",
+   "oneri": {},
+   "not": "ÖLÇÜT: idareye katma — 1858 Yasası British Columbia kolonisinin sınırlarına Queen Charlotte's Island'ı (Haida Gwaii) açıkça dahil eder; yasa gün olarak 2 Ağustos 1858. t: Kolonisi (Haida Gwaii dahil) 1871-07-20'de Kanada'ya katıldı (ülke/koloni düzeyi; Haida Gwaii'ye özgü ayrı bir madde yok). IC_NOT: Haida Gwaii için ayrı 'Queen Charlotte Islands Kolonisi' 1853'te kâğıt üzerinde kuruldu (Vali Douglas Lt-Gov; BC Yasama Meclisi sayfası https://www.leg.bc.ca/node/794) ve 1863'te BC'ye katıldı (26&27 Vict. c.83 atfı ikincil kaynaklardan; birincil metni okumadım). Britanya iddiası Haida'ca hiçbir zaman devredilmedi; fiilî idare ve Haida egemenliği tartışmalı. Atlas günü (1858-08-02) yasanın günüdür; fiilî Britanya idaresinin Ninstints'e ulaşma günü ayrı sorudur. Ayrıca köy 1880'lerde terk edildi (Parks Canada: 1880'lere kadar hastalık nüfusu yok etti)."},
+  {"sira": 2562, "dosya_satir": "", "alan": "s", "d": "hayda", "f": "1281-01-01", "t": "1858-08-02",
+   "hukum": "KAYNAKLI", "uc": "t",
+   "kaynak": "t: 21 & 22 Vict. c.99 [2nd August, 1858], Wikisource metni https://en.wikisource.org/wiki/Proclamation_of_the_Colony_of_British_Columbia ; f varlığı: Parks Canada, SG̱ang Gwaay (UNESCO listesi sayfası) https://www.parks.canada.ca/culture/spm-whs/sites-canada/sec02f",
+   "alinti": "t: shall include Queen Charlotte's Island, and all other Islands adjacent to the said Territories || f: The Haida lived on SG̱ang Gwaay for thousands of years",
+   "oneri": {},
+   "not": "t ucu 1858 Yasası ile (2 Ağustos 1858) Haida Gwaii'nin BC kolonisine dahil edilmesidir; atlasın s:-ingiliz dönemi ile aynı gün, tutarlı. f ucu: 1281-01-01 atlasın kapsam başlangıcıdır; Parks Canada sitede 'binlerce yıl' Haida yerleşimi der (kalıntılar için 12.000 yıllık kullanım ifadesi de var), yani 1281'de yerleşim vardı; ancak 'Ninstints' adlı köyün 1281'deki tam durumu ve gün düzeyi kaynaksız (öteki uç gün olarak teyitsiz, varlık yıl düzeyinde). Haida hukukî olarak devir yapmadı; ele alış Britanya tek taraflı iddiası (TEK KURAL: ilhak gününden s:)."},
+  {"sira": 2563, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1871-07-20", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "British Columbia Terms of Union / Order in Council, Justice Canada Enactment No. 4 https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t41.html",
+   "alinti": "from and after the twentieth day of July, one thousand eight hundred and seventy-one, the said Colony of British Columbia shall be admitted",
+   "oneri": {},
+   "not": "ÖLÇÜT: idareye katma — Colony of British Columbia (Haida Gwaii dahil) 20 Temmuz 1871'den itibaren Dominion'un parçası (ülke/eyalet düzeyi). t=2000-12-31 atlasın yapay bitişidir, kaynakla teyit edilmez (öteki uç teyitsiz). SG̱ang Gwaay köyü 1880'lerde boşaldı (Parks Canada); toprak Kanada'da kaldı."}
+ ],
+ "Nemiscau": [
+  {"sira": 2565, "dosya_satir": "", "alan": "s", "d": "fransa", "f": "1661-01-01", "t": "1763-02-10",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "f: Dictionary of Canadian Biography, 'ALBANEL, Charles' https://www.biographi.ca/en/bio/albanel_charles_1E.html ; t: Treaty of Paris 1763, Yale Avalon, md. IV https://avalon.law.yale.edu/18th_century/paris763.asp ; yerel tarihçe (ipucu): https://nemaska.com/about-us/",
+   "alinti": "f: Three days later the group raised the arms of the king of France at Lake Nemiskau || t: cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies",
+   "oneri": {"f": "1672-07-09", "t": "1763-02-10", "d": "fransa"},
+   "not": "f: 1661'e dair kaynak bulunamadı. DCB Albanel: 1672'de Albanel Mistassini'den Nemiskau Gölü'ne 25 Haziran'da vardı; 6 Temmuz'da dönüşe çıktı ve 'üç gün sonra' (türetilmiş: 6+3 = 9 Temmuz 1672) Fransa kralının armaları Nemiskau'da dikildi. Bu sembolik sahiplenmedir (ÖLÇÜT: geçici/askerî değil ama idareye katma belgesi de değil: tahrir/vergi/idarî birim belgesi yok) — dolayısıyla 1672-07-09 yalnız ilk belgelenmiş Fransız sahiplenme günüdür; yerleşimde kalıcı Fransız postu kaynağı bulunamadı. Nemaska Cree Nation sitesi (ipucu) Avrupalı kürk tüccarlarının 'yaklaşık 1663'te' geldiğini söyler. t: Paris 1763-02-10 imza günüdür; ülke düzeyi (Kanada ve bağımlılıkları; Nemiscau'nun ayrıca adı geçmez) — ÜLKE DÜZEYİ. 1713 Utrecht ile Hudson Körfezi'nin Britanya'ya geçişi Nemiscau'yu etkiler mi, bakılmadı."}
+ ],
+ "Osnaburgh House": [
+  {"sira": 2567, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1786-01-01", "t": "1870-07-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: Dictionary of Canadian Biography, 'ZHEEWEGONAB' https://www.biographi.ca/en/bio/zheewegonab_5E.html ; t: Rupert's Land and North-Western Territory Order (Justice Canada, Enactment No. 3) https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "f: established close to the east end of Lake St Joseph in the summer of 1786 || t: from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "f YIL düzeyi (yaz 1786, gün yok; Ontario Heritage Trust levhası de 1786, John Best — ipucu). t: Konsey Kararı 22/23 Haziran 1870'te alındı, yürürlük 15 Temmuz 1870 (de jure devir; TEK KURAL). ÜLKE DÜZEYİ (Rupert's Land/NW Territory bütünü). ÖLÇÜT: idareye katma — Kanada Parlamentosu 15 Temmuz'dan itibaren yasama yetkisi alır."}
+ ],
+ "Fort Qu'Appelle": [
+  {"sira": 2569, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1864-01-01", "t": "1870-07-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: Encyclopedia of Saskatchewan (Univ. of Regina), 'Fort Qu'Appelle' https://www.esask.uregina.ca/entry/fort_quappelle.html ; t: Rupert's Land and North-Western Territory Order, Justice Canada https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "f: the Hudson's Bay Company built a post at Fort Qu'Appelle in 1864 || t: from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "f YIL düzeyi (gün yok). Not: Heritage kaynaklarına göre HBC, 1864'ten önce yakınlarda (Troy / Qu'Appelle Gölleri) 1850'lerden beri bir kış postu işletiyordu (Parks Canada ipucu, sayfayı tam okumadım) — 1864 mevcut posta geçişin yılıdır. Ansiklopedi bölgesel akademik (Regina Üniv.), ulusal değil: istenirse ONERI-güçlü sayılabilir. t ülke düzeyi (ÜLKE DÜZEYİ), de jure devir 1870-07-15."}
+ ],
+ "Fort Alexander (Bas-de-la-Rivière)": [
+  {"sira": 2571, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1792-01-01", "t": "1870-07-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: Manitoba Historical Society, 'Fort Maurepas Monument (Fort Alexander)' https://www.mhs.mb.ca/docs/sites/fortmaurepas.shtml ve MHS Manitoba Pageant 23, 'Historic Bas de la Rivière, Part 1' (Lesieur 1792-93 sezonunda postu kurdu) http://www.mhs.mb.ca/docs/pageant/23/basdelariviere1.shtml ; t: Rupert's Land and North-Western Territory Order, Justice Canada https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "f: both the North West Company and the Hudson's Bay Company built fur-trade posts in this area in 1792 || t: from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "f YIL düzeyi. NOT: 1792 postu Kuzeybatı Şirketi (Montréal) postudur, HBC değil; HBC rakip postu 1790'larda kısa süre, 1822'den sonra yeniden. Süreklilik/devlet kimliği ('ingiliz-kuzey-amerika') ülke düzeyi kabulüdür. MHS bölgesel tarih derneğidir, ulusal akademik ansiklopedi değildir (6e kapsamı dışı, ticari de değil). t: ÜLKE DÜZEYİ, 15 Temmuz 1870 de jure devir (Kızıl Irmak/Manitoba bölgesinde Riel geçici hükümeti Ağustos 1870'e kadar fiilî; fiilî teslim ayrı soru)."}
+ ],
+ "Mingan": [
+  {"sira": 2574, "dosya_satir": "", "alan": "s", "d": "kanada", "f": "1867-07-01", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "Queen's Proclamation of Union, 22 May 1867 (metin: primarydocuments.ca) https://primarydocuments.ca/a-proclamation-for-uniting-the-provinces-of-canada-nova-scotia-and-new-brunswick-into-one-dominion-under-the-name-of-canada/",
+   "alinti": "on and after the first day of July, one thousand eight hundred and sixty – seven",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Proclamation Canada, Nova Scotia ve New Brunswick'i 1 Temmuz 1867'den itibaren tek Dominion yapar; Mingan o gün Quebec eyaletinde Kanada'dadır (Canada Province → Quebec). t=2000-12-31 yapay bitiş, kaynakla teyit edilmez (öteki uç teyitsiz)."},
+  {"sira": 2575, "dosya_satir": "", "alan": "s", "d": "fransa", "f": "1679-01-01", "t": "1763-02-10",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "f: Dictionary of Canadian Biography, 'JOLLIET, LOUIS' https://www.biographi.ca/en/bio/jolliet_louis_1E.html ve 'BYSSOT DE LA RIVIÈRE, FRANÇOIS' https://www.biographi.ca/en/bio/byssot_de_la_riviere_francois_1E.html ; t: Treaty of Paris 1763, md. IV, Yale Avalon https://avalon.law.yale.edu/18th_century/paris763.asp",
+   "alinti": "f: Duchesneau had granted him, in joint ownership with Jacques de Lalande, the Mingan islands || t: cedes and guaranties to his said Britannick Majesty, in full right, Canada",
+   "oneri": {"f": "1679-03-10", "t": "1763-02-10", "d": "fransa"},
+   "not": "f: DCB Jolliet: İntendant Duchesneau 10 Mart 1679'da Mingan adaları ve adacıklarını Jolliet ile Lalande'a müşterek seigneury verdi (ÖLÇÜT: idareye katma — Fransız taç idaresinin seigneury tahsisi). Atlasın 1679-01-01 günü 10 Mart'a inmeli. Daha eski: DCB Byssot, 25 Şubat 1661'de Cent-Associés'nin Isle aux Oeufs–Sept-Îles–Grande Anse arası arazi tahsisi ve 'Mingan'da bir post' der, ama DCB 'belge teyidi yok' diye şüphe düşer — 1661 teyitsiz; 1679 daha sağlam. t: Paris antlaşması imza günü 10 Şubat 1763, md. IV Kanada ve 'körfez ve St. Lawrence ırmağındaki öteki adalar ve kıyılar'ı devreder — ÜLKE DÜZEYİ. IC_NOT: DCB Grant: 1763-74 arası Labrador kıyısı Newfoundland yargı alanındaydı, 1774'te Quebec'e döndü (Mingan'ın bu dönemde statüsü ayrı soru)."}
+ ],
+ "Fort Garry (Kızıl Irmak Kolonisi)": [
+  {"sira": 2576, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1812-01-01", "t": "1870-07-15",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "f: Dictionary of Canadian Biography, 'MACDONELL, MILES' https://www.biographi.ca/en/bio/macdonell_miles_6E.html ; t: Rupert's Land and North-Western Territory Order, Justice Canada https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "f: The boats arrived at the junction of the Red and Assiniboine rivers on 30 August. || t: from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {"f": "1812-08-30", "t": "1870-07-15", "d": "ingiliz-kuzey-amerika"},
+   "not": "f: DCB Macdonell: Selkirk'in atadığı Assiniboia valisi Macdonell'ın öncü grubu 1812-08-30'da Kızıl ve Assiniboine nehirlerinin birleştiği yere vardı ('Ice ... 22 June 1812. On 6 July he started up the Hayes River' bağlamıyla yıl 1812). İlk yerleşimciler 27 Ekim 1812'de Pembina'ya geldi. Atlasın 01-01 günü 08-30'a inmeli. Not: 'Fort Garry' adlı HBC kalesi 1822'de (Upper Fort Garry) kuruldu, 1812'de yer Fort Douglas/Fort Gibraltar (NWC) idi; yerleşim adı atlasta kolonidir. Assiniboia 1811 Selkirk/HBC tahsisi (Haziran 1811, DCB) ayrı bir daha erken olası f. t: ÜLKE DÜZEYİ; de jure 1870-07-15 (Manitoba Act 12 Mayıs 1870 de aynı güne bağlar). Fiilî: Riel geçici hükümeti Fort Garry'yi Ağustos 1870'e kadar tuttu (kaynağı okumadım)."}
+ ],
+ "Waswanipi": [
+  {"sira": 2578, "dosya_satir": "", "alan": "s", "d": "ingiliz-kuzey-amerika", "f": "1794-01-01", "t": "1870-07-15",
+   "hukum": "KAYNAKLI", "uc": "t",
+   "kaynak": "t: Rupert's Land and North-Western Territory Order, Justice Canada https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html ; f için bakılan: DCB 'HARDISTY, William Lucas' https://www.biographi.ca/en/bio/hardisty_william_lucas_11E.html",
+   "alinti": "t: Rupert's Land shall from and after the said date be admitted into and become part of the Dominion of Canada",
+   "oneri": {},
+   "not": "t: ÜLKE DÜZEYİ, de jure 1870-07-15. f=1794 TEYİTSİZ: DCB Hardisty yalnızca HBC'nin Waswanipi House'unun (Waswinipi Gölü, Rupert River bölgesi) c.1822'de var olduğunu gösterir (b. c.1822 probably at Waswanipi House); 1794 için DCB ve MHS aramalarında tanıklık çıkmadı. Ipucu (kaynak değil): northamericanforts 'önceki post 1819', HBC Waswanipi House 1822-1941 (1821 birleşmesinde NWC postu devralındı). Dolayısıyla f 1794 desteksiz, 1819-1822 bandı ONERI-zayıf (yıl düzeyi, yalnız ipucu). Öteki uç teyitsiz."}
+ ]
+}
