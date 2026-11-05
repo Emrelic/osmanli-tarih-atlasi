@@ -15,13 +15,14 @@
     "d": "yeni-granada-valiligi (1717-05-27 sonrası dilim); 1612-1717 arası Peru Genel Valiliği (Quito Audiencia'sı) kalabilir",
     "f": "1612-01-01 (kuruluş 1600-04-06 Parada y Zúñiga; 1612 resmîleştirme — hangisinin sahiplik başı olduğu teyitsiz)"
    },
-   "not": "LAB SALI (03a82fb68, 5 Kasım 2026): Yeni Granada 1723-1739: künye BÖLÜNMEZ (aynı Santa Fe merkezli birim; yalnız unvan askıda) → ic_not. Barbacoas yeni-granada-valiligi'nde kalır. · EMRELİC (5 Kasım 2026, r8_105–110): 1717–1810 dilimi yeni-granada-valiligi künyesine (devletler.js:10606) taşınır. Valilik 1723'te kaldırılıp 1739'da yeniden kuruldu; künye tek parça (1717-05-27 → 1810-07-20) — aradaki kopukluk LAB'a künye sorusu. 1810-07-20 → 1819-12-17 dilimi ayrıca kaynakla (bağımsızlık savaşı). · ALINTI VIKIPEDI (es), KAYNAKLI SAYILMAZ. Künye sorunu: Barbacoas Quito Audiencia'sındadır; Quito 1717'den (kalıcı 1739) Yeni Granada Genel Valiliği'ne geçti; atlasta bu satır tüm 1612-1819'u 'ispanyol-peru' yazıyor. Künye yeni-granada-valiligi f1717-05-27 t1810-07-20 mevcut (devletler.js:10606). Ayrıca Barbacoas/Pasto-Quito bölgesi 1819-12-17'de (Angostura yasası) patriotların elinde değildi: es-Vikipedi Gran Colombia 'liberación no alcanzó a Pasto' + Quito Pichincha 1822-05-24 -> gran-kolombiya f 1819-12-17 Barbacoas için erken; bölge ancak 1822 sonrası (ic. Pasto 1822-12) — gün teyitsiz. Bakılmadı: Credencial Historia, Banrep, Atlas Geográfico de Colombia.",
+   "not": "EMRELİC (5 Kasım 2026): Yeni Granada bölmesi KASA YG listesinde (origin/kasa-1104-kronoloji: denetim/EVREN4-1105/e4_KASA_YG.json, 42 yerleşim); BURADA UYGULANMAZ — mükerrer öneri değildir, KASA esas. Yeni Granada dışı kararlar (F-GERI, 1810–19 cunta/eyaletler künye sorusu) bu dosyada geçerli. · LAB SALI (03a82fb68, 5 Kasım 2026): Yeni Granada 1723-1739: künye BÖLÜNMEZ (aynı Santa Fe merkezli birim; yalnız unvan askıda) → ic_not. Barbacoas yeni-granada-valiligi'nde kalır. · EMRELİC (5 Kasım 2026, r8_105–110): 1717–1810 dilimi yeni-granada-valiligi künyesine (devletler.js:10606) taşınır. Valilik 1723'te kaldırılıp 1739'da yeniden kuruldu; künye tek parça (1717-05-27 → 1810-07-20) — aradaki kopukluk LAB'a künye sorusu. 1810-07-20 → 1819-12-17 dilimi ayrıca kaynakla (bağımsızlık savaşı). · ALINTI VIKIPEDI (es), KAYNAKLI SAYILMAZ. Künye sorunu: Barbacoas Quito Audiencia'sındadır; Quito 1717'den (kalıcı 1739) Yeni Granada Genel Valiliği'ne geçti; atlasta bu satır tüm 1612-1819'u 'ispanyol-peru' yazıyor. Künye yeni-granada-valiligi f1717-05-27 t1810-07-20 mevcut (devletler.js:10606). Ayrıca Barbacoas/Pasto-Quito bölgesi 1819-12-17'de (Angostura yasası) patriotların elinde değildi: es-Vikipedi Gran Colombia 'liberación no alcanzó a Pasto' + Quito Pichincha 1822-05-24 -> gran-kolombiya f 1819-12-17 Barbacoas için erken; bölge ancak 1822 sonrası (ic. Pasto 1822-12) — gün teyitsiz. Bakılmadı: Credencial Historia, Banrep, Atlas Geográfico de Colombia.",
    "oneri_son": {
     "d": "yeni-granada-valiligi",
     "f_kaynak": "kuruluş (f = varoluş günü kuralı)",
     "t": "1810-07-20"
    },
-   "karar": "EMRELİC"
+   "karar": "EMRELİC",
+   "_yg_kasa": true
   },
   {
    "sira": 4199,
@@ -37,7 +38,8 @@
    "oneri": {
     "f": "1822 sonrası (Pichincha 1822-05-24; Pasto direnişi sürdü) — Barbacoas için gün BULUNAMADI; geçici: aralık bırakılacaksa BEYANLI YAKLAŞIKLIK"
    },
-   "not": "17 Aralık 1819 Gran Colombia'nın ülke düzeyi kuruluşudur, Barbacoas'a özgü devir değil (ÜLKE DÜZEYİ). Barbacoas sahipliği 1819-1822 arası royalist elinde olabilir: s: ispanyol (yeni-granada-valiligi t'si 1810-07-20; 1816 restorasyonu için künye yok -> LAB). t: Gran Colombia dağılışı 1830-1831 künye ucudur (Quito/Ekvador 1830-05-13 ayrıldı; Barbacoas Kolombiya'da kaldı) — ucu gün teyitsiz."
+   "not": "EMRELİC (5 Kasım 2026): Yeni Granada bölmesi KASA YG listesinde (origin/kasa-1104-kronoloji: denetim/EVREN4-1105/e4_KASA_YG.json, 42 yerleşim); BURADA UYGULANMAZ — mükerrer öneri değildir, KASA esas. Yeni Granada dışı kararlar (F-GERI, 1810–19 cunta/eyaletler künye sorusu) bu dosyada geçerli. · 17 Aralık 1819 Gran Colombia'nın ülke düzeyi kuruluşudur, Barbacoas'a özgü devir değil (ÜLKE DÜZEYİ). Barbacoas sahipliği 1819-1822 arası royalist elinde olabilir: s: ispanyol (yeni-granada-valiligi t'si 1810-07-20; 1816 restorasyonu için künye yok -> LAB). t: Gran Colombia dağılışı 1830-1831 künye ucudur (Quito/Ekvador 1830-05-13 ayrıldı; Barbacoas Kolombiya'da kaldı) — ucu gün teyitsiz.",
+   "_yg_kasa": true
   },
   {
    "sira": 4200,
@@ -88,13 +90,14 @@
     "d": "yeni-granada-valiligi (1717-05-27 → 1810-07-20)",
     "f": "1539-08-24 (kuruluş) ya da 1643-03-04 (villa ilanı) — hangisinin sahiplik başı olduğu atlas kararı; 1643 kuruluş değil villa unvanıdır"
    },
-   "not": "LAB SALI (03a82fb68, 5 Kasım 2026): Yeni Granada 1723-1739: künye bölünmez → ic_not. · EMRELİC (5 Kasım 2026, r8_105–110): 1717–1810 dilimi yeni-granada-valiligi künyesine (devletler.js:10606) taşınır. Valilik 1723'te kaldırılıp 1739'da yeniden kuruldu; künye tek parça (1717-05-27 → 1810-07-20) — aradaki kopukluk LAB'a künye sorusu. 1810-07-20 → 1819-12-17 dilimi ayrıca kaynakla (bağımsızlık savaşı). · f=1643-03-04 Real Cédula ile villa ilanı (Felipe IV), yerleşimin var oluşu 1539'dan (ALINTI Vikipedi). Künye: Honda Nuevo Reino de Granada'dadır; Yeni Granada Genel Valiliği 1717-05-27'den: ispanyol-peru yanlış künye adayı (1717 sonrası). Honda Mayıs 1810 sonrası patriot (Cundinamarca) tarafında; yeni-granada-valiligi t 1810-07-20 ile uyumlu, 1810-1819 arası (Santafé patriotları / 1816 Morillo restorasyonu) künyesiz. Honda 'ciudad' 1815-06-30 (aynı Vikipedi). Bakılmadı: Banrep, Credencial Historia.",
+   "not": "EMRELİC (5 Kasım 2026): Yeni Granada bölmesi KASA YG listesinde (origin/kasa-1104-kronoloji: denetim/EVREN4-1105/e4_KASA_YG.json, 42 yerleşim); BURADA UYGULANMAZ — mükerrer öneri değildir, KASA esas. Yeni Granada dışı kararlar (F-GERI, 1810–19 cunta/eyaletler künye sorusu) bu dosyada geçerli. · LAB SALI (03a82fb68, 5 Kasım 2026): Yeni Granada 1723-1739: künye bölünmez → ic_not. · EMRELİC (5 Kasım 2026, r8_105–110): 1717–1810 dilimi yeni-granada-valiligi künyesine (devletler.js:10606) taşınır. Valilik 1723'te kaldırılıp 1739'da yeniden kuruldu; künye tek parça (1717-05-27 → 1810-07-20) — aradaki kopukluk LAB'a künye sorusu. 1810-07-20 → 1819-12-17 dilimi ayrıca kaynakla (bağımsızlık savaşı). · f=1643-03-04 Real Cédula ile villa ilanı (Felipe IV), yerleşimin var oluşu 1539'dan (ALINTI Vikipedi). Künye: Honda Nuevo Reino de Granada'dadır; Yeni Granada Genel Valiliği 1717-05-27'den: ispanyol-peru yanlış künye adayı (1717 sonrası). Honda Mayıs 1810 sonrası patriot (Cundinamarca) tarafında; yeni-granada-valiligi t 1810-07-20 ile uyumlu, 1810-1819 arası (Santafé patriotları / 1816 Morillo restorasyonu) künyesiz. Honda 'ciudad' 1815-06-30 (aynı Vikipedi). Bakılmadı: Banrep, Credencial Historia.",
    "oneri_son": {
     "d": "yeni-granada-valiligi",
     "f_kaynak": "kuruluş (f = varoluş günü kuralı)",
     "t": "1810-07-20"
    },
-   "karar": "EMRELİC"
+   "karar": "EMRELİC",
+   "_yg_kasa": true
   },
   {
    "sira": 4203,

@@ -16,7 +16,7 @@
     "t": "1821-06-24",
     "d": "ispanya"
    },
-   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Guanare: ispanyol-peru KALKAR; Caracas/Venezuela satırlarıyla tutarlı: 1739–1777 yeni-granada-valiligi, 1777-09-08 → 1810-04-19 venezuela-genel-kaptanligi. 1739 yeniden kuruluş günü kaynakla. · f 1591-11-03 EcuRed (ayrica 5 arama sonucunda) tutarli ama akademik degil; Academia Nacional de la Historia/Scielo bulunamadi. SAHIP SORUSU: Guanare Venezuela Valiligi/Audiencia de Santo Domingo'ya bagliydi (1777'den Venezuela Kaptanligi); 'ispanyol-peru' (Peru Genel Valiligi, kunye 1542-11-20..1824-12-09) dogru sahip gorunmuyor - 'ispanya' onerilir (kaynak: bakilmadi, akademik teyit gerek). t 1821-06-24 (Carabobo) satirin ucunu tarihleyen kaynak bulunamadi: BAKILMADI. Kunye ispanyol-peru t 1824-12-09 donemi kapsiyor.",
+   "not": "EMRELİC (5 Kasım 2026): Yeni Granada bölmesi KASA YG listesinde (origin/kasa-1104-kronoloji: denetim/EVREN4-1105/e4_KASA_YG.json, 42 yerleşim); BURADA UYGULANMAZ — mükerrer öneri değildir, KASA esas. Yeni Granada dışı kararlar (F-GERI, 1810–19 cunta/eyaletler künye sorusu) bu dosyada geçerli. · EMRELİC (5 Kasım 2026, r8_102/104): Guanare: ispanyol-peru KALKAR; Caracas/Venezuela satırlarıyla tutarlı: 1739–1777 yeni-granada-valiligi, 1777-09-08 → 1810-04-19 venezuela-genel-kaptanligi. 1739 yeniden kuruluş günü kaynakla. · f 1591-11-03 EcuRed (ayrica 5 arama sonucunda) tutarli ama akademik degil; Academia Nacional de la Historia/Scielo bulunamadi. SAHIP SORUSU: Guanare Venezuela Valiligi/Audiencia de Santo Domingo'ya bagliydi (1777'den Venezuela Kaptanligi); 'ispanyol-peru' (Peru Genel Valiligi, kunye 1542-11-20..1824-12-09) dogru sahip gorunmuyor - 'ispanya' onerilir (kaynak: bakilmadi, akademik teyit gerek). t 1821-06-24 (Carabobo) satirin ucunu tarihleyen kaynak bulunamadi: BAKILMADI. Kunye ispanyol-peru t 1824-12-09 donemi kapsiyor.",
    "oneri_son": [
     {
      "d": "ispanya",
@@ -39,7 +39,8 @@
      "f": "1810-04-19",
      "t": "1821-06-24"
     }
-   ]
+   ],
+   "_yg_kasa": true
   },
   {
    "sira": 4146,

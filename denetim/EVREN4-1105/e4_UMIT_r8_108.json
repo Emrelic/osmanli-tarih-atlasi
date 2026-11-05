@@ -166,13 +166,14 @@
     "f": "1780-12-04",
     "t": "1810-07-20 (kunye ucu)"
    },
-   "not": "EMRELİC (5 Kasım 2026, r8_105–110): 1717–1810 dilimi yeni-granada-valiligi künyesine (devletler.js:10606) taşınır. Valilik 1723'te kaldırılıp 1739'da yeniden kuruldu; künye tek parça (1717-05-27 → 1810-07-20) — aradaki kopukluk LAB'a künye sorusu. 1810-07-20 → 1819-12-17 dilimi ayrıca kaynakla (bağımsızlık savaşı). · DEVLET YANLIS: Arauca (Villa de Santa Barbara de Arauca) Yeni Granada Genel Valiligi'ne / Casanare eyaletine bagliydi, Peru Genel Valiligi'ne degil (ispanyol-peru kunyesi 1542-1824; Arauca'nin Lima ile idari bagi yok). Kunye 'yeni-granada-valiligi' mevcut (f 1717-05-27, t 1810-07-20). Casanare'nin Nueva Granada baglantisi yalniz arama ozetinden (ham metinde yok) — ONERI. f=1780-12-04 kurulus gunu ham metinde (Daboin + Useche, ikisi Venezuelali, Morcote'de izin); kurulus oncesi yer Guahibo yerli koyuydu => 1780 oncesi dilim YOK. 1810-07-20 ile 1819 arasi: Casanare yurtsever/royalist elden ele gecti (gun bulunamadi) — arada bosluk; 1819-12-17 Gran Kolombiya kurulus gunu ulke duzeyi, Arauca'ya ozgu teyit yok (BULUNAMADI).",
+   "not": "EMRELİC (5 Kasım 2026): Yeni Granada bölmesi KASA YG listesinde (origin/kasa-1104-kronoloji: denetim/EVREN4-1105/e4_KASA_YG.json, 42 yerleşim); BURADA UYGULANMAZ — mükerrer öneri değildir, KASA esas. Yeni Granada dışı kararlar (F-GERI, 1810–19 cunta/eyaletler künye sorusu) bu dosyada geçerli. · EMRELİC (5 Kasım 2026, r8_105–110): 1717–1810 dilimi yeni-granada-valiligi künyesine (devletler.js:10606) taşınır. Valilik 1723'te kaldırılıp 1739'da yeniden kuruldu; künye tek parça (1717-05-27 → 1810-07-20) — aradaki kopukluk LAB'a künye sorusu. 1810-07-20 → 1819-12-17 dilimi ayrıca kaynakla (bağımsızlık savaşı). · DEVLET YANLIS: Arauca (Villa de Santa Barbara de Arauca) Yeni Granada Genel Valiligi'ne / Casanare eyaletine bagliydi, Peru Genel Valiligi'ne degil (ispanyol-peru kunyesi 1542-1824; Arauca'nin Lima ile idari bagi yok). Kunye 'yeni-granada-valiligi' mevcut (f 1717-05-27, t 1810-07-20). Casanare'nin Nueva Granada baglantisi yalniz arama ozetinden (ham metinde yok) — ONERI. f=1780-12-04 kurulus gunu ham metinde (Daboin + Useche, ikisi Venezuelali, Morcote'de izin); kurulus oncesi yer Guahibo yerli koyuydu => 1780 oncesi dilim YOK. 1810-07-20 ile 1819 arasi: Casanare yurtsever/royalist elden ele gecti (gun bulunamadi) — arada bosluk; 1819-12-17 Gran Kolombiya kurulus gunu ulke duzeyi, Arauca'ya ozgu teyit yok (BULUNAMADI).",
    "oneri_son": {
     "d": "yeni-granada-valiligi",
     "f_kaynak": "kuruluş (f = varoluş günü kuralı)",
     "t": "1810-07-20"
    },
-   "karar": "EMRELİC"
+   "karar": "EMRELİC",
+   "_yg_kasa": true
   },
   {
    "sira": 4196,
