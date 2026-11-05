@@ -151,6 +151,22 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-85 — Kanada 1880 sistemik bulgusu (KANADA-1880-TARAMA.tsv)
+
+- **Sınıflama ONAY:**
+  - Anakara 19 yerleşim → 1870-07-15 (Rupert's Land and North-Western Territory Order, Justice Canada ham metin).
+  - Adalar 11 yerleşim → 1880-09-01 kalır.
+  - Southampton tartışmalıdır, `ic_not`a yazılır.
+- **Hepsine beyan:** "hukukî devir; fiilî Kanada idaresi Arktik'te RCMP karakollarıyla (1903 sonrası) kuruldu".
+  - TAHRİR'e göre bu ara `isg` değil `s:`'dir: devralan tek iddia eden egemendi ve önceki sahip (HBC / İngiliz tacı) toprağı devretti.
+  - Inuit dönemi bu tarihlerde biter.
+- **Açık okuma:** Kuzey Kutbu anakara kıyısının (Kugluktuk, Bathurst Inlet, Paulatuk vb.) North-Western Territory kapsamında olduğu kaynakla teyit edilecek. Kaynak: 1870 Order ekindeki sınır tarifi ya da Nicholson, *The Arctic Islands* / Dorion-Robitaille.
+- **Labrador (Kangiva):** Newfoundland'da kalır, 1949-03-31'de Kanada'ya geçer. Künyeler: `newfoundland-dominyonu`, `newfoundland-komisyon-hukumeti`. Newfoundland iç sınırını belirleyen 1927 Privy Council kararı `ic_not`a. Uygun.
+- **Tierra del Fuego:** Arjantin 1884-10-12'den başlar (Ushuaia alt valiliği, resmî belge). Uygun.
+- **Sarp:** nokta Gürcü yakasında, kayıt ise Türk Sarp'ını anlatıyor.
+  - Koordinat düzeltmesi KASA-YER'in işidir: harita ve OSM ya da resmî kaynakla teyit edilir, koordinat KAYNAKLI yazılır.
+  - Düzeltildikten sonra zincir 1921-10-13 Kars Antlaşması'ndan itibaren `turkiye-cumhuriyeti`.
+
 ## 5 Kasım 2026 gece-84 — UFUK sonuçları üzerine (e4_KASA_UFUK.json)
 
 - **(a) Mısır 1922 sonrası:** ikinci bir `isg` dilimi açılmaz (gece-12 kararı).
