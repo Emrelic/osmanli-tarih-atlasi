@@ -612,7 +612,7 @@ window.YERLESIMLER_E9353F = [
 //   ve `rozvi` künyesi de yok. İki eksik üst üste ⇒ dönem YAZILMADI.
 { ad:"Büyük Zimbabve", tur:"sehir", lat:-20.267, lon:30.933, g:1, k:1,
   s:[{f:"1281-01-01", t:"1450-01-01", d:"zimbabve-kralligi", kaynak:"zimbabve"},
-     {f:"1450-01-01", t:"1700-01-01", d:"mutapa",            kaynak:"zimbabve"}],
+     {f:"1450-01-01", t:"1695-01-01", d:"mutapa",            kaynak:"zimbabve · ARDIL/KARARLAR gece-101 (KASA PAZAR 5 Kasım 2026): t 1700 → 1695 (künye mutapa t 1695-01-01; hayalet düzeltmesi)"},{f:"1695-01-01",t:"1834-01-01",d:"rozvi",kaynak:"ARDIL (KARARLAR gece-101 rozvi 1695 ONAY, KASA PAZAR 5 Kasım 2026) [ONERI · yalnız yüzyıl]: TDV İslâm Ansiklopedisi, «Zimbabve» (islamansiklopedisi.org.tr/zimbabve): «Monomutapa adıyla anılan bu imparatorluk, XVII. yüzyılın sonlarında … Rozvi hânedanının yükselişiyle ortadan kalktı» · uçlar künye mutapa t / rozvi t (1834); 1834 sonrası Ndebele ayrı zincir"}],
   d:[], v:[],
   bos:"veri-yok",
   neden:"kunye-yok — 1700 sonrasi sahipsiz. Kaynak SUSMUYOR: TDV zimbabve maddesi Mutapa'nin 'XVII. yuzyilin sonlarinda Portekizliler'in gittikce artan baskisi ve Canga liderligindeki Rozvi hanedaninin yukselisiyle ortadan kalkti'gini yaziyor - yani ardil VAR ve ADI belli. Ama ne YIL veriyor ne de rozvi kunyesi mevcut. Ayrica kullandigim iki kimligin (zimbabve-kralligi, mutapa) kunyesi de YOK, koordinator M-0218'de yazacagini soyledi. UYARI: bu nokta PENCERE DISINDA (lat -20,267 < -11), bugun hicbir sey boyamiyor." },
