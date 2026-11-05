@@ -1,0 +1,649 @@
+{
+ "Port Louis": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:22",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1735-01-01",
+   "t": "1792-09-22",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/moritus",
+   "alinti": "1735’te şirket tarafından Moritus’a vali tayin edilen Bertrand-François Mahé de Labourdonnais başşehir Port Louis’yi kurduğu",
+   "oneri": {},
+   "not": "TDV Moritus md.: 1735'te Labourdonnais Port Louis'yi kurdu (Fransız Doğu Hindistan Şirketi valisi; Île de France 1715'ten beri Fransız). f ucu = kuruluş yılı. [yalnız yıl teyitli; gün teyitsiz] Aynı md. Fransız dönemi sonu: 1810. TDV ayrıca 1715'te adanın Fransız donanmasınca alındığını yazar (yerleşim değil ada düzeyi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:22",
+   "alan": "s",
+   "d": "ingiliz-mauritius",
+   "f": "1810-12-03",
+   "t": "1968-03-12",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/moritus",
+   "alinti": "son Fransız valisi Charles Decaen 2 Aralık 1810’da adayı İngilizler’e teslim etti",
+   "oneri": {
+    "f": "1810-12-02"
+   },
+   "not": "ÇELİŞKİ: TDV Moritus md. teslim günü 2 Aralık 1810; atlas künye/yerleşim 1810-12-03. TEK ÖLÇÜ: devralan yönetmiyordu, teslim günü esas -> TDV günü. Öteki gün (3 Aralık) bu oturumda kaynakla okunmadı; iki ucu Emre seçsin. TDV: ada 1814 Paris Antlaşması ile kesin İngiliz oldu (hukukî devir; yürürlük/ic_not). t ucu: TDV 12 Mart 1968 (sonraki satır). ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:22",
+   "alan": "s",
+   "d": "morityus",
+   "f": "1968-03-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/moritus",
+   "alinti": "12 Mart 1968’de bağımsız yeni bir devlet kuruldu",
+   "oneri": {},
+   "not": "TDV Moritus md.: 12 Mart 1968 bağımsızlık; ingiliz-mauritius t ucu ile aynı gün (gün düzeyi). ÜLKE DÜZEYİ. Port Louis başşehirdir (md. giriş: başşehri Port Louis)."
+  }
+ ],
+ "Port Mathurin (Rodrigues)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:24",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1735-01-01",
+   "t": "1792-09-22",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV moritus (https://islamansiklopedisi.org.tr/moritus); web araması (özet, okunmadı): Rodrigues 1809 İngiliz alışı, Fransız iddiası 1735",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Moritus Rodrigues'u yalnız ülkenin bileşeni olarak anar; Rodrigues'e özgü Fransız yerleşim/tasarruf yılı yok. Zincirdeki beyan (Port Mathurin kuruluş tanığı yok) geçerli kalır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:24",
+   "alan": "s",
+   "d": "ingiliz-mauritius",
+   "f": "1810-12-03",
+   "t": "1968-03-12",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV moritus (https://islamansiklopedisi.org.tr/moritus); Rodrigues'e özgü akademik madde açılmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV: 1810'da Île de France İngilizlere teslim; Rodrigues'in ayrı teslim günü yok. Web araması özeti Rodrigues 1809 (Ağustos) İngiliz çıkarması der -- okunmadı, ipucu; yerde 1809 olursa 1810-12-03 yanlış. Atlas Emre'ye sorulacak: Rodrigues'in kendi alış günü."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:24",
+   "alan": "s",
+   "d": "morityus",
+   "f": "1968-03-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/moritus",
+   "alinti": "12 Mart 1968’de bağımsız yeni bir devlet kuruldu",
+   "oneri": {},
+   "not": "TDV Moritus md. giriş: ülke «Moritus (Mauritius), Rodrigues, Agalega, Cargados Carajos adalarından oluşur» -> Rodrigues 1968'de ülkenin parçası; 12 Mart 1968 bağımsızlık. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Port of Spain (Puerto de España)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1176",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1757-01-01",
+   "t": "1797-02-18",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "WebSearch özetleri (okunmadı): Abercromby/Chacón 18 Şubat 1797; Puerto de España 1757 -- ipucu; kabul edilen kaynak açılmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Aradım, kabul edilen kaynakta sayfa açamadım: 1757 Puerto de España'nın kasaba oluşu ve 1797 teslim günü yalnız arama özetinde (ipucu: 18 Şubat 1797). history.state.gov Trinidad sayfası 1797'yi vermez."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1176",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1797-02-18",
+   "t": "1962-08-31",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/trinidad-and-tobago",
+   "alinti": "it became independent on August 31, 1962",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1962-08-31 bağımsızlık, ABD resmî tarih yayını); f 1797-02-18 teslim günü bu oturumda kaynakla okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1176",
+   "alan": "s",
+   "d": "trinidad-tobago",
+   "f": "1962-08-31",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/trinidad-and-tobago",
+   "alinti": "the same day that it became independent on August 31, 1962",
+   "oneri": {},
+   "not": "ABD Dışişleri Tarihçisi Ofisi: bağımsızlık 31 Ağustos 1962 (tanıma ile aynı gün; bağımsızlık günü açıkça yazılı). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Reggân": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:287",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV cezayir (https://islamansiklopedisi.org.tr/cezayir) tarandı; Merînî/Reggân yok; openedition arama özetleri",
+   "alinti": "",
+   "oneri": {},
+   "not": "Reggân vahası 1281-1549 arası Merînî sahipliği için kaynak bulunamadı; TDV Cezayir md. Tuvât/Tîdîkelt/Gûrâre anmaz. Merînî -> Sa'dî ardışıklığı zincirde kaynaksız."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:287",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1901-02-21",
+   "t": "1962-07-05",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/countries/algeria",
+   "alinti": "France recognized Algeria as an independent state on July 3, 1962",
+   "oneri": {
+    "t": "1962-07-03"
+   },
+   "not": "ÖNCEKİ KARAR (gece-57/96): Cezayir bağımsızlığı 1962-07-03. | alıntı yalnız t ucunu tarihliyor: ABD resmî tarih yayını Fransa'nın tanıma/devir günü 3 Temmuz 1962 (atlas 1962-07-05; bilinen karar 07-03 ile uyumlu). TDV Cezayir: referandum 1 Temmuz 1962. f 1901-02-21 (Tuvât ilhakı): TDV cezayir bu yıl/günü vermiyor; Persée/Cairn arama özetinde 1901 Şubat-Mart Tidikelt işgali (okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:287",
+   "alan": "s",
+   "d": "cezayir",
+   "f": "1962-07-05",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/countries/algeria",
+   "alinti": "France recognized Algeria as an independent state on July 3, 1962",
+   "oneri": {
+    "f": "1962-07-03"
+   },
+   "not": "ÖNCEKİ KARAR (gece-57/96): Cezayir bağımsızlığı 1962-07-03. | ONERI: atlas 1962-07-05, ABD resmî tarih yayını 3 Temmuz 1962 (bilinen karar). TDV Cezayir: «1 Temmuz 1962 tarihinde yapılan referandumda...» (bağımsızlık ilanı günü verilmez). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Rey Buba": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:605",
+   "alan": "s",
+   "d": "adamava",
+   "f": "1809-01-01",
+   "t": "1901-09-02",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Adamava 1901’de İngiltere ve Almanya arasında paylaşıldı",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1901, yıl). f ucu çelişki: TDV Kamerun «Fumbina Krallığı adıyla İslâmî bir yönetim kurdu (1841)»; atlas f 1809 (cihad başlangıcı). Seçmedim. Bu oturumda 1809 için kaynak okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:605",
+   "alan": "s",
+   "d": "alman-kamerun",
+   "f": "1901-09-02",
+   "t": "1916-02-18",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Adamava 1901’de İngiltere ve Almanya arasında paylaşıldı",
+   "oneri": {},
+   "not": "TDV Kamerun md.: Adamava 1901'de İngiltere ve Almanya arasında paylaşıldı -> Rey Buba (Alman payı) için f yılı. [yalnız yıl teyitli; gün teyitsiz] BÖLGE/ÜLKE DÜZEYİ: Rey Buba'ya özgü teslim günü yok; web arama özeti Rey Buba'nın Alman seferiyle düştüğünü (1901) söyler, okunmadı. t 1916-02-18: zincirdeki Weladji kaydı geçerli."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:605",
+   "alan": "s",
+   "d": "kamerun",
+   "f": "1960-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kamerun",
+   "alinti": "Fransız Kamerunu Kamerun Cumhuriyeti adı altında 1 Ocak 1960’ta bağımsızlığını ilân etti",
+   "oneri": {},
+   "not": "TDV Kamerun md.: Fransız Kamerunu 1 Ocak 1960 bağımsızlık; Rey Buba Fransız Kamerunu'nda (zincir: 1916 paylaşımı, 1922 manda). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Râşid (Tagant)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:130",
+   "alan": "s",
+   "d": "moritanya-emirlikleri",
+   "f": "1640-01-01",
+   "t": "1909-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://books.openedition.org/iremam/1253",
+   "alinti": "Constitution des émirats du Trarza, du Brakna, du Tagant et de l’Adrar",
+   "oneri": {},
+   "not": "IREMAM (Aix-Marseille) kronoloji: Tagant dahil emirlikler «Au cours du xviii e siècle» kuruldu; atlas f 1640 (Çar Bubba Savaşı dönemi) ile çelişir, yalnız yüzyıl veriyor, gün/yıl yok; seçmedim. Râşid'e özgü bir kayıt yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:130",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1909-01-01",
+   "t": "1960-11-28",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "TDV moritanya (https://islamansiklopedisi.org.tr/moritanya); IREMAM kronolojisi https://books.openedition.org/iremam/1253",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Moritanya: Fransız hâkimiyeti «XX. yüzyılın başlarında» (yıl yok). IREMAM: Mart 1905 Coppolani Tagant/Adrar misyonu, 12 Mayıs 1905 Tidjikja'da öldürüldü, Aralık 1908-Haziran 1909 Adrar kolu; Tagant için 1909 teslim günü yok. Web arama özeti (okunmadı): Tagant 1905 itaat. Râşid'e özgü kaynak bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:130",
+   "alan": "s",
+   "d": "moritanya",
+   "f": "1960-11-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/moritanya",
+   "alinti": "28 Kasım 1960’ta Moritanya İslâm Cumhuriyeti bağımsız bir devlet olarak ilân edildi",
+   "oneri": {},
+   "not": "TDV Moritanya md.: 28 Kasım 1960 bağımsızlık ilanı (gün düzeyi). ÜLKE DÜZEYİ."
+  }
+ ],
+ "Piombino": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:661",
+   "alan": "s",
+   "d": "piza",
+   "f": "1281-01-01",
+   "t": "1399-02-19",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/piombino/",
+   "alinti": "Nel 1399 Gherardo d’Appiano vendette Pisa ai Visconti, riservandosi il dominio di P.",
+   "oneri": {},
+   "not": "alıntı yalnız t ucunu tarihliyor (1399, YIL; atlas 1399-02-19 gün teyitsiz). Treccani «Piombino» (güncel on-line md.): kale ve burg Pisalıların dayanağı idi; Pisa dönemi başlangıcı (f 1281 pencere başı) tanıklanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:661",
+   "alan": "s",
+   "d": "sardinya-piyemonte",
+   "f": "1860-03-22",
+   "t": "1861-03-17",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/toscana/",
+   "alinti": "la T. fu annessa al Regno di Sardegna con il plebiscito del 15 marzo 1860",
+   "oneri": {},
+   "not": "Treccani «Toscana»: Sardinya'ya ilhak «plebiscito del 15 marzo 1860» (atlas 1860-03-22). Yıl 1860 uyuşur; gün farkı (plebisito/ilhak ayrımı) bu oturumda başka kaynakla çözülmedi, oneri yazmadım. Piombino'ya özgü cümle yok (Toskana Büyük Dükalığı'na 1815'te bağlanmış, Piombino md.). t 1861-03-17 bu oturumda okunmadı."
+  }
+ ],
+ "Ponca köyleri (Salt Fork)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1242",
+   "alan": "s",
+   "d": "ponka",
+   "f": "1281-01-01",
+   "t": "1858-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.okhistory.org/publications/enc/entry?entry=PO007",
+   "alinti": "the federal government removed the Ponca to Indian Territory in 1877",
+   "oneri": {},
+   "not": "Oklahoma Historical Society Encyclopedia (Oklahoma Ansiklopedisi): Güney Ponca Salt Fork/Arkansas birleşimine 1877'de (NPS: 1878) yerleştirildi -> yerleşim 1281'de Ponca yerleşimi DEĞİL; yerleşim o devirde yoktu. Cherokee Outlet ABD toprağıydı. ponka s: Salt Fork için 1877/78'den başlamalı (ya da önceki dönem sahibi ayrı aranmalı); oneri yazmadım (gün yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1242",
+   "alan": "s",
+   "d": "abd",
+   "f": "1858-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.okhistory.org/publications/enc/entry?entry=PO007",
+   "alinti": "In 1858 and 1865 the Ponca also signed land cession treaties in return for military protection",
+   "oneri": {},
+   "not": "1858 anlaşması Nebraska toprağı devri (Salt Fork değil). Salt Fork'ta ABD egemenliği Ponca gelmeden önce de sürüyordu (Cherokee Outlet); 1858-01-01 bu yerleşim için uygun değil -- ÜLKE/KABİLE DÜZEYİ, yerleşime özgü teyit yok."
+  }
+ ],
+ "Port Moresby": [
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:110",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1884-11-06",
+   "t": "1906-09-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "NAA fact sheet https://www.naa.gov.au/help-your-research/fact-sheets/records-papua-new-guinea-1883-1942 (DNS hatası, açılamadı); history.state.gov papua-new-guinea yalnız 1975",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabul edilen kaynakta okunan cümle yok. Arama özeti (okunmadı): 1884 himaye, 1888 sömürge, Papua Act 1905 -> 1906 Avustralya. Himaye 1884 ise s: ingiltere değil v: ingiltere olmalı (himaye kuralı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:110",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1906-09-01",
+   "t": "1949-07-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "NAA fact sheet https://www.naa.gov.au/help-your-research/fact-sheets/records-papua-new-guinea-1883-1942 (açılamadı); aph.gov.au arama özeti",
+   "alinti": "",
+   "oneri": {},
+   "not": "1906-09-01 Avustralya devrinin günü kabul edilen kaynakta okunmadı (arama özeti: Papua Act 1905, devir 1906)."
+  }
+ ],
+ "Potonchán (Santa María de la Victoria)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:371",
+   "alan": "s",
+   "d": "maya-sehir-devletleri",
+   "f": "1281-01-01",
+   "t": "1519-03-25",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "https://dialnet.unirioja.es/descarga/articulo/6071248.pdf (SSL zaman aşımı, açılamadı); INAH Müze breviario arama özeti (kurum, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Centla/Potonchán: arama özetleri 14 Mart (INAH) ile 25 Mart 1519 (Dialnet) çelişir; okunmadı. Maya Potonchán'ın 1281'den başlayan sahipliği için kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:371",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1519-03-25",
+   "t": "1535-04-17",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "https://dialnet.unirioja.es/descarga/articulo/6071248.pdf ; https://dialnet.unirioja.es/servlet/articulo?codigo=8253361 (açılamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Santa María de la Victoria'nın kuruluş günü (arama özeti: 25 Mart 1519, México Desconocido 16 Nisan) kabul edilen kaynakta okunmadı; Potonchán'ın tam yeri belirsiz (Frontera civarı)."
+  }
+ ],
+ "Pukatawagan": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:504",
+   "alan": "s",
+   "d": "kri",
+   "f": "1281-01-01",
+   "t": "1876-08-23",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://mhs.mb.ca/docs/municipalities/firstnations.shtml",
+   "alinti": "Mathias Colomb (Pukatawagan) Cree Nation 6 1898",
+   "oneri": {},
+   "not": "Manitoba Historical Society (tarih derneği, İPUCU): Pukatawagan (Mathias Colomb) Kızılderili anlaşması Treaty 6 katılımı 1898; anlaşma toprak anlaşması, egemenlik devri değil. Atlas 1876-08-23 (Treaty 6 imza günü) yerleşime özgü değil. Kanada egemenliği Rupert's Land'in Kanada'ya devriyle (1870) başlar -- bu oturumda okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:504",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1876-08-23",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://mhs.mb.ca/docs/municipalities/firstnations.shtml",
+   "alinti": "Mathias Colomb (Pukatawagan) Cree Nation 6 1898",
+   "oneri": {},
+   "not": "Aynı: yalnız 1898 Treaty 6 katılımı (İPUCU, dernek); egemenlik devri günü okunmadı. ÜLKE DÜZEYİ Rupert's Land 1870 olabilir -- kaynakla doğrulanmadı."
+  }
+ ],
+ "Putre": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1196",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1580-01-01",
+   "t": "1824-12-09",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Memoria Chilena Arica md. https://www.memoriachilena.gob.cl/602/w3-article-554.html; scielo.cl Polis makalesi robots yasağı (https://scielo.cl/scielo.php?pid=S0718-65682009000300015&script=sci_arttext)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Tacna-Arica: 1880-06-07 Şili denetimi → isg sili; Lima 1929-06-03 imza (Şili yönetiyordu) → s: sili; Ancón 1883 Arica'yı Şili'ye 10 yıl bırakmıştı (plebisit) — EMRELİC'e soruldu. | Putre'nin 1580 Peru'ya bağlanışı ve 1824-12-09 için kaynak bulunamadı; Memoria Chilena yalnız «Emplazada anteriormente en territorio peruano» der (Arica)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1196",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1884-10-31",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.memoriachilena.gob.cl/602/w3-article-554.html",
+   "alinti": "Arica queda bajo soberanía chilena y Tacna se reintegra al territorio peruano",
+   "oneri": {
+    "alan": "isg",
+    "t": "1929-06-03"
+   },
+   "not": "Tacna-Arica: 1880-06-07 Şili denetimi → isg sili; Lima 1929-06-03 imza (Şili yönetiyordu) → s: sili; Ancón 1883 Arica'yı Şili'ye 10 yıl bırakmıştı (plebisit) — EMRELİC'e soruldu. | ÖLÇÜT: geçici/askerî -- Memoria Chilena (Biblioteca Nacional de Chile) Arica kronolojisi: 7 Haziran 1880 Arica Şili askerî denetiminde; 1883 Ancón Arica'yı geçici bıraktı, 3 Haziran 1929 Lima Antlaşması ile Arica Şili egemenliğine girdi. ÖNERİ: 1884-10-31'den s: sili değil, isg: sili 1880-06-07 (denetim) -> 1929-06-03; s: sili 1929-06-03'ten (TEK ÖLÇÜ imza günü, Şili zaten yönetiyor); peru-cumhuriyeti s: 1929-06-03'e uzar. Putre'nin Arica (Tacna dep.) içinde olduğu arama özetinden (altos de Arica), okunmadı. Kurum portalı: ONERI."
+  }
+ ],
+ "Quivira (Wiçita, Büyük Bükülme)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1196",
+   "alan": "s",
+   "d": "wicita",
+   "f": "1281-01-01",
+   "t": "1859-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.okhistory.org/publications/enc/entry?entry=WI001",
+   "alinti": "When the Wichita were assigned to a reservation in 1859 in the Leased District",
+   "oneri": {},
+   "not": "Oklahoma Ansiklopedisi: Wichita 1859'da Leased District'te rezervasyona atandı (Kansas'taki Wichita'lar yıl sonunda Washita'ya döndürüldü, arama özeti). t 1859 YIL düzeyi; Büyük Bükülme'ye özgü değil. f 1281 pencere başı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1196",
+   "alan": "s",
+   "d": "abd",
+   "f": "1859-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://www.okhistory.org/publications/enc/entry?entry=WI001",
+   "alinti": "Wichita villages were among those contacted by Coronado’s 1541 expedition to find the fabled Quivira",
+   "oneri": {},
+   "not": "ABD egemenliği Kansas'ta 1803 Louisiana Purchase ile (okunmadı); 1859 Wichita rezervasyonu egemenlik devri değil. Kaynak ABD egemenlik tarihini vermez; oneri yazmadım. Kansapedia Wichita sayfası (kshs.org) ayrıntı vermedi."
+  }
+ ],
+ "Rancagua": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1403",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1743-10-05",
+   "t": "1818-02-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.memoriachilena.gob.cl/602/w3-article-97291.html",
+   "alinti": "Rancagua fue fundada con el nombre de Villa Santa Cruz de Triana el 5 de octubre de 1743",
+   "oneri": {},
+   "not": "Memoria Chilena (Biblioteca Nacional de Chile, devlet kurumu tarih yayını): kuruluş 5 Ekim 1743 (gün düzeyi). Kurum portalı sayılırsa ONERI'ye indirin. t 1818-02-12 için sonraki satır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1403",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1818-02-12",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.bcn.cl/historiapolitica/efemerides/index.html?dia=12&mes=Febrero",
+   "alinti": "Declaración de la Independencia de Chile 12 de Febrero de 1818",
+   "oneri": {},
+   "not": "Şili Ulusal Kongre Kütüphanesi Historia Política (devletin resmî tarih yayını): Bağımsızlık Bildirgesi 12 Şubat 1818 (Talca'da okundu, ülkeye yayıldı). Rancagua Şubat 1817'de Şili Vatanseverlerinin elinde (Chacabuco). ÜLKE DÜZEYİ; Memoria Chilena Proclamación md. aynı gün."
+  }
+ ],
+ "Rehoboth": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2060",
+   "alan": "s",
+   "d": "nama-orlam",
+   "f": "1281-01-01",
+   "t": "1904-10-03",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://sahistory.org.za/place/rehoboth",
+   "alinti": "In 1885, Baster Kaptein Hermanuas van Wyk signed a 'Treaty of Protection and Friendship' with the German Empire",
+   "oneri": {},
+   "not": "Himaye kuralı (gece-88/98): 1885 Alman koruma anlaşması (SAHO ipucu) → Baster s: sürer + v: almanya; kaynakla. | SAHO (İPUCU): 1885 himaye anlaşması Alman İmparatorluğu ile; Basters otonomiyi korudu. Atlas nama-orlam t 1904-10-03 ile çelişir; HİMAYE KURALI: yerel polity s: sürer, Almanya v:. Seçmedim, oneri yazmadım; kabul edilen kaynakla (Cambridge CEH makalesi erişilemez) doğrulanmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2060",
+   "alan": "s",
+   "d": "alman-guneybati-afrikasi",
+   "f": "1904-10-03",
+   "t": "1915-07-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://sahistory.org.za/place/rehoboth",
+   "alinti": "Namibia was occupied by South Africa, in 1915",
+   "oneri": {},
+   "not": "Himaye kuralı (gece-88/98): 1885 Alman koruma anlaşması (SAHO ipucu) → Baster s: sürer + v: almanya; kaynakla. | SAHO (İPUCU): Güney Afrika işgali 1915 (YIL); atlas t 1915-07-09 (Alman teslimi, arama özeti 9 Temmuz 1915). alıntı yalnız t ucunu tarihliyor. f 1904-10-03 hiçbir kaynakta okunmadı."
+  }
+ ],
+ "Riohacha": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1600",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1545-08-06",
+   "t": "1819-12-17",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Banrepcultural Credencial Historia (robots yasağı, arama özeti: Riohacha 12/13 Mart 1820 Brión-Padilla çıkarması); dialnet PDF https://dialnet.unirioja.es/descarga/articulo/9866993.pdf (bağlantı reddi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "1545-08-06 kuruluş ve 1819-12-17 Gran Kolombiya için kabul edilen kaynak okunmadı. Arama özeti: Riohacha 1820-03-12/13'te vatanseverlerce alındı (Mart 1820 sonrası kısa kesinti belirsiz) -- 1819-12-17 yerde fiilî değil, kâğıt üstü; ipucu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1600",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Banrepcultural (robots), dialnet PDF https://dialnet.unirioja.es/descarga/articulo/9866993.pdf (açılamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "gran-kolombiya f 1819-12-17 yerde fiilî değil (Riohacha 1820-03'te alındı, arama özeti); 1831 ucu okunmadı."
+  }
+ ],
+ "Ronda": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:275",
+   "alan": "s",
+   "d": "granada",
+   "f": "1281-01-01",
+   "t": "1485-05-22",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/nasriler",
+   "alinti": "Cezîretülhadrâ (Algeciras), Runde (Ronda), Cebelitârık ve Tarîf şehirlerini askerî üs olarak verdiği Merînîler’le ittifak kurdu",
+   "oneri": {},
+   "not": "TDV Nasrîler md.: II. Muhammed (13. yy sonu) Ronda'yı Merînîlere askerî üs olarak verdi -> Ronda 1281 sonrası bir süre Merînî denetimi; atlas granada 1281-1485 kesintisiz. Gün/yıl yok; oneri yazmadım. t 1485: TDV Gırnata/Nasrîler 1485'i Ronda'ya bağlamaz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:275",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1485-05-22",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "AÇILAMAYAN PDF: https://archivodominicano.dominicos.org/ojs/article/download/dominicos-ronda-malaga/261 ; https://digibug.ugr.es/bitstream/handle/10481/44706/Anejo_Mata.54.pdf?sequence=1 (metin çıkmadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Gırnata ve Nasrîler Ronda'nın 1485-05-22 düşüşünü vermez. Arama özeti: Archivo Dominicano makalesi 22 Mayıs 1485 -- PDF metni okunamadı (ipucu)."
+  }
+ ],
+ "Ruby Vadisi (Batı Şoşoni)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1135",
+   "alan": "s",
+   "d": "sosoni",
+   "f": "1281-01-01",
+   "t": "1868-07-03",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "https://www.onlinenevada.org/sites/default/files/RubyValley_Crum_1987.pdf (metin çıkmadı, açılamadı); NARA katalog arama özeti",
+   "alinti": "",
+   "oneri": {},
+   "not": "Batı Şoşoni egemenlik yılı/gün okunmadı. İpucu (arama özeti): Ruby Valley Antlaşması 1 Ekim 1863; atlas 1868-07-03 Fort Bridger (Doğu Şoşoni) olabilir."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1135",
+   "alan": "s",
+   "d": "abd",
+   "f": "1868-07-03",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "https://www.onlinenevada.org/sites/default/files/RubyValley_Crum_1987.pdf (açılamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "ABD egemenliği Nevada'da Guadalupe Hidalgo 1848-02-02 (bilinen karar, Kaliforniya emsali) olabilir; bu oturumda kaynakla okunmadı."
+  }
+ ],
+ "Saginaw (Ojibwe)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1038",
+   "alan": "s",
+   "d": "ojibwe",
+   "f": "1281-01-01",
+   "t": "1850-09-07",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "NARA/archives.gov katalog arama özeti (Saginaw antlaşması 1819-09-24; Detroit 1855-08-02) -- okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Saginaw'a özgü ABD egemenliği/antlaşma günü kabul edilen kaynakta okunmadı; atlas 1850-09-07 yerde dayanaksız görünüyor (arama özetinde bu tarihli antlaşma yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1038",
+   "alan": "s",
+   "d": "abd",
+   "f": "1850-09-07",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "NARA/archives.gov katalog arama özeti -- okunmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Michigan'ın ABD'ye geçişi (1783 Paris / 1796 Detroit teslimi) bu oturumda kaynakla okunmadı."
+  }
+ ],
+ "Saint-Malo": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:173",
+   "alan": "s",
+   "d": "bretanya",
+   "f": "1281-01-01",
+   "t": "1532-08-13",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.treccani.it/enciclopedia/saint-malo/",
+   "alinti": "Dopo la riunione della Bretagna alla Francia (1532)",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-98 Brest): Bretanya 1532-08-13 (birlik fermanı); 1491/1499 evlilikleri şahsî birlik, ic_not. | alıntı yalnız t ucunu tarihliyor (1532 YIL; atlas 1532-08-13 bilinen karar, gün teyitsiz). ÇELİŞKİ: Treccani «Bretagna» md. 1491 Anna-Charles VIII evliliği ile Bretanya Fransa tacına birleşti der (seçmedim)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:173",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1532-08-13",
+   "t": "1792-09-22",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.treccani.it/enciclopedia/saint-malo/",
+   "alinti": "Dopo la riunione della Bretagna alla Francia (1532)",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-98 Brest): Bretanya 1532-08-13 (birlik fermanı); 1491/1499 evlilikleri şahsî birlik, ic_not. | Treccani «Saint-Malo» (güncel on-line md., Enciclopedia Italiana kökenli olabilir): Bretanya'nın Fransa'ya birleşmesi 1532. [yalnız yıl teyitli; gün teyitsiz] t 1792-09-22: TDV Fransa md. «22 Eylül’de de cumhuriyet ilân edildi» (10 Ağustos 1792 sonrası). ÜLKE DÜZEYİ."
+  }
+ ]
+}
