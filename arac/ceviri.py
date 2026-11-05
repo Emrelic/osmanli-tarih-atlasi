@@ -43,23 +43,29 @@ DILLER = [("tr", "Türkçe"), ("en", "English"), ("ar", "العربية"), ("es"
 # madde eklenince çeviri kuyruğu çevrilir — tavan açılmaz). Tamamlanan dil 0'a iner.
 # Listede olmayan dil/tür tavanı 0'dır. yetim denetimde yalnız BASILIR (arayüzdeki yetimler
 # bilinçli: sözlüğe elle eklenen şablon/birleşik metinler).
+# 5 Kasım 2026 (KASA PAZAR, toplama dalı kasa-1105-toplama): tavan AÇILDI — aşım çeviri dalı
+# ölçüldükten sonra öteki dallarda eklenen/düzeltilen Türkçe metinlerden: 79 olay maddesi
+# (OLAYLAR_EK5 14, EK16 8, OK109 5 …; Hürmüz/Strazburg/Sardinya/Hamid-ili yeni maddeleri ve
+# metin düzeltmeleri), 4 arayüz tarih kalıbı ("# (YIL)" vb.), 1 devlet adı (burgonya →
+# "Burgonya Dükalığı"). fr/ru/pt eksik İNDİ (birleşen çeviriler). Eski değerler: eksik en/ar/es/de
+# olay 2, pt 1119, ru 3518, fr 4718, arayüz/devlet 0; bayat olay 53/53/53/53/41/17/0.
 BEKLENEN_CEVIRI_EKSIK = {
-    "en": {"arayuz": 0, "devlet": 0, "olay": 2},
-    "ar": {"arayuz": 0, "devlet": 0, "olay": 2},
-    "es": {"arayuz": 0, "devlet": 0, "olay": 2},
-    "de": {"arayuz": 0, "devlet": 0, "olay": 2},
-    "pt": {"arayuz": 0, "devlet": 0, "olay": 1119},
-    "ru": {"arayuz": 0, "devlet": 0, "olay": 3518},
-    "fr": {"arayuz": 0, "devlet": 0, "olay": 4718},
+    "en": {"arayuz": 4, "devlet": 0, "olay": 14},
+    "ar": {"arayuz": 4, "devlet": 0, "olay": 14},
+    "es": {"arayuz": 4, "devlet": 0, "olay": 14},
+    "de": {"arayuz": 4, "devlet": 0, "olay": 14},
+    "pt": {"arayuz": 4, "devlet": 0, "olay": 1131},
+    "ru": {"arayuz": 4, "devlet": 0, "olay": 3228},
+    "fr": {"arayuz": 4, "devlet": 0, "olay": 4128},
 }
 BEKLENEN_CEVIRI_BAYAT = {
-    "en": {"arayuz": 0, "devlet": 0, "olay": 53},
-    "ar": {"arayuz": 0, "devlet": 0, "olay": 53},
-    "es": {"arayuz": 0, "devlet": 0, "olay": 53},
-    "de": {"arayuz": 0, "devlet": 0, "olay": 53},
-    "pt": {"arayuz": 0, "devlet": 0, "olay": 41},
-    "ru": {"arayuz": 0, "devlet": 0, "olay": 17},
-    "fr": {"arayuz": 0, "devlet": 0, "olay": 0},
+    "en": {"arayuz": 0, "devlet": 1, "olay": 65},
+    "ar": {"arayuz": 0, "devlet": 1, "olay": 65},
+    "es": {"arayuz": 0, "devlet": 1, "olay": 65},
+    "de": {"arayuz": 0, "devlet": 1, "olay": 65},
+    "pt": {"arayuz": 0, "devlet": 1, "olay": 53},
+    "ru": {"arayuz": 0, "devlet": 1, "olay": 31},
+    "fr": {"arayuz": 0, "devlet": 1, "olay": 7},
 }
 
 
