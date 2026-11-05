@@ -1,0 +1,210 @@
+{
+ "Gordion": [
+  {
+   "sira": 4394,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "lidya",
+   "f": "-0624-01-01",
+   "t": "-0545-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Dusinberre, E.R.M. 2019, 'The collapse of empire at Gordion in the transition from the Achaemenid to the Hellenistic world', Anatolian Studies 69: 109-132 (archive.org: dusinberre-2019-gordion-transition, ham metin)",
+   "alinti": "by the time the Achaemenid Persian armies arrived in central Anatolia in the mid-sixth century BC, Gordion had already been subsumed into the expanding Lydian Kingdom",
+   "oneri": {
+    "f": "teyitsiz (b010: Lidya'nın Gordion'u alış yılı akademik kaynakta bulunamadı)",
+    "t": "-0549-01-01 [yaklaşık; 'ca 550' Dusinberre Akhaemenid dönem başı] ya da -0545 korunur; Sardis düşüşü MÖ 547/546 ayrı kaynakla (CAH IV) teyit edilmeli"
+   },
+   "not": "ÜLKE/BÖLGE DÜZEYİ, yıl hassasiyetsiz. Alıntı Lidya hâkimiyetini Pers gelişinden ÖNCE gösteriyor (satırın varlığını teyit eder) ama ne f=MÖ 625 ne t=MÖ 546'yı tarihler: Akhaemenid dönemi 'ca 550-333 BC' diye verilir. Astronomik yıl: MÖ 625=-0624, MÖ 546=-0545 doğru. 'Atlas künyesi / worldhistory.org' dayanağı akademik değil. Ek: Cyrus'un Sardis'i alışı için CAH IV (archive.org) bu turda okunmadı. Hüküm uç tarihlenmediği için ONERI."
+  },
+  {
+   "sira": 4395,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "frigya",
+   "f": "-0737-01-01",
+   "t": "-0624-01-01",
+   "hukum": "ONERI",
+   "uc": null,
+   "kaynak": "Voigt, Sams, DeVries, Kuniholm vd., 'New dates for Iron Age Gordion', Antiquity Project Gallery 77 (2003) (ANTİK B b010'dan)",
+   "alinti": "Assyrian records show Midas to have been in power from at least 717 to 709 BC.",
+   "oneri": {
+    "f": "BULUNAMADI (kesin yıl yok); Midas iktidarı Asur kayıtlarında en az 717-709 [-0716..-0708]; Gordion Yıkım Tabakası 824-807 cal BC (Gordion'da Erken Frig evresi MÖ 9. yy)",
+    "t": "teyitsiz; Kimmer yıkımı ile Frigya sonu bağı Yıkım Tabakası ~800'e inince çözüldü (Antiquity 2003)"
+   },
+   "not": "ANTİK B b010'dan: aynı uç sonucu. f=-0737 (MÖ 738) Midas'ın başlangıcı olarak kaynaklanmadı; t=-0624 (MÖ 625, Lidya) yalnız worldhistory.org. Frigya'nın bölgedeki varlığı 9. yy'dan beri; satırın f'si çok geç, t'si teyitsiz. Uç tarihlenmedi."
+  },
+  {
+   "sira": 4396,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hitit",
+   "f": "-1649-01-01",
+   "t": "-1199-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": null,
+   "kaynak": "Bakıldı: Bryce, Kingdom of the Hittites (archive.org kingdomofhittite0000bryc: 401 Unauthorized, kilitli); Young vd., Gordion Excavations Final Reports vol.1 (archive.org vol.1_201910: 'Hittite' yalnız Tumulus P ahşap lev/üslup bağlamı, siyasî sahiplik değil)",
+   "alinti": null,
+   "oneri": null,
+   "not": "BULUNAMADI. Gordion'un Hitit İmparatorluğu hâkimiyetinde olduğuna dair şehre özgü akademik kaynak okunamadı. f=-1649 (Hitit Eski Krallığı) Gordion için dayanaksız görünüyor (Eski Krallık Gordion'a erişmez; ancak Orta/Geç Tunç'ta Hitit nüfuz alanı olabilir) ve Bryce 2005 kapalı. Mevcut kaynakta Kealhofer vd. 2019 Radiocarbon 61(2) 'disengagement from Hittite hegemony in the 12th c. BCE' özeti var; ham metni okunmadı, bu turda KAYNAKLI sayılamaz. tarayici_gerekli: Bryce 2005 (Emre girişi); Kealhofer vd. 2019 tam metin."
+  },
+  {
+   "sira": 4397,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "-1199-01-01",
+   "t": "-0737-01-01",
+   "hukum": "BAKILMADI",
+   "uc": null,
+   "kaynak": "Bakıldı: Young, 'The Nomadic Impact: Gordion' (Dark Ages and Nomads c. 1000 B.C., archive.org dark-ages-nomads-1000-bc; yalnız içindekiler/levha listesi çıktı); Dusinberre 2019 (Akhaemenid dönem, konu dışı)",
+   "alinti": null,
+   "oneri": null,
+   "not": "BOSLUK_KALIR. Yerleşimin MÖ 1200-800 arası iskânı ve sahibi ham metinle teyit edilemedi. İpucu (KAYNAKLI değil): b010 Gordion Yıkım Tabakası 824-807 cal BC ve Erken Frig evresi MÖ 9. yy; yani bu satırın t=-0737 çok geç ve 'Frig krallığı' MÖ 9. yy'a inmeli. Boşluk kaynakla dolmadan doldurulmaz; Kealhofer 2019 tam metni ve Sams (ed.) 2011 / Voigt 'Chronology of Phrygian Gordion' gerekir (kapalı: Emre girişi)."
+  }
+ ],
+ "Léva (Levice)": [
+  {
+   "sira": 4398,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "slovakya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Slovakya' (Sándor Papp), https://islamansiklopedisi.org.tr/slovakya ; ayrıca TDV 'Çekoslovakya' ve Treccani 'Cecoslovacchia'",
+   "alinti": "1 Ocak 1993'te bağımsız Slovak Cumhuriyeti kuruldu.",
+   "oneri": null,
+   "not": "ÜLKE DÜZEYİ: kaynak ülkeyi tarihler; Léva/Levice Slovakya sınırları içindedir (TDV Slovakya maddesi Léva'yı anmaz; sınır Trianon 1920-06-04'te Çekoslovakya'ya geçmiş, 1938-11-02 Viyana tahkimi ve 1945 ayrı katman). Çift teyit: TDV 'Çekoslovakya': 'Çekoslovakya 1 Ocak 1993 tarihinde resmen son buldu'; Treccani: 'Dal 1° gennaio 1993 si è diviso in due unità politiche sovrane'. t=2000-12-31 olay değil, veri kesimi (uc yalnız f). Slovak bağımsızlık/Çekoslovakya'nın sonu: 1992-12-31 sonu, 1993-01-01 kuruluş ic_not."
+  }
+ ],
+ "Segu (Ségou)": [
+  {
+   "sira": 4399,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mali', https://islamansiklopedisi.org.tr/mali (ham metin)",
+   "alinti": "Modibo Keita, 22 Eylül 1960 tarihinde ilân edilen bağımsız Mali Devleti'nin ilk kurucusu oldu",
+   "oneri": null,
+   "not": "ÜLKE DÜZEYİ: Segu Fransız Sudanı'nın içindeydi; bağımsızlık ilanı günü kuralı geçerli. Ek: Mali Federasyonu 20 Haziran 1960 ve Senegal'in ayrılışı (Ağustos 1960) ic_not; satır t=2000-12-31 veri kesimi. Ségou'ya özgü öteki katmanlar (partide yok, ek bilgi, TDV Mali ham): el-Hâc Ömer 10 Mart 1861'de Segu'yu aldı (Bamanan Krallığı sonu, Tekrûr eyaleti); 'Segu'yu 1890 yılında işgal eden Fransızlar' (TDV Mali); Fransa'nın Archinard ile 1890-04-06 günü TDV'de geçmiyor, ayrı kaynakla (Cambridge History of Africa) doğrulanmadı."
+  }
+ ],
+ "Calakmul": [
+  {
+   "sira": 4400,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kaanul",
+   "f": "0636-01-01",
+   "t": "0909-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Martin, Simon & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2nd ed., London 2008, Calakmul bölümü (archive.org: chronicle-2008-martin-grube-ocr, ham metin)",
+   "alinti": "There was, however, one last rally at Calakmul, evident in the stunted form of Stela 61.",
+   "oneri": {
+    "f": "0579-01-01 [yalnız yıl; aday] — Scroll Serpent'in tahta çıkışı 579; Calakmul'daki Yılan krallığı 636'dan önce de var (Stela 114, 435 K'atun)",
+    "t": "0909-01-01 korunur [proxy: son Calakmul anıtı, Stela 61'in tarihi 899 ya da 909, kitap 909'u tercih ediyor]"
+   },
+   "not": "f=0636 Calakmul'a taşınma tarihi DEĞİL: kitap 'Yuknoom Head 630-636', sonra Yuknoom Ch'een the Great'in tahta çıkışını (636) kral değişimi olarak verir. Calakmul'un Yılan krallığının başkenti oluşu 'Geç Klasik'te kesin, daha erken merkez Dzibanche olabilir ('Calakmul certainly took that role in the Late Classic, but in earlier times its seat of power may have resided further to the north, perhaps at Dzibanche'); Stela 114 (435) Calakmul'da erken Klasik. Yani 636 şehir sahipliği ucu değil hanedan içi kral değişimi. t=909: son Uzun Sayım tarihi anlatıdır; siyasî son değil. Uç tarihlenmediği için ONERI; KASA 636'yı kaynakla bağlayamaz."
+  }
+ ],
+ "Taksila (Taxila)": [
+  {
+   "sira": 4401,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "gandhara-mahajanapada",
+   "f": "-0549-01-01",
+   "t": "-0517-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "R.C. Majumdar (ed.), The History and Culture of the Indian People II: The Age of Imperial Unity, Bombay 1951 (archive.org: hcip-2-age-of-imperial-unity-ed.-r.-c.-majumdar, ham metin)",
+   "alinti": "Darius must therefore have conquered this part of India by about 518 B.C.",
+   "oneri": {
+    "f": "teyitsiz (HCIP II MÖ 550'yi vermez)",
+    "t": "-0529-01-01 [aralık/yaklaşık; HCIP II: 'very probably it was Cyrus who conquered Gandhara' (Cyrus 558-530 [-0557..-0529]), Darius miras aldı] — Gandhara için; -0517 (MÖ 518) Darius'un Hindu/Sindhu (Kuzey Pencap) fethi"
+   },
+   "not": "[yaklaşık] t=-0517 (MÖ 518=-0517 doğru çevrilmiş): HCIP II 'Darius ... by about 518 B.C.' Hindu/kuzey Pencap'ı verir; aynı sayfa Gandhara'yı 'very probably' Cyrus'un fethi sayar ('Gandhara which was inherited by Darius'). Behistun (Darius) Gadara'yı sayar. Yani Gandhara/Taksila için Pers hâkimiyeti MÖ 518'den ÖNCE başlamış olabilir; Taksila Gandhara mı Hindu mu kesin değil. f=-0549 için kaynak yok; Pukkusati'nin Bimbisara'ya elçiliği HCIP II'de var ama yıl vermiyor. Marshall, A Guide to Taxila (archive.org) 401/boş. Uç ONERI."
+  }
+ ],
+ "Dhâr": [
+  {
+   "sira": 4402,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "paramara",
+   "f": "1000-01-01",
+   "t": "1055-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "R.C. Majumdar (ed.), HCIP V: The Struggle for Empire, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar, ham metin)",
+   "alinti": "Bhoja died of a disease in c. A.D. 1055, and Malawa was taken possession of by the invaders.",
+   "oneri": {
+    "f": "0946-01-01 [yaklaşık; 'after A.D. 946 ... Vairisimha II reconquered Malava' (HCIP IV), Dhara Paramara başkenti]",
+    "t": "c. 1055 Dhara istilâcılarda ama kısa sürdü: Vikramaditya VI Karna ve Bhima'yı kovdu, Malava Jayasimha'ya; Paramara Dhara'sı Siddharaja Jayasimha'nın Dhara fethine (yıl okunmadı, c. 1135 civarı aday) dek sürer"
+   },
+   "not": "[yaklaşık] ÖLÇÜT: idareye katma/geçici ayrımı — Kalachuri+Chaulukya işgali kısa ve geçici (Chalukya yardımı ile Paramara geri aldı), HCIP V 'Vikramaditya drove out Karna and Bhima and secured ...'. Bu yüzden 1055 uç olarak tek başına Paramara sonu değildir; satırdan sonra gelen 1055-1161 aralığındaki sahiplik (atlasta ne yazıyor) kontrol edilmeli: Paramara 1055'te kısaca kesilir ama 12. yy ortasına kadar Dhara'yı tutar. f=1000 için: HCIP IV Dhara Paramara'larının başkentidir (Vakpati-Munja ~972) ve Vairisimha II 946 sonrası geri aldı. Siddharaja'nın Dhara fethi için yıl bu turda okunmadı."
+  },
+  {
+   "sira": 4403,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "paramara",
+   "f": "1161-01-01",
+   "t": "1305-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "R.C. Majumdar (ed.), HCIP V: The Struggle for Empire, Bombay 1957 (archive.org: hcip-5-struggle-for-empire-ed.-r.-c.-majumdar, ham metin)",
+   "alinti": "After Bhoja II we find Mahlak Deo ruling in Malava in A.D. 1305 when 'Ala-ud-din Khalji invaded the country",
+   "oneri": {
+    "f": "1161-01-01 [aralık; HCIP V: 'in the seventh decade of the twelfth century Vindhyavarman ... recovered Malava'; aynı ciltte başka bir cümle c. 1175-78 ipucu: 'About this time the Paramara Vindhyavarman wrested Malava ... Milaraja II died early 1178' — çelişki beyanı]",
+    "t": "1305-01-01 korunur [BÖLGE DÜZEYİ: Mahlak Deo Mandu'da öldürüldü, 'Malava was finally conquered by the Muslims'; Dhar'a özgü gün yok; ic_not: Ain-ul-Mulk]"
+   },
+   "not": "t ucu KAYNAKLI düzeyinde (HCIP V: 'Malwa, ruled by the Paramaras (10th century to AD. 1305)'), BÖLGE/ÜLKE DÜZEYİ yıl. f ucu 'yedinci onyıl' (1160'lar) = aralığın ilk yılı 1161 [aralık] ile uyumlu, ama aynı cilt 1170'ler sonuna işaret ediyor: iki cümle çelişiyor, hüküm bu yüzden ONERI. 1250 civarı Vaghela Visaladeva Dhara'yı yağmaladı, 1305 öncesi Delhi (Balban 1250) ve Yadava akınları (kısa/askerî, devir değil). TDV Dhâr/Mâlva maddesi bulunamadı (arama boş)."
+  }
+ ],
+ "Khajuraho": [
+  {
+   "sira": 4404,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "candela",
+   "f": "0950-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "R.C. Majumdar (ed.), HCIP IV: The Age of Imperial Kanauj, Bombay 1955 (archive.org: hcip-4-age-of-imperial-kanauj-ed.-r.-c.-majumdar, ham metin)",
+   "alinti": "The Chandella ruler Dhanga (AD. 950-1000) claims to have attained 'supreme lordship",
+   "oneri": {
+    "f": "0925-01-01 [yaklaşık; HCIP IV: Yasovarman (Lakshavarman), Harsha'nın oğlu, Pratihara çözülürken 'c. A.D 925' civarı kral oldu, Khajuraho'da Chaturbhuja/Lakshmana Vishnu tapınağını yaptırdı]; ya da 0954 (Dhanga yazıtı, Pratihara üstünlüğünü 954'e dek tanır)",
+    "t": "1281 olay değil atlas kesimi: Candela 1308/1315'e dek bilinir (HCIP V: Hammiravarman son tarih 1308, Viravarman II 1315, 'Chandellas (9th century to 1315)') — t en az 1315 olmalı ya da kesim beyanı"
+   },
+   "not": "f=950 Dhanga'nın saltanat başı (HCIP IV 'Dhanga (A.D. 950-1000)') ile örtüşür AMA Khajuraho'da Yasovarman Candela'nın merkezindeydi (Vishnu tapınağı) ve Pratihara'nın nominal tâbisi: yani sahiplik 950'den eskidir; Dhanga 954'e dek Pratihara Vinayakapala'nın üstünlüğünü tanır. Hüküm ONERI çünkü f ucunu doğrudan Khajuraho'ya bağlayan alıntı yok; Khajuraho yazıtı (Epigraphia Indica I) 954 ham metin okunmadı. Candela'nın Kalinjar'ı Qutb ud-Din Aibak'a kaybı (1202-03) ayrı dilim."
+  }
+ ],
+ "Forteviot": [
+  {
+   "sira": 4405,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "0858-02-13",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": null,
+   "kaynak": "Anderson, A.O., Early Sources of Scottish History A.D. 500 to 1286, vol. 1, Edinburgh 1922 (archive.org earlysourcesofsc01ande, ham metin); atlas künyesi devletler.js iskocya f=0843-01-01",
+   "alinti": "Kenneth ... reigned for sixteen years; and he died at Forteviot.",
+   "oneri": {
+    "f": "0843-01-01 [künye iskocya f ile; Pikt (piktler) t=0843-01-01]; 0858-02-13 Cináed'in ölümü, sahiplik değişimi değil",
+    "t": "1281 olay değil atlas kesimi; İskoçya 1707'ye dek sürer"
+   },
+   "not": "Alıntı Anderson'ın aktardığı Melrose kronikinden (Cinaed 16 yıl krallık, Forteviot'ta ölür; Anderson '? 841-858' verir). 858-02-13 (Alba Kronikinde 'Ides of Feb') bir hükümdarın ölüm günüdür, Forteviot'un devlet değiştirdiği gün DEĞİL; Forteviot Pikt kral merkeziydi (Anderson: Drust/Drostan 'slain at Forteviot', Óengus oğulları Forteviot'ta) ve 843'te Pikt-Dál Riata birleşmesiyle iskocya'ya geçer. Satırın hemen öncesi (843-858) hangi sahibe yazıldıysa kontrol edilmeli; yoksa f=0843 ve künye ile hizalanmalı. Alba Kronikinin 'palatium Fothuirtabaicht' cümlesi vol.1 OCR'ında bulunamadı (Woolf 2007/SERF ham metin okunmadı)."
+  }
+ ]
+}
