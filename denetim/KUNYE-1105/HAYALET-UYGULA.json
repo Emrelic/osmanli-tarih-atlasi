@@ -718,11 +718,11 @@
   "d": "Alta California (Los Angeles, Monterey)",
   "tur": "KUNYE/YERLESIM",
   "karar": "EMRELİC",
-  "islem": "Los Angeles, Monterey ve öteki Alta California yerleşimleri: yeni-ispanya → 1822-04-10, s: meksika 1822-04-11'den (TEK ÖLÇÜ fiilî: Monterey'de bağımsızlık yemini — gün kaynakla, Bancroft / California Historical Society); 1821-09-27 → 1822-04-10 dilimi yeni-ispanya'da kalırsa künye t 1821-09-27'yi AŞAR → o dilim beyanlı 'İspanyol idaresi fiilen sürdü' (künye t aşımı hayalet) ya da ic_not. Değişmez 2: 1822-04-11 maddesi ölçülmeli.",
-  "kunye": "künye değişmez (meksika f 1821-09-27)",
-  "gun": "1822-04-11",
+  "islem": "SEÇENEK (c) — EMRELİC: kırılma 1821-09-27'de KALIR (yeni-ispanya → meksika); 1822-04-11 Monterey bağımsızlık yemini YALNIZ ic_not ('yemin gecikmesi haber süresi, egemenlik dilimi değil'). Gerekçe: TEK ÖLÇÜ iki devlet arası devir içindir; Kaliforniya valiliği taşra birimiydi, Meksika valilikle birlikte devraldı (aynı idarenin ardılı). Önceki '1822-04-11 kırılma kayması' KALDIRILDI — yerleşim kırılmaları 1821-09-27'de kalır (Alta California'da s: meksika 1821-09-27'den yoksa EKLENİR).",
+  "kunye": "künye değişmez (yeni-ispanya t 1821-09-27 = meksika f, bitişik)",
+  "gun": "1821-09-27",
   "guc": "ORTA",
-  "dayanak": "EMRELİC gece-107",
+  "dayanak": "EMRELİC (LAB PAZAR iletimi, gece-107 sonrası)",
   "onay": "EMRELİC 6 Kasım gece-107"
  }
 ]
