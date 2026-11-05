@@ -94,7 +94,17 @@
    "kaynak": "",
    "alinti": "",
    "oneri": {},
-   "not": "Baktım: icty.org Karadžić vaka sayfası (ham metinde 9 Ocak 1992/Pale yok), Britannica 403, enciklopedija.hr Dayton (1995 yok), arama özetleri (encyclopedia.com 27 Mart; PBS 6 Nisan 1992 ilan + Saraybosna başkent: çelişkili, ham doğrulanmadı). KÜNYE UYARISI: Dayton Republika Srpska'yı sona erdirmedi (BiH entitesi olarak sürdü); t=1995-12-14 Pale için sahiplik bitişi değil, künye/LAB sorusu."
+   "not": "LAB SALI (55887c1ad, 5 Kasım 2026): Künye t 1995-12-14 KALIR: Dayton ile egemenlik iddiası bitti; RS bir entite. Pale 1995-12-14'ten bosna-hersek + ic_not 'RS entitesi'. · Baktım: icty.org Karadžić vaka sayfası (ham metinde 9 Ocak 1992/Pale yok), Britannica 403, enciklopedija.hr Dayton (1995 yok), arama özetleri (encyclopedia.com 27 Mart; PBS 6 Nisan 1992 ilan + Saraybosna başkent: çelişkili, ham doğrulanmadı). KÜNYE UYARISI: Dayton Republika Srpska'yı sona erdirmedi (BiH entitesi olarak sürdü); t=1995-12-14 Pale için sahiplik bitişi değil, künye/LAB sorusu.",
+   "oneri_son": {
+    "d": "bosna-sirp-cumhuriyeti",
+    "f": "1992-01-09",
+    "t": "1995-12-14",
+    "sonraki": {
+     "d": "bosna-hersek",
+     "f": "1995-12-14",
+     "ic_not": "RS entitesi"
+    }
+   }
   }
  ],
  "Posušje": [

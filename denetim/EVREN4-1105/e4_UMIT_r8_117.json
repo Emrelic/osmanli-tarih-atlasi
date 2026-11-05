@@ -1,0 +1,133 @@
+{
+ "Daming": [
+  {
+   "sira": 4386, "dosya_satir": "", "alan": "s", "d": "da-qi-liu-yu", "f": "1130-10-12", "t": "1138-01-01",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "oneri_son": {"d": "da-qi-liu-yu", "f": "1130-01-01 [yalnız yıl; Çin ayı çevrilecek]", "t": "1137-01-01 [yalnız yıl; Çin ayı çevrilecek]"},
+   "kaynak": "Jin shi (Tuotuo vd.), juan 3 «Taizong» (zh.wikisource.org/wiki/金史/卷3), 本紀 f ucu; juan 4 «Xizong» (…/金史/卷4) t ucu; juan 77 «Liu Yu» (…/金史/卷77)",
+   "kaynak2": "Jin shi juan 77 列傳第十五 «劉豫»: https://zh.wikisource.org/wiki/金史/卷77",
+   "alinti": "九月戊申，立劉豫爲大齊皇帝，世修子禮，都大名府。",
+   "alinti2": "十一月丙午，廢齊國，降 [封豫為蜀王] (juan 4, 十五年 bölümü). juan 77: 天會十五年，詔廢齊國，降封豫為蜀王。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "ay_gunes_ifadeleri": [
+    {"uc": "f", "ifade": "天會八年 九月 戊申 (Jin shi 3: 九月戊申，立劉豫爲大齊皇帝，都大名府)"},
+    {"uc": "t", "ifade": "天會十五年 十一月 丙午 (Jin shi 4: 十一月丙午，廢齊國)"}
+   ],
+   "not": "Academia Sinica çevirisi EMRELİC'te. Çin ay-güneş ifadeleri BİREBİR yazıldı, çevrilmedi. Önceki ajanın 1130-10-12 ve 1138-01-01 çevirisi (JDN) geçersiz sayıldı. Yıl düzeyi: Jin shi 天會 yıl numarası verir, Mîlâdî karşılığı kaynakta yok (天會八年=1130, 十五年=1137 eşlemesi EMRELİC'te teyit edilmeli). Dikkat: mevcut t 1138-01-01; 天會十五年 11. ay (丙午) Aralık 1137 ya da Ocak 1138'e düşebilir, EMRELİC çevirince karar verilecek. Daming'in Qi'ye ait olması: juan 3 «都大名府» (Qi başkenti ilk olarak Daming); sonra Liu Yu Kaifeng'e geçti (juan 77 Liu Lin: «從豫遷汴»), Daming Qi toprağı kalmıştır. Ölçüt: s: fetihle kurulan Jin vasalı devlet (Jin tâbi değil; Qi künye devleti) bu satırda tâbilik/devir tartışması yok. Değişmez 2 için kronoloji maddesi önerisi: 'Liu Yu Daming'de Büyük Qi imparatoru ilan edildi' (f) ve 'Qi kaldırıldı, Liu Yu Shu Wang' (t); gün çevirisi sonrası."
+  }
+ ],
+ "Xinzheng": [
+  {
+   "sira": 4387, "dosya_satir": "", "alan": "s", "d": "han-devleti-zhou", "f": "-0374-01-01", "t": "-0229-01-01",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "oneri_son": {"d": "han-devleti-zhou", "f": "-0374-01-01 [yalnız yıl; MÖ 375]", "t": "-0229-01-01 [yalnız yıl; MÖ 230]"},
+   "kaynak": "Sima Qian, Shiji juan 45 «Han shijia» (https://zh.wikisource.org/wiki/史記/卷045) ve juan 15 «Liuguo nianbiao» (https://zh.wikisource.org/wiki/史記/卷015)",
+   "kaynak2": "Shiji juan 15 tablo satırları: 375 BC (烈王元年) Han sütunu «二。滅鄭»; 230 BC Qin sütunu «十七。內史騰擊得韓王安，盡取其地，置潁川郡», Han sütunu «九。秦虜王安，秦滅韓»",
+   "alinti": "哀侯二年，滅鄭，因徙都鄭。",
+   "alinti2": "九年，秦虜王安，盡入其地 (juan 45). juan 15, 230 BC: 十七。內史騰擊得韓王安，盡取其地，置潁川郡。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "ay_gunes_ifadeleri": [],
+   "not": "Astronomik yıl: MÖ 375 = -0374, MÖ 230 = -0229 (ANTIK-BRIEF kuralı). f olayı Han Aihou 2. yıl (= tablo satırı 烈王元年), tablo MÖ yılı başlıklı. Han'ın başkenti Zheng'e taşıması = Xinzheng, Han'ın yerleşimi 'sahipliği' f'den. Shiji kronolojisi esas alındı; Zhushu jinian (Bamboo Annals) farklı Han/Zheng yıl dizisi verebilir, okunmadı (BAKILMADI, çelişki beyanı için not). t ülke düzeyinde: Han'ın sonu (Xinzheng Qin Yingchuan komanderliğine girdi, yer adı juan 15 'Yingchuan' komanderliği)."
+  }
+ ],
+ "Horinger (Shengle)": [
+  {
+   "sira": 4388, "dosya_satir": "", "alan": "s", "d": "dai-tuoba", "f": "0315-01-01", "t": "0376-01-01",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "oneri_son": {"d": "dai-tuoba", "f": "0315-01-01", "t": "0376-01-01"},
+   "kaynak": "Sima Guang, Zizhi tongjian juan 89 (https://zh.wikisource.org/wiki/資治通鑑/卷089, 建興三年 乙亥 315 bölümü) ve juan 104 (…/卷104, 太元元年 丙子 376 bölümü); Wei Shu juan 1 «Xu ji» (https://zh.wikisource.org/wiki/魏書/卷1)",
+   "kaynak2": "Wei shu 1 Mudi: «六年，城盛樂以為北都，修故平城以為南都» ; «八年，晉愍帝進帝為代王，置官屬，食代、常山二郡»",
+   "alinti": "詔進拓跋猗盧爵為代王，置官屬，食代、常山二郡。",
+   "alinti2": "juan 104, 太元元年 bölümü: 秦李柔、張蚝勒兵趨雲中；部眾逃潰，國中大亂。 … 代王初亡，群下叛散，遺孫沖幼，莫相統攝。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "ay_gunes_ifadeleri": [],
+   "not": "ZIZHI TONGJIAN bölüm başlıklarındaki Mîlâdî yıl (三一五, 三七六) Wikisource'un başlık notudur; metindeki olay bu başlıkların altındadır (pozisyon ölçüldü: 爵為代王 başlık 建興三年'den sonra; Dai'nin çöküşü 太元元年 başlığı ile 太元二年 başlığı arasında). Shengle: Wei shu Mudi 6. yıl «城盛樂以為北都» (Mudi'nin yıl numarası, takvim karşılığı Wei shu'da yok; Jin vasalı 'Dai gong' 310 sonrası olabilir). UYARI: Shengle 315'ten önce de Tuoba (Yilu) elindeydi (Wei shu 1: «統一部，居定襄之盛樂故城»); 315 öncesi dönem atlasta başka sahiplide ise çelişir. Dai devlet düzeyi yıl teyidi KAYNAKLI; Shengle/Horinger'e özgü gün yok. t: 376 sonunda Qin Dai'yi yıktı, Yunzhong/Shengle bölgesine Qin birlikleri girdi (Liu Kuren ve Liu Weichen bölgeyi böldü, Zizhi tongjian 104 devamı okunmadı)."
+  }
+ ],
+ "Ulan Batur (Tola/Tuul vadisi)": [
+  {
+   "sira": 4389, "dosya_satir": "", "alan": "s", "d": "xueyantuo-kaganligi", "f": "0630-01-01", "t": "0646-01-01",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "oneri_son": {"d": "xueyantuo-kaganligi", "f": "0630-01-01 [yalnız yıl; 貞觀四年]", "t": "0646-01-01 [yalnız yıl; 貞觀二十年, 647'ye taşan dağılma ic_not]"},
+   "kaynak": "Jiu Tang shu juan 199 xia «Beidi: Tiele / Xueyantuo» (https://zh.wikisource.org/wiki/舊唐書/卷199下); Zizhi tongjian juan 193 (貞觀四年 庚寅 630) ve juan 198 (貞觀二十年 丙午 646)",
+   "kaynak2": "ZZTJ 198, 貞觀二十年 bölümü; Jiu Tang shu 199 xia: «二十一年，契苾、回紇等十余部落以薛延陀亡散殆盡，乃相繼歸國»",
+   "alinti": "四年，平突厥頡利之後，夷男率其部東返故國，建庭于都尉揵山北，獨邏河之南",
+   "alinti2": "ZZTJ 198 (貞觀二十年): 秋，七月，咄摩支至京師，拜右武衛大將軍。 薛延陀破滅 (詔: «以薛延陀破滅，其敕勒諸部…»).",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "ay_gunes_ifadeleri": [],
+   "not": "Yıl eşlemesi ZZTJ bölüm başlıklarından (貞觀四年=630, 二十年=646; Wikisource başlık notu). Konum: 獨邏河 (Tola/Tuul) güneyi, 都尉揵山 kuzeyi: Xueyantuo hanlığı ordusu (kağan karargâhı) Tuul havzasındaydı. UYARI (ülke/bölge düzeyi): kaynak Ulan Bator'u adıyla anmaz; Tola nehrine göre konum verir, hükmü bölge düzeyidir (ÜLKE/BÖLGE DÜZEYİ, KASA beyanlı yaklaşıklık yazabilir). 646-647: 646 Xueyantuo yenilgisi (ZZTJ 198: Duomi Kağan'ın Tang saldırısıyla bozulması, Li Shiji'nin Yude'ye kadar takibi ve Zhimozhi'nin teslimi), 647 Tiele kabilelerinin Tang'a katılışı ve Yanran Duhufu'nun kurulması (juan 199 xia). Dönem t=646 yıl düzeyinde doğru, sonraki dilim için 647 yeni sahip (Tang/Yanran protektorası: v: tang? kararı KASA/EMRELİC)."
+  }
+ ],
+ "Kaifeng (Daliang)": [
+  {
+   "sira": 4390, "dosya_satir": "", "alan": "s", "d": "wei-devleti-zhou", "f": "-0339-01-01", "t": "-0224-01-01",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "oneri_son": {"d": "wei-devleti-zhou", "f": "-0339-01-01 [yalnız yıl; MÖ 340, Shiji kronolojisi]", "t": "-0224-01-01 [yalnız yıl; MÖ 225]"},
+   "kaynak": "Sima Qian, Shiji juan 44 «Wei shijia» (https://zh.wikisource.org/wiki/史記/卷044) ve juan 15 «Liuguo nianbiao» (…/史記/卷015)",
+   "kaynak2": "Shiji juan 15, 225 BC satırı: «二十二。王賁擊魏，得其王假，盡取其地。三。秦虜王假。»; 340 BC satırında Wei sütunu «三十一。秦商君伐我，虜我公子卬»",
+   "alinti": "卅一年，… 安邑近秦，於是徙治大梁。",
+   "alinti2": "三年，秦灌大梁，虜王假，遂滅魏以爲郡縣。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "ay_gunes_ifadeleri": [],
+   "not": "Astronomik yıl: MÖ 340 = -0339, MÖ 225 = -0224. ÇELİŞKİ UYARISI (kaynaklı değil, beyan): Shiji kronolojisi Huiwang'ın 31. yılını (= 340 BC tablo satırı) taşıma yılı yapar; Zhushu jinian (Bamboo Annals) Wei Huicheng 9. yıl (361 BC) verir; bu sürüm okunmadı (BAKILMADI), ic_not'a «Shiji kronolojisi esas, Zhushu jinian 361 BC alternatif» yazılmalı. Daliang = Kaifeng'in öncülü (Shiji «吾適故大梁之墟»). t olayı: Daliang'ın suyla basılması (引河溝灌大梁, Shiji 44 Taishigong sözü), 3 ay sonra teslim; 225 BC. Wei'nin başkenti olarak Daliang, f'den itibaren."
+  }
+ ],
+ "Buan (Juryu-seong adayi)": [
+  {
+   "sira": 4391, "dosya_satir": "", "alan": "s", "d": "baekje-restorasyon", "f": "0661-01-01", "t": "0663-10-14",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "oneri_son": {"d": "baekje-restorasyon", "f": "0661-01-01 [yalnız yıl; ZZTJ 龍朔元年 bölümü, olay 660 sonu olabilir]", "t": "0663-01-01 [yalnız yıl; Çin ayı çevrilecek]"},
+   "kaynak": "Zizhi tongjian juan 200 (https://zh.wikisource.org/wiki/資治通鑑/卷200, 龍朔元年 辛酉 661 bölümü) ve juan 201 (…/卷201, 龍朔三年 癸亥 663 bölümü); Jiu Tang shu juan 199 shang «Baekje» (https://zh.wikisource.org/wiki/舊唐書/卷199上)",
+   "kaynak2": "Jiu Tang shu 199 shang: «百濟僧道琛、舊將福信率衆據周留城以叛» ; «時龍朔元年三月也»",
+   "alinti": "九月，戊午，熊津道行軍總管、右威衛將軍孫仁師等破百濟餘眾及倭兵於白江，拔其周留城。",
+   "alinti2": "ZZTJ 200 (龍朔元年 bölümü): 百濟僧道琛、故將福信聚眾據周留城，迎故王子豐於倭國而立之。 ZZTJ 201: 百濟王豐脫身奔高麗，王子忠勝、忠志等帥眾降，百濟盡平。",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "ay_gunes_ifadeleri": [
+    {"uc": "t", "ifade": "龍朔三年 九月 戊午 (ZZTJ 201: 九月，戊午 … 拔其周留城); Jiu Tang shu 'ganzhi' vermez, 白江口 muharebesi ZZTJ'de aynı olay bölümünde"}
+   ],
+   "not": "Academia Sinica çevirisi EMRELİC'te. Önceki ajanın 0663-10-14 çevirisi geçersiz sayıldı; oneri_son t yalnız yıl. f için uyarı: ZZTJ isyanı 龍朔元年 bölümünde anlatır, Jiu Tang shu ise 顯慶五年 (660) Sabi düşüşünden ve Wang Wendu'nun ölümünden hemen sonra yerleştirir; 661-01-01 yıl düzeyinde ZZTJ başlığıyla tutarlı, kesin yıl 660 sonu da olabilir (kaynak çelişkisi, EMRELİC kararı). 🔴 KONUM: kaynaklar Juryu-seong'u (周留城) bir modern yere bağlamaz. 'Buan' yalnız modern aday (Wiryeo-seong/Byeonsan vb.); konum kaynaksız — satır KAYNAKLI yalnız devlet+tarih bakımından, 'Buan = Juryu' sorusu BULUNAMADI (Samguk sagi okunmadı: BAKILMADI). Yerleşim 'Buan' adayı yerine tarihsel Juryu-seong konumu çözülmedikçe beyanlı yaklaşıklık."
+  }
+ ],
+ "Xuzhou (Pengcheng)": [
+  {
+   "sira": 4392, "dosya_satir": "", "alan": "s", "d": "bati-chu-xiang-yu", "f": "-0205-01-01", "t": "-0201-01-01",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "oneri_son": {"d": "bati-chu-xiang-yu", "f": "-0205-01-01 [yalnız yıl; MÖ 206; Qin-Han ayları çevrilecek]", "t": "-0201-01-01 [yalnız yıl; MÖ 202; Qin-Han ayı çevrilecek]"},
+   "kaynak": "Sima Qian, Shiji juan 16 «Qin Chu zhi ji yuebiao» (https://zh.wikisource.org/wiki/史記/卷016)",
+   "kaynak2": "Shiji juan 16: 206 BC bloğunda «項籍自立為西楚霸王» ve «二。都彭城»; 202 BC bloğunda «十二。誅籍» (Chu sütunu) ve «正月。殺項籍，天下平，諸侯臣屬漢»",
+   "alinti": "項籍自立為西楚霸王。 … 二。都彭城。",
+   "alinti2": "正月。殺項籍，天下平，諸侯臣屬漢。 (ayrıca Chu sütunu: «十二。誅籍»)",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "ay_gunes_ifadeleri": [
+    {"uc": "f", "ifade": "(MÖ 206 bloğu, Qin-Han ay sütunu) 項籍自立為西楚霸王 … 二。都彭城 — ay/gün Shiji tablosunda yok; Han 元年 (Qin takvimi, yıl 10. ayda başlar)"},
+    {"uc": "t", "ifade": "(MÖ 202 bloğu) 漢五年 十二月 誅籍 / 正月 殺項籍 — Qin-Han takvimi, 12. ay ile 1. ay ikisi de tabloda; hangisinin Han 5 yılına ait olduğu EMRELİC'te çözülecek"}
+   ],
+   "not": "Academia Sinica çevirisi EMRELİC'te (Qin-Han takvimi: yıl 10. ayda başlar; ay adı ve yıl bloğu birebir yazıldı, MÖ yıla çevrilmedi). oneri_son yalnız yıl düzeyi. Astronomik yıl: MÖ 206 = -0205, MÖ 202 = -0201. UYARI: Pengcheng'in Han'ın Chu savaşı sırasında geçici el değiştirmiş olması olasılığı (Han 2-4. yıllar) okunmadı (BAKILMADI); gerekirse ayrı dilim. Sahiplik düzeyi: Xiang Yu Batı Chu'yu kendisi ilan edip başkenti Pengcheng yaptı (idareye katma belgesi = başkent); t: Xiang Yu'nun ölümü, yer Han'a geçti."
+  }
+ ],
+ "Huangzhou (Zhu)": [
+  {
+   "sira": 4393, "dosya_satir": "", "alan": "s", "d": "hengshan-krallik", "f": "-0205-01-01", "t": "-0201-01-01",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "oneri_son": {"d": "hengshan-krallik", "f": "-0205-01-01 [yalnız yıl; MÖ 206; Qin-Han ayları çevrilecek]", "t": "-0201-01-01 [yalnız yıl; MÖ 202; Qin-Han ayı çevrilecek]"},
+   "kaynak": "Sima Qian, Shiji juan 16 «Qin Chu zhi ji yuebiao» (https://zh.wikisource.org/wiki/史記/卷016)",
+   "kaynak2": "Shiji juan 16: 206 BC bloğu «分為衡山» … «王吳芮始，故番君» … «二。都邾»; 202 BC bloğu: «衡山王吳芮為為長沙王»",
+   "alinti": "二。都邾。 … 王吳芮始，故番君。",
+   "alinti2": "衡山王吳芮為為長沙王。 (202 BC bloğu, 二月 甲午 Han imparatorluk ilanı satırlarının yanında)",
+   "dogrusu": "",
+   "tarayici_gerekli": [],
+   "ay_gunes_ifadeleri": [
+    {"uc": "f", "ifade": "(MÖ 206 bloğu, Qin-Han takvimi) 分為衡山 / 王吳芮始 / 二。都邾 — ay yok, yıl bloğu"},
+    {"uc": "t", "ifade": "(MÖ 202 bloğu) 五年 … 衡山王吳芮為為長沙王 — Qin-Han ayı tabloda belirgin değil (二月 甲午 satırlarına yakın); EMRELİC çevirir"}
+   ],
+   "not": "Academia Sinica çevirisi EMRELİC'te; yıl düzeyi. Astronomik yıl: MÖ 206 = -0205, MÖ 202 = -0201. Zhu = 邾 (Hengshan krallığı başkenti, tabloda 'çift' başkent satırı); Zhu'nun modern Huangzhou (Hubei) ile eşleşmesi kaynakta verilmedi (kaynak yalnız antik ad 邾 verir; konum eşleşmesi ayrı doğrulama ister, BAKILMADI). UYARI: t yıl bloğu Han 5'te Wu Rui'nin Changsha'ya taşınması; Hengshan toprağı 'Huainan' krallığına geçti (tablo satırı: «屬淮南國»), Zhu'nun fiilî sahibi t'den sonra Huainan Krallığı (Ying Bu) olabilir — ayrı dilim sahibi için künye kontrolü gerekli."
+  }
+ ]
+}

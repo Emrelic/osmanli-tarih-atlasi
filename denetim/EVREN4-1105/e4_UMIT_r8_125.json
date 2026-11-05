@@ -17,7 +17,7 @@
     "t": "-2299-01-01",
     "beyan": "BEYANLI YAKLASIKLIK, ABI MERKEZ Uruk"
    },
-   "not": "ANTIK B'den (antik_sonuc.json, ARCANE III, parti db_ra_008). ARCANE Eridu'nun Lugalzagesi'yi TANIDIĞINI yazar (tanıma/tâbilik devir değildir) -> KAYNAKLI değil ONERI + abi merkez Uruk. Astronomik: ca. MÖ 2324 -> -2323, ca. MÖ 2300 -> -2299 [yaklaşık ±30, orta kronoloji]. HAYALET RİSKİ: künye uruk-erken-hanedan t=-2333 (devletler.js ölçüldü) bu dilimi KAPSAMIYOR; önce künye t -2299'a genişletilmeli (LAB) ya da Treccani (Lugalzagesi ~2335) ile ARCANE MC çelişkisi karara bağlanmalı. Eridu için doğrudan idare belgesi bulunamadı."
+   "not": "LAB SALI (55887c1ad, 5 Kasım 2026): Değişiklik GEREKMEZ: uruk-erken t −2333 (gece-77), akad f −2333 bitişik; −2323 → −2299 dilimini akad künyesi kapsar, hayalet yok. · ANTIK B'den (antik_sonuc.json, ARCANE III, parti db_ra_008). ARCANE Eridu'nun Lugalzagesi'yi TANIDIĞINI yazar (tanıma/tâbilik devir değildir) -> KAYNAKLI değil ONERI + abi merkez Uruk. Astronomik: ca. MÖ 2324 -> -2323, ca. MÖ 2300 -> -2299 [yaklaşık ±30, orta kronoloji]. HAYALET RİSKİ: künye uruk-erken-hanedan t=-2333 (devletler.js ölçüldü) bu dilimi KAPSAMIYOR; önce künye t -2299'a genişletilmeli (LAB) ya da Treccani (Lugalzagesi ~2335) ile ARCANE MC çelişkisi karara bağlanmalı. Eridu için doğrudan idare belgesi bulunamadı."
   }
  ],
  "Megara Hyblaia (Megara Hyblaea)": [

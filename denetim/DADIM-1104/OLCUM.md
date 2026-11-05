@@ -1280,7 +1280,15 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - Ruijin t 1934-10-10 olayı tarihlemiyor (1934-11-10 yalnız Vikipedi).
   - Vichy şehir devri 1944-08-25/26 (devlet ucu 08-20).
   - Tifariti: SADR ilanı Tifariti'nin devri değil.
-  - Lusaka: Kuzey Rodezya künyesi yok (LAB).
+  - Lusaka: ~~Kuzey Rodezya künyesi yok~~ YANLIŞ — LAB: ingiliz-kuzey-rodezya 1890 → 1964-10-24 var.
+    - Zincir: 1953-08-01 → 1964-10-24 s: ingiliz-kuzey-rodezya, aynı aralıkta 1963-12-31'e dek v: federasyon; ardından zambiya.
+- **LAB SALI yanıtı (55887c1ad, `karar61.py`):**
+  - **Pale:** RS künye t 1995-12-14 kalır; 1995-12-14'ten bosna-hersek + ic_not "RS entitesi".
+  - **Eridu:** değişiklik yok (akad f −2333 bitişik).
+  - **Tripuri:** 1181 alt sınır; "hanedanın sonu bilinmiyor".
+  - **Çayönü −6999, Ceibal −0349, el-tajin 1200, geç Harappa:** GENİŞLET adayı (LAB paketi).
+  - **Almatı 1847–1854:** Büyük Cüz / Hokand / kabile kaynakla seçilecek.
+  - **Soyo:** aday; Thornton esas, SAHO tek dayanak olamaz.
   - Garðar: 1124 piskopos, t 1450 kaynaksız.
 - **r8_120:** KAYNAKLI 3 (Edington/Wessex, Talakad, Çatalhöyük f) · ONERI 7.
   - **Ani:** t 1064-08-16 (TDV Alparslan; TDV Bizans 1065, çift-TDV beyanı).

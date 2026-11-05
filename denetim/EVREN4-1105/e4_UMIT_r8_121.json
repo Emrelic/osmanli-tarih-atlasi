@@ -112,7 +112,7 @@
     "t": "1181-01-01",
     "d": "kalacuri-tripuri"
    },
-   "not": "EMRELİC gece-98 (5 Kasım 2026): IGI ipucu: künye t → 1181-01-01 '[son yazıt; IGI]' ONERI-güçlü (hayalet devlet giderilir). LAB'a. · IGI: Kalachuri/Chedi hanedanı başkenti 'Tripura or Karanbel, where the village of Tewar now stands near Jubbulpore'; 9. yy'dan önce bilinmiyor; son anıldığı yazıt 1181. t=2000-12-31 hayalet: künyenin t'si yok, künye özeti de t BULUNAMADI diyor. ONERI t=1181-01-01 [yalnız yıl; son yazıt, siyasi sonu doğrudan tarihlemez]. Sonrası Tewar için sahip (Chandela/Paramara/Gond Garha) belirsiz -> __BOSLUK__ ya da yeni künye kararı. Modern akademik teyit (Mirashi, CII IV; Epigraphia Indica) okunamadı -> ONERI-güçlü. f=1000 künye f 850 ile uyumlu ara uç, kaynaksız.",
+   "not": "LAB SALI (55887c1ad, 5 Kasım 2026): Son yazıt (1181) ALT SINIRDIR; ic_not'a 'hanedanın sonu bilinmiyor' yazılır. · EMRELİC gece-98 (5 Kasım 2026): IGI ipucu: künye t → 1181-01-01 '[son yazıt; IGI]' ONERI-güçlü (hayalet devlet giderilir). LAB'a. · IGI: Kalachuri/Chedi hanedanı başkenti 'Tripura or Karanbel, where the village of Tewar now stands near Jubbulpore'; 9. yy'dan önce bilinmiyor; son anıldığı yazıt 1181. t=2000-12-31 hayalet: künyenin t'si yok, künye özeti de t BULUNAMADI diyor. ONERI t=1181-01-01 [yalnız yıl; son yazıt, siyasi sonu doğrudan tarihlemez]. Sonrası Tewar için sahip (Chandela/Paramara/Gond Garha) belirsiz -> __BOSLUK__ ya da yeni künye kararı. Modern akademik teyit (Mirashi, CII IV; Epigraphia Indica) okunamadı -> ONERI-güçlü. f=1000 künye f 850 ile uyumlu ara uç, kaynaksız.",
    "_etiket": "ONERI_GUCLU",
    "oneri_son": {
     "d": "kalacuri-tripuri",
@@ -160,7 +160,26 @@
     "t": "1963-12-31",
     "d": "rodezya-nyasaland-federasyonu"
    },
-   "not": "YIL düzeyi uyumlu: VLE 1931-64 Lusaka Kuzey Rodezya himayesi idare merkezi; 1953-63 Federasyon (federal başkent aslında Salisbury). Gün uçları (08-01 Vikipedi türevi, FOTW 3 Eylül 1953 diyor; 1963-12-31 Britannica arama özeti, 403) ham metinle doğrulanamadı. Asıl soru: Lusaka için s: federasyon mu, s: kuzey-rodezya (Britanya himayesi) mü; devletler.js'te 'kuzey-rodezya' künyesi YOK (yalnız 'zambiya') -> LAB. 1963-12-31 -> 1964-10-24 (Zambia Independence Act 1964, arama özeti) arası dilimin sahibi atlasta ayrıca kontrol edilmeli. Uç günleri BAKILMADI."
+   "not": "LAB SALI (55887c1ad, 5 Kasım 2026): Kuzey Rodezya künyesi VAR (ingiliz-kuzey-rodezya 1890 → 1964-10-24, devletler.js:10282); önceki 'künye yok' notu YANLIŞ. Federasyonda protektora sürdü: s: ingiliz-kuzey-rodezya + v: federasyon 1953-08-01 → 1963-12-31; 1964-01-01 → 10-23 s: ingiliz-kuzey-rodezya; 1964-10-24 zambiya. Boşluk kalmaz. · YIL düzeyi uyumlu: VLE 1931-64 Lusaka Kuzey Rodezya himayesi idare merkezi; 1953-63 Federasyon (federal başkent aslında Salisbury). Gün uçları (08-01 Vikipedi türevi, FOTW 3 Eylül 1953 diyor; 1963-12-31 Britannica arama özeti, 403) ham metinle doğrulanamadı. Asıl soru: Lusaka için s: federasyon mu, s: kuzey-rodezya (Britanya himayesi) mü; devletler.js'te 'kuzey-rodezya' künyesi YOK (yalnız 'zambiya') -> LAB. 1963-12-31 -> 1964-10-24 (Zambia Independence Act 1964, arama özeti) arası dilimin sahibi atlasta ayrıca kontrol edilmeli. Uç günleri BAKILMADI.",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "ingiliz-kuzey-rodezya",
+     "f": "1953-08-01",
+     "t": "1964-10-24"
+    },
+    {
+     "alan": "v",
+     "d": "rodezya-nyasaland-federasyonu",
+     "f": "1953-08-01",
+     "t": "1963-12-31"
+    },
+    {
+     "alan": "s",
+     "d": "zambiya",
+     "f": "1964-10-24"
+    }
+   ]
   }
  ],
  "Butterworth": [
