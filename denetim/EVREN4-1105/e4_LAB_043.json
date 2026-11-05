@@ -1,0 +1,661 @@
+{
+ "Brakya (Brač)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1854",
+   "alan": "s",
+   "d": "italya-napolyon",
+   "f": "1806-02-01",
+   "t": "1809-10-14",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "Bakılan: enciklopedija.hr (Hrvatska enciklopedija) SSL sertifika hatasıyla açılamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıtlı kaynak LZMK dalmacija/zadar; kapalı kapı. İkinci basamak denenmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1854",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1991-06-25",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/milestones/1989-1992/breakup-yugoslavia",
+   "alinti": "Slovenia and Croatia both declared formal independence on June 25, 1991.",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (ÜLKE DÜZEYİ, devlet yayını). f 1945-11-29: TDV yugoslavya '29 Kasım 1943’te krallığa son verilerek Federatif Yugoslavya Halk Cumhuriyeti ilân edildi' diyor (1943/1945 tutarsız; AVNOJ 1943 ic_not) — f teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1854",
+   "alan": "s",
+   "d": "hirvatistan",
+   "f": "1991-06-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://history.state.gov/milestones/1989-1992/breakup-yugoslavia",
+   "alinti": "Slovenia and Croatia both declared formal independence on June 25, 1991.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: history.state.gov (ABD Dışişleri tarih ofisi). Ada Brač bu tarihte ayrıca el değiştirmedi. Tanınma Ocak 1992 (aynı sayfa)."
+  }
+ ],
+ "Boma": [
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:70",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Bağımsız Kongo Devleti’ni kurdu (1885) / 15 Kasım 1908 tarihinde ülkeyi resmen sömürgeleştirdi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f: yalnız yıl (1885; atlas 1885-01-01 = kur yıl düzeyi). t: gün 1908-11-15 TDV'de açık. Boma'nın Serbest Devlet içinde oluşu ülke düzeyinden çıkarım."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:70",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "30 Haziran 1960 tarihinde bağımsızlığına kavuşan",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: TDV Kongo Demokratik Cumhuriyeti; gün düzeyi."
+  }
+ ],
+ "Bondugu (Gyaaman)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:641",
+   "alan": "s",
+   "d": "gyaaman",
+   "f": "1690-01-01",
+   "t": "1893-07-12",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV fildisi-sahili (Bondoukou/Gyaaman geçmiyor; yalnız Kong 1889 koruma, Samori 1895, Odienne 1898), WebSearch (yalnız Vikipedi aynaları = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "İPUCU (kaynak sayılmaz): Treich-Laplène 1888-11-13 Bondoukou koruma anlaşması (v: fransa adayı; Gyaaman künye t 1895 ile uyumsuz), Samori 1895-97, Fransız girişi 1897/1899 çelişkili. Hertslet 1909 c.2 No.236 (kayıtlı) bu turda yeniden açılmadı. Himaye kuralı: s: gyaaman sürer, v: fransa 1888 olabilir — kaynak gerek."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:641",
+   "alan": "s",
+   "d": "fildisi-sahili",
+   "f": "1960-08-07",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/fildisi-sahili",
+   "alinti": "7 Ağustos 1960 tarihinde de tam bağımsızlığını elde ederek",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: TDV Fildişi Sahili; gün düzeyi."
+  }
+ ],
+ "Bosna Novi'si (Bosanski Novi)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:302",
+   "alan": "isg",
+   "d": "macaristan-habsburg",
+   "f": "1788-10-03",
+   "t": "1791-08-04",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/zistovi-antlasmasi",
+   "alinti": "1787’de başlayan Osmanlı-Rus-Avusturya savaşı sonunda 4 Ağustos 1791’de Avusturya ile yapılan barış antlaşması.",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (Ziştovi imza) tarihliyor; Novi'nin iade/teslim günü ve f 1788-10-03 (Laudon fethi: yalnız arama sonucu/RCT harita notu, okunmadı) kaynakta teyitsiz. TEK ÖLÇÜ: iade teslim günü bilinmiyor; HE 'Novi Grad' fiilî 1788–95 diyor (kayıtta) — t belirsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_ek29.js:302",
+   "alan": "s",
+   "d": "yugoslavya-federal",
+   "f": "1945-11-29",
+   "t": "1992-03-03",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV yugoslavya, history.state.gov breakup-yugoslavia",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-96): FNRJ 1945-11-29 (AVNOJ 1943 ic_not); BiH bağımsızlığı 1992-03-03 (referandum) vs state.gov 'Mayıs 1992' — ÇELİŞKİ, kaynakla. | f: TDV '29 Kasım 1943’te ... Federatif Yugoslavya Halk Cumhuriyeti ilân edildi' (yıl tutarsız, seçilmedi). t 1992-03-03: history.state.gov 'declared its independence from Yugoslavia in May 1992' (3 Mart yok; UN üyeliği 22 Mayıs 1992); iki kaynak birbirini tutmuyor, seçme."
+  }
+ ],
+ "Bridgetown": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:113",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1627-02-17",
+   "t": "1958-01-03",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: legislation.gov.uk (1958 Federasyon yasası URL'si 404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1627-02-17 ve t 1958-01-03 aranmadı/bulunamadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:113",
+   "alan": "s",
+   "d": "barbados",
+   "f": "1966-11-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.legislation.gov.uk/ukpga/1966/37/section/1",
+   "alinti": "On and after 30th November 1966 (in this Act referred to as “ the appointed day ”)",
+   "oneri": {},
+   "not": "Barbados Independence Act 1966 s.1 (devlet yayını); ÜLKE DÜZEYİ."
+  }
+ ],
+ "Buake (Bouaké)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:680",
+   "alan": "s",
+   "d": "dan-guro",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV fildisi-sahili (Bouaké yalnız çağdaş şehir listesinde; Odienne 1898, sömürge 1893)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bouaké'nin Fransız girişi/kuruluş günü bulunamadı; merdiven ④ kırpma için kaynak yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:680",
+   "alan": "s",
+   "d": "fildisi-sahili",
+   "f": "1960-08-07",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/fildisi-sahili",
+   "alinti": "7 Ağustos 1960 tarihinde de tam bağımsızlığını elde ederek",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: TDV Fildişi Sahili."
+  }
+ ],
+ "Bure (Gocam)": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:451",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: history.state.gov FRUS 1936 v.3 d229",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: İtalyan Doğu Afrikası 1936-06-01 (Treccani AOI); FRUS 1936-05-09 ilhak kararnamesi ic_not. | FRUS d229: ilhak kararnamesi 9 Mayıs 1936 ('by a decree dated May 9th, 1936'); 1936-06-01 AOI kuruluşu bilinen karar, kaynakta okunmadı. Yerleşimin fiilî teslim günü yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:451",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: history.state.gov FRUS 1936 v.3 d229",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: İtalyan Doğu Afrikası 1936-06-01 (Treccani AOI); FRUS 1936-05-09 ilhak kararnamesi ic_not. | f 1936-06-01 (AOI) bu turda tarihli kaynakla okunmadı; t 1941-11-30 (Gondar 1941-11-27 teslimi) aranmadı."
+  }
+ ],
+ "Burgos": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:255",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bu turda aranmadı (Kastilya t 1479-01-19: DBE Juan II Aragón 19.I.1479 zincirdeki not; çıkarım)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:255",
+   "alan": "s",
+   "d": "ispanya-milliyetci",
+   "f": "1936-07-18",
+   "t": "1939-04-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.enciclopedia.cat/gran-enciclopedia-catalana/el-divuit-de-juliol",
+   "alinti": "El 18 tingueren lloc els de Canàries, Sevilla / Valladolid i Burgos; el 19, els de Saragossa",
+   "oneri": {},
+   "not": "Rakip hükûmet: Burgos'ta ayaklanma 1936-07-18/19 (fiilî milliyetçi kontrol); gün Gran Enciclopèdia Catalana 07-18 — beyanlı yaklaşıklık. | Kaynak AYAKLANMA günüdür (Burgos 18 Temmuz 1936); Milliyetçi eline geçiş günü olarak beyanlı yaklaşıklık. Kaynak sayfa.py ham çıktısı."
+  }
+ ],
+ "Bâtî": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:470",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1936-06-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: history.state.gov FRUS 1936 v.3 d229",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: İtalyan Doğu Afrikası 1936-06-01 (Treccani AOI); FRUS 1936-05-09 ilhak kararnamesi ic_not. | FRUS d229: ilhak kararnamesi 9 Mayıs 1936 ('by a decree dated May 9th, 1936'); 1936-06-01 AOI kuruluşu bilinen karar, kaynakta okunmadı. Yerleşimin fiilî teslim günü yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:470",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-11-30",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: history.state.gov FRUS 1936 v.3 d229",
+   "alinti": "",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: İtalyan Doğu Afrikası 1936-06-01 (Treccani AOI); FRUS 1936-05-09 ilhak kararnamesi ic_not. | f 1936-06-01 (AOI) bu turda tarihli kaynakla okunmadı; t 1941-11-30 (Gondar 1941-11-27 teslimi) aranmadı."
+  }
+ ],
+ "Blantyre": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1751",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1876-01-01",
+   "t": "1964-07-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.legislation.gov.uk/ukpga/1964/46/section/1",
+   "alinti": "On and after 6th July 1964 (in this Act referred to as “ the appointed day ”)",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu tarihliyor (Malawi Independence Act, devlet yayını). f 1876: Blantyre misyon kuruluşu; İngiliz Merkezi Afrika himayesi 1891 (ipucu) — f sorunlu, kaynak aranmadı."
+  }
+ ],
+ "Boa Vista do Rio Branco": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1033",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1890-07-09",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "IBGE API (servicodados.ibge.gov.br) zaman aşımı, cidades.ibge.gov.br 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıt düzeyinde kaynak (IBGE Formação Administrativa) erişilemedi; ikinci basamak denenmedi."
+  }
+ ],
+ "Bolaños": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1912",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1823-08-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "INEGI PDF https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463909477.pdf (denenmedi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "e-local.gob.mx DNS hatası."
+  }
+ ],
+ "Bolşeretsk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:57",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1704-08-06",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV rusya (1917 Mart günü yok), prlib.ru (robot/challenge sayfası), history.state.gov russian-rev (404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1704-08-06 (Zuev, Sibirskaya Zaimka) bu turda açılmadı."
+  }
+ ],
+ "Bonfinópolis de Minas": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:297",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1869-11-06",
+   "t": "1889-11-15",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "IBGE API (servicodados.ibge.gov.br) zaman aşımı, cidades.ibge.gov.br 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıt düzeyinde kaynak (IBGE Formação Administrativa) erişilemedi; ikinci basamak denenmedi."
+  }
+ ],
+ "Borja (Maynas)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:81",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1619-01-01",
+   "t": "1824-12-09",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV peru (madde yok, yalnız arama sayfası)",
+   "alinti": "",
+   "oneri": {},
+   "not": "t 1824-12-09 ve f 1619 aranmadı; Maynas'ın Peru'ya katılışı Ayacucho'dan farklı olabilir."
+  }
+ ],
+ "Bourges": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:197",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute",
+   "alinti": "Elle abolit la royauté à l’unanimité le 21 septembre. Le lendemain, en ordonnant de dater les actes publics",
+   "oneri": {
+    "t": "1792-09-21"
+   },
+   "not": "ÖNCEKİ KARAR (gece-91): Fransa Cumhuriyeti 1792-09-21 (Assemblée nationale, KAYNAKLI). | BİLİNEN KARAR: Fransa Cumhuriyeti 1792-09-21 (künye f 1792-09-22 → 21). Kaynak: Convention 21'de krallığı kaldırdı, 22'de cumhuriyet rejimi (çift gün). ÜLKE DÜZEYİ, t ucu. f 1281 aranmadı."
+  }
+ ],
+ "Bourke": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:279",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1835-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.foundingdocs.gov.au/item-sdid-85.html",
+   "alinti": "On 16 July the British Colonial Secretary, Joseph Chamberlain, set 1 January 1901 as the date on which the Commonwealth would be established",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (Federasyon 1901-01-01) tarihliyor; f (yerleşim kuruluşu) yer_kaynak'ta (Queensland Places/DPLH/Companion to Tasmanian History) — bu turda erişilemedi/robots. ÜLKE DÜZEYİ, devlet yayını (foundingdocs.gov.au)."
+  }
+ ],
+ "Brochet (Ren Geyiği Gölü)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:447",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1859-01-01",
+   "t": "1870-07-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: laws-lois.justice.gc.ca Constitution Acts page-12 (Rupert's Land metni burada yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1859 (Brochet) ve t 1870-07-15 (Rupert's Land Order) okunamadı."
+  }
+ ],
+ "Buhodle": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:624",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV adal (madde yok), WebSearch (yalnız Vikipedi aynaları = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Buuhoodle'nin Adal'a aidiyeti ve 1577 sonu kaynakta bulunamadı."
+  }
+ ],
+ "Bulhar": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:840",
+   "alan": "s",
+   "d": "adal",
+   "f": "1281-01-01",
+   "t": "1577-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV adal (madde yok), WebSearch (yalnız Vikipedi aynaları = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bulhar'ın Adal'a aidiyeti ve 1577 sonu kaynakta bulunamadı."
+  }
+ ],
+ "Bulun": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:265",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1632-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV rusya (1917 Mart günü yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1632 aranmadı."
+  }
+ ],
+ "Bundaberg": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:179",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1866-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.foundingdocs.gov.au/item-sdid-85.html",
+   "alinti": "On 16 July the British Colonial Secretary, Joseph Chamberlain, set 1 January 1901 as the date on which the Commonwealth would be established",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (Federasyon 1901-01-01) tarihliyor; f (yerleşim kuruluşu) yer_kaynak'ta (Queensland Places/DPLH/Companion to Tasmanian History) — bu turda erişilemedi/robots. ÜLKE DÜZEYİ, devlet yayını (foundingdocs.gov.au). Not: Bundaberg kur 1866, yer_kaynak alıntısı 1868 diyor."
+  }
+ ],
+ "Burnie": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:284",
+   "alan": "s",
+   "d": "van-diemens-land",
+   "f": "1827-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.foundingdocs.gov.au/item-sdid-85.html",
+   "alinti": "On 16 July the British Colonial Secretary, Joseph Chamberlain, set 1 January 1901 as the date on which the Commonwealth would be established",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (Federasyon 1901-01-01) tarihliyor; f (yerleşim kuruluşu) yer_kaynak'ta (Queensland Places/DPLH/Companion to Tasmanian History) — bu turda erişilemedi/robots. ÜLKE DÜZEYİ, devlet yayını (foundingdocs.gov.au)."
+  }
+ ],
+ "Buğulma": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:371",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1736-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: TDV rusya (1917 Mart günü yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1736 aranmadı."
+  }
+ ],
+ "Bytown (Ottawa)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:965",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1826-01-01",
+   "t": "1867-07-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "http://www.biographi.ca/en/bio/by_john_7E.html",
+   "alinti": "Late in September 1826 By arrived at the mouth of the Rideau River",
+   "oneri": {},
+   "not": "DCB 'By, John': Eylül sonu 1826 varış, kamp sonra Bytown; yerleşimin kendisi 1827 Nisan'dan; atlas f 1826-01-01 (yıl) tam desteklenmiyor. t 1867-07-01: Parks Canada (HSMBC) 'On July 1st 1867 this act ... created the Dominion of Canada' (https://parks.canada.ca/culture/designation/evenement-event/conferences-charlottetown-quebec)."
+  }
+ ],
+ "Caetité (Vila Nova do Príncipe)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:32",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1754-01-01",
+   "t": "1822-09-07",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "IBGE API (servicodados.ibge.gov.br) zaman aşımı, cidades.ibge.gov.br 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıt düzeyinde kaynak (IBGE Formação Administrativa) erişilemedi; ikinci basamak denenmedi."
+  }
+ ],
+ "Cahors": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:203",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute",
+   "alinti": "Elle abolit la royauté à l’unanimité le 21 septembre. Le lendemain, en ordonnant de dater les actes publics",
+   "oneri": {
+    "t": "1792-09-21"
+   },
+   "not": "ÖNCEKİ KARAR (gece-91): Fransa Cumhuriyeti 1792-09-21 (Assemblée nationale, KAYNAKLI). | BİLİNEN KARAR: Fransa Cumhuriyeti 1792-09-21 (künye f 1792-09-22 → 21). Kaynak: Convention 21'de krallığı kaldırdı, 22'de cumhuriyet rejimi (çift gün). ÜLKE DÜZEYİ, t ucu. f 1281 aranmadı."
+  }
+ ],
+ "Cairns": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:84",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1876-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.foundingdocs.gov.au/item-sdid-85.html",
+   "alinti": "On 16 July the British Colonial Secretary, Joseph Chamberlain, set 1 January 1901 as the date on which the Commonwealth would be established",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (Federasyon 1901-01-01) tarihliyor; f (yerleşim kuruluşu) yer_kaynak'ta (Queensland Places/DPLH/Companion to Tasmanian History) — bu turda erişilemedi/robots. ÜLKE DÜZEYİ, devlet yayını (foundingdocs.gov.au)."
+  }
+ ],
+ "Calabozo (Villa de Nuestra Señora de la Candelaria)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:99",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1724-02-01",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/calabozo/",
+   "alinti": "El 1 de febrero de 1724, fray Salvador de Cádiz levantó una cruz y bendijo el sitio",
+   "oneri": {},
+   "not": "Diccionario de Historia de Venezuela (Fundación Polar); yerleşim kuruluşu, gün düzeyi. t 1821-06-24 teyitsiz."
+  }
+ ],
+ "Camargo": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1444",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1749-03-05",
+   "t": "1821-09-27",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "e-local.gob.mx (INAFED) DNS hatası",
+   "alinti": "",
+   "oneri": {},
+   "not": "Camargo (Tamaulipas) 1749 kuruluşu okunamadı."
+  }
+ ],
+ "Cametá (Tocantins)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:74",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1635-01-01",
+   "t": "1822-09-07",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "IBGE API (servicodados.ibge.gov.br) zaman aşımı, cidades.ibge.gov.br 403",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıt düzeyinde kaynak (IBGE Formação Administrativa) erişilemedi; ikinci basamak denenmedi."
+  }
+ ],
+ "Cardiff": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:92",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "legislation.gov.uk Laws in Wales Act URL 404",
+   "alinti": "",
+   "oneri": {},
+   "not": "İpucu: 1281'de Glamorgan Marş senyörlüğü; Galler İngiltere'ye 1536/1542 katıldı — 'ingiltere' f 1281 sorunlu olabilir (kaynakla). | İPUCU (okunmadı): Cardiff 1281'de Glamorgan Marş senyörlüğü; Galler 1536/1542 kanunlarıyla İngiltere'ye katıldı — f 1281 'ingiltere' sorunlu olabilir."
+  }
+ ],
+ "Carlsbad (Eddy)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1804",
+   "alan": "s",
+   "d": "abd",
+   "f": "1893-01-01",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Carlsbad NM 1893 aranmadı; yer_kaynak kurum portalı (ipucu)."
+  }
+ ],
+ "Carnarvon": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:244",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1883-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.foundingdocs.gov.au/item-sdid-85.html",
+   "alinti": "On 16 July the British Colonial Secretary, Joseph Chamberlain, set 1 January 1901 as the date on which the Commonwealth would be established",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (Federasyon 1901-01-01) tarihliyor; f (yerleşim kuruluşu) yer_kaynak'ta (Queensland Places/DPLH/Companion to Tasmanian History) — bu turda erişilemedi/robots. ÜLKE DÜZEYİ, devlet yayını (foundingdocs.gov.au)."
+  }
+ ],
+ "Carora": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1570",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1572-06-19",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://bibliofep.fundacionempresaspolar.org/dhv/entradas/c/carora/",
+   "alinti": "lo cual hizo el 19 de junio de 1572, con el nombre de San Juan Bautista del Portillo de Carora",
+   "oneri": {},
+   "not": "Diccionario de Historia de Venezuela: 19 Haziran 1572 REFUNDACIÓN (yeniden kuruluş); ilk kuruluş daha eski olabilir. t 1821-06-24 teyitsiz."
+  }
+ ]
+}
