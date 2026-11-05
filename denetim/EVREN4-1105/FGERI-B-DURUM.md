@@ -65,6 +65,7 @@ Dosya: `FGERI-ONERI-B.json`. 102 kayıt, 50 künye grubu; Mapimí ve Marcapata d
 
 - **Fiume:**
   - Rakip hükûmet kuralı: `fiume-serbest-devleti` f **1920-12-29** (Carnaro'nun fiilen sona erişi) = `carnaro-naiplik` t (t = ardıl f). Rapallo 11-12 `ic_not`a.
+  - 🔴 **DÜZELTME (gece-127, EMRELİC hatası, düzeltildi):** 1920-12-29 kaynaksızdı. Doğrusu **carnaro t = fiume f = 1920-12-31**: Zanella ve Dizionario di Storia'ya ve mevcut `kronoloji_sinir_nokta3.js:23` maddesine (1920-12-31) dayanır. D'Annunzio'nun çekilişi 26 Aralık 1920'dir (Treccani DBI «uscì il 26 dic. 1920») ve `ic_not`a yazılır. Madde zaten var, yeni taslak gerekmez.
   - `carnaro-naiplik` f GENİŞLET 1919-09-12 (künye bugün 1920-09-08).
   - 1918-11-17 → 1919-09-12 dilimi tek başına `isg` yazılmaz; D1 gereği altında `s:` olmalı. Fiilî denetim İtalyan Ulusal Konseyi ve çoğunluğu İtalyan Müttefik kuvvetlerindeydi → `s: italya` BEYANLI (`italya` 1861-03-17 → 1946-06-18, hayalet değil), `isg` katmanı yok.
   - 1918-10-29 → 11-17 arası SHS denetimi kaynakla gösterilirse ayrı BEYANLI dilim olur.

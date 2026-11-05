@@ -44,6 +44,16 @@
   - Üç üs kaydı 1960 sonrası `akrotiri-dekelya` (LAB kararı).
   - Not: bütün Kıbrıs'a 1914 kırılmasını uygulama seçeneği EMRELİC'e açık; bugünkü karar "hepsi Lefkoşa gibi = 1914 yok".
 
+## EMRELİC kararları (gece-127)
+
+- **Kilindoni (Mafia):** TDV esas: `isg ingiltere` f 1914-11-01 + ay beyanı; atlasın 1916-09-19'u kalkar.
+  - Şart: TDV cümlesinin Mafia'yı özgül olarak tarihlediği doğrulanmalı; bazı kaynaklar Ocak 1915 verir. Doğrulanmazsa ONERI ve iki tarih `ic_not`a. Doğrulama ajanı (KUYRUK2) başladı.
+- **Lomé 1919–1922:** önerilen model onaylandı (`s: ingiltere` BEYANLI → 1922-07-20 manda). Devir günü aranır (Milner–Simon 1919-07-10; fiilî devir 1920 sonbaharı; 1920–22 İngiliz Togoland raporları ve Fransız yıllıkları).
+  - Bulunursa: `s: ingiltere` → devir günü `s: fransa-cumhuriyet` → 1922-07-20 `fransiz-togo`.
+  - Bulunmazsa: "devir ~1920, gün bulunamadı" `ic_not`a.
+- **Kıbrıs:** Lefkoşa modeli; 1914 ilhakı `ic_not`ta.
+- **6 madde:** kuyruğa alındı (`MADDE-TASLAK-KUYRUK2-1105.json`, Sonnet).
+
 ## D2
 
 Yeni kırılmalar için madde taslakları JSON'da (Türkçe b): Lomé 1914-08-07, Togo teslimi 1914-08-26, Yendi 1899-11-14, Khami/Danangombe 1684 ve 1840, Versay 1919-06-28. D2 evreninde var mı ölçülmedi; madde kuyruğuna alınır (7 dil).
