@@ -347,14 +347,14 @@
    "f": "1821-01-04",
    "t": "1885-01-26",
    "sira": "1066",
-   "hukum": "ONERI",
-   "uc": "f+t",
-   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
-   "alinti": "Son Func sultanı Bâdî 1821 Haziranında Mısır ordusuna boyun eğmek zorunda kaldı. / 26 Ocak 1885’te Hartum’a giren",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "P. M. Holt, 'Mansfield Parkyns's Manuscript of the Funj Chronicle', Die Welt des Islams NS 28 (1988), s. 244-263 (JSTOR tam metin dizini, LAB SALI d493d77cf)",
+   "alinti": "entered his capital, Sinnar, on 12 Ramadan 1236/ 13 June 1821",
    "oneri": {
-    "f": "1821-06-14"
+    "f": "1821-06-13"
    },
-   "not": "KARAR EMRELİC (gece-101): v: f 1821-06-14, 'gün künyeden: funj t (TDV Func teslimi)'. ÖLÇÜM LAB PAZAR: devletler.js:1927 funj t 1821-06-14, kaynak alanı yalnız 'func' (TDV); TDV ay düzeyi (Haziran 1821) — künye gününün kendi kaynağı GÖRÜLMEDİ → gün teyitsiz, beyanlı. | ÖNCEKİ KARAR (gece-34): Mısır Sudanı v: misir-kavalali, Hartum 1885-01-26; f Haziran 1821 (TDV Func teslimi) — funj künye t 1821-06-14 ile hizalı. | f: TDV Func sultanının teslimini Haziran 1821 yazar (ay düzeyi); atlas f 1821-01-04 ayı tutmuyor, künye funj t 1821-06-14 ile de çelişiyor (iki ucu ölç). t: 26 Ocak 1885 Hartum'un Mehdî'ye geçişi (gün düzeyi, TDV) = atlas t. TDV: Mehmed Ali ve oğulları Sudan'ı 'Osmanlı Devleti adına' 1821-1882 idare etti. Tahrir ölçütü: kaynak susuyor."
+   "not": "KARAR EMRELİC (gece-103): Funj teslimi 1821-06-13 ONAY (funj t, olaylar_ek4.js:115 ve bu satır). [JSTOR dizini birebir, tek isabet — çekinceli; makale gövdesi açılmadı]. ±1-2 gün (rü'yet), JDN 1821-06-12. ABİ MERKEZ Sennâr (ülke düzeyi). | KARAR EMRELİC (gece-101): v: f 1821-06-14, 'gün künyeden: funj t (TDV Func teslimi)'. ÖLÇÜM LAB PAZAR: devletler.js:1927 funj t 1821-06-14, kaynak alanı yalnız 'func' (TDV); TDV ay düzeyi (Haziran 1821) — künye gününün kendi kaynağı GÖRÜLMEDİ → gün teyitsiz, beyanlı. | ÖNCEKİ KARAR (gece-34): Mısır Sudanı v: misir-kavalali, Hartum 1885-01-26; f Haziran 1821 (TDV Func teslimi) — funj künye t 1821-06-14 ile hizalı. | f: TDV Func sultanının teslimini Haziran 1821 yazar (ay düzeyi); atlas f 1821-01-04 ayı tutmuyor, künye funj t 1821-06-14 ile de çelişiyor (iki ucu ölç). t: 26 Ocak 1885 Hartum'un Mehdî'ye geçişi (gün düzeyi, TDV) = atlas t. TDV: Mehmed Ali ve oğulları Sudan'ı 'Osmanlı Devleti adına' 1821-1882 idare etti. Tahrir ölçütü: kaynak susuyor."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:130",
