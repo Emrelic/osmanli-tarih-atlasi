@@ -1,0 +1,84 @@
+{
+ "Onega": [
+  {"sira": 1935, "dosya_satir": "", "alan": "s", "d": "novgorod", "f": "1281-01-01", "t": "1478-01-15",
+   "hukum": "KAYNAKLI", "uc": "t",
+   "kaynak": "EBSCO Research Starters, 'Muscovite Conquest of Novgorod' https://www.ebsco.com/research-starters/history/muscovite-conquest-novgorod ; encyclopedia.com, Encyclopedia of Russian History, 'Ivan III'",
+   "alinti": "on January 15, 1478, the great veche bell ... was removed and taken to Moscow",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: kaynak Novgorod'un 15 Ocak 1478'de Moskova'ya katılışını tarihliyor (ham metinden, sayfa.py). Onega'ya özgü tanıklık YOK. Kuzey Onega/Zavolye'nin 1478'de Moskova'ya geçtiği yalnız ESBE'de (YALNIZ İPUCU: 'окончательно ... московскою волостью только в 1478'). Öteki uç (f=1281) teyitsiz: 'Onega' yerleşimi 1281'de var mıydı bulunamadı; Onega kenti 1780 statüsü, Ust-Onega'nın Novgorodlularca kuruluşu 16. yy denir (cyclowiki, yalnız ipucu) -> f=1281 için yerleşimin o devirde varlığı teyitsiz; ONERI: varlık kanıtlanamazsa dönem başı kırpılmalı (Boşluk doldurma merdiveni ④)."},
+  {"sira": 1935, "dosya_satir": "", "alan": "s", "d": "novgorod", "f": "1281-01-01", "t": "1478-01-15",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "Baktığım: EBSCO, encyclopedia.com (Novgorod the Great, Ivan III), booksite.ru ESBE Zavolochye, WebSearch Onega BSE/Cyclowiki",
+   "alinti": "",
+   "oneri": {},
+   "not": "f ucu (1281) için Onega'ya özgü kaynak bulunamadı; TDV/Treccani kapsam dışı. BSE Onega maddesi erişilemedi."}
+ ],
+ "Şenkursk": [
+  {"sira": 1941, "dosya_satir": "", "alan": "s", "d": "novgorod", "f": "1281-01-01", "t": "1478-01-15",
+   "hukum": "KAYNAKLI", "uc": "t",
+   "kaynak": "EBSCO Research Starters, 'Muscovite Conquest of Novgorod' https://www.ebsco.com/research-starters/history/muscovite-conquest-novgorod",
+   "alinti": "on January 15, 1478, the great veche bell ... was removed and taken to Moscow",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Novgorod'un katılışı). Vaga/Şenkursk'a özgü tanıklık yok. Şenkursk'un Novgorod mülkü olduğuna dair ipuçları: 1315'te pogostun Novgorod posadnikince satın alınması (romanovempire.org, fotoğraf arşivi -> yalnız ipucu), 1137 Svyatoslav tüzüğündeki 'Çudin' (proza.ru, yalnız ipucu); akademik tanıklık bulunamadı. f=1281 için varlık: 1315 ipucu 1281'den SONRA; 1281'de yerleşim varlığı teyitsiz, öteki uç teyitsiz."},
+  {"sira": 1941, "dosya_satir": "", "alan": "s", "d": "novgorod", "f": "1281-01-01", "t": "1478-01-15",
+   "hukum": "BULUNAMADI", "uc": "f",
+   "kaynak": "Baktığım: romanovempire.org, proza.ru, WebSearch (BSE booksite.ru ESBE 115557 yalnız uyezd maddesi, tarih yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Şenkursk'un 1281'de var olduğuna ve Novgorod'a ait olduğuna dair akademik kaynak bulunamadı."}
+ ],
+ "Solvıçegodsk": [
+  {"sira": 1947, "dosya_satir": "", "alan": "s", "d": "novgorod", "f": "1281-01-01", "t": "1478-01-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Büyük Sovyet Ansiklopedisi (BSE 3. bas.), 'Solvıçegodsk' https://booksite.ru/FullText/1/001/008/104/415.htm",
+   "alinti": "Основан в 14 в. у Соляного озера В 15 в. назывался Усольск.",
+   "oneri": {"f": "YIL BİLİNMİYOR (14. yy içinde kuruluş; 1281 başlangıcı kanıtsız)", "t": "", "d": ""},
+   "not": "BSE yerleşimin 14. yy'da kurulduğunu söylüyor; 1281 dönem başı desteklenmiyor (kesin yıl yok -> yıl uydurulmaz). 14. yy kuruluşu 1281'den sonra olabilir; dönem başı kırpılmalı ya da beyanlı yaklaşıklık. Novgorod sahipliği için kaynak bulunamadı: 1397'de Zavolye'nin barışçıl biçimde Moskova'ya geçip ertesi yıl Novgorod'a döndüğü ve 1478'de kesin Moskova olduğu yalnız ESBE'de (YALNIZ İPUCU, booksite.ru/FullText/1/001/007/040/40562.htm). Strogonovlar 1515 tuz ocağı (Wikipedia/RussianLife, ipucu). t=1478-01-15 ÜLKE DÜZEYİ olarak EBSCO 'Muscovite Conquest of Novgorod' (15 Ocak 1478) ile uyumlu ama Solvıçegodsk'a özgü değil -> teyitsiz."}
+ ],
+ "Totma": [
+  {"sira": 1953, "dosya_satir": "", "alan": "s", "d": "novgorod", "f": "1281-01-01", "t": "1478-01-15",
+   "hukum": "BULUNAMADI", "uc": "f+t",
+   "kaynak": "BSE 'Totma' https://booksite.ru/FullText/1/001/008/111/606.htm ; W. Brumfield (Tulane), 'Totma' https://www.booksite.ru/fulltext/bru/brumfield/totma/index.htm ; encyclopedia.com 'Novgorod the Great' ; EBSCO",
+   "alinti": "Известен с 1137. Был центром солеварения.",
+   "oneri": {},
+   "not": "Yerleşimin 1281'de var olduğu KAYNAKLI (BSE ve Brumfield: ilk anış 1137). Ancak sahip: Totma'nın Novgorod'a ait olduğu ve 1478'e dek öyle kaldığı akademik kaynakta bulunamadı; Novgorod'un Sukhona kolonisi olduğu yalnız Wikipedia'da ('founded by Novgorodians', citation needed) = yalnız ipucu. Uyarı: Vologda 1397'de Moskova'ya katıldı (Wikipedia/rusmania, ipucu) ve Totma Vologda-Sukhona hattında; 1478'e dek Novgorod sahipliği şüpheli, Moskova ya da Ustyug sahibi olabilir. Baktığım: BSE, Brumfield, Wikipedia, Vologda Ansiklopedisi (erişilemedi), cultinfo.ru Brumfield makalesi (zaman aşımı). Not: 'öteki uç' (t=1478-01-15) ÜLKE DÜZEYİ Novgorod katılışı (EBSCO) ama Totma için geçerliliği teyitsiz."}
+ ],
+ "Slobodskoy": [
+  {"sira": 1959, "dosya_satir": "", "alan": "s", "d": "novgorod", "f": "1281-01-01", "t": "1478-01-15",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "encyclopedia.com (Oxford, 'Vyatka'): Vyatka/Khlynov 1489 ilhak https://encyclopedia.com/environment/encyclopedias-almanacs-transcripts-and-maps/vyatka ; ESBE 'Слободской' https://www.booksite.ru/fulltext/1/001/007/094/94765.htm (YALNIZ İPUCU) ; znanierussia.ru (popüler/ipucu)",
+   "alinti": "Founded as Khlynov in 1174, it was annexed by Ivan III in 1489.",
+   "oneri": {"f": "dönem silinmeli: Slobodskoy Vyatka Toprağı'ndadır, Novgorod'un değil; yerleşim 1489 öncesi yok/kaynaksız (ilk anış 1505 Ivan III fermanı - popüler kaynak; ESBE: kuruluş 1546)", "t": "", "d": "vyatka toprağı (künye varsa) ya da moskova 1489'dan"},
+   "not": "ÖNERİ: 'novgorod 1281-1478' sahipliği yanlış görünüyor. Vyatka Toprağı fiilen bağımsızdı, 1489'da Moskova'ya katıldı (Oxford/encyclopedia.com Vyatka şehri, ham metinden). Slobodskoy'un kuruluşu: znanierussia 1505 (Ivan III fermanı, popüler kaynak, ipucu), ESBE 1546 ('Основан в 1546 г.', 1899 ESBE, [19. yy kaynağı], ipucu). Hiçbirinde Novgorod yok. Novgorod'un Vyatka'daki iddiası/sahipliği için kaynak bulunamadı. Atlasta 1281-1478 aralığında yerleşim noktası olmaması gerekir; dönemi kırp (Boşluk merdiveni ④: yerleşim o devirde yok -> kırp). Doğrudan akademik Slobodskoy kaynağı (BRE, TR Dizin) erişilemedi (bigenc.ru 401)."}
+ ],
+ "Kungur": [
+  {"sira": 1964, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1648-01-01", "t": "1917-03-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: BSE 'Kungur' https://booksite.ru/FullText/1/001/008/067/434.htm ; t: encyclopedia.com, Encyclopedia of Russian History 'Nicholas II' https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/nicholas-ii ve 'February Revolution'",
+   "alinti": "f: «К. основан в 1648, в 17 км выше устья р. Ирень» ; t: On March 15, 1917, Nicholas decided to abdicate in favor of his brother Michael.",
+   "oneri": {},
+   "not": "f YIL düzeyinde KAYNAKLI (1648; gün yok -> 1648-01-01 yıl hassasiyeti; BSE 1668'de ikinci kez kuruldu der, ic_not'a yazılabilir; WebSearch özetleri 1662/1663/1668 yer değiştirme tarihlerinde çelişir). t: ÜLKE DÜZEYİ, Nikolay II tahttan çekilişi 15 Mart 1917 (Gregoryen; Jülyen 2 Mart) ve Geçici Hükümet ilanı aynı gün (encyclopedia.com February Revolution: 'On March 15 they announced formation of a Provisional Government'). Kungur'a özgü yerel iktidar el değişimi tanıklığı yok. Not: Kungur'un Rus devletine bağlı olarak 1648'de kuruluşu yerleşimin sahipliğini doğrular; 1648'den önce Sibirya Hanlığı/Perm yerel bölgesiyle ilgisi bu kaynaklarda yok."}
+ ],
+ "Rostov Veliki": [
+  {"sira": 1968, "dosya_satir": "", "alan": "s", "d": "rostov-knezligi", "f": "1281-01-01", "t": "1474-01-01",
+   "hukum": "KAYNAKLI", "uc": "t",
+   "kaynak": "encyclopedia.com, Encyclopedia of Russian History, 'Ivan III (Muscovy)' https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ivan-iii",
+   "alinti": "Some of these principalities lost their independence peacefully (Yaroslavl, 1463 – 1468; Rostov, 1474)",
+   "oneri": {},
+   "not": "t YIL düzeyinde KAYNAKLI (1474; gün yok). Rostov-Borisoglebsk yarısı 1474'te Ivan III'e satıldı (rusmania.com seyahat sitesi: ipucu; Rus müze makalesi 'rostmuseum.ru': 'yarısı' ve Sretensky yarısının Moskova'ya geçişi tartışmalı, ipucu). Dikkat: Rostov-Sretensky yarısı daha erken Vasili I'e satıldı (rusmania, ipucu) -> 1474 öncesi Moskova payı var; 'rostov-knezligi' tek sahip 1474'e dek kesin değil, beyan gerekir. Öteki uç (f=1281): atlasın pencere başı; kaynakta Rostov Vladimir bağlısı olarak 1207-1474 künyesi (atlas künyesi, dayanak değil); f için kaynak teyidi yapılmadı. 1328 Rostov'un ikiye bölünmesi ve 1331-1365 olayları (rusmania, ipucu)."},
+  {"sira": 1970, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1474-01-01", "t": "1547-01-16",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "f: encyclopedia.com 'Ivan III (Muscovy)' (Rostov, 1474) ; t: encyclopedia.com, Encyclopedia of Russian History, 'Ivan IV' https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/ivan-iv",
+   "alinti": "f: (Yaroslavl, 1463 – 1468; Rostov, 1474) ; t: his coronation as tsar on January 16, 1547",
+   "oneri": {},
+   "not": "f YIL düzeyinde KAYNAKLI (1474); t ÜLKE DÜZEYİ: 16 Ocak 1547 Ivan IV'ün çarlık taç giyişi (Moskova Büyük Knezliği -> Rusya Çarlığı künye değişimi); Rostov'a özgü tanıklık değil. Künye geçişi 'moskova' -> 'rusya' (çarlık) için devletler.js f/t doğrulanmalı (bakılmadı, brif gereği depo okunmadı)."}
+ ],
+ "Kineşma": [
+  {"sira": 1975, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1325-01-01", "t": "1547-01-16",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "BSE 'Kineşma' https://booksite.ru/FullText/1/001/008/061/220.htm ; t: encyclopedia.com 'Ivan IV'",
+   "alinti": "К. известна с начала 15 в. как слобода. В 1429 опустошена татарами.",
+   "oneri": {"f": "YIL düzeyi: ilk bilinen dönem 15. yy başı/1429 (yıl); 1325 dayanaksız", "t": "", "d": "1429'daki sahip (Kostroma/Moskova) kaynakla doğrulanmalı"},
+   "not": "1325 dönem başı kronoloji maddesinden (Metropolit makamı Moskova'ya taşındı) devralma, Kineşma'ya özgü değil. BSE: yerleşim 15. yy başından beri bilinir, 1429'da Tatarlarca tahrip edildi, 1504'te Ivan III onu Prens Volskiy'e bağışladı (kesin Moskova mülkü o tarihte). 1325'te yerleşimin varlığı kanıtsız -> f kırpılmalı. 1429'da Kineşma'nın hangi siyasi birimin (Kostroma/Galiç/Moskova) elinde olduğu kaynakta yok: Kostroma 1364'te Moskova'ya katıldı (WebSearch, düşük güvenli özet, ipucu), Galiç 1450 (ipucu). t=1547-01-16 ÜLKE DÜZEYİ (Ivan IV taç giyişi, encyclopedia.com 'his coronation as tsar on January 16, 1547'), Kineşma'ya özgü değil; öteki uç yalnız ülke düzeyinde teyitli."}
+ ]
+}

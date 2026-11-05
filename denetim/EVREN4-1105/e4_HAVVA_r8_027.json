@@ -1,0 +1,90 @@
+{
+ "Torjok": [
+  {"sira": 1981, "dosya_satir": "", "alan": "s", "d": "tver", "f": "1281-01-01", "t": "1485-09-12", "uc": "t",
+   "hukum": "ONERI",
+   "kaynak": "lex.dk (Den Store Danske / Lex), 'Torzjok', J. H. Lind (Kobenhavns Univ.), https://lex.dk/Torzjok",
+   "alinti": "Torzjok var frem til 1478 Novgorodstatens vigtigste handelsby",
+   "oneri": {"f": "1281-01-01", "t": "1478-01-15", "d": "novgorod"},
+   "not": "Kaynak Torzhok'u 1478'e kadar Novgorod'un şehri sayıyor; Tver'e ait demiyor (Tver ele geçirmeleri geçici: ipucu olarak 1372 Tver akını, Vikipedi/arama özeti, doğrulanmadı). Atlas 'tver' 1485-09-12'ye kadar yazmış ⇒ sahip novgorod olmalı. lex.dk yalnız YIL (1478) verir: 'Ivan 3. erobrede Novgorod i 1478'. Gün 1478-01-15 künye novgorod t alanından (Novgorod'un teslimi), bu kaynağın günü değildir: gün teyitsiz, yıl düzeyi. Öteki uç (f=1281) için kaynak yok: Torzhok 1139'dan beri Novgorod'a ait (lex.dk 'Novyj Torg' 1139) ⇒ novgorod künyesi f 1136 kapsar, f=1281 sorun değil. ÜLKE DEĞİL, yerleşime özgü."},
+  {"sira": 1982, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1485-09-12", "t": "1547-01-16", "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "lex.dk 'Torzjok', https://lex.dk/Torzjok",
+   "alinti": "Den betydning mindskedes, efter at Ivan 3. erobrede Novgorod i 1478.",
+   "oneri": {"f": "1478-01-15", "t": "1547-01-16", "d": "moskova"},
+   "not": "Moskova'ya geçiş Tver'in 1485 düşüşüyle değil Novgorod'un 1478 ilhakıyla olur (lex.dk: 1478 sonrası 'Moskvastaten'e katıldı). Yıl düzeyi KAYNAKLI; gün künye novgorod t=1478-01-15'ten (kaynak günü vermiyor). Öteki uç (t=1547-01-16) teyitsiz. Vikipedi 'Torzhok 1478'de Moskova'ya katıldı' der (yalnız ipucu)."}
+ ],
+ "Murom": [
+  {"sira": 1987, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1325-01-01", "t": "1547-01-16", "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "lex.dk 'Murom', J. H. Lind (Kobenhavns Univ.), https://lex.dk/Murom",
+   "alinti": "Fyrstendommet Murom blev i 1392 underlagt storfyrstendommet Moskva.",
+   "oneri": {"f": "1392-01-01", "t": "1547-01-16", "d": "moskova"},
+   "not": "DEVRALMA 1325 (metropolitlik Moskova'ya taşındı) Murom'un sahipliğini kanıtlamaz; Murom 1392'ye kadar bağımsız Murom Knezliği idi (lex.dk: 'selvstaendigt fyrstendomme'). Moskova'ya katılış YIL 1392 (lex.dk). Gün yok; arama özeti (ipucu): Vasili I Toktamış'tan yarlık satın aldı ~1392. 1281-1392 arası Murom için künye yok (devletler.js'te 'murom' kimliği bulunamadı) ⇒ künye gerekir ya da dilim BEYANLI boşluk / en yakın komşu; ben künye uydurmadım. Öteki uç (t) teyitsiz."}
+ ],
+ "Kaluga": [
+  {"sira": 1993, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1325-01-01", "t": "1547-01-16", "uc": "f",
+   "hukum": "ONERI",
+   "kaynak": "Visuotine lietuviu enciklopedija (VLE), 'Kaluga', https://www.vle.lt/straipsnis/kaluga/ ; Hrvatska enciklopedija 'Kaluga': 'Prvi put se spominje 1371.'",
+   "alinti": "Kaluga minima 1371 Lietuvos didziojo kunigaikscio Algirdo laiske.",
+   "oneri": {"f": "1371-01-01", "t": "1547-01-16", "d": "moskova"},
+   "not": "Şehir ilk 1371'de anılır (VLE ve Hrvatska enciklopedija, ham metin); 1325'te var olduğuna dair tanık yok ⇒ f=1325 dayanaksız, dönem 1371'den başlatılmalı (ladder ④: yerleşim dönem başında bilinmiyor). VLE: şehir 'Moskova knezliğinin güneybatı sınır kalesi'nin çevresinde kurulmuş; 1408 Ugra barışı Kaluga'da yapıldı, şehir Litvanya-Moskova sınır kentidir. Sahibin Moskova olduğu 1371 için Algirdas mektubu (arama özeti: Dmitri Donskoy'un 'aldığı' kale) = ipucu, ham alıntıda sahiplik geçmez ⇒ hüküm ONERI. Moskova 1371'de sahip tezi hakemli bir kaynakta okunmadı; 1371-1547 arası her devir için ikinci kaynak aranmalı. Öteki uç (t) teyitsiz."}
+ ],
+ "Mojaysk": [
+  {"sira": 2001, "dosya_satir": "", "alan": "s", "d": "smolensk-knezligi", "f": "1281-01-01", "t": "1304-01-01", "uc": "t",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UW (Univ. of Washington) D. Waugh, 'Chronology of the Early History of Moscow', https://faculty.washington.edu/dwaugh/hstam443/m-chron.html (ham metin, sayfa.py) ; karsit: Hrvatska enciklopedija 'Mozajsk' https://www.enciklopedija.hr/clanak/mozajsk",
+   "alinti": "1304 Mozhaisk, to the west, taken from Smolensk.",
+   "oneri": {},
+   "not": "[YIL düzeyi; ders kronolojisi, hakemli değil.] ÇELİŞKİ ic_not: UW = 1304 (Smolensk'ten alındı); Hrvatska enciklopedija = 1303 ('God. 1303. usao je u sastav Moskovskoga knezevstva'); arama özeti (ipucu): Yuri Daniloviç 1303. Atlas 1304 = UW ile uyumlu; ikinci akademik kaynak (örn. Cambridge Hist. of Russia) bulunamadı. Smolensk'in 1281'den Mojaysk'ı tutması (öteki uç f) teyitsiz."},
+  {"sira": 2002, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1304-01-01", "t": "1547-01-16", "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UW Waugh Moskova kronolojisi (ham metin) ; Hrvatska enciklopedija 'Mozajsk' https://www.enciklopedija.hr/clanak/mozajsk",
+   "alinti": "God. 1303. usao je u sastav Moskovskoga knezevstva.",
+   "oneri": {},
+   "not": "[YIL düzeyi.] İki kaynak Moskova'ya katılışı 1303 (HE) / 1304 (UW) verir; çelişki ic_not'ta iki kaynağıyla beyan edilmeli, hangisinin doğru olduğuna karar verilmedi. Atlas 1304 UW ile uyumlu. Öteki uç (t=1547) teyitsiz."}
+ ],
+ "Sergiyev Posad": [
+  {"sira": 2005, "dosya_satir": "", "alan": "s", "d": "moskova", "f": "1337-01-01", "t": "1547-01-16", "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Baktigim yerler: lex.dk 'Sergijev Posad' (https://lex.dk/Sergijev_Posad), Hrvatska enciklopedija, Treccani, snl.no (Russland sayfasina yonlendirdi), VLE 404, Britannica 403; web aramasi (Radonezh/Moskova)",
+   "alinti": "Treenighedsklostret, der i arene 1337-1340 blev grundlagt af den hellige Sergij af Radonezj",
+   "oneri": {},
+   "not": "lex.dk (ham): Troitsa manastırı 1337-1340 arasında kuruldu ⇒ f=1337 manastır kuruluşuna dayanıyor ama kaynak SAHİBİ (Moskova) söylemiyor. Hrvatska enciklopedija: şehir 1742'de kuruldu, planlı gelişim 1782'den. Radonezh bölgesinin Moskova knezliğine bağlı olduğu yalnız popüler/hagiografik kaynakta (arama özeti, aile ~1328'de Radonezh'e taşındı, Kalita döneminde Moskova) ⇒ akademik kaynakla bağlanmadı. İpucu: yerleşim 1337'de var (manastır); sahiplik teyidi için TDV yok (Rus manastırı), BSE 'Zagorsk/Sergiyev Posad' maddesi ve Radonezh knezliği (Moskova appanage) okunmalı. Gün uydurulmadı."}
+ ],
+ "Buinsk": [
+  {"sira": 2009, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1552-10-02", "t": "1917-03-15", "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Baktigim yerler: web aramalari (Rosstat Buinsk pdf özeti, Wikipedia aynasi ipucu, kupibilet), Hrvatska enciklopedija (madde yok), lex.dk (404), tatarica.org (404), Tatar Ansiklopedisi bulunamadi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Buinsk 1552'de yok görünüyor: Rosstat'a göre şehrin kuruluş tarihi 1780 (şehir statüsü, Katerina II); Vikipedi aynası (ipucu) ilk anılış 1691; popüler kaynaklar 17. yy ortası. Yani f=1552-10-02 (Kazan'ın fethi, ülke düzeyi) yerleşime özgü değil. Öneri: Rusya dönemi yerleşimin ilk güvenilir anılış yılından başlamalı; yıl hakemli kaynakta (Tatar Ansiklopedisi / Akhmadullin 'Buinsk', 1991) doğrulanmadı. t=1917-03-15 DEVRALMA, teyitsiz."},
+  {"sira": 2012, "dosya_satir": "", "alan": "s", "d": "kazan", "f": "1438-01-01", "t": "1552-10-02", "uc": "f+t",
+   "hukum": "ONERI",
+   "kaynak": "Web aramalari (Rosstat Buinsk; Wikipedia aynasi ipucu): Buinsk 17. yy ortasi / 1691 / 1780; Tatar Ansiklopedisi okunamadi",
+   "alinti": "",
+   "oneri": {"f": "", "t": "", "d": "kazan"},
+   "not": "ONERI: dönemi KIRP / yerleşim 1438-1552'de yok. Bulunan tüm kaynaklar Buinsk'u 17. yy'a (1691 ilk anılış ipucu, 1780 şehir) bağlıyor; Kazan Hanlığı döneminde yerleşim izi yok (Zakamye bozkır sınırı; Hanlığın doğu/güney sınırı literatürde belirsiz: Golden Horde Review 2025, arama özeti). Güçlü akademik kaynakla (Tatar Ansiklopedisi, Akhmadullin 1991) doğrulanmadı; yokluk kanıtı olduğu için hüküm ONERI, KAYNAKLI değil."}
+ ],
+ "Kozmodemyansk": [
+  {"sira": 2015, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1583-01-01", "t": "1917-03-15", "uc": "f",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Bolshaya sovetskaya entsiklopediya (BSE, 3. bas.), 'Kozmodemyansk', https://www.booksite.ru/fulltext/1/001/008/062/574.htm (ham metin, sayfa.py)",
+   "alinti": "К. возник на месте острога, построенного в 1583; как город впервые упоминается под 1609.",
+   "oneri": {},
+   "not": "YIL düzeyi: şehir 1583'te Rus ostroğu olarak doğdu (Rus devleti) ⇒ f=1583 yıl düzeyinde doğru; gün kaynakta yok (atlas 1583-01-01 uygun). BSE ayrıca '1781'de Kazan namestnichestvosu uyezd şehri'. Öteki uç (t=1917-03-15) teyitsiz (DEVRALMA). Sahipliğin Rusya olduğu ostrog inşasından çıkarımdır (Rus çarlığı kuruyor); kaynak 'Rusya' kelimesini açıkça yazmaz."}
+ ],
+ "Yelabuga": [
+  {"sira": 2019, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1552-10-02", "t": "1917-03-15", "uc": "f",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Baktigim yerler: web aramalari (rusmania, kupibilet, Rosstat Elabuga pdf, sputnik8 — hepsi popüler), tatarica.org makaleleri (Khairutdinov/Salikhov/Gallyamova 1000. yil makalesi; metin yakalanamadi), kgasu Fazleev pdf (aranan anahtar yok), BSE 'Elabuga' bulunamadi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Rusya sahipliği 1552 için ham kaynak yok. Popüler kaynaklar: Rus yerleşimi Trehsvyatskoe 17. yy'da gelişti, Troitsa manastırı 1614, uyezd şehri 1780 (Vyatka namestnichestvosu); Bulgar kalesi Alabuga 10-11. yy (Çertovo gorodişçe kulesi). Rusya'nın 1552'den hemen sonra bu noktayı yönettiğine dair belge yok; ipucu: 1552 ülke düzeyi. t DEVRALMA, teyitsiz."},
+  {"sira": 2022, "dosya_satir": "", "alan": "s", "d": "kazan", "f": "1438-01-01", "t": "1552-10-02", "uc": "f+t",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Baktigim yerler: web aramalari, tatarica.org PDF'leri (metin yakalanamadi), BSE 'Kazanskoe hanstvo' (booksite 541 yalniz Kazan seferleri), Wikipedia aynalari ipucu (Hanlik Kama ve Vyatka boyunca)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yelabuga 10-11. yy'dan beri var (Bulgar kalesi), ama Kama kıyısındaki bu noktanın Kazan Hanlığı'na ait olup olmadığı (hanlığın doğu sınırı literatürde belirsiz: Golden Horde Review 2025, arama özeti) hakemli kaynakta okunmadı. Hanlık 'Kama ve Vyatka' nehirlerini ana su yolu sayar (Vikipedi aynası, ipucu). Ne f ne t için kaynak; 1552 ülke düzeyi."}
+ ]
+}

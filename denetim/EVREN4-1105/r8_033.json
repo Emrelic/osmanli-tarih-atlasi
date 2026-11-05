@@ -1,0 +1,162 @@
+{
+ "Soyo": [
+  {
+   "sira": 2247,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kongo-kralligi",
+   "f": "1390-01-01",
+   "t": "1885-02-14",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Kongo Hür Devleti ile Portekiz sınır sözleşmesi — Kongo "
+  },
+  {
+   "sira": 2248,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1885-02-14",
+   "t": "1975-11-11",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye portekiz-angola t ucunun kaynağı — Worldmark Encyclopedia of Nations 'Angola' (encyclopedia.com): «Luanda was"
+  }
+ ],
+ "Matadi": [
+  {
+   "sira": 2251,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-kralligi",
+   "f": "1390-01-01",
+   "t": "1885-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2252,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kisangani (Stanleyville)": [
+  {
+   "sira": 2254,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kabongo (Luba)": [
+  {
+   "sira": 2256,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "luba",
+   "f": "1585-01-01",
+   "t": "1889-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2257,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1889-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kazak bozkırı (Turgay)": [
+  {
+   "sira": 2258,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Kopal tahkimatı kuruldu — Kuzey Yedisu Rusya'ya bağlanma"
+  },
+  {
+   "sira": 2259,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kopal tahkimatı kuruldu — Kuzey Yedisu Rusya'ya bağlanmay"
+  },
+  {
+   "sira": 2263,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kazakistan",
+   "f": "1991-12-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye kazakistan f ucunun kaynağı — https://adilet.zan.kz/eng/docs/Z910004400_ (resmî metin) ; https://e-history.kz"
+  }
+ ],
+ "Petropavlovsk-Kamçatskiy": [
+  {
+   "sira": 2264,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1740-01-01",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm"
+  }
+ ],
+ "Bâne": [
+  {
+   "sira": 2268,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1501-07-01",
+   "t": "1585-04-19",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Şah İsmail'in Tebriz'i alması: Safevî Devleti'nin kuruluş"
+  },
+  {
+   "sira": 2272,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "safevi",
+   "f": "1603-10-21",
+   "t": "1736-03-08",
+   "mevcut_kaynak": "gün komşudan: Tebriz (1603-10-21) — Bâne'nin Safevî'ye dönüş günü kaynakta YOK · KARARLAR-1014 m.1"
+  },
+  {
+   "sira": 2273,
+   "sinif": "DIGER",
+   "alan": "d",
+   "d": "",
+   "f": "1723-11-10",
+   "t": "1732-01-10",
+   "mevcut_kaynak": "Bilgili 2016 (Ermeni Araştırmaları 53) dn.88 (TD 1066 Pâne livası) · gün komşudan: Senendec"
+  }
+ ],
+ "Tobolsk (İsker)": [
+  {
+   "sira": 2274,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1598-08-20",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «II. Nikolay tahttan çekildi, Rusya yönetimi Geçici Hüküm"
+  },
+  {
+   "sira": 2278,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sibir-hanligi",
+   "f": "1430-01-01",
+   "t": "1598-08-20",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

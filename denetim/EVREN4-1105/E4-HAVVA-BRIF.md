@@ -51,4 +51,7 @@ HAVVA'ya özgü FARKLAR (bunlar ana brifin önündedir):
    ve o olayı tarihliyorsa verilir. Alıntı başka bir ucu ya da başka bir olayı tarihliyorsa (ör. komşu
    dönemin ucu, kuşatma başı, ülke düzeyinde farklı olay) hüküm ONERI olur; `not`a hangi ucu tarihlediğini yaz.
    İki uç da kaynaklıysa `"uc": "f+t"`; yalnız biri kaynaklıysa öteki uç için `not`a "öteki uç teyitsiz" yaz.
+6d. 🔴 HİCRÎ ÇEVİRİ (EMRELİC, 5 Kasım 03:35): kaynak mîlâdî karşılık vermiyorsa ve sen çevirmek
+   zorundaysan TEK tabular varyant kullanılır: Perşembe epoch'u (ör. 1 Rebîülevvel 923 = 1517-03-23 Jülyen).
+   1582-10-15 öncesi sonuç Jülyen'dir. Çeviriyi `not`a "hicrî X → (tabular, Perşembe epoch) Y" diye beyan et.
 7. Bitince kısa özet: yerleşim sayısı, KAYNAKLI / ONERI / BULUNAMADI / BAKILMADI sayıları, öne çıkan ONERI'ler.
