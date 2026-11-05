@@ -1,0 +1,26 @@
+no	dosya_satir	tarih_atlas	kaynak	url	okunan_cumle	hassasiyet	uyum	sonuc
+L2-1349	data/devletler.js#urbino-dukaligi#0	1443-01-01	Treccani DBI Oddantonio da Montefeltro	https://www.treccani.it/enciclopedia/oddantonio-da-montefeltro_(Dizionario-Biografico)/	ricevuta a Siena dalle mani di Eugenio IV il 25 aprile 1443 (atlas 1443-01-01 yalnız yıl)	gun	[sonuç: TARIH_DUZELT -> 1443-04-25] KISMEN	TARIH_DUZELT
+L2-1350	data/devletler.js#urbino-dukaligi#1	1444-07-22	Treccani DBI Oddantonio + Federico	https://www.treccani.it/enciclopedia/oddantonio-da-montefeltro_(Dizionario-Biografico)/	la notte del 22 luglio 1444 un manipolo di congiurati entrò nella residenza di Oddantonio; Federico DBI: trucidato il 22 luglio 1444	gun	UYUMLU	DOGRULANDI
+L2-1351	data/kronoloji_bizans.js#KRONOLOJI_BIZANS[79]	1453-05-23	TDV İstanbul'un fethi araması	https://islamansiklopedisi.org.tr/istanbul-fetih	sayfa yalnız arama sonuç listesi; 23 Mayıs 1453 cümlesi okunamadı			BULUNAMADI
+L2-1352	data/devletler.js#gdansk-kral-sehri#1	1454-02-21	yalnız arama özeti		[yalnız arama özeti] 4 Şubat 1454 itaatsizlik / 12 Şubat Elbląg Vikipedi türevi; akademik sayfa okunmadı			BULUNAMADI
+L2-1353	data/devletler.js#karniola-dukaligi#2	1457-01-01	akademik kaynak bulunamadı		okunan kaynak yok			BULUNAMADI
+L2-1354	data/devletler.js#gelre-dukaligi#4	1465-01-01	Blok, Geschiedenis van het Nederlandsche volk I (dbnl) + NDB Adolf von Egmond	https://www.dbnl.org/tekst/blok013gesc01_01/blok013gesc01_01_0029.php	In den donkeren nacht van den 9den op den 10den Januari 1465 ... Grave; NDB: setzte A. seinen Vater im Januar 1465 gefangen	gun	[sonuç: TARIH_DUZELT -> 1465-01-10 (gece 9-10 Ocak)] KISMEN	TARIH_DUZELT
+L2-1355	data/devletler.js#piombino#4	1465-01-01	akademik kaynak bulunamadı		okunan kaynak yok (Piombino Citadella)			BULUNAMADI
+L2-1356	data/devletler.js#pskov#6	1467-01-01	yalnız arama özeti		[yalnız arama özeti] 1503 altı yıllık ateşkes Litvanya-Moskova bağlamında; Pskov-Livonya belgesi okunmadı			BULUNAMADI
+L2-1357	data/devletler.js#purepecha-imparatorlugu#1	1469-01-01	akademik kaynak bulunamadı		okunan kaynak yok			BULUNAMADI
+L2-1358	data/devletler.js#mogulistan#2	1472-01-01	yalnız arama özeti		[yalnız arama özeti] 1472 Kebek Sultan suikasti, Vikipedi türevi			BULUNAMADI
+L2-1359	data/devletler.js#gelre-dukaligi#5	1473-01-01	NDB/ADB Adolf von Egmond (deutsche-biographie.de)	https://www.deutsche-biographie.de/sfz60702.html	ADB: Arnold schon 23. Febr. 1473 starb; NDB: Herzog Karl nahm kurz darauf das ihm verpfändete Geldern in Besitz	gun	[sonuç: BULUNAMADI [ilhak gunu kaynakta yok; 1473-02-23 yalniz Arnold olum gunu]] KISMEN	BULUNAMADI
+L2-1360	data/devletler.js#lorraine-dukaligi#4	1477-01-05	Treccani Carlo il Temerario		sayfa anasayfa döndü, makale okunamadı			CEKILEMEDI
+L2-1361	data/devletler.js#urbino-dukaligi#3	1482-09-10	Treccani DBI Federico da Montefeltro	https://www.treccani.it/enciclopedia/federico-da-montefeltro-duca-di-urbino_(Dizionario-Biografico)/	spira, dopo aver dettato le sue ultime volontà, il 10 sett. 1482	gun	UYUMLU	DOGRULANDI
+L2-1362	data/devletler.js#tver#7	1483-01-01	akademik kaynak bulunamadı		okunan kaynak yok			BULUNAMADI
+L2-1363	data/devletler.js#frizya-ozgurlugu#1	1493-09-23	monasterium.net birincil belge (403)	https://www.monasterium.net/mom/AT-ADG/AGDK/2-2-10/charter	403; [yalnız arama özeti] 23 Eylül 1493			CEKILEMEDI
+L2-1364	data/devletler.js#frizya-ozgurlugu#2	1495-01-01	yalnız arama özeti		[yalnız arama özeti] 29/30 Ağustos 1502 Vikipedi tablosu			BULUNAMADI
+L2-1366	data/devletler.js#nahua-sehir-devletleri#6	1502-01-01	Treccani Montezuma II		sayfa içerik vermedi			CEKILEMEDI
+L2-1367	data/devletler.js#multan-langah#4	1502-08-30	yalnız arama özeti		[yalnız arama özeti]			BULUNAMADI
+L2-1368	data/devletler.js#pskov#8	1503-01-01	yalnız arama özeti		[yalnız arama özeti] 25 Mart 1503 Litvanya-Moskova ateşkesi; Pskov ayrı belge teyitsiz			BULUNAMADI
+L2-1369	data/kronoloji_cok_lehistan.js#KRONOLOJI_COK_LEHISTAN[41]	1505-01-01	pressto.amu.edu.pl PDF	https://pressto.amu.edu.pl/index.php/cph/article/download/40742/34100/91494	PDF metni çıkarılamadı; arama özetinde Radom 1505 tarihi çelişkili (3 Mayıs / 30-31 Mayıs)			CEKILEMEDI
+L2-1370	data/devletler.js#portekiz-mozambik#1	1507-01-01	akademik kaynak bulunamadı		okunan kaynak yok			BULUNAMADI
+L2-1371	data/devletler.js#urbino-dukaligi#6	1508-01-01	Treccani DBI Francesco Maria I della Rovere	https://www.treccani.it/enciclopedia/francesco-maria-i-della-rovere-duca-di-urbino_(Dizionario-Biografico)/	qui muore ... l'11 aprile [1508]; Solenni, il 2 maggio, le esequie a Urbino e concomitanti col subentro nel Ducato	gun	[sonuç: TARIH_DUZELT -> 1508-04-11 (Guidobaldo ölümü; 2 Mayıs cenaze/devralma)] KISMEN	TARIH_DUZELT
+L2-1372	data/devletler.js#mogulistan#3	1509-01-01	yalnız arama özeti		[yalnız arama özeti] 1509 tek kaynak Vikipedi			BULUNAMADI
+L2-1373	data/devletler.js#portekiz-hindistani-goa#1	1509-02-03	TDV Diu	https://islamansiklopedisi.org.tr/diu	1509'da Sûret Valisi Melik Ayaz ... Francisco d'Almeida'nın donanması karşısında yenik düştü (yıl; gün ve Memlûk yok)	yil	[sonuç: BULUNAMADI (gün teyitsiz; yıl TDV'de var)] KISMEN	BULUNAMADI
+L2-1374	data/devletler.js#portekiz-malaka#1	1512-01-01	yalnız arama özeti		[yalnız arama özeti] 1512-1514 Vikipedi			BULUNAMADI

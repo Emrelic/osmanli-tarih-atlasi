@@ -1,0 +1,198 @@
+{
+ "İllîzî": [
+  {
+   "sira": 3961,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tuareg-accer",
+   "f": "1281-01-01",
+   "t": "1911-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3962,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1911-01-01",
+   "t": "1962-07-05",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tişît (Tichitt)": [
+  {
+   "sira": 3963,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "moritanya-emirlikleri",
+   "f": "1640-01-01",
+   "t": "1909-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3964,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1909-01-01",
+   "t": "1960-11-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3965,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "moritanya",
+   "f": "1960-11-28",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye moritanya f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Moritanya' (islamansiklopedisi.org.tr/moritanya) — «28"
+  }
+ ],
+ "Nema (Néma)": [
+  {
+   "sira": 3966,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "moritanya-emirlikleri",
+   "f": "1640-01-01",
+   "t": "1909-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3967,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1909-01-01",
+   "t": "1960-11-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3968,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "moritanya",
+   "f": "1960-11-28",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye moritanya f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Moritanya' (islamansiklopedisi.org.tr/moritanya) — «28"
+  }
+ ],
+ "Mopti": [
+  {
+   "sira": 3969,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bambara",
+   "f": "1650-01-01",
+   "t": "1861-03-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3970,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1861-03-10",
+   "t": "1960-06-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3971,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mali f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mali' (islamansiklopedisi.org.tr/mali) — «22 Eylül 1960 tar"
+  }
+ ],
+ "Madaoua": [
+  {
+   "sira": 3972,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "adar",
+   "f": "1281-01-01",
+   "t": "1899-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3973,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1899-01-01",
+   "t": "1960-08-03",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Goure": [
+  {
+   "sira": 3974,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "damagaram",
+   "f": "1731-01-01",
+   "t": "1899-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3975,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1899-01-01",
+   "t": "1960-08-03",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bamako": [
+  {
+   "sira": 3976,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bambara",
+   "f": "1650-01-01",
+   "t": "1861-03-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3977,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1861-03-10",
+   "t": "1960-06-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3978,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mali f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Mali' (islamansiklopedisi.org.tr/mali) — «22 Eylül 1960 tar"
+  }
+ ],
+ "Fada Ngurma (Gurma)": [
+  {
+   "sira": 3979,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gurma",
+   "f": "1281-01-01",
+   "t": "1897-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3980,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-01-01",
+   "t": "1960-08-05",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "Batna": [
+  {
+   "sira": 3172,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1519-09-01",
+   "t": "1671-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Obbiya": [
+  {
+   "sira": 3195,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3196,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S"
+  },
+  {
+   "sira": 3197,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt"
+  }
+ ],
+ "Ayl": [
+  {
+   "sira": 3199,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "somali",
+   "f": "1281-01-01",
+   "t": "1927-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3200,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S"
+  },
+  {
+   "sira": 3201,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt"
+  }
+ ],
+ "Hafun": [
+  {
+   "sira": 3204,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "somali",
+   "f": "1577-01-01",
+   "t": "1927-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3205,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-ingiliz-askeri-idaresi",
+   "f": "1941-02-25",
+   "t": "1950-04-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-ingiliz-askeri-idaresi f ucunun kaynağı — TDV 'Somali' (kısmi) — «Birleşmiş Milletler, Kasım 1949’da S"
+  },
+  {
+   "sira": 3206,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "somali-italyan-vesayet",
+   "f": "1950-04-01",
+   "t": "1960-07-01",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye somali-italyan-vesayet f ucunun kaynağı — https://www.parlamento.it/service/PDF/PDFServer/DF/330552.pdf ; htt"
+  }
+ ],
+ "Eperjes (Prešov)": [
+  {
+   "sira": 3208,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1682-09-16",
+   "t": "1685-10-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3209,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "slovakya",
+   "f": "1993-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye slovakya f ucunun kaynağı — https://timeline.web.cern.ch/node/405 ; https://enrsi.stvr.sk/articles/news/34929"
+  }
+ ],
+ "Tokaj": [
+  {
+   "sira": 3210,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "macaristan-naiplik",
+   "f": "1918-11-16",
+   "t": "1946-02-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3211,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1682-09-16",
+   "t": "1685-10-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3212,
+   "sinif": "DIGER",
+   "alan": "v",
+   "d": "",
+   "f": "1557-01-01",
+   "t": "1565-02-09",
+   "mevcut_kaynak": "POSTIT-89: MTA History of Transylvania (mek.oszk.hu/03400/03407/html/103.html): 1557'de Yukarı Tisza aristokratları 'the most important royal fortresses, those "
+  },
+  {
+   "sira": 3213,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-halk f ucunun kaynağı — 1946. évi I. törvénycikk Magyarország államformájáról (net.jogtar.hu/ezer-"
+  },
+  {
+   "sira": 3214,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-cumhuriyeti f ucunun kaynağı — https://doha.mfa.gov.hu/eng/page/the-history-of-hungary · BEYANLI: "
+  }
+ ],
+ "Aberystwyth": [
+  {
+   "sira": 3220,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "glyndwr-galler",
+   "f": "1404-01-01",
+   "t": "1408-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3221,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1408-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kirkwall (Orkney)": [
+  {
+   "sira": 3222,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1472-02-20",
+   "t": "1707-05-12",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3223,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1707-05-12",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3224,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "orkney-kontlugu",
+   "f": "1137-01-01",
+   "t": "1281-01-01",
+   "mevcut_kaynak": "Store norske leksikon (snl.no), Kirkwall maddesi, Pihl-Jørstad, https://snl.no/Kirkwall (ham metin ham/snl_kirkwall.txt; TDV dışı kaynak, elle doğrulama bekler)"
+  }
+ ]
+}

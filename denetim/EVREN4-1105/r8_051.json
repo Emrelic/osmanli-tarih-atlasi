@@ -1,0 +1,99 @@
+{
+ "Bunia": [
+  {
+   "sira": 2758,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1900-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kitale": [
+  {
+   "sira": 2759,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1908-01-01",
+   "t": "1963-12-12",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Kenya, Birleşik Krallık'tan bağımsız oldu; Nairobi, Kisu"
+  }
+ ],
+ "Cinca (Jinja)": [
+  {
+   "sira": 2760,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1901-01-01",
+   "t": "1962-10-09",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Uganda bağımsızlığıyla Gulu, Lira, Cinca, Hoima, Fort Po"
+  }
+ ],
+ "Butembo": [
+  {
+   "sira": 2762,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1900-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nakuru": [
+  {
+   "sira": 2763,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1904-01-01",
+   "t": "1963-12-12",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Nakuru resmen kasaba olarak kuruldu» (1904-01-01, yer kol"
+  }
+ ],
+ "Mbarara (Nkore)": [
+  {
+   "sira": 2764,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1901-10-25",
+   "t": "1962-10-09",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Uganda bağımsızlığıyla Gulu, Lira, Cinca, Hoima, Fort Po"
+  },
+  {
+   "sira": 2765,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nkore",
+   "f": "1450-01-01",
+   "t": "1901-10-25",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nairobi": [
+  {
+   "sira": 2766,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1899-01-01",
+   "t": "1963-12-12",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Uganda Demiryolu'nun Nairobi ikmal deposu kuruldu» (1899-"
+  }
+ ],
+ "Valikale": [
+  {
+   "sira": 2768,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1900-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

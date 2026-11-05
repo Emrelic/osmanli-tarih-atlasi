@@ -2,24 +2,24 @@
 
 > Bu dosyayı `arac/kaynak_guven.py` ÜRETİR — elle düzenleme. Yeniden: `py arac/kaynak_guven.py`.
 
-- **Ölçüldüğü taban commit:** `9bf3366e6fffd9166f17f6dbfa27675f9c21e5c1` + çalışma ağacındaki değişiklikler (M data/devletler.js, M data/ekokuma_bakis.js, M data/ekokuma_karadeniz.js, M data/etiket_yama.js, M data/kronoloji_balkan.js, M data/kronoloji_bizans.js, M data/kronoloji_ingiltere.js, M data/olaylar_ek.js, M data/olaylar_ek3.js, M data/padisahlar.js, M data/savas_kunye_1.js, M data/savaslar.js, M data/yer_yama_1923_1945.js, M data/yer_yama_ing.js, M data/yerlesimler.js, M data/yerlesimler_amerika.js)
-- **Tablo:** `data/kaynak_guven.js` · 146 girdi · sha256[:12] `3649a2578d2a`
-- **Evren:** index.html → `arac/paket_coz.py` → 188 `olaylar*/kronoloji*` dosyası (10587 madde) + `data/devletler.js` (1811 künye, 12298 künye-kronoloji maddesi); yükleme `arac/silsile_yukle.js` (node vm).
-- **Parçalama = site:** `js/app.js` `kaynakcaParcala` node'da koşturuldu, 15949 farklı kaynak dizgesinde Python bölmesiyle kıyaslandı → **0 fark**.
+- **Ölçüldüğü taban commit:** `ceb0ce402101ec073aef56f01024a8f836ed9459` (temiz ağaç)
+- **Tablo:** `data/kaynak_guven.js` · 159 girdi · sha256[:12] `ab7627019507`
+- **Evren:** index.html → `arac/paket_coz.py` → 283 `olaylar*/kronoloji*` dosyası (17921 madde) + `data/devletler.js` (2265 künye, 13372 künye-kronoloji maddesi); yükleme `arac/silsile_yukle.js` (node vm).
+- **Parçalama = site:** `js/app.js` `kaynakcaParcala` node'da koşturuldu, 24213 farklı kaynak dizgesinde Python bölmesiyle kıyaslandı → **0 fark**.
 
 ## 1. Damga dağılımı (madde sayısı)
 
 | damga | dosya kronolojileri | künye kronolojileri | künye `kaynak` alanı |
 |---|---:|---:|---:|
-| `guvenli` | 7423 | 2975 | 762 |
-| `ikincil` | 1011 | 3508 | 542 |
-| `taninmayan` | 964 | 1688 | 211 |
-| `guvensiz` | 437 | 1982 | 26 |
-| `bulunamadi` | 739 | 177 | 270 |
-| `bos` | 13 | 1968 | 0 |
-| **toplam** | 10587 | 12298 | 1811 |
-| ↳ `guvensiz` alt neden C | 21 | 1976 | 24 |
-| ↳ `guvensiz` alt neden `adsiz` | 416 | 6 | 2 |
+| `guvenli` | 12108 | 3847 | 1218 |
+| `ikincil` | 2411 | 3867 | 440 |
+| `taninmayan` | 2143 | 1987 | 250 |
+| `guvensiz` | 499 | 1564 | 99 |
+| `bulunamadi` | 757 | 180 | 258 |
+| `bos` | 3 | 1927 | 0 |
+| **toplam** | 17921 | 13372 | 2265 |
+| ↳ `guvensiz` alt neden C | 450 | 1559 | 97 |
+| ↳ `guvensiz` alt neden `adsiz` | 49 | 5 | 2 |
 
 - `guvenli` — En az bir A parçası.
 - `ikincil` — A yok, en az bir B parçası.
@@ -28,68 +28,68 @@
 - `bulunamadi` — Kaynak 'bulunamadı…' ile başlıyor (verinin kendi beyanı).
 - `bos` — Kaynak alanı yok ya da boş (VERI-YAPISI: ölçülmemiş, 'kaynaksız' değil).
 
-**`bulunamadi` içinde adı geçen dayanak** ("bulunamadı — … dayanak: X"): dosya A 421 · B 8 · yok 310; künye-kronoloji A 136 · B 1 · yok 40. Bunlar damgada `bulunamadi` kalır (verinin kendi beyanı) ama teyit kampanyasında ucuz kazançtır — tam liste `bulunamadi_dayanakli.tsv`.
+**`bulunamadi` içinde adı geçen dayanak** ("bulunamadı — … dayanak: X"): dosya A 423 · B 9 · yok 325; künye-kronoloji A 137 · B 3 · yok 40. Bunlar damgada `bulunamadi` kalır (verinin kendi beyanı) ama teyit kampanyasında ucuz kazançtır — tam liste `bulunamadi_dayanakli.tsv`.
 
 ## 2. Parça düzeyi
 
-Parça kademeleri: A 13504 · B 6552 · C 4911 · K 230 · N 1343 · TANINMAYAN 6704 · Y 720
+Parça kademeleri: A 21018 · B 8628 · C 6154 · K 1017 · N 2180 · TANINMAYAN 12710 · Y 718
 
-KARIŞIK parça (aynı parçada C ve A/B → C sayıldı): **173** — `karisik_parca.tsv`.
+KARIŞIK parça (aynı parçada C ve A/B → C sayıldı): **253** — `karisik_parca.tsv`.
 
-En sık eşleşen tablo kodları: TDV 9750 · VIKIPEDI 3186 · BRITANNICA 2652 · NOT 2327 · AKADEMIK-ESER 1223 · POPULER-TARIH 611 · HISTORY-STATE 516 · COUNTRYSTUDIES 511 · IRANICA 475 · UNIV-YAYIN-KISALTMA 414 · EL-KITABI 407 · CAMBRIDGE 400 · UNIV-YAYIN 351 · WORLDHISTORY 344 · RESMI-SITE 343 · UN 338 · UNIV-SITE 336 · ADSIZ 316 · PDF-KAYNAK 315 · ENCYCLOPEDIA-COM 307 · SECKIN-KURUM 280 · MUZE 267 · HABER 265 · EBSCO-RS 231 · LIVIUS 174 · WW1-ONLINE 165 · GLOBALSECURITY 163 · TRECCANI 142 · GEC 123 · WORLDSTATESMEN 116 · OXFORD 115 · HAKEMLI-DERGI 107 · ENC-REGIONAL 105 · MEVZUAT 101 · SAHO 97 · KUREANS 97 · UN-BELGE 83 · ARCHONTOLOGY 77 · NDB 75 · CHINAKNOWLEDGE 75
+En sık eşleşen tablo kodları: TDV 14426 · VIKIPEDI 4461 · NOT 3217 · BRITANNICA 2773 · AKADEMIK-ESER 2187 · ARCHIVE-ORG 1301 · TRECCANI 1102 · CAMBRIDGE 703 · HISTORY-STATE 653 · IRANICA 644 · UNIV-YAYIN-KISALTMA 624 · POPULER-TARIH 622 · COUNTRYSTUDIES 532 · PDF-KAYNAK 517 · ENCYCLOPEDIA-COM 504 · UNIV-YAYIN 490 · HAKEMLI-DERGI 444 · RESMI-SITE 433 · EL-KITABI 405 · UNIV-SITE 398 · LIVIUS 358 · UN 337 · ADSIZ 315 · SECKIN-KURUM 308 · WORLDHISTORY 307 · MUZE 304 · OXFORD 275 · HABER 267 · NDB 251 · LAROUSSE 209 · DBI 186 · EBSCO-RS 183 · GEC 172 · ENC-UKRAINE 170 · WW1-ONLINE 169 · MEVZUAT 162 · GLOBALSECURITY 155 · ENC-REGIONAL 125 · HRV-ENC 124 · SNL 117
 
-### En sık 30 tanınmayan parça (5576 ayrı parça; tamamı ilk 300 `taninmayan_parca.tsv`)
+### En sık 30 tanınmayan parça (9635 ayrı parça; tamamı ilk 300 `taninmayan_parca.tsv`)
 
 | # | adet | parça |
 |---:|---:|---|
-| 1 | 10 | D. Sharma 1959 |
-| 2 | 10 | R.B. Singh 1964) |
-| 3 | 10 | Zunes/Mundy 2010 |
-| 4 | 9 | https://www.blackpast.org/global-african-history/events-global-african-history/the-zanzibar-revolution-of-1964/ |
-| 5 | 9 | Shaw 2000 |
-| 6 | 8 | Jain 1972 |
-| 7 | 8 | Trivedi 1991 |
-| 8 | 8 | Sen 1999) |
-| 9 | 8 | St John 2011 |
-| 10 | 8 | Livy, Ab urbe condita (gelenek) |
-| 11 | 8 | Toronto east.library.utoronto.ca/node/28218 |
-| 12 | 7 | VLE — LDK ve Moskova savaşları |
-| 13 | 7 | Livonijos karas |
-| 14 | 7 | Zapolskij Jamo paliaubos |
-| 15 | 7 | Glinskio maištas — 1494 barışı |
-| 16 | 7 | 1508-10-08 barışı |
-| 17 | 7 | 1537 ateşkesi |
-| 18 | 7 | 1563-1579 Polotsk |
-| 19 | 7 | 1571 ateşkesi |
-| 20 | 7 | 1582-01-15 ateşkesi |
-| 21 | 7 | D. Sharma, Early Chauhan Dynasties, 1959 |
-| 22 | 7 | C. Talbot, The Last Hindu Emperor, 2015) |
-| 23 | 7 | R.K. Dikshit, The Candellas of Jejakabhukti, 1976 |
-| 24 | 7 | Annuario Pontificio / papalık listeleri — bu oturumda web teyidi yapılamadı |
-| 25 | 7 | Abdur Rahman, The Last Two Dynasties of the Sahis (1976) |
-| 26 | 7 | Andrade 2005 |
-| 27 | 7 | vdM |
-| 28 | 6 | WebSearch çapraz doğrulama (ikincil akademik kaynak) — birincil kaynağa ulaşılamadı |
-| 29 | 6 | Pskov Cumhuriyeti |
-| 30 | 6 | Rus-Litvanya savaşları (M. M. Krom) — 1503-04-02 ateşkes (onay Vilnius 08-27) |
+| 1 | 447 | VERI-MS1-1281 |
+| 2 | 68 | T5-1000-A-1016 |
+| 3 | 62 | SINIR-BENELUX |
+| 4 | 45 | nokta kaynağı yerlesimler_mo_*.js |
+| 5 | 31 | Hall, D. G. E., A History of South-East Asia, 4. baskı (London: Macmillan, 1981) |
+| 6 | 29 | T5-1000-B-1016 |
+| 7 | 16 | https://unnc.globalimpact.cn/en/publications/a-revised-chronology-for-the-archaeology-of-the-lower-yangtze-chi |
+| 8 | 15 | T5-1000-A-1016 (renk bekleyen, RENK-PAKET-1016 sonrası) |
+| 9 | 14 | (madde ONCE1281-GERIYE yerleşim zincirinin devir günü |
+| 10 | 14 | Anne Frank Huis (Maastricht) |
+| 11 | 13 | devir günü künye f=1260-01-01 (YIL DÜZEYİ |
+| 12 | 12 | gerçek ilan 1260 3. ay 辛卯, ad 'Da Yuan' 1271: Yuan shi 7 «可建國號曰大元») |
+| 13 | 12 | Scott, W. H., "Filipinos in China before 1500", Asian Studies 21 (1983), s. 1-19 |
+| 14 | 12 | Meier JS, Goring-Morris AN, Munro ND 2016, PLoS One 11(11):e0166573, Tablo 1 (Guney Levant, +-50-100 yil |
+| 15 | 12 | cal BP->MO: BP-1950) |
+| 16 | 12 | Sallaberger & Schrakamp (ed.), History & Philology (ARCANE III), Brepols 2015 |
+| 17 | 12 | Rosellón/Conflent'e de üstünlük kurdu |
+| 18 | 12 | Liu Xu vd., Jiu Tang shu, juan 53-56 (Li Mi: 號為魏公…二月…即位，稱元年 |
+| 19 | 12 | Wang Shichong: 世充僭即皇帝位，建元曰開明，國號鄭 |
+| 20 | 12 | Xiao Xian: 自稱梁王…義寧二年，僭稱皇帝 |
+| 21 | 11 | ZİNCİR-BK-1024 |
+| 22 | 10 | elle doğrulama bekler |
+| 23 | 10 | açıldı, okundu |
+| 24 | 10 | künye __BOSLUK__ — data/devletler.js |
+| 25 | 10 | D. Sharma 1959 |
+| 26 | 10 | R.B. Singh 1964) |
+| 27 | 10 | Zunes/Mundy 2010 |
+| 28 | 9 | Bischof H. 2009, 'Los periodos Arcaico Tardío, Arcaico Final y Formativo Temprano en el valle de Casma: evidencias e hipótesis', Boletín de Arqueología PUCP 13: |
+| 29 | 9 | nokta kaynağı yerlesimler_mo_*.js kaynak: alanı |
+| 30 | 9 | T5-1000-B-1016 (renk bekleyen, RENK-PAKET-3-1016 sonrası) |
 
 ### Tanınmayan parçalardaki en sık 30 alan adı (`taninmayan_alanadi.tsv`)
 
-blackpast.org 14 · east.library.utoronto.ca 8 · al-bab.com 7 · talvisota.fi 6 · pbs.org 6 · wp.arcticportal.org 6 · wiesbaden.de 6 · portalinvestigacion.um.es 6 · bsk.nios.ru 5 · globalvoices.org 5 · trap.fo 5 · liechtensteinusa.org 5 · jur.ph 5 · d.dccam.org 4 · dacb.org 4 · bakucity.preslib.az 4 · cambcomm.org.uk 4 · camer.be 4 · hiraizumi.or.jp 4 · austria-forum.org 4 · oca.org 4 · theconversation.com 4 · archive.kosovotwopointzero.com 4 · palazzoducale.lucca.it 4 · okupacijskemeje.si 4 · haiti.org 4 · revistapesquisa.fapesp.br 4 · swatreliefinitiative.org 4 · encyclopedia.pub 4 · nit.tuva.asia 3
+kotobank.jp 17 · unnc.globalimpact.cn 16 · exoriente.org 14 · blackpast.org 12 · unesdoc.unesco.org 11 · kerma.ch 11 · cssn.cn 10 · booksite.ru 8 · bmgn-lchr.nl 7 · famsi.org 7 · al-bab.com 7 · east.library.utoronto.ca 7 · pbs.org 6 · wp.arcticportal.org 6 · wiesbaden.de 6 · thelatinlibrary.com 6 · nit.tuva.asia 5 · dzieje.pl 5 · muzhp.pl 5 · net.jogtar.hu 5 · talvisota.fi 5 · d.dccam.org 5 · torino.txt 5 · sudak.txt 5 · lrt.lt 5 · gutenberg.net.au 5 · bsk.nios.ru 5 · globalvoices.org 5 · trap.fo 5 · liechtensteinusa.org 5
 
 ## 3. Değişmez 2 bağımlılığı
 
-Yöntem: `arac/denetle.py` içe aktarıldı; `degismez2`, `kapsam_disi`, `yil_temsili_ayir` denetle'nin ana akışındaki gibi çağrıldı (çekirdek yerleşimler = `KUYRUK_DOSYALARI` hariç). Madde evreni = `denetle.olaylari_yukle()` (disk glob: `olaylar*.js` + `kronoloji_sinir*.js`), 2742 madde / 90 dosya; birebir aynı kurulduğu doğrulandı. Süzülmüş evrende AÇIK olup tam evrende AÇIK olmayan kırılma = ±30 gün tanıkları YALNIZ süzülen maddeler olan kırılma.
+Yöntem: `arac/denetle.py` içe aktarıldı; `degismez2`, `kapsam_disi`, `yil_temsili_ayir` denetle'nin ana akışındaki gibi çağrıldı (çekirdek yerleşimler = `KUYRUK_DOSYALARI` hariç). Madde evreni = `denetle.olaylari_yukle()` (disk glob: `olaylar*.js` + `kronoloji_sinir*.js`), 7332 madde / 167 dosya; birebir aynı kurulduğu doğrulandı. Süzülmüş evrende AÇIK olup tam evrende AÇIK olmayan kırılma = ±30 gün tanıkları YALNIZ süzülen maddeler olan kırılma.
 
-D2 evreninde damga: bos 13 · bulunamadi 70 · guvenli 2073 · guvensiz 19 · ikincil 282 · taninmayan 285
+D2 evreninde damga: bos 3 · bulunamadi 89 · guvenli 5029 · guvensiz 183 · ikincil 793 · taninmayan 1235
 
-Taban (tam evren): 2 → 679 kırılma / 0 açık · 2s → 2246 kırılma / 1278 ham açık / 190 AÇIK · 2i → 237 kırılma / 1 açık
+Taban (tam evren): 2 → 742 kırılma / 0 açık · 2s → 3526 kırılma / 1448 ham açık / 201 AÇIK · 2i → 282 kırılma / 0 açık
 
 | senaryo (gizlenen damgalar) | gizlenen madde | 2 yeni açık | 2s yeni ham açık | 2s yeni AÇIK (kapsam içi, gün hassas) | 2i yeni açık |
 |---|---:|---:|---:|---:|---:|
-| S1-guvensiz | 19 | 0 | 2 | 0 | 0 |
-| S2-guvensiz+bos+bulunamadi | 102 | 3 | 52 | 44 | 1 |
-| S3-yalniz-AB-kalir | 387 | 17 | 160 | 121 | 2 |
+| S1-guvensiz | 183 | 0 | 13 | 3 | 0 |
+| S2-guvensiz+bos+bulunamadi | 275 | 2 | 54 | 34 | 0 |
+| S3-yalniz-AB-kalir | 1510 | 19 | 414 | 314 | 1 |
 
 Liste: `d2_yalniz_suzulen_tanikli.tsv` (senaryo, değişmez, tarih, yerleşimler, devlet eski→yeni, tanık maddeler, tanık kaynakları). Teyit kampanyasında İLK sıra S1 satırlarıdır.
 

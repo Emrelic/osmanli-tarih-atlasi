@@ -1,0 +1,144 @@
+{
+ "Katanning": [
+  {
+   "sira": 3669,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1898-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bairnsdale": [
+  {
+   "sira": 3671,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1844-01-01",
+   "t": "1851-07-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3672,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "viktorya-kolonisi",
+   "f": "1851-07-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Wiluna": [
+  {
+   "sira": 3674,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1902-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Windorah": [
+  {
+   "sira": 3675,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1880-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Esperance": [
+  {
+   "sira": 3677,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1894-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cali": [
+  {
+   "sira": 3679,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1537-01-01",
+   "t": "1542-11-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3680,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1819-12-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3681,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3682,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Panoré (São Gabriel da Cachoeira)": [
+  {
+   "sira": 3683,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1784-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Canelos (Bobonaza)": [
+  {
+   "sira": 3686,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1712-01-01",
+   "t": "1822-05-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3687,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1822-05-24",
+   "t": "1830-05-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3688,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ekvador-cumhuriyeti",
+   "f": "1830-05-13",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

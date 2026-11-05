@@ -1,0 +1,252 @@
+{
+ "Güzelyurt (Morphou)": [
+  {
+   "sira": 3935,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kibris-ingiliz-kolonisi",
+   "f": "1914-11-05",
+   "t": "1960-08-16",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3936,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kibris-cumhuriyeti",
+   "f": "1960-08-16",
+   "t": "1975-02-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3937,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kibris-turk-federe-devleti",
+   "f": "1975-02-13",
+   "t": "1983-11-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3938,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kktc",
+   "f": "1983-11-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Castries": [
+  {
+   "sira": 3939,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1814-05-30",
+   "t": "1958-01-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3940,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3941,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1979-02-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3942,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "saint-lucia",
+   "f": "1979-02-22",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Roseau": [
+  {
+   "sira": 3943,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1958-01-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3944,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3945,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1978-11-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3946,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dominika",
+   "f": "1978-11-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Gouyave": [
+  {
+   "sira": 3947,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1958-01-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3948,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3949,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1974-02-07",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3950,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1974-02-07",
+   "t": "1979-03-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3951,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada-devrimci-hukumet",
+   "f": "1979-03-13",
+   "t": "1983-10-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3952,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1983-10-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Charlestown (Nevis)": [
+  {
+   "sira": 3953,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1628-01-01",
+   "t": "1958-01-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3954,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3955,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1983-09-19",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3956,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "saint-kitts-nevis",
+   "f": "1983-09-19",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Philipsburg (Sint Maarten)": [
+  {
+   "sira": 3957,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1648-03-23",
+   "t": "1954-12-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3958,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-antilleri",
+   "f": "1954-12-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Balboa Heights (Panama Kanalı İdaresi)": [
+  {
+   "sira": 3959,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "panama-kanali-bolgesi",
+   "f": "1904-02-26",
+   "t": "1979-10-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bahlâ": [
+  {
+   "sira": 3960,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman-ic-imamlik",
+   "f": "1913-01-01",
+   "t": "1955-01-01",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

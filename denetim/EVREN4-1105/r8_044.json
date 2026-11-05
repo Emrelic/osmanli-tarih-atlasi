@@ -1,0 +1,171 @@
+{
+ "Fort Nipigon": [
+  {
+   "sira": 2581,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kanada Dominyonu kuruldu — ABD ile doğu sınırı yeni devle"
+  },
+  {
+   "sira": 2582,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1678-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Colvile": [
+  {
+   "sira": 2583,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1825-01-01",
+   "t": "1846-06-15",
+   "mevcut_kaynak": "yer 1825'te seçildi, inşa Ağu 1826 (NPS LARO); HBC 8.06.1871'de ayrıldı (HistoryLink 9235) · 1818 Konvansiyonu md. III (Avalon): 'any Country that may be claime"
+  },
+  {
+   "sira": 2584,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "abd",
+   "f": "1846-06-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Oregon Antlaşması md. I (49. paralel), Avalon/Statutes vol. 9: 'Done at Washington, the fifteenth day of June, in the year of our Lord one thousand eight hundre"
+  }
+ ],
+ "Chicoutimi": [
+  {
+   "sira": 2586,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kanada Dominyonu kuruldu — ABD ile doğu sınırı yeni devle"
+  },
+  {
+   "sira": 2587,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1676-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Michipicoten": [
+  {
+   "sira": 2589,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kanada Dominyonu kuruldu — ABD ile doğu sınırı yeni devle"
+  },
+  {
+   "sira": 2590,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1725-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Madawaska (Maliseet)": [
+  {
+   "sira": 2592,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "maliseet",
+   "f": "1281-01-01",
+   "t": "1761-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2593,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1761-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Astoria": [
+  {
+   "sira": 2594,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1818-10-06",
+   "t": "1846-06-15",
+   "mevcut_kaynak": "6.10.1818 iade ile 20.10.1818 konvansiyon arasındaki 14 gün ayrıca yazılmadı (beyan) · 1818 Konvansiyonu md. III (Avalon): 'any Country that may be claimed by e"
+  },
+  {
+   "sira": 2595,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1813-12-12",
+   "t": "1818-10-06",
+   "mevcut_kaynak": "İngiliz resmî zilyetliği (HMS Racoon; Franchère 12.12.1813 — bir İngiliz anlatısı 1.12.1813, ⑥) · iade: Gent md. I uyarınca teslim akti 'this 6th day of October"
+  },
+  {
+   "sira": 2596,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "abd",
+   "f": "1846-06-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Oregon Antlaşması md. I (49. paralel), Avalon/Statutes vol. 9: 'Done at Washington, the fifteenth day of June, in the year of our Lord one thousand eight hundre"
+  }
+ ],
+ "Louisbourg": [
+  {
+   "sira": 2598,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kanada Dominyonu kuruldu — ABD ile doğu sınırı yeni devle"
+  },
+  {
+   "sira": 2599,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1713-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Saint John (NB)": [
+  {
+   "sira": 2601,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji maddesi «Kanada Dominyonu kuruldu — ABD ile doğu sınırı yeni devle"
+  },
+  {
+   "sira": 2602,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1631-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

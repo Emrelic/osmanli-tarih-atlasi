@@ -1,0 +1,144 @@
+{
+ "Tupinambarana (Parintins)": [
+  {
+   "sira": 3689,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1669-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Joaquín de Omaguas (Fritz)": [
+  {
+   "sira": 3692,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1686-01-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3693,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Borba (Madeira)": [
+  {
+   "sira": 3694,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1723-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Jaén de los Bracamoros": [
+  {
+   "sira": 3697,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1549-01-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3698,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Santa María de Huallaga": [
+  {
+   "sira": 3699,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1649-01-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3700,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cerro de la Sal": [
+  {
+   "sira": 3701,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1635-01-01",
+   "t": "1824-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3702,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1824-12-09",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Reyes (Maropa)": [
+  {
+   "sira": 3703,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1716-01-01",
+   "t": "1825-08-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3704,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Ignacio de Moxos": [
+  {
+   "sira": 3705,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1689-01-01",
+   "t": "1825-08-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3706,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "Poverty Point": [
+  {
+   "sira": 4489,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "poverty-point-kultur",
+   "f": "-1649-01-01",
+   "t": "-1149-01-01",
+   "mevcut_kaynak": "künye poverty-point-kultur (Poverty Point Kültürü (Geç Arkaik, Louisiana)) · Kidder T.R., Ortmann A.L., Arco L.J. 2008, 'Poverty Point and the Archaeology of Si"
+  }
+ ],
+ "Nakbé": [
+  {
+   "sira": 4490,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "maya-orta-preklasik",
+   "f": "-0999-01-01",
+   "t": "-0399-01-01",
+   "mevcut_kaynak": "künye maya-orta-preklasik (Orta Preklasik Maya (Mirador Havzası ve Petén)) · Hansen R.D., Ball D., Whitehead M., Hansen N., Hansen W.R., Martínez G. 2022, 'Nuev"
+  }
+ ],
+ "Esh-Shaheinab": [
+  {
+   "sira": 4491,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "shaheinab-neolitik",
+   "f": "-4699-01-01",
+   "t": "-4199-01-01",
+   "mevcut_kaynak": "künye shaheinab-neolitik (Shaheinab Neolitiği (Orta Sudan)) · D'Ercole vd. 2024 (PLoS ONE e0309600): Arkell 1949-50 + 1979-80 kazıları kabuk/kömür tarihleri (Ox"
+  }
+ ],
+ "Gobero": [
+  {
+   "sira": 4492,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "gobero-kultur",
+   "f": "-7699-01-01",
+   "t": "-2834-01-01",
+   "mevcut_kaynak": "künye gobero-kultur (Gobero Holosen yerleşimi (Kiffian–Tenerian, Ténéré)) · Sereno vd. 2008, Lakeside cemeteries in the Sahara: 5000 years of Holocene populatio"
+  }
+ ],
+ "El Tajín": [
+  {
+   "sira": 4493,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "el-tajin",
+   "f": "0800-01-01",
+   "t": "1100-01-01",
+   "mevcut_kaynak": "SAHİP el-tajin: BOYALAR'a eklendi (BOYA PAKETİ), BOŞLUK BEYANI geri yazıldı (AMERİKA-ÖN1281 (29 Ekim 2026)) — dayanak aşağıdadır · UNESCO WHC 631 'El Tajin, Pre"
+  },
+  {
+   "sira": 4494,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1100-01-01",
+   "t": "1200-01-01",
+   "mevcut_kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: 1100–1200 arası kentin sahibi (atlas el-tajin künyesi t=1100; UNESCO’da polity adı yok). UNESCO World Heritage List no. 631, "
+  }
+ ]
+}

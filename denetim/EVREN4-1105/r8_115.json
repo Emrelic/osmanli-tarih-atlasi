@@ -1,0 +1,261 @@
+{
+ "Ning'er (Pu'er)": [
+  {
+   "sira": 4314,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "san-devletleri",
+   "f": "1281-01-01",
+   "t": "1729-01-01",
+   "mevcut_kaynak": "Daniels, J. Siam Society 101 (2013) — Sipsongpanna ülkesi"
+  },
+  {
+   "sira": 4315,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1729-01-01",
+   "t": "1912-02-12",
+   "mevcut_kaynak": "Daniels 2013: Qing 1729'da Mekong doğusundaki Sipsongpanna topraklarını bürokratik idareye kattı; 清史稿 卷74 Pu'er fu 1729; bitiş Kunming emsali"
+  }
+ ],
+ "Lijiang": [
+  {
+   "sira": 4320,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1382-04-07",
+   "t": "1644-04-25",
+   "mevcut_kaynak": "明史 卷3; bitiş Ming künye günü"
+  },
+  {
+   "sira": 4322,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1659-01-07",
+   "t": "1673-12-28",
+   "mevcut_kaynak": "清史稿 卷6"
+  },
+  {
+   "sira": 4323,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-07-14",
+   "mevcut_kaynak": "清史稿 卷6 康熙二十年 kaydı: asi general Heqing ve Lijiang'ı teslim etti [Çin ay takviminden ÇEVRİLDİ — araştırma ajanı hesabı, aynı metindeki ay-başı işaretiyle sınandı"
+  },
+  {
+   "sira": 4324,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-07-14",
+   "t": "1912-02-12",
+   "mevcut_kaynak": "清史稿 卷6; bitiş Kunming emsali"
+  }
+ ],
+ "Kal'a-i Hum (Darvaz)": [
+  {
+   "sira": 4327,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1920-09-02",
+   "t": "1920-10-08",
+   "mevcut_kaynak": "buhara künyesi 1920-09-02'de kapanıyor; emir Doğu Buhara'da 1921 başına dek direndi — künye penceresi dışı, komşuya itilmedi"
+  },
+  {
+   "sira": 4328,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1924-10-27",
+   "t": "1991-09-09",
+   "mevcut_kaynak": "Library of Congress Country Studies Tajikistan (Ozbek SSC icinde Tacik OSSC 1924, Tacik SSC 1929)"
+  },
+  {
+   "sira": 4329,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "tacikistan",
+   "f": "1991-09-09",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Library of Congress Country Studies Tajikistan"
+  }
+ ],
+ "Sibu": [
+  {
+   "sira": 4330,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sarawak-brooke",
+   "f": "1862-01-01",
+   "t": "1946-07-01",
+   "mevcut_kaynak": "Sarawak Tourism Board 'A Look at Sarawak Forts': Fort Brooke 1862; IBS 45: Rejang 1853'te Sarawak'ta"
+  },
+  {
+   "sira": 4331,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "sarawak-tac-kolonisi",
+   "f": "1946-07-01",
+   "t": "1963-09-16",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye sarawak-tac-kolonisi f ucunun kaynağı — https://sarawak.gov.my/web/home/article_view/228/244/?id=228 · BEYANL"
+  }
+ ],
+ "Simanggang (Sri Aman)": [
+  {
+   "sira": 4332,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "sarawak-brooke",
+   "f": "1864-01-01",
+   "t": "1946-07-01",
+   "mevcut_kaynak": "Sarawak Tourism Board: Fort Alice 1864; IBS 45: Batang Lupar 1853 sınırının içinde"
+  },
+  {
+   "sira": 4333,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "sarawak-tac-kolonisi",
+   "f": "1946-07-01",
+   "t": "1963-09-16",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye sarawak-tac-kolonisi f ucunun kaynağı — https://sarawak.gov.my/web/home/article_view/228/244/?id=228 · BEYANL"
+  }
+ ],
+ "Labuan (Victoria)": [
+  {
+   "sira": 4335,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "brunei-sultanligi",
+   "f": "1368-01-01",
+   "t": "1847-01-01",
+   "mevcut_kaynak": "IBS 45 s.5"
+  },
+  {
+   "sira": 4336,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1847-01-01",
+   "t": "1907-01-01",
+   "mevcut_kaynak": "IBS 45 s.5: Labuan 1847'de Britanya'ya (ÇELİŞKİ: devir antlaşması 18 Ara 1846, teslim 24 Ara 1846 — yalnız ipucu); 1848 taç kolonisi · enklav: ada koloni"
+  },
+  {
+   "sira": 4337,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1907-01-01",
+   "t": "1942-02-15",
+   "mevcut_kaynak": "1907'de Straits Settlements'a katıldı (1 Ocak yürürlük — ipucu); 1890–1906 Kuzey Borneo Şirketi idaresi yalnız idarî · enklav: Straits Settlements'ın ada parças"
+  },
+  {
+   "sira": 4338,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "malaya-birligi",
+   "f": "1946-04-01",
+   "t": "1948-01-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malaya-birligi f ucunun kaynağı — worldstatesmen.org/Malaysia.htm; (ipucu) Malayan Union maddesi · BEYANLI: o"
+  },
+  {
+   "sira": 4339,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1957-08-31",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye malezya f ucunun kaynağı — US Office of the Historian, Malaysia (history.state.gov/countries/malaysia) — «The"
+  },
+  {
+   "sira": 4340,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1945-09-02",
+   "t": "1946-04-01",
+   "mevcut_kaynak": "1907'de Straits Settlements'a katıldı (1 Ocak yürürlük — ipucu); 1890–1906 Kuzey Borneo Şirketi idaresi yalnız idarî · enklav: Straits Settlements'ın ada parças"
+  }
+ ],
+ "Lifau (Oecussi)": [
+  {
+   "sira": 4341,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1702-01-01",
+   "mevcut_kaynak": "Timor liurai krallıkları (Ambeno)"
+  },
+  {
+   "sira": 4342,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1702-01-01",
+   "t": "1942-02-24",
+   "mevcut_kaynak": "Marques dos Santos (FD-ULisboa): 'em 1702 o primeiro governador português António Coelho Guerreiro se instalou' (Gunn 1695 der — ÇELİŞKİ); 1859 antlaşması md.2 "
+  },
+  {
+   "sira": 4343,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1945-09-02",
+   "t": "1975-12-07",
+   "mevcut_kaynak": "Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"
+  },
+  {
+   "sira": 4344,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "endonezya-dogu-timor",
+   "f": "1975-12-07",
+   "t": "1999-10-25",
+   "mevcut_kaynak": "Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"
+  },
+  {
+   "sira": 4345,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "untaet",
+   "f": "1999-10-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "UNSC Resolution 1272 (25 Ekim 1999)"
+  }
+ ],
+ "Niki-Niki": [
+  {
+   "sira": 4346,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1769-10-10",
+   "mevcut_kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+  },
+  {
+   "sira": 4347,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1769-10-10",
+   "t": "1860-08-23",
+   "mevcut_kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Sant"
+  },
+  {
+   "sira": 4348,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1860-08-23",
+   "t": "1942-03-09",
+   "mevcut_kaynak": "1859 Lizbon antlaşması (RIAA XI) — Hollanda tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması"
+  }
+ ]
+}

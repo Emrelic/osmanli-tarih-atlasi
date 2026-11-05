@@ -1,0 +1,252 @@
+{
+ "Vacir (Wajir)": [
+  {
+   "sira": 4012,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kenya-kuzey-halklari",
+   "f": "1281-01-01",
+   "t": "1895-07-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4013,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-07-01",
+   "t": "1963-12-12",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Ouesso": [
+  {
+   "sira": 4014,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tio",
+   "f": "1281-01-01",
+   "t": "1880-10-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4015,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1880-10-03",
+   "t": "1960-08-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "İsiolo": [
+  {
+   "sira": 4016,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kenya-kuzey-halklari",
+   "f": "1281-01-01",
+   "t": "1895-07-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4017,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1895-07-01",
+   "t": "1963-12-12",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bveranyange (Karagve)": [
+  {
+   "sira": 4018,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "karagve",
+   "f": "1450-01-01",
+   "t": "1890-07-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4019,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-07-01",
+   "t": "1961-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4020,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanganika f ucunun kaynağı — Tanganyika Independence Act 1961 (legislation.gov.uk) ; TDV 'Tanzanya' (islamans"
+  },
+  {
+   "sira": 4021,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanzanya f ucunun kaynağı — TDV 'Tanzanya' (islamansiklopedisi.org.tr/tanzanya) — «26 Nisan 1964 tarihinde Ze"
+  }
+ ],
+ "Cambala (Djambala)": [
+  {
+   "sira": 4022,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-08-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Mosi (Moshi)": [
+  {
+   "sira": 4023,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1893-01-01",
+   "t": "1916-09-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4024,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4025,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4026,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanganika f ucunun kaynağı — Tanganyika Independence Act 1961 (legislation.gov.uk) ; TDV 'Tanzanya' (islamans"
+  },
+  {
+   "sira": 4027,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanzanya f ucunun kaynağı — TDV 'Tanzanya' (islamansiklopedisi.org.tr/tanzanya) — «26 Nisan 1964 tarihinde Ze"
+  }
+ ],
+ "Singida": [
+  {
+   "sira": 4028,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1900-01-01",
+   "t": "1916-09-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4029,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4030,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4031,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanganika f ucunun kaynağı — Tanganyika Independence Act 1961 (legislation.gov.uk) ; TDV 'Tanzanya' (islamans"
+  },
+  {
+   "sira": 4032,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanzanya f ucunun kaynağı — TDV 'Tanzanya' (islamansiklopedisi.org.tr/tanzanya) — «26 Nisan 1964 tarihinde Ze"
+  }
+ ],
+ "Dodoma": [
+  {
+   "sira": 4033,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1907-01-01",
+   "t": "1916-09-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4034,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1916-09-01",
+   "t": "1922-07-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4035,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-tanganika-mandasi",
+   "f": "1922-07-20",
+   "t": "1961-12-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4036,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tanganika",
+   "f": "1961-12-09",
+   "t": "1964-04-26",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanganika f ucunun kaynağı — Tanganyika Independence Act 1961 (legislation.gov.uk) ; TDV 'Tanzanya' (islamans"
+  },
+  {
+   "sira": 4037,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "tanzanya",
+   "f": "1964-04-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye tanzanya f ucunun kaynağı — TDV 'Tanzanya' (islamansiklopedisi.org.tr/tanzanya) — «26 Nisan 1964 tarihinde Ze"
+  }
+ ]
+}

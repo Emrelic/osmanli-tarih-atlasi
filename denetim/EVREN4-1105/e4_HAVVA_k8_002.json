@@ -1,0 +1,437 @@
+{
+ "Eski Basra (Zübeyr)": [
+  {
+   "sira": 451,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "akkoyunlu",
+   "f": "1469-01-01",
+   "t": "1494-10-02",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Basra, https://islamansiklopedisi.org.tr/basra",
+   "alinti": "1470'te Akkoyunlular",
+   "oneri": {
+    "f": "1470-01-01"
+   },
+   "not": "f: TDV Basra yalnız YIL verir (1470; atlas 1469). [yalnız yıl teyitli; gün teyitsiz]. t: TDV Basra 'halk bugünkü Basra'ya taşındı, 900 (1494-95) yılında tamamlandı'; 900 Muharrem 1 = 1494-10-02, atlas ucu hicrî ilk günle uyumlu ama TDV bu cümlede Akkoyunlu hâkimiyetinin sonunu değil taşınmayı tarihler. Uç ayrımı ic_not'ta beyan edilmeli."
+  },
+  {
+   "sira": 452,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1340-01-01",
+   "t": "1411-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Celâyirliler, https://islamansiklopedisi.org.tr/celayirliler",
+   "alinti": "Ahmed Celâyir ... öldürüldü (813/1410)",
+   "oneri": {
+    "t": "1410-01-01"
+   },
+   "not": "t: TDV Celâyirliler Sultan Ahmed'in Karakoyunlu'ya yenilip öldürülmesini 813 (1410) verir; ÜLKE DÜZEYİ, Basra anılmaz. TDV Basra: 'Karakoyunlular 1410'. Atlas 1411 ile 1 yıl fark. f 1340: TDV Basra ve Celâyirliler Basra hâkimiyetini yazmıyor; f BULUNAMADI (bakılan: basra, celayirliler)."
+  },
+  {
+   "sira": 453,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1411-01-01",
+   "t": "1469-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Basra, https://islamansiklopedisi.org.tr/basra",
+   "alinti": "1410'da Karakoyunlular ... 1470'te Akkoyunlular",
+   "oneri": {
+    "f": "1410-01-01",
+    "t": "1470-01-01"
+   },
+   "not": "TDV Basra yalnız yıl verir: Karakoyunlu 1410, Akkoyunlu 1470; atlas 1411 / 1469, birer yıl fark. [yalnız yıl teyitli]. TDV Basra'da 'Zübeyr' yerleşimi ayrı geçmez; eski Basra Übülle yakınında, bugünkü Basra'dan ~25 km."
+  }
+ ],
+ "Maan": [
+  {
+   "sira": 454,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ürdün, https://islamansiklopedisi.org.tr/urdun",
+   "alinti": "Yavuz Sultan Selim'in Mısır seferi sırasında (1516) Osmanlılar'a geçti",
+   "oneri": {
+    "t": "1516-01-01"
+   },
+   "not": "ÜLKE DÜZEYİ: TDV Ürdün 658 (1260)'dan Memlük, 1516'da Osmanlı. TDV Maan maddesi tarih vermez. TDV Amman 1516; TDV Rakka 1517 (iki TDV maddesi arasında yıl farkı: 1516/1517, hangisinin doğru olduğuna karar verilmedi). Atlas t 1517-01-01."
+  },
+  {
+   "sira": 455,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hicaz-kralligi",
+   "f": "1918-09-27",
+   "t": "1925-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Maan, https://islamansiklopedisi.org.tr/maan",
+   "alinti": "Maan ve Akabe kesin biçimde Ürdün'e katıldı (1925)",
+   "oneri": {},
+   "not": "t: yıl düzeyi KAYNAKLI (1925). f: TDV Maan Şerif Hüseyin'in 1916 yazında Maan'ı ele geçirdiğini, TDV Ürdün Faysal güçlerinin 1918'de Maan'ı tahrip ettiğini yazar (iki TDV çelişkisi; Maan şehir maddesi esas ama Hicaz Krallığı s: devri için gün sağlamaz). f günü BULUNAMADI."
+  },
+  {
+   "sira": 456,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1517-01-01",
+   "t": "1918-09-27",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ürdün, https://islamansiklopedisi.org.tr/urdun",
+   "alinti": "Yavuz Sultan Selim'in Mısır seferi sırasında (1516) Osmanlılar'a geçti",
+   "oneri": {
+    "f": "1516-01-01"
+   },
+   "not": "ÜLKE DÜZEYİ, yıl düzeyi. t: TDV Maan 1916 yazında Hicaz güçleri Maan'ı aldı; TDV Ürdün 1918'de Maan'ın tahribi. İki TDV çelişiyor; karar verilmedi; atlas ucu (1918-09-27) gün düzeyinde teyitsiz."
+  },
+  {
+   "sira": 457,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "urdun-emirligi",
+   "f": "1925-01-01",
+   "t": "1946-05-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Ürdün, https://islamansiklopedisi.org.tr/urdun",
+   "alinti": "25 Mayıs 1946'da İngilizler tarafından Ürdün'e bağımsızlık verildi",
+   "oneri": {},
+   "not": "t: gün KAYNAKLI (1946-05-25). f: TDV Maan 1925 yılı (yıl düzeyi). Emirlik Şubat 1921'de kuruldu; Maan 1925'e kadar Hicaz'da kaldı (TDV Maan)."
+  }
+ ],
+ "Sennar": [
+  {
+   "sira": 458,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "funj",
+   "f": "1504-01-01",
+   "t": "1821-06-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Func, https://islamansiklopedisi.org.tr/func",
+   "alinti": "1504 yılında ... bağımsızlığını ilan etti",
+   "oneri": {},
+   "not": "f yıl düzeyi KAYNAKLI (1504). t: TDV Func 'Sudan'ın Kavalalı Mehmed Ali Paşa tarafından fethine (1820)' der; TDV Sennâr teslim gününü vermez. Atlas 1821-06-14 ile TDV 1820 farkı ic_not'ta beyan edilmeli; t günü BULUNAMADI (bakılan: func, sennar)."
+  },
+  {
+   "sira": 459,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mehdi",
+   "f": "1885-01-26",
+   "t": "1899-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Func, https://islamansiklopedisi.org.tr/func",
+   "alinti": "1885'te Mehdî taraftarlarınca tahrip edildikten sonra",
+   "oneri": {},
+   "not": "f: yıl düzeyi (1885). Hartum'un düşüş günü TDV Func'ta yok, gün BULUNAMADI. t 1899-01-19: BAKILMADI."
+  },
+  {
+   "sira": 460,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "nube",
+   "f": "1281-01-01",
+   "t": "1504-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Func, https://islamansiklopedisi.org.tr/func",
+   "alinti": "Alve Krallığı'nın hüküm sürdüğü toprakların bir kısmını",
+   "oneri": {},
+   "not": "t yıl düzeyi: Funclar 1504'te Alve'ye karşı bağımsızlık ilan etti. 'nube' künyesinin Sennar'ı kapsadığı TDV'den teyit edilemedi; f 1281 BULUNAMADI."
+  },
+  {
+   "sira": 461,
+   "dosya_satir": "",
+   "alan": "v",
+   "d": "",
+   "f": "1821-06-14",
+   "t": "1885-01-26",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Func, https://islamansiklopedisi.org.tr/func",
+   "alinti": "Sudan'ın Kavalalı Mehmed Ali Paşa tarafından fethine (1820)",
+   "oneri": {},
+   "not": "Mısır idaresi 1820 fetihten 1885'e TDV Func'ta yıl düzeyinde var; Sennar'a özgü gün yok. Bakılan: TDV func, sennar. v: niteliği sorgulanmadı."
+  }
+ ],
+ "Amman": [
+  {
+   "sira": 462,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1516-12-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Amman, https://islamansiklopedisi.org.tr/amman",
+   "alinti": "1516'da Osmanlı sınırlarına dahil edildi",
+   "oneri": {},
+   "not": "Yıl düzeyi KAYNAKLI (1516). Gün 12-28 TDV Amman'da yok [yalnız yıl teyitli; gün teyitsiz]."
+  },
+  {
+   "sira": 463,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1918-09-25",
+   "t": "1921-02-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Amman, https://islamansiklopedisi.org.tr/amman; Ürdün",
+   "alinti": "San Remo Konferansı (1920) ... manda içinde İngilizler'e terkedildi; Şubat 1921",
+   "oneri": {
+    "d": "ingiltere",
+    "t": "1921-02-01"
+   },
+   "not": "ÖLÇÜT: idareye katma — San Remo 1920 (TDV, yıl düzeyi; gün TDV'de yok). TEK KURAL: 1918-09-25 işgal günü ic_not'a; önerim 1918→San Remo arası isg ingiltere + d osmanli, s: San Remo gününden (gün başka kaynakla bulunmalı). t: TDV Ürdün 'Şubat 1921'de ... emir ilân etti' (ay düzeyi, uyumlu). TDV Amman Faysal yönetimini anmaz."
+  },
+  {
+   "sira": 464,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1516-12-28",
+   "t": "1918-09-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Amman, https://islamansiklopedisi.org.tr/amman",
+   "alinti": "1516'da Osmanlı sınırlarına dahil edildi",
+   "oneri": {},
+   "not": "Başlangıç yıl düzeyi KAYNAKLI (1516). Bitiş günü TDV'de yok (maddede 'savaşa kadar Osmanlı')."
+  }
+ ],
+ "Rakka": [
+  {
+   "sira": 465,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "suriye-lubnan-mandasi",
+   "f": "1920-07-24",
+   "t": "1946-04-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Suriye, https://islamansiklopedisi.org.tr/suriye; Rakka",
+   "alinti": "Temmuz 1920'de ... Han Meyselûn'da Fransızlar ... yenilgiye uğrattı",
+   "oneri": {},
+   "not": "f: ay düzeyi KAYNAKLI (Temmuz 1920); gün 24 TDV'de yok. TDV Rakka mandayı '1920 Ankara İtilâfnâmesi'yle' açıklar (TDV iç tutarsızlık: Ankara Antlaşması 1921; beyan). t: TDV Suriye 'Fransa 1946 baharında Suriye'yi terketmek zorunda kaldı' (mevsim)."
+  },
+  {
+   "sira": 466,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1918-10-26",
+   "t": "1920-07-24",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Rakka, https://islamansiklopedisi.org.tr/rakka",
+   "alinti": "1917'de İngilizler tarafından işgal edilen şehir",
+   "oneri": {},
+   "not": "TDV Rakka 1917 İngiliz işgali der; Fransa dönemine Rakka-özgü tanık yok; 1918-10-26 TDV'de görülmedi. Bakılan: TDV rakka, suriye. Levant kuralı (iç Suriye: suriye-arap-kralligi 1918-10→1920-07-25) atlas tarafında kontrol edilmeli."
+  },
+  {
+   "sira": 467,
+   "dosya_satir": "",
+   "alan": "d",
+   "d": "",
+   "f": "1516-08-28",
+   "t": "1918-10-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Rakka, https://islamansiklopedisi.org.tr/rakka",
+   "alinti": "Rakka 923'te (1517) Osmanlı topraklarına katılarak Diyarbekir eyaletine bağlı bir sancak merkezi",
+   "oneri": {
+    "f": "1517-01-22"
+   },
+   "not": "f: TDV Rakka 923 (1517); atlas 1516-08-28 ülke düzeyi (Mercidabık). Hicrî 923 = 1517-01-22..1518-01-10 ∩ mîlâdî 1517 → kesişimin ilk günü 1517-01-22 (hicrî aralıkla ic_not'ta beyan). t: TDV 1917 İngiliz işgali; çelişki beyan."
+  },
+  {
+   "sira": 468,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "suriye-cumhuriyeti-1946",
+   "f": "1946-04-17",
+   "t": "1958-02-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Suriye, https://islamansiklopedisi.org.tr/suriye",
+   "alinti": "1946 baharında Suriye'yi terketmek zorunda kaldı; Şubat 1958'de ... Birleşik Arap Cumhuriyeti",
+   "oneri": {},
+   "not": "f mevsim düzeyi (1946 baharı); t ay düzeyi (Şubat 1958); gün teyitsiz."
+  },
+  {
+   "sira": 469,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "birlesik-arap-cumhuriyeti",
+   "f": "1958-02-22",
+   "t": "1961-09-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Suriye, https://islamansiklopedisi.org.tr/suriye",
+   "alinti": "Şubat 1958'de Mısır ve Suriye'nin Birleşik Arap Cumhuriyeti adı altında birleşmesiyle; Eylül 1961'de ... askerî ihtilâl",
+   "oneri": {},
+   "not": "Ay düzeyi her iki uç (Şubat 1958, Eylül 1961); gün teyitsiz."
+  },
+  {
+   "sira": 470,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "suriye-arap-cumhuriyeti",
+   "f": "1961-09-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Suriye, https://islamansiklopedisi.org.tr/suriye",
+   "alinti": "Eylül 1961'de Suriye'de gerçekleştirilen askerî ihtilâl",
+   "oneri": {},
+   "not": "f ay düzeyi. t 2000-12-31 künye üst sınırı; BAKILMADI."
+  }
+ ],
+ "Voronej": [
+  {
+   "sira": 471,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1585-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Rusya (https://islamansiklopedisi.org.tr/rusya); arama https://islamansiklopedisi.org.tr/arama/?q=voronej",
+   "alinti": "Voronej Tersanesi'nde yapılan gemilerin",
+   "oneri": {},
+   "not": "TDV'de Voronej kuruluşu/Rusya'ya katılışı yok (yalnız Voronej Tersanesi, 1696 Azak seferi). Popüler web özetleri 1585/1586 gösterdi; tek dayanak olamaz, hüküm vermedim. Akademik Rus kaynağı açılmadı. t 1917-03-15: Gregoryen karşılığı (Jülyen 2 Mart); TDV gün vermez."
+  },
+  {
+   "sira": 472,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1441-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Rusya",
+   "alinti": "Rusya'nın Altın Orda Hanlığı'nın denetimine girdi (1240)",
+   "oneri": {},
+   "not": "TDV Rusya Altın Orda hâkimiyetini ülke düzeyinde 1240'tan verir; Voronej-özgü tanık yok. Web özeti (popüler, hüküm değil): 15. yy'da bölge Orda ile Litvanya/Moskova arasında sınır kuşağı. 1441 ucu doğrulanamadı; bölgenin 1281-1585 arası sahibi için ABİ MERKEZ/beyan gerekebilir."
+  },
+  {
+   "sira": 473,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya-gecici-hukumet",
+   "f": "1917-03-15",
+   "t": "1917-11-07",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Rusya",
+   "alinti": "1917 ihtilâli",
+   "oneri": {},
+   "not": "TDV Rusya 1917 devrimini günsüz anar. Gün BULUNAMADI. 1917-11-07 = Jülyen 25 Ekim."
+  },
+  {
+   "sira": 474,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1917-11-07",
+   "t": "1991-12-26",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Rusya",
+   "alinti": "1917 Ekim İhtilâli",
+   "oneri": {},
+   "not": "Gün TDV'de yok. TDV Rusya: Gorbaçov 25 Aralık 1991'de istifa, Yeltsin ve cumhuriyet temsilcileri 31 Aralık 1991'de SSCB'nin sona erdiğini ilan etti. Atlas 1991-12-26 (142-N) ile TDV farklı: beyan."
+  },
+  {
+   "sira": 475,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rusya-federasyonu",
+   "f": "1991-12-26",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV Rusya",
+   "alinti": "Gorbaçov 25 Aralık 1991'de istifa",
+   "oneri": {},
+   "not": "Devamcı devlet kuralı gereği 1991-12-26 (142-N) esas; TDV 25/31 Aralık verir. KURAL KARARI korunur. t künye sınırı, BAKILMADI."
+  }
+ ],
+ "Ndjamena": [
+  {
+   "sira": 476,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1900-01-01",
+   "t": "1960-08-11",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Çad, https://islamansiklopedisi.org.tr/cad",
+   "alinti": "1900 yılında kurulan Çad Protektorası ... Çad 11 Ağustos 1960 tarihinde bağımsızlığını kazandı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: f yıl düzeyi (1900 Çad Protektorası); Fort-Lamy kuruluş günü TDV Çad ve N'Camena'da yok. t gün KAYNAKLI (11 Ağustos 1960)."
+  }
+ ],
+ "Porto": [
+  {
+   "sira": 477,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1580-08-25",
+   "t": "1640-12-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Portekiz, https://islamansiklopedisi.org.tr/portekiz",
+   "alinti": "1640'ta Bragança Dükü IV. Johann kral ilân edilerek",
+   "oneri": {},
+   "not": "Yıl düzeyi KAYNAKLI: 1580 (TDV Portekiz hanedan sonu; TDV İspanya ilhak 1580) ve 1640. Gün 08-25 ve 12-01 TDV'de yok [gün teyitsiz]. TDV Portekiz II. Felipe'nin kral ilânını 1581 verir; atlas 1580: ic_not'ta beyan."
+  },
+  {
+   "sira": 478,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1281-01-01",
+   "t": "1580-08-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Portekiz, https://islamansiklopedisi.org.tr/portekiz",
+   "alinti": "1143'te Zamora Antlaşması ile bağımsız krallık",
+   "oneri": {},
+   "not": "Porto (Terra Portucalis) 1143'ten Portekiz Krallığı'nda; yıl düzeyi KAYNAKLI. f 1281 künye."
+  },
+  {
+   "sira": 479,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1640-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Portekiz, https://islamansiklopedisi.org.tr/portekiz",
+   "alinti": "Bragança Dükü (IV.) Johann (1640-1656) kral ilân edilerek",
+   "oneri": {},
+   "not": "f yıl düzeyi (1640); gün TDV'de yok. İspanya'nın tanıması 1668 (TDV). t künye sınırı."
+  },
+  {
+   "sira": 480,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "asturias",
+   "f": "0868-01-01",
+   "t": "0910-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Portekiz, https://islamansiklopedisi.org.tr/portekiz",
+   "alinti": "V. yüzyılda ... Terra Portucalis",
+   "oneri": {},
+   "not": "TDV Portekiz Asturias'tan, Oviedo'dan, 868 Porto iskânından söz etmez. Bakılan: TDV portekiz (tam madde). Mevcut kaynak ikincil (FMG, Spain Then and Now); hüküm yok."
+  },
+  {
+   "sira": 481,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "0910-01-01",
+   "t": "1097-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, Portekiz, https://islamansiklopedisi.org.tr/portekiz",
+   "alinti": "Portekiz'in müstakil bir devlet haline gelişi 1095'ten itibaren başladı",
+   "oneri": {},
+   "not": "TDV: XI. yy ortası Kastilya-Leon kralı I. Ferdinand Galiçya ve Portekiz'in kuzeyini aldı; bağımsızlaşma 1095'ten başladı. Atlas t 1097 ile TDV 1095 yıl farkı beyan. f 910 ve Leon hâkimiyeti Porto için BULUNAMADI."
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "Maliana": [
+  {
+   "sira": 4350,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1769-10-10",
+   "mevcut_kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+  },
+  {
+   "sira": 4351,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1769-10-10",
+   "t": "1860-08-23",
+   "mevcut_kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Sant"
+  },
+  {
+   "sira": 4352,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1860-08-23",
+   "t": "1942-02-24",
+   "mevcut_kaynak": "1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması"
+  },
+  {
+   "sira": 4353,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1945-09-02",
+   "t": "1975-12-07",
+   "mevcut_kaynak": "Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"
+  },
+  {
+   "sira": 4354,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "endonezya-dogu-timor",
+   "f": "1975-12-07",
+   "t": "1999-10-25",
+   "mevcut_kaynak": "Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"
+  },
+  {
+   "sira": 4355,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "untaet",
+   "f": "1999-10-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "UNSC Resolution 1272 (25 Ekim 1999)"
+  }
+ ],
+ "Lautém (Moro)": [
+  {
+   "sira": 4356,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1769-10-10",
+   "mevcut_kaynak": "Timor liurai krallıkları; bitiş timor-beylikleri künye günü (Dili emsali)"
+  },
+  {
+   "sira": 4357,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1769-10-10",
+   "t": "1860-08-23",
+   "mevcut_kaynak": "timor-beylikleri künyesi 1769-10-10'da kapanıyor; iç bölgeler için 1859 antlaşmasına dek sömürge idaresinin günü BULUNAMADI — komşuya itilmedi. Marques dos Sant"
+  },
+  {
+   "sira": 4358,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1860-08-23",
+   "t": "1942-02-24",
+   "mevcut_kaynak": "1859 Lizbon antlaşması (RIAA XI) — Portekiz tarafı; Marques dos Santos, O sistema jurídico de Timor-Leste (FD-ULisboa; Galvão Teles'ten): 1859 Lizbon antlaşması"
+  },
+  {
+   "sira": 4359,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1945-09-02",
+   "t": "1975-12-07",
+   "mevcut_kaynak": "Endonezya istilasi 1975-12-07; Portekiz egemenligi birakmadi (BM SC Res 384)"
+  },
+  {
+   "sira": 4360,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "endonezya-dogu-timor",
+   "f": "1975-12-07",
+   "t": "1999-10-25",
+   "mevcut_kaynak": "Endonezya ilhaki 1976-07-17 BM tarafindan taninmadi; SC Res 1272"
+  },
+  {
+   "sira": 4361,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "untaet",
+   "f": "1999-10-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "UNSC Resolution 1272 (25 Ekim 1999)"
+  }
+ ],
+ "Tonghai": [
+  {
+   "sira": 4364,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1382-01-16",
+   "t": "1644-04-25",
+   "mevcut_kaynak": "明史 卷46 通海 洪武十五年三月 Lin'an fu'ya bağlandı; Ming fethi 明史 卷3 正月壬午 (Lin'an ile aynı); bitiş Ming künye günü"
+  },
+  {
+   "sira": 4366,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1659-01-07",
+   "t": "1673-12-28",
+   "mevcut_kaynak": "清史稿 卷6"
+  },
+  {
+   "sira": 4367,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "mevcut_kaynak": "清史稿 卷6"
+  },
+  {
+   "sira": 4368,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1912-02-12",
+   "mevcut_kaynak": "清史稿 卷21 (1865: Lin'an eşrafı asilere katılmadı); bitiş Kunming emsali"
+  }
+ ],
+ "Nabil kıyısı (bölge)": [
+  {
+   "sira": 4372,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1875-05-07",
+   "t": "1917-03-15",
+   "mevcut_kaynak": "St. Petersburg antlaşması 7 Mayıs 1875 (Amano, 'Karafuto as a Border Island', Eurasia Border Review 10(1))"
+  }
+ ],
+ "Pago Pago": [
+  {
+   "sira": 4376,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "samoa-kralligi",
+   "f": "1889-01-01",
+   "t": "1900-04-17",
+   "mevcut_kaynak": "Te Papa Tongarewa, German-Pacific relations: the precolonial period — Berlin Senedi 1889 (yalnız yıl); bitiş: Tutuila ve Aunu'u devir senedi 17 Nisan 1900 (Libr"
+  },
+  {
+   "sira": 4377,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "amerikan-samoasi",
+   "f": "1900-04-17",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "FRUS 1929 I d855 (history.state.gov); Library of Congress devir senedi 17 Nisan 1900"
+  }
+ ],
+ "Meissen": [
+  {
+   "sira": 4378,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-13",
+   "t": "1945-06-05",
+   "mevcut_kaynak": "künye saksonya t=1918-11-13 sonrası; Dresden emsali (almanya 1945-06-05'e dek, künye almanya t)"
+  },
+  {
+   "sira": 4381,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1000-01-01",
+   "t": "1123-01-01",
+   "mevcut_kaynak": "Mark Meißen Reich'in sınır markıydı: Sächsische Biografie (ISGV) «Konrad I. von Meißen»: «Nach dem Tod Heinrichs II. von Eilenburg 1123 … gab [Lothar] die Mark "
+  },
+  {
+   "sira": 4382,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "saksonya",
+   "f": "1123-01-01",
+   "t": "1918-11-13",
+   "mevcut_kaynak": "künye saksonya (başkent Meissen → Wittenberg → Dresden): SäBi «Konrad I. von Meißen» (1123, YIL) · SäBi Friedrich August III.: «Am 13.11.1918 verzichtete der Kö"
+  }
+ ],
+ "Home Island (Cocos Keeling)": [
+  {
+   "sira": 4383,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1857-01-01",
+   "t": "1955-11-23",
+   "mevcut_kaynak": "Cocos (Keeling): Clunies-Ross iskânı 1827; İngiltere ilhakı 1857 (Fremantle). Gün teyitsiz — YIL hassasiyeti; aday kaynak: Cocos Keeling Islands, Australian Gov"
+  },
+  {
+   "sira": 4384,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1955-11-23",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Cocos (Keeling) Islands Act 1955: 23 Kasım 1955 Avustralya'ya devir (avustralya künyesine madde eklendi; gün resmî Avustralya kaynağından, akademik teyit bekliy"
+  }
+ ],
+ "Handan": [
+  {
+   "sira": 4385,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "zhao-devleti",
+   "f": "-0385-01-01",
+   "t": "-0227-01-01",
+   "mevcut_kaynak": "Sima Qian, Shiji juan 15 «Liuguo nianbiao» (zh.wikisource.org/wiki/史記/卷015, bu oturumda okundu; tablo satırları MÖ yıl başlığı taşır): MÖ 386 satırı «趙敬侯元年。武公子朝"
+  }
+ ]
+}

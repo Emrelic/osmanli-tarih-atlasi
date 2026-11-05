@@ -1,0 +1,90 @@
+{
+ "Punta Arenas": [
+  {
+   "sira": 3736,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1848-12-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Güney Georgia (Grytviken)": [
+  {
+   "sira": 3737,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1904-11-16",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Utqiaġvik (Nuvuk / Barrow)": [
+  {
+   "sira": 3739,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nuiqsut (Kuukpikmiut, Colville deltası)": [
+  {
+   "sira": 3741,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Qeqertarsuaq (Godhavn)": [
+  {
+   "sira": 3744,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1773-01-01",
+   "t": "1814-01-14",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tikiġaq (Point Hope)": [
+  {
+   "sira": 3748,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Sisimiut (Holsteinsborg)": [
+  {
+   "sira": 3753,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "danimarka",
+   "f": "1756-01-01",
+   "t": "1814-01-14",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Qikiqtaġruk (Kotzebue)": [
+  {
+   "sira": 3755,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "Concepción (Şili)": [
+  {
+   "sira": 3403,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1550-10-05",
+   "t": "1818-02-12",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3404,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1818-02-12",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Purén (Mapuche/Araukanya — güney direniş bölgesi)": [
+  {
+   "sira": 3405,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1281-01-01",
+   "t": "1883-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3406,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Onondaga (İrokua Konfederasyon Merkezi)": [
+  {
+   "sira": 3407,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "haudenosaunee",
+   "f": "1450-01-01",
+   "t": "1777-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3408,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1777-01-01",
+   "t": "1783-09-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3409,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cayuga": [
+  {
+   "sira": 3410,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "haudenosaunee",
+   "f": "1450-01-01",
+   "t": "1777-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3411,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1777-01-01",
+   "t": "1783-09-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3412,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Coweta (Creek/Mvskoke Konfederasyonu — Aşağı Kasabalar merkezi)": [
+  {
+   "sira": 3414,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "creek-konfederasyonu",
+   "f": "1701-01-01",
+   "t": "1832-03-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3415,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1832-03-24",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Quebec": [
+  {
+   "sira": 3416,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1608-07-03",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3418,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "New Amsterdam (New York)": [
+  {
+   "sira": 3419,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1624-01-01",
+   "t": "1664-09-08",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3420,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1664-09-08",
+   "t": "1776-07-04",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3421,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Boston (Massachusetts)": [
+  {
+   "sira": 3422,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1630-09-07",
+   "t": "1776-07-04",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3423,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

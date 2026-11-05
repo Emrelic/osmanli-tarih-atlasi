@@ -1,0 +1,225 @@
+{
+ "Maun (Tavana)": [
+  {
+   "sira": 4122,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4123,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4124,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye botsvana f ucunun kaynağı — Botswana Independence Act 1966 (c.23), legislation.gov.uk/ukpga/1966/23/section/1"
+  }
+ ],
+ "Gvanda": [
+  {
+   "sira": 4125,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1900-01-01",
+   "t": "1965-11-11",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4126,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "zimbabve",
+   "f": "1980-04-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye zimbabve f ucunun kaynağı — Zimbabwe Act 1979 (c.60) s.1 değişiklik notu: S.I. 1980/394, legislation.gov.uk/u"
+  }
+ ],
+ "Massangena": [
+  {
+   "sira": 4127,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1895-01-01",
+   "t": "1974-09-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4128,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye mozambik-gecis-hukumeti f ucunun kaynağı — https://africaportal.org/wp-content/uploads/2023/05/Frelimo_and_th"
+  },
+  {
+   "sira": 4129,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Bagimsizlik 1975-06-25"
+  }
+ ],
+ "Vohipeno (Antemoro)": [
+  {
+   "sira": 4130,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "antemoro",
+   "f": "1500-01-01",
+   "t": "1897-02-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4131,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4132,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye madagaskar f ucunun kaynağı — TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar) — "
+  }
+ ],
+ "Şoşong (Shoshong)": [
+  {
+   "sira": 4133,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4134,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4135,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye botsvana f ucunun kaynağı — Botswana Independence Act 1966 (c.23), legislation.gov.uk/ukpga/1966/23/section/1"
+  }
+ ],
+ "Kang": [
+  {
+   "sira": 4136,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4137,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4138,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye botsvana f ucunun kaynağı — Botswana Independence Act 1966 (c.23), legislation.gov.uk/ukpga/1966/23/section/1"
+  }
+ ],
+ "Moçudi (Kgatla)": [
+  {
+   "sira": 4139,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4140,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4141,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye botsvana f ucunun kaynağı — Botswana Independence Act 1966 (c.23), legislation.gov.uk/ukpga/1966/23/section/1"
+  }
+ ],
+ "Tsabong": [
+  {
+   "sira": 4142,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tsvana",
+   "f": "1700-01-01",
+   "t": "1885-03-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4143,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1885-03-31",
+   "t": "1966-09-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4144,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "botsvana",
+   "f": "1966-09-30",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye botsvana f ucunun kaynağı — Botswana Independence Act 1966 (c.23), legislation.gov.uk/ukpga/1966/23/section/1"
+  }
+ ]
+}

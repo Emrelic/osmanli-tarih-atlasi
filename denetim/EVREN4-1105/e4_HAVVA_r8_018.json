@@ -1,0 +1,96 @@
+{
+ "Margiliç (Margariti)": [
+  {"sira": 1615, "dosya_satir": "", "alan": "s", "d": "yunanistan", "f": "1913-11-14", "t": "1973-06-01", "uc": "f",
+   "hukum": "ONERI", "kaynak": "TDV İslâm Ansiklopedisi, YANYA (M. Kiel), https://islamansiklopedisi.org.tr/yanya (abi merkez düzeyi); atlas kuralı: Londra 1913 ve Epir",
+   "alinti": "Yanya, 6 Mart 1913’te Esad Paşa’nın kumandası altında ... Yunan ordusu tarafından ele geçirildi",
+   "oneri": {"f": "1913-05-30", "t": "", "d": "yunanistan"},
+   "not": "KURAL KARARI: Epir'de s: yunanistan Londra 1913-05-30'dan başlar (Atina 1913-11-14 yalnız ic_not). TDV Yanya yalnız Yanya'nın 6 Mart 1913 fiilî düşüşünü verir, Margariti'ye özgü gün değil. t ucu (1973-06-01) bakılmadı."},
+  {"sira": 1617, "dosya_satir": "", "alan": "d", "d": "", "f": "1430-10-09", "t": "1913-11-14", "uc": "t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV YANYA (Sphrantzes'e göre Yanya Ekim 1430'da Sinan Paşa'ya teslim); dergipark.org.tr/en/download/article-file/783598 (Margiliç/Margariti/Gömenice/1430 geçmiyor); Treccani çekilemedi; WebSearch yalnız Vikipedi-türevi",
+   "alinti": "Yanya 1430’un Ekim ayında “Türkler’in Beylerbeyi” Sinan Paşa’ya teslim oldu",
+   "oneri": {},
+   "not": "Margariti'ye özgü Osmanlı'ya geçiş günü bulunamadı. Yanya 1430 Ekim (ay düzeyi; 1430-10-09 günü TDV'de yok). ABİ MERKEZ: Yanya bağı (Margiliç'in Yanya sancağına/vilayetine bağlılığı) kaynakla bu oturumda gösterilemedi, bu yüzden kaynaklı sayılmadı. t ucu: Londra 1913-05-30 kuralıyla 1913-05-30 olmalı (1615 ile birlikte)."},
+  {"sira": 1618, "dosya_satir": "", "alan": "isg", "d": "yunanistan", "f": "1913-03-06", "t": "1913-11-14", "uc": "f",
+   "hukum": "ONERI", "kaynak": "TDV YANYA, https://islamansiklopedisi.org.tr/yanya",
+   "alinti": "Yanya, 6 Mart 1913’te ... Yunan ordusu tarafından ele geçirildi",
+   "oneri": {"f": "1913-03-06", "t": "1913-05-30", "d": "yunanistan"},
+   "not": "f ucu Yanya düzeyinde (abi merkez) 6 Mart 1913 TDV ile uyumlu; Margariti'nin kendi giriş günü teyitsiz (Vikipedi-türevi ipucu: Şubat 1913, kullanılmadı). t ucu Londra 1913-05-30 kuralıyla kısalmalı. ÖLÇÜT: geçici/askerî — antlaşma öncesi."}
+ ],
+ "Ergiri (Ergirikasrı)": [
+  {"sira": 1619, "dosya_satir": "", "alan": "s", "d": "arnavutluk-bagimsiz", "f": "1912-11-28", "t": "1939-04-07", "uc": "f",
+   "hukum": "ONERI", "kaynak": "Atlas kuralı (Draç 1912 fiilî yönetim; Kuzey Epir/Floransa Protokolü 1913-12-17); TDV ERGİRİKASRI Osmanlı hâkimiyetini yalnız '1912'ye kadar' verir",
+   "alinti": "1417’den 1912’ye kadar kaldığı Osmanlı hâkimiyeti altında",
+   "oneri": {"f": "1913-12-17", "t": "", "d": "arnavutluk-bagimsiz"},
+   "not": "KURAL KARARI: Kuzey Epir'de Floransa Protokolü 1913-12-17'ye kadar d: osmanli + isg yunanistan, sonra s: arnavutluk. Ergiri'de Yunan girişi ve çekilişinin günü akademik kaynakla bu oturumda doğrulanamadı (yalnız Vikipedi-türevi arama ipucu: Floransa 1913-12-17, Yunan çekilişi Şubat-Mart 1914, Zografos özerkliği 1914-02-28; bunlar KAYNAKLI sayılmadı). ÖLÇÜT: geçici/askerî (isg)."},
+  {"sira": 1620, "dosya_satir": "", "alan": "s", "d": "bizans", "f": "1336-01-01", "t": "1417-01-01", "uc": "t",
+   "hukum": "ONERI", "kaynak": "TDV ERGİRİKASRI (Machiel Kiel), https://islamansiklopedisi.org.tr/ergirikasri",
+   "alinti": "Berat ve Avlonya gibi burası da 1417 yılında ele geçirilerek tam bir Osmanlı hâkimiyeti kuruldu",
+   "oneri": {"f": "", "t": "1417-01-01", "d": ""},
+   "not": "t ucu (1417) yıl düzeyinde teyitli, yalnız yıl; öteki uç teyitsiz. Ama TDV: 'Zenebizi beyleri XIV. yüzyılın sonlarına doğru Osmanlılar’ın vasalı haline geldiler' ve kale Zenebizi'nin ikametgâhıydı; yani 1336-1417 'bizans' sahipliği TDV ile çelişiyor, 1417 öncesi son onyıllar Osmanlı vasalı (Zenebizi) olmalı. 1336 f ucu bulunamadı (TDV'de yok)."},
+  {"sira": 1621, "dosya_satir": "", "alan": "d", "d": "", "f": "1417-01-01", "t": "1912-11-28", "uc": "f",
+   "hukum": "KAYNAKLI", "kaynak": "TDV ERGİRİKASRI (Machiel Kiel), https://islamansiklopedisi.org.tr/ergirikasri",
+   "alinti": "1417’den 1912’ye kadar kaldığı Osmanlı hâkimiyeti altında",
+   "oneri": {},
+   "not": "YIL düzeyi; f ucu (1417) kaynaklı, gün yok (1417-01-01 yalnız yıl). 1431'de Arvanid sancağı merkezi (Sûret-i Defter-i Sancak-ı Arnavid, 835/1431). t ucu: TDV yalnız '1912'; atlasın 1912-11-28'i Kuzey Epir kuralıyla çelişir (bkz. 1619: d osmanli + isg yunanistan 1913-12-17'ye kadar). Öteki uç teyitsiz."},
+  {"sira": 1622, "dosya_satir": "", "alan": "s", "d": "arnavutluk-halk-cumhuriyeti", "f": "1944-11-29", "t": "1991-04-29", "uc": "f+t",
+   "hukum": "BAKILMADI", "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe/erişim: bu dönem bu oturumda aranmadı (Ergiri'ye özgü Kurtuluş 1944 Kasım, TDV ARNAVUTLUK ülke düzeyi)."}
+ ],
+ "İgumenitsa (Gomenice)": [
+  {"sira": 1623, "dosya_satir": "", "alan": "s", "d": "yunanistan", "f": "1913-11-14", "t": "1973-06-01", "uc": "f",
+   "hukum": "ONERI", "kaynak": "TDV YANYA, https://islamansiklopedisi.org.tr/yanya (abi merkez düzeyi); atlas kuralı Londra 1913-Epir",
+   "alinti": "Yanya, 6 Mart 1913’te ... Yunan ordusu tarafından ele geçirildi",
+   "oneri": {"f": "1913-05-30", "t": "", "d": "yunanistan"},
+   "not": "KURAL KARARI: Epir'de s: yunanistan 1913-05-30 (Londra). Gömenice'ye özgü gün bulunamadı; Atina 1913-11-14 ic_not'a. t ucu bakılmadı."},
+  {"sira": 1625, "dosya_satir": "", "alan": "d", "d": "", "f": "1430-10-09", "t": "1913-11-14", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV YANYA; dergipark makale 783598; Treccani çekilemedi; WebSearch (Vikipedi-türevi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Gömenice (Igoumenitsa) Osmanlı'ya geçiş günü bulunamadı; Yanya 1430 Ekim yalnız abi merkez ipucu, bağ kaynaklanmadı. t ucu Londra 1913-05-30 kuralıyla kısalmalı."},
+  {"sira": 1626, "dosya_satir": "", "alan": "isg", "d": "yunanistan", "f": "1913-03-06", "t": "1913-11-14", "uc": "f",
+   "hukum": "ONERI", "kaynak": "TDV YANYA, https://islamansiklopedisi.org.tr/yanya",
+   "alinti": "Yanya, 6 Mart 1913’te ... Yunan ordusu tarafından ele geçirildi",
+   "oneri": {"f": "1913-03-06", "t": "1913-05-30", "d": "yunanistan"},
+   "not": "f ucu abi merkez Yanya düzeyinde TDV ile uyumlu, Gömenice'ye özgü teyit yok. t ucu 1913-05-30 olmalı (kural). ÖLÇÜT: geçici/askerî."}
+ ],
+ "Çatalca": [
+  {"sira": 1629, "dosya_satir": "", "alan": "d", "d": "", "f": "1453-05-29", "t": "1920-04-23", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV arama 'Çatalca' (5 başlık: Çatalcalı Ali Efendi, Ferhad Paşa Camii vb.; Çatalca şehir/ilçe maddesi yok); TDV ELÇİ HANI, EVLÂD-ı FÂTİHÂN, BULGARİSTAN maddelerindeki geçişler tarih vermiyor",
+   "alinti": "",
+   "oneri": {},
+   "not": "Çatalca'nın Osmanlı'ya geçiş günü ve 1920-04-23 t ucu (TBMM kuralı; Çatalca'nın İstanbul hükûmeti/işgal durumu) kaynakla bulunamadı. TDV'de Çatalca'ya özgü madde yok. İSAM/DergiPark/YÖK tez aşamasına geçilmedi."}
+ ],
+ "Cempoala (Zempoala)": [
+  {"sira": 1630, "dosya_satir": "", "alan": "s", "d": "ispanya", "f": "1519-07-01", "t": "1535-04-17", "uc": "f",
+   "hukum": "BAKILMADI", "kaynak": "Treccani (çekilemedi), archive.org ia-ara (yalnız 19. yy Prescott: ipucu)",
+   "alinti": "", "oneri": {},
+   "not": "Akademik kaynak bu oturumda ulaşılamadı. Vikipedi-türevi ipucu: Cempoala-Cortés ittifakı Nisan-Haziran 1519, Villa Rica kuruluşu 3 Mayıs veya Haziran başı 1519 (kaynaklar çelişik, KULLANILMADI). Ittifak (Totonak) ile ispanya sahipliği ayrı olay; 1519-07-01 gün olarak teyitsiz."},
+  {"sira": 1632, "dosya_satir": "", "alan": "s", "d": "nahua-sehir-devletleri", "f": "1281-01-01", "t": "1519-07-01", "uc": "t",
+   "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {},
+   "not": "Aranmadı. Not: Cempoala Totonak merkeziydi, geç Postklasik'te Mexica haraç merkezi; 'nahua-sehir-devletleri' sahipliği Totonak için sorgulanmalı (ipucu, kaynak yok)."},
+  {"sira": 1633, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya", "f": "1535-04-17", "t": "1821-09-27", "uc": "f+t",
+   "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Ülke düzeyi uçlar; yerleşime özgü bakılmadı."}
+ ],
+ "Xochimilco": [
+  {"sira": 1635, "dosya_satir": "", "alan": "s", "d": "nahua-sehir-devletleri", "f": "1281-01-01", "t": "1430-01-01", "uc": "f+t", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Akademik Mezoamerika kaynağına ulaşılamadı (Treccani maddeleri çekilemedi)."},
+  {"sira": 1636, "dosya_satir": "", "alan": "s", "d": "aztek-imparatorlugu", "f": "1430-01-01", "t": "1521-08-13", "uc": "f+t", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Bakılmadı."},
+  {"sira": 1637, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya-ilk-donem", "f": "1521-08-13", "t": "1535-04-17", "uc": "f+t", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Bakılmadı. Not: Tenochtitlan düşüş günü ülke/merkez düzeyidir; Xochimilco'ya özgü teslim günü ayrıca aranmalı."},
+  {"sira": 1638, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya", "f": "1535-04-17", "t": "1821-09-27", "uc": "f+t", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Bakılmadı."}
+ ],
+ "Pátzcuaro": [
+  {"sira": 1639, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya-ilk-donem", "f": "1530-02-14", "t": "1535-04-17", "uc": "f",
+   "hukum": "BAKILMADI", "kaynak": "Treccani (çekilemedi); WebSearch yalnız Vikipedi-türevi",
+   "alinti": "", "oneri": {},
+   "not": "1530-02-14 Tangaxuan II'nin idam günü (Vikipedi-türevi ipucu, Pollard 1993 ve Relación de Michoacán anılıyor; doğrulanmadı). Bu Tzintzuntzan/Cazonci olayıdır, Pátzcuaro'nun idareye katılış günü değildir; Pátzcuaro başkentliği sonradan (Tzintzuntzan'dan taşınma). Akademik teyit yok."},
+  {"sira": 1641, "dosya_satir": "", "alan": "s", "d": "purepecha-imparatorlugu", "f": "1325-01-01", "t": "1530-02-14", "uc": "t", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {},
+   "not": "Aranmadı. İpucu (kaynaksız): Purépecha'nın Spaniards'a tâbiliyeti 1522 (Olid seferi) olabilir; t ucu 1530 ile çelişebilir, teyit gerek."},
+  {"sira": 1642, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya", "f": "1535-04-17", "t": "1821-09-27", "uc": "f+t", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Bakılmadı."}
+ ],
+ "Mitla": [
+  {"sira": 1643, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya-ilk-donem", "f": "1523-01-01", "t": "1535-04-17", "uc": "f", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Mitla/Zapotek-Mixtek fethi ile ilgili hiçbir sonuç gelmedi (WebSearch Oaxaca'yı karşılamadı)."},
+  {"sira": 1645, "dosya_satir": "", "alan": "s", "d": "zapotek-krallik", "f": "1281-01-01", "t": "1523-01-01", "uc": "f+t", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Bakılmadı."},
+  {"sira": 1646, "dosya_satir": "", "alan": "s", "d": "yeni-ispanya", "f": "1535-04-17", "t": "1821-09-27", "uc": "f+t", "hukum": "BAKILMADI", "kaynak": "", "alinti": "", "oneri": {}, "not": "Bakılmadı."}
+ ]
+}

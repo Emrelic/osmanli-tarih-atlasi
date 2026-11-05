@@ -1,0 +1,70 @@
+{
+ "Lavras do Sul": [
+  {"sira": 2871, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1847-11-13", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE, Diretoria de Geociencias, Divisao Territorial Brasileira (DTB), 'Lavras do Sul - RS', Historico e Formacao Administrativa. https://biblioteca.ibge.gov.br/visualizacao/dtb/riograndedosul/lavrasdosul.pdf",
+   "alinti": "Em 25 de outubro de 1831, o núcleo, já significativo, desmembra-se de Rio Pardo para integrar-se ao território de Caçapava do Sul",
+   "oneri": {"f": "1831-10-25", "t": "1889-11-15", "d": "brezilya-imparatorlugu"},
+   "f_geri": {"eski_f": "1847-11-13", "yeni_f": "1831-10-25", "sahip": "brezilya-imparatorlugu (kunye f 1822-09-07 <= 1831-10-25, t 1889-11-15: aralik kapsanir)", "kaynak": "IBGE DTB Lavras do Sul"},
+   "not": "Atlas f 1847-11-13 = IBGE'deki 'Distrito criado com a denominação de Lavras, lei provincial nº 82, de 13-11-1847' (STATÜ günü, varoluş günü değil; 6g). Varoluş: IBGE'ye göre 1800-1820 arası ilk madenci çekirdekleri (gün/yıl yok), 25-10-1831'de 'núcleo já significativo' Rio Pardo'dan ayrılıp Caçapava'ya bağlanıyor = bu satırın bulunan en erken GÜN-düzeyi varoluş tanıklığı (BEYANLI ALT SINIR: asıl kuruluş daha eski, tarihsiz). 1847-11-13 ic_not olarak kalır; vila 1882-05-09 (lei prov. 364; metin 'nº 1364' ve 'Instalado em 28-01-1993' yazım hatalı), Lavras do Sul adı 1944-12-29. Yeni ilk dilim sahibi kaynaklı (Imparatorluk Caçapava'ya bağlıyor), sahipsiz/hayalet dilim yok. DİKKAT (ipucu, kaynaklı değil): Ragamuffin/Farroupilha savaşı 1836-45 bölgeyi etkiledi; atlasın Caçapava çevresi için bu dönemi ayrıca ele alıp almadığına bakılmalı. t 1889-11-15 ÜLKE DÜZEYİ: Decreto nº 1, 15-11-1889 (planalto.gov.br/ccivil_03/decreto/1851-1899/d0001.htm ve camara.leg.br; arama özetinden okundu, [alıntı özetten]) — öteki uç ülke düzeyinde teyitli, yerleşime özgü değil. IBGE metni PDF'den ham çıkarıldı (alıntı ham)."}
+ ],
+ "Porto Nacional": [
+  {"sira": 2873, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1831-11-11", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE DTB, 'Porto Nacional - TO', Historico ve Formacao Administrativa. https://biblioteca.ibge.gov.br/visualizacao/dtb/tocantins/portonacional.pdf",
+   "alinti": "Elevado à categoria de vila com a denominação de Porto Imperial, pelo decreto 11-11-1831. Instalada em 24-04-1833.",
+   "oneri": {"f": "1831-11-11 (degismez, BEYANLI ALT SINIR)", "t": "1889-11-15", "d": "brezilya-imparatorlugu"},
+   "not": "Atlas f 1831-11-11 = vila decreto günü (STATÜ; 6g gereği f değil, ic_not). Varoluş daha eski: IBGE 'na última década do século XVIII' Félix Camôa bandeirante gelişi, Porto Real arraial'ı (yalnız onyıl, YIL YOK -> yıl yazılmadı, f geri çekilemez); 1810'da Ouvidor Segurado görevi (yıl). Tarihli kuruluş günü bulunamadı (bakılan: IBGE DTB; arama özetleri 1738 diyen ikincil/turizm kaynağı var, kullanılmadı). Bu yüzden f 1831-11-11 'BEYANLI ALT SINIR' olarak kalır. İdari iz: vila 1831-11-11 (instalada 1833-04-24), distrito 1835-07-23 (lei prov. 14), cidade 1861-07-13 (resolução prov. 333), ad Porto Nacional 1890-03-07. Not: önceki dönem (Portekiz Brezilyası) için varoluş kaynağı gün vermediğinden dilim açılmadı. t ÜLKE DÜZEYİ (Decreto nº 1, 15-11-1889). Çekince: atlas yerleşimi 'Porto Nacional' = bugünkü Tocantins; 1889'da Goiás eyaletiydi."}
+ ],
+ "Flores de Goiás": [
+  {"sira": 2875, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1835-07-23", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE DTB, 'Flôres de Goiás - GO', Historico ve Formacao Administrativa. https://biblioteca.ibge.gov.br/visualizacao/dtb/goias/floresdegoias.pdf",
+   "alinti": "Distrito criado com a denominação de Flores, pela lei provincial nº 14, de 23-07-1835, no município de Forte.",
+   "oneri": {"f": "1835-07-23 (degismez, BEYANLI ALT SINIR)", "t": "1889-11-15", "d": "brezilya-imparatorlugu"},
+   "not": "Atlas f = distrito kuruluş günü (STATÜ, ic_not). IBGE: yerleşimin başlangıcı '2 yüzyıldan fazla'; kesin olarak 1729'da bölgeye ilk giriş (incursão), 1740 dolayında altın arayıcıları (metin ham çıkarımda bozuk, tam okunamadı). İlk giriş ≠ yerleşim; ayrıca IBGE yerleşimin sıhhi nedenlerle Sítio d'Abadia'ya TAŞINDIĞINI, sonra merkezin 'ex-Urutágua' distritine geçtiğini yazıyor -> bugünkü nokta ile 1740 yerleşimi aynı yer olmayabilir. Bu yüzden f geri çekilmedi (BEYANLI ALT SINIR 1835-07-23). Belediye (município) 1963-1964: sede Flôres de Goiás ex-Urutágua, Instalado 01-01-1964 (lei no metinde okunamadı). t ÜLKE DÜZEYİ (Decreto nº 1, 15-11-1889). Alıntı ham PDF çıkarımından."}
+ ],
+ "Loreto (Maranhão)": [
+  {"sira": 2877, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1851-11-10", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE DTB, 'Loreto - MA', Historico ve Formacao Administrativa. https://biblioteca.ibge.gov.br/visualizacao/dtb/maranhao/loreto.pdf",
+   "alinti": "Distrito criado com a denominação de Loreto, pela lei provincial nº 296, de 10-11-1851, subordinado ao município de Pastos Bons.",
+   "oneri": {"f": "1851-11-10 (degismez, BEYANLI ALT SINIR)", "t": "1889-11-15", "d": "brezilya-imparatorlugu"},
+   "not": "Atlas f 1851-11-10 = distrito kuruluş günü (STATÜ; ic_not). Varoluş: IBGE 'pedra angular nos anos de 1780' (bir kayda dayanan bir kapelin temeli; onyıl, yıl/gün YOK) -> f geri çekilemez. Vila 1873-07-24 (lei prov. 1038), cidade 1938-03-29 (lei est. 45). Not: 1780'ler Portekiz Brezilyası dönemidir; yıl bulunursa f_geri + portekiz-brezilyasi/brezilya-imparatorlugu bölünmesi gerekir. Bakılan: yalnız IBGE DTB (ek kaynak aranmadı -> varoluş ucu için BULUNAMADI-kısmen). t ÜLKE DÜZEYİ (Decreto nº 1, 15-11-1889)."}
+ ],
+ "Piripiri": [
+  {"sira": 2879, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1870-08-16", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE DTB, 'Piripiri - PI', Historico ve Formacao Administrativa (Pereira da Costa, Cronologia Historica do Estado do Piaui'ye atifla). https://biblioteca.ibge.gov.br/visualizacao/dtb/piaui/piripiri.pdf",
+   "alinti": "construiu, no ano de 1844, uma casa para sua residência e, próximo a ela, a Capela de Nossa Senhora dos Remédios",
+   "oneri": {"f": "1844-01-01", "t": "1889-11-15", "d": "brezilya-imparatorlugu"},
+   "f_geri": {"eski_f": "1870-08-16", "yeni_f": "1844-01-01", "sahip": "brezilya-imparatorlugu (kunye f 1822-09-07 <= 1844, t 1889-11-15)", "kaynak": "IBGE DTB Piripiri (Padre Francisco Domingos de Freitas, ev ve kapel 1844)"},
+   "not": "Atlas f 1870-08-16 = distrito kuruluşu (resolução prov. 698, 16-08-1870; STATÜ -> ic_not). Kaynak YIL düzeyinde: Padre Freitas 1844'te ev + Nossa Senhora dos Remédios kapelini yaptı, araziyi parsellere böldü; 1857'de povoação ilerlemesi 'indiscutível', 1860'ta kapel patrimônio arazisi bağışı. 1844 = bu yerleşimin bulunan en erken varoluş YILI; gün yok -> YYYY-01-01 + 'yalnız yıl teyitli'. NOT: Fazenda Piripiri araziye 1777 sesmaria (Botica) öncesine uzanır, ama arazi hibesi = yerleşim değil. Yeni ilk dilim sahibi kaynaklı: Piauí 1844'te Brezilya İmparatorluğu eyaleti. Sonraki idari izler: município (Periperi) 1874-06-16 (resolução prov. 849) kuruldu 1874-09-08 (instalado), cidade 1910-07-04 (lei est. 570), adı 'Nossa Senhora dos Remédios de Periperi' -> Piripiri. t ÜLKE DÜZEYİ (Decreto nº 1, 15-11-1889). Alıntı ham PDF çıkarımından."}
+ ],
+ "Iguatu (Telha)": [
+  {"sira": 2881, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1831-10-11", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE DTB, 'Iguatu - CE', Historico ve Formacao Administrativa. https://biblioteca.ibge.gov.br/visualizacao/dtb/ceara/iguatu.pdf",
+   "alinti": "Distrito criado com a denominação de Telha, pelo decreto de 11-10-1831, e ato provincial de 18-03-1842.",
+   "oneri": {"f": "1831-10-11 (degismez, BEYANLI ALT SINIR)", "t": "1889-11-15", "d": "brezilya-imparatorlugu"},
+   "not": "Atlas f 1831-10-11 = distrito Telha kararnamesi (STATÜ -> ic_not; gün-ay sırası IBGE 'dd-mm-yyyy' = 11 Ekim). Varoluş daha eski: IBGE 1707'de Padre João de Matos Serra (missões prefeito) Quixelô bölgesinden geçti (ziyaret, yerleşim değil); Quixelô'ların Telha'da aldeamento'su (Venda -> Telha) TARİHSİZ; sonra çiftçi ranchoları 'pequena vila' görünümüne geldi (tarihsiz). Tarihli kuruluş günü/yılı bulunamadı (bakılan: IBGE DTB metni; arama sonuçlarında IBGE monografisi col_mono_b_n113_iguatu.pdf var, okunmadı). BEYANLI ALT SINIR 1831-10-11 kalır. Diğer: vila 1851-11-27 (lei prov. 558, Icó'dan), instalada 1853-01-23; cidade 1874-08-21; ad Telha -> Iguatu 1883-10-20 (lei 2035; metinde 'Em 20 de outubro de 1833' ile çelişki: IBGE içi yazım tutarsızlığı). t ÜLKE DÜZEYİ (Decreto nº 1, 15-11-1889)."}
+ ],
+ "Cáceres (São Luís de Cáceres)": [
+  {"sira": 2883, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1850-06-28", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Revista do IHGMT, 'Natalino e Cáceres: Amor de nascença' (ata de fundação 6-10-1778 aktarılıyor) https://revistaihgmt.com.br/index.php/revistaihgmt/article/download/773/730/2908 ; ikinci kaynak (yıl): Forum Ambiental, 'Essay on the history, expansion and urban Landscape of Cáceres, MT' https://publicacoes.amigosdanatureza.org.br/index.php/forum_ambiental/en/article/view/4799",
+   "alinti": "Na ata de fundação ditada por Luiz de Albuquerque de Mello Pereira e Cáceres, em 6 de outubro de 1778",
+   "oneri": {"f": "1778-10-06", "t": "1889-11-15", "d": "portekiz-brezilyasi (1778-10-06 -> 1822-09-07), sonra brezilya-imparatorlugu (1822-09-07 -> 1889-11-15)"},
+   "f_geri": {"eski_f": "1850-06-28", "yeni_f": "1778-10-06", "sahip": "portekiz-brezilyasi (kunye 1549-01-01 -> 1822-09-07; 1778 kapsanir), ardindan brezilya-imparatorlugu 1822-09-07'den", "kaynak": "Rev. IHGMT ata de fundacao; Forum Ambiental (1778 yil)"},
+   "not": "Atlas f 1850-06-28 için hiçbir kaynakta karşılık bulunamadı (IBGE: Vila Maria do Paraguai 'recriada' lei prov. nº 1, 28-05-1859, instalada 16-10-1859; cidade 'São Luiz de Cáceres' lei prov. nº 3, 30-05-1874 — bu iki satır WebSearch özetinden, [alıntı özetten]; IBGE Cáceres PDF'i yazı tipi nedeniyle okunamadı). Kuruluş: Vila Maria do Paraguai, 6 Ekim 1778, Mato Grosso kaptanı Luís de Albuquerque de Melo Pereira e Cáceres emriyle, Dragões tenentesi Antônio Pinto do Rego e Carvalho huzurunda (ata metni ham PDF çıkarımından). Kolbe/Catholic Encyclopedia 1776 diyor (ticari/eski, ipucu; yıl çelişkisi ic_not'a). Gün: tek kaynak (ata aktarımı), yıl iki kaynak. 'Yeni ilk dilim' iki parçalı: 1778-10-06 -> 1822-09-07 portekiz-brezilyasi ve 1822-09-07 -> mevcut dilim; ikisi de künye f/t'ye oturuyor. Çekince: 1778'de alan İspanya-Portekiz sınırında (Paraguay nehri); 1777 San Ildefonso sonrası Portekiz'e ait, hayalet dilim yok. t ÜLKE DÜZEYİ (Decreto nº 1, 15-11-1889)."}
+ ],
+ "Canindé": [
+  {"sira": 2885, "dosya_satir": "", "alan": "s", "d": "portekiz-brezilyasi", "f": "1818-09-03", "t": "1822-09-07",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE DTB, 'Canindé - CE', Historico ve Formacao Administrativa (Revista do Instituto do Ceará'ya atıf). https://biblioteca.ibge.gov.br/visualizacao/dtb/ceara/caninde.pdf",
+   "alinti": "Em 1775 senta moradia à margem do rio, situando grande fazenda de cria, o português Francisco Xavier de Medeiros",
+   "oneri": {"f": "1775-01-01", "t": "1822-09-07", "d": "portekiz-brezilyasi"},
+   "f_geri": {"eski_f": "1818-09-03", "yeni_f": "1775-01-01", "sahip": "portekiz-brezilyasi (kunye 1549-01-01 -> 1822-09-07; 1775 kapsanir; ayni devlet, sahip degismiyor)", "kaynak": "IBGE DTB Canindé (Francisco Xavier de Medeiros fazendası, 1775)"},
+   "not": "Atlas f 1818-09-03 = IBGE 'Provisão de 03-09-1818' (Resolução Régia 19-08-1817 ile distrito kuruluşu; STATÜ -> ic_not). Varoluş: IBGE ortalarında 18. yy'da Monte-Mor sertão'larından gelen Kızılderili aldeamento'su (tarihsiz 'meados do século dezoito'); 1775'te Francisco Xavier de Medeiros nehir kıyısında hane + büyük hayvan çiftliği kurdu (YIL); kapel 1792 kuraklığıyla durdu, 1795'te yeniden başladı, ~1796 São Francisco das Chagas kapeli bitti; vila 1846-07-29 (lei prov. 221), instalado 1847-07-05; cidade 1914-08-25. 1775 = bulunan en erken varoluş YILI -> YYYY-01-01, 'yalnız yıl teyitli'. t 1822-09-07 ÜLKE DÜZEYİ: Dom Pedro'nun ilan günü; ANCAK Ceará'da fiilî durum farklı: haber Ekim 1822'de ulaştı, Pereira Filgueiras 1823-01-23'te Fortaleza'yı aldı, üç eyaletin (MA-PI-CE) resmî katılış belgesi 1823-08-06 (O Povo / Diário do Nordeste, gazete: YALNIZ İPUCU; t için ONERI olarak değil, Ceará ucu için Emre kararı gereken uyarı). Alıntı ham PDF çıkarımından."}
+ ]
+}

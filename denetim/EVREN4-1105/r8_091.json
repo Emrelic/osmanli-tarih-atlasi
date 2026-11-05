@@ -1,0 +1,171 @@
+{
+ "Memphis (Chickasaw Bluffs)": [
+  {
+   "sira": 3851,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cikasav",
+   "f": "1739-01-01",
+   "t": "1832-10-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3852,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1832-10-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Mohave (Kolorado geçidi)": [
+  {
+   "sira": 3853,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mohave",
+   "f": "1281-01-01",
+   "t": "1865-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3854,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1865-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Prescott / Yavapai": [
+  {
+   "sira": 3855,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yavapai",
+   "f": "1281-01-01",
+   "t": "1873-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3856,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1873-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Meskalero Apaçi (Pecos vadisi)": [
+  {
+   "sira": 3857,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meskalero-apaci",
+   "f": "1281-01-01",
+   "t": "1873-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3858,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1873-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Natchitoches": [
+  {
+   "sira": 3859,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1714-01-01",
+   "t": "1762-11-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3860,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1762-11-03",
+   "t": "1803-12-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3861,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1803-12-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Felipe de Austin": [
+  {
+   "sira": 3862,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1824-01-01",
+   "t": "1836-03-02",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3863,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "teksas-cumhuriyeti",
+   "f": "1836-03-02",
+   "t": "1845-12-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3864,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1845-12-29",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Sancti Spíritus": [
+  {
+   "sira": 3865,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1514-06-04",
+   "t": "1898-12-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3866,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-12-10",
+   "t": "1902-05-20",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Vancouver (Granville)": [
+  {
+   "sira": 3867,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1886-04-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

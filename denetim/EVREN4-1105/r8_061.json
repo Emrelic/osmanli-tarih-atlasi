@@ -1,0 +1,243 @@
+{
+ "Diego Garcia (Chagos)": [
+  {
+   "sira": 2968,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1793-01-01",
+   "t": "1814-05-30",
+   "mevcut_kaynak": "Chagos'ta Fransız hindistan cevizi iskânı 1790'larda başladı (Diego Garcia'da 1793 civarı); öncesi iskânsız. Yıl yaklaşık — aday kaynak: Sandra Evers & Marry Ko"
+  },
+  {
+   "sira": 2969,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiliz-mauritius",
+   "f": "1814-05-30",
+   "t": "1965-11-08",
+   "mevcut_kaynak": "Paris 1814 ile Mauritius ve bağımlılıkları İngiltere'ye (ingiliz-mauritius künye maddesi 1814-05-30)."
+  },
+  {
+   "sira": 2970,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1965-11-08",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "İngiliz Hint Okyanusu Toprağı (BIOT) 8 Kasım 1965'te Mauritius'tan ayrıldı — ICJ, Legal Consequences of the Separation of the Chagos Archipelago from Mauritius "
+  }
+ ],
+ "Bozüyük": [
+  {
+   "sira": 2971,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "isa-celebi",
+   "f": "1402-07-28",
+   "t": "1403-09-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2972,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mehmed-celebi",
+   "f": "1403-09-01",
+   "t": "1404-03-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2973,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suleyman-celebi",
+   "f": "1404-03-01",
+   "t": "1410-05-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2974,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mehmed-celebi",
+   "f": "1410-05-06",
+   "t": "1413-07-05",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2976,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1281-01-01",
+   "t": "1402-07-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2977,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1413-07-05",
+   "t": "1920-04-23",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Adapazarı": [
+  {
+   "sira": 2979,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1550-01-01",
+   "t": "1920-04-23",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Giresun": [
+  {
+   "sira": 2982,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1461-08-15",
+   "t": "1920-04-23",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "İlbasan (Elbasan)": [
+  {
+   "sira": 2983,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arnavutluk-bagimsiz",
+   "f": "1912-11-28",
+   "t": "1939-04-07",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2984,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1466-06-01",
+   "t": "1912-11-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2985,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "arnavutluk-halk-cumhuriyeti",
+   "f": "1944-11-29",
+   "t": "1991-04-29",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye arnavutluk-halk-cumhuriyeti f ucunun kaynağı — TDV arnavutluk (ÖZET, kelimesi kelimesine DEĞİL): 29 Kasım 194"
+  }
+ ],
+ "Kanije": [
+  {
+   "sira": 2986,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "macaristan-naiplik",
+   "f": "1918-11-16",
+   "t": "1946-02-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2987,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1600-10-20",
+   "t": "1690-04-23",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2988,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "macaristan-halk",
+   "f": "1946-02-01",
+   "t": "1989-10-23",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-halk f ucunun kaynağı — 1946. évi I. törvénycikk Magyarország államformájáról (net.jogtar.hu/ezer-"
+  },
+  {
+   "sira": 2989,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "macaristan-cumhuriyeti",
+   "f": "1989-10-23",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye macaristan-cumhuriyeti f ucunun kaynağı — https://doha.mfa.gov.hu/eng/page/the-history-of-hungary · BEYANLI: "
+  }
+ ],
+ "Nakşa": [
+  {
+   "sira": 2990,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1830-02-03",
+   "t": "1973-06-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2991,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1566-04-15",
+   "t": "1830-02-03",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Zagem (Kaheti)": [
+  {
+   "sira": 2992,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gurcistan",
+   "f": "1281-01-01",
+   "t": "1492-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2993,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gurcistan",
+   "f": "1762-01-01",
+   "t": "1801-09-12",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2994,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1801-09-12",
+   "t": "1917-03-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2996,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "transkafkasya",
+   "f": "1917-11-07",
+   "t": "1918-05-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2997,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1921-02-25",
+   "t": "1991-04-09",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

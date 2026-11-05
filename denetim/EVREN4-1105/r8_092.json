@@ -1,0 +1,297 @@
+{
+ "Urasoe Gusuku (Chuzan merkezi)": [
+  {
+   "sira": 3868,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sanzan",
+   "f": "1322-01-01",
+   "t": "1429-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3869,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ryukyu",
+   "f": "1429-01-01",
+   "t": "1879-03-27",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3870,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1879-03-27",
+   "t": "1945-04-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3871,
+   "sinif": "ZAYIF_VIKI",
+   "alan": "s",
+   "d": "ryukyu-shunten-eiso",
+   "f": "1187-01-01",
+   "t": "1322-01-01",
+   "mevcut_kaynak": "SAHİP BEYANLI: ryukyu-shunten-eiso (önceki BOŞLUK BEYANI; boya BOYALAR'a eklendi, d: yazıldı) · Chūzan Seikan (1650) ja.wikisource.org/wiki/琉球國中山世鑑/卷一 ve /卷二 (o"
+  },
+  {
+   "sira": 3872,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ryukyu-abd-idaresi",
+   "f": "1945-04-01",
+   "t": "1972-05-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3873,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "japonya-devleti",
+   "f": "1972-05-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "House of Taga (Tinian, Marianalar)": [
+  {
+   "sira": 3874,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1695-01-01",
+   "t": "1899-11-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3875,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1914-10-14",
+   "t": "1944-08-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3876,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "chamorro",
+   "f": "1000-01-01",
+   "t": "1695-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3877,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1944-08-01",
+   "t": "1947-07-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3878,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "pasifik-adalari-vesayet-toprak",
+   "f": "1947-07-18",
+   "t": "1986-11-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3879,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1986-11-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nri (Agukwu Nri)": [
+  {
+   "sira": 3880,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-nijerya",
+   "f": "1911-01-01",
+   "t": "1960-10-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3881,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nri",
+   "f": "1000-01-01",
+   "t": "1911-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3882,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1960-10-01",
+   "t": "1967-05-30",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3883,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "biafra",
+   "f": "1967-05-30",
+   "t": "1970-01-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3884,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "nijerya",
+   "f": "1970-01-15",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Garth Celyn (Abergwyngregyn)": [
+  {
+   "sira": 3885,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1283-10-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3886,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gwynedd",
+   "f": "1000-01-01",
+   "t": "1283-10-03",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Foix": [
+  {
+   "sira": 3887,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1607-01-01",
+   "t": "1792-09-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3889,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "foix-kontlugu",
+   "f": "1064-01-01",
+   "t": "1607-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Salvador Kalesi, Heping Adasi (Keelung)": [
+  {
+   "sira": 3890,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-formosa",
+   "f": "1626-01-01",
+   "t": "1642-08-26",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3891,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-formosa",
+   "f": "1642-08-26",
+   "t": "1662-02-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3892,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tungning",
+   "f": "1662-02-01",
+   "t": "1683-10-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3893,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1683-10-03",
+   "t": "1895-04-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3894,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "japon-tayvani",
+   "f": "1895-04-17",
+   "t": "1945-10-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3895,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1945-10-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Serra da Barriga (Cerca do Macaco, Palmares)": [
+  {
+   "sira": 3896,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "palmares",
+   "f": "1630-01-01",
+   "t": "1694-02-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3897,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1694-02-06",
+   "t": "1822-09-07",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kalat (Kelat)": [
+  {
+   "sira": 3900,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kalat-hanligi",
+   "f": "1666-01-01",
+   "t": "1948-03-27",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3901,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "pakistan",
+   "f": "1948-03-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

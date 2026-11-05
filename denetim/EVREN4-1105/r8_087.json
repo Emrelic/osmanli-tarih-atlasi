@@ -1,0 +1,135 @@
+{
+ "Batoche": [
+  {
+   "sira": 3795,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "metis",
+   "f": "1872-01-01",
+   "t": "1885-05-12",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3796,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1885-05-12",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Calgary": [
+  {
+   "sira": 3797,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1875-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Walsh (Cypress Hills)": [
+  {
+   "sira": 3798,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1875-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fort Belknap (Assiniboine-Gros Ventre)": [
+  {
+   "sira": 3799,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1871-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Victoria (Fort Victoria)": [
+  {
+   "sira": 3800,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1843-06-10",
+   "t": "1871-07-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3801,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1871-07-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "British Columbia Terms of Union (Konsey kararı 16.05.1871; Justice Canada, Constitution Enactment No. 4): 'from and after the twentieth day of July, one thousan"
+  }
+ ],
+ "Fort Benton": [
+  {
+   "sira": 3802,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1846-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Knife River (Hidatsa köyleri)": [
+  {
+   "sira": 3803,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hidatsa",
+   "f": "1281-01-01",
+   "t": "1851-09-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3804,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1851-09-17",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Chequamegon (La Pointe)": [
+  {
+   "sira": 3805,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1665-01-01",
+   "t": "1763-02-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3806,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1783-09-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3807,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1783-09-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

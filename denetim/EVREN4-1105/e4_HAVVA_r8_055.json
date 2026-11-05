@@ -1,0 +1,188 @@
+{
+ "Serro (Vila do Príncipe)": [
+  {
+   "sira": 2839, "dosya_satir": "", "alan": "s", "d": "portekiz-brezilyasi", "f": "1714-01-29", "t": "1822-09-07",
+   "hukum": "BULUNAMADI", "uc": "f+t",
+   "kaynak": "Baktığım yerler: IBGE Brasil/Minas Gerais/Serro tarihçe PDF'i (biblioteca.ibge.gov.br dtb) 404; TJMG-ALMG 'Comarca do Serro Frio' PDF'i ve PUC-Minas Cadernos de História PDF'i sayfa.py ile çekildi ama sıkıştırılmış akışlar çözülemedi (metin okunamadı); cidades.ibge.gov.br 403.",
+   "alinti": "",
+   "oneri": {},
+   "not": "f = 1714-01-29 VİLA STATÜSÜ günüdür (arama özeti: 'Vila do Príncipe adıyla 29 Ocak 1714', kurulum 6 Nisan 1714 ya da 1715; Lima Júnior 1978'e atfen) — 6g gereği varoluş günü değil, ic_not. Arraial/ilk anılış (Serro Frio madeni) günü bulunamadı; f geri çekme adayı için kaynak yok. t = 1822-09-07 ÜLKE DÜZEYİ bağımsızlık ilanıdır; Minas'ta Serro'nun adesion günü ham kaynaktan okunamadı (PDF çözülemedi). Özet-düzeyi (ham değil) bilgi, kanıt sayılmaz [alıntı özetten]. Öneri yok; Emre'nin PDF'i elle okuması ya da metin katmanlı kopya gerekir."
+  }
+ ],
+ "Pirenópolis (Meia Ponte)": [
+  {
+   "sira": 2842, "dosya_satir": "", "alan": "s", "d": "portekiz-brezilyasi", "f": "1754-08-10", "t": "1822-09-07",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE Biblioteca, Formação Administrativa: Pirenópolis (biblioteca.ibge.gov.br/visualizacao/dtb/goias/pirenopolis.pdf) — metni arama özetinden; PDF sayfa.py ve WebFetch ile çözülemedi. Kuruluş için yalnız ipucu sınıfı: Vikipedi ve yerel haber (ohoje.com) 7 Ekim 1727; UFES Dimensões n.46 (D'Abadia vd., 2021) makalesi madeni/kurulum yılını başlıkta anıyor ama özet gün vermiyor.",
+   "alinti": "Distrito criado com a denominação de Meia Ponte, pela carta Régia de 10-08-1754",
+   "oneri": {"f": "1727-10-07"},
+   "f_geri": {"eski_f": "1754-08-10", "yeni_f": "1727-10-07", "sahip": "portekiz-brezilyasi (künye f 1549-01-01 devletler.js'te ölçüldü; aralığı kapsıyor)", "kaynak": "ADAY — yalnız ipucu sınıfı (Vikipedi/ohoje.com); akademik teyit yok"},
+   "not": "[alıntı arama özetinden, IBGE PDF'inden ham okunamadı] f = 1754-08-10 yalnızca İLÇE/DİSTRİKT statüsü (Carta Régia) günüdür; 6g gereği f varoluş günü olmalı: Minas de Nossa Senhora do Rosário de Meia Ponte 1727'de (7 Ekim 1727 ipucu) altın keşfiyle kuruldu; kurucu/tarih kaynaklar arasında çelişkili (Manuel Rodrigues Tomar mı, Bartolomeu Bueno mu; bölge 1731/1732'de 'arraial' kategorisi). ÖNERİ koşullu: akademik gün teyidi gelmeden f_geri UYGULANMASIN; BEYANLI ALT SINIR = 1754-08-10 kalır, 1727 yılı 'yıl düzeyi' beyan edilebilir. 1822-09-07 t ucu ÜLKE DÜZEYİ: Goiás'ta bağımsızlığa uyum Goiás-Meia Ponte'de 1822 sonu/1823 (güney-kuzey ayrı zaman çizgisi; Meia Ponte'den padre Luís Gonzaga de Camargo Fleury ile ilgili gazete özeti); gün kaynağı bulunamadı — öteki uç teyitsiz. Vila statüsü 10-07-1832 (IBGE özeti), şehir 1853 — ic_not."
+  }
+ ],
+ "Viana (Maranhão)": [
+  {
+   "sira": 2845, "dosya_satir": "", "alan": "s", "d": "portekiz-brezilyasi", "f": "1757-07-08", "t": "1822-09-07",
+   "hukum": "ONERI", "uc": "t",
+   "kaynak": "t ucu için ipucu sınıfı: O Imparcial (São Luís gazetesi) 'Entenda o feriado de adesão do Maranhão', 2015-2025 dosyaları; arama özeti: 'Em 28 de julho, a Câmara Geral da província proclamava oficialmente a adesão do Maranhão ao Império do Brasil'. f ucu: IBGE Formação Administrativa (Viana) özeti — PDF çözülemedi.",
+   "alinti": "a Câmara Geral da província proclamava oficialmente a adesão do Maranhão ao Império do Brasil",
+   "oneri": {"t": "1823-07-28"},
+   "not": "[alıntı arama özetinden; akademik ham kaynağa ulaşılamadı, gazete = ipucu] Maranhão 1822-09-07'de Portekiz'de kaldı: Portekiz askerî yönetimi 1823 Temmuz sonuna kadar sürdü, 'Câmara Geral' adesão belgesi 28 Temmuz 1823 tarihli (O Imparcial, imirante.com özetleri; Cochrane 26 Temmuz 1823'te Baía de São Marcos'ta). Dolayısıyla portekiz-brezilyasi dilimi 1822-09-07'de bitmemeli, 1823-07-28'e uzatılmalı (ve brezilya-imparatorlugu dilimi o güne ertelenmeli) — aday; akademik teyit (UFMA/Revista do IHGB) gerekli. Viana'nın kendi adesão günü bulunamadı (ülke/eyalet düzeyi). f = 1757-07-08 VİLA kuruluş günü (IBGE özeti: 18-06-1757 Resolução Régia, 08-07-1757 kuruluş; Gov. Gonçalo Pereira Lobato e Sousa); varoluş günü değil — Maracu misyonu 17. yy ikinci yarısı (IBGE) / 1709 (O Imparcial) çelişkili, gün yok; f_geri için kaynak yetersiz. 6g: BEYANLI ALT SINIR = 1757-07-08."
+  }
+ ],
+ "Minas (Villa de la Concepción de las Minas)": [
+  {
+   "sira": 2848, "dosya_satir": "", "alan": "s", "d": "portekiz", "f": "1817-01-01", "t": "1822-09-07",
+   "hukum": "BULUNAMADI", "uc": "f+t",
+   "kaynak": "Baktığım yerler: Vikipedi ipucu (Banda Oriental seferi), Wikisource 1828 antlaşma metni (aşağıdaki satır), arama özetleri (Artigas, Asencio, Cisplatina). Minas'a özgü Portekiz/Cisplatina yönetimi belgesi bulunamadı.",
+   "alinti": "",
+   "oneri": {},
+   "not": "Minas iç kesimde (Maldonado-Minas kırsalı); Portekiz'in Montevideo'yu alışı (1817-01-20) yerleşim düzeyinde Minas'ın el değiştirmesi demek değil. Artigas'ın Provincia Oriental'ı 1820'ye kadar kırsalı tuttuğu ipucu düzeyinde (Vikipedi/globalsecurity özetleri) — doğruysa f 1817-01-01 erken kalır ve 1820 sonrası olmalı; KAYNAKSIZ olduğu için ONERI yazılmadı. t = 1822-09-07 ÜLKE DÜZEYİ (Brezilya bağımsızlığı); Cisplatina'da Lecor Brezilya yanlısı, Montevideo'daki Portekiz garnizonu 1824'e kadar ayrı — Minas hangi tarafta, kaynak yok. Uruguay tarihçisi (Archivo General de la Nación, Ramírez, Pivel Devoto) okunmalı; erişim bu partide sağlanamadı."
+  },
+  {
+   "sira": 2850, "dosya_satir": "", "alan": "s", "d": "ispanya", "f": "1783-01-01", "t": "1814-06-20",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "Uruguay hükûmeti, Ministerio de Educación y Cultura, 'Felipe Echevarría' sayfası (gub.uy/ministerio-educacion-cultura/politicas-y-gestion/felipe-echevarria) — WebFetch özeti. Ayrıca Vikipedi (ipucu): Rafael Pérez del Puerto, Mart 1783'te yeri belirledi/çizdi, Vértiz y Salcedo'nun emriyle.",
+   "alinti": "Sus orígenes se remontan a 1783",
+   "oneri": {},
+   "not": "[alıntı özetten] f YIL düzeyi teyitli (1783; kuruluş = varoluş, 6g ✓; 152 Asturias/Galiçya ailesi, Patagonya girişiminin başarısızlığından sonra); gün yok → 1783-01-01 'yalnız yıl teyitli; gün teyitsiz'. Sahip: İspanya (Río de la Plata Genel Valiliği); künye ispanya f 1479-01-19 kapsıyor. t = 1814-06-20 Montevideo'nun Buenos Aires'e teslimi (Vigodet kapitülasyonu; bu partide ham kaynakla doğrulanmadı) — öteki uç teyitsiz. ÇELİŞKİ İPUCU: 1811 Asencio Çığlığı ve Las Piedras'tan sonra kırsal (Minas dahil) devrimcilerin elindeydi (arama özeti; Minas'ın adı kesik metinde) — İspanya'nın Minas'ı 1814'e kadar tuttuğu kaynaklanmış değil; akademik Uruguay kaynağıyla (Ramírez/Pivel Devoto) doğrulanmalı."
+  },
+  {
+   "sira": 2851, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1814-06-20", "t": "1817-01-01",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "İpucu sınıfı (Vikipedi 'Federal League (1815-1820)', globalsecurity.org, countrystudies.us Uruguay) ve arama özetleri: Artigas Guayabos'ta (10 Ocak 1815) Alvear'ı yendi; Buenos Aires birlikleri Montevideo'yu Şubat 1815'te boşalttı; Banda Oriental Artigas'ın Provincia Oriental'ı / Liga Federal (Mart-Haziran 1815) oldu; Alvear Nisan 1815'te düştü.",
+   "alinti": "",
+   "oneri": {"d": "Artigas Provincia Oriental / Liga de los Pueblos Libres (künye yok)", "f": "1815-02-01 (ay düzeyi, ipucu)", "t": "1817-01-20 (Portekiz'in Montevideo'ya girişi; doğrulanmadı)"},
+   "not": "Künye ölçüldü (data/devletler.js grep: artigas / oriental / liga / pueblos / cisplatin → YOK; yalnız uruguay-cumhuriyeti ve arjantin-cumhuriyeti var). Atlas 'arjantin-cumhuriyeti' Buenos Aires Direktörlüğü ile Artigas'ın bağımsız Provincia Oriental'ını ayırmıyor; 1815 Şubat'tan sonra Minas'ın Buenos Aires'e değil Artigas'a bağlı olduğu ipucu düzeyinde. Künye sorusu LAB'a: 'Provincia Oriental (Artigas) 1815-1820'. Bu kaynaklar ticari/wiki sınıfında → hüküm KAYNAKLI değil ONERI. Ayrıca arjantin-cumhuriyeti künyesi f 1810-05-25 (Mayıs Devrimi) — 1814-06-20'de Buenos Aires hâkimiyeti sınırsız Minas'a ulaştı mı kaynaksız."
+  },
+  {
+   "sira": 2852, "dosya_satir": "", "alan": "s", "d": "uruguay-cumhuriyeti", "f": "1828-08-27", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "Convención preliminar de paz entre ... las Provincias Unidas del Río de la Plata y Su Majestad el Emperador del Brasil, Río de Janeiro, 27 Ağustos 1828 (birincil belge neşri; es.wikisource.org, Antonio Díaz, Historia política y militar de las Repúblicas del Plata'dan aktarım) — sayfa.py ile HAM metin okundu.",
+   "alinti": "declara la Provincia de Montevideo, llamada hoy Cisplatina, separada del territorio del Imperio del Brasil",
+   "oneri": {},
+   "not": "ÖLÇÜT/TEK ÖLÇÜ: Madde I (Brezilya Cisplatina'yı İmparatorluktan ayrılmış ilan eder), imza 27 Ağustos 1828 (ham metin: 'firmada en la ciudad del Rio de Janeiro, el veinte y siete de Agosto de mil ochocientos veinte y ocho'). Madde XIII: Brezilya birlikleri ratifikasyon mübadelesinden 2 ay içinde boşaltır (mübadele 1828-10-04 Montevideo, ipucu); Madde VI: önce geçici hükûmet, mevcut Montevideo ve Banda Oriental hükûmetleri sona erer; anayasa sonra (1830). Yani devletin gerçek idaresi imza gününde başlamamış olabilir → TEK ÖLÇÜ'ne göre Emre'nin 'imza mı teslim mi' kararı gerekir (teslim günü için Montevideo'nun boşaltılması ay-yıl kaynaktan okunmadı). Ayrıca 1825-28 savaşında iç kesim (Minas dahil) Lavalleja/Banda Oriental hükûmetinin elindeydi (ipucu: Lavalleja Minas doğumlu) — 1822-1828 arası Minas 'brezilya' dilimi sorgulanmalı. t=2000-12-31 yer tutucudur, kaynak yok."
+  }
+ ],
+ "Bannu (Edwardesabad)": [
+  {
+   "sira": 2853, "dosya_satir": "", "alan": "s", "d": "ingiliz-hindistani", "f": "1849-03-29", "t": "1947-08-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "(f) Gazetteer of the Bannu District 1883-84 (Punjab hükûmeti; archive.org gaz-bannu-district-1883, sayfa 68) — HAM metin sayfa.py ile okundu. (t) Indian Independence Act 1947, s.1(1) ve s.2 (legislation.gov.uk/ukpga/Geo6/10-11/30/section/1) — HAM metin okundu.",
+   "alinti": "the Punjab was formally annexed, 29th March 1849",
+   "oneri": {},
+   "not": "ÖLÇÜT: idareye katma — Gazetteer: Gujrat'tan (21 Şubat 1849) sonraki on gün içinde Bannu vadisi 'sessizce yeniden işgal edildi', Major Taylor döndü; 'At the same time the Punjab was formally annexed, 29th March 1849' ve Trans-Indus kesimleri Dera İsmail Han adıyla tek ilçeye bağlandı (merkez Dalipnagar = bugün Edwardesabad) → İngiliz fiilî idaresi Mart başında başlamıştı, hukukî ilhak 29 Mart: TEK ÖLÇÜ (zaten yöneten güç → imza/ilan günü) ✓, ham işgal günü ic_not. t ucu: Yasa s.1(1): 'As from the fifteenth day of August, nineteen hundred and forty-seven, two independent Dominions shall be set up in India' (Hindistan ve Pakistan); s.2'ye göre NWFP'nin Pakistan'a katılması referanduma bağlıydı (Temmuz 1947 NWFP referandumu — ayrı kaynak okunmadı; Bannu NWFP'de). Not: 1883 Gazetteer 19. yy kaynağıdır [19. yy kaynağı]."
+  },
+  {
+   "sira": 2854, "dosya_satir": "", "alan": "s", "d": "sih-imparatorlugu", "f": "1848-01-01", "t": "1849-03-29",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "Gazetteer of the Bannu District 1883-84 (archive.org gaz-bannu-district-1883, s. 65-68) — HAM metin sayfa.py ile okundu.",
+   "alinti": "Sikh visitations commenced (1823-1845) and continued until annexation",
+   "oneri": {"d": "araya afganistan (Muhammed Azim Han, Dost Muhammed'in oğlu) dilimi: Sikh garnizonunun ayrılışından 1849 Mart başı", "t": "1849-03-29 (Sih ucu için ilhak günü değişmez; ancak son dilim afganistan olur)"},
+   "not": "ÖLÇÜT: idareye katma — Sih (Lahor Darbarı) Bannu'da vergi toplayıcı sefer düzeyindeydi: 'Sikh visitations (1823-1845)'; Edwardes'in 1847 seferi 'out-standing revenue' tahsil ve 'acknowledgment of sovereignty' (egemenliğin tanınması) içindi; 1847-48 kışında Bannuchi malikleri teslim oldu, Dalipgarh kalesi Sih garnizonuyla kuruldu → f 1848-01-01 YIL düzeyinde makul ('cold weather 1847-48'), gün teyitsiz. ÇELİŞKİ: Nisan 1848'de Mültan ayaklanmasıyla Sih askerleri Dalipgarh'ı kuşattı, kaleyi yağmalayıp Jhelum'a gitti; ardından Muhammed Azim Han (Dost Muhammed'in oğlu) boş kaleyi işgal etti ve Taylor kaleyi 'Muhammad Azim Khan and his Afghans retired' çekilmesiyle geri alana kadar Barakzai (Afgan) yönetimi sürdü ('Bérakzai and English rule'). Yani Sih sahipliği 1849-03-29'a kadar kesintisiz değil; yaklaşık Haziran-Temmuz 1848 → Mart 1849 Afgan işgali (isg afganistan; künye afganistan f 1819-01-01 ölçüldü). Ay/gün Gazetteer'da yok. Ham işgal/ilhak ayrımı: İngiliz uç ucunun kaynağı önceki satırda (29 Mart 1849). [19. yy kaynağı]"
+  },
+  {
+   "sira": 2855, "dosya_satir": "", "alan": "s", "d": "pakistan", "f": "1947-08-15", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "Indian Independence Act 1947, s.1(1) (legislation.gov.uk/ukpga/Geo6/10-11/30/section/1) HAM metin; ayrıca US Office of the Historian, 'Pakistan' (history.state.gov/countries/pakistan) HAM metin.",
+   "alinti": "two independent Dominions shall be set up in India, to be known respectively as India and Pakistan",
+   "oneri": {},
+   "not": "Alıntı 17 kelime (kısaltmak gerekirse: 'two independent Dominions shall be set up in India'). Yasa: 'As from the fifteenth day of August, nineteen hundred and forty-seven'. OH: ABD Pakistan'ı 15 Ağustos 1947'de bağımsız devlet olarak tanıdı. s.2(1)(c): NWFP temsilcilerinin Pakistan Kurucu Meclisi'ne katılması NWFP'deki referandum sonucuna bağlı (Bannu NWFP'de) — referandum sonucu ayrı kaynakla (Temmuz 1947) okunmadı. t = 2000-12-31 yer tutucudur, kaynak yok."
+  }
+ ],
+ "Havta (Havtat Benî Temîm)": [
+  {
+   "sira": 2856, "dosya_satir": "", "alan": "s", "d": "__BOSLUK__", "f": "1819-08-13", "t": "1824-06-01",
+   "hukum": "BULUNAMADI", "uc": "f+t",
+   "kaynak": "Baktığım yerler: TDV 'Suûdîler' (islamansiklopedisi.org.tr/suudiler, HAM okundu), TDV arama 'havta' (Havta Benî Temîm maddesi yok; yalnız Hadramut/Lahic anlamları), Lorimer Gazetteer Persian Gulf Vol II 1908 (archive.org in.ernet.dli.2015.206964, HAUTAH maddesi: nüfus/idare var, tarih bölümü okunamadı), Lorimer Vol I (qdl.qa — robots.txt yasak).",
+   "alinti": "",
+   "oneri": {},
+   "not": "Havta'ya özgü Mısır garnizonu / boşluk dönemi kaynağı bulunamadı. TDV (ham): 'Mişârî b. Abdülazîz ... emirliği yeniden kurma teşebbüsünde bulundularsa da 1824 yılına kadar bir başarı elde edemediler. 1824'te Türkî b. Abdullah ... Riyad'ı muhafaza eden küçük Mısır askerî birliğini buradan çıkarıp Suûd Emirliği'ni yeniden tesis etti' → 1824 bölge düzeyi, gün yok. 1819-08-13 (Harc/Süleymiye'den çekiliş) kronoloji maddesinin kaynağıdır, bu partide teyit edilemedi. Abi merkez adayı Riyad/Harc ('Kharj') — merkezin kendisi aynı dönemde Suûdî emirliğinin dışında; zincir devralma için Harc'ın kaynaklı zinciri gerek."
+  },
+  {
+   "sira": 2857, "dosya_satir": "", "alan": "s", "d": "suud-birinci", "f": "1795-01-01", "t": "1818-09-09",
+   "hukum": "KAYNAKLI", "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Suûdîler' (islamansiklopedisi.org.tr/suudiler) — HAM metin sayfa.py ile okundu.",
+   "alinti": "İbrâhim Paşa ... Dir'iye'ye girdi ve şehri tahrip ederek kullanılamaz hale getirdi (Eylül 1818)",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Suûdî devletinin başkenti Dir'iye'nin düşüşü AY düzeyinde (Eylül 1818) teyitli; Abdullah b. Suûd 17 Aralık 1818'de İstanbul'da idam edildi (ic_not). t günü 1818-09-09 gün düzeyinde TDV'de yok → 'yalnız ay teyitli'. f ucu (1795) öteki uç TEYİTSİZ: TDV Dir'iye ittifakı 1744/45 verir ve 'civardaki kabile ve yerleşim yerlerine cihad' der; Havta'nın Suûdî hâkimiyetine ne zaman girdiği kaynakta yok. Lorimer 1908: Hautah ilçesi Benî Temîm; Havta'nın 1795'ten önceki sahibi bulunamadı."
+  },
+  {
+   "sira": 2858, "dosya_satir": "", "alan": "s", "d": "suud-ikinci", "f": "1824-06-01", "t": "1838-01-01",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Suûdîler' (HAM metin okundu). Lorimer Gazetteer 1915 arama özeti (ipucu): Türkî Ağustos 1824'te Menfûha'dan Riyad'a yürüdü.",
+   "alinti": "yerine de Mısır'da göz hapsinde tuttuğu aynı aileden Hâlid b. Suûd'u gönderdi",
+   "oneri": {"t": "1837-01-01"},
+   "not": "ÜLKE DÜZEYİ. f: TDV '1824'te Türkî b. Abdullah ... Riyad'ı ... yeniden tesis etti' → YIL teyitli, gün/ay yok [yalnız yıl teyitli; gün teyitsiz]; Lorimer özeti Ağustos 1824 der (atlas 1824-06-01 ay/gün çelişkisi aday). t: TDV 'Mısır valiliği ... Faysal b. Türkî'yi yakalayıp Mısır'a sevketti (1837)' → TDV yılı 1837, atlas 1838-01-01. ÇİFT-TDV riski: 'Faysal b. Türkî' TDV maddesi bu partide okunmadı (başka yıl verebilir; hüküm vermiyorum). ÖNERİ: t 1837 (yıl) — bağlı v: satırı (sira 2863) de aynı yıla çekilmeli. Havta'ya özgü olay değil, Necid düzeyi."
+  },
+  {
+   "sira": 2859, "dosya_satir": "", "alan": "s", "d": "suud-ikinci", "f": "1840-01-01", "t": "1891-01-24",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Suûdîler' (HAM metin okundu).",
+   "alinti": "1891'de Suûd ailesi tamamen Riyad'dan çıkarıldı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yalnız YIL teyitli. f: 'Londra protokolüyle Mısır kuvvetlerinin Necid ve Hicaz'dan çekilmesi' = 1840 (TDV); ancak çekilişten sonra TDV 'teorik olarak bölge Bâbıâli'nin kontrolüne geçti ... Hâlid b. Suûd duruma hâkim olamayınca ... Abdullah b. Süneyyân Riyad emirliğine getirildi'; Faysal 1843'te döndü (TDV) → 1840-1843 arası Suûd ailesinin içinden ama istikrarsız yönetim; künye suud-ikinci (1824-06-01 → 1891-01-24) kesintiyi kapsar. Gün (24 Ocak) TDV'de yok; Havta'ya özgü olay değil."
+  },
+  {
+   "sira": 2860, "dosya_satir": "", "alan": "s", "d": "sammar", "f": "1891-01-24", "t": "1902-01-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Suûdîler' (HAM metin okundu).",
+   "alinti": "1902 yılında Abdülazîz b. Abdurrahman ... Riyad'a dönerek şehre girdi",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Riyad), yalnız YIL teyitli: f 1891 ('1891'de Suûd ailesi tamamen Riyad'dan çıkarıldı' — İbnü'r-Reşîd müdahaleleri), t 1902. Havta'nın Reşîdî yönetiminde olduğu kaynaklanmadı; Lorimer 1908 Hautah'ı Suûdî (Wahhabi) hâkimiyetinde ve Bani Tamim emirinin Ibn Saud lehine olduğunu yazıyor, ama 1891-1902 arası Hautah'ın sahibi için tanıklık yok → Havta'ya özgü uç TEYİTSİZ. Künye sammar (f 1835-01-01, t 1921-11-02) aralığı kapsıyor."
+  },
+  {
+   "sira": 2861, "dosya_satir": "", "alan": "s", "d": "suud-ucuncu", "f": "1902-01-15", "t": "1932-09-18",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "(f) TDV 'Suûdîler' HAM; (Havta'ya özgü, c. 1908) Lorimer Gazetteer of the Persian Gulf, Oman and Central Arabia, Vol II Geographical (1908), HAUTAH maddesi, Administration (archive.org in.ernet.dli.2015.206964) HAM; (t) US Office of the Historian, Saudi Arabia (history.state.gov/countries/saudi-arabia) HAM.",
+   "alinti": "has authority under the Wahhabi rulers over all Hautah",
+   "oneri": {},
+   "not": "f: TDV 1902 (YIL; Riyad ÜLKE DÜZEYİ). Havta'ya özgü: Lorimer 1908 — 'The Amir of Hautah town ... Muhammad Abu Shaibah of the Bani Tamim. He stands high in the favour of Ibn Saud and has authority under the Wahhabi rulers over all Hautah' [19.-20. yy kaynağı, İngiliz Hindistan hükûmeti derlemesi] → Havta c. 1908'de Suûdî yönetiminde; başlangıç günü yok. t: OH 'The name of the state was changed to the Kingdom of Saudi Arabia by a decree of September 18, 1932' — aynı hanedan (Hicaz-Necid Krallığı → Suudi Arabistan), Havta için fiilî kopuş yok; atlas dilim ayrımı künye adı değişikliği."
+  },
+  {
+   "sira": 2862, "dosya_satir": "", "alan": "v", "d": "", "f": "1818-09-09", "t": "1819-08-13",
+   "hukum": "BULUNAMADI", "uc": "f+t",
+   "kaynak": "Baktığım yerler: TDV 'Suûdîler', Lorimer Vol II 'Hautah' maddesi (ham arama), Lorimer Vol I arama özeti (ipucu: Hasa Temmuz 1819'da boşaltıldı, bazı Mısır garnizonları 1824'e kadar Necid'de kaldı).",
+   "alinti": "",
+   "oneri": {},
+   "not": "Boş d: alanı. Mısır tâbiliği adayı (misir-kavalali, künye f 1805-07-03 kapsar) ama Havta'ya özgü Mısır varlığı kaynakta yok; ipucu düzeyinde Lorimer: 'some Egyptian garrisons seem to have remained in Najd until 1824' (arama özeti). Dir'iye'nin düşüşünden sonraki Necid düzeyi dışında hüküm yok."
+  },
+  {
+   "sira": 2863, "dosya_satir": "", "alan": "v", "d": "", "f": "1838-01-01", "t": "1840-01-01",
+   "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Suûdîler' (HAM metin okundu).",
+   "alinti": "Mısır valiliği Necid'e gönderdiği kuvvetlerle Faysal b. Türkî'yi yakalayıp Mısır'a sevketti (1837)",
+   "oneri": {"d": "misir-kavalali", "f": "1837-01-01"},
+   "not": "ÜLKE DÜZEYİ, yalnız YIL: TDV'ye göre Mısır 1837'de Faysal'ı yakalayıp yerine Hâlid b. Suûd'u koydu (Mısır himayesinde Suûdî emir); 1840'ta Londra protokolüyle Mısır kuvvetlerinin Necid'den çekilmesi → v dilimi 'misir-kavalali' (künye f 1805-07-03, t 1914-12-18 ölçüldü) tâbiliği olarak yazılabilir; bitiş yılı (1840) atlasla aynı. Başlangıç 1838-01-01 yerine 1837 (TDV) — suud-ikinci t'si (sira 2858) ile birlikte değişmeli. Havta'ya özgü tanıklık yok; ÇİFT-TDV riski (Faysal b. Türkî maddesi okunmadı)."
+  },
+  {
+   "sira": 2864, "dosya_satir": "", "alan": "s", "d": "suudi-arabistan", "f": "1932-09-18", "t": "2000-12-31",
+   "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "US Office of the Historian, 'Saudi Arabia' (history.state.gov/countries/saudi-arabia) — HAM metin sayfa.py ile okundu.",
+   "alinti": "The name of the state was changed to the Kingdom of Saudi Arabia by a decree of September 18, 1932.",
+   "oneri": {},
+   "not": "Alıntı 19 kelime; çekirdek: 'changed to the Kingdom of Saudi Arabia by a decree of September 18, 1932'. 18 Eylül 1932 FERMAN günü (ayrı yürürlük/ilan günü ic_not; kaynak okunmadı). TDV 'Suudi Arabistan' 1932'yi yıl olarak verir. t = 2000-12-31 yer tutucu."
+  }
+ ],
+ "Sofiysk (Amur)": [
+  {
+   "sira": 2865, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1859-01-01", "t": "1917-03-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "(f) Айгунский договор, 28 Mayıs 1858 (ru.wikisource.org, HAM) ve Пекинский (Дополнительный) договор, Pekin 2/14 Kasım 1860 (ru.wikisource.org, 'Сборник договоров России с другими государствами 1856-1917' aktarımı, HAM); ESBE 'Софийск' (ru.wikisource.org/ЭСБЕ/Софийск, 1900, ipucu sınıfı). (t) Акт об отречении Николая II (ru.wikisource.org, HAM).",
+   "alinti": "от реки Усури далее до моря ... да будут в общем владении дайцинского и российского государств",
+   "oneri": {"f": "1860-11-14", "d": "rusya"},
+   "not": "[19. yy kaynağı] ESBE (1900): 'Софийск — сел. ... расположено на прав. берегу р. Амура в его низовьях ... Основ. в 1859 г.' (YIL, ipucu sınıfı); Vikipedi (ipucu): 'Основан 1858'. ÇELİŞKİ: 1858 vs 1859. HUKUKÎ BAŞ: Aigun Antlaşması (28 Mayıs 1858; Rus metninde 16 Mayıs Jülyen) sağ kıyıyı Ussuri'ye kadar Çin'e, 'от реки Усури далее до моря' kesimini ORTAK mülk (общее владение) bırakır; Sofiysk aşağı Amur'un SAĞ kıyısı, Ussuri ağzının aşağısında → 1859 kurulumu ORTAK topraktadır, Rusya egemenliği Pekin Ek Antlaşması'yla (imza 2/14 Kasım 1860, Madde 1: sınır Ussuri'den Hinkay'a; Ussuri'nin doğusu Rusya'ya) başlar. ÖNERİ: f 1860-11-14 (TEK ÖLÇÜ: Rusya zaten yönetiyorsa imza günü); ilk dilim (1859 → 1860-11-14) için sahip ortak Çin-Rusya mülkiyeti — künye YOK (qing-hanedani var, ortak-mülkiyet künyesi yok; LAB'a). Eğer sağ kıyı iddiası yanlışsa (ESBE tek ipucu) f 1859-01-01 BEYANLI kalır. t = 1917-03-15: akit 'Дата создания: 2 (15) марта 1917' (Jülyen 2 Mart = Gregoryen 15 Mart); ÜLKE DÜZEYİ — kendi başına KAYNAKLI (t ucu); Mihail'in feragati 3 (16) Mart, ic_not."
+  }
+ ],
+ "Coxim": [
+  {
+   "sira": 2869, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1872-11-06", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "Adilson Rodrigues da Silva, 'São José ou Nossa Senhora? Litígio entre as províncias de Goiás e Mato Grosso pelo território de Coxim', Monções: Revista de História (UFMS), v.2 n.2, 2015 (özet WebFetch; PDF çözülemedi). f ve 1729 için ipucu: Campo Grande News 'Coxim celebra 123 anos' (2021) — sayfa.py HAM okundu ama gazete = ipucu.",
+   "alinti": "elevada a distrito pela Lei nº 1 de 06 de novembro de 1872",
+   "oneri": {"f": "1729-01-01"},
+   "f_geri": {"eski_f": "1872-11-06", "yeni_f": "1729-01-01", "sahip": "portekiz-brezilyasi (1729-1822-09-07), sonra brezilya-imparatorlugu; künye portekiz-brezilyasi f 1549 ve brezilya-imparatorlugu f 1822-09-07 devletler.js'te ölçüldü", "kaynak": "ADAY — yalnız ipucu: Campo Grande News ('Em 1729, Domingos Gomes Beliago estabeleceu o Arraial de Beliago à margem direita do Rio Taquari'); akademik teyit yok"},
+   "not": "f = 1872-11-06 DİSTRİKT statüsü günü (Mato Grosso eyaleti Lei nº 1, gazete özeti [alıntı özetten]); 6g gereği varoluş günü değil. Varoluş: Arraial de Beliago 1729 (yıl, ipucu), Herculano Ferreira Vena 1862'de 'núcleo colonial de Taquari' kurdu (ipucu). Silva 2015 (akademik, özet): Goiás bölgeyi ilhak edip 'Nossa Senhora das Dores do Coxim' freguesia'sını kurdu, Mato Grosso'nun tepkisi São José de Herculânea'yı doğurdu — Goiás–Mato Grosso eyalet uyuşmazlığı, ikisi de Brezilya: sahip dilimi aynı kalır (yalnız eyalet ayrımı). Ayrıca ipucu: Paraguay işgali 24 Nisan 1865 (Resquín sütunu; yaklaşık altı gün) → isg paraguay dilimi adayı (kaynak: Vikipedi 'Occupation of Coxim', smargiassi.com.br — ipucu; akademik kaynak bulunamadı). t = 1889-11-15 Cumhuriyet ilanı ÜLKE DÜZEYİ: Decreto nº 1 (planalto.gov.br) bağlantısı koptu / erişim engeli → BAKILMADI (t ucu teyitsiz). Gün öneri YOK: 1729 yalnız yıl; f_geri uygulanmadan önce akademik teyit şart."
+  }
+ ]
+}

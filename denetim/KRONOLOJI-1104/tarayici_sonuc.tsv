@@ -1,0 +1,45 @@
+no	eser	sayfa	okuyan	okunan_cumle	sonuc
+21	J. M. Abun-Nasr, Cambridge History of Africa III, bölüm 5	s. 398	EMRELİC 1 KASIM (tarayıcı, PDF), 4 Kasım 2026	"followed by the conquest of Safi (1508) and Azemmour (1513)"	1508 YIL düzeyinde KAYNAKLI, gün yok. 1488 himayesi bu bölümde GEÇMİYOR (yalnız 15. yy son yirmi yılı: Azemmour, Safi, Massa'da faktoryalar). 1488 için TDV «Safi» denenecek, yoksa beyanlı.
+41	A. Morrison, The Russian Conquest of Central Asia (CUP 2020), bölüm 6	s. 280-281, dn. 111	EMRELİC 1 KASIM (PDF), 4 Kasım 2026	s.280 "on the 12 October Kryzhanovskii sent a threatening letter to the Bek of Jizzakh"; s.281 "The siege lasted five days"	Cizzah düşüş günü AÇIK YAZILMIYOR; 18 Ekim çıkarım (12 + 5 gün; rapor 19/10/1866). Takvim belirtilmemiş, Rus arşivi → büyük olasılıkla Jülyen. Öneri: Ekim 1866 AY düzeyi KAYNAKLI; gün 18 "çıkarım, takvim belirsiz" beyanıyla.
+41a	aynı, s. 279	s. 279	EMRELİC 1 KASIM	"on the 2 October Ura-Tepe was taken by storm"	Ura-Tepe 2 Ekim 1866 (takvim belirtilmemiş).
+41b	aynı, s. 296, dn. 154	s. 296	EMRELİC 1 KASIM	"Entry of Russian Forces into Samarkand on the 8 June 1868"	Semerkant: varış 02/05/1868 (Kaufman raporu); 8 Haziran 1868 kuşatmanın kaldırılması/giriş; teslim günü net değil. Atlas kaydı data/kronoloji_cok_senkron_0930.js:298 "14 Mayıs 1868 (Jülyen: 2 Mayıs)" — Morrison'ın 02/05/1868 raporuyla UYUMLU (Jülyen 2 Mayıs = Gregoryen 14 Mayıs); kaynak alanına Morrison CUP 2020 s.296 dn.154 eklenebilir.
+2	TDV «Mudanya»	-	EMRELİC 1 KASIM, 4 Kasım 2026	TDV Mudanya maddesinde fetih yok; Belleten'e ulaşılamadı	BULUNAMADI — 1321-04-01 günü desteksiz
+4	Hrvatska enciklopedija «Kostajnica»	-	EMRELİC 1 KASIM	fethi anmıyor; Hrčak HTTP 418	BULUNAMADI — Temmuz ipucu yalnız arama özetinden (delil değil)
+L2-34	Treccani DBI «Amerighi» (ARAMA ÖZETİ)	-	EMRELİC 1 KASIM	ayaklanma 26 Temmuz başladı, İspanyollar 27 Temmuz gecesi kovuldu (özet)	İPUCU — Treccani'de doğrudan doğrulanırsa 1552-07-27
+45	(arama özeti)	-	EMRELİC 1 KASIM	Nisyros 1309-1315'te Hospitalier'lere geçti (özet)	İPUCU — 1481 desteklenmiyor; maddenin hangi ada için yazıldığı önce belirlenmeli
+60	Canadian Encyclopedia «La Grande Rivière» (ARAMA ÖZETİ)	-	EMRELİC 1 KASIM	(özetten)	İPUCU/KISMEN — doğrudan okunmalı
+47,L2-17,L2-39,L2-16	-	-	EMRELİC 1 KASIM	akademik kaynak yok	AÇIK
+(5 madde: #10, L2-9, L2-35, L2-38, L2-20 → oneri_TARAYICI_dogrulama.tsv)
+(7 madde: L2-1, 2, 3, 4, 7, 42, 47 → oneri_TARAYICI2_dogrulama.tsv; Jackson 1999 yerine NCHI c.3 2010 bölümü okundu)
+L2-44	Cambridge World History of Genocide c.5 (1592-1598)	-	EMRELİC 1 KASIM	Pusanp'o'ya saldırı ay-güneş takviminde «4/13»; Batı karşılığı metinde yok	BEKLİYOR — Bunroku 1 / 4. ay 13. gün NAOJ ya da Academia Sinica tablosuyla çevrilecek; atlasın 1592-05-23'ü tabloyla eşleşirse TEYİT (tablo ile), ic_not beyanı
+(8 madde: #14, #18, L2-18, L2-23, L2-28, L2-84, L2-89, L2-83 → oneri_TARAYICI3_dogrulama.tsv)
+L2-27	Oxford Companion to Ships	-	EMRELİC 1 KASIM	yalnız «Cochin», tarih yok	AÇIK
+L2-30	-	-	EMRELİC 1 KASIM	JSAS «Toungoo and Burma» ödeme duvarı	AÇIK
+L2-82	Treccani DBI «Ercole III» (ARAMA ÖZETİ)	-	EMRELİC 1 KASIM	6 Ekim 1796 azil, geçici hükümet (özet)	İPUCU — 1796-06-19 kaynakta yok; doğrudan okunmalı
+L2-61	NAOJ (404)	-	EMRELİC 1 KASIM	Genroku 16/2/4 çevrilecek	BEKLİYOR — KASA SALI sinocal.sinica.edu.tw ile çevirecek (Pusan 4/13 ile birlikte)
+L2-73	-	-	EMRELİC 1 KASIM	akademik kaynak yok (haber siteleri delil değil)	AÇIK — tarayıcı kuyruğunda
+(6 madde: L2-54, 64, 75, 80, 60, 95 → oneri_TARAYICI4_dogrulama.tsv)
+L2-58	Nawang Jinpa, Tibet Journal 40/2 (2015)	-	EMRELİC 1 KASIM	savaş «July 1679» başladı, dört yıl tıkandı, 1684 barış; Basgo günü yok; Petech JSTOR'da yok	AÇIK — Basgo kuşatma günü okunamadı
+L2-114	TSHA «Military Affairs» / «Ford, John Salmon»	-	EMRELİC 1 KASIM	«May 12, 1859» (büyük olasılıkla yıl hatası); Ford maddesi «early 1858»	KISMEN — atlas günü kalır; bağımsız kaynak gerek. UYGULAMA
+L2-146	zpe.gov.pl (akademik değil)	-	EMRELİC 1 KASIM	1335 görüşmesini Wyszehrad'a (Kasım) koyuyor	AÇIK — madde metni (devletler.js:17286) TRENČÍN antlaşmasını anlatıyor (Kazimierz Silezya haklarından vazgeçer), Wyszehrad kongresi (Kasım 1335) ayrı olay; 24 Ağustos için akademik kaynak gerek. UYGULAMA
+L2-149	(akademik olmayan kaynak)	-	EMRELİC 1 KASIM	yalnız 1343	AÇIK. UYGULAMA
+L2-124	(arama özetleri)	-	EMRELİC 1 KASIM	ilk sayı 5 Ağustos 1876 (özet; atlas 1875-08-05)	İPUCU — kuşkulu; tarayıcıda okunacak. UYGULAMA
+L2-102,L2-107,L2-134	-	-	EMRELİC 1 KASIM	403/404	tarayıcı kuyruğunda
+(2 madde: L2-138 1919-04-11 oylama, L2-102 Karaçi 1843 ilhak → oneri_TARAYICI5_dogrulama.tsv)
+L2-105,L2-112,L2-107	ODNB giriş duvarı · Whelpton yalnız «1855-56» («Thapathali» geçmiyor) · LoC bot doğrulaması	-	EMRELİC 1 KASIM	okunmadı	AÇIK
+(3 madde: L2-203 Lublin, L2-213 Ilimsk, L2-236 Pireneler → oneri_TARAYICI6_dogrulama.tsv)
+L2-241	(arama özeti)	-	EMRELİC 1 KASIM	1674-05-15 şehir teslimi, ~22 Mayıs kale (özet)	İPUCU — belge sayfası okunamadı; tarayıcı kuyruğunda
+(2 madde: L2-269 San Fernando 1752-04-12, L2-278 I. Bölünme 5 Ağustos 1772 → oneri_TARAYICI7_dogrulama.tsv)
+L2-251,L2-267,L2-268,L2-294,L2-297	(403 / yönlendirme)	-	EMRELİC 1 KASIM	ipuçları: Sardunya 12 Ağustos 1708; Sainte-Marie 26 Temmuz 1750; 9 vendémiaire IV = 1795-10-01; San Ildefonso 18 ya da 19 Ağustos 1796	İPUCU — tarayıcı kuyruğunda
+L2-187	CHSEA I (2022) böl.7	s.410, 417	EMRELİC 1 KASIM	«Portuguese defeat of Melaka in 1511»	yalnız yıl → oneri_TARAYICI7
+L2-196	CHSEA I (2022) böl.7	-	EMRELİC 1 KASIM	Hasanuddin, 1552, 1568 geçmiyor; Demak üstünlüğü «1550s»te sorgulanıyor	AÇIK
+L2-154,L2-158	bigenc.ru	-	EMRELİC 1 KASIM	tarayıcıya da 401/403 bot engeli	AÇIK — PSRL letopis neşri ya da Rus hakemli dergi aranacak
+L2-346	Arreguín-Toft, How the Weak Win Wars (CUP 2005) böl.3	-	EMRELİC 1 KASIM	«killed in battle at Gimri in October of 1832»	AY teyitli; atlas 10-29 kalır; TDV Kasım günleri çürüdü (Gammer: JSTOR bot kontrolü)
+L2-345	Memoirs of Baron Stockmar (1872)	-	EMRELİC 1 KASIM	«Conference, October 14, agrees upon the Twenty-four Articles»	anı kaynağı → oneri_TARAYICI8
+L2-347,L2-310,L2-324	-	-	EMRELİC 1 KASIM	okunmadı (Iranica'da Lankoran maddesi yok; Gwandu için yalnız ilgisiz Gobir 1808)	AÇIK
+L2-380,L2-381	J.C. Pool, PhD Stellenbosch 1995 (hdl 10019.1/20422) böl.25	PDF s.541	EMRELİC 1 KASIM	«Sondag 18 Augustus 1861 … Jonker gesterf»	TEYİT 1861-08-18 (atlas günü); 16 Ağustos düştü
+L2-378,L2-396,L2-154,L2-158,Fuglestad	-	-	EMRELİC 1 KASIM	Parma AIR ve HLS bot kontrolü; PSRL yalnız DjVu; Fuglestad Cambridge Core'da yok	AÇIK (Kolomna monografiyle TEYİT kalır)
+L2-433	Fantahun Ayele, EJSS 9(1) 2023	s.2	EMRELİC 1 KASIM	Fransız-Habeş antlaşması 20 Mart 1897 (FO 1/49)	TEYİT → oneri_TARAYICI8
+L2-428	Ethnologisches Museum Berlin katalog notu	-	EMRELİC 1 KASIM	Hassan bin Omari 26 Kasım 1895	İPUCU (müze kataloğu)
+L2-441	Duysak, tez (Marmara 2005)	s.97-98	EMRELİC 1 KASIM	«Ekim 1909'un sonlarında» Sabya görüşmesi, kaymakam rütbesi	1909-10 KISMEN (kuyrukta koordinatör tarih kararı)
+L2-33	Cambridge History of Russia I böl.14	-	EMRELİC 1 KASIM	yıl vermiyor	AÇIK — bigenc ya da Rus akademik kaynakla tekrar denenecek

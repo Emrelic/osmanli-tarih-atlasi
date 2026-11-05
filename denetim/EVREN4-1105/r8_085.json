@@ -1,0 +1,135 @@
+{
+ "Fort Yukon": [
+  {
+   "sira": 3756,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1847-01-01",
+   "t": "1867-10-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3757,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Circle City": [
+  {
+   "sira": 3758,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1893-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tetlit Gwich'in (Peel havzası)": [
+  {
+   "sira": 3759,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3760,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1899-06-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fairbanks": [
+  {
+   "sira": 3761,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1901-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nulato": [
+  {
+   "sira": 3762,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1838-01-01",
+   "t": "1867-10-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3763,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tulít'a Dağ Denesi (Nahanni)": [
+  {
+   "sira": 3766,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3767,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1899-06-21",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Hooper Bay (Naparyarmiut)": [
+  {
+   "sira": 3774,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yupik",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3775,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1867-10-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Killiniq (Port Burwell)": [
+  {
+   "sira": 3778,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1904-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

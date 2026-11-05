@@ -1,0 +1,117 @@
+{
+ "Valcheta": [
+  {
+   "sira": 4187,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1884-03-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tandil": [
+  {
+   "sira": 4188,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1823-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Taltal": [
+  {
+   "sira": 4189,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1872-12-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Puerto Montt": [
+  {
+   "sira": 4190,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1853-02-12",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cushamen": [
+  {
+   "sira": 4191,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1899-07-05",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tocopilla": [
+  {
+   "sira": 4192,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1871-05-08",
+   "t": "1888-07-13",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4193,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1888-07-13",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Moitaco": [
+  {
+   "sira": 4194,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1882-02-09",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Arauca": [
+  {
+   "sira": 4195,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1780-12-04",
+   "t": "1819-12-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4196,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4197,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

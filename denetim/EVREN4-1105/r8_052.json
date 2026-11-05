@@ -1,0 +1,108 @@
+{
+ "Muila (Mouila)": [
+  {
+   "sira": 2769,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1899-01-01",
+   "t": "1960-08-17",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransiz Gabonu (Librevil, Lambarene, Fransvil) bagimsiz "
+  }
+ ],
+ "Cibanga": [
+  {
+   "sira": 2770,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1899-01-01",
+   "t": "1960-08-17",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin kapanış kırılmasını anlatan kronoloji maddesi «Fransiz Gabonu (Librevil, Lambarene, Fransvil) bagimsiz "
+  }
+ ],
+ "Kindu": [
+  {
+   "sira": 2772,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1893-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Uvira": [
+  {
+   "sira": 2774,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1892-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Nyangve (Nyangwe)": [
+  {
+   "sira": 2776,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1860-01-01",
+   "t": "1893-03-04",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2777,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1893-03-04",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kasongo": [
+  {
+   "sira": 2779,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1860-01-01",
+   "t": "1893-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 2780,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1893-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Luebo": [
+  {
+   "sira": 2782,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1885-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kabalo": [
+  {
+   "sira": 2784,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1900-01-01",
+   "t": "1908-11-15",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

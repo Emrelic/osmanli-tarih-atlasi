@@ -1,0 +1,126 @@
+{
+ "Barbacoas": [
+  {
+   "sira": 4198,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1612-01-01",
+   "t": "1819-12-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4199,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4200,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Zaraza": [
+  {
+   "sira": 4201,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1853-04-05",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Honda (Tolima)": [
+  {
+   "sira": 4202,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1643-03-04",
+   "t": "1819-12-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4203,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4204,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Maroa": [
+  {
+   "sira": 4205,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "venezuela-cumhuriyeti",
+   "f": "1864-07-27",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Puerto Carreño": [
+  {
+   "sira": 4206,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1922-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Madera (Chihuahua)": [
+  {
+   "sira": 4207,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1911-07-13",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Jutiapa": [
+  {
+   "sira": 4208,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "guatemala",
+   "f": "1847-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tampa (Fort Brooke)": [
+  {
+   "sira": 4209,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1824-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

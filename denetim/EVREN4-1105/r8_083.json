@@ -1,0 +1,135 @@
+{
+ "Reducción de la Concepción (Salado)": [
+  {
+   "sira": 3723,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1740-01-01",
+   "t": "1810-05-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3724,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Beyan G37.5 B68.5": [
+  {
+   "sira": 3725,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3726,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Beyan G38.5 B62.5": [
+  {
+   "sira": 3727,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3728,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Beyan G40.5 B68.5": [
+  {
+   "sira": 3729,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3730,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Castro (Chiloé)": [
+  {
+   "sira": 3731,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1567-02-01",
+   "t": "1826-01-14",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3732,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1826-01-14",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Beyan G44.5 B65.5": [
+  {
+   "sira": 3733,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Beyan G46.5 B71.5": [
+  {
+   "sira": 3734,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Beyan G49.5 B72.5": [
+  {
+   "sira": 3735,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "1923-10-29",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

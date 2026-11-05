@@ -1,0 +1,342 @@
+{
+ "Portobelo (Puerto Bello)": [
+  {
+   "sira": 3593,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1597-01-01",
+   "t": "1821-11-28",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3594,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1821-11-28",
+   "t": "1831-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3595,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kolombiya-cumhuriyeti",
+   "f": "1831-01-01",
+   "t": "1903-11-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3596,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "panama-cumhuriyeti",
+   "f": "1903-11-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cibri (Güçlü)": [
+  {
+   "sira": 3598,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1353-01-01",
+   "t": "1394-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3599,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1431-01-01",
+   "t": "1469-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3602,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1515-09-19",
+   "t": "1920-04-23",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cumai (Birlikköy)": [
+  {
+   "sira": 3603,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "celayirli",
+   "f": "1353-01-01",
+   "t": "1394-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3604,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cizre-botan",
+   "f": "1394-01-01",
+   "t": "1431-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3605,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "karakoyunlu",
+   "f": "1431-01-01",
+   "t": "1469-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3607,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "cizre-botan",
+   "f": "1508-01-01",
+   "t": "1515-09-19",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3608,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1918-10-30",
+   "t": "1921-10-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3609,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "tbmm-turkiye",
+   "f": "1921-10-20",
+   "t": "1923-10-29",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3610,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1515-09-19",
+   "t": "1918-10-30",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Zazalo": [
+  {
+   "sira": 3611,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "gurcistan",
+   "f": "1281-01-01",
+   "t": "1578-08-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3612,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1829-09-14",
+   "t": "1917-03-15",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3615,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1578-08-01",
+   "t": "1829-09-14",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Comanchería (Güney Büyük Ovalar)": [
+  {
+   "sira": 3616,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "apaci-ovalar",
+   "f": "1281-01-01",
+   "t": "1750-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3617,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "komanci",
+   "f": "1750-01-01",
+   "t": "1875-01-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3618,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1875-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Trinidad (Küba)": [
+  {
+   "sira": 3619,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1514-01-01",
+   "t": "1898-12-10",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3620,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-12-10",
+   "t": "1902-05-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3621,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "kuba-cumhuriyeti",
+   "f": "1902-05-20",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Santiago de los Caballeros": [
+  {
+   "sira": 3622,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1495-01-01",
+   "t": "1795-07-22",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3623,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1795-07-22",
+   "t": "1809-07-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3624,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1809-07-09",
+   "t": "1822-02-09",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3625,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "haiti",
+   "f": "1822-02-09",
+   "t": "1844-02-27",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3626,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dominik-cumhuriyeti",
+   "f": "1844-02-27",
+   "t": "1861-03-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3627,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1861-03-18",
+   "t": "1865-03-03",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3628,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "dominik-cumhuriyeti",
+   "f": "1865-03-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bedir": [
+  {
+   "sira": 3630,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "suud-birinci",
+   "f": "1805-07-20",
+   "t": "1811-11-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3631,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hicaz-kralligi",
+   "f": "1916-07-27",
+   "t": "1925-12-19",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3632,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1517-07-06",
+   "t": "1805-07-20",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3633,
+   "sinif": "BOS",
+   "alan": "d",
+   "d": "",
+   "f": "1841-05-24",
+   "t": "1916-07-27",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3634,
+   "sinif": "BOS",
+   "alan": "v",
+   "d": "",
+   "f": "1811-11-01",
+   "t": "1841-05-24",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3635,
+   "sinif": "ZAYIF_ATLAS",
+   "alan": "s",
+   "d": "suudi-arabistan",
+   "f": "1932-09-18",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "DEVRALMA (DUNYA-1102 D adımı, 2 Kasım 2026): künye suudi-arabistan f ucunun kaynağı — OH saudi-arabia — 'The name of the state was changed to the Kingdom of Sau"
+  }
+ ]
+}

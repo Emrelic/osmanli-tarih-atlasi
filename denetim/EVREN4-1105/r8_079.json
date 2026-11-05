@@ -1,0 +1,90 @@
+{
+ "Cue": [
+  {
+   "sira": 3653,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1892-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Leonora": [
+  {
+   "sira": 3655,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1897-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Kalgoorlie": [
+  {
+   "sira": 3657,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1893-06-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Broome": [
+  {
+   "sira": 3659,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1883-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Goulburn": [
+  {
+   "sira": 3661,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1818-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Geraldton": [
+  {
+   "sira": 3663,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1850-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Burketown": [
+  {
+   "sira": 3665,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1865-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Cobar": [
+  {
+   "sira": 3667,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1869-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

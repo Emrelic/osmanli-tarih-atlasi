@@ -1,0 +1,144 @@
+{
+ "Concepción (Chiquitos)": [
+  {
+   "sira": 3707,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1707-01-01",
+   "t": "1825-08-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3708,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Ignacio de Zamucos": [
+  {
+   "sira": 3709,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1741-01-01",
+   "t": "1825-08-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3710,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "1923-10-29",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "São Fidélis (Paraíba do Sul)": [
+  {
+   "sira": 3711,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1776-01-01",
+   "t": "1822-09-07",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tacuatí (Ypané)": [
+  {
+   "sira": 3714,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1788-01-01",
+   "t": "1811-05-14",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3715,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "paraguay-cumhuriyeti",
+   "f": "1811-05-14",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Ciudad Real del Guairá": [
+  {
+   "sira": 3716,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1554-01-01",
+   "t": "1632-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Esteban de Miraflores": [
+  {
+   "sira": 3717,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1714-01-01",
+   "t": "1810-05-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3718,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Fernando (Resistencia)": [
+  {
+   "sira": 3719,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1750-01-01",
+   "t": "1810-05-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3720,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "San Jerónimo (Reconquista)": [
+  {
+   "sira": 3721,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1748-01-01",
+   "t": "1810-05-25",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 3722,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

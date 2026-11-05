@@ -1,0 +1,126 @@
+{
+ "Abbeville (Louisiana)": [
+  {
+   "sira": 4210,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "abd",
+   "f": "1850-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Mazapil": [
+  {
+   "sira": 4211,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1837-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "El Rosario (Baja California)": [
+  {
+   "sira": 4212,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1900-12-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Tonosí": [
+  {
+   "sira": 4213,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "panama-cumhuriyeti",
+   "f": "1914-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Gobernador Gregores": [
+  {
+   "sira": 4214,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1922-03-23",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Sion (Sitten)": [
+  {
+   "sira": 4216,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "isvicre",
+   "f": "1417-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fakfak": [
+  {
+   "sira": 4217,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1898-12-01",
+   "t": "1942-03-09",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Garapan (Saipan)": [
+  {
+   "sira": 4219,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1668-06-16",
+   "t": "1899-11-17",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4220,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1899-11-17",
+   "t": "1914-10-01",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4221,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1914-10-01",
+   "t": "1947-07-18",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4222,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "pasifik-adalari-vesayet-toprak",
+   "f": "1947-07-18",
+   "t": "1986-11-03",
+   "mevcut_kaynak": "BM vesayet anlasmasi 1947-07-18"
+  },
+  {
+   "sira": 4223,
+   "sinif": "DIGER",
+   "alan": "s",
+   "d": "abd",
+   "f": "1986-11-03",
+   "t": "2000-12-31",
+   "mevcut_kaynak": "Covenant yururluk 1986-11-03 (US Code Title 48)"
+  }
+ ]
+}

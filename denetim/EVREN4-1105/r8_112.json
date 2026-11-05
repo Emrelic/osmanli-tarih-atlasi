@@ -1,0 +1,99 @@
+{
+ "St Helens (Tazmanya)": [
+  {
+   "sira": 4234,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "van-diemens-land",
+   "f": "1834-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Coober Pedy": [
+  {
+   "sira": 4236,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1915-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Fitzroy Crossing": [
+  {
+   "sira": 4237,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1903-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Mount Magnet": [
+  {
+   "sira": 4238,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1895-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Bunbury": [
+  {
+   "sira": 4240,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1841-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Thursday Island (Port Kennedy)": [
+  {
+   "sira": 4242,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1878-01-01",
+   "t": "1901-01-01",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Roper River Misyonu (Ngukurr)": [
+  {
+   "sira": 4244,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1908-01-01",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ],
+ "Waitangi (Bay of Islands)": [
+  {
+   "sira": 4245,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda-birlesik-kabileler",
+   "f": "1835-10-28",
+   "t": "1840-02-06",
+   "mevcut_kaynak": ""
+  },
+  {
+   "sira": 4246,
+   "sinif": "BOS",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1840-02-06",
+   "t": "2000-12-31",
+   "mevcut_kaynak": ""
+  }
+ ]
+}

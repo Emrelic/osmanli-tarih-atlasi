@@ -1,0 +1,23 @@
+no	dosya_satir	tarih_atlas	kaynak	url	okunan_cumle	hassasiyet	uyum	sonuc
+L2-878	data/devletler.js#papua-yeni-gine#2	1976-08-09	-	-	APH Bougainville kronolojisi erişilemedi (HTTP 403); arama özeti 7 Ağu 1976 anlaşma / 9 Ağu 1976 diyor, okunmadı	gun	-	CEKILEMEDI
+L2-879	data/devletler.js#transkei#0	1976-10-26	BM Genel Kurulu karar 31/6 A (21 Eki 1976 oturumu)	https://documents.un.org/api/symbol/access?s=A/RES/31/6&l=en&t=pdf	"Taking note that the racist regime of South Africa declared the sham ""independence"" of the Transkei on 26 October 1976"	gun	UYUMLU	DOGRULANDI
+L2-880	data/devletler.js#afar-issa-fransiz-bolgesi#4	1977-02-28	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-881	data/devletler.js#kongo-brazzaville#5	1977-03-18	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-882	data/devletler.js#afar-issa-fransiz-bolgesi#5	1977-05-08	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-883	data/devletler.js#fransiz-somali#13	1977-06-27	BM Antlaşma Serisi cilt 1102, I-16922 (Cibuti Başkanı bildirisi, 30 Haz 1977)	https://treaties.un.org/doc/Publication/UNTS/Volume%201102/volume-1102-I-16922-English.pdf	The Republic of Djibouti, having acceded on 27 June 1977 to full and complete independence ... [Genel Kurul 32/1: Cibuti'nin üyeliği; ilk başkan Gouled bu belgede okunmadı]	gun	UYUMLU	DOGRULANDI
+L2-884	data/devletler.js#bophuthatswana#0	1977-12-06	-	-	BM GK 32/105 (14 Ara 1977) okundu: yalnız 'plans to declare the so-called independence of Bophuthatswana' diyor; 6 Aralık günü metinde yok	gun	-	CEKILEMEDI
+L2-885	data/devletler.js#uganda#4	1979-01-01	-	-	[yalnız arama özeti]	yil	-	CEKILEMEDI
+L2-886	data/devletler.js#kongo-brazzaville#7	1979-02-05	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-887	data/devletler.js#ekvator-ginesi#2	1979-08-03	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-888	data/devletler.js#ekvator-ginesi#3	1979-08-25	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-889	data/devletler.js#venda-bantustan#0	1979-09-13	BM Genel Kurulu karar 34/93 G (1979)	https://documents.un.org/api/symbol/access?s=A/RES/34/93&l=en&t=pdf	"proclaiming the so-called ""independence"" of Venda on 13 September 1979"	gun	UYUMLU	DOGRULANDI
+L2-890	data/devletler.js#orta-afrika-cumhuriyeti#2	1979-09-20	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-891	data/devletler.js#kampucya-halk-cumhuriyeti#2	1981-06-27	-	-	1981 anayasa metni resmi kaynakta bulunamadı [yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-892	data/devletler.js#orta-afrika-cumhuriyeti#3	1981-09-01	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-893	data/devletler.js#ciskei#0	1981-12-04	BM Genel Kurulu karar 36/172 (1981)	https://documents.un.org/api/symbol/access?s=A/RES/36/172&l=en&t=pdf	"Denounces the proclamation of the so-called ""independence"" of the Ciskei on 4 December 1981"	gun	UYUMLU	DOGRULANDI
+L2-894	data/devletler.js#kampucya-halk-cumhuriyeti#3	1982-06-22	-	-	BM GK 37/6 metninde '22 June' / 'Coalition Government' geçmiyor; CGDK kuruluş günü resmi belgede okunmadı	gun	-	CEKILEMEDI
+L2-895	data/devletler.js#ekvator-ginesi#6	1982-10-12	-	-	1982 Temel Yasa tam metni/yürürlük tarihi bulunamadı [yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-896	data/devletler.js#grenada-devrimci-hukumet#3	1983-10-14	-	-	BM GK 38/7 taranmış görüntü, metin çıkarılamadı; Coard günü okunmadı	gun	-	CEKILEMEDI
+L2-897	data/devletler.js#saint-kitts-nevis#2	1984-01-01	-	-	[yalnız arama özeti]	yil	-	CEKILEMEDI
+L2-898	data/devletler.js#kampucya-halk-cumhuriyeti#4	1985-01-14	-	-	[yalnız arama özeti]	gun	-	CEKILEMEDI
+L2-899	data/devletler.js#senegambiya#2	1986-01-01	-	-	[yalnız arama özeti]	yil	-	CEKILEMEDI

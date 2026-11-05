@@ -1,0 +1,88 @@
+{
+ "Riachão do Jacuípe": [
+  {
+   "sira": 2888, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1878-08-01", "t": "1889-11-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "IBGE, Divisão Territorial Brasileira, Riachão do Jacuípe (Bahia): Histórico + Formação Administrativa, https://biblioteca.ibge.gov.br/visualizacao/dtb/bahia/riachaodojacuipe.pdf (PDF, Read ile ham metin) | t ucu: Decreto nº 1, 15-11-1889, Câmara dos Deputados, Legislação Informatizada (birincil belge, sayfa.py ham metin) https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1-15-novembro-1889-532625-publicacaooriginal-14906-pe.html",
+   "alinti": "Elevado á categoria de vila com a denominação de Nossa Senhora da Conceição do Riachão do Jacuípe, pela lei provincial nº 1823, de 01-08-1878",
+   "oneri": {},
+   "not": "f = 1878-08-01 statü günüdür (vila, lei provincial 1823; instalação 25-10-1878). 6g: BEYANLI ALT SINIR — kuruluş kaynaksız: IBGE yalnızca 17. yy. sesmaria ve João dos Santos Cruz'un 'Riachão' sığır fazendasını anlatıyor, gün/yıl yok; fazenda yerleşim sayılmaz, yıl uydurulmadı. Sahip brezilya-imparatorlugu künyesi (1822-09-07/1889-11-15) 1878'i kapsar. t = 1889-11-15: ÜLKE DÜZEYİ; Decreto nº 1 'Fica proclamada provisoriamente e decretada como a fórma de governo da nação brazileira' 15 de novembro de 1889 tarihli (Art. 1º) — şehre özgü değil, ülke düzeyi. Alıntılar IBGE PDF ve Câmara sayfasının ham metninden."
+  }
+ ],
+ "Caiapônia (Torres do Rio Bonito)": [
+  {
+   "sira": 2890, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1855-11-05", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE, DTB, Caiapônia (Goiás): Histórico + Formação Administrativa, https://biblioteca.ibge.gov.br/visualizacao/dtb/goias/caiaponia.pdf (PDF, Read ile ham metin) | t ucu: Decreto nº 1, 15-11-1889, https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1-15-novembro-1889-532625-publicacaooriginal-14906-pe.html",
+   "alinti": "Com a inauguração da primeira igreja, em louvor ao Divino Espírito Santo, em 1845, surgiram as primeiras edificações",
+   "oneri": {"f": "1845-01-01", "d": "brezilya-imparatorlugu", "t": "1889-11-15"},
+   "f_geri": {"eski_f": "1855-11-05", "yeni_f": "1845-01-01", "sahip": "brezilya-imparatorlugu", "kaynak": "IBGE DTB Caiapônia (yıl düzeyi; 'em 1845 ... primeiras edificações'); künye f 1822-09-07 1845'i kapsar (devletler.js:6369)"},
+   "not": "6g: mevcut f 1855-11-05 = 'distrito criado, Resolução Provincial nº 1, de 05-11-1855' (statü günü) — varoluş günü değil. Kaynak: povoado 'Torres do Rio Bonito' 18. yy sonunda kurulmuş (yıl yok → yazılmadı); ilk kilise/ilk yapılar 1845 (yıl), 1850'de gelişmiş povoado. Öneri f=1845-01-01 YIL düzeyi (gün yok), 'ilk tarihli yıl' BEYANLI ALT SINIR (gerçek kuruluş daha eski, tarihsiz). Dilim sahibi brezilya-imparatorlugu, hayalet değil. Statü günü 1855-11-05 ic_not: distrito (Rio Verde'ye bağlı); vila 29-07-1873 (Resolução 508), instalação 07-01-1874. t ucu: 1889-11-15 ÜLKE DÜZEYİ KAYNAKLI (Decreto nº 1: 'Fica proclamada provisoriamente e decretada como a fórma de governo da nação brazileira'), öteki uç f için ONERI."
+  }
+ ],
+ "Carolina (Maranhão)": [
+  {
+   "sira": 2892, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1831-10-25", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE, DTB, Carolina (Maranhão): Histórico + Formação Administrativa, https://biblioteca.ibge.gov.br/visualizacao/dtb/maranhao/carolina.pdf (PDF, Read ile ham metin) | t ucu: Decreto nº 1, 15-11-1889 (Câmara, ham metin)",
+   "alinti": "Em 1809, Manoel Coelho Paredes e Elias Ferreira Barros vieram até rio Tocantins, onde construiram currais para o gado e se fixaram.",
+   "oneri": {"f": "1809-01-01", "d": "portekiz-brezilyasi", "t": "1822-09-07"},
+   "f_geri": {"eski_f": "1831-10-25", "yeni_f": "1809-01-01", "sahip": "portekiz-brezilyasi (1809-01-01 → 1822-09-07), ardından brezilya-imparatorlugu 1822-09-07 → 1889-11-15", "kaynak": "IBGE DTB Carolina; portekiz-brezilyasi künyesi f 1549-01-01/t 1822-09-07 (devletler.js:6358) 1809'u kapsar"},
+   "not": "6g: mevcut f 1831-10-25 = 'elevado à categoria de vila ... decreto de 25-10-1831, instalado 25-10-1831' (statü günü; atlas bunu f yapmış). Kaynak: 1809'da currais kurup yerleşildi, 1810'da Pinto Magalhães yeri alıp 'São Pedro de Alcântara' adını verdi (1816'ya kadar), 1816'da terk, 1820'de Elias Ferreira Barros yeniden yerleşti, 1823'te 'Carolina' adı verildi. ZAYIF NOKTA: 1810-1820 arası kesintili/terk dönemleri var; yerleşimin 1809'dan sürekliliği kaynakta açık değil — Emre alternatif olarak 1820-01-01 (kalıcı yeniden iskân) seçebilir; her iki durumda gün yok, YIL düzeyi BEYANLI. Bölünme gerekir: portekiz-brezilyasi f→1822-09-07, sonra brezilya-imparatorlugu 1822-09-07→1889-11-15 (t ÜLKE DÜZEYİ KAYNAKLI: Decreto nº 1 'Fica proclamada provisoriamente e decretada como a fórma de governo da nação brazileira'). UYARI (ipucu, gazete düzeyi, KAYNAKLI sayılmaz): Maranhão'nun bağımsızlığa katılışı 28-07-1823 olarak anılıyor; bu bölgede 1822-09-07 yerine 1823 sorusu ayrı sorgulanmalı — bu turda BAKILMADI. Vila 1831'de Goiás yargısında (São Pedro de Alcântara'ya nakil), Maranhão'ya dönüş decreto nº 773 de 23-08-1854 (ic_not)."
+  }
+ ],
+ "Grajaú (Chapada)": [
+  {
+   "sira": 2894, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1835-04-29", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE, DTB, Grajaú (Maranhão): Histórico + Formação Administrativa, https://biblioteca.ibge.gov.br/visualizacao/dtb/maranhao/grajau.pdf (PDF, Read ile ham metin) | t ucu: Decreto nº 1, 15-11-1889 (Câmara)",
+   "alinti": "desceu rio abaixo em 11 de março de 1811 ... Fundaram, à margem leste desse rio, a povoação denominada “Porto da Cahapada”",
+   "oneri": {"f": "1811-03-11", "d": "portekiz-brezilyasi", "t": "1822-09-07"},
+   "f_geri": {"eski_f": "1835-04-29", "yeni_f": "1811-03-11", "sahip": "portekiz-brezilyasi (1811-03-11 → 1822-09-07), ardından brezilya-imparatorlugu 1822-09-07 → 1889-11-15", "kaynak": "IBGE DTB Grajaú; künye portekiz-brezilyasi f 1549-01-01/t 1822-09-07 (devletler.js:6358) 1811'i kapsar"},
+   "not": "6g: mevcut f 1835-04-29 = 'elevado à categoria de vila com a denominação de Chapada pela lei provincial nº 7 de 29-04-1835' (statü günü). Kuruluş: Antônio Francisco dos Reis'in 11-03-1811 nehir yolculuğu ve 'Porto da Cahapada' povoação'ının kuruluşu. BEYANLI: kaynak yolculuk gününü verir, kuruluşun kendi gününü ayrıca vermez; 11-03-1811 = yolculuk/iskân başlangıcı. Süreklilik riski: yerleşim 1814'te yakıldı (38 kişi öldü), 1816'da 'São Paulo do Norte' adıyla yeniden denendi, 1817-18 Leopoldina kolonisi başarısız — kaynaktaki süreklilik kesintili; Emre 1816 de seçebilir (YIL). Statü dilimleri ic_not: distrito 'Chapada' lei provincial nº 13 de 08-05-1835 (kaynağın içinde distrito tarihi vila tarihinden SONRA görünüyor — kaynak iç çelişkisi, beyan), cidade (Grajaú adıyla) lei 1225 de 07-04-1881. Maranhão'nun 1823 katılımı sorusu (Carolina notuna bak) BAKILMADI. t = 1889-11-15 ÜLKE DÜZEYİ KAYNAKLI (Decreto nº 1)."
+  }
+ ],
+ "Formosa (Goiás)": [
+  {
+   "sira": 2896, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1838-08-22", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE, DTB, Formosa (Goiás): Histórico + Formação Administrativa, https://biblioteca.ibge.gov.br/visualizacao/dtb/goias/formosa.pdf (PDF, Read ile ham metin) | t ucu: Decreto nº 1, 15-11-1889 (Câmara)",
+   "alinti": "Em 1823, o arraial foi elevado a julgado e já se firmava com centro comercial.",
+   "oneri": {"f": "1823-01-01", "d": "brezilya-imparatorlugu", "t": "1889-11-15"},
+   "f_geri": {"eski_f": "1838-08-22", "yeni_f": "1823-01-01", "sahip": "brezilya-imparatorlugu", "kaynak": "IBGE DTB Formosa (yıl düzeyi, julgado statüsü); künye f 1822-09-07 1823-01-01'i kapsar (devletler.js:6369)"},
+   "not": "6g: mevcut f 1838-08-22 = 'Distrito criado ... lei provincial nº 4, de 22-08-1838' (statü günü). Kaynak: Arraial dos Couros 18. yy 'terceira década'nda (1720'ler) boiadeiro/garimpeiro duraklarından doğdu (yıl yok → YAZILMADI; on yıl düzeyi). Tarihli en erken kayıt: 1823'te arraial 'julgado'ya yükseltildi (yıl). 1823-01-01 = BEYANLI ALT SINIR (statü yılı, varoluş değil — gerçek kuruluş 1720'ler, tarihsiz). 1720'lerden 1822-09-07'ye kadar sahip Portekiz Brezilyası olurdu, ama yıl bilinmediği için dilim açılmadı. Diğer statüler ic_not: freguesia 1838, vila 'Vila Formosa da Imperatriz' lei provincial nº 1 de 01-08-1843 (resmî belediye günü), instalação 22-02-1844, cidade lei 574 de 21-07-1877. t = 1889-11-15 ÜLKE DÜZEYİ KAYNAKLI (Decreto nº 1). Goiás'ın 1822 katılımı sorusuna bakılmadı."
+  }
+ ],
+ "Oliveira dos Brejinhos": [
+  {
+   "sira": 2898, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1880-07-25", "t": "1889-11-15",
+   "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "IBGE, DTB, Oliveira dos Brejinhos (Bahia): Histórico + Formação Administrativa, https://biblioteca.ibge.gov.br/visualizacao/dtb/bahia/oliveiradosbrejinhos.pdf (PDF, Read ile ham metin) | t ucu: Decreto nº 1, 15-11-1889 (Câmara, ham metin) https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-1-15-novembro-1889-532625-publicacaooriginal-14906-pe.html",
+   "alinti": "Distrito criado com a denominação de Oliveira dos Brejinhos, pela lei provincial nº 1980, de 25-07-1880, subordinado ao município de Urubu.",
+   "oneri": {},
+   "not": "f = 1880-07-25 distrito (freguesia 1880) statü günüdür; 6g: BEYANLI ALT SINIR — kuruluş kaynaksız: IBGE yalnız José Manoel Teixeira Leite'nin fazendası, Nossa Senhora da Oliveira kapeli ve 'Brejinho Grande da Oliveira' povoadosu'ndan söz eder, tarih/yıl yok (uydurulmadı). Sonraki statüler ic_not: vila ato nº 405 de 01-06-1891, instalada 17-08-1891; 1931 Brotas'a ilhak, belediye yeniden decreto nº 8620 de 30-08-1933 (Brezilya içinde; sahiplik etkilenmez). t = 1889-11-15 ÜLKE DÜZEYİ: Decreto nº 1 'Fica proclamada provisoriamente e decretada como a fórma de governo da nação brazileira' (15 de novembro de 1889). Künye brezilya-imparatorlugu 1880'i kapsar."
+  }
+ ],
+ "São Paulo de Olivença": [
+  {
+   "sira": 2900, "dosya_satir": "", "alan": "s", "d": "portekiz-brezilyasi", "f": "1759-01-01", "t": "1822-09-07",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE, DTB, São Paulo de Olivença (Amazonas): Histórico + Formação Administrativa, https://biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/saopaulodeolivenca.pdf (PDF, Read ile ham metin)",
+   "alinti": "Aí, Samuel Fritz, a serviço do governo espanhol, fundou, em 1689, a missão de São Paulo Apóstolo.",
+   "oneri": {"f": "1689-01-01", "d": "ispanyol-peru", "t": "SAHİP DEĞİŞİM YILI KAYNAKSIZ"},
+   "f_geri": {"eski_f": "1759-01-01", "yeni_f": "1689-01-01", "sahip": "ispanyol-peru (ADAY; 1689 → 'mudança de domínio', yıl kaynakta yok), sonra portekiz-brezilyasi", "kaynak": "IBGE DTB São Paulo de Olivença; ispanyol-peru künyesi f 1542-11-20/t 1824-12-09 1689'u kapsar (devletler.js:6336). KOŞUL (i) EKSİK: 1689 dilimini Peru Genel Valiliği'ne bağlayan (Maynas/Quito yargısı) ve Portekiz'e geçiş yılını veren kaynak bulunamadı"},
+   "not": "6g: mevcut f 1759-01-01 = 'Distrito criado com a denominação de São Paulo de Olivença, em 1759' (statü yılı). Kaynak: missão 1689'da Samuel Fritz tarafından İspanyol hükûmeti hesabına kuruldu; 1691'de Portekiz kaldırılmasına karar verdi (sonuçsuz); 1708'de Grão-Pará valisinin seferi yenildi, ardından José Antunes Fonseca seferi; 'com a mudança de domínio' misyon São Paulo dos Cambebas adını aldı — geçiş yılı verilmemiş. Bu yüzden: (a) f=1689-01-01 varoluş yılı kaynaklı (YIL), ama (b) 1689→~1708-10 arası sahibin İspanya (Peru Genel Valiliği/Quito-Maynas) olduğu çıkarım; Maynas'ın hangi genel valiliğe bağlı olduğuna dair kaynak aranmadı/bulunamadı; (c) Portekiz'e geçiş yılı kaynaksız → dilim zinciri kapanmıyor, bu yüzden f_geri UYGULANMAMALI, yalnız Emre'nin kararıyla 1689-1759 arası 'beyanlı yaklaşıklık' yazılabilir. Alternatif: f'yi 1759-01-01'de BEYANLI ALT SINIR bırak (kaynakta statü yılı kesin). Kaynak ortak yorumlarla çelişiyor (IBGE yalnız 1759 distrito, vila 1817 'Olivença', 1833'te Tefé'ye bağlı freguesia 'Javari', vila lei provincial nº 599 de 31-05-1882). t = 1822-09-07 BAKILMADI: bu bölge (Alto Solimões/Rio Negro) bağımsızlığa 1822-09-07'de değil sonradan katılmış olabilir (ipucu: Grão-Pará 15-08-1823 ata de adesão — gazete düzeyi, KAYNAKLI değil); ayrı sorgu gerekir."
+  }
+ ],
+ "Urucará": [
+  {
+   "sira": 2903, "dosya_satir": "", "alan": "s", "d": "brezilya-imparatorlugu", "f": "1887-05-12", "t": "1889-11-15",
+   "hukum": "ONERI", "uc": "f",
+   "kaynak": "IBGE, DTB, Urucará (Amazonas): Histórico + Formação Administrativa, https://biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/urucara.pdf (PDF, Read ile ham metin) | t ucu: Decreto nº 1, 15-11-1889 (Câmara)",
+   "alinti": "A atual cidade de Urucará originou-se da povoação de Santana da Capela, fundada em 1814, por Crispim Lobo de Macedo.",
+   "oneri": {"f": "1814-01-01", "d": "portekiz-brezilyasi", "t": "1822-09-07"},
+   "f_geri": {"eski_f": "1887-05-12", "yeni_f": "1814-01-01", "sahip": "portekiz-brezilyasi (1814-01-01 → 1822-09-07), ardından brezilya-imparatorlugu 1822-09-07 → 1889-11-15", "kaynak": "IBGE DTB Urucará; künye portekiz-brezilyasi f 1549-01-01/t 1822-09-07 (devletler.js:6358) 1814'ü kapsar"},
+   "not": "6g: mevcut f 1887-05-12 = 'Elevado à categoria de vila ... lei provincial nº 744, de 12-05-1887' (statü günü; instalação 07-09-1887). Kaynak povoação 'Santana da Capela'nın 1814'te kuruluşunu YIL olarak verir (gün yok) → 1814-01-01. Ara statüler ic_not: freguesia lei provincial nº 462 de 03-05-1880; 1930'da lağv (Itacoatiara), 1935'te yeniden. UYARI: 1814-1822/23 arası bölge Grão-Pará idaresindeydi; Portekiz Brezilyası künyesi kullanımı Brezilya'nın 1822-09-07 ilanını esas alır, Pará/Amazon'un fiilen 1823 (ipucu: Grão-Pará adesão 15-08-1823, gazete düzeyi) katılması sorusu BAKILMADI — beyan edildi. t = 1889-11-15 ÜLKE DÜZEYİ KAYNAKLI (Decreto nº 1)."
+  }
+ ]
+}

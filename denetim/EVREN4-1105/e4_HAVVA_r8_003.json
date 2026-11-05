@@ -1,0 +1,103 @@
+{
+ "Emba (Cem)": [
+  {"sira": 1040, "dosya_satir": "", "alan": "s", "d": "kazak-hanligi", "f": "1644-01-01", "t": "1847-01-01", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV 'Kazaklar' (https://islamansiklopedisi.org.tr/kazaklar), TDV 'Kazakistan' okundu", "alinti": "", "oneri": {},
+   "not": "BAKILDI, BULUNAMADI: TDV Kazaklar'da Emba, 1644 ve 1847 YOK; yalnız Rus yönetiminin 1822/1824/1867/1868/1891 düzenlemeleri anılıyor (ÜLKE DÜZEYİ, Emba'ya özgü değil). TDV 'kopal' maddesi de yok. İki uç da teyitsiz."},
+  {"sira": 1041, "dosya_satir": "", "alan": "s", "d": "rusya", "f": "1847-01-01", "t": "1917-03-15", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV 'Kazaklar' https://islamansiklopedisi.org.tr/kazaklar", "alinti": "", "oneri": {},
+   "not": "BAKILDI, BULUNAMADI: f=1847 devralma kaynağı Kopal (Yedisu, Doğu Kazakistan) tahkimatıdır; Emba Batı Kazakistan'dır (Küçük Cüz/Orenburg-Turgay), aynı olay değildir. TDV Rus idaresi için yalnız 1822, 1824, 1867, 1868 düzenlemelerini sayar (ÜLKE DÜZEYİ). Emba için ayrı kaynak (Turgay oblastı 1868, Emba karakolu) aranmalı; bulunamadı. t=1917-03-15 teyitsiz."},
+  {"sira": 1044, "dosya_satir": "", "alan": "s", "d": "nogay", "f": "1500-01-01", "t": "1644-01-01", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "TDV 'Kazaklar' okundu", "alinti": "", "oneri": {},
+   "not": "BAKILDI, BULUNAMADI: TDV Kazaklar'da Emba/Nogay-1644 ilişkisi yok. 1500 pencere ucu gibi görünüyor, kaynaklı değil."},
+  {"sira": 1046, "dosya_satir": "", "alan": "s", "d": "kazakistan", "f": "1991-12-16", "t": "2000-12-31", "uc": "f",
+   "hukum": "KAYNAKLI", "kaynak": "TDV İslâm Ansiklopedisi, 'Kazakistan' (Cevdet Küçük), https://islamansiklopedisi.org.tr/kazakistan#4-kazakistan-cumhuriyeti (sayfa.py ham metin)",
+   "alinti": "16 Aralık 1991 tarihinde Kazakistan Cumhuriyeti’nin bağımsızlığı hakkındaki kanunun kabulüyle", "oneri": {},
+   "not": "f ucu gün düzeyinde kaynaklı (bağımsızlık ilanı kuralı ile uyumlu; SSCB'nin sona erişi 1991-12-26 ic_not'a). t=2000-12-31 pencere ucudur, öteki uç teyitsiz."}
+ ],
+ "Caernarfon": [
+  {"sira": 1047, "dosya_satir": "", "alan": "s", "d": "gwynedd", "f": "1281-01-01", "t": "1283-10-03", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "Encyclopaedia Britannica 11. basım, 'Wales' (Wikisource ham metin) https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wales [19.-20. yy eseri; tek başına kısmen]",
+   "alinti": "executed under circumstances of great barbarity on the 3rd of October 1283", "oneri": {},
+   "not": "t ucu Dafydd ap Gruffydd'in idam günüdür (Shrewsbury mahkemesi); gün EB1911'de açık. Öteki uç (f=1281) teyitsiz. Mevcut DWB kaynağıyla uyumlu."},
+  {"sira": 1048, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1283-10-03", "t": "2000-12-31", "uc": "f",
+   "hukum": "ONERI", "kaynak": "Encyclopaedia Britannica 11. basım, 'Wales' https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wales ; 'Carnarvon' (Wikisource) [19.-20. yy eseri; tek başına kısmen]",
+   "alinti": "By the Statute, or rather Ordinance of Rhuddlan, promulgated in 1284", "oneri": {"f": "1284"},
+   "not": "ÖLÇÜT: idareye katma — Rhuddlan Statüsü (1284) Gwynedd'i altı yeni shire/sheriff'e böldü; 1283-10-03 idam günüdür, idareye katma belgesi değil. Gün bu kaynakta yok (yalnız YIL 1284); Rhuddlan günü başka kaynakla bulunmalı (kaynakta okunmadı). Caernarfon kalesi 1284'te başladı (EB1911 Carnarvon). t=2000-12-31 teyitsiz."}
+ ],
+ "Lerwick (Shetland)": [
+  {"sira": 1049, "dosya_satir": "", "alan": "s", "d": "orkney-kontlugu", "f": "1281-01-01", "t": "1472-02-20", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "Shetland Museum & Archives, '550 Years Ago: how Shetland became part of Scotland', https://www.shetlandmuseumandarchives.org.uk/blog/550-years-ago-how-shetland-became-part-of-scotland (sayfa.py ham metin)",
+   "alinti": "James annexed Orkney and Shetland to his crown on 20 February 1472.", "oneri": {},
+   "not": "t ucu gün düzeyinde kaynaklı (idareye katma: ÖLÇÜT idareye katma — taca ilhak, Mayıs 1469 rehin sonrası). Öteki uç (f=1281) teyitsiz. Kurum kaynağı, hakemli değil; Brian Smith'in yazısı."},
+  {"sira": 1050, "dosya_satir": "", "alan": "s", "d": "iskocya", "f": "1472-02-20", "t": "1707-05-12", "uc": "f",
+   "hukum": "ONERI", "kaynak": "f: Shetland Museum & Archives blog (yukarıdaki); t: EB 11. basım 'Scotland' https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scotland [kısmen]",
+   "alinti": "30th of April 1707 was the last day that Scotland was Scotland", "oneri": {"t": "1707-05-01"},
+   "not": "f=1472-02-20 KAYNAKLI (alıntı: 'James annexed Orkney and Shetland to his crown on 20 February 1472'). t için ONERI: 1707-05-12 hiçbir kaynakta yok; EB1911 kraliyet onayı 4 Mart 1707, Lockhart'a göre 30 Nisan son İskoçya günü => Birlik 1707-05-01; atlasın iskocya KÜNYESİ de t=1707-05-01 (devletler.js). Dönem t künyeyi aşmıyor ama künyeden 11 gün SONRA: künyeyle hizala. Birlik Antlaşması Art. 1 metni okunamadı (legislation.gov.uk 404)."},
+  {"sira": 1051, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1707-05-12", "t": "2000-12-31", "uc": "f",
+   "hukum": "ONERI", "kaynak": "EB 11. basım 'Scotland' https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Scotland [kısmen]",
+   "alinti": "Lockhart: 30th of April 1707 was the last day that Scotland was Scotland", "oneri": {"f": "1707-05-01"},
+   "not": "Satır 1050 ile aynı olay: devir günü 1707-05-01 (Birlik yürürlüğü); 05-12 kaynaksız. Künye 'ingiltere / Büyük Britanya' bu devri kapsıyor. t teyitsiz."}
+ ],
+ "Limerick": [
+  {"sira": 1053, "dosya_satir": "", "alan": "s", "d": "irlanda-serbest-devlet", "f": "1922-12-06", "t": "1937-12-29", "uc": "f",
+   "hukum": "KAYNAKLI", "kaynak": "Bill Kissane, Century Ireland (RTÉ), '6 December 1922: The Irish Free State Constitution Becomes Law', https://centuryireland.rte.ie/centuryireland/articles/6-december-1922-the-irish-free-state-constitution-becomes-law (sayfa.py ham metin); ayrıca RTÉ News 2022-12-06",
+   "alinti": "The constitution of the Irish Free State became law on 6 December 1922.", "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f gün düzeyinde kaynaklı. t=1937-12-29 okunmadı, öteki uç teyitsiz. Kaynak yarı-akademik/yayın kuruluşu (Kissane akademisyen)."},
+  {"sira": 1054, "dosya_satir": "", "alan": "s", "d": "irlanda", "f": "1000-01-01", "t": "1174-01-01", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "EB 11. basım 'Limerick (city)' https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Limerick_(city) [kısmen]; mevcut: Treccani",
+   "alinti": "till its conquest by the English in 1174", "oneri": {},
+   "not": "t=1174 YIL düzeyinde kaynaklı. UYARI: aynı madde 1179'da Henry II'nin Limerick krallığını Herbert Fitzherbert'e verdiğini ve şehrin '1195'e kadar sık sık İrlandalı beylerin elinde' olduğunu söyler; fetihten sonra el değiştirme var, dönem bölünmesi gerekebilir. f=1000 pencere ucu (künye ic_not), teyitsiz."}
+ ],
+ "Kilkenny": [
+  {"sira": 1056, "dosya_satir": "", "alan": "s", "d": "irlanda-serbest-devlet", "f": "1922-12-06", "t": "1937-12-29", "uc": "f",
+   "hukum": "KAYNAKLI", "kaynak": "Bill Kissane, Century Ireland (RTÉ), https://centuryireland.rte.ie/centuryireland/articles/6-december-1922-the-irish-free-state-constitution-becomes-law (ham metin)",
+   "alinti": "The constitution of the Irish Free State became law on 6 December 1922.", "oneri": {},
+   "not": "ÜLKE DÜZEYİ; Limerick satırı 1053 ile aynı. t teyitsiz."},
+  {"sira": 1057, "dosya_satir": "", "alan": "s", "d": "irlanda", "f": "1000-01-01", "t": "1171-01-01", "uc": "t",
+   "hukum": "BULUNAMADI", "kaynak": "EB 11. basım 'Kilkenny (county)' Wikisource; 'Ireland' (EB1911) arandı",
+   "alinti": "", "oneri": {},
+   "not": "BAKILDI, BULUNAMADI: EB1911 Kilkenny (county): Ossory krallığının parçasıydı, Strongbow'un mirasçılarına palatin hakkıyla verilen liberties'ten biri (tarihsiz). 1171 Anglo-Norman devri için şehir/ilçe özgü tarihli kaynak yok. Kilkenny (town) EB1911 maddesi 404."},
+  {"sira": 1058, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1171-01-01", "t": "1281-01-01", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "EB 11. basım 'Kilkenny (county)', 'Ireland'",
+   "alinti": "", "oneri": {},
+   "not": "BAKILDI, BULUNAMADI: Strongbow liberties tarihsiz; 'Ireland' maddesinde Kilkenny devri yok. Kilkenny ilçesinin kral Yahya (John) döneminde oluştuğu söyleniyor ('created by King John', ~1210'lar) — 1171 gününe dayanak değil. t=1281 pencere ucu."}
+ ],
+ "Athlone": [
+  {"sira": 1059, "dosya_satir": "", "alan": "s", "d": "ingiltere", "f": "1603-03-30", "t": "1922-12-06", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "Bill Kissane, Century Ireland (RTÉ) https://centuryireland.rte.ie/centuryireland/articles/6-december-1922-the-irish-free-state-constitution-becomes-law (ham metin)",
+   "alinti": "The constitution of the Irish Free State became law on 6 December 1922.", "oneri": {},
+   "not": "ÜLKE DÜZEYİ; t gün kaynaklı. f=1603-03-30 (Mellifont) öteki uç teyitsiz: web özetlerinde Mellifont günü 29/30/31 Mart diye ayrışıyor, akademik ham sayfa okunamadı."},
+  {"sira": 1060, "dosya_satir": "", "alan": "s", "d": "irlanda-serbest-devlet", "f": "1922-12-06", "t": "1937-12-29", "uc": "f",
+   "hukum": "KAYNAKLI", "kaynak": "Bill Kissane, Century Ireland (RTÉ) (ham metin)",
+   "alinti": "The constitution of the Irish Free State became law on 6 December 1922.", "oneri": {},
+   "not": "ÜLKE DÜZEYİ; öteki uç teyitsiz."},
+  {"sira": 1061, "dosya_satir": "", "alan": "s", "d": "irlanda", "f": "1281-01-01", "t": "1603-03-30", "uc": "f",
+   "hukum": "ONERI", "kaynak": "EB 11. basım 'Athlone' https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Athlone [kısmen]",
+   "alinti": "erection of the castle and of a bridge over the river by John de Grey", "oneri": {"d": "ingiltere", "f": "1210"},
+   "not": "ZAYIF ÖNERİ: EB1911, Athlone'un kalesini ve köprüsünü 1210'da İrlanda baş yargıcı (justiciar) John de Grey'in yaptırdığını, Elizabeth döneminde Connaught başkanlığının merkezi olduğunu söyler => en azından 1210'dan beri İngiliz kontrollü merkez; atlas 1281-1603 'irlanda' (Gal) yazıyor. ÖLÇÜT: idareye katma (kale + justiciar) ama sonraki yüzyıllarda Gal geri alışları olabilir, kaynak bunu çözmüyor. Karar verilmeli, BEYANLI YAKLAŞIKLIK uygun. t=1603-03-30 ülke olayı, teyitsiz."},
+  {"sira": 1062, "dosya_satir": "", "alan": "s", "d": "irlanda", "f": "1000-01-01", "t": "1281-01-01", "uc": "f+t",
+   "hukum": "BULUNAMADI", "kaynak": "EB 11. basım 'Athlone' okundu",
+   "alinti": "", "oneri": {},
+   "not": "BAKILDI, BULUNAMADI: 1210 öncesi Athlone sahipliğine dair tarihli kayıt yok. Bkz. satır 1061: 1210 kalesi bu dönemin t'si 1281'le çelişiyor (ONERI 1210)."}
+ ],
+ "Nantes": [
+  {"sira": 1063, "dosya_satir": "", "alan": "s", "d": "fransa", "f": "1532-08-13", "t": "1792-09-22", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "Assemblée nationale, '21 septembre 1792 - La Convention nationale et la fin de la royauté', https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute (ham metin)",
+   "alinti": "Elle abolit la royauté à l’unanimité le 21 septembre. Le lendemain", "oneri": {},
+   "not": "ÜLKE DÜZEYİ. Monarşi 21 Eylül 1792'de kaldırıldı; ertesi gün (22 Eylül) tarihlerin 'Cumhuriyetin I. yılı' yazılması kararıyla 'régime républicain' kuruldu — atlasın 22 Eylül'ü kaynaklı, 21 Eylül ic_not'a. f ucu (1532-08-13): EB1911 'Vannes' yalnız YIL 1532 verir ('In 1532 Brittany was definitively united to France'), 13 Ağustos günü okunamadı => f 'yalnız yıl teyitli; gün teyitsiz'."},
+  {"sira": 1064, "dosya_satir": "", "alan": "s", "d": "bretanya", "f": "1281-01-01", "t": "1532-08-13", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "EB 11. basım 'Vannes' https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Vannes ; 'Brittany' (Wikisource) [kısmen]",
+   "alinti": "In 1532 Brittany was definitively united to France.", "oneri": {},
+   "not": "ÜLKE DÜZEYİ, t YIL düzeyinde kaynaklı (EB Brittany: 'contract of 1532'); 13 Ağustos günü okunamadı (Persée/Cairn robots; Treccani 'Bretagna' 1532 anmıyor) — arama özetinde Vannes tüzüğü ve Rennes'te Dauphin'in dük tacı 14 Ağustos 1532 geçiyor, ham teyit yok. Gün teyitsiz. f=1281 pencere ucu, teyitsiz."}
+ ],
+ "Vannes": [
+  {"sira": 1066, "dosya_satir": "", "alan": "s", "d": "fransa", "f": "1532-08-13", "t": "1792-09-22", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "Assemblée nationale, '21 septembre 1792 - La Convention nationale et la fin de la royauté' (ham metin)",
+   "alinti": "Elle abolit la royauté à l’unanimité le 21 septembre. Le lendemain", "oneri": {},
+   "not": "ÜLKE DÜZEYİ; Nantes satırı 1063 ile aynı. f için EB1911 'Vannes' YIL 1532 ('In 1532 Brittany was definitively united to France'), gün teyitsiz."},
+  {"sira": 1067, "dosya_satir": "", "alan": "s", "d": "bretanya", "f": "1281-01-01", "t": "1532-08-13", "uc": "t",
+   "hukum": "KAYNAKLI", "kaynak": "EB 11. basım 'Vannes' https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Vannes [kısmen]",
+   "alinti": "In 1532 Brittany was definitively united to France.", "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL düzeyi; gün (13 Ağustos) ham kaynakla teyit edilemedi. Vannes Bretanya Dükalığı'nın Estates toplantı kentiydi (1532 birliği burada ilan edildi — arama özeti, ham teyit yok). f pencere ucu, teyitsiz."}
+ ]
+}
