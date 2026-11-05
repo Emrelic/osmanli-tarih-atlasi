@@ -1317,6 +1317,48 @@ EMRELİC, 4 Kasım 2026 akşam: "çekirdek denetimin parçası". VERI-YAPISI §1
   - **Ain Ghazal:** yalnız bölge düzeyi.
   - **Anau:** BULUNAMADI.
 
+## 48. EVREN 4 — HAVVA kovası, UMIT dilimi r8_127 → r8_076 TAMAM (5 Kasım 2026, 03:55–06:00)
+- **Bölüşüm:**
+  - HAVVA r8_040 → 059, KASA r8_060 → 075 (EMRELİC), UMIT r8_076 → 127.
+  - Erken devir partileri r8_033/038/039 de UMIT'te.
+- **Teslim:** 55 parti dosyası, `denetim/EVREN4-1105/e4_UMIT_r8_0XX.json`. Toplam 440 yerleşim, 844 satır, ayrıca 31 F-GERI satırı:
+
+  | Hüküm | Satır |
+  |---|---|
+  | KAYNAKLI | 257 |
+  | ONERI | 429 |
+  | BULUNAMADI | 119 |
+  | BAKILMADI | 37 |
+  | YOK_O_DEVIRDE | 1 |
+  | BOSLUK_KALIR | 1 |
+
+- **Bu gece eklenen kurallar** (EMRELİC; çoğu sabah Emre'nin listesinde):
+  - **Kaynak sınıfı:**
+    - Ulusal akademik ansiklopedi KAYNAKLI.
+    - Ticari/genel ansiklopedi ONERI-güçlü (Japon ansiklopedileri dahil).
+    - Kotobank yalnız taşıyıcıdır.
+  - **F = varoluş günü:** şartlar (i)–(iii); her partide `f_geri` listesi.
+  - **Yerli toprak devri:** imza = devir (Memphis emsali). Numaralı Kanada antlaşmaları: s: kanada imza/adhezyon gününden (Rupert's Land emsali).
+  - **Kolonyal geçişler:**
+    - Versay md. 119 ve 22 kolonileri: Namibya modeli (Garapan, Tanganika).
+    - Rakip hükûmet / Draç emsali: 13 koloni 1776-07-04 (`abd_13koloni.json`), Gudermes, Peç, Santiago 1863.
+  - **Bekleyen sınıflar (Emre):**
+    - Dolaylı idare krallıkları BEKLET, iki model: Barotseland, Beçuanalend, Kabompo, Onitsha, İlorin, Karagve, Goure, Gurma.
+    - Halk künyeleri: Kpelle, Acholi, Lango, Şayen-Arapaho, Timbisha, İrokua, Alaska kuzeyi.
+    - Communauté 1958–60 özerk cumhuriyetleri.
+- **Ölçümler:**
+  - Kazak bozkırı (§47).
+  - 13 koloni: 37 kırılma (1776: 12, 1783: 25); D2 eksik 14 madde KASA kuyruğunda.
+  - Küba 10, Teksas 4 yerleşim (LAB).
+  - Frankfurt/Köln 1945 modeli (isg yok).
+  - Kimlik doğrulaması: Occaneechi (Hillsborough) NC, Fort Duquesne (Pittsburgh).
+- **Erişim engelleri:**
+  - Robots/bot engelli: Te Ara, NZ History, DNZB, ADB, Canadian Encyclopedia, banrepcultural, Britannica, HLS, Kappler okstate (DNS).
+  - IBGE histórico PDF yolu açık (`biblioteca.ibge.gov.br/visualizacao/dtb/<eyalet>/<belediye>.pdf`).
+- **Son parti r8_076:** KAYNAKLI 8 · ONERI 8 · BULUNAMADI 1.
+  - Zanzibar: 1890 himaye → s: umman-zengibar + v: ingiltere (TDV). Depoda s: ingiltere 1890 yazıyor (yerlesimler_emilme.js:24).
+  - F-GERI Zanzibar 1281 → 1107-07-24 (Kizimkazi kitâbesi 1 Zilhicce 500; tabular Perşembe epoch ile UMIT doğruladı; ada düzeyi).
+
 ## 34. BAKILMADI turu 2. geçiş — TAMAM (UMIT, 5 Kasım 2026)
 - **Kapsam:** evren 3'ün son partilerinden gelen BAKILMADI satırları; 6 parti, 78 yerleşim, 216 hedef satır.
   - Ajanlar bağlamdaki öteki satırları da yazdı; birleşen toplam 236 satır, eşleşmeyen 0.
