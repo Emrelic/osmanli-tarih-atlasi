@@ -1,0 +1,84 @@
+{
+ "Guanare": [
+  {"sira": 4145, "dosya_satir": "", "alan": "s", "d": "ispanyol-peru", "f": "1591-11-03", "t": "1821-06-24", "hukum": "ONERI", "uc": "f",
+   "kaynak": "EcuRed 'Guanare' (https://www.ecured.cu/Guanare) - ham metin sayfa.py ile okundu; ticari/genel ansiklopedi sinifi, ONERI-guclu",
+   "alinti": "Noviembre 3. Fundación de la Ciudad, por el Portugués Capitán Juan Fernández de León",
+   "oneri": {"f": "1591-11-03", "t": "1821-06-24", "d": "ispanya"},
+   "not": "f 1591-11-03 EcuRed (ayrica 5 arama sonucunda) tutarli ama akademik degil; Academia Nacional de la Historia/Scielo bulunamadi. SAHIP SORUSU: Guanare Venezuela Valiligi/Audiencia de Santo Domingo'ya bagliydi (1777'den Venezuela Kaptanligi); 'ispanyol-peru' (Peru Genel Valiligi, kunye 1542-11-20..1824-12-09) dogru sahip gorunmuyor - 'ispanya' onerilir (kaynak: bakilmadi, akademik teyit gerek). t 1821-06-24 (Carabobo) satirin ucunu tarihleyen kaynak bulunamadi: BAKILMADI. Kunye ispanyol-peru t 1824-12-09 donemi kapsiyor."},
+  {"sira": 4146, "dosya_satir": "", "alan": "s", "d": "gran-kolombiya", "f": "1821-06-24", "t": "1830-01-13", "hukum": "BAKILMADI", "uc": "",
+   "kaynak": "", "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Guanare'nin Gran Kolombiya'ya gecis gunu (Carabobo 1821-06-24 ulke duzeyi olay) ve 1830-01-13 ayrilik ucu icin kaynak aranmadi (butce Sahra/ABD satirlarina harcandi). Kunye gran-kolombiya 1819-12-17..1831-01-01 araligi kapsar."},
+  {"sira": 4147, "dosya_satir": "", "alan": "s", "d": "venezuela-cumhuriyeti", "f": "1830-01-13", "t": "2000-12-31", "hukum": "BAKILMADI", "uc": "",
+   "kaynak": "", "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Venezuela ayrilis gunu 1830-01-13 kaynakla dogrulanmadi (Venezuela'nin ayrilis tarihleri kaynaklarda 1829-11-26 / 1830-01-13 / 1830-05-06 olarak degisir; ULKE DUZEYI). Kunye f 1830-01-13 ile ayni."}
+ ],
+ "Encarnación (Itapúa)": [
+  {"sira": 4148, "dosya_satir": "", "alan": "s", "d": "ispanya", "f": "1615-03-25", "t": "1811-05-14", "hukum": "ONERI", "uc": "f",
+   "kaynak": "ABC Color, 'Encarnación se originó como reducción jesuítica', 25 Mart 2023 (https://www.abc.com.py/edicion-impresa/2023/03/25/encarnacion-se-origino-como-reduccion-jesuitica/) - ham metin; gazete, ONERI-guclu",
+   "alinti": "fue fundada por San Roque González de Santa Cruz el 25 de marzo del año 1615 como una reducción",
+   "oneri": {"f": "1615-03-25", "t": "1811-05-14", "d": "ispanya"},
+   "not": "KONUM UYARISI: ayni kaynak 1615 reduksiyonunun 'margen izquierda del Paraná, donde se encuentra Posadas (Argentina)' kurulduğunu, sonradan sağ kıyıya (bugünkü Encarnación) taşındığını söyler. Bugünkü Encarnación koordinatı için 1615 gecerli degil olabilir; tasima yili (bu kaynakta yok; aramada ~6 yil sonra denildi, yani ~1621) akademik kaynakla bulunmadi. Diger kaynaklar 22/24 Mart verir (ACI Prensa, Infonegocios) - gun cekismeli. F-GERI degil, F-ILERI adayi: f ~1621 (tasima) olabilir, onceki dilim sahipsiz kalir. t 1811-05-14 Paraguay kunye f ile ayni; bagimsizlik gecesi 14-15 Mayis; kaynak bakilmadi. Kunye ispanya f 1479 kapsar."},
+  {"sira": 4149, "dosya_satir": "", "alan": "s", "d": "paraguay-cumhuriyeti", "f": "1811-05-14", "t": "2000-12-31", "hukum": "BAKILMADI", "uc": "",
+   "kaynak": "", "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: Paraguay 1811-05-14/15 ulke duzeyi; Encarnacion'a ozgu kaynak aranmadi. Brifteki gun 1811-05-15, atlas kunyesi 1811-05-14 - tutarsizlik not edilir (kunye 05-14)."}
+ ],
+ "San Rafael (Fuerte San Rafael del Diamante)": [
+  {"sira": 4150, "dosya_satir": "", "alan": "s", "d": "ispanya", "f": "1805-04-02", "t": "1810-05-25", "hukum": "ONERI", "uc": "f",
+   "kaynak": "Lagiglia (UNCuyo koleksiyonu) ve Diario de Cuyo/Mendoza hukumeti haberleri - yalniz arama OZETI gorulmus (sayfa ham metni okunmadi): https://coleccionlagiglia.bdigital.uncu.edu.ar/ ; https://www.welcomeargentina.com/sanrafael/historia.html",
+   "alinti": "",
+   "oneri": {"f": "1805-04-02", "t": "1810-05-25", "d": "ispanya"},
+   "not": "Arama ozetleri 'Humberto Lagiglia: kale 1805-04-02'de kuruldu (Sobremonte komisyonu, Miguel Telles y Meneses)' diyor; ham metin okunmadigi icin alinti yok = ONERI. t 1810-05-25 (Mayo Devrimi) ulke duzeyi; Cuyo'nun katilis gunu farkli olabilir, teyit yok. Kale Diamante nehri kuzey kiyisinda sinir kalesiydi; yerli (Pehuenche) topraklari sinirinda - 'Ispanya idaresi' yaklasiktir."},
+  {"sira": 4151, "dosya_satir": "", "alan": "s", "d": "arjantin-cumhuriyeti", "f": "1810-05-25", "t": "2000-12-31", "hukum": "BAKILMADI", "uc": "",
+   "kaynak": "", "alinti": "",
+   "oneri": {},
+   "not": "BAKILMADI: ulke duzeyi (Arjantin kunyesi f 1810-05-25). San Rafael kalesi 1822 civarinda terk edildi, yerlesim 1850'ler/1880'lerde yeniden kuruldu iddiasi arama ozetlerinde var ama okunmadi; bu dilimde 1810-1850 arasi bosluk olabilir - akademik kaynakla bakilmali."}
+ ],
+ "Rawlins": [
+  {"sira": 4152, "dosya_satir": "", "alan": "s", "d": "abd", "f": "1868-01-01", "t": "2000-12-31", "hukum": "ONERI", "uc": "f",
+   "kaynak": "City of Rawlins, 'History of Rawlins' (https://rawlinswy.gov/191/History-of-Rawlins) - belediye sitesi, ONERI-guclu; WyoHistory.org (Wyoming State Historical Society)",
+   "alinti": "In 1867, while in command of the troops protecting the crew surveying the route",
+   "oneri": {"f": "1868-07-01", "t": "2000-12-31", "d": "abd"},
+   "not": "Ham metin: 1867'de General Rawlins'in kesif kampi ('Rawlins Springs' adi bu sirada verildi); kasaba 1868'de UP demiryolu ile kuruldu (arama ozetlerinde Temmuz 1868 'division point'; ham metin bulunmadi). Gun teyitsiz: f 1868-01-01 yil duzeyi uydurma gun; 'YIL 1868' olarak beyan edilmeli. 'Rawlins Springs' 1867 kampi F=VAROLUS kuralina gore f 1867 olabilir (gun yok, yalniz yil). ABD egemenligi: Rawlins Kuzey Platte havzasinda; Louisiana Satin Alimi 1803 kapsami iddiasi bu partide KAYNAKLANMADI (BAKILMADI), onceki dilim atlas baska kayitta olmali. Wyoming Territory 1868 (Dakota yasama organi Carbon County'yi 1868'de kurdu - belediye sitesi alinti)."}
+ ],
+ "Cabo Juby (Tarfaya)": [
+  {"sira": 4153, "dosya_satir": "", "alan": "s", "d": "ispanya", "f": "1916-01-01", "t": "1958-04-10", "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "Wikipedia 'Cape Juby' ve 'Treaty of Angra de Cintra' (ham metin okundu; tek dayanak olamaz); ispanyolca kaynak ozetleri: kiddle (29 Haziran 1916), savunma yayini (sefer 27 Haziran 1916'da yola cikti). TDV 'Batı Sahra' ham metin: Tarfaya'yi anmaz.",
+   "alinti": "Francisco Bens officially occupied the Cape Juby region for Spain on 29 July 1916",
+   "oneri": {"f": "1916-06-29", "t": "1958-04-10", "d": "ispanya"},
+   "not": "ÇELİŞKİ: ilk gun 29 Temmuz 1916 (en.wikipedia, 'citation needed') mi, 29 Haziran 1916 (brif + kiddle) mi? Sefer 27 Haziran 1916'da Rio de Oro'dan yola cikti (savunma yayini ozeti) -> 29 Haziran daha tutarli. Akademik kaynak (Dialnet 4401275 zaman asimina ugradi) okunamadi. UC t: antlasma imza 1958-04-01 (Angra de Cintra, Wikipedia ham metin); fiili teslim 1958-04-10 Villa Bens'te (Wikipedia: 'The transfer took place on 10 April'). TEK OLCU: Ispanya fiilen yonettigi icin s: Fas'a TESLIM gunu 1958-04-10; atlas t=1958-04-10 uyumlu, yurulluk/imza ic_not. TDV: tarfaya maddesi YOK, batı-sahra/fas/sahra maddeleri Cabo Juby'yi anmaz (arandi). Fas himayesi altinda guney bolge Ispanya elinde kaldi (1956-04-07 kuzey devri TDV Batı Sahra: 'Batı Sahrâ’nın bir kısmı Fas’ın eline geçti'). Onceki sahip (1916 oncesi) Fas himayesi/Fas: F-GERI uygulanmadi."}
+ ],
+ "Atâr (Adrar)": [
+  {"sira": 4154, "dosya_satir": "", "alan": "s", "d": "fransa-cumhuriyet", "f": "1909-01-01", "t": "1960-11-28", "hukum": "ONERI", "uc": "f",
+   "kaynak": "Catalan Wikipedia 'Atar (Mauritània)' (9 Ocak 1909, tek kaynak); CNES 'Mauritanie: le massif de l'Adrar' (Adrar 1909'da fethedildi, ozet); Wikipedia 'Colonial Mauritania' ham metin",
+   "alinti": "captured Atar, and received the submission of all the Adrar peoples the following year",
+   "oneri": {"f": "1909-01-09", "t": "1960-11-28", "d": "fransa-cumhuriyet"},
+   "not": "Ham metin (en.wikipedia Colonial Mauritania): Gouraud 1908'de komutayi aldi, Atar'i aldi, Adrar halklari 'ertesi yil' teslim oldu; 1912'ye kadar direnis bastirildi. Gun 1909-01-09 yalniz Katalanca Wikipedia ozetinde -> ONERI. TEK OLCU: Adrar emirligi yikilis/teslim gunu 1909-01-09 mu, direnisin sonu 1912 mi? Idareye katma belgesi (askeri bolge, Mauritanya Sivil Toprak 1904'ten) bulunamadi; ÖLÇÜT: geçici/askerî olasi -> isg/s: ayrimi dogrulanmadi. TDV 'Moritanya' ham metin: 'Fransızlar 1854'te Moritanya'ya girdi; içlerine nüfuz XX. yy başlarında' - Atar/1909 yok. f=VAROLUS: Atar eski Adrar emirligi baskenti, 1909 oncesi sahip Adrar Emirligi (kunye yok); F-GERI yapilmadi. t 1960-11-28 ayrica asagida."},
+  {"sira": 4155, "dosya_satir": "", "alan": "s", "d": "moritanya", "f": "1960-11-28", "t": "2000-12-31", "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Moritanya' (https://islamansiklopedisi.org.tr/moritanya) - ham metin sayfa.py ile okundu. ULKE DUZEYI",
+   "alinti": "28 Kasım 1960’ta Moritanya İslâm Cumhuriyeti bağımsız bir devlet olarak ilân edildi.",
+   "oneri": {},
+   "not": "ULKE DUZEYI: Atar'a ozgu degil, tum Moritanya; Atar Moritanya sinirlari icinde. Ayni gun fransa-cumhuriyet t ucunu da tarihler (f+t komsu uc). Bagimsizlik ilani gunu = SSCB-disi ardil kurali tutarli."}
+ ],
+ "el-Menîa (El Goléa)": [
+  {"sira": 4156, "dosya_satir": "", "alan": "s", "d": "fransa-cumhuriyet", "f": "1900-01-01", "t": "1962-07-05", "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "Wikisource/Gutenberg: 1906 Fransiz Cezayir tarihi icindekiler 'Occupation d'El-Goléa (1891)' (arama ozeti); fr.geneawiki 'Algérie - El-Goléa' (Kaptan Lamy 1891, ozet); TDV 'Cezayir' (ham metin okundu)",
+   "alinti": "1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı",
+   "oneri": {"f": "1891-01-01", "t": "1962-07-05", "d": "fransa-cumhuriyet"},
+   "not": "f: atlas 1900-01-01; arama ozetleri Fransiz isgali/surekli karakol 1891 (Kaptan Lamy) verir, 1873 kesif/ilk sefer; 1900'de El-Goléa Timimoun seferinin ussu (Ménestrel). ham metin/akademik kaynak okunamadi -> ONERI, YIL duzeyi 1891; ÖLÇÜT: idareye katma belgesi (Territoires du Sud, Ghardaïa bolgesi 1882 sonrasi) bulunamadi. Cezayir Sahrasi 1902'ye dek ordu idaresi altinda 'Territoires du Sud' (1902 kurulus) - ozet. t: TDV Cezayir ham metin 1962 referandumunu 1 Temmuz 1962 verir ve bagimsizlik ilan gunu vermez; atlas 1962-07-05 (ilan/tanima, genel kabul) TDV'de YOK -> ONERI/teyitsiz; TDV 1 Temmuz = referandum gunu (hukuki devir degil). Kunye fransa-cumhuriyet f 1792 kapsar. El-Menia/Golea icin TDV'de madde yok (aranan slug: cezayir, mezab, tuvat, sahra, adrar)."}
+ ],
+ "Puerto Maldonado": [
+  {"sira": 4157, "dosya_satir": "", "alan": "s", "d": "peru-cumhuriyeti", "f": "1912-12-26", "t": "2000-12-31", "hukum": "ONERI", "uc": "f",
+   "kaynak": "Actualidad Ambiental (Wili Reaño), 'Voces de Madre de Dios #5', 16 Ocak 2018 (https://www.actualidadambiental.pe/voces-de-madre-de-dios-5-pueblo-viejo-y-la-fundacion-de-puerto-maldonado/) - ham metin; haber/gazete ONERI-guclu; Peru Kongresi onergesi (arama ozeti): kurulus 10 Temmuz 1902, tarih 1985'te resmilesti; Ley 1782, 26 Aralik 1912 (departman)",
+   "alinti": "Aquí, sobre este mismo barro, se fundó en 1902 Puerto Maldonado.",
+   "oneri": {"f": "1902-07-10", "t": "2000-12-31", "d": "peru-cumhuriyeti"},
+   "not": "F=VAROLUS KURALI: atlas f 1912-12-26 departman kurulus gunu (Ley 1782, Billinghurst); yerlesim 1902'de Peru delegesi Juan S. Villalta tarafindan kuruldu. Gun 1902-07-10 yalniz arama ozeti (Peru Kongresi PDF'inde sayfa.py anahtar bulamadi; Kongre belgesi okunamadi) -> yil duzeyi 1902, gun BEYANLI alt sinir. F-GERI: Puerto Maldonado 1912-12-26 -> 1902 (07-10, gun teyitsiz), sahip peru-cumhuriyeti (kunye f 1824-12-09 kapsar). Dikkat: Peru-Bolivya sinir cekismesi 1909 Arjantin hakem karari ve 1909-09-17 antlasmasi; 1902-1909 arasinda Bolivya iddiasi surdu -> sahiplik 1902-1909 arasinda BEYANLI YAKLASIKLIK (fiilen Peru yonetimi); aksi halde f 1909-09-17 alt sinir. Hayalet dilim yok (komsu dilim yok)."}
+ ],
+ "f_geri": [
+  "F-GERI: Puerto Maldonado 1912-12-26 → 1902 (10 Temmuz 1902 yalniz ozet kaynakli; yil duzeyi beyan), sahip peru-cumhuriyeti (kunye 1824-12-09..; Bolivya iddiasi 1909'a dek ic_not) - KOSULLU, Peru Kongresi ham metni okunamadi",
+  "F-GERI-ADAY (uygulanmadi): Rawlins 1868-01-01 → 1867 (kamp 'Rawlins Springs'; yalniz yil), sahip abd; gun yok, kasaba 1868 - uygulama onerilmez",
+  "F-ILERI-UYARI (geri cekme degil): Encarnación 1615-03-25 reduksiyonu bugunku Posadas (Arjantin) sahasindaydi; bugunku Encarnacion yeri icin f ~tasima yili (~1621, kaynaksiz)"
+ ]
+}
