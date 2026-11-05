@@ -41,6 +41,21 @@ Aşağıdaki 1-4 numaralı veri değişiklikleri ile 21 kronoloji maddesi TEK co
   - Çeviri dalında cok maddelerinin çevirisi yok. JSON'daki 7 dil b'si, cok maddeleri çevrilirken aynen kullanılmalı; yoksa çeviri katmanında ikisi ayrışır.
   - Bu kalem Emre listesinden düştü.
 
+### Çeviri ile mükerrer kontrolünün sırası (EMRELİC sorusu, KASA ölçümü)
+
+Ölçülen ağaç: origin/emrelic-1104-ceviri-birlesik (js/ceviri.js, index.html, data/ceviri_*), KASA'da.
+
+- **Sıra:** index.html:2228'de `js/ceviri.js`, 2229'da `js/app.js` yüklenir. Dil Türkçe değilse ceviri.js, dil dosyalarını ve `Ceviri.uygula()` çağrısını document.write ile app.js'ten ÖNCE ekler (ceviri.js:270-277). Yani çeviri, mükerrer kontrolünden (app.js:17207 `cokTarafliKronolojiEkle`) ÖNCE çalışır.
+- **Ama kapsam:** `uygula()` yalnız `/^OLAYLAR(_…)?$/` adlı dizileri ve DEVLETLER'in `ad` alanını çevirir (ceviri.js:60-62, 83, 102-107).
+  - `KRONOLOJI_SINIR_*` ve `KRONOLOJI_COK_*` dizilerine hiç dokunmaz.
+  - Hiçbir ceviri_* dosyasında `KRONOLOJI` anahtarı yok (git grep: 0 dosya).
+- **Sonuç bugün:** sinir ve cok maddeleri her dilde Türkçe b ile kalır. Mükerrer kontrolü Türkçe b üzerinde çalışır. Ortak b sayesinde olay her dilde bir kez görünür. Sorun yok.
+  - JSON'daki 7 dil çevirisinin bu maddeler için bugün sitede bir kanalı yoktur; kayıt olarak saklanır.
+- **İleride KRONOLOJI_* çeviriye açılırsa:** uygula() app.js'ten önce çalıştığı için kontrol çevrilmiş b'yi görür. Bu durumda EMRELİC'in şartı geçerlidir: sinir ve cok maddesi aynı dilde aynı metni taşımalı.
+  - ceviri.js:77-82'deki `ozetIndeks` bunu kendiliğinden sağlar. Çeviri kaydı kimlikle bulunamazsa Türkçe metnin FNV özetiyle aranır; aynı Türkçe b, aynı çeviriyi alır.
+  - Yani biri çevrilince öteki de aynı metni alır. Yine de kural olarak, KRONOLOJI çevirisini açan commit cok ve sinir maddelerini birlikte çevirmeli.
+  - Bu bir motor değişikliği değil, ceviri.js işidir; KASA PAZAR'ın bu dalgasına girmez.
+
 ## Kaynaksız ya da özetten cümleler (silinebilir)
 
 - ABD-11'de "silah kullanmadan" ifadesi.
