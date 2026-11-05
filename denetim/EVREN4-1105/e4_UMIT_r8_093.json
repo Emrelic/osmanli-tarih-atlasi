@@ -1,0 +1,331 @@
+{
+ "Vic (Ausona / Osona)": [
+  {
+   "dosya_satir": "",
+   "sira": 3903,
+   "alan": "s",
+   "d": "barselona-kontlugu",
+   "f": "1000-01-01",
+   "t": "1164-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya», https://islamansiklopedisi.org.tr/ispanya (t ucu, ÜLKE DÜZEYİ); f için GEC «comtat d'Osona» comtat-dosona ve «Catalunya romànica» Orígens i formació de la ciutat de Vic",
+   "alinti": "Aragon önce Katalonya ile birleşti (1164)",
+   "uc": "t",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Aragon-Katalonya birleşmesi, yıl). t=1164 ucu TDV ile teyit (ham sayfa). f=1000-01-01 teyit EDİLMEDİ: GEC comtat-dosona «La reorganització definitiva tingué lloc amb Guifré I el Pelós a partir del 879 ... Osona restà integrat al lot indivisible dels comtats de Barcelona-Girona-Osona»; Catalunya romànica: Vic'in kuruluşu '879 (comtat restaurat) – 880 (bisbat restaurat)' arası, ilk yazılı ad 30-01-889. Öteki uç (f) için F-GERI önerisi aşağıda."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3903,
+   "alan": "s",
+   "d": "barselona-kontlugu",
+   "f": "1000-01-01",
+   "t": "1164-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana (Enciclopèdia Catalana), https://www.enciclopedia.cat/gran-enciclopedia-catalana/comtat-dosona ; https://www.enciclopedia.cat/catalunya-romanica/origens-i-formacio-de-la-ciutat-de-vic",
+   "alinti": "La reorganització definitiva tingué lloc amb Guifré I el Pelós a partir del 879",
+   "uc": "f",
+   "oneri": {
+    "f": "0879-01-01",
+    "d": "barselona-kontlugu"
+   },
+   "not": "F-GERI: Vic f 1000-01-01 → 0879-01-01 [YIL; Catalunya romànica: 879 = comtat d'Osona restaurat, 880 = bisbat restaurat; 889-01-30 ilk yazılı 'Vico']. Sahip barselona-kontlugu (GEC: 'lot indivisible dels comtats de Barcelona-Girona-Osona', Casal de Barcelona); künye f 0801 aralığı kapsar. İlçe/belediye günü değil, kuruluş (ic_not: Vic adı 889). Eski antik Ausa/Ausona şehri Müslüman fethinde (VIII-IX. yy) terk edildi, 879'dan önce yerleşim yok (GEC osona: 'es perdé al s.IX')."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3904,
+   "alan": "s",
+   "d": "aragon",
+   "f": "1164-01-01",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «İspanya», https://islamansiklopedisi.org.tr/ispanya",
+   "alinti": "Aragon önce Katalonya ile birleşti (1164)",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. Mevcut kaynak zaten TDV İspanya; ham sayfadan alıntı doğrulandı. t=1479-01-19 ucu bu çalışmada teyit edilmedi (öteki uç teyitsiz; künye ic_not_t DBE/RAH 'Barcelona, 19.I.1479' diyor)."
+  }
+ ],
+ "Zamora": [
+  {
+   "dosya_satir": "",
+   "sira": 3906,
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1000-01-01",
+   "t": "1230-09-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana (Enciclopèdia Catalana), https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "Amb Ferran III s’uniren definitivament els regnes de Lleó i Castella (1230).",
+   "uc": "t",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yıl hassasiyeti (gün 09-24 künye kaydından; GEC günsüz). Zamora'nın León'a aidiyeti: aynı madde «Alfons III (866-910) ... fixà la frontera al Duero, amb l’ocupació de Dueñas, Simancas, Toro i Zamora» ve «Zamora fou saquejada» (981, Almanzor). f=1000 teyitsiz, aşağıda F-GERI."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3906,
+   "alan": "s",
+   "d": "leon-kralligi",
+   "f": "1000-01-01",
+   "t": "1230-09-24",
+   "hukum": "ONERI",
+   "kaynak": "Gran Enciclopèdia Catalana (Enciclopèdia Catalana), https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "a l’àrea lleonesa estricta es fixà la frontera al Duero, amb l’ocupació de Dueñas, Simancas, Toro i Zamora",
+   "uc": "f",
+   "oneri": {
+    "f": "0910-01-01",
+    "d": "leon-kralligi"
+   },
+   "not": "F-GERI: Zamora f 1000-01-01 → 0910-01-01, sahip leon-kralligi (künye f 0910-01-01 kapsar). Gerekçe: GEC regne de Lleó, Alfons III (866-910) döneminde Zamora iskân/işgali (yıl yok, '893' arama özetinde göründü, ham metinle DOĞRULANMADI — alıntı yok; tarih uydurulmadı). 893 Asturias Krallığı dönemi, León künyesi 910'da başlar → hayalet dilim önlemek için 0910. UYARI: GEC 'Zamora fou saquejada' (981) ve Almanzor 986 civarı Zamora'yı aldı (arama özeti, ham doğrulama yok) → 986-1002 arası Müslüman (Kurtuba/Amirî) aralığı olabilir; 1000 civarı için BAKILMADI (DBE/RAH erişilemedi). Dilim sahibi kaynaklı: León. Kuruluş değil yeniden iskân tarihi (Zamora Roma-öncesi/antik kökenli)."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3907,
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1230-09-24",
+   "t": "1479-01-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Gran Enciclopèdia Catalana (Enciclopèdia Catalana), https://www.enciclopedia.cat/gran-enciclopedia-catalana/regne-de-lleo",
+   "alinti": "Amb Ferran III s’uniren definitivament els regnes de Lleó i Castella (1230).",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yıl. León-Kastilya birleşmesi 1230; Zamora'nın birleşik Kastilya Tacı'na geçişi ayrı bir şehir olayı değil. Öteki uç (t=1479-01-19) teyitsiz: TDV İspanya sayfasında 1479 anahtarı bulunamadı."
+  }
+ ],
+ "Richmond (Virjinya)": [
+  {
+   "dosya_satir": "",
+   "sira": 3908,
+   "alan": "s",
+   "d": "konfedere-devletler",
+   "f": "1861-05-08",
+   "t": "1865-05-04",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia Virginia (Virginia Humanities), https://encyclopediavirginia.org/entries/virginia-convention-of-1861/ ; https://encyclopediavirginia.org/1235hpr-301c7848d8db085/",
+   "alinti": "On April 27, nearly a month before the perfunctory referendum would endorse the Ordinance of Secession, Virginia offered to join the Confederacy and make Richmond its capital.",
+   "uc": "f",
+   "oneri": {
+    "f": "1861-04-17",
+    "t": "1865-04-03",
+    "d": "konfedere-devletler"
+   },
+   "not": "ÖLÇÜT: rakip hükûmet (Konfedere fiilî yönetim). f: Encyclopedia Virginia ham sayfa: 'April 17, 1861 ... Ordinance of Secession 88 to 55'; 'April 27 Virginia offers to join the Confederate States and make Richmond its capital'; 'May 23 referendum approved'. 05-08 hiçbir günle örtüşmedi (05-07 Konfedere Kongresi'nin kabulü arama özetinde, ham doğrulama yok). Öneri: f=1861-04-17 (ayrılık kararı; brif ipucu) — alternatif 1861-04-27/05-23, karar EMRELİC; Ordinance referandumla yürürlüğe girdi. Künye f 1861-02-08 kapsar. t: Union birlikleri 1865-04-03'te Capitol'e girdi ('arrival of Union troops at the Capitol on April 3 heralded the beginning of military occupation'), Konfedere başkenti 04-02/03'te boşaltıldı; 05-04 Richmond için dayanaksız → t önerisi 1865-04-03 (rakip hükûmet kuralı), 05-04 ic_not'a (Konfedere kuvvetlerinin son teslimi; künye t 05-05)."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3909,
+   "alan": "s",
+   "d": "abd",
+   "f": "1865-05-04",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia Virginia (Virginia Humanities), https://encyclopediavirginia.org/1235hpr-301c7848d8db085/",
+   "alinti": "The arrival of Union troops at the Capitol on April 3 heralded the beginning of military occupation of the city.",
+   "uc": "f",
+   "oneri": {
+    "f": "1865-04-03",
+    "d": "abd"
+   },
+   "not": "ÖLÇÜT: idareye katma — Birlik, ayrılığı hiç tanımadı; Richmond ABD toprağı sayılan isyancı eyalette, Birlik askerî idaresi 04-03'ten. Öneri: abd f 1865-05-04 → 1865-04-03 (Konfedere dilimiyle birlikte taşınır; Değişmez 2: ±30 gün içinde kronoloji maddesi gerekir). Alıntı olayı (askerî işgal başlangıcı) tarihliyor, 'egemenlik' kavramını değil → ONERI. t=2000-12-31 pencere ucu."
+  }
+ ],
+ "Skálholt": [
+  {
+   "dosya_satir": "",
+   "sira": 3910,
+   "alan": "s",
+   "d": "izlanda",
+   "f": "1918-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Islands historie», https://snl.no/Islands_historie",
+   "alinti": "I 1918 ble Island en uavhengig stat, men i personalunion med Danmark.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yıl hassasiyeti (gün 12-01 künye kaydından; SNL günsüz). t pencere ucu."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3911,
+   "alan": "s",
+   "d": "izlanda-serbest-devleti",
+   "f": "1056-01-01",
+   "t": "1262-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Skálholt», https://snl.no/Skálholt ; «Islands historie», https://snl.no/Islands_historie",
+   "alinti": "Gissur Hvite bygde den første kirken på Skálholt, og hans sønn Isleiv Gissursson ble landets første biskop i 1056 og fikk sete der.",
+   "uc": "f",
+   "oneri": {},
+   "not": "f=1056: Skálholt'un piskoposluk merkezi oluşu (yıl). Varoluş günü: SNL 'Gissur Hvite ... første kirken' (yılsız, Isleiv'den önce) → Skálholt daha eski ama yıl verilmedi, f 1056 BEYANLI alt sınır. t=1262 ucu: SNL «Islands historie» 'fristatstiden (930–1262)' yıl düzeyi; ayrıca «Gamli sáttmáli»: 'avtale fra 1262 ... islandsk underkastelse under Norge' (SNL snl.no/Gamli_sáttmáli) — süreç 1262-64 (ic_not). Künye f 0930 kapsar."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3911,
+   "alan": "s",
+   "d": "izlanda-serbest-devleti",
+   "f": "1056-01-01",
+   "t": "1262-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Islands historie», https://snl.no/Islands_historie",
+   "alinti": "Ser man tilbake på den islandske forfatningens utvikling i fristatstiden (930–1262)",
+   "uc": "t",
+   "oneri": {},
+   "not": "t=1262 yıl düzeyi; Gamli sáttmáli kabulü 1262-64 arası (SNL: 'avtale fra 1262'); gün yok."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3912,
+   "alan": "s",
+   "d": "izlanda-norvec-danimarka",
+   "f": "1262-01-01",
+   "t": "1918-12-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Store norske leksikon, «Gamli sáttmáli», https://snl.no/Gamli_sáttmáli ; «Islands historie»",
+   "alinti": "Gamli sáttmáli er en avtale fra 1262 mellom islendingene og den norske konge Håkon Håkonsson om islandsk underkastelse under Norge som skattland.",
+   "uc": "f",
+   "oneri": {},
+   "not": "f=1262 yıl. t=1918 ucu: SNL «Islands historie» 'I 1918 ble Island en uavhengig stat, men i personalunion med Danmark' (yıl; gün 12-01 künye kaydından). Danimarka'ya geçiş 1380 (ortak kral) / 1536 SNL: 'Island fortsatte å høre under Norges krone' → künye adı 'Norveç/Danimarka' tutarlı. Her iki uç yıl düzeyinde teyitli."
+  }
+ ],
+ "Pointe-à-Pitre": [
+  {
+   "dosya_satir": "",
+   "sira": 3913,
+   "alan": "s",
+   "d": "guadeloupe",
+   "f": "1764-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Bakıldı: Larousse (Pointe-à-Pitre), encyclopedie.fr, Britannica (403), Érudit BSHG 2008 n°150-151 (PDF metni okunamadı, HTML özeti boş), fr.wikipedia (yalnız ipucu)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Akademik ham metinle 1764 doğrulanamadı. ipucu (Vikipedi, KAYNAKLI değil): 'L'origine de la ville remonte à l'occupation anglaise de la Guadeloupe (1759 à 1763)... Après le retour de la Guadeloupe à la France, lors du traité de Paris (1763)'; arama özetinde BSHG makalesi 1764 kuruluş ordonansı (Bourlamaque/de Clieu çelişkisi). Sahiplik: 1759-1763 İngiliz işgali (isg ingiltere) 1764 öncesi; kuruluş 1764 → f=1764 şehir kuruluşu BEYANLI, sahip Guadeloupe/Fransa tutarlı (künye f 1635). Gerekirse ABİ MERKEZ Basse-Terre. KAYNAK ÖNERİSİ: BSHG (Société d'Histoire de la Guadeloupe) 2008 makalesini Érudit PDF'ten elle okumak. Hüküm tarihi: aranmış, bulunamamıştır (BAKILMADI değil)."
+  }
+ ],
+ "Cap-Français (Cap-Haïtien)": [
+  {
+   "dosya_satir": "",
+   "sira": 3914,
+   "alan": "s",
+   "d": "saint-domingue",
+   "f": "1697-01-01",
+   "t": "1804-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Visuotinė lietuvių enciklopedija (VLE), «Cap-Haïtien», https://www.vle.lt/straipsnis/cap-haitien/ ; Cambridge History of the Age of Atlantic Revolutions, ch. 26 (E. Zavitz), https://www.cambridge.org/core/books/abs/cambridge-history-of-the-age-of-atlantic-revolutions/establishing-a-new-nation-haiti-after-independence-18041843/1EA147AD2F47C3183C2D7D682DA11665",
+   "alinti": "1697–1770 – Prancūzijos kolonijos Saint‑Domingue’o centras",
+   "uc": "f",
+   "oneri": {},
+   "not": "f=1697 (Ryswick) VLE: yıl aralığı Saint-Domingue merkezi. t: Cambridge ham sayfa 'On 1 January 1804, General Jean Jacques Dessalines officially declared the independence of Haiti' (ÜLKE DÜZEYİ; 1804-01-01 bağımsızlık ilanı Gonaïves). UYARI: Cap-Français şehir olarak 1670'te kuruldu (VLE 'Miestą 1670 įkūrė prancūzai piratai'), 1691'de İspanyollar, 1695'te İngilizler tarafından yıkıldı → F-GERI aşağıda. Fiilî Fransız çekilişi Cap'ten 1803-11 (Vertières) arama özeti, ham doğrulama yok."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3914,
+   "alan": "s",
+   "d": "saint-domingue",
+   "f": "1697-01-01",
+   "t": "1804-01-01",
+   "hukum": "ONERI",
+   "kaynak": "VLE, «Cap-Haïtien», https://www.vle.lt/straipsnis/cap-haitien/",
+   "alinti": "Miestą 1670 įkūrė prancūzai piratai (tada jis vadintas Cap‑Français",
+   "uc": "f",
+   "oneri": {
+    "f": "1670-01-01",
+    "d": "fransa"
+   },
+   "not": "F-GERI: Cap-Français f 1697-01-01 → 1670-01-01 (kuruluş, YIL; VLE ulusal akademik ansiklopedi). Sahip: fransa (künye f 0987) — saint-domingue künyesi f 1697'de başladığı için 1670-1697 dilimi künyeye oturmaz; ya künye f geri çekilmeli (ic_not'ta Fransız varlığı 1659'dan fiilî diyor) ya da dilim 'fransa' ile BEYANLI yazılmalı. 1691 İspanyol, 1695 İngiliz yıkımı (VLE) aralıkta kesinti olabilir → dilim bölünmesi KASA/EMRELİC kararı. Fransız Krallığı sahipliği 1670'te kaynakta 'prancūzai piratai' (korsan/buccaneer) diye geçiyor, devlet idaresi belirsiz: BEYANLI YAKLAŞIKLIK."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3915,
+   "alan": "s",
+   "d": "haiti",
+   "f": "1804-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Cambridge History of the Age of Atlantic Revolutions, ch. 26 (E. Zavitz), https://www.cambridge.org/core/books/abs/cambridge-history-of-the-age-of-atlantic-revolutions/establishing-a-new-nation-haiti-after-independence-18041843/1EA147AD2F47C3183C2D7D682DA11665",
+   "alinti": "On 1 January 1804, General Jean Jacques Dessalines officially declared the independence of Haiti.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. Şehir Haiti içinde: VLE 'dabartinis pavadinimas nuo 1804' (ad Cap-Haïtien). 1807-11 Cap-Haïtien Haiti Devleti (Christophe), 1811-20 Haiti Krallığı başkenti (VLE) — künye haiti içinde mi ayrı künye mi: EMRELİC'e soru (Haiti Krallığı 1811-1820 künyesi var mı ölçülmedi). t pencere ucu."
+  }
+ ],
+ "Heidelberg": [
+  {
+   "dosya_satir": "",
+   "sira": 3916,
+   "alan": "s",
+   "d": "baden",
+   "f": "1803-02-25",
+   "t": "1918-11-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Historisches Lexikon Bayerns, «Reichsdeputationshauptschluss (1803)» (W. Burgdorf), https://www.historisches-lexikon-bayerns.de/Lexikon/Reichsdeputationshauptschluss_(1803) ; Stadtlexikon Karlsruhe, «Friedrich II. Ludwig Leopold August von Baden», https://stadtlexikon.karlsruhe.de/index.php/De:Lexikon:bio-0572",
+   "alinti": "das neue Kurfürstentum Baden erhielt den größten Teil der rechtsrheinischen Gebiete, darunter die Residenzstädte Mannheim und Heidelberg",
+   "uc": "f",
+   "oneri": {},
+   "not": "f: RDH tarihi 1803-02-25 (HLB: 'Hauptschluss ... vom 25. Februar 1803', Reichstag kabulü 24 Mart, imparator onayı 27 Nisan 1803 → ic_not). ÖLÇÜT: idareye katma (Baden kendi idaresi/Pfalzgrafschaft). Fiilî Baden işgali/taşınması 1802 sonu (arama özeti, ham doğrulama yok) — de jure devir antlaşma günü kuralı. t=1918-11-22 ucu: Stadtlexikon Karlsruhe ham metin 'Friedrichs II. Hoffnung auf eine Fortsetzung der Monarchie endete am 22. November als er ... seine Abdankungserklärung ... unterzeichnete' (hükümdarlık sonu; Baden bir Volksstaat olarak sürdü) — alıntı t ucunu tarihliyor ama satır sahibini Almanya'ya devrediyor; bkz. 3917 notu. uc: f+t kısmen (alıntı f için, t için ikinci kaynak)."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3917,
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-22",
+   "t": "1945-06-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Yale Avalon Project, Declaration Regarding the Defeat of Germany and the Assumption of Supreme Authority by Allied Powers, 5 June 1945, https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "hereby assume supreme authority with respect to Germany, including all the powers possessed by the German Government",
+   "uc": "t",
+   "oneri": {},
+   "not": "t=1945-06-05 ÜLKE DÜZEYİ (Berlin Deklarasyonu). f=1918-11-22: Baden Büyükdukalığı'nın sonu (Stadtlexikon), ama Baden 'Freie Volksrepublik/Volksstaat' olarak sürdü ve Heidelberg Almanya (Reich) içinde bir Land'dı: sahip 'almanya' modeli künye kararıdır, öteki uç teyitsiz. Ek ONERI: Heidelberg'e ABD kuvvetleri 1945-03-30'da girdi (heidelberg.de «Geschichte in Zahlen»: 'Heidelberg wird ohne größere Zerstörungen von amerikanischen Streitkräften eingenommen (30. März)', belediye sitesi → ONERI-güçlü) → TEK KURAL gereği isg abd 1945-03-30 → 1945-06-05 eklenmeli (ÖLÇÜT: geçici/askerî; Berlin 06-05'te egemenlik devri)."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3918,
+   "alan": "s",
+   "d": "pfalz",
+   "f": "1214-01-01",
+   "t": "1803-02-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Historisches Lexikon Bayerns, «Reichsdeputationshauptschluss (1803)»; Heidelberg Stadtverwaltung «Geschichte in Zahlen» https://www.heidelberg.de/hd,Lde/HD/Leben/Geschichte+in+Zahlen.html",
+   "alinti": "Der RDH markiert das offizielle Ende der Kurpfalz als eigenständiges Territorium.",
+   "uc": "t",
+   "oneri": {},
+   "not": "t=1803-02-25 (RDH tarihi; künye pfalz t 1803-12-31 üst sınır). f=1214: heidelberg.de (belediye, ONERI-güçlü sınıf): 'Kaiser Friedrich II. verleiht dem Herzog von Bayern, Ludwig I., die rheinische Pfalzgrafenwürde. Ab diesem Zeitpunkt bestimmt das Adelshaus der Wittelsbacher über dieses Gebiet, zu dessen Mittelpunkt sich Heidelberg entwickelt' (1214 Pfalz künye f ile örtüşür, ama Heidelberg o gün VAR değildi). F-GERİ/F: Heidelberg varoluşu: heidelberg.de 'Heidelberg wird erstmals in einer Urkunde des Klosters Schönau erwähnt: 1196'; LEO-BW (robots engelli, alıntı yok): kuruluş 'vor 1180' (arama özeti). Satır f=1214 → ya 1196-01-01 (ilk yazılı, sahip: 1196'da Pfalzgraf Konrad, Staufer vekili — 1214'ten önce pfalz künyesi YOK, almanya (HRR) künye f 0962 kapsar) ya da 1214 BEYANLI alt sınır kalır. F-GERI önerisi: Heidelberg f 1214-01-01 → 1196-01-01, sahip almanya (HRR), 1214'te pfalza geçiş; KASA/EMRELİC kararı, belediye kaynağı akademik değil."
+  }
+ ],
+ "Durlach (Karlsruhe)": [
+  {
+   "dosya_satir": "",
+   "sira": 3922,
+   "alan": "s",
+   "d": "baden",
+   "f": "1565-01-01",
+   "t": "1918-11-22",
+   "hukum": "ONERI",
+   "kaynak": "Stadtlexikon Karlsruhe, «Durlach», https://stadtlexikon.karlsruhe.de/index.php/De:Lexikon:ort-0034 ; «Friedrich II...» bio-0572",
+   "alinti": "Die eigentliche Blütezeit erlebte Durlach dann ab 1565, als Markgraf Karl II. seine Residenz hierher verlegte",
+   "uc": "f",
+   "oneri": {
+    "f": "1196-01-01",
+    "d": "almanya"
+   },
+   "not": "f=1565 = RESİDANS taşıma günü, varoluş değil. Ham metin: 'Erstmals schriftlich erwähnt wurde die Stadt Durlach 1196, als Kaiser Heinrich VI. in der villa Durla zwei Urkunden ausstellte'; 'Den Hohenbergern folgten zunächst die Staufer und nach 1219 schließlich die Markgrafen von Baden' (Turmberg/burg bağlamında; şehir için Stadtchronik 1219/1234 arama özeti). F-GERI: Durlach f 1565-01-01 → 1196-01-01 (ilk yazılı şehir, Staufer = almanya/HRR künyesi f 0962 kapsar), 1219 (YIL, 'nach 1219') baden sahipliği BEYANLI (baden künye f 1112 kapsar). 1565 → ic_not (residence move). t=1918-11-22: Stadtlexikon bio-0572 'Abdankungserklärung 22. November' (Büyükdük sonu) — satırın t ucunu tarihliyor (uc t kaynaklı); 1938-04-01 Eingemeindung (Stadtlexikon) sahip değiştirmez."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3923,
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-22",
+   "t": "1945-06-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Yale Avalon Project, Declaration Regarding the Defeat of Germany... 5 June 1945, https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "hereby assume supreme authority with respect to Germany, including all the powers possessed by the German Government",
+   "uc": "t",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, t=1945-06-05. f için Heidelberg 3917 notu geçerli (Baden Volksstaat Reich içinde; öteki uç teyitsiz). Durlach'a Müttefik girişi günü BAKILMADI (Karlsruhe/Durlach Nisan 1945 Fransız birlikleri — ölçülmedi)."
+  }
+ ]
+}
