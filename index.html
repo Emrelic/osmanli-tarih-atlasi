@@ -2227,6 +2227,12 @@
 <script src="js/kaynak_damga.js?v=r104472814"></script>
 <!-- ODAK-ZOOM-1016 — saf hesap (DOM'suz), app.js'ten ÖNCE: `window.ODAK_ZOOM`. -->
 <script src="js/odak_zoom.js?v=r126728536"></script>
+<!-- CEVIRI-1103 — ÇOK DİLLİLİK (Emre'nin 6. maddesi; tasarım denetim/CEVIRI-1103/TASARIM.md).
+     app.js'ten HEMEN ÖNCE ve bütün data/*.js'ten SONRA: seçili dil Türkçe değilse
+     data/ceviri_<dil>_*.js'i document.write ile araya ekler ve OLAYLAR*/DEVLETLER
+     metnini app.js `olaylar`ı kurmadan çevirir. Türkçede hiçbir çeviri dosyası inmez. -->
+<script src="data/ceviri_dizin.js?v=r213820479"></script>
+<script src="js/ceviri.js?v=r95551024"></script>
 <script src="js/app.js?v=r53193264"></script>
 <!-- A-F ALTI KADEME · D/E/F KATMANI + ANTLAŞMA HARİTASI (GORUNUM-ABCD-0916, D-KATMAN).
      Kosu 12 bitince baglandi (17 Eylul). d_katman.js app.js'ten SONRA — guncelle()'yi sarar. -->
