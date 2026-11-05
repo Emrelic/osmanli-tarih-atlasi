@@ -151,6 +151,41 @@ Kararlar:
   - Alman Doğu Afrikası'nın t'si 06-28 uygun; Almanya'nın iddiası imzaya kadar sürdü.
 - **Onaylananlar:** Ponorogo (Ricklefs), Fas'taki Sa'dî günleri (hicrî tablo denetimiyle), Kabîliye ve Hençele hafsi, Katrûn, Timimoun TAHRİR, Hluhiv, Stavropol, Becse ve Çanad habsburg (Banat), Paksos.
 
+## 5 Kasım 2026 gece-101 — ardılsız 71 (e4_KASA_ARDIL.json)
+
+- **Halef listesi ONAY.** Kaynaksız, emsalle yazılan 6 satır ONERI kalır: Enugu, İçkerya, Swat, Pasundan, DSE, Brazzaville/AEF.
+- **Büyük Zimbabve:** `rozvi` 1695 onaylandı (TDV). Dönem 1700 → 1695'e çekilir; Mutapa künyesinin t'siyle çakışma kalkar.
+- **Bahlâ/İzkî:** Hansard yalnız ay veriyorsa `1955-12-01` + ay beyanı.
+- **(a) Herzeg-Bosna:** rakip hükûmet kuralı, fiilî dağılış ölçüsü.
+  - Dayton imzası (1995-12-14) dağılışı şart koştu, ama kurumlar sürdü.
+  - 1996-08-14'teki resmî lağvetme kararı kaynakla teyit edilirse t o gün olur.
+  - Bulunamazsa ONERI + "HE: 1996 sonu" beyanı.
+  - Dayton ve 1994 Washington Antlaşması `ic_not`a.
+- **(b) Nador:** önce TDV cümlesinin 04-05 günüyle neyi tarihlediği okunur.
+  - 1956-04-07 İspanya–Fas ortak bildirisi himayeyi bitiren hukukî işlemdir; künye de bu güne bağlıdır.
+  - TDV aynı işlemi 04-05 olarak veriyorsa bu bir çelişkidir. TDV esas alınır, künye de birlikte değişir (LAB).
+  - TDV başka bir olayı tarihliyorsa (görüşmelerin açılışı gibi) 04-07 kalır, 04-05 `ic_not`a.
+- **(c) Orta Afrika İmparatorluğu:** Barracuda harekâtı 20/21 Eylül gecesi yapıldı; Dacko cumhuriyeti 09-21'de ilan etti. TDV esas: 09-21. Künyenin t'si 09-20 → 09-21, LAB'a.
+- **(d) Lusaka ve Bulawayo:** 1964-01-01'den sonraki ara dilim genel `ingiltere` değildir.
+  - Lusaka → `ingiliz-kuzey-rodezya`, 1964-10-24'e kadar.
+  - Bulawayo → `ingiliz-guney-rodezya` (öz yönetimli koloni), UDI 1965-11-11'e kadar.
+  - **Künye ölçümü:**
+
+    | Künye | f | t |
+    |---|---|---|
+    | `ingiliz-kuzey-rodezya` | 1890-01-01 | 1964-10-24 |
+    | `ingiliz-guney-rodezya` | 1890-01-01 | 1980-04-18 |
+    | `rodezya-nyasaland-federasyonu` | 1953-08-01 | 1963-12-31 |
+    | `rodezya-udi` | 1965-11-11 | 1979-06-01 |
+- **Mükerrer 4 çift:** birleştirme önerisi `MUKERRER-NOKTA-ONERI.tsv`'de; uygulanmaz, sabah Emre'ye gider.
+  - **Bulgu:** üç çift gerçek mükerrer değil. `yerlesimler_halef_1946.js` noktaları, ana kaydın üstüne konmuş tek dönemli halef katmanlarıdır. Ana zincirde o dilim yok, bu yüzden taramada "ardılsız" göründüler. ARDIL'ın 71 satırının 67'si bu dosyadan.
+    - Bulawayo → Bulavayo zincirine federasyon dilimi.
+    - Bangassou → Bangassu zincirine İmparatorluk dilimi.
+    - Butterworth → Gcuva zincirine Transkei dilimi.
+  - Büyük Zimbabve ile Masvingo iki ayrı yerdir, mükerrer değildir. Ama Masvingo'nun egemenlik zinciri boş.
+  - Toplu öneri: halef_1946 katmanları ana kayda taşınsın.
+- **Künyesiz halefler LAB'a:** onay.
+
 ## 5 Kasım 2026 gece-100 — Academia Sinica çevirileri (CIN-TAKVIM-CEVIRI.tsv) ve Yeni Granada
 
 EMRELİC ifadeli 23 satırı Academia Sinica'da çevirdi. 1582'den sonrası Gregoryen, öncesi Jülyen verildi.
