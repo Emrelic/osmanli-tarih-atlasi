@@ -5180,7 +5180,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"kuveyt", ad:"Kuveyt (Sabah Şeyhliği)", tur:"devlet", bolge:"arabistan",
-  f:"1752-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Kuveyt şehri",
+  f:"1752-01-01", tabi:[{f:"1899-01-23", t:"1961-06-19", ust:"ingiltere"}], ic_not_tabi:"EMRELİC 5 Kasım kararı (KASA PAZAR 5 Kasım 2026): resmî himaye antlaşması, Annam/Tunus/Zanzibar kuralı — yerel emirlik + İngiliz tâbiliği; isg değil. f: künye maddesi 1899-01-23 gizli himaye antlaşması · t: Office of the Historian, Kuwait «On June 19, 1961, Kuwait became fully independent following an exchange of notes with the United Kingdom»", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Kuveyt şehri",
   ozet:"Uneyze'den gelen Utûb kabilesinin kurduğu, Basra vilayetine bağlı kaza statüsünde yönetilen şeyhlik; Şeyh Mübarek'in 1899'da gizlice İngiltere ile imzaladığı antlaşmayla fiilen Osmanlı'dan koptu. (kaynak: TDV, madde: kuveyt) (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"kuveyt",
   kronoloji:[
@@ -5212,7 +5212,7 @@ window.DEVLETLER = [
   ]
 },
 { id:"katar", ad:"Katar (Âl Sânî Şeyhliği)", tur:"devlet", bolge:"arabistan",
-  f:"1868-01-01", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Devha (Doha)", harita:"katar",
+  f:"1868-01-01", tabi:[{f:"1916-11-03", t:"1971-09-03", ust:"ingiltere"}], ic_not_tabi:"EMRELİC 5 Kasım kararı (KASA PAZAR 5 Kasım 2026): resmî himaye antlaşması, Annam/Tunus/Zanzibar kuralı — yerel emirlik + İngiliz tâbiliği; isg değil. f: künye maddesi 1916-11-03 himaye antlaşması · t: Office of the Historian, Qatar «declaring independence on September 3, 1971, following the termination date of treaties with Great Britain»", ic_not_t:"pencere ucu, ölçüm değil (D210): devlet 1945 ufkundan sonra da sürdü — bugün de mevcut", baskent:"Devha (Doha)", harita:"katar",
   ozet:"Benî Temîm'in bir kolu olan Âl Sânî ailesinin 1868'den itibaren öne çıktığı şeyhlik; Osmanlı 1871'de Necid vilayetine bağlı bir kaza olarak idareye dahil etti, 1916'da İngiliz himayesine geçti. (kaynak: TDV, madde: katar) (1945 ufkundan sonra da sürdü — t: pencere ucu.)",
   kaynak:"katar",
   kronoloji:[
