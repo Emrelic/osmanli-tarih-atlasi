@@ -1,0 +1,350 @@
+{
+ "Rinconada (Puna)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:118",
+   "alan": "s",
+   "d": "diaguita-calchaqui-konfederasyonu",
+   "f": "1281-01-01",
+   "t": "1667-01-02",
+   "hukum": "ONERI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.2 The Andean Civilizations, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14321946smit (djvu tam metin)",
+   "alinti": "On the Puna lived the Casavindo, Cochinoca, and others",
+   "uc": "",
+   "oneri": {
+    "not": "sahip 'diaguita-calchaqui-konfederasyonu' bu yere uymaz: HSAI c.2 (Casanova) Rinconada'yı Puna pukarası sayar; Puna halkı Puneño (Casavindo, Cochinoca), Quebrada halkı Omaguaca/Humahuaca — Diaguita (Calchaquí vadileri) değil. 1281-1667 için uygun künye yok → BEYANLI boşluk (kabile) ya da künye sorusu LAB'a; Calchaquí savaşlarının bitişi (1667) bu yeri tarihlemez."
+   },
+   "not": "[sira 3714] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] Alıntı tarih taşımaz (sahip itirazı). 'Another famous example of a pucara is Rinconada on the Puna' aynı ciltte. Kayıt kaynağının kendisi kimlik zincirini 'Quilmes emsali'nden devraldığını beyan ediyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:118",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1667-01-02",
+   "t": "1816-07-09",
+   "hukum": "ONERI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Argentina», https://history.state.gov/countries/argentina",
+   "alinti": "Buenos Ayres had declared independence from Spain on July 9, 1816",
+   "uc": "t",
+   "oneri": {
+    "not": "f 1667-01-02 Calchaquí savaşlarının sonundan devralınmış; Puna'nın İspanyol idaresine girişi (Jujuy 1593 kuruluşu ve Puna encomiendaları) daha erkendir — gün/yıl kaynakla bulunacak (HSAI c.2'de okunamadı)."
+   },
+   "not": "[sira 3715] [alıntı ham metinden, sayfa.py] t ÜLKE DÜZEYİ (Tucumán 1816-07-09). 🟡 Puna 1817-1821 kralcı akınlarına açık kaldı (ic_not adayı, okunmadı). Sahip 'ispanyol-peru': 1776'dan La Plata genel valiliği — künye ölçülmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:118",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1816-07-09",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Argentina», https://history.state.gov/countries/argentina",
+   "alinti": "Buenos Ayres had declared independence from Spain on July 9, 1816",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3716] [alıntı ham metinden, sayfa.py] ÜLKE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "São Pedro de Alcântara (Tibagi)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:123",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1855-01-01",
+   "t": "1889-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "In 1855-56, the settlements of Sao Pedro de Alcantara, San Jeronymo, and Jatahy were founded",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3717] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f YIL (1855-56; 1855 alt uç). t teyitsiz (K06 ülke düzeyi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:123",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1889-11-15",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3718] [KÜME K06]"
+  }
+ ],
+ "Concepción del Bermejo": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:126",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1585-01-01",
+   "t": "1632-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "Concepción, founded in 1585 on the Bermejo River ... But its destruction in 1632",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3719] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f ve t YIL (Métraux). Gün bilinmiyor; 1582 öncesi/sonrası sorunu yok (yalnız yıl)."
+  }
+ ],
+ "Santiago del Estero": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:128",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1553-01-01",
+   "t": "1810-05-25",
+   "hukum": "ONERI",
+   "kaynak": "Cámara de Diputados de la Nación (Argentina), Orden del Día Nº 659 (2008), https://www4.hcdn.gob.ar/dependencias/dcomisiones/periodo-126/126-659.pdf",
+   "alinti": "esta ciudad, fundada el día 25 de julio de 1553 por Francisco de Aguirre",
+   "uc": "f",
+   "oneri": {
+    "f": "1553-07-25"
+   },
+   "not": "[sira 3720] [alıntı ham metinden, pypdf] f: resmî parlamento belgesi günü verir (1582 öncesi: kaynaktaki gün). ic_not: 1550 El Barco (Núñez de Prado) öncülü ve kuruluş yılı tartışması. t 1810-05-25 teyitsiz (bkz. sira 3721). Kaydın kendi kaynağı Columbia Encyclopedia genel başvuru eseri."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:128",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3721] Baktım: history.state.gov/countries/argentina yalnız 9 Temmuz 1816 bağımsızlık ilanını verir (1810 Primera Junta'yı vermez); argentina.gob.ar 'revolucion-de-mayo' sayfası 404; arama yalnız basın/okul sayfası döndürdü. 1816 farklı uç ama rakip hükûmet/fiilî idare kuralı 1810'u destekler (künye f 1810-05-25) — ONERI yazılmadı. Santiago del Estero'nun Junta'ya katılış günü de aranmalı."
+  }
+ ],
+ "Beyan G31.5 B56.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:131",
+   "alan": "s",
+   "d": "uruguay-cumhuriyeti",
+   "f": "1828-08-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Office of the Historian, U.S. Department of State, «Uruguay», https://history.state.gov/countries/uruguay",
+   "alinti": "Uruguay became an independent nation in 1828",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3722] [alıntı ham metinden, sayfa.py] f 1828 YIL (08-27 Convención Preliminar de Paz günü kaynakta yok). ÜLKE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Beyan G35.5 B69.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:133",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.2 The Andean Civilizations, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14321946smit (djvu tam metin) | Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "we can establish 1725 as the approximate date in which the Araucanians were definitely established | recent one, 1883 to date, the era of decline",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3723] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1725 'approximate' (HSAI c.2, Cooper) — beyanlı yaklaşıklık; t 1883 dönemlemesi (HSAI c.1, Cooper: Roca-Villegas seferleri 1879-83). İkisi de YIL. BÖLGE DÜZEYİ (Pampa)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:133",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "campaigns under Generals Julia Roca and Conrado Villegas in 1879-83, which completely defeated",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3724] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1883 YIL (seferlerin bitişi); BÖLGE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Beyan G36.5 B61.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:136",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.2 The Andean Civilizations, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14321946smit (djvu tam metin) | Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "we can establish 1725 as the approximate date in which the Araucanians were definitely established | recent one, 1883 to date, the era of decline",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3725] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1725 'approximate' (HSAI c.2, Cooper) — beyanlı yaklaşıklık; t 1883 dönemlemesi (HSAI c.1, Cooper: Roca-Villegas seferleri 1879-83). İkisi de YIL. BÖLGE DÜZEYİ (Pampa). 🟡 Hücre güney Buenos Aires eyaletinde: Arjantin sınır hattı (Zanja de Alsina 1876-77) 1879'dan önce buraya ulaşmış olabilir — ipucu, okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:136",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "campaigns under Generals Julia Roca and Conrado Villegas in 1879-83, which completely defeated",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3726] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1883 YIL (seferlerin bitişi); BÖLGE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Beyan G38.5 B66.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:139",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.2 The Andean Civilizations, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14321946smit (djvu tam metin) | Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "we can establish 1725 as the approximate date in which the Araucanians were definitely established | recent one, 1883 to date, the era of decline",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3727] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1725 'approximate' (HSAI c.2, Cooper) — beyanlı yaklaşıklık; t 1883 dönemlemesi (HSAI c.1, Cooper: Roca-Villegas seferleri 1879-83). İkisi de YIL. BÖLGE DÜZEYİ (Pampa)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:139",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "campaigns under Generals Julia Roca and Conrado Villegas in 1879-83, which completely defeated",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3728] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1883 YIL (seferlerin bitişi); BÖLGE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Beyan G39.5 B64.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:142",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.2 The Andean Civilizations, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14321946smit (djvu tam metin) | Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "we can establish 1725 as the approximate date in which the Araucanians were definitely established | recent one, 1883 to date, the era of decline",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3729] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1725 'approximate' (HSAI c.2, Cooper) — beyanlı yaklaşıklık; t 1883 dönemlemesi (HSAI c.1, Cooper: Roca-Villegas seferleri 1879-83). İkisi de YIL. BÖLGE DÜZEYİ (Pampa)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:142",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "campaigns under Generals Julia Roca and Conrado Villegas in 1879-83, which completely defeated",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3730] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1883 YIL (seferlerin bitişi); BÖLGE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Beyan G40.5 B62.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:145",
+   "alan": "s",
+   "d": "mapuche-araukanya",
+   "f": "1725-01-01",
+   "t": "1883-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.2 The Andean Civilizations, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14321946smit (djvu tam metin) | Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "we can establish 1725 as the approximate date in which the Araucanians were definitely established | recent one, 1883 to date, the era of decline",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "[sira 3731] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1725 'approximate' (HSAI c.2, Cooper) — beyanlı yaklaşıklık; t 1883 dönemlemesi (HSAI c.1, Cooper: Roca-Villegas seferleri 1879-83). İkisi de YIL. BÖLGE DÜZEYİ (Pampa). 🟡 Hücre Río Negro ağzının arkasında: Carmen de Patagones (İspanyol 1779) yakın — kıyı şeridi 1725-1883 Mapuche sayılmayabilir; ipucu, okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:145",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "campaigns under Generals Julia Roca and Conrado Villegas in 1879-83, which completely defeated",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3732] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1883 YIL (seferlerin bitişi); BÖLGE DÜZEYİ. t atlas ufku."
+  }
+ ],
+ "Beyan G43.5 B68.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:149",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "Recent period, 1883 to date.—Settlers ... have taken up most of the country",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3733] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1883 YIL; BÖLGE DÜZEYİ (Pampa'dan Macellan'a). t atlas ufku."
+  }
+ ],
+ "Beyan G46.5 B74.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:152",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3734] Baktım: HSAI c.1 (Cooper) 1883 dönemlemesi Arjantin Pampa/Patagonya seferlerini (Roca-Villegas 1879-83) tarihler — Şili kanallarındaki egemenliği tarihlemez. 1883-01-01 bu hücrede kaynaksız. İPUCU: Şili-Arjantin Sınır Antlaşması 1881-07-23 ve Şili'nin Macellan'daki varlığı (Punta Arenas 1848) — okunmadı."
+  }
+ ],
+ "Beyan G48.5 B75.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:155",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "[sira 3735] Baktım: HSAI c.1 (Cooper) 1883 dönemlemesi Arjantin Pampa/Patagonya seferlerini (Roca-Villegas 1879-83) tarihler — Şili kanallarındaki egemenliği tarihlemez. 1883-01-01 bu hücrede kaynaksız. İPUCU: Şili-Arjantin Sınır Antlaşması 1881-07-23 ve Şili'nin Macellan'daki varlığı (Punta Arenas 1848) — okunmadı."
+  }
+ ],
+ "Beyan G51.5 B69.5": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:158",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1883-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Steward (ed.), Handbook of South American Indians, c.1 The Marginal Tribes, Smithsonian BAE Bulletin 143 (1946), archive.org bulletin14311946smit (djvu tam metin)",
+   "alinti": "Recent period, 1883 to date.—Settlers ... have taken up most of the country",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3736] [alıntı ham metinden, sayfa.py (archive.org djvu tam metni)] f 1883 YIL; BÖLGE DÜZEYİ ('from the northern limit of the Pampa to the Strait of Magellan'). 🟡 Güney Santa Cruz'da Arjantin varlığı 1878 (Santa Cruz) ve 1881 antlaşması ile daha erken olabilir — ipucu. t atlas ufku."
+  }
+ ],
+ "Porvenir": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:161",
+   "alan": "s",
+   "d": "sili-cumhuriyeti",
+   "f": "1894-06-20",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Memoria Chilena (Biblioteca Nacional de Chile), minisitio «Tierra del Fuego», https://www.memoriachilena.gob.cl/602/w3-article-93346.html",
+   "alinti": "Fundado en 1894 como pueblo de servicios, Porvenir se pobló con inmigrantes croatas",
+   "uc": "f",
+   "oneri": {},
+   "not": "[sira 3737] [alıntı ham metinden, sayfa.py] f 1894 YIL. Kaydın verdiği gün 1894-06-20 bu sayfada YOK (kayıt kaynağındaki '20 de junio 1894' alıntısı başka bir Memoria Chilena sayfasından olabilir; bulunamadı) → gün teyitsiz. t atlas ufku."
+  }
+ ]
+}
