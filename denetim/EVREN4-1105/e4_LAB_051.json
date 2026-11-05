@@ -1,0 +1,545 @@
+{
+ "Nakfa": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1281-01-01",
+   "t": "1889-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: TDV 'Eritre' (islamansiklopedisi.org.tr/eritre); TDV 'Etiyopya' (zincirde kayitli)",
+   "alinti": "",
+   "oneri": {},
+   "not": "TDV Eritre yalniz ULKE/bolge duzeyinde yil verir: Italyanlar 1885'te Masavva ve Beylul'u, 1889'da Asmara ve Keren'i aldi (yerlesim Nakfa degil). Nakfa'nin (Sahel) 1281-1889 arasinda Habesistan'a ait oldugunu gosteren kaynak bulunamadi; Sahel kuzeyi Habes imparatorlugu degil Masavva/Mısır/Beja cevresindeydi (ZAYIF_ATLAS: sahip supheli, f ve d teyitsiz). t 1889 ancak Keren/Asmara yil duzeyi; Nakfa'ya ozgu degil. Boslug merdiveni (4)(5): abi merkez Keren/Masavva kaynagi bu butcede aranmadi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
+   "alan": "s",
+   "d": "italyan-dogu-afrikasi",
+   "f": "1936-06-01",
+   "t": "1941-04-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "Asmara ve Masavva‘ı ele geçirdiler (28 Mart 1941)",
+   "oneri": {
+    "t": "1941-03-28"
+   },
+   "not": "ÇELİŞKİ: TDV Asmara/Masavva 1941-03-28 alınış vs atlas 1941-04-01 — EMRELİC'e soruldu. | ULKE DUZEYI. TDV 'Eritre': Ingilizler Keren'de Italyan ordusunu yenip Asmara ve Masavva'yi ele gecirdi (28 Mart 1941). Atlas t 1941-04-01 (Asmara teslimi; kaynak zincirde Britannica = ipucu). TDV esas: cakisma ic_not'ta iki kaynakla beyan edilmeli (TDV 28 Mart 1941 / atlas 1 Nisan 1941). f 1936-06-01 (IDA kurulusu) bu kaynakta yok. Nakfa'ya ozgu tanik yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
+   "alan": "s",
+   "d": "habesistan",
+   "f": "1962-11-14",
+   "t": "1974-09-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "Etiyopya yönetimi 14 Kasım 1962’de ... Eritre’nin özerk statüsünü kaldırarak bölgeyi eyalet haline getirdi",
+   "oneri": {},
+   "not": "ULKE DUZEYI (Eritre federasyonunun feshi, eyalete donusturme = idareye katma; TAHRIR olcutu: s). f ucu GUN duzeyinde TDV ile teyitli. t 1974-09-12 bu kaynakta yok. Yerlesim ayrica el degistirmemis (Nakfa'nin EPLF denetimine gecisi 1970 sonu-1977 sonrasi kaynaksiz hatirlatma: rakip denetim icin ayri kaynak aranmadi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_afrika.js:392",
+   "alan": "s",
+   "d": "eritre",
+   "f": "1991-05-24",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/eritre",
+   "alinti": "24 Mayıs’ta ülkenin bağımsızlığı ilân edildi",
+   "oneri": {},
+   "not": "TDV 'Eritre': Etiyopya'da Mayis 1991'de hukumet degisimi Eritre'yi fiilen ozerk kildi; halk oylamasi 28 Nisan 1993, bagimsizlik ilani 24 Mayis (1993). Atlas f 1991-05-24 kunyede 'fiili' olarak beyanli; TDV'de yalniz AY (Mayis 1991) var, 24 gunu 1991 icin TDV'de yok -> KAYNAKLI verilmedi, oneri yok. Nakfa EPLF'nin 1978-91 fiili denetimindeydi (rakip hukumet = fiili kontrol); Derg donemi (1974-1991) Nakfa icin ayri sorgulanmali (kaynak aranmadi)."
+  }
+ ],
+ "Mukalla": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1381",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1888-05-01",
+   "t": "1967-11-30",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Bakilan: Aitchison c. XI No. LXXI (zincirde kayitli; metin acilmadi); TDV 'Yemen' (islamansiklopedisi.org.tr/yemen): 'himaye yonetimindeki Guney Yemen'; Qu'aiti arama ozeti = Vikipedi ipucu",
+   "alinti": "Aden şehri İngilizler döneminde gelişmekle birlikte himaye yönetimindeki Güney Yemen herhangi bir alt yapıya sahip değildi",
+   "oneri": {
+    "alan": "v",
+    "d": "ingiltere",
+    "ek": "s: kuayti-sultanligi (kunye mevcut) 1888-05-01 oncesinden 1967'ye"
+   },
+   "not": "Himaye kuralı: 1888 İngiliz koruma antlaşması → s: kuayti-sultanligi + v: ingiltere (Hadramut gece-128 emsali); gün kaynakla. | HIMAYE KURALI: 1888-05-01 antlasmasi (Protectorate Treaty No. LXXI, Qu'aiti Jemadar Abdulla bin Umar ile; Vikipedi ipucu, metin okunmadi) himayedir -> yerli monarsi s: sürer, Ingiltere v:. Mukalla'nin Qu'aiti baskenti oldugu 1866/1858 oncesi (zincirde yok): f 1888 yer tutucu degil ama 1888 oncesi bos. TDV 'Yemen' Guney Yemen'in 'himaye yonetimi' oldugunu soyler (tarih yok). Kunye kuayti-sultanligi f/t kontrol edilmeli (hayalet devlet)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:1381",
+   "alan": "s",
+   "d": "guney-yemen",
+   "f": "1967-11-30",
+   "t": "1990-05-22",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://islamansiklopedisi.org.tr/yemen",
+   "alinti": "Güney Yemen ile Aden’in 1967’de bağımsızlığına kavuşmasıyla sonuçlandı",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] ULKE DUZEYI. TDV 'Yemen' (Halil Kurt). Gun 1967-11-30 TDV'de yok. Mukalla ayrica Qu'aiti sultanliginin 1967 Eylul'de devrilmesiyle el degistirdi (kaynak okunmadi)."
+  }
+ ],
+ "Nassau (New Providence)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:72",
+   "alan": "s",
+   "d": "bahama-ingiliz",
+   "f": "1718-01-01",
+   "t": "1973-07-10",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: Britannica 'The Bahamas: British colonization' (403/atlandi), Cambridge UP kitap bolumu (atlandi; arama ozetinde 26 Temmuz 1718), qaronline.org blog (25 Temmuz 1718; ipucu), Whitmore CLA 2019 (uca.edu/cahss/files/2020/07/Whitmore-CLA-2019.pdf; acilmadi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1718-01-01 yil yer tutucu. Kraliyet valisi Woodes Rogers'in varisi Temmuz 1718 (kaynaklar 22-27 Temmuz arasi; Cambridge bolumu 26 Temmuz), sahiplerin krala devri 1717. AKILLI SORU: Bahamalar'in 1718 oncesi sahibi (Lordlar Sahipler, 1670-1717) zincirde yok. Okunmus akademik gun kaynagi yok -> BULUNAMADI. Acilamayan PDF: https://uca.edu/cahss/files/2020/07/Whitmore-CLA-2019.pdf"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_nokta2.js:72",
+   "alan": "s",
+   "d": "bahamalar",
+   "f": "1973-07-10",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.legislation.gov.uk/ukpga/1973/27/section/1",
+   "alinti": "On and after 10th July 1973 / Her Majesty’s Government in the United Kingdom shall have no responsibility for the government of the Bahamas",
+   "oneri": {},
+   "not": "ULKE DUZEYI. Bahamas Independence Act 1973 s.1 'appointed day' = 10 Temmuz 1973 (devletin kendi resmi yayini). Nassau ayrica el degistirmemis."
+  }
+ ],
+ "Morganton": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:154",
+   "alan": "s",
+   "d": "abd",
+   "f": "1784-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "https://www.ncpedia.org/geography/burke",
+   "alinti": "the county seat and largest city, was incorporated in 1784",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] NCpedia (Library of North Carolina, eyalet devlet kütüphanesi) 'Burke County' (Bangma, Ocak 2024): Morganton 1784'te 'incorporated' (kuruluş değil kasabalaşma; kuruluşun daha eski olabileceği ihtimali beyan). ABD egemenligi (1783 Paris) ulke duzeyinde okunmadi; f yerlesim ucu."
+  }
+ ],
+ "Moura (Rio Negro)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:942",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1878-10-16",
+   "t": "1889-11-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: IBGE Biblioteca (servicodados.ibge.gov.br, atlanan kaynak); Brezilya Cumhuriyeti ilani 15 Kasim 1889 icin arama (yalniz Vikipedi/ilk ders sitesi = ipucu); history.state.gov/countries/brazil (1889 gecmiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1878-10-16 Lei Provincial 388 ile MERKEZIN Moura'ya TASINMASI tarihidir (kuruluş degil). Moura vilasi daha eskidir (Merdiven 4: koordinat Moura'ya ait; f daha erken olmali, kaynak bulunamadi). t 1889-11-15 (Cumhuriyetin ilani) ULKE DUZEYI ipucu seviyesi; akademik gövde okunamadi (LoC sayfa yolu bulunamadi)."
+  }
+ ],
+ "Mpika": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1542",
+   "alan": "s",
+   "d": "bemba",
+   "f": "1700-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: arama (Zambia tarih zaman cizelgeleri, globalsecurity LoC-turevi, zambiaconservation blog: Melland 1901'de Mpika'da BSAC 'Assistant Native Collector'); countrystudies.us/zambia (404)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mpika boma kurulus tarihi ve BSAC'nin Bemba ulkesi uzerindeki idaresi icin akademik kaynak okunamadi. 1899 'Lunda ve Bemba BSAC otoritesine boyun egdi' ifadesi yalniz zaman cizelgesi ipucu (Vikipedi turevi). Yerli monarsi (Bemba) s: surer, BSAC donemi BEYANLI s: (karar: sirket donemleri). f 1700 yer tutucu; Mpika yeri o devirde var miydi sorgusu cevapsiz."
+  }
+ ],
+ "Mvanza": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1188",
+   "alan": "s",
+   "d": "alman-dogu-afrikasi",
+   "f": "1892-01-01",
+   "t": "1916-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Arama ozeti (Vikipedi 'Lake Force'/'Tabora offensive' = ipucu; NZ Papers Past 1916 gazete haberi, acilmadi): Mwanza 14 Temmuz 1916'da Ingiliz (Crewe) kuvvetlerince alindi, Belcikalilar ertesi gun",
+   "alinti": "",
+   "oneri": {
+    "t": "1919-06-28",
+    "isg": "ingiltere 1916-07-14 -> 1922-07-20 eklenmeli"
+   },
+   "not": "ÖNCEKİ KARAR (Tanganika zinciri): isg ingiltere 1916-07-14 (kaynakla) → s: ingiltere 1919-06-28 (Versay) → ingiliz-tanganika-mandasi 1922-07-20. | IPUCU (okunmus akademik kaynak yok). TEK KURAL: savas isgali ilhak/devre dek isg: Alman Doguafrika'si s: 1919-06-28 Versay'a dek, Mwanza'da 14 Temmuz 1916'dan isg ingiltere; s: ingiliz-tanganika-mandasi 1922-07-20 (karar listesi). Atlas 1916-09-01 hangi olaya dayaniyor belli degil. f 1892 Mwanza Alman istasyonu: kaynak bulunamadi (arama 1892'yi dogrulamadi; 'Bismarck-Burg' Kasanga'dir)."
+  }
+ ],
+ "Mvembe (Mataka)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1593",
+   "alan": "s",
+   "d": "yao",
+   "f": "1800-01-01",
+   "t": "1899-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Naval Intelligence Division, A Manual of Portuguese East Africa (Londra 1920) s. 510-512 — https://archive.org/details/cu31924028621286",
+   "alinti": "independent Makwa and Yao chiefs, of whom the most important was Mataka",
+   "oneri": {
+    "t": "1912-01-01"
+   },
+   "not": "Zincirdeki kayit (NID 1920 s.510-512) 'Portekiz seferi Mataka ulkesine 1899'da akin etti; 1912 sonbaharinda ana sefer Mwembe'ye girdi, Mataka Rovuma otesine kacti, Mwembe'de Fort Valadim kuruldu' diyor; ia-oku ham metninde Mwembe/Fort Valadim ve 'Mataka ... independent chief at Mwembe' dogrulandi, 1912 cumlesi bu butcede kopyalanmadi. Mataka'nin Mwembe'si 1899'da degil 1912 fiili girise kadar bagimsiz: t 1899-01-01 (BSAC/portekiz sınırı) yerlesim icin erken. Oneri YIL (1912, sonbahar; gun yok). Himaye/dolayli idare degil fetih: TAHRIR olcutu: Fort Valadim idareye katma."
+  }
+ ],
+ "Mérida (Venezuela)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:604",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1558-10-09",
+   "t": "1821-06-24",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Arama ozetleri (Vikipedi turevleri, ULA 'resena historica' PDF acilmadi, Boletin Academia Nacional de la Historia PDF 'Mérida' arattiginda bulunmadi); Real Cedula 8 Eylul 1777",
+   "alinti": "",
+   "oneri": {
+    "d": "yeni-granada-valiligi (1558-1777), sonra 1777-09-08'den Venezuela Genel Kaptanligi",
+    "f": "yerlesim yeri farkli: 1558-10-09 San Juan de Lagunillas'ta kuruldu, bugunku yere tasindi (tarih kaynaksiz)"
+   },
+   "not": "SAHIP HATASI: kunye ispanyol-peru = Peru Genel Valiligi (1542-1824); Mérida (Pamplona/Tunja) Yeni Granada Valiligi/Santa Fe Audiencia'sina bagli, 1777-09-08 Real Cedula ile Venezuela Genel Kaptanligina gecti (ipucu seviyesi, sayfa okunmadi). Peru ile hicbir idari bag yok -> d degismeli. MERDIVEN 4: atlas koordinati (8.5933,-71.1739) bugunku Mérida'dir; 1558-10-09'da kurulan sehir ilk yerinde (Lagunillas) idi, tasima 1560 (kaynaksiz) -> f yeni yer icin 1558-10-09 degil olabilir. t 1821-06-24 (Carabobo) icin kaynak yok; Mérida 1810-09-16'da cuntayla Ispanya'dan ayrildi (kaynaksiz hatirlatma). Kunye kontrolu: yeni-granada-valiligi f/t denetlenmeli."
+  }
+ ],
+ "Münster": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:437",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1815-06-09",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Arama ozetleri: Lahrkamp (LWL Westfaelische Geschichte; sayfa acilamadi) ve Stadt Münster: Fürstbistum Münster 3 Agustos 1802'de Prusya'nin zilyetligiyle sona erdi; Prusya-Fransa antlasmasi 23 Mayis 1802; RDH 25 Subat 1803; 1806/07 Prusya Erbfürstentum Münster'i kaybetti, Berg/Fransa",
+   "alinti": "",
+   "oneri": {
+    "t": "1802-08-03 (Prusya Besitznahme) -> s: prusya; 1806-07 Berg Büyük Dükalığı, 1810-11 Fransa (Lippe dep.)"
+   },
+   "not": "LWL PDF'ler acildiginda bos sayfa dondu (https://www.lwl.org/westfaelische-geschichte/txt/wz-9503.pdf ve wz-11800.pdf: baska makinede okunacak). t 1815-06-09 yalniz Viyana Kongresi'ne dayanir; 1802-1815 arasi Prusya/Berg/Fransa gecisleri zincirde 'ayrı gösterilmedi' beyanli; kaynak ipucu duzeyinde gun 1802-08-03 onerildi, TEK OLCU: Prusya fiilen yonettigi icin zilyetlik gunu. Okunmus akademik gun cumlesi yok."
+  }
+ ],
+ "Nabesna / Northway (Yukarı Tanana)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:274",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867",
+   "oneri": {},
+   "not": "ULKE DUZEYI (Office of the Historian, devletin kendi tarih yayini): imza 30 Mart 1867, Senato 9 Nisan, teslim 18 Ekim 1867. TEK OLCU: Rus yonetimi sahada fiilen yoktu ve ABD de ic kesimde yonetmiyordu; teslim gunu esas, atlas t ile ayni -> degisiklik yok. Alıntı yalnız t ucunu tarihliyor; f 1281 yer tutucu, Dene kunyesi (toplu, yerlesim duzeyinde ayri uc) karari geregi."
+  }
+ ],
+ "Nuchalawoya (Tanana)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:203",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1867-10-18",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://history.state.gov/milestones/1866-1898/alaska-purchase",
+   "alinti": "Alaska was formally transferred to the United States on October 18, 1867",
+   "oneri": {},
+   "not": "ULKE DUZEYI (Office of the Historian, devletin kendi tarih yayini): imza 30 Mart 1867, Senato 9 Nisan, teslim 18 Ekim 1867. TEK OLCU: Rus yonetimi sahada fiilen yoktu ve ABD de ic kesimde yonetmiyordu; teslim gunu esas, atlas t ile ayni -> degisiklik yok. Alıntı yalnız t ucunu tarihliyor; f 1281 yer tutucu, Dene kunyesi (toplu, yerlesim duzeyinde ayri uc) karari geregi."
+  }
+ ],
+ "Natashquan": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:744",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1763-02-10",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://avalon.law.yale.edu/18th_century/paris763.asp",
+   "alinti": "cedes and guaranties to his said Britannick Majesty, in full right, Canada, with all its dependencies",
+   "oneri": {},
+   "not": "ULKE DUZEYI: Paris Antlasmasi madde IV (Yale Avalon, antlasma metni) 'all the other islands and coasts in the gulph and river of St. Lawrence' dahil. Imza 1763-02-10 (onaylar 10 Mart). TEK OLCU: Quebec'te Ingiliz yonetimi 1760'tan beri -> imza gunu. Alıntı yalnız t ucunu tarihliyor. f 1281: Natashquan Innu yurdu; Fransiz iddiasi Cartier 1534'ten (kaynaksiz) -> Merdiven 4: 1281 Fransa icin yer tutucu, f BULUNAMADI."
+  }
+ ],
+ "Naujaat (Repulse Bay)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:171",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rupert's Land shall from and after the said date be admitted into and become part of the Dominion of Canada",
+   "oneri": {
+    "t": "1870-07-15"
+   },
+   "not": "ÖNCEKİ KARAR (gece-128 Kangirsuk): anakara/Yukon → 1870-07-15 Rupert's Land/North-Western Territory ülke düzeyi BEYANLI. | ULKE DUZEYI, BEYANLI (karar: Rupert's Land 1870-07-15, anakara Arktik dahil). Rupert's Land and North-Western Territory Order (Konsey karari 23 Haziran 1870, Justice Canada Enactment No. 3): 15 Temmuz 1870'ten itibaren Kanada'ya katildi. Naujaat Hudson Korfezi anakarasinda (Rupert's Land); 1880-09-01 yalniz Arktik ADALAR (British Arctic Territories) icin gecerli. Bu yerlesim Kanada idaresi fiilen yok ama hukukî devir; TAHRIR olcutu: yasa ile idareye katma. Kunye inuit t 1880-09-01 ayrica tashih edilmeli; ruperts-land kunyesi de mevcut (HBC)."
+  }
+ ],
+ "Newcastle": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:77",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: arama (Vikipedi/ipucu): Iskoc Covenanter ordusu 30 Agustos 1640'ta Newcastle'a girdi, Ripon (Ekim 1640) ve Londra (10 Agustos 1641) ile cekildi",
+   "alinti": "",
+   "oneri": {},
+   "not": "Newcastle ayrica el degistirmis olabilir: Iskoc isgali 1640-08-30 -> 1641-08 (ipucu, akademik okunmadi; TEK KURAL savas isgali = isg, gecici/askeri). ULKE DUZEYI 1281-2000 Ingiltere sürekliligi icin okunmus akademik kaynak yok; 1707 Birlesik Krallik (kunye ingiltere t=null, 'Ingiltere/Buyuk Britanya'). Hayalet devlet yok."
+  }
+ ],
+ "Nottingham": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:80",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: yalnizca Newcastle icin yapilan arama (Iskoc isgali 1640) bu yerlesimi etkilemiyor; Nottingham'a ozgu kaynak aranmadi ama ulke duzeyi (Ingiltere) kunyesi t=null",
+   "alinti": "",
+   "oneri": {},
+   "not": "Hic el degisimi bilinmiyor; kaynak okunmadi. ULKE DUZEYI KAYNAKLI icin akademik kaynak okunamadi -> BULUNAMADI. (Nottingham 1281-2000 hep Ingiltere Kralligi/Birlesik Krallik.)"
+  }
+ ],
+ "North Platte (Fort McPherson, Nebraska)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1108",
+   "alan": "s",
+   "d": "abd",
+   "f": "1863-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Arama ozeti: History Nebraska (history.nebraska.gov doc_1730am B1F1 Chapter 1; doc_Fort-McPherson-Nebraska-RG503.pdf; acilmadi) ve Vikipedi 'Fort McPherson, Nebraska' (ipucu)",
+   "alinti": "",
+   "oneri": {
+    "f": "yer baska konuma ait: Fort McPherson (Cantonment McKean/Fort Cottonwood) 1863 Eylul-Kasim, Maxwell yakininda (North Platte kentinde degil); North Platte kenti kurulusu icin kaynak aranmadi"
+   },
+   "not": "MERDIVEN 4: atlas koordinati (41.124,-100.765) North Platte KENTINE aittir; 1863'te kurulan Fort McPherson Platte nehrinin guneyinde, Maxwell yakinindadir (kaynaklar Eylul/Ekim/Kasim 1863 ayrilir; 27 Eylul 1863 bir kaynak). Ad 'Fort McPherson' 1866'da (26 Subat 1866 / 20 Ocak 1866 farkli kaynaklar) verildi. f 1863 bu koordinat icin dogru degil olabilir -> kent kurulus tarihi (Union Pacific, 1866 civari, kaynaksiz) incelenmeli. ULKE DUZEYI: Nebraska 1803 Louisiana Purchase'ten beri ABD, 1867 eyalet; Sioux/Cheyenne baski altinda ama ABD toprağı. Okunmus akademik kaynak yok (arama ozeti)."
+  }
+ ],
+ "Nikolskoye (Bering Adası, Komandor)": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:2686",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1741-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Arama ozeti: Vikipedi 'Nikolskoye, Kamchatka Krai', kupi.com tarihçe, rbth.com (ipucu); Frost 1992 (zincirde, acilmadi)",
+   "alinti": "",
+   "oneri": {
+    "f": "1826-01-01 (yalniz yıl; Ruslar 1825'te Attu Aleutlari yerlestirdi, Nikolskoye 1826 — kaynaklar farkli)"
+   },
+   "not": "MERDIVEN 4: atlas koordinati Nikolskoye koyudur; Komandor Adalari 1825'e dek KALICI YERLESIM YOKTU (RAC av partileri). 1741 Bering'in gemi kazasi/adayi bulusu (Rusya iddiasi, yil teyitli, gun teyitsiz) ada duzeyidir, yerlesimin f'si degil: f 1825/1826. Tum kaynaklar ipucu (Vikipedi, kupi, rbth); akademik okunmadi. t 1917-03-15 (II. Nikolay'in tahtan feragati, 2 Mart O.S. = 15 Mart Gregoryen): Office of the Historian sayfasi bulunamadi, akademik gövde okunmadi."
+  }
+ ],
+ "Nome": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:229",
+   "alan": "s",
+   "d": "abd",
+   "f": "1899-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: EBSCO Research Starters 'History of Nome, Alaska' (ipucu), Vikipedi 'Nome Gold Rush' (ipucu), kupi.com; history.state.gov Alaska Purchase (ulke duzeyi 1867)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Anvil Creek'te altin Eylul 1898; 'Anvil City'/Nome 1899 (yil, kaynaklar tutarlı: Haziran 1899 plaj altini, kis 1899 nufus ~10 bin; belediye 1901-04-09/12). Akademik/resmi (NPS, Alaska State Library) gun cumlesi bu butcede okunamadi. ULKE DUZEYI ABD egemenligi 1867-10-18 (history.state.gov okundu) Nome icin gecerli, ayrica el degistirmemis."
+  }
+ ],
+ "Nonohay (Yukarı Uruguay)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:129",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1850-01-01",
+   "t": "1889-11-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: HSAI c.1 (yer kaydi, zincirde); Brezilya Cumhuriyeti ilani icin arama (Vikipedi/ipucu), history.state.gov/countries/brazil (1889 gecmiyor)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f 1850: HSAI yalniz yıl veriyor (kaynak kaydinda); t 1889-11-15 ULKE DUZEYI icin okunmus akademik gövde yok. Nonohay = Nonoai (Rio Grande do Sul) Caingang aldeamentosu; Argentina ile Missões/Palmas sınır anlaşmazlığı (Cleveland tahkimi 1895) bu yer icin gecerli degil gibi, ama kaynak okunmadi."
+  }
+ ],
+ "Norrköping": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:86",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.encyclopedia.com/people/history/scandinavian-history-biographies/gustavus-i",
+   "alinti": "On June 6 it elected Gustavus Vasa king",
+   "oneri": {},
+   "not": "ULKE DUZEYI (karar: Isvec'in Kalmar'dan ayrilisi 1523-06-06). Encyclopedia of World Biography (Gale): 'in May 1523 the Swedish Riksdag met at Strangnas. On June 6 it elected Gustavus Vasa king.' t atlas ile ayni. Alinti yalniz t ucunu tarihliyor; f 1281 yer tutucu, yerlesim Norrköping'in 1281'de var oldugu (ticaret yeri 14. yy) kaynak aranmadi."
+  }
+ ],
+ "Nurmes": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:121",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "https://www.encyclopedia.com/people/history/scandinavian-history-biographies/gustavus-i",
+   "alinti": "On June 6 it elected Gustavus Vasa king",
+   "oneri": {},
+   "not": "ULKE DUZEYI t 1523-06-06 (Gale EWB). SAHIP SORUSU: Nurmes (Pielinen) cevresi 1323 Pahkinasaari sonrasi Savo erimi ile Novgorod/Rus iddiasi arasinda tartismali bir issiz bolgeydi; Tayssina 1595 yeni yerlesimlerin Isvec'e ait oldugunu tanidi (Matikainen 2022, Historiallinen aikakauskirja; jyx.jyu.fi/handle/123456789/88432 yalniz ozet okundu, gövde yok). Nurmes 1281-1523 'Isvec' sahipliği ve yerlesimin o devirde varligi KAYNAKSIZ (Merdiven 4: kirp adayi). Alıntı yalnız t ucunu tarihliyor."
+  }
+ ],
+ "Nîmes": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:240",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1281-01-01",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://islamansiklopedisi.org.tr/fransa",
+   "alinti": "22 Eylül’de de cumhuriyet ilân edildi",
+   "oneri": {
+    "t": "1792-09-21"
+   },
+   "not": "ÖNCEKİ KARAR (gece-91): Fransa Cumhuriyeti 1792-09-21 (Assemblée nationale KAYNAKLI); TDV 22 Eylül ic_not. | ULKE DUZEYI. TDV 'Fransa': 10 Agustos 1792'de kral tahttan indirildi ve '22 Eylül’de de cumhuriyet ilân edildi' -> atlas t ile ayni. Alıntı yalnız t ucunu tarihliyor (Convention'un krallığı kaldırması 21 Eylül, kaynak okunmadı); f 1281: Languedoc 1229 Meaux-Paris (kayitlı KUTU kaynagi), Nîmes seneschal merkezi — okunmadi."
+  }
+ ],
+ "Norway House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:570",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1817-01-01",
+   "t": "1870-07-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "Rupert's Land shall from and after the said date be admitted into and become part of the Dominion of Canada",
+   "oneri": {},
+   "not": "ULKE DUZEYI. Konsey karari (23 Haziran 1870) 15 Temmuz 1870'ten itibaren Rupert's Land'i Kanada'ya katti -> t ayni, degisiklik yok. Alıntı yalnız t ucunu tarihliyor; f 1817 (Norway House HBC postu) icin kaynak bulunamadi. NOT: 1817-1870 arası Norway House HBC Rupert's Land'indeydi (kunye ruperts-land mevcut); d=ingiliz-kuzey-amerika yerine ruperts-land incelenmeli (BEYANLI, karar ayri)."
+  }
+ ],
+ "Noumea (Yeni Kaledonya)": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:39",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1854-06-25",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakilan: https://www.persee.fr/doc/rharm_0035-3299_1965_num_21_3_6439 (robots.txt yasagi; baska makinede okunacak); Journal de la Société des Océanistes 'Chronologie de Kanaky Nouvelle-Calédonie' (yer kaydinda, acilmadi)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Yer kaydi Laroque 1965 (Revue historique des Armées): 'fondée le 25 juin 1854' (Port-de-France). Persee robots nedeniyle bu oturumda acilamadi -> KAYNAKLI verilmedi. Fransa sahipligi (Mart 1853 el koyma, 24 Eylül 1853 Grande Terre) ulke duzeyi okunmadi."
+  }
+ ],
+ "Nuestra Señora de Caraballeda": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:53",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1562-01-01",
+   "t": "1821-06-24",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/carabobo-battle",
+   "alinti": "On the morning of 24 June 1821 the patriots, under the command of Simón Bolívar",
+   "oneri": {},
+   "not": "ULKE DUZEYI: Gale ansiklopedisi 'Carabobo, Battle of': Venezuela Bagimsizlik Savasi'nin son buyuk muharebesi 24 Haziran 1821. Bu bir SAVAS GUNU (Caracas 29 Haziran'da alinmistir, kaynak okunmadi), devir gunu degil; atlas uyumu yalniz muharebe gunune. Alıntı yalnız t ucunu tarihliyor. f 1562 HSAI (yer kaydi): Caraballeda'nin Ispanyol kurulus yili 1560'lar; gun yok."
+  }
+ ],
+ "Nuestra Señora del Pilar (Mar del Plata)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:138",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1747-01-01",
+   "t": "1810-05-25",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Arama ozetleri: DBE (RAH) 'José Cardiel': 'agosto 1747' (sayfa acilamadi: historia-hispanica.rah.es); Revista del Museo de La Plata: 1746; Pedrotta, Trabajos y Comunicaciones (UNLP): 1747 sonu; lacapitalmdp.com (yerel gazete, ipucu): 1751'de terk",
+   "alinti": "",
+   "oneri": {
+    "t": "1751-01-01 (reduccion terk; Cangapol baskısı; yıl)"
+   },
+   "not": "MERDIVEN 4: reduccion 1746-1747'de kuruldu (kaynaklar 1746/1747 arasında ayrılıyor), 1751'de terk edildi (yerel gazete, ipucu); atlas ise 1810-05-25'e dek Ispanya yazıyor — yer terk sonrası yok; kırp önerisi. Kesin yer bilinmiyor (Laguna de los Padres civarı). Ulke duzeyi Mayıs Devrimi 1810-05-25 icin kaynak yok. Sayfa acilamadigi icin KAYNAKLI yok."
+  }
+ ],
+ "Old Crow (Vuntut Gwitchin)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:127",
+   "alan": "s",
+   "d": "dene",
+   "f": "1281-01-01",
+   "t": "1899-06-21",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "the said North-Western Territory shall be admitted into and become part of the Dominion of Canada",
+   "oneri": {
+    "t": "1870-07-15"
+   },
+   "not": "ULKE DUZEYI, BEYANLI. Yukon, Kuzeybati Bolgesi (North-Western Territory) icindeydi (Yukon Bolgesi 1898'de ayrildi); Konsey karari (23 Haziran 1870) bolgeyi 15 Temmuz 1870'ten Kanada'ya katti. Dene kunyesi t=1899-06-21 Antlasma 8 (imza 1899-06-21) ile alakali; Old Crow Antlasma 8 alani degil -> t'yi 1870-07-15 yapin, kanada f 1870-07-15. Bolgenin Kanada tarafindan fiilen yonetilmesi onemli oranda sonra (Klondike 1898 Yukon Field Force); TEK OLCU teslim gunu: Kanada fiilen yonetmiyor olabilir; hukuki devir esas (karar gece listesi)."
+  }
+ ],
+ "Olonets": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:147",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1649-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakilan: arama (Vikipedi 'Olonets', ticrk.ru, snl.no/Olonets, petrsu.ru nbsr PDF; ipucu): 1649'da kale, Olonets uezd merkezi; gazetteer",
+   "alinti": "",
+   "oneri": {},
+   "not": "1649 kale/kurulus yılı ipucu seviyesinde tutarlı (aynı yıl şehir hakları); gün yok. Olonets 1137'den anılan eski yerleşim (Novgorod). Akademik kaynak okunamadı. t 1917-03-15 (tahttan feragat 2 Mart O.S.) icin Office of the Historian sayfası bulunamadi. Acilamayan: https://nbsr.petrsu.ru/journal/getpdf.php?id=1067 ve https://snl.no/Olonets (baska makinede okunacak)."
+  }
+ ],
+ "Oodnadatta": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:229",
+   "alan": "s",
+   "d": "guney-avustralya",
+   "f": "1891-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "https://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/creation-of-australia",
+   "alinti": "Australia was proclaimed an independent nation on 1 January 1901",
+   "oneri": {},
+   "not": "ULKE DUZEYI (Parliamentary Education Office, Avustralya Parlamentosu'nun kendi yayini): Federasyon 1 Ocak 1901, Centennial Park. t atlas ile ayni. Alıntı yalnız t ucunu tarihliyor; f 1891 (demiryolu başı yılı, yer kaydı SA Dept. for Environment and Water, acilmadi) yer tutucu. Oodnadatta o devirde Guney Avustralya Kuzey Bolgesi'ne dahildi (Northern Territory SA'ya bagliydi; 1911'de Commonwealth) — d ayni."
+  }
+ ]
+}
