@@ -840,4 +840,24 @@ Künye ölçümleri (KASA, `data/devletler.js` başlık satırları):
   - yerlesimler_nokta2.js: Saint Helier, Saint Peter Port, Saumur.
   - Frankfurt (Oder): yerlesimler.js:1243.
   - Palenque, San Salvador, St. George's: başka dosyalar, KASA PAZAR ad:"…" ve "ad": "…" ile arasın.
+- Önceki sistemik taramalar (ARDIL, Kanada, Burma, Kafkas Jülyen, mükerrer) kayıtları ayrıştırıcıyla okuyor; aşağıdaki maddeye bakınız.
+
+## 5 Kasım 2026 gece-114 — LAB v2 001-007 kararları (EMRELİC)
+
+- **14 (15) "bulunamadı" kaydı:** girdi.yukle() ayrıştırıcısıyla yeniden değerlendirilecek (ON5 ajanı). Girdi `LAB-v2/ON5-GIRDI.json` (15 kayıt, 21 dönem); sonuç `e4_KASA_lab_ON5.json` ve dilim sayısına eklenir. Önceki hükümler zincirsiz verildi, yanlış sınıftadır.
+- **Santa Maria da Boa Vista 1672:** ikinci kaynak olmadan uygulanmaz.
+- **Tórshavn:** lex.dk "1380–1814 Danimarka tacı" Norveç ile şahsî birlik dönemidir. Faroe, Norveç anakarası zincirini izler.
+  - **KASA ölçümü (ayrıştırıcı):** Tórshavn `norvec-kralligi` 1035 → **1537-01-01** `danimarka` → 1948-04-01 `feroe-adalari`. Bergen `norvec-kralligi` → **1537-01-01** `danimarka` → 1814-01-14 `isvec`… → **uyumlu**.
+  - 1814 Kiel'de Faroe Danimarka'da kaldı; bu `ic_not`a yazılır.
+- **Schwerin ve Frankfurt (Oder):** zincirde yalnız `almanya-demokratik-cumhuriyeti` 1949-10-07 → 1990-10-03 var (KASA ölçümü). 1990 sonrası D1 deliğidir → `s:` birleşik Almanya 1990-10-03 →, ARDIL 71 listesindeki DDR halefleriyle aynı.
+  - DDR öncesi zincir de YOK: Mecklenburg / Brandenburg-Prusya → 1945 Sovyet `isg` → 1949-10-07 DDR, ölçülüp önerilecek.
+  - "kur 1949-10-07" künye f'sidir, kuruluş değildir → F-GERİ.
+- **Codrington, Portsmouth, Praia, Vágur (ve Bir Lahlu):** sömürge öncesi zincir F-GERİ / merdivenle, kaynakla, ONERI.
+- **Tetuan:** `fas-fransiz-himayesi` yanlış künye → İspanyol Fas himayesi künyesi. t 1956-04-05 (Nador kararıyla aynı gün).
+- **Iksan / Bodeok 683-84:** Bodeok Silla'nın vasalıydı → `s: bodeok` + `v: silla` → 684-11 Daemun isyanından sonra doğrudan Silla. Kaynakla ONERI.
+- **dene (LAB SALI):** toplu künye BÖLÜNMEZ. Yerleşim düzeyinde uçlar yazılır: BC Dene 1871-07-20, Alaska Atabaskları 1867-10-18 (günler kaynakla). Künye t bölgedeki son Antlaşma 8 adhezyonuna eşitlenir (Peace Point 1899-07-13, 1900; kaynakla). "Arktik/antlaşmasız yerli toprağı" Emre sınıfına girer.
+- Öteki öne çıkanlar: onay.
+
+## gece-113 — tarama biçim kusuru (ek)
+
 - Önceki sistemik taramalar (ARDIL, Kanada, Burma, Kafkas Jülyen, mükerrer) kayıtları ayrıştırıcıyla (y["ad"]) okuyor, bu kusurdan etkilenmedi. ufuk_bul.py yalnız önceden belirlenmiş satırları yerine buluyordu; kaçırdığı kayıt boş "loc" gösterir, gizlenmez.

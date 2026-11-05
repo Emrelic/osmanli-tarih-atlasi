@@ -1,0 +1,695 @@
+{
+ "Palenque": {
+  "parti": 2,
+  "kayit_ad": "Palenque",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:palenque-baak 0431-03-10→0799-01-01",
+   "s:__BOSLUK__ 0799-01-01→0851-01-01"
+  ],
+  "kur": "0431-03-10",
+  "bit": "0851-01-01",
+  "v2_satirlari": [
+   {
+    "sira": 2209,
+    "sinif": "ZAYIF_ATLAS",
+    "alan": "s",
+    "d": "palenque-baak",
+    "f": "0431-03-10",
+    "t": "0799-01-01",
+    "mevcut_kaynak": "SAHİP palenque-baak: DOGU-500-1281 BOŞLUK BEYANI geri yazıldı (ZINCIR-ORTA, 24 Ekim 2026; boya durumu denetim/ILERLEME-BOYA-BEKLEYEN-ORTA.tsv) — dayanak aşağıdadır · Simon Martin & Nikolai Grube, Chronicle of the Maya Kings and Queens, 2. bsk., Thames & Hudson, Londra 2008 (archive.org: chronicle-20",
+    "dosya_satir": "",
+    "lat": 17.4842,
+    "lon": -92.0464,
+    "zincir_guncel": "s:palenque-baak 0431-03-10→0799-01-01 | s:__BOSLUK__ 0799-01-01→0851-01-01"
+   },
+   {
+    "sira": 2210,
+    "sinif": "ZAYIF_ATLAS",
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "0799-01-01",
+    "t": "0851-01-01",
+    "mevcut_kaynak": "BOŞLUK BEYANI: arandı, bulunamadı: Palenque’nin 799 sonrası siyasî sahibi. UNESCO no. 411 «Pre-Hispanic City and National Park of Palenque» (açıldı 22.10.2026): «Once the ancient city of Palenque was abandoned around the 9th century, the thick jungle surrounding it covered its temples and palaces»; ",
+    "dosya_satir": "",
+    "lat": 17.4842,
+    "lon": -92.0464,
+    "zincir_guncel": "s:palenque-baak 0431-03-10→0799-01-01 | s:__BOSLUK__ 0799-01-01→0851-01-01"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2209,
+    "hukum": "BAKILMADI",
+    "uc": "",
+    "oneri": {},
+    "not": "Erişim: mesoweb.com/palenque/dynasty URL'si 404; Martin & Grube, Chronicle of the Maya Kings and Queens çevrimiçi yok. f 0431-03-10 K'uk Bahlam I tahta çıkışı (Uzun Sayım çevirisi, GMT korelasyonu — ic_not'ta beyan edilmeli), t 799 son tarihli anıt (Janaab Pakal III, 9.18.9.4.4) — bu turda kaynakla okunmadı. Künye f 0431-01-01 ile yerleşim f 0431-03-10 farklı; künye/yerleşim hizası kontrol edilmeli."
+   },
+   {
+    "sira": 2210,
+    "hukum": "BAKILMADI",
+    "uc": "",
+    "oneri": {},
+    "not": "Beyanlı boşluk; merdiven ④ (799 sonrası terk) bu turda aranmadı. Merdiven ④'e göre şehir 9. yy başında terk edildiyse dönem kırpılmalı — kaynak şart."
+   }
+  ]
+ },
+ "San Salvador": {
+  "parti": 2,
+  "kayit_ad": "San Salvador",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:el-salvador-cumhuriyeti 1841-01-01→2000-12-31"
+  ],
+  "kur": "1841-01-01",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 1938,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "el-salvador-cumhuriyeti",
+    "f": "1841-01-01",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 13.698,
+    "lon": -89.191,
+    "zincir_guncel": "s:el-salvador-cumhuriyeti 1841-01-01→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 1938,
+    "hukum": "ONERI",
+    "uc": "f",
+    "oneri": {
+     "f": "f geriye çekilmeli: şehir 1525/1528 kuruldu (Gonzalo/Diego de Alvarado; kaynakla) — f_geri adayı, sahibi kaynakla",
+     "bolme": "s: ispanya (Guatemala Kaptanlığı; metropol künyesi) kuruluş → 1821-09-15 · (1822-1823 Meksika İmparatorluğu ilhakı, kaynakla) · s: orta-amerika-federasyonu 1823 → 1841 · s: el-salvador-cumhuriyeti 1841-02-18 (anayasa; gün kaynakla)"
+    },
+    "not": "Zincir yalnız 1841'den başlıyor: başkent 1841 öncesi sahipsiz (6g, ilk dilim eksik). Künyeler ölçüldü: ispanya f 1479, guatemala-kaptanligi 1609-1821-09-15, orta-amerika-federasyonu var, el-salvador-cumhuriyeti f 1841-01-01 (yıl). Kaynak bu turda okunmadı → f_geri alanı yazılmadı (6g (i) şartı). dosya_satir girdide boş."
+   }
+  ]
+ },
+ "Codrington (Barbuda)": {
+  "parti": 3,
+  "kayit_ad": "Codrington (Barbuda)",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:antigua-barbuda 1981-11-01→2000-12-31"
+  ],
+  "kur": "1981-11-01",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2150,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "antigua-barbuda",
+    "f": "1981-11-01",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 17.634,
+    "lon": -61.826,
+    "zincir_guncel": "s:antigua-barbuda 1981-11-01→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2150,
+    "hukum": "KAYNAKLI",
+    "uc": "f",
+    "oneri": {
+     "bolme": "EK DÖNEM: 1981 öncesi zincir YOK — Codrington ailesi kirası (1685) ve İngiliz Leeward Adaları dönemi (s: ingiltere) eklenmeli; 6g ilk dilim, kaynakla"
+    },
+    "not": "[alıntı ham metinden, sayfa.py] f KAYNAKLI (bağımsızlık; resmî yayın, tanıma cümlesi değil). Yerleşim 1981'den önce sahipsiz: ilk dönem bağımsızlıkla başlıyor — 6g varoluş günü değil. dosya_satir girdide boş."
+   }
+  ]
+ },
+ "Hillsborough (Carriacou)": {
+  "parti": 3,
+  "kayit_ad": "Hillsborough (Carriacou)",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:ingiltere 1763-02-10→1958-01-03",
+   "s:bati-hint-federasyonu 1958-01-03→1962-05-31",
+   "s:ingiltere 1962-05-31→1974-02-07",
+   "s:grenada 1974-02-07→1979-03-13",
+   "s:grenada-devrimci-hukumet 1979-03-13→1983-10-26",
+   "s:grenada 1983-10-26→2000-12-31"
+  ],
+  "kur": "1763-02-10",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2173,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "grenada",
+    "f": "1974-02-07",
+    "t": "1979-03-13",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 12.4819,
+    "lon": -61.4619,
+    "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+   },
+   {
+    "sira": 2174,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "grenada-devrimci-hukumet",
+    "f": "1979-03-13",
+    "t": "1983-10-26",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 12.4819,
+    "lon": -61.4619,
+    "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+   },
+   {
+    "sira": 2175,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "grenada",
+    "f": "1983-10-26",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 12.4819,
+    "lon": -61.4619,
+    "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2173,
+    "hukum": "KAYNAKLI",
+    "uc": "f",
+    "oneri": {},
+    "not": "[alıntı ham metinden, sayfa.py] f: bağımsızlık yılı birebir; gün tanıma cümlesinden ('on the occasion of ... attaining independence') — tanıma cümlesi çekincesi, gün ic_not'ta beyan. t 1979-03-13 (NJM darbesi) bu turda okunmadı (öteki uç teyitsiz)."
+   },
+   {
+    "sira": 2174,
+    "hukum": "ONERI",
+    "uc": "t",
+    "oneri": {
+     "t": "1983-10-25 (künye t ile hiza; Urgent Fury başlangıcı)",
+     "bolme": "1983-10-25 → ABD muharip birliklerinin çekilişi (1983-12 — gün kaynakla) isg abd, altında s: grenada (Genel Vali Scoon yetkisi)"
+    },
+    "not": "[alıntı ham metinden, sayfa.py] Yerleşim t 1983-10-26, künye grenada-devrimci-hukumet t 1983-10-25 — bir günlük uyumsuzluk. TEK KURAL: savaş işgali → isg. 1983-10-19 Devrimci Askerî Konsey künye içinde (künye adı PRG → RMC). f 1979-03-13 okunmadı."
+   },
+   {
+    "sira": 2175,
+    "hukum": "ONERI",
+    "uc": "f",
+    "oneri": {
+     "f": "1983-10-25 (önceki dilimle bitişik)"
+    },
+    "not": "isg abd katmanı için 2174'e bak. Günlü kaynak okunmadı."
+   }
+  ]
+ },
+ "Portsmouth (Dominika)": {
+  "parti": 3,
+  "kayit_ad": "Portsmouth (Dominika)",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:dominika 1978-11-03→2000-12-31"
+  ],
+  "kur": "1978-11-03",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2214,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "dominika",
+    "f": "1978-11-03",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 15.576,
+    "lon": -61.457,
+    "zincir_guncel": "s:dominika 1978-11-03→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2214,
+    "hukum": "KAYNAKLI",
+    "uc": "f",
+    "oneri": {
+     "bolme": "EK DÖNEM: 1978 öncesi zincir YOK — Portsmouth (Prince Rupert Körfezi) İngiliz Dominikası (1763 Paris; 1778-1783 Fransız işgali) dönemleri eklenmeli; 6g ilk dilim, kaynakla"
+    },
+    "not": "[alıntı ham metinden, sayfa.py] f KAYNAKLI. Yerleşim 1978'den önce sahipsiz (ilk dönem bağımsızlıkla başlıyor). dosya_satir girdide boş."
+   }
+  ]
+ },
+ "St. George's": {
+  "parti": 3,
+  "kayit_ad": "St. George's",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:ingiltere 1763-02-10→1958-01-03",
+   "s:bati-hint-federasyonu 1958-01-03→1962-05-31",
+   "s:ingiltere 1962-05-31→1974-02-07",
+   "s:grenada 1974-02-07→1979-03-13",
+   "s:grenada-devrimci-hukumet 1979-03-13→1983-10-26",
+   "s:grenada 1983-10-26→2000-12-31"
+  ],
+  "kur": "1763-02-10",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2231,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "grenada",
+    "f": "1974-02-07",
+    "t": "1979-03-13",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 12.0566,
+    "lon": -61.747,
+    "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+   },
+   {
+    "sira": 2232,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "grenada-devrimci-hukumet",
+    "f": "1979-03-13",
+    "t": "1983-10-26",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 12.0566,
+    "lon": -61.747,
+    "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+   },
+   {
+    "sira": 2233,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "grenada",
+    "f": "1983-10-26",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 12.0566,
+    "lon": -61.747,
+    "zincir_guncel": "s:ingiltere 1763-02-10→1958-01-03 | s:bati-hint-federasyonu 1958-01-03→1962-05-31 | s:ingiltere 1962-05-31→1974-02-07 | s:grenada 1974-02-07→1979-03-13 | s:grenada-devrimci-hukumet 1979-03-13→1983-10-26 | s:grenada 1983-10-26→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2231,
+    "hukum": "KAYNAKLI",
+    "uc": "f",
+    "oneri": {},
+    "not": "[alıntı ham metinden, sayfa.py] Hillsborough 2173 ile aynı. Ayrıca kontrol adayı (bu partide değil): s: ingiltere 1763-02-10 dilimi içinde 1779-07-04 → 1783-09-03 Fransız işgali (isg fransa) zincirde yok."
+   },
+   {
+    "sira": 2232,
+    "hukum": "ONERI",
+    "uc": "t",
+    "oneri": {
+     "t": "1983-10-25",
+     "bolme": "1983-10-25 → 1983-12 (gün kaynakla) isg abd, altında s: grenada"
+    },
+    "not": "[alıntı ham metinden, sayfa.py] Hillsborough 2174 ile aynı."
+   },
+   {
+    "sira": 2233,
+    "hukum": "ONERI",
+    "uc": "f",
+    "oneri": {
+     "f": "1983-10-25"
+    },
+    "not": "Hillsborough 2175 ile aynı."
+   }
+  ]
+ },
+ "Praia": {
+  "parti": 5,
+  "kayit_ad": "Praia",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:yesilburun 1975-07-05→2000-12-31"
+  ],
+  "kur": "1975-07-05",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2215,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "yesilburun",
+    "f": "1975-07-05",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 14.933,
+    "lon": -23.513,
+    "zincir_guncel": "s:yesilburun 1975-07-05→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2215,
+    "hukum": "ONERI",
+    "uc": "f",
+    "oneri": {
+     "bolme": "EK DÖNEM: 1975 öncesi zincir YOK — Praia Portekiz Yeşil Burun'unda (vila 17. yy başı, başkent 1770 — kaynakla) s: portekiz; 6g ilk dilim"
+    },
+    "not": "[alıntı ham metinden, sayfa.py] state.gov cümlesi yalnız tanıma gününü tarihler (LAB PAZAR ölçütü) → f ONERI; bağımsızlık günü 1975-07-05 ikinci kaynakla teyit edilmeli. Yerleşim 1975'ten önce sahipsiz. dosya_satir girdide boş."
+   }
+  ]
+ },
+ "Tórshavn": {
+  "parti": 5,
+  "kayit_ad": "Tórshavn",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:norvec-kralligi 1035-01-01→1537-01-01",
+   "s:danimarka 1537-01-01→1948-04-01",
+   "s:feroe-adalari 1948-04-01→2000-12-31"
+  ],
+  "kur": null,
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2243,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "feroe-adalari",
+    "f": "1948-04-01",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 62.01,
+    "lon": -6.772,
+    "zincir_guncel": "s:norvec-kralligi 1035-01-01→1537-01-01 | s:danimarka 1537-01-01→1948-04-01 | s:feroe-adalari 1948-04-01→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2243,
+    "hukum": "KAYNAKLI",
+    "uc": "f",
+    "oneri": {
+     "bolme": "(bu partinin dışı, kontrol adayı) danimarka dönemi içinde 1940-04-12 → 1945-09-16 isg ingiltere (lex.dk: «Under 2. Verdenskrig var Færøerne besat af Storbritannien»; günler kaynakla)"
+    },
+    "not": "[alıntı ham metinden, sayfa.py] f YIL düzeyi KAYNAKLI (gün 1 Nisan lex.dk'da yok). İç yönetim bir statü değişimidir; Danimarka egemenliği sürer — feroe-adalari künyesinin s: olarak kullanımı sınıf sorusu (ic_not). lex.dk ayrıca «I 1380 fulgte Færøerne med Norge under den danske krone ... indtil 1815» der: zincirdeki norvec-kralligi → danimarka 1537 geçişi bu cümleyle çelişiyor (1380 / 1814 Kiel) — kontrol adayı."
+   }
+  ]
+ },
+ "Vágur": {
+  "parti": 5,
+  "kayit_ad": "Vágur",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:feroe-adalari 1948-04-01→2000-12-31"
+  ],
+  "kur": "1948-04-01",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2250,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "feroe-adalari",
+    "f": "1948-04-01",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 61.474,
+    "lon": -6.811,
+    "zincir_guncel": "s:feroe-adalari 1948-04-01→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2250,
+    "hukum": "ONERI",
+    "uc": "f",
+    "oneri": {
+     "bolme": "EK DÖNEM: 1948 öncesi zincir YOK — Tórshavn zinciri (norvec-kralligi → danimarka; isg ingiltere 1940-45) Vágur'a da uygulanmalı (ÜLKE DÜZEYİ, Suðuroy köyü); Vágur'un ilk anılışı kaynakla (6g)"
+    },
+    "not": "[alıntı ham metinden, sayfa.py] Dönemin kendisi ülke düzeyinde Tórshavn ile aynı, ama yerleşim 1948'den önce sahipsiz → ONERI. dosya_satir girdide boş."
+   }
+  ]
+ },
+ "Saint Helier (Jersey)": {
+  "parti": 6,
+  "kayit_ad": "Saint Helier (Jersey)",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:kanal-adalari 1204-01-01→2000-12-31"
+  ],
+  "kur": "1204-01-01",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2219,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "kanal-adalari",
+    "f": "1204-01-01",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 49.1891,
+    "lon": -2.1043,
+    "zincir_guncel": "s:kanal-adalari 1204-01-01→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2219,
+    "hukum": "ONERI",
+    "uc": "f+t",
+    "oneri": {
+     "bolme": "1940-07-01 → 1945-05-09 isg almanya (resmî yayın günleri; altında s: kanal-adalari sürer) · kontrol adayı: 1461 → 1468 Fransız işgali (Pierre de Brézé; Mont Orgueil) — günler kaynakla"
+    },
+    "not": "[alıntı ham metinden, sayfa.py] isg uçları KAYNAKLI (resmî). f 1204 (Normandiya'nın kaybı; adalar İngiliz tacına bağlı kaldı) bu turda okunmadı. dosya_satir girdide boş. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+   }
+  ]
+ },
+ "Saint Peter Port (Guernsey)": {
+  "parti": 6,
+  "kayit_ad": "Saint Peter Port (Guernsey)",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:kanal-adalari 1204-01-01→2000-12-31"
+  ],
+  "kur": "1204-01-01",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2220,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "kanal-adalari",
+    "f": "1204-01-01",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 49.46,
+    "lon": -2.535,
+    "zincir_guncel": "s:kanal-adalari 1204-01-01→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2220,
+    "hukum": "ONERI",
+    "uc": "f+t",
+    "oneri": {
+     "bolme": "1940-06-30 (Alman birliklerinin Guernsey'e inişi — gün kaynakla, gov.gg) → 1945-05-09 isg almanya · kontrol adayı: 1338 → 1345 Fransız işgali (Castle Cornet) — günler kaynakla"
+    },
+    "not": "ÜLKE GRUPLAMASI: Jersey ile aynı işgal; Guernsey'in kendi günü (30 Haziran) okunmadı → ONERI. dosya_satir girdide boş. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+   }
+  ]
+ },
+ "Saumur": {
+  "parti": 6,
+  "kayit_ad": "Saumur",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:anjou-kontlugu 1026-01-01→1203-01-01",
+   "s:fransa 1203-01-01→1792-09-22",
+   "s:fransa-cumhuriyet 1792-09-22→2000-12-31"
+  ],
+  "kur": "1026-01-01",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2223,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "anjou-kontlugu",
+    "f": "1026-01-01",
+    "t": "1203-01-01",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 47.26,
+    "lon": -0.077,
+    "zincir_guncel": "s:anjou-kontlugu 1026-01-01→1203-01-01 | s:fransa 1203-01-01→1792-09-22 | s:fransa-cumhuriyet 1792-09-22→2000-12-31"
+   },
+   {
+    "sira": 2224,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "fransa",
+    "f": "1203-01-01",
+    "t": "1792-09-22",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 47.26,
+    "lon": -0.077,
+    "zincir_guncel": "s:anjou-kontlugu 1026-01-01→1203-01-01 | s:fransa 1203-01-01→1792-09-22 | s:fransa-cumhuriyet 1792-09-22→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2223,
+    "hukum": "BAKILMADI",
+    "uc": "",
+    "oneri": {},
+    "not": "Bütçe; aranmadı. f 1026 Fulk Nerra'nın Saumur'u Blois'dan alışı (yıl). 6g: Saumur 1026'dan önce Blois kontluğundaydı — öncül dilim zincirde yok."
+   },
+   {
+    "sira": 2224,
+    "hukum": "BAKILMADI",
+    "uc": "",
+    "oneri": {},
+    "not": "Bütçe; aranmadı. t 1792-09-22 vs fransa künye t 1792-09-22 / E4-BILINEN 'Fransa Cumhuriyeti 1792-09-21' — hiza kontrol adayı."
+   }
+  ]
+ },
+ "Bir Lahlu (Bir Lehlou)": {
+  "parti": 7,
+  "kayit_ad": "Bir Lahlu (Bir Lehlou)",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:sahra-arap-demokratik-cumhuriyeti 1976-02-27→2000-12-31"
+  ],
+  "kur": "1976-02-27",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2133,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "sahra-arap-demokratik-cumhuriyeti",
+    "f": "1976-02-27",
+    "t": "2000-12-31",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 26.349,
+    "lon": -9.577,
+    "zincir_guncel": "s:sahra-arap-demokratik-cumhuriyeti 1976-02-27→2000-12-31"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2133,
+    "hukum": "ONERI",
+    "uc": "f",
+    "oneri": {
+     "bolme": "EK DÖNEM: 1976 öncesi zincir YOK — s: ispanyol-sahra (künye var) İspanyol çekilişine (1976-02-26) kadar; 1976-1991 Fas/Moritanya ile çatışmalı kontrol (rakip hükûmet, fiilî kontrol) — yerleşim düzeyinde kaynakla"
+    },
+    "not": "f 1976-02-27 SADR ilanı (künye kronolojisi: «Polisario, Bir Lahlu'da ... ilan etti»; kaynak UCDP + Zunes/Mundy 2010, bu turda okunmadı). Yerleşim 1976'dan önce sahipsiz. Madrid Anlaşması 1975-11-14 ic_not. dosya_satir girdide boş."
+   }
+  ]
+ },
+ "Frankfurt (Oder)": {
+  "parti": 7,
+  "kayit_ad": "Frankfurt (Oder)",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+  ],
+  "kur": "1949-10-07",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2164,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "almanya-demokratik-cumhuriyeti",
+    "f": "1949-10-07",
+    "t": "1990-10-03",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 52.347,
+    "lon": 14.55,
+    "zincir_guncel": "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2164,
+    "hukum": "ONERI",
+    "uc": "f+t",
+    "oneri": {
+     "bolme": "1990-10-03'ten s: almanya (halef; ARDIL kararı) · EK DÖNEM: 1949 öncesi zincir YOK — şehir 1253 tüzüğüyle Brandenburg'da; 1945-1949 Sovyet işgal bölgesi (isg sscb, altında Alman egemenliği sorusu — sınıf kararı)"
+    },
+    "not": "Yalnız DDR dilimi olan tek dönemli kayıt (halef_1946 katmanı türü; gece-101). Ana kayıt 'Frankfurt' Frankfurt am Main'dir (yerlesimler.js:1243), Oder'deki şehrin ana kaydı yok → yerleşim 1949 öncesi ve 1990 sonrası sahipsiz. Kaynak okunmadı. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+   }
+  ]
+ },
+ "Schwerin": {
+  "parti": 7,
+  "kayit_ad": "Schwerin",
+  "dosya": null,
+  "uzaklik_derece": 0.0,
+  "zincir_parserla": [
+   "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+  ],
+  "kur": "1949-10-07",
+  "bit": null,
+  "v2_satirlari": [
+   {
+    "sira": 2225,
+    "sinif": "BOS",
+    "alan": "s",
+    "d": "almanya-demokratik-cumhuriyeti",
+    "f": "1949-10-07",
+    "t": "1990-10-03",
+    "mevcut_kaynak": "",
+    "dosya_satir": "",
+    "lat": 53.635,
+    "lon": 11.401,
+    "zincir_guncel": "s:almanya-demokratik-cumhuriyeti 1949-10-07→1990-10-03"
+   }
+  ],
+  "onceki_hukum": [
+   {
+    "sira": 2225,
+    "hukum": "ONERI",
+    "uc": "f+t",
+    "oneri": {
+     "bolme": "1990-10-03'ten s: almanya · EK DÖNEM: 1949 öncesi zincir YOK — Schwerin 1160 (Henri le Lion) kuruluşu, Mecklenburg dükalığı başkenti; 1945-07 → 1949-10-07 Sovyet işgal bölgesi (1945-05/06 kısa ABD-İngiliz işgali, kaynakla)"
+    },
+    "not": "yerlesimler*.js'te 'Schwerin' ad kaydı bulunamadı (grep) → tek dönemli katman kaydı; 1949 öncesi ve 1990 sonrası sahipsiz. Kaynak okunmadı. | KASA SALI uc: öneri iki ucu ya da bütün dönemi değiştirir (bolme)"
+   }
+  ]
+ }
+}
