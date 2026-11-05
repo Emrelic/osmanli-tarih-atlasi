@@ -111,12 +111,15 @@
    "d": "ingiliz-kuzey-amerika",
    "f": "1838-01-01",
    "t": "1867-07-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "kaynak": "Dictionary of Canadian Biography, 'Erlandson, Erland', Cilt X — https://www.biographi.ca/en/bio/erlandson_erland_10E.html",
    "alinti": "in 1838 he built Fort Nascopie on an arm of Lake Petitsikapau",
    "uc": "f",
-   "oneri": {},
-   "not": "f yıl 1838. UYARI t ucu: Petitsikapau Labrador iç kesimidir (Newfoundland/Labrador); 1867-07-01 Konfederasyon ÜLKE DÜZEYİ geçmez, alt-bölge istisnası (Labrador sınırı 1927 JCPC) olabilir — teyit edilmedi."
+   "oneri": {
+    "t": "1949-03-31",
+    "not": "1867 kanada kalkar; s: ingiltere 1809 → newfoundland-dominyonu 1855-01-01 → komisyon 1934-02-16 → kanada 1949-03-31"
+   },
+   "not": "KARAR EMRELİC (gece-126): Labrador 1809–1854 s: ingiltere (koloni künyeleri Emre listesinde; o güne dek metropol künyesi; newfoundland-dominyonu f GENİŞLETİLMEZ). Zincir: s: ingiltere 1809 (Labrador'un Newfoundland'a bağlanışı, kaynakla) → newfoundland-dominyonu 1855-01-01 → newfoundland-komisyon-hukumeti 1934-02-16 → kanada 1949-03-31; iç Labrador tartışması ve 1927 JCPC ic_not. | LAB SALI (origin/main ölçümü): newfoundland-dominyonu (1855-01-01 → 1934-02-16) + newfoundland-komisyon-hukumeti (→ 1949-03-31); 1867 kanada kalkar; 1855 öncesi Newfoundland kolonisi künyesi YOK (Labrador 1809'dan bağlı). | KARAR EMRELİC (gece-124): Labrador iç kesimi alt-bölge istisnası: t 1867-07-01 KALKAR; Labrador 1949'a dek Newfoundland'ın, zincir buna göre; 1927 JCPC kararı ic_not. | f yıl 1838. UYARI t ucu: Petitsikapau Labrador iç kesimidir (Newfoundland/Labrador); 1867-07-01 Konfederasyon ÜLKE DÜZEYİ geçmez, alt-bölge istisnası (Labrador sınırı 1927 JCPC) olabilir — teyit edilmedi."
   }
  ],
  "Fort Rae (Behchokǫ̀)": [
