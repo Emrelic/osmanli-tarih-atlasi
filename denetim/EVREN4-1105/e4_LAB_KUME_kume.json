@@ -194,12 +194,12 @@
   "f": "1792-09-22",
   "satir": 18,
   "hukum": "ONERI",
-  "kaynak": "Larousse, 'Convention nationale' - https://www.larousse.fr/encyclopedie/divers/wd/114563",
+  "kaynak": "Larousse, 'Convention nationale' - https://www.larousse.fr/encyclopedie/divers/wd/114563 ; Assemblée nationale, '21 septembre 1792 - La Convention nationale et la fin de la royauté' — https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/revolution-francaise/la-convention-nationale-et-la-fin-de-la-royaute",
   "alinti": "l'abolition de la royauté et la proclamation de la République (21 septembre)",
   "oneri": {
    "f": "1792-09-21"
   },
-  "not": "KARAR EMRELİC (5 Kas): f 1792-09-21 (Larousse: krallığın kaldırılışı); 22 Eylül 'Yıl I' ic_not'a. ATOMİK: künye f + kümedeki bütün 09-22 uçları (fransa-kralligi t dahil) aynı commit'te; Değişmez 2 maddesinin günü de. KASA'ya TEK KALEM. | Larousse 21 Eylül 1792 (Konvansiyon ilk günü: krallığın kaldırılması ve Cumhuriyet). 22 Eylül = Yıl I başlangıcı/tarihleme kararı (yalnız ipucu kaynaklar). Karar Emre'de."
+  "not": "İKİNCİ KAYNAK (EMRELİC gece-90 isteği): Assemblée nationale resmî tarih sayfası, sayfa.py ile birebir: 'Elle abolit la royauté à l’unanimité le 21 septembre.' Ertesi gün (22) 'an premier de la République' tarihlemesi → ic_not. Larousse + Assemblée nationale = ONERI-güçlü (Furet & Ozouf okunmadı). | KARAR EMRELİC (5 Kas): f 1792-09-21 (Larousse: krallığın kaldırılışı); 22 Eylül 'Yıl I' ic_not'a. ATOMİK: künye f + kümedeki bütün 09-22 uçları (fransa-kralligi t dahil) aynı commit'te; Değişmez 2 maddesinin günü de. KASA'ya TEK KALEM. | Larousse 21 Eylül 1792 (Konvansiyon ilk günü: krallığın kaldırılması ve Cumhuriyet). 22 Eylül = Yıl I başlangıcı/tarihleme kararı (yalnız ipucu kaynaklar). Karar Emre'de."
  },
  {
   "alan": "s",
