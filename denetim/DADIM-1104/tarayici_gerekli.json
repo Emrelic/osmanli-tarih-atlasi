@@ -1,0 +1,472 @@
+[
+ {
+  "ad": "Pekin (Hanbalık)",
+  "dosya_satir": "data/yerlesimler_asya.js:1742",
+  "kaynak": "Cambridge History of China vol. 7 (Ming 1368-1644 Part 1): Li Zicheng'in Pekin'e girişi ve Qing girişinin Batı günleri; Cambridge Core/JSTOR"
+ },
+ {
+  "ad": "Kaesong",
+  "dosya_satir": "data/yerlesimler_asya.js:3468",
+  "kaynak": "Library of Congress, South Korea: A Country Study (Savada & Shaw, 1990) 'Division of Korea' / Korean War bölümleri - Kaesong"
+ },
+ {
+  "ad": "Kaesong",
+  "dosya_satir": "data/yerlesimler_asya.js:3468",
+  "kaynak": "Appleman, South to the Naktong, North to the Yalu (US Army CMH, 1961), Kaesong 1950-06"
+ },
+ {
+  "ad": "Gondar",
+  "dosya_satir": "data/yerlesimler.js:1205",
+  "kaynak": "Encyclopaedia Aethiopica, «Gondär» md. (Gondar'ın kuruluş/ilk anılış yılı) — çevrimiçi erişim doğrulanmadı, tarayıcıyla bakılmalı"
+ },
+ {
+  "ad": "Asmara",
+  "dosya_satir": "data/yerlesimler.js:1394",
+  "kaynak": "Asmara'nın İtalyan eline geçiş günü (1889): Eritre tarihi akademik monografisi/makalesi — tarayıcıyla aranmalı, künye bulunamadı"
+ },
+ {
+  "ad": "N'Gazargamu",
+  "dosya_satir": "",
+  "kaynak": "Nijerya'nın bağımsızlığı 1960-10-01 ve Kuzey Nijerya Protektorası kuruluşu: akademik kaynak (ör. Cambridge History of Africa cilt 7/8) — tarayıcıyla bakılmalı"
+ },
+ {
+  "ad": "Murzuk (Fizan)",
+  "dosya_satir": "data/yerlesimler.js:1120",
+  "kaynak": "TTK/İSAM: Osmanlı Fizan idaresi 16. yy (Kunt, Sancaktan Eyâlete: 1550-1650, s. 177; basılı, erişim yok)"
+ },
+ {
+  "ad": "Zaria (Zazzau)",
+  "dosya_satir": "data/yerlesimler_e9353f.js:257",
+  "kaynak": "Last, M., The Sokoto Caliphate (1967) — Zaria'nın düşüş yılı; kaynak/URL yok, EMRELİC tarayıcısı"
+ },
+ {
+  "ad": "Zaria (Zazzau)",
+  "dosya_satir": "data/yerlesimler_e9353f.js:257",
+  "kaynak": "Cambridge History of Africa / UNESCO General History of Africa V-VI, Fulani jihad bölümü (archive.org ödünç, 401)"
+ },
+ {
+  "ad": "Katsina",
+  "dosya_satir": "data/yerlesimler_e9353f.js:249",
+  "kaynak": "Last, M., The Sokoto Caliphate (1967) — Katsina'nın düşüş yılı; EMRELİC tarayıcısı"
+ },
+ {
+  "ad": "Urfa",
+  "dosya_satir": "data/yerlesimler.js:376",
+  "kaynak": "Memlük idarî taksimatında er-Ruhâ'nın bağlı olduğu niyâbe (Halep?) — ör. Kalkaşandî, Subhu'l-a'şâ / Ömerî, Mesâlik; yayımlı akademik çalışma gerekir, çevrimiçi açık metin bulunamadı"
+ },
+ {
+  "ad": "Humus",
+  "dosya_satir": "data/yerlesimler.js:1676",
+  "kaynak": "Y. Hofman, 'The Administration of Syria and Palestine Under Egyptian Rule (1831-1840)', Studies on Palestine during the Ottoman Period (ed. M. Maoz), Jerusalem 1975, s. 311-333 (Humus'un Mısır idaresine giriş/çıkış günü)"
+ },
+ {
+  "ad": "Vidin",
+  "dosya_satir": "data/yerlesimler.js:483",
+  "kaynak": "M. Kiel, 'The Date of Construction of the Library of Osman Pasvantoğlu in Vidin' ve Kuzev, 'Vosstanie Konstantina i Fružina', Bulgarian Historical Review II/3 (1974), s. 53-69 (Vidin'in Konstantin'e geçiş yılı) — TDV Vidin md. kaynakçası; çevrimiçi açık metin bulunamadı"
+ },
+ {
+  "ad": "Kuça (Kuqa)",
+  "dosya_satir": "data/yerlesimler.js:2923",
+  "kaynak": "Perdue, China Marches West (2005); Cambridge History of Inner Asia, Altishahr 1678-80 Cungar fethi (Kuça)"
+ },
+ {
+  "ad": "Sisam",
+  "dosya_satir": "data/yerlesimler.js:700",
+  "kaynak": "Büyük Devletler Notası Şubat 1914 (Ege adaları Yunanistan'a) gün teyidi: TTK Belleten / İSAM / Cambridge — Ege adaları meselesi makalesi"
+ },
+ {
+  "ad": "Türkistan (Yesi)",
+  "dosya_satir": "data/yerlesimler_ek15.js:133",
+  "kaynak": "Rus Türkistan oblastı (1865) kuruluşu ve Yesi'nin katılışı: Cambridge History of Inner Asia / Becker, Russia's Protectorates in Central Asia"
+ },
+ {
+  "ad": "Adana",
+  "dosya_satir": "data/yerlesimler.js:382",
+  "kaynak": "TDV «Kütahya Antlaşması» / «Mehmed Ali Paşa, Kavalalı»: Adana'nın İbrâhim Paşa'ya devri"
+ },
+ {
+  "ad": "İzmit",
+  "dosya_satir": "data/yerlesimler.js:158",
+  "kaynak": "Millî Mücadele'de İzmit/Kocaeli: İngiliz→Yunan devir günü (DergiPark/YÖK tez)"
+ },
+ {
+  "ad": "Dunhuang",
+  "dosya_satir": "data/yerlesimler_dogu_500_1281.js:2290",
+  "kaynak": "Cambridge History of China vol. 8 (Ming), Hami/Turfan/Shazhou bölümü — 1528-1723 arası Dunhuang'ın sahibi (Turfan Hanlığı, sonra Cungar) için ikincil akademik kaynak; Cambridge/JSTOR erişimi tarayıcı ister"
+ },
+ {
+  "ad": "Zeyla",
+  "dosya_satir": "data/yerlesimler.js:1160",
+  "kaynak": "Bradbury, Becoming Somaliland (James Currey/Progressive 2008) — Burao ilanı günü; erişim: ödünç kitap"
+ },
+ {
+  "ad": "Zeyla",
+  "dosya_satir": "data/yerlesimler.js:1160",
+  "kaynak": "Markus V. Hoehne, Somaliland 30 years after secession (wardheernews yeniden basımı; asıl yayın hakemli dergi/araştırma notu) — 18 May 1991 Burao"
+ },
+ {
+  "ad": "Çanakkale",
+  "dosya_satir": "data/yerlesimler.js:162",
+  "kaynak": "Çanakkale'nin tahliyesinin Türk basınına yansımaları, DergiPark https://dergipark.org.tr/tr/download/article-file/45163 (PDF metni okunamadı; tarayıcıda açılıp 6 Ekim 1923 teslim cümlesi aranmalı)"
+ },
+ {
+  "ad": "Esterâbâd (Gürgân)",
+  "dosya_satir": "data/yerlesimler.js:2246",
+  "kaynak": "Cambridge History of Iran, vol. 7 (Zand/Qajar, 1991) — açık erişim yok; archive.org ödünç"
+ },
+ {
+  "ad": "Şamahı",
+  "dosya_satir": "data/yerlesimler.js:813",
+  "kaynak": "Bayramova, A. (2005), sy. 217 — TDV Şirvan'ın dayandığı makale; Şemâhî Hanlığı-Kaçar ilişkisi"
+ },
+ {
+  "ad": "Zhengding",
+  "dosya_satir": "data/yerlesimler_asya.js:1763",
+  "kaynak": "Academia Sinica Tarih Karşılaştırma Çizelgesi — Hongwu 1, 9. ay 乙丑 (EMRELİC toplu çevirisi)"
+ },
+ {
+  "ad": "Zhengding",
+  "dosya_satir": "data/yerlesimler_asya.js:1764",
+  "kaynak": "Academia Sinica Tarih Karşılaştırma Çizelgesi — Shunzhi 1, 5. ay 乙未 (EMRELİC toplu çevirisi)"
+ },
+ {
+  "ad": "Seleukeia",
+  "dosya_satir": "data/yerlesimler_mo_zincir.js:8",
+  "kaynak": "Encyclopaedia Iranica, «Seleucia on the Tigris» (tarayıcıyla slug aranmalı; erişilen sayfa yok)"
+ },
+ {
+  "ad": "Nadia (Navadvipa/Nabadwip)",
+  "dosya_satir": "data/yerlesimler_nokta2.js:None",
+  "kaynak": "Encyclopaedia Iranica «Bakhtiyār Khaljī» / EI2 «Nudiya»: Nadia'nın alınış yılı (1203/1204)"
+ },
+ {
+  "ad": "Lahsa",
+  "dosya_satir": "data/yerlesimler.js:894",
+  "kaynak": "TDV «Suudi Arabistan» md. https://islamansiklopedisi.org.tr/suudi-arabistan (Mayıs 1914 anlaşması günü için, okunmadı)"
+ },
+ {
+  "ad": "Namur",
+  "dosya_satir": "",
+  "kaynak": "Aix-la-Chapelle 1748 antlaşması metni/akademik monografi (t için): kaynak aranmadı"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2013",
+  "kaynak": "Cambridge History of China vol.7 (Ming 1368-1644, Part 1), Yuan sonu Yangzhou/Zhang Mingjian (Qingyi army) 1356-57 — JSTOR/archive.org ödünç"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2014",
+  "kaynak": "Cambridge History of China vol.7 Part 1, ch.9 (Nan-Ming; Yangzhou 1645) ve Frederic Wakeman, The Great Enterprise — ödünç/JSTOR"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2015",
+  "kaynak": "Cambridge History of China vol.10 Part 1, ch.5 (Kuhn, Origins of the Taiping Vision / Rebellion and Its Enemies) — Yangzhou 1853"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2016",
+  "kaynak": "Cambridge History of China vol.10 Part 1, ch.5; Spence, God's Chinese Son (Yangzhou 1853-54 Jiangbei Daying kuşatması)"
+ },
+ {
+  "ad": "Yangzhou",
+  "dosya_satir": "data/yerlesimler_asya.js:2017",
+  "kaynak": "Cambridge History of China vol.10 Part 1 ve vol.11 (Xinhai, Yangzhou/Jiangsu 1911) — JSTOR"
+ },
+ {
+  "ad": "Vladimir",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:263",
+  "kaynak": "Cambridge History of Russia vol.1 (Perrie), ch. Moscow's rise / İvan Kalita 1328 yarlık — ödünç/JSTOR"
+ },
+ {
+  "ad": "Vladimir",
+  "dosya_satir": "data/yerlesimler_h2_rusya.js:263",
+  "kaynak": "Great Russian Encyclopedia 'Vladimir' (bigenc.ru) — tarayıcıyla"
+ },
+ {
+  "ad": "Saraybosna",
+  "dosya_satir": "data/yerlesimler.js:577",
+  "kaynak": "Enciklopedija Jugoslavije 'Sarajevo' (1968-71), kurtuluş günü — tarayıcı/kütüphane"
+ },
+ {
+  "ad": "Saraybosna",
+  "dosya_satir": "data/yerlesimler.js:577",
+  "kaynak": "Hrvatska enciklopedija/Bosanski leksikon 'Sarajevo, oslobođenje 1945' gün teyidi"
+ },
+ {
+  "ad": "Surabaya",
+  "dosya_satir": "data/yerlesimler_asya.js:4128",
+  "kaynak": "Ricklefs, A History of Modern Indonesia since c.1200 (Palgrave/Stanford) — Majapahit'in sonu ve Surabaya; ya da Cambridge History of Southeast Asia I (Tarling ed.)"
+ },
+ {
+  "ad": "Bergamo",
+  "dosya_satir": "data/yerlesimler_avrupa.js:475",
+  "kaynak": "Zürih Antlaşması 10 Kasım 1859 (Lombardiya'nın Sardinya'ya devri): Treccani/Dizionario di Storia ya da akademik monografi (ör. Cambridge New Modern History vol. XI) — tarayıcıyla aranmalı"
+ },
+ {
+  "ad": "Polotsk",
+  "dosya_satir": "data/yerlesimler_ek7.js:158",
+  "kaynak": "Cambridge History of Poland, I (1950), Polotsk 1579 Báthory seferi (archive.org ödünç olabilir)"
+ },
+ {
+  "ad": "Polotsk",
+  "dosya_satir": "data/yerlesimler_ek7.js:158",
+  "kaynak": "Journal of Belarusian Studies I/1 (1965) \"The Taking of Polack — 1579\""
+ },
+ {
+  "ad": "Gümrü (Aleksandropol)",
+  "dosya_satir": "data/yerlesimler_ek26.js:88",
+  "kaynak": "Bournoutian, George A., Russia and the Armenians of Transcaucasia, 1797-1889: A Documentary Record, Mazda 1998 (Shirak/Gümrü'nün Rus denetimine geçişi)"
+ },
+ {
+  "ad": "Gümrü (Aleksandropol)",
+  "dosya_satir": "data/yerlesimler_ek26.js:88",
+  "kaynak": "Cambridge History of Iran vol. 7, 'Iranian Armenia'/Gulistan sınırı (Gümrü Erivan hanlığında mıydı?)"
+ },
+ {
+  "ad": "Gümrü (Aleksandropol)",
+  "dosya_satir": "data/yerlesimler_ek26.js:88",
+  "kaynak": "Kars paşalığı sınırı ve Gümrü (Şuregel): TDV 'Kars' + Adrianople 1829 (Ahıska) — Gümrü'nün 1828'de Osmanlı Kars eyaletinden alındığı mı, Erivan hanlığından mı?"
+ },
+ {
+  "ad": "Tikrit",
+  "dosya_satir": "data/yerlesimler.js:2074",
+  "kaynak": "Moberly, The Campaign in Mesopotamia 1914-1918, c.IV (Tikrit 12 Temmuz 1918 işgali) — archive.org ödünç/tam metin; Tikrit'in kalıcı işgal günü (Kasım 1918?) ayrıca teyit gerek"
+ },
+ {
+  "ad": "Gvalyar (Gwalior)",
+  "dosya_satir": "data/yerlesimler_asya.js:881",
+  "kaynak": "Imperial Gazetteer of India 1908 «Gwalior» (archive.org açık cilt) — 1761 Gohad / 1777 / 1783 Sindhia sırası"
+ },
+ {
+  "ad": "Hiraizumi (Ōshū Fujiwara başkenti)",
+  "dosya_satir": "data/yerlesimler_nokta2.js:None",
+  "kaynak": "UNESCO WHC 1277 https://whc.unesco.org/en/list/1277/ (sayfa.py 3 denemede HTTP 503; tarayıcıyla açılıp 1189 cümlesi ham okunmalı)"
+ },
+ {
+  "ad": "Mulhouse",
+  "dosya_satir": "data/yerlesimler_avrupa.js:225",
+  "kaynak": "Historisches Lexikon der Schweiz 'Mülhausen' https://hls-dhs-dss.ch/de/articles/007089/ (403, tarayıcıyla; arama özeti: 1515-1798 zugewandter Ort, 4 Ocak 1798 oylama, 15 Mart 1798 birleşme; okunmadı)"
+ },
+ {
+  "ad": "Yalova",
+  "dosya_satir": "data/yerlesimler.js:113",
+  "kaynak": "Nuri Taner, Yalova'da Millî Mücadele 1920-1922 Günlüğü (kitap; işgalin tekrarları ve nihai kurtuluş günü)"
+ },
+ {
+  "ad": "Sarp",
+  "dosya_satir": "data/yerlesimler_ek27.js:46",
+  "kaynak": "M. Fahrettin Kırzıoğlu, Osmanlılar’ın Kafkas-Elleri’ni Fethi: 1451-1590, Ankara 1976 (Batum/Gönye fethi yılı)"
+ },
+ {
+  "ad": "Sarp",
+  "dosya_satir": "data/yerlesimler_ek27.js:46",
+  "kaynak": "N. N. Shengelia, 'Ottoman Arzas Concerning Batumi', JTS VII (1984), 377-402"
+ },
+ {
+  "ad": "Sarp",
+  "dosya_satir": "data/yerlesimler_ek27.js:46",
+  "kaynak": "Moskova Antlaşması 1921-03-16 m.2 sınır tarifi (Sarp köyü), neşredilmiş metin / TTK Belgeler"
+ },
+ {
+  "ad": "Sarp",
+  "dosya_satir": "data/yerlesimler_ek27.js:47",
+  "kaynak": "Moskova Antlaşması 1921-03-16 m.2 sınır tarifi (Sarp köyü), neşredilmiş metin / TTK Belgeler"
+ },
+ {
+  "ad": "Hoy",
+  "dosya_satir": "data/yerlesimler.js:2045",
+  "kaynak": "Kütükoğlu, Osmanlı-İran Siyâsî Münâsebetleri 1578-1612, Ankara 1993, s.43-44 (Hoy'un ilk Osmanlı hâkimiyeti) - kütüphane/tarayıcı"
+ },
+ {
+  "ad": "Cinci (Gingee)",
+  "dosya_satir": "data/yerlesimler_asya.js:1546",
+  "kaynak": "Sarkar, Shivaji and His Times (Gingee 1649)"
+ },
+ {
+  "ad": "Cinci (Gingee)",
+  "dosya_satir": "data/yerlesimler_asya.js:1546",
+  "kaynak": "Srinivasachari, History of Gingee and its Rulers"
+ },
+ {
+  "ad": "Pondişeri",
+  "dosya_satir": "data/yerlesimler_asya.js:1477",
+  "kaynak": "Imperial Gazetteer of India 1908, vol. 20, 'Pondicherry' — https://dsal.uchicago.edu/reference/gazetteer/ (sayfa.py ile doğrudan bulunamadı)"
+ },
+ {
+  "ad": "Bolgrad (Bolhrad)",
+  "dosya_satir": "data/yerlesimler_p0037.js:54",
+  "kaynak": "ceeol.com/content-files/document-85452.pdf — \"The Treaty of Paris (1856) and the Bolgrad ...\" (indirme HTML dönüyor, PDF değil; tarayıcıyla açılmalı)"
+ },
+ {
+  "ad": "Białystok",
+  "dosya_satir": "data/yerlesimler_p0037.js:92",
+  "kaynak": "Jan Snopko, Polityka władz niemieckich (Ober-Ost) wobec Białegostoku i Grodna, Studia Podlaskie 22 — repozytorium.uwb.edu.pl (PDF tarayıcıyla açılmalı; 1915-08 Alman işgali, 1918-03-03 sonrası statü, 1919-02-22 Polonya girişi günleri)"
+ },
+ {
+  "ad": "Borçka",
+  "dosya_satir": "data/yerlesimler_ek28.js:107",
+  "kaynak": "Batum Antlaşması metni (4 Haziran 1918): İsmail Soysal, Türkiye’nin Siyasal Andlaşmaları, Ankara 1983, I — basılı/tarayıcı; ya da TTK Belleten makalesi"
+ },
+ {
+  "ad": "Meşhed",
+  "dosya_satir": "data/yerlesimler.js:1202",
+  "kaynak": "Encyclopaedia Iranica, 'Mashhad' (History) — iranicaonline.org (slug tahmin edilmedi; tarayıcıyla aranmalı)"
+ },
+ {
+  "ad": "Vonitsa",
+  "dosya_satir": "data/yerlesimler.js:1618",
+  "kaynak": "Vonitsa/Acarnania'nın Yunan krallığına fiilî devri (1829-1832): Londra Protokolü 3 Şubat 1830 / Konstantinopolis Antlaşması 21 Temmuz 1832 sınır metinleri (akademik monografi; erişilemedi)"
+ },
+ {
+  "ad": "Eşref (Behşehr)",
+  "dosya_satir": "data/yerlesimler.js:2243",
+  "kaynak": "H. L. Rabino, Mázandarán and Astarábád, London 1928, s. 45-50 (Mar'aşî-Timurlu 1405 sonrası)"
+ },
+ {
+  "ad": "Eşref (Behşehr)",
+  "dosya_satir": "data/yerlesimler.js:2243",
+  "kaynak": "J. Calmard, 'Mar'ashis', EI2 VI, 510-518"
+ },
+ {
+  "ad": "Butrint (Butrinto)",
+  "dosya_satir": "data/yerlesimler_epir.js:245",
+  "kaynak": "Kate Fleming, The Muslim Bonaparte: Diplomacy and Orientalism in Ali Pasha's Greece, Princeton UP 2014, s. 70-71 (Butrint 1798/99) — JSTOR/ödünç kitap"
+ },
+ {
+  "ad": "Butrint (Butrinto)",
+  "dosya_satir": "data/yerlesimler_epir.js:245",
+  "kaynak": "Şakul, K., Tepedelenli Ali Paşa ile ilgili çalışma, s. 117 vd. (TDV kaynakçası)"
+ },
+ {
+  "ad": "Sarıkamış",
+  "dosya_satir": "data/yerlesimler_ek28.js:121",
+  "kaynak": "Tuncay Öğün, Osmanlı-Rus Harplerinde Sarıkamış ve Sarıkamış Kasabasının Ortaya Çıkışı, İnönü Ü. SBE yüksek lisans tezi, 1992 — YÖK Ulusal Tez Merkezi (https://tez.yok.gov.tr)"
+ },
+ {
+  "ad": "Vinh Long",
+  "dosya_satir": "data/yerlesimler_gdasya.js:241",
+  "kaynak": "Cady / Cambridge History of Southeast Asia (JSTOR ya da kitap): Vinh Long eyaletinin 20-24 Haziran 1867 ilhakı"
+ },
+ {
+  "ad": "Vinh Long",
+  "dosya_satir": "data/yerlesimler_gdasya.js:241",
+  "kaynak": "Cady / Cambridge History of Southeast Asia (JSTOR ya da kitap): Vinh Long eyaletinin 20-24 Haziran 1867 ilhakı"
+ },
+ {
+  "ad": "Tra Vinh",
+  "dosya_satir": "data/yerlesimler_gdasya.js:297",
+  "kaynak": "Cady / Cambridge History of Southeast Asia (JSTOR ya da kitap): Vinh Long eyaletinin 20-24 Haziran 1867 ilhakı"
+ },
+ {
+  "ad": "Tra Vinh",
+  "dosya_satir": "data/yerlesimler_gdasya.js:297",
+  "kaynak": "Cady / Cambridge History of Southeast Asia (JSTOR ya da kitap): Vinh Long eyaletinin 20-24 Haziran 1867 ilhakı"
+ },
+ {
+  "ad": "Doğubayazıt",
+  "dosya_satir": "data/yerlesimler_ek26.js:114",
+  "kaynak": "Kaya 2017, İnsan ve Toplum Bilimleri Araştırmaları Dergisi 6/5 (DergiPark) — Doğubayazıt 23 Haziran 1534 cümlesi ham metinden okunmalı"
+ },
+ {
+  "ad": "Castletown (Man)",
+  "dosya_satir": "data/yerlesimler_nokta2.js:None",
+  "kaynak": "A. W. Moore, A History of the Isle of Man (1900), archive.org — 1275, 1290, 1313, 1333, 1346 cümleleri; ya da R. H. Kinvig, The Isle of Man: A Social, Cultural and Political History"
+ },
+ {
+  "ad": "Auxerre",
+  "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:79",
+  "kaynak": "NCMH VII (ed. Allmand, 1998) c.19a ve c.20 — archive.org ödünç (tarayıcı/giriş), Arras 21 Eylül 1435 gün teyidi"
+ },
+ {
+  "ad": "Tancûr (Thanjavur)",
+  "dosya_satir": "data/yerlesimler_asya.js:1508",
+  "kaynak": "K. A. Nilakanta Sastri, A History of South India (Oxford 1955) — Pandya/Hoysala 13. yy Tanjore; basılı/ödünç, Emre girişi"
+ },
+ {
+  "ad": "Uccayn (Ujjain)",
+  "dosya_satir": "data/yerlesimler_asya.js:850",
+  "kaynak": "Stewart Gordon, The Marathas 1600-1818 (NCHI II.4), 1993 — https://archive.org/details/marathas160018180000gord (ödünç 401, Emre girişi)"
+ },
+ {
+  "ad": "Uccayn (Ujjain)",
+  "dosya_satir": "data/yerlesimler_asya.js:850",
+  "kaynak": "Cambridge History of India vol. IV (Mughal Period), 1937 — https://archive.org/details/cambridgehistory0004edit (401, Emre girişi)"
+ },
+ {
+  "ad": "Mandu (Mândû)",
+  "dosya_satir": "data/yerlesimler_asya.js:840",
+  "kaynak": "CHI IV (Mughal, 1937) Mâlvâ 1732 — Cambridge Core/JSTOR, Emre girişi"
+ },
+ {
+  "ad": "Mandu (Mândû)",
+  "dosya_satir": "data/yerlesimler_asya.js:841",
+  "kaynak": "CHI IV (Mâlvâ 1732) ve NCHI II.4 Gordon «Marathas 1600-1818» — Emre girişi"
+ },
+ {
+  "ad": "Bîcâpur (Bijapur)",
+  "dosya_satir": "data/yerlesimler_asya.js:1236",
+  "kaynak": "CHI V ch. XXII «Final struggle with the Marathas» s. 380-382 (OCR araması isabetsiz) — Emre girişi"
+ },
+ {
+  "ad": "Bîcâpur (Bijapur)",
+  "dosya_satir": "data/yerlesimler_asya.js:1236",
+  "kaynak": "NCHI II.4 Gordon, Marathas 1600-1818 (Cambridge Core)"
+ },
+ {
+  "ad": "Vijayanagara (Hampi)",
+  "dosya_satir": "data/yerlesimler_asya.js:1386",
+  "kaynak": "Vijayanagara kuruluşu 1336 — NCHI I.? Stein / Sewell, Cambridge Core (Emre girişi)"
+ },
+ {
+  "ad": "Vijayanagara (Hampi)",
+  "dosya_satir": "data/yerlesimler_asya.js:1391",
+  "kaynak": "CHI V Wellesley / Subsidiary Alliance Haydarâbâd 1800 (Cambridge Core) — Emre girişi"
+ },
+ {
+  "ad": "Moulmein (Mawlamyine)",
+  "dosya_satir": "data/yerlesimler_asya.js:3688",
+  "kaynak": "Hall, D. G. E. A History of South-East Asia (Macmillan, 4. baskı 1981), Konbaung/Tenasserim bölümü — Emre girişi / kütüphane"
+ },
+ {
+  "ad": "Moulmein (Mawlamyine)",
+  "dosya_satir": "data/yerlesimler_asya.js:3688",
+  "kaynak": "Cady, John F. A History of Modern Burma (Cornell 1958) — archive.org ödünç (401) — Emre girişi"
+ },
+ {
+  "ad": "Moulmein (Mawlamyine)",
+  "dosya_satir": "data/yerlesimler_asya.js:3689",
+  "kaynak": "Cady, John F. A History of Modern Burma (Cornell 1958) — archive.org ödünç (401) — Emre girişi"
+ },
+ {
+  "ad": "Moulmein (Mawlamyine)",
+  "dosya_satir": "data/yerlesimler_asya.js:3689",
+  "kaynak": "Hall, D. G. E. History of South-East Asia / Burma (Hutchinson) — Emre girişi"
+ },
+ {
+  "ad": "Moulmein (Mawlamyine)",
+  "dosya_satir": "data/yerlesimler_asya.js:3689",
+  "kaynak": "Cambridge Core: Cambridge History of Southeast Asia vol. 2 (ed. N. Tarling) Burma bölümü — Emre girişi"
+ },
+ {
+  "ad": "Toungoo",
+  "dosya_satir": "data/yerlesimler_asya.js:3665",
+  "kaynak": "Hall, D. G. E. A History of South-East Asia; Cady, A History of Modern Burma — Emre girişi"
+ },
+ {
+  "ad": "Toungoo",
+  "dosya_satir": "data/yerlesimler_asya.js:3666",
+  "kaynak": "Cady, John F. A History of Modern Burma (1958) — ödünç kilitli (401) — Emre girişi"
+ },
+ {
+  "ad": "Toungoo",
+  "dosya_satir": "data/yerlesimler_asya.js:3666",
+  "kaynak": "Hall, D. G. E. Burma (Hutchinson 1950) / A History of South-East Asia — Emre girişi"
+ },
+ {
+  "ad": "Çanakkale",
+  "dosya_satir": "data/yerlesimler.js:162",
+  "kaynak": "Reyhan Körpe (ÇOMÜ) — Çimenlik/Sarıçay ağzı 14. yy başı Bituperi/Vituperio liman yerleşimi; makale künyesi bulunamadı (DergiPark / ÇOMÜ Tarih Dergisi / Temmuz 2026 haberleri). Bulunursa kur 1452 geri çekilir (EMRELİC/UMIT)."
+ }
+]

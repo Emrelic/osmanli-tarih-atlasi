@@ -1,0 +1,167 @@
+{
+ "karar": "KOORDİNATÖR KARARI (EMRELİC, 5 Kasım 2026 gece-21): avusturya-cumhuriyet künye f → 1918-10-30 (Geçici Millî Meclis devleti kurdu, Devlet Konseyi idareyi fiilen devraldı; TDV; Prag 10-28 / Zagreb 10-29 emsali). Karl'ın 11-11 feragati ve 11-12 cumhuriyet ilanı rejim değişimi → ic_not. Habsburg künye t 11-11/12 kalabilir (künye örtüşmesi hayalet değil). Yerleşim dönemi 10-30'dan s: avusturya-cumhuriyet; künye f değişikliği LAB'a, satırlar künyeyle aynı commit'te. ",
+ "satirlar": [
+  {
+   "ad": "Viyana",
+   "dosya_satir": "data/yerlesimler.js:1164",
+   "parca": "{f:\"1918-11-12\",t:\"1923-10-29\",k:1,m:null}",
+   "d": null
+  },
+  {
+   "ad": "Viyana",
+   "dosya_satir": "data/yerlesimler.js:1164",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"Parlament Österreich, 'Geburt der Republik' (parlament.gv.at): 'Am 12. November 1918 wird in Öst",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Graz",
+   "dosya_satir": "data/yerlesimler.js:1165",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"Parlament Österreich, 'Geburt der Republik': 'Am 12. November 1918 wird in Österreich die Erste ",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Freistadt",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:59",
+   "parca": "{f:\"1281-01-01\",t:\"1918-11-12\",d:\"avusturya\",kaynak:\"AVMAC-B-1029 DÜZELTME: eski almanya→avusturya 1526-08-29 kırılması Mohaç günüydü ama Mohaç bu kentin sahibi",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Freistadt",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:59",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Linz",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:62",
+   "parca": "{f:\"1281-01-01\",t:\"1918-11-12\",d:\"avusturya\",kaynak:\"AVMAC-B-1029 DÜZELTME: eski almanya→avusturya 1526-08-29 kırılması Mohaç günüydü ama Mohaç bu kentin sahibi",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Linz",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:62",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Gmünd (Aşağı Avusturya)",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:65",
+   "parca": "{f:\"1281-01-01\",t:\"1918-11-12\",d:\"avusturya\",kaynak:\"AVMAC-B-1029 DÜZELTME: eski almanya→avusturya 1526-08-29 kırılması Mohaç günüydü ama Mohaç bu kentin sahibi",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Gmünd (Aşağı Avusturya)",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:65",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Bregenz",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:90",
+   "parca": "{f:\"1814-06-03\",t:\"1918-11-12\",d:\"avusturya\"}",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Bregenz",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:90",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Feldkirch",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:93",
+   "parca": "{f:\"1814-06-03\",t:\"1918-11-12\",d:\"avusturya\"}",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Feldkirch",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:93",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Landeck",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:103",
+   "parca": "{f:\"1814-06-03\",t:\"1918-11-12\",d:\"avusturya\"}",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Landeck",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:103",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Innsbruck",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:106",
+   "parca": "{f:\"1814-06-03\",t:\"1918-11-12\",d:\"avusturya\"}",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Innsbruck",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:106",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Lienz",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:109",
+   "parca": "{f:\"1814-06-03\",t:\"1918-11-12\",d:\"avusturya\"}",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Lienz",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:109",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Klagenfurt",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:112",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Villach",
+   "dosya_satir": "data/yerlesimler_avrupa.js:493",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"DEVRALMA (DUNYA-1102 D adımı (c), 3 Kasım 2026): dönemin açılış kırılmasını anlatan kronoloji ma",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Opava (Troppau)",
+   "dosya_satir": "data/yerlesimler_avrupa.js:580",
+   "parca": "{f:\"1918-11-12\",t:\"1918-12-20\",d:\"avusturya-cumhuriyet\",kaynak:\"opava-city.cz «Town history»: 29 Ekim - 20 Aralık 1918 Opava Alman-Avusturya'nın Sudetenland eya",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Haliç",
+   "dosya_satir": "data/yerlesimler_ms1_1281_yeni.js:142",
+   "parca": "{f:\"1772-08-05\",t:\"1918-11-12\",d:\"habsburg\",kesinlik:\"gun\",kaynak:\"I. Taksim antlaşması 5 Ağustos 1772 (Lvov ile aynı gün; eski kayıt 1772-01-01 yıl-temsilîydi)",
+   "d": "habsburg"
+  },
+  {
+   "ad": null,
+   "dosya_satir": "data/yerlesimler_nokta3.js:22",
+   "parca": "{\"f\": \"1918-11-12\", \"t\": \"1938-03-13\", \"d\": \"avusturya-cumhuriyet\"}",
+   "d": null
+  },
+  {
+   "ad": "Salzburg",
+   "dosya_satir": "data/yerlesimler_once1281_avrupa.js:46",
+   "parca": "{f:\"1816-04-14\",t:\"1918-11-12\",d:\"avusturya\",kaynak:\"HLB «Salzachkreis (1810-1816)»: Münchner Vertrag 14. April 1816 — Bayern trat «das Innviertel … sowie das F",
+   "d": "avusturya"
+  },
+  {
+   "ad": "Salzburg",
+   "dosya_satir": "data/yerlesimler_once1281_avrupa.js:47",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"Linz emsali (Yukarı Avusturya merkezi, aynı zincir)\"}",
+   "d": "avusturya-cumhuriyet"
+  },
+  {
+   "ad": "Hartberg",
+   "dosya_satir": "data/yerlesimler_p77_avrupa.js:51",
+   "parca": "{f:\"1918-11-12\",t:\"1938-03-13\",d:\"avusturya-cumhuriyet\",kaynak:\"Parlament Österreich, 'Geburt der Republik': 'Am 12. November 1918 wird in Österreich die Erste ",
+   "d": "avusturya-cumhuriyet"
+  }
+ ]
+}

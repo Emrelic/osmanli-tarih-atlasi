@@ -1,0 +1,105 @@
+{
+ "aciklama": "EMRELİC kararları 4 Kasım 2026 gece (S1, S4/S7) — KASA toplu kural uygulaması; günler kaynaktan.",
+ "desenler": {
+  "Kıbrıs 1878-1914": [
+   {
+    "yer": "Lefkoşa",
+    "dosya_satir": "data/yerlesimler.js:686",
+    "simdiki": "s: ingiltere 1878-06-04 → 1960-08-16",
+    "oneri": "d: OSMANLI + isg ingiltere 1878-06-04 → 1914-11-05; s: ingiltere 1914-11-05"
+   },
+   {
+    "yer": "Magosa",
+    "dosya_satir": "data/yerlesimler.js:687",
+    "simdiki": "s: ingiltere 1878-06-04 → 1960-08-16",
+    "oneri": "d: OSMANLI + isg ingiltere 1878-06-04 → 1914-11-05; s: ingiltere 1914-11-05"
+   },
+   {
+    "yer": "Girne (Kyrenia)",
+    "dosya_satir": "data/yerlesimler.js:1925",
+    "simdiki": "s: ingiltere 1878-06-04 → 1960-08-16",
+    "oneri": "d: OSMANLI + isg ingiltere 1878-06-04 → 1914-11-05; s: ingiltere 1914-11-05"
+   },
+   {
+    "yer": "Baf (Paphos)",
+    "dosya_satir": "data/yerlesimler.js:1926",
+    "simdiki": "s: ingiltere 1878-06-04 → 1960-08-16",
+    "oneri": "d: OSMANLI + isg ingiltere 1878-06-04 → 1914-11-05; s: ingiltere 1914-11-05"
+   },
+   {
+    "yer": "Limasol",
+    "dosya_satir": "data/yerlesimler.js:1927",
+    "simdiki": "s: ingiltere 1878-06-04 → 1960-08-16",
+    "oneri": "d: OSMANLI + isg ingiltere 1878-06-04 → 1914-11-05; s: ingiltere 1914-11-05"
+   },
+   {
+    "yer": "Tuzla (Larnaka)",
+    "dosya_satir": "data/yerlesimler.js:1928",
+    "simdiki": "s: ingiltere 1878-06-04 → 1960-08-16",
+    "oneri": "d: OSMANLI + isg ingiltere 1878-06-04 → 1914-11-05; s: ingiltere 1914-11-05"
+   }
+  ],
+  "Cezayir 1830-34": [
+   {
+    "yer": "Cezayir",
+    "dosya_satir": "data/yerlesimler.js:1124",
+    "simdiki": "s: fransa-cumhuriyet 1830-07-05 → 1962-07-05",
+    "oneri": "isg fransa 1830-07-05 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Oran",
+    "dosya_satir": "data/yerlesimler.js:1126",
+    "simdiki": "s: fransa-cumhuriyet 1831-01-04 → 1962-07-05",
+    "oneri": "isg fransa 1831-01-04 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Annaba",
+    "dosya_satir": "data/yerlesimler.js:1156",
+    "simdiki": "s: fransa-cumhuriyet 1832-03-01 → 1962-07-05",
+    "oneri": "isg fransa 1832-03-01 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Bicâye",
+    "dosya_satir": "data/yerlesimler.js:1158",
+    "simdiki": "s: fransa-cumhuriyet 1833-09-29 → 1962-07-05",
+    "oneri": "isg fransa 1833-09-29 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Şerşel (Cherchell)",
+    "dosya_satir": "data/yerlesimler.js:1737",
+    "simdiki": "s: fransa-cumhuriyet 1830-07-05 → 1962-07-05",
+    "oneri": "isg fransa 1830-07-05 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Medea (Titteri)",
+    "dosya_satir": "data/yerlesimler.js:1738",
+    "simdiki": "s: fransa-cumhuriyet 1830-07-05 → 1962-07-05",
+    "oneri": "isg fransa 1830-07-05 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Mersa'l-Kebîr",
+    "dosya_satir": "data/yerlesimler_ek3.js:64",
+    "simdiki": "s: fransa-cumhuriyet 1831-01-04 → 1962-07-05",
+    "oneri": "isg fransa 1831-01-04 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Blida",
+    "dosya_satir": "data/yerlesimler_afrika.js:559",
+    "simdiki": "s: fransa-cumhuriyet 1830-07-05 → 1962-07-05",
+    "oneri": "isg fransa 1830-07-05 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Miliana",
+    "dosya_satir": "data/yerlesimler_afrika.js:563",
+    "simdiki": "s: fransa-cumhuriyet 1830-07-05 → 1962-07-05",
+    "oneri": "isg fransa 1830-07-05 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   },
+   {
+    "yer": "Mustagānim",
+    "dosya_satir": "data/yerlesimler_afrika.js:582",
+    "simdiki": "s: fransa-cumhuriyet 1833-07-28 → 1962-07-05",
+    "oneri": "isg fransa 1833-07-28 → 1834-07-22; v: Cezayir Ocağı (Osmanlı) sürer; s: fransa 1834-07-22 (Genel Valilik kararnamesi)"
+   }
+  ]
+ }
+}

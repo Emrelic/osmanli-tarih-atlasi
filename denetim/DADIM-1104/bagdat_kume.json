@@ -1,0 +1,770 @@
+{
+ "kunye_olcum": {
+  "celayirli": {
+   "f": "1340-01-01",
+   "t": "1431-01-01"
+  },
+  "karakoyunlu": {
+   "f": "1351-01-01",
+   "t": "1469-12-19"
+  },
+  "akkoyunlu": {
+   "f": "1340-01-01",
+   "t": "1514-01-01"
+  },
+  "timurlu": {
+   "f": "1370-04-09",
+   "t": "1507-05-24"
+  },
+  "safevi": {
+   "f": "1501-07-01",
+   "t": "1736-03-08"
+  },
+  "ilhanli": {
+   "f": "1256-01-01",
+   "t": "1353-01-01"
+  },
+  "musasa": {
+   "f": "1442-01-16",
+   "t": "yok"
+  },
+  "olcum": "C:/atlas/.claude/worktrees/umit-1104-dadim/data/devletler.js, id satırının ilk f:/t: alanı; Celâyirli, Karakoyunlu, Akkoyunlu, Timurlu künyeleri TDV ile uyumlu görünüyor.",
+  "celayirli_t_onerisi": "MEVCUT 1431-01-01 DOĞRU: TDV «Celâyirliler» \"1340-1431 yılları arasında\", II. Hüseyin 827-835 (1424-1431), Hille Kalesi’nin düşüşü (1431). Atlastaki yerleşim satırlarının 1410/1411 t’si KÜNYE değil, Bağdat’ın kaderidir; hanedan Hille/Vâsıt ekseninde 1431’e kadar yaşadı. Künye genişletmeye gerek yok; gün 1431-09-09 (835 H başı) bulunursa 1431-01-01 → 1431-09-09 alt sınır olarak değerlendirilebilir (yalnız yıl teyitliyse 1431-01-01 kalsın)."
+ },
+ "kaynaklar": [
+  {
+   "künye": "TDV Celâyirliler",
+   "url": "https://islamansiklopedisi.org.tr/celayirliler",
+   "okundu": true
+  },
+  {
+   "künye": "TDV Karakoyunlular",
+   "url": "https://islamansiklopedisi.org.tr/karakoyunlular",
+   "okundu": true
+  },
+  {
+   "künye": "TDV Akkoyunlular",
+   "url": "https://islamansiklopedisi.org.tr/akkoyunlular",
+   "okundu": true
+  },
+  {
+   "künye": "TDV Bağdat (116 KB; anahtar taramalı okuma)",
+   "url": "https://islamansiklopedisi.org.tr/bagdat",
+   "okundu": true
+  },
+  {
+   "künye": "TDV Vâsıt",
+   "url": "https://islamansiklopedisi.org.tr/vasit",
+   "okundu": true
+  },
+  {
+   "künye": "TDV Hille",
+   "url": "https://islamansiklopedisi.org.tr/hille",
+   "okundu": true,
+   "not": "ham metin 3,4 KB, anahtar eşleşmesi yok (maddesi kısa/arayüz) — içerik BULUNAMADI"
+  },
+  {
+   "künye": "TDV Necef",
+   "url": "https://islamansiklopedisi.org.tr/necef",
+   "okundu": true,
+   "not": "dönem zinciri yok; yalnız İlhanlı imarı"
+  },
+  {
+   "künye": "TDV Kerbelâ",
+   "url": "https://islamansiklopedisi.org.tr/kerbela",
+   "okundu": true
+  },
+  {
+   "künye": "TDV Kûfe",
+   "url": "https://islamansiklopedisi.org.tr/kufe",
+   "okundu": true,
+   "not": "anahtar eşleşmesi yok"
+  },
+  {
+   "künye": "TDV Basra",
+   "url": "https://islamansiklopedisi.org.tr/basra",
+   "okundu": true
+  },
+  {
+   "künye": "TDV Sâmerrâ",
+   "url": "https://islamansiklopedisi.org.tr/samerra",
+   "okundu": true,
+   "not": "anahtar eşleşmesi yok"
+  },
+  {
+   "künye": "TDV Tikrit",
+   "url": "https://islamansiklopedisi.org.tr/tikrit",
+   "okundu": true
+  },
+  {
+   "künye": "TDV Hânekîn",
+   "url": "https://islamansiklopedisi.org.tr/hanekin",
+   "okundu": false,
+   "not": "slug arama sayfasına döndü; madde yok"
+  },
+  {
+   "künye": "TDV Müşa‘şa‘lar",
+   "url": "https://islamansiklopedisi.org.tr/musasalar",
+   "okundu": true
+  },
+  {
+   "künye": "Iranica (Jalayerids/Qara Qoyunlu)",
+   "url": "-",
+   "okundu": false,
+   "not": "bütçe nedeniyle denenmedi; ikinci bağımsız kaynak yok → hiçbir gün \"çift teyit\" değil"
+  }
+ ],
+ "sehirler": {
+  "Bağdat": {
+   "mevcut": [
+    "s ilhanli 1258-02-10→1340-01-01",
+    "s celayirli 1340-01-01→1393-08-29",
+    "s timurlu 1393-08-29→1394-01-01",
+    "s celayirli 1394-01-01→1401-01-01",
+    "s timurlu 1401-01-01→1405-01-01",
+    "s celayirli 1405-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (dosya_satir data/yerlesimler.js:890)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "ilhanli",
+     "f": "1258-02-10",
+     "t": "1340-01-01",
+     "hukum": "KAYNAKLI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Şehir 1339-1340 yılına kadar İlhanlılar’ın hâkimiyetinde kaldı",
+     "ic_not": "Yıl düzeyi. TDV «Bağdat»: \"Hasan-ı Büzürg 1339’da Bağdat’a yerleşti\" ve «Celâyirliler»: \"bağımsız bir devlet kurdu (1340)\". HAYALET KONTROLÜ: celayirli künyesi f=1340-01-01 (ölçüldü) → t 1340-01-01 kalır, 1339 ic_not’a. Delik/çakışma yok.",
+     "uc": "t"
+    },
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1411-04-25",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Hasan-ı Büzürg 1339’da Bağdat’a yerleşti ve 1410’a kadar süren Celâyirliler sülâlesini kurdu",
+     "ic_not": "f 1340-01-01 künye gününde (TDV 1339/1340 yıl). t = aşağıdaki karakoyunlu f ile aynı gün (1411-04-25). YAPI ÖNERİSİ: celayirli tek kesintisiz dönem; Timur zaptları ayrı isg katmanı (aşağıdaki iki satır). Bu, mevcut 5 parçalı s: zincirini (celayirli/timurlu/celayirli/timurlu/celayirli) 1 dönem + 2 isg’ye indirir.",
+     "uc": "f"
+    },
+    {
+     "alan": "isg",
+     "d": "timurlu",
+     "f": "1393-08-29",
+     "t": "1394-01-01",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "ve 803’te (1401) olmak üzere iki defa işgal edildi",
+     "ic_not": "ÖLÇÜT: geçici/askerî — TDV «Bağdat» Timur için \"iki defa işgal edildi\" der (idareye katma/defter/vergi belgesi yok); eski sahibin iddiası sürüyor: «Celâyirliler»: \"Ahmed, Timur Semerkant’a dönünce Memlük Sultanı Berkuk’un yardımı ile Bağdat’ı geri aldı\". TDV günü vermez (yıl 1393; 795 H = 1392-11-17..1393-11-05, 796 H = 1393-11-06..1394-10-25, TDV Kerbelâ \"795 (1393)\", TDV Tikrit Safer 796/Aralık 1393 = 1393-12-06..1394-01-03). MEVCUT uçlar 1393-08-29 / 1394-01-01 TDV’de yok → uçların kaynağı atlasın başka kaydı olmalı; gün BULUNAMADI (TDV). Mevcut s: timurlu → isg: timurlu; s: celayirli altta sürer.",
+     "uc": "t"
+    },
+    {
+     "alan": "isg",
+     "d": "timurlu",
+     "f": "1401-01-01",
+     "t": "1405-01-01",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "ve 803’te (1401) olmak üzere iki defa işgal edildi",
+     "ic_not": "ÖLÇÜT: geçici/askerî. Hicrî kural: 803 H = 1400-08-22..1401-08-10; ∩ 1401 = 1401-01-01..1401-08-10, ilk gün 1401-01-01 (mevcut f ile aynı). t 1405: «Bağdat»: \"Ahmed Celâyir 1405’te Bağdat’a dönerek Timur’un yıktığı duvarları\" + «Celâyirliler»: \"ancak Timur’un 1405’te ölümünden sonra tekrar Bağdat’a hâkim olabildi\" (yıl 1405). KARANLIK: «Karakoyunlular» ve «Celâyirliler» 1400-1405 arasında Kara Yûsuf’un Bağdat’ı işgal ettiğini (\"Sultan Ahmed ... Bağdat’ı ele geçirdiyse de daha sonra burayı Karakoyunlu Kara Yûsuf’a bırakmak zorunda kaldı\") anlatır; bu ara dönemin sahibi/günü TDV’de BULUNAMADI → 1401-1405 tek isg timurlu bloğu YAKLAŞIKTIR (BEYANLI). İkinci kaynak (Iranica Jalayerids) bakılmadı.",
+     "uc": "f+t"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1411-04-25",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Aynı yıl Kara Yûsuf’un en büyük oğlu Şah Mehmed Bağdat’ı fethetti",
+     "ic_not": "Bir önceki cümle \"Pîr Budak’ı sultan ilân etti (814/1411)\"; \"aynı yıl\" = 814/1411. Hicrî kural: 814 H = 1411-04-25..1412-04-12 (tablo takvimi, Jülyen); ∩ Mîlâdî 1411 = 1411-04-25..1411-12-31; kesişimin ilk günü 1411-04-25. Kaynakta ay/gün yok; bu bir ALT SINIR hesabıdır, olay günü değildir. TDV İÇİ ÇELİŞKİ: «Bağdat» md. \"1410-1467 yılları arasında Karakoyunlu Türkmenleri’nin hâkimiyetinde\" (yıl 1410); «Celâyirliler» md. Ahmed Celâyir’in öldürülmesi 813/1410 (813 H = 1410-05-06..1411-04-24), Şah Veled 813 (1410), Şah Mahmud 814 (1411). Fetih cümlesi en özgül olan (Karakoyunlular) olduğu için 1411; ÖNERİ, KAYNAKLI değil (gün kaynakta yok). Mevcut f 1411-01-01 hicrî 814’ün başlangıcından 114 gün ÖNCE.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Bağdat’ı Uzun Hasan’ın oğlu Maksûd’a teslim ettikten sonra",
+     "ic_not": "alinti2: \"(14 Cemâziyelâhir 874 / 19 Aralık 1469)\" — bu gün Şah Mansûr’un İDAM günüdür; Bağdat teslimi ondan ÖNCE. Hicrî doğrulama: 874-06-14 = 1469-12-19 (tablo, Jülyen) tutuyor. \"Böylece Karakoyunlular’ın Bağdat kolu da sona ermiş oldu.\" KAYNAK ÇELİŞKİSİ: TDV «Akkoyunlular» \"Kirman (1469) ve Bağdat’ı (1470) ele geçirdiği\" ve TDV «Basra» \"1470’te Akkoyunlular\" (yıl 1470). Karakoyunlular tarihi gün-düzeyi olduğu ve künye karakoyunlu t=1469-12-19 ile birebir örtüştüğü için 1469-12-19 (ÜST sınır) önerilir; gerçek teslim günü BULUNAMADI. MEVCUT f 1469-01-01 her iki kaynakla da ÇELİŞİR (Karakoyunlu Bağdat kolu 1469 sonuna kadar sürdü; ~11 ay erken).",
+     "uc": "f",
+     "alinti2": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1411-04-25",
+     "t": "1469-12-19",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "1410-1467 yılları arasında Karakoyunlu Türkmenleri’nin hâkimiyetinde kalan Bağdat",
+     "ic_not": "Dönemin iki ucu yukarıdaki satırlarda. ÇELİŞKİ: TDV «Bağdat» t \"1467\" (Cihan Şah’ın Uzun Hasan’a yenilgisi 1467 = genel Karakoyunlu sonu), «Karakoyunlular» ise Bağdat kolunun 1469 sonunda bittiğini söyler: \"Böylece Karakoyunlular’ın Bağdat kolu da sona ermiş oldu.\" Bağdat için 1469 esas (Bağdat kolu); 1467 ülke düzeyi. Ara not: Cihan Şah Bağdat’ı 850/1446 aldı (850 H ∩ 1446 = 1446-03-29), İsfahan Mirza (Karakoyunlu) elinden — sahip değişmez."
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "Hicrî kural: TDV «Kerbelâ» \"Şah İsmâil’in 914’te (1508) Bağdat’ı ele geçirmesi\"; 914 H = 1508-05-02..1509-04-20; ∩ 1508 = 1508-05-02..1508-12-31, ilk gün 1508-05-02 (ALT sınır). Mevcut f 1508-01-01 hicrî 914’ün başından ÖNCE (913 H’ye düşer) — kaynakla çelişir. ÇELİŞKİ: TDV «Akkoyunlular»: Murad \"Bağdat’a kaçtı, 1509’a kadar orada hüküm sürdü\" (yıl 1509). 1508 (2 TDV maddesi: Bağdat+Kerbelâ) / 1509 (Akkoyunlular) ikilisi ic_not’ta beyan; gün kaynakta yok → LAB: kronolojideki \"Şah İsmâil Bağdat’ı alır\" maddesinin kaynağı/günü varsa o esas, yoksa 1508-05-02 + [yalnız yıl teyitli].",
+     "uc": "f"
+    },
+    {
+     "alan": "d",
+     "d": "OSMANLI",
+     "f": "1534-11-28",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Kanûnî de 21 Cemâziyelevvel 941’de (28 Kasım 1534) şehre girdi",
+     "ic_not": "Hicrî doğrulama: 941-05-21 = 1534-11-28 (tablo, Jülyen) — tutuyor. Mevcut f/t 1534-12-04 TDV’nin 28 Kasım’ından 6 gün SONRA; 1582 öncesi gün çevrilmediği için Gregoryen farkı (8 Aralık) da bu 6 günü açıklamaz. TDV: İbrâhim Paşa kapıların anahtarlarını alıp şehre Kanûnî’den önce girdi (gün yok). LAB: 1534-12-04 hangi kaynaktan? Kronoloji maddesi ±30 gün içinde olduğundan Değişmez 2 bozulmaz; yine de safevi t ve d f birlikte taşınmalı.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1623-11-28",
+     "t": "1638-12-24",
+     "hukum": "KAYNAKLI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "iç kaleyi Safevîler’e teslim etti (28 Kasım 1623)",
+     "ic_not": "f 28 Kasım 1623 TDV’de gün düzeyinde (mevcut ile aynı). Bu küme dışı; yalnız zincir bütünlüğü için.",
+     "uc": "f"
+    }
+   ],
+   "not": "Kümenin çapası. TDV «Bağdat» Celâyirli başlangıcını (1339/1340), Timur’un iki geçici işgalini (1393, 803/1401), Ahmed’in 1405 dönüşünü, Karakoyunlu 1410, Akkoyunlu eline geçişi ve Safevî 1508’i verir; gün düzeyinde yalnız 1534-11-28 ve 1623-11-28. Karakoyunlu→Akkoyunlu geçişi mevcut atlasta 1469-01-01 (yanlış, ~11 ay erken) — en büyük bulgu. ABİ MERKEZ gerekmez (kendi maddesi)."
+  },
+  "Vâsıt": {
+   "mevcut": [
+    "s celayirli 1340-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (data/yerlesimler.js:2086)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1411-04-25",
+     "hukum": "ONERI",
+     "kaynak": "https://islamansiklopedisi.org.tr/vasit  (TDV «Vâsıt») + TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "1393’te Timur tarafından zaptedilen Vâsıt ve çevresi",
+     "ic_not": "Vâsıt’ın 1340–1411 arası sahibi TDV «Vâsıt»ta sadece İlhanlı sonu (656/1258’den \"İlhanlılar döneminin sonuna kadar\") ve Timur zaptı (1393, yıl) olarak geçer; Celâyirli adı yalnız 1423 cümlesinde. Kalan yıllar ABİ MERKEZ: Bağdat (BEYANLI YAKLAŞIKLIK). 1393 Timur zaptı: \"zaptedilen\" fiili işgal/kalıcılık ayırt etmez; kalıcı idare belgesi yok → ayrı katman önerilmez (BULUNAMADI).",
+     "uc": "t"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1411-04-25",
+     "t": "1423-01-01",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Aynı yıl Kara Yûsuf’un en büyük oğlu Şah Mehmed Bağdat’ı fethetti",
+     "ic_not": "ABİ MERKEZ: Bağdat. DİKKAT: TDV Vâsıt Celâyirli hâkimiyetini 1423’te \"girdi\" fiiliyle başlatıyor → 1411-1423 arası Celâyirli DEĞİL varsayımı (cümle yapısından çıkarım); Karakoyunlu Vâsıt’a doğrudan yer vermez. Sahipsiz bırakmama kuralı (Değişmez 1) gereği Bağdat zinciri. BEYANLI YAKLAŞIKLIK; bu satır ÖNERİ-zayıf.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1423-01-01",
+     "t": "1431-01-01",
+     "hukum": "ONERI",
+     "kaynak": "https://islamansiklopedisi.org.tr/vasit  (TDV «Vâsıt»)",
+     "alinti": "826’da (1423) Celâyirliler’in hâkimiyeti altına girdi",
+     "ic_not": "Hicrî kural: 826 H = 1422-12-15..1423-12-03; ∩ 1423 = 1423-01-01..1423-12-03, ilk gün 1423-01-01 (Jülyen, tablo). Alıntı Vâsıt için f’yi tarihler (yıl+hicrî yıl) → f ucu KAYNAKLI düzeyinde, ama dönemin t ucu (1431) yalnız «Celâyirliler»: \"Karakoyunlular kaleyi ele geçirip Hüseyin’i öldürdüler (1431)\" / \"Celâyirliler hânedanı son bulmuş oldu\" (hanedan sonu) + Hille abi merkezi; hükmü ONERI. HAYALET KONTROLÜ: celayirli künye f=1340-01-01 t=1431-01-01 → 1423-1431 künye içinde. Mevcut atlasta bu aralık Karakoyunlu; hanedan ayakta olduğu için çelişki gerçek.",
+     "uc": "f",
+     "alinti2": "Bu şekilde Celâyirliler hânedanı son bulmuş oldu."
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1431-01-01",
+     "t": "1469-12-19",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Celâyirliler», https://islamansiklopedisi.org.tr/celayirliler",
+     "alinti": "Uzun bir kuşatmadan sonra Karakoyunlular kaleyi ele geçirip Hüseyin’i öldürdüler (1431)",
+     "ic_not": "ABİ MERKEZ: Hille/Bağdat. 1440’lı yıllarda Müşa‘şa‘ işgali: TDV «Vâsıt» \"1440’lı yıllarda Müşa‘şa‘lar’ın işgaliyle tahrip edildi\" ama TDV «Müşa‘şa‘lar»: \"gücünü Basra ve Vâsıt’a kadar yaymak istedi, ancak başarılı olamadı (858/1454)\" ve \"Seyyid Mevlâ Ali Vâsıt, Hille, Necef ve Kerbelâ’yı ele geçirerek ... (860/1456)\", Cihan Şah’ın müdahalesiyle geri çekildi → baskın/geçici; sahiplik Karakoyunlu’da sayıldı; isg musasa için başlangıç/bitiş günü BULUNAMADI. Kronoloji/künye musasa f=1442-01-16 (Havîza) — Vâsıt’a değil.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": "1508-05-02",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)",
+     "ic_not": "ABİ MERKEZ: Bağdat (BEYANLI YAKLAŞIKLIK; Vâsıt TDV’de anılmaz). Uçlar Bağdat satırlarıyla aynı.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": "1534-11-28",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "ABİ MERKEZ: Bağdat. TDV «Vâsıt» md. Osmanlı girişi: \"Bölgenin Osmanlı idaresine girmesi Kanûnî Sultan Süleyman zamanında Bağdat’ın fethi sırasında gerçekleşti (941/1534)\" (yıl düzeyi).",
+     "uc": "f"
+    }
+   ],
+   "not": "TDV «Vâsıt» tek özgün tanık: 1393 Timur zaptı + 826/1423 Celâyirli + 1440’lar Müşa‘şa‘ + 941/1534. Celâyirli kalıntısı Vâsıt-Hille ekseninde 1431’e kadar sürdü; mevcut atlas Vâsıt’ı 1411’den Karakoyunlu sayıyor — 1423-1431 aralığında çelişir."
+  },
+  "Hille": {
+   "mevcut": [
+    "s celayirli 1340-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (data/yerlesimler.js:2076)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1431-01-01",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Celâyirliler», https://islamansiklopedisi.org.tr/celayirliler",
+     "alinti": "Uzun bir kuşatmadan sonra Karakoyunlular kaleyi ele geçirip Hüseyin’i öldürdüler (1431)",
+     "ic_not": "Önceki cümle: \"Karakoyunlu Şah Muhammed b. Kara Yûsuf’un saldırısına mâruz kalınca Hille Kalesi’ne kaçtı.\" t ucu YIL 1431 doğrudan Hille Kalesi için kaynaklı; gün BULUNAMADI. Hicrî alternatif: hükümdar listesi \"II. Hüseyin 827-835 (1424-1431)\" → 835 H = 1431-09-09..1432-08-27; ∩ 1431 = 1431-09-09 (ALT sınır) — HAYALET KONTROLÜ: celayirli künye t=1431-01-01 bu günü kapsamaz → t künye gününde (1431-01-01) bırakıldı, 1431-09-09 ic_not’ta, künye sorusu LAB’a. Ek tanık: TDV «Karakoyunlular»: Kara Yûsuf, \"Hille’ye döndükten sonra dostu Celâyirli Sultan Ahmed’e ... yardım etti\"; TDV «Kerbelâ»: Ahmed 1393’te Hille’ye kaçtı (Timur’un Kerbelâ ovasındaki karşılaşması) → Hille Celâyirli’nin son kalesi. MEVCUT t 1411-01-01 bu kaynakla ÇELİŞİR (20 yıl erken; Karakoyunlu Bağdat’ı aldığında Celâyirli Hille’de sürdü).",
+     "uc": "t",
+     "alinti2": "Karakoyunlu Şah Muhammed b. Kara Yûsuf’un saldırısına mâruz kalınca Hille Kalesi’ne kaçtı"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1431-01-01",
+     "t": "1469-12-19",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Hüseyin Ali’nin beyliği sırasında Hille Valisi Kara Mûsâoğlu, İskender’in oğlu Şah Ali’yi sultan ilân etti",
+     "ic_not": "Karakoyunlu Hille valisi 1469’da doğrudan anılır (\"Yerine geçen kardeşi Hille Valisi Şah Mansûr\") → Hille 1469’a kadar Karakoyunlu elinde: sahiplik KAYNAKLI, uçlar: f 1431 (Celâyirliler), t Bağdat ile aynı gün (1469-12-19). Hille Karakoyunlu’nun Bağdat kolunun iki beyini çıkarır; Akkoyunlu fethi Bağdat’tan sonra.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": "1508-05-02",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)",
+     "ic_not": "ABİ MERKEZ: Bağdat (BEYANLI YAKLAŞIKLIK); TDV «Hille» maddesi (ham metin kısa, UI ağırlıklı) bu dönemleri anmıyor. Uçlar Bağdat ile aynı.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "Hicrî kural: TDV «Kerbelâ» \"Şah İsmâil’in 914’te (1508) Bağdat’ı ele geçirmesi\"; 914 H = 1508-05-02..1509-04-20; ∩ 1508 = 1508-05-02..1508-12-31, ilk gün 1508-05-02 (ALT sınır). Mevcut f 1508-01-01 hicrî 914’ün başından ÖNCE (913 H’ye düşer) — kaynakla çelişir. ÇELİŞKİ: TDV «Akkoyunlular»: Murad \"Bağdat’a kaçtı, 1509’a kadar orada hüküm sürdü\" (yıl 1509). 1508 (2 TDV maddesi: Bağdat+Kerbelâ) / 1509 (Akkoyunlular) ikilisi ic_not’ta beyan; gün kaynakta yok → LAB: kronolojideki \"Şah İsmâil Bağdat’ı alır\" maddesinin kaynağı/günü varsa o esas, yoksa 1508-05-02 + [yalnız yıl teyitli]. ABİ MERKEZ: Bağdat (BEYANLI YAKLAŞIKLIK).",
+     "uc": "f"
+    }
+   ],
+   "not": "Hille kümenin Celâyirli kalesidir: TDV «Celâyirliler» hanedanın SON noktası olarak Hille Kalesi’ni (1431) verir. Bu, Celâyirli künye t=1431’i doğrular; Bağdat t=1411 (Karakoyunlu fethi) ile Hille t=1431 farklı olmak zorunda. Hille TDV maddesi anahtarsız (ham 3,4 KB, çoğu arayüz) — içerik okunamadı, BULUNAMADI."
+  },
+  "Necef": {
+   "mevcut": [
+    "s celayirli 1340-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (data/yerlesimler.js:2077)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1431-01-01",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Celâyirliler», https://islamansiklopedisi.org.tr/celayirliler + TDV «Müşa‘şa‘lar» https://islamansiklopedisi.org.tr/musasalar",
+     "alinti": "Seyyid Mevlâ Ali Vâsıt, Hille, Necef ve Kerbelâ’yı ele geçirerek",
+     "ic_not": "ABİ MERKEZ: Hille — TDV «Müşa‘şa‘lar» Vâsıt, Hille, Necef ve Kerbelâ’yı tek küme olarak anar (860/1456); TDV «Kerbelâ»: \"Hille’ye kaçan Ahmed Celâyir ile Kerbelâ ovasında karşılaştı\"; Celâyirli son kalesi Hille (1431, «Celâyirliler»). Kerbelâ/Necef/Kûfe Hille’ye ~50-70 km, Bağdat’a 100-160 km. BEYANLI YAKLAŞIKLIK; ALTERNATİF (Bağdat zinciri: karakoyunlu f 1411-04-25) kaynakla ayırt edilemedi — LAB karar versin.",
+     "uc": "t"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1431-01-01",
+     "t": "1469-12-19",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Celâyirliler», https://islamansiklopedisi.org.tr/celayirliler + TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Hille Valisi Şah Mansûr",
+     "ic_not": "ABİ MERKEZ: Hille (Karakoyunlu valisi 1469’a kadar). TDV «Müşa‘şa‘lar» 1456’da Mevlâ Ali’nin Hille/Necef/Kerbelâ’yı \"ele geçirmesi\" Cihan Şah müdahalesiyle geri çekilmeyle bitti → baskın, sahiplik değişimi sayılmadı; isg musasa için bitiş günü BULUNAMADI.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": "1508-05-02",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)",
+     "ic_not": "ABİ MERKEZ: Hille/Bağdat. Uçlar Bağdat ile aynı.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "Hicrî kural: TDV «Kerbelâ» \"Şah İsmâil’in 914’te (1508) Bağdat’ı ele geçirmesi\"; 914 H = 1508-05-02..1509-04-20; ∩ 1508 = 1508-05-02..1508-12-31, ilk gün 1508-05-02 (ALT sınır). Mevcut f 1508-01-01 hicrî 914’ün başından ÖNCE (913 H’ye düşer) — kaynakla çelişir. ÇELİŞKİ: TDV «Akkoyunlular»: Murad \"Bağdat’a kaçtı, 1509’a kadar orada hüküm sürdü\" (yıl 1509). 1508 (2 TDV maddesi: Bağdat+Kerbelâ) / 1509 (Akkoyunlular) ikilisi ic_not’ta beyan; gün kaynakta yok → LAB: kronolojideki \"Şah İsmâil Bağdat’ı alır\" maddesinin kaynağı/günü varsa o esas, yoksa 1508-05-02 + [yalnız yıl teyitli]. ABİ MERKEZ: Hille/Bağdat.",
+     "uc": "f"
+    }
+   ],
+   "not": "Necef: TDV maddesi dönem zincirini vermez; yalnız Timur 1393’te Kerbelâ’da Ahmed’le karşılaştı ve 1401’de Timurlular Kerbelâ’ya dokunmadı (Kerbelâ/Hille Timurlu idaresine girmedi). Zincir Hille’ye bağlandı; seçenekli."
+  },
+  "Kerbelâ": {
+   "mevcut": [
+    "s celayirli 1340-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (data/yerlesimler.js:891)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1431-01-01",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Celâyirliler», https://islamansiklopedisi.org.tr/celayirliler + TDV «Müşa‘şa‘lar» https://islamansiklopedisi.org.tr/musasalar",
+     "alinti": "Seyyid Mevlâ Ali Vâsıt, Hille, Necef ve Kerbelâ’yı ele geçirerek",
+     "ic_not": "ABİ MERKEZ: Hille — TDV «Müşa‘şa‘lar» Vâsıt, Hille, Necef ve Kerbelâ’yı tek küme olarak anar (860/1456); TDV «Kerbelâ»: \"Hille’ye kaçan Ahmed Celâyir ile Kerbelâ ovasında karşılaştı\"; Celâyirli son kalesi Hille (1431, «Celâyirliler»). Kerbelâ/Necef/Kûfe Hille’ye ~50-70 km, Bağdat’a 100-160 km. BEYANLI YAKLAŞIKLIK; ALTERNATİF (Bağdat zinciri: karakoyunlu f 1411-04-25) kaynakla ayırt edilemedi — LAB karar versin.",
+     "uc": "t"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1431-01-01",
+     "t": "1469-12-19",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Celâyirliler», https://islamansiklopedisi.org.tr/celayirliler + TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Hille Valisi Şah Mansûr",
+     "ic_not": "ABİ MERKEZ: Hille (Karakoyunlu valisi 1469’a kadar). TDV «Müşa‘şa‘lar» 1456’da Mevlâ Ali’nin Hille/Necef/Kerbelâ’yı \"ele geçirmesi\" Cihan Şah müdahalesiyle geri çekilmeyle bitti → baskın, sahiplik değişimi sayılmadı; isg musasa için bitiş günü BULUNAMADI.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": "1508-05-02",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)",
+     "ic_not": "ABİ MERKEZ: Hille/Bağdat. Uçlar Bağdat ile aynı.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "Hicrî kural: TDV «Kerbelâ» \"Şah İsmâil’in 914’te (1508) Bağdat’ı ele geçirmesi\"; 914 H = 1508-05-02..1509-04-20; ∩ 1508 = 1508-05-02..1508-12-31, ilk gün 1508-05-02 (ALT sınır). Mevcut f 1508-01-01 hicrî 914’ün başından ÖNCE (913 H’ye düşer) — kaynakla çelişir. ÇELİŞKİ: TDV «Akkoyunlular»: Murad \"Bağdat’a kaçtı, 1509’a kadar orada hüküm sürdü\" (yıl 1509). 1508 (2 TDV maddesi: Bağdat+Kerbelâ) / 1509 (Akkoyunlular) ikilisi ic_not’ta beyan; gün kaynakta yok → LAB: kronolojideki \"Şah İsmâil Bağdat’ı alır\" maddesinin kaynağı/günü varsa o esas, yoksa 1508-05-02 + [yalnız yıl teyitli]. ABİ MERKEZ: Hille/Bağdat; TDV «Kerbelâ» da 914/1508 Şah İsmâil’in Kerbelâ’ya gittiğini söyler.",
+     "uc": "f"
+    }
+   ],
+   "not": "Kerbelâ: TDV maddesi dönem zincirini vermez; yalnız Timur 1393’te Kerbelâ’da Ahmed’le karşılaştı ve 1401’de Timurlular Kerbelâ’ya dokunmadı (Kerbelâ/Hille Timurlu idaresine girmedi). Zincir Hille’ye bağlandı; seçenekli."
+  },
+  "Kûfe": {
+   "mevcut": [
+    "s celayirli 1340-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (data/yerlesimler.js:2081)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1431-01-01",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Celâyirliler», https://islamansiklopedisi.org.tr/celayirliler + TDV «Müşa‘şa‘lar» https://islamansiklopedisi.org.tr/musasalar",
+     "alinti": "Seyyid Mevlâ Ali Vâsıt, Hille, Necef ve Kerbelâ’yı ele geçirerek",
+     "ic_not": "ABİ MERKEZ: Hille — TDV «Müşa‘şa‘lar» Vâsıt, Hille, Necef ve Kerbelâ’yı tek küme olarak anar (860/1456); TDV «Kerbelâ»: \"Hille’ye kaçan Ahmed Celâyir ile Kerbelâ ovasında karşılaştı\"; Celâyirli son kalesi Hille (1431, «Celâyirliler»). Kerbelâ/Necef/Kûfe Hille’ye ~50-70 km, Bağdat’a 100-160 km. BEYANLI YAKLAŞIKLIK; ALTERNATİF (Bağdat zinciri: karakoyunlu f 1411-04-25) kaynakla ayırt edilemedi — LAB karar versin. (Kûfe: TDV «Kûfe» maddesi anahtarlarla eşleşme vermedi — BULUNAMADI; Necef’e 10 km.)",
+     "uc": "t"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1431-01-01",
+     "t": "1469-12-19",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Celâyirliler», https://islamansiklopedisi.org.tr/celayirliler + TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Hille Valisi Şah Mansûr",
+     "ic_not": "ABİ MERKEZ: Hille (Karakoyunlu valisi 1469’a kadar). TDV «Müşa‘şa‘lar» 1456’da Mevlâ Ali’nin Hille/Necef/Kerbelâ’yı \"ele geçirmesi\" Cihan Şah müdahalesiyle geri çekilmeyle bitti → baskın, sahiplik değişimi sayılmadı; isg musasa için bitiş günü BULUNAMADI.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": "1508-05-02",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)",
+     "ic_not": "ABİ MERKEZ: Hille/Bağdat. Uçlar Bağdat ile aynı.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "Hicrî kural: TDV «Kerbelâ» \"Şah İsmâil’in 914’te (1508) Bağdat’ı ele geçirmesi\"; 914 H = 1508-05-02..1509-04-20; ∩ 1508 = 1508-05-02..1508-12-31, ilk gün 1508-05-02 (ALT sınır). Mevcut f 1508-01-01 hicrî 914’ün başından ÖNCE (913 H’ye düşer) — kaynakla çelişir. ÇELİŞKİ: TDV «Akkoyunlular»: Murad \"Bağdat’a kaçtı, 1509’a kadar orada hüküm sürdü\" (yıl 1509). 1508 (2 TDV maddesi: Bağdat+Kerbelâ) / 1509 (Akkoyunlular) ikilisi ic_not’ta beyan; gün kaynakta yok → LAB: kronolojideki \"Şah İsmâil Bağdat’ı alır\" maddesinin kaynağı/günü varsa o esas, yoksa 1508-05-02 + [yalnız yıl teyitli]. ABİ MERKEZ: Hille/Bağdat.",
+     "uc": "f"
+    }
+   ],
+   "not": "Kûfe: TDV maddesi dönem zincirini vermez; yalnız Timur 1393’te Kerbelâ’da Ahmed’le karşılaştı ve 1401’de Timurlular Kerbelâ’ya dokunmadı (Kerbelâ/Hille Timurlu idaresine girmedi). Zincir Hille’ye bağlandı; seçenekli."
+  },
+  "Basra": {
+   "mevcut": [
+    "s akkoyunlu 1494-10-02→1508-01-01",
+    "s safevi 1508-01-01→1545-12-26",
+    "(öncesi yok: kur 1494-10-02, Eski Basra ayrı kayıt) (data/yerlesimler.js:892)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1494-10-02",
+     "t": "1508-05-02",
+     "hukum": "ONERI",
+     "kaynak": "https://islamansiklopedisi.org.tr/basra  (TDV «Basra», A. Bakır/Y. Halaçoğlu)",
+     "alinti": "Basra daha sonra sırasıyla 1335’te İlhanlılar, 1383’te Timurlular, 1410’da Karakoyunlular, 1470’te Akkoyunlular",
+     "ic_not": "Devlet KAYNAKLI (Akkoyunlu), f=1494-10-02 bugünkü sahanın kuruluş günü (hicrî 900 kuralı, mevcut kaydın beyanı). Akkoyunlu bölgeye 1470’te girdi (yıl). ÇELİŞKİ/KARANLIK: TDV’nin \"1383’te Timurlular\" sıralaması tarihsel olarak şüpheli (Timur Irak’a 1393’te girdi; Celâyirli 1383’te Basra’yı elinde tutardı) — Eski Basra kaydı için LAB’a soru; bu satırı etkilemez. t 1508 yıl: safevi f ile ilgili Bağdat satırları (914 H alt sınırı 1508-05-02); Basra’nın Safevî’ye geçiş günü kaynakta yok → Bağdat gününü yalnız BEYANLI YAKLAŞIKLIK olarak taşımak yerine mevcut 1508-01-01’i YIL olarak bırakmak da kabul edilebilir.",
+     "uc": "t"
+    }
+   ],
+   "not": "Basra atlasta 1494-10-02’den başlar; 1339-1494 zinciri Eski Basra (Zübeyr) kaydındadır ve bu parti kapsamı dışıdır. Bu kayıtta Celâyirli/Karakoyunlu satırı yok; delik/çakışma bırakılmadı. Eski Basra için TDV zinciri: İlhanlı 1335, \"Timurlu\" 1383, Karakoyunlu 1410, Akkoyunlu 1470, Safevî 1508 (hepsi yıl)."
+  },
+  "Sâmerrâ": {
+   "mevcut": [
+    "s celayirli 1340-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (data/yerlesimler.js:2073)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1411-04-25",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Hasan-ı Büzürg 1339’da Bağdat’a yerleşti ve 1410’a kadar süren Celâyirliler sülâlesini kurdu",
+     "ic_not": "ABİ MERKEZ: Bağdat — Sâmerrâ Bağdat eyalet/sancağına bağlı (1867 kaymakamlığı TDV «Sâmerrâ»); Bağdat zincirini izler. f künye gününde (hayalet: 1339 künye dışı). t = karakoyunlu f.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1411-04-25",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Aynı yıl Kara Yûsuf’un en büyük oğlu Şah Mehmed Bağdat’ı fethetti",
+     "ic_not": "Bir önceki cümle \"Pîr Budak’ı sultan ilân etti (814/1411)\"; \"aynı yıl\" = 814/1411. Hicrî kural: 814 H = 1411-04-25..1412-04-12 (tablo takvimi, Jülyen); ∩ Mîlâdî 1411 = 1411-04-25..1411-12-31; kesişimin ilk günü 1411-04-25. Kaynakta ay/gün yok; bu bir ALT SINIR hesabıdır, olay günü değildir. TDV İÇİ ÇELİŞKİ: «Bağdat» md. \"1410-1467 yılları arasında Karakoyunlu Türkmenleri’nin hâkimiyetinde\" (yıl 1410); «Celâyirliler» md. Ahmed Celâyir’in öldürülmesi 813/1410 (813 H = 1410-05-06..1411-04-24), Şah Veled 813 (1410), Şah Mahmud 814 (1411). Fetih cümlesi en özgül olan (Karakoyunlular) olduğu için 1411; ÖNERİ, KAYNAKLI değil (gün kaynakta yok). Mevcut f 1411-01-01 hicrî 814’ün başlangıcından 114 gün ÖNCE. ABİ MERKEZ: Bağdat — Sâmerrâ Bağdat eyalet/sancağına bağlı (1867 kaymakamlığı TDV «Sâmerrâ»); Bağdat zincirini izler. BEYANLI YAKLAŞIKLIK.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Bağdat’ı Uzun Hasan’ın oğlu Maksûd’a teslim ettikten sonra",
+     "ic_not": "alinti2: \"(14 Cemâziyelâhir 874 / 19 Aralık 1469)\" — bu gün Şah Mansûr’un İDAM günüdür; Bağdat teslimi ondan ÖNCE. Hicrî doğrulama: 874-06-14 = 1469-12-19 (tablo, Jülyen) tutuyor. \"Böylece Karakoyunlular’ın Bağdat kolu da sona ermiş oldu.\" KAYNAK ÇELİŞKİSİ: TDV «Akkoyunlular» \"Kirman (1469) ve Bağdat’ı (1470) ele geçirdiği\" ve TDV «Basra» \"1470’te Akkoyunlular\" (yıl 1470). Karakoyunlular tarihi gün-düzeyi olduğu ve künye karakoyunlu t=1469-12-19 ile birebir örtüştüğü için 1469-12-19 (ÜST sınır) önerilir; gerçek teslim günü BULUNAMADI. MEVCUT f 1469-01-01 her iki kaynakla da ÇELİŞİR (Karakoyunlu Bağdat kolu 1469 sonuna kadar sürdü; ~11 ay erken). ABİ MERKEZ: Bağdat — Sâmerrâ Bağdat eyalet/sancağına bağlı (1867 kaymakamlığı TDV «Sâmerrâ»); Bağdat zincirini izler. BEYANLI YAKLAŞIKLIK.",
+     "uc": "f",
+     "alinti2": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "Hicrî kural: TDV «Kerbelâ» \"Şah İsmâil’in 914’te (1508) Bağdat’ı ele geçirmesi\"; 914 H = 1508-05-02..1509-04-20; ∩ 1508 = 1508-05-02..1508-12-31, ilk gün 1508-05-02 (ALT sınır). Mevcut f 1508-01-01 hicrî 914’ün başından ÖNCE (913 H’ye düşer) — kaynakla çelişir. ÇELİŞKİ: TDV «Akkoyunlular»: Murad \"Bağdat’a kaçtı, 1509’a kadar orada hüküm sürdü\" (yıl 1509). 1508 (2 TDV maddesi: Bağdat+Kerbelâ) / 1509 (Akkoyunlular) ikilisi ic_not’ta beyan; gün kaynakta yok → LAB: kronolojideki \"Şah İsmâil Bağdat’ı alır\" maddesinin kaynağı/günü varsa o esas, yoksa 1508-05-02 + [yalnız yıl teyitli]. ABİ MERKEZ: Bağdat — Sâmerrâ Bağdat eyalet/sancağına bağlı (1867 kaymakamlığı TDV «Sâmerrâ»); Bağdat zincirini izler. BEYANLI YAKLAŞIKLIK.",
+     "uc": "f"
+    }
+   ],
+   "not": "Sâmerrâ: TDV maddesi dönem sahibini vermez; zincir Bağdat’tan devralınır. TDV «Sâmerrâ» ham metinde Celâyirli/Karakoyunlu/Akkoyunlu/Safevî anahtarlarını içermez."
+  },
+  "Tikrit": {
+   "mevcut": [
+    "s celayirli 1340-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (data/yerlesimler.js:2074)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1411-04-25",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Hasan-ı Büzürg 1339’da Bağdat’a yerleşti ve 1410’a kadar süren Celâyirliler sülâlesini kurdu",
+     "ic_not": "ABİ MERKEZ: Bağdat — Tikrit Bağdat eyaletinin sancağı (TDV «Bağdat»: Bağdat eyaleti sancakları). f künye gününde (hayalet: 1339 künye dışı). t = karakoyunlu f.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1411-04-25",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Aynı yıl Kara Yûsuf’un en büyük oğlu Şah Mehmed Bağdat’ı fethetti",
+     "ic_not": "Bir önceki cümle \"Pîr Budak’ı sultan ilân etti (814/1411)\"; \"aynı yıl\" = 814/1411. Hicrî kural: 814 H = 1411-04-25..1412-04-12 (tablo takvimi, Jülyen); ∩ Mîlâdî 1411 = 1411-04-25..1411-12-31; kesişimin ilk günü 1411-04-25. Kaynakta ay/gün yok; bu bir ALT SINIR hesabıdır, olay günü değildir. TDV İÇİ ÇELİŞKİ: «Bağdat» md. \"1410-1467 yılları arasında Karakoyunlu Türkmenleri’nin hâkimiyetinde\" (yıl 1410); «Celâyirliler» md. Ahmed Celâyir’in öldürülmesi 813/1410 (813 H = 1410-05-06..1411-04-24), Şah Veled 813 (1410), Şah Mahmud 814 (1411). Fetih cümlesi en özgül olan (Karakoyunlular) olduğu için 1411; ÖNERİ, KAYNAKLI değil (gün kaynakta yok). Mevcut f 1411-01-01 hicrî 814’ün başlangıcından 114 gün ÖNCE. ABİ MERKEZ: Bağdat — Tikrit Bağdat eyaletinin sancağı (TDV «Bağdat»: Bağdat eyaleti sancakları). BEYANLI YAKLAŞIKLIK.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Bağdat’ı Uzun Hasan’ın oğlu Maksûd’a teslim ettikten sonra",
+     "ic_not": "alinti2: \"(14 Cemâziyelâhir 874 / 19 Aralık 1469)\" — bu gün Şah Mansûr’un İDAM günüdür; Bağdat teslimi ondan ÖNCE. Hicrî doğrulama: 874-06-14 = 1469-12-19 (tablo, Jülyen) tutuyor. \"Böylece Karakoyunlular’ın Bağdat kolu da sona ermiş oldu.\" KAYNAK ÇELİŞKİSİ: TDV «Akkoyunlular» \"Kirman (1469) ve Bağdat’ı (1470) ele geçirdiği\" ve TDV «Basra» \"1470’te Akkoyunlular\" (yıl 1470). Karakoyunlular tarihi gün-düzeyi olduğu ve künye karakoyunlu t=1469-12-19 ile birebir örtüştüğü için 1469-12-19 (ÜST sınır) önerilir; gerçek teslim günü BULUNAMADI. MEVCUT f 1469-01-01 her iki kaynakla da ÇELİŞİR (Karakoyunlu Bağdat kolu 1469 sonuna kadar sürdü; ~11 ay erken). ABİ MERKEZ: Bağdat — Tikrit Bağdat eyaletinin sancağı (TDV «Bağdat»: Bağdat eyaleti sancakları). BEYANLI YAKLAŞIKLIK.",
+     "uc": "f",
+     "alinti2": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "Hicrî kural: TDV «Kerbelâ» \"Şah İsmâil’in 914’te (1508) Bağdat’ı ele geçirmesi\"; 914 H = 1508-05-02..1509-04-20; ∩ 1508 = 1508-05-02..1508-12-31, ilk gün 1508-05-02 (ALT sınır). Mevcut f 1508-01-01 hicrî 914’ün başından ÖNCE (913 H’ye düşer) — kaynakla çelişir. ÇELİŞKİ: TDV «Akkoyunlular»: Murad \"Bağdat’a kaçtı, 1509’a kadar orada hüküm sürdü\" (yıl 1509). 1508 (2 TDV maddesi: Bağdat+Kerbelâ) / 1509 (Akkoyunlular) ikilisi ic_not’ta beyan; gün kaynakta yok → LAB: kronolojideki \"Şah İsmâil Bağdat’ı alır\" maddesinin kaynağı/günü varsa o esas, yoksa 1508-05-02 + [yalnız yıl teyitli]. ABİ MERKEZ: Bağdat — Tikrit Bağdat eyaletinin sancağı (TDV «Bağdat»: Bağdat eyaleti sancakları). BEYANLI YAKLAŞIKLIK.",
+     "uc": "f"
+    },
+    {
+     "alan": "isg",
+     "d": "timurlu",
+     "f": "1393-12-06",
+     "t": null,
+     "hukum": "BULUNAMADI",
+     "kaynak": "https://islamansiklopedisi.org.tr/tikrit  (TDV «Tikrit»)",
+     "alinti": "Timur Safer 796’da (Aralık 1393) Tikrît’i ele geçirdiğinde şehir Arap eşkıyalarının kontrolünde idi",
+     "ic_not": "Hicrî kural: Safer 796 = 1393-12-06..1394-01-03 (796 H = 1393-11-06..1394-10-25, Safer ikinci ay) — kesişim ilk günü 1393-12-06 (ALT sınır). Timur Tikrit’i ele geçirdiğinde Celâyirli denetimi YOKTU (\"Arap eşkıyalarının kontrolünde\"): mevcut s celayirli 1340-1411 satırı ÜLKE düzeyi yaklaşıklıktır (BEYAN eksik). Timur işgalinin bitişi ve dönem başka bir kaynakta BULUNAMADI → isg satırı yazılmamalı (t’siz isg açık uçludur); yalnız ic_not beyanı önerilir. HÜKÜM: BULUNAMADI (t), bulgu notu.",
+     "uc": "f"
+    }
+   ],
+   "not": "Tikrit: TDV maddesi dönem sahibini vermez; zincir Bağdat’tan devralınır."
+  },
+  "Hânekîn": {
+   "mevcut": [
+    "s celayirli 1340-01-01→1411-01-01",
+    "s karakoyunlu 1411-01-01→1469-01-01",
+    "s akkoyunlu 1469-01-01→1508-01-01",
+    "s safevi 1508-01-01→1534-12-04",
+    "d OSMANLI 1534-12-04→1623-11-28 (data/yerlesimler.js:2095)"
+   ],
+   "oneri": [
+    {
+     "alan": "s",
+     "d": "celayirli",
+     "f": "1340-01-01",
+     "t": "1411-04-25",
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Hasan-ı Büzürg 1339’da Bağdat’a yerleşti ve 1410’a kadar süren Celâyirliler sülâlesini kurdu",
+     "ic_not": "ABİ MERKEZ: Bağdat — Hânekîn Bağdat–Hemedan hac/ticaret yolunda; kaderini Bağdat’la paylaşır (TDV «Bağdat»; ayrı TDV maddesi bulunamadı). f künye gününde (hayalet: 1339 künye dışı). t = karakoyunlu f.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "karakoyunlu",
+     "f": "1411-04-25",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Aynı yıl Kara Yûsuf’un en büyük oğlu Şah Mehmed Bağdat’ı fethetti",
+     "ic_not": "Bir önceki cümle \"Pîr Budak’ı sultan ilân etti (814/1411)\"; \"aynı yıl\" = 814/1411. Hicrî kural: 814 H = 1411-04-25..1412-04-12 (tablo takvimi, Jülyen); ∩ Mîlâdî 1411 = 1411-04-25..1411-12-31; kesişimin ilk günü 1411-04-25. Kaynakta ay/gün yok; bu bir ALT SINIR hesabıdır, olay günü değildir. TDV İÇİ ÇELİŞKİ: «Bağdat» md. \"1410-1467 yılları arasında Karakoyunlu Türkmenleri’nin hâkimiyetinde\" (yıl 1410); «Celâyirliler» md. Ahmed Celâyir’in öldürülmesi 813/1410 (813 H = 1410-05-06..1411-04-24), Şah Veled 813 (1410), Şah Mahmud 814 (1411). Fetih cümlesi en özgül olan (Karakoyunlular) olduğu için 1411; ÖNERİ, KAYNAKLI değil (gün kaynakta yok). Mevcut f 1411-01-01 hicrî 814’ün başlangıcından 114 gün ÖNCE. ABİ MERKEZ: Bağdat — Hânekîn Bağdat–Hemedan hac/ticaret yolunda; kaderini Bağdat’la paylaşır (TDV «Bağdat»; ayrı TDV maddesi bulunamadı). BEYANLI YAKLAŞIKLIK.",
+     "uc": "f"
+    },
+    {
+     "alan": "s",
+     "d": "akkoyunlu",
+     "f": "1469-12-19",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Karakoyunlular», https://islamansiklopedisi.org.tr/karakoyunlular",
+     "alinti": "Bağdat’ı Uzun Hasan’ın oğlu Maksûd’a teslim ettikten sonra",
+     "ic_not": "alinti2: \"(14 Cemâziyelâhir 874 / 19 Aralık 1469)\" — bu gün Şah Mansûr’un İDAM günüdür; Bağdat teslimi ondan ÖNCE. Hicrî doğrulama: 874-06-14 = 1469-12-19 (tablo, Jülyen) tutuyor. \"Böylece Karakoyunlular’ın Bağdat kolu da sona ermiş oldu.\" KAYNAK ÇELİŞKİSİ: TDV «Akkoyunlular» \"Kirman (1469) ve Bağdat’ı (1470) ele geçirdiği\" ve TDV «Basra» \"1470’te Akkoyunlular\" (yıl 1470). Karakoyunlular tarihi gün-düzeyi olduğu ve künye karakoyunlu t=1469-12-19 ile birebir örtüştüğü için 1469-12-19 (ÜST sınır) önerilir; gerçek teslim günü BULUNAMADI. MEVCUT f 1469-01-01 her iki kaynakla da ÇELİŞİR (Karakoyunlu Bağdat kolu 1469 sonuna kadar sürdü; ~11 ay erken). ABİ MERKEZ: Bağdat — Hânekîn Bağdat–Hemedan hac/ticaret yolunda; kaderini Bağdat’la paylaşır (TDV «Bağdat»; ayrı TDV maddesi bulunamadı). BEYANLI YAKLAŞIKLIK.",
+     "uc": "f",
+     "alinti2": "(14 Cemâziyelâhir 874 / 19 Aralık 1469)"
+    },
+    {
+     "alan": "s",
+     "d": "safevi",
+     "f": "1508-05-02",
+     "t": null,
+     "hukum": "ONERI",
+     "kaynak": "TDV İslâm Ansiklopedisi, «Bağdat», https://islamansiklopedisi.org.tr/bagdat",
+     "alinti": "Bağdat 1508’de Safevî Hükümdarı Şah İsmâil’in yönetimine geçti",
+     "ic_not": "Hicrî kural: TDV «Kerbelâ» \"Şah İsmâil’in 914’te (1508) Bağdat’ı ele geçirmesi\"; 914 H = 1508-05-02..1509-04-20; ∩ 1508 = 1508-05-02..1508-12-31, ilk gün 1508-05-02 (ALT sınır). Mevcut f 1508-01-01 hicrî 914’ün başından ÖNCE (913 H’ye düşer) — kaynakla çelişir. ÇELİŞKİ: TDV «Akkoyunlular»: Murad \"Bağdat’a kaçtı, 1509’a kadar orada hüküm sürdü\" (yıl 1509). 1508 (2 TDV maddesi: Bağdat+Kerbelâ) / 1509 (Akkoyunlular) ikilisi ic_not’ta beyan; gün kaynakta yok → LAB: kronolojideki \"Şah İsmâil Bağdat’ı alır\" maddesinin kaynağı/günü varsa o esas, yoksa 1508-05-02 + [yalnız yıl teyitli]. ABİ MERKEZ: Bağdat — Hânekîn Bağdat–Hemedan hac/ticaret yolunda; kaderini Bağdat’la paylaşır (TDV «Bağdat»; ayrı TDV maddesi bulunamadı). BEYANLI YAKLAŞIKLIK.",
+     "uc": "f"
+    }
+   ],
+   "not": "Hânekîn: TDV maddesi dönem sahibini vermez; zincir Bağdat’tan devralınır. TDV slug \"hanekin\" arama sayfasına döndü (madde yok)."
+  }
+ },
+ "lab_sorulari": [
+  "Karakoyunlu→Akkoyunlu Bağdat geçişi: TDV «Karakoyunlular» (Bağdat kolu 19 Aralık 1469’da bitti) vs TDV «Akkoyunlular»/«Basra» (Bağdat 1470). Tüm Irak şehirlerinde f=1469-01-01 → 1469-12-19 taşınırsa karakoyunlu t, akkoyunlu f ve kronolojideki \"Akkoyunlu Bağdat’ı alır\" maddesi (±30 gün, Değişmez 2) birlikte kontrol edilmeli. Hangi kronoloji maddesi 1469-01-01’i taşıyor?",
+  "Celâyirli Bağdat sonu: TDV «Bağdat» \"1410\", «Celâyirliler» Ahmed ölümü 813/1410 ama Şah Veled (1410), Şah Mahmud (814/1411) hükümdar; «Karakoyunlular» Bağdat fethi 814/1411. Bağdat f=1411-04-25 (hicrî ilk gün) kabul edilir mi, 1411-01-01 mi kalsın? Kronoloji maddesinin kaynağı?",
+  "Timur 1393/1401 Bağdat: TDV hem «Bağdat»ta hem «Kerbelâ»da \"işgal\" fiilini kullanır, Ahmed geri aldı → isg: timurlu önerildi (s: celayirli tek parça). Mevcut s: timurlu 1393-08-29→1394-01-01 uçlarının kaynağı nedir (TDV yok)? Iranica ile çift teyit isteniyor mu?",
+  "Celâyirli kalıntısı 1411-1431: Hille 1431 (Hille Kalesi), Vâsıt 1423 (826 H) kaynaklı; Kerbelâ/Necef/Kûfe için Hille zinciri mi (önerildi) yoksa Bağdat zinciri mi? Karar LAB’ın; kaynak ayırt etmiyor.",
+  "Celâyirli künye t=1431-01-01 yeterli mi? Hille Kalesi’nin 1431 düşüşü gün olarak 835 H (1431-09-09..) kesişimine düşebilir; gün bulunursa künye t kendiliğinden dışta kalır.",
+  "Safevî Bağdat f: mevcut 1508-01-01 hicrî 914’ün (1508-05-02) öncesidir; TDV yalnız yıl+hicrî yıl verir. Kronolojide Şah İsmâil’in Bağdat girişi için gün varsa onun kaynağı ne?",
+  "Osmanlı Bağdat f: TDV 28 Kasım 1534 (21 Cemâziyelevvel 941); atlas 1534-12-04. 6 günlük fark neyin? Tüm şehir zincirleri (Vâsıt, Hille, Necef, Kerbelâ, Kûfe, Tikrit, Sâmerrâ, Hânekîn) aynı 1534-12-04’ü kullanıyor.",
+  "TDV «Basra» \"1383’te Timurlular\" ve «Müşa‘şa‘lar» \"Timurlular’ın kontrolündeki Havîza (1442)\": güney Irak/Huzistan’da Timurlu denetimi hâlâ kaynaklı mı? Eski Basra (Zübeyr) kaydı için ayrı araştırma."
+ ],
+ "karar": {
+  "kim": "EMRELİC gece-45, 5 Kasım 2026",
+  "zincir": "Kerbelâ, Necef, Kûfe Hille zincirini izler (Celâyirli 1431'e kadar)",
+  "osmanli_f": "1534-11-28 (TDV, Jülyen, fiilî giriş); 10 şehir + olaylar.js:86 + olaylar_ek14.js:83 aynı commit",
+  "karakoyunlu_akkoyunlu": "1469-12-19 alt sınır ONERI; 1470 ic_not; olaylar_ek10.js:585 birlikte",
+  "safevi_bagdat_f": "1508-05-02 alt sınır onaylandı"
+ }
+}

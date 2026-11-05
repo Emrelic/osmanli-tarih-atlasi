@@ -1,0 +1,299 @@
+{
+ "Zanzibar (Zengibar)": [
+  {
+   "sira": 3573,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "svahili-sehirleri",
+   "f": "1281-01-01",
+   "t": "1503-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zengibar» (https://islamansiklopedisi.org.tr/zengibar)",
+   "alinti": "Avrupalılar’ın bu ilk temasından dört yıl sonra Portekiz donanmasının adayı işgal ettiği … kaydedilmekte",
+   "uc": "t",
+   "oneri": {
+    "f": "1107-07-24 (F-GERI adayı, ada düzeyi; EMRELİC kararı)",
+    "t": "1503-01-01 yıl düzeyi [kalıcılık teyitsiz]"
+   },
+   "not": "UMIT künye ölçümü: umman-zengibar f 1698-01-01 t 1964-01-12 (devletler.js:6272) 1890-1963 dilimini kapsar → s: umman-zengibar + v: ingiltere 1890-11-04 → 1963-12-10; 1963-12-10 → 1964-01-12 zengibar-bagimsiz-sultanlik (:14783) var — umman-zengibar t ile örtüşüyor (künye sorusu LAB). · EMRELİC (5 Kasım 2026, r8_076): BEKLET DEĞİL: 1890-11-04 resmî protektora bildirisi (Annam/Tunus/Ruanda himaye kuralı; dolaylı idare sınıfı koloni içi yerel krallıklar içindir) → s: Zengibar sultanlığı (künye: umman-zengibar mı, 1856 sonrası ayrı zengibar künyesi mi — KASA/LAB ölçsün) + v: ingiltere 1890-11-04 → 1963-12-10; yerlesimler_emilme.js:24 s: ingiltere 1890-01-01 v:'ye çevrilir; gün bildiri metninden (Hertslet), ONERI-güçlü. F-GERI 1107-07-24 (Kizimkazi kitâbesi, hicrî hesap onaylı): ada düzeyi — nokta Stone Town ise BEYANLI alt sınır, ONERI; Kizimkazi ≠ Stone Town. · t: TDV Vasco da Gama 1499'u anar, '4 yıl sonra' (=1503) Portekiz işgali 'kaydedilmekte' ama TDV aynı cümlede kalıcı ticaret noktası kurulup kurulmadığının BİLİNMEDİĞİNİ söyler; 'kesin işgal' XVI. yy sonunda (Joao Homere, Francisco d'Almeida'nın kumandanı). Yani 1503 yıl-düzeyi, kısmi; sahiplik geçişi için kesin değil -> ONERI. Sahip svahili-sehirleri: TDV 'hemen her ada müstakil bir hânedana dönüştü' (XIII. yy başı Nebhânî, Pate); sahiplik doğru. f=1281 pencere ucudur (yerleşim varoluşu değil). VAROLUŞ: TDV, Zengibar'ın güneyindeki Kizimkazi'de '1 Zilhicce 500 (24 Temmuz 1107)' tarihli kitâbe ve mihrap -> adada 1107'de cami/sultanlık (TDV mîlâdî karşılığı kendisi veriyor; hicrî çevirisi gerekmedi). Zanzibar noktası şehir (Stone Town) değil ada düzeyindeyse f 1107-07-24 olabilir; künye f=1000 kapsıyor; sahip svahili-sehirleri aynı -> hayalet dilim yok. Karar EMRELİC. ALINTI TDV ham metninden (sayfa.py)."
+  },
+  {
+   "sira": 3574,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz",
+   "f": "1503-01-01",
+   "t": "1698-12-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zengibar» (https://islamansiklopedisi.org.tr/zengibar)",
+   "alinti": "Portekiz istilâsının nihayet bulduğu 1698’de Zengibar, Fâtıma bint Yûsuf el-Alevî tarafından yönetiliyordu.",
+   "uc": "t",
+   "oneri": {},
+   "not": "UMIT künye ölçümü: umman-zengibar f 1698-01-01 t 1964-01-12 (devletler.js:6272) 1890-1963 dilimini kapsar → s: umman-zengibar + v: ingiltere 1890-11-04 → 1963-12-10; 1963-12-10 → 1964-01-12 zengibar-bagimsiz-sultanlik (:14783) var — umman-zengibar t ile örtüşüyor (künye sorusu LAB). · EMRELİC (5 Kasım 2026, r8_076): BEKLET DEĞİL: 1890-11-04 resmî protektora bildirisi (Annam/Tunus/Ruanda himaye kuralı; dolaylı idare sınıfı koloni içi yerel krallıklar içindir) → s: Zengibar sultanlığı (künye: umman-zengibar mı, 1856 sonrası ayrı zengibar künyesi mi — KASA/LAB ölçsün) + v: ingiltere 1890-11-04 → 1963-12-10; yerlesimler_emilme.js:24 s: ingiltere 1890-01-01 v:'ye çevrilir; gün bildiri metninden (Hertslet), ONERI-güçlü. F-GERI 1107-07-24 (Kizimkazi kitâbesi, hicrî hesap onaylı): ada düzeyi — nokta Stone Town ise BEYANLI alt sınır, ONERI; Kizimkazi ≠ Stone Town. · KAYNAKLI yalnız t'nin YILI için (1698). 1698-12-13 günü Fort Jesus/Mombasa'nın düşüşüdür, Zanzibar'a özgü gün kaynakta yok -> [yalnız yıl teyitli; gün teyitsiz]. Öteki uç (f 1503) teyitsiz: TDV XVI. yy sonunda 'kesin işgal' der, 1503 kalıcılığı bilinmiyor. DİKKAT: TDV'ye göre 1698'de ada Umman değil yerel yönetici Fâtıma bint Yûsuf el-Alevî tarafından yönetiliyordu (sonraki satırla ilgili). TDV'de Hürmüz anılmıyor."
+  },
+  {
+   "sira": 3575,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1698-12-13",
+   "t": "1890-01-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Zengibar» (https://islamansiklopedisi.org.tr/zengibar) ; TDV «Zengibar» Helgoland-Zanzibar bölümü",
+   "alinti": "1890’da Almanya ile İngiltere arasında imzalanan Helgoland-Zanzibar Antlaşması’yla Zengibar’ın İngiliz sömürge yönetiminin merkezi yapılmasıyla sonuçlandı.",
+   "uc": "t",
+   "oneri": {
+    "d": "umman-zengibar s: sürer (künye t 1964-01-12)",
+    "t": "1963-12-10 (s: zengibar-bagimsiz-sultanlik'e devir) ; v: ingiltere 1890-11-04 → 1963-12-10 EKLENMELİ",
+    "f": "1698 yıl [Umman hâkimiyetinin başladığı gün teyitsiz]"
+   },
+   "not": "UMIT künye ölçümü: umman-zengibar f 1698-01-01 t 1964-01-12 (devletler.js:6272) 1890-1963 dilimini kapsar → s: umman-zengibar + v: ingiltere 1890-11-04 → 1963-12-10; 1963-12-10 → 1964-01-12 zengibar-bagimsiz-sultanlik (:14783) var — umman-zengibar t ile örtüşüyor (künye sorusu LAB). · EMRELİC (5 Kasım 2026, r8_076): BEKLET DEĞİL: 1890-11-04 resmî protektora bildirisi (Annam/Tunus/Ruanda himaye kuralı; dolaylı idare sınıfı koloni içi yerel krallıklar içindir) → s: Zengibar sultanlığı (künye: umman-zengibar mı, 1856 sonrası ayrı zengibar künyesi mi — KASA/LAB ölçsün) + v: ingiltere 1890-11-04 → 1963-12-10; yerlesimler_emilme.js:24 s: ingiltere 1890-01-01 v:'ye çevrilir; gün bildiri metninden (Hertslet), ONERI-güçlü. F-GERI 1107-07-24 (Kizimkazi kitâbesi, hicrî hesap onaylı): ada düzeyi — nokta Stone Town ise BEYANLI alt sınır, ONERI; Kizimkazi ≠ Stone Town. · ÖLÇÜT/Tunus-Fas emsali: TDV 'iç işlerinde bağımsız kalmakla birlikte dış işlerinde yetkileri elinden alınarak İngiltere’nin himayesine bırakıldı' -> HİMAYE: s: sultanlık sürer, v: ingiltere eklenir. Mevcut kayıtta s: ingiltere 1890-01-01→1963-12-10 (yerlesimler_emilme.js, Zanzibar satırı) bu kurala aykırı; v:'ye çevrilmeli. 1890-11-04 EMRELİC brifinden; TDV yalnız yıl (1890) verir, ben ham metinde gün bulamadım (EB1911/Handbook 1906 ham taramada yok) -> [gün teyitsiz]. t=1890-01-01 uydurma 'yıl başı' ucudur, himaye gününden önce. f: TDV 1698'de adayı yerel Fâtıma el-Alevî yönetiyor diyor; Ya'rubî I. Seyf b. Sultan (1692-1711) Mombasa/Kilve/Pemba'yı aldı; Zengibar Ya'rubîler-Mezrûîler mücadelesi sahnesi; Bû Saîd 1840'ta merkezi Zengibar'a taşıdı. Yani 1698'den itibaren fiilî Umman idaresi TDV'de açık değil: f için 'abi merkez Maskat' + BEYANLI YAKLAŞIKLIK. Atlas kaynağı çelişmez ama gün 1698-12-13 Zanzibar'a özgü değil."
+  }
+ ],
+ "Quelimane": [
+  {
+   "sira": 3576,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1544-01-01",
+   "t": "1974-09-20",
+   "hukum": "ONERI",
+   "kaynak": "The Columbia Encyclopedia, 6th ed., «Quelimane» (encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/quelimane)",
+   "alinti": "The Portuguese founded a trading station at Quelimane in 1544",
+   "uc": "f",
+   "oneri": {
+    "f": "1544-01-01 yıl düzeyi (ONERI-güçlü; ticari ansiklopedi)"
+   },
+   "not": "Columbia Encyclopedia ticari genel ansiklopedi -> ONERI-güçlü (tek başına KAYNAKLI değil). 'Ticaret karakolu' kuruluşu: egemenlik/idareye katma değil; Britannica (arama özetinde, ham okunamadı, 403) 1761'de 'colonial town', 1763 concelho der -> egemenlik 1544'te belirsiz. Öteki uç t=1974-09-20 teyitsiz (Lusaka 1974-09-07 / geçiş hükümeti 1974-09-20 ham kaynakta bulamadım). EB1911 'Quilimane' (wikisource) kuruluş yılı vermiyor. F-GERI yok."
+  },
+  {
+   "sira": 3577,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "hukum": "BULUNAMADI",
+   "kaynak": "BAKILDI: history.state.gov/countries/mozambique; sahistory.org.za (404); peacemaker.un.org Lusaka (404); WebSearch özeti",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Lusaka Antlaşması 1974-09-07 ve geçiş hükümetinin 1974-09-20 kuruluşu için akademik/ham kaynak bulamadım (mevcut DEVRALMA künye kaynağı africaportal PDF'i, ben okumadım). Bakılmadı: africaportal PDF, Newitt, Isaacman. Hüküm değişmez."
+  },
+  {
+   "sira": 3578,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "U.S. Office of the Historian, Mozambique (https://history.state.gov/countries/mozambique)",
+   "alinti": "The United States recognized the People’s Republic of Mozambique on June 25, 1975",
+   "uc": "f",
+   "oneri": {},
+   "not": "Alıntı ABD tanıma gününü tarihler, bağımsızlık ilanı gününü değil ('previously under Portuguese sovereignty' der) -> ULUSAL BAĞIMSIZLIK GÜNÜ için dolaylı; ülke düzeyi, ONERI-güçlü. Gün 1975-06-25 ile çelişen bir şey bulunmadı. TDV/akademik bağımsızlık kaynağı bulunamadı."
+  }
+ ],
+ "Luanda": [
+  {
+   "sira": 3579,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1575-01-01",
+   "t": "1975-11-11",
+   "hukum": "ONERI",
+   "kaynak": "EB1911 «Loanda» (wikisource, İPUCU sınıfı) ; EBSCO Research Starters «Conquest of Luanda» (ebsco.com/research-starters/history/conquest-luanda/, Skidmore-Hess, ticari/Salem)",
+   "alinti": "Loanda was founded in 1576, and except between 1640 and 1648, when it was occupied by the Dutch",
+   "uc": "f",
+   "oneri": {
+    "f": "1575-01-01 kalsın [1575/1576 çelişkisi ic_not'a]",
+    "bolunme": "isg hollanda 1641-08-26 → 1648-08 (21 Ağustos 1648 çoğu kaynak; EBSCO 'September 1648'; brifteki 15 Ağustos teyitsiz); s: portekiz-angola bu aralıkta d: yerine isg altında sürer"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_076): isg hollanda 1641-08-26 → 1648-08 (Salvador de Sá geri alışı); 15/21 Ağustos ayrımı kaynağın neyi tarihlediğine göre (EBSCO ipucu), gün kaynakla. · ÇELİŞKİ: EB1911 'founded in 1576'; EBSCO 'Luanda, established by the Portuguese in 1575' (EB1911 Angola ek: Feo Cardozo 'governadores … desde 1575'). Yıl düzeyi f=1575 ilk iskân/vali varışı olarak savunulabilir, F-GERI gerekmez. HOLLANDA: ÖLÇÜT: geçici/askerî — EBSCO: Hollanda WIC 26 Ağustos 1641'de Luanda'yı ele geçirdi, 1648'de Sá e Benevides geri aldı; Portekiz iddiası/direnişi sürdü -> isg hollanda (idareye katma belgesi: WIC 'Loango-Angola' valiliği var ama ben ham kaynakta bulmadım). 1641-08-26 EBSCO 'DATE August 26, 1641-September, 1648' (ham okundu, ama EBSCO ONERI-güçlü sınıfı). 1648 sonu: WebSearch özeti 21 Ağustos 1648 (Wikipedia kaynaklı) -> teyitsiz. Öteki uç t=1975-11-11 BAKILMADI (bağımsızlık ilanı kaynağına bakmadım). EB1911 ve EBSCO tek başına KAYNAKLI vermez."
+  }
+ ],
+ "Madang": [
+  {
+   "sira": 3581,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1884-11-03",
+   "t": "1914-09-17",
+   "hukum": "ONERI",
+   "kaynak": "WebSearch özetleri (ham okunamadı): EB1911 «New Guinea» (wikisource, İPUCU) ; Kaiser-Wilhelmsland genel anlatımı",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {
+    "f": "1884-11-03 kalır; 1884-11-16 (EB1911, Friedrich Wilhelmshafen'de bayrak) ic_not",
+    "t": "1919-06-28 (Versay imza); 1914-09 Avustralya girişi isg olur"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_076): Namibya modeli onay; Avustralya Yeni Gine mandası künye adayı LAB'a. · ÖLÇÜT: geçici/askerî — Avustralya 1914 işgali (AWM: 'Australian Military Administration of New Guinea continued until 1921, when Australia received a mandate'); Namibya modeli: s: almanya Versay 1919-06-28'e kadar, 1914-09 → 1919-06-28 isg avustralya. AWM ham: Rabaul'da 11 Eylül çıkarma, '17 September a surrender was signed' (Rabaul/koloni düzeyi); Madang'ın teslimi arama özetinde 1914-09-24 (ham teyitsiz). 3 Kasım vs 16 Kasım 1884: bir kaynak 3 Kasım 1884 (Kaiser-Wilhelmsland üzerinde bayrak), EB1911 16 Kasım 1884 'Friedrich Wilhelmshafen' -> ham metin okunmadı. Madang yerleşimi: Neuguinea-Kompagnie Finschhafen'den 1887'de Friedrich-Wilhelmshafen/Madang'a geçti (arama özeti) -> yerleşime özgü f için bakılacak. Versay 1919-06-28 ham kaynak okumadım (EMRELİC emsali)."
+  },
+  {
+   "sira": 3582,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1914-09-17",
+   "t": "1949-07-01",
+   "hukum": "ONERI",
+   "kaynak": "Australian War Memorial, «Capture of German New Guinea» (https://www.awm.gov.au/exhibitions/forging/ww1/guinea.asp)",
+   "alinti": "On 17 September a surrender was signed. The Australian Military Administration of New Guinea continued until 1921, when Australia received a mandate from the League of Nations",
+   "uc": "f",
+   "oneri": {
+    "alan": "isg",
+    "f": "1914-09-17 (Madang için 1914-09-24 teyit edilecek)",
+    "t": "1919-06-28",
+    "sonra": "s: avustralya (manda künyesi gerekir) 1921-05-09 → 1949-07-01; 1919-06-28→1921-05-09 arası s: avustralya (Namibya modeli) EMRELİC tarif eder"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_076): Namibya modeli onay; Avustralya Yeni Gine mandası künye adayı LAB'a. · ÖLÇÜT: geçici/askerî — AWM askerî idareyi 1921'e kadar sürdürür. 17 Eylül = Rabaul/koloni teslimi, Madang'a özgü değil. 1921-05-09: 'New Guinea Act 1920' yürürlük günü (WebSearch özeti: gazette 'commence on the 9th May 1921, military occupation ended'; AustLII PDF ham okunamadı, bağlantı reddedildi) -> teyitsiz. AWM resmî müze portalı -> ONERI-güçlü. Manda künyesi (avustralya-manda-yeni-gine) depoda YOK (devletler.js grep: yalnız papua-yeni-gine-avustralya f 1949-07-01) -> künye adayı LAB'a. t=1949-07-01 (Papua ve Yeni Gine Yasası 1949) künye ucudur, kaynak okunmadı."
+  },
+  {
+   "sira": 3583,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "papua-yeni-gine-avustralya",
+   "f": "1949-07-01",
+   "t": "1975-09-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Office of the Historian, Papua New Guinea (https://history.state.gov/countries/papua-new-guinea)",
+   "alinti": "The United States recognized Papua New Guinea on September 16, 1975, when Robert D. Ray … presented a letter … at its independence ceremonies",
+   "uc": "t",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_076): Namibya modeli onay; Avustralya Yeni Gine mandası künye adayı LAB'a. · KAYNAKLI yalnız t=1975-09-16 için (bağımsızlık töreni; ülke düzeyi, resmî ABD portalı -> sınıf: ONERI-güçlü olabilir, EMRELİC sınıflasın). Öteki uç f=1949-07-01 teyitsiz (sayfada yok). 'Trust Territory administered by Australia' ifadesi var (vesayet)."
+  },
+  {
+   "sira": 3584,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "papua-yeni-gine",
+   "f": "1975-09-16",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "U.S. Office of the Historian, Papua New Guinea (https://history.state.gov/countries/papua-new-guinea)",
+   "alinti": "The United States recognized Papua New Guinea on September 16, 1975, when Robert D. Ray … presented a letter … at its independence ceremonies",
+   "uc": "f",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_076): Namibya modeli onay; Avustralya Yeni Gine mandası künye adayı LAB'a. · ÜLKE DÜZEYİ; f=1975-09-16 bağımsızlık töreni günü. Kaynak sınıfı: resmî ABD tarih ofisi portalı (tanıma sayfası) -> EMRELİC sınıflasın. t=2000-12-31 pencere ucu."
+  }
+ ],
+ "Akureyri": [
+  {
+   "sira": 3585,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "izlanda",
+   "f": "1918-12-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske (lex.dk), «Islands historie» (https://lex.dk/Islands_historie)",
+   "alinti": "Forbundsloven trådte formelt i kraft 1. december samme år. Loven gjorde Island til en fri og suveræn stat i personalunion med Danmark.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Akureyri özel değil). f=1918-12-01 gün düzeyinde ham metinden. 1944-06-17: aynı kaynak 'Republikken Island blev formelt oprettet 17.6.1944' -> devlet aynı 'izlanda' künyesi sürer, dönem bölünmesi gerekmez (ic_not). Danimarka ile kişisel birlik 1918-1944. t=2000-12-31 pencere ucu."
+  },
+  {
+   "sira": 3586,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "izlanda-serbest-devleti",
+   "f": "0930-01-01",
+   "t": "1262-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske (lex.dk), «Islands historie» (https://lex.dk/Islands_historie)",
+   "alinti": "930 Grundlæggelse af fællesforsamlingen (Altinget). Godetiden begynder. … 1262-64 Godetiden ender.",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1262-01-01 [1262-64 aralığı; yalnız yıl-aralığı]"
+   },
+   "not": "ÜLKE DÜZEYİ, YIL düzeyi. t: kaynak '1262-64' aralığı verir ('traktat … godkendt på Altinget 1262-64'); 1262-01-01 aralığın ilk yılı, 'yalnız yıl'. Akureyri varoluşu: lex.dk «Akureyri» 'Nord for Akureyri … bebyggelse fra slutningen af 800-tallet' (yerleşim izi, Akureyri'nin kuzeyinde; 930'dan önce); Akureyri'nin kendisi için ticaret 1602-1788 monopolü, köstadsret 1787 (atlas kaynağındaki ic_not 1786'sı kontrol). F-GERI yok (künye f=930)."
+  },
+  {
+   "sira": 3587,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "izlanda-norvec-danimarka",
+   "f": "1262-01-01",
+   "t": "1918-12-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Den Store Danske (lex.dk), «Islands historie» (https://lex.dk/Islands_historie)",
+   "alinti": "En traktat med Håkon 4. Håkonsson blev godkendt på Altinget 1262-64. … Forbundsloven … trådte formelt i kraft 1. december samme år.",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1262-01-01 [1262-64 aralığı; yalnız yıl-aralığı]"
+   },
+   "not": "ÜLKE DÜZEYİ. t=1918-12-01 gün düzeyinde teyitli (aynı ham metin). f yıl aralığı; 1380 Danimarka birliği (kaynak: 'Sammen med Norge bliver Island en del af unionen med Danmark') ic_not. Mevcut DEVRALMA kaynağı yerine lex.dk yazılabilir."
+  }
+ ],
+ "Melbourne": [
+  {
+   "sira": 3588,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1835-08-30",
+   "t": "1851-07-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "State Library Victoria, Victoria's early colonial history 1803-1851 (https://guides.slv.vic.gov.au/Victoriasearlyhistory/europeansettlement) ; Documenting Democracy / NAA (https://www.foundingdocs.gov.au/item-did-76.html)",
+   "alinti": "Fawkner had set up a settlement just below the Yarra Falls on 30 August 1835. | Separation took effect on 1 July 1851.",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: SLV (devlet kütüphanesi rehberi) 30 Ağustos 1835'i kuruluş yerleşimi olarak verir; aynı sayfa 'founder' tartışmasını anar (City of Melbourne 29 Ağustos Enterprize; Museums Victoria 2 Eylül Batman) -> çelişki ic_not. t: foundingdocs 'Separation took effect on 1 July 1851' (Australian Colonies Government Act, NSW enabling legislation) ham okundu; ayrıca governor.vic.gov.au: 'formally became the Colony of Victoria on 1 July 1851'. Sınıf: resmî devlet/ulusal arşiv portalları -> EMRELİC sınıflasın (ONERI-güçlü olabilir). Sahip yeni-guney-galler: Port Phillip Bölgesi 1836'dan NSW idaresinde; 1835'te NSW iddiası (Bourke Batman antlaşmasını geçersiz saydı) ama ham okunmadı. NOT: f 1835-08-30, Port Phillip 'District' 1836-09-09 idari birimden önce; ic_not."
+  },
+  {
+   "sira": 3589,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "viktorya-kolonisi",
+   "f": "1851-07-01",
+   "t": "1901-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Documenting Democracy / NAA (https://www.foundingdocs.gov.au/item-did-76.html ; https://www.foundingdocs.gov.au/item-sdid-85.html)",
+   "alinti": "Separation took effect on 1 July 1851. | Joseph Chamberlain, set 1 January 1901 as the date on which the Commonwealth would be established",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f ham: 'Separation took effect on 1 July 1851'. t ham: foundingdocs item-sdid-85: Chamberlain 16 Temmuz 1900'de 1 Ocak 1901'i Commonwealth'in kuruluş günü olarak belirledi (Kraliçe bildirisi 17 Eylül 1900). Federasyon günü avustralya künyesi f 1901-01-01 ile hizalı. Resmî portal -> sınıf EMRELİC'te."
+  }
+ ],
+ "Wellington": [
+  {
+   "sira": 3591,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1840-02-06",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "WebSearch özetleri (ham okunamadı): nzhistory.govt.nz (robots KAPALI), legislation.govt.nz bulunamadı; Colony of New Zealand genel anlatımı",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {
+    "f": "1840-02-06 künye ucu kalır; Wellington/Port Nicholson'da egemenlik 1840-05-21 (Hobson, kuzey adası, iki ayrı ilan) ONERI; 1840-01-22 ilk NZ Company yerleşimcileri ic_not; ayrı koloni 1841-05-03",
+    "bolunme": "1840-06 → 1841-05-03 yeni-guney-galler genişlemesi (arama özeti 'January 1840 NSW extension'); teyit LAB/EMRELİC"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_076): ONERI. 1840-01-22 → 1840-02-06 (ya da Hobson 1840-05-21 egemenlik bildirisi) arası Māori sahipliği künye sorusu LAB'a. · ÖLÇÜT: idareye katma — Waitangi 1840-02-06 yalnız Kuzey Adası'nda bazı imzacılarla; Port Nicholson imzaları sonradan; Hobson'un egemenlik ilanı 21 Mayıs 1840 (arama özeti, 2 ilan; ham okunamadı). Waitangi günü imza günüdür, devir/egemenlik tek başına değil -> künye f=1840-02-06 (brifteki Waitangi emsali) ile uyumlu, ama kaynakla teyit EDİLEMEDİ: Te Ara, NZ History, DNZB robots KAPALI; nzetc/christchurchcitylibraries/legislation.govt.nz ham metin vermedi. Wellington varoluş: Aurora 1840-01-22 Petone (nzhistory özeti, ham okunamadı) -> f 1840-01-22 F-GERI ADAYI AMA 02-06'dan önce sahip yok (künye f 1840-02-06) -> hayalet dilim; uygulanamaz, künye sorusu LAB'a. Hüküm BAKILMADI/ONERI sınırında: resmî yasa metni bulunamadı."
+  }
+ ],
+ "Christchurch": [
+  {
+   "sira": 3592,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1850-12-16",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "WebSearch özetleri (ham okunamadı): Christchurch City Libraries 'The first four ships' (sayfa boş 202 döndü) ; Britannica Christchurch summary (403)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {
+    "f": "1850-12-16 (Charlotte Jane, Lyttelton) varoluş günü olarak kabul edilebilir; Christchurch şehri 1856-07-31 letters patent ic_not"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_076): ONERI. Māori sahipliği / Hobson 1840-05-21 künye sorusu LAB'a. · f=1850-12-16: arama özeti 'The Charlotte Jane reached Lyttelton on 16 December 1850' (Christchurch City Libraries) ve Britannica 'founded in 1850'; Christchurch kentinin kendisi Lyttelton'dan sonra kuruldu (Canterbury Association). Ham metin okunamadı -> ONERI-güçlü, KAYNAKLI değil. Sahip yeni-zelanda: 1841-05-03'ten ayrı koloni (arama özeti, teyitsiz), 1850'de künye f=1840-02-06 kapsıyor. F-GERI yok."
+  }
+ ]
+}

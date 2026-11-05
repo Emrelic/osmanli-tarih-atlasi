@@ -1,0 +1,327 @@
+{
+ "Mora (Tripoliçe)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:505",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi «Tripoliçe» https://islamansiklopedisi.org.tr/tripolice ; «İbrâhim Paşa (Kavalalı)» ; Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.IV",
+   "alinti": "Tripoliçe 1825 Haziranında Kavalalı İbrâhim Paşa tarafından savaşsız geri alındı.",
+   "oneri": {
+    "f": "1821-10-05",
+    "t": "1825-06-23",
+    "d": "yunanistan",
+    "not_dilim": "ardından d Osmanlı/Mısır 1825-06-23 → 1828 (gün bulunamadı); sonra s yunanistan 1828 (gün bulunamadı)"
+   },
+   "not": "ÖLÇÜT: idareye katma — Yunan geçici hükümeti/ayaklanma yönetimi yeri fiilen elinde tutuyor; Tripoliçe 1821-03-25'te alınmadı; kuşatma bahar-yaz 1821, Phillips \"At the end of September it was obvious that the fall of the town could not be postponed\" (1821). GÜN: Phillips yalnız 1821 Eylül sonu veriyor; 23 Eylül 1821 (Jülyen) = 1821-10-05 Gregoryen çevirisi İKİNCİL bilgidir, atlasa yazmadan önce ikinci bağımsız kaynakla (Finlay cilt I, Woodhouse) gün teyidi gerekir. ÇİFT-TDV/İÇ ÇELİŞKİ: TDV «Tripoliçe» ve «Mora» alınışı \"Ekim 1822\" yazar; Phillips/Finlay 1821 der, TDV büyük olasılıkla yıl hatası (Mora maddesi katliam sırasını 1822 gösteriyor) — iki maddede beyan edilmeli. İbrahim geri alışı: TDV «İbrâhim Paşa»: Tripoliçe 23 Haziran 1825; TDV «Tripoliçe»: Haziran 1825 -> d Osmanlı/Mısır 1825-06-23. Ibrahim Eylül-Ekim 1828'de Mora'dan ayrıldı (TDV Mora \"1828'in sonbaharında\"; Phillips: 3 Ekim, Finlay: 5 Ekim 1828 Ibrahim ayrıldı); iç kesim Tripoliçe için Yunan devralma günü BULUNAMADI. Londra Protokolü 1830-02-03 ve Osmanlı tanıması (TDV Yunanistan: 1830) ic_not."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:505",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1715-07-01",
+   "t": "1821-03-25",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi «Tripoliçe»; «İbrâhim Paşa (Kavalalı)»",
+   "alinti": "Tripoliçe 1825 Haziranında Kavalalı İbrâhim Paşa tarafından savaşsız geri alındı.",
+   "oneri": {
+    "f": "1715-07-01",
+    "t": "1821-10-05",
+    "d": "osmanli",
+    "ek": "d Osmanlı(Mısır) 1825-06-23 → 1828-yıl"
+   },
+   "not": "d: Osmanlı ucu s yunanistan başlangıcı ile birlikte hareket eder; ayrıca 1825-06-23 → 1828 arası d eklenmeli (yukarıdaki satır)."
+  }
+ ],
+ "Modon": [
+  {
+   "dosya_satir": "data/yerlesimler.js:507",
+   "alan": "d",
+   "d": "osmanli",
+   "f": "1715-08-01",
+   "t": "1825-02-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi «Modon» https://islamansiklopedisi.org.tr/modon",
+   "alinti": "8 Ekim 1828'de Modon'u ele geçiren Fransız Generali Marquis de Maison kumandasındaki Fransız keşif ordusu",
+   "oneri": {
+    "f": "1715-08-01",
+    "t": "1828-10-08",
+    "d": "osmanli",
+    "isg": {
+     "d": "fransa",
+     "f": "1828-10-08",
+     "t": "BULUNAMADI (Yunan teslim günü)"
+    }
+   },
+   "not": "ÖLÇÜT: geçici/askerî — Fransız Mora seferi (Maison) kaleyi aldı, Yunan hükümetine devretti; işgalci toprağı kendi saymadı. TDV Modon: Osmanlı dönemi \"1715-1828\"; 1825-02 Ibrahim karargâhı Modon. Phillips: Coron/Modon/Navarino garnizonları direnmeden Fransızlarca ele geçirildi (Ekim 1828); Finlay: Ibrahim 5 Ekim 1828'de ayrıldı. Mevcut d t=1825-02-24 yanlış: Modon 1821-1828 Osmanlı elinde kaldı, hiç Yunan eline geçmedi (Phillips: \"Two thousand were blockading Coron; three thousand besieged Modon and Navarino\" 1821 başı; Phillips: Nov 1821 \"Nauplia, Patras, Coron, Modon still defied the Greeks\"). Mevcut s yunanistan 1821-03-25 → ONERI: kaldır; yerine isg fransa 1828-10-08 → Yunan teslimi (gün BULUNAMADI), sonra s yunanistan. Not: Phillips 304: Fransızlar Coron ve Navarino'da iki tabur bıraktı (Modon anılmıyor). TDV Modon: \"Fransızlar birkaç ay sonra burayı boşaltarak Yunan...\" (yapı: boşaltma günü yok)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler.js:507",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi «Modon»",
+   "alinti": "Fransızlar birkaç ay sonra burayı boşaltarak Yunan",
+   "oneri": {
+    "f": "BULUNAMADI (1829 öncesi, TDV: 'birkaç ay sonra')",
+    "d": "yunanistan"
+   },
+   "not": "ÖLÇÜT: idareye katma — Yunan geçici hükümeti/ayaklanma yönetimi yeri fiilen elinde tutuyor; Yunan fiilî teslim günü kaynakta yok; TDV cümlesi kesik, sayfa içinde gün yok."
+  }
+ ],
+ "Balyabadra (Patras)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:509",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.IV (Patras ayaklanması, s.48-49) ; TDV İslâm Ansiklopedisi «Balyabadra» https://islamansiklopedisi.org.tr/balyabadra ; «İbrâhim Paşa»",
+   "alinti": "the place remained in the hands of the Turks till after the retirement of Ibrahim from the Morea in 1828",
+   "oneri": {
+    "f": "1828 (gün BULUNAMADI)",
+    "d": "yunanistan",
+    "isg": "fransa 1828-10 civarı (Patras kalesi Maison seferiyle teslim; gün BULUNAMADI)"
+   },
+   "not": "ÖLÇÜT: idareye katma — Yunan hükümeti kaleyi teslim alınca (1828 sonu); 1821-1828 arası kent yanık/yıkık, kalesi Osmanlı elinde (Phillips: Greeks \"could not reduce the citadel\"; Yusuf Paşa 15 Nisan 1821'de kaleyi kurtardı). Ayaklanma: Germanos 6 Nisan 1821'de Patras'a yürüdü (Phillips); TDV Balyabadra: \"ilk direniş gösteren şehirler arasında (4 Nisan 1821)\" — gün tutmuyor (Phillips 6 Nisan; TDV 4 Nisan; ayaklanma ≠ idare). Mevcut s 1821-03-25 YANLIŞ; mevcut d t=1821-03-25 de YANLIŞ: d Osmanlı 1715-07-01 → 1828 (gün BULUNAMADI) olmalı. TDV Balyabadra \"(1458-1687 ve 1715-1829)\" yıl düzeyi. Londra 1830-02-03 ic_not."
+  }
+ ],
+ "Vostitsa (Aigion)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:511",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) s.234-235 (Vostitza 1827-28 çatışması); TDV «Mora»; arandı: Phillips ch.IV, Finlay; Vostitsa alınış günü yok",
+   "alinti": "At Vostitza his lieutenant Paploutas defeated the Turkish force",
+   "oneri": {},
+   "not": "Yunan eline geçiş günü bulunamadı. Phillips: Nisan 1821 başında yalnız bazı kaleler Osmanlı elinde (Morea geneli) — Vostitsa kalesiz kasaba, ayaklanma Kalavrita'dan (2 Nisan 1821) dağıldı. Mevcut 1821-03-25 kaynaksız; YIL=1821 düzeyi makul. 1825-26 Ibrahim'in Kuzey Mora harekâtında Vostitsa'nın Osmanlı eline geçtiği/Yunan çevresinde kaldığı belirsiz (Phillips s.235 Vostitza'da Yunan başarısı 1827). ÖLÇÜT: idareye katma — belgesi yok."
+  }
+ ],
+ "Kalavrita (Kalavryta)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:512",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.IV s.48",
+   "alinti": "On the 2nd of April Archbishop Germanos raised the standard of the cross, and occupied Kalavryta",
+   "oneri": {
+    "f": "1821-04-02",
+    "d": "yunanistan"
+   },
+   "not": "ÖLÇÜT: idareye katma — Yunan geçici hükümeti/ayaklanma yönetimi yeri fiilen elinde tutuyor; Phillips Gregoryen gün kullanıyor gibi (Germanos Kalavrita'yı 21 Mart Jülyen = 2 Nisan Gregoryen alır; Phillips'in Spetses 7 Nisan'ı da Jülyen 26 Mart ile uyumlu). Gün KISMEN: tek kaynak (eski eser). 1821-03-25 sembolik gündür. Ibrahim 1825-27'de Kalavrita'yı geçici işgal etti ama Osmanlı idaresine katmadı → d eklenmesi için kaynak yok."
+  }
+ ],
+ "Damala (Troizen)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:547",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.XIII (Troizen Meclisi 1827 Mart-Mayıs); TDV «Mora»",
+   "alinti": "Assembly at Damala — Capodistrias elected President — Constitution of Troezene",
+   "oneri": {},
+   "not": "Ayaklanma/teslim günü bulunamadı. Troizen Meclisi (1827) Yunan elinde olduğunu gösterir ama 1821 başlangıcını tarihlemez. Mevcut s 1821-03-25 YIL düzeyi makul, GÜN uydurma. ÖLÇÜT: idareye katma belgesi (1821) yok. Jülyen/Gregoryen: kaynak tarihi çevrilecek."
+  }
+ ],
+ "Methana": [
+  {
+   "dosya_satir": "data/yerlesimler.js:548",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.IV; TDV «Mora»; Methana'yı anan kaynak bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Methana (kasaba, kale yok) için ayaklanma günü kaynakta yok. Phillips s.52: Nisan 1821 başında Mora'da yalnız birkaç kale Osmanlı elinde; Methana anılmıyor. Mevcut veri kalır (YIL 1821 olası)."
+  }
+ ],
+ "Ermiyoni (Hermione)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:555",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.IV s.52,65 (Spezzia 7 Nisan, Hydra 28 Nisan); Ermiyoni özel kaynak yok",
+   "alinti": "As early as the 7th of April, the important island of Spezzia had declared for the Hellenic cause",
+   "oneri": {},
+   "not": "ADA/KIYI KURALI (EMRELİC): Ermiyoni Spetses/Hidra karşısında kıyı; ama yerleşime özgü gün kaynakta yok. Komşu ada günü (Spetses 1821-04-07) \"gün komşudan\" olarak yazılabilir ama zincirleme devralma yasak → BULUNAMADI. Mevcut 1821-03-25 sembolik. Not: Kranidi Hydra karşısında, 1823'te Hükümet kaçışı (Phillips) Hydriots himayesi."
+  }
+ ],
+ "Kranidi": [
+  {
+   "dosya_satir": "data/yerlesimler.js:556",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.VII-VIII (Kranidi 1823 sonu hükümet merkezi)",
+   "alinti": "fled to Kranidi, opposite the island of Hydra, and put themselves under the protection of the Hydriots",
+   "oneri": {},
+   "not": "Ayaklanma günü yok; Kranidi 1823 sonunda Yunan Yasama Komitesi'nin sığınağı (Phillips) → Yunan idaresinde olduğu 1823 için kanıt, başlangıç günü için değil. Mevcut veri kalır."
+  }
+ ],
+ "Gördüs (Korint)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:510",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1822-01-01",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) s.52,102,130-131 (Acrocorinthos: kuşatma Nisan 1821, Dramali 1822 Temmuz, Yunan geri alışı)",
+   "alinti": "Acrocorinthos which had surrendered on the 7th of November",
+   "oneri": {
+    "f": "1822-01 (kaynakta: gün yok)",
+    "ek": "d Osmanlı 1822-07 (Dramali, gün BULUNAMADI) → 1822-11-07 (Yunan geri alış, Phillips); sonra s yunanistan 1822-11-07"
+   },
+   "not": "ÖLÇÜT: idareye katma — Yunan geçici hükümeti/ayaklanma yönetimi yeri fiilen elinde tutuyor; Mevcut s 1822-01-01 YIL sahte günü; Phillips ilk teslim gününü vermiyor (Nisan 1821'de kuşatma, Ocak 1822 teslim bilgisi bu kaynakta yok). Phillips: Dramali 1822 yazında Acrocorinthos'u savaşsız aldı → s yunanistan kesilmeli, d Osmanlı kısa dilim; Yunan geri alışı \"7 Kasım\" (ay-yıl 1822 bağlamı sayfa 130 notu; yıl için \"1822\" tutarlı, Phillips'in 1823 sonu cümlesinde plüperfect). KISMEN: gün tek kaynakta, yıl çıkarım (s.130-131)."
+  }
+ ],
+ "Anabolu (Nauplion)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:513",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1822-12-12",
+   "t": "1973-06-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.VII s.116-120",
+   "alinti": "Already, on the night of the 12th of December, the castle of Palamidi... had been occupied by the Greeks",
+   "oneri": {},
+   "not": "ÖLÇÜT: idareye katma — Palamidi 12 Aralık 1822'de Yunanlarca alındı (Phillips; Jülyen 30 Kasım), şehir garnizonu açlıktan teslim oldu (şartlar Kolokotronis); şehir teslim günü Phillips'te ayrı verilmemiş → mevcut 1822-12-12 Palamidi günüdür, KAYNAKLI-yaklaşık. Anabolu Yunan Devleti'nin 1829-1833 başkentidir (TDV «Yunanistan»: \"Merkezi 1833 yılına kadar Anabolu\"). Mevcut d t=1822-12-12 uyumlu."
+  }
+ ],
+ "İstefe (Tebai)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:560",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) s.126,205,307-308,326 (Thebes: Osmanlı üssü 1821-1829); TDV İslâm Ansiklopedisi «Yunanistan»",
+   "alinti": "Mehemet Pasha had been awaiting at Thebes the arrival of strong reinforcements",
+   "oneri": {
+    "f": "1829 (yıl; gün BULUNAMADI)",
+    "d": "yunanistan"
+   },
+   "not": "ÖLÇÜT: idareye katma — Yunan idaresi Thebes'e 1829'da girdi (Phillips s.307: Boeotia ve Levadia Yunan eline geçti, Hypsilanti Thebes çevresinde toplandı; Londra Protokolü 1830-02-03 Boeotia'yı Yunan sınırına dahil etti). 1821-03-25 YANLIŞ: Thebes 1821'de ve 1822-1828'de Osmanlı karargâhı/garnizonu (Phillips: Mehmed Paşa Thebes'te; \"strengthened the garrison of Thebes\", 1822). Osmanlı d dönemi 1456-06-04 → 1829 olmalı (mevcut d t=1821-03-25 YANLIŞ). Gün BULUNAMADI."
+  }
+ ],
+ "Kulluk (Salamis)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1833",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) s.126,139 (Atinalılar Salamis'e sığındı; Kolokotronis Salamis'te)",
+   "alinti": "the Athenians took refuge in the island of Salamis",
+   "oneri": {},
+   "not": "Salamis/Kulluk ele geçiriliş veya katılış günü yok. Atina Akropolü 1821 Mayıs'ta kuşatma altında, Salamis Yunan sığınağı (1822 Yusuf Paşa seferi s.126; 1824 Byron dönemi Kolokotronis Salamis'te). ADA: Osmanlı geri almadı (EMRELİC) ama günü kaynakta yok → mevcut veri kalır (YIL 1821 olası)."
+  }
+ ],
+ "Egina (Aegina)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1834",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.XIII-XIV (Egina Kasım 1826'da Meclis merkezi); Aegina ayaklanma günü yok",
+   "alinti": "the National Assembly... was transferred by Zaimis to the island of Aegina",
+   "oneri": {},
+   "not": "ADA KURALI: Osmanlı geri almadı; Egina Yunan idaresinde olduğunu 1826 Kasım'dan belgeler (Meclis nakli) ama katılış günü kaynakta yok. 1821-03-25 yalnız ayaklanma sembolü; mevcut veri kalır, gün BULUNAMADI. Spetses (7 Nisan 1821) ve Hidra (28 Nisan 1821) günleri Phillips'te var, Egina yok."
+  }
+ ],
+ "Çamlıca (Hidra)": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1835",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) ch.IV s.65",
+   "alinti": "On the 28th of April, however, the people rose... and hoisted the Greek flag",
+   "oneri": {
+    "f": "1821-04-28",
+    "d": "yunanistan"
+   },
+   "not": "ÖLÇÜT: idareye katma — Yunan geçici hükümeti/ayaklanma yönetimi yeri fiilen elinde tutuyor; Hidra'nın kendi meclisiyle katılışı: Phillips Hydra için 28 Nisan 1821 (halk ayaklandı, oligarşiyi devirdi, Yunan bayrağı çekti); Spezzia (Spetses) 7 Nisan 1821 — Phillips Spetses'i Gregoryen çevirmiş gibi (Jülyen 26 Mart). Osmanlı geri almadı (EMRELİC). GÜN: tek kaynak (eski eser) → KISMEN; ikinci akademik teyit (Finlay I, Woodhouse) önerilir; mevcut 1821-03-25 YANLIŞ. YENİ YERLEŞİM: Spetses (Spezzia) veride yok → eklenmesi gerekir, s yunanistan 1821-04-07 (Phillips: \"As early as the 7th of April, the important island of Spezzia had declared for the Hellenic cause\")."
+  }
+ ],
+ "Elafonisos (Cervi)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek_adalar.js:140",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1821-03-25",
+   "t": "1973-06-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Phillips 1897, Finlay 1861; TDV «Mora» (Elafonisos anılmıyor); arandı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Elafonisos (Cervi) için Phillips ve TDV bir şey vermiyor. Ada Vatika kıyısında, Osmanlı geri alışı (1825-28) kaynakta yok. Mevcut veri kalır."
+  }
+ ],
+ "Koron": [
+  {
+   "dosya_satir": "data/yerlesimler.js:1620",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1828-10-05",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi «Koron» https://islamansiklopedisi.org.tr/koron ; Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) s.302-304 ; Finlay, History of the Greek Revolution, 1861 (archive.org historygreekrev00finlgoog; eski eser) s.192-193",
+   "alinti": "the Turks refused, but suffered the besiegers to plant their ladders against the walls, and storm the defences",
+   "oneri": {
+    "d": "osmanli t",
+    "t": "1828-10 (Ibrahim 3-5 Ekim 1828'de ayrıldı; Koron günü BULUNAMADI)",
+    "isg": {
+     "d": "fransa",
+     "f": "1828-10 (gün BULUNAMADI)",
+     "t": "BULUNAMADI (Yunan teslim günü)"
+    }
+   },
+   "not": "ÖLÇÜT: geçici/askerî — Fransız seferi Koron kalesini Osmanlı-Mısır garnizonundan aldı (Phillips; Finlay: Navarin, Modon, Coron Fransızların eline düştü), Yunan hükümetine devretti; Phillips s.304: Fransızlar Coron ve Navarino'da iki tabur bıraktı → işgal sürüyor. TDV «Koron»: \"20 Ekim 1827 Navarin baskınından sonra Maison kumandasında Fransız keşif birliği Koron'u ele geçirdi\" (TDV günü 1827 yazıyor, Maison seferi 1828 → TDV yıl hatası; Modon maddesi 8 Ekim 1828 veriyor: İÇ ÇELİŞKİ ÇİFT-TDV, ic_not'ta beyan). Mevcut s yunanistan 1828-10-05 = Ibrahim ayrılış günü (Finlay 5 Ekim; Phillips 3 Ekim) — Koron'un Yunan idaresine geçişi değil. 1828-10-05 → isg fransa yazılmalı; s yunanistan = Yunan fiilî teslim günü BULUNAMADI."
+  }
+ ],
+ "İnebahtı": [
+  {
+   "dosya_satir": "data/yerlesimler.js:558",
+   "alan": "s",
+   "d": "yunanistan",
+   "f": "1829-04-01",
+   "t": "1973-06-01",
+   "hukum": "ONERI",
+   "kaynak": "Phillips, W. A., The War of Greek Independence 1821-1833, Scribner 1897 (archive.org warofgreekindepe00philuoft; eski eser, tek başına KISMEN) s.325 (Paparrigopulos/Agostino Capodistrias); TDV İslâm Ansiklopedisi «İnebahtı» https://islamansiklopedisi.org.tr/inebahti",
+   "alinti": "The garrison of Lepanto capitulated on the 30th of April",
+   "oneri": {
+    "f": "1829-04-30",
+    "d": "yunanistan"
+   },
+   "not": "ÖLÇÜT: idareye katma — Yunan geçici hükümeti/ayaklanma yönetimi yeri fiilen elinde tutuyor; Phillips: İnebahtı garnizonu 30 Nisan'da teslim oldu (Agostino Kapodistrias, Batı Hellas, 1829); TDV İnebahtı: \"1829 Nisanında elden çıktı, Yunan idaresine girdi\" (YIL-AY). Mevcut 1829-04-01 ay başı düzeyi; Phillips günü 30 Nisan (yıl: bağlam Rus-Osmanlı savaşı sonrası Batı Hellas harekâtı; yılı Phillips cümlesinden değil TDV'den teyitli). Mevcut d t=1829-04-01 → 1829-04-30. KISMEN (gün tek kaynak)."
+  }
+ ]
+}

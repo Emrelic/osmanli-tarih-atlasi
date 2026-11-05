@@ -1,0 +1,4502 @@
+[
+ {
+  "ad": "Yenişehir (Bursa)",
+  "neden": [
+   "hedef:7",
+   "anılma:41",
+   "komşu:13",
+   "puan:66.3"
+  ]
+ },
+ {
+  "ad": "Çimpe",
+  "neden": [
+   "hedef:9",
+   "anılma:14",
+   "komşu:9",
+   "puan:63.4"
+  ]
+ },
+ {
+  "ad": "İsmail",
+  "neden": [
+   "hedef:9",
+   "anılma:81",
+   "komşu:3",
+   "puan:63.3"
+  ]
+ },
+ {
+  "ad": "Niş",
+  "neden": [
+   "hedef:11",
+   "anılma:63",
+   "komşu:1",
+   "puan:62.4"
+  ]
+ },
+ {
+  "ad": "Geyve",
+  "neden": [
+   "hedef:8",
+   "anılma:10",
+   "komşu:10",
+   "puan:54.4"
+  ]
+ },
+ {
+  "ad": "Gemlik (Kios)",
+  "neden": [
+   "hedef:8",
+   "anılma:9",
+   "komşu:10",
+   "puan:52.8"
+  ]
+ },
+ {
+  "ad": "Bolayır",
+  "neden": [
+   "hedef:9",
+   "anılma:10",
+   "komşu:7",
+   "puan:52.0"
+  ]
+ },
+ {
+  "ad": "İnegöl",
+  "neden": [
+   "hedef:8",
+   "anılma:12",
+   "komşu:8",
+   "puan:51.3"
+  ]
+ },
+ {
+  "ad": "Yenişehir (Larissa)",
+  "neden": [
+   "hedef:9",
+   "anılma:41",
+   "komşu:2",
+   "puan:51.2"
+  ]
+ },
+ {
+  "ad": "Akhisar (Pamukova)",
+  "neden": [
+   "hedef:8",
+   "anılma:8",
+   "komşu:10",
+   "puan:51.2"
+  ]
+ },
+ {
+  "ad": "Gebze",
+  "neden": [
+   "hedef:8",
+   "anılma:9",
+   "komşu:9",
+   "puan:50.2"
+  ]
+ },
+ {
+  "ad": "Yarhisar",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:13",
+   "puan:49.3"
+  ]
+ },
+ {
+  "ad": "Mekece",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:10",
+   "puan:49.3"
+  ]
+ },
+ {
+  "ad": "Lefke (Osmaneli)",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:17",
+   "puan:49.3"
+  ]
+ },
+ {
+  "ad": "Maydos (Eceabat)",
+  "neden": [
+   "hedef:9",
+   "anılma:9",
+   "komşu:6",
+   "puan:47.6"
+  ]
+ },
+ {
+  "ad": "Yalova",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:12",
+   "puan:47.1"
+  ]
+ },
+ {
+  "ad": "Marmaracık",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:13",
+   "puan:47.1"
+  ]
+ },
+ {
+  "ad": "Karaçepüş",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:10",
+   "puan:47.1"
+  ]
+ },
+ {
+  "ad": "Absu (Hypsu)",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:10",
+   "puan:47.1"
+  ]
+ },
+ {
+  "ad": "Kestel",
+  "neden": [
+   "hedef:8",
+   "anılma:8",
+   "komşu:8",
+   "puan:46.0"
+  ]
+ },
+ {
+  "ad": "Leiden",
+  "neden": [
+   "hedef:7",
+   "anılma:39",
+   "komşu:4",
+   "puan:46.0"
+  ]
+ },
+ {
+  "ad": "Karaferye (Veria)",
+  "neden": [
+   "hedef:9",
+   "anılma:10",
+   "komşu:5",
+   "puan:45.9"
+  ]
+ },
+ {
+  "ad": "Kasr-ı Şîrîn",
+  "neden": [
+   "hedef:11",
+   "anılma:8",
+   "komşu:3",
+   "puan:45.7"
+  ]
+ },
+ {
+  "ad": "Ferecik (Feres)",
+  "neden": [
+   "hedef:9",
+   "anılma:5",
+   "komşu:8",
+   "puan:45.2"
+  ]
+ },
+ {
+  "ad": "Pelekanon (Eskihisar)",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:9",
+   "puan:44.8"
+  ]
+ },
+ {
+  "ad": "İpsala",
+  "neden": [
+   "hedef:8",
+   "anılma:5",
+   "komşu:10",
+   "puan:44.7"
+  ]
+ },
+ {
+  "ad": "Leblebicihisar",
+  "neden": [
+   "hedef:8",
+   "anılma:5",
+   "komşu:10",
+   "puan:44.7"
+  ]
+ },
+ {
+  "ad": "Köprühisar (Yenişehir)",
+  "neden": [
+   "hedef:8",
+   "anılma:5",
+   "komşu:10",
+   "puan:44.7"
+  ]
+ },
+ {
+  "ad": "Karatigin",
+  "neden": [
+   "hedef:8",
+   "anılma:5",
+   "komşu:12",
+   "puan:44.7"
+  ]
+ },
+ {
+  "ad": "Ulubat",
+  "neden": [
+   "hedef:8",
+   "anılma:11",
+   "komşu:6",
+   "puan:44.6"
+  ]
+ },
+ {
+  "ad": "Eçmiyadzin",
+  "neden": [
+   "hedef:10",
+   "anılma:4",
+   "komşu:7",
+   "puan:44.4"
+  ]
+ },
+ {
+  "ad": "Kite (Kete)",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:8",
+   "puan:44.3"
+  ]
+ },
+ {
+  "ad": "Dimbos",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:8",
+   "puan:44.3"
+  ]
+ },
+ {
+  "ad": "Akyazı",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:8",
+   "puan:44.3"
+  ]
+ },
+ {
+  "ad": "Söğüt",
+  "neden": [
+   "hedef:7",
+   "anılma:11",
+   "komşu:8",
+   "puan:43.9"
+  ]
+ },
+ {
+  "ad": "Sarp",
+  "neden": [
+   "hedef:8",
+   "anılma:10",
+   "komşu:6",
+   "puan:43.5"
+  ]
+ },
+ {
+  "ad": "Samandıra",
+  "neden": [
+   "hedef:7",
+   "anılma:7",
+   "komşu:13",
+   "puan:43.1"
+  ]
+ },
+ {
+  "ad": "Hereke",
+  "neden": [
+   "hedef:8",
+   "anılma:5",
+   "komşu:9",
+   "puan:42.4"
+  ]
+ },
+ {
+  "ad": "Harmankaya",
+  "neden": [
+   "hedef:8",
+   "anılma:5",
+   "komşu:9",
+   "puan:42.4"
+  ]
+ },
+ {
+  "ad": "Sofulu (Soufli)",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:8",
+   "puan:42.4"
+  ]
+ },
+ {
+  "ad": "Gölyazı (Apollonia)",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:8",
+   "puan:42.4"
+  ]
+ },
+ {
+  "ad": "Kavala",
+  "neden": [
+   "hedef:8",
+   "anılma:15",
+   "komşu:4",
+   "puan:42.3"
+  ]
+ },
+ {
+  "ad": "Salyan",
+  "neden": [
+   "hedef:12",
+   "anılma:8",
+   "komşu:1",
+   "puan:42.2"
+  ]
+ },
+ {
+  "ad": "Hoy",
+  "neden": [
+   "hedef:10",
+   "anılma:16",
+   "komşu:1",
+   "puan:42.2"
+  ]
+ },
+ {
+  "ad": "Drama",
+  "neden": [
+   "hedef:10",
+   "anılma:11",
+   "komşu:2",
+   "puan:41.8"
+  ]
+ },
+ {
+  "ad": "Nihâvend",
+  "neden": [
+   "hedef:11",
+   "anılma:10",
+   "komşu:1",
+   "puan:41.1"
+  ]
+ },
+ {
+  "ad": "Adranos (Orhaneli)",
+  "neden": [
+   "hedef:8",
+   "anılma:8",
+   "komşu:6",
+   "puan:40.9"
+  ]
+ },
+ {
+  "ad": "Huế (Phú Xuân)",
+  "neden": [
+   "hedef:10",
+   "anılma:14",
+   "komşu:1",
+   "puan:40.8"
+  ]
+ },
+ {
+  "ad": "Biga",
+  "neden": [
+   "hedef:9",
+   "anılma:11",
+   "komşu:3",
+   "puan:40.8"
+  ]
+ },
+ {
+  "ad": "Kulacahisar",
+  "neden": [
+   "hedef:8",
+   "anılma:5",
+   "komşu:8",
+   "puan:40.2"
+  ]
+ },
+ {
+  "ad": "Beri",
+  "neden": [
+   "hedef:9",
+   "anılma:4",
+   "komşu:7",
+   "puan:39.9"
+  ]
+ },
+ {
+  "ad": "Aydos Kalesi",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:13",
+   "puan:39.1"
+  ]
+ },
+ {
+  "ad": "Parga",
+  "neden": [
+   "hedef:6",
+   "anılma:12",
+   "komşu:8",
+   "puan:38.5"
+  ]
+ },
+ {
+  "ad": "Tahran",
+  "neden": [
+   "hedef:10",
+   "anılma:11",
+   "komşu:1",
+   "puan:38.3"
+  ]
+ },
+ {
+  "ad": "Kâşân",
+  "neden": [
+   "hedef:10",
+   "anılma:16",
+   "komşu:0",
+   "puan:38.3"
+  ]
+ },
+ {
+  "ad": "Orestiada (Kumçiftliği)",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:13",
+   "puan:38.2"
+  ]
+ },
+ {
+  "ad": "Eski Zağra (Stara Zagora)",
+  "neden": [
+   "hedef:10",
+   "anılma:14",
+   "komşu:0",
+   "puan:37.1"
+  ]
+ },
+ {
+  "ad": "Uluborlu",
+  "neden": [
+   "hedef:7",
+   "anılma:15",
+   "komşu:4",
+   "puan:37.0"
+  ]
+ },
+ {
+  "ad": "Ćuprija",
+  "neden": [
+   "hedef:11",
+   "anılma:5",
+   "komşu:2",
+   "puan:36.9"
+  ]
+ },
+ {
+  "ad": "Ordubad",
+  "neden": [
+   "hedef:11",
+   "anılma:5",
+   "komşu:2",
+   "puan:36.9"
+  ]
+ },
+ {
+  "ad": "Kragujevac",
+  "neden": [
+   "hedef:9",
+   "anılma:10",
+   "komşu:2",
+   "puan:36.7"
+  ]
+ },
+ {
+  "ad": "Karamürsel",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:9",
+   "puan:36.3"
+  ]
+ },
+ {
+  "ad": "Tire",
+  "neden": [
+   "hedef:8",
+   "anılma:11",
+   "komşu:3",
+   "puan:36.2"
+  ]
+ },
+ {
+  "ad": "Şüşter",
+  "neden": [
+   "hedef:9",
+   "anılma:7",
+   "komşu:3",
+   "puan:36.0"
+  ]
+ },
+ {
+  "ad": "Sâmerrâ",
+  "neden": [
+   "hedef:9",
+   "anılma:13",
+   "komşu:1",
+   "puan:36.0"
+  ]
+ },
+ {
+  "ad": "Tırhala",
+  "neden": [
+   "hedef:9",
+   "anılma:9",
+   "komşu:2",
+   "puan:35.7"
+  ]
+ },
+ {
+  "ad": "Dordrecht",
+  "neden": [
+   "hedef:7",
+   "anılma:17",
+   "komşu:3",
+   "puan:35.4"
+  ]
+ },
+ {
+  "ad": "İmralı Adası",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:5",
+   "puan:35.4"
+  ]
+ },
+ {
+  "ad": "Söke",
+  "neden": [
+   "hedef:9",
+   "anılma:4",
+   "komşu:5",
+   "puan:35.2"
+  ]
+ },
+ {
+  "ad": "Keşan",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:7",
+   "puan:35.1"
+  ]
+ },
+ {
+  "ad": "Yagodina (Jagodina)",
+  "neden": [
+   "hedef:8",
+   "anılma:13",
+   "komşu:2",
+   "puan:34.9"
+  ]
+ },
+ {
+  "ad": "Truva yöresi (Tevfikiye)",
+  "neden": [
+   "hedef:7",
+   "anılma:7",
+   "komşu:6",
+   "puan:34.5"
+  ]
+ },
+ {
+  "ad": "Kirmasti (M.Kemalpaşa)",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:4",
+   "puan:34.5"
+  ]
+ },
+ {
+  "ad": "Távri",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:8",
+   "puan:34.0"
+  ]
+ },
+ {
+  "ad": "Cübeyl",
+  "neden": [
+   "hedef:10",
+   "anılma:10",
+   "komşu:0",
+   "puan:34.0"
+  ]
+ },
+ {
+  "ad": "Kerbelâ",
+  "neden": [
+   "hedef:9",
+   "anılma:15",
+   "komşu:0",
+   "puan:34.0"
+  ]
+ },
+ {
+  "ad": "Lenkeran",
+  "neden": [
+   "hedef:10",
+   "anılma:7",
+   "komşu:1",
+   "puan:33.9"
+  ]
+ },
+ {
+  "ad": "Bulgar (Bolgar)",
+  "neden": [
+   "hedef:5",
+   "anılma:163",
+   "komşu:1",
+   "puan:33.5"
+  ]
+ },
+ {
+  "ad": "Berde (Karabağ)",
+  "neden": [
+   "hedef:12",
+   "anılma:5",
+   "komşu:0",
+   "puan:33.5"
+  ]
+ },
+ {
+  "ad": "Armutlu",
+  "neden": [
+   "hedef:8",
+   "anılma:4",
+   "komşu:6",
+   "puan:33.4"
+  ]
+ },
+ {
+  "ad": "Çaçak",
+  "neden": [
+   "hedef:9",
+   "anılma:7",
+   "komşu:2",
+   "puan:33.3"
+  ]
+ },
+ {
+  "ad": "Mihaliç (Karacabey)",
+  "neden": [
+   "hedef:8",
+   "anılma:8",
+   "komşu:3",
+   "puan:33.3"
+  ]
+ },
+ {
+  "ad": "Yezd",
+  "neden": [
+   "hedef:8",
+   "anılma:15",
+   "komşu:1",
+   "puan:33.2"
+  ]
+ },
+ {
+  "ad": "Kandıra",
+  "neden": [
+   "hedef:7",
+   "anılma:13",
+   "komşu:3",
+   "puan:33.1"
+  ]
+ },
+ {
+  "ad": "Köstendil",
+  "neden": [
+   "hedef:9",
+   "anılma:13",
+   "komşu:0",
+   "puan:32.8"
+  ]
+ },
+ {
+  "ad": "Ordu (Bayramlı)",
+  "neden": [
+   "hedef:5",
+   "anılma:131",
+   "komşu:1",
+   "puan:32.4"
+  ]
+ },
+ {
+  "ad": "Astara",
+  "neden": [
+   "hedef:14",
+   "anılma:2",
+   "komşu:1",
+   "puan:32.3"
+  ]
+ },
+ {
+  "ad": "Vodina (Edessa)",
+  "neden": [
+   "hedef:7",
+   "anılma:16",
+   "komşu:2",
+   "puan:32.2"
+  ]
+ },
+ {
+  "ad": "Ustrumca (Strumica)",
+  "neden": [
+   "hedef:7",
+   "anılma:16",
+   "komşu:2",
+   "puan:32.2"
+  ]
+ },
+ {
+  "ad": "Necef",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:3",
+   "puan:32.0"
+  ]
+ },
+ {
+  "ad": "Anadolu Hisarı",
+  "neden": [
+   "hedef:7",
+   "anılma:3",
+   "komşu:9",
+   "puan:31.7"
+  ]
+ },
+ {
+  "ad": "Dakka (Dhaka)",
+  "neden": [
+   "hedef:7",
+   "anılma:11",
+   "komşu:3",
+   "puan:31.7"
+  ]
+ },
+ {
+  "ad": "Kotur",
+  "neden": [
+   "hedef:11",
+   "anılma:4",
+   "komşu:1",
+   "puan:31.6"
+  ]
+ },
+ {
+  "ad": "Culfa",
+  "neden": [
+   "hedef:11",
+   "anılma:3",
+   "komşu:2",
+   "puan:31.5"
+  ]
+ },
+ {
+  "ad": "Arpaçay (Akyaka)",
+  "neden": [
+   "hedef:6",
+   "anılma:14",
+   "komşu:4",
+   "puan:31.1"
+  ]
+ },
+ {
+  "ad": "Balıkesir",
+  "neden": [
+   "hedef:8",
+   "anılma:17",
+   "komşu:0",
+   "puan:31.1"
+  ]
+ },
+ {
+  "ad": "Sonârgâon",
+  "neden": [
+   "hedef:7",
+   "anılma:10",
+   "komşu:3",
+   "puan:30.9"
+  ]
+ },
+ {
+  "ad": "Ukayr (Uceyr)",
+  "neden": [
+   "hedef:10",
+   "anılma:7",
+   "komşu:0",
+   "puan:30.8"
+  ]
+ },
+ {
+  "ad": "Petriç",
+  "neden": [
+   "hedef:10",
+   "anılma:7",
+   "komşu:0",
+   "puan:30.8"
+  ]
+ },
+ {
+  "ad": "Kelkit",
+  "neden": [
+   "hedef:10",
+   "anılma:5",
+   "komşu:1",
+   "puan:30.7"
+  ]
+ },
+ {
+  "ad": "Kutaisi",
+  "neden": [
+   "hedef:8",
+   "anılma:16",
+   "komşu:0",
+   "puan:30.7"
+  ]
+ },
+ {
+  "ad": "Malkara",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:3",
+   "puan:30.6"
+  ]
+ },
+ {
+  "ad": "Hânekîn",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:3",
+   "puan:30.6"
+  ]
+ },
+ {
+  "ad": "İştip (Štip)",
+  "neden": [
+   "hedef:9",
+   "anılma:10",
+   "komşu:0",
+   "puan:30.6"
+  ]
+ },
+ {
+  "ad": "Sin (Sinj)",
+  "neden": [
+   "hedef:6",
+   "anılma:13",
+   "komşu:4",
+   "puan:30.6"
+  ]
+ },
+ {
+  "ad": "Tarki (Tarku)",
+  "neden": [
+   "hedef:9",
+   "anılma:7",
+   "komşu:1",
+   "puan:30.5"
+  ]
+ },
+ {
+  "ad": "Cinci (Gingee)",
+  "neden": [
+   "hedef:9",
+   "anılma:7",
+   "komşu:1",
+   "puan:30.5"
+  ]
+ },
+ {
+  "ad": "Stérna",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:13",
+   "puan:30.5"
+  ]
+ },
+ {
+  "ad": "Burdur",
+  "neden": [
+   "hedef:6",
+   "anılma:17",
+   "komşu:3",
+   "puan:30.3"
+  ]
+ },
+ {
+  "ad": "Norapat",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:6",
+   "puan:30.2"
+  ]
+ },
+ {
+  "ad": "Beykoz",
+  "neden": [
+   "hedef:8",
+   "anılma:2",
+   "komşu:8",
+   "puan:30.2"
+  ]
+ },
+ {
+  "ad": "Türabe",
+  "neden": [
+   "hedef:9",
+   "anılma:9",
+   "komşu:0",
+   "puan:29.7"
+  ]
+ },
+ {
+  "ad": "Debre (Dibra)",
+  "neden": [
+   "hedef:8",
+   "anılma:14",
+   "komşu:0",
+   "puan:29.7"
+  ]
+ },
+ {
+  "ad": "Karacahisar",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:2",
+   "puan:29.6"
+  ]
+ },
+ {
+  "ad": "Havsa",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:10",
+   "puan:29.4"
+  ]
+ },
+ {
+  "ad": "Yalvaç",
+  "neden": [
+   "hedef:7",
+   "anılma:11",
+   "komşu:2",
+   "puan:29.3"
+  ]
+ },
+ {
+  "ad": "Silopi",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:5",
+   "puan:28.6"
+  ]
+ },
+ {
+  "ad": "Ebîverd",
+  "neden": [
+   "hedef:12",
+   "anılma:3",
+   "komşu:0",
+   "puan:28.6"
+  ]
+ },
+ {
+  "ad": "Dâmgan",
+  "neden": [
+   "hedef:10",
+   "anılma:3",
+   "komşu:2",
+   "puan:28.6"
+  ]
+ },
+ {
+  "ad": "Dihistan ovası (Meşhed-i Misriyân)",
+  "neden": [
+   "hedef:12",
+   "anılma:3",
+   "komşu:0",
+   "puan:28.6"
+  ]
+ },
+ {
+  "ad": "Tekirdağ",
+  "neden": [
+   "hedef:7",
+   "anılma:14",
+   "komşu:1",
+   "puan:28.6"
+  ]
+ },
+ {
+  "ad": "Bartın",
+  "neden": [
+   "hedef:7",
+   "anılma:14",
+   "komşu:1",
+   "puan:28.6"
+  ]
+ },
+ {
+  "ad": "Safranbolu",
+  "neden": [
+   "hedef:7",
+   "anılma:10",
+   "komşu:2",
+   "puan:28.5"
+  ]
+ },
+ {
+  "ad": "Kuşadası",
+  "neden": [
+   "hedef:6",
+   "anılma:10",
+   "komşu:4",
+   "puan:28.5"
+  ]
+ },
+ {
+  "ad": "Vâsıt",
+  "neden": [
+   "hedef:8",
+   "anılma:12",
+   "komşu:0",
+   "puan:28.5"
+  ]
+ },
+ {
+  "ad": "Bolu",
+  "neden": [
+   "hedef:6",
+   "anılma:13",
+   "komşu:3",
+   "puan:28.4"
+  ]
+ },
+ {
+  "ad": "Selmâs (Dilman)",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:2",
+   "puan:28.3"
+  ]
+ },
+ {
+  "ad": "Çeşme",
+  "neden": [
+   "hedef:8",
+   "anılma:8",
+   "komşu:1",
+   "puan:28.1"
+  ]
+ },
+ {
+  "ad": "Tuz Hurmatu",
+  "neden": [
+   "hedef:8",
+   "anılma:8",
+   "komşu:1",
+   "puan:28.1"
+  ]
+ },
+ {
+  "ad": "Kahul (Cahul)",
+  "neden": [
+   "hedef:8",
+   "anılma:8",
+   "komşu:1",
+   "puan:28.1"
+  ]
+ },
+ {
+  "ad": "Doyran",
+  "neden": [
+   "hedef:9",
+   "anılma:3",
+   "komşu:3",
+   "puan:27.9"
+  ]
+ },
+ {
+  "ad": "Nevrokop (Gotse Delçev)",
+  "neden": [
+   "hedef:10",
+   "anılma:5",
+   "komşu:0",
+   "puan:27.9"
+  ]
+ },
+ {
+  "ad": "Ereş",
+  "neden": [
+   "hedef:10",
+   "anılma:5",
+   "komşu:0",
+   "puan:27.9"
+  ]
+ },
+ {
+  "ad": "Tûs",
+  "neden": [
+   "hedef:6",
+   "anılma:24",
+   "komşu:1",
+   "puan:27.8"
+  ]
+ },
+ {
+  "ad": "İskeçe",
+  "neden": [
+   "hedef:9",
+   "anılma:7",
+   "komşu:0",
+   "puan:27.7"
+  ]
+ },
+ {
+  "ad": "Digor",
+  "neden": [
+   "hedef:6",
+   "anılma:7",
+   "komşu:5",
+   "puan:27.7"
+  ]
+ },
+ {
+  "ad": "Erdek",
+  "neden": [
+   "hedef:9",
+   "anılma:5",
+   "komşu:1",
+   "puan:27.6"
+  ]
+ },
+ {
+  "ad": "Edremit",
+  "neden": [
+   "hedef:9",
+   "anılma:5",
+   "komşu:1",
+   "puan:27.6"
+  ]
+ },
+ {
+  "ad": "Yenice-i Vardar",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:5",
+   "puan:27.4"
+  ]
+ },
+ {
+  "ad": "Murvaneti",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:5",
+   "puan:27.4"
+  ]
+ },
+ {
+  "ad": "Kilise",
+  "neden": [
+   "hedef:6",
+   "anılma:11",
+   "komşu:3",
+   "puan:27.2"
+  ]
+ },
+ {
+  "ad": "Kifri",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:1",
+   "puan:27.1"
+  ]
+ },
+ {
+  "ad": "Ahar (Karadağ)",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:1",
+   "puan:27.1"
+  ]
+ },
+ {
+  "ad": "Âmül",
+  "neden": [
+   "hedef:7",
+   "anılma:16",
+   "komşu:0",
+   "puan:26.8"
+  ]
+ },
+ {
+  "ad": "Gaur (Lakhnautî)",
+  "neden": [
+   "hedef:7",
+   "anılma:16",
+   "komşu:0",
+   "puan:26.8"
+  ]
+ },
+ {
+  "ad": "Deyrülkamer (Dayr al-Kamer)",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:3",
+   "puan:26.8"
+  ]
+ },
+ {
+  "ad": "Gori",
+  "neden": [
+   "hedef:6",
+   "anılma:14",
+   "komşu:2",
+   "puan:26.7"
+  ]
+ },
+ {
+  "ad": "Leş (Alessio)",
+  "neden": [
+   "hedef:6",
+   "anılma:10",
+   "komşu:3",
+   "puan:26.5"
+  ]
+ },
+ {
+  "ad": "Valjevo",
+  "neden": [
+   "hedef:10",
+   "anılma:3",
+   "komşu:1",
+   "puan:26.2"
+  ]
+ },
+ {
+  "ad": "Rudnik",
+  "neden": [
+   "hedef:10",
+   "anılma:3",
+   "komşu:1",
+   "puan:26.2"
+  ]
+ },
+ {
+  "ad": "Quang Tri",
+  "neden": [
+   "hedef:10",
+   "anılma:3",
+   "komşu:1",
+   "puan:26.2"
+  ]
+ },
+ {
+  "ad": "Kum",
+  "neden": [
+   "hedef:10",
+   "anılma:4",
+   "komşu:0",
+   "puan:26.1"
+  ]
+ },
+ {
+  "ad": "Stavoren (Starum)",
+  "neden": [
+   "hedef:7",
+   "anılma:14",
+   "komşu:0",
+   "puan:26.0"
+  ]
+ },
+ {
+  "ad": "Mâku",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:1",
+   "puan:25.9"
+  ]
+ },
+ {
+  "ad": "Pondişeri",
+  "neden": [
+   "hedef:9",
+   "anılma:4",
+   "komşu:1",
+   "puan:25.8"
+  ]
+ },
+ {
+  "ad": "Halepçe",
+  "neden": [
+   "hedef:9",
+   "anılma:4",
+   "komşu:1",
+   "puan:25.8"
+  ]
+ },
+ {
+  "ad": "Alacahisar (Kruševac)",
+  "neden": [
+   "hedef:6",
+   "anılma:12",
+   "komşu:2",
+   "puan:25.7"
+  ]
+ },
+ {
+  "ad": "Bar (Podolya)",
+  "neden": [
+   "hedef:6",
+   "anılma:25",
+   "komşu:0",
+   "puan:25.5"
+  ]
+ },
+ {
+  "ad": "Kürne",
+  "neden": [
+   "hedef:7",
+   "anılma:9",
+   "komşu:1",
+   "puan:25.4"
+  ]
+ },
+ {
+  "ad": "Domaniç",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:3",
+   "puan:25.4"
+  ]
+ },
+ {
+  "ad": "Küçükperveli",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:5",
+   "puan:25.1"
+  ]
+ },
+ {
+  "ad": "Cîruft",
+  "neden": [
+   "hedef:9",
+   "anılma:5",
+   "komşu:0",
+   "puan:25.1"
+  ]
+ },
+ {
+  "ad": "İmâdiye (Amêdî)",
+  "neden": [
+   "hedef:8",
+   "anılma:4",
+   "komşu:2",
+   "puan:25.1"
+  ]
+ },
+ {
+  "ad": "Lalapaşa",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:7",
+   "puan:25.0"
+  ]
+ },
+ {
+  "ad": "Elba",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:2",
+   "puan:24.7"
+  ]
+ },
+ {
+  "ad": "Merend",
+  "neden": [
+   "hedef:8",
+   "anılma:7",
+   "komşu:0",
+   "puan:24.6"
+  ]
+ },
+ {
+  "ad": "Kiğı",
+  "neden": [
+   "hedef:7",
+   "anılma:8",
+   "komşu:1",
+   "puan:24.6"
+  ]
+ },
+ {
+  "ad": "Fâv",
+  "neden": [
+   "hedef:7",
+   "anılma:8",
+   "komşu:1",
+   "puan:24.6"
+  ]
+ },
+ {
+  "ad": "Karabiga",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:3",
+   "puan:24.6"
+  ]
+ },
+ {
+  "ad": "Madurai",
+  "neden": [
+   "hedef:7",
+   "anılma:11",
+   "komşu:0",
+   "puan:24.4"
+  ]
+ },
+ {
+  "ad": "Braslav (Bratslav)",
+  "neden": [
+   "hedef:7",
+   "anılma:11",
+   "komşu:0",
+   "puan:24.4"
+  ]
+ },
+ {
+  "ad": "Kılkış (Avrathisar)",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:6",
+   "puan:24.4"
+  ]
+ },
+ {
+  "ad": "Beyşehir",
+  "neden": [
+   "hedef:6",
+   "anılma:13",
+   "komşu:1",
+   "puan:24.0"
+  ]
+ },
+ {
+  "ad": "Kût el-Amâre",
+  "neden": [
+   "hedef:10",
+   "anılma:3",
+   "komşu:0",
+   "puan:23.9"
+  ]
+ },
+ {
+  "ad": "Kabala",
+  "neden": [
+   "hedef:10",
+   "anılma:3",
+   "komşu:0",
+   "puan:23.9"
+  ]
+ },
+ {
+  "ad": "Özi",
+  "neden": [
+   "hedef:5",
+   "anılma:27",
+   "komşu:1",
+   "puan:23.8"
+  ]
+ },
+ {
+  "ad": "Tepeaca",
+  "neden": [
+   "hedef:5",
+   "anılma:10",
+   "komşu:4",
+   "puan:23.8"
+  ]
+ },
+ {
+  "ad": "Novgorod-Seversk",
+  "neden": [
+   "hedef:7",
+   "anılma:10",
+   "komşu:0",
+   "puan:23.8"
+  ]
+ },
+ {
+  "ad": "Havîza",
+  "neden": [
+   "hedef:7",
+   "anılma:10",
+   "komşu:0",
+   "puan:23.8"
+  ]
+ },
+ {
+  "ad": "Kudus",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:3",
+   "puan:23.7"
+  ]
+ },
+ {
+  "ad": "Cerablus",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:6",
+   "puan:23.7"
+  ]
+ },
+ {
+  "ad": "Đà Nẵng (Tourane)",
+  "neden": [
+   "hedef:7",
+   "anılma:7",
+   "komşu:1",
+   "puan:23.7"
+  ]
+ },
+ {
+  "ad": "Karasubazar",
+  "neden": [
+   "hedef:7",
+   "anılma:7",
+   "komşu:1",
+   "puan:23.7"
+  ]
+ },
+ {
+  "ad": "Hội An (Faifo)",
+  "neden": [
+   "hedef:7",
+   "anılma:7",
+   "komşu:1",
+   "puan:23.7"
+  ]
+ },
+ {
+  "ad": "İhtiman",
+  "neden": [
+   "hedef:8",
+   "anılma:6",
+   "komşu:0",
+   "puan:23.6"
+  ]
+ },
+ {
+  "ad": "Demirköy",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:6",
+   "puan:23.5"
+  ]
+ },
+ {
+  "ad": "Şeki (Nuha)",
+  "neden": [
+   "hedef:9",
+   "anılma:4",
+   "komşu:0",
+   "puan:23.5"
+  ]
+ },
+ {
+  "ad": "Malikiye (Derik)",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:5",
+   "puan:23.5"
+  ]
+ },
+ {
+  "ad": "Bender Enzeli",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:2",
+   "puan:23.5"
+  ]
+ },
+ {
+  "ad": "Kursk",
+  "neden": [
+   "hedef:6",
+   "anılma:17",
+   "komşu:0",
+   "puan:23.3"
+  ]
+ },
+ {
+  "ad": "Gulca (Yining)",
+  "neden": [
+   "hedef:7",
+   "anılma:9",
+   "komşu:0",
+   "puan:23.1"
+  ]
+ },
+ {
+  "ad": "Bîdar",
+  "neden": [
+   "hedef:7",
+   "anılma:9",
+   "komşu:0",
+   "puan:23.1"
+  ]
+ },
+ {
+  "ad": "Şerur (Sharur)",
+  "neden": [
+   "hedef:11",
+   "anılma:2",
+   "komşu:0",
+   "puan:23.1"
+  ]
+ },
+ {
+  "ad": "Kızılarvat",
+  "neden": [
+   "hedef:11",
+   "anılma:2",
+   "komşu:0",
+   "puan:23.1"
+  ]
+ },
+ {
+  "ad": "Şarköy",
+  "neden": [
+   "hedef:8",
+   "anılma:1",
+   "komşu:7",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "Srebrenik",
+  "neden": [
+   "hedef:6",
+   "anılma:8",
+   "komşu:2",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "İzdin (Lamia)",
+  "neden": [
+   "hedef:6",
+   "anılma:11",
+   "komşu:1",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "Manama (Bahreyn)",
+  "neden": [
+   "hedef:6",
+   "anılma:11",
+   "komşu:1",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "Bolgrad (Bolhrad)",
+  "neden": [
+   "hedef:6",
+   "anılma:11",
+   "komşu:1",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "Thaton",
+  "neden": [
+   "hedef:6",
+   "anılma:16",
+   "komşu:0",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "Petsamo (Peçenga)",
+  "neden": [
+   "hedef:6",
+   "anılma:16",
+   "komşu:0",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "Grodno",
+  "neden": [
+   "hedef:6",
+   "anılma:16",
+   "komşu:0",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "Roman",
+  "neden": [
+   "hedef:4",
+   "anılma:114",
+   "komşu:0",
+   "puan:23.0"
+  ]
+ },
+ {
+  "ad": "Birgi",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:2",
+   "puan:22.9"
+  ]
+ },
+ {
+  "ad": "Kliçatak (Suser)",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:5",
+   "puan:22.9"
+  ]
+ },
+ {
+  "ad": "Telavi",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:1",
+   "puan:22.7"
+  ]
+ },
+ {
+  "ad": "Lüleburgaz",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:1",
+   "puan:22.7"
+  ]
+ },
+ {
+  "ad": "Praviște (Eleftheroupoli)",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:2",
+   "puan:22.7"
+  ]
+ },
+ {
+  "ad": "Ayvalık",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:2",
+   "puan:22.7"
+  ]
+ },
+ {
+  "ad": "Vinnitsa (Vinnytsia)",
+  "neden": [
+   "hedef:6",
+   "anılma:15",
+   "komşu:0",
+   "puan:22.6"
+  ]
+ },
+ {
+  "ad": "Lâhîcan",
+  "neden": [
+   "hedef:7",
+   "anılma:8",
+   "komşu:0",
+   "puan:22.4"
+  ]
+ },
+ {
+  "ad": "Penghu (Pescadores)",
+  "neden": [
+   "hedef:6",
+   "anılma:14",
+   "komşu:0",
+   "puan:22.2"
+  ]
+ },
+ {
+  "ad": "Białystok",
+  "neden": [
+   "hedef:6",
+   "anılma:14",
+   "komşu:0",
+   "puan:22.2"
+  ]
+ },
+ {
+  "ad": "Nan",
+  "neden": [
+   "hedef:5",
+   "anılma:30",
+   "komşu:0",
+   "puan:22.2"
+  ]
+ },
+ {
+  "ad": "Livno (İhlevne)",
+  "neden": [
+   "hedef:5",
+   "anılma:10",
+   "komşu:3",
+   "puan:22.1"
+  ]
+ },
+ {
+  "ad": "Gevgili (Gevgelija)",
+  "neden": [
+   "hedef:10",
+   "anılma:1",
+   "komşu:3",
+   "puan:22.0"
+  ]
+ },
+ {
+  "ad": "Eğirdir",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:2",
+   "puan:21.9"
+  ]
+ },
+ {
+  "ad": "Duşeti",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:2",
+   "puan:21.9"
+  ]
+ },
+ {
+  "ad": "Borçka",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:4",
+   "puan:21.9"
+  ]
+ },
+ {
+  "ad": "Pegu (Bago)",
+  "neden": [
+   "hedef:6",
+   "anılma:13",
+   "komşu:0",
+   "puan:21.8"
+  ]
+ },
+ {
+  "ad": "Zaho",
+  "neden": [
+   "hedef:8",
+   "anılma:2",
+   "komşu:3",
+   "puan:21.8"
+  ]
+ },
+ {
+  "ad": "Tirwānīsh",
+  "neden": [
+   "hedef:8",
+   "anılma:2",
+   "komşu:3",
+   "puan:21.8"
+  ]
+ },
+ {
+  "ad": "Meciboj (Mejibuji)",
+  "neden": [
+   "hedef:6",
+   "anılma:9",
+   "komşu:1",
+   "puan:21.8"
+  ]
+ },
+ {
+  "ad": "Devagiri (Devletâbâd)",
+  "neden": [
+   "hedef:6",
+   "anılma:9",
+   "komşu:1",
+   "puan:21.8"
+  ]
+ },
+ {
+  "ad": "Konurapa (Düzce)",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:3",
+   "puan:21.8"
+  ]
+ },
+ {
+  "ad": "Quang Ngai",
+  "neden": [
+   "hedef:7",
+   "anılma:7",
+   "komşu:0",
+   "puan:21.6"
+  ]
+ },
+ {
+  "ad": "Osmancık",
+  "neden": [
+   "hedef:7",
+   "anılma:7",
+   "komşu:0",
+   "puan:21.6"
+  ]
+ },
+ {
+  "ad": "Meşhed",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:1",
+   "puan:21.5"
+  ]
+ },
+ {
+  "ad": "Şâbüran",
+  "neden": [
+   "hedef:9",
+   "anılma:3",
+   "komşu:0",
+   "puan:21.5"
+  ]
+ },
+ {
+  "ad": "Posof",
+  "neden": [
+   "hedef:6",
+   "anılma:3",
+   "komşu:5",
+   "puan:21.5"
+  ]
+ },
+ {
+  "ad": "Lạng Sơn",
+  "neden": [
+   "hedef:9",
+   "anılma:3",
+   "komşu:0",
+   "puan:21.5"
+  ]
+ },
+ {
+  "ad": "Uşak",
+  "neden": [
+   "hedef:6",
+   "anılma:12",
+   "komşu:0",
+   "puan:21.4"
+  ]
+ },
+ {
+  "ad": "Karahisâr-ı Sâhib (Afyon)",
+  "neden": [
+   "hedef:6",
+   "anılma:12",
+   "komşu:0",
+   "puan:21.4"
+  ]
+ },
+ {
+  "ad": "Hîve",
+  "neden": [
+   "hedef:6",
+   "anılma:12",
+   "komşu:0",
+   "puan:21.4"
+  ]
+ },
+ {
+  "ad": "Taman",
+  "neden": [
+   "hedef:4",
+   "anılma:15",
+   "komşu:4",
+   "puan:21.1"
+  ]
+ },
+ {
+  "ad": "Rimnik (Râmnicu Vâlcea)",
+  "neden": [
+   "hedef:6",
+   "anılma:8",
+   "komşu:1",
+   "puan:21.1"
+  ]
+ },
+ {
+  "ad": "Dilem (Harc)",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:1",
+   "puan:21.0"
+  ]
+ },
+ {
+  "ad": "Orel",
+  "neden": [
+   "hedef:6",
+   "anılma:11",
+   "komşu:0",
+   "puan:20.9"
+  ]
+ },
+ {
+  "ad": "Arzila (Asilah)",
+  "neden": [
+   "hedef:5",
+   "anılma:11",
+   "komşu:2",
+   "puan:20.9"
+  ]
+ },
+ {
+  "ad": "Akra",
+  "neden": [
+   "hedef:8",
+   "anılma:4",
+   "komşu:0",
+   "puan:20.9"
+  ]
+ },
+ {
+  "ad": "Tainan",
+  "neden": [
+   "hedef:5",
+   "anılma:15",
+   "komşu:1",
+   "puan:20.7"
+  ]
+ },
+ {
+  "ad": "Vonitsa",
+  "neden": [
+   "hedef:5",
+   "anılma:6",
+   "komşu:4",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Sohum",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:0",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Oreşek (Nöteborg)",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:0",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Eşref (Behşehr)",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:0",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Chenzhou (Hunan)",
+  "neden": [
+   "hedef:7",
+   "anılma:6",
+   "komşu:0",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Mustafapaşa (Svilengrad)",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:4",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Malko Tırnova",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:4",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Kofçaz",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:4",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Dereköy (Kırklareli)",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:4",
+   "puan:20.6"
+  ]
+ },
+ {
+  "ad": "Mahmudâbâd",
+  "neden": [
+   "hedef:11",
+   "anılma:1",
+   "komşu:1",
+   "puan:20.5"
+  ]
+ },
+ {
+  "ad": "Konstantin",
+  "neden": [
+   "hedef:4",
+   "anılma:37",
+   "komşu:1",
+   "puan:20.4"
+  ]
+ },
+ {
+  "ad": "Chiang Mai",
+  "neden": [
+   "hedef:5",
+   "anılma:14",
+   "komşu:1",
+   "puan:20.4"
+  ]
+ },
+ {
+  "ad": "el-Arâiş (Larache)",
+  "neden": [
+   "hedef:5",
+   "anılma:10",
+   "komşu:2",
+   "puan:20.4"
+  ]
+ },
+ {
+  "ad": "Radom",
+  "neden": [
+   "hedef:6",
+   "anılma:10",
+   "komşu:0",
+   "puan:20.4"
+  ]
+ },
+ {
+  "ad": "Quito",
+  "neden": [
+   "hedef:6",
+   "anılma:10",
+   "komşu:0",
+   "puan:20.4"
+  ]
+ },
+ {
+  "ad": "Hunza (Tunja)",
+  "neden": [
+   "hedef:6",
+   "anılma:10",
+   "komşu:0",
+   "puan:20.4"
+  ]
+ },
+ {
+  "ad": "Yaş",
+  "neden": [
+   "hedef:4",
+   "anılma:59",
+   "komşu:0",
+   "puan:20.4"
+  ]
+ },
+ {
+  "ad": "Sakai",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:3",
+   "puan:20.4"
+  ]
+ },
+ {
+  "ad": "Seydişehir",
+  "neden": [
+   "hedef:6",
+   "anılma:7",
+   "komşu:1",
+   "puan:20.3"
+  ]
+ },
+ {
+  "ad": "Kesriye (Kastoria)",
+  "neden": [
+   "hedef:10",
+   "anılma:1",
+   "komşu:2",
+   "puan:20.3"
+  ]
+ },
+ {
+  "ad": "Abâdân",
+  "neden": [
+   "hedef:10",
+   "anılma:1",
+   "komşu:2",
+   "puan:20.3"
+  ]
+ },
+ {
+  "ad": "Soma",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:2",
+   "puan:20.1"
+  ]
+ },
+ {
+  "ad": "Mudurnu",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:2",
+   "puan:20.1"
+  ]
+ },
+ {
+  "ad": "Torun (Toruń)",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:1",
+   "puan:20.1"
+  ]
+ },
+ {
+  "ad": "Görice (Korçë)",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:1",
+   "puan:20.1"
+  ]
+ },
+ {
+  "ad": "Akmescid",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:1",
+   "puan:20.1"
+  ]
+ },
+ {
+  "ad": "Ḩīmū",
+  "neden": [
+   "hedef:6",
+   "anılma:3",
+   "komşu:4",
+   "puan:20.0"
+  ]
+ },
+ {
+  "ad": "Hanak",
+  "neden": [
+   "hedef:6",
+   "anılma:3",
+   "komşu:4",
+   "puan:20.0"
+  ]
+ },
+ {
+  "ad": "Eflani",
+  "neden": [
+   "hedef:7",
+   "anılma:3",
+   "komşu:2",
+   "puan:20.0"
+  ]
+ },
+ {
+  "ad": "Babū",
+  "neden": [
+   "hedef:6",
+   "anılma:3",
+   "komşu:4",
+   "puan:20.0"
+  ]
+ },
+ {
+  "ad": "Granada (Nikaragua)",
+  "neden": [
+   "hedef:5",
+   "anılma:19",
+   "komşu:0",
+   "puan:20.0"
+  ]
+ },
+ {
+  "ad": "İmroz",
+  "neden": [
+   "hedef:4",
+   "anılma:16",
+   "komşu:3",
+   "puan:19.9"
+  ]
+ },
+ {
+  "ad": "Çorum",
+  "neden": [
+   "hedef:6",
+   "anılma:9",
+   "komşu:0",
+   "puan:19.8"
+  ]
+ },
+ {
+  "ad": "Moulmein (Mawlamyine)",
+  "neden": [
+   "hedef:6",
+   "anılma:9",
+   "komşu:0",
+   "puan:19.8"
+  ]
+ },
+ {
+  "ad": "Kızıkermen (Gazi Kerman)",
+  "neden": [
+   "hedef:6",
+   "anılma:9",
+   "komşu:0",
+   "puan:19.8"
+  ]
+ },
+ {
+  "ad": "Filorina (Florina)",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:3",
+   "puan:19.8"
+  ]
+ },
+ {
+  "ad": "Manila",
+  "neden": [
+   "hedef:5",
+   "anılma:12",
+   "komşu:1",
+   "puan:19.6"
+  ]
+ },
+ {
+  "ad": "Çongqing (Chongqing)",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:0",
+   "puan:19.5"
+  ]
+ },
+ {
+  "ad": "Vinh",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:0",
+   "puan:19.5"
+  ]
+ },
+ {
+  "ad": "Varangal (Warangal)",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:0",
+   "puan:19.5"
+  ]
+ },
+ {
+  "ad": "Mangışlak",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:0",
+   "puan:19.5"
+  ]
+ },
+ {
+  "ad": "Kuba",
+  "neden": [
+   "hedef:7",
+   "anılma:5",
+   "komşu:0",
+   "puan:19.5"
+  ]
+ },
+ {
+  "ad": "Shaoxing",
+  "neden": [
+   "hedef:5",
+   "anılma:8",
+   "komşu:2",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Foça (Foča)",
+  "neden": [
+   "hedef:5",
+   "anılma:8",
+   "komşu:2",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Eski Kandehar (Şehr-i Köhne)",
+  "neden": [
+   "hedef:5",
+   "anılma:8",
+   "komşu:2",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Marmaris",
+  "neden": [
+   "hedef:5",
+   "anılma:11",
+   "komşu:1",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Kazan",
+  "neden": [
+   "hedef:5",
+   "anılma:11",
+   "komşu:1",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Jitomir (Zhytomyr)",
+  "neden": [
+   "hedef:5",
+   "anılma:11",
+   "komşu:1",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Ferrara",
+  "neden": [
+   "hedef:5",
+   "anılma:11",
+   "komşu:1",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Taiz",
+  "neden": [
+   "hedef:5",
+   "anılma:16",
+   "komşu:0",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Kiş (Kish)",
+  "neden": [
+   "hedef:5",
+   "anılma:16",
+   "komşu:0",
+   "puan:19.2"
+  ]
+ },
+ {
+  "ad": "Rewândiz",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:0",
+   "puan:19.1"
+  ]
+ },
+ {
+  "ad": "Raycur (Raichur)",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:0",
+   "puan:19.1"
+  ]
+ },
+ {
+  "ad": "Narın (Naryn)",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:0",
+   "puan:19.1"
+  ]
+ },
+ {
+  "ad": "Leylâ (Eflâc)",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:0",
+   "puan:19.1"
+  ]
+ },
+ {
+  "ad": "Hurma (Tâif doğusu)",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:0",
+   "puan:19.1"
+  ]
+ },
+ {
+  "ad": "Gorakhpûr",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:0",
+   "puan:19.1"
+  ]
+ },
+ {
+  "ad": "Elicpûr (Achalpur)",
+  "neden": [
+   "hedef:8",
+   "anılma:3",
+   "komşu:0",
+   "puan:19.1"
+  ]
+ },
+ {
+  "ad": "Telafer",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:0",
+   "puan:18.9"
+  ]
+ },
+ {
+  "ad": "Hît",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:0",
+   "puan:18.9"
+  ]
+ },
+ {
+  "ad": "Cao Bằng",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:0",
+   "puan:18.9"
+  ]
+ },
+ {
+  "ad": "Ahvaz",
+  "neden": [
+   "hedef:9",
+   "anılma:2",
+   "komşu:0",
+   "puan:18.9"
+  ]
+ },
+ {
+  "ad": "Şavşat",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:2",
+   "puan:18.8"
+  ]
+ },
+ {
+  "ad": "Ternate",
+  "neden": [
+   "hedef:5",
+   "anılma:10",
+   "komşu:1",
+   "puan:18.7"
+  ]
+ },
+ {
+  "ad": "Prome (Pyay)",
+  "neden": [
+   "hedef:5",
+   "anılma:10",
+   "komşu:1",
+   "puan:18.7"
+  ]
+ },
+ {
+  "ad": "Burûcird",
+  "neden": [
+   "hedef:10",
+   "anılma:1",
+   "komşu:1",
+   "puan:18.6"
+  ]
+ },
+ {
+  "ad": "Zamantı (Pınarbaşı)",
+  "neden": [
+   "hedef:5",
+   "anılma:14",
+   "komşu:0",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Vitebsk",
+  "neden": [
+   "hedef:5",
+   "anılma:14",
+   "komşu:0",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Toungoo",
+  "neden": [
+   "hedef:5",
+   "anılma:14",
+   "komşu:0",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Srinagar (Keşmir)",
+  "neden": [
+   "hedef:5",
+   "anılma:14",
+   "komşu:0",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Sivrihisar",
+  "neden": [
+   "hedef:5",
+   "anılma:14",
+   "komşu:0",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Babadağı (Babadag)",
+  "neden": [
+   "hedef:4",
+   "anılma:12",
+   "komşu:3",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Sûr (Tyre) — Lübnan",
+  "neden": [
+   "hedef:3",
+   "anılma:29",
+   "komşu:4",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Trebinye",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:2",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Tosya",
+  "neden": [
+   "hedef:6",
+   "anılma:7",
+   "komşu:0",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Halhâl",
+  "neden": [
+   "hedef:8",
+   "anılma:2",
+   "komşu:1",
+   "puan:18.5"
+  ]
+ },
+ {
+  "ad": "Túcume",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:1",
+   "puan:18.4"
+  ]
+ },
+ {
+  "ad": "Qaţţīnah",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:1",
+   "puan:18.4"
+  ]
+ },
+ {
+  "ad": "Orhei",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:1",
+   "puan:18.4"
+  ]
+ },
+ {
+  "ad": "Hulo (Acara)",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:1",
+   "puan:18.4"
+  ]
+ },
+ {
+  "ad": "Hazârasp",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:1",
+   "puan:18.4"
+  ]
+ },
+ {
+  "ad": "Tay Ninh",
+  "neden": [
+   "hedef:7",
+   "anılma:3",
+   "komşu:1",
+   "puan:18.4"
+  ]
+ },
+ {
+  "ad": "Pasuruan",
+  "neden": [
+   "hedef:7",
+   "anılma:3",
+   "komşu:1",
+   "puan:18.4"
+  ]
+ },
+ {
+  "ad": "Ninh Binh",
+  "neden": [
+   "hedef:7",
+   "anılma:3",
+   "komşu:1",
+   "puan:18.4"
+  ]
+ },
+ {
+  "ad": "Son Tay",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:2",
+   "puan:18.3"
+  ]
+ },
+ {
+  "ad": "Belgrad Kalesi (Kalemegdan)",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:2",
+   "puan:18.3"
+  ]
+ },
+ {
+  "ad": "Behramkale (Assos)",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:2",
+   "puan:18.3"
+  ]
+ },
+ {
+  "ad": "Ilgın",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:0",
+   "puan:18.3"
+  ]
+ },
+ {
+  "ad": "Gözleve (Kezlev)",
+  "neden": [
+   "hedef:7",
+   "anılma:4",
+   "komşu:0",
+   "puan:18.3"
+  ]
+ },
+ {
+  "ad": "Taba",
+  "neden": [
+   "hedef:5",
+   "anılma:13",
+   "komşu:0",
+   "puan:18.2"
+  ]
+ },
+ {
+  "ad": "Erciş",
+  "neden": [
+   "hedef:5",
+   "anılma:13",
+   "komşu:0",
+   "puan:18.2"
+  ]
+ },
+ {
+  "ad": "Kâhta",
+  "neden": [
+   "hedef:5",
+   "anılma:5",
+   "komşu:3",
+   "puan:18.1"
+  ]
+ },
+ {
+  "ad": "Hısn-ı Mansûr (Adıyaman)",
+  "neden": [
+   "hedef:5",
+   "anılma:5",
+   "komşu:3",
+   "puan:18.1"
+  ]
+ },
+ {
+  "ad": "Yenikale",
+  "neden": [
+   "hedef:4",
+   "anılma:11",
+   "komşu:3",
+   "puan:18.1"
+  ]
+ },
+ {
+  "ad": "Podgorica",
+  "neden": [
+   "hedef:4",
+   "anılma:15",
+   "komşu:2",
+   "puan:18.1"
+  ]
+ },
+ {
+  "ad": "Caen",
+  "neden": [
+   "hedef:4",
+   "anılma:15",
+   "komşu:2",
+   "puan:18.1"
+  ]
+ },
+ {
+  "ad": "Butrint (Butrinto)",
+  "neden": [
+   "hedef:5",
+   "anılma:2",
+   "komşu:7",
+   "puan:17.8"
+  ]
+ },
+ {
+  "ad": "Sarıkamış",
+  "neden": [
+   "hedef:5",
+   "anılma:12",
+   "komşu:0",
+   "puan:17.8"
+  ]
+ },
+ {
+  "ad": "Safi (Asfi)",
+  "neden": [
+   "hedef:5",
+   "anılma:12",
+   "komşu:0",
+   "puan:17.8"
+  ]
+ },
+ {
+  "ad": "Muğla",
+  "neden": [
+   "hedef:5",
+   "anılma:12",
+   "komşu:0",
+   "puan:17.8"
+  ]
+ },
+ {
+  "ad": "Asyut",
+  "neden": [
+   "hedef:5",
+   "anılma:12",
+   "komşu:0",
+   "puan:17.8"
+  ]
+ },
+ {
+  "ad": "Bălți",
+  "neden": [
+   "hedef:6",
+   "anılma:6",
+   "komşu:0",
+   "puan:17.7"
+  ]
+ },
+ {
+  "ad": "Vinh Long",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:2",
+   "puan:17.6"
+  ]
+ },
+ {
+  "ad": "Tra Vinh",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:2",
+   "puan:17.6"
+  ]
+ },
+ {
+  "ad": "Cebelitarık (Gibraltar)",
+  "neden": [
+   "hedef:5",
+   "anılma:8",
+   "komşu:1",
+   "puan:17.6"
+  ]
+ },
+ {
+  "ad": "Aydos (Aytos)",
+  "neden": [
+   "hedef:5",
+   "anılma:8",
+   "komşu:1",
+   "puan:17.6"
+  ]
+ },
+ {
+  "ad": "Peel (Man)",
+  "neden": [
+   "hedef:4",
+   "anılma:13",
+   "komşu:2",
+   "puan:17.5"
+  ]
+ },
+ {
+  "ad": "Wuchang (Wuhan)",
+  "neden": [
+   "hedef:5",
+   "anılma:11",
+   "komşu:0",
+   "puan:17.4"
+  ]
+ },
+ {
+  "ad": "Moundville",
+  "neden": [
+   "hedef:5",
+   "anılma:11",
+   "komşu:0",
+   "puan:17.4"
+  ]
+ },
+ {
+  "ad": "Moha",
+  "neden": [
+   "hedef:5",
+   "anılma:11",
+   "komşu:0",
+   "puan:17.4"
+  ]
+ },
+ {
+  "ad": "Mankup",
+  "neden": [
+   "hedef:4",
+   "anılma:7",
+   "komşu:4",
+   "puan:17.2"
+  ]
+ },
+ {
+  "ad": "Odawara",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:1",
+   "puan:17.2"
+  ]
+ },
+ {
+  "ad": "Hasköy (Haskovo)",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:1",
+   "puan:17.2"
+  ]
+ },
+ {
+  "ad": "Golkonda",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:1",
+   "puan:17.2"
+  ]
+ },
+ {
+  "ad": "Gifu",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:1",
+   "puan:17.2"
+  ]
+ },
+ {
+  "ad": "Elhova (Elhovo)",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:1",
+   "puan:17.2"
+  ]
+ },
+ {
+  "ad": "İshaklı",
+  "neden": [
+   "hedef:6",
+   "anılma:3",
+   "komşu:2",
+   "puan:17.2"
+  ]
+ },
+ {
+  "ad": "Berdiçev (Berdychiv)",
+  "neden": [
+   "hedef:4",
+   "anılma:17",
+   "komşu:1",
+   "puan:17.1"
+  ]
+ },
+ {
+  "ad": "İskenderun",
+  "neden": [
+   "hedef:3",
+   "anılma:12",
+   "komşu:6",
+   "puan:17.1"
+  ]
+ },
+ {
+  "ad": "Kasimov",
+  "neden": [
+   "hedef:5",
+   "anılma:10",
+   "komşu:0",
+   "puan:17.0"
+  ]
+ },
+ {
+  "ad": "Huy",
+  "neden": [
+   "hedef:3",
+   "anılma:20",
+   "komşu:4",
+   "puan:17.0"
+  ]
+ },
+ {
+  "ad": "Balat (Palatia)",
+  "neden": [
+   "hedef:5",
+   "anılma:4",
+   "komşu:3",
+   "puan:17.0"
+  ]
+ },
+ {
+  "ad": "Ünye",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:1",
+   "puan:16.9"
+  ]
+ },
+ {
+  "ad": "Urga (Ulan Batur)",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:1",
+   "puan:16.9"
+  ]
+ },
+ {
+  "ad": "Pusan",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:1",
+   "puan:16.9"
+  ]
+ },
+ {
+  "ad": "Nedrûme",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:1",
+   "puan:16.9"
+  ]
+ },
+ {
+  "ad": "Ceylanpınar",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:1",
+   "puan:16.9"
+  ]
+ },
+ {
+  "ad": "Nâin",
+  "neden": [
+   "hedef:10",
+   "anılma:1",
+   "komşu:0",
+   "puan:16.9"
+  ]
+ },
+ {
+  "ad": "Semadirek",
+  "neden": [
+   "hedef:4",
+   "anılma:16",
+   "komşu:1",
+   "puan:16.9"
+  ]
+ },
+ {
+  "ad": "Kanpûr",
+  "neden": [
+   "hedef:8",
+   "anılma:2",
+   "komşu:0",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Feyzâbâd (Ayodhya)",
+  "neden": [
+   "hedef:8",
+   "anılma:2",
+   "komşu:0",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Duhok",
+  "neden": [
+   "hedef:8",
+   "anılma:2",
+   "komşu:0",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Bîcâpur (Bijapur)",
+  "neden": [
+   "hedef:8",
+   "anılma:2",
+   "komşu:0",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Nam Dinh",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:1",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Fellûce",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:1",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Dârâb",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:1",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Bac Giang",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:1",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Sebzevâr",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:0",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Nha Trang (Kauthara)",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:0",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Küngrat",
+  "neden": [
+   "hedef:6",
+   "anılma:5",
+   "komşu:0",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "İzvornik (Zvornik)",
+  "neden": [
+   "hedef:5",
+   "anılma:5",
+   "komşu:2",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Çandernagor",
+  "neden": [
+   "hedef:5",
+   "anılma:5",
+   "komşu:2",
+   "puan:16.8"
+  ]
+ },
+ {
+  "ad": "Doğubayazıt",
+  "neden": [
+   "hedef:4",
+   "anılma:11",
+   "komşu:2",
+   "puan:16.7"
+  ]
+ },
+ {
+  "ad": "Castletown (Man)",
+  "neden": [
+   "hedef:4",
+   "anılma:11",
+   "komşu:2",
+   "puan:16.7"
+  ]
+ },
+ {
+  "ad": "Rembang",
+  "neden": [
+   "hedef:7",
+   "anılma:3",
+   "komşu:0",
+   "puan:16.7"
+  ]
+ },
+ {
+  "ad": "Kopal (Kapal)",
+  "neden": [
+   "hedef:7",
+   "anılma:3",
+   "komşu:0",
+   "puan:16.7"
+  ]
+ },
+ {
+  "ad": "Halkulvâdî",
+  "neden": [
+   "hedef:5",
+   "anılma:3",
+   "komşu:4",
+   "puan:16.7"
+  ]
+ },
+ {
+  "ad": "Almatı (Vernıy)",
+  "neden": [
+   "hedef:7",
+   "anılma:3",
+   "komşu:0",
+   "puan:16.7"
+  ]
+ },
+ {
+  "ad": "Sincan",
+  "neden": [
+   "hedef:4",
+   "anılma:4",
+   "komşu:6",
+   "puan:16.7"
+  ]
+ },
+ {
+  "ad": "Boğaziçi (Rumeli yakası)",
+  "neden": [
+   "hedef:3",
+   "anılma:7",
+   "komşu:8",
+   "puan:16.6"
+  ]
+ },
+ {
+  "ad": "Sitavaka (Avissawella)",
+  "neden": [
+   "hedef:4",
+   "anılma:8",
+   "komşu:3",
+   "puan:16.6"
+  ]
+ },
+ {
+  "ad": "Mazagan (El Jadida)",
+  "neden": [
+   "hedef:4",
+   "anılma:15",
+   "komşu:1",
+   "puan:16.6"
+  ]
+ },
+ {
+  "ad": "Kaunas",
+  "neden": [
+   "hedef:4",
+   "anılma:15",
+   "komşu:1",
+   "puan:16.6"
+  ]
+ },
+ {
+  "ad": "Xiangyang",
+  "neden": [
+   "hedef:5",
+   "anılma:9",
+   "komşu:0",
+   "puan:16.5"
+  ]
+ },
+ {
+  "ad": "Aşkale",
+  "neden": [
+   "hedef:5",
+   "anılma:9",
+   "komşu:0",
+   "puan:16.5"
+  ]
+ },
+ {
+  "ad": "Lille",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:1",
+   "puan:16.3"
+  ]
+ },
+ {
+  "ad": "Dongola",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:1",
+   "puan:16.3"
+  ]
+ },
+ {
+  "ad": "İthaki",
+  "neden": [
+   "hedef:4",
+   "anılma:10",
+   "komşu:2",
+   "puan:16.3"
+  ]
+ },
+ {
+  "ad": "Lanzaka (Lagkadas)",
+  "neden": [
+   "hedef:8",
+   "anılma:1",
+   "komşu:2",
+   "puan:16.3"
+  ]
+ },
+ {
+  "ad": "Minye",
+  "neden": [
+   "hedef:5",
+   "anılma:6",
+   "komşu:1",
+   "puan:16.2"
+  ]
+ },
+ {
+  "ad": "Eski Kırım (Solhat)",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:1",
+   "puan:16.2"
+  ]
+ },
+ {
+  "ad": "Can Tho",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:1",
+   "puan:16.2"
+  ]
+ },
+ {
+  "ad": "Ben Tre",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:1",
+   "puan:16.2"
+  ]
+ },
+ {
+  "ad": "Kaniv (Kanev)",
+  "neden": [
+   "hedef:4",
+   "anılma:13",
+   "komşu:1",
+   "puan:16.0"
+  ]
+ },
+ {
+  "ad": "Fastov (Fastiv)",
+  "neden": [
+   "hedef:4",
+   "anılma:13",
+   "komşu:1",
+   "puan:16.0"
+  ]
+ },
+ {
+  "ad": "Azemmûr",
+  "neden": [
+   "hedef:4",
+   "anılma:13",
+   "komşu:1",
+   "puan:16.0"
+  ]
+ },
+ {
+  "ad": "Küfkaynapınarı (Azatlı)",
+  "neden": [
+   "hedef:8",
+   "anılma:0",
+   "komşu:10",
+   "puan:16.0"
+  ]
+ },
+ {
+  "ad": "Rēzekne (Rositten)",
+  "neden": [
+   "hedef:5",
+   "anılma:8",
+   "komşu:0",
+   "puan:16.0"
+  ]
+ },
+ {
+  "ad": "Muaskar",
+  "neden": [
+   "hedef:5",
+   "anılma:8",
+   "komşu:0",
+   "puan:16.0"
+  ]
+ },
+ {
+  "ad": "Bhamo",
+  "neden": [
+   "hedef:5",
+   "anılma:8",
+   "komşu:0",
+   "puan:16.0"
+  ]
+ },
+ {
+  "ad": "Kotor (Cattaro)",
+  "neden": [
+   "hedef:4",
+   "anılma:9",
+   "komşu:2",
+   "puan:15.9"
+  ]
+ },
+ {
+  "ad": "Feyyûm",
+  "neden": [
+   "hedef:4",
+   "anılma:9",
+   "komşu:2",
+   "puan:15.9"
+  ]
+ },
+ {
+  "ad": "Arabat",
+  "neden": [
+   "hedef:4",
+   "anılma:9",
+   "komşu:2",
+   "puan:15.9"
+  ]
+ },
+ {
+  "ad": "Golos (Volos)",
+  "neden": [
+   "hedef:6",
+   "anılma:3",
+   "komşu:1",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Ava (İnwa)",
+  "neden": [
+   "hedef:4",
+   "anılma:12",
+   "komşu:1",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Uccayn (Ujjain)",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Tsuşima (İzuhara)",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Sunpu (Şizuoka)",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Pärnu",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Okayama",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Niigata",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Kumamoto",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Kagoşima",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Himeji",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Funai (Ōita)",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Cholula",
+  "neden": [
+   "hedef:4",
+   "anılma:4",
+   "komşu:5",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Bacatá (Bogotá)",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Aizu-Wakamatsu",
+  "neden": [
+   "hedef:6",
+   "anılma:4",
+   "komşu:0",
+   "puan:15.7"
+  ]
+ },
+ {
+  "ad": "Tula",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:0",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Poltava",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:0",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Kemeran (Kamaran)",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:0",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Cēsis (Wenden)",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:0",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Baturin",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:0",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Bahriye (Bâvîtî)",
+  "neden": [
+   "hedef:5",
+   "anılma:7",
+   "komşu:0",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Suzdal",
+  "neden": [
+   "hedef:5",
+   "anılma:5",
+   "komşu:1",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Siena",
+  "neden": [
+   "hedef:5",
+   "anılma:5",
+   "komşu:1",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Kinmen (Jincheng / Quemoy)",
+  "neden": [
+   "hedef:5",
+   "anılma:5",
+   "komşu:1",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Baroda (Vadodara)",
+  "neden": [
+   "hedef:5",
+   "anılma:5",
+   "komşu:1",
+   "puan:15.4"
+  ]
+ },
+ {
+  "ad": "Lofça (Loveč)",
+  "neden": [
+   "hedef:4",
+   "anılma:11",
+   "komşu:1",
+   "puan:15.3"
+  ]
+ },
+ {
+  "ad": "Hohenstaufen Kalesi (Göppingen, Schwaben)",
+  "neden": [
+   "hedef:4",
+   "anılma:11",
+   "komşu:1",
+   "puan:15.3"
+  ]
+ },
+ {
+  "ad": "Trento",
+  "neden": [
+   "hedef:4",
+   "anılma:16",
+   "komşu:0",
+   "puan:15.3"
+  ]
+ },
+ {
+  "ad": "Kordofan",
+  "neden": [
+   "hedef:4",
+   "anılma:16",
+   "komşu:0",
+   "puan:15.3"
+  ]
+ },
+ {
+  "ad": "İshakçı (Isaccea)",
+  "neden": [
+   "hedef:4",
+   "anılma:6",
+   "komşu:3",
+   "puan:15.3"
+  ]
+ },
+ {
+  "ad": "Batnoz (Patmos)",
+  "neden": [
+   "hedef:4",
+   "anılma:6",
+   "komşu:3",
+   "puan:15.3"
+  ]
+ },
+ {
+  "ad": "Trieste",
+  "neden": [
+   "hedef:3",
+   "anılma:10",
+   "komşu:5",
+   "puan:15.3"
+  ]
+ },
+ {
+  "ad": "Ayn el-Arab (Kobani)",
+  "neden": [
+   "hedef:4",
+   "anılma:3",
+   "komşu:6",
+   "puan:15.3"
+  ]
+ },
+ {
+  "ad": "Sircân",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:0",
+   "puan:15.2"
+  ]
+ },
+ {
+  "ad": "Kâzerûn",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:0",
+   "puan:15.2"
+  ]
+ },
+ {
+  "ad": "Hai Phong",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:0",
+   "puan:15.2"
+  ]
+ },
+ {
+  "ad": "Firûzâbâd",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:0",
+   "puan:15.2"
+  ]
+ },
+ {
+  "ad": "Bem",
+  "neden": [
+   "hedef:9",
+   "anılma:1",
+   "komşu:0",
+   "puan:15.2"
+  ]
+ },
+ {
+  "ad": "Roma (Queensland)",
+  "neden": [
+   "hedef:2",
+   "anılma:748",
+   "komşu:0",
+   "puan:15.2"
+  ]
+ },
+ {
+  "ad": "Saylıca",
+  "neden": [
+   "hedef:6",
+   "anılma:2",
+   "komşu:2",
+   "puan:15.1"
+  ]
+ },
+ {
+  "ad": "Kardiçe (Karditsa)",
+  "neden": [
+   "hedef:6",
+   "anılma:2",
+   "komşu:2",
+   "puan:15.1"
+  ]
+ },
+ {
+  "ad": "Besançon",
+  "neden": [
+   "hedef:4",
+   "anılma:15",
+   "komşu:0",
+   "puan:15.1"
+  ]
+ },
+ {
+  "ad": "Enez",
+  "neden": [
+   "hedef:3",
+   "anılma:12",
+   "komşu:4",
+   "puan:15.0"
+  ]
+ },
+ {
+  "ad": "Çimkent",
+  "neden": [
+   "hedef:8",
+   "anılma:1",
+   "komşu:1",
+   "puan:14.9"
+  ]
+ },
+ {
+  "ad": "Râvalpindi",
+  "neden": [
+   "hedef:8",
+   "anılma:1",
+   "komşu:1",
+   "puan:14.9"
+  ]
+ },
+ {
+  "ad": "Merîvan",
+  "neden": [
+   "hedef:8",
+   "anılma:1",
+   "komşu:1",
+   "puan:14.9"
+  ]
+ },
+ {
+  "ad": "Łódź",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:0",
+   "puan:14.8"
+  ]
+ },
+ {
+  "ad": "Tâze (Taza)",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:0",
+   "puan:14.8"
+  ]
+ },
+ {
+  "ad": "Niğde",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:0",
+   "puan:14.8"
+  ]
+ },
+ {
+  "ad": "Köstence",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:0",
+   "puan:14.8"
+  ]
+ },
+ {
+  "ad": "Częstochowa",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:0",
+   "puan:14.8"
+  ]
+ },
+ {
+  "ad": "Chełm (Kholm)",
+  "neden": [
+   "hedef:4",
+   "anılma:14",
+   "komşu:0",
+   "puan:14.8"
+  ]
+ },
+ {
+  "ad": "Hopa",
+  "neden": [
+   "hedef:3",
+   "anılma:7",
+   "komşu:6",
+   "puan:14.8"
+  ]
+ },
+ {
+  "ad": "Bolonya",
+  "neden": [
+   "hedef:4",
+   "anılma:7",
+   "komşu:2",
+   "puan:14.8"
+  ]
+ },
+ {
+  "ad": "Vientiane",
+  "neden": [
+   "hedef:5",
+   "anılma:6",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Tongguan",
+  "neden": [
+   "hedef:5",
+   "anılma:6",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Nijniy Novgorod",
+  "neden": [
+   "hedef:5",
+   "anılma:6",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Kaohsiung (Takao / Dagou)",
+  "neden": [
+   "hedef:5",
+   "anılma:6",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Etowah",
+  "neden": [
+   "hedef:5",
+   "anılma:6",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Chucuito",
+  "neden": [
+   "hedef:5",
+   "anılma:6",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "İnçon (Incheon)",
+  "neden": [
+   "hedef:3",
+   "anılma:15",
+   "komşu:3",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Suruç",
+  "neden": [
+   "hedef:3",
+   "anılma:15",
+   "komşu:3",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Zaysan",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Thanh Hoa",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Semâve",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Rach Gia",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Petseri (Peçori)",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Hürmüz Adası",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Abrene (Pıtalovo)",
+  "neden": [
+   "hedef:7",
+   "anılma:2",
+   "komşu:0",
+   "puan:14.7"
+  ]
+ },
+ {
+  "ad": "Ayasaranda (Sarandë)",
+  "neden": [
+   "hedef:4",
+   "anılma:4",
+   "komşu:4",
+   "puan:14.6"
+  ]
+ },
+ {
+  "ad": "Çerkasi (Cherkasy)",
+  "neden": [
+   "hedef:4",
+   "anılma:13",
+   "komşu:0",
+   "puan:14.6"
+  ]
+ },
+ {
+  "ad": "Zamość",
+  "neden": [
+   "hedef:4",
+   "anılma:13",
+   "komşu:0",
+   "puan:14.6"
+  ]
+ },
+ {
+  "ad": "Ebha (Asir)",
+  "neden": [
+   "hedef:4",
+   "anılma:13",
+   "komşu:0",
+   "puan:14.6"
+  ]
+ },
+ {
+  "ad": "Daugavpils (Dünaburg)",
+  "neden": [
+   "hedef:4",
+   "anılma:13",
+   "komşu:0",
+   "puan:14.6"
+  ]
+ },
+ {
+  "ad": "Şeyh (Somaliland)",
+  "neden": [
+   "hedef:3",
+   "anılma:46",
+   "komşu:0",
+   "puan:14.6"
+  ]
+ },
+ {
+  "ad": "Yam (Yamburg, Kingisepp)",
+  "neden": [
+   "hedef:4",
+   "anılma:9",
+   "komşu:1",
+   "puan:14.5"
+  ]
+ },
+ {
+  "ad": "Terneuzen",
+  "neden": [
+   "hedef:3",
+   "anılma:14",
+   "komşu:3",
+   "puan:14.5"
+  ]
+ },
+ {
+  "ad": "Şelif",
+  "neden": [
+   "hedef:5",
+   "anılma:4",
+   "komşu:1",
+   "puan:14.4"
+  ]
+ },
+ {
+  "ad": "Santa Fe",
+  "neden": [
+   "hedef:5",
+   "anılma:4",
+   "komşu:1",
+   "puan:14.4"
+  ]
+ },
+ {
+  "ad": "Panamá (Panama City)",
+  "neden": [
+   "hedef:5",
+   "anılma:4",
+   "komşu:1",
+   "puan:14.4"
+  ]
+ },
+ {
+  "ad": "Fethiye (Makri)",
+  "neden": [
+   "hedef:5",
+   "anılma:4",
+   "komşu:1",
+   "puan:14.4"
+  ]
+ },
+ {
+  "ad": "Buraydâ (Kasîm)",
+  "neden": [
+   "hedef:5",
+   "anılma:4",
+   "komşu:1",
+   "puan:14.4"
+  ]
+ },
+ {
+  "ad": "Çamdo (Chamdo)",
+  "neden": [
+   "hedef:6",
+   "anılma:3",
+   "komşu:0",
+   "puan:14.3"
+  ]
+ },
+ {
+  "ad": "Zhengzhou",
+  "neden": [
+   "hedef:5",
+   "anılma:3",
+   "komşu:2",
+   "puan:14.3"
+  ]
+ },
+ {
+  "ad": "Ubârî",
+  "neden": [
+   "hedef:5",
+   "anılma:3",
+   "komşu:2",
+   "puan:14.3"
+  ]
+ },
+ {
+  "ad": "Tlaxcala",
+  "neden": [
+   "hedef:4",
+   "anılma:3",
+   "komşu:5",
+   "puan:14.3"
+  ]
+ }
+]

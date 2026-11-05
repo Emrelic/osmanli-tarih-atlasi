@@ -1,0 +1,243 @@
+{
+ "desenler": [
+  {
+   "ara_kunye": "bati-hint-federasyonu (ingiltere > bati-hint-federasyonu > ingiltere)",
+   "donem": "1958-01-03/1962-05-31",
+   "bolge": "Bati Hint Adalari (Trinidad, Barbados, Saint Lucia, Antigua, St Kitts, Dominika...)",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "ölçüt dışı — aynı devletin (Britanya) sömürgelerinin iç yeniden yapılanması; Britanya dış ilişki, savunma, maliye yetkisini elinde tuttu",
+   "kaynak": "Encyclopedia.com, 'West Indies Federation' (Gale; Encyclopedia of African-American / Caribbean history), https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/west-indies-federation",
+   "alinti": "From 1958 to 1962 Britain held most of her West Indian colonies under a single administration",
+   "etkilenen": 13,
+   "ornek_yerler": [
+    "Chaguaramas",
+    "Bridgetown",
+    "Castries",
+    "St. John's (Antigua)",
+    "Basseterre",
+    "Roseau"
+   ],
+   "ic_not": "Federasyon bağımsız devlet değil; Britanya Parlamentosu 1962-05'te feshetti (aynı kaynak). Kaynak türü ansiklopedi: kısmen.",
+   "guven": "kismen"
+  },
+  {
+   "ara_kunye": "ingiltere (Bretigny/Aquitaine 1360-72 + Troyes 1420-29); once=fransa",
+   "donem": "1360-10-24/1372 ; 1420-05-21/1429-07-10",
+   "bolge": "Bordo, Poitiers, La Rochelle, Limoges (1360-72); Reims, Troyes (1420-29)",
+   "hukum": "s (1360 dilimi: Aquitaine/Poitou) ; s-kalir (1420-29 dilimi)",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Bretigny/Calais 1360: Edward III Aquitaine ve Guines'i 'tam egemenlik' (full sovereignty) ile aldi (Aquitaine Prensligi, Kara Prens); 1420-29: Troyes ile Henry V yalniz 'vekil ve varis', Fransa kralligi kurumu surdu (Henry VI Fransa krali) -> Ingiltere'ye katma yok",
+   "kaynak": "Oxford Companion to British History, 'Bretigny, treaty of' (encyclopedia.com/.../bretigny-treaty); Oxford Companion, 'Hundred Years War' (encyclopedia.com/.../hundred-years-war)",
+   "alinti": "Edward was to have Guines and Aquitaine in full sovereignty",
+   "etkilenen": 9,
+   "ornek_yerler": [
+    "Bordo",
+    "Reims",
+    "Troyes",
+    "Poitiers",
+    "La Rochelle",
+    "Limoges"
+   ],
+   "ic_not": "Ayni kaynak: Charles V egemenlik iddiasini surdurdu (Bretigny uygulanamayan genis kazanimlar) -> 1360 dilimi hukumu 'kismen'; Reims/Troyes 1360-72 dilimi degil, 1420-29 dilimidir (gunler atlas verisinden). 1420 dilimi 'regent/heir' tasarrufu: kuralin 'rakip hukumet' kolu.",
+   "guven": "kismen"
+  },
+  {
+   "ara_kunye": "angkor-kmer (campa > angkor-kmer > campa)",
+   "donem": "1145-01-01/1149-01-01",
+   "bolge": "Vijaya (Binh Dinh), Hue, Hoi An, Da Nang, Quang Ngai",
+   "hukum": "isg",
+   "alt_sinif": "",
+   "olcut": "geçici/askerî — Suryavarman II 1145'te Vijaya'yi isgal etti; Cham krali Jaya Harivarman I guneyde (Panduranga) direndi; 1148'de Khmer kral akrabasi Harideva'yi Cham krali ilan etti (kukla)",
+   "kaynak": "G. Coedes, The Indianized States of Southeast Asia (1968), s.~165-166, https://archive.org/details/theindianizedstatesofsoutheastasia",
+   "alinti": "The Khmer occupation of the northern part of Champa, with its capital at Vijaya, lasted until 1149",
+   "etkilenen": 5,
+   "ornek_yerler": [
+    "Hue (Phu Xuan)",
+    "Hoi An",
+    "Da Nang",
+    "Vijaya (Quy Nhon)",
+    "Quang Ngai"
+   ],
+   "ic_not": "Coedes 'Khmer occupation' diyor; 1203-20 donemi icin ayni eser 'Khmer province' der (bu desen disinda). Harideva 1148 nominal Cham krali: kaynak vergi/idari birim vermiyor -> isg",
+   "guven": "kaynakli"
+  },
+  {
+   "ara_kunye": "eyyubi (kudus-kralligi > eyyubi > kudus-kralligi)",
+   "donem": "1187-07/1191-07-11 (Akka 1187 -> 1191-07-12)",
+   "bolge": "Beyrut, Akka, Remle",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Selahaddin Akka'yi aldiktan sonra Karakus'u vali tayin etti (idari birim + vali); Remle, Gazze, Nablus 1187 fetih listesinde",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Karakus, Bahaeddin' (https://islamansiklopedisi.org.tr/karakus-bahaeddin); TDV 'Selahaddin-i Eyyubi' (https://islamansiklopedisi.org.tr/selahaddin-i-eyyubi)",
+   "alinti": "583 (1187) yilinda Akka sehrini Haclilar'dan geri alinca da onu buraya vali tayin etti",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Beyrut",
+    "Akka",
+    "Remle (Ramla)"
+   ],
+   "ic_not": "Vali tayini yalniz Akka icin belgeli; Beyrut ve Remle icin ayni uygulama TDV Selahaddin maddesinde 'fetih' olarak (52 sehir) geciyor, vali belgesi okunmadi -> bu iki yer 'kismen'. Akka Haclilarin eline 17 Cemaziyelahir 587 (12 Temmuz 1191) gecti (TDV Selahaddin) — atlas ucu 1191-07-11 ile 1 gun fark: ic_not. Cift-teyit yok.",
+   "guven": "kismen"
+  },
+  {
+   "ara_kunye": "leon-kralligi (kastilya > leon-kralligi > kastilya)",
+   "donem": "1065-12-27/1072-01-01",
+   "bolge": "Leon, Oviedo, Coimbra",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "ölçüt dışı — hanedan içi: I. Fernando'nun ülkeyi oğulları arasında bölüşmesi (1065); Alfonso VI Leon kralı, Sancho Kastilya kralı",
+   "kaynak": "Encyclopedia.com, 'Alfonso VI' (New Catholic Encyclopedia), https://www.encyclopedia.com/history/encyclopedias-almanacs-transcripts-and-maps/alfonso-vi",
+   "alinti": "By the terms of his father's division of the realm, Alfonso became king of León in 1065",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Leon",
+    "Oviedo",
+    "Coimbra"
+   ],
+   "ic_not": "1072'de Sancho Leon'u de aldi (ayni kaynak) — Sancho 1072 sonrasi Kastilya+Leon; hanedan ici el degistirme, Leon kendi kralligi (s-kalir).",
+   "guven": "kaynakli"
+  },
+  {
+   "ara_kunye": "nguyen-beyligi / tay-son (nguyen-beyligi > tay-son > nguyen-beyligi)",
+   "donem": "1777-01-01/1788-09-07",
+   "bolge": "Saygon (Gia Dinh), Vinh Long, Can Tho, Tra Vinh, Ben Tre, Tay Ninh",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "rakip/asi hükûmet — Tay Son kendi devletini kurdu: Nguyen hanedanini devirdi, kendi vergi ve toprak politikasini uyguladi (eski vergi ve toprak defterlerini yaktilar); kendi imparatorluk iddiasi",
+   "kaynak": "US Library of Congress Country Studies, Vietnam, 'The Tay Son Rebellion' (https://countrystudies.us/vietnam/13.htm)",
+   "alinti": "The Tay Son also abolished taxes, burned the tax and land registers",
+   "etkilenen": 7,
+   "ornek_yerler": [
+    "Saygon (Gia Dinh)",
+    "Vinh Long",
+    "Can Tho",
+    "Tra Vinh",
+    "Ben Tre",
+    "Tay Ninh"
+   ],
+   "ic_not": "Tay Son Saygon'u 1777 Nguyen Anh'a karsi aldi; Nguyen Anh 1788'de geri aldi (Atlas gunleri). Bu kaynak yil/gun vermiyor; ara 'tay-son' kunyesi kalir. 'Aboloshed taxes' ifadesi idareye katmanin tersi degil: kendi (yeni) idaresi.",
+   "guven": "kismen"
+  },
+  {
+   "ara_kunye": "grenada-devrimci-hukumet (grenada > grenada-devrimci-hukumet > grenada)",
+   "donem": "1979-03-13/1983-10-26",
+   "bolge": "St George's, Gouyave, Grenville, Hillsborough (Carriacou)",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "ölçüt dışı — ayni devletin hukumeti darbeyle degisti (PRG ayni Grenada devletini yonetti; kendi devletini ilan eden rakip ulke degil)",
+   "kaynak": "US Library of Congress Country Studies, Caribbean Islands, 'Grenada' (https://countrystudies.us/caribbean-islands/73.htm)",
+   "alinti": "The People's Revolutionary Government (PRG) established by the 1979 coup",
+   "etkilenen": 4,
+   "ornek_yerler": [
+    "St. George's",
+    "Gouyave",
+    "Grenville",
+    "Hillsborough (Carriacou)"
+   ],
+   "ic_not": "Grenada devleti surekliligi: 1983 sonrasi Genel Vali iktidari geri aldi (Oxford Companion to British History, 'Grenada'). Tahrir olcutu uygulanamaz (ayni toprak, ayni devlet).",
+   "guven": "kaynakli"
+  },
+  {
+   "ara_kunye": "ispanya (dominik-cumhuriyeti > ispanya > dominik-cumhuriyeti)",
+   "donem": "1861-03-18/1865-03-03",
+   "bolge": "Higuey, Santo Domingo, Santiago de los Caballeros",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Santana ilhaki ilan etti; Ispanya Santo Domingo Eyaleti + Santana 'captain general' (idarî birim ve vali)",
+   "kaynak": "US Library of Congress Country Studies, Dominican Republic, 'Annexation by Spain, 1861-65' (https://countrystudies.us/dominican-republic/6.htm)",
+   "alinti": "On March 17, 1861, Santana announced the annexation of the Dominican Republic by Spain",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Higuey",
+    "Santo Domingo",
+    "Santiago de los Caballeros"
+   ],
+   "ic_not": "Kaynak ilani 17 Mart 1861 diyor (atlas 1861-03-18: 1 gun fark, ic_not); direnis 1861-05'te basladi, Restorasyon Savasi; Ispanya 1865'te cekildi (kaynak tam gunu vermiyor; atlas 1865-03-03 dogrulanmadi). Sınır 'fiilen idare edilen' bolgelerle sinirli olabilir (isyan bolgeleri) -> 'kismen'.",
+   "guven": "kismen"
+  },
+  {
+   "ara_kunye": "glyndwr-galler (ingiltere > glyndwr-galler > ingiltere)",
+   "donem": "1404-01-01/1408-01-01 ve 1409-01-01",
+   "bolge": "Aberystwyth, Harlech",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "rakip/asi hükûmet — Owain Glyndwr Galler Prensi olarak kendi parlamentosunu toplad, Fransa ile ittifak kurdu, 'hükümdar olarak yargi yetkisi' kullandi; kendi devletini ilan etti",
+   "kaynak": "Dictionary of National Biography (1885-1900), 'Glendower, Owen' (Wikisource), https://en.wikisource.org/wiki/Dictionary_of_National_Biography,_1885-1900/Glendower,_Owen",
+   "alinti": "Owain now summoned a Welsh parliament to Harlech or Machynlleth",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Aberystwyth",
+    "Harlech"
+   ],
+   "ic_not": "DNB 1890 eski basvuru eseri: tek basina 'kismen'. Harlech 1404 baharinda teslim (DNB: 'agreed to surrender to him on a certain day'), Aberystwyth 1404; Harlech 1409'da Ingiliz eline dondu (atlas ucu dogrulanmadi).",
+   "guven": "kismen"
+  },
+  {
+   "ara_kunye": "macaristan (vidin-carligi > macaristan > vidin-carligi)",
+   "donem": "1365-01-01/1369-01-01",
+   "bolge": "Vidin",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Buyuk Lajos Vidin'i Macar vilayeti (Banat) haline getirdi",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Vidin' (https://islamansiklopedisi.org.tr/vidin)",
+   "alinti": "Kral Büyük Lajos şehri bir Macar vilâyeti (Banat) haline getirdi",
+   "etkilenen": 1,
+   "ornek_yerler": [
+    "Vidin"
+   ],
+   "ic_not": "TDV yalniz yil veriyor (1365, 1369); gun yok -> yil hassasiyeti, YYYY-01-01 beyani. Fine, Late Medieval Balkans TDV kaynakcasinda.",
+   "guven": "kaynakli"
+  },
+  {
+   "ara_kunye": "bizans (rupeniler > bizans > rupeniler) Misis",
+   "donem": "1137-01-01/1151-01-01 ; 1159-01-01/1172-08-23",
+   "bolge": "Misis (Mopsuestia)",
+   "hukum": "s (1137-51 bizans) ; s-kalir (1159-72, rupeniler tabi)",
+   "alt_sinif": "",
+   "olcut": "1137: idareye katma — II. Ioannes Cukurova'yi 'Bizans hakimiyeti altina aldi'; 1151: Manuel Misis ve Tarsus'a vali tayin etti. 1159-72: Manuel Misis'i aldi ama Toros affedildi ve Kilikya'da kaldi -> tabi, yerel sahip kalir (tabiyet ic_not)",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Misis' (Isin Demirkent), https://islamansiklopedisi.org.tr/misis",
+   "alinti": "İmparator Manuel Komnenos, Andronikos Komnenos'u Misis ve Tarsus'a vali tayin etti",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Misis (Yakapinar)"
+   ],
+   "ic_not": "TDV 1137 icin 'hakimiyet altina aldi' diyor; vali tayini 1151 (basarisiz) ve 1159 donemi icin tabiyet belgesi dolayli: 'kismen'. Gun yok (yil hassasiyeti).",
+   "guven": "kismen"
+  },
+  {
+   "ara_kunye": "ingiltere (ispanya > ingiltere > ispanya) Manila + Havana 1762",
+   "donem": "1762-08-13/1763-02-10 (Havana) ; 1762-10-06/1764-05-31 (Manila)",
+   "bolge": "Manila, Havana",
+   "hukum": "isg",
+   "alt_sinif": "",
+   "olcut": "geçici/askerî — Yedi Yil Savaslari isgali; Ispanyol direnisi surdu (Anda, Bacolor); Paris 1763 ile iade",
+   "kaynak": "US Library of Congress Country Studies, Philippines, 'The Decline of Spanish Rule' (https://countrystudies.us/philippines/5.htm)",
+   "alinti": "Spanish resistance continued ... Manila was returned to the Spanish in May 1764",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Manila",
+    "Havana (La Habana)"
+   ],
+   "ic_not": "Manila kaynakli (Ingiliz Dogu Hindistan Sirketi isgali, Paris 1763'e gore iade); Havana icin ayni kural 'kismen' (Cuba kaynagi okunmadi, uzerine ara yapildi, bulunamadi).",
+   "guven": "kismen"
+  },
+  {
+   "ara_kunye": "varsova-dukaligi (prusya > varsova-dukaligi > prusya)",
+   "donem": "1807-07-09/1815-06-09",
+   "bolge": "Poznan, Torun",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Tilsit 1807: Prusya topragindan Varsova Dukaligi kuruldu; 'kukla' ama kendi kunyesi ve ozyonetimi var -> mevcut s kunyesi kalir",
+   "kaynak": "US Library of Congress Country Studies, Poland, 'Napoleonic period' (https://countrystudies.us/poland/12.htm)",
+   "alinti": "in 1807 he created a Duchy of Warsaw from Prussian territory",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Poznan",
+    "Torun (Torun)"
+   ],
+   "ic_not": "Kaynak 'French puppet ... some degree of self-government' diyor; Viyana Kongresi 1815 ile dukalik kaldirildi (ayni kaynak, gun yok). Poznan Buyukdukaligi 1815-06-09 ayri kayit.",
+   "guven": "kismen"
+  }
+ ]
+}

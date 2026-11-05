@@ -1,0 +1,202 @@
+{
+ "Quechualla": [
+  {
+   "sira": 4158,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1835-05-04",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "es.wikipedia 'Distrito de Quechualla' (Vikipedi; tek dayanak olamaz) — 'Decreto S/N del 4 de mayo de 1835'; Congreso del Perú / AGN resmî dayanağı ham metinde bulunamadı",
+   "alinti": "El distrito de Quechualla fue creado mediante Decreto S/N del 4 de mayo de 1835",
+   "oneri": {
+    "d": "peru-cumhuriyeti",
+    "f": "1824-12-09",
+    "t": "2000-12-31"
+   },
+   "uc": "f",
+   "not": "ONCEKI DILIM: atlasta f, ilçe/belediye kuruluş günüdür; yerleşim o tarihten önce de vardı ve sahibi vardı. Tarihlenen olay idarî kuruluş (ilçe), egemenlik değil. Peru künyesi f=1824-12-09; Quechualla (La Unión/Arequipa) o gün Peru toprağıdır, yerleşim kolonide de vardı (İnka-öncesi/İnka bölgesi, Condesuyos). 1835 kayıt yalnız Vikipedi + Orbegoso dönemi. ÖNERİ: f=1824-12-09'a çek (idarî kuruluş 1835 ic_not), 1542-11-20..1824-12-09 dilimi ispanyol-peru (varlık kaynağı İnka/kolonyal akademik kaynak BAKILMADI). İnka sahipliği (Tawantinsuyu) için D'Altroy/Rowe BAKILMADI. Arandı: es.wikipedia, congreso.gob.pe demarcacion1904 (Quechualla geçmiyor), web arama."
+  }
+ ],
+ "Totora (Carrasco)": [
+  {
+   "sira": 4159,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1872-06-24",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Bolivya Senatosu / es.wikipedia / hispanopedia özetleri: '24 de junio de 1872' yeni il (provincia) yasası — ham metin alınamadı (senado.gob.bo DNS hatası; es.wikipedia Totora (Bolivia) sayfası bu ad için tarih içermiyor)",
+   "alinti": "El 24 de junio de 1872, se obtiene la ley correspondiente para la erección en una nueva provincia",
+   "oneri": {
+    "d": "bolivya-cumhuriyeti",
+    "f": "1825-08-06",
+    "t": "2000-12-31"
+   },
+   "uc": "f",
+   "not": "ONCEKI DILIM: atlasta f, ilçe/belediye kuruluş günüdür; yerleşim o tarihten önce de vardı ve sahibi vardı. Arama özeti, alıntı ham metinden değil => ONERI. Olay: Carrasco ilinin/şehrin yasayla kuruluşu (idarî); egemenlik başlangıcı değil. en.wikipedia 1876 diyor (çelişki, ikisi de Vikipedi). Totora yerleşimi kolonide/İnka dönemi (Inkallaqta bölgesi) mevcut; Bolivya künyesi f=1825-08-06 => öneri f=1825-08-06 (ABİ MERKEZ/varlık kaynağı BAKILMADI), 1572?-1825 ispanyol-peru dilimi varlık kaynağı bulunamadı."
+  }
+ ],
+ "Loja": [
+  {
+   "sira": 4160,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1548-12-08",
+   "t": "1822-05-24",
+   "hukum": "ONERI",
+   "kaynak": "FLACSO Ecuador, 'Loja resumen' (bölge raporu, hakemli değil) — 'su fecha oficial de fundación es el 8 de diciembre de 1548'. Hakemli dayanak bulunamadı",
+   "alinti": "su fecha oficial de fundación es el 8 de diciembre de 1548. Su fundador fue el capitán español Alonso de Mercadillo.",
+   "oneri": {
+    "f": "1548-12-08",
+    "t": "1822-05-24 (teyitsiz; bkz. not)"
+   },
+   "uc": "f",
+   "not": "f: resmî kuruluş (yeniden kuruluş; ilk yer La Zarza/Garrochamba 1546 civarı terk edildi, Mercadillo/Pizarro ilişkisi kaynaklarda çelişkili). Kaynak hakemli değil => ONERI-güçlü. t=1822-05-24 (Pichincha) kaynaksız: Loja bağımsızlığı kaynaklarda 1820-11-18 ya da 1822 (elyex.com, haber/popüler) olarak çelişiyor; Loja'nın Gran Kolombiya'ya katılış günü BAKILMADI. Loja, Kito Audiencia'sı; ispanyol-peru künyesi f=1542-11-20 / t=1824-12-09 (yön: Kito Audiencia'sının Peru genel valiliğine bağı 1739'a dek Nueva Granada ayrıca sorun). Arandı: flacso, uasb (403), web arama."
+  },
+  {
+   "sira": 4161,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1822-05-24",
+   "t": "1830-05-13",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "BAKILMADI/BULUNAMADI: Loja'nın Gran Kolombiya'ya (Azuay Departamenti) fiilî katılış günü kaynakta bulunamadı; web aramasında 1820-11-18, 1822-02-17, 1822-06 gibi popüler/haber tarihleri çıktı. Azuay departmanı Vikipedi 1822-06-25. Hakemli kaynak (Nueva Historia del Ecuador, J. Núñez/G. Ramón) erişilemedi. t=1830-05-13 Ekvador f ile çakışık, Loja'nın Ekvador'a katılış günü ayrı sorun."
+  },
+  {
+   "sira": 4162,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ekvador-cumhuriyeti",
+   "f": "1830-05-13",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Primicias / El Comercio (haber): 13 Mayıs 1830'da Ecuador-Guayaquil-Azuay departmanlarının ayrılışı — hakemli değil",
+   "alinti": "",
+   "oneri": {},
+   "uc": "f",
+   "not": "Loja Azuay departmanı içinde; 1830-05-13 Quito/Cuenca/Guayaquil kararıdır, Loja'nın o gün fiilen katıldığı kaynakla teyit edilmedi. Popüler kaynak => ONERI. Ecuador künyesinin kendi 'kaynak:' alanı da 'bulunamadı'."
+  }
+ ],
+ "Pebas": [
+  {
+   "sira": 4163,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1866-02-07",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "es.wikipedia 'Distrito de Pebas' (Vikipedi; tek dayanak olamaz) — 'El distrito fue creado mediante Decreto s/n del 7 de febrero de 1866'",
+   "alinti": "El distrito fue creado mediante Decreto s/n del 7 de febrero de 1866.",
+   "oneri": {
+    "d": "peru-cumhuriyeti",
+    "f": "1824-12-09",
+    "t": "2000-12-31"
+   },
+   "uc": "f",
+   "not": "ONCEKI DILIM: atlasta f, ilçe/belediye kuruluş günüdür; yerleşim o tarihten önce de vardı ve sahibi vardı. Pebas: Peba misyonu (Cizvit, 1735 Mart/1736, catholic.org Peba Indians + es.wikipedia) = yerleşim 1735'ten beri var; 1866 yalnız ilçe kuruluşu. BULGU: Pebas Ekvador-Peru uyuşmazlık bölgesinde (Mainas/Amazon); Ekvador 1942 Rio Protokolü'ne dek iddia etti, Peru fiilen yönetti (Loreto). Peru künyesi f=1824-12-09 öncesi Mainas valiliği; 1802 Real Cédula Peru'ya bağladı (BAKILMADI, hakemli kaynak yok). Önerim: f=1824-12-09 (Peru fiilî yönetim), Ekvador iddiası ic_not. Arandı: es.wikipedia, catholic.org, web arama."
+  }
+ ],
+ "Gorgor": [
+  {
+   "sira": 4164,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "peru-cumhuriyeti",
+   "f": "1857-01-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Congreso de la República del Perú, 'Aniversarios Región Lima — Provincias, Enero a Diciembre 2024' (resmî liste, www3.congreso.gob.pe/Docs/Otamdegrl/files/aniversario_region_lima_agosto_2024.pdf)",
+   "alinti": "LIMA CAJATAMBO GORGOR LEY S/N 02/01/1857",
+   "oneri": {},
+   "uc": "f",
+   "not": "Tarihlenen olay: ilçe kuruluşu (Ley S/N, 02/01/1857), egemenlik değil; devlet Peru (Cajatambo, Lima). Ham metin pypdf ile alındı. ONCEKI DILIM: atlasta f, ilçe/belediye kuruluş günüdür; yerleşim o tarihten önce de vardı ve sahibi vardı. Peru künyesi f=1824-12-09: 1824-12-09..1857 dilimi (Gorgor Cajatambo bölgesinde kolonyal dönemden beri var) kaynakla bulunamadı => ÖNERİ: f=1824-12-09, 1857-01-02 ic_not. Ayrıca Ley Regional 457 (22/01/1921) Gorgor'u ikiye böldü: sınır değişimi (Manás ayrıldı)."
+  }
+ ],
+ "Santa Cruz de la Sierra": [
+  {
+   "sira": 4165,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1595-05-21",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "kaynak": "Isabelle Combès, 'Enseñanzas de un padrón (Santa Cruz de la Sierra, 1561)', Notas de Antropología de las Américas 4 (2025), Bonn Üniv. (hakemli) — https://www.naa.uni-bonn.de/article/download/3310/3119/4289",
+   "alinti": "El 26 de febrero de 1561 ... fundó finalmente ... la ciudad de Santa Cruz de la Sierra",
+   "oneri": {
+    "d": "ispanyol-peru",
+    "f": "1561-02-26",
+    "t": "1825-08-06 (teyitsiz)"
+   },
+   "uc": "f",
+   "not": "EMRELİC (5 Kasım 2026, r8_105–110): Bugünkü noktayı 1561 Santa Cruz la Vieja TARİHLEMEZ (başka yer; uç kuralı). Nokta = San Lorenzo (de la Barranca) kuruluşu, günü kaynakla (Combès 2025 ya da hakemli); bulunamazsa 1595-05-21 BEYANLI kalır, 'kaynak aranır'. 1561 ve 1621 birleşmesi ic_not. Sahip ispanyol-peru (Mojos valiliği). · ÇELİŞKİ: atlas f=1595-05-21 (ispanya) kaynakla uyuşmuyor. Combès: kuruluş 1561-02-26 (Ñuflo de Chaves), Peru genel valisinin oğlu García de Mendoza 'Mojos' valisi, yani Peru valiliği yargı alanı => d: ispanyol-peru (künye f 1542-11-20). Ancak 1561 şehri bugünkü yer değil: 'Santa Cruz la Vieja'; yapı yer değiştirdi, San Lorenzo ile 1621'de kesin birleşti. 1595 kaynakta bulunmadı. Yer-soyu: ya f=1561-02-26 + 'yer 1621' beyanı, ya f=1621 (ABİ MERKEZ San Lorenzo 1590/95). Hüküm Emre'ye. t=1825-08-06 (Bolivya künyesi) Santa Cruz'a özgü teyit BAKILMADI; Rio de la Plata Genel Valiliği (1776) ara dilimi atlasta yok.",
+   "oneri_son": {
+    "d": "ispanyol-peru",
+    "f": "1595-05-21",
+    "t": "1825-08-06",
+    "beyan": "BEYANLI: bugünkü nokta San Lorenzo (de la Barranca) kuruluşu — günü kaynakla aranacak"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 4166,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "uc": "",
+   "not": "Santa Cruz'un Bolivya'ya geçiş günü Santa Cruz'a özgü kaynakta bulunamadı (Combès makalesi 1561 odaklı). Ülke düzeyi: Bolivya künyesi f=1825-08-06. BAKILMADI: Santa Cruz'un 1825 Mart-Ağustos'taki fiilî katılış belgesi (Santa Cruz kuşatması/Warnes mirası)."
+  }
+ ],
+ "Caçu": [
+  {
+   "sira": 4167,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1918-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Cidades, Histórico — Caçu (GO), 'Formação Administrativa' (resmî) — https://biblioteca.ibge.gov.br/visualizacao/dtb/goias/cacu.pdf (IBGE resmî)",
+   "alinti": "Distrito criado com a denominação de Caçu expovoado, pela lei municipal de Janeiro de 1918, subordinado ao município de Jataí.",
+   "oneri": {},
+   "uc": "f",
+   "not": "Olay: distrito kuruluşu (Ocak 1918, gün yok; atlas 1918-01-01 ay-düzeyi [yalnız ay]). Devlet Brezilya, Goiás/Jataí. Aynı metinde çelişki: 'Em 4 de junho de 1924, elevou-se à categoria de distrito, constando a data de 1918'. ONCEKI DILIM: atlasta f, ilçe/belediye kuruluş günüdür; yerleşim o tarihten önce de vardı ve sahibi vardı. Çiftlik 1888 civarı, köy 1915; Brezilya künyesi f=1889-11-15. 1889-11-15..1918 dilimi için ÖNERİ: yerleşim 1915'te povoado (kapel); ondan önce çiftlik, noktanın sahipliği Jataí'nın (Goiás) parçası olarak Brezilya => 1918 f kabul edilebilir (yerleşim 1915 öncesi 'yok' sayılırsa). "
+  }
+ ],
+ "Boca do Acre": [
+  {
+   "sira": 4168,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1902-09-18",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "IBGE Cidades, Histórico — Boca do Acre (AM) (resmî) — https://biblioteca.ibge.gov.br/visualizacao/dtb/amazonas/bocadoacre.pdf (IBGE resmî)",
+   "alinti": "A Lei municipal n.° 8, de 18 de setembro de 1902, criou o distrito de Boca do Acre.",
+   "oneri": {
+    "d": "brezilya-cumhuriyeti",
+    "f": "1889-11-15 (en erken; Antimari belediyesi 1890-10-22)",
+    "t": "2000-12-31"
+   },
+   "uc": "f",
+   "not": "Olay: distrito kuruluşu 1902-09-18 (Lei municipal n.8, IBGE ham metin pypdf). Aynı IBGE metni: Antimari belediyesi (Boca do Acre bölgesi) 1890-10-22 Decreto n.67 (Lábrea'dan), 1895-03-28 kaldırıldı, 1897-05-15 Floriano Peixoto adıyla geri geldi (Lei n.166); ilk gemi 1878-02-03. Yani Brezilya idaresi 1902'den çok önce (Amazonas eyaleti). Tarihlenen olay ayrıdır => ÖNERİ: f=1890-10-22 (Antimari belediyesi, 'Decreto n.67') ya da kuruluş-sahiplik bütünlüğü için 1889-11-15 künye; 1902-09-18 distrito ic_not. Boca do Acre (8°45'G) 1867 Ayacucho sınırının kuzeyinde, Petrópolis 1903-11-17 (Acre) bu yerleşimi etkilemez (ipucundaki Petrópolis bağı çürük: Boca do Acre Amazonas'ta, Acre Bölgesi dışında). 1867 sınır antlaşması akademik kaynakla BAKILMADI."
+  }
+ ]
+}

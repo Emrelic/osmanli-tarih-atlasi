@@ -1,0 +1,162 @@
+{
+ "Puntarenas": [
+  {
+   "sira": 3927,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kosta-rika-cumhuriyeti",
+   "f": "1838-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "history.state.gov/countries/costa-rica (Office of the Historian, ULKE DUZEYI; ham metin sayfa.py ile okundu); künye kosta-rika-cumhuriyeti kaynak alani (Gudmundson ELAHC, SINABI: 1838 YIL; bu turda acilamadi)",
+   "alinti": "Costa Rica did not formally declare its independence until August 30, 1848.",
+   "uc": "f",
+   "oneri": null,
+   "not": "ULKE DUZEYI, Puntarenas anilmiyor. Alinti satirin f=1838 ucunu TARIHLEMIYOR (1848 cumhuriyet/resmi bagimsizlik ilani; ayni sayfada federasyon 'by 1839' ayrilmis). Kunyedeki 1838 YIL kaynaklari (Gudmundson, SINABI) bu turda ham metin olarak okunamadi -> KAYNAKLI verilmedi. EB1911 Puntarenas (wikisource, IPUCU): sadece 'principal harbour of Costa Rica on the Pacific', 1904 nufus 3569, tarih yok. Baktigim: history.state.gov, EB1911 Puntarenas, countrystudies.us/costa-rica (404), encyclopedia.com (404). t=2000-12-31 pencere ucu. Puntarenas'in 1838 oncesi (Orta Amerika Federasyonu 1823-38, Meksika Imp. 1821-23) sahibi icin bkz f_geri adayi; kaynak okunmadi."
+  }
+ ],
+ "Santa Ana (El Salvador)": [
+  {
+   "sira": 3928,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "el-salvador-cumhuriyeti",
+   "f": "1841-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Library of Congress Country Studies, El Salvador, 'The United Provinces of Central America' (countrystudies.us/el-salvador/5.htm; ham metin sayfa.py); künye el-salvador-cumhuriyeti ic kaynaklari (Worldmark: 'January 1841')",
+   "alinti": "El Salvador did so in January 1841.",
+   "uc": "f",
+   "oneri": null,
+   "not": "ULKE DUZEYI: Santa Ana anilmiyor; kaynak devletin federasyondan ayrilisini tarihliyor ('declare their independence as separate political entities. El Salvador did so in January 1841'). AY hassasiyeti (1841-01-01). CELISKI beyani: history.state.gov El Salvador 1839 diyor (künyede zaten beyanli, taraf secilmedi). t=2000-12-31 pencere ucu, kaynak aranmadi. Santa Ana 1841 oncesi (UPCA icinde El Salvador Devleti 1824-41) icin f_geri adayi, kaynak okunmadi."
+  }
+ ],
+ "Brazzaville": [
+  {
+   "sira": 3929,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransiz-ekvator-afrikasi",
+   "f": "1910-01-15",
+   "t": "1958-01-01",
+   "hukum": "ONERI",
+   "kaynak": "f: Digithèque MJP (Univ. Perpignan), mjp.univ-perp.fr/constit/td1900.htm; t: Digithèque MJP, mjp.univ-perp.fr/constit/cg1958.htm (Délibération n° 112/58, JO République du Congo 3 déc. 1958)",
+   "alinti": "décret du 15 janvier 1910, portant création du Gouvernement général de l'Afrique équatoriale française",
+   "alinti2": "Elle proclame la République du Congo le 28 novembre 1958",
+   "uc": "f+t",
+   "oneri": {
+    "t": "1958-11-28"
+   },
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): SİSTEMİK (Emre listesi): LAB önerisi özerk cumhuriyet ilanı polity başlangıcı (gece-88 Ruanda, Laos emsali) → kongo-brazzaville f 1958-11-28 + v: fransa (Communauté) 1960-08-14'e dek; 1960-08-15 ic_not; AEF t 1958-11-28 (ya da 1959 fiilî fesih, kaynakla). Alternatif 'egemenlik 1960' seçilirse 1958-60 AEF/fransa altında ic_not. Tek kararla AEF/AOF/Madagaskar (1958-10-14), günler ülke ülke. · EMRELİC (5 Kasım 2026, r8_093/094/096): Brazzaville: 1958-11-28 Fransız Topluluğu içinde özerk cumhuriyetin ilanı, egemenlik değişimi DEĞİL; bağımsızlık 1960-08-15. AEF t 1958-11-28 olabilir; ardıl kongo-brazzaville künyesi f 1960-08-15 (ölçüldü) → 1958-11-28 → 1960-08-15 özerk Kongo künyesi YOK → LAB'a soruldu. · f=1910-01-15 KAYNAKLI (AEF Genel Valiligi kararnamesi; metinde Brazzaville anilmiyor, ULKE/KUNYE DUZEYI; baskent Brazzaville kunye kaynagi Columbia Enc. = ONERI-guclu). t=1958-01-01 YIL-tabanli ve kaynaksiz: Moyen-Congo Bolge Meclisi Brazzaville'in bagli oldugu bolgede Cumhuriyeti 1958-11-28'de ilan etti (Pointe-Noire oturumu 11:30, 28 Kasim 1958); 1958-09-28 referandum. ONERI t=1958-11-28 (kunye fransiz-ekvator-afrikasi t'sini de etkiler, LAB: AEF federal organlarinin resmi sonu 1958-11-28'den sonra olabilir, okunmadi). Brazzaville 1880-10-03 Makoko antlasmasi (EMRELIC) bu turda kaynakla okunmadi: BAKILMADI, f_geri adayi.",
+   "oneri_son": {
+    "d": "fransiz-ekvator-afrikasi",
+    "t": "1958-11-28",
+    "sonraki": [
+     {
+      "d": "kongo-ozerk-cumhuriyeti (künye YOK → aday LAB)",
+      "f": "1958-11-28",
+      "t": "1960-08-15",
+      "not": "Fransız Topluluğu içinde özerk cumhuriyet"
+     },
+     {
+      "d": "kongo-brazzaville",
+      "f": "1960-08-15",
+      "not": "künye var (devletler.js:15278), egemenlik kırılması"
+     }
+    ]
+   },
+   "karar": "EMRELİC"
+  }
+ ],
+ "Mbabane": [
+  {
+   "sira": 3930,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-svaziland",
+   "f": "1903-01-01",
+   "t": "1968-09-06",
+   "hukum": "ONERI",
+   "kaynak": "t: Swaziland Independence Act 1968 (c.56) s.1, legislation.gov.uk/ukpga/1968/56/section/1 (ham metin, primer); f: EB1911 'Swaziland' (wikisource, IPUCU); künye ingiliz-svaziland kronoloji (archontology.org, ONERI-guclu)",
+   "alinti": "In June 1903 an order in council formally conferred the government of the country",
+   "alinti2": "On 6th September 1968 (in this Act referred to as “ the appointed day ”) Swaziland shall cease to be a protected state",
+   "uc": "t",
+   "oneri": null,
+   "not": "BEKLET (EMRELIC iki model): (A) s: ingiliz-svaziland himaye; (B) dolayli idare krallik (s: Svazi Krallığı + v: ingiltere). Bu tur model kararı VERİLMEDİ. t=1968-09-06 KAYNAKLI (Act: 'Swaziland shall cease to be a protected state'; 'Her Majesty shall have no jurisdiction'). f=1903 yalniz IPUCU sinifi: EB1911 'In June 1903 an order in council'; ayni madde Mbabane'nin idare merkezi olarak Bremersdorp'un yerine 1904'te gectigini soyler ('replaced (1904) the former capital of Bremersdorp') -> Mbabane icin 1903-01-01 (YIL) sonrasi f olabilir; kunye kronoloji 1903-06-25 Privy Council Emri (yurutme 7 Agustos 1903) ONERI-guclu, primer okunamadi. TDV Svaziland/Esvatini maddesi YOK (arama sonucu 0). Hertslet 1909 (mapofafricabytre03hert) Swaziland 1903 emrini icermiyor. 1906-12-01 ikinci Emir (Yuksek Komiser tam yetki) kaynak okunmadi."
+  }
+ ],
+ "Ho (Togoland)": [
+  {
+   "sira": 3931,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-togoland",
+   "f": "1922-07-20",
+   "t": "1957-03-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "f: Report by H.B.M. Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (archive.org report-togoland-1920, Ho Distrikti bu raporun konusu; ham metin ia-oku); t: UN General Assembly res. 1044 (XI) 'The future of Togoland under British administration' (un-project.org/votes/resolution/A-RES-1044(XI)/, ham metin); TDV Gana (t Gana bağımsızlığı 6 Mart 1957)",
+   "alinti": "the 20th of July, 1922 (date of British Mandate for Togoland)",
+   "alinti2": "Gold Coast shall become independent on 6 March 1957",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "f: Rapor 'Mandate dated 20th July, 1922' ve 'date of British Mandate for Togoland' der (Togoland'in manda gunu). t: GA 1044 (XI) birlesmeyi 'on the date on which the Gold Coast becomes independent' gunune baglar; Gold Coast bagimsizligi 6 Mart 1957 (TDV Gana: 'Altın Sahili 6 Mart 1957 tarihinde Gana adıyla ... bağımsızlığını kazanan ilk devleti oldu'). 1956-05-09 plebisit ic_not'a (karar 944 (X) 15 Aralik 1955 plebisiti onerdi). NAMIBYA MODELI: 1922-07-20 oncesi dilimler (isg 1914-08-26 Kamina, Versay 1919-06-28 s: ingiltere, bolusum 1919-07-10 Milner-Simon) bu partide degil; bu turda okunmadi, EMRELIC beyanina dayanir. Not: BM vesayeti 1946-12-13 yalnız ic_not."
+  }
+ ],
+ "Kpando": [
+  {
+   "sira": 3932,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-togoland",
+   "f": "1922-07-20",
+   "t": "1957-03-06",
+   "hukum": "KAYNAKLI",
+   "kaynak": "f: Report by H.B.M. Government to the Council of the League of Nations on the Administration of the British Sphere of Togoland (archive.org report-togoland-1920; metinde Kpando/Kpandu yolları ve idaresi geçer); t: UN General Assembly res. 1044 (XI) (un-project.org/votes/resolution/A-RES-1044(XI)/, ham metin); TDV Gana",
+   "alinti": "the 20th of July, 1922 (date of British Mandate for Togoland)",
+   "alinti2": "Gold Coast shall become independent on 6 March 1957",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "Ho ile aynı kaynak ve aynı hüküm (British Togoland ülke düzeyi: manda 1922-07-20, birleşme Gold Coast bağımsızlığı günü 1957-03-06). Raporda 'Kpandu' yazımı (Dafo-Kpandu, Kpandu-Vakpo yolları). Kpando'ya özgü ayrı tanıklık gerekmedi (Kpando İngiliz sahasında). 1914-1922 öncesi dilim bu partide yok, bakılmadı."
+  }
+ ],
+ "Atakpamé": [
+  {
+   "sira": 3933,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransiz-togo",
+   "f": "1922-07-20",
+   "t": "1960-04-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Togo' (Ahmet Kavas, islamansiklopedisi.org.tr/togo; ham metin sayfa.py); f gunu icin yardimci: British Togoland raporu 'date of British Mandate' 1922-07-20 ve TDV Kamerun 'Milletler Cemiyeti ... 20 Temmuz 1922'",
+   "alinti": "27 Nisan 1960 tarihinde bağımsızlık ilân edildi",
+   "alinti2": "1922’de Milletler Cemiyeti tarafından Fransa ve İngiltere’nin mandası onaylandı",
+   "uc": "t",
+   "oneri": null,
+   "not": "t=1960-04-27 KAYNAKLI (TDV Togo). f: TDV Togo yalniz YIL 1922 verir (manda onayi); gün 1922-07-20 Fransiz Togo mandat metninden ham okunamadi (wikisource/avalon 404, ia-ara Fransiz rapor bulamadi); TDV Kamerun ayni Konsey kararini 20 Temmuz 1922 verir ve Ingiliz Togo raporu ayni gunu verir -> f gun UCU TEYITSIZ (yil teyitli), öteki uç (f) için 'öteki uç teyitsiz (gün)'. Fransiz sektoru: TDV 'doğu tarafı Fransa'ya' (Atakpame Togo'nun orta kesimi; ilcesi Atakpamé TDV'de sadece 77.300 nufuslu sehir). Namibya modeli oncesi dilimler (isg 1914-08-26, Versay 1919-06-28, bolusum 1919-07-10 / 'Londra Deklarasyonu Temmuz 1919' TDV Kamerun) bu partide yok."
+  }
+ ],
+ "Buea": [
+  {
+   "sira": 3934,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kamerun",
+   "f": "1922-07-20",
+   "t": "1961-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Kamerun' (islamansiklopedisi.org.tr/kamerun; ham metin sayfa.py)",
+   "alinti": "20 Temmuz 1922’de aldığı bir kararla işgal ettikleri yerleri Fransa ve İngiltere’nin manda yönetimlerine bıraktı",
+   "alinti2": "güneyde birleşme sağlandı ve böylece Kamerun Federal Cumhuriyeti kuruldu (1 Ekim 1961)",
+   "uc": "f+t",
+   "oneri": null,
+   "not": "f: TDV Milletler Cemiyeti kararini 20 Temmuz 1922 verir (Londra Deklarasyonu Temmuz 1919 paylasimi resmilestirdi). t: Subat 1961 halk oylamasi; Kamerun Federal Cumhuriyeti 1 Ekim 1961 (Guney Kamerun). Buea Guney Kamerun'da (Buea yakinindaki Victoria TDV'de anilir). TDV 'Alman himayesi I. Dunya Savasi biterken fiilen son buldu (1918)' der: fiili 1914-16 Ingiliz isgali ile CELISIR (TDV yil hatasi/ozetleme), isg tarihleri TDV'den alinmaz. Buea'nin Ingiliz isgal gunu bu turda BULUNAMADI (kaynak okunmadi: Hertslet, UNESCO GHA aranmadi). NAMIBYA MODELI: Alman baskenti Buea icin isg 1914/15 + Versay 1919-06-28 s: ingiltere dilimleri bu partide yok. 1946-12-13 BM vesayeti ic_not."
+  }
+ ],
+ "f_geri": [
+  "F-GERI ADAYI (kaynak okunmadı, DOĞRULANMADI): Brazzaville eski f 1910-01-15 → 1880-10-03 (Makoko), sahip: Fransız Kongosu/Fransa (künye ve zincir LAB; Makoko günü kaynağı bakılmadı)",
+  "F-GERI ADAYI (kaynak okunmadı): Puntarenas eski f 1838-01-01 → Orta Amerika Federasyonu 1823 / Meksika İmp. 1821, sahip künyesi guatemala (federasyon)",
+  "F-GERI ADAYI (kaynak okunmadı): Santa Ana eski f 1841-01-01 → 1823/24 UPCA El Salvador Devleti, sahip künyesi guatemala (federasyon)",
+  "F-GERI ADAYI: Mbabane eski f 1903-01-01 → idare merkezi 1904 (EB1911 İPUCU), erken değil geç yönde"
+ ]
+}

@@ -1,0 +1,512 @@
+{
+ "Albazin": {
+  "dosya_satir": "data/yerlesimler_ek9.js:123",
+  "kur": {
+   "deger": "1651-01-01 (YIL; gün BULUNAMADI)",
+   "kaynak": "Vikipedi 'Albazin' (özet; atıf: Mancall, Russia and China 1971; Dmytryshyn, Russia's Conquest of Siberia I doc.127) + Harvard Russia Global omeka items/18 ('Khabarov captured a Daurian fortress ... Albazino', yılı 1649 verir — çelişki)",
+   "alinti": "Late 1650 (or 1651): Yerofei Khabarov built Albazin as winter quarters"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "?",
+    "t": "1651-01-01",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Daur Albazi şehri (Prens Albaza) Rus kuruluşundan önce var; sahibi kaynakta yok",
+    "alinti": "",
+    "oneri": {},
+    "not": "BEYANLI BOŞLUK önerisi: 1651 öncesi Daur yerli yurdu; künye yok (daur/solon yok — LAB). Baktım: Vikipedi Albazin, Harvard omeka. Qing'e haraç bağı (Hong Taiji 1630'lar Daur seferi) bu turda KAYNAKLA doğrulanamadı → Qing yazılmadı."
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1651-01-01",
+    "t": "1689-09-06",
+    "hukum": "ONERI",
+    "kaynak": "Tek dayanak Vikipedi/ansiklopedik özet (kaynak kuralı: tek başına yetmez) — gün/yıl ONERI düzeyinde",
+    "alinti": "Winter 1650/51 Khabarov; 1685 Qing kuşatması, Tolbuzin teslim; 1686 yeniden kuşatma",
+    "oneri": {
+     "f": "1651-01-01",
+     "t": "1689-09-06"
+    },
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). Bitiş ucu 1689-09-06→07 Nerchinsk (yukarıdaki tarih beyanı). ARA KESİNTİLER ic_not'a: 1652 Qing Rusları Amur'dan sürdü, 1655 Çernigovski yeniden işgal; 23 Haz 1685 Qing kuşatması başladı, kale yakıldı, Qing garnizon bırakmadı; 1686-07-18 ikinci kuşatma, 1687-08 Qing çekildi (Vikipedi Albazin kronolojisi; Mancall 1971 atfı). ÖLÇÜT: idareye katma — Rus voyvodalığı (Tolbuzin 1684 voyvoda). Rus 1651-1689 sürekliliği 1652-55 kesintisi nedeniyle yaklaşıklıktır (beyan)."
+   },
+   {
+    "alan": "s",
+    "d": "qing-hanedani",
+    "f": "1689-09-06",
+    "t": "1858-05-28",
+    "hukum": "KAYNAKLI",
+    "kaynak": "Nerchinsk Antlaşması (Rus nüshası, worldjpn.net 'The World and Japan' DB, pw/16890827.T1E); Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "Albazin kalesi tamamen yıkılacak (Md.3)",
+    "oneri": {
+     "f": "1689-09-06"
+    },
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). Md.3 «The fortified town of Albazin ... is to be completely demolished» (worldjpn, okundu). Tarih notu yukarıda. Site boşaltıldı; Qing idaresi fiilî bir yerleşim değil (yerleşim 1689-1858 yok) — BEYANLI YAKLAŞIKLIK: boş saha Qing'e bırakıldı. Bitiş 1858-05-28 Aigun imzası (Rus metni '(16) mayıs 1858' Jülyen 16 Mayıs = Gregoryen 28 Mayıs)."
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1858-05-28",
+    "t": "1917-03-15",
+    "hukum": "ONERI",
+    "kaynak": "Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор (Md.1 sol yaka Rusya'ya) + Vikipedi Albazin (stanitsa 1858)",
+    "alinti": "«Левый берег Амура ... да будет владением российского государства»",
+    "oneri": {},
+    "not": "TEK ÖLÇÜ: Rusya sahada fiilî idare kurmamıştı (yerleşim yoktu; Albazin stanitsası Aigun SONRASI kuruldu, günü bulunamadı) → ölçüte göre teslim günü; teslim günü BULUNAMADI → imza günü 1858-05-28 BEYANLI yaklaşıklık. Pekin 1860-11-14 teyidi ic_not. Qing Pekin'in Aigun'u 1860'a dek onaylamadığı (arama özeti, doğrulanmadı) ic_not'a yazılabilir."
+   }
+  ]
+ },
+ "Nikolayevsk (Amur ağzı)": {
+  "dosya_satir": "data/yerlesimler_ek13.js:162",
+  "kur": {
+   "deger": "1850-08-13 (Gregoryen; OS 1 Ağustos 1850)",
+   "kaynak": "Rus kaynak özetleri (arama: 'Nikolayevsky post founded 1 (13) Aug 1850, Cape Kuegda, Nevelskoy'); prlib.ru/en/node/619453 erişilemedi (tarayıcı kontrolü) → teyit YOK",
+   "alinti": "On August 1 (13), 1850 ... founded the military-administrative settlement Nikolaevsky post"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "?",
+    "t": "1689-09-07",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Nivkh (Gilyak) yurdu; sahibi kaynakta yok. Baktım: Nerchinsk metni, prlib, Vikipedi",
+    "alinti": "",
+    "oneri": {},
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). 1689 öncesi için yerleşim yok; Amur ağzı. Qing'in aşağı Amur'da fiilî idaresi yok (Nerchinsk Md.1 'Uda ... denize doğru' bölgenin yargı yetkisi açık)."
+   },
+   {
+    "alan": "s",
+    "d": "qing-hanedani",
+    "f": "1689-09-06",
+    "t": "1850-08-13",
+    "hukum": "ONERI",
+    "kaynak": "Nerchinsk Antlaşması (Rus nüshası, worldjpn.net 'The World and Japan' DB, pw/16890827.T1E) + Nikolayevsk kuruluşu (Rus özetleri)",
+    "alinti": "Nikolaevsky post, 1 (13) Ağustos 1850, Nevelskoy",
+    "oneri": {
+     "f": "1689-09-06"
+    },
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). Başlangıç ucu: atlasta 1689-09-06; EMRELİC brifi 1689-09-07. Rus nüshası 'Signed 27th August 1689' (Jülyen) = Gregoryen 1689-09-06 (+10 gün); Qing tarafı (Kangxi 28, 7. ay, 24. gün) → Academia Sinica ile EMRELİC çevirir (ajan çevirmedi); batı kaynakları 7 Eylül verir. Ucu EMRELİC seçer. ÖLÇÜT: idareye katma — Nerchinsk Md.1: Amur ve kolları Qing'e, ama Uda ile dağlar arası bölgenin yargı yetkisi 'açık kalır' (aşağı Amur ağzı/Ohotsk kıyısı için sınır belirsiz). Uç 1850-08-13: Rusya aşağı Amur'da tek taraflı idare kurdu; Qing iddiası sürdü (Aigun'a dek) → bir sonraki dönem isg."
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1850-08-13",
+    "t": "1858-05-28",
+    "hukum": "ONERI",
+    "kaynak": "Rus özetleri (kuruluş) + Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "",
+    "oneri": {
+     "f": "1850-08-13",
+     "t": "1858-05-28"
+    },
+    "not": "ÖLÇÜT: geçici/askerî — Nevelskoy'un karakolu Qing/St.Petersburg onayı olmadan kuruldu, Qing iddiası sürdü; hukukî devir Aigun. Alternatif: EMRELİC 'fiilî idare başladıysa s' derse `s: rusya` 1850-08-13 (ama TEK ÖLÇÜ imza gününü ister). Qing'in o yıllarda Nikolayevsk'te fiilî idare kurduğuna dair kaynak YOK; atlasın 1689-1858 Qing dönemi bu yüzden beyanlı yaklaşıklıktır."
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1858-05-28",
+    "t": "1917-03-15",
+    "hukum": "KAYNAKLI",
+    "kaynak": "Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "«Левый берег Амура от Аргуни до морского устья отходит к России» (Md.1; 'Город Айхунь, мая 16 дня 1858 года')",
+    "oneri": {},
+    "not": "TEK ÖLÇÜ: Rusya 1850'den beri fiilen yönetiyordu → s: İMZA günü 1858-05-28 (Jülyen 16 Mayıs + 12). Pekin 1860-11-14 teyit (ic_not). Künye rusya f=1547-01-16, t=1917-03-15 kapsıyor."
+   }
+  ]
+ },
+ "Blagoveşçensk": {
+  "dosya_satir": "data/yerlesimler_ek13.js:178",
+  "kur": {
+   "deger": "1856-06-03 (Usti-Zeyskiy karakol; OS 22 Mayıs 1856) — 1858-07-05 (OS 5 Temmuz; Gregoryen 17 Temmuz) Blagoveşçensk adıyla kent",
+   "kaynak": "Blagoveşçensk Şehir İdaresi tarihçesi (admblag.ru, PDF açılmadı; arama özeti) + cyclowiki.org/wiki/Благовещенск ('в 1856 году ... Усть-Зейский военный пост'; '5-й день июля' kararname)",
+   "alinti": "В 1856 году ... был основан Усть-Зейский военный пост"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1651-01-01",
+    "t": "1689-09-06",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Aranan: Rus varlığı Zeya ağzında 1651-89",
+    "alinti": "",
+    "oneri": {
+     "d": "__BOSLUK__"
+    },
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). KALDIRILMALI: Zeya ağzında (Blagoveşçensk sahası) 1651-89 Rus idaresi için kaynak bulamadım (Khabarov/Poyarkov Zeya'ya girdi ama kalıcı idare/yerleşim belgesi okunmadı). Yerleşim 1856'dan önce yok; Daur/Tunguz yurdu. Baktım: cyclowiki, admblag özeti, Nerchinsk metni."
+   },
+   {
+    "alan": "s",
+    "d": "qing-hanedani",
+    "f": "1689-09-06",
+    "t": "1856-06-03",
+    "hukum": "ONERI",
+    "kaynak": "Nerchinsk Antlaşması (Rus nüshası, worldjpn.net 'The World and Japan' DB, pw/16890827.T1E) + Usti-Zeyskiy karakol",
+    "alinti": "1856 Ust-Zeya karakolu",
+    "oneri": {
+     "f": "1689-09-06"
+    },
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). Başlangıç ucu: atlasta 1689-09-06; EMRELİC brifi 1689-09-07. Rus nüshası 'Signed 27th August 1689' (Jülyen) = Gregoryen 1689-09-06 (+10 gün); Qing tarafı (Kangxi 28, 7. ay, 24. gün) → Academia Sinica ile EMRELİC çevirir (ajan çevirmedi); batı kaynakları 7 Eylül verir. Ucu EMRELİC seçer. ÖLÇÜT: idareye katma — Nerchinsk Md.1: Amur ve kolları Qing'e, ama Uda ile dağlar arası bölgenin yargı yetkisi 'açık kalır' (aşağı Amur ağzı/Ohotsk kıyısı için sınır belirsiz). Uç 1856-06-03 kuruluş (OS 22 Mayıs); gün kaynak özetinden, ONERI."
+   },
+   {
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1856-06-03",
+    "t": "1858-05-28",
+    "hukum": "ONERI",
+    "kaynak": "cyclowiki Благовещенск + Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "",
+    "oneri": {
+     "f": "1856-06-03",
+     "t": "1858-05-28"
+    },
+    "not": "ÖLÇÜT: geçici/askerî — karakol Qing toprağında, Qing iddiası sürerken; Aigun Md.1 Zeya-Hormoldzin arası Mançu köylerini Qing idaresinde bıraktı (okundu: «маньчжурских жителей оставить ... под ведением маньчжурского правительства»). Kuruluştan önceki sahiplik zincirinde Aigun (Qing, 50.24/127.46) karşı yakada."
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1858-05-28",
+    "t": "1917-03-15",
+    "hukum": "ONERI",
+    "kaynak": "Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "«Левый берег Амура ... отходит к России»",
+    "oneri": {},
+    "not": "TEK ÖLÇÜ: Rusya Ust-Zeya karakolundan fiilen yönetiyordu → imza günü 1858-05-28. Kent adı/kararname 5 Temmuz 1858 OS (Gregoryen 17 Temmuz) ic_not. 'Blagoveşçensk' adı Aigun sonrası verildi (cyclowiki) — kuruluş 1856 mı 1858 mi: yerleşim 1856 karakolu."
+   }
+  ]
+ },
+ "Habarovka": {
+  "dosya_satir": "data/yerlesimler_ek13.js:185",
+  "kur": {
+   "deger": "1858-06-12 (OS 31 Mayıs 1858); alternatif 30 Mayıs / 3 (15) Haziran sapmaları",
+   "kaynak": "BSE (dic.academic.ru bse/146380): yalnız YIL 1858 doğrulandı; gün: calend.ru özeti (31 Mayıs OS, Kaptan Y.V. Dyachenko, 13. Sibirya Hat Taburu) — popüler site, ONERI",
+   "alinti": "Основан в 1858 как военный пост Хабаровка"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "?",
+    "t": "1689-09-07",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Aranan: Ussuri ağzı sahibi 1650-1689; Khabarov 1650-53'te Amur'daydı ama Ussuri ağzında kalıcı idare okunmadı",
+    "alinti": "",
+    "oneri": {},
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). Atlas Qing'i 1653'ten başlatıyor (kaynaksız). Qing 1644'ten Pekin'de; Ussuri ağzında 1689 öncesi Qing idaresi KAYNAKSIZ → 1653-01-01 başlangıcı kaldırılmalı."
+   },
+   {
+    "alan": "s",
+    "d": "qing-hanedani",
+    "f": "1689-09-06",
+    "t": "1858-05-28",
+    "hukum": "ONERI",
+    "kaynak": "Nerchinsk Antlaşması (Rus nüshası, worldjpn.net 'The World and Japan' DB, pw/16890827.T1E) + Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "Aigun: Ussuri'den denize arazi ortak",
+    "oneri": {
+     "f": "1689-09-06"
+    },
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). Başlangıç ucu: atlasta 1689-09-06; EMRELİC brifi 1689-09-07. Rus nüshası 'Signed 27th August 1689' (Jülyen) = Gregoryen 1689-09-06 (+10 gün); Qing tarafı (Kangxi 28, 7. ay, 24. gün) → Academia Sinica ile EMRELİC çevirir (ajan çevirmedi); batı kaynakları 7 Eylül verir. Ucu EMRELİC seçer. ÖLÇÜT: idareye katma — Nerchinsk Md.1: Amur ve kolları Qing'e, ama Uda ile dağlar arası bölgenin yargı yetkisi 'açık kalır' (aşağı Amur ağzı/Ohotsk kıyısı için sınır belirsiz). Not: Habarovka Ussuri'nin doğusunda/Amur'un güney yakasında, yani Aigun Md.1 ortak bölgesinde (Nerchinsk'te Qing'in Amur havzası içinde)."
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1858-05-28",
+    "t": "1860-11-14",
+    "hukum": "KAYNAKLI",
+    "kaynak": "Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "«как ныне да будут в общем владении дайцинского и российского государств»",
+    "oneri": {},
+    "not": "Ussuri-deniz arası 'ortak' (condominium). Karakol 1858-06-12 NS Rusya tarafından kuruldu. ÖLÇÜT: geçici — ortak bölge, devlet künyesi yok → beyanlı boşluk/künye sorusu LAB'a. Alternatif: `isg rusya` 1858-06-12→1860-11-14 (Rus askerî karakolu) ama ortaklık Aigun'da hukukî olduğundan isg değil, ortak."
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1860-11-14",
+    "t": "1917-03-15",
+    "hukum": "KAYNAKLI",
+    "kaynak": "Пекинский дополнительный договор, ru.wikisource.org/wiki/Пекинский_договор_(1860)",
+    "alinti": "«Земли, лежащие по восточному (правому) берегу сих рек, принадлежат российскому государству.» Пекин, 2/14 ноября 1860",
+    "oneri": {},
+    "not": "TEK ÖLÇÜ: Rusya 1858'den beri Habarovka'yı fiilen yönetiyordu → imza günü 1860-11-14 (Jülyen 2 Kasım + 12). Pekin Md.1 Aigun Md.1'i 'teyit ve açıklama'. Mevcut atlas ucu doğru."
+   }
+  ]
+ },
+ "Vladivostok": {
+  "dosya_satir": "data/yerlesimler_ek13.js:196",
+  "kur": {
+   "deger": "1860-07-02 (OS 20 Haziran 1860) — gün ipucu, DOĞRULANAMADI; yıl 1860 doğrulandı",
+   "kaynak": "Rus özetleri (Zolotoy Rog'a 40 kişilik asker çıkarma 1860, arama özeti); EMRELİC ipucu dosyası (kur_C1_sonuc.tsv:38) '1860-06-20 OS' ONAYLANMADI",
+   "alinti": "в 1860 году, в бухте Золотой Рог высаживается военная команда из сорока человек"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "?",
+    "t": "1689-09-07",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Aranan: Primorye/Zolotoy Rog 1653-1689 sahibi (Rus Khabarov Ussuri'ye girmedi); Qing 1653 başlangıcı kaynaksız",
+    "alinti": "",
+    "oneri": {},
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). Mevcut qing 1653-01-01 başlangıcı kaynaksız: kaldırılmalı. Bölge Çurçet/Mançu etkisi; 1689 Nerchinsk Amur sınırı, Primorye/Ussuri güneyi için Qing iddiası (belgeli idare okunmadı)."
+   },
+   {
+    "alan": "s",
+    "d": "qing-hanedani",
+    "f": "1689-09-06",
+    "t": "1858-05-28",
+    "hukum": "ONERI",
+    "kaynak": "Nerchinsk Antlaşması (Rus nüshası, worldjpn.net 'The World and Japan' DB, pw/16890827.T1E) + Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "Aigun: Ussuri-deniz ortak bölge",
+    "oneri": {
+     "f": "1689-09-06"
+    },
+    "not": "EMRELİC gece-17: Nerçinsk 1689-09-06 KALIR; ic_not \"Rus nüshası 27.8.1689 O.S. = 6.9; Qing kaydı 康熙28/7/24 = 7.9 (Academia Sinica); bir gün fark\". Ortak bölgeler beyanlı __BOSLUK__ (Değişmez 1 beyanı şart). Başlangıç ucu: atlasta 1689-09-06; EMRELİC brifi 1689-09-07. Rus nüshası 'Signed 27th August 1689' (Jülyen) = Gregoryen 1689-09-06 (+10 gün); Qing tarafı (Kangxi 28, 7. ay, 24. gün) → Academia Sinica ile EMRELİC çevirir (ajan çevirmedi); batı kaynakları 7 Eylül verir. Ucu EMRELİC seçer. ÖLÇÜT: idareye katma — Nerchinsk Md.1: Amur ve kolları Qing'e, ama Uda ile dağlar arası bölgenin yargı yetkisi 'açık kalır' (aşağı Amur ağzı/Ohotsk kıyısı için sınır belirsiz). Primorye Nerchinsk ile Qing'e ait kabul edilen havza (Amur güneyi)."
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1858-05-28",
+    "t": "1860-11-14",
+    "hukum": "KAYNAKLI",
+    "kaynak": "Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "«от Усури до моря ... в общем владении дайцинского и российского государств»",
+    "oneri": {},
+    "not": "Condominium; karakol 1860-07-02 NS'de ortak dönemde kuruldu; künye yok (LAB)."
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1860-11-14",
+    "t": "1917-03-15",
+    "hukum": "KAYNAKLI",
+    "kaynak": "Пекинский дополнительный договор, ru.wikisource.org/wiki/Пекинский_договор_(1860)",
+    "alinti": "Пекин, 2/14 ноября 1860; Усури ve Тумень-дзян sınırı (Md.1)",
+    "oneri": {},
+    "not": "TEK ÖLÇÜ: Rusya Zolotoy Rog'u 1860-07-02'den beri fiilen yönetiyordu → imza günü 1860-11-14. Mevcut uç doğru."
+   }
+  ]
+ },
+ "Ayan": {
+  "dosya_satir": "data/yerlesimler_ek13.js:152",
+  "kur": {
+   "deger": "1844-1845 (Zavoyko; Ohotsk ticaret merkezi 1845'te Ayan'a taşındı, 1846 liman statüsü) — YIL, gün BULUNAMADI",
+   "kaynak": "Vikipedi 'Ayan, Russia' özeti (arama); encspb.ru erişildi ama Ayan'ı içermiyor; EMRELİC ipucu 1844 (kur_C1_sonuc.tsv:33)",
+   "alinti": "in 1845 the Okhotsk trading post moved to Ayan; in 1846 Ayan received the status of a port"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1679-01-01",
+    "t": "1917-03-15",
+    "hukum": "ONERI",
+    "kaynak": "Tek dayanak Vikipedi/ansiklopedik özet (kaynak kuralı: tek başına yetmez) — gün/yıl ONERI düzeyinde; Nerchinsk Md.1 (okundu): Uda-dağlar arası bölgenin yargı yetkisi 'açık kalır'",
+    "alinti": "«the question of the jurisdiction over them is to remain open»",
+    "oneri": {
+     "f": "1844-01-01",
+     "t": "1917-03-15",
+     "not_": "kuruluştan önce kırp"
+    },
+    "not": "ÖLÇÜT: idareye katma — Rus-Amerikan Şirketi limanı, Ohotsk (1647/49) idaresine bağlı. 1679 başlangıcı Udskoy ostrog tarihidir (Ayan'a ait değil): yerleşim 1844'ten önce yok → dönemi KIRP, toprak komşu peteklere kalsın (boşluk merdiveni ④). 1689-09-07→1858 arası bölge Nerchinsk gereği 'sınır belirsiz' (ic_not); Qing hiç idare kurmadı (kaynak yok), Rus fiilî idare sürdü → `s: rusya` korunur, BEYANLI YAKLAŞIKLIK."
+   }
+  ]
+ },
+ "Udskoy ostrogu": {
+  "dosya_satir": "data/yerlesimler_ek13.js:139",
+  "kur": {
+   "deger": "1679 (YIL) — BULUNAMADI (kaynakta doğrulanmadı)",
+   "kaynak": "Arama: Udskoy ostrog kuruluşu için kaynak bulunamadı (Vikipedi arama özetinde 1679 yok)",
+   "alinti": ""
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1679-01-01",
+    "t": "1917-03-15",
+    "hukum": "ONERI",
+    "kaynak": "Nerchinsk Antlaşması Md.1 (worldjpn, okundu); Айгунский договор, ru.wikisource.org/wiki/Айгунский_договор",
+    "alinti": "«the question of the jurisdiction over them is to remain open»",
+    "oneri": {},
+    "not": "Nerchinsk Uda ile dağ silsilesi arasındaki bölgeyi AÇIK bıraktı (okundu, KAYNAKLI) → 1689-09-07 – 1858 arası 'belirsiz sınırlı bölge' ic_not + BEYANLI YAKLAŞIKLIK: Qing idaresi kaynakta yok, Rus ostrogu sürdü → s: rusya kalır. Kuruluş günü/yılı doğrulanamadı: 1679 BULUNAMADI. Künye: belirsiz bölge için künye yok (LAB)."
+   }
+  ]
+ },
+ "Korsakov (Güney Sahalin)": {
+  "dosya_satir": "data/yerlesimler_ek13.js:208",
+  "kur": {
+   "deger": "1869 (Korsakovskiy post, YIL; Muravyovskiy post 1854 daha önce, 1855'te tahliye) — gün BULUNAMADI",
+   "kaynak": "Vikipedi 'Korsakov (town)' ve ermakvagus özeti (arama); karafuto.com Time Table (okundu: 1855 Rusya Ōtomari üssünü yıkmayı kabul etti)",
+   "alinti": "Russia also agreed to destroy its military base at Ōtomari"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "?",
+    "t": "1855-02-07",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Ōtomari/Aniva körfezi: Ainu yurdu; Edo bakufu/Matsumae iddiası (Ōtomari 17. yy kaydı doğrulanamadı)",
+    "alinti": "",
+    "oneri": {},
+    "not": "1855 öncesi Japon (edo-bakufu f=1603-03-24 t=1868-01-03) nominal ya da Ainu; kaynakla doğrulanmadı → BULUNAMADI. Kısa Muravyovskiy Rus üssü 1854-55 isg niteliğinde."
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1855-02-07",
+    "t": "1875-05-07",
+    "hukum": "KAYNAKLI",
+    "kaynak": "Симодский договор 1855, ru.wikisource.org/wiki/Симодский_договор_с_Японией_(1855)",
+    "alinti": "«остров Крафто (Сахалин) ... остается неразделенным между Россией и Японией»",
+    "oneri": {},
+    "not": "Şimoda imzası 26 Ocak 1855 OS = 7 Şubat 1855 Gregoryen (Ansei 1/12/21). Sahalin bütünüyle 'bölünmemiş' → künye yok (ortak). 1867 St.Petersburg Sözleşmesi (karafuto.com özeti) ortak idare. Rus Korsakovskiy karakolu 1869'dan; Japon Ōtomari Kaitakushi çekilişi günü BULUNAMADI."
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1875-05-07",
+    "t": "1905-09-05",
+    "hukum": "ONERI",
+    "kaynak": "Treaty of Saint Petersburg 1875 (MOFA 'Japanese Territory' özeti; sayfa 403 → tam metin okunamadı)",
+    "alinti": "dated May 7, 1875, ratified August 22, 1875",
+    "oneri": {},
+    "not": "TEK ÖLÇÜ: Rusya 1869'dan Korsakovskiy karakolunda fiilî idare kurmuştu ama Japon varlığı 1875'e dek sürdü → teslim günü (Japonların çekiliş günü) BULUNAMADI; imza 1875-05-07 beyanlı yaklaşıklık; yürürlük/ratifikasyon 1875-08-22 ic_not. 1905-09-05 Portsmouth bitişi bu tur bakılmadı (BAKILMADI)."
+   }
+  ]
+ },
+ "Aleksandrovsk (Kuzey Sahalin)": {
+  "dosya_satir": "data/yerlesimler_ek13.js:204",
+  "kur": {
+   "deger": "1862 (Aleksandrovskaya slobodka) / 1869 (katorga idaresi) / 1881 (Aleksandrovskiy post) — hangisi 'kuruluş' belirsiz; YIL düzeyi",
+   "kaynak": "dic.academic.ru city_of_russia/25 (okundu: 'в 1862 ... слободка Александровская'; 'с 1881 — пост Александровский'; katorga idaresi 1869)",
+   "alinti": "с 1881 — пост Александровский"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "?",
+    "t": "1855-02-07",
+    "hukum": "BULUNAMADI",
+    "kaynak": "Kuzey Sahalin Nivkh/Ainu yurdu; Qing haraç iddiası kaynakta okunmadı",
+    "alinti": "",
+    "oneri": {},
+    "not": "Bak: karafuto.com özeti, Şimoda metni."
+   },
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1855-02-07",
+    "t": "1875-05-07",
+    "hukum": "KAYNAKLI",
+    "kaynak": "Симодский договор 1855, ru.wikisource.org/wiki/Симодский_договор_с_Японией_(1855)",
+    "alinti": "«остров Крафто (Сахалин) ... остается неразделенным»",
+    "oneri": {},
+    "not": "Aleksandrovsk atlasta yalnız 1875'ten başlıyor: 1855-1875 delik/ortak bırakılmalı (Kuzey Sahalin bölge kaydıyla uyumlu)."
+   },
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1875-05-07",
+    "t": "1917-03-15",
+    "hukum": "ONERI",
+    "kaynak": "St. Petersburg Antlaşması 1875 (MOFA özeti); Aleksandrovsk: dic.academic city_of_russia",
+    "alinti": "dated May 7, 1875",
+    "oneri": {},
+    "not": "TEK ÖLÇÜ: Rusya kuzey Sahalin'de 1862'den beri fiilen yönetiyor (slobodka, katorga 1869) → imza 1875-05-07. Kuruluş 1862/1881 belirsiz: yerleşim 1862 öncesi yoksa 1855-1862 bölge komşuya. Kuzey Sahalin (bölge) kaydı (yerlesimler_a78_asya.js:470) zaten aynı uçlarla uyumlu."
+   }
+  ]
+ },
+ "Kuzey Sahalin (bölge)": {
+  "dosya_satir": "data/yerlesimler_a78_asya.js:470",
+  "kur": {
+   "deger": "bölge",
+   "kaynak": "",
+   "alinti": ""
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1281-01-01",
+    "t": "1875-05-07",
+    "hukum": "ONERI",
+    "kaynak": "Симодский договор 1855, ru.wikisource.org/wiki/Симодский_договор_с_Японией_(1855)",
+    "alinti": "«остров Крафто (Сахалин) ... остается неразделенным между Россией и Японией»",
+    "oneri": {
+     "f": "1855-02-07",
+     "not": "1855-02-07 ucu: ortak başlangıç"
+    },
+    "not": "Mevcut kaynak Amano makalesini (Eurasia Border Review 10(1)) anıyor; ben okumadım. Şimoda Md.2 doğrulandı → 1855-02-07 (OS 26 Ocak) ortak dönem başlangıcı, öncesi Ainu yurdu (beyan). Künye yok (LAB)."
+   }
+  ]
+ },
+ "Ohotsk": {
+  "dosya_satir": "data/yerlesimler_ek9.js:96",
+  "kur": {
+   "deger": "1647 (kış kulübesi, Semyon Şelkovnik) / 1649 (ostrog) — YIL; gün BULUNAMADI",
+   "kaynak": "Vikipedi 'Okhotsk' (arama özeti) — tek dayanak değil, teyit bekler",
+   "alinti": "in 1647 Semyon Selkovnik built winter quarters at Okhotsk and in 1649 a proper ostrog was built"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1647-01-01",
+    "t": "1917-03-15",
+    "hukum": "ONERI",
+    "kaynak": "Tek dayanak Vikipedi/ansiklopedik özet (kaynak kuralı: tek başına yetmez) — gün/yıl ONERI düzeyinde",
+    "alinti": "",
+    "oneri": {},
+    "not": "Atlas başlangıcı 1647 kış kulübesiyle uyumlu, ostrog 1649; yıl düzeyi. Ohotsk Nerchinsk'te Uda-denizi 'açık' bölgesinde ama Rus kontrolünde (okundu); Qing idare kaynağı yok → s: rusya korunur. Künye rusya f=1547 kapsıyor."
+   }
+  ]
+ },
+ "Nerçinsk": {
+  "dosya_satir": "data/yerlesimler_ek9.js:109",
+  "kur": {
+   "deger": "1653 (Beketov?) / 1654 / 1658 (Paşkov) — ÇELİŞKİLİ; YIL belirsiz",
+   "kaynak": "Vikipedi 'Nerchinsk' (Lee & Lukin 2016 p.29 atfı): infobox 1653, gövde 1654 kale, 1658 Paşkov — tek dayanak değil",
+   "alinti": "The fort of Nerchinsk dates from 1654"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "rusya",
+    "f": "1653-01-01",
+    "t": "1917-03-15",
+    "hukum": "ONERI",
+    "kaynak": "Tek dayanak Vikipedi/ansiklopedik özet (kaynak kuralı: tek başına yetmez) — gün/yıl ONERI düzeyinde",
+    "alinti": "",
+    "oneri": {},
+    "not": "Kuruluş yılı kaynaklar arasında 1653/1654/1658 çelişkili: akademik kaynak (Mancall 1971; Lee & Lukin 2016) açılarak karar verilmeli → BAKILMADI (bütçe). Nerchinsk Antlaşması'nın imza yeri; Rus nüshası 27 Ağustos 1689 OS."
+   }
+  ]
+ },
+ "Aigun": {
+  "dosya_satir": "data/yerlesimler_asya.js:2764",
+  "kur": {
+   "deger": "1683 (Qing birlikleri bölgeye yerleşti) / 1685 (şehir inşası) — YIL",
+   "kaynak": "Vikipedi 'Aihui District' (atıf: 爱辉区历史沿革, xzqh.org 2013) — tek dayanak değil",
+   "alinti": "Qing forces were stationed in the area in 1683; city built in 1685"
+  },
+  "donemler": [
+   {
+    "alan": "s",
+    "d": "qing-hanedani",
+    "f": "1683-01-01",
+    "t": "1912-02-12",
+    "hukum": "ONERI",
+    "kaynak": "Tek dayanak Vikipedi/ansiklopedik özet (kaynak kuralı: tek başına yetmez) — gün/yıl ONERI düzeyinde (Çince bölge tarihçesi atfı)",
+    "alinti": "",
+    "oneri": {},
+    "not": "1683 garnizon / 1685 şehir: atlas kur 1683 yıl düzeyinde uyumlu. Aigun, Rus Md.1 sol yaka ayrımında Qing'de kalan sağ yaka (Aigun antlaşma yeri; 28 Mayıs 1858). Künye qing f=1616, t=1912-02-12 kapsıyor. Mevcut kaynak (Qing fermanı) bitişi KAYNAKLI; başlangıç 1683 için ayrı kaynak yok."
+   }
+  ]
+ }
+}

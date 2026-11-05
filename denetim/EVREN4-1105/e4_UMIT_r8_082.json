@@ -1,0 +1,236 @@
+{
+ "Concepción (Chiquitos)": [
+  {
+   "sira": 3707,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1707-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "kaynak": "UNESCO WHC 529 (whc.unesco.org/en/list/529) yalniz 1696-1760 araligi verir; en.wikipedia 'Concepcion, Santa Cruz' 1699 verir.",
+   "alinti": "Concepción was founded in 1699 by Jesuits Francisco Lucas Caballero and Francisco Hervás.",
+   "uc": "f",
+   "oneri": {
+    "f": "1699-01-01 (YIL, akademik teyit bekler)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): f_geri 1707 → 1699 KOŞULLU (Furlong/Hans Roth/Tonelli teyidi; 1704-1709 ayrı soru). UYGULAMA: akademik teyit şart (atlası daraltan f ileri kayması zayıf kaynakla yalnız öneri). · Vikipedi tek dayanak olamaz; ONERI-guclu ipucu. UNESCO Concepcion'a ozgu yil VERMIYOR. Arama ozetleri: 1699 kurulus, 1704 terk, 1709 yeniden kurulus (briftekı 1709), listede 1707/1708/1722 de geciyor; kaynaklar celisik. Atlas 1707 hicbiriyle birebir tutmuyor. Furlong/Hans Roth/Tonelli ile teyit edilmeden f oynatilmamali. 1699'a cekilirse F-GERI (sahip ispanya kunyesi f 1479 kapsar; Charcas/Peru valiligi beyani). 1704-1709 bosluk sorusu ayrica."
+  },
+  {
+   "sira": 3708,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "UNESCO WHC 529 bakildi: 1767 surgunden sonra misyon surdu, 1825 gecisi yok.",
+   "alinti": "",
+   "uc": "t",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): f_geri 1707 → 1699 KOŞULLU (Furlong/Hans Roth/Tonelli teyidi; 1704-1709 ayrı soru). UYGULAMA: akademik teyit şart (atlası daraltan f ileri kayması zayıf kaynakla yalnız öneri). · Chiquitos'un Bolivya'ya gecisi kunye f 1825-08-06 ile ayni; yerlesime ozgu kaynak bulunamadi (UNESCO 529, en.wikipedia). t 2000-12-31 pencere ucu."
+  }
+ ],
+ "San Ignacio de Zamucos": [
+  {
+   "sira": 3709,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1741-01-01",
+   "t": "1825-08-06",
+   "hukum": "ONERI",
+   "kaynak": "es.wikipedia 'San Ignacio de Zamucos' (dipnot 2 var, dipnot okunmadi)",
+   "alinti": "San Ignacio de Zamucos fue fundada ... en el año 1724 por el religioso jesuita Agustín Castañares",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1724-01-01 (YIL)",
+    "t": "1745-01-01 (YIL, terk)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): 1724 → 1745, sonra kırp; f_geri ONERI-güçlü. · Vikipedi tek dayanak olamaz; ONERI-guclu ipucu. Ayni sayfa: 'fue abandonada en 1745'. Terk sonrasi despoblado: dilim t 1745'e kirpilmali (YOK_O_DEVIRDE). F-GERI: San Ignacio de Zamucos 1741 -> 1724, sahip ispanya (kunye f 1479 kapsar; Charcas/Peru valiligi beyani). Atlas f 1741'in dayanagi bilinmiyor. Akademik kaynak (Furlong, Chaco Cizvit monografileri) bulunamadi."
+  },
+  {
+   "sira": 3710,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bolivya-cumhuriyeti",
+   "f": "1825-08-06",
+   "t": "1923-10-29",
+   "hukum": "ONERI",
+   "kaynak": "es.wikipedia (yukaridaki satir)",
+   "alinti": "fue abandonada en 1745",
+   "uc": "t",
+   "oneri": {
+    "not": "dilim SIL; yer 1745'te terk"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): 1724 → 1745, sonra kırp; f_geri ONERI-güçlü. · Yer 1745'te terk edilmis despoblado (Wikipedia); 1825-1923 Bolivya dilimi var olmayan yerlesimi boyar. Beyanli kirpma onerilir; akademik teyit bulunamadi. t 1923-10-29'un dayanagi bilinmiyor."
+  }
+ ],
+ "São Fidélis (Paraíba do Sul)": [
+  {
+   "sira": 3711,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-brezilyasi",
+   "f": "1776-01-01",
+   "t": "1822-09-07",
+   "hukum": "ONERI",
+   "kaynak": "pt.wikipedia 'Sao Fidelis' (dipnotta Palazzolo 1963, Convento dos Padres Capuchinhos); IBGE PDF 404, cidades.ibge 403",
+   "alinti": "A chegada desses missionários àquela região data de 1781",
+   "uc": "f",
+   "oneri": {
+    "f": "1781-09-27 (kurulus, ficha alani; vila 1850-04-19 ve emancipacao 1870-12-03 ic_not)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): f ileri 1776 → 1781-09-27 ONERI-güçlü. UYGULAMA: akademik teyit şart (atlası daraltan f ileri kayması zayıf kaynakla yalnız öneri). · Vikipedi tek dayanak olamaz; ONERI-guclu ipucu. Atlas f 1776 kurulustan ONCE: f ILERI itilmeli (f_geri degil). Yil ham metinden, gun ficha alanindan. IBGE historico okunamadi. UYARI: t 1822-09-07 sonrasi Brezilya Imparatorlugu dilimi bu partide yok; baska satirda degilse Degismez 1 (sahipsizlik) sorusu - olculmedi."
+  }
+ ],
+ "Tacuatí (Ypané)": [
+  {
+   "sira": 3714,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1788-01-01",
+   "t": "1811-05-14",
+   "hukum": "ONERI",
+   "kaynak": "es.wikipedia 'Tacuati'",
+   "alinti": "Tacuati fue fundada oficialmente por los españoles ... en el año 1799, por Fray Marcos Mancuello",
+   "uc": "f",
+   "oneri": {
+    "f": "1799-09-24 (resmi kurulus, ficha alani)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): f ileri 1788 → 1799-09-24 ONERI-güçlü. UYGULAMA: akademik teyit şart (atlası daraltan f ileri kayması zayıf kaynakla yalnız öneri). · Vikipedi tek dayanak olamaz; ONERI-guclu ipucu. Atlas 1788'i destekleyen kaynak bulunamadi; 1788 baska bir olaya (misyon/iskan) dayaniyorsa kanit yok. Akademik kaynak (Paraguay, Scielo) BAKILMADI. Sahip: Paraguay Eyaleti, 1776-08-01'den Rio de la Plata valiligi (kunye rio-de-la-plata-valiligi f 1776-01-01 t 1810-05-25); atlas 'ispanya' kullaniyor, kunye tercihi LAB'a."
+  },
+  {
+   "sira": 3715,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "paraguay-cumhuriyeti",
+   "f": "1811-05-14",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "es.wikipedia 'Tacuati' bakildi",
+   "alinti": "",
+   "uc": "t",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): f ileri 1788 → 1799-09-24 ONERI-güçlü. UYGULAMA: akademik teyit şart (atlası daraltan f ileri kayması zayıf kaynakla yalnız öneri). · Yerlesime ozgu 1811 teyidi yok; ulke duzeyi (kunye) ile ayni. Yerlesim kaynagi bulunamadi."
+  }
+ ],
+ "Ciudad Real del Guairá": [
+  {
+   "sira": 3716,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1554-01-01",
+   "t": "1632-01-01",
+   "hukum": "ONERI",
+   "kaynak": "WebSearch ozeti (hispanopedia/kiddle 'Guayra', parana.pr.gov.br, periodicos.usp.br revmae 109218); USP PDF ham okunamadi",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": {
+    "f": "1556-01-01 (Melgarejo; bir kaynak 1557); 1554 Ontiveros'un kurulusu",
+    "t": "1632 yil duzeyinde uyumlu (1631-32 bandeirante tahribi)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): f ileri 1554 → 1556/57 ONERI-güçlü. UYGULAMA: akademik teyit şart (atlası daraltan f ileri kayması zayıf kaynakla yalnız öneri). · HAM METIN ALINTI YOK -> ONERI. Ozetlere gore Ontiveros 1554 (Vergara), Ciudad Real 1556/57, bandeirantes 1631-1632 (bir kaynak 1638). Atlas f 1554 Ontiveros ile karisik: f ILERI. Akademik dogrulama bekliyor."
+  }
+ ],
+ "San Esteban de Miraflores": [
+  {
+   "sira": 3717,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1714-01-01",
+   "t": "1810-05-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "WebSearch ozeti (Folia Historica del Nordeste Neziz 2025; unsta itinerantes; Dialnet 8919161) - ham okunmadi",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "Ozet: Lule reduccion'u, Salta yargi alani (Tucuman), 1711-13 Urizar seferleri, 1714 kurulus, '1714-1728 ve 1752 sonrasi'. 1728-1752 terk boslugu arastirilmali. Salta 1776'dan Rio de la Plata valiligi. Ham metin yok; BAKILMADI."
+  },
+  {
+   "sira": 3718,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "-",
+   "alinti": "",
+   "uc": "t",
+   "oneri": {},
+   "not": "Butce/erisim nedeniyle bakilmadi. Salta'nin 1810 Mayis Devrimi'ne baglanisi ulke duzeyi."
+  }
+ ],
+ "San Fernando (Resistencia)": [
+  {
+   "sira": 3719,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1750-01-01",
+   "t": "1810-05-25",
+   "hukum": "ONERI",
+   "kaynak": "Salinas, M. L. (2009), San Fernando del Rio Negro: un intento evangelizador jesuitico a los Abipones, Dialogos (Maringa), repositorio.unne.edu.ar/items/66985a0e-45ca-40e6-b1ed-7ccc10c77ee9",
+   "alinti": "Sus orígenes datan de 1750 en el actual territorio de la ciudad argentina de Resistencia",
+   "uc": "f",
+   "oneri": {
+    "t": "1767-08 (Cizvit surgunu; Salinas: envanterler Agustos 1767); Britannica terk 1773 - celiski ic_not'ta"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): Merdiven ④: 1767'de kırp (sürgün/terk); yeniden kuruluş ayrı dilim (1878, kaynakla). · f=1750 YIL KAYNAKLI (hakemli dergi ozeti, ham metin). t icin ONERI: reduccion 1767'de bitti, 1810'a kadar yerlesim yok; atlas t 1810 hayalet. Resistencia 1878 yeniden kurulus ayri dilim (hispanopedia/Presidencia ozet; Avalos 1872, koloni 1875). Sahip 1776-08-01'den rio-de-la-plata-valiligi (atlas ispanya)."
+  },
+  {
+   "sira": 3720,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Britannica 'Resistencia', hispanopedia, argentina.gob.ar (WebSearch ozeti)",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {
+    "f": "1878 (Resistencia kurulusu, yil); 1810-1878 yerlesim yok, kirpma"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_082/085): Merdiven ④: 1767'de kırp (sürgün/terk); yeniden kuruluş ayrı dilim (1878, kaynakla). · HAM METIN YOK -> ONERI. 1767/1773'te terk; yeniden iskan 1870'ler. Dilim f 1810 hayalet: Chaco o devirde yerli denetiminde."
+  }
+ ],
+ "San Jerónimo (Reconquista)": [
+  {
+   "sira": 3721,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1748-01-01",
+   "t": "1810-05-25",
+   "hukum": "ONERI",
+   "kaynak": "es.wikipedia 'Reconquista (Santa Fe)' (ham metin); Levaggi notu/Dialnet 1748-10-01 (WebSearch ozeti, ham dogrulanmadi)",
+   "alinti": "lugar donde los Jesuitas habían fundado en 1748 la Reducción de San Jerónimo del Rey",
+   "uc": "f",
+   "oneri": {
+    "f": "1748 yil duzeyinde uyumlu; gun 1748-10-01 (Vera Mujica) ozetten"
+   },
+   "not": "Vikipedi tek dayanak olamaz; ONERI-guclu ipucu. Reduccion ardisik tasinmalar gecirdi, 1825'te El Sauce'ye nakil (ozet). Atlas t 1810 surekliligi kanitsiz. Akademik kaynak (Dialnet) ham okunamadi. Santa Fe 1776'dan Rio de la Plata valiligi."
+  },
+  {
+   "sira": 3722,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "arjantin-cumhuriyeti",
+   "f": "1810-05-25",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "es.wikipedia 'Reconquista (Santa Fe)' (ham metin)",
+   "alinti": "La ciudad de Reconquista fue fundada el 27 de abril de 1872",
+   "uc": "f",
+   "oneri": {
+    "f": "1872-04-27 (Reconquista kurulusu; 22 Kasim 1872 Iriondo karari ic_not)"
+   },
+   "not": "Vikipedi tek dayanak olamaz; ONERI-guclu ipucu. 1810-1872 arasi eski yer Chaco sinirinda yerli denetiminde; dilim f 1810 hayalet olabilir; surekliligi gosteren akademik kaynak bulunamadi."
+  }
+ ]
+}

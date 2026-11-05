@@ -1,0 +1,106 @@
+{
+ "desenler": [
+  {
+   "guc": "Rusya (Türkistan Genel Valiliği)",
+   "bolge": "Taşkent 1865, Hucend 1866, Türkistan/Yesi 1864, Andican 1876 (Hokand Hanlığı toprakları)",
+   "donem": "fetih → idareye katma",
+   "hukum": "BULUNAMADI",
+   "olcut": "Taşkent/Hucend/Türkistan: idareye katma günü kaynakta bulunamadı (TDV yalnız 'Haziran 1865 işgal; 1867'de kurulan Türkistan Genel Gubernatörlüğü merkezi' diyor; 1867-07-11 tüzük belgesi okunamadı) → mevcut veri kalır. Andican: TDV ilhak + valiliğe bağlama belgesi var ama Şubat 1876 (AY), gün yok → s-fetihten kısmen (ay hassasiyeti).",
+   "kaynak": "TDV İslâm Ansiklopedisi, Taşkent ve Hokand Hanlığı; Schuyler, Turkistan (1876) [19. yy kaynağı], archive.org turkistannotes02schu",
+   "alinti": "Hokand, Fergana eyaleti adıyla Rusya'ya ilhak edilerek Türkistan genel valiliğine bağlandı (Şubat 1876)",
+   "ayrıntı": {
+    "Taşkent": "TDV: 'Haziran 1865'te ... işgal edilen Taşkent ... 1867'de kurulan Türkistan Genel Gubernatörlüğü'nün merkezi yapıldı.' İdareye katma günü TDV'de yok; Schuyler 'new province of Turkistan' Bakanlar Komitesi raporu 30 Haziran (12 Temmuz) 1867. Schuyler ayrıca Taşkent/Hucend'de pazar gelirlerinin (zekat) hâlâ özel kişilere/vakıflara ait olduğunu söyler (vergi alınmaması = katmanın tamamlanmadığına zayıf işaret; teyit değil). 1867-07-11 tüzüğü bu turda okunamadı → 1867 yılı, gün BULUNAMADI. Mevcut atlas verisi (rusya 1865-06-17) kalır; isg önerisi için kanıt yok.",
+    "Hucend": "TDV Hokand: 1866'da Hucend ve Cizak alındı. Katma belgesi yok → BULUNAMADI. (Hucend satırı yeniden_sina.json'da yok.)",
+    "Türkistan (Yesi)": "Satır önerisi isg 1864→1867. 1864 fetih için idareye katma belgesi bulunamadı; Genel Valilik 1867 yıl düzeyi. Mevcut veri kalır.",
+    "Andican": "TDV Hokand: 8 Ocak 1876 Andican işgal; aynı yıl Fergana eyaleti adıyla ilhak, Türkistan Genel Valiliği'ne bağlandı (Şubat 1876). Antlaşmaya dayalı ilhak (Nasırüddin ile). Ölçüt: idareye katma — valiliğe bağlama. Andican yerleşim satırı yeniden_sina.json'da yok; yalnız bilgi.",
+    "Almalık": "Almalık Kuldja/İli bölgesi, Rus işgali 1871. Schuyler: 'province is only held temporarily by the Russians, who have promised to restore it to China' → ölçüt geçici/askerî (Rus beyanı). Öneri isg 1871-07-04 → 1881-82 uygun: hüküm isg-kalir (satır önerisiyle uyumlu). Bitiş yılı 1883 (YIL) için Petersburg Antlaşması 1881-02-24 / boşaltma 1882-83 kaynağı bu turda okunmadı."
+   },
+   "hukum_satir": {
+    "Taşkent": "BULUNAMADI",
+    "Türkistan (Yesi)": "BULUNAMADI",
+    "Almalık (Almalığ)": "isg-kalir"
+   },
+   "satirlar": [
+    "Taşkent · yerlesimler_ek15.js:81",
+    "Türkistan (Yesi) · yerlesimler_ek15.js:133",
+    "Almalık (Almalığ) · yerlesimler_ortaasya3.js:220-221"
+   ]
+  },
+  {
+   "guc": "Rusya (Petro I Hazar seferi)",
+   "bolge": "Derbend 1722, Bakü 1723, Reşt/Gilan 1723-32",
+   "donem": "fetih 1722-23 → Gence Antlaşması 1735",
+   "hukum": "isg-kalir",
+   "olcut": "geçici/askerî — Iranica Bakü: 'temporary Russian occupation'; kesin Rus ilhakı ancak 1806 (Gülistan 1813 onayı). Rus vilayeti/idare belgesi (vali, vergi, tahrir) hiçbir kaynakta bulunamadı. Reşt: 1732 Reşt Antlaşması iadesi kaynakta okunamadı → Reşt BULUNAMADI.",
+   "kaynak": "Encyclopaedia Iranica, Baku i. General (iranicaonline.org/articles/baku-i); TDV İslâm Ansiklopedisi, Derbend (derbend--dagistan) ve Bakü",
+   "alinti": "An expedition led by Peter the Great in 1723 led to a temporary Russian occupation of Baku",
+   "ayrıntı": {
+    "Derbend": "TDV: Petro 1722 Ağustos işgal; 12 Eylül 1723 Petersburg antlaşmasıyla Derbend, Bakü ve Hazar güney kıyıları Rusya'ya bırakıldı; 1735 Gence Antlaşması ile İran'a verildi. TDV 'Rusların idaresi altına girdi' der ama vali/vergi belgesi vermez. Antlaşma günü ölçüt değil; idareye katma belgesi yok → isg kalır. Satır önerisi (isg rusya 1723-09-12 → 1735-03-21; 1722-09-03 fetih ucu atlasta) ile uyumlu; fetih günü TDV'de yalnız ay (Ağustos 1722), atlas 1722-09-03 yazıyor: BEYAN. Gün kaynak teyidi bu turda yok.",
+    "Bakü": "TDV Bakü: '1723'te I. Petro tarafından Rus topraklarına katıldı' (ifade ilhak der ama idare belgesi yok); Iranica: temporary occupation, 1735 Gence'de sona erdi. TDV-Iranica çelişkisi beyan: Iranica geçici işgal, TDV katıldı. Hüküm isg-kalir (ÇİFT-TDV kuralı değil, üçüncü kaynak Iranica esas).",
+    "Reşt": "Iranica Gilan III ve TDV Gilan/Azerbaycan'da Rus idaresi/Rest 1732 teslimi okunmadı; satır yeniden_sina.json'da yok. BULUNAMADI.",
+    "Gence 1735": "TDV Derbend: 1735 Gence Antlaşması ile Derbend, Bakü ve Hazar kıyıları İran'a iade; gün TDV'de yok (atlasta 1735-03-21 mevcut)."
+   },
+   "satirlar": [
+    "Bakü · yerlesimler.js:815",
+    "Derbend · yerlesimler.js:817"
+   ]
+  },
+  {
+   "guc": "Fransa (Saygon, Gia Định)",
+   "bolge": "Saygon 1859-1862 (Fransız-İspanyol Kochinçin seferi)",
+   "donem": "fetih 1859-02-17 → Saygon Antlaşması 1862-06-05",
+   "hukum": "BULUNAMADI",
+   "olcut": "TDV'de Saygon/Vietnam maddesi yok (tdv-ara boş); archive.org'da Fransız idaresi (vali, vergi, inspecteur des affaires indigènes) belgesi okunabilir kaynak bulunamadı: 'Les expéditions de Chine et de Cochinchine' (1861) yalnız 1858 Turan'a kadar; 'Livre d'or du Cambodge...' 401 erişilemedi. Mevcut atlas verisi kalır.",
+   "kaynak": "TDV (madde yok); archive.org lesexpditionsde00bazagoog (okundu, ilgili cümle yok); livredorducambod0000breb (401)",
+   "alinti": "",
+   "not": "Hukukî devir 1862-06-05 koordinatör notu; idareye katma belgesi yok → isg önerisi (1859-02-17 → 1862) ne desteklendi ne reddedildi. Not: Saygon fiilen 1859-02-17'den sonra Fransız garnizonuyla tutuldu, 1859-1860 arası Çin seferi nedeniyle terk-yakın küçülmüş (kaynak okunmadı, varsayım değil). Gün: kaynak okunamadı.",
+   "satirlar": [
+    "Saygon (Gia Định) · yerlesimler_asya.js:3966"
+   ]
+  },
+  {
+   "guc": "Fransa (Cumhuriyet, Bonaparte İtalya Ordusu)",
+   "bolge": "Verona 1796-06-01 → ; Venedik 1797-05-12 → Campo Formio 1797-10-17",
+   "donem": "Fransız işgali → Avusturya'ya devir (Verona: Ocak 1798 teslim; Campo Formio 1797-10-17)",
+   "hukum": "isg-kalir",
+   "olcut": "geçici/askerî — Treccani (Enc. Italiana) Verona: Fransızlar tarafsızlığa rağmen 1 Haziran 1796'da girdi, 'ruberie e prepotenze', yağma/tazminat; Pasque Veronesi ayaklanması bastırıldı; şehir Ocak 1798'de Avusturyalılara teslim edildi. Fransız idareye katma (vali, vergi sistemi, defter) belgesi yok. Venedik: Treccani 'regime democratico' (kendi yönetimi) Campoformio'da Avusturya'ya devredildi; Fransız ilhakı/idareye katma yok.",
+   "kaynak": "Treccani, Enciclopedia Italiana, Verona (treccani.it/enciclopedia/verona_(Enciclopedia-Italiana)); Treccani Venezia (treccani.it/enciclopedia/venezia ve venezia_(Enciclopedia-Italiana))",
+   "alinti": "Il 1° giugno 1796 l'ingresso in Verona dei Francesi del Bonaparte, malgrado la neutralità veneta",
+   "ayrıntı": {
+    "Verona": "Gün: Fransız girişi 1796-06-01 (Treccani); Austurya'ya teslim 'gennaio 1798' (AY, gün yok); atlas Verona satırında venedik 1405-06-22 → 1797-05-12. Fransız dönemi için idare belgesi yok; Treccani 1796-97'yi işgal/yağma olarak anlatır → isg-kalir. Atlasın venedik sonu 1797-05-12 ve Campo Formio 1797-10-17 devri ile Verona'nın fiilî teslimi Ocak 1798 arasındaki fark BEYAN: devir günü Campo Formio kullanılırken Avusturya fiilen Ocak 1798'de aldı.",
+    "Venedik": "Treccani: 'fatuo regime democratico immolato a Campoformio'. Venedik'te Fransız ilhakı değil, Fransız himayesinde Municipalità provvisoria; Fransız askerî varlığı geçici. Hüküm: Venedik'te Fransız idareye katması BULUNAMADI, mevcut fransa-cumhuriyet/isg önerisi ölçüt gereği isg-kalir. Egemen olarak 'Venedik Demokratik Cumhuriyeti' künyesi atlasta var mı: ölçülmedi."
+   },
+   "satirlar": [
+    "Venedik · yerlesimler.js:1193",
+    "Verona · yerlesimler_avrupa.js:472"
+   ]
+  },
+  {
+   "guc": "Rusya (1877-78 Savaşı)",
+   "bolge": "Artvin (Batum sancağı, elviye-i selâse; elviye kuralı ayrı)",
+   "donem": "Ayastefanos 1878-03-03 → Berlin 1878-07-13",
+   "hukum": "BULUNAMADI",
+   "olcut": "TDV Artvin: Ayastefanos'ta (1878-03-03) Batum/Kars/Ardahan terkediliyordu; Artvin 13 Temmuz 1878 Berlin Antlaşması m.58 ile Rusya'ya bırakıldı; Rus idaresinde Kars oblastına bağlandı (tarih yok). Ayastefanos ile Berlin arası Rus idareye katma (vali, vergi, defter) belgesi YOK; geçici/askerî belge de yok. Antlaşma yalnız belirleyici; hukukî devir günü Berlin 13 Temmuz 1878 (TDV). Mevcut atlas verisi (rusya 1878-03-03) için kaynak desteği yok: Ayastefanos Berlin'de yürürlükten kalktı; ancak 'isg' kararı da belgelenemedi → BULUNAMADI.",
+   "kaynak": "TDV İslâm Ansiklopedisi, Artvin (islamansiklopedisi.org.tr/artvin); TDV Kars",
+   "alinti": "13 Temmuz 1878 tarihli Berlin Antlaşması'nın 58. maddesine göre ... Artvin, Kars ve Ardahan ile beraber Rusya'ya bırakıldı",
+   "not": "Elviye-i selâse kuralı (Brest-Litovsk 1918) ayrı tutuldu. TDV Kars: Ruslar Kars'ı Zakafkasya genel valiliğine bağlı vilâyet yaptı (tarih yok). Rus işgal/ilk giriş günü TDV'de yok.",
+   "satirlar": [
+    "Artvin · yerlesimler_ek27.js:37 (rusya 1878-03-03 → 1917-03-15)",
+    "Artvin · yerlesimler_ek27.js:37 (OSMANLI → 1878-03-03)"
+   ]
+  },
+  {
+   "guc": "Fransa (XI. Louis)",
+   "bolge": "Dijon / Burgonya Dükalığı 1477",
+   "donem": "Şarl'ın ölümü 1477-01-05 → Arras 1482-12-23 (ve sonrası)",
+   "hukum": "BULUNAMADI",
+   "olcut": "İdareye katma belgesi kısmen: Scoble (ed., Commynes Memoirs, 1855/1892; 19. yy editör notu) Burgonya'da kralın valileri sırasıyla Craon (G. de la Trémoille, kralî lieutenant) ve ardından Charles d'Amboise (Chaumont) olduğunu, eyaleti 'kendi malı gibi' yönettiğini yazar = kendi valisi (idareye katma işareti), ama 1477 sonu/1478 başı; Dijon girişi (Ocak 1477), Estates teslimi (1477-01-29) ve 1477-03-18 günleri için akademik kaynak (Chevanne 1930, NCMH VII, Vaughan, Paravicini) erişilemedi (CMH VIII djvu 1875 bayt, Kendall 1970 kilitli). isg 1477-03-18 önerisi ne desteklenir ne reddedilir.",
+   "kaynak": "Commynes, Memoirs (Scoble ed., Bohn 1855), archive.org memoirsofphilipd01commiala, Life of Commines s.XXV-XXVI; Cambridge Medieval History VIII (erişilemedi)",
+   "alinti": "Craon recalled ... succeeded by Charles d'Amboise, Lord of Chaumont ... as if it were his own estate",
+   "not": "Mevcut 1477-01-05 KALIR; '[giriş günü teyitsiz; Şarl'ın ölümü]' beyanı korunur. Akademik kaynak hâlâ bekleniyor (koordinatör tarayıcı kuyruğu). Commynes/Scoble tek başına akademik teyit değildir (19. yy editör notu); sonuç 'kısmi işaret' olarak raporlandı, hüküm BULUNAMADI.",
+   "satirlar": [
+    "Dijon · yerlesimler_avrupa.js:214"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1100 @@
+{
+ "desenler": [
+  {
+   "ara_kunye": "fransa-cumhuriyet (Ilirya Eyaletleri); once=avusturya/macaristan-habsburg",
+   "donem": "1809-10/1813-01 (Karintiya-Kranjska-Gorz-Trieste-Hirvat Sinir)",
+   "bolge": "Ljubljana, Gorz, Villach, Tarvis, Trieste; Sisak, Kostajnica, Udbina, Gospic, Cetin",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Schoenbrunn 1809'da Avusturya'nin devri + 10 intendantura (1809) ile Fransiz idari bolumu; 1811-04-15 kararnamesiyle 6 sivil + 1 askeri il",
+   "kaynak": "Hrvatska enciklopedija, 'Ilirske pokrajine' (https://www.enciklopedija.hr/clanak/ilirske-pokrajine)",
+   "alinti": "Isprva organizirane unutar 10 intendantura (1809), dekretom od 15. IV. 1811. ... 6 civilnih pokrajina",
+   "etkilenen": 12,
+   "ornek_yerler": [
+    "Ljubljana",
+    "Gorz (Gorizia)",
+    "Villach",
+    "Tarvis",
+    "Trieste",
+    "Sisak",
+    "Kostajnica",
+    "Udbina",
+    "Gospic",
+    "Cetin"
+   ],
+   "not": "Antlasma (Schoenbrunn, 1809-10-14) gunu = devir; s: bu gunden. ic_not: Dalmaçya/Dubrovnik/Istria eklenmesi ayri. Gun hassasiyeti: kaynak yalniz yil (1809) ve 1811-04-15 veriyor; kesin devir gunu Schoenbrunn 1809-10-14 (antlasma, bu kaynakta gun yok) — gun icin ikinci kaynak sart. Askeri Sinir (Hirvat) 1809'da Ilirya'ya katildi."
+  },
+  {
+   "ara_kunye": "sur-hanedani",
+   "donem": "1540-05/1555-07",
+   "bolge": "Delhi, Agra, Mathura, Meerut + 18 Kuzey Hindistan yerlesimi (babur-imparatorlugu -> sur-hanedani -> babur-imparatorlugu)",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "idareye katma — rakip hanedan: Suriler Delhi Sultanligi'ni kendi hanedani olarak yonetti (Bihar/Patna merkez), Humayun Iran'a siginmisti; iki taraf da kendini mesru sahip saydi, isg degil",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Suriler' (c.37, s.541-542) https://islamansiklopedisi.org.tr/suriler ; 'Sir Sah'",
+   "alinti": "Böylece Sûrîler’in Delhi’deki hâkimiyeti sona erdi (4 Ramazan 962 / 23 Temmuz 1555)",
+   "etkilenen": 22,
+   "ornek_yerler": [
+    "Delhi",
+    "Agra",
+    "Mathura",
+    "Mirat (Meerut)"
+   ],
+   "not": "Rakip yonetim: s-kalir. TDV: Sir Sah Kannavc savasi 17 Mayis 1540 sonrasi Delhi hakimi; Humayun 1555-07-23'te Delhi'ye girdi. Atlas uclari (1540-05 / 1555-07) TDV ile uyumlu; gun duzeyinde 1540-05-17 ve 1555-07-23."
+  },
+  {
+   "ara_kunye": "mehdi (Mehdi devleti)",
+   "donem": "1883-12/1898-09",
+   "bolge": "Darfur, El-Fasir, Nyala, Cenine + 11 Darfur yerlesimi (darfur -> mehdi -> darfur)",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "idareye katma — ULKE DUZEYI: Mehdi devleti hazine kurmus, vergi tarh etmis, zekat memuru atamis, para bastirmis (TDV); Darfur'a ozgu belge bulunmadi",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Muhammed Ahmed el-Mehdi' https://islamansiklopedisi.org.tr/muhammed-ahmed-el-mehdi ; Slatin, Fire and Sword in the Sudan (1896) Darfur'un dusus bolumu",
+   "alinti": "hazine idaresini kurmus, vergiler tarh etmiş, zekât toplamak için memurlar tayin etmiştir",
+   "etkilenen": 15,
+   "ornek_yerler": [
+    "Darfur",
+    "El-Fasir",
+    "Nyala",
+    "Cenine"
+   ],
+   "not": "ULKE DUZEYI beyani: Mehdi devletinin genel idareye katma ozelligi TDV'de; Darfur'a ozgu gun/vergi belgesi okunmadi. Rakip yonetim (Darfur Sultanligi 1898'de Ali Dinar ile yeniden). Darfur'un kendi ayri teyidi onerilir. KASA beyanli yaklasiklik yazar."
+  },
+  {
+   "ara_kunye": "fransa-cumhuriyet (toskana->fransa->toskana)",
+   "donem": "1807-12/1814-09",
+   "bolge": "Floransa, Siena, Pisa",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Fontainebleau 1807 ile Fransiz Imparatorlugu'na ilhak; Elisa Baciocchi idaresi, reformlar",
+   "kaynak": "Treccani, 'Toscana' (https://www.treccani.it/enciclopedia/toscana/)",
+   "alinti": "Con il trattato di Fontainebleau del 1807 fu annessa all’Impero francese",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Floransa",
+    "Siena",
+    "Pisa"
+   ],
+   "not": "Treccani yalniz yil veriyor (1807); gun yok. Atlas 1807-12 ucu icin Fontainebleau 1807-10-27 / ilhak senatus-consultum 1808 gunu ikinci kaynakla aranmali. Ilhak YIL DUZEYI teyitli -> s. Gun teyitsiz."
+  },
+  {
+   "ara_kunye": "fransa-cumhuriyet (parma->fransa->parma)",
+   "donem": "1802-10/1814-04",
+   "bolge": "Parma, Piacenza",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Fransiz idaresi 1802-14 kendi arsiv fonuyla (Treccani devlet arsivi kaydi)",
+   "kaynak": "Treccani, 'Parma' (https://www.treccani.it/enciclopedia/parma/)",
+   "alinti": "fondo ... borbonico (1749-1802), francese (1802-14)",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Parma",
+    "Piacenza"
+   ],
+   "not": "Dayanak zayif (arsiv fonlari bolumu): Fransiz idaresi 1802-14 kendi defter/arsivini olusturdu. Ilhak kararname gunu bulunamadi; yalniz yil duzeyi. Beyanli yaklasiklik."
+  },
+  {
+   "ara_kunye": "avusturya (Salzburg)",
+   "donem": "1805-12/1809-10",
+   "bolge": "Salzburg",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Pressburg 1805 devri; Avusturya idaresi 1805-09",
+   "kaynak": "Treccani, 'Salisburgo' (https://www.treccani.it/enciclopedia/salisburgo/)",
+   "alinti": "Nel 1805 S. passò all’Austria, quindi (1809) alla Baviera",
+   "etkilenen": 1,
+   "ornek_yerler": [
+    "Salzburg"
+   ],
+   "not": "Yil teyitli (1805, 1809). Not: Treccani Salzburg'un 1803-05 arasi Toskana Buyukdukasi Ferdinand III'e verildigini (Luneville 1802) soyluyor — atlasin 1803-02/1805-12 'almanya' kaydi ayrica dogrulanmali."
+  },
+  {
+   "ara_kunye": "avusturya (Brixen/Bressanone)",
+   "donem": "1803-02/1805-12",
+   "bolge": "Brixen",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — piskoposluk prensligi sekularize edilip Avusturya Tirolu'na katildi (1803)",
+   "kaynak": "Treccani, 'Bressanone' (https://www.treccani.it/enciclopedia/bressanone/)",
+   "alinti": "ne seguì le sorti sino alla sua secolarizzazione nel Tirolo austriaco (1803)",
+   "etkilenen": 1,
+   "ornek_yerler": [
+    "Brixen"
+   ],
+   "not": "Yil teyitli (1803); gun yok. Sonraki 1806 Bavyera (Treccani) — atlasin 1805-12 ucu ayrica gozden gecirilmeli."
+  },
+  {
+   "ara_kunye": "septinsular",
+   "donem": "1800-03/1807-07",
+   "bolge": "Korfu, Kythira, Lefkada, Kefalonya, Ithaki, Zakintos, Paksos",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "Septinsular kendi kunyesi (Osmanli-Rus himayesindeki ozerk cumhuriyet) KALIR; Fransiz s: 1797-99 ve 1807 Tilsit sonrasi",
+   "kaynak": "Treccani, 'Isole Ionie' (https://www.treccani.it/enciclopedia/isole-ionie/)",
+   "alinti": "dominio francese dal 1797 al 1799; nel 1800-07 subentrarono i Turchi",
+   "etkilenen": 7,
+   "ornek_yerler": [
+    "Korfu",
+    "Kefalonya",
+    "Ayamavra (Lefkada)",
+    "Cuha Adasi (Kythira)",
+    "Ithaki"
+   ],
+   "not": "Treccani 1800-07 icin 'Turchi' diyor (Rus-Osmanli ortak himayesi); Tilsit ile Fransa'ya donus. Septinsular kunyesi ayri polity — dokunma. Kendi kaynagi yok; Septinsular icin ikinci kaynak (Konstantinopolis Antlasmasi 1800-03-21) aranmali."
+  },
+  {
+   "ara_kunye": "ingiltere (Korsika 1794-96)",
+   "donem": "1794-06/1796-10",
+   "bolge": "Bastia, Ayacyo",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — Treccani Ingiliz 'mudahalesi'ni (Paoli 1793'te Ingiltere'den yardim istedi) ve 1796 tahliyeyi soyluyor; Ingiliz idareye katmasi/Anglo-Corsican Krallik'in statusu belgelenmedi",
+   "kaynak": "Treccani, 'Corsica'",
+   "alinti": "Paoli chiese l’intervento dell’ Inghilterra (1793)... gli Inglesi a evacuare l’isola (1796)",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Bastia",
+    "Ayacyo"
+   ],
+   "not": "Anglo-Korsika Krallıgi ayri kralligin kisisel birligi olarak bilinir; bu kaynakta yok. Kaynak susuyor."
+  },
+  {
+   "ara_kunye": "ingiltere/hollanda (Kap, Guyana, Surinam 1795-1806)",
+   "donem": "1795-01/1806-01",
+   "bolge": "Kap, Georgetown, New Amsterdam (Berbice), Paramaribo",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — Treccani: Kap 1795 Ingiliz fethi, 1803 bataviyaya iade, 1806 'definitivamente incorporata'; 1795-1803 idare statusu belirsiz",
+   "kaynak": "Treccani, 'Città del Capo'",
+   "alinti": "Nel 1803 Napoleone la restituì alla Repubblica batava e nel 1806 venne definitivamente incorporata",
+   "etkilenen": 8,
+   "ornek_yerler": [
+    "Kap",
+    "Georgetown",
+    "Paramaribo"
+   ],
+   "not": "'definitivamente' kelimesi 1795-1803'un gecici oldugunu ima eder ama belge degil. Kaynak susuyor."
+  },
+  {
+   "ara_kunye": "fransa-cumhuriyet (Roma, Perugia, Ancona 1808-14)",
+   "donem": "1808-04/1814-05",
+   "bolge": "Roma, Perugia, Ancona",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — Treccani Roma/Ancona maddeleri Fransiz isgali/'Tolta allo Stato della Chiesa dai Francesi' diyor, ilhak kararname gununu vermiyor",
+   "kaynak": "Treccani, 'Roma', 'Ancona'",
+   "alinti": "nel 1809, esiliato il papa oltralpe, i Francesi ne erano nuovamente padroni",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Roma",
+    "Perugia",
+    "Ancona"
+   ],
+   "not": "1809-05-17 ilhak kararnamesi bu kaynaklarda yok."
+  },
+  {
+   "ara_kunye": "fransa-cumhuriyet (Santo Domingo 1795-1809)",
+   "donem": "1795-07/1809-07",
+   "bolge": "Santo Domingo, Higuey, Santiago",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — Treccani Santo Domingo maddeleri (1623 bayt) donemi vermiyor",
+   "kaynak": "Treccani 'Santo Domingo'",
+   "alinti": "",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Santo Domingo"
+   ],
+   "not": "Bazel 1795 devri hukuki; Fransiz fiili idaresi 1801-02 sonrasi. Kaynak susuyor."
+  },
+  {
+   "ara_kunye": "zubeyri",
+   "donem": "0683-11/0692-10",
+   "bolge": "Mekke, Sana",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "idareye katma — rakip halifelik: Abdullah b. Zubeyr hilafetini Mekke merkezli Hicaz'da ilan etti, 9 yil 22 gun iktidar surdu; Emevi iddiasi da surdu (iki taraf kendi toprak sayiyor)",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Mekke' (https://islamansiklopedisi.org.tr/mekke)",
+   "alinti": "İbnü’z-Zübeyr’in dokuz yıl yirmi iki gün süren iktidarına son veren Haccâc",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Mekke",
+    "Sana"
+   ],
+   "not": "TDV: Mekke Haccac'in hakimiyetine girdi 14 Cemaziyelevvel 73 / 1 Ekim 692 (atlas ucu 0692-10 ile uyumlu: 692-10-01). Sana icin (Yemen) Zubeyri idaresi bu kaynakta yok; Sana satiri 'kismen'."
+  },
+  {
+   "ara_kunye": "timurlu (Bagdat)",
+   "donem": "1393-08/1405-01",
+   "bolge": "Bagdat",
+   "hukum": "isg",
+   "alt_sinif": "",
+   "olcut": "geçici/askeri — TDV: Bagdat Timur tarafindan 795 (1393) ve 803 (1401)'te iki defa 'isgal edildi'; Ahmed Celayir Timur Semerkant'a donunce Bagdat'i geri aldi, 1405'te yine Bagdat'a dondu",
+   "kaynak": "TDV 'Bagdat' (https://islamansiklopedisi.org.tr/bagdat) ; TDV 'Celayirliler'",
+   "alinti": "Bağdat Timur tarafından 795’te (1393) ve 803’te (1401) olmak üzere iki defa işgal edildi",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Bagdat (3 satir)"
+   ],
+   "not": "Celayirli iddiasi surdu; Timur kalici idare kurmadi. Ucta TDV yil veriyor (gun yok): 1393, 1401. Celayirli ara dilimi 1394-1401 'celayirli' kalir. Karakoyunlu 1410-67 hakimiyeti ayri kayit."
+  },
+  {
+   "ara_kunye": "merini (Tilimsan)",
+   "donem": "1337-01/1359-01",
+   "bolge": "Tilimsan",
+   "hukum": "isg",
+   "alt_sinif": "",
+   "olcut": "geçici/askeri — TDV: Abdulvadi (Zeyyani) hanedani uc asirdan fazla hukum surmus; 'Tilimsan kisa surelerle Merinilerin, Sadilerin, Hafsilerin ve Ispanyollarin isgaline ugradi'",
+   "kaynak": "TDV 'Tilimsan' (https://islamansiklopedisi.org.tr/tilimsan)",
+   "alinti": "Tilimsân kısa sürelerle Merînîler, Sa‘dîler, Hafsîler ve İspanyollar’ın işgaline uğradı",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Tilimsan (3 satir)"
+   ],
+   "not": "KISMEN: TDV genel ifade; 1337-48 ve 1352-59 dilim uclarini vermiyor. Isgal etiketi TDV sozcugune dayanir; Merini idareye katma belgesi (vali, vergi) okunmadi."
+  },
+  {
+   "ara_kunye": "karakoyunlu (Erzincan, Kemah, Refahiye)",
+   "donem": "1450-01/1457-01",
+   "bolge": "Erzincan, Kemah, Refahiye",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "idareye katma — rakip hanedan: TDV Erzincan 1410'da Karakoyunlu hakimiyetine girdi; 1422'de Akkoyunlu'ya katildi; sonra 'bazan Akkoyunlular ile Karakoyunlular'in' mucadele yeri; 1457'de Uzun Hasan Karakoyunlu'yu yenip yeniden Akkoyunlu hakimiyetine aldi",
+   "kaynak": "TDV 'Erzincan' (https://islamansiklopedisi.org.tr/erzincan)",
+   "alinti": "Uzun Hasan Karakoyunlular’ı yenerek Erzincan’ı yeniden Akkoyunlu hâkimiyetine aldı (1457)",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Erzincan",
+    "Kemah",
+    "Refahiye"
+   ],
+   "not": "KISMEN: 1457 ucu TDV ile uyumlu; 1450 baslangici TDV'de yok (1422-57 arasi mucadele). Iki rakip Turkmen hanedani; 'rakip yonetim' — isg degil."
+  },
+  {
+   "ara_kunye": "afsar (Hive)",
+   "donem": "1740-01/1747-06",
+   "bolge": "Hive, Hazarasp, Kohne Urgenc, Yeni Urgenc",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — TDV: Nadir Sah Hive'yi isgal etti; 1747'ye kadar 'kendi tayin ettigi valilerle idare etti' (idari birime baglama)",
+   "kaynak": "TDV 'Hive Hanligi' (https://islamansiklopedisi.org.tr/hive-hanligi)",
+   "alinti": "Nâdir Şah, 1747’de öldürülmesine kadar Hîve’yi kendi tayin ettiği valilerle idare etmeye çalıştı",
+   "etkilenen": 5,
+   "ornek_yerler": [
+    "Hive",
+    "Hazarasp",
+    "Kohne Urgenc",
+    "Yeni Urgenc"
+   ],
+   "not": "CELISKI beyani: TDV 'isgal' sozcugunu kullanir, ama valilerle idare ediyor -> olcut (kendi idaresine katma) s. 'idare etmeye calisti' ifadesi tam kalicilik belirsizligi birakir; KISMEN. Iranica 'Khiva' sadece 1740 seferini veriyor."
+  },
+  {
+   "ara_kunye": "rusya (Gilan, Mazenderan; safevi->rusya->safevi)",
+   "donem": "1722-08/1735-08",
+   "bolge": "Resht, Lahican, Bender Enzeli, Agraham burnu",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — TDV Gilan: Petro 1723-24'te denizden saldirdi; 1732 sonrasi antlasma: Rus askerleri on yilda terk edecek; 1734'te Gilan'dan cekildiler. Idareye katma (vergi/defter/idari birim) belgesi yok. St Petersburg 1723-09-23 devir antlasmasi bu kaynakta yok",
+   "kaynak": "TDV 'Gilan' (https://islamansiklopedisi.org.tr/gilan)",
+   "alinti": "Ruslar 1734’te Gîlân’dan çekildikten sonra bölge yoğun ticarî faaliyetlere sahne oldu",
+   "etkilenen": 6,
+   "ornek_yerler": [
+    "Resht",
+    "Lahican",
+    "Bender Enzeli"
+   ],
+   "not": "1723 antlasmasi (Safevi'nin cession'i) ve Rus idaresi icin Iranica/Cambridge History of Iran aranmali; 'antlasma gunu olcut degildir' kurali gozetilerek: Rus idaresi belgesi yok."
+  },
+  {
+   "ara_kunye": "selcuklu/memluk/akkoyunlu <-> dulkadir",
+   "donem": "1381-01/1471-01",
+   "bolge": "Maras, Elbistan, Darende, Harput, Palu, Besni",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — TDV Dulkadirogullari: Memluk himayesinde kurulmus beylik; dilimler (1381-84, 1414-18, 1429-36, 1467-71) icin idareye katma belgesi okunmadi",
+   "kaynak": "TDV 'Dulkadiroğulları' (https://islamansiklopedisi.org.tr/dulkadirogullari)",
+   "alinti": "Memlükler’in himayesinde yaklaşık iki asır kadar devam edecek olan Dulkadıroğulları Beyliği teşekkül etmiştir",
+   "etkilenen": 6,
+   "ornek_yerler": [
+    "Maras",
+    "Elbistan",
+    "Darende",
+    "Harput",
+    "Palu",
+    "Besni"
+   ],
+   "not": "Tabi (himaye) iliskisi s:/isg: ikilisine oturmaz; tahrir ve vergi belgesi gerekli. Kaynak susuyor."
+  },
+  {
+   "ara_kunye": "gurlu (Nisabur, Merv)",
+   "donem": "1200-07/1204-01",
+   "bolge": "Nisabur, Merv",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — TDV Harizmsahlar: Gurlular Merv ve Tus'u zapteti; Alaeddin Nisabur, Merv, Serahs'i 1204'te zapteti; Gurlu idareye katmasi belgelenmedi",
+   "kaynak": "TDV 'Harizmşahlar' (https://islamansiklopedisi.org.tr/harizmsahlar)",
+   "alinti": "Alâeddin Nîşâbur, Merv ve Serahs’ı zaptetti (1204)",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Nisabur",
+    "Merv"
+   ],
+   "not": "Kaynak susuyor."
+  },
+  {
+   "ara_kunye": "yakub-beg",
+   "donem": "1864-06/1877-12",
+   "bolge": "Kasgar, Yarkent, Hotan, Turfan + 8 Doğu Türkistan yerlesimi",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "idareye katma — rakip yonetim: Yakub Han Kasgar'da hakim (1872'den), hutbeler Abdulaziz adina okundu, 1875'te emirligin babadan ogula gecmesi kabul edildi; 1877 olumuyle Cinliler Kasgar'i istila etti; 1884'te Sinkiang vilayeti",
+   "kaynak": "TDV Islam Ansiklopedisi, 'Kasgar' (https://islamansiklopedisi.org.tr/kasgar)",
+   "alinti": "1877’de Yâkub Han’ın ölümü üzerine Çinliler’in Kâşgar’ı istilâ etmesiyle yarım kaldı",
+   "etkilenen": 12,
+   "ornek_yerler": [
+    "Kasgar",
+    "Yarkent",
+    "Hotan",
+    "Turfan"
+   ],
+   "not": "Rakip hanedan/devlet: Yakub Han emirligi kendi devleti (Osmanli himayesi tanindi), Qing 1877'de geri aldi; isg DEGIL. KISMEN: 1864 baslangici TDV'de yok. Cin-Qing 1877-12 ucu icin kaynak istila (1877) diyor."
+  },
+  {
+   "ara_kunye": "kirim (Cerkez)",
+   "donem": "1774-07/1783-04",
+   "bolge": "Soci, Tuapse, Maykop",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — TDV Cerkezler: Cerkezler XVIII. yuzyila kadar hukuken Kirim Hanligi'na tabi, gercekte serbest; 1774-83 devri icin idareye katma belgesi yok",
+   "kaynak": "TDV 'Çerkezler' (https://islamansiklopedisi.org.tr/cerkezler)",
+   "alinti": "hukuken Kırım Hanlığı’na tâbi, gerçekte ise serbest yaşayan Çerkezler",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Soci",
+    "Tuapse",
+    "Maykop"
+   ],
+   "not": "Serbest yasayan Cerkezler icin s:/isg: ikilisi uygun degil; tabi (v) iliskisi. Kaynak susuyor."
+  },
+  {
+   "ara_kunye": "ingiltere (Hollanda Dogu Hint; Cava 1811-16)",
+   "donem": "1810-02/1817-03",
+   "bolge": "Trowulan, Demak, Semarang, Surabaya + 17 Endonezya yerlesimi",
+   "hukum": "isg",
+   "alt_sinif": "",
+   "olcut": "geçici/askeri — TDV: 'gecici Ingiliz idaresi (1811-1816)'; Ingilizler Hollanda somurgelerini 'isgal ettiler', Raffles yonetiminde bes yil hakim oldular",
+   "kaynak": "TDV 'Endonezya' (https://islamansiklopedisi.org.tr/endonezya)",
+   "alinti": "Hollanda sömürgelerini işgal ettiler ve ... Raffles yönetiminde beş yıl (1811-1816) hâkim oldular",
+   "etkilenen": 21,
+   "ornek_yerler": [
+    "Trowulan",
+    "Demak",
+    "Semarang",
+    "Surabaya"
+   ],
+   "not": "KAYNAK ICI CELISKI (EMRELIC kararina birakilir): ayni TDV maddesi Raffles'in tum tarim arazisini devlet arazisi ilan edip toprak kirasi (vergi) getirdigini ve idari reformlari yaptigini soyluyor = idareye katma belirtisi (s). TDV'nin 'gecici' ve 'isgal' sozcukleri ise isg yonunde. Hukuken Hollanda egemenligi 1814 Londra Sozlesmesi ile iade edildi (kaynakta yok). Hukum 'isg' TDV'nin kendi nitelemesine dayanir; vergi/arazi verisi 's' icin karsi delil. 21 satir, EN ONEMLI karar."
+  },
+  {
+   "ara_kunye": "ingiliz-malaya -> malaya-birligi",
+   "donem": "1946-04/1948-01",
+   "bolge": "Malaka, Penang, Kedah, Kelantan + 2",
+   "hukum": "s-kalir",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Malaya Birligi Ingilizlerin kurdugu federal yapi (Ocak 1946 plani, Singapur ayri koloni); Ingiliz idaresinin devami, kendi kunyesi mevcut",
+   "kaynak": "TDV 'Malezya' (https://islamansiklopedisi.org.tr/malezya)",
+   "alinti": "Malay eyaletlerini federal sisteme dayalı bir Malay birliği çatısı altında birleştirme planı",
+   "etkilenen": 6,
+   "ornek_yerler": [
+    "Malaka",
+    "Penang",
+    "Kedah",
+    "Kelantan"
+   ],
+   "not": "Ayni Ingiliz idaresi icinde yapisal ad degisikligi: s: ingiltere sureklidir, isg degil. Birligin gunleri (1946-04-01, 1948-02-01) bu kaynakta yok; kunye ucu ayri teyit gerektirir."
+  },
+  {
+   "ara_kunye": "ingiltere (Iskocya, Cromwell)",
+   "donem": "1650-09/1660-05",
+   "bolge": "Edinburg, Glasgow, Aberdeen",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Cromwell Iskocya'yi yendi, presbiteryen kilisesinin siyasi gucunu aldi, feodal yargiyi kaldirdi, Iskoc soylulari Londra parlamentosuna aldi",
+   "kaynak": "Treccani, 'Scozia' (https://www.treccani.it/enciclopedia/scozia/)",
+   "alinti": "Cromwell tolse alla Chiesa presbiteriana il suo potere politico, abolì la giurisdizione feudale",
+   "etkilenen": 6,
+   "ornek_yerler": [
+    "Edinburg",
+    "Glasgow",
+    "Aberdeen"
+   ],
+   "not": "KISMEN: gun yok. Treccani 1650 (Dunbar) fetih ve sonraki idari birlestirmeyi veriyor; yasal birlesme (Tender of Union 1652, Ordinance of Union 1654) gunleri bu kaynakta yok. 'Antlasma gunu olcut degildir': Dunbar-sonrasi idare 1650-09'dan s; gun icin BHO Interregnum ordinances aranmali."
+  },
+  {
+   "ara_kunye": "ispanya <-> fransa (Namur, Mons, Luxembourg)",
+   "donem": "1684-06/1697-09",
+   "bolge": "Namur, Mons, Luksemburg, Clervaux",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — Treccani Namur: 1692'de Louis XIV tarafindan 'espugnata' (zaptedildi), 1695'te Orange'li Guillaume geri aldi; Fransiz idareye katmasi (intendans, kamara) belgesi yok",
+   "kaynak": "Treccani, 'Namur'",
+   "alinti": "Espugnata da Luigi XIV (1692), fu riconquistata da Guglielmo I d’ Orange (1695)",
+   "etkilenen": 9,
+   "ornek_yerler": [
+    "Namur",
+    "Mons",
+    "Luksemburg",
+    "Clervaux"
+   ],
+   "not": "Luksemburg 1684-97 Fransiz idaresi (Reunions) bilinir ancak okunan kaynakta yok. Kaynak susuyor."
+  },
+  {
+   "ara_kunye": "ingiltere (Kabil, Gazne)",
+   "donem": "1839-07/1880-08",
+   "bolge": "Kabil, Gazne",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — TDV Afganistan genel maddesi 1839-42 ve 1879-80 donemini sayfa penceresinde vermiyor",
+   "kaynak": "TDV 'Afganistan'",
+   "alinti": "",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Kabil",
+    "Gazne"
+   ],
+   "not": "Atlas zaten 'Kabil 1839-42: isg ingiltere' ornegi veriyor (DA-BRIEF); satirlarin s: oldugu dogrulanamadi; kaynak susuyor."
+  },
+  {
+   "ara_kunye": "san-fan",
+   "donem": "1673-12/1681-10",
+   "bolge": "Changsha, Chengdu, Chongqing, Kunming + 24 Guneybati/Guney Cin yerlesimi",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — HIPOTEZ (dogrulanmadi): rakip yonetim, s-kalir (Wu Sangui 'Zhou' ve Geng/Shang hanedani kendi idaresi); kaynak erisilemedi. Britannica 403 (robots/erisim), archive.org Hummel/Cambridge History metni 401-403, Treccani 'Cina' sayfasi ilgili ayrintiyi vermiyor, TDV'de madde yok",
+   "kaynak": "(erisilen kaynakta yok)",
+   "alinti": "",
+   "etkilenen": 28,
+   "ornek_yerler": [
+    "Changsha",
+    "Chengdu",
+    "Chongqing",
+    "Kunming"
+   ],
+   "not": "Bu desen Emre'nin 'rakip hanedan ve ic savas' orneklerinden; tek akademik kaynak (Cambridge History of China vol.9 / Hummel) sayfa.py ile okunamadi. KASA'ya hukum onerilmez."
+  },
+  {
+   "ara_kunye": "taiping",
+   "donem": "1853-02/1864-07",
+   "bolge": "Nanking, Yangzhou, Suzhou, Hangzhou + 4",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — HIPOTEZ (dogrulanmadi): rakip yonetim s-kalir (Taiping Gokyuzu Krallıgi Nanking merkezli kendi idare/arazi sistemi). Kaynak erisilemedi. Treccani 'Cina': 'rivolta dei Taiping (1849-64)' yalniz isyan diyor",
+   "kaynak": "Treccani, 'Cina' (https://www.treccani.it/enciclopedia/cina/)",
+   "alinti": "rivolta dei Taiping (1849-64), che devastò la C. centrale",
+   "etkilenen": 8,
+   "ornek_yerler": [
+    "Nanking",
+    "Yangzhou",
+    "Suzhou",
+    "Hangzhou"
+   ],
+   "not": "Treccani 'isyan' niteler; idare bilgisi yok. Kaynak susuyor."
+  },
+  {
+   "ara_kunye": "wu-zhou / an-lushan-yan (Tang)",
+   "donem": "0690-10/0762-11",
+   "bolge": "Chang'an, Luoyang, Changsha, Fuzhou",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — HIPOTEZ: hanedan degisimi / rakip yonetim, s-kalir; kaynak erisilemedi. Britannica 403 (robots/erisim), archive.org Hummel/Cambridge History metni 401-403, Treccani 'Cina' sayfasi ilgili ayrintiyi vermiyor, TDV'de madde yok",
+   "kaynak": "(erisilen kaynakta yok)",
+   "alinti": "",
+   "etkilenen": 8,
+   "ornek_yerler": [
+    "Chang'an",
+    "Luoyang"
+   ],
+   "not": "Wu Zhou (690-705, 4 satir) ve An Lushan Yan (756-62, 4 satir). Kaynak erisilemedi."
+  },
+  {
+   "ara_kunye": "buyuk-selcuklu (Mekke) <-> fatimi",
+   "donem": "1070-01/1092-01",
+   "bolge": "Mekke",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — TDV Mekke: Mekke Emiri 1069-70'te hutbeyi Fatimi yerine Abbasi/Selcuklu adina okutmaya basladi; yalniz hutbe tabiliyeti, Selcuklu idareye katmasi/vergisi yok -> s: icin ESAS yok (tabi/v adayi)",
+   "kaynak": "TDV 'Mekke' (https://islamansiklopedisi.org.tr/mekke)",
+   "alinti": "Mekke Emîri ... hutbenin Fâtımîler adına okunmasına son verip Abbâsî Halifesi ... ile",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Mekke",
+    "Mekke",
+    "Mekke"
+   ],
+   "not": "Hutbe tabiligi 'kendi idaresine katma' degildir: mevcut s: buyuk-selcuklu dilimi sorgulanmali (v: / BULUNAMADI). Karar EMRELIC."
+  },
+  {
+   "ara_kunye": "danzig-serbest-sehri-1807",
+   "donem": "1807-07/1814-02",
+   "bolge": "Gdansk",
+   "hukum": "kukla-kalir",
+   "alt_sinif": "",
+   "olcut": "kendi kunyesi var — Napolyon'un kurdurdugu Ozgur Sehir; Treccani 'napolyon parantezi (1807-13)'",
+   "kaynak": "Treccani, 'Danzica' (https://www.treccani.it/enciclopedia/danzica/)",
+   "alinti": "dal 1793 al 1919 appartenne alla Prussia, tranne la breve parentesi napoleonica (1807-13)",
+   "etkilenen": 1,
+   "ornek_yerler": [
+    "Gdansk"
+   ],
+   "not": "Mevcut kunye KALIR. Prusya 'ara' degil, devlet ayri polity; gun teyidi yok (yil)."
+  },
+  {
+   "ara_kunye": "fransa-cumhuriyet (Septinsular oncesi) / napoli-roma cumhuriyetleri",
+   "donem": "1798-02/1799-09",
+   "bolge": "Napoli, Roma",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadi — Treccani sayfalari bos/erisilemez",
+   "kaynak": "Treccani 'repubblica-partenopea','repubblica-romana' (bos)",
+   "alinti": "",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Napoli",
+    "Roma"
+   ],
+   "not": "Kaynak susuyor; kardes cumhuriyetler (Fransiz himayesi) kendi kunyesi — kukla-kalir adayi, kaynaksiz."
+  }
+ ],
+ "tek_tek": [],
+ "islenmeyen": [
+  {
+   "kunye": "ingiltere > bati-hint-federasyonu > ingiltere",
+   "satir": 13,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "fransa > ingiltere > fransa",
+   "satir": 9,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "nguyen-beyligi > tay-son > nguyen-beyligi",
+   "satir": 7,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "campa > angkor-kmer > campa",
+   "satir": 5,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ingiltere > fransa > ingiltere",
+   "satir": 4,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "grenada > grenada-devrimci-hukumet > grenada",
+   "satir": 4,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "kudus-kralligi > eyyubi > kudus-kralligi",
+   "satir": 3,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "kastilya > leon-kralligi > kastilya",
+   "satir": 3,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "jin-hanedani > song > jin-hanedani",
+   "satir": 3,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ayutthaya > toungoo > ayutthaya",
+   "satir": 3,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "yeni-ispanya > pueblo-bagimsizligi > yeni-ispanya",
+   "satir": 3,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "dominik-cumhuriyeti > ispanya > dominik-cumhuriyeti",
+   "satir": 3,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "selcuklu > kilikya-ermeni > selcuklu",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "prusya > varsova-dukaligi > prusya",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "mayorka > aragon > mayorka",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ingiltere > glyndwr-galler > ingiltere",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "luksemburg-hollanda-birligi > belcika > luksemburg-hollanda-birligi",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "song > jin-hanedani > song",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "qing-hanedani > rusya > qing-hanedani",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "meiji-japonya > ezo-cumhuriyeti > meiji-japonya",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ispanya > ingiltere > ispanya",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "gazneli > buyuk-selcuklu > gazneli",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "portekiz > ispanya > portekiz",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "kanem-bornu > rabih > kanem-bornu",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "rupeniler > bizans > rupeniler",
+   "satir": 2,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "bizans > selcuklu > bizans",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "selcuklu > kibris-krallik > selcuklu",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "selcuklu > trabzon-rum > selcuklu",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "memluk > eretna > memluk",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "vidin-carligi > macaristan > vidin-carligi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "rusya > cerkez > rusya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "revvadi > buyuk-selcuklu > revvadi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "buyuk-selcuklu > revvadi > buyuk-selcuklu",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "memluk > eyyubi-halep > memluk",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ukayli > buyuk-selcuklu > ukayli",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "bizans > sasani > bizans",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "eyyubi > kudus-kralligi > eyyubi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "fatimi > endulus-emevi > fatimi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "avusturya-dukaligi > macaristan > avusturya-dukaligi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "avusturya > venedik-1848 > avusturya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "papalik > roma-komunu > papalik",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "papalik > roma-cumhuriyeti-1849 > papalik",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "rusya > isvec > rusya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "danismendli > selcuklu > danismendli",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "selcuklu > danismendli > selcuklu",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "bulgaristan-kralligi > garbi-trakya > bulgaristan-kralligi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "aragon > mayorka+mayorka > aragon",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "mezyedi > buyuk-selcuklu > mezyedi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "abbasi > mezyedi > abbasi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "hirvatistan > sirp-krajina-cumhuriyeti > hirvatistan",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ingiltere > iskocya > ingiltere",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "kastilya > aragon > kastilya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "kastilya > galicia-kralligi > kastilya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "danimarka > isvec > danimarka",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "hollanda > ispanya > hollanda",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "hollanda > fransa > hollanda",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "almanya > saar-havzasi-mandasi > almanya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "carrara > visconti > carrara",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ispanya > hollanda > ispanya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "hollanda > belcika > hollanda",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "delhi-sultanligi > timurlu > delhi-sultanligi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "safevi > babur-imparatorlugu > safevi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "racput > delhi-sultanligi > racput",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "racput > gucerat-sultanligi > racput",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "malva-sultanligi > gucerat-sultanligi > malva-sultanligi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "parihara-gwalior > delhi-sultanligi > parihara-gwalior",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "manipur > konbaung > manipur",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "fransa > hollanda > fransa",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "tang > tai-qi-huang-chao > tang",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "jin-hanedani > da-qi-liu-yu > jin-hanedani",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ming-hanedani > hollanda-dogu-hint > ming-hanedani",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "liao-hanedani > heungyo-guk > liao-hanedani",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "cin-cumhuriyeti > dogu-turkistan-islam-cumhuriyeti > cin-cumhuriyeti",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "azuchi-momoyama > portekiz > azuchi-momoyama",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "goryeo > daewi-myocheong > goryeo",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "goryeo > yuan-hanedani > goryeo",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "joseon > azuchi-momoyama > joseon",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "liang-guney > van-xuan > liang-guney",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "yogyakarta > ingiltere > yogyakarta",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "samani > karahanli > samani",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "karahanli > samani > karahanli",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "sovyet-rusya > turkistan-ossc > sovyet-rusya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "buyuk-selcuklu > gazneli > buyuk-selcuklu",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "buhara > safevi > buhara",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "hollanda-guyanasi > ingiltere > hollanda-guyanasi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ispanya > portekiz > ispanya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "muvahhidler > merini > muvahhidler",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "merini > muvahhidler > merini",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "fas > rif-cumhuriyeti > fas",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "danimarka > livonya-tarikati > danimarka",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "trinidad-tobago-ingiliz > bati-hint-federasyonu > trinidad-tobago-ingiliz",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "buyuk-selcuklu > suriye-selcuklu > buyuk-selcuklu",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "nijerya > biafra > nijerya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "san-marino > papalik > san-marino",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "sovyet-rusya > zakafkasya-sfsc > sovyet-rusya",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "fransa-cumhuriyet > alman-kamerun > fransa-cumhuriyet",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "qing-hanedani > pingnan > qing-hanedani",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "eyyubi > artuklu > eyyubi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "bizans > rupeniler > bizans",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "xiazhou-dangxiang > song > xiazhou-dangxiang",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "song > xiazhou-dangxiang > song",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "babur-imparatorlugu > maratha > babur-imparatorlugu",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "maldivler-sultanligi > portekiz > maldivler-sultanligi",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "portekiz > hollanda > portekiz",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  },
+  {
+   "kunye": "ingiltere > hollanda > ingiltere",
+   "satir": 1,
+   "neden": "sure/arac sinirli; belge okunmadi"
+  }
+ ],
+ "ozet": {
+  "sinif6_toplam": 341,
+  "sinif6_islenmeyen_satir": 166,
+  "sinif6_islenmeyen_desen": 105
+ }
+}

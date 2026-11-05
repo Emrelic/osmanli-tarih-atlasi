@@ -1,0 +1,357 @@
+{
+ "Memphis (Chickasaw Bluffs)": [
+  {
+   "sira": 3851,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "cikasav",
+   "f": "1739-01-01",
+   "t": "1832-10-20",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Tennessee Encyclopedia (Tennessee Historical Society), 'Chickasaws' — https://tennesseeencyclopedia.net/entries/chickasaws/ ; ayrıca 'Jackson Purchase' — https://tennesseeencyclopedia.net/entries/jackson-purchase/ ; 'Memphis' (J. E. Harkins) — https://tennesseeencyclopedia.net/entries/memphis/",
+   "alinti": "Jackson Purchase Treaty of 1818 extinguished all remaining tribal land claims in Tennessee.",
+   "alinti2": "Chickasaws had historically occupied this large tract, which they ceded in the Treaty of Tecumseh, negotiated by Andrew Jackson and Isaac Shelby in 1818.",
+   "oneri": {
+    "t": "1818 (YIL; gün 1818-10-19 antlaşma imzası olarak biliniyor ama okunan sayfada gün YOK; Kappler neşrine erişilemedi)",
+    "d": "cikasav"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_091): Yerli toprak devrinde fiziksel teslim yok; devir imzayla, ABD hemen arazi ölçümü/eyalete katar → f 1818-10-19 (Old Town / Jackson Purchase imzası). '1818 BEYANLI yıl' YAZILMAZ (01-01 olayın 10 ay öncesi). Gün Kappler metin hâlinden (OSU dijital 'Treaty with the Chickasaw, 1818') ya da Tennessee Encyclopedia Jackson Purchase. 1819-01-07 onay, 1819-05 kuruluş ve Pontotoc 1832 ic_not. · Atlas Çikasav'ı Memphis'te 1832-10-20'ye (Pontotoc Creek) kadar tutuyor; Pontotoc Mississippi'deki Çikasav toprağının devridir, Memphis/Batı Tennessee ise 1818 Jackson Purchase ile devredildi (Tennessee Encyclopedia: 'extinguished all remaining tribal land claims in Tennessee'). Şehir 1819'da kuruldu (Harkins: 'In 1819 they founded Memphis'). Aynı Tennessee Encyclopedia maddesi 1795'te İspanya'nın Fort San Fernando'yu bluff'a kurduğunu söylüyor (İspanyol varlığı 1795-97 ic_not adayı; sayfada bitiş günü yok). Ek: Çikasavlar 1818'den sonra da ~10 yıl bluff'a ticaret için gelmeye devam etti (fiilî göç değil, av/ticaret). ÖLÇÜT: antlaşma/kaynak yıl düzeyi. TEK ÖLÇÜ: ABD 1818'de zaten idare etmiyordu (yerleşime 1819'da açıldı) => EMRELİC kararı: imza (1818-10-19) mi, açılış (1819) mı. f=1739 (Fort Assumption) için BAKILMADI.",
+   "oneri_son": {
+    "d": "cikasav",
+    "f": "1739-01-01",
+    "t": "1818-10-19"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3852,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1832-10-20",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Tennessee Encyclopedia, 'Jackson Purchase' — https://tennesseeencyclopedia.net/entries/jackson-purchase/",
+   "alinti": "In 1819 the region opened for settlement, and the general assembly created Hardin County that same year.",
+   "oneri": {
+    "f": "1818 (YIL; imza günü 1818-10-19 teyitsiz) — ya da 1819 (yerleşime açılış)",
+    "d": "abd"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_091): Yerli toprak devrinde fiziksel teslim yok; devir imzayla, ABD hemen arazi ölçümü/eyalete katar → f 1818-10-19 (Old Town / Jackson Purchase imzası). '1818 BEYANLI yıl' YAZILMAZ (01-01 olayın 10 ay öncesi). Gün Kappler metin hâlinden (OSU dijital 'Treaty with the Chickasaw, 1818') ya da Tennessee Encyclopedia Jackson Purchase. 1819-01-07 onay, 1819-05 kuruluş ve Pontotoc 1832 ic_not. · Önceki satırla birlikte hareket eder: f 1832-10-20 yerine 1818/1819. 1819 alıntısı yerleşimin açılışını ve Hardin County'nin kuruluşunu (ABD/Tennessee idaresi) tarihler. t=2000-12-31 pencere ucu.",
+   "oneri_son": {
+    "d": "abd",
+    "f": "1818-10-19",
+    "t": "2000-12-31"
+   },
+   "karar": "EMRELİC"
+  }
+ ],
+ "Fort Mohave (Kolorado geçidi)": [
+  {
+   "sira": 3853,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mohave",
+   "f": "1281-01-01",
+   "t": "1865-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Yalnız Vikipedi 'Fort Mojave' (tek dayanak olamaz, İPUCU): kale 1859-04-19'da Camp Colorado adıyla kuruldu, 1859-04-28'de Fort Mohave adını aldı; Mohave Savaşı 1859. Akademik kaynak bulunamadı (aşağıya bak).",
+   "alinti": "Fort Mohave was originally named Camp Colorado when it was established on April 19, 1859",
+   "oneri": {
+    "t": "1859-04-19 (kale kuruluşu, fiilî ABD varlığı) — akademik teyit bekler",
+    "d": "mohave"
+   },
+   "not": "Hüküm ONERI-zayıf: Vikipedi tek dayanak. Bakılan yerler: fortmojaveindiantribe.com/history (404), blm.gov (404), Britannica 'Mojave' (403), encyclopedia.com (404), NPS (404), Hodge 1907 Handbook of American Indians (IA OCR bozuk, Fort Mohave bulunamadı), Handbook of North American Indians c.9/10 (IA 401). Atlasın 1865-01-01'i (Colorado River Indian Reservation yılı) ile 1859 arasında 6 yıl fark var; 1859'da kale + Mohave Savaşı sonu fiilî idareyi başlatır, 1870 Fort Mojave Reservation (Vikipedi: 'Established 1870'; başka satırda 1890). Hukuken ABD egemenliği 1848 Guadalupe Hidalgo'dan beri (Gila'nın kuzeyi). Rezervasyon günü yürütme emri kaynağı (Kappler) alan adı çözülemedi (digital.library.okstate.edu getaddrinfo hatası). Alıntı sayfa.py ham metninden."
+  },
+  {
+   "sira": 3854,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1865-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Vikipedi 'Fort Mojave' (İPUCU) — akademik teyit yok",
+   "alinti": "established on April 19, 1859 by Lieutenant Colonel William Hoffman during the Mohave War",
+   "oneri": {
+    "f": "1859-04-19 (akademik teyit bekler)",
+    "d": "abd"
+   },
+   "not": "Önceki satırın eşi. Yerel kaynak bulunamadı: BULUNAMADI düzeyinde (yukarıdaki arama listesi). ABD kale kuruluşu = fiilî idare; ancak bir yerli devletin 'ABD sahipliği' için tek ölçü fiilî idare (brif). t=2000-12-31 pencere ucu."
+  }
+ ],
+ "Prescott / Yavapai": [
+  {
+   "sira": 3855,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yavapai",
+   "f": "1281-01-01",
+   "t": "1873-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Sharlot Hall Museum (Prescott), 'Fort Whipple Museum' — https://sharlothallmuseum.org/fort-whipple-museum/ (müze sitesi, hakemli değil => ONERI-güçlü); Hodge 1907 Handbook of American Indians 'Tonto' (IA handbookofameric02hodg; EB1911 sınıfı İPUCU)",
+   "alinti": "Fort Whipple served as a primary tactical base for the U.S. Army during the Indian Wars of 1864 to 1886.",
+   "oneri": {
+    "t": "1864 (YIL; Fort Whipple/Prescott kuruluşu; ana brifin ipucu: 1864-05-30 — okunan sayfada gün YOK)",
+    "d": "yavapai"
+   },
+   "not": "Prescott 1864'te Arizona Territory başkenti ve Fort Whipple üssü (Sharlot Hall: 'protected the Territorial Capital of Prescott'). Atlas t=1873-01-01 neye dayanıyor bilinmiyor; Yavapai Savaşları 1872-73 ve Camp Verde rezervasyonu (1871) ile 1875 San Carlos sürgünü ic_not adayları, ama okunmadı. Prescott noktasında fiilî ABD idaresi 1864'te başladığı için t geri çekilmesi önerilir (ÖLÇÜT: idareye katma — territorial başkent+kale). Bakılan: yavapai-prescott.com (DNS yok), ypit.com (404), NPS (404), Britannica Prescott (403), Vikipedi Fort Whipple (404). 1864-05-30 günü BULUNAMADI (ham sayfa okunamadı)."
+  },
+  {
+   "sira": 3856,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1873-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Sharlot Hall Museum, 'Fort Whipple Museum' — https://sharlothallmuseum.org/fort-whipple-museum/",
+   "alinti": "Fort Whipple protected the Territorial Capital of Prescott, the nearby gold fields, and the early settlers",
+   "oneri": {
+    "f": "1864 (YIL; gün teyitsiz)",
+    "d": "abd"
+   },
+   "not": "Önceki satırla birlikte. Alıntı sayfa.py ham metninden (kısaltılmış: 'For decades, Fort Whipple and its company ... protected the Territorial Capital of Prescott, the nearby gold fields, and the early settlers of the frontier'). t=2000-12-31 pencere ucu."
+  }
+ ],
+ "Meskalero Apaçi (Pecos vadisi)": [
+  {
+   "sira": 3857,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "meskalero-apaci",
+   "f": "1281-01-01",
+   "t": "1873-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Handbook of Texas (Texas State Historical Association), 'Apache Indians' — https://www.tshaonline.org/handbook/entries/apache-indians",
+   "alinti": "assigned to the Mescaleros in 1855 but not officially established until 1873",
+   "oneri": {},
+   "not": "[YIL] Rezervasyon 1873'te resmen kuruldu (atlas t=1873-01-01 YIL düzeyinde uyuşuyor; gün uydurma değil, 'yalnız yıl teyitli'). ic_not: arazi 1855'te atandı (Fort Stanton 1855 ipucu brifte; sayfada Fort Stanton adı YOK). Aynı sayfa 1873'te Albay Mackenzie'nin Lipanları Mescalero Reservation'a sürdüğünü söylüyor. Pecos vadisinin ABD hukukî egemenliği 1848 (Guadalupe Hidalgo) — okunmadı. f=1281-01-01 pencere başı. Uyarı: alıntı rezervasyonun resmî kuruluşunu tarihler; 'fiilî idare' 1855'e kadar geri gidebilir (EMRELİC kararı)."
+  },
+  {
+   "sira": 3858,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1873-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Handbook of Texas (TSHA), 'Apache Indians' — https://www.tshaonline.org/handbook/entries/apache-indians",
+   "alinti": "assigned to the Mescaleros in 1855 but not officially established until 1873",
+   "oneri": {},
+   "not": "[YIL] Önceki satırın eşi. t=2000-12-31 pencere ucu. 1855 atama günü ic_not."
+  }
+ ],
+ "Natchitoches": [
+  {
+   "sira": 3859,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1714-01-01",
+   "t": "1762-11-03",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Handbook of Texas (TSHA), 'Los Adaes' — https://www.tshaonline.org/handbook/entries/los-adaes",
+   "alinti": "The character of the East Texas borderlands was altered with the transfer of French Louisiana to Spain in 1762.",
+   "oneri": {
+    "t": "1769 (Spanish teslim; TEK ÖLÇÜ) — bu turda kaynakla okunmadı => BAKILMADI",
+    "d": "fransa"
+   },
+   "not": "TSHA 1762 hukukî devri YIL düzeyinde doğruluyor; atlas günü 1762-11-03 (Fontainebleau gizli antlaşması) bu sayfada geçmiyor. TEK ÖLÇÜ: İspanya Louisiana'yı 1762'de fiilen yönetmedi (fiilî teslim 1766-69), bu yüzden s: yeni-ispanya teslim gününden başlamalı olabilir — EMRELİC kararı. f=1714-01-01 BAKILMADI: 64parishes.org, nps.gov, knowlouisiana erişilemedi/404; Natchitoches'in kuruluşu (St. Denis, 1714) bu turda ham metinle okunmadı (64parishes 'meat pies' maddesi 'arrived in the region in 1713' diyor — kuruluş günü değil). ÖLÇÜT: idareye katma/hukukî devir."
+  },
+  {
+   "sira": 3860,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1762-11-03",
+   "t": "1803-12-20",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TSHA 'Los Adaes' (aynı); künye notu depodan",
+   "alinti": "transfer of French Louisiana to Spain in 1762",
+   "oneri": {
+    "f": "teslim günü (1766-69) — okunmadı, BAKILMADI",
+    "d": "yeni-ispanya (künye sorusu LAB'a)"
+   },
+   "not": "LAB SALI (775b41627): yeni-ispanya sahipliği YANLIŞ; en azından s: louisiana (künye var, 1682→1803). ispanyol-louisiana ayrı künye mi (bölünme) Emre kararı. · EMRELİC (5 Kasım 2026, r8_091): Natchitoches: yeni-ispanya (Yeni İspanya Genel Valiliği) değil; ispanyol-louisiana künye sorusu LAB'a. · KÜNYE SORUSU: Louisiana İspanyol Louisiana'dır (Küba Başkomutanlığı), Yeni İspanya Genel Valiliği'nin parçası değildir; künye `yeni-ispanya` tur:gecici-isgal, f=1535-04-17 / t=1821-09-27 (aralığı kapsıyor, hayalet değil) — LAB'a 'İspanyol Louisiana' künyesi sorusu. t=1803-12-20 (ABD devri) bu turda okunamadı: 64parishes 'Louisiana Purchase and Territorial Louisiana' maddesi Nisan 1803 satışını söylüyor, 20 Aralık günü geçmiyor => t için BAKILMADI. Fransa'ya 1803-11-30 geri devir ic_not adayı (okunmadı).",
+   "oneri_son": {
+    "d": "louisiana",
+    "f": "1762-11-03",
+    "t": "1803-12-20",
+    "not": "louisiana künyesi VAR (Fransız/İspanyol 1682→1803 tek künye); bölünme SINIF sorusu Emre'de"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3861,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1803-12-20",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım: 64parishes.org Louisiana Purchase maddesi (yalnız 'In April 1803 France sold ...' — gün YOK), TSHA 'Louisiana Purchase' (404), Treccani/Britannica (erişilemedi). 1803-12-20 New Orleans devri ve Natchitoches'e fiilî teslim günü (ayrı olabilir) kaynakla bulunamadı."
+  }
+ ],
+ "San Felipe de Austin": [
+  {
+   "sira": 3862,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1824-01-01",
+   "t": "1836-03-02",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Handbook of Texas (TSHA), 'San Felipe de Austin' — https://www.tshaonline.org/handbook/entries/san-felipe-de-austin-tx ; 'Republic of Texas' — https://www.tshaonline.org/handbook/entries/republic-of-texas",
+   "alinti": "was founded in 1824 by Stephen F. Austin as the unofficial capital of his colony",
+   "alinti2": "The next day, March 2, the delegates unanimously adopted Childress's suggestion for independence.",
+   "oneri": {},
+   "not": "f: [YIL] 'founded in 1824' (atlas 1824-01-01 uyumlu); ic_not: Austin yeri Ekim 1823'te seçti, geç 1823'te Seth Ingram şehri plana aldı (TSHA) — varoluş günü 1823'e geri çekilebilir ama kuruluş yılı kaynakta 1824; Meksika egemenliği 1821-09-27'den beri (künye f=1821-09-27, kapsıyor). t: 1836-03-02 bağımsızlık beyanı ÜLKE DÜZEYİ (Meksika tanımadı); San Felipe Teksas Geçici Hükûmeti'nin merkeziydi ve 1836-03-30'da Moseley Baker tarafından yakıldı (TSHA) — Meksika ordusu tarafından işgali okunmadı. Önceki dilimde sahip kaynaklı (Meksika)."
+  },
+  {
+   "sira": 3863,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "teksas-cumhuriyeti",
+   "f": "1836-03-02",
+   "t": "1845-12-29",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TSHA 'Republic of Texas' ve 'Annexation' — https://www.tshaonline.org/handbook/entries/annexation",
+   "alinti": "accepted by the United States Congress on December 29, 1845, the date of Texas's legal entry into the Union.",
+   "alinti2": "The next day, March 2, the delegates unanimously adopted Childress's suggestion for independence.",
+   "oneri": {
+    "t": "1846-02-19 (fiilî yetki devri töreni) — TEK ÖLÇÜ'ye göre teslim günü; EMRELİC kararı",
+    "d": "teksas-cumhuriyeti"
+   },
+   "not": "LAB SALI (775b41627): teksas-cumhuriyeti t 1846-02-19 GENİŞLET UYGULA'da (4 yerleşim). Değişmez 2: 1845-12-29 ve 1846-02-19 maddesi YOK — 1846-02-19 devir töreni madde önerisi LAB'da. · EMRELİC (5 Kasım 2026, r8_091): Teslim 1846-02-19 (TSHA yetki devri töreni); 1845-12-29 ic_not. teksas künye t GENİŞLET LAB'a; SİSTEMİK: bütün Teksas yerleşimleri aynı gün (4 yerleşim ölçüldü, liste LAB'a). · f=1836-03-02 KAYNAKLI (bağımsızlık beyanı, Washington-on-the-Brazos). t: TSHA 'Annexation': hukukî giriş 1845-12-29 ('legal entry'), ama 'The formal transfer of authority from the republic to the state was not made until a ceremony held on February 19, 1846' (Anson Jones'tan Henderson'a). TEK ÖLÇÜ: devralan fiilen yönetmiyorsa teslim günü; 29 Aralık'ta Cumhuriyet hâlâ yönetiyordu ⇒ 1846-02-19 önerilir, 1845-12-29 yürürlük/hukukî giriş ic_not. Künye `teksas-cumhuriyeti` t=1845-12-29 => 1846-02-19 için künye uzatması LAB'a (hayalet kontrolü: dilim künye aralığını aşar).",
+   "oneri_son": {
+    "d": "teksas-cumhuriyeti",
+    "f": "1836-03-02",
+    "t": "1846-02-19"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3864,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1845-12-29",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TSHA 'Annexation' — https://www.tshaonline.org/handbook/entries/annexation",
+   "alinti": "The formal transfer of authority from the republic to the state was not made until a ceremony held on February 19, 1846.",
+   "oneri": {
+    "f": "1846-02-19",
+    "d": "abd"
+   },
+   "not": "LAB SALI (775b41627): teksas-cumhuriyeti t 1846-02-19 GENİŞLET UYGULA'da (4 yerleşim). Değişmez 2: 1845-12-29 ve 1846-02-19 maddesi YOK — 1846-02-19 devir töreni madde önerisi LAB'da. · EMRELİC (5 Kasım 2026, r8_091): Teslim 1846-02-19 (TSHA yetki devri töreni); 1845-12-29 ic_not. teksas künye t GENİŞLET LAB'a; SİSTEMİK: bütün Teksas yerleşimleri aynı gün (4 yerleşim ölçüldü, liste LAB'a). · Hukukî giriş 1845-12-29 KAYNAKLI (alıntı2: 'accepted by the United States Congress on December 29, 1845, the date of Texas's legal entry into the Union'); TEK ÖLÇÜ ile fiilî devir 1846-02-19. Karar EMRELİC'te: atlasta tarih 12-29 kalıyorsa 'ONERI-kuralla çelişir' beyanı ic_not. Önceki satırla birlikte taşınır (Teksas t = ABD f).",
+   "oneri_son": {
+    "d": "abd",
+    "f": "1846-02-19",
+    "t": "2000-12-31"
+   },
+   "karar": "EMRELİC"
+  }
+ ],
+ "Sancti Spíritus": [
+  {
+   "sira": 3865,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1514-06-04",
+   "t": "1898-12-10",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "EcuRed 'Sancti Spíritus' (kolektif ansiklopedi, İPUCU) — https://www.ecured.cu/Sancti_Sp%C3%ADritus ; Treaty of Paris metni, Avalon Project (Yale) — https://avalon.law.yale.edu/19th_century/sp1898.asp ; Office of the Historian, 'The Spanish-American War, 1898' — https://history.state.gov/milestones/1866-1898/spanish-american-war",
+   "alinti": "Spain relinquishes all claim of sovereignty over and title to Cuba.",
+   "alinti2": "En 1514, en áreas cercanas al Río Tuinucú, fue fundada la Villa de Sancti Spíritus por Don Diego de Velázquez",
+   "oneri": {
+    "t": "1899-01-01 (TEK ÖLÇÜ: Havana teslimi, ABD askerî idaresi) — bu turda kaynakla okunmadı",
+    "f": "1514 (YIL; gün 06-04 teyitsiz; kaynak 'junio de 1514')"
+   },
+   "not": "LAB SALI (775b41627): Küba 10 yerleşim mevcut Küba kalemine eklendi (EMRELİC gece-31: s: abd + beyan; kuba-abd-askeri açılınca d: o, isg yok). DİKKAT: İspanyol dönemi d:\"ispanya\"; ispanyol-kuba künyesi (1511 → 1898-12-10) KULLANILMIYOR — d değişimi renk değiştirir (D-ANAHTAR benzeri Emre kararı). ispanyol-kuba t 1899-01-01 UYGULA'da. · EMRELİC (5 Kasım 2026, r8_091): İspanya t 1899-01-01 (teslim; Paris imzası 1898-12-10 ic_not). İşgal altında sahipsizlik olmamalı: rakip hükûmet kuralı — fiilî idare ABD askerî hükûmetinde → s: kuba-abd-askeri (LAB aday listesinde) 1899-01-01 → 1902-05-20, isg YOK; künye gelene dek BEYANLI. Paris 1898 md. I 'feragat, devir değil' ic_not. Aynısı bütün Küba yerleşimlerine (10, liste LAB'a). · f: EcuRed 'junio de 1514' — ay düzeyi, gün 4 doğrulanmadı; EcuRed akademik değil (ONERI-güçlü). Villa 1522 civarında Yayabo kıyısına taşındı (EcuRed 'hacia 1522') — atlas koordinatı mevcut yeri mi eski yeri mi göstereceği KASA'nın kararı. t: Paris Antlaşması 1898-12-10 imza (history.state.gov) ve Madde I İspanya'nın Küba egemenliğinden FERAGATİ (devir değil; ABD'ye 'cede' edilen Porto Riko/Guam/Filipinler; Küba 'relinquish'); işgal kaydı 'upon its evacuation by Spain, to be occupied by the United States'. ÖLÇÜT: geçici/askerî — Madde I ('so long as such occupation shall last') + history.state.gov (ABD Küba'yı ilhak etmeyeceğini taahhüt etti: 'foreswore any intention ... to annex'). 1898-12-10 imza gününde İspanya hâlâ yönetiyordu (tahliye 1899-01-01); ratifikasyon: ABD Senatosu 1899-02-06. Teslim günü 1899-01-01 okunmadı (history.state.gov Platt/Cuba maddeleri 404).",
+   "oneri_son": {
+    "d": "ispanya",
+    "f": "1514-06-04",
+    "t": "1899-01-01"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3866,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1898-12-10",
+   "t": "1902-05-20",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Avalon Project, Treaty of Paris 1898, Madde I — https://avalon.law.yale.edu/19th_century/sp1898.asp ; Office of the Historian — https://history.state.gov/milestones/1866-1898/spanish-american-war",
+   "alinti": "as the island is, upon its evacuation by Spain, to be occupied by the United States",
+   "oneri": {
+    "alan": "isg",
+    "d": "abd",
+    "f": "1899-01-01 (teslim; okunmadı — BAKILMADI) ya da antlaşma imzası 1898-12-10",
+    "t": "1902-05-20 (okunmadı)"
+   },
+   "not": "LAB SALI (775b41627): Küba 10 yerleşim mevcut Küba kalemine eklendi (EMRELİC gece-31: s: abd + beyan; kuba-abd-askeri açılınca d: o, isg yok). DİKKAT: İspanyol dönemi d:\"ispanya\"; ispanyol-kuba künyesi (1511 → 1898-12-10) KULLANILMIYOR — d değişimi renk değiştirir (D-ANAHTAR benzeri Emre kararı). ispanyol-kuba t 1899-01-01 UYGULA'da. · EMRELİC (5 Kasım 2026, r8_091): İşgal altında sahipsizlik olmamalı: rakip hükûmet kuralı — fiilî idare ABD askerî hükûmetinde → s: kuba-abd-askeri (LAB aday listesinde) 1899-01-01 → 1902-05-20, isg YOK; künye gelene dek BEYANLI. Paris 1898 md. I 'feragat, devir değil' ic_not. Aynısı bütün Küba yerleşimlerine (10, liste LAB'a). · ALAN DEĞİŞİKLİĞİ ÖNERİSİ: `s: abd` yerine `isg: abd` (Küba ilhak/devir değil, geçici askerî işgal; ÖLÇÜT: geçici/askerî — Madde I). ARADA SAHİPLİK: İspanya feragat etti, Küba Cumhuriyeti henüz yok (1902-05-20) ⇒ 'sahip' dilimi boş kalır; kural kararı gerek (Berlin 1945 emsali gibi 'egemenliği işgalci devralır' DEĞİL — ABD Teller Değişikliği'ne bağlı). t=1902-05-20 Küba'ya devir günü bu turda okunmadı (BAKILMADI).",
+   "oneri_son": {
+    "alan": "s",
+    "d": "kuba-abd-askeri (künye adayı LAB)",
+    "f": "1899-01-01",
+    "t": "1902-05-20",
+    "beyan": "BEYANLI (künye gelene dek)"
+   },
+   "karar": "EMRELİC"
+  }
+ ],
+ "Vancouver (Granville)": [
+  {
+   "sira": 3867,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1886-04-06",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Yalnız Vikipedi 'Vancouver' (tek dayanak olamaz, İPUCU): 'Established March 10, 1870 (as Granville); Incorporated April 6, 1886'; 'Hastings Mill that was built on July 1, 1867'. Canadian Encyclopedia robots.txt yasağı, DCB'de Granville geçmedi, Britannica 403.",
+   "alinti": "The City of Vancouver was incorporated on April 6, 1886, the same year that the first transcontinental train arrived.",
+   "oneri": {
+    "f": "1870-03-10 (Granville townsite; akademik teyit bekler) — ya da 1871-07-20 (Britanya Kolumbiyası Kanada'ya katıldı; brif ipucu, okunmadı)",
+    "d": "kanada"
+   },
+   "not": "LAB SALI (775b41627): britanya-kolumbiyasi-kolonisi aday (1858-08-02 → 1871-07-20; Vancouver Adası kolonisi ayrı mı tek mi, Emre). · EMRELİC (5 Kasım 2026, r8_091): Vancouver F-GERI 1870-03-10 (Granville) BEYANLI alt sınır, ONERI-güçlü; britanya-kolumbiyasi-kolonisi künye adayı LAB'a. Granville/Gastown akademik kaynak (BC Archives, UBC Press) aranacak. 1886-04-06 belediye ic_not. · atlas f=1886-04-06 İLÇE/BELEDİYE günüdür (alıntı bunu tarihler); F = VAROLUŞ GÜNÜ kuralı ilçe gününü ic_not'a iter. Varoluş: Hastings Mill 1867-07-01, Granville 1870-03-10 (Vikipedi, ONERI-güçlü). 1886 öncesi dilimin sahibi: 1870-1871-07-20 Britanya Kolumbiyası Kolonisi — depoda `data/devletler.js` içinde 'Britanya Kolumbiya / British Columbia / Vancouver' kimliği ARAMALA BULUNAMADI (yalnız `ruperts-land` ve `kanada` var); öncesinde Skuamiş/Musqueam/Tsleil-Waututh yerli künyesi de yok. => Yeni ilk dilimin sahibi kaynaklı olmayacağından F-GERİ ŞARTI SAĞLANMIYOR. Seçenek: f = 1871-07-20 (Kanada'ya katılış, sahip = kanada, künye f=1867-07-01 kapsıyor; 1870 Granville f varoluş günü ic_not) — EMRELİC kararı.",
+   "oneri_son": {
+    "d": "kanada",
+    "f": "1886-04-06",
+    "onceki": {
+     "d": "britanya-kolumbiyasi-kolonisi (künye adayı LAB)",
+     "f": "1870-03-10",
+     "t": "1871-07-20",
+     "beyan": "BEYANLI alt sınır; Vikipedi ipucu → ONERI-güçlü"
+    }
+   },
+   "karar": "EMRELİC"
+  }
+ ]
+}

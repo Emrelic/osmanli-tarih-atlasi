@@ -1,0 +1,219 @@
+{
+ "dobruca": {
+  "teslim_gunu": "1878-11-14 Rumen takvimi (Romanya Jülyen kullanırdı => Gregoryen 1878-11-26; ham metinlerde takvim yazmıyor, beyan); Köstence'ye varış 1878-11-23 (aynı takvim)",
+  "hukum": "ONERI (KAYNAKLI değil: TDV gün vermiyor; Rumen kaynaklar popüler basın / yasa gerekçesi)",
+  "kaynak": [
+   "Adevărul (popüler basın, akademik değil) https://adevarul.ro/stiri-locale/constanta/cum-era-numit-taramul-dintre-dunare-si-mare-in-1684399.html",
+   "Legea 230/2015 expunere de motive, M.Of. 750/2015 https://legeaz.net/monitorul-oficial-750-2015/lege-14-noiembrie-ziua-dobrogei",
+   "TDV dobruca / kostence / tulca: gün yok, yalnız 1878 Berlin"
+  ],
+  "alinti": "La 23 noiembrie 1878, trupele au ajuns la Constanţa, luând în stăpânire total regiunea. (Adevărul ham) · Carol I spunea în cuvântarea ţinută pe 14 noiembrie 1878 (legeaz ham) · TDV tulca: Kuzey Dobruca kesiminin Romanya’ya verilmesi üzerine Tulça Osmanlı idaresinden çıktı.",
+  "takvim": "Ham metinde Jülyen/Gregoryen yazmıyor. 14 Kasım Rumen Jülyen ise 26 Kasım 1878 Gregoryen. Arama ÖZETİ (ham değil, alıntı sayılmaz): 'pe 14/26 noiembrie 1878 armata română a trecut Dunărea la Ghecet' — kaynak Agerpres/Ovidius, ikisi de 403/robots ile çekilemedi. Atlas ek29'daki 'Agerpres 14/26 Kasım' notuyla uyumlu.",
+  "ek_not": "Akademik Rumen kaynaklar (aos.ro 140 de ani PDF, muzeulmarinei PDF'leri, Analele Dobrogei) ham okunamadı (PDF ikili/403) -> BAKILMADI. Rus çift tarih bulunamadı. Silistra Nouă județi 13 Kasım 1878 kuruldu (Vikipedi, yalnız ipucu).",
+  "yerlesimler": [
+   {
+    "ad": "Köstence",
+    "dosya_satir": "data/yerlesimler.js:1732",
+    "donemler_1878": [
+     {
+      "dosya_satir": "data/yerlesimler.js:1732",
+      "f": "1878-07-13",
+      "t": "1881-03-26",
+      "d": "romanya"
+     },
+     {
+      "dosya_satir": "data/yerlesimler.js:1732",
+      "f": "1881-03-26",
+      "t": "1947-12-30",
+      "d": "romanya-kralligi"
+     },
+     {
+      "dosya_satir": "data/yerlesimler.js:1732",
+      "f": "1419-01-01",
+      "t": "1878-07-13",
+      "d": null
+     }
+    ],
+    "oneri": {
+     "s_romanya_f": "1878-11-23 (Adevărul ham: trupele au ajuns la Constanţa; takvim belirsiz)",
+     "ara": "1878-07-13 -> teslim: isg rusya (Rus işgali; TEK ÖLÇÜ: Romanya henüz yönetmiyor => s teslimden); Berlin imza 1878-07-13 ic_not'a",
+     "hukum": "ONERI"
+    }
+   },
+   {
+    "ad": "Babadağı (Babadag)",
+    "dosya_satir": "data/yerlesimler_ek29.js:487",
+    "donemler_1878": [
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:488",
+      "f": "1878-07-13",
+      "t": "1881-03-26",
+      "d": "romanya"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:488",
+      "f": "1881-03-26",
+      "t": "1947-12-30",
+      "d": "romanya-kralligi"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:489",
+      "f": "1416-01-01",
+      "t": "1878-07-13",
+      "d": null
+     }
+    ],
+    "oneri": {
+     "s_romanya_f": "1878-11-14 (Rumen takvimi; Jülyen ise Gregoryen 1878-11-26) ya da yerleşimin kendi teslim günü",
+     "ara": "1878-07-13 -> teslim: isg rusya (Rus işgali; TEK ÖLÇÜ: Romanya henüz yönetmiyor => s teslimden); Berlin imza 1878-07-13 ic_not'a",
+     "hukum": "ONERI"
+    }
+   },
+   {
+    "ad": "Tulça (Tulcea)",
+    "dosya_satir": "data/yerlesimler_ek29.js:494",
+    "donemler_1878": [
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:497",
+      "f": "1878-07-13",
+      "t": "1881-03-26",
+      "d": "romanya"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:498",
+      "f": "1881-03-26",
+      "t": "1947-12-30",
+      "d": "romanya-kralligi"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:502",
+      "f": "1419-01-01",
+      "t": "1878-07-13",
+      "d": null
+     }
+    ],
+    "oneri": {
+     "s_romanya_f": "1878-11-14 (Rumen takvimi; Jülyen ise Gregoryen 1878-11-26) ya da yerleşimin kendi teslim günü",
+     "ara": "1878-07-13 -> teslim: isg rusya (Rus işgali; TEK ÖLÇÜ: Romanya henüz yönetmiyor => s teslimden); Berlin imza 1878-07-13 ic_not'a",
+     "hukum": "ONERI"
+    }
+   },
+   {
+    "ad": "Mangalya (Mangalia)",
+    "dosya_satir": "data/yerlesimler_ek29.js:503",
+    "donemler_1878": [
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:506",
+      "f": "1878-07-13",
+      "t": "1881-03-26",
+      "d": "romanya"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:507",
+      "f": "1881-03-26",
+      "t": "1947-12-30",
+      "d": "romanya-kralligi"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:511",
+      "f": "1419-01-01",
+      "t": "1878-07-13",
+      "d": null
+     }
+    ],
+    "oneri": {
+     "s_romanya_f": "1878-11-14 (Rumen takvimi; Jülyen ise Gregoryen 1878-11-26) ya da yerleşimin kendi teslim günü",
+     "ara": "1878-07-13 -> teslim: isg rusya (Rus işgali; TEK ÖLÇÜ: Romanya henüz yönetmiyor => s teslimden); Berlin imza 1878-07-13 ic_not'a",
+     "hukum": "ONERI"
+    }
+   },
+   {
+    "ad": "İshakçı (Isaccea)",
+    "dosya_satir": "data/yerlesimler_ek29.js:538",
+    "donemler_1878": [
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:539",
+      "f": "1878-07-13",
+      "t": "1881-03-26",
+      "d": "romanya"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:539",
+      "f": "1881-03-26",
+      "t": "1947-12-30",
+      "d": "romanya-kralligi"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:540",
+      "f": "1419-01-01",
+      "t": "1878-07-13",
+      "d": null
+     }
+    ],
+    "oneri": {
+     "s_romanya_f": "1878-11-14 (Rumen takvimi; Jülyen ise Gregoryen 1878-11-26) ya da yerleşimin kendi teslim günü",
+     "ara": "1878-07-13 -> teslim: isg rusya (Rus işgali; TEK ÖLÇÜ: Romanya henüz yönetmiyor => s teslimden); Berlin imza 1878-07-13 ic_not'a",
+     "hukum": "ONERI"
+    }
+   },
+   {
+    "ad": "Hırsova (Hârșova)",
+    "dosya_satir": "data/yerlesimler_ek29.js:975",
+    "donemler_1878": [
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:978",
+      "f": "1878-07-13",
+      "t": "1881-03-26",
+      "d": "romanya"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:979",
+      "f": "1881-03-26",
+      "t": "1947-12-30",
+      "d": "romanya-kralligi"
+     },
+     {
+      "dosya_satir": "data/yerlesimler_ek29.js:983",
+      "f": "1419-01-01",
+      "t": "1878-07-13",
+      "d": null
+     }
+    ],
+    "oneri": {
+     "s_romanya_f": "1878-11-14 (Rumen takvimi; Jülyen ise Gregoryen 1878-11-26) ya da yerleşimin kendi teslim günü",
+     "ara": "1878-07-13 -> teslim: isg rusya (Rus işgali; TEK ÖLÇÜ: Romanya henüz yönetmiyor => s teslimden); Berlin imza 1878-07-13 ic_not'a",
+     "hukum": "ONERI"
+    }
+   },
+   {
+    "ad": "Floci (Târgu de Floci)",
+    "dosya_satir": "data/yerlesimler_ek29.js:545",
+    "not": "Dobruca DEĞİL (Ialomiţa, Eflak yakası); s:romanya 1877-05-21; Dobruca teslim sorusuyla ilgisiz, listeye sayılmadı",
+    "donemler_1878": []
+   }
+  ]
+ },
+ "enez": {
+  "gun": "atlas 1456-01-24",
+  "hukum": "ONERI/BULUNAMADI",
+  "kaynak": "TDV'de Enez ŞEHİR maddesi yok (tdv-ara 'Enez' yalnız Ayasofya Camii; enez, enez--edirne slug'ları arama sayfasına düşüyor)",
+  "alinti": "Fâtih Sultan Mehmed’in donanma kumandanı Has Yûnus Bey tarafından 1455’te fethedilen Enez (TDV ayasofya-camii--enez, ham)",
+  "not": "TDV yalnız YIL 1455 verir; 1456-01-24 vermez. Çelişki: TDV 1455 vs atlas 1456-01. 24 Ocak 1456 günü yalnız Vikipedi (Dorino II Gattilusio: '24 January 1456 he led an army by land') — tek dayanak olamaz. Kritovulos/Dukas ham metni alınamadı: BAKILMADI. Hicrî 860 = 1455-12-10..1456-11-28; Ocak 1456 aralığa uyar ama gün kaynağı doğrulanamadı. Öneri: gün teyitsiz notu, TDV 1455 ic_not'ta beyan; Kritovulos/Dukas neşri ya da Miller/Setton ham okunmalı."
+ },
+ "hurmuz": {
+  "hukum": "ONERI",
+  "kaynak": "TDV hurmuz--iran https://islamansiklopedisi.org.tr/hurmuz--iran",
+  "alinti": "1507’de kumandan Albuquerque Hürmüz adasını kuşattı; ancak alamayarak geri döndü. Fakat yedi yıl sonra tekrar kuşattığında ... adayı ele geçirdi ve İran’ın vasalı olan sultanı Portekiz’e bağladı (1514).",
+  "uc": "f",
+  "not": "'(1514)' ikinci kuşatma/ele geçirme + sultanı Portekiz'e bağlamayı tarihliyor; 1507 ilk (başarısız) sefer. Atlas portekiz f 1515-04-01 ile TDV yılı 1514 çelişir. TDV 'işgalinden 108 yıl sonra ... 23 Nisan 1622' de 1514 ile tutarlı. Gün yok. Iranica 'Hormuz' BAKILMADI; 1515-04 için ikinci kaynak aranmalı.",
+  "oneri": {
+   "f": "1514 (YIL, TDV) yıl beyanıyla; 1515-04 ancak ikinci kaynakla"
+  }
+ },
+ "bulunamadi": [
+  "Rus 'ноября 1878' çift tarih: bulunamadı",
+  "Rumen akademik (Analele Dobrogei, Istoria Românilor): ham okunamadı -> BAKILMADI",
+  "Kritovulos/Dukas Enez ham metni: BAKILMADI",
+  "Iranica Hormuz: BAKILMADI"
+ ]
+}

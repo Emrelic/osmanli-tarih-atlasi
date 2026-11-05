@@ -1,0 +1,1329 @@
+[
+{
+"ad": "Roma",
+"neden": [
+"başkent:roma-imp",
+"merkez:roma-imp"
+]
+},
+{
+"ad": "Torino",
+"neden": [
+"merkez:roma-imp"
+]
+},
+{
+"ad": "Toledo",
+"neden": [
+"merkez:endulus-emevi",
+"merkez:ispanya",
+"merkez:roma-imp"
+]
+},
+{
+"ad": "Karakurum",
+"neden": [
+"başkent:mogol-imparatorlugu",
+"merkez:gokturk-1",
+"merkez:liao-hanedani",
+"merkez:mogol-imparatorlugu",
+"merkez:qing-hanedani",
+"merkez:uygur",
+"merkez:yuan-hanedani"
+]
+},
+{
+"ad": "Turfan",
+"neden": [
+"merkez:mogol-imparatorlugu"
+]
+},
+{
+"ad": "Pekin (Hanbalık)",
+"neden": [
+"başkent:jin-hanedani",
+"başkent:ming-hanedani",
+"başkent:qing-hanedani",
+"başkent:yuan-hanedani",
+"merkez:jin-hanedani",
+"merkez:liao-hanedani",
+"merkez:ming-hanedani",
+"merkez:mogol-imparatorlugu",
+"merkez:qing-hanedani",
+"merkez:yuan-hanedani"
+]
+},
+{
+"ad": "Londra",
+"neden": [
+"başkent:ingiltere",
+"merkez:ingiltere"
+]
+},
+{
+"ad": "Dublin",
+"neden": [
+"merkez:ingiltere"
+]
+},
+{
+"ad": "St. George's (Bermuda)",
+"neden": [
+"merkez:ingiltere"
+]
+},
+{
+"ad": "Xi'an (Chang'an)",
+"neden": [
+"başkent:bati-han",
+"başkent:sui",
+"başkent:tang",
+"merkez:bati-han",
+"merkez:jin-hanedani",
+"merkez:qin-hanedani",
+"merkez:sui",
+"merkez:tang",
+"merkez:yuan-hanedani"
+]
+},
+{
+"ad": "Kûfe",
+"neden": [
+"başkent:abbasi",
+"başkent:hulefa-yi-rasidin"
+]
+},
+{
+"ad": "Bağdat",
+"neden": [
+"başkent:abbasi",
+"merkez:abbasi"
+]
+},
+{
+"ad": "Mekke",
+"neden": [
+"merkez:abbasi",
+"merkez:eyyubi",
+"merkez:fatimi",
+"merkez:hulefa-yi-rasidin"
+]
+},
+{
+"ad": "Sana",
+"neden": [
+"merkez:abbasi",
+"merkez:aksum",
+"merkez:hulefa-yi-rasidin"
+]
+},
+{
+"ad": "Pasargad",
+"neden": [
+"başkent:ahamenis"
+]
+},
+{
+"ad": "Persepolis",
+"neden": [
+"başkent:ahamenis"
+]
+},
+{
+"ad": "Şuşa",
+"neden": [
+"başkent:ahamenis",
+"merkez:sovyet-rusya"
+]
+},
+{
+"ad": "Hemedan",
+"neden": [
+"merkez:ahamenis",
+"merkez:ilhanli",
+"merkez:medya",
+"merkez:part",
+"merkez:selevkos"
+]
+},
+{
+"ad": "İstanbul",
+"neden": [
+"başkent:bizans",
+"merkez:bizans"
+]
+},
+{
+"ad": "Ankara",
+"neden": [
+"merkez:bizans",
+"merkez:selcuklu"
+]
+},
+{
+"ad": "Rodos",
+"neden": [
+"merkez:bizans"
+]
+},
+{
+"ad": "Hanoi (Thăng Long)",
+"neden": [
+"merkez:tang"
+]
+},
+{
+"ad": "Nanking (Nanjing)",
+"neden": [
+"başkent:ming-hanedani",
+"merkez:ming-hanedani",
+"merkez:song",
+"merkez:sui",
+"merkez:tang"
+]
+},
+{
+"ad": "Mukden (Şenyang)",
+"neden": [
+"başkent:qing-hanedani",
+"merkez:qing-hanedani"
+]
+},
+{
+"ad": "Moskova",
+"neden": [
+"başkent:rusya",
+"başkent:sovyet-rusya",
+"merkez:kiev-rusu"
+]
+},
+{
+"ad": "Tver",
+"neden": [
+"merkez:rusya"
+]
+},
+{
+"ad": "Ryazan",
+"neden": [
+"merkez:kiev-rusu",
+"merkez:rusya"
+]
+},
+{
+"ad": "Pskov",
+"neden": [
+"merkez:rusya"
+]
+},
+{
+"ad": "Samsun",
+"neden": [
+"başkent:emevi"
+]
+},
+{
+"ad": "Nîşâbur",
+"neden": [
+"başkent:buyuk-selcuklu",
+"merkez:buyuk-selcuklu",
+"merkez:emevi",
+"merkez:harizmsah",
+"merkez:sasani"
+]
+},
+{
+"ad": "Merv (Mari)",
+"neden": [
+"başkent:buyuk-selcuklu",
+"merkez:buyuk-selcuklu",
+"merkez:emevi",
+"merkez:harizmsah",
+"merkez:sasani"
+]
+},
+{
+"ad": "Herat",
+"neden": [
+"başkent:timurlu",
+"merkez:afgan-durrani",
+"merkez:emevi",
+"merkez:sasani"
+]
+},
+{
+"ad": "Madrid",
+"neden": [
+"başkent:ispanya",
+"merkez:ispanya"
+]
+},
+{
+"ad": "Las Palmas (Real de Las Palmas, Gran Canaria)",
+"neden": [
+"merkez:ispanya"
+]
+},
+{
+"ad": "Fuzhou",
+"neden": [
+"merkez:ming-hanedani",
+"merkez:song",
+"merkez:sui"
+]
+},
+{
+"ad": "Aigai (Vergina)",
+"neden": [
+"başkent:makedonya-krallik"
+]
+},
+{
+"ad": "Fihl (Pella)",
+"neden": [
+"başkent:makedonya-krallik"
+]
+},
+{
+"ad": "Ktesiphon",
+"neden": [
+"başkent:part",
+"başkent:sasani"
+]
+},
+{
+"ad": "Patna (Azîmâbâd)",
+"neden": [
+"başkent:gupta",
+"başkent:maurya",
+"merkez:maurya"
+]
+},
+{
+"ad": "Delhi",
+"neden": [
+"başkent:babur-imparatorlugu",
+"başkent:delhi-sultanligi",
+"merkez:babur-imparatorlugu",
+"merkez:delhi-sultanligi"
+]
+},
+{
+"ad": "Agra",
+"neden": [
+"başkent:babur-imparatorlugu"
+]
+},
+{
+"ad": "Burhânpûr",
+"neden": [
+"merkez:babur-imparatorlugu"
+]
+},
+{
+"ad": "Asîrgarh",
+"neden": [
+"merkez:babur-imparatorlugu"
+]
+},
+{
+"ad": "Aşşur",
+"neden": [
+"başkent:yeni-asur"
+]
+},
+{
+"ad": "Ninova",
+"neden": [
+"başkent:yeni-asur"
+]
+},
+{
+"ad": "Şam",
+"neden": [
+"merkez:eyyubi",
+"merkez:fatimi",
+"merkez:memluk",
+"merkez:yeni-asur"
+]
+},
+{
+"ad": "İstefe (Tebai)",
+"neden": [
+"başkent:misir-yeni-krallik"
+]
+},
+{
+"ad": "Çerkask (Razdory)",
+"neden": [
+"merkez:altinorda",
+"merkez:sovyet-rusya"
+]
+},
+{
+"ad": "Zaporojye Seçi",
+"neden": [
+"merkez:sovyet-rusya"
+]
+},
+{
+"ad": "Paris",
+"neden": [
+"başkent:frank",
+"başkent:fransa",
+"başkent:fransa-cumhuriyet",
+"merkez:fransa"
+]
+},
+{
+"ad": "Toul",
+"neden": [
+"merkez:almanya",
+"merkez:fransa-cumhuriyet"
+]
+},
+{
+"ad": "Saint-Denis (Réunion)",
+"neden": [
+"merkez:fransa-cumhuriyet"
+]
+},
+{
+"ad": "Rennes",
+"neden": [
+"merkez:fransa",
+"merkez:fransa-cumhuriyet"
+]
+},
+{
+"ad": "Lizbon",
+"neden": [
+"başkent:portekiz",
+"merkez:endulus-emevi",
+"merkez:portekiz"
+]
+},
+{
+"ad": "Funchal (Madeira)",
+"neden": [
+"merkez:portekiz"
+]
+},
+{
+"ad": "Angra (Terceira, Azorlar)",
+"neden": [
+"merkez:portekiz"
+]
+},
+{
+"ad": "Philadelphia",
+"neden": [
+"başkent:abd"
+]
+},
+{
+"ad": "Washington (D.C.)",
+"neden": [
+"başkent:abd"
+]
+},
+{
+"ad": "Werowocomoco (Powhatan Konfederasyonu Başkenti)",
+"neden": [
+"merkez:abd"
+]
+},
+{
+"ad": "Savannah",
+"neden": [
+"merkez:abd"
+]
+},
+{
+"ad": "Plymouth (Massachusetts)",
+"neden": [
+"merkez:abd"
+]
+},
+{
+"ad": "Medine",
+"neden": [
+"başkent:hulefa-yi-rasidin"
+]
+},
+{
+"ad": "Trablus",
+"neden": [
+"merkez:hulefa-yi-rasidin"
+]
+},
+{
+"ad": "Rey",
+"neden": [
+"başkent:buyuk-selcuklu"
+]
+},
+{
+"ad": "Isfahan",
+"neden": [
+"başkent:buyuk-selcuklu",
+"başkent:safevi"
+]
+},
+{
+"ad": "Zerenc (Sîstan)",
+"neden": [
+"merkez:buyuk-selcuklu"
+]
+},
+{
+"ad": "Özalp (Saray)",
+"neden": [
+"başkent:altinorda"
+]
+},
+{
+"ad": "Astrahan",
+"neden": [
+"merkez:altinorda",
+"merkez:hazar-kaganligi"
+]
+},
+{
+"ad": "Saray (Selitrennoye)",
+"neden": [
+"merkez:altinorda"
+]
+},
+{
+"ad": "Semerkant",
+"neden": [
+"başkent:harizmsah",
+"başkent:timurlu",
+"merkez:cagatay",
+"merkez:gokturk-1"
+]
+},
+{
+"ad": "Belh",
+"neden": [
+"merkez:afgan-durrani",
+"merkez:timurlu"
+]
+},
+{
+"ad": "Kâbil",
+"neden": [
+"başkent:afgan-durrani",
+"merkez:afgan-durrani",
+"merkez:gazneli",
+"merkez:timurlu"
+]
+},
+{
+"ad": "Hokand",
+"neden": [
+"merkez:cagatay",
+"merkez:timurlu"
+]
+},
+{
+"ad": "Longcheng (Chaoyang)",
+"neden": [
+"başkent:hunnu-xiongnu"
+]
+},
+{
+"ad": "Berlin",
+"neden": [
+"başkent:almanya",
+"başkent:prusya",
+"merkez:prusya"
+]
+},
+{
+"ad": "Brüksel",
+"neden": [
+"merkez:almanya"
+]
+},
+{
+"ad": "Cenova",
+"neden": [
+"merkez:almanya"
+]
+},
+{
+"ad": "Tournai",
+"neden": [
+"başkent:frank"
+]
+},
+{
+"ad": "Soissons",
+"neden": [
+"başkent:frank"
+]
+},
+{
+"ad": "Aachen",
+"neden": [
+"başkent:frank"
+]
+},
+{
+"ad": "Bârfurûş (Bâbil)",
+"neden": [
+"başkent:babil-eski",
+"başkent:yeni-babil"
+]
+},
+{
+"ad": "Hattuşa",
+"neden": [
+"başkent:hitit"
+]
+},
+{
+"ad": "Selevkeia (Samandağ)",
+"neden": [
+"başkent:selevkos"
+]
+},
+{
+"ad": "Antakya",
+"neden": [
+"başkent:selevkos"
+]
+},
+{
+"ad": "Rakkāde",
+"neden": [
+"başkent:fatimi"
+]
+},
+{
+"ad": "Mehdiye",
+"neden": [
+"başkent:fatimi"
+]
+},
+{
+"ad": "Kayrevan",
+"neden": [
+"başkent:fatimi"
+]
+},
+{
+"ad": "Kahire",
+"neden": [
+"başkent:eyyubi",
+"başkent:fatimi",
+"başkent:memluk",
+"merkez:eyyubi",
+"merkez:fatimi",
+"merkez:memluk"
+]
+},
+{
+"ad": "Tebriz",
+"neden": [
+"başkent:harizmsah",
+"başkent:ilhanli",
+"başkent:safevi",
+"merkez:ilhanli",
+"merkez:safevi"
+]
+},
+{
+"ad": "Kazvin",
+"neden": [
+"başkent:safevi"
+]
+},
+{
+"ad": "Urmiye",
+"neden": [
+"merkez:safevi"
+]
+},
+{
+"ad": "Sultâniye",
+"neden": [
+"başkent:ilhanli",
+"merkez:safevi"
+]
+},
+{
+"ad": "Kudüs",
+"neden": [
+"merkez:memluk"
+]
+},
+{
+"ad": "Kaifeng",
+"neden": [
+"başkent:song"
+]
+},
+{
+"ad": "Lin'an (Jianshui)",
+"neden": [
+"başkent:song"
+]
+},
+{
+"ad": "Hangzhou",
+"neden": [
+"başkent:song"
+]
+},
+{
+"ad": "Changsha",
+"neden": [
+"merkez:song"
+]
+},
+{
+"ad": "Xianyang",
+"neden": [
+"başkent:qin-hanedani"
+]
+},
+{
+"ad": "Haojing (Fenghao, Xi'an yakını)",
+"neden": [
+"başkent:bati-zhou"
+]
+},
+{
+"ad": "Bagram",
+"neden": [
+"başkent:kusan"
+]
+},
+{
+"ad": "Peşâver",
+"neden": [
+"başkent:kusan"
+]
+},
+{
+"ad": "Merâga",
+"neden": [
+"başkent:ilhanli",
+"merkez:ilhanli"
+]
+},
+{
+"ad": "Viyana",
+"neden": [
+"başkent:habsburg"
+]
+},
+{
+"ad": "Lahor",
+"neden": [
+"başkent:gazneli",
+"merkez:delhi-sultanligi",
+"merkez:gazneli"
+]
+},
+{
+"ad": "Multan",
+"neden": [
+"merkez:delhi-sultanligi"
+]
+},
+{
+"ad": "Kartaca (Carthage)",
+"neden": [
+"başkent:kartaca"
+]
+},
+{
+"ad": "Anyang",
+"neden": [
+"başkent:shang"
+]
+},
+{
+"ad": "Luoyang",
+"neden": [
+"başkent:sui"
+]
+},
+{
+"ad": "Lhasa",
+"neden": [
+"başkent:tibet-imparatorlugu"
+]
+},
+{
+"ad": "Kaşgar",
+"neden": [
+"merkez:tibet-imparatorlugu"
+]
+},
+{
+"ad": "Ordu-Balık (Ordu-Baliq)",
+"neden": [
+"başkent:uygur"
+]
+},
+{
+"ad": "Orhun Vadisi (Ötüken bölgesi)",
+"neden": [
+"başkent:uygur"
+]
+},
+{
+"ad": "Pannonia",
+"neden": [
+"başkent:hun-avrupa"
+]
+},
+{
+"ad": "Almalık (Almalığ)",
+"neden": [
+"başkent:cagatay"
+]
+},
+{
+"ad": "Karşi (Nahşeb)",
+"neden": [
+"başkent:cagatay"
+]
+},
+{
+"ad": "Taşkent",
+"neden": [
+"merkez:cagatay"
+]
+},
+{
+"ad": "Gazne",
+"neden": [
+"başkent:gazneli",
+"merkez:gazneli"
+]
+},
+{
+"ad": "Köhne Ürgenç (Gürgenç)",
+"neden": [
+"başkent:harizmsah",
+"merkez:harizmsah"
+]
+},
+{
+"ad": "İznik",
+"neden": [
+"başkent:selcuklu"
+]
+},
+{
+"ad": "Konya",
+"neden": [
+"başkent:selcuklu",
+"merkez:selcuklu"
+]
+},
+{
+"ad": "Sivas",
+"neden": [
+"merkez:selcuklu"
+]
+},
+{
+"ad": "Kurtuba (Córdoba)",
+"neden": [
+"başkent:endulus-emevi"
+]
+},
+{
+"ad": "Zaragoza",
+"neden": [
+"merkez:endulus-emevi"
+]
+},
+{
+"ad": "Tinmel (Tin Mal)",
+"neden": [
+"başkent:muvahhidler"
+]
+},
+{
+"ad": "Merakeş",
+"neden": [
+"başkent:muvahhidler",
+"merkez:muvahhidler"
+]
+},
+{
+"ad": "Fas (Fez)",
+"neden": [
+"merkez:muvahhidler"
+]
+},
+{
+"ad": "Miknâs (Meknes)",
+"neden": [
+"merkez:muvahhidler"
+]
+},
+{
+"ad": "İskenderiye",
+"neden": [
+"başkent:ptolemai"
+]
+},
+{
+"ad": "Atina",
+"neden": [
+"başkent:delos-birligi"
+]
+},
+{
+"ad": "Tancûr (Thanjavur)",
+"neden": [
+"başkent:cola"
+]
+},
+{
+"ad": "Polonnaruwa",
+"neden": [
+"merkez:cola"
+]
+},
+{
+"ad": "Vijayanagara (Hampi)",
+"neden": [
+"başkent:vijayanagara",
+"merkez:vijayanagara"
+]
+},
+{
+"ad": "Arkot (Arcot)",
+"neden": [
+"merkez:vijayanagara"
+]
+},
+{
+"ad": "Seringapatam (Şrirangapatnam)",
+"neden": [
+"merkez:vijayanagara"
+]
+},
+{
+"ad": "Pûne (Poona)",
+"neden": [
+"başkent:maratha",
+"merkez:maratha"
+]
+},
+{
+"ad": "Mandu (Mândû)",
+"neden": [
+"merkez:maratha"
+]
+},
+{
+"ad": "Ahmedâbâd",
+"neden": [
+"merkez:maratha"
+]
+},
+{
+"ad": "Kandehar",
+"neden": [
+"başkent:afgan-durrani"
+]
+},
+{
+"ad": "Edo (Tokyo)",
+"neden": [
+"başkent:edo-bakufu"
+]
+},
+{
+"ad": "Kōchi",
+"neden": [
+"merkez:edo-bakufu"
+]
+},
+{
+"ad": "Kyoto",
+"neden": [
+"merkez:edo-bakufu"
+]
+},
+{
+"ad": "Kamakura",
+"neden": [
+"merkez:edo-bakufu"
+]
+},
+{
+"ad": "Pungnaptoseong (Wiryeseong/Hanseong, Seul)",
+"neden": [
+"başkent:joseon"
+]
+},
+{
+"ad": "Seul (Hanyang)",
+"neden": [
+"başkent:joseon",
+"merkez:joseon"
+]
+},
+{
+"ad": "Kaesong",
+"neden": [
+"merkez:joseon"
+]
+},
+{
+"ad": "Angkor (Siem Reap)",
+"neden": [
+"başkent:angkor-kmer",
+"merkez:angkor-kmer"
+]
+},
+{
+"ad": "Saygon (Gia Định)",
+"neden": [
+"merkez:angkor-kmer"
+]
+},
+{
+"ad": "Vijaya (Quy Nhơn)",
+"neden": [
+"merkez:angkor-kmer"
+]
+},
+{
+"ad": "Palembang",
+"neden": [
+"başkent:srivijaya"
+]
+},
+{
+"ad": "Jambi",
+"neden": [
+"başkent:srivijaya"
+]
+},
+{
+"ad": "Trowulan (Majapahit)",
+"neden": [
+"başkent:majapahit",
+"merkez:majapahit"
+]
+},
+{
+"ad": "Demak",
+"neden": [
+"merkez:majapahit"
+]
+},
+{
+"ad": "Bali (Klungkung)",
+"neden": [
+"merkez:majapahit"
+]
+},
+{
+"ad": "Cusco (Qosqo)",
+"neden": [
+"başkent:inka-imparatorlugu",
+"merkez:inka-imparatorlugu"
+]
+},
+{
+"ad": "Cajamarca",
+"neden": [
+"merkez:inka-imparatorlugu"
+]
+},
+{
+"ad": "Chan Chan",
+"neden": [
+"merkez:inka-imparatorlugu"
+]
+},
+{
+"ad": "Tenochtitlan (Mexico City)",
+"neden": [
+"başkent:aztek-imparatorlugu",
+"merkez:aztek-imparatorlugu"
+]
+},
+{
+"ad": "Tlacopan (Tacuba)",
+"neden": [
+"merkez:aztek-imparatorlugu"
+]
+},
+{
+"ad": "Texcoco",
+"neden": [
+"merkez:aztek-imparatorlugu"
+]
+},
+{
+"ad": "Niani",
+"neden": [
+"başkent:mali-imparatorlugu",
+"merkez:mali-imparatorlugu"
+]
+},
+{
+"ad": "Timbuktu",
+"neden": [
+"merkez:mali-imparatorlugu",
+"merkez:songhay-imparatorlugu"
+]
+},
+{
+"ad": "Gao",
+"neden": [
+"başkent:songhay-imparatorlugu",
+"merkez:mali-imparatorlugu",
+"merkez:songhay-imparatorlugu"
+]
+},
+{
+"ad": "Cenne (Djenné)",
+"neden": [
+"merkez:songhay-imparatorlugu"
+]
+},
+{
+"ad": "Kumbî Sâlih (Gāne)",
+"neden": [
+"başkent:gane"
+]
+},
+{
+"ad": "Aksum",
+"neden": [
+"başkent:aksum",
+"merkez:habesistan"
+]
+},
+{
+"ad": "Gondar",
+"neden": [
+"başkent:habesistan",
+"merkez:habesistan"
+]
+},
+{
+"ad": "Asmara",
+"neden": [
+"merkez:habesistan"
+]
+},
+{
+"ad": "N'Gazargamu",
+"neden": [
+"başkent:kanem-bornu"
+]
+},
+{
+"ad": "Mao (Kanem)",
+"neden": [
+"merkez:kanem-bornu"
+]
+},
+{
+"ad": "Birni N'gazargamu",
+"neden": [
+"merkez:kanem-bornu"
+]
+},
+{
+"ad": "Murzuk (Fizan)",
+"neden": [
+"merkez:kanem-bornu"
+]
+},
+{
+"ad": "Sokoto",
+"neden": [
+"başkent:sokoto"
+]
+},
+{
+"ad": "Zaria (Zazzau)",
+"neden": [
+"merkez:sokoto"
+]
+},
+{
+"ad": "Kano",
+"neden": [
+"merkez:sokoto"
+]
+},
+{
+"ad": "Katsina",
+"neden": [
+"merkez:sokoto"
+]
+},
+{
+"ad": "Meroe",
+"neden": [
+"başkent:kush-krallik"
+]
+},
+{
+"ad": "Varşova",
+"neden": [
+"başkent:lehistan",
+"merkez:lehistan",
+"merkez:prusya"
+]
+},
+{
+"ad": "Vilnius",
+"neden": [
+"merkez:lehistan"
+]
+},
+{
+"ad": "Krakov",
+"neden": [
+"merkez:lehistan"
+]
+},
+{
+"ad": "Stokholm",
+"neden": [
+"merkez:isvec"
+]
+},
+{
+"ad": "Helsinki",
+"neden": [
+"merkez:isvec"
+]
+},
+{
+"ad": "Tallinn (Reval)",
+"neden": [
+"merkez:isvec"
+]
+},
+{
+"ad": "Amsterdam",
+"neden": [
+"başkent:hollanda",
+"merkez:hollanda"
+]
+},
+{
+"ad": "Lahey (Den Haag)",
+"neden": [
+"başkent:hollanda"
+]
+},
+{
+"ad": "New Amsterdam (Berbice)",
+"neden": [
+"merkez:hollanda"
+]
+},
+{
+"ad": "Kap (Cape Town)",
+"neden": [
+"merkez:hollanda"
+]
+},
+{
+"ad": "Dijon",
+"neden": [
+"merkez:fransa"
+]
+},
+{
+"ad": "Venedik",
+"neden": [
+"başkent:venedik",
+"merkez:venedik"
+]
+},
+{
+"ad": "Zadar (Zara)",
+"neden": [
+"merkez:venedik"
+]
+},
+{
+"ad": "Kandiye (Girit)",
+"neden": [
+"merkez:venedik"
+]
+},
+{
+"ad": "Kiev",
+"neden": [
+"başkent:kiev-rusu"
+]
+},
+{
+"ad": "Novgorod",
+"neden": [
+"merkez:kiev-rusu"
+]
+},
+{
+"ad": "Nitra (Nyitra)",
+"neden": [
+"merkez:macaristan"
+]
+},
+{
+"ad": "Aquincum-Óbuda-Pest",
+"neden": [
+"merkez:macaristan"
+]
+},
+{
+"ad": "Klis",
+"neden": [
+"merkez:macaristan"
+]
+},
+{
+"ad": "Pliska",
+"neden": [
+"başkent:birinci-bulgar"
+]
+},
+{
+"ad": "Preslav",
+"neden": [
+"başkent:birinci-bulgar"
+]
+},
+{
+"ad": "Ohri",
+"neden": [
+"başkent:birinci-bulgar"
+]
+},
+{
+"ad": "Üsküp",
+"neden": [
+"merkez:birinci-bulgar"
+]
+},
+{
+"ad": "Sofya",
+"neden": [
+"merkez:birinci-bulgar"
+]
+}
+]

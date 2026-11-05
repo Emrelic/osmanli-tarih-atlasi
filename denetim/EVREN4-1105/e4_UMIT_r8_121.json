@@ -1,0 +1,229 @@
+{
+ "Garðar (Igaliku)": [
+  {
+   "sira": 4430,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "norse-gronland",
+   "f": "1124-01-01",
+   "t": "1450-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "lex.dk (Den Store Danske), 'Det norrøne Grønland', https://lex.dk/Det_norr%C3%B8ne_Gr%C3%B8nland (ham metin sayfa.py ile okundu)",
+   "alinti": "Omkring år 1124 udpegede den norske konge Sigurd Jorsalfarer grønlændernes første biskop, Arnald.",
+   "oneri": {
+    "f": "",
+    "t": "",
+    "d": ""
+   },
+   "not": "f 1124 piskoposun atanmasını tarihler ('omkring'), Garðar'ın Norse mülkiyetinin başını değil (çiftlik ~1000 civarı yerleşik). 'Garðar bispesæde frem til 1378' (son rezident piskopos ölümü); son yazılı iz Garðar'dan 1409 mektubu, son bilinen sefer 1410; yerleşimler '1400-tallet' boyunca söner. Kaynak t=1450 vermiyor. 1261: 'tilsluttede sig kong Håkon 4. Håkonssons Norgesvælde i 1261' (vergiye tabi) - atlas norse-gronland'ı 1450'ye kadar tek d tutuyor; 1261 ic_not'a yazılmalı (v: norvec mi karar EMRELİC). İki uç da KAYNAKLI değil. Arneborg hakemli makalesi okunamadı (UNESCO whc 1536 zaman aşımı, snl.no 404): kısmen BAKILMADI."
+  }
+ ],
+ "Vichy": [
+  {
+   "sira": 4432,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "vichy-fransasi",
+   "f": "1940-07-10",
+   "t": "1944-08-20",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "fr.wikipedia 'Vichy' (yalnız ham metin; tek dayanak olamaz); Treccani 'Vichy' (ham: yalnız 1940 mütarekesi, gün yok); künye kaynağı Légifrance Ordonnance 9 août 1944 (robots.txt nedeniyle okunamadı)",
+   "alinti": "les Allemands emmènent le 20 août le maréchal Pétain à Belfort puis à Sigmaringen. Quelques jours plus tard, le 25 août",
+   "oneri": {
+    "f": "1940-07-10",
+    "t": "1944-08-25",
+    "d": "vichy-fransasi"
+   },
+   "not": "ŞEHİR düzeyi: Pétain 20 Ağustos'ta Belfort'a götürüldü (devlet ucu) ama şehrin kendisi 25 Ağustos gecesi Stucki'nin müzakeresiyle devredildi (fr.wikipedia ham). Şehir için t=1944-08-25 ADAY (yalnız Vikipedi: ONERI). f 10 Temmuz 1940 (tam yetki oyu) en.wikipedia ham ve künye Légifrance kaydı; akademik ham alıntı yok. Vichy 'zone libre'de; Kasım 1942'den tüm Fransa Alman işgalinde (isg Almanya katmanı gerekebilir, ayrı karar). Akademik (Paxton, Jackson) archive.org'da kilitli (401). Karar EMRELİC."
+  },
+  {
+   "sira": 4433,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1944-08-20",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "fr.wikipedia 'Vichy' ham metin (tek dayanak olamaz)",
+   "alinti": "Quelques jours plus tard, le 25 août et la nuit suivante, dans le cadre d'un accord négocié par",
+   "oneri": {
+    "f": "1944-08-25",
+    "t": "",
+    "d": "fransa-cumhuriyet"
+   },
+   "not": "Önceki satırla birlikte taşınmalı: şehrin cumhuriyet/GPRF eline geçişi 1944-08-25/26 gecesi. GPRF 1944-06-03; 9 Ağustos 1944 ordonansı hukuken Vichy'yi yok sayar (künye ic_not): de jure ile fiilî ayrımı. t=2000 pencere ucu (künye ic_not_t), ölçüm değil."
+  }
+ ],
+ "Ruijin (Jiangxi)": [
+  {
+   "sira": 4434,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "cin-sovyet-cumhuriyeti",
+   "f": "1931-11-07",
+   "t": "1934-10-10",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "en.wikipedia 'Chinese Soviet Republic' ham metin (tek dayanak olamaz; dipnot: Phillips 'China Since 1911' 1996, Schram 'Mao Tse-tung' 1966 - archive.org ödünç kilitli, 401)",
+   "alinti": "In November 1931, a National Soviet People's Delegates Conference proclaimed the CSR in Ruijin , Jiangxi.",
+   "oneri": {
+    "f": "1931-11-07",
+    "t": "1934-11-10",
+    "d": "cin-sovyet-cumhuriyeti"
+   },
+   "not": "f 7 Kasım 1931 (ilan) Vikipedi infobox; akademik ham alıntı yok -> ONERI. t: atlas 1934-10-10 ne Uzun Yürüyüş başlangıcı (infobox 1934-10-07; Yudu hattı 1934-10-16) ne de Ruijin'in düşmesi; infobox 'Fall of Ruijin 10 November 1934' -> şehir için t ADAY 1934-11-10. Devlet künyesi t=1937-09-22 (Yan'an'da sürdü). İkinci/akademik kaynak aranmalı (Cambridge History of China c.13 açık cilt bulunamadı). Çin takvim ifadesi yok."
+  },
+  {
+   "sira": 4435,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "cin-cumhuriyeti",
+   "f": "1934-10-10",
+   "t": "1949-10-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "en.wikipedia 'Chinese Soviet Republic' ham metin (tek dayanak olamaz)",
+   "alinti": "Fall of Ruijin 10 November 1934",
+   "oneri": {
+    "f": "1934-11-10",
+    "t": "",
+    "d": "cin-cumhuriyeti"
+   },
+   "not": "Önceki satırla birlikte taşınmalı (Ruijin'in Kuomintang eline geçişi 1934-11-10, infobox). t=1949-10-01 (PRC ilanı) bu şehir için ayrıca teyit EDİLMEDİ (BAKILMADI); ROC künye t'si pencere ucu."
+  }
+ ],
+ "Tripuri (Tewar)": [
+  {
+   "sira": 4437,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kalacuri-tripuri",
+   "f": "1000-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Imperial Gazetteer of India vol. X (Central Provinces), 1908, archive.org in.ernet.dli.2015.61182, ham metin (IGI = İPUCU-ARTI; tek başına KAYNAKLI vermez)",
+   "alinti": "it is last referred to in an inscription dated 1181.",
+   "oneri": {
+    "f": "",
+    "t": "1181-01-01",
+    "d": "kalacuri-tripuri"
+   },
+   "not": "LAB SALI (55887c1ad, 5 Kasım 2026): Son yazıt (1181) ALT SINIRDIR; ic_not'a 'hanedanın sonu bilinmiyor' yazılır. · EMRELİC gece-98 (5 Kasım 2026): IGI ipucu: künye t → 1181-01-01 '[son yazıt; IGI]' ONERI-güçlü (hayalet devlet giderilir). LAB'a. · IGI: Kalachuri/Chedi hanedanı başkenti 'Tripura or Karanbel, where the village of Tewar now stands near Jubbulpore'; 9. yy'dan önce bilinmiyor; son anıldığı yazıt 1181. t=2000-12-31 hayalet: künyenin t'si yok, künye özeti de t BULUNAMADI diyor. ONERI t=1181-01-01 [yalnız yıl; son yazıt, siyasi sonu doğrudan tarihlemez]. Sonrası Tewar için sahip (Chandela/Paramara/Gond Garha) belirsiz -> __BOSLUK__ ya da yeni künye kararı. Modern akademik teyit (Mirashi, CII IV; Epigraphia Indica) okunamadı -> ONERI-güçlü. f=1000 künye f 850 ile uyumlu ara uç, kaynaksız.",
+   "_etiket": "ONERI_GUCLU",
+   "oneri_son": {
+    "d": "kalacuri-tripuri",
+    "f": "1000-01-01",
+    "t": "1181-01-01",
+    "not": "[son yazıt; IGI]; künye t LAB'a; Mirashi CII IV ile teyit edilirse KAYNAKLI"
+   },
+   "karar": "EMRELİC gece-98"
+  }
+ ],
+ "Tifariti": [
+  {
+   "sira": 4438,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sahra-arap-demokratik-cumhuriyeti",
+   "f": "1976-02-27",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "en.wikipedia 'Tifariti' ham metin (tek dayanak olamaz; dipnotlar ABC 7 Şubat 1976, NYT 15 Mart 1977, El País 8 Ağustos 1991); UN MINURSO fact sheet (ham: 'established April 1991 ... ceasefire reached by Morocco and Frente Polisario')",
+   "alinti": "The village was briefly occupied by the Moroccan Army in February 1976",
+   "oneri": {
+    "f": "",
+    "t": "",
+    "d": ""
+   },
+   "not": "SADR ilanı 1976-02-27 ile Tifariti'nin fiilen SADR'a geçişi aynı şey değil: Fas ordusu Şubat 1976'da işgal etti, 2 ay sonra çekildi, SPLA Mart 1977'de yeniden aldı, 1977 yazında Fas ~2 yıl tuttu (Vikipedi, dipnotlu); sürekli Polisario denetimi 1979 sonrası (gün teyitsiz). 1991 Ağustos'ta Fas hava saldırısı; ateşkes 1991-09-06 (yalnız arama özeti, BM ham metninde bulunamadı). Çekişmeli: katman (isg/d) kararı gerekli; KAYNAKLI değil. BM belgeleri (S/22464 vb.) ve akademik kaynak okunamadı."
+  }
+ ],
+ "Lusaka": [
+  {
+   "sira": 4439,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "rodezya-nyasaland-federasyonu",
+   "f": "1953-08-01",
+   "t": "1963-12-31",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Visuotinė lietuvių enciklopedija (VLE), 'Lusaka', https://www.vle.lt/straipsnis/lusaka/ (ham metin, yıl düzeyi)",
+   "alinti": "1953–63 ... Rodezijos ir Niasalando Federacija administracinis centras",
+   "oneri": {
+    "f": "1953-08-01",
+    "t": "1963-12-31",
+    "d": "rodezya-nyasaland-federasyonu"
+   },
+   "not": "LAB SALI (55887c1ad, 5 Kasım 2026): Kuzey Rodezya künyesi VAR (ingiliz-kuzey-rodezya 1890 → 1964-10-24, devletler.js:10282); önceki 'künye yok' notu YANLIŞ. Federasyonda protektora sürdü: s: ingiliz-kuzey-rodezya + v: federasyon 1953-08-01 → 1963-12-31; 1964-01-01 → 10-23 s: ingiliz-kuzey-rodezya; 1964-10-24 zambiya. Boşluk kalmaz. · YIL düzeyi uyumlu: VLE 1931-64 Lusaka Kuzey Rodezya himayesi idare merkezi; 1953-63 Federasyon (federal başkent aslında Salisbury). Gün uçları (08-01 Vikipedi türevi, FOTW 3 Eylül 1953 diyor; 1963-12-31 Britannica arama özeti, 403) ham metinle doğrulanamadı. Asıl soru: Lusaka için s: federasyon mu, s: kuzey-rodezya (Britanya himayesi) mü; devletler.js'te 'kuzey-rodezya' künyesi YOK (yalnız 'zambiya') -> LAB. 1963-12-31 -> 1964-10-24 (Zambia Independence Act 1964, arama özeti) arası dilimin sahibi atlasta ayrıca kontrol edilmeli. Uç günleri BAKILMADI.",
+   "oneri_son": [
+    {
+     "alan": "s",
+     "d": "ingiliz-kuzey-rodezya",
+     "f": "1953-08-01",
+     "t": "1964-10-24"
+    },
+    {
+     "alan": "v",
+     "d": "rodezya-nyasaland-federasyonu",
+     "f": "1953-08-01",
+     "t": "1963-12-31"
+    },
+    {
+     "alan": "s",
+     "d": "zambiya",
+     "f": "1964-10-24"
+    }
+   ]
+  }
+ ],
+ "Butterworth": [
+  {
+   "sira": 4440,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "transkei",
+   "f": "1976-10-26",
+   "t": "1994-04-27",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "encyclopedia.com (Columbia Encyclopedia), 'Transkei' ham metin; VLE 'Transkei' https://www.vle.lt/straipsnis/transkei/ ham; en.wikipedia 'Butterworth, Eastern Cape' (yalnız konum: 'incorporated into the former Transkei bantustan')",
+   "alinti": "In 1976 Transkei became the first of the homelands to be granted \"independence.\"",
+   "oneri": {
+    "f": "",
+    "t": "",
+    "d": ""
+   },
+   "not": "EMRELİC gece-98 (5 Kasım 2026): Columbia Encyclopedia (Encyclopedia.com) ticari/genel ansiklopedi → ONERI-güçlü (e-history.kz emsali). VLE yalnız yıl veriyorsa gün teyitsiz. · ÜLKE DÜZEYİ + YIL düzeyi: 1976 bağımsızlık, 1994 yeniden birleşme (Columbia: 'In 1994 ... reabsorbed into South Africa'; VLE 1994 Doğu Kyşulys eyaleti). Günler 1976-10-26 ve 1994-04-27 bu ham metinlerde YOK -> gün teyitsiz, yıl KAYNAKLI. Butterworth'un Transkei içinde olduğu şehir maddesinde teyitli. NOT: brifteki 'Penang/Butterworth 1957-08-31' ipucu Malezya Butterworth'u içindi; atlas satırı Doğu Cape Butterworth'u (Transkei), ipucu uygulanmadı.",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU",
+   "karar": "EMRELİC gece-98"
+  }
+ ],
+ "Bisho": [
+  {
+   "sira": 4441,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ciskei",
+   "f": "1981-12-04",
+   "t": "1994-04-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Visuotinė lietuvių enciklopedija (VLE), 'Ciskei', https://www.vle.lt/straipsnis/ciskei/ (ham metin, sayfa.py); encyclopedia.com Columbia 'Ciskei'",
+   "alinti": "1981 12 04 – formalią nepriklausomybę ... 1994 04 27 Ciskei vėl tapo šios valstybės teritorija",
+   "oneri": {
+    "f": "",
+    "t": "",
+    "d": ""
+   },
+   "not": "EMRELİC gece-98 (5 Kasım 2026): Visuotinė lietuvių enciklopedija ulusal akademik ansiklopedi → KAYNAKLI kalır (ülke düzeyi). · İki uç da VLE'de gün düzeyinde: f 1981-12-04 (formal bağımsızlık), t 1994-04-27 (GAC'a, Doğu Cape'e yeniden katılma; Bhisho eyalet merkezi). Columbia: 1981 'fourth homeland', 1994 yeniden birleşme; 'The capital was Bisho'. ÜLKE DÜZEYİ (şehir değil Ciskei). Vikipedi bir sayfada Bhisho için 1994-08-12 gösteriyor; kullanılmadı. Columbia: 'South Africa took control of Ciskei in early 1994 after a coup' -> ic_not.",
+   "karar": "EMRELİC gece-98"
+  }
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "Pavia": [
+  {
+   "sira": 4406,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "langobard",
+   "f": "0572-01-01",
+   "t": "0774-06-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Treccani, Enciclopedia on line 'Longobardi' https://www.treccani.it/enciclopedia/longobardi/ ; Treccani 'Desiderio re dei Longobardi' https://www.treccani.it/enciclopedia/desiderio-re-dei-longobardi/",
+   "alinti": "poco dopo la presa di Pavia (572) ... D. fu assediato a Pavia, finché nel giugno del 774, arresosi",
+   "oneri": {},
+   "not": "ÖLÇÜT: idareye katma - Pavia Lombard başkenti (Treccani EI 'Pavia': 'la elessero a capitale del regno'). f: 'Longobardi' maddesi Pavia'nın alınışını 572 verir (gece-66: şehir kendi fetih yılını alır; EI 'Alboino': Milano sonbahar 569, Pavia 3 yıl kuşatma, Alboino ö. 28 Haz 572). t: 'Desiderio' maddesi 774 Haziran teslimi (ay düzeyi, gün yok; atlas 0774-06-01 = yalnız ay). f yıl düzeyi (0572-01-01). 569-572 kuşatma dönemi ayrı dilim gerektirmez."
+  }
+ ],
+ "Spoleto": [
+  {
+   "sira": 4407,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "spoleto-dukaligi",
+   "f": "0571-01-01",
+   "t": "1198-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Enciclopedia Italiana (1936), 'Spoleto' https://www.treccani.it/enciclopedia/spoleto_(Enciclopedia-Italiana)/",
+   "alinti": "Quando nel 571 l'invasione longobarda ... è probabile che sia sorto anche il ducato di Spoleto",
+   "oneri": {},
+   "not": "f 571 (EI, 'probabile' - BEYANLI; Faroaldo 571-591 circa; dukalık kuruluşu, şehrin kendi fetih günü yok). t: aynı madde 'già nel 1198 Innocenzo III ... afferma il suo dominio su Spoleto ... il vecchio conte Corrado deve abbandonare Spoleto al nuovo rettore' (alıntı ikinci cümle, 15 kelime sınırı için kısaltılmadı: ikinci alıntı bu notta). UYARI (künye/süreklilik, KASA/LAB): EI 774 sonrası halk papaya biat eder, 776'dan itibaren belgeler Karl yıllarıyla tarihlenir, 'È finita con l'autonomia di Spoleto; i duchi divengono semplici funzionarî' - yani 776-1198 dukalık Frank/imparatorluk idaresindedir. 1198 Kilise hakimiyeti kalıcı değil (Otto IV 1201 feragat, 1210 geri alma, 1231 Gregorius IX). Künye kararı verilmiş, öneri yok; yalnız beyan."
+  }
+ ],
+ "Mikulcice": [
+  {
+   "sira": 4408,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "buyuk-moravya",
+   "f": "0833-01-01",
+   "t": "0907-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "L. Poláček, 'Der Untergang des Mährischen Reiches und Mikulčice' (Hainburg 2007 bildirisi, NÖ Institut für Landeskunde; RIV/68081758:_____/08:00317485) https://starfos.tacr.cz/vysledky-vyzkumu/RIV%2F68081758%3A_____%2F08%3A00317485",
+   "alinti": "Anfälle der Ungarn und der Untergang Großmährens in den Jahren 905-906",
+   "oneri": {
+    "t": "0906-01-01"
+   },
+   "not": "t: Poláček özeti Mikulčice'yi vuran Macar akınları ve Büyük Moravya'nın sonunu 905-906 verir (aralık; gün yok); atlas t 0907 künye ucudur. Öneri: künye 907 korunup 905-906 ic_not'a, ya da şehir ucu 0906-01-01 (aralığın son yılı) BEYANLI - karar EMRELİC/KASA. f 833: BULUNAMADI - Mikulčice-Valy 8. yy'dan beri iskanlı (Archeologický atlas, arama özeti) ve Büyük Moravya'dan önce Moravya merkezi olabilir; 833 künye f'sidir. Bakılan: starfos özeti, ARUB 2018 rehberi PDF (okunamadı, bozuk), arkeoloji atlası özeti. Hakemli tam metin (Poláček; Archeologické rozhledy) erişilemedi."
+  }
+ ],
+ "Winchester": [
+  {
+   "sira": 4409,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0643-01-01",
+   "t": "0927-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] s.a. 643",
+   "alinti": "This Kenwal ordered the old church at Winchester to be built in the name of St. Peter.",
+   "oneri": {},
+   "not": "uc yalnız f: ASC 643 Wessex kralı Cenwalh'ın Winchester'da kilise yaptırdığını tarihler; 643 ilk tanıktır, Wessex'in şehri daha önce almış olması muhtemel (BHO VCH Hampshire V 'Winchester: The cathedral' https://www.british-history.ac.uk/vch/hants/vol5/pp50-59: geleneğe göre kilise Kynegils'in kurduğu, Birinus 635; ham metinde 'Cenwalh' geçmez) - BEYANLI YAKLAŞIKLIK korunmalı, daha erken tarih bulunamadı. t 927 için öteki uç teyitsiz."
+  },
+  {
+   "sira": 4410,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0927-01-01",
+   "t": "1281-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] s.a. 927",
+   "alinti": "A.D. 927. This year King Athelstan expelled King Guthfrith",
+   "oneri": {},
+   "not": "ASC 927 Athelstan'ın Guthfrith'i (Northumbria) sürmesini tarihler; Winchester'ın sahibi o gün değişmedi (Batı Sakson kralı zaten şehrin sahibiydi), değişen yalnız künye (wessex->ingiltere artefaktı). Winchester'a özgü devir kaynağı yok; veri değişikliği önerilmez, yalnız 'künye artefaktı' beyanı. ASC s.a. 955 Edred 'old minster'da yatar, s.a. 1035 Cnut Old Minster'da gömüldü: Winchester kral merkezi olarak sürer. t 1281 künye üst sınırı, olay değil."
+  }
+ ],
+ "Bamburgh": [
+  {
+   "sira": 4411,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "northumbria",
+   "f": "0604-01-01",
+   "t": "0954-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] s.a. 927",
+   "alinti": "Aldred, the son of Eadulf, of Bamburgh. And with covenants and oaths they ratified their agreement",
+   "oneri": {
+    "t": "0927-07-12"
+   },
+   "not": "EMRELİC gece-99 (5 Kasım 2026): 927 Eamont bağlılığı TAHRİR'e göre v: (England/Wessex künyesi); s: Bamburgh yüksek reeve'leri (Eadwulfing) sürer — künye yoksa northumbria altında BEYANLI. t 954 KALIR. · t: ASC 927 (Eamont): Bamburgh'lu Aldred, Athelstan ile and/yemin antlaşması yapar - Bamburgh'un 927'de İngiliz kralının üstünlüğünü tanıması; ASC 954 ise 'the Northumbrians expelled Eric; and King Edred took to the government of the Northumbrians' (York/Northumbria kral düzeyi). Gün: Ingram 'fourth day before the ides of July' = Jülyen 12 Temmuz 927 (anlaşma günü, devir sayılmaz; ASC 926/927 yıl sapması olabilir). KESİN ÖNERİ DEĞİL: ya 954 korunur (kral düzeyi, mevcut BEYANLI: Bamburgh ealdormen elinde) ya 927; karar EMRELİC. f 604: ASC 547 'He built Bamburgh-Castle' 547'yi tarihler, 604 künye f'sidir; 547-604 Bernicia dilimi künye yokluğundan boş (mevcut notta beyanlı) - f için KAYNAKLI verilmedi. ÖLÇÜT: idareye katma (kral/ealdormen).",
+   "oneri_son": {
+    "d": "northumbria",
+    "t": "0954-01-01",
+    "v_ek": {
+     "alan": "v",
+     "d": "ingiltere/wessex (künye ölç)",
+     "f": "0927-07-12",
+     "not": "Eamont bağlılığı, ASC 927"
+    }
+   },
+   "karar": "EMRELİC gece-99"
+  },
+  {
+   "sira": 4412,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0954-01-01",
+   "t": "1281-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] s.a. 954",
+   "alinti": "A.D. 954. This year the Northumbrians expelled Eric; and King Edred took to the government of the Northumbrians.",
+   "oneri": {},
+   "not": "uc yalnız f ve ÜLKE DÜZEYİ: 954'te Edred Northumbria hükümetini aldı, Bamburgh'a özgü değil; ASC 927 Bamburgh'lu Aldred'in Athelstan'a bağlılığını gösterir (önceki satır) - f 954/927 kararı birlikte verilmeli. 11-13. yy İskoç/Norman olayları (ASC 1095 William Rufus-Mowbray, 1138 David I) atlasta modellenmedi (mevcut BEYANLI). t 1281 künye sınırı, teyitsiz."
+  }
+ ],
+ "Verulamium": [
+  {
+   "sira": 4413,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "roma-imp",
+   "f": "0043-01-01",
+   "t": "0395-01-17",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Tacitus, Annals XIV.33 (Church-Brodribb çevirisi) https://en.wikisource.org/wiki/The_Annals_(Tacitus)/Book_14 (birincil metin); Roman Britain arama özetleri (teyit sayılmaz)",
+   "alinti": "Like ruin fell on the town of Verulamium",
+   "oneri": {},
+   "not": "BAKILAN: Tacitus Ann. XIV.33 ham metin (60/61 Boudicca yağması: Verulamium Roma idaresinde ama f=43'ü tarihlemez), arama özetleri (Catuvellauni 43'ten sonra direnmeden Roma müşterisi oldu; municipium ~50 ya da Flavius dönemi, Tacitus tek tanık, tarih tartışmalı). 43'ü Verulamium'a özgü tarihleyen akademik kaynak (Frere 1987; Niblett; Historic England) metin olarak okunamadı. f=43 Camulodunum zincirinden (ABİ MERKEZ, BEYANLI) mevcut. t 395 künye ucu, Verulamium'a özgü kaynak yok."
+  },
+  {
+   "sira": 4414,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-roma",
+   "f": "0395-01-17",
+   "t": "0410-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "EMRELİC gece-87 kararı (VCH Essex IX c.409; Treccani 406, 410 ic_not)",
+   "alinti": "",
+   "oneri": {
+    "t": "0409-01-01"
+   },
+   "not": "gece-87 uygulandı: bati-roma t 0409-01-01 '[yaklaşık; VCH]' BEYANLI (mevcut 0410-01-01 yerine; Treccani 406, 410 ic_not). Yeniden tartışılmadı, yeni kaynak okunmadı. 409 sonrası ardıl dilim kararı EMRELİC/KASA. f 395 künye ucu."
+  }
+ ],
+ "Rochester": [
+  {
+   "sira": 4415,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0927-01-01",
+   "t": "1281-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "Bakılan: Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] (Rochester geçen yıllar 644, 986, 1058, 1095)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Rochester'ın 927'de Wessex'ten ingiltere'ye geçişi künye artefaktıdır (aynı krallık; Winchester ile aynı). ASC 986 'the king invaded the bishopric of Rochester' kral otoritesini gösterir ama f=927'yi tarihlemez; Rochester'a özgü kaynak yok."
+  },
+  {
+   "sira": 4416,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kent-kralligi",
+   "f": "0604-01-01",
+   "t": "0825-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] s.a. 604 (f) ve s.a. 823 (t)",
+   "alinti": "Ethelbert also gave Mellitus the bishopric of London; and to Justus he gave the bishopric of Rochester",
+   "oneri": {
+    "t": "0823-01-01"
+   },
+   "not": "f: ASC 604 Kent kralı Ethelbert'in Justus'a Rochester piskoposluğunu verdiğini tarihler -> f 604 KAYNAKLI (yıl; şehir bu yıl Kent kontrolünde, daha erken olabilir). t: ASC Kent'in Wessex'e teslimini s.a. 823 koyar ('Ethelwulf into Kent ... drove Baldred ... the men of Kent immediately submitted'), atlas 825. Fark ASC kronoloji kayması olabilir (modern düzeltmeyi bu turda doğrulamadım) -> ONERI: t 0823-01-01, ya da 825 korunup 823 ic_not'a; karar EMRELİC (19. yy çevirisi, Rochester'a özgü teslim yok, Kent geneli)."
+  },
+  {
+   "sira": 4417,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "wessex",
+   "f": "0825-01-01",
+   "t": "0927-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] s.a. 823",
+   "alinti": "the men of Kent immediately submitted to him",
+   "oneri": {
+    "f": "0823-01-01"
+   },
+   "not": "EMRELİC gece-99 (5 Kasım 2026): Kent → Wessex 825 KALIR (ASC'nin bilinen +2 yıl kayması). Modern akademik düzeltme kaynağıyla (Keynes ya da ODNB 'Egbert') KAYNAKLI olur; bulunana dek ONERI. ASC s.a. 823 ic_not'a. · f: ASC 823 Kent teslimi; atlas 825. Kent geneli, Rochester'a özgü değil. Önceki satırla birlikte karar verilmeli (kent-kralligi t ve wessex f aynı ucu paylaşır). t 927 künye, Rochester'a özgü kaynak yok (öteki uç teyitsiz).",
+   "oneri_son": {
+    "d": "wessex",
+    "f": "0825-01-01",
+    "t": "0927-01-01",
+    "uc_825": "0825-01-01"
+   },
+   "karar": "EMRELİC gece-99"
+  }
+ ],
+ "Hexham": [
+  {
+   "sira": 4418,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "northumbria",
+   "f": "0681-01-01",
+   "t": "0954-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] s.a. 681 (f), s.a. 685, s.a. 954 (t)",
+   "alinti": "A.D. 681. This year Trumbert was consecrated Bishop of Hexham",
+   "oneri": {},
+   "not": "f: ASC 681 Hexham piskoposluğunu tarihler; ASC 685 'Cuthbert was consecrated at York Bishop of Hexham' ve kral Everth Northumbria'ya bağlar -> 681 ilk tanıktır (BEYANLI; Wilfrid'e 674/678 bağışı Bede IV.12 bu turda okunamadı). t: ASC 954 'the Northumbrians expelled Eric; and King Edred took to the government of the Northumbrians' (Northumbria kral düzeyi: ÜLKE DÜZEYİ, Hexham'a özgü devir yok). 875 Halfdan akını mevcut notta beyanlı."
+  },
+  {
+   "sira": 4419,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "0954-01-01",
+   "t": "1281-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Anglo-Saxon Chronicle, Ingram çevirisi (1823), Project Gutenberg #657 https://www.gutenberg.org/cache/epub/657/pg657.txt [19. yy kaynağı; Jülyen] s.a. 954",
+   "alinti": "King Edred took to the government of the Northumbrians.",
+   "oneri": {},
+   "not": "uc yalnız f ve ÜLKE DÜZEYİ (Northumbria'nın İngiliz krallığına katılışı). t 1281 künye sınırı, teyitsiz. Skoç işgalleri (ASC 1138 David I) yalnız saldırıyı anlatır, şehir devrini değil; modellenmedi (mevcut BEYANLI)."
+  }
+ ]
+}

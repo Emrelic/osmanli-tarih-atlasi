@@ -1,0 +1,639 @@
+{
+ "desenler": [
+  {
+   "ara_kunye": "meiji-japonya",
+   "donem": "1942-1945",
+   "bolge": "Hollanda Doğu Hint",
+   "hukum": "isg",
+   "alt_sinif": "b",
+   "olcut": "geçici/askerî — Java/Madura 16. Ordu, Sumatra 25. Ordu, doğu takımadası deniz komutası altında askerî idare",
+   "kaynak": "U.S. Library of Congress, Indonesia: a country study (Frederick & Worden eds., 1993), 'The Japanese Occupation, 1942-45', https://countrystudies.us/indonesia/15.htm",
+   "alinti": "Java and Madura were placed under the control of the Sixteenth Army",
+   "etkilenen": 79,
+   "ornek_yerler": [
+    "Samudra Pasai",
+    "Banda Açe",
+    "Padang",
+    "Palembang"
+   ],
+   "not": "Hollanda iddiası sürdü; Japon ilhakı/idareye katması kaynakta yok. Mevcut ara künye meiji-japonya ise s: yerine isg: olmalı (brif: doğru)."
+  },
+  {
+   "ara_kunye": "italyan-dogu-afrikasi",
+   "donem": "1936-1941",
+   "bolge": "Habeşistan",
+   "hukum": "s",
+   "alt_sinif": "a",
+   "olcut": "idareye katma — 1 Haziran 1936 kraliyet kararnamesi AOI; Etiyopya 6 governatorato'ya bölünüp vali-vekil (viceré) idaresine bağlandı",
+   "kaynak": "Treccani, Dizionario di Storia (2010), 'Africa orientale italiana', https://www.treccani.it/enciclopedia/africa-orientale-italiana_%28Dizionario-di-Storia%29/",
+   "alinti": "l'E. entrò a far parte dell'AOI con l'Eritrea e la Somalia",
+   "etkilenen": 64,
+   "ornek_yerler": [
+    "Gondar",
+    "Addis",
+    "Harar",
+    "Aksum"
+   ],
+   "not": "Fiilî idare + ilhak kararnamesi; İngiltere/Fransa 16-19 Kasım 1938'de tanıdı (aynı madde). Habeşistan'ın ve Milletler Cemiyeti'nin tanımama iddiası ic_not adayı; s: kalır, isg yazılmaz. Gondar 1941-11'e kadar direndi (uç tarihleri ayrı ölç)."
+  },
+  {
+   "ara_kunye": "salo-cumhuriyeti",
+   "donem": "1943-1945",
+   "bolge": "Kuzey İtalya (Venedik, Milano, Torino, Cenova…)",
+   "hukum": "kukla-kalir",
+   "alt_sinif": "c",
+   "olcut": "kendi künyesi olan kukla rejim — Almanya'nın istediği, askerî denetimdeki İtalyan topraklarını yönetecek rejim",
+   "kaynak": "Treccani, Dizionario di Storia (2011), 'Repubblica sociale italiana', https://www.treccani.it/enciclopedia/repubblica-sociale-italiana_%28Dizionario-di-Storia%29/",
+   "alinti": "regime guidato da Benito Mussolini e voluto dalla Germania",
+   "etkilenen": 17,
+   "ornek_yerler": [
+    "Venedik",
+    "Milano",
+    "Torino",
+    "Cenova"
+   ],
+   "not": "s: salo-cumhuriyeti künyesi kalır; ic_not adayı: 'Alman yanlısı kukla rejim'. Alpenvorland/Adriatisches Küstenland gibi doğrudan Alman denetimli bölgeler bu 17'de olmayabilir; yerleşim bazında kontrol önerilir (ölçülmedi)."
+  },
+  {
+   "ara_kunye": "meiji-japonya",
+   "donem": "1942-1945",
+   "bolge": "Filipinler",
+   "hukum": "isg",
+   "alt_sinif": "b",
+   "olcut": "geçici/askerî — Japon askerî makamları idare kurdu, Devlet Konseyi ile sivil işleri yönetti; 1943-10'dan sonra Japon destekli 'bağımsız cumhuriyet' (Laurel)",
+   "kaynak": "U.S. Library of Congress, Philippines: a country study (Dolan ed., 1991), 'World War II', https://countrystudies.us/philippines/21.htm",
+   "alinti": "The Japanese military authorities immediately began organizing a new government structure",
+   "etkilenen": 14,
+   "ornek_yerler": [
+    "Manila",
+    "Cebu",
+    "Colo (Jolo)",
+    "Kotabato (Magindanao)"
+   ],
+   "not": "Commonwealth hükümeti sürgünde sürdü; ilhak yok. 1943-10-14 Laurel Cumhuriyeti kukla (yerleşimlerde ara künye meiji-japonya; ayrı künye açılması Emre kararı, ic_not adayı)."
+  },
+  {
+   "ara_kunye": "meiji-japonya",
+   "donem": "1942-1945",
+   "bolge": "Burma",
+   "hukum": "isg",
+   "alt_sinif": "b",
+   "olcut": "geçici/askerî — Japonlar 1943'te Burma'yı 'nominal bağımsız' yaptı, fiilen İngilizlerin yerine geçti; ilhak yok",
+   "kaynak": "Treccani, Dizionario di Storia, 'Birmania', https://www.treccani.it/enciclopedia/birmania_%28Dizionario-di-Storia%29/",
+   "alinti": "resero la B. nominalmente indipendente (1943)",
+   "etkilenen": 13,
+   "ornek_yerler": [
+    "Pegu (Bago)",
+    "Rangun (Yangon)",
+    "Toungoo",
+    "Prome (Pyay)"
+   ],
+   "not": "1943-08 sonrası Ba Maw devleti kukla; ic_not adayı. Kaynak yalnız genel; askerî idare ayrıntısı bulunamadı."
+  },
+  {
+   "ara_kunye": "meiji-japonya",
+   "donem": "1942-1945",
+   "bolge": "Malaya",
+   "hukum": "isg",
+   "alt_sinif": "b",
+   "olcut": "geçici/askerî — 'occupazione giapponese (1942-45)', sonra İngiliz denetimi döndü; Japon idarî ilhakı kaynakta yok",
+   "kaynak": "Treccani, Dizionario di Storia, 'Malaysia', https://www.treccani.it/enciclopedia/malaysia_%28Dizionario-di-Storia%29/",
+   "alinti": "Dopo l'occupazione giapponese (1942-45), il ritorno del controllo inglese",
+   "etkilenen": 9,
+   "ornek_yerler": [
+    "Malaka",
+    "Singapur",
+    "Penang (George Town)",
+    "Kedah (Alor Setar)",
+    "Johor",
+    "Muar"
+   ],
+   "not": "Kaynak zayıf (genel özet); 25. Ordu askerî idaresi ayrıca teyit edilmeli. Johor+Muar (2 satır, federe-olmayan-malay-devletleri) buna dahil edildi. Singapur 1942-02-15 düşüşü."
+  },
+  {
+   "ara_kunye": "meiji-japonya",
+   "donem": "1942-1945",
+   "bolge": "Portekiz Timoru",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "b",
+   "olcut": "belge bulunamadı — Treccani 'Timor Est' maddesi Japon dönemini anmıyor",
+   "kaynak": "Treccani 'Timor Est' tarandı (Japon/1942/occupaz yok)",
+   "alinti": "",
+   "etkilenen": 8,
+   "ornek_yerler": [
+    "Dili",
+    "Lifau (Oecussi)",
+    "Maucatar",
+    "Suai"
+   ],
+   "not": "Beklenen: askerî işgal (Portekiz tarafsız, iddia sürdü) ama belgeyle teyit edilemedi; kayıt bırakılır."
+  },
+  {
+   "ara_kunye": "ostland",
+   "donem": "1941-1944",
+   "bolge": "Baltık / Beyaz Rusya (Riga, Vilnius, Minsk…)",
+   "hukum": "isg",
+   "alt_sinif": "b",
+   "olcut": "geçici/askerî — Almanya Letonya'yı 1941-45 'işgal etti'; Reichskommissariat idaresi ilhak değildir (brif kuralı)",
+   "kaynak": "Treccani, Dizionario di Storia, 'Lettonia', https://www.treccani.it/enciclopedia/lettonia_%28Dizionario-di-Storia%29/",
+   "alinti": "Occupata in seguito dai tedeschi (1941-45)",
+   "etkilenen": 13,
+   "ornek_yerler": [
+    "Riga",
+    "Vilnius",
+    "Minsk",
+    "Cēsis (Wenden)"
+   ],
+   "not": "Kaynak yalnız Letonya'yı 'işgal' diye niteler; Reichskommissariat'ın ilhak olmadığı brif ölçütüne dayanır. Minsk/Vilnius için ayrıca kaynak aranabilir (Sovyet iddiası sürdü)."
+  },
+  {
+   "ara_kunye": "almanya",
+   "donem": "1938-1945",
+   "bolge": "Sudetenland (Broumov, Jeseník, Opava)",
+   "hukum": "s",
+   "alt_sinif": "a",
+   "olcut": "idareye katma — Münih Antlaşması: Hitler sınır şeridini Reich'a ilhak etti",
+   "kaynak": "Treccani, Dizionario di Storia, 'Cecoslovacchia', https://www.treccani.it/enciclopedia/cecoslovacchia_%28Dizionario-di-Storia%29/",
+   "alinti": "Hitler di annettere al Terzo Reich la fascia di frontiera",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Broumov (Braunau)",
+    "Jeseník (Freiwaldau)",
+    "Opava (Troppau)"
+   ],
+   "not": "Hukukî devir (Münih 1938-09-30) + Reichsgau idaresi; s: almanya kalır. Münih'in 1942/1945 sonrası hükümsüzlüğü ic_not adayı."
+  },
+  {
+   "ara_kunye": "macaristan-naiplik",
+   "donem": "1938-1945",
+   "bolge": "Güney Slovakya (Uyvar, Kassa, Komárom, Somorja)",
+   "hukum": "s",
+   "alt_sinif": "a",
+   "olcut": "idareye katma — Macaristan güney Slovakya şeridini ilhak etti (I. Viyana Hakemliği)",
+   "kaynak": "Treccani, Dizionario di Storia, 'Cecoslovacchia', aynı URL",
+   "alinti": "l'Ungheria la fascia meridionale della Slovacchia",
+   "etkilenen": 5,
+   "ornek_yerler": [
+    "Uyvar",
+    "Kassa (Košice)",
+    "Komárom (Komárno)",
+    "Somorja (Šamorín)"
+   ],
+   "not": "Treccani 'annetteva' diyor; Viyana Hakemliği günü (1938-11-02) bu kaynakta yok, ölçülmedi."
+  },
+  {
+   "ara_kunye": "bohemya-moravya-protektorasi",
+   "donem": "1939-1945",
+   "bolge": "Bohemya-Moravya",
+   "hukum": "kukla-kalir",
+   "alt_sinif": "c",
+   "olcut": "kendi künyesi olan protektora rejimi; Treccani yalnız 'tedesc occuparono' diyor, ilhak belgesi yok",
+   "kaynak": "Treccani, Dizionario di Storia, 'Cecoslovacchia', aynı URL",
+   "alinti": "i tedeschi occuparono la parte restante di Boemia e Moravia",
+   "etkilenen": 7,
+   "ornek_yerler": [
+    "Hradec Králové",
+    "Olomouc",
+    "Brno",
+    "Prag"
+   ],
+   "not": "s: künyesi kalır (brif c). Protektora 1939-03-16 Hitler kararnamesi ile Reich'a bağlı otonom; ic_not adayı 'protektora/kukla'."
+  },
+  {
+   "ara_kunye": "slovakya-cumhuriyeti",
+   "donem": "1939-1945",
+   "bolge": "Slovakya",
+   "hukum": "kukla-kalir",
+   "alt_sinif": "c",
+   "olcut": "kendi künyesi olan kukla rejim — 'bağımsız ilan edildi (Almanya uydusu)'",
+   "kaynak": "Treccani, Dizionario di Storia, 'Cecoslovacchia', aynı URL",
+   "alinti": "la Slovacchia fu proclamata indipendente (satellite della Germania)",
+   "etkilenen": 5,
+   "ornek_yerler": [
+    "Bratislava",
+    "Eperjes (Prešov)",
+    "Nitra (Nyitra)",
+    "Léva (Levice)"
+   ],
+   "not": "s: slovakya-cumhuriyeti kalır; ic_not 'uydu/kukla'."
+  },
+  {
+   "ara_kunye": "sirbistan-nedic",
+   "donem": "1941-1944",
+   "bolge": "Sırbistan (Niş, Belgrad, Kragujevac…)",
+   "hukum": "kukla-kalir",
+   "alt_sinif": "c",
+   "olcut": "geçici/askerî — Almanya Sırbistan'ı 'askerî olarak işgal etti'; ilhak yok. Künye (sirbistan-nedic) var olduğundan s: korunur",
+   "kaynak": "Treccani, Dizionario di Storia, 'Iugoslavia', https://www.treccani.it/enciclopedia/iugoslavia_%28Dizionario-di-Storia%29/",
+   "alinti": "acquisì anche il controllo della Serbia, occupata militarmente",
+   "etkilenen": 12,
+   "ornek_yerler": [
+    "Niş",
+    "Belgrad",
+    "Belgrad Kalesi (Kalemegdan)",
+    "Kragujevac"
+   ],
+   "not": "KARAR EMRELİC'E: brif (b) Sırbistan'ı Alman askerî idaresi (isg) sayıyor, (c) kendi künyeli kukla rejimi kalıyor; künye sirbistan-nedic olduğu için kukla-kalir yazıldı. Kaynak 'askerî işgal' diyor; isg'ye çevrilirse künye de gözden geçirilmeli."
+  },
+  {
+   "ara_kunye": "hirvatistan-bagimsiz",
+   "donem": "1941-1945",
+   "bolge": "Hırvatistan/Bosna (NDH)",
+   "hukum": "kukla-kalir",
+   "alt_sinif": "c",
+   "olcut": "kendi künyesi olan kukla rejim — Mihver'in vasalı bağımsız Hırvat devleti (Bosna dâhil)",
+   "kaynak": "Treccani, Dizionario di Storia, 'Iugoslavia', aynı URL",
+   "alinti": "come vassalli delle potenze dell'Asse ... Stato croato indipendente",
+   "etkilenen": 7,
+   "ornek_yerler": [
+    "Saraybosna",
+    "Mostar",
+    "Banaluka",
+    "Zagreb",
+    "Dubrovnik"
+   ],
+   "not": "s: hirvatistan-bagimsiz kalır; ic_not 'Mihver vasalı/kukla'. Satır sayısı 6+1 (Dubrovnik 1941-44) birleştirildi."
+  },
+  {
+   "ara_kunye": "macaristan-naiplik",
+   "donem": "1941-1944",
+   "bolge": "Bačka (Subotica/Szabadka)",
+   "hukum": "s",
+   "alt_sinif": "a",
+   "olcut": "idareye katma — Voyvodina'nın bir kısmı Macaristan'a 'geçti' (1941 parçalama)",
+   "kaynak": "Treccani, Dizionario di Storia, 'Iugoslavia', aynı URL",
+   "alinti": "parti della Voivodina, della Barania e del Medumurje passarono all'Ungheria",
+   "etkilenen": 1,
+   "ornek_yerler": [
+    "Subotica (Szabadka)"
+   ],
+   "not": "Macaristan 1941-04'te Bačka'yı idarî olarak ilhak etti; kesin gün bu kaynakta yok (ölçülmedi)."
+  },
+  {
+   "ara_kunye": "sovyet-rusya",
+   "donem": "1940-1941",
+   "bolge": "Besarabya / Kuzey Bukovina (Akkirman, Kili, Çernovitz, Hotin)",
+   "hukum": "s",
+   "alt_sinif": "a",
+   "olcut": "idareye katma — Besarabya ve Kuzey Bukovina SSCB'ye 'ilhak edildi' (Haziran 1940)",
+   "kaynak": "Treccani, Dizionario di Storia, 'Romania', https://www.treccani.it/enciclopedia/romania_%28Dizionario-di-Storia%29/",
+   "alinti": "Bessarabia e la Bucovina settentrionale (annesse all'URSS in giugno)",
+   "etkilenen": 5,
+   "ornek_yerler": [
+    "Akkirman",
+    "Kili",
+    "Çernovitz (Çernivtsi)",
+    "Hotin"
+   ],
+   "not": "Ay düzeyi (1940-06); gün ve Sovyet kanunu (1940-08-02) bu kaynakta yok. Hotin için ek kontrol önerilir."
+  },
+  {
+   "ara_kunye": "romanya-kralligi",
+   "donem": "1941-1944",
+   "bolge": "Besarabya / Kuzey Bukovina / Transnistria (Akkirman, Kili, Çernovitz, Odessa…)",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — Treccani 'Romania' 1941 yeniden fethi ve Transnistria idaresini anlatmıyor",
+   "kaynak": "Treccani 'Romania' tarandı (1941 yok)",
+   "alinti": "",
+   "etkilenen": 6,
+   "ornek_yerler": [
+    "Akkirman",
+    "Kili",
+    "Çernovitz (Çernivtsi)",
+    "Hacıbey (Odessa)"
+   ],
+   "not": "Muhtemelen karışık: Besarabya/Bukovina Romanya'ya yeniden katıldı (s), Odessa/Transnistria Romen sivil valiliği (isg?) — seçim yapılmadı."
+  },
+  {
+   "ara_kunye": "finlandiya",
+   "donem": "1941-1944",
+   "bolge": "Viipuri, Terijoki",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — Treccani 'Finlandia' 'occupare buona parte della Carelia' diyor ama idarî katma belgesi yok",
+   "kaynak": "Treccani, 'Finlandia', https://www.treccani.it/enciclopedia/finlandia_%28Dizionario-di-Storia%29/",
+   "alinti": "nel 1941 riuscì a occupare buona parte della Carelia",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Viipuri (Vyborg)",
+    "Terijoki (Zelenogorsk)"
+   ],
+   "not": "1940 Moskova Barışı ile Viipuri SSCB'ye devredilmişti (satır 'sovyet-rusya 1940-41 Viipuri' ayrı, 1 satır) — o da bu kaynakta tarihli değil, BULUNAMADI."
+  },
+  {
+   "ara_kunye": "ispanya-milliyetci",
+   "donem": "1936-1939",
+   "bolge": "İspanya (Sevilla, Palma, Valladolid, Burgos, Madrid, Barselona, Valensiya, Teruel, Bilbao…)",
+   "hukum": "s",
+   "alt_sinif": "a",
+   "olcut": "idareye katma/iç savaş tarafı — Franco Eylül 1936'da Burgos cuntası tarafından devlet başkanı ilan edildi, kendi hükûmeti ve idaresi var; işgal veya kukla değil",
+   "kaynak": "Treccani, Dizionario di Storia, 'Spagna', https://www.treccani.it/enciclopedia/spagna_%28Dizionario-di-Storia%29/",
+   "alinti": "Proclamato capo dello Stato da una giunta riunita a Burgos",
+   "etkilenen": 23,
+   "ornek_yerler": [
+    "Sevilla",
+    "Mayorka (Palma)",
+    "Valladolid",
+    "Burgos",
+    "Madrid",
+    "Teruel"
+   ],
+   "not": "Ölçüt işgal/fetih ayrımına uymaz: iç savaşta rakip meşru-iddialı hükûmet. s: ispanya-milliyetci kalır, isg yazılmaz. Teruel 1937-12→1938-02 Cumhuriyet'in geri alışı için ('ispanya' 1938 satırı) ayrıca gün kontrolü gerekir."
+  },
+  {
+   "ara_kunye": "almanya",
+   "donem": "1941-1944",
+   "bolge": "SSCB (Novgorod, Vitebsk, Mogilev, Pskov, Harkov, Smolensk, Bryansk, Kursk…)",
+   "hukum": "isg",
+   "alt_sinif": "b",
+   "olcut": "geçici/askerî — Treccani Belarus/Letonya maddeleri Alman dönemini 'occupata dai tedeschi' diye anar; SSCB'ye ilişkin ilhak/idareye katma belgesi yok",
+   "kaynak": "Treccani, Dizionario di Storia, 'Bielorussia', https://www.treccani.it/enciclopedia/bielorussia_%28Dizionario-di-Storia%29/",
+   "alinti": "fu di nuovo occupata dai tedeschi (1941)",
+   "etkilenen": 14,
+   "ornek_yerler": [
+    "Novgorod",
+    "Vitebsk",
+    "Mogilev",
+    "Pskov",
+    "Harkov",
+    "Smolensk"
+   ],
+   "not": "KAYNAK ZAYIF: genel 'işgal' nitelemesi; ordu-arka bölge askerî idaresi ayrıntısı bulunamadı. 1943 Harkov (1) ile 1941-43 (6) ve 1941-44 (7) birleştirildi. Güven düşük."
+  },
+  {
+   "ara_kunye": "alman-ukrayna",
+   "donem": "1941-1944",
+   "bolge": "Ukrayna (Vinnitsa, Berdiçev, Bila Tserkva, Kiev)",
+   "hukum": "isg",
+   "alt_sinif": "b",
+   "olcut": "geçici/askerî — Reichskommissariat Ukraine ilhak değildir (brif); Treccani Ukrayna maddesi dönemi anmıyor",
+   "kaynak": "Treccani 'Ucraina' tarandı (1941/tedesc yok); dolaylı: Treccani 'Bielorussia' işgal nitelemesi",
+   "alinti": "fu di nuovo occupata dai tedeschi (1941)",
+   "etkilenen": 4,
+   "ornek_yerler": [
+    "Vinnitsa",
+    "Berdiçev",
+    "Bila Tserkva",
+    "Kiev"
+   ],
+   "not": "Brif kuralına dayanır (Ostland analojisi); doğrudan kaynak yok, güven düşük."
+  },
+  {
+   "ara_kunye": "polonya-genel-hukumeti",
+   "donem": "1941-1944",
+   "bolge": "Lvov (Galiçya Bölgesi), Haliç",
+   "hukum": "isg",
+   "alt_sinif": "b",
+   "olcut": "geçici/askerî — Generalgouvernement ilhak değildir (brif b); Polonya hükûmeti sürgünde sürdü",
+   "kaynak": "Treccani, Dizionario di Storia, 'Polonia', https://www.treccani.it/enciclopedia/polonia_%28Dizionario-di-Storia%29/",
+   "alinti": "Fin dal 1939 si costituì in Francia un governo polacco in esilio",
+   "etkilenen": 2,
+   "ornek_yerler": [
+    "Lvov",
+    "Haliç"
+   ],
+   "not": "Lvov aslında SSCB'ye ilhaktan (1939-11) sonra Almanlarca 1941-08'de GG'ye bağlandı; ara künye Polonya iddiası → isg; ilgili A→B→A zincirinde 'sonra' sovyet-rusya olduğu için Sovyet iddiası da var; güven orta-düşük."
+  },
+  {
+   "ara_kunye": "almanya",
+   "donem": "1940-1945",
+   "bolge": "Elsass-Lothringen (Metz, Strazburg, Mulhouse, Colmar)",
+   "hukum": "s",
+   "alt_sinif": "a",
+   "olcut": "idareye katma — Hitler Almanyası Lorraine'i 'Alman devletinin ayrılmaz parçası saydı' ve germenleştirme uyguladı",
+   "kaynak": "Treccani, Dizionario di Storia, 'Lorena', https://www.treccani.it/enciclopedia/lorena_%28Dizionario-di-Storia%29/",
+   "alinti": "la considerò parte integrante dello Stato tedesco",
+   "etkilenen": 4,
+   "ornek_yerler": [
+    "Metz",
+    "Strazburg",
+    "Mulhouse",
+    "Colmar"
+   ],
+   "not": "Doğrudan kaynak Lorraine için (Metz). Alsace maddesi yalnız 'invasa (1940-45)' diyor; Alsace yerleşimleri (Strazburg, Mulhouse, Colmar) için katma belgesi ayrıca teyit edilmeli (Alsace-Lorraine CdZ). Hukukî ilhak kararnamesi yok (de facto); savaş sonrası hükümsüz — ic_not."
+  },
+  {
+   "ara_kunye": "almanya",
+   "donem": "1940-1944",
+   "bolge": "Eupen, Malmedy, St. Vith",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — Treccani 'Belgio' yalnız 'invasione tedesca (1940-44)'",
+   "kaynak": "Treccani, 'Belgio', https://www.treccani.it/enciclopedia/belgio_%28Dizionario-di-Storia%29/",
+   "alinti": "subì l'invasione tedesca (1940-44)",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Eupen",
+    "Malmedy",
+    "St. Vith (Sankt Vith)"
+   ],
+   "not": "Brif (a) bekliyor (1940-05 Führer kararı ile Reich'a katıldı) ama Eupen-Malmedy'nin katılma belgesi çekilemedi."
+  },
+  {
+   "ara_kunye": "meiji-japonya",
+   "donem": "1939-1945",
+   "bolge": "Hainan (Qiongzhou, Danzhou, Yazhou, Wanzhou)",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "b",
+   "olcut": "belge bulunamadı — Treccani 'Hainan' maddesi yok",
+   "kaynak": "Treccani 'Hainan' (208 bayt, boş)",
+   "alinti": "",
+   "etkilenen": 4,
+   "ornek_yerler": [
+    "Qiongzhou (Haikou)",
+    "Danzhou (Zhonghe)"
+   ],
+   "not": "Beklenen: Japon donanma askerî işgali (isg), belgelenemedi."
+  },
+  {
+   "ara_kunye": "fransa-cumhuriyet",
+   "donem": "1807-12/1814-09",
+   "bolge": "Toskana (Floransa, Siena, Pisa)",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Fontainebleau Antlaşması 1807: Toskana Fransız imparatorluğuna ilhak edildi; Elisa Baciocchi idaresi",
+   "kaynak": "Treccani, Dizionario di Storia, 'Toscana', https://www.treccani.it/enciclopedia/toscana_%28Dizionario-di-Storia%29/",
+   "alinti": "fu annessa all'impero francese",
+   "etkilenen": 3,
+   "ornek_yerler": [
+    "Floransa",
+    "Siena",
+    "Pisa"
+   ],
+   "not": "s: fransa-cumhuriyet kalır. Fontainebleau günü (1807-10-27) kaynakta yalnız yıl; ilhak kararnamesi 1808 (kaynakta yok)."
+  },
+  {
+   "ara_kunye": "italya-napolyon",
+   "donem": "1805-12/1814-04",
+   "bolge": "Veneto (Venedik, Verona, Padova, Udine)",
+   "hukum": "s",
+   "alt_sinif": "",
+   "olcut": "idareye katma — Presburg Barışı 1805-12-26: Veneto İtalya Krallığı'na 'katıldı'",
+   "kaynak": "Treccani, Dizionario di Storia, 'Veneto', https://www.treccani.it/enciclopedia/veneto_%28Dizionario-di-Storia%29/",
+   "alinti": "fu integrato nel regno d'Italia",
+   "etkilenen": 6,
+   "ornek_yerler": [
+    "Venedik",
+    "Verona",
+    "Padova",
+    "Udine"
+   ],
+   "not": "Hukukî devir antlaşma günü 1805-12-26 (Treccani verir); s: italya-napolyon kalır, isg değil."
+  },
+  {
+   "ara_kunye": "avusturya",
+   "donem": "1799-04/1800-06",
+   "bolge": "Lombardiya (Milano, Brescia, Bergamo, Sondrio)",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — Treccani 'Lombardia' ve 'Milano' 1799 işgalini/idaresini vermiyor",
+   "kaynak": "Treccani 'Lombardia' ve 'Milano' tarandı",
+   "alinti": "",
+   "etkilenen": 12,
+   "ornek_yerler": [
+    "Milano",
+    "Brescia",
+    "Bergamo",
+    "Sondrio"
+   ],
+   "not": "Beklenen: Avusturya-Rus askerî idaresi (isg adayı), belgelenemedi."
+  },
+  {
+   "ara_kunye": "rusya,rusya-gecici-hukumet,transkafkasya",
+   "donem": "1916-1918",
+   "bolge": "Doğu Anadolu/Karadeniz (Erzurum, Gümüşhane, Bayburt, Erzincan, Trabzon, Rize, Bitlis, Muş, Hopa…)",
+   "hukum": "isg",
+   "alt_sinif": "",
+   "olcut": "geçici/askerî — Ruslar Erzurum'a 16 Şubat 1916'da girdi; TDV 'Rus işgali' der, Osmanlı iddiası sürdü; Rus çekilişi 1917-18; Brest-Litovsk/Batum ile geri; Türk Ermenistanı Genel Valiliği askerî (DA-BRIEF emsali)",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Erzurum', https://islamansiklopedisi.org.tr/erzurum",
+   "alinti": "Üçüncü defa Rus işgaline uğrayan Erzurum'un müslüman halkı",
+   "etkilenen": 13,
+   "ornek_yerler": [
+    "Gümüşhane",
+    "Erzincan",
+    "Bayburt",
+    "Erzurum",
+    "Trabzon",
+    "Rize",
+    "Bitlis",
+    "Muş"
+   ],
+   "not": "Tahrir/sancak katma belgesi yok; Rusya bu yerlerde kendi vergi-defter idaresini kurmuş görünmüyor (kaynak sessiz), TDV 'işgal' diyor. Mevcut s: rusya* → isg: rusya* olmalı. Giriş günü Erzurum 1916-02-16 (TDV); diğer şehirlerin günleri ayrı kaynak ister. Alt ayrım: 1917-05'ten sonra Muş/Bitlis vb. Ottoman geri alış satırları (3) ayrıca kontrol."
+  },
+  {
+   "ara_kunye": "ukrayna-devleti-1918",
+   "donem": "1918-04/1918-12",
+   "bolge": "Ukrayna (Odessa, Kiev, Harkov, Çehrin)",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — rakip devlet rejimi (Hetmanlık); ölçüt işgal-fetih ayrımı değil, devlet ardıllığı",
+   "kaynak": "Treccani 'Ucraina' tarandı (yalnız genel)",
+   "alinti": "",
+   "etkilenen": 11,
+   "ornek_yerler": [
+    "Hacıbey (Odessa)",
+    "Kiev",
+    "Harkov",
+    "Çehrin (Çigirin)"
+   ],
+   "not": "s kalır varsayımı kaynaksız; EMRELİC kararı (kendi künyeli rejim) ile örtüşür, ama belge yok."
+  },
+  {
+   "ara_kunye": "ukrayna-halk-cumhuriyeti / sovyet-rusya / guney-rusya-beyaz",
+   "donem": "1917-1920 (Ukrayna iç savaşı dilimleri)",
+   "bolge": "Kiev, Çehrin, Uman, Jitomir, Odessa, Harkov",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — Treccani 'Ucraina' yalnız 'Kiev'de Cumhuriyet ilan edildi, Bolşeviklerce saldırıldı' diyor",
+   "kaynak": "Treccani, 'Ucraina', https://www.treccani.it/enciclopedia/ucraina_%28Dizionario-di-Storia%29/",
+   "alinti": "A Kiev fu proclamata una Repubblica indipendente che, attaccata dai bolscevichi",
+   "etkilenen": 40,
+   "ornek_yerler": [
+    "Kiev",
+    "Çehrin (Çigirin)",
+    "Uman",
+    "Jitomir (Zhytomyr)"
+   ],
+   "not": "4 alt-desen: UPR 1917-11/1918-02 (10), Sovyet 1918-02/03 (10), Beyaz Güney Rusya 1919 (11), UPR 1920-05/06 (9). Rakip hükûmetler; her biri kendi künyeli idare; tahrir ölçütü uygulanamaz, belge yok."
+  },
+  {
+   "ara_kunye": "cin-cumhuriyeti",
+   "donem": "1919-11/1921-07",
+   "bolge": "Moğolistan (Karakurum, Urga, Uliastay)",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — Treccani 'Mongolia' boş, countrystudies Mongolia 3-19 sayfalarında 1919/Xu Shuzheng/Chinese troops yok",
+   "kaynak": "Treccani 'Mongolia' (208 bayt); LoC Mongolia country study sayfa 3-19 tarandı",
+   "alinti": "",
+   "etkilenen": 12,
+   "ornek_yerler": [
+    "Karakurum",
+    "Urga (Ulan Batur)",
+    "Uliastay",
+    "Kerulen (Çoybalsan)"
+   ],
+   "not": "Beklenen: Çin askerî işgali (Moğol özerkliği Kasım 1919'da kaldırıldı), belgelenemedi."
+  },
+  {
+   "ara_kunye": "ingiltere",
+   "donem": "1915-09/1916-04, 1918-05",
+   "bolge": "Kût el-Amâre, Kerkük",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — TDV Kût/Kerkük maddeleri bu oturumda açılmadı",
+   "kaynak": "yok",
+   "alinti": "",
+   "etkilenen": 4,
+   "ornek_yerler": [
+    "Kût el-Amâre",
+    "Kerkük"
+   ],
+   "not": "Beklenen isg ingiltere (Levant 1917-21 kuralı), belgelenmedi."
+  },
+  {
+   "ara_kunye": "helvetik-cumhuriyeti",
+   "donem": "1798-04/1803-02",
+   "bolge": "İsviçre (Luzern, Zürih, Bern, Basel)",
+   "hukum": "kukla-kalir",
+   "alt_sinif": "",
+   "olcut": "kendi künyeli kardeş cumhuriyet — Fransız ordusu 1798'de işgal etti, Helvetik Cumhuriyeti kuruldu, kanton bağımsızlığı kaldırıldı; Fransa'ya katma yok",
+   "kaynak": "Treccani, Dizionario di Storia, 'Svizzera', https://www.treccani.it/enciclopedia/svizzera_%28Dizionario-di-Storia%29/",
+   "alinti": "organizzata in Repubblica elvetica con l'annullamento dell'indipendenza cantonale",
+   "etkilenen": 8,
+   "ornek_yerler": [
+    "Luzern",
+    "Zürih",
+    "Bern",
+    "Basel"
+   ],
+   "not": "s: helvetik-cumhuriyeti kalır (Fransa'ya ilhak yok); ic_not adayı 'Fransız uydusu'. 1803 Mediation Act geri dönüş (aynı madde)."
+  },
+  {
+   "ara_kunye": "fransa-cumhuriyet / septinsular / italya-napolyon / öteki",
+   "donem": "1794-1814 (Napolyon dilimleri)",
+   "bolge": "İllirya Eyaletleri (Ljubljana, Görz, Villach, Sisak, Gospić…), Septinsular, Roma/Perugia, Parma, Santo Domingo, Korsika, Guyana, Kap, Ancona, Gdansk, Salzburg, Brixen, Roma/Napoli Cumhuriyetleri",
+   "hukum": "BULUNAMADI",
+   "alt_sinif": "",
+   "olcut": "belge bulunamadı — Treccani 'illirie','stato-pontificio' maddeleri boş (208 bayt); 'parma' ve 'corsica' maddeleri ilgili ilhak/işgal dilimini vermiyor; geri kalan sınıf-5 desenleri araştırılmadı",
+   "kaynak": "Treccani Dizionario di Storia tarandı",
+   "alinti": "",
+   "etkilenen": 57,
+   "ornek_yerler": [
+    "Ljubljana",
+    "Sisak",
+    "Gospić",
+    "Korfu",
+    "Roma",
+    "Perugia",
+    "Parma",
+    "Santo Domingo",
+    "Bastia",
+    "Georgetown",
+    "Kap"
+   ],
+   "not": "Sınıf 5'ten 83-12-8(Helvetik)-3-6-... çözülemeyenler; sayı yaklaşık (12 İllirya+6 Slovenya-Karintiya?+7 Septinsular+3+2+2+2+2+...). Bu kalem ELE ALINMADI sayılmalı, Bürokratik toplu kayıt."
+  }
+ ],
+ "tek_tek": []
+}

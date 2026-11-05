@@ -1,0 +1,1403 @@
+{
+ "agac": "afe2b86f1",
+ "say": {
+  "SATIR_KAYDI": 6374,
+  "AYNI": 7081,
+  "YERLESIM_DUZEYI": 31,
+  "DONEM_YOK": 70,
+  "UYGULANDI_ONERI": 52,
+  "F_DEGISTI": 37,
+  "UYGULANDI_KAYNAKLI": 64,
+  "T_DEGISTI": 24
+ },
+ "ayrinti": {
+  "DONEM_YOK": [
+   {
+    "ad": "Herat",
+    "alan": "isg",
+    "d": "sovyet-rusya",
+    "f": "1979-01-01",
+    "t": "1989-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Washington (D.C.)",
+    "alan": "s",
+    "d": "abd",
+    "f": "1790-07-01 (AY)",
+    "t": "2000-12-31",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Savannah",
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1778",
+    "t": "1782",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Selevkeia (Samandağ)",
+    "alan": "s",
+    "d": "selevkos",
+    "f": null,
+    "t": null,
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Rakkāde",
+    "alan": "s",
+    "d": "aglebi",
+    "f": "0877",
+    "t": "0909-03-25",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Rakkāde",
+    "alan": "s",
+    "d": "fatimi",
+    "f": "0909-03-25",
+    "t": null,
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Konya",
+    "alan": "isg",
+    "d": "italya",
+    "f": "1919-04-01",
+    "t": "1920-03-11",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Polonnaruwa",
+    "alan": "s",
+    "d": "cola/polonnaruwa/seylan-sinhala",
+    "f": "1017-01-01",
+    "t": "1288-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Gao",
+    "alan": "s",
+    "d": "tuareg-ivellemmedan",
+    "f": "1770-01-01",
+    "t": "1898-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Cenne (Djenné)",
+    "alan": "s",
+    "d": "bambara",
+    "f": "1766-01-01",
+    "t": "1790-01-01",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "N'Gazargamu",
+    "alan": "s",
+    "d": "kanem-bornu",
+    "f": "",
+    "t": "1808",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "N'Gazargamu",
+    "alan": "s",
+    "d": "fulani-cihad (künye var mı bilinmiyor)",
+    "f": "1808",
+    "t": "1809-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "N'Gazargamu",
+    "alan": "s",
+    "d": "kanem-bornu",
+    "f": "1809",
+    "t": "1893",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "N'Gazargamu",
+    "alan": "s",
+    "d": "ingiltere",
+    "f": "1902",
+    "t": "?",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Ohri",
+    "alan": "isg",
+    "d": "bulgaristan-kralligi",
+    "f": "1915-01-01",
+    "t": "1918-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Erzurum",
+    "alan": "s",
+    "d": "rusya",
+    "f": "1916-02-16",
+    "t": "1917-03-15",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Erzurum",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Erzurum",
+    "alan": "s",
+    "d": "transkafkasya",
+    "f": "1917-11-07",
+    "t": "1918-03-12",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Fergana",
+    "alan": "s",
+    "d": "hokand-hanligi",
+    "f": "1710-01-01",
+    "t": "1876-02-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Fergana",
+    "alan": "s",
+    "d": "rusya",
+    "f": "1876-02-01",
+    "t": "1917-11-07",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Erzincan",
+    "alan": "s",
+    "d": "rusya",
+    "f": "1916-07-24",
+    "t": "1917-03-15",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Erzincan",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Erzincan",
+    "alan": "s",
+    "d": "transkafkasya",
+    "f": "1917-11-07",
+    "t": "1918-02-26",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Haliç",
+    "alan": "s",
+    "d": "__HEPSİ__",
+    "f": "1101-01-01",
+    "t": "2000-12-31",
+    "hukum": "BAKILMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Banavasi",
+    "alan": "s",
+    "d": "__HEPSİ__",
+    "f": "0500-01-01",
+    "t": "2000-12-31",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "İzmit",
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1920-07-06",
+    "t": "1921-06-28",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Trabzon",
+    "alan": "s",
+    "d": "rusya",
+    "f": "1916-04-18",
+    "t": "1917-03-15",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Trabzon",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Trabzon",
+    "alan": "s",
+    "d": "transkafkasya",
+    "f": "1917-11-07",
+    "t": "1918-02-24",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Kalyani (Basavakalyan)",
+    "alan": "s",
+    "d": null,
+    "f": null,
+    "t": null,
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Dholka",
+    "alan": "s",
+    "d": null,
+    "f": null,
+    "t": null,
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Bayburt",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Bitlis",
+    "alan": "s",
+    "d": "rusya",
+    "f": "1916-03-01",
+    "t": "1916-08-08",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Pasinler (Hasankale)",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Pasinler (Hasankale)",
+    "alan": "s",
+    "d": "transkafkasya",
+    "f": "1917-11-07",
+    "t": "1918-03-12",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Ahıska",
+    "alan": "s",
+    "d": "safevi",
+    "f": "",
+    "t": "1635-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Capua",
+    "alan": "s",
+    "d": "",
+    "f": "-0026-01-01",
+    "t": "2000-12-31",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Daha (Kediri)",
+    "alan": "s",
+    "d": "kadiri",
+    "f": "",
+    "t": "1222-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Daha (Kediri)",
+    "alan": "s",
+    "d": "singhasari",
+    "f": "1222-01-01",
+    "t": "1292-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Daha (Kediri)",
+    "alan": "s",
+    "d": "kadiri",
+    "f": "1292-01-01",
+    "t": "1293-04-26",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Daha (Kediri)",
+    "alan": "s",
+    "d": "majapahit",
+    "f": "1293-04-26",
+    "t": "1520-01-01",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Namur",
+    "alan": "isg",
+    "d": "fransa",
+    "f": "1746-01-01",
+    "t": "",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Isin (Ishan al-Bahriyat)",
+    "alan": "s",
+    "d": null,
+    "f": null,
+    "t": null,
+    "hukum": "BAKILMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Balkanlar",
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "",
+    "t": "",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Koron",
+    "alan": "isg",
+    "d": "ispanya",
+    "f": "1532-01-01",
+    "t": "1534-04",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Rize",
+    "alan": "s",
+    "d": "rusya",
+    "f": "1916-03-08",
+    "t": "1917-03-15",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Rize",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Rize",
+    "alan": "s",
+    "d": "transkafkasya",
+    "f": "1917-11-07",
+    "t": "1918-03-02",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Kırklareli",
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1878-01-01",
+    "t": "1878-07-13",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Eski Van (Tuşpa)",
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1915-01-01",
+    "t": "1917-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Ayamavra (Lefkada)",
+    "alan": "isg",
+    "d": "venedik",
+    "f": "1502-01-01",
+    "t": "1503-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Königsberg",
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1758",
+    "t": "",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Königsberg",
+    "alan": "isg",
+    "d": "fransa",
+    "f": "1807",
+    "t": "",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Lagaş (Tell al-Hiba)",
+    "alan": "s",
+    "d": null,
+    "f": "",
+    "t": "",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Dvin",
+    "alan": "s",
+    "d": null,
+    "f": "",
+    "t": "",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Bratislava",
+    "alan": "isg",
+    "d": "cekoslovakya",
+    "f": "1919-01-01",
+    "t": "1920-06-04",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Tiberya (Tabariyye / Tiberias)",
+    "alan": "isg",
+    "d": "fransa",
+    "f": "1799-01-01",
+    "t": "1799-01-01",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Merzifon",
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "",
+    "t": "1919-09-28",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Mamûra (Mehdiye)",
+    "alan": "isg",
+    "d": "fransa",
+    "f": "1911-01-01",
+    "t": "1912-03-30",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Berde (Karabağ)",
+    "alan": "isg",
+    "d": "osmanli",
+    "f": "1918-09-25",
+    "t": "1918-10-30",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Köstendil",
+    "alan": "s",
+    "d": "sirbistan-nemanjic",
+    "f": "1330-07-28",
+    "t": "1371-09-26",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Kelkit",
+    "alan": "s",
+    "d": "rusya",
+    "f": "1916-07-22",
+    "t": "1917-03-15",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Kelkit",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Kelkit",
+    "alan": "s",
+    "d": "transkafkasya",
+    "f": "1917-11-07",
+    "t": "1918-02-17",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Kuşadası",
+    "alan": "isg",
+    "d": "yunanistan",
+    "f": "1922-04-29",
+    "t": "1922-09-07",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Çeşme",
+    "alan": "isg",
+    "d": "yunanistan",
+    "f": "1919-05-15",
+    "t": "1922-09-09",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Bender Enzeli",
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1722-12-01",
+    "t": "1723-09-23",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Küfkaynapınarı (Azatlı)",
+    "alan": "isg",
+    "d": "yunanistan",
+    "f": "1920-07-26",
+    "t": "1922-11-10",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Hopa",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Aşkale",
+    "alan": "s",
+    "d": "rusya-gecici-hukumet",
+    "f": "1917-03-15",
+    "t": "1917-11-07",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   }
+  ],
+  "F_DEGISTI": [
+   {
+    "ad": "Brüksel",
+    "alan": "s",
+    "d": "fransa-cumhuriyet",
+    "f": null,
+    "t": null,
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Aachen",
+    "alan": "s",
+    "d": "fransa-cumhuriyet",
+    "f": null,
+    "t": null,
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Timbuktu",
+    "alan": "s",
+    "d": "tuareg-ivellemmedan",
+    "f": "1430-01-01",
+    "t": "1468-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Erzurum",
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1829-07-08",
+    "t": "1829-09-14",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Erzurum",
+    "alan": "isg",
+    "d": "rusya",
+    "f": "1878-01-31",
+    "t": "1878-07-13",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Riga",
+    "alan": "s",
+    "d": "sovyet-rusya",
+    "f": "1940-08-06",
+    "t": "1941-07-28",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Dimyat",
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1517-05-19",
+    "t": "1805-07-03",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Tartu (Dorpat)",
+    "alan": "s",
+    "d": "isvec",
+    "f": "1600-01-01",
+    "t": "1603-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Korfu",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1864-05-21",
+    "t": "1973-06-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Orsova (Eski Orsova)",
+    "alan": "s",
+    "d": "romanya-kralligi",
+    "f": "1918-01-01",
+    "t": "1947-12-30",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Dimetoka",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-27",
+    "t": "1973-06-01",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Tokat",
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1393-06-01",
+    "t": "1402-07-28",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Niğbolu",
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1395-01-01",
+    "t": "1402-07-28",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": true
+   },
+   {
+    "ad": "Gümülcine",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-27",
+    "t": "1973-06-01",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Varna",
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1391-01-01",
+    "t": "1402-07-28",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Mazara del Vallo",
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1861-02-13",
+    "t": "1946-06-18",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Pingyang (Linfen)",
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "0009-01-10",
+    "t": "0220-12-10",
+    "hukum": "BAKILMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Koron",
+    "alan": "s",
+    "d": "venedik",
+    "f": "1281-01-01",
+    "t": "1500-08-09",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1517-05-19",
+    "t": "1805-07-03",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Ayamavra (Lefkada)",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1864-05-21",
+    "t": "1973-06-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "İbrail",
+    "alan": "s",
+    "d": "eflak",
+    "f": "1595-03-01",
+    "t": "1601-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Mansûre",
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1517-05-19",
+    "t": "1805-07-03",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Hâil",
+    "alan": "s",
+    "d": "sammar",
+    "f": "1836-01-01",
+    "t": "1921-11-02",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Çirmen",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-14",
+    "t": "1973-06-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": true
+   },
+   {
+    "ad": "Tiberya (Tabariyye / Tiberias)",
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1517-01-01",
+    "t": "1730-01-01",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": false
+   },
+   {
+    "ad": "Kefalonya",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1864-05-21",
+    "t": "1973-06-01",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Távri",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-27",
+    "t": "1973-06-01",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Ferecik (Feres)",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-27",
+    "t": "1973-06-01",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Orestiada (Kumçiftliği)",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-14",
+    "t": "1973-06-01",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Sofulu (Soufli)",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-14",
+    "t": "1973-06-01",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "İskeçe",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-27",
+    "t": "1973-06-01",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Stérna",
+    "alan": "s",
+    "d": "yunanistan",
+    "f": "1920-05-14",
+    "t": "1973-06-01",
+    "hukum": "BULUNAMADI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Bîdar",
+    "alan": "s",
+    "d": "bidar",
+    "f": "1489-01-01",
+    "t": "1619-01-01",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Niğde",
+    "alan": "d",
+    "d": "OSMANLI",
+    "f": "1397",
+    "t": "1402",
+    "hukum": "ONERI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Hürmüz Adası",
+    "alan": "s",
+    "d": "safevi",
+    "f": "1622-05-01",
+    "t": "1736-03-08",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": true
+   },
+   {
+    "ad": "Yam (Yamburg, Kingisepp)",
+    "alan": "s",
+    "d": "rusya",
+    "f": "1703-05-14",
+    "t": "1917-03-15",
+    "hukum": "KAYNAKLI",
+    "yeni": null,
+    "uygulandi": null
+   },
+   {
+    "ad": "Daugavpils (Dünaburg)",
+    "alan": "s",
+    "d": "sovyet-rusya",
+    "f": "1940-08-06",
+    "t": "1941-07-28",
+    "hukum": "BAKILMADI",
+    "yeni": null,
+    "uygulandi": null
+   }
+  ],
+  "T_DEGISTI": [
+   {
+    "ad": "Wadhwan (Vardhamana)",
+    "alan": "s",
+    "d": "",
+    "f": "0801-01-01",
+    "t": "2000-12-31",
+    "hukum": "BULUNAMADI",
+    "yeni": {
+     "f": "0801-01-01",
+     "t": "0942-01-01"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Şeyzer",
+    "alan": "s",
+    "d": "",
+    "f": "1000-01-01",
+    "t": "1850-01-01",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1000-01-01",
+     "t": "1081-12-01"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Phayao",
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1096-01-01",
+    "t": "2000-12-31",
+    "hukum": "BULUNAMADI",
+    "yeni": {
+     "f": "1096-01-01",
+     "t": "1338-01-01"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Sabi (Buyeo)",
+    "alan": "s",
+    "d": "baekje",
+    "f": "0538-01-01",
+    "t": "2000-12-31",
+    "hukum": "BULUNAMADI",
+    "yeni": {
+     "f": "0538-01-01",
+     "t": "0660-08-29"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Tokat",
+    "alan": "s",
+    "d": "burhaneddin",
+    "f": "1381-01-01",
+    "t": "1393-06-01",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "1381-01-01",
+     "t": "1398-07-15"
+    },
+    "uygulandi": false
+   },
+   {
+    "ad": "Gümülcine",
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-10-25",
+    "t": "1920-05-27",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1913-10-25",
+     "t": "1920-05-22"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Mazara del Vallo",
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "1816-12-01",
+    "t": "1861-02-13",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1816-12-01",
+     "t": "1946-06-18"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Pingyang (Linfen)",
+    "alan": "s",
+    "d": "__BOSLUK__",
+    "f": "-0204-01-01",
+    "t": "0009-01-10",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "-0204-01-01",
+     "t": "0220-12-10"
+    },
+    "uygulandi": false
+   },
+   {
+    "ad": "Viipuri (Vyborg)",
+    "alan": "s",
+    "d": "sovyet-rusya",
+    "f": "1944-06-20",
+    "t": "1991-12-25",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1944-06-20",
+     "t": "1991-12-26"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Reşîd (Rosetta)",
+    "alan": "s",
+    "d": "memluk",
+    "f": "1281-01-01",
+    "t": "1517-05-19",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "1281-01-01",
+     "t": "1517-04-13"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Ayamavra (Lefkada)",
+    "alan": "s",
+    "d": "venedik",
+    "f": "1684-08-06",
+    "t": "1699-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "1684-08-06",
+     "t": "1715-09-07"
+    },
+    "uygulandi": false
+   },
+   {
+    "ad": "Çirmen",
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-05-30",
+    "t": "1920-05-14",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "1913-05-30",
+     "t": "1920-05-22"
+    },
+    "uygulandi": false
+   },
+   {
+    "ad": "Kefalonya",
+    "alan": "s",
+    "d": "birlesik-iyon-adalari",
+    "f": "1815-11-05",
+    "t": "1864-05-21",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "1815-11-05",
+     "t": "1864-06-02"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Távri",
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-05-30",
+    "t": "1920-05-27",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1913-05-30",
+     "t": "1920-05-22"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Ferecik (Feres)",
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-05-30",
+    "t": "1920-05-27",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1913-05-30",
+     "t": "1920-05-22"
+    },
+    "uygulandi": false
+   },
+   {
+    "ad": "Ferecik (Feres)",
+    "alan": "isg",
+    "d": "fransa-cumhuriyet",
+    "f": "1919-10-15",
+    "t": "1920-05-27",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1919-10-15",
+     "t": "1920-05-22"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Orestiada (Kumçiftliği)",
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-05-30",
+    "t": "1920-05-14",
+    "hukum": "BULUNAMADI",
+    "yeni": {
+     "f": "1913-05-30",
+     "t": "1920-05-22"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Sofulu (Soufli)",
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-05-30",
+    "t": "1920-05-14",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "1913-05-30",
+     "t": "1920-05-22"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "İskeçe",
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-05-30",
+    "t": "1920-05-27",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1913-05-30",
+     "t": "1920-05-22"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Stérna",
+    "alan": "s",
+    "d": "bulgaristan-kralligi",
+    "f": "1913-05-30",
+    "t": "1920-05-14",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "1913-05-30",
+     "t": "1920-05-22"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Bîdar",
+    "alan": "s",
+    "d": "behmeni",
+    "f": "1347-08-03",
+    "t": "1489-01-01",
+    "hukum": "KAYNAKLI",
+    "yeni": {
+     "f": "1347-08-03",
+     "t": "1492-01-01"
+    },
+    "uygulandi": false
+   },
+   {
+    "ad": "Rēzekne (Rositten)",
+    "alan": "s",
+    "d": "letonya",
+    "f": "1918-11-18",
+    "t": "1940-08-06",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1918-11-18",
+     "t": "1940-08-05"
+    },
+    "uygulandi": null
+   },
+   {
+    "ad": "Hürmüz Adası",
+    "alan": "s",
+    "d": "portekiz",
+    "f": "1515-04-01",
+    "t": "1622-05-01",
+    "hukum": "ONERI",
+    "yeni": {
+     "f": "1515-04-01",
+     "t": "1622-04-23"
+    },
+    "uygulandi": false
+   },
+   {
+    "ad": "Abrene (Pıtalovo)",
+    "alan": "s",
+    "d": "letonya",
+    "f": "1920-08-11",
+    "t": "1940-08-06",
+    "hukum": "BULUNAMADI",
+    "yeni": {
+     "f": "1920-08-11",
+     "t": "1940-08-05"
+    },
+    "uygulandi": null
+   }
+  ]
+ }
+}

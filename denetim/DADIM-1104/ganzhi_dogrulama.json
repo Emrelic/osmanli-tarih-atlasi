@@ -1,0 +1,886 @@
+{
+ "aciklama": "EMRELİC 4 Kasım 2026: ELLE yapılmış Çin/Vietnam ay-güneş çevirileri — Academia Sinica (sinocal.sinica.edu.tw) ile doğrulanacak. NAOJ ECO Japon takvimidir, kullanılmaz. Doğrulanana kadar hüküm ONERI.",
+ "satirlar": [
+  {
+   "yer": "Hanoi (Thăng Long)",
+   "dosya_satir": "data/yerlesimler_asya.js:3864",
+   "alan": "s",
+   "d": "ho-hanedani",
+   "atlas_f": "1400-03-01",
+   "atlas_t": "1407-06-16",
+   "kaynak": "Mingshi juan 6 (Chengzu ji 2) ve juan 321 (mevcut kaynakta okundu; bu oturumda yeniden açılmadı)",
+   "cince_ifade": [
+    "五月甲子",
+    "張輔擒黎季犛、黎蒼獻京師，安南平"
+   ],
+   "alinti": "五月甲子：張輔擒黎季犛、黎蒼獻京師，安南平",
+   "oneri": {},
+   "ganzhi_gunleri": [
+    "甲子"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · ÜLKE DÜZEYİ bitiş 1407-06-16 (Mingshi, Hồ Quý Ly yakalanışı); Hanoi'ye özgü tanıklık değil. Başlangıç 1400-03-01 bu partide teyit edilmedi. Ming dönemi (1407-06-16 → 1427-11-12) zaten kaynaklı.",
+   "academia_sinica": [
+    {
+     "ifade": "永樂5/5/甲子",
+     "gun": "1407-06-16",
+     "rol": "Zhang Fu Hồ'ları yakaladı → ho t / ming f ('1400' okuma hatası)",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Mukden (Şenyang)",
+   "dosya_satir": "data/yerlesimler_asya.js:2726",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "atlas_f": "1281-01-01",
+   "atlas_t": "1368-09-14",
+   "kaynak": "Mingshi juan 41 (Dili zhi 2, Liaodong dusi), zh.wikisource.org/wiki/明史/卷41, okundu ; Mingshi juan 3 (Taizu 3), zh.wikisource.org/wiki/明史/卷3, okundu",
+   "cince_ifade": [
+    "丁未",
+    "三十一年閏五月置衛",
+    "乙卯",
+    "卷3",
+    "卷41",
+    "明史",
+    "洪武二十年 六月丁未，納哈出降",
+    "洪武初廢",
+    "瀋陽中衛元瀋陽路",
+    "閏5"
+   ],
+   "alinti": "瀋陽中衛元瀋陽路。洪武初廢。三十一年閏五月置衛。 ; 洪武二十年 六月丁未，納哈出降。",
+   "oneri": {
+    "f": "1281-01-01",
+    "t": "1387-07-05",
+    "d": "yuan-hanedani"
+   },
+   "ganzhi_gunleri": [
+    "丁未",
+    "乙卯"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Mingshi: Mukden bölgesi 'Yuan Shenyang lu'sudur; Ming Şenyang-zhongwei yalnız 1398 (Hongwu 31, 閏5. ay) kuruldu. Liaodong'un Yuan komutanı Nahachu 'Hongwu 20, 6. ay, 丁未'de teslim oldu = Jülyen 1387-07-05 (ganzhi sayımıyla hesaplandı: 丁未 idx43; sınama günü 乙卯 = 220-11-25). Yani 1368-09-14 Ming'e geçiş Mukden için yanlış/erken; 1368-1387 arası Kuzey Yuan (Nahachu), künyesi atlasta varsa o devlet ya da yuan-hanedani uzatılı",
+   "academia_sinica": [
+    {
+     "ifade": "洪武20/6/丁未",
+     "gun": "1387-07-14",
+     "rol": "Nahachu teslimi → yuan t / ming f (Jülyen); ajan önerisi 07-05 9 gün yanlış",
+     "durum": "DÜZELT"
+    },
+    {
+     "ifade": "天啟1/3/乙卯",
+     "gun": "1621-05-04",
+     "rol": "Qing Shenyang'ı aldı → ming t / qing f (Gregoryen; 天命6/3/13); ajan 04-25 yanlış",
+     "durum": "DÜZELT"
+    }
+   ]
+  },
+  {
+   "yer": "Mukden (Şenyang)",
+   "dosya_satir": "data/yerlesimler_asya.js:2726",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "atlas_f": "1368-09-14",
+   "atlas_t": "1621-01-01",
+   "kaynak": "Mingshi juan 22 (Xizong ji, Tianqi 1), zh.wikisource.org/wiki/明史/卷22, okundu ; Mingshi juan 3 (Taizu 3), juan 41 (yukarıda)",
+   "cince_ifade": [
+    "三月乙卯，大清兵取瀋陽，總兵官尤世功、賀世賢戰死",
+    "乙卯",
+    "卷22",
+    "壬申 朔",
+    "明史"
+   ],
+   "alinti": "三月乙卯，大清兵取瀋陽，總兵官尤世功、賀世賢戰死。",
+   "oneri": {
+    "f": "1387-07-05",
+    "t": "1621-04-25",
+    "d": "ming-hanedani"
+   },
+   "ganzhi_gunleri": [
+    "乙卯",
+    "壬申"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Bitiş: Mingshi Tianqi 1, 3. ay 乙卯 = Jülyen 1621-04-15 (4. ayın 壬申 朔 = 1621-05-02 ile çapraz doğrulandı; Qing kaynaklarındaki Tianming 6/3/13 ile uyumlu). 1621 > 1582-10-15 olduğundan atlas günü Gregoryen = 1621-04-25 (iki günü ic_not'ta beyan et). Şenyang'ın ele geçirilişi Qing (Aisin Gioro) idaresine katılmadır (1625'te başkent); işgal katmanı değil, s: Qing 1621-04-25. Başlangıç: yukarıdaki satıra bak (Nahachu 1387-07",
+   "academia_sinica": [
+    {
+     "ifade": "洪武20/6/丁未",
+     "gun": "1387-07-14",
+     "rol": "Nahachu teslimi → yuan t / ming f (Jülyen); ajan önerisi 07-05 9 gün yanlış",
+     "durum": "DÜZELT"
+    },
+    {
+     "ifade": "天啟1/3/乙卯",
+     "gun": "1621-05-04",
+     "rol": "Qing Shenyang'ı aldı → ming t / qing f (Gregoryen; 天命6/3/13); ajan 04-25 yanlış",
+     "durum": "DÜZELT"
+    }
+   ]
+  },
+  {
+   "yer": "Mukden (Şenyang)",
+   "dosya_satir": "data/yerlesimler_asya.js:2727",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "atlas_f": "1621-01-01",
+   "atlas_t": "1912-02-12",
+   "kaynak": "Mingshi juan 22, Tianqi 1 (yukarıda) ; mevcut kaynak: 清帝遜位詔書 (zh.wikisource.org/wiki/清帝退位詔書)",
+   "cince_ifade": [
+    "三月乙卯，大清兵取瀋陽",
+    "清帝退位詔書",
+    "清帝遜位詔書"
+   ],
+   "alinti": "三月乙卯，大清兵取瀋陽",
+   "oneri": {
+    "f": "1621-04-25",
+    "t": "1912-02-12",
+    "d": "qing-hanedani"
+   },
+   "ganzhi_gunleri": [
+    "乙卯"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Başlangıç 1621-01-01 (yıl yer tutucusu) yerine 1621-04-25 (Mingshi gün; Jülyen 04-15). Bitiş 1912-02-12 mevcut kaynakla (Qing tahttan çekilme fermanı) KAYNAKLI, ÜLKE DÜZEYİ. Ek: Mukden 1904-05 Rus-Japon Savaşı sahnesi (EB 1911 'Mukden': Japonlar 10 Mart 1905'te girdi) ve 1900-05 Rus askerî işgali — işgal katmanı (isg) adayı, kaynak ayrıca aranmalı (bu partide aranmadı). Mukden Olayı 1931-09-18 / Mançukuo 1932: mevcut ci",
+   "academia_sinica": [
+    {
+     "ifade": "洪武20/6/丁未",
+     "gun": "1387-07-14",
+     "rol": "Nahachu teslimi → yuan t / ming f (Jülyen); ajan önerisi 07-05 9 gün yanlış",
+     "durum": "DÜZELT"
+    },
+    {
+     "ifade": "天啟1/3/乙卯",
+     "gun": "1621-05-04",
+     "rol": "Qing Shenyang'ı aldı → ming t / qing f (Gregoryen; 天命6/3/13); ajan 04-25 yanlış",
+     "durum": "DÜZELT"
+    }
+   ]
+  },
+  {
+   "yer": "Kaifeng",
+   "dosya_satir": "data/yerlesimler_asya.js:1922",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "atlas_f": "1281-01-01",
+   "atlas_t": "1368-04-01",
+   "kaynak": "Song Lian vd., Yuan shi, zh.wikisource.org/wiki/元史/059 «Dili zhi er» 汴梁路 (okundu); Ming shi 2 洪武元年三月 (okundu)",
+   "cince_ifade": [
+    "三月己亥，徐達徇汴梁，左君弼降",
+    "元史",
+    "汴梁路",
+    "汴梁路 1288",
+    "洪武元年 3",
+    "洪武元年三月",
+    "至元二十五年",
+    "至正十九年秋八月 察罕帖木兒復汴梁",
+    "至正十八年五月 劉福通破汴梁，迎韓林兒都之",
+    "辛卯"
+   ],
+   "alinti": "三月己亥，徐達徇汴梁，左君弼降 (Ming shi 2)",
+   "oneri": {
+    "t": "1368-04-16 (Jülyen; 洪武元年三月己亥 gün adından JDN hesabıyla; annal kayıt günü)",
+    "d": "ming-hanedani"
+   },
+   "ganzhi_gunleri": [
+    "己亥",
+    "辛卯"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): 1358-59 Kızıl Sarık/Song (Han Lin'er) ayrı polity — devletler.js'te künyesi YOK (ölçüldü; yalnız 960-1279 'song'). Yeni BOYALAR anahtarı ister: KASA künye kuyruğuna 'renk partisi borcu'. O zamana kadar dönem YAZILMAZ; ic_not: 'atlas bu ara dönemi bilerek göstermiyor'. · Yuan idaresi Yuan shi 59'da teyit (汴梁路 1288, 至元二十五年), uç yıl düzeyi",
+   "academia_sinica": [
+    {
+     "ifade": "洪武1/3/己亥",
+     "gun": "1368-04-16",
+     "rol": "Xu Da Bianliang'ı aldı → yuan t / ming f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "洪武1/5/辛卯",
+     "gun": "1368-06-07",
+     "rol": "Bianliang → Kaifeng fu ad değişikliği — f DEĞİL, ic_not",
+     "durum": "İLİŞKİ DÜZELT"
+    }
+   ]
+  },
+  {
+   "yer": "Kaifeng",
+   "dosya_satir": "data/yerlesimler_asya.js:1923",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "atlas_f": "1368-04-01",
+   "atlas_t": "1644-04-25",
+   "kaynak": "Zhang Tingyu vd., Ming shi, zh.wikisource.org/wiki/明史/2 (Taizu ji er) 洪武元年三月己亥, 五月辛卯 (okundu)",
+   "cince_ifade": [
+    "五月辛卯",
+    "徐達徇汴梁",
+    "明史",
+    "洪武元年 3",
+    "洪武元年三月己亥",
+    "辛卯 5",
+    "辛卯，改汴梁路為開封府"
+   ],
+   "alinti": "徐達徇汴梁 ... 辛卯，改汴梁路為開封府",
+   "oneri": {
+    "f": "1368-04-16 (Jülyen)"
+   },
+   "ganzhi_gunleri": [
+    "己亥",
+    "辛卯"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): 1358-59 Kızıl Sarık/Song (Han Lin'er) ayrı polity — devletler.js'te künyesi YOK (ölçüldü; yalnız 960-1279 'song'). Yeni BOYALAR anahtarı ister: KASA künye kuyruğuna 'renk partisi borcu'. O zamana kadar dönem YAZILMAZ; ic_not: 'atlas bu ara dönemi bilerek göstermiyor'. · DEVRALMA yerine yerleşime özgü tanık: Ming shi 2 (Ming kontrolü 洪武元",
+   "academia_sinica": [
+    {
+     "ifade": "洪武1/3/己亥",
+     "gun": "1368-04-16",
+     "rol": "Xu Da Bianliang'ı aldı → yuan t / ming f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "洪武1/5/辛卯",
+     "gun": "1368-06-07",
+     "rol": "Bianliang → Kaifeng fu ad değişikliği — f DEĞİL, ic_not",
+     "durum": "İLİŞKİ DÜZELT"
+    }
+   ]
+  },
+  {
+   "yer": "Hangzhou",
+   "dosya_satir": "data/yerlesimler_asya.js:2032",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "atlas_f": "1368-01-23",
+   "atlas_t": "1644-04-25",
+   "kaynak": "Zhang Tingyu vd., Ming shi, zh.wikisource.org/wiki/明史/1 (Taizu ji yi) 至正二十六年十一月 (okundu)",
+   "cince_ifade": [
+    "明史",
+    "李文忠下餘杭，潘原明降，旁郡悉下",
+    "至正二十六年 11",
+    "至正二十六年十一月",
+    "辛卯"
+   ],
+   "alinti": "李文忠下餘杭，潘原明降，旁郡悉下",
+   "oneri": {
+    "f": "1366-12-15 (Jülyen; 十一月辛卯 gün adından JDN hesabı; annal kayıt günü)",
+    "d": "ming-hanedani (öncül Zhu Yuanzhang rejimi 吳, künye ayrı aranmalı)"
+   },
+   "ganzhi_gunleri": [
+    "辛卯"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Hangzhou 1366-12-15 ming-hanedani'na yazılır (ming f Wu ilanına genişletilir); ic_not '1368 öncesi Wu krallığı olarak'. · Ming shi 1: Zhang Shicheng'in Hangzhou komutanı Pan Yuanming, Zhu Yuanzhang tarafı Li Wenzhong'a teslim oldu (至正二十六年 11. ay, 辛卯). Atlas Yuan'ı 1368-01-23'e kadar sürdürüyor, oysa Hangzhou ondan önce Zhang Shicheng (W",
+   "academia_sinica": [
+    {
+     "ifade": "至正26/11/辛卯",
+     "gun": "1366-12-15",
+     "rol": "Pan Yuanming teslimi → ming(Wu) f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "咸豐11/12/丁丑",
+     "gun": "1862-01-23",
+     "rol": "Taiping Hangzhou'yu aldı (kayıt günü)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "同治3/3/壬子",
+     "gun": "1864-04-17",
+     "rol": "Qing geri aldı (kayıt günü)",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Hangzhou",
+   "dosya_satir": "data/yerlesimler_asya.js:2034",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "atlas_f": "1645-07-06",
+   "atlas_t": "1861-12-29",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/4 ve 21 (okundu)",
+   "cince_ifade": [
+    "丁丑",
+    "兩淮粵匪陷杭州，瑞昌、王有齡死之",
+    "六日",
+    "卷20 咸豐十年三月丙子 賊陷杭州",
+    "卷21 同治",
+    "清史稿",
+    "順治二年"
+   ],
+   "alinti": "兩淮粵匪陷杭州，瑞昌、王有齡死之",
+   "oneri": {},
+   "ganzhi_gunleri": [
+    "丁丑",
+    "丙子"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Başlangıç: Qing shi gao 4 (順治二年). Bitiş: 卷21 同治 başı: Taiping Hangzhou'yu aldı (kayıt günü 丁丑 = 1862-01-23 Gregoryen, JDN hesabı; atlas 1861-12-29 fetih günü bu kaynakta yok, çelişmez). Ara olay: 卷20 咸豐十年三月丙子 賊陷杭州, 六日 sonra Ruichang geri aldı (Mart 1860, ~6 gün, atlasta yok).",
+   "academia_sinica": [
+    {
+     "ifade": "至正26/11/辛卯",
+     "gun": "1366-12-15",
+     "rol": "Pan Yuanming teslimi → ming(Wu) f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "咸豐11/12/丁丑",
+     "gun": "1862-01-23",
+     "rol": "Taiping Hangzhou'yu aldı (kayıt günü)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "同治3/3/壬子",
+     "gun": "1864-04-17",
+     "rol": "Qing geri aldı (kayıt günü)",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Hangzhou",
+   "dosya_satir": "data/yerlesimler_asya.js:2035",
+   "alan": "s",
+   "d": "taiping",
+   "atlas_f": "1861-12-29",
+   "atlas_t": "1864-03-31",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/21 (Muzong ji yi), 同治元年-三年 (okundu)",
+   "cince_ifade": [
+    "三年",
+    "同治三年三月壬子",
+    "同治元年",
+    "清史稿",
+    "蔣益澧各軍克復杭州及餘杭"
+   ],
+   "alinti": "蔣益澧各軍克復杭州及餘杭",
+   "oneri": {},
+   "ganzhi_gunleri": [
+    "壬子"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Başlangıç: bkz. önceki satır (kayıt günü 1862-01-23). Bitiş: 同治三年三月壬子 = 1864-04-17 (JDN hesabı; kayıt/rapor günü); atlas 1864-03-31 fetih günü bu kaynakta yok, çelişmez. Gün için başka kaynak gerekir.",
+   "academia_sinica": [
+    {
+     "ifade": "至正26/11/辛卯",
+     "gun": "1366-12-15",
+     "rol": "Pan Yuanming teslimi → ming(Wu) f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "咸豐11/12/丁丑",
+     "gun": "1862-01-23",
+     "rol": "Taiping Hangzhou'yu aldı (kayıt günü)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "同治3/3/壬子",
+     "gun": "1864-04-17",
+     "rol": "Qing geri aldı (kayıt günü)",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Changsha",
+   "dosya_satir": "data/yerlesimler_asya.js:2139",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "atlas_f": "1281-01-01",
+   "atlas_t": "1368-01-23",
+   "kaynak": "Zhang Tingyu vd., Ming shi, zh.wikisource.org/wiki/明史/44 (Dili zhi wu) «Changsha fu» (okundu)",
+   "cince_ifade": [
+    "天臨路",
+    "太祖甲辰年爲潭州府",
+    "明史",
+    "甲辰年",
+    "長沙府元天臨路，屬湖南道宣慰司"
+   ],
+   "alinti": "長沙府元天臨路，屬湖南道宣慰司。太祖甲辰年爲潭州府",
+   "oneri": {
+    "t": "1364 (YIL; 甲辰年)",
+    "d": "ming-hanedani (öncül Zhu Yuanzhang rejimi 吳)"
+   },
+   "ganzhi_gunleri": [],
+   "tur": "çeviri değil — yalnız hanedan yılı/ay (ay başı tabloyla bulunur) ya da tanıklık",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Ming shi 44: Changsha Yuan döneminde Tianlin lu (Yuan idaresi teyit, yıl düzeyi); 甲辰年 (1364) Taizu ",
+   "academia_sinica": [
+    {
+     "ifade": "順治3/12/丙戌",
+     "gun": "1647-01-19",
+     "rol": "Qing Changsha'yı aldı → guney-ming t / qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/1/丁亥",
+     "gun": "1674-02-27",
+     "rol": "Wu Sangui tarafı Changsha'yı aldı (kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/2/甲寅",
+     "gun": "1674-03-26",
+     "rol": "(ikinci kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙18/1/甲子",
+     "gun": "1679-03-10",
+     "rol": "Yue Le Changsha'yı geri aldı → san-fan t / qing f",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Changsha",
+   "dosya_satir": "data/yerlesimler_asya.js:2140",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "atlas_f": "1368-01-23",
+   "atlas_t": "1644-04-25",
+   "kaynak": "Zhang Tingyu vd., Ming shi, zh.wikisource.org/wiki/明史/44 (okundu)",
+   "cince_ifade": [
+    "太祖甲辰年爲潭州府",
+    "明史",
+    "洪武五年六月",
+    "洪武五年六月更名長沙"
+   ],
+   "alinti": "太祖甲辰年爲潭州府。洪武五年六月更名長沙",
+   "oneri": {
+    "f": "1364 (YIL)"
+   },
+   "ganzhi_gunleri": [],
+   "tur": "çeviri değil — yalnız hanedan yılı/ay (ay başı tabloyla bulunur) ya da tanıklık",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Ming rejimi idaresi 1364'ten (YIL); resmî ad Changsha 1372-06 (洪武五年六月, ay düzeyi). Bitiş 1644-04-25",
+   "academia_sinica": [
+    {
+     "ifade": "順治3/12/丙戌",
+     "gun": "1647-01-19",
+     "rol": "Qing Changsha'yı aldı → guney-ming t / qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/1/丁亥",
+     "gun": "1674-02-27",
+     "rol": "Wu Sangui tarafı Changsha'yı aldı (kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/2/甲寅",
+     "gun": "1674-03-26",
+     "rol": "(ikinci kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙18/1/甲子",
+     "gun": "1679-03-10",
+     "rol": "Yue Le Changsha'yı geri aldı → san-fan t / qing f",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Changsha",
+   "dosya_satir": "data/yerlesimler_asya.js:2141",
+   "alan": "s",
+   "d": "guney-ming",
+   "atlas_f": "1644-04-25",
+   "atlas_t": "1647-01-01",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/4 (Shizu ji yi), 順治三年十二月 (okundu)",
+   "cince_ifade": [
+    "丙戌，大軍自岳州收長沙，故明總督何騰蛟等先期遁",
+    "清史稿",
+    "順治三年 12",
+    "順治三年十二月",
+    "順治三年四月己卯"
+   ],
+   "alinti": "丙戌，大軍自岳州收長沙，故明總督何騰蛟等先期遁",
+   "oneri": {
+    "t": "1647-01-19 (Gregoryen; 丙戌 gün adından JDN hesabı; annal kayıt günü)"
+   },
+   "ganzhi_gunleri": [
+    "丙戌",
+    "己卯"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing'in Changsha'yı alışı 順治三年 12. ay (kayıt günü 1647-01-19); atlas 1647-01-01. Başlangıç 1644-04-",
+   "academia_sinica": [
+    {
+     "ifade": "順治3/12/丙戌",
+     "gun": "1647-01-19",
+     "rol": "Qing Changsha'yı aldı → guney-ming t / qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/1/丁亥",
+     "gun": "1674-02-27",
+     "rol": "Wu Sangui tarafı Changsha'yı aldı (kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/2/甲寅",
+     "gun": "1674-03-26",
+     "rol": "(ikinci kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙18/1/甲子",
+     "gun": "1679-03-10",
+     "rol": "Yue Le Changsha'yı geri aldı → san-fan t / qing f",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Changsha",
+   "dosya_satir": "data/yerlesimler_asya.js:2142",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "atlas_f": "1647-01-01",
+   "atlas_t": "1673-12-28",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/4 ve 6 (Shengzu ji yi), 康熙十三年 (okundu)",
+   "cince_ifade": [
+    "丁亥",
+    "吳三桂陷長沙，副將黃正卿叛應之",
+    "康熙十三年",
+    "康熙十三年 1",
+    "清史稿",
+    "甲寅"
+   ],
+   "alinti": "吳三桂陷長沙，副將黃正卿叛應之",
+   "oneri": {
+    "f": "1647-01-19",
+    "t": "1674-03-26 (Gregoryen; 康熙十三年二月甲寅; annal kayıt günü) — alternatif Qing valisinin kaçışı 十三年正月丁亥 = 1674-02-27"
+   },
+   "ganzhi_gunleri": [
+    "丁亥",
+    "甲寅"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing 1647 başlangıcı yukarıdaki kayıttan. San Fan'a geçiş atlasta 1673-12-28 (ayaklanmanın başladığ",
+   "academia_sinica": [
+    {
+     "ifade": "順治3/12/丙戌",
+     "gun": "1647-01-19",
+     "rol": "Qing Changsha'yı aldı → guney-ming t / qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/1/丁亥",
+     "gun": "1674-02-27",
+     "rol": "Wu Sangui tarafı Changsha'yı aldı (kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/2/甲寅",
+     "gun": "1674-03-26",
+     "rol": "(ikinci kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙18/1/甲子",
+     "gun": "1679-03-10",
+     "rol": "Yue Le Changsha'yı geri aldı → san-fan t / qing f",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Changsha",
+   "dosya_satir": "data/yerlesimler_asya.js:2143",
+   "alan": "s",
+   "d": "san-fan",
+   "atlas_f": "1673-12-28",
+   "atlas_t": "1679-01-01",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/6 (Shengzu ji yi) 康熙十三年, 十八年 (okundu)",
+   "cince_ifade": [
+    "十八年",
+    "康熙十三年",
+    "康熙十八年 1",
+    "清史稿",
+    "甲子",
+    "甲子，岳樂復長沙"
+   ],
+   "alinti": "甲子，岳樂復長沙",
+   "oneri": {
+    "f": "1674-03-26 (alt. 1674-02-27)",
+    "t": "1679-03-10 (Gregoryen; 康熙十八年正月甲子; annal kayıt günü)"
+   },
+   "ganzhi_gunleri": [
+    "甲子"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Bitiş: Qing shi gao 6: 康熙十八年 1. ay 甲子, Yuele Changsha'yı geri aldı = 1679-03-10 (JDN hesabı). Atlas",
+   "academia_sinica": [
+    {
+     "ifade": "順治3/12/丙戌",
+     "gun": "1647-01-19",
+     "rol": "Qing Changsha'yı aldı → guney-ming t / qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/1/丁亥",
+     "gun": "1674-02-27",
+     "rol": "Wu Sangui tarafı Changsha'yı aldı (kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/2/甲寅",
+     "gun": "1674-03-26",
+     "rol": "(ikinci kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙18/1/甲子",
+     "gun": "1679-03-10",
+     "rol": "Yue Le Changsha'yı geri aldı → san-fan t / qing f",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Changsha",
+   "dosya_satir": "data/yerlesimler_asya.js:2144",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "atlas_f": "1679-01-01",
+   "atlas_t": "1912-02-12",
+   "kaynak": "Zhao Erxun vd., Qing shi gao, zh.wikisource.org/wiki/清史稿/6 (okundu)",
+   "cince_ifade": [
+    "清史稿",
+    "甲子，岳樂復長沙"
+   ],
+   "alinti": "甲子，岳樂復長沙",
+   "oneri": {
+    "f": "1679-03-10"
+   },
+   "ganzhi_gunleri": [
+    "甲子"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · KOORDİNATÖR KARARI (EMRELİC, 4 Kasım 2026; TEK KURAL + açık hukukî devir istisnası): Wu (Zhu Yuanzhang 1364-1368) için yeni künye açılmaz: ming-hanedani f (şimdi 1368-01-23) Wu krallığı ilanına GENİŞLETİLİR (gün Ming shi'den kaynakla — KAYNAK GEREK). Changsha 1364 ming'e yazılır; ic_not '1368 öncesi Wu krallığı olarak'. · Qing'in dönüşü kayıt günü 1679-03-10 (atlas 1679-01-01 yıl). Bitiş 1912-02-12 DEVRALMA ferman metni",
+   "academia_sinica": [
+    {
+     "ifade": "順治3/12/丙戌",
+     "gun": "1647-01-19",
+     "rol": "Qing Changsha'yı aldı → guney-ming t / qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/1/丁亥",
+     "gun": "1674-02-27",
+     "rol": "Wu Sangui tarafı Changsha'yı aldı (kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙13/2/甲寅",
+     "gun": "1674-03-26",
+     "rol": "(ikinci kayıt)",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "康熙18/1/甲子",
+     "gun": "1679-03-10",
+     "rol": "Yue Le Changsha'yı geri aldı → san-fan t / qing f",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Anyang",
+   "dosya_satir": "data/yerlesimler_asya.js:1938",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "atlas_f": "1281-01-01",
+   "atlas_t": "1368-09-14",
+   "kaynak": "Ming shi, juan 42 «Dili zhi 3» (zh.wikisource.org/wiki/明史/卷42; okundu)",
+   "cince_ifade": [
+    "卷42",
+    "己巳",
+    "彰德府元彰德路，直隸中書省",
+    "明史",
+    "洪武元年閏七月為府",
+    "閏7月"
+   ],
+   "alinti": "彰德府元彰德路，直隸中書省。洪武元年閏七月為府",
+   "oneri": {
+    "t": "1368-08-14 (閏7月 ilk gunu; gun teyitsiz, 08-14/15)"
+   },
+   "ganzhi_gunleri": [
+    "己巳"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Yuan Zhangde Lu'su Hongwu 1 (閏7月) Ming 'fu' oldu; Ming shi 2: 8. ay 己巳 = 1368-09-13 oldugundan 閏7月 ~1368-08-14/15..09-12 arasinda. Atlas 1368-09-14 (Dadu'nun dusmesi) ULKE DUZEYI; Anyang icin fu-kurulus ayi ondan once. 'Anyang kenti Yuan sonunda lagvedildi, Hongwu 1 9. ay yeniden kuruldu' (Ming shi 42). Oneri beyanli yaklasiklik, 'ic_not'ta yaz. f=1281 kunye ucu (Yuan shi dili zhi 'Zhangde lu' ayri okunmadi).",
+   "academia_sinica": [
+    {
+     "ifade": "洪武1/8/己巳",
+     "gun": "1368-09-13",
+     "rol": "Ming Zhangde'yi aldı → ming f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "崇禎17/2/甲申",
+     "gun": "1644-04-02",
+     "rol": "Li Zicheng Zhangde'ye girdi → ming t",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Anyang",
+   "dosya_satir": "data/yerlesimler_asya.js:1938",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "atlas_f": "1368-09-14",
+   "atlas_t": "1644-06-06",
+   "kaynak": "Ming shi, juan 42 «Dili zhi 3» (zh.wikisource.org/wiki/明史/卷42; okundu) ; Ming shi juan 24 «Zhuanglie di 2» (zh.wikisource.org/wiki/明史/卷24; okundu)",
+   "cince_ifade": [
+    "卷24",
+    "卷42",
+    "明史",
+    "甲申",
+    "甲申，賊至彰德，趙王常㳛降"
+   ],
+   "alinti": "甲申，賊至彰德，趙王常㳛降",
+   "oneri": {
+    "t": "1644-04-02",
+    "d_sonraki": "dashun (Li Zicheng) f=1644-04-02"
+   },
+   "ganzhi_gunleri": [
+    "甲申"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Ming shi 24 Chongzhen 17 2. ay 甲申 = 1644-04-02 (Gregoryen; ganzhi tablosuyla hesaplandi): Li Zicheng Zhangde'ye girdi, Zhao Wang Chang Fu teslim oldu. Atlas Ming'i 1644-06-06'ya (Qing Pekin) dek surduruyor — Anyang icin 2 ay 4 gun erken. TEK KURAL: Shun (Dashun, 1644-02-08 Xi'an'da ilan) rejimi idareyi kendisine kattiysa s dashun (KURAL KARARI gerekebilir: isg mi s mi — Shun Zhili/Henan'a memur atadi); ham fetih gunu no",
+   "academia_sinica": [
+    {
+     "ifade": "洪武1/8/己巳",
+     "gun": "1368-09-13",
+     "rol": "Ming Zhangde'yi aldı → ming f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "崇禎17/2/甲申",
+     "gun": "1644-04-02",
+     "rol": "Li Zicheng Zhangde'ye girdi → ming t",
+     "durum": "EŞLEŞTİ"
+    }
+   ]
+  },
+  {
+   "yer": "Luoyang",
+   "dosya_satir": "data/yerlesimler_asya.js:1898",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "atlas_f": "1368-04-01",
+   "atlas_t": "1641-03-08",
+   "kaynak": "Ming shi 42 + Ming shi 24 «Zhuanglie di 2» (zh.wikisource.org/wiki/明史/卷24; okundu)",
+   "cince_ifade": [
+    "丙申",
+    "丙申，李自成陷河南，福王常洵遇害",
+    "卷24",
+    "明史"
+   ],
+   "alinti": "丙申，李自成陷河南，福王常洵遇害",
+   "oneri": {
+    "t": "1641-03-01"
+   },
+   "ganzhi_gunleri": [
+    "丙申"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Ming shi 24 Chongzhen 14 1. ay 丙申 = 1641-03-01 (Gregoryen; ganzhi hesabi, ay-gun tablosu). Atlas 1641-03-08: 7 gun fark. Ming shi cumlesi 'Henan'i dusurdu, Fu Wang Chang Xun oldurulduyle' — Luoyang'in dusus haberi/tarihi; ganzhi gunu mahkeme kaydidir, fiili dusus 1-2 gun once olabilir. f: Ming shi 42 'Hongwu 1' yil duzeyi (04-01 ay hassasiyeti teyitsiz).",
+   "academia_sinica": [
+    {
+     "ifade": "順治1/12/戊辰",
+     "gun": "1645-01-11",
+     "rol": "Dodo Mengjin'de → qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "崇禎14/1/丙申",
+     "gun": "1641-03-01",
+     "rol": "Li Zicheng Henan(Luoyang)'ı aldı → dashun f; atlas 03-08 7 gün yanlış",
+     "durum": "DÜZELT"
+    }
+   ]
+  },
+  {
+   "yer": "Luoyang",
+   "dosya_satir": "data/yerlesimler_asya.js:1899",
+   "alan": "s",
+   "d": "dashun",
+   "atlas_f": "1641-03-08",
+   "atlas_t": "1645-01-18",
+   "kaynak": "Ming shi 24 (okundu) ; Qing shi gao juan 4 (zh.wikisource.org/wiki/清史稿/卷4; okundu)",
+   "cince_ifade": [
+    "丙申",
+    "乙亥",
+    "卷4",
+    "己巳",
+    "戊辰",
+    "戊辰，多鐸軍至孟津，賊將黃士欣等遁走，濱河十五寨堡望風納款",
+    "清史稿"
+   ],
+   "alinti": "戊辰，多鐸軍至孟津，賊將黃士欣等遁走，濱河十五寨堡望風納款",
+   "oneri": {
+    "f": "1641-03-01",
+    "t": "1645-01-11 civari (teyitsiz; atlas 1645-01-18)"
+   },
+   "ganzhi_gunleri": [
+    "丙申",
+    "乙亥",
+    "己巳",
+    "戊辰"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · f: Ming shi 24 丙申 = 1641-03-01. t: Qing shi gao 4 Shunzhi 1 12. ay: 戊辰 (=1645-01-11) Dodo Mengjin'de, 己巳 (=01-12) Shanzhou'da — Luoyang bu iki gun arasinda gecildi; atlas 1645-01-18 (乙亥) 6-7 gun gec. Luoyang'a ozgu Qing gunu metinde yok, o yuzden ONERI zayif. KURAL KARARI: 1641'de Li Zicheng henuz devlet kurmamisti (Xinshun 1643, Dashun ilani 1644-02-08); 1641-1643 'dashun' s yazmak TEK KURAL ile celisebilir (isg mi?). ",
+   "academia_sinica": [
+    {
+     "ifade": "順治1/12/戊辰",
+     "gun": "1645-01-11",
+     "rol": "Dodo Mengjin'de → qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "崇禎14/1/丙申",
+     "gun": "1641-03-01",
+     "rol": "Li Zicheng Henan(Luoyang)'ı aldı → dashun f; atlas 03-08 7 gün yanlış",
+     "durum": "DÜZELT"
+    }
+   ]
+  },
+  {
+   "yer": "Luoyang",
+   "dosya_satir": "data/yerlesimler_asya.js:1900",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "atlas_f": "1645-01-18",
+   "atlas_t": "1912-02-12",
+   "kaynak": "Qing shi gao 4 (bkz. Dashun satiri)",
+   "cince_ifade": [
+    "戊辰 1645"
+   ],
+   "alinti": "",
+   "oneri": {},
+   "ganzhi_gunleri": [
+    "戊辰"
+   ],
+   "tur": "çeviri — ganzhi GÜNÜ var, tabloyla çevrilmeli",
+   "ajan_notu": ", tablo adı yok → takvim kuralı tablo ister (Academia Sinica / NAOJ). KASA SALI NAOJ ECO ile doğrulayana kadar ÖNERİ, KAYNAKLI değil; doğrulanınca ic_not'a tablo adı yazılır. · Bu satirin KAPANISI 1912-02-12 ULKE DUZEYI (devralma). Acilis 1645-01-18 icin bkz. Dashun satirindaki celiski (Qing shi gao 4: Dodo 戊辰 1645-01-11 Mengjin).",
+   "academia_sinica": [
+    {
+     "ifade": "順治1/12/戊辰",
+     "gun": "1645-01-11",
+     "rol": "Dodo Mengjin'de → qing f",
+     "durum": "EŞLEŞTİ"
+    },
+    {
+     "ifade": "崇禎14/1/丙申",
+     "gun": "1641-03-01",
+     "rol": "Li Zicheng Henan(Luoyang)'ı aldı → dashun f; atlas 03-08 7 gün yanlış",
+     "durum": "DÜZELT"
+    }
+   ]
+  }
+ ],
+ "sonuc": "EMRELİC 4 Kasım 2026 akşam: 20 satır Academia Sinica ile çevrildi; hiçbir ganzhi günü ayının dışına düşmedi. Bundan sonra Çin günleri toplu olarak EMRELİC'te bu yöntemle çevrilir."
+}

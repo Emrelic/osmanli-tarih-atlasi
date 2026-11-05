@@ -1,0 +1,172 @@
+{
+ "Boulia": [
+  {
+   "sira": 3636,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1879-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi (tek dayanak olamaz) https://en.wikipedia.org/wiki/Boulia,_Queensland (QHR/Qld Place Names atifli; resmi kaynak sayfalari erisilemedi)",
+   "alinti": "The township was gazetted in 1879. Boulia Post Office opened on 1 July 1879.",
+   "oneri": {},
+   "uc": "f",
+   "not": "f yil duzeyinde 1879 ile uyumlu (gazete yili). Ayni sayfa 'adi 1882'de Hartnell koydu' diyor; kasaba olcumu/ilk arazi satisi 1882-83 (yalniz arama ozeti, ham okunmadi). Kurulus gunu bulunamadi; f 1879-01-01 yil hassasiyeti BEYANLI. Bakilan: queenslandplaces.com.au (zaman asimi), qld.gov.au QHR (yanlis yonlendirme), Boulia shire timeline (robots yasagi). Sahip: Boulia 139.9 D; Queensland siniri 1862'de 138 D'ye genisledi (hafizadan, OKUNMADI), 1879'da sorun yok. t=1901-01-01 federasyon: EMRELIC emsali (queensland/bati-avustralya -> avustralya 1901-01-01); bu oturumda federasyon gunu icin ham kaynak okunmadi, o uc KURAL KARARI'na dayanir."
+  }
+ ],
+ "Rockhampton": [
+  {
+   "sira": 3638,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1855-01-01",
+   "t": "1859-06-06",
+   "hukum": "ONERI",
+   "kaynak": "Queensland State Archives, 'Why do we celebrate Queensland Day on 6 June?' https://blogs.archives.qld.gov.au/2020/06/05/why-do-we-celebrate-queensland-day-on-6-june/",
+   "alinti": "it wasn't until a proclamation of the separation was made that Queensland was born, and that proclamation was made on 10 December 1859",
+   "oneri": {
+    "t": "1859-12-10"
+   },
+   "uc": "t",
+   "not": "EMRELİC (5 Kasım 2026, r8_078/079): Queensland onay: NSW t / Qld f 1859-12-10 (ayrılış ilanı; 06-06 → 12-10 koloni kâğıt üzerinde, NSW idare ediyordu); queensland künye f → 1859-12-10 (LAB; Brisbane satırı da hizalanır); Letters Patent 1859-06-06 ic_not. f 1855 BEYANLI kalır (akademik teyit olmadan f ileri yok); Gracemere 1855 / kasaba 1858 ayrımı ic_not. · Ayrilis fiilen ilan/Gazete gunu 10 Aralik 1859 (EMRELIC emsali ile uyumlu); Letters Patent imzasi 6 Haziran 1859 (ayni sayfa: Queen Victoria signed the Letters Patent on 6 June 1859) kolonide yururluge girmedi. Satirin t'si kunye f'ine (queensland f=1859-06-06) bagli; kunye f de 1859-12-10 olmali, donem ve madde birlikte tasinmali (LAB). f=1855: Vikipedi Archer kardeslerin Agustos 1855 Gracemere ciftligini veriyor (sehre ~10 km), kasaba ilani 1858 (Vikipedi proclaimed in 1858); resmi Qld kaynagi bulunamadi -> f icin ONERI: kurulus 1858 yil; 1855 Gracemere ilk iskan BEYANLI kalabilir (EMRELIC karari)."
+  },
+  {
+   "sira": 3639,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1859-06-06",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Queensland State Archives, 'Why do we celebrate Queensland Day on 6 June?' https://blogs.archives.qld.gov.au/2020/06/05/why-do-we-celebrate-queensland-day-on-6-june/",
+   "alinti": "it wasn't until a proclamation of the separation was made that Queensland was born, and that proclamation was made on 10 December 1859",
+   "oneri": {
+    "f": "1859-12-10"
+   },
+   "uc": "f",
+   "not": "EMRELİC (5 Kasım 2026, r8_078/079): Queensland onay: NSW t / Qld f 1859-12-10 (ayrılış ilanı; 06-06 → 12-10 koloni kâğıt üzerinde, NSW idare ediyordu); queensland künye f → 1859-12-10 (LAB; Brisbane satırı da hizalanır); Letters Patent 1859-06-06 ic_not. f 1855 BEYANLI kalır (akademik teyit olmadan f ileri yok); Gracemere 1855 / kasaba 1858 ayrımı ic_not. · f=1859-12-10 (ilan/Gazete, Vali Bowen'in Brisbane'e varisi); 1859-06-06 Letters Patent imza gunu ic_not'a. t=1901-01-01 federasyon: EMRELIC emsali (queensland/bati-avustralya -> avustralya 1901-01-01); bu oturumda federasyon gunu icin ham kaynak okunmadi, o uc KURAL KARARI'na dayanir."
+  }
+ ],
+ "Winton": [
+  {
+   "sira": 3641,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1876-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi (tek dayanak olamaz) https://en.wikipedia.org/wiki/Winton,_Queensland",
+   "alinti": "Robert Allen ... moved west to the Pelican Waterholes ..., where he set up a shop and a public house the next year.",
+   "oneri": {},
+   "uc": "f",
+   "not": "Vikipedi: Allen ~1875'te Pelican Waterholes'a geldi, dukkan/han ertesi yil (1876) -> atlas f=1876 ile uyumlu (yil, ikincil kaynak). Resmi Qld/QHR kaynagi erisilemedi; kasaba olcumu 1878 (arama ozeti). Kurulus gunu bulunamadi: f yil hassasiyeti BEYANLI. t=1901-01-01 federasyon: EMRELIC emsali (queensland/bati-avustralya -> avustralya 1901-01-01); bu oturumda federasyon gunu icin ham kaynak okunmadi, o uc KURAL KARARI'na dayanir."
+  }
+ ],
+ "Blackall": [
+  {
+   "sira": 3643,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1867-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi (tek dayanak olamaz) https://en.wikipedia.org/wiki/Blackall,_Queensland",
+   "alinti": "A survey of town allotments was conducted in 1868. Barcoo Post Office opened on 1 April 1864. It was renamed Blackall in 1868.",
+   "oneri": {
+    "f": "1868-01-01"
+   },
+   "uc": "f",
+   "not": "EMRELİC (5 Kasım 2026, r8_078/079): f 1867 BEYANLI kalır (akademik teyit olmadan f ileri yok); kasaba ölçümü 1868, Barcoo postanesi 1864 ic_not. · Vikipedi established 1868; atlas f=1867 daha erken ve kaynaksiz. Barcoo PO 1864'ten beri vardi (yer adi Barcoo). Resmi kaynak bulunamadi -> ONERI: f 1868 yil (kasaba olcumu) YA DA 1864 ilk iskan; EMRELIC karari gerek. f erkene cekilirse (1864) sahip queensland (1859'dan sonra) kunyeyle uyumlu. t=1901-01-01 federasyon: EMRELIC emsali (queensland/bati-avustralya -> avustralya 1901-01-01); bu oturumda federasyon gunu icin ham kaynak okunmadi, o uc KURAL KARARI'na dayanir."
+  }
+ ],
+ "Charters Towers": [
+  {
+   "sira": 3645,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1872-01-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Vikipedi (tek dayanak olamaz) https://en.wikipedia.org/wiki/Charters_Towers",
+   "alinti": "Charters Towers Post Office opened on 17 May 1872. A 20 head of stamps mill began ore-crushing operations on 16 July 1872.",
+   "oneri": {},
+   "uc": "f",
+   "not": "Altin 1871 Noel arifesinde bulundu (Vikipedi); kasaba 1872 -> atlas f=1872 yil uyumlu. Kurulus gunu kaynaksiz: f=1872-01-01 yil hassasiyeti BEYANLI; belediye 1877-06 (arama ozeti). Resmi sayfa robots yasagi. t=1901-01-01 federasyon: EMRELIC emsali (queensland/bati-avustralya -> avustralya 1901-01-01); bu oturumda federasyon gunu icin ham kaynak okunmadi, o uc KURAL KARARI'na dayanir."
+  }
+ ],
+ "Halls Creek": [
+  {
+   "sira": 3647,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-avustralya",
+   "f": "1885-08-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "inHerit (WA State Heritage Office) https://inherit.dplh.wa.gov.au/public/inventory/details/6dff9777-31fb-45fa-9334-e051e8033006 ; Vikipedi (tek dayanak olamaz) https://en.wikipedia.org/wiki/Halls_Creek,_Western_Australia",
+   "alinti": "The area was named after Charles Hall, who with his partner Slattery, confirmed the presence of payable gold in WA",
+   "oneri": {
+    "f": "gun bulunamadi: 1885-12-25 (Vikipedi, Noel 1885 nugget) veya 1885-08 (Register ozeti, ham okunmadi)"
+   },
+   "uc": "f",
+   "not": "inHerit ham metni olay YILI vermiyor (yalniz altinin teyidi); Vikipedi On Christmas Day 1885, prospector Charlie Hall found a nugget; arama ozeti Heritage Register August 1885 diyor (okunamadi). Iki tarih celisir: f=1885-08-01 teyitsiz. Eski kasaba olcumu 1887. Sahip: bati-avustralya (kunye 1829-06-18 kapsar); Halls Creek 127.7 D, WA siniri 129 D (hafizadan, OKUNMADI). t=1901-01-01 federasyon: EMRELIC emsali (queensland/bati-avustralya -> avustralya 1901-01-01); bu oturumda federasyon gunu icin ham kaynak okunmadi, o uc KURAL KARARI'na dayanir."
+  }
+ ],
+ "Bowen": [
+  {
+   "sira": 3649,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1861-04-01",
+   "t": "1901-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Queensland Government, Community histories: Bowen https://www.qld.gov.au/firstnations/cultural-awareness-heritage-arts/community-histories/community-histories-a-b/community-histories-bowen",
+   "alinti": "They met at Port Denison on 10 April 1861 and proclaimed the town of Bowen",
+   "oneri": {
+    "f": "1861-04-10"
+   },
+   "uc": "f",
+   "not": "Resmi Qld hukumeti sayfasi gunu veriyor: 10 Nisan 1861 (baska kaynaklar 11-13 Nisan, arama ozeti). f 04-01 -> 04-10 (gec: f_geri degil). Sahip queensland (kunye 1859). t=1901-01-01 federasyon: EMRELIC emsali (queensland/bati-avustralya -> avustralya 1901-01-01); bu oturumda federasyon gunu icin ham kaynak okunmadi, o uc KURAL KARARI'na dayanir."
+  }
+ ],
+ "Darwin (Palmerston)": [
+  {
+   "sira": 3651,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1869-02-01",
+   "t": "1911-01-01",
+   "hukum": "ONERI",
+   "kaynak": "NT Place Names Register, Darwin https://www.ntlis.nt.gov.au/placenames/print_extract.jsp?id=12218",
+   "alinti": "Surveyor-General Goyder when he established the settlement in 1869 named the town - Palmerston",
+   "oneri": {
+    "t": "1901-01-01"
+   },
+   "uc": "f+t",
+   "not": "EMRELİC (5 Kasım 2026, r8_078/079): Emsal kalır: 1901'den avustralya; 1911 devri SA'nın parçası NT'nin federal bölgeye dönüşmesi, egemen değişmez; 1911-03-18 gazette ic_not. · f: yil 1869 KAYNAKLI (resmi register); gun 1869-02-05 register'da YOK -> f=1869-02-01 gun teyitsiz. t: register 1911'de Commonwealth devrini soyler (isim degisimi gazette 18/03/1911); EMRELIC emsali (1901'den avustralya kesintisiz, 1911 ic_not) ile CELISIR -> KURAL KARARI isaretli: t 1901-01-01 oneri; kaynak 1911'i destekler. Karar EMRELIC'te."
+  },
+  {
+   "sira": 3652,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "avustralya",
+   "f": "1911-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "NT Place Names Register, Darwin https://www.ntlis.nt.gov.au/placenames/print_extract.jsp?id=12218",
+   "alinti": "In 1911, when the Commonwealth relieved the State of South Australia of the economic burden",
+   "oneri": {
+    "f": "1901-01-01"
+   },
+   "uc": "f",
+   "not": "EMRELİC (5 Kasım 2026, r8_078/079): Emsal kalır: 1901'den avustralya; 1911 devri SA'nın parçası NT'nin federal bölgeye dönüşmesi, egemen değişmez; 1911-03-18 gazette ic_not. · KURAL KARARI (EMRELIC): f=1901-01-01, 1911-01-01 devri ic_not. Register 1911 devrini dogruluyor (alinti 1911'i tarihler, 1901'i degil). avustralya kunyesi f=1901-01-01 kapsar. Palmerston adi 1911-03-18'de Darwin oldu (gazette)."
+  }
+ ]
+}

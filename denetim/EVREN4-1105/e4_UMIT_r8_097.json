@@ -1,0 +1,366 @@
+{
+ "Tenkodogo": [
+  {
+   "sira": 3981,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mossi-vagadugu",
+   "f": "1281-01-01",
+   "t": "1896-09-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Burkina Faso» (islamansiklopedisi.org.tr/burkina-faso)",
+   "alinti": "1896’da bir Fransız birliği Uagadugu’ya girdi ve kral kaçmak zorunda kaldı",
+   "uc": "t",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL düzeyi: TDV Mossi kralının başkenti Uagadugu'ya Fransız girişini 1896 verir; Tenkodogo'ya özgü gün yok. 1896-09-01 günü ve öteki uç (f) TEYİTSİZ: f=1281 EPOK DAMGASI (künye ic_not_f). TDV aynı maddede 'Ouédraogo Tehkodego Krallığı’nı kurdu (XII. yüzyıl sonları)' der (yüzyıl düzeyi; Britannica XV. yy; künye ic_not'ta çelişki beyanlı). Tenkodogo ayrı bir kral merkezi (Vagadugu'dan önce kurulan ilk Mossi krallığı); sahip künyesi 'mossi-vagadugu' Tenkodogo için genişletilmiş yaklaşıklıktır. Aranan: TDV burkina-faso (ham), GHA VII ('Mossi' dizin/metin: Wobogo 1895-96 girişi, gün yok)."
+  },
+  {
+   "sira": 3982,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1896-09-01",
+   "t": "1960-08-05",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Burkina Faso» (islamansiklopedisi.org.tr/burkina-faso)",
+   "alinti": "5 Ağustos 1960’ta ise bağımsızlığını ilân etti",
+   "uc": "t",
+   "oneri": {},
+   "not": "t ucu KAYNAKLI (ÜLKE DÜZEYİ; Yukarı Volta bağımsızlığı 1960-08-05, TDV ham). f ucu: TDV 'Uagadugu’ya girdi (1896)' + 'Böylece 1897 yılında bugünkü Burkina Faso’nun bütün toprakları Fransızlar tarafından işgal edilmiş' — yıl düzeyi, 1896-09-01 günü teyitsiz (kaynak: yalnız yıl); Tenkodogo'nun kendi teslim günü bulunamadı (Mossi doğusu 1896-97). GÖZLEM: 1960-08-05'ten sonra bu yerleşim için s: yukari-volta-burkina dönemi parti girdisinde YOK (künye f 1960-08-05) — KASA yerlesimler dosyasında bakmalı (Değişmez 1)."
+  }
+ ],
+ "Bobo-Diulasso": [
+  {
+   "sira": 3983,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mossi-vagadugu",
+   "f": "1281-01-01",
+   "t": "1896-09-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Burkina Faso» (islamansiklopedisi.org.tr/burkina-faso)",
+   "alinti": "Diular’ın merkezi Bobo-Dioulasso olan Gwiriko Devleti",
+   "uc": "t",
+   "oneri": {
+    "d": "gwiriko (künye adayı; yoksa kong-vattara'nın Gwiriko kolu — LAB'a künye sorusu)",
+    "t": "1897"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_097): Bobo-Diulasso: gwiriko künye adayı LAB'a. 1281 → 1896 mossi-vagadugu ŞÜPHELİ (Bobo bölgesi Mossi değil); Gwiriko öncesi sahibi kaynakla bulunmazsa merdiven ④: o devirde yerleşim var mıydı — varsa BEYANLI, yoksa kırp. ONERI. · SAHİP YANLIŞ: Bobo-Dioulasso Mossi değil Gwiriko Devleti'nin merkezidir (TDV: 'müslüman Diular’ın merkezi Bobo-Dioulasso olan Gwiriko Devleti ... 1897’de Fransız egemenliğiyle tarihe karıştılar'). Mossi krallığı bu şehri 1281-1896'da yönetmedi. devletler.js'te 'gwiriko' künyesi YOK; en yakını kong-vattara (f 1710, t 1897-05-01 = Samori'nin Kong'u yıkışı; GHA VII: 'Samori himself attacked and destroyed Kong in May 1897 and pushed on to Bobo'), ama Gwiriko Kong'dan fiilen özerk bir koldu (Vikipedi ipucu, tek dayanak değil) ve Kong t'si 1897-05-01'de biter, Bobo'nun düşüşü ise Eylül 1897. t=1897 YIL (TDV). Mossi 1896-09-01 ucu bu şehir için geçersiz (Fransızlar Uagadugu'ya 1896'da girdi, Bobo'ya değil). Ölçüt: s: Gwiriko, f ucu bulunamadı (Gwiriko 1714 Vikipedi ipucu; akademik gün yok).",
+   "oneri_son": [
+    {
+     "d": "? (Gwiriko öncesi, ~18. yy başı; kaynakla — yoksa merdiven ④)",
+     "f": "1281-01-01",
+     "t": "~gwiriko f"
+    },
+    {
+     "d": "gwiriko (künye adayı LAB)",
+     "t": "1897-01-01"
+    }
+   ],
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3984,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1896-09-01",
+   "t": "1960-08-05",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Burkina Faso» (islamansiklopedisi.org.tr/burkina-faso)",
+   "alinti": "bunlar da 1897’de Fransız egemenliğiyle tarihe karıştılar",
+   "uc": "f",
+   "oneri": {
+    "f": "1897-01-01"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_097): Fransız f 1896-09-01 (Uagadugu girişi) Bobo'yu tarihlemez → 1897-01-01 [yıl]. · f: 1896-09-01 Uagadugu girişidir, Bobo-Dioulasso'nun değil; TDV Gwiriko'nun 1897'de Fransız egemenliğiyle sona erdiğini söyler (YIL; 'yalnız yıl teyitli, gün teyitsiz'). İPUCU (Vikipedi, tek dayanak olamaz, DOĞRULANMADI): 25 Eylül 1897 Sia'nın Fransızlarca kısa süreli işgali, 23 Kasım 1897 askerî karakol — akademik kaynakla (Person, Boahen/GHA, Cambridge) gün aranmalı. GHA VII: 'Samori ... pushed on to Bobo where he encountered a French column under the command of Caudrelier' (1897). t=1960-08-05: TDV ham 'Yukarı Volta 5 Ağustos 1960'ta bağımsızlığını ilân etti' ile KAYNAKLI (uc t). GÖZLEM: 1960 sonrası s: yukari-volta-burkina dönemi parti girdisinde yok.",
+   "oneri_son": {
+    "d": "fransa-cumhuriyet",
+    "f": "1897-01-01",
+    "t": "1960-08-05",
+    "beyan": "yıl hassasiyeti, TDV Burkina Faso; Fransız giriş günü akademik kaynakta aranacak"
+   },
+   "karar": "EMRELİC"
+  }
+ ],
+ "Timbo": [
+  {
+   "sira": 3985,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "futa-callon",
+   "f": "1747-01-01",
+   "t": "1896-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Futa Calon» (islamansiklopedisi.org.tr/futa-calon); TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "ülkeyi ele geçirdiler (1896). Böylece Futa Calon’un bağımsızlığı son buldu",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL düzeyi. t: TDV Futa Calon 1896 (Poredaka'da Bokar Biro yenildi, ülke ele geçirildi). f: TDV Gine ham 'bağımsız bir İslâm devleti kurdular (1747)' (İbrâhim Mûsâ, Fugumba'da almami). Timbo'ya özgü: TDV 'İbrâhim Sori idare merkezini Fugumba’dan Timba’ya taşıdı' (1751-1784 hükümdarlığı içinde) — Timbo 1747'de devlet merkezi değil, devletin içindeydi (1770'lerde bölgenin tamamı kontrol altında). İPUCU (doğrulanmadı): Poredaka 1896-11-14; atlas t=1896-01-01 yıl başı kuralıyla yazılı, gün 1896-11-14 akademik kaynakta aranmalı — UNESCO GHA VII'de Futa Jallon/Poredaka günü yok, TDV yalnız yıl veriyor. Not: 1881 himaye antlaşması ve 1888 Bokar Biro antlaşması (TDV Gine) hukuki himaye; idareye katma 1896 (TDV: 'Fransız Ginesi’nin bir parçası haline getirildi') — s: sınırı 1896 doğru."
+  },
+  {
+   "sira": 3986,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1896-01-01",
+   "t": "1958-10-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Futa Calon» (islamansiklopedisi.org.tr/futa-calon); TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "Bağımsızlığın ilân edildiği 2 Ekim 1958’e kadar Fransa’nın idaresi altında kalan Gine’de",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f: TDV Futa Calon (1896, yıl; 'topraklarının tamamı Fransız Ginesi’nin bir parçası haline getirildi'). t: TDV Gine ham 2 Ekim 1958 (ÜLKE DÜZEYİ). Ölçüt: idareye katma — TDV 'Fransız Ginesi’nin bir parçası haline getirildi; her türlü yetki sömürge yöneticilerindeydi'. f günü teyitsiz (yalnız yıl)."
+  },
+  {
+   "sira": 3987,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "gine",
+   "f": "1958-10-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "bağımsız Gine devleti resmen ilân edildi (2 Ekim 1958)",
+   "uc": "f",
+   "oneri": {},
+   "not": "f ucu KAYNAKLI (TDV Gine ham). t=2000-12-31 YER TUTUCU (açık uçlu künye sınırı), kaynak yok — öteki uç teyitsiz. Not: bu satırın mevcut_kaynağı DEVRALMA idi; ham alıntı artık yerleşime özgü değil ama ÜLKE DÜZEYİ ile uygun."
+  }
+ ],
+ "Bisandugu": [
+  {
+   "sira": 3988,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "vasulu",
+   "f": "1878-01-01",
+   "t": "1898-09-29",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Samori Ture» (islamansiklopedisi.org.tr/samori-ture)",
+   "alinti": "1871’de bütün Toron bölgesini hâkimiyeti altına alarak Bissandugu’yu yönetim merkezi yaptı",
+   "uc": "f",
+   "oneri": {
+    "f": "1871-01-01"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_097): Bisandugu: rakip hükûmet kuralı (fiilî kontrol) — Samori doğuya göçtü, iddiası orada fiilen sürmedi. Humbert 1892-01'de aldıktan sonra Fransız karakolu/idare kaynakla gösterilirse → s: fransa 1892-01 (TAHRİR); gösterilemezse → isg fransa 1892-01 → 1898-09-29 ONERI. Önce karakol aranır (GHA VII / Person, Samori). F-GERI 1878 → 1871 onay (TDV Samori Ture); vasulu künye f 1871'e GENİŞLET adayı LAB'a. · f: TDV Samori 1871'de Bissandugu'yu yönetim merkezi yaptı (YIL); künye vasulu f=1878-01-01 (TDV 'Yukarı Nijer 1878'). KOŞUL: künyenin f'si 1871'e çekilmeli (LAB) — yoksa hayalet dilim; bkz. F-GERI. TDV 'Bissandugu' ham (samori-ture) — Bisandugu yazımı TDV'de Bissandugu. t ucu için sonraki satıra bak (ayrı sonuç).",
+   "oneri_son": {
+    "d": "vasulu",
+    "f": "1871-01-01",
+    "f_geri": "1878 → 1871"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3988,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "vasulu",
+   "f": "1878-01-01",
+   "t": "1898-09-29",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Samori Ture» (islamansiklopedisi.org.tr/samori-ture)",
+   "alinti": "Samori Fransız birliğine esir düştü (29 Eylül 1898)",
+   "uc": "t",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_097): Bisandugu: rakip hükûmet kuralı (fiilî kontrol) — Samori doğuya göçtü, iddiası orada fiilen sürmedi. Humbert 1892-01'de aldıktan sonra Fransız karakolu/idare kaynakla gösterilirse → s: fransa 1892-01 (TAHRİR); gösterilemezse → isg fransa 1892-01 → 1898-09-29 ONERI. Önce karakol aranır (GHA VII / Person, Samori). F-GERI 1878 → 1871 onay (TDV Samori Ture); vasulu künye f 1871'e GENİŞLET adayı LAB'a. · ÜLKE DÜZEYİ: 1898-09-29 Samori'nin esir alınışı (TDV ham, gün dahil); devletin sonudur. UYARI (yerleşim düzeyi çelişki): GHA VII — Archinard 'capturing of Kankan on 7 April and the burning of Bissandugu' (Nisan 1891; atlas dışı ipucu 1891-04-09); Humbert Ocak 1892 saldırısıyla 'succeeded in capturing Bissandugu, Sanankoro and Kerwane'; Samori sivillere çekilme emri verdi, Humbert kayıplarına göre sonuçları 'very meagre' saydı. Yani şehir 1891-92'de Fransız eline geçti/yakıldı, devlet doğuya kaydı. Ölçüt: yerleşimi Fransızlar idarelerine kattı mı? Belge yok (TDV: 'topraklarının tamamı işgal edildikten sonra' esir) — askerî/geçici görünüm. Karar EMRELİC/KASA'da (bkz. sonraki satır).",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3988,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "vasulu",
+   "f": "1878-01-01",
+   "t": "1898-09-29",
+   "hukum": "ONERI",
+   "kaynak": "UNESCO General History of Africa VII (Africa under Colonial Domination 1880-1935, 1985), archive.org/details/unesco_general_history_africa_vii, Boahen bölümü",
+   "alinti": "Humbert succeeded in capturing Bissandugu, Sanankoro and Kerwane",
+   "uc": "t",
+   "oneri": {
+    "t": "1892 (yalnız yıl; Ocak 1892 saldırı başlangıcı, alınış günü bulunamadı) — isg fransa 1892 → 1898-09-29 seçeneği"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_097): Bisandugu: rakip hükûmet kuralı (fiilî kontrol) — Samori doğuya göçtü, iddiası orada fiilen sürmedi. Humbert 1892-01'de aldıktan sonra Fransız karakolu/idare kaynakla gösterilirse → s: fransa 1892-01 (TAHRİR); gösterilemezse → isg fransa 1892-01 → 1898-09-29 ONERI. Önce karakol aranır (GHA VII / Person, Samori). F-GERI 1878 → 1871 onay (TDV Samori Ture); vasulu künye f 1871'e GENİŞLET adayı LAB'a. · ÖLÇÜT: geçici/askerî — Boahen: şehir 1891-04'te yakıldı, 1892'de Humbert aldı ama sivil nüfus çekildi, Samori fiilen sürdü; idareye katma belgesi yok. SEÇENEK (yerleşim düzeyi): 'vasulu' 1892'de biter + 'isg fransa' 1892 → 1898-09-29, ardından s: fransa. Gün BULUNAMADI (Person 1968-75 Samori: une révolution Dyula açık değil). Mevcut 1898-09-29 uygulanacaksa 'ÜLKE DÜZEYİ' beyanı gerekir.",
+   "oneri_son": {
+    "d": "vasulu",
+    "t": "1892-01-01",
+    "sonraki": "s: fransa 1892-01 (karakol kaynaklıysa) ya da isg fransa 1892-01 → 1898-09-29"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3989,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-09-29",
+   "t": "1958-10-02",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Samori Ture» (islamansiklopedisi.org.tr/samori-ture); TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "Samori Fransız birliğine esir düştü (29 Eylül 1898)",
+   "uc": "f",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_097): Bisandugu: rakip hükûmet kuralı (fiilî kontrol) — Samori doğuya göçtü, iddiası orada fiilen sürmedi. Humbert 1892-01'de aldıktan sonra Fransız karakolu/idare kaynakla gösterilirse → s: fransa 1892-01 (TAHRİR); gösterilemezse → isg fransa 1892-01 → 1898-09-29 ONERI. Önce karakol aranır (GHA VII / Person, Samori). F-GERI 1878 → 1871 onay (TDV Samori Ture); vasulu künye f 1871'e GENİŞLET adayı LAB'a. · f: ÜLKE DÜZEYİ (Samori'nin esir alınışı; üstteki yerleşim düzeyi çelişkiye bak). t: TDV Gine ham 'Bağımsızlığın ilân edildiği 2 Ekim 1958’e kadar Fransa’nın idaresi altında kalan Gine’de' (uc f+t). Hüküm: f+t KAYNAKLI-ÜLKE DÜZEYİ.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3990,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "gine",
+   "f": "1958-10-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "bağımsız Gine devleti resmen ilân edildi (2 Ekim 1958)",
+   "uc": "f",
+   "oneri": {},
+   "not": "f ucu KAYNAKLI (TDV Gine ham). t=2000-12-31 yer tutucu, teyitsiz."
+  }
+ ],
+ "Konakri (Conakry)": [
+  {
+   "sira": 3991,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1885-01-01",
+   "t": "1958-10-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "Konakri merkez olmak üzere Fransız Ginesi adıyla bir sömürge idaresi kurdular",
+   "uc": "t",
+   "oneri": {},
+   "not": "t=1958-10-02 KAYNAKLI (TDV Gine ham, ÜLKE DÜZEYİ). f=1885-01-01 TEYİTSİZ: TDV Gine ve «Konakri» maddesi (islamansiklopedisi.org.tr/konakri, 3 KB) Konakri/Tombo'nun Fransız eline geçiş yılını vermez; TDV yalnız '1893’te ... Konakri merkez olmak üzere Fransız Ginesi sömürge idaresi' (üst sınır, idareye katma belgesi, yıl düzeyi) verir. İPUCU (Vikipedi fr/en, tek dayanak değil): Tombo adasında 1885-02-01'de Fransa'ya arazi devri; Britanya 1887'de adanın Fransız olduğunu kabul etti; Goerg 1985 (Cahiers d'études africaines 25/99, Persée — robots yasağı, okunamadı) 'de 1885'ten'. Hertslet Map of Africa by Treaty (1909) dizini Tombo/Conakry Fransız devri vermedi (Isles de Los 1904 devri ayrı). f ya 1885 (Tombo arazi devri) ya 1887 (Britanya tanıması) ya da 1893 (sömürge) — akademik kaynakla seçilmeli."
+  },
+  {
+   "sira": 3992,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "gine",
+   "f": "1958-10-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "bağımsız Gine devleti resmen ilân edildi (2 Ekim 1958)",
+   "uc": "f",
+   "oneri": {},
+   "not": "f ucu KAYNAKLI (TDV Gine ham; başşehir Konakri TDV). t=2000-12-31 yer tutucu, teyitsiz."
+  }
+ ],
+ "İlorin": [
+  {
+   "sira": 3993,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sokoto",
+   "f": "1817-01-01",
+   "t": "1897-02-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "UNESCO General History of Africa VII (Africa under Colonial Domination 1880-1935, 1985), archive.org/details/unesco_general_history_africa_vii, Boahen bölümü",
+   "alinti": "Ilorin was occupied in 1897",
+   "uc": "t",
+   "oneri": {},
+   "not": "t: YIL düzeyi — GHA VII Ilorin 1897'de işgal edildi; 'A similar invasion was launched against Ilorin in the same year (1897). After meeting another spirited defence, the RNC brought Ilorin into subjection.' 02-16 günü bu kaynakta yok (İPUCU: Şubat 1897; Royal Niger Company seferi), yalnız yıl teyitli, gün teyitsiz. f=1817-01-01 TEYİTSİZ: TDV Nijerya 'Müslüman İlorin Emirliği bu dönemde kuruldu' yılsız; TDV Sokoto ve GHA VII'de İlorin'in Sokoto'ya katılış yılı yok (İlorin emirliğinin tarihi 1817-1823 arası Afonja/Alimi geçişi ipucu, kaynak okunmadı). Sokoto künye f=1804."
+  },
+  {
+   "sira": 3994,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1897-02-16",
+   "t": "1960-10-01",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Sokoto» (islamansiklopedisi.org.tr/sokoto)",
+   "alinti": "1 Ocak 1900’de Kuzey Nijerya’nın İngiliz sömürgesi olduğunu ilân etti",
+   "uc": "f",
+   "oneri": {
+    "f": "1900-01-01 (seçenek: Royal Niger Company şirket idaresi 1897 → 1899-12-31 ayrı künye adayı, LAB)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_097): İlorin: s: ingiltere 1897-02-16 KALIR (RNC fethi; yıl teyitli, gün teyitsiz) ONERI; 1900-01-01 ic_not. 1897 sonrası emirlik yerinde kaldı (RNC emiri yeniden atadı) → 'dolaylı idare: Kuzey Nijerya emirlikleri' Emre'nin sınıf listesinde; gece içinde model değişmez. · ÖLÇÜT: idareye katma — 1897'deki fetih Britanya devletinin değil Royal Niger Company'nin işiydi (GHA VII: 'the RNC brought Ilorin into subjection'; TDV: 'Royal Nijer Company şirketiyle bölgede ticarî tekel'); TDV Sokoto: Britanya hükûmeti 1 Ocak 1900'de Kuzey Nijerya'nın İngiliz sömürgesi olduğunu ilân etti (gün dahil, ham). Atlas 'ingiltere' 1897-02-16 şirket dönemini Britanya devleti sayıyor; KARAR EMRELİC: ya f=1900-01-01 ya şirket dönemi 'ingiltere' (beyanlı) kalır. t=1960-10-01: TDV Nijerya ham 'eskiden İngiliz sömürgesi iken 1 Ekim 1960’ta bağımsızlığına kavuşmuştur' KAYNAKLI (uc t, ÜLKE DÜZEYİ). GÖZLEM: 1960 sonrası s: nijerya dönemi parti girdisinde yok.",
+   "oneri_son": {
+    "d": "ingiltere",
+    "f": "1897-02-16",
+    "t": "1960-10-01",
+    "beyan": "yıl teyitli, gün teyitsiz; 1900-01-01 Kuzey Nijerya ilanı ic_not"
+   },
+   "karar": "EMRELİC"
+  }
+ ],
+ "Nzerekore": [
+  {
+   "sira": 3995,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dan-guro",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "",
+   "uc": "f+t",
+   "oneri": {},
+   "not": "f=1281 EPOK DAMGASI (künye ic_not_f, Britannica Guro XVIII. yy). t=1898-01-01: TDV Fildişi Sahili '(1898) Odienne işgali' Fildişi içindir; Nzérékoré Gine'nin Ormanlık Gine bölgesindedir (TDV Gine: 'Ormanlık Gine ise Kisi, Toma ve Gerze gibi gruplar tarafından iskân edilmiştir'). GÖZLEM: sahip 'Dan-Guro' Nzérékoré (Kpelle/Guerze, Toma, Kissi alanı) için sorulur; kaynak yok. Baktığım yerler: TDV Gine (ham, Nzérékoré 'YOK', yalnız piskoposluk), TDV Fildişi Sahili, UNESCO GHA VII (Nzérékoré yok; Kissi/Kpele/Loma Liberya bağlamında), Vikipedi en (1911 Nzérékoré ayaklanması, 1911-12 askerî doğrudan yönetim — ipucu). Fransız sınır teslim günü bulunamadı."
+  },
+  {
+   "sira": 3996,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1958-10-02",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "Bağımsızlığın ilân edildiği 2 Ekim 1958’e kadar Fransa’nın idaresi altında kalan Gine’de",
+   "uc": "t",
+   "oneri": {},
+   "not": "t ucu KAYNAKLI (ÜLKE DÜZEYİ, TDV Gine ham). f=1898-01-01 TEYİTSİZ: Nzérékoré için Fransız idaresine katılış günü/yılı kaynakta bulunamadı (TDV, GHA VII, Vikipedi: 1911 ayaklanması ve 1911-12 doğrudan askerî yönetim — Fransız fiilî denetimi 1911'de bile tartışmalı). Hüküm f için BULUNAMADI; öneri yazılmadı (uydurma yok)."
+  },
+  {
+   "sira": 3997,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "gine",
+   "f": "1958-10-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Gine» (islamansiklopedisi.org.tr/gine), Davut Dursun bölümü",
+   "alinti": "bağımsız Gine devleti resmen ilân edildi (2 Ekim 1958)",
+   "uc": "f",
+   "oneri": {},
+   "not": "f ucu KAYNAKLI (TDV Gine ham). t=2000-12-31 yer tutucu, teyitsiz."
+  }
+ ],
+ "Man": [
+  {
+   "sira": 3998,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dan-guro",
+   "f": "1281-01-01",
+   "t": "1898-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fildişi Sahili» (islamansiklopedisi.org.tr/fildisi-sahili)",
+   "alinti": "arkasından Odienne’i de işgal ederek (1898) XIX. yüzyılın sonunda",
+   "uc": "t",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, YIL düzeyi: TDV Fildişi Sahili — Fransızlar Odienne'i işgal ederek (1898) bugünkü Fildişi sınırları içindeki yerlerin hepsini denetimleri altına aldı ('kesin otorite 1918'e kadar mümkün olamadı' — fiilî kesin otorite geç). Man'a özgü gün/yıl bulunamadı. f=1281 EPOK DAMGASI (künye ic_not_f; Britannica Guro XVIII. yy) — öteki uç teyitsiz. TDV'ye göre Samori Kong ve çevresini zaptetti (Kong 1895 Fransızlarca yakıldı); Man'ın Samori/Dan dönemi sahipliği kaynakta yok."
+  },
+  {
+   "sira": 3999,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1898-01-01",
+   "t": "1960-08-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Fildişi Sahili» (islamansiklopedisi.org.tr/fildisi-sahili)",
+   "alinti": "7 Ağustos 1960 tarihinde de tam bağımsızlığını elde ederek",
+   "uc": "t",
+   "oneri": {},
+   "not": "t ucu KAYNAKLI (TDV Fildişi Sahili ham; bağımsızlık 1960-08-07). f ucu: üstteki 1898 (yıl, ÜLKE DÜZEYİ; 'yalnız yıl teyitli, gün teyitsiz'). GÖZLEM: 1960 sonrası s: fildisi-sahili dönemi parti girdisinde yok."
+  }
+ ],
+ "f_geri": [
+  "F-GERI: Bisandugu 1878-01-01 → 1871-01-01, sahip vasulu (KOŞULLU: künye vasulu f=1878-01-01 o günü kapsamıyor; önce künye f 1871'e genişletilmeli — LAB). Kaynak: TDV Samori Ture '1871’de ... Bissandugu’yu yönetim merkezi yaptı' (yıl düzeyi)."
+ ]
+}

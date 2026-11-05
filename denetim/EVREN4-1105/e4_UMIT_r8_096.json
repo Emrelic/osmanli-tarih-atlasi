@@ -1,0 +1,357 @@
+{
+ "İllîzî": [
+  {
+   "dosya_satir": "",
+   "sira": 3961,
+   "alan": "s",
+   "d": "tuareg-accer",
+   "f": "1281-01-01",
+   "t": "1911-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Wikipedia 'Kel Ajjer' (https://en.wikipedia.org/wiki/Kel_Ajjer; Gardel 1961 'Les Touareg Ajjer'e dayanır) — ONERI-güçlü, tek başına KAYNAKLI değil",
+   "alinti": "construction of which began and was completed in November 1909",
+   "oneri": {
+    "t": "1909-01-01"
+   },
+   "not": "Wikipedia (Kel Ajjer): Albay Laperrine 1908 baharında Oued Ilezi'de Fort Polignac'ın (bugünkü Illizi) yerini belirledi, inşaat Kasım 1909'da bitti; kasaba 1909-1962 'Fort Polignac'. Yani Illizi'de Fransız karakolu 1909'dan, atlasın t=1911-01-01'inden iki yıl önce. ÖLÇÜT: idareye katma — karakol/bordj (askerî yerleşim; vergi/defter belgesi bulunamadı) → s:/d: değil, ZAYIF; Ajjer reisleri 1904-12-10'da Tarat'ta Fransızlara bağlanmıştı (aynı sayfa). Gün yok: 1909-01-01 yıl düzeyi, ay Kasım 1909 beyan. 1911 künye t'si (tuareg-accer; künye notu 'gün kaynaklı değildi') Wikipedia'da Kasım 1911 Djanet işgaliyle örtüşüyor olabilir — Illizi için değil Djanet için. f=1281: künye başlangıcı, kaynak taranmadı (BAKILMADI). ÇELİŞKİ/SORU (BEKLET): TDV 'Nijer' Ezgar (Accer) Tevârikleri'nin Trablusgarp vilâyeti Fizan sancağına bağlı 'Ezgar Tevârik' kazası kurduğunu (kaymakam: reis Nahnuhen) ve Osmanlı'nın 1912 Uşi'ye dek Fizan üzerinden Güney Cezayir/Nijer'e hak iddia ettiğini yazıyor (yıl vermiyor); Illizi bu kazanın içinde miydi belirsiz — `v: osmanli` katmanı için TDV Fizan/Gat ve Çaycı 'Büyük Sahra'da Türk-Fransız Rekabeti' (1970) okunmalı. Wikipedia: Gat 1911'e dek nominal Osmanlı."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3962,
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1911-01-01",
+   "t": "1962-07-05",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Wikipedia 'Kel Ajjer' (https://en.wikipedia.org/wiki/Kel_Ajjer; Gardel 1961 'Les Touareg Ajjer'e dayanır) — ONERI-güçlü, tek başına KAYNAKLI değil ; TDV İslâm Ansiklopedisi, 'Cezayir' (https://islamansiklopedisi.org.tr/cezayir, ham metin)",
+   "alinti": "construction of which began and was completed in November 1909",
+   "oneri": {
+    "f": "1909-01-01"
+   },
+   "not": "f uç: yukarıdaki satırla birlikte (3961 t = 3962 f). t uç: TDV Cezayir ham metni 1962 bağımsızlığını veriyor — ÜLKE DÜZEYİ, gün '5 Temmuz' TDV'de YOK (referandum 1 Temmuz); künye cezayir f=1962-07-05 başka kaynaktan (allafrica). t için öteki gün teyitsiz, yıl KAYNAKLI. Illizi (Fort Polignac) Fransız Sahra'sı, Cezayir'e dahil.",
+   "alinti2": "1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı"
+  }
+ ],
+ "Tişît (Tichitt)": [
+  {
+   "dosya_satir": "",
+   "sira": 3963,
+   "alan": "s",
+   "d": "moritanya-emirlikleri",
+   "f": "1640-01-01",
+   "t": "1909-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BAKTIM: TDV 'Moritanya' (ham metin: Tişît/Tichit, Nema, 1909, 1904 anahtarları YOK; yalnız 'Fransızlar 1854'te girdi, içlere nüfuz XX. yüzyıl başı'), IREMAM 'Chronologie des principaux événements... Mauritanie' (books.openedition.org/iremam/1253): Tichit anılmıyor; Trarza/Brakna/Tagant/Adrar emirlikleri XVIII. yy. Fransız kronolojisi: 1903-03 koruyuculuk, 1904-10 sivil toprak, 1905-03 Coppolani Tagant/Adrar'da, 1905-05-12 Coppolani Tidjikja'da öldürüldü, 1906 Tidjikja kuşatması, 1908-12→1909-06 Gouraud Adrar sütunu. Yani 1909 Adrar harekâtının sonu; Tichit'e özgü tanıklık değil. İPUCU (doğrulanmadı, PDF metni okunamadı): GRDR atlas haritası Tichit ve Oualata için işgal yılı 1912 diyor (Atlas_066.pdf, web arama özeti). Tichit Tagant bölgesinde; emirlik künyesi ona 1640'tan beri sahip mi — kaynak yok. KAYNAKLI sayılacak ham cümle bulunamadı."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3964,
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1909-01-01",
+   "t": "1960-11-28",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Moritanya' (https://islamansiklopedisi.org.tr/moritanya, ham metin)",
+   "alinti": "28 Kasım 1960’ta Moritanya İslâm Cumhuriyeti bağımsız bir devlet olarak ilân edildi.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Tişît Moritanya içinde). t=1960-11-28 KAYNAKLI. f=1909-01-01 TEYİTSİZ: kaynak yok (bkz. 3963: 1909 Adrar harekâtı, Tichit değil; GRDR haritası 1912 ipucu). Öteki uç teyitsiz — f'nin 1912'ye gideceği olasılığı BEKLET, hüküm verilmedi."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3965,
+   "alan": "s",
+   "d": "moritanya",
+   "f": "1960-11-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Moritanya' (https://islamansiklopedisi.org.tr/moritanya, ham metin)",
+   "alinti": "28 Kasım 1960’ta Moritanya İslâm Cumhuriyeti bağımsız bir devlet olarak ilân edildi.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f KAYNAKLI (TDV, bağımsızlık ilanı günü; Fransız Batı Afrikası ardılı, tanınma Aralık 1960 ic_not'a yazılabilir). t=2000-12-31 sentinel (veri ufku), teyit gerekmez."
+  }
+ ],
+ "Nema (Néma)": [
+  {
+   "dosya_satir": "",
+   "sira": 3966,
+   "alan": "s",
+   "d": "moritanya-emirlikleri",
+   "f": "1640-01-01",
+   "t": "1909-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): moritanya-emirlikleri (1640-1909, :3145) yalnız Trarza/Brakna/Tagant/Adrar'ı kapsar, Hodh DEĞİL → Nema bos:'kabile' (Meşdûf) ya da kaynakla Masina/Tukulör dilimleri (massina künyesi 1818-1862 var). · BAKTIM: TDV 'Moritanya' ham metin (Nema anahtarı YOK), IREMAM kronolojisi (Nema yalnız 1962 pro-Fas suikastı ve 1944 'Hodh iki cercle'si Sudan'dan Moritanya'ya bağlandı' satırında geçiyor). SORU (BEKLET): Nema Hodh bölgesinde; 'moritanya-emirlikleri' künyesi yalnız Trarza·Brakna·Tagant·Adrar'ı kapsıyor, Hodh'u kapsamıyor (IREMAM: XVIII. yy. emirlikler bu dördü) — künye kapsamı dışı yere atlas sahiplik yazmış olabilir. Hodh'un Fransız işgali tarihi 1911-12 mi, bulunamadı (web özeti 'Hodh 1911' diyor ama zayıf kaynak, doğrulanmadı). Nema'nın 1640-1909 sahibi için kaynak yok; ABİ MERKEZ adayı Oualata/Tichit zinciri de kaynaksız."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3967,
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1909-01-01",
+   "t": "1960-11-28",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Moritanya' (https://islamansiklopedisi.org.tr/moritanya, ham metin)",
+   "alinti": "28 Kasım 1960’ta Moritanya İslâm Cumhuriyeti bağımsız bir devlet olarak ilân edildi.",
+   "oneri": {},
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): moritanya-emirlikleri (1640-1909, :3145) yalnız Trarza/Brakna/Tagant/Adrar'ı kapsar, Hodh DEĞİL → Nema bos:'kabile' (Meşdûf) ya da kaynakla Masina/Tukulör dilimleri (massina künyesi 1818-1862 var). · ÜLKE DÜZEYİ. t KAYNAKLI. f=1909-01-01 TEYİTSİZ (Hodh'un Fransız işgali için kaynak bulunamadı; 1909 Adrar harekâtının sonu, Hodh ile ilgisi yok). Not: Hodh cercle'leri 1944'e dek Fransız Sudanı idaresinde (IREMAM) — sahip yine fransa-cumhuriyet, etkilemez. Öteki uç teyitsiz."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3968,
+   "alan": "s",
+   "d": "moritanya",
+   "f": "1960-11-28",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Moritanya' (https://islamansiklopedisi.org.tr/moritanya, ham metin)",
+   "alinti": "28 Kasım 1960’ta Moritanya İslâm Cumhuriyeti bağımsız bir devlet olarak ilân edildi.",
+   "oneri": {},
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): moritanya-emirlikleri (1640-1909, :3145) yalnız Trarza/Brakna/Tagant/Adrar'ı kapsar, Hodh DEĞİL → Nema bos:'kabile' (Meşdûf) ya da kaynakla Masina/Tukulör dilimleri (massina künyesi 1818-1862 var). · ÜLKE DÜZEYİ. f KAYNAKLI; t sentinel."
+  }
+ ],
+ "Mopti": [
+  {
+   "dosya_satir": "",
+   "sira": 3969,
+   "alan": "s",
+   "d": "bambara",
+   "f": "1650-01-01",
+   "t": "1861-03-10",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Wikipedia 'Mopti' (https://en.wikipedia.org/wiki/Mopti; Caillié 1828 ve de Benoist 1998'e dayanır) — ONERI-güçlü ; TDV İslâm Ansiklopedisi, 'el-Hâc Ömer' (https://islamansiklopedisi.org.tr/el-hac-omer, ham metin)",
+   "alinti": "the village was part of the Massina Empire, controlled by Seku Amadu",
+   "oneri": {
+    "d": "massina",
+    "f": "1818-01-01",
+    "t": "1862-05-16",
+    "sonra": "tekrur 1862-05-16 → 1893-01-01"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Mopti onay: massina → 1862-05-16 tekrur → fransa. bambara 1650 → 1861 yanlış. · Wikipedia: Caillié 1828'de Mopti'yi (Isaca) Masina İmparatorluğu'na (Hamdullahi merkezli Seku Amadu) bağlı köy olarak gördü; 1862'de Umar Tall Hamdullahi'yi alınca köy kısa süre Toucouleur devletine geçti. TDV el-Hâc Ömer: 'Ömer 1862’de Mâsînâ’nın merkezi Hamdallahi’yi ele geçirip…'; Segu (Bambara) 1861 başında düştü. Yani Mopti Bambara'ya değil Masina'ya bağlı (Masina Segu'dan ayrı Fulani devleti; künye massina 1818-01-01→1862-05-16, tekrur 1852-09-01→1893-01-01 mevcut). ÖNERİ: bambara dilimi f=1650→1818 (bambara-Masina öncesi sahibi KAYNAKSIZ → BULUNAMADI, Segu abi merkez beyanıyla bırakılabilir), 1818→1862 massina, 1862→1893 tekrur. Gün: Wikipedia yıl veriyor; künye günü 1862-05-16 künye notundan. f=1650: kaynak yok (BAKILMADI).",
+   "oneri_son": {
+    "d": "massina",
+    "f": "1818-01-01",
+    "t": "1862-05-16",
+    "sonraki": {
+     "d": "tekrur",
+     "f": "1862-05-16",
+     "t": "1893-01-01"
+    }
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3970,
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1861-03-10",
+   "t": "1960-06-20",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Wikipedia 'Mopti' (https://en.wikipedia.org/wiki/Mopti; Caillié 1828 ve de Benoist 1998'e dayanır) — ONERI-güçlü ; TDV İslâm Ansiklopedisi, 'Mali' (https://islamansiklopedisi.org.tr/mali, 05.11.2026 ham metin)",
+   "alinti": "In 1893 French forces under Louis Archinard occupied the region",
+   "oneri": {
+    "f": "1893-01-01"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Mopti fransa f 1893: uç kuralı — Mopti'yi özgül tarihleyen madde (TDV el-Hâc Ömer, 1893 Archinard) genel TDV Mali maddesinden (1898-1900) önce gelir; ikisi ic_not. · f=1861-03-10 bambara/Segu t'sinin kopyası; Mopti'de Fransız egemenliği 1861'de değil. Wikipedia: 1893 Archinard. ÇİFT KAYNAK ÇELİŞKİSİ: TDV 'Mali': «Bamako (1883), Segu ve Sikasso (1898), Tinbüktü, Gao, Bourem ve Mopti (1898-1900)» (Fransız ele geçirişi 1898-1900) vs TDV 'el-Hâc Ömer': Tekrûr devleti 'Fransızlar’ın 1893-1894 yıllarında bölgeyi ele geçirmesine kadar varlığını sürdürmüştür' (künye tekrur t=1893-01-01 bu seçimi yapmış). Üçüncü bağımsız akademik kaynak bulunamadı (BAKILMADI: Archinard 1893, Jenné 12 Nisan 1893 — Wikipedia 'Second Battle of Jenné' özeti). İKİ MODEL (BEKLET, dolaylı idare/himaye): A) 1893'ten s: fransa; B) Archinard Aguibu'yu Bandiagara'da 'Masina kralı' koydu (1893, finding-aid/Leiden özeti) → v: fransa + s: yerel (TAHRİR; tahrir yok, Mopti köyü). Hukukî ilhak günü bulunamadı. t=1960-06-20 KAYNAKLI: TDV Mali, alinti2; öteki uç (f) için yukarıdaki.",
+   "alinti2": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken",
+   "oneri_son": {
+    "d": "fransa-cumhuriyet",
+    "f": "1893-01-01",
+    "t": "1960-06-20"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3971,
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mali' (https://islamansiklopedisi.org.tr/mali, 05.11.2026 ham metin)",
+   "alinti": "22 Eylül 1960 tarihinde ilân edilen bağımsız Mali Devleti’nin ilk kurucusu oldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f KAYNAKLI (Mali Federasyonu 1960-06-20→08-20 arası; Senegal çekilmesi sonrası 22 Eylül ilanı). t sentinel."
+  }
+ ],
+ "Madaoua": [
+  {
+   "dosya_satir": "",
+   "sira": 3972,
+   "alan": "s",
+   "d": "adar",
+   "f": "1281-01-01",
+   "t": "1899-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Wikipedia 'Madaoua' (https://en.wikipedia.org/wiki/Madaoua) ; web arama özeti (Kel Gress/Galma 1901) — ONERI-güçlü",
+   "alinti": "belonged to the territory of the Tuareg subgroup Kel Gres",
+   "oneri": {
+    "t": "BELİRSİZ — 1899 değil; Adar'ın Fransız fethi 1900-1901 (Galma 1901-06-18)"
+   },
+   "not": "Wikipedia: 19. yy son üçte birinde Madaoua Kel Gres Tuareg ülkesinde; 1909'da Fransız Nijer askerî ülkesinde 'cercle' merkezi (Tahoua'dan sonra). `adar` künyesi (Tahoua·Konni·Madaoua) Madaoua'yı Hausa uç bölgesi sayıyor; Kel Gres (Tuareg) ile çelişki — künye kapsamı sorusu BEKLET. t=1899-01-01 `adar`/`damagaram` ortak t'si gibi (Damagaram t'sinin kopyası olabilir); Madaoua Zinder'in fethinden (1899-07-30) değil Adar harekâtından etkilendi. Web özeti: Kel Gress önderi Idiguini'nin Galma savaşı 1901-06-18 (Adar fethinin kilometre taşı; makale PDF'i açılamadı 404) — Madaoua'ya özgü değil. TDV 'Nijer': Fransızlar 1904'te 'Nijer’in batısını Zinder askerî bölgesi adıyla işgal' etti (yıl ülke düzeyi, çelişkili) ve Nijer 1912 Uşi sonrası Fransız sömürgesi oldu. f=1281: BAKILMADI."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3973,
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1899-01-01",
+   "t": "1960-08-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Wikipedia 'Madaoua' ; TDV İslâm Ansiklopedisi, 'Nijer' (https://islamansiklopedisi.org.tr/nijer, ham metin)",
+   "alinti": "elevated to the status of district capital in the French military territory of Niger in 1909",
+   "oneri": {
+    "f": "BELİRSİZ (>=1900)"
+   },
+   "not": "f=1899-01-01 teyitsiz; Madaoua'nın Fransız idaresine geçiş günü/yılı bulunamadı (ipucu: Adar 1900-1901, Madaoua 1909'da cercle merkezi). Bu satırda ölçüt: karakol/cercle merkezi = idareye katma belgesi (cercle = idarî birim) en geç 1909. t=1960-08-03 KAYNAKLI: TDV Nijer. ÜLKE DÜZEYİ. Öteki uç (f) için ONERI.",
+   "alinti2": "3 Ağustos 1960 tarihinde ise tam bağımsızlığa kavuştu"
+  }
+ ],
+ "Goure": [
+  {
+   "dosya_satir": "",
+   "sira": 3974,
+   "alan": "s",
+   "d": "damagaram",
+   "f": "1731-01-01",
+   "t": "1899-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Wikipedia 'Sultanate of Damagaram' (https://en.wikipedia.org/wiki/Sultanate_of_Damagaram) — ONERI-güçlü",
+   "alinti": "defeated the Sultan and took Damagaram's capital",
+   "oneri": {
+    "t": "1899-07-30"
+   },
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): damagaram künyesi VAR (1731-1899, devletler.js:3461). · Wikipedia: Damagaram 1731'de kuruldu (künye f ile örtüşür); 1899'da Voulet–Chanoine kalıntısı sütun 30 Temmuz'da Tirmini savaşında (Zinder'e 10 km) Sultanı yenip başkenti aldı; başka özetler Sultan Amadou Kouran Daga'nın ölümünü 13/16 Eylül 1899 (Rinji) veriyor — GÜN ÇELİŞKİSİ, BEKLET. Atlas künye t=1899-01-01 olay gününden önce: ay/gün yoksa YYYY-01-01 kuralıyla yıl düzeyi uyumlu ama gün 1899-07-30'a kadar Damagaram sürüyor (Goure Zinder'in doğusunda bir Damagaram ilçesi; yerleşime özgü tanıklık yok, ABİ MERKEZ: Zinder, Wikipedia + künye). İKİ MODEL (BEKLET, dolaylı idare): A) 1899-07-30'dan s: fransa; B) saltanat Fransız idaresinde sürdü (Wikipedia: Fransızlar kardeşi Ahmadou dan Bassa'yı 1899'da tahta çıkardı; kukla sultan 1906; hat 1923'te geri geldi) → v: fransa + s: damagaram 1899-07-30'dan künye t'sine dek; o zaman damagaram künye t'si ileri çekilir. TDV'de Damagaram maddesi yok (arandı: tdv 'Nijer' ham metni 'Damagaram' YOK, 'Goure' YOK). Goure özelinde f=1731 BAKILMADI."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3975,
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1899-01-01",
+   "t": "1960-08-03",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Wikipedia 'Sultanate of Damagaram' ; TDV İslâm Ansiklopedisi, 'Nijer' (https://islamansiklopedisi.org.tr/nijer, ham metin)",
+   "alinti": "defeated the Sultan and took Damagaram's capital",
+   "oneri": {
+    "f": "1899-07-30"
+   },
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): damagaram künyesi VAR (1731-1899, devletler.js:3461). · f önerisi 3974 ile birlikte (model A). Model B seçilirse bu satır v: fransa olur. t=1960-08-03 KAYNAKLI: TDV Nijer (ÜLKE DÜZEYİ).",
+   "alinti2": "3 Ağustos 1960 tarihinde ise tam bağımsızlığa kavuştu"
+  }
+ ],
+ "Bamako": [
+  {
+   "dosya_satir": "",
+   "sira": 3976,
+   "alan": "s",
+   "d": "bambara",
+   "f": "1650-01-01",
+   "t": "1861-03-10",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Bamako 1861–1883 ABİ MERKEZ Segu → tekrur BEYANLI. · BAKTIM: TDV 'Mali' (Bamako anahtarı: yalnız etnik dağılım 'Bambara ... Ségou ve Bamako civarında yoğun' — nüfus, siyasî bağlılık değil), TDV 'el-Hâc Ömer' (Segu 1861 başında düştü; Bamako anılmıyor). Bamako'nun Segu Bambara krallığına bağlı olduğuna dair yerleşime özgü tanıklık bulunamadı; 1861-03-10 künye t'si Segu'nun (bambara) t'si. f=1650 BAKILMADI.",
+   "oneri_son": {
+    "d": "tekrur (ABİ MERKEZ Segu)",
+    "f": "1861-03-10",
+    "t": "1883-01-01",
+    "beyan": "ABİ MERKEZ Segu BEYANLI"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3977,
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1861-03-10",
+   "t": "1960-06-20",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mali' (https://islamansiklopedisi.org.tr/mali, 05.11.2026 ham metin)",
+   "alinti": "Bamako (1883), Segu ve Sikasso (1898), Tinbüktü, Gao, Bourem ve Mopti (1898-1900)",
+   "oneri": {
+    "f": "1883-01-01",
+    "ara_dilim": "1861-03-10 → 1883: tekrur (ABİ MERKEZ Segu, BEYANLI YAKLAŞIKLIK) ya da __BOSLUK__"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_093/094/096): Bamako fransa f 1883 onay (TDV Mali). · TDV Mali: Bamako Fransızlarca 1883'te ele geçirildi (yıl; ayrıca TDV 'Mali' keşif seferleri Eugène Mage, Soleillet, Galliéni 1878 ve 1881). Atlas f=1861-03-10 Segu'nun düşüşü günü (Hacı Ömer) — Bamako'nun Fransız olduğu gün değil. Brif ipucu 1883-02-01 (Borgnis-Desbordes) GÜN TEYİTSİZ: TDV yalnız yıl veriyor → oneri 1883-01-01. ARA DİLİM (1861→1883): TDV Tekrûr devleti Segu merkezli ve Bambara bölgesindeki birçok şehri denetledi (TDV Tekrûr/el-Hâc Ömer) ama Bamako'nun Tekrur'a bağlandığı bulunamadı; ABİ MERKEZ Segu (siyasî bağ: Bambara krallığı/Tekrur başkenti) + BEYANLI YAKLAŞIKLIK önerisi, kaynak 'ABİ MERKEZ: Segu — TDV el-Hâc Ömer; Bamako'ya özgü tanıklık yok'. Öteki seçenek: __BOSLUK__ beyanıyla. t=1960-06-20 KAYNAKLI (TDV Mali, alinti2). Gün düzeyi 'ay' ipucu: 1883-02-01 (kaynaksız)",
+   "alinti2": "20 Haziran 1960’ta Mali Federasyonu bağımsızlığını ilân ederken",
+   "oneri_son": {
+    "d": "fransa-cumhuriyet",
+    "f": "1883-01-01",
+    "t": "1960-06-20",
+    "beyan": "Borgnis-Desbordes girişi, günü kaynakla"
+   },
+   "karar": "EMRELİC"
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3978,
+   "alan": "s",
+   "d": "mali",
+   "f": "1960-09-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mali' (https://islamansiklopedisi.org.tr/mali, 05.11.2026 ham metin)",
+   "alinti": "22 Eylül 1960 tarihinde ilân edilen bağımsız Mali Devleti’nin ilk kurucusu oldu",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. f KAYNAKLI; t sentinel."
+  }
+ ],
+ "Fada Ngurma (Gurma)": [
+  {
+   "dosya_satir": "",
+   "sira": 3979,
+   "alan": "s",
+   "d": "gurma",
+   "f": "1281-01-01",
+   "t": "1897-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Burkina Faso' (https://islamansiklopedisi.org.tr/burkina-faso, ham metin)",
+   "alinti": "1897 yılında bugünkü Burkina Faso’nun bütün toprakları Fransızlar tarafından işgal edilmiş",
+   "oneri": {},
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): gurma künyesi VAR (1281-1897, devletler.js:3268). · ÜLKE DÜZEYİ (Gurma'ya özgü cümle değil; TDV Gurmalar'ı doğu/kuzey Burkina halkı sayıyor). t=1897 yıl düzeyi KAYNAKLI. f=1281: teyitsiz (BAKILMADI). EK ÖNERİ (ONERI-güçlü): Wikipedia 'Fada N'gourma': 'The French arrived at the town in January 1895 and the local Gurma ruler accepted French protection' (ham alıntı) → 1895-01'den himaye = `v: fransa`, altta `s: gurma` 1897'ye dek sürer; TDV 'Burkina Faso' aynı süreci Mosi için 1895 anlaşma/1896 Uagadugu girişi diye veriyor. Dolaylı idare/himaye sınıfı Emre'de BEKLET: Model A) s: gurma → 1897 → s: fransa (atlasın bugünkü hali); Model B) s: gurma sürer + v: fransa 1895-01-01 → 1897-01-01 (himaye), 1897'den s: fransa. 1895/1897 çelişkisi: Wikipedia Britannica 'Paul Voulet' özeti 1897'de Gurma himayesi diyor — özet, ham değil."
+  },
+  {
+   "dosya_satir": "",
+   "sira": 3980,
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-01-01",
+   "t": "1960-08-05",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Burkina Faso' (https://islamansiklopedisi.org.tr/burkina-faso, ham metin)",
+   "alinti": "1897 yılında bugünkü Burkina Faso’nun bütün toprakları Fransızlar tarafından işgal edilmiş",
+   "oneri": {},
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): gurma künyesi VAR (1281-1897, devletler.js:3268). · ÜLKE DÜZEYİ. f=1897 yıl KAYNAKLI (kaynak: işgal ve sömürge dönemi başlangıcı; hukukî ilhak/tahrir belgesi aranmadı — Model B için bkz. 3979). t: TDV 'Burkina Faso' «5 Ağustos 1960’ta ise bağımsızlığını ilân etti.» (künye yukari-volta-burkina f=1960-08-05).",
+   "alinti2": "5 Ağustos 1960’ta ise bağımsızlığını ilân etti."
+  }
+ ]
+}

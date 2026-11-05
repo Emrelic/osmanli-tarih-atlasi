@@ -1,0 +1,141 @@
+{
+ "aciklama": "EMRELİC S25: Ege Makedonyası ve Epir — Osmanlı'nın Londra'da (1913-05-30) Enez-Midye batısında feragat ettiği kara. Kaba kutu 39.2-41.4N 20.0-24.6E; Arnavutluk/Sırp tarafına düşenler KASA'da elenir.",
+ "dagilim": {
+  "1913-08-10": 4,
+  "1913-11-14": 18
+ },
+ "liste": [
+  {
+   "yer": "Drama",
+   "dosya_satir": "data/yerlesimler.js:446",
+   "simdiki": "s: yunanistan f=1913-08-10",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Selanik",
+   "dosya_satir": "data/yerlesimler.js:490",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Serez",
+   "dosya_satir": "data/yerlesimler.js:491",
+   "simdiki": "s: yunanistan f=1913-08-10",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Kavala",
+   "dosya_satir": "data/yerlesimler.js:492",
+   "simdiki": "s: yunanistan f=1913-08-10",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Yanya",
+   "dosya_satir": "data/yerlesimler.js:496",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Parga",
+   "dosya_satir": "data/yerlesimler.js:1617",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Aynaroz (Athos)",
+   "dosya_satir": "data/yerlesimler.js:1632",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Kesendire (Kassandra)",
+   "dosya_satir": "data/yerlesimler.js:1633",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Praviște (Eleftheroupoli)",
+   "dosya_satir": "data/yerlesimler_ek29.js:566",
+   "simdiki": "s: yunanistan f=1913-08-10",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Lanzaka (Lagkadas)",
+   "dosya_satir": "data/yerlesimler_ek29.js:577",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Alasonya (Elassona)",
+   "dosya_satir": "data/yerlesimler_ek29.js:1086",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Aydonat (Paramythia)",
+   "dosya_satir": "data/yerlesimler_epir.js:72",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Margiliç (Margariti)",
+   "dosya_satir": "data/yerlesimler_epir.js:91",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Souli (Sûli)",
+   "dosya_satir": "data/yerlesimler_epir.js:321",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "İgumenitsa (Gomenice)",
+   "dosya_satir": "data/yerlesimler_epir.js:354",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Filat (Filiates)",
+   "dosya_satir": "data/yerlesimler_epir.js:371",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Kılkış (Avrathisar)",
+   "dosya_satir": "data/yerlesimler_ok107.js:463",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Vodina (Edessa)",
+   "dosya_satir": "data/yerlesimler_ok107.js:469",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Karaferye (Veria)",
+   "dosya_satir": "data/yerlesimler_ok107.js:475",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Yenice-i Vardar",
+   "dosya_satir": "data/yerlesimler_ok107.js:481",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Kesriye (Kastoria)",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:80",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  },
+  {
+   "yer": "Filorina (Florina)",
+   "dosya_satir": "data/yerlesimler_a78_avrupa.js:84",
+   "simdiki": "s: yunanistan f=1913-11-14",
+   "oneri": "Londra 1913-05-30 (Üsküp emsali): s: yunanistan 1913-05-30; Yunan girişi → 1913-05-30 d: OSMANLI + isg yunanistan; Bükreş 1913-08-10, Atina 1913-11-14 ic_not"
+  }
+ ]
+}

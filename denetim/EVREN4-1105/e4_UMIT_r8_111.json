@@ -1,0 +1,144 @@
+{
+ "Dunedin": [
+  {
+   "sira": 4224,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1848-03-23",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "KUNYE: yeni-zelanda f=1840-02-06 (Waitangi imzasi, devletler.js 6520), t yok/pencere ucu; hayalet devlet degil. BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. IPUCU (EB1911 Dunedin, ham metin okundu): sehir Otago ili baskenti; kurulus gunu cumlede YOK. 1848-03-23 gunu brif ipucundan, bu oturumda kaynakla DOGRULANMADI. Sehir 1848'de kuruldugundan f yerlesimin varolus gunudur; NZ sahipligi 1840'tan beri. Te Ara 'Dunedin' maddesiyle teyit gerekir (erisilemedi)."
+  }
+ ],
+ "Invercargill": [
+  {
+   "sira": 4225,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1856-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Invercargill (EB1911; IPUCU sinifi)",
+   "alinti": "settlement was delayed till 1857",
+   "uc": "f",
+   "oneri": {},
+   "not": "KUNYE: yeni-zelanda f=1840-02-06 (Waitangi imzasi, devletler.js 6520), t yok/pencere ucu; hayalet devlet degil. BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. IPUCU (EB1911 Invercargill): Southland 1841'de olculmus, yerlesme 1857'ye kadar gecikmis; belediye 1871. Kurulus 1856 (brif) ile EB1911'in 1857'si arasinda 1 yil fark: ic_not'a yazilmali. f=1856-01-01 yil duzeyi, gun TEYITSIZ. Te Ara/NZ History erisilemedi."
+  }
+ ],
+ "New Plymouth": [
+  {
+   "sira": 4226,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1841-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/New_Plymouth (EB1911; IPUCU)",
+   "alinti": "The settlement was founded in 1841 by the Plymouth Company",
+   "uc": "f",
+   "oneri": {},
+   "not": "KUNYE: yeni-zelanda f=1840-02-06 (Waitangi imzasi, devletler.js 6520), t yok/pencere ucu; hayalet devlet degil. BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. IPUCU (EB1911 New Plymouth, ham metin): 1841 kurulus yilini tutuyor; EB1911 IPUCU sinifi oldugundan KAYNAKLI verilmedi. Gun teyitsiz; 1841-01-01 yalniz yil. Te Ara ile teyit onerilir."
+  }
+ ],
+ "Whanganui": [
+  {
+   "sira": 4227,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1840-02-06",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Wanganui (EB1911; IPUCU)",
+   "alinti": "The settlement was founded in 1842",
+   "uc": "f",
+   "oneri": {},
+   "not": "KUNYE: yeni-zelanda f=1840-02-06 (Waitangi imzasi, devletler.js 6520), t yok/pencere ucu; hayalet devlet degil. BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. SORUN: f=1840-02-06 yerlesimin degil ulke kunyesinin gunu (Waitangi imzasi Kuzey Adasi'nda). EB1911 Wanganui: kurulus 1842 (IPUCU); brif ipucu 1840/41. Kurulus tarihi kaynaga gore celisiyor: Te Ara 'Whanganui' ile cozulmeli. Hobson egemenlik ilani (brife gore 1840-05-21) yerlesim f'sini degistirir mi: ONERI adayi f=1840-05-21 (KAYNAKLA DOGRULANMADI, yalniz brif ipucu)."
+  }
+ ],
+ "Taupō": [
+  {
+   "sira": 4228,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1868-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "KUNYE: yeni-zelanda f=1840-02-06 (Waitangi imzasi, devletler.js 6520), t yok/pencere ucu; hayalet devlet degil. BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. IPUCU (EB1911 Taupo): township; kurulus/garnizon tarihi cumlede YOK. Brif ipucu garnizon 1869: f=1868-01-01 TEYITSIZ ve bir yil erken olabilir; ONERI adayi f=1869 (kaynaksiz, Te Ara/DNZB ile dogrulanmali). Maori iwi (Ngati Tuwharetoa) sahipligi kunye listesinde yok: ayri kunye sorusu LAB'a."
+  }
+ ],
+ "Blenheim": [
+  {
+   "sira": 4229,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1856-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "KUNYE: yeni-zelanda f=1840-02-06 (Waitangi imzasi, devletler.js 6520), t yok/pencere ucu; hayalet devlet degil. BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. EB1911 'Blenheim' maddesi yalniz Almanya'daki savas yeri; NZ Blenheim'i yok. Marlborough/Blenheim kurulus tarihi kaynakta BULUNAMADI."
+  }
+ ],
+ "Queenstown (Yeni Zelanda)": [
+  {
+   "sira": 4230,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1862-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "f",
+   "oneri": {},
+   "not": "KUNYE: yeni-zelanda f=1840-02-06 (Waitangi imzasi, devletler.js 6520), t yok/pencere ucu; hayalet devlet degil. BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. EB1911'de Queenstown maddesi yok (404). EB1911 'New Zealand' (ham metin): Tuapeka (Otago) kalici altin sahasi 1861 (IPUCU); Wakatipu/Queenstown 1862 altin kosusu kaynakta BULUNAMADI. 1862 yil duzeyi teyitsiz."
+  }
+ ],
+ "Campbell Town (Tazmanya)": [
+  {
+   "sira": 4231,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yeni-guney-galler",
+   "f": "1821-01-01",
+   "t": "1825-12-03",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Tasmania (EB1911; IPUCU)",
+   "alinti": "in 1825 the colony was made independent of New South Wales",
+   "uc": "t",
+   "oneri": {},
+   "not": "BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. Kunye yeni-guney-galler f=1788-01-26, t=1901-01-01; Van Diemen's Land ada 1803-04'ten beri NSW bagimlisi (kunye van-diemens-land ic_not_f). Campbell Town'un 1821 kurulusu kaynakta BULUNAMADI. EB1911 Tasmania (ham metin) t ucunu yil duzeyinde destekler."
+  },
+  {
+   "sira": 4232,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "van-diemens-land",
+   "f": "1825-12-03",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Tasmania (EB1911; IPUCU)",
+   "alinti": "in 1825 the colony was made independent of New South Wales",
+   "uc": "f",
+   "oneri": {},
+   "not": "BAKILAN: teara.govt.nz, nzhistory.govt.nz, dnzb.govt.nz, archives.govt.nz robots.txt yasagi (sayfa.py), WebFetch 403; Britannica 403; nzetc bos arsiv; NZ Official Yearbook 1902 (IA india.history.resource.73698) 'Treaty of Waitangi/separate colony' anahtarlari YOK; ADB robots yasagi. f=1825-12-03 kunyenin MoAD kaynakli gunuyle ayni; EB1911 yalniz 1825 yilini verir (IPUCU, gun teyidi degil). t=1901-01-01 Federasyon kunyede kaynakli; yeniden okunmadi. Libraries Tasmania ana sayfasi acildi, madde yok."
+  }
+ ]
+}

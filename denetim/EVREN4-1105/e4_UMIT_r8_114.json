@@ -1,0 +1,401 @@
+{
+ "Sault Ste. Marie (Ontario)": [
+  {
+   "sira": 4281,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1797-01-01",
+   "t": "1867-07-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treaty of Paris 1763, madde IV, Avalon Project (Yale) https://avalon.law.yale.edu/18th_century/paris763.asp ; DCB «Cadot, Jean-Baptiste» http://www.biographi.ca/en/bio/cadot_jean_baptiste_5E.html ; DCB «Johnston, John» http://www.biographi.ca/en/bio/johnston_john_6E.html",
+   "alinti": "cedes and guaranties ... in full right, Canada, with all its dependencies",
+   "alinti2": "By 1762 the British controlled the Sault.",
+   "oneri": {
+    "f": "1763-02-10",
+    "t": "",
+    "d": "ingiliz-kuzey-amerika"
+   },
+   "not": "Mevcut f 1797 = North West Company'nin kuzey kıyıda ticaret karakolu kurduğu yıl (Parks Canada); bu ticaret karakolu egemenlik tarihi değildir. Paris 1763 Kanada'yı bütün bağımlılıklarıyla İngiltere'ye devretti (künye ingiliz-kuzey-amerika f 1763-02-10 ile uyumlu); DCB Cadot: 1762'de Sault fiilen İngiliz denetiminde (Cadot'nun Sault'su güney kıyı seigneury'si; kuzey kıyıya özgü cümle bulunamadı -> bu yüzden f için ABİ-BÖLGE/yıl düzeyi). Paris 1783 sınırı Huron-Superior su yolunun ortasından geçirir (Avalon 1783 metni), DCB Johnston: 1814'te Amerikalılar 'NWC post on the Canadian side at the Sault' yaktı = kuzey kıyı İngiliz tarafında. ÖLÇÜT: idareye katma — Paris 1763 devri (hukukî) / geçici-askerî DEĞİL. NOT: partide 1763-1797 arası dönem satırı YOK; o aralık başka satırda (BOSLUK/başka sahip?) olabilir — KASA mevcut zinciri kontrol etmeli. Alıntı Paris 1763'ten (Avalon ham metin, sayfa.py), DCB Cadot ham metin."
+  },
+  {
+   "sira": 4282,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1867-07-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: laws-lois.justice.gc.ca Constitution Act 1867 tam metin (ham metin: 'by Proclamation that, on and after a Day therein appointed ... One Dominion under the Name of Canada' — Act 29 March 1867; gün Proclamation'a bırakılmış, metinde 1 Temmuz YOK); DCB 'Macdonald, John Alexander' (ham metinde '1 July 1867' ifadesi çıkmadı). Canadian Encyclopedia robots.txt ile yasak. 1867-07-01 gününü tarihleyen ham-metin alıntı yok -> KAYNAKLI verilmedi. Künye kanada f 1867-07-01 zaten bu gün; yalnız yerleşime özgü Sault satırı için teyit eksik. t 2000-12-31 pencere ucu. Öneri: Proclamation (22 Mayıs 1867) metni / Library and Archives Canada ya da DCB 'Confederation' maddesi aranmalı."
+  }
+ ],
+ "Fomboni (Mohéli)": [
+  {
+   "sira": 4284,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransiz-komorlari",
+   "f": "1886-01-01",
+   "t": "1975-07-06",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Komor Adaları» (Met Kavas) https://islamansiklopedisi.org.tr/komor-adalari",
+   "alinti": "1886 tarihli yeni anlaşmalarla Ngazidja, Anjouan ve Moheli adalarını himayesine aldığını ilân etti",
+   "alinti2": "22 Aralık 1974 ... Fransa bu kararı 6 Temmuz 1975'te tanıdı",
+   "oneri": {},
+   "not": "f YIL düzeyinde KAYNAKLI: TDV ham metin 'Fransa 6 Ocak, 21 ve 26 Nisan 1886 tarihli yeni anlaşmalarla Ngazidja, Anjouan ve Moheli adalarını himayesine aldığını ilân etti' — üç gün üç ada için; TDV hangi günün Mohéli'ye ait olduğunu söylemiyor -> 1886-01-01 yıl-temsilî kalır, adaya özgü gün teyitsiz. t: TDV 6 Temmuz 1975'i 'Fransa tanıdı' diye veriyor (atlas künyesi bu günü ilan günü sayar; gün aynı). KARAR GEREKİR (ONERI katmanı): TDV 'Anjouan sultanı himayeyi reddetti ... 1912'de Fransız sömürgeciliği kuruluncaya kadar tahtını korudu'; Mohéli'de 'Sâlime bint Muhammed ... 1909 yılına kadar tahtını korudu'; 'Komor adalarındaki diğer sultanlar 25 Temmuz 1912 tarihinde Fransa tarafından azledilerek adaların idaresi Madagaskar sömürgesine bağlandı'. Yani 1886-1912 himaye katmanı (Tunus/Fas gece-22 deseni: v: fransa + altta yerel sultanlık), 1912-07-25'ten sömürge/ilhak (TDV ayrıca Madagaskar'dan 1946'da ayrıldığını söyler). Atlas dönemi tek parça s: fransiz-komorlari yazıyor; himaye=v: kararı Emre/EMRELİC'indir. Yeni fiil-aday: Mohéli 11 Ağustos 1997 tek taraflı bağımsızlık ilanı (tanınmadı) ic_not, TDV."
+  },
+  {
+   "sira": 4285,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "komorlar",
+   "f": "1975-07-06",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Komor Adaları» https://islamansiklopedisi.org.tr/komor-adalari",
+   "alinti": "22 Aralık 1974 ... Fransa bu kararı 6 Temmuz 1975'te tanıdı",
+   "oneri": {},
+   "not": "ÖLÇÜT: bağımsızlık ilanı günü (EMRELİC Sovyet-ardılı deseni burada uygulanmaz ama aynı mantık: ilan günü); 22 Aralık 1974 referandumunda Ngazidja, Anjouan ve Moheli'de halkın %95'i bağımsızlığa oy verdi (TDV, aynı cümle bağlamı). Mayotte Fransa'da kaldı (TDV: 'Mayotte halen özel bir statüyle Fransa'ya bağlıdır'). Mohéli'nin 11 Ağustos 1997 bağımsızlık ilanı milletlerarası alanda tanınmadı; 7 Ocak 2002'de birlik yeniden sağlandı (TDV) -> dönem sürer, ic_not. t 2000-12-31 pencere ucu."
+  }
+ ],
+ "Saidu Sharif": [
+  {
+   "sira": 4286,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "swat-devleti",
+   "f": "1915-04-24",
+   "t": "1969-07-28",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Rafiullah Khan, Modern Asian Studies 57/3 (2023) 866-894, doi:10.1017/S0026749X22000312 (Cambridge Core, ham metin) https://doi.org/10.1017/S0026749X22000312 ; dipnot: Sultan-i-Rome, Swat State (1915-1969), OUP Karachi 2008, s. 52-56",
+   "alinti": "Sayyid Abdul Jabbar Shah of Sithana who was installed as king on 24 April 1915",
+   "alinti2": "Jahanzeb ruled over Swat until the merger of the state into Pakistan in 1969.",
+   "oneri": {},
+   "not": "f KAYNAKLI (ham metin, Cambridge sayfası). t: kaynak yalnız YIL veriyor (1969); 1969-07-28 günü bu kaynakta YOK -> 'öteki uç gün teyitsiz, yıl teyitli'. ic_not: aynı kaynak 'deposition in September 1917' ve Abdul Wadud'un kuruluşu (1917'den 1949'a kadar hüküm), 'Swat state survived for more than two decades after the creation of Pakistan' (Pakistan'a bağlılık ilanı 1947'de ama devlet 1969'a kadar sürdü) — KASA/EMRELİC künyedeki 1947-11 katılış günü brifte verilmişti, bu kaynakta teyit YOK. Saidu Sharif = Wali'nin başkenti/oturduğu yer (makalede 'Saidu' ziyaret edilen merkez); yerleşime özgü f konusunda ÜLKE DÜZEYİ: devlet 1915'te kuruldu, Saidu devlet çekirdeğidir. Britanya vasalliği: makale 'British paramount control'dan söz eder ve Wali unvanı 1926 tanınmasında verildi ('When the ruler was being recognized in 1926 ... Badshah ... forsook'), atlas tâbilik katmanı (v:) sorusu Emre'ye."
+  }
+ ],
+ "Madyan (Swat)": [
+  {
+   "sira": 4287,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "swat-devleti",
+   "f": "1915-04-24",
+   "t": "1969-07-28",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Cambridge Core Khan 2023 ham metni ('Madyan' YOK; 'Kohistan', 'expansion' ifadesi genel: 'expansion and consolidation of the Swat state under Abdul Wadud'), TDV (Swat/Svat maddesi YOK; arama 'swat' yalnız İmâm-ı Rabbânî'de Swâtî), Barth 1956 Indus and Swat Kohistan (archive.org OCR; 'Madyan' YOK, ve 'centralized state organization in Swat was first established in 1917, and the most recent accretion was annexed in 1947'). Devletin 1915'te kurulduğu ÜLKE DÜZEYİ doğrulandı (Khan 2023) fakat Madyan'ın 1915'te (ya da 1917'de) devletin sınırları içinde olduğu yerleşime özgü kaynakla doğrulanamadı; Madyan Swat Kohistan'a açılan eşiktedir, Wadud genişlemesinin hangi aşamasında katıldığı bilinmiyor. Hüküm KAYNAKLI olamaz; KASA ya yıl-temsilî + BEYANLI YAKLAŞIKLIK ya da Sultan-i-Rome (2008) ile gün bulunana dek BAKILMADI borcu."
+  }
+ ],
+ "Kalam (Swat)": [
+  {
+   "sira": 4288,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "swat-devleti",
+   "f": "1915-04-24",
+   "t": "1969-07-28",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Fredrik Barth, Indus and Swat Kohistan: an ethnographic survey, Oslo 1956 (archive.org indus-and-swat-kohistan, ham OCR metin) ; Khan, Modern Asian Studies 57/3 (2023)",
+   "alinti": "The centralized state organization in Swat was first established in 1917",
+   "alinti2": "the most recent accretion was annexed in 1947",
+   "oneri": {
+    "f": "YIL: 1917'den SONRA, büyük olasılıkla 1947 (aday; Kalam'a özgü teyitsiz)",
+    "t": "",
+    "d": "swat-devleti"
+   },
+   "not": "Kalam (Swat Kohistan / Gawri bölgesi) Swat vadisinin alt bölümüyle birlikte 1915'te devlet sınırında olmayabilir. Barth ham metni: 'centralized state organization in Swat was first established in 1917, and the most recent accretion was annexed in 1947' — cümle yer adı vermiyor; OCR'da ayrıca 'occupied by Swat some 8 years ago, not incorporated into Swat State' (1954-56 saha çalışması -> ~1946-48) cümlesi var ama hangi bölge olduğu OCR bozukluğundan okunamıyor. Kalam'ın katılış günü/yılı yerleşime özgü kaynakla BULUNAMADI; Sultan-i-Rome, Swat State (OUP 2008) ve Barth 1956 temiz taraması gerek. ONERI = 'f=1915-04-24 şüpheli, devlet ÇEKİRDEĞİNDE değil Swat Kohistan'da; katılış daha geç'. Karar yok: gün uydurulmadı. Kalam -> Madyan yukarı Swat'ın girişidir (aynı sorun)."
+  }
+ ],
+ "La Agüera (La Güera)": [
+  {
+   "sira": 4289,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ispanyol-sahra",
+   "f": "1920-01-01",
+   "t": "1976-02-26",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Batı Sahrâ» (Mustafa L. Bilge) https://islamansiklopedisi.org.tr/bati-sahra ; «Moritanya» https://islamansiklopedisi.org.tr/moritanya",
+   "alinti": "14 Kasım 1975'te Madrid'de yapılan bir antlaşma ile Batı Sahrâ'dan çekilmeyi ve bölgeyi Fas ile Moritanya'ya bırakmayı kabul etti",
+   "oneri": {},
+   "not": "f 1920-01-01: BULUNAMADI. Baktığım: TDV Batı Sahrâ ham metni ('1920', 'Güera', 'Dahla' ifadeleri YOK; TDV yalnız 1884/1887/1894 İspanyol merkezlerine saldırılar, 1934 Fransa-İspanya anlaşması, El-Uyûn'un 1937 kuruluşu); Historical Dictionary of Western Sahara (archive.org OCR, yalnız 6 KB, 'Güera' YOK; asıl cilt 401). La Güera'nın İspanyol 1920 kuruluşu için yerleşime özgü kaynak yok. t 1976-02-26: TDV bu günü vermiyor; çekilişi Madrid 14 Kasım 1975 antlaşmasına bağlar (Madrid = üçlü niyet/geçici idare beyannamesi; egemenlik devri değil), Fas'ın El-Uyûn'a girişi 11 Aralık 1975, bölünme 'Nisan 1976' (TDV). Satırın t ucu (1976-02-26, İspanyol çekilişi) TDV ile TEYİT EDİLMEDİ, çelişmiyor; ayrı uç olay (Madrid 1975-11-14) alıntıyla KAYNAKLI sayılmaz (başka olay). Brif: 'hukukî devir antlaşma günü' ilkesi: Madrid'i devir sayarsanız t = 1975-11-14 olurdu, ancak Madrid idareyi 28 Şubat 1976'ya bırakır (bu bilgi TDV'de yok, UN A/AC.109/667 mevcut kaynakta) — karar EMRELİC'in."
+  },
+  {
+   "sira": 4290,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tiris-el-garbiyye",
+   "f": "1976-02-26",
+   "t": "1979-08-05",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Batı Sahrâ» https://islamansiklopedisi.org.tr/bati-sahra ; «Moritanya» https://islamansiklopedisi.org.tr/moritanya",
+   "alinti": "Batı Sahrâ Nisan 1976'da imzalanan bir antlaşma ile Fas ve Moritanya arasında taksim edildi",
+   "alinti2": "Buna göre ... güney kesimi Moritanya'ya kaldı",
+   "oneri": {
+    "f": "1976-04-14 [yalnız ay: Nisan 1976; künye tiris-el-garbiyye f ile aynı]",
+    "t": "",
+    "d": "tiris-el-garbiyye"
+   },
+   "not": "HAYALET DEVLET: satır f 1976-02-26, künye tiris-el-garbiyye f 1976-04-14 (devletler.js grep). TDV hem Batı Sahrâ hem Moritanya maddesinde bölünmeyi 'Nisan 1976' antlaşmasına bağlıyor (gün yok) -> f künye gününe ya da 1976-04-01 [yalnız ay]; 1976-02-26 -> 1976-04-14 arası dilimi (İspanya çekildi, Moritanya idaresi henüz hukuken yok) isg/BEYANLI YAKLAŞIKLIK ya da ispanyol-sahra t uzatmak kararı EMRELİC'in. Fas'ın Aralık 1975'te giriştiği çıkarım (TDV) bu bölgeyi değil El-Uyûn'u kapsar. t 1979-08-05: aşağıdaki Fas satırına bak. Rule: 'Cezayir/Rabat Nisan 1976 antlaşması' için gün TDV'de yok."
+  },
+  {
+   "sira": 4291,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fas-krallik",
+   "f": "1979-08-05",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Batı Sahrâ» https://islamansiklopedisi.org.tr/bati-sahra ; «Moritanya» https://islamansiklopedisi.org.tr/moritanya",
+   "alinti": "1980'de Moritanya Batı Sahrâ'daki haklarından Polisario lehine vazgeçti",
+   "oneri": {
+    "f": "YIL 1980 (TDV) | atlas 1979-08-05; olaylar farklı: Moritanya'nın hak vazgeçişi (TDV 1980) vs. Fas'ın Tiris el-Garbiyye'yi devralışı (atlas, BM A/AC.109/667)",
+    "t": "",
+    "d": "fas-krallik"
+   },
+   "not": "ÇELİŞKİ beyanı (iki kaynak): TDV (1992) Moritanya'nın hak vazgeçişini 1980'e koyuyor ve Fas'ın 'bütün bölgeyi koruma görevini' üstlendiğini söylüyor; atlas mevcut kaynağı BM A/AC.109/667 -> Fas Dahla idaresini Ağustos 1979'da devraldı. TDV'nin 1980'i 1979 Cezayir (Moritanya-Polisario) anlaşmasını yıl hatasıyla vermiş olabilir; ben karar vermem (iki kaynak 'ic_not'ta beyan). La Güera'ya özgü cümle YOK (Lagouira'nın 1979 sonrası Fas denetimi yerleşime özgü kaynakla BULUNAMADI). Hüküm KAYNAKLI değil: alıntı farklı olayı tarihliyor. t 2000-12-31 pencere ucu."
+  }
+ ],
+ "Shunning (Fengqing)": [
+  {
+   "sira": 4293,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "yuan-hanedani",
+   "f": "1327-01-01",
+   "t": "1368-09-14",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "明史 卷46 志第二十二 地理七 雲南布政使司 順寧府 (zh.wikisource.org/wiki/明史/卷46, ham metin)",
+   "alinti": "順寧府元泰定四年十一月置",
+   "oneri": {
+    "f": "1327",
+    "t": "",
+    "d": "yuan-hanedani"
+   },
+   "not": "ÇEVRİLECEK ifade (Çin ay-güneş, ÇEVİRMEDİM): 泰定四年十一月 (Yuan Taiding 4. yıl, 11. ay). oneri yalnız YIL düzeyi: 1327. Alıntı birimin (順寧府 = Shunning fu) kuruluşunu tarihler: ÖLÇÜT: idareye katma — Yuan idarî birim kuruluşu (egemenliğin başlangıcı değil, Yunnan 13. yy ortasından beri Yuan'dır; yerleşim sahipliği için tahrir benzeri belge). t 1368-09-14 = Yuan künye ucu; bu satırın t ucu bu alıntıyla teyit edilmedi (öteki uç teyitsiz). Yuan t 1368 ile Ming f 1382 arası (satır 4294 partide yok) Liang/Yuan kalıntısı dilimi ayrı."
+  },
+  {
+   "sira": 4295,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1382-04-14",
+   "t": "1644-04-25",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "明史 卷46 順寧府 (zh.wikisource.org/wiki/明史/卷46, ham metin)",
+   "alinti": "洪武十五年三月庚戌因之",
+   "oneri": {
+    "f": "1382",
+    "t": "",
+    "d": "ming-hanedani"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · ÇEVRİLECEK ifade: 洪武十五年三月庚戌 (Hongwu 15. yıl, 3. ay, gün 庚戌) — Academia Sinica ile çevrilecek; atlasın 1382-04-14 değeri bu ganzhi gününün çevirisi mi, EMRELİC doğrulasın (ben çevirmedim). Aynı madde: '己未降爲州，屬大理府。十七年正月仍升爲府' = statü değişimi (egemenlik değil). oneri yalnız yıl: 1382. Mingshi gün = KAYIT günü. t 1644-04-25 = Ming künye ucu; Yunnan 1644'ten sonra Güney Ming/Daxi altındaydı (Qing fethi 順治十六年) — bu t ucu alıntıyla teyit edilmedi, öteki uç teyitsiz; 1644 -> Qing arası dilim satırı partide yok (4296)."
+  },
+  {
+   "sira": 4297,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1659-04-22",
+   "t": "1673-12-28",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "清史稿 卷5 世祖本紀二 (zh.wikisource.org/wiki/清史稿/卷5, ham metin); 清史稿 卷74 地理志 雲南 順寧府 (zh.wikisource.org/wiki/清史稿/卷74)",
+   "alinti": "十六年春正月 ... 庚子，多尼克雲南，以捷聞",
+   "alinti2": "順寧府：... 明，順寧府，領州一。順治初，沿明制。",
+   "oneri": {
+    "f": "1659",
+    "t": "",
+    "d": "qing-hanedani"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · ÜLKE DÜZEYİ: Qing'in Yunnan'ı alışı 順治十六年 (1659) — şehre özgü Shunning günü YOK (alıntı 'Yunnan'ı aldı', 地理志 yalnız 'Qing 順治初 Ming düzenini sürdürdü'). ÇEVRİLECEK ifade: 順治十六年春正月庚子 (Yunnan başkentine giriş); EMRELİC: atlasın 1659-04-22 gününün 順治十六年 4. aya denk gelmesi Yongchang'a yürüyüşle uyumlu mu (卷5 '夏四月甲寅，... 進克永昌' ) — Shunning günü kaynaksız, KASA BEYANLI YAKLAŞIKLIK (yıl 1659) yazar. ATIF DÜZELTMESİ: mevcut kaynak '清史稿 卷6' diyor, fetih cümlesi 卷5'te (卷6 Kangxi 1-?'yi içerir). t öteki uç: aşağıdaki San Fan satırı."
+  },
+  {
+   "sira": 4298,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "清史稿 卷6 聖祖本紀一 (zh.wikisource.org/wiki/清史稿/卷6, ham metin)",
+   "alinti": "吳三桂反，殺雲南巡撫朱國治",
+   "alinti2": "十月二十八日入雲南城，吳世璠自殺 ... 雲南平",
+   "oneri": {
+    "f": "1673",
+    "t": "1681",
+    "d": "san-fan"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · ÜLKE DÜZEYİ (Yunnan eyaleti, Shunning'e özgü cümle yok). ÇEVRİLECEK ifadeler: (a) f: 康熙十二年十二月壬子 girdisi içinde 'Wu Sangui isyan etti, Yunnan valisi Zhu Guozhi'yi öldürdü' (Kangxi 12. yıl, 12. ay, 壬子 — 卷6 alıntı yıl başlığı yok, sıra 8. ay 撤籓 elçisi 'Zhe'erken' girdisinin hemen sonrası); atlasın 1673-12-28 değeri bu KAYIT gününden mi, yoksa isyanın ilan gününden mi (farklı olabilir) EMRELİC doğrulasın. (b) t: Qing raporu '十一月癸亥 ... 王師於十月二十八日入雲南城，吳世璠自殺 ... 雲南平' = Kangxi (yıl sırayla 20) 10. ay 28. gün (ay-güneş, ÇEVRİLECEK), 'Mingshi/Qing shi gao = KAYIT günü'. oneri yıl düzeyi: 1673 / 1681. Shunning'e özgü teslim günü BULUNAMADI (卷6'da 元江/順寧 YOK; '武定、大理、臨安、永順、姚安皆降' Nisan 1681 civarı girdisi mevcut)."
+  },
+  {
+   "sira": 4299,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1858-05-17",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "清史稿 卷6 (f: ÜLKE DÜZEYİ, bkz. San Fan satırı) ; 清史稿 卷20 文宗本紀 咸豐八年 (zh.wikisource.org/wiki/清史稿/卷20, ham metin)",
+   "alinti": "雲南大理回匪陷順寧",
+   "alinti2": "十月二十八日入雲南城，吳世璠自殺 ... 雲南平",
+   "oneri": {
+    "f": "1681",
+    "t": "1858",
+    "d": "qing-hanedani"
+   },
+   "not": "t KAYNAKLI (şehre özgü, kayıt günü): 咸豐八年戊午 夏四月丙午朔 girdileri içinde '庚戌，賊陷和州。雲南大理回匪陷順寧。' — cümle 庚戌 girdisinin hemen ardında; aynı ay içinde gün sırası bozuk (丁未..庚戌, sonra 戊申 yine geçiyor) -> ay düzeyinde kesin (4. ay), günü 庚戌 ya da ardışık bir gün olabilir. ÇEVRİLECEK: 咸豐八年夏四月庚戌 (Academia Sinica); oneri yalnız yıl: 1858 (ay 4. ay lunar). f: aynı ÜLKE DÜZEYİ Kangxi 20 'Yunnan pacified' (yukarıdaki satır). Mingshi/Qing shi gao günü KAYIT günü."
+  },
+  {
+   "sira": 4300,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "pingnan",
+   "f": "1858-05-17",
+   "t": "1873-01-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "清史稿 卷20 咸豐八年 ; 清史稿 卷22 穆宗本紀二 同治十二年 (zh.wikisource.org/wiki/清史稿/卷22, ham metin)",
+   "alinti": "雲南大理回匪陷順寧",
+   "alinti2": "三月 ... 丁未，滇軍克順寧",
+   "oneri": {
+    "f": "1858",
+    "t": "1873 (同治十二年三月丁未 — Qing'in Shunning'i geri alışı; ÇEVRİLECEK)",
+    "d": "pingnan"
+   },
+   "not": "f: kaynak (咸豐八年四月 'Dali Hui isyancıları Shunning'i aldı') ile uyumlu, yıl düzeyi KAYNAKLI. t ucu ONERI: Shunning'e özgü cümle 卷22'de 同治十二年 (三月) '丁未，滇軍克順寧' — Shunning Qing'e 1873 baharında döndü; atlas ise Pingnan t'sini künye gününe (1873-01-15) kesip kalan 1873-01-15 -> 1873-04-25 dilimini __BOSLUK__ yazmış. Kaynak Dali düştükten sonra da Shunning'in isyancı elinde kaldığını ima ediyor (Qing orayı 'aldı'): öneri 4300 ile 4301'in BİRLEŞİMİ (Shunning için aynı sahip/isyancı idare 同治十二年三月丁未'e kadar) ya da BOSLUK yerine BEYANLI YAKLAŞIKLIK. Karar: Pingnan künyesi t = 1873-01-15 (Dali'nin düşüşü); Shunning'in Dali'ye bağlılığı 1873-01'den sonra sürdü mü kaynakta YOK -> 'Pingnan kalıntısı' varsayım (mevcut kaynak notu da öyle diyor). Mevcut not '1858-73 kesintisiz Pingnan idaresi varsayım, kanıtlanmadı' — doğrulanamadı: Shunning 1858-1873 arasında Dali'nin kesintisiz elinde mi, Qing arası geri alınıp tekrar mı düştü, kaynak sessiz."
+  },
+  {
+   "sira": 4301,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1873-01-15",
+   "t": "1873-04-25",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "清史稿 卷22 穆宗本紀二 同治十二年 (zh.wikisource.org/wiki/清史稿/卷22, ham metin)",
+   "alinti": "三月癸未 ... 丁未，滇軍克順寧",
+   "oneri": {
+    "f": "",
+    "t": "1873",
+    "d": "__BOSLUK__"
+   },
+   "not": "Bitiş ucu (Qing/Yunnan ordusunun Shunning'i alması) KAYNAKLI: 清史稿 卷22 同治十二年 三月 girdisinin sonunda '丁未，滇軍克順寧'. ÇEVRİLECEK: 同治十二年三月丁未 (Tongzhi 12. yıl, 3. ay, 丁未), KAYIT günü; oneri yıl 1873. Başlangıç ucu (1873-01-15 = Pingnan künye t) bu alıntıyla teyit edilmedi. DİKKAT: kaynak, Shunning'in bu ara dönemde Qing dışı bir elde olduğunu ima eder (isyancılar); yani BOSLUK yerine Pingnan kalıntısı/isyancı idare BEYANLI YAKLAŞIKLIK daha doğru (bkz. 4300 ONERI). 清史稿 卷22'de aynı yıl '五月庚寅，滇軍克雲州' (Yun komşu) da var."
+  },
+  {
+   "sira": 4302,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1873-04-25",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "清史稿 卷22 穆宗本紀二 同治十二年 (ham metin)",
+   "alinti": "三月 ... 丁未，滇軍克順寧",
+   "oneri": {
+    "f": "1873",
+    "t": "",
+    "d": "qing-hanedani"
+   },
+   "not": "f KAYNAKLI: 同治十二年三月丁未 (ÇEVRİLECEK; atlasın 1873-04-25 değerinin bu ganzhi gününe denk gelip gelmediğini EMRELİC doğrulasın). KAYIT günü. t 1912-02-12 (Xuantong tahttan çekilme) 'Kunming emsali' — öteki uç teyitsiz: Yunnan 1911-10-30'da (重九起義) Qing'den kopmuştu; Shunning'e özgü Qing sonu bu alıntıyla yok, ÜLKE/Kunming emsali beyanı sürer."
+  }
+ ],
+ "Yuanjiang": [
+  {
+   "sira": 4307,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1382-04-14",
+   "t": "1644-04-25",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "明史 卷46 地理七 雲南 元江軍民府 (zh.wikisource.org/wiki/明史/卷46, ham metin)",
+   "alinti": "元江軍民府元元江路。洪武十五年三月爲府。永樂初，升軍民府。",
+   "oneri": {
+    "f": "1382 [yalnız ay: 洪武十五年三月; gün YOK]",
+    "t": "",
+    "d": "ming-hanedani"
+   },
+   "not": "ÇEVRİLECEK ifade: 洪武十五年三月 (ay düzeyi; gan-zhi günü YOK). Atlasın 1382-04-14 günü Shunning'in '洪武十五年三月庚戌' girdisinden (ayrı yerleşim) komşudan alınmış görünüyor; Yuanjiang için 'gün komşudan' beyanı gerek (CLAUDE: 'gün komşudan: …', zincirleme devralma yok) ya da ay/yıl hassasiyeti. Alıntı idarî birim statüsünü (路 -> 府 -> 軍民府) tarihler; Yuanjiang fiilen yerli hanedanlık (土司) eliyle yönetilen bir bölgedir (Ming 'flowing officer' atama 土司 sistemi) — ÖLÇÜT: idareye katma — Ming '府' statüsü verdi. t 1644-04-25: öteki uç teyitsiz (künye)."
+  },
+  {
+   "sira": 4309,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1659-01-07",
+   "t": "1673-12-28",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "清史稿 卷74 地理志 雲南 元江直隸州 (zh.wikisource.org/wiki/清史稿/卷74, ham metin) ; 清史稿 卷5 世祖本紀二",
+   "alinti": "元江直隸州：... 明，元江府。領州二。順治六年，設流官。",
+   "alinti2": "十六年春正月 ... 庚子，多尼克雲南，以捷聞",
+   "oneri": {
+    "f": "1659 [ÜLKE DÜZEYİ] — ALTERNATİF: 1649 (順治六年, Qing'in geriye dönük idarî beyanı)",
+    "t": "",
+    "d": "qing-hanedani"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · Çelişki: Qing resmî coğrafyası 'Yuanjiang: 順治六年 (= 1649) 流官 atandı' diyor (retrospektif idarî iddia; Yunnan'ın fiilen fethi 順治十六年 = 1659, 卷5). Atlas f 1659-01-07; kaynak (ÇEVRİLECEK: 順治十六年春正月庚子, ülke düzeyi Yunnan başkenti) 1659 yılını doğruluyor, günü doğrulamıyor: 1659-01-07'nin 順治十六年正月庚子'den ÖNCE kalıp kalmadığı çeviri EMRELİC'te kontrol edilmeli (Çin yılbaşı Gregoryen Ocak sonu/Şubat başına düşebilir; ben çevirmedim). Yuanjiang'a özgü fetih günü BULUNAMADI (卷5, 卷6'da 元江 YOK). ÖLÇÜT: idareye katma — 流官 atama (1649 belge ama fiilî değil) ve fetih 1659. Öneri: yıl-temsilî 1659 + BEYANLI YAKLAŞIKLIK; 1649 ic_not."
+  },
+  {
+   "sira": 4310,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-12-07",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "清史稿 卷6 聖祖本紀一 (ham metin)",
+   "alinti": "吳三桂反，殺雲南巡撫朱國治",
+   "alinti2": "十月二十八日入雲南城，吳世璠自殺 ... 雲南平",
+   "oneri": {
+    "f": "1673",
+    "t": "1681",
+    "d": "san-fan"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): ORTAK İFADE: 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · ÜLKE DÜZEYİ (Yunnan eyaleti; Yuanjiang'a özgü cümle yok). Çevrilecek ifadeler: 康熙十二年十二月壬子 girdisi (isyan KAYIT günü) ve 康熙 (yıl sırayla 20) 十月二十八日 + 十一月癸亥 (rapor günü) — San Fan satırının notuyla aynı; bkz. 4298. Yuanjiang özel: Qing resmî coğrafyası 'Yuanjiang 順治六年 流官' diyor ama 三藩 sırasında Yuanjiang'ın Wu Sangui tarafında kaldığı yerleşime özgü kaynakla BULUNAMADI (卷6: 元江 YOK)."
+  },
+  {
+   "sira": 4311,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-12-07",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "清史稿 卷6 聖祖本紀一 (ham metin) ; 清史稿 卷74 地理志 雲南 元江直隸州",
+   "alinti": "十月二十八日入雲南城，吳世璠自殺 ... 雲南平",
+   "oneri": {
+    "f": "1681",
+    "t": "",
+    "d": "qing-hanedani"
+   },
+   "not": "ÜLKE DÜZEYİ: Yunnan'ın Qing'e dönüşü (Kunming düşüşü 康熙 十月二十八日, ÇEVRİLECEK; rapor 十一月癸亥); Yuanjiang'a özgü gün yok. 地理志 Yuanjiang'ı 直隸州 (Qing düzeni, '順治 ... 十八年，省恭順、奉化二州入之；雍正十年 新平縣來隸') olarak kaydeder = Qing idareye katma belgesi (tahrir benzeri). t 1912-02-12 'Kunming emsali': öteki uç teyitsiz (Yunnan 1911-10-30'da kopmuştu)."
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "Uncompahgre (Ute)": [
+  {
+   "sira": 3838,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ute",
+   "f": "1281-01-01",
+   "t": "1880-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database, https://treaties.okstate.edu/treaties/agreement-with-the-confederated-bands-of-ute-1880-22300 (ham metin okundu)",
+   "alinti": "Approved June 15, 1880.",
+   "uc": "t",
+   "oneri": {
+    "t": "1880-06-15"
+   },
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): ute t 1880-01-01 → 1880-06-15 (Kappler yasası) DÜZELT adayı; Değişmez 2 maddesi birlikte taşınır. · ÖLÇÜT: idareye katma — Kongre yasası agreement'ı 'accepted, ratified, and confirmed' (21 Stat.); yasa 15 Haziran 1880'de onaylandı, Ute'lerin 3/4 onayı 4 ay içinde şart (Editor's note: onaylandı). Atlas t 1880-01-01 künye t 1880-06-15 ile uyuşmuyor, yerleşim dönemi künyeye çekilmeli. İmza 1880-03-06 ic_not. Fiilî tahliye/sürgün 1881 (brif ipucu; bu partide ham teyit YOK, BAKILMADI): fiilî idare ölçüsünde Uncompahgre'nin fiilen çıkışı 1881'dir, künye kararı (yürürlük günü) ile fiilî fark beyan edilmeli. f 1281 atlas ufku; bu kaynak f'yi tarihlemez."
+  },
+  {
+   "sira": 3839,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1880-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Kappler, Indian Affairs: Laws and Treaties II, OSU Tribal Treaties Database, https://treaties.okstate.edu/treaties/agreement-with-the-confederated-bands-of-ute-1880-22300 (ham metin okundu)",
+   "alinti": "Approved June 15, 1880.",
+   "uc": "f",
+   "oneri": {
+    "f": "1880-06-15"
+   },
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): ute t 1880-01-01 → 1880-06-15 (Kappler yasası) DÜZELT adayı; Değişmez 2 maddesi birlikte taşınır. · ÖLÇÜT: idareye katma — yasa (ratified and confirmed), bkz. önceki satır. 1880-01-01 yıl başı yer tutucudur; künye t ile aynı gün 1880-06-15 olmalı. t 2000-12-31 atlas pencere ucu."
+  }
+ ],
+ "Bent's Fort": [
+  {
+   "sira": 3840,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1833-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "NPS, Bent's Old Fort NHS, https://www.nps.gov/articles/bentsold.htm · Kappler, Treaty of Fort Laramie 1851 (treaties.okstate.edu/treaties/treaty-of-fort-laramie-with-sioux-etc-1851-0594) · Kappler, Treaty with the Arapaho and Cheyenne 1861 / Fort Wise (treaties.okstate.edu/treaties/treaty-with-the-arapaho-and-cheyenne-1861-0807) — hepsi ham metin",
+   "alinti": "The territory of the Cheyennes and Arrapahoes ... thence down the Arkansas River to the crossing of the Santa Fé road",
+   "uc": "f",
+   "oneri": {
+    "f": "1833-01-01",
+    "dilimler": [
+     {
+      "d": "KÜNYE YOK: Şayen-Arapaho (Cheyenne-Arapaho) — LAB'a künye adayı",
+      "f": "1833-01-01",
+      "t": "1861-02-18"
+     },
+     {
+      "d": "abd",
+      "f": "1861-02-18",
+      "t": "2000-12-31"
+     }
+    ]
+   },
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): Şayen-Arapaho künyesi aday (halk sınıfı); açılmazsa 1851 → 1861-02-17 bos:'kabile' + neden; 1861-02-18 abd (Fort Wise, Kappler). · f YIL düzeyi: NPS 'Erected in 1833' (sahip: Bent, St. Vrain & Co. özel ticaret karakolu, Arkansas'ın kuzey yakası). SAHİP SORUSU: 1851 Fort Laramie antlaşması Arkansas boyunca Şayen-Arapaho topraklarını tanır (karakol bu hatta); NPS 1846'da kaleyi Upper Platte & Arkansas Hint Ajansı merkezi olarak anar ama ABD tahriri/vergisi/idaresi belgesi yok → ÖLÇÜT: fiilî idare yok. 1861-02-18 Fort Wise antlaşmasında Şayen-Arapaho tüm sahip olunan/iddia edilen toprakları ABD'ye 'cede and relinquish' eder (imza günü; onay ic_not, ham okunmadı; 1861-02-28 Colorado Territory BAKILMADI). Komançi (künye 1750-1875) da bölgede dolaşırdı, çakışma beyan edilir. Meksika-ABD sınırı Arkansas'ta (NPS: 'near the boundary'). Künye Şayen/Arapaho atlasta YOK (devletler.js tarandı). Çözüm gelene dek 'abd 1833' BEYANSIZ yaklaşıklıktır."
+  }
+ ],
+ "Bishop (Owens Vadisi Payutları)": [
+  {
+   "sira": 3841,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "payut",
+   "f": "1281-01-01",
+   "t": "1872-01-01",
+   "hukum": "ONERI",
+   "kaynak": "NPS Manzanar NHS, Owens Valley Paiute, https://www.nps.gov/manz/learn/historyculture/owens-valley-paiute.htm (ham) · Bishop Chamber of Commerce, History of Bishop (ham, hakemsiz → ONERI-güçlü)",
+   "alinti": "The military intervened and, in 1863, forcibly removed 1,000 Paiute to Fort Tejon",
+   "uc": "t",
+   "oneri": {
+    "t": "1863-01-01",
+    "alt": "1862-07-04 Camp Independence kuruluşu (arama özeti, ham teyitsiz)"
+   },
+   "not": "ÖLÇÜT: fiilî idare — Bishop Creek'te Samuel Bishop 1861-08-22 yerleşti, 1862'de 'Bishop Creek' yerleşimi kuruldu (Chamber ham); Camp Independence 1862-07-04 (yalnız arama özeti, BAKILMADI sayılır); 1863 Fort Tejon sürgünü (NPS ham). 1872 hiçbir kaynakta yok (payut künye t'si Payut-geneli, Owens Vadisi'ne özgü değil). Öneri: yerleşim dönemi 1863'te (YIL) kapanır, 1872 gerekçesi BAKILMADI. Payutlar sürgünden sonra Owens Vadisi'ne döndü (NPS ham) — ic_not."
+  },
+  {
+   "sira": 3842,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1872-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "aynı kaynaklar",
+   "alinti": "forcibly removed 1,000 Paiute to Fort Tejon",
+   "uc": "f",
+   "oneri": {
+    "f": "1863-01-01"
+   },
+   "not": "Önceki satırla birlikte taşınır; ABD de jure 1848 Guadalupe Hidalgo (Kaliforniya), fiilî idare 1861-63 Owens Vadisi."
+  }
+ ],
+ "Draper's Meadow (Blacksburg)": [
+  {
+   "sira": 3843,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1748-01-01",
+   "t": "1776-07-04",
+   "hukum": "ONERI",
+   "kaynak": "e-WV West Virginia Encyclopedia, Mary Draper Ingles, https://wvencyclopedia.org/entries/813 (ham) · Ryan Mays, 'The Draper's Meadows Settlement (1746-1756)', Smithfield Review 18-19 (başlık Wikipedia kaynakçasından; gövde okunmadı)",
+   "alinti": "In 1744, the Drapers migrated southwest to found Draper's Meadow",
+   "uc": "f",
+   "oneri": {
+    "f": "1746-01-01",
+    "alt": "1744-01-01 (e-WV)"
+   },
+   "not": "KAYNAK ÇELİŞKİSİ: e-WV 1744 (kuruluş), Smithfield Review başlığı 1746, Wikipedia 'homestead 1746'; 1748 hiçbirinde yok. Öneri YIL düzeyi; ben 1746 öneririm (hakemli dergi başlığı) ama gövde okunmadı, 1744/1746 kararı Emre'nin. Sahip: Virjinya kolonisi/Augusta County (ingiltere künyesi bu yılları kapsıyor; hayalet yok). Sahiplik belgesi BAKILMADI (Augusta County kayıtları)."
+  },
+  {
+   "sira": 3844,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1776-07-04",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Avalon Project, Declaration of Independence July 4, 1776, https://avalon.law.yale.edu/18th_century/declare.asp (ham)",
+   "alinti": "these United Colonies are, and of right ought to be, FREE AND INDEPENDENT STATES",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: bildirge ABD künyesinin f'sidir, Draper's Meadow'a özgü tanık değil (Virjinya bağımsızlık kararı 1776-05-15 ic_not adayı, BAKILMADI). Atlas Big Lick vb. ile aynı kırılma."
+  }
+ ],
+ "Fort Supply (Kuzeybatı Toprakları, Oklahoma)": [
+  {
+   "sira": 3845,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1868-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Oklahoma Historical Society, Encyclopedia of Oklahoma History and Culture, Fort Supply (FO042, Bob Rea), https://www.okhistory.org/publications/enc/entry?entry=FO042 (ham)",
+   "alinti": "Originally named Camp Supply, it was established on November 18, 1868",
+   "uc": "f",
+   "oneri": {
+    "f": "1868-11-18"
+   },
+   "not": "ÖLÇÜT: fiilî idare — ABD ordu karakolu (geçici Cheyenne-Arapaho Ajansı 1868/1870, aynı sayfa). f yıl başı yer tutucu; varoluş günü 1868-11-18 (ileri taşıma, yeni dilim yok). UYARI: aynı sayfa 'located in the western part of the Cherokee Outlet' diyor; Outlet Cherokee Ulusu mülküydü (künye cherokee t 1907-11-16) → arazi sahipliği ile askerî idare ayrımı ic_not; 1868-1893 arası 'abd' BEYANLI YAKLAŞIKLIK (askerî karakol, toprak Cherokee Outlet). Outlet açılışı 1893 aynı sayfada."
+  }
+ ],
+ "Timbisha (Ölüm Vadisi)": [
+  {
+   "sira": 3846,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sosoni",
+   "f": "1281-01-01",
+   "t": "1868-07-03",
+   "hukum": "ONERI",
+   "kaynak": "NPS Death Valley, Fighting for Justice, https://www.nps.gov/deva/learn/fighting-for-justice.htm (ham) · sosoni künye notu (devletler.js)",
+   "alinti": "The Timbisha finally received federal recognition in 1983, but it came without a formal land base.",
+   "uc": "t",
+   "oneri": {
+    "d": "KÜNYE UYUMSUZ: sosoni = Doğu Şoşoni (Fort Washakie/Wind River, Fort Bridger 1868); Timbisha Batı/Panamint Şoşoni, Kaliforniya — künye adayı 'Timbisha/Batı Şoşoni' LAB'a",
+    "t": "1848-02-02",
+    "not_t": "de jure ABD (Guadalupe Hidalgo); fiilî idare tarihi BULUNAMADI"
+   },
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): sosoni (1281 → 1868-07-03, devletler.js:4656) Doğu Şoşoni, Timbisha'ya bağlanmaz → bos:'kabile' + neden. · ÖLÇÜT: yerli sahipliği tek ölçü fiilî idare. 1868-07-03 Fort Bridger antlaşması Doğu Şoşoni/Bannock içindir, Death Valley Timbisha'sını bağlamaz; Kaliforniya zaten 1848'de devredilmişti. NPS ham: 1933 ulusal anıt, 1983 tanınma (toprak tabanı olmadan), 2000 Homeland Act; Timbisha'nın ABD idaresine ne zaman girdiği bu sayfada tarihli değil → BULUNAMADI (bakılan: NPS deva; Congress/PL 106-423 yalnız arama özeti). Steward/BAE 120 gerekir."
+  },
+  {
+   "sira": 3847,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1868-07-03",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "NPS Death Valley, Fighting for Justice (ham)",
+   "alinti": "In November, 2000, the Timbisha Homeland Act was passed creating the first tribal reservation within a national park.",
+   "uc": "t",
+   "oneri": {
+    "f": "1848-02-02",
+    "not": "BEYANLI: de jure Guadalupe Hidalgo; fiilî idare günü bulunamadı"
+   },
+   "not": "LAB SALI (5 Kasım 2026, HAYALET-KARAR): sosoni (1281 → 1868-07-03, devletler.js:4656) Doğu Şoşoni, Timbisha'ya bağlanmaz → bos:'kabile' + neden. · Önceki satırla birlikte. 2000 Homeland Act dönem içi olay; atlas t 2000-12-31 pencere ucu. Alıntı f'yi tarihlemez (uc yalnız t'ye bakar, hüküm bu yüzden ONERI)."
+  }
+ ],
+ "Las Vegas (Yeni Meksika)": [
+  {
+   "sira": 3848,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "meksika",
+   "f": "1835-01-01",
+   "t": "1848-02-02",
+   "hukum": "ONERI",
+   "kaynak": "NPS, Las Vegas, New Mexico, https://www.nps.gov/places/las-vegas-new-mexico.htm (ham)",
+   "alinti": "The city grew from an 1835 Land Grant from the Mexican government",
+   "uc": "f",
+   "oneri": {
+    "split": [
+     {
+      "alan": "s",
+      "d": "meksika",
+      "f": "1835-01-01",
+      "t": "1848-02-02"
+     },
+     {
+      "alan": "isg",
+      "d": "abd",
+      "f": "1846-08-15",
+      "t": "1848-02-02",
+      "not": "gün 1846-08-15 yalnız arama özeti (newmexicohistory/Wikipedia), ham teyitsiz; NPS ham yıl 1846"
+     }
+    ]
+   },
+   "not": "f KAYNAKLI yıl düzeyi (1835; plaza düzenleme 1835-04-06 arama özeti, ham teyitsiz). t: NPS ham 'General Stephen Watts Kearny ... announced that Las Vegas was now the property of the United States' (1846) ama TEK KURAL: işgal/ilhak ilanı egemenlik devri değildir → ÖLÇÜT: geçici/askerî — Meksika iddiası Guadalupe Hidalgo'ya dek sürdü; isg abd 1846 → imza. Öteki hat noktalarıyla (DUNYA-0079) birlikte karar gerekir."
+  },
+  {
+   "sira": 3849,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1848-02-02",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Guadalupe Hidalgo, Avalon Project, https://avalon.law.yale.edu/19th_century/guadhida.asp (ham)",
+   "alinti": "Done in quintuplicate, at the city of Guadalupe Hidalgo, on the second day of February, in the year of our Lord one thousand eight hundred and forty-eight.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÖLÇÜT: idareye katma — TEK ÖLÇÜ: ABD 1846'dan fiilen yönettiği için s: imza gününden. Yürürlük (onay belgeleri teatisi) 1848-05-30 ic_not (bu partide ham teyit YOK, brif ipucu). Mevcut kaynak (DUNYA-0079) doğru; ham alıntı eklendi."
+  }
+ ],
+ "Fort Smith": [
+  {
+   "sira": 3850,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "abd",
+   "f": "1817-01-01",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia of Arkansas, 'William Bradford' (Steven L. Warren), https://encyclopediaofarkansas.net/entries/william-bradford-2796/ (ham)",
+   "alinti": "On Christmas Day in 1817, Bradford and the sixty-four men in his command arrived at Belle Point",
+   "uc": "f",
+   "oneri": {
+    "f": "1817-12-25"
+   },
+   "not": "ÖLÇÜT: fiilî idare — ordu karakolu, 'Osage boundary line' üzerinde. f yıl başı yer tutucu; varoluş günü 1817-12-25 (ileri taşıma). Aynı sayfa 'unfriendly territory' diyor: Osage/Cherokee sınır hattı (BEYAN); Osage iddiası ve 1818 cession kaynağı BAKILMADI."
+  }
+ ],
+ "f_geri": [
+  "F-GERI: Draper's Meadow 1748 → 1746 (alternatif 1744, e-WV; kaynaklar çelişiyor), sahip ingiltere (künye kapsar) — UMIT: ajan ileri taşıma saymıştı, 1746 < 1748 olduğu için GERİ çekmedir"
+ ]
+}

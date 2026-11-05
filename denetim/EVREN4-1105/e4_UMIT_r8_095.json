@@ -1,0 +1,467 @@
+{
+ "Güzelyurt (Morphou)": [
+  {
+   "sira": 3935,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kibris-ingiliz-kolonisi",
+   "f": "1914-11-05",
+   "t": "1960-08-16",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs», c.25 (2022) s.382-391, https://islamansiklopedisi.org.tr/kibris",
+   "uc": "f+t",
+   "alinti": "İngiltere 5 Kasım 1914’te Kıbrıs’ı resmen ilhak etti.",
+   "alinti2": "Kıbrıs Cumhuriyeti 15-16 Ağustos 1960 gece yarısı resmen ilân edilmiş",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): Künyesiz dilim gerekmez — rakip hükûmet kuralı: isg türkiye 1974-08-16 → 1975-02-13 (TDV harekât günü, BEYANLI), altında s: kibris-cumhuriyeti 1975-02-13'e dek, sonra s: KTFD. Siyasî hassas, Emre listesinde. F-GERI ≤1570 DEĞİL: Morfu Lusignan/Venedik döneminde vardı → f varlık gününe (kaynakla); 1570-09-09 öncesi Venedik → Lusignan, ABİ MERKEZ Lefkoşa. 1878–1914: Lefkoşa satırının modeline uy. · f=ilhak günü TDV ile gün düzeyinde (ham metin, sayfa.py). t=Kıbrıs Cumhuriyeti'nin ilanı 15-16 Ağustos 1960 gece yarısı; atlas 1960-08-16 (egemenlik devri 16 Ağustos, TDV 'Türk alayı 16 Ağustos 1960'ta Magosa'ya çıktı'). ic_not: İngiliz idaresi 1878-07-12 (Kıbrıs Sözleşmesi imza 4 Haziran 1878, TDV) Osmanlı egemenliği altında geçici idare idi; 1925'te Taç Kolonisi (TDV: 'krallık tacına bağlı bir koloni statüsüne dönüştürdü'); Lozan m.20 (1923) ilhakı kabul. ÖLÇÜT: idareye katma — ilhak 1914-11-05 (hukukî). Bu satırdan ÖNCEKİ dilim (Osmanlı/1878-1914 İngiliz idaresi) bu yerleşimde YOK: bkz. F-GERI.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3936,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kibris-cumhuriyeti",
+   "f": "1960-08-16",
+   "t": "1975-02-13",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kıbrıs», c.25 (2022) s.382-391, https://islamansiklopedisi.org.tr/kibris ; TDV İslâm Ansiklopedisi, «Kuzey Kıbrıs Türk Cumhuriyeti», https://islamansiklopedisi.org.tr/kuzey-kibris-turk-cumhuriyeti",
+   "uc": "f+t",
+   "alinti": "14-16 Ağustos 1974 tarihleri arasında yapılan bu harekâtla Kuzey Kıbrıs Türk Cumhuriyeti’nin bugünkü sınırları çizilmiş oldu",
+   "alinti2": "Türk tarafının 13 Şubat 1975’te ilân ettiği Kıbrıs Türk Federe Devleti",
+   "oneri": {
+    "t": "1974-08-16",
+    "not": "Güzelyurt (KKTC şehri, TDV KKTC maddesi) 14-16 Ağustos 1974 harekâtından itibaren Türk denetiminde; ara 1974-08-16 → 1975-02-13 için künye YOK (Geçici/Özerk Kıbrıs Türk İdaresi) → LAB. Rakip hükûmet kuralı = fiilî kontrol."
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): Künyesiz dilim gerekmez — rakip hükûmet kuralı: isg türkiye 1974-08-16 → 1975-02-13 (TDV harekât günü, BEYANLI), altında s: kibris-cumhuriyeti 1975-02-13'e dek, sonra s: KTFD. Siyasî hassas, Emre listesinde. F-GERI ≤1570 DEĞİL: Morfu Lusignan/Venedik döneminde vardı → f varlık gününe (kaynakla); 1570-09-09 öncesi Venedik → Lusignan, ABİ MERKEZ Lefkoşa. 1878–1914: Lefkoşa satırının modeline uy. · f=1960-08-16 TDV Kıbrıs (bkz. 3935). t=1975-02-13 (KTFD ilanı) TDV KKTC ile gün düzeyinde KAYNAKLI; ANCAK fiilî kontrol 1974 Ağustos'ta Türk tarafına geçti (TDV: 14-16 Ağustos 1974 harekâtıyla bugünkü sınırlar çizildi). Güzelyurt'un tam düştüğü GÜN kaynakta yok (14-16 aralığı) → 1974-08-16 harekât sonu BEYANLI; EMRELİC karar versin: (a) 1974-08-16'da 'Kıbrıs Türk İdaresi' dilimi, (b) KTFD 1975-02-13'e kadar K. Cumhuriyeti. TDV 22 Temmuz 1974 ateşkesinde 'küçük bir bölge' tutuldu der (Güzelyurt dışı).",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3937,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kibris-turk-federe-devleti",
+   "f": "1975-02-13",
+   "t": "1983-11-15",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kuzey Kıbrıs Türk Cumhuriyeti», https://islamansiklopedisi.org.tr/kuzey-kibris-turk-cumhuriyeti",
+   "uc": "f+t",
+   "alinti": "Türk tarafının 13 Şubat 1975’te ilân ettiği Kıbrıs Türk Federe Devleti",
+   "alinti2": "15 Kasım 1983’te federe devlet statüsü terkedilerek",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): Künyesiz dilim gerekmez — rakip hükûmet kuralı: isg türkiye 1974-08-16 → 1975-02-13 (TDV harekât günü, BEYANLI), altında s: kibris-cumhuriyeti 1975-02-13'e dek, sonra s: KTFD. Siyasî hassas, Emre listesinde. F-GERI ≤1570 DEĞİL: Morfu Lusignan/Venedik döneminde vardı → f varlık gününe (kaynakla); 1570-09-09 öncesi Venedik → Lusignan, ABİ MERKEZ Lefkoşa. 1878–1914: Lefkoşa satırının modeline uy. · f ve t gün düzeyinde, ham metin. Güzelyurt KKTC şehri (TDV KKTC: 'şehir ve kasabaları Gazimagosa, Girne, Güzelyurt ve İskele'). 1974-08-16 öncesi/sonrası fiilî kontrol için bkz. 3936.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3938,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "kktc",
+   "f": "1983-11-15",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kuzey Kıbrıs Türk Cumhuriyeti», https://islamansiklopedisi.org.tr/kuzey-kibris-turk-cumhuriyeti",
+   "uc": "f",
+   "alinti": "15 Kasım 1983’te federe devlet statüsü terkedilerek",
+   "alinti2": "şehir ve kasabaları Gazimagosa (31.286), Girne (15.160), Güzelyurt (19.355) ve İskele’dir",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): Künyesiz dilim gerekmez — rakip hükûmet kuralı: isg türkiye 1974-08-16 → 1975-02-13 (TDV harekât günü, BEYANLI), altında s: kibris-cumhuriyeti 1975-02-13'e dek, sonra s: KTFD. Siyasî hassas, Emre listesinde. F-GERI ≤1570 DEĞİL: Morfu Lusignan/Venedik döneminde vardı → f varlık gününe (kaynakla); 1570-09-09 öncesi Venedik → Lusignan, ABİ MERKEZ Lefkoşa. 1878–1914: Lefkoşa satırının modeline uy. · f=KKTC ilanı 1983-11-15 TDV ham metin. t=2000-12-31 atlas ufku, olay değil. Tanınma: yalnız Türkiye (künye); BM GK 541 (1983) ic_not. Rakip hükûmet kuralı: fiilî kontrol KKTC'de.",
+   "karar": "EMRELİC"
+  }
+ ],
+ "Castries": [
+  {
+   "sira": 3939,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1814-05-30",
+   "t": "1958-01-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Treaty of Paris 30 May 1814 (birincil metin, Baines 1855 çevirisi), Wikisource, https://en.wikisource.org/wiki/Treaty_of_Paris_(1814) [antlaşma metni aktarımı; hakemsiz portal] ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Jamaica/Historical Setting (Federation 1958), https://countrystudies.us/caribbean-islands/19.htm",
+   "uc": "f+t",
+   "alinti": "Done at Paris, the 30th of May, in the year of our Lord 1814.",
+   "alinti2": "West Indies Federation, established on January 3, 1958",
+   "oneri": {},
+   "not": "f: Paris 1814 m.8 (ham metin, aynı sayfa): 'with the exception however of the islands of Tobago and St. Lucie ... his most Christian majesty cedes in full right and sovereignty to his Britannic majesty' → imza 1814-05-30. TEK ÖLÇÜ: İngiltere adayı 1803'ten beri tutuyordu (LoC p67: 1793-1815'te 7 kez el değiştirme; 1803 gün/yıl bu sayfada YOK) → imza günü. ÇELİŞKİ ic_not: LoC p67 'French permanently ceded St. Lucia to the British in 1815' (Paris 20 Kasım 1815 teyidi). t=1958-01-03 LoC (Federasyon kuruluşu, ham metin). 1814 öncesi Fransız dönemi bu yerleşimde YOK → F-GERI. ÖLÇÜT: idareye katma — antlaşmayla devir, ada İngiliz yönetiminde."
+  },
+  {
+   "sira": 3940,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Jamaica/Historical Setting (Federation 1958), https://countrystudies.us/caribbean-islands/19.htm ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, St. Lucia, Historical Setting, https://countrystudies.us/caribbean-islands/67.htm",
+   "uc": "f+t",
+   "alinti": "West Indies Federation, established on January 3, 1958",
+   "alinti2": "dissolved by the British Parliament in 1962",
+   "oneri": {},
+   "not": "f gün düzeyinde (LoC); t yalnız yıl 1962 [yalnız yıl teyitli; gün teyitsiz] (gün 1962-05-31 LoC'ta yok). St. Lucia üyeliği: 'In 1958 St. Lucia joined the short-lived West Indies Federation' (LoC p67). Federasyonun egemenliği İngiltere'dedir; künye bati-hint-federasyonu mevcut (devletler.js 16378)."
+  },
+  {
+   "sira": 3941,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1979-02-22",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, St. Lucia, Historical Setting, https://countrystudies.us/caribbean-islands/67.htm",
+   "uc": "f+t",
+   "alinti": "dissolved by the British Parliament in 1962",
+   "alinti2": "St. Lucia gained independence on February 22, 1979.",
+   "oneri": {},
+   "not": "f=yıl 1962 [yalnız yıl teyitli; gün teyitsiz]; t=1979-02-22 LoC gün düzeyinde. İlişkili devlet (1967-03-01 hint; LoC p67 yıl vermez, 'immediately agreed to become an associated state'; 'Britain retaining responsibility for foreign affairs and national defense') → s: ingiltere sürer, bölünmez; ic_not."
+  },
+  {
+   "sira": 3942,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "saint-lucia",
+   "f": "1979-02-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, St. Lucia, Historical Setting, https://countrystudies.us/caribbean-islands/67.htm",
+   "uc": "f",
+   "alinti": "St. Lucia gained independence on February 22, 1979.",
+   "alinti2": "",
+   "oneri": {},
+   "not": "f gün düzeyinde. t=2000-12-31 atlas ufku."
+  }
+ ],
+ "Roseau": [
+  {
+   "sira": 3943,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1958-01-03",
+   "hukum": "ONERI",
+   "kaynak": "Treaty of Paris 1763 (birincil metin), Avalon Project/Yale, https://avalon.law.yale.edu/18th_century/paris763.asp ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Dominica, Historical Setting, https://countrystudies.us/caribbean-islands/59.htm ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Jamaica/Historical Setting (Federation 1958), https://countrystudies.us/caribbean-islands/19.htm",
+   "uc": "f+t",
+   "alinti": "Done at Paris the tenth day of February, 1763.",
+   "alinti2": "In 1778 France took advantage of British difficulties in America to reclaim several British colonies in the West Indies, including Dominica",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "ingiltere",
+      "f": "1763-02-10",
+      "t": "1778 (gün BULUNAMADI)"
+     },
+     {
+      "alan": "isg",
+      "d": "fransa",
+      "f": "1778 (gün BULUNAMADI)",
+      "t": "1783-09-03 imza / teslim 1784 (LoC, gün BULUNAMADI)"
+     },
+     {
+      "d": "ingiltere",
+      "f": "Versailles'ın teslim günü (imza 1783-09-03 ipucu, kaynaksız)",
+      "t": "1958-01-03"
+     }
+    ]
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1778 → 1784 teslim (Dominika); Versay 1783-09-03 ic_not; günler kaynakla (LoC Country Study resmî sınıf). · f=1763-02-10 KAYNAKLI: Avalon m.IX 'those of St. Vincent, Dominico, and Tobago, shall remain in full right to Great Britain'; LoC p59 'the British finally occupied Dominica in 1761, and two years later, in the Treaty of Paris, the French ceded the island' → TEK ÖLÇÜ: İngiltere zaten yönetiyordu → imza günü ✔. t=1958-01-03 LoC ✔. ANCAK dönem SÜREKLİ değil: LoC p59 Fransa 1778'de Dominika'yı geri aldı; 'only a few [years] later, in 1784, control of Dominica returned to the British through terms of the Treaty of Versailles'. TEK KURAL: savaş fethi, ilhak yok → isg fransa; gün kaynakta yok (1778-09-07 ve Versailles 1783-09-03 ipucu, KAYNAKSIZ; LoC dönüşü 1784 verir = teslim?). ÖLÇÜT: geçici/askerî — Fransız fethi savaş içinde, antlaşmayla iade. Fransız dilimi için isg+künye fransa (f/t kapsıyor mu LAB ölçsün).",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3944,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Jamaica/Historical Setting (Federation 1958), https://countrystudies.us/caribbean-islands/19.htm ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Dominica, https://countrystudies.us/caribbean-islands/59.htm",
+   "uc": "f+t",
+   "alinti": "West Indies Federation, established on January 3, 1958",
+   "alinti2": "dissolved by the British Parliament in 1962",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1778 → 1784 teslim (Dominika); Versay 1783-09-03 ic_not; günler kaynakla (LoC Country Study resmî sınıf). · Üyelik: LoC p59 'Federal Party, which represented Dominica in the short-lived West Indies Federation'. t yalnız yıl 1962 [yalnız yıl teyitli; gün teyitsiz].",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3945,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1978-11-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Dominica, Government and Politics, https://countrystudies.us/caribbean-islands/65.htm ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Dominica, https://countrystudies.us/caribbean-islands/59.htm",
+   "uc": "t",
+   "alinti": "Under the Constitution adopted at independence on November 3, 1978",
+   "alinti2": "In 1967 he negotiated Associated Statehood with Britain",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1778 → 1784 teslim (Dominika); Versay 1783-09-03 ic_not; günler kaynakla (LoC Country Study resmî sınıf). · t=1978-11-03 gün düzeyinde. f yalnız yıl (federasyon feshi 1962) [yalnız yıl teyitli; gün teyitsiz]; öteki uç gün teyitsiz. 1967 ilişkili devlet: 'responsible for all aspects of state except external affairs and defense' (LoC p59) → s: ingiltere sürer; ic_not.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3946,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "dominika",
+   "f": "1978-11-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Dominica, Government and Politics, https://countrystudies.us/caribbean-islands/65.htm",
+   "uc": "f",
+   "alinti": "Under the Constitution adopted at independence on November 3, 1978",
+   "alinti2": "",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1778 → 1784 teslim (Dominika); Versay 1783-09-03 ic_not; günler kaynakla (LoC Country Study resmî sınıf). · f gün düzeyinde. t=2000-12-31 atlas ufku.",
+   "karar": "EMRELİC"
+  }
+ ],
+ "Gouyave": [
+  {
+   "sira": 3947,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1763-02-10",
+   "t": "1958-01-03",
+   "hukum": "ONERI",
+   "kaynak": "Treaty of Paris 1763 (birincil metin), Avalon Project/Yale, https://avalon.law.yale.edu/18th_century/paris763.asp ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Grenada, Historical Setting, https://countrystudies.us/caribbean-islands/73.htm",
+   "uc": "f+t",
+   "alinti": "Done at Paris the tenth day of February, 1763.",
+   "alinti2": "Grenada reverted to French rule from 1779 to 1783, when it was restored to Britain by the Treaty of Versailles of 1783.",
+   "oneri": {
+    "bolunme": [
+     {
+      "d": "ingiltere",
+      "f": "1763-02-10",
+      "t": "1779 (gün BULUNAMADI)"
+     },
+     {
+      "alan": "isg",
+      "d": "fransa",
+      "f": "1779 (gün BULUNAMADI)",
+      "t": "1783-09-03 imza / 1784 teslim (LoC, gün BULUNAMADI)"
+     },
+     {
+      "d": "ingiltere",
+      "f": "Versailles teslim günü (imza 1783-09-03 ipucu, kaynaksız)",
+      "t": "1958-01-03"
+     }
+    ]
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1779 → 1784 teslim (Grenada); Versay 1783-09-03 ic_not; günler kaynakla. · f=1763-02-10: Avalon m.IX 'cedes and guaranties to his Britannick Majesty, in full right, the islands of Grenada'; LoC p73 'Taken by Admiral George Rodney in 1762' → İngiltere zaten yönetiyordu → TEK ÖLÇÜ imza günü ✔. t=1958-01-03 LoC. ANCAK 1779-1783 Fransız yönetimi: dönem sürekli yazılmış. LoC p73 ayrıca 'From 1784 until its independence in 1974, Grenada remained a member of the British Empire' (teslim 1784 mü? gün yok). ÖLÇÜT: geçici/askerî — fetih, savaş sonu antlaşmayla iade. Gün kaynakta yok.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3948,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Jamaica/Historical Setting (Federation 1958), https://countrystudies.us/caribbean-islands/19.htm",
+   "uc": "f",
+   "alinti": "West Indies Federation, established on January 3, 1958",
+   "alinti2": "",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1779 → 1784 teslim (Grenada); Versay 1783-09-03 ic_not; günler kaynakla. · f gün düzeyinde. t yalnız yıl 1962 [yalnız yıl teyitli; gün teyitsiz] (LoC p67). Grenada'nın federasyon üyeliği ayrı sayfada teyit EDİLMEDİ (LoC p73'te 'Federation' geçmez) — federasyon ülke düzeyi olaydır; üyelik BAKILMADI.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3949,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1974-02-07",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Grenada, Historical Setting, https://countrystudies.us/caribbean-islands/73.htm",
+   "uc": "t",
+   "alinti": "From 1784 until its independence in 1974, Grenada remained a member of the British Empire",
+   "alinti2": "",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1779 → 1784 teslim (Grenada); Versay 1783-09-03 ic_not; günler kaynakla. · t=yıl 1974 [yalnız yıl teyitli; gün teyitsiz] (gün 1974-02-07 LoC'ta yok). f yalnız yıl 1962. İlişkili devlet 1967-03-03 (hint, LoC'ta yok): dış işleri/savunma İngiltere → s: ingiltere sürer; ic_not.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3950,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1974-02-07",
+   "t": "1979-03-13",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Grenada, Historical Setting, https://countrystudies.us/caribbean-islands/73.htm",
+   "uc": "f+t",
+   "alinti": "From 1784 until its independence in 1974, Grenada remained a member of the British Empire",
+   "alinti2": "In March 1979, Maurice Bishop and his followers in the New Jewel Movement (NJM) seized power in Grenada.",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1779 → 1784 teslim (Grenada); Versay 1783-09-03 ic_not; günler kaynakla. · f=yıl 1974 [gün teyitsiz]; t=Mart 1979 [ay düzeyi; 13. gün LoC'ta yok]. ÖLÇÜT: darbe = rejim değişimi; kendi devleti (künye grenada-devrimci-hukumet).",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3951,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada-devrimci-hukumet",
+   "f": "1979-03-13",
+   "t": "1983-10-26",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Grenada, https://countrystudies.us/caribbean-islands/73.htm ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Grenada, Education, https://countrystudies.us/caribbean-islands/76.htm ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Grenada, Government, https://countrystudies.us/caribbean-islands/79.htm",
+   "uc": "f+t",
+   "alinti": "In March 1979, Maurice Bishop and his followers in the New Jewel Movement (NJM) seized power in Grenada.",
+   "alinti2": "Scoon assumed constitutional authority in October 1983",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1779 → 1784 teslim (Grenada); Versay 1783-09-03 ic_not; günler kaynakla. · f [ay düzeyi]; t [ay düzeyi: 'the fall of the PRG in October 1983'; Ekim 1983 ABD-Karayip müdahalesi RMC'yi devirdi]. KÜNYE AŞIMI (ölçüldü): devletler.js grenada-devrimci-hukumet t=1983-10-25, dönem t=1983-10-26 → 1 günlük künye dışı (sınıflandır: künye t mi 10-26'ya genişler, dönem mi 10-25'e iner — LAB). Gün kaynakta yok.",
+   "karar": "EMRELİC"
+  },
+  {
+   "sira": 3952,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "grenada",
+   "f": "1983-10-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Grenada, Government and Politics, https://countrystudies.us/caribbean-islands/79.htm",
+   "uc": "f",
+   "alinti": "Scoon assumed constitutional authority in October 1983",
+   "alinti2": "",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): isg fransa 1779 → 1784 teslim (Grenada); Versay 1783-09-03 ic_not; günler kaynakla. · f [ay düzeyi; gün 1983-10-26 LoC'ta yok]. Vali Scoon Danışma Konseyi'ni (Braithwaite) atadı (ic_not). t=2000-12-31 atlas ufku.",
+   "karar": "EMRELİC"
+  }
+ ],
+ "Charlestown (Nevis)": [
+  {
+   "sira": 3953,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1628-01-01",
+   "t": "1958-01-03",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, St. Kitts and Nevis, Historical Setting, https://countrystudies.us/caribbean-islands/100.htm ; Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, Jamaica/Historical Setting (Federation 1958), https://countrystudies.us/caribbean-islands/19.htm",
+   "uc": "f+t",
+   "alinti": "Nevis was colonized in 1628 by an English party dispatched from St. Kitts.",
+   "alinti2": "West Indies Federation, established on January 3, 1958",
+   "oneri": {},
+   "not": "f=1628 yıl düzeyinde, ADA DÜZEYİ (ÜLKE DÜZEYİ): Charlestown kasabasının kuruluş yılı bu kaynakta yok → F-GERI/İLERİ sorusu. t=1958-01-03 LoC ✔. UYARI: LoC p100 'British were unable to ... secure them against French assault until the late eighteenth century ... recognized by the Treaty of Versailles in 1783'; Nevis'in 1782-83 Fransız işgali kaynakla teyit EDİLMEDİ (BAKILMADI) — olursa dönem bölünür."
+  },
+  {
+   "sira": 3954,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "bati-hint-federasyonu",
+   "f": "1958-01-03",
+   "t": "1962-05-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, St. Kitts and Nevis, https://countrystudies.us/caribbean-islands/100.htm",
+   "uc": "f+t",
+   "alinti": "participated in the ill-fated West Indies Federation from 1958 to 1962",
+   "alinti2": "West Indies Federation, established on January 3, 1958",
+   "oneri": {},
+   "not": "Üyelik açık (LoC p100). f gün düzeyinde (p19); t yalnız yıl [yalnız yıl teyitli; gün teyitsiz]."
+  },
+  {
+   "sira": 3955,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1962-05-31",
+   "t": "1983-09-19",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, St. Kitts and Nevis, https://countrystudies.us/caribbean-islands/100.htm",
+   "uc": "t",
+   "alinti": "St. Christopher and Nevis was declared an independent state on September 19, 1983.",
+   "alinti2": "St. Kitts and Nevis remained an associated state until it declared full independence in 1983",
+   "oneri": {},
+   "not": "t gün düzeyinde. f yalnız yıl 1962 [yalnız yıl teyitli; gün teyitsiz]. İlişkili devlet: 'Britain maintained responsibility for external affairs and defense' → s: ingiltere sürer; ic_not."
+  },
+  {
+   "sira": 3956,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "saint-kitts-nevis",
+   "f": "1983-09-19",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Meditz & Hanratty (ed.), Caribbean Islands: A Country Study, Library of Congress/GPO 1987, St. Kitts and Nevis, https://countrystudies.us/caribbean-islands/100.htm",
+   "uc": "f",
+   "alinti": "St. Christopher and Nevis was declared an independent state on September 19, 1983.",
+   "alinti2": "",
+   "oneri": {},
+   "not": "f gün düzeyinde. t=2000-12-31 atlas ufku."
+  }
+ ],
+ "Philipsburg (Sint Maarten)": [
+  {
+   "sira": 3957,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hollanda",
+   "f": "1648-03-23",
+   "t": "1954-12-15",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com (Gale, Worldmark Encyclopedia of Nations/Culture), «Netherlands Antilles», https://www.encyclopedia.com/places/latin-america-and-caribbean/caribbean-political-geography/netherlands-antilles [ticari ansiklopedi → ONERI-güçlü]",
+   "uc": "f+t",
+   "alinti": "In 1648 the island was divided between the Dutch and the French",
+   "alinti2": "On 15 December 1954, the islands obtained autonomy within the Dutch kingdom",
+   "oneri": {},
+   "not": "ONERI-güçlü (ticari kaynak, değişiklik önerisi YOK): f=1648 yıl (Concordia 23 Mart 1648 gün KAYNAKSIZ; yıl düzeyinde ada bölüşümü), t=1954-12-15 gün düzeyinde (Statüt kabulü; yürürlük 29 Aralık 1954 ic_not; Hollanda yasa metni «Wet van 28 oktober 1954», wetten.overheid.nl BWBR0002154). KAYNAKLI için akademik kaynak (Dutch/Caribbean tarih) bulunamadı: baktım LoC Caribbean Islands s.101-140 (Sint Maarten yok), parlement.com/Britannica 404/403. F SORUSU: Philipsburg kasabası 1763'te kuruldu (ipucu, kaynaksız); 1648 ADA düzeyi. Ayrıca Fransa/İngiltere geçici işgalleri (1810-16 İngiliz; kaynaksız) BAKILMADI."
+  },
+  {
+   "sira": 3958,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hollanda-antilleri",
+   "f": "1954-12-15",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Encyclopedia.com (Gale, Worldmark Encyclopedia of Nations/Culture), «Netherlands Antilles», https://www.encyclopedia.com/places/latin-america-and-caribbean/caribbean-political-geography/netherlands-antilles [ticari ansiklopedi → ONERI-güçlü]",
+   "uc": "f",
+   "alinti": "On 15 December 1954, the islands obtained autonomy within the Dutch kingdom",
+   "alinti2": "",
+   "oneri": {},
+   "not": "ONERI-güçlü (ticari kaynak, değişiklik YOK): f gün düzeyinde. t=2000-12-31 atlas ufku (künye t 2010-10-10 dağılma)."
+  }
+ ],
+ "Balboa Heights (Panama Kanalı İdaresi)": [
+  {
+   "sira": 3959,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "panama-kanali-bolgesi",
+   "f": "1904-02-26",
+   "t": "1979-10-01",
+   "hukum": "ONERI",
+   "kaynak": "U.S. Dept of State, Office of the Historian, «The Panama Canal and the Torrijos-Carter Treaties», https://history.state.gov/milestones/1977-1980/panama-canal ; Haggerty (ed.), Panama: A Country Study, LoC 1987, https://countrystudies.us/panama/8.htm",
+   "uc": "t",
+   "alinti": "the Panama Canal Zone would cease to exist on October 1, 1979",
+   "alinti2": "on November 18, 1903, the United States signed the Hay-Bunau-Varilla Treaty",
+   "oneri": {
+    "f": "BULUNAMADI (teslim günü; imza 1903-11-18 üst sınır adayı)",
+    "not": "1904-02-26 yürürlük/ratifikasyon-değişimi günü olamaz (TEK ÖLÇÜ)."
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_087/089/095): TEK ÖLÇÜ teslim: ABD'nin Kanal Bölgesi'ni resmen devraldığı gün 1904-05-04 (kaynakla); künye f LAB'a. · t=1979-10-01 KAYNAKLI (State Dept: Zone 1 Ekim 1979'da sona erer; LoC Panama s.19: Panama 'complete legal jurisdiction over the former Canal Zone immediately', yürürlük onaylardan 6 ay sonra). f=1904-02-26: kaynaklarda YOK; bulunan: imza 1903-11-18 (State Dept), Panama onayı 2 Aralık 1903, ABD Senatosu onayı 1904-02-23 (LoC Panama s.8) → 02-26 ratifikasyon-değişimi = YÜRÜRLÜK günü sayılır, TEK ÖLÇÜ'ye göre s: günü olmaz: ABD o gün idareyi fiilen devralmamışsa TESLİM günü (ABD'nin Bölge idaresini fiilen kurduğu gün; Mayıs 1904 ipucu, KAYNAKSIZ) gerekir. Baktım: State Dept 1899-1913 ve 1977-80, LoC Panama s.6-22. Teslim günü bulunamadı. Künye panama-kanali-bolgesi f=1904-02-26 aynı gün → değişirse künye de. ÖLÇÜT: idareye katma — 'in perpetuity use, occupation and control' (m.II), sahiplik Panama'da (Torrijos-Carter dili).",
+   "karar": "EMRELİC"
+  }
+ ],
+ "Bahlâ": [
+  {
+   "sira": 3960,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "umman-ic-imamlik",
+   "f": "1913-01-01",
+   "t": "1955-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Uman», https://islamansiklopedisi.org.tr/uman (Bahlâ ve 1913/1920/1955 geçmiyor)",
+   "uc": "",
+   "alinti": "",
+   "alinti2": "",
+   "oneri": {},
+   "not": "BULUNAMADI (aradım): TDV 'Uman' (slug uman; 'umman' arama sayfası Uman'a yönlendirir) imamlığın 1913 ilanını, Sîb 1920'yi ve Bahlâ'yı ANMAZ; yalnız 'Saîd b. Halfân el-Halîlî ... imam sıfatıyla iç kesimlerde yaşadı ... Nizvâ, İzkî ve Semâil ... Maskat yönetiminden ayrıldıkları yerler olarak kaldı ... Cebeliahdar savaşı (1957-1959)' der → iç imamlık 1955'ten sonra da sürmüş görünüyor; t=1955-01-01 ile İÇ-ÇELİŞKİ riski (Bahlâ'nın Maskat'a katılış günü ayrı sorulmalı; Aralık 1955 Sultan harekâtı ipucu, KAYNAKSIZ). TDV 'bahla' maddesi YOK. Baktım: TDV uman; LoC Persian Gulf States s.88-168 (Umman bölümü bulunamadı); archive.org 'oman0000alle' (401), Aitchison Vol X (yanlış cilt). Sonraki adım: Iranica 'Oman' (slug tutmadı), Peterson/Allen monografileri, Aitchison Vol XI (Sîb Antlaşması 1920-09-25). TDV Uman yalnız imamlık-sultanlık ayrımını gösterir. F: 1913-01-01 yıl-başı YYYY-01-01 uydurma olabilir (imamlık ilanı 1913 yaz-güz, kaynaksız)."
+  }
+ ]
+}

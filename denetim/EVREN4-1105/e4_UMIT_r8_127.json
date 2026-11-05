@@ -1,0 +1,50 @@
+{
+ "Poverty Point": [
+  {"sira": 4489, "dosya_satir": "", "alan": "s", "d": "poverty-point-kultur", "f": "-1649-01-01", "t": "-1149-01-01", "hukum": "ONERI", "uc": "f+t",
+   "kaynak": "Kidder T.R. & Grooms S.B. 2023, 'Chronological Hygiene and Bayesian Modeling of Poverty Point Sites in the Lower Mississippi Valley, circa 4200 to 3200 cal BP', American Antiquity 89(1) (acik erisim), https://www.cambridge.org/core/product/E00DB4D0A722C508597D24B47F33660F/core-reader",
+   "alinti": "Kidder and coauthors (2009:187) claim that the Poverty Point site was occupied from 3615 to 3165 cal BP.",
+   "alinti2": "we reject the idea of a unified Poverty Point culture and argue instead that the Poverty Point site earthworks developed through rapid, punctuated events occurring circa 3300 to 3200 cal BP. | At 95.4% hpd, Figure 5 indicates that the occupation length of the Poverty Point site is from 164 to 397 years.",
+   "oneri": {"f": "-1664-01-01", "t": "-1214-01-01", "d": "poverty-point-kultur"},
+   "not": "Alinti Kidder vd. 2009 sonucunu ikinci elden anar (3615-3165 cal BP). Atlas convention (MO = calBP-1950): 1665 MO -> astronomik -1664; 1215 MO -> -1214. Atlas -1649/-1149 (3600-3100) ile fark f'de 15, t'de 65 yil (atlas t 65 yil GEC). UYARI: 2023 Bayes modeli (Model 4 SITE) iskan suresini 164-397 yila indirir; yani 500 yillik aralik artik en genis ust sinirdir. Model 4 baslangic/bitis rakamlari tabloda (goruntu), ham metinden okunamadi -> guncel uclar BULUNAMADI, 2023 PDF Table 2 gerekli. 2023 makalesi 'Poverty Point kulturu' kavramini reddeder (Jaketown ~4500-4000 cal BP iskanli); kunye kultur/donem uclari uye yerlesim uclari oldugundan Poverty Point sitesi icin f/t daha dar olabilir. Ortmann 2010 uzun kronolojisi 1750-970 cal BC ic_not. Hukum ONERI: alinti 2009 sonucunun atfidir, 2023 modelinin ucu degil. [yaklasik, cal BP]",
+   "tarayici_gerekli": ["Kidder & Grooms 2023 Table 2 / Fig.5 (Model 4 SITE start-end) PDF"]}
+ ],
+ "Nakbé": [
+  {"sira": 4490, "dosya_satir": "", "alan": "s", "d": "maya-orta-preklasik", "f": "-0999-01-01", "t": "-0399-01-01", "hukum": "KAYNAKLI", "uc": "f",
+   "kaynak": "Hansen R.D. 2002, 'The Architectural Development of an Early Maya Structure at Nakbé, Petén, Guatemala', FAMSI raporu, https://www.ancientamericas.org/sites/default/files/95113Hansen01.pdf",
+   "alinti": "Recent excavations at Nakbé, Guatemala have shown that an architectural development began by about 1000 to 800 B.C. (Hansen, 1998)",
+   "oneri": null,
+   "not": "ANTIK B b009'dan tasindi (yeniden okunmadi). f: MO 1000 (aralik 1000-800) -> -0999 [yaklasik, aralik]. t -0399 (MO 400) TEYITSIZ: kaynak 'late Middle Preclassic (ca. 600-400 B.C.)' buyuk yapilar der, Nakbe'nin terk/son tarihini vermez (Gec Preklasik sonrasi iskan surer); oteki uc teyitsiz. Tarih sistemi arkeolojik donem.",
+   "tarayici_gerekli": []}
+ ],
+ "Esh-Shaheinab": [
+  {"sira": 4491, "dosya_satir": "", "alan": "s", "d": "shaheinab-neolitik", "f": "-4699-01-01", "t": "-4199-01-01", "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "D'Ercole G., Dunne J., Eramo G., Evershed R., Garcea E. 2024, 'Esh-Shaheinab: The archetype of the Sudanese Neolithic, its premises and sequels', PLoS ONE 19(10):e0309600, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0309600",
+   "alinti": "placing the timespan of the Neolithic occupation across the mid-fifth millennium BCE (4700–4200 BCE).",
+   "oneri": null,
+   "not": "Ham metinden (sayfa.py oku) okundu. 4700 MO -> -4699, 4200 MO -> -4199 (atlasla birebir). Dayanak 3 kabuk 14C tarihi (T-3699 4611-4171, T-3222 4656-4352, T-3223 4774-4363 cal BCE); 4700-4200 yazarlarin yorumudur, yuvarlak uclar [yaklasik, aralik]. Arkell 1940'lar tarihleri (C-753 4988-2765, C-754 5288-3516 cal BCE) cok genis. Early Khartoum katmanlari tarihlenmemis.",
+   "tarayici_gerekli": []}
+ ],
+ "Gobero": [
+  {"sira": 4492, "dosya_satir": "", "alan": "s", "d": "gobero-kultur", "f": "-7699-01-01", "t": "-2834-01-01", "hukum": "KAYNAKLI", "uc": "f+t",
+   "kaynak": "Sereno P.C. vd. 2008, 'Lakeside Cemeteries in the Sahara: 5000 Years of Holocene Population and Environmental Change', PLoS ONE 3(8):e2995, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002995",
+   "alinti": "Phase 2—Early Holocene Occupation (7700–6200 B.C.E.).",
+   "alinti2": "Occupational phase 3 at Gobero comes to a close with the youngest dated burial, a subadult approximately 11 years old (Figure 3, Table 2, date 25, 2910–2760 B.C.E., midpoint 2835 B.C.E.).",
+   "oneri": null,
+   "not": "Ham metinden okundu. f: 7700 MO -> -7699 (faz 2 basi). t: faz 3'un en genc tarihli mezari 2910-2760 MO, orta nokta 2835 MO -> -2834 [aralik orta noktasi; son tarihli kanit, terk gunu degil; nominal faz 3 = 5200-2500 MO]. DIKKAT: kaynak 6200-5200 MO arasi ~1000 yillik iskan kesintisi (hiatus) bildirir; atlas donemi bu bosluğu kapsar -> KASA beyan etmeli, gerekirse iki donem (-7699..-6199, -5199..-2834). Tarih sistemi: kalibre 14C + OSL ayri.",
+   "tarayici_gerekli": []}
+ ],
+ "El Tajín": [
+  {"sira": 4493, "dosya_satir": "", "alan": "s", "d": "el-tajin", "f": "0800-01-01", "t": "1100-01-01", "hukum": "ONERI", "uc": "f",
+   "kaynak": "UNESCO WHC 631 'El Tajin, Pre-Hispanic City' (mevcut kayittaki alinti; bu turda sayfa zaman asimi verdi, ham metin okunamadi)",
+   "alinti": null,
+   "oneri": {"f": "0800-01-01", "t": "1100-01-01", "d": "el-tajin"},
+   "not": "UNESCO '800-1200 AD tek faz' der (arama ozetinde ve atlas kaydinda; ham metni ben okuyamadim -> KAYNAKLI verilmedi). t=1100 atlas kunyesi (Diehl/FAMSI) ile UNESCO 1200 celisir. Bakilan: whc.unesco.org/en/list/631 (2 kez timeout), INAH lugares (robots yasagi), Ollin/INAH PDF (metin cikmadi). Brüggemann/Pascual Soto kronolojisi (100 MS'den 1200'e farkli kronolojiler) yalniz arama ozetinde; ham okunmadi.",
+   "tarayici_gerekli": ["whc.unesco.org/en/list/631 (timeout)"]},
+  {"sira": 4494, "dosya_satir": "", "alan": "s", "d": "__BOSLUK__", "f": "1100-01-01", "t": "1200-01-01", "hukum": "BOSLUK_KALIR", "uc": null,
+   "kaynak": "UNESCO WHC 631 (mevcut kayit; ham okunamadi)",
+   "alinti": null,
+   "oneri": null,
+   "not": "Yerlesim 1100-1200 arasi VAR (UNESCO: 'abandoned and partly destroyed after 1200'; arama ozeti); sahip/polity adi bulunan hicbir kaynakta yok; abi merkez yok. Oneri: el-tajin kunyesi t'sini 1200'e uzatmak (UNESCO 800-1200 tek faz) ya da BEYANLI bosluk; kunye karari LAB/KASA. Ham metin okunmadigi icin ONERI duzeyi.",
+   "tarayici_gerekli": ["whc.unesco.org/en/list/631"]}
+ ]
+}

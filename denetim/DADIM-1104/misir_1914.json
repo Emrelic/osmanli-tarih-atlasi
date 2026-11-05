@@ -1,0 +1,1370 @@
+[
+ {
+  "ad": "Kahire",
+  "dosya_satir": "data/yerlesimler.js:964",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "İskenderiye",
+  "dosya_satir": "data/yerlesimler.js:966",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Dimyat",
+  "dosya_satir": "data/yerlesimler.js:968",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Asyut",
+  "dosya_satir": "data/yerlesimler.js:970",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Asvan",
+  "dosya_satir": "data/yerlesimler.js:972",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "İbrim",
+  "dosya_satir": "data/yerlesimler.js:974",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Süveyş",
+  "dosya_satir": "data/yerlesimler.js:1150",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Sina güneyi",
+  "dosya_satir": "data/yerlesimler.js:1426",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Reşîd (Rosetta)",
+  "dosya_satir": "data/yerlesimler.js:1678",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Demenhûr (Damanhur)",
+  "dosya_satir": "data/yerlesimler_afrika.js:81",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Dessûk",
+  "dosya_satir": "data/yerlesimler_afrika.js:86",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Kafrüşşeyh",
+  "dosya_satir": "data/yerlesimler_afrika.js:91",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Bürüllüs (Baltîm)",
+  "dosya_satir": "data/yerlesimler_afrika.js:98",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Tanta",
+  "dosya_satir": "data/yerlesimler_afrika.js:103",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Mahalletülkübrâ",
+  "dosya_satir": "data/yerlesimler_afrika.js:109",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Şibînülkûm (Menûfiye)",
+  "dosya_satir": "data/yerlesimler_afrika.js:115",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Benhâ (Kalyûbiye)",
+  "dosya_satir": "data/yerlesimler_afrika.js:121",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Mansûre",
+  "dosya_satir": "data/yerlesimler_afrika.js:127",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Mît Gamr",
+  "dosya_satir": "data/yerlesimler_afrika.js:132",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Menzile",
+  "dosya_satir": "data/yerlesimler_afrika.js:137",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Bilbîs (Şarkiye)",
+  "dosya_satir": "data/yerlesimler_afrika.js:144",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Fâkûs",
+  "dosya_satir": "data/yerlesimler_afrika.js:149",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Sâlihiyye",
+  "dosya_satir": "data/yerlesimler_afrika.js:155",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Ebûkîr",
+  "dosya_satir": "data/yerlesimler_afrika.js:161",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Portsaid",
+  "dosya_satir": "data/yerlesimler_afrika.js:169",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "İsmâiliye",
+  "dosya_satir": "data/yerlesimler_afrika.js:174",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Katye",
+  "dosya_satir": "data/yerlesimler_afrika.js:181",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "El-Arîş",
+  "dosya_satir": "data/yerlesimler_afrika.js:186",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Mersâ Matruh",
+  "dosya_satir": "data/yerlesimler_afrika.js:193",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Sellûm",
+  "dosya_satir": "data/yerlesimler_afrika.js:199",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Atfîh",
+  "dosya_satir": "data/yerlesimler_afrika.js:211",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Benî Süveyf",
+  "dosya_satir": "data/yerlesimler_afrika.js:216",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Feyyûm",
+  "dosya_satir": "data/yerlesimler_afrika.js:223",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Behnesâ",
+  "dosya_satir": "data/yerlesimler_afrika.js:228",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Minye",
+  "dosya_satir": "data/yerlesimler_afrika.js:233",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Mellevî",
+  "dosya_satir": "data/yerlesimler_afrika.js:238",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Deyrût",
+  "dosya_satir": "data/yerlesimler_afrika.js:243",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Tahtâ",
+  "dosya_satir": "data/yerlesimler_afrika.js:248",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Ahmîm",
+  "dosya_satir": "data/yerlesimler_afrika.js:253",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Cirge (Girga)",
+  "dosya_satir": "data/yerlesimler_afrika.js:259",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Ferşût",
+  "dosya_satir": "data/yerlesimler_afrika.js:264",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Kına",
+  "dosya_satir": "data/yerlesimler_afrika.js:270",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Kûs",
+  "dosya_satir": "data/yerlesimler_afrika.js:275",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Uksur (Luksor)",
+  "dosya_satir": "data/yerlesimler_afrika.js:280",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Esna",
+  "dosya_satir": "data/yerlesimler_afrika.js:285",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Edfû",
+  "dosya_satir": "data/yerlesimler_afrika.js:290",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Kûm Ombo",
+  "dosya_satir": "data/yerlesimler_afrika.js:295",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Kusayr",
+  "dosya_satir": "data/yerlesimler_afrika.js:308",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Sefâce",
+  "dosya_satir": "data/yerlesimler_afrika.js:313",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Ebû Ramâd (Şalâtîn)",
+  "dosya_satir": "data/yerlesimler_afrika.js:319",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Tûr (Sînâ)",
+  "dosya_satir": "data/yerlesimler_afrika.js:327",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Hârice (Vâhât)",
+  "dosya_satir": "data/yerlesimler_afrika.js:1094",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Dâhile",
+  "dosya_satir": "data/yerlesimler_afrika.js:1098",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Ferâfire",
+  "dosya_satir": "data/yerlesimler_afrika.js:1102",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Bahriye (Bâvîtî)",
+  "dosya_satir": "data/yerlesimler_afrika.js:1106",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Taba",
+  "dosya_satir": "data/yerlesimler_ek28.js:178",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ },
+ {
+  "ad": "Sîva (Siwa)",
+  "dosya_satir": "data/yerlesimler_p0043libya.js:93",
+  "alan": "isg",
+  "d": "ingiltere",
+  "f": "1914-12-18",
+  "t": "1923-10-29",
+  "hukum": "ONERI",
+  "kaynak": "EMRELİC gece-12 Mısır kararı; Lozan md.17 (BYU WWI arşivi tam metin); TDV Mısır",
+  "oneri": {
+   "isg_kaldir": {
+    "f": "1914-12-18",
+    "t": "1923-10-29",
+    "d": "ingiltere"
+   },
+   "v_ekle": {
+    "f": "1914-12-18",
+    "t": "1922-02-28",
+    "d": "ingiltere"
+   },
+   "ic_not": "Lozan md.17 (1914-11-05'ten geçerli vazgeçiş); 1922-02-28 bildirisi ve 'ayrılmış konular'; 1936-08-26 antlaşması, Kanal bölgesi"
+  },
+  "not": "KURAL UYGULAMASI (UMIT, EMRELİC gece-12 Mısır kararı): isg ingiltere 1914-12-18 → 1923-10-29 KALKAR (1923-10-29 ufuk artığı; Lozan md.17 Osmanlı vazgeçişi 1914-11-05'ten geçerli). Yerine v: ingiltere 1914-12-18 → 1922-02-28 (himaye; tek taraflı bağımsızlık bildirisi; Annam emsali). s: misir-sultanligi → misir-kralligi aynen kalır. 1882-09 → 1914-12-18 isg ingiltere katmanı dokunulmadan kalır. ic_not: Lozan md.17, 1922 'ayrılmış konular', 1936-08-26 antlaşması ve Kanal bölgesi."
+ }
+]

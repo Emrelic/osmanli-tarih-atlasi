@@ -1,0 +1,457 @@
+{
+ "Ning'er (Pu'er)": [
+  {
+   "sira": 4314,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "san-devletleri",
+   "f": "1281-01-01",
+   "t": "1729-01-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "清史稿 卷74 志49 地理21 雲南 — https://zh.wikisource.org/wiki/清史稿/卷74",
+   "uc": "t",
+   "alinti": "雍正七年，置普洱府",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): (a) onay: v: qing-hanedani 1659'dan (tusi tâbiliği). 1659-09-23 Cheli tusi günü Pu'er'e özgü değil → YYYY-01-01 + beyan. · uc=t, YIL düzeyi (Yongzheng 7; kayıt yılı, gün yok; çevrilmez, EMRELİC yıl karşılığını yazar). Alıntı bağlamı: 以所屬普洱等處六大茶山及橄欖壩江內六版地置府 = Ning'er/Pu'er çevresi bürokratik idareye katıldı; 車裡十二版 sancak dışı Sipsongpanna'da kaldı. f=1281 (Şan beylikleri künye başı) teyitsiz: öteki uç teyitsiz. ÇELİŞKİ/ek katman: aynı Qing shi gao cildi 'Cheli (Sipsongpanna) Chefli tusi'nin 順治十六年編隸元江府 (1659), 康熙三年 (1664) Pu'er'e tongpan görevlendirildiğini söyler; 清史稿 卷5: 十六年 八月丙申 '雲南車裡土司刀木禱來降' (tusi tâbiyeti). Yani 1659'dan itibaren v: qing-hanedani katmanı (tusi tâbiliği) düşünülebilir; s: san-devletleri 1729'a dek kalır mı, EMRELİC kararı. Çevrilecek: 順治十六年八月丙申 (卷5), 順治十六年 (編隸元江府, yıl).",
+   "oneri_son": {
+    "d": "san-devletleri",
+    "t": "1729-01-01",
+    "v_ek": {
+     "alan": "v",
+     "d": "qing-hanedani",
+     "f": "1659-01-01",
+     "t": "1729-01-01",
+     "not": "tusi = tâbilik (TAHRİR); 順治16 8月丙申 = 1659-09-23 Cheli (車裡) tusi'nin teslimi — Pu'er tusi'sine aitliği teyitsiz → 1659-01-01 [yalnız yıl] + beyan"
+    }
+   }
+  },
+  {
+   "sira": 4315,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1729-01-01",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "清史稿 卷74 志49 地理21 雲南 — https://zh.wikisource.org/wiki/清史稿/卷74",
+   "uc": "f",
+   "alinti": "雍正七年，置普洱府",
+   "oneri": {},
+   "not": "uc=f, YIL düzeyi; f=1729-01-01 yıl temsilî (gün yok). t=1912-02-12 künye günü, bu alıntı tarihlemez: öteki uç teyitsiz. Qing shi gao yıl/gün KAYIT günüdür. Mevcut kaynak 'Daniels 2013' ile uyumlu; birincil metin ham okundu. Not: 順治十六年 (1659) tusi tâbiliği için Ning'er satırına bakınız."
+  }
+ ],
+ "Lijiang": [
+  {
+   "sira": 4320,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ming-hanedani",
+   "f": "1382-04-07",
+   "t": "1644-04-25",
+   "hukum": "KAYNAKLI",
+   "kaynak": "明史 卷3 本紀3 太祖3 — https://zh.wikisource.org/wiki/明史/卷3",
+   "uc": "f",
+   "alinti": "閏月癸卯，藍玉、沐英克大理，分兵徇鶴慶、麗江、金齒，俱下",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): 洪武15 閏2月 癸卯 = 1382-04-07 (閏2 朔 1382-03-16 辛巳, 23. gün) — atlas TUTUYOR. Aynı yılın normal 2. ayında 癸卯 YOK → '閏' okuması zorunlu (ic_not). · Ham metin (明史 卷3 洪武十五年): 二月甲寅 '以雲南平，詔天下' sonrası 閏月(=閏二月) 癸卯 kaydı. ÇEVİRİLMEDİ: 'Hongwu 15, 閏二月 癸卯' Academia Sinica ile EMRELİC'te çevrilecek; atlasın 1382-04-07'si bu çeviriyle sınanmalı. Mingshi günü KAYIT günüdür; Lijiang Mu tusi'nin fiilî teslim günü değil, Lan Yu/Mu Ying'in ilerleyişi (徇...俱下). t=1644-04-25 künye günü, öteki uç teyitsiz. Ek ipucu (okunmadı): 明史 卷313 Yunnan tusi bölümü Mu hanedanı Lijiang junmin fu."
+  },
+  {
+   "sira": 4322,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1659-01-07",
+   "t": "1673-12-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "清史稿 卷74 志49 地理21 雲南 — https://zh.wikisource.org/wiki/清史稿/卷74",
+   "uc": "f",
+   "alinti": "順治十六年，改土府，省所屬州縣併入",
+   "oneri": {
+    "f": "1659-01-01 [yalnız yıl teyitli; gün teyitsiz]"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): f: Lijiang'a özgü 順治十六年 改土府 → 1659-01-01 [yalnız yıl] (atlasın 01-07'si kaynaksız; Kunming 正月庚子 = 1659-01-30). t 1673-12-28 olay ucu (Wu Sangui ayaklanması, geleneksel 11月21日), 清史稿 12月壬子 = 1674-01-23 kayıt günü ic_not. 順治16 正月庚子 = 1659-01-30 (朔 01-23 癸巳, 8. gün) — atlasın 1659-01-07'si bu alıntıyla UYUŞMAZ; 康熙12 12月壬子 = 1674-01-23 (朔 01-07 丙申, 17. gün) = 清史稿 KAYIT günü; ayaklanmanın kendisi geleneksel 康熙12年11月21日 = 1673-12-28 → olay ucu 1673-12-28 kalır, 12月壬子 ic_not (uç kuralı). · uc=f, YIL düzeyi: Lijiang Qing idaresinde 'tu fu' (tusi prefecture) olarak 順治十六年 (1659). Gün 01-07 Kunming'in düşüşüne bağlı (清史稿 卷5: 十六年春正月 庚子 '多尼克雲南，以捷聞'); Lijiang'a özgü gün bulunamadı. Aynı cilt: 雍正元年設流官 (1723 gaitu guiliu; ÇEVRİLMEDİ, yıl düzeyi) — sahiplik değişmez, idare türü değişir. t=1673-12-28 bu alıntı değil: öteki uç teyitsiz. Çevrilecek/sınanacak: 順治十六年正月庚子 (Kunming).",
+   "oneri_son": {
+    "d": "qing-hanedani",
+    "f": "1659-01-01",
+    "t": "1673-12-28"
+   }
+  },
+  {
+   "sira": 4323,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "san-fan",
+   "f": "1673-12-28",
+   "t": "1681-07-14",
+   "hukum": "KAYNAKLI",
+   "kaynak": "清史稿 卷6 本紀6 聖祖本紀1 — https://zh.wikisource.org/wiki/清史稿/卷6",
+   "uc": "t",
+   "alinti": "辛巳，大將軍貝子彰泰報抵雲南省城，偽將李發美以鶴慶、麗江二府降",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): f 1673-12-28 olay ucu; 12月壬子 = 1674-01-23 kayıt günü ic_not. t 康熙20 5月辛巳 = 1681-07-14 (朔 06-16 癸丑, 29. gün) — atlas TUTUYOR, 癸丑朔 doğrulandı. · Ham metin: 康熙二十年辛酉, 五月癸丑朔, 辛巳 kaydı (metnin kendi ay-başı işaretine göre ayın 29. günü; çevrilmedi, EMRELİC'te Academia Sinica ile çevrilecek; atlasın 1681-07-14'ü ile tutarlı görünüyor ama sınanmalı). 偽將李發美 = Wu Shifan rejimi generali: Lijiang'ın San Fan elinde olduğunu da gösterir. f=1673-12-28: 清史稿 卷6 康熙十二年癸丑 十二月壬子 maddesi '吳三桂反，殺雲南巡撫朱國治' Yunnan düzeyinde; Lijiang'ın ne zaman Wu'ya geçtiği bulunamadı: f ucu teyitsiz (ÜLKE/EYALET DÜZEYİ). Çevrilecek: 康熙十二年十二月壬子 (isyan günü olarak 十一月 bağlamı da sınanmalı), 康熙二十年五月辛巳."
+  },
+  {
+   "sira": 4324,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "qing-hanedani",
+   "f": "1681-07-14",
+   "t": "1912-02-12",
+   "hukum": "KAYNAKLI",
+   "kaynak": "清史稿 卷6 本紀6 聖祖本紀1 — https://zh.wikisource.org/wiki/清史稿/卷6",
+   "uc": "f",
+   "alinti": "偽將李發美以鶴慶、麗江二府降",
+   "oneri": {},
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): f 康熙20 5月辛巳 = 1681-07-14 — atlas TUTUYOR. · Aynı alıntı 4323 ile (康熙二十年五月辛巳, çevrilecek). uc=f; t=1912-02-12 künye günü, öteki uç teyitsiz. Qing shi gao günü KAYIT günüdür."
+  }
+ ],
+ "Kal'a-i Hum (Darvaz)": [
+  {
+   "sira": 4327,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1920-09-02",
+   "t": "1920-10-08",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Encyclopaedia Iranica 'DARVAZ' (Grevemeyer 1994, güncelleme 2013), iranicaonline.org/articles/darvaz — ham okundu",
+   "uc": "",
+   "alinti": "At the time of the conquest by czarist Russia in 1290/1873 Darvāz was annexed to the Russian vassal state of Bukhara",
+   "oneri": {},
+   "not": "NEREYE BAKTIM: Iranica Darvaz (1873 civarı Buhara'ya katılma [hicrî 1290 = ~1873-74]; 1310/1893 ve 1313/1895 bölünme: Panj'ın güneyi Afganistan'a), LoC Country Studies Tajikistan (countrystudies.us 3-6: gün yok), arama özeti (ikincil, ONERI düzeyi): Doğu Buhara'da Dushanbe Şubat 1922'de Basmaci/Enver'e düştü; 'Darvaz ve Karategin Emirliği' Kasım 1922-Ağustos 1923 tek ikincil liste. Darvaz'ın 1920-09-02 sonrası (emir kaçışı) kimin elinde olduğuna dair Darvaz'a özgü kaynak bulunamadı. Çıkarım: emir Doğu Buhara'da 1921 başına dek direndi, Darvaz çok uzak/dağlık; Buhara Halk Cumhuriyeti'nin Darvaz'ı fiilen aldığı gün bulunamadı. Boşluğun BEYANLI kalması önerilir."
+  },
+  {
+   "sira": 4328,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1924-10-27",
+   "t": "1991-09-09",
+   "hukum": "BULUNAMADI",
+   "kaynak": "LoC Country Studies Tajikistan (countrystudies.us/tajikistan/6.htm) — ham okundu",
+   "uc": "",
+   "alinti": "In 1924 Bukhoro was converted from a people's republic to a Soviet socialist republic.",
+   "oneri": {},
+   "not": "Alıntı Buhara HSC->SSC dönüşümünü (1924) yıl düzeyinde verir; Darvaz'a özgü değil, gün yok: 1924-10-27 teyitsiz. Arama özeti (ikincil): Tacik ÖSSC 1924-10-27'de Özbek SSC içinde kuruldu, Basmaci direnişi Doğu Buhara'da 1925-26'ya sürdü: Darvaz'da fiilî Sovyet idaresinin gecikmiş olabileceği ONERI ipucu, kaynak bulunamadı. Tacik SSC 1929 ve çıkış 1991-09-09 bu satırda teyit edilmedi (BAKILMADI)."
+  },
+  {
+   "sira": 4329,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "tacikistan",
+   "f": "1991-09-09",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "countrystudies.us/tajikistan/ bağımsızlık sayfası ham alınamadı (country-studies.com/independence.html 404)",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "f=1991-09-09 bağımsızlık ilanı günü EMRELİC kuralı ile uyumlu (SSCB'nin sona erişi 1991-12-26; uluslararası tanınma Aralık 1991 ic_not). Ham metinden doğrulanamadı: BAKILMADI. t=2000-12-31 atlas evren sonu."
+  }
+ ],
+ "Sibu": [
+  {
+   "sira": 4330,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sarawak-brooke",
+   "f": "1862-01-01",
+   "t": "1946-07-01",
+   "hukum": "ONERI",
+   "kaynak": "Baring-Gould & Bampfylde, A History of Sarawak under its Two White Rajahs 1839-1908, London 1909 (archive.org historyofsarawak00bari) [1909 kaynağı], Sibu fort dipnotu",
+   "uc": "f",
+   "alinti": "Built in 1863, when it became the Government headquarters in the Rejang.",
+   "oneri": {
+    "f": "1863-01-01 [yalnız yıl]"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): (c) onay: Sarawak 1853 (Rejang devri, yıl hassasiyeti); 1863 kale ic_not. · Baring-Gould & Bampfylde (1909) dipnotu Fort Brooke'un (Sibu) 1863'te inşa edildiğini ve Rejang hükûmet merkezi olduğunu söyler; atlasın 1862'si (Sarawak Tourism Board) ile ÇELİŞKİ. Ayrıca bu alıntı kale/idare merkezi tarihleyen olgudur, Rejang'ın Sarawak'a geçişi (1853, IBS 45) farklı olaydır: f ucunu hangi olaya bağlayacağı EMRELİC kararı; sahiplik Rejang'da 1853'ten, Sibu'da idare 1863'ten. 1909 kaynağı. t=1946-07-01 bu alıntıda yok: öteki uç teyitsiz (sarawak.gov.my mevcut kaynak okunmadı).",
+   "oneri_son": {
+    "d": "sarawak-brooke",
+    "f": "1853-01-01",
+    "t": "1946-07-01",
+    "not": "Rejang devri 1853 [yalnız yıl]; Sibu kalesi 1863 (Baring-Gould & Bampfylde 1909) ic_not"
+   }
+  },
+  {
+   "sira": 4331,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sarawak-tac-kolonisi",
+   "f": "1946-07-01",
+   "t": "1963-09-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DEVRALMA satırı; bu oturumda Sarawak devri (1946-07-01) ve Malezya (1963-09-16) için ham kaynak okunmadı. Süre/bütçe nedeniyle BAKILMADI."
+  }
+ ],
+ "Simanggang (Sri Aman)": [
+  {
+   "sira": 4332,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sarawak-brooke",
+   "f": "1864-01-01",
+   "t": "1946-07-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "Baring-Gould & Bampfylde, A History of Sarawak under its Two White Rajahs 1839-1908, London 1909 (archive.org historyofsarawak00bari) [1909 kaynağı]",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "NEREYE BAKTIM: Baring-Gould & Bampfylde 1909 tam metni (ia-oku) 'Simanggang', 'Fort Alice' anahtarları: Fort Alice fotoğrafı, 1888 Lobok Antu barışı ve 1880'ler Simanggang kalesi anılıyor ama kuruluş yılı (1864) bulunamadı. Batang Lupar'ın Sarawak'a geçişi (1853) IBS 45 mevcut kaynağıyla; ham doğrulanmadı. t ucu bu oturumda bakılmadı."
+  },
+  {
+   "sira": 4333,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sarawak-tac-kolonisi",
+   "f": "1946-07-01",
+   "t": "1963-09-16",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "DEVRALMA satırı; Sibu 4331 ile aynı: ham kaynak okunmadı."
+  }
+ ],
+ "Labuan (Victoria)": [
+  {
+   "sira": 4335,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "brunei-sultanligi",
+   "f": "1368-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Arama özeti (ikincil, Wikipedia kökenli; ham sayfa okunmadı); Baring-Gould & Bampfylde, A History of Sarawak under its Two White Rajahs 1839-1908, London 1909 (archive.org historyofsarawak00bari) [1909 kaynağı] bölüm başlığı 'Labuan ceded to the British'",
+   "uc": "t",
+   "alinti": "Labuan ceded to the British",
+   "oneri": {
+    "t": "1846-12-18"
+   },
+   "not": "Mevcut atlas notu zaten devir antlaşması 1846-12-18'i ipucu veriyor; arama özetleri de 18 Aralık 1846 (Sultan Omar Ali Saifuddin II) diyor. Bu ham-metin teyidi DEĞİL: ONERI-güçlü. 1909 kaynağı yalnız bölüm başlığıyla olay anılıyor, gün yok. TEK ÖLÇÜ: devralan fiilen yönetiyorsa imza günü, değilse teslim (24 Aralık 1846 mevcut notta): yönetim teslim gününde başladıysa t=1846-12-24 ic_not'a 12-18 yazılır. f=1368 teyitsiz."
+  },
+  {
+   "sira": 4336,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1847-01-01",
+   "t": "1907-01-01",
+   "hukum": "ONERI",
+   "kaynak": "Arama özeti (ikincil); ham okunmadı",
+   "uc": "f",
+   "alinti": "",
+   "oneri": {
+    "f": "1846-12-18 veya 1846-12-24 (TEK ÖLÇÜ ile)",
+    "t": "1907-01-01 korunur"
+   },
+   "not": "f=1847-01-01 yıl temsilîdir; 1848 taç kolonisi ilanı ayrı olay (ic_not). 1890-1904 BNBC idaresi 'idarî' kalır (arama özeti: 1890'dan Kuzey Borneo Şirketi, 1904'te Britanya hükûmetine dönüş). t=1907-01-01 (Straits Settlements'a katılış, yürürlük) arama özetinde tutarlı ama ham teyit yok."
+  },
+  {
+   "sira": 4337,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1907-01-01",
+   "t": "1942-02-15",
+   "hukum": "ONERI",
+   "kaynak": "Arama özeti (ikincil); ham okunmadı",
+   "uc": "t",
+   "alinti": "",
+   "oneri": {
+    "t": "1942-01 (Japon işgali; kaynaklar 1942-01-03 diyor) — Labuan'a özgü kaynak gerekli"
+   },
+   "not": "1942-02-15 Singapur'un düşüşüdür (Malaya düzeyi); Labuan Japon işgaline Ocak 1942 başında (bir arama özeti 3 Ocak 1942) geçmiş görünüyor, Singapur gününden önce. Ham kaynakla doğrulanmadı: ONERI. isg japonya katmanı Labuan'da ayrı yazılmalı."
+  },
+  {
+   "sira": 4338,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "malaya-birligi",
+   "f": "1946-04-01",
+   "t": "1948-01-31",
+   "hukum": "ONERI",
+   "kaynak": "Arama özeti (ikincil); ham okunmadı",
+   "uc": "f",
+   "alinti": "",
+   "oneri": {
+    "d": "kuzey-borneo-tac-kolonisi (künye var mı: grep'le sınanmalı)",
+    "f": "1946-07-15"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): (b) onay, ONERI-güçlü: Labuan 1946-07-15 Kuzey Borneo Tâc Kolonisi'ne katıldı (künye 'Labuan dahil', f 1946-07-15 t 1963-09-16 — hayalet yok). malaya-birligi 1946-04-01 satırı KALDIRILIR; 4340 ingiliz-malaya (BMA) t 1946-04-01 → 1946-07-15. · ÖNEMLİ ÇELİŞKİ ADAYI: arama özeti Labuan'ın İngiliz Askerî İdaresi'nden sonra 15 Temmuz 1946'da Kuzey Borneo Tac Kolonisi'ne katıldığını söylüyor (Malayan Union'a değil). Straits Settlements 1946-04-01'de dağıldı; Labuan Malayan Union kapsamına girmemiş olabilir. Brif ipucu: ham kaynak (Colonial Office Order, hakemli çalışma) bulunamadı; EMRELİC/KASA karar versin.",
+   "oneri_son": {
+    "kaldir": true,
+    "yerine": {
+     "d": "kuzey-borneo-tac-kolonisi",
+     "f": "1946-07-15",
+     "t": "1963-09-16"
+    }
+   }
+  },
+  {
+   "sira": 4339,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1957-08-31",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "kaynak": "Arama özeti (ikincil); ham okunmadı",
+   "uc": "f",
+   "alinti": "",
+   "oneri": {
+    "f": "1963-09-16"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): (b) onay: malezya 1957-08-31 → 1963-09-16 (Labuan 1957 Malaya Federasyonu'nda değildi). malezya künye f 1957 ⊂, hayalet yok. · Malaya Federasyonu 1957 Labuan'ı kapsamıyordu; Labuan Kuzey Borneo/Sabah ile 1963-09-16'da Malezya'ya girdi (1984'te federal bölge). Bu bilgi arama özetleri + bilinen tarih; ham kaynakla teyit edilmedi, ONERI-güçlü. Aradaki 1948-1963 dilimi (koloni Kuzey Borneo) bu partide satır yok: boşluk/eksik dönem olabilir.",
+   "oneri_son": {
+    "d": "malezya",
+    "f": "1963-09-16",
+    "t": "2000-12-31"
+   }
+  },
+  {
+   "sira": 4340,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1945-09-02",
+   "t": "1946-04-01",
+   "hukum": "ONERI",
+   "kaynak": "Arama özeti (ikincil); ham okunmadı",
+   "uc": "f",
+   "alinti": "",
+   "oneri": {
+    "f": "1945-06-10 (kurtuluş, Avustralya 9. Tümeni) veya Japon teslimi 1945-09-02 — kaynak gerekli",
+    "t": "1946-07-15 veya askerî idare"
+   },
+   "not": "EMRELİC (5 Kasım 2026, Academia Sinica; 1582 sonrası Gregoryen; ganzhi (JDN+49) mod 60 çapraz): (b): BMA dilimi Kuzey Borneo Tâc Kolonisi'ne (1946-07-15) bitişik uzar. · Bir arama özeti Labuan'ın Haziran 1945'te (10.6) Avustralya 9. Tümeni ile kurtarıldığını söyler. 1945-09-02 Japon teslim belgesi günüdür. İngiliz Askerî İdaresi (BMA) dönemi ayrı idare; hukukî sahibi Britanya. Ham doğrulama yok.",
+   "oneri_son": {
+    "d": "ingiliz-malaya",
+    "f": "1945-09-02",
+    "t": "1946-07-15"
+   }
+  }
+ ],
+ "Lifau (Oecussi)": [
+  {
+   "sira": 4341,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1702-01-01",
+   "hukum": "ONERI",
+   "kaynak": "globalsecurity.org/military/world/timor/history.htm (popüler/devlet-dışı portal, ham okundu) — hakemli değil",
+   "uc": "t",
+   "alinti": "In 1702, Lifau became the capital of the colony when it received the first governor from Lisbon.",
+   "oneri": {},
+   "not": "ONERI-güçlü (hakemli değil, yıl düzeyi). Oecusse'nin 1702'de Portekiz idaresine girişi bu portala göre; ancak aynı sayfa 'In 1767' (başkentin Dili'ye taşınışı) der, atlas/brif 1769 diyor (kaynaklar 1767/1769 ayrışır). f=1281 teyitsiz."
+  },
+  {
+   "sira": 4342,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1702-01-01",
+   "t": "1942-02-24",
+   "hukum": "ONERI",
+   "kaynak": "globalsecurity.org Timor history (ham okundu); arama özeti (1859 Lizbon, 1916 Lahey)",
+   "uc": "f",
+   "alinti": "In 1702, Lifau became the capital of the colony when it received the first governor from Lisbon.",
+   "oneri": {},
+   "not": "f=1702 yıl düzeyi, popüler portal: ONERI-güçlü. KRİTİK: Topasslar valiyi 1769'da Lifau'dan çıkardı (arama özeti); 1769-1859/1913 arası Oecusse'de fiilî Portekiz idaresi sorusu açık (Topass/liurai yönetimi); 1859 Lizbon antlaşması Oecusse'yi Portekiz yaptı, 1914 Lahey hakem kararı/1916 onay sınırı kesinleştirdi (arama özeti). Bu aralık için 'abi merkez' kuralıyla Dili zinciri değil Topass hâkimiyeti BAKILMADI. t=1942-02-24 bakılmadı."
+  },
+  {
+   "sira": 4343,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-timor",
+   "f": "1945-09-02",
+   "t": "1975-12-07",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Oecusse'nin Endonezya'ya geçiş günü (Kasım-Aralık 1975, Atambua yönünden) için ham kaynak okunmadı; 1975-12-07 Dili işgalidir, Oecusse için ayrı gün olabilir."
+  },
+  {
+   "sira": 4344,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "endonezya-dogu-timor",
+   "f": "1975-12-07",
+   "t": "1999-10-25",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "BM SC Res 1272 / ilhak 1976-07-17 için ham okuma yapılmadı."
+  },
+  {
+   "sira": 4345,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "untaet",
+   "f": "1999-10-25",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "kaynak": "",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "UNSC Res 1272 (25 Ekim 1999) metni ham okunmadı; satır t=2000-12-31 evren sonu."
+  }
+ ],
+ "Niki-Niki": [
+  {
+   "sira": 4346,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "timor-beylikleri",
+   "f": "1281-01-01",
+   "t": "1769-10-10",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "NEREYE BAKTIM: arama özeti (Niki-Niki, Amanuban, Hollanda idaresi sorgusu) sonuç vermedi; PCA 1914 Timor hakem kararı PDF'inde (pcacases.com/web/sendAttach/641) anahtar sözcükler bulunmadı. Niki-Niki Hollanda tarafında Amanuban merkezidir; 1769-10-10 künye günü Portekiz başkentinin Dili'ye taşınışı (Dili emsali) olup Niki-Niki için anlamsızdır: ONERI-fikri: bu dilim Hollanda-bağlantılı Amanuban rajalığı (timor-beylikleri) olarak 1910-11 Hollanda seferine dek sürebilir (brif ipucu, okunmadı)."
+  },
+  {
+   "sira": 4347,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1769-10-10",
+   "t": "1860-08-23",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "uc": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "NEREYE BAKTIM: aynı (arama özeti + PCA PDF). Brif ipucu: Amanuban/Hollanda kontratları (VOC 1756 Paravicini sözleşmesi bilgisi, ham okunmadı). Niki-Niki bu dilimde timor-beylikleri (Amanuban) içinde kalır görünüyor; boşluk yerine beyanlı yaklaşıklık önerilir. EMRELİC kararı."
+  },
+  {
+   "sira": 4348,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1860-08-23",
+   "t": "1942-03-09",
+   "hukum": "ONERI",
+   "kaynak": "arama özeti (ikincil); ham okunmadı",
+   "uc": "f",
+   "alinti": "",
+   "oneri": {
+    "f": "1910-01-01 [yalnız yıl; Hollanda seferi 1910-11, kaynak gerekli] veya 1859-04-20 imza"
+   },
+   "not": "1859 Lizbon antlaşması Portekiz-Hollanda arasında devirdir ama Amanuban rajalığının iç bölgesinde Hollanda fiilî idaresi 1910-11 seferiyle başlamış olabilir (brif ipucu, okunmadı). Antlaşma günü ölçüt değildir; idareye katma belgesi (tahrir/vergi) aranmalı: bulunamadı. Yıl düzeyi ONERI."
+  }
+ ]
+}

@@ -1,0 +1,394 @@
+{
+ "Lubango": [
+  {
+   "sira": 4097,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ovimbundu",
+   "f": "1700-01-01",
+   "t": "1902-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BULUNAMADI: bakılan yerler TDV 'Angola' (arama sayfası; Lubango/Moçâmedes/Ovimbundu geçmiyor), TDV 'Mozambik', Worldmark Angola ve Mozambique (encyclopedia.com), EB1911 'Mossamedes' (wikisource; yalnız kasaba tanımı, kuruluş yok), ia-ara (açık tam metin bulunamadı). f 1700 kuruluş kaynağı yok. Brif ipucu: Lubango (Sá da Bandeira) 1885'te Madeira kolonistlerince yerleştirildi (kaynak OKUNMADI). Huíla platosu Nyaneka-Humbe bölgesidir; Ovimbundu sahipliği (künye ovimbundu: Bailundo/Viye/Vambu, künyenin kaynağı kendisi 'bulunamadı') ŞÜPHELİ, ABİ MERKEZ+beyan gerekir. F-GERI adayı kaynak okunmadan UYGULANMAMALI."
+  },
+  {
+   "sira": 4098,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1902-01-01",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BULUNAMADI: bakılan yerler TDV 'Angola' (arama sayfası; Lubango/Moçâmedes/Ovimbundu geçmiyor), TDV 'Mozambik', Worldmark Angola ve Mozambique (encyclopedia.com), EB1911 'Mossamedes' (wikisource; yalnız kasaba tanımı, kuruluş yok), ia-ara (açık tam metin bulunamadı). f 1902 = Bailundo ayaklanması (künye ovimbundu notu) ülke düzeyi; Lubango'ya özgü tanıklık yok. t 1975-11-11: kaynak devralma (history.state.gov, künye angola); TDV Afrika arama özetinde 'Angola 11.09.1975 Luanda' yazımı var (bağlam okunmadı, 11-11 ile uyuşmaz; yazım hatası olabilir)."
+  }
+ ],
+ "Mosamedes (Namibe)": [
+  {
+   "sira": 4100,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-angola",
+   "f": "1840-08-04",
+   "t": "1975-11-11",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BULUNAMADI: bakılan yerler TDV 'Angola' (arama sayfası; Lubango/Moçâmedes/Ovimbundu geçmiyor), TDV 'Mozambik', Worldmark Angola ve Mozambique (encyclopedia.com), EB1911 'Mossamedes' (wikisource; yalnız kasaba tanımı, kuruluş yok), ia-ara (açık tam metin bulunamadı). f 1840-08-04 kuruluş günü teyit edilemedi (brif ipucu: Moçâmedes 1840). EB1911 yalnız 'town of Portuguese West Africa' diyor (İPUCU sınıfı, tarih yok). t için Lubango 4098 notuna bak."
+  }
+ ],
+ "Zumbo": [
+  {
+   "sira": 4102,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1720-01-01",
+   "t": "1974-09-20",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "BULUNAMADI: bakılan yerler TDV 'Angola' (arama sayfası; Lubango/Moçâmedes/Ovimbundu geçmiyor), TDV 'Mozambik', Worldmark Angola ve Mozambique (encyclopedia.com), EB1911 'Mossamedes' (wikisource; yalnız kasaba tanımı, kuruluş yok), ia-ara (açık tam metin bulunamadı). f 1720: brif ipucu Portekiz fuarı 1715/1720 (kaynak OKUNMADI). t 1974-09-20: geçiş hükümeti yemin günü; TDV Mozambik 7 Eylül 1974 Lusaka'yı ve 20 Eylül geçiş hükümetini anmıyor (yalnız 1974 Portekiz darbesi ve görüşme). Zumbo'nun 1974-75 fiilî idaresi ayrıca ölçülmedi."
+  },
+  {
+   "sira": 4103,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mozambik-gecis-hukumeti",
+   "f": "1974-09-20",
+   "t": "1975-06-25",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Bakılan: TDV Mozambik (Geçiş/Lusaka geçmiyor; yalnız 'Mozambik Kurtuluş Cephesi ... görüşmeyi kabul etmesi üzerine'). t 1975-06-25 için bkz. 4104 (ülke düzeyi)."
+  },
+  {
+   "sira": 4104,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "mozambik",
+   "f": "1975-06-25",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik' (islamansiklopedisi.org.tr/mozambik)",
+   "alinti": "25 Haziran 1975 tarihinde başşehir Lourenço Marques’teki Machava Stadı’nda Mozambik’in bağımsızlığı ilân edildi.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. t 2000-12-31 yapay sınır (kaynak aranmadı). Worldmark Mozambique (encyclopedia.com): 'independent at midnight on 24–25 June 1975' (ticari; ONERI-güçlü, f yönünde destek)."
+  }
+ ],
+ "Senanga": [
+  {
+   "sira": 4105,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "lozi",
+   "f": "1600-01-01",
+   "t": "1890-06-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya' (islamansiklopedisi.org.tr/zambiya)",
+   "alinti": "1890’da Loziler’in kralı Lewanika, ... Cecil Rhodes’in himayesine girdi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "YIL düzeyi (1890); 06-27 günü TDV'de yok [yalnız yıl teyitli; gün teyitsiz]. ÜLKE DÜZEYİ. f 1600: TDV Zambiya Lozi'nin 1500-1800 arasında geldiğini söylüyor (aralık), 1600 teyitsiz. ÖNEMLİ: TDV 'himayesine girdi' diyor: Barotseland himayeydi; 1890'dan sonra s:ingiltere değil v: + s: lozi sürmeli. Bkz. 4106."
+  },
+  {
+   "sira": 4106,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-06-27",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya' (islamansiklopedisi.org.tr/zambiya)",
+   "alinti": "1890’da Loziler’in kralı Lewanika, ... Cecil Rhodes’in himayesine girdi.",
+   "uc": "f",
+   "oneri": {
+    "d": "ingiliz-kuzey-rodezya",
+    "alan": "v (himaye); altta s: lozi sürer",
+    "f": "1890-06-27",
+    "t": "1964-10-24"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Barotseland BEKLET: iki model ONERI, sabah Emre karar verir — (a) atlas s: ingiltere; (b) s: lozi + v: ingiliz-kuzey-rodezya. Künye ölçümü (UMIT): ingiliz-kuzey-rodezya f 1890-01-01 → t 1964-10-24 (devletler.js:10287; BSAC şirket idaresi 1890–1911 dahil, 1911-08-17 birleşme ozette) — 1890'dan yazmak hayalet YAPMAZ; ayrı BSAC künyesi gerekmez. · TDV 1894'te bölgenin İngiltere'ye ait olduğunun kabul edildiğini, 1911'de şirket idaresinde sınırların belirlendiğini, 1923'te Sömürge Ofisi idaresine geçtiğini yazıyor. Künye ingiliz-kuzey-rodezya (f 1890-01-01, t 1964-10-24) VAR; genel 'ingiltere' yerine bu kullanılmalı. s: lozi'nin 1964'e kadar sürdüğü (Barotseland Agreement) kaynak OKUNMADI, ONERI. t 1964-10-24 TDV ile teyitli: 'Kaunda 24 Ekim 1964’te ... bağımsızlığını ilân etti'. Karar KASA/EMRELİC'te.",
+   "oneri_son": {
+    "BEKLET": "dolaylı idare krallıkları sınıfı (Emre'de; Lozi listede)",
+    "model_a": {
+     "alan": "s",
+     "d": "ingiliz-kuzey-rodezya",
+     "f": "1890-06-27",
+     "t": "1964-10-24",
+     "not": "EMRELİC: (a) modelinin künyesi ingiliz-kuzey-rodezya (1890–1964, BSAC dahil)"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "lozi",
+      "t": "1964-10-24"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-kuzey-rodezya",
+      "f": "1890-06-27",
+      "t": "1964-10-24"
+     }
+    ]
+   }
+  },
+  {
+   "sira": 4107,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya' (islamansiklopedisi.org.tr/zambiya)",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. t 2000-12-31 yapay sınır."
+  }
+ ],
+ "Maevatanana": [
+  {
+   "sira": 4108,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sakalava-boina",
+   "f": "1690-01-01",
+   "t": "1897-02-28",
+   "hukum": "ONERI",
+   "kaynak": "EB1911 'Madagascar' (wikisource; İPUCU sınıfı); Worldmark Madagascar (encyclopedia.com; ticari, ONERI-güçlü)",
+   "alinti": "From that time until 1895 Hòva authority was retained over a large part of the central and eastern provinces",
+   "uc": "t",
+   "oneri": {
+    "d": "merina (şüpheli; yerel kanıt yok)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Merina uç kuralı: TDV cümlesinin neyi tarihlediği okunmalı — 'Fransızların yönetime el koyması' Merina idaresinin bitişiyse t 1897-01-27 (TDV esas), 02-28 sürgün/kraliyetin kaldırılışı ic_not; başka olaysa (Gallieni kararı) künye t 02-28 kalır, 01-27 ic_not. İki ayrı olay çelişki değildir. Batı Sakalava yerleşimlerinde Merina'nın nominal idaresi: sakalava künyesi var (sakalava-boina / sakalava-menabe), akademik kaynak (EB1911 tek başına yetmez) Merina idaresinin olmadığını söylüyorsa ONERI. · EB1911: Radama ve babası Sakalava hakimiyetini kırıp 'nominal allegiance' aldı, Hòva otoritesi 1895'e kadar sürdü ama batı yakasında yalnız nominal. TDV Madagaskar Sakalava'yı yalnız etnik grup olarak anıyor, Boina/Maevatanana geçmiyor. Künye sakalava-boina kendi notu: 'Merina 1824'te aldı'. Yani 1824-1895 arası sahip Merina olabilir; KAYNAKLI değil, karar vermedim. t 1897-02-28 ayrıca TDV ile çelişir, bkz. 4109. f 1690 kaynaksız."
+  },
+  {
+   "sira": 4109,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar)",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler.",
+   "uc": "f",
+   "oneri": {
+    "f": "1897-01-27 (TDV, Merina düzeyi)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Merina uç kuralı: TDV cümlesinin neyi tarihlediği okunmalı — 'Fransızların yönetime el koyması' Merina idaresinin bitişiyse t 1897-01-27 (TDV esas), 02-28 sürgün/kraliyetin kaldırılışı ic_not; başka olaysa (Gallieni kararı) künye t 02-28 kalır, 01-27 ic_not. İki ayrı olay çelişki değildir. Batı Sakalava yerleşimlerinde Merina'nın nominal idaresi: sakalava künyesi var (sakalava-boina / sakalava-menabe), akademik kaynak (EB1911 tek başına yetmez) Merina idaresinin olmadığını söylüyorsa ONERI. · ÇELİŞKİ: TDV Madagaskar Merina hükûmetine el koyuşu 27 Ocak 1897 verir; atlas ve künye merina t 1897-02-28 (kaynak bu turda okunmadı). EB1911 ve Worldmark sömürgeleşmeyi YIL 1896 olarak verir ('colony in 1896'; ilhak yasası 1896-08-06 brif ipucu, okunmadı). TDV esas kuralı: 1897-01-27 ama bu Merina'ya aittir; Maevatanana'nın kendi geçişi için gün YOK (ÜLKE DÜZEYİ). Künye merina t ve fransa dilimi etkilenir; karar EMRELİC'te."
+  },
+  {
+   "sira": 4110,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar)",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ. t 2000-12-31 yapay sınır. Worldmark '20 June 1960' yazıyor (TDV esas)."
+  }
+ ],
+ "Seşeke (Sesheke)": [
+  {
+   "sira": 4111,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "lozi",
+   "f": "1600-01-01",
+   "t": "1890-06-27",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya' (islamansiklopedisi.org.tr/zambiya)",
+   "alinti": "1890’da Loziler’in kralı Lewanika, ... Cecil Rhodes’in himayesine girdi.",
+   "uc": "t",
+   "oneri": {},
+   "not": "YIL düzeyi; ÜLKE DÜZEYİ. 06-27 günü teyitsiz. Yerleşime özgü tanıklık bulunamadı. Himaye notu için 4105."
+  },
+  {
+   "sira": 4112,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1890-06-27",
+   "t": "1964-10-24",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya' (islamansiklopedisi.org.tr/zambiya)",
+   "alinti": "1890’da Loziler’in kralı Lewanika, ... Rhodes’in himayesine girdi.",
+   "uc": "f",
+   "oneri": {
+    "d": "ingiliz-kuzey-rodezya",
+    "alan": "v (himaye); altta s: lozi sürer",
+    "f": "1890-06-27",
+    "t": "1964-10-24"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Barotseland BEKLET: iki model ONERI, sabah Emre karar verir — (a) atlas s: ingiltere; (b) s: lozi + v: ingiliz-kuzey-rodezya. Künye ölçümü (UMIT): ingiliz-kuzey-rodezya f 1890-01-01 → t 1964-10-24 (devletler.js:10287; BSAC şirket idaresi 1890–1911 dahil, 1911-08-17 birleşme ozette) — 1890'dan yazmak hayalet YAPMAZ; ayrı BSAC künyesi gerekmez. · 4106 ile aynı hüküm: künye ingiliz-kuzey-rodezya var; Barotseland himayesi v: + s: lozi. t 1964-10-24 TDV ile teyitli.",
+   "oneri_son": {
+    "BEKLET": "dolaylı idare krallıkları sınıfı (Emre'de; Lozi listede)",
+    "model_a": {
+     "alan": "s",
+     "d": "ingiliz-kuzey-rodezya",
+     "f": "1890-06-27",
+     "t": "1964-10-24",
+     "not": "EMRELİC: (a) modelinin künyesi ingiliz-kuzey-rodezya (1890–1964, BSAC dahil)"
+    },
+    "model_b": [
+     {
+      "alan": "s",
+      "d": "lozi",
+      "t": "1964-10-24"
+     },
+     {
+      "alan": "v",
+      "d": "ingiliz-kuzey-rodezya",
+      "f": "1890-06-27",
+      "t": "1964-10-24"
+     }
+    ]
+   }
+  },
+  {
+   "sira": 4113,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "zambiya",
+   "f": "1964-10-24",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Zambiya' (islamansiklopedisi.org.tr/zambiya)",
+   "alinti": "Kaunda 24 Ekim 1964’te Zambiya adıyla ülkesinin bağımsızlığını ilân etti.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ."
+  }
+ ],
+ "Maintirano": [
+  {
+   "sira": 4114,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "sakalava-menabe",
+   "f": "1600-01-01",
+   "t": "1897-02-28",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Bakılan: TDV Madagaskar (Sakalava yalnız etnik grup), EB1911 Madagascar (Sakalava'nın 17. yy ortasında ilerleyip iki krallık kurduğunu söyler; Menabe/Maintirano geçmez), Worldmark, wikipedia Maevatanana (içerik yok). EB1911 batı yakasında Merina otoritesinin nominal olduğunu söyler; 1897-02-28 Merina ucudur, Maintirano'nun Fransa'ya geçiş günü yok. f 1600: EB1911 'about the middle of the 17th century' = ~1650, 1600 sorunlu (İPUCU; künye sakalava-menabe f incelenmeli)."
+  },
+  {
+   "sira": 4115,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar)",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler.",
+   "uc": "f",
+   "oneri": {
+    "f": "1897-01-27 (TDV, Merina düzeyi)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Merina uç kuralı: TDV cümlesinin neyi tarihlediği okunmalı — 'Fransızların yönetime el koyması' Merina idaresinin bitişiyse t 1897-01-27 (TDV esas), 02-28 sürgün/kraliyetin kaldırılışı ic_not; başka olaysa (Gallieni kararı) künye t 02-28 kalır, 01-27 ic_not. İki ayrı olay çelişki değildir. Batı Sakalava yerleşimlerinde Merina'nın nominal idaresi: sakalava künyesi var (sakalava-boina / sakalava-menabe), akademik kaynak (EB1911 tek başına yetmez) Merina idaresinin olmadığını söylüyorsa ONERI. · 4109 ile aynı çelişki; Maintirano/Menabe'nin Fransız idaresine geçiş günü bulunamadı (Menabe direnişi sürmüş olabilir, kaynak okunmadı)."
+  },
+  {
+   "sira": 4116,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar)",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ."
+  }
+ ],
+ "Tsiroanomandidy": [
+  {
+   "sira": 4118,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "merina-oncesi",
+   "f": "1401-01-01",
+   "t": "1787-01-01",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "Bakılan: TDV Madagaskar (Merina 'XVIII. yüzyılın ikinci yarısında siyasî birlik kurdular'), EB1911. Yerleşime özgü tanıklık yok; Merina öncesi sahiplik şüpheli (kaynak okunmadı)."
+  },
+  {
+   "sira": 4119,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "merina",
+   "f": "1787-01-01",
+   "t": "1897-02-28",
+   "hukum": "BULUNAMADI",
+   "kaynak": "",
+   "alinti": "",
+   "uc": "",
+   "oneri": {},
+   "not": "TDV Madagaskar: Merina birliği 'XVIII. yüzyılın ikinci yarısı', I. Radama (1810-1828) 'adanın 2/3'üne hâkim oldu'. Tsiroanomandidy'nin Merina'ya katıldığı tarih yok; 1787 ülke düzeyi (Worldmark: Andrianampoinimerina r.1787-1810). t 1897-02-28 için 4109 ÇELİŞKİSİ (TDV 27 Ocak 1897)."
+  },
+  {
+   "sira": 4120,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "fransa-cumhuriyet",
+   "f": "1897-02-28",
+   "t": "1960-06-26",
+   "hukum": "ONERI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar)",
+   "alinti": "27 Ocak 1897’de de yönetime el koyup kendisini yurt dışına sürdüler.",
+   "uc": "f",
+   "oneri": {
+    "f": "1897-01-27 (TDV, Merina düzeyi)"
+   },
+   "not": "EMRELİC (5 Kasım 2026, r8_102/104): Merina uç kuralı: TDV cümlesinin neyi tarihlediği okunmalı — 'Fransızların yönetime el koyması' Merina idaresinin bitişiyse t 1897-01-27 (TDV esas), 02-28 sürgün/kraliyetin kaldırılışı ic_not; başka olaysa (Gallieni kararı) künye t 02-28 kalır, 01-27 ic_not. İki ayrı olay çelişki değildir. Batı Sakalava yerleşimlerinde Merina'nın nominal idaresi: sakalava künyesi var (sakalava-boina / sakalava-menabe), akademik kaynak (EB1911 tek başına yetmez) Merina idaresinin olmadığını söylüyorsa ONERI. · Merina çekirdeğine yakın bölge olduğundan TDV 27 Ocak 1897 daha uygun; 4109 notuna bak."
+  },
+  {
+   "sira": 4121,
+   "dosya_satir": "",
+   "alan": "s",
+   "d": "madagaskar",
+   "f": "1960-06-26",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar' (islamansiklopedisi.org.tr/madagaskar)",
+   "alinti": "26 Haziran 1960 tarihinde bağımsızlığını kazandı.",
+   "uc": "f",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ."
+  }
+ ],
+ "f_geri": [
+  "F-GERI (ADAY, kaynak OKUNMADI; uygulanmasın): Lubango 1700-01-01 → 1885, sahip portekiz-angola (künye f 1575 kapsar); ilk dilim ovimbundu 1700-1902 yerine 1885-1902 portekiz-angola, çünkü Madeira kolonistleri 1885 (brif ipucu); belge yok, BULUNAMADI.",
+  "F-GERI yok: Mosamedes (1840-08-04 sürsün), Zumbo (1720; Portekiz fuarı 1715/1720 okunmadı), Senanga, Seşeke, Maevatanana, Maintirano, Tsiroanomandidy: kuruluş kaynağı bulunamadı, f korunur."
+ ]
+}

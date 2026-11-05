@@ -1,0 +1,151 @@
+{
+ "Slobozia (Transdinyester)": [
+  {
+   "dosya_satir": "",
+   "sira": 4462,
+   "alan": "s",
+   "d": "transdinyester",
+   "f": "1990-09-02",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: Veridica 'War in Transnistria' kronolojisi (ham okundu; ateşkes Moskova 1992-07-21; 'bölgenin neredeyse tamamı Dinyester doğusunda; Kişinev'e bağlı otorite/kurumların değiştirilmesi' 1991 sonrası; Slobozia adı geçmiyor), e-ir.info (SSL hatası), UCA DADM (404), Britannica (403), peaceagreements 1024 (503). Slobozia'ya özgü fiilî kontrol tanığı bulunamadı. ÜLKE DÜZEYİ: 1990-09-02 yalnız ilan günü (künye f); Slobozia'nın Tiraspol idaresine fiilen geçiş günü kaynaksız. t=2000-12-31 atlas aralık sonudur (künye t yok), kaynak teyidi değil. Ateşkes 1992-07-21 ic_not adayı."
+  }
+ ],
+ "Znaur": [
+  {
+   "dosya_satir": "",
+   "sira": 4463,
+   "alan": "s",
+   "d": "guney-osetya",
+   "f": "1992-05-29",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: WebSearch (Soçi Antlaşması 1992-06-24 bağlamı; ikincil doc.surf sayfası 'ayrılıkçılar Tskhinvali, Java, Znauri bölgelerini elde tuttu' diyor, ham okuma 404), peaceagreements 1699 (503), pax PDF (503). Znaur'a özgü ham-metin tanıklığı yok. f=1992-05-29 künye f'si (Bağımsızlık Bildirisi), Znaur'un fiilî kontrol günü değil. Hayalet-devlet: künye f'den önce s: yazılamaz. t=2000-12-31 atlas aralık sonu."
+  }
+ ],
+ "Hadrut": [
+  {
+   "dosya_satir": "",
+   "sira": 4464,
+   "alan": "s",
+   "d": "daglik-karabag",
+   "f": "1991-09-02",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: RFE/RL timeline (ham: 'September 1991: Nagorno-Karabakh parliament proclaims establishment of independent Nagorno-Karabakh Republic' - yalnız ay-yıl, Hadrut yok), Caucasian Knot 2020-10-09 ve TASS 2020-10-10 (ham okundu), Kremlin 2020-11-10 ateşkes metni (ham okundu). Hadrut'un 1991-92 fiilî NK denetimine geçişine özgü tanık bulunamadı. ÜLKE DÜZEYİ: f yalnız ay teyitli [Eylül 1991]. UYARI (2020 dönemi, bu satır dışı): Aliyev 2020-10-09 Hadrut'un alındığını açıkladı, Ermeni taraf yalanladı (Caucasian Knot ve TASS ham); bağımsız teyit 14-16 Ekim (yalnız ikincil arama özeti, ham değil). Ateşkes 2020-11-10 00:00 Moskova saati, 'mevcut mevzilerde durma' (Kremlin metni, ham). Hadrut'un Azerbaycan dönemi için fiilî ele geçiriliş belgesi ayrıca gerekir; 10 Ekim önerisi KANITSIZ. t=2000-12-31 atlas aralık sonu."
+  }
+ ],
+ "Gudermes": [
+  {
+   "dosya_satir": "",
+   "sira": 4465,
+   "alan": "s",
+   "d": "ickerya",
+   "f": "1991-11-01",
+   "t": "2000-02-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "VOA, 12 Kasım 1999 (globalsecurity.org/military/library/news/1999/11/991112-chechen1.htm); AP/CBS News, 'War On Chechnya Intensifies', Kasım 1999",
+   "alinti": "The Russian flag has already been hoisted over Gudermes and a temporary administration has been elected.",
+   "oneri": {
+    "f": "1991-11-01",
+    "t": "1999-11-12",
+    "d": "ickerya"
+   },
+   "not": "EMRELİC gece-98 (5 Kasım 2026): Rakip hükûmet kuralı: İçkerya 1996–99 fiilen yönetti; Rusya iddia eden egemen → isg değil. 1999-11-12 fiilî geri alışla s: rusya (VOA haber → ONERI-güçlü; 11-12/13 ikili beyan ic_not). Grozni 2000-02-06 ayrı kırılma. 1995-12 → 1996-08 Rus denetimi olasılığı kaynakla ayrıca bakılmalı. · ALINTI VOA ham metninden (sayfa.py). t=2000-02-06 künye t'sidir (Grozni düşüşü, ülke düzeyi); Gudermes Rus denetimine 1999-11 ortasında geçti: Putin 12 Kasım 1999'da bayrağın Gudermes'te çekildiğini ve geçici idare seçildiğini söyledi; AP/CBS ham: Rus askerleri Cuma girdi, Cumartesi komutanlar denetimi ilan etti (Cuma=12, Cumartesi=13 Kasım). Gün 11-12 / 11-13 belirsiz; 12 önerildi, ikili beyan ic_not. ÖLÇÜT: idareye katma ('temporary administration') - Rus katmanı isg mi d: mi kararı EMRELİC/KASA'da. Alıntı t ucunu tarihliyor; f ucu (1991-11-01) için TDV 'Çeçenistan' mevcut. Ayrıca 1995-12-23 Çeçen birliklerinin çekilmesi ve Rus denetimi (ikincil arama özeti, ham değil) -> 1995-12/1996-08 Rus katmanı için dönem bölünmesi gerekebilir, ölçülmedi (HRW refworld robots yasağı).",
+   "_etiket": "ONERI_GUCLU",
+   "oneri_son": {
+    "d": "ickerya",
+    "f": "1991-11-01",
+    "t": "1999-11-12",
+    "sonraki": {
+     "alan": "s",
+     "d": "rusya-federasyonu?",
+     "f": "1999-11-12",
+     "not": "künye kimliği KASA ölçer"
+    }
+   },
+   "karar": "EMRELİC gece-98"
+  }
+ ],
+ "Dikelya (Dhekelia)": [
+  {
+   "dosya_satir": "",
+   "sira": 4466,
+   "alan": "s",
+   "d": "kibris-ingiliz-ussler",
+   "f": "1960-08-16",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treaty concerning the Establishment of the Republic of Cyprus (1960), Madde 1, Annex A; metin mfa.gov.tr kopyası",
+   "alinti": "the two areas defined in Annex A to this Treaty, which areas shall remain under the sovereignty of the United Kingdom",
+   "oneri": {
+    "f": "1960-08-16",
+    "t": "2000-12-31",
+    "d": "kibris-ingiliz-ussler"
+   },
+   "not": "Alıntı ham metinden; egemenliğin İngiltere'de kaldığını teyit eder ama GÜNÜ tarihlemez: kopyada 'signed at Nicosia on to-day's date' var, 16 Ağustos geçmiyor. Bu yüzden ONERI (f=1960-08-16 korunur). Gün yalnız ikincil arama özetinden: Lefkoşa 16 Ağustos 1960, BM'ye 12 Aralık 1960 tescil; BM'deki Annex A PDF başlığı 19 Ağustos 1960 gösteriyor (çelişki, PDF ham metninde 'August' bulunamadı). TEK ÖLÇÜ: İngiltere araziyi zaten yönettiği için s: İMZA gününden. Gün teyidi için UNTS cilt 382 / Hansard bakılmalı. t=2000-12-31 atlas aralık sonu."
+  }
+ ],
+ "Speightstown": [
+  {
+   "dosya_satir": "",
+   "sira": 4467,
+   "alan": "s",
+   "d": "barbados",
+   "f": "1966-11-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Archontology.org, Barbados: Polity Style 1966-2026 (Public General Acts 1966, pp. 677-683); GlobalSecurity Barbados history",
+   "alinti": "Barbados became an independent state in accordance with an act passed by the Parliament of the United Kingdom",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Speightstown'a özgü değil, Barbados bağımsızlığı. Aynı sayfa ham: 'effective on 30 Nov 1966' (Avam 2 Kasım, Lordlar 15 Kasım, Royal Assent 17 Kasım 1966); Barbados Independence Order 22 Kasım 1966'da yapıldı, anayasa 30 Kasım 1966'da yürürlüğe girdi. GlobalSecurity ham: 'Barbados became an independent state within the British Commonwealth on 30 November 1966.' Yalnız f ucu; t=2000-12-31 atlas aralık sonu (öteki uç teyitsiz)."
+  }
+ ],
+ "Vieux Fort": [
+  {
+   "dosya_satir": "",
+   "sira": 4468,
+   "alan": "s",
+   "d": "saint-lucia",
+   "f": "1979-02-22",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Saint Lucia Constitution Order 1978 (S.I. 1978 No. 1901 UK), attorneygeneralchambers.com Revised Laws of Saint Lucia 2023; Hansard HC 14 Aralık 1978 'St. Lucia'",
+   "alinti": "association of Saint Lucia with the United Kingdom is to terminate on 22 February 1979",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ (Vieux Fort'a özgü değil). Alıntı Order girişinden ham; yürürlük 22 Şubat 1979. Hansard ham: 'It is proposed that the order should come into effect on 22nd February 1979.' Order 20 Aralık 1978'de yapıldı (ic_not). t=2000-12-31 atlas aralık sonu; öteki uç teyitsiz."
+  }
+ ],
+ "Keningau": [
+  {
+   "dosya_satir": "",
+   "sira": 4469,
+   "alan": "s",
+   "d": "kuzey-borneo-tac-kolonisi",
+   "f": "1946-07-15",
+   "t": "1963-09-16",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Baktığım yerler: WebSearch (ikincil: 15 Temmuz 1946 Tâc kolonisi, Borneo Post 18 Temmuz diyor, tutarsız; Malezya 16 Eylül 1963), borneopost.com (403 x2), Tregonning 'History of Modern Sabah' archive.org (ödünç, 401). Ham metinli akademik kaynak okunamadı. ÜLKE DÜZEYİ iki uç da künye uçları, kaynaksız. Öneri: UK National Archives CO 531 / Colonial Office Annual Report 1946, Tregonning ödünç kopyası."
+  }
+ ]
+}

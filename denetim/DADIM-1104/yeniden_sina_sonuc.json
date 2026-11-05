@@ -1,0 +1,209 @@
+{
+ "desenler": [
+  {
+   "guc": "Habsburg (macaristan-habsburg)",
+   "bolge": "Macaristan'ın geri alınan kısmı (Varad, Mohaç, Erdel çevresi)",
+   "donem": "fetih 1686/1692 → Karlofça 1699-01-26",
+   "hukum": "BULUNAMADI",
+   "olcut": "idareye katma belgesi (Neoacquistica Commissio, kamara, komitat) okunabilir kaynakta bulunamadı; mevcut atlas verisi kalır",
+   "kaynak": "TDV İslâm Ansiklopedisi, Varad (okundu); Magyar Katolikus Lexikon, Kollonich (okundu, ilgili cümle yok); Neoacquistica için lexikon/ia aramaları 404 ya da boş",
+   "alinti": "Bölgedeki Osmanlı hâkimiyeti 1692 yılına kadar sürdü. 1699 Karlofça Antlaşması ile Varad resmen Avusturya'da kaldı",
+   "not": "TDV Varad: Osmanlı hâkimiyeti 1692'ye kadar; Karlofça'da 'resmen Avusturya'da kaldı' ifadesi 1692-1699'u Avusturya elinde fiilen sayar ama idare/vergi belgesi vermez. Atlas Varad'ı zaten 1692-06-05'ten s: macaristan-habsburg yazıyor (satır 81, mevcut); 'isg 1692→1699' önerisi (satır 80) ölçütle desteklenmedi; Mohaç 88 için de aynı. Neoacquistica/kamara belgesi bu turda erişilebilir kaynakta okunamadı: uydurulmadı. Hüküm: mevcut veri kalır, isg önerisi uygulanmaz.",
+   "satirlar": [
+    "Varad (Oradea) · yerlesimler.js:1543",
+    "Varad (Oradea) · yerlesimler.js:1542",
+    "Mohaç · yerlesimler.js:1776 (OSMANLI)",
+    "Mohaç · yerlesimler.js:1776 (macaristan-habsburg)",
+    "Erdel (Kaloşvar) · yerlesimler.js:599"
+   ]
+  },
+  {
+   "guc": "Fransa (fransa-cumhuriyet)",
+   "bolge": "Belçika / Liège: Brüksel, Mons, Gent, Liège, Ypres",
+   "donem": "Fleurus 1794-06-26 → ilhak 1795-10-01",
+   "hukum": "BULUNAMADI",
+   "olcut": "idareye katma belgesi (vali/vergi/idarî birim) okunamadı; kaynaklar fetih ve ilhak yıllarını veriyor, aradaki idare türünü vermiyor",
+   "kaynak": "Treccani, Belgio (Enciclopedia Italiana, okundu; eski başvuru eseri, en çok kısmen); TDV Belçika (okundu); Treccani Bruxelles (okundu); Cambridge Modern History VIII (ia-oku, ilgili cümle bulunamadı)",
+   "alinti": "l'annessione definitiva delle Provincie Belghe e del Paese di Liegi alla Francia seguì alla vittoria di Fleurus",
+   "not": "Treccani/EI ilhakı Fleurus (1794-06-26) sonrasına bağlıyor, TDV 'Fransa 1795'te bütün Belçika'yı topraklarına katmıştı' diyor: iki kaynak çelişik, ikisi de idare belgesi değil. Atlas 1795-10-01 kullanıyor. isg önerisi ölçüte göre kanıtlanmış değil; s: fetih gününden de kanıtlanmış değil. Mevcut veri kalır.",
+   "satirlar": [
+    "Brüksel · yerlesimler_avrupa.js:409",
+    "Mons · yerlesimler_avrupa.js:411",
+    "Gent · yerlesimler_avrupa.js:406",
+    "Liège · yerlesimler_avrupa.js:415",
+    "Ypres · yerlesimler_avrupa.js:407"
+   ]
+  },
+  {
+   "guc": "Rusya",
+   "bolge": "Baltık: Tallinn (Reval), Tartu (Dorpat), Riga",
+   "donem": "Rus fethi 1704/1710 → Nystad 1721-09-10",
+   "hukum": "BULUNAMADI",
+   "olcut": "idareye katma belgesi (1710 Estonya genel valiliği, vergi, idarî birim) okunabilir kaynakta bulunamadı; Treccani yalnız fetih ve devir yıllarını veriyor",
+   "kaynak": "Treccani, Tallinn (okundu); Treccani, Estonia (okundu); Cambridge Modern History V (ia-oku; metin djvu'da yok)",
+   "alinti": "Presa dai Russi nel 1710 e definitivamente ceduta dalla Svezia alla Russia nel 1721",
+   "not": "Treccani Tallinn: 1710'da Ruslarca alındı, 1721'de 'definitivamente' devredildi. 'Definitivamente' devrin kesinleşmesini gösterir ama 1710-21 arasındaki idarenin ne olduğunu (Rus valisi, vergi) söylemez. 'Rus Estonyası 1710 genel valiliği' bilgisi bu turda kaynakla okunamadı: uydurulmadı. Mevcut veri kalır (atlas: Rusya s: 1721-09-10'dan, Riga İsveç 1721'e kadar).",
+   "satirlar": [
+    "Tallinn (Reval) · yerlesimler_ek11.js:52",
+    "Tartu (Dorpat) · yerlesimler_ek11.js:64",
+    "Riga · yerlesimler.js:1286"
+   ]
+  },
+  {
+   "guc": "İngiltere / İngiliz Hindistan",
+   "bolge": "Hindistan, Burma, Güney Afrika, Akdeniz: Pûne 1817-18, Pagan 1885-86, Kap 1806-14, Malta 1800-14",
+   "donem": "fetih → ilhak/antlaşma",
+   "hukum": "BULUNAMADI",
+   "olcut": "idareye katma belgesi (ilhan bildirisi, vali/komiser, vergi) okunamadı. Imperial Gazetteer Burma cildi (ia-oku) Upper Burma ilhak cümlesini vermedi; Pûne, Kap, Malta için okunabilir kaynak bulunamadı",
+   "kaynak": "Imperial Gazetteer of India, Provincial Series Burma Vol-i (in.ernet.dli.2015.207368, ia-oku: 'Upper Burma was annexed' vb. aramalar YOK; yalnız 1852/1826 ilhak örnekleri çıktı); Pûne/Kap/Malta kaynağı bu turda açılamadı",
+   "alinti": "Imperial Gazetteer Burma: 'When Pegu was annexed in 1852' (Pegu için; Upper Burma 1885-86 için cümle yok)",
+   "not": "Bu dört yerleşimin antlaşma/ilhak günleri farklı ve ayrı kaynak ister (Pûne: Peşva'nın ilhakı 1818; Pagan: 1886-01-01 bildirisi; Kap: 1814 Londra; Malta: 1814 Paris). Hiçbirinde idareye katma belgesi okunmadı; varsayım yapılmadı. Mevcut veri kalır, isg önerileri uygulanmaz ya da onaylanmaz.",
+   "satirlar": [
+    "Pûne (Poona) · yerlesimler_asya.js:1288",
+    "Pagan · yerlesimler_asya.js:3618",
+    "Kap (Cape Town) · yerlesimler_e9353f.js:597",
+    "Malta · yerlesimler.js:1197"
+   ]
+  },
+  {
+   "guc": "Rusya",
+   "bolge": "Smolensk",
+   "donem": "1654 Rus fethi → Andrusovo 1667",
+   "hukum": "s-fetihten",
+   "olcut": "idareye katma — kaynak 1654'te şehrin Rusya'ya 'döndüğünü', Andrusovo'nun ise bunu kesinleştirdiğini söylüyor (antlaşma belirleyici değil, teyit edici)",
+   "kaynak": "Treccani, Smolensk (Enciclopedia on line, okundu)",
+   "alinti": "nel 1654 tornò alla Russia cui rimase definitivamente dopo il trattato di Andrusovo (1667)",
+   "not": "KISMEN: Treccani idare belgesi (voyvoda, vergi) vermiyor, yalnız 1654 dönüşünü ve 1667'de kesinleşmeyi. Ölçütün 'isg yalnız toprağı kendi saymıyorsa' kuralı gereği 1654'ten sonra Rus yönetimi kendi toprağı gibi anlatılıyor; atlas zaten lehistan→rusya geçişini 1654'te yazıyor (satır 56 mevcut s: rusya 1654-10-03). Andrusovo (1667) ic_not'a yazılır, s: günü olarak 1667-xx-xx yazılmaz. Hüküm: mevcut veri kalır, öneri (f=1667) geçersiz.",
+   "satirlar": [
+    "Smolensk · yerlesimler.js:1299 (lehistan)",
+    "Smolensk · yerlesimler.js:1299 (rusya)"
+   ]
+  },
+  {
+   "guc": "Mısır eyaleti (Kavalalı Mehmed Ali / İbrahim Paşa)",
+   "bolge": "Anadolu: Konya, Karaman, Adana",
+   "donem": "1832-11 → Kütahya 1833-05-05 / 1833-06",
+   "hukum": "isg-kalir",
+   "olcut": "geçici/askerî — TDV Ereğli maddesi Mısır işgalini 'işgal edildi; 1833 Kütahya Antlaşması ile boşaltılınca yeniden…' diye anlatıyor (Osmanlı iddiası sürdü, boşaltma)",
+   "kaynak": "TDV İslâm Ansiklopedisi, arama özeti 'Ereğli' / 'Kütahya Antlaşması' (okunan kısım madde arama sayfası; maddenin kendisi açılmadı)",
+   "alinti": "işgal edildi. 1833 Kütahya Antlaşması ile boşaltılınca yeniden",
+   "not": "KISMEN, ARAMA ÖZETİ: arama sayfasındaki cümle Ereğli içindir ve Konya/Karaman için doğrudan değil. Konya (4) ve Karaman (64) önerisi zaten isg; ölçüte göre isg kalır. Adana (63): Kütahya'da Adana'nın İbrahim Paşa'ya verilmesi (muhassıllık) bu turda okunmadı; hüküm BULUNAMADI, mevcut veri kalır.",
+   "satirlar": [
+    "Konya · yerlesimler.js:204",
+    "Karaman · yerlesimler.js:206",
+    "Adana · yerlesimler.js:382 (BULUNAMADI)"
+   ]
+  },
+  {
+   "guc": "Rusya",
+   "bolge": "Bulgaristan Tuna kıyısı: Niğbolu, Rusçuk",
+   "donem": "Rus işgali 1877-07 → 1878-07-13 (Berlin)",
+   "hukum": "isg-kalir",
+   "olcut": "geçici/askerî — TDV Niğbolu 'Ruslar ele geçirdiler'; TDV Bulgaristan 1877'de Rus ordusunun 'işgali' ve savaşın ardından muhtar Bulgaristan Prensliği kuruluşunu anlatıyor; Rusya bölgeyi kendi toprağı saymadı, Ayastefanos/Berlin'de muhtar prenslik",
+   "kaynak": "TDV İslâm Ansiklopedisi, Niğbolu (okundu); TDV, Bulgaristan (okundu)",
+   "alinti": "4 Temmuz 1877'de Ruslar Niğbolu'yu ağır bir bombardıman neticesinde ele geçirdiler",
+   "not": "KISMEN: TDV idare belgesi (geçici Rus idaresi) vermiyor ama 'işgal' diyor ve Rus ilhakından söz etmiyor; Rusya Bulgaristan'ı ilhak etmedi. Gün çelişkisi: TDV Niğbolu 4 Temmuz 1877, atlas 1877-07-16 (Ruslar 16 Temmuz'da şehri tam aldı mı, aranmadı). Niğbolu 84'te mevcut 's: rusya 1877-07-16→1878-07-13' ölçüte göre isg olmalı (ONERI), Rusçuk önerisi (isg rusya 1878-02-21→07-13) aynı mantıkla isg kalır. TDV Rusçuk/Rusuk maddesi açılamadı (arama sayfası döndü).",
+   "satirlar": [
+    "Niğbolu · yerlesimler.js:488 (OSMANLI)",
+    "Niğbolu · yerlesimler.js:488 (rusya)",
+    "Rusçuk · yerlesimler.js:489"
+   ]
+  },
+  {
+   "guc": "Avusturya (Habsburg)",
+   "bolge": "Milano, Lombardiya",
+   "donem": "1706-09-24 işgal → Rastatt 1714-03-07",
+   "hukum": "BULUNAMADI",
+   "olcut": "idareye katma belgesi (1706-14 Avusturya idaresi) okunamadı; Treccani yalnız Utrecht (1713) ile Habsburg 'possesso'yu bağlıyor",
+   "kaynak": "Treccani, Milano (okundu); Treccani, Lombardia (okundu)",
+   "alinti": "mentre diventava possesso della casa d'Austria (pace di Utrecht, 1713)",
+   "not": "Treccani Milano 1706 işgalinden/idaresinden söz etmiyor; 'diventava possesso' antlaşmaya bağlı. Bu kaynak antlaşmayı belirleyici gösterir ama idare belgesi olmadığından 'Avusturya 1706 idaresi kendi kamarasıyla' iddiası da çürütülmedi (EMRELİC'in örneği). Mevcut atlas s: avusturya 1714-03-07 kalır; hüküm BULUNAMADI. Ek: Rastatt 1714-03-07 ile Utrecht 1713 farkı Treccani'de çözülemedi.",
+   "satirlar": [
+    "Milano · yerlesimler.js:1230 (avusturya)"
+   ]
+  },
+  {
+   "guc": "Habsburg",
+   "bolge": "Belgrad ve Semendire",
+   "donem": "1688-09-06→1690-10-08 ve 1717-08-18→1718-07-21 (Pasarofça) → 1739",
+   "hukum": "BULUNAMADI",
+   "olcut": "idareye katma belgesi okunamadı. TDV Belgrad 1688'i 'bir ara elden çıktı, geri alındı (1690)' diye yazıyor (geçici çağrışımı); 1717-18 için 'Pasarofça ile bu ülkeye bırakıldı' ve 'Avusturya yönetimi' ifadesi var ama idareye katma belgesi (vali, vergi) yok",
+   "kaynak": "TDV İslâm Ansiklopedisi, Belgrad (okundu)",
+   "alinti": "Avusturyalılar'ın saldırısına uğrayarak bir ara elden çıktıysa (1688) ... geri alındı (1690)",
+   "not": "Belgrad 1688-90 ve 1717-39 iki ayrı dönemdir; birbirine desen sayılmaz. 1688-90: TDV Osmanlı bakışıyla geçici kayıp diyor, bu atlasın mevcut 'isg: macaristan-habsburg' kaydıyla uyumlu ama belgeli idare dışlama değil; isg kalır ya da s: olur sorusunda kaynak susuyor. 1717-18: TDV 'üçüncü Avusturya yönetimi' (1789-91) diyerek yönetim dilini kullanıyor, bu 1717-39 dönemi için lehte işaret ama 1717-08-18→1718-07-21 aralığı için belge yok. Mevcut veri kalır.",
+   "satirlar": [
+    "Belgrad · yerlesimler.js:571 (1688-90)",
+    "Belgrad · yerlesimler.js:571 (1717-39)",
+    "Semendire · yerlesimler.js:570"
+   ]
+  },
+  {
+   "guc": "Rus İmparatorluğu / Orta Asya ve Kafkasya",
+   "bolge": "ARAŞTIRILMAMIŞ alt desenler (bütçe yetmedi): Rus Orta Asya 1860'lar (Taşkent, Almalık, Türkistan, Taraz); Rus Hazar 1723 (Bakü, Derbend); Artvin; Saygon; Dijon 1477; Venedik/Verona 1796-97",
+   "donem": "fetih → ilhak / antlaşma",
+   "hukum": "BULUNAMADI",
+   "olcut": "idareye katma belgesi (Türkistan Genel Valiliği 1867, 1723 St. Petersburg antlaşması) bu turda kaynakla okunmadı; araç bütçesi bu desen için kullanılmadı",
+   "kaynak": "okunmadı",
+   "alinti": "",
+   "not": "Önceki D adımı yerleşim bazında TDV/Treccani tarayıp günü bulamamıştı; ölçüt sorusu yeniden sorulmadı. Dürüst durum: ölçülemedi. Mevcut veri kalır.",
+   "satirlar": [
+    "Taşkent · yerlesimler_ek15.js:81",
+    "Almalık · yerlesimler_ortaasya3.js:220-221",
+    "Türkistan (Yesi) · yerlesimler_ek15.js:133",
+    "Taraz · yerlesimler_ok107.js:224",
+    "Bakü · yerlesimler.js:815",
+    "Derbend · yerlesimler.js:817 (rusya)",
+    "Artvin · yerlesimler_ek27.js:37 x3 (Rus 1828/1877-78)",
+    "Saygon · yerlesimler_asya.js:3966 (Fransa 1859-62)",
+    "Dijon · yerlesimler_avrupa.js:214 (Fransa 1477)",
+    "Venedik · yerlesimler.js:1193 (Fransa 1797)",
+    "Verona · yerlesimler_avrupa.js:472 (1509-17, 1796-97)"
+   ]
+  },
+  {
+   "guc": "Çeşitli",
+   "bolge": "Tarih/dönem ucu düzeltmeleri ya da antlaşma=devir sorusu olmayan satırlar",
+   "donem": "çeşitli",
+   "hukum": "KAPSAM DIŞI",
+   "olcut": "satır fetih-antlaşma arası isg/s: ayrımını sormuyor: yıl/gün düzeltmesi, zaten isg olan kayıt, kural kararıyla çözülmüş emsal (Londra 1913, Villafranca≠devir, himaye 1881) ya da antik/ortaçağ bölünmesi",
+   "kaynak": "",
+   "alinti": "",
+   "not": "Satır başına kısa gerekçe: Kudüs (yıl/ay düzeltmesi), Gürgenç x2 (yıl), Sivas Timur (yıl), Murzuk x3, Varşova, Vilnius, Gao, Cenne, Aksum, N'Gazargamu, Chan Chan (yıl/isg zaten), Üsküp (Londra 1913 kararı), Kerma, Girit, Tunus/Kafsa/Sfaks (himaye 1881), Kars x4, Gelibolu x2, Silistre, Basra (zaten isg), Milano antik x4, Milano 1859 (Villafranca≠devir kuralı), Antalya, Azak, Sirakuza, Hotin, Derbend Safevi/Zend, Sakız (zaten isg), Taranto, Arnhem, Gent 1384, Tanca.",
+   "satirlar": [
+    "Kudüs · yerlesimler.js:883",
+    "Köhne Ürgenç · yerlesimler.js:2413 x2",
+    "Sivas · yerlesimler.js:351",
+    "Murzuk · yerlesimler.js:1120 x3",
+    "Varşova · yerlesimler.js:1292",
+    "Vilnius · yerlesimler.js:1293",
+    "Gao · yerlesimler_e9353f.js:158",
+    "Cenne · yerlesimler_e9353f.js:187",
+    "Aksum · yerlesimler_afrika.js:710",
+    "N'Gazargamu",
+    "Chan Chan · yerlesimler_amerika.js:684",
+    "Üsküp · yerlesimler.js:493",
+    "Kerma · yerlesimler_afrika.js:869",
+    "Girit (Resmo) · yerlesimler.js:715",
+    "Tunus · yerlesimler.js:1121",
+    "Kafsa · yerlesimler_afrika.js:412",
+    "Sfaks · yerlesimler.js:1153",
+    "Kars · yerlesimler.js:365 x4",
+    "Gelibolu · yerlesimler.js:449 x2",
+    "Silistre · yerlesimler.js:487",
+    "Basra · yerlesimler.js:892",
+    "Milano antik x4 · yerlesimler.js:1230",
+    "Milano 1859 · yerlesimler.js:1230",
+    "Antalya · yerlesimler.js:187",
+    "Azak · yerlesimler.js:741",
+    "Sirakuza · yerlesimler.js:1935",
+    "Hotin · yerlesimler.js:1565",
+    "Derbend · yerlesimler.js:817 x2 (safevi, zend)",
+    "Sakız · yerlesimler.js:666",
+    "Taranto · yerlesimler.js:124",
+    "Arnhem · yerlesimler_avrupa.js:395",
+    "Gent · yerlesimler_avrupa.js:406 (flandre)",
+    "Tanca · yerlesimler.js:1397"
+   ]
+  }
+ ]
+}

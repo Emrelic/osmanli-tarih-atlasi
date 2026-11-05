@@ -1,0 +1,1019 @@
+{
+ "Aral kuzeyi": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya2.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "rusya_f": "1824-01-01",
+    "kazak-hanligi_t": "1824-01-01"
+   },
+   "kaynak": "e-history.kz kronoloji: Присоединение Казахского государства к России, Устав 'об оренбургских киргизах' 1824 (https://e-history.kz/ru/chronology/event/509)",
+   "alinti": "В связи с принятием устава, было решено убрать ханскую власть.",
+   "kaynak2": "TDV Islam Ansiklopedisi, Kazaklar (https://islamansiklopedisi.org.tr/kazaklar)",
+   "alinti2": "1822, 1824, 1867, 1868 ve 1891 düzenlemeleri 1917’ye kadar olan Rus yönetiminin temellerini oluşturuyordu.",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · Küçük Cüz 1824 ölçüsü (TEK ÖLÇÜ: Cüz idaresi). BÖLGE (CÜZ) DÜZEYİ, yıl düzeyi; Nizamname ilkbahar 1824'te onaylandı (İPUCU: en.wikipedia, gün yok), gün teyitsiz. e-history raw metni Ustav yılını ve Küçük Cüz'de han iktidarının kaldırılmasını 1824 verir; Şirgazı Orenburg'a çağrıldı. TDV Kazaklar yalnız '1822, 1824 düzenlemeleri' der, olayı tarihlemez. UYARI: Emba/Üstyurt/Aral kuzeyi 1824'te fiilen Rus denetiminde değildi, idare nominaldi; kale hattı (Turgay-Irgiz 1845) alternatif kale ölçüsüdür, seçim EMRELİC'te. TDV Kazakistan: Küçük Cüz'de han seçimi Rus idaresinde 1845'e kadar (1810 seçimi bağlamı) - ayrı olay, ic_not'a. Uçlar künye içinde (kazak-hanligi t=1847'den kısaltma). Takvim: ilkbahar 1824, gün yok. Kronoloji: Değişmez 2 için 1824 Küçük Cüz maddesi gerekir (gün teyitsiz).",
+   "parti": "kz1",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya2.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "rusya_f": "1824-01-01",
+    "kazak-hanligi_t": "1824-01-01"
+   },
+   "kaynak": "e-history.kz kronoloji: Присоединение Казахского государства к России, Устав 'об оренбургских киргизах' 1824 (https://e-history.kz/ru/chronology/event/509)",
+   "alinti": "В связи с принятием устава, было решено убрать ханскую власть.",
+   "kaynak2": "TDV Islam Ansiklopedisi, Kazaklar (https://islamansiklopedisi.org.tr/kazaklar)",
+   "alinti2": "1822, 1824, 1867, 1868 ve 1891 düzenlemeleri 1917’ye kadar olan Rus yönetiminin temellerini oluşturuyordu.",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · UMIT denetimi (5 Kasım 2026): uc f+t → f (rusya t 1917-03-15 bu kaynakla tarihlenmez; ülke düzeyi feragatname r8_039). · Küçük Cüz 1824 ölçüsü (TEK ÖLÇÜ: Cüz idaresi). BÖLGE (CÜZ) DÜZEYİ, yıl düzeyi; Nizamname ilkbahar 1824'te onaylandı (İPUCU: en.wikipedia, gün yok), gün teyitsiz. e-history raw metni Ustav yılını ve Küçük Cüz'de han iktidarının kaldırılmasını 1824 verir; Şirgazı Orenburg'a çağrıldı. TDV Kazaklar yalnız '1822, 1824 düzenlemeleri' der, olayı tarihlemez. UYARI: Emba/Üstyurt/Aral kuzeyi 1824'te fiilen Rus denetiminde değildi, idare nominaldi; kale hattı (Turgay-Irgiz 1845) alternatif kale ölçüsüdür, seçim EMRELİC'te. TDV Kazakistan: Küçük Cüz'de han seçimi Rus idaresinde 1845'e kadar (1810 seçimi bağlamı) - ayrı olay, ic_not'a. Uçlar künye içinde (kazak-hanligi t=1847'den kısaltma). Takvim: ilkbahar 1824, gün yok. Kronoloji: Değişmez 2 için 1824 Küçük Cüz maddesi gerekir (gün teyitsiz).",
+   "parti": "kz1",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Üstyurt kuzeyi": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya2.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1644-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "rusya_f": "1824-01-01",
+    "kazak-hanligi_t": "1824-01-01"
+   },
+   "kaynak": "e-history.kz kronoloji: Присоединение Казахского государства к России, Устав 'об оренбургских киргизах' 1824 (https://e-history.kz/ru/chronology/event/509)",
+   "alinti": "В связи с принятием устава, было решено убрать ханскую власть.",
+   "kaynak2": "TDV Islam Ansiklopedisi, Kazaklar (https://islamansiklopedisi.org.tr/kazaklar)",
+   "alinti2": "1822, 1824, 1867, 1868 ve 1891 düzenlemeleri 1917’ye kadar olan Rus yönetiminin temellerini oluşturuyordu.",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · Küçük Cüz 1824 ölçüsü (TEK ÖLÇÜ: Cüz idaresi). BÖLGE (CÜZ) DÜZEYİ, yıl düzeyi; Nizamname ilkbahar 1824'te onaylandı (İPUCU: en.wikipedia, gün yok), gün teyitsiz. e-history raw metni Ustav yılını ve Küçük Cüz'de han iktidarının kaldırılmasını 1824 verir; Şirgazı Orenburg'a çağrıldı. TDV Kazaklar yalnız '1822, 1824 düzenlemeleri' der, olayı tarihlemez. UYARI: Emba/Üstyurt/Aral kuzeyi 1824'te fiilen Rus denetiminde değildi, idare nominaldi; kale hattı (Turgay-Irgiz 1845) alternatif kale ölçüsüdür, seçim EMRELİC'te. TDV Kazakistan: Küçük Cüz'de han seçimi Rus idaresinde 1845'e kadar (1810 seçimi bağlamı) - ayrı olay, ic_not'a. Uçlar künye içinde (kazak-hanligi t=1847'den kısaltma). Takvim: ilkbahar 1824, gün yok. Kronoloji: Değişmez 2 için 1824 Küçük Cüz maddesi gerekir (gün teyitsiz).",
+   "parti": "kz1",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya2.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "rusya_f": "1824-01-01",
+    "kazak-hanligi_t": "1824-01-01"
+   },
+   "kaynak": "e-history.kz kronoloji: Присоединение Казахского государства к России, Устав 'об оренбургских киргизах' 1824 (https://e-history.kz/ru/chronology/event/509)",
+   "alinti": "В связи с принятием устава, было решено убрать ханскую власть.",
+   "kaynak2": "TDV Islam Ansiklopedisi, Kazaklar (https://islamansiklopedisi.org.tr/kazaklar)",
+   "alinti2": "1822, 1824, 1867, 1868 ve 1891 düzenlemeleri 1917’ye kadar olan Rus yönetiminin temellerini oluşturuyordu.",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · UMIT denetimi (5 Kasım 2026): uc f+t → f (rusya t 1917-03-15 bu kaynakla tarihlenmez; ülke düzeyi feragatname r8_039). · Küçük Cüz 1824 ölçüsü (TEK ÖLÇÜ: Cüz idaresi). BÖLGE (CÜZ) DÜZEYİ, yıl düzeyi; Nizamname ilkbahar 1824'te onaylandı (İPUCU: en.wikipedia, gün yok), gün teyitsiz. e-history raw metni Ustav yılını ve Küçük Cüz'de han iktidarının kaldırılmasını 1824 verir; Şirgazı Orenburg'a çağrıldı. TDV Kazaklar yalnız '1822, 1824 düzenlemeleri' der, olayı tarihlemez. UYARI: Emba/Üstyurt/Aral kuzeyi 1824'te fiilen Rus denetiminde değildi, idare nominaldi; kale hattı (Turgay-Irgiz 1845) alternatif kale ölçüsüdür, seçim EMRELİC'te. TDV Kazakistan: Küçük Cüz'de han seçimi Rus idaresinde 1845'e kadar (1810 seçimi bağlamı) - ayrı olay, ic_not'a. Uçlar künye içinde (kazak-hanligi t=1847'den kısaltma). Takvim: ilkbahar 1824, gün yok. Kronoloji: Değişmez 2 için 1824 Küçük Cüz maddesi gerekir (gün teyitsiz).",
+   "parti": "kz1",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Emba (Cem)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya2.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1644-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "rusya_f": "1824-01-01",
+    "kazak-hanligi_t": "1824-01-01"
+   },
+   "kaynak": "e-history.kz kronoloji: Присоединение Казахского государства к России, Устав 'об оренбургских киргизах' 1824 (https://e-history.kz/ru/chronology/event/509)",
+   "alinti": "В связи с принятием устава, было решено убрать ханскую власть.",
+   "kaynak2": "TDV Islam Ansiklopedisi, Kazaklar (https://islamansiklopedisi.org.tr/kazaklar)",
+   "alinti2": "1822, 1824, 1867, 1868 ve 1891 düzenlemeleri 1917’ye kadar olan Rus yönetiminin temellerini oluşturuyordu.",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · Küçük Cüz 1824 ölçüsü (TEK ÖLÇÜ: Cüz idaresi). BÖLGE (CÜZ) DÜZEYİ, yıl düzeyi; Nizamname ilkbahar 1824'te onaylandı (İPUCU: en.wikipedia, gün yok), gün teyitsiz. e-history raw metni Ustav yılını ve Küçük Cüz'de han iktidarının kaldırılmasını 1824 verir; Şirgazı Orenburg'a çağrıldı. TDV Kazaklar yalnız '1822, 1824 düzenlemeleri' der, olayı tarihlemez. UYARI: Emba/Üstyurt/Aral kuzeyi 1824'te fiilen Rus denetiminde değildi, idare nominaldi; kale hattı (Turgay-Irgiz 1845) alternatif kale ölçüsüdür, seçim EMRELİC'te. TDV Kazakistan: Küçük Cüz'de han seçimi Rus idaresinde 1845'e kadar (1810 seçimi bağlamı) - ayrı olay, ic_not'a. Uçlar künye içinde (kazak-hanligi t=1847'den kısaltma). Takvim: ilkbahar 1824, gün yok. Kronoloji: Değişmez 2 için 1824 Küçük Cüz maddesi gerekir (gün teyitsiz).",
+   "parti": "kz1",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya2.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "rusya_f": "1824-01-01",
+    "kazak-hanligi_t": "1824-01-01"
+   },
+   "kaynak": "e-history.kz kronoloji: Присоединение Казахского государства к России, Устав 'об оренбургских киргизах' 1824 (https://e-history.kz/ru/chronology/event/509)",
+   "alinti": "В связи с принятием устава, было решено убрать ханскую власть.",
+   "kaynak2": "TDV Islam Ansiklopedisi, Kazaklar (https://islamansiklopedisi.org.tr/kazaklar)",
+   "alinti2": "1822, 1824, 1867, 1868 ve 1891 düzenlemeleri 1917’ye kadar olan Rus yönetiminin temellerini oluşturuyordu.",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · UMIT denetimi (5 Kasım 2026): uc f+t → f (rusya t 1917-03-15 bu kaynakla tarihlenmez; ülke düzeyi feragatname r8_039). · Küçük Cüz 1824 ölçüsü (TEK ÖLÇÜ: Cüz idaresi). BÖLGE (CÜZ) DÜZEYİ, yıl düzeyi; Nizamname ilkbahar 1824'te onaylandı (İPUCU: en.wikipedia, gün yok), gün teyitsiz. e-history raw metni Ustav yılını ve Küçük Cüz'de han iktidarının kaldırılmasını 1824 verir; Şirgazı Orenburg'a çağrıldı. TDV Kazaklar yalnız '1822, 1824 düzenlemeleri' der, olayı tarihlemez. UYARI: Emba/Üstyurt/Aral kuzeyi 1824'te fiilen Rus denetiminde değildi, idare nominaldi; kale hattı (Turgay-Irgiz 1845) alternatif kale ölçüsüdür, seçim EMRELİC'te. TDV Kazakistan: Küçük Cüz'de han seçimi Rus idaresinde 1845'e kadar (1810 seçimi bağlamı) - ayrı olay, ic_not'a. Uçlar künye içinde (kazak-hanligi t=1847'den kısaltma). Takvim: ilkbahar 1824, gün yok. Kronoloji: Değişmez 2 için 1824 Küçük Cüz maddesi gerekir (gün teyitsiz).",
+   "parti": "kz1",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Kazak bozkırı (Turgay)": [
+  {
+   "dosya_satir": "yerlesimler_sibirya.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "kirp": true,
+    "kur": "1845-08-03",
+    "not": "kazak-hanligi dönemi kaldırılır"
+   },
+   "kaynak": "Ulagat portalı, 'Военные укрепления на реках Иргиз и Тургай в XIX веке' (dipnotlu [1,с.340],[3,с.401]; ulagat.com 2020-12-23)",
+   "alinti": "а 22 июля – Оренбургского на правом берегу реки Тургая на урочище Жарыкуткуль",
+   "kaynak2": "ЭСБЕ 'Тургай, город' (booksite.ru/fulltext/1/001/007/103/103377.htm; İPUCU, yalnız yıl)",
+   "alinti2": "В 1845 г. оренбургским отрядом под командой майора Томилина",
+   "tarayici_gerekli": true,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): 1845 öncesi kazak-hanligi dilimi KIRPILIR (boşluk merdiveni ④: yerleşim o devirde yok); toprak komşu peteklere kalır. Yerleşimin kur'u kale günü. Küçük Cüz 1824 ölçüsü bölgedeki eski yerleşimler için geçerlidir. · Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 22 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-08-03 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Turgay: Orenburg istihkâmı, 1868'de Turgay şehri.",
+   "parti": "kz1",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "KIRP_ONERI"
+  },
+  {
+   "dosya_satir": "yerlesimler_sibirya.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "d": "rusya",
+    "f": "1845-08-03",
+    "t": "1917-03-15",
+    "kur": "1845-08-03"
+   },
+   "kaynak": "Ulagat portalı, 'Военные укрепления на реках Иргиз и Тургай в XIX веке' (dipnotlu [1,с.340],[3,с.401]; ulagat.com 2020-12-23)",
+   "alinti": "а 22 июля – Оренбургского на правом берегу реки Тургая на урочище Жарыкуткуль",
+   "kaynak2": "ЭСБЕ 'Тургай, город' (booksite.ru/fulltext/1/001/007/103/103377.htm; İPUCU, yalnız yıl)",
+   "alinti2": "В 1845 г. оренбургским отрядом под командой майора Томилина",
+   "tarayici_gerekli": true,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): kur ve s: rusya f 1845-08-03 G (22.7.1845 J; Ural/Orenburg istihkâmı) ONERI-güçlü; Jülyen→Gregoryen +12. · Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 22 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-08-03 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Turgay: Orenburg istihkâmı, 1868'de Turgay şehri.",
+   "parti": "kz1",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Irgiz (Irgız)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "kirp": true,
+    "kur": "1845-07-31",
+    "not": "kazak-hanligi dönemi kaldırılır"
+   },
+   "kaynak": "Ulagat portalı, 'Военные укрепления на реках Иргиз и Тургай в XIX веке' (dipnotlu [1,с.340],[3,с.401]; ulagat.com 2020-12-23)",
+   "alinti": "19 июля 1845 года было положено основание Уральскому укреплению на правом берегу реки Иргиза",
+   "kaynak2": "Aynı makale (yıl)",
+   "alinti2": "Под его командой на берегу реки Иргиз, на возвышенности было сооружено военное укрепление в 1845 году.",
+   "tarayici_gerekli": true,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): 1845 öncesi kazak-hanligi dilimi KIRPILIR (boşluk merdiveni ④: yerleşim o devirde yok); toprak komşu peteklere kalır. Yerleşimin kur'u kale günü. Küçük Cüz 1824 ölçüsü bölgedeki eski yerleşimler için geçerlidir. · Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 19 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-07-31 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Irgiz: Ural istihkâmı. Bir arama özeti (ham metin okunmadı) kararın 1845, inşanın üç yıl sonra olduğunu söylüyor; doğrulanmadı.",
+   "parti": "kz1",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "KIRP_ONERI"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "d": "rusya",
+    "f": "1845-07-31",
+    "t": "1917-03-15",
+    "kur": "1845-07-31"
+   },
+   "kaynak": "Ulagat portalı, 'Военные укрепления на реках Иргиз и Тургай в XIX веке' (dipnotlu [1,с.340],[3,с.401]; ulagat.com 2020-12-23)",
+   "alinti": "19 июля 1845 года было положено основание Уральскому укреплению на правом берегу реки Иргиза",
+   "kaynak2": "Aynı makale (yıl)",
+   "alinti2": "Под его командой на берегу реки Иргиз, на возвышенности было сооружено военное укрепление в 1845 году.",
+   "tarayici_gerekli": true,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): kur ve s: rusya f 1845-07-31 G (19.7.1845 J; Ural/Orenburg istihkâmı) ONERI-güçlü; Jülyen→Gregoryen +12. · Kale kuruluşu ölçüsü (yerleşim kale ile doğdu). Kaynak günü 19 Temmuz 1845 (Jülyen varsayımı, 19. yy Rus kaynağı) = Gregoryen 1845-07-31 (+12). Hakemli makale değil, portal metni; gün tek kaynakta, bu yüzden ONERI. Küçük Cüz 1824 ölçüsüyle TEK ÖLÇÜ çatışması: kale ölçüsü önerildi, EMRELİC karar versin. kazak-hanligi t künye içinde. 1500-1845 dönemi yerleşim yokken nokta bölgesi olarak boyanıyor; kırpma kararı EMRELİC'te. Irgiz: Ural istihkâmı. Bir arama özeti (ham metin okunmadı) kararın 1845, inşanın üç yıl sonra olduğunu söylüyor; doğrulanmadı.",
+   "parti": "kz1",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Kazalinsk (Kazalı)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "rusya_f": "1853-01-01",
+    "kazak-hanligi_t": "1853-01-01"
+   },
+   "kaynak": "ru.wikipedia Казалинск (İPUCU); ЭСБЕ Казалинск (booksite.ru/fulltext/1/001/007/046/46654.htm); Severtsov şerhi (vostlit.info Severcov_2 primtext1)",
+   "alinti": "Российское военное укрепление в урочище Казалы было основано в 1853 году по указанию В. А. Перовского",
+   "kaynak2": "ЭСБЕ Казалинск (19. yy kaynağı, İPUCU)",
+   "alinti2": "Основан в 1854 г., при учреждении Сырдарьинской линии, под именем форта № 1 (Казала).",
+   "tarayici_gerekli": true,
+   "not": "Kale kuruluşu ölçüsü ama kaynaklar ÇELİŞKİLİ: 1853 (ru.wikipedia), 1854 (ESBE), 1855 (Severtsov şerhi: Raim/Aral istihkâmı 1847'de kuruldu, 1855'te kaldırıldı, yerine Fort No 1 geldi). Gün YOK. 1853-01-01 geçici ve zayıf (yalnız yıl). Kazaly civarı 1853'e dek Hokand (Koş-Kurgan) etkisinde olabilir; kazak-hanligi/hokand sorusu LAB'a. Takvim Jülyen. Güçlü akademik Sırderya hattı makalesi bulunamadı: docplayer erişilemedi, e-history aramaları Perovsk'a gitti.",
+   "parti": "kz1"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "rusya_f": "1853-01-01",
+    "kazak-hanligi_t": "1853-01-01"
+   },
+   "kaynak": "ru.wikipedia Казалинск (İPUCU); ЭСБЕ Казалинск (booksite.ru/fulltext/1/001/007/046/46654.htm); Severtsov şerhi (vostlit.info Severcov_2 primtext1)",
+   "alinti": "Российское военное укрепление в урочище Казалы было основано в 1853 году по указанию В. А. Перовского",
+   "kaynak2": "ЭСБЕ Казалинск (19. yy kaynağı, İPUCU)",
+   "alinti2": "Основан в 1854 г., при учреждении Сырдарьинской линии, под именем форта № 1 (Казала).",
+   "tarayici_gerekli": true,
+   "not": "Kale kuruluşu ölçüsü ama kaynaklar ÇELİŞKİLİ: 1853 (ru.wikipedia), 1854 (ESBE), 1855 (Severtsov şerhi: Raim/Aral istihkâmı 1847'de kuruldu, 1855'te kaldırıldı, yerine Fort No 1 geldi). Gün YOK. 1853-01-01 geçici ve zayıf (yalnız yıl). Kazaly civarı 1853'e dek Hokand (Koş-Kurgan) etkisinde olabilir; kazak-hanligi/hokand sorusu LAB'a. Takvim Jülyen. Güçlü akademik Sırderya hattı makalesi bulunamadı: docplayer erişilemedi, e-history aramaları Perovsk'a gitti.",
+   "parti": "kz1"
+  }
+ ],
+ "Kazak bozkırı (İşim)": [
+  {
+   "dosya_satir": "yerlesimler_ek9.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {
+    "d": "kazak-hanligi",
+    "t": "1824-05-11"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "bakılan: e-history.kz/ru/history-of-kazakhstan/show/9196; Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "",
+   "tarayici_gerekli": true,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Kopal devralması (1847) kaynaksız, KALKAR. Orta Cüz ölçüsü: en yakın okrugun açılışı. ABİ MERKEZ: Kökçetav dış okrugu, prikaz açılışı 29.4.1824 J (Yermekbay Zh.A., Izvestiya IGU, Seriya Istoriya 41, 2022, s.7-13) — BEYANLI YAKLAŞIKLIK (bölge noktası; coğrafî yakınlık ~125 km; Akmola ~270 km). · İşim bozkırı bir yerleşim değil bölge; hangi okruga/idareye girdiği belirsiz. 1847 Kopal tarihi Orta Cüz alanı için uygun görünmüyor (Kopal Büyük Cüz, Yedisu; Orta Cüz ölçüsü 1822-24). Bakılan: Yermekbay 2022 (okrug listesi), e-history.kz 9196 (1868 Geçici Nizamname 21.10.1868 J = 1868-11-02 G; yürürlük 1869-05-01); İşim'in hangi okrug/uyezde girdiği bilgisi yok. Aday ölçü: Kökçetav okrugu (1824-05-11) ya da Akmola okrugu (1832-09-03) ya da 1868 Nizamnamesi; yerleşim noktası/bölge belirlenmeden hüküm verilmez (KASA konum teyidi). 1847 ucu kaynaksız ve Orta Cüz ölçüsüne uymuyor.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ABI_MERKEZ_BEYANLI"
+  },
+  {
+   "dosya_satir": "yerlesimler_ek9.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {
+    "d": "rusya",
+    "f": "1824-05-11",
+    "t": "1917-03-15",
+    "beyan": "ABİ MERKEZ: Kökçetav dış okrugu, prikaz açılışı 29.4.1824 J (Yermekbay Zh.A., Izvestiya IGU, Seriya Istoriya 41, 2022, s.7-13)"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "bakılan: e-history.kz/ru/history-of-kazakhstan/show/9196; Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "",
+   "tarayici_gerekli": true,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Kopal devralması (1847) kaynaksız, KALKAR. Orta Cüz ölçüsü: en yakın okrugun açılışı. ABİ MERKEZ: Kökçetav dış okrugu, prikaz açılışı 29.4.1824 J (Yermekbay Zh.A., Izvestiya IGU, Seriya Istoriya 41, 2022, s.7-13) — BEYANLI YAKLAŞIKLIK (bölge noktası; coğrafî yakınlık ~125 km; Akmola ~270 km). · İşim bozkırı bir yerleşim değil bölge; hangi okruga/idareye girdiği belirsiz. 1847 Kopal tarihi Orta Cüz alanı için uygun görünmüyor (Kopal Büyük Cüz, Yedisu; Orta Cüz ölçüsü 1822-24). Bakılan: Yermekbay 2022 (okrug listesi), e-history.kz 9196 (1868 Geçici Nizamname 21.10.1868 J = 1868-11-02 G; yürürlük 1869-05-01); İşim'in hangi okrug/uyezde girdiği bilgisi yok. Aday ölçü: Kökçetav okrugu (1824-05-11) ya da Akmola okrugu (1832-09-03) ya da 1868 Nizamnamesi; yerleşim noktası/bölge belirlenmeden hüküm verilmez (KASA konum teyidi). 1847 ucu kaynaksız ve Orta Cüz ölçüsüne uymuyor.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ABI_MERKEZ_BEYANLI"
+  }
+ ],
+ "Kazak bozkırı (Sarısu)": [
+  {
+   "dosya_satir": "yerlesimler_sibirya.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1847-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {
+    "d": "kazak-hanligi",
+    "t": "1832-09-03"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "bakılan: e-history.kz/ru/history-of-kazakhstan/show/9196; Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "",
+   "tarayici_gerekli": true,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Kopal devralması (1847) kaynaksız, KALKAR. Orta Cüz ölçüsü: en yakın okrugun açılışı. ABİ MERKEZ: Akmola dış okrugu açılışı 22.8.1832 J (Yermekbay 2022: 'в 1832 г. - Акмолинский'; gün yerel arşiv aktarması) — BEYANLI YAKLAŞIKLIK (bölge noktası; coğrafî yakınlık ~590 km; Karkaralı ~720 km). · Sarısu (47N 67E, Ulutau/Merkezî Kazakistan) 1822-24 okruglarının dışında; Rus idaresi için aday ölçü 1868 Geçici Nizamname (21.10.1868 J = 1868-11-02 G; Turgay/Akmola oblastı; yürürlük 1869-05-01, e-history.kz 9196), ama Sarısu'nun hangi uyezde girdiği kaynakta bulunamadı. 1847 Kopal tarihi (Büyük Cüz) buraya uymuyor. Bakılan: e-history.kz 9196, Yermekbay 2022.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ABI_MERKEZ_BEYANLI"
+  },
+  {
+   "dosya_satir": "yerlesimler_sibirya.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "",
+   "oneri_son": {
+    "d": "rusya",
+    "f": "1832-09-03",
+    "t": "1917-03-15",
+    "beyan": "ABİ MERKEZ: Akmola dış okrugu açılışı 22.8.1832 J (Yermekbay 2022: 'в 1832 г. - Акмолинский'; gün yerel arşiv aktarması)"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "bakılan: e-history.kz/ru/history-of-kazakhstan/show/9196; Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "",
+   "tarayici_gerekli": true,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Kopal devralması (1847) kaynaksız, KALKAR. Orta Cüz ölçüsü: en yakın okrugun açılışı. ABİ MERKEZ: Akmola dış okrugu açılışı 22.8.1832 J (Yermekbay 2022: 'в 1832 г. - Акмолинский'; gün yerel arşiv aktarması) — BEYANLI YAKLAŞIKLIK (bölge noktası; coğrafî yakınlık ~590 km; Karkaralı ~720 km). · Sarısu (47N 67E, Ulutau/Merkezî Kazakistan) 1822-24 okruglarının dışında; Rus idaresi için aday ölçü 1868 Geçici Nizamname (21.10.1868 J = 1868-11-02 G; Turgay/Akmola oblastı; yürürlük 1869-05-01, e-history.kz 9196), ama Sarısu'nun hangi uyezde girdiği kaynakta bulunamadı. 1847 Kopal tarihi (Büyük Cüz) buraya uymuyor. Bakılan: e-history.kz 9196, Yermekbay 2022.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ABI_MERKEZ_BEYANLI"
+  }
+ ],
+ "Petropavlovsk (Kızılcar)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1752-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "1752-07-23",
+    "t": "1752-07-23"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Semenov A.I., 'Gorod Petropavlovsk za 200 let, 1752-1952' (pkzsk.info/osnovanie-petropavlovskoj-kreposti/ aktarımı)",
+   "alinti": "12 июля 1752 года на Ишиме, на 180 км. южнее старой линии, была заложена",
+   "tarayici_gerekli": false,
+   "not": "ÖLÇÜT: kale kuruluşu (kale ile kurulan yerleşim → kale günü). 12.7.1752 Jülyen = 1752-07-23 G (18. yy +11). Başka kaynak (Morozov) 6 Temmuz 1752 veriyor; Senato kararı 6.3.1752 (Yeni İşim Hattı). Aktarma gazete yazısı, kitap doğrudan görülmedi → ONERI; yıl 1752 ham metinde teyitli. Kazak hanlığı t 1752 künye içinde.",
+   "parti": "kz2"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1752-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "1752-07-23",
+    "t": "1752-07-23"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Semenov A.I., 'Gorod Petropavlovsk za 200 let, 1752-1952' (pkzsk.info/osnovanie-petropavlovskoj-kreposti/ aktarımı)",
+   "alinti": "12 июля 1752 года на Ишиме, на 180 км. южнее старой линии, была заложена",
+   "tarayici_gerekli": false,
+   "not": "ÖLÇÜT: kale kuruluşu (kale ile kurulan yerleşim → kale günü). 12.7.1752 Jülyen = 1752-07-23 G (18. yy +11). Başka kaynak (Morozov) 6 Temmuz 1752 veriyor; Senato kararı 6.3.1752 (Yeni İşim Hattı). Aktarma gazete yazısı, kitap doğrudan görülmedi → ONERI; yıl 1752 ham metinde teyitli. Kazak hanlığı t 1752 künye içinde. [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2"
+  }
+ ],
+ "Kökçetav (Kokçetav)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1824-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "1824-05-11",
+    "t": "1824-05-11"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "сего апреля в 29 день на основании высочайше утвержденного в 22 день июня 1822 года",
+   "tarayici_gerekli": false,
+   "not": "Ölçü: Orta Cüz yerleşimlerinde TEK ÖLÇÜ okrug (dış okrug prikazı) açılışı; 1822 Nizamnamesi hukukî çerçeve, tek başına yerleşimi Rus idaresine katmaz. ÖLÇÜT: idareye katma — Kökçetav dış okrug prikazı 1824-04-29 (Jülyen) törenle açıldı (Omsk bölge başkanının 30.4.1824 mektubu, makalede aynen). Rus kaynağı Jülyen kabul edildi (19. yy +12 gün). 1824-04-29 J = 1824-05-11 G. Statü günü ic_not: makale 22 Haziran 1822 diyor (PSZ I c.38 atfı), başka kaynaklar 22 Temmuz 1822 — gün çelişkisi çözülmedi. Künye içinde (kazak-hanligi t 1847, rusya f 1547).",
+   "parti": "kz2"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1824-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "1824-05-11",
+    "t": "1824-05-11"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "сего апреля в 29 день на основании высочайше утвержденного в 22 день июня 1822 года",
+   "tarayici_gerekli": false,
+   "not": "Ölçü: Orta Cüz yerleşimlerinde TEK ÖLÇÜ okrug (dış okrug prikazı) açılışı; 1822 Nizamnamesi hukukî çerçeve, tek başına yerleşimi Rus idaresine katmaz. ÖLÇÜT: idareye katma — Kökçetav dış okrug prikazı 1824-04-29 (Jülyen) törenle açıldı (Omsk bölge başkanının 30.4.1824 mektubu, makalede aynen). Rus kaynağı Jülyen kabul edildi (19. yy +12 gün). 1824-04-29 J = 1824-05-11 G. Statü günü ic_not: makale 22 Haziran 1822 diyor (PSZ I c.38 atfı), başka kaynaklar 22 Temmuz 1822 — gün çelişkisi çözülmedi. Künye içinde (kazak-hanligi t 1847, rusya f 1547). [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2"
+  }
+ ],
+ "Akmola (Akmolinsk)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1830-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "d": "kazak-hanligi",
+    "t": "1830-06-30",
+    "kur": "1830-06-30",
+    "kirp_oncesi": true
+   },
+   "kaynak2": "Yermekbay 2022 (okrug 1832) + astana2030.narod.ru (Şubin raporu 22.8.1832)",
+   "alinti2": "1832 года августа в 22-й день поутру в 10 часов собрался пред линиею казармы весь отряд",
+   "kaynak": "e-history.kz 'History of Astana' https://e-history.kz/en/history-of-kazakhstan/show/9740 (yıl); gün için yerel tarih yazısı astana2030.narod.ru/out/akmolprikaz.html (arşiv belgelerine dayanan Şubin araştırması)",
+   "alinti": "18 июня 1830 года (по новому стилю 1 июля) можно считать днем основания Акмолинска",
+   "tarayici_gerekli": false,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): Akmola kale = yerleşimin doğuşu: kur 1830-06-30 G (18.6.1830 J); kale öncesi kazak dilimi kırpılır (Irgiz/Turgay emsali). Okrug 22.8.1832 J = 1832-09-03 G ic_not'a. · TEK ÖLÇÜ seçimi: yerleşim KALE ile kuruldu (Şubin müfrezesi, Kara-Utkul) → kale günü esas. Kale: 18.6.1830 J; site 'yeni stil 1 Temmuz' diyor ama 19. yy farkı 12 gün: 1830-06-30 G (site 13 sayıyor, beyan). Okrug/prikaz açılışı 22.8.1832 J = 1832-09-03 G (e-history.kz calendar/27379 + Şubin raporu) ic_not. Okrug ölçüsü seçilirse f=1832-09-03; EMRELİC karar versin. Gün kaynağı akademik değil (yerel tarih, arşiv aktarımı) → ONERI. Yıl 1830 e-history.kz ile ham metinde teyitli.",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1830-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "d": "rusya",
+    "f": "1830-06-30",
+    "t": "1917-03-15",
+    "kur": "1830-06-30"
+   },
+   "kaynak2": "Yermekbay 2022 (okrug 1832) + astana2030.narod.ru (Şubin raporu 22.8.1832)",
+   "alinti2": "1832 года августа в 22-й день поутру в 10 часов собрался пред линиею казармы весь отряд",
+   "kaynak": "e-history.kz 'History of Astana' https://e-history.kz/en/history-of-kazakhstan/show/9740 (yıl); gün için yerel tarih yazısı astana2030.narod.ru/out/akmolprikaz.html (arşiv belgelerine dayanan Şubin araştırması)",
+   "alinti": "18 июня 1830 года (по новому стилю 1 июля) можно считать днем основания Акмолинска",
+   "tarayici_gerekli": false,
+   "not": "EMRELİC gece-94 (5 Kasım 2026): s: rusya kur'dan, 1830-06-30 G. Okrug 1832-09-03 G ic_not'a. · TEK ÖLÇÜ seçimi: yerleşim KALE ile kuruldu (Şubin müfrezesi, Kara-Utkul) → kale günü esas. Kale: 18.6.1830 J; site 'yeni stil 1 Temmuz' diyor ama 19. yy farkı 12 gün: 1830-06-30 G (site 13 sayıyor, beyan). Okrug/prikaz açılışı 22.8.1832 J = 1832-09-03 G (e-history.kz calendar/27379 + Şubin raporu) ic_not. Okrug ölçüsü seçilirse f=1832-09-03; EMRELİC karar versin. Gün kaynağı akademik değil (yerel tarih, arşiv aktarımı) → ONERI. Yıl 1830 e-history.kz ile ham metinde teyitli. [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2",
+   "karar": "EMRELİC gece-94",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Karkaralinsk (Karkaralı)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1824-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "1824-04-20",
+    "t": "1824-04-20"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "e-history.kz (Kazakistan devlet tarih portalı), 'Karkaraly: a crown pearl of Kazakh soil', 24.06.2018, https://e-history.kz/en/news/show/7628; yıl için Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "on April 8, 1824, a decree was issued on the formation of the Karkaraly district",
+   "tarayici_gerekli": false,
+   "not": "Ölçü: Orta Cüz yerleşimlerinde TEK ÖLÇÜ okrug (dış okrug prikazı) açılışı; 1822 Nizamnamesi hukukî çerçeve, tek başına yerleşimi Rus idaresine katmaz. ÖLÇÜT: idareye katma — okrug oluşumu 1824-04-08 (portal; 'okrug ve prikazın tören açılışı' da diyor, Senato onayı 24 Temmuz 1824). Takvim belirtilmemiş; Jülyen varsayıldı: 1824-04-08 J = 1824-04-20 G. Yıl düzeyi Yermekbay 2022 ile ikinci kaynakta teyitli (1824). Gün tek portal kaynağına dayanıyor; akademik ikinci teyit bulunamadı.",
+   "parti": "kz2"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1824-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {
+    "f": "1824-04-20",
+    "t": "1824-04-20"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "e-history.kz (Kazakistan devlet tarih portalı), 'Karkaraly: a crown pearl of Kazakh soil', 24.06.2018, https://e-history.kz/en/news/show/7628; yıl için Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "on April 8, 1824, a decree was issued on the formation of the Karkaraly district",
+   "tarayici_gerekli": false,
+   "not": "Ölçü: Orta Cüz yerleşimlerinde TEK ÖLÇÜ okrug (dış okrug prikazı) açılışı; 1822 Nizamnamesi hukukî çerçeve, tek başına yerleşimi Rus idaresine katmaz. ÖLÇÜT: idareye katma — okrug oluşumu 1824-04-08 (portal; 'okrug ve prikazın tören açılışı' da diyor, Senato onayı 24 Temmuz 1824). Takvim belirtilmemiş; Jülyen varsayıldı: 1824-04-08 J = 1824-04-20 G. Yıl düzeyi Yermekbay 2022 ile ikinci kaynakta teyitli (1824). Gün tek portal kaynağına dayanıyor; akademik ikinci teyit bulunamadı. [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2"
+  }
+ ],
+ "Ayagöz (Sergiopol)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1500-01-01",
+   "t": "1831-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "в 1831 г. - Аягузский, в 1832 г. - Акмолинский и Аманкарагайский",
+   "tarayici_gerekli": true,
+   "not": "YIL düzeyi: Ayagöz dış okrugu 1831 (Yermekbay 2022); Ayagöz stanitsa 1831 (olketanu.pushkinlibrary.kz Ayagöz raion sayfası; aynı sayfa okrugu 1830, prikazı 1831 diyor — çelişki). Gün bulunamadı; 1831-01-01 yıl düzeyidir. Ölçü: Orta Cüz yerleşimlerinde TEK ÖLÇÜ okrug (dış okrug prikazı) açılışı; 1822 Nizamnamesi hukukî çerçeve, tek başına yerleşimi Rus idaresine katmaz. Bakılan: cyberleninka, olketanu, Rusça arama; Krasovskiy 'Oblast Sibirskikh kirgizov' (1868) okunamadı (tarayıcı gerekebilir).",
+   "parti": "kz2"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1831-01-01",
+   "t": "1917-03-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Yermekbay Zh.A., Ustav o sibirskikh kirgizakh 1822 g. i kazakhi Srednego zhuza, Izvestiya Irkutskogo gos. un-ta, Seriya Istoriya, 2022, t.41, s.7-13, https://cyberleninka.ru/article/n/ustav-o-sibirskih-kirgizah-1822-g-i-kazahi-srednego-zhuza",
+   "alinti": "в 1831 г. - Аягузский, в 1832 г. - Акмолинский и Аманкарагайский",
+   "tarayici_gerekli": true,
+   "not": "UMIT denetimi (5 Kasım 2026): uc f+t → f (rusya t 1917-03-15 bu kaynakla tarihlenmez; ülke düzeyi feragatname r8_039). · YIL düzeyi: Ayagöz dış okrugu 1831 (Yermekbay 2022); Ayagöz stanitsa 1831 (olketanu.pushkinlibrary.kz Ayagöz raion sayfası; aynı sayfa okrugu 1830, prikazı 1831 diyor — çelişki). Gün bulunamadı; 1831-01-01 yıl düzeyidir. Ölçü: Orta Cüz yerleşimlerinde TEK ÖLÇÜ okrug (dış okrug prikazı) açılışı; 1822 Nizamnamesi hukukî çerçeve, tek başına yerleşimi Rus idaresine katmaz. Bakılan: cyberleninka, olketanu, Rusça arama; Krasovskiy 'Oblast Sibirskikh kirgizov' (1868) okunamadı (tarayıcı gerekebilir). [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2"
+  }
+ ],
+ "Semipalatinsk": [
+  {
+   "dosya_satir": "yerlesimler_ek18.js",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1635-01-01",
+   "t": "1718-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "olketanu.pushkinlibrary.kz, 'Istoriya Semipalatinska (Semey)'; Semey Abay kütüphanesi semeylib.kz; Kasymbayev Zh., Istoriya goroda Semipalatinska (1718-1917), 1998 (atıf)",
+   "alinti": "Семипалатная крепость была основана царским воеводой Василием Чередовым и его отрядом в 1718 году",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · YIL düzeyi: kale 1718. Aynı sayfa takvimi '5 Ağustos' veriyor; takvim belirtilmemiş (Jülyen ise 1718-08-16 G) — gün teyitsiz, 1718-01-01 yıl düzeyinde kalır. Kale bugünkü yerinden 18 km aşağıdaydı. Cungar ucu: Cungar elinde şehir yoktu (Dorjinkit harabesi); cungar→rusya bağı akademik kaynakla ayrıca teyit edilmedi. cungar künye t 1758, uç içinde.",
+   "parti": "kz2",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  },
+  {
+   "dosya_satir": "yerlesimler_ek18.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1718-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "olketanu.pushkinlibrary.kz, 'Istoriya Semipalatinska (Semey)'; Semey Abay kütüphanesi semeylib.kz; Kasymbayev Zh., Istoriya goroda Semipalatinska (1718-1917), 1998 (atıf)",
+   "alinti": "Семипалатная крепость была основана царским воеводой Василием Чередовым и его отрядом в 1718 году",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · UMIT denetimi (5 Kasım 2026): uc f+t → f (rusya t 1917-03-15 bu kaynakla tarihlenmez; ülke düzeyi feragatname r8_039). · YIL düzeyi: kale 1718. Aynı sayfa takvimi '5 Ağustos' veriyor; takvim belirtilmemiş (Jülyen ise 1718-08-16 G) — gün teyitsiz, 1718-01-01 yıl düzeyinde kalır. Kale bugünkü yerinden 18 km aşağıdaydı. Cungar ucu: Cungar elinde şehir yoktu (Dorjinkit harabesi); cungar→rusya bağı akademik kaynakla ayrıca teyit edilmedi. cungar künye t 1758, uç içinde. [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Ust-Kamenogorsk": [
+  {
+   "dosya_satir": "yerlesimler_ek18.js",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1635-01-01",
+   "t": "1720-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Doğu Kazakistan kraevedeniye portalı olketanu.pushkinlibrary.kz, 'Ust-Kamenogorsk'",
+   "alinti": "В 1720 г. была основана крепость «Усть-Каменная»",
+   "tarayici_gerekli": true,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · YIL düzeyi: kale 1720 (Liharyov seferi). Arama özeti 20 Ağustos 1720 (alternatif 30 Ağustos) diyor ama ham metinle görülmedi → gün teyitsiz. Yerel portal, akademik değil; ikinci akademik kaynak bulunamadı (BAKILMADI: Kasymbayev vb. monografiler).",
+   "parti": "kz2",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  },
+  {
+   "dosya_satir": "yerlesimler_ek18.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1720-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Doğu Kazakistan kraevedeniye portalı olketanu.pushkinlibrary.kz, 'Ust-Kamenogorsk'",
+   "alinti": "В 1720 г. была основана крепость «Усть-Каменная»",
+   "tarayici_gerekli": true,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · UMIT denetimi (5 Kasım 2026): uc f+t → f (rusya t 1917-03-15 bu kaynakla tarihlenmez; ülke düzeyi feragatname r8_039). · YIL düzeyi: kale 1720 (Liharyov seferi). Arama özeti 20 Ağustos 1720 (alternatif 30 Ağustos) diyor ama ham metinle görülmedi → gün teyitsiz. Yerel portal, akademik değil; ikinci akademik kaynak bulunamadı (BAKILMADI: Kasymbayev vb. monografiler). [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Pavlodar (Koryakov)": [
+  {
+   "dosya_satir": "yerlesimler_ek18.js",
+   "alan": "s",
+   "d": "cungar",
+   "f": "1635-01-01",
+   "t": "1720-01-01",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "e-history.kz takvim, 'V 1720 g. byl obrazovan gorod Pavlodar', https://e-history.kz/ru/calendar/show/26935",
+   "alinti": "Город начинался с основания маленького форпоста Коряковский в 1720 году.",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · YIL düzeyi: Koryakovskiy forpost 1720; gün bulunamadı. Pavlodar adı 1861, stanitsa 1838 (arama özeti, ham görülmedi). Cungar ucu: cungar t 1758 künye içinde.",
+   "parti": "kz2",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  },
+  {
+   "dosya_satir": "yerlesimler_ek18.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1720-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {},
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "e-history.kz takvim, 'V 1720 g. byl obrazovan gorod Pavlodar', https://e-history.kz/ru/calendar/show/26935",
+   "alinti": "Город начинался с основания маленького форпоста Коряковский в 1720 году.",
+   "tarayici_gerekli": false,
+   "not": "UMIT denetimi (5 Kasım 2026): dayanak hakemli değil (yerel kütüphane/portal, e-history.kz resmî portal; TDV olayı tarihlemiyor) → ONERI-güçlü; yıl tutarlı. · UMIT denetimi (5 Kasım 2026): uc f+t → f (rusya t 1917-03-15 bu kaynakla tarihlenmez; ülke düzeyi feragatname r8_039). · YIL düzeyi: Koryakovskiy forpost 1720; gün bulunamadı. Pavlodar adı 1861, stanitsa 1838 (arama özeti, ham görülmedi). Cungar ucu: cungar t 1758 künye içinde. [Rus satırı: f önceki dönemin t'siyle aynı gün]",
+   "parti": "kz2",
+   "hukum_eski": "KAYNAKLI",
+   "_etiket": "ONERI_GUCLU"
+  }
+ ],
+ "Almatı (Vernıy)": [
+  {
+   "dosya_satir": "yerlesimler_ek14.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1758-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": {
+    "t": "1854-02-16"
+   },
+   "kaynak2": "TDV Kazakistan (Mehmet Saray), https://islamansiklopedisi.org.tr/kazakistan (ülke düzeyi, çelişki beyanı)",
+   "alinti2": "Rus Çarı I. Nikola, 22 Haziran 1854’te bir ferman çıkararak bütün Kazak topraklarının Rusya hâkimiyeti altına geçtiğini",
+   "kaynak": "e-history.kz (Qazaqstan tarihy portali), 'Osnovana voennaya krepost Verny', https://e-history.kz/ru/calendar/show/26863",
+   "alinti": "4 февраля 1854 года началась новая история города Алматы",
+   "tarayici_gerekli": false,
+   "not": "OLCU: kale kurulusu (Vernıy 1854), brif TEK OLCU. Rus varligi Almati'da 1854 kalesiyle baslar; 1847 Kopal'dan devralma Almati'ya ozgu degil. Gun e-history'de takvimsiz; 19. yy Rus kaynagi Julyen sayildi: Julyen 4 Subat = Gregoryen 16 Subat 1854 (takvim varsayimi; belirsizse yil duzeyi 1854). Tek kaynak Kazak tarih portali, akademik monografi degil, bagimsiz ikinci teyit yok => ONERI. KUNYE ASIMI; LAB: kazak-hanligi t 1847 -> 1854 uzatilmali (kunye t 1847). TDV ulke duzeyi 22 Haziran 1854 fermani (ayni yil) ic_not.",
+   "parti": "kz3"
+  },
+  {
+   "dosya_satir": "yerlesimler_ek14.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "f": "1854-02-16"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "e-history.kz (Qazaqstan tarihy portali), 'Osnovana voennaya krepost Verny', https://e-history.kz/ru/calendar/show/26863",
+   "alinti": "4 февраля 1854 года началась новая история города Алматы",
+   "tarayici_gerekli": false,
+   "not": "Onceki satirla birlikte tasinir: rusya f 1847-01-01 -> 1854-02-16 (Julyen 4 Subat). Insaat basladigi gun; kale hazir olusu 1854 gtizi. Kunye asimi LAB.",
+   "parti": "kz3"
+  }
+ ],
+ "Kopal (Kapal)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1758-01-01",
+   "t": "1847-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "tarayici_gerekli": false,
+   "not": "Önceki turun BULUNAMADI hükmü korunur. Büyük Cüz'ün Rus himayesi 1846 (cyclowiki: 'В 1846 г. состоялось официальное признание султанами и родоправителями казахов Старшего жуза протектората России'), hakemli karşılık bulunamadı. t=1846 mı 1847 mi: KASA kararı, kaynaksız.",
+   "parti": "kz4 (ek tur, gece-94)"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "f": "1847-01-01"
+   },
+   "kaynak2": "cyclowiki.org 'Semirechye' (vikisınıfı site, tek başına KAYNAKLI değil); ru.wikipedia 'Kapal (Zhetysuskaya oblast)' (teyit değil)",
+   "alinti2": "в 1847 г. к юго-востоку от озера Балхаш возведено первое военно-административное поселение — Капальское укрепление (с 1854 — г. Капал)",
+   "tarayici_gerekli": true,
+   "not": "ROGOZHINSKY 2021 SONUCU: Rogozhinsky A.E., 'От «Жетысу» до «Семиречья»: рождение и трансформация значений', Uchenye zapiski muzeya-zapovednika Tomskaya Pisanitsa, vyp. 14, 2021, s.160-170: ham metne ULAŞILAMADI (academia.edu robots yasak, researchgate 403, kazneb.kz tam sayı PDF'inde anahtar kelime bulunamadı/metin bozuk). Üstelik cyclowiki'de Rogozhinsky dipnotu [1] ETİMOLOJİ cümlesine bağlıdır; Kapal 1847 cümlesinin dipnotu [3] 'Капал: что осталось от первого русского города Семиречья?' başlıklı popüler yazıdır. Yani 'Rogozhinsky 2021' atfı Kapal 1847 için YANLIŞ ATIF olma ihtimali yüksek; makale toponim (Zhetysu/Semirechye) makalesi, kale kuruluşu için birincil dayanak görünmüyor. Öneri: Rogozhinsky atfı Kopal kaydından çıkarılsın. Kuruluş günü BULUNAMADI (ruwiki: 1847, 'по другим данным 1846', 10. Sibirya alayı 1. sotnyası, yesaul Nyuhalov; başka yerde Abakumov; inşaat bahar 1847; stanitsa 1848-50). Takvim belirsiz, yıl düzeyi 1847-01-01. Büyük Cüz 1846-48 idaresi için hakemli dayanak BULUNAMADI. Hakemli ipucu (tam metin okunamadı): SFU Journal (Tarasov) 'Elder Horde Kırgız idaresi yeni kurulan Kopal kalesinde kuruldu' (elib.sfu-kras.ru/bitstream/handle/2311/9494/10_Tarasev.pdf; sayfa.py'de anahtar bulunamadı, yalnız arama özeti).",
+   "parti": "kz4 (ek tur, gece-94)"
+  }
+ ],
+ "Sığnak (Sunak Kurgan)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1468-01-01",
+   "t": "1847-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "tarayici_gerekli": false,
+   "not": "Hokand dönemi Sığnak'a özgü kaynak bulunamadı. TDV hokand-hanligi: 1808 Taşkent+Çimkent+Sayram, 1814 Türkistan alındı, 'hanlığın kuzey sınırları batıda Siriderya'nın aşağı mecrasından doğuda İli'ye kadar uzandı' (Sığnak adı geçmez). BSE1 'Kokandskoe khanstvo': Ömer Han sınırı 'na S. do Chimkenta i Suzaka'. Sığnak'ı sayan kaynak yok; kazak-hanligi t=1847 Kopal devralması, Sığnak'a özgü değil. Sığnak/Sunak-ata 19. yy ortasında terk edilmiş (silkadv.com, popüler, tek başına değil).",
+   "parti": "kz4 (ek tur, gece-94)"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "tarayici_gerekli": true,
+   "not": "1847 dayanaksız. Rus alışı Türkistan (1864) çevresine bağlı olabilir ama Sığnak'ı anan hakemli kaynak çıkmadı (Halfin, Mikhailov, BSE1, ESBE, e-history 'SYGANAK' maddesi Sığnak'ın Rus alışını tarihlemez). Uydurma yok; tarayıcıyla Sır-Derya oblast kuruluş belgeleri / Lerch 1867 bakılmalı.",
+   "parti": "kz4 (ek tur, gece-94)"
+  }
+ ],
+ "Suzak (Sozak)": [
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "kazak-hanligi",
+   "f": "1465-01-01",
+   "t": "1847-01-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": [
+    {
+     "d": "kazak-hanligi",
+     "f": "1465-01-01",
+     "t": "?"
+    },
+    {
+     "d": "hokand",
+     "f": "?",
+     "t": "1864-01-01",
+     "not": "Hokand f: yalnız 1816-1821 aralığı (Ömer Han, BSE1); gün/yıl BULUNAMADI. Hokand künyesi 1710-01-01..1876-02-19 içinde."
+    },
+    {
+     "d": "rusya",
+     "f": "1864-01-01"
+    }
+   ],
+   "kaynak2": "BSE1 (Bolshaya Sovetskaya Entsiklopediya, 1. bas.) 'Kokandskoe khanstvo' (ru.wikisource.org/wiki/БСЭ1/Кокандское_ханство)",
+   "alinti2": "Свергший в 1816 Алим-хана Омар-хан в 1819 захватил у Бухары г. Туркестан и объявил о присвоении себе титула эмир-эль-муслимин (императора) и в торжественной обстановке надел тадж (корону). Пределы К. х. им были расширены: на С. до Чимкента и Сузака",
+   "tarayici_gerekli": true,
+   "not": "t=1847 YANLIŞ: Suzak 1847'de Rusya'ya geçmedi, Hokand idaresindeydi (Rus alışı 1863-64). Hokand'a geçiş için tek tanık BSE1 (ansiklopedi, hakemli değil): Ömer Han döneminde sınır Çimkent ve Suzak'a dek genişledi. TDV hokand-hanligi: Çimkent+Sayram 1808, Türkistan 1814 (Suzak yok); BSE1 ise Türkistan'ı 1819 der: iki kaynak çelişir (TDV esas). Hokand f günü BULUNAMADI; oneri_son'daki '?' KASA'nın yıl kararıdır (TDV'ye göre en erken 1808-1814 bandı, BSE1'e göre 1816-1821); beyanlı yaklaşıklık gerekir. Hokand sonu t=1864 aşağıdaki Rus f ile aynı.",
+   "parti": "kz4 (ek tur, gece-94)"
+  },
+  {
+   "dosya_satir": "yerlesimler_ortaasya3.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1847-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "f": "1864-01-01"
+   },
+   "kaynak2": "Halfin N.A., Politika Rossii v Srednei Azii (1857-1868), Moskva 1960, gl. IV (militera.lib.ru/research/halfin_na1/04.html); ek: A.A. Mikhailov, Bitva s pustynei, gl.5 (militera.lib.ru/h/mihaylov_aa2/05.html, popüler)",
+   "alinti2": "Неожиданные успехи отряда Черняева (хотя он и не «занял окончательно» Сузак) вызвали беспокойство Безака",
+   "tarayici_gerekli": false,
+   "not": "ÖLÇÜT: idareye katma. Kalıcı Rus yerleşimi 1864. 1863: Çernyayev'in keşif müfrezesi Suzak'a vardı, halk ayaklandı, Hokand garnizonu silah bıraktı, Rus tâbiliği istendi (Halfin; Mikhailov: Suzak 30 Mayıs 1863 Jülyen = 1863-06-11 Gregoryen, Çolak-Kurgan 8 Haziran 1863). Ama Halfin: Çernyayev Suzak'ı 'окончательно' ELE GEÇİRMEDİ; Milyutin raporu: 'с весны 1864 г. войска Оренбургского корпуса окончательно займут Сузак' (Halfin gl. IV); Mikhailov: Nur-Muhammed 1863 sonunda Suzak'ı ziyaret edip Hokand adına haraç topladı; 22 Mayıs 1864 (Jülyen) Verevkin müfrezesi Perovsk'tan Suzak'a yürüdü. Kesin 1864 günü bulunamadı, yıl düzeyi 1864-01-01. Alternatif (KASA seçer): 1863-06-11 (Gregoryen) 'Rus himayesi ilanı', ama kalıcı idare değil; seçilirse ic_not'ta iki gün + 'Hokand 1863-64 yeniden idare' beyanı. Mikhailov günleri Rus (Jülyen), +12. Hakemli ek: Vestnik RUDN, Ser. Istoriya Rossii 2014, 'General M.G. Chernyaev...' (cyberleninka): 1863'te Suzak ve Çulak-Kurgan işgal edildi, halk tâbiyet istedi (gün yok).",
+   "parti": "kz4 (ek tur, gece-94)"
+  }
+ ],
+ "Türkistan (Yesi)": [
+  {
+   "dosya_satir": "yerlesimler_ek15.js",
+   "alan": "s",
+   "d": "hokand",
+   "f": "1815-01-01",
+   "t": "1864-06-12",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": {
+    "t": "1864-06-24"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Большая советская энциклопедия 3. bs. 'Туркестан (город)', https://booksite.ru/fulltext/1/001/008/112/948.htm",
+   "alinti": "В 1864 присоединён к России",
+   "tarayici_gerekli": false,
+   "not": "Hokand f 1815 bu gorevde BAKILMADI (yalniz t ucu). t: YIL KAYNAKLI (BSE ham metin). GUN yalniz arama ozetinde: BRE (bigenc.ru, 401, okunamadi) '12(24) iyunya 1864 ... Orenburg otryadi Verevkin'; ozet teyit degil. Atlas 1864-06-12 Julyen gunu cevrilmeden yazilmis; Gregoryen 1864-06-24. Ic tutarlilik: Aulie-Ata 4 Haziran + 8 gun (onwar.com) = 12 Haziran Julyen. OLCU: fetih/fiili idare.",
+   "parti": "kz3"
+  },
+  {
+   "dosya_satir": "yerlesimler_ek15.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1864-06-12",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "f": "1864-06-24"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Большая советская энциклопедия 3. bs. 'Туркестан (город)', https://booksite.ru/fulltext/1/001/008/112/948.htm",
+   "alinti": "В 1864 присоединён к России",
+   "tarayici_gerekli": true,
+   "not": "Ayni; yil KAYNAKLI, gun ONERI (Julyen 12 Haziran = Gregoryen 24 Haziran 1864).",
+   "parti": "kz3"
+  }
+ ],
+ "Çimkent": [
+  {
+   "dosya_satir": "yerlesimler_ek15.js",
+   "alan": "s",
+   "d": "hokand",
+   "f": "1815-01-01",
+   "t": "1864-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": {
+    "t": "1864-10-04"
+   },
+   "kaynak2": "TDV Çimkent, https://islamansiklopedisi.org.tr/cimkent",
+   "alinti2": "7 Temmuz 1864’te Ruslar buraya karşı hücuma geçtilerse de bir hafta süren mücadeleden sonra geri püskürtüldüler.",
+   "kaynak": "Путеводитель по Туркестану, 9. bs. 1916 (Dmitriev-Mamonov), informburo.kz aktarimi: https://informburo.kz/stati/kak-100-let-nazad-chimkent-spasal-tashkent-i-evropu.html ; onwar.com/data/russokokandian1864.html",
+   "alinti": "взятая русскими войсками, под начальством генерала Черняева, 22 сентября 1864 г.",
+   "tarayici_gerekli": false,
+   "not": "22 Eylul 1864 teyit ama Julyen (Rus rehberi; Taskent saldirisi 2 Ekim Julyen = 14 Ekim Gregoryen ile tutarli): Gregoryen 1864-10-04 (22 Eyl + 12). Atlas 1864-09-22 Julyen cevrilmemis. Kaynak 1916 rehberi ve populer aktarim, akademik monografi degil => ONERI. TDV CELISKI BEYANI: TDV 7 Temmuz 1864 ilk Rus saldirisi, sonra Hokand-Buhara savasi, 18 gun savunma; teslim gunu vermez (Eylul'u anlatmaz). Ikincil: 19-25 Eylul kusatma (LoC harita, arama ozeti), 27 Eylul (Voennoe obozrenie, ozet). OLCU: fetih gunu.",
+   "parti": "kz3"
+  },
+  {
+   "dosya_satir": "yerlesimler_ek15.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1864-09-22",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "f": "1864-10-04"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "Путеводитель по Туркестану, 9. bs. 1916 (Dmitriev-Mamonov), informburo.kz aktarimi: https://informburo.kz/stati/kak-100-let-nazad-chimkent-spasal-tashkent-i-evropu.html ; onwar.com/data/russokokandian1864.html",
+   "alinti": "On September 22, 1864 Chernyayev's troops stormed Chimkent after a four day siege.",
+   "tarayici_gerekli": false,
+   "not": "Ayni: Julyen 22 Eylul = Gregoryen 4 Ekim 1864; hokand t ile birlikte tasinir. Rehber + onwar ayni gunu verir ama ikisi de akademik degil. 22 Eylul 1864 teyit ama Julyen (Rus rehberi; Taskent saldirisi 2 Ekim Julyen = 14 Ekim Gregoryen ile tutarli): Gregoryen 1864-10-04 (22 Eyl + 12). Atlas 1864-09-22 Julyen cevrilmemis. Kaynak 1916 rehberi ve populer aktarim, akademik monografi degil => ONERI. TDV CELISKI BEYANI: TDV 7 Temmuz 1864 ilk Rus saldirisi, sonra Hokand-Buhara savasi, 18 gun savunma; teslim gunu vermez (Eylul'u anlatmaz). Ikincil: 19-25 Eylul kusatma (LoC harita, arama ozeti), 27 Eylul (Voennoe obozrenie, ozet). OLCU: fetih gunu.",
+   "parti": "kz3"
+  }
+ ],
+ "Taraz (Evliya-Ata)": [
+  {
+   "dosya_satir": "yerlesimler_ok107.js",
+   "alan": "s",
+   "d": "hokand",
+   "f": "1815-01-01",
+   "t": "1864-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": {
+    "t": "1864-06-16"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "BRE 'Туркестанские походы' bigenc.ru (401; yalniz arama ozeti)",
+   "alinti": "",
+   "tarayici_gerekli": true,
+   "not": "Atlas Taraz'i Cimkent gunune (1864-09-22) baglamis; Aulie-Ata kalesi ayri alindi: Chernyaev 4 Haziran 1864 (Julyen) = Gregoryen 1864-06-16 (arama ozeti; ham metin okunamadi; onwar yalniz sirayi verir). Dogrulamak icin akademik ham kaynak (Becker; Terentiev) gerekir. Tarayici gerekli: bigenc.ru 401. Hukum ONERI, KAYNAKLI degil.",
+   "parti": "kz3"
+  },
+  {
+   "dosya_satir": "yerlesimler_ok107.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1864-09-22",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": {
+    "f": "1864-06-16"
+   },
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "BRE bigenc.ru (arama ozeti)",
+   "alinti": "",
+   "tarayici_gerekli": true,
+   "not": "Ayni: Julyen 4 Haziran = Gregoryen 16 Haziran 1864; gun ham metinle teyit edilmedi.",
+   "parti": "kz3"
+  }
+ ],
+ "Sayram (İsficâb)": [
+  {
+   "dosya_satir": "yerlesimler_ok107.js",
+   "alan": "s",
+   "d": "hokand",
+   "f": "1815-01-01",
+   "t": "1864-09-22",
+   "hukum": "ONERI",
+   "uc": "t",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "e-history.kz, Rakip Nasyrov 'Along the Great Silk Road' 1991 alintisi, https://e-history.kz/en/history-of-kazakhstan/show/9537",
+   "alinti": "Sairam turned into an ordinary Kokand fortress which in September 1864 was won by Russian troops",
+   "tarayici_gerekli": false,
+   "not": "Kaynak ay duzeyi (Eylul 1864, takvim belirtilmemis); gun YOK. Cimkent dususune yakin (15 km). Atlasin 1864-09-22 ucu Cimkent gunu devralmasi. Oneri: Cimkent ile ayni gun Gregoryen 1864-10-04 BEYANLI YAKLASIKLIK, ya da [yalniz ay]; ay Julyen'se Eylul = Eylul sonu/Ekim basi. Populer kaynak, zayif.",
+   "parti": "kz3"
+  },
+  {
+   "dosya_satir": "yerlesimler_ok107.js",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1864-09-22",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "oneri_son": null,
+   "kaynak2": "",
+   "alinti2": "",
+   "kaynak": "e-history.kz, Rakip Nasyrov 'Along the Great Silk Road' 1991 alintisi, https://e-history.kz/en/history-of-kazakhstan/show/9537",
+   "alinti": "in September 1864 was won by Russian troops",
+   "tarayici_gerekli": false,
+   "not": "Ayni; ay duzeyi, gun yok. Cimkent gunuyle hizalama onerilir (4 Ekim Greg.), beyanli yaklasiklik.",
+   "parti": "kz3"
+  }
+ ]
+}
