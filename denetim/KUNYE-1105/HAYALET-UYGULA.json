@@ -669,5 +669,60 @@
   "islem": "devletler.js san-devletleri 'Şan Beylikleri (Sawbwa'lıklar)' (:7463) t → 1948-01-04 (1923-10-29 UFUK-1923 pencere ucu artefaktıydı). ic_not_t: '1922 Federe Şan Devletleri; 1948-01-04 Birmanya Birliği'nin kurucu devleti; 1959-04-24 sawbwa yetki devri (iç reform)'. Yerleşimler: 1923–1948 s: san-devletleri + v: ingiltere; 1942–45 isg japonya; Kengtung ve Möngpan 1943 → 1945 isg tayland (gün kaynakla); 1948-01-04'ten s: myanmar-birmanya (künye f 1948-01-04 — LAB ölçümü, bitişik), v: yok. EMRELİC KARARI (TEK PARTİ, künye t ile birlikte): 4 yerleşim — Kengtung, Kalaw, Lashio (Kuzey Hsenwi), Namkham: s: san-devletleri 1948-01-04'e uzar; ingiliz-burma s: 1923-10-29 → 1948-01-04 dilimi ve artefakt kırılması KALKAR; v: ingiliz-burma sawbwa'lığın İngiliz'e bağlanış gününden (1887–88, yerleşime göre kaynakla; bulunmazsa ülke düzeyi + beyan) → 1948-01-04 (gerekçe: himaye kuralı; 1887–1923 'yalnız s: san' eksik uygulamaydı); isg meiji-japonya 1942 → 1945 (yerleşime özgü giriş ve geri alış günleri kaynakla); Kengtung'da o dilimde isg tayland 1943 → 1945 (Saharat Thai Doem) Japon isg yerine; 1948-01-04'ten s: myanmar-birmanya (mevcut). LOIKAW (Karenni, Şan değil): karenni künyesi gelene dek mevcut s: meiji-japonya dilimi → isg meiji-japonya (altında s: ingiliz-burma sürer). Ning'er: DOKUNULMAZ. DEĞİŞMEZ 2 (LAB PAZAR ölçümü origin/main): 1942–1945 Birmanya/Şan/Kengtung-Tayland maddesi YOK; yalnız 1948-01-04 bağımsızlık maddesi VAR (kronoloji_sinir_halef_1923_2000.js:88) → madde önerileri: 1942 Japon girişi (Şan şehirleri), 1943 Saharat Thai Doem (Kengtung, Möngpan Tayland'a), 1945 geri alış — isg kırılmaları D2'de sayılıyorsa ŞART.",
   "dayanak": "EMRELİC kararı (LAB PAZAR iletimi)",
   "onay": "EMRELİC 6 Kasım"
+ },
+ {
+  "d": "herero (Otjimbingve)",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "Otjimbingve: s: herero + v: almanya 1885-10-21 → 1888-10-30 (fesih, v: yok) → 1890 yeniden v: almanya → 1904-01-11; 1904-01-12'den s: alman-guneybati-afrikasi (savaş boyunca Alman istasyonu — kaynakla; teyitsizse 1904-01-12 → 1904-08-11 isg alman-guneybati-afrikasi ONERI). Gerekçe (EMRELİC gece-107): ayaklanmayla Herero polity'si Alman bağından koptu; savaş ayrı egemenlik dilimi değil.",
+  "kunye": "herero t 1904-01-12 KALIR (GENİŞLETME YOK)",
+  "gun": "1904-01-12",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-107",
+  "onay": "EMRELİC 6 Kasım gece-107"
+ },
+ {
+  "d": "Pahang",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "Pahang (Pekan, Kuantan …): 1887-10-08 → 1896-06-30 s: malay-sultanliklari + v: ingiltere; 1896-07-01'den s: fed-malay-devletleri + v: ingiltere (LAB ölçümü: fed-malay-devletleri ozet'i yalnız '1896 Federasyon Antlaşması; 1946'da Malaya Birliği'ne katıldı' — İngiliz himayesini İÇERMİYOR → v: ingiltere 1896 sonrası da sürer; Perak/Selangor ile tutarlı uygulanmalı). Ayrı pahang-sultanligi Emre'nin dolaylı idare kararına bağlı.",
+  "kunye": "yeni künye açılmaz",
+  "gun": "1887-10-08",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-107 (LAB önerisi onaylı)",
+  "onay": "EMRELİC 6 Kasım gece-107"
+ },
+ {
+  "d": "fransiz-komorlari (f) / Komor sultanlıkları",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "devletler.js fransiz-komorlari (:14838) f → 1886-01-06 (himaye; gün kaynakla). Moroni (Ngazidja): s: komor-sultanliklari (künye adayı — açılana dek BEYANLI) + v: fransiz-komorlari 1886-01-06 → 1912-07-24; 1912-07-25'ten s: fransiz-komorlari (ilhak).",
+  "kunye": "fransiz-komorlari f 1886-01-01 → 1886-01-06",
+  "gun": "1886-01-06",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-107",
+  "onay": "EMRELİC 6 Kasım gece-107"
+ },
+ {
+  "d": "tacure-sultanligi (Obok)",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "Obok: atlastaki 'adal' sahipliği KALKAR → 1862-03-10'a dek tacure-sultanligi (künye adayı — açılana dek BEYANLI); 1862-03-11 Fransa'ya satış (fiilî Fransız iskânı 1884 — kaynakla; arada beyanlı).",
+  "kunye": "aday (YENI-KUNYE-ADAY)",
+  "gun": "1862-03-11",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-107",
+  "onay": "EMRELİC 6 Kasım gece-107"
+ },
+ {
+  "d": "Alta California (Los Angeles, Monterey)",
+  "tur": "KUNYE/YERLESIM",
+  "karar": "EMRELİC",
+  "islem": "Los Angeles, Monterey ve öteki Alta California yerleşimleri: yeni-ispanya → 1822-04-10, s: meksika 1822-04-11'den (TEK ÖLÇÜ fiilî: Monterey'de bağımsızlık yemini — gün kaynakla, Bancroft / California Historical Society); 1821-09-27 → 1822-04-10 dilimi yeni-ispanya'da kalırsa künye t 1821-09-27'yi AŞAR → o dilim beyanlı 'İspanyol idaresi fiilen sürdü' (künye t aşımı hayalet) ya da ic_not. Değişmez 2: 1822-04-11 maddesi ölçülmeli.",
+  "kunye": "künye değişmez (meksika f 1821-09-27)",
+  "gun": "1822-04-11",
+  "guc": "ORTA",
+  "dayanak": "EMRELİC gece-107",
+  "onay": "EMRELİC 6 Kasım gece-107"
  }
 ]
