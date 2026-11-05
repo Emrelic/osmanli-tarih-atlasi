@@ -11,7 +11,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Hicaz», https://islamansiklopedisi.org.tr/hicaz",
    "alinti": "bölge Yavuz Sultan Selim’in Mısır’ı fethine kadar (1517) Memlük hâkimiyetinde kalmaya devam etti",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (yıl 1517; atlas 1517-07-06 gün teyitsiz). BÖLGE DÜZEYİ (Hicaz); el-Vech adı geçmez. TDV «Hicaz» sınırı kuzeyde Akabe muhafızlığına kadar sayar, el-Vech bölge içindedir. Memlük f 1281 ufuk işaretidir."
+   "not": "KARAR EMRELİC (gece-96): Arap İsyanı 1917-01-24 (rakip hükûmet, fiilî) → s: hicaz-kralligi; Vikipedi ipucu → ONERI, akademik teyit (Murphy/Barr ya da TDV Vech). | alıntı yalnız t ucunu tarihliyor (yıl 1517; atlas 1517-07-06 gün teyitsiz). BÖLGE DÜZEYİ (Hicaz); el-Vech adı geçmez. TDV «Hicaz» sınırı kuzeyde Akabe muhafızlığına kadar sayar, el-Vech bölge içindedir. Memlük f 1281 ufuk işaretidir."
   },
   {
    "dosya_satir": "data/yerlesimler_ok101.js:95",
@@ -19,12 +19,14 @@
    "d": "OSMANLI",
    "f": "1517-07-06",
    "t": "1918-01-01",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "TDV İslâm Ansiklopedisi, «Hicaz», https://islamansiklopedisi.org.tr/hicaz",
    "alinti": "Yavuz Sultan Selim’in Mısır’ı fethinden (1517) sonra “sulhen” ve “teyemmünen” Osmanlı yönetimine geçen Hicaz’da",
-   "oneri": {},
-   "not": "BÖLGE DÜZEYİ, yalnız yıl 1517 (gün 1517-07-06 teyitsiz); el-Vech adı geçmez. UYARI t ucu: Osmanlı d t 1918-01-01 atlasta, ama el-Vech Arap İsyanı sırasında Ocak 1917’de elden çıkmış olabilir (Vikipedi/London Gazette ipucu: 1917-01-24, kaynak okunamadı), bkz. 843."
+   "oneri": {
+    "t": "1917-01-24"
+   },
+   "not": "KARAR EMRELİC (gece-96): Arap İsyanı 1917-01-24 (rakip hükûmet, fiilî) → s: hicaz-kralligi; Vikipedi ipucu → ONERI, akademik teyit (Murphy/Barr ya da TDV Vech). | BÖLGE DÜZEYİ, yalnız yıl 1517 (gün 1517-07-06 teyitsiz); el-Vech adı geçmez. UYARI t ucu: Osmanlı d t 1918-01-01 atlasta, ama el-Vech Arap İsyanı sırasında Ocak 1917’de elden çıkmış olabilir (Vikipedi/London Gazette ipucu: 1917-01-24, kaynak okunamadı), bkz. 843."
   },
   {
    "dosya_satir": "data/yerlesimler_ok101.js:95",
@@ -32,12 +34,14 @@
    "d": "hicaz-kralligi",
    "f": "1918-01-01",
    "t": "1925-12-19",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "Bakılan yerler: TDV «Şerîf Hüseyin» (Veç/Vecih geçmez; yalnız Akabe üzerinden sürgün ve Mekke 16 Ekim 1924), TDV «Hicaz» (Veç yok), London Gazette 31690 suppl. 15606 (sayfa.py: Wejh yok), WebSearch (yalnız Vikipedi/ayna siteler)",
    "alinti": "",
-   "oneri": {},
-   "not": "Baktığım yerler: TDV «Şerîf Hüseyin» (Veç/Vecih geçmez; yalnız Akabe üzerinden sürgün ve Mekke 16 Ekim 1924), TDV «Hicaz» (Veç yok), London Gazette 31690 suppl. 15606 (sayfa.py: Wejh yok), WebSearch (yalnız Vikipedi/ayna siteler). İPUCU (kaynak değil): Vikipedi «Capture of Wejh» el-Vech’in 23-24 Ocak 1917’de Şerifî güçlerce Kraliyet Donanması desteğiyle alındığını yazıyor; öyleyse hicaz-kralligi f 1918-01-01 geç, Osmanlı d t 1918-01-01 uzun olabilir. Akademik kaynakla teyit gerekir. Künye hicaz-kralligi f 1916-06-10 bu günü kapsar."
+   "oneri": {
+    "f": "1917-01-24"
+   },
+   "not": "KARAR EMRELİC (gece-96): Arap İsyanı 1917-01-24 (rakip hükûmet, fiilî) → s: hicaz-kralligi; Vikipedi ipucu → ONERI, akademik teyit (Murphy/Barr ya da TDV Vech). | Baktığım yerler: TDV «Şerîf Hüseyin» (Veç/Vecih geçmez; yalnız Akabe üzerinden sürgün ve Mekke 16 Ekim 1924), TDV «Hicaz» (Veç yok), London Gazette 31690 suppl. 15606 (sayfa.py: Wejh yok), WebSearch (yalnız Vikipedi/ayna siteler). İPUCU (kaynak değil): Vikipedi «Capture of Wejh» el-Vech’in 23-24 Ocak 1917’de Şerifî güçlerce Kraliyet Donanması desteğiyle alındığını yazıyor; öyleyse hicaz-kralligi f 1918-01-01 geç, Osmanlı d t 1918-01-01 uzun olabilir. Akademik kaynakla teyit gerekir. Künye hicaz-kralligi f 1916-06-10 bu günü kapsar."
   },
   {
    "dosya_satir": "data/yerlesimler_ok101.js:95",
@@ -50,7 +54,7 @@
    "kaynak": "Bakılan yerler: TDV «Şerîf Hüseyin» (yalnız Mekke kuşatması, 16 Ekim 1924), TDV «Hicaz» (1925 Cidde teslimi bulunamadı)",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: TDV «Şerîf Hüseyin» (yalnız Mekke kuşatması, 16 Ekim 1924), TDV «Hicaz» (1925 Cidde teslimi bulunamadı). Cidde teslimi 1925-12-19 el-Vech için okunmadı; kuzey Hicaz limanlarının Suûdî’ye geçiş günü ayrı olabilir"
+   "not": "KARAR EMRELİC (gece-96): Arap İsyanı 1917-01-24 (rakip hükûmet, fiilî) → s: hicaz-kralligi; Vikipedi ipucu → ONERI, akademik teyit (Murphy/Barr ya da TDV Vech). | Baktığım yerler: TDV «Şerîf Hüseyin» (yalnız Mekke kuşatması, 16 Ekim 1924), TDV «Hicaz» (1925 Cidde teslimi bulunamadı). Cidde teslimi 1925-12-19 el-Vech için okunmadı; kuzey Hicaz limanlarının Suûdî’ye geçiş günü ayrı olabilir"
   },
   {
    "dosya_satir": "data/yerlesimler_ok101.js:95",
@@ -63,7 +67,7 @@
    "kaynak": "U.S. Department of State, Office of the Historian, Countries: Saudi Arabia, https://history.state.gov/countries/saudi-arabia",
    "alinti": "changed to the Kingdom of Saudi Arabia by a decree of September 18, 1932",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: devlet adı değişimi (Hicaz-Necid Krallığı → Suudi Arabistan), aynı devletin devamı; el-Vech adı geçmez."
+   "not": "KARAR EMRELİC (gece-96): Arap İsyanı 1917-01-24 (rakip hükûmet, fiilî) → s: hicaz-kralligi; Vikipedi ipucu → ONERI, akademik teyit (Murphy/Barr ya da TDV Vech). | ÜLKE DÜZEYİ: devlet adı değişimi (Hicaz-Necid Krallığı → Suudi Arabistan), aynı devletin devamı; el-Vech adı geçmez."
   }
  ],
  "Čakovec (Csáktornya)": [
@@ -78,7 +82,7 @@
    "kaynak": "Bakılan yerler: TDV arama «cakovec» (madde yok), TDV «Hırvatistan» (Mohaç sonrası Hırvat seçimi 1527 geçer, Međimurje/Čakovec yok), WebSearch (Vikipedi/ayna siteler; Hrvatska enciklopedija SSL ve core.ac.uk kapalı)",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: TDV arama «cakovec» (madde yok), TDV «Hırvatistan» (Mohaç sonrası Hırvat seçimi 1527 geçer, Međimurje/Čakovec yok), WebSearch (Vikipedi/ayna siteler; Hrvatska enciklopedija SSL ve core.ac.uk kapalı). Međimurje’nin Mohaç günü (1526-08-29) taç değişimiyle bağı yerleşim düzeyinde okunmadı"
+   "not": "KARAR EMRELİC (gece-96): Yugoslavya: 1943-11-29 AVNOJ ve 1945-11-29 FNRJ ayrı olaylar; künye f 1945-11-29 kalır, 1943 ic_not. | Baktığım yerler: TDV arama «cakovec» (madde yok), TDV «Hırvatistan» (Mohaç sonrası Hırvat seçimi 1527 geçer, Međimurje/Čakovec yok), WebSearch (Vikipedi/ayna siteler; Hrvatska enciklopedija SSL ve core.ac.uk kapalı). Međimurje’nin Mohaç günü (1526-08-29) taç değişimiyle bağı yerleşim düzeyinde okunmadı"
   },
   {
    "dosya_satir": "data/yerlesimler_p77_avrupa.js:32",
@@ -91,7 +95,7 @@
    "kaynak": "Bakılan yerler: TDV arama «cakovec» (madde yok), Vuk 2019 (hrcak 328267, WebFetch özeti: yalnız 1918 işgali)",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: TDV arama «cakovec» (madde yok), Vuk 2019 (hrcak 328267, WebFetch özeti: yalnız 1918 işgali). f 1526-08-29 ve t 1918-11-16 ülke düzeyi künye uçlarıdır; Čakovec için gün tanıklığı yok. Vuk 2019: Macar yönetimi Čakovec’te 1918-12-24’e kadar sürdü (WebFetch özeti), macaristan-naiplik dönemiyle uyumlu"
+   "not": "KARAR EMRELİC (gece-96): Yugoslavya: 1943-11-29 AVNOJ ve 1945-11-29 FNRJ ayrı olaylar; künye f 1945-11-29 kalır, 1943 ic_not. | Baktığım yerler: TDV arama «cakovec» (madde yok), Vuk 2019 (hrcak 328267, WebFetch özeti: yalnız 1918 işgali). f 1526-08-29 ve t 1918-11-16 ülke düzeyi künye uçlarıdır; Čakovec için gün tanıklığı yok. Vuk 2019: Macar yönetimi Čakovec’te 1918-12-24’e kadar sürdü (WebFetch özeti), macaristan-naiplik dönemiyle uyumlu"
   },
   {
    "dosya_satir": "data/yerlesimler_p77_avrupa.js:32",
@@ -104,7 +108,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Macaristan», https://islamansiklopedisi.org.tr/macaristan",
    "alinti": "4 Haziran günü imzalanan Trianon Antlaşması gereğince Macaristan toprak ve insan kaybına uğradı",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ: Trianon imza günü 4 Haziran (yıl 1920 bağlamdan: TDV aynı paragrafta 1 Mart 1920 Horthy naipliğini anar). Čakovec/Međimurje adı geçmez. TEK ÖLÇÜ: Yugoslav ordusu Međimurje’yi 24 Aralık 1918’de fiilen işgal etmişti (Vuk, Časopis za suvremenu povijest 51/2, 2019, WebFetch özeti: occupied Međimurje without facing any resistance), yani devralan toprağı zaten yönetiyordu, imza günü 1920-06-04 (atlasla uyumlu). Fiilî 1918-12-24 işgali ayrı isg katmanı sorusudur."
+   "not": "KARAR EMRELİC (gece-96): Yugoslavya: 1943-11-29 AVNOJ ve 1945-11-29 FNRJ ayrı olaylar; künye f 1945-11-29 kalır, 1943 ic_not. | ÜLKE DÜZEYİ: Trianon imza günü 4 Haziran (yıl 1920 bağlamdan: TDV aynı paragrafta 1 Mart 1920 Horthy naipliğini anar). Čakovec/Međimurje adı geçmez. TEK ÖLÇÜ: Yugoslav ordusu Međimurje’yi 24 Aralık 1918’de fiilen işgal etmişti (Vuk, Časopis za suvremenu povijest 51/2, 2019, WebFetch özeti: occupied Međimurje without facing any resistance), yani devralan toprağı zaten yönetiyordu, imza günü 1920-06-04 (atlasla uyumlu). Fiilî 1918-12-24 işgali ayrı isg katmanı sorusudur."
   },
   {
    "dosya_satir": "data/yerlesimler_p77_avrupa.js:32",
@@ -117,7 +121,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Yugoslavya», https://islamansiklopedisi.org.tr/yugoslavya",
    "alinti": "29 Kasım 1943’te krallığa son verilerek Federatif Yugoslavya Halk Cumhuriyeti",
    "oneri": {},
-   "not": "TDV «Yugoslavya» (https://islamansiklopedisi.org.tr/yugoslavya) şunu yazıyor: «29 Kasım 1943’te krallığa son verilerek Federatif Yugoslavya Halk Cumhuriyeti … ilân edildi» (aynı cümlede devletin adı «[1945-1963]» diye veriliyor; 1943 büyük olasılıkla yazım hatası: AVNOJ Jajce 1943 ile cumhuriyet ilanı 1945-11-29 ayrı olaylar). Atlas günü 1945-11-29’u TDV tek başına doğrulamıyor, çürütmüyor da; gün ayrı kaynakla aranmalı. ÜLKE DÜZEYİ. Čakovec adı geçmez."
+   "not": "KARAR EMRELİC (gece-96): Yugoslavya: 1943-11-29 AVNOJ ve 1945-11-29 FNRJ ayrı olaylar; künye f 1945-11-29 kalır, 1943 ic_not. | TDV «Yugoslavya» (https://islamansiklopedisi.org.tr/yugoslavya) şunu yazıyor: «29 Kasım 1943’te krallığa son verilerek Federatif Yugoslavya Halk Cumhuriyeti … ilân edildi» (aynı cümlede devletin adı «[1945-1963]» diye veriliyor; 1943 büyük olasılıkla yazım hatası: AVNOJ Jajce 1943 ile cumhuriyet ilanı 1945-11-29 ayrı olaylar). Atlas günü 1945-11-29’u TDV tek başına doğrulamıyor, çürütmüyor da; gün ayrı kaynakla aranmalı. ÜLKE DÜZEYİ. Čakovec adı geçmez."
   },
   {
    "dosya_satir": "data/yerlesimler_p77_avrupa.js:32",
@@ -130,7 +134,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Hırvatistan» (N. Moačanin), https://islamansiklopedisi.org.tr/hirvatistan",
    "alinti": "iktidara gelip 25 Haziran 1991’de bağımsızlığını ilân etti",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ, bağımsızlık ilanı günü (ic_not: uluslararası tanınma Ocak 1992, BM üyeliği 22 Mayıs 1992 - TDV). Čakovec adı geçmez."
+   "not": "KARAR EMRELİC (gece-96): Yugoslavya: 1943-11-29 AVNOJ ve 1945-11-29 FNRJ ayrı olaylar; künye f 1945-11-29 kalır, 1943 ic_not. | ÜLKE DÜZEYİ, bağımsızlık ilanı günü (ic_not: uluslararası tanınma Ocak 1992, BM üyeliği 22 Mayıs 1992 - TDV). Čakovec adı geçmez."
   }
  ],
  "Şibenik (Sebenico)": [
@@ -184,7 +188,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Yugoslavya», https://islamansiklopedisi.org.tr/yugoslavya",
    "alinti": "29 Kasım 1943’te krallığa son verilerek Federatif Yugoslavya Halk Cumhuriyeti",
    "oneri": {},
-   "not": "TDV «Yugoslavya» (https://islamansiklopedisi.org.tr/yugoslavya) şunu yazıyor: «29 Kasım 1943’te krallığa son verilerek Federatif Yugoslavya Halk Cumhuriyeti … ilân edildi» (aynı cümlede devletin adı «[1945-1963]» diye veriliyor; 1943 büyük olasılıkla yazım hatası: AVNOJ Jajce 1943 ile cumhuriyet ilanı 1945-11-29 ayrı olaylar). Atlas günü 1945-11-29’u TDV tek başına doğrulamıyor, çürütmüyor da; gün ayrı kaynakla aranmalı. ÜLKE DÜZEYİ. Šibenik adı geçmez."
+   "not": "KARAR EMRELİC (gece-96): Yugoslavya: 1943-11-29 AVNOJ (Jajce, DF Yugoslavya ilanı) ve 1945-11-29 FNRJ ayrı olaylar; künye f 1945-11-29 kalır, 1943 ic_not; toprak devri yok, rejim. | TDV «Yugoslavya» (https://islamansiklopedisi.org.tr/yugoslavya) şunu yazıyor: «29 Kasım 1943’te krallığa son verilerek Federatif Yugoslavya Halk Cumhuriyeti … ilân edildi» (aynı cümlede devletin adı «[1945-1963]» diye veriliyor; 1943 büyük olasılıkla yazım hatası: AVNOJ Jajce 1943 ile cumhuriyet ilanı 1945-11-29 ayrı olaylar). Atlas günü 1945-11-29’u TDV tek başına doğrulamıyor, çürütmüyor da; gün ayrı kaynakla aranmalı. ÜLKE DÜZEYİ. Šibenik adı geçmez."
   },
   {
    "dosya_satir": "data/yerlesimler_ek.js:155",
@@ -322,7 +326,7 @@
    "kaynak": "Bakılan yerler: TDV «Yemen» (Şehâre/Şihâra/Şehara geçmez; 1872 yeni idarî yapı: San‘a, Asîr, Hudeyde, Taiz sancakları)",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: TDV «Yemen» (Şehâre/Şihâra/Şehara geçmez; 1872 yeni idarî yapı: San‘a, Asîr, Hudeyde, Taiz sancakları). Şehâre’nin 1872 Osmanlı dönüşüyle ilişkisi bulunamadı"
+   "not": "KARAR EMRELİC (gece-96): Mondros Yemen'de devir değil; TEK ÖLÇÜ teslim: garnizonların yerel teslimi / İmam'ın fiilî alışı (San'a 1918-11, kaynakla). Zeydî dağlık bölge: 1911 Da'an özerkliği (v: osmanli altında s: zeydî, kaynakla) → 1918-11. Mondros ic_not. Hudeyde 1918-12 İngiliz → 1921 İdrîsî. | Baktığım yerler: TDV «Yemen» (Şehâre/Şihâra/Şehara geçmez; 1872 yeni idarî yapı: San‘a, Asîr, Hudeyde, Taiz sancakları). Şehâre’nin 1872 Osmanlı dönüşüyle ilişkisi bulunamadı"
   },
   {
    "dosya_satir": "data/yerlesimler_ok104.js:233",
@@ -330,12 +334,15 @@
    "d": "OSMANLI",
    "f": "1872-04-01",
    "t": "1918-10-30",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "f+t",
    "kaynak": "Bakılan yerler: TDV «Yemen» (Şehâre geçmez; «Dân Antlaşması» ifadesi sayfada yok)",
    "alinti": "",
-   "oneri": {},
-   "not": "Baktığım yerler: TDV «Yemen» (Şehâre geçmez; «Dân Antlaşması» ifadesi sayfada yok). Zeydî dağ yurdunun (Şehâre) Osmanlı doğrudan idaresinde olup olmadığı şüpheli: İmam Yahyâ’nın kale-merkezi olabilir; hakemli kaynak okunmadı"
+   "oneri": {
+    "t": "1918-11 (San'a teslimi, kaynakla)",
+    "not": "1911 Da'an'dan s: yemen-zeydi + v: osmanli"
+   },
+   "not": "KARAR EMRELİC (gece-96): Mondros Yemen'de devir değil; TEK ÖLÇÜ teslim: garnizonların yerel teslimi / İmam'ın fiilî alışı (San'a 1918-11, kaynakla). Zeydî dağlık bölge: 1911 Da'an özerkliği (v: osmanli altında s: zeydî, kaynakla) → 1918-11. Mondros ic_not. Hudeyde 1918-12 İngiliz → 1921 İdrîsî. | Baktığım yerler: TDV «Yemen» (Şehâre geçmez; «Dân Antlaşması» ifadesi sayfada yok). Zeydî dağ yurdunun (Şehâre) Osmanlı doğrudan idaresinde olup olmadığı şüpheli: İmam Yahyâ’nın kale-merkezi olabilir; hakemli kaynak okunmadı"
   },
   {
    "dosya_satir": "data/yerlesimler_ok104.js:233",
@@ -347,8 +354,10 @@
    "uc": "f+t",
    "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
    "alinti": "Yemen’de Osmanlı hâkimiyeti Mondros Mütarekesi’nin ardından fiilen sona erdi",
-   "oneri": {},
-   "not": "f: TDV iki tarih veriyor: Mondros sonrası fiilî son ve «5 Mart 1919’da Yemen’de 3883 kişiden oluşan asker ve sivil memur kadrosu Hudeyde’de İngilizler’e teslim oldu»; İmam Yahyâ Zeydî Emirliği’ni Osmanlı idaresinin sona ermesinin ardından kurdu. Atlas 1918-10-30 Mondros imza günü; mütareke hukukî devir olmadığından f seçimi EMRELİC’indir. Şehâre adı geçmez, ÜLKE DÜZEYİ. t: TDV «hâkimiyetini 1962 yılına kadar devam ettiren … Zeydî İmâmeti» (yıl uyumlu; gün bkz. 865)."
+   "oneri": {
+    "f": "1918-11 (kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-96): Mondros Yemen'de devir değil; TEK ÖLÇÜ teslim: garnizonların yerel teslimi / İmam'ın fiilî alışı (San'a 1918-11, kaynakla). Zeydî dağlık bölge: 1911 Da'an özerkliği (v: osmanli altında s: zeydî, kaynakla) → 1918-11. Mondros ic_not. Hudeyde 1918-12 İngiliz → 1921 İdrîsî. | f: TDV iki tarih veriyor: Mondros sonrası fiilî son ve «5 Mart 1919’da Yemen’de 3883 kişiden oluşan asker ve sivil memur kadrosu Hudeyde’de İngilizler’e teslim oldu»; İmam Yahyâ Zeydî Emirliği’ni Osmanlı idaresinin sona ermesinin ardından kurdu. Atlas 1918-10-30 Mondros imza günü; mütareke hukukî devir olmadığından f seçimi EMRELİC’indir. Şehâre adı geçmez, ÜLKE DÜZEYİ. t: TDV «hâkimiyetini 1962 yılına kadar devam ettiren … Zeydî İmâmeti» (yıl uyumlu; gün bkz. 865)."
   },
   {
    "dosya_satir": "data/yerlesimler_ok104.js:233",
@@ -361,7 +370,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Yemen», https://islamansiklopedisi.org.tr/yemen",
    "alinti": "kaçmak zorunda kaldı (26 Eylül 1962) / Yemen Arap Cumhuriyeti (Kuzey Yemen) kuruldu",
    "oneri": {},
-   "not": "ÜLKE DÜZEYİ, 26 Eylül 1962 darbesi ve Yemen Arap Cumhuriyeti’nin kuruluşu; Şehâre adı geçmez (Zeydî çekirdek bölge, cumhuriyetçi denetimine fiilen ne zaman girdiği bulunamadı)."
+   "not": "KARAR EMRELİC (gece-96): Mondros Yemen'de devir değil; TEK ÖLÇÜ teslim: garnizonların yerel teslimi / İmam'ın fiilî alışı (San'a 1918-11, kaynakla). Zeydî dağlık bölge: 1911 Da'an özerkliği (v: osmanli altında s: zeydî, kaynakla) → 1918-11. Mondros ic_not. Hudeyde 1918-12 İngiliz → 1921 İdrîsî. | ÜLKE DÜZEYİ, 26 Eylül 1962 darbesi ve Yemen Arap Cumhuriyeti’nin kuruluşu; Şehâre adı geçmez (Zeydî çekirdek bölge, cumhuriyetçi denetimine fiilen ne zaman girdiği bulunamadı)."
   }
  ],
  "Zigetvar": [
@@ -498,8 +507,10 @@
    "uc": "t",
    "kaynak": "TDV İslâm Ansiklopedisi, «Batı Sahrâ», https://islamansiklopedisi.org.tr/bati-sahra",
    "alinti": "Ahmed el-Mansûr devrinde (1578-1603) Tüvât ve Edrâr’ı alarak Tinbüktü’ye ulaştılar (1591)",
-   "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor ve atlasla çelişiyor: TDV Sa‘dîler’in Tüvât’ı Ahmed el-Mansûr devrinde (1578-1603) aldığını yazıyor; atlas sadi dönemini 1549’da başlatıyor, 1549-1578/1603 arası Tüvât’ın sahibi ayrıca sorulmalı. f 1281 (Merînî) için Tüvât tanıklığı bulunamadı: TDV «Megīlî» arama parçası Tüvât kadısı Abdullah b. Ebû Bekir’i (882/1477) anar, Merînî egemenliğini söylemez. BÖLGE DÜZEYİ."
+   "oneri": {
+    "t": "1581-01-01 (Tuvât seferi 1581–83, kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-96): Sa'dî el-Mansûr Tuvât seferi 1581–83 (kaynakla, yalnız yıl); atlas 1549 yanlış. Fransız 1900 isg [yalnız yıl] → 1901-07-20 Fransız-Fas protokolü imzası (TEK ÖLÇÜ) ya da 1902 Territoires du Sud → s: fransa, kaynakla. Cezayir 1962-07-03 (gece-57), 07-05 değil. | alıntı yalnız t ucunu tarihliyor ve atlasla çelişiyor: TDV Sa‘dîler’in Tüvât’ı Ahmed el-Mansûr devrinde (1578-1603) aldığını yazıyor; atlas sadi dönemini 1549’da başlatıyor, 1549-1578/1603 arası Tüvât’ın sahibi ayrıca sorulmalı. f 1281 (Merînî) için Tüvât tanıklığı bulunamadı: TDV «Megīlî» arama parçası Tüvât kadısı Abdullah b. Ebû Bekir’i (882/1477) anar, Merînî egemenliğini söylemez. BÖLGE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:273",
@@ -515,7 +526,7 @@
     "alan": "isg",
     "f": "1900-01-01"
    },
-   "not": "TDV Fransız işgalini 1900 yazıyor (atlas f 1901-02-21). Kaynak Fransa’nın Tüvât’ı kendi idaresine ne zaman kattığını söylemiyor; Fas iddiası sürüyor (I. Hasan’ın Tüvât ahalisine 7 Ağustos 1884 mektubu; 1901 ve 1902 Fas-Fransa protokolleri). ÖLÇÜT: geçici/askerî, işgal. Öneri isg fransa-cumhuriyet 1900 (yalnız yıl); s: günü (1901-02-21 idareye katma) için kaynak gösterilmedi. Karar EMRELİC’in. BÖLGE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-96): Sa'dî el-Mansûr Tuvât seferi 1581–83 (kaynakla, yalnız yıl); atlas 1549 yanlış. Fransız 1900 isg [yalnız yıl] → 1901-07-20 Fransız-Fas protokolü imzası (TEK ÖLÇÜ) ya da 1902 Territoires du Sud → s: fransa, kaynakla. Cezayir 1962-07-03 (gece-57), 07-05 değil. | TDV Fransız işgalini 1900 yazıyor (atlas f 1901-02-21). Kaynak Fransa’nın Tüvât’ı kendi idaresine ne zaman kattığını söylemiyor; Fas iddiası sürüyor (I. Hasan’ın Tüvât ahalisine 7 Ağustos 1884 mektubu; 1901 ve 1902 Fas-Fransa protokolleri). ÖLÇÜT: geçici/askerî, işgal. Öneri isg fransa-cumhuriyet 1900 (yalnız yıl); s: günü (1901-02-21 idareye katma) için kaynak gösterilmedi. Karar EMRELİC’in. BÖLGE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:273",
@@ -527,8 +538,10 @@
    "uc": "f",
    "kaynak": "TDV İslâm Ansiklopedisi, «Cezayir», https://islamansiklopedisi.org.tr/cezayir",
    "alinti": "1 Temmuz 1962 tarihinde yapılan referandumda halkın % 91’i bağımsızlık lehinde oy kullandı",
-   "oneri": {},
-   "not": "ÜLKE DÜZEYİ: TDV 1 Temmuz 1962 referandumunu verir ve «Bağımsızlığın ilân edilmesi üzerine iktidarı devralan … geçici hükümet» der; 5 Temmuz günü sayfada yok. Atlas 1962-07-05 ile gün çelişkisi değil ama doğrulanmadı. Advâr adı geçmez."
+   "oneri": {
+    "f": "1962-07-03"
+   },
+   "not": "KARAR EMRELİC (gece-96): Sa'dî el-Mansûr Tuvât seferi 1581–83 (kaynakla, yalnız yıl); atlas 1549 yanlış. Fransız 1900 isg [yalnız yıl] → 1901-07-20 Fransız-Fas protokolü imzası (TEK ÖLÇÜ) ya da 1902 Territoires du Sud → s: fransa, kaynakla. Cezayir 1962-07-03 (gece-57), 07-05 değil. | ÜLKE DÜZEYİ: TDV 1 Temmuz 1962 referandumunu verir ve «Bağımsızlığın ilân edilmesi üzerine iktidarı devralan … geçici hükümet» der; 5 Temmuz günü sayfada yok. Atlas 1962-07-05 ile gün çelişkisi değil ama doğrulanmadı. Advâr adı geçmez."
   }
  ],
  "Afgoye": [
@@ -583,8 +596,11 @@
    "uc": "t",
    "kaynak": "TDV İslâm Ansiklopedisi, «Ahıska», https://islamansiklopedisi.org.tr/ahiska",
    "alinti": "Çıldır Savaşı (1578) sonunda Osmanlı idaresine girdiler",
-   "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (yıl 1578; atlas 1578-08-09 gün teyitsiz; Ahılkelek adı Ahıska maddesinde ayrıca anılmaz). DEVLET SORUSU: TDV Ahıska atabeglerinin «1268-1578 tarihleri arasında … İlhanlı, Karakoyunlu, Akkoyunlu devletlerine bağlı kaldığını» yazıyor; atlasta bu dönem d: gurcistan. Gürcü krallığıyla bağ TDV’de yok, ayrıca ele alınmalı. BÖLGE DÜZEYİ."
+   "oneri": {
+    "d": "samtshe (künye LAB SALI)",
+    "not": "v: ilhanli → karakoyunlu → akkoyunlu"
+   },
+   "not": "KARAR EMRELİC (gece-96): TAHRİR: Samtshe atabegliği 1268 sonrası Gürcü krallığından koptu, İlhanlı ve ardıllarının tâbisi → s: samtshe (künye LAB SALI) + v: ilhanli → karakoyunlu → akkoyunlu → Osmanlı 1578; d: gurcistan yanlış. | alıntı yalnız t ucunu tarihliyor (yıl 1578; atlas 1578-08-09 gün teyitsiz; Ahılkelek adı Ahıska maddesinde ayrıca anılmaz). DEVLET SORUSU: TDV Ahıska atabeglerinin «1268-1578 tarihleri arasında … İlhanlı, Karakoyunlu, Akkoyunlu devletlerine bağlı kaldığını» yazıyor; atlasta bu dönem d: gurcistan. Gürcü krallığıyla bağ TDV’de yok, ayrıca ele alınmalı. BÖLGE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_ek28.js:125",
@@ -597,7 +613,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, «Edirne Antlaşması (1829)», https://islamansiklopedisi.org.tr/arama/edirne-antlasmasi-1829",
    "alinti": "1828-1829 Osmanlı-Rus savaşı sonunda 14 Eylül 1829 tarihinde imzalanan antlaşma",
    "oneri": {},
-   "not": "[TDV arama sayfası madde içi birebir parça, tek isabet — çekinceli; madde gövdesi açılmadı] | TDV arama sayfasının madde içi parçası, madde gövdesi açılmadı. Ahıska maddesi (sayfa.py ile okundu, https://islamansiklopedisi.org.tr/ahiska): «1828-1829 Osmanlı-Rus Savaşı sonunda imzalanan Edirne Antlaşması’yla Rusya’ya terkedildi» (sancak düzeyi, Ahılkelek ayrıca anılmaz). TEK ÖLÇÜ: Rus ordusunun bölgeyi 1828 seferinde zaten tuttuğu bilgisi kaynak okunmadan alındı, imza günü. BÖLGE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-96): TAHRİR: Samtshe atabegliği 1268 sonrası Gürcü krallığından koptu, İlhanlı ve ardıllarının tâbisi → s: samtshe (künye LAB SALI) + v: ilhanli → karakoyunlu → akkoyunlu → Osmanlı 1578; d: gurcistan yanlış. | [TDV arama sayfası madde içi birebir parça, tek isabet — çekinceli; madde gövdesi açılmadı] | TDV arama sayfasının madde içi parçası, madde gövdesi açılmadı. Ahıska maddesi (sayfa.py ile okundu, https://islamansiklopedisi.org.tr/ahiska): «1828-1829 Osmanlı-Rus Savaşı sonunda imzalanan Edirne Antlaşması’yla Rusya’ya terkedildi» (sancak düzeyi, Ahılkelek ayrıca anılmaz). TEK ÖLÇÜ: Rus ordusunun bölgeyi 1828 seferinde zaten tuttuğu bilgisi kaynak okunmadan alındı, imza günü. BÖLGE DÜZEYİ."
   },
   {
    "dosya_satir": "data/yerlesimler_ek28.js:125",
@@ -610,7 +626,7 @@
    "kaynak": "Bakılan yerler: TDV «Gürcistan» (9 Nisan 1991 / Nisan 1991 ifadesi sayfada YOK), TDV «Ahıska» (16 Mart 1921 Moskova ile Gürcistan SSC’ye bağlanış; Gürcü bağımsızlığı yok)",
    "alinti": "",
    "oneri": {},
-   "not": "Baktığım yerler: TDV «Gürcistan» (9 Nisan 1991 / Nisan 1991 ifadesi sayfada YOK), TDV «Ahıska» (16 Mart 1921 Moskova ile Gürcistan SSC’ye bağlanış; Gürcü bağımsızlığı yok). zincir kaynağı Suny 1994 ve LoC Country Studies Georgia bu turda açılmadı"
+   "not": "KARAR EMRELİC (gece-96): TAHRİR: Samtshe atabegliği 1268 sonrası Gürcü krallığından koptu, İlhanlı ve ardıllarının tâbisi → s: samtshe (künye LAB SALI) + v: ilhanli → karakoyunlu → akkoyunlu → Osmanlı 1578; d: gurcistan yanlış. | Baktığım yerler: TDV «Gürcistan» (9 Nisan 1991 / Nisan 1991 ifadesi sayfada YOK), TDV «Ahıska» (16 Mart 1921 Moskova ile Gürcistan SSC’ye bağlanış; Gürcü bağımsızlığı yok). zincir kaynağı Suny 1994 ve LoC Country Studies Georgia bu turda açılmadı"
   }
  ]
 }

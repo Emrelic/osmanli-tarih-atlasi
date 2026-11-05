@@ -12,7 +12,7 @@
    "kaynak": "Bakılan: TDV Endonezya; Treccani Celebes/Timor/Borneo (sayfa.py); TDV makasar (madde yok). Alor'a özgü TDV/Treccani maddesi yok.",
    "alinti": "",
    "oneri": {},
-   "not": "Timor beylikleri→Hollanda 1653 için Alor tanığı bulunamadı. Treccani 'Timor': Hollandalılar 1618'de adanın batısını ele geçirdi (Alor değil, Timor adası; atlas 1653 ile farklı yıl). Abi merkez bulunamadı."
+   "not": "KARAR EMRELİC (gece-96): Treccani 1618 vs atlas 1653 (Kupang kalesi): farklı ada/yer olabilir → ÇELİŞKİ beyanı. | Timor beylikleri→Hollanda 1653 için Alor tanığı bulunamadı. Treccani 'Timor': Hollandalılar 1618'de adanın batısını ele geçirdi (Alor değil, Timor adası; atlas 1653 ile farklı yıl). Abi merkez bulunamadı."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:224",
@@ -26,7 +26,7 @@
    "kaynak": "Bakılan: TDV Endonezya; Treccani Celebes/Timor/Borneo (sayfa.py); TDV makasar (madde yok).",
    "alinti": "",
    "oneri": {},
-   "not": "Hollanda Doğu Hint f=1653 (Alor) tanığı yok; atlas 1653'ün dayanağı okunmadı. t=1942-03-09 için bkz. Japon satırı."
+   "not": "KARAR EMRELİC (gece-96): Treccani 1618 vs atlas 1653 (Kupang kalesi): farklı ada/yer olabilir → ÇELİŞKİ beyanı. | Hollanda Doğu Hint f=1653 (Alor) tanığı yok; atlas 1653'ün dayanağı okunmadı. t=1942-03-09 için bkz. Japon satırı."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:224",
@@ -40,7 +40,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, ENDONEZYA (1995, XI, 204-209) — https://islamansiklopedisi.org.tr/endonezya (sayfa.py)",
    "alinti": "1942-1945 yılları arasındaki Japon dönemi",
    "oneri": {},
-   "not": "ÖNCEKİ KARAR: Endonezya Japon dönemi isg; 1945-08-17 / 1949-12-27. | YIL düzeyi (atlas 1942-03-09 / 1945-09-02 günleri bu alıntıdan değil); TDV Endonezya 1942-1945. Bölge (Endonezya) düzeyi, ÜLKE DÜZEYİ; yerleşime özgü tanık yok. Ölçüt: askerî işgal, brifteki 'Japon askerî işgali' kaydı korunur (ÖLÇÜT: geçici/askerî)."
+   "not": "KARAR EMRELİC (gece-96): Treccani 1618 vs atlas 1653 (Kupang kalesi): farklı ada/yer olabilir → ÇELİŞKİ beyanı. | ÖNCEKİ KARAR: Endonezya Japon dönemi isg; 1945-08-17 / 1949-12-27. | YIL düzeyi (atlas 1942-03-09 / 1945-09-02 günleri bu alıntıdan değil); TDV Endonezya 1942-1945. Bölge (Endonezya) düzeyi, ÜLKE DÜZEYİ; yerleşime özgü tanık yok. Ölçüt: askerî işgal, brifteki 'Japon askerî işgali' kaydı korunur (ÖLÇÜT: geçici/askerî)."
   },
   {
    "dosya_satir": "data/yerlesimler_gdasya.js:224",
@@ -54,7 +54,7 @@
    "kaynak": "TDV İslâm Ansiklopedisi, ENDONEZYA (1995, XI, 204-209) — https://islamansiklopedisi.org.tr/endonezya (sayfa.py)",
    "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949).",
    "oneri": {},
-   "not": "27 Aralık 1949 Hollanda'nın hükümranlık devri günü (TEK ÖLÇÜ: devralan fiilen yönetmiyordu → devir/teslim günü). ÜLKE DÜZEYİ."
+   "not": "KARAR EMRELİC (gece-96): Treccani 1618 vs atlas 1653 (Kupang kalesi): farklı ada/yer olabilir → ÇELİŞKİ beyanı. | 27 Aralık 1949 Hollanda'nın hükümranlık devri günü (TEK ÖLÇÜ: devralan fiilen yönetmiyordu → devir/teslim günü). ÜLKE DÜZEYİ."
   }
  ],
  "Aravan": [
@@ -478,7 +478,7 @@
    "kaynak": "Kayıt yer_kaynak: Deutsches Kolonial-Lexikon 1920 'Eitape' (archive.org/details/bub_gb_jYszAQAAMAAJ; ia-oku 'Eitape' ilk isabetler 1911 Hafenordnung vb., 1906 cümlesi okunmadı). AWM E84777 (sayfa.py).",
    "alinti": "",
    "oneri": {},
-   "not": "f=1906 Eitape hükûmet istasyonu kuruluşu (kayıt yer_kaynak'ta Kolonial-Lexikon, YIL); bu sayfa.py ham çıktısından kopyalanamadı. t=1914-09-17 için bkz. AWM: 'they surrendered German New Guinea on 17 September' (alıntı yalnız t ucunu tarihliyor); Aitape'ye özgü işgal günü kaynakta yok."
+   "not": "KARAR EMRELİC (gece-96): AWM resmî devlet kurumu, resmî savaş tarihi → resmî yayın sınıfı KAYNAKLI. Nauru emsali: isg avustralya 1914-09-17 → Versay 1919-06-28 s: avustralya → 1920-12-17'den Yeni Gine manda künyesi (ölç). | f=1906 Eitape hükûmet istasyonu kuruluşu (kayıt yer_kaynak'ta Kolonial-Lexikon, YIL); bu sayfa.py ham çıktısından kopyalanamadı. t=1914-09-17 için bkz. AWM: 'they surrendered German New Guinea on 17 September' (alıntı yalnız t ucunu tarihliyor); Aitape'ye özgü işgal günü kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:56",
@@ -492,7 +492,7 @@
    "kaynak": "Australian War Memorial, Operations against German Pacific territories — https://www.awm.gov.au/collection/E84777 (sayfa.py)",
    "alinti": "they surrendered German New Guinea on 17 September.",
    "oneri": {},
-   "not": "SORU EMRELİC: AWM (devlet kurumu, resmî tarih) gece-91 resmî yayın sınıfı mı? Versay emsali: Alman Yeni Gine teslimi 1914-09-17 isg avustralya → 1919-06-28 s:. | f=1914-09-17 (Toma/Rabaul teslimi, 1914). ÜLKE DÜZEYİ. TEK ÖLÇÜ: devralan henüz fiilen yönetmiyordu (AWM: diğer istasyonlar sonraki aylarda işgal edildi) → teslim günü kullanılmış; Aitape'nin fiilî işgal günü kaynakta bulunamadı. ÖLÇÜT: geçici/askerî olasılığı beyan: yerel idare sonradan kuruldu."
+   "not": "KARAR EMRELİC (gece-96): AWM resmî devlet kurumu, resmî savaş tarihi → resmî yayın sınıfı KAYNAKLI. Nauru emsali: isg avustralya 1914-09-17 → Versay 1919-06-28 s: avustralya → 1920-12-17'den Yeni Gine manda künyesi (ölç). | SORU EMRELİC: AWM (devlet kurumu, resmî tarih) gece-91 resmî yayın sınıfı mı? Versay emsali: Alman Yeni Gine teslimi 1914-09-17 isg avustralya → 1919-06-28 s:. | f=1914-09-17 (Toma/Rabaul teslimi, 1914). ÜLKE DÜZEYİ. TEK ÖLÇÜ: devralan henüz fiilen yönetmiyordu (AWM: diğer istasyonlar sonraki aylarda işgal edildi) → teslim günü kullanılmış; Aitape'nin fiilî işgal günü kaynakta bulunamadı. ÖLÇÜT: geçici/askerî olasılığı beyan: yerel idare sonradan kuruldu."
   }
  ],
  "Albany (Batı Avustralya)": [
@@ -508,7 +508,7 @@
    "kaynak": "Early Days: Journal and Proceedings of the Royal Western Australian Historical Society, c. 3 (Stephens), https://freotopia.org/earlydays/3/stephens1.html (sayfa.py)",
    "alinti": "its transfer to the control of the Administration at the Swan River Settlement by Proclamation dated 7th March, 1831",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor (1831-03-07 Swan River'a devir bildirisi). f=1826-12-25 kayıt yer_kaynak'ında (WA Museum, Lockyer'in Noel Günü 1826 gelişi). ÇEKİNCE: yerel tarih derneği dergisi, hakemlilik teyitsiz."
+   "not": "KARAR EMRELİC (gece-96): tarih derneği dergisi → İPUCU; ONERI. | alıntı yalnız t ucunu tarihliyor (1831-03-07 Swan River'a devir bildirisi). f=1826-12-25 kayıt yer_kaynak'ında (WA Museum, Lockyer'in Noel Günü 1826 gelişi). ÇEKİNCE: yerel tarih derneği dergisi, hakemlilik teyitsiz."
   },
   {
    "dosya_satir": "data/yerlesimler_a78_okyanusya.js:340",
@@ -517,12 +517,12 @@
    "f": "1831-03-07",
    "t": "1901-01-01",
    "sira": "886",
-   "hukum": "KAYNAKLI",
+   "hukum": "ONERI",
    "uc": "f",
    "kaynak": "Early Days: Journal and Proceedings of the Royal Western Australian Historical Society, c. 3 (Stephens), https://freotopia.org/earlydays/3/stephens1.html (sayfa.py)",
    "alinti": "its transfer to the control of the Administration at the Swan River Settlement by Proclamation dated 7th March, 1831",
    "oneri": {},
-   "not": "SORU EMRELİC: Royal WA Historical Society 'Early Days' (hakemlilik teyitsiz) KAYNAKLI çıtası. | f=1831-03-07 gün düzeyi teyit. ÇEKİNCE: kaynak yerel tarih derneği dergisi (hakemlilik teyitsiz). Künye bati-avustralya f=1829-06-18. Ad Albany 1832-01-01'den (ipucu aynı yazıda)."
+   "not": "KARAR EMRELİC (gece-96): tarih derneği dergisi → İPUCU; ONERI. | SORU EMRELİC: Royal WA Historical Society 'Early Days' (hakemlilik teyitsiz) KAYNAKLI çıtası. | f=1831-03-07 gün düzeyi teyit. ÇEKİNCE: kaynak yerel tarih derneği dergisi (hakemlilik teyitsiz). Künye bati-avustralya f=1829-06-18. Ad Albany 1832-01-01'den (ipucu aynı yazıda)."
   }
  ],
  "Angoche": [
@@ -538,7 +538,7 @@
    "kaynak": "Bakılan: TDV Mozambik (sayfa.py), Treccani Mozambico (kısa). TDV: 'Quitangonha, Sancul, Sangage ve Angoche gibi yerler uzunca bir süre müslüman yöneticilerin elinde kaldı'.",
    "alinti": "",
    "oneri": {},
-   "not": "svahili-sehirleri→Portekiz 1600: TDV Angoche'nin XVI. yy'ın başından sonra uzun süre Müslüman yöneticilerde kaldığını söylüyor (yıl yok). Atlas f=1600 Portekiz egemenliği için okunmuş tanık yok."
+   "not": "KARAR EMRELİC (gece-96): Angoche sultanlığı 1910 Portekiz fethine kadar (TDV Mozambik 'uzunca süre'); Portekiz 1600 dayanaksız; künye ölç (LAB SALI). | svahili-sehirleri→Portekiz 1600: TDV Angoche'nin XVI. yy'ın başından sonra uzun süre Müslüman yöneticilerde kaldığını söylüyor (yıl yok). Atlas f=1600 Portekiz egemenliği için okunmuş tanık yok."
   },
   {
    "dosya_satir": "data/yerlesimler_emilme.js:35",
@@ -547,12 +547,14 @@
    "f": "1600-01-01",
    "t": "1974-09-20",
    "sira": "892",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "",
    "kaynak": "Bakılan: TDV Mozambik (sayfa.py): 'XVI. yüzyılın başından itibaren adım adım ele geçirerek sömürgeleştirdikleri Mozambik' ülke düzeyi; Lusaka 1974-09-20 TDV'de geçmiyor (1974 darbesi ve 25 Haziran 1975 bağımsızlık var).",
    "alinti": "",
-   "oneri": {},
-   "not": "Portekiz f=1600 ve t=1974-09-20 (Lusaka) Angoche için bulunamadı. ÖNERİ İZİ: Angoche'nin Portekiz fethi için ayrı kaynak aranmalı (TDV Müslüman yöneticiler uzun süre sürdü diyor); atlas 1600 şüpheli, doğrulanmadı."
+   "oneri": {
+    "f": "1910 (Portekiz fethi, kaynakla)"
+   },
+   "not": "KARAR EMRELİC (gece-96): Angoche sultanlığı 1910 Portekiz fethine kadar (TDV Mozambik 'uzunca süre'); Portekiz 1600 dayanaksız; künye ölç (LAB SALI). | Portekiz f=1600 ve t=1974-09-20 (Lusaka) Angoche için bulunamadı. ÖNERİ İZİ: Angoche'nin Portekiz fethi için ayrı kaynak aranmalı (TDV Müslüman yöneticiler uzun süre sürdü diyor); atlas 1600 şüpheli, doğrulanmadı."
   }
  ],
  "Annemasse": [
@@ -628,7 +630,7 @@
    "kaynak": "Bakılan: Treccani Angola (sayfa.py: Ovimbundu geçiyor, 1902 yok). Açılamayan PDF (metin çıkmadı, başka makinede okunmalı): https://periodicos.uff.br/cantareira/article/download/27923/16317/96441 . Önerilen: Wheeler & Christensen 1973, 'To rise with one mind: the Bailundo War of 1902' (eHRAF).",
    "alinti": "",
    "oneri": {},
-   "not": "Ovimbundu→Portekiz 1902: 'Bailundo revolt 1902' ipucuyla (arama özeti, kaynak değil) savaşın 1902-1904 sürdüğü; yenilgi/devir günü okunmuş kaynakta yok."
+   "not": "KARAR EMRELİC (gece-96): J. E. P. dos Santos, Cantareira (UFF) — EMRELİC PDF okuması: 'Em 1902, a vitória portuguesa na Revolta do Bailundo…' → etkili Portekiz idaresi 1902 → s: portekiz 1902-01-01 [yalnız yıl] ya da ayaklanmanın bastırılış günü (kaynakla). Huambo posto militar 1902-11-04 KAYNAKLI (Huambo için). | Ovimbundu→Portekiz 1902: 'Bailundo revolt 1902' ipucuyla (arama özeti, kaynak değil) savaşın 1902-1904 sürdüğü; yenilgi/devir günü okunmuş kaynakta yok."
   },
   {
    "dosya_satir": "data/yerlesimler_afrika2.js:1560",
@@ -642,7 +644,7 @@
    "kaynak": "Aynı. Açılamayan PDF: https://periodicos.uff.br/cantareira/article/download/27923/16317/96441",
    "alinti": "",
    "oneri": {},
-   "not": "Portekiz Angolası f=1902 ve t=1975-11-11 (Treccani Angola: 11 Kasım 1975 bağımsızlık günü olarak belirlendi — alıntı t ucunu tarihliyor: 'fissare all’11 novembre 1975 la data dell’indipendenza'). f için kaynak yok."
+   "not": "KARAR EMRELİC (gece-96): J. E. P. dos Santos, Cantareira (UFF) — EMRELİC PDF okuması: 'Em 1902, a vitória portuguesa na Revolta do Bailundo…' → etkili Portekiz idaresi 1902 → s: portekiz 1902-01-01 [yalnız yıl] ya da ayaklanmanın bastırılış günü (kaynakla). Huambo posto militar 1902-11-04 KAYNAKLI (Huambo için). | Portekiz Angolası f=1902 ve t=1975-11-11 (Treccani Angola: 11 Kasım 1975 bağımsızlık günü olarak belirlendi — alıntı t ucunu tarihliyor: 'fissare all’11 novembre 1975 la data dell’indipendenza'). f için kaynak yok."
   }
  ],
  "Barnaul": [
@@ -653,12 +655,15 @@
    "f": "1635-01-01",
    "t": "1730-01-01",
    "sira": "917",
-   "hukum": "BULUNAMADI",
+   "hukum": "ONERI",
    "uc": "",
    "kaynak": "Bakılan: Treccani 'Barnaul' (sayfa.py; kısa madde, tarih yok).",
    "alinti": "",
-   "oneri": {},
-   "not": "Cungar→Rusya 1730: Barnaul'a özgü tanık yok; atlas f=1635 ve 1730 doğrulanmadı."
+   "oneri": {
+    "sil": true,
+    "not": "kur 1730, Rus s: kur'dan"
+   },
+   "not": "KARAR EMRELİC (gece-96): 1730 Demidov kuruluşu = kur; Rus s: kur'dan; cungar dilimi kırpılır. | Cungar→Rusya 1730: Barnaul'a özgü tanık yok; atlas f=1635 ve 1730 doğrulanmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_ek18.js:138",
@@ -672,7 +677,7 @@
    "kaynak": "Aynı. t=1917-03-15 için ayrı Nicola II maddesi açılamadı.",
    "alinti": "",
    "oneri": {},
-   "not": "Rusya f=1730 kaynaksız; Cungar Hanlığı künyesi t=1758, atlasta dönem 1730'da biter (künye ile 28 yıl fark, Barnaul zinciri için ayrıca araştırılmalı)."
+   "not": "KARAR EMRELİC (gece-96): 1730 Demidov kuruluşu = kur; Rus s: kur'dan; cungar dilimi kırpılır. | Rusya f=1730 kaynaksız; Cungar Hanlığı künyesi t=1758, atlasta dönem 1730'da biter (künye ile 28 yıl fark, Barnaul zinciri için ayrıca araştırılmalı)."
   }
  ],
  "Beldjamen": [
