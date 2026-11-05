@@ -1,0 +1,1526 @@
+{
+ "Archidona (Napo)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:71",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1822-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1822-05-24"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "KOORDİNAT: lat -0.91 lon -77.81: bugün Ekvador. Archidona Quijos valiliğinin merkezidir; 1802 cédula'sı Quijos'u da (Papallacta hariç) Peru'ya bağladı deniyor — yalnız Vikipedi/arama özeti, OKUNMADI → 1802 kapsamı ADAYI, EMRELİC kararı. t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a."
+  }
+ ],
+ "Borja (Maynas)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:81",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1619-01-01",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Carlos Augusto Bastos (UFPA), «As revoltas indígenas de 1809 em Maynas e a fronteira luso-espanhola», in S. D. O. de Souza – W. G. Farias – P. N. Pereira (orgs.), I Seminário Militares, Poder e Sociedade na Amazônia, Belém: Cordovil, 2019, ISBN 978-65-80307-01-2 (livroaberto.ufpa.br/jspui/bitstream/prefix/1096/1/Livro_AnaisSeminarioMilitares.pdf); dipnot: La Real Cédula de 15 de julio de 1802, ed. facsimilar, Instituto Riva-Agüero 1996",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | a transferência da Província de Maynas da Audiência de Quito (à qual estava vinculada desde o século XVI) para o Vice-Reino do Peru, mediante a Real Cédula de 15 de julho de 1802",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanya",
+      "f": "1619-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1802-07-15"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1802-07-15",
+      "t": "1824-12-09"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "KOORDİNAT: lat -4.47 lon -77.55: bugün Peru (Loreto, Marañón). 1717-05-27 → 1802-07-15 yeni-granada-valiligi, 1802-07-15'ten ispanyol-peru (EMRELİC istisnası, Real Cédula 15 julio 1802 — Bastos 2019 ham metin, pdftotext). ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a. DİKKAT: eski zincir 'ispanya' (ispanyol-peru değil); 1717 öncesi dilim eski sahipte (ispanya) bırakıldı, 1802 sonrası kural gereği ispanyol-peru — tutarsızlık EMRELİC'e. YENİ D2 KIRILMASI 1802-07-15: kronoloji maddesi YOK (data/*.js'te 1802-07-15 geçmiyor) — madde yazılmalı (Maynas Peru valiliğine bağlandı)."
+  }
+ ],
+ "Canelos (Bobonaza)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:72",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1712-01-01",
+   "t": "1822-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1712-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1822-05-24"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "KOORDİNAT: lat -1.58 lon -77.75: bugün Ekvador (Pastaza). Canelos misyonunun 1802'de Quijos/Maynas içinde olup olmadığı okunmadı. t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a."
+  }
+ ],
+ "Guayaquil (Santiago de Guayaquil)": [
+  {
+   "dosya_satir": "data/yerlesimler_0ee15e.js:129",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1822-05-24",
+   "hukum": "ONERI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · 1803: Laviana Cuetos (CSIC, digital.csic.es/bitstream/10261/152325, 2013) — sayfa OKUNMADI (bot koruması); encyclopedia.com 'New Granada, Viceroyalty of' yalnız yıl",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1803-07-07"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1803-07-07",
+      "t": "1822-05-24"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "KOORDİNAT: lat -2.19 lon -79.90: bugün Ekvador. 1717-05-27 f KAYNAKLI (Ruigómez 2017). 1803-07-07 günü kaynak okunmadı — arama özetinde Laviana Cuetos 'real orden del 7 de julio de 1803' (Junta de Fortificaciones önerisiyle); encyclopedia.com yalnız 'In 1803, Guayaquil, Mainas, and Quijos were detache[d]' (yıl). Nitelik: önce yalnız ASKERÎ bağ; 1810'dan sonra Lima tam idareyi aldı; 1819'da (real cédula 23 junio 1819 / real orden 30 junio 1819 — iki gün, ikisi de okunmadı) yeniden Quito'ya. 1819 dönüşü 1810-07-20'den (künye t) sonra düştüğü için dilim değiştirmez: 1803-07-07'den t'ye kadar ispanyol-peru. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a. YENİ D2 KIRILMASI 1803-07-07: kronoloji maddesi YOK — madde yazılmalı."
+  }
+ ],
+ "Loja": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:109",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1548-12-08",
+   "t": "1822-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1548-12-08",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1822-05-24"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a."
+  }
+ ],
+ "Quito": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:484",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1822-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1822-05-24"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a."
+  }
+ ],
+ "San José de los Nuevos Icaguates": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:70",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1733-01-01",
+   "t": "1822-05-24",
+   "hukum": "ONERI",
+   "kaynak": "kaynak okunmadı (dilim f = yerleşimin kendi f'si; t 1810-07-20 künyeden)",
+   "alinti": "",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1733-01-01",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1822-05-24"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "KOORDİNAT: lat -0.6 lon -75.25: Aguarico ağzı — Ekvador/Peru sınırı üstünde ya da çok yakınında; misyon Maynas cizvit misyonudur → 1802 Maynas kapsamı ADAYI (kaynak okunmadı; EMRELİC kuralı yalnız Borja/Omaguas/Andoas'ı saydı). Yerleşim 1717 sonrası kuruldu (f 1733-01-01): dilim kendi f'sinden başlar; yeni kaynak gerekmiyor ama t okunmadı. t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a."
+  }
+ ],
+ "San Miguel (Aushiri)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:73",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1665-01-01",
+   "t": "1822-05-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1665-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1822-05-24"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "KOORDİNAT: lat -1.9 lon -75.2: Ekvador/Peru sınırına yakın (bugün büyük olasılıkla Peru; zincir 1942-01-29'da el değiştiriyor). Maynas cizvit misyonu → 1802 Maynas kapsamı ADAYI (kaynak okunmadı). t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a."
+  }
+ ],
+ "Santo Tomé de los Andoas": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:76",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1708-01-01",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Carlos Augusto Bastos (UFPA), «As revoltas indígenas de 1809 em Maynas e a fronteira luso-espanhola», in S. D. O. de Souza – W. G. Farias – P. N. Pereira (orgs.), I Seminário Militares, Poder e Sociedade na Amazônia, Belém: Cordovil, 2019, ISBN 978-65-80307-01-2 (livroaberto.ufpa.br/jspui/bitstream/prefix/1096/1/Livro_AnaisSeminarioMilitares.pdf); dipnot: La Real Cédula de 15 de julio de 1802, ed. facsimilar, Instituto Riva-Agüero 1996",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | a transferência da Província de Maynas da Audiência de Quito (à qual estava vinculada desde o século XVI) para o Vice-Reino do Peru, mediante a Real Cédula de 15 de julho de 1802",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1708-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1802-07-15"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1802-07-15",
+      "t": "1824-12-09"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "KOORDİNAT: lat -2.9 lon -76.4: bugün Peru (Pastaza), Ekvador sınırına yakın (~30-40 km). 1717-05-27 → 1802-07-15 yeni-granada-valiligi, 1802-07-15'ten ispanyol-peru (EMRELİC istisnası, Real Cédula 15 julio 1802 — Bastos 2019 ham metin, pdftotext). ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a. YENİ D2 KIRILMASI 1802-07-15: kronoloji maddesi YOK (data/*.js'te 1802-07-15 geçmiyor) — madde yazılmalı (Maynas Peru valiliğine bağlandı)."
+  }
+ ],
+ "Tumbes": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:506",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "kaynak": "kaynak okunmadı",
+   "alinti": "",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1824-12-09"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "KOORDİNAT: lat -3.567 lon -80.452: bugün Peru, Ekvador sınırına ~25 km. DEĞİŞİKLİK YOK — Tumbes Yeni Granada'ya geçmez, Peru'da kalır (EMRELİC gece-100 istisnası). Kaba kutu Ekvador saymıştı. Peru valiliği içindeki idarî bağı (Piura/Trujillo) kaynakla okunmadı."
+  }
+ ],
+ "Bacatá (Bogotá)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:728",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Barbacoas": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1556",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1612-01-01",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1612-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Cali": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:61",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Cartagena de Indias": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:584",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1821-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1821-10-01"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Cartago (Valle del Cauca)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1566",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1691-04-21",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1691-04-21",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Honda (Tolima)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1616",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1643-03-04",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1643-03-04",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Hunza (Tunja)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:738",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Montería": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1636",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1777-05-01",
+   "t": "1819-12-17",
+   "hukum": "ONERI",
+   "kaynak": "kaynak okunmadı (dilim f = yerleşimin kendi f'si; t 1810-07-20 künyeden)",
+   "alinti": "",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1777-05-01",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "Yerleşim 1717 sonrası kuruldu (f 1777-05-01): dilim kendi f'sinden başlar; yeni kaynak gerekmiyor ama t okunmadı. t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Popayán": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:591",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "San Joaquín de Omaguas (Fritz)": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:78",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1686-01-01",
+   "t": "1824-12-09",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Carlos Augusto Bastos (UFPA), «As revoltas indígenas de 1809 em Maynas e a fronteira luso-espanhola», in S. D. O. de Souza – W. G. Farias – P. N. Pereira (orgs.), I Seminário Militares, Poder e Sociedade na Amazônia, Belém: Cordovil, 2019, ISBN 978-65-80307-01-2 (livroaberto.ufpa.br/jspui/bitstream/prefix/1096/1/Livro_AnaisSeminarioMilitares.pdf); dipnot: La Real Cédula de 15 de julio de 1802, ed. facsimilar, Instituto Riva-Agüero 1996",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | a transferência da Província de Maynas da Audiência de Quito (à qual estava vinculada desde o século XVI) para o Vice-Reino do Peru, mediante a Real Cédula de 15 de julho de 1802",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1686-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1802-07-15"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1802-07-15",
+      "t": "1824-12-09"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "KOORDİNAT: lat -3.83 lon -73.35: bugün Peru (Loreto, Iquitos yakını). 1717-05-27 → 1802-07-15 yeni-granada-valiligi, 1802-07-15'ten ispanyol-peru (EMRELİC istisnası, Real Cédula 15 julio 1802 — Bastos 2019 ham metin, pdftotext). ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). Quito bölgesi ayrıca: real cédula 1720-04-29 ile Peru'ya geri bağlandı, Hazine'de 1721-02-13'ten uygulandı (Ruigómez 2017) — künye tek parça kuralı gereği ic_not'a. YENİ D2 KIRILMASI 1802-07-15: kronoloji maddesi YOK (data/*.js'te 1802-07-15 geçmiyor) — madde yazılmalı (Maynas Peru valiliğine bağlandı)."
+  }
+ ],
+ "San Martín (Meta)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1596",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1641-04-10",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1641-04-10",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Santa Marta": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1323",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1821-10-01",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1821-10-01"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Simití": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1462",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Panamá (Panama City)": [
+  {
+   "dosya_satir": "data/yerlesimler_0ee15e.js:90",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1542-11-20",
+   "t": "1821-11-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1542-11-20",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1821-11-28"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "KOORDİNAT: lat 8.98 lon -79.52: bugün Panama. t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Portobelo (Puerto Bello)": [
+  {
+   "dosya_satir": "data/yerlesimler_0ee15e.js:167",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1597-01-01",
+   "t": "1821-11-28",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1597-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1821-11-28"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "KOORDİNAT: lat 9.55 lon -79.65: bugün Panama. t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Arauca": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1513",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1780-12-04",
+   "t": "1819-12-17",
+   "hukum": "ONERI",
+   "kaynak": "kaynak okunmadı (dilim f = yerleşimin kendi f'si; t 1810-07-20 künyeden)",
+   "alinti": "",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1780-12-04",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "",
+   "not": "KOORDİNAT: lat 7.09 lon -70.76: bugün Kolombiya, Venezuela sınırı (Arauca nehri) üstünde. Yerleşim 1717 sonrası kuruldu (f 1780-12-04): dilim kendi f'sinden başlar; yeni kaynak gerekmiyor ama t okunmadı. t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ÜLKE DÜZELTMESİ: kaba kutu VENEZUELA dedi, yer Kolombiya → TSV'deki yeni_f/yeni_t (1780-12-04→1810-04-19) YANLIŞ; Kolombiya kuralı: 1780-12-04→1810-07-20 yeni-granada-valiligi (VGK'ye geçmez). ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "Barinas (Altamira de Cáceres)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:86",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1577-06-30",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1577-06-30",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü. 1777'ye dek Maracaibo eyaleti (Virreinato'ya doğrudan bağlı) — cédula metni Maracaibo'nun ayrıldığını açıkça söyler."
+  }
+ ],
+ "Calabozo (Villa de Nuestra Señora de la Candelaria)": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:100",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1724-02-01",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1724-02-01",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "t",
+   "not": "Yerleşim 1717 sonrası kuruldu (f 1724-02-01): yeni-granada dilimi kendi f'sinden başlar. uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü."
+  }
+ ],
+ "Caracas (Santiago de León de Caracas)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:598",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1567-07-25",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1567-07-25",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü."
+  }
+ ],
+ "Carora": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1576",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1572-06-19",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1572-06-19",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü."
+  }
+ ],
+ "Ciudad Bolívar (Angostura)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1338",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1764-01-01",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1764-01-01",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "t",
+   "not": "Yerleşim 1717 sonrası kuruldu (f 1764-01-01): yeni-granada dilimi kendi f'sinden başlar. uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü. 1777'ye dek Guayana eyaleti — cédula metni Guayana'nın Virreinato'dan ayrıldığını açıkça söyler."
+  }
+ ],
+ "Guanare": [
+  {
+   "dosya_satir": "data/yerlesimler_nokta_amerika_0917.js:93",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1591-11-03",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1591-11-03",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü."
+  }
+ ],
+ "Maracaibo": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1328",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1574-01-01",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1574-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü. 1777'ye dek Maracaibo eyaleti (Virreinato'ya doğrudan bağlı) — cédula metni Maracaibo'nun ayrıldığını açıkça söyler."
+  }
+ ],
+ "Mérida (Venezuela)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:605",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1558-10-09",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1558-10-09",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü. 1777'ye dek Maracaibo eyaleti (Virreinato'ya doğrudan bağlı) — cédula metni Maracaibo'nun ayrıldığını açıkça söyler."
+  }
+ ],
+ "Nuestra Señora de Caraballeda": [
+  {
+   "dosya_satir": "data/yerlesimler_gamerika.js:53",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1562-01-01",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanya",
+      "f": "1562-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanya",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü. Eski zincir 'ispanya' (ispanyol-peru değil): ön/son dilimler eski sahipte (ispanya) bırakıldı. Caraballeda'nın XVIII. yy'da yerleşim olarak varlığı ayrıca sorulmalı (bakılmadı)."
+  }
+ ],
+ "Port of Spain (Puerto de España)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1177",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1757-01-01",
+   "t": "1797-02-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "he tenido a bien resolver la absoluta separación de las mencionadas Provincias de Cumaná, Guayana y Maracaibo, e islas de Trinidad y Margarita, del Virreinato y Capitanía General del Nuevo Reyno de Granada, y agregarlas en lo gubernativo y militar a la Capitanía General de Venezuela | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1757-01-01",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1797-02-18"
+     }
+    ]
+   },
+   "uc": "t",
+   "not": "KOORDİNAT: lat 10.65 lon -61.50: bugün Trinidad ve Tobago. Cédula metni Trinidad'ın 1777'ye dek 'unidas como al presente lo están al Virreinato' olduğunu söyler → 1777 öncesi dilim yeni-granada-valiligi (EMRELİC Venezuela kuralının Trinidad'a uzatılması; onay gerekir). VGK dilimi 1797-02-18 İngiliz fethinde biter (dönemin kendi t'si; VGK kronolojisinde 1797-02-18 maddesi var). Cédula metni Wikisource transkripsiyonu (kaynağı analitica.com) — hakemli neşirle ikinci teyit önerilir; gün Boletín ANH ile çift. 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı)."
+  }
+ ],
+ "Riohacha": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1606",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1545-08-06",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1545-08-06",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "KOORDİNAT: lat 11.54 lon -72.91: bugün Kolombiya (La Guajira). t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ÜLKE DÜZELTMESİ: kaba kutu VENEZUELA dedi, yer Kolombiya → TSV'deki yeni_f/yeni_t (1777-09-08→1810-04-19) YANLIŞ; Kolombiya kuralı: 1717-05-27→1810-07-20 yeni-granada-valiligi (VGK'ye geçmez). ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "San Carlos de Río Negro": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1483",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1760-03-11",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1760-03-11",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "t",
+   "not": "Yerleşim 1717 sonrası kuruldu (f 1760-03-11): yeni-granada dilimi kendi f'sinden başlar. uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü. 1777'ye dek Guayana eyaleti — cédula metni Guayana'nın Virreinato'dan ayrıldığını açıkça söyler."
+  }
+ ],
+ "San Cristóbal (Táchira)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1626",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1561-03-31",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1561-03-31",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "KOORDİNAT: lat 7.77 lon -72.23: bugün Venezuela, Kolombiya sınırına (Cúcuta) ~10 km; 1777 öncesi Maracaibo/Mérida eyaleti içinde → kural uygulanır. uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü. 1777'ye dek Maracaibo eyaleti (Virreinato'ya doğrudan bağlı) — cédula metni Maracaibo'nun ayrıldığını açıkça söyler."
+  }
+ ],
+ "San José de Oruña (St. Joseph)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1169",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1592-01-01",
+   "t": "1797-02-18",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com) · Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "he tenido a bien resolver la absoluta separación de las mencionadas Provincias de Cumaná, Guayana y Maracaibo, e islas de Trinidad y Margarita, del Virreinato y Capitanía General del Nuevo Reyno de Granada, y agregarlas en lo gubernativo y militar a la Capitanía General de Venezuela | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete. | En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanya",
+      "f": "1592-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1797-02-18"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "KOORDİNAT: lat 10.65 lon -61.41: bugün Trinidad ve Tobago. Cédula metni Trinidad'ın 1777'ye dek 'unidas como al presente lo están al Virreinato' olduğunu söyler → 1777 öncesi dilim yeni-granada-valiligi (EMRELİC Venezuela kuralının Trinidad'a uzatılması; onay gerekir). VGK dilimi 1797-02-18 İngiliz fethinde biter (dönemin kendi t'si; VGK kronolojisinde 1797-02-18 maddesi var). Cédula metni Wikisource transkripsiyonu (kaynağı analitica.com) — hakemli neşirle ikinci teyit önerilir; gün Boletín ANH ile çift. 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). San José de Oruña 1717 öncesi var mıydı ve 1757'de başkent Port of Spain'e taşındıktan sonra yerleşim sürdü mü — varoluş sorusu ayrıca (bu turda bakılmadı)."
+  }
+ ],
+ "Valencia (Venezuela)": [
+  {
+   "dosya_satir": "data/yerlesimler_amerika.js:1333",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1555-01-01",
+   "t": "1821-06-24",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007) · Boletín de la Academia Nacional de la Historia (Caracas) t. 61, nº 241, 1978, Hno. Nectario María, «Informe general de los trabajos realizados ... durante el curso del año de 1977» (biblat.unam.mx/hevila/BoletindelaAcademiaNacionaldelaHistoriaCaracas/1978/vol61/no241/29.pdf); cédula metni: Real Cédula de 1777, es.wikisource.org/wiki/Real_Cédula_de_1777 (transkripsiyon, kaynak analitica.com)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada | Con motivo del bicentenario de las Reales órdenes de diciembre de 1776 y del 8 de septiembre de 1777 ... la Real Orden de 1777 que creaba la Gran Capitanía General de Venezuela con la unión de las Provincias | Dada en San Ildefonso a ocho de septiembre de mil setecientos setenta y siete.- Yo el Rey.- Joseph de Galvez.",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1555-01-01",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1777-09-08"
+     },
+     {
+      "d": "venezuela-genel-kaptanligi",
+      "f": "1777-09-08",
+      "t": "1810-04-19"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-04-19",
+      "t": "1821-06-24"
+     }
+    ]
+   },
+   "uc": "f+t",
+   "not": "uc = yeni-granada diliminin uçları (1717-05-27 / 1777-09-08). VGK t 1810-04-19 künyeden (Diccionario de Historia de Venezuela 'Capitanía General', künye alıntısı), bu turda okunmadı. ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı). 1742 Venezuela askerî ayrıcalığı ic_not'a (bu turda okunmadı). 1777 öncesi dilim yeni-granada-valiligi (EMRELİC gece-100); TSV'deki yeni_f 1777-09-08 tek dilimi bu yüzden üç dilime bölündü."
+  }
+ ],
+ "Valledupar": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1523",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1550-01-06",
+   "t": "1819-12-17",
+   "hukum": "KAYNAKLI",
+   "kaynak": "Carmen Ruigómez Gómez, «Los efectos de la creación del Virreinato de Nueva Granada en la Real Hacienda de Quito (1718-1721)», Fronteras de la Historia (ICANH, Bogotá) 22/1, 2017, ss. 200-223 (redalyc.org/articulo.oa?id=83350361007)",
+   "alinti": "En la real cédula del 27 de mayo de 1717, por la que se creó el Virreinato de Nueva Granada",
+   "oneri": {
+    "dilimler": [
+     {
+      "d": "ispanyol-peru",
+      "f": "1550-01-06",
+      "t": "1717-05-27"
+     },
+     {
+      "d": "yeni-granada-valiligi",
+      "f": "1717-05-27",
+      "t": "1810-07-20"
+     },
+     {
+      "d": "ispanyol-peru",
+      "f": "1810-07-20",
+      "t": "1819-12-17"
+     }
+    ]
+   },
+   "uc": "f",
+   "not": "KOORDİNAT: lat 10.48 lon -73.25: bugün Kolombiya (Cesar). t teyitsiz: 1810-07-20 künyeden (yeni-granada-valiligi t), bu turda okunmadı. ÜLKE DÜZELTMESİ: kaba kutu VENEZUELA dedi, yer Kolombiya → TSV'deki yeni_f/yeni_t (1777-09-08→1810-04-19) YANLIŞ; Kolombiya kuralı: 1717-05-27→1810-07-20 yeni-granada-valiligi (VGK'ye geçmez). ic_not (künye tek parça): 1723-11-05 real cédula ile kaldırıldı (Ruigómez 2017), 1739'da yeniden kuruldu (encyclopedia.com 'New Granada, Viceroyalty of': yalnız yıl; 1739-08-20 günü bu turda okunmadı)."
+  }
+ ],
+ "HERZEG_BOSNA": {
+  "hukum": "KAYNAKLI",
+  "kaynak": "Office of the High Representative (OHR), «Joint Declaration by Tudjman and Izetbegovic – Geneva, 14/8/96» (ohr.int/ohr_archive/by-tudjman-and-izetbegovic-geneva-14896/) · Hrvatska enciklopedija (LZMK), 'Herceg Bosna' (enciklopedija.hr/clanak/herceg-bosna)",
+  "alinti": "Joint Declaration By the President of the Republic of Croatia Dr. Franjo Tudjman and the President of the Presidency of Bosnia and Herzegovina Alija Izetbegovic Geneva, 14 August 1996 | It is agreed, therefore, to implement immediately the necessary steps to dissolve the Croat Republic of Herceg-Bosna institutions and to merge those functions into the appropriate ministries of the Federation.",
+  "uc": "t",
+  "not": "t 1996-08-14 = Cenevre ortak bildirisi: Tuđman–İzetbegović HR H-B kurumlarını lağvetmeyi kararlaştırdı (resmî karar günü; ham metin sayfa.py). AYNI BELGE: 'Agreed Measures' 1996-08-15'te Saraybosna'da resmen imzalanacak; 'Effective August 31, 1996 ... the Administrative Arrangements in the territory of the Federation under HVO control will cease to exist' → yürürlük 1996-08-31 (fiilî dağılış ölçüsüne daha yakın alternatif; EMRELİC seçer). HE: Dayton'la formel son, bazı organlar 'do kraja 1996.' sürdü. HR H-B'nin KENDİ organlarının lağıv kararı okunmadı. ic_not: Washington Antlaşması 1994-03-18 (Federasyon), Dayton 1995-12-14 (dağılışı şart koştu, kurumlar sürdü) — bu iki gün bu turda okunmadı. Ardıl bosna-hersek (e4_KASA_ARDIL.json'daki 4 satır; ardil_f 1996-08-14 değişmez). ICTY Prlić hüküm özeti (sid/11324) ve hüküm c.1 metni bitiş günü vermiyor.",
+  "yerlesimler": [
+   {
+    "dosya_satir": "data/yerlesimler_halef_1946.js:85",
+    "alan": "s",
+    "d": "herzeg-bosna",
+    "f": "1991-11-18",
+    "t": "1996-08-14",
+    "yerlesim": "Çapljina (Čapljina)",
+    "oneri": {
+     "dilimler": [
+      {
+       "d": "herzeg-bosna",
+       "f": "1991-11-18",
+       "t": "1996-08-14"
+      },
+      {
+       "d": "bosna-hersek",
+       "f": "1996-08-14",
+       "t": "2000-12-31"
+      }
+     ]
+    }
+   },
+   {
+    "dosya_satir": "data/yerlesimler_halef_1946.js:86",
+    "alan": "s",
+    "d": "herzeg-bosna",
+    "f": "1991-11-18",
+    "t": "1996-08-14",
+    "yerlesim": "Posušje",
+    "oneri": {
+     "dilimler": [
+      {
+       "d": "herzeg-bosna",
+       "f": "1991-11-18",
+       "t": "1996-08-14"
+      },
+      {
+       "d": "bosna-hersek",
+       "f": "1996-08-14",
+       "t": "2000-12-31"
+      }
+     ]
+    }
+   },
+   {
+    "dosya_satir": "data/yerlesimler_halef_1946.js:87",
+    "alan": "s",
+    "d": "herzeg-bosna",
+    "f": "1991-11-18",
+    "t": "1996-08-14",
+    "yerlesim": "Vitez",
+    "oneri": {
+     "dilimler": [
+      {
+       "d": "herzeg-bosna",
+       "f": "1991-11-18",
+       "t": "1996-08-14"
+      },
+      {
+       "d": "bosna-hersek",
+       "f": "1996-08-14",
+       "t": "2000-12-31"
+      }
+     ]
+    }
+   },
+   {
+    "dosya_satir": "data/yerlesimler_halef_1946.js:88",
+    "alan": "s",
+    "d": "herzeg-bosna",
+    "f": "1991-11-18",
+    "t": "1996-08-14",
+    "yerlesim": "Orašje",
+    "oneri": {
+     "dilimler": [
+      {
+       "d": "herzeg-bosna",
+       "f": "1991-11-18",
+       "t": "1996-08-14"
+      },
+      {
+       "d": "bosna-hersek",
+       "f": "1996-08-14",
+       "t": "2000-12-31"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "NADOR_TDV": {
+  "hukum": "CELISKI",
+  "kaynak": "TDV İslâm Ansiklopedisi, 'Fas' (islamansiklopedisi.org.tr/fas) — ham metin sayfa.py",
+  "alinti": "İspanya da Fas’ın bağımsızlığını tanıyarak İfni, Sebte ve Melîle dışında kalan topraklarındaki himayesini kaldırdı (5 Nisan 1956)",
+  "uc": "t",
+  "dosya_satir": "data/yerlesimler_halef_1946.js:14",
+  "d": "fas-ispanyol-himayesi",
+  "f": "1912-11-27",
+  "t": "1956-04-07",
+  "oneri": {
+   "dilimler": [
+    {
+     "d": "fas-ispanyol-himayesi",
+     "f": "1912-11-27",
+     "t": "1956-04-05"
+    },
+    {
+     "d": "fas-krallik",
+     "f": "1956-04-05",
+     "t": "2000-12-31"
+    }
+   ],
+   "kunye": "fas-ispanyol-himayesi t 1956-04-07 → 1956-04-05 (LAB)"
+  },
+  "not": "TDV cümlesi 5 Nisan 1956'yla İspanya'nın Fas bağımsızlığını TANIMASINI ve himayeyi KALDIRMASINI tarihliyor — bu, künyenin 1956-04-07'ye bağladığı İspanya–Fas ortak bildirisinin (himayeyi bitiren hukukî işlem) içeriğinin ta kendisi; görüşmelerin açılışı ya da başka bir olay değil. → ÇELİŞKİ: TDV esas (gece-101 b): t 04-05, künye de birlikte (LAB); 04-07 ic_not'a iki kaynağıyla. 04-07'yi veren bağımsız akademik kaynak bu turda okunmadı (künye kaynağı 'yalnız özet'). Aynı paragrafta: 2 Mart 1956 Fransa ile bağımsızlık antlaşması."
+ }
+}
