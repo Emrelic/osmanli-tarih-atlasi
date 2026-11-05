@@ -1,0 +1,657 @@
+{
+ "Singapur": [
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3991",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1819-01-29",
+   "t": "1826-11-27",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV singapur (yalnız kaynakçada 1819), TDV malezya: 1819 geçmiyor; okunan: islamansiklopedisi.org.tr/singapur, /malezya, /raffles-thomas-stamford (madde yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan yerler: TDV singapur, malezya. 1819-01-29 günü kaynakta yok; arayış sürmeli (Turnbull, History of Singapore 1819-1975 TDV kaynakçasında)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3991",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1826-11-27",
+   "t": "1942-02-15",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Singapur' — https://islamansiklopedisi.org.tr/singapur",
+   "alinti": "İngilizler 1826’da Singapur, Malaka ve Penang adası",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] Straits Settlements 1826 (TDV malezya aynı yılı verir). Künye ingiliz-malaya f=1826-01-01."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3991",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-02-15",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Singapur' — https://islamansiklopedisi.org.tr/singapur",
+   "alinti": "II. Dünya Savaşı sırasında Japon işgalinde kaldı (1942-1945)",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "Koordinatör kararı: Japon dönemi isg (Burma, Malaya dahil). ÖLÇÜT: geçici/askerî. TDV yalnız yıl (1942-1945); gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3991",
+   "alan": "s",
+   "d": "ingiliz-malaya",
+   "f": "1945-09-02",
+   "t": "1946-04-01",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Singapur' — https://islamansiklopedisi.org.tr/singapur",
+   "alinti": "Eylül 1945’te tekrar İngilizler’in yönetimine geçti",
+   "oneri": {},
+   "not": "[yalnız ay teyitli (Eylül 1945); 1945-09-02 günü teyitsiz]. Singapur'da yerel teslim günü Tokyo belgesinden farklı olabilir (kaynak okunmadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3991",
+   "alan": "s",
+   "d": "singapur-kolonisi",
+   "f": "1946-04-01",
+   "t": "1959-06-03",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Singapur' — https://islamansiklopedisi.org.tr/singapur",
+   "alinti": "1946 yılında İngilizler tarafından Malay Birliği kurulurken ayrı bir özerk birim yapılan Singapur",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz]"
+  },
+  {
+   "dosya_satir": "data/yerlesimler_asya.js:3991",
+   "alan": "s",
+   "d": "singapur",
+   "f": "1959-06-03",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Singapur' — https://islamansiklopedisi.org.tr/singapur",
+   "alinti": "1959’da yine İngilizler tarafından kurulan Malay Federasyonu’na bağlı özerk bir devlet haline getirildi",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] TDV 1963 Malezya içi, 9 Ağustos 1965 tam bağımsızlık de verir."
+  }
+ ],
+ "St. John's (Newfoundland)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:858",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1583-08-05",
+   "t": "1763-02-10",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "Dictionary of Canadian Biography, 'GILBERT, Sir HUMPHREY' — https://www.biographi.ca/en/bio/gilbert_humphrey_1E.html",
+   "alinti": "On 5 August Sir Humphrey Gilbert formally took possession of Newfoundland",
+   "oneri": {},
+   "not": "Yıl 1583 maddenin bağlamı (d. 9 Sept. 1583); ada düzeyinde (St. John's limanında) resmî sahiplenme; ÜLKE/ADA DÜZEYİ. t ucu (1763-02-10) okunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:858",
+   "alan": "s",
+   "d": "newfoundland-dominyonu",
+   "f": "1855-05-07",
+   "t": "1934-02-16",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Mevcut zincir kaynağı DCB (kent_john, hoyles) gün vermiyor; yeni kaynağa bakılmadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bakılan yer: yalnız zincirdeki DCB notu (yıl+ay). Gün teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:858",
+   "alan": "s",
+   "d": "newfoundland-komisyon-hukumeti",
+   "f": "1934-02-16",
+   "t": "1949-03-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "Zincir kaynağı thecanadianencyclopedia.ca (robots) ve heritage.nf.ca (kurum portalı, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe sınırı; Newfoundland Act 1933 / Commission of Government açılış günü aranmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:858",
+   "alan": "s",
+   "d": "kanada",
+   "f": "1949-03-31",
+   "t": "2000-12-31",
+   "hukum": "BAKILMADI",
+   "uc": "f",
+   "kaynak": "laws-lois.justice.gc.ca/eng/const/page-12.html denendi, 31 Mart metni bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Terms of Union (Newfoundland Act) resmî Kanada metni aranmalı; sayfa bu bölümü vermedi."
+  }
+ ],
+ "Sukadana": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:281",
+   "alan": "s",
+   "d": "brunei-sultanligi",
+   "f": "1400-01-01",
+   "t": "1786-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: arama sonuçları (Wikipedia, borneohistory.net blog — ipucu); akademik kaynak bulunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Sukadana tarihsel olarak Tanjungpura/Sukadana krallığı merkezi; Brunei egemenliği kaynakta teyitsiz (künye brunei-sultanligi f 1368). İPUCU: Hollandalılar 1604'te Sukadana'ya geldi; 1786 Pontianak+Hollanda saldırısı (tek ikincil kaynak). Atlasta Sukadana/Tanjungpura künyesi yok — LAB'a künye sorusu."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:281",
+   "alan": "s",
+   "d": "hollanda-dogu-hint",
+   "f": "1786-01-01",
+   "t": "1942-03-09",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakılan: arama sonuçları (borneohistory.net, Wikipedia — ipucu); TDV endonezya Sukadana'yı anmıyor",
+   "alinti": "",
+   "oneri": {},
+   "not": "1786 yılı yalnız ipucu (Pontianak+Hollanda saldırısı). Akademik teyit yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:281",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1942-03-09",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' — https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Hollanda sömürge idaresi son buldu",
+   "oneri": {
+    "alan": "isg"
+   },
+   "not": "Koordinatör kararı: Japon dönemi isg (ÖLÇÜT: geçici/askerî). TDV ülke düzeyi: Japon dönemi 'yaklaşık üç buçuk yıl'; Sukadana'ya özgü gün yok."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:281",
+   "alan": "s",
+   "d": "endonezya-cumhuriyeti",
+   "f": "1949-12-27",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Endonezya' — https://islamansiklopedisi.org.tr/endonezya",
+   "alinti": "Böylece yaklaşık 350 yıl devam eden sömürge dönemi fiilen sona ermiş oldu (27 Aralık 1949).",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Batı Borneo Hollanda denetiminde federal devlet olarak 1949-12-27'de devredildi (yer özgü tanıklık yok)."
+  }
+ ],
+ "Shwebo": [
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:28",
+   "alan": "s",
+   "d": "ava",
+   "f": "1313-01-01",
+   "t": "1555-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincirdeki Harvey (1925) notu ülke düzeyi; yeniden bakılmadı. Not: Ava künyesi f=1297 (Pinya/Myinsaing şemsiyesi), Ava şehri 1364."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:28",
+   "alan": "s",
+   "d": "ingiliz-hindistani",
+   "f": "1885-11-28",
+   "t": "1937-04-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Myanmar' — https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "üçüncüsü 1886-1889 yıllarında yaptıkları üç savaşın sonunda",
+   "oneri": {
+    "alan": "isg",
+    "d": "ingiltere",
+    "f": "1885-11-28",
+    "t": "1886-01-01"
+   },
+   "not": "ÖNCEKİ KARAR (gece-84): Yukarı Burma 1885-11-28 isg → 1886-01-01 s: ingiliz-hindistani. | Koordinatör kararı: Üst Burma 1885-11-28 isg → 1886-01-01 s ingiliz-hindistani. ÖLÇÜT: geçici/askerî. TDV yalnız 1886-1889 savaş yılları; 1886-01-01 ilhan günü bulunmadı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_gdasya.js:28",
+   "alan": "s",
+   "d": "ingiliz-burma",
+   "f": "1937-04-01",
+   "t": "1948-01-04",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Myanmar' — https://islamansiklopedisi.org.tr/myanmar",
+   "alinti": "Myanmar İngiliz Hindistanı’ndan ayrıldı (1937) / Myanmar 4 Ocak 1948’de Burma Birliği adıyla bağımsızlığına kavuştu",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR (gece-84): Yukarı Burma 1885-11-28 isg → 1886-01-01 s: ingiliz-hindistani. | f: [yalnız yıl teyitli; gün teyitsiz]; t: gün teyitli (4 Ocak 1948). Not: koordinatör kararı gereği 1942-45 Japon dönemi isg ayrıca yazılır (TDV: 1942'de Japon işgali)."
+  }
+ ],
+ "Tokar": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:690",
+   "alan": "s",
+   "d": "memluk",
+   "f": "1281-01-01",
+   "t": "1517-04-13",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "TDV 'Sudan' (https://islamansiklopedisi.org.tr/sudan) Memlük–Nûbe bölümü okundu",
+   "alinti": "",
+   "oneri": {},
+   "not": "Memlük ilişkisi yalnız Nûbe/Dongola için anılıyor; Tokar/Bece kıyısı yok. Atlasın memluk 1281–1517 ve ardından habesistan 1517–1557 yazımı kaynakla desteklenmedi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:690",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1557-01-01",
+   "t": "1884-02-20",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Habeş Eyaleti' — https://islamansiklopedisi.org.tr/habes-eyaleti",
+   "alinti": "ilk sancak beyi olarak Abdülbâki Bey’in tayin edildiği (10 Nisan 1554) Sevâkin şehri",
+   "oneri": {
+    "f": "1554-04-10"
+   },
+   "not": "ABİ MERKEZ Sevâkin; ÖNCEKİ KARAR (gece-83): Sevakin 1865 Mısır'a geçiş (s: misir-kavalali), 1885 sonrası İngiliz-Mısır. | ABİ MERKEZ: Sevâkin (Tokar'a özgü tanıklık yok; BEYANLI YAKLAŞIKLIK). TDV 'Sudan': Özdemir 'Sevâkin adıyla bir sancak kurarak burayı Mısır’a bağladı'. Ayrıca TDV Habeş eyaleti: 'Masavva‘ ve Sevâkin’in yönetimi 1865’te Mısır Hidivi İsmâil Paşa’ya verildi' → bilinen karar: 1865'ten d OSMANLI yerine v: misir-kavalali. Masavva'nın alınışı 2 Nisan 1557 (TDV) — atlasın 1557 yılı buna dayanıyor olabilir. t 1884-02-20 zincirde Royle ile kaynaklı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:690",
+   "alan": "s",
+   "d": "sudan-cumhuriyeti",
+   "f": "1956-01-01",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Sudan' — https://islamansiklopedisi.org.tr/sudan",
+   "alinti": "1 Ocak 1956’da yeni bir devlet olarak ortaya çıktı",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ."
+  }
+ ],
+ "Tomari kıyısı (bölge)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:450",
+   "alan": "s",
+   "d": "__BOSLUK__",
+   "f": "1281-01-01",
+   "t": "1875-05-07",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Naoki Amano, 'Karafuto as a Border Island of the Empire of Japan', Eurasia Border Review 10(1), 2019, s.3-19 — https://src-h.slav.hokudai.ac.jp/publictn/eurasia_border_review/Vol101/V10N1_02-Amano.pdf",
+   "alinti": "On 7 May 1875, Admiral Takeaki Enomoto and Prince Aleksandr Gorchakov signed the Treaty of St. Petersburg.",
+   "oneri": {},
+   "not": "Alıntı yerel pypdf çıkarımıdır (sayfa.py PDF metni veremedi: tam URL yukarıda) → KAYNAKLI verilmedi. 'Sakhalin stayed an island jointly possessed by Russia and Japan until 1875.' Devir imza günü 1875-05-07 (Rusya adayı zaten idare ediyordu: cezaevi sömürgesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:450",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1875-05-07",
+   "t": "1905-09-05",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Naoki Amano, 'Karafuto as a Border Island of the Empire of Japan', Eurasia Border Review 10(1), 2019, s.3-19 — https://src-h.slav.hokudai.ac.jp/publictn/eurasia_border_review/Vol101/V10N1_02-Amano.pdf",
+   "alinti": "On 5 September 1905 the Treaty of Portsmouth was signed.",
+   "oneri": {},
+   "not": "Yerel pypdf çıkarımı (bkz. üst). Japonya adanın tamamını 24 Temmuz 1905'e dek işgal etmişti ('occupied the whole island by July 24'): TEK ÖLÇÜ gereği imza günü 1905-09-05 uygun; ancak 50°K güneyi Japon, işgal 1905-07'den beri fiilî — isg katmanı isteyebilir (karar LAB'ın)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:450",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1945-09-02",
+   "t": "1991-12-26",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Sakhalin Region was established — https://www.prlib.ru/en/node/1172073 (arama özeti, sayfa okunmadı)",
+   "alinti": "",
+   "oneri": {
+    "alan": "isg",
+    "t": "1946-02-02"
+   },
+   "not": "TAHRİR: 1945-08 Sovyet girişi isg → 1946-02-02 Yüksek Sovyet Prezidyumu ilhak kararnamesi (idareye katılış) s:; günler kaynakla. | TEK KURAL: ilhaka dek isg sovyet-rusya (işgal günü kaynakla bulunamadı; Karafuto Ağustos 1945), s sovyet-rusya 1946-02-02 (Presidyum fermanı, Güney Sahalin oblastı; arama özeti, OKUNMADI). Japonya feragati San Francisco 1951 (ic_not)."
+  }
+ ],
+ "Toyohara (Vladimirovka)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:369",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1882-01-01",
+   "t": "1905-09-05",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Naoki Amano, 'Karafuto as a Border Island of the Empire of Japan', Eurasia Border Review 10(1), 2019, s.3-19 — https://src-h.slav.hokudai.ac.jp/publictn/eurasia_border_review/Vol101/V10N1_02-Amano.pdf",
+   "alinti": "On 5 September 1905 the Treaty of Portsmouth was signed.",
+   "oneri": {},
+   "not": "t ucu yerel pypdf çıkarımı (KAYNAKLI verilmedi). f 1882 için Amano yok; zincirdeki Sahalin kütüphanesi takvimi (ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:369",
+   "alan": "s",
+   "d": "meiji-japonya",
+   "f": "1905-09-05",
+   "t": "1945-09-02",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Naoki Amano, 'Karafuto as a Border Island of the Empire of Japan', Eurasia Border Review 10(1), 2019, s.3-19 — https://src-h.slav.hokudai.ac.jp/publictn/eurasia_border_review/Vol101/V10N1_02-Amano.pdf",
+   "alinti": "On 31 March 1907 the Karafuto-cho (Karafuto office) was established at Toyohara",
+   "oneri": {},
+   "not": "Yerel pypdf çıkarımı. Portsmouth 5 Eylül 1905 imza; Japonya adayı 24 Temmuz 1905'e dek işgal etmişti → TEK ÖLÇÜ imza günü. Karafuto-chō Toyohara'da 1907-03-31 (idareye katma belgesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:369",
+   "alan": "s",
+   "d": "sovyet-rusya",
+   "f": "1945-09-02",
+   "t": "1991-12-26",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Sakhalin Region was established — https://www.prlib.ru/en/node/1172073 (arama özeti, OKUNMADI)",
+   "alinti": "",
+   "oneri": {
+    "alan": "isg",
+    "t": "1946-02-02"
+   },
+   "not": "TAHRİR: 1945-08 Sovyet girişi isg → 1946-02-02 Yüksek Sovyet Prezidyumu ilhak kararnamesi (idareye katılış) s:; günler kaynakla. | Tomari ile aynı: isg sovyet-rusya (gün bulunamadı) → s 1946-02-02 (Presidyum 2 Şubat 1946, merkez Toyohara; arama özeti)."
+  }
+ ],
+ "Simití": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1455",
+   "alan": "s",
+   "d": "ispanya",
+   "f": "1542-01-01",
+   "t": "1542-11-20",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Bütçe: yer kaynağı Censo-Guía (encomendero 1542) var; ispanya/ispanyol-peru bölünmesi sorgulanmalı (Simití Yeni Granada Kraliyet Real Audiencia 1549 bölgesi)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1455",
+   "alan": "s",
+   "d": "gran-kolombiya",
+   "f": "1819-12-17",
+   "t": "1831-01-01",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Mompós/Cartagena eyaleti 1810-11 bağımsız, Kartajena kraliyetçi 1821; Simití için yerel tanıklık aranmalı. 1819-12-17 Angostura Temel Yasası ülke düzeyi."
+  }
+ ],
+ "Sofala": [
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:30",
+   "alan": "s",
+   "d": "svahili-sehirleri",
+   "f": "1281-01-01",
+   "t": "1505-01-01",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik' — https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "Portekiz Kralı I. Manuel bölgeye bir donanma gönderdi (1505)",
+   "oneri": {},
+   "not": "[yalnız yıl teyitli; gün teyitsiz] TDV: Süfâle (Sofala) Portekiz kalesi 1505'te; Süfâle Müslüman şehir devleti olarak anılır."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:30",
+   "alan": "s",
+   "d": "portekiz-mozambik",
+   "f": "1505-01-01",
+   "t": "1974-09-20",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Mozambik' — https://islamansiklopedisi.org.tr/mozambik",
+   "alinti": "Süfâle ve Kilve’de kendi getirdiği malzemelerle kaleler inşa ettirdi",
+   "oneri": {},
+   "not": "f: [yalnız yıl teyitli]. t=1974-09-20 TDV'de yok (TDV: 25 Haziran 1975 bağımsızlık)."
+  }
+ ],
+ "Songea (Ngoni)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1508",
+   "alan": "s",
+   "d": "ngoni",
+   "f": "1835-01-01",
+   "t": "1898-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: arama sonuçları (kupi.com turizm sitesi, Wikipedia aynası — ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincir önerisi: alman-dogu-afrikasi (Alman fiilî giriş kaynakla) → I. Dünya Savaşı isg ingiltere → Versay 1919-06-28 → ingiliz-tanganika-mandasi; atlastaki ingiltere 1898–1961 yanlış — EMRELİC'e soruldu. | Ngoni Songea'ya 1840-50'lerde (ipucu); künye ngoni 1835. 1898 sonu teyitsiz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1508",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1898-01-01",
+   "t": "1961-12-09",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya' — https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "oneri": {
+    "d": "alman-dogu-afrikasi"
+   },
+   "not": "Zincir önerisi: alman-dogu-afrikasi (Alman fiilî giriş kaynakla) → I. Dünya Savaşı isg ingiltere → Versay 1919-06-28 → ingiliz-tanganika-mandasi; atlastaki ingiltere 1898–1961 yanlış — EMRELİC'e soruldu. | Songea Tanganyika'da (Tanzanya); İngiliz yönetimi 1898'de değil. Alman Doğu Afrikası 1890 antlaşması (TDV, yıl), Maji Maji 1905-07 (ipucu). Doğru sıra: ngoni → alman-dogu-afrikasi (fiilî giriş yılı kaynakla bulunmadı) → isg ingiltere (I. Dünya Savaşı) → Versay 1919-06-28 → ingiliz-tanganika-mandasi 1922-07-20 (zincirde Tanga gibi). 'yer_kaynak: malavi' ile uyuşmuyor, koordinat Tanzanya."
+  }
+ ],
+ "Stornoway": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:129",
+   "alan": "s",
+   "d": "iskocya",
+   "f": "1281-01-01",
+   "t": "1707-05-12",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Union with England Act 1707, legislation.gov.uk (Art. I) — https://www.legislation.gov.uk/aosp/1707/7/body",
+   "alinti": "upon the first day of May next ensuing the date hereof … be United into One Kingdom by the Name of Great Britain",
+   "oneri": {},
+   "not": "LAB PAZAR DÜZELTME: legislation.gov.uk 'first day of May' 1707 Jülyen (O.S.; Britanya 1752'ye dek Jülyen) = 1707-05-12 Gregoryen → atlas 1707-05-12 DOĞRU (1582 sonrası Gregoryen kuralı); öneri geri alındı, O.S. ic_not. | Devletin resmî yasa metni: Birlik 'first day of May' (1707 yasa yılı; yürürlük 1707-05-01). Atlasın 05-12'si kaynakta yok. ÜLKE DÜZEYİ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:129",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1707-05-12",
+   "t": "2000-12-31",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Union with England Act 1707, legislation.gov.uk (Art. I) — https://www.legislation.gov.uk/aosp/1707/7/body",
+   "alinti": "upon the first day of May next ensuing the date hereof … be United into One Kingdom by the Name of Great Britain",
+   "oneri": {},
+   "not": "LAB PAZAR DÜZELTME: legislation.gov.uk 'first day of May' 1707 Jülyen (O.S.; Britanya 1752'ye dek Jülyen) = 1707-05-12 Gregoryen → atlas 1707-05-12 DOĞRU (1582 sonrası Gregoryen kuralı); öneri geri alındı, O.S. ic_not. | Aynı: f 1707-05-01. ÜLKE DÜZEYİ (Hebridler özel istisna yok). Künye iskocya t=1707-05-12 de 05-01'e çekilmeli."
+  }
+ ],
+ "Stuttgart": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:455",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1281-01-01",
+   "t": "1495-07-21",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Neue Deutsche Biographie, 'Eberhard im Bart' — https://www.deutsche-biographie.de/sfz56796.html",
+   "alinti": "während des Wormser Reichstags am 21.7.1495 zum Herzog von Württemberg",
+   "oneri": {},
+   "not": "t ucu: Württemberg dükalığı kuruluşu (Reichslehen). Stuttgart Württemberg başkenti."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:455",
+   "alan": "s",
+   "d": "almanya",
+   "f": "1918-11-30",
+   "t": "1945-06-05",
+   "hukum": "KAYNAKLI",
+   "uc": "t",
+   "kaynak": "Declaration Regarding the Defeat of Germany (Avalon Project, birincil belge neşri) — https://avalon.law.yale.edu/wwii/ger01.asp",
+   "alinti": "assumption of supreme authority with respect to Germany",
+   "oneri": {},
+   "not": "t ucu: Berlin Deklarasyonu 1945-06-05 (egemenliği devralma istisnası). f 1918-11-30 okunmadı."
+  }
+ ],
+ "Sviyajsk": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:335",
+   "alan": "s",
+   "d": "kazan",
+   "f": "1551-05-24",
+   "t": "1552-10-02",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Russian Life, 'Sviyazhsk' (dergi, İPUCU) — https://russianlife.com/magazine/march-april-2019/sviyazhsk/",
+   "alinti": "",
+   "oneri": {
+    "d": "rusya"
+   },
+   "not": "Sviyajsk 1551'de Rus ordusu için Kazan seferi üssü olarak kurulmuş Rus kalesi: Kazan Hanlığı sahibi olamaz (kuruluş günü 24 Mayıs 1551 de ipucu). Öneri ipucu düzeyi; akademik kaynak okunmadı. t 1552-10-02 Kazan düşüşü ('After Kazan fell in 1552'; gün: History Today arama özeti, okunamadı)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:335",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1552-10-02",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakılan: historytoday.com/archive/kazan-falls-ivan-terrible (sayfa.py metin vermedi), russianlife.com",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kazan düşüşü 1552-10-02 bilinen karar; yerleşime özgü kaynak ve t=1917-03-15 teyit edilmedi."
+  }
+ ],
+ "Tanga": [
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:46",
+   "alan": "s",
+   "d": "svahili-sehirleri",
+   "f": "1281-01-01",
+   "t": "1698-12-13",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Tanga için Svahili şehir devletleri/Umman devri (Mombasa 1698) aranmadı; TDV Tanzanya Tanga'yı yalnız şehir olarak anıyor."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_emilme.js:46",
+   "alan": "s",
+   "d": "umman-zengibar",
+   "f": "1698-12-13",
+   "t": "1890-11-04",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Tanzanya' — https://islamansiklopedisi.org.tr/tanzanya",
+   "alinti": "1890’da yapılan anlaşmayla Zengibar ve Pemba adaları İngiltere’ye, Tanzanya’nın kara kısmı Almanlar’a verildi",
+   "oneri": {},
+   "not": "İki yıl: TDV Almanya'nın 'sahil arazilerini 1888’de kiralamak suretiyle ele geçirdiğini' de söyler; 1890 anlaşması. [yalnız yıl teyitli; 1890-11-04 günü teyitsiz]. Tanga kıyı şeridinde 1888 kiralama t ucunu öne çekebilir (karar LAB'ın)."
+  }
+ ],
+ "Tolanaro (Fort Dauphin)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2130",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1643-01-01",
+   "t": "1674-01-01",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, 'Madagaskar' — https://islamansiklopedisi.org.tr/madagaskar",
+   "alinti": "Société Française de l’Orient 1643’te Fort-Dauphin’de (Faradofay) elde ettiği arazi",
+   "oneri": {
+    "f": "1643-01-01"
+   },
+   "not": "Société Française de l'Orient 1643 (şirket), devlete devir 1686 (TDV Madagaskar); 1674 katliamı sonrası Fransız çekilişi (ipucu) → fransa 1674–1792 sorgulanmalı (merdiven ④/TAHRİR) — EMRELİC'e soruldu. | [yalnız yıl teyitli; gün teyitsiz]. SORU: TDV sahibi şirket yapar ('Fransa’nın o dönemde adayla herhangi bir resmî ilişkisi olmadı'; 1686'da devlete devir) → d: fransa şirket kolonisi için BEYANLI olmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:2130",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1674-01-01",
+   "t": "1792-09-22",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "TDV 'Madagaskar' okundu (1674 geçmiyor; 1686 devir, 1750 St. Marie); Wikipedia (İPUCU): Fort-Dauphin katliamı 1674-08, Fransızlar kaçtı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Société Française de l'Orient 1643 (şirket), devlete devir 1686 (TDV Madagaskar); 1674 katliamı sonrası Fransız çekilişi (ipucu) → fransa 1674–1792 sorgulanmalı (merdiven ④/TAHRİR) — EMRELİC'e soruldu. | 1674 sonrası 1768'e dek Fransız varlığı yok görünüyor (ipucu); atlas 1674→1792 fransa sorgulanmalı. Akademik kaynak bulunamadı."
+  }
+ ],
+ "Toulon": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:231",
+   "alan": "s",
+   "d": "provence-kontlugu",
+   "f": "1281-01-01",
+   "t": "1481-12-11",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Treccani, 'Provenza' (Enciclopedia Italiana kökenli, İPUCU) — https://www.treccani.it/enciclopedia/provenza/",
+   "alinti": "Carlo III, morendo (1481), la lasciò in eredità a Luigi XI",
+   "oneri": {},
+   "not": "Yalnız yıl (1481), Enciclopedia Italiana kökenli ipucu; gün teyitsiz. Treccani: Fransa ile birleşme 1486'da ilan edildi."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:231",
+   "alan": "s",
+   "d": "fransa",
+   "f": "1481-12-11",
+   "t": "1792-09-22",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Treccani, 'Provenza' (Enciclopedia Italiana kökenli, İPUCU) — https://www.treccani.it/enciclopedia/provenza/",
+   "alinti": "Carlo III, morendo (1481), la lasciò in eredità a Luigi XI",
+   "oneri": {},
+   "not": "Aynı: yıl 1481 ipucu; 1486 birleşme ilanı farkı ic_not'a. ABİ MERKEZ Aix zinciri korunuyor."
+  }
+ ],
+ "Tucson (San Agustín del Tucsón)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1361",
+   "alan": "s",
+   "d": "yeni-ispanya",
+   "f": "1775-08-20",
+   "t": "1821-09-27",
+   "hukum": "BAKILMADI",
+   "uc": "f+t",
+   "kaynak": "",
+   "alinti": "",
+   "oneri": {},
+   "not": "Zincirdeki OUPblog (Iturbide 27 Eylül 1821) ülke düzeyi ve blog (ipucu)."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:1361",
+   "alan": "s",
+   "d": "abd",
+   "f": "1854-06-30",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Office of the Historian, 'Gadsden Purchase, 1853–1854' — https://history.state.gov/milestones/1830-1860/gadsden-purchase",
+   "alinti": "",
+   "oneri": {},
+   "not": "TEK ÖLÇÜ: Gadsden imza 1853-12-30 / onay 1854-06-30; ABD fiilen yönetmiyordu → teslim (Meksika birliklerinin Tucson'dan çekilişi 1856-03, kaynakla) — EMRELİC'e soruldu. | Okundu: imza 1853-12-30; Senato 1854-04-25; Santa Anna 1854-06-08 imzaladı. 1854-06-30 günü sayfada yok. TEK ÖLÇÜ: Tucson'un fiilî teslimi (US Army girişi 1856) kaynakla bulunamadı → teslim günü f olabilir; araştırılmalı."
+  }
+ ]
+}
