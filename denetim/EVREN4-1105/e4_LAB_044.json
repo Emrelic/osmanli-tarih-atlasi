@@ -41,7 +41,7 @@
    "oneri": {
     "t": "1925-06-30"
    },
-   "not": "Ceel Vaak (El Wak) Oltregiuba (Jubaland) kıyısındadır: Treccani 'Oltre Giuba': İngiliz Kenya'sına bağlı bölge İtalya'ya protokolle devredildi (30 Haziran 1925); 30 Haziran 1926'da İtalyan Somalisi'ne birleştirildi. Atlas somali t 1927-01-01 (Obbia/Mijertein işgali yılı, TDV somali) Ceel Vaak için uygun değil. Koşullu: yerleşim 41.15°E, Oltregiuba sınırı 41. meridyen; Oltregiuba içinde olduğu doğrulanmadı. TEK ÖLÇÜ: protokol imza 30 Haziran 1925; İtalya'nın fiilî teslim alışı (Kismayo 29 Haziran/1 Temmuz 1925) kaynaklarda değişir, okunmadı. Alıntı yalnız bu ucu tarihliyor."
+   "not": "KARAR EMRELİC (gece-122): Koordinat 1924 Londra antlaşması hattıyla ölçülecek (Ceel Waaq Somali tarafı ikizi, Gedo → Oltregiuba içinde muhtemel; LAB PAZAR notu: atlas boylamı 41.15°D, Kenya-Somali sınırının 41°D meridyen kesiminin doğusunda → büyük olasılıkla içinde, akademik harita ile teyit). İçindeyse: s: ingiltere (Kenya, Jubaland eyaleti, f kaynakla) → italyan-somali 1925-06-30 (TEK ÖLÇÜ teslim, Kismayo devri); 1924-07-15 imza ic_not; atlas 1927 kalkar. | Ceel Vaak (El Wak) Oltregiuba (Jubaland) kıyısındadır: Treccani 'Oltre Giuba': İngiliz Kenya'sına bağlı bölge İtalya'ya protokolle devredildi (30 Haziran 1925); 30 Haziran 1926'da İtalyan Somalisi'ne birleştirildi. Atlas somali t 1927-01-01 (Obbia/Mijertein işgali yılı, TDV somali) Ceel Vaak için uygun değil. Koşullu: yerleşim 41.15°E, Oltregiuba sınırı 41. meridyen; Oltregiuba içinde olduğu doğrulanmadı. TEK ÖLÇÜ: protokol imza 30 Haziran 1925; İtalya'nın fiilî teslim alışı (Kismayo 29 Haziran/1 Temmuz 1925) kaynaklarda değişir, okunmadı. Alıntı yalnız bu ucu tarihliyor."
   },
   {
    "dosya_satir": "data/yerlesimler_h2_afrika.js:1123",
@@ -56,7 +56,7 @@
    "oneri": {
     "f": "1925-06-30"
    },
-   "not": "italyan-somali f 1927-01-01 yerine Oltregiuba devri 1925-06-30 (Treccani 'Oltre Giuba'); künye italyan-somali f 1905-03-19 olduğundan KÜNYE AŞIMI yok. Oltregiuba 1925-26 ayrı yüksek komiserlikti, 30 Haziran 1926'da Somali İtalyana katıldı. Koşullu (41.15°E sınır). t 1941-02-25 okunmadı."
+   "not": "KARAR EMRELİC (gece-122): Koordinat 1924 Londra antlaşması hattıyla ölçülecek (Ceel Waaq Somali tarafı ikizi, Gedo → Oltregiuba içinde muhtemel; LAB PAZAR notu: atlas boylamı 41.15°D, Kenya-Somali sınırının 41°D meridyen kesiminin doğusunda → büyük olasılıkla içinde, akademik harita ile teyit). İçindeyse: s: ingiltere (Kenya, Jubaland eyaleti, f kaynakla) → italyan-somali 1925-06-30 (TEK ÖLÇÜ teslim, Kismayo devri); 1924-07-15 imza ic_not; atlas 1927 kalkar. | italyan-somali f 1927-01-01 yerine Oltregiuba devri 1925-06-30 (Treccani 'Oltre Giuba'); künye italyan-somali f 1905-03-19 olduğundan KÜNYE AŞIMI yok. Oltregiuba 1925-26 ayrı yüksek komiserlikti, 30 Haziran 1926'da Somali İtalyana katıldı. Koşullu (41.15°E sınır). t 1941-02-25 okunmadı."
   }
  ],
  "Cinka": [
@@ -198,7 +198,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
    "alinti": "Una rivolta militare nel 1889 portò all’abdicazione di Pietro II e alla proclamazione della repubblica",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=4305108"
+   "not": "KARAR EMRELİC (gece-122): Brezilya yerel kuruluş → tarayıcı listesi (IBGE/Planalto bu makinelerden açılmıyor); ülke düzeyi 1822-09-07 ve 1889-11-15 BEYANLI kalır. | alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=4305108"
   }
  ],
  "Coari": [
@@ -213,7 +213,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
    "alinti": "Una rivolta militare nel 1889 portò all’abdicazione di Pietro II e alla proclamazione della repubblica",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130120"
+   "not": "KARAR EMRELİC (gece-122): Brezilya yerel kuruluş → tarayıcı listesi (IBGE/Planalto bu makinelerden açılmıyor); ülke düzeyi 1822-09-07 ve 1889-11-15 BEYANLI kalır. | alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=130120"
   }
  ],
  "Correntina": [
@@ -228,7 +228,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
    "alinti": "Una rivolta militare nel 1889 portò all’abdicazione di Pietro II e alla proclamazione della repubblica",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=2909307"
+   "not": "KARAR EMRELİC (gece-122): Brezilya yerel kuruluş → tarayıcı listesi (IBGE/Planalto bu makinelerden açılmıyor); ülke düzeyi 1822-09-07 ve 1889-11-15 BEYANLI kalır. | alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=2909307"
   }
  ],
  "Dianópolis (São José do Duro)": [
@@ -243,7 +243,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
    "alinti": "Una rivolta militare nel 1889 portò all’abdicazione di Pietro II e alla proclamazione della repubblica",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=1707009"
+   "not": "KARAR EMRELİC (gece-122): Brezilya yerel kuruluş → tarayıcı listesi (IBGE/Planalto bu makinelerden açılmıyor); ülke düzeyi 1822-09-07 ve 1889-11-15 BEYANLI kalır. | alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1889 (gün 11-15 bu kaynakta yok; Planalto Decreto nº 1 sunucu bağlantıyı kesti: https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d00001.htm). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=1707009"
   }
  ],
  "Cotegipe (Campo Largo)": [
@@ -258,7 +258,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
    "alinti": "nel 1822 proclamò l’indipendenza del B. e fu incoronato imperatore",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2909406&aspas=3"
+   "not": "KARAR EMRELİC (gece-122): Brezilya yerel kuruluş → tarayıcı listesi (IBGE/Planalto bu makinelerden açılmıyor); ülke düzeyi 1822-09-07 ve 1889-11-15 BEYANLI kalır. | alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=2909406&aspas=3"
   }
  ],
  "Cuiabá": [
@@ -288,7 +288,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
    "alinti": "nel 1822 proclamò l’indipendenza del B. e fu incoronato imperatore",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=3121605; Treccani 'Diamantina' sayfası açılmadı."
+   "not": "KARAR EMRELİC (gece-122): Brezilya yerel kuruluş → tarayıcı listesi (IBGE/Planalto bu makinelerden açılmıyor); ülke düzeyi 1822-09-07 ve 1889-11-15 BEYANLI kalır. | alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=3121605; Treccani 'Diamantina' sayfası açılmadı."
   }
  ],
  "Diamantino": [
@@ -303,7 +303,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/brasile/",
    "alinti": "nel 1822 proclamò l’indipendenza del B. e fu incoronato imperatore",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5103502&aspas=3"
+   "not": "KARAR EMRELİC (gece-122): Brezilya yerel kuruluş → tarayıcı listesi (IBGE/Planalto bu makinelerden açılmıyor); ülke düzeyi 1822-09-07 ve 1889-11-15 BEYANLI kalır. | alıntı yalnız t ucunu tarihliyor: YIL düzeyi 1822 (7 Eylül günü bu kaynakta yok; Brezilya resmî kaynağı bulunamadı). ÜLKE DÜZEYİ. f ucu yerel kuruluş: IBGE API zaman aşımı, okunamadı: https://servicodados.ibge.gov.br/api/v1/biblioteca?codmun=5103502&aspas=3"
   }
  ],
  "Conceição do Araguaia": [
@@ -318,7 +318,7 @@
    "kaynak": "Açılamayan kaynak: https://servicodados.ibge.gov.br/api/v1/biblioteca?aspas=3&codmun=150270 (IBGE API zaman aşımı); Treccani ilgili sayfa yok",
    "alinti": "",
    "oneri": {},
-   "not": "brezilya-cumhuriyeti f 1908-11-03 (yerel vila ilanı, Lei Estadual 1.091) kayıttaki IBGE kaynağıyla yazılı; bu oturumda okunamadı."
+   "not": "KARAR EMRELİC (gece-122): Brezilya yerel kuruluş → tarayıcı listesi (IBGE/Planalto bu makinelerden açılmıyor); ülke düzeyi 1822-09-07 ve 1889-11-15 BEYANLI kalır. | brezilya-cumhuriyeti f 1908-11-03 (yerel vila ilanı, Lei Estadual 1.091) kayıttaki IBGE kaynağıyla yazılı; bu oturumda okunamadı."
   }
  ],
  "Ceduna": [
@@ -348,7 +348,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/chihuahua/",
    "alinti": "Fondata nel 1639 (secondo altri nel 1707, dai francescani)",
    "oneri": {},
-   "not": "f ucu ÇELİŞKİ: Treccani 1639 / 1707 der; atlas 1709-10-12 (Gerhard 1982, yer_kaynak). Seçilmedi. t 1821-09-27: Treccani 'Messico' Iturbide'nin 24 Şubat 1821'de bağımsızlık ilanını verir (Iguala planı), 27 Eylül girişi yok; atlasın bilinen kararı 1821-09-27 korunur."
+   "not": "KARAR EMRELİC (gece-122): 1709 şehrin kuruluşu kalır; 1707 Santa Eulalia madeni ayrı yerse ic_not, aynı yerse F-GERİ. | f ucu ÇELİŞKİ: Treccani 1639 / 1707 der; atlas 1709-10-12 (Gerhard 1982, yer_kaynak). Seçilmedi. t 1821-09-27: Treccani 'Messico' Iturbide'nin 24 Şubat 1821'de bağımsızlık ilanını verir (Iguala planı), 27 Eylül girişi yok; atlasın bilinen kararı 1821-09-27 korunur."
   }
  ],
  "Cienfuegos": [
@@ -427,7 +427,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/cochabamba/",
    "alinti": "Fondata forse nel 1574 per ordine del viceré Francisco de Toledo, fu denominata Oropesa",
    "oneri": {},
-   "not": "f ucu ÇELİŞKİ: Treccani 1574 ('forse'), atlas 1571-08-15 (Oporto 2011, yer_kaynak). Seçilmedi. t 1824-12-09: Treccani 'Perù' 'battaglia di Ayacucho del 1824' (yıl; alıntı yalnız t ucunu yıl düzeyinde tarihliyor)."
+   "not": "KARAR EMRELİC (gece-122): 1571 kalır; Treccani 'forse 1574' çekinceli, ic_not. | f ucu ÇELİŞKİ: Treccani 1574 ('forse'), atlas 1571-08-15 (Oporto 2011, yer_kaynak). Seçilmedi. t 1824-12-09: Treccani 'Perù' 'battaglia di Ayacucho del 1824' (yıl; alıntı yalnız t ucunu yıl düzeyinde tarihliyor)."
   }
  ],
  "Colcha K": [
@@ -444,7 +444,7 @@
    "oneri": {
     "f": "1825-08-06"
    },
-   "not": "ÜLKE DÜZEYİ: Bolivya bağımsızlığı 1825-08-06 (Treccani). Atlas f 1885-12-04 = Nor Lípez eyaletinin yasayla kuruluşu (Cámara de Senadores, web.archive.org kopyası okundu: 'El 4 de diciembre de 1885 ... se crea la Provincia Nor Lipez', başkent San Cristóbal, Colcha K sonradan başkent); ama Colcha Toledo reducción'ı olarak 16. yy'dan beri var -> 1825-08-06 öncesi İspanyol zinciri ve 1825-1885 Bolivya dönemi atlasta eksik olabilir. Koşullu öneri; kaynak ayrı yerleşim tanıklığı değil."
+   "not": "KARAR EMRELİC (gece-122): F-GERİ için 16. yy varlığı kaynakla; zincir ispanyol-peru (1776 sonrası Río de la Plata valiliği, künye varsa) → bolivya 1825-08-06; 1885-12-04 ic_not; kaynaksızsa ONERI. | ÜLKE DÜZEYİ: Bolivya bağımsızlığı 1825-08-06 (Treccani). Atlas f 1885-12-04 = Nor Lípez eyaletinin yasayla kuruluşu (Cámara de Senadores, web.archive.org kopyası okundu: 'El 4 de diciembre de 1885 ... se crea la Provincia Nor Lipez', başkent San Cristóbal, Colcha K sonradan başkent); ama Colcha Toledo reducción'ı olarak 16. yy'dan beri var -> 1825-08-06 öncesi İspanyol zinciri ve 1825-1885 Bolivya dönemi atlasta eksik olabilir. Koşullu öneri; kaynak ayrı yerleşim tanıklığı değil."
   }
  ],
  "Colville Lake (K'áhbamı̨túé)": [
@@ -459,7 +459,7 @@
    "kaynak": "https://www.rcaanc-cirnac.gc.ca/eng/1100100028916/1581294101357",
    "alinti": "Treaty No. 11 (June 27, 1921) and Adhesion (July 17, 1922) with Reports, etc.",
    "oneri": {},
-   "not": "Colville Lake Sahtu bölgesidir: Kanada hükûmeti resmî metni Treaty No. 11'i (1921-06-27, katılım 1922-07-17; Mackenzie nehri boyu, 60. paralel kuzeyi) verir. Atlas t 1899-06-21 Treaty 8 günüdür; Treaty 8 bu yeri kapsamıyor olmalı (kanaat, okunmadı). Antlaşma yerli ülkenin devri değil, kullanım hakkı uzlaşmasıdır; Kanada egemenliği (1870 Rupert's Land devri) bu oturumda okunmadı. Karar Emre'nin; öneri değeri yazılmadı."
+   "not": "KARAR EMRELİC (gece-122): Merdiven ④: bugünkü köy 1960'larda (misyon) kuruldu; öncesi yoksa dönem KIRPILIR, antlaşma sorusu kalkar; varsa Antlaşma 11 (Fort Good Hope adhezyonu, kaynakla). | Colville Lake Sahtu bölgesidir: Kanada hükûmeti resmî metni Treaty No. 11'i (1921-06-27, katılım 1922-07-17; Mackenzie nehri boyu, 60. paralel kuzeyi) verir. Atlas t 1899-06-21 Treaty 8 günüdür; Treaty 8 bu yeri kapsamıyor olmalı (kanaat, okunmadı). Antlaşma yerli ülkenin devri değil, kullanım hakkı uzlaşmasıdır; Kanada egemenliği (1870 Rupert's Land devri) bu oturumda okunmadı. Karar Emre'nin; öneri değeri yazılmadı."
   }
  ],
  "Compostela": [
@@ -489,7 +489,7 @@
    "kaynak": "https://www.treccani.it/enciclopedia/culiacan/",
    "alinti": "È stata fondata nel 1599 (con il nome di San Miguel ) da Nuño de Guzmán",
    "oneri": {},
-   "not": "f ucu ÇELİŞKİ: Treccani 1599 (açık hata, Guzmán 1530'larda; yıl-adam çelişkisi) vs atlas 1531 (Gerhard). Kaynak YIL düzeyinde bile uyuşmuyor, seçilmedi. t 1535-04-17 (Yeni İspanya genel valiliği künyesi) bu oturumda okunmadı."
+   "not": "KARAR EMRELİC (gece-122): 1531 (Guzmán) kalır; 1599 yeniden kuruluş/taşınma ise ic_not. | f ucu ÇELİŞKİ: Treccani 1599 (açık hata, Guzmán 1530'larda; yıl-adam çelişkisi) vs atlas 1531 (Gerhard). Kaynak YIL düzeyinde bile uyuşmuyor, seçilmedi. t 1535-04-17 (Yeni İspanya genel valiliği künyesi) bu oturumda okunmadı."
   }
  ],
  "Concepción de Xéveros (Jeberos)": [
@@ -624,7 +624,7 @@
    "kaynak": "https://www.archives.gov/milestone-documents/fort-laramie-treaty",
    "alinti": "the United States recognized the Black Hills as part of the Great Sioux Reservation",
    "oneri": {},
-   "not": "devletin resmî yayını (NARA): Black Hills 1868 Fort Laramie'de Büyük Sioux Rezervi'ne, Sioux'nun 'exclusive use'una ayrıldı; 1874 Custer seferi sonrası altın. Atlas abd f 1876-01-01: ELE GEÇİREN yeri kendi toprağı saymıyor / yerli iddiası sürüyor (ÖLÇÜT: geçici/askerî-hukuki iddia), 1877-02-28 Black Hills yasası (19 Stat. 254) alıntılanamadı (Supreme Court PDF anahtarı bulunamadı). Karar Emre'nin: 1876 -> 1877-02-28 mı, yoksa isg/yerli iddia mı. Deadwood kuruluş günü kaynağı bulunamadı."
+   "not": "KARAR EMRELİC (gece-122): TAHRİR + yerli devri: 1876 kuruluş (f = varoluş); altında s: sioux (Fort Laramie 1868 rezervasyonu), isg abd (kaçak madenciler, ordu çıkarmadı); 1877-02-28 yasasıyla s: abd. Künye kimlikleri devletler.js'ten. | devletin resmî yayını (NARA): Black Hills 1868 Fort Laramie'de Büyük Sioux Rezervi'ne, Sioux'nun 'exclusive use'una ayrıldı; 1874 Custer seferi sonrası altın. Atlas abd f 1876-01-01: ELE GEÇİREN yeri kendi toprağı saymıyor / yerli iddiası sürüyor (ÖLÇÜT: geçici/askerî-hukuki iddia), 1877-02-28 Black Hills yasası (19 Stat. 254) alıntılanamadı (Supreme Court PDF anahtarı bulunamadı). Karar Emre'nin: 1876 -> 1877-02-28 mı, yoksa isg/yerli iddia mı. Deadwood kuruluş günü kaynağı bulunamadı."
   }
  ],
  "Debdû": [
@@ -639,7 +639,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/vattasiler",
    "alinti": "başşehir Fas’ın Sa‘dîler’in eline geçmesiyle sona erdi (2 Muharrem 956 / 31 Ocak 1549)",
    "oneri": {},
-   "not": "alıntı yalnız t ucunu tarihliyor ve çelişir: TDV Vattâsîler: Vattâsî hânedanı 1471-1554, Fas şehri Sa‘dîler'e 31 Ocak 1549'da geçti, son Vattâsî Ebû Hassûn 22 Eylül 1554'te öldü. Atlas 'merini' 1549'a dek: Merînî sonrası (1471) Vattâsî olmalı, Debdû'nun fiilî Sa‘dî'ye geçişi (1549-1554 arası) yerleşime özgü okunmadı. Hicrî tarih aynen: 2 Muharrem 956. d önerisi (vattasi künyesi) ölçülmedi."
+   "not": "KARAR EMRELİC (gece-122): TDV esas; Debdû Vattâsî kolu (Benî Vattâs) için vattasi künyesi ölçülecek. LAB PAZAR ÖLÇÜMÜ: ayrı vattasi künyesi YOK; 'merini' künyesinin adı 'Merînî ve Vattâsî Fas Krallığı' → Fas Vattâsîlerini kapsıyor (1549-01-31 Sa'dî). Debdû'nun ayrı kolu (Fas Vattâsîlerinden bağımsız) için kol adayı LAB SALI'ya; merini dilimi Debdû'da TDV tarihinden sonra kalkar. | alıntı yalnız t ucunu tarihliyor ve çelişir: TDV Vattâsîler: Vattâsî hânedanı 1471-1554, Fas şehri Sa‘dîler'e 31 Ocak 1549'da geçti, son Vattâsî Ebû Hassûn 22 Eylül 1554'te öldü. Atlas 'merini' 1549'a dek: Merînî sonrası (1471) Vattâsî olmalı, Debdû'nun fiilî Sa‘dî'ye geçişi (1549-1554 arası) yerleşime özgü okunmadı. Hicrî tarih aynen: 2 Muharrem 956. d önerisi (vattasi künyesi) ölçülmedi."
   }
  ],
  "Derry": [
@@ -669,7 +669,7 @@
    "kaynak": "https://islamansiklopedisi.org.tr/mursiye",
    "alinti": "yapılan bir antlaşma çerçevesinde teslim oldu (10 Şevval 640 / 2 Nisan 1243)",
    "oneri": {},
-   "not": "ABİ MERKEZ: Mürsiye (Murcia) -- TDV Mürsiye: Kastilyalılar 1241'de kuşattı, antlaşmayla teslim 2 Nisan 1243 (hicrî 10 Şevval 640); 1244'te isyan, 19 Nisan 1244'te (9 Zilkade 641) yeniden Kastilya. TDV Cartagena'yı adıyla anmıyor ('Cartagena', 'Kartaca' YOK): BEYANLI YAKLAŞIKLIK, abi merkez zinciri; Cartagena'nın kendi fethi (yaygın kanaat 1245) okunmadı. alıntı yalnız t ucunu tarihliyor; f 0476 (Batı Roma sonu) ve Bizans/Vizigot/Emevî sahipleri aranmadı."
+   "not": "KARAR EMRELİC (gece-122): BOŞLUK 1243 BEYANLI ONAY (ABİ MERKEZ Mürsiye). | ABİ MERKEZ: Mürsiye (Murcia) -- TDV Mürsiye: Kastilyalılar 1241'de kuşattı, antlaşmayla teslim 2 Nisan 1243 (hicrî 10 Şevval 640); 1244'te isyan, 19 Nisan 1244'te (9 Zilkade 641) yeniden Kastilya. TDV Cartagena'yı adıyla anmıyor ('Cartagena', 'Kartaca' YOK): BEYANLI YAKLAŞIKLIK, abi merkez zinciri; Cartagena'nın kendi fethi (yaygın kanaat 1245) okunmadı. alıntı yalnız t ucunu tarihliyor; f 0476 (Batı Roma sonu) ve Bizans/Vizigot/Emevî sahipleri aranmadı."
   },
   {
    "dosya_satir": "data/yerlesimler_avrupa.js:267",
@@ -682,7 +682,7 @@
    "kaynak": "Bakılan: TDV ispanya ('1479' anahtarı YOK; Aragon-Kastilya birliği 1469/1492 genel), TDV mursiye, Treccani (kayıttaki Cartagena maddesi)",
    "alinti": "",
    "oneri": {},
-   "not": "kastilya f 1281 (atlas başlangıcı) ve t 1479-01-19 (künye; Juan II ölümü, DBE) bu oturumda yerleşime özgü tanıklıkla teyit edilemedi."
+   "not": "KARAR EMRELİC (gece-122): BOŞLUK 1243 BEYANLI ONAY (ABİ MERKEZ Mürsiye). | kastilya f 1281 (atlas başlangıcı) ve t 1479-01-19 (künye; Juan II ölümü, DBE) bu oturumda yerleşime özgü tanıklıkla teyit edilemedi."
   }
  ]
 }
