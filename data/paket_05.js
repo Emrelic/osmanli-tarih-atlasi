@@ -2134,6 +2134,7 @@ window.DEVLETLER = [
   f:"1075-01-01", t:"1308-01-01", baskent:"İznik → Konya", harita:"selcuklu",
   ozet:"Malazgirt sonrası Anadolu'yu Türkleştiren ilk büyük devlet; Moğol baskısıyla beyliklere parçalandı, Osmanlı'nın da doğduğu siyasi zemini bıraktı. (kaynak: TDV, madde: selcuklular)",
   kaynak:"selcuklular",
+  tabi:[{f:"1243-07-01", t:"1308-01-01", yazi:"Moğol vesayeti", kaynak:"POSTIT-178 (Emre: 'Moğol vesayeti yazalım') · TDV kosedag-savasi (Faruk Sümer, C.26 s.272-273): 'Anadolu Selçukluları Kösedağ bozgunuyla tâbi devlet durumuna düşmüş' · savaş günü İbn Bîbî 11 Muharrem 641 (1 Temmuz 1243), İbnü'l-Adîm 13 Muharrem (3 Temmuz) — erken uç seçildi · TDV diyarbakir: 'Moğollar'a tâbi olan Anadolu Selçuklu Devleti' (1259) · t: künye sonu 1308. Yalnız ETİKET: ust yok, gövde rengi değişmez; 1243-1256 üst Büyük Moğol, sonra İlhanlı olduğu için tek ad yazılmadı."}],
   kronoloji:[
     { odak_yer:["İznik"], t:"1071-08-26", tur:"savas", b:"Malazgirt zaferi Anadolu'nun kapısını açtı" },
     { odak_yer:["İznik"], t:"1075-01-01", tur:"kurulus", b:"I. Süleyman Şah tarafından kuruldu, İznik başkent oldu" },

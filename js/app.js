@@ -1123,13 +1123,15 @@ var etiketAdaylari = [];        // {ad, c, alan} — dönem başına bir kez kur
 // Postit #36 — künyedeki tabi: kaydı (yabancı üst devlet) etiketin yanında görünür:
 // "Dulkadiroğulları · tâbi: Memlûk Sultanlığı". Osmanlı'ya tâbilik vl etiketinin
 // işidir (aşağıda), burada atlanır — iki etiket çakışmasın.
+// Postit #178 — `yazi:` taşıyan dilim etikete o yazıyı koyar ("Moğol vesayeti");
+// `ust:` yoksa gövde rengi değişmez (tabiGovdeRengi asıl rengi döndürür).
 var _TABI_IX = null;
 function tabiYazisi(id, t) {
   if (!_TABI_IX) {
     _TABI_IX = {};
     (window.DEVLETLER || []).forEach(function (d) {
       if (!d || !d.tabi) return;
-      var l = d.tabi.filter(function (x) { return x && x.ust && x.ust !== "osmanli"; });
+      var l = d.tabi.filter(function (x) { return x && (x.ust || x.yazi) && x.ust !== "osmanli"; });
       if (!l.length) return;
       if (d.id) _TABI_IX[d.id] = l;
       if (d.harita && !_TABI_IX[d.harita]) _TABI_IX[d.harita] = l;
@@ -1139,6 +1141,7 @@ function tabiYazisi(id, t) {
   if (!l) return "";
   for (var i = 0; i < l.length; i++) {
     if (gunIdx(l[i].f) <= t && t < gunIdx(l[i].t)) {
+      if (l[i].yazi) return l[i].yazi;
       return tabiUstEki(devletAdi(l[i].ust).replace(/\s*\(.*\)\s*$/, "")) + " tâbi";
     }
   }
