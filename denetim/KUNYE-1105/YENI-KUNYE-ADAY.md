@@ -5,7 +5,7 @@ LAB SALI · `lab-1104-kunye` · 5-6 Kasım 2026 · **ÖNERİ — veriye dokunulm
 **Boyama şartı (ölçüldü, `uret_petek.py:1140`):** motor `d:` BOYALAR'da yoksa künyenin `harita:` anahtarına düşer. Yeni künye **mevcut bir boya anahtarıyla** (`harita:'ingiltere'`, `harita:'abd'` (6 künye) … — emsal: harita:'ingiltere' 10 künye) açılırsa `renkler.py`ye DOKUNULMAZ, motor tuzu değişmez; veri olağan koşuda yansır. **Kendi rengi** istenirse BOYALAR'a girmeli → renkler.py motor tuzu → tam yeniden inşa (7-8 saat, HAVVA). Karar sırasında her aday için hangisi olduğu seçilir.
 **Karar istenen:** her aday için ① künye açılsın mı (yoksa beyanlı boşluk / mevcut künyeye bağlama) ② kaynak turu (uçların günü) ③ BOYALAR rengi.
 
-Toplam: **28 aday**
+Toplam: **29 aday**
 
 | # | aday | öneri | dönemler | güç | not |
 |---|---|---|---|---|---|
@@ -37,3 +37,4 @@ Toplam: **28 aday**
 | 26 | `iskit` | İskit (Pontus İskitleri / Kırım İskit krallığı). Ölçüm: yalnız sakalar-bati-satraplar 'İndo-İskit Batı Kşatrapaları' (35-405, :20091) VAR — farklı polity; Karadeniz İskit künyesi YOK. Bir 'halk/kültür' künyesi mi devlet mi (SINIF-SUPHE halk künyesi sorusu). | Kırım, Dinyeper-Don bozkırı MÖ 7. yy → MS 3. yy | ZAYIF |  |
 | 27 | `diadokh-satraplıkları` | YENİ KÜNYE ADAYI (toplu): Diadokh dönemi satraplıkları (MÖ 323 → 301 İpsos) — künye YOK (ölçüldü: diadok/satrap id'si yok). Toplu sınıf künyesi mi, her diadokh ayrı mı (Antigonos, Lysimakhos, Kassandros, Ptolemaios, Seleukos — bunların bir kısmının künyesi olabilir, ölçülmeli) — SINIF kararı. | MÖ 323-301 Makedon mirası yerleşimleri | ZAYIF |  |
 | 28 | `kafsa-berberi` | Kafsa: kafsa-benirend-emirligi 'Kafsa (Gafsa) Emirliği — Benî Rend' f 1053-01-01 (:22714) VAR. 'Berberî/Kafsa krallığı' (Vandal/Bizans dönemi Berberî krallıkları, 5-7. yy: Mauro-Roma, Kafsa çevresi) için künye YOK → YENİ KÜNYE ADAYI (antik/geç antik) — hangi krallık (Altava/Mauro-Roma, Aurès, Kafsa) kaynakla. | Kafsa çevresi 5-7. yy | ZAYIF |  |
+| 29 | `endonezya-birlesik-devletleri` | Endonezya Birleşik Devletleri (Republik Indonesia Serikat, RUSI; federal) 1949-12-27 (Lahey egemenlik devri) → 1950-08-17 (üniter cumhuriyete dönüş). O zamana dek endonezya künyesi + ic_not 'RUSI dönemi'. Rejim/anayasa değişimi → aynı polity sayılırsa künye açmak gerekmez (ic_not yeter) — LAB görüşü: RUSI ayrı egemen federasyondu (Endonezya Cumhuriyeti onun bir eyaleti oldu), SINIF kararı Emre | Cava dışı federal eyaletler (Doğu Endonezya, Pasundan …) 1949-12-27 → 1950-08-17 | ZAYIF | hollanda-dogu-hint t 1949-12-27 ile bitişik. |
