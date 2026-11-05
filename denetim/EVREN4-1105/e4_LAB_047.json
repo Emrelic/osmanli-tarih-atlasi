@@ -1,0 +1,525 @@
+{
+ "Kapit (Fort Sylvia)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:239",
+   "alan": "s",
+   "d": "sarawak-brooke",
+   "f": "1880-01-01",
+   "t": "1946-07-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: Sarawak Tourism Board (kayıtlı, kurum portalı = ipucu); WebSearch (kale 1880); sarawak.gov.my zaman aşımı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kale kuruluşu 1880 için akademik/resmî kaynak bulunamadı; Brooke s: künyesi 1841-09-24. Kayıtlı kaynak kurum portalı, KAYNAKLI sayılmaz."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:239",
+   "alan": "s",
+   "d": "sarawak-tac-kolonisi",
+   "f": "1946-07-01",
+   "t": "1963-09-16",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: https://sarawak.gov.my/web/home/article_view/228/244/?id=228 (zaman aşımı, okunamadı); WebSearch",
+   "alinti": "",
+   "oneri": {},
+   "not": "1946-07-01 Sarawak devri okunamadı; sarawak.gov.my sayfası başka makinede okunmalı."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_a78_asya.js:239",
+   "alan": "s",
+   "d": "malezya",
+   "f": "1963-09-16",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "UK Malaysia Act 1963 s.1 — https://www.legislation.gov.uk/ukpga/1963/35/section/1",
+   "alinti": "Her Majesty’s sovereignty and jurisdiction in respect of the new States shall be relinquished",
+   "oneri": {},
+   "not": "Metin 'appointed day'de egemenliğin bırakılacağını söylüyor, 16 Eylül 1963 günü bu sayfada yazmıyor -> gün teyitsiz. ÜLKE DÜZEYİ."
+  }
+ ],
+ "Isiro": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:934",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1892-01-01",
+   "t": "1908-11-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: WebSearch (Albertville/Kalemie/Paulis); TDV kongo-demokratik-cumhuriyeti (1885 genel)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Isiro (Paulis) kuruluşu/Free State idaresi 1892 için kaynak bulunamadı (WebSearch: Uele/Paulis sonuç vermedi). Merdiven ④ açık."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:934",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti» — https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f ucu gün düzeyinde. 1960-06-30'da bölge ayrıca el değiştirmedi (Katanga ayrılığı 1960-07-11 sonrası ayrı konu)."
+  }
+ ],
+ "Kalemie": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1318",
+   "alan": "s",
+   "d": "kongo-serbest-devleti",
+   "f": "1892-01-01",
+   "t": "1908-11-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: WebSearch (Albertville/Kalemie/Paulis); TDV kongo-demokratik-cumhuriyeti (1885 genel)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Albertville 1891-12-30'da Jacques seferiyle kuruldu (Wikipedia-türevi arama özeti = İPUCU, okunmadı). Atlas koordinatı orijinal Albertville'den sonraki M'Toa/Lukuga yerleşimine ait olabilir; f 1891-12-30 öneri adayı, KAYNAKSIZ."
+  },
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1318",
+   "alan": "s",
+   "d": "kongo-kinsasa",
+   "f": "1960-06-30",
+   "t": "2000-12-31",
+   "hukum": "KAYNAKLI",
+   "uc": "f",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Kongo Demokratik Cumhuriyeti» — https://islamansiklopedisi.org.tr/kongo-demokratik-cumhuriyeti",
+   "alinti": "Belçika sömürgesi iken 30 Haziran 1960 tarihinde bağımsızlığına kavuşan ülkenin",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, f ucu gün düzeyinde. 1960-06-30'da bölge ayrıca el değiştirmedi (Katanga ayrılığı 1960-07-11 sonrası ayrı konu)."
+  }
+ ],
+ "Hokitika": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:247",
+   "alan": "s",
+   "d": "yeni-zelanda",
+   "f": "1864-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: An Encyclopaedia of New Zealand 1966 (Te Ara) https://teara.govt.nz/en/1966/hokitika — robots.txt yasağı, okunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kayıtlı kaynak 'during last six months of 1864' yıl hassasiyeti; erişilemedi, sayfa.py ile alıntı alınamadı. Merdiven ④: f=1864 kuruluş (YIL)."
+  }
+ ],
+ "Holmogorı": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_rusya.js:162",
+   "alan": "s",
+   "d": "novgorod",
+   "f": "1281-01-01",
+   "t": "1478-01-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi arama sonuç sayfası (madde içi parça) — https://islamansiklopedisi.org.tr/arama/novgorod",
+   "alinti": "Büyük Novgorod (1478), Pskov (1510)",
+   "oneri": {},
+   "not": "Alıntı yalnız t ucunu (Novgorod'un Moskova'ya katılışı 1478) YIL düzeyinde tarihliyor; tek TDV arama parçası, gün 1478-01-15 teyitsiz. Dvina Toprağı/Holmogorı'nın Moskova'ya fiilî geçişi 1471 olabilir (arama özeti, okunmadı) -> ÜLKE DÜZEYİ şartı doğrulanamadı."
+  }
+ ],
+ "Huelva": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:309",
+   "alan": "s",
+   "d": "kastilya",
+   "f": "1281-01-01",
+   "t": "1479-01-19",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Arama özeti: RAH Diccionario Biográfico 'Juan II de Aragón' 29.VI.1398-19.I.1479 ve Treccani Enc. Italiana 'Giovanni II' (EI 1929-37 = ipucu); sayfa okunamadı",
+   "alinti": "",
+   "oneri": {},
+   "not": "t=1479-01-19 Aragon Juan II'nin ölüm günü; okunmuş alıntı yok -> KAYNAKLI değil. Atlas künyesiyle uyumlu (ipucu)."
+  }
+ ],
+ "Hughenden": [
+  {
+   "dosya_satir": "data/yerlesimler_okyanusya.js:69",
+   "alan": "s",
+   "d": "queensland",
+   "f": "1877-01-01",
+   "t": "1901-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: Queensland Places (yasak liste), WebSearch (kupi/Wikipedia-türevi, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Ernest Henry istasyonu 1863, Yerli Polis kışlası 1870, kasaba etüdü 1877 (hepsi İPUCU, okunmuş akademik kaynak yok). Queensland künye f 1859-06-06."
+  }
+ ],
+ "Hull": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:86",
+   "alan": "s",
+   "d": "ingiltere",
+   "f": "1281-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakıldı: Hull History Centre 1299 charter (kurum), WebSearch; BHO yasak",
+   "alinti": "",
+   "oneri": {},
+   "not": "Wyke upon Hull 12. yy sonu Meaux Abbey kuruluşu, Edward I satın alma 1293/1296, charter 1299-04-01 (kurum/ikincil özet). Atlas 1281 tabanında 'ingiltere' için akademik teyit okunmadı; ÜLKE DÜZEYİ trivial."
+  }
+ ],
+ "Humaitá (Madeira)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:1078",
+   "alan": "s",
+   "d": "brezilya-imparatorlugu",
+   "f": "1888-11-13",
+   "t": "1889-11-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: IBGE (yasak liste, kayıtlı Lei 790 13-11-1888), WebSearch (Humaitá Amazonas sonuç yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f=1888-11-13 ilçe merkezinin Humaitá'ya taşınma yasası; yerleşimin kuruluşu/Brezilya İmparatorluğu altında bulunuşu için akademik kaynak bulunamadı."
+  }
+ ],
+ "Hums (Lebde)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika.js:478",
+   "alan": "d",
+   "d": "OSMANLI",
+   "f": "1893-01-01",
+   "t": "1912-10-18",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakıldı: TDV 'Trablusgarp' (Lübde sancağı XX. yy başı; 1893 yok, Uşi günü yok), TDV 'hums' (başka madde)",
+   "alinti": "",
+   "oneri": {},
+   "not": "d:OSMANLI f=1893 (kuruluş/idari birim) kaynak yok. t=1912-10-18 Uşi imzası atlas kuralı; Hums 1911-10-21'de İtalyan işgalinde idi -> mevcut zincir s: italya 1912-10-18 uyumlu, ek kaynak okunmadı."
+  }
+ ],
+ "Hämeenlinna": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:382",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Svenskt biografiskt lexikon (Riksarkivet), «Gustav I» — https://sok.riksarkivet.se/sbl/artikel/13315",
+   "alinti": "på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Hämeenlinna Häme Kalesi (13. yy) f için kaynak okunmadı."
+  }
+ ],
+ "Härnösand": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:83",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Store norske leksikon, «Härnösand» — https://snl.no/H%C3%A4rn%C3%B6sand",
+   "alinti": "Byen ble grunnlagt i 1585",
+   "oneri": {
+    "kırp": "1281-01-01→1523-06-06 dönemi: Härnösand kenti 1585'te kuruldu"
+   },
+   "not": "MERDİVEN ④: SNL kentin 1585'te kurulduğunu söylüyor -> 1523'ten önce yerleşim yok varsayımı; Härnön adasında eski yerleşim olabilir (SNL yalnız kent kuruluşu). Kırpma ONERI; isvec dönemi f'si 1585'e alınması ayrıca düşünülmeli. SBL ile t=1523-06-06 ülke düzeyi geçerli."
+  }
+ ],
+ "Ica (Villa de Valverde)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:175",
+   "alan": "s",
+   "d": "ispanyol-peru",
+   "f": "1563-06-17",
+   "t": "1824-12-09",
+   "hukum": "ONERI",
+   "uc": "f+t",
+   "kaynak": "Arama özeti: Municipalidad Provincial de Ica (gob.pe, kurum = ipucu): Ica 21 Ekim 1820'de bağımsızlığını ilan etti (Arenales, Salas)",
+   "alinti": "",
+   "oneri": {},
+   "not": "ELDEN ELE ŞÜPHESİ: Ica 1820-10-21'de patriyot yanına geçti; Ayacucho 1824-12-09 ülke düzeyidir -> t yerleşime özgü olmayabilir. Okunmuş akademik kaynak yok; öneri değeri kaynaklı değil. f=1563-06-17 Villa de Valverde kuruluşu kurum kaynağı (ipucu)."
+  }
+ ],
+ "Ile-a-la-Crosse": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:507",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1779-01-01",
+   "t": "1870-07-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Rupert's Land and North-Western Territory Order (Justice Canada, Constitution Enactment No. 3) — https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Rupert's Land/NWT 1870-07-15'te Kanada'ya kabul. Alıntı yalnız t ucunu tarihliyor. f=1779: ilk ticaret postası Thomas Frobisher 1776 (Canadian Encyclopedia özeti = yasak/ipucu), f için öneri 1776 ama okunmuş kaynak yok."
+  }
+ ],
+ "Iqaluit (Frobisher Körfezi)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:246",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1576-08-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Gordon W. Smith, 'The Transfer of Arctic Territories from Great Britain to Canada in 1880', Arctic 14(1), 1961 (Order in Council 31 Temmuz 1880 tam metni) — https://canadianmysteries.ca/sites/franklin/archive/text/TransferTerritories_en.htm",
+   "alinti": "From and after September 1, 1880, all British territories and possessions in North America",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Adjacent Territories Order, 1880-09-01'den İngiliz Arktik toprakları Kanada'ya. Alıntı yalnız t ucunu tarihliyor. f=1576-08-01 Frobisher'in Baffin'e varışı (ipucu); İnuit varlığı çok daha eski -> f için 1281-01-01 (kardeş Clyde River gibi) önerilir ama kaynaksız."
+  }
+ ],
+ "Jaguarari": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:831",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1893-10-23",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: IBGE (yasak liste), WebSearch (sonuç yok)",
+   "alinti": "",
+   "oneri": {},
+   "not": "f=1893-10-23 bölge/ilçe kuruluş yasası; akademik kaynak bulunamadı."
+  }
+ ],
+ "Jasper House": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:617",
+   "alan": "s",
+   "d": "ingiliz-kuzey-amerika",
+   "f": "1813-01-01",
+   "t": "1870-07-15",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Rupert's Land and North-Western Territory Order — https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ t ucu 1870-07-15 (Athabasca havzası Rupert's Land). Alıntı yalnız t. f=1813: NWC Rocky Mountain Post Brûlé Gölü'nde (Decoigne, 1813; Parks Canada/arama özeti = ipucu). Atlas koordinatı ikinci Jasper House sahasına (HBC, 1829/1830) ait olabilir -> o zaman f=1829 öneri (merdiven ④), kaynak okunmadı."
+  }
+ ],
+ "Ji-Paraná (Presidente Pena telgraf istasyonu)": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_amerika.js:367",
+   "alan": "s",
+   "d": "brezilya-cumhuriyeti",
+   "f": "1909-01-01",
+   "t": "2000-12-31",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: IBGE (yasak), WebSearch (smargiassi.com.br, sapl.al.ro.leg.br: Rondon 1909 telgraf istasyonu = ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Rondon istasyonu 1909 (kurum/ikincil), gün yok."
+  }
+ ],
+ "Jokkmokk": [
+  {
+   "dosya_satir": "data/yerlesimler_ek8.js:107",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Svenskt biografiskt lexikon (Riksarkivet), «Gustav I» — https://sok.riksarkivet.se/sbl/artikel/13315",
+   "alinti": "på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Jokkmokk Lule Lappmark; kasaba/pazar 1605 (hint, okunmadı) -> 1281-1523'te yerleşim/İsveç idaresi belirsiz: merdiven ④ kontrol edilmeli."
+  }
+ ],
+ "Jyväskylä": [
+  {
+   "dosya_satir": "data/yerlesimler_ek7.js:115",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Store norske leksikon, «Jyväskylä» — https://snl.no/Jyv%C3%A4skyl%C3%A4",
+   "alinti": "Jyväskylä fikk bystatus i 1837",
+   "oneri": {},
+   "not": "MERDİVEN ④ adayı: kent statüsü 1837; 1281-1523'te yerleşim olduğuna dair kaynak yok. Kırpma için ek kaynak gerekir; SNL yalnız bystatus verir. SBL ile t=1523-06-06 (ÜLKE DÜZEYİ) ayrıca geçerli."
+  }
+ ],
+ "Jönköping": [
+  {
+   "dosya_satir": "data/yerlesimler_avrupa.js:348",
+   "alan": "s",
+   "d": "isvec-birlik-oncesi",
+   "f": "1281-01-01",
+   "t": "1523-06-06",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Svenskt biografiskt lexikon (Riksarkivet), «Gustav I» — https://sok.riksarkivet.se/sbl/artikel/13315",
+   "alinti": "på riksdagen i Strängnäs 6 juni 1523 valdes till sv konung.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Gustav Vasa'nın Strängnäs'te kral seçildiği gün (6 Haziran 1523, Jülyen; atlas künye isvec f ile aynı). Alıntı yalnız t ucunu tarihliyor; f ucu (1281) atlas başlangıç tabanı, kaynaksız. Jönköping şehir imtiyazı 1284 (Magnus Ladulås; 17/18 Mayıs 1284 arama özeti = ipucu) -> 1281-1284 arasında yerleşim vardı, f=1281 tabanı uyumlu."
+  }
+ ],
+ "Kabansk": [
+  {
+   "dosya_satir": "data/yerlesimler_sibirya2.js:36",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1660-01-01",
+   "t": "1917-03-15",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: WebSearch (Кабанский острог; kayıtlı cyberleninka makalesi bulunamadı)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Kabansk ostrog kuruluşu 1660 için okunmuş kaynak yok."
+  }
+ ],
+ "Kainsk (Baraba)": [
+  {
+   "dosya_satir": "data/yerlesimler_ek18.js:120",
+   "alan": "s",
+   "d": "rusya",
+   "f": "1722-01-01",
+   "t": "1917-03-15",
+   "hukum": "ONERI",
+   "uc": "f",
+   "kaynak": "Novosibirsk Oblastı Tarihî-Kültürel Miras Koruma Merkezi (НПЦ), 'Куйбышев (Каинск): исторический очерк' — http://nasledie-nso.ru/node/261",
+   "alinti": "Каинский пас был поставлен в 1722 г.",
+   "oneri": {},
+   "not": "Kurum kaynağı = İPUCU (KAYNAKLI verilmez); f=1722 yıl düzeyinde tutarlı. Hakemli kaynak (Gorokhov, Vestnik NGU 2020) URL'si 404."
+  }
+ ],
+ "Kamışin": [
+  {
+   "dosya_satir": "data/yerlesimler_ek22.js:111",
+   "alan": "s",
+   "d": "altinorda",
+   "f": "1281-01-01",
+   "t": "1502-03-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Altın Orda Hanlığı» — https://islamansiklopedisi.org.tr/altin-orda-hanligi",
+   "alinti": "1241-1502 yılları arasında Deştikıpçak’ta hüküm süren bir Türk-Moğol devleti.",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ, yalnız t ucu ve YIL (1502; atlas 1502-03-01 gün teyitsiz). Kamışin kenti 17. yy kuruluşlu olabilir (kaynak okunmadı) -> merdiven ④: yerleşim 1502'de yok olabilir."
+  }
+ ],
+ "Kangirsuk (Payne Irmağı)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:372",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Rupert's Land and North-Western Territory Order — https://www.justice.gc.ca/eng/rp-pr/csj-sjc/constitution/lawreg-loireg/p1t31.html",
+   "alinti": "from and after the fifteenth day of July, one thousand eight hundred and seventy",
+   "oneri": {
+    "t": "1870-07-15"
+   },
+   "not": "Ungava Rupert's Land içinde → Kanada'ya geçiş 1870-07-15 (Rupert's Land Order); 1880-09-01 (Adjacent Territories) yalnız Arktik adalar — Rupert's Land cümlesi okunacak. | Ungava/Payne Irmağı Rupert's Land'dedir (HBC); Kanada'ya katılış 1870-07-15. 1880-09-01 (Adjacent Territories Order) yalnız hâlâ İngiliz kalan topraklar/adalar içindir. Order'ın Rupert's Land cümlesi sayfa.py çıktısında okunmadı (NWT cümlesi okundu); kayıt zincirindeki alıntı bunu içeriyor. Quebec sınır uzatması 1912 ayrı."
+  }
+ ],
+ "Kangiva (Nain iç bölgesi)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:455",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Gordon W. Smith, 'The Transfer of Arctic Territories from Great Britain to Canada in 1880', Arctic 14(1), 1961 (Order in Council 31 Temmuz 1880 tam metni) — https://canadianmysteries.ca/sites/franklin/archive/text/TransferTerritories_en.htm",
+   "alinti": "From and after September 1, 1880, all British territories and possessions in North America",
+   "oneri": {
+    "not": "Labrador zinciri (gece-126): ingiltere 1809 → newfoundland 1855 → komisyon 1934 → kanada 1949-03-31"
+   },
+   "not": "ÖNCEKİ KARAR (gece-126 Labrador): 1880 Kanada geçişi geçersiz (Order Newfoundland'ı hariç tutar) → s: ingiltere 1809 → newfoundland-dominyonu 1855-01-01 → newfoundland-komisyon-hukumeti 1934-02-16 → kanada 1949-03-31; iç Labrador 1927 JCPC ic_not. | Order Newfoundland ve bağımlılıklarını AÇIKÇA hariç tutuyor (with the exception of the Colony of Newfoundland and its dependencies); Labrador Newfoundland bağımlılığıydı -> Kanada'ya geçiş 1880 değil (1949 katılım, okunmadı). Labrador için ayrı zincir gerekir."
+  }
+ ],
+ "Kanngiqtugaapik (Clyde River)": [
+  {
+   "dosya_satir": "data/yerlesimler_kamerika.js:69",
+   "alan": "s",
+   "d": "inuit",
+   "f": "1281-01-01",
+   "t": "1880-09-01",
+   "hukum": "ONERI",
+   "uc": "t",
+   "kaynak": "Gordon W. Smith, 'The Transfer of Arctic Territories from Great Britain to Canada in 1880', Arctic 14(1), 1961 (Order in Council 31 Temmuz 1880 tam metni) — https://canadianmysteries.ca/sites/franklin/archive/text/TransferTerritories_en.htm",
+   "alinti": "From and after September 1, 1880, all British territories and possessions in North America",
+   "oneri": {},
+   "not": "ÜLKE DÜZEYİ: Baffin adası 1880-09-01 (Adjacent Territories Order). Alıntı yalnız t ucunu tarihliyor."
+  }
+ ],
+ "Kara (Togo)": [
+  {
+   "dosya_satir": "data/yerlesimler_halef_1946.js:37",
+   "alan": "s",
+   "d": "fransiz-togo",
+   "f": "1922-07-20",
+   "t": "1960-04-27",
+   "hukum": "KAYNAKLI",
+   "uc": "f+t",
+   "kaynak": "TDV İslâm Ansiklopedisi, «Togo» — https://islamansiklopedisi.org.tr/togo",
+   "alinti": "1922’de Milletler Cemiyeti tarafından Fransa ve İngiltere’nin mandası onaylandı. / 27 Nisan 1960 tarihinde bağımsızlık ilân edildi",
+   "oneri": {},
+   "not": "ÖNCEKİ KARAR: Togo/Kamerun manda 1922-07-20 (Versay 1919-06-28 öncesi isg). | ÜLKE DÜZEYİ. f: YIL düzeyi (1922); gün 1922-07-20 TDV'de yok (atlas kararı). t: 1960-04-27 gün düzeyinde."
+  }
+ ],
+ "Kasama (Bemba)": [
+  {
+   "dosya_satir": "data/yerlesimler_afrika2.js:1489",
+   "alan": "s",
+   "d": "bemba",
+   "f": "1700-01-01",
+   "t": "1899-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f+t",
+   "kaynak": "Bakıldı: WebSearch (Roberts, Chronology of the Bemba, JAH 1970 — özet, okunmadı); Britannica yasak",
+   "alinti": "",
+   "oneri": {},
+   "not": "Arama özeti: 1898'de İngilizler Bemba'yı denetime aldı, Kasama'da idari merkez kurdu (Mambwe sayfası = ipucu); atlas t=1899-01-01 yakın. Gün yok, okunmuş akademik alıntı yok. BSAC dönemi BEYANLI."
+  }
+ ],
+ "Kasrülkebîr": [
+  {
+   "dosya_satir": "data/yerlesimler_h2_kuzeyafrika.js:72",
+   "alan": "s",
+   "d": "merini",
+   "f": "1281-01-01",
+   "t": "1549-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "t",
+   "kaynak": "Bakıldı: TDV (kasrulkebir madde yok), WebSearch",
+   "alinti": "",
+   "oneri": {},
+   "not": "1549 ucu için kaynak yok: arama özeti 1549=Sa'dîlerin Fas'ı (Fes) alışı; Vattâsî dönemi künye 'merini' içinde (1196-1549). Kasrülkebîr'in Sa'dî'ye geçiş günü okunmadı."
+  }
+ ],
+ "Katherine": [
+  {
+   "dosya_satir": "data/yerlesimler_a78_okyanusya.js:305",
+   "alan": "s",
+   "d": "kuzey-bolgesi-sa",
+   "f": "1871-01-01",
+   "t": "1911-01-01",
+   "hukum": "BULUNAMADI",
+   "uc": "f",
+   "kaynak": "Bakıldı: Britannica (yasak, kayıtlı), WebSearch (Katherine Council/Museum, ipucu)",
+   "alinti": "",
+   "oneri": {},
+   "not": "Telgraf hattı 1872-08-22'de birleşti, Katherine istasyonu 1872'de açıldı (kurum/arama özeti, ipucu) -> f=1871 yerine 1872 öneri adayı, okunmuş kaynak yok. Kuzey Bölge SA 1863-07-06."
+  }
+ ]
+}
